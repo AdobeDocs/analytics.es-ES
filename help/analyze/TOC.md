@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Análisis de Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 148e463fe171a444cf9705d60d761b791d53e5fe
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -324,8 +324,8 @@ source-git-commit: 148e463fe171a444cf9705d60d761b791d53e5fe
    + [Administrador de programación](ad-hoc-analysis/c-schedule.md)
    + [Generador de tablas](ad-hoc-analysis/c-tablebuilder.md)
    + [Fecha](ad-hoc-analysis/c-time.md)
-+ Analytics Labs {#tech-previews}
-   + [Labs](tech-previews/overview.md)
++ Technology Previews {#tech-previews}
+   + [Visión general de la vista previa de tecnología](tech-previews/overview.md)
 + API de informes de Analytics {#analytics-reporting-api}
    + [Información general de la API de informes de Analytics](c-reporting-api/c-reporting-api.md)
    + [Comparación de las API de informes de Analytics](c-reporting-api/api-comparison.md)
