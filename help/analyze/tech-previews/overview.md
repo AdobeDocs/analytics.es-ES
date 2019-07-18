@@ -4,7 +4,7 @@ seo-title: Labs para Adobe Analytics
 description: Vista previa de proyectos prototipo para Adobe Analytics
 seo-description: Vista previa de prototipos para Adobe Analytics
 translation-type: tm+mt
-source-git-commit: caea9c6fe37292212e6fccb5cf99770fa9a60d06
+source-git-commit: 20bb6b39530c57679463691e7507353aff2d106e
 
 ---
 
@@ -67,7 +67,7 @@ Para iniciar y evaluar un prototipo:
 
 ## Información adicional
 
-* Labs está actualmente disponible como acceso anticipado a un número limitado de clientes, pero se lanzará ampliamente más tarde.
+* Labs se publica actualmente como acceso anticipado a un número limitado de clientes, pero se lanzará ampliamente más tarde.
 
 * Algunos prototipos dentro de Labs se convierten en funciones de Analytics; otros no. Sus comentarios impulsan la decisión, así que revise los prototipos y deje que Adobe sepa cuán valioso los encuentra.
 
