@@ -23,7 +23,7 @@ En esta página se asume que el usuario tiene conocimientos básicos sobre el us
 
 Muestra una vista agregada de todos los canales que utilizan los visitantes para llegar al sitio.
 
-1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## Todo tráfico - Presentaciones
@@ -31,12 +31,12 @@ Muestra una vista agregada de todos los canales que utilizan los visitantes para
 Muestra un rectángulo del tráfico de canal. Este informe es similar a Todo tráfico: canales, pero se muestra de manera diferente.
 
 1. Haga clic en el icono Visualizaciones de la izquierda y arrastre la visualización de Treemap al espacio de trabajo por encima de la tabla improvisada vacía.
-2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+2. Click the Components icon on the left, then drag the **Marketing Channel** dimension onto the large freeform table area labeled 'Drop a dimension here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 4. Tenga en cuenta que las métricas adicionales crean otros rectángulos. Si solo se desea un rectángulo:
    1. Haga clic en la celda superior de la métrica que desee para representar el rectángulo.
    2. Mayús + clic en la última celda de la misma columna de métrica para resaltar la columna azul. Si se realiza correctamente, hay un gráfico de rectángulos en la visualización.
-   3. Haga clic en el punto coloreado en la esquina superior derecha de la visualización de rectángulos y, a continuación, haga clic en la casilla&#39;Bloquear selección &#39;.
+   3. Haga clic en el punto coloreado en la esquina superior derecha de la visualización de rectángulos y, a continuación, haga clic en la casilla'Bloquear selección '.
 
 Los gráficos de rectángulos se pueden aplicar a cualquier dimensión, no solo a los canales de marketing.
 
@@ -62,7 +62,7 @@ Consulte las páginas siguientes en la guía del usuario de Componentes para obt
 * The **Source** primary dimension is available in Analysis Workspace as the **Referring Domain** dimension.
 * The **Landing Page** primary dimension is available in Analysis Workspace as the **Entry Page** dimension.
 
-1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a dimension here&#39;.
+1. In the components menu, locate the **Referring Domain** or **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 See the [Referring Domain](../../../components/c-variables/dimensionslist/reports-referring-domains.md) dimension in the Components user guide for more information.
@@ -83,16 +83,16 @@ A veces, los visitantes llegan al sitio a través de varios canales en la misma 
 
 El informe Referencias de red muestra qué dominios de redes sociales condujeron el tráfico al sitio. This data is available in Analysis Workspace using the **Referring Domain** dimension and **Visits from Social Sites** segment.
 
-1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled &#39;Drop a segment here&#39;.
+1. In the Components menu, locate the **Referring Domain** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ### Social - Páginas de aterrizaje
 
 El informe Páginas de aterrizaje muestra a qué páginas llegaron los visitantes después de hacer clic en un vínculo a través de una red social. This data is available in Analysis Workspace using the **Entry Page** dimension and **Visits from Social Sites** segment.
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
-2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled &#39;Drop a segment here&#39;.
+1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
+2. In the Components menu, locate the **Visits from Social Sites** segment and drag in onto the small area just above the freeform table labeled 'Drop a segment here'.
 3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ### Social - Conversiones
@@ -108,9 +108,9 @@ El informe Complementos muestra cómo los visitantes interactúan con los comple
 El informe de flujo de usuarios muestra los datos de ruta en el contexto de visitantes que llegan a través de una red social.
 
 1. Haga clic en el icono de visualizaciones a la izquierda y arrastre una visualización de Flujo al espacio de trabajo encima de la tabla improvisada.
-2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled &#39;Drop a Segment here&#39;.
+2. Click the Components icon on the left, then drag the **Visits from Social Sites** segment onto the small area just above the flow visualization labeled 'Drop a Segment here'.
 3. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. Los valores de dimensión se colorean en color amarillo.
-4. Busque el valor de página que desee para comenzar y arrástrelo al espacio rotulado&#39;Dimensión o elemento&#39;en el centro.
+4. Busque el valor de página que desee para comenzar y arrástrelo al espacio rotulado'Dimensión o elemento'en el centro.
 5. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos con páginas anteriores o anteriores. Utilice el menú de clic derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
 ## Campañas - Todo
@@ -119,21 +119,21 @@ The campaigns report is available in Analysis Workspace using the **Tracking Cod
 
 Es posible recopilar parámetros UTM en Adobe Analytics mediante variables personalizadas (evars). Adobe recomienda trabajar con un asesor de implementación para garantizar que los valores del código de seguimiento se recopilen correctamente en Adobe Analytics.
 
-1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Tracking Code** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## Campañas: palabras clave pagas
 
 El informe de palabras clave pagas muestra cómo funciona cada palabra clave después de que un visitante hace clic en un vínculo de búsqueda paga desde un motor de búsqueda. The **Search Keywords - Paid** dimension is available in Analysis Workspace, but requires a one-time setup of paid search detection to collect data. See [Paid Search Detection](../../../admin/admin/paid-search-detection/paid-search-detection.md) in the Admin user guide for setup details.
 
-1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Search Keyword - Paid** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## Campañas - Palabras clave orgánicas
 
 El informe Palabras clave orgánicas muestra cómo funciona cada palabra clave después de que un visitante hace clic en un vínculo de búsqueda orgánica desde un motor de búsqueda. The **Search Keywords - Natural** dimension is available in Analysis Workspace. Tenga en cuenta que si la detección de búsqueda paga no está configurada, esta dimensión recopila palabras clave naturales y pagas.
 
-1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Search Keyword - Natural** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 ## Análisis de costos
