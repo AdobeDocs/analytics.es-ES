@@ -25,7 +25,7 @@ Lista de reproducción de YouTube completa disponible [aquí](https://www.youtub
 
 >[!NOTE]
 >
->See [What&#39;s New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+>See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +53,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project&#39;s table of contents. Puede compartir estos vínculos como lo haría con el de un proyecto para llevar a un usuario hasta una visualización o panel específico de un proyecto. Se han añadido las opciones nuevas “Obtener vínculo del panel” y “Obtener vínculo de visualización”, a las que se accede con el botón derecho. Para agregar el intravínculo a un proyecto:
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Puede compartir estos vínculos como lo haría con el de un proyecto para llevar a un usuario hasta una visualización o panel específico de un proyecto. Se han añadido las opciones nuevas “Obtener vínculo del panel” y “Obtener vínculo de visualización”, a las que se accede con el botón derecho. Para agregar el intravínculo a un proyecto:
 
 1. Arrastre una visualización de texto a un proyecto. Puede situarla junto a una visualización o tabla que necesite contexto.
 1. Rellene el cuadro de texto con, por ejemplo, una tabla de contenido. A continuación, resalte un elemento que desee vincular a un panel o una visualización, como las métricas de éxito.
@@ -105,7 +105,7 @@ Ahora, las tendencias seleccionadas están **vinculadas** a la siguiente tabla, 
 
 Como minorista, puede profundizar más que nunca antes en sus campañas para comprender cómo involucrar mejor a los clientes. Desglose los datos ilimitadamente para sus necesidades específicas; genere consultas con métricas, dimensiones, segmentos, líneas de tiempo y otros valores de desglose de análisis relevantes.
 
-![Resultado de paso](assets/fa_data_table_actions.png)
+![Resultado de los pasos](assets/fa_data_table_actions.png)
 
 See [Break down dimensions](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4).
 
