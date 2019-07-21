@@ -44,13 +44,13 @@ Permite controlar el acceso a los datos de los informes. Las opciones incluyen c
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Aplicar restricciones de inicio de sesión IP</span> </td> 
-   <td colname="col2"> <p>Limita el acceso a los informes para direcciones IP individuales o en intervalos. </p> <p>Se pueden agregar hasta 100 entradas en la lista de filtro de direcciones IP, y cada una de ellas puede ser una dirección determinada o un rango de direcciones. </p> <p> <span class="wintitle"> Aplicar restricciones de inicio de sesión IP</span> no se aplicará mientras no haya al menos una entrada en la lista de filtro de direcciones IP. </p> <p> <span class="uicontrol"> Dirección IP aceptada</span>: Para especificar un intervalo de direcciones IP, escriba el rango entre corchetes (por ejemplo, <code>
- 
- 192.168.10.[20-240]
-     </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-     <code>
-       192.168.[10-14].*
-     </code>) </p> <p>Los inicios de sesión que generan errores se registran y pueden verse desde <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">Uso del registro y acceso a él</a>. </p> </td> 
+   <td colname="col2"> <p>Limita el acceso a los informes para direcciones IP individuales o en intervalos. </p> <p>Se pueden agregar hasta 100 entradas en la lista de filtro de direcciones IP, y cada una de ellas puede ser una dirección determinada o un rango de direcciones. </p> <p> <span class="wintitle"> Aplicar restricciones de inicio de sesión IP</span> no se aplicará mientras no haya al menos una entrada en la lista de filtro de direcciones IP. </p> <p> <span class="uicontrol"> Dirección IP aceptada</span>: Para especificar un intervalo de direcciones IP, escriba el rango entre corchetes (por ejemplo,
+       <code>
+        192.168.10.[20-240]
+       </code>). You can also use wildcards (*) to specify any number from 0 to 255 (por ejemplo, 
+       <code>
+        192.168.[10-14].*
+       </code>) </p> <p>Los inicios de sesión que generan errores se registran y pueden verse desde <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">Uso del registro y acceso a él</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Aplicar restricciones de dominio de correo electrónico</span> </td> 

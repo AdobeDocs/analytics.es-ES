@@ -49,19 +49,20 @@ A continuación se muestran los pasos de una implementación básica de Analytic
    <td colname="col2"> <p>(Formerly <span class="term"> Visitor ID service </span>.) See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external"> Set Up the Identity Service for Analytics </a>. </p> 
     <draft-comment> 
      <p>En <code>VisitorAPI.js</code>, añada el siguiente código de inicialización de ID de visitante al principio del archivo: </p> 
-     <code class="syntax javascript">var visitor = Visitor. getinstance ("INSERT-MCORG-ID-HERE"); visitor. trackingserver = "INSERT-TRACKING-SERVER-HERE"; // igual que s. trackingserver visitor. trackingserversecure = "INSERT-SECURE-TRACKING-SERVER-HERE"; //same as s. trackingserversecure/* = = DO NOT ALTER ANYTHING BELOW THIS LINE = = </code>
-  
+     <code class="syntax javascript">
+       var&nbsp;visitor&nbsp;=&nbsp;Visitor.getInstance("INSERT-MCORG-ID-HERE"); visitor.trackingServer&nbsp;=&nbsp;"INSERT-TRACKING-SERVER-HERE";&nbsp;//&nbsp;same&nbsp;as&nbsp;s.trackingServer visitor.trackingServerSecure&nbsp;=&nbsp;"INSERT-SECURE-TRACKING-SERVER-HERE";&nbsp;//same&nbsp;as&nbsp;s.trackingServerSecure /* == DO NOT ALTER ANYTHING BELOW THIS LINE ==
+     </code> 
      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
-      <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> " INSERT-MCORG-ID-HERE " </code> : (obligatorio) este ID de organización de Adobe Experience Cloud se envía al administrador cuando se aprovisiona su empresa para Adobe Experience Cloud. </li> 
-      <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE"</code> (obligatorio): su servidor de seguimiento de Analytics. </li> 
-      <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE"</code>: (requerido si está habilitado SSL) su servidor de seguimiento seguro de Analytics. </li> 
+      <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> "INSERT-MCORG-ID-HERE" </code> - (Obligatorio) Este ID de organización de Adobe Experience Cloud se envía al administrador cuando se aprovisiona su empresa para Adobe Experience Cloud. </li> 
+      <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code> "INSERT-TRACKING-SERVER-HERE" </code> - (Obligatorio) Su servidor de seguimiento de Analytics. </li> 
+      <li id="li_C578420458D649228E54D9809AF62627"> <code> "INSERT-SECURE-TRACKING-SERVER-HERE" </code> - (Requerido si está habilitado SSL) Su servidor de seguimiento seguro de Analytics. </li> 
      </ul> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step3_icon.png" id="image_76B61DEABE3849CCB39135FDD7399EAA" /> </td> 
-   <td colname="col1"> Actualizar <code>AppMeasurement.js </code>. </td> 
-   <td colname="col2"> <p>Copie el <a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_4351543F2D6049218E18B48769D471E2" format="dita" scope="local">Ejemplo de código de AppMeasurement.js</a> y péguelo al principio del archivo <code>AppMeasurement.js</code>. Como mínimo, actualice las siguientes variables: </p> 
+   <td colname="col1"> Actualizar <code> AppMeasurement.js </code>. </td> 
+   <td colname="col2"> <p>Copie el <a href="../../implement/js-implementation/appmeasure-mjs-pagecode.md#section_4351543F2D6049218E18B48769D471E2" format="dita" scope="local"> Ejemplo de código de AppMeasurement.js</a> y péguelo al principio del archivo <code> AppMeasurement.js </code>. Como mínimo, actualice las siguientes variables: </p> 
     <ul id="ul_62FA640BD2604E589650A92158272615"> 
      <li id="li_54E56B483B3A416EA27D7B540D60E39F"> <code> s.account="INSERT-RSID-HERE" </code> </li> 
      <li id="li_00A958289BB045379B436F13287E03D5"> <code> s.trackingServer="INSERT-TRACKING-SERVER-HERE" </code> </li> 
@@ -71,16 +72,19 @@ A continuación se muestran los pasos de una implementación básica de Analytic
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> Alojar <code>AppMeasurement.js</code> y <code>VisitorAPI.js </code>. </td> 
+   <td colname="col1"> Alojar <code> AppMeasurement.js </code> y <code> VisitorAPI.js </code>. </td> 
    <td colname="col2"> <p>Estos archivos JavaScript principales deben alojarse en un servidor web al que se pueda acceder desde todas las páginas del sitio. En el siguiente paso necesitará la ruta a estos archivos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
-   <td colname="col1"> Introducir una referencia a <code>AppMeasurement.js</code> y <code>VisitorAPI.js</code> en todas las páginas del sitio. </td> 
-   <td colname="col2"> <p> Para incluir el servicio de ID de visitante, agregue la línea de código siguiente en la etiqueta <code>&lt;head&gt;</code> o &lt;body&gt; de cada página. <code> VisitorAPI.js</code> debe incluirse antes de <code>AppMeasurement.js </code>: </p> 
-    <code class="syntax html">&lt; script language = "JavaScript" type = "text/javascript" src = "https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js" &gt; &lt;/script &gt; </code>
-  <p> Para incluir AppMeasurement para JavaScript, agregue la línea de código siguiente en la etiqueta <code>&lt;head&gt;</code> o <code>&lt;body&gt;</code> de cada página: </p> 
-    <code class="syntax html">&lt; script language = "JavaScript" type = "text/javascript" src = "https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js" &gt; &lt;/script &gt; </code>
+   <td colname="col1"> Introducir una referencia a <code> AppMeasurement.js </code> y <code> VisitorAPI.js </code> en todas las páginas del sitio. </td> 
+   <td colname="col2"> <p> Para incluir el servicio de ID de visitante, agregue la línea de código siguiente en la etiqueta <code> &lt;head&gt; </code> o &lt;body&gt; de cada página. <code> VisitorAPI.js </code> debe incluirse antes de <code> AppMeasurement.js </code>: </p> 
+    <code class="syntax html">
+      &lt;script language="JavaScript" type="text/javascript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/VisitorAPI.js" &gt; &lt;/script &gt;
+    </code> <p> Para incluir AppMeasurement para JavaScript, agregue la línea de código siguiente en la etiqueta <code> &lt;head&gt; </code> o <code> &lt;body&gt; </code> de cada página: </p> 
+    <code class="syntax html">
+      &lt;script language="JavaScript" type="text/javascript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"&gt;&lt;/script &gt; 
+      </code>
   </td> 
   </tr> 
   <tr> 

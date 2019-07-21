@@ -33,7 +33,7 @@ Al crear un segmento en el cual se ha definido “Incluir a todos”, el segment
 
 ## Solo Antes de Secuencia y Solo Después de Secuencia {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
-Las opciones **[!UICONTROL Solo Antes de Secuencia]** y **Solo Después de Secuencia]filtran el segmento a un subconjunto de datos anterior o posterior a la secuencia especificada.[!UICONTROL **
+Las opciones **[!UICONTROL Solo Antes de Secuencia]** y **[!UICONTROL Solo Después de Secuencia]** filtran el segmento a un subconjunto de datos anterior o posterior a la secuencia especificada.
 
 * **Solo Antes de Secuencia**: incluye todas las visitas anteriores a la secuencia + la primera visita de la propia secuencia (consulte los ejemplos 1 y 3). Si la secuencia aparece varias veces en una ruta, “Solo Antes de Secuencia” incluye la primera visita de la última aparición de la secuencia y todas las visitas anteriores (consulte el ejemplo 2).
 * **Solo Después de Secuencia**: incluye todas las visitas posteriores a la secuencia + la última visita de la propia secuencia (consulte los ejemplos 1 y 3). Si la secuencia aparece varias veces en una ruta, “Solo Después de Secuencia” incluye la última visita de la primera aparición de la secuencia y todas las visitas posteriores (consulte el ejemplo 2).
