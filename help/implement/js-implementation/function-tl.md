@@ -30,11 +30,11 @@ Si es necesario, se puede realizar el seguimiento de estos tipos de vínculos ma
 
 **this**
 
-El primer argumento siempre debe configurarse como este valor (predeterminado) o como true. El argumento hace referencia al objeto pulsado; cuando se configura como &quot;this&quot;, hace referencia a la propiedad HREF del vínculo.
+El primer argumento siempre debe configurarse como este valor (predeterminado) o como true. El argumento hace referencia al objeto pulsado; cuando se configura como "this", hace referencia a la propiedad HREF del vínculo.
 
-Si está implementando el seguimiento de vínculos en un objeto que no tiene propiedad HREF, siempre debe establecer este argumento en &quot;this&quot;.
+Si está implementando el seguimiento de vínculos en un objeto que no tiene propiedad HREF, siempre debe establecer este argumento en "this".
 
-Dado que, a menudo, al hacer clic en un vínculo, el visitante sale de la página actual, se aplica una demora de 500 ms para asegurar que se envíe una solicitud de imagen a Adobe antes de que el usuario abandone la página. Esta demora solo es necesaria al abandonar la página pero, por lo general, está presente cuando se llama la función s.tl(). Si desea desactivar la demora, pase la palabra clave &#39;true&#39; como el primer parámetro al llamar a la función s.tl().
+Dado que, a menudo, al hacer clic en un vínculo, el visitante sale de la página actual, se aplica una demora de 500 ms para asegurar que se envíe una solicitud de imagen a Adobe antes de que el usuario abandone la página. Esta demora solo es necesaria al abandonar la página pero, por lo general, está presente cuando se llama la función s.tl(). Si desea desactivar la demora, pase la palabra clave 'true' como el primer parámetro al llamar a la función s.tl().
 
 **linkType**
 
@@ -44,9 +44,9 @@ linkType tiene tres posibles valores, en función del tipo de vínculo que se de
 
 | Tipo | Valor de linkType |
 |--- |--- |
-| Descargas de archivos | &#39;d&#39; |
-| Vínculos de salida | &#39;e&#39; |
-| Vínculos personalizados | &#39;o&#39; |
+| Descargas de archivos | 'd' |
+| Vínculos de salida | 'e' |
+| Vínculos personalizados | 'o' |
 
 **linkName**
 
@@ -84,11 +84,11 @@ doneAction: (opcional) Especifica la acción que se efectuará cuando la llamada
 
 `s.forcedLinkTrackingTimeout`
 
-La variable doneAction puede ser la cadena &#39;navigate&#39;, lo que hace que el método configure `document.location` como el atributo href de linkObject . La variable doneAction también puede ser una función que permita una mayor personalización.
+La variable doneAction puede ser la cadena 'navigate', lo que hace que el método configure `document.location` como el atributo href de linkObject . La variable doneAction también puede ser una función que permita una mayor personalización.
 
 Si se proporciona un valor para doneAction en un evento onClick con delimitador, debe devolver false después de la llamada a `s.tl` para evitar la navegación predeterminada del explorador.
 
-Para imitar el comportamiento predeterminado y seguir la dirección URL especificada por el atributo href, proporcione una cadena &#39;navigate&#39; como doneAction .
+Para imitar el comportamiento predeterminado y seguir la dirección URL especificada por el atributo href, proporcione una cadena 'navigate' como doneAction .
 
 De forma opcional, puede proporcionar su propia función para que se ocupe del evento de navegación pasando esta función como doneAction .
 
@@ -141,7 +141,7 @@ El código básico para realizar el seguimiento de un vínculo mediante código 
 
 >[!NOTE]
 >
->Si no se define el parámetro del nombre del vínculo, la URL del vínculo (determinada desde el objeto &quot;this&quot;) se utiliza como nombre del vínculo.
+>Si no se define el parámetro del nombre del vínculo, la URL del vínculo (determinada desde el objeto "this") se utiliza como nombre del vínculo.
 
 Las variables de [!DNL Analytics] se pueden definir como parte del código de vínculo personalizado.
 
@@ -250,7 +250,7 @@ En JavaScript H.25.4 (lanzado en febrero de 2013), se agregaron las siguientes l
 
 * `<A>` y `<AREA>` etiquetas.
 * La etiqueta debe tener un atributo `HREF`
-* The `HREF` can&#39;t start with `#`, `about:`, or `javascript:`.
+* The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
 ## Seguimiento de vínculos mediante una solicitud de imagen {#concept_FF31C8D1B3DF483D853BF0A9D637F02F}
@@ -263,7 +263,7 @@ link_img.xml
 
  -->
 
-Las solicitudes de imagen se codifican agregando el parámetro &quot;pe&quot; al parámetro src de la solicitud de imagen, de la siguiente manera:
+Las solicitudes de imagen se codifican agregando el parámetro "pe" al parámetro src de la solicitud de imagen, de la siguiente manera:
 
 ```
 pe=[type]
