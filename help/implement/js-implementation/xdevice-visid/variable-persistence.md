@@ -38,7 +38,7 @@ El ejemplo siguiente es una representación de cómo se envían los datos a Adob
 
 * `cust_visid` representa un valor establecido en `s.visitorID`.
 
-* Cada fila es una &quot;visita&quot;, una sola solicitud enviada a los servidores de recopilación de datos de Adobe Analytics.
+* Cada fila es una "visita", una sola solicitud enviada a los servidores de recopilación de datos de Adobe Analytics.
 
 ![](assets/xdevice_first.jpg)
 
@@ -54,7 +54,7 @@ El ejemplo siguiente es una representación de cómo se envían los datos a Adob
 
 ![](assets/xdevice-subsequent.jpg)
 
-Cuando el cliente se autentica, su ID se contrasta con el perfil &quot;autenticado&quot; anterior: `2947539300`. El perfil usado al principio de esta visita (`5477766334477`) ya no se usa y no se mantienen datos del archivo.
+Cuando el cliente se autentica, su ID se contrasta con el perfil "autenticado" anterior: `2947539300`. El perfil usado al principio de esta visita (`5477766334477`) ya no se usa y no se mantienen datos del archivo.
 
 * Los datos de segmentación geográfica se registran en función de la primera visita y no cambian para una única visita, independientemente del dispositivo que se use. Esto significa que, en las posteriores conexiones de datos en un dispositivo nuevo, los datos de segmentación geográfica no se suelen incluir.
 * Las columnas de tecnología, como explorador, sistema operativo y profundidad de color, se registran en la primera visita. Como sucede con los valores de segmentación geográfica, no se copiarán en el perfil identificado.
