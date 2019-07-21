@@ -38,7 +38,7 @@ Para agregar varias métricas a una tabla improvisada de espacio de trabajo, arr
 
 1. Si ya ha creado esta métrica calculada, localícela en Métricas y arrástrela al espacio de trabajo.
 2. If you have not yet created this calculated metric, click the **+** icon near the metric list to open the Calculated Metric Builder.
-3. Déle un título de&#39;Vistas de página por visita&#39;y una descripción si lo desea.
+3. Déle un título de'Vistas de página por visita'y una descripción si lo desea.
 4. Establezca el formato en Decimal y defina el número de decimales en 2.
 5. Drag the **Page views** metric and **Visits** metric into the definition area.
 6. Arrange the definition so the formula is **Page Views divided by Visits**.
