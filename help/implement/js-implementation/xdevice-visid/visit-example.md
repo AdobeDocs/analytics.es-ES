@@ -26,7 +26,7 @@ Ejemplo que contiene una muestra de llamadas al servidor enviadas en una interac
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Un visitante hace clic en un vínculo de un correo electrónico de marketing y visita su sitio desde el equipo de casa. Este visitante ha visitado su sitio 7 veces más en el pasado. | 1 | - | 1 | 1 | 8 |
 | 2-8 | Visita otras 7 páginas del sitio. | 1 | - | 1 | 2-8 | 8 |
-| 9 | Se autentica en el equipo de casa. | 1 | CID1 | CID1 | 9 <br>This is CID1&#39;s first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
+| 9 | Se autentica en el equipo de casa. | 1 | CID1 | CID1 | 9 <br>This is CID1's first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
 | 10 | Visita 1 página adicional. | 1 | CID1 | CID1 | 10 | 8 |
 | 11 | Abre el sitio desde el ordenador portátil de la oficina. El visitante no ha visitado el sitio antes de utilizar este servicio. | 2 | - | 2 | 1 | 1 |
 | 12 | Se autentica en el ordenador portátil. | 2 | CID1 | CID1 | 1 | 9 |
