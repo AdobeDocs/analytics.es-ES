@@ -10,8 +10,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 ---
 
 
-# Expansión de ID
-#
+# Expansión de ID #
 
 Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics puede asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de RGPD. Puede solicitar esta opción con un parámetro opcional a cada solicitud de RGPD que envíe junto a la solicitud de JSON:
 
@@ -46,8 +45,7 @@ Para una solicitud de eliminación, donde no se utiliza la expansión de ID, si 
 
 Cuando Adobe realiza la expansión de ID, puede requerir un análisis de datos completo adicional, lo que aumentará (a menudo en una semana) el tiempo que Adobe tarda en completar la solicitud.
 
-## Otros indicadores de solicitud RDPD
-##
+## Otros indicadores de solicitud RDPD ##
 
 Además de la advertencia “expandIDs”, Analytics admite otras dos que se pueden incluir como parte de una solicitud de RGPD. Estas advertencias (y sus valores predeterminados) son las siguientes:
 
