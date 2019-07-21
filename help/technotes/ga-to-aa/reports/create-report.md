@@ -33,7 +33,7 @@ Cree un informe Todas las páginas (similar al de Google Analytics) arrastrando 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
 2. Haga clic en el icono 9 cuadrado en la esquina superior derecha y, a continuación, haga clic en el logotipo de color de color.
 3. En la barra de navegación superior, haga clic en Espacio de trabajo.
-4. Haga clic en el botón&#39;Crear nuevo proyecto &#39;.
+4. Haga clic en el botón'Crear nuevo proyecto '.
 5. En la ventana emergente modal, asegúrese de que está seleccionada la opción «Proyecto en blanco» y, a continuación, haga clic en Crear.
 6. A la izquierda se muestra una lista de dimensiones, métricas, segmentos e intervalos de fechas. Busque la dimensión Páginas (naranja color) y arrástrela al lienzo rotulada «Arrastrar una dimensión aquí».
 7. Se puede ver un informe que muestra las páginas principales de este mes. Analysis Workspace automatically populates the report with the [Occurrences](../../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
@@ -46,8 +46,8 @@ Cree un informe Todas las páginas (similar al de Google Analytics) arrastrando 
 
 Cree la plantilla Consumo de contenido (similar al informe Todas las páginas en Google Analytics) mediante el acceso a una plantilla de proyecto.
 
-1. Haga clic en el botón&#39;Crear nuevo proyecto &#39;.
-2. Busque y haga doble clic en el icono&#39;Consumo de contenido (Web)&#39; enumerado en Todas las plantillas.
+1. Haga clic en el botón'Crear nuevo proyecto '.
+2. Busque y haga doble clic en el icono'Consumo de contenido (Web)' enumerado en Todas las plantillas.
 3. Examine cada una de las visualizaciones prediseñadas: Flujo de página de entrada, Tabla de páginas principales, Flujo de página de salida, Flujo de sección del sitio de entrada y Tabla de secciones principales del sitio.
 
    ![Selección de plantilla](../assets/content_consumption_template.png)
@@ -56,7 +56,7 @@ Cree la plantilla Consumo de contenido (similar al informe Todas las páginas en
 
 Como Analysis Workspace es una herramienta de creación de informes, no afecta a la recopilación de datos. No existen consecuencias para arrastrar componentes de forma indiscriminada a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto de su espacio de trabajo para ver lo que está disponible para usted.
 
-Si accidentalmente arrastra un componente no válido a su proyecto de espacio de trabajo o desea retroceder, pulse Ctrl + Z (Windows) o cmd + Z (Mac) para deshacer la última acción realizada. You can also start with a clean slate by clicking *[!UICONTROL Project] &gt; [!UICONTROL New]* in the upper left menu.
+Si accidentalmente arrastra un componente no válido a su proyecto de espacio de trabajo o desea retroceder, pulse Ctrl + Z (Windows) o cmd + Z (Mac) para deshacer la última acción realizada. You can also start with a clean slate by clicking *[!UICONTROL Project]&gt;[!UICONTROL New]* in the upper left menu.
 
 Adobe ha colocado muchas funcionalidades en Analysis Workspace en el menú contextual del clic derecho. La mayoría de las visualizaciones y componentes se puede hacer clic con el botón derecho para obtener un análisis y una interacción más detallados. Considere hacer clic con el botón derecho en los componentes del espacio de trabajo para ver las opciones disponibles.
 
