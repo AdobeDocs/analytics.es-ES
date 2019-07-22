@@ -5,7 +5,7 @@ seo-title: Plantillas
 title: Plantillas
 uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ---
 
@@ -93,9 +93,21 @@ Puede utilizar estas plantillas rellenadas previamente tal cual, o puede adaptar
 
 Estas son plantillas disponibles y las preguntas que cada plantilla responde:
 
+### Publicidad
+
+>[!IMPORTANT]
+>
+>Las plantillas de publicidad solo están disponibles si el grupo de informes está habilitado para Advertising Cloud.
+
+* **Motores de búsqueda**: Esta plantilla desglosa las tendencias publicitarias, plataformas de publicidad, palabras clave, cuentas, campañas, etc.
+
+### Comercio
+
+* **Magento: Mercadotecnia y comercio**: Esta plantilla desglosa la conversión de comercio electrónico por atribución de canal de mercadotecnia, además de proporcionar una perspectiva por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y más. For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+
 ### Medios
 
-* **Consumo de contenido**: ¿Qué contenido consumen más y atrae a los usuarios?
+* **Consumo de audio**: ¿Qué contenido consumen más y atrae a los usuarios?
 * **Actualización - Frecuencia - Lealtad**: ¿Quiénes son mis fieles lectores?
 
 ### Dispositivo móvil
