@@ -157,7 +157,7 @@ A continuación encontrará una serie de ejemplos de cómo se puede utilizar est
 
 ![](assets/aggregate_checkpoints2.png)
 
-## " Anidación "en segmentos secuenciales
+## "Anidación" en segmentos secuenciales
 
 Al colocar los puntos de comprobación tanto en el nivel de [!UICONTROL visita] como de [!UICONTROL visita individual], puede restringir el segmento para satisfacer los requisitos dentro de una visita específica, así como una visita individual específica.
 
