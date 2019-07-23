@@ -54,13 +54,13 @@ Permite controlar el acceso a los datos de los informes. Las opciones incluyen c
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Aplicar restricciones de dominio de correo electrónico</span> </td> 
-   <td colname="col2"> <p>Filtra las direcciones de correo electrónico y los dominios a los que Analytics envía marcadores, informes descargables y alertas. </p> <p>La lista de filtro de correo electrónico admite hasta 100 entradas, y cada una de ellas puede ser una dirección o un dominio completo de correo electrónico. </p> <p>Si un informe programado tiene un destino de correo electrónico no autorizado, Analytics enviará una notificación sobre el problema por correo electrónico, con un vínculo para anular la programación del informe. </p> <p> <span class="wintitle"> Aplicar restricciones de dominio de correo electrónico</span> no se aplicará mientras no haya al menos una entrada en la lista de <span class="wintitle">filtro de dominio de correo electrónico aceptado</span>. </p> <p> <span class="uicontrol"> Dirección de correo electrónico y dominios aceptados</span>: Para especificar un intervalo de direcciones IP, escriba el rango entre corchetes (por ejemplo, <code>
- 
- 192.168.10.[20-240]
-     </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
-     <code>
-       192.168.[10-14].*
-     </code>) </p> </td> 
+   <td colname="col2"> <p>Filtra las direcciones de correo electrónico y los dominios a los que Analytics envía marcadores, informes descargables y alertas. </p> <p>La lista de filtro de correo electrónico admite hasta 100 entradas, y cada una de ellas puede ser una dirección o un dominio completo de correo electrónico. </p> <p>Si un informe programado tiene un destino de correo electrónico no autorizado, Analytics enviará una notificación sobre el problema por correo electrónico, con un vínculo para anular la programación del informe. </p> <p> <span class="wintitle"> Aplicar restricciones de dominio de correo electrónico</span> no se aplicará mientras no haya al menos una entrada en la lista de <span class="wintitle">filtro de dominio de correo electrónico aceptado</span>. </p> <p> <span class="uicontrol"> Dirección de correo electrónico y dominios aceptados</span>: Para especificar un intervalo de direcciones IP, escriba el rango entre corchetes (por ejemplo,
+    <code>
+      192.168.10.[20-240]
+    </code>). You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
+    <code>
+      192.168.[10-14].*
+    </code>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Notificación de recuperación de contraseña</span> </td> 
