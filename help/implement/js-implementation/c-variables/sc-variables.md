@@ -9,22 +9,17 @@ title: Descripción general de las variables
 topic: Desarrollador e implementación
 uuid: 067 d 0135-572 a -4 a 44-af 9 e -445 d 3 c 4 e 9271
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
 
 
 # Descripción general de las variables
 
-Analytics proporciona varias variables para recopilar los datos que necesita. Por ejemplo, el valor de la variable pageName es el nombre de la página web para la que se crea el informe. En esta sección se describen las variables que admite AppMeasurement.
+Analytics proporciona varias variables para recopilar los datos que necesita. Por ejemplo, el valor de la variable pageName es el nombre de la página web para la que se crea el informe. Esta sección enumera las variables admitidas por appmeasurement.
 
-Para obtener un listado sobre cómo aparece cada variable en los informes de Analytics, consulte [Variables - Cómo se usan en los informes](https://marketing.adobe.com/resources/help/en_US/reference/?f=variable_definitions).
-
-<!-- 
-
-<p>The following is for a client issue reported by Gundy on 1/22/16 in an email "Documentation and JavaScript Update Request". This may be a KB issue. Awaiting word from Russ. - Blake </p>
-
- -->
+For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
+For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## Cómo establecer variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
