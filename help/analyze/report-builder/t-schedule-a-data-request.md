@@ -7,18 +7,26 @@ title: Programar una solicitud de datos
 topic: Creador de informes
 uuid: f 6 d 8 c 90 f-e 185-4 d 60-8035-f 20 f 74 bfcd 89
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
-# Programar una solicitud de datos
+# Programar un libro
 
-Los informes se pueden programar para enviarlos de acuerdo al formato de archivo y la hora que se definan.
+Puede programar libros, especificar opciones de envío avanzadas, especificar destinatarios y ver el historial de programación. Las opciones de envío avanzadas permiten configurar los libros que desea enviar a un tiempo específico o en intervalos. También puede especificar el formato de archivo en el que desea enviar el libro.
 
-**Para programar una solicitud de datos**
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. No es posible cargar archivos de informes que superen los 5 MB.
 
-1. Genere y guarde un informe.
+Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (Consulte [Programación y distribución de informes](/help/analyze/reports-analytics/scheduling.md) en la ayuda de Informes y análisis).
+
+>[!NOTE]
+>
+>Debe tener Excel 2007 o el paquete de compatibilidad instalado para programar un libro. Puede tener un máximo de 10 libros programados por cada licencia del Creador de informes. Sin embargo, puede aumentar este número si resta de otras licencias. To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. Libro que se ha programado (o cargado en la biblioteca de libros) y que no se ha tocado (actualizado, reemplazado) en más de 28 meses.
+
+**Para programar un libro**
+
+1. Genere y guarde un libro.
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
    La ficha [!UICONTROL Informes programados] resume todas las tareas que se han creado, así como el número de tareas restantes.
@@ -29,7 +37,7 @@ Los informes se pueden programar para enviarlos de acuerdo al formato de archivo
 
 1. En el [!UICONTROL Asistente de programación básico], configure las siguientes opciones:
 
-* **Seleccionar informe**: El nombre del informe. Para los nuevos informes programados, este campo se completa con el nombre del libro activo.
+* **Seleccionar informe**: El nombre del libro. Para los libros programados nuevos, este campo se rellena con el nombre del libro activo.
 
 <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
  <thead> 
@@ -57,7 +65,7 @@ Los informes se pueden programar para enviarlos de acuerdo al formato de archivo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enviar a: Correo electrónico </p> </td> 
-   <td colname="col2"> <p>Destinatario de correo electrónico del informe. </p> </td> 
+   <td colname="col2"> <p>Destinatario de correo electrónico del libro. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enviar a: Lista de publicación </p> </td> 
@@ -73,7 +81,7 @@ Los informes se pueden programar para enviarlos de acuerdo al formato de archivo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Programación </p> </td> 
-   <td colname="col2"> <p> Permite especificar el momento de envío del informe. (Inmediatamente, por hora, diariamente, semanalmente, mensualmente, trimestralmente y anualmente). </p> </td> 
+   <td colname="col2"> <p> Permite especificar cuándo enviar el libro. (Inmediatamente, por hora, diariamente, semanalmente, mensualmente, trimestralmente y anualmente). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,15 +102,15 @@ Los informes se pueden programar para enviarlos de acuerdo al formato de archivo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hora de envío </p> </td> 
-   <td colname="col2"> <p>Permite programar el informe inmediatamente o para un momento posterior. La hora del día se relaciona con la zona horaria especificada en el equipo. </p> </td> 
+   <td colname="col2"> <p>Permite programar el libro inmediatamente o para un momento posterior. La hora del día se relaciona con la zona horaria especificada en el equipo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modelo de periodicidad </p> </td> 
-   <td colname="col2"> <p>Envía el informe en función de sus selecciones. </p> </td> 
+   <td colname="col2"> <p>Envía el libro según sus selecciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Intervalo de periodicidad </p> </td> 
-   <td colname="col2"> <p>Permite especificar cuándo iniciar y detener la recepción del informe. </p> <p> <p>Nota: Si se programa un informe el primer día de cualquier período actual (semana, mes, trimestre o año), solo se devuelven datos del primer día. </p> </p> </td> 
+   <td colname="col2"> <p>Permite especificar cuándo iniciar y detener la recepción del libro. </p> <p> <p>Nota: Programar un libro el primer día de cualquier período actual (semana, mes, trimestre o año) devuelve datos únicamente para el primer día. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ficha <b>Opciones de archivo</b> </p> </td> 
@@ -118,7 +126,7 @@ Los informes se pueden programar para enviarlos de acuerdo al formato de archivo
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lista de publicaciones </p> </td> 
-   <td colname="col2"> <p> Si el informe programado se envía a varias listas de publicación, el informe se ejecuta una vez para cada lista. Los grupos de informes variables se reemplazan por el grupo de informes asignado a la lista de publicación. </p> </td> 
+   <td colname="col2"> <p> Si envía el libro programado a varias listas de publicación, el libro se ejecuta una vez para cada lista. Los grupos de informes variables se reemplazan por el grupo de informes asignado a la lista de publicación. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Idioma del contenido del archivo </p> </td> 
@@ -146,4 +154,5 @@ Los informes se pueden programar para enviarlos de acuerdo al formato de archivo
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
-   El Creador de informes muestra el informe programado en el [Administrador de tareas programadas](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+
