@@ -8,12 +8,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: d55b23a5baf5be1d7afb708cc6ef94851eac3e77
 
 ---
 
 
-# Datran Data Connector for Adobe Analytics{#datran-data-connector-for-adobe-analytics}
+# Datran Data Connector for Adobe Analytics {#datran-data-connector-for-adobe-analytics}
 
 Esta integración de correo electrónico de Conectores de datos de Adobe® combina información de comportamiento de Adobe Analytics® con la mercadotecnia de correo electrónico Datran a fin de crear una poderosa herramienta para redefinir la medición de éxito y dirigir las audiencias de objetivo con mensajes más relevantes.
 
