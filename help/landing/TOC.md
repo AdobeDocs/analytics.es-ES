@@ -1,24 +1,24 @@
 ---
 product: analytics
-audience: all
+audience: todo
 user-guide-title: Documentación de Analytics
-user-guide-url: /content/help/en/analytics/landing/home.html
-translation-type: tm+mt
+user-guide-url: /content/help/es-ES/analytics/landing/home.html
+translation-type: ht
 source-git-commit: 614ff957a7f4bacf0d61122650fdd76382075d1e
 
 ---
 
 
-# Analytics Documentation {#landing}
+# Documentación de Analytics {#landing}
 
 + [Página principal](home.md)
-* [Guía de herramientas](https://docs.adobe.com/content/help/en/analytics/analyze/home.html)
-* [Guía de administración](https://docs.adobe.com/content/help/en/analytics/admin/home.html)
-* [Guía de componentes](https://docs.adobe.com/content/help/en/analytics/components/home.html)
-* [Guía de exportación](https://docs.adobe.com/content/help/en/analytics/export/home.html)
-* [Guía de implementación](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
-* [Guía de importación](https://docs.adobe.com/content/help/en/analytics/import/home.html)
-* [Guía de integración](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [Guía de herramientas](https://docs.adobe.com/content/help/es-ES/analytics/analyze/home.html)
+* [Guía de administrador](https://docs.adobe.com/content/help/es-ES/analytics/admin/home.html)
+* [Guía de componentes](https://docs.adobe.com/content/help/es-ES/analytics/components/home.html)
+* [Guía de exportación](https://docs.adobe.com/content/help/es-ES/analytics/export/home.html)
+* [Guía de implementación](https://docs.adobe.com/content/help/es-ES/analytics/implementation/home.html)
+* [Guía de importación](https://docs.adobe.com/content/help/es-ES/analytics/import/home.html)
+* [Guía de integración](https://docs.adobe.com/content/help/es-ES/analytics/integration/home.html)
 + [Actualizaciones de documentación](doc-updates.md)
 
 <!--
