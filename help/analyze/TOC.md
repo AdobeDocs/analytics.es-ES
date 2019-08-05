@@ -4,12 +4,12 @@ audience: usuario final
 user-guide-title: Análisis de Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
 
 ---
 
 
-# Analytics Tools Guide {#analyze}
+# Guía de herramientas de Analytics {#analyze}
 
 + [Guía de herramientas de Analytics](home.md)
 + Analysis Workspace {#analysis-workspace}
@@ -17,7 +17,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Funciones de Analysis Workspace](analysis-workspace/analysis-workspace-features.md)
    + [Casos de uso de Analysis Workspace](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Novedades en Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md) 
-   + Build a Workspace project {#build-workspace-project}
+   + Creación de un proyecto de espacio de trabajo {#build-workspace-project}
       + [Crear proyecto: información general](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Creación de un proyecto de espacio de trabajo](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [Plantillas](analysis-workspace/build-workspace-project/starter-projects.md)
@@ -117,7 +117,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Analysis Workspace comparado con los Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Limitaciones de Analysis Workspace](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
-   + [Ayuda de Report Builder de Adobe](report-builder/home.md)
+   + Ayuda de [Report Builder de Adobe](report-builder/home.md)
    + [Novedades del Creador de informes](report-builder/whats-new-arb.md)
    + Report Builder setup {#report-builder-setup}
       + [Requisitos del sistema](report-builder/setup/system-requirements.md)
@@ -225,7 +225,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
       + [Limitaciones y especificaciones](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Importación manual de datos a Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [Extracción de recursos publicados en Power BI Desktop](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [Prácticas recomendadas](report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [Prácticas recomendadas](report-builder/c-publish-power-bi/bi-best-practices.md).
       + [Solución de problemas de integración de Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Paquetes de contenido de Adobe Analytics para Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Solución de problemas y prácticas recomendadas para el Creador de informes](report-builder/troubleshoot.md)
@@ -294,7 +294,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Eventos de calendario](reports-analytics/t-calendar-event.md)
    + [Solicitudes del almacén de datos](reports-analytics/data-warehouse.md)
    + [Preguntas más frecuentes](reports-analytics/frequently-asked-questions.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
++ Ad Hoc Analysis  {#ad-hoc-analysis}
    + Conversor de proyectos de Ad Hoc Analysis {#aha-project-converter}
       + [Visión general del Convertidor de proyectos de Análisis específicos](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Convertir sus proyectos en análisis específicos](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
@@ -324,8 +324,8 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
    + [Administrador de programación](ad-hoc-analysis/c-schedule.md)
    + [Generador de tablas](ad-hoc-analysis/c-tablebuilder.md)
    + [Fecha](ad-hoc-analysis/c-time.md)
-+ Technology Previews {#tech-previews}
-   + [Visión general de la vista previa de tecnología](tech-previews/overview.md)
++ Labs {#tech-previews}
+   + [Descripción general de Labs](tech-previews/overview.md)
 + API de informes de Analytics {#analytics-reporting-api}
    + [Información general de la API de informes de Analytics](c-reporting-api/c-reporting-api.md)
    + [Comparación de las API de informes de Analytics](c-reporting-api/api-comparison.md)
