@@ -225,7 +225,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
       + [Limitaciones y especificaciones](report-builder/c-publish-power-bi/specifications-limits.md)
       + [Importación manual de datos a Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [Extracción de recursos publicados en Power BI Desktop](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [Prácticas recomendadas](report-builder/c-publish-power-bi/bi-best-practices.md).
+      + [Prácticas recomendadas](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Solución de problemas de integración de Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Paquetes de contenido de Adobe Analytics para Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Solución de problemas y prácticas recomendadas para el Creador de informes](report-builder/troubleshoot.md)
