@@ -7,7 +7,7 @@ title: Marcas de hora opcionales
 topic: Herramientas de administración
 uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 ---
 
@@ -22,7 +22,7 @@ Marcas de hora opcionales, permite hacer lo siguiente:
 * Envíe datos con marca de hora de una aplicación móvil a un grupo de informes globales.
 * Actualice aplicaciones para usar el seguimiento sin conexión sin tener que crear un nuevo grupo de informes.
 
-Consulte [Uso de marcas de hora opcionales](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=timestamps-overview) para conocer las prácticas recomendadas al usar marcas opcionales en el grupo de informes.
+Consulte [Uso de marcas de hora opcionales](/help/implement/js-implementation/timestamps-overview.md) para conocer las prácticas recomendadas al usar marcas opcionales en el grupo de informes.
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Consulte [Uso de marcas de hora opcionales](https://marketing.adobe.com/resource
 
 >[!NOTE]
 >
->Los datos de sesión con marca de tiempo habilitada se conservan por un período máximo de 92 días.
+>Los datos de sesión con marca de tiempo habilitada se conservan por un período máximo de 92 días. Esto significa que una visita o sesión se «mantendrá abierta» durante 92 días, mientras que cualquier visita adicional (que no sea 30 minutos después de la visita anterior (en tiempo de visita), podrá incluirse en la misma visita/sesión. Las visitas «antiguas» que se reciben fuera de orden producirán resultados «desconocidos», ya que son varios factores (segmentación, asignación, caducidad, etc.) influir en si estas visitas se incluirán en los informes o no.
 
 ## Nuevos grupos de informes {#section_095A7CFBD280494593B9BEC1592B73A6}
 
