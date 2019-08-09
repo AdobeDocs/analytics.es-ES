@@ -1,22 +1,22 @@
 ---
 product: analytics
-audience: all
+audience: todo
 user-guide-title: Notas técnicas de Analytics
-user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: tm+mt
+user-guide-url: /content/help/es-ES/analytics/technotes/home.html
+translation-type: ht
 source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
 
 ---
 
 
-# Analytics Documentation {#technotes}
+# Documentación de Analytics {#technotes}
 
 + [Ayuda de notas técnicas de Analytics](home.md)
-+ Adobe Analytics for Google Analytics users {#ga-to-aa}
++ Adobe Analytics para usuarios de Google Analytics {#ga-to-aa}
    + [Ayuda de Adobe Analytics para usuarios de Google Analytics](ga-to-aa/home.md)
    + [Cuentas y grupos de informes](ga-to-aa/accounts.md)
    + [Personalizar vistas de informes](ga-to-aa/customization.md)
-   + Google Analytics reports {#reports}
+   + Informes de Google Analytics {#reports}
       + [Crear un informe básico en Analysis Workspace para usuarios de GA](ga-to-aa/reports/create-report.md)
       + [Métricas comunes utilizadas en otras plataformas de Analytics](ga-to-aa/reports/common-metrics.md)
       + [Tiempo real](ga-to-aa/reports/realtime-reports.md)
@@ -29,10 +29,10 @@ source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
 + [Retención de datos](data-retention.md)
 + [Latencia](latency.md)
 + [Valor de poco tráfico](low-traffic.md)
-+ [Información general sobre privacidad](privacy-overview.md)
-+ Recopilación regional de datos {rdc}
-   + [Ayuda regional de recopilación de datos](rdc/regional-data-collection.md)
-   + [Características del entorno](rdc/rdc-environment-characteristics.md)
++ [Resumen de privacidad](privacy-overview.md)
++ Recopilación de datos regionales {rdc}
+   + [Ayuda de recopilación de datos regionales](rdc/regional-data-collection.md)
+   + [Características del entorno de recopilación de datos regionales](rdc/rdc-environment-characteristics.md)
    + [Licencias de certificación SSL](rdc/ssl-cert-licensing.md)
    + [RDC en China](rdc/rdc-china.md)
 + [Términos utilizados (glosario)](terms.md)
