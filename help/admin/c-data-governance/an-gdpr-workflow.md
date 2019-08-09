@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Flujo de trabajo del RGPD de Adobe Analytics
-title: Flujo de trabajo del RGPD de Adobe Analytics
+seo-title: Flujo de trabajo del RGPD en Adobe Analytics
+title: Flujo de trabajo del RGPD en Adobe Analytics
 uuid: f 24 e 8 be 3-8 b 5 c -409 b-ad 6 b -770198 ae 2549
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
 
 ---
 
 
-# Flujo de trabajo del RGPD de Adobe Analytics
+# Flujo de trabajo del RGPD en Adobe Analytics
 
 Le damos la bienvenida al flujo de trabajo de preparación para el RGPD y Adobe Analytics. En este flujo de trabajo se describen los pasos que debe seguir a fin de preparar su implementación de Adobe Analytics para cumplir los derechos de acceso y eliminación del RGPD de sus interesados.
 
@@ -41,7 +41,7 @@ Le damos la bienvenida al flujo de trabajo de preparación para el RGPD y Adobe 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img  src="assets/step4_icon.png" id="image_FE2039B8345248BCA303B44C10B68EA1" placement="break" /> Asigne etiquetas de identidad, confidencialidad y control de datos a cada variable de un grupo de informes. </p> <p>Nota: Recuerde que el etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas. </p> </td> 
-   <td colname="col3"> <p> Follow the instructions in <a href="../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731" format="dita" scope="local"> Label Report Suite Data</a>. </p> </td> 
+   <td colname="col3"> <p> Siga las instrucciones de <a href="../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731" format="dita" scope="local"> la sección Etiqueta Datos del grupo de informes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step5_icon.png" id="image_E9BEF83BF30F4528A030F23F71E5E5D8" /> Conéctese a la API de RGPD de Adobe y envíe solicitudes de acceso y eliminación. </p> </td> 
@@ -49,7 +49,16 @@ Le damos la bienvenida al flujo de trabajo de preparación para el RGPD y Adobe 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step6_icon.png" id="image_5CF03706FECD4F8BBAE0D0C19F98B8BB" /> Consulte y gestione la configuración del RGPD de su grupo de informes. </p> </td> 
-   <td colname="col3"> <p>Follow the instructions in <a href="../../admin/c-data-governance/gdpr-view-settings.md#concept_7759BAD6F3174901A94116D189AEF80E" format="dita" scope="local"> View Report Suite's Data Governance Settings</a>. </p> </td> 
+   <td colname="col3"> <p>Siga las instrucciones de <a href="../../admin/c-data-governance/gdpr-view-settings.md#concept_7759BAD6F3174901A94116D189AEF80E" format="dita" scope="local"> Ver configuración de administración de datos del conjunto de informes</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+| Descripción de tarea | Vínculos a instrucciones y más información |
+|--- |--- |
+| **Paso 1**: Asegúrese de que todos los grupos de informes que puedan contener datos relevantes del RGPD se asignen a su organización de Experience Cloud (o IMS). Las solicitudes de RGPD se presentan mediante una organización de Experience Cloud y se aplicarán a todos los grupos de informes pertenecientes a dicha organización. Las solicitudes no se aplican a los grupos de informes que no estén asignados a la organización, aunque formen parte de su empresa de inicio de sesión. | Consulte [Asignación de grupos de informes a una organización](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html). |
+| **Paso 2**: Establezca la directiva de retención de datos. | Debe haberse configurado una política de retención de datos para que Adobe pueda tratar las solicitudes de acceso o eliminación de datos del RGPD.  Para obtener más información, consulte estas [Preguntas frecuentes de retención de datos de Analytics](/help/technotes/data-retention.md). |
+| **Paso 3**: Familiarícese con las etiquetas DULE/GDPR, los ID de Adobe Analytics, los espacios de nombres y la expansión de ID. | Lea estos temas en este conjunto de documentación:<ul><li>[Etiquetas del RGPD para variables de Analytics](/help/admin/c-data-governance/gdpr-labels.md)</li><li>[Prácticas recomendadas de etiquetado](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-analytics-ids.html#concept_1BC4CA94B559481F8B08776DA100B23E)</li></ul> |
+| **Paso 4**: Asigne etiquetas de identidad, sensibilidad y administración de datos a cada variable de un grupo de informes. Nota: Recuerde que el etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas. | Siga las instrucciones de [la sección Etiqueta Datos del grupo de informes](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-setup-reportsuite.html#concept_FAA948AD8CEA4BC38CB482EAF3648731). |
+| **Paso 5**: Conecte a la API de Adobe GDPR y envíe Acceso y Eliminar solicitudes. | Como cliente de Adobe Analytics, puede enviar solicitudes de RGPD individuales para acceder a datos de clientes y eliminarlos; para ello, debe llamar a la [API de RGPD de Adobe Experience Cloud](https://www.adobe.io/apis/experienceplatform/gdpr.html).  Puede enviar cualquier identificador de Analytics (como se describe en la sección [Prácticas recomendadas de etiquetado](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-analytics-ids.html#concept_1BC4CA94B559481F8B08776DA100B23E)) en las solicitudes, junto con sus respectivos ID de espacio de nombres (ID de fuentes de datos). |
+| **Paso 6**: Vea y administre la configuración del RGPD del grupo de informes. | Siga las instrucciones de [Ver configuración de administración de datos del conjunto de informes](/help/admin/c-data-governance/gdpr-view-settings.md). |
