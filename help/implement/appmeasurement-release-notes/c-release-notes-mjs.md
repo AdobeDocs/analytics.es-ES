@@ -8,7 +8,7 @@ title: AppMeasurement para JavaScript
 topic: Desarrollador e implementación
 uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
 translation-type: tm+mt
-source-git-commit: 12f8d0017acfad36f3445cd31a629725dd737686
+source-git-commit: d374a4597f4b4a8adec697ba5befa5014d711074
 
 ---
 
@@ -24,6 +24,18 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## Versión 2.16.0
+
+Fecha de versión: **8 de agosto de 2019**
+
+| Función | Descripción |
+| -----------| ---------- |
+| `sendBeacon` admite vínculos de salida | Se ha implementado compatibilidad con `sendBeacon` en [!UICONTROL AppMeasurement] para vínculos de salida. Esto mejorará el seguimiento de vínculos de salida y probablemente dará como resultado un incremento del tráfico. `SendBeacon` no se ejecuta en el contexto de una página, sino en el contexto del explorador. Es decir, si una página se descarga, `sendBeacon`la solicitud se completará. Esto resulta muy útil para los vínculos de salida porque hará que sea mucho más probable que se complete la solicitud de vínculo de salida. |
+| Valores ECID/fid | Los valores ECID/fid ahora se almacenan en la caché en la primera visita, aunque cambie la configuración de OptIn. |
+| DIL 9.3 | Módulo de Gestión de público actualizado a DIL 9.3 |
+| Seguimiento de alcance de desplazamiento | Conmutador expuesto en s.ActivityMap.trackScrollReach para activar o desactivar el seguimiento de alcance de desplazamiento. |
+| Servicio de ID de visitante 4.4.0 | AppMeasurement actualizado para utilizar el servicio de ID de visitante 4.4.0. |
 
 ## Versión 2.15.0
 
@@ -156,7 +168,7 @@ Fecha de la versión: **08/06/2017**
 * Se ha incluido la última versión de [!DNL dil.js] (AN-140396)
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
 * Se ha vuelto a incluir la API 2.1.0 de visitante. (AN-140873)
-* Added `mcorgid` parameter. (AN-139586)
+* Se ha añadido `mcorgid` el parámetro. (AN-139586)
 * Se ha agregado el parámetro (customerPerspective). (AN-140897)
 
 ## Versión 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
@@ -207,7 +219,7 @@ Actualizado: **20/10/2016**
 
 Actualizado: **15/09/2016**
 
-* Update [!DNL AppMeasurement] [!DNL Audience Manager] Module with DIL 6.5 and Additional Configurations (AN-129411)
+* Actualizar [!DNL AppMeasurement][!DNL Audience Manager] módulo con DIL 6.5 y configuraciones adicionales (AN -129411)
 
 * Inclusión de la API de visitantes 1.8.0 (AN-129887)
 
@@ -346,7 +358,7 @@ Fecha de versión: **21 de mayo de 2015**
 
 **Problema conocido**
 
-In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. El comportamiento correcto, tal como se ha observado en otros exploradores, es cargar únicamente `//fast.<subdomain>.demdex.net/dest5.html`.
+En las integraciones de API/ [!DNL AppMeasurement][!DNL Audience Manager] módulo de visitante, habrá dos solicitudes de iframe de publicación de destino realizadas en IE 6-9: `//fast.<subdomain>.demdex.net/dest5.html` y `//fast.<subdomain>.demdex.net/dest4.html`. El comportamiento correcto, tal como se ha observado en otros exploradores, es cargar únicamente `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versión 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
