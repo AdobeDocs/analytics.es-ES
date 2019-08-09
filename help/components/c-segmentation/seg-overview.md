@@ -7,7 +7,7 @@ title: Acerca de los segmentos y los contenedores
 topic: Segmentos
 uuid: e 8 b 1 edd 1-5 d 6 c -4213-994 b-alimentada 789 ad 30 a 4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 774975605de502b66279888d8dd8ef58989a40de
 
 ---
 
