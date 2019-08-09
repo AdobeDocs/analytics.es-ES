@@ -2,8 +2,8 @@
 product: analytics
 audience: usuario final
 user-guide-title: Guía de implementación de Analytics
-user-guide-url: /content/help/en/analytics/implementation/home.html
-translation-type: tm+mt
+user-guide-url: /content/help/es-ES/analytics/implementation/home.html
+translation-type: ht
 source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 
 ---
@@ -12,8 +12,8 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 # Guía de implementación de Analytics {#implementation}
 
 + [Ayuda de implementación de Analytics](home.md)
-+ AppMeasurement Release Notes {#appmeasurement-release-notes}
-   + [Notas de revisión de appmeasurement](appmeasurement-release-notes/appmeasurement-release-notes.md)
++ Notas de la versión de AppMeasurement {#appmeasurement-release-notes}
+   + [Notas de la versión de AppMeasurement](appmeasurement-release-notes/appmeasurement-release-notes.md)
    + [AppMeasurement para JavaScript](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [Código H de JavaScript - Heredado](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
@@ -31,13 +31,13 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [PHP](appmeasurement-release-notes/c-release-notes-php.md)
 + Implementación de análisis {#analytics-implementation}
    + [Hoja de ruta de implementación](c-implementation/implementation.md)
-   + [Vínculos de implementación populares](c-implementation/popular-implementation-links.md)
+   + [Vínculos de implementación conocidos](c-implementation/popular-implementation-links.md)
    + [Notas de la versión](c-implementation/rn.md)
 + Aspectos básicos de Analytics {#analytics-basics}
    + [Alertas](analytics-terminology-basics/ref-alerts.md)
    + [Código de Analytics](analytics-terminology-basics/ref-analytics-code.md)
    + [Clasificaciones](analytics-terminology-basics/ref-classifications.md)
-   + [Variables de conversión (evars)](analytics-terminology-basics/ref-conversion-variables-evar.md)
+   + [Variables de conversión (eVars)](analytics-terminology-basics/ref-conversion-variables-evar.md)
    + [Recopilación de datos](analytics-terminology-basics/data-collection-overview.md)
    + [Administrador de códigos](analytics-terminology-basics/code-manager.md)
    + [Capa de datos](analytics-terminology-basics/ref-data-layer.md)
@@ -47,44 +47,44 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [Reglas de procesamiento](analytics-terminology-basics/ref-processing-rules.md)
    + [Informes y grupos de informes](analytics-terminology-basics/ref-reports-report-suites.md)
    + [Segmentos](analytics-terminology-basics/ref-segments.md)
-   + Traffic props and conversion eVars {#traffic-props-evars}
-      + [Información general sobre props y evars](analytics-terminology-basics/c-props-evars/props-evars.md)
+   + Props de tráfico y eVars de conversión {#traffic-props-evars}
+      + [Resumen de props y eVars](analytics-terminology-basics/c-props-evars/props-evars.md)
       + [Comparación de props y eVars](analytics-terminology-basics/c-props-evars/props-vs-evars.md)
       + [Uso de props como contadores](analytics-terminology-basics/c-props-evars/props-counter.md)
       + [Recuento de jerarquías de contenido](analytics-terminology-basics/c-props-evars/content-hierarchies.md)
       + [¿Qué es un evento predefinido?](analytics-terminology-basics/c-props-evars/event-predefined.md)
-      + [Página detallada de vista del producto](analytics-terminology-basics/c-props-evars/prodview-page.md)
+      + [Página de vista detallada del producto](analytics-terminology-basics/c-props-evars/prodview-page.md)
       + [¿Qué es un evento personalizado?](analytics-terminology-basics/c-props-evars/event-custom.md)
       + [Conflictos de hash](analytics-terminology-basics/c-props-evars/hash-collisions.md)
-+ [Preguntas más frecuentes acerca de la implementación de Analytics](faq.md)
-+ Prepare to implement {#prepare}
++ [Preguntas frecuentes acerca de la implementación de Analytics](faq.md)
++ Preparación para implementar {#prepare}
    + [Creación de un documento de diseño de solución](prepare/solution-design.md)
    + [Creación de una capa de datos](prepare/data-layer.md)
    + [Elegir un método de implementación](c-implementation-methods/choose-implementation-method.md)
 + [Introducción a la implementación de Analytics](c-get-started-implementation/t-analytics-implementation-get-started.md)
-+ Implement Analytics with Adobe Experience Platform Launch {#implement-with-launch}
-   + [Creación de una propiedad de Analytics en Launch Platform Launch](implement-with-launch/create-analytics-property.md)
-   + [Implementación de una implementación en un entorno de desarrollo](implement-with-launch/deploy-dev.md)
++ Implementar Analytics con Adobe Experience Platform Launch {#implement-with-launch}
+   + [Creación de una propiedad de Analytics en Experience Platform Launch](implement-with-launch/create-analytics-property.md)
+   + [Integrar una implementación en un entorno de desarrollo](implement-with-launch/deploy-dev.md)
    + [Validación de una implementación de desarrollo y publicación en producción](implement-with-launch/validate-publish-prod.md)
-+ Implement Analytics with DTM {#implement-analytics-with-dtm}
-   + [Descripción general de la implementación de la administración dinámica de etiquetas](c-implement-with-dtm/dtm-implementation-overview.md)
-   + [Crear propiedad web](c-implement-with-dtm/t-create-web-property.md)
-   + [Configuración de las opciones de alojamiento](c-implement-with-dtm/t-configure-hosting.md)
-   + Headers and footers {#headers-footers}
++ Implementar Analytics con DTM {#implement-analytics-with-dtm}
+   + [Descripción general de la implementación de Dynamic Tag Management (DTM)](c-implement-with-dtm/dtm-implementation-overview.md)
+   + [Crear una propiedad web](c-implement-with-dtm/t-create-web-property.md)
+   + [Configurar las opciones de alojamiento](c-implement-with-dtm/t-configure-hosting.md)
+   + Encabezados y pies de página {#headers-footers}
       + [Adición de código de Encabezado y Pie de página](c-implement-with-dtm/c-headers-footers/t-header-footer-code.md)
       + [Comprobación de código de Encabezado y de Pie de página](c-implement-with-dtm/c-headers-footers/t-verify-header-footer.md)
-   + Adobe Analytics tool {#analytics-tool}
-      + [Agregar herramienta Adobe Analytics](c-implement-with-dtm/c-aa-tool/analytics-dtm.md)
+   + Herramienta Adobe Analytics {#analytics-tool}
+      + [Agregar la herramienta Adobe Analytics](c-implement-with-dtm/c-aa-tool/analytics-dtm.md)
       + [General](c-implement-with-dtm/c-aa-tool/general-settings-analytics.md)
       + [Administración de biblioteca](c-implement-with-dtm/c-aa-tool/library-management.md)
       + [Inserción del código principal de AppMeasurement](c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md)
       + [Variables globales](c-implement-with-dtm/c-aa-tool/global-variables.md)
-      + [Vistas de páginas y contenido](c-implement-with-dtm/c-aa-tool/pageviews-content.md)
+      + [Vistas de página y contenido](c-implement-with-dtm/c-aa-tool/pageviews-content.md)
       + [Seguimiento de vínculos](c-implement-with-dtm/c-aa-tool/link-tracking.md)
       + [Referentes y campañas](c-implement-with-dtm/c-aa-tool/referrers-campaigns.md)
       + [Cookies](c-implement-with-dtm/c-aa-tool/cookies-analytics.md)
-      + [Personalizar código de página](c-implement-with-dtm/c-aa-tool/customize-page-code.md)
-      + [Preguntas más frecuentes sobre la herramienta Adobe Analytics](c-implement-with-dtm/c-aa-tool/dtm-faq.md)
+      + [Personalización del código de la página](c-implement-with-dtm/c-aa-tool/customize-page-code.md)
+      + [Preguntas frecuentes sobre la herramienta Adobe Analytics](c-implement-with-dtm/c-aa-tool/dtm-faq.md)
    + [Creación de un elemento de datos](c-implement-with-dtm/t-data-element.md)
    + [Implementar Adobe Analytics manualmente (heredado)](c-implement-with-dtm/t-analytics-deploy.md)
    + Reglas {#rules}
@@ -94,35 +94,35 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [Creación de condiciones para reglas de llamada directa](c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)
       + [Configurar acciones para que la condición active](c-implement-with-dtm/c-rules/t-rules-actions.md)
       + [Prueba de reglas no publicadas para el alojamiento de Akamai](c-implement-with-dtm/c-rules/t-test-rules-akamai.md)
-      + [Probar reglas para la descarga de bibliotecas o FTP](c-implement-with-dtm/c-rules/t-test-rules-ftp.md)
+      + [Probar reglas para la Descarga de biblioteca o FTP](c-implement-with-dtm/c-rules/t-test-rules-ftp.md)
 + Implementar Analytics mediante JavaScript {#javascript-implementation}
-   + [Descripción general de la implementación de JavaScript](js-implementation/javascript-implementation-overview.md)
+   + [Resumen de la implementación de JavaScript](js-implementation/javascript-implementation-overview.md)
    + [Ejemplo de código de página y configuración global](js-implementation/appmeasure-mjs-pagecode.md)
    + AppMeasurement para JavaScript {#appmeasurement-js}
       + [Acerca de AppMeasurement para JavaScript](js-implementation/c-appmeasurement-js/appmeasure-mjs.md)
       + [Migrar a AppMeasurement para JavaScript](js-implementation/c-appmeasurement-js/appmeasure-mjs-migrate.md)
-      + [Compatibilidad con complementos de appmeasurement](js-implementation/c-appmeasurement-js/plugins-support.md)
+      + [Compatibilidad para complementos de AppMeasurement](js-implementation/c-appmeasurement-js/plugins-support.md)
    + [Accelerated Mobile Pages](js-implementation/accelerated-mobile-pages.md)
    + [Artículos Instantáneos de Facebook](js-implementation/analytics-facebook-instant-articles.md)
-   + Additional web and mobile measurement libraries {#additional-libraries}
-      + [Descripción general de bibliotecas adicionales](js-implementation/c-additional-libraries/libraries.md)
+   + Bibliotecas adicionales de medición de dispositivos móviles y web {#additional-libraries}
+      + [Resumen de bibliotecas adicionales](js-implementation/c-additional-libraries/libraries.md)
       + [Implementar Analytics con etiquetas de imagen HTML](js-implementation/c-additional-libraries/implscwojs.md)
       + [Implementación sin directrices de JavaScript](js-implementation/c-additional-libraries/otherreq.md)
       + [Código de muestra](js-implementation/c-additional-libraries/samplecode.md)
       + [Protocolos de red móvil](js-implementation/c-additional-libraries/network-protocols.md)
-      + [Puerta de enlace de red de protocolo móvil](js-implementation/c-additional-libraries/how-beacon-reaches-adobe.md)
-      + [Etiquetado de páginas para protocolos móviles](js-implementation/c-additional-libraries/tagging-mobile-pages.md)
+      + [Puerta de enlace de red con protocolo móvil](js-implementation/c-additional-libraries/how-beacon-reaches-adobe.md)
+      + [Etiquetado de páginas para los protocolos móviles](js-implementation/c-additional-libraries/tagging-mobile-pages.md)
       + [Informes para dispositivos con protocolos móviles](js-implementation/c-additional-libraries/reports-for-mobile-dev.md)
-      + [Medición de vínculos personalizados en protocolos móviles](js-implementation/c-additional-libraries/mobile-link-tracking.md)
-   + Variables for Analytics implementation and reporting {#variables-analytics-reporting}
-      + [Descripción general de las variables](js-implementation/c-variables/sc-variables.md)
+      + [Medición de vínculos personalizados con protocolos móviles](js-implementation/c-additional-libraries/mobile-link-tracking.md)
+   + Variables para informes e implementación de Analytics {#variables-analytics-reporting}
+      + [Resumen de las variables](js-implementation/c-variables/sc-variables.md)
       + [Variables de configuración](js-implementation/c-variables/configuration-variables.md)
       + [Variables de datos de contexto](js-implementation/c-variables/context-data-variables.md)
       + [Variables dinámicas](js-implementation/c-variables/dynvars-overview.md)
       + [Variables de página](js-implementation/c-variables/page-variables.md)
-      + [Evars y eventos adicionales](js-implementation/c-variables/evars-events.md)
+      + [Eventos y eVars adicionales](js-implementation/c-variables/evars-events.md)
       + [Variables y limitaciones](js-implementation/c-variables/vars-limitiations.md)
-      + [Caracteres JavaScript ilegales](js-implementation/c-variables/vars-restrictions.md)
+      + [Caracteres JavaScript no permitidos](js-implementation/c-variables/vars-restrictions.md)
    + [Función s.t() - Seguimiento de páginas](js-implementation/function-t.md)
    + [Función s.tl() - Seguimiento de vínculos](js-implementation/function-tl.md)
    + [Función s.sa()](js-implementation/function-sa.md)
@@ -132,24 +132,24 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [Util.cookieWrite](js-implementation/util-cookiewrite.md)
    + [Util.getQueryParam](js-implementation/util-getqueryparam.md)
    + [Seguimiento sin conexión](js-implementation/offline-tracking.md)
-   + Data collection {#data-collection}
+   + Recopilación de datos {#data-collection}
       + [Parámetros de consulta de recopilación de datos](js-implementation/data-collection/query-parameters.md)
       + [Encabezados HTTP de recopilación de datos](js-implementation/data-collection/http-headers.md)
       + [Anulaciones de variables](js-implementation/data-collection/var-overrides.md)
-      + [ID de grupos de informes: cuentas dinámicas](js-implementation/data-collection/dynamic-accounts.md)
+      + [ID de grupo de informes: Cuentas dinámicas](js-implementation/data-collection/dynamic-accounts.md)
       + [Errores comunes](js-implementation/data-collection/common-errors.md)
       + [Recopilación de datos de elementos de formulario](js-implementation/data-collection/data-elements.md)
-      + [Rastrear en diferentes tipos de implementación](js-implementation/data-collection/impl-tupes.md)
+      + [Seguimiento en diferentes tipos de implementación](js-implementation/data-collection/impl-tupes.md)
       + [Directrices de implementación](js-implementation/data-collection/impl-guideliens.md)
       + [Ejemplo de implementación](js-implementation/data-collection/impl-examples.md)
       + [Aplicaciones de medios enriquecidos de AJAX-Track](js-implementation/data-collection/impl-media-ajax.md)
       + [Implementación con AJAX](js-implementation/data-collection/impl-ajax.md)
-      + [Seguimiento externo de correo electrónico](js-implementation/data-collection/email-external.md)
+      + [Seguimiento de correo electrónico externo](js-implementation/data-collection/email-external.md)
       + [Implementación de exclusiones de Adobe](js-implementation/data-collection/opt-out.md)
-      + [Agregar un vínculo de exclusión](js-implementation/data-collection/opt-out-link.md)
-   + Implementation plug-ins {#plugins}
+      + [Adición de un vínculo de no participación](js-implementation/data-collection/opt-out-link.md)
+   + Complementos de implementación {#plugins}
       + [Uso de complementos de implementación](js-implementation/plugins/impl-plugins.md)
-      + [Llamada de complementos con la función doplugins](js-implementation/plugins/plugins-calling.md)
+      + [Llamadas a complementos con la función doPlugins](js-implementation/plugins/plugins-calling.md)
       + [Indicador s.abort](js-implementation/plugins/abort.md)
       + [appendList](js-implementation/plugins/appendlist.md)
       + [Función doPlugins](js-implementation/plugins/function-doplugins.md)
@@ -173,24 +173,24 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + Control de rutas {#pathing}
       + [Información general sobre rutas](js-implementation/c-pathing/pathing.md)
       + [Habilitar rutas en una prop](js-implementation/c-pathing/pathing-prop.md)
-      + [Rutas según el código de seguimiento o campaña](js-implementation/c-pathing/pathing-campaign.md)
-      + [Razones por las que las rutas no se pueden registrar](js-implementation/c-pathing/pathing-troubleshooting.md)
+      + [Control de rutas por campaña o código de seguimiento](js-implementation/c-pathing/pathing-campaign.md)
+      + [Motivos por el que el control de rutas podría no registrarse](js-implementation/c-pathing/pathing-troubleshooting.md)
       + [Moverse de sección a sección](js-implementation/c-pathing/pathing-section.md)
-      + [Pasar de plantilla de página a plantilla de página](js-implementation/c-pathing/pathing-pagetempalte.md)
-      + [Rutas de segmentos por tipo de usuario](js-implementation/c-pathing/pathing-segments.md)
-   + [Eventos de compra](js-implementation/event-purchase.md)
-   + [Información general sobre la serialización de eventos](js-implementation/event-serialization.md)
-   + Unique visitors {#unique-visitors}
+      + [Cambio de una plantilla de página a otra](js-implementation/c-pathing/pathing-pagetempalte.md)
+      + [Segmentación de rutas por tipo de usuario](js-implementation/c-pathing/pathing-segments.md)
+   + [Eventos Purchase](js-implementation/event-purchase.md)
+   + [Resumen de la serialización de eventos](js-implementation/event-serialization.md)
+   + Visitantes únicos {#unique-visitors}
       + [Identificar visitantes únicos](js-implementation/c-unique-visitors/visid-overview.md)
       + [ID de visitante personalizado](js-implementation/c-unique-visitors/visid-custom.md)
       + [Servicio de identidad](js-implementation/c-unique-visitors/visid-service.md)
       + [ID de visitante de Analytics](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Métodos de ID de reserva](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Identificación de dispositivos móviles](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Servicios principales de Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
-   + Cross-device visitor identification {#cross-device-visitor-id}
+   + [Servicios principales de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/?f=core_services)
+   + Identificación de visitantes entre dispositivos {#cross-device-visitor-id}
       + [Conectar usuarios entre dispositivos](js-implementation/xdevice-visid/xdevice-connecting.md)
-      + [Impacto de los datos de la identificación de visitantes entre dispositivos](js-implementation/xdevice-visid/xdevice-data.md)
+      + [Impacto de los datos de identificación de visitantes en varios dispositivos](js-implementation/xdevice-visid/xdevice-data.md)
       + [Visita de ejemplo](js-implementation/xdevice-visid/visit-example.md)
       + [Visitantes](js-implementation/xdevice-visid/visitors.md)
       + [Visitas](js-implementation/xdevice-visid/visits.md)
@@ -200,43 +200,43 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [Migración de visitantes](js-implementation/visitor-migration.md)
    + [Usar marcas de hora opcionales](js-implementation/timestamps-overview.md)
    + [Redirecciones y alias](js-implementation/redirects-overview.md)
-+ Testing and validation {#testing-and-validation}
-   + Testing and validation process {#testing-and-validation-process}
-      + [Información general sobre pruebas y validación](impl-testing/impl-validation/impl-validation.md)
-      + [Identificar la variable s_ account en el depurador](impl-testing/impl-validation/impl-testing-account.md)
-      + [Archivo JS JavaScript](impl-testing/impl-validation/impl-js-file.md)
++ Pruebas y validación {#testing-and-validation}
+   + Proceso de pruebas y validación {#testing-and-validation-process}
+      + [Resumen de pruebas y validación](impl-testing/impl-validation/impl-validation.md)
+      + [Identificación de la variable s_account en Debugger](impl-testing/impl-validation/impl-testing-account.md)
+      + [Archivo JS de JavaScript](impl-testing/impl-validation/impl-js-file.md)
       + [Modificaciones del código](impl-testing/impl-validation/impl-code-updates.md)
       + [Variables y valores](impl-testing/impl-validation/impl-var-values.md)
       + [Variables personalizadas](impl-testing/impl-validation/impl-custom-vars.md)
       + [Aceptación de la implementación](impl-testing/impl-validation/impl-acceptance.md)
-      + [Validación de la precisión de datos](impl-testing/impl-validation/impl-data-accuracy.md)
+      + [Validación de la precisión de los datos](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud Debugger](impl-testing/debugger.md)
    + [Analizadores de paquetes](impl-testing/packet-monitor.md)
-   + Implementation troubleshooting {#implementation-troubleshooting}
+   + Solución de problemas de implementación {#implementation-troubleshooting}
       + [Errores comunes de implementación](impl-testing/impl-troubleshooting/impl-troubleshooting.md)
-      + [Colocar código de Analytics en la etiqueta head](impl-testing/impl-troubleshooting/impl-head-tag.md)
+      + [Incluir código de Analytics en la etiqueta Head](impl-testing/impl-troubleshooting/impl-head-tag.md)
       + [Uso de s.linkTrackVars y s.linkTrackEvents](impl-testing/impl-troubleshooting/link-track-vars-events.md)
       + [Errores comunes en la variable Products](impl-testing/impl-troubleshooting/products-troubleshooting.md)
-      + [Configuración incorrecta de la variable pagetype](impl-testing/impl-troubleshooting/pagetype-troubleshooting.md)
-      + [Uso de espacio en blanco en valores de variable](impl-testing/impl-troubleshooting/impl-whitespace.md)
+      + [Configuración correcta de la variable pageType ](impl-testing/impl-troubleshooting/pagetype-troubleshooting.md)
+      + [Uso de espacios en blanco en valores de variable](impl-testing/impl-troubleshooting/impl-whitespace.md)
       + [Uso de comillas](impl-testing/impl-troubleshooting/impl-quotes.md)
-      + [Sustitución del código de Analytics](impl-testing/impl-troubleshooting/impl-update-code.md)
+      + [Reemplazar el código de Analytics](impl-testing/impl-troubleshooting/impl-update-code.md)
       + [Errores de sintaxis comunes](impl-testing/impl-troubleshooting/impl-syntax-troubleshooting.md)
-   + [Escáner de vulnerabilidad](impl-testing/vulnerability-scanner.md)
-   + Optimize your implementation {#optimize-implementation}
-      + [Información general de optimización](impl-testing/c-optimize/impl-optimization.md)
-      + [Nominación de página](impl-testing/c-optimize/page-naming.md)
-      + [Estrategias de nominación de página](impl-testing/c-optimize/page-naming-strategies.md)
-      + [Longitud de variable](impl-testing/c-optimize/var-length.md)
+   + [Explorador de vulnerabilidades](impl-testing/vulnerability-scanner.md)
+   + Optimizar la implementación {#optimize-implementation}
+      + [Resumen de optimización](impl-testing/c-optimize/impl-optimization.md)
+      + [Asignación de nombres de página](impl-testing/c-optimize/page-naming.md)
+      + [Estrategias de asignación de nombres de página](impl-testing/c-optimize/page-naming-strategies.md)
+      + [Longitud de las variables](impl-testing/c-optimize/var-length.md)
       + [Fragmento de código HTML](impl-testing/c-optimize/impl-html-snippet.md)
-      + [Archivo de biblioteca Javascript](impl-testing/c-optimize/impl-js-library.md)
+      + [Archivo de biblioteca JavaScript](impl-testing/c-optimize/impl-js-library.md)
       + [Directivas de almacenamiento en caché](impl-testing/c-optimize/caching-directives.md)
       + [Tablas](impl-testing/c-optimize/tables.md)
       + [Compresión de archivos](impl-testing/c-optimize/impl-compression.md)
       + [Páginas seguras](impl-testing/c-optimize/secure-pages.md)
       + [Redes y servicios de envío de contenido](impl-testing/c-optimize/cdn.md)
-      + [Ubicación y concurrencia del archivo JavaScript](impl-testing/c-optimize/impl-js-hosting.md)
+      + [Ubicación y simultaneidad del archivo JavaScript](impl-testing/c-optimize/impl-js-hosting.md)
       + [Relación entre iguales](impl-testing/c-optimize/peering.md)
-   + [Informe a asignación de variables](impl-testing/report-variable-mapping.md)
-   + [Variable a la asignación de informes](impl-testing/var-report-mapping.md)
-+ [Implementar Analytics para ayudante digital](c-analytics-digital-assistants/digital-assistants-white-paper.md)
+   + [Asignación de informes a variables](impl-testing/report-variable-mapping.md)
+   + [Asignación de variables a informes](impl-testing/var-report-mapping.md)
++ [Implementar Analytics para asistentes digitales](c-analytics-digital-assistants/digital-assistants-white-paper.md)
