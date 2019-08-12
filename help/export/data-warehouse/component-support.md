@@ -2,7 +2,7 @@
 title: Compatibilidad con componentes en el almacén de datos
 description: Descubra qué dimensiones y métricas adicionales están disponibles en el almacén de datos y qué no se admite.
 translation-type: tm+mt
-source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
+source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
 
 ---
 
@@ -17,10 +17,9 @@ Algunas dimensiones y métricas se pueden utilizar en el almacén de datos, pero
 
 ### Dimensiones admitidas exclusivamente
 
-* ID de visitante de Experience Cloud:
-* IP:
-* URL de la página:
-* ID de compra:
+* ID del visitante de Experience Cloud: Para implementaciones que utilizan el servicio Experience Cloud ID (ECID), un número de 128 bits que consta de dos números concatenados de 64 bits relleno a 19 dígitos.
+* URL de la página: Dirección URL de la página en la que se produjo la visita.
+* ID de compra: Identificador único para una compra, configurado con la variable purchaseid.
 * ID de visitante: Proporciona el identificador único del visitante. Este valor es el mismo que el valor concatenado y `visid_high``visid_low` las columnas de las fuentes de datos. Consulte [Referencia de columna Datos](../analytics-data-feed/c-df-contents/datafeeds-reference.md) en Fuentes de datos para obtener más información.
 
 ### Las métricas se admiten exclusivamente
@@ -59,7 +58,7 @@ Algunas dimensiones y métricas no son compatibles con el almacén de datos.
 * Clasificación de todas las páginas de búsqueda
 * Variables de jerarquía
 * Tipo de visita
-* Páginas no encontradas (solo segmentos)
+* Páginas no encontradas (disponibles como dimensión; no se admite para la segmentación)
 * Búsqueda de pago
 * Visitas a una sola página
 * Motivo de omisión de seguimiento
