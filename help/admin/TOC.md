@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Guía de administración de Analytics
 user-guide-url: /content/help/es-ES/analytics/admin/home.html
-translation-type: ht
-source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
+translation-type: tm+mt
+source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 
 ---
 
@@ -20,30 +20,30 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [Herramientas de administración](admin/c-admin-tools.md)
    + [Facturación](admin/billing-admin.md)
    + Reglas de bots {#bot-rules}
-      + [Resumen sobre reglas Bot](admin/bot-rules/bot-rules.md)
+      + [Información general sobre reglas Bot](admin/bot-rules/bot-rules.md)
       + [Cargar reglas de bots](admin/bot-rules/t-upload-bot-rules.md)
       + [Crear una regla de bots personalizada](admin/bot-rules/t-create-bot-rules.md)
    + [Administrador de códigos](admin/code-manager-admin.md)
-   + Variables de conversión {#conversion-variables}
-      + [Variables de conversión (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
+   + Conversion variables {#conversion-variables}
+      + [Variables de conversión (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Editar variables de conversión](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Clasificaciones de conversión](admin/conversion-var-admin/conversion-classifications.md)
-   + [Códigos de divisa](admin/currency.md)
-   + [Descripciones personalizadas de informe](admin/custom-desc-admin.md)
+   + [Códigos de moneda](admin/currency.md)
+   + [Descripciones de informes personalizados](admin/custom-desc-admin.md)
    + [Personalizar calendario](admin/custom-calendar.md)
    + [Fuentes de datos](admin/data-sources.md)
-   + [Medidas predeterminadas](admin/default-metrics.md)
+   + [Métricas predeterminadas](admin/default-metrics.md)
    + [Excluir por dirección IP](admin/exclude-ip.md)
    + [Métodos de búsqueda](admin/finding-methods.md)
-   + [Configuración de la cuenta generales](admin/general-acct-settings-admin.md)
+   + [Configuración general de cuenta](admin/general-acct-settings-admin.md)
    + [Administración de grupos](admin/group.md)
    + [Filtros URL internos](admin/internal-url-filter-admin.md)
    + [Registros](admin/logs.md)
    + [Canales de marketing](admin/marketing-channels-admin.md)
-   + [Personalización de menús](admin/customize-menus.md)
-   + [Visibilidad de las métricas](admin/metric-visibility.md)
+   + [Personalización de menú](admin/customize-menus.md)
+   + [Precisión de métrica](admin/metric-visibility.md)
    + [Administración de móviles](admin/mobile-management.md)
-   + Detección de búsqueda de pago {#paid-search-detection}
+   + Paid search detection {#paid-search-detection}
       + [Resumen de detección de búsqueda de pago](admin/paid-search-detection/paid-search-detection.md)
       + [Configurar la detección de búsqueda pagada](admin/paid-search-detection/t-paid-search-detection.md)
    + [Listas de publicaciones](admin/publishing-list.md)
@@ -97,10 +97,10 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [Clasificaciones de tráfico](admin/c-traffic-variables/traffic-classifications.md)
    + Variable de visitante único {#unique-visitor-variable}
       + [Especificar la variable de visitante único](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Caso de uso: obtención de ID de visitantes](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [Caso de uso: extraer ID de visitante](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Administración de vídeo](admin/video-management.md)
 + Admin Console de Experience Cloud {#admin-console}
-   + [Ayuda de Admin Console de Experience Cloud](admin-console/home.md)
+   + [Ayuda de la Consola de administración de Experience Cloud](admin-console/home.md)
    + Permisos {#permissions}
       + [Ayuda del perfil de producto](admin-console/permissions/product-profile.md)
       + [Elementos de permiso de herramientas de grupos de informes](admin-console/permissions/report-suite-tools.md)
