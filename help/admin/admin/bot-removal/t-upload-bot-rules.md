@@ -8,7 +8,7 @@ title: Cargar reglas de bots
 topic: Herramientas de administración
 uuid: bd 70 c 199-5817-437 e -980 d -6 d 8 f 95 d 82 f 2 c
 translation-type: tm+mt
-source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
+source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 
 ---
 
@@ -19,18 +19,9 @@ Para importar reglas de bots de forma masiva, puede cargarse un archivo CSV que 
 
 Cree un archivo CSV con las columnas siguientes en el orden presentado:
 
-<table id="table_770891EF9E4A49F695977BB6446736B5"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> Nombre de Bot</code> </p> </td> 
-   <td colname="col2"> <p> <code> IP Start </code> </p> </td> 
-   <td colname="col3"> <p> <code> IP End </code> </p> </td> 
-   <td colname="col4"> <p> <code> Agent Match Rule (contains or starts with)</code> </p> </td> 
-   <td colname="col5"> <p> <code> Agent Include (100 char limit)</code> </p> </td> 
-   <td colname="col6"> <p> <code> Agent Exclude (255 char limit)</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Columna 1 | Columna 2 | Columna 3 | Columna 4 | Columna 5 |
+|---|---|---|---|---|
+| Nombre de Bot | IP Start | IP End | Agent Match Rule<br>(`contains` or `starts with`) | Agent Exclude<br>(255 char limit) |
 
 Puede definir tres tipos de reglas de bots:
 
