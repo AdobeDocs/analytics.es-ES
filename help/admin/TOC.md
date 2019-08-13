@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 user-guide-url: /content/help/es-ES/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -19,10 +19,10 @@ source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 + Herramientas de administración {#admin-tools}
    + [Herramientas de administración](admin/c-admin-tools.md)
    + [Facturación](admin/billing-admin.md)
-   + Reglas de bots {#bot-rules}
-      + [Información general sobre reglas Bot](admin/bot-rules/bot-rules.md)
-      + [Cargar reglas de bots](admin/bot-rules/t-upload-bot-rules.md)
-      + [Crear una regla de bots personalizada](admin/bot-rules/t-create-bot-rules.md)
+   + Eliminación de bots {#bot-removal}
+      + [Información general sobre reglas Bot](admin/bot-removal/bot-rules.md)
+      + [Cargar reglas de bots](admin/bot-removal/t-upload-bot-rules.md)
+      + [Crear una regla de bots personalizada](admin/bot-removal/t-create-bot-rules.md)
    + [Administrador de códigos](admin/code-manager-admin.md)
    + Conversion variables {#conversion-variables}
       + [Variables de conversión (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
