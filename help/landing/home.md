@@ -3,8 +3,8 @@ title: Guías de documentación técnica de Adobe Analytics
 seo-title: Lista completa de documentación técnica de Adobe Analytics y guías de usuario de autoayuda
 description: Guías y recursos para usuarios de Analytics
 seo-description: Lista completa de documentos técnicos de Adobe Analytics, notas de la versión y guías de usuario de autoayuda.
-translation-type: ht
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+translation-type: tm+mt
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -25,15 +25,15 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 [![Integración](assets/integrate_50px.png)](/help/integrate/home.md) [Guía de integración](/help/integrate/home.md): Configure integraciones con otras soluciones de Adobe Experience Cloud, como Audience Manager, Advertising Cloud o Target.
 
-[![Análisis de medios](assets/media_50px.png)](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html) [Guía de análisis de medios](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html): Implemente Analytics en fuentes de audio o vídeo. Incluye el SDK de medios y la API de recopilación de medios.
+[![Análisis de medios](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) [Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) : implemente Analytics en fuentes de audio o vídeo. Incluye el SDK de medios y la API de recopilación de medios.
 
-[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/) [Guías de Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/): Instalación de cliente de Data Workbench, configuración de conjunto de datos, etc.
+[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/) [de](https://marketing.adobe.com/resources/help/en_US/insight/) Área de trabajo de datos: Cliente del área de trabajo de datos, Instalación, Configuración de conjuntos de datos, etc.
 
 [![Notas técnicas](assets/technotes_50px.png)](../technotes/home.md) [Notas técnicas de Analytics](../technotes/home.md): Una base de conocimiento que contiene artículos útiles que no pertenecen a una herramienta o componente de análisis específico.
 
 | Elementos nuevos y destacados | Recursos analíticos clave |
 | --- | --- |
-| <ul><li>[Recopilación de datos regionales](../technotes/rdc/regional-data-collection.md)</li><li>[Optimizar el rendimiento de Workspace](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Comparación de productos de Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[¿Qué herramienta de Adobe Analytics debo usar?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Consulte también: [Actualizaciones de documentación de 2019](doc-updates.md) | <ul><li> [Notas de la versión ](https://marketing.adobe.com/resources/help/es_ES/whatsnew/)</li><li> [Canal de YouTube de Adobe Analytics](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Tutoriales y vídeos de Analytics](https://helpx.adobe.com/es/analytics/kt/index/analytics-videos.html)</li><li>[Foro de la comunidad de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Capacitación presencial y clases virtuales](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://experienceleague.adobe.com/?lang=es#recommended/solutions/analytics)</li><li>[Contactar con atención al cliente](https://helpx.adobe.com/es/support/analytics.html)</li></ul> |
+| <ul><li>[Recopilación de datos regionales](../technotes/rdc/regional-data-collection.md)</li><li>[Optimizar el rendimiento de Workspace](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Comparación de productos de Analytics](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[¿Qué herramienta de Adobe Analytics debo usar?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> Consulte también: [Actualizaciones de documentación de 2019](doc-updates.md) | <ul><li> [Notas de la versión](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Canal de Youtube de Adobe Analytics](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Tutoriales y vídeos de Analytics](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Foro de la comunidad de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[Formación presencial y clases virtuales](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[Contactar con el Servicio de atención al cliente](https://helpx.adobe.com/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
@@ -53,7 +53,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 
 *   [Activity Map](/help/analyze/activity-map/activity-map.md)
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-*   [Bot filtering](/help/admin/admin/bot-rules/bot-rules.md)
+*   [Bot filtering](/help/admin/admin/bot-removal/bot-rules.md)
 *   [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
 *   [Classifications](/help/components/c-classifications2/c-classifications.md)
 *   [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
