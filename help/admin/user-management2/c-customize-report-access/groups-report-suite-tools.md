@@ -2,19 +2,19 @@
 description: Habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero.
 keywords: grupos; permisos
 seo-description: Habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero.
-seo-title: Personalizar herramientas de grupos de informes permisos
+seo-title: Personalizar herramientas de grupos de informes
 solution: Analytics
 subtopic: Usuarios y grupos
-title: Personalizar permisos de herramientas de grupos de informes
+title: Personalizar herramientas de grupos de informes
 topic: Herramientas de administración
 uuid: 3 c 95 d 296-ffd 0-4971-9 c 5 f -110 ddbe 042 ce
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
 
-# Personalizar permisos de herramientas de grupos de informes
+# Personalizar herramientas de grupos de informes
 
 >[!IMPORTANT]
 >
@@ -68,8 +68,8 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | [Detección de anomalías](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | Concede permiso para acceder a Detección de anomalías, que constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores. |
 | [Informe de canal](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | Concede permiso para informes Canal de marketing, los cuales se encuentran en Informes &gt; Informes de canal de marketing. |
 | [Informe en tiempo real](../../../admin/admin/realtime/t-realtime-admin.md) | Otorga acceso al informe en tiempo real. |
-| [Páginas de bots](../../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
-| [Bots](../../../admin/admin/bot-rules/bot-rules.md) | Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
+| [Páginas de bots](../../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
+| [Bots](../../../admin/admin/bot-removal/bot-rules.md) | Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
 | [Informe del Data Warehouse personalizado](../../..//export/data-warehouse/data-warehouse.md) | El Data Warehouse hace referencia a la copia de datos sin procesar para su almacenamiento y para elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Puede solicitar informes para mostrar las relaciones de datos avanzadas que hay entre los datos sin procesar en función de sus propias preguntas. |
 | [Visitas de retorno diario](../../../components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Heredado) Informe que muestra el número de visitantes que vieron el sitio web más de una vez en un día determinado. Un día se define como el último período de 24 horas. |
 | [Administrador de fuentes de datos](../../../admin/admin/data-sources.md) | La función Fuentes de datos permite importar datos a Analytics desde fuentes sin conexión. |
@@ -82,6 +82,6 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | Clasificaciones | Combina los siguientes permisos: ' Clasificaciones de tráfico ',' Clasificaciones de video ',' Clasificaciones de conversión ',' Jerarquías de clasificación ',' Administrador de clasificaciones'y'Importador de clasificaciones/Exportador y Generador de reglas '. Nota: Con este permiso, los usuarios pueden editar las clasificaciones de todos los grupos de informes, no solo los seleccionados. |
 | [Análisis de contribución](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Concede permisos para utilizar los análisis de contribución en Analysis Workspace. |
 | **Elementos de tablero** |  |
-| The settings in Dashboard Items enables access to [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports &amp; Analytics:, My Recommended Reports, Company Summary Reportlet, Image, KPI/Gauge Reportlet, Report Suite Totals, Text, Reportlet, Usage Summary Reportlet, and Web Resources |  |
+| La configuración de los Elementos de tablero permite el acceso a [los informes breves](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) en Informes y análisis: , Mis informes recomendados, Informe breve de resumen de la empresa, Imagen, Informe breve de KPI/medición, Totales de grupos de informes, Texto, Informe breve, Informe breve de resumen de uso y Recursos Web |  |
 | **Otro** |  |
 | Social | Controla el acceso al menú Administración social en el Administrador de grupos de informes. |
