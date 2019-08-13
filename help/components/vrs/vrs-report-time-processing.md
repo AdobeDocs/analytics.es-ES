@@ -1,16 +1,16 @@
 ---
 description: El procesamiento de intervalo de tiempo es una configuración de grupo de informes virtuales que permite procesar datos de forma retroactiva y no destructiva.
 seo-description: El procesamiento de intervalo de tiempo es una configuración de grupo de informes virtuales que permite procesar datos de forma retroactiva y no destructiva.
-seo-title: Procesamiento de intervalo de tiempo
-title: Procesamiento de intervalo de tiempo
+seo-title: Procesamiento de tiempo de los informes
+title: Procesamiento de tiempo de los informes
 uuid: 1 a 1 d 82 ea -8 c 93-43 cc -8689-cdcf 59 c 309 b 1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1e8d5af54ab22311e1c3967979c8bdc982a66d5b
 
 ---
 
 
-# Procesamiento de intervalo de tiempo
+# Procesamiento de tiempo de los informes
 
 El procesamiento de intervalo de tiempo es una configuración de grupo de informes virtuales que permite procesar datos de forma retroactiva y no destructiva.
 
@@ -84,7 +84,7 @@ A continuación se ofrece una lista de métricas y dimensiones que en este momen
    <td colname="col2"> <p> No compatible en este momento. Está prevista la compatibilidad futura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Métricas/dimensiones AMO reservadas </p> </td> 
+   <td colname="col1"> <p> Analytics para métricas/dimensiones reservadas de Marketing Cloud </p> </td> 
    <td colname="col2"> <p> No compatible en este momento. Está prevista la compatibilidad futura. </p> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ A continuación se ofrece una lista de métricas y dimensiones que en este momen
    <td colname="col2"> <p> No compatible en este momento. Está prevista la compatibilidad futura. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Número de visitas </p> </td> 
+   <td colname="col1"> <p> Número de visita </p> </td> 
    <td colname="col2"> <p> Debido a la naturaleza de la limitación de fechas de Procesamiento de intervalo de tiempo, esta métrica no es compatible. </p> <p> Para informar del número de visitantes nuevos frente a repetidos en las aplicaciones móviles, puede usarse una métrica calculada que incluye los visitantes y visitas con la métrica Instalación de la aplicación para identificar los nuevos visitantes y visitas. </p> </td> 
   </tr> 
   <tr> 
@@ -170,19 +170,19 @@ A continuación se ofrece una lista de dimensiones y métricas que pueden verse 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Salidas hacia otro sitio/Tasa de salida hacia otro sitio </p> </td> 
-   <td colname="col2"> <p> Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, las visitas en segundo plano no seguidas por una visita en primer plano no se consideran una salida hacia otro sitio y no contribuyen a la tasa de salida hacia otro sitio. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, las visitas en segundo plano no seguidas por una visita en primer plano no se consideran una salida hacia otro sitio y no contribuyen a la tasa de salida hacia otro sitio. Consulte <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> la sesionización según el contexto</a> para obtener más detalles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Tiempo pasado en segundos por visita </p> </td> 
-   <td colname="col2"> <p> Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, solo las visitas que incluyen visitas en primer plano contribuyen a esta métrica. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, solo las visitas que incluyen visitas en primer plano contribuyen a esta métrica. Consulte <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> la sesionización según el contexto</a> para obtener más detalles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Tiempo pasado por visita </p> </td> 
-   <td colname="col2"> <p> Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, solo las visitas que incluyen visitas en primer plano contribuyen a esta métrica. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, solo las visitas que incluyen visitas en primer plano contribuyen a esta métrica. Consulte <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> la sesionización según el contexto</a> para obtener más detalles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Entradas </p> </td> 
-   <td colname="col2"> <p> Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, solo se consideran las entradas que contienen una visita en primer plano. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, solo se consideran las entradas que contienen una visita en primer plano. Consulte <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> la sesionización según el contexto</a> para obtener más detalles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> eVars no de comercialización/eVars reservadas </p> </td> 
@@ -194,7 +194,7 @@ A continuación se ofrece una lista de dimensiones y métricas que pueden verse 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Dimensiones de entrada y salida </p> </td> 
-   <td colname="col2"> <p> Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, solo las entradas y salidas de visitas con visitas en primer plano aparecen en esta dimensión. See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, solo las entradas y salidas de visitas con visitas en primer plano aparecen en esta dimensión. Consulte <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> la sesionización según el contexto</a> para obtener más detalles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Tipo de visita </p> </td> 
