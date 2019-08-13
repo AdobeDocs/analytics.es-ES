@@ -8,14 +8,14 @@ title: Reglas de bots
 topic: Herramientas de administración
 uuid: 3 cb 9 e 29 d -1 c 37-43 de-b 7 ac -34441093 a 60 e
 translation-type: tm+mt
-source-git-commit: d663329df871800195c7308ea4260018b2c8840b
+source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 
 ---
 
 
 # Reglas de bots
 
-Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta.
+Las reglas de bots permiten eliminar el tráfico del grupo de informes generado por arañas y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta.
 
 Una vez definidas las reglas de bots, todo el tráfico entrante se compara con las reglas definidas. El tráfico que coincida con alguna de estas reglas no se recogerá en el grupo de informes ni se incluirá en las métricas de tráfico.
 
@@ -23,13 +23,13 @@ To update or upload bot rules, navigate to **[!UICONTROL Analytics]** &gt; **[!U
 
 Por lo general, al eliminar el tráfico de bots se reduce el volumen de las métricas de conversión y tráfico. Muchos clientes consideran que eliminar el tráfico de bots provoca tasas de conversión superiores y aumenta otras métricas de uso. Antes de eliminar el tráfico de bots, es necesario ponerse en contacto con los interesados para asegurarse de que realicen los ajustes necesarios en los indicadores de rendimiento clave con relación a este cambio. Si es posible, se recomienda eliminar en primer lugar el tráfico de bots de un grupo de informes pequeño para realizar una estimación de los posibles efectos.
 
-Se recomienda definir no más de 500 reglas de bots por grupo de informes. La interfaz de usuario permite definir 500 reglas manualmente. Una vez alcanzado este límite, las reglas deben gestionarse de forma masiva mediante las opciones de [Importar archivo](../../../admin/admin/bot-rules/t-upload-bot-rules.md#task_95868D8564564E6A996163335C119806) y Exportar reglas de bots.
+>[!NOTE] Se recomienda definir no más de 500 reglas de bots por grupo de informes. La interfaz de usuario permite definir 500 reglas manualmente. Una vez alcanzado este límite, las reglas deben gestionarse de forma masiva mediante las opciones de [Importar archivo](../../../admin/admin/bot-rules/t-upload-bot-rules.md#task_95868D8564564E6A996163335C119806) y Exportar reglas de bots.
 
 Los datos del tráfico de bots se almacenan en un repositorio independiente para mostrarlos en los informes [!UICONTROL Bots] y [!UICONTROL Páginas de bots].
 
 | Tipo de regla | Descripción |
 |--- |--- |
-| IAB | Al seleccionar [!UICONTROL Incluir IAB], se utiliza la lista de arañas y bots internacionales de IAB/ABCe (IAB/ABCe International Spiders &amp; Bots List) para eliminar el tráfico de bots. La IAB actualiza esta lista mensualmente. <br>Para enviar un bot a la lista de IAB, visite [IAB](https://www.iab.net/sites/spiders/form.php). <br>Adobe no puede proporcionar la lista detallada de bots de la IAB a los clientes, pero se puede usar el informe de bots para ver una lista de los bots que han accedido a un sitio. |
+| IAB | Selecting [!UICONTROL Include IAB] uses the IAB's (International Advertising Bureau's) International Spiders &amp; Bots List to remove bot traffic. La IAB actualiza esta lista mensualmente. <br>Para enviar un bot a la lista de IAB, visite [IAB](https://www.iab.net/sites/spiders/form.php). <br>Adobe no puede proporcionar la lista detallada de bots de la IAB a los clientes, pero se puede usar el informe de bots para ver una lista de los bots que han accedido a un sitio. |
 | Reglas de bots personalizadas | Consulte [Crear una regla de bots personalizada](../../../admin/admin/bot-rules/t-create-bot-rules.md). |
 
 ## Efecto de las reglas de bots en la recopilación de datos {#section_F01A3130E7A04A9993371CF26F6586F2}
@@ -42,11 +42,11 @@ VISTA rules are applied after Bot Rules (see [Processing Order](../../../admin/a
 
 >[!NOTE]
 >
->Hits marked as *`bots`* are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>Las visitas marcadas como *`bots`* se facturan como [llamadas al servidor](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/overage-overview.html).
 
 ## Influencia de la confusión de IP en el filtrado para bots {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
-La lista de bots de la IAB se basa exclusivamente en agente usuario, por lo que el filtrado en función de esa lista no afecta a los ajustes de confusión de IP. Para el filtrado de bots que no son IAB (reglas personalizadas), IP puede formar parte de los criterios de filtrado. Si filtra bots con IP, el filtrado de bots ocurre después de que el último octeto ha sido eliminado si ese ajuste está habilitado, pero antes de las otras opciones de confusión de IP, como la eliminación de la IP completa o la sustitución con algún ID único.?
+La lista de bots de la IAB se basa exclusivamente en agente usuario, por lo que el filtrado en función de esa lista no afecta a los ajustes de confusión de IP. Para el filtrado de bots que no son IAB (reglas personalizadas), IP puede formar parte de los criterios de filtrado. Si filtra bots con IP, el filtrado de bots ocurre después de que el último octeto ha sido eliminado si ese ajuste está habilitado, pero antes de las otras opciones de confusión de IP, como la eliminación de la IP completa o la sustitución con algún ID único.
 
 Si la confusión de la IP está habilitada, la exclusión de la IP se produce antes de que la dirección IP se confunda, por lo que los clientes no necesitan cambiar nada cuando habilitan la confusión de la IP.
 
