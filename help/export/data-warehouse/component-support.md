@@ -2,7 +2,7 @@
 title: Compatibilidad con componentes en el almacén de datos
 description: Descubra qué dimensiones y métricas adicionales están disponibles en el almacén de datos y qué no se admite.
 translation-type: tm+mt
-source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -24,14 +24,14 @@ Algunas dimensiones y métricas se pueden utilizar en el almacén de datos, pero
 
 ### Las métricas se admiten exclusivamente
 
-* Visitas: Esta métrica en contexto del almacén de datos excluye visitas de cookies no persistentes.
+* Visitas: Esta métrica en contexto del almacén de datos excluye las visitas de cookies no persistentes.
 * Visitas - Todos los visitantes: Esta métrica en contexto del almacén de datos tiene una paridad más cercana con la métrica Visitas en otras herramientas de Adobe Analytics.
 
 ## Componentes no admitidos en el almacén de datos
 
 Algunas dimensiones y métricas no son compatibles con el almacén de datos.
 
-> [!IMPORTANT] Si el almacén de datos no admite una dimensión o métrica, los segmentos que utilizan estos componentes tampoco son compatibles. Compruebe siempre la compatibilidad del producto al crear o editar un segmento.
+> [!NOTE] Si el almacén de datos no admite una dimensión o métrica, los segmentos que utilizan estos componentes tampoco son compatibles. Compruebe siempre la compatibilidad del producto al crear o editar un segmento.
 
 ### Dimensiones no admitidas
 
