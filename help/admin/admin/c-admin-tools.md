@@ -5,7 +5,7 @@ seo-title: Herramientas de administración
 title: Herramientas de administración
 uuid: 6961 e 956-14 ea -4367-bdbd-eb 0 bcc 456 aae
 translation-type: tm+mt
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]**
 
->[!IMPORTANT]
->
->No abra varias fichas de administración en el mismo explorador. Esto puede llevar a guardar de forma involuntaria ajustes en el grupo de informes incorrecto. Si necesita, por ejemplo, comparar grupos de reglas y copiarlos en un nuevo grupo de informes, sugerimos abrir un nuevo explorador o tomar una captura de pantalla para comparar los grupos de reglas.
+>[!IMPORTANT] No abra varias fichas de administración en el mismo explorador. Esto puede llevar a guardar de forma involuntaria ajustes en el grupo de informes incorrecto. Si necesita, por ejemplo, comparar grupos de reglas y copiarlos en un nuevo grupo de informes, sugerimos abrir un nuevo explorador o tomar una captura de pantalla para comparar los grupos de reglas.
 
 + [Facturación](billing-admin.md)
 + [Resumen sobre reglas Bot](bot-removal/bot-rules.md)
