@@ -4,7 +4,7 @@ seo-title: Ayuda de importación de Analytics
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,7 +13,11 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![Pancarta](../../assets/doc_banner_import.png)
 
-En esta guía se explica cómo obtener datos en Analytics a través de fuentes de datos, API de inserción o conectores de datos.
+Esta guía explica cómo obtener datos en Analytics. Incluye:
+
+* **Fuentes de datos:** Cargue un archivo en un sitio FTP de Adobe designado. Adobe recupera el archivo e incluye los datos en su grupo de informes.
+* **API de inserción de datos:** Envíe datos directamente a la recopilación de datos de Adobe a través de una API.
+* **Conectores de datos:** Trabaje con un tercero admitido para introducir sus datos en Adobe Analytics y enriquecer su grupo de informes.
 
 ## Artículos de importación de Analytics clave
 
@@ -25,11 +29,7 @@ En esta guía se explica cómo obtener datos en Analytics a través de fuentes d
 
 ## Recursos de Analytics clave
 
-* [Introducción](https://helpx.adobe.com/analytics/get-started.html)
-* [Vídeos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Desarrollador](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Formación y asistencia para Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Comuníquese con el servicio de asistencia](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contactar con el Servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Recursos de Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
