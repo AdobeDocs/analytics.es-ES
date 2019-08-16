@@ -4,7 +4,7 @@ seo-title: Ayuda de exportación de Analytics
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -13,7 +13,10 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ![Pancarta](../../assets/doc_banner_export.png)
 
-En esta guía se describen varios métodos de exportación de datos, como fuentes de datos y Almacén de datos.
+Esta guía describe los modos de extraer datos de Adobe Analytics. Incluye:
+
+* **Fuentes de datos:** Reciba una exportación por hora o por día de los datos sin procesar. Cada fila es una visita individual individual y cada columna es una variable. Las fuentes de datos suelen enviarse a sitios FTP.
+* **Almacén de datos:** Utilice un asistente para solicitudes para recuperar una hoja de cálculo de hoja de cálculo. El Almacén de datos utiliza una arquitectura de procesamiento diferente para permitir cualquier número de filas y cualquier cantidad de valores únicos.
 
 ## Artículos de exportación de Analytics clave
 
@@ -27,11 +30,7 @@ En esta guía se describen varios métodos de exportación de datos, como fuente
 
 ## Recursos de Analytics clave
 
-* [Introducción](https://helpx.adobe.com/analytics/get-started.html)
-* [Vídeos](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Desarrollador](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Formación y asistencia para Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [Comuníquese con el servicio de asistencia](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contactar con el Servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Recursos de Adobe Analytics](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
