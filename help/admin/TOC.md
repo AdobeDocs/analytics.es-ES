@@ -3,7 +3,7 @@ product: analytics
 audience: admin
 user-guide-title: Guía de administración de Analytics
 user-guide-url: /content/help/es-ES/analytics/admin/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
@@ -20,30 +20,30 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [Herramientas de administración](admin/c-admin-tools.md)
    + [Facturación](admin/billing-admin.md)
    + Eliminación de bots {#bot-removal}
-      + [Información general sobre reglas Bot](admin/bot-removal/bot-rules.md)
+      + [Resumen sobre reglas de Bot](admin/bot-removal/bot-rules.md)
       + [Cargar reglas de bots](admin/bot-removal/t-upload-bot-rules.md)
       + [Crear una regla de bots personalizada](admin/bot-removal/t-create-bot-rules.md)
    + [Administrador de códigos](admin/code-manager-admin.md)
-   + Conversion variables {#conversion-variables}
+   + Variables de conversión {#conversion-variables}
       + [Variables de conversión (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Editar variables de conversión](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Clasificaciones de conversión](admin/conversion-var-admin/conversion-classifications.md)
-   + [Códigos de moneda](admin/currency.md)
-   + [Descripciones de informes personalizados](admin/custom-desc-admin.md)
+   + [Códigos de divisa](admin/currency.md)
+   + [Descripciones personalizadas de informe](admin/custom-desc-admin.md)
    + [Personalizar calendario](admin/custom-calendar.md)
    + [Fuentes de datos](admin/data-sources.md)
    + [Métricas predeterminadas](admin/default-metrics.md)
    + [Excluir por dirección IP](admin/exclude-ip.md)
    + [Métodos de búsqueda](admin/finding-methods.md)
-   + [Configuración general de cuenta](admin/general-acct-settings-admin.md)
+   + [Configuración general de la cuenta](admin/general-acct-settings-admin.md)
    + [Administración de grupos](admin/group.md)
    + [Filtros URL internos](admin/internal-url-filter-admin.md)
    + [Registros](admin/logs.md)
    + [Canales de marketing](admin/marketing-channels-admin.md)
-   + [Personalización de menú](admin/customize-menus.md)
-   + [Precisión de métrica](admin/metric-visibility.md)
-   + [Administración de móviles](admin/mobile-management.md)
-   + Paid search detection {#paid-search-detection}
+   + [Personalización de menús](admin/customize-menus.md)
+   + [Accesibilidad a métricas](admin/metric-visibility.md)
+   + [Administración de dispositivos móviles](admin/mobile-management.md)
+   + Detección de búsqueda de pago {#paid-search-detection}
       + [Resumen de detección de búsqueda de pago](admin/paid-search-detection/paid-search-detection.md)
       + [Configurar la detección de búsqueda pagada](admin/paid-search-detection/t-paid-search-detection.md)
    + [Listas de publicaciones](admin/publishing-list.md)
@@ -97,10 +97,10 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
       + [Clasificaciones de tráfico](admin/c-traffic-variables/traffic-classifications.md)
    + Variable de visitante único {#unique-visitor-variable}
       + [Especificar la variable de visitante único](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [Caso de uso: extraer ID de visitante](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [Caso de uso: Extracción de ID de visitantes](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [Administración de vídeo](admin/video-management.md)
 + Admin Console de Experience Cloud {#admin-console}
-   + [Ayuda de la Consola de administración de Experience Cloud](admin-console/home.md)
+   + [Ayuda de Admin Console de Experience Cloud](admin-console/home.md)
    + Permisos {#permissions}
       + [Ayuda del perfil de producto](admin-console/permissions/product-profile.md)
       + [Elementos de permiso de herramientas de grupos de informes](admin-console/permissions/report-suite-tools.md)
