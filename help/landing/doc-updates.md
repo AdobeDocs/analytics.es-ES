@@ -4,7 +4,7 @@ description: Actualizaciones de documentación técnica de Adobe Analytics
 seo-title: Actualizaciones de documentación de Adobe Analytics
 seo-description: Actualizaciones de documentación de Adobe Analytics
 short-title: Actualizaciones de documentación de Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 379b8d703b41a6f48b2cf97db190d07b85b4ac30
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 379b8d703b41a6f48b2cf97db190d07b85b4ac30
 
 Actualizaciones de contenido para la documentación de Adobe Analytics establecidas desde enero de 2019.
 
-* Para obtener una lista completa de nuevas funciones, avisos de administración y correcciones de errores, consulte las últimas [notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+* Para obtener una lista completa de nuevas funciones, avisos de administración y correcciones de errores, consulte las últimas [notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/whatsnew/).
 * Para obtener más información sobre las nuevas funciones de Analysis Workspace, consulte [este tema](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md).
-* Para obtener información sobre Adobe Analytics para audio y vídeo, consulte [Medición de audio y vídeo en Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+* Para obtener información sobre el uso de Adobe Analytics para audio y vídeo, consulte [Medición de audio y vídeo en Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html).
 
 ## Detalles de la actualización
 
@@ -24,10 +24,10 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 |---|---|
 | 8 de agosto de 2019 | Nuevo artículo sobre [Totales de métricas calculadas](/help/components/c-calcmetrics/cm-totals.md) |
 | 8 de agosto de 2019 | Aclaración sobre [datos de sesión con marca de tiempo habilitada](/help/admin/admin/timestamp-optional.md) |
-| 5 de agosto de 2019 | Actualizaciones de [conceptos clave](/help/analyze/reports-analytics/key-concepts.md) |
+| 5 de agosto de 2019 | Actualizaciones de [Conceptos clave](/help/analyze/reports-analytics/key-concepts.md) |
 | 2 de agosto de 2019 | Actualización principal del [glosario de Analytics](/help/technotes/terms.md) |
-| 22 de julio de 2019 | Magento agregado: Marketing and Commerce template to the [Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) documentation. |
-| 18 de julio de 2019 | Se ha actualizado [la configuración de la tabla de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
+| 22 de julio de 2019 | Magento agregado: Documentación sobre las plantillas de marketing y comerciales para plantillas de [Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |
+| 18 de julio de 2019 | Se ha actualizado la [configuración de las tablas de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md). |
 | 4 de junio de 2019 | Nueva guía creada, titulada [Transición de una plataforma de análisis de terceros a Adobe Analytics](../technotes/ga-to-aa/home.md). |
 | 30 de mayo de 2019 | Sobrescribir a la [Referencia de columna de fuente de datos](../export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | 11 de abril de 2019 | Actualizaciones para [optimizar el rendimiento de Workspace](../analyze/analysis-workspace/optimizing-performance.md). |
