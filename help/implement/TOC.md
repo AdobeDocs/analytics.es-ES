@@ -187,7 +187,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [ID de visitante de Analytics](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Métodos de ID de reserva](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Identificación de dispositivos móviles](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Servicios principales de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/?f=core_services)
+   + [Servicios principales de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/core_services.html)
    + Identificación de visitantes entre dispositivos {#cross-device-visitor-id}
       + [Conectar usuarios entre dispositivos](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [Impacto de los datos de identificación de visitantes en varios dispositivos](js-implementation/xdevice-visid/xdevice-data.md)
