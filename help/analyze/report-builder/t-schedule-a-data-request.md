@@ -7,7 +7,7 @@ title: Programar una solicitud de datos
 topic: Creador de informes
 uuid: f 6 d 8 c 90 f-e 185-4 d 60-8035-f 20 f 74 bfcd 89
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: 62937df0a763f6b9b34389d968c5641056b47aa8
 
 ---
 
@@ -16,13 +16,24 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 Puede programar libros, especificar opciones de envío avanzadas, especificar destinatarios y ver el historial de programación. Las opciones de envío avanzadas permiten configurar los libros que desea enviar a un tiempo específico o en intervalos. También puede especificar el formato de archivo en el que desea enviar el libro.
 
-For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. No es posible cargar archivos de informes que superen los 5 MB.
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. El límite de tamaño de archivo es de 5 MB para cargar un libro.
 
 Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (Consulte [Programación y distribución de informes](/help/analyze/reports-analytics/scheduling.md) en la ayuda de Informes y análisis).
 
 >[!NOTE]
 >
 >Debe tener Excel 2007 o el paquete de compatibilidad instalado para programar un libro. Puede tener un máximo de 10 libros programados por cada licencia del Creador de informes. Sin embargo, puede aumentar este número si resta de otras licencias. To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. Libro que se ha programado (o cargado en la biblioteca de libros) y que no se ha tocado (actualizado, reemplazado) en más de 28 meses.
+
+>[!NOTE]
+>
+>La "Hora de entrega"/"Hora del día" ingresada por el usuario especifica la hora en que debe comenzar el proceso, no la hora en que se enviará. La hora real en la que se enviará el libro se basa principalmente en el tiempo que tarda en procesarse (los libros grandes y complejos tardan más en procesarse que los libros simples). Por ejemplo, si un libro tarda 15 minutos en procesarse, la hora de entrega real será de al menos 15 minutos después del "Tiempo de entrega"/"Hora del día" originalmente especificada.
+>Además, hay otros factores que pueden aumentar aún más el retraso antes de que se envíe el libro:
+>
+> * **Al ejecutar muchas programaciones diferentes del mismo tipo al mismo tiempo** , se puede sobrecargar el sistema. El sistema de programación solo permite que algunos libros (5-10) de cualquier tipo se ejecuten de forma simultánea, por lo que cuando se programan más de 5-10 todos a la vez, algunos deberán esperar en línea para que los otros libros acaben antes de comenzar el proceso. Este problema se puede mitigar programando los libros de una empresa en horas escaladas durante el día o la hora, en lugar de hacerlo simultáneamente.
+> * Además del tipo de libro específico, los libros también se esperan en línea si la empresa tiene **más de 15 a 20 de cualquier tipo de libro programado a la vez (en todos los tipos de libro)**. Esto se puede mitigar con tiempos de programación escalados en lugar de tener muchas ejecutándose al mismo tiempo.
+> * **Los problemas en los servicios** de flujo descendente en los que depende el Programador también pueden afectar al envío de libros. Por ejemplo, si usa de forma independiente las API para ejecutar libros y llenar la cola de solicitud de API, los libros programados pueden entregarse lentamente mientras compite por ese recurso.
+> * **La latencia del grupo de informes** (un retraso en la recopilación de datos) también puede retrasar algunos libros programados.
+
 
 **Para programar un libro**
 
@@ -53,7 +64,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seleccionar </p> </td> 
-   <td colname="col2"> <p>Muestra la página <span class="wintitle">Seleccionar informe</span>. Se puede seleccionar un informe del servidor (donde se almacenan todos los libros programados previamente) o del equipo local. Si se selecciona un libro de la unidad local en formato <span class="filepath">.xls</span>, el sistema convierte el archivo a <span class="filepath">.xlsx</span>. Como parte de la conversión, el archivo se abre en Excel y se activa. Si el libro seleccionado para el informe programado tiene el mismo nombre de archivo que el libro abierto actualmente en Excel, el sistema selecciona el archivo local en lugar del archivo cargado previamente. Si selecciona un informe desde el repositorio de programación, se creará una copia del libro en el servidor, con su nombre de archivo actualizado con 1, y el informe programado recién creado utilizará el libro copiado. </p> </td> 
+   <td colname="col2"> <p>Muestra la página <span class="wintitle">Seleccionar informe</span>. Se puede seleccionar un informe del servidor (donde se almacenan todos los libros programados previamente) o del equipo local. Si se selecciona un libro de la unidad local en formato <span class="filepath">.xls</span>, el sistema convierte el archivo a <span class="filepath">.xlsx</span>. Como parte de la conversión, el archivo se abre en Excel y se activa. Si el libro seleccionado para el informe programado tiene el mismo nombre de archivo que el libro abierto actualmente en Excel, el sistema selecciona el archivo local en lugar del archivo cargado previamente. Si selecciona un informe desde el repositorio de programación, se crea una copia del libro en el servidor, con su nombre de archivo actualizado con 1. El informe programado recién creado utiliza el libro copiado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Personalizar </p> </td> 
