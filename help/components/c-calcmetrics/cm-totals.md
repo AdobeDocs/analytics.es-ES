@@ -4,7 +4,7 @@ seo-title: Totales de métricas calculadas
 description: Descubra cómo los totales de las métricas calculadas difieren en las herramientas de Analytics
 seo-description: Cálculo de los totales de las métricas calculadas
 translation-type: tm+mt
-source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
+source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 ---
 
@@ -35,6 +35,6 @@ Dado que no hay ningún método lógico y específico para determinar si una mé
 
 En Analysis Workspace, bajo determinadas circunstancias, las métricas calculadas se suman para mostrar un total:
 
-* Cuando hay filas [estáticas](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) y se suman los totales **[!UICONTROL Calculate, se seleccionan los valores que se encuentran actualmente en cada]** opción de columna (predeterminada).
+* Cuando hay filas [estáticas](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) en tablas improvisadas, se seleccionan los totales *[!UICONTROL de Calcular al sumar los valores actualmente en cada]* opción de columna (predeterminada).
 * En la visualización [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md).
 * En la visualización Cambio [de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).
