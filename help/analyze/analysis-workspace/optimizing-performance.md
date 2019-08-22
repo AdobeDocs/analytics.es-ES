@@ -5,7 +5,7 @@ seo-title: Optimizar el rendimiento de Analysis Workspace
 title: Optimizar el rendimiento de Analysis Workspace
 uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
 translation-type: tm+mt
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
 
 ---
 
@@ -25,7 +25,7 @@ Los segmentos intrincados pueden tener un impacto significativo en el desempeño
 * Muchos operadores O (en lugar de Y)
 * Contenedores anidados que varían en el ámbito (por ejemplo, "Visita" dentro de "Visita" dentro de "Visitante")
 
-**Práctica recomendada para la complejidad lógica**
+**Prácticas recomendadas para la complejidad lógica**
 
 Aunque algunos de los factores de complejidad no se pueden prevenir, piense en opciones para reducir la complejidad de sus segmentos. En general, cuanto más específico pueda ser con sus criterios de segmento, mejor. Por ejemplo:
 
@@ -39,7 +39,7 @@ Además, [las clasificaciones](/help/components/c-classifications2/c-classificat
 
 El intervalo de datos que se solicita en un proyecto influye en el rendimiento de Analysis Workspace.
 
-**Práctica recomendada para el intervalo de datos**
+**Prácticas recomendadas para el intervalo de datos**
 
 Siempre que sea posible, no incorpore más datos de los que necesita.
 
@@ -95,7 +95,9 @@ El tamaño del conjunto de informes puede parecer un factor importante, pero en 
 
 El número de usuarios que accede a Analysis Workspace o a proyectos específicos al mismo tiempo no tiene un efecto considerable en el rendimiento de Analysis Workspace si los usuarios acceden a distintos grupos de informes. Si los usuarios simultáneos acceden al mismo grupo de informes, el rendimiento se verá afectado.
 
-## Dirección de errores comunes
+## Mensajes de error comunes en Analysis Workspace
+
+Puede encontrar errores al interactuar con Analysis Workspace. Los errores pueden producirse por varios motivos y son los más comunes.
 
 | Mensaje de error | ¿Por qué sucede esto? |
 |---|---|
