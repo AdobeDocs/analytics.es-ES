@@ -4,7 +4,7 @@ seo-title: Eliminación de bots en Adobe Analytics
 description: 3 formas de eliminar bots en Adobe Analytics
 seo-description: 3 formas de eliminar bots en Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
+source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 ---
 
@@ -47,12 +47,13 @@ Recuerde utilizar el ID de visitante de Experience Cloud como dimensión y aplic
 
 ## Paso 4: Devolver esta lista a Adobe como Atributo del cliente
 
-Una vez que llegue el informe Almacén de datos, tendrá una lista de ECID que deben filtrarse de los datos históricos. Copie y pegue estos ecids en un archivo CSV en blanco con solo dos columnas, ECID y Bandera de bots:
+Una vez que llegue el informe Almacén de datos, tendrá una lista de ECID que deben filtrarse de los datos históricos. Copie y pegue estos ecids en un archivo. CSV en blanco con solo dos columnas, ECID y Bandera de bots:
 
-
+![](assets/bot-csv-4.png)
 
 Asegúrese de que el encabezado de la primera columna coincida con el nombre que ha entregado al nuevo ID declarado. Utilice este archivo. CSV como archivo de importación de Atributos del cliente y, a continuación, suscriba los grupos de informes al atributo del cliente como se describe en esta publicación [de blog](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ## Paso 5: Crear un segmento que aproveche el nuevo Atributo del cliente
 
 Una vez que el conjunto de datos se haya procesado y integrado en Analysis Workspace, cree un segmento más que aproveche la nueva dimensión de atributo del cliente «Bandera Bot»:
+
