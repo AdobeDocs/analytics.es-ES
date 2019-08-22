@@ -8,7 +8,7 @@ title: Cargar reglas de bots
 topic: Herramientas de administración
 uuid: bd 70 c 199-5817-437 e -980 d -6 d 8 f 95 d 82 f 2 c
 translation-type: tm+mt
-source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
+source-git-commit: d0bd48684764a60b488d1e39c968ad70c743f1db
 
 ---
 
@@ -20,8 +20,8 @@ Para importar reglas de bots de forma masiva, puede cargarse un archivo CSV que 
 Cree un archivo CSV con las columnas siguientes en el orden presentado:
 
 | Columna 1 | Columna 2 | Columna 3 | Columna 4 | Columna 5 |
-|---|---|---|---|---|
-| Nombre de Bot | IP Start | IP End | Agent Match Rule<br>(`contains` or `starts with`) | Agent Exclude<br>(255 char limit) |
+|--- |--- |---|---|---|
+| Nombre de Bot | IP Start | IP End | Agent Match Rule<br>(contains or starts with)</br> | Agent Exclude<br>(límite de 255 caracteres)</br> |
 
 Puede definir tres tipos de reglas de bots:
 
