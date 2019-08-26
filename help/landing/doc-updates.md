@@ -31,7 +31,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 4 de junio de 2019 | Nueva guía creada, titulada [Transición de una plataforma de análisis de terceros a Adobe Analytics](../technotes/ga-to-aa/home.md). |
 | 30 de mayo de 2019 | Sobrescribir a la [Referencia de columna de fuente de datos](../export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | 11 de abril de 2019 | Actualizaciones para [optimizar el rendimiento de Workspace](../analyze/analysis-workspace/optimizing-performance.md). |
-| 14 de marzo de 2019 | Actualización principal de la [la recopilación de datos regionales](../technotes/rdc/regional-data-collection.md). |
+| 14 de marzo de 2019 | Actualización principal de la [recopilación de datos regionales](../technotes/rdc/regional-data-collection.md). |
 | 7 de febrero de 2019 | Pequeña actualización de los ajustes "Reemplazar el último octeto de direcciones IP por 0" y "Ofuscación IP" en [Configuración general de la cuenta](../admin/admin/general-acct-settings-admin.md). |
 | 1 de febrero de 2019 | Actualización importante del complemento de implementación [getPercentPageViewed](../implement/js-implementation/plugins/getpercentpageviewed.md). |
 | 17 de enero de 2019 | Nueva configuración de proyecto en Analysis Workspace, [Ver densidad](../analyze/analysis-workspace/build-workspace-project/view-density.md). |
