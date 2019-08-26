@@ -21,7 +21,7 @@ Varios informes de Adobe Analytics pueden mostrar "No especificado", "Otro" o "D
 * **Se activa un evento sin una variable de conversión:** Por ejemplo, un usuario entra en el sitio y realiza una compra sin ningún valor de evar 1. Si ve pedidos con la dimensión evar 1, no hay ningún valor para atribuir este pedido. Por lo tanto, se atribuye automáticamente a "No especificado".
 * **Datos no clasificados en los informes de clasificación:** Cuando se ven los datos de clasificación, cualquier valor que no tenga datos asociados con esa clasificación en particular devuelve "No especificado". Para resolver este problema, clasifique el valor de la variable principal.
 * **Desglosar informes donde solo se ha activado una variable:** Cuando se aplica un desglose a una variable, se debe justificar cada instancia de esa variable. Si no se vio la segunda variable o si persistió de una visita anterior, el valor de dimensión será "No especificado".
-* **Visitas no móviles en informes móviles:** Las visitas no pertenecientes a dispositivos portátiles en los informes móviles se muestran como "No especificado" ("No móvil" en Reports and Analysis).
+* **Visitas no móviles en informes móviles:** Las visitas no pertenecientes a dispositivos portátiles en los informes móviles se muestran como "No especificado" ("No móvil" en Reports and Analytics).
 
 ## "Otro" en informe
 
