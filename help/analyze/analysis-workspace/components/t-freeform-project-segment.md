@@ -5,7 +5,7 @@ seo-title: Segmentos
 title: Segmentos
 uuid: 677 f 6030-5 b 3 e -4 dfa-bb 79-9 f 27 f 3382 fb 1
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
 
 ---
 
@@ -20,7 +20,7 @@ El carril del segmento en el menú Componentes muestra los segmentos así como l
 
 [Uso de segmentos en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46)
 
-## Create segments {#section_693CFADA668B4542B982446C2B4CF0F5}
+## Crear segmentos {#section_693CFADA668B4542B982446C2B4CF0F5}
 
 Puede crear segmentos instantáneos soltando cualquier tipo de componente (dimensión, elemento de dimensión, evento, métrica, segmento, plantilla de segmento, intervalo de fechas) en la zona de colocación de segmentos en la parte superior de un panel.
 
@@ -49,35 +49,9 @@ Puede convertir estos segmentos en públicos (globales) siguiendo estos pasos:
 
 Existen varios métodos más para aplicar segmentos a un proyecto improvisado.
 
-<table id="table_45B3839D70674430AF3AC5AA3134F825"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Acción </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Crear segmento de selección </p> </td> 
-   <td colname="col2"> <p>Cree un segmento en línea. Seleccione filas, haga clic con el botón secundario en la selección y cree un segmento en línea. Este segmento se aplica solamente al proyecto abierto y no se guarda como segmento de Analytics. </p> <p> 
-     <ol id="ol_1D1E661387354EBF992CC150915F642E"> 
-      <li id="li_B96666FD426F4AEE8EAB61B2C00A07FB">Seleccione filas </li> 
-      <li id="li_C2245B3EA81F4FAC88A33647922535AF">Haga clic con el botón secundario en la selección </li> 
-      <li id="li_AB4F8988B9A84920ABA06A91094625F6">Haga clic en <span class="uicontrol">Crear segmento de selección</span>. </li> 
-     </ol> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="uicontrol"> Componentes</span> &gt; <span class="uicontrol">Nuevo segmento</span> </td> 
-   <td colname="col2"> <p>Se abre el <span class="wintitle">Generador de segmentos</span>. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html" format="https" scope="external">Creación de segmentos</a> para obtener más información acerca de la segmentación. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><span class="ignoretag"><span class="uicontrol"> Compartir</span> &gt; <span class="uicontrol">Compartir proyecto</span></span> o </p> <p> <span class="ignoretag"><span class="uicontrol">Compartir</span> &gt; <span class="uicontrol">Depurar datos de proyectos</span></span> </p> </td> 
-   <td colname="col2"> <p>In <a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Curate &amp; Share</a>, segments that you apply to the project are available in shared analysis for the recipient. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Uso de segmentos como dimensiones </p> </td> 
-   <td colname="col2"> <p>Vídeo: <a href="https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39" format="https" scope="external">Uso de segmentos como dimensiones en Analysis Workspace</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Acción | Descripción |
+|--- |--- |
+| Crear segmento de selección | Cree un segmento en línea. Seleccione filas, haga clic con el botón secundario en la selección y cree un segmento en línea. Este segmento se aplica solamente al proyecto abierto y no se guarda como segmento de Analytics. 1. Seleccione filas. 2. Haga clic con el botón derecho en la selección. 3. Click *Create segment from selection*. |
+| Componentes &gt; Nuevo segmento | Se abre el Generador de segmentos. See [Segment Builder](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) for more information about segmentation. |
+| Compartir &gt; Compartir proyecto o Compartir &gt; Depurar datos de proyectos | In [Curate and Share](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6), learn how segments that you apply to the project are available in shared analysis for the recipient. |
+| Uso de segmentos como dimensiones | Vídeo: [Uso de segmentos como dimensiones en Analysis Workspace](https://www.youtube.com/watch?v=WmSdReKTWto&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=39) |
