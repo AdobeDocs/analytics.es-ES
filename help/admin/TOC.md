@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Guía de administración de Analytics
 user-guide-url: /content/help/es-ES/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+translation-type: tm+mt
+source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
 
 ---
 
@@ -20,6 +20,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [Herramientas de administración](admin/c-admin-tools.md)
    + [Facturación](admin/billing-admin.md)
    + Eliminación de bots {#bot-removal}
+      + [Eliminación de bots](admin/bot-removal/bot-removal.md)
       + [Resumen sobre reglas de Bot](admin/bot-removal/bot-rules.md)
       + [Cargar reglas de bots](admin/bot-removal/t-upload-bot-rules.md)
       + [Crear una regla de bots personalizada](admin/bot-removal/t-create-bot-rules.md)
