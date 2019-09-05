@@ -5,7 +5,7 @@ seo-title: Etiquetas del RGPD para variables de Analytics
 title: Etiquetas del RGPD para variables de Analytics
 uuid: a 37 a 1278-7 a 0 d -4 e 14-ae 35-43 bc 460 e 7 d 12
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
 
 ---
 
@@ -243,6 +243,8 @@ No necesita especificar las etiquetas de ID-DEVICE o ID-PERSON para todas las va
 El uso del mismo espacio de nombres para distintas variables es aceptable dentro del mismo grupo de informes. Por ejemplo, algunas implementaciones personalizadas almacenan un CRM-ID tanto en un prop como en un eVar. Si el CRM-ID siempre se produce en uno de ellos (como el eVar) y solo se produce ocasionalmente en el otro (el prop), y nunca en el prop cuando tampoco en el eVar, entonces solo el eVar requiere una etiqueta ID y un espacio de nombres, ya que Adobe puede buscar el ID únicamente en ese eVar. Sin embargo, si el CRM-ID en ocasiones se produce en una variable y en ocasiones en otra, entonces ambas deberían tener el mismo espacio de nombres y Adobe buscará coincidencias con el ID especificado en ambas variables como parte de la solicitud de RGPD con este espacio de nombres. Aún debe tener las etiquetas DEL en todas estas variables, de modo que el valor se anonimice independientemente del lugar en el que se produzca.
 
 Otro ejemplo: puede tener un CRM ID que en ocasiones se envía a través de eVar1 y en ocasiones se envía a través de prop7. También cuenta con una regla de procesamiento que copia el valor del eVar1, si existe, en el eVar3. De lo contrario, copia el valor de prop7 en el eVar3. En estos supuestos, eVar3 siempre contendrá el CRM ID si se conoce, de modo que solo eVar3 requiere una etiqueta ID-PERSON.
+
+> [!WARNING] Los espacios de nombres "visitorid" y "customvisitorid" están reservados para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de Analytics. No utilice estos espacios de nombres para variables de conversión o tráfico personalizado.
 
 ## Tipos de variables y las etiquetas del RGPD/DULE que admiten {#section_CE7C3EDE1344466A98BC45E394B40762}
 
