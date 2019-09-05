@@ -5,7 +5,7 @@ seo-title: Espacios de nombres
 title: Espacios de nombres
 uuid: cab 61844-3209-4980-b 14 c -6859 de 777606
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 9362a59afb6a51bd91d8a94ae5750c4d138fc2f7
 
 ---
 
@@ -38,7 +38,7 @@ Antigua cookie de rastreo de Analytics, también conocida como ID de Adobe Analy
 
 El valor debe especificarse como dos números hexadecimales separados por una raya. Todos los dígitos hexadecimales que sean caracteres alfabéticos deben especificarse en mayúsculas. Los valores hexadecimales no deben contener ceros a la izquierda (nótese la diferencia respecto a cuando se especificaba el mismo valor en la forma obsoleta, donde los ceros a la izquierda eran necesarios).
 
-It is also acceptable to use `“namespaceId”: 10` instead of or in addition to `“namespace”: “AAID”` and you may see some other Adobe products use that form.
+También es aceptable utilizar `“namespaceId”: 10` en lugar de o además, `“namespace”: “AAID”` y puede ver que algunos otros productos de Adobe utilizan ese formulario.
 
 ## Antigua cookie de rastreo de Analytics: forma obsoleta
 
@@ -66,7 +66,7 @@ El valor debe especificarse como dos números hexadecimales de 16 dígitos o com
 
 El valor debe especificarse como un número decimal de 38 dígitos. Si extrae este número de los dos mcvisid\_ high/low o post\_ msvisid\_ high/low columns de una fuente de datos o de un informe Almacén de datos, debe segmentar cada uno de los números a 19 dígitos y luego concatenarlos con el valor alto primero.
 
-It is also acceptable to use: `“namespaceId”: 4` instead of or in addition to `“namespace”: “ECID”` and you may see some other Adobe products use that form.
+También es aceptable utilizar: `“namespaceId”: 4` en lugar de o además, `“namespace”: “ECID”` y puede ver que algunos otros productos de Adobe usan ese formulario.
 
 >[!NOTE]
 >
@@ -106,15 +106,12 @@ El espacio de nombres también está predefinido para el ID de visitante persona
 }
 ```
 
-En el caso de los ID en variables de tráfico o conversión personalizadas (props o eVars), debería etiquetar la variable con ID-DEVICE o ID-PERSON y, después, asignar su propio nombre de espacio de nombres a ese tipo de ID. Consulte [Proporcionar un espacio de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7).
+Para ID en variables de tráfico o de tráfico personalizado (props o evars), etiquete la variable con una etiqueta ID-DEVICE o ID-PERSON y, a continuación, asigne su propio nombre de espacio de nombres a ese tipo de ID. Consulte [Proporcionar un espacio de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON](gdpr-labels.md).
 
 También puede ver los espacios de nombres que haya definido con anterioridad para otras variables o grupos de informes y reutilizar uno de ellos, de forma que el mismo espacio de nombres pueda utilizarse para todos sus grupos de informes que almacenan ese tipo de ID. Además, es posible asignar el mismo espacio de nombres a diversas variables dentro de un grupo de informes. Por ejemplo, algunos clientes almacenan un ID de CRM en una variable de tráfico y una de conversión (según la página, a veces se usa solo una de las dos), y podrían asignar el espacio de nombres “ID de CRM” a ambas variables.
 
->[!NOTE]
->
->No puede utilizar el nombre descriptivo de una variable (el nombre que se muestra en la interfaz de usuario de informes) ni el número de la variable (como evar 12) al especificar el espacio de nombres en la API GDPR, a menos que también sea el espacio de nombres especificado al aplicar la etiqueta ID-DEVICE o ID-PERSON a esta variable. Utilizar un espacio de nombres en lugar de un nombre descriptivo permite que el mismo bloque de identidad del usuario especifique la variable correcta para múltiples grupos de informes en estos casos:
+> [!TIP] Evite utilizar el nombre descriptivo de una variable (el nombre que se muestra en la IU de informes) o el número de la variable (como evar 12) al especificar el espacio de nombres en la API RDPD, a menos que sea el espacio de nombres especificado al aplicar la etiqueta ID-DEVICE o ID-PERSON. El uso de un espacio de nombres en lugar de un nombre práctico permite al mismo bloque de identidad de usuario especificar la variable correcta para varios grupos de informes. Por ejemplo, si el ID se encuentra en diferentes evars en algunos de los grupos de informes, o si los nombres descriptivos no coinciden (por ejemplo, cuando el nombre práctico se haya localizado en un grupo de informes específico).
 
-* El ID se encuentra en diferentes eVars en algunos grupos de informes, o
-* Los nombres descriptivos no coinciden (como cuando el nombre descriptivo se ha localizado para un grupo de informes específico)
+> [!CAUTION] Los espacios de nombres "visitorid" y "customvisitorid" están reservados para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de Analytics. No utilice estos espacios de nombres para variables de conversión o tráfico personalizado.
 
 Para obtener más información, consulte [Proporcionar un espacio de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7).
