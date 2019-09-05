@@ -4,7 +4,7 @@ description: El complemento Internal Traffic identifica de forma dinámica a los
 seo-description: Complemento interno de tráfico
 seo-title: Complemento interno de tráfico
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 ---
 
@@ -30,23 +30,24 @@ El complemento intenta cargar un archivo que solo estaría disponible en su red 
 1. Agregue el píxel Intranet: Puede agregar cualquier tipo de archivo en la intranet a la que intentaría acceder el complemento. Se recomienda un píxel transparente de 1 x 1. Debe colocarse en una ubicación en la Intranet a la que se pueda acceder desde la red interna.
 1. Configurar una evar: Es necesario agregar una evar dentro del grupo de informes de destino. Debe tener una caducidad de «Visita» y asignación de «Valor original (primero)».
 1. Definir la dirección URL interna: Dentro de las variables de configuración de appmeasurement y antes de crear doplugins, defina la variable URL interna (s. inturl) para el píxel u otro archivo para la comprobación de tráfico. Por ejemplo: `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
-The variable value will be set to “internal” or “external”.
+1. Modifique doplugins y establezca la evar: El complemento se puede inicializar incluyendo esta línea de código en la sección doplugins del código de biblioteca de appmeasurement, utilizando la evar definida en el paso uno: `s.eVarXX = s.intCheck();`
+El valor de la variable se establecerá en «interno» o «externo».
 1. Agregar el código fuente de complemento: Incluya el código de complemento debajo de la sección doplugins del archivo appmeasurement.
 
 ## Código fuente del complemento
 
 Agregue este código debajo de la sección doplugins de la biblioteca appmeasurement.
 
-```s.intCheck=new Function("",""
+```JavaScript
+s.intCheck=new Function("",""
 +"var s=this;if(document.cookie.indexOf('intChk=')==-1){try{document."
 +"cookie='intChk=1';var x=new XMLHttpRequest(),y;x.open('GET',s.intUr"
 +"l,false);x.send();if(x.status===200&&x.statusText==='OK'){y='intern"
-+"al';}}catch(e){y='external'}finally{return y}}");```
++"al';}}catch(e){y='external'}finally{return y}}");
+```
 
-## Other Notes
+## Otras notas
 
-* Always test plug-in installations to ensure that data collection happens as expected before deploying them in a production environment.
-* Your implementation might be using a different object name than the default Adobe Analytics "s" object. If so, please update the object name accordingly.
-* If you employ a Tag Management System, please follow its steps to update doPlugins and the other custom plugins.
-
+* Antes de su implementación en un entorno de producción, realice pruebas de las instalaciones de complementos para asegurarse de que la recopilación de datos se produce según lo esperado.
+* Es posible que su implementación utilice otro nombre de objeto que el objeto "s" predeterminado de Adobe Analytics. De ser así, actualice en consonancia el nombre del objeto.
+* Si utiliza un sistema de administración de etiquetas, siga los pasos para actualizar doplugins y los demás complementos personalizados.
