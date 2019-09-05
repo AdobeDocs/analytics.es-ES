@@ -5,7 +5,7 @@ seo-title: Etiquetas del RGPD para variables de Analytics
 title: Etiquetas del RGPD para variables de Analytics
 uuid: a 37 a 1278-7 a 0 d -4 e 14-ae 35-43 bc 460 e 7 d 12
 translation-type: tm+mt
-source-git-commit: fe4c95bc6fb5e9e7d98dfbaff21ba2e6aff486ae
+source-git-commit: 0df187fd7ebc359d54e4fb14a3d69e3b5eb7ce05
 
 ---
 
@@ -244,7 +244,7 @@ El uso del mismo espacio de nombres para distintas variables es aceptable dentro
 
 Otro ejemplo: puede tener un CRM ID que en ocasiones se envía a través de eVar1 y en ocasiones se envía a través de prop7. También cuenta con una regla de procesamiento que copia el valor del eVar1, si existe, en el eVar3. De lo contrario, copia el valor de prop7 en el eVar3. En estos supuestos, eVar3 siempre contendrá el CRM ID si se conoce, de modo que solo eVar3 requiere una etiqueta ID-PERSON.
 
-> [!WARNING] Los espacios de nombres "visitorid" y "customvisitorid" están reservados para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de Analytics. No utilice estos espacios de nombres para variables de conversión o tráfico personalizado.
+> [!CAUTION] Los espacios de nombres "visitorid" y "customvisitorid" están reservados para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de Analytics. No utilice estos espacios de nombres para variables de conversión o tráfico personalizado.
 
 ## Tipos de variables y las etiquetas del RGPD/DULE que admiten {#section_CE7C3EDE1344466A98BC45E394B40762}
 
