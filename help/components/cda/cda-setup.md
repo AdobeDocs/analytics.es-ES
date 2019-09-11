@@ -2,16 +2,18 @@
 title: Configuración de análisis entre dispositivos
 description: Aprenda a configurar Analytics entre dispositivos después de cumplir los requisitos previos.
 translation-type: tm+mt
-source-git-commit: 1ab4c27d6635167be475b6669ff6ed1913adc455
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Configuración de análisis entre dispositivos
 
-> [!IMPORTANT] Deben cumplirse todos los requisitos previos antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte [Análisis entre dispositivos](cda-home.md) para conocer los requisitos previos y las limitaciones.
+> [!NOTE] La documentación de análisis cruzado está sujeta a cambios, ya que la función se desarrolla aún más. Vuelva a comprobar periódicamente las actualizaciones.
 
 Una vez cumplidos todos los requisitos previos, siga los pasos siguientes para habilitar Analytics entre dispositivos. Debe pertenecer a un grupo de Administrador de perfiles de producto o tener privilegios de administrador en Adobe Analytics para seguir estos pasos.
+
+> [!IMPORTANT] Deben cumplirse todos los requisitos previos antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte [Análisis entre dispositivos](cda-home.md) para conocer los requisitos previos y las limitaciones.
 
 ## Elija el grupo de informes entre dispositivos que se habilitará para CDA
 
