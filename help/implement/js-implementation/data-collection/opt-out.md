@@ -1,6 +1,6 @@
 ---
 description: 'null'
-keywords: Implementación de Analytics
+keywords: Implementación de análisis
 seo-description: 'null'
 seo-title: Implementación de exclusiones de Adobe
 solution: Analytics
@@ -8,7 +8,7 @@ title: Implementación de exclusiones de Adobe
 topic: Desarrollador e implementación
 uuid: fc 3 a 411 c -8476-409 d -99 de -05 b 34 ace 5019
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
 
 ---
 
@@ -34,8 +34,7 @@ Los visitantes pueden obtener más información sobre el uso que Adobe suele rea
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* If you implement Adobe Analytics products with your own first-party cookie, you need to [develop your own customized opt-out link](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) for your website visitors.
-* Adobe también ofrece un mecanismo de exclusión al público de los sitios web que usan cookies establecidas desde sus dominios 2o7.net y omtrdc.net Se puede acceder a este mecanismo desde el [Centro de privacidad de Adobe](https://www.adobe.com/privacy/opt-out.html).
+* Si implementa productos de Adobe Analytics con su propia cookie de origen, debe [desarrollar su propio vínculo de no participación personalizado](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) para los visitantes del sitio web.
 * Los clientes tienen la opción de habilitar la exclusión utilizando la configuración de cookies del explorador. Consulte [Habilitar la configuración de privacidad para las cookies de explorador](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings).
 
 Independientemente del mecanismo de exclusión que elija, Adobe recomienda describir claramente la disponibilidad de este en la política de privacidad o por cualquier otro medio determinado por la legislación o recomendado por las prácticas recomendadas actualas.
