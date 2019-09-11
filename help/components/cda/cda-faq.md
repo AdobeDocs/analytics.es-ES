@@ -2,12 +2,14 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre análisis entre dispositivos
 translation-type: tm+mt
-source-git-commit: c104fbda3dc4a6be6b596c60c6e1973407d94f80
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # Preguntas frecuentes
+
+> [!NOTE] La documentación de análisis cruzado está sujeta a cambios, ya que la función se desarrolla aún más. Vuelva a comprobar periódicamente las actualizaciones.
 
 **¿Cómo puedo utilizar CDA para ver cómo las personas se mueven de un tipo de dispositivo a otro?**
 
