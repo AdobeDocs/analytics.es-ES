@@ -3,7 +3,7 @@ product: analytics
 audience: admin
 user-guide-title: Guía de administración de Analytics
 user-guide-url: /content/help/es-ES/analytics/admin/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
 
 ---
