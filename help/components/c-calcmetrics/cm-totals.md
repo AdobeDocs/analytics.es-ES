@@ -4,7 +4,7 @@ seo-title: Totales de métricas calculadas
 description: Descubra cómo los totales de las métricas calculadas difieren en las herramientas de Analytics
 seo-description: Cálculo de los totales de las métricas calculadas
 translation-type: tm+mt
-source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
+source-git-commit: 658925799c530b46ff7b56d5d0685af6d9fef1b8
 
 ---
 
@@ -28,13 +28,14 @@ Dado que no hay ningún método lógico y específico para determinar si una mé
 
 * Cree una métrica calculada que incluya las versiones totales de las métricas que desee incluir.
 * Crear un informe de extracción de datos, que se puede programar.
-* Crear una solicitud de datos en reportbuilder.
-* Use Analysis Workspace (ver más abajo).
+* Create a data request within [!DNL ReportBuilder].
+* Uso [!DNL Analysis Workspace] (véase más abajo).
 
 ## Totales de métricas calculadas en [!DNL Analysis Workspace]
 
-En Analysis Workspace, bajo determinadas circunstancias, las métricas calculadas se suman para mostrar un total:
+Cuando se ven los datos en Analysis Workspace, los totales de métricas calculadas se muestran en la mayoría de los casos. En algunos casos no es posible proporcionar un total, como cuando las filas del informe tienen un formato mixto (por ejemplo, decimal y moneda).
 
-* Cuando hay filas [estáticas](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) en tablas improvisadas, se seleccionan los totales *[!UICONTROL de Calcular al sumar los valores actualmente en cada]* opción de columna (predeterminada).
-* En la visualización [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md).
-* En la visualización Cambio [de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).
+Cuando se muestran los totales, se suelen calcular en el servidor, lo que significa que el total de desduplicación de métricas como visitas o visitantes. En determinadas circunstancias, las métricas calculadas se generan del lado del cliente sumándose en filas de la tabla, lo que significa que el total no elimina las duplicaciones de métricas como visitas o visitantes. Esto sucede:
+
+* Cuando [se utilizan filas](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) estáticas en tablas improvisadas y se selecciona **[!UICONTROL la opción Mostrar como suma de filas]** actuales (predeterminada).
+* En la visualización [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md), de modo que los números suman el 100%.
