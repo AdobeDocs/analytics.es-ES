@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Información general de visitas en el orden previsto
-title: Información general de visitas en el orden previsto
+seo-title: Resumen de abandonos
+title: Resumen de abandonos
 uuid: 2 d 98899 e-e 401-4 d 7 a -8 af 0-de 0002 f 84178
 translation-type: tm+mt
-source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
+source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 
 ---
 
 
-# Información general de visitas en el orden previsto
+# Resumen de abandonos
 
 Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas.
 
@@ -44,7 +44,7 @@ Veamos un ejemplo de visitas en el orden previsto con dos pasos:
 
 Si a continuación aplica un segmento en el nivel de panel de Workspace, el segmento se combina con las visitas en el orden previsto de este modo:
 
-![](assets/fallout_segments2.png)
+![](assets/fallout_seg.png)
 
 Por el contrario, cuando Reports &amp; Analytics y los Ad Hoc Analysis calculan el segmento, este se combina del siguiente modo:
 
