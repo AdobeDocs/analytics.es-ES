@@ -3,7 +3,7 @@ product: analytics
 audience: usuario final
 user-guide-title: Guía de análisis de Analytics
 user-guide-url: /content/help/es-ES/analytics/analyze/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
 
 ---
@@ -294,7 +294,7 @@ source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
    + [Eventos de calendario](reports-analytics/t-calendar-event.md)
    + [Solicitudes de Data Warehouse](reports-analytics/data-warehouse.md)
    + [Preguntas frecuentes](reports-analytics/frequently-asked-questions.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
++ Ad Hoc Analysis  {#ad-hoc-analysis}
    + Conversor de proyectos de Ad Hoc Analysis {#aha-project-converter}
       + [Resumen del conversor de proyectos de Ad Hoc Analysis](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Convertir sus proyectos en Ad Hoc Analysis](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
