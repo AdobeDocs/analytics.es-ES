@@ -3,7 +3,7 @@ product: analytics
 audience: usuario final
 user-guide-title: Guía de componentes de Analytics
 user-guide-url: /content/help/es-ES/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
 
 ---
@@ -77,7 +77,7 @@ source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
       + [Crear un grupo de informes virtuales](vrs/c-workflow-vrs/vrs-create.md)
       + [Administrar grupos de informes virtuales](vrs/c-workflow-vrs/vrs-manage.md)
       + [Visualización de la información del grupo de informes virtuales](vrs/c-workflow-vrs/vrs-view.md)
-+ Cross-Device Analytics {#cda}
++ Análisis entre dispositivos {#cda}
    + [Información general de análisis entre dispositivos](cda/cda-home.md)
    + [Configuración de análisis entre dispositivos](cda/cda-setup.md)
    + [Preguntas más frecuentes sobre análisis entre dispositivos](cda/cda-faq.md)
