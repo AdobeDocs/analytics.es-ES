@@ -5,9 +5,9 @@ seo-title: Dimensiones
 solution: Analytics
 title: Dimensiones
 topic: Ad Hoc Analysis
-uuid: a 843 d 3 ae -093 b -438 e -89 a 9-73312 a 2 ea 6 f 2
+uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -26,9 +26,9 @@ Estos son algunos ejemplos de dimensiones:
 * Día, semana, mes, etc.
 * Lealtad
 * Resolución del monitor
-* Valores del término de búsqueda interna s.prop y eVars personalizados
+* Valores de s.prop y eVars personalizadas
 
-** [!UICONTROL Panel Dimensiones**]
+**[!UICONTROL Panel]Dimensiones**
 
 El panel [!UICONTROL Dimensiones] enumera y organiza todas las dimensiones de productos de su implementación de Reports and Analytics de marketing. Los informes se pueden basar en cualquier elemento de dimensiones. Las dimensiones se pueden desglosar según otras dimensiones para analizar y comparar casi cualquier cosa.
 
