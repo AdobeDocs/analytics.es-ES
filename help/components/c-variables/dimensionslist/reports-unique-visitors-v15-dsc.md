@@ -4,10 +4,10 @@ seo-description: Muestra el número de visitantes únicos que accedieron al siti
 seo-title: Visitantes únicos
 solution: Analytics
 title: Visitantes únicos
-topic: 'Informes '
-uuid: e 70 e 1 a 14-b 3 b 9-4 d 1 a-a 8 a 5-a 247 a 443 c 752
+topic: Informes
+uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -129,7 +129,7 @@ Además, cada fecha recibe crédito por tener a ese visitante en dicha fecha.
  </tbody> 
 </table>
 
-** [!UICONTROL Informe Visitantes únicos] desglosado por *`Page`*.**
+**[!UICONTROL Informe de visitantes únicos]desglosado por *`Page`*.**
 
 Puede seleccionar una página para el [!UICONTROL informe de visitantes únicos]. En el informe siguiente, el visitante visita la página A en estas fechas:
 
@@ -263,7 +263,7 @@ Los totales de las métricas pueden variar en función del intervalo de fechas d
 
 Puede utilizar la segmentación para modificar el intervalo de fechas con el objetivo de incluir fechas posteriores en vez de fechas anteriores. Por ejemplo: tomemos el intervalo de fechas anterior del 2 de enero al 3 de enero (tal como se muestra en la tabla anterior). Si se aplica un segmento en el que Página = C, 2 de enero no pasaría el segmento y la primera entrada del informe de visitante único semanal se produciría el 3 de enero. Si En cambio se aplica un segmento en el que Página = D, entonces tanto el 2 de enero como el 3 de enero quedarían excluidos. Visitante único semanal no mostraría ningún resultado y quedaría excluido del total.
 
-** Informes Visitantes únicos basados en períodos**
+**Informes de visitantes únicos basados en períodos **
 
 Estos informes utilizan una página, una prop y un atributo concretos (ejemplo: donde Página = A).
 
@@ -420,7 +420,7 @@ Una métrica de visitantes únicos diarios en un [!UICONTROL informe de páginas
  </tbody> 
 </table>
 
-Para desglosar un atributo en otro (por ejemplo, *`page`* por *`eVar`*), Analytics asigna un visitante único basado en períodos para cada instancia única del período y la página (o el atributo correlacionado).
+Para desglosar un atributo en otro (por ejemplo, *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
 
 Si desglosa la Página Page A en las eVars T, U, el 2 de enero quedará excluido porque la Página A se visualizó el 1 de enero. Los siguientes resultados se mostrarían para los visitantes únicos semanales.
 
