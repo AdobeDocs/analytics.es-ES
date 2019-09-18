@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Clasificaciones
 title: Reglas de clasificación
 topic: Herramientas de administración
-uuid: 08685919-216 d -448 b-b 886-3 adf 5 ff 5405 e
+uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -17,20 +17,20 @@ source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
 
 Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
 
-## Classification rules {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
+## Reglas de clasificación {#concept_CF2F64BD96454FBFAA84638FC7DEA263}
 
 Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Clasificación del Generador de reglas]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Generador de reglas **[!UICONTROL de clasificación]**
 
-The Rule Builder lets you create a *`classification rule set`*, which is a list of *`classification rules`*. La regla que coincida con los criterios especificados realizará una acción.
+El Generador de reglas permite crear una *`classification rule set`*, que es una lista de *`classification rules`*. La regla que coincida con los criterios especificados realizará una acción.
 
 Las reglas de clasificación resultan adecuadas para:
 
 * **Correo electrónico** y **anuncios en pantalla**: al crear reglas de clasificación pueden agruparse campañas de anuncios en pantalla individuales, y esto permite comprobar los resultados de las campañas de visualización frente a las de correo electrónico.
 
 * **Códigos de seguimiento**: con las reglas de clasificación pueden aplicarse categorías a los valores clave derivados de cadenas de códigos de seguimiento, y hacerlos coincidir con los criterios específicos definidos.
-* **Términos de búsqueda**: las [expresiones regulares](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) y los comodines simplifican la clasificación de los términos de búsqueda. For example if a search term contains *`baseball`*, you can set a *`Sports League`* classification to *`MLB`*.
+* **Términos de búsqueda**: las [expresiones regulares](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D) y los comodines simplifican la clasificación de los términos de búsqueda. Por ejemplo: si un término de búsqueda contiene *`baseball`*, puede establecer una *`Sports League`* clasificación en *`MLB`*.
 
 Por ejemplo, imaginemos el código de seguimiento siguiente para un ID de campaña de correo electrónico:
 
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools].
 
-* **Expresiones regulares**: La Ayuda está disponible en [Expresiones regulares en Reglas de clasificación](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+* **Expresiones** regulares: La ayuda está disponible en Expresiones [regulares en Reglas](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)de clasificación.
 
 * **Grupos de informes**: para elegir una clasificación, primero debe seleccionarse como mínimo un grupo de informes. No se podrá aplicar el grupo de informes hasta que se cree el conjunto de reglas y se asigne una variable.
 
@@ -116,7 +116,7 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->Como práctica recomendada, las expresiones regulares son más adecuadas para los códigos de seguimiento que utilizan delimitadores.
+>La práctica recomendada es que las expresiones regulares se adapten mejor a los códigos de seguimiento que utilizan delimitadores.
 
 ## Expresión regular: ejemplo de código de seguimiento {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
@@ -146,20 +146,20 @@ Correlación entre la expresión regular y el ID de campaña:
 
 This example tells the rule that the campaign date `20140601` is at the third group `(.+)`, identified by `$3`.
 
-** [!UICONTROL Generador de reglas] **
+**[!UICONTROL Generador de reglas]**
 
 En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muestra:
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Para |
 |---|---|---|---|
-| Expresión regular | &amp; amp; Hat; (.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
+| Expresión regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
 
 **Sintaxis**
 
 | Expresión regular | Cadena o resultados de coincidencias | Grupos de coincidencias correspondientes |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em: Junesale: 20130601 `$1`: em `$2`: Junesale `$3`: 20130601 |
-| Creación de la sintaxis | `^` = inicia la línea () = agrupa caracteres y permite extraer los caracteres coincidentes en paréntesis. `(.+)` = captura uno ( . ) y (+) más\ = inicio de una cadena. `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:: em:JuneSale:20130601 `$1`: em `$2`: JuneSale `$3`: 20130601 |
+| Creación de la sintaxis | `^` = inicia la línea () = agrupa los caracteres y permite extraer los caracteres coincidentes entre paréntesis.  `(.+)` = captura uno ( . ) y ( + ) ya \ = inicio de una cadena.  `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. |
 
 Consulte [Expresiones regulares: tabla de referencia](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obtener más información sobre el significado de los caracteres de las expresiones regulares.
 
@@ -174,13 +174,13 @@ Una de las utilidades de las expresiones regulares es clasificar un carácter es
 
 ![](assets/regex_char_position.png)
 
-** [!UICONTROL Generador de reglas] **
+**[!UICONTROL Generador de reglas]**
 
 En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muestra:
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Para |
 |--- |--- |--- |--- |
-| Expresión regular | `^.(s).*$` | Marca y motor | `$0` Captura los dos primeros caracteres para el nombre de la marca y el motor de búsqueda. |
+| Expresión regular | `^.(s).*$` | Marca y motor | `$0` Captura los dos primeros caracteres para el nombre de marca y el motor de búsqueda. |
 | Expresión regular | `^.(s).*$` | Motor de búsqueda | `$1` Captura el segundo carácter de Google. |
 
 ## Expresiones regulares: hacer coincidir códigos de seguimiento de distinta longitud {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
@@ -199,18 +199,18 @@ Claves de muestra:
 
 ![](assets/regex_varying_length.png)
 
-** [!UICONTROL Generador de reglas] **
+**[!UICONTROL Generador de reglas]**
 
 En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muestra:
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Para |
 |--- |--- |--- |--- |
-| Expresión regular para la cadena de coincidencia a: b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expresión regular para la cadena de coincidencia a: b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expresión regular para la cadena de coincidencia a: b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| Expresión regular para la cadena de coincidencia a: b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| Expresión regular para la cadena de coincidencia a: b: c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Expresión regular para la cadena de coincidencia a: b: c: d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Expresión regular Para cadena de coincidencia a:b | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expresión regular Para cadena de coincidencia a:b | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expresión regular Para cadena de coincidencia a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| Expresión regular Para cadena de coincidencia a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| Expresión regular Para cadena de coincidencia a:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| Expresión regular Para cadena de coincidencia a:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Expresiones regulares: ejemplo de "No contiene"{#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -270,7 +270,7 @@ In this result, `a:b:1313` does not indicate a match.
 | `a{3,}` | 3 o más de a. |
 | `a{3,6}` | Entre 3 y 6 de a. |
 
-Un buen recurso para probar la validez de las expresiones regulares es https://rubular.com/.
+Un buen recurso para probar la validez de la expresión regular es https://rubular.com/.
 
 ## Acerca de la prioridad de las reglas {#concept_93527FEB3C9B48FB96FB7DF857E5F980}
 
@@ -292,7 +292,7 @@ A continuación se muestra un ejemplo de regla de término de búsqueda que clas
 | 2 | Contiene | Fantasy | Tipo de búsqueda | Fantasy |
 | 3 | Contiene | Romo | Tipo de búsqueda | Jugador |
 
-Si un usuario busca *`Cowboys fantasy Tony Romo`*, se clasifica el término *`Player`* porque coincide con la última clasificación indicada en la columna Configurar clasificación.
+Si un usuario busca *`Cowboys fantasy Tony Romo`*, the term *`Player`* is classified, because it matches the last given classification shown in the Set Classification column.
 
 Del mismo modo, supongamos que se configuran hasta dos reglas en un conjunto para los términos de búsqueda siguientes:
 
@@ -317,9 +317,9 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
 
 >[!NOTE]
 >
->En este procedimiento, debe aplicar las reglas a uno o varios grupos de informes. El número recomendado de reglas por conjunto de reglas está entre 500 y 1000, aunque no hay límites. Si el número de reglas supera las 100, considere la posibilidad de simplificar el conjunto de reglas mediante [subclasificaciones](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
+>En este procedimiento, debe aplicar las reglas a uno o más grupos de informes. El número recomendado de reglas por conjunto de reglas está entre 500 y 1000, aunque no hay límites. Si el número de reglas supera las 100, considere la posibilidad de simplificar el conjunto de reglas mediante [subclasificaciones](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE).
 
-1. [Crear un conjunto de reglas de clasificación](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Crear un conjunto](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de reglas de clasificación.
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
 
    ![](assets/add_rule.png)
@@ -329,12 +329,12 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
    Se muestra la página **[!UICONTROL Seleccionar grupos de informes].**
 
    >[!NOTE]
-   Report suites display on this page *`only`* when the following conditions are met:        &gt;
+   Los grupos de informes se muestran en esta página *`only`* cuando se cumplen las siguientes condiciones:        &gt;
 
    * Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
-   (Consulte *`Variable`* en [Conjuntos de reglas de clasificación](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) para obtener una explicación sobre este requisito previo.)
+   (Consulte *`Variable`* en Conjuntos [de reglas de](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) clasificación para obtener una explicación sobre este requisito previo).
 
-   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set.
+   * Ha seleccionado el grupo de informes en la página Grupos **[!UICONTROL de informes]** disponibles, que se muestra después de hacer clic en [Agregar conjunto](/help/components/c-classifications2/crb/classification-rule-set.md) de reglas para crear el conjunto de reglas.
 
 
 1. Especifique si desea sobrescribir los valores existentes:
@@ -347,7 +347,7 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
 
    ![Resultado de los pasos](assets/classification_rules_page.png)
 
-   For examples of building rules, see [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md) and [Regular Expressions in Classification Rules](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D).
+   Para obtener ejemplos de creación de reglas, consulte Generador [de reglas de](/help/components/c-classifications2/crb/classification-rule-builder.md) clasificación y Expresiones [regulares en Reglas](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)de clasificación.
 
    >[!NOTE]
    >
@@ -370,7 +370,7 @@ t_classifications_test_rule.xml
 
 Instrucciones sobre cómo probar un conjunto de reglas o de reglas de clasificación. Al ejecutar una prueba se comprueban todas las reglas de un conjunto.
 
-1. [Crear un conjunto de reglas de clasificación](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) .
+1. [Crear un conjunto](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de reglas de clasificación.
 1. En el [!UICONTROL Generador de reglas de clasificación], haga clic en el nombre del conjunto de reglas.
 1. Asegúrese de que el conjunto de reglas esté asociado con un grupo de informes.
 1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
@@ -389,7 +389,7 @@ Instrucciones sobre cómo probar un conjunto de reglas o de reglas de clasificac
    Las reglas que coinciden se muestran en la tabla [!UICONTROL Resultados].
 1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
 
-   Consulte para obtener más información sobre el uso de reglas para sobrescribir las clasificaciones existentes.
+   Consulte para obtener más información sobre el uso de reglas para sobrescribir clasificaciones existentes.
 
 ## Validate and Activate Classification Rules {#task_2B4FA41F1EE64F4AAC6170C5EFC066AC}
 
@@ -401,7 +401,7 @@ t_validate_rules.xml
 
 Instrucciones sobre cómo validar y activar reglas de clasificación.
 
-1. [Cree un conjunto de reglas de clasificación](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) y, a continuación [, agregue reglas de clasificación](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) al conjunto.
+1. [Cree un conjunto](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) de reglas de clasificación y luego [agregue reglas](../../../components/c-classifications2/crb/classification-quickstart-rules.md#task_86F216DFD2534FA181E64ABDF306782B) de clasificación al conjunto.
 1. On the rule editor, click **[!UICONTROL Activate]**.
 
    ![](assets/overwrite_keys.png)
