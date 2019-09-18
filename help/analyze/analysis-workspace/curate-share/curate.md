@@ -2,41 +2,41 @@
 description: Una depuración le permite limitar los componentes antes de compartir un proyecto. Puede compartir un proyecto y sus componentes con comerciantes y otros perfiles no analistas de su negocio. Anote y aplique etiquetas a proyectos.
 keywords: Analysis Workspace
 seo-description: Una depuración le permite limitar los componentes antes de compartir un proyecto. Puede compartir un proyecto y sus componentes con comerciantes y otros perfiles no analistas de su negocio. Anote y aplique etiquetas a proyectos.
-seo-title: Información general sobre depuración/uso compartido
+seo-title: Resumen de los procesos de curado y del uso compartido
 solution: Analytics
-title: Información general sobre depuración/uso compartido
+title: Resumen de los procesos de curado y del uso compartido
 topic: Reports and Analytics
-uuid: 267 e 9678-95 a 1-4195-8 ba 4-e 8 a 53 c 28 ea 0 d
+uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
+source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 ---
 
 
-# Información general sobre depuración/uso compartido
+# Resumen de los procesos de curado y del uso compartido
 
 Una depuración le permite limitar los componentes antes de compartir un proyecto. Puede compartir un proyecto y sus componentes con comerciantes y otros perfiles no analistas de su negocio. Anote y aplique etiquetas a proyectos.
 
-**Información general de vídeo**
+**Descripción general del vídeo**
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Espacio de trabajo]** &gt; **[!UICONTROL Compartir]**&gt; **[!UICONTROL Depurar datos de proyectos]**
+**[!UICONTROL Espacio de trabajo]** &gt; **[!UICONTROL Compartir]**&gt; **[!UICONTROL Depurar datos del proyecto]**
 
-## Depurar datos de proyectos
+## Depurar datos de proyecto
 
 1. Especifique el permiso para crear y depurar proyectos.
 
-   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un [grupo](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **Acceso a todos los informes[!UICONTROL .]** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [Cree y guarde](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) un proyecto y, a continuación, haga clic **[!UICONTROL en Compartir]** &gt; **[!UICONTROL Depurar datos del proyecto]**.
+1. [Cree y guarde](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) un proyecto y, a continuación, haga clic en **[!UICONTROL Compartir]** &gt; **[!UICONTROL Depurar datos]** del proyecto.
 1. Arrastre los componentes que desea compartir de la pila de componentes arrastrables de la izquierda al campo **[!UICONTROL Componentes depurados].**
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >No es necesario depurar los componentes para compartir un proyecto. Puede compartir un proyecto con todos los componentes predeterminados disponibles o con los componentes seleccionados. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. Una vez depurados los componentes de un proyecto, los demás componentes ya no están disponibles para ese proyecto.
+   >No es necesario depurar componentes para compartir un proyecto. Puede compartir un proyecto con todos los componentes predeterminados disponibles o con los componentes seleccionados. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. Una vez depurados los componentes de un proyecto, los demás componentes ya no están disponibles para ese proyecto.
 
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
@@ -55,13 +55,13 @@ Al compartir hace que este proyecto esté disponible para otros usuarios de Anal
 
    >[!IMPORTANT]
    >
-   >Esta configuración no persiste, es una acción concreta en el momento de compartir.
+   >Esta configuración no persiste: es una acción única en el momento de compartir.
 
 1. Si lo desea, puede establecer esta página como página de aterrizaje para destinatarios.
 
    >[!IMPORTANT]
    >
-   >Esta configuración no persiste, es una acción concreta en el momento de compartir.
+   >Esta configuración no persiste: es una acción única en el momento de compartir.
 
 1. Haga clic en **[!UICONTROL Compartir]**.
 
