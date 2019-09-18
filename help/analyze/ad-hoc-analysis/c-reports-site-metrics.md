@@ -5,9 +5,9 @@ seo-title: Informes de métricas del sitio
 solution: Analytics
 title: Informes de métricas del sitio
 topic: Ad Hoc Analysis
-uuid: 0730747 a -216 f -4 a 58-b 62 b-a 9812968 cde 5
+uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
-## Site Metrics reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## Informes de métricas del sitio {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
@@ -92,7 +92,7 @@ Utilice este informe para:
 
 ## Informe de compras {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-Muestra datos resumidos sobre ingresos, pedidos y unidades. You can also view the [!DNL Purchase Conversion Funnel] report.
+Muestra datos resumidos sobre ingresos, pedidos y unidades. También puede ver el [!DNL Purchase Conversion Funnel] informe.
 
 <!-- 
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **Ingresos**: permite ver la ganancia bruta para los períodos de tiempo seleccionados. Ejemplos: ingresos durante el mes de marzo, compras realizadas la semana anterior o ingresos en el día.
 * **Pedidos**: muestra el número de pedidos realizados en el sitio web durante el período de tiempo especificado. Los pedidos pueden contener varios productos.
 * **Unidades**: muestra las unidades totales que se pidieron durante el período de tiempo seleccionado.
-* ** Canal de conversión de compra**: Ideal para mostrar eventos de conversión en el sitio si se producen en un orden específico, como en un ajuste minorista. Un informe de canal muestra las métricas de conversión para cada paso del proceso de conversión, así como también Pedidos, Ingresos y Unidades.
+* ** Canal de conversión de compra**: Ideal para mostrar eventos de conversión en el sitio si se producen en un orden específico, como en una configuración de venta al por menor. Un informe de canal muestra las métricas de conversión para cada paso del proceso de conversión, así como también Pedidos, Ingresos y Unidades.
 
 ## Informe de carro de compras {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
@@ -162,8 +162,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-** [!UICONTROL First or Last Touch Channel Report] **: Displays metrics showing data about a specific first-touch or last-touch channel. En dichos informes, puede desglosar los canales y mostrar los detalles de cada uno de ellos. Si ha habilitado AdLens, verá clasificaciones en sus Reports and Analytics de marketing de canal.
+**[!UICONTROL Informe de canales de primer o último contacto]**: muestran métricas con datos sobre un canal determinado de primer contacto o último contacto. En dichos informes, puede desglosar los canales y mostrar los detalles de cada uno de ellos. Si ha habilitado AdLens, verá clasificaciones en sus Reports and Analytics de marketing de canal.
 
-** [!UICONTROL First or Last Touch Channel Detail Reports] **: Displays details such as page names and referrers, which is taken from the channel values you set up in the [!UICONTROL Set the channel's value to] option when configuring rules. Los informes de detalles de canal permiten examinar minuciosamente los valores detallados del canal en el informe de resumen.
+**[!UICONTROL Informes de detalles de canales de primer o último contacto]**: muestran detalles, tales como nombres de página y referentes, tomados de los valores de canal que se configuren en la opción [!UICONTROL Definir el valor del canal en], al configurar las reglas. Los informes de detalles de canal permiten examinar minuciosamente los valores detallados del canal en el informe de resumen.
 
 Para obtener información detallada sobre la configuración del canal de marketing en los informes y análisis de marketing, consulte el sistema de [ayuda para canales de marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html).
