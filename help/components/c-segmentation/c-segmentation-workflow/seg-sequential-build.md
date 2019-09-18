@@ -7,7 +7,7 @@ title: Generar segmentos secuenciales
 topic: Segmentos
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
+source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
 
 ---
 
@@ -244,9 +244,8 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## Contenedores de grupo lógico
 
-Los contenedores de grupo lógico son necesarios para agrupar condiciones en un único punto de comprobación secuencial de segmento. Los contenedores no secuenciales (visita individual, visita, visitante) no requieren que se cumplan sus condiciones dentro de la secuencia global, lo que produce resultados no intuitivos si se utilizan junto a un operador ENTONCES. El contenedor de grupo lógico especial solo está disponible en la segmentación secuencial, para garantizar que sus condiciones se cumplen después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente. Las condiciones dentro del propio punto de control del grupo lógico pueden cumplirse en cualquier orden.
-
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). Por el contrario, el contenedor de grupo  lógico fue diseñado para tratar *varios puntos de comprobación como un grupo*, *sin ningún orden* entre los puntos de comprobación agrupados. En otras palabras, no nos importa el orden de los puntos de control dentro de ese grupo. Por ejemplo, no puede anidar un contenedor de [!UICONTROL visitante] dentro de un contenedor de [!UICONTROL visitante]. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+Los contenedores de grupo lógico son necesarios para agrupar condiciones en un único punto de comprobación secuencial de segmento. El contenedor de grupo lógico especial solo está disponible en la segmentación secuencial, para garantizar que sus condiciones se cumplen después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente. Las condiciones dentro del propio punto de control del grupo lógico pueden cumplirse en cualquier orden. Por el contrario, los contenedores no secuenciales (visita individual, visita, visitante) no requieren que se cumplan sus condiciones dentro de la secuencia global, lo que produce resultados poco intuitivos si se utilizan con un operador ENTONCES.
+El contenedor de grupo  lógico fue diseñado para tratar *varios puntos de comprobación como un grupo*, *sin ningún orden* entre los puntos de comprobación agrupados. En otras palabras, no nos importa el orden de los puntos de control dentro de ese grupo. Por ejemplo, no puede anidar un contenedor de [!UICONTROL visitante] dentro de un contenedor de [!UICONTROL visitante]. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
@@ -256,6 +255,20 @@ Within sequential segmentation, it is required that containers are ordered stric
 |---|---|---|
 | Jerarquía de contenedor estándar | ![](assets/nesting_container.png) | Dentro del contenedor de [!UICONTROL visitante], los contenedores de [!UICONTROL visita] y [!UICONTROL visita individual] están anidados en secuencia para extraer segmentos en función de las visitas individuales, el número de visitas y el visitante. |
 | Jerarquía de contenedor lógico | ![](assets/logic_group_hierarchy.png) | La jerarquía de contenedor estándar también se requiere fuera del contenedor de [!UICONTROL grupo lógico]. No obstante, dentro del contenedor de [!UICONTROL grupo lógico], los puntos de comprobación no requieren un orden o jerarquía establecidos; dichos puntos de comprobación solo tienen que ser satisfechos por parte del visitante en cualquier orden. |
+
+Los grupos lógicos pueden parecer intimidantes: aquí hay algunas prácticas recomendadas sobre cómo utilizarlos:
+
+**¿Grupo lógico o contenedor de visita/visita individual?**
+Si desea agrupar puntos de comprobación secuenciales, el "contenedor" es un grupo lógico. Sin embargo, si estos puntos de comprobación secuenciales deben producirse dentro de una sola visita o ámbito de visita, se requiere un contenedor de visita individual o de visita. (Por supuesto, 'hit' no tiene sentido para un grupo de puntos de comprobación secuenciales, cuando una visita no puede dar crédito a más de un punto de comprobación).
+
+**¿Simplifican los grupos lógicos la creación de segmentos secuenciales?**
+Sí, pueden. Supongamos que está intentando responder a esta pregunta: ¿Un visitante vio las páginas B, C o D después de la página A? Puede generar este segmento sin un contenedor de grupo lógico, pero es complejo y laborioso:
+Contenedor del visitante [Página A ENTONCES Página B LUEGO Página C LUEGO Página D] o Contenedor del visitante [Página A LUEGO Página B LUEGO Página D LUEGO Página C] o Contenedor del visitante [Página A LUEGO Página C LUEGO Página D] o Contenedor del visitante [Página A ENTONCES Página C LUEGO Página D Página B] o Contenedor del visitante [Página A LUEGO Página D LUEGO Página B LUEGO Página C] [o Contenedor de visitante Página A LUEGO Página D LUEGO Página C LUEGO Página B]
+
+Un contenedor de grupo lógico simplifica en gran medida el segmento, como se muestra aquí:
+
+![](assets/logic-grp-example.png)
+
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
@@ -276,9 +289,15 @@ Usar el [!UICONTROL grupo lógico] le permite satisfacer las condiciones dentro 
 
 **Crear este segmento**
 
-Las páginas B y C están anidadas en un contenedor de [!UICONTROL grupo lógico] dentro del contenedor exterior de [!UICONTROL visitante]. Al contenedor de [!UICONTROL visita individual] para A lo sigue luego el contenedor de [!UICONTROL grupo lógico] con B y C identificadas usando el operador [!UICONTROL Y]. Debido a que está en el [!UICONTROL grupo lógico], la secuencia no se define, y visitar la página B o C hace que el argumento sea verdadero.
+Las páginas B y C están anidadas en un contenedor de [!UICONTROL grupo lógico] dentro del contenedor exterior de [!UICONTROL visitante]. Al contenedor de [!UICONTROL visita individual] para A lo sigue luego el contenedor de [!UICONTROL grupo lógico] con B y C identificadas usando el operador [!UICONTROL Y]. Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
 
 ![](assets/logic_group_any_order2.png)
+
+**Otro ejemplo**: Visitantes que visitaron la página B o C y luego visitaron la página A:
+
+![](assets/logic_group_any_order3.png)
+
+El segmento debe coincidir al menos con uno de los puntos de comprobación del grupo lógico (B o C). Además, las condiciones de grupo lógico pueden cumplirse en la misma visita o en varias visitas individuales. &#x200B;
 
 ### Primera coincidencia del grupo lógico
 
