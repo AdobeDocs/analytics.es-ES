@@ -1,22 +1,22 @@
 ---
-description: Variables de configuración establecidas en appmeasurement. js.
-keywords: Implementación de Analytics
-seo-description: Variables de configuración definidas en appmeasurement. js para Adobe Analytics
+description: Variables de configuración establecidas en AppMeasurement.js.
+keywords: Implementación de análisis
+seo-description: Variables de configuración establecidas en AppMeasurement.js para Adobe Analytics
 seo-title: Variables de configuración
 solution: Analytics
 subtopic: Variables
 title: Variables de configuración
 topic: Desarrollador e implementación
-uuid: a 19484 b 6-e 350-4 c 12-b 4 d 6-a 31 c 79 a 42 db 0
+uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 72f2b06f53c6a3c1cae965a1a9b030b0123bfca1
+source-git-commit: 5b55b865629628da0ec42773355a1cf66ad7d9b7
 
 ---
 
 
 # Variables de configuración
 
-Las variables de configuración controlan la manera en que se capturan y procesan los datos en los informes. Las variables de configuración más comunes que suelen configurarse en el principal appmeasurement. js de JavaScript global. Estas variables se pueden configurar en el código y los vínculos de nivel de página de Analytics cuando corresponda.
+Las variables de configuración controlan la manera en que se capturan y procesan los datos en los informes. Las variables de configuración más comunes que generalmente se establecen en el archivo JavaScript AppMeasurement.js principal global). Estas variables se pueden establecer en el código de nivel de página y en los vínculos de Analytics cuando sea necesario.
 
 Not all of these variables appear in the code by default when you generate code through the **[!UICONTROL Admin Tool]** &gt; **[!UICONTROL Code Manager]**. Puede que algunas de estas variables de configuración no sean aplicables a las necesidades de implementación del sitio.
 
@@ -30,13 +30,9 @@ Algunos de los objetivos de usar estas variables de configuración son:
 
 >[!NOTE]
 >
->[!DNL AppMeasurement] requiere que todas las variables de configuración se establezcan antes de la llamada inicial a la función de seguimiento `t()`. If configuration variables are set after the call to `t()`, unexpected results may occur. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+>[!DNL AppMeasurement] requiere que todas las variables de configuración se establezcan antes de la llamada inicial a la función track, `t()`. Si las variables de configuración se configuran después de la llamada a `t()`, pueden producirse resultados inesperados. To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
 
 ## s.account {#concept_685A5C832A6C40619ACB5920925785DC}
-
-<!--
-s_account.xml
--->
 
 La variables determina el grupo de informes donde se almacenan los datos y se crean los informes sobre ellos.
 
@@ -54,9 +50,9 @@ El grupo de informes es el nivel más fundamental de segmentación en los inform
 
 En [!DNL Analytics], el cuadro desplegable del sitio en la esquina superior izquierda de los informes muestra el grupo de informes actual. Cada grupo de informes tiene un identificador único denominado ID de grupo de informes. La variable `s_account` contiene una o más ID del grupo de informes al que se envían los datos. Adobe debe proporcionar o aprobar el valor de la ID del grupo de informes, que es invisible para los usuarios de [!DNL Analytics], antes de que pueda utilizarla. Cada ID de grupo de informes tiene asociado un "nombre descriptivo" que se puede cambiar en la sección de grupos de informes de [!DNL Admin Console].
 
-The `s_account` variable is normally declared inside the JavaScript file (s_code.js). You can declare the `s_account` variable on the HTML page, which is a common practice when the value of `s_account` may change from page to page. Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
+The `s_account` variable is normally declared inside the JavaScript file (s_code.js). Puede declarar la `s_account` variable en la página HTML, lo cual es una práctica común cuando el valor de `s_account` puede cambiar de página en página. Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
 
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. In some cases, the value of `s_account` also appears in the domain, before 112.2o7.net. El valor en la ruta es el único valor que determina el grupo de informes de destino. El texto en negritas que sigue muestra el grupo de informes al que se envían los datos, según aparecerá en el depurador. Consulte [DigitalPulse Debugger](../../../implement/impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2).
+Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. En algunos casos, el valor de `s_account` también aparece en el dominio, antes de 112.2o7.net. El valor en la ruta es el único valor que determina el grupo de informes de destino. El texto en negritas que sigue muestra el grupo de informes al que se envían los datos, según aparecerá en el depurador. Consulte [DigitalPulse Debugger](../../../implement/impl-testing/debugger.md#concept_B26FFE005EDD4E0FACB3117AE3E95AA2).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
@@ -71,7 +67,7 @@ La ID del grupo de informes es una cadena alfanumérica de caracteres ASCII, de 
 var s_account="reportsuitecom[,reportsuite2[,reportsuite3]]"
 ```
 
-All values of `s_account` must be provided or approved by Adobe.
+Adobe debe proporcionar o aprobar todos los valores de `s_account` .
 
 **Ejemplos** {#section_16580A9101B64560A58C7745397FB42F}
 
@@ -137,14 +133,10 @@ Ninguna
 
 **Problemas, preguntas y consejos** {#section_62F0B0895BC84A05840AEEED0643DE60}
 
-* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* La selección dinámica de cuentas no es compatible con [AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
 * Utilice siempre [!DNL DigitalPulse Debugger] para determinar qué grupo de informes recibe los datos de cada página.
 
 ## s.dynamicAccountList {#concept_19715BA0AD4D41748E0C4A4A6B71AB51}
-
-<!-- 
-dynamicAccountList.xml
--->
 
 [!DNL AppMeasurement] para JavaScript puede seleccionar dinámicamente el grupo de informes al que envía los datos. La variable contiene las reglas que se utilizarán para determinar el grupo de informes de destino.
 
@@ -152,11 +144,11 @@ dynamicAccountList.xml
 |---|---|---|---|
 | N.D. | N.D. | N.D. | "" |
 
-Esta variable se usa junto con las variables *`dynamicAccountSelection`* y *`dynamicAccountMatch`* variables. The rules in *`dynamicAccountList`* are applied if *`dynamicAccountSelection`* is set to 'true,' and they apply to the section of the URL specified in *`dynamicAccountMatch`*.
+Esta variable se usa junto con las variables *`dynamicAccountSelection`* and *`dynamicAccountMatch`* variables. Las reglas de *`dynamicAccountList`* se aplican si *`dynamicAccountSelection`* se establece en 'true' y se aplican a la sección de la URL especificada en *`dynamicAccountMatch`*.
 
-If none of the rules in *`dynamicAccountList`* matches the URL of the page, the report suite identified in `s_account` is used. Las reglas enumeradas en esta variable se aplican con un orden de izquierda a derecha. Si la dirección URL de la página coincide con más de una regla, se usa la regla situada más a la izquierda para determinar el grupo de informes. Como resultado, las reglas más genéricas deben situarse a la derecha de la lista.
+Si ninguna de las reglas de *`dynamicAccountList`* coincide con la dirección URL de la página, se utiliza el grupo de informes identificado en `s_account` . Las reglas enumeradas en esta variable se aplican con un orden de izquierda a derecha. Si la dirección URL de la página coincide con más de una regla, se usa la regla situada más a la izquierda para determinar el grupo de informes. Como resultado, las reglas más genéricas deben situarse a la derecha de la lista.
 
-In the following examples, the page URL is `www.mycompany.com/path1/?prod_id=12345` and `dynamicAccountSelection` is set to *true* and `s_account` is set to `mysuitecom.`
+En los ejemplos siguientes, la dirección URL de la página está `www.mycompany.com/path1/?prod_id=12345` y `dynamicAccountSelection` configurada en *true* y `s_account` en `mysuitecom.`
 
 | Valor de DynamicAccountList | Valor de DynamicAccountMatch | Grupo de informes que recibirá los datos |
 |---|---|---|
@@ -167,7 +159,7 @@ In the following examples, the page URL is `www.mycompany.com/path1/?prod_id=123
 
 **Sintaxis y valores posibles** {#section_7360E4354ED345E8BAAE210DBD58A7EC}
 
-`dynamicAccountList` La variable es una lista separada por punto y coma de pares = valor pares (reglas). Cada parte de la lista debe contener los siguientes elementos:
+The `dynamicAccountList` variable is a semicolon-separated list of name=value pairs (rules). Cada parte de la lista debe contener los siguientes elementos:
 
 * una o varias ID de grupo de informes (separadas por coma)
 * un signo igual
@@ -195,26 +187,22 @@ Ninguna
 
 **Problemas, preguntas y consejos** {#section_3E10534FCC05457AB67147BB480C8BB3}
 
-* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* La selección dinámica de cuentas no es compatible con [AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
 * Si la dirección URL de la página coincide con varias reglas, se usa la regla situada más a la izquierda.
 * Si no coincide ninguna regla, se usa el grupo de informes predeterminado.
 * Si su página se guarda en el disco duro de otra persona o se traduce mediante un motor de traducción web (como las páginas traducidas de Google), la selección de cuentas dinámicas probablemente no funcionará. Para un seguimiento más preciso, rellene el lado del servidor de la variable `s_account`.
-* `dynamicAccountSelection` Las reglas solo se aplican a la sección de la dirección URL especificada en `dynamicAccountMatch`.
+* The `dynamicAccountSelection` rules apply only to the section of the URL specified in `dynamicAccountMatch`.
 
-* When using dynamic account selection, be sure to update *`dynamicAccountList`* every time you obtain a new domain.
+* Cuando utilice la selección de cuentas dinámicas, asegúrese de actualizar *`dynamicAccountList`* cada vez que obtenga un nuevo dominio.
 * Use [!DNL DigitalPulse Debugger] cuando trate de identificar el grupo de informes de destino. The `dynamicAccountSelection` variable always overrides the value of `s_account`.
 
 ## s.dynamicAccountMatch {#concept_718171E602214CCC9905C749708BBE52}
-
-<!-- 
-dynamicAccountMatch.xml
--->
 
 La variable utiliza el objeto DOM para recuperar la sección de la dirección URL donde se aplican todas las reglas de 
 
 This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' Como el valor predeterminado es [!DNL window.location.host], esta variable no es necesaria para que [!UICONTROL selección de cuentas dinámicas] funcione. For additional information, see [dynamicAccountList](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_19715BA0AD4D41748E0C4A4A6B71AB51).
 
-The rules found in `dynamicAccountList` are applied to the value of `dynamicAccountMatch`. If `dynamicAccountMatch` only contains [!DNL window.location.host] (default), the rules in `dynamicAccountList` apply only to the domain of the page.
+Las reglas encontradas en `dynamicAccountList` se aplican al valor de `dynamicAccountMatch`. Si `dynamicAccountMatch` solo contiene [!DNL window.location.host] (predeterminado), las reglas en `dynamicAccountList` se aplican solo al dominio de la página.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
@@ -253,16 +241,12 @@ Ninguna
 
 **Problemas, preguntas y consejos** {#section_EF9B2977BC21497D8C5EEB9BAD731E17}
 
-* Dynamic account selection is not supported by [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
+* La selección dinámica de cuentas no es compatible con [AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8).
 * When pages are saved to a hard drive, [!DNL window.location.host] is empty, causing those page views to be sent to the default report suite (in `s_account`).
 
 * Cuando se traduce una página con un motor de traducción web, como Google, la [!UICONTROL selección de cuentas dinámicas] no funciona como está previsto. Para un seguimiento más preciso, rellene el lado del servidor de la variable [!UICONTROL s_account ].
 
 ## s.dynamicVariablePrefix {#concept_38C1F2452DDB47FCA8F458BE1398E276}
-
-<!-- 
-dynamicVariablePrefix.xml
--->
 
 La variable permite a la implementación marcar variables que deben rellenarse de forma dinámica.
 
@@ -307,13 +291,9 @@ s.prop1="..User-Agent"
 
 ## s.charSet {#concept_E65B9A8F75C3482C87D0D455805F89BD}
 
-<!-- 
-charset.xml
--->
+Analytics utiliza la propiedad charSet, que normalmente se establece en el archivo JavaScript, para convertir datos entrantes en UTF-8 para almacenamiento y generación de informes de Analytics.
 
-Analytics utiliza la propiedad charset, que normalmente se define en el archivo JavaScript, para convertir los datos entrantes a UTF -8 para almacenamiento e informes por Analytics.
-
->[!Note:] La propiedad charset es necesaria al enviar datos a un grupo de informes multibyte y nunca debe utilizarse con un grupo de informes estándar. Si se configura la propiedad charSet con un grupo de informes ISO estándar, es posible que aparezcan variables truncadas o que se produzca una conversión de caracteres inesperada.
+>[!N] Nota: La propiedad charSet es obligatoria al enviar datos a un grupo de informes de byte múltiple y nunca debe usarse con un grupo de informes estándar. Si se configura la propiedad charSet con un grupo de informes ISO estándar, es posible que aparezcan variables truncadas o que se produzca una conversión de caracteres inesperada.
 
 El valor de la propiedad charSet debe coincidir con la codificación de la página web de la etiqueta meta o el encabezamiento http, aunque la sintaxis no sea exactamente la misma. Aunque la etiqueta meta puede utilizar un alias para la codificación, el valor de charSet debe utilizar el nombre preferido (u oficial) de la codificación.
 
@@ -327,7 +307,7 @@ La tabla siguiente contiene algunas de las codificaciones más comunes con su no
 | Big5 | Big-5 |
 | Shift_JIS | SJIS |
 
-Dado que existen numerosos alias y codificaciones, comuníquese con el consultor de implementación o con el Servicio de atención al cliente de Adobe para confirmar el valor correcto de charset si no aparece en la tabla anterior.
+Dado que existen numerosas codificaciones y alias, póngase en contacto con el consultor de implementación o con el servicio de atención al cliente de Adobe para confirmar el valor correcto de charSet si no aparece en la tabla anterior.
 
 If a site has different web encodings on different pages, or a single JavaScript file is used for multiple sites, the charSet property can be set to a default value in the JavaScript file and then reset on specific pages as needed to override the default; for example, `s.charSet="UTF-8"` or `s.charSet="SJIS"`.
 
@@ -335,7 +315,7 @@ Cualquier valor no vacío del parámetro charSet hará que los datos se conviert
 
 Del mismo modo, si el parámetro charSet tiene un valor vacío, evitará el proceso de conversión de datos y todos los caracteres del rango 128–255 se almacenarán como bytes simples. Estos caracteres no se mostrarán correctamente en los grupos de informes multibyte, dado que los códigos de byte simple de estos caracteres no son válidos en UTF-8. Por lo tanto, el parámetro charSet siempre se debe utilizar con un grupo de informes multibyte. Además, se debe usar el valor correcto en relación con la codificación de la página web.
 
-If the *`charSet`* variable contains an incorrect value, the data in all other variables are translated incorrectly. If JavaScript variables on your pages (e.g. *`pageName`*, [!UICONTROL prop1], or *`channel`*) contain only ASCII characters, *`charSet`* does not need to be defined. However, if the variables on your pages contain non-ASCII characters, the *`charSet`* variable must be populated.
+If the *`charSet`* variable contains an incorrect value, the data in all other variables are translated incorrectly. If JavaScript variables on your pages (e.g. *`pageName`*, [!UICONTROL prop1], or *`channel`*) contain only ASCII characters, *`charSet`* does not need to be defined. Sin embargo, si las variables de las páginas contienen caracteres que no sean ASCII, la *`charSet`* variable debe rellenarse.
 
 **Parámetros**
 
@@ -361,13 +341,9 @@ s.charSet="SJIS"
 
 ## s.currencyCode {#concept_CE216F1610E2499D8178DB9A8EB97C63}
 
-<!-- 
-currencycode.xml
--->
-
 La variable determina la tasa de conversión que se aplicará a los ingresos.
 
-Todos los importes monetarios se almacenan en la moneda que elija. Si esa moneda es la misma que la especificada en *`currencyCode`* o *`currencyCode`* está vacía, no se aplica ninguna conversión.
+Todos los importes monetarios se almacenan en la moneda que elija. Si esa moneda es la misma que la especificada en *`currencyCode`*, or *`currencyCode`* is empty, no conversion is applied.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |--- |--- |--- |--- |
@@ -375,17 +351,15 @@ Todos los importes monetarios se almacenan en la moneda que elija. Si esa moneda
 
 Si su sitio permite que los visitantes compren en diferentes monedas, debe usar la variable *`currencyCode`* para asegurarse de que los ingresos se almacenan en la moneda apropiada. For example, if the base currency for your report suite is USD, and you sell an item for 40 Euros, you should populate the *`currencyCode`* with "EUR" on the HTML page. En cuanto la recopilación de datos recibe los datos, usa la tasa de conversión actual para convertir los 40 euros en su equivalente en USD.
 
-Se recomienda rellenar la variable *`currencyCode`* en la página HTML en lugar del archivo JavaScript si vende en varias monedas. If you want to use your own conversion rates rather than the conversion rates used by Adobe, set the *`currencyCode`* to equal the base currency of your report suite. Después, convierta todos los ingresos antes de enviarlos a [!DNL Analytics].
+Se recomienda rellenar la variable *`currencyCode`* en la página HTML en lugar del archivo JavaScript si vende en varias monedas. Si desea utilizar sus propias tasas de conversión en lugar de las tasas de conversión utilizadas por Adobe, establezca el valor *`currencyCode`* para que sea igual a la moneda base del grupo de informes. Después, convierta todos los ingresos antes de enviarlos a [!DNL Analytics].
 
-La conversión monetaria se aplica tanto a los eventos de ingresos como monetarios. Estos son eventos que se usan para sumar valores similares a los ingresos, como los impuestos y el envío. Los eventos de ingresos y monetarios se especifican en la cadena de productos. Para obtener más información sobre los productos, consulte [events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE). Para obtener más información sobre cómo se administran las monedas, consulte [Compatibilidad con múltiples monedas](https://marketing.adobe.com/resources/help/en_US/whitepapers/currency/).
+La conversión monetaria se aplica tanto a los eventos de ingresos como monetarios. Estos son eventos que se usan para sumar valores similares a los ingresos, como los impuestos y el envío. Los eventos de ingresos y monetarios se especifican en la cadena de productos. Para obtener más información sobre los productos, consulte [events](../../../implement/js-implementation/c-variables/page-variables.md#concept_FFD115543D54401B98FE683BD7D5B3FE).
 
 **Sintaxis y valores posibles** {#section_7CD68F08AB4848EE9B0D19DCC3F1BECE}
 
 ```js
 s.currencyCode="currency_code"
 ```
-
-Solo se admiten los códigos de moneda enumerados en [Compatibilidad con múltiples monedas](https://marketing.adobe.com/resources/help/en_US/whitepapers/currency/).
 
 **Ejemplos** {#section_D55ED45369544C8AAA02B3193752636C}
 
@@ -403,16 +377,12 @@ Adobe [!DNL Customer Care] puede cambiar la configuración predeterminada de su 
 
 **Problemas, preguntas y consejos** {#section_08A80A87B54A4861905953A6FA61FF8F}
 
-* If you notice surprisingly large amounts of revenue in reports, ensure that the *`currencyCode`* variable and base currency of the report suite are set correctly.
+* Si observa cantidades sorprendentemente grandes de ingresos en los informes, asegúrese de que la variable y la moneda base del grupo de informes estén configuradas correctamente. *`currencyCode`*
 * The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
 * No deben usarse eventos monetarios con otros fines que no sean monetarios. Si necesita contar valores arbitrarios o dinámicos que no son monetarios, use el tipo de evento [!UICONTROL numérico].
 * Si la variable *`currencyCode`* está vacía, no se aplica ninguna conversión.
 
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
-
-<!-- 
-cookiedomain.xml
--->
 
 The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set.
 
@@ -422,25 +392,21 @@ Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `win
 
 ## s.cookieDomainPeriods {#concept_F17A59C7D8F54F5897AD40980B6725EB}
 
-<!-- 
-cookiedomainperiods.xml
--->
-
 The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. Algunos complementos también usan esta variable para determinar el dominio correcto donde se configurará la cookie del complemento.
 
-The default value for *`cookieDomainPeriods`* is "2". This is the value that is used if *`cookieDomainPeriods`* is omitted. For example, using the domain `www.mysite.com`, *`cookieDomainPeriods`* should be "2". For `www.mysite.co.jp`, *`cookieDomainPeriods`* should be "3".
+El valor predeterminado para *`cookieDomainPeriods`* es "2". This is the value that is used if *`cookieDomainPeriods`* is omitted. Por ejemplo, si utiliza el dominio `www.mysite.com`, *`cookieDomainPeriods`* debe ser "2". Por `www.mysite.co.jp`, *`cookieDomainPeriods`* debe ser "3".
 
 If *`cookieDomainPeriods`* is set to "2" but the domain contains three periods, the JavaScript file attempts to set cookies on the domain suffix.
 
-For example, if setting *`cookieDomainPeriods`* to "2" on the domain `www.mysite.co.jp`, the `s_cc` and `s_sq` cookies are created on the domain `co.jp`. Como `co.jp` no es un dominio válido, casi todos los exploradores rechazan estas cookies. Como consecuencia, se pierden los datos del mapa de clics de visitantes y el informe [!UICONTROL Perfil del visitante] &gt; [!UICONTROL Tecnología] &gt; [!UICONTROL Cookies] indica que casi el 100 % de los visitantes rechazan las cookies.
+Por ejemplo, si se configura *`cookieDomainPeriods`* en "2" en el dominio `www.mysite.co.jp`, las `s_cc` y `s_sq` cookies se crean en el dominio `co.jp`. Como `co.jp` no es un dominio válido, casi todos los exploradores rechazan estas cookies. Como consecuencia, se pierden los datos del mapa de clics de visitantes y el informe [!UICONTROL Perfil del visitante] &gt; [!UICONTROL Tecnología] &gt; [!UICONTROL Cookies] indica que casi el 100 % de los visitantes rechazan las cookies.
 
-Si *`cookieDomainPeriods`* se establece en "3" pero el dominio solo contiene dos puntos, el archivo JavaScript establece las cookies en el subdominio del sitio. For example, if setting *`cookieDomainPeriods`* to "3" on the domain `www2.mysite.com`, the `s_cc` and `s_sq` cookies are created on the domain `www2.mysite.com`. When a visitor goes to another subdomain of your site (such as `www4.mysite.com`), all cookies set with `www2.mysite.com` cannot be read.
+Si *`cookieDomainPeriods`* se establece en "3" pero el dominio solo contiene dos puntos, el archivo JavaScript establece las cookies en el subdominio del sitio. Por ejemplo, si se configura *`cookieDomainPeriods`* en "3" en el dominio `www2.mysite.com`, las `s_cc` y `s_sq` cookies se crean en el dominio `www2.mysite.com`. When a visitor goes to another subdomain of your site (such as `www4.mysite.com`), all cookies set with `www2.mysite.com` cannot be read.
 
 >[!NOTE]
 >
->Do not include additional subdomains as part of *`cookieDomainPeriods`*. For example, `store.toys.mysite.com` would still have *`cookieDomainPeriods`* set to "2". Esta definición de variable configura correctamente las cookies en el dominio raíz, [!DNL mysite.com]. Setting *`cookieDomainPeriods`* to "3" in this example would set cookies on the domain [!DNL toys.mysite.com], which has the same implications as the prior example.
+>Do not include additional subdomains as part of *`cookieDomainPeriods`*. Por ejemplo, `store.toys.mysite.com` seguiría *`cookieDomainPeriods`* configurándose en "2". Esta definición de variable configura correctamente las cookies en el dominio raíz, [!DNL mysite.com]. Setting *`cookieDomainPeriods`* to "3" in this example would set cookies on the domain [!DNL toys.mysite.com], which has the same implications as the prior example.
 
-See also [s.fpCookieDomainPeriods](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_0A25BD152B0744989E7C662A95448274).
+Consulte también [s.fpCookieDomainPeriods](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_0A25BD152B0744989E7C662A95448274).
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
@@ -448,7 +414,7 @@ See also [s.fpCookieDomainPeriods](../../../implement/js-implementation/c-variab
 
 >[!NOTE]
 >
->Algunos servicios informáticos de nube se consideran dominios de nivel superior, que no permiten que se escriban cookies. (For example, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, and so on.) Si implementa en esos servicios, podría verse afectado por la configuración de privacidad de Analytics que elimina a los usuarios que han bloqueado todas las cookies si no cuenta con su propio dominio configurado (por ejemplo, si está probando la implementación). En este caso, cualquier visita para la que el sistema haya determinado que las cookies están deshabilitadas, no son funcionales o no son accesibles queda fuera y se excluye de los informes.
+>Algunos servicios informáticos en la nube se consideran dominios de nivel superior, que no permiten que se escriban cookies. (For example, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, and so on.) Si implementa en esos servicios, podría verse afectado por la configuración de privacidad de Analytics que elimina a los usuarios que han bloqueado todas las cookies si no cuenta con su propio dominio configurado (por ejemplo, si está probando la implementación). En este caso, cualquier visita para la que el sistema haya determinado que las cookies están deshabilitadas, no son funcionales o no son accesibles queda fuera y se excluye de los informes.
 
 **Ejemplos** {#section_4218BE29FA5E49F58975A2094329B268}
 
@@ -482,21 +448,17 @@ if(window.location.indexOf(".co.jp") > 0 || window.location.indexOf(".com.au") >
 * If you notice that visitor click map data is absent, or that the [!UICONTROL Traffic] &gt; [!UICONTROL Technology] &gt; [!UICONTROL Cookies] report shows a large percentage of visitors who reject cookies, check that the value of *`cookieDomainPeriods`* is correct.
 
 * If *`cookieDomainPeriods`* is higher than the number of sections in the domain, cookies will be set with the full domain. Esto puede provocar la pérdida de datos cuando los visitantes cambien de un subdominio a otro.
-* La variable *`cookieDomainPeriods`* se utilizaba en implementaciones obsoletas antes de *`trackingServer`* establecer la cookie de ID de visitante. Though only present in outdated code, failure to correctly define *`cookieDomainPeriods`* in this circumstance puts your implementation at risk of data loss.
+* La variable *`cookieDomainPeriods`* se utilizó en implementaciones obsoletas antes de *`trackingServer`* configurar la cookie de ID de visitante. Aunque solo está presente en código anticuado, si no se define correctamente *`cookieDomainPeriods`* en esta circunstancia, su implementación corre el riesgo de perder datos.
 
 ## s.fpCookieDomainPeriods {#concept_0A25BD152B0744989E7C662A95448274}
 
-<!-- 
-fpCookieDomainPeriods.xml
--->
-
 La variable está destinada a cookies configuradas por JavaScript (s_sq, s_cc, complementos), que son cookies inherentemente de origen, aunque su implementación utilice los dominios de terceros 2o7.net u omtrdc.net.
 
-The *`fpCookieDomainPeriods`* variable should never be dynamically set . If you use *`cookieDomainPeriods`*, it is good practice to specify a value for *`fpCookieDomainPeriods`* as well. *`fpCookieDomainPeriods`* hereda el *`cookieDomainPeriods`* valor. Note that *`fpCookieDomainPeriods`* does not affect the domain on which the visitor ID cookie is set, even if your implementation treats this as a first-party cookie.
+The *`fpCookieDomainPeriods`* variable should never be dynamically set . Si utiliza *`cookieDomainPeriods`*, se recomienda especificar un valor *`fpCookieDomainPeriods`* también. *`fpCookieDomainPeriods`* hereda el *`cookieDomainPeriods`* valor. Note that *`fpCookieDomainPeriods`* does not affect the domain on which the visitor ID cookie is set, even if your implementation treats this as a first-party cookie.
 
-The name " *`fpCookieDomainPeriods`*" refers to the number of periods (".") que contiene el dominio cuando comienza por "www". For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for `mysite.com` and three for `mysite.co.jp`).
+El nombre " *`fpCookieDomainPeriods`*" hace referencia al número de puntos (".") que contiene el dominio cuando comienza por "www". For example, `www.mysite.com` contains two periods, while `www.mysite.co.jp` contains three periods. Another way to describe the variable is the number of sections in the main domain of the site (two for `mysite.com` and three for `mysite.co.jp`).
 
-The [!DNL AppMeasurement] for JavaScript file uses the *`fpCookieDomainPeriods`* variable to determine the domain with which to set first-party cookies other than the [!UICONTROL visitor ID] (s_vi) cookie. Hay por lo menos dos cookies que se ven afectadas por esta variable, incluyendo s_sq y s_cc (utilizadas respectivamente para mapa de clics de visitantes y para la verificación de cookies, respectivamente). Las cookies usadas por complementos como [!UICONTROL getValOnce] también se ven afectadas.
+El archivo [!DNL AppMeasurement] para JavaScript utiliza la *`fpCookieDomainPeriods`* variable para determinar el dominio con el que se configuran las cookies de origen distintas de la cookie de ID [!UICONTROL de] visitante (s_vi). Hay por lo menos dos cookies que se ven afectadas por esta variable, incluyendo s_sq y s_cc (utilizadas respectivamente para mapa de clics de visitantes y para la verificación de cookies, respectivamente). Las cookies usadas por complementos como [!UICONTROL getValOnce] también se ven afectadas.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
@@ -534,10 +496,6 @@ s.fpCookieDomainPeriods="2"
 Ninguna
 
 ## s.cookieLifetime {#concept_8347C6648B0E4D4996E2F223C34B9A3D}
-
-<!-- 
-cookielifetime.xml
--->
 
 La variable la usan tanto JavaScript como los servidores de recopilación de datos para determinar la vida de una cookie.
 
@@ -580,28 +538,24 @@ Ninguna
 
 **Problemas, preguntas y consejos** {#section_23E24877F6554E0D9F8C8B7A9C2994B2}
 
-*`cookieLifetime`* afecta [!DNL Analytics] al seguimiento. If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Tenga cuidado al configurar *`cookieLifetime`*.
+*`cookieLifetime`* afecta al [!DNL Analytics] seguimiento. If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Tenga cuidado al configurar *`cookieLifetime`*.
 
 ## s.doPlugins {#concept_676EAE4FAFCF4B018876390FC874EFDA}
-
-<!-- 
-doPlugins.xml
--->
 
 La variable es una referencia a la función y permite llamar a la función en el lugar apropiado dentro del archivo JavaScript.
 
 The *`s_doPlugins`* function is called each time any of the following occurs:
 
-* The *`t()`* function is called
-* The *`tl()`* function is called
+* Se llama a la *`t()`* función
+* Se llama a la *`tl()`* función
 * Se hace clic en un vínculo de salida o de descarga
 * Se hace clic en un elemento de página seguido por el mapa de clics de visitantes
 
-La función *`doPlugins`* se usa para ejecutar rutinas personalizadas para recopilar o modificar datos. If you are using an object name other than "s," make sure that the *`s_doPlugins`* is renamed appropriately. For example, if your object name is s_mc, the *`s_doPlugins`* function should be called s_mc_doPlugins.
+La función *`doPlugins`* se usa para ejecutar rutinas personalizadas para recopilar o modificar datos. If you are using an object name other than "s," make sure that the *`s_doPlugins`* is renamed appropriately. Por ejemplo, si el nombre del objeto es s_mc, la *`s_doPlugins`* función debe llamarse s_mc_doPlugins.
 
 **Sintaxis y valores posibles** {#section_5CFB94598521455E80947964A306EA89}
 
-The *`s_doPlugins`* function should not be in quotes, and *`doPlugins`* should always be assigned to the exact name of the *`s_doPlugins`* function (if that function is renamed).
+La *`s_doPlugins`* función no debe estar entre comillas y siempre *`doPlugins`* debe asignarse al nombre exacto de la *`s_doPlugins`* función (si se cambia el nombre de la función).
 
 ```js
 s.doPlugins=s_doPlugins;
@@ -623,11 +577,11 @@ Ninguna
 
 **Problemas, preguntas y consejos** {#section_0C7FB61CF0C946EF8A7D1B686D36E6ED}
 
-* El único motivo para cambiar el nombre de objeto (por ejemplo, de s a s_mc) es si comparte contenido con otros clientes o extrae información de ellos. Cambiar el nombre de la función *`s_doPlugins`* a [!UICONTROL s_ mc_ doplugins] garantiza que el archivo JavaScript de otro cliente no sobrescriba su *`doPlugins`* función.
+* El único motivo para cambiar el nombre de objeto (por ejemplo, de s a s_mc) es si comparte contenido con otros clientes o extrae información de ellos. Cambiar el nombre de la función *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function.
 
-* If you unexpectedly start pulling in content from another Adobe customer, and your *`s_doPlugins`* function is being overwritten, it is possible to simply rename the *`s_doPlugins`* function without changing the object name. Aunque la mejor solución es usar un nombre de objeto diferente de otros archivos JavaScript en la misma página, no es obligatorio.
+* Si inesperadamente comienza a extraer contenido de otro cliente de Adobe y se sobrescribe su *`s_doPlugins`* función, es posible cambiar el nombre de la *`s_doPlugins`* función sin cambiar el nombre del objeto. Aunque la mejor solución es usar un nombre de objeto diferente de otros archivos JavaScript en la misma página, no es obligatorio.
 
-## s. registerpretrackcallback y s. registerposttrackcallback
+## s.registerPreTrackCallback y s.registerPostTrackCallback
 
 Estas funciones toman como parámetros la rellamada (una función) y los parámetros que llevan a esa función. Por ejemplo:
 
@@ -647,19 +601,15 @@ No se puede garantizar el orden en el que se realizan estas rellamadas. Las rell
 
 ## s.trackDownLoadLinks {#concept_0A7AEAB3172A4BEA8B2E8B1A3A8F596C}
 
-<!-- 
-trackDownloadLinks.xml
--->
-
 Configure como 'true' si desea realizar el seguimiento de los vínculos a archivos descargables del sitio.
 
-If *`trackDownloadLinks`* is 'true,' *`linkDownloadFileTypes`* is used to determine which links are downloadable files.
+Si *`trackDownloadLinks`* es 'true', *`linkDownloadFileTypes`* se utiliza para determinar qué vínculos son archivos descargables.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
 | N.D. | N.D. | N.D. | True |
 
-La variable *`trackDownloadLinks`* solo debe configurarse como 'false' si no hay vínculos a archivos descargables en el sitio o si no le importa realizar el seguimiento del número de clics en archivos descargables. If *`trackDownloadLinks`* is 'true,' when a file download link is clicked, data is immediately sent to [!DNL Analytics]. Los datos que se envían con un vínculo de descarga incluyen la dirección URL de descarga del vínculo y los datos del mapa de clics de visitantes para dicho vínculo. Si *`trackDownloadLinks`* es'false ', es probable que los datos del mapa de clics de visitantes para los vínculos a archivos descargables del sitio estén debajo de los informes.
+La variable *`trackDownloadLinks`* solo debe configurarse como 'false' si no hay vínculos a archivos descargables en el sitio o si no le importa realizar el seguimiento del número de clics en archivos descargables. If *`trackDownloadLinks`* is 'true,' when a file download link is clicked, data is immediately sent to [!DNL Analytics]. Los datos que se envían con un vínculo de descarga incluyen la dirección URL de descarga del vínculo y los datos del mapa de clics de visitantes para dicho vínculo. Si *`trackDownloadLinks`* is 'false,' then visitor click map data for links to downloadable files on your site is likely to be under reported.
 
 **Sintaxis y valores posibles** {#section_828492CC2A144BC68D18C30CF397EEFC}
 
@@ -688,17 +638,13 @@ Ninguna
 
 ## s.trackExternalLinks {#concept_E1321318696841648A54CF77F6C4A7AF}
 
-<!-- 
-trackExternalLinks.xml
--->
-
-Si es'true'y se utiliza para determinar si un vínculo pulsado es un vínculo de salida.
+Si es 'true' y se utilizan para determinar si un vínculo en el que se hizo clic es un vínculo de salida.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
 | N.D. | N.D. | N.D. | True |
 
-La variable *`trackExternalLinks`* solo debe configurarse como 'false' si no hay vínculos de salida en el sitio o si no le importa realizar el seguimiento del número de clics en esos vínculos de salida. Un vínculo de salida es cualquier vínculo que conduce al visitante fuera del sitio. Si *`trackExternalLinks`* es'true ', cuando hace clic en un vínculo de salida, los datos de seguimiento se envían inmediatamente. Los datos que se envían con un vínculo de salida incluyen la dirección URL, el nombre y los datos del mapa de clics de visitantes para dicho vínculo. Si *`trackExternalLinks`* es'false ', es probable que los datos del mapa de clics de visitantes para los vínculos de salida del sitio estén debajo de los informes.
+La variable *`trackExternalLinks`* solo debe configurarse como 'false' si no hay vínculos de salida en el sitio o si no le importa realizar el seguimiento del número de clics en esos vínculos de salida. Un vínculo de salida es cualquier vínculo que conduce al visitante fuera del sitio. Si *`trackExternalLinks`* is 'true,' then when you click an exit link, tracking data is immediately sent. Los datos que se envían con un vínculo de salida incluyen la dirección URL, el nombre y los datos del mapa de clics de visitantes para dicho vínculo. Si *`trackExternalLinks`* is 'false,' then visitor click map data for exit links on your site is likely to be under reported.
 
 **Sintaxis y valores posibles** {#section_267748949A7544658E1D838AAEF964B2}
 
@@ -731,10 +677,6 @@ Ninguna
 * When *`trackExternalLinks`* is 'true,' data is sent each time a visitor clicks on an exit link (before link target loads).
 
 ## s.trackInlineStats {#concept_E3A811D9761E4917935F6CD9059C7FCC}
-
-<!-- 
-trackInlineStats.xml
--->
 
 La variable determina si los datos de ClickMap se recopilan.
 
@@ -769,10 +711,6 @@ Ninguna
 
 ## s.linkDownloadFileTypes {#concept_06CC14C69DFD4887A5E6967A157A9E05}
 
-<!-- 
-linkDownloadFileTypes.xml
--->
-
 La variable es una lista de extensiones de archivo separados por coma.
 
 Si su sitio contiene vínculos a archivos con cualquiera de estas extensiones, las direcciones URL de estos vínculos se verán en el informe [!UICONTROL Descargas de archivos].
@@ -781,11 +719,11 @@ Si su sitio contiene vínculos a archivos con cualquiera de estas extensiones, l
 |--- |--- |--- |--- |
 | N.D. | N.D. | Tráfico &gt; Tráfico del sitio &gt; Descargas de archivos | "exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls" |
 
-La variable *`linkDownloadFileTypes`* solo es relevante cuando *`trackDownloadLinks`* se establece en'true '.
+La variable *`linkDownloadFileTypes`* solo es relevante cuando *`trackDownloadLinks`* se establece en 'True'.
 
 En el informe [!UICONTROL Descargas de archivos] solo se contabilizan los clics con el botón principal del ratón. En el informe [!UICONTROL Descargas de archivos] no se contabilizan todas las descargas de archivos que se inician automáticamente cuando se carga una página o las que solo se descargan después de una redirección. Cuando se hace clic con el botón secundario en un archivo y se selecciona la opción "Guardar destino como...", no se contabiliza en el informe [!UICONTROL Descargas de archivos].
 
-La variable *`linkDownloadFileTypes`* puede utilizarse para realizar el seguimiento de los clics a fuentes RSS. If you have links to RSS feeds with a .xml or other extension, appending ",xml" to the *`linkDownloadFileTypes`* list allows you to see how often each RSS link is clicked.
+La variable *`linkDownloadFileTypes`* puede utilizarse para realizar el seguimiento de los clics a fuentes RSS. Si tiene vínculos a fuentes RSS con una extensión .xml u otra, anexar ",xml" a la *`linkDownloadFileTypes`* lista le permite ver con qué frecuencia se hace clic en cada vínculo RSS.
 
 **Sintaxis y valores posibles** {#section_E0B3F3817BBF4B11AFAABEF8BB951E5A}
 
@@ -820,10 +758,6 @@ Ninguna
 
 ## s.linkInternalFilters {#concept_D53C1186762E4AAE82451712B0801CAD}
 
-<!-- 
-linkInternalFilters.xml
--->
-
 La variable se usa para determinar qué vínculos del sitio son vínculos de salida.
 
 Es una lista de filtros separados por coma que representan los vínculos que son parte del sitio.
@@ -834,13 +768,13 @@ Es una lista de filtros separados por coma que representan los vínculos que son
 
 >[!NOTE]
 >
->Antes habíamos sugerido configurar linkinternalfilters en javascript:. Sin embargo, el resultado era que todos los dominios se consideraban externos, incluido el dominio actual en el que reside la etiqueta. Si desea que algunos dominios se consideren internos, puede agregarlos como se muestra en los ejemplos siguientes.
+>Anteriormente, habíamos sugerido configurar linkInternalFilters en javascript:. Sin embargo, el resultado era que todos los dominios se consideraban externos, incluido el dominio actual en el que reside la etiqueta. Si desea que algunos dominios se consideren internos, puede agregarlos como se muestra en los ejemplos siguientes.
 
-The *`linkInternalFilters`* variable is used to determine whether a link is an exit link, which is defined as any link that takes a visitor away from your site. El vínculo puede aparecer en el informe de vínculos de salida independientemente de si la ventana objetivo de un vínculo de salida es una ventana emergente o la ventana actual. Solo se realiza el seguimiento de los vínculos de salida si es *`trackExternalLinks`* está configurada como `"true"`. (Consulte [Seguimiento de vínculos](https://marketing.adobe.com/resources/help/en_US/dtm/link_tracking.html) en la documentación de Dynamic Tag Management para obtener información sobre cómo administra DTM los vínculos de salida). The filters in *`linkInternalFilters`* are not case-sensitive.
+The *`linkInternalFilters`* variable is used to determine whether a link is an exit link, which is defined as any link that takes a visitor away from your site. El vínculo puede aparecer en el informe de vínculos de salida independientemente de si la ventana objetivo de un vínculo de salida es una ventana emergente o la ventana actual. Solo se realiza el seguimiento de los vínculos de salida si es *`trackExternalLinks`* está configurada como `"true"`. (Consulte [Seguimiento de vínculos](https://marketing.adobe.com/resources/help/en_US/dtm/link_tracking.html) en la documentación de Dynamic Tag Management para obtener información sobre cómo administra DTM los vínculos de salida). Los filtros de *`linkInternalFilters`* no distinguen entre mayúsculas y minúsculas.
 
-The list of filters in *`linkInternalFilters`* applies to the domain and path of any link by default. If *`linkLeaveQueryString`* is set to `"true"`, then the filters apply to the entire URL (domain, path, and query string). Los filtros siempre se aplican a la ruta absoluta de la dirección URL, incluso si se utiliza una ruta relativa como el valor href.
+La lista de filtros de *`linkInternalFilters`* se aplica de forma predeterminada al dominio y la ruta de cualquier vínculo. If *`linkLeaveQueryString`* is set to `"true"`, then the filters apply to the entire URL (domain, path, and query string). Los filtros siempre se aplican a la ruta absoluta de la dirección URL, incluso si se utiliza una ruta relativa como el valor href.
 
-Asegúrese de que todos los dominios del sitio (y de los socios que usen su archivo JavaScript) estén incluidos en  *`linkInternalFilters`*. Si no todos los dominios están incluidos en la lista, todos los vínculos de esos dominios y hacia esos dominios se considerarán vínculos de salida, lo que aumenta las llamadas al servidor enviadas. If you would like multiple domains or companies to use a single [!DNL AppMeasurement] for JavaScript file, you may consider populating *`linkInternalFilters`* on the page, overriding the value specified in the JavaScript file. Si tiene dominios personales que se redireccionan inmediatamente al dominio principal, no es necesario incluir dichos dominios personales en la lista.
+Asegúrese de que todos los dominios del sitio (y de los socios que usen su archivo JavaScript) estén incluidos en  *`linkInternalFilters`*. Si no todos los dominios están incluidos en la lista, todos los vínculos de esos dominios y hacia esos dominios se considerarán vínculos de salida, lo que aumenta las llamadas al servidor enviadas. Si desea que varios dominios o empresas utilicen un único archivo [!DNL AppMeasurement] para JavaScript, considere rellenar *`linkInternalFilters`* la página, anulando el valor especificado en el archivo JavaScript. Si tiene dominios personales que se redireccionan inmediatamente al dominio principal, no es necesario incluir dichos dominios personales en la lista.
 
 El siguiente ejemplo ilustra cómo se utiliza esta variable. In this example, the URL of the page is `https://www.mysite.com/index.html`.
 
@@ -890,10 +824,6 @@ s.linkInternalFilters="mysite.com,mysite.net,mypartner.net/adclick"
 ```
 
 ## s.linkLeaveQueryString {#concept_118C280E29394DB5A16DBBF41EB4D742}
-
-<!-- 
-linkLeaveQueryString.xml
--->
 
 De manera predeterminada, las cadenas de consulta están excluidas de todos los informes.
 
@@ -948,21 +878,17 @@ No es necesaria ninguna configuración para esta variable.
 
 ## s.linkTrackVars {#concept_A6B117826C15402EBD0781A94C8065B9}
 
-<!-- 
-linkTrackVars.xml
--->
-
 La variable es una lista de variables separadas por coma que se envían con vínculos personalizados, de salida y de descarga.
 
-If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. To avoid inflation of instances or page views associated with other variables, Adobe recommends populating *`linkTrackVars`* and *`linkTrackEvents`* in the [!UICONTROL onClick] event of a link that is used for link tracking.
+If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. Para evitar una inflación de instancias o vistas de página asociadas con otras variables, Adobe recomienda rellenar *`linkTrackVars`* y *`linkTrackEvents`* en el evento [!UICONTROL onClick] de un vínculo que se utiliza para el seguimiento de vínculos.
 
-All variables that should be sent with link data (custom, exit, and download links) should be listed in *`linkTrackVars`*. If *`linkTrackEvents`* is used, *`linkTrackVars`* should contain "events."
+All variables that should be sent with link data (custom, exit, and download links) should be listed in *`linkTrackVars`*. Si *`linkTrackEvents`* se utiliza, *`linkTrackVars`* debe contener "events".
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
 | N.D. | N.D. | Cualquiera | "None" |
 
-Al rellenar *`linkTrackVars`*, no use el prefijo's.' para las variables. For example, instead of populating *`linkTrackVars`* with "s.prop1," you should populate it with "prop1." The following example illustrates how *`linkTrackVars`* should be used.
+Al rellenar *`linkTrackVars`*, do not use the 's.' prefix for variables. Por ejemplo: en lugar de rellenar *`linkTrackVars`* "s.prop1", debe rellenarlo con "prop1". El siguiente ejemplo ilustra cómo *`linkTrackVars`* debe usarse.
 
 ```js
 s.linkTrackVars="eVar1,events" 
@@ -985,7 +911,7 @@ The *`linkTrackVars`* variable is a case-sensitive, comma-separated list of vari
 s.linkTrackVars="variable_name[,variable_name[...]]"
 ```
 
-La variable *`linkTrackVars`* puede contener únicamente variables a las [!DNL Analytics]que se envían, concretamente: *`events`**`campaign`**`purchaseID`*, *`products`*[!UICONTROL Evar 1-75], [!UICONTROL prop 1-75], [!UICONTROL hier 1-5]*`channel`**`server`**`state`**`zip`*, y *`pageType`*.
+La variable *`linkTrackVars`* puede contener solamente variables que se envían a [!DNL Analytics], a saber: *`events`*, *`campaign`*, *`purchaseID`*, *`products`*, [!UICONTROL eVar1-75], [!UICONTROL prop1-75], [!UICONTROL hier1-5]*`channel`**`server`**`state`**`zip`**`pageType`*,,,, y.
 
 **Ejemplos** {#section_546BAAC7373A41BF8583B280EAAB607C}
 
@@ -1005,15 +931,11 @@ Ninguna
 
 * If *`linkTrackVars`* is blank, all variables that have values are tracked with all server calls.
 * Any variable listed in *`linkTrackVars`* that has a value at the time of any download, exit, or custom link, are tracked.
-* If *`linkTrackEvents`* is used, *`linkTrackVars`* must contain "events."
+* Si *`linkTrackEvents`* se utiliza, *`linkTrackVars`* debe contener "events".
 
 * No use el prefijo "s." ni "s_objectname." para las variables.
 
 ## s.linkTrackEvents {#concept_34D029097A674D0A97690C9569590EF5}
-
-<!-- 
-linkTrackEvents.xml
--->
 
 The  variable is a comma-separated list of events that are sent with a [!UICONTROL custom], [!UICONTROL exit], or [!UICONTROL download] link.
 
@@ -1029,9 +951,9 @@ s.t() // both event1 and event2 are recorded
 
 En el primer vínculo a [!DNL help.php], observe que la variable events retiene el valor que se configuró antes de hacer clic en el vínculo. Esto permite enviar event1 con el vínculo personalizado. In the second example, the link to [!DNL test.php], event2 is not recorded because it is not listed in *`linkTrackEvents`*.
 
-To avoid confusion and potential problems, Adobe recommends populating *`linkTrackVars`* and *`linkTrackEvents`* in the [!UICONTROL onClick] event of a link that is used for link tracking.
+Para evitar confusiones y posibles problemas, Adobe recomienda rellenar *`linkTrackVars`* y *`linkTrackEvents`* en el evento [!UICONTROL onClick] de un vínculo que se utiliza para el seguimiento de vínculos.
 
-The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. This variable is only considered if *`linkTrackVars`* contains "events."
+The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. Esta variable solo se considera si *`linkTrackVars`* contiene "events".
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
@@ -1039,7 +961,7 @@ The *`linkTrackEvents`* variable contains the events that should be sent with [!
 
 **Sintaxis y valores posibles** {#section_89BA2425FBDC400A8C8B7FCDE7D67D63}
 
-*`linkTrackEvents`* La variable es una lista de eventos separados por coma (sin espacios).
+The *`linkTrackEvents`* variable is a comma-separated list of events (no spaces).
 
 ```js
 s.linkTrackEvents="event1[,event2[,event3[...]]]"
@@ -1063,7 +985,7 @@ Ninguna
 
 **Problemas, preguntas y consejos** {#section_DBB68BECC9D44380816113DB2566C38C}
 
-* The JavaScript file only uses *`linkTrackEvents`* if *`linkTrackVars`* contains the "events" variable. "events" should be included in *`linkTrackVars`* only when *`linkTrackEvents`* is defined.
+* El archivo JavaScript sólo se utiliza *`linkTrackEvents`* si *`linkTrackVars`* contiene la variable "events". "events" debe incluirse en *`linkTrackVars`* solo cuando *`linkTrackEvents`* se defina.
 
 * Beware if an event is fired on a page, and is listed in *`linkTrackEvents`*. That event is recorded again with any [!UICONTROL exit], [!UICONTROL download], or [!UICONTROL custom] links unless the events variable is reset prior to that event (in the [!UICONTROL onClick] of a link or after the call to the *`t()`* function).
 
@@ -1071,25 +993,21 @@ Ninguna
 
 ## s.linkExternalFilters {#concept_92A59169DCE443EBAE81A373B27BB6DD}
 
-<!-- 
-linkExternalFilters.xml
--->
-
 Si el sitio contiene muchos vínculos a sitios externos y no se desea realizar el seguimiento de todos los vínculos de salida, use para crear un informe de un subconjunto específico de vínculos de salida.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
 | N.D. | N.D. | Rutas &gt; Entradas y salidas &gt; Vínculos de salida | "" |
 
-La variable *`linkExternalFilters`* es una variable opcional utilizada junto con *`linkInternalFilters`* para determinar si un vínculo es un vínculo de salida. Un vínculo de salida se define como un vínculo que conduce a un visitante fuera del sitio. El vínculo puede aparecer en el informe de vínculos de salida independientemente de si la ventana objetivo de un vínculo de salida es una ventana emergente o la ventana actual. Los vínculos de salida solo se rastrean si *`trackExternalLinks`* se establece en'true '. The filters in *`linkExternalFilters`* and *`linkInternalFilters`* are case insensitive.
+La variable *`linkExternalFilters`* es una variable opcional utilizada junto con *`linkInternalFilters`* para determinar si un vínculo es de salida. Un vínculo de salida se define como un vínculo que conduce a un visitante fuera del sitio. El vínculo puede aparecer en el informe de vínculos de salida independientemente de si la ventana objetivo de un vínculo de salida es una ventana emergente o la ventana actual. Los vínculos de salida solo se rastrean si *`trackExternalLinks`* is set to 'true.' Los filtros de *`linkExternalFilters`* y *`linkInternalFilters`* no distinguen entre mayúsculas y minúsculas.
 
 >[!NOTE]
 >
->If you don't want to use *`linkExternalFilters`*, delete it or set it to "".
+>Si no desea usar *`linkExternalFilters`*, elimínelo o configúrelo en "".
 
-The filters list in *`linkExternalFilters`* and *`linkInternalFilters`* apply to the domain and path of any link by default. If *`linkLeaveQueryString`* is set to 'true,' the filters apply to the entire URL (domain, path, and query string). Estos filtros siempre se aplican a la ruta absoluta de la dirección URL, incluso si se utiliza una ruta relativa como el valor href.
+La lista de filtros *`linkExternalFilters`* y *`linkInternalFilters`* se aplican al dominio y la ruta de cualquier vínculo de forma predeterminada. Si *`linkLeaveQueryString`* se establece en 'true', los filtros se aplican a toda la dirección URL (dominio, ruta y cadena de consulta). Estos filtros siempre se aplican a la ruta absoluta de la dirección URL, incluso si se utiliza una ruta relativa como el valor href.
 
-Para la mayoría de las empresas, *`linkInternalFilters`* proporciona suficiente control sobre los vínculos de salida que no necesitan *`linkExternalFilters`*. Using *`linkExternalFilters`* simply decreases the likelihood that an exit link is considered external. If *`linkExternalFilters`* has a value, then a link is considered only external if it does not match *`linkInternalFilters`* and does match *`linkExternalFilters`*.
+Para la mayoría de las empresas, *`linkInternalFilters`* gives them enough control over exit links that they don't need *`linkExternalFilters`*. Using *`linkExternalFilters`* simply decreases the likelihood that an exit link is considered external. If *`linkExternalFilters`* has a value, then a link is considered only external if it does not match *`linkInternalFilters`* and does match *`linkExternalFilters`*.
 
 El siguiente ejemplo ilustra cómo se utiliza esta variable. In this example, the URL of the page is `https://www.mysite.com/index.html`.
 
@@ -1132,21 +1050,17 @@ Ninguna
 
 **Problemas, preguntas y consejos** {#section_8B40E6F539E3473B934A8DB7C5086D73}
 
-* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. Do not use this variable in place of *`linkInternalFilters`* to force internal links to become exit links.
+* Using *`linkExternalFilters`* can result in fewer links on your site being exit links. No utilice esta variable en lugar de *`linkInternalFilters`* para obligar a los vínculos internos a convertirse en vínculos de salida.
 
-* If *`linkExternalFilters`* should be applied to the query string of a link, make sure *`linkLeaveQueryString`* is set to 'true.' See [linkLeaveQueryString](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_118C280E29394DB5A16DBBF41EB4D742) before setting to `"true"`.
+* Si *`linkExternalFilters`* se debe aplicar a la cadena de consulta de un vínculo, asegúrese de que *`linkLeaveQueryString`* está configurada en 'true'. See [linkLeaveQueryString](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_118C280E29394DB5A16DBBF41EB4D742) before setting to `"true"`.
 
 * To disable exit link tracking, set *`trackExternalLinks`* to `"false"`.
 
 ## s.usePlugins {#concept_81836470A25C41228CE04084565F667D}
 
-<!-- 
-s_usePlugins.xml
--->
-
 If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.'
 
-When [!UICONTROL usePlugins] is 'true,' the *`s_doPlugins`* function is called prior to each image request.
+Cuando [!UICONTROL usePlugins] es 'true', se llama a la *`s_doPlugins`* función antes de cada solicitud de imagen.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
@@ -1170,7 +1084,7 @@ s.usePlugins=true
 s.usePlugins=false
 ```
 
-The [!UICONTROL usePlugins] variable should only be false (or not declared) if the *`s_doPlugins`* function is not declared in your JavaScript file.
+La variable [!UICONTROL usePlugins] solo debe ser false (o no declarada) si la *`s_doPlugins`* función no está declarada en el archivo JavaScript.
 
 **Parámetros de configuración** {#section_DFD41717134147E988B6AFC7DE5BB9E3}
 
