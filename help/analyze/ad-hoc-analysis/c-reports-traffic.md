@@ -5,9 +5,9 @@ seo-title: Informes de fuentes de tráfico
 solution: Analytics
 title: Informes de fuentes de tráfico
 topic: Ad Hoc Analysis
-uuid: 246 afbdc -9 f 7 b -4956-a 44 a-b 7 aad 948 f 392
+uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Las fuentes de tráfico ofrecen una descripción detallada sobre cómo los visitantes interactúan con el sitio web.
 
-## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+## Informes de fuentes de tráfico {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
 
 Las fuentes de tráfico ofrecen una descripción detallada sobre cómo los visitantes interactúan con el sitio web.
 
@@ -41,11 +41,11 @@ c_reports_search_keyword.xml
 
  -->
 
-** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
+**[!UICONTROL Palabras clave de búsqueda: Todas]**: muestra un desglose de cada palabra clave de búsqueda que se ha utilizado para encontrar el sitio. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
 
-** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
+**[!UICONTROL Palabras clave de búsqueda: Pagado]**: muestra un desglose de cada palabra clave de búsqueda paga que se utilizó para encontrar el sitio. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
 
-** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
+**[!UICONTROL Palabras clave de búsqueda: Natural]**: muestra un desglose de cada palabra clave de búsqueda natural que se utilizó para encontrar el sitio. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
 
 ## Motores de búsqueda {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -57,11 +57,11 @@ c_reports_search_engines.xml
 
  -->
 
-** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
+**[!UICONTROL Motores de búsqueda: Todos]**: muestra los motores de búsqueda que usan los visitantes para encontrar la página web. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
 
-** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
+**[!UICONTROL Motores de búsqueda: Pagado]**: muestra los motores de búsqueda de palabra clave paga que usan los visitantes para encontrar la página web. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
 
-** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
+**[!UICONTROL Motores de búsqueda: Natural]**: muestra los motores de búsqueda de palabra clave natural que usan los visitantes para encontrar la página web. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
 
 ## Dominios de referencia {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -130,9 +130,9 @@ Los siguientes artículos de línea podrían mostrarse cuando ejecute este infor
 
 **Dentro de su sitio**: estos artículos son direcciones URL que son etiquetadas por los filtros de URL internos. No se contabilizan como  instancias de referente, pero se pueden ver en informes de otras métricas.
 
-** Sin Java Script**: No hubo JavaScript para que el tipo no se pudiera identificar (desconocido). Esto significa que un cliente, desde un explorador, no proporcionó información de referente y, por consiguiente, no se sabe si admite JavaScript. No se contabilizan como “instancias de referente” pero se pueden ver en los informes de otras métricas.
+** Sin Java Script**: No había JavaScript, por lo que el tipo no se podía identificar (desconocido). Esto significa que un cliente, desde un explorador, no proporcionó información de referente y, por consiguiente, no se sabe si admite JavaScript. No se contabilizan como “instancias de referente” pero se pueden ver en los informes de otras métricas.
 
-**USENET (grupos de noticias)**: significa que la dirección URL de un referente empezaba por [!DNL news://]. Por lo tanto, el vínculo de referente se publicó en un grupo de noticias Usenet, en vez de en una página web.
+**USENET (grupos de noticias)**: significa que la dirección URL de un referente empezaba por `news://`. Por lo tanto, el vínculo de referente se publicó en un grupo de noticias Usenet, en vez de en una página web.
 
 >[!NOTE]
 >
