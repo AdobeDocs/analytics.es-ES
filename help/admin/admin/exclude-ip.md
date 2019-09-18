@@ -5,9 +5,9 @@ seo-title: Excluir por dirección IP
 solution: Analytics
 title: Excluir por dirección IP
 topic: Herramientas de administración
-uuid: 1 ed 6105 f-e 7 c 5-4 c 4 f-b 8 f 4-e 5 f 66 d 0824 bb
+uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las actividades de sitio web internas, las pruebas del sitio y el uso por parte de los empleados, de los informes. La exclusión de datos elimina los datos de las direcciones IP para conseguir mayor precisión en los informes. También es posible eliminar datos de ataques de negación de servicio u otros eventos dañinos que pueden distorsionar los datos de los informes. Puede configurar la exclusión o utilizar el cortafuegos.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Excluir por IP]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Excluir por dirección IP]**
 
 >[!NOTE]
 >
->Hits marked as *bots* are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>Las visitas excluidas por dirección IP se facturan como llamadas [](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)al servidor.
 
 ## Excluir por cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
