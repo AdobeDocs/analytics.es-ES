@@ -9,7 +9,7 @@ title: Variables de configuración
 topic: Desarrollador e implementación
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 5b55b865629628da0ec42773355a1cf66ad7d9b7
+source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
 
 ---
 
@@ -382,6 +382,8 @@ Adobe [!DNL Customer Care] puede cambiar la configuración predeterminada de su 
 * No deben usarse eventos monetarios con otros fines que no sean monetarios. Si necesita contar valores arbitrarios o dinámicos que no son monetarios, use el tipo de evento [!UICONTROL numérico].
 * Si la variable *`currencyCode`* está vacía, no se aplica ninguna conversión.
 
+Para obtener más información, consulte Códigos [de moneda](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html).
+
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
 
 The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set.
@@ -603,7 +605,7 @@ No se puede garantizar el orden en el que se realizan estas rellamadas. Las rell
 
 Configure como 'true' si desea realizar el seguimiento de los vínculos a archivos descargables del sitio.
 
-Si *`trackDownloadLinks`* es 'true', *`linkDownloadFileTypes`* se utiliza para determinar qué vínculos son archivos descargables.
+Si *`trackDownloadLinks`* 'true', *`linkDownloadFileTypes`* se utiliza para determinar qué vínculos son archivos descargables.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
