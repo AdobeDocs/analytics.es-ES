@@ -2,13 +2,13 @@
 description: Recopilación de notas de versiones para iOS.
 seo-description: Recopilación de notas de versiones para iOS.
 seo-title: iOS
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Notas de la versión
 title: iOS
 topic: Desarrollador e implementación
-uuid: cc 98 f 8 f 2-f 619-4 b 31-abf 9-e 43 f 4 deac 64 f
+uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Recopilación de notas de versiones para iOS.
 
 >[!NOTE]
 >
->Para encontrar la versión actual de la biblioteca, active la depuración de registro.
+>Para encontrar la versión actual de la biblioteca, active el registro de depuración.
 
 Las descargas de las bibliotecas móviles están disponibles en [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) y en [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios).
 
@@ -67,7 +67,7 @@ The [!DNL iOS] SDK version 4.13.3 (Jan 19, 2017) includes the following changes:
    <td colname="2"> <p> Ahora puede desactivar los mensajes a pantalla completa cuando VoiceOver se está ejecutando. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword">Analytics</span> </p> </td> 
+   <td colname="1"> <p><span class="keyword"> Analytics</span> </p> </td> 
    <td colname="2"> <p> Se ha mejorado el manejo de acceso de solo lectura a las bases de datos. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -91,7 +91,7 @@ The [!DNL iOS] SDK version 4.13.2 (Nov 10, 2016) includes the following changes:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Servicio de ID de visitante </p> </td> 
-   <td colname="2"> <p> Se ha añadido la marca de fecha y hora y el ID de organización de Marketing Cloud al parámetro <code>adobe_mc</code>. </p> </td> 
+   <td colname="2"> <p> Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Configuración </p> </td> 
@@ -316,7 +316,7 @@ The [!DNL iOS] SDK version 4.8.0 (November 2, 2015) includes the following chang
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Nuevos métodos del servicio de ID de visitante de Marketing Cloud </td> 
+   <td colname="1"> Nuevos métodos del servicio de ID de visitante de Experience Cloud </td> 
    <td colname="2"> <p>Se agregaron los siguientes métodos nuevos: </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
@@ -486,7 +486,7 @@ The [!DNL iOS] SDK version 4.5 includes the following changes:
 
 Fecha de versión: **24 de noviembre de 2014**
 
-* Nuevo - Integración de Adobe Marketing Cloud ID
+* Nuevo: integración con Adobe Experience Cloud ID
 * Registros de depuración mejorados para una mayor claridad
 
 ## Versión 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
@@ -547,7 +547,7 @@ Fecha de publicación: **30 de enero de 2014**
 
 Fecha de versión: **27 de septiembre de 2013**
 
-[!DNL iOS] SDK 4.x para Soluciones de Marketing Cloud ya está disponible con las siguientes nuevas funciones:
+[!DNL iOS] SDK 4.x para soluciones de Experience Cloud ya está disponible con las siguientes nuevas funciones:
 
 * Mejoras significativas en rendimiento. Todo el procesamiento se realiza en subprocesos en segundo plano, el SDK tiene protección completa frente a los subprocesos.
 * Localización geográfica y puntos de interés
@@ -741,7 +741,7 @@ Fecha de versión: **enero de 2012**
 Fecha de versión: **noviembre de 2011**
 
 * Added support for [!DNL iOS] 5.
-* [!DNL AppMeasurement]Se ha actualizado para para que el valor UDID obsoleto no se siga usando como valor predeterminado para visitorID. [!DNL iOS] Si establece un visitorID personalizado en su aplicación (por ejemplo, `s.visitorID = @12345`), no le afectará este cambio. Si no establece un visitorID personalizado, en lugar de usar el UDID como valor para visitorID, se genera un visitorID al azar en la ejecución inicial y, a continuación, se almacena en una clave predeterminada de usuario. [!DNL AppMeasurement] A partir de ese momento, esta clave se utiliza. Esta clave también se guarda y se restaura durante el proceso de copia de seguridad de la aplicación estándar.
+* [!DNL AppMeasurement]Se ha actualizado para para que el valor UDID obsoleto no se siga usando como valor predeterminado para visitorID. [!DNL iOS] Si establece un visitorID personalizado en su aplicación (por ejemplo, `s.visitorID = @12345`), no le afectará este cambio. Si no establece un visitorID personalizado, en lugar de usar el UDID como valor para visitorID, se genera un visitorID al azar en la ejecución inicial y, a continuación, se almacena en una clave predeterminada de usuario. This key is used by [!DNL AppMeasurement] from that point forward. Esta clave también se guarda y se restaura durante el proceso de copia de seguridad de la aplicación estándar.
 
 * Updated calls from the [!DNL iOS] Best Practices plug-in that are not associated with a page view to send hits using trackLink. Esto ayuda a evitar que dichas visitas graben las vistas de página con el nombre predeterminado "nombre de aplicación/versión".
 
