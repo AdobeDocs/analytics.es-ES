@@ -1,18 +1,18 @@
 ---
 description: Instrucciones que describen cómo crear reglas en Dynamic Tag Management.
-keywords: Administración dinámica de etiquetas; rule; crear regla; nueva regla; rule-based rule; regla de carga de página; regla de llamada directa
+keywords: Administración dinámica de etiquetas;regla;crear regla;nueva regla;regla basada en eventos;regla de carga de página;regla de llamada directa
 seo-description: Instrucciones que describen cómo crear reglas en Dynamic Tag Management.
-seo-title: Creación de una regla nueva
-solution: Marketing Cloud, Analytics, Target, Administración dinámica de etiquetas
-title: Creación de una regla nueva
-uuid: 2 ec 14270-b 023-4328-b 43 e -42 a 250 bf 92 d 4
+seo-title: Crear nueva regla
+solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
+title: Crear nueva regla
+uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: tm+mt
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Creación de una regla nueva
+# Crear nueva regla
 
 Instrucciones que describen cómo crear reglas en Dynamic Tag Management.
 
@@ -23,8 +23,8 @@ Instrucciones que describen cómo crear reglas en Dynamic Tag Management.
 1. Asigne un nombre a la regla y seleccione una categoría, si así lo desea.
 1. A continuación, configure las condiciones para la regla. La configuración variará según el tipo de regla que implemente.
 
-   * **Regla basada en eventos:**[Creación de condiciones para reglas basadas en eventos](../../../implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC)
-   * **Regla de carga de página:**[Creación de condiciones para reglas de carga de página](../../../implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md#task_69B41CB230EE4530A755D91233F73706)
-   * **Regla de llamada directa:**[Creación de condiciones para reglas de llamada directa](../../../implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md#task_85EB8F01775A402BA53B8298F0AADA09)
+   * **** Regla basada en eventos: [Crear condiciones para reglas basadas en eventos](../../../implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md#task_A122DE72110F4579A91F9D96D92D39FC)
+   * **** Regla de carga de página: [Crear condiciones para reglas de carga de página](../../../implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md#task_69B41CB230EE4530A755D91233F73706)
+   * **** Regla de llamada directa: [Crear condiciones para reglas de llamada directa](../../../implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md#task_85EB8F01775A402BA53B8298F0AADA09)
    El campo de categoría es solo para propósitos organizativos y no es necesario. Para eliminar las categorías, puede hacer clic en el icono X de la categoría.
 1. [Configurar acciones para que la condición active](../../../implement/c-implement-with-dtm/c-rules/t-rules-actions.md#task_94DFE0D8B53A43E2892851BABE381121).
