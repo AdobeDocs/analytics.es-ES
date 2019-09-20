@@ -1,19 +1,19 @@
 ---
 description: Esta sección contiene directrices para probar las reglas de procesamiento, así como una lista de errores comunes que se deben evitar.
 seo-description: Esta sección contiene directrices para probar las reglas de procesamiento, así como una lista de errores comunes que se deben evitar.
-seo-title: Consejos y trucos de reglas de procesamiento
+seo-title: Consejos y sugerencias de reglas de procesamiento
 solution: Analytics
 subtopic: Reglas de procesamiento
-title: Consejos y trucos de reglas de procesamiento
+title: Consejos y sugerencias de reglas de procesamiento
 topic: Herramientas de administración
-uuid: e 3 a 9 ff 8 a-b 81 a -41 c 9-9 f 61-e 40 cb 4 bf 7 d 99
+uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 ---
 
 
-# Consejos y trucos de reglas de procesamiento
+# Consejos y sugerencias de reglas de procesamiento
 
 Esta sección contiene directrices para probar las reglas de procesamiento, así como una lista de errores comunes que se deben evitar.
 
@@ -39,7 +39,7 @@ Cuando cree una regla, tenga en cuenta la posibilidad de que existan valores vac
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-También es importante tener en cuenta el orden de procesamiento. En el ejemplo siguiente, parece que la eVar personalizada de nombre de página anterior se definirá en la URL si el nombre de la página no está presente. Sin embargo, la URL está ubicada en el nombre de la página después de aplicar las reglas de procesamiento, por lo que en este caso, el nombre de la página está vacío si no se define en la página.
+También es importante tener en cuenta el orden de procesamiento. En el siguiente ejemplo, parece que la eVar personalizada de nombre de página anterior se establecerá en la dirección URL si el nombre de página no está presente. Sin embargo, la URL está ubicada en el nombre de la página después de aplicar las reglas de procesamiento, por lo que en este caso, el nombre de la página está vacío si no se define en la página.
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
