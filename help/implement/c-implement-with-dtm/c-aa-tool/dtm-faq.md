@@ -1,18 +1,18 @@
 ---
 description: Se trata de las preguntas más frecuentes sobre la configuración automática de la implementación de Adobe Analytics. El método de configuración automática se encarga de administrar el código de AppMeasurement.
-keywords: Administración dinámica de etiquetas; complementos; ensayo; afectar a la configuración actual; historial de revisión; posibles obstáculos; ID del grupo de informes; código de moneda; servidor de seguimiento; ssl tracking server; custom code; administración de biblioteca
+keywords: Administración dinámica de etiquetas;complementos;ensayo;efecto en la configuración actual;historial de revisiones;posibles escollos;identificación del grupo de informes;código de moneda;servidor de seguimiento;servidor de seguimiento ssl;código personalizado;administración de biblioteca
 seo-description: Se trata de las preguntas más frecuentes sobre la configuración automática de la implementación de Adobe Analytics. El método de configuración automática se encarga de administrar el código de AppMeasurement.
-seo-title: Preguntas más frecuentes sobre la herramienta Adobe Analytics
-solution: Marketing Cloud, Analytics, Target, Administración dinámica de etiquetas
-title: Preguntas más frecuentes sobre la herramienta Adobe Analytics
-uuid: 8 fcef 893-e 305-4 a 95-a 033-9066 a 56 b 09 cd
+seo-title: Preguntas frecuentes sobre la herramienta Adobe Analytics
+solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
+title: Preguntas frecuentes sobre la herramienta Adobe Analytics
+uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Preguntas más frecuentes sobre la herramienta Adobe Analytics
+# Preguntas frecuentes sobre la herramienta Adobe Analytics
 
 Se trata de las preguntas más frecuentes sobre la configuración automática de la implementación de Adobe Analytics. The automatic configuration method manages the [!DNL AppMeasurement] code for you.
 
@@ -26,7 +26,7 @@ Se trata de las preguntas más frecuentes sobre la configuración automática de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> ¿Dónde puedo colocar mis complementos al implementar Adobe Analytics a través de DTM? </p> </td> 
-   <td colname="col2"> <p> Si utiliza DTM para alojar manualmente <code>s_code</code>, se pueden añadir complementos en el mismo editor que el <code>s_code</code> alojado, tal y como ocurriría en una implementación de Adobe Analytics típica. </p> <p>However, it is also an option to place the plugins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. Los dos métodos de implementación deberían ser igual de eficaces. </p> </td> 
+   <td colname="col2"> <p> Si utiliza DTM para alojar manualmente <code>s_code</code>, se pueden añadir complementos en el mismo editor que el <code>s_code</code> alojado, tal y como ocurriría en una implementación de Adobe Analytics típica. </p> <p>Sin embargo, también es una opción colocar los complementos en el editor dentro de la sección Personalizar código <span class="term"></span> de página de la configuración de la herramienta. Los dos métodos de implementación deberían ser igual de eficaces. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Si realizo cambios de configuración en la nueva versión de la herramienta, ¿puedo probarla en el entorno de ensayo antes de publicarla en el de producción? </p> </td> 
@@ -58,5 +58,5 @@ Para evitar que se produzcan estos problemas, asegúrese de que:
 * Los ID de los grupos de informes se introducen correctamente en la herramienta.
 * Los ID de los grupos de informes de la herramienta coinciden con los ID del código de [!DNL AppMeasurement].
 * Los campos de código de divisa, conjunto de caracteres, servidor de seguimiento y configuración del servidor de seguimiento SSL se han establecido correctamente con los valores admitidos.
-* Custom code is defined in [!DNL Library Management].
+* El código personalizado se define en [!DNL Library Management].
 
