@@ -1,33 +1,33 @@
 ---
-description: Pasos para verificar que la integración de Lyris/Adobe Analytics se realizó correctamente.
-seo-description: Pasos para verificar que la integración de Lyris/Adobe Analytics se realizó correctamente.
+description: Pasos para comprobar que la integración de Lyris/Adobe Analytics se ha realizado correctamente.
+seo-description: Pasos para comprobar que la integración de Lyris/Adobe Analytics se ha realizado correctamente.
 seo-title: Verificación de la integración
 solution: Analytics
 title: Verificación de la integración
-uuid: ae 233342-167 c -4 eb 9-8 b 1 b -8999 e 4 ac 3863
+uuid: ae233342-167c-4eb9-8b1b-8999e4ac3863
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # Verificación de la integración{#verifying-the-integration}
 
-Pasos para verificar que la integración de Lyris/Adobe Analytics se realizó correctamente.
+Pasos para comprobar que la integración de Lyris/Adobe Analytics se ha realizado correctamente.
 
-Una vez completados todos los pasos de implementación, puede validar que la integración esté transfiriendo correctamente los datos.
+Una vez completados todos los pasos de implementación, puede validar que la integración esté transfiriendo datos correctamente.
 
 >[!NOTE]
 >
->El intercambio de datos tarda unos días en comenzar. Asegúrese de ponerse en contacto con Lyris después de activar la integración.
+>El intercambio de datos tarda unos días. Asegúrese de ponerse en contacto con Lyris después de activar la integración.
 
-1. Vaya a su integración de Lyris dentro de Data Connectors. En la ficha **[!UICONTROL Asistencia]** &gt; **[!UICONTROL Registro]** de actividades de integración, debería ver eventos como **[!UICONTROL los datos de métricas importados correctamente]** y/o **[!UICONTROL los datos de clasificación importados correctamente]**:
+1. Navegue hasta la integración de Lyris en Conectores de datos. En la ficha **[!UICONTROL Asistencia]** &gt; Registro **[!UICONTROL de actividades de]** integración, debería ver eventos como datos de **[!UICONTROL métricas importados correctamente]** y/o datos **[!UICONTROL de clasificación importados correctamente]**:
 
    ![](assets/integration_info.png)
 
-1. Ahora vea los informes de mensajes de Lyris con las métricas correspondientes. En Adobe Marketing Cloud, seleccione **[!UICONTROL Informes y análisis]**.
+1. Ahora puede ver los informes de mensajes de Lyris con las métricas correspondientes. En Adobe Experience Cloud, seleccione **[!UICONTROL Informes y análisis]**.
 1. Seleccione el grupo de informes correspondiente.
-1. En **[!UICONTROL Conversiones]** personalizadas, seleccione los informes ID **[!UICONTROL de mensaje]** y elija ID **[!UICONTROL de mensaje/Nombre de mensaje]**.
+1. En Conversiones **** personalizadas, seleccione los informes **[!UICONTROL de ID de]** mensaje y elija ID de **[!UICONTROL mensaje/Nombre]** del mensaje.
