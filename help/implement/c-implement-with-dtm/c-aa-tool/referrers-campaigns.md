@@ -1,13 +1,13 @@
 ---
 description: Descripciones de los campos de Dynamic Tag Management para opciones de referentes y campañas al implementar Dynamic Tag Management en Adobe Analytics.
-keywords: Administración dinámica de etiquetas; referrers; campañas; referrer override; variable de campaña; parámetro de consulta
+keywords: Administración dinámica de etiquetas;referentes;campañas;anulación del referente;variable de campaña;parámetro de consulta
 seo-description: Descripciones de los campos de Dynamic Tag Management para opciones de referentes y campañas al implementar Dynamic Tag Management en Adobe Analytics.
 seo-title: Referentes y campañas
-solution: Marketing Cloud, Analytics, Administración dinámica de etiquetas
+solution: Experience Cloud,Analytics,Administración dinámica de etiquetas
 title: Referentes y campañas
-uuid: 56580206-a 382-4993-9 bba-a 488 da 65 cf 89
+uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: e271cf73e7fd31d8893ed57112f2f3bb7821fbdd
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e271cf73e7fd31d8893ed57112f2f3bb7821fbdd
 
 Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and campaign options when deploying [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
 
-**[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png)**[!UICONTROL Editar herramienta]** &gt; **[!UICONTROL Referentes y campañas]**
+**[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png) Herramienta **** Editar &gt; **[!UICONTROL Referentes y campañas]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4"> 
  <thead> 
@@ -28,11 +28,11 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  <tbody> 
   <tr> 
    <td colname="col1"> Anulación de referente </td> 
-   <td colname="col2"> <p>Anula el valor configurado en la variable <span class="varname"> variable s. referrer</span> , que suele rellenar el referente configurado en el explorador. </p> <p>Consulte [Variables de página] (/help/implementation/js-implementation/c-variables/page-variables. md). </p> </td> 
+   <td colname="col2"> <p>Anula el valor configurado en la variable <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>Consulte [Variables de página](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Campaña </td> 
-   <td colname="col2"> <p>Una variable que identifica las campañas de marketing utilizadas para atraer visitantes a un sitio. El valor de campaña generalmente se toma de un parámetro de cadena de consultas. </p> <p>Consulte [Variables de página] (/help/implementation/js-implementation/c-variables/page-variables. md). </p> </td> 
+   <td colname="col2"> <p>Una variable que identifica las campañas de marketing utilizadas para atraer visitantes a un sitio. El valor de campaña generalmente se toma de un parámetro de cadena de consultas. </p> <p>Consulte [Variables de página](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
   </tr> 
  </tbody> 
 </table>
