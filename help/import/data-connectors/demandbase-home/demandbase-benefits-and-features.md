@@ -1,25 +1,25 @@
 ---
-description: Enumera los 5 beneficios y características principales.
-seo-description: Enumera los 5 beneficios y características principales.
-seo-title: Ventajas y ventajas clave
-title: Ventajas y ventajas clave
-uuid: 95405 ebb -8 aeb -43 fe-af 31-d 1 b 37 e 97 bf 06
+description: Enumera los 5 beneficios y funciones principales.
+seo-description: Enumera los 5 beneficios y funciones principales.
+seo-title: Principales ventajas y características
+title: Principales ventajas y características
+uuid: 95405ebb-8aeb-43fe-af31-d1b37e97bf06
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Ventajas y ventajas clave{#key-benefits-and-features}
+# Principales ventajas y características{#key-benefits-and-features}
 
-Enumera los 5 beneficios y características principales.
+Enumera los 5 beneficios y funciones principales.
 
-* Ofrece informes de tráfico y conversión en 8 dimensiones de organización estándar Demandbase, como Nombre de la empresa, Sector e Intervalo de ingresos.
-* Permite incluir otras 8 dimensiones opcionales Demandbase adicionales de su elección. Pueden incluir dimensiones de observación de cuentas.
-* Incluye el uso de dimensiones Demandbase para generar y aplicar segmentos en Adobe Marketing Cloud.
-* Ofrece optimización de variables de grupos de informes. Las 16 posibles dimensiones Demandbase pueden capturarse utilizando solo 2 variables de conversión personalizadas (evars).
-* Le permite enviar dimensiones Demandbase integradas a Adobe Target para usarlas para segmentar audiencias específicas.
+* Ofrece informes de tráfico y conversión en 8 dimensiones organizativas estándar de Demandbase, como Nombre de la empresa, Industria e Intervalo de ingresos.
+* Permite incluir 8 dimensiones adicionales opcionales de Demandbase de su elección. Pueden incluir dimensiones de observación de cuentas.
+* Incluye el uso de dimensiones de Demandbase para crear y aplicar segmentos en Adobe Experience Cloud.
+* Ofrece optimización de variables de grupos de informes. Las 16 dimensiones posibles de Demandbase se pueden capturar usando sólo 2 variables de conversión personalizadas (eVars).
+* Permite enviar dimensiones de Demandbase integradas a Adobe Target para su uso en segmentación para audiencias específicas.
 
