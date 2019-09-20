@@ -1,13 +1,13 @@
 ---
 description: Cree reglas que determinen en qué páginas debe activarse una regla.
-keywords: Administración dinámica de etiquetas; rule; crear regla; nueva regla; regla de carga de página
+keywords: Administración dinámica de etiquetas;regla;crear regla;nueva regla;regla de carga de página
 seo-description: Cree reglas que determinen en qué páginas debe activarse una regla.
 seo-title: Creación de condiciones para reglas de carga de página
-solution: Marketing Cloud, Analytics, Target, Administración dinámica de etiquetas
+solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
 title: Creación de condiciones para reglas de carga de página
-uuid: 30 a 6 c 69 f -56 e 7-414 e -9636-64 c 262 e 7 ccd 4
+uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
