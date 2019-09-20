@@ -4,12 +4,12 @@ seo-description: Pasos para completar el asistente de integración en la interfa
 seo-title: Finalización del Asistente para integración de Adobe
 solution: Analytics
 title: Finalización del Asistente para integración de Adobe
-uuid: e 7908 da 4-9 d 67-49 c 9-b 532-33 a 8824 e 9 f 92
+uuid: e7908da4-9d67-49c9-b532-33a8824e9f92
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -18,8 +18,8 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 Pasos para completar el asistente de integración en la interfaz de Conectores de datos.
 
-1. Vaya al área Conectores de datos (anteriormente Genesis) dentro de Adobe Marketing Cloud.
-1. Inicie el Asistente de integración Señal dinámica.
+1. Vaya al área Conectores de datos (anteriormente Genesis) dentro de Adobe Experience Cloud.
+1. Inicie el asistente para la integración de señales dinámicas.
 1. Elija el grupo de informes deseado y proporcione un nombre para la integración.
 1. Configure los siguientes elementos:
 
@@ -27,15 +27,15 @@ Pasos para completar el asistente de integración en la interfaz de Conectores d
    |---|---|
    | La dirección de correo electrónico | La dirección de correo electrónico del contacto principal. |
    | Descripción | (Opcional) Descripción de esta configuración de integración. |
-   | ID de comunidad | Puede obtener este ID de su representante de Señal dinámica. |
+   | ID de comunidad | Puede obtener este ID en su representante de señales dinámicas. |
 
-1. Configure los siguientes elementos **[!UICONTROL de Asignaciones]** de variables:
+1. Configure los siguientes elementos de asignaciones **[!UICONTROL de variables]** :
 
    | Elemento | Descripción |
    |---|---|
-   | Código de seguimiento | Seleccione una variable evar disponible del grupo de informes. |
+   | Código de seguimiento | Seleccione una variable eVar disponible en el grupo de informes. |
 
 1. Revise las clasificaciones que se crearán para esta integración.
-1. Marque la casilla para crear el tablero de integración Señal dinámica (opcional, pero muy recomendable).
-1. Revise todos los elementos de configuración y haga clic **[!UICONTROL en Activar ahora]**.
-1. **Importante**: Una vez que haya completado el asistente, debe notificar a su representante de Señal dinámica para que active la integración en la plataforma voicestorm.
+1. Marque la casilla para crear el tablero de integración de señal dinámica (opcional, pero muy recomendable).
+1. Revise todos los elementos de configuración y haga clic en **[!UICONTROL Activar ahora]**.
+1. **Importante**: Una vez que haya completado el asistente, debe notificar al representante de señales dinámicas para que pueda activar la integración en la plataforma VoiceStorm.
