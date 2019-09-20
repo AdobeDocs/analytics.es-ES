@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Notas de la versión
 title: AppMeasurement para JavaScript
 topic: Desarrollador e implementación
-uuid: 1440013 d-d 266-4 dce -9807-8 b 9 adac 73315
+uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 2147e95f3ebd731c161e40a212db0a9067a98f9a
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -31,8 +31,8 @@ Fecha de lanzamiento: **23 de agosto de 201**
 
 | Función/Corrección | Descripción |
 | -----------| ---------- |
-| Se agregó compatibilidad con Baidu | Se agregó compatibilidad con la reordenación de las cadenas de consulta Baidu. |
-| Se corrigió un problema que hacía que se mostrara | Se ha corregido un problema que provocaba valores de visitantes antiguos en las visitas que se ponen en cola mientras se esperaba la inclusión. |
+| Se ha agregado compatibilidad con Baidu | Se ha agregado compatibilidad con la reordenación de las cadenas de consulta Baidu. |
+| Se corrigió un problema que hacía que se mostrara | Se ha corregido un problema que indicaba valores de visitantes antiguos en las visitas que se ponían en cola mientras se esperaba la inclusión. |
 
 ## Versión 2.16.0
 
@@ -40,7 +40,7 @@ Fecha de versión: **15 de agosto de 2019**
 
 | Función | Descripción |
 | -----------| ---------- |
-| `sendBeacon` admite vínculos de salida | Se ha implementado compatibilidad con `sendBeacon` en [!UICONTROL AppMeasurement] para vínculos de salida. Esto mejorará el seguimiento de vínculos de salida y probablemente dará como resultado un incremento del tráfico. `SendBeacon` no se ejecuta en el contexto de una página, sino en el contexto del explorador. Es decir, si una página se descarga, `sendBeacon`la solicitud se completará. Esto resulta muy útil para los vínculos de salida porque hará que sea mucho más probable que se complete la solicitud de vínculo de salida. |
+| `sendBeacon` admite vínculos de salida | Se ha implementado compatibilidad con `sendBeacon` en [!UICONTROL AppMeasurement] para vínculos de salida. Esto mejorará el seguimiento de vínculos de salida y probablemente dará como resultado un incremento del tráfico. `SendBeacon` no se ejecuta en el contexto de una página sino en el contexto del explorador. Es decir, si una página se descarga con `sendBeacon`, la solicitud se completará. Esto resulta muy útil para los vínculos de salida porque hará que sea mucho más probable que la solicitud de vínculo de salida se complete. |
 | Valores ECID/fid | Los valores ECID/fid ahora se almacenan en la caché en la primera visita, aunque cambie la configuración de OptIn. |
 | DIL 9.3 | Módulo de Gestión de público actualizado a DIL 9.3 |
 | Seguimiento de alcance de desplazamiento | Conmutador expuesto en s.ActivityMap.trackScrollReach para activar o desactivar el seguimiento de alcance de desplazamiento. |
@@ -50,8 +50,8 @@ Fecha de versión: **15 de agosto de 2019**
 
 Fecha de publicación:**15 de julio de 2019**
 
-* Se ha agregado el seguimiento de alcance de desplazamiento de Activity Map a la extensión Mapa de actividades (AN -172949)
-* Se ha añadido DIL 9.2 a appmeasurement (AN -182472)
+* Se ha agregado el seguimiento de alcance de desplazamiento de Activity Map a la extensión Activity Map (AN-172949)
+* Se agregó DIL 9.2 a AppMeasurement (AN-182472)
 
 ## Versión 2.14.0
 
@@ -64,7 +64,7 @@ Fecha de versión: **21 de mayo de 2019**
 
 Fecha de versión: **10 de abril de 2019**
 
-Corrección de muchos problemas informados con clearvars. El problema se produce cuando las visitas se envían antes de que el rastreador esté listo. Cuando el rastreador está listo, la biblioteca puede establecer variables que ya se hayan borrado o cambiado. (AN-176931, AN-176629, DTM-12758).
+Corrección de muchos problemas notificados con clearVars. El problema se produce cuando las visitas se envían antes de que el rastreador esté listo. Cuando el rastreador está listo, la biblioteca puede establecer variables que ya se han borrado o cambiado. (AN-176931, AN-176629, DTM-12758).
 
 ## Versión 2.12.0
 
@@ -72,7 +72,7 @@ Release Date: **02/22/2019**
 
 * Módulo de Gestión de público actualizado a DIL 9.1 (AN-175255)
 * Política de seguridad GTM que no permite el módulo de Activity Map. (AN-174679)
-* Appmeasurement mejorada para respetar la exclusión cuando el servicio de identidad no se apruebe en la inclusión. (AN-175259)
+* AppMeasurement mejorado para cumplir con la opción de desactivación cuando el servicio de identidad no está aprobado en la opción de inclusión. (AN-175259)
 
 ## Versión 2.11.0
 
@@ -177,7 +177,7 @@ Fecha de la versión: **08/06/2017**
 * Se ha incluido la última versión de [!DNL dil.js] (AN-140396)
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
 * Se ha vuelto a incluir la API 2.1.0 de visitante. (AN-140873)
-* Se ha añadido `mcorgid` el parámetro. (AN-139586)
+* Se ha agregado `mcorgid` el parámetro . (AN-139586)
 * Se ha agregado el parámetro (customerPerspective). (AN-140897)
 
 ## Versión 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
@@ -228,7 +228,7 @@ Actualizado: **20/10/2016**
 
 Actualizado: **15/09/2016**
 
-* Actualizar [!DNL AppMeasurement][!DNL Audience Manager] módulo con DIL 6.5 y configuraciones adicionales (AN -129411)
+* Actualizar [!DNL AppMeasurement][!DNL Audience Manager] módulo con DIL 6.5 y configuraciones adicionales (AN-129411)
 
 * Inclusión de la API de visitantes 1.8.0 (AN-129887)
 
@@ -241,7 +241,7 @@ Actualizado: **18/08/2016**
 
 >[!NOTE]
 >
->Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Marketing Cloud ID service.
+>Also see the following release notes for [!DNL JavaScript] version 1.6.3, which includes updated requirements for Experience Cloud ID service.
 
 ## Versión 1.6.3 {#section_34C75470A84B461A89FEF8CFF7B94090}
 
@@ -251,7 +251,7 @@ Actualizado: **04/08/2016**
 
 >[!IMPORTANT]
 >
->Version 1.6.0 of the [!DNL Marketing Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Marketing Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
+>Version 1.6.0 of the [!DNL Experience Cloud] ID service *requires* [!DNL AppMeasurement] for [!DNL JavaScript] version 1.6.3 or higher. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code verison 1.6.3 or higher.
 
 ## Versión 1.6.2 {#section_419CBF264B5741DABB005AFDC6197C0D}
 
@@ -367,7 +367,7 @@ Fecha de versión: **21 de mayo de 2015**
 
 **Problema conocido**
 
-En las integraciones de API/ [!DNL AppMeasurement][!DNL Audience Manager] módulo de visitante, habrá dos solicitudes de iframe de publicación de destino realizadas en IE 6-9: `//fast.<subdomain>.demdex.net/dest5.html` y `//fast.<subdomain>.demdex.net/dest4.html`. El comportamiento correcto, tal como se ha observado en otros exploradores, es cargar únicamente `//fast.<subdomain>.demdex.net/dest5.html`.
+En las integraciones API/ [!DNL AppMeasurement] [!DNL Audience Manager] módulo de visitante, habrá dos solicitudes de iFrame de publicación de destino realizadas en IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` y `//fast.<subdomain>.demdex.net/dest4.html`. El comportamiento correcto, tal como se ha observado en otros exploradores, es cargar únicamente `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versión 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
@@ -432,7 +432,7 @@ Fecha de versión: **18 de septiembre de 2014**
 
    >[!IMPORTANT]
    >
-   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Marketing Cloud.
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
 
 ## Versión 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -445,7 +445,7 @@ Se ha agregado compatibilidad con [eVars](https://marketing.adobe.com/resources/
 
 >[!NOTE]
 >
->El código H no admite las evars y los eventos adicionales.
+>El código H no admite las eVars y los eventos adicionales.
 
 [!DNL JavaScript]
 
@@ -460,13 +460,13 @@ Fecha de versión: **19 de junio de 2014**
 
 Fecha de versión: **22 de mayo de 2014**
 
-* [!DNL AppMeasurement] para [!DNL JavaScript]`s_gi` la función no estaba buscando correctamente instancias creadas usando el código `s_gi`H. Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
+* [!DNL AppMeasurement] para [!DNL JavaScript]`s_gi` no se encontraron correctamente las instancias creadas con el código H `s_gi`. Note that this issue only impacted some dual tagging implementations where [!DNL AppMeasurement] for [!DNL JavaScript] and H code were on the same page with separate instances, and `s_gi` was being used to find instances by report suite.
 
 ## Versión 1.3 {#section_56B2C625368E4A5BA1E8770A8C78117D}
 
 Fecha de versión: **17 de abril de 2014**
 
-* Soporte para el [servicio de ID de visitante de Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Versión 1.2.4 {#section_94D9521FDBAB4224994B1671A9BD036B}
 
@@ -497,7 +497,7 @@ Fecha de versión: **15 de noviembre de 2013**
 Fecha de versión: **14 de noviembre de 2013**
 
 * Se ha agregado compatibilidad con la [medición de vídeos de Heartbeat](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
-* [!DNL VisitorAPI.js] se agregó para admitir [el servicio de ID de visitante](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#).
+* [!DNL VisitorAPI.js] se agregó para admitir el servicio [de ID de](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)visitante.
 
 ## Versión 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
