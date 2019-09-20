@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Mac OS X
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Notas de la versión
 title: Mac OS X
 topic: Desarrollador e implementación
-uuid: d 5 e 46 c 86-2 d 00-4 a 18-8 eee-dcaf 082761 af
+uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->Estos SDK han sido establecidos y ya no son compatibles ni distribuidos por Adobe.
+>Estos SDK se han cerrado y Adobe ya no los admite ni distribuye.
 
 >[!NOTE]
 >
->Para encontrar la versión actual de la biblioteca, active la depuración de registro.
+>Para encontrar la versión actual de la biblioteca, active el registro de depuración.
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
