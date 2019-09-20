@@ -6,12 +6,12 @@ seo-title: Actualizar el código de la recopilación de datos de su sitio web
 solution: Analytics
 title: Actualizar el código de la recopilación de datos de su sitio web
 topic: Data Connectors
-uuid: a 97 d 1 b 62-f 883-48 b 1-9516-4 f 889 e 701901
+uuid: a97d1b62-f883-48b1-9516-4f889e701901
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,7 +22,7 @@ La integración de Genesis para DFA aprovecha el ID de configuración de Floodli
 
 >[!NOTE]
 >
->El término Spotlight cambió a Floodlight en una versión reciente de Google DFA. El parámetro JavaScript `dfa_SPOTID` recibió su nombre por la terminología de Spotlight pero se usa para ambas versiones.
+>El término Spotlight se cambió a Floodlight en una reciente versión de DFA de Google. El parámetro JavaScript `dfa_SPOTID` recibió su nombre por la terminología de Spotlight pero se usa para ambas versiones.
 
 Para habilitar la integración de DFA en su sitio web, debe actualizar su código de recopilación de datos JavaScript. Para ello, agregue lo siguiente:
 
@@ -31,7 +31,7 @@ Para habilitar la integración de DFA en su sitio web, debe actualizar su códig
 
 ## Módulo Integrate para DFA {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-La integración DFA aprovecha el módulo Integrate de Adobe Marketing Cloud, que agrega funcionalidad al código de recopilación de datos de JavaScript principal ( `s_code.js`). El módulo Integrate se incluye en el archivo.zip al descargar el código de appmeasurement para Javascript desde el Administrador [de códigos](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). Póngase en contacto con su consultor de Adobe solo si necesita ayuda adicional.
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). El módulo Integrate se incluye como parte del archivo .zip cuando se descarga el código de AppMeasurement para Javascript desde el Administrador [de códigos](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html). Póngase en contacto con su consultor de Adobe solo si necesita ayuda adicional para encontrarla.
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 
