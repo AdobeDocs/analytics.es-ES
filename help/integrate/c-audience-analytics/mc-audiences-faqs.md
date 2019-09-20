@@ -1,17 +1,17 @@
 ---
 description: Respuestas a preguntas que podría tener al implementar Audience Analytics.
 seo-description: Respuestas a preguntas que podría tener al implementar Audience Analytics.
-seo-title: Preguntas más frecuentes
-solution: Marketing Cloud
-title: Preguntas más frecuentes
-uuid: 9 dfc 8 f 19-f 9 b 2-4 c 2 e-bff 9-3 d 91 cfe 01 bca
+seo-title: Preguntas frecuentes
+solution: Experience Cloud
+title: Preguntas frecuentes
+uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Preguntas más frecuentes
+# Preguntas frecuentes
 
 Respuestas a preguntas que podría tener al implementar Audience Analytics.
 
@@ -47,7 +47,7 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Cómo creo un destino de Analytics en Audience Manager?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> Consulte <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configurar un destino de Analytics en AAM </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Después de crear y guardar un destino de Analytics, ¿cuánto tardan los datos en aparecer en mis grupos de informes seleccionados?</b> </p> </td> 
@@ -67,7 +67,7 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>P: ¿En qué se diferencia esto del destino heredado de las cookies en Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Los segmentos se califican y se devuelven en tiempo real, en la misma visita. </p> <p>Se muestran automáticamente los nombres descriptivos. </p> </td> 
+   <td colname="col2"> <p>Los segmentos se califican y devuelven en tiempo real, en la misma visita. </p> <p>Se muestran automáticamente los nombres descriptivos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Qué sucede si algunos de mis grupos de informes contienen datos personales y otros no?</b> </p> </td> 
@@ -101,7 +101,7 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: ¿Por qué veo «Alcanzado límite de audiencias» en mi informe de Analytics? (Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>P: ¿Por qué veo "Se ha alcanzado el límite de audiencias" en mi informe de Analytics? (Nota: esto también se representará como ID de audiencia = -1 y "::max_audiences_expanded::" en el almacén de datos)</b> </p> </td> 
    <td colname="col2"> <p>De forma predeterminada, la integración de Audience Analytics para AAM envía a Analytics, para cada visita, todos los segmentos a los que el visitante pertenece. Si un visitante pertenece a más de 150 segmentos de AAM en una sola visita, se envían a Analytics los <b>150 segmentos para los que se ha obtenido cualificación más recientemente</b> y el resto se trunca. </p> <p>Se envía a Analytics un marcador adicional que indica que la lista de segmentos se ha truncado y se muestra “Alcanzado límite de audiencias” en la dimensión Nombre de audiencia y “-1” en la dimensión ID de audiencia. </p> <p>Aunque es poco probable que un visitante esté cualificado para pertenecer a más de 150 segmentos en una visita particular, puede suceder en un pequeño número de ocasiones. Si el mensaje “Alcanzado límite de audiencias” aparece en su informe, tiene dos opciones: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Opción 1</b>: permita que la integración siga funcionando del modo predeterminado, con el envío de los 150 segmentos para los que un visitante particular ha obtenido cualificación más recientemente. </li> 
@@ -125,12 +125,12 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Por qué no puedo activar el reenvío de servidor para determinados grupos de informes en Administración de Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Solo pueden habilitarse los grupos asignados a su organización de Experience Cloud. </p> </td> 
+   <td colname="col2"> <p>Solo se pueden habilitar los grupos asignados a su organización de Experience Cloud. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+Para obtener más preguntas más frecuentes sobre este tema, consulte Preguntas más frecuentes sobre el reenvío [por parte del servidor](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
 
 ## Preguntas más frecuentes generales {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
@@ -142,7 +142,7 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Cuál es la diferencia entre las “audiencias” de AAM y los “segmentos” de Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Comprenda segmentos en Analytics y Audience Manager </a>. </p> <p>Las audiencias de AAM se envían y comparten como componentes de “dimensión” para su uso en Analytics. No aparecerán como segmentos en el Generador de segmentos, por ejemplo, sino como dimensiones con las que se pueden crear segmentos. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>Las audiencias de AAM se envían y comparten como componentes de “dimensión” para su uso en Analytics. No aparecerán como segmentos en el Generador de segmentos, por ejemplo, sino como dimensiones con las que se pueden crear segmentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Cuál es la diferencia entre los atributos del cliente y los datos de clientes integrados desde AAM?</b> </p> </td> 
