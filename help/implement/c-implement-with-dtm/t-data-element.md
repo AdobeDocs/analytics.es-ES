@@ -1,20 +1,20 @@
 ---
 description: Cree un elemento de datos en Dynamic Tag Management.
-keywords: Administración dinámica de etiquetas; data element; crear nuevo elemento de datos; name; type; valor predeterminado; forzar valor en minúsculas; recordar este valor para
+keywords: Administración dinámica de etiquetas;elemento de datos;crear nuevo elemento de datos;nombre;tipo;valor predeterminado;forzar valor en minúsculas;recordar este valor para
 seo-description: Cree un elemento de datos en Dynamic Tag Management.
 seo-title: Creación de un elemento de datos
-solution: Marketing Cloud, Analytics, Target, Administración dinámica de etiquetas
+solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
 title: Creación de un elemento de datos
-uuid: eacd 5 c 60-6197-4129-a 9 e 1-a 39 e 9 a 58 b 38 a
+uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # Creación de un elemento de datos
 
-Creación de un elemento de datos en Administración dinámica de etiquetas.
+Cree un elemento de datos en Dynamic Tag Management.
 
 1. [Cree una propiedad web](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123), si aún no lo ha hecho.
 1. En la propiedad web, haga clic en **Reglas** &gt; **[!UICONTROL Elementos de datos]**.
