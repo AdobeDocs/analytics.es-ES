@@ -1,30 +1,30 @@
 ---
-description: Pasos para ver la configuración de la integración de letreros dinámicos en Adobe Marketing Cloud
-seo-description: Pasos para ver la configuración de la integración de letreros dinámicos en Adobe Marketing Cloud
+description: Pasos para ver la configuración de la integración de Dynamic Signal VoiceStorm en Adobe Experience Cloud
+seo-description: Pasos para ver la configuración de la integración de Dynamic Signal VoiceStorm en Adobe Experience Cloud
 seo-title: Verificación de la integración
 solution: Analytics
 title: Verificación de la integración
-uuid: 94 f 40415-2408-4592-af 66-cb 18921 e 2208
+uuid: 94f40415-2408-4592-af66-cb18921e2208
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
 # Verificación de la integración{#verifying-the-integration}
 
-Pasos para ver la configuración de la integración de letreros dinámicos en Adobe Marketing Cloud
+Pasos para ver la configuración de la integración de Dynamic Signal VoiceStorm en Adobe Experience Cloud
 
-1. Vea la configuración de la integración de señales dinámicas en el registro de actividad de integración.
-   1. En Adobe Marketing Cloud, vaya a **[!UICONTROL Asistencia]** &gt; **[!UICONTROL Registro]** de actividades de integración.
+1. Vea la configuración de la integración de Dynamic Signal en el registro de actividades de integración.
+   1. En Adobe Experience Cloud, vaya a **[!UICONTROL Asistencia]** &gt; Registro **[!UICONTROL de actividades de integración]** .
 
       ![](assets/integration_activity_log.png)
 
-   1. Busque entradas como Datos **[!UICONTROL de clasificación importados correctamente]**. Estas entradas deben aparecer en un plazo de 24 horas tras la correcta implementación.
-1. Revise los informes de señal dinámica en Adobe Analytics mediante el panel que se creó automáticamente mediante el asistente Integratipn de Adobe (Paso 7). También puede navegar a los informes de señal dinámica dentro de la estructura de menú de Adobe Analytics. Consulte las siguientes capturas de pantalla.
+   1. Busque entradas como Datos **[!UICONTROL de clasificación importados correctamente]**. Estas entradas deben aparecer en las 24 horas siguientes a la implementación correcta.
+1. Revise los informes de señales dinámicas en Adobe Analytics mediante el panel creado automáticamente con el asistente de integración de Adobe (paso 7). Como alternativa, puede navegar a los informes de señales dinámicas dentro de la estructura de menú de Adobe Analytics; consulte las siguientes capturas de pantalla.
 
    **Nota**: Estos datos deben aparecer entre 24 y 48 horas después de la implementación correcta.
 
