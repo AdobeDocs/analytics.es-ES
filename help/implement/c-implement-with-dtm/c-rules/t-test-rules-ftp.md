@@ -1,18 +1,18 @@
 ---
 description: Si utiliza descarga de biblioteca o envío por FTP, o no dispone de un entorno de prueba, puede utilizar una herramienta de sobrescritura, como Charles, para probar reglas no publicadas. Esta necesidad varía con cada implementación.
-keywords: Administración dinámica de etiquetas; rule; switcher plugin; biblioteca de biblioteca; ftp; reescribir herramienta; probar reglas no publicadas; probar reglas; depurar regla; charles
+keywords: Administración dinámica de etiquetas;regla;complemento del conmutador;descarga de biblioteca;ftp;herramienta de reescritura;probar reglas no publicadas;reglas de prueba;regla de depuración;caracteres
 seo-description: Si utiliza descarga de biblioteca o envío por FTP, o no dispone de un entorno de prueba, puede utilizar una herramienta de sobrescritura, como Charles, para probar reglas no publicadas. Esta necesidad varía con cada implementación.
-seo-title: Probar reglas para la descarga de bibliotecas o FTP
-solution: Marketing Cloud, Analytics, Target, Administración dinámica de etiquetas
-title: Probar reglas para la descarga de bibliotecas o FTP
-uuid: b 6 ac 09 c 7-f 590-4710-bcb 0-eb 2 bab 9 e 6296
+seo-title: Probar reglas para la Descarga de biblioteca o FTP
+solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
+title: Probar reglas para la Descarga de biblioteca o FTP
+uuid: b6ac09c7-f590-4710-bcb0-eb2bab9e6296
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Probar reglas para la descarga de bibliotecas o FTP
+# Probar reglas para la Descarga de biblioteca o FTP
 
 Si utiliza descarga de biblioteca o envío por FTP, o no dispone de un entorno de prueba, puede utilizar una herramienta de sobrescritura, como Charles, para probar reglas no publicadas. Esta necesidad varía con cada implementación.
 
