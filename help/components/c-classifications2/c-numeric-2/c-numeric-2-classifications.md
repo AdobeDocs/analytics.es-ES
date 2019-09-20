@@ -1,21 +1,21 @@
 ---
-description: Las clasificaciones numéricas 2 ofrecen métricas personalizadas y flexibles que puede importar en Adobe Marketing Cloud a través del importador.
-seo-description: Las clasificaciones numéricas 2 ofrecen métricas personalizadas y flexibles que puede importar en Adobe Marketing Cloud a través del importador.
-seo-title: Descripción general de las clasificaciones numéricas 2
+description: Las clasificaciones numéricas 2 ofrecen métricas personalizadas y flexibles que puede importar en Adobe Experience Cloud a través del importador.
+seo-description: Las clasificaciones numéricas 2 ofrecen métricas personalizadas y flexibles que puede importar en Adobe Experience Cloud a través del importador.
+seo-title: Resumen de clasificaciones numéricas 2
 solution: Analytics
 subtopic: Clasificaciones
-title: Descripción general de las clasificaciones numéricas 2
+title: Resumen de clasificaciones numéricas 2
 topic: Herramientas de administración
-uuid: cbea 7 cd 1-3 a 92-4 e 9 d-b 671-646 e 9 add 1 ee 6
+uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Descripción general de las clasificaciones numéricas 2
+# Resumen de clasificaciones numéricas 2
 
-Las clasificaciones numéricas 2 ofrecen métricas personalizadas y flexibles que puede importar en Adobe Marketing Cloud a través del importador.
+Las clasificaciones numéricas 2 ofrecen métricas personalizadas y flexibles que puede importar en Adobe Experience Cloud a través del importador.
 
 >[!IMPORTANT]
 >
