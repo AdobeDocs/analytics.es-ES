@@ -3,11 +3,11 @@ description: Cree una herramienta Adobe Analytics para la implementación median
 keywords: Dynamic Tag Management
 seo-description: Cree una herramienta Adobe Analytics para la implementación mediante el uso de Dynamic Tag Management. Este procedimiento describe una implementación manual (heredada).
 seo-title: Implementar Adobe Analytics manualmente (heredado)
-solution: Marketing Cloud, Analytics, Target, Administración dinámica de etiquetas
+solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
 title: Implementar Adobe Analytics manualmente (heredado)
-uuid: d 3 ad 2035-393 d -4 a 77-81 f 6-e 749 ee 717 c 09
+uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -21,9 +21,9 @@ Para obtener información sobre la administración de la implementación automá
 Si desea cambiar una configuración de manual a automática, edite una herramienta y haga clic en **[!UICONTROL Activar configuración automática]**.
 
 1. Descargar código Analytics de medición:
-   1. In Analytics, click **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+   1. En Analytics, haga clic en **[!UICONTROL Administración]** &gt; Administrador **[!UICONTROL de códigos]**.
    1. Click **[!UICONTROL JavaScript (new)]** to download the code locally.
-1. In [!UICONTROL Dynamic Tag Management], [create a web property](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
+1. En Administración dinámica de etiquetas, [cree una propiedad](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)web.
 
    ![](assets/dtm-property.png)
 
@@ -53,8 +53,8 @@ Si desea cambiar una configuración de manual a automática, edite una herramien
 
    Se requiere, como mínimo, hacer clic en **[!UICONTROL Cookies]y configurar el servidor de seguimiento y el servidor de seguimiento SSL.**
 
-1. Click **[!UICONTROL General]** and [insert the core AppMeasurement code](../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658).
-1. Define a [page load rule](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB) to collect [!DNL Analytics]data.
+1. Haga clic en **[!UICONTROL General]** e [inserte el código](../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658)principal de AppMeasurement.
+1. Defina una regla [de carga de](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB) página para recopilar [!DNL Analytics]datos.
 
    Ya está todo preparado para definir reglas para recopilar datos de análisis. Es posible que desee definir antes unos cuantos elementos de datos. Los elementos de datos le permiten extraer datos de la página que puede utilizar para configurar una regla. Para comenzar, puede definir una regla de carga de página que no disponga de condiciones para recopilar datos de [!DNL Analytics] en cada página.
 1. [Agregue el código de encabezado y pie de página](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5) en la ficha Insertar.
