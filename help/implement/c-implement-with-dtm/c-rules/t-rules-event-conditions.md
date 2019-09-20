@@ -1,18 +1,18 @@
 ---
 description: Las condiciones determinan cuándo se activa una regla basada en eventos.
-keywords: Administración dinámica de etiquetas; rule; crear regla; nueva regla; rule-based rule; retrasar activación de vínculo; aplicar controlador de eventos directamente al elemento; propagación; propagación de eventos
+keywords: Administración dinámica de etiquetas;regla;crear regla;nueva regla;regla basada en eventos;demora en la activación del vínculo;aplicación del controlador de eventos directamente al elemento;propagación;propagación de eventos
 seo-description: Las condiciones determinan cuándo se activa una regla basada en eventos.
-seo-title: Creación de condiciones para reglas basadas en eventos
-solution: Marketing Cloud, Analytics, Target, Administración dinámica de etiquetas
-title: Creación de condiciones para reglas basadas en eventos
-uuid: a 847391 c -5 aec -4 d 64-8 a 35-388587731598
+seo-title: Crear condiciones para reglas basadas en eventos
+solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
+title: Crear condiciones para reglas basadas en eventos
+uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Creación de condiciones para reglas basadas en eventos
+# Crear condiciones para reglas basadas en eventos
 
 Las condiciones determinan cuándo se activa una regla basada en eventos.
 
