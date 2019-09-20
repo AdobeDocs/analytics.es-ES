@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Notas de la versión
 title: Flash-Flex
 topic: Desarrollador e implementación
-uuid: 2 ee 7 fb 92-9 b 62-44 d 4-bd 93-6 dff 26764 b 7 f
+uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Recopilación de notas de versiones para Flash. Las aplicaciones Flash con Actio
 
 >[!NOTE]
 >
->Para encontrar la versión actual de la biblioteca, active la depuración de registro.
+>Para encontrar la versión actual de la biblioteca, active el registro de depuración.
 
 <!-- 
 
@@ -66,7 +66,7 @@ Las versiones afectadas son [!DNL AppMeasurement] para Flash versión 4.0 y ante
 >
 >Due to security reasons, we will no longer be distributing an AS2 version of [!DNL AppMeasurement] for Flash. La recopilación de datos de proyectos basados en AS2 seguirá siendo compatible. Sin embargo, es muy recomendable que los clientes actualicen sus implementaciones a AS3 e incorporen las últimas funciones de seguridad de [!DNL AppMeasurement] para Flash.
 
-[!DNL AppMeasurement] para clientes Flash afectados por este problema debe volver a generar proyectos con la biblioteca actualizada disponible para su descarga desde [!DNL Analytics] la consola [Más…](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN -121780)
+[!DNL AppMeasurement] para los clientes de Flash afectados por este problema, los proyectos deben volver a crearse con la biblioteca actualizada disponible para su descarga desde la [!DNL Analytics] consola [Más...](https://help.adobe.com/en_US/Flex/4.0/UsingFlashBuilder/WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7feb.html#WS6f97d7caa66ef6eb1e63e3d11b6c4d0d21-7f88) (AN-121780)
 
 ## November 5, 2015 {#section_18C1A1C82EA844E78A1D563E66DE3FCF}
 
@@ -74,13 +74,13 @@ Versión 4.0 - Actualización:
 
 * Inclusión de la API de visitante 1.5.3.
 
-## 17 de septiembre de 2015 {#section_319911C0F080452981F8C8BEA2880463}
+## September 17, 2015 {#section_319911C0F080452981F8C8BEA2880463}
 
 Versión 4.0 - Actualización:
 
 * Inclusión de la API de visitante 1.5.2.
 
-## August 20, 2015 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
+## 20 de agosto de 2015 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
 
 Versión 4.0 - Actualización:
 
@@ -99,7 +99,7 @@ Versión 3.9.2 - Actualización:
 
 * Inclusión de la API de visitante 1.4
 
-## February 19, 2015 {#section_95ADF1725CE7415D956944A28182E69B}
+## 19 de febrero de 2015 {#section_95ADF1725CE7415D956944A28182E69B}
 
 Versión 3.9.2:
 
@@ -132,7 +132,7 @@ Fecha de versión: **19 de junio de 2014**
 
 Fecha de versión: **17 de abril de 2014**
 
-* Soporte para el [servicio de ID de visitante de Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 ## Versión 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
