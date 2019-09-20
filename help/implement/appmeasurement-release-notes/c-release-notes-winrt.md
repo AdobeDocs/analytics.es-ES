@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: WinRT para Windows 8
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Notas de la versión
 title: WinRT para Windows 8
 topic: Desarrollador e implementación
-uuid: cec 19 d 63-114 c -4 ef 6-a 55 e-db 6 aad 4 e 948 b
+uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Para encontrar la versión actual de la biblioteca, active la depuración de registro.
+>Para encontrar la versión actual de la biblioteca, active el registro de depuración.
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
@@ -41,7 +41,7 @@ Correcciones de errores y mejoras de rendimiento.
 
 Fecha de versión: **17 de octubre de 2013**
 
-* [!DNL Windows] Compatibilidad 8.1
+* [!DNL Windows] Compatibilidad con 8.1
 
 ## Versión 3.0.5 {#section_8F163FF1E88142F180091A88C9FD9D12}
 
@@ -69,7 +69,7 @@ Fecha de versión: **21 de febrero de 2013**
 Fecha de versión: **noviembre de 2012**
 
 * La resolución de pantalla ahora se recopila con precisión para plataformas C#, C++ y HTML5/WinJS.
-* `ADMS_Churn` class es ahora interna. Para realizar prácticas recomendadas en el seguimiento del ciclo de vida de la aplicación, utilice las siguientes llamadas:
+* `ADMS_Churn` la clase ahora es interna. Para realizar prácticas recomendadas en el seguimiento del ciclo de vida de la aplicación, utilice las siguientes llamadas:
 
    ```
    public void ADMS_Measurement.StartSession(); 
