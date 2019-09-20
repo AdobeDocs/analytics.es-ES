@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Windows Phone 8
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Notas de la versión
 title: Windows Phone 8
 topic: Desarrollador e implementación
-uuid: 7378969 a-d 219-42 bf -9750-141 acc 9 e 4 b 7 d
+uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Para encontrar la versión actual de la biblioteca, active la depuración de registro.
+>Para encontrar la versión actual de la biblioteca, active el registro de depuración.
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
