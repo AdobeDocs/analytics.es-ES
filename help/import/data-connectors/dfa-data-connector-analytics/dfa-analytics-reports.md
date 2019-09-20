@@ -6,12 +6,12 @@ seo-title: Informes de Analytics que usan datos de DFA
 solution: Analytics
 title: Informes de Analytics que usan datos de DFA
 topic: Data Connectors
-uuid: a 4 fe 4 a 6 c-f 4 a 4-431 d-bce 9-9 eedbcafedd 6
+uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -36,7 +36,7 @@ Los informes DFA preempaquetados incluyen lo siguiente:
 
 Para generar un informe DFA:
 
-1. Inicie sesión en Adobe Marketing Cloud.
+1. Inicie sesión en Adobe Experience Cloud.
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports &amp; Analytics]**. Asegúrese de haber seleccionado el grupo de informes donde instaló la integración de DFA.
 
 1. En la navegación del lado izquierdo, seleccione la variable de Conversión que captura los datos de pulsaciones DFA. A continuación, seleccione el informe DFA que desee.
