@@ -2,13 +2,13 @@
 description: Recopilación de notas de versiones para la biblioteca móvil de Android.
 seo-description: Recopilación de notas de versiones para la biblioteca móvil de Android.
 seo-title: Android
-solution: Analytics, Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: Notas de la versión
 title: Android
 topic: Desarrollador e implementación
-uuid: 32232 d 28-3459-4 f 78-bb 00-ca 3163 c 63461
+uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,7 +19,7 @@ Recopilación de notas de versiones para la biblioteca móvil de Android.
 
 >[!NOTE]
 >
->Para encontrar la versión actual de la biblioteca, active la depuración de registro.
+>Para encontrar la versión actual de la biblioteca, active el registro de depuración.
 
 Las descargas de las bibliotecas móviles están disponibles en [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) y en [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1).
 
@@ -67,7 +67,7 @@ The [!DNL Android] SDK version 4.13.3 (Jan 19, 2017) includes the following chan
    <td colname="2"> <p> Se ha corregido un problema que impedía la visualización de mensajes de alerta sin botón de pulsación. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword">Analytics</span> </p> </td> 
+   <td colname="1"> <p><span class="keyword"> Analytics</span> </p> </td> 
    <td colname="2"> <p> Se ha mejorado el manejo de acceso de solo lectura a las bases de datos. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -91,7 +91,7 @@ The [!DNL Android] SDK version 4.13.2 (Nov 10, 2016) includes the following chan
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Servicio de ID de visitante </p> </td> 
-   <td colname="2"> <p>Se ha añadido la marca de fecha y hora y el ID de organización de Marketing Cloud al parámetro <code>adobe_mc</code>. </p> </td> 
+   <td colname="2"> <p>Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Enlaces profundos </p> </td> 
@@ -272,7 +272,7 @@ The [!DNL Android] SDK version 4.8.0 (November 2, 2015) includes the following c
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> Nuevos métodos del servicio de ID de visitante de Marketing Cloud </td> 
+   <td colname="1"> Nuevos métodos del servicio de ID de visitante de Experience Cloud </td> 
    <td colname="2"> <p>Se agregaron los siguientes métodos: </p> 
     <ul id="ul_6B85F8A4826642BEB373225CA760D799"> 
      <li id="li_72B94B8CECB94229827BFCB06671DFC9"><code> syncIdentifer</code> </li> 
@@ -418,7 +418,7 @@ The [!DNL Android] SDK version 4.4 includes the following changes:
 
 Fecha de versión: **24 de noviembre de 2014**
 
-* Nuevo - Integración de Adobe Marketing Cloud ID
+* Nuevo: integración con Adobe Experience Cloud ID
 * Registros de depuración mejorados para una mayor claridad
 * Se ha resuelto un posible bloqueo cuando se buscaban mensajes en la aplicación
 
@@ -503,7 +503,7 @@ Fecha de versión: **14 de noviembre de 2013**
 
 Fecha de versión: **27 de septiembre de 2013**
 
-[!DNL Android] SDK 4.x para Soluciones de Marketing Cloud ya está disponible con las siguientes nuevas funciones:
+[!DNL Android] SDK 4.x para soluciones de Experience Cloud ya está disponible con las siguientes nuevas funciones:
 
 * Mejoras significativas en rendimiento. Todo el procesamiento se realiza en subprocesos en segundo plano, el SDK tiene protección completa frente a los subprocesos.
 * Localización geográfica y puntos de interés
@@ -609,7 +609,7 @@ Fecha de versión: **septiembre de 2012**
 
 Fecha de versión: **agosto de 2012**
 
-* Context override parameters are now sent in as `Hashmap<String, Object>` (they were formerly `Hashmap<String, String>`).
+* Los parámetros de anulación de contexto ahora se envían como `Hashmap<String, Object>` (anteriormente `Hashmap<String, String>`).
 
 ## Versión 3.0 {#section_2955C0AF3A23476B8CF06C469DE3284C}
 
