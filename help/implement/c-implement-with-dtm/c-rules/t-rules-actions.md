@@ -1,18 +1,18 @@
 ---
 description: Configurar las acciones que desea que la condición active.
-keywords: Administración dinámica de etiquetas; rule; crear regla; nueva regla; etiquetas javascript/terceros; configurar acciones para condición; agregar nueva secuencia de comandos; non-secuencial javascript; secuencial javascript; html no secuencial
+keywords: Administración dinámica de etiquetas;regla;crear regla;nueva regla;etiquetas de javascript/terceros;configurar acciones para la condición;agregar nueva secuencia de comandos;javascript no secuencial;javascript secuencial;html no secuencial
 seo-description: Configurar las acciones que desea que la condición active.
-seo-title: Configuración de acciones para que la condición active
-solution: Marketing Cloud, Analytics, Target, Administración dinámica de etiquetas
-title: Configuración de acciones para que la condición active
-uuid: 2 e 892 f 0 b -7261-41 ee-b 849-6 e 3054 a 38 de 0
+seo-title: Configurar acciones para que la condición active
+solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
+title: Configurar acciones para que la condición active
+uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# Configuración de acciones para que la condición active
+# Configurar acciones para que la condición active
 
 Configurar las acciones que desea que la condición active.
 
