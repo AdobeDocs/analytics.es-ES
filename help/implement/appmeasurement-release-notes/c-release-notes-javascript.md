@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Notas de la versión
 title: Código H de JavaScript - Heredado
 topic: Desarrollador e implementación
-uuid: 4586 b 250-0 f 1 b -45 b 8-829 c -18 dc 1201956 f f
+uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -126,7 +126,7 @@ Fecha de versión: **11 de junio de 2014**
 
 Fecha de versión: **22 de mayo de 2014**
 
-* Soporte para el [servicio de ID de visitante de Marketing Cloud](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* Support for the [Experience Cloud Visitor ID service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 * Soporte para la [integración de Analytics para Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/).
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -273,25 +273,22 @@ La siguiente tabla resume las variables de configuración y las actualizaciones 
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>Esta marca se usa para deshabilitar el seguimiento de vínculos forzado para exploradores WebKit. El seguimiento de vínculos forzado se habilita de forma predeterminada para exploradores WebKit, mientras que el resto de exploradores lo ignoran. </p> <p> <b>Valor predeterminado</b> </p> <p> <code> true </code> </p> <p> <b>Ejemplo</b> </p> 
-    <code class="syntax javascript">s. useforcedlinktracking &amp; amp; nbsp; = &amp; amp; nbsp; false </code>
-  </td> 
+    <code class="syntax javascript">
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
    <td colname="col2"> <p>El número máximo de milisegundos que hay que esperar para que finalice el seguimiento antes de ejecutar el parámetro <code>doneAction</code> que se pasó a <code>s.tl</code>. Este valor especifica el tiempo de espera máximo. Si la llamada de seguimiento de vínculos se completa antes de este tiempo de espera, el parámetro <code>doneAction</code> se ejecuta inmediatamente. Si nota que las llamadas de seguimiento de vínculos no se completan, es posible que tenga que aumentar este tiempo de espera. </p> <p> <b>Valor predeterminado</b> </p> <p>250 </p> <p> <b>Ejemplo</b> </p> 
-    <code class="syntax javascript">s. forcedlinktrackingtimeout &amp; amp; nbsp; = &amp; amp; nbsp; 500 </code>
-  </td> 
+    <code class="syntax javascript">
+      s.forceLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink (<code>s.tl </code>) </td> 
    <td colname="col2"> <p>Rastrea los vínculos de salida, descarga y los vínculos personalizados. Proporciona un parámetro opcional para especificar una acción de navegación que se ejecutará después de que se complete la llamada de seguimiento de vínculos en exploradores WebKit. </p> <p> <b>Sintaxis</b> </p> 
-    <code class="syntax javascript">s. tl (linkobject, linktype, linkname, variableoverrides, doneaction) </code>
-  <p> <b>doneAction</b>: (opcional) especifica la acción que se efectuará cuando la llamada de seguimiento de vínculos se haya enviado o cuando se haya acabado su tiempo de espera (conforme al valor especificado por <code>s.forcedLinkTrackingTimeout </code>). <code>doneAction</code> puede ser la cadena "navegar", lo que hace que el método establezca <code>document.location</code> en el atributo <code>href</code> de <code>linkObject </code>. <code>doneAction</code> también puede ser una función que permita una mayor personalización. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>Ejemplos</b> </p> 
-    <code class="syntax javascript">&lt; a &amp; amp; nbsp; href = "…" &amp; amp; nbsp; onclick = "s. tl (this,' o ',' mylink ', null,' navigate '); return &amp; amp; nbsp; false " &gt; Click &amp; amp; nbsp; Aquí &lt;/a &gt; </code><code class="syntax javascript">
- 
- 
- &lt; a &amp; amp; nbsp; href = " #" &amp; amp; nbsp; onclick = "s. tl (this,' o ',' mylink ', null, function () {if (confirm (' Continue? '))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-    </code> </td> 
+    <code class="syntax javascript">
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b>: (opcional) especifica la acción que se efectuará cuando la llamada de seguimiento de vínculos se haya enviado o cuando se haya acabado su tiempo de espera (conforme al valor especificado por <code>s.forcedLinkTrackingTimeout </code>). <code>doneAction</code> puede ser la cadena "navegar", lo que hace que el método establezca <code>document.location</code> en el atributo <code>href</code> de <code>linkObject </code>. <code>doneAction</code> también puede ser una función que permita una mayor personalización. </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>Ejemplos</b> </p> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; </code> <code class="syntax javascript">&lt;a&amp;nbsp;href="#"&amp;nbsp;oncsp;="s.tl(this,'o','MyLink',null,function(){if(confirm('Continuar?')))document.location=..});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,7 +299,7 @@ Fecha de versión: **abril de 2012**
 
 Se recomienda esta actualización a todos los clientes.
 
-* Se ha realizado una mejora para detectar cuando una página se preprocesa usando Google Chrome Prerender ([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)). Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. [!DNL JavaScript] La biblioteca ahora espera hasta que el usuario visite el sitio antes de enviar llamadas al servidor para estas páginas preprocesadas.
+* Se ha realizado una mejora para detectar cuando una página se preprocesa usando Google Chrome Prerender ([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender)). Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages.
 * Se ha agregado la variable `timestamp`[!DNL JavaScript] a la biblioteca de para clientes que quieren personalizar la marca de fecha y hora de igual forma que se hace para otras bibliotecas de [!DNL AppMeasurement]
 
 ```js
