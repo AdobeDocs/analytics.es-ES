@@ -5,7 +5,7 @@ seo-description: Las variables dinámicas permiten copiar valores entre distinta
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: 4a6bac589d1d6d6caaf34dc5363c60bbfbb952d5
+source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 ---
 
@@ -28,9 +28,9 @@ El grupo de informes es el nivel más fundamental de segmentación en los inform
 
 En [!DNL Analytics], el cuadro desplegable del sitio en la esquina superior izquierda de los informes muestra el grupo de informes actual. Cada grupo de informes tiene un identificador único denominado ID de grupo de informes. La variable `s_account` contiene una o más ID del grupo de informes al que se envían los datos. Adobe debe proporcionar o aprobar el valor de la ID del grupo de informes, que es invisible para los usuarios de [!DNL Analytics], antes de que pueda utilizarla. Cada ID de grupo de informes tiene asociado un "nombre descriptivo" que se puede cambiar en la sección de grupos de informes de [!DNL Admin Console].
 
-The `s_account` variable is normally declared inside the JavaScript file (s_code.js). Puede declarar la `s_account` variable en la página HTML, lo cual es una práctica común cuando el valor de `s_account` puede cambiar de página en página. Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
+The `s_account` variable is normally declared inside the JavaScript file (s_code.js). You can declare the `s_account` variable on the HTML page, which is a common practice when the value of `s_account` may change from page to page. Because the `s_account` variable has a global scope, it should be declared immediately before including Adobe's JavaScript file. If `s_account` does not have a value when the JavaScript file is loaded, no data is sent to [!DNL Analytics].
 
-Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. En algunos casos, el valor de `s_account` también aparece en el dominio, antes de 112.2o7.net. El valor en la ruta es el único valor que determina el grupo de informes de destino. El texto en negritas que sigue muestra el grupo de informes al que se envían los datos, según aparecerá en el depurador. Consulte [DigitalPulse Debugger](/help/implement/impl-testing/debugger.md).
+Adobe's [!DNL DigitalPulse Debugger] displays the value of `s_account` in the path of the URL that appears just below the word "Image," just after /b/ss/. In some cases, the value of `s_account` also appears in the domain, before 112.2o7.net. El valor en la ruta es el único valor que determina el grupo de informes de destino. El texto en negritas que sigue muestra el grupo de informes al que se envían los datos, según aparecerá en el depurador. Consulte [DigitalPulse Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
