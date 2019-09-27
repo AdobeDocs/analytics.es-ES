@@ -1,19 +1,19 @@
 ---
 description: Cree un grupo que conceda derechos administrativos limitados a los usuarios del informe Canal de mercadotecnia y luego asigne usuarios a dicho grupo. Por ejemplo, puede crear un grupo que permita que los usuarios que no sean administrativos ingresen importes de costo o presupuesto.
 seo-description: Cree un grupo que conceda derechos administrativos limitados a los usuarios del informe Canal de mercadotecnia y luego asigne usuarios a dicho grupo. Por ejemplo, puede crear un grupo que permita que los usuarios que no sean administrativos ingresen importes de costo o presupuesto.
-seo-title: Concesión de derechos administrativos limitados
+seo-title: Conceder derechos administrativos limitados
 solution: Analytics
 subtopic: Canales de mercadotecnia
-title: Concesión de derechos administrativos limitados
+title: Conceder derechos administrativos limitados
 topic: Reports and Analytics
-uuid: 439 fe 486-78 d 5-4 d 58-8 b 4 f -8 b 6 a 4 b 98 b 00 d
+uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Concesión de derechos administrativos limitados
+# Conceder derechos administrativos limitados
 
 Cree un grupo que conceda derechos administrativos limitados a los usuarios del informe Canal de mercadotecnia y luego asigne usuarios a dicho grupo. Por ejemplo, puede crear un grupo que permita que los usuarios que no sean administrativos ingresen importes de costo o presupuesto.
 
@@ -21,7 +21,7 @@ Cree un grupo que conceda derechos administrativos limitados a los usuarios del 
 1. Click **[!UICONTROL Groups.]**
 1. Haga clic en un nombre de grupo personalizado o en **Agregar nuevo grupo de usuarios** para crear un grupo de usuarios.
 
-   Consulte [Administración de usuarios](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=user_management) en la *Ayuda del administrador*.
+   Consulte [Administración de usuarios](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) en la *Ayuda del administrador*.
 
 1. Under Report Access, locate Admin, then click **[!UICONTROL Customize.]**
 1. Active los **Canales** y los **[!UICONTROL Costos.]**
