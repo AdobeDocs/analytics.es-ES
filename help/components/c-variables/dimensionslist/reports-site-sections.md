@@ -4,10 +4,10 @@ seo-description: Muestra las secciones del sitio más visitadas. Las secciones d
 seo-title: Secciones del sitio
 solution: Analytics
 title: Secciones del sitio
-topic: 'Informes '
-uuid: 6839 c 566-f 88 f -4979-9 cf 5-52 a 77 c 0 b 0416
+topic: Informes
+uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Muestra las secciones del sitio más visitadas. Las secciones del sitio pueden incluir grupos de productos, similares a categorías, definidas por el usuario. Por ejemplo, puede tener un grupo de páginas Cámaras, un grupo Equipos, etc. Los datos para el informe de secciones del sitio con conversión se importan desde el informe de secciones del sitio al grupo Tráfico, el cual recibe la información desde la variable de canal en el código de seguimiento. Puede utilizar este informe para identificar el mayor impacto en las estadísticas del sitio correspondiente a los artículos de las diversas secciones del sitio.
 
-* Este informe hace referencia a los datos directamente desde la variable [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_channel) implementada en el sitio web.
+* Este informe hace referencia a los datos directamente desde la variable [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) implementada en el sitio web.
 * Este informe puede verse tanto en formato de tendencias como de clasificación.
 * Este informe puede utilizar un filtro de búsqueda para localizar artículos de línea específicos.
 * En este informe se puede utilizar la clasificación, lo que permite cambiar el nombre de los elementos de línea y consolidarlos.
 * Las correlaciones se pueden crear con cualquier otra variable de tráfico a través de las Herramientas de administración.
 * Este informe puede utilizar las métricas siguientes:
 
-   * **Vistas de página**: número de veces que la variable [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) o URL se definió (como métrica predeterminada).
+   * **Vistas de página**: número de veces que la variable [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) o URL se definió (como métrica predeterminada).
 
    * **Todas las métricas de rutas**: visitas, profundidad promedio de la página, tiempo promedio empleado en la página, entradas, salidas, recargas y acceso único.
    * En función de la configuración de su organización y del grupo de informes, en este informe se pueden activar los visitantes únicos para los períodos diario, semanal, mensual y trimestral.
@@ -59,7 +59,7 @@ Todos los eventos de conversión del [!UICONTROL informe de secciones del sitio]
        <li id="li_C6D3AD5A534243A8A6E17C663FEBA6BA">Secciones del sitio </li> 
        <li id="li_E1F46EED5CE2425D83200A2FCB686EE5">Páginas de entrada </li> 
        <li id="li_1201EE0EBF13476C9A9525E0700F30F3">La mayoría de los informes de fuentes de tráfico </li> 
-       <li id="li_563E07858FB1473BB22C2B191E8BE620">Número de visitas </li> 
+       <li id="li_563E07858FB1473BB22C2B191E8BE620">Número de visita </li> 
        <li id="li_1CAD77ABA6A2454282A4DA7E88C047E8">Muchos informes de perfil del visitante </li> 
        <li id="li_D3A04E4CD8EC4646AAB90BF19F0AFA8A">Todas las variables de conversión y las variables de lista </li> 
        <li id="li_01C194CE0F3E4C0694A34B4C6697F385">Disponibilidad de visitas, así como de visitantes únicos de período diario, semanal, mensual, trimestral y arbitrario. </li> 
@@ -67,7 +67,7 @@ Todos los eventos de conversión del [!UICONTROL informe de secciones del sitio]
     </ul> <p>Este informe puede utilizar segmentos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ad Hoc Analysis </td> 
+   <td colname="col1"> Ad Hoc Analysis  </td> 
    <td colname="col2"> 
     <ul id="ul_DFF9BFC01FC1424B8905C2D2C0EFD156"> 
      <li id="li_65FDF1C165C84F729E0EE84FF671B5E4">Los Ad Hoc Analysis pueden desglosar el informe de secciones del sitio según todos los demás informes de la interfaz de informes de marketing, básicamente. </li> 
