@@ -1,14 +1,14 @@
 ---
 description: Pasos que puede seguir como preparación para utilizar fuentes de datos
 seo-description: Pasos que puede seguir como preparación para utilizar fuentes de datos
-seo-title: Preparación para utilizar fuentes de datos
+seo-title: Preparación para el uso de fuentes de datos
 solution: Analytics
-subtopic: Fuentes de datos
-title: Preparación para utilizar fuentes de datos
+subtopic: ' Fuentes de datos'
+title: Preparación para el uso de fuentes de datos
 topic: Desarrollador e implementación
-uuid: 876 ea 069-574 b -4 e 23-93 b 7-e 3828 bfd 90 f 5
+uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -29,11 +29,11 @@ It is important to understand the metrics or measurements that are contained in 
 
 Cuando determine la correspondencia entre métricas y eventos para la fuente de datos, cambie los nombres descriptivos de los eventos para que reflejen mejor las métricas asociadas.
 
-Consulte [Eventos de éxito](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) en la ayuda de Herramientas de administración.
+Consulte [Eventos de éxito](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) en la ayuda de Herramientas de administración.
 
 >[!NOTE]
 >
->Adobe recomienda enfáticamente utilizar eventos nuevos vacíos con fuentes de datos, pero en casos excepcionales puede tener sentido utilizar un evento preexistente.
+>Adobe recomienda encarecidamente el uso de eventos nuevos y vacíos con fuentes de datos, pero en casos excepcionales puede que sea recomendable utilizar un evento preexistente.
 
 ## Identificar las dimensiones de datos {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -41,17 +41,17 @@ Los datos (informes) por los que se quieran desglosar las métricas importadas p
 
 Por ejemplo, si una métrica de fuentes de datos mide la cantidad de impresiones de anuncios, es probable que se use como dimensión de datos el código de seguimiento de la campaña. Si lo que se miden son las ventas sin conexión, tal vez se podría usar como dimensión de datos el código de producto o el SKU.
 
-Las métricas se pueden definir con varias dimensiones de datos, pero entonces deben proveer un valor o una combinación de valores pertinentes a cada dimensión de datos asociada. Por ejemplo, si importa una métrica de ventas sin conexión y la asocia con las dimensiones de datos *`Product`* y *`Partner`* las dimensiones de datos, la métrica Ventas sin conexión debe ser relevante para cada combinación de producto y socio (por ejemplo, Ingresos totales).
+Las métricas se pueden definir con varias dimensiones de datos, pero entonces deben proveer un valor o una combinación de valores pertinentes a cada dimensión de datos asociada. Por ejemplo, si importa una métrica de ventas sin conexión y la asocia con las dimensiones de datos *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
 >[!NOTE]
 >
->Es posible importar métricas totales que no se pueden desglosar por ninguna dimensión de datos.
+>It is possible to import Total metrics that cannot be broken down by any data dimension.
 
 Después de definir las dimensiones de datos que se tienen que utilizar con una fuente de datos, asigne los datos de las dimensiones a una variable para integrarlos en los informes de marketing. Utilice informes estándar (por ejemplo, producto, código de seguimiento, palabra clave de búsqueda) o variables de tráfico de conversiones (eVars).
 
 Cuando se usan eVars como dimensiones de datos, pueden ser eVars nuevas o preexistentes. Después de seleccionar una eVar para que reciba una dimensión desde la fuente de datos, no olvide ponerle un nombre adecuado.
 
-Consulte [Eventos de éxito](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=success_event) en la ayuda de Analytics.
+Consulte [Eventos de éxito](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) en la ayuda de Analytics.
 
 ## Código de seguimiento de campaña {#section_468222796FF449ABAA90D88EB3264CB1}
 
