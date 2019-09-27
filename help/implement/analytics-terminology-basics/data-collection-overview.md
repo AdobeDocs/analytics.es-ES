@@ -1,14 +1,14 @@
 ---
 description: Conozca cómo las visitas al sitio web se convierten en un informe en Adobe Analytics.
-keywords: Implementación de Analytics; recopilación de datos
+keywords: Analytics Implementation;data collection
 seo-description: Conozca cómo las visitas al sitio web se convierten en un informe en Adobe Analytics.
 seo-title: Recopilación de datos
 solution: Analytics
 title: Recopilación de datos
 topic: Desarrollador e implementación
-uuid: d 0 d 6098 d -113 e -4 cf 5-bb 89-e 435 f 7 b 6 b 1 af
+uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -61,7 +61,7 @@ Adobe ha creado varios métodos para enviar datos a Analytics. Entre estos méto
 
    >[!NOTE]
    >
-   >Cada solicitud de imagen contiene una cadena de número aleatoria para evitar el almacenamiento en caché del navegador y garantizar que el explorador realice las solicitudes de imagen siguientes.
+   >Each image request contains a random number string to prevent browser caching and ensure that subsequent image requests are made by the browser.
 
 1. Adobe devuelve una imagen en píxeles transparente.
 
@@ -69,11 +69,11 @@ Adobe ha creado varios métodos para enviar datos a Analytics. Entre estos méto
 
    El código recopila automáticamente detalles adicionales (como sistema operativo, tipo de explorador, altura y anchura del explorador, dirección IP e idioma del explorador).
 
-1. Adobe servers store web analysis data in *`report suites`* (your data repository).
+1. Los servidores de Adobe almacenan datos de análisis web en *`report suites`* (su repositorio de datos).
 
    ![](assets/how-data-is-collected-5.png)
 
-   Los [grupos de informes](https://marketing.adobe.com/resources/help/en_US/reference/?f=report_suites_admin) definen los informes completos e independientes de un sitio web concreto, de un conjunto de sitios web o de un subconjunto de páginas web.
+   Los [grupos de informes](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html) definen los informes completos e independientes de un sitio web concreto, de un conjunto de sitios web o de un subconjunto de páginas web.
 
 1. Los datos de grupos de informes rellenan los informes a los que se puede tener acceso en un explorador web.
 
@@ -90,10 +90,10 @@ Para obtener más información, consulte:
 * [Recopilación de datos](../../implement/js-implementation/data-collection/query-parameters.md)
 * [Crear un elemento de datos](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)
 * [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
+* [Ad Hoc Analysis ](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
 * [Fuentes de datos](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
 * [Data Connectors](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_genesis.html)
-* [Fuente de datos de análisis](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
+* [Fuente de datos de Analytics](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)
 
 >[!MORE_LIKE_THIS]
 >       
