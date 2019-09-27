@@ -4,9 +4,9 @@ seo-description: Permite evaluar el éxito de las campañas de Adobe Analytics d
 seo-title: Alza y confianza de Target
 solution: Analytics
 title: Alza y confianza de Target
-uuid: 00276 cd 2-2 e 0 d -4 a 25-ae 8 a-d 9 f 4 b 30 dd 8 ba
+uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]** &gt; **[!UICONTROL Ver todos los informes]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics para Target]** &gt; **[!UICONTROL Actividades]** de Target.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]** &gt; **[!UICONTROL Ver todos los informes]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics para Target]** &gt; Actividades de **** Target.
 
-La documentación de Adobe Target contiene más información sobre [Alza](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_estimating_lift_in_revenue) y [confianza](https://marketing.adobe.com/resources/help/en_US/rec/?f=c_Confidence_Level_and_Confidence_Interval).
+La documentación de Adobe Target contiene más información sobre [Alza](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) y [confianza](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html).
 
 Para calcular el alza y la confianza:
 
