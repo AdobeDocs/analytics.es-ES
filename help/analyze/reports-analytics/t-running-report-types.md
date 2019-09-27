@@ -5,9 +5,9 @@ seo-title: Ejecutar diferentes tipos de informes
 solution: Analytics
 title: Ejecutar diferentes tipos de informes
 topic: Informes,Reports and Analytics
-uuid: f 59 ab 2 a 1-e 916-46 e 8-bb 5 b-e 6361 ba 00 dda
+uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** &gt; **[!UICONTROL Campaign Conversion Funnel]**).
 
-Consulte [Informes de conversión](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion) para ver una descripción.
+Consulte [Informes de conversión](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) para ver una descripción.
 
 ## Ejecutar un informe de visitas en el orden previsto {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://m
 
 >[!MORE_LIKE_THIS]
 >
->* [Descripción del informe de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_fallout)
+>* [Descripción del informe de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
 
 
 ## Ejecutar un informe de flujo de página {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -103,7 +103,7 @@ t_reports_page_flow.xml
 
 Consulte la nueva [Visualización de flujo](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) en Analysis Workspace.
 
-Ejecute un informe de [Rutas](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_paths).
+Ejecute un informe de [Rutas](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html).
 
 For example, click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Next Page Flow]**.
 
@@ -129,7 +129,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion_funnel).
+1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
 
 ## Ejecutar un informe de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -155,11 +155,11 @@ t_anomaly_view.xml
 
 Consulte las nuevas funciones de [Detección de anomalías y Análisis de contribución](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) en Analysis Workspace.
 
-**[!UICONTROL Informes]** &gt; **[!UICONTROL Métricas del sitio]** &gt; **[!UICONTROL Detección]** de anomalías.
+**[!UICONTROL Informes]** &gt; Métricas **[!UICONTROL del]** sitio &gt; Detección **[!UICONTROL de anomalías]** .
 
 >[!NOTE]
 >
->También puede ejecutar la Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+>También puede ejecutar Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Si desea más información sobre la configuración de la detección de anomalías, consulte la [Guía de referencia](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
@@ -184,9 +184,9 @@ La detección de anomalías muestra dos tipos de gráficos: un gráfico de resum
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">Los valores de porcentaje de desvío (a la izquierda del gráfico) se calculan de la forma siguiente: 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">Si el límite superior y el valor esperado son el mismo, el porcentaje de desviación es 100 % </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">De lo contrario, el porcentaje de desviación es ((valor real - valor de límite superior)/(valor de límite superior - valor esperado)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">Si el límite inferior y el valor esperado son los mismos, el porcentaje de desviación es -100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">De lo contrario, el porcentaje de desviación es ((valor de límite inferior - valor real)/(valor esperado - valor de límite inferior)) * -100 </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">De lo contrario, el % de desviación es ((valor real - valor límite superior) / (valor límite superior - valor esperado)) * 100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">Si los límites inferiores y el valor esperado son los mismos, el porcentaje de desviación es -100 % </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">De lo contrario, el % de desviación es ((valor límite inferior - valor real) / (valor esperado - valor límite inferior)) * -100 </li> 
        </ul> </li> 
       <li id="li_5C05EF7023484CC993E96D63E842B65C">Al hacer clic en <span class="uicontrol">Mostrar segmentos</span>, aparece el carril del segmento que permite aplicar segmentos a un informe de detección de anomalías. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external"> Más información</a> sobre segmentación. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Al hacer clic en <span class="uicontrol">Editar métricas</span>, puede seleccionar y deseleccionar métricas para las cuales desea detectar anomalías. </li> 
@@ -243,7 +243,7 @@ La detección de anomalías se configura de forma independiente para cada grupo 
 
    Consulte la [guía de segmentación de Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) para obtener más información sobre cómo crear y administrar segmentos. 1. (Opcional) Marque como favorito o añada un marcador al informe.
 1. (Opcional) Cambiar la fecha de finalización del periodo de vista. La opción predeterminada es ayer.
-1. Ahora puede empezar a interpretar el informe. [Visualización de gráficos de detección de anomalías](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
+1. Ahora puede empezar a interpretar el informe. [Visualización de gráficos](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de detección de anomalías.
 
 ## Ejecutar un informe en tiempo real {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -270,7 +270,7 @@ Si desea más información sobre la configuración de informes en tiempo real, c
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Seleccionar grupo de informes</strong></td> 
-   <td class="chdesc stentry"> Muestra el grupo de informes para abarca este informe en tiempo real. Para cambiar el grupo de informes, consulte la <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=t_realtime_admin" format="http" scope="external">Configuración de informes en tiempo real </a>. </td> 
+   <td class="chdesc stentry"> Muestra el grupo de informes para abarca este informe en tiempo real. Para cambiar el grupo de informes, consulte la <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">Configuración de informes en tiempo real </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Conmutar entre informes</strong></td> 
