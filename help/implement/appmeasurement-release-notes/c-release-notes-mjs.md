@@ -8,7 +8,7 @@ title: AppMeasurement para JavaScript
 topic: Desarrollador e implementación
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -25,7 +25,7 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
 
-## Versiones 2.17.0
+## Versions 2.17.0
 
 Fecha de lanzamiento: **23 de agosto de 201**
 
@@ -72,7 +72,7 @@ Release Date: **02/22/2019**
 
 * Módulo de Gestión de público actualizado a DIL 9.1 (AN-175255)
 * Política de seguridad GTM que no permite el módulo de Activity Map. (AN-174679)
-* AppMeasurement mejorado para cumplir con la opción de desactivación cuando el servicio de identidad no está aprobado en la opción de inclusión. (AN-175259)
+* Improved AppMeasurement to honor opt-out when the Identity Service is not approved in opt-in. (AN-175259)
 
 ## Versión 2.11.0
 
@@ -279,7 +279,7 @@ Inclusión de la API de visitante 1.5.7.
 
 Fecha de versión: **19 de mayo de 2016**
 
-[!DNL JavaScript] versión 1.5.6
+[!DNL JavaScript] version 1.5.6
 
 * Inclusión de la API de visitante 1.5.6
 * Se ha solucionado la administración del rastreo de clics de los vínculos en Firefox, que no activaba el evento completo.
@@ -353,11 +353,11 @@ Fecha de versión: **21 de mayo de 2015**
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extensión de iOS</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=ios_ext" format="https" scope="external">Implementación de la extensión de iOS </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">Implementación de la extensión de iOS </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Extensión de Android Wearable</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=android_wearable" format="https" scope="external">Extensión de Android Wearable </a>. </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Extensión de Android Wearable </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -432,7 +432,7 @@ Fecha de versión: **18 de septiembre de 2014**
 
    >[!IMPORTANT]
    >
-   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_implement.html) implementation for Experience Cloud.
 
 ## Versión 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -441,7 +441,7 @@ Fecha de versión: **21 de agosto de 2014**
 * Se ha eliminado el seguimiento de los plugins del explorador (parámetro de consulta `p`) porque los plugins ya no se incluyen en los informes en la versión 15.
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 
-Se ha agregado compatibilidad con [eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=evars_events) (76 - 250) y eventos (101-1000) adicionales.
+Se ha agregado compatibilidad con [eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) (76 - 250) y eventos (101-1000) adicionales.
 
 >[!NOTE]
 >
@@ -497,7 +497,7 @@ Fecha de versión: **15 de noviembre de 2013**
 Fecha de versión: **14 de noviembre de 2013**
 
 * Se ha agregado compatibilidad con la [medición de vídeos de Heartbeat](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
-* [!DNL VisitorAPI.js] se agregó para admitir el servicio [de ID de](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)visitante.
+* [!DNL VisitorAPI.js] se agregó para admitir el servicio [de ID de](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html)visitante.
 
 ## Versión 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
@@ -541,8 +541,8 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 * Compatibilidad nativa para obtener parámetros de consulta, leer y escribir cookies y realizar un seguimiento de vínculos avanzado.
 * Pequeño y lo suficientemente rápido para su uso en sitios móviles, así como lo bastante sólido para su uso en el escritorio web completo, lo que le permitirá aprovechar una sola biblioteca en todos los entornos web.
 
-Consulte [AppMeasurement para Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=appmeasure_mjs) en la Guía de implementación de [!DNL Analytics]
+Consulte [AppMeasurement para Javascript](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html) en la Guía de implementación de [!DNL Analytics]
 
 >[!NOTE]
 >
->Algunos complementos no son compatibles con esta nueva versión. Consulte la [Compatibilidad de complementos](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support) para obtener más información.
+>Algunos complementos no son compatibles con esta nueva versión. Consulte la [Compatibilidad de complementos](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html) para obtener más información.
