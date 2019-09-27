@@ -1,14 +1,14 @@
 ---
 description: Conozca las ventajas y limitaciones de utilizar la opción Marcas de hora opcionales.
-keywords: Implementación de Analytics
+keywords: Implementación de análisis
 seo-description: Conozca las ventajas y limitaciones de utilizar la opción Marcas de hora opcionales.
-seo-title: Uso de Marcas de hora opcionales
+seo-title: Usar marcas de hora opcionales
 solution: Analytics
 title: Usar marcas de hora opcionales
 topic: Desarrollador e implementación
-uuid: 956 aaa 16-6 ffa -4 b 63-b 022-a 659 f 5143 e 00
+uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -62,7 +62,7 @@ La combinación de datos en un grupo de informes global se puede realizar de var
 
 >[!IMPORTANT]
 >
->Planifique cuidadosamente el diseño de cada conjunto de datos de componentes para que la combinación tenga sentido en un grupo de informes globales.
+>Planifique cuidadosamente el diseño de cada conjunto de datos de componente para que la combinación tenga sentido en un grupo de informes globales.
 
 ## Prácticas recomendadas para el uso de marcas de hora {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -74,7 +74,7 @@ Los siguientes son las prácticas recomendadas y algunos requisitos y limitacion
 
    ![](assets/timestamp_v_non8.png)
 
-* No se recomienda utilizar marcas de hora cuando se establece [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom). Puede producir datos desordenados.
+* No se recomienda utilizar marcas de hora cuando se establece [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html). Puede producir datos desordenados.
 
 * Las aplicaciones híbridas compuestas por una aplicación (datos sin conexión con marca de hora) que abre un explorador web (datos activos sin marca de hora) no deben utilizar marcas de hora. Produce informes inexactos acerca de la sesión.
 
