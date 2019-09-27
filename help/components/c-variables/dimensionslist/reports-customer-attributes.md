@@ -6,7 +6,7 @@ solution: Experience Cloud,Analytics
 title: Atributos del cliente
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -22,7 +22,7 @@ Si captura los datos del cliente empresarial en una base de datos de administrac
 * [Atributos del cliente e informes de métricas en Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [Preguntas más frecuentes - Atributos del cliente en Analytics](../../../components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-Consulte [Atributos del cliente](https://marketing.adobe.com/resources/help/en_US/mcloud/index.html?f=attributes) en la ayuda de Experience Cloud para obtener información sobre cómo cargar datos de atributos del cliente.
+Consulte [Atributos del cliente](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) en la ayuda de Experience Cloud para obtener información sobre cómo cargar datos de atributos del cliente.
 
 ## Atributos del cliente e informes de métricas en Analytics {#section_EF343662146B460A882D3DF772ADD86D}
 
