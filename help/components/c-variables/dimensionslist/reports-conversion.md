@@ -4,10 +4,10 @@ seo-description: Ofrece un análisis completo, preciso y detallado de la activid
 seo-title: Conversión
 solution: Analytics
 title: Conversión
-topic: 'Informes '
-uuid: 457 d 3033-6562-4 fba -8 c 2 e -0 e 7 a 9 be 44 bfd
+topic: Informes
+uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ Algunos de los informes listos para usarse contienen tanto métricas de tráfico
 
 * Los informes de [!UICONTROL conversión personalizada] se basan en eVars (variables de conversión).
 * Las variables de conversión pueden persistir más allá de la vista de página y se pueden asociar a métricas dentro de la fecha de caducidad especificada.
-* Las métricas predeterminadas de los informes son los ingresos. Para cambiar las métricas predeterminadas, consulte [Selección de métricas de informe predeterminadas](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_metrics_set_default).
+* Las métricas predeterminadas de los informes son los ingresos. Para cambiar las métricas predeterminadas, consulte [Selección de métricas de informe predeterminadas](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html).
 * Vea estos informes tanto en formatos de tendencias como de clasificación.
 * En estos informes puede utilizar clasificaciones para cambiar el nombre de los elementos de línea y consolidarlos.
 * Estos informes se pueden desglosar en lo siguiente si las subrelaciones básicas están activadas:
@@ -39,7 +39,7 @@ Algunos de los informes listos para usarse contienen tanto métricas de tráfico
    * Páginas y secciones del sitio, con todas las clasificaciones relacionadas
    * Páginas de entrada
    * Casi todos los informes de fuentes de tráfico
-   * Número de visitas
+   * Número de visita
    * Muchos informes de perfil del visitante y de tecnología
    * Todas las demás eVars
    * Canales de marketing de primer y último toque
