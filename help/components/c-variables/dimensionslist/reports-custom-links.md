@@ -4,10 +4,10 @@ seo-description: Muestra los vínculos preferidos de los visitantes al sitio. Po
 seo-title: Vínculo personalizado
 solution: Analytics
 title: Vínculo personalizado
-topic: 'Informes '
-uuid: 2 e 0 d 0175-d 5 e 4-4919-b 601-3 f 488 ef 3 e 090
+topic: Informes
+uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Muestra los vínculos preferidos de los visitantes al sitio. Por ejemplo, es probable que la página de inicio de un sitio tenga varios vínculos a la misma página. Tal vez haya dos vínculos, uno gráfico y otro de texto, que lleven a la misma página. Este informe muestra el porcentaje de visitantes que han utilizado el vínculo gráfico frente al de texto.
 
-Para poder supervisar vínculos específicos deberá modificarlos con etiquetas especiales (consulte [Seguimiento de vínculos](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=c_linktracking)).
+Para poder supervisar vínculos específicos deberá modificarlos con etiquetas especiales (consulte [Seguimiento de vínculos](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html)).
 
 Con el [!UICONTROL Informe Vínculos personalizados] se puede:
 
