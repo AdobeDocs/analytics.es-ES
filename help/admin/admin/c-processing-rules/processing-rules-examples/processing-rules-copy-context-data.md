@@ -1,19 +1,19 @@
 ---
 description: Las reglas de procesamiento se utilizan para mover valores desde variables de datos de contexto a props y eVars.
 seo-description: Las reglas de procesamiento se utilizan para mover valores desde variables de datos de contexto a props y eVars.
-seo-title: Copia de una variable de datos de contexto a una evar
+seo-title: Copiar una variable de datos de contexto en una eVar
 solution: Analytics
 subtopic: Reglas de procesamiento
-title: Copia de una variable de datos de contexto a una evar
+title: Copiar una variable de datos de contexto en una eVar
 topic: Herramientas de administración
-uuid: 1 beaec 4 c -71 e 9-49 ce-b 154-78408 cc 532 a 3
+uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Copia de una variable de datos de contexto a una evar
+# Copiar una variable de datos de contexto en una eVar
 
 Las reglas de procesamiento se utilizan para mover valores desde variables de datos de contexto a props y eVars.
 
@@ -38,4 +38,4 @@ Por ejemplo:
 
 ![](assets/set-context-data.png)
 
-Consulte [Variables de datos de contexto](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) en la ayuda de implementación.
+Consulte [Variables de datos de contexto](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) en la ayuda de implementación.
