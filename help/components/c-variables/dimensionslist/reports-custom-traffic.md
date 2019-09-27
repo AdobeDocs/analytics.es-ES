@@ -4,10 +4,10 @@ seo-description: Los informes Tráfico personalizado permiten a las organizacion
 seo-title: Tráfico personalizado
 solution: Analytics
 title: Tráfico personalizado
-topic: 'Informes '
-uuid: 627 e 8 f 34-e 8 f 7-4 f 79-919 b-f 6237 f 85685 d
+topic: Informes
+uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,8 +18,8 @@ Los informes Tráfico personalizado permiten a las organizaciones crear informes
 
 ## Propiedades de los informes Tráfico personalizado {#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
 
-* Los informes Tráfico personalizado solo se basan en las [props](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_propn) (variables de tráfico).
-* La métrica predeterminada de los informes la constituyen las vistas de página (o las instancias de la versión 15). Las vistas de página de la versión 14 y las instancias de la 15 son idénticas en el sentido de que ambas cuentan el número total de veces que se ha definido una variable. Las vistas de página de la versión 15 solo cuentan el número de solicitudes de imagen *`s.t()`* solicitudes de imagen (excluidas *`s.tl()`* solicitudes).
+* Los informes Tráfico personalizado solo se basan en las [props](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html) (variables de tráfico).
+* La métrica predeterminada de los informes la constituyen las vistas de página (o las instancias de la versión 15). Las vistas de página de la versión 14 y las instancias de la 15 son idénticas en el sentido de que ambas cuentan el número total de veces que se ha definido una variable. Las vistas de página de la versión 15 solo cuentan el número de solicitudes de imagen solicitudes de *`s.t()`* imagen (excluidas *`s.tl()`* solicitudes).
 
 * Las rutas pueden habilitarse si así lo contempla el contrato de la organización y lo solicita un usuario de asistencia técnica. Cuando se habilitan las rutas para una variable de tráfico se encuentran disponibles las métricas siguientes:
 * 
