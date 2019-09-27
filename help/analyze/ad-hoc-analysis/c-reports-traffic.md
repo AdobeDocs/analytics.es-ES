@@ -7,7 +7,7 @@ title: Informes de fuentes de tráfico
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -97,7 +97,7 @@ Por ejemplo, si un visitante llega al sitio haciendo clic en un vínculo desde e
 
 Todo dominio o dirección URL que no forme parte de esos dominios y direcciones URL definidos se consideran referentes. Por ejemplo, supongamos que la página web A y la página web B se agregan al filtro de URL interno, pero la página web C no. En este caso, la página web C se considera referente.
 
-Consulte [Filtros de URL internos](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin) en la ayuda de [!DNL Admin Console] para obtener más información.
+Consulte [Filtros de URL internos](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) en la ayuda de [!DNL Admin Console] para obtener más información.
 
 >[!NOTE]
 >
