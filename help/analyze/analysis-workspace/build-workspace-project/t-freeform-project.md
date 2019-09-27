@@ -2,28 +2,28 @@
 description: Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel de forma libre.
 keywords: Analysis Workspace
 seo-description: Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel de forma libre.
-seo-title: Creación de un proyecto de espacio de trabajo
+seo-title: Creación de un proyecto de Workspace
 solution: Analytics
-title: Creación de un proyecto de espacio de trabajo
+title: Creación de un proyecto de Workspace
 topic: Reports and Analytics
-uuid: c 1 def 77 a-a 76 e -4699-9 feb -1 ede 5 b 70 b 7 ba
+uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Creación de un proyecto de espacio de trabajo
+# Creación de un proyecto de Workspace
 
 Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel de forma libre.
 
-Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz de Analysis Workspace y verá cómo se crea un proyecto. For specific use cases, see [Use Cases for Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
+Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz de Analysis Workspace y verá cómo se crea un proyecto. Para casos de uso específicos, consulte Casos [de uso de Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
 
 ## Crear un proyecto
 
 1. Especifique el permiso del usuario para crear y depurar proyectos.
 
-   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **Acceso a todos los informes[!UICONTROL .]** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)).
+   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **Acceso a todos los informes[!UICONTROL .]** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
 
@@ -53,7 +53,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
    >[!NOTE]
    >
-   >A veces, aparece un mensaje «Grupo de informes incompatible» al cargar un proyecto (o cambiar a un grupo de informes) donde no todos los componentes (métricas/dimensiones) incluidos en el proyecto se incluyen en el grupo de informes. Se puede ver una lista de los componentes que no son compatibles. De este modo, podrá saber por qué aparece el mensaje.
+   >Sometimes, an "Incompatible Report Suite" message shows up when loading a project (or switching to a report suite) where not all of the components (metrics/dimensions) included in the project are included in the report suite. Se puede ver una lista de los componentes que no son compatibles. De este modo, podrá saber por qué aparece el mensaje.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -88,11 +88,11 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
    >[!NOTE]
    >
-   >Después de copiar/guardar como, los intravínculos ahora son relativos al proyecto en el que residen, no al proyecto original desde el que se copiaron.
+   >Después de copiar/guardar como, los intravínculos ahora son relativos al proyecto en el que viven, no al proyecto original del que se copiaron.
 
 ## Añadir componentes y visualizaciones {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. Build your project by dragging *`components`* and *`visualizations`* to the project.
+1. Cree el proyecto arrastrándolo *`components`* y *`visualizations`* hasta él.
 
    **Componentes**
 
@@ -112,11 +112,11 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
   </tr> 
   <tr> 
    <td colname="col1"> Métricas (verde) </td> 
-   <td colname="col2"> <p>Se aplican en el nivel de proyecto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Ocurrencias</span> es la métrica predeterminada para la tabla de datos. </p> </td> 
+   <td colname="col2"> <p>Se aplican en el nivel de proyecto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Occurrences</span> is the default metric for the data table. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Se pueden arrastrar solamente en el nivel de panel, pero puede crear segmentos en línea en la tabla de datos. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Use Cases for Analysis Workspace</a> for more information. </p> </td> 
+   <td colname="col2"> <p>Se pueden arrastrar solamente en el nivel de panel, pero puede crear segmentos en línea en la tabla de datos. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Casos de uso de Analysis Workspace</a> para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de fechas y granularidades (violeta) </td> 
@@ -175,7 +175,7 @@ El menú del botón secundario le permite realizar las siguientes acciones, seg�
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">Dimensiones </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">Métricas </li> 
      <li id="li_0405D339CD01405DB508A7D8D1A976B4">Segmentos </li> 
-     <li id="li_819CE81C552F49BB9C1B83ED3B42C5F7">Hora </li> 
+     <li id="li_819CE81C552F49BB9C1B83ED3B42C5F7">Fecha </li> 
     </ul> </td> 
    <td colname="col2"> </td> 
   </tr> 
