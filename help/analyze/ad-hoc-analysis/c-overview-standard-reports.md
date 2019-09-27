@@ -1,22 +1,22 @@
 ---
 description: Los informes estándar presentan datos de la actividad del sitio web y de los visitantes, patrones de tráfico, datos de los sitios referentes, campañas de publicidad, retención de visitantes, datos de productos, etc. Se pueden ejecutar informes y luego acceder a herramientas para configurar segmentos, métricas y comparaciones de informes.
 seo-description: Los informes estándar presentan datos de la actividad del sitio web y de los visitantes, patrones de tráfico, datos de los sitios referentes, campañas de publicidad, retención de visitantes, datos de productos, etc. Se pueden ejecutar informes y luego acceder a herramientas para configurar segmentos, métricas y comparaciones de informes.
-seo-title: Información general de informes
+seo-title: Resumen de los informes
 solution: Analytics
-title: Información general de informes
+title: Resumen de los informes
 topic: Ad Hoc Analysis
-uuid: 36722 dcd -5 dc 9-4047-8 a 17-16 de 876193 bf
+uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Información general de informes
+# Resumen de los informes
 
 Los informes estándar presentan datos de la actividad del sitio web y de los visitantes, patrones de tráfico, datos de los sitios referentes, campañas de publicidad, retención de visitantes, datos de productos, etc. Se pueden ejecutar informes y luego acceder a herramientas para configurar segmentos, métricas y comparaciones de informes.
 
-## Reports overview {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
+## Resumen de los informes {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
 
 Los informes estándar presentan datos de la actividad del sitio web y de los visitantes, patrones de tráfico, datos de los sitios referentes, campañas de publicidad, retención de visitantes, datos de productos, etc. Se pueden ejecutar informes y luego acceder a herramientas para configurar segmentos, métricas y comparaciones de informes.
 
@@ -61,7 +61,7 @@ c_reports_campaigns.xml
 
  -->
 
-Estos informes normalmente se personalizan y son por tanto distintos para cada analista. Consulte [Administrador de campaña](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=campaign_manager_admin) en la ayuda de [!DNL Admin Console] para obtener más información.
+Estos informes normalmente se personalizan y son por tanto distintos para cada analista. Consulte [Administrador de campaña](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) en la ayuda de [!DNL Admin Console] para obtener más información.
 
 ## Cálculos estadísticos {#concept_83FF70DB7895435E985699FE9012D585}
 
