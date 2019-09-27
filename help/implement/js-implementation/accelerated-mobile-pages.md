@@ -1,14 +1,14 @@
 ---
 description: Implemente el proyecto Accelerated Mobile Pages (AMP) en Adobe Analytics.
-keywords: Implementación de Analytics; amp; amp-analytics; adobeanalytics template; adobeanalytics_ nativeconfig, plantillarastreo de clics; inflación de visitantes; servicio de ID
+keywords: Implementación de Analytics;amp;amp-analytics;plantilla adobeanalytics;plantilla adobeanalytics_nativeConfig;rastreo de clics;inflación de visitantes;servicio de ID
 seo-description: Implemente el proyecto Accelerated Mobile Pages (AMP) en Adobe Analytics.
 seo-title: Accelerated Mobile Pages
 solution: Analytics
 title: Accelerated Mobile Pages
 topic: Desarrollador e implementación
-uuid: c 86 e 4 a 80-7191-4 ee 7-ab 20-787730026 c 4 b
+uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -23,7 +23,7 @@ AMP es un [proyecto de código abierto](https://www.ampproject.org/) que le perm
 * [Uso de la etiqueta amp-analytics con la plantilla “adobeanalytics”](../../implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
 * [Uso de la etiqueta amp-analytics con la plantilla “adobeanalytics_nativeConfig”](../../implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
 * [Resumen](../../implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
-* [Preguntas más frecuentes](../../implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
+* [Preguntas frecuentes](../../implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
 
 **Documentación y ejemplos adicionales**
 
@@ -38,7 +38,7 @@ Además, para reducir considerablemente el tamaño de la página y para acelerar
 
 Para solucionar estos problemas, Adobe ha colaborado con socios y editores de AMP en dos opciones que un editor puede elegir para adaptarse de la mejor manera a sus necesidades comerciales, ambas con la etiqueta `amp-analytics`. The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. La siguiente tabla nos proporciona una idea de las ventajas y desventajas de cada método.
 
-|  | **Plantilla “adobeanalytics”** | ** adobeanalytics_ nativeconfig "template** |
+|  | **Plantilla “adobeanalytics”** | ** Plantilla "adobeanalytics_nativeConfig"** |
 |---|---|---|
 | Recuentos de visitante/visita (en grupo de informes existente) | Alta inflación | Mínima inflación |
 | Uso de un grupo de informes separado | Recomendado | No necesario |
@@ -52,7 +52,7 @@ Para solucionar estos problemas, Adobe ha colaborado con socios y editores de AM
 
 The `"adobeanalytics"`tracking template utilizes the `amp-analytics` tag to construct a tracking request directly. Using the `"adobeanalytics"` template in the `amp-analytics` tag, you can specify hit requests that fire on specific page events, like the page becoming visible or on a click (and in the future, video views and more). Es posible personalizar los eventos de clic para aplicar a ciertos ID de elemento o ciertas clases al especificar un selector. Adobe has made this easy to set up using the `"adobeanalytics"` template specifically designed for [!DNL Adobe Analytics]. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
 
-En el siguiente código de ejemplo, existen dos activadores definidos: `pageLoad` y `click`. `pageLoad` El activador se activará cuando el documento se vuelva visible e incluirá la `pageName` variable tal como se define en `vars section`la. El segundo activador `click` se activará al hacer clic en un botón. `eVar 1` se establecerá para este evento con el valor `button clicked`.
+En el siguiente código de ejemplo, existen dos activadores definidos: `pageLoad` y `click`. The `pageLoad` trigger will fire when the document becomes visible and will include the `pageName` variable as defined in the `vars section`. El segundo activador `click` se activará al hacer clic en un botón. `eVar 1` se configurará para este evento con el valor `button clicked`.
 
 ```
   <amp-analytics type="adobeanalytics"> 
@@ -89,7 +89,7 @@ En el activador `click`, se puede especificar un selector para garantizar que, c
 
 Además, `amp-analytics` admite una cantidad de sustituciones de variables de modo que AMP pueda proporcionar valores de datos que tiene en cuenta. Para conocer todo acerca de estas posibilidades y más también, puede visitar: [documentación de variables de amp-analytics](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md).
 
-Tenga en cuenta que, si desea incorporar tecnología o variables DOM (como browser, screen size, device, referrer, etc.), tendrá que agregarlas explícitamente a cualquier solicitud, ya que no se generan automáticamente para el usuario. [Aquí](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=query_parameters) podrá encontrar la documentación de cada uno de nuestros parámetros de cadena de consulta disponibles que se usan para seguimiento.
+Tenga en cuenta que, si desea incorporar tecnología o variables DOM (como browser, screen size, device, referrer, etc.), tendrá que agregarlas explícitamente a cualquier solicitud, ya que no se generan automáticamente para el usuario. [Aquí](https://marketing.adobe.com/resources/help/en_US/sc/implement/query_parameters.html) podrá encontrar la documentación de cada uno de nuestros parámetros de cadena de consulta disponibles que se usan para seguimiento.
 
 Si inspecciona las vistas creadas por amp-analytics, verá que en cada solicitud Adobe ha incluido el parámetro de consulta `vid`. Establecemos `vid` de acuerdo con una función AMP integrada para establecer un ID de cookie de Analytics personalizado con el nombre `adobe_amp_id`. Este ID es independiente de los demás ID establecidos por [!DNL Adobe Analytics] en cualquier otra parte (por ejemplo, `s_vi cookie`) y crea nuevos visitantes en cualquier de grupo de informes al que se envían las visitas.
 
@@ -211,7 +211,7 @@ Si tiene preguntas o problemas, comuníquese con el Consultor o el servicio de a
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿Qué es el servicio de <span class="keyword">Experience Cloud ID</span>? ¿Lo necesito? </p> </td> 
-   <td colname="col2"> <p>The <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service </a> (formerly <span class="term"> visitor ID service </span>) enables <span class="keyword"> Experience Cloud </span> core services and allows integrations between different Adobe <span class="keyword"> Experience Cloud </span> solutions. Si tiene integraciones con <span class="keyword">Adobe Audience Manager</span> o <span class="keyword">Adobe Target</span>, posiblemente esté usando este servicio. Este servicio también es la base de muchas funciones de <span class="keyword">Adobe Analytics</span> que vendrán. Si necesita soporte de servicio de ID o lo necesitará más adelante, recomendamos usar la solución <code>iframeMessage</code>. </p> </td> 
+   <td colname="col2"> <p>El servicio de <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> identidad </a> (anteriormente <span class="term"> servicio de ID de visitante </span>) habilita <span class="keyword"> los servicios principales de Experience Cloud </span> y permite integraciones entre diferentes soluciones de Adobe <span class="keyword"> Experience Cloud </span> . Si tiene integraciones con <span class="keyword">Adobe Audience Manager</span> o <span class="keyword">Adobe Target</span>, posiblemente esté usando este servicio. Este servicio también es la base de muchas funciones de <span class="keyword">Adobe Analytics</span> que vendrán. Si necesita soporte de servicio de ID o lo necesitará más adelante, recomendamos usar la solución <code>iframeMessage</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Para la plantilla <code>“adobeanalytics_nativeConfig”</code>, ¿dónde debería alojar mi página de utilidad? </p> </td> 
