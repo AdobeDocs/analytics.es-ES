@@ -3,9 +3,9 @@ description: Las métricas constituyen información cuantitativa sobre la activi
 seo-description: Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio empleado, fechas, unidades, pedidos, ingresos, etc. Las métricas y los datos asociados se exhiben en las columnas de los informes.
 seo-title: Métricas
 title: Métricas
-uuid: ab 9 d 8 a 45-0297-4757-b 0 f 0-d 8 b 0 e 0 db 8 d 67
+uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ Las métricas estándar incluyen:
 * **Conversión**: muestran datos sobre los eventos de éxito en el sitio web. Los eventos de éxito pueden incluir compras, descargas o cualquier otra acción que desee que realicen los usuarios en su sitio web.
 * **Calculadas**: métricas personalizables creadas mediante la combinación de otras métricas. Por ejemplo: puede crear una métrica que para obtener los ingresos netos reste de los ingresos el coste de la palabra clave y el coste de las mercancías. Luego dicho valor se puede dividir por el número total de pedidos para obtener los ingresos netos promedio por pedido.
 
-Consulte las [Definiciones de métricas](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics) en la *Referencia de análisis* para obtener información sobre cómo se usan las métricas en [!DNL Experience Cloud].
+Consulte las [Definiciones de métricas](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) en la *Referencia de análisis* para obtener información sobre cómo se usan las métricas en [!DNL Experience Cloud].
 
 Permite usar la herramienta [!UICONTROL Organizar métricas] para crear nuevas carpetas para las métricas y, a continuación, agrupar métricas de cualquier manera. El organizador permite copiar métricas existentes en las carpetas personalizadas con la función de arrastrar y soltar.
 
@@ -50,7 +50,7 @@ t_organize_metrics.xml
 
    >[!NOTE]
    >
-   >Al eliminar una carpeta, todas las métricas de la carpeta se eliminan del proyecto seleccionado.
+   >Al eliminar una carpeta, todas las métricas de la carpeta se eliminan del proyecto seleccionado actualmente.
 
 ## Adición de métricas a un informe {#task_747DD1718B3F4776B83A115D0BE8754C}
 
