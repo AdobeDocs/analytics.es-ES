@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canales de mercadotecnia
 title: Configuración del acceso de grupos de usuarios
 topic: Reports and Analytics
-uuid: b 85661 af -5 e 33-4 a 92-a 756-3589 afb 2 f 457
+uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,7 +20,7 @@ Configure el acceso del grupo de usuarios a los canales de mercadotecnia.
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Groups]** from the [!UICONTROL User Management] home page.
 
-   Consulte [Administración de usuarios](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=user_management) en la *Ayuda del administrador*.
+   Consulte [Administración de usuarios](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) en la *Ayuda del administrador*.
 
 1. Haga clic en un nombre de grupo personalizado o en **Agregar nuevo grupo de usuarios** para crear un grupo de usuarios.
 1. En Acceso a informes, habilite **Todos los accesos** o **[!UICONTROL Ningún acceso]**.
