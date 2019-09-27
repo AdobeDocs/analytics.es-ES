@@ -1,19 +1,19 @@
 ---
 description: Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
 seo-description: Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
-seo-title: Clasificaciones en los canales de mercadotecnia
+seo-title: Clasificaciones en los canales de marketing
 solution: Analytics
 subtopic: Canales de mercadotecnia
-title: Clasificaciones en los canales de mercadotecnia
+title: Clasificaciones en los canales de marketing
 topic: Reports and Analytics
-uuid: 8 b 31 cff 5-36 a 6-4072-b 0 f 9-f 932 dc 890 a 87
+uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Clasificaciones en los canales de mercadotecnia
+# Clasificaciones en los canales de marketing
 
 Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
 
@@ -25,11 +25,11 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 
 >[!NOTE]
 >
->Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) in Analytics Reference help.
+>Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
 
 >[!IMPORTANT]
 >
->Los informes de clasificación de canales de mercadotecnia se comportan un poco diferente de las clasificaciones estándar: Cuando crea clasificaciones para informes de primer toque o de último toque, se aplican automáticamente a ambos. No puede clasificar una sin clasificar la otra.
+>Los informes de clasificación de canales de mercadotecnia se comportan de manera un poco diferente que las clasificaciones estándar: al crear clasificaciones para informes de primer toque o de último toque, se aplican automáticamente a ambos. No se puede clasificar una sin clasificar la otra.
 
 ## Clasificaciones de canal de mercadotecnia: definiciones {#section_38D2F8BBA47D444780B65BD84156532D}
 
