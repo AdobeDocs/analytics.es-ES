@@ -5,9 +5,9 @@ seo-title: Desgloses
 solution: Analytics
 title: Desgloses
 topic: Reports and Analytics
-uuid: a 49 fa 18 b-f 518-4 d 1 a-a 4 db -793451 b 427 cc
+uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ Utilice desgloses cuando quiera obtener más información sobre la relación que
 
 Un ejemplo sería el desglose de un informe de tráfico personalizado llamado “Grupo de edad”, en el que ha recopilado las edades de los visitantes del sitio a partir de la información de una encuesta. Este informe permite ver qué grupo de edad es responsable de la mayor cantidad de tráfico en el sitio. Sin embargo, si se ha tomado la molestia de capturar información como la edad de un visitante, es posible que desee saber más que solo las vistas a las páginas. En dicho caso, puede generar un informe de desglose sobre los motores de búsqueda y las palabras clave que utilizan o su ubicación geográfica. Está correlacionando el grupo de edad y el motor de búsqueda.
 
-Si desglosa un informe por *`Referrer Type`*, es posible que vea un punto de datos para *`Inside Your Site`*. Este valor indica una página de referente que se encuentra en la lista de filtros URL internos. Consulte [Filtros URL internos](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter) en la referencia del administrador.
+Si desglosa un informe por *`Referrer Type`*, es posible que vea un punto de datos para *`Inside Your Site`*. Este valor indica una página de referente que se encuentra en la lista de filtros URL internos. Consulte [Filtros URL internos](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter.html) en la referencia del administrador.
 
 Puede desglosar cualquier variable de Analytics (eVar o propiedad) mediante cualquier otra variable. El menú **[!UICONTROL Desglosar por]de la tabla de informes es igual que el menú estándar de informes de Analytics, para mantener la coherencia.**
 
