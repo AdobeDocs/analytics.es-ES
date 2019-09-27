@@ -6,9 +6,9 @@ seo-title: Implementación de exclusiones de Adobe
 solution: Analytics
 title: Implementación de exclusiones de Adobe
 topic: Desarrollador e implementación
-uuid: fc 3 a 411 c -8476-409 d -99 de -05 b 34 ace 5019
+uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -34,7 +34,7 @@ Los visitantes pueden obtener más información sobre el uso que Adobe suele rea
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* Si implementa productos de Adobe Analytics con su propia cookie de origen, debe [desarrollar su propio vínculo de no participación personalizado](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) para los visitantes del sitio web.
-* Los clientes tienen la opción de habilitar la exclusión utilizando la configuración de cookies del explorador. Consulte [Habilitar la configuración de privacidad para las cookies de explorador](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings).
+* If you implement Adobe Analytics products with your own first-party cookie, you need to develop your own customized opt-out link for your website visitors.[](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9)
+* Los clientes tienen la opción de habilitar la exclusión utilizando la configuración de cookies del explorador. Consulte [Habilitar la configuración de privacidad para las cookies de explorador](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html).
 
 Independientemente del mecanismo de exclusión que elija, Adobe recomienda describir claramente la disponibilidad de este en la política de privacidad o por cualquier otro medio determinado por la legislación o recomendado por las prácticas recomendadas actualas.
