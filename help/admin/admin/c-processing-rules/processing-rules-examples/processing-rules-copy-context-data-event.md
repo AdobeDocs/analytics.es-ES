@@ -1,19 +1,19 @@
 ---
 description: Las reglas de procesamiento pueden activar eventos basados en variables de datos de contexto.
 seo-description: Las reglas de procesamiento pueden activar eventos basados en variables de datos de contexto.
-seo-title: Configurar un evento usando una variable de datos de contexto
+seo-title: Definir un evento con una variable de datos de contexto
 solution: Analytics
 subtopic: Reglas de procesamiento
-title: Configurar un evento usando una variable de datos de contexto
+title: Definir un evento con una variable de datos de contexto
 topic: Herramientas de administración
-uuid: 4 a 6018 eb -03 e 2-4 ec 8-874 b-e 48 bf 716 e 103
+uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Configurar un evento usando una variable de datos de contexto
+# Definir un evento con una variable de datos de contexto
 
 Las reglas de procesamiento pueden activar eventos basados en variables de datos de contexto.
 
@@ -27,7 +27,7 @@ La lista de [!UICONTROL variables de contexto] incluye todas las variables que s
 
 ![](assets/add-context-variable.png)
 
-The following rule definition expands on the [Copy a Context Data Variable to an eVar](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) rule to also set an event on every hit that contains a specific context data variable:
+La siguiente definición de regla se expande en la regla [Copiar una variable de datos de contexto a una regla eVar](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) para establecer también un evento en cada visita que contenga una variable de datos de contexto específica:
 
 | Conjunto de reglas | Valor |
 |---|---|
@@ -38,4 +38,4 @@ Por ejemplo:
 
 ![](assets/processing_rule_set_event.png)
 
-Consulte [Variables de datos de contexto](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables) en la ayuda de implementación.
+Consulte [Variables de datos de contexto](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) en la ayuda de implementación.
