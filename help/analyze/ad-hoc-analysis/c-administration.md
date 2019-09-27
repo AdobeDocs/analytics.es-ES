@@ -2,10 +2,10 @@
 description: Configuración de usuarios e información acerca del muestreo de datos.
 seo-description: Configuración de usuarios e información acerca del muestreo de datos.
 seo-title: Administración
-title: Administration
-uuid: 12 f 90223-139 f -4 a 8 d-bfd 3-5 cd 9 af 7489 d 2
+title: Administración
+uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 99078f95e45821bcee5017b4d480006c85f1c9e4
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -38,7 +38,7 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
+1. Inicie sesión en el [!DNL Experience Cloud].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
@@ -154,6 +154,6 @@ Así que para mantener la cantidad de visitas de la fracción de 365 días por d
 
 >[!MORE_LIKE_THIS]
 >
->* [Usuarios](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=users)
->* [Grupos](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=groups)
+>* [Usuarios](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
+>* [Grupos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
 
