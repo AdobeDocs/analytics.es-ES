@@ -1,18 +1,18 @@
 ---
 description: Muestra dónde los visitantes abandonan una secuencia preestablecida de páginas o la continúan. y señala las tasas de conversión y de abandono a lo largo de cada paso de la secuencia. Por ejemplo, se puede hacer un seguimiento de dónde los visitantes abandonan la secuencia prevista a lo largo del proceso de compra. Para ello se selecciona un punto inicial y un punto de conclusión y se agregan puntos intermedios para crear una ruta de navegación del sitio web.
 seo-description: Muestra dónde los visitantes abandonan una secuencia preestablecida de páginas o la continúan. y señala las tasas de conversión y de abandono a lo largo de cada paso de la secuencia. Por ejemplo, se puede hacer un seguimiento de dónde los visitantes abandonan la secuencia prevista a lo largo del proceso de compra. Para ello se selecciona un punto inicial y un punto de conclusión y se agregan puntos intermedios para crear una ruta de navegación del sitio web.
-seo-title: Visitas en el orden previsto
+seo-title: Abandono
 solution: Analytics
-title: Visitas en el orden previsto
-topic: 'Informes '
-uuid: 2385834 e-a 1 b 1-4 ac 5-9530-3 afde 6 d 02 d 3 d
+title: Abandono
+topic: Informes
+uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Visitas en el orden previsto
+# Abandono
 
 Muestra dónde los visitantes abandonan una secuencia preestablecida de páginas o la continúan. y señala las tasas de conversión y de abandono a lo largo de cada paso de la secuencia. Por ejemplo, se puede hacer un seguimiento de dónde los visitantes abandonan la secuencia prevista a lo largo del proceso de compra. Para ello se selecciona un punto inicial y un punto de conclusión y se agregan puntos intermedios para crear una ruta de navegación del sitio web.
 
@@ -28,10 +28,10 @@ Consulte [Recorrido del cliente: visitas en el orden previsto](https://marketing
 
 ** Reports and Analytics **
 
-Consulte [Ejecución de un informe de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_reports_fallout), en la Ayuda, para obtener información sobre la configuración.
+Consulte [Ejecución de un informe de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html), en la Ayuda, para obtener información sobre la configuración.
 
 ** Ad Hoc Analysis **
 
 Los datos de visitas en el orden previsto se pueden analizar en el nivel de la visita o del visitante. También se pueden ver una ruta de tendencia, que muestra un gráfico de la tasa de abandono de la secuencia prevista a lo largo de un período indicado. Se pueden configurar páginas aisladas o grupos de páginas como puntos de comprobación del informe, o agregar cualquier dimensión o métrica, en cualquier combinación o secuencia. También se pueden utilizar como puntos de comprobación en el informe categorías configuradas en los informes de marketing.
 
-Consulte [Informe de visita en el orden previsto](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_reports_fallout) en la Ayuda para obtener información sobre la configuración.
+Consulte [Informe de visita en el orden previsto](https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_fallout.html) en la Ayuda para obtener información sobre la configuración.
