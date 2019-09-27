@@ -4,10 +4,10 @@ seo-description: Descargas de archivos ayuda a conocer la frecuencia con la que 
 seo-title: Descargas de archivos
 solution: Analytics
 title: Descargas de archivos
-topic: 'Informes '
-uuid: 897 fc 221-aa 30-4 eac-aca 6-bccb 76 adaf 71
+topic: Informes
+uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,7 +18,7 @@ Descargas de archivos ayuda a conocer la frecuencia con la que los visitantes de
 
 **Navegación**
 
-**[!UICONTROL Informes]** &gt; **[!UICONTROL Contenido del sitio]** &gt; **[!UICONTROL Vínculos]** &gt; **[!UICONTROL Descargas de archivos]**
+**[!UICONTROL Informes]** &gt; Contenido **[!UICONTROL del]** sitio &gt; **[!UICONTROL Vínculos]** &gt; Descargas **[!UICONTROL de archivos]**
 
 Si este informe no está disponible en la ubicación predeterminada, consulte a sus administradores, que pueden haber cambiado la estructura de menú predeterminada para atender mejor a las necesidades específicas de la organización.
 
@@ -34,10 +34,10 @@ Utilice este informe para:
 
 Los informes de marketing capturan información sobre los archivos descargados desde cualquier página del sitio que contenga código JavaScript. Sin embargo, es necesario que ciertas variables estén presentes y configuradas correctamente para que la información de descarga de archivos se pueda recoger en informes. Si este informe no muestra datos o no contiene los valores esperados, siga los pasos siguientes para validar su implementación.
 
-1. En el sitio, busque el archivo de JavaScript global. Normalmente se denomina [!DNL s_code.js], pero es posible que se le haya cambiado el nombre. If it has been renamed, you can search the JavaScript files on your site for the value *`s.account`*, which is a part of the JavaScript code.
+1. En el sitio, busque el archivo de JavaScript global. Normalmente se denomina [!DNL s_code.js], pero es posible que se le haya cambiado el nombre. Si se le ha cambiado el nombre, puede buscar en los archivos JavaScript de su sitio el valor *`s.account`*, que forma parte del código JavaScript.
 
-1. En el archivo, localice la variable [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_trackdownllinks). Asegúrese de que esté configurada en *true*.
+1. En el archivo, localice la variable [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html). Asegúrese de que esté configurada en *true*.
 
-1. Localice la variable [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linkdownfiletypes). Asegúrese de que todas las extensiones de archivo deseadas estén presentes en la lista. If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
+1. Localice la variable [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html). Asegúrese de que todas las extensiones de archivo deseadas estén presentes en la lista. If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
 
 Si las variables parecen estar correctamente configuradas, pero el [!UICONTROL informe de descargas de archivos] continúa sin recibir datos, los usuarios de asistencia técnica de la organización deben ponerse en contacto con el Servicio de atención al cliente.
