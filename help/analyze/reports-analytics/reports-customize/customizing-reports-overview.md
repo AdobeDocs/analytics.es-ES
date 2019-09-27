@@ -1,18 +1,18 @@
 ---
 description: Después de ejecutar un informe, puede personalizarlo para ver y analizar los datos según sus necesidades. Puede filtrar los datos de informe, cambiar la forma en que se presentan los datos gráficamente, cambiar la granularidad de la fecha, etc.
 seo-description: Después de ejecutar un informe, puede personalizarlo para ver y analizar los datos según sus necesidades. Puede filtrar los datos de informe, cambiar la forma en que se presentan los datos gráficamente, cambiar la granularidad de la fecha, etc.
-seo-title: Descripción general de los informes personalizados
+seo-title: Resumen de los informes personalizados
 solution: Analytics
-title: Descripción general de los informes personalizados
+title: Resumen de los informes personalizados
 topic: Reports and Analytics
-uuid: 37 d 221 b 7-50 fd -4425-b 2 ba-f 40911 b 72 a 2 f
+uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Descripción general de los informes personalizados
+# Resumen de los informes personalizados
 
 Después de ejecutar un informe, puede personalizarlo para ver y analizar los datos según sus necesidades. Puede filtrar los datos de informe, cambiar la forma en que se presentan los datos gráficamente, cambiar la granularidad de la fecha, etc.
 
@@ -38,7 +38,7 @@ Solo los administradores pueden crear un informe personalizado. Cuando crea un i
 
 >[!MORE_LIKE_THIS]
 >
->* [Personalización de menús](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [Personalización de menús](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
 
 ## Seleccionar una fecha o un intervalo de fecha {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -159,7 +159,7 @@ t_reports_compare_suites.xml
 Además de la representación gráfica, la tabla del informe proporciona una comparación porcentual. Los siguientes informes se pueden ejecutar con comparaciones:
 
 * Contenido del sitio
-* Dispositivos portátiles
+* Mobile
 * Fuentes de tráfico
 * Campañas
 * Productos
