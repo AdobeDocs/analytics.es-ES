@@ -5,9 +5,9 @@ seo-title: Informes en tiempo real
 solution: Analytics
 title: Informes en tiempo real
 topic: Creador de informes
-uuid: eb 39 b 4 a 5-fb 6 f -476 d -9383-e 5323 afcc 51 d
+uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -25,9 +25,9 @@ Puede hacer lo siguiente:
 * Utilice cualquier evento personalizado, evento del carro de comparas o instancia.
 * Vea hasta 20 horas de datos en tiempo real históricos.
 
-Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no dispone de os derechos para ver los ingresos, no podrá ver el informe en tiempo real que incluye los datos de ingresos. No compatible con eVars (métricas de conversión). Los permisos en tiempo real se activan en [Herramientas de administración](https://marketing.adobe.com/resources/help/en_US/reference/?f=RealTime_Reports_Configuration).
+Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no dispone de os derechos para ver los ingresos, no podrá ver el informe en tiempo real que incluye los datos de ingresos. No compatible con eVars (métricas de conversión). Los permisos en tiempo real se activan en [Herramientas de administración](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html).
 
 >[!NOTE]
 >
->[!UICONTROL Los informes] en tiempo real no son lo mismo que [la función Incluir datos](https://marketing.adobe.com/resources/help/en_US/arb/?f=options) actuales (creación de datos) lanzada anteriormente, que ha reducido la latencia de los informes estándar, mostrando los datos antes de finalizarlos.
+>[!UICONTROL Los informes] en tiempo real no son lo mismo que la función [Incluir datos](https://marketing.adobe.com/resources/help/en_US/arb/options.html) actuales (Creación de los datos) lanzada anteriormente, que reducía la latencia de los informes estándar, al mostrar los datos antes de que finalizara.
 
