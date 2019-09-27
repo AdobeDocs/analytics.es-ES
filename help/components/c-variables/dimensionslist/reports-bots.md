@@ -4,10 +4,10 @@ seo-description: Muestra las arañas y los bots que han visitado el sitio durant
 seo-title: Bots
 solution: Analytics
 title: Bots
-topic: 'Informes '
-uuid: 9909 ce 3 b -41 a 4-4 ce 8-afe 9-02 cb 46 f 34 d 64 d
+topic: Informes
+uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,5 +20,5 @@ Los bots se filtran en función del agente de usuario o de la dirección IP. Par
 
 >[!MORE_LIKE_THIS]
 >
->* [Reglas de Bot](https://marketing.adobe.com/resources/help/en_US/admin/index.html?f=c_bot_rules)
+>* [Reglas de bots](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)
 
