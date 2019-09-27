@@ -5,9 +5,9 @@ seo-title: Marcas de hora opcionales
 solution: Analytics
 title: Marcas de hora opcionales
 topic: Herramientas de administración
-uuid: 0 fa 63658-1 cc 2-4 adc -8 d 51-a 0662 d 0 aa 941
+uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -26,11 +26,11 @@ Consulte [Uso de marcas de hora opcionales](/help/implement/js-implementation/ti
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) on data that is already timestamped. Esto puede generar datos confusos y afectar de forma negativa a los cálculos de hora (como por ejemplo los valores de tiempo empleado), atribución (persistencia de eVar), número de visitas/recuentos de visitas y informes de rutas.
+>If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. Esto puede generar datos confusos y afectar de forma negativa a los cálculos de hora (como por ejemplo los valores de tiempo empleado), atribución (persistencia de eVar), número de visitas/recuentos de visitas y informes de rutas.
 
 >[!NOTE]
 >
->Los datos de sesión con marca de tiempo habilitada se conservan por un período máximo de 92 días. Esto significa que una visita o sesión se «mantendrá abierta» durante 92 días, mientras que cualquier visita adicional (que no sea 30 minutos después de la visita anterior (en tiempo de visita), podrá incluirse en la misma visita/sesión. Las visitas «antiguas» que se reciben fuera de orden producirán resultados «desconocidos», ya que son varios factores (segmentación, asignación, caducidad, etc.) influir en si estas visitas se incluirán en los informes o no.
+>Los datos de sesión con marca de tiempo habilitada se conservan por un período máximo de 92 días. Esto significa que una visita/sesión se "mantendrá abierta" durante 92 días, mientras que cualquier visita individual adicional (que no sea 30 minutos después de la visita individual anterior) se puede incluir en la misma visita/sesión. Cualquier visita "antigua" que se reciba fuera de servicio producirá resultados "desconocidos", ya que una serie de factores (segmentación, asignación, caducidad, etc.) influir en si estas visitas se incluirán o no en los informes.
 
 ## Nuevos grupos de informes {#section_095A7CFBD280494593B9BEC1592B73A6}
 
