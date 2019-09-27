@@ -4,10 +4,10 @@ seo-description: Es un informe de tendencia que muestra el número de veces que 
 seo-title: Vistas de páginas
 solution: Analytics
 title: Vistas de páginas
-topic: 'Informes '
-uuid: c 78260 c 6-9 ad 4-4 b 85-84 fd -763627392 e 44
+topic: Informes
+uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,8 +20,8 @@ A [page view](../../../components/c-variables/c-metrics/metrics-page-view.md#con
 
 **Propiedades de los informes**
 
-* Este informe hace referencia al número de veces que la función [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_the_s.t()function) se ha llamado en el sitio.
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linktracking) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* Este informe hace referencia al número de veces que la función [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) se ha llamado en el sitio.
+* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
 
 * Debido a que las solicitudes de imagen se envían cuando el usuario actualiza la página o hace clic en el botón de retroceso, este informe también incluye dichas acciones.
 * Los desgloses por hora se basan en el huso horario del grupo de informes.
