@@ -8,7 +8,7 @@ title: Android
 topic: Desarrollador e implementación
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -597,7 +597,7 @@ Fecha de versión: **noviembre de 2012**
 
 Fecha de versión: **octubre de 2012**
 
-* Se ha agregado compatibilidad con el [seguimiento de campaña de Google Play](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=referrer).
+* Se ha agregado compatibilidad con el [seguimiento de campaña de Google Play](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html).
 
 ## Versión 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 
