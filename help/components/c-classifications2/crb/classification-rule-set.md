@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Clasificaciones
 title: Conjuntos de reglas de clasificación
 topic: Herramientas de administración
-uuid: c 4 d 7 b 77 c-fa 98-44 be -955 f -9 aee 7 f 73480 b
+uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Un conjunto de reglas es un grupo de reglas de clasificación para una variable específica. La variable se aplica al conjunto de reglas. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes.
 
-## Classification rule sets {#concept_CD3D510F5070486584F3BB535AE41524}
+## Conjuntos de reglas de clasificación {#concept_CD3D510F5070486584F3BB535AE41524}
 
 Un conjunto de reglas es un grupo de reglas de clasificación para una variable específica. La variable se aplica al conjunto de reglas. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes.
 
 ## Página Clasificación del Generador de reglas {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Clasificación del Generador de reglas]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Generador de reglas **[!UICONTROL de clasificación]**
 
 Los campos y las opciones disponibles en el [!UICONTROL Generador de reglas de clasificación] son los siguientes:
 
@@ -70,7 +70,7 @@ Nombre el conjunto de reglas de clasificación, aplique la variable y especifiqu
 
 1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-   (Consulte [Clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications) en la ayuda de las herramientas de administración, donde se trata la adición de clasificaciones).
+   (Consulte [Clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) en la ayuda de las herramientas de administración, donde se trata la adición de clasificaciones).
 
    Las variables se mostrarán en el panel [!UICONTROL Nuevo conjunto de reglas] solo después de haber definido como mínimo una clasificación para la variable.
 
