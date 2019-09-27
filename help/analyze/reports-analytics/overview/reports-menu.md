@@ -3,9 +3,9 @@ description: Una descripción general del menú Informes en Reports & Analytics.
 seo-description: Una descripción general del menú Informes en Reports & Analytics.
 seo-title: Menú Informes
 title: Menú Informes
-uuid: 562 cb 6 bf -9396-42 a 3-adf 4-9651 af 8341 cb
+uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -27,9 +27,9 @@ Mis favoritos, Vistos con mayor frecuencia e Historial de informes son todos esp
 
 Se puede navegar por los informes con una vista de columna jerárquica. Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Presione la tecla Escape para cerrar el menú sin cambiar el informe actual; o bien, presione Intro para cargar el informe seleccionado.
 
-![](assets/reports-landing.png){width = "672 px"}
+![](assets/reports-landing.png){width="672px"}
 
-Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions).
+Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html).
 
 ## Búsqueda de informes {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -41,7 +41,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
 
 >[!NOTE]
 >
->También puede buscar en la lista de informes por propiedad, evar y número de evento. En la barra de búsqueda, introduzca la propiedad, eVar o número de evento.
+>También puede buscar en la lista de informes por propiedad, eVar y número de evento. En la barra de búsqueda, introduzca la propiedad, eVar o número de evento.
 
 ## Descripción general de navegación {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,7 +55,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
  <tbody> 
   <tr> 
    <td colname="col1">Menú Soluciones de Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Al hacer clic en este icono se expande el menú Experience Cloud para permitirle acceder a otras soluciones de Marketing Cloud. </td> 
+   <td colname="col2"> Al hacer clic en este icono, se expande el menú Experience Cloud para permitirle acceder a otras soluciones de Marketing Cloud. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Alternar menú de informes <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -99,14 +99,14 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Marcador...</span> </td> 
-   <td colname="col2">Lets you <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> bookmark</a> the report. </td> 
+   <td colname="col2">Permite <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> marcar</a> el informe. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Tablero</span>... </td> 
    <td colname="col2">Lets you add the report to a <a href="../../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard</a>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">Más...</span> </td> 
+   <td colname="col1"><span class="uicontrol"> Más...</span> </td> 
    <td colname="col2"> Le permite realizar algunas o parte de las acciones siguientes: imprimirlo, extraer datos de él, agregarle una alerta, crear un informe personalizado, copiar un gráfico, vincular a este informe y abrir una nueva ventana. </td> 
   </tr> 
   <tr> 
@@ -122,4 +122,4 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
 
 ## Personalización del menú Todos los informes {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus) en la Ayuda de Administradores.
+Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) en la Ayuda de Administradores.
