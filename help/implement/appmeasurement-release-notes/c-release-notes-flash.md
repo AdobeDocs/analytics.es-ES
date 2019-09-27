@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: Desarrollador e implementación
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -80,13 +80,13 @@ Versión 4.0 - Actualización:
 
 * Inclusión de la API de visitante 1.5.2.
 
-## 20 de agosto de 2015 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
+## August 20, 2015 {#section_1BEA10285E9F4863B89B4B713DBB20DB}
 
 Versión 4.0 - Actualización:
 
 * Inclusión de la API de visitante 1.5.1.
 
-## 18 de junio de 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
+## June 18, 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
 Versión 4.0 - Actualización
 
@@ -99,7 +99,7 @@ Versión 3.9.2 - Actualización:
 
 * Inclusión de la API de visitante 1.4
 
-## 19 de febrero de 2015 {#section_95ADF1725CE7415D956944A28182E69B}
+## February 19, 2015 {#section_95ADF1725CE7415D956944A28182E69B}
 
 Versión 3.9.2:
 
@@ -157,7 +157,7 @@ Fecha de versión: **14 de noviembre de 2013**
 Fecha de versión: **17 de octubre de 2013**
 
 * Compatibilidad con el [seguimiento de vídeo de Heartbeat](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
-* VisitorAPI.swc se ha incluido para admitir el [servicio de ID de visitante](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#).
+* VisitorAPI.swc se ha incluido para admitir el [servicio de ID de visitante](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html).
 * Se ha eliminado la compatibilidad de Flash Player 9 con ActionScript 3. La versión mínima de Flash Player para ActionScript 3 es 10.
 
 ## Versión 3.6.2 {#section_57FB21568BDD48F7882F00AD630E6CE8}
@@ -184,7 +184,7 @@ Fecha de versión: **31 de enero de 2013**
 
 * Se ha agregado compatibilidad para enviar direcciones URL superiores a 255 bytes para admitir la expansión del campo de URL de la página en los servidores de recopilación de datos de Adobe. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Esto ayuda a impedir que las direcciones URL largas prevalgan sobre otros datos en caso de truncamiento del navegador, pero sigue permitiendo capturar las direcciones URL largas. 
 
-* Se ha agregado un nuevo método de identificación de visitantes alternativos. Consulte [Identificación de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors).
+* Se ha agregado un nuevo método de identificación de visitantes alternativos. Consulte [Identificación de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
 * Added a new `abort` flag that can be set inside `doPlugins`. Configurar este indicador a verdadero impide que la biblioteca [!DNL AppMeasurement] siga con la llamada de seguimiento. El indicador de anulación se restablece con cada llamada de seguimiento, así que si también se tiene que cancelar una llamada de seguimiento posterior, de nuevo se tendrá que configurar el indicador dentro de `doPlugins`.
 
    ```js
