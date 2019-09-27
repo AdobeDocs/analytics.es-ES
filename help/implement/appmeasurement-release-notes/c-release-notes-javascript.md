@@ -8,7 +8,7 @@ title: Código H de JavaScript - Heredado
 topic: Desarrollador e implementación
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ Recopilación de notas de versiones sobre el código H de JavaScript heredado.
 
 >[!NOTE]
 >
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -151,7 +151,7 @@ Ahora se ignora el hash/fragmento de modo que el vínculo solo se sigue cuando e
 
 Fecha de versión: **29 de abril de 2013**
 
-* La opción `useForcedLinkTracking` que se describe en la sección sobre [seguimiento manual de vínculos con el código de vínculo personalizado](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) ahora se aplica a Firefox 20+ (anteriormente solo se aplicaba a usuarios de exploradores WebKit).
+* La opción `useForcedLinkTracking` que se describe en la sección sobre [seguimiento manual de vínculos con el código de vínculo personalizado](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) ahora se aplica a Firefox 20+ (anteriormente solo se aplicaba a usuarios de exploradores WebKit).
 
 * La generación de ID de objeto de imagen ahora es única entre instancias. Esto evita las colisiones cuando hay más de una instancia en la misma página.
 
@@ -187,7 +187,7 @@ Fecha de versión: **enero de 2013**
 * Corrección en el control de descodificación de dirección URL para cadenas codificadas con un uso mixto de `escape` y `encodeURIComponent`.
 
 * Se ha solucionado un problema en los navegadores WebKit en los que el seguimiento de enlace fallaba si el primer servidor llama al tiempo de espera de la página.
-* Se ha agregado un nuevo método de identificación de visitantes alternativos. Consulte [Identificación de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors).
+* Se ha agregado un nuevo método de identificación de visitantes alternativos. Consulte [Identificación de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
 * Added a new `abort` flag that can be set inside `doPlugins`. Configurar este indicador a verdadero impide que la biblioteca [!DNL AppMeasurement] siga con la llamada de seguimiento. El indicador de anulación se restablece con cada llamada de seguimiento, así que si también se tiene que cancelar una llamada de seguimiento posterior, de nuevo se tendrá que configurar el indicador dentro de `doPlugins`.
 
 ```js
