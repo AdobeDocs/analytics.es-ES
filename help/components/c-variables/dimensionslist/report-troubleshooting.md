@@ -1,14 +1,14 @@
 ---
 description: Adobe Analytics proporciona una interfaz de informes flexible que le permite generar una variedad de informes complejos. Mientras que la mayoría de los informes se generan muy rápidamente, puede encontrar informes que agoten el tiempo de espera o no se generen correctamente. Con el fin de ayudar a evitar fallos en la generación de informes, en esta sección se describen varios factores que tienen impacto en la velocidad de la generación de informes. Si se comprende esta información es útil para estructurar informes para que se generen correctamente.
-keywords: prácticas recomendadas; error; timeout; solución de problemas; lento
+keywords: prácticas recomendadas;error;tiempo de espera;resolución de problemas;lento
 seo-description: Adobe Analytics proporciona una interfaz de informes flexible que le permite generar una variedad de informes complejos. Mientras que la mayoría de los informes se generan muy rápidamente, puede encontrar informes que agoten el tiempo de espera o no se generen correctamente. Con el fin de ayudar a evitar fallos en la generación de informes, en esta sección se describen varios factores que tienen impacto en la velocidad de la generación de informes. Si se comprende esta información es útil para estructurar informes para que se generen correctamente.
 seo-title: Información sobre prácticas recomendadas y resolución de problemas
 solution: Analytics
 title: Información sobre prácticas recomendadas y resolución de problemas
-topic: 'Informes '
-uuid: d 4 eef 0 a 3-1 d 26-4460-8 a 2 b -962001 c 9 f 846
+topic: Informes
+uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 0d4e5bfc0f45b7b3ed9b89df25bcef0730a011d9
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,8 +19,8 @@ Adobe Analytics proporciona una interfaz de informes flexible que le permite gen
 
 >[!Note]
 >Estas recomendaciones se aplican a Informes y análisis, Análisis específicos y Creador de informes.
->They do not apply to Analysis Workspace, which has its own set of [best practices](/help/analyze/analysis-workspace/optimizing-performance.md). They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/?f=data_warehouse_bp). Un conjunto adicional de
->[se encuentran disponibles prácticas](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) recomendadas para la API de informes de Adobe Analytics.
+>No se aplican a Analysis Workspace, que tiene su propio conjunto de [optimizaciones](/help/analyze/analysis-workspace/optimizing-performance.md). They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). Un conjunto adicional de
+>[las prácticas](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) recomendadas están disponibles para la API de informes de Adobe Analytics.
 
 ## Tiempos de espera de informe y cola de solicitud {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
