@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fuentes de datos
 title: Requisitos y límites de carga
 topic: Desarrollador e implementación
-uuid: d 79 fca 77-fa 0 e -4171-b 978-cdee 5 c 67 d 9 df
+uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -35,15 +35,15 @@ En las secciones siguientes se indican restricciones que rigen para las fuentes 
 * Solo pueden importarse datos con fechas actuales o pasadas. No intente usar fechas futuras en las fuentes de datos.
 * Para habilitar las funciones gráficas del informe, todas las filas deben tener indicada una fecha. Si una fila no incluye fecha, el sistema de fuentes de datos generará un error y rechazará el archivo. El formato de fecha y hora depende del tipo de fuente de datos:
 
-   * **Fuentes de datos de procesamiento completo**: Utilice el formato de fecha ISO 8601 ( `YYYY-MM-DDThh:mm:ss±UTC_offset` por ejemplo `2013-09-01T12:00:00-07:00`,) o el formato de hora Unix (la cantidad de segundos transcurridos desde el 1 de enero de 1970).
+   * **Fuentes** de datos de procesamiento completo: Utilice el formato de fecha ISO 8601 `YYYY-MM-DDThh:mm:ss±UTC_offset` (por ejemplo, `2013-09-01T12:00:00-07:00`) o el formato de hora Unix (el número de segundos transcurridos desde el 1 de enero de 1970).
 
-   * **Fuentes de datos estándar y de integración**: Utilice el siguiente formato de fecha: `MM/DD/YYYY/HH/mm/SS` (por ejemplo, `01/01/2013/06/00/00`)
+   * **Fuentes** de datos estándar y de integración: Utilice el siguiente formato de fecha: `MM/DD/YYYY/HH/mm/SS` (por ejemplo, `01/01/2013/06/00/00`)
 
 ## General {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
 * Cuando se carga un archivo al sistema de fuente de datos, este realiza una verificación básica de los datos, para comprobar que el archivo no contenga errores de formato. Si el sistema encuentra algún error en el archivo, envía al usuario un aviso por correo electrónico y detiene el procesamiento.
 * Los campos de datos no pueden contener ningún punto y coma; si algún registro contiene un punto y coma, el sistema de fuente de datos lo omitirá.
-* Los datos de los archivos de registro web, tráfico y algunos agrupamientos de fuentes de datos genéricas no se pueden usar en el Almacén de datos ni en Discover. For more information, see [Data Types and Categories](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105).
+* Los datos de los archivos de registro web, tráfico y algunos agrupamientos de fuentes de datos genéricas no se pueden usar en el Almacén de datos ni en Discover. Para obtener más información, consulte Tipos [de datos y categorías](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105).
 * Las fuentes de datos no admiten los eventos serializados.
 
 ## Compatibilidad con formatos multibyte {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -60,7 +60,7 @@ El sistema de fuentes de datos admite archivos con codificación multibyte. El s
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Admitido. El grupo de informes que se use con la fuente de datos debe tener habilitada la compatibilidad con codificación de caracteres multibyte. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=new_report_suite" format="https" scope="external">Nuevo grupo de informes</a> en la ayuda. </p> </td> 
+   <td colname="col2"> <p>Admitido. El grupo de informes que se use con la fuente de datos debe tener habilitada la compatibilidad con codificación de caracteres multibyte. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">Nuevo grupo de informes</a> en la ayuda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 con marca de orden de bytes (EF BB BF) </td> 
