@@ -1,22 +1,22 @@
 ---
 description: Los pasos describen cómo configurar las fechas de solicitud en tiempo real.
 seo-description: Los pasos describen cómo configurar las fechas de solicitud en tiempo real.
-seo-title: Configurar una solicitud en tiempo real
+seo-title: Configuración de una solicitud en tiempo real
 solution: Analytics
-title: Configurar una solicitud en tiempo real
+title: Configuración de una solicitud en tiempo real
 topic: Creador de informes
-uuid: 9 ea 1 b 790-9 c 3 d -4511-8580-bb 11 d 9003 d 50
+uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# Configurar una solicitud en tiempo real
+# Configuración de una solicitud en tiempo real
 
 Los pasos describen cómo configurar las fechas de solicitud en tiempo real.
 
-1. Asegúrese de que los informes en tiempo real están activados en las [Herramientas de administración](https://marketing.adobe.com/resources/help/en_US/reference/?f=real_time_admin) de informes y análisis de marketing.
+1. Asegúrese de que los informes en tiempo real están activados en las [Herramientas de administración](https://marketing.adobe.com/resources/help/en_US/reference/real_time_admin.html) de informes y análisis de marketing.
 1. On the [!UICONTROL Request Wizard: Step 1], click **[!UICONTROL Real-Time Report]** &gt; **[!UICONTROL `<report type>`]**
 
    Por ejemplo, si selecciona un informe de tráfico. Cuando selecciona el tipo de informe en tiempo real, se muestran las opciones de [!UICONTROL Seleccionar intervalo de tiempo].
