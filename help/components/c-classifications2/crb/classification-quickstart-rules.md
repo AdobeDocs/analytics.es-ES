@@ -8,7 +8,7 @@ title: Reglas de clasificación
 topic: Herramientas de administración
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -21,7 +21,7 @@ Las reglas de clasificación buscan términos no clasificados de forma periódic
 
 Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Generador de reglas **[!UICONTROL de clasificación]**
+**[!UICONTROL Analytics &gt; Admin &gt; Classification Rule Builder]**********
 
 El Generador de reglas permite crear una *`classification rule set`*, que es una lista de *`classification rules`*. La regla que coincida con los criterios especificados realizará una acción.
 
@@ -64,7 +64,7 @@ about_classification_rules.xml
 
 ## Información relevante sobre las reglas {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
-* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups) for classifications in [!UICONTROL Admin Tools].
+* Specify [group permissions](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) for classifications in [!UICONTROL Admin Tools].
 
 * **Expresiones** regulares: La ayuda está disponible en Expresiones [regulares en Reglas](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_8A63F9BCF9484963962E14E6286D312D)de clasificación.
 
@@ -131,7 +131,7 @@ En este ejemplo, imaginemos que debe clasificarse el ID de campaña siguiente:
 Los elementos del código de seguimiento que deben clasificarse son:
 
 * `em` = email
-* `JuneSale` = nombre de campaña
+* `JuneSale` = campaign name
 * `20130601` = date
 
 [!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
@@ -180,8 +180,8 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Para |
 |--- |--- |--- |--- |
-| Expresión regular | `^.(s).*$` | Marca y motor | `$0` Captura los dos primeros caracteres para el nombre de marca y el motor de búsqueda. |
-| Expresión regular | `^.(s).*$` | Motor de búsqueda | `$1` Captura el segundo carácter de Google. |
+| Expresión regular | `^.(s).*$` | Marca y motor | `$0` (Captures the first two characters for brand name and search engine.) |
+| Expresión regular | `^.(s).*$` | Motor de búsqueda | `$1` (Captures the second character for Google.) |
 
 ## Expresiones regulares: hacer coincidir códigos de seguimiento de distinta longitud {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
