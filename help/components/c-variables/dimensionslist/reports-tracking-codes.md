@@ -4,10 +4,10 @@ seo-description: Evalúa el efecto que los distintos códigos de seguimiento pub
 seo-title: Códigos de seguimiento
 solution: Analytics
 title: Códigos de seguimiento
-topic: 'Informes '
-uuid: c 893 d 592-10 fd -4 b 40-84 b 3-8 c 8949 a 67 b 25
+topic: Informes
+uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -48,7 +48,7 @@ Evalúa el efecto que los distintos códigos de seguimiento publicitario tienen 
 
 * Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
 
-* Este informe también puede desglosarse mediante todas las [variables de lista](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=list_var).
+* Este informe también puede desglosarse mediante todas las [variables de lista](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html).
 * Las vistas de página, visitas y visitantes únicos están disponibles como métricas.
 * Este informe puede utilizar segmentos.
 
