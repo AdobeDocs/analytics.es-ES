@@ -1,19 +1,19 @@
 ---
 description: Definiciones de los elementos de la interfaz en las páginas del Generador de reglas de clasificación.
 seo-description: Definiciones de los elementos de la interfaz en las páginas del Generador de reglas de clasificación.
-seo-title: 'Reglas de clasificación: definiciones'
+seo-title: Definiciones de reglas de clasificación
 solution: Analytics
 subtopic: Clasificaciones
-title: 'Reglas de clasificación: definiciones'
+title: Definiciones de reglas de clasificación
 topic: Herramientas de administración
-uuid: 77 af 8669-6 e 11-435 c -9 cc 3-b 03 eb 627 c 855
+uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# Reglas de clasificación: definiciones
+# Definiciones de reglas de clasificación
 
 Definiciones de los elementos de la interfaz en las páginas del Generador de reglas de clasificación.
 
@@ -35,7 +35,7 @@ Esta página muestra las reglas de un conjunto de reglas.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Seleccionar grupos de informes y variables </p> </td> 
-   <td colname="col2"> <p><b>Grupo de informes</b> </p> <p>Los grupos de informes a los que se aplica el conjunto de reglas. </p> <p><b>Variable</b> </p> <p>Al crear un conjunto de reglas de clasificación solo puede aplicarse una variable. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes. </p> <p>Nota: Solo puede usar las variables a las que tenga acceso en sus grupos de informes. Las variables se mostrarán en el panel <span class="wintitle">Nuevo conjunto de reglas</span> solo después de haber definido como mínimo una clasificación para la variable. </p> <p>For example, to make <span class="term"> Pages</span> available as a variable to the rule set, ensure that the report suite has <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> traffic classifications</a> implemented for <span class="term"> Page</span>. </p> <p> El usuario puede crear clasificaciones en variables desde <span class="uicontrol">Administradores</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Clasificaciones de tráfico</span> (o <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Clasificaciones de las conversiones</span>). A continuación, debe seleccionar la variable y hacer clic en <span class="uicontrol">Agregar clasificación</span>. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=traffic_classification_admin" format="https" scope="external">Clasificaciones de tráfico</a> y <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=conversion_classifications" format="https" scope="external">Clasificaciones de las conversiones</a> en la ayuda del administrador. </p> </td> 
+   <td colname="col2"> <p><b>Grupo de informes</b> </p> <p>Los grupos de informes a los que se aplica el conjunto de reglas. </p> <p><b>Variable</b> </p> <p>Al crear un conjunto de reglas de clasificación solo puede aplicarse una variable. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes. </p> <p>Nota: Solo puede usar las variables a las que tenga acceso en sus grupos de informes. Las variables se mostrarán en el panel <span class="wintitle">Nuevo conjunto de reglas</span> solo después de haber definido como mínimo una clasificación para la variable. </p> <p>Por ejemplo, para que <span class="term"> las páginas</span> estén disponibles como variables para el conjunto de reglas, asegúrese de que el grupo de informes tenga <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> las clasificaciones</a> de tráfico implementadas para la <span class="term"> página</span>. </p> <p> El usuario puede crear clasificaciones en variables desde <span class="uicontrol">Administradores</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Clasificaciones de tráfico</span> (o <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Clasificaciones de las conversiones</span>). A continuación, debe seleccionar la variable y hacer clic en <span class="uicontrol">Agregar clasificación</span>. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html" format="https" scope="external">Clasificaciones de tráfico</a> y <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html" format="https" scope="external">Clasificaciones de las conversiones</a> en la ayuda del administrador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activar</span> </p> </td> 
@@ -47,7 +47,7 @@ Esta página muestra las reglas de un conjunto de reglas.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configurar grupos de informes y variables </p> </td> 
-   <td colname="col2"> <p>Muestra la página <span class="wintitle">Grupos de informes disponibles</span>, en la que puede seleccionar uno o más grupos de informes disponibles para usarlos para todos sus conjuntos de reglas. (Esta página también se muestra la primera vez que ejecuta el <span class="wintitle">enerador de reglas de clasificación</span>). </p> <p>Esta función sirve para ayudar a reducir el tiempo de carga del grupo de informes, en el caso de que tenga cientos de grupos de informes disponibles. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Note: A report suite becomes available <span class="term"> only</span> when the report suites have at least one classification defined for the variable in <span class="wintitle"> Admin Tools</span>. <p>(See <span class="term"> Variable</span> in <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"> Classification Rule Sets</a> for an explanation about this prerequisite.) </p> </p> </td> 
+   <td colname="col2"> <p>Muestra la página <span class="wintitle">Grupos de informes disponibles</span>, en la que puede seleccionar uno o más grupos de informes disponibles para usarlos para todos sus conjuntos de reglas. (Esta página también se muestra la primera vez que ejecuta el <span class="wintitle">enerador de reglas de clasificación</span>). </p> <p>Esta función sirve para ayudar a reducir el tiempo de carga del grupo de informes, en el caso de que tenga cientos de grupos de informes disponibles. </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Nota: Un grupo de informes <span class="term"> solo</span> estará disponible cuando los grupos de informes tengan al menos una clasificación definida para la variable en las <span class="wintitle"> Herramientas</span>de administración. <p>(Consulte <span class="term"> Variable</span> en <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"> Conjuntos</a> de reglas de clasificación para obtener una explicación sobre este requisito previo). </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas sobrescriben los valores existentes </p> </td> 
