@@ -4,20 +4,20 @@ seo-title: ¿Qué es el análisis de cohorte?
 solution: Analytics
 title: ¿Qué es el análisis de cohorte?
 topic: Reports and Analytics
-uuid: 39 a 83 f 3 a -15 d 1-41 d 7-bcdd -50 c 22 aed 8 f 1 c
+uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
 
 ---
 
 
 # ¿Qué es el análisis de cohorte?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. Análisis de cohorte es útil, por ejemplo, cuando desea saber cómo interactúa una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+A *`cohort`* is a group of people sharing common characteristics over a specified period. El análisis de cohorte resulta útil, por ejemplo, cuando desea conocer cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-Después de crear un informe de cohorte, puede depurar sus componentes (dimensiones, métricas y segmentos específicos), y luego compartir el informe de cohorte con quien desee. Consulte [Depurar y Compartir](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
+Después de crear un informe de cohorte, puede depurar sus componentes (dimensiones, métricas y segmentos específicos), y luego compartir el informe de cohorte con quien desee. Consulte [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
 
-Ejemplos de lo que puede hacer con el análisis de cohorte:
+Examples of what you can do with Cohort Analysis:
 
 * Iniciar campañas diseñadas para generar una acción deseada.
 * Modificar el presupuesto de mercadotecnia en el momento justo del ciclo de vida del cliente.
@@ -29,21 +29,25 @@ Ejemplos de lo que puede hacer con el análisis de cohorte:
 
 El análisis de cohorte está disponible para todos los clientes de Analytics con derechos de acceso a Analysis Workspace.
 
-[Cohort Analysis on YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Análisis de cohorte en YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
-## Capacidades de análisis de cohorte
+>[!IMPORTANT]
+>
+>El análisis de cohorte no admite métricas calculadas.
 
-En enero de 2019, Adobe lanzó una nueva y significativamente mejorada versión de Análisis de cohorte. Ofrece un control mucho más preciso de las cohortes que genera. Estas son las mejoras destacadas:
+## Cohort Analysis capabilities
+
+En enero de 2019, Adobe lanzó una versión nueva y considerablemente mejorada del análisis de cohorte. Ofrece un control mucho más preciso de las cohortes que genera. Estas son las mejoras destacadas:
 
 ### Tabla de retención
 
-Un informe de cohorte de retención devuelve visitantes: cada celda de datos muestra el número sin procesar y el porcentaje de visitantes de la cohorte que realizó la acción durante ese período de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
+A retention cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
 
 ![](assets/retention-report.png)
 
 ### Tabla de pérdida
 
-Una cohorte de Churn es la inversa de una tabla de retención y muestra los visitantes que se desviaron o nunca cumplieron los criterios de retorno de la cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
+Una cohorte de Churn es el inverso de una tabla de retención y muestra los visitantes que abandonaron o que nunca cumplieron los criterios de retorno para su cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
 
 ![](assets/churn-report.png)
 
