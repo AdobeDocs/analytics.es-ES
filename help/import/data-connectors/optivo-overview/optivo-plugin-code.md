@@ -1,21 +1,18 @@
 ---
-description: Si ha seleccionado el método de recopilación de datos de complemento JavaScript, copie las líneas de código siguientes y agréguelas al código de Adobe Analytics en sus páginas.
-seo-description: Si ha seleccionado el método de recopilación de datos de complemento JavaScript, copie las líneas de código siguientes y agréguelas al código de Adobe Analytics en sus páginas.
+description: Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Adobe Analytics en sus páginas.
+seo-description: Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Adobe Analytics en sus páginas.
 seo-title: Código de complemento de Adobe Analytics
 title: Código de complemento de Adobe Analytics
-uuid: e 99999 be -1800-4 d 63-a 4 cb-df 68 a 1 b 53 d 0 d
-index: y
-internal: n
-snippet: y
+uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Código de complemento de Adobe Analytics{#adobe-analytics-plug-in-code}
 
-Si ha seleccionado el método de recopilación de datos de complemento JavaScript, copie las líneas de código siguientes y agréguelas al código de Adobe Analytics en sus páginas.
+Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Adobe Analytics en sus páginas.
 
 ```
 /* 
@@ -57,5 +54,5 @@ s.eVar12="Post Click Type of Action"; // e.g. "purchase";
 
 >[!NOTE]
 >
->El complemento anterior asume que algunas variables de comercio personalizadas (evars) están disponibles. Si las variables especificadas en el complemento anterior no están disponibles en su implementación de Adobe Analytics, simplemente sustitúyalas por aquellas que estén disponibles.
+>El complemento de arriba supone que algunas variables de comercio personalizadas (eVars) están disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Adobe Analytics, simplemente reemplácelas por las que están disponibles.
 
