@@ -1,20 +1,93 @@
 ---
-description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina información de comportamiento de Analytics® con la mercadotecnia de correo electrónico Delivra a fin de crear una herramienta potente para redefinir la medición de éxito y dirigir las audiencias objetivo con mensajes más relevantes.
-seo-description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina información de comportamiento de Analytics® con la mercadotecnia de correo electrónico Delivra a fin de crear una herramienta potente para redefinir la medición de éxito y dirigir las audiencias objetivo con mensajes más relevantes.
-seo-title: Delivra Data Connector para Adobe Analytics
-title: Delivra Data Connector para Adobe Analytics
-uuid: 9 d 56 d 39 c -98 e 6-4 e 9 b-b 00 d -515 df 02 ea 879
-index: y
-internal: n
-snippet: y
+description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con el marketing por correo electrónico de Delivra para crear una poderosa herramienta que permite redefinir la medición de éxito y dirigir a las audiencias con mensajes más relevantes.
+seo-description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con el marketing por correo electrónico de Delivra para crear una poderosa herramienta que permite redefinir la medición de éxito y dirigir a las audiencias con mensajes más relevantes.
+seo-title: Entregar conector de datos para Adobe Analytics
+title: Entregar conector de datos para Adobe Analytics
+uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Delivra Data Connector for Adobe Analytics{#delivra-data-connector-for-adobe-analytics}
 
-Esta integración de correo electrónico de Adobe® Data Connectors™ combina información de comportamiento de Analytics® con la mercadotecnia de correo electrónico Delivra a fin de crear una herramienta potente para redefinir la medición de éxito y dirigir las audiencias objetivo con mensajes más relevantes.
+Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con el marketing por correo electrónico de Delivra para crear una poderosa herramienta que permite redefinir la medición de éxito y dirigir a las audiencias con mensajes más relevantes.
 
-La entrega de mensajes de correo electrónico relevantes a estos segmentos de mercado puede producir oportunidades de ingresos completamente nuevas, lo que genera mayor conversión e ingresos entre las campañas de correo electrónico nuevas y existentes. Por ejemplo: la entrega de mensajes de correo electrónico relevantes basados en productos que se vieron durante una visita o productos que fueron abandonados en un carro de compras abandonado ha demostrado tener un impacto dramático en los ingresos, con un impacto mínimo en los costos porque esto simplemente está aprovechando los visitantes que ya están recibiendo su sitio. Este aumento en la eficiencia de mercadotecnia es uno de los beneficios clave de integrar Analytics con Delivra. Además, esta integración sincroniza automáticamente las métricas de correo electrónico con los datos de Analytics con la frecuencia por hora para los informes de bucle cerrado.
+El envío de mensajes de correo electrónico relevantes a estos segmentos de mercado puede generar oportunidades de ingresos completamente nuevas, lo que aumenta la conversión y los ingresos entre las campañas de correo electrónico nuevas y existentes. Por ejemplo: el envío de mensajes de correo electrónico relevantes basados en productos que se vieron durante una visita o productos que quedaron en un carro de compras abandonado ha demostrado tener un impacto dramático en los ingresos, con un impacto mínimo en el costo porque esto simplemente aprovecha los visitantes que el sitio ya está recibiendo. Este aumento en la eficacia de la mercadotecnia es una de las ventajas clave de la integración de Analytics con Delivra. Además, esta integración sincronizará automáticamente las métricas de correo electrónico con los datos de Analytics con tanta frecuencia como cada hora para los informes de bucle cerrado.
+
+## Ventajas principales{#key-benefits}
+
+Esta integración incluye las siguientes ventajas clave:
+
+* Consolidar los datos de análisis y mercadotecnia de correo electrónico en una interfaz de informes
+* Optimizar las campañas de correo electrónico según la conversión y la contribución a los ingresos y al éxito del sitio
+* Volver a comercializar a visitantes clave y segmentos de mercado según segmentos de mercadotecnia dinámicos
+* La sincronización de métricas de correo electrónico en tiempo real está disponible en comparación con la sincronización estándar de una vez por día
+
+## Segmentos de marketing dinámico{#dynamic-marketing-segments}
+
+Esta integración de correo electrónico de Data Connectors admite segmentos de marketing dinámicos para ayudarle a dirigir su negocio.
+
+Esta integración incluye los siguientes segmentos de mercadotecnia predeterminados:
+
+* **** Perfiles de compra: Aumentar los pedidos repetidos y el valor promedio de los pedidos a través de campañas dirigidas por patrones de compra de visitantes.
+* **** Perfil de comportamiento de vista de contenido/producto: Llegar a los clientes potenciales a través de segmentos de marketing basados en vistas de productos y perfiles de acceso a contenido.
+* **** Perfil de abandono del carro de compras: Ayudar a los visitantes a convertirse a clientes a través de campañas específicas diseñadas específicamente para aquellos que dudan en completar los carros.
+* Los clientes también pueden crear y programar segmentos de remercadotecnia personalizados específicos de las necesidades de sus usuarios.
+
+## Procedimiento de integración y requisitos previos{#integration-procedure-and-prerequisites}
+
+Mediante el uso de un asistente de "Plug and Play", los procesos intuitivos paso a paso le guiarán por los puntos de sincronización del sistema e inicializarán la integración.
+
+Esta integración de Data Connectors requiere lo siguiente:
+
+### Requisitos previos de Adobe {#section-bce14015fb7f41b3bc754da0eb7567bc}
+
+* Adobe Data Warehouse
+* Cuenta de Adobe Analytics
+* Variables de Analytics disponibles y configuradas, incluidas eVars y eventos personalizados.
+
+### Requisitos previos de Delivra: {#section-bcb904574ccf42308bcf7a15e45b4d58}
+
+* Cuenta activa de nivel Professional de Delivra (o superior) con la opción "Integración de Adobe" activada.
+
+## Precio{#pricing}
+
+Esta integración de Conectores de datos incluye consideraciones de precios que debe tener en cuenta.
+
+Las secciones siguientes contienen más información:
+
+### Consideraciones sobre los precios de Adobe {#section-2d1c79c895a5479bad8fdd97961ba6a3}
+
+Esta integración podría tener tasas recurrentes y de implementación. Póngase en contacto con su representante de cuentas de Adobe para obtener más información sobre los precios.
+
+### Consideraciones de precios de envío {#section-c6afad08c34b43e3a7a3637eea3328c3}
+
+Podría haber tarifas asociadas con esta integración.
+
+* Póngase en contacto con el representante de cuentas de Delivra para obtener más información sobre los precios.
+
+## Qué Debe Saber Antes De Activar Esta Integración{#what-you-should-know-before-activating-this-integration}
+
+Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
+
+Al hacerlo, se asegurará de que se apliquen las prácticas recomendadas o los requisitos previos adecuados antes de la activación, lo que resultará en una integración óptima y exitosa.
+
+### Adobe Analytics{#adobe-analytics}
+
+Revise la siguiente información sobre esta integración de Conectores de datos en relación con Adobe Analytics:
+
+* **** Específico del grupo de informes: Tenga en cuenta que esta integración es específica del grupo de informes. Asegúrese de seleccionar el grupo de informes deseado antes de activar la integración.
+* **** Representante autorizado: Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda. Al activar esta integración, usted declara que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
+* **** Almacén de datos™: Esta integración requiere que el almacén de datos esté habilitado para generar segmentos de remercadotecnia. Si no ha habilitado el almacén de datos, póngase en contacto con Adobe para obtener más información.
+* **** ID del destinatario: La integración requiere que captemos y almacenemos un "ID de visitante" dentro de una variable de Analytics (eVar). La ID del visitante (conocida con frecuencia como "ID del destinatario") es una representación numérica o codificada de una dirección de correo electrónico del sistema Delivra. Esta "ID del destinatario" está asociada con el comportamiento de los visitantes que bajan del flujo en el sitio (abandonos del carro de compras, compras, etc.) que se incorpora al sistema Delivra y se puede aprovechar para fines de remercadotecnia. Como parte del proceso de configuración, debe identificar una eVar para este fin cuando el Asistente le solicite.
+* **** Seguimiento externo: Si actualmente no está siguiendo la práctica recomendada de habilitar el seguimiento externo para cada campaña de correo electrónico que envía, debe hacerlo para garantizar una integración exitosa. Consulte la sección Delivra para obtener más información.
+* **** Cumplimiento de la privacidad: Debe comprender que al habilitar el seguimiento de ID de visitante o destinatario, esta función puede rastrear información personal de los visitantes del sitio. Esto tiene implicaciones para la privacidad que requieren la implementación de los procedimientos apropiados por parte de su organización, como por ejemplo, notificar a los visitantes del sitio y obtener su consentimiento.
+
+### Implementación para la integración de Conectores de datos de Adobe{#delivra-for-adobe-data-connectors-integration}
+
+Revise la siguiente información sobre esta integración de Data Connectors en relación con Delivra:
+
+* **** Cuenta de envío válida: Para utilizar la integración de correo electrónico de Data Connectors, un cliente debe tener una cuenta de Delivra válida.
+* **** Cliente actual de Delivra: Esta integración requiere que sea cliente de Adobe y Delivra. Si actualmente no es cliente de Delivra, no tendrá la información necesaria para completar el asistente de integración. Si actualmente es cliente de Delivra, necesitará su ID de cuenta de Delivra, o el nombre de lista, asignado a su organización, para completar el asistente de integración. Deberá proporcionar a Delivra el nombre de la empresa y el ID de cuenta asociados con la integración para completar la configuración.
