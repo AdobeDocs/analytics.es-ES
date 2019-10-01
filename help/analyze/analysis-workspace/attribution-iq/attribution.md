@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Descripción general de IQ de atribución
-title: Descripción general de IQ de atribución
-uuid: bb 345642-4 f 45-4 fb 8-82 d 0-803248 dd 52 ea
+seo-title: Resumen de Attribution IQ
+title: Resumen de Attribution IQ
+uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 54f85d1e9a94f137666864158869b6cccf02cc13
 
 ---
 
 
-# Descripción general de IQ de atribución
+# Resumen de Attribution IQ
 
 >[!IMPORTANT]
 >
@@ -68,19 +68,19 @@ Para ilustrar el impacto de las ventanas de retrospectiva de atribución, aplica
 
 Cuando se utiliza la **ventana de retrospectiva de atribución de visita**, cada visita tiene su conversión distribuida de forma independiente:
 
-* El/$ 10 de la primera visita se dividiría de forma equitativa entre Buscar, Mostrar, Social y Correo electrónico, cada recibido/$ 2,50.
-* En la segunda visita, Buscar y enviar por correo electrónico recibiría la mitad de la conversión/$ 5, por lo que Correo electrónico y Búsqueda recibirían otro/$ 2,50.
-* Por último, en la visita final, el correo electrónico recibiría todo el crédito por la conversión de/$ 2.
+* Los /$10 de la primera visita se dividirían equitativamente entre Buscar, Mostrar, Social y Correo electrónico, cada uno de los cuales recibiría /$2,50.
+* En la segunda visita, Search y Email recibirían cada uno la mitad de la conversión de /$5, de modo que Email y Search recibirían cada uno otro /$2.50.
+* Finalmente, en la visita final, el correo electrónico recibiría todo el crédito por la conversión de /$2.
 
 En la **ventana de retrospectiva de visitante**, todas las conversiones se consideran juntas; sin embargo, el cálculo es ligeramente más complejo debido al hecho de que existen múltiples conversiones.
 
-* La primera conversión/$ 10 se dividiría de forma equitativa entre Buscar, Mostrar, Social y Correo electrónico.
-* La conversión de segundo/$ 5 se dividiría entonces entre los canales presentes en esa visita, así como los canales anteriores de la visita anterior: Search = (2/6) */$ 5 =/$ 1.67, Display = (1/6) */$ 5 =/$ 0.83, Social = (1/6) */$ 5 =/$ 0.83, Email = (2/6) */$ 5 =/$ 1,67.
-* Por último, la última conversión se dividiría en todos los canales para el visitante: Buscar = (2/7) */$ 2 =/$ 0,57, Mostrar = (1/7) */$ 2 =/$ 0.29, Social = (1/7) */$ 2 =/$ 0,29, Correo electrónico = (3/7) */$ 2 =/$ 0,86.
+* La primera conversión /$10 se dividiría equitativamente entre Buscar, Mostrar, Social y Correo electrónico.
+* La segunda conversión /$5 se dividiría entre los canales presentes en esa visita, así como los canales anteriores de la visita anterior: Buscar = (2/6) * /$5 = /$1.67, Mostrar = (1/6) * /$5 = /$0.83, Social = (1/6) * /$5 = /$0.83, Correo electrónico = (2/6) * /$5 = /$1.67.
+* Finalmente, la última conversión se dividiría en todos los canales para el visitante: Buscar = (2/7) * /$2 = /$0.57, Mostrar = (1/7) * /$2 = /$0.29, Social = (1/7) * /$2 = /$0.29, Correo electrónico = (3/7) * /$2 = /$0.86.
 
 He aquí un resumen de los resultados en formato de tabla:
 
-| Canal | Ingresos (Lineal/Visita) | Ingresos (Lineal/Visitante) |
+| Canal | Ingresos (lineal/visita) | Ingresos (lineal / visitante) |
 |---|---|---|
 | Buscar | /$5.00 | /$4.74 |
 | Visualización | /$2.50 | /$3.62 |
@@ -205,7 +205,7 @@ En este caso, A, B y C se encontraban al mismo tiempo en la visita 1, D se encon
 
 Attribution IQ da todo el crédito porcentual por la visita a cualesquiera valores presentes en la misma. En el ejemplo presente, A, B y C recibirán conversiones del 40 % o 0,4, D recibirá conversiones del 20 % o 0,2, y tanto E como F recibirán conversiones del 40 % o 0,4. Un informe que utilizara la atribución en Forma de U para las visitas anteriores produciría el siguiente resultado:
 
-| Variable de diversos valores | Conversiones (en forma de U o Visita) |
+| Variable de diversos valores | Conversiones (en forma de U/Visita) |
 |--- |---|
 | A | 0,4 |
 | B | 0,4 |
@@ -216,4 +216,12 @@ Attribution IQ da todo el crédito porcentual por la visita a cualesquiera valor
 | Total | 1 |
 
 >[!NOTE]
->Debido a la asignación a nivel de impacto de los modelos de atribución, la suma de cada elemento de línea del informe puede no ser igual al total debido a que cada valor recibe el porcentaje total de crédito perteneciente a la visita en la que estaba contenido.
+>Debido a la asignación de nivel de visita individual de los modelos de atribución, la suma de cada elemento de línea del informe puede no ser igual al total debido a cada valor que recibe el crédito por porcentaje total que pertenece a la visita en la que se incluyó.
+
+## Atribución con segmentación
+
+La atribución siempre se ejecuta antes de la segmentación y ésta se ejecuta antes de que se apliquen los filtros de informe. Estos principios también se aplican a los grupos de informes virtuales (VRS) que tienen aplicados segmentos.
+
+Por ejemplo, si crea un VRS con un segmento "Display Hits" aplicado, puede ver otros canales de mercadotecnia devueltos en una tabla cuando la atribución está activada. Esto ocurre porque la atribución se ejecuta en un conjunto de datos sin segmentar.
+
+![](assets/vrs-aiq-example.png)
