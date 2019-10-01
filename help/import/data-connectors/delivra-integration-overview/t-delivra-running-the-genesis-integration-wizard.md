@@ -4,11 +4,8 @@ seo-description: El Asistente para la integraci처n de Conectores de datos le gu�
 seo-title: Ejecuci처n del Asistente para la integraci처n de Data Connectors
 title: Ejecuci처n del Asistente para la integraci처n de Data Connectors
 uuid: 387ac9d0-3719-49ff-81cb-1f05accf9b6c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -130,4 +127,3 @@ Para configurar la integraci처n:
   </tr> 
  </tbody> 
 </table>
-
