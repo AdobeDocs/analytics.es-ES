@@ -3,8 +3,8 @@ product: analytics
 audience: usuario final
 user-guide-title: Guía de importación de Analytics
 user-guide-url: /content/help/es-ES/analytics/import/home.html
-translation-type: ht
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+translation-type: tm+mt
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -36,3 +36,89 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
    + [ID de transacción y perfiles del visitante](c-data-sources/datasrc-tid-visitor-profile.md)
    + [Preguntas frecuentes sobre las fuentes de datos](c-data-sources/datasrc-faq.md)
 + [API de inserción de datos](c-data-insertion-api/c-data-insertion-api.md)
++ Data Connectors {#dataconnectors}
+   + [Introducción a Conectores de datos de Analytics](data-connectors/getting-started-data-connectors.md)
+   + appFigures Data Connector for Adobe Analytics {#appfigures}
+      + [Información general de appFigures](data-connectors/appfigures-overview/appfigures-overview.md)
+      + [Antes de activar esta integración](data-connectors/appfigures-overview/appfigures-before-activation.md)
+      + [Configuración de la integración](data-connectors/appfigures-overview/t-appfigures-integration.md)
+      + [Métricas y dimensiones](data-connectors/appfigures-overview/appfigures-metrics.md)
+      + [Segmentación de datos de aplicación](data-connectors/appfigures-overview/appfigures-segment-filter.md)
+   + Aprimo Data Connector for Adobe Analytics {#aprimo}
+      + [Conector de datos Aprimo para Adobe Analytics](data-connectors/aprimo-overview/aprimo-overview.md)
+      + [Activar la integración](data-connectors/aprimo-overview/t-aprimo-activate.md)
+      + [Código de complemento de Adobe Analytics](data-connectors/aprimo-overview/aprimo-sitecatalyst-code.md)
+   + ContactLab Data Connector for Adobe Analytics {#contactlab}
+      + [Conector de datos de ContactLab para Adobe Analytics](data-connectors/c-contactlab-data-connector-for-adobe-analytics/c-contactlab-data-connector-for-adobe-analytics.md)
+      + [Implementación de la integración](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration.md)
+   + Datran Data Connector for Adobe Analytics {#datran}
+      + [Datran Data Connector para Adobe Analytics](data-connectors/datran-integration-overview/datran-integration-overview.md)
+      + [Preparación de la integración de correo electrónico de Data Connectors](data-connectors/datran-integration-overview/datran-configuring-integration.md)
+      + [Ejecución del Asistente para la integración de Data Connectors](data-connectors/datran-integration-overview/t-datran-wizard.md)
+   + Delivra Data Connector for Adobe Analytics {#delivra}
+      + [Entregar conector de datos para Adobe Analytics](data-connectors/delivra-integration-overview/delivra-integration-overview.md)
+      + [Preparación de la integración de correo electrónico de Data Connectors](data-connectors/delivra-integration-overview/delivra-configuring-the-genesis-delivra-integration.md)
+      + [Ejecución del Asistente para la integración de Data Connectors](data-connectors/delivra-integration-overview/t-delivra-running-the-genesis-integration-wizard.md)
+   + Demandbase Data Connector for Adobe Analytics {#demandbase}
+      + [Conector de datos de Demandbase para Adobe Analytics](data-connectors/demandbase-home/demandbase-home.md)
+      + [Implementación de la integración](data-connectors/demandbase-home/demandbase-deploying.md)
+      + [Uso de la integración](data-connectors/demandbase-home/demandbase-using-integration.md)
+      + [Dimensiones estándar de Demandbase](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
+      + [Dimensiones personalizadas de Demandbase](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
+   + Data Connector de DFA para Adobe Analytics {#dfa}
+      + [Data Connector de DFA para Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
+      + [Requisitos previos](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
+      + [Funciones de integración](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
+      + [Variables y eventos de Analytics](data-connectors/dfa-data-connector-analytics/dfa-analytics-variables-and-events.md)
+      + [Integración de DFA](data-connectors/dfa-data-connector-analytics/dfa-integration.md)
+      + [Informes de Analytics que usan datos de DFA](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
+      + [Reconciliación de discrepancias de métricas](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)
+      + [Preguntas frecuentes](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
+   + DreamMail Data Connector for Adobe Analytics {#dreammail}
+      + [Conector de datos de DreamMail para Adobe Analytics](data-connectors/dreammail-overview/dreammail-overview.md)
+      + [Activar la integración](data-connectors/dreammail-overview/t-dreammail-activate.md)
+      + [Código de complemento de Analytics](data-connectors/dreammail-overview/dreammail-analytics-code.md)
+   + Conector de datos Dynamic Signal VoiceStorm para Adobe Analytics {#dynamicsignal}
+      + [Conector de datos Dynamic Signal VoiceStorm para Adobe Analytics](data-connectors/dynamic-signal-for-analytics/dynamic-signal-for-analytics.md)
+      + [Implementación de la integración](data-connectors/dynamic-signal-for-analytics/dynamic-signal-deploy-integration.md)
+      + [Uso de la integración](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration.md)
+   + Emarsys Data Connector for Adobe Analytics {#emarsys}
+      + [Conector de datos Emarsys para Adobe Analytics](data-connectors/emarsys-overview/emarsys-overview.md)
+      + [Preparación de la integración de correo electrónico de Data Connectors](data-connectors/emarsys-overview/emarsys-configure-integration.md)
+      + [Variables de Analytics](data-connectors/emarsys-overview/emarsys-variables.md)
+      + [Ejecución del Asistente para la integración de Data Connectors](data-connectors/emarsys-overview/emarsys-wizard.md)
+   + Kampyle Data Connector for Adobe Analytics {#kampyle}
+      + [Conector de datos Kampyle para Adobe Analytics](data-connectors/kampyle-home/kampyle-home.md)
+      + [Implementación de la integración](data-connectors/kampyle-home/kampyle-deploy.md)
+      + [Uso de la integración](data-connectors/kampyle-home/kampyle-integration.md)
+   + Lyris Data Connector for Adobe Analytics {#lyris}
+      + [Conector de datos Lyris para Adobe Analytics](data-connectors/lyris-overview/lyris-overview.md)
+      + [Implementación de la integración](data-connectors/lyris-overview/lyris-deploy-integration.md)
+   + Conector de datos Neolane Ozon para Adobe Analytics {#neolane}
+      + [Conector de datos Neolane Ozon para Adobe Analytics](data-connectors/neolane-overview/neolane-overview.md)
+      + [Activar la integración](data-connectors/neolane-overview/neolane-activate.md)
+      + [Código de complemento de Adobe Analytics](data-connectors/neolane-overview/neolane-plugin-code.md)
+   + conector de datos de radio y televisión de optivo para Adobe Analytics {#optivo}
+      + [conector de datos de radio y televisión de optivo para Adobe Analytics](data-connectors/optivo-overview/optivo-overview.md)
+      + [Activar la integración](data-connectors/optivo-overview/optivo-activate.md)
+      + [Código de complemento de Adobe Analytics](data-connectors/optivo-overview/optivo-plugin-code.md)
+   + Qualtrics Data Connector for Adobe Analytics {#qualtrics}
+      + [Conector de datos Qualtrics para Adobe Analytics](data-connectors/qualtrics-overview/qualtrics-overview.md)
+      + [Implementación de la integración](data-connectors/qualtrics-overview/qualtrics-deploying.md)
+      + [Uso de la integración](data-connectors/qualtrics-overview/qualtrics-integration.md)
+      + [Búsqueda de la ID de organización de Qualtrics](data-connectors/qualtrics-overview/qualtrics-org-id.md)
+      + [Generación del token de Qualtrics Adobe Analytics](data-connectors/qualtrics-overview/qualtrics-token.md)
+   + Responsys Data Connector for Adobe Analytics {#responsys}
+      + [Conector de datos de Responsys para Adobe Analytics](data-connectors/responsys-home/responsys-home.md)
+      + [Implementación de la integración](data-connectors/responsys-home/responsys-deploy/responsys-deploy.md)
+      + [Verificación de la integración](data-connectors/responsys-home/responsys-verify.md)
+   + Selligent Data Connector for Adobe Analytics {#selligent}
+      + [Conector de datos selectivo para Adobe Analytics](data-connectors/selligent-overview/selligent-overview.md)
+      + [Implementación de la integración](data-connectors/selligent-overview/selligent-deploy-integration.md)
+      + [Código del complemento Parámetro de cadena de consulta](data-connectors/selligent-overview/selligent-plugin-code.md)
+   + Silverpop Data Connector for Adobe Analytics {#silverpop}
+      + [Conector de datos Silverpop para Adobe Analytics](data-connectors/silverpop-overview/silverpop-overview.md)
+      + [Antes de activar esta integración](data-connectors/silverpop-overview/silverpop-before-activation/silverpop-before-activation.md)
+      + [Variables de integración de Analytics](data-connectors/silverpop-overview/silverpop-variables.md)
+      + [Integración de Silverpop](data-connectors/silverpop-overview/silverpop-wizard.md)
+      + [Código de complemento de Analytics](data-connectors/silverpop-overview/silverpop-analytics-code.md)
