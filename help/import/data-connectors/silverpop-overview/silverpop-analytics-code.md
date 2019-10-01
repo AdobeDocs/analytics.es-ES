@@ -1,21 +1,18 @@
 ---
-description: 'Si ha seleccionado el método de recopilación de datos de complemento JavaScript, copie las líneas de código siguientes y agréguelas al código de Analytics en las páginas. '
-seo-description: 'Si ha seleccionado el método de recopilación de datos de complemento JavaScript, copie las líneas de código siguientes y agréguelas al código de Analytics en las páginas. '
+description: 'Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Analytics en sus páginas '
+seo-description: 'Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Analytics en sus páginas '
 seo-title: Código de complemento de Analytics
 title: Código de complemento de Analytics
-uuid: 534874 bd -49 d 9-4 b 15-8019-b 503 dfcf 3182
-index: y
-internal: n
-snippet: y
+uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Código de complemento de Analytics{#analytics-plug-in-code}
 
-Si ha seleccionado el método de recopilación de datos de complemento JavaScript, copie las líneas de código siguientes y agréguelas al código de Analytics en las páginas:
+Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Analytics en sus páginas:
 
 `/*`
 
@@ -29,5 +26,4 @@ Si ha seleccionado el método de recopilación de datos de complemento JavaScrip
 
 >[!NOTE]
 >
->El complemento anterior asume que algunas variables de comercio personalizadas (evars) están disponibles. Si las variables especificadas en el complemento anterior no están disponibles en su implementación de Analytics, simplemente sustitúyalas por aquéllas disponibles.
-
+>El complemento de arriba supone que algunas variables de comercio personalizadas (eVars) están disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Analytics, simplemente reemplácelas por las que están disponibles.
