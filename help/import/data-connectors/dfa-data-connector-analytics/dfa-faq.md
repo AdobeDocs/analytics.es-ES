@@ -2,16 +2,13 @@
 description: 'null'
 keywords: DFA
 seo-description: 'null'
-seo-title: Preguntas más frecuentes
+seo-title: Preguntas frecuentes
 solution: Analytics
-title: Preguntas más frecuentes
+title: Preguntas frecuentes
 topic: Data Connectors
-uuid: 59 d 187 e 9-1 ec 1-4 cf 3-8831-b 981 f 87 c 9372
-index: y
-internal: n
-snippet: y
+uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -32,7 +29,7 @@ Por ejemplo, imaginemos que existe una integración en el Grupo de informes A co
 
 >[!NOTE]
 >
->Los CSID no se utilizan en la versión 2.0 de la integración y, por lo tanto, el proceso de negociación de CSID no se aplica.
+>Los CSID no se utilizan en la versión 2.0 de la integración, por lo que no se aplica el proceso de negociación de CSID.
 
 ## Estoy usando la versión 2.0 de la integración y las métricas de coste no están apareciendo para mis anuncios de DFA. ¿A qué podría deberse? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
@@ -48,7 +45,8 @@ La respuesta para esta pregunta pueden ser varias.
 
 En primer lugar, compruebe que el anuncio en cuestión tenga una dirección URL de la página de aterrizaje que esté (a) etiquetada con código de Adobe para el mismo grupo de informes en el que está viendo la discrepancia y (b) contenga el parámetro de cadena de consulta *`clickThroughParam`*.
 
-En segundo lugar, verifique que tenga una integración operativa siguiendo los pasos de [Confirmar una integración DFA correcta](../dfa-data-connector-analytics/dfa-integration/dfa-confirm-integration.md#concept-c1c869d2a6fa46b09fe41fc286e407c6). Si ve que hay código de seguimiento DFA que viene con la visita de Adobe en la página de aterrizaje, debería ver que esa pulsación viene en el informe de campañas DFA. Si no ve que aparezca, verifique que los grupos de informes coincidan entre la variable *`s.account`* de la página de aterrizaje y el grupo de informes que se ve en Informes y análisis. Si coinciden, consulte los códigos de seguimiento en el informe de eVar de visualización que tengan un formato similar a DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
+En segundo lugar, compruebe que dispone de una integración en funcionamiento siguiendo los pasos que se indican en [Confirmación de una integración](../dfa-data-connector-analytics/dfa-integration.md)DFA correcta. Si ve que hay código de seguimiento DFA que viene con la visita de Adobe en la página de aterrizaje, debería ver que esa pulsación viene en el informe de campañas DFA. Si no ve que aparezca, verifique que los grupos de informes coincidan entre la variable *`s.account`* de la página de aterrizaje y el grupo de informes que se ve en Informes y análisis. Si coinciden, consulte los códigos de seguimiento en el informe de eVar de visualización que tengan un formato similar a DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
 
 Indican errores de la regla DFA VISTA para resumir los datos sin procesar de DFA. Este problema se puede remediar al abrir un ticket de soporte técnico con su Representante de cuentas de Adobe.
-Si ninguna de las soluciones anteriores explica el problema, consulte [Reconciliación de discrepancias de métricas](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md#concept-8c31ebe761ca4b3fab1e3a18ef5d098f) para explorar otras posibilidades
+
+Si ninguna de las soluciones anteriores explica el problema, consulte [Reconciliación de discrepancias de métricas](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) para explorar otras posibilidades.
