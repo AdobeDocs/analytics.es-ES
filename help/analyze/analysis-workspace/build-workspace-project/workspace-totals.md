@@ -4,7 +4,7 @@ seo-description: Obtenga información sobre cómo se calculan los totales de Wor
 seo-title: Cómo se calculan los totales de Workspace.
 title: Totales del espacio de trabajo
 translation-type: tm+mt
-source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
+source-git-commit: b2e76715a2bab0931b1ddf8c612c29eea530ce6c
 
 ---
 
@@ -29,20 +29,17 @@ En Configuración **** de columna, hay opciones para **[!UICONTROL Mostrar total
 [Los totales de filas](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) estáticas se comportan de forma diferente y se controlan en Configuración **[!UICONTROL de fila]**.
 
 * **[!UICONTROL Mostrar la suma de las filas actuales como el total]** : muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total **no eliminará** las métricas duplicadas como visitas o visitantes.
-* **[!UICONTROL Mostrar total]** general: muestra una suma del lado del servidor, lo que significa que el total anulará la duplicación de métricas como visitas o visitantes.
+* **[!UICONTROL Show Grand Total - this shows a server-side sum, which means the total will de-duplicate metrics like visits or visitors.]**
 
 ![](assets/static-rows.png)
 
-## Totales exportados
-
-Cuando los datos se copian y pegan desde una tabla improvisada o se descargan mediante CSV, la fila total reflejará únicamente el total [!UICONTROL de la] tabla.
-
 ## Preguntas frecuentes
 
-| Preguntas | Respuesta |
+| Questions | Respuesta |
 |---|---|
-| ¿En qué 'total' se basan los porcentajes de la columna gris? | Esto depende de la selección de configuración de **[!UICONTROL porcentajes]** en Configuración de **[!UICONTROL fila]**:<ul><li>Calcular porcentajes por columna: Esta es la configuración predeterminada. Los porcentajes se basarán en el total de la tabla.</li><li>Calcular porcentajes por fila: los porcentajes se basarán en el total general.</li></ul> |
-| ¿Cómo afecta el ajuste **[!UICONTROL Incluir no especificado (Ninguno)]** a los totales? | Si la opción **[!UICONTROL Incluir no especificado (Ninguno)]** está desactivada, la fila Ninguno/No especificado se eliminará de la tabla, el Total de tabla y se aplicará a cualquier métrica calculada que utilice tipos de métrica ['Total'](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html) |
-| Cuando se aplican filtros de tabla personalizados a una tabla improvisada, ¿tienen en cuenta todas mis métricas calculadas y el formato condicional para el filtro? | Actualmente no. **[!UICONTROL Incluir no especificado (ninguno)]** se contabilizará, pero los filtros de tabla personalizados no afectarán a lo siguiente:<ul><li>El rango máximo/mínimo de columna que utiliza el formato condicional se verá en todos los datos.</li><li>Métricas calculadas que aprovechan los tipos de métricas **[!UICONTROL Total]** general.</li><li>Métricas calculadas con funciones que calculan entre filas en una tabla improvisada, por ejemplo: Suma de columna, Máximo de columna, Mínimo de columna, Recuento, Media, Mediana, Percentil, Cuartil, Recuento de filas, Desviación estándar, Variación, Acumulativo, Promedio Acumulado, Variantes de regresión, Puntuación T, Prueba T, Puntuación Z, Prueba Z.</li></ul> |
-| En Métricas calculadas, ¿qué refleja el tipo de métrica Total **[!UICONTROL general]** ? | **[!UICONTROL Total]** general sigue haciendo referencia al Total **[!UICONTROL general]** y no refleja los filtros aplicados a una tabla o al Total **[!UICONTROL de]** tabla. |
+| Which 'total' are the gray column percentages based on? | This depends on the Percentages setting selection under Row Settings:********<ul><li>Calcular porcentajes por columna: Esta es la configuración predeterminada. Percentages will be based on the Table Total.</li><li>Calculate percentages by row - Percentages will be based on the Grand Total.</li></ul> |
+| How does the Include Unspecified (None) setting impact totals?**** | Si la opción **[!UICONTROL Incluir no especificado (Ninguno)]** está desactivada, la fila Ninguno/No especificado se eliminará de la tabla, el Total de tabla y se aplicará a cualquier métrica calculada que utilice tipos de métrica ['Total'](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/m-metric-type-alloc.html) |
+| When custom table filters are applied to a freeform table, do all of my calculated metrics and conditional formatting account for the filter? | Not currently. **[!UICONTROL Include Unspecified (None) will be accounted for, but custom table filters will not impact the following:]**<ul><li>The column max/min range that conditional formatting uses will look across all data.</li><li>Calculated metrics that leverage **[!UICONTROL Grand Total]** metric types.</li><li>Métricas calculadas con funciones que calculan entre filas en una tabla improvisada, por ejemplo: Suma de columna, Máximo de columna, Mínimo de columna, Recuento, Media, Mediana, Percentil, Cuartil, Recuento de filas, Desviación estándar, Variación, Acumulativo, Promedio Acumulado, Variantes de regresión, Puntuación T, Prueba T, Puntuación Z, Prueba Z.</li></ul> |
+| In Calculated Metrics, what does the **[!UICONTROL Grand Total]** metric type reflect? | **[!UICONTROL Grand Total continues to refer to the Grand Total, and does not reflect filters applied to a table or the Table Total.]********** |
+| What total is shown when data is either copied and pasted from a freeform table or downloaded via CSV? | La fila total reflejará únicamente el total **[!UICONTROL de la]** tabla y respetará la columna **[!UICONTROL Mostrar totales]** . |
 
