@@ -1,23 +1,44 @@
 ---
-description: Esta integración combina las capacidades de investigación del cliente de Qualtrics Research Suite con los datos enriquecidos que recopila en Adobe Analytics para crear potentes análisis y oportunidades de optimización para su organización.
-seo-description: Esta integración combina las capacidades de investigación del cliente de Qualtrics Research Suite con los datos enriquecidos que recopila en Adobe Analytics para crear potentes análisis y oportunidades de optimización para su organización.
-seo-title: Qualtrics Data Connector para Adobe Analytics
+description: Esta integración combina las capacidades de investigación de los clientes de Qualtrics Research Suite con los abundantes datos que recopila en Adobe Analytics para crear potentes oportunidades de optimización y análisis para su organización.
+seo-description: Esta integración combina las capacidades de investigación de los clientes de Qualtrics Research Suite con los abundantes datos que recopila en Adobe Analytics para crear potentes oportunidades de optimización y análisis para su organización.
+seo-title: Conector de datos Qualtrics para Adobe Analytics
 solution: Analytics
 subtopic: Qualtrics
-title: Qualtrics Data Connector para Adobe Analytics
+title: Conector de datos Qualtrics para Adobe Analytics
 topic: Data Connectors
-uuid: f 1 fa 90 b 6-1 b 80-4 da 4-a 39 b-efb 8 bac 1692 a
-index: y
-internal: n
-snippet: y
+uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Qualtrics Data Connector for Adobe Analytics{#qualtrics-data-connector-for-adobe-analytics}
 
-Esta integración combina las capacidades de investigación del cliente de Qualtrics Research Suite con los datos enriquecidos que recopila en Adobe Analytics para crear potentes análisis y oportunidades de optimización para su organización.
+Esta integración combina las capacidades de investigación de los clientes de Qualtrics Research Suite con los abundantes datos que recopila en Adobe Analytics para crear potentes oportunidades de optimización y análisis para su organización.
 
-Esta integración bidireccional conecta primero los datos de respuesta del estudio Qualtrics con los datos del flujo de navegación de visitante. A continuación, inserta acciones y atributos de comportamiento relevantes, desde Adobe Analytics, en los informes de estudios de Qualtrics.
+Esta integración bidireccional conecta primero los datos de respuesta del estudio Qualtrics con los datos del flujo de navegación del visitante. A continuación, inserta acciones y atributos de comportamiento relevantes, desde Adobe Analytics, en los informes de encuestas de Qualtrics.
+
+## Principales ventajas y características{#key-benefits-and-features}
+
+* Genere segmentos de usuarios en base a las respuestas que los usuarios dan a preguntas específicas del estudio.
+* Informes de tráfico y conversión basados en los detalles del estudio, la pregunta y el nivel de respuesta.
+* Utiliza sólo 1 ListVar, 1 eVar y 1 evento para integrar estudios Qualtrics ilimitados.
+* Mejore los informes de calidad con hasta 5 dimensiones de conversión personalizadas, 5 dimensiones de tráfico personalizadas, 5 eventos de éxito personalizados y más de 20 métricas y dimensiones estándar seguidas con Adobe Analytics.
+* Los datos de estudio integrados en Adobe Analytics fluyen en "directo" a medida que se envían los estudios. Las exportaciones a Qualtrics se producen diariamente.
+
+## Antes de activar este conector{#before-you-activate-this-connector}
+
+### Requisitos previos de Adobe {#section-fd37a66150c34cd6b494d13f75e5fb0d}
+
+* Debe ser cliente actual de Adobe Analytics.
+* Debe ser un usuario administrador.
+* Debe tener 1 variable de lista disponible y habilitada dentro del grupo de informes.
+* Debe tener 1 variable eVar (o prop) disponible y habilitada dentro del grupo de informes.
+* Debe tener 1 evento personalizado disponible dentro del grupo de informes.
+
+### Requisitos previos de Qualtrics {#section-dbb780af47c145d7b6ae12acde3ca94c}
+
+* Debe ser cliente actual de Qualtrics Research Suite.
+* Debe ser un usuario con permisos para habilitar la integración de Adobe Analytics.
+* Debe poder generar un token de Adobe Analytics en el área ID de **[!UICONTROL Qualtrics]** de Research Suite.
