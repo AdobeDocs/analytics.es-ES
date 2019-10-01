@@ -7,11 +7,8 @@ solution: Analytics
 title: Informes de Analytics que usan datos de DFA
 topic: Data Connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -57,4 +54,3 @@ Este informe tiene las siguientes funciones importantes:
 * Seleccione un nombre de anuncio DFA para abrir un menú de opciones y obtener más información sobre ese anuncio DFA específico.
 * Cada columna de métrica incluye una clave de color que corresponde al color asignado de la métrica en el gráfico.
 * El informe está ordenado según la métrica de ingresos con el anuncio de ingresos más alta en la parte superior. Puede cambiar el ordenamiento del informe si hace clic en una etiqueta (métrica) de columna diferente.
-
