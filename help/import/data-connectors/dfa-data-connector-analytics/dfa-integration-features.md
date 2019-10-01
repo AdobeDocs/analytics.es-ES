@@ -6,12 +6,9 @@ seo-title: Funciones de integración
 solution: Analytics
 title: Funciones de integración
 topic: Data Connectors
-uuid: 4 ad 8 e 6 e 8-3449-498 a -8596-37 c 0 ac 1657 cd
-index: y
-internal: n
-snippet: y
+uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -28,7 +25,7 @@ Una vez activada, la integración Data Connectors DFA proporciona las siguientes
 
 >[!NOTE]
 >
->Esta integración no proporciona compatibilidad con rastreadores de clics (anteriormente comandos de clics). Los rastreadores de clics se usan para registrar la cantidad de clics en vínculos de texto, vínculos en mensajes de correo electrónico o en otros elementos que no son modificables en un sitio web.
+>Esta integración no admite rastreadores de clics (anteriormente comandos de clics). Los rastreadores de clics se usan para registrar la cantidad de clics en vínculos de texto, vínculos en mensajes de correo electrónico o en otros elementos que no son modificables en un sitio web.
 
 La integración de DFA de Data Connectors crea automáticamente códigos de seguimiento de DFA a partir de los datos devueltos por DFA. Estos códigos de seguimiento se crean para identificar de forma exclusiva un anuncio junto con su Ubicación y Creativo asociados. A continuación, se menciona la estructura del código de seguimiento, de acuerdo con la versión de la integración. La versión 1.5 tiene este formato:
 
@@ -65,5 +62,5 @@ If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is sele
 
 >[!NOTE]
 >
->Si searchcenter &gt; Anulación de duplicación de DFA está habilitado y el parámetro de cadena de consulta de searchcenter está establecido, la visita no se considerará para el procesamiento de DFA. Esto significa que el parámetro de cadena de consulta de SearchCenter debería ser diferente al parámetro de pulsación de DFA, y ningún anuncio de visualización debería establecer el parámetro de cadena de consulta de SearchCenter.
+>Si SearchCenter &gt; Anulación de duplicación de DFA está habilitada y se establece el parámetro de cadena de consulta de SearchCenter, la visita no se considerará para el procesamiento de DFA. Esto significa que el parámetro de cadena de consulta de SearchCenter debería ser diferente al parámetro de pulsación de DFA, y ningún anuncio de visualización debería establecer el parámetro de cadena de consulta de SearchCenter.
 
