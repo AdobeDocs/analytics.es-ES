@@ -9,7 +9,7 @@ title: Variables de datos de contexto
 topic: Desarrollador e implementación
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
 
 ---
 
@@ -24,9 +24,9 @@ En lugar de asignar explícitamente valores a props y eVars en el código, puede
 >
 >Las variables de datos de contexto no distinguen entre mayúsculas y minúsculas. Por ejemplo, las dos instancias siguientes son iguales a todos los efectos:
 >```
->s.contextData['article_title'] = 'Weekend Concert Controversy';
+>s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
->and
+>y
 >```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
