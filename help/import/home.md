@@ -3,8 +3,8 @@ title: Ayuda de importación de Analytics
 seo-title: Ayuda de importación de Analytics
 description: 'null'
 seo-description: 'null'
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -15,13 +15,9 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 Esta guía explica cómo obtener datos en Analytics. Incluye:
 
-* **Fuentes de datos:** Cargue un archivo en un sitio de FTP designado de Adobe. Adobe recupera el archivo e incluye los datos en su grupo de informes.
-* **API de inserción de datos:** Envíe datos directamente a la recopilación de datos de Adobe a través de una API.
-* **Conectores de datos:** Trabaje con un tercero admitido para introducir sus datos en Adobe Analytics y enriquecer su grupo de informes.
-
-## Artículos de importación de Analytics clave
-
-* [Fuentes de datos](c-data-sources/datasrc-home.md)
+* **[Fuentes](c-data-sources/datasrc-home.md)** de datos: Cargue un archivo en un sitio FTP de Adobe designado. Adobe recupera el archivo e incluye los datos en su grupo de informes.
+* **[API](c-data-insertion-api/c-data-insertion-api.md)** de inserción de datos: Envíe datos directamente a la recopilación de datos de Adobe mediante una API.
+* **[Conectores](data-connectors/getting-started-data-connectors.md)** de datos: Trabaje con un tercero compatible para incorporar sus datos a Adobe Analytics y enriquecer el grupo de informes.
 
 ## Más guías de usuario de Analytics
 
@@ -29,7 +25,7 @@ Esta guía explica cómo obtener datos en Analytics. Incluye:
 
 ## Recursos clave de Analytics
 
-* [Contacte con el servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
-* [Foro de la comunidad de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Póngase en contacto con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://experienceleague.adobe.com/?lang=es#recommended/solutions/analytics)
+* [Experience League](https://landing.adobe.com/experience-league/)
