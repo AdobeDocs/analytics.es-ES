@@ -3,12 +3,9 @@ description: Aprenda a desactivar los inicios de sesión heredados para usuarios
 seo-description: Aprenda a desactivar los inicios de sesión heredados para usuarios de Analytics.
 seo-title: Desactivación de inicios de sesión heredados
 title: Desactivación de inicios de sesión heredados
-uuid: 085874 b 2-10 bf -4 a 56-a 337-f 3104428 d 71 e
-index: y
-internal: n
-snippet: y
+uuid: 085874b2-10bf-4a56-a337-f3104428d71e
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -25,7 +22,7 @@ Una vez que los usuarios hayan migrado del sistema de administración de usuario
 
    ![](assets/user-info.png)
 
-   The users that are eligible will have a status of *`Migrated`* under the Migration Status column. No puede desactivar el inicio de sesión heredado de un usuario hasta que se haya migrado.
+   Los usuarios elegibles tendrán un estado de *`Migrated`* en la columna Estado de la migración. No puede desactivar el inicio de sesión heredado de un usuario hasta que se haya migrado.
 1. Click **[!UICONTROL Disable Legacy Login]**, then click **[!UICONTROL Done]**.
 
    Desactivar inicio de sesión heredado indica cuál de sus usuarios puede continuar utilizando el nombre de usuario y contraseña de [!DNL my.omniture.com] heredados.
