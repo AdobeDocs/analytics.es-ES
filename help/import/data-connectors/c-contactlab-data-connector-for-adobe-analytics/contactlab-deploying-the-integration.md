@@ -6,7 +6,7 @@ solution: Analytics
 title: Implementación de la integración
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -22,7 +22,7 @@ Pasos para completar el asistente de integración en la interfaz de Conectores d
 1. Vaya al área Conectores de datos (anteriormente Genesis) dentro de Adobe Experience Cloud.
 1. Inicie el asistente de integración de ContactLab.
 1. Elija el grupo de informes deseado y proporcione un nombre para la integración.
-1. Configure los siguientes elementos:
+1. Configure the following items:
 
    | Elemento | Descripción |
    |---|---|
@@ -34,7 +34,7 @@ Pasos para completar el asistente de integración en la interfaz de Conectores d
    | Elemento | Descripción |
    |---|---|
    | ID del vínculo | Seleccione una eVar para recopilar los ID de vínculo en tiempo real. |
-   | ID del mensaje | Seleccione una eVar para recopilar los ID de los mensajes en tiempo real. |
+   | Message ID | Seleccione una eVar para recopilar los ID de los mensajes en tiempo real. |
    | Recipient ID | Seleccione una eVar para recopilar los ID de los destinatarios en tiempo real. |
    | Devoluciones | Seleccione un evento numérico para recibir devoluciones diarias de ContactLab. |
    | Enviado | Seleccione un evento numérico para recibir envíos diarios desde ContactLab. |
@@ -44,28 +44,26 @@ Pasos para completar el asistente de integración en la interfaz de Conectores d
 
 1. Habilite el acceso a los datos y configure la recopilación de datos.
    1. Cambie el nombre de las clasificaciones según sea necesario.
-   1. **[!UICONTROL Los segmentos]** asociados son segmentos de remercadotecnia estándar que se incluyen en la integración.
-   1. En **[!UICONTROL Sus segmentos]**, seleccione los segmentos personalizados que desee incluir en esta integración. Puede crear segmentos personalizados adicionales en el panel de administración.
-   1. En Solicitudes **[!UICONTROL de]** acceso, marque la casilla para permitir que la información del producto se exporte a ContactLab en segmentos diarios de remercadotecnia.
+   1. **[!UICONTROL Partner segments are standard remarketing segments that are included in your integration.]**
+   1. Under **[!UICONTROL Your Segments]**, select any custom segments that you would like to include in this integration. You can create additional custom segments under the admin panel.
+   1. Under Access Requests, check the box to allow product information to be exported to ContactLab in daily remarketing segments.****
    1. Cambie el nombre de las métricas calculadas según sea necesario.
    1. Configure si va a recopilar ID actualizando manualmente el código de recopilación de Analytics o utilizando la solución automatizada. Si selecciona Solución **** automatizada, debe incluir los parámetros que se utilizan en los vínculos de correo electrónico para pasar ID.
 1. Revise todos los elementos de configuración y haga clic en **[!UICONTROL Activar ahora]**.
 
 ## Verificar la integración{#verifying-the-integration}
 
-Ver la configuración de la integración de ContactLab en Adobe Experience Cloud
+View your ContactLab integration setup within the Adobe Experience Cloud
 
-1. Vea el registro de actividades de integración.
-
-   1. En Adobe Experience Cloud, vaya a **[!UICONTROL Asistencia]** &gt; Registro **[!UICONTROL de actividades de integración]**.
+1. View the integration activity log.
+   1. In the Adobe Experience Cloud, navigate to Support &gt; Integration Activity Log.********
 
       ![](assets/integration_activity_log.png)
 
-   1. Busque entradas como Datos **[!UICONTROL de clasificación importados correctamente]**, Datos de **[!UICONTROL métricas importados correctamente]** y Datos de **[!UICONTROL métricas exportados correctamente]**. Estas entradas deben aparecer en el plazo de 1 día desde que se realizó correctamente la implementación.
-1. Vea los datos de los informes en Adobe Analytics.
-
+   1. Look for entries like Classification Data imported successfully, Metrics Data imported successfully, and Metric Data exported successfully. ************ These entries should appear within 1 day of successful deployment.
+1. View your reporting data within Adobe Analytics.
    1. Vaya a Conversión **** personalizada &gt; Conversión **[!UICONTROL personalizada 1-10]** &gt; Informes **[!UICONTROL de ID de]** mensaje.
 
       ![](assets/reporting.png)
 
-   1. Busque informes de ContactLab. Estos datos deben aparecer entre 24 y 48 horas después de la implementación correcta.
+   1. Look for ContactLab reporting. This data should appear within 24-48 hours of successful deployment.
