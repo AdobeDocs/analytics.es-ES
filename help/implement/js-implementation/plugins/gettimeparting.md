@@ -1,15 +1,15 @@
 ---
 description: El complemento getTimeParting rellena variables personalizadas con los valores de hora del día, día de la semana y fin de semana y día laborable. Analysis Workspace incluye dimensiones de división del tiempo. Debe utilizarse el complemento si se necesitan las dimensiones de división del tiempo en otras soluciones de Analytics fuera de Analysis Workspace.
-keywords: Implementación de Analytics
+keywords: Implementación de análisis
 seo-description: El complemento getTimeParting rellena variables personalizadas con los valores de hora del día, día de la semana y fin de semana y día laborable. Analysis Workspace incluye dimensiones de división del tiempo. Debe utilizarse el complemento si se necesitan las dimensiones de división del tiempo en otras soluciones de Analytics fuera de Analysis Workspace.
 seo-title: getTimeParting
 solution: Analytics
 subtopic: Complementos
 title: getTimeParting
 topic: Desarrollador e implementación
-uuid: 74 f 696 a 3-7169-4560-89 b 2-478 b 3 d 8385 e 1
+uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
 
 ---
 
@@ -22,7 +22,7 @@ Este complemento captura la información sobre la fecha y hora disponible en el 
 
 >[!NOTE]
 >
->Las instrucciones siguientes requieren modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+>Las siguientes instrucciones requieren que modifique el código de recopilación de datos del sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Código de complemento {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +30,7 @@ Este complemento captura la información sobre la fecha y hora disponible en el 
 
 Inserte el código siguiente en el área del archivo [!DNL s_code.js] etiquetado [!UICONTROL SECCIÓN CONFIG], y realice las actualizaciones necesarias tal como se describe a continuación.
 
-`s._tpDST` - una matriz de valores de horario de verano. The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - una matriz de valores de DST. La matriz está estructurada en el siguiente formato: `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -43,7 +43,9 @@ s._tpDST = {
 2016:'4/3,10/2', 
 2017:'4/2,10/1', 
 2018:'4/1,10/7', 
-2019:'4/7,10/6'} 
+2019:'4/7,10/6',
+2020:'4/5,10/4',
+2021:'4/4,10/3'} 
   
 //US 
 s._tpDST = { 
@@ -54,7 +56,9 @@ s._tpDST = {
 2016:'3/13,11/6', 
 2017:'3/12,11/5', 
 2018:'3/11,11/4', 
-2019:'3/10,11/3'} 
+2019:'3/10,11/3',
+2020:'3/8,11/1',
+2021:'3/14,11/7'} 
   
 //Europe 
 s._tpDST = { 
@@ -65,7 +69,9 @@ s._tpDST = {
 2016:'3/27,10/30', 
 2017:'3/26,10/29', 
 2018:'3/25,10/28', 
-2019:'3/31,10/27'}
+2019:'3/31,10/27',
+2020:'3/29,10/25',
+2021:'3/28,10/31'}
 ```
 
 Nota para clientes del hemisferio norte: en la matriz, los valores de horario de verano son valores de inicio y finalización del horario de verano.
