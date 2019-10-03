@@ -1,15 +1,15 @@
 ---
 description: Importe datos de seguimiento de aplicaciones de terceros en Analytics.
 seo-description: Inicie sesión en los conectores de datos; importar datos de seguimiento de aplicaciones de terceros en Analytics, agregar integraciones, consola de conectores de datos.
-seo-title: Conectores de datos de Analytics
+seo-title: Analytics data connectors
 title: Introducción a los conectores de datos de Analytics
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 ---
 
 
-# Descripción general de los conectores de datos
+# Overview of data connectors
 
 Adobe proporciona a las organizaciones inteligencia de acción en tiempo real con respecto a las estrategias digitales y a las iniciativas de mercadotecnia. Los conectores de datos le permiten importar datos de seguimiento de aplicaciones de terceros en Analytics, de modo que puede recopilar y usar datos desde una ubicación central. Si usa uno de los productos asociados, puede crear una integración que importa los datos de la aplicación a los informes de mercadotecnia. Una vez realizada la integración, puede generar informes que incluyan datos de su aplicación.
 
@@ -53,9 +53,9 @@ Debe tener una cuenta actual para acceder a la página de aterrizaje de [!UICONT
 
 ## Consola de Conectores de datos
 
-Después de activar una integración, ésta se muestra en la página Conectores  de datos. Puede ver los detalles y realizar cambios de configuración en la consola. Puede ver las integraciones activas y las integraciones de todos los conjuntos de informes de su empresa. También puede ver un registro de actividad, configurar una integración como tablero, configurar una integración y encontrar ayuda.
+Después de activar una integración, ésta se muestra en la página Conectores  de datos. You can view details and make configuration changes on the console. Puede ver las integraciones activas y las integraciones de todos los conjuntos de informes de su empresa. También puede ver un registro de actividad, configurar una integración como tablero, configurar una integración y encontrar ayuda.
 
-![Consola Conectores de datos](assets/data-connectors-console.png)
+![Data Connectors console](assets/data-connectors-console.png)
 
 ## Segmentos de remercadotecnia en conectores de datos
 
@@ -67,7 +67,7 @@ Adobe Analytics los envía en archivos diarios independientes mediante el almac�
 
 * [!UICONTROL Abandonos del carro de compras]: el porcentaje de visitantes que han añadido un producto al carro, pero no lo han comprado. Técnicamente, se trata de una métrica calculada al dividir los encargos por las veces que se ha añadido un producto al carro de compras.
 * [!UICONTROL Compras]: los ID de destinatario (o los ID de visitante) que han realizado compras en base al ID de mensaje de un producto específico.
-* [!UICONTROL Vistas]del producto: De manera similar a Abandonos [!UICONTROL del]carro de compras, también se trata de una métrica calculada. It reports [!UICONTROL Product Views] divided by Orders, because customers' viewing the product shows some interest.
+* [!UICONTROL Product Views]: Similar to [!UICONTROL Cart Abandonment], this is also a calculated metric. It reports [!UICONTROL Product Views] divided by Orders, because customers' viewing the product shows some interest.
 
 **Ejemplos de implementación**
 
@@ -76,10 +76,10 @@ Para implementar correctamente los segmentos de remarketing se deben cumplir las
 * Se ha establecido un contrato de Conectores de datos y su empresa ha completado la fase la implementación con un consultor de Adobe.
 * El evento correspondiente se activa al mismo tiempo que la variable del producto:
    * Abandono del carro de compras: `scAdd` evento
-   * Compras: `purchase` evento
+   * Purchases: `purchase` event
    * Product Views: `prodView` event
 
-**** Nota: Si el producto se define sin un evento asociado, el evento prodView se activa automáticamente.
+**** Nota: If the product is defined without an associated event, the prodView event automatically fires.
 Si no se cumplen los requisitos anteriores, no se informa correctamente de los segmentos de remarketing correspondientes.
 
 [!UICONTROL Abandonos del carro de compras]: se activa después de que el usuario añada un producto al carro de compras:
@@ -105,6 +105,5 @@ s.events="purchase";
 | No se muestra ninguna información del ID de producto en el archivo del segmento de remarketing. | Se produce cuando se activa el evento correcto, pero no hay ninguna variable de producto presente en la misma solicitud de imagen. Para corregir este problema, asegúrese de que la variable de producto y los eventos correspondientes se activen en la misma página, tal como se indica en los ejemplos de implementación anteriores. |
 | No se reciben los archivos del segmento de remarketing. | Si no recibe sus archivos, haga que uno de los usuarios con asistencia de su empresa se ponga en contacto con ClientCare para investigar la causa de los informes que no se reciben correctamente. |
 
-> [!IMPORTANT]
->
-> Es común que los consultores también configuren una solicitud del almacén de datos como un informe programado diario, además del archivo de segmento de remercadotecnia de integración de conectores de datos estándar. Esta solicitud de almacén de datos incluye variables de Conectores de datos, así como variables que no sean de este tipo, y se puede programar solo en base a la solicitud específica de su empresa. Para evitar confusiones durante la resolución de problemas, especifique si el archivo en cuestión es el archivo del segmento de remarketing real o bien una solicitud de almacén de datos que contiene variables que no sean de Genesis.
+
+> [!IMPORTANT] Es común que los consultores también configuren una solicitud del almacén de datos como un informe programado diario, además del archivo de segmento de remercadotecnia de integración de conectores de datos estándar. Esta solicitud de almacén de datos incluye variables de Conectores de datos, así como variables que no sean de este tipo, y se puede programar solo en base a la solicitud específica de su empresa. Para evitar confusiones durante la resolución de problemas, especifique si el archivo en cuestión es el archivo del segmento de remarketing real o bien una solicitud de almacén de datos que contiene variables que no sean de Genesis.
