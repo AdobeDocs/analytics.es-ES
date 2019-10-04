@@ -4,7 +4,7 @@ audience: usuario final
 user-guide-title: Guía de análisis de Analytics
 user-guide-url: /content/help/es-ES/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
+source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
 
 ---
 
@@ -261,7 +261,6 @@ source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
    + [Definición de la configuración de Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Interfaz de usuario de Activity Map](activity-map/activitymap-user-interface.md)
    + [Informes de Activity Map en Analytics](activity-map/activitymap-reporting-analytics.md)
-   + [Integración de Adobe Experience Manager (AEM) Sites y Activity Map](activity-map/aem-sites-integration.md)
    + [Solución de problemas con las extensiones de los exploradores](activity-map/troubleshooting-browser-extensions.md)
    + [Recursos de conocimientos](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
