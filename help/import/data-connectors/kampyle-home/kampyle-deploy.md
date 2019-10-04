@@ -56,7 +56,7 @@ En muchos casos, la forma más sencilla de implementar el objeto de configuraci�
 1. Implemente el código mediante uno de los siguientes métodos:
 | **Utiliza Adobe TagManager o la administración dinámica de etiquetas.** | Utilice la interfaz de administración de etiquetas para agregar el código. |
 |---|---|
-| In all other cases | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |****
+| **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |
 
 ## Verify the Integration{#verify-the-integration}
 
