@@ -8,7 +8,7 @@ title: Introducción a Reports and Analytics
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 957535d7bd5ba9f726950341b6bc0be1e7e75cec
+source-git-commit: cc76128ac4aad2a78a70e84cadf0198d18809498
 
 ---
 
@@ -51,7 +51,7 @@ Requisitos del sistema y del explorador para iniciar sesión en la interfaz de R
 
 ## Inicio de sesión en Informes y análisis
 
-Antes de acceder a la interfaz, colabore con su administrador de cuentas o con el Servicio de atención al cliente para configurar la cuenta de su empresa.
+Antes de acceder a la interfaz, trabaje con el administrador de cuentas o con el servicio de atención al cliente de Adobe para configurar la cuenta de su empresa.
 
 ## Inicie sesión con Experience Cloud
 
