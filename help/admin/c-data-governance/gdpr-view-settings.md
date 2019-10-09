@@ -3,9 +3,9 @@ description: El cuadro de diálogo Administración de datos en Herramientas de a
 seo-description: El cuadro de diálogo Administración de datos en Herramientas de administración proporciona una descripción general de los grupos de informes que se han configurado para el control de datos, si se han asignado a una organización de Experience Cloud y si se ha dispuesto una política de retención de datos para este grupo de informes.
 seo-title: Consulta o administración de la configuración de control de datos del grupo de informes
 title: Consulta o administración de la configuración de control de datos del grupo de informes
-uuid: f 3 b 83 e 8 e -00 af -4 a 60-a 5 de -29 b 5 c 43 f 6788
+uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 
 ---
 
@@ -19,7 +19,7 @@ El cuadro de diálogo Control de datos de Herramientas de administración propor
 
    Verá todos los grupos de informes que forman parte de su empresa de inicio de sesión:
 
-   ![](assets/gdpr_setup_an.png)
+   ![](assets/privacy_setup_an.png)
 
 <table id="table_448292730FF0475E9DCB731882F9A29B"> 
  <thead> 
@@ -38,17 +38,17 @@ El cuadro de diálogo Control de datos de Herramientas de administración propor
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Asignado</b>: este grupo de informes ya ha sido asignado a la organización Experience Cloud como la empresa de inicio de sesión de Analytics en la que inicia sesión. Solo pueden etiquetarse los grupos de informes que tengan esta configuración. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Asignar grupo de informes:</b> al hacer clic en este vínculo, podrá <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">asignar un grupo de informes</a> a una organización Experience Cloud. <p>Esto significa que se le redirigirá a la organización de Experience Cloud - Administración de grupos de informes, donde tendrá que encontrar el grupo de informes y asignarlo a la organización adecuada. Una vez que haya completado ese paso, vuelva a esta interfaz de usuario de control de datos. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Asignar grupo de informes:</b> al hacer clic en este vínculo, podrá <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">asignar un grupo de informes</a> a una organización Experience Cloud. <p>Esto significa que se le redirigirá a la página de administración de la organización de Experience Cloud - Asignación de grupos de informes, donde debe encontrar el grupo de informes y asignarlo a la organización adecuada. Una vez que haya completado ese paso, vuelva a esta interfaz de usuario de control de datos. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Asignado a otra organización:</b> otra organización de Experience Cloud ya ha asignado este grupo de informes a su organización. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Política de retención de datos </p> </td> 
-   <td colname="col2"> <p>La implementación del RGPD de Analytics requiere que establezca una política de retención de datos. </p> <p>Esta configuración indica: </p> 
+   <td colname="col2"> <p>La implementación de Privacidad de datos de Analytics requiere que tenga una política de retención de datos implementada. </p> <p>Esta configuración indica: </p> 
     <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
      <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">si se ha implementado una política de retención de datos para este grupo de informes; </li> 
      <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">cuánto tiempo retiene Adobe los datos antes de eliminarlos. El periodo de retención de datos predeterminado es de 25 meses. </li> 
-    </ul> <p>Nota: Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API de RGPD (es decir, el procesamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos. Póngase en contacto con su gestor de éxito de los clientes para establecer el periodo de retención de datos. </p> </td> 
+    </ul> <p>Nota:  Adobe Analytics no puede ayudarle a procesar solicitudes a la API de privacidad de datos, es decir, procesar solicitudes de acceso o eliminación que reciba de los usuarios finales, si no se ha establecido el período de retención de datos. Póngase en contacto con su gestor de éxito de los clientes para establecer el periodo de retención de datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grupos </p> </td> 
