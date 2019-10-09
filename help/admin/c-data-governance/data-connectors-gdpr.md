@@ -1,26 +1,26 @@
 ---
 description: En esta página se enumeran todas las variables de socio en Data Connectors (anteriormente conocido como Genesis) que podrían contener datos directa o indirectamente identificables de sus interesados.
 seo-description: En esta página se enumeran todas las variables de socio en Data Connectors (anteriormente conocido como Genesis) que podrían contener datos directa o indirectamente identificables de sus interesados.
-seo-title: RGPD y Data Connectors (Genesis)
-title: RGPD y Data Connectors (Genesis)
-uuid: d 3 a 32 c 09-d 3 c 5-452 c -8302-8 da 28 e 62 ead 3
+seo-title: Privacidad de datos y Conectores de datos (Genesis)
+title: Privacidad de datos y Conectores de datos (Genesis)
+uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 ---
 
 
-# RGPD y Data Connectors (Genesis)
+# Privacidad de datos y Conectores de datos (Genesis)
 
 En esta página se enumeran todas las variables de socio en Data Connectors (anteriormente conocido como Genesis) que podrían contener datos directa o indirectamente identificables de sus interesados.
 
-Esta información le permite identificar todos los datos directa o indirectamente identificables importados a través de nuestros conectores cuando reciben una solicitud de RGPD.
+Esta información le permite identificar cualquier dato de identificación directa o datos de identificación indirecta importados a través de nuestros conectores, cuando reciben una solicitud de privacidad de datos.
 
 Si utiliza una integración de cualquiera de los conectores siguientes, simplemente puede comprobar qué clasificaciones/variables asociadas en su integración podrían contener datos directa o indirectamente identificables.
 
 >[!NOTE]
 >
->This information is provided to help you identify variables that must be [labeled](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [GDPR readiness](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) (updating classifications, etc.).
+>Esta información se proporciona para ayudarle a identificar las variables que deben [etiquetarse](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), pero es responsabilidad suya, como controlador de datos, aplicar las etiquetas apropiadas o realizar otras acciones para la preparación [de la privacidad de](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) datos (actualización de clasificaciones, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
@@ -39,7 +39,7 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
   <tr> 
    <td colname="col1"> <p><b>appFigures</b> </p> </td> 
    <td colname="col2"> <p>App Store Object ID -&gt; App Store User </p> <p>App Store Object ID -&gt; Review Comment </p> <p>App Store Object ID -&gt; Review Title </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Aprimo Enterprise Marketing Management</b> </p> </td> 
@@ -73,7 +73,7 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
   </tr> 
   <tr> 
    <td colname="col2"> <p>Dialog Tech Caller -&gt; City </p> <p>Dialog Tech Caller -&gt; First Name </p> <p>Dialog Tech Caller -&gt; Last Name </p> <p>Dialog Tech Caller -&gt; State </p> <p>Dialog Tech Caller -&gt; Street Address </p> <p>Dialog Tech Caller -&gt; Zip Code </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>DREAMmail 2.0</b> </p> </td> 
@@ -83,7 +83,7 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
   <tr> 
    <td colname="col1"> <p><b>Dynamic Signal</b> </p> </td> 
    <td colname="col2"> <p>Tracking Code -&gt; Source ID </p> <p>Tracking Code -&gt; Source Name </p> <p>Tracking Code -&gt; User ID </p> <p>Tracking Code -&gt; User Name </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>eDialog Precision Central</b> </p> </td> 
@@ -102,7 +102,7 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
   </tr> 
   <tr> 
    <td colname="col2"> <p>Message ID -&gt; Mailing List Name </p> <p>Message ID -&gt; Manager ID </p> <p>Message ID -&gt; Manager Name </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Epsilon Harmony</b> </p> </td> 
@@ -121,12 +121,12 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
   </tr> 
   <tr> 
    <td colname="col2"> <p>Foresee Respondent ID -&gt; variable name 1 </p> <p>... </p> <p>Foresee Respondent ID -&gt; variable name n </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Foresee Feedback</b> </p> </td> 
    <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Listrak</b> </p> </td> 
@@ -165,7 +165,7 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
   </tr> 
   <tr> 
    <td colname="col2"> <p>Recipient ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
-   <td colname="col4"> <p>Classifications </p> </td> 
+   <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage</b> </p> </td> 
