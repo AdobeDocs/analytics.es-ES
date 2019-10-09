@@ -7,7 +7,7 @@ title: Instalación de los complementos del explorador de Activity Map
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
+source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
 
 ---
 
@@ -22,7 +22,7 @@ Los complementos del explorador de Activity Map:
 * se inician con un botón o elemento de menú que hay en la barra de herramientas del explorador;
 * solo son compatibles con las últimas versiones de estos exploradores de escritorio: Internet Explorer, Firefox, Chrome y Safari;
 * admiten la característica **[!UICONTROL Recordar mi información de inicio de sesión];**
-* **pueden** insertar la barra de herramientas de Activity Map en las páginas web que no contienen código de página de Analytics; muestran un mensaje de error si la página no contiene código de página de Analytics;
+* **** pueden insertar la barra de herramientas de Activity Map en las páginas web que no contienen código de página de Analytics; muestran un mensaje de error si la página no contiene código de página de Analytics;
 * exigen llevar a cabo un proceso de instalación de complementos de explorador.
 
 ## Install Activity Map plug-in on Chrome {#section_6907253D5D5E4422967E6439207A013F}
