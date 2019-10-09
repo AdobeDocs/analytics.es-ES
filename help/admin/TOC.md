@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 user-guide-url: /content/help/es-ES/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
+source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
 
 ---
 
@@ -49,6 +49,7 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [Widget de publicaciones](admin/publishing-widgets-admin.md)
    + [Administrador de preferencias](admin/preferences-manager.md)
    + [Configuración de privacidad](admin/privacy-settings.md)
+   + [Configuración de privacidad](admin/privacy-reporting.md)
    + Reglas de procesamiento {#processing-rules}
       + [Resumen de las reglas de procesamiento](admin/c-processing-rules/processing-rules.md)
       + Configuración de reglas de procesamiento {#processing-rules-configuration}
@@ -160,18 +161,20 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [Usuarios de correo electrónico](user-management2/t-email-users.md)
 + Gobierno de datos {#data-governance}
    + [Adobe Analytics y el RGPD](c-data-governance/an-gdpr-overview.md)
+   + [Adobe Analytics y CCPA](c-data-governance/an-ccpa-overview.md)
    + [Preguntas frecuentes](c-data-governance/gdpr-faq.md)
-   + [Flujo de trabajo del RGPD en Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
+   + [Flujo de trabajo de privacidad de datos de Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
    + [Consulta o administración de la configuración de control de datos del grupo de informes](c-data-governance/gdpr-view-settings.md)
    + [Etiquetado de datos de grupos de informes](c-data-governance/gdpr-setup-reportsuite.md)
    + [Envío de solicitudes de acceso y eliminación](c-data-governance/gdpr-submit-access-delete.md)
-   + [Etiquetas del RGPD para variables de Analytics](c-data-governance/gdpr-labels.md)
+   + [Etiquetas de privacidad de datos para variables de Analytics](c-data-governance/gdpr-labels.md)
    + [Espacios de nombres](c-data-governance/gdpr-namespaces.md)
    + [Expansión de ID](c-data-governance/gdpr-id-expansion.md)
    + [Prácticas recomendadas de etiquetado](c-data-governance/gdpr-analytics-ids.md)
    + [Ejemplo de etiquetado](c-data-governance/gdpr-labeling-example.md)
-   + [RGPD y Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [Terminología del RGPD](c-data-governance/gdpr-terminology.md)
+   + [Privacidad de datos y Conectores de datos (Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [Terminología de privacidad de datos](c-data-governance/gdpr-terminology.md)
+   + [Variables de administración de consentimiento](c-data-governance/consent-variables.md)
 + Uso de llamadas al servidor {#server-call-usage}
    + [Resumen del uso de llamadas al servidor](c-server-call-usage/overage-overview.md)
    + [Ver uso de llamadas al servidor actual](c-server-call-usage/server-call-usage-dashboard.md)
