@@ -1,47 +1,47 @@
 ---
 description: El reenvío del lado del servidor se diseñó para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de Experience Cloud. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud, y a dichas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 seo-description: El reenvío del lado del servidor se diseñó para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de Experience Cloud. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud, y a dichas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
-seo-title: Descripción general del reenvío del lado del servidor
+seo-title: Resumen del reenvío del lado del servidor
 solution: Audience Manager
-title: Descripción general del reenvío del lado del servidor
-uuid: 22 ddbde 5-6805-4 eba -8 f 82-62772644 dcaa
+title: Resumen del reenvío del lado del servidor
+uuid: 22dbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
 
 ---
 
 
-# Descripción general del reenvío del lado del servidor
+# Resumen del reenvío del lado del servidor
 
 El reenvío del lado del servidor se diseñó para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de Experience Cloud. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud, y a dichas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 
 El reenvío del lado del servidor mejora la recopilación de datos porque:
 
-* Reduce las llamadas desde la página. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Removing DIL means eliminating an `"/event"` call. La reducción de llamadas ayuda a mejorar el tiempo de carga de las páginas, lo que mejora la experiencia del cliente con su sitio.
+* Reduce las llamadas desde la página. With server-side forwarding, [!DNL Audience Manager] customers no longer need to use DIL for data collection because it is being forwarded from Analytics. Eliminar DIL significa eliminar una `"/event"` llamada. La reducción de llamadas ayuda a mejorar el tiempo de carga de las páginas, lo que mejora la experiencia del cliente con su sitio.
 * Le permite aprovechar el uso compartido de datos entre soluciones de Experience Cloud.
 * Se conforma a las prácticas recomendadas para la implementación de código de Audience Manager.
 
 >[!TIP]
 >
->Los clientes actuales de Audience Manager que utilicen Analytics deberían migrar al reenvío de servidor. Los nuevos clientes de Adobe Analytics y Audience Manager deberían implementar el reenvío del lado del servidor (en lugar de DIL) como método predeterminado de recopilación y transferencia de datos.
+>Los clientes actuales de Audience Manager que utilicen Analytics deben migrar al reenvío de servidor. Los nuevos clientes de Adobe Analytics y Audience Manager deberían implementar el reenvío del lado del servidor (en lugar de DIL) como método predeterminado de recopilación y transferencia de datos.
 
 >[!IMPORTANT]
 >A instancias del reglamento de la UE sobre cumplimiento normativo de las cookies, los controladores de datos (clientes de Analytics) tienen ahora la opción de restringir a Adobe Analytics los datos previos al consentimiento y de impedir que se reenvíen en el lado del servidor a Adobe Audience Manager (AAM). Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que dichas visitas se envíen a AAM hasta haber recibido el consentimiento. Para obtener más información, consulte RGPD_ePrivacy cumplimiento y reenvío del lado del servidor.
 
 Para comprender la posición de su organización en cuanto a la implementación del reenvío del lado del servidor, siga estos pasos de validación:
 
-## ![Paso 1_ icon. png Imagen](assets/step1_icon.png) Verificación de la implementación del servicio MID
+## ![step1_icon.png image](assets/step1_icon.png) Verificar implementación del servicio MID
 
 Compruebe si el servicio Experience Cloud ID (MID) está implementado. Para ello, consulte la [solicitud de seguimiento de Analytics](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html).
 
-En la pestaña Solicitud, compruebe que haya un valor establecido para MID. Esto indica que el servicio de identidad se implementa correctamente, que es un requisito previo para el reenvío de servidor.
+En la pestaña Solicitud, compruebe que haya un valor establecido para MID. Esto le indica que el servicio de identidad se implementa correctamente, lo cual es un requisito previo para el reenvío del lado del servidor.
 
 * Si ve un valor para MID, siga con el paso 2.
 * If you do not see a MID value, [implement Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-implementation-guides.html) before proceeding to step 2.
 
-## ![Paso 2_ icon. png Imagen](assets/step2_icon.png) Verificación de la versión de implementación del reenvío del lado del servidor
+## ![step2_icon.png image](assets/step2_icon.png) Verificar la versión de implementación de reenvío del lado del servidor
 
-Verify whether you already have a version of server-side forwarding implemented, by [inspecting the Analytics tracking request](../../../admin/admin/c-server-side-forwarding/ssf-verify.md).
+Compruebe si ya tiene implementada una versión del reenvío del lado del servidor, [inspeccionando la solicitud](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)de seguimiento de Analytics.
 
 En la pestaña “Respuesta”, compruebe que la respuesta contenga datos de Audience Manager. Si ve:
 
@@ -56,7 +56,7 @@ En la pestaña “Respuesta”, compruebe que la respuesta contenga datos de Aud
    * **Nuevos clientes de AAM**: instale el código de página [Módulo Gestión de público](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
 
 
-## ![Paso 3_ icon. png Imagen](assets/step3_icon.png) Verificación de la implementación del reenvío del lado del servidor del grupo de informes
+## ![step3_icon.png image](assets/step3_icon.png) Verificación de la implementación de reenvío de servidor del grupo de informes
 
 Compruebe si tiene implementado el reenvío del lado del servidor en el nivel de grupo de informes, en vez del antiguo enfoque del servidor de seguimiento.
 
