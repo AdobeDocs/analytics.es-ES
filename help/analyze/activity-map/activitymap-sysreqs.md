@@ -1,18 +1,18 @@
 ---
 description: Activity Map es compatible con los siguientes exploradores web.
 seo-description: Activity Map es compatible con los siguientes exploradores web.
-seo-title: Sistemas y requisitos compatibles
+seo-title: Sistemas compatibles y requisitos
 solution: Analytics
-title: Sistemas y requisitos compatibles
+title: Sistemas compatibles y requisitos
 topic: Activity Map
-uuid: 0 c 1 f 0698-0148-46 f 6-81 e 9-fc 5051289 d 9 f f
+uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: fbb87317ffc7fa0f5011dfe518ef15394edb7db7
 
 ---
 
 
-# Sistemas y requisitos compatibles
+# Sistemas compatibles y requisitos
 
 Activity Map es compatible con los siguientes exploradores web.
 
@@ -21,11 +21,10 @@ Activity Map es compatible con los siguientes exploradores web.
 | Internet Explorer | Última versión |
 | Firefox | Última versión |
 | Chrome | Última versión. Nota: El complemento de Activity Map para Chrome solo está en “modo de desarrollador” de momento. Al iniciar este complemento, verá un mensaje donde se le sugerirá que deshabilite las extensiones en modo de desarrollador. Este mensaje se mostrará cada vez que se inicie el complemento. |
-| Safari | Última versión |
 
 >[!NOTE]
 >
->Desde una perspectiva de recopilación de vínculos, Activity Map admite una lista de exploradores mucho más extensa.
+>Desde el punto de vista de la recopilación de vínculos, Activity Map admite una lista mucho mayor de exploradores.
 
 Otros requisitos:
 
