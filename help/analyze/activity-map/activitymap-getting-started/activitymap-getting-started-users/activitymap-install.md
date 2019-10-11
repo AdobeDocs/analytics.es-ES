@@ -7,7 +7,7 @@ title: Instalación de los complementos del explorador de Activity Map
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
+source-git-commit: 696076af9407d47e3ce3e78c262e266101e90648
 
 ---
 
@@ -20,7 +20,7 @@ Los complementos del explorador de Activity Map:
 
 * se insertan manualmente como etiqueta de página de Analytics;
 * se inician con un botón o elemento de menú que hay en la barra de herramientas del explorador;
-* solo son compatibles con las últimas versiones de estos exploradores de escritorio: Internet Explorer, Firefox, Chrome y Safari;
+* Solo son compatibles con las versiones más recientes de estos exploradores de escritorio: Internet Explorer, Firefox y Chrome.
 * admiten la característica **[!UICONTROL Recordar mi información de inicio de sesión];**
 * **** pueden insertar la barra de herramientas de Activity Map en las páginas web que no contienen código de página de Analytics; muestran un mensaje de error si la página no contiene código de página de Analytics;
 * exigen llevar a cabo un proceso de instalación de complementos de explorador.
@@ -62,11 +62,3 @@ Los complementos del explorador de Activity Map:
 1. Haga clic en **[!UICONTROL Sí]en la ventana emergente para permitir al programa hacer cambios en el equipo.**
 1. Siga las instrucciones del asistente de instalación.
 1. Si Activity Map se ha instalado correctamente, verá una notificación en Internet Explorer que indica que la barra de herramientas de Activity Map está lista para su uso. Habilítela para empezar a usar la aplicación. Ahora puede [iniciar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) desde la página.
-
-## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
-
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Activity Map]**.
-
-1. Vaya a <https://safari-extensions.apple.com/>.
-1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. Ahora puede [iniciar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) desde la página.
