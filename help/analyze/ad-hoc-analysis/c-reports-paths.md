@@ -5,9 +5,9 @@ seo-title: Informes de rutas
 solution: Analytics
 title: Informes de rutas
 topic: Ad Hoc Analysis
-uuid: 5881 cb 1 c -6 d 66-49 fe-ac 84-70 b 82662 acd 2
+uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -16,43 +16,43 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
 
-## Paths reports {#concept_CB32E270FB9E4D929C91FDFE428CB224}
+## Informes de rutas {#concept_CB32E270FB9E4D929C91FDFE428CB224}
 
 Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
 
 Los informes de rutas incluyen informes exhaustivos estándar y de análisis avanzado opcionales que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
 
-** [!UICONTROL Next Page Flow] ** or ** [!UICONTROL Next Site Flow]**: Displays a two-level-deep branching graphic of a selected page (or section, department, and so on), that your visitors view after moving away from the selected page. Use este informe para analizar e identificar los pasos que siguen los visitantes con más frecuencia después de ver una página determinada. Puede:
+**[!UICONTROL Flujo de página siguiente]** o **[!UICONTROL Flujo de sitio siguiente]**: muestra un gráfico ramificado de dos niveles de una página seleccionada (o sección, departamento, etc.) que el visitante ve tras irse de la página seleccionada. Use este informe para analizar e identificar los pasos que siguen los visitantes con más frecuencia después de ver una página determinada. Puede:
 
 * Comprender los pasos que se siguen con mayor frecuencia después de ver una página seleccionada.
 * Optimizar el diseño de rutas del sitio para canalizar el tráfico hacia una página objetivo.
 * Identificar hacia dónde se dirigen los visitantes en lugar de visitar las páginas objetivo.
 
-** [!UICONTROL Next Page] ** (or next categories): Provides detailed site path analysis by showing you the pages on your site that visitors viewed after seeing a selected page. Por ejemplo, cuando selecciona y genera informes sobre todo el sitio, el informe muestra las diez páginas de aterrizaje principales con las cinco páginas siguientes más populares enumeradas debajo de cada página de aterrizaje. Esta información le ayudará a entender qué contenido, qué características y qué otros datos instan a los visitantes a navegar por el sitio.
+**[!UICONTROL Página siguiente]** (o categorías siguientes): ofrece un análisis detallado de las rutas del sitio mostrándole las páginas del sitio que los visitantes vieron después de ver una página determinada. Por ejemplo, cuando selecciona y genera informes sobre todo el sitio, el informe muestra las diez páginas de aterrizaje principales con las cinco páginas siguientes más populares enumeradas debajo de cada página de aterrizaje. Esta información le ayudará a entender qué contenido, qué características y qué otros datos instan a los visitantes a navegar por el sitio.
 
-** [!UICONTROL Previous Page Flow] ** (or other previous categories flow): Displays two levels of the most popular pages that your visitors view before the selected page. El informe también indica el momento en el que los visitantes entran en el sitio.
+**[!UICONTROL Flujo de página anterior]** (u otro flujo de categorías anterior): muestra dos niveles de las páginas más populares que sus visitantes ven antes de la página seleccionada. El informe también indica el momento en el que los visitantes entran en el sitio.
 
-** [!UICONTROL Previous Page] ** (or other previous categories): Provides detailed site path analysis by showing you the pages on your site that visitors viewed before seeing a selected page on your site.
+**[!UICONTROL Página anterior]** (u otras categorías anteriores): proporciona un análisis detallado de las rutas del sitio mostrando las páginas de este que los visitantes vieron antes de ver una página seleccionada del sitio.
 
-** [!UICONTROL Fallout] **: Displays the visit attrition and conversion rates between each checkpoint you define. Los pasos están organizados desde arriba hacia abajo, con las cifras y porcentajes sin procesar a la izquierda, y la conversión y los porcentajes de visitas en el orden previsto a la derecha.
+**[!UICONTROL Visita en el orden previsto]**: muestra la baja en visitas y los índices de conversión entre cada punto de comprobación definido. Los pasos están organizados desde arriba hacia abajo, con las cifras y porcentajes sin procesar a la izquierda, y la conversión y los porcentajes de visitas en el orden previsto a la derecha.
 
 Consulte [Informe de visitas en el orden previsto](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obtener más información.
 
-** [!UICONTROL Path Length] **: Shows how deep visitors browse into your site (both by percentage and by total count). Dicho de otro modo, el informe indica la cantidad de páginas en las que entra el visitante promedio antes de retirarse.
+**[!UICONTROL Longitud de ruta]**: muestra la profundidad con que los visitantes navegan por el sitio (según el porcentaje y el recuento total). Dicho de otro modo, el informe indica la cantidad de páginas en las que entra el visitante promedio antes de retirarse.
 
-** [!UICONTROL Page Analysis] **: Contains a subset of reports that let you analyze the following:
+**[!UICONTROL Análisis de página]**: contiene un subconjunto de informes que permiten analizar lo siguiente:
 
-* ** [!UICONTROL Page Summary / Site Category Summary] **: Tells you everything you need to know about the page report. Este informe toma y organiza información específica acerca de una página individual y la presenta en un informe único.
-* ** [!UICONTROL Reloads] **: Shows the number of times individual pages were reloaded by visitors.
-* ** [!UICONTROL Time Spent on Page / Site Category] **: Displays the length of time that visitors browse individual pages in your site. El tiempo empleado se divide en diez categorías: menos de 15 segundos, entre 15 y 30 segundos, entre 30 y 60 segundos, entre 1 y 3 minutos, entre 3 y 5 minutos, entre 5 y 10 minutos, entre 10 y 15 minutos, entre 20 y 30 minutos y más de 30 minutos.
-* ** [!UICONTROL Clicks to Page] **: Identifies the number of clicks visitors used to access each page in your site. La profundidad de una página se mide contando la cantidad de páginas vistas antes de ella.
+* **[!UICONTROL Resumen de página / Resumen de categoría del sitio]**: indica todo lo que se necesita saber sobre el informe de página. Este informe toma y organiza información específica acerca de una página individual y la presenta en un informe único.
+* **[!UICONTROL Recargas]**: muestra la cantidad de veces que los visitantes recargaron las páginas individuales.
+* **[!UICONTROL Tiempo invertido en la página / Categoría del sitio]**: muestra durante cuánto tiempo los visitantes navegan por páginas individuales del sitio. El tiempo empleado se divide en diez categorías: menos de 15 segundos, entre 15 y 30 segundos, entre 30 y 60 segundos, entre 1 y 3 minutos, entre 3 y 5 minutos, entre 5 y 10 minutos, entre 10 y 15 minutos, entre 20 y 30 minutos y más de 30 minutos.
+* **[!UICONTROL Clics hasta la página]**: identifica la cantidad de clics que los visitantes hicieron para acceder a cada página del sitio. La profundidad de una página se mide contando la cantidad de páginas vistas antes de ella.
 
-** [!UICONTROL Entries &amp; Exits] **: The [!UICONTROL Entry Page] report shows you, by percentage and by total visits, which pages on your site are the first ones seen by new visitors. Se pueden ver:
+**[!UICONTROL Entradas y salidas]**: el informe de [!UICONTROL página de entrada] muestra, según el porcentaje y el número total de visitas, qué páginas del sitio son las primeras en ser vistas por un nuevo visitante. Se pueden ver:
 
-* ** [!UICONTROL Entry Pages] ** (or sections): Displays, by percentage and by total visits, which pages on your site are the first pages seen by a new visitor. Puede utilizar este informe para identificar qué páginas web del sitio son los puntos de entrada más frecuentes; optimizar los principales puntos de entrada al sitio y dirigir el tráfico de entrada hacia los mensajes clave.
-* ** [!UICONTROL Original Entry Pages] **: Shows the first page viewed for first-time visitors to your site. Cada uno de los usuarios se cuenta una sola vez, a menos que estos borren sus cookies o que no se los esté rastreando con cookies.
-* ** [!UICONTROL Single Page Visits] **: Shows pages that are most often both the entry and exit pages for visitor browsing sessions.
-* ** [!UICONTROL Exit Pages] **: Displays, by percentage and by total visits, the pages on your site that were the last pages visitors viewed before leaving your site.
+* **[!UICONTROL Páginas de entrada]** (o secciones): muestra, según el porcentaje y el número total de visitas, las páginas del sitio que son las primeras en ser vistas por un nuevo visitante. Puede utilizar este informe para identificar qué páginas web del sitio son los puntos de entrada más frecuentes; optimizar los principales puntos de entrada al sitio y dirigir el tráfico de entrada hacia los mensajes clave.
+* **[!UICONTROL Páginas de entrada originales]**: muestra la primera página vista por los visitantes que entraron en el sitio por primera vez. Cada uno de los usuarios se cuenta una sola vez, a menos que estos borren sus cookies o que no se los esté rastreando con cookies.
+* **[!UICONTROL Visitas a una sola página]**: muestra las páginas que, con mayor frecuencia, constituyen la página de entrada y de salida en las sesiones de navegación de los visitantes.
+* **[!UICONTROL Páginas de salida]**: muestra, según el porcentaje y el número total de visitas, las páginas del sitio que fueron las últimas en ser vistas por los visitantes antes de abandonar el sitio.
 
 ## Informe de visitas en el orden previsto {#concept_0ED452F3B1D04A19A59DD04D76D20347}
 
@@ -121,5 +121,5 @@ r_dsc_fallout.xml
 | Éxito total % | Un total acumulado del porcentaje de llegada a un punto de comprobación. |
 | Punto de comprobación % | Porcentaje de éxito entre puntos de comprobación (no es acumulado). |
 | Incluir todas las visitas | Agrega todas las visitas como punto de comprobación inicial. |
-| Visitas en el orden previsto | Permite ver las páginas que se vieron después de que el visitante abandonó la ruta de puntos de comprobación especificada. |
+| Abandono | Permite ver las páginas que se vieron después de que el visitante abandonó la ruta de puntos de comprobación especificada. |
 | Visita en orden imprevisto | Permite ver las páginas que se vieron en el siguiente paso de la ruta de puntos de comprobación especificada. |
