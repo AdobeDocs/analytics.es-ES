@@ -5,9 +5,9 @@ seo-title: Filtros más utilizados
 solution: Analytics
 title: Filtros más utilizados
 topic: Creador de informes
-uuid: 558 fa 592-41 be -4 e 66-8705-81262 afe 1 fc 7
+uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -22,7 +22,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Cree o edite una solicitud y avance en el [!UICONTROL Asistente para solicitudes: Paso 2].
 
-   ![Información de paso](assets/dimension_filter.png)
+   ![Información del paso](assets/dimension_filter.png)
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2]**, haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione[!UICONTROL Filtro]**.
 1. En el formulario [!UICONTROL Elegir página]**, active[!UICONTROL Más populares]** y después configure las siguientes opciones:
@@ -39,17 +39,17 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Para crear una expresión de búsqueda, haga clic en **[!UICONTROL Añadir]**.
 
-   ![Información de paso](assets/expressions_define_filter.png)
+   ![Información del paso](assets/expressions_define_filter.png)
 
 1. En el formulario [!UICONTROL Definir filtro], configure las condiciones adecuadas para sus necesidades.
 
    ![select_cell_icon.png](assets/select_cell_icon.png): Permite localizar una condición definida en el valor de una celda.
 
-   ** Añadir condición: ** Añade una condición a la expresión. No existe límite en la cantidad de condiciones que se pueden añadir.
+   **Añadir condición:** Añade una condición a la expresión. No existe límite en la cantidad de condiciones que se pueden añadir.
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
-   ![Información de paso](assets/choose_page_02.png)
+   ![Información del paso](assets/choose_page_02.png)
 
 1. En el formulario [!UICONTROL Seleccionar página]**, haga clic en[!UICONTROL Guardar]** para guardar la expresión.
 1. Haga clic en **[!UICONTROL Aceptar]**.
