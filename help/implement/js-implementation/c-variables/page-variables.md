@@ -9,7 +9,7 @@ title: Variables de página
 topic: Desarrollador e implementación
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -129,9 +129,9 @@ There are two main ways to populate the *`campaign`* variable:
 
 * El complemento [!UICONTROL getQueryParam], usado en el archivo JavaScript, recupera un parámetro de cadena de consulta de la dirección URL. Para obtener más información sobre el complemento [!UICONTROL getQueryParam], consulte [Complementos de implementación](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-* Assign a value to the  variable in the HTML on the Web page.*`campaign`*
+* Asigne un valor a la *`campaign`* variable en el HTML de la página Web.
 
-With either method of populating the  variable, the Back button traffic may inflate the actual number of click-throughs from a campaign element.*`campaign`*
+Con cualquiera de los métodos para rellenar la *`campaign`* variable, el tráfico del botón Atrás puede aumentar el número real de pulsaciones desde un elemento de campaña.
 
 Por ejemplo, un visitante entra en el sitio haciendo clic en una palabra clave de búsqueda de pago. Cuando el visitante llega a la página de aterrizaje, la dirección URL contiene un parámetro de cadena de consulta que identifica el código de seguimiento de la palabra clave. Después, el visitante hace clic en un vínculo a otra página, pero inmediatamente hace clic en el botón Atrás para volver a la página de aterrizaje. Cuando el visitante llega por segunda vez a la página de aterrizaje, la dirección URL con el parámetro de cadena de consulta identifica de nuevo el código de seguimiento y se registra una segunda pulsación, aumentando incorrectamente el número de pulsaciones.
 
@@ -312,7 +312,7 @@ Cuando se establece un valor en una eVar para un visitante, el valor se recuerda
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| 255 bytes | V1-v75 ( or v100 or v250)[](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28) | Conversión personalizada | "" |
+| 255 bytes | V1-v75 ( [o v100 o v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | Conversión personalizada | "" |
 
 **Caducidad** {#section_6DB5882B960D4660AE248B91B76883C4}
 
@@ -359,7 +359,7 @@ s.eVar23="internal spring promo 4"
 
 **Parámetros de configuración** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
 
-eVars can be configured in Analytics &gt; Admin &gt; Report Suites &gt; Edit Settings &gt; Conversion &gt; Conversion Variables.  Todas las eVars se pueden configurar con un [!UICONTROL Nombre], [!UICONTROL Tipo], [!UICONTROL Asignación], [!UICONTROL Caduca después de] o [!UICONTROL Restaurar]. Cada opción de configuración se trata por separado.
+Las eVars se pueden configurar en [!UICONTROL Analytics &gt; Administración &gt; Grupos de informes &gt; Editar configuración &gt; Conversión &gt; Variables]de conversión. Todas las eVars se pueden configurar con un [!UICONTROL Nombre], [!UICONTROL Tipo], [!UICONTROL Asignación], [!UICONTROL Caduca después de] o [!UICONTROL Restaurar]. Cada opción de configuración se trata por separado.
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -563,7 +563,7 @@ Ninguna
 
 >[!NOTE]
 >
->Changes to hierarchies can result in a service charge.
+>Los cambios en las jerarquías pueden resultar en un cargo por servicio.
 
 ## homepage {#concept_0A3E416F1A064BA396B5FCEABFB7B0B4}
 
@@ -727,7 +727,7 @@ The *`linkType`* variable is not normally needed because the second parameter in
 
 Los vínculos personalizados envían datos a Analytics. The *`linkType`* variable (or the second parameter in the *`tl()`* function) is used to identify the report in which the link name or URL appears ( [!UICONTROL Custom], [!UICONTROL Download], or [!UICONTROL Exit Links] report).
 
-For exit and download Links, the  variable is automatically populated depending on whether the link clicked is an exit or download link. *`linkType`* A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. By setting  to 'o,' 'e,' or 'd,' the  or link URL is sent to the Custom Links, Exit Links, or File Downloads report respectively.*`linkType`**`linkName`*
+Para los vínculos de salida y de descarga, la *`linkType`* variable se rellena automáticamente en función de si el vínculo en el que se hizo clic es de salida o de descarga. A custom link may be configured to send data to any of the three reports with this variable or with the second parameter in the *`tl()`* function. Al establecer *`linkType`* en 'o', 'e' o 'd', la dirección URL *`linkName`* o del vínculo se envía respectivamente al informe Vínculos personalizados, Vínculos [!UICONTROL de]salida o Descargas [!UICONTROL de] archivos.
 
 **Sintaxis y valores posibles** {#section_18DB3A8083FB4F75B970055ED336DA4E}
 
@@ -756,7 +756,7 @@ Ninguna
 
 **Problemas, preguntas y consejos** {#section_F0D01DDE3FDA486C987162DA50A79C45}
 
-* If  is not specified, custom links ('o') is assumed.*`linkType`*
+* Si no *`linkType`* se especifica, se asumen los vínculos personalizados ('o').
 
 ## props de lista {#concept_83ED74232225431F83A796E22FFC75B4}
 
@@ -841,7 +841,7 @@ Puede acceder a la configuración en Admin Console y actualizarla sin tener que 
 
    >[!NOTE]
    >
-   >Multi-byte characters are not supported as delimiters in List Vars. El delimitador debe ser de un solo byte.
+   >Los caracteres de byte múltiple no se admiten como delimitadores en las variables de lista. El delimitador debe ser de un solo byte.
 
 * **Caducidad**: similar a la caducidad de eVar, determina la cantidad de tiempo que puede transcurrir entre la variable de lista y el evento de conversión para que se relacionen.
 
@@ -903,7 +903,7 @@ Este resultado mostraría tres elementos de línea con 50 dólares de ingresos c
 <table id="table_09E1879B44624A858555449E2DC74E69"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Página </th> 
+   <th colname="col1" class="entry"> Activity Map </th> 
    <th colname="col2" class="entry"> s.list1 </th> 
    <th colname="col3" class="entry"> s.events/s.products </th> 
   </tr> 
@@ -956,7 +956,7 @@ s.maxDelay="750";
 
 >[!NOTE]
 >
->Adobe does not have control over DFA's response time. Si experimenta problemas continuos incluso después de aumentar el tiempo de demora máximo a un valor razonable, consulte con el administrador de cuentas DFA de su organización.
+>Adobe no controla el tiempo de respuesta de DFA. Si experimenta problemas continuos incluso después de aumentar el tiempo de demora máximo a un valor razonable, consulte con el administrador de cuentas DFA de su organización.
 
 ## mediaLength {#concept_F52B1670122C4461824223E525307060}
 
@@ -989,7 +989,7 @@ mediaLength.xml
 
 **Sintaxis y valores posibles** {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** Método autoTrack: **
+**Método autoTrack:**
 
 Si se usa [!UICONTROL s.Media.autoTrack], no es necesario implementar la variable [!UICONTROL mediaLength] explícitamente. El código de AppMeasurement para JavaScript la determina automáticamente.
 
@@ -1978,7 +1978,7 @@ The *`server`* variable can be used to show which domains are most popular or wh
 
 ## state {#concept_82295D22888947BF8B1C76182C635C6C}
 
-The  and  variables are conversion variables.
+Las variables y son variables de conversión.
 
 <!-- 
 
@@ -2187,7 +2187,7 @@ s.transactionID=s.purchaseID
 
 * Si *`transactionID`* la grabación no está habilitada, *`transactionID`* los valores se descartarán y no estarán disponibles para su uso con las fuentes [!UICONTROL de datos de]integración. Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. De lo contrario, no se registrarán datos para *`transactionID`*.
 
-* Si está registrando [!UICONTROL transactionIDs] para varios sistemas, como compras y posibles clientes, asegúrese de que el valor de *`transactionID`* siempre sea único. Esto puede conseguirse agregando un prefijo a la ID, por ejemplo, lead_1234 y purchase_1234. [!UICONTROL Integration Data Sources] do not function as expected ( [!UICONTROL Data Source] data will tie to the wrong data) if a unique *`transactionID`* is seen twice.
+* Si está registrando [!UICONTROL transactionIDs] para varios sistemas, como compras y posibles clientes, asegúrese de que el valor de *`transactionID`* siempre sea único. Esto puede conseguirse agregando un prefijo a la ID, por ejemplo, lead_1234 y purchase_1234. [!UICONTROL Las fuentes] de datos de integración no funcionan como se espera (los datos de las fuentes [!UICONTROL de] datos se vincularán a los datos incorrectos) si se ve dos veces una única *`transactionID`* .
 
 * De forma predeterminada, *`transactionID`* los valores se recuerdan durante 90 días. Si el proceso de interacción sin conexión supera los 90 días, póngase en contacto con el Servicio de atención al cliente para ampliar el límite.
 
