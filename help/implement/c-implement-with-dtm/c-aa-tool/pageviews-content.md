@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Administración dinámica de etiquetas
 title: Vistas de página y contenido
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,19 +28,19 @@ Descripción de los campos en Dynamic Tag Management de la configuración de vis
  <tbody> 
   <tr> 
    <td colname="col1"> Nombre de la página </td> 
-   <td colname="col2"> <p>El nombre de cada una de las páginas del sitio. </p> <p>Consulte [Variables de página](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>El nombre de cada una de las páginas del sitio. </p> <p>Consulte Variables <a href="/help/implement/js-implementation/c-variables/page-variables.md">de página</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Anulación de URL de la página </td> 
-   <td colname="col2"> <p> Anula la dirección URL real de la página. </p> <p>Consulte [Variables de página](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p> Anula la dirección URL real de la página. </p> <p>Consulte Variables <a href="/help/implement/js-implementation/c-variables/page-variables.md">de página</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Canal (sección del sitio) </td> 
-   <td colname="col2"> <p>Identifica una sección del sitio. </p> <p>Consulte [Variables de página](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Identifica una sección del sitio. </p> <p>Consulte <a href="/help/implement/js-implementation/c-variables/page-variables.md">Variables de página</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Jerarquía </td> 
-   <td colname="col2"> <p>Determina la ubicación de una página en la jerarquía del sitio. </p> <p>Consulte [Variables de página](/help/implement/js-implementation/c-variables/page-variables.md). </p> </td> 
+   <td colname="col2"> <p>Determina la ubicación de una página en la jerarquía del sitio. </p> <p>Consulte Variables <a href="/help/implement/js-implementation/c-variables/page-variables.md">de página</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
