@@ -7,7 +7,7 @@ title: Fuentes de tráfico
 topic: Informes
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a15d51f41462ce2689849c6b998097ae56497e33
 
 ---
 
@@ -72,7 +72,7 @@ Los informes de este menú se dividen en tres categorías básicas:
   </tr> 
   <tr> 
    <td colname="col1"> Referentes </td> 
-   <td colname="col2"> <p> Muestra el dominio o la dirección URL desde donde los visitantes llegaron al sitio, cómo encontraron el sitio web y la cantidad de visitas al sitio provenientes de esas ubicaciones referentes. </p> <p>Por ejemplo, si un visitante llega al sitio haciendo clic en un vínculo desde el sitio A, y el sitio A no está definido como parte del dominio, entonces el sitio A es el sitio referente. Durante la implementación, un asesor de implementación puede ayudarle a definir los dominios y las direcciones URL que forman parte de su sitio web (también se puede hacer después de la implementación). Todo dominio o dirección URL que no forme parte de esos dominios y esas direcciones URL que se hayan definido se considerarán referentes. </p> <p>Por ejemplo, si una página web A y una página web B se agregan al filtro de dirección URL interno pero no así la página web C, entonces la página web C se considerará un referente. </p> <p>Consulte <a href="/help/admin/admin/internal-URL-filter-admin.md">Filtros URL internos</a></p> <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Los mensajes de correo electrónico de Outlook se presentarán en los informes en la línea <span class="wintitle">Escritos o marcadores</span>, mientras que todo referente con un protocolo HTTP cuyo dominio sea un motor de búsqueda conocido se presentará en la línea <span class="wintitle">Motor de búsqueda</span>. </p> </td> 
+   <td colname="col2"> <p> Muestra el dominio o la dirección URL desde donde los visitantes llegaron al sitio, cómo encontraron el sitio web y la cantidad de visitas al sitio provenientes de esas ubicaciones referentes. </p> <p>Por ejemplo, si un visitante llega al sitio haciendo clic en un vínculo desde el sitio A, y el sitio A no está definido como parte del dominio, entonces el sitio A es el sitio referente. Durante la implementación, un asesor de implementación puede ayudarle a definir los dominios y las direcciones URL que forman parte de su sitio web (también se puede hacer después de la implementación). Todo dominio o dirección URL que no forme parte de esos dominios y esas direcciones URL que se hayan definido se considerarán referentes. </p> <p>Por ejemplo, si una página web A y una página web B se agregan al filtro de dirección URL interno pero no así la página web C, entonces la página web C se considerará un referente. </p> <p>Consulte <a href="/help/admin/admin/internal-URL-filter-admin.md"> Filtros URL internos</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Los mensajes de correo electrónico de Outlook se presentarán en los informes en la línea <span class="wintitle">Escritos o marcadores</span>, mientras que todo referente con un protocolo HTTP cuyo dominio sea un motor de búsqueda conocido se presentará en la línea <span class="wintitle">Motor de búsqueda</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tipos de referente </td> 
@@ -86,4 +86,3 @@ Los informes de este menú se dividen en tres categorías básicas:
   </tr> 
  </tbody> 
 </table>
-
