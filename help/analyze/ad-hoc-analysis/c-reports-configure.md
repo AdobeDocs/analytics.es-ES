@@ -1,16 +1,16 @@
 ---
 description: Información sobre las diversas acciones que se pueden realizar en un informe, por ejemplo configurar gráficos, crear desgloses y extraer datos.
 seo-description: Información sobre las diversas acciones que se pueden realizar en un informe, por ejemplo configurar gráficos, crear desgloses y extraer datos.
-seo-title: Configurar informes existentes
-title: Configurar informes existentes
-uuid: 5 c 7 bb 66 a-a 9 a 2-49 fe-ba 98-1 a 99 a 922 f 6 b 1
+seo-title: Configurar informes ya creados
+title: Configurar informes ya creados
+uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Configurar informes existentes
+# Configurar informes ya creados
 
 Información sobre las diversas acciones que se pueden realizar en un informe, por ejemplo configurar gráficos, crear desgloses y extraer datos.
 
@@ -52,7 +52,7 @@ En un informe, haga clic en la lista desplegable **[!UICONTROL Acciones de infor
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opciones de envío </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Delivery Options</a>. </p> </td> 
+   <td colname="col2"> <p> Consulte <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Opciones</a>de envío. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Imprimir </p> </td> 
@@ -64,7 +64,7 @@ En un informe, haga clic en la lista desplegable **[!UICONTROL Acciones de infor
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fuentes de datos </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local">Ficha Configuración general: definiciones</a> </p> </td> 
+   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ver </p> </td> 
@@ -162,7 +162,7 @@ Ciertos informes permiten desglosar los datos de la tabla para poder ver los dat
 
    >[!NOTE]
    >
-   >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. Cuando abra un informe con desgloses guardado o programado, es posible que tenga que hacer clic en **[!UICONTROL Reemplazar tabla]para refrescar un desglose de los datos del informe dinámico.** Por ejemplo, es posible que tenga que actualizar un informe programado que contenga desgloses de artículos de línea que pueden cambiar en función del intervalo de fecha o la actividad del visitante.
+   >Para obtener más flexibilidad, utilice el Generador [de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tablas para configurar un informe con desgloses. Cuando abra un informe con desgloses guardado o programado, es posible que tenga que hacer clic en **[!UICONTROL Reemplazar tabla]para refrescar un desglose de los datos del informe dinámico.** Por ejemplo, es posible que tenga que actualizar un informe programado que contenga desgloses de artículos de línea que pueden cambiar en función del intervalo de fecha o la actividad del visitante.
 
 >[!MORE_LIKE_THIS]
 >
@@ -207,7 +207,7 @@ t_reports_extract_ID.xml
 
  -->
 
-En Informes y análisis, puede definir un campo que contenga datos de ID de usuario. Para que la opción [!UICONTROL Extraer ID de visitantes] esté disponible, hay que configurarla. Si no habilitó esta opción en, pero decide habilitarla más tarde, no podrá extraer ID históricas de visitantes en forma retroactiva.
+En Informes y análisis, puede establecer un campo que contenga datos de ID de usuario. Para que la opción [!UICONTROL Extraer ID de visitantes] esté disponible, hay que configurarla. Si no habilitó esta opción en, pero decide habilitarla más tarde, no podrá extraer ID históricas de visitantes en forma retroactiva.
 
 **Para extraer las ID de visitantes**
 
@@ -228,7 +228,7 @@ t_reports_trending_row.xml
 
 Durante la inspección de un informe de clasificación (por ejemplo, un informe de productos), se pueden ver datos de tendencia para cualquier valor que se desee. Por ejemplo, supongamos que en el informe se ve que un producto obtuvo ingresos brutos por 10.000 $ durante un período seleccionado. Si desea ver cuántos ingresos generó ese producto en cada día de ese período, puede mostrar un gráfico de tendencia del producto o abrir un informe de tendencia por separado.
 
-** Para analizar la tendencia en una fila**
+**Para analizar la tendencia en una fila**
 
 1. Ejecutar un informe de clasificación.
 1. Haga clic en el icono [!UICONTROL Tendencia] ![. ](assets/TrendInspector_Buttcon.png)
