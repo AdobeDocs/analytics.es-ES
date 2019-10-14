@@ -3,9 +3,9 @@ description: El nuevo sistema Alertas inteligentes permite un control más granu
 seo-description: El nuevo sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
 seo-title: Alertas inteligentes
 title: Alertas inteligentes
-uuid: ac 8 c 9710-d 245-46 e 9-b 906-32 d 3 bb 0013 c 0
+uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -20,7 +20,7 @@ El nuevo sistema Alertas inteligentes permite un control más granular sobre las
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe [!DNL Analytics]. Las alertas inteligentes le permiten
+El nuevo Generador de alertas y el Administrador de alertas reemplazan la funcionalidad de alerta existente en Adobe [!DNL Analytics]. Las alertas inteligentes le permiten
 
 * Generar alertas en función de anomalías (umbrales del 90 %, 95 %, 99 %, 99,75 % y 99,9 %; cambio de %; por encima/por debajo).
 * Obtener una vista previa de la frecuencia con la que se activará una alerta.
@@ -57,7 +57,7 @@ Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 des
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Hasta dónde se remonta la detección de anomalías de una alerta para determinar anomalías de datos?</b> </p> </td> 
-   <td colname="col2"> <p>El periodo de aprendizaje varía en función de la granularidad seleccionada. Consulte [Técnicas estadísticas utilizadas en la detección de anomalías] (/help/analysis/analysis-workspace/virtual-analyst/c-anomst-detection/estadísticas-anomaly-detection. md) para obtener más información. Aquí tiene un resumen: </p> 
+   <td colname="col2"> <p>El periodo de aprendizaje varía en función de la granularidad seleccionada. Consulte Técnicas estadísticas utilizadas en la detección de <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">anomalías</a> para obtener más información. Aquí tiene un resumen: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">Mensual = 15 meses + el mismo intervalo del año anterior </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">Semanal = 15 semanas + el mismo intervalo del año anterior </li> 
@@ -75,7 +75,7 @@ Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 des
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Se puede obtener una tabla de los “valores esperados” que forman la línea de puntos, o hay alguna forma de saber cuáles son esos valores? </b> </p> </td> 
-   <td colname="col2"> <p>No en Workspace, pero es posible en el Report Builder (consulte este vídeo acerca de <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Detección de anomalías en el Report Builder </a>). </p> <p>Tenga en cuenta que el Report Builder emplea métodos de detección de anomalías menos sofisticados. It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> [!UICONTROL Reports &amp; Analytics] anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>No en Workspace, pero es posible en el Report Builder (consulte este vídeo acerca de <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Detección de anomalías en el Report Builder </a>). </p> <p>Tenga en cuenta que el Report Builder emplea métodos de detección de anomalías menos sofisticados. Utiliza un periodo de entrenamiento de 30 días y un intervalo fijo del 95 %, de forma similar a la <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Detección de anomalías de Reports &amp; Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
