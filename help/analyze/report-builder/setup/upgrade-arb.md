@@ -1,18 +1,18 @@
 ---
 description: Pasos y consideraciones a tener en cuenta al actualizar el Creador de informes.
 seo-description: Pasos y consideraciones a tener en cuenta al actualizar el Creador de informes.
-seo-title: Actualizar el Creador de informes
+seo-title: Actualizar el Report Builder
 solution: Analytics
-title: Actualizar el Creador de informes
+title: Actualizar el Report Builder
 topic: Creador de informes
-uuid: 19 cfae 11-0 b 40-498 b -89 ca -5 e 854 e 7 b 164 f
+uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Actualizar el Creador de informes
+# Actualizar el Report Builder
 
 Pasos y consideraciones a tener en cuenta al actualizar el Creador de informes.
 
@@ -37,13 +37,13 @@ R: No, su configuración completa, incluyendo la configuración de autenticació
 
    ![](assets/upgrade.png)
 
-1. If a new version is available, click **[!UICONTROL Update...]**. El botón mostrará a qué versión está actualizando, por ejemplo: "Actualizar a la versión 5.0.50".
+1. **[!UICONTROL Si hay una nueva versión disponible, haga clic en]** Actualizar.... El botón mostrará a qué versión está actualizando, por ejemplo: "Actualizar a la versión 5.0.50".
 
    >[!NOTE]
    >
-   >Si este botón está atenuado, no hay disponible ninguna versión nueva del Creador de informes.
+   > Si este botón está atenuado, no hay ninguna versión nueva del Creador de informes disponible.
 
-1. Optionally select the **[!UICONTROL Update when a new version is available]**checkbox. Más adelante, esto iniciará el proceso de actualización de forma automática cuando haya una versión nueva disponible.
+1. Si lo desea, seleccione la casilla de verificación **[!UICONTROL Actualizar cuando una nueva versión esté disponible].** Más adelante, esto iniciará el proceso de actualización de forma automática cuando haya una versión nueva disponible.
 1. Cuando aparezca la pantalla de configuración, haga clic en **[!UICONTROL Siguiente &gt;]**.
 
    ![](assets/setup.png)
