@@ -7,7 +7,7 @@ title: Códigos de seguimiento
 topic: Informes
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ Evalúa el efecto que los distintos códigos de seguimiento publicitario tienen 
 * Las vistas de página, visitas y visitantes únicos están disponibles como métricas.
 * Este informe puede utilizar segmentos.
 
-** Propiedades de los Ad Hoc Analysis**
+**Propiedades de los Ad Hoc Analysis**
 
 * Además de usar la mayoría de las variables de conversión integradas, puede desglosar el informe Código de seguimiento por todos los demás informes de la interfaz de informes.
 * Además de usar los eventos personalizados y de comercio electrónico, puede utilizar todas las métricas de conversión y tráfico, y una asignación diferente para todas las métricas de conversión.
