@@ -1,14 +1,14 @@
 ---
 description: Registra el número de segundos que la página ha sido la ficha activa del explorador y pasa ese valor a una métrica en la siguiente visualización de página.
-keywords: Implementación de Analytics
+keywords: Implementación de análisis
 seo-description: Registra el número de segundos que la página ha sido la ficha activa del explorador y pasa ese valor a una métrica en la siguiente visualización de página.
 seo-title: getPageVisibility
 solution: Analytics
 title: getPageVisibility
 topic: Desarrollador e implementación
-uuid: 3891 e 2 aa-d 5 c 1-4 a 2 b -8522-eb 2 bae 39 ea 2 e
+uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,9 +19,9 @@ Registra el número de segundos que la página ha sido la ficha activa del explo
 
 >[!NOTE]
 >
->Es una versión beta del complemento y podrían llegar actualizaciones adicionales.
+>Esta es una versión beta del complemento y es posible que se produzcan actualizaciones adicionales.
 
-This plug-in requires [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+Este complemento requiere [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
 
 Este complemento también registra el número total de segundos que la página estaba en el explorador (tanto en forma de visualización activa como pasiva). Se requiere el uso del complemento getPreviousValue para poder realizar un seguimiento del nombre de página anterior asociado con los eventos de visibilidad de página. Realizar un seguimiento de estos valores le permite obtener un mejor entendimiento del compromiso de los visitantes y seguir de forma más precisa el comportamiento de dichos visitantes en las páginas.
 
@@ -29,7 +29,7 @@ Se requiere el uso del complemento getPreviousValue para poder realizar un segui
 
 >[!NOTE]
 >
->Las instrucciones siguientes requieren modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de Analytics. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+>Las siguientes instrucciones requieren que modifique el código de recopilación de datos del sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de Analytics. This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
 
 ## Complementos de soporte requeridos {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -110,25 +110,25 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 * Debido al modo que tiene el complemento de medir el total de segundos y asociar dicho valor con el nombre de página anterior, habrá diferencias entre el tiempo predeterminado transcurrido en las métricas de página y las métricas de segundos totales.
 * [!UICONTROL Se pueden crear métricas] calculadas para ayudar a resumir y comprender el comportamiento de los visitantes asociado con estas métricas:
 
-   * ** Tasa de visibilidad de página** (Total de segundos de visibilidad de la página/Total de segundos de la página)
-   * ** Total de segundos ocultos** (Total de segundos de la página - Total de segundos de visibilidad de la página)
-   * ** Promedio de segundos de visibilidad de la página** (Total de segundos de visibilidad de la página/Total de instancias de visibilidad de la página)
+   * **Proporción de visibilidad de la página**(Total de segundos de visibilidad de la página/Total de segundos de la página)
+   * **Total de segundos** ocultos (Total de segundos de la página - Total de segundos de visibilidad de la página)
+   * **Media de segundos de visibilidad de la página** (Total de segundos de visibilidad de la página/Total de instancias de visibilidad de la página)
    * **Media de segundos de página oculta** ((Total de segundos de la página - Total de segundos de visibilidad de la página)/Total de instancias de visibilidad de la página)
 
 * Debido al modo que tiene el complemento de redondear los segundos, podría haber una diferencia de entre 1 y 2 segundos entre el total de segundos de visibilidad de la página y los segundos totales, siendo estos últimos un valor mayor. (Se resolverá en una actualización futura)
 * El uso del complemento getVisitStart debería tener en cuenta los visitantes que inician una nueva visita tras un periodo superior a 30 minutos de inactividad. Este aspecto no funciona como fue diseñado; no obstante, es probable que haya una solución cuando incorporemos el "total de segundos en activo" en una futura iteración del complemento.
 
-## Preguntas más frecuentes {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
+## Preguntas frecuentes {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
-**¿Realizará este complemento llamadas al servidor adicionales? **
+**¿Realizará este complemento llamadas al servidor adicionales?**
 
 El complemento solo registrará valores de visibilidad de la página en las llamadas al servidor de las visualizaciones de páginas siguientes. No se utilizarán llamadas adicionales al servidor en conjunción.
 
-** Si no deseo capturar el total de segundos de la página o de instancias de visibilidad de página totales,¿puedo excluirlos de la lista de eventos? **
+**Si no deseo capturar el total de segundos de la página o el total de instancias de visibilidad de la página, ¿puedo excluirlos de la lista de eventos?**
 
 Sí, el total de segundos de página y el total de instancias de visibilidad son eventos opcionales y pueden excluirse de la lista si así lo desea.
 
-**¿Tendrán sentido los eventos capturados si los utilizo en informes que no sean el Nombre de página anterior? **
+**¿Seguirán teniendo sentido los eventos capturados si los utilizo en informes que no sean el de Nombre de página anterior?**
 
 Teniendo en cuenta que el complemento registra valores en las solicitudes de imagen siguiente, solo se podrán aplicar otras eVars que se hayan capturado en el contexto de "página anterior", por ejemplo "URL de página anterior".
 
