@@ -8,7 +8,7 @@ title: Accelerated Mobile Pages
 topic: Desarrollador e implementación
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -38,7 +38,7 @@ Además, para reducir considerablemente el tamaño de la página y para acelerar
 
 Para solucionar estos problemas, Adobe ha colaborado con socios y editores de AMP en dos opciones que un editor puede elegir para adaptarse de la mejor manera a sus necesidades comerciales, ambas con la etiqueta `amp-analytics`. The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. La siguiente tabla nos proporciona una idea de las ventajas y desventajas de cada método.
 
-|  | **Plantilla “adobeanalytics”** | ** Plantilla "adobeanalytics_nativeConfig"** |
+|  | **Plantilla “adobeanalytics”** | **Plantilla “adobeanalytics_nativeConfig”** |
 |---|---|---|
 | Recuentos de visitante/visita (en grupo de informes existente) | Alta inflación | Mínima inflación |
 | Uso de un grupo de informes separado | Recomendado | No necesario |
@@ -198,12 +198,12 @@ Si tiene preguntas o problemas, comuníquese con el Consultor o el servicio de a
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> ¿Está disponible el seguimiento de vídeos para la plantilla <code>“adobeanalytics”</code> o <code>“adobeanalytics_nativeConfig”</code>? </p> </td> 
-   <td colname="col2"> <p> Aún no lamentablemente. El estándar de AMP admite solo activadores para “visible”, “click” y “timer”, y aún no admite activadores explícitos para seguimiento de vídeos que una etiqueta amp-analytics puede escuchar. Además, como la etiqueta <code>“adobeanalytics_nativeConfig”</code> únicamente puede cargarse una sola vez, no es compatible con la visualización de vídeo que ocurre tras la carga de la AMP. </p> </td> 
+   <td colname="col1"> <p> Is video tracking available for either the <code> "adobeanalytics" </code> or <code> "adobeanalytics_nativeConfig" </code> template? </p> </td> 
+   <td colname="col2"> <p> Aún no lamentablemente. El estándar de AMP admite solo activadores para “visible”, “click” y “timer”, y aún no admite activadores explícitos para seguimiento de vídeos que una etiqueta amp-analytics puede escuchar. Also, because the <code> "adobeanalytics_nativeConfig" </code> tag can only be loaded once, it is not compatible with video viewing which occurs after the AMP has loaded. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Se menciona que la inflación de visitantes es más baja para la plantilla <code>“adobeanalytics_nativeConfig”</code> en la comparación. ¿Qué significa eso? ¿Qué causaría inflación de visitantes en las soluciones <code>“adobeanalytics”</code> o <code>“adobeanalytics_nativeConfig”</code>? </p> </td> 
-   <td colname="col2"> <p>La plantilla <code>“adobeanalytics”</code> no permite a Adobe Analytics establecer una cookie de identificación de visitante, lo que significa que todas las visitas y visitantes de su página de AMP se considerarán como nuevos e independientes en el grupo de informes. </p> <p>Por su parte, la plantilla <code>“adobeanalytics_nativeConfig”</code> permite establecer la cookie de identificación de visitantes de Adobe Analytics en casi todos los casos, salvo en el de nuevos visitantes que utilicen el explorador Safari. Esto significa que cualquier visitante de Safari que no haya visitado previamente el sitio de un publicador quedará inflado en los informes de Adobe Analytics. </p> </td> 
+   <td colname="col1"> <p>Se menciona que la inflación de visitantes es más baja para la plantilla <code> adobeanalytics_nativeConfig </code>“ ” en la comparación. ¿Qué significa eso? What would cause visitor inflation in either the <code> "adobeanalytics" </code> or the <code> “adobeanalytics_nativeConfig” </code> solution? </p> </td> 
+   <td colname="col2"> <p>The <code> “adobeanalytics” </code> template does not allow Adobe Analytics to set a visitor identification cookie; this means all visits and visitors to your AMP page will be treated as a new and independent visit and visitor in your report suite. </p> <p>The <code> “adobeanalytics_nativeConfig” </code> template, however, allows the Adobe Analytics visitor identification cookie to be set in nearly all cases, except for new visitors using the Safari browser. Esto significa que cualquier visitante de Safari que no haya visitado previamente el sitio de un publicador quedará inflado en los informes de Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿Debería usar un grupo de informes separado para las AMP? </p> </td> 
@@ -211,10 +211,10 @@ Si tiene preguntas o problemas, comuníquese con el Consultor o el servicio de a
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿Qué es el servicio de <span class="keyword">Experience Cloud ID</span>? ¿Lo necesito? </p> </td> 
-   <td colname="col2"> <p>El servicio de <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> identidad </a> (anteriormente <span class="term"> servicio de ID de visitante </span>) habilita <span class="keyword"> los servicios principales de Experience Cloud </span> y permite integraciones entre diferentes soluciones de Adobe <span class="keyword"> Experience Cloud </span> . Si tiene integraciones con <span class="keyword">Adobe Audience Manager</span> o <span class="keyword">Adobe Target</span>, posiblemente esté usando este servicio. Este servicio también es la base de muchas funciones de <span class="keyword">Adobe Analytics</span> que vendrán. Si necesita soporte de servicio de ID o lo necesitará más adelante, recomendamos usar la solución <code>iframeMessage</code>. </p> </td> 
+   <td colname="col2"> <p>El servicio de <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> identidad </a> (anteriormente <span class="term"> servicio de ID de visitante </span>) habilita <span class="keyword"> los servicios principales de Experience Cloud </span> y permite integraciones entre diferentes soluciones de Adobe <span class="keyword"> Experience Cloud </span> . Si tiene integraciones con <span class="keyword">Adobe Audience Manager</span> o <span class="keyword">Adobe Target</span>, posiblemente esté usando este servicio. Este servicio también es la base de muchas funciones de <span class="keyword">Adobe Analytics</span> que vendrán. Si necesita soporte de servicio de ID o lo necesitará más adelante, recomendamos usar la solución <code> iframeMessage </code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Para la plantilla <code>“adobeanalytics_nativeConfig”</code>, ¿dónde debería alojar mi página de utilidad? </p> </td> 
+   <td colname="col1"> <p>For the <code> "adobeanalytics_nativeConfig" </code> template, where should I host my utility page? </p> </td> 
    <td colname="col2"> <p>El estándar de AMP no permite que los iframes se carguen desde el dominio y subdominio exactos de la AMP. Como tal, recomendamos alojar la página de utilidad en un subdominio separado del sitio principal, especialmente si la empresa tiene su propia CDN donde planea almacenar en caché las AMP. Para conseguir la máxima compatibilidad, elija un subdominio como <span class="filepath">ampmetrics.publisher.com</span> que esté alejado de la ubicación donde residirá el contenido de AMP real. </p> </td> 
   </tr> 
   <tr> 
