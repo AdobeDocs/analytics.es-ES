@@ -5,9 +5,9 @@ seo-title: Asignación de métricas y dimensiones a las celdas
 solution: Analytics
 title: Asignación de métricas y dimensiones a las celdas
 topic: Creador de informes
-uuid: 50893 e 1 c -5 f 2 c -4558-8001-41 e 70 d 74 d 6 e 7
+uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -30,15 +30,13 @@ Las secciones siguientes contienen más información:
 
 En el [!UICONTROL Asistente para solicitudes: Paso 2], cuando se activa [!UICONTROL Diseño personalizado] para una solicitud de tendencias, la solicitud se puede asignar a un rango de celdas.
 
-Click the **[!UICONTROL Range Selector]** ![select_cell_icon.png](assets/select_cell_icon.png)
+Haga clic en el selector **[!UICONTROL de rango]** ![select_cell_icon.png](assets/select_cell_icon.png)
 
-al lado del elemento que desee asignar.
+junto al elemento que desea asignar.
 
-* ** All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL Custom Layout] style request.
-
-* ** First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). Utilice esta opción para que el Creador de informes seleccione las celdas por usted.
-
-* ** Orientación del rango: ** Permite orientar los rangos de celdas como columnas o filas.
+* **Todas las celdas del rango:** requiere que seleccione un grupo de celdas para una solicitud de estilo de [!UICONTROL diseño personalizado].
+* **Primera celda del rango:** permite seleccionar la celda superior izquierda del rango y muestra la orientación del [!UICONTROL rango] para especificar la orientación horizontal o vertical de las celdas de entrada y salida (columna o fila). Utilice esta opción para que el Creador de informes seleccione las celdas por usted.
+* **Orientación de rango:** permite orientar los rangos de celdas como columnas o filas.
 * **Seleccionar ubicación de celda superior del rango:** muestra las referencias de celdas.
 
 ## Techniques for selecting cells {#section_760421C3D7F84D67A639174710C93B22}
@@ -74,6 +72,4 @@ Para comprobar las áreas con solicitudes insertadas, puede realizar lo siguient
 
 * Inicie el [!UICONTROL Asistente para solicitudes] y haga clic en las solicitudes individuales incluidas en la tabla. Al hacer clic en la solicitud, se resaltan las celdas de la hoja de cálculo donde está asignada la solicitud.
 * Seleccione las celdas de la hoja de cálculo que vaya a utilizar para una nueva asignación y haga clic en [!UICONTROL Desde hoja]. El [!UICONTROL Administrador de solicitudes] selecciona la solicitud en la lista que tiene un elemento de salida que se cruza con la celda seleccionada. Si no se selecciona ninguna solicitud, la celda está disponible.
-
 * Seleccione celdas en la hoja de cálculo, haga clic con el botón derecho en el menú contextual y compruebe si la opción [!UICONTROL Editar solicitud] está disponible. Si es así, existe una solicitud asociada a estas celdas.
-
