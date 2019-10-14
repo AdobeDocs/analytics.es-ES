@@ -1,24 +1,24 @@
 ---
-description: Configuración que define cómo aparecen todos los informes y la información que toma las opciones de menú predeterminadas a su ubicación en el menú simplificado.
-seo-description: Configuración que define cómo aparecen todos los informes y la información que toma las opciones de menú predeterminadas a su ubicación en el menú simplificado.
-seo-title: La configuración de visualización de informes y navegación
+description: Configuración que define cómo aparecen todos los informes y la información que ajusta las opciones de menú predeterminadas a su ubicación en el menú simplificado.
+seo-description: Configuración que define cómo aparecen todos los informes y la información que ajusta las opciones de menú predeterminadas a su ubicación en el menú simplificado.
+seo-title: Configuración de visualización de informes y navegación
 solution: Analytics
-title: La configuración de visualización de informes y navegación
+title: Configuración de visualización de informes y navegación
 topic: Informes,Reports and Analytics
-uuid: e 7 e 571 ce-a 1 cf -4714-b 400-9571805 ceeac
+uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 612cbb694f16b5b4fcbf2d9cae55bc52103cc0b9
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# La configuración de visualización de informes y navegación
+# Configuración de visualización de informes y navegación
 
 Configuración que define cómo aparecen todos los informes y la información que asigna las opciones de menú predeterminadas a su ubicación en el menú simplificado.
 
-## Report display settings and navigation {#concept_09832A2CA0FF4982B1AA37C1B635220B}
+## Configuración de visualización de informes y navegación {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Configuración de informes]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; Configuración **[!UICONTROL de informes]**
 
 <!--Meike, I replaced this table with one from https://marketing.adobe.com/resources/help/en_US/sc/user/report_settings.html -bob -->
 
@@ -38,7 +38,7 @@ Configuración que define cómo aparecen todos los informes y la información qu
 | Mostrar los datos de "Ninguno," "No especificado" y "Escritos o marcadores" en los gráficos de los informes | Muestra las métricas en las que ningún valor recibió crédito por la métrica especificada. |
 | Mostrar minigráficos en informes de clasificación | Muestra un minigráfico en el campo de totales de los informes de clasificación. Esto proporciona una visión rápida de la tendencia general sin necesidad de generar un informe aparte. |
 | **Aceleración** |  |
-| Habilitar el acelerador de informes para ver los informes más rápidamente | Habilita el acelerador de informes, que utiliza un algoritmo basado en el tiempo para almacenar en caché los informes solicitados recientemente y examina solamente los elementos únicos que ocurren con poca frecuencia, teniendo como resultado envíos de informes más rápidos. Si almacena en caché los informes solicitados durante 15 minutos, el acelerador de informes puede recuperar esos informes para solicitudes posteriores de forma instantánea. Esta opción es útil cuando explora hacia atrás y adelante, imprime informes o para obtener acceso en forma frecuente a los mismos informes. Cuando está desactivado, el sistema vuelve a generar los informes cada vez que se solicitan. |
+| Habilitar el acelerador de informes para ver los informes más rápidamente | Habilita el acelerador de informes, que utiliza un algoritmo basado en el tiempo para almacenar en caché los informes solicitados recientemente y examina solamente los elementos únicos que se producen con más frecuencia, lo que resulta en un envío de informes aún más rápido. Si almacena en caché los informes solicitados durante 15 minutos, el acelerador de informes puede recuperar esos informes para solicitudes posteriores de forma instantánea. Esta opción es útil cuando explora hacia atrás y adelante, imprime informes o para obtener acceso en forma frecuente a los mismos informes. Cuando está desactivado, el sistema vuelve a generar los informes cada vez que se solicitan. |
 | Habilitar el acelerador de tableros y mostrar las versiones en caché disponibles | Habilita el acelerador de tableros que almacena una versión en caché del tablero para vistas subsiguientes. Si almacena en caché una vista del tablero durante 24 horas, el acelerador de tableros es capaz de ver casi de forma instantánea, porque la base de datos y el procesamiento intensivo se realizan con antelación. Si la versión en caché disponible tiene más de 24 horas, se generará un nuevo tablero y se creará una nueva versión en caché. Del mismo modo, se creará una versión en caché cada vez que actualice el tablero (o cualquier informe breve mostrado en el tablero). La versión en caché se basa en el usuario. Otros usuarios que ven un tablero compartido ven una versión basada en su propio uso del acelerador de tableros y en la actualización del mismo. |
 | Habilitar la aceleración de redes para un rendimiento de informes mejorado | Acelera el envío de datos a su ubicación, optimizando la ruta entre la infraestructura de Adobe y su entorno. |
 | Habilitar la aceleración regional para una experiencia de usuario más rápida en China | El Acelerador regional utiliza dominios acelerados específicos de la región para ofrecer una experiencia de usuario más rápida dentro de una región específica. Actualmente, la aceleración regional solo es compatible en China. La activación de esta función para usuarios que no estén ubicados en China hará que la experiencia sea más lenta. Después de habilitar la aceleración regional debe iniciar sesión de nuevo para que la configuración sea efectiva. Si desea deshabilitar el Acelerador regional, desactive esta casilla de verificación. |
@@ -81,7 +81,7 @@ Si está acostumbrado al menú predeterminado, la tabla siguiente le facilita en
 |  | Servidores | Contenido &gt; Servidores |
 |  | Vínculos | Navegación &gt; Vínculos personalizados; Navegación &gt; Vínculos de salida; Navegación &gt; ClickMap; Navegación &gt; Descargas de archivos |
 |  | Páginas no encontradas | Navegación &gt; Páginas no encontradas |
-| **Móvil** |  |  |
+| **Mobile** |  |  |
 |  | Dispositivos | Audiencia &gt; Móvil &gt; Dispositivos |
 |  | Tipo de dispositivo | Audiencia &gt; Móvil &gt; Tipo de dispositivo |
 |  | Fabricante | Audiencia &gt; Móvil &gt; Fabricante |
@@ -121,7 +121,7 @@ Si está acostumbrado al menú predeterminado, la tabla siguiente le facilita en
 |  | Frecuencia de retorno | Audiencia &gt; Retención de visitantes &gt; Frecuencia de retorno |
 |  | Visitas de retorno | Audiencia &gt; Retención de visitantes &gt; Visitas de retorno |
 |  | Visitas de retorno diario | Audiencia &gt; Retención de visitantes &gt; Visitas de retorno diario |
-|  | Número de visitas | Audiencia &gt; Retención de visitantes &gt; Número de visitas |
+|  | Número de visita | Audiencia &gt; Retención de visitantes &gt; Número de visitas |
 |  | Ciclo de ventas | Audiencia &gt; Retención de visitantes &gt; Ciclo de ventas |
 | **Perfil del visitante** |  |  |
 |  | Segmentación geográfica | Audiencia &gt; Perfil del visitante &gt; Segmentación geográfica |
@@ -135,9 +135,9 @@ Si está acostumbrado al menú predeterminado, la tabla siguiente le facilita en
 | **Conversión personalizada** |  |  |
 |  | Conversión personalizada 1-10 | Conversión &gt; Conversión personalizada &gt; Conversión personalizada 1-10 |
 |  | Conversión personalizada 11-20 | Conversión &gt; Conversión personalizada &gt; Conversión personalizada 11-20 |
-| **Tráfico personalizado ** |  |  |
+| **Tráfico personalizado** |  |  |
 |  | Tráfico personalizado 1-10 | Contenido &gt; Tráfico personalizado &gt; Tráfico personalizado 1-10 |
-| **Test&amp;Target ** |  | Conversión &gt; Test&amp;Target |
+| **Test&amp;Target** |  | Conversión &gt; Test&amp;Target |
 | **Survey** |  | Audiencia &gt; Survey |
 | **Canales de marketing** |  |  |
 |  | Informe de descripción general de canal | Fuentes de tráfico &gt; Canales de marketing &gt; Informe de descripción general de canal |
@@ -148,7 +148,7 @@ Si está acostumbrado al menú predeterminado, la tabla siguiente le facilita en
 | **Aplicación móvil** |  |  |
 |  | Información general de aplicación móvil | Contenido &gt; Aplicación móvil &gt; Información general de aplicación móvil |
 |  | Informes de ciclo de vida | Contenido &gt; Aplicación móvil &gt; Informes de ciclo de vida |
-| **Informes personalizados ** |  |  |
+| **Informes personalizados** |  |  |
 |  | Los informes personalizados solo se muestran si tiene alguno configurado. | Informes personalizados |
 |  |  |  |
 
