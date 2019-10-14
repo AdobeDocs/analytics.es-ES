@@ -1,21 +1,21 @@
 ---
 description: 'null'
-keywords: segmentación; segmentos
+keywords: segmentación;segmentos
 seo-description: 'null'
-seo-title: Preguntas más frecuentes
+seo-title: Preguntas frecuentes
 solution: Analytics
-title: Preguntas más frecuentes
+title: Preguntas frecuentes
 topic: Segmentos
-uuid: f 49 dc 829-1 d 53-4183-9 add -1 aeaa 5219 d 89
+uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Preguntas más frecuentes
+# Preguntas frecuentes
 
-Responde preguntas frecuentes sobre características de segmentación, acceso, permisos, prácticas recomendadas y administración de segmentos preexistentes.
+Responde preguntas frecuentes sobre las funciones de segmentación, acceso, permisos, prácticas recomendadas y administración de segmentos heredados.
 
 ## Funciones {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -37,7 +37,7 @@ Responde preguntas frecuentes sobre características de segmentación, acceso, p
 
 Consulte la publicación [Mejora de segmentación en Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) en el blog de marketing digital para obtener más detalles.
 
-## Access the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## Acceso a las herramientas de segmentación {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **¿Cómo accedo al Generador de segmentos?**
 
@@ -63,9 +63,9 @@ Acceda al Administrador de segmentos de una de las siguientes maneras:
 
 **¿Dónde está ahora la lista desplegable de segmentos heredados?**
 
-La lista desplegable de segmentos de Informes y análisis se ha sustituido por una interfaz de [Generador de segmentos](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) con muchas más funciones que le permite crear segmentos "universales" utilizables en los grupos de informes y en las soluciones de Adobe Analytics. To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
+La lista desplegable de segmentos de Informes y análisis se ha sustituido por una interfaz de [Generador de segmentos](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) con muchas más funciones que le permite crear segmentos "universales" utilizables en los grupos de informes y en las soluciones de Adobe Analytics. Para ver una lista de segmentos existentes, haga clic en el icono Segmentos ![](assets/segment_icon.png)
 
-en la navegación izquierda y en el carril del segmento.
+en la navegación izquierda y se muestra el carril del segmento.
 
 **¿Dónde está ahora la lista desplegable de grupo de informes heredado?**
 
@@ -167,7 +167,7 @@ Estos segmentos se migrarán como plantillas de segmentos al Generador de segmen
 
 Los informes existentes que tengan estos segmentos aplicados seguirán funcionando correctamente.
 
-** Lo que sucede con los segmentos de Experience Cloud (Suite): **
+**Qué sucede a los segmentos de Experience Cloud (Suite):**
 
 * No compradores
 * Compradores
@@ -201,13 +201,13 @@ Los segmentos existentes que utilizan la lógica que se ha modificado según se 
 
 Los siguientes consejos le ayudarán a migrar dimensiones comunes:
 
-* Ciudad geográfica/región/país: busque y seleccione ciudades, regiones o países específicos en lugar de utilizar una coincidencia parcial.
+* Ciudad geográfica, región o país: busque y seleccione ciudades, regiones o países específicos en lugar de usar una coincidencia parcial.
 * Exploradores: utilice la dimensión Tipos de exploradores para obtener todos los exploradores de un tipo, por ejemplo Google Chrome
-* Sistemas operativos: utilice las dimensiones de tipos de sistemas operativos para obtener todos los sistemas operativos en un tipo, por ejemplo Microsoft Windows.
+* Sistemas operativos: utilice las dimensiones Tipos de sistemas operativos para obtener todos los sistemas operativos de un tipo, por ejemplo, Microsoft Windows.
 
 * [Dimensiones nuevas y renombradas](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
 * [Cambios en Contiene](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Cambios en menor que y mayor que](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [Cambios a menor que y mayor que](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## Dimensiones nuevas y renombradas {#section_73CF121B64A24DEF8E6499F3167BF742}
 
@@ -234,7 +234,7 @@ La siguiente tabla contiene una lista de dimensiones que se renombraron en el Ge
   </tr> 
   <tr> 
    <td colname="col1"> Alto del explorador - Agrupado </td> 
-   <td colname="col2"> Alto del explorador </td> 
+   <td colname="col2"> Altura del explorador </td> 
    <td colname="col3"> Esta dimensión es compatible con todas las interfaces, y se divide en una lista enumerada de intervalos, en lugar de valores de entero específicos. Si necesita segmentar valores específicos, utilice la versión pormenorizada de esta dimensión en el segmento del almacén de datos. </td> 
   </tr> 
   <tr> 
@@ -244,7 +244,7 @@ La siguiente tabla contiene una lista de dimensiones que se renombraron en el Ge
   </tr> 
   <tr> 
    <td colname="col1"> Alto del explorador - Pormenorizado </td> 
-   <td colname="col2"> Alto del explorador </td> 
+   <td colname="col2"> Altura del explorador </td> 
    <td colname="col3"> <p>Se ha renombrado y ahora solo es compatible con el almacén de datos. Cuando defina segmentos compatibles con todas las interfaces, utilice el tipo enumerado, Alto del explorador - Agrupado. </p> </td> 
   </tr> 
   <tr> 
@@ -254,7 +254,7 @@ La siguiente tabla contiene una lista de dimensiones que se renombraron en el Ge
   </tr> 
   <tr> 
    <td colname="col1"> Profundidad de color </td> 
-   <td colname="col2"> Profundidad de color del monitor </td> 
+   <td colname="col2"> Profundidad del color del monitor </td> 
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
