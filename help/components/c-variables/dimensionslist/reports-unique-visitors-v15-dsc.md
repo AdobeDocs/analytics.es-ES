@@ -7,7 +7,7 @@ title: Visitantes únicos
 topic: Informes
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -35,7 +35,7 @@ Consulte la tabla siguiente para los ejemplos de esta página. Aquí se represen
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Página </p> </td> 
+   <td colname="col1"> <p>Activity Map </p> </td> 
    <td colname="col2"> <p>A </p> </td> 
    <td colname="col3"> <p>C </p> </td> 
    <td colname="col4"> <p>A </p> </td> 
@@ -64,7 +64,7 @@ Consulte la tabla siguiente para los ejemplos de esta página. Aquí se represen
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Página </th> 
+   <th colname="col1" class="entry"> Activity Map </th> 
    <th colname="col2" class="entry"> Visitantes únicos </th> 
   </tr> 
  </thead>
@@ -263,7 +263,7 @@ Los totales de las métricas pueden variar en función del intervalo de fechas d
 
 Puede utilizar la segmentación para modificar el intervalo de fechas con el objetivo de incluir fechas posteriores en vez de fechas anteriores. Por ejemplo: tomemos el intervalo de fechas anterior del 2 de enero al 3 de enero (tal como se muestra en la tabla anterior). Si se aplica un segmento en el que Página = C, 2 de enero no pasaría el segmento y la primera entrada del informe de visitante único semanal se produciría el 3 de enero. Si En cambio se aplica un segmento en el que Página = D, entonces tanto el 2 de enero como el 3 de enero quedarían excluidos. Visitante único semanal no mostraría ningún resultado y quedaría excluido del total.
 
-**Informes de visitantes únicos basados en períodos **
+**Informes Visitantes únicos basados en períodos**
 
 Estos informes utilizan una página, una prop y un atributo concretos (ejemplo: donde Página = A).
 
@@ -342,7 +342,7 @@ Puede agregar métricas de visitante único basado en períodos a informes sin t
 <table id="table_8651A42696B0404CAEAE0FC5522CC1C9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Página </th> 
+   <th colname="col1" class="entry"> Activity Map </th> 
    <th colname="col02" class="entry"> Fecha de visita </th> 
    <th colname="col2" class="entry"> Visitas - Visitante único semanal </th> 
   </tr> 
@@ -386,7 +386,7 @@ Una métrica de visitantes únicos diarios en un [!UICONTROL informe de páginas
 <table id="table_04C7C305C2B945D6A79A6B80F48A4BF5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Página </th> 
+   <th colname="col1" class="entry"> Activity Map </th> 
    <th colname="col02" class="entry"> Fecha de visita </th> 
    <th colname="col2" class="entry"> Visitas </th> 
   </tr> 
