@@ -1,18 +1,18 @@
 ---
 description: El almacén de datos hace referencia a la copia de datos de Analytics para almacenarlos y elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Puede solicitar informes para mostrar las relaciones de datos avanzadas que hay entre los datos sin procesar en función de sus propias preguntas. Los informes del almacén de datos se envían por correo electrónico o mediante FTP y pueden tardar hasta 72 horas en procesarse. El tiempo de procesamiento dependerá de la complejidad de la consulta y de la cantidad de datos solicitados.
 seo-description: El almacén de datos hace referencia a la copia de datos de Analytics para almacenarlos y elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Puede solicitar informes para mostrar las relaciones de datos avanzadas que hay entre los datos sin procesar en función de sus propias preguntas. Los informes del almacén de datos se envían por correo electrónico o mediante FTP y pueden tardar hasta 72 horas en procesarse. El tiempo de procesamiento dependerá de la complejidad de la consulta y de la cantidad de datos solicitados.
-seo-title: Información general del almacén de datos
+seo-title: Resumen de Data Warehouse
 solution: Analytics
-title: Información general del almacén de datos
+title: Resumen de Data Warehouse
 topic: Data Warehouse
-uuid: 768557 dd -1644-4 ce 6-bfc 2-8 c 46 dd 6 e 1 cd 1
+uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Información general del almacén de datos
+# Resumen de Data Warehouse
 
 El Data Warehouse hace referencia a la copia de datos de Analytics para almacenarlos y elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Puede solicitar informes para mostrar las relaciones de datos avanzadas que hay entre los datos sin procesar en función de sus propias preguntas. Los informes del almacén de datos se envían por correo electrónico o mediante FTP y pueden tardar hasta 72 horas en procesarse. El tiempo de procesamiento dependerá de la complejidad de la consulta y de la cantidad de datos solicitados.
 
@@ -24,11 +24,11 @@ El Data Warehouse pude procesar un número ilimitado de filas en una única soli
 
 >[!NOTE]
 >
->El almacén de datos informa del primer valor encontrado en el período de informe.
+>El almacén de datos informa del primer valor encontrado en el período de la presentación de informes.
 
 >[!IMPORTANT]
 >
->Al segmentar los valores clasificados, Analysis Workspace y el Almacén de datos tratan los valores'sin especificar'de forma diferente. “No especificado” en Workspace se refiere a valores que no están clasificados, mientras que “No especificado” en Data Warehouse se refiere a valores que clasificó como “No especificado”.
+>Al segmentar en valores clasificados, Analysis Workspace y el Almacén de datos tratan los valores 'no especificados' de forma diferente. “No especificado” en Workspace se refiere a valores que no están clasificados, mientras que “No especificado” en Data Warehouse se refiere a valores que clasificó como “No especificado”.
 
 ## Descripciones de las solicitudes del Data Warehouse {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -57,7 +57,7 @@ En esta tabla se describen los campos y las opciones de la ficha [!UICONTROL Sol
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Segmentos disponibles</span> </td> 
-   <td colname="col2"> <p>Permite seleccionar la parte de la población de visitantes que debe examinarse y generar segmentos complejos. Puede cargar segmentos preconfigurados, crear nuevos segmentos y almacenar componentes de segmentos en una biblioteca para utilizarlos al crear segmentos adicionales. </p> <p>Ahora puede apilar segmentos. Cuando se seleccionan varios segmentos, el área de vista previa, el administrador de solicitudes y el mensaje emergente de los detalles de la solicitud muestran una lista de nombres separados por comas (por ejemplo, Segment1, Segment2). </p> <p>Consulte la [Guía de segmentación] (/help/components/c-segmentation/seg-home. md) para obtener más información. </p> <p>Nota: No se pueden incluir simultáneamente un filtro y un desglose en el mismo segmento, en el mismo informe del Data Warehouse. Al hacerlo, se producirá un error. </p> </td> 
+   <td colname="col2"> <p>Permite seleccionar la parte de la población de visitantes que debe examinarse y generar segmentos complejos. Puede cargar segmentos preconfigurados, crear nuevos segmentos y almacenar componentes de segmentos en una biblioteca para utilizarlos al crear segmentos adicionales. </p> <p>Ahora puede apilar segmentos. Cuando se seleccionan varios segmentos, el área de vista previa, el administrador de solicitudes y el mensaje emergente de los detalles de la solicitud muestran una lista de nombres separados por comas (por ejemplo, Segment1, Segment2). </p> <p>Si desea obtener más información, consulte la <a href="/help/components/c-segmentation/seg-home.md">Guía de segmentación de </a>. </p> <p>Nota: No se pueden incluir simultáneamente un filtro y un desglose en el mismo segmento, en el mismo informe del Data Warehouse. Al hacerlo, se producirá un error. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Desgloses</span> </td> 
@@ -65,11 +65,11 @@ En esta tabla se describen los campos y las opciones de la ficha [!UICONTROL Sol
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Métricas</span> </td> 
-   <td colname="col2">Permite agregar métricas sobre las que desee informar. </td> 
+   <td colname="col2">Permite agregar métricas de las que desee informar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Orden de las métricas</span> </td> 
-   <td colname="col2">Proporciona informes de desgloses clasificados, ordenados por un valor de métrica descendente, parecido a lo que se muestra en la interfaz de usuario de Reports &amp; Analytics, Data Workbench, etc. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local">Más...</a> </td> 
+   <td colname="col2">Proporciona informes de desgloses clasificados, ordenados por un valor de métrica descendente, parecido a lo que se muestra en la interfaz de usuario de Reports &amp; Analytics, Data Workbench, etc. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> Más...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Programar envío</span> </td> 
