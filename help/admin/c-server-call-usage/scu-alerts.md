@@ -3,9 +3,9 @@ description: Añada o administre alertas de uso de llamadas al servidor. Al conf
 seo-description: Añada o administre alertas de uso de llamadas al servidor. Al configurar una alerta, se aplica a todos los grupos de informes en todas las empresas de inicio de sesión de una empresa de facturación.
 seo-title: Alertas de uso de llamadas al servidor
 title: Alertas de uso de llamadas al servidor
-uuid: 701 fd 542-5 b 24-42 df -97 a 0-08 e 10929 fa 48
+uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -16,9 +16,9 @@ Al configurar una alerta, se aplica a todos los grupos de informes en todas las 
 
 ## Información general
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Estas alertas activan una notificación dirigida a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
+It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Esta alerta activa una notificación dirigida a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
 
 * “Cualquier” uso de llamadas al servidor que sea “mayor o igual que” el 100 % para cualquier tipo de llamada al servidor para la que esté autorizado, O
 * “Cualquier” uso de llamadas al servidor que sea “mayor o igual que” el 90 % para cualquier tipo de llamada al servidor para la que esté autorizado, O
@@ -44,13 +44,12 @@ Para crear alertas adicionales,
    ![](assets/sc_alert.png)
 
    * **Título**: Especifique un nombre descriptivo. No es posible guardar la alerta sin nombre.
-   * **Granularidad de tiempo**: Se refiere a la frecuencia con la que se revisará la alerta. *En este momento solo admitimos granularidad Semanal.* Esto significa que la alerta se comprobará de forma semanal y consultará los datos del periodo de uso actual.
-   * **Destinatarios**: Especifique cualquier persona de la organización que deba recibir un correo electrónico cuando la alerta active el umbral especificado.
-   * **Fecha** de caducidad: De forma predeterminada, la fecha de caducidad es de un año desde la fecha de creación de la alerta.
+   * **Granularidad** de tiempo: Se refiere a la frecuencia con la que se comprobará la alerta. *En este momento solo admitimos granularidad Semanal.* Esto significa que la alerta se comprobará de forma semanal y consultará los datos del periodo de uso actual.
+   * **Destinatarios**: Especifique quién debe recibir un correo electrónico cuando la alerta active el umbral especificado.
+   * **Fecha** de caducidad: De forma predeterminada, la fecha de caducidad es un año a partir de la fecha de creación de la alerta.
    * **Enviar una alerta cuando**:
 
-      * Cualquiera de estos Activaciónactive
-el tipo de llamadas al servidor como métrica y especifique el umbral de alerta seleccionando el modificador y el umbral:
+      * Cualquiera de estas métricas activadorAgregue el tipo de llamadas al servidor como métrica y especifique el umbral de alerta seleccionando el modificador y el umbral:
          * mayor o igual que
          * menor o igual que
       * con
