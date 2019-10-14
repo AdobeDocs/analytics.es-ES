@@ -1,18 +1,18 @@
 ---
-description: Introducción a Análisis específicos.
-seo-description: Introducción a Análisis específicos.
+description: Introducción a los análisis específicos.
+seo-description: Introducción a los análisis específicos.
 seo-title: Introducción
 title: Introducción
-uuid: 6 a 698 e 18-4 e 62-405 e-b 020-b 973 c 9 c 4008 b
+uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Get Started with Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# Introducción a Análisis específicos{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Important]
+>[!Iimportante]
 >El 6 de agosto de 2018 Adobe anunció su intención de finalizar el servicio de Ad Hoc Analysis. La fecha se hará pública una vez que esté disponible. Para obtener más información, incluidas las versiones de Java compatibles durante este periodo, visite [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 Puede realizar análisis instantáneos y avanzados sobre la actividad de un sitio web. Se pueden ver varios informes a la vez y aplicar segmentos a lo largo de varias dimensiones. Los datos se pueden analizar desde perspectivas micro y macro para ver cómo repercuten en las métricas de negocio importantes.
@@ -49,7 +49,7 @@ Estas características permiten responder a preguntas sobre el tráfico del siti
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Crear segmentos para profundizar en los datos. </li> 
      <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Agregar métricas, dimensiones y segmentos al <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> Generador de tablas</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuring <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> date ranges</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuración de intervalos <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> de fechas</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> Programar</a> el envío de informes </li> 
     </ul> <p>Busque en este sistema de ayuda para encontrar la ayuda que necesita. </p> </td> 
   </tr> 
@@ -68,7 +68,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si elige ejecutar Análisis específicos en Java 7 después de la versión de mantenimiento de julio de 2018, Adobe ya no admitirá la implementación de Análisis específicos.
+>A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si decide ejecutar Análisis específicos en Java 7 después de la versión de mantenimiento de julio de 2018, Adobe ya no admitirá la implementación de Análisis específicos.
 
 * Tarjeta de vídeo compatible con OpenGL 2.0
 * Cookies: obligatorio
@@ -83,7 +83,7 @@ c_sys_reqs.xml
 
 ## Instrucciones de actualización de Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si elige ejecutar Análisis específicos en Java 7 después de la versión de mantenimiento de julio de 2018, Adobe ya no admitirá la implementación de Análisis específicos.
+A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si decide ejecutar Análisis específicos en Java 7 después de la versión de mantenimiento de julio de 2018, Adobe ya no admitirá la implementación de Análisis específicos.
 
 Nuestros archivos .jar están firmados con un cifrado seguro de 256 bits con el que las versiones de Java anteriores a la 1.7.0_76 no son compatibles. Este certificado de 256 bits nos permite ofrecerle una mayor seguridad.
 
@@ -126,7 +126,7 @@ t_login_suite.xml
 
    Si no ve el botón **Iniciar Ad Hoc Analysis** en esta página, asegúrese de que el administrador lo haya agregado al grupo *Usuarios con licencias de Ad Hoc Analysis* en las herramientas de administración.
 1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. Save the [!DNL discover.jnlp] file locally.
+1. Guarde el [!DNL discover.jnlp] archivo localmente.
 
    Puede ejecutar este archivo que guardó cada vez que desee iniciar Ad Hoc Analysis.
 
@@ -187,7 +187,7 @@ t_share_projects.xml
  -->
 
 1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
-1. Select **[!UICONTROL Shared Projects]** from the **[!UICONTROL Save in:]**drop-down.
+1. **[!UICONTROL Seleccione Proyectos]****[!UICONTROL compartidos en]** Guardar en: desplegable.
 
    ![](assets/shared_projects.png)
 
@@ -243,7 +243,7 @@ You can access templates when creating a project ( **[!UICONTROL File]** &gt; **
 | Clasificación | Presenta un lienzo vacío en el cual se puede construir una tabla. Por ejemplo, los informes de páginas clasifican las páginas del sitio según el tráfico, y la tabla de detalles muestra los porcentajes y las cantidades correspondientes a diversas métricas, por ejemplo, las vistas de páginas y los ingresos. |
 | Tendencias | Permiten examinar las tendencias que siguen las conversiones y los eventos de acuerdo con una granularidad temporal seleccionada (hora, día, semana, mes, trimestre o año) durante un período de informe. |
 | Totales | Un informe de nivel ejecutivo que muestra cifras totales. Contiene datos de totales de ingresos, vistas de página y pedidos. |
-| Visitas en el orden previsto | Permite construir un canal a través del sitio web para ver las tasas de conversión y abandono de la secuencia entre determinados puntos de comprobación. Por ejemplo, se puede hacer un seguimiento de dónde los visitantes abandonan la secuencia prevista a lo largo del proceso de compra. |
+| Abandono | Permite construir un canal a través del sitio web para ver las tasas de conversión y abandono de la secuencia entre determinados puntos de comprobación. Por ejemplo, se puede hacer un seguimiento de dónde los visitantes abandonan la secuencia prevista a lo largo del proceso de compra. |
 | Flujo | Muestra las rutas más comunes que siguen los usuarios entre páginas, secciones del sitio y servidores. |
 | Canal de conversión | Muestra porcentajes de conversión entre determinados eventos de métricas. Estos informes se pueden usar para comprender con cuántas pulsaciones se generan ventas y la cantidad de unidades vendidas. |
 | Análisis del sitio | Una herramienta de seguimiento de ruta tridimensional que muestra cuántos visitantes pasan por determinadas páginas y eventos. |
