@@ -3,9 +3,9 @@ description: En el calendario, se pueden indicar fechas e intervalos de fechas o
 seo-description: En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos. Se pueden realizar selecciones de calendario en los niveles de proyecto, espacio de trabajo e informe. El intervalo de fechas del proyecto se toma como fecha predeterminada. Sin embargo, el intervalo de fechas del espacio de trabajo tiene prioridad sobre el intervalo de fechas del proyecto. Asimismo, el intervalo de fechas del informe tiene prioridad sobre la configuración de fechas de los espacios de trabajo y los proyectos. No se puede seleccionar un intervalo de fechas que exceda el intervalo de disponibilidad de datos.
 seo-title: Fechas e intervalos de fechas
 title: Fechas e intervalos de fechas
-uuid: 8 f 099 db 7-e 74 b -4384-ac 46-61 a 545 f 1 dd 62
+uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos. Se pueden realizar selecciones de calendario en los niveles de proyecto, espacio de trabajo e informe. El intervalo de fechas del proyecto se toma como fecha predeterminada. Sin embargo, el intervalo de fechas del espacio de trabajo tiene prioridad sobre el intervalo de fechas del proyecto. Asimismo, el intervalo de fechas del informe tiene prioridad sobre la configuración de fechas de los espacios de trabajo y los proyectos. No se puede seleccionar un intervalo de fechas que exceda el intervalo de disponibilidad de datos.
 
-## Dates and date ranges {#concept_AB32765013F449908B5964AB622C75FF}
+## Fechas e intervalos de fechas {#concept_AB32765013F449908B5964AB622C75FF}
 
 En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos. Se pueden realizar selecciones de calendario en los niveles de proyecto, espacio de trabajo e informe. El intervalo de fechas del proyecto se toma como fecha predeterminada. Sin embargo, el intervalo de fechas del espacio de trabajo tiene prioridad sobre el intervalo de fechas del proyecto. Asimismo, el intervalo de fechas del informe tiene prioridad sobre la configuración de fechas de los espacios de trabajo y los proyectos. No se puede seleccionar un intervalo de fechas que exceda el intervalo de disponibilidad de datos.
 
@@ -28,7 +28,7 @@ Al seleccionar un rango de fecha cuando cree un proyecto, si usa Preconfigurado 
 
 >[!NOTE]
 >
->Si necesita ayuda para ejecutar informes preexistentes, comuníquese con el administrador de cuentas.
+>Si necesita ayuda para ejecutar informes preexistentes, póngase en contacto con el administrador de cuentas.
 
 ## Fracciones de datos preexistentes {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -40,12 +40,12 @@ c_legacy_data.xml
 
  -->
 
-** Para acceder a fracciones de datos del historial**
+**Para acceder a fracciones de datos del historial**
 
 1. [Cree o abra un proyecto.](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. Open the [calendar](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.
+1. Abra el [calendario](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)y seleccione **[!UICONTROL Trimestre]** o **[!UICONTROL Año]**.
 
 >[!NOTE]
 >
->Las fracciones de fecha históricas están dentro de las restricciones trimestral y anual. No se pueden ver datos que sobrepasen los límites entre las fracciones preexistentes y la nueva plataforma de procesamiento. Intervalos de fechas que abarcan ambos resultados en un error. Asimismo, solo se aplican los intervalos de fecha al calendario gregoriano, no al calendario personalizado.
+>Las fracciones de fecha históricas están dentro de las restricciones de trimestre y año. No se pueden ver datos que sobrepasen los límites entre las fracciones preexistentes y la nueva plataforma de procesamiento. Intervalos de fechas que abarcan ambos resultados en un error. Asimismo, solo se aplican los intervalos de fecha al calendario gregoriano, no al calendario personalizado.
 
