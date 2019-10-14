@@ -7,7 +7,7 @@ title: Abandono
 topic: Informes
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -26,11 +26,11 @@ Este informe resulta útil para examinar:
 
 Consulte [Recorrido del cliente: visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html).
 
-** Reports and Analytics **
+**Reports and Analytics**
 
 Consulte [Ejecución de un informe de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html), en la Ayuda, para obtener información sobre la configuración.
 
-** Ad Hoc Analysis **
+**Ad Hoc Analysis**
 
 Los datos de visitas en el orden previsto se pueden analizar en el nivel de la visita o del visitante. También se pueden ver una ruta de tendencia, que muestra un gráfico de la tasa de abandono de la secuencia prevista a lo largo de un período indicado. Se pueden configurar páginas aisladas o grupos de páginas como puntos de comprobación del informe, o agregar cualquier dimensión o métrica, en cualquier combinación o secuencia. También se pueden utilizar como puntos de comprobación en el informe categorías configuradas en los informes de marketing.
 
