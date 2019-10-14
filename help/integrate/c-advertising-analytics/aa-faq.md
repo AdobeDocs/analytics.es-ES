@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Preguntas más frecuentes
-title: Preguntas más frecuentes
-uuid: 05724 f 56-cf 98-4 ad 8-ad 0 d -83 a 5 a 4 b 1944 a
+seo-title: Preguntas frecuentes
+title: Preguntas frecuentes
+uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Preguntas más frecuentes
+# Preguntas frecuentes
 
 ## Acceso y derechos {#section_5F558C5981F747F0AF375A9E4B75C93C}
 
@@ -99,7 +99,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Se pueden incluir las métricas de Advertising Analytics en el informe <b>Canales de marketing</b>? </p> </td> 
-   <td colname="col2"> <p>R: No, no se incluyen en el informe Canales de marketing. </p> </td> 
+   <td colname="col2"> <p>A: No, no se incluyen en el informe Canales de mercadotecnia. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿<b>Cuándo</b> obtiene Analytics los datos de búsqueda? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Solo capturamos google.com o también <b>versiones específicas de los países</b> como google.co.uk, google.it, google.fr o google.de? </p> </td> 
-   <td colname="col2"> <p>A: La clasificación Plataforma de publicidad captura estos valores: «Google Adwords» y «Bing Ads». </p> <p>Una práctica recomendada habitual es incluir el código de país como parte del nombre de las campañas. A continuación, puede filtrarlas o segmentarlas (por ejemplo, si todas las campañas empiezan por códigodepaís_, el hecho de crear un segmento en el que las campañas (ID de AMO) empiecen por “UK_” solo le proporcionaría datos para el Reino Unido). </p> </td> 
+   <td colname="col2"> <p>A: La clasificación Plataforma de publicidad captura estos valores: "Google Adwords" y "Bing Ads". </p> <p>Una práctica recomendada habitual es incluir el código de país como parte del nombre de las campañas. A continuación, puede filtrarlas o segmentarlas (por ejemplo, si todas las campañas empiezan por códigodepaís_, el hecho de crear un segmento en el que las campañas (ID de AMO) empiecen por “UK_” solo le proporcionaría datos para el Reino Unido). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: La métrica “Coste de AMO” es el coste que se paga por cada palabra clave o anuncio según informe el motor de búsqueda. ¿Es el coste neto o el bruto? </p> </td> 
