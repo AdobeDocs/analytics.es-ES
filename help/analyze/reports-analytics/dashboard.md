@@ -1,23 +1,23 @@
 ---
 description: Un tablero es una colección de informes en miniatura, llamados informes breves. Un tablero es más útil cuando contiene informes breves relacionados que le ofrecen información general completa sobre determinados aspectos de su sitio, como métodos de búsqueda, perfiles de visitantes, etc.
 seo-description: Un tablero es una colección de informes en miniatura, llamados informes breves. Un tablero es más útil cuando contiene informes breves relacionados que le ofrecen información general completa sobre determinados aspectos de su sitio, como métodos de búsqueda, perfiles de visitantes, etc.
-seo-title: Tableros e informes breves
+seo-title: Paneles e informes breves
 solution: Analytics
 subtopic: Tableros
-title: Tableros e informes breves
+title: Paneles e informes breves
 topic: Reports and Analytics
-uuid: 7 a 7 b 3 bc 9-0 a 3 c -49 b 0-9168-e 2878 ae 67 b 97
+uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Tableros e informes breves
+# Paneles e informes breves
 
 Un tablero es una colección de informes en miniatura, llamados informes breves. Un tablero es más útil cuando contiene informes breves relacionados que le ofrecen información general completa sobre determinados aspectos de su sitio, como métodos de búsqueda, perfiles de visitantes, etc.
 
-## Dashboards and reportlets {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
+## Paneles e informes breves {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
 
 Un tablero es una colección de informes en miniatura, llamados *`reportlets`*. Un tablero es más útil cuando contiene informes breves relacionados que le ofrecen información general completa sobre determinados aspectos de su sitio, como métodos de búsqueda, perfiles de visitantes, etc.
 
@@ -36,7 +36,7 @@ Debe tener en cuenta que algunos de los informes visualizados con más frecuenci
 
 >[!NOTE]
 >
->The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports &amp; Analytics. Sin embargo, aún hay un par de circunstancias en las que verá algunos o todos estos informes breves.
+>The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. Sin embargo, aún hay un par de circunstancias en las que verá algunos o todos estos informes breves.
 
 * Si, por ejemplo, solo tiene tres informes vistos con frecuencia, Reports &amp; Analytics tomará dos informes del tablero Información general de sitio para completar el tablero **[!UICONTROL Mis informes recomendados].**
 * Los grupos de informes completamente nuevos también contarán inicialmente con informes breves de Información general de sitio, hasta que se puedan sustituir por los informes que visualiza con más frecuencia. Aun así, el tablero se llamará **[!UICONTROL Mis informes recomendados]**.
@@ -86,10 +86,10 @@ Antes de añadir un informe (como informe breve) a un tablero, defina el diseño
 
 1. Añada el contenido disponible al tablero, arrastrando artículos al lienzo de informes breves.
 
-   See [Creating a Reportlet](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) and [Editing Dashboard Settings](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+   Consulte [Creación de un informe breve](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) y [Edición de la configuración](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)del tablero.
 1. Haga clic en **[!UICONTROL Guardar.]**
 
-   Guardar un tablero lo convierte en disponible en el menú **[!UICONTROL Tablero].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (See [Managing Dashboards](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   Guardar un tablero lo convierte en disponible en el menú **[!UICONTROL Tablero].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Consulte [Administración de tableros](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
 
 1. (Opcional) Para establecer el tablero como página de aterrizaje, haga clic en **Más opciones** &gt; **[!UICONTROL Establecer como página de aterrizaje]**.
 
@@ -136,7 +136,7 @@ t_dashboard_content.xml
 
    >[!NOTE]
    >
-   >El límite actual en el número de páginas de un tablero es de 30.
+   >El límite actual del número de páginas en un tablero es de 30.
 
    **Informes breves personalizados**
 
@@ -214,7 +214,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Configuración de la empresa]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Configuración **[!UICONTROL de empresa]**.
 1. En la página [!UICONTROL Configuración de empresa]**, haga clic en[!UICONTROL Promocionar conjuntamente Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1. Examine para cargar la imagen y, a continuación, haga clic en **[!UICONTROL Guardar.]**
@@ -233,5 +233,5 @@ segments_dashboards.xml
 
 Los segmentos se pueden aplicar en dos niveles: a un tablero entero o a un informe breve específico.
 
-* **Nivel de informe breve**: Haga clic **[!UICONTROL en Diseño]** y, a continuación, en el grupo de informes del informe breve que desee segmentar. Se muestra una ventana modal que le permite añadir o modificar los segmentos que usa el informe breve.
+* **Nivel** del informe breve: Haga clic en **[!UICONTROL Diseño]** y luego en el grupo de informes del informe breve que desee segmentar. Se muestra una ventana modal que le permite añadir o modificar los segmentos que usa el informe breve.
 * **Nivel de tablero:** haga clic en el icono del segmento en la parte izquierda del navegador, compruebe los segmentos que desea usar y, a continuación, haga clic en Aplicar. Los segmentos seleccionados anulan y sustituyen cualquier segmento de nivel de informe breve.
