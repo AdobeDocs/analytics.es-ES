@@ -1,18 +1,18 @@
 ---
 description: Cómo añadir, editar, aplicar y filtrar los segmentos de Adobe Analytics en el Creador de informes.
 seo-description: Cómo añadir, editar, aplicar y filtrar los segmentos de Adobe Analytics en el Creador de informes.
-seo-title: Administrar segmentos
+seo-title: Administración de segmentos
 solution: Analytics
-title: Administrar segmentos
+title: Administración de segmentos
 topic: Creador de informes
-uuid: 4 e 4 edc 39-ed 93-498 f -913 d -7 b 231 b 10 e 7 a 0
+uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Administrar segmentos
+# Administración de segmentos
 
 Cómo añadir, editar, aplicar y filtrar los segmentos de Adobe Analytics en el Creador de informes.
 
@@ -24,7 +24,7 @@ El Creador de informes incluye un panel de segmentación en el paso 1 del Asiste
 
 >[!NOTE]
 >
->Para agregar o editar segmentos, la interfaz de segmentos del Creador de informes inicia el Generador de segmentos de Analytics en una ventana de Microsoft Internet Explorer. Su sesión del Creador de informes permanecerá activa. Otros exploradores que no sean Internet Explorer no son compatibles con esta operación.
+>Para agregar o editar segmentos, la interfaz de segmentos del Creador de informes inicia el creador de segmentos de Analytics en una ventana de Microsoft Internet Explorer. Su sesión del Creador de informes permanecerá activa. Otros exploradores que no sean Internet Explorer no son compatibles con esta operación.
 
 1. En el panel de segmento del paso 1 del Asistente para solicitudes, haga clic en **[!UICONTROL Añadir]**.
 1. Se inicia una ventana de Internet Explorer que abre la interfaz del Creador de segmentos de Analytics. Para obtener información acerca de cómo crear segmentos, consulte [https://marketing.adobe.com/resources/help/es_ES/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/).
@@ -57,7 +57,7 @@ Cualquier segmento que se haya creado en Informes y análisis, Análisis especí
 
 Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye segmentos secuenciales.
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]**box to display all the segments.
+1. Vaya a la lista desplegable de **[!UICONTROL Segmento]** y haga clic en la pequeña flecha hacia abajo en el cuadro **Elegir segmento]para mostrar todos los segmentos.[!UICONTROL **
 
    ![](assets/seg_list.png)
 
@@ -65,7 +65,7 @@ Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye s
 
 >[!NOTE]
 >
->Tanto si es administrador como si no, en el Creador de informes podrá ver solo los segmentos que posee y los que se han compartido con usted. (En la interfaz de usuario de Informes y análisis de marketing, el administrador puede ver todos los segmentos de la organización).
+>Tanto si es administrador como si no, en el Creador de informes solo podrá ver los segmentos que le pertenecen y los que se han compartido con usted. (En la interfaz de usuario de Informes y análisis de marketing, el administrador puede ver todos los segmentos de la organización).
 
 ## Filtrar segmentos {#section_376E986D3E684999A7CDB08E53854159}
 
