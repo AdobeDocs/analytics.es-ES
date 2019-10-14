@@ -1,18 +1,18 @@
 ---
-description: Las sesiones según el contexto en grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas móviles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
-seo-description: Las sesiones según el contexto en grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas móviles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
+description: Las sesiones con contexto en los grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas con dispositivos portátiles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
+seo-description: Las sesiones con contexto en los grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas con dispositivos portátiles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
 seo-title: Sesiones según el contexto
 title: Sesiones según el contexto
-uuid: d 354864 a -9163-4970-a 3 a 0-f 2 e 9729 bdbe 3
+uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
 # Sesiones según el contexto
 
-Las sesiones según el contexto en grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas móviles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
+Las sesiones con contexto en los grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas con dispositivos portátiles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
 
 Puede definir una visita del modo que desee sin alterar los datos subyacentes para adaptarse al modo en que sus visitantes interactúan con las aplicaciones móviles.
 
@@ -29,7 +29,7 @@ Una visita en segundo plano es un tipo de visita que el SDK para móviles de Ado
 
 Los siguientes ejemplos describen la lógica empleada para determinar cuándo comienza y acaba una visita para cualquier visitante cuando el ajuste “Impedir que las visitas en segundo plano inicien una nueva visita” está o no habilitado para un grupo de informes virtuales.
 
-** Si “Impedir que las visitas en segundo plano inicien una nueva visita” no está habilitado:**
+**Si “Impedir que las visitas en segundo plano inicien una nueva visita” no está habilitado:**
 
 Si esta función no está habilitada para un grupo de informes virtuales, las visitas en segundo plano se tratan como cualquier otra visita, lo que significa que inician nuevas visitas y se comportan igual que las visitas en primer plano. Por ejemplo, si se produce una visita en segundo plano menos de 30 minutos (el tiempo de espera de sesión estándar para un grupo de informes) antes de un grupo de visitas en primer plano, la visita en segundo plano es parte de la sesión.
 
@@ -39,7 +39,7 @@ Si la visita en segundo plano se produce más de 30 minutos antes de cualquier v
 
 ![](assets/nogood2.jpg)
 
-** Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado:**
+**Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado:**
 
 Los siguientes ejemplos ilustran el comportamiento de las visitas en segundo plano cuando esta función está habilitada.
 
