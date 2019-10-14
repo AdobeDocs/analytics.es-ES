@@ -7,7 +7,7 @@ title: Informes de fuentes de tráfico
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -130,7 +130,7 @@ Los siguientes artículos de línea podrían mostrarse cuando ejecute este infor
 
 **Dentro de su sitio**: estos artículos son direcciones URL que son etiquetadas por los filtros de URL internos. No se contabilizan como  instancias de referente, pero se pueden ver en informes de otras métricas.
 
-** Sin Java Script**: No había JavaScript, por lo que el tipo no se podía identificar (desconocido). Esto significa que un cliente, desde un explorador, no proporcionó información de referente y, por consiguiente, no se sabe si admite JavaScript. No se contabilizan como “instancias de referente” pero se pueden ver en los informes de otras métricas.
+**Sin JavaScript**: no hay JavaScript, por lo que el tipo no se puede identificar (desconocido). Esto significa que un cliente, desde un explorador, no proporcionó información de referente y, por consiguiente, no se sabe si admite JavaScript. No se contabilizan como “instancias de referente” pero se pueden ver en los informes de otras métricas.
 
 **USENET (grupos de noticias)**: significa que la dirección URL de un referente empezaba por `news://`. Por lo tanto, el vínculo de referente se publicó en un grupo de noticias Usenet, en vez de en una página web.
 
