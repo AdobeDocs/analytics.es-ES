@@ -1,12 +1,12 @@
 ---
 description: Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que puede crear a partir de métricas existentes.
-keywords: Métricas calculadas; Métricas derivadas; Métricas calculadas avanzadas
+keywords: Métricas calculadas;Métricas derivadas;Métricas calculadas avanzadas
 seo-description: Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que puede crear a partir de métricas existentes.
 seo-title: Métricas calculadas y calculadas avanzadas (derivadas)
 title: Métricas calculadas y calculadas avanzadas (derivadas)
-uuid: 2553 c 115-b 15 a -4109-8 de 2-733 dbc 1 eeb 9 e
+uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,14 +19,14 @@ Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas pers
 >
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Como parte de este cambio, las métricas calculadas que usan un modelo de asignación no predeterminado se migraron a los nuevos modelos de atribución mejorados:
 >
->* Los modelos de asignación «Último toque de canal de marketing» y «Canal de mercadotecnia de primer toque» migraban a los modelos de atribución «Último toque» y «Primer toque» respectivamente (Nota: «Canales de mercadotecnia» no se ha desaprobado; solo se han mostrado los dos modelos de asignación que aparecen en las métricas calculadas.
+>* Los modelos de asignación "Último toque de canal de mercadotecnia" y "Primer toque de canal de mercadotecnia" se migraron a los nuevos modelos de atribución "Último toque" y "Primer toque" respectivamente (Nota: "Canales de mercadotecnia" no se ha desaprobado; solo se han utilizado los dos modelos de asignación que aparecen en las métricas calculadas).
 >* Además, hemos corregido la forma en que se calcula la asignación lineal. Para los clientes que usan métricas calculadas con modelos de asignación “Lineal”, los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obtener más información, consulte [Funcionamiento de la asignación lineal a partir del 19 de julio de 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
 Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
 
-* [!DNL Analytics] Adobe Foundation: Calculado
-* [Seleccionar Adobe Analytics](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Calculadas + calculadas avanzadas
+* Adobe [!DNL Analytics] Foundation: Calculated
+* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html): Calculadas + calculadas avanzadas
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): calculadas + calculadas avanzadas
 * [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): calculadas + calculadas avanzadas
 
@@ -110,7 +110,7 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"> Carril del selector de métricas </td> 
-   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in [!UICONTROL Reports &amp; Analytics]. </p> <p>Le permite buscar y agregar o aplicar métricas en el informe. También puede cambiar el <a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">orden de clasificación</a> (con las opciones de orden: alfabético, recomendado, más utilizados, más recientes). Además, puede filtrar Grupos de informes para mostrar únicamente las métricas creadas en un grupo de informes específico. </p> <p>Para acceder a este Selector de métricas, haga clic en el icono Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> que encontrará en el lateral izquierdo de un informe. Este es el aspecto del Selector de métricas: </p> <p><img placement="break" align="center"  src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Reemplaza la ventana emergente <span class="uicontrol">Mostrar métricas</span><span class="uicontrol"> en Reports &amp; Analytics</span>. </p> <p>Le permite buscar y agregar o aplicar métricas en el informe. También puede cambiar el <a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">orden de clasificación</a> (con las opciones de orden: alfabético, recomendado, más utilizados, más recientes). Además, puede filtrar Grupos de informes para mostrar únicamente las métricas creadas en un grupo de informes específico. </p> <p>Para acceder a este Selector de métricas, haga clic en el icono Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" /> que encontrará en el lateral izquierdo de un informe. Este es el aspecto del Selector de métricas: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> API para métricas calculadas</a> </td> 
