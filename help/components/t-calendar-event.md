@@ -6,8 +6,8 @@ solution: Analytics
 title: Eventos de calendario
 topic: Reports and Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -33,7 +33,7 @@ Para los informes con tendencias en el paso del tiempo, puede utilizar esta herr
 1. (Opcional) Los eventos de calendario son específicos del usuario a menos que se compartan. Para compartir este evento, seleccione **[!UICONTROL Compartir]**.
 1. (Opcional) Insertar el evento de calendario a los usuarios. Los eventos de calendario que se han marcado como Compartidos ahora disponen de la opción de ser "insertados" a otros usuarios. La inserción de un Evento de calendario provocará que se muestre en los gráficos de tendencias y tiempo extra de los usuarios receptores.
    1. Haga clic en **[!UICONTROL Insertar en escritorio de usuarios]**.
-   1. **[!UICONTROL Marcar todos]**o marque la casilla junto al nombre del usuario.
+   1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. Haga clic en **[!UICONTROL Guardar]**.
    Esto hace que los Eventos de calendario sean mucho más útiles. Los analistas ahora disponen de la capacidad para forzar una superposición en los informes de sus usuarios para proporcionar más contexto.
 1. Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Eventos de calendario]**.
