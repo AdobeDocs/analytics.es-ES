@@ -7,7 +7,7 @@ title: Informes de métricas del sitio
 topic: Ad Hoc Analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **Ingresos**: permite ver la ganancia bruta para los períodos de tiempo seleccionados. Ejemplos: ingresos durante el mes de marzo, compras realizadas la semana anterior o ingresos en el día.
 * **Pedidos**: muestra el número de pedidos realizados en el sitio web durante el período de tiempo especificado. Los pedidos pueden contener varios productos.
 * **Unidades**: muestra las unidades totales que se pidieron durante el período de tiempo seleccionado.
-* ** Canal de conversión de compra**: Ideal para mostrar eventos de conversión en el sitio si se producen en un orden específico, como en una configuración de venta al por menor. Un informe de canal muestra las métricas de conversión para cada paso del proceso de conversión, así como también Pedidos, Ingresos y Unidades.
+* **Canal de conversión de compra**: idóneo para mostrar eventos de conversión en el sitio si se produjeron en un orden específico, por ejemplo en un contexto de venta minorista. Un informe de canal muestra las métricas de conversión para cada paso del proceso de conversión, así como también Pedidos, Ingresos y Unidades.
 
 ## Informe de carro de compras {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
