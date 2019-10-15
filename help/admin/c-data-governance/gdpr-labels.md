@@ -22,7 +22,7 @@ Before you can figure out which labels should be applied to which variables/fiel
 
 La implementación de privacidad de datos de Adobe Analytics admite las siguientes etiquetas para datos de identidad, datos confidenciales y control de datos.
 
-##   {#section_B2E78130957647338495EF37DE21D6BC}
+## Etiquetas DULE {#section_B2E78130957647338495EF37DE21D6BC}
 
 >[!NOTE]
 >
