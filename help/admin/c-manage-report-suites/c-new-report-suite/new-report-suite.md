@@ -1,22 +1,22 @@
 ---
 description: Puede crear un nuevo grupo de informes seleccionando como modelo una plantilla predefinida o utilizando uno de los grupos de informes existentes.
 seo-description: Puede crear un nuevo grupo de informes seleccionando como modelo una plantilla predefinida o utilizando uno de los grupos de informes existentes.
-seo-title: 'Nuevo grupo de informes: configuración'
+seo-title: Descargar la configuración del grupo de informes
 solution: Analytics
-title: 'Nuevo grupo de informes: configuración'
+title: Descargar la configuración del grupo de informes
 topic: Herramientas de administración
-uuid: 3508 f 684-11 a 3-4 c 8 f-a 233-bea 6 bafd 57 c 0
+uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Nuevo grupo de informes: configuración
+# Descargar la configuración del grupo de informes
 
 Puede crear un nuevo grupo de informes seleccionando como modelo una plantilla predefinida o utilizando uno de los grupos de informes existentes.
 
-Descripción de los elementos utilizados al [crear un grupo de informes](../../../admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md#task_67033B9710CB49F9B71A4DE374A538A0).
+Descripción de los elementos utilizados al [crear un grupo de informes](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Descripción de los elementos utilizados al [crear un grupo de informes](../../.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fecha de lanzamiento </p> </td> 
-   <td colname="col2">Informa a Adobe de la fecha en la que se espera que se active este grupo de informes. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="../../../admin/c-traffic-management/traffic-management.md#concept_8BD651EE8B84434CB4D6308BC6C01B79" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">Informa a Adobe de la fecha en la que se espera que se active este grupo de informes. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Vistas de la página estimadas por día</span> </td> 
@@ -60,11 +60,11 @@ Descripción de los elementos utilizados al [crear un grupo de informes](../../.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Moneda base</span> </td> 
-   <td colname="col2"> <p>Especifica la divisa predeterminada que se usará para almacenar todos los datos monetarios. Analytics convierte las transacciones en otras monedas a la moneda base mediante la tasa de conversión vigente en el momento de recibir los datos. </p> <p> Los informes de Analytics usan la variable <span class="varname"> Currencycode</span> JavaScript para identificar la moneda de una transacción determinada. </p> </td> 
+   <td colname="col2"> <p>Especifica la divisa predeterminada que se usará para almacenar todos los datos monetarios. Analytics convierte las transacciones en otras monedas a la moneda base mediante la tasa de conversión vigente en el momento de recibir los datos. </p> <p> Los informes de Analytics usan la variable <span class="varname"> currencyCode</span> JavaScript variable to identify the currency of a given transaction. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Deshabilitar compatibilidad con caracteres de byte múltiple </span> </td> 
-   <td colname="col2"> <p>Desactiva la compatibilidad con caracteres multibyte en el grupo de informes. Si se desactiva la compatibilidad con caracteres multibyte, el sistema supondrá que los datos están en formato ISO-8859-1. Las páginas web deben especificar su conjunto de caracteres en la variable <span class="varname"> Charset</span> JavaScript variable. </p> <p>La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing. </p> <p>Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, el usuario debe ponerse en contacto con el Administrador de cuentas o Atención al cliente. </p> </td> 
+   <td colname="col2"> <p>Desactiva la compatibilidad con caracteres multibyte en el grupo de informes. Si se desactiva la compatibilidad con caracteres multibyte, el sistema supondrá que los datos están en formato ISO-8859-1. Las páginas web deben especificar su conjunto de caracteres en la variable Variable <span class="varname"> charSet</span> JavaScript. </p> <p>La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing. </p> <p>Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, el usuario debe ponerse en contacto con el Administrador de cuentas o Atención al cliente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Activar los Ad Hoc Analysis en este grupo</span> </td> 
