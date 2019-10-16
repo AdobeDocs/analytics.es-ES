@@ -5,7 +5,7 @@ seo-title: Envío de solicitudes de acceso y eliminación
 title: Envío de solicitudes de acceso y eliminación
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -25,9 +25,9 @@ Usted, como responsable del tratamiento de datos, es el responsable de obtener u
 
 ## Validación de usuarios y sus datos  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-Usted, como responsable del tratamiento de datos, se encarga de verificar que el interesado sea quien dice ser y que tenga derechos sobre los datos que solicita. Además, es su responsabilidad garantizar que se devuelvan los datos correctos al interesado y que no reciba por accidente datos de otros interesados.
+Usted, como responsable del tratamiento de datos, se encarga de verificar que el interesado sea quien dice ser y que tenga derechos sobre los datos que solicita. Además, es responsabilidad suya garantizar que se devuelvan los datos correctos al sujeto de datos y que no reciban datos inadvertidamente sobre otros sujetos de datos.
 
-Esto incluye revisar los datos devueltos por Adobe Analytics como parte de una solicitud de acceso a la privacidad de datos antes de enviarla al sujeto de datos. Se debe prestar atención especial si se usan ID de persona y se devuelven no solo datos en los que esté presente un ID concreto, sino también datos de otras visitas en un dispositivo compartido en el que ese ID estaba presente algunas veces ([expansión de ID](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)).
+Esto incluye revisar los datos devueltos por Adobe Analytics como parte de una solicitud de acceso a la privacidad de datos antes de enviarla al sujeto de datos. Se debe tener especial cuidado si utiliza ID de persona y devuelve no sólo los datos en los que está presente dicho ID, sino también los datos de otras visitas en un dispositivo compartido en el que ese ID estuvo a veces presente. Consulte Expansión [de ID.](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
 Cada archivo combina los datos de todos sus grupos de informes y se eliminan automáticamente las copias adicionales de las visitas replicadas. Puede decidir cuál de estos archivos quiere devolver al interesado. O puede extraer algunos de estos datos y combinarlos con datos de otros sistemas antes de devolvérselos al interesado.
 
@@ -39,7 +39,7 @@ Puede enviar solicitudes de acceso a la privacidad de datos y eliminarlas a trav
 >
 >La API de privacidad de datos admite envíos por lotes para varios usuarios en una sola solicitud. El limite admitido actual es de 1000 usuarios independientes (pueden tener múltiples ID por usuario) en un único archivo JSON de solicitud.
 
-## Ejemplos de solicitudes de JSON  {#section_DB9DE6492FE740918F91D413E7BAB88F}
+## Ejemplos de solicitudes de JSON  {#sample-json-request}
 
 Este es el JSON que se puede enviar a través de la API de privacidad de datos o la interfaz de usuario, solicitando el procesamiento de privacidad de datos para tres usuarios.
 
@@ -101,7 +101,7 @@ Este es el JSON que se puede enviar a través de la API de privacidad de datos o
 } 
 ```
 
-Tenga en cuenta que existen tres bloques en la sección del usuario que representan tres solicitudes independientes, posiblemente de tres interesados diferentes.
+Observe que hay tres bloques en la sección del usuario, que representan tres solicitudes independientes, presumiblemente para tres temas de datos independientes.
 
 * La primera solicitud es una solicitud de acceso que utiliza un ID de cookie tradicional de Adobe Analytics (AAID).
 * La segunda solicitud también es de acceso, pero utiliza una cookie de MCID/ECID.
@@ -109,10 +109,10 @@ Tenga en cuenta que existen tres bloques en la sección del usuario que represen
 
 Tenga en cuenta lo siguiente:
 
-* El valor “5D7236525AA6D9580A495C6C@AdobeOrg” en la sección “companyContexts” debe actualizarse con el valor de su propia organización de Experience Cloud.
-* Los campos “type” y “namespace” se describen de forma más detallada en la sección  [Espacios de nombres](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D).
-* Los campos “descripción” se ignoran.
-* Los campos “key” pueden contener cualquier valor que desee. Si tiene un ID interno que está utilizando para rastrear las solicitudes de privacidad de datos, puede colocar este valor aquí para facilitar la coincidencia de las solicitudes del sistema de Adobe con las del sistema.
+* El valor "5D7236525AA6D9580A495C6C@AdobeOrg" en la sección "companyContext" debe actualizarse con el valor de su propia organización de Experience Cloud.
+* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section.
+* Se omiten los campos "description".
+* Los campos "clave" pueden contener cualquier valor que desee. Si tiene un ID interno que está utilizando para rastrear las solicitudes de privacidad de datos, puede colocar este valor aquí para facilitar la coincidencia de las solicitudes del sistema de Adobe con las del sistema.
 
 ## Detalles de respuesta  {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -151,4 +151,4 @@ Existen varias formas de seguir probando el procesamiento de la privacidad de da
 * Una opción consiste en configurar una organización de Experience Cloud independiente que solo contenga grupos de informes de prueba. A continuación, utilice esta organización de Experience Cloud para la prueba de privacidad de datos y la organización normal de Experience Cloud para el procesamiento real de la privacidad de datos.
 * Otra opción consiste en asignar diferentes áreas de nombres a los ID en los grupos de informes de prueba, frente a los de los grupos de informes de producción.
 
-   Por ejemplo, puede codificar cada área de nombres con “qa-” en los grupos de informes de prueba. Cuando envía solicitudes de privacidad de datos con espacios de nombres con el prefijo qa, estas solicitudes solo se ejecutarán en los grupos de informes de prueba. Más adelante, cuando envíe solicitudes sin el prefijo qa, se aplicarán a los grupos de informes de producción. **Es el método recomendado, a menos que utilice los áreas de nombres visitorId, AAID, ECID o customVisitorId, ya que estos son fijos y no puede especificar nombres alternativos en los grupos de informes de prueba**.
+   Por ejemplo, puede añadir un prefijo a cada espacio de nombres con "qa-" en los grupos de informes de prueba. Cuando envía solicitudes de privacidad de datos con espacios de nombres con el prefijo qa, estas solicitudes solo se ejecutarán en los grupos de informes de prueba. Más adelante, cuando envíe solicitudes sin el prefijo qa, se aplicarán a los grupos de informes de producción. **Es el método recomendado, a menos que utilice los áreas de nombres visitorId, AAID, ECID o customVisitorId, ya que estos son fijos y no puede especificar nombres alternativos en los grupos de informes de prueba**.
