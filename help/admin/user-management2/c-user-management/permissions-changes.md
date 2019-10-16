@@ -9,7 +9,7 @@ title: Cambios en los permisos de usuarios y grupos
 topic: Herramientas de administración
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 ---
 
@@ -59,7 +59,7 @@ Debido a que la API y la interfaz utilizan el mismo sistema para dar permisos, l
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">Permiso de informes de detección de anomalías </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">Permiso de informes en tiempo real </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Permiso de acceso a Analysis Workspace </li> 
-    </ul> <p>Los administradores pueden eliminar los grupos personalizados y también crear los suyos propios, ya que todos los ajustes de configuración que antes estaban disponibles en grupos predefinidos se pueden personalizar bajo el ajuste <span class="wintitle">Acceso a informes</span>, en <a href="help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">Definir grupos de usuarios</a>. </p> </td> 
+    </ul> <p>Los administradores pueden eliminar los grupos personalizados y también crear los suyos propios, ya que todos los ajustes de configuración que antes estaban disponibles en grupos predefinidos se pueden personalizar bajo el ajuste <span class="wintitle">Acceso a informes</span>, en <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">Definir grupos de usuarios</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Permisos en el nivel de dimensión </p> </td> 
