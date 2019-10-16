@@ -4,10 +4,10 @@ seo-description: Muestra tráfico de páginas web y clasifica las vistas de pág
 seo-title: Informes en tiempo real
 solution: Analytics
 title: Informes en tiempo real
-topic: 'Informes '
-uuid: c 09 cc 605-0 b 3 b -41 ab -9 b 46-8 c 2 a 26 f 579 a 3
+topic: Informes
+uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -18,9 +18,9 @@ Muestra tráfico de páginas web y clasifica las vistas de página en tiempo rea
 
 >[!NOTE]
 >
->El informe en tiempo real no requiere ninguna implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+>El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md).
 
-**[!UICONTROL Métricas del sitio]** &gt; **[!UICONTROL Tiempo real]**
+**[!UICONTROL Métricas]** del sitio &gt; Tiempo **[!UICONTROL real]**
 
 Los informes en tiempo real responden a las preguntas siguientes: ¿Cuáles son las tendencias en mi sitio y por qué? Le permite, como especialista en marketing, responder rápidamente y administrar de forma activa el rendimiento de sus campañas de marketing y de su contenido. Los datos en tiempo real recibidos tienen una latencia inferior a dos minutos y se actualizan automáticamente cada minuto.
 
@@ -44,7 +44,7 @@ Como administrador, puede
 
 * Compare, por ejemplo, los valores de la semana pasada con los valores del año pasado (así como el total de hoy).
 
-Tenga en cuenta que no se admiten las métricas de conversión (eVar), ya que no hay concepto de persistencia. Aunque puede seleccionar métricas de conversión, solo funcionarán si se establecen en la misma página que las dimensiones. Para obtener más información, consulte el mensaje de advertencia registrado en [Configuración de informes en tiempo real](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+Tenga en cuenta que no se admiten las métricas de conversión (eVar), ya que no hay concepto de persistencia. Aunque puede seleccionar métricas de conversión, solo funcionarán si se establecen en la misma página que las dimensiones. Para obtener más información, consulte el mensaje de advertencia registrado en [Configuración de informes](/help/admin/admin/realtime/t-realtime-admin.md)en tiempo real.
 
 La configuración y visualización de informes en tiempo real está restringida a administradores o cualquier otro usuario de los grupos de permisos "Acceso a todos los informes" e "Informes avanzados". Sin embargo, Tiempo real respeta los permisos. Por ejemplo, si no dispone de permisos para ver ingresos, no podrá ver un informe en tiempo real que incluya datos de ingresos.
 
@@ -57,4 +57,4 @@ Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Anal
 * Para el flujo en directo, los informes en tiempo real, las solicitudes de la API y todos los datos actuales para las variables de tráfico, solo se retrasan las visitas con un ID de datos suplementario.
 * Para los datos actuales en las métricas de conversión, los datos finalizados y las fuentes de datos, todas las visitas se retrasan de 5 a 7 minutos más.
 
-Tenga en cuenta que el aumento de latencia se inicia después de implementar el servicio de identidad, aunque no haya implementado completamente esta integración.
+Tenga en cuenta que el aumento de latencia comienza después de implementar el servicio de identidad, aunque no haya implementado completamente esta integración.
