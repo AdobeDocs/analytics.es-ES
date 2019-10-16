@@ -5,9 +5,9 @@ seo-title: Detección de búsqueda de pago
 solution: Analytics
 title: Detección de búsqueda de pago
 topic: Herramientas de administración
-uuid: 41 aadf 17-7 b 8 b -49 ce -84 ca-dc 3293660205
+uuid: 41aadf17-7b8b-49ce-84ca-dc329360205
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -18,7 +18,7 @@ La detección de búsqueda de pago diferencia entre búsquedas pagadas y natural
 
 ## Detección de búsqueda de pago - Descripciones {#section_0C2CFA0AF77B47098BE37CB024665D0D}
 
-The following table describes the fields and options you use to [configure paid search detection](../../../admin/admin/paid-search-detection/t-paid-search-detection.md#task_D0BBDB78771E4BDBB495A004A080D647).
+La siguiente tabla describe los campos y las opciones que se utilizan para [configurar la detección](/help/admin/admin/paid-search-detection/t-paid-search-detection.md)de búsqueda paga.
 
 | Elementos | Descripción |
 |--- |--- |
