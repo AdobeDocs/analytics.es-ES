@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Usuarios y grupos
 title: Asignar grupos de usuarios a un grupo de informes
 topic: Herramientas de administración
-uuid: 67173113-2 fca -483 e -9038-8423 e 6 d 4 de 6 e
+uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -21,11 +21,11 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 Instrucciones sobre cómo asignar grupos de usuarios a un grupo de informes.
 
-La página [!UICONTROL Grupos de informes] permite ver y configurar los grupos de informes de la empresa. Analytics administra el acceso a los grupos de informes mediante la pertenencia a grupos. Para configurarlos por primera vez, cree los grupos necesarios (y asigne grupos de informes a cada grupo). A continuación, asigne las cuentas de usuario a los correspondientes [grupos](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F).
+La página [!UICONTROL Grupos de informes] permite ver y configurar los grupos de informes de la empresa. Analytics administra el acceso a los grupos de informes mediante la pertenencia a grupos. Para configurarlos por primera vez, cree los grupos necesarios (y asigne grupos de informes a cada grupo). A continuación, asigne las cuentas de usuario a los correspondientes [grupos](/help/admin/user-management2/c-user-groups/groups.md).
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Report Suites]**.
-1. Seleccione un grupo de informes.
+1. Selección de un grupo de informes.
 1. Under **[!UICONTROL Report Suite Permissions Management]** page, select the groups to assign to the report suite:
 
    **[!UICONTROL Grupos disponibles:]** muestra todos los grupos definidos actualmente. Seleccione los grupos que desee y haga clic en **[!UICONTROL Agregar]**. Los grupos asignados aparecerán en el campo Contenido del grupo (a la derecha).
