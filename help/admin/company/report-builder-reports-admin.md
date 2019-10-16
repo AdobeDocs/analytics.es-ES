@@ -1,18 +1,18 @@
 ---
 description: Administra la licencia asignada a los usuarios del Report Builder.
 seo-description: Administra la licencia asignada a los usuarios del Report Builder.
-seo-title: Informes del creador de informes
+seo-title: Informes del Report Builder
 solution: Analytics
-title: Informes del creador de informes
+title: Informes del Report Builder
 topic: Herramientas de administración
-uuid: 41 f 98 b 99-9 a 78-430 a -8 a 42-101 eddd 3 d 2 ef
+uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Informes del creador de informes
+# Informes del Report Builder
 
 Administra la licencia asignada a los usuarios del Report Builder.
 
@@ -22,4 +22,4 @@ You can grant report builder access to any [!DNL Analytics] user by adding them 
 
 En la tabla de información [!UICONTROL Uso de tareas programadas] se muestran todos los usuarios con privilegios de acceso al Report Builder.
 
-Consulte [Grupos](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F).
+Consulte [Grupos](/help/admin/user-management2/c-user-groups/groups.md).
