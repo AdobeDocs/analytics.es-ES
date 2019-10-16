@@ -5,9 +5,9 @@ seo-title: Administrador del grupo de informes
 solution: Analytics
 title: Administrador del grupo de informes
 topic: Herramientas de administración
-uuid: 018 c 4 f 63-4 d 87-4 a 2 e -8 c 71-1 ba 7 f 5 dd 9446
+uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Un grupo de informes define los informes completos e independientes de un sitio web, de un conjunto de sitios web o de un subconjunto de páginas web que se hayan seleccionado. Por lo general, un grupo de informes es un sitio web, pero podría ser un segmento global en el cual se han combinado las cifras de varios sitios para obtener valores totales. Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes a utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes). Asimismo, un grupo de informes puede ser de menor tamaño que un sitio web si desea ejecutar informes solo para una parte del sitio. Las soluciones de Analytics reúnen estos almacenes de datos y generan informes a partir de ellos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en la que se procesan los datos en un grupo de informes.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **[!UICONTROL de informes]**
 
 >[!NOTE]
 >
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Please refer to the [Virtual Report Suite documentation](/help/components/vrs/vrs-about.md).
+>Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Consulte la documentación [del grupo de informes](/help/components/vrs/vrs-about.md)virtuales.
 
 ## Descripciones del Administrador del grupo de informes {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -56,7 +56,7 @@ La tabla siguiente describe los elementos de la página [!UICONTROL Administrado
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Resúmenes</span> </td> 
-   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte <a href="../../admin/c-manage-report-suites/rollup-report-suite.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Grupo de informes resumidos</a>. </p> </td> 
+   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> Grupo de informes resumidos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar configuración</span> </td> 
@@ -64,7 +64,7 @@ La tabla siguiente describe los elementos de la página [!UICONTROL Administrado
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Crear nueva</span> </td> 
-   <td colname="col2">Consulte <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#concept_3CBBE252279C43069030EFBBD7D26376" format="dita" scope="local">Nuevo grupo de informes</a>. </td> 
+   <td colname="col2">Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nuevo grupo de informes</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Personalizar columnas</span> </td> 
@@ -72,15 +72,15 @@ La tabla siguiente describe los elementos de la página [!UICONTROL Administrado
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">ID del grupo de informes </span> </td> 
-   <td colname="col2">Consulte <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">Nuevo grupo de informes</a>. </td> 
+   <td colname="col2">Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nuevo grupo de informes</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Título del sitio</span> </td> 
-   <td colname="col2"> <p>Identifica los grupos de informes en las Herramientas de administración y en la lista desplegable de grupo de informes del encabezado de los informes de marketing. </p> <p>Consulte <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">Nuevo grupo de informes</a>. </p> </td> 
+   <td colname="col2"> <p>Identifica los grupos de informes en las Herramientas de administración y en la lista desplegable de grupo de informes del encabezado de los informes de marketing. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nuevo grupo de informes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Dirección URL base</span> </td> 
-   <td colname="col2"> <p>Define el dominio base del grupo de informes. </p> <p>Consulte <a href="../../admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md#section_A910867ABBA647CEB58D3412E10A6A30" format="dita" scope="local">Nuevo grupo de informes</a>. </p> </td> 
+   <td colname="col2"> <p>Define el dominio base del grupo de informes. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nuevo grupo de informes</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
