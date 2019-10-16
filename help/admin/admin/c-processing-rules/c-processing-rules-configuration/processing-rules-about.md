@@ -1,19 +1,19 @@
 ---
 description: Las reglas de procesamiento permiten realizar cambios en los datos según ciertas condiciones definidas. Cuando los atributos o los valores coinciden con las condiciones definidas, se pueden definir y eliminar valores, y definir eventos.
 seo-description: Las reglas de procesamiento permiten realizar cambios en los datos según ciertas condiciones definidas. Cuando los atributos o los valores coinciden con las condiciones definidas, se pueden definir y eliminar valores, y definir eventos.
-seo-title: Cómo funcionan las reglas de procesamiento
+seo-title: Funcionamiento de las reglas de procesamiento
 solution: Analytics
 subtopic: Reglas de procesamiento
-title: Cómo funcionan las reglas de procesamiento
+title: Funcionamiento de las reglas de procesamiento
 topic: Herramientas de administración
-uuid: 19 c 31 f 94-c 8 d 8-47 b 1-97 fa -29 ed 98 c 94 e 87
+uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Cómo funcionan las reglas de procesamiento
+# Funcionamiento de las reglas de procesamiento
 
 Las reglas de procesamiento permiten realizar cambios en los datos según ciertas condiciones definidas. Cuando los atributos o los valores coinciden con las condiciones definidas, se pueden definir y eliminar valores, y definir eventos.
 
@@ -33,7 +33,7 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Las reglas se aplican a un solo grupo de informes. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md#task_6E4B82FCA687409B88F17EAFC353755D" type="task" format="dita" scope="local"> Copiar reglas de procesamiento en otro grupo de informes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> Copiar reglas de procesamiento en otro grupo de informes </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento se aplican por orden de lista. </p> </td> 
@@ -41,15 +41,15 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento se aplican inmediatamente al grupo de informes después de guardarse. </p> </td> 
-   <td colname="col2"> <p>Los cambios de las reglas de procesamiento deberían estar visibles en el grupo de informes tras unos minutos después de guardarse. A la hora de probar reglas de procesamiento, es recomendable configurar <a href="../../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40" format="dita" scope="local"> informes en tiempo real</a> de su grupo de informes de prueba para poder ver rápidamente los resultados de una regla de procesamiento. </p> </td> 
+   <td colname="col2"> <p>Los cambios de las reglas de procesamiento deberían estar visibles en el grupo de informes tras unos minutos después de guardarse. A la hora de probar reglas de procesamiento, es recomendable configurar <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento son la única forma de acceder a las variables de datos de contexto. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copiar una variable de datos de contexto en una eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copiar una variable de datos de contexto en una eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento se aplican antes que las reglas de VISTA y las reglas de canal de marketing. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md#concept_8A6BBEA7F50C40C8A8D8755D4F579B1E" type="concept" format="dita" scope="local"> Orden de procesamiento </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> Orden de procesamiento </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las visitas no se pueden excluir. </p> </td> 
@@ -64,7 +64,7 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
    <td colname="col2"> <p>La búsqueda de dispositivos móviles es anterior a las reglas de procesamiento, pero los atributos no están disponibles en las reglas de procesamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Si se ejecuta JavaScript AppMeasurement H.25.2 o anterior, no pueden leerse los parámetros de cadena a partir de los primeros 255 caracteres de la dirección URL. JavaScript appmeasurement H .25 .3 y posterior proporcionan la dirección URL completa, incluidos todos los parámetros de cadena de consulta a las reglas de procesamiento. </p> </td> 
+   <td colname="col1"> <p>Si se ejecuta JavaScript AppMeasurement H.25.2 o anterior, no pueden leerse los parámetros de cadena a partir de los primeros 255 caracteres de la dirección URL. JavaScript AppMeasurement H.25.3 y posterior proporciona la dirección URL completa, incluidos todos los parámetros de cadena de consulta, para las reglas de procesamiento. </p> </td> 
    <td colname="col2"> <p>Existe la posibilidad de actualizar a H.25.3 o posterior, o de leer los parámetros de cadena de consulta de las direcciones URL largas del lado del cliente y almacenar los valores en variables de datos de contexto. </p> </td> 
   </tr> 
   <tr> 
@@ -81,11 +81,11 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las comparaciones de valores en la IU distinguen entre mayúsculas y minúsculas. </p> </td> 
-   <td colname="col2"> <p> <a href="../../../../admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md#concept_958E924BCCBB4BBA91CE91C977FE5151" type="concept" format="dita" scope="local"> Limpiar los valores de un informe </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Limpiar los valores de un informe </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Los nombres de las variables de datos de contexto solo pueden contener caracteres alfanuméricos, guiones bajos y puntos. Quedan descartados todos los caracteres restantes. </p> </td> 
-   <td colname="col2"> <p>Por ejemplo, la variable de data de contexto <code>login_page-home</code> se transforma automáticamente en <code>login_pagehome</code>. Todos los datos que se envíen a la variable <code>login_page-home</code> se asignan a <code>login_pagehome</code>. </p> <p>Las variables de datos de contexto que contienen caracteres no admitidos no pueden agregarse en la interfaz de reglas de procesamiento. </p> </td> 
+   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>Las variables de datos de contexto que contienen caracteres no admitidos no pueden agregarse en la interfaz de reglas de procesamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>El acento circunflejo (^) es un carácter especial en el sistema de reglas de procesamiento. </p> </td> 
