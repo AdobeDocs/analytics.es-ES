@@ -8,7 +8,7 @@ title: Dimensiones disponibles para las reglas de procesamiento
 topic: Herramientas de administración
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -41,7 +41,7 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de datos de contexto </p> </td> 
-   <td colname="col2"> <p>Variables con nombre que se envían con una visita. </p> <p>Nota: Los datos de las variables de datos de contexto se deben copiar en variables de informes para que aparezcan en los informes. Tampoco pueden verse en ninguna interfaz de informes, ni siquiera en las fuentes de datos del flujo de navegación. </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> Copiar una variable de datos de contexto en una eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> Definir un evento con una variable de datos de contexto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variables de datos de contexto</a> </p> </td> 
+   <td colname="col2"> <p>Variables con nombre que se envían con una visita. </p> <p>Nota: Los datos de las variables de datos de contexto se deben copiar en variables de informes para que aparezcan en los informes. Tampoco pueden verse en ninguna interfaz de informes, ni siquiera en las fuentes de datos del flujo de navegación. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copiar una variable de datos de contexto en una eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md" format="dita" scope="local"> Definir un evento con una variable de datos de contexto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variables de datos de contexto</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,11 +66,11 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>Sección del sitio </p> </td> 
-   <td colname="col2"> <p> <code>s.channel</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidor </p> </td> 
-   <td colname="col2"> <p> <code>s.server</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.server </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL de la página </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> o la dirección URL de la página actual si <code>s.pageURL</code> no se especifica. </td> 
+   <td colname="col2"> <code> s.pageURL</code> o la dirección URL de la página actual si <code> s.pageURL</code> no se especifica. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parámetro de cadena de consulta </p> </td> 
@@ -164,7 +164,7 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
  <tbody> 
   <tr> 
    <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> - <code>evarN</code> </p> </td> 
+   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código de seguimiento de campaña </p> </td> 
@@ -176,7 +176,7 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de lista 1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code>s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de compra </p> </td> 
@@ -211,7 +211,7 @@ Las reglas de procesamiento pueden definir eventos pero no pueden leerlos como c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Evento 1-1000 </p> <p>(Para clientes de SiteCatalyst 15, evento 1-100). </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code>event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase, scView, scAdd y otros eventos de carrito de compra </p> </td> 
