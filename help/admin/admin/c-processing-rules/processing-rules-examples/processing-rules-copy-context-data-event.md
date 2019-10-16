@@ -8,7 +8,7 @@ title: Definir un evento con una variable de datos de contexto
 topic: Herramientas de administración
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -27,7 +27,7 @@ La lista de [!UICONTROL variables de contexto] incluye todas las variables que s
 
 ![](assets/add-context-variable.png)
 
-La siguiente definición de regla se expande en la regla [Copiar una variable de datos de contexto a una regla eVar](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) para establecer también un evento en cada visita que contenga una variable de datos de contexto específica:
+La siguiente definición de regla se expande en la regla [Copiar una variable de datos de contexto a una regla eVar](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) para establecer también un evento en cada visita que contenga una variable de datos de contexto específica:
 
 | Conjunto de reglas | Valor |
 |---|---|
