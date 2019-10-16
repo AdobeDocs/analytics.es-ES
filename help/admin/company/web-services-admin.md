@@ -5,9 +5,9 @@ seo-title: Servicios Web
 solution: Analytics
 title: Servicios Web
 topic: Herramientas de administración
-uuid: ccae 04 cf-f 58 c -490 e-baaa-ee 04 c 534 b 28 d
+uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,15 +16,15 @@ source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
 
 Las API de servicios web proporcionan acceso mediante programación a los informes de marketing y a otros servicios de Suite que permiten duplicar y aumentar la funcionalidad disponible a través de la interfaz de Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Configuraciones de la empresa]** &gt; **[!UICONTROL Servicios Web]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Configuración **[!UICONTROL de empresa]** &gt; Servicios **[!UICONTROL web]**
 
 ## Administrar servicios Web
 
-En Administración de usuarios &gt; [Grupos](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F) puede actualizar el grupo Acceso a servicio Web para incluir a los usuarios que necesitan acceder a las API de Servicios Web.
+En Administración de usuarios &gt; [Grupos](/help/admin/user-management2/c-user-groups/groups.md) puede actualizar el grupo Acceso a servicio Web para incluir a los usuarios que necesitan acceder a las API de Servicios Web.
 
 ## WSDL: descargue el archivo WSDL de la API de servicios web para los programadores de estos servicios.
 
-Visit [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), which provides documentation, sample code, and forums related to the Web Services APIs. Haga clic en Información general sobre las API de servicios Web para obtener más información.
+Visite [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), que proporciona documentación, código de muestra y foros relacionados con las API de servicios Web. Haga clic en Información general sobre las API de servicios Web para obtener más información.
 
 ## Opciones de filtro
 
