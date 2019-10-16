@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Reglas de procesamiento
 title: Crear reglas de procesamiento
 topic: Herramientas de administración
-uuid: fd 92 e 6 c 9-8 ef 0-4604-8 fd 4-4225527 b 4 fa 9
+uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -30,4 +30,4 @@ Las reglas de procesamiento se definen en los grupos de informes.
 
    Si tiene varias reglas, arrástrelas a la página para cambiar el orden de procesamiento.
 
-   Consulte [Ejemplos de reglas de procesamiento](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md#concept_92527719A66849058108300DAE8A506B) para obtener más información sobre los tipos de reglas que se pueden crear.
+   Consulte [Ejemplos de reglas de procesamiento](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md) para obtener más información sobre los tipos de reglas que se pueden crear.
