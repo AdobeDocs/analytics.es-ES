@@ -5,7 +5,7 @@ seo-title: Etiquetas de privacidad de datos para variables de Analytics
 title: Etiquetas de privacidad de datos para variables de Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -22,13 +22,13 @@ Before you can figure out which labels should be applied to which variables/fiel
 
 La implementación de privacidad de datos de Adobe Analytics admite las siguientes etiquetas para datos de identidad, datos confidenciales y control de datos.
 
-## Etiquetas DULE {#section_B2E78130957647338495EF37DE21D6BC}
+##   {#section_B2E78130957647338495EF37DE21D6BC}
 
 >[!NOTE]
 >
 >El marco de etiquetado y aplicación del uso de los datos (Data Usage Labeling &amp; Enforcement, DULE) se ha diseñado para proporcionar una manera uniforme de recopilar, comunicar y usar metadatos de los datos de todas las soluciones, servicios y plataformas de Adobe en Adobe Experience Cloud. Los metadatos ayudan a los responsables del tratamiento de datos a indicar qué datos son información personal, cuáles son datos confidenciales y qué restricciones contractuales están asociadas a los datos. En esta versión inicial, Analytics solo muestra las etiquetas DULE relevantes para la privacidad de datos. A medida que otros productos de Adobe implementan la compatibilidad con las etiquetas DULE, las futuras versiones introducirán etiquetas de datos confidenciales adicionales, así como etiquetas contractuales, las cuales ayudarán a garantizar que los datos compartidos entre productos se utilizan únicamente de las formas permisibles según la ley.
 
-## Etiquetas de datos de identidad (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
+## Etiquetas de datos de identidad (DULE) {#identity-data-labels}
 
 Las etiquetas “I” de datos de identidad se utilizan para categorizar los datos que podrían usarse para identificar a una persona específica o ponerse en contacto con ella.
 
@@ -62,7 +62,7 @@ Las etiquetas “I” de datos de identidad se utilizan para categorizar los dat
  </tbody> 
 </table>
 
-## Etiquetas de datos confidenciales (DULE)  {#section_533E1406F3F24A01B51D94139B94CAEC}
+## Etiquetas de datos confidenciales (DULE)  {#sensitive-data-labels}
 
 Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos confidenciales, como datos geográficos. En el futuro, se presentarán etiquetas de datos confidenciales adicionales para identificar otros tipos de información confidencial.
 
@@ -434,7 +434,7 @@ Esta sección trata de aclarar la información sobre las variables de Analytics 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ID </p> <p>MCID/ECID </p> </td> 
-   <td colname="col2"> <p> Estas etiquetas tienen una etiqueta DEL-DEVICE, pero no se puede añadir la etiqueta DEL-PERSON. Si especifica  <a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> Expansión de ID</a> con cada solicitud, estos ID se eliminarán automáticamente para todas las solicitudes de eliminación, incluso las que utilizan un ID-PERSON. </p> <p>Si no utiliza la expansión de ID, pero desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, los recuentos de visitantes únicos cambiarán en los informes del historial. </p> </td> 
+   <td colname="col2"> <p> Estas etiquetas tienen una etiqueta DEL-DEVICE, pero no se puede añadir la etiqueta DEL-PERSON. Si especifica  <a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local"> Expansión de ID</a> con cada solicitud, estos ID se eliminarán automáticamente para todas las solicitudes de eliminación, incluso las que utilizan un ID-PERSON. </p> <p>Si no utiliza la expansión de ID, pero desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, los recuentos de visitantes únicos cambiarán en los informes del historial. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de AMO </p> </td> 
