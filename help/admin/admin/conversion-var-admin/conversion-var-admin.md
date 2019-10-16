@@ -8,7 +8,7 @@ title: Variables de conversión (eVar)
 topic: Herramientas de administración
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -33,7 +33,7 @@ Si se desea realizar la medición de tráfico o las rutas, se recomienda utiliza
 
 ## Variables de conversión - Descripciones {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-Descriptions of fields used when editing conversion variables.[](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97)
+Descripciones de los campos utilizados al [editar variables](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md)de conversión.
 
 <table id="table_E48D50926E6B492183300CA58A886927"> 
  <thead> 
@@ -81,7 +81,7 @@ Descriptions of fields used when editing conversion variables.[](../../../admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Estado</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Define el estado de la eVar: </p> <p><b></b> Deshabilitado</span>: Deshabilita la eVar. Quita la eVar de la lista de variables de conversión. </p> <p> <b></b> Sin subrelaciones</span>: Impide que se desglose la eVar con una subrelación. </p> <p> <b>Subrelaciones</b>básicas: </span>Permite desglosar una eVar en cualquier informe con subrelaciones completas (por ejemplo, Productos o Campaña). </p> </td> 
+   <td colname="col2"> <p>Define el estado de la eVar: </p> <p><b></b> Deshabilitado</span>: Deshabilita la eVar. Quita la eVar de la lista de variables de conversión. </p> <p> <b></b> Sin subrelaciones</span>:Impide que se desglose la eVar con una subrelación. </p> <p> <b>Subrelaciones</b>básicas: </span>Permite desglosar una eVar en cualquier informe con subrelaciones completas (por ejemplo, Productos o Campaña). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">Restaurar</span> </p> </td> 
