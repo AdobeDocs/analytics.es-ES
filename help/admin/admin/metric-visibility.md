@@ -1,21 +1,21 @@
 ---
 description: Ahora puede ocultar métricas (integradas) estándar, eventos personalizados y eventos integrados en el Menú, el Selector de métricas, el Creador de métricas calculadas y el Generador de segmentos.
 seo-description: Ahora puede ocultar métricas (integradas) estándar, eventos personalizados y eventos integrados en el Menú, el Selector de métricas, el Creador de métricas calculadas y el Generador de segmentos.
-seo-title: Visibilidad de métricas
+seo-title: Visibilidad de las métricas
 solution: Analytics
-title: Visibilidad de métricas
-uuid: fa 2 d 6 cba -8 e 03-422 d -9 f 7 d -4 f 35021 fa 9 b 4
+title: Visibilidad de las métricas
+uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Visibilidad de métricas
+# Visibilidad de las métricas
 
 Ahora puede ocultar métricas (integradas) estándar, eventos personalizados y eventos integrados en el Menú, el Selector de métricas, el Creador de métricas calculadas y el Generador de segmentos.
 
-1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**. [Más...](../../admin/admin/c-success-events/t-success-events.md#task_AC29770C973A43C5BE67DABA3BF1795C)
+1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**. [Más...](/help/admin/admin/c-success-events/t-success-events.md)
 1. Set the Visibility column to either **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]**, or **[!UICONTROL Hidden Everywhere]**.
 
 Esta configuración no afecta a la recopilación de datos de esa métrica. Solo afecta a su visibilidad en la interfaz de usuario. Esta es la forma en la que la configuración afecta a la visibilidad de las métricas en la interfaz de usuario:
