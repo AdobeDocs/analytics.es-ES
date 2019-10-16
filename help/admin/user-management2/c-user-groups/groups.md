@@ -6,14 +6,14 @@ solution: Analytics
 subtopic: Usuarios y grupos
 title: Configuración de grupos de usuarios
 topic: Herramientas de administración
-uuid: b 411032 a -7 d 56-44 fd-b 676-abee 4 af 756 f 9
+uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Configuración del grupo de usuarios (heredado)
+# Configuración de grupos de usuarios (heredado)
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
 
 Descripciones de los elementos de la página Definir grupo de usuarios.
 
-**[!UICONTROL Administración]** &gt; **[!UICONTROL Administración]** de usuarios &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Agregar nuevo grupo de usuarios]**
+**[!UICONTROL Administración]** &gt; Administración **[!UICONTROL de usuarios]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Agregar nuevo grupo de usuarios]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -63,7 +63,7 @@ Descripciones de los elementos de la página Definir grupo de usuarios.
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Informes de tráfico</b>: Otorga acceso a todos los informes basados en el tráfico, como vistas de página, visitas y visitantes únicos. </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>Informes</b>de tráfico: Otorga acceso a todos los informes en función del tráfico, como vistas de página, visitas y visitantes únicos. </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>Herramientas</b> (otorga acceso a las herramientas utilizadas en Informes y análisis, como Excluir por dirección IP, Clasificaciones y ClickMap heredado). </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>Informes de dispositivos portátiles y de vídeo</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>Informes de ruta</b> (otorga acceso a los informes sobre rutas como Página siguiente, Visita en el orden previsto y Tiempo empleado en la página). </li> 
@@ -95,10 +95,10 @@ Descripciones de los elementos de la página Definir grupo de usuarios.
      </ul> </p> </td> 
    <td colname="col2"> <p>Los miembros del grupo pueden acceder a un subconjunto de los informes que hay en el grupo de informes. Haga clic en <span class="uicontrol">Personalizar</span> para abrir una página donde se pueden seleccionar los informes concretos del grupo de informes a los que pueden acceder los miembros del grupo. </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC" format="dita" scope="local"> Herramientas de Analytics</a>: habilite permisos de usuario para elementos de General (facturación, registros, etc.), Administración de la empresa, Herramientas, Acceso a servicio Web, Report Builder e integración de Data Connectors. </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="../../../admin/user-management2/c-customize-report-access/groups-report-suite-tools.md#concept_C94E9864349B428AB9CCE0CA4B0A40FF" format="dita" scope="local"> Herramientas del grupo de informes</a>: habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero. </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="../../../admin/user-management2/c-customize-report-access/groups-metrics.md#concept_05D54436430E4320A48C7C685D337FBE" format="dita" scope="local"> Métricas</a>: habilite permisos para tráfico, conversión, eventos personalizados, eventos de soluciones, reconocimiento de contenido, etc. </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="../../../admin/user-management2/c-customize-report-access/groups-dimensions.md#concept_68B36161345341369B6D01DC7DD42A22" format="dita" scope="local"> Dimensiones</a>: personalice el acceso de los usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas. </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local"> Herramientas de Analytics</a>: habilite permisos de usuario para elementos de General (facturación, registros, etc.), Administración de la empresa, Herramientas, Acceso a servicio Web, Report Builder e integración de Data Connectors. </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local"> Herramientas del grupo de informes</a>: habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero. </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local"> Métricas</a>: habilite permisos para tráfico, conversión, eventos personalizados, eventos de soluciones, reconocimiento de contenido, etc. </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Dimensiones</a>: personalice el acceso de los usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
