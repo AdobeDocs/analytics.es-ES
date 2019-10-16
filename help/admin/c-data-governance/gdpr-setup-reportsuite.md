@@ -5,7 +5,7 @@ seo-title: Etiquetado de datos de grupos de informes
 title: Etiquetado de datos de grupos de informes
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -16,7 +16,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
 >[!NOTE]
 >
->Recuerde que el etiquetado debe revisarse cada vez que se cree un nuevo grupo de informes o cuando se habilite una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
+>Recuerde que el etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
 
 ## Asignación o edición de etiquetas de grupos de informes {#section_39F829F35A274EACA532E2F6FF392996}
 
@@ -41,27 +41,27 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
    ![](assets/info.png)
 
-1. Para seleccionar una o más variables, haga clic en sus casillas de verificación y, después, seleccione el icono **[!UICONTROL Editar](a la derecha) para editar una o más variables.**
+1. Para seleccionar una o más variables, haga clic en sus casillas de verificación y, después, seleccione el icono **[!UICONTROL Editar]** (a la derecha) para editar una o más variables.
 
    ![](assets/edit.png)
 
-1. El cuadro de diálogo de etiquetas de **datos de identidad** se abre automáticamente. Estas etiquetas clasifican los datos que se pueden usar por sí mismos o en combinación con otros datos para identificar a una persona o permitir ponerse en contacto de forma directa con ella. Para obtener más información sobre estas etiquetas, consulte [Etiquetas de datos de identidad (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_B2E78130957647338495EF37DE21D6BC)
+1. El cuadro de diálogo de etiquetas de **datos de identidad** se abre automáticamente. Estas etiquetas clasifican los datos que se pueden usar por sí mismos o en combinación con otros datos para identificar a una persona o permitir ponerse en contacto de forma directa con ella. Para obtener más información sobre estas etiquetas, consulte [Etiquetas de datos de identidad (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
    >[!NOTE]
    >
-   >El marco de aplicación y etiquetado de uso de datos (DULE) está diseñado para proporcionar un modo uniforme en todas las soluciones, servicios y plataformas para capturar, comunicar y utilizar metadatos sobre datos en Adobe Experience Cloud. Los metadatos ayudan a los responsables del tratamiento de datos a indicar qué datos son información personal, cuáles son datos confidenciales y qué restricciones contractuales están asociadas a los datos.
+   >El marco de etiquetado y aplicación del uso de los datos (Data Usage Labeling &amp; Enforcement, DULE) se ha diseñado para proporcionar una manera uniforme de recopilar, comunicar y usar metadatos de los datos de soluciones, servicios y plataformas en Adobe Experience Cloud. Los metadatos ayudan a los responsables del tratamiento de datos a indicar qué datos son información personal, cuáles son datos confidenciales y qué restricciones contractuales están asociadas a los datos.
 
    ![](assets/identity_labels.png)
 
-1. Abra la sección **Datos confidenciales** para establecer las etiquetas de datos confidenciales, la cual organiza por categorías los datos de geolocalización. Para obtener más información sobre estas etiquetas, consulte [Etiquetas de datos confidenciales (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC)
+1. Abra la sección **Datos confidenciales** para establecer las etiquetas de datos confidenciales, la cual organiza por categorías los datos de geolocalización. Para obtener más información sobre estas etiquetas, consulte [Etiquetas de datos confidenciales (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. Utilice esta sección para indicar a Adobe cómo gestionar cada variable para el acceso a la privacidad de datos y las solicitudes de eliminación, así como para definir qué variables deben analizarse para encontrar los ID de sujeto de datos para estas solicitudes. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B)
+1. Open the Data Privacy Data section to set **Data Governance** Labels. Utilice esta sección para indicar a Adobe cómo gestionar cada variable para el acceso a la privacidad de datos y las solicitudes de eliminación, así como para definir qué variables deben analizarse para encontrar los ID de sujeto de datos para estas solicitudes. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![](assets/privacy_labels.png)
 
-1. Haga clic en **[!UICONTROL Aplicar]una vez haya completado todo el etiquetado.**
+1. Haga clic en **[!UICONTROL Aplicar]** una vez haya completado todo el etiquetado.
 
 ## Copia de etiquetas en grupos de informes{#section_7C6FDAFF049F4126B84F6261F72668EE}
 
@@ -69,15 +69,15 @@ Si desea aplicar la misma configuración DULE/Data Privacy a más de un grupo de
 
 1. Seleccione el grupo de variables (dimensiones estándar, dimensiones de conversión, etc.) que contenga la variable que desea copiar. Tenga en cuenta que solo puede copiar las etiquetas para un grupo de variables a la vez.
 1. Seleccione algunas o todas las variables de este grupo.
-1. Haga clic en **[!UICONTROL Copiar etiquetas en los grupos de informes]en la parte superior derecha del cuadro de diálogo Control de datos.**
+1. Haga clic en **[!UICONTROL Copiar etiquetas en los grupos de informes]** en la parte superior derecha del cuadro de diálogo Control de datos.
 
    ![](assets/apply_as_template.png)
 
-1. Haga clic en **[!UICONTROL Seleccionar todo]para copiar las etiquetas para las variables seleccionadas en todos los grupos de informes o seleccione el grupo de informes individual en que desea copiar las etiquetas.**
+1. Haga clic en **[!UICONTROL Seleccionar todo]** para copiar las etiquetas para las variables seleccionadas en todos los grupos de informes o seleccione el grupo de informes individual en que desea copiar las etiquetas.
 
    >[!IMPORTANT]
    >
-   >Tenga en cuenta que todos los grupos de informes que seleccione deben asignarse a su organización de Experience Cloud.
+   >Tenga en cuenta que todos los grupos de informes que seleccione deben estar asignados a su organización de Experience Cloud.
 
    Cuando copia las etiquetas de una variable o establece variables en distintos grupos de informes, la copia se dirige a la variable de la posición correspondiente en el grupo de informes de destino. Para las dimensiones estándar, las métricas estándar, las dimensiones y los eventos de la solución y las dimensiones de procesamiento de datos, las etiquetas se copiarán en la variable con el **mismo nombre** que el grupo de informes de destino.
 
@@ -89,7 +89,7 @@ Si desea aplicar la misma configuración DULE/Data Privacy a más de un grupo de
 
    >[!IMPORTANT]
    >
-   >Siempre debe comprobar los grupos de informes de destino para asegurarse de que las etiquetas se copian correctamente. Esto resulta especialmente importante en el caso de variables que tienen etiquetas de ID o DEL.
+   >Siempre debe comprobar los grupos de informes de destino para garantizar que las etiquetas se copian correctamente. Esto resulta especialmente importante en el caso de variables que tienen etiquetas de ID o DEL.
 
 1. Haga clic en **[!UICONTROL Aplicar]**.
 
