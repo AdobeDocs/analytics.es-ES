@@ -1,21 +1,20 @@
 ---
 description: Esta página de ayuda contiene casos de uso recomendados para cada herramienta de Adobe Analytics. Las herramientas deben considerarse en el orden en que aparecen en la lista. Si una herramienta específica no se adapta a sus necesidades, continúe con la siguiente herramienta.
 seo-description: Esta página de ayuda contiene casos de uso recomendados para cada herramienta de Adobe Analytics. Las herramientas deben considerarse en el orden en que aparecen en la lista. Si una herramienta específica no se adapta a sus necesidades, continúe con la siguiente herramienta.
-seo-title: ¿Qué herramienta de Adobe Analytics debo utilizar?
-title: ¿Qué herramienta de Adobe Analytics debo utilizar?
-uuid: 1179 e 49 d -3 cfc -4 abd-a 8 eb -35 c 5 ae 380 c 16
+seo-title: ¿Qué herramienta de Adobe Analytics debo usar?
+title: ¿Qué herramienta de Adobe Analytics debo usar?
+uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# ¿Qué herramienta de Adobe Analytics debo utilizar?
+# ¿Qué herramienta de Adobe Analytics debo usar?
 
 Esta página de ayuda contiene casos de uso recomendados para cada herramienta de Adobe Analytics. Las herramientas deben considerarse en el orden en que aparecen en la lista. Si una herramienta específica no se adapta a sus necesidades, continúe con la siguiente herramienta.
 
-Para obtener más información sobre comparativas de producto de Adobe Analytics, diríjase [aquí](../../admin/c-analytics-product-comparison/analytics-product-comparison.md#concept_D9DB9FA42CA04F4C97765B6B31A0005D).
-
+Para obtener más información sobre comparativas de producto de Adobe Analytics, diríjase [aquí](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md).
 ## Interfaz de usuario de informes de Adobe Analytics {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** debe ser la interfaz de usuario de referencia para todas sus necesidades de informe y análisis. Adobe continúa invirtiendo en el lanzamiento de actualizaciones mensuales de este producto. Si hay una tarea que no puede realizar en Analysis Workspace, evalúe las otras interfaces que aparecen a continuación.**
@@ -107,13 +106,13 @@ El **[Report Builder](/help/analyze/report-builder/home.md)** debe usarse:
 
 **[El Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** debe usarse para:
 
-* Para acceder a variables ocultas en la interfaz de usuario (dirección IP, ID de Experience Cloud, ID de visitante de Analytics, URL de página)
+* Para acceder a variables que se ocultan en la interfaz de usuario (dirección IP, ID de Experience Cloud, ID de visitante de Analytics, URL de página)
 * Para acceder a datos más granulares de los que están disponibles en la interfaz de usuario (vista de tabla no normalizada).
 * Para descargar datos en un formato adecuado para una entrada de tabla dinámica.
 * Si el cliente desea introducir datos de Adobe en una herramienta de visualización de datos de terceros (resumidos ligeramente y que no sean de nivel de visita).
 * Para acceder a todos los valores de dimensión únicos si aparece “Poco tráfico” en Adobe Analytics.
 
-**[La fuente](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** de datos de Analytics debe usarse:
+**[Se debe usar la fuente](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** de datos de Analytics:
 
 * Para usar la fuente de datos más granular disponible (ID de visitante, visita).
 * Si el cliente desea almacenar los datos de Adobe en una base de datos del lado del cliente, con el nivel más granular que podemos enviar.
@@ -127,7 +126,7 @@ Las **[API de informes](https://marketing.adobe.com/developer/get-started/introd
 
 ## Soluciones personalizadas {#section_4A212F26A15947599DFB0399A0440CB6}
 
-Los servicios de ingeniería deben usarse cuando:
+Los Servicios de ingeniería deben usarse cuando:
 
 * El resto de las herramientas de Adobe no se adapten a sus necesidades.
 * Desea obtener una experiencia personalizada.
