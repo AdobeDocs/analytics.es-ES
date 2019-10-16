@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Usuarios y grupos
 title: Administración de usuarios y productos
 topic: Herramientas de administración
-uuid: 891 a 8 cb 3-b 77 d -46 f 6-ab 23-cbed 49 f 215 b 5
+uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -68,7 +68,7 @@ La tabla siguiente describe los elementos de la pestaña [!UICONTROL Usuarios] d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Agregar nuevo usuario</span> </td> 
-   <td colname="col2"> <p>Permite agregar una cuenta de usuario a la compañía. Este vínculo solo está disponible si el Número de inicios de sesión de usuario restantes es mayor que cero. </p> <p>Consulte <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Usuarios</a>. </p> </td> 
+   <td colname="col2"> <p>Permite agregar una cuenta de usuario a la compañía. Este vínculo solo está disponible si el Número de inicios de sesión de usuario restantes es mayor que cero. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Usuarios</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Descargar informe</span> </td> 
@@ -76,7 +76,7 @@ La tabla siguiente describe los elementos de la pestaña [!UICONTROL Usuarios] d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Inicio de sesión</span> </td> 
-   <td colname="col2"> <p>El nombre de usuario. Puede hacer clic en el nombre de usuario para editar las propiedades de la cuenta de usuario. </p> <p>Consulte <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Usuarios</a>. </p> </td> 
+   <td colname="col2"> <p>El nombre de usuario. Puede hacer clic en el nombre de usuario para editar las propiedades de la cuenta de usuario. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Usuarios</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Nombre</span> </td> 
@@ -112,7 +112,7 @@ La tabla siguiente describe los elementos de la pestaña [!UICONTROL Usuarios] d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar</span> </td> 
-   <td colname="col2"> <p>Editar la configuración de cuenta de usuario. </p> <p>Consulte <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> Usuarios</a>. </p> </td> 
+   <td colname="col2"> <p>Editar la configuración de cuenta de usuario. </p> <p>Consulte <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> Usuarios</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Eliminar</span> </td> 
@@ -120,7 +120,7 @@ La tabla siguiente describe los elementos de la pestaña [!UICONTROL Usuarios] d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Transferir</span> </td> 
-   <td colname="col2">Asignar los privilegios (permisos y acceso a los recursos) de una cuenta de usuario a otra. <p>Consulte <a href="../../admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md#task_A17A57DB5B114E869ABB1768F7910092" format="dita" scope="local"> Transferir privilegios de cuenta de usuario</a>. </p> </td> 
+   <td colname="col2">Asignar los privilegios (permisos y acceso a los recursos) de una cuenta de usuario a otra. <p>Consulte <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> Transferir privilegios de cuenta de usuario</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Iniciar sesión como este usuario</span> </td> 
