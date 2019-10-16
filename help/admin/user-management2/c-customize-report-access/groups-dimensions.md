@@ -1,20 +1,20 @@
 ---
 description: Personalice el acceso de usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas.
-keywords: grupos; permisos
+keywords: grupos;permisos
 seo-description: Personalice el acceso de usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas.
-seo-title: Personalizar permisos de dimensiones
+seo-title: Personalizar permisos para dimensiones
 solution: Analytics
 subtopic: Usuarios y grupos
-title: Personalizar permisos de dimensiones
+title: Personalizar permisos para dimensiones
 topic: Herramientas de administración
-uuid: aaf 164 ad -3863-4129-864 e -39 ec 71 c 6 a 8 eb
+uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# Personalizar permisos de dimensiones
+# Personalizar permisos para dimensiones
 
 >[!IMPORTANT]
 >
@@ -22,11 +22,11 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 Personalice el acceso de usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas.
 
-**[!UICONTROL Administración]** de usuarios &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Acceso a informes]** &gt; **[!UICONTROL Dimensiones]** &gt; **[!UICONTROL Personalizar]**
+**[!UICONTROL Administración]** de usuarios &gt; **[!UICONTROL Grupos]** &gt; Acceso **[!UICONTROL a]** informes &gt; **[!UICONTROL Dimensiones]** &gt; **[!UICONTROL Personalizar]**
 
 >[!IMPORTANT]
 >
->En este momento, algunas dimensiones no pueden autorizarse. Estas dimensiones son: Longitud del marcador móvil, Número del dispositivo móvil, DRM móvil, Servicios de información móvil, Máquina virtual Java móvil, Decoración de correo móvil, Protocolos de red móvil, Sistema operativo móvil, Pulsar para hablar móvil.
+>Algunas dimensiones no están permitidas en este momento. Estas dimensiones son: Longitud del marcador móvil, Número del dispositivo móvil, DRM móvil, Servicios de información móvil, Máquina virtual Java móvil, Decoración de correo móvil, Protocolos de red móvil, Sistema operativo móvil, Pulsar para hablar móvil.
 >
 >Estas dimensiones están disponibles para todos los usuarios, independientemente de otros permisos.
 
@@ -58,7 +58,7 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/admin/conversion-var-admin/conversion-var-admin.md#concept_C02F7AA01DE242F1AA1A4E74022BE9DE" format="dita" scope="local"> eVars </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md" format="dita" scope="local"> eVars </a> </p> </td> 
    <td colname="col2"> <p>Las eVars 1 a 250 obtienen permisos de forma individual. Las eVars son variables de conversión personalizadas que se emplean para segmentar las métricas de éxito de conversión de segmentos en los informes personalizados. </p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Standard </p> </td> 
-   <td colname="col2"> <p>Hace referencia a dimensiones (predeterminado) de Analytics. </p> </td> 
+   <td colname="col2"> <p>Hace referencia a dimensiones (integradas) en Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/" format="https" scope="external"> AEM </a> </p> </td> 
@@ -86,7 +86,7 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/" format="https" scope="external"> Activity Map </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/" format="https" scope="external">Página de  </a> </p> </td> 
    <td colname="col2"> <p> Dimensiones de los informes de Activity Map: Página de Activity Map; Vínculo de Activity Map; Región de Activity Map; Vínculo de Activity Map por región; Activity Map XY </p> </td> 
   </tr> 
   <tr> 
