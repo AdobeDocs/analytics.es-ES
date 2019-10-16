@@ -4,8 +4,8 @@ seo-description: 'null'
 seo-title: Terminología del RGPD
 title: Terminología del RGPD
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -52,13 +52,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **Grupo de empresas:** una empresa controladora y las empresas que esta controla.
 
-**Servicios de gestión de identidades (IMS):** la implementación de Federated ID y OAuth 2.0 de Adobe a fin de llevar a cabo la autenticación de usuarios de Adobe ID y obtener autorización para acceder a recursos de Adobe. Debe integrar los IMS en su aplicación o servicio de Adobe para permitir que sus usuarios inicien sesión en los servicios de Adobe y accedan a ellos. Los usuarios pueden iniciar sesión directamente con Renga (el proveedor de servicios de identidad de Adobe), o bien hacerlo mediante un dominio de autenticación de terceros de confianza (como Google, Facebook o el LDAP de una empresa u organización).
+**Servicios de administración de identidades (IMS)** : la implementación de Adobe de Federated ID y OAuth 2.0 para la autenticación de usuarios de Adobe ID y la autorización de recursos de Adobe. Debe integrar los IMS en su aplicación o servicio de Adobe para permitir que sus usuarios inicien sesión en los servicios de Adobe y accedan a ellos. Los usuarios pueden iniciar sesión directamente con Renga (el proveedor de servicios de identidad de Adobe) o mediante un dominio de autenticación de terceros de confianza (como Google, Facebook o un LDAP corporativo o de organización).
 
-**ID de organización de Experience Cloud:** hace referencia a un token de autorización de Adobe para la autenticación de servicio a servicio, que no requiere el inicio de sesión del usuario. Se emite a un cliente de IMS y no tiene asociado ningún usuario. Un cliente de IMS necesita un token de servicio para autorizar solicitudes indirectas entre servicios. (El término “token de sistema” se utiliza de forma ocasional con el significado de “token de servicio”).
+**ID de organización de Experience Cloud:** hace referencia a un token de autorización de Adobe para la autenticación de servicio a servicio, que no requiere el inicio de sesión del usuario. Se emite a un cliente de IMS y no tiene asociado ningún usuario. Un cliente de IMS necesita un token de servicio para autorizar solicitudes indirectas entre servicios. (El término "token del sistema" se utiliza ocasionalmente para referirse al token de servicio).
 
 **Establecimiento principal:** el lugar dentro de la Unión Europea en el que se toman las principales decisiones sobre el tratamiento de datos, en lo que respecta al encargado del tratamiento.
 
-**Datos personales:** cualquier información relacionada con una persona física o un interesado que se pueda utilizar de forma directa o indirecta para identificar a dicha persona.
+**Datos** personales: cualquier información relacionada con una persona física o con el "sujeto de datos" que pueda utilizarse para identificar directa o indirectamente a la persona
 
 **Infracción de datos personal:** una infracción de seguridad que conlleva el acceso a datos personales, su destrucción o su uso indebido por accidente o de forma ilícita.
 
