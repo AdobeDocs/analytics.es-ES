@@ -7,7 +7,7 @@ title: Configuración de la cuenta generales
 topic: Herramientas de administración
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -34,7 +34,7 @@ Estos valores de configuración contienen opciones de edición para la funcional
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Dirección URL base</span> </td> 
-   <td colname="col2"> <p>Especifica el sitio web principal del grupo de informes. La URL básica no afecta al filtrado de referentes. En su lugar, utilice <a href="../../admin/admin/internal-url-filter-admin.md#concept_D6BB8358DB7643F0B13E5DC9B7607998" format="dita" scope="local"> filtros de URL internos</a>. </p> </td> 
+   <td colname="col2"> <p>Especifica el sitio web principal del grupo de informes. La URL básica no afecta al filtrado de referentes. En su lugar, utilice <a href="/help/admin/admin/internal-url-filter-admin.md" format="dita" scope="local"> filtros de URL internos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Zona horaria</span> </td> 
@@ -54,7 +54,7 @@ Estos valores de configuración contienen opciones de edición para la funcional
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Confusión de IP</span> </td> 
-   <td colname="col2"> <p>Convierte las direcciones IP en cadenas irreconocibles, lo que esencialmente las elimina de los almacenes de datos de Adobe. Cuando la confusión de IP está activada, las direcciones IP originales se pierden de forma permanente. </p> <p>Nota: Las direcciones IP se confunden en cualquier lugar de Analytics, incluido el Data Warehouse. Sin embargo, la configuración de la IP en el destino se controla de forma independiente, por lo que no influye en el destino. </p> <p>Si la confusión de la IP está habilitada, la exclusión de la IP se produce antes de que la dirección IP se confunda, por lo que los clientes no necesitan cambiar nada cuando habilitan la confusión de la IP. </p> <p>Si activa <span class="uicontrol">Deshabilitado</span>, se respeta la dirección IP de los datos. </p> <p>La activación de la opción <span class="uicontrol">Proteger direcciones IP</span> cambia la IP a un valor hash (p. ej., 234abc6493872038). </p> <p>Si activa la opción <span class="uicontrol">Eliminar direcciones IP</span>, se sustituye la dirección IP por x.x.x.x en los datos después de la búsqueda geográfica. </p> <p>Nota: Esta configuración puede requerir cambios en las reglas <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> de</a> bots personalizadas o en las<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> exclusiones</a>de IP. </p> </td> 
+   <td colname="col2"> <p>Convierte las direcciones IP en cadenas irreconocibles, lo que esencialmente las elimina de los almacenes de datos de Adobe. Cuando la confusión de IP está activada, las direcciones IP originales se pierden de forma permanente. </p> <p>Nota: Las direcciones IP se confunden en cualquier lugar de Analytics, incluido el Data Warehouse. Sin embargo, la configuración de la IP en el destino se controla de forma independiente, por lo que no influye en el destino. </p> <p>Si la confusión de la IP está habilitada, la exclusión de la IP se produce antes de que la dirección IP se confunda, por lo que los clientes no necesitan cambiar nada cuando habilitan la confusión de la IP. </p> <p>Si activa <span class="uicontrol">Deshabilitado</span>, se respeta la dirección IP de los datos. </p> <p>La activación de la opción <span class="uicontrol">Proteger direcciones IP</span> cambia la IP a un valor hash (p. ej., 234abc6493872038). </p> <p>Si activa la opción <span class="uicontrol">Eliminar direcciones IP</span>, se sustituye la dirección IP por x.x.x.x en los datos después de la búsqueda geográfica. </p> <p>Nota: Esta configuración puede requerir cambios en las reglas <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> de</a> bots personalizadas o en las<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> exclusiones</a>de IP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Almacenamiento del ID de transacción</span> </td> 
