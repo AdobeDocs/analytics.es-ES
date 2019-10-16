@@ -5,9 +5,9 @@ seo-title: Especificar un incremento de tráfico permanente
 solution: Analytics
 title: Especificar un incremento de tráfico permanente
 topic: Herramientas de administración
-uuid: 53 acbe 97-7 f 63-4608-b 2 f 3-bd 885 eae 7 e 6 d
+uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La sección Tráfico permanente permite cambiar los niveles de tráfico esperados, para que Adobe pueda reasignar los recursos necesarios para el nuevo nivel de tráfico.
 
-Lea la información sobre [Tiempo de espera necesario para aumentos de tráfico](../../admin/c-traffic-management/traffic-lead-time.md#concept_29FA0D270651429D9D068F93CC43F667) para especificar un aumento de tráfico permanente.
+Lea la información sobre [Tiempo de espera necesario para aumentos de tráfico](/help/admin/c-traffic-management/traffic-lead-time.md) para especificar un aumento de tráfico permanente.
 
 1. Open the Report Suite Manager by clicking **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Seleccione un grupo de informes.
+1. Selección de un grupo de informes.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic Management]** &gt; **[!UICONTROL Permanent Traffic]**.
 1.  En el campo **Nuevas vistas de página diarias esperadas**, especifique el número total de vistas de página diarias esperadas con el nuevo nivel de tráfico.
 
@@ -28,5 +28,5 @@ Lea la información sobre [Tiempo de espera necesario para aumentos de tráfico]
 
    >[!NOTE]
    >
-   >Para programar un aumento de tráfico permanente, incluya un número de teléfono en la información de contacto de usuario para que Adobe pueda comunicarse con usted con preguntas, si es necesario.
+   >Para programar un aumento permanente del tráfico, incluya un número de teléfono en la información de contacto del usuario para que Adobe pueda comunicarse con usted si tiene alguna pregunta.
 
