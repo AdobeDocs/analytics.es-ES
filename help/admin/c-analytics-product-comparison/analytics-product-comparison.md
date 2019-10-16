@@ -6,7 +6,7 @@ solution: Analytics
 title: Comparación de productos y requisitos de Analytics
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 Requisitos del sistema y comparación de Analysis Workspace, Informes y análisis, Análisis específicos, Creador de informes, Almacén de datos y Área de trabajo de datos
 
-For information on which Adobe Analytics product to use, go [here](../../admin/c-analytics-product-comparison/which-analytics-tool.md#concept_E7D62115EB5B49959887B338F20CBC1A).
+For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
