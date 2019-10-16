@@ -8,7 +8,7 @@ title: Resumen de las reglas de procesamiento
 topic: Herramientas de administración
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -34,9 +34,9 @@ Antes del 20 de abril de 2017, todos los usuarios (administradores incluidos) de
 
 En este momento, los administradores tienen **de forma predeterminada** permiso para utilizar reglas de procesamiento. Ya no necesitan realizar el examen. Además, pueden conceder este mismo derecho a los demás usuarios desde la interfaz de las Herramientas de administración. A continuación se muestra cómo:
 
-1. Si aún no lo ha hecho, [cree un grupo](../../../admin/user-management2/c-user-groups/groups.md) que solo incluya aquellos usuarios que no son administradores y que necesitan autorización para utilizar reglas de procesamiento.
-1. [Agregue los usuarios que no sean administradores a ese grupo](../../../admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL[group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
+1. Si aún no lo ha hecho, [cree un grupo](/help/admin/user-management2/c-user-groups/groups.md) que solo incluya aquellos usuarios que no son administradores y que necesitan autorización para utilizar reglas de procesamiento.
+1. [Agregue los usuarios que no sean administradores a ese grupo](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
+1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL [group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
 1. Marque la casilla que está junto a [!UICONTROL Reglas de procesamiento] y haga clic en **[!UICONTROL Aceptar]**.
 
 ![](assets/processing-rules.png)
@@ -61,4 +61,4 @@ Las reglas de procesamiento pueden supervisar los valores entrantes para transfo
 
 Una vez que las variables de datos de contexto se definen en la implementación, se deben copiar en variables como las eVars para poder utilizarse en los informes.
 
-Para obtener más información, vaya a [aquí](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7) y [aquí](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682).
+Para obtener más información, vaya a [aquí](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) y [aquí](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
