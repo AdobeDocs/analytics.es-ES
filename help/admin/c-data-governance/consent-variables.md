@@ -1,20 +1,20 @@
 ---
-description: Variables para la administración de consentimiento en Privacidad de datos.
-seo-description: Variables para la administración de consentimiento en Privacidad de datos.
-seo-title: Variables de administración de consentimiento
+description: Variables para informes de privacidad en Privacidad de datos.
+seo-description: Variables para informes de privacidad en Privacidad de datos.
+seo-title: Variables de informes de privacidad
 solution: Analytics
-title: Variables de administración de consentimiento
+title: Variables de informes de privacidad
 topic: Herramientas de administración
 translation-type: tm+mt
-source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
+source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ---
 
 
-# Variables de administración de consentimiento
+# Variables de informes de privacidad
 
 Para proporcionar asistencia adicional en la administración de datos de privacidad, hay disponible un conjunto de variables reservadas que se pueden utilizar junto con variables de datos de contexto específicas.
-Estas variables de administración de consentimiento proporcionan un marco fácil de usar para capturar el estado de consentimiento en cada visita de análisis.
+Estas variables de informes de privacidad proporcionan un marco fácil de usar para capturar el estado de privacidad en cada visita de análisis.
 
 ## Variables
 
@@ -35,7 +35,7 @@ Estas variables de administración de consentimiento proporcionan un marco fáci
 
 ## Creación de informes
 
-Puede habilitar las variables de administración de consentimiento mediante una nueva configuración de privacidad disponible en la Consola de administración de Analytics.
+Puede habilitar las variables de informes de privacidad mediante una nueva configuración de privacidad disponible en la Consola de administración de Analytics.
 
 Cada grupo de informes se puede configurar de la siguiente manera:
 1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
@@ -57,7 +57,7 @@ Cada grupo de informes se puede configurar de la siguiente manera:
 
 ## Implementación
 
-Se han predefinido tres variables de datos de contexto para que funcionen con las variables reservadas de gestión de consentimiento.  Depende de cada ingeniero de implementación determinar cómo administrar y mantener la configuración de estas variables.
+Se han predefinido tres variables de datos de contexto para que funcionen con las variables reservadas de la administración de informes de privacidad.  Depende de cada ingeniero de implementación determinar cómo administrar y mantener la configuración de estas variables.
 
 Consulte Variables [de datos de](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) contexto para obtener instrucciones generales sobre cómo implementar variables de datos de contexto.
 
