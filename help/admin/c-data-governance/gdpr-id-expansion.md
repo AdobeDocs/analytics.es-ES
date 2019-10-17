@@ -1,6 +1,6 @@
 ---
-description: 'Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics puede asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos. Puede solicitar esta opción con un parámetro opcional para cada solicitud de privacidad de datos que envíe, agregado a la solicitud JSON '
-seo-description: 'Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics puede asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos. Puede solicitar esta opción con un parámetro opcional para cada solicitud de privacidad de datos que envíe, agregado a la solicitud JSON '
+description: Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics puede asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos. Puede solicitar esta opción con un parámetro opcional para cada solicitud de privacidad de datos que envíe, agregado a la solicitud JSON 
+seo-description: Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics puede asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos. Puede solicitar esta opción con un parámetro opcional para cada solicitud de privacidad de datos que envíe, agregado a la solicitud JSON 
 seo-title: Expansión de ID
 title: Expansión de ID
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
