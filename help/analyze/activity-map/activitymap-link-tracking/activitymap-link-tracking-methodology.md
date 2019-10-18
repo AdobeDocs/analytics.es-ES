@@ -1,26 +1,26 @@
 ---
 description: Esta sección está dirigida a los administradores de Adobe Analytics. Explora los nuevos parámetros de seguimiento de vínculos. Explica cómo garantizan la exclusividad y coherencia de los vínculos en distintos exploradores y dispositivos, y de qué modo facilitar el cambio de posición de los vínculos en una página.
 seo-description: Esta sección está dirigida a los administradores de Adobe Analytics. Explora los nuevos parámetros de seguimiento de vínculos. Explica cómo garantizan la exclusividad y coherencia de los vínculos en distintos exploradores y dispositivos, y de qué modo facilitar el cambio de posición de los vínculos en una página.
-seo-title: Metodología de seguimiento de vínculos
+seo-title: Método de seguimiento de vínculos
 solution: Analytics
-title: Metodología de seguimiento de vínculos
+title: Método de seguimiento de vínculos
 topic: Activity Map
-uuid: 67864 bf 9-33 cd -46 fa -89 a 8-4 d 83 d 3 b 81152
+uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Metodología de seguimiento de vínculos
+# Método de seguimiento de vínculos
 
 Esta sección está dirigida a los administradores de Adobe Analytics. Explora los nuevos parámetros de seguimiento de vínculos. Explica cómo garantizan la exclusividad y coherencia de los vínculos en distintos exploradores y dispositivos, y de qué modo facilitar el cambio de posición de los vínculos en una página.
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). Para obtener más información sobre cómo Activity Map recopila datos PII, acceda [aquí](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). For more information on how [!DNL Activity Map] may be collecting PII data, go [here](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
 
-Activity Map basa el seguimiento de vínculos en estos dos ID:
+[!DNL Activity Map] basa su seguimiento de vínculos en estos dos ID:
 
 * ID principal: se trata del parámetro reconocible del vínculo.
 * Región del vínculo: es un parámetro secundario que permite a los usuarios indicar una cadena que representa el área global del vínculo en la página o región. Este parámetro se puede generar automáticamente si el usuario no lo proporciona.
@@ -48,7 +48,7 @@ Por eso, usamos Innertext, que aporta las ventajas siguientes respecto a Acción
 * Es una buena presentación de la identidad del vínculo. La duplicación de ID principal se reduce significativamente, ya que no es habitual que haya varios vínculos con el mismo texto.
 * Garantiza la coherencia de los ID principales en los distintos dispositivos y tipos de exploradores.
 * No se ve afectado por el cambio de posición de un vínculo en la página.
-* Mejora la legibilidad, de modo que los usuarios pueden empezar a analizar los informes de seguimiento fuera de Activity Map.
+* Mejora la legibilidad, de modo que los usuarios pueden empezar a analizar los informes de seguimiento fuera de [!DNL Activity Map].
 
 ## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
@@ -113,9 +113,9 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## Configuration variables {#section_634197EACD404AC086DF9A03B813C8C3}
+## Variables de configuración {#section_634197EACD404AC086DF9A03B813C8C3}
 
-Estas variables se indican únicamente como referencia. Activity Map viene configurado de fábrica, pero se puede personalizar la implementación usando estas variables.
+Estas variables se indican únicamente como referencia. [!DNL Activity Map] viene configurado de fábrica, pero se puede personalizar la implementación usando estas variables.
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 
@@ -127,37 +127,41 @@ Estas variables se indican únicamente como referencia. Activity Map viene confi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> s. activitymap. regionidattribute </td> 
+   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
    <td colname="col2"> El parámetro predeterminado es “id”. Puede establecerla en otro parámetro. </td> 
    <td colname="col3"> Cadena que identifica el atributo de etiqueta que se usará como ID de región de algún elemento antecesor (parent, parent.parent...) de s.linkObject, es decir, <b>el elemento donde se hizo clic</b>. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s. activitymap. link </td> 
+   <td colname="col1"> s.ActivityMap.link </td> 
    <td colname="col2"> 
-    <code>// only ever use "title" attributes from A tag function function (clickedelement) {var linkid; if (clickedelement &amp; &amp; clickedelement. tagname. touppercase () = = =' A ') {linkid = clickedelement. getattribute (' title '); } return linkid; } </code>
-  </td> 
+    <code>
+      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;linkId; &nbsp;&nbsp;&nbsp;if(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A'){ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title'); &nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;return&nbsp;linkId; } 
+    </code> </td> 
    <td colname="col3"> Función que recibe el elemento HTML donde se hizo clic y que devuelve un valor de cadena que representa <b>el vínculo en el que se hizo clic</b>. <p>Si el valor devuelto es falso (nulo, indefinido, cadena vacía, 0), no se realiza el seguimiento de ningún vínculo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s. activitymap. region </td> 
+   <td colname="col1"> s.ActivityMap.region </td> 
    <td colname="col2"> 
-    <code>// only ever a minúscula version of tag name concatenated with first classname as the region function (clickedelement) {var regionid, classname; while (clickedelement &amp; &amp; (clickedelement = clickedelement. parentnode)) {regionid = clickedelement. tagname; if (regionid) {return regionid. tolowercase (); }}}} </code>
-  </td> 
+    <code>
+      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;regionId,className; &nbsp;&nbsp;&nbsp;while(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement=&nbsp;clickedElement.parentNode)){ &nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName; &nbsp;if(regionId){ &nbsp;return&nbsp;regionId.toLowerCase(); &nbsp;} &nbsp;} } 
+    </code> </td> 
    <td colname="col3"> Función que recibe el elemento HTML donde se hizo clic y que devuelve un valor de cadena que representa <b>la región donde estaba el vínculo cuando se hizo clic en él</b>. <p>Si el valor devuelto es falso (nulo, indefinido, cadena vacía, 0), no se realiza el seguimiento de ningún vínculo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.linkExclusions </td> 
    <td colname="col2"> 
-    <code>// Excluir vínculos etiquetados con una clase de linkexclucss especial &lt; style &gt;. linkived {display: block; height: 1 px; left: -9999 px; desbordamiento: hidden; position: absolute; width: 1 px; } &lt;/style &gt; &lt; a href = "next-page.html" &gt; Vínculo es rastreado porque el vínculo no tiene texto oculto que coincida con el filtro.&lt;/a &gt; &lt; a href = "next-page.html" &gt; Vínculo no rastreado porque s. activitymap. linkexclusions está establecido y este vínculo tiene texto oculto que coincide con el filtro. &lt; span class = "linkexclude" &gt; exclude-link 1 &lt;/span &gt; &lt;/a &gt; &lt; a href = "next-page.html" &gt; Vínculo no rastreado porque s. activitymap. linkexclusions está establecido y este vínculo tiene texto oculto que coincide con el filtro.  &lt;span class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt;   var s = s_gi('samplersid');   s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2'; &lt;/script&gt; 
+    <code>
+      //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
     </code> </td> 
-   <td colname="col3"> <p>Cadena que recibe una lista de cadenas separadas por comas para buscar texto en un vínculo. Si se encuentra, se excluye el vínculo del seguimiento realizado por Activity Map. Si no se configura, no se intenta detener el seguimiento del vínculo realizado por Activity Map. </p> </td> 
+   <td colname="col3"> <p>Cadena que recibe una lista de cadenas separadas por comas para buscar texto en un vínculo. Si se encuentra, [!DNL Activity Map] excluye el vínculo del seguimiento. Si no se establece, no se intenta detener el seguimiento del vínculo por [!DNL Activity Map]. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.regionExclusions </td> 
    <td colname="col2"> 
-    <code>// Excluir regiones en la página de sus vínculos siendo rastreables por activitymap &lt; div id = "links-included" &gt; &lt; a href = "next-page.html" &gt; El vínculo se rastrea porque s. activitymap. regionexclusions está establecido pero no coincide con el filtro.&lt;/a &gt; &lt;/div &gt; &lt; div id = "links-exclude" &gt; &lt; a href = "next-page.html" &gt; Vínculo no rastreado porque s. activitymap. regionexclusions está establecido y este vínculo coincide con el filtro.&lt;/a&gt; &lt;/div&gt; &lt;script&gt;   var s = s_gi('samplersid');   s.ActivityMap.regionExclusions = 'links-excluded'; &lt;/script&gt;
+    <code>
+      //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
     </code> </td> 
-   <td colname="col3"> <p>Cadena que recibe una lista de cadenas separadas por comas para buscar texto en una región. Si se encuentra, se excluye el vínculo del seguimiento realizado por Activity Map. Si no se configura, no se intenta detener el seguimiento del vínculo realizado por Activity Map. </p> </td> 
+   <td colname="col3"> <p>Cadena que recibe una lista de cadenas separadas por comas para buscar texto en una región. Si se encuentra, [!DNL Activity Map] excluye el vínculo del seguimiento. Si no se establece, no se intenta detener el seguimiento del vínculo por [!DNL Activity Map]. </p> </td> 
   </tr> 
  </tbody> 
 </table>
