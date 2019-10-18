@@ -1,22 +1,22 @@
 ---
 description: El análisis de página en tiempo real (modo Activo) permite obtener resultados con una granularidad por minutos en tiempo real.
 seo-description: El análisis de página en tiempo real (modo Activo) permite obtener resultados con una granularidad por minutos en tiempo real.
-seo-title: Análisis de página en tiempo real (activo)
+seo-title: Análisis de páginas en tiempo real (activo)
 solution: Analytics
-title: Análisis de página en tiempo real (activo)
+title: Análisis de páginas en tiempo real (activo)
 topic: Activity Map
-uuid: a 3 faa 9 bd -73 d 8-48 b 3-be 2 b-f 818 ed 7456 fb
+uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Análisis de página en tiempo real (activo)
+# Análisis de páginas en tiempo real (activo)
 
 El análisis de página en tiempo real (modo Activo) permite obtener resultados con una granularidad por minutos en tiempo real.
 
-Ahora, Activity Map muestra datos analíticos en incrementos de 1 a 15 minutos para supervisar la popularidad de los vínculos según las microtendencias de las páginas seleccionadas. Esto es especialmente importante para las empresas editoriales a la hora de realizar un seguimiento y responder al aumento o la reducción del interés por las historias, así como para supervisar el flujo del tráfico en tiempo real.
+[!DNL Activity Map]Ahora,  muestra datos analíticos en incrementos de 1 a 15 minutos para supervisar la popularidad de los vínculos según las microtendencias de las páginas seleccionadas. Esto es especialmente importante para las empresas editoriales a la hora de realizar un seguimiento y responder al aumento o la reducción del interés por las historias, así como para supervisar el flujo del tráfico en tiempo real.
 
 Como propietario del contenido del sitio, una de sus responsabilidades es saber cuándo promocionar y eliminar contenido para que la experiencia sea relevante constantemente. Los datos en tiempo real son el fundamento de esta responsabilidad. Si sabe cuáles son los vínculos y el contenido que lideran las tendencias en cada momento, puede actuar rápidamente y con seguridad para mantener a los lectores y clientes interesados en su marca.
 
