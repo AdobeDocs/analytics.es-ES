@@ -6,7 +6,7 @@ solution: Analytics
 title: Variables de informes de privacidad
 topic: Herramientas de administración
 translation-type: tm+mt
-source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -63,21 +63,21 @@ Consulte Variables [de datos de](https://docs.adobe.com/help/en/analytics/implem
 
 ### SSF
 
-* Datos de contexto: contextData.['cm.ssf']
+* Datos de contexto: `contextData.['cm.ssf']`
 * Valores aceptados:
    * 1 - Al enviar el valor "1", indica que el reenvío del lado del servidor está en estado de exclusión. El valor "1" asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte Cumplimiento de [la privacidad electrónica de AAM.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
    * No se aceptan otros valores para este parámetro.
 
 ### DMP
 
-* Datos de contexto: contextData.['opt.dmp']
+* Datos de contexto: `contextData.['opt.dmp']`
 * Valores aceptados:
    * N: Al enviar el valor "N", esto indica que el consumidor está optando por dejar de compartirlo en las plataformas de administración de datos. **** Nota: La configuración de esta variable en "N" no bloquea actualmente el uso compartido a AAM, pero el bloqueo de llamadas a la funcionalidad AAM se agregará a principios de 2020. Por ahora, Adobe recomienda configurar `c.cm.ssf=1` y `c.opt.dmp=N` bloquear el envío de visitas a AAM.
    * Y: Al enviar el valor "Y", esto indica que el consumidor está optando por compartir en plataformas de administración de datos.
 
 ### VENDER
 
-* Datos de contexto: contextData.['opt.sell']
+* Datos de contexto: `contextData.['opt.sell']`
 * Valores aceptados:
    * N - Al enviar el valor "N", esto indica que el consumidor está optando por no compartir o vender los datos a terceros.
    * Y - Al enviar el valor "Y", esto indica que el consumidor está optando por compartir o vender los datos a terceros.
