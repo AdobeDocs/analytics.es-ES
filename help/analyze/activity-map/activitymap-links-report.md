@@ -1,24 +1,24 @@
 ---
 description: El informe de vínculos recoge los vínculos encontrados en la página actual. No informa acerca de todos los vínculos que se recopilaron para esa página.
 seo-description: El informe de vínculos recoge los vínculos encontrados en la página actual. No informa acerca de todos los vínculos que se recopilaron para esa página.
-seo-title: Informe Vínculos
+seo-title: Informe de vínculos
 solution: Analytics
-title: Informe Vínculos
+title: Informe de vínculos
 topic: Activity Map
-uuid: 1 e 7 ca 5 d 8-d 144-4 a 21-a 2 f 9-e 05 bd 3232 c 59
+uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Informe Vínculos
+# Informe de vínculos
 
 El informe de vínculos recoge los vínculos encontrados en la página actual. No informa acerca de todos los vínculos que se recopilaron para esa página.
 
-El informe Vínculos en la página ofrece una vista tabular de los vínculos. Algunas veces, puede interesarle ver los clics en vínculos (u otras métricas) clasificados en una sola vista. Esto permite comparar mejor un vínculo con otro. Cree el informe Vínculos en la página incluyendo una lista clasificada de todos los vínculos de la página (por ID de vínculo), la información de clic (número y porcentaje) y la región de la página. Haga clic en el botón del informe Vínculos en la página que hay en la barra de herramientas Activity Map.
+El informe Vínculos en la página ofrece una vista tabular de los vínculos. Algunas veces, puede interesarle ver los clics en vínculos (u otras métricas) clasificados en una sola vista. Esto permite comparar mejor un vínculo con otro. Cree el informe Vínculos en la página incluyendo una lista clasificada de todos los vínculos de la página (por ID de vínculo), la información de clic (número y porcentaje) y la región de la página. Click the Links in Page report button in the [!DNL Activity Map] toolbar.
 
-El informe **[!UICONTROL Vínculos en la página]se abre debajo de la ventana del explorador en el tablero Activity Map.**
+El informe **[!UICONTROL Vínculos en la página]se abre debajo de la ventana del explorador en el tablero .**[!DNL Activity Map]
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -40,7 +40,7 @@ En el modo Estándar, el informe “Vínculos en la página” muestra datos sob
   </tr> 
   <tr> 
    <td colname="col1"> ID del vínculo </td> 
-   <td colname="col2">El ID principal del vínculo (para obtener más información sobre cómo se define el ID principal en la [nueva metodología de seguimiento de vínculos] (/home/parse/activity-map/activity-map/activity-map/activitymap-link-tracking-method. md) </td> 
+   <td colname="col2">El ID principal del vínculo (para obtener más información sobre cómo se define el ID principal en la [Nueva metodología de seguimiento de vínculos] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clics </td> 
@@ -63,11 +63,11 @@ En el modo Estándar, el informe “Vínculos en la página” muestra datos sob
 
 **Filtrar datos**
 
-Cuando quiera centrarse en un vínculo determinado, puede buscar un término relacionado en el campo **[!UICONTROL Filtrar datos].** Solo los vínculos que coincidan con la búsqueda tendrán superposiciones. Sin filtro, se mostrarán las superposiciones especificadas en la [Configuración de Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md).
+Cuando quiera centrarse en un vínculo determinado, puede buscar un término relacionado en el campo **[!UICONTROL Filtrar datos].** Solo los vínculos que coincidan con la búsqueda tendrán superposiciones. Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
-En el modo Activo, el informe Vínculos en la página muestra los datos de tendencia que abarcan varios minutos.
+En el modo Activo, el informe Vínculos en la página muestra datos de tendencias que abarcan varios minutos.
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ En el modo Activo, el informe Vínculos en la página muestra los datos de tende
   </tr> 
   <tr> 
    <td colname="col1"> ID del vínculo </td> 
-   <td colname="col2">El ID principal del vínculo. Para obtener más información sobre cómo se define el ID principal en la nueva [metodología de seguimiento de vínculos] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-method-tracking/activitymap-method. md). </td> 
+   <td colname="col2">El ID principal del vínculo. Para obtener más información sobre cómo se define el ID principal mediante la nueva [metodología de seguimiento de vínculos] (/help/analysis/activity-map/activity-map-link-tracking/activity map-)ink-tracking-methods.md). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clics en vínculos </td> 
