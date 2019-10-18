@@ -5,9 +5,9 @@ seo-title: Superposiciones personalizables
 solution: Analytics
 title: Superposiciones personalizables
 topic: Activity Map
-uuid: c 1 e 56480-c 1 df -4 a 81-8 a 2 a -42 ea 1362175 c
+uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Las superposiciones permiten configurar la visualización de datos de varias formas para que pueda ver y conocer fácilmente la popularidad que tienen los vínculos en una página.
 
-Con las superposiciones se pueden ver los datos de clics directamente en la página. Esto es lo que diferencia una herramienta de análisis visual, como Activity Map, de la mayoría de las herramientas gráficas y de tablas, como Reports &amp; Analytics.
+Con las superposiciones se pueden ver los datos de clics directamente en la página. This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
 
-Activity Map ofrece tres tipos de superposiciones:
+[!DNL Activity Map] ofrece tres tipos de superposiciones:
 
 * Superposición de degradado (mapa de calor)
 * Superposición de burbujas
@@ -46,7 +46,7 @@ Estas métricas se superponen a los vínculos de la página como una especie de 
 
 La superposición de burbujas muestra el contenido de la superposición (métrica, porcentaje o clasificación) en una pequeña burbuja.
 
-Las superposiciones de burbujas se muestran cuando selecciona en la barra de herramientas esta superposición en Tipo de superposición. Las superposiciones de burbujas se ven para todos los vínculos que se ajustan a la selección en [Configuración de Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) (30 primeros, 50 primeros, todos...). Si no se selecciona esta opción, se ven las superposiciones de degradado.
+Las superposiciones de burbujas se muestran cuando selecciona en la barra de herramientas esta superposición en Tipo de superposición. Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). Si no se selecciona esta opción, se ven las superposiciones de degradado.
 
 ![](assets/bubble_overlay.png)
 
@@ -58,7 +58,7 @@ Las superposiciones de burbujas se muestran cuando selecciona en la barra de her
 
 ## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL Las superposiciones de ganadores y perdedores]** solo están disponibles en el modo Activo. Informan de los cambios en tiempo real que se producen en la actividad de los vínculos comparando las métricas del período actual con las métricas del período anterior. Permiten ver rápidamente las tendencias en tiempo real de una forma visual.
+**[!UICONTROL Las superposiciones]** de ganadores y perdedores solo están disponibles en el modo Activo. Informan de los cambios en tiempo real que se producen en la actividad de los vínculos comparando las métricas del período actual con las métricas del período anterior. Permiten ver rápidamente las tendencias en tiempo real de una forma visual.
 
 Esta superposición en tiempo real clasifica los clics según los cambios en el valor de la métrica entre los períodos anteriores y el actual.
 
