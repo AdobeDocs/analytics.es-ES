@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 user-guide-url: /content/help/es-ES/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -174,7 +174,7 @@ source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
    + [Ejemplo de etiquetado](c-data-governance/gdpr-labeling-example.md)
    + [Privacidad de datos y Conectores de datos (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminología de privacidad de datos](c-data-governance/gdpr-terminology.md)
-   + [Variables de administración de consentimiento](c-data-governance/consent-variables.md)
+   + [Variables de informes de privacidad](c-data-governance/consent-variables.md)
 + Uso de llamadas al servidor {#server-call-usage}
    + [Resumen del uso de llamadas al servidor](c-server-call-usage/overage-overview.md)
    + [Ver uso de llamadas al servidor actual](c-server-call-usage/server-call-usage-dashboard.md)
