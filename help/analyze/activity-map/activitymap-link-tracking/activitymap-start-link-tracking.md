@@ -1,20 +1,20 @@
 ---
-description: Pasos para empezar a realizar un seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
-seo-description: Pasos para empezar a realizar un seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
+description: Pasos para iniciar el seguimiento de vínculos en [!DNL Activity Map] o ClickMap heredado.
+seo-description: Pasos para iniciar el seguimiento de vínculos en [!DNL Activity Map] o ClickMap heredado.
 seo-title: Iniciar el seguimiento de vínculos
 solution: Analytics
 title: Iniciar el seguimiento de vínculos
 topic: Activity Map
-uuid: 425 cb 287-f 76 e -4430-802 f -288499711 ba 9
+uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Iniciar el seguimiento de vínculos
 
-Pasos para empezar a realizar un seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
+Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,20 +25,25 @@ Pasos para empezar a realizar un seguimiento de los vínculos en Activity Map o 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activity Map </td> 
+   <td colname="col1"> [!Activity Map DNL] </td> 
    <td colname="col2"> Añada el siguiente contenido del archivo Appmeasurement.js: 
-    <code>/* Iniciar Activity Map MODULE El siguiente módulo habilita el seguimiento de Mapa de actividades en Adobe Analytics.Mapa de actividades permite ver superposiciones de datos en los vínculos y el contenido para comprender cómo los usuarios interactúan con el sitio Web.Si no pretende utilizar Activity Map, puede eliminar el siguiente bloque de código del archivo appmeasurement. js.
-  Additional documentation on how to configure Activity Map is available at:
-      https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
+    <code>
+     /*
+     &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
+     &nbsp;allows&nbsp;you&nbsp;to&nbsp;view&nbsp;data&nbsp;overlays&nbsp;on&nbsp;your&nbsp;links&nbsp;and&nbsp;content&nbsp;to&nbsp;understand&nbsp;how
+     &nbsp;users&nbsp;engage&nbsp;with&nbsp;your&nbsp;web&nbsp;site.&nbsp;If&nbsp;you&nbsp;do&nbsp;not&nbsp;intend&nbsp;to&nbsp;use&nbsp;Activity&nbsp;Map,&nbsp;you
+     &nbsp;can&nbsp;remove&nbsp;the&nbsp;following&nbsp;block&nbsp;of&nbsp;code&nbsp;from&nbsp;your&nbsp;AppMeasurement.js&nbsp;file.
+     &nbsp;Additional&nbsp;documentation&nbsp;on&nbsp;how&nbsp;to&nbsp;configure&nbsp;Activity&nbsp;Map&nbsp;is&nbsp;available&nbsp;at:
+     &nbsp;https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html
      */
-     function AppMeasurement_Module_Activity Map(g){func
+     function&nbsp;AppMeasurement_Module_Activity&nbsp;Map(g){func
      ...
-     /* END Activity Map MODULE */
+     /*&nbsp;END&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;*/
     </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (anteriormente ClickMap de visitantes) </td> 
-   <td colname="col2"> <p>Defina la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external">trackInlineStats</a> en true. The syntax reads as follows: 
+   <td colname="col2"> <p>Defina la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html" format="https" scope="external">trackInlineStats</a> en true. La sintaxis es la siguiente: 
      <code>
        s.trackInlineStats=true
      </code> </p> </td> 
