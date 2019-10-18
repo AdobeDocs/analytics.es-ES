@@ -1,20 +1,20 @@
 ---
-description: Activity Map dispone de dos modos básicos para crear informes complementarios de la actividad de la página.
-seo-description: Mapa de actividades dispone de dos modos básicos para crear informes complementarios de la actividad de la página.
+description: '[!DNL Activity Map] proporciona dos modos básicos para proporcionar informes complementarios de la actividad de la página.'
+seo-description: '[!DNL Activity Map] proporciona dos modos básicos para proporcionar informes complementarios de la actividad de la página.'
 seo-title: Modo Estándar y modo Activo
 solution: Analytics
 title: Modo Estándar y modo Activo
 topic: Activity Map
-uuid: 8 b 97 b 56 e-ff 20-4 a 8 b -8 c 37-7 f 7 b 45 c 9 a 86 b
+uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # Modo Estándar y modo Activo
 
-Activity Map dispone de dos modos básicos para crear informes complementarios de la actividad de la página.
+[!DNL Activity Map] dispone de dos modos básicos para crear informes complementarios de la actividad de la página.
 
 * En el modo Estándar, el [informe Vínculos en la página](/help/analyze/activity-map/activitymap-links-report.md) muestra datos sobre vínculos de un día o de varios días agregados en el intervalo de fechas completo.
 * El modo Activo muestra las tendencias de actividad en tiempo real.
@@ -31,7 +31,7 @@ En este modo, las métricas de comercio que no tienen la "Participación" habili
 
 P: ¿Qué ocurre si una página incluye vínculos con el mismo nombre en varias regiones? ¿Los vínculos reciben crédito de forma independiente porque tienen diferentes regiones pero el mismo nombre de vínculo en una página?
 
-R: Depende de cómo sume los datos del vínculo. En Activity Map, miramos el ID y la región del vínculo de una página determinada. Así, la asignación de datos debería ser para la combinación "ID|Región del vínculo". En este caso, como la región es diferente, el vínculo|región sería distinto y, por tanto, todos los ingresos asignados para el primer vínculo|región diferirán de los asignados para el segundo vínculo. Sin embargo, en la IU de Adobe Analytics, puede consultar únicamente el informe de ID del vínculo (en lugar del informe de vínculo|región) para una página determinada (página desglosada por vínculos). En este caso, los ingresos de ambas regiones se sumarían.
+R: Depende de cómo sume los datos del vínculo. In [!DNL Activity Map], we look at Link ID|Region for a given page, so the allocated data would be for the "Link ID|Region" combination. En este caso, como la región es diferente, el vínculo|región sería distinto y, por tanto, todos los ingresos asignados para el primer vínculo|región diferirán de los asignados para el segundo vínculo. Sin embargo, en la IU de Adobe Analytics, puede consultar únicamente el informe de ID del vínculo (en lugar del informe de vínculo|región) para una página determinada (página desglosada por vínculos). En este caso, los ingresos de ambas regiones se sumarían.
 
 ## Modo Activo {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
