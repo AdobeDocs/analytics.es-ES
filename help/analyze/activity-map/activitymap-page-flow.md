@@ -5,7 +5,7 @@ seo-title: Detalles de página
 solution: Analytics
 title: Detalles de página
 topic: Activity Map
-uuid: f 527 b 454-7920-4907-869 b -4 e 1 d 9 ab 2 c 606
+uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
