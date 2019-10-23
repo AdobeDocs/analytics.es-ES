@@ -9,14 +9,14 @@ title: Función s.tl() - Seguimiento de vínculos
 topic: Desarrollador e implementación
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 1ed1c6cd3fd6d29fa156cd4b2c4bdfe9120b3c61
+source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
 
 
 # Función s.tl() - Seguimiento de vínculos
 
-Si su organización prefiere tener más control sobre los vínculos que rastrear y su comportamiento, se recomienda el seguimiento manual de vínculos. Utilice la función s.tl() para enviar manualmente solicitudes de imagen de seguimiento de vínculos con el contenido exacto deseado. Si el seguimiento de vínculos básico es todo lo que se necesita, consulte `s.trackDownloadLinks` y `s.trackExitLinks` en [Variables](c-variables/configuration-variables.md)de configuración. Los vínculos personalizados no se pueden rastrear automáticamente.
+Si su organización prefiere tener más control sobre los vínculos que rastrear y su comportamiento, se recomienda el seguimiento manual de vínculos. Utilice la función s.tl() para enviar manualmente solicitudes de imagen de seguimiento de vínculos con el contenido exacto deseado. Si el seguimiento de vínculos básico es todo lo que se necesita, consulte `s.trackDownloadLinks` y `s.trackExternalLinks` en [Variables](c-variables/configuration-variables.md)de configuración. Los vínculos personalizados no se pueden rastrear automáticamente.
 
 > [!NOTE] El código de seguimiento de vínculos suele ser muy específico para el sitio y para las necesidades de informes. Adobe recomienda una experiencia de implementación previa o un consultor de implementación para comprender cómo utilizar esta función según sus necesidades comerciales.
 
