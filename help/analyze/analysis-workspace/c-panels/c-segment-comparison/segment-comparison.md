@@ -1,94 +1,118 @@
 ---
-description: La herramienta Comparación de segmentos (IQ de segmento) detecta las diferencias más significativas estadísticamente entre un número ilimitado de segmentos a través de un análisis automatizado de cada métrica y dimensión a las que tenga acceso. De forma automática, muestra las características clave de los segmentos de audiencia que dirigen el KPI de su empresa y le permite observar cuánto se superponen los segmentos.
-keywords: Analysis Workspace; IQ de segmento
-seo-description: La herramienta Comparación de segmentos (IQ de segmento) detecta las diferencias más significativas estadísticamente entre un número ilimitado de segmentos a través de un análisis automatizado de cada métrica y dimensión a las que tenga acceso. De forma automática, muestra las características clave de los segmentos de audiencia que dirigen el KPI de su empresa y le permite observar cuánto se superponen los segmentos.
-seo-title: Descripción general de IQ de segmento
+title: Información general del panel de comparación de segmentos
+description: Aprenda a utilizar el panel de comparación de segmentos, que forma parte de IQ de segmento en Analysis Workspace.
+keywords: Analysis Workspace;Segment IQ
 solution: Analytics
-title: Descripción general de IQ de segmento
-topic: Reports and Analytics
-uuid: 80 b 8343 a -8 e 09-4234-9510-1 eecce 18567 f
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Descripción general de IQ de segmento
+# Información general del panel de comparación de segmentos
 
-La herramienta Comparación de segmentos (IQ de segmento) detecta las diferencias más significativas estadísticamente entre un número ilimitado de segmentos a través de un análisis automatizado de cada métrica y dimensión a las que tenga acceso. De forma automática, muestra las características clave de los segmentos de audiencia que dirigen el KPI de su empresa y le permite observar cuánto se superponen los segmentos.
+El panel Comparación de segmentos es una parte de la herramienta de [Segmento IQ](../../segment-iq.md) que detecta las diferencias estadísticamente más significativas entre un número ilimitado de segmentos. La función se repite mediante un análisis automatizado de todas las dimensiones y métricas a las que tiene acceso. Descubrir automáticamente las características clave de los segmentos de audiencia que dirigen los KPI de su empresa y le permite ver cuánto se superponen los segmentos.
 
-Los analistas pueden tardar muchas horas o incluso días para buscar las diferencias relevantes entre segmentos a través de grandes franjas de métricas y dimensiones de su empresa. Este análisis no solo es tedioso y consume mucho tiempo, sino que nunca estará seguro de si se ha perdido alguna diferencia clave sobre un segmento que hubiera tenido un gran impacto en sus esfuerzos de marketing de destino.
+## Creación de un panel de comparación de segmentos
 
-[Comparación de segmentos en YouTube](https://www.youtube.com/watch?v=fO3PNB93U_w&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=38) (4:46)
+1. Inicie sesión en [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics de color.
+1. En la barra de navegación superior, haga clic en Espacio de trabajo.
+1. Haga clic en el botón 'Crear nuevo proyecto'.
+1. En la ventana emergente modal, asegúrese de que está seleccionado 'Proyecto en blanco' y, a continuación, haga clic en Crear.
+1. Haga clic en el botón Paneles de la izquierda y, a continuación, arrastre el panel Comparación de segmentos por encima o por debajo del panel de tabla improvisada creado automáticamente.
 
-A continuación le mostramos algunas novedades sobre conceptos, visualizaciones y tablas que son clave y que se introducen con la herramienta Comparación de segmentos:
+   ![Comparar panel](assets/seg-compare-panel.png)
 
-## “Everyone else” segment {#section_30AEE8181E5D46D9AB27F7CA3815D0CD}
+1. Seleccione segmentos para comparar y suéltelos en el panel.
 
-Para mayor comodidad, hemos añadido el segmento «todos los demás» para que no tenga que crearlo manualmente. Por ejemplo, tome la audiencia Compradores. No tiene que crear un segmento de No compradores, ya que ya está incluido en el segmento «todos los demás» y se puede eliminar rápidamente si prefiere agregar un segmento diferente para compararlo.
+   ![Comparar audiencias](assets/compare-audiences.png)
 
-## Size and overlap {#section_885A71EE458C43189A77B8F552CA346A}
+   Después de arrastrar un segmento al panel, Analytics crea automáticamente un segmento [!UICONTROL 'Todos los demás'] que incluye a todos los que NO están en el segmento que ha elegido. Se trata de un segmento que se utiliza con frecuencia en el panel de comparación, pero puede eliminarlo y comparar otro segmento de su elección.
 
-La visualización Tamaño y superposición ilustra los tamaños comparativos de cada segmento seleccionado y cuánto se superponen entre sí. Puede situarse sobre la imagen para ver cuántos visitantes estaban en cada sección superpuesta o no superpuesta. También puede hacer clic en la superposición para crear un segmento totalmente nuevo si desea hacer un análisis en mayor profundidad. Si dos segmentos no se superponen (por ejemplo, si se usa el segmento «todos los demás»), también se verá reflejado en esta visual.
+   ![Todos los demás](assets/everyone-else.png)
 
-![](assets/size-overlap.png)
+1. Una vez que haya determinado qué dos segmentos comparar, haga clic en [!UICONTROL Generar].
 
-## Population summaries {#section_21F2B66C60184A71B89E2982A6FB945D}
+   Esta acción inicia un proceso back-end que busca diferencias estadísticas entre los dos segmentos seleccionados y todas las dimensiones, métricas y otros segmentos. Una barra de progreso en la parte superior del panel indica el tiempo restante hasta que se analizan todas las métricas y dimensiones. Las métricas, dimensiones y segmentos utilizados con más frecuencia tienen prioridad para ejecutarse primero, de modo que los resultados más relevantes se devuelvan de manera oportuna.
 
-A la derecha de la imagen Tamaño y cruce, la herramienta Comparación de segmentos muestra el número total de visitantes únicos en cada segmento y la población de la superposición.
+## Excluir componentes de la comparación
 
-![](assets/population_summaries.png)
+A veces se desea excluir algunas dimensiones, métricas o segmentos de las comparaciones de segmentos. Por ejemplo, desea comparar el segmento 'Usuarios móviles de EE. UU.' con 'Usuarios móviles alemanes'. Incluir dimensiones relacionadas con la geografía no tendría sentido, ya que estos segmentos ya implican esas diferencias.
 
-## Top metrics {#section_E4A38516424949B79A559DC8793071F2}
+1. Una vez que los dos segmentos deseados estén en el panel, haga clic en [!UICONTROL 'Mostrar opciones avanzadas'].
+1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
 
->[!NOTE]
->
->Los elementos de fila que se aplican después de la comparación de segmentos no reciben una Puntuación de diferencia; la tabla cargará solamente los datos de métricas de los dos segmentos que se comparan
+   ![Componentes excluidos](assets/excluded-components.png)
 
-La tabla de métricas principales muestra las métricas más diferenciadoras estadísticamente entre los dos segmentos que ha seleccionado. Cada fila de dicha tabla representa una métrica diferenciadora, ordenada según lo diferente que sea de cada segmento. Las métricas también se muestran para cada visitante, lo que significa que si en la tabla aparece “Visitas”, los números correspondientes de la tabla representan el número medio de visitas por visitante en cada segmento. También se proporciona una puntuación de diferencia que indica cómo de diferente es esta métrica con respecto a estos dos segmentos. Una puntuación de 1 representa una diferencia estadística grande, mientras que una puntuación de 0 representa ninguna diferencia estadística.
+Haga clic en [!UICONTROL 'Establecer como predeterminado'] para excluir automáticamente los componentes actuales en todas las comparaciones de segmentos futuras. Si desea editar componentes excluidos, haga clic en un tipo de componente y, a continuación, haga clic en la 'X' situada junto a un componente para volver a incluirlos en el análisis. Haga clic en 'Borrar todo' para volver a incluir todos los componentes en la comparación de segmentos.
 
-Para obtener más información sobre cómo se calculan las puntuaciones de diferencias de cada tabla, consulte [Pruebas estadísticas utilizadas en la comparación de segmentos](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md#concept_0B6AC754EAED460283D4626983F838F4).
+![Dimensiones excluidas](assets/excluded-dimensions.png)
 
-La tabla de métricas principales es similar a cualquier otra métrica utilizada en Analysis Workspace. Puede arrastrar cualquier métrica que le interese hasta la tabla y le mostraremos cómo se compara.
+## Visualización de un informe de comparación de segmentos
 
-Puede personalizar la tabla como desee. También se ha añadido un icono “crear imagen” para cada fila de la tabla. Al hacer clic en el botón se crea una tabla completamente nueva y una imagen sobre la herramienta Comparación de segmentos, por si no desea abarrotar la tabla de métricas principales y preferiría continuar con un análisis más profundo en una nueva tabla. Si dicha métrica no es relevante, puede hacer clic en “X” para eliminarla a la vez de la tabla. Finalmente, al igual que con cualquier otra tabla improvisada, puede pasar las páginas a través de la lista de las métricas mostradas o mostrar las primeras 10, 20, 50, etc. si desea ver más de los cinco elementos de la línea que se muestran por defecto.
+Una vez que Adobe termina de analizar los dos segmentos deseados, muestra sus resultados a través de varias visualizaciones:
 
-![](assets/top-metrics.png)
+![Visualizaciones 1](assets/new-viz.png)
 
-A la derecha de la tabla de métricas se encuentra la visualización vinculada. Por defecto, la herramienta Comparación de Segmentos mostrará la tendencia de la métrica principal en la tabla sobre los últimos 30 días para cada segmento. Si desea visualizar otra métrica de la tabla de métricas principales, solo tiene que seleccionarla haciendo clic y la visualización de la derecha se actualizará para mostrarle la métrica seleccionada.
+![Visualizaciones 2](assets/new-viz2.png)
 
-![](assets/linked-viz.png)
+### Tamaño y superposición
 
-## Top dimension items {#section_439C1782B153427CB4FB85E177146EC0}
+Ilustra los tamaños comparativos de cada segmento seleccionado y cuánto se superponen entre sí mediante un diagrama de Venn. Puede situarse sobre la imagen para ver cuántos visitantes estaban en cada sección superpuesta o no superpuesta. También puede hacer clic en la superposición para crear un segmento totalmente nuevo si desea hacer un análisis en mayor profundidad. Si los dos segmentos son mutuamente excluyentes, no se muestra ninguna superposición entre los dos círculos (normalmente se ve con segmentos que utilizan un contenedor de visita individual).
 
->[!NOTE]
->
->Los elementos de fila que se aplican después de la comparación de segmentos no reciben una Puntuación de diferencia; la tabla cargará solamente los datos de métricas de los dos segmentos que se comparan
+![Tamaño y superposición](assets/size-overlap.png)
 
-Al igual que la tabla de métricas principales, la herramienta Comparación de segmentos ofrece la tabla de elementos de dimensión principales, que ilustra los elementos de dimensión más diferenciadores de todas las dimensiones. Cada fila muestra el porcentaje de cada segmento con este elemento de dimensión.
+### Resúmenes de población
 
-Por ejemplo, si compara el “Segmento A” con el “Segmento B”, es posible que la tabla de elementos de dimensión principales indique que el 100 % de los visitantes del “Segmento A” tenían el elemento de dimensión Tipo de explorador: Google, mientras que solo el 19,6 % del “Segmento B” tenía dicho elemento de dimensión.
+A la derecha de la visualización Tamaño y superposición, se muestra el recuento total de visitantes únicos en cada segmento y superposición.
 
-![](assets/top-dimension-item1.png)
+![Resúmenes de población](assets/population_summaries.png)
 
-A la derecha de la tabla de elementos de dimensión principales, la herramienta Comparación de segmentos resalta el elemento de dimensión principal seleccionado, junto con otros elementos de dimensión principales de esa dimensión para compararlos:
+### Métricas principales
 
-![](assets/top-dimension-item.png)
+Muestra las métricas más significativas estadísticamente entre los dos segmentos. Cada fila de dicha tabla representa una métrica diferenciadora, ordenada según lo diferente que sea de cada segmento. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no hay relevancia estadística.
 
-## Top segments table {#section_6A0C39F930564240AF7A157005C7A80B}
+Esta visualización es similar a las tablas improvisadas en Analysis Workspace. Si desea realizar un análisis más profundo de una métrica específica, pase el ratón sobre un elemento de línea y haga clic en 'Crear imagen'. Se crea una nueva tabla para analizar esa métrica específica. Si una métrica no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la 'X' para eliminarla.
 
->[!NOTE]
->
->Los elementos de fila que se aplican después de la comparación de segmentos no reciben una Puntuación de diferencia; la tabla cargará solamente los datos de métricas de los dos segmentos que se comparan
+> [!NOTE] Las métricas agregadas a esta tabla una vez finalizada la comparación de segmentos no reciben una puntuación de diferencia.
 
-La tabla de segmentos principales es una tabla útil que muestra qué elementos (que no sean los dos elementos seleccionados para la comparación) se superponen de forma muy diferente a los dos segmentos seleccionados. Por ejemplo, si se compara el Segmento A con el Segmento B, es posible que la tabla de segmentos principales muestre que un tercer segmento, “Visitantes repetidos”, se superpone con el segmento A pero no con el Segmento B.
+![Métricas principales](assets/top-metrics.png)
 
-![](assets/top-segments.png)
+### Métrica a lo largo del tiempo por segmento
 
-Además, el principal segmento adicional diferenciador se muestra en una imagen de superposición a la derecha de la tabla:
+A la derecha de la tabla de métricas se encuentra la visualización vinculada. Puede hacer clic en un elemento de línea en la tabla de la izquierda y esta visualización se actualiza para mostrar esa métrica con las tendencias a lo largo del tiempo.
 
-![](assets/segment-overlap.png)
+![Línea de métricas principales](assets/linked-viz.png)
 
-La imagen de superposición indica de forma gráfica la diferencia de superposición entre los tres segmentos y, al igual que el resto de imágenes vinculadas, al hacer clic en cada segmento adicional de la tabla, la imagen se actualiza para coincidir con el segmento seleccionado.
+### Dimensiones principales
 
-Haga clic aquí para obtener más información acerca de  [las pruebas estadísticas](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/statistical-test.md#concept_0B6AC754EAED460283D4626983F838F4) utilizadas en la comparación de segmentos.
+Muestra los valores de dimensión más significativos estadísticamente en todas las dimensiones. Cada fila muestra el porcentaje de cada segmento que muestra este valor de dimensión. Por ejemplo, esta tabla podría revelar que el 100 % de los visitantes del segmento A tenían el elemento de dimensión 'Tipo de explorador: Google", mientras que solo el 19,6 % del "segmento B" tenía este elemento de dimensión. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no hay relevancia estadística.
+
+Esta visualización es similar a las tablas improvisadas en Analysis Workspace. Si desea realizar un análisis más profundo de un valor de dimensión específico, pase el ratón sobre un elemento de línea y haga clic en 'Crear elemento visual'. Se crea una nueva tabla para analizar ese valor de dimensión específico. Si un valor de dimensión es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la 'X' para eliminarlo.
+
+> [!NOTE] Los valores de dimensión agregados a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
+
+![Dimensiones principales](assets/top-dimension-item1.png)
+
+### Elementos de dimensión por segmento
+
+A la derecha de la tabla de dimensiones hay una visualización de gráficos de barras vinculados. Muestra todos los valores de dimensión mostrados en un gráfico de barras. Al hacer clic en un elemento de línea en la tabla de la izquierda, se actualiza la visualización de la derecha.
+
+![Gráfico de barras de dimensiones principales](assets/top-dimension-item.png)
+
+### Segmentos principales
+
+Muestra qué otros segmentos (que no sean los dos seleccionados para la comparación) tienen superposición estadísticamente significativa. Por ejemplo: esta tabla puede mostrar que un tercer segmento, 'Visitantes repetidos', se superpone con el segmento A pero no con el segmento B. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no hay relevancia estadística.
+
+Esta visualización es similar a las tablas improvisadas en Analysis Workspace. Si desea realizar un análisis más profundo de un segmento específico, pase el ratón sobre un elemento de línea y haga clic en 'Crear elemento visual'. Se crea una nueva tabla para analizar ese segmento específico. Si un segmento es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la 'X' para eliminarlo.
+
+> [!NOTE] Los segmentos agregados a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
+
+![Segmentos principales](assets/top-segments.png)
+
+### Superposición de segmentos
+
+A la derecha de la tabla de segmentos se encuentra una visualización de diagrama de ventilación vinculada. Muestra el segmento más significativo estadísticamente aplicado a los segmentos comparados. Por ejemplo, 'Segmento A' + 'Segmento estadísticamente significativo' vs. 'Segmento B' + 'Segmento estadísticamente significativo'. Al hacer clic en un elemento de línea de segmento en la tabla de la izquierda, se actualiza el diagrama de Venn de la derecha.
+
+![Diagrama de ventilación de segmentos principales](assets/segment-overlap.png)
