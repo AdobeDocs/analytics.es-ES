@@ -1,31 +1,29 @@
 ---
 description: Puede crear segmentos a partir de un punto de contacto, añadir segmentos como punto de contacto y comparar flujos de trabajo clave entre diversos segmentos en Analysis Workspace.
-keywords: visitas en el orden previsto y segmentación; segmentos en análisis de visitas en el orden previsto; comparar segmentos en visitas en el orden previsto
+keywords: visitas en el orden previsto y segmentación;segmentos en análisis de visitas en el orden previsto;comparar segmentos en visitas en el orden previsto
 seo-description: Puede crear segmentos a partir de un punto de contacto, añadir segmentos como punto de contacto y comparar flujos de trabajo clave entre diversos segmentos en Analysis Workspace.
-seo-title: Aplicar segmentos en el análisis de visitas en el orden previsto
-title: Aplicar segmentos en el análisis de visitas en el orden previsto
-uuid: e 87 a 33 df -160 e -4943-8 d 02-4 d 6609 ae 3 bb 1
+seo-title: Aplicación de segmentos en el análisis de abandonos
+title: Aplicación de segmentos en el análisis de abandonos
+uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: 769d076549484c6939157ef217225493ddbe130e
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Aplicar segmentos en el análisis de visitas en el orden previsto
+# Aplicación de segmentos en el análisis de abandonos
 
 Puede crear segmentos a partir de un punto de contacto, añadir segmentos como punto de contacto y comparar flujos de trabajo clave entre diversos segmentos en Analysis Workspace.
 
->[!IMPORTANT]
->Los segmentos utilizados como puntos de comprobación en Visitas en el orden previsto deben utilizar un contenedor que se encuentre en un nivel inferior que el contexto general de la visualización de visitas en el orden previsto. Con visitas en el orden previsto de visitante-contexto, los segmentos utilizados como puntos de comprobación deben ser segmentos basados en visitas o visitas. Con visitas en el orden previsto visita-contexto, los segmentos utilizados como punto de comprobación deben ser segmentos basados en visitas. Si utiliza una combinación no válida, las visitas en el orden previsto serán 100%. Se ha añadido una advertencia a la visualización de visitas en el orden previsto que se mostrará cuando agregue un segmento incompatible como punto de contacto. Ciertas combinaciones de contenedores de segmentos no válidos provocarán un diagrama de visitas en el orden previsto no válido, como por ejemplo
+> [!IMPORTANT] Los segmentos utilizados como puntos de comprobación en Visitas en el orden previsto deben utilizar un contenedor que esté en un nivel inferior al contexto general de la visualización de visitas en el orden previsto. Con una visita en el orden previsto de contexto del visitante, los segmentos utilizados como puntos de comprobación deben ser segmentos basados en visitas o visitas individuales. Con una visita en el orden previsto de contexto, los segmentos utilizados como puntos de comprobación deben ser segmentos basados en visitas individuales. Si utiliza una combinación no válida, la visita en el orden previsto será del 100 %. Se ha añadido una advertencia a la visualización de visitas en el orden previsto que se mostrará cuando añada un segmento incompatible como punto de contacto. Determinadas combinaciones de contenedores de segmentos no válidas producirán diagramas de visitas en el orden previsto no válidos, como:
 
->* Cuando se usa un segmento basado en visitantes como punto de contacto dentro de una visualización de abandonos de visitantes.
->* Cuando se usa un segmento basado en visitantes como punto de contacto dentro de una visualización de abandonos de visitas.
->* Cuando se usa un segmento basado en visitas como punto de contacto dentro de una visualización de abandonos de visitas.
-
+* Cuando se usa un segmento basado en visitantes como punto de contacto dentro de una visualización de abandonos de visitantes.
+* Cuando se usa un segmento basado en visitantes como punto de contacto dentro de una visualización de abandonos de visitas.
+* Cuando se usa un segmento basado en visitas como punto de contacto dentro de una visualización de abandonos de visitas.
 
 ## Create a segment from a touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. En primer lugar, cree un segmento a partir de un punto de contacto específico en el que esté especialmente interesado y que pueda ser útil para su aplicación en otros informes. Para ello, haga clic con el botón derecho en el punto de contacto y seleccione **[!UICONTROL Crear segmento a partir de touchpoint]**.
+1. Cree un segmento a partir de un punto de contacto específico en el que esté especialmente interesado y que pueda resultar útil para aplicar a otros informes. Para ello, haga clic con el botón derecho en el punto de contacto y seleccione **[!UICONTROL Crear segmento a partir de touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -59,4 +57,3 @@ Puede comparar una cantidad ilimitada de segmentos en la visualización de visit
    ![](assets/seg-compare.png)
 
 1. Ahora puede comparar las visitas en el orden previsto de los dos segmentos como, por ejemplo, cuando un segmento supera a otro u otra información.
-
