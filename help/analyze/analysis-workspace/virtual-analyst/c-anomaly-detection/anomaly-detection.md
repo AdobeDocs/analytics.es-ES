@@ -1,26 +1,24 @@
 ---
 description: Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace.
 seo-description: Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace.
-seo-title: Información general sobre detección de anomalías
-title: Información general sobre detección de anomalías
-uuid: 991 fde 08-198 c -4410-9606-d 5 a 4 f 3 dd 8339
+seo-title: Resumen de la Detección de anomalías
+title: Resumen de la Detección de anomalías
+uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# Información general sobre detección de anomalías
+# Resumen de la Detección de anomalías
 
-Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace.
+Puede ver y analizar las anomalías de datos en contexto dentro de Analysis Workspace.
 
 [Detección de anomalías en YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
 
 [Análisis de contribución en YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
->[!IMPORTANT]
->
->La detección de anomalías se ha eliminado del conjunto de funciones de Informes y análisis y ahora solo está disponible mediante Analysis Workspace. Tenga en cuenta que los clientes de Adobe Analytics Select y Adobe Analytics Foundation solo tienen acceso a la Detección de anomalías de “granularidad diaria” en Workspace. Para obtener más información, consulte la información relativa a los [derechos de Detección de anomalías y Análisis de contribución](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
+> [!IMPORTANT] La detección de anomalías solo está disponible en Analysis Workspace. Los clientes de Adobe Analytics Select y Foundation solo tienen acceso a la detección de anomalías de "granularidad diaria" en Workspace. Para obtener más información, consulte la información relativa a los [derechos de Detección de anomalías y Análisis de contribución](../contribution-analysis/ca-tokens.md).
 
 La detección de anomalías constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores.
 
