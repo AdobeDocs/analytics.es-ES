@@ -7,7 +7,7 @@ title: Referencia rápida de Métricas
 topic: Métricas
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: bdac23691a7de1cd308e9f1c68c74739a51244d6
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -18,11 +18,11 @@ Lista de las métricas estándar de Adobe Analytics.
 
 >[!NOTE]
 >
->Any metric (event) not listed below is a [custom metric](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) (custom event).
+>Cualquier métrica (evento) que no aparezca a continuación es una métrica [](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) personalizada (evento personalizado).
 
 >[!IMPORTANT]
 >
->Analysis Workspace no longer distinguished between Traffic and Conversion metrics. Por lo tanto, el tipo de métrica solo es relevante para peajes como Informes y análisis, Servicios Web 1.4 y Creador de informes).
+>Analysis Workspace ya no distingue entre métricas de tráfico y de conversión. Por lo tanto, el tipo de métrica solo es relevante para herramientas como Informes y análisis, Servicios Web 1.4 y Creador de informes).
 
 | Nombre de la medida | Descripción | Tipo |
 |--- |--- |---|
