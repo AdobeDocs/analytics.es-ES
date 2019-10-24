@@ -3,21 +3,25 @@ description: 'null'
 seo-description: 'null'
 seo-title: Iniciando una sesión
 title: Iniciando una sesión
-uuid: 1 e 6 a 269 d -8 aa 4-470 b -9452-2 d 0 ff 1 ff 6 f 4 a
+uuid: 1e6a269d-8aa4-470b-9452-2d0ff1ff6f4a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
 
 # Iniciando una sesión
 
-## Log in to Adobe [!DNL Experience Cloud] {#section_03EA6DA657FA41C2ADE5FFC4F3AD1825}
+## Inicie sesión en Adobe [!DNL Experience Cloud]{#section_03EA6DA657FA41C2ADE5FFC4F3AD1825}
 
-To learn how to log in to Adobe [!DNL Experience Cloud] to get access to Analytics, refer to [Sign in and manage your profile settings](https://marketing.adobe.com/resources/help/en_US/mcloud/getting-started-experience-cloud.html) in the [!DNL Experience Cloud] help.
+Para obtener información sobre cómo iniciar sesión en Adobe [!DNL Experience Cloud] para obtener acceso a Analytics, consulte [Iniciar sesión y administrar la configuración](https://marketing.adobe.com/resources/help/en_US/mcloud/getting-started-experience-cloud.html) de su perfil en la [!DNL Experience Cloud] ayuda.
+
+>[!IMPORTANT]
+>
+>Una vez migrado al inicio de sesión en Experience Cloud, ya no podrá aplicar restricciones [de inicio de sesión](/help/admin/company/security-manager.md)IP. Experience Cloud no admite esta función. Para obtener más información, consulte Migración [de usuarios de Analytics a Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/). Una vez que haya migrado al inicio de sesión en Experience Cloud, puede utilizar [Federated ID](https://spark.adobe.com/page/JeSB8EPEQIvjD/) como una solución alternativa para restringir los inicios de sesión IP.
 
 ## Experience Cloud Debugger {#section_4E57672E89E3419FA8D71C8224CEFB72}
 
 Adobe Debugger (anteriormente DigitalPulse Debugger) es una herramienta gratuita de Adobe que le permite ver los datos que se recopilan de su sitio o de cualquier página dada.
 
-See [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj).
+Consulte [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj).
