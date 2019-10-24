@@ -7,7 +7,7 @@ title: Administrador de seguridad
 topic: Herramientas de administración
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -44,7 +44,7 @@ Permite controlar el acceso a los datos de los informes. Las opciones incluyen c
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Aplicar restricciones de inicio de sesión IP</span> </td> 
-   <td colname="col2"> <p>(Tenga en cuenta que esta funcionalidad ya no estará disponible en enero de 2020). Limita el acceso a los informes para direcciones IP individuales o en intervalos. </p> <p>Se pueden agregar hasta 100 entradas en la lista de filtro de direcciones IP, y cada una de ellas puede ser una dirección determinada o un rango de direcciones. </p> <p> <span class="wintitle"> Aplicar restricciones de inicio de sesión IP</span> no se aplicará mientras no haya al menos una entrada en la lista de filtro de direcciones IP. </p> <p> <span class="uicontrol"> Dirección IP aceptada</span>: para especificar un intervalo de direcciones IP, este debe escribirse entre corchetes (por ejemplo, 
+   <td colname="col2"> <p>(Esta funcionalidad no se puede usar junto con el inicio de sesión de Experience Cloud. Tenga en cuenta que esta funcionalidad ya no estará disponible a partir de enero de 2020). Limita el acceso a los informes para direcciones IP individuales o en intervalos. </p> <p>Se pueden agregar hasta 100 entradas en la lista de filtro de direcciones IP, y cada una de ellas puede ser una dirección determinada o un rango de direcciones. </p> <p> <span class="wintitle"> Aplicar restricciones de inicio de sesión IP</span> no se aplicará mientras no haya al menos una entrada en la lista de filtro de direcciones IP. </p> <p> <span class="uicontrol"> Dirección IP aceptada</span>: para especificar un intervalo de direcciones IP, este debe escribirse entre corchetes (por ejemplo, 
      <code>
        192.168.10.[20-240]
      </code>). También pueden utilizarse caracteres comodín (*) para especificar cualquier número del 0 al 255 (por ejemplo, 
