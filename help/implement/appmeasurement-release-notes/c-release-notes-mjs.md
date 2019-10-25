@@ -8,7 +8,7 @@ title: AppMeasurement para JavaScript
 topic: Desarrollador e implementación
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -25,9 +25,9 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
 
-## Versions 2.17.0
+## Versiones 2.17.0
 
-Fecha de lanzamiento: **23 de agosto de 201**
+Fecha de lanzamiento: **23 de agosto de 2019**
 
 | Función/Corrección | Descripción |
 | -----------| ---------- |
@@ -72,7 +72,7 @@ Release Date: **02/22/2019**
 
 * Módulo de Gestión de público actualizado a DIL 9.1 (AN-175255)
 * Política de seguridad GTM que no permite el módulo de Activity Map. (AN-174679)
-* Improved AppMeasurement to honor opt-out when the Identity Service is not approved in opt-in. (AN-175259)
+* AppMeasurement mejorado para cumplir con la opción de desactivación cuando el servicio de identidad no está aprobado en la opción de inclusión. (AN-175259)
 
 ## Versión 2.11.0
 
@@ -279,7 +279,7 @@ Inclusión de la API de visitante 1.5.7.
 
 Fecha de versión: **19 de mayo de 2016**
 
-[!DNL JavaScript] version 1.5.6
+[!DNL JavaScript] versión 1.5.6
 
 * Inclusión de la API de visitante 1.5.6
 * Se ha solucionado la administración del rastreo de clics de los vínculos en Firefox, que no activaba el evento completo.
@@ -387,7 +387,7 @@ Fecha de versión: **16 de abril de 2015**
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap </span> </p> </td> 
-   <td colname="2"> <p>Las llamadas <code>trackBeacon</code> y <code>clearCurrentBeacon</code><span class="keyword"> ahora están disponibles en PhoneGap </span>. </p> </td> 
+   <td colname="2"> <p>The <code> trackBeacon </code> and <code> clearCurrentBeacon </code> calls are now available in <span class="keyword"> PhoneGap </span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
