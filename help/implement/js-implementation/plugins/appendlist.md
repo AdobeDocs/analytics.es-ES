@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Complementos
 title: appendList
 topic: Desarrollador e implementación
-uuid: e 923 c 86 c-eaa 6-4 e 17-a 3 a 4-0 e 08 af 886674
-translation-type: tm+mt
+uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -31,7 +31,7 @@ Este complemento es útil para:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Situación </p> </td> 
-   <td colname="col2"> <p>Agregue <span class="term"> event 1 </span> a la variable de eventos actual al garantizar que el evento no está duplicado. </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Agregue <span class="term">event1</span> a la variable de eventos actual asegurándose de que no se duplique el evento. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código </p> </td> 
@@ -50,7 +50,7 @@ Este complemento es útil para:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Situación </p> </td> 
-   <td colname="col2"> <p>Agregue el valor <span class="term"> history </span> to the list variable <span class="varname"> prop 1 </span>, with <span class="term"> history </span> and <span class="term"> History </span> considerados el mismo valor. </p> <p>s.prop1="Science,History" </p> </td> 
+   <td colname="col2"> <p>Agregue el valor <span class="term"> history </span> a la variable de lista <span class="varname"> prop1 </span>, con <span class="term"> history </span> e <span class="term"> History </span> como el mismo valor. </p> <p>s.prop1="Science,History" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código </p> </td> 
@@ -58,21 +58,21 @@ Este complemento es útil para:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Resultados </p> </td> 
-   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> no </span> se añade el historial porque <span class="term"> el historial </span> ya está en la lista. </p> </td> 
+   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> history </span> no se agrega porque <span class="term"> History </span> está en la lista. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Las instrucciones siguientes requieren modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+>Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
 Siga estos pasos para implementar el complemento APL.
 
 1. Solicite el código del complemento al Servicio de atención al cliente o al asesor de Adobe que tenga asignado.
-1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
+1. Agregue llamadas a la función API, según sea necesario, dentro de la función *`s_doPlugins`*
 
 Esta sería la apariencia del código en el sitio:
 
