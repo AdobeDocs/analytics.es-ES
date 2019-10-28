@@ -1,12 +1,12 @@
 ---
 description: Se trata de las preguntas más frecuentes sobre la configuración automática de la implementación de Adobe Analytics. El método de configuración automática se encarga de administrar el código de AppMeasurement.
-keywords: Administración dinámica de etiquetas;complementos;ensayo;efecto en la configuración actual;historial de revisiones;posibles escollos;identificación del grupo de informes;código de moneda;servidor de seguimiento;servidor de seguimiento ssl;código personalizado;administración de biblioteca
+keywords: Dynamic Tag Management, complementos, entorno de ensayo, efecto en la configuración actual, historial de revisiones, posibles inconvenientes, id de grupo de informes, código de divisa, servidor de seguimiento, servidor de seguimiento de ssl, código personalizado, administración de bibliotecas
 seo-description: Se trata de las preguntas más frecuentes sobre la configuración automática de la implementación de Adobe Analytics. El método de configuración automática se encarga de administrar el código de AppMeasurement.
 seo-title: Preguntas frecuentes sobre la herramienta Adobe Analytics
-solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Preguntas frecuentes sobre la herramienta Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 # Preguntas frecuentes sobre la herramienta Adobe Analytics
 
-Se trata de las preguntas más frecuentes sobre la configuración automática de la implementación de Adobe Analytics. The automatic configuration method manages the [!DNL AppMeasurement] code for you.
+Se trata de las preguntas más frecuentes sobre la configuración automática de la implementación de Adobe Analytics. El método de configuración automática se encarga de administrar el código de [!DNL AppMeasurement].
 
 <table id="table_A50D00E2C47A473B92DA800FB08FE640"> 
  <thead> 
@@ -26,7 +26,7 @@ Se trata de las preguntas más frecuentes sobre la configuración automática de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> ¿Dónde puedo colocar mis complementos al implementar Adobe Analytics a través de DTM? </p> </td> 
-   <td colname="col2"> <p> Si utiliza DTM para alojar manualmente <code>s_code</code>, se pueden añadir complementos en el mismo editor que el <code>s_code</code> alojado, tal y como ocurriría en una implementación de Adobe Analytics típica. </p> <p>Sin embargo, también es una opción colocar los complementos en el editor dentro de la sección Personalizar código <span class="term"></span> de página de la configuración de la herramienta. Los dos métodos de implementación deberían ser igual de eficaces. </p> </td> 
+   <td colname="col2"> <p> Si utiliza DTM para alojar manualmente <code>s_code</code>, se pueden añadir complementos en el mismo editor que el <code>s_code</code> alojado, tal y como ocurriría en una implementación de Adobe Analytics típica. </p> <p>Sin embargo, también es una opción colocar los complementos en el editor dentro de la sección <span class="term">Personalizar código de página</span> de la configuración de la herramienta. Los dos métodos de implementación deberían ser igual de eficaces. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Si realizo cambios de configuración en la nueva versión de la herramienta, ¿puedo probarla en el entorno de ensayo antes de publicarla en el de producción? </p> </td> 
@@ -47,7 +47,7 @@ Se trata de las preguntas más frecuentes sobre la configuración automática de
  </tbody> 
 </table>
 
-See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) for configuration information.
+Consulte [Agregar la herramienta Adobe Analytics](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) para obtener información sobre la configuración.
 
 ## Posibles inconvenientes {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
