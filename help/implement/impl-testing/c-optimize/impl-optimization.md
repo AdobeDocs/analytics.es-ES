@@ -2,19 +2,19 @@
 description: La implementación de Analytics se organiza en tres pasos principales.
 keywords: Implementación de Analytics
 seo-description: La implementación de Analytics se organiza en tres pasos principales.
-seo-title: Información general de optimización
+seo-title: Resumen de optimización
 solution: Analytics
 subtopic: Resolución de problemas
-title: Información general de optimización
+title: Resumen de optimización
 topic: Desarrollador e implementación
-uuid: 8 e 8 ecc 5 b-d 4 b 1-4 d 13-8525-39 e 4924 df 247
-translation-type: tm+mt
+uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
 
 
-# Información general de optimización
+# Resumen de optimización
 
 La implementación de Analytics se organiza en tres pasos principales.
 
@@ -25,5 +25,5 @@ La implementación de Analytics se organiza en tres pasos principales.
 
 >[!NOTE]
 >
->Los clientes pueden realizar pasos adicionales para minimizar la sobrecarga de Analytics.
+>Los clientes pueden realizar otros pasos para minimizar la sobrecarga de Analytics.
 
