@@ -6,8 +6,8 @@ seo-title: Uso de s.linkTrackVars y s.linkTrackEvents
 solution: Analytics
 title: Uso de s.linkTrackVars y s.linkTrackEvents
 topic: Desarrollador e implementación
-uuid: f 6 b 7019 b -987 b -4 b 7 d-a 446-80205 f 7 cc 36 c
-translation-type: tm+mt
+uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La clave para una implementación correcta del seguimiento de vínculos es comprender las variables s.linkTrackVars y s.linkTrackEvents. Esto permite pasar valores de variable personalizados en acciones del usuario.
 
-Si va a implementar el seguimiento de vínculos personalizados y configura variables [!UICONTROL personalizadas] y *`events`*, asegúrese de que la variable [!UICONTROL s. linktrackvars] contiene una lista separada por comas de todas las variables que está pasando, incluida *`events`* la variable. Asegúrese de que [!UICONTROL s.linkTrackEvents] incluye una lista separada por comas de todos los eventos que vaya a pasar.
+Si va a implementar el seguimiento de vínculos personalizados y configura variables [!UICONTROL personalizadas] y *`events`*, compruebe que la variable [!UICONTROL s.linkTrackVars] contiene una lista separada por comas de todas las variables que vaya a pasar, incluida la variable *`events`*. Asegúrese de que [!UICONTROL s.linkTrackEvents] incluye una lista separada por comas de todos los eventos que vaya a pasar.
 
 Configurar [!UICONTROL s.linkTrackVars] y [!UICONTROL s.linkTrackEvents] no configura realmente estas variables y eventos, solo prepara el código de [!DNL Analytics] para hacerlo. Aún necesita configurar las variables manualmente, como se muestra en el siguiente ejemplo:
 
