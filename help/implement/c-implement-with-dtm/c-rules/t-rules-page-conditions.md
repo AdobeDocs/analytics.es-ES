@@ -1,12 +1,12 @@
 ---
 description: Cree reglas que determinen en qué páginas debe activarse una regla.
-keywords: Administración dinámica de etiquetas;regla;crear regla;nueva regla;regla de carga de página
+keywords: Dynamic Tag Management;regla;crear regla;nueva regla;regla de carga de página
 seo-description: Cree reglas que determinen en qué páginas debe activarse una regla.
 seo-title: Creación de condiciones para reglas de carga de página
-solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Creación de condiciones para reglas de carga de página
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -24,7 +24,7 @@ Cree reglas que determinen en qué páginas debe activarse una regla.
 
 1. Especifique la condición que provoca que la regla se active.
 
-   Por ejemplo, puede seleccionar **[!UICONTROL Ruta de acceso]para identificar páginas específicas para las cuales desea que la regla se active.**
+   Por ejemplo, puede seleccionar **[!UICONTROL Ruta de acceso]** para identificar páginas específicas para las cuales desea que la regla se active.
 
    ![](assets/conditions-page-load-rules2.png)
 
