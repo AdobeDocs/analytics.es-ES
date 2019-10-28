@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Resolución de problemas
 title: Tablas
 topic: Desarrollador e implementación
-uuid: f 72 d 7894-38 bd -4926-bce 4-0 c 6 af 7278 c 63
-translation-type: tm+mt
+uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -24,5 +24,5 @@ Colocar la llamada al archivo de biblioteca JavaScript fuera de las etiquetas de
 
 >[!NOTE]
 >
->El archivo debe colocarse en una posición legal para imágenes y debe aparecer entre la apertura <body> etiqueta y cierre </body> etiqueta.
+>El archivo debe colocarse en una posición legal para las imágenes y debe aparecer entre la etiqueta de apertura <body> y la de </body> cierre.
 
