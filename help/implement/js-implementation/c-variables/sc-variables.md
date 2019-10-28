@@ -1,31 +1,31 @@
 ---
 description: Analytics proporciona varias variables para recopilar los datos que necesita. Por ejemplo, el valor de la variable pageName es el nombre de la página web para la que se crea el informe. En esta sección se describen las variables que admite AppMeasurement.
-keywords: Implementación de Analytics; variables appmeasurement
+keywords: Implementación de Analytics, variables de appmeasurement
 seo-description: Analytics proporciona varias variables para recopilar los datos que necesita. Por ejemplo, el valor de la variable pageName es el nombre de la página web para la que se crea el informe. En esta sección se describen las variables que admite AppMeasurement.
-seo-title: Descripción general de las variables
+seo-title: Resumen de las variables
 solution: Analytics
 subtopic: Variables
-title: Descripción general de las variables
+title: Resumen de las variables
 topic: Desarrollador e implementación
-uuid: 067 d 0135-572 a -4 a 44-af 9 e -445 d 3 c 4 e 9271
-translation-type: tm+mt
+uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
+translation-type: ht
 source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
 
 
-# Descripción general de las variables
+# Resumen de las variables
 
-Analytics proporciona varias variables para recopilar los datos que necesita. Por ejemplo, el valor de la variable pageName es el nombre de la página web para la que se crea el informe. Esta sección enumera las variables admitidas por appmeasurement.
+Analytics proporciona varias variables para recopilar los datos que necesita. Por ejemplo, el valor de la variable pageName es el nombre de la página web para la que se crea el informe. En esta sección se describen las variables que admite AppMeasurement.
 
-For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
-For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
+Para obtener más información sobre las variables de página, vaya [aquí](/help/implement/js-implementation/c-variables/page-variables.md).
+Para obtener más información sobre las variables de configuración, vaya [aquí](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## Cómo establecer variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
-AppMeasurement requiere que todas las variables de configuración estén establecidas antes de la llamada inicial a la función de seguimiento, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
+AppMeasurement requiere que todas las variables de configuración estén establecidas antes de la llamada inicial a la función de seguimiento, *`t()`*. Si las variables de configuración se configuran después de la llamada a *`t()`*, pueden producirse resultados inesperados.
 
-Configuration variables are set inside the *`doPlugins`* function, which is called during the execution of the track function. The specific configuration variable causing this issue is *`trackInlineStats`*, which enables ClickMap data collection. Esto deja el módulo de ClickMap en un estado indeterminado, que hace que la primera llamada de seguimiento anexe la cadena “Indefinido” a la señalización de Adobe Analytics, afectando al código de divisa.
+Las variables de configuración se establecen dentro de la función *`doPlugins`*, a la que se llama durante la ejecución de la función track. La variable de configuración específica que causa este problema es *`trackInlineStats`*, que habilita la recopilación de datos de ClickMap. Esto deja el módulo de ClickMap en un estado indeterminado, que hace que la primera llamada de seguimiento anexe la cadena “Indefinido” a la señalización de Adobe Analytics, afectando al código de divisa.
 
 Para resolver este problema, mueva todas las variables de configuración encima de la función doPlugins.
 
