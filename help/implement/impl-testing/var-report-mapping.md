@@ -2,18 +2,18 @@
 description: La tabla siguiente muestra la asignación de variables a informes para las variables utilizadas para rellenar los informes de Analytics.
 keywords: Implementación de Analytics
 seo-description: La tabla siguiente muestra la asignación de variables a informes para las variables utilizadas para rellenar los informes de Analytics.
-seo-title: Variable a la asignación de informes
+seo-title: Asignación de variables a informes
 solution: Analytics
-title: Variable a la asignación de informes
+title: Asignación de variables a informes
 topic: Desarrollador e implementación
-uuid: fd 81 f 97 d-dd 1 a -47 d 5-9157-b 7932 fe 13490
-translation-type: tm+mt
+uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Variable a la asignación de informes
+# Asignación de variables a informes
 
 La tabla siguiente muestra la asignación de variables a informes para las variables utilizadas para rellenar los informes de Analytics.
 
@@ -61,7 +61,7 @@ Cada variable se enumera con los informes que la usan.
   </tr> 
   <tr> 
    <td> s.events. </td> 
-   <td> <p>Informes de conversión &gt; Compras &gt; Conversiones y promedios </p> <p>Informes de conversión &gt; Compras &gt; Ingresos </p> <p>Informes de conversión &gt; Compras &gt; Pedidos </p> <p>Informes de conversión &gt; Compras &gt; Unidades </p> <p>Informes de conversión &gt; Carro de compras &gt; Conversiones y promedios </p> <p>Informes de conversión &gt; Carro de compras &gt; Carros de compras </p> <p>Informes de conversión &gt; Carro de compras &gt; Vistas del carro de compras </p> <p>Informes de conversión &gt; Carro de compras &gt; Adiciones al carro de compras </p> <p>Informes de conversión &gt; Carro de compras &gt; Eliminaciones del carro de compras </p> <p>Informes de conversión &gt; Carro de compras &gt; Cierres de compra </p> <p>Informes de conversión &gt; Eventos personalizados &gt; Evento personalizado 1--20 </p> <p>Informes de conversión &gt; Productos &gt; Conversiones y promedios </p> <p>Informes de conversión &gt; Productos &gt; Venta cruzada </p> <p>Informes de conversión &gt; Productos &gt; Categorías </p> <p>Informes de conversión &gt; Campañas &gt; Conversiones y promedios </p> <p>Informes de conversión &gt; Lealtad del cliente &gt; Lealtad del cliente </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Días antes de la primera compra </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Días desde la última compra </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Número de visita </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Clientes únicos diarios </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Clientes únicos mensuales </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Clientes únicos anuales </p> <p>Informes de conversión &gt; Ruta del sitio &gt; Valor de la página </p> </td> 
+   <td> <p>Informes de conversión &gt; Compras &gt; Conversiones y promedios </p> <p>Informes de conversión &gt; Compras &gt; Ingresos </p> <p>Informes de conversión &gt; Compras &gt; Pedidos </p> <p>Informes de conversión &gt; Compras &gt; Unidades </p> <p>Informes de conversión &gt; Carro de compras &gt; Conversiones y promedios </p> <p>Informes de conversión &gt; Carro de compras &gt; Carros de compras </p> <p>Informes de conversión &gt; Carro de compras &gt; Vistas del carro de compras </p> <p>Informes de conversión &gt; Carro de compras &gt; Adiciones al carro de compras </p> <p>Informes de conversión &gt; Carro de compras &gt; Eliminaciones del carro de compras </p> <p>Informes de conversión &gt; Carro de compras &gt; Cierres de compra </p> <p>Informes de conversión &gt; Eventos personalizados &gt; Evento personalizado 1-20 </p> <p>Informes de conversión &gt; Productos &gt; Conversiones y promedios </p> <p>Informes de conversión &gt; Productos &gt; Venta cruzada </p> <p>Informes de conversión &gt; Productos &gt; Categorías </p> <p>Informes de conversión &gt; Campañas &gt; Conversiones y promedios </p> <p>Informes de conversión &gt; Lealtad del cliente &gt; Lealtad del cliente </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Días antes de la primera compra </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Días desde la última compra </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Número de visita </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Clientes únicos diarios </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Clientes únicos mensuales </p> <p>Informes de conversión &gt; Ciclo de ventas &gt; Clientes únicos anuales </p> <p>Informes de conversión &gt; Ruta del sitio &gt; Valor de la página </p> </td> 
   </tr> 
   <tr> 
    <td> s.products </td> 
@@ -73,7 +73,7 @@ Cada variable se enumera con los informes que la usan.
   </tr> 
   <tr> 
    <td> s.eVar1 - s.eVar20 </td> 
-   <td> Informes de conversión &gt; Variables personalizadas &gt; eVar del cliente 1--20 </td> 
+   <td> Informes de conversión &gt; Variables personalizadas &gt; eVar del cliente 1-20 </td> 
   </tr> 
   <tr> 
    <td> s.linkName </td> 
@@ -81,7 +81,7 @@ Cada variable se enumera con los informes que la usan.
   </tr> 
   <tr> 
    <td> s.hier1 - s.hier5 </td> 
-   <td> Informes de tráfico &gt; Jerarquías &gt; Jerarquía 1--5 </td> 
+   <td> Informes de tráfico &gt; Jerarquías &gt; Jerarquía 1-5 </td> 
   </tr> 
  </tbody> 
 </table>
