@@ -6,8 +6,8 @@ seo-title: Parámetros de consulta de recopilación de datos
 solution: Analytics
 title: Parámetros de consulta de recopilación de datos
 topic: Desarrollador e implementación
-uuid: 4 d 5 af 486-df 27-42 fe-bb 9 c -28938 dddf 2 b 2
-translation-type: tm+mt
+uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
+translation-type: ht
 source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
 En las tablas siguientes se describe el parámetro de consulta que contiene el valor de las distintas variables de Analytics que se envían a la recopilación de datos.
 
-Esta información puede usarse para depurar con [analizadores](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)de paquetes, al construir manualmente solicitudes de imagen o al utilizar [variables dinámicas](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262).
+Esta información puede usarse para depurar con [Analizadores de paquetes](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258), construir manualmente solicitudes de imagen o usar [Variables dinámicas](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262).
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 
@@ -78,10 +78,10 @@ Esta información puede usarse para depurar con [analizadores](../../../implemen
    <td> Calidad de color (en bits). </td> 
   </tr> 
   <tr> 
-   <td> <code> c. <span class="varname"> [key] </code></span> </td> 
+   <td> <code> c. <span class="varname"> [key] </code> </span> </td> 
    <td> <p>s.contextData </p> </td> 
    <td> <p>Ninguno. </p> </td> 
-   <td> <p>Los pares clave-valor se especifican en uno de los siguientes formatos: </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>O bien: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>Cada uno de estos ejemplos genera un valor de datos de contexto de <code>my.a = red </code>. Pueden especificarse varios pares de clave-valor. </p> <p>In the query string, this context data variable would appear as <code> c.&amp;my.a=red </code> </p> </td> 
+   <td> <p>Los pares clave-valor se especifican en uno de los siguientes formatos: </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>O bien: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>Cada uno de estos ejemplos genera un valor de datos de contexto de <code>my.a = red </code>. Pueden especificarse varios pares de clave-valor. </p> <p>En la cadena de consulta, esta variable de datos de contexto aparecerá como <code> c.&amp;my.a=red </code>. </p> </td> 
   </tr> 
   <tr> 
    <td> c1 - c75 </td> 
@@ -138,7 +138,7 @@ Esta información puede usarse para depurar con [analizadores](../../../implemen
    <td> <p>Consulte <a href="../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262" format="dita" scope="local"> Variables dinámicas </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> events o ev </td> 
+   <td> eventos o ev </td> 
    <td> s.events </td> 
    <td> Tráfico del sitio | Compras, Cesta, Eventos personalizados </td> 
    <td> Los eventos de comercio y eventos personalizados ocurridos en la página; se emplea en informes de conversión. </td> 
@@ -322,12 +322,15 @@ Esta información puede usarse para depurar con [analizadores](../../../implemen
    <td> (automático; se envía con todas las visitas que no tengan una variable timestamp personalizada) </td> 
    <td> Ninguno. </td> 
    <td> <p>El parámetro <code>t</code> tiene el formato siguiente: </p> 
-    <code>dd/mm/aaaa &amp; amp; nbsp; hh: mm: ss &amp; amp; nbsp; D &amp; amp; nbsp; OFFSET </code>
-  <p>Donde D es un número del intervalo <code>0-6</code> que especifica el día de la semana y <code>OFFSET</code> representa: </p> 
-    <code>offset &amp; amp; nbsp; from &amp; amp; nbsp; GMT &amp; amp; nbsp; in &amp; amp; nbsp; horas y amp; nbsp; * &amp; amp; nbsp; 60 &amp; amp; nbsp; * &amp; amp; nbsp; -&amp; amp; nbsp; 1 </code>
-  <p> Por ejemplo: </p> 
-    <code>23/09/2016 &amp; amp; nbsp; 14:00:00 &amp; amp; nbsp; 1 &amp; amp; nbsp; 420 </code>
-  </td> 
+    <code>
+      dd/mm/yyyy&amp;nbsp;hh:mm:ss&amp;nbsp;D&amp;nbsp;OFFSET 
+    </code> <p>Donde D es un número del intervalo <code>0-6</code> que especifica el día de la semana y <code>OFFSET</code> representa: </p> 
+    <code>
+      offset&amp;nbsp;from&amp;nbsp;GMT&amp;nbsp;in&amp;nbsp;hours&amp;nbsp;*&amp;nbsp;60&amp;nbsp;*&amp;nbsp;-&amp;nbsp;1 
+    </code> <p> Por ejemplo: </p> 
+    <code>
+      23/09/2016&amp;nbsp;14:00:00&amp;nbsp;1&amp;nbsp;420 
+    </code> </td> 
   </tr> 
   <tr> 
    <td> <code> ts </code> </td> 
@@ -387,7 +390,7 @@ Esta información puede usarse para depurar con [analizadores](../../../implemen
    <td> /5/ (para protocolos móviles) o /1/ (para protocolos no móviles) en la dirección URL de solicitud de imagen. </td> 
    <td> Ninguna </td> 
    <td> Ninguna </td> 
-   <td> <p> Controla el orden en que se usan las cookies y otros métodos para identificar a los visitantes.  </p> </td> 
+   <td> <p> Controla el orden en que se usan las cookies y otros métodos para identificar a los visitantes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
