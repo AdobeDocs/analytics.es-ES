@@ -1,12 +1,12 @@
 ---
 description: Configurar las acciones que desea que la condición active.
-keywords: Administración dinámica de etiquetas;regla;crear regla;nueva regla;etiquetas de javascript/terceros;configurar acciones para la condición;agregar nueva secuencia de comandos;javascript no secuencial;javascript secuencial;html no secuencial
+keywords: Dynamic Tag Management;regla;crear regla;nueva regla;etiquetas javascript/de terceros;configurar acciones para condición;añadir nuevo script;javascript no secuencial;javascript secuencial;html no secuencial
 seo-description: Configurar las acciones que desea que la condición active.
 seo-title: Configurar acciones para que la condición active
-solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Configurar acciones para que la condición active
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -24,11 +24,11 @@ Cada regla puede activar tantas secuencias de comandos o introducciones de HTML 
 
 >[!NOTE]
 >
->Because DTM allows you to inject custom code into your page, please take care not to create cross-site scripting (XSS) vulnerabilities (see [OWASP’s guide](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) for more info). Debe prestar especial atención cuando utilice elementos de datos en un script. Tenga en cuenta que los valores de elementos de datos no siempre provienen de una fuente de confianza.
+>Dado que la DTM le permite insertar código personalizado en su página, debe procurar no crear vulnerabilidades de scripts de sitios cruzados (XSS) (consulte la [guía de OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) para obtener más información). Debe prestar especial atención cuando utilice elementos de datos en un script. Tenga en cuenta que los valores de elementos de datos no siempre provienen de una fuente de confianza.
 
 **Configurar acciones para que la condición active**
 
-1. Click **[!UICONTROL JavaScript / Third Party Tags]** to add a new script to your rule.
+1. Haga clic en **[!UICONTROL Etiquetas de JavaScript/terceros]** para agregar una nueva secuencia de scripts a la regla.
 
    ![](assets/scripts-actions.png)
 
@@ -39,5 +39,5 @@ Cada regla puede activar tantas secuencias de comandos o introducciones de HTML 
 1. Asigne un nombre a la secuencia de comandos.
 1. Especifique cómo quiere que se active la secuencia de comandos, y pegue el contenido deseado en el área de texto. ![](assets/scripts-actions3.png)
 
-1. Click **[!UICONTROL Save Code]**, and the script will be added to the queue for the rule. ![](assets/scripts-actions4.png)
+1. Haga clic en **[!UICONTROL Guardar código]**, y la secuencia de scripts se agregará a la cola de la regla. ![](assets/scripts-actions4.png)
 
