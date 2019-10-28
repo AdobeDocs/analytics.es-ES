@@ -1,12 +1,12 @@
 ---
 description: Las condiciones determinan cuándo se activa una regla basada en eventos.
-keywords: Administración dinámica de etiquetas;regla;crear regla;nueva regla;regla basada en eventos;demora en la activación del vínculo;aplicación del controlador de eventos directamente al elemento;propagación;propagación de eventos
+keywords: Dynamic Tag Management;regla;crear regla;nueva regla;regla basada en eventos;retraso de activación de vínculo;aplicar el controlador de eventos directamente al elemento;propagación;propagación de eventos
 seo-description: Las condiciones determinan cuándo se activa una regla basada en eventos.
 seo-title: Crear condiciones para reglas basadas en eventos
-solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Crear condiciones para reglas basadas en eventos
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -20,7 +20,7 @@ Las condiciones determinan cuándo se activa una regla basada en eventos.
 
    ![](assets/condition-event-based.png)
 
-   Para obtener más información, consulte [Tipos de evento](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html) en Documentación del producto de Tag Management.
+   Para obtener más información, consulte [Tipos de eventos](https://marketing.adobe.com/resources/help/es_ES/dtm/event_types.html) en la documentación del producto de Tag Management de Adobe.
 
 1. Habilite las opciones siguientes según sea necesario:
 
@@ -29,7 +29,7 @@ Las condiciones determinan cuándo se activa una regla basada en eventos.
    | Retraso de activación de vínculo | Habilita si el evento activa un vínculo y si desea que el vínculo se retrase hasta que el evento se active. |
    | Aplicar el controlador de eventos directamente al elemento | Aplica el controlador de eventos a un elemento específico objetivo. Esta configuración está unida al concepto de propagación y capas de un explorador. |
 
-   For example, when you click an image inside an anchor tag like `<a href="abc.html"><img src="xyz.png"/></a>`, you might expect the click to be associated with the anchor tag, because the tag is in the bubble stream. However, when you inspect the click in the developer tools, the click may actually affect only the `<img>` tag. To ensure that the event is handled correctly, associate the click with the `<img>` tag and do not depend on the browser to bubble up the click to a parent element. Un evento como un clic puede propagarse potencialmente a `<body>`. Es importante comprender a dónde está vinculado realmente el evento, y establecerlo específicamente como objetivo para asegurarse de que la regla se activa correctamente.
+   Por ejemplo, cuando se hace clic en una imagen dentro de una etiqueta delimitadora como `<a href="abc.html"><img src="xyz.png"/></a>`, puede que se espere que el clic esté asociado con la etiqueta delimitadora, ya que la etiqueta está en el flujo de propagación. Sin embargo, si inspecciona el clic en las herramientas del desarrollador, es posible que el clic solo afecte a la etiqueta `<img>`. Para asegurar que el evento se administra correctamente, asocie el clic con la etiqueta `<img>` y no dependa del explorador para propagar el clic a un elemento principal. Un evento como un clic puede propagarse potencialmente a `<body>`. Es importante comprender a dónde está vinculado realmente el evento, y establecerlo específicamente como objetivo para asegurarse de que la regla se activa correctamente.
 
    *Propagación* significa que el evento primero se captura, se administra por el elemento más interior y, a continuación, se propaga a los elementos externos.
 
@@ -37,7 +37,7 @@ Las condiciones determinan cuándo se activa una regla basada en eventos.
 
    ![](assets/condition-event-based2.png)
 
-   Consulte [Uso del selector CSS](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html) en Documentación del producto de Dynamic Tag Management para obtener información sobre cómo se busca la etiqueta de elemento correcta.
+   Consulte [Uso del selector de CSS](https://marketing.adobe.com/resources/help/es_ES/dtm/css-selector.html) en la documentación del producto de Dynamic Tag Management para obtener información sobre cómo encontrar la etiqueta de elemento adecuada.
 
 1. Seleccione y configure cualquier tipo de condición o criterio adicional que desee relacionar con la regla.
 
