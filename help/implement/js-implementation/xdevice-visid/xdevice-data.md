@@ -2,23 +2,23 @@
 description: Descripción general de cómo la identificación de visitantes en varios dispositivos afecta a los datos que se ven en los informes.
 keywords: Implementación de Analytics
 seo-description: Descripción general de cómo la identificación de visitantes en varios dispositivos afecta a los datos que se ven en los informes.
-seo-title: Impacto de los datos de la identificación de visitantes entre dispositivos
+seo-title: Impacto de los datos de identificación de visitantes en varios dispositivos
 solution: Analytics
 subtopic: Visitantes
-title: Impacto de los datos de la identificación de visitantes entre dispositivos
+title: Impacto de los datos de identificación de visitantes en varios dispositivos
 topic: Desarrollador e implementación
-uuid: 1 db 4 d 149-cd 50-4 b 41-a 850-988901 f 25051
-translation-type: tm+mt
+uuid: 1db4d149-cd50-4b41-a850-988901f25051
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
 
 
-# Impacto de los datos de la identificación de visitantes entre dispositivos
+# Impacto de los datos de identificación de visitantes en varios dispositivos
 
 >[!IMPORTANT]
 >
->Este método de identificación de visitantes entre dispositivos ya no se recomienda. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Documentación de Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/).
 
 Descripción general de cómo la identificación de visitantes en varios dispositivos afecta a los datos que se ven en los informes.
 
