@@ -2,19 +2,19 @@
 description: El archivo de biblioteca JavaScript está diseñado para almacenarse en caché en el explorador del usuario después de la carga inicial, lo que reduce la cantidad de datos que deben descargarse.
 keywords: Implementación de Analytics
 seo-description: El archivo de biblioteca JavaScript está diseñado para almacenarse en caché en el explorador del usuario después de la carga inicial, lo que reduce la cantidad de datos que deben descargarse.
-seo-title: Archivo de biblioteca Javascript
+seo-title: Archivo de biblioteca JavaScript
 solution: Analytics
 subtopic: Resolución de problemas
-title: Archivo de biblioteca Javascript
+title: Archivo de biblioteca JavaScript
 topic: Desarrollador e implementación
-uuid: 52940 a 85-4905-4302-9 c 8 f-d 93327 e 2 e 7 b 6
-translation-type: tm+mt
+uuid: 52940a85-4905-4302-9c8f-d93327e2e7b6
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Archivo de biblioteca Javascript
+# Archivo de biblioteca JavaScript
 
 El archivo de biblioteca JavaScript está diseñado para almacenarse en caché en el explorador del usuario después de la carga inicial, lo que reduce la cantidad de datos que deben descargarse.
 
