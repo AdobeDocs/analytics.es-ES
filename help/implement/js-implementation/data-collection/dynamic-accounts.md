@@ -2,18 +2,18 @@
 description: El archivo .js se puede configurar para que seleccione automáticamente un ID de grupo de informes.
 keywords: Implementación de Analytics
 seo-description: El archivo .js se puede configurar para que seleccione automáticamente un ID de grupo de informes.
-seo-title: 'ID de grupos de informes: cuentas dinámicas'
+seo-title: 'ID de grupo de informes: Cuentas dinámicas'
 solution: Analytics
-title: 'ID de grupos de informes: cuentas dinámicas'
+title: 'ID de grupo de informes: Cuentas dinámicas'
 topic: Desarrollador e implementación
-uuid: 763 a 9741-309 d -4795-8819-6543866047 d 5
-translation-type: tm+mt
+uuid: 763a9741-309d-4795-8819-6543866047d5
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# ID de grupos de informes: cuentas dinámicas
+# ID de grupo de informes: Cuentas dinámicas
 
 El archivo .js se puede configurar para que seleccione automáticamente un ID de grupo de informes. El archivo .js envía automáticamente la solicitud de imagen al grupo de informes en función de la URL. Por ejemplo: si la dirección URL es `www.mysite.com`, la solicitud de imagen se envía automáticamente al grupo de informes A. Si la dirección URL es `www.mysite1.com`, la solicitud de imagen se envía automáticamente al grupo de informes B.
 
@@ -62,11 +62,11 @@ Si se seleccionan múltiples reglas (vea el ejemplo anterior), las reglas se eje
 * `s.dynamicAccountSelection=true`
 * `s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com"`
 
-The code first checks to determine if `qa.client.com` exists within the Host/Domain Name. If so, the report suite `devreportsuite1` is selected, and the match stops. Separe las reglas con punto y coma.
+El código primero realiza una comprobación para determinar si `qa.client.com` existe en el nombre de host/dominio. En caso afirmativo, se selecciona el grupo de informes `devreportsuite1` y la búsqueda de coincidencias se detiene. Separe las reglas con punto y coma.
 
 ## Grupo de informes predeterminado {#section_0360D724929348B0B211708B5BA15647}
 
-The `s_account` variable can be set first, and acts as a default value in case any of the specified strings cannot be found. A continuación verá un ejemplo:
+La variable `s_account` se puede establecer primero y actúa como valor predeterminado en caso de que no se encuentren las cadenas especificadas. A continuación verá un ejemplo:
 
 ```javascript
 var s_account="defaultreportsuiteid" 
@@ -74,4 +74,4 @@ s.dynamicAccountSelection=true
 s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com" 
 ```
 
-In the case above, if the host/domain name did not contain either `qa.client.com` or `client.com`, the report suite *defaultreportsuiteid* would be used.
+En el caso anterior, si el nombre de host/dominio no contiene `qa.client.com` o `client.com`, se usa el grupo de informes *defaultreportsuiteid*.
