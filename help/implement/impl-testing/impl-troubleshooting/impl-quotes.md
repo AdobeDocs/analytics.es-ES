@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Resolución de problemas
 title: Uso de comillas
 topic: Desarrollador e implementación
-uuid: 9 f 09 c 48 b -7 ae 5-441 e -8635-fd 6 bdc 2 e 94 c 7
-translation-type: tm+mt
+uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
