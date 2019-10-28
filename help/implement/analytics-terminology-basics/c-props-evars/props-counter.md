@@ -1,13 +1,13 @@
 ---
 description: Un contador almacena (y a veces muestra) el número de veces que se ha producido un evento o proceso determinado.
-keywords: Implementación de Analytics; props; s. prop; custom traffic; contadores
+keywords: Implementación de Analytics, props, s.prop, tráfico personalizado, contadores
 seo-description: Un contador almacena (y a veces muestra) el número de veces que se ha producido un evento o proceso determinado.
 seo-title: Uso de props como contadores
 solution: Analytics
 title: Uso de props como contadores
 topic: Desarrollador e implementación
-uuid: ab 83 bd 7 e -10 d 9-49 f 9-b 9 e 7-c 50397 e 95 c 17
-translation-type: tm+mt
+uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -31,11 +31,11 @@ s.prop1="WindowsMP"
 
 >[!NOTE]
 >
->Adobe offers up to 75 [!UICONTROL s.prop] variables for you to use.
+>Adobe ofrece hasta 75 variables [!UICONTROL s.prop] que puede usar.
 
 Mientras los visitantes llegan al sitio y visitan las páginas que contienen Real Player o el Reproductor de Windows Media, [!DNL Analytics] puede segmentar esos usuarios en función de qué páginas hayan visitado. A continuación, el informe [!UICONTROL Tráfico personalizado] muestra el número de visitas a cada página.
 
 >[!NOTE]
 >
->The name of the [!UICONTROL Custom Traffic] report can be customized. Por ejemplo, se puede cambiar el nombre del informe de [!UICONTROL Tráfico personalizado] por "Informe por tipos de reproductor".
+>El nombre del informe de [!UICONTROL Tráfico personalizado] se puede personalizar. Por ejemplo, se puede cambiar el nombre del informe de [!UICONTROL Tráfico personalizado] por "Informe por tipos de reproductor".
 
