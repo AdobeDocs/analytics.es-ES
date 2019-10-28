@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Resolución de problemas
 title: Errores comunes en la variable Products
 topic: Desarrollador e implementación
-uuid: 94075 c 56-37 c 3-44 de-bf 37-1 dfd 228 c 6665
-translation-type: tm+mt
+uuid: 94075c56-37c3-44de-bf37-1dfd228c6665
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
