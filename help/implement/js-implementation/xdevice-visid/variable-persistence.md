@@ -6,8 +6,8 @@ seo-title: Atribución y persistencia
 solution: Analytics
 title: Atribución y persistencia
 topic: Desarrollador e implementación
-uuid: 5 dd 706 be -83 f 6-498 a-a 856-e 3 c 5 af 995348
-translation-type: tm+mt
+uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Este método de identificación de visitantes entre dispositivos ya no se recomienda. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Documentación de Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/).
 
 Cuando los perfiles de los visitantes se combinan después de asociarse a la misma variable de ID de visitante, la atribución no cambia en el conjunto de datos históricos.
 
@@ -31,12 +31,12 @@ Cuando un cliente no autenticado llega a su sitio, Adobe Analytics asigna a ese 
 
 El ejemplo siguiente es una representación de cómo se envían los datos a Adobe Analytics cuando un cliente se autentica por primera vez, en el primer dispositivo:
 
-* `eVar16` tiene una caducidad de 1 día y `evar17` caduca durante la visita.
+* `eVar16` tiene una caducidad de 1 día, y `evar17` caduca en la visita.
 
-* The `post_visitor_id` column represents the profile maintained by Adobe Analytics.
-* The `post_evar16` and `post_evar17` columns show shows the persistence of eVars.
+* La columna `post_visitor_id` representa el perfil que mantiene Adobe Analytics.
+* Las columnas `post_evar16` y `post_evar17` muestran la persistencia de las eVars.
 
-* `cust_visid` representa un valor establecido en `s.visitorID`.
+* `cust_visid` representa un valor configurado en `s.visitorID`.
 
 * Cada fila es una "visita", una sola solicitud enviada a los servidores de recopilación de datos de Adobe Analytics.
 
