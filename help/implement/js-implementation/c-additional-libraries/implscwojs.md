@@ -1,13 +1,13 @@
 ---
 description: Implemente Analytics con una etiqueta de imagen HTML (solicitud de imagen codificada).
-keywords: Implementación de Analytics; HTML image tag; solicitud de imagen codificada
+keywords: Implementación de Analytics, etiqueta de imagen html, solicitud de imagen codificada
 seo-description: Implemente Analytics con una etiqueta de imagen HTML (solicitud de imagen codificada).
 seo-title: Implementar Analytics con etiquetas de imagen HTML
 solution: Analytics
 title: Implementar Analytics con etiquetas de imagen HTML
 topic: Desarrollador e implementación
-uuid: 0 c 098 a 57-7 c 71-4362-812 c -36 e 37848 a 5 ae
-translation-type: tm+mt
+uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -44,9 +44,9 @@ JavaScript puede detectar opciones de configuración del explorador que no está
 
 * JavaScript es muy preciso (98-100 %). Hay ocasiones en las que se desea la máxima precisión, incluso en situaciones en las que un usuario hace clic rápidamente a otra página antes de que JavaScript se haya ejecutado. Crear la etiqueta de imagen en el lado del servidor aumenta varios puntos el porcentaje de precisión.
 * Para rastrear eventos de conversión (como las compras) en los que la precisión es fundamental.
-* Esta estrategia también puede utilizarse para rellenar completamente la solicitud de imagen dentro de la variable <noscript> para rastrear usuarios sin JavaScript o con JavaScript deshabilitado.
+* Esta estrategia también se puede usar para rellenar completamente la solicitud de imagen dentro de la etiqueta <noscript> para rastrear usuarios sin JavaScript o con JavaScript deshabilitado.
 
 >[!NOTE]
 >
->El uso de etiquetas de imagen generadas por servidor requiere de tiempo adicional para implementarse y es más difícil de depurar, implementar y mantener. Adobe recomienda encarecidamente a sus clientes usar la recopilación de datos basada en JavaScript en todas las páginas siempre que sea posible. Hay varios informes y funciones, incluidos el mapa de clics de visitantes, vínculos de descarga, vínculos de salida y variables de explorador (alto y ancho del explorador, etc.) que no se pueden recopilar o no se admiten con este método de implementación.
+>El uso de etiquetas de imagen generadas por el servidor requiere un tiempo de implementación adicional y resultan más difíciles de depurar, implementar y mantener. Adobe recomienda encarecidamente a sus clientes usar la recopilación de datos basada en JavaScript en todas las páginas siempre que sea posible. Hay varios informes y funciones, incluidos el mapa de clics de visitantes, vínculos de descarga, vínculos de salida y variables de explorador (alto y ancho del explorador, etc.) que no se pueden recopilar o no se admiten con este método de implementación.
 
