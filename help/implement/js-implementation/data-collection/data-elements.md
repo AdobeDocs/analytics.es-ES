@@ -6,8 +6,8 @@ seo-title: Recopilación de datos de elementos de formulario
 solution: Analytics
 title: Recopilación de datos de elementos de formulario
 topic: Desarrollador e implementación
-uuid: e 0 c 13 b 96-e 1 ca -4744-a 912-60 ca 2 b 8 f 25 c 3
-translation-type: tm+mt
+uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -19,9 +19,9 @@ Puede capturar en los informes los valores de elementos de formularios tales com
 
 Por ejemplo, si dispone de un botón de opción que permite al usuario especificar un género musical favorito (por ejemplo, rock, rap, clásica o jazz), podrá capturar esta respuesta en una variable para así determinar las preferencias musicales generales de sus usuarios.
 
-La mejor manera para capturar estos datos depende del modo en que se procesan los formularios. También depende de si las selecciones de formularios que se deseen capturar están disponibles en la cadena de consulta de la página que sigue al envío del formulario. Los ejemplos de este artículo están en PHP. No obstante, se pueden adaptar estos conceptos a otro lenguaje en función de su entorno de servidor. 
+La mejor manera para capturar estos datos depende del modo en que se procesan los formularios. También depende de si las selecciones de formularios que se deseen capturar están disponibles en la cadena de consulta de la página que sigue al envío del formulario. Los ejemplos de este artículo están en PHP. No obstante, se pueden adaptar estos conceptos a otro lenguaje en función de su entorno de servidor.
 
-Esta información está dirigida a usuarios avanzados con amplia experiencia tanto en informes como en implementación. No intente realizar ningún cambio en la implementación sin tener absoluto conocimiento de las consecuencias. Si necesita modificar la implementación, póngase en contacto con el administrador de cuentas de su organización. 
+Esta información está dirigida a usuarios avanzados con amplia experiencia tanto en informes como en implementación. No intente realizar ningún cambio en la implementación sin tener absoluto conocimiento de las consecuencias. Si necesita modificar la implementación, póngase en contacto con el administrador de cuentas de su organización.
 
 ## Método GET {#section_7A2B35822BFF4F6EB57940B31AE6303A}
 
@@ -29,13 +29,13 @@ Si su formulario utiliza un método [!UICONTROL GET] para enviar datos, tiene ac
 
 ## Método POST {#section_56715C30EF374BA7AA12B946B50E4A9A}
 
-Si su formulario utiliza un método [!UICONTROL POST] para enviar datos (opción más común), los resultados de cada elemento de formulario específico están disponibles en la variable [!UICONTROL $_POST superglobal]. Para capturarlos en una variable, determine el nombre del elemento de formulario en cuestión. Si se utiliza el ejemplo de género musical mencionado anteriormente, parte del elemento de formulario en cuestión sería así: 
+Si su formulario utiliza un método [!UICONTROL POST] para enviar datos (opción más común), los resultados de cada elemento de formulario específico están disponibles en la variable [!UICONTROL $_POST superglobal]. Para capturarlos en una variable, determine el nombre del elemento de formulario en cuestión. Si se utiliza el ejemplo de género musical mencionado anteriormente, parte del elemento de formulario en cuestión sería así:
 
 ```
 <input type="radio" name="music_genre" value="rock">
 ```
 
-Este botón de opción pertenece al elemento de formulario "music_genre". You then have access to the user's selected value by using $_POST['music_genre']. Esto se podría escribir en una variable en la página que sigue al envío del formulario:
+Este botón de opción pertenece al elemento de formulario "music_genre". A continuación, tendrá acceso al valor seleccionado del usuario mediante $_POST ['music_genre']. Esto se podría escribir en una variable en la página que sigue al envío del formulario:
 
 ```js
 s.eVar1="<?=$_POST['music_genre'];?>"
