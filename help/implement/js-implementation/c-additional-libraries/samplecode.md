@@ -1,13 +1,13 @@
 ---
 description: Ejemplos que ilustran el uso de una etiqueta de imagen generada por el servidor en una página de muestra HTML.
-keywords: Implementación de Analytics; variables
+keywords: Implementación de Analytics, variables
 seo-description: Ejemplos que ilustran el uso de una etiqueta de imagen generada por el servidor en una página de muestra HTML.
 seo-title: Código de muestra
 solution: Analytics
 title: Código de muestra
 topic: Desarrollador e implementación
-uuid: 47 e 5 e 82 c-cfb 2-4912-919 b -720 b 2 ee 852 ba
-translation-type: tm+mt
+uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -23,7 +23,7 @@ La tabla siguiente muestra los valores utilizados en el ejemplo.
 |---|---|
 | pageName | Confirmación de pedido |
 | Dirección URL actual | https://www.somesite.com/cart/confirmation.asp |
-| events | purchase,event1 |
+| eventos | purchase,event1 |
 | c1 | Registrado |
 | purchaseID | 0123456 |
 | products | Books;Book Name;1;19.95 |
