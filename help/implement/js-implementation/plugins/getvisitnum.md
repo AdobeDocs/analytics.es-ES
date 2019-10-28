@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Complementos
 title: getVisitNum
 topic: Desarrollador e implementación
-uuid: 27 d 57 f 92-fffb -44 d 0-b 9 ca -9 da 93323 f 64 c
-translation-type: tm+mt
+uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,19 +20,19 @@ El complemento getVisitNum determina cuántas visitas al sitio ha realizado un u
 
 ## Implementación y código de complemento {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
-**SECCIÓN CONFIG**: esta sección no requiere ninguna modificación. 
+**SECCIÓN CONFIG**: esta sección no requiere ninguna modificación.
 
 **Configuración de complemento**
 
-Inserte el código siguiente en la función *`s_doPlugins()`* , que se encuentra en el área del *`s_code.js`* archivo rotulada Configuración *de complemento*. Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos del número de visitas. Debe ser una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. Puede utilizar el ejemplo siguiente y actualizarlo según sus necesidades.
+Inserte el código siguiente en la función La función *`s_doPlugins()`*, que se encuentra en el área del archivo *`s_code.js`* llamado *Configuración de complemento*. Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos del número de visitas. Debe ser una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. Puede utilizar el ejemplo siguiente y actualizarlo según sus necesidades.
 
 `s.prop1=s.getVisitNum();`
 
 >[!NOTE]
 >
->Las instrucciones siguientes requieren modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+>Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
-**SECCIÓN DE COMPLEMENTOS**: Agregue el siguiente código al área del [!DNL s_code.js] archivo rotulada SECCIÓN DE COMPLEMENTOS. No realice ningún cambio en esta parte del código de complemento.
+**SECCIÓN DE COMPLEMENTOS**: Agregue el código siguiente al área del archivo [!DNL s_code.js] con el nombre SECCIÓN DE COMPLEMENTOS. No realice ningún cambio en esta parte del código de complemento.
 
 ```js
 /* 
@@ -69,7 +69,7 @@ s.endof=new Function("x",""
 * c = (cadena, opcional) Especifique el nombre de cookie persistente. El valor predeterminado es 's_vnum'.
 * c2 = (cadena, opcional) Especifique el nombre de cookie de sesión. El valor predeterminado es 's_invisit'
 
-**Valores devueltos**
+**Devuelve**
 
 * Devuelve el número (1, 2, 3, etc.) de la visita. Este número solo se incrementa en la primera página de cada visita.
 * Devuelve "número de visita desconocido" si el complemento no puede identificar el número de visita (las cookies están bloqueadas).
