@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Complementos
 title: getDaysSinceLastVisit
 topic: Desarrollador e implementación
-uuid: cad 95882-3 bd 0-4 f 94-a 0 c 3-4 e 7 b 6058 d 246
-translation-type: tm+mt
+uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ Determina el número de días transcurridos desde la última vez que un usuario 
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) incluye ahora un **[!UICONTROL día desde la dimensión de la última visita]** fuera del cuadro, por lo que se nula la necesidad de este complemento.
+>[Analysis Workspace](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/) ahora incluye una dimensión **[!UICONTROL Días desde la última visita]** predeterminada, con lo que se anula la necesidad de este complemento.
 
 Los datos de frecuencia de retorno se pueden emplear para responder a las preguntas siguientes:
 
@@ -32,7 +32,7 @@ El complemento también puede generar valores para segmentación. Por ejemplo, p
 
 >[!NOTE]
 >
->Las instrucciones siguientes requieren modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+>Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación y código de complemento {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -42,7 +42,7 @@ No es necesario realizar ningún cambio.
 
 **Configurar complemento**
 
-Place the following code within the `s_doPlugins()` function, which is located in the area of the [!DNL s_code.js] file labeled *Plugin Config*. Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) y/o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos de frecuencia de retorno. Debe seleccionarse una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. El siguiente es solo un ejemplo y debe actualizarse según sus necesidades.
+Inserte el siguiente código en la función `s_doPlugins()`, que está ubicada en el área del archivo [!DNL s_code.js] con el nombre *Configurar complemento*. Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) y/o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos de frecuencia de retorno. Debe seleccionarse una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. El siguiente es solo un ejemplo y debe actualizarse según sus necesidades.
 
 ```js
 s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
