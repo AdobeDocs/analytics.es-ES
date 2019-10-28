@@ -1,19 +1,19 @@
 ---
 description: 'null'
-keywords: Implementación de Analytics; referencia de vínculo; redir
+keywords: Implementación de Analytics;referencia de vínculo;redir
 seo-description: 'null'
-seo-title: Medición de vínculos personalizados en protocolos móviles
+seo-title: Medición de vínculos personalizados con protocolos móviles
 solution: Analytics
-title: Medición de vínculos personalizados en protocolos móviles
+title: Medición de vínculos personalizados con protocolos móviles
 topic: Desarrollador e implementación
-uuid: eb 82 de 26-da 2 e -41 c 2-8924-59 b 6 b 5 ccef 28
-translation-type: tm+mt
+uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Medición de vínculos personalizados en protocolos móviles
+# Medición de vínculos personalizados con protocolos móviles
 
 Muchos usuarios de dispositivos móviles descargan archivos en sus dispositivos, como podcasts, tonos de llamada y archivos similares. Como muchos de estos dispositivos no admiten JavaScript, la medición de vínculos debe implementarse a través de redirecciones. Si desea usar las redirecciones, debe modificar los vínculos href en el código html para incluir el elemento REDIR. Los vínculos personalizados tienen el formato general siguiente:
 
@@ -38,4 +38,4 @@ Una dirección URL de medición de vínculos personalizada tiene un aspecto simi
 &pev1=http%3A%2F%2Fwww.johnny_appleseed.org%2Fmpegs%2Fplanting_apple_trees.mpeg&pev2=pl anting_apple_trees&">Planting an Apple Tree</a>
 ```
 
-Para obtener más información, consulte el [documento técnico Redirecciones de seguimiento de vínculos de salida](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/).
+Para obtener más información, consulte [Redirecciones de seguimiento de vínculos de salida](https://marketing.adobe.com/resources/help/en_US/whitepapers/redirects/).
