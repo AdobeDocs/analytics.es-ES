@@ -6,8 +6,8 @@ seo-title: Aplicaciones de medios enriquecidos de AJAX-Track
 solution: Analytics
 title: Aplicaciones de medios enriquecidos de AJAX-Track
 topic: Desarrollador e implementación
-uuid: ffe 6 a 263-ae 18-4875-badb-b 3 aea 3 efcb 64
-translation-type: tm+mt
+uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
