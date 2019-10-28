@@ -1,13 +1,13 @@
 ---
 description: Un uso habitual de las jerarquías de contenido es mostrar las diferentes rutas que los visitantes han seguido desde una determinada página o nivel.
-keywords: Implementación de Analytics; content hierachos; hier
+keywords: Implementación de Analytics, jerarquías de contenido, hier
 seo-description: Un uso habitual de las jerarquías de contenido es mostrar las diferentes rutas que los visitantes han seguido desde una determinada página o nivel.
 seo-title: Recuento de jerarquías de contenido
 solution: Analytics
 title: Recuento de jerarquías de contenido
 topic: Desarrollador e implementación
-uuid: d 41 df 92 d -65 fb -44 de-bf 46-8 fac 24303 papá
-translation-type: tm+mt
+uuid: d41df92d-65fb-44de-bf46-8fac24303dad
+translation-type: ht
 source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
 
 ---
@@ -17,9 +17,9 @@ source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
 
 Un uso habitual de las jerarquías de contenido es mostrar las diferentes rutas que los visitantes han seguido desde una determinada página o nivel.
 
-**¿Cómo puedo realizar un seguimiento de mi[!UICONTROL jerarquía de contenido]?** 
+**¿Cómo puedo realizar un seguimiento de mi[!UICONTROL jerarquía de contenido]?**
 
-Primero debe comprender los requisitos de informes para el seguimiento de [!UICONTROL jerarquías de contenido]. Si los requisitos para realizar un seguimiento de la jerarquía son muy detallados, a menudo se recomienda la variable hierarchy ( *`hier`*) se recomienda. Las jerarquías suelen requerir una taxonomía predefinida estricta en la que el mismo nodo secundario rara vez reside debajo de varios nodos primarios. Consideremos el siguiente ejemplo:
+Primero debe comprender los requisitos de informes para el seguimiento de [!UICONTROL jerarquías de contenido]. Si los requisitos para realizar un seguimiento de la jerarquía son muy detallados, a menudo se recomienda la variable hierarchy ( *`hier`*). Las jerarquías suelen requerir una taxonomía predefinida estricta en la que el mismo nodo secundario rara vez reside debajo de varios nodos primarios. Consideremos el siguiente ejemplo:
 
 [!UICONTROL Jerarquía global]
 
