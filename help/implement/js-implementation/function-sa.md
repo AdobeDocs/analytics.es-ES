@@ -1,14 +1,14 @@
 ---
-description: 'La función s.sa() permite cambiar en cualquier momento y de forma dinámica un grupo de informes en la página, antes o después de que la solicitud de imagen se active. '
+description: La función s.sa() permite cambiar en cualquier momento y de forma dinámica un grupo de informes en la página, antes o después de que la solicitud de imagen se active.
 keywords: Implementación de Analytics
-seo-description: 'La función s.sa() permite cambiar en cualquier momento y de forma dinámica un grupo de informes en la página, antes o después de que la solicitud de imagen se active. '
-seo-title: La función s.sa()
+seo-description: La función s.sa() permite cambiar en cualquier momento y de forma dinámica un grupo de informes en la página, antes o después de que la solicitud de imagen se active.
+seo-title: Función s.sa()
 solution: Analytics
 subtopic: Funciones
 title: Función s.sa()
 topic: Desarrollador e implementación
-uuid: a 6 aacd 10-2 a 5 b -448 b-b 3 b 7-bed 5590 b 71 d 4
-translation-type: tm+mt
+uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 # Función s.sa()
 
-La función s.sa() permite cambiar en cualquier momento y de forma dinámica un grupo de informes en la página, antes o después de que la solicitud de imagen se active. 
+La función s.sa() permite cambiar en cualquier momento y de forma dinámica un grupo de informes en la página, antes o después de que la solicitud de imagen se active.
 
 Si su organización desea enviar datos a otros grupos de informes sin una recarga de página, es muy recomendable utilizar esta función.
 
-Esta información está dirigida a usuarios avanzados con amplia experiencia tanto en informes como en implementación. No intente realizar ningún cambio en la implementación sin tener absoluto conocimiento de las consecuencias. Si necesita modificar la implementación, póngase en contacto con el administrador de cuentas de su organización. 
+Esta información está dirigida a usuarios avanzados con amplia experiencia tanto en informes como en implementación. No intente realizar ningún cambio en la implementación sin tener absoluto conocimiento de las consecuencias. Si necesita modificar la implementación, póngase en contacto con el administrador de cuentas de su organización.
 
 ## Propiedades de la función {#section_E10CB41A0CF749F4A24C8377958E3671}
 
