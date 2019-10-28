@@ -6,8 +6,8 @@ solution: Analytics
 subtopic: Notas de la versión
 title: PHP
 topic: Desarrollador e implementación
-uuid: 65 a 644 ef -8 e 50-406 b -8 b 12-0582495 d 130 a
-translation-type: tm+mt
+uuid: 65a644ef-8e50-406b-8b12-0582495d130a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Para encontrar la versión actual de la biblioteca, active la depuración de registro.
+>Para saber la versión de la biblioteca actual, active los registros de depuración.
 
 ## Versión 1.2.2 {#section_0D547871DC684417B6CE1370E5C6AAC2}
 
@@ -29,7 +29,7 @@ Fecha de versión: **agosto de 2014**
 
 Fecha de versión: **julio de 2012**
 
-* Added a check for the "off" returned for the $_SERVER['HTTPS'] in IIS. Without this check, typecasting to boolean ((bool)$_SERVER['HTTPS']) returned true in IE whether the request was made through HTTP or HTTPS. Esto hizo que páginas no seguras intentasen hacer una solicitud de imagen segura.
+* Se ha agregado una comprobación para el mensaje de "desactivado" que se devolvió para ['HTTPS'] en IIS. Sin esta comprobación, la colocación en un booleano ((bool)$_SERVER['HTTPS']) devolvió un estado de verdadero en IE, ya se efectuase la solicitud en HTTP o HTTPS. Esto hizo que páginas no seguras intentasen hacer una solicitud de imagen segura.
 
 ## Versión 1.1 {#section_8F4479681ED642FCB9233459E04FF702}
 
@@ -42,9 +42,9 @@ La biblioteca de mediciones para PHP 1.1 incluye las siguientes actualizaciones 
 * Lista de detección de bots refinada.
 * Se ha agregado información de depuración (encabezados HTTP, respuesta, errores, etc.) cuando `debugTracking` y `sendFromServer` están habilitadas.
 
-* Added the `debugFilename` variable (when `sendFromServer` is enabled).
+* Se ha agregado la variable `debugFilename` (cuando `sendFromServer` está habilitada).
 
-* The pagename variable defaults to `$_SERVER['SCRIPT_NAME']` when neither `pagename` nor `pageURL` are set.
+* La variable toma `$_SERVER['SCRIPT_NAME']` como valor predeterminado cuando ni el valor `pagename` ni `pageURL` están habilitados.
 
 * Compatibilidad completa con implementaciones CGI de PHP.
 * Mejoras de rendimiento.
