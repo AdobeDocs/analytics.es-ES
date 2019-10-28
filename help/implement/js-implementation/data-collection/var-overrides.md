@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Variables
 title: Anulaciones de variables
 topic: Desarrollador e implementación
-uuid: 3 ec 09 ae 8-b 9 df -426 f -8065-42 b 4518 e 6 c 5 f
-translation-type: tm+mt
+uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Las anulaciones de variables permiten cambiar el valor de una variable para un único seguimiento o una sola llamada de seguimiento de vínculos.
 
-To override variables, create a new object, assign variable values, and pass this object as the first parameter to `s.t()`, or as the fourth parameter to `s.tl()`:
+Para anular las variables, cree un nuevo objeto, asigne los posibles valores y pase el objeto como el primer parámetro a `s.t()` o como el cuarto a `s.tl()`:
 
 ```js
 s.eVar1="one"; 
