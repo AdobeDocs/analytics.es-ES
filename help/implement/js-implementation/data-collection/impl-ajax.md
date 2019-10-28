@@ -6,8 +6,8 @@ seo-title: Implementación con AJAX
 solution: Analytics
 title: Implementación con AJAX
 topic: Desarrollador e implementación
-uuid: 9 e 3477 ef -7 dea -4 c 76-ab 61-36 a 188222 be 7 7
-translation-type: tm+mt
+uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -26,11 +26,11 @@ La diferencia respecto a incluir [!UICONTROL AJAX] en la combinación es que hay
 ## Implementación del código {#section_F3FC6F07A3E148D89A4C9ABC442920C3}
 
 Hay dos funciones en el código de JavaScript que permite enviar datos. Hay algunas directrices diferentes que deben seguirse para saber qué método se debe utilizar para enviar datos.
-Si ya se ha realizado una solicitud de imagen en la página, debe borrar los valores de las variables establecidas con anterioridad. Use the `clearVars()` funtion in [!DNL AppMeasurement] for JavaScript, or write a simple JavaScript function to clear the variables if you are using H code. Set the values appropriate for the changed content, namely the *`pageName`* variable. After the variables are set call the *`t()`* function.
+Si ya se ha realizado una solicitud de imagen en la página, debe borrar los valores de las variables establecidas con anterioridad. Use la función `clearVars()` en [!DNL AppMeasurement] para JavaScript o escriba una función JavaScript simple para borrar las variables si usa código H. Configure los valores apropiados para el contenido cambiado, concretamente la variable *`pageName`*. Una vez configuradas las variables, llame a la función *`t()`*.
 
 >[!NOTE]
 >
->Before you call `s.t()`, you must clear any values on the s object that you do not want to persist. if you are using [!DNL AppMeasurement] for JavaScript, you can call `s.clearVars()`. Si usa código H, establezca las variables para una cadena vacía escribiendo una rutina simple.
+>Antes de llamar a `s.t()`, borre los valores del objeto s que no deban conservarse. Si usa [!DNL AppMeasurement] para JavaScript, puede llamar a `s.clearVars()`. Si usa código H, establezca las variables para una cadena vacía escribiendo una rutina simple.
 
 ```js
 s.clearVars(); 
@@ -39,7 +39,7 @@ s.prop1="some value"
 void(s.t());
 ```
 
-The following example shows a tracking call in the `done` callback of the JQuery `.ajax` function:
+En el ejemplo siguiente se muestra una llamada de seguimiento de la llamada de retorno `done` de la función `.ajax` de JQuery:
 
 ```
 $.ajax({ 
@@ -57,10 +57,10 @@ $.ajax({
 Si anteriormente se realizó una solicitud de imagen en la misma página, borre los valores de las variables previamente configuradas. Para ello:
 
 * Escriba una función de JavaScript simple para borrar las variables de Adobe.
-* Configure las variables  *`linkTrackVars`* y *`linkTrackEvents`* variables si aún no lo ha hecho en [!DNL s_code.js] el archivo.
+* Configure las variables *`linkTrackVars`* y *`linkTrackEvents`* en el archivo [!DNL s_code.js], si aún no lo ha hecho.
 
-* Set the values appropriate for the changed content, namely the *`pageName`* variable.
-* After the variables are set, call the *`tl()`* function.
+* Configure los valores apropiados para el contenido cambiado, concretamente la variable *`pageName`*.
+* Una vez configuradas las variables, llame a la función *`tl()`*.
 
 ```js
 //set linkTrackVars and linkTrackEvents> (if applicable) 
