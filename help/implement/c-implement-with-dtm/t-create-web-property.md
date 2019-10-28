@@ -1,31 +1,31 @@
 ---
 description: Una propiedad web puede ser cualquier agrupación de uno o más dominios y subdominios incluida en un código incrustado y con una biblioteca de reglas.
-keywords: Implementación de Analytics; método de implementación; administración dinámica de etiquetas; dtm; web property; propiedad
+keywords: Implementación de Analytics, método de implementación, Dynamic Tag Management, dtm, propiedad web, propiedad
 seo-description: Una propiedad web puede ser cualquier agrupación de uno o más dominios y subdominios incluida en un código incrustado y con una biblioteca de reglas.
-seo-title: Crear propiedad web
+seo-title: Crear una propiedad web
 solution: Analytics
-title: Crear propiedad web
+title: Crear una propiedad web
 topic: Desarrollador e implementación
-uuid: f 19 d 5504-eb 44-4 d 93-a 387-7470 ab 4 b 3 a 3 a 3
-translation-type: tm+mt
+uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
 
 
-# Crear propiedad web
+# Crear una propiedad web
 
 Una propiedad web puede ser cualquier agrupación de uno o más dominios y subdominios incluida en un código incrustado y con una biblioteca de reglas.
 
 >[!NOTE]
 >
->Solo un usuario con derechos de administrador puede crear una propiedad. For more information about roles, see [Create and Manage Groups in DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) in the Dynamic Tag Management Product Documentation.
+>Solo los usuarios con derechos de administrador pueden crear una propiedad. Para obtener más información sobre las funciones, consulte [Crear y administrar grupos en DTM](https://marketing.adobe.com/resources/help/es_ES/dtm/groups.html) en la documentación del producto de DTM.
 
 Puede administrar y rastrear estos recursos con DTM. Por ejemplo, supongamos que tiene varios sitios web basados en una plantilla y quiere rastrear los mismos recursos en todos. Puede aplicar una propiedad web a varios dominios.
 
-Para obtener información general sobre propiedades web y consejos, consulte [Propiedades web](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) de Documentación del producto de la administración dinámica de etiquetas.
+Para obtener información general sobre propiedades web y consejos, consulte [Propiedades web](https://marketing.adobe.com/resources/help/es_ES/dtm/web_property.html) en la documentación del producto de DTM.
 
-1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
+1. Vaya a la página de su empresa y haga clic en **[!UICONTROL Agregar propiedad]**.
 
    ![](assets/dtm-create-web-property.png)
 
@@ -44,7 +44,7 @@ Para obtener información general sobre propiedades web y consejos, consulte [Pr
     <td colname="col2"> <p>El nombre de su propiedad. </p> </td> 
     </tr> 
     <tr> 
-    <td colname="col1"> <span class="uicontrol"> Dirección URL</span> </td> 
+    <td colname="col1"> <span class="uicontrol"> URL</span> </td> 
     <td colname="col2"> <p>URL base de la propiedad. </p> </td> 
     </tr> 
     <tr> 
