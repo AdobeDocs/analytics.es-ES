@@ -6,8 +6,8 @@ seo-title: getVisitStart
 solution: Analytics
 title: getVisitStart
 topic: Desarrollador e implementación
-uuid: 7 dd 3 e 51 f -2 f 73-4452-a 9 fb-cac 513 cd 28 eb
-translation-type: tm+mt
+uuid: 7dd3e51f-2f73-4452-a9fb-cac513cd28eb
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
