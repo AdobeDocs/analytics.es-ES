@@ -2,18 +2,18 @@
 description: Compruebe que la referencia al archivo .JS desde la página es correcta. Se puede especificar una ruta relativa al documento actual o se puede usar una ruta absoluta.
 keywords: Implementación de Analytics
 seo-description: Compruebe que la referencia al archivo .JS desde la página es correcta. Se puede especificar una ruta relativa al documento actual o se puede usar una ruta absoluta.
-seo-title: Archivo JS JavaScript
+seo-title: Archivo JS de JavaScript
 solution: Analytics
-title: Archivo JS JavaScript
+title: Archivo JS de JavaScript
 topic: Desarrollador e implementación
-uuid: 6 e 83223 f -2127-41 d 3-9806-bd 085 fa 2 a 747
-translation-type: tm+mt
+uuid: 6e83223f-2127-41d3-9806-bd085fa2a747
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Archivo JS JavaScript
+# Archivo JS de JavaScript
 
 Compruebe que la referencia al archivo .JS desde la página es correcta. Se puede especificar una ruta relativa al documento actual o se puede usar una ruta absoluta.
 
@@ -22,14 +22,14 @@ Compruebe que la referencia al archivo .JS desde la página es correcta. Se pued
 src="https://www.sampleco.com/javascript/includes/s_code.js"></script>
 ```
 
-If some pages of the site are loaded in a secure protocol (https:), and reference the [!DNL AppMeasurement] for JavaScript file, ensure that the reference to the file is either secure (via https:) or code the reference as shown below. En este ejemplo se usa el protocolo de la página actual y evita la advertencia "algunos elementos no son seguros".
+Si algunas páginas del sitio se cargan en un protocolo seguro (https:) y hacen referencia a [!DNL AppMeasurement] del archivo JavaScript, compruebe que la referencia al archivo sea segura (mediante https:) o codifique la referencia tal y como se indica a continuación. En este ejemplo se usa el protocolo de la página actual y evita la advertencia "algunos elementos no son seguros".
 
 ```js
 <script language="JavaScript" 
 src="//www.sampleco.com/javascript/includes/s_code.js"></script>
 ```
 
-Ensure that the [!DNL .JS] file on the web servers have permissions appropriately set so that the file may be downloaded and executed by website visitors. If a different [!DNL .JS] file is used on development servers, set the "read only" attribute for the [!DNL .JS] file on production servers to avoid an overwrite. If altered, ensure that the following settings are set appropriately at the top of the [!DNL .JS] file:
+Asegúrese de que el archivo [!DNL .JS] en los servidores web tenga correctamente configurados los permisos de manera que los visitantes del sitio web puedan descargar y ejecutar el archivo. Si se usa un archivo [!DNL .JS] diferente en los servidores de desarrollo, configure el atributo “solo lectura” para el archivo [!DNL .JS] en los servidores de producción para evitar sobrescribirlo. Si se modifica, asegúrese de que las siguientes opciones estén correctamente configuradas en la parte superior del archivo [!DNL .JS]:
 
 ```js
 /************************** CONFIG SECTION **************************/
@@ -45,6 +45,6 @@ s.linkTrackVars="None"
 s.linkTrackEvents="None"
 ```
 
-If " *`s_account`*" is assigned a value at the top of the [!DNL .JS] file, ensure that the report suite ID (populated in the [!UICONTROL s_account]variable) is correct. Also ensure that the code in the page is not setting the [!UICONTROL Report Suite ID] ( *`s_account`* variable).
+Si “*`s_account`*” tiene asignado un valor en la parte superior del archivo [!DNL .JS], asegúrese de que el ID del grupo de informes (que se rellena en la variable [!UICONTROL s_account]) sea correcto. Asegúrese también de que el código de la página no esté configurando el [!UICONTROL ID de grupo de informes] (variable *`s_account`*).
 
-Examine the image request and variables to ensure that the "fallback method" (the third part of the "split" code in the example above) is not creating the image request instead of the [!DNL .JS] file. Esto se puede determinar porque el método de "reserva" crea una solicitud de imagen con información mínima.
+Examine la solicitud de imagen y las variables para comprobar que el “método de reserva” (la tercera parte del código "dividido" del ejemplo anterior) no está creando la solicitud de imagen en lugar del archivo [!DNL .JS]. Esto se puede determinar porque el método de "reserva" crea una solicitud de imagen con información mínima.
