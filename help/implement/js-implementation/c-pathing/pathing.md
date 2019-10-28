@@ -6,8 +6,8 @@ seo-title: Información general sobre rutas
 solution: Analytics
 title: Información general sobre rutas
 topic: Desarrollador e implementación
-uuid: 18 acfd 9 f -4 e 5 f -4 c 2 d -8 be 8-743 be 135 e 7 d 6
-translation-type: tm+mt
+uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
+translation-type: ht
 source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 ---
@@ -23,6 +23,6 @@ Analytics proporciona control de rutas integrado en el nivel de página. La idea
 
 >[!NOTE]
 >
->To enable pathing, go to **[!UICONTROL Admin &gt; Report Suites &gt; Edit Settings &gt; Traffic &gt; Traffic Variables]**. Para habilitar el control de rutas en la sección del sitio y en los informes de servidor, póngase en contacto con el Servicio de atención al cliente.
+>Para habilitar el control de rutas, vaya a **[!UICONTROL Administración &gt; Grupos de informes &gt; Editar configuración &gt; Tráfico &gt; Variables de tráfico]**. Para habilitar el control de rutas en la sección del sitio y en los informes de servidor, póngase en contacto con el Servicio de atención al cliente.
 
-Explore more powerful pathing (flow) options in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
+Explore opciones de rutas (flujo) más poderosas en [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
