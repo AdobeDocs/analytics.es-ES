@@ -2,22 +2,22 @@
 description: Las tablas siguientes muestran la asignación de informes a variables, o los informes y las variables que contienen.
 keywords: Implementación de Analytics
 seo-description: Las tablas siguientes muestran la asignación de informes a variables, o los informes y las variables que contienen.
-seo-title: Informe a asignación de variables
+seo-title: Asignación de informes a variables
 solution: Analytics
-title: Informe a asignación de variables
+title: Asignación de informes a variables
 topic: Desarrollador e implementación
-uuid: 4707660 c -4 be 5-425 c-a 690-7 bc 6 df 4 cc 0 fa
-translation-type: tm+mt
+uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Informe a asignación de variables
+# Asignación de informes a variables
 
 Las tablas siguientes muestran la asignación de informes a variables, o los informes y las variables que contienen.
 
-**Informes de conversión** La siguiente tabla enumera las variables de conversión utilizadas para rellenar cada informe:
+**Conversión de informes** La tabla siguiente muestra las variables de conversión que se usan para rellenar cada informe:
 
 | Compras |
 |---|
@@ -52,8 +52,8 @@ Las tablas siguientes muestran la asignación de informes a variables, o los inf
 |---|
 | Conversiones y promedios | s.products, s.events, s.campaign |  |
 | Código de seguimiento | s.campaign |  |
-| Elementos creativos | N.D. | Defined in [!DNL Analytics] |
-| Campañas | N.D. | Defined in [!DNL Analytics] |
+| Elementos creativos | N.D. | Definido en [!DNL Analytics] |
+| Campañas | N.D. | Definido en [!DNL Analytics] |
 
 | Lealtad del cliente |
 |---|
@@ -63,7 +63,7 @@ Las tablas siguientes muestran la asignación de informes a variables, o los inf
 |---|
 | Días antes de la primera compra | s.products, s.events, s.purchaseID | Variables configuradas en la confirmación del pedido (Gracias) page |
 | Días desde la última compra | s.products, s.events, s.purchaseID | Variables configuradas en la confirmación del pedido (Gracias) page |
-| Número de visitas | s.products, s.events, s.purchaseID | Variables configuradas en la confirmación del pedido (Gracias) page |
+| Número de visita | s.products, s.events, s.purchaseID | Variables configuradas en la confirmación del pedido (Gracias) page |
 | Clientes únicos diarios | s.products, s.events, s.purchaseID | Variables configuradas en la confirmación del pedido (Gracias) page |
 | Clientes únicos mensuales | s.products, s.events, s.purchaseID | Variables configuradas en la confirmación del pedido (Gracias) page |
 | Clientes únicos anuales | s.products, s.events, s.purchaseID | Variables configuradas en la confirmación del pedido (Gracias) page |
@@ -87,7 +87,7 @@ Las tablas siguientes muestran la asignación de informes a variables, o los inf
 | Tecnología |
 |---|
 | Exploradores | N.D. | Configurado automáticamente por el archivo .JS |
-| Sistemas operativos | N.D. | Configurado automáticamente por el archivo .JS |
+| Sistema operativo | N.D. | Configurado automáticamente por el archivo .JS |
 | Resoluciones de monitor | N.D. | Configurado automáticamente por el archivo .JS |
 
 | Ruta del sitio |
@@ -163,7 +163,7 @@ La tabla siguiente muestra las variables de [!UICONTROL tráfico] que se usan pa
 | Dispositivos móviles | N.D. | Configurado automáticamente por el archivo .JS |
 | Ancho del explorador | N.D. | Configurado automáticamente por el archivo .JS |
 | Altura del explorador | N.D. | Configurado automáticamente por el archivo .JS |
-| Sistemas operativos | N.D. | Configurado automáticamente por el archivo .JS |
+| Sistema operativo | N.D. | Configurado automáticamente por el archivo .JS |
 | Profundidad del color del monitor | N.D. | Configurado automáticamente por el archivo .JS |
 | Resoluciones de monitor | N.D. | Configurado automáticamente por el archivo .JS |
 | Complementos de Netscape | N.D. | Configurado automáticamente por el archivo .JS |
@@ -180,7 +180,7 @@ La tabla siguiente muestra las variables de [!UICONTROL tráfico] que se usan pa
 | Secciones del sitio más populares | s.channel |  |
 | Servidores más populares | s.server |  |
 
-| Perspectiva personalizada |
+| Insight personalizada |
 |---|
 | Vínculos personalizados | s.linkName | Requiere una implementación personalizada |
 | Perspectiva personalizada 1 | s.prop1 |  |
@@ -204,7 +204,7 @@ La tabla siguiente muestra las variables de rutas que se usan para rellenar cada
 | Páginas más populares | s.pageName (u otra variable con ruta) | También depende de las reglas empresariales internas |
 | Recargas | s.pageName (u otra variable con ruta) | También depende de las reglas empresariales internas |
 | Clics hasta la página | s.pageName (u otra variable con ruta) | También depende de las reglas empresariales internas |
-| Tiempo empleado en la página | s.pageName (u otra variable con ruta) | También depende de las reglas empresariales internas |
+| Tiempo invertido en la página | s.pageName (u otra variable con ruta) | También depende de las reglas empresariales internas |
 | Páginas no encontradas | s.pageName (u otra variable con ruta) | También depende de las reglas empresariales internas |
 
 | Entradas y salidas |
