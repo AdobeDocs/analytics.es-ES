@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Resolución de problemas
 title: Errores comunes
 topic: Desarrollador e implementación
-uuid: 04345355-60 cc -4678-81 c 3-390 c 86752 df 1
-translation-type: tm+mt
+uuid: 04345355-60cc-4678-81c3-390c86752df1
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -32,7 +32,7 @@ En el caso anterior, defaultreportsuiteid siempre se usa después de que se haya
 
 ## Colocación del código {#section_05375CB2EF5A414794BC8209C906AEEB}
 
-Defining *`s_account`* after the lines of code does not override the dynamic account selection, as shown below.
+Definir *`s_account`* después de las líneas de código no invalida la selección de cuentas dinámicas, tal y como se muestra a continuación.
 
 ```js
 var s_account="defaultreportsuiteid" 
