@@ -2,18 +2,18 @@
 description: Las empresas usan Analytics para determinar el éxito de una campaña de correo electrónico.
 keywords: Implementación de Analytics
 seo-description: Las empresas usan Analytics para determinar el éxito de una campaña de correo electrónico.
-seo-title: Seguimiento externo de correo electrónico
+seo-title: Seguimiento de correo electrónico externo
 solution: Analytics
-title: Seguimiento externo de correo electrónico
+title: Seguimiento de correo electrónico externo
 topic: Desarrollador e implementación
-uuid: fa 450 f 45-14 cf -4 d 0 d-a 87 c -14 a 946512 a 9 b
-translation-type: tm+mt
+uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Seguimiento externo de correo electrónico
+# Seguimiento de correo electrónico externo
 
 Las empresas usan Analytics para determinar el éxito de una campaña de correo electrónico.
 
@@ -60,9 +60,9 @@ Hay que seguir varios pasos en orden para mostrar correctamente los datos de an�
 
    Modificar el código en el archivo JavaScript, [!DNL s_code.js], permite capturar cuántos usuarios (y cuáles) pulsaron desde el correo electrónico y participaron en los posteriores eventos de éxito. Para actualizar la biblioteca JavaScript hay que seguir dos pasos.
 
-   1. Customize [!DNL s_code.js] by calling [!UICONTROL getQueryParam].
+   1. Personalizar [!DNL s_code.js] mediante una llamada a [!UICONTROL getQueryParam].
 
-      El archivo [!DNL s_code.js] debe colocarse en una ubicación del servidor web en la que todas las páginas web tengan acceso a él. The *`doPlugins`* function within this file should be altered so it captures the query string parameters on the email links. Por ejemplo:
+      El archivo [!DNL s_code.js] debe colocarse en una ubicación del servidor web en la que todas las páginas web tengan acceso a él. La función *`doPlugins`* en este archivo debe modificarse para que capture los parámetros de cadena de consulta en los vínculos de correo electrónico. Por ejemplo:
 
       ```js
       /* Plugin Config */ 
@@ -75,7 +75,7 @@ Hay que seguir varios pasos en orden para mostrar correctamente los datos de an�
       s.doPlugins=s_doPlugins 
       ```
 
-      Cada parámetro de cadena de consulta que debe copiarse a una variable debe tener una llamada a [!UICONTROL getQueryParam]. En el ejemplo anterior, el parámetro de cadena de consulta [!UICONTROL sc_cid] se copia en  *`campaign`*.
+      Cada parámetro de cadena de consulta que debe copiarse a una variable debe tener una llamada a [!UICONTROL getQueryParam]. En el ejemplo anterior, el parámetro de cadena de consulta [!UICONTROL sc_cid] se copia en *`campaign`*.
 
       Solo se necesita la primera llamada a [!UICONTROL getQueryParam] para capturar las pulsaciones. Póngase en contacto con Adobe [!DNL Customer Care] para implementar esta función y asegurarse de que su versión del archivo JavaScript contiene el complemento [!UICONTROL getQueryParam].
 
@@ -84,7 +84,7 @@ Hay que seguir varios pasos en orden para mostrar correctamente los datos de an�
       Es importante recordar algunos puntos a la hora de actualizar la biblioteca JavaScript. Son:
 
       * El parámetro de cadena de consulta [!UICONTROL sc_cid] debe ser visible en la dirección URL de la página de aterrizaje final o, de lo contrario, no se registrará ninguna conversión por pulsación.
-      * El parámetro [!UICONTROL sc_cid] es un ejemplo de parámetro de cadena de consulta. El complemento [!UICONTROL getQueryParam] puede usar y capturar cualquier parámetro de cadena de consulta. Asegúrese de que los parámetros de cadena de consulta solo se usan para el seguimiento de campañas. Cada vez que los parámetros aparecen en una cadena de consulta, su valor se copia en  *`campaign`*.
+      * El parámetro [!UICONTROL sc_cid] es un ejemplo de parámetro de cadena de consulta. El complemento [!UICONTROL getQueryParam] puede usar y capturar cualquier parámetro de cadena de consulta. Asegúrese de que los parámetros de cadena de consulta solo se usan para el seguimiento de campañas. Cada vez que los parámetros aparecen en una cadena de consulta, su valor se copia en *`campaign`*.
 
 1. Use [!UICONTROL SAINT] para clasificar los códigos de seguimiento de campaña.
 
