@@ -6,8 +6,8 @@ seo-title: Identificación de dispositivos móviles
 solution: Analytics
 title: Identificación de dispositivos móviles
 topic: Desarrollador e implementación
-uuid: 22587 dd 1-cead -485 b-a 4 d 8-94 dfb 7 cd 9662
-translation-type: tm+mt
+uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
+translation-type: ht
 source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ---
@@ -19,7 +19,7 @@ La mayoría de los dispositivos móviles aceptan cookies del explorador. Sin emb
 
 Adobe ha identificado varios [encabezados de ID de suscriptor](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) HTTP que identifican de forma única a la mayoría de dispositivos móviles. Estos encabezados suelen incluir el número de teléfono del dispositivo (o una versión con hash) u otros identificadores. La mayoría de los dispositivos actuales cuentan con uno o varios encabezados que los identifican de forma exclusiva y que todos los servidores de recopilación de datos de Adobe usan de forma automática como ID de visitante.
 
-In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). Sin embargo, si el dispositivo se reconoce como un dispositivo móvil basado en encabezados HTTP, se pasa un "5" en lugar del "1", lo que indica que se debe devolver una imagen con formato wbmp, así como que se debe usar nuestra lista de encabezados inalámbricos reconocidos (y no una cookie) para identificar el dispositivo.
+En una solicitud de imagen habitual, un “1” en la ruta (`/b/ss/rsid/1`) hace que los servidores de Adobe devuelvan una imagen e intenten configurar una cookie de [!UICONTROL ID de visitante] persistente (`AMCV_` o `s_vi`). Sin embargo, si el dispositivo se reconoce como un dispositivo móvil basado en encabezados HTTP, se pasa un "5" en lugar del "1", lo que indica que se debe devolver una imagen con formato wbmp, así como que se debe usar nuestra lista de encabezados inalámbricos reconocidos (y no una cookie) para identificar el dispositivo.
 
 La tabla siguiente muestra el orden de los métodos de ID usados según el valor de tipo de imagen devuelto ("1" o "5") en la ruta:
 
