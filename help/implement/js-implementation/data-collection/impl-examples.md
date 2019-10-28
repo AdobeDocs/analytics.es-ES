@@ -6,8 +6,8 @@ seo-title: Ejemplo de implementación
 solution: Analytics
 title: Ejemplo de implementación
 topic: Desarrollador e implementación
-uuid: 17 d 8 d 2 b 2-2303-495 a-b 0 f 9-d 8 d 3 c 05 f 3893
-translation-type: tm+mt
+uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
