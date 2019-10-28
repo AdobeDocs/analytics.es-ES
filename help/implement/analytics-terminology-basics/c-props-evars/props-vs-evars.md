@@ -1,13 +1,13 @@
 ---
 description: En Experience Cloud hay varios tipos de variables disponibles. Los dos tipos más populares, props y eVars, permiten a la organización obtener informes sobre dimensiones personalizadas del sitio que los informes predeterminados estándar no ofrecen.
-keywords: Implementación de Analytics; prop; evar; props vs evars; convención de nombre; variables de tráfico; persistencia; evento de éxito; rutas
+keywords: Implementación de Analytics, prop, evar, props y evars, nomenclatura, variables de tráfico, persistencia, evento de éxito, control de rutas
 seo-description: En Experience Cloud hay varios tipos de variables disponibles. Los dos tipos más populares, props y eVars, permiten a la organización obtener informes sobre dimensiones personalizadas del sitio que los informes predeterminados estándar no ofrecen.
 seo-title: Comparación de props y eVars
 solution: Analytics
 title: Comparación de props y eVars
 topic: Desarrollador e implementación
-uuid: 0 f 02760 f-ff 69-481 c-a 817-799 f 02 dafe 8 e
-translation-type: tm+mt
+uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 En Experience Cloud hay varios tipos de variables disponibles. Los dos tipos más populares, props y eVars, permiten a la organización obtener informes sobre dimensiones personalizadas del sitio que los informes predeterminados estándar no ofrecen.
 
-Para determinar qué variables se asignan y dónde, es importante conocer las diferencias entre la funcionalidad prop y eVar. Entender estas diferencias permite a la organización decidir qué tipo de variable es mejor utilizar. 
+Para determinar qué variables se asignan y dónde, es importante conocer las diferencias entre la funcionalidad prop y eVar. Entender estas diferencias permite a la organización decidir qué tipo de variable es mejor utilizar.
 
 **Props vs. eVars**
 
@@ -49,7 +49,7 @@ A continuación se indican las principales diferencias entre props y eVars:
    <td colname="col3"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Tasa de salida hacia otro sitio </p> </td> 
+   <td colname="col1"> <p>Tasa de devoluciones </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_A268EAF747EA45F8A6A93A1B66667A06" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_09D486144CEA4293A505DCA3F90B82EC" /> </p> </td> 
   </tr> 
@@ -140,7 +140,7 @@ Con el lanzamiento de la versión 15, las funciones de Props y eVars han reducid
 Las Props tienen un par de ventajas con respecto a las eVars, algunas de las cuales pueden eludirse:
 
 * Los datos de Prop se recopilan y están disponibles para los informes de forma casi instantánea. Las eVars pueden necesitar hasta más de 30 minutos para aparecer en los datos de un grupo de informes.
-* Todas las Props pueden tener informes como diagramas de flujo activados, lo cual le permite ver la ruta que toman los visitantes en su sitio. These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis].
+* Todas las Props pueden tener informes como diagramas de flujo activados, lo cual le permite ver la ruta que toman los visitantes en su sitio. Estos informes de flujo de ruta están disponibles tanto para Props como para eVars en [!UICONTROL Ad Hoc Analysis].
 * Las Props pueden correlacionarse en varios niveles, mientras que las eVars solo pueden subrelacionarse una vez. Esta limitación puede mitigarse mediante el uso de la segmentación, que proporciona los mismos datos que las correlaciones.
 * Las métricas de participación le permiten ver qué valores de propiedad han participado antes del evento de éxito.
 
@@ -159,5 +159,5 @@ Las métricas de ruta, como el tiempo total empleado, las entradas y las salidas
 
 >[!TIP]
 >
->Si no desea que se mantenga una evar, puede cambiar su caducidad a'visita'para que no mantenga ningún dato más allá de la visita.
+>Si no desea que una eVar sea persistente, puede cambiar su caducidad a “hit” para que no conserve ningún dato más allá de la visita.
 
