@@ -1,19 +1,19 @@
 ---
 description: El código de seguimiento móvil se coloca en la página en forma de etiqueta de imagen generada por el servidor.
-keywords: Implementación de Analytics; seguimiento móvil; protocolos móviles; evitar caché; alt tag; tipo de imagen predeterminado
+keywords: Implementación de Analytics, seguimiento móvil, protocolos móviles, evitar el almacenamiento en caché, etiqueta alt, tipo de imagen predeterminado
 seo-description: El código de seguimiento móvil se coloca en la página en forma de etiqueta de imagen generada por el servidor.
-seo-title: Etiquetado de páginas para protocolos móviles
+seo-title: Etiquetado de páginas para los protocolos móviles
 solution: Analytics
-title: Etiquetado de páginas para protocolos móviles
+title: Etiquetado de páginas para los protocolos móviles
 topic: Desarrollador e implementación
-uuid: 5788 beaf-f 309-4918-a 99 c-a 3 e 591668205
-translation-type: tm+mt
+uuid: 5788beaf-f309-4918-a99c-a3e591668205
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Etiquetado de páginas para protocolos móviles
+# Etiquetado de páginas para los protocolos móviles
 
 El código de seguimiento móvil se coloca en la página en forma de etiqueta de imagen generada por el servidor.
 
@@ -48,8 +48,8 @@ Es importante que /5/ aparezca siempre correctamente en la ruta. Los servidores 
 Si el tipo de imagen predeterminado no se admite en un dispositivo particular, no se devuelve ningún dato. Para evitarlo, puede forzar el servidor de recopilación de datos de Adobe para que devuelva un tipo de gráfico particular que el dispositivo móvil sí admita. El código que sigue al nombre del grupo de informes especifica el tipo de imagen:
 
 * `/5/` devuelve el tipo de imagen predeterminado.
-* `/5.1/` o `/1/` siempre devuelve una imagen GIF.
+* `/5.1/` o `/1/` siempre devuelven una imagen GIF.
 
 * `/5.5/` siempre devuelve una imagen WBMP.
 
-See [Identifying Visitors using Mobile Protocols](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
+Consulte [Identificación de visitantes con protocolos móviles](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49).
