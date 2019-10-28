@@ -2,27 +2,27 @@
 description: La función doPlugins generalmente llama a los complementos JavaScript, que se ejecutan cuando se llama a la función t() en el código para pegar.
 keywords: Implementación de Analytics
 seo-description: La función doPlugins generalmente llama a los complementos JavaScript, que se ejecutan cuando se llama a la función t() en el código para pegar.
-seo-title: Llamada de complementos con la función doplugins
+seo-title: Llamadas a complementos con la función doPlugins
 solution: Analytics
 subtopic: Complementos
-title: Llamada de complementos con la función doplugins
+title: Llamadas a complementos con la función doPlugins
 topic: Desarrollador e implementación
-uuid: 95 dd 01 de -8136-4 ec 9-aac 9-4 a 3 d 5371 b 839
-translation-type: tm+mt
+uuid: 95dd01de-8136-4ec9-aac9-4a3d5371b839
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
 
 
-# Llamada de complementos con la función doplugins
+# Llamadas a complementos con la función doPlugins
 
 La función doPlugins generalmente llama a los complementos JavaScript, que se ejecutan cuando se llama a la función t() en el código para pegar.
 
-Consequently, if you set a variable in the *`doPlugins`* function, you can overwrite a variable you set on the HTML page. The only time the *`doPlugins`* function is not called is when the [!UICONTROL usePlugins] variable is set to 'false.'
+En consecuencia, si configura una variable en la función *`doPlugins`*, puede sobrescribir una variable configurada en la página HTML. La única vez que no se llama a la función *`doPlugins`* es cuando la variable [!UICONTROL usePlugins] está configurada con el valor “False”.
 
 ## Código de ejemplo {#section_6940FD16F2E94753A1C39694D0CF5FBA}
 
-The code example below is what the *`doPlugins`* function looks like in your JavaScript file:
+El siguiente ejemplo de código muestra el aspecto de la función *`doPlugins`* en el archivo JavaScript:
 
 AppMeasurement para JavaScript:
 
@@ -47,11 +47,11 @@ s.doPlugins=s_doPlugins
 
 >[!NOTE]
 >
->El código H y las versiones anteriores utilizan una sintaxis diferente para admitir algunos exploradores muy antiguos (como IE 4 y 5).
+>El código H y las versiones anteriores usan una sintaxis diferente para admitir algunos exploradores muy antiguos (como IE 4 y 5).
 
-## Renaming the doPlugins Function {#section_70B7D58E057B48058E25907AB3726725}
+## Cambio del nombre de la función doPlugins {#section_70B7D58E057B48058E25907AB3726725}
 
-The *`doPlugins`* function is typically called *`s_doPlugins`*. In certain circumstances, (usually when more than one version of code may appear on a single page) the *`doPlugins`* function name may be changed. If the standard *`doPlugins`* function needs to be renamed to avoid conflicts, ensure that *`doPlugins`* is assigned the correct function name, as shown in the example below.
+La función *`doPlugins`* generalmente se llama *`s_doPlugins`*. En algunas circunstancias (normalmente cuando puede aparecer más de una versión de código en una sola página), se puede cambiar el nombre de la función *`doPlugins`*. Si fuera necesario cambiar el nombre de la función *`doPlugins`* estándar para evitar conflictos, compruebe que se asigna el nombre de función correcto a *`doPlugins`*, tal como se muestra en el ejemplo siguiente.
 
 ```js
 /* Plugin Config */ 
@@ -64,7 +64,7 @@ s_mc.doPlugins=s_mc_doPlugins
 
 ## Uso de doPlugins {#section_FA5D901CC5214D54BCD08AB77BED7925}
 
-The *`doPlugins`* function provides an easy way to give default values to variables or to take values from [!UICONTROL query string parameters] on any page of the site. Using *`doPlugins`* is often easier than populating the values in the HTML page because only one file must be updated. Recuerde que los cambios en el archivo JavaScript no siempre son inmediatos. A menudo, los visitantes de retorno al sitio utilizan versiones almacenadas en caché del archivo JavaScript. Esto significa que puede que las actualizaciones que se hagan en el archivo no se apliquen a todos los visitantes hasta un mes después de realizar el cambio.
+La función *`doPlugins`* es una manera fácil de proporcionar valores predeterminados a las variables o de tomar valores de los [!UICONTROL parámetros de cadena de consulta] en cualquier página del sitio. Usar *`doPlugins`* es más fácil que rellenar los valores en la página HTML porque solo es necesario actualizar un archivo. Recuerde que los cambios en el archivo JavaScript no siempre son inmediatos. A menudo, los visitantes de retorno al sitio utilizan versiones almacenadas en caché del archivo JavaScript. Esto significa que puede que las actualizaciones que se hagan en el archivo no se apliquen a todos los visitantes hasta un mes después de realizar el cambio.
 
 El ejemplo siguiente muestra cómo se puede usar la función *`doPlugins`* para configurar un valor predeterminado para una variable y para obtener un valor de la cadena de consulta.
 
