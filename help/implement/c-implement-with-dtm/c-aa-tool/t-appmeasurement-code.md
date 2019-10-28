@@ -1,12 +1,12 @@
 ---
 description: Introduzca el código AppMeasurement si implementa de forma manual Dynamic Tag Management en Adobe Analytics.
-keywords: Administración dinámica de etiquetas;cuentas vinculadas;vinculación de cuentas;editar código;appmeasurement;código de medición de aplicaciones
+keywords: Dynamic Tag Management;cuentas vinculadas;vinculación de cuentas;editar código;appmeasurement;código de appmeasurement
 seo-description: Introduzca el código AppMeasurement si implementa de forma manual Dynamic Tag Management en Adobe Analytics.
 seo-title: Inserción del código principal de AppMeasurement
-solution: Experience Cloud,Analytics,Target,Administración dinámica de etiquetas
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Inserción del código principal de AppMeasurement
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -16,12 +16,12 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Introduzca el código AppMeasurement si implementa de forma manual Dynamic Tag Management en Adobe Analytics.
 
-1. En la página de herramientas de [!DNL Adobe Analytics], expanda la sección **General** y, a continuación, haga clic en **[!UICONTROL Abrir editor]**.
-1. Unzip the [!DNL AppMeasurement_JavaScript*.zip] file you downloaded in [deploy Adobe Analytics](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E).
+1. En la página de herramientas de [!DNL Adobe Analytics], expanda la sección **[!UICONTROL General]** y, a continuación, haga clic en **[!UICONTROL Abrir editor]**.
+1. Descomprima el archivo [!DNL AppMeasurement_JavaScript*.zip] que descargó en [implementar Adobe Analytics](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E).
 
    Si opta por una biblioteca personalizada, al abrir la ventana ya incluirá la versión de código más reciente. No es necesario descargar el zip desde Admin Console.
-1. Open [!DNL AppMeasurement.js] in a text editor.
-1. Copy and paste the contents into the **[!UICONTROL Edit Code]** window.
+1. Abra [!DNL AppMeasurement.js] en un editor de texto.
+1. Copie y pegue el contenido en la ventana **[!UICONTROL Editar código.]**.
 
    ![](assets/edit-code.png)
 
@@ -34,9 +34,9 @@ Introduzca el código AppMeasurement si implementa de forma manual Dynamic Tag M
 
    >[!IMPORTANT]
    >
-   >If you add this code, it is recommended that you also select the **[!UICONTROL Set report suites using custom code below]** checkbox in the overall library settings.
+   >Si agrega este código, es recomendable seleccionar también la casilla de verificación **[!UICONTROL Definir grupos de informes con el siguiente código personalizado]** en la configuración general de la biblioteca.
 
-1. Click **[!UICONTROL Save and Close]**.
+1. Haga clic en **[!UICONTROL Guardar y cerrar]**.
 
-   Si está utilizando el módulo de medio, el módulo integrado o complementos de integración, también puede copiarlos en la sección de código. El código gestionado en Dynamic Tag Manager puede configurarse exactamente igual que el archivo JavaScript en una implementación típica.
+   Si está utilizando el módulo de medio, el módulo integrado o complementos de integración, también puede copiarlos en la sección de código. El código gestionado en Dynamic Tag Management puede configurarse exactamente igual que el archivo JavaScript en una implementación típica.
 
