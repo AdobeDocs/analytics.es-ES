@@ -2,18 +2,18 @@
 description: La serialización de eventos es el proceso de implementación de medidas para evitar que los informes de Analytics incluyan eventos duplicados. Esto se suele producir cuando un usuario actualiza la página varias veces, va a una determinada página varias veces o guarda la página web en su equipo (por ejemplo, si un cliente guarda una página de confirmación de compra en su equipo, cada vez que la consultase, los pedidos y los ingresos se volverían a contar si no se aplicara la serialización de eventos).
 keywords: Implementación de Analytics
 seo-description: La serialización de eventos es el proceso de implementación de medidas para evitar que los informes de Analytics incluyan eventos duplicados. Esto se suele producir cuando un usuario actualiza la página varias veces, va a una determinada página varias veces o guarda la página web en su equipo (por ejemplo, si un cliente guarda una página de confirmación de compra en su equipo, cada vez que la consultase, los pedidos y los ingresos se volverían a contar si no se aplicara la serialización de eventos).
-seo-title: Información general sobre la serialización de eventos
+seo-title: Resumen de la serialización de eventos
 solution: Analytics
-title: Información general sobre la serialización de eventos
+title: Resumen de la serialización de eventos
 topic: Desarrollador e implementación
-uuid: 8 c 7883 bb -5 ba 4-4440-af 80-c 0 d 15867570 c
-translation-type: tm+mt
+uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Información general sobre la serialización de eventos
+# Resumen de la serialización de eventos
 
 La serialización de eventos es el proceso de implementación de medidas para evitar que los informes de Analytics incluyan eventos duplicados. Esto se suele producir cuando un usuario actualiza la página varias veces, va a una determinada página varias veces o guarda la página web en su equipo (por ejemplo, si un cliente guarda una página de confirmación de compra en su equipo, cada vez que la consultase, los pedidos y los ingresos se volverían a contar si no se aplicara la serialización de eventos).
 
@@ -24,9 +24,9 @@ La [!UICONTROL serialización de eventos] resulta útil en los siguientes casos:
 
 >[!NOTE]
 >
->Las fuentes de datos no admiten la serialización de eventos ni la anulación de duplicación.
+>Las fuentes de datos no son compatibles con la serialización de eventos ni la deduplicación.
 
-Este documento describe el proceso utilizado en la implementación de la [!UICONTROL serialización de eventos] para los eventos [!UICONTROL conversion] y [!UICONTROL custom]. To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . A continuación, seleccione qué eventos desea registrar en la columna [!UICONTROL Grabación de eventos únicos].
+Este documento describe el proceso utilizado en la implementación de la [!UICONTROL serialización de eventos] para los eventos [!UICONTROL conversion] y [!UICONTROL custom]. Para utilizar la [!UICONTROL serialización de eventos], primero debe activarla en **[!UICONTROL Administrador]** &gt; **[!UICONTROL Grupo de informes]** &gt; **[!UICONTROL [Seleccionar grupo de informes]]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Eventos de éxito]**. A continuación, seleccione qué eventos desea registrar en la columna [!UICONTROL Grabación de eventos únicos].
 
 ## Comportamiento predeterminado {#section_892BB2BEFC434B69869D4504A8B54308}
 
@@ -38,7 +38,7 @@ event_serialization_impl.xml
 
  -->
 
-To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . A continuación, seleccione qué eventos desea registrar en la columna [!UICONTROL Grabación de eventos únicos]. Hay tres valores distintos con los que se puede configurar un evento.
+Para utilizar la [!UICONTROL serialización de eventos], primero debe activarla en **[!UICONTROL Administrador]** &gt; **[!UICONTROL Grupo de informes]** &gt; **[!UICONTROL [Seleccionar grupo de informes]]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Eventos de éxito]**. A continuación, seleccione qué eventos desea registrar en la columna [!UICONTROL Grabación de eventos únicos]. Hay tres valores distintos con los que se puede configurar un evento.
 
 **Registrar siempre el evento**: este es el comportamiento predeterminado de todos los eventos cuando se activan por primera vez. Todos los eventos incluidos en las solicitudes de imagen se enviarán directamente a Analytics, incluidas las recargas de páginas.
 
@@ -81,4 +81,4 @@ Al seleccionar las ID de serialización, tenga en cuenta lo siguiente:
 
 [!DNL Analytics] ofrece una función que permite activar un evento solo una vez por visita.
 
-This can be enabled from the UI:  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]** .
+Puede activarse desde la interfaz de usuario: **[!UICONTROL Administrador]** &gt; **[!UICONTROL Grupo de informes]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Conversión]** &gt; **[!UICONTROL Eventos de éxito]**.
