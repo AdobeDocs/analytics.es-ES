@@ -2,19 +2,19 @@
 description: En HTML, hay varios caracteres que crean un espacio en blanco.
 keywords: Implementación de Analytics
 seo-description: En HTML, hay varios caracteres que crean un espacio en blanco.
-seo-title: Uso de espacio en blanco en valores de variable
+seo-title: Uso de espacios en blanco en valores de variable
 solution: Analytics
 subtopic: Resolución de problemas
-title: Uso de espacio en blanco en valores de variable
+title: Uso de espacios en blanco en valores de variable
 topic: Desarrollador e implementación
-uuid: 1 edd 7934-9 b 3 e -43 e 2-9 f 24-65 f 42 cb 306 e 2
-translation-type: tm+mt
+uuid: 1edd7934-9b3e-43e2-9f24-65f42cb306e2
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Uso de espacio en blanco en valores de variable
+# Uso de espacios en blanco en valores de variable
 
 En HTML, hay varios caracteres que crean un espacio en blanco.
 
