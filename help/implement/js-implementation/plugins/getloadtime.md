@@ -6,8 +6,8 @@ seo-title: getLoadTime
 solution: Analytics
 title: getLoadTime
 topic: Desarrollador e implementación
-uuid: 5 d 26 a 69 b-cbde -4 be 1-bac 1-5 ee 8 a 4 e 55 ca 3
-translation-type: tm+mt
+uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ Para usar este complemento, inserte el código de la función y llame a la funci
 
 >[!NOTE]
 >
->Las instrucciones siguientes requieren modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+>Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación y código de complemento {#section_968AC379C3004C359A85AFED5A48D5AE}
 
@@ -35,11 +35,11 @@ function s_getLoadTime(){if(!window.s_loadT){var b=new Date().getTime(),o=window
 
 **Realización de la llamada a la función inicial**
 
-Add a call to `s_getLoadTime()` near the beginning of [!DNL s_code.js], outside of any function.
+Agregue una llamada a `s_getLoadTime()` próxima al principio de [!DNL s_code.js], fuera de cualquier función.
 
 **Realización de la llamada a la función final**
 
-Add another call to `s_getLoadTime()` in the `s_doPlugins()` function, saving the returned value in a prop, eVar, and/or a numeric event.
+Agregue otra llamada a `s_getLoadTime()` en la función `s_doPlugins()` y guarde el valor devuelto en una prop, una eVar o un evento numérico.
 
 Ejemplo de uso 1 - Guardar el tiempo de carga de la página en prop10 y eVar20:
 
