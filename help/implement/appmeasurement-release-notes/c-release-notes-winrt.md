@@ -7,7 +7,7 @@ subtopic: Notas de la versión
 title: WinRT para Windows 8
 topic: Desarrollador e implementación
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->Para encontrar la versión actual de la biblioteca, active el registro de depuración.
+>Para saber la versión de la biblioteca actual, active los registros de depuración.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+La biblioteca móvil [Descargas](https://marketing.adobe.com/developer/es/get-started/mobile/c-measuring-mobile-applications) está disponible en [!DNL Developer Connection].
 
 >[!NOTE]
 >
->The [!DNL WinRT] for [!DNL Windows] 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK. Este SDK no se va a desarrollar más.
+>[!DNL WinRT] para el SDK 8 de [!DNL Windows] se ha sustituido con el SDK de [Universal App Store para Windows 8.1](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E). Este SDK no se va a desarrollar más.
 
 ## Versión 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
@@ -41,7 +41,7 @@ Correcciones de errores y mejoras de rendimiento.
 
 Fecha de versión: **17 de octubre de 2013**
 
-* [!DNL Windows] Compatibilidad con 8.1
+* [!DNL Windows]Compatibilidad con 8.1
 
 ## Versión 3.0.5 {#section_8F163FF1E88142F180091A88C9FD9D12}
 
@@ -69,14 +69,14 @@ Fecha de versión: **21 de febrero de 2013**
 Fecha de versión: **noviembre de 2012**
 
 * La resolución de pantalla ahora se recopila con precisión para plataformas C#, C++ y HTML5/WinJS.
-* `ADMS_Churn` la clase ahora es interna. Para realizar prácticas recomendadas en el seguimiento del ciclo de vida de la aplicación, utilice las siguientes llamadas:
+* La clase `ADMS_Churn` es ahora interna. Para realizar prácticas recomendadas en el seguimiento del ciclo de vida de la aplicación, utilice las siguientes llamadas:
 
    ```
    public void ADMS_Measurement.StartSession(); 
    public void ADMS_Measurement.StopSession();
    ```
 
-* Added `public double maxSessionLength` variable to `ADMS_Measurement` to allow you to set a maximum session length for the previous user session. Si la longitud de sesión registrada supera el máximo, se enviará la duración máxima de sesión. Default `maxSessionLength` is 3600 (seconds).
+* Se ha agregado la variable `public double maxSessionLength` a `ADMS_Measurement` para permitirle establecer una duración máxima de sesión para la sesión del usuario anterior. Si la longitud de sesión registrada supera el máximo, se enviará la duración máxima de sesión. El valor predeterminado de `maxSessionLength` es 3600 (segundos).
 * Se ha agregado una variable de configuración de `lifecycleSessionTimeout` que le permite especificar el tiempo, en segundos, que debe pasar entre inicios de la aplicación antes de que el inicio se considere una nueva sesión.
 * Se ha agregado una métrica nueva de longitud de la sesión anterior a las métricas del ciclo vital.
 * Se ha actualizado TrackingHelper para una mayor claridad.
@@ -84,6 +84,6 @@ Fecha de versión: **noviembre de 2012**
 
 ## Versión 3.0.1 {#section_EA2E5F8550C348BDB948A9236BD35619}
 
-**de octubre de 2012**
+**octubre de 2012**
 
 Versión inicial.
