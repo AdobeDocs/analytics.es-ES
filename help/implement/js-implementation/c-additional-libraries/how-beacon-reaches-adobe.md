@@ -1,19 +1,19 @@
 ---
 description: Cuando un dispositivo móvil solicita una página de un servidor web, la solicitud se envía a través de una puerta de enlace que convierte la solicitud móvil (normalmente en el protocolo WAP o I-Mode) en una solicitud HTTP que se envía a un servidor web.
-keywords: Implementación de Analytics; gateway; wap; i-mode; wbmp
+keywords: Implementación de Analytics, puerta de enlace, wap, i-mode, wbmp
 seo-description: Cuando un dispositivo móvil solicita una página de un servidor web, la solicitud se envía a través de una puerta de enlace que convierte la solicitud móvil (normalmente en el protocolo WAP o I-Mode) en una solicitud HTTP que se envía a un servidor web.
-seo-title: Puerta de enlace de red de protocolo móvil
+seo-title: Puerta de enlace de red con protocolo móvil
 solution: Analytics
-title: Puerta de enlace de red de protocolo móvil
+title: Puerta de enlace de red con protocolo móvil
 topic: Desarrollador e implementación
-uuid: a 2 c 92 ce 2-53 a 9-4 b 5 b-be 1 a -89 d 9 f 1 bf 776 f f
-translation-type: tm+mt
+uuid: a2c92ce2-53a9-4b5b-be1a-89d9f1bf776f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Puerta de enlace de red de protocolo móvil
+# Puerta de enlace de red con protocolo móvil
 
 Cuando un dispositivo móvil solicita una página de un servidor web, la solicitud se envía a través de una puerta de enlace que convierte la solicitud móvil (normalmente en el protocolo WAP o I-Mode) en una solicitud HTTP que se envía a un servidor web.
 
