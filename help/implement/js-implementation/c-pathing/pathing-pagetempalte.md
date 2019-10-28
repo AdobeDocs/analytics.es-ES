@@ -2,18 +2,18 @@
 description: Si su sitio tiene tipos de página o plantillas de página, puede usar el control de rutas para comprender cómo cambian de un tipo a otro.
 keywords: Implementación de Analytics
 seo-description: Si su sitio tiene tipos de página o plantillas de página, puede usar el control de rutas para comprender cómo cambian de un tipo a otro.
-seo-title: Pasar de plantilla de página a plantilla de página
+seo-title: Cambio de una plantilla de página a otra
 solution: Analytics
-title: Pasar de plantilla de página a plantilla de página
+title: Cambio de una plantilla de página a otra
 topic: Desarrollador e implementación
-uuid: 8 c 446290-1 ea 8-4 e 0 a-a 973-685 b 700585 d 3
-translation-type: tm+mt
+uuid: 8c446290-1ea8-4e0a-a973-685b700585d3
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Pasar de plantilla de página a plantilla de página
+# Cambio de una plantilla de página a otra
 
 Si su sitio tiene tipos de página o plantillas de página, puede usar el control de rutas para comprender cómo cambian de un tipo a otro.
 
