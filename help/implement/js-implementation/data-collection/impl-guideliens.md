@@ -6,8 +6,8 @@ seo-title: Directrices de implementación
 solution: Analytics
 title: Directrices de implementación
 topic: Desarrollador e implementación
-uuid: 2917 f 4 af -19 bd -4666-ae 4 b -056 e 7 e 33 f 642
-translation-type: tm+mt
+uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
@@ -19,7 +19,7 @@ Al seguir estas directrices se usan los mismos dominios de cookies, lo que permi
 
 * **RSID:** [!UICONTROL ID del grupo de informes]
 * **VNS:** Espacio de nombres de visitantes, subdominio de [!DNL 2o7.net] o [!DNL omtrdc.net] usado para almacenar la cookie de [!UICONTROL ID de visitante]
-* **COOKIEDOMAIN:** Su VNS + trackingServer. En función de la configuración RDC y del centro de datos, estas pueden variar considerablemente. [Póngase en contacto con el Servicio](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) de atención al cliente si no está seguro de su dominio de recopilación de datos.
+* **COOKIEDOMAIN:** Su VNS + trackingServer. En función de la configuración RDC y del centro de datos, estas pueden variar considerablemente. [Póngase en contacto con el servicio de Atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html#analytics) si no conoce su dominio de recopilación de datos.
 
 ## Javascript
 
