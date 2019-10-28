@@ -1,9 +1,9 @@
 ---
 title: Tráfico interno
-description: El complemento Internal Traffic identifica de forma dinámica a los visitantes que proceden de una red interna.
-seo-description: Complemento interno de tráfico
-seo-title: Complemento interno de tráfico
-translation-type: tm+mt
+description: El complemento Tráfico interno identifica dinámicamente a los visitantes que provienen de una red interna.
+seo-description: Complemento de tráfico interno
+seo-title: Complemento de tráfico interno
+translation-type: ht
 source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 ---
@@ -11,32 +11,32 @@ source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 # Tráfico interno
 
-El complemento Internal Traffic identifica de forma dinámica a los visitantes que proceden de una red interna.
+El complemento Tráfico interno identifica dinámicamente a los visitantes que provienen de una red interna.
 
-La identificación del tráfico interno y externo promueve una mayor precisión en todos los tipos de informes, ya que proporciona un mecanismo que filtra y segmenta los datos que se están recopilando. Se implementó correctamente, también se eliminaría la necesidad de una regla de VISTA o de una regla de procesamiento que son enfoques típicos para identificar dicho tráfico.
+La identificación del tráfico interno y externo promueve una mayor precisión en todos los tipos de informes, al proporcionar un mecanismo que filtra y segmenta los datos que se recopilan. Si se implementa correctamente, también se eliminaría la necesidad de una regla de VISTA o de una regla de procesamiento que sean enfoques típicos para identificar dicho tráfico.
 
-## ¿Cómo funciona el complemento de tráfico interno?
+## ¿Cómo funciona el complemento Tráfico interno?
 
-El complemento intenta cargar un archivo que solo estaría disponible en su red interna/intranet, es decir, un píxel transparente de 1 x 1. Si se carga correctamente, el tráfico para ese visitante será identificado como interno. Todo lo demás sería tráfico externo.
+El complemento intenta cargar un archivo que solo estaría disponible en la red interna/intranet, es decir, un píxel transparente 1x1. Si se carga correctamente, el tráfico de ese visitante se identificará como interno. Cualquier otra cosa sería tráfico externo.
 
 ## Consideraciones
 
-* La única desventaja en este método es que se muestra un error 404 en la consola del explorador para visitantes externos en la primera página de su visita. Esto no afectará a la experiencia del usuario.
-* Recomendamos enfáticamente que obtenga la aprobación del equipo de red o infosec antes de intentar cargar un píxel alojado internamente.
-* Aunque el complemento no moverá tráfico a otro grupo de informes ni lo excluirá de los informes (como se puede hacer con una regla de VISTA), la lógica personalizada se puede incluir en su implementación, de modo que esta funcionalidad pueda llevarse a cabo en el cliente.
+* El único inconveniente de este enfoque es que se muestra un error 404 en la consola del explorador para los visitantes externos en la primera página de la visita. Esto no afectará a la experiencia del usuario.
+* Le recomendamos encarecidamente que obtenga la aprobación de su equipo de Red o InfoSec antes de intentar cargar un píxel alojado internamente.
+* Aunque el complemento no moverá el tráfico a otro grupo de informes ni lo excluirá de los informes (como podría hacerse con una regla de VISTA), la lógica personalizada se puede incluir en su implementación, de modo que esta funcionalidad pueda tener lugar en el lado del cliente.
 
 ## Implementación
 
-1. Agregue el píxel Intranet: Puede agregar cualquier tipo de archivo en la intranet a la que intentaría acceder el complemento. Se recomienda un píxel transparente de 1 x 1. Debe colocarse en una ubicación en la Intranet a la que se pueda acceder desde la red interna.
-1. Configurar una evar: Es necesario agregar una evar dentro del grupo de informes de destino. Debe tener una caducidad de «Visita» y asignación de «Valor original (primero)».
-1. Definir la dirección URL interna: Dentro de las variables de configuración de appmeasurement y antes de crear doplugins, defina la variable URL interna (s. inturl) para el píxel u otro archivo para la comprobación de tráfico. Por ejemplo: `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modifique doplugins y establezca la evar: El complemento se puede inicializar incluyendo esta línea de código en la sección doplugins del código de biblioteca de appmeasurement, utilizando la evar definida en el paso uno: `s.eVarXX = s.intCheck();`
-El valor de la variable se establecerá en «interno» o «externo».
-1. Agregar el código fuente de complemento: Incluya el código de complemento debajo de la sección doplugins del archivo appmeasurement.
+1. Agregue el píxel de intranet: Puede agregar cualquier tipo de archivo en la intranet al que intente acceder el complemento. Se recomienda un píxel transparente 1x1. Debe colocarse en una ubicación de su Intranet a la que se pueda acceder fácilmente desde sus redes internas.
+1. Configurar una eVar: Será necesario agregar una eVar dentro del grupo de informes de destino. Debe tener una caducidad de “Visita” y la asignación de “Valor original (primero)”.
+1. Defina la dirección URL interna: Dentro de las variables de configuración de AppMeasurement y antes de crear una instancia de doPlugins, defina la variable de URL interna (s.intURL) para el píxel o utilice otro archivo para la comprobación de tráfico. Por ejemplo: `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
+1. Modifique doPlugins y establezca la eVar: El complemento se puede inicializar incluyendo esta línea de código en la sección doPlugins del código de biblioteca de AppMeasurement, utilizando la eVar definida en el paso uno: `s.eVarXX = s.intCheck();`
+El valor de la variable se establecerá en “internal” o “external”.
+1. Agregar el código fuente del complemento: Incluya el código de complemento debajo de la sección doPlugins del archivo AppMeasurement.
 
 ## Código fuente del complemento
 
-Agregue este código debajo de la sección doplugins de la biblioteca appmeasurement.
+Agregue este código debajo de la sección doPlugins de la biblioteca de AppMeasurement.
 
 ```JavaScript
 s.intCheck=new Function("",""
@@ -48,6 +48,6 @@ s.intCheck=new Function("",""
 
 ## Otras notas
 
-* Antes de su implementación en un entorno de producción, realice pruebas de las instalaciones de complementos para asegurarse de que la recopilación de datos se produce según lo esperado.
-* Es posible que su implementación utilice otro nombre de objeto que el objeto "s" predeterminado de Adobe Analytics. De ser así, actualice en consonancia el nombre del objeto.
-* Si utiliza un sistema de administración de etiquetas, siga los pasos para actualizar doplugins y los demás complementos personalizados.
+* Antes de su implementación en un entorno de desarrollo, realice pruebas de las instalaciones de complementos para asegurarse de que la recopilación de datos se comporta según lo esperado.
+* Su implementación podría utilizar un nombre de objeto distinto del objeto “s” predeterminado de Adobe Analytics. De ser así, actualice en consonancia el nombre del objeto.
+* Si utiliza un sistema de Tag Management, siga sus pasos para actualizar doPlugins y los demás complementos personalizados.
