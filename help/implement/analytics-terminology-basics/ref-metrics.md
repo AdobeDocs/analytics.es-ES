@@ -1,13 +1,13 @@
 ---
 description: Las métricas son datos cuantitativos sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio empleado, unidades, pedidos, ingresos, etc.
-keywords: Implementación de Analytics; métricas; métrica de tráfico; métrica de conversión; métrica de vídeo; métrica social; métrica calculada; page view; visit; visitante único
+keywords: Implementación de Analytics, métricas, métricas de tráfico, métrica de conversión, métrica de vídeo, métrica social, métrica calculada, vista de página, visita, visitante único
 seo-description: Las métricas son datos cuantitativos sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio empleado, unidades, pedidos, ingresos, etc.
 seo-title: Métricas
 solution: Analytics
 title: Métricas
 topic: Desarrollador e implementación
-uuid: d 2 addb 55-cae 6-470 d-b 482-303 ef 365809 c
-translation-type: tm+mt
+uuid: d2addb55-cae6-470d-b482-303ef365809c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Las métricas son datos cuantitativos sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio empleado, unidades, pedidos, ingresos, etc.
 
-Las métricas son la base de los informes y le ayudan a ver y comprender las relaciones de datos. Permiten realizar comparaciones de diferentes conjuntos de datos sobre el sitio web. 
+Las métricas son la base de los informes y le ayudan a ver y comprender las relaciones de datos. Permiten realizar comparaciones de diferentes conjuntos de datos sobre el sitio web.
 
 <table id="table_2FA18126829241DE897CFCE9BAE9F4AD"> 
  <thead> 
@@ -45,9 +45,9 @@ Las métricas son la base de los informes y le ayudan a ver y comprender las rel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Métricas calculadas </p> </td> 
-   <td colname="col2"> <p> Las <a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">métricas calculadas</a> permiten combinar métricas para crear operaciones matemáticas que se utilicen como nuevas métricas. Estas métricas se pueden crear para un informe al que se agregan métricas. Los administradores pueden crear métricas calculadas para todos los usuarios de un grupo de informes. </p> </td> 
+   <td colname="col2"> <p>Las <a href="https://marketing.adobe.com/resources/help/es_ES/reference/calculated_metric.html" format="html" scope="external">métricas calculadas</a> permiten combinar métricas para crear operaciones matemáticas que se utilicen como nuevas métricas. Estas métricas se pueden crear para un informe al que se agregan métricas. Los administradores pueden crear métricas calculadas para todos los usuarios de un grupo de informes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Consulte [Métricas](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) en la Ayuda y referencia de Analytics para ver su definición.
+Consulte [Métricas](https://marketing.adobe.com/resources/help/es_ES/reference/metrics.html) en la página de ayuda y referencia de Analytics para obtener más información sobre las métricas.
