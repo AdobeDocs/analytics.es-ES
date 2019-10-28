@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Resolución de problemas
 title: Errores de sintaxis comunes
 topic: Desarrollador e implementación
-uuid: 9845 dcb 9-9 f 10-4 f 65-a 43 d -2 af 41 edaa 122
-translation-type: tm+mt
+uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
