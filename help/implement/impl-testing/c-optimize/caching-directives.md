@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Resolución de problemas
 title: Directivas de almacenamiento en caché
 topic: Desarrollador e implementación
-uuid: 6 bd 2 c 26 d -93 ee -4039-8 beb -6 a 6 b 16218 a 07
-translation-type: tm+mt
+uuid: 6bd2c26d-93ee-4039-8beb-6a6b16218a07
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
