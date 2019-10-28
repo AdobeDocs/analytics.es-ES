@@ -7,7 +7,7 @@ subtopic: Notas de la versión
 title: Mac OS X
 topic: Desarrollador e implementación
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!IMPORTANT]
 >
->Estos SDK se han cerrado y Adobe ya no los admite ni distribuye.
+>Estos SDK han quedado obsoletos y Adobe ya no los admite ni distribuye.
 
 >[!NOTE]
 >
->Para encontrar la versión actual de la biblioteca, active el registro de depuración.
+>Para saber la versión de la biblioteca actual, active los registros de depuración.
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+La biblioteca móvil [Descargas](https://marketing.adobe.com/developer/es/get-started/mobile/c-measuring-mobile-applications) está disponible en [!DNL Developer Connection].
 
 ## Versión 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
@@ -43,7 +43,7 @@ Fecha de versión: **16 de agosto de 2013**
 Fecha de versión: **5 de agosto de 2013**
 
 * Se ha agregado compatibilidad con Adobe Audience Manager.
-* Lifecycle data will now be sent with [!DNL Target] Mbox requests.
+* Los datos del ciclo de vida ahora se enviarán con solicitudes mbox de [!DNL Target].
 
 ## Versión 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
@@ -67,4 +67,4 @@ Fecha de versión: **21 de marzo de 2013**
 
 Fecha de versión: **febrero de 2013**
 
-Versión inicial. This version is based on the [!DNL iOS] 3.1.4 codebase, so the initial version number was set to match [!DNL iOS].
+Versión inicial. Esta versión se basa en el código de base [!DNL iOS] 3.1.4, de modo que el número de versión inicial se estableció para que coincidiese con [!DNL iOS].
