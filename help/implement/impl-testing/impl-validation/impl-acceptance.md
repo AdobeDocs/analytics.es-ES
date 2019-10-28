@@ -6,8 +6,8 @@ seo-title: Aceptación de la implementación
 solution: Analytics
 title: Aceptación de la implementación
 topic: Desarrollador e implementación
-uuid: 6 f 7 ec 56 e -9 e 4 f -4 dc 8-b 534-92 b 1580 b 5 b 47
-translation-type: tm+mt
+uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -26,7 +26,7 @@ Los pasos siguientes resumen el proceso de implementación.
 1. El consultor de Adobe aborda los problemas técnicos durante la implementación y ayuda a idear las soluciones necesarias.
 1. Los recursos técnicos en el lado del cliente prueban la implementación.
 
-   Testers log in to [!DNL Analytics] and verifying all variables ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, econversion variables, custom traffic variables, *`products`*, and all other variables).
+   Los probadores inician sesión en [!DNL Analytics] y verifican todas las variables ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, variables de conversión, variables de tráfico personalizado, *`products`*, y todas las demás).
 1. El cliente notifica a Adobe que la implementación se ha completado.
 
    El cliente proporciona una muestra de validación (muestra de datos) al consultor de Adobe para validar la precisión de los datos. (Los grupos de informes generados por VISTA se validan comparando las métricas correspondientes. Debe realizarse de antemano un acuerdo entre el cliente y Adobe con las métricas que se validarán para dichos grupos de informes, en el momento de crear la regla de VISTA).
