@@ -1,13 +1,13 @@
 ---
 description: El seguimiento de los dispositivos móviles se realiza mediante una señalización, al igual que ocurre con otros visitantes, por lo que la mayoría de los informes se encuentran disponibles y son correctos.
-keywords: Implementación de Analytics; informes; protocolos móviles; motores de búsqueda; palabras clave de búsqueda; dominios de referencia; referrers; segmentación geográfica; dominios; tipo de conexión; huso horario; cookies; java; javascript; colores de monitor; resolución del monitor; ancho del explorador; height; complemento netscape
+keywords: Implementación de Analytics, informes, protocolos móviles, motores de búsqueda, palabras clave de búsqueda, dominios referentes, referentes, geosegmentación, dominios, tipo de conexión, zona horaria, cookies, java, javascript, colores de monitor, resolución del monitor, ancho del explorador, altura, complemento netscape
 seo-description: El seguimiento de los dispositivos móviles se realiza mediante una señalización, al igual que ocurre con otros visitantes, por lo que la mayoría de los informes se encuentran disponibles y son correctos.
 seo-title: Informes para dispositivos con protocolos móviles
 solution: Analytics
 title: Informes para dispositivos con protocolos móviles
 topic: Desarrollador e implementación
-uuid: 4 aab 125 d-c 131-4402-9 bc 8-1 c 7 fd 1 bb 2 bee
-translation-type: tm+mt
+uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -23,7 +23,7 @@ El seguimiento de los dispositivos móviles se realiza mediante una señalizaci�
 
 Estos informes solo tienen datos si el referente se rellena en la solicitud de imagen enviada desde la página móvil. El referente se rellena mediante el parámetro de cadena de consulta "r", como se indica en el documento técnico Implementación sin JavaScript. También debe pasar manualmente la información del referente en la solicitud de imagen.
 
-El parámetro de cadena de consulta "r" debe incluir el protocolo del referente. De no hacerlo así, no se rellenará el informe del referente. For example, use `r=https://msn.com` not `r=msn.com`.
+El parámetro de cadena de consulta "r" debe incluir el protocolo del referente. De no hacerlo así, no se rellenará el informe del referente. Por ejemplo, use `r=https://msn.com`, no `r=msn.com`.
 
 ## Segmentación geográfica y dominios {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
