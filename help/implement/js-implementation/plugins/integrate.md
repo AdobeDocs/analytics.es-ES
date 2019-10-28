@@ -3,7 +3,7 @@ title: Integrar módulo
 seo-title: Módulo Integrate para Adobe Analytics
 description: El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización.
 seo-description: El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
 
 ---
@@ -11,90 +11,90 @@ source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
 
 # Integrar módulo
 
-El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización. Esta integración proporciona la oportunidad de una conexión de datos bidireccional. Normalmente, el uso del módulo Integrate es administrado por un socio de Adobe.
+El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización. Esta integración ofrece la oportunidad de establecer una conexión de datos bidireccional. Generalmente, el uso del módulo Integrate lo gestiona un socio de Adobe.
 
-> [!NOTE] La solicitud de datos de socio en la implementación puede aumentar los retrasos entre la carga de página y los datos enviados a los servidores de recopilación de datos de Adobe. Si un visitante carga una página nueva antes de que se envíen los datos, esa página no se registra.
+> [!NOTE] La solicitud de datos de socios en la implementación puede aumentar los retrasos entre la carga de página y los datos enviados a los servidores de recopilación de datos de Adobe. Si un visitante carga una página nueva antes de que se envíen los datos, esa página no se registra.
 
-## Flujo de trabajo de módulo integrado
+## Flujo de trabajo del módulo Integrate
 
-1. A visitor to your site loads a page that initiates a `get` request for partner data.
-2. The Adobe partner receives the `get` request and packages the appropriate variables in a JSON object. Se devuelve el objeto JSON.
-3. Your site receives the JSON object and calls `setVars` to assign the information contained in the JSON object to Adobe Analytics variables
+1. Un visitante del sitio carga una página que inicia una solicitud `get` de datos de socio.
+2. El socio de Adobe recibe la solicitud `get` y empaqueta las variables adecuadas en un objeto JSON. Se devuelve el objeto JSON.
+3. El sitio recibe el objeto JSON y realiza llamadas a `setVars` para asignar la información contenida en el objeto JSON a variables de Adobe Analytics
 4. Se envía una solicitud de imagen a los servidores de recopilación de datos de Adobe.
 
 ## Implementación del módulo Integrate
 
-Una organización que trabaja con un socio de Adobe puede utilizar estos pasos para empezar a utilizar el módulo Integrate con éxito.
+Una organización que trabaje con un socio de Adobe puede utilizar estos pasos para empezar a utilizar correctamente el módulo Integrate.
 
-### Obtener el código de Integrate Module
+### Obtención del código del módulo Integrate
 
-La obtención del código de módulo requiere un usuario con acceso de administrador de productos o que pertenezca a un perfil de producto con acceso al Administrador de códigos. El método para obtener el código del módulo es el mismo para todos los métodos de implementación, incluido el lanzamiento de la Plataforma de Adobe Experience.
+Para obtener el código del módulo, es necesario que un usuario tenga acceso al Administrador de productos o pertenezca a un perfil de producto con acceso al Administrador de códigos. El método para obtener el código del módulo es el mismo para todos los métodos de implementación, incluido Adobe Experience Platform Launch.
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
-1. Haga clic en el icono 9 cuadrado en la esquina superior derecha y, a continuación, haga clic en el logotipo de color de color.
-1. In the top navigation, click [!UICONTROL Admin] &gt; [!UICONTROL Code Manager].
-1. Descargue la última biblioteca de appmeasurement de JavaScript.
-1. Once downloaded, unzip the file and locate `AppMeasurement_Module_Integrate.js`.
+1. Inicie sesión en [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
+1. En la navegación superior, haga clic en [!UICONTROL Administración] &gt; [!UICONTROL Administrador de códigos].
+1. Descargue la biblioteca de AppMeasurement de JavaScript más reciente.
+1. Una vez descargado, descomprima el archivo y busque `AppMeasurement_Module_Integrate.js`.
 
-### Coloque el módulo Integrate en su implementación
+### Coloque el módulo Integrate en la implementación
 
-La implementación del módulo Integrate en su sitio requiere acceso a Adobe Experience Platform Launch. Si utiliza una implementación javascript heredada, es necesario acceder al código fuente del sitio Web de su organización.
+La implementación del módulo Integrate en su sitio requiere acceso a Adobe Experience Platform Launch. Si utiliza una implementación de JavaScript heredada, se requiere acceso al código fuente del sitio web de la organización.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your Adobe ID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad Launch que desee editar.
-3. Haga clic en la ficha Extensiones y, a continuación, haga clic en Configurar en Adobe Analytics.
-4. Abra el acordeón'Configurar rastreador utilizando el código personalizado'y haga clic en ' &lt;/&gt; Abrir editor '.
-5. Pegue el código del módulo Integrate en la ventana modal del código. Haga clic en Guardar una vez completada.
+3. Haga clic en la pestaña Extensiones y, a continuación, haga clic en Configurar en Adobe Analytics.
+4. Abra “Configurar rastreador con código personalizado” y haga clic en “Abrir editor”.
+5. Pegue el código del módulo Integrate en la ventana modal de código. Haga clic en Guardar una vez completada.
 
 ## Métodos del módulo Integrate
 
-Una vez implementado el módulo Integrate, utilice estos métodos para configurarlo para enviar y recibir datos del socio de Adobe que desee.
+Una vez implementado el módulo Integrate, utilice estos métodos para configurarlo y enviar y recibir datos del socio de Adobe deseado.
 
-### agregar
+### Agregue
 
-The `add` method instantiates a partner object, which serves as an intermediate store of variable data when sharing data between partner systems and your implementation. Este método es necesario para todas las integraciones. Se debe utilizar un objeto de socio independiente para cada socio único si se utilizan varios socios en una sola implementación.
+El método `add` crea una instancia de un objeto de socio, que sirve como almacén intermedio de datos variables al compartir datos entre sistemas de socios y la implementación. Este método es necesario para todas las integraciones. Si se utilizan varios socios en una sola implementación, se debe utilizar un objeto de socio independiente para cada socio único.
 
 ```JavaScript
 s.Integrate.add("<partner_name>");
 ```
 
-Su organización generalmente trabaja con un socio de Adobe para determinar el valor del nombre del socio.
+Su organización suele trabajar con un socio de Adobe para determinar el valor del nombre del socio.
 
-### señalización
+### beacon
 
-The `beacon` method creates an image request and points it to the specified URL. Estas solicitudes de imagen son diferentes a las solicitudes de imagen estándar. El método de señalización suele enviar datos al socio de Adobe en lugar de a los servidores de recopilación de datos de Adobe.
+El método `beacon` crea una solicitud de imagen y marca la dirección URL especificada. Estas solicitudes de imagen son diferentes a las solicitudes de imagen estándar. El método de señalización suele enviar datos al socio de Adobe en lugar de a los servidores de recopilación de datos de Adobe.
 
 ```JavaScript
 p.beacon("<partner_url>/track?qs1=value1&qs2=value2");
 ```
 
-Su organización generalmente trabaja con el socio de Adobe para determinar el valor del nombre del socio. Las cadenas de consulta incluidas en la dirección URL son opcionales y dependen del socio. El módulo Integrate incluye automáticamente una cadena de consulta que contiene un número aleatorio para evitar el almacenamiento en caché del navegador.
+Su organización suele trabajar con el socio de Adobe para determinar el valor del nombre del socio. Las cadenas de consulta incluidas en la dirección URL son opcionales y dependen del socio. El módulo Integrate incluye automáticamente una cadena de consulta que contiene un número aleatorio para evitar el almacenamiento en caché del explorador.
 
 ### delay
 
-Adobe está trabajando con equipos internamente para documentar este método.
+Adobe está trabajando con sus equipos internos para documentar este método.
 
 ### get
 
-The `get` method lets a client import partner variables and store them in the partner object. Una vez que los datos se encuentran en el objeto asociado, se pueden asignar a variables de Analytics y enviarlos en una solicitud de imagen. Este método llama a una dirección URL que apunta a un objeto JSON que contiene los datos deseados.
+El método `get` permite a un cliente importar variables de socio y almacenarlas en el objeto de socio. Una vez que los datos están en el objeto de socio, se pueden asignar a variables de Analytics y enviar en una solicitud de imagen. Este método llama a una dirección URL, que apunta a un objeto JSON que contiene los datos deseados.
 
 ```JavaScript
 s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 ```
 
-* **Nombre del socio:** Su organización generalmente trabaja con el socio de Adobe para determinar el valor del nombre del socio.
-* **URL al objeto JSON:** La URL de un objeto JSON que contiene las variables de socio que se van a incorporar a una solicitud de imagen.
-* **Parámetros de cadena de consulta:** Información de la cuenta de socio que identifica a su organización en el sistema del socio. El socio de Adobe utiliza esta información para identificar el conjunto de datos.
+* **Nombre del socio**: Su organización suele trabajar con el socio de Adobe para determinar el valor del nombre del socio.
+* **Dirección URL del objeto JSON**: Dirección URL de un objeto JSON que contiene las variables de socio que se van a incorporar en una solicitud de imagen.
+* **Parámetros de cadena de consulta**: Información de cuenta de socio que identifica a su organización en el sistema del socio. El socio de Adobe utiliza esta información para identificar el conjunto de datos.
 
-El módulo Integrate agrega automáticamente más cadenas de consulta a la URL. Una cadena de consulta var especifica el nombre del objeto JSON que espera el módulo del socio. También se agrega un número aleatorio para evitar el almacenamiento en caché del navegador.
+El módulo Integrate agrega automáticamente más cadenas de consulta a la dirección URL. Una cadena de consulta var especifica el nombre del objeto JSON que el módulo espera del socio. También se agrega un número aleatorio para evitar el almacenamiento en caché del explorador.
 
 ### ready
 
-Adobe está trabajando con equipos internamente para documentar este método.
+Adobe está trabajando con sus equipos internos para documentar este método.
 
-### Usevars
+### useVars
 
-The `useVars` method lets the client share variable values with an Adobe partner.
+El método `useVars` permite al cliente compartir valores de variables con un socio de Adobe.
 
 ```JavaScript
 s.Integrate.<partner_name>.useVars = function (s,p) {
@@ -103,11 +103,11 @@ s.Integrate.<partner_name>.useVars = function (s,p) {
 }
 ```
 
-Su organización generalmente trabaja con un socio de Adobe para determinar los valores del nombre del socio y las variables que utiliza el socio.
+Su organización suele trabajar con un socio de Adobe para determinar los valores del nombre del socio y las variables que utiliza el socio.
 
-### Setvars
+### setVars
 
-The `setVars` method lets the client populate Analytics variables using partner data retrieved. Partner data can be the result of a `get` method, a static assignment, or any other mechanism that populates the partner object with data.
+El método `setVars` permite al cliente rellenar variables de Analytics mediante los datos del socio recuperados. Los datos del socio pueden ser el resultado de un método `get`, una asignación estática o cualquier otro mecanismo que rellene el objeto del socio con datos.
 
 ```JavaScript
 s.Integrate.<partner_name>.setVars = function (s,p) {
@@ -116,14 +116,14 @@ s.Integrate.<partner_name>.setVars = function (s,p) {
 }
 ```
 
-Su organización generalmente trabaja con un socio de Adobe para determinar los valores del nombre del socio y las variables que utiliza el socio.
+Su organización suele trabajar con un socio de Adobe para determinar los valores del nombre del socio y las variables que utiliza el socio.
 
 ### script
 
-The `script` method lets an Adobe partner to call additional JavaScript from the partner site if certain conditions are met (for example, if the campaign variable is set).
+El método `script` permite que un socio de Adobe llame a JavaScript adicional desde el sitio del socio si se cumplen determinadas condiciones (por ejemplo, si se establece la variable de campaña).
 
 ```JavaScript
 p.script("<partner_url>/script?qs1=value1&qs2=value2");
 ```
 
-Su organización generalmente trabaja con el socio de Adobe para determinar el valor del nombre del socio. Las cadenas de consulta incluidas en la dirección URL son opcionales y dependen del socio. El módulo Integrate incluye automáticamente una cadena de consulta que contiene un número aleatorio para evitar el almacenamiento en caché del navegador.
+Su organización suele trabajar con el socio de Adobe para determinar el valor del nombre del socio. Las cadenas de consulta incluidas en la dirección URL son opcionales y dependen del socio. El módulo Integrate incluye automáticamente una cadena de consulta que contiene un número aleatorio para evitar el almacenamiento en caché del explorador.
