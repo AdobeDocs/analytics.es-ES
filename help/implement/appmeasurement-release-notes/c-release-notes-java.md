@@ -6,8 +6,8 @@ solution: Analytics
 subtopic: Notas de la versión
 title: Java
 topic: Desarrollador e implementación
-uuid: 14 d 13 bc 6-984 e -4 ef 4-a 1 d 5-51326 e 652868
-translation-type: tm+mt
+uuid: 14d13bc6-984e-4ef4-a1d5-51326e652868
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Versión 1.4 {#section_79DEEE52BB314DACB1CD5144D0ACB003}
 
-Fecha de la versión: **9 de marzo de 2017**
+Fecha de versión: **9 de marzo de 2017**
 
 * Se han añadido variables que faltaban y que están disponibles en [!DNL JavaScript]. (AN-136736)
 
 ## Versión 1.3 {#section_76EB819BAF0B465C8CA295B9188B87A9}
 
-Fecha de la versión: **10 de noviembre de 2016**
+Fecha de versión: **10 de noviembre de 2016**
 
 * Se ha añadido la verificación SSL de nombre de host. (AN-130350)
 * Se ha eliminado la compatibilidad con Java 1.4. Solo se admiten las versiones 1.5 y posteriores.
