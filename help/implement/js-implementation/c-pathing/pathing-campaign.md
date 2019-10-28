@@ -2,18 +2,18 @@
 description: 'Ayuda a responder la pregunta: "Después de que un usuario hace clic en mi sitio desde una campaña, ¿a qué lugar del sitio va?"'
 keywords: Implementación de Analytics
 seo-description: 'Ayuda a responder la pregunta: "Después de que un usuario hace clic en mi sitio desde una campaña, ¿a qué lugar del sitio va?"'
-seo-title: Rutas según el código de seguimiento o campaña
+seo-title: Control de rutas por campaña o código de seguimiento
 solution: Analytics
-title: Rutas según el código de seguimiento o campaña
+title: Control de rutas por campaña o código de seguimiento
 topic: Desarrollador e implementación
-uuid: eb 6 e 3484-1 b 40-4 ec 6-8017-ac 1003 cdf 636
-translation-type: tm+mt
+uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Rutas según el código de seguimiento o campaña
+# Control de rutas por campaña o código de seguimiento
 
 Ayuda a responder la pregunta: "Después de que un usuario hace clic en mi sitio desde una campaña, ¿a qué lugar del sitio va?"
 
