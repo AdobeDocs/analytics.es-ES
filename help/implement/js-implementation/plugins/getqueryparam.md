@@ -1,14 +1,14 @@
 ---
-description: Devuelve el valor de un parámetro de cadena de consulta especificado, si se encuentra en la dirección URL de la página. Puesto que los datos importantes (por ejemplo, códigos de seguimiento de campañas, palabras clave de búsqueda interna, etc.) están disponibles en la cadena de consulta en una página,  getQueryParam ayuda a capturar los datos en variables de Analytics.
+description: Devuelve el valor de un parámetro de cadena de consulta especificado, si se encuentra en la dirección URL de la página. Puesto que los datos importantes (por ejemplo, códigos de seguimiento de campañas, palabras clave de búsqueda interna, etc.) están disponibles en la cadena de consulta en una página, getQueryParam ayuda a capturar los datos en variables de Analytics.
 keywords: Implementación de Analytics
-seo-description: Devuelve el valor de un parámetro de cadena de consulta especificado, si se encuentra en la dirección URL de la página. Puesto que los datos importantes (por ejemplo, códigos de seguimiento de campañas, palabras clave de búsqueda interna, etc.) están disponibles en la cadena de consulta en una página,  getQueryParam ayuda a capturar los datos en variables de Analytics.
+seo-description: Devuelve el valor de un parámetro de cadena de consulta especificado, si se encuentra en la dirección URL de la página. Puesto que los datos importantes (por ejemplo, códigos de seguimiento de campañas, palabras clave de búsqueda interna, etc.) están disponibles en la cadena de consulta en una página, getQueryParam ayuda a capturar los datos en variables de Analytics.
 seo-title: getQueryParam
 solution: Analytics
 subtopic: Complementos
 title: getQueryParam
 topic: Desarrollador e implementación
-uuid: ba 202756-c 728-4 ebc -8 fd 9-5 bc 29 a 9 f 673 b
-translation-type: tm+mt
+uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -16,27 +16,27 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 # getQueryParam
 
-Devuelve el valor de un parámetro de cadena de consulta especificado, si se encuentra en la dirección URL de la página. Puesto que los datos importantes (por ejemplo, códigos de seguimiento de campañas, palabras clave de búsqueda interna, etc.) están disponibles en la cadena de consulta en una página,  getQueryParam ayuda a capturar los datos en variables de Analytics.
+Devuelve el valor de un parámetro de cadena de consulta especificado, si se encuentra en la dirección URL de la página. Puesto que los datos importantes (por ejemplo, códigos de seguimiento de campañas, palabras clave de búsqueda interna, etc.) están disponibles en la cadena de consulta en una página, getQueryParam ayuda a capturar los datos en variables de Analytics.
 
 >[!IMPORTANT]
 >
->Este complemento solo se utiliza en el código H. [Appmeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) proporciona esta funcionalidad de forma nativa mediante [Util. getqueryparam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>Este complemento solo se usa en el código H. [AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) proporciona esta funcionalidad de forma nativa mediante [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
 
-Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. El complemento detecta la cadena de consulta especificada, si está presente, y rellena la variable seleccionada con su valor. Si no se encuentra un parámetro de cadena de consulta con ese valor, se devuelve una cadena vacía. If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
+Una vez instalado en el código de [!DNL AppMeasurement] para JavaScript, el complemento se configura seleccionando una variable de [!DNL Analytics] que se rellenará con datos encontrados en la cadena de consulta y especificando qué valores de la cadena de consulta se van a capturar. El complemento detecta la cadena de consulta especificada, si está presente, y rellena la variable seleccionada con su valor. Si no se encuentra un parámetro de cadena de consulta con ese valor, se devuelve una cadena vacía. Si existe un parámetro de cadena de consulta pero no dispone de un valor (como param1 en `?param1&param2=value`), se devolverá el valor *`true`*.
 
 >[!NOTE]
 >
->The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
+>El código base para el complemento debe estar instalado en el código de [!DNL AppMeasurement] para JavaScript para que los ejemplos siguientes funcionen.
 
-If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your [!DNL AppMeasurement] for JavaScript code:
+Si desea utilizar *`s.campaign`* para capturar los códigos de seguimiento de campaña disponibles como valores del parámetro de consulta *`cid`*, debe introducir lo siguiente en la función *`doPlugins()`* de [!DNL AppMeasurement] para el código de JavaScript:
 
 `s.campaign=s.getQueryParam('cid')`
 
-In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. Esto puede verse con el depurador [!DNL DigitalPulse], que debería mostrar *v0=123456* como parte de la solicitud de imagen.
+En este ejemplo, si el usuario llegó a una página de aterrizaje de un sitio cuya URL era [!DNL https://www.yoursite.com/index.html?cid=123456], entonces *`s.campaign`* tendría el valor *123456*. Esto puede verse con el depurador [!DNL DigitalPulse], que debería mostrar *v0=123456* como parte de la solicitud de imagen.
 
 >[!NOTE]
 >
->The parameter *`cid`* and others are used here as examples. Puede sustituirlos por cualquier parámetro de cadena de consulta que exista en el sitio. 
+>El parámetro *`cid`* y demás se utilizan como ejemplos. Puede sustituirlos por cualquier parámetro de cadena de consulta que exista en el sitio.
 
 El complemento *`getQueryParam`* tiene dos argumentos adicionales (opciones) que se pueden usar para capturar datos en variables de Analytics:
 
@@ -76,7 +76,7 @@ Si se utilizan marcos y el parámetro *f*, es recomendable usar el complemento *
 
 >[!NOTE]
 >
->Las instrucciones siguientes requieren modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+>Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 **Código de complemento**
 
