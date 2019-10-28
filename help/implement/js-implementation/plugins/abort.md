@@ -6,8 +6,8 @@ seo-title: Indicador s.abort
 solution: Analytics
 title: Indicador s.abort
 topic: Desarrollador e implementación
-uuid: 0 c 6 ec 8 c 7-d 136-4851-8 cb 6-6 cb 1 b 7 f 6 f 0 dc
-translation-type: tm+mt
+uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
