@@ -1,14 +1,14 @@
 ---
 description: Esta sección contiene un ejemplo de código para el archivo JavaScript principal y las páginas de un sitio.
-keywords: Implementación de Analytics; appmeasurement. js; ejemplo de código de página
+keywords: Implementación de Analytics, código appmeasurement.js, código de página de ejemplo
 seo-description: Esta sección contiene un ejemplo de código para el archivo JavaScript principal y las páginas de un sitio.
 seo-title: Ejemplo de código de página y configuración global
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Ejemplo de código de página y configuración global
 topic: Desarrollador e implementación
-uuid: e 8880 d 77-172 b -42 e 5-8187-ce 371 aa 9 eff 9
-translation-type: tm+mt
+uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -20,13 +20,13 @@ Esta sección contiene un ejemplo de código para el archivo JavaScript principa
 
 >[!IMPORTANT]
 >
->This example uses the visitor ID service, which is deployed as part of your [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md). Si habilita el servicio de ID de visitante en AppMeasurement antes de incluir el archivo JavaScript de la API de visitante en todas las páginas del sitio, pueden duplicarse los recuentos de visitantes. Para evitar esta duplicación, asegúrese de comprender y realizar con precisión el procedimiento que se describe en [Servicio de ID de visitante](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>Este ejemplo usa el servicio de ID de visitante que se implementa con la[ implementación de JavaScript](../../implement/js-implementation/javascript-implementation-overview.md). Si habilita el servicio de ID de visitante en AppMeasurement antes de incluir el archivo JavaScript de la API de visitante en todas las páginas del sitio, pueden duplicarse los recuentos de visitantes. Para evitar esta duplicación, asegúrese de comprender y realizar con precisión el procedimiento que se describe en [Servicio de ID de visitante](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
 
 ## Ejemplo de código de AppMeasurement.js {#section_4351543F2D6049218E18B48769D471E2}
 
 >[!IMPORTANT]
 >
->Configuration variables should be set above the *`doPlugins`* function.
+>Las variables de configuración deben configurarse por encima de la función *`doPlugins`*.
 
 En implementaciones nuevas, pegue el código de configuración global siguiente al principio de AppMeasurement.js para comenzar:
 
@@ -85,7 +85,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 
 ## Ejemplo de código de página {#section_042412C29CC249E298F19B2BC2F43CE7}
 
-Para las nuevas implementaciones, puede pegar el código de página siguiente justo después de la apertura. <body> en las páginas que desee rastrear:
+Para nuevas implementaciones, puede pegar el siguiente código de página justo después de la etiqueta de apertura <body> en las páginas que desee rastrear:
 
 ```js
 <script language="JavaScript" type="text/javascript"><!-- 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-Asegúrese de incluir también en cada página una referencia a `AppMeasurement.js` y `VisitorAPI.js`. See [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md) for instructions.
+Asegúrese de incluir también en cada página una referencia a `AppMeasurement.js` y `VisitorAPI.js`. Consulte [Implementación de JavaScript](../../implement/js-implementation/javascript-implementation-overview.md) para obtener instrucciones.
