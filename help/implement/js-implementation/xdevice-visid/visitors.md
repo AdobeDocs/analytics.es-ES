@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Visitantes
 title: Visitantes
 topic: Desarrollador e implementación
-uuid: 16 cfdb 64-a 3 c 6-4056-97 da -3227 cddcf 1 cd
-translation-type: tm+mt
+uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Este método de identificación de visitantes entre dispositivos ya no se recomienda. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Documentación de Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/).
 
 Analytics contabiliza cada ID de visitante efectiva única como un visitante único.
 
-If you look at the [previous table](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), this occurred 3 times: at hits 1, 9, and 10. Esto ocurre porque la [!UICONTROL ID de visitante] efectiva es la misma para ambas llamadas al servidor, y esto es así aunque haya varias horas de diferencia entre las visitas y se realicen desde dispositivos diferentes.
+Si observa la [tabla anterior](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), esto ocurrió 3 veces: en las visitas individuales 1, 9 y 10. Esto ocurre porque la [!UICONTROL ID de visitante] efectiva es la misma para ambas llamadas al servidor, y esto es así aunque haya varias horas de diferencia entre las visitas y se realicen desde dispositivos diferentes.
 
 Esto puede aumentar el número de visitantes únicos que ve cuando la identificación de visitantes entre dispositivos está habilitada. El visitante se podría contabilizar dos veces en la misma visita: una en la visita inicial y otra después de que el usuario se autentique.
 
