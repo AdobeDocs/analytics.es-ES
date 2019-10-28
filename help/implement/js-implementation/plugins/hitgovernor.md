@@ -3,8 +3,8 @@ description: El complemento s.hitGovernor realiza un seguimiento del número tot
 seo-description: El complemento s.hitGovernor realiza un seguimiento del número total de solicitudes de imagen de Analytics que se envían durante un tiempo consecutivo predefinido y puede realizar lógica adicional si este total supera un determinado límite.
 seo-title: hitGovernor
 title: hitGovernor
-uuid: d 9091 eae -005 a -43 c 2-b 419-980 b 795 bc 2 a 9
-translation-type: tm+mt
+uuid: d9091eae-005a-43c2-b419-980b795bc2a9
+translation-type: ht
 source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
@@ -20,9 +20,9 @@ Este complemento permite bloquear automáticamente ese tráfico durante el resto
 
 ## Cómo funciona el complemento Hit Governor {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-El complemento incrementa un valor de cookie cada vez que se envía una solicitud de imagen a sus servidores de seguimiento, y realiza un seguimiento de este comportamiento a lo largo de un periodo de tiempo consecutivo. El periodo de tiempo predeterminado es de un minuto, aunque es posible ignorar este valor (consulte [Implementación](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) más adelante). If the total number of hits during that time frame exceeds the default hit threshold (60), a final custom link image request is sent to set the *`exceptionFlag`* context data variable. También es posible ignorar el límite de visitas predeterminado.
+El complemento incrementa un valor de cookie cada vez que se envía una solicitud de imagen a sus servidores de seguimiento, y realiza un seguimiento de este comportamiento a lo largo de un periodo de tiempo consecutivo. El periodo de tiempo predeterminado es de un minuto, aunque es posible ignorar este valor (consulte [Implementación](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) más adelante). Si el número total de visitas durante ese periodo excede el límite predeterminado (60), se envía una última solicitud de imagen de vínculo personalizado para establecer la variable de datos de contexto *`exceptionFlag`*. También es posible ignorar el límite de visitas predeterminado.
 
-Si lo desea, es posible impedir que a partir de ese punto se recopile tráfico para ese visitante específico durante un periodo predeterminado de sesenta días. El bloqueo del tráfico requiere una línea de código adicional en su función doPlugins, como se describe más adelante. También es posible ajustar el periodo de tiempo. The logic allows time to either include that visitor's IP address, User Agent, or [!DNL Experience Cloud] Visitor ID in the proper permanent exception logic, or to reset the timeout period after the sixty days have elapsed. Si el complemento identifica este tráfico como fraudulento pasados sesenta días, el tráfico vuelve a marcarse como excepción y no se recopilará durante sesenta días más.
+Si lo desea, es posible impedir que a partir de ese punto se recopile tráfico para ese visitante específico durante un periodo predeterminado de sesenta días. El bloqueo del tráfico requiere una línea de código adicional en su función doPlugins, como se describe más adelante. También es posible ajustar el periodo de tiempo. La lógica concede tiempo para incluir la dirección IP del visitante, el agente de usuario o el ID de visitante de [!DNL Experience Cloud] en la lógica apropiada de excepción permanente, o para restablecer el periodo de espera una vez transcurridos los sesenta días. Si el complemento identifica este tráfico como fraudulento pasados sesenta días, el tráfico vuelve a marcarse como excepción y no se recopilará durante sesenta días más.
 
 ## Creación de informes {#section_E742F19B528041808454744DB2C7007C}
 
@@ -47,7 +47,7 @@ Para implementar el complemento hitGovernor:
 
    >[!NOTE]
    >
-   >Although the `registerPostTrackCallback` functionality is included in AppMeasurement libraries 1.8.0+, it is not included in any custom code configuration by default. Se incluye posteriormente a la función doPlugins y *fuera* de ella.
+   >Aunque la funcionalidad `registerPostTrackCallback` está incluida en las bibliotecas de AppMeasurement 1.8.0 y posteriores, no se incluye de forma predeterminada en ninguna configuración de código personalizada. Se incluye posteriormente a la función doPlugins y *fuera* de ella.
 
    ```
     s.registerPostTrackCallback(function(){ 
@@ -88,7 +88,7 @@ Para implementar el complemento hitGovernor:
 
 >[!NOTE]
 >
->Su implementación podría utilizar un nombre de objeto distinto al objeto "s" predeterminado de análisis. De ser así, actualice en consonancia el nombre del objeto.
+>Su implementación podría utilizar un nombre de objeto distinto del objeto “s” predeterminado de Analytics. De ser así, actualice en consonancia el nombre del objeto.
 
 1. Configure las reglas de procesamiento.
 
