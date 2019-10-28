@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Complementos
 title: getAndPersistValue
 topic: Desarrollador e implementación
-uuid: ddeab 80 c -260 e -44 b 6-8483-8 b 8 b 369 ec 19 b
-translation-type: tm+mt
+uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,31 +20,31 @@ El complemento getAndPersistValue obtiene un valor que usted elija y lo rellena 
 
 >[!IMPORTANT]
 >
->This plug-in has not been validated to be compatible with [AppMeasurement for JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). See [AppMeasurement Plug-in Support](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Este complemento no se ha validado para que sea compatible con [AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). Consulte [Asistencia del complemento de AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
 
-For example, you might use this plug-in to set a campaign tracking code from the *`campaign`* variable into a Custom Traffic ( *`s.prop`*) variable on each visitor's page view made for the next 30 days. Este ejemplo le permite determinar cuántas vistas de página ha generado el código de seguimiento como resultado de la pulsación original.
+Por ejemplo: puede utilizar este complemento para establecer un código de seguimiento de campaña de la variable *`campaign`* en una variable de tráfico personalizado (*`s.prop`*) en la vista de página de cada visitante realizada durante los próximos 30 días. Este ejemplo le permite determinar cuántas vistas de página ha generado el código de seguimiento como resultado de la pulsación original.
 
 >[!NOTE]
 >
->Las instrucciones siguientes requieren modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+>Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación y código de complemento {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
-**SECCIÓN CONFIG**: esta sección no requiere ninguna modificación. 
+**SECCIÓN CONFIG**: esta sección no requiere ninguna modificación.
 
 **Configuración de complemento**
 
-Inserte el código siguiente en la función *`s_doPlugins()`* , que se encuentra en el área del *`s_code.js`* archivo rotulada Configuración *de complemento*. Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos de valores persistentes. Debe ser una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. Puede utilizar el ejemplo siguiente y actualizarlo según sus necesidades.
+Inserte el código siguiente en la función La función *`s_doPlugins()`*, que se encuentra en el área del archivo *`s_code.js`* llamado *Configuración de complemento*. Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos de valores persistentes. Debe ser una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. Puede utilizar el ejemplo siguiente y actualizarlo según sus necesidades.
 
 `s.prop1=s.getAndPersistValue(s.campaign,'s_getval',30);`
 
 *`s.getAndPersistValue`* tiene tres argumentos:
 
-1. Currently populated variable or value to persist ( *`s.campaign`* shown above).
-1. Cookie name, used to store the value ( *`s_getval`* shown above).
+1. Variable o valor rellenados actualmente para conservarlos (*`s.campaign`*, se muestra arriba).
+1. Nombre de la cookie, utilizado para almacenar el valor (*`s_getval`*, se muestra arriba).
 1. Período de tiempo de persistencia, expresado en días. “30”, como se indica arriba, hace que el valor se rellene en la variable seleccionada con cada vista de página hecha por el usuario durante los 30 días siguientes. Si se omite, el valor predeterminado es *session*.
 
-**SECCIÓN DE COMPLEMENTOS**: Agregue el siguiente código al área del [!DNL s_code.js] archivo rotulada SECCIÓN DE COMPLEMENTOS. No realice ningún cambio en esta parte del código de complemento.
+**SECCIÓN DE COMPLEMENTOS**: Agregue el código siguiente al área del archivo [!DNL s_code.js] con el nombre SECCIÓN DE COMPLEMENTOS. No realice ningún cambio en esta parte del código de complemento.
 
 ```js
 /* 
