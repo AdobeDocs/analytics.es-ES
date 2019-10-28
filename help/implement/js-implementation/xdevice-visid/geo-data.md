@@ -6,8 +6,8 @@ seo-title: Datos de segmentación geográfica
 solution: Analytics
 title: Datos de segmentación geográfica
 topic: Desarrollador e implementación
-uuid: 8449 bf 11-c 367-4698-a 73 e-f 6 cb 59 f 8 c 945
-translation-type: tm+mt
+uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -17,8 +17,8 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Este método de identificación de visitantes entre dispositivos ya no se recomienda. Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Documentación de Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/).
 
 Los datos de segmentación geográfica se registran en función de la primera visita y no cambia para una única visita independientemente del dispositivo que se use.
 
-Si un cliente explora su sitio desde el equipo de casa y después desde un dispositivo móvil en un plazo de 30 minutos, no se cambian los datos de segmentación geográfica. Si utiliza VISTA para rellenar una evar con datos de segmentación geográfica, se basa en la dirección IP de cada visita. Esto podría generar varios valores de datos de segmentación geográfica si la dirección IP cambia para la misma visita.
+Si un cliente explora su sitio desde el equipo de casa y después desde un dispositivo móvil en un plazo de 30 minutos, no se cambian los datos de segmentación geográfica. Si usa VISTA para rellenar una eVar con datos de segmentación geográfica, se basa en la dirección IP de cada visita. Esto podría producir varios valores de segmentación geográfica si la dirección IP cambia para la misma visita.
