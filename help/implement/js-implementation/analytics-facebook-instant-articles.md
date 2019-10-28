@@ -1,13 +1,13 @@
 ---
 description: Cómo implementar Analytics en Artículos Instantáneos de Facebook.
-keywords: Implementación de Analytics; embed; custom variable; custom event; seguimiento de visitantes; tracking; limitaciones
+keywords: Implementación de Analytics, incrustar, insertar, variable personalizada, evento personalizado, rastreo de visitantes, rastreo, limitaciones
 seo-description: Cómo implementar Analytics en Artículos Instantáneos de Facebook.
 seo-title: Artículos Instantáneos de Facebook
 solution: Analytics
 title: Artículos Instantáneos de Facebook
 topic: Desarrollador e implementación
-uuid: 04 b 6366 b -7 c 52-4 dae-b 2 dd-bb 6 b 78 fd 409 c
-translation-type: tm+mt
+uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
@@ -110,13 +110,13 @@ s.prop1 = s.Util.getQueryParam("prop1");
 
 ## Seguimiento de visitantes {#section_60F0C77659534949831E85B5FD9AE81E}
 
-Siempre y cuando la página HTML de Analytics esté alojada en su servidor web, Adobe puede admitir la política de privacidad existente en todos los Artículos Instantáneos de Facebook. Esto significa que si un usuario final no ha optado por el seguimiento en el sitio primario, tampoco habrá optado por el seguimiento en todos los Artículos Instantáneos de Facebook, sin que se requieran pasos adicionales. Utilizar esta página de utilidad también implica que el servicio de identidad (ID de visitante) es compatible para poder integrar las métricas y variables capturadas en Artículos Instantáneos de Facebook con el resto de Experience Cloud. (An example is for targeted advertising using [!DNL Adobe Audience Manager]).
+Siempre y cuando la página HTML de Analytics esté alojada en su servidor web, Adobe puede admitir la política de privacidad existente en todos los Artículos Instantáneos de Facebook. Esto significa que si un usuario final no ha optado por el seguimiento en el sitio primario, tampoco habrá optado por el seguimiento en todos los Artículos Instantáneos de Facebook, sin que se requieran pasos adicionales. El uso de esta página de utilidad también implica que el servicio de ID (ID de visitante) es compatible de modo que se puedan integrar las métricas y variables capturadas en Artículos Instantáneos de Facebook con el resto de Experience Cloud. (Por ejemplo, para la publicidad de destino con [!DNL Adobe Audience Manager]).
 
 ## Limitaciones de seguimiento {#section_1EE1BB069A3148DB9446371AFE196567}
 
 Existen algunos problemas que deberían mencionarse con este método. No se podrán recuperar en el iframe para seguimiento los valores DOM que generalmente están accesibles solamente mediante JavaScript en el Artículo Instantáneo de Facebook (como el referente). Sin embargo, los informes de tecnología estándar, como explorador, dispositivo, tamaño o resolución de pantalla, deberían funcionar normalmente. Es más, la pageURL puede obtenerse haciendo referencia a [!DNL document.referrer] desde la página de la utilidad.
 
-## What's Next? {#section_A170A10E2A3642A784DF720195DA8B38}
+## Novedades {#section_A170A10E2A3642A784DF720195DA8B38}
 
 En [!DNL Adobe Analytics] hay satisfacción por asociarse con Facebook, y nuestros editores están igualmente satisfechos de proporcionar funciones de análisis que son líderes en la industria a editores en la Web móvil para una experiencia de usuario increíblemente veloz. Estamos comprometidos con construir la mejor solución a largo plazo para responder las cambiantes necesidades de análisis que tienen nuestros clientes.
 
