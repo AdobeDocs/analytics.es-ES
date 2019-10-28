@@ -6,8 +6,8 @@ seo-title: performanceTiming
 solution: Analytics
 title: performanceTiming
 topic: Desarrollador e implementación
-uuid: ab 2 a 6 c 51-8791-41 e 7-9 bea-c 1 ce 8 d 312 de 8
-translation-type: tm+mt
+uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ Este complemento funciona por medio de la API JavaScript de Temporización de na
 
 >[!IMPORTANT]
 >
->Es una versión beta del complemento y podrían llegar actualizaciones adicionales.
+>Esta es una versión beta del complemento y podrían llegar nuevas actualizaciones.
 
 Este complemento utiliza los siguientes eventos detallados para el seguimiento de los componentes de temporización individuales de una carga de página:
 
@@ -57,7 +57,7 @@ Además, el complemento puede usar de forma opcional el objeto performanceEntrie
 
 >[!NOTE]
 >
->Las instrucciones siguientes requieren modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de Adobe Analytics. This plugin is compatible only with [!DNL AppMeasurement] tracking libraries.
+>Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de Adobe Analytics. Este complemento solo es compatible con las bibliotecas de seguimiento de [!DNL AppMeasurement].
 
 **Sección Config (antes de doPlugins):**
 
@@ -79,7 +79,7 @@ Para inicializar el complemento, se requiere una línea de código en la secció
 
 >[!NOTE]
 >
->In order to correlate performance timing entries with pages on your site, you must also initialize the `getPreviousValue` plug-in. Se recomienda comparar estas entradas de rendimiento con el nombre de página anterior o el valor de dirección URL de página anterior.
+>Para correlacionar entradas de temporización de rendimiento con páginas en el sitio, también debe inicializar el complemento `getPreviousValue`. Se recomienda comparar estas entradas de rendimiento con el nombre de página anterior o el valor de dirección URL de página anterior.
 
 *Llamadas de muestra*
 
@@ -154,8 +154,8 @@ s.rfl=new Function("l","v","d1","d2","ku",""
 * Antes de su implementación en un entorno de desarrollo, realice pruebas de las instalaciones de complementos para asegurarse de que la recopilación de datos se comporta según lo esperado.
 * Debido a que el complemento pasa datos de rendimiento asociados a la página anterior, no se recopilan datos de la visualización de la página final de la visita.
 * Si está realizando el seguimiento de la temporización de recursos, este complemento depende de la capacidad de establecer valores de almacenamiento DOM en el explorador web del usuario. Si el usuario no acepta cookies y tiene deshabilitado el almacenamiento DOM, el complemento no pasará datos a Analytics.
-* Un porcentaje muy pequeño de usuarios no pasará datos de temporización de navegación debido a las limitaciones del explorador y la lógica se encuentra dentro del complemento para garantizar que los datos no se desvíen como resultado, particularmente con una pequeña porción de exploradores móviles. No obstante, este complemento se ha probado con éxito en Internet Explorer, Firefox, Chrome, y Safari.
-* [!UICONTROL Las métricas calculadas] deben crearse para ayudar a resumir y comprender el comportamiento de los visitantes asociado con estas métricas:
+* Un porcentaje muy pequeño de usuarios no pasará datos de temporización de navegación debido a limitaciones de explorador, y la lógica está contenida dentro del complemento para garantizar que los datos no se desvíen como resultado, particularmente con una pequeña porción de exploradores móviles. No obstante, este complemento se ha probado con éxito en Internet Explorer, Firefox, Chrome, y Safari.
+* Se deberían crear [!UICONTROL métricas calculadas] para ayudar a resumir y comprender el comportamiento del visitante asociado a las siguientes métricas:
 
    * Temporización de redirección promedio (Temporización de redirección/Instancias de temporización de rendimiento)
    * Temporización de caché de aplicación promedio (Temporización de caché de aplicación/Instancias de temporización de rendimiento)
