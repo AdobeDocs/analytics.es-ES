@@ -2,18 +2,18 @@
 description: La validación de la precisión de los datos es un proceso en el que se comparan los datos de un informe con puntos de datos conocidos y verificables.
 keywords: Implementación de Analytics
 seo-description: La validación de la precisión de los datos es un proceso en el que se comparan los datos de un informe con puntos de datos conocidos y verificables.
-seo-title: Validación de la precisión de datos
+seo-title: Validación de la precisión de los datos
 solution: Analytics
-title: Validación de la precisión de datos
+title: Validación de la precisión de los datos
 topic: Desarrollador e implementación
-uuid: 267 f 6 c 61-705 a -41 cf -9 e 09-4 e 2 ce 2331 f 32
-translation-type: tm+mt
+uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Validación de la precisión de datos
+# Validación de la precisión de los datos
 
 La validación de la precisión de los datos es un proceso en el que se comparan los datos de un informe con puntos de datos conocidos y verificables.
 
@@ -27,7 +27,7 @@ Los puntos de datos preferidos para esta validación, por orden de preferencia, 
 
 >[!NOTE]
 >
->Default pages, such as [!DNL index.html], often receive automated or monitoring traffic. Estas páginas muestran diferencias mayores con la recopilación de datos basada en el explorador que otras páginas visitadas.
+>Las páginas predeterminadas, como [!DNL index.html], generalmente reciben tráfico automatizado o de seguimiento. Estas páginas muestran diferencias mayores con la recopilación de datos basada en el explorador que otras páginas visitadas.
 
 Los tres tipos de validación requieren un registro de depuración o una fuente de datos para el período de tiempo en cuestión. Generalmente es un día o menos.
 
