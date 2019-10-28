@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Resolución de problemas
 title: Compresión de archivos
 topic: Desarrollador e implementación
-uuid: 609 fec 4 b -2732-4 ef 5-9263-32192 e 4 f 0825
-translation-type: tm+mt
+uuid: 609fec4b-2732-4ef5-9263-32192e4f0825
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
