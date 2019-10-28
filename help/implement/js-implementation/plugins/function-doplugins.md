@@ -7,8 +7,8 @@ solution: Analytics
 subtopic: Complementos
 title: Función doPlugins
 topic: Desarrollador e implementación
-uuid: 367 d 5550-f 8 e 2-477 d -8681-18 ae 9665 d 699
-translation-type: tm+mt
+uuid: 367d5550-f8e2-477d-8681-18ae9665d699
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 La función doPlugins generalmente llama a los complementos JavaScript, que se ejecutan cuando se llama a la función t() en el código para pegar.
 
-En consecuencia, si configura una variable en la función `doPlugins`, puede sobrescribir una variable configurada en la página HTML. The only time the `doPlugins` function is not called is when the *`usePlugins`* variable is set to `false`.
+En consecuencia, si configura una variable en la función `doPlugins`, puede sobrescribir una variable configurada en la página HTML. La única vez que no se llama a la función `doPlugins` es cuando la variable *`usePlugins`* está configurada con el valor `false`.
 
 **Código de ejemplo**
 
-The `doPlugins` function is typically called `s_doPlugins`. Sin embargo, en algunas circunstancias (normalmente cuando en una única página puede aparecer más de una versión del código de [!DNL Analytics]), es posible cambiar el nombre de la función `doPlugins`. Si fuera necesario cambiar el nombre de la función `doPlugins` estándar para evitar conflictos, asigne el nombre de función correcto a `doPlugins`, tal como se muestra en el ejemplo siguiente.
+La función `doPlugins` generalmente se llama `s_doPlugins`. Sin embargo, en algunas circunstancias (normalmente cuando en una única página puede aparecer más de una versión del código de [!DNL Analytics]), es posible cambiar el nombre de la función `doPlugins`. Si fuera necesario cambiar el nombre de la función `doPlugins` estándar para evitar conflictos, asigne el nombre de función correcto a `doPlugins`, tal como se muestra en el ejemplo siguiente.
 
 ```js
 /* Plugin Config */ 
