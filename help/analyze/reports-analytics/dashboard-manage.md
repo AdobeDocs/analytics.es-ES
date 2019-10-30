@@ -8,7 +8,7 @@ title: Administrador de tableros
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,15 +73,11 @@ Los pasos describen cómo usar las opciones de administración del tablero compa
 
 Los tableros preexistentes actuales se seguirán ejecutando y aún podrá editarlos, descargarlos y programarlos, pero ya no podrá crear nuevos tableros preexistentes. Se le recomienda encarecidamente que actualice los tableros preexistentes actuales al formato de tablero más reciente.
 
->[!NOTE]
->
->Moving forward, consider using [Analysis Workspace projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) and their ability to be downloaded and scheduled.
+> [!NOTE] A continuación, considere la posibilidad de utilizar proyectos [de Espacio de trabajo de](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) análisis y su capacidad para descargarlos y programarlos.
 
 Cuando copia el tablero preexistente, el sistema lo abre para editarlo y ahí puede añadir contenido preexistente o nuevo. Al copiar un tablero preexistente, el original se conserva en la lista de tableros preexistentes.
 
->[!NOTE]
->
->Al agregar contenido heredado a un tablero, se crea un tablero basado en la funcionalidad de tablero más reciente. Sin embargo, el informe breve preexistente podría contener datos que estuvieran basados en la plataforma de datos anterior.
+> [!NOTE] Al agregar contenido heredado a un tablero, se crea un tablero basado en la funcionalidad de tablero más reciente. Sin embargo, el informe breve preexistente podría contener datos que estuvieran basados en la plataforma de datos anterior.
 
 **Para migrar un tablero preexistente de la versión 14.x a**
 
@@ -115,9 +111,7 @@ En el [!UICONTROL Administrador de tableros], puede ver si un tablero está prog
 
 ## Archivar un tablero
 
->[!NOTE]
->
->Esta funcionalidad ya no estará disponible en enero de 2020.
+> [!NOTE] Esta funcionalidad ya no estará disponible en enero de 2020.
 
 Instrucciones sobre cómo archivar cualquier tablero enviado como archivo PDF. El sistema almacena el archivo archivado durante dos años o hasta que llegue al límite máximo de 4 GB de informes archivados, lo que suceda primero.
 
