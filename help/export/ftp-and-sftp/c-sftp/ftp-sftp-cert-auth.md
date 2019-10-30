@@ -1,26 +1,26 @@
 ---
-description: La conexión sin contraseña a cuentas FTP solo es posible mediante una conexión SFTP y un método de autenticación alternativo. Para esto se necesita un conjunto de dos archivos (uno residirá en la cuenta de FTP y otro residirá en el equipo), que es una combinación de clave pública y privada.
-keywords: ftp; sftp
-seo-description: La conexión sin contraseña a cuentas FTP solo es posible mediante una conexión SFTP y un método de autenticación alternativo. Para esto se necesita un conjunto de dos archivos (uno residirá en la cuenta de FTP y otro residirá en el equipo), que es una combinación de clave pública y privada.
-seo-title: Conectarse a Adobe a través de SFTP sin contraseña
+description: La conexión sin contraseña a las cuentas de FTP solo es posible mediante una conexión SFTP y un método de autenticación alternativo. Para esto se necesita un conjunto de dos archivos (uno residirá en la cuenta de FTP y otro residirá en el equipo), que es una combinación de clave pública y privada.
+keywords: ftp;sftp
+seo-description: La conexión sin contraseña a las cuentas de FTP solo es posible mediante una conexión SFTP y un método de autenticación alternativo. Para esto se necesita un conjunto de dos archivos (uno residirá en la cuenta de FTP y otro residirá en el equipo), que es una combinación de clave pública y privada.
+seo-title: Conectarse a Adobe a través de un SFTP sin contraseña
 solution: Analytics
-title: Conectarse a Adobe a través de SFTP sin contraseña
-uuid: 88728309-50 d 2-450 b-b 0 e 6-7 dcdf 61 b 5 dbc
+title: Conectarse a Adobe a través de un SFTP sin contraseña
+uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Conectarse a Adobe a través de SFTP sin contraseña
+# Conectarse a Adobe a través de un SFTP sin contraseña
 
-La conexión sin contraseña a cuentas FTP solo es posible mediante una conexión SFTP y un método de autenticación alternativo. Para esto se necesita un conjunto de dos archivos (uno residirá en la cuenta de FTP y otro residirá en el equipo), que es una combinación de clave pública y privada.
+La conexión sin contraseña a las cuentas de FTP solo es posible mediante una conexión SFTP y un método de autenticación alternativo. Para esto se necesita un conjunto de dos archivos (uno residirá en la cuenta de FTP y otro residirá en el equipo), que es una combinación de clave pública y privada.
 
 Esto no es menos seguro que la autenticación con contraseña. Se trata de otra forma de autenticación que no requiere que el usuario escriba la contraseña cada vez. Cuando se usa debidamente, estos archivos permiten al equipo en cuestión iniciar sesión sin tener que indicar la contraseña. Esta configuración se debe establecer en cada equipo. Las demás conexiones que no usen estos archivos de claves tienen que especificar una contraseña.
 
-Algunos clientes requieren un SFTP (Protocolo seguro de transferencia de archivos) para transmitir datos confidenciales. Una conexión SFTP es más segura que una conexión FTP normal porque permite la comunicación de datos cifrados. De forma predeterminada, todas las cuentas FTP de Adobe están listas para SFTP. Se puede abrir una conexión SFTP con un nombre de usuario y una contraseña válidos utilizando un cliente SFTP que se conecte al puerto 22 (las conexiones FTP normales que no son seguras utilizan el puerto 21).
+Algunos clientes requieren un SFTP (Protocolo seguro de transferencia de archivos) para transmitir datos confidenciales. Una conexión SFTP es más segura que una conexión FTP normal porque permite la comunicación de datos cifrados. De forma predeterminada, todas las cuentas de FTP de Adobe están listas para SFTP. Una conexión SFTP puede abrirse con un nombre de usuario y una contraseña válidos mediante un cliente SFTP que se conecte al puerto 22 (las conexiones FTP normales que no son seguras usan el puerto 21).
 
-Cuando se utiliza SFTP, es posible utilizar claves privadas para conectarse a la cuenta sin contraseña en condiciones específicas. Con este método, el equipo puede usar archivos de claves para la autenticación en lugar de la habitual autenticación por contraseña. Esto quiere decir que solo el equipo que posee la clave privada puede conectarse sin contraseña. Los demás equipos o usuarios siguen teniendo que autenticarse con contraseña (salvo que también se hayan configurado claves privadas en estos equipos).
+Cuando se utiliza SFTP, es posible, bajo condiciones específicas, utilizar claves privadas para conectarse a la cuenta sin contraseña. Con este método, el equipo puede usar archivos de claves para la autenticación en lugar de la habitual autenticación por contraseña. Esto quiere decir que solo el equipo que posee la clave privada puede conectarse sin contraseña. Los demás equipos o usuarios siguen teniendo que autenticarse con contraseña (salvo que también se hayan configurado claves privadas en estos equipos).
 
 **Para configurar y usar claves privadas para la autenticación sin contraseña**
 
