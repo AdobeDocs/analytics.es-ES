@@ -5,9 +5,9 @@ seo-title: Acerca de los segmentos y los contenedores
 solution: Analytics
 title: Acerca de los segmentos y los contenedores
 topic: Segmentos
-uuid: e 8 b 1 edd 1-5 d 6 c -4213-994 b-alimentada 789 ad 30 a 4
+uuid: e8b1edd1-5d6c-4213-994b-feed789ad30a4
 translation-type: tm+mt
-source-git-commit: ecc601c17b6552baf0e8887b66326259d7498c79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,10 +28,10 @@ Los segmentos identifican quiénes son sus visitantes (país, sexo, cafetería),
 
 Los segmentos pueden basarse en los siguientes valores:
 
-* Visitantes en función de atributos: tipo de explorador, dispositivo, número de visitas, país o sexo.
-* Visitantes en función de interacciones: campañas, búsqueda de palabras clave, motor de búsqueda.
+* Visitantes en función de atributos: tipo de explorador, dispositivo, número de visitas, país, sexo.
+* Visitantes en función de las interacciones: campañas, búsqueda de palabras clave, motor de búsqueda.
 * Visitantes en función de salidas y entradas: visitantes de Facebook, una página de aterrizaje definida, dominio de referencia.
-* Visitantes en función de variables personalizadas: campo de formulario, categorías definidas, ID de cliente.
+* Visitantes basados en variables personalizadas: campo de formulario, categorías definidas, ID de cliente.
 
 Cuando genera segmentos de audiencia en el Generador de segmentos, define condiciones utilizando los operadores [!UICONTROL Y] y [!UICONTROL O] entre los contenedores.
 
@@ -68,7 +68,7 @@ En este vídeo de YouTube se proporciona una breve descripción sobre qué son l
 
 ## About containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
-Un segmento establece las condiciones necesarias para filtrar a un visitante en función de sus atributos o de las interacciones con su sitio. Para establecer las condiciones en un segmento, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de segmentos proporciona una sencilla arquitectura para crear estos subconjuntos y aplicar reglas como contenedores jerárquicos de visitante, visita o visita individual.
+Un segmento establece las condiciones necesarias para filtrar a un visitante en función de sus atributos o de las interacciones con su sitio. Para establecer las condiciones en un segmento, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de segmentos proporciona una arquitectura sencilla para crear estos subconjuntos y aplicar reglas como contenedores anidados, jerárquicos de visitantes, visitas o visitas individuales.
 
 La arquitectura de contenedor empleada en el Generador de segmentos define el **[!UICONTROL visitante]como el contenedor exterior, que incluye datos globales específicos del visitante en las visitas y vistas de páginas.** Un contenedor de **[!UICONTROL visita]** anidado le permite establecer reglas para desglosar los datos del visitante en función de las visitas, y un contenedor de **visita individual]anidado le permite desglosar la información del visitante según las vistas de página individuales.[!UICONTROL ** Cada contenedor le permite realizar informes basados en el historial del visitante o en las interacciones detalladas por visitas, o bien desglosar las visitas individuales.
 
@@ -103,13 +103,13 @@ El contenedor de visita individual define qué visitas individuales de página d
 Los contenedores de visitas individuales incluyen valores basados en el desglose de una sola página:
 
 * Productos
-* Props de lista
+* props de lista
 * eVars de lista
 * eVars de comercialización (en el contexto de eventos)
 
    >[!NOTE]
    >
-   >Si utiliza este contenedor en un valor que persiste, como una evar, obtendrá todas las visitas individuales donde ese valor persiste. En el caso de un código de seguimiento que expire tras una semana, ese valor podría persistir en varias visitas.
+   >Si utiliza este contenedor en un valor que persiste, como una eVar, extraerá todas las visitas individuales en las que dicho valor persista. En el caso de un código de seguimiento que expire tras una semana, ese valor podría persistir en varias visitas.
 
 **Contenedor de grupo lógico**
 
@@ -194,7 +194,7 @@ Al realizar informes desde el contenedor de visita individual, podrá comprobar 
 
 >[!IMPORTANT]
 >
->Independientemente de cómo vea los datos (desde los contenedores Visita, Visita o Visitante), todos tienen el mismo número de visitantes, 63, 541, en este ejemplo. Independientemente de cómo genere el informe, la condición de visitante inicial —los visitantes que vieron la página Abrigos de invierno— permanece intacta. Es el subconjunto de datos desde el que realiza el informe en los diferentes niveles.
+>Independientemente de cómo vea los datos (desde los contenedores de visita individual, visita o visitante), todos tienen el mismo número de visitantes, 63.541 en este ejemplo. Independientemente de cómo genere el informe, la condición de visitante inicial —los visitantes que vieron la página Abrigos de invierno— permanece intacta. Es el subconjunto de datos desde el que realiza el informe en los diferentes niveles.
 
 **Informes desde el contenedor de visita**
 
@@ -206,7 +206,7 @@ Si muestra valores de segmento desde el contenedor de visita, comprobará que el
 
 ![](assets/container_report_Visit.png)
 
-**Informes desde el contenedor Visitante**
+**Informes desde el contenedor de visitante**
 
 Si esta misma condición se encuentra dentro de un contenedor de visitante, entonces el informe enumera todas las páginas visualizadas por el visitante donde *Página es igual a Abrigos de invierno* sea un valor verdadero. Eso significa que si un visitante vio la página Abrigos de invierno, se enumerarán todas las páginas del contenedor de visitante, incluidas las vistas de página de otras visitas. Por consiguiente, también se enumerarán en el informe otras páginas que no cumplen la condición, puesto que el visitante las vio previamente. En el informe se enumerarán todas las páginas del contenedor de visitante, incluso si son anteriores y no cumplen estrictamente las condiciones.
 
@@ -220,7 +220,7 @@ Resumiendo: es fundamental entender cómo funciona la segmentación en diferente
 
 ## Reporting based on the container {#section_D0604748F2794327B8C668617A31EC18}
 
-Cada desglose de los datos de segmentos tiene un ámbito al que se aplica. Most breakdowns are based on *Page Views*, however, many valuable segments are based on the *Visit* container, and to a lesser degree the *Visitor* container. Es importante entender los informes en función del alcance del contenedor.
+Cada desglose de datos de segmentos tiene un ámbito al que se aplica. Most breakdowns are based on *Page Views*, however, many valuable segments are based on the *Visit* container, and to a lesser degree the *Visitor* container. Es importante entender los informes en función del alcance del contenedor.
 
 Partiendo del ejemplo del segmento *Página = Abrigos de invierno* utilizado anteriormente, las cuestiones enumeradas a continuación definen otros aspectos del segmento en función de cómo se aplican los datos del contenedor y de cómo debería coincidir el alcance de los datos con el tipo de segmento.
 
@@ -285,7 +285,7 @@ En este ejemplo, como todas las páginas tienen el mismo valor de dominio de ref
 
 ![](assets/container_report_persist_Visit.png)
 
-**Informes desde el contenedor Visitante**
+**Informes desde el contenedor de visitante**
 
 Desde el contenedor de visitante, el informe de página enumera todas las páginas vistas por cualquier visitante donde *Dominio de referencia es igual a "aol.com"* tenga un valor verdadero. Por consiguiente, si un visitante ha tenido *"aol.com"* como dominio de referencia en algún momento en el historial (dentro del período de tiempo definido), entonces se enumerarán todas las páginas del contenedor de visitante, incluidas las vistas de página de otras visitas. También se enumerarán en el informe las páginas que no cumplen la condición principal, ya que están incluidas en el contenedor de visitante. En el informe se enumerarán todas las páginas del contenedor de visitante, incluso si son anteriores y no cumplen estrictamente las condiciones.
 
@@ -300,5 +300,5 @@ Cuando vea datos desde el contenedor de visitante, fíjese en que las vistas de 
 Resumiendo:
 
 * El contenedor de visita devuelve todas las páginas vistas en una visita donde al menos una página cumple los criterios. Así pues, si una página se ve solo en la visita 1 del día 1, entonces se incluyen en los datos todas las páginas vistas en toda la visita.
-* Tenga cuidado cuando la condición con la que está segmentando se encuentra en una eVar o en otro tipo de variable persistente. Por ejemplo, podría utilizar la condición "donde campaña contiene correo electrónico", que expira tras 7 días. Si la campaña se establece en la primera visita, persistirá durante 7 días más. De este modo se incluirá cada visita, incluso si la campaña solo estaba establecida en la primera visita. Las demás visitas también se incluirán (siempre y cuando se encuentren dentro del intervalo de fechas del informe). Si desea que los valores persistentes dejen de incluirse, utilice el evento "instancia de" o una variable Prop equivalente, si está disponible.
+* Tenga cuidado cuando la condición con la que está segmentando se encuentra en una eVar o en otro tipo de variable persistente. Por ejemplo: puede usar la condición "donde campaña contiene correo electrónico" y caduca pasados 7 días. Si la campaña se establece en la primera visita, persistirá durante 7 días más. De este modo se incluirá cada visita, incluso si la campaña solo estaba establecida en la primera visita. Las demás visitas también se incluirán (siempre y cuando se encuentren dentro del intervalo de fechas del informe). Si desea eliminar la inclusión de valores persistentes, utilice el evento "instancia de" o una variable prop equivalente, si está disponible.
 
