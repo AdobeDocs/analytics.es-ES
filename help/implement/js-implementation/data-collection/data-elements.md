@@ -7,8 +7,8 @@ solution: Analytics
 title: Recopilación de datos de elementos de formulario
 topic: Desarrollador e implementación
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
