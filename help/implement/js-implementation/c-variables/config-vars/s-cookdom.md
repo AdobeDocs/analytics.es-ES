@@ -1,19 +1,19 @@
 ---
 description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.cookieDomain
 
-The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set.
+La variable determina el dominio en que se establecen las cookies de [!DNL Analytics] `s_cc`y `s_sq`.
 
-Normalmente, `s.cookieDomainPeriods` se utiliza para generar `s.cookieDomain` a partir de `window.location.hostname`.  En lugar de usar `s.cookieDomainPeriods`, puede establecer explícitamente `s.cookieDomain` lo que desee utilizar en la implementación. Por ejemplo, podría establecer cookies en el nombre de página completo mediante:
+Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `window.location.hostname`. Instead of using `s.cookieDomainPeriods`, you can explicitly set `s.cookieDomain` to what you want to use in your implementation. Por ejemplo, podría establecer cookies en el nombre de página completo mediante:
 
 `s.cookieDomain = window.location.hostname;`
