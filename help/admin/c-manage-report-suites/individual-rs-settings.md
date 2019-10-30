@@ -5,9 +5,9 @@ seo-title: Configuración de grupos de informes individuales
 solution: Analytics
 title: Configuración de grupos de informes individuales
 topic: Herramientas de administración
-uuid: a 61164 ef-fc 96-44 ef -95 d 3-49 e 88 d 5 fd 94 a
+uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,6 +20,6 @@ Para acceder a [!UICONTROL Configuración de grupos de informes individuales]:
 
 1. Haga clic en **[!UICONTROL Administración]** y, a continuación, en **[!UICONTROL Grupos de informes]**.
 
-1. Seleccione un grupo de informes.
+1. Selección de un grupo de informes.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Suite Settings]** &gt; *`<selection>`*.
 
