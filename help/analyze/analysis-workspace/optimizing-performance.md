@@ -1,47 +1,47 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Optimizar el rendimiento de Analysis Workspace
-title: Optimizar el rendimiento de Analysis Workspace
-uuid: de 51 d 03 d-d 555-4 f 0 e-b 19 c -4 a 8 f 140770 fc
+seo-title: Optimizar rendimiento de Analysis Workspace
+title: Optimizar rendimiento de Analysis Workspace
+uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 9cd6a17db45c139765bea70fa27f37526334bcd0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Optimizar el rendimiento de Analysis Workspace
+# Optimizar rendimiento de Analysis Workspace
 
-Determinados factores pueden influir en el rendimiento de un proyecto dentro de Analysis Workspace. Es importante conocer cuáles son antes de comenzar a crear un proyecto, de forma que este se pueda planificar y generar de forma óptima. Abajo se muestra una lista de factores que afectan al rendimiento y prácticas recomendadas para optimizar los proyectos. El rendimiento de Analysis Workspace es una de las principales prioridades de Adobe y lo mejoramos día a día.
+Determinados factores pueden influir en el rendimiento de un proyecto dentro de Analysis Workspace. Es importante saber cuáles son esos colaboradores antes de empezar a crear un proyecto para que pueda planear y construir el proyecto de la manera más óptima. Abajo se muestra una lista de factores que afectan al rendimiento y prácticas recomendadas para optimizar los proyectos. El rendimiento de Analysis Workspace es una de las principales prioridades de Adobe y es algo que seguimos mejorando cada día.
 
 ## Complejidad de la lógica de segmentos
 
 Los segmentos intrincados pueden tener un impacto significativo en el desempeño del proyecto. Los factores que agregan complejidad a un segmento (en orden descendente de impacto) incluyen:
 
-* Los operadores de "contiene", "contiene cualquiera de", "coincide", "comienza con" o "termina con"
+* Operadores de "contiene", "contiene cualquiera de", "coincidencias", "comienza por" o "termina por"
 * Segmentación secuencial, sobre todo cuando se utilizan restricciones de dimensión (Dentro/Después)
 * Número de elementos de dimensiones únicas dentro de las dimensiones utilizadas en el segmento (por ejemplo, Página = “A” cuando la Página tiene 10 elementos únicos será más rápido que Página = “A” cuando la Página tiene 100000 elementos únicos)
 * Número de dimensiones diferentes utilizadas (por ejemplo, Página = “Inicio” y Página = “Resultados de búsqueda”' será más rápido que eVar 1 = “rojo” y eVar 2 = “azul”'))
 * Muchos operadores O (en lugar de Y)
-* Contenedores anidados que varían en el ámbito (por ejemplo, "Visita" dentro de "Visita" dentro de "Visitante")
+* Contenedores anidados que varían en alcance (por ejemplo, "Visita individual" dentro de "Visita" dentro de "Visitante")
 
 **Prácticas recomendadas para la complejidad lógica**
 
 Aunque algunos de los factores de complejidad no se pueden prevenir, piense en opciones para reducir la complejidad de sus segmentos. En general, cuanto más específico pueda ser con sus criterios de segmento, mejor. Por ejemplo:
 
 * Con los contenedores, el uso de un solo contenedor en la parte superior del segmento será más rápido que una serie de contenedores anidados.
-* Con operadores, "es igual que" será más rápido que "contiene" y "es igual a" será más rápido que "contiene cualquiera de".
-* Con muchos criterios, los operadores Y serán más rápidos que varios operadores O. Asimismo, busque oportunidades para reducir muchas declaraciones O en una única instrucción "es igual a".
+* Con los operadores, "es igual a" será más rápido que "contiene" y "es igual a cualquiera de" será más rápido que "contiene cualquiera de".
+* Con muchos criterios, los operadores Y serán más rápidos que varios operadores O. Además, busque oportunidades para reducir muchas afirmaciones OR en una sola afirmación "es igual a cualquiera de".
 
-Además, [las clasificaciones](/help/components/c-classifications2/c-classifications.md) puede ayudar a consolidar muchos valores en grupos concisos a partir de los cuales crear segmentos. La segmentación en grupos de clasificación proporciona beneficios de rendimiento sobre los segmentos con muchos enunciados “O”, o criterios “contiene”.
+Además, [las clasificaciones](/help/components/c-classifications2/c-classifications.md) puede ayudar a consolidar muchos valores en grupos concisos a partir de los cuales crear segmentos. La segmentación en grupos de clasificación proporciona ventajas de rendimiento en relación con los segmentos que contienen muchas afirmaciones O criterios "contiene".
 
 ## Intervalo de datos solicitado
 
 El intervalo de datos que se solicita en un proyecto influye en el rendimiento de Analysis Workspace.
 
-**Prácticas recomendadas para el intervalo de datos**
+**Prácticas recomendadas para el rango de datos**
 
-Siempre que sea posible, no incorpore más datos de los que necesita.
+Cuando sea posible, no obtenga más datos de los que necesita.
 
 Recuerde que los intervalos de fechas (componentes morados) anulan el intervalo de fechas del panel. Como resultado, si está utilizando distintos intervalos de fechas como columnas (p. ej., columnas último mes, última semana o ayer), el intervalo de fechas del panel no tiene por qué abarcar todos los intervalos de fechas de las columnas. Puede establecerse simplemente en “ayer”, ya que los intervalos de fechas empleados en la tabla improvisada anularán los del panel. Para obtener más información acerca del trabajo con intervalos de fechas en Analysis Workspace, consulte [este vídeo](https://www.youtube.com/watch?v=ybmv6EBmhn0) .
 
@@ -57,7 +57,7 @@ Reduzca el número de visualizaciones en el proyecto. Analysis Workspace realiza
 
 ## Complejidad de las visualizaciones (segmentos, métricas, filtros)
 
-El tipo de visualización agregado (p. ej., visitas en el orden previsto o tabla improvisada) no tiene demasiada influencia por sí mismo en el rendimiento de un proyecto. Lo que afecta al tiempo de procesamiento es la complejidad de la visualización. Entre los factores que aumentan la complejidad de una visualización están:
+El tipo de visualización (por ejemplo, visitas en el orden previsto vs. tabla improvisada) que se agrega a un proyecto por sí solo no influye demasiado en el rendimiento del proyecto. Lo que afecta al tiempo de procesamiento es la complejidad de la visualización. Entre los factores que aumentan la complejidad de una visualización están:
 
 * El intervalo de datos solicitado, como se ha mencionado antes.
 * El número de segmentos aplicados; por ejemplo, los segmentos utilizados como columnas de una tabla improvisada.
@@ -70,7 +70,7 @@ El tipo de visualización agregado (p. ej., visitas en el orden previsto o tabla
 
 Si ha notado que sus proyectos no se cargan tan rápido como le gustaría, pruebe a sustituir algunos segmentos por eVars y filtros, si es posible.
 
-Si se encuentra constantemente empleando segmentos y métricas calculadas para puntos de datos que son importantes para su negocio, plantéese mejorar su implementación para capturar estos puntos de datos de forma más directa. El uso de un administrador de etiquetas como Launch Platform Platform y las reglas de procesamiento de Adobe puede hacer que los cambios de implementación sean rápidos y fáciles de implementar. Para entender mejor cómo simplificar los segmentos intrincados, vea “Complejidad de la lógica de segmento” más arriba.
+Si se encuentra constantemente empleando segmentos y métricas calculadas para puntos de datos que son importantes para su negocio, plantéese mejorar su implementación para capturar estos puntos de datos de forma más directa. El uso de un administrador de etiquetas como Adobe Experience Platform Launch y las reglas de procesamiento de Adobe puede hacer que los cambios de implementación sean rápidos y fáciles de implementar. Para entender mejor cómo simplificar los segmentos intrincados, vea “Complejidad de la lógica de segmento” más arriba.
 
 ## Número de paneles
 
@@ -78,7 +78,7 @@ Un panel puede contener muchas visualizaciones y, como resultado, el número de 
 
 **Práctica recomendada para el número de paneles**
 
-No intente agregar todo en un proyecto: cree proyectos separados que sirvan a un propósito o a un grupo de personas interesadas específico. Utilice etiquetas para organizar los proyectos por temas clave y comparta proyectos relacionados con grupos de personas interesadas.
+No intente agregar todo a un proyecto, sino crear proyectos distintos que sirvan a un propósito específico o a un grupo de interesados. Utilice etiquetas para organizar los proyectos por temas clave y comparta proyectos relacionados con grupos de personas interesadas.
 
 Si desea una mayor organización de los proyectos, recuerde que existe la opción de realizar [vínculos directos](https://www.youtube.com/watch?v=6IOEewflG2U) a su proyecto. Cree un índice interno de proyectos, de modo que las personas interesadas encuentren más fácilmente lo que necesitan.
 
@@ -91,19 +91,19 @@ Si necesita muchos paneles en un Workspace, contraiga paneles antes de guardar y
 
 El tamaño del conjunto de informes puede parecer un factor importante, pero en realidad tiene una importancia pequeña en el rendimiento del proyecto debido al modo en que Adobe gestiona el procesamiento de datos.
 
-## Número de usuarios que accede al mismo tiempo a Analysis Workspace
+## Número de usuarios que tienen acceso simultáneo a Analysis Workspace
 
-El número de usuarios que accede a Analysis Workspace o a proyectos específicos al mismo tiempo no tiene un efecto considerable en el rendimiento de Analysis Workspace si los usuarios acceden a distintos grupos de informes. Si los usuarios simultáneos acceden al mismo grupo de informes, el rendimiento se verá afectado.
+El número de usuarios que accede a Analysis Workspace o a proyectos específicos al mismo tiempo no tiene un efecto sustancial en el rendimiento de Analysis Workspace, si los usuarios acceden a grupos de informes diferentes. Si los usuarios simultáneos acceden al mismo grupo de informes, el rendimiento se verá afectado.
 
 ## Mensajes de error comunes en Analysis Workspace
 
-Puede encontrar errores al interactuar con Analysis Workspace. Los errores pueden producirse por varios motivos y son los más comunes.
+Puede encontrar errores al interactuar con Analysis Workspace. Los errores pueden producirse por varios motivos y los que se enumeran a continuación son los más comunes.
 
-| Mensaje de error | ¿Por qué sucede esto? |
+| Mensaje de error | ¿Por qué ocurre esto? |
 |---|---|
-| `The report suite is experiencing unusually heavy reporting. Please try again later.` | Su organización está tratando de ejecutar demasiadas solicitudes concurrentes para un grupo de informes específico. Contribuye a este error las solicitudes de API, proyectos programados, informes programados, alertas programadas y usuarios simultáneos que realizan solicitudes de informes. Recomendamos que las solicitudes y programaciones del grupo de informes se distribuyan de forma más uniforme a lo largo del día. |
-| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe está experimentando un problema que debe resolverse. Le recomendamos que envíe el código de error a través de una solicitud de Servicio de atención al cliente. |
-| `The request is too complex.` | Su solicitud de informes es demasiado grande y no se puede ejecutar. Los factores que contribuyen a este error son los tiempos de espera debido al tamaño de la solicitud, demasiados elementos coincidentes en un segmento o filtro de búsqueda, demasiadas métricas incluidas, dimensiones incompatibles y combinaciones de métricas, etc. Se recomienda simplificar la solicitud. |
-| `One of the segments or the search in this visualization contains a text search that returned too many results.` | Recomendamos limitar los criterios de texto de búsqueda e intentar de nuevo la solicitud. |
-| `This dimension does not currently support non-default attribution models.` | Recomendamos reemplazar la dimensión de la tabla por una que sea compatible con [la IQ de atribución](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html). |
-| `Your request failed as a result of too many columns or pre-configured rows.` | Recomendamos eliminar algunas de las columnas o filas, o considerar dividirlas en visualizaciones independientes. |
+| `The report suite is experiencing unusually heavy reporting. Please try again later.` | Su organización está intentando ejecutar demasiadas solicitudes simultáneas en un grupo de informes específico. Los factores que contribuyen a este error son las solicitudes de API, los proyectos programados, los informes programados, las alertas programadas y los usuarios simultáneos que realizan solicitudes de informes. Le recomendamos que las solicitudes y programaciones del grupo de informes se extiendan de manera más uniforme durante todo el día. |
+| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe está experimentando un problema que debe resolverse. Le recomendamos que envíe el código de error mediante una solicitud del Servicio de atención al cliente. |
+| `The request is too complex.` | La solicitud de informe es demasiado grande y no se puede ejecutar. Los contribuyentes a este error son tiempos de espera debido al tamaño de la solicitud, demasiados elementos coincidentes en un segmento o filtro de búsqueda, demasiadas métricas incluidas, combinaciones incompatibles de dimensiones y métricas, etc. Le recomendamos que simplifique su solicitud. |
+| `One of the segments or the search in this visualization contains a text search that returned too many results.` | Se recomienda reducir los criterios de texto de búsqueda y volver a intentar la solicitud. |
+| `This dimension does not currently support non-default attribution models.` | Se recomienda reemplazar la dimensión de la tabla por una que sea compatible con IQ [de atribución](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html). |
+| `Your request failed as a result of too many columns or pre-configured rows.` | Se recomienda eliminar algunas de las columnas o filas, o bien dividirlas en visualizaciones independientes. |
