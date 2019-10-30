@@ -3,7 +3,7 @@ description: Esta sección está dirigida a los administradores de Adobe Analyti
 seo-description: Esta sección está dirigida a los administradores de Adobe Analytics. Explora los nuevos parámetros de seguimiento de vínculos. Explica cómo garantizan la exclusividad y coherencia de los vínculos en distintos exploradores y dispositivos, y de qué modo facilitar el cambio de posición de los vínculos en una página.
 seo-title: Método de seguimiento de vínculos
 solution: Analytics
-title: Método de seguimiento de vínculos
+title: Seguimiento de vínculos metodología
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
