@@ -7,8 +7,8 @@ solution: Analytics
 title: Motivos por el que el control de rutas podría no registrarse
 topic: Desarrollador e implementación
 uuid: 9985b7f7-75ea-4c94-97a3-520f92630989
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
