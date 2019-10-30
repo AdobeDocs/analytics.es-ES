@@ -1,30 +1,30 @@
 ---
-description: Adobe permite exportar solicitudes del almacén de datos a servidores SFTP.
-keywords: ftp; sftp
-seo-description: Adobe permite exportar solicitudes del almacén de datos a servidores SFTP.
-seo-title: Envío de solicitudes del almacén de datos a servidores SFTP
+description: Adobe admite la exportación de solicitudes del almacén de datos a servidores SFTP.
+keywords: ftp;sftp
+seo-description: Adobe admite la exportación de solicitudes del almacén de datos a servidores SFTP.
+seo-title: Envío de solicitudes de Data Warehouse a los servidores SFTP
 solution: Analytics
-title: Envío de solicitudes del almacén de datos a servidores SFTP
-uuid: 393634 a 1-0643-4 d 63-bb 6 e-fb 80 f 1 ba 76 c 1
+title: Envío de solicitudes de Data Warehouse a los servidores SFTP
+uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Envío de solicitudes del almacén de datos a servidores SFTP
+# Envío de solicitudes de Data Warehouse a los servidores SFTP
 
-Adobe permite exportar solicitudes del almacén de datos a servidores SFTP.
+Adobe admite la exportación de solicitudes del almacén de datos a servidores SFTP.
 
 Asegúrese de que las tareas siguientes se hayan completado:
 
-Adobe permite exportar solicitudes del almacén de datos a servidores SFTP, siempre y cuando se cumplan los siguientes procedimientos:
+Adobe admite la exportación de solicitudes del almacén de datos a servidores SFTP, siempre que se cumplan los siguientes requisitos:
 
-* [!DNL sftp://] se especifica en el campo host (por ejemplo [!DNL sftp://ftp.example.com],) y SOLO se utiliza el puerto 22 al solicitar un informe de Almacén de datos.
+* [!DNL sftp://] se especifica en el campo host (por ejemplo, [!DNL sftp://ftp.example.com]) y SOLO se utiliza el puerto 22 al solicitar un informe del almacén de datos.
 
-   You can also use the [!DNL sftp+norename://] option, as described below.
+   También puede utilizar la [!DNL sftp+norename://] opción, como se describe a continuación.
 
-* [!DNL authorized_keys] El archivo de Adobe se encuentra en [!DNL .ssh] el directorio del directorio raíz del usuario con el que inicia sesión
+* Adobe's [!DNL authorized_keys] file is in the [!DNL .ssh] directory within the root directory of the user you log in with
 
 * El destino no es [!DNL ftp.omniture.com]. No se admite el protocolo SFTP entre los servidores internos de Adobe.
 * El destino admite la autenticación de un factor (PKI). Si se exigen dos factores, el informe no se podrá entregar. Asegúrese de que el servidor no esté configurado para intentar la autenticación usando dos factores. Adobe Analytics requiere que, al iniciar sesión, solo se utilice la clave.
@@ -48,4 +48,4 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 
 El comando PUT de SFTP coloca un archivo temporal con la extensión .part en el directorio especificado. Cuando la carga se termina, la extensión del archivo se cambia por la extensión final. Ahora el archivo ya está listo para su uso.
 
-Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. Este método es adecuado cuando el servidor SFTP gestiona el cambio de nombre de archivos durante la carga automáticamente y no existe posibilidad de que el archivo se procese antes de que se complete la carga.
+Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. Este método es adecuado cuando el servidor SFTP gestiona automáticamente el cambio de nombre de los archivos durante la carga y no hay posibilidad de que el archivo se procese antes de que la carga se complete.
