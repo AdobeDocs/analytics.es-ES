@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Visión general del Convertidor de proyectos de Análisis específicos
-title: Visión general del Convertidor de proyectos de Análisis específicos
-uuid: 7 d 78753 d-d 56 c -4 eea-b 1 dd -7 c 9 ec 225 cce 3
+seo-title: Resumen del conversor de proyectos de Ad Hoc Analysis
+title: Resumen del conversor de proyectos de Ad Hoc Analysis
+uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# Visión general del Convertidor de proyectos de Análisis específicos
+# Resumen del conversor de proyectos de Ad Hoc Analysis
 
 El Conversor de proyectos de Ad Hoc Analysis puede convertir sin problemas todos sus proyectos Ad Hoc a Analysis Workspace.
 
