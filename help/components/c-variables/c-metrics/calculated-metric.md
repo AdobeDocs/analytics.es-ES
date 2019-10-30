@@ -4,9 +4,9 @@ seo-description: Las métricas calculadas permiten combinar métricas para crear
 seo-title: Métricas calculadas
 solution: Analytics
 title: Métricas calculadas
-uuid: 039 fbb 1 a -8 fa 9-479 b-badb-ad 609 b 225524
+uuid: 039fbb1a-8fa9-479b-badb-ad609b225524
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
