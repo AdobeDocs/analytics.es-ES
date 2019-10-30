@@ -7,8 +7,8 @@ solution: Analytics
 title: Uso de props como contadores
 topic: Desarrollador e implementación
 uuid: ab83bd7e-10d9-49f9-b9e7-c50397e95c17
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,13 +29,9 @@ Para la página B, introduzca un valor similar en [!UICONTROL s.prop]1 para el R
 s.prop1="WindowsMP"
 ```
 
->[!NOTE]
->
->Adobe ofrece hasta 75 variables [!UICONTROL s.prop] que puede usar.
+> [!NOTE] Adobe ofrece hasta 75 variables [!UICONTROL s.prop] que puede usar.
 
 Mientras los visitantes llegan al sitio y visitan las páginas que contienen Real Player o el Reproductor de Windows Media, [!DNL Analytics] puede segmentar esos usuarios en función de qué páginas hayan visitado. A continuación, el informe [!UICONTROL Tráfico personalizado] muestra el número de visitas a cada página.
 
->[!NOTE]
->
->El nombre del informe de [!UICONTROL Tráfico personalizado] se puede personalizar. Por ejemplo, se puede cambiar el nombre del informe de [!UICONTROL Tráfico personalizado] por "Informe por tipos de reproductor".
+> [!NOTE] El nombre del informe de [!UICONTROL Tráfico personalizado] se puede personalizar. Por ejemplo, se puede cambiar el nombre del informe de [!UICONTROL Tráfico personalizado] por "Informe por tipos de reproductor".
 
