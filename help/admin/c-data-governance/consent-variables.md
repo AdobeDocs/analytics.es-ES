@@ -6,14 +6,14 @@ solution: Analytics
 title: Variables de informes de privacidad
 topic: Herramientas de administración
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Variables de informes de privacidad
 
-Para proporcionar asistencia adicional en la administración de datos de privacidad, hay disponible un conjunto de variables reservadas que se pueden utilizar junto con variables de datos de contexto específicas.
+Para proporcionar asistencia adicional en la administración de datos de privacidad, existe un conjunto de variables reservadas que se pueden utilizar junto con variables de datos de contexto específicas. 
 Estas variables de informes de privacidad proporcionan un marco fácil de usar para capturar el estado de privacidad en cada visita de análisis.
 
 ## Variables
@@ -24,14 +24,14 @@ Estas variables de informes de privacidad proporcionan un marco fácil de usar p
    * Contiene:
       * `contextData.['cm.ssf']=1` mostrado como SSF
       * `contextData.['opt.dmp']=N` mostrado como DMP
-      * `contextData.['opt.sell']=N` mostrado como SELLO
+      * `contextData.['opt.sell']=N` mostrado como SELL
 
 * Inclusión en la administración de consentimiento
    * Variable reservada: Prop de lista
    * Tipo: Cadena delimitada por comas
    * Contiene:
       * `contextData.['opt.dmp']=Y` mostrado como DMP
-      * `contextData.['opt.sell']=Y` mostrado como SELLO
+      * `contextData.['opt.sell']=Y` mostrado como SELL
 
 ## Creación de informes
 
@@ -39,19 +39,19 @@ Puede habilitar las variables de informes de privacidad mediante una nueva confi
 
 Cada grupo de informes se puede configurar de la siguiente manera:
 1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
-1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings &gt; Privacy Management.]**
+1. Seleccione los grupos de informes donde desee recopilar los datos de medios y haga clic en **[!UICONTROL Editar configuración &gt; Gestión de la privacidad.]**
 
    ![](assets/rsm-privacy-select.png)
 
-1. Haga clic en el botón **[!UICONTROL Activar informes]** de privacidad de datos. **** Nota: Una vez habilitadas, estas variables no se pueden desactivar.
+1. Haga clic en el botón **[!UICONTROL Activar informes de privacidad de datos.]** **** Nota: Una vez habilitadas, estas variables no se pueden desactivar.
 
    ![](assets/rsm-privacy-enable.png)
 
-1. Una vez activado, verá un mensaje de confirmación.
+1. Una vez activadas, verá un mensaje de confirmación.
 
    ![](assets/rsm-privacy-config.png)
 
-1. Las variables reservadas ahora están disponibles para los informes.  Consulte Opción de exclusión de administración de consentimiento y inclusión de administración de consentimiento.
+1. Las variables reservadas ahora están disponibles para los informes.  Consulte la Exclusión de administración de consentimiento e Inclusión de administración de consentimiento.
 
    ![](assets/rsm-privacy-reports.png)
 
@@ -59,13 +59,13 @@ Cada grupo de informes se puede configurar de la siguiente manera:
 
 Se han predefinido tres variables de datos de contexto para que funcionen con las variables reservadas de la administración de informes de privacidad.  Depende de cada ingeniero de implementación determinar cómo administrar y mantener la configuración de estas variables.
 
-Consulte Variables [de datos de](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) contexto para obtener instrucciones generales sobre cómo implementar variables de datos de contexto.
+Consulte [Variables de datos de contexto](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) para obtener instrucciones generales sobre cómo implementar variables de datos de contexto.
 
 ### SSF
 
 * Datos de contexto: `contextData.['cm.ssf']`
 * Valores aceptados:
-   * 1 - Al enviar el valor "1", indica que el reenvío del lado del servidor está en estado de exclusión. El valor "1" asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte Cumplimiento de [la privacidad electrónica de AAM.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * 1 - Al enviar el valor "1", indica que el reenvío del lado del servidor está en estado de exclusión. El valor "1" asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte [Cumplimiento de la privacidad electrónica de AAM.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
    * No se aceptan otros valores para este parámetro.
 
 ### DMP
@@ -75,7 +75,7 @@ Consulte Variables [de datos de](https://docs.adobe.com/help/en/analytics/implem
    * N: Al enviar el valor "N", esto indica que el consumidor está optando por dejar de compartirlo en las plataformas de administración de datos. **** Nota: La configuración de esta variable en "N" no bloquea actualmente el uso compartido a AAM, pero el bloqueo de llamadas a la funcionalidad AAM se agregará a principios de 2020. Por ahora, Adobe recomienda configurar `c.cm.ssf=1` y `c.opt.dmp=N` bloquear el envío de visitas a AAM.
    * Y: Al enviar el valor "Y", esto indica que el consumidor está optando por compartir en plataformas de administración de datos.
 
-### VENDER
+### SELL
 
 * Datos de contexto: `contextData.['opt.sell']`
 * Valores aceptados:
