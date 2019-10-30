@@ -1,19 +1,19 @@
 ---
 description: Puede hacer coincidir los valores con los errores de escritura más comunes y actualizarlos de modo que aparezcan correctamente en los informes.
 seo-description: Puede hacer coincidir los valores con los errores de escritura más comunes y actualizarlos de modo que aparezcan correctamente en los informes.
-seo-title: Limpiar valores en un informe
+seo-title: Limpiar los valores de un informe
 solution: Analytics
 subtopic: Reglas de procesamiento
-title: Limpiar valores en un informe
+title: Limpiar los valores de un informe
 topic: Herramientas de administración
-uuid: fcd 72 afc -3 a 3 c -47 a 9-a 5 e 4-53389 dba 7 d 83
+uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Limpiar valores en un informe
+# Limpiar los valores de un informe
 
 Puede hacer coincidir los valores con los errores de escritura más comunes y actualizarlos de modo que aparezcan correctamente en los informes.
 
