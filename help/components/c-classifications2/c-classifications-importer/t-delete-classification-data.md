@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Clasificaciones
 title: Eliminar datos de clasificación
 topic: Herramientas de administración
-uuid: 5 b 1 b 0 ac 7-ee 52-4 fd 8-b 98 e -25283595 cf 0 c
+uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,7 +25,7 @@ Instrucciones sobre cómo eliminar o quitar datos de clasificación.
 
    Alternatively, use [!DNL ~deletekey~]. Este comando trata la clasificación como si nunca se hubiera realizado para la clave especificada. Quita por completo la clasificación y todos los datos de columna de las tablas de búsqueda.
 
-   **Advertencia**: Solo necesita una columna que contenga [!DNL ~la clave de eliminación~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Este comando quita todos los metadatos de la fila. Adobe interpreta esta acción como si la clave nunca se hubiera clasificado y lo refleja en la categoría [Ninguno](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF).
+   **Advertencia**: Solo necesita una columna que contenga [!DNL ~eliminekey~]. The [!DNL ~empty~] command works at the cell level (key and column combination), so you need [!DNL ~empty~] in the classification column you want to remove. However, [!DNL ~deletekey~] works at the row level (the key and all associated metadata), so it only needs to appear in one of the columns in the row. Este comando quita todos los metadatos de la fila. Adobe interpreta esta acción como si la clave nunca se hubiera clasificado y lo refleja en la categoría [Ninguno](../../../components/c-classifications2/c-classifications-importer/nonclassified-keys.md#concept_233E51DDF3084FF7B7EA89381C73C5FF).
 
 1. Guarde el archivo y cárguelo mediante la ficha [!UICONTROL Importar archivo.]
 
@@ -33,7 +33,7 @@ Instrucciones sobre cómo eliminar o quitar datos de clasificación.
 
    **Propiedades de este comando**
 
-* [!DNL ~empty~] debe estar en minúsculas sin espacios. No son válidas las entradas siguientes:
+* [!DNL ~vacío~] debe estar en minúsculas sin espacios. No son válidas las entradas siguientes:
 
    * [!DNL ~EMPTY~]
    * [!DNL ~ empty ~]
