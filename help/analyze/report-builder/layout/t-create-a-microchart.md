@@ -1,18 +1,18 @@
 ---
 description: En el diseño personalizado, una columna de métrica se puede transformar en un gráfico de barras con un valor de porcentaje correspondiente o un valor de porcentaje con un gráfico de barras correspondiente. El valor de porcentaje es el valor de métrica o total de toda la solicitud sin filtrar en relación al período.
 seo-description: En el diseño personalizado, una columna de métrica se puede transformar en un gráfico de barras con un valor de porcentaje correspondiente o un valor de porcentaje con un gráfico de barras correspondiente. El valor de porcentaje es el valor de métrica o total de toda la solicitud sin filtrar en relación al período.
-seo-title: Crear un micrográfico
+seo-title: Creación de un micrográfico
 solution: Analytics
-title: Crear un micrográfico
+title: Creación de un micrográfico
 topic: Creador de informes
-uuid: 778 ef 184-9946-4958-b 08 f -6 ee 8 c 86 a 0 f 69
+uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Crear un micrográfico
+# Creación de un micrográfico
 
 En el diseño personalizado, una columna de métrica se puede transformar en un gráfico de barras con un valor de porcentaje correspondiente o un valor de porcentaje con un gráfico de barras correspondiente. El valor de porcentaje es el valor de métrica o total de toda la solicitud sin filtrar en relación al período.
 
