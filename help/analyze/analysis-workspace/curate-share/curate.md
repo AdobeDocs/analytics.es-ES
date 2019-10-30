@@ -8,7 +8,7 @@ title: Resumen de los procesos de curado y del uso compartido
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,7 +51,7 @@ Al compartir hace que este proyecto esté disponible para otros usuarios de Anal
    ![](assets/share_component.png)
 
 1. Agregue destinatarios.
-1. Si lo desea, puede compartir componentes del proyecto incrustados (segmentos, métricas calculadas e intervalos de fechas) con todos los destinatarios. Después de compartirse, estos componentes aparecerán en el menú desplegable de componentes de Workspace del destinatario.
+1. Si lo desea, puede compartir componentes del proyecto incrustados (segmentos, métricas calculadas e intervalos de fechas) con todos los destinatarios. Después de compartirse, estos componentes aparecerán en la lista desplegable de componentes del espacio de trabajo del destinatario.
 
    >[!IMPORTANT]
    >
