@@ -1,20 +1,20 @@
 ---
 description: La opción de FTP (SAINT) de las clasificaciones ofrece más flexibilidad a la hora de cargar grandes conjuntos de datos de clasificación, incluida la capacidad de cargar datos en varios grupos de informes, así como cargar conjuntos de datos con más de 50 000 filas.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: La opción de FTP (SAINT) de las clasificaciones ofrece más flexibilidad a la hora de cargar grandes conjuntos de datos de clasificación, incluida la capacidad de cargar datos en varios grupos de informes, así como cargar conjuntos de datos con más de 50 000 filas.
 seo-title: Clasificaciones
 solution: Analytics
 title: Clasificaciones
-uuid: 35936 c 98-b 785-43 eb -89 f 4-ab 42 a 10 db 256
+uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Clasificaciones
 
-La opción de FTP de clasificaciones proporciona más flexibilidad para cargar grandes conjuntos de datos de clasificación, incluida la capacidad de cargar datos en varios grupos de informes y cargar conjuntos de datos más de 50.000 filas.
+La opción de FTP de clasificaciones proporciona más flexibilidad para cargar grandes conjuntos de datos de clasificación, incluida la capacidad de cargar datos en varios grupos de informes y cargar conjuntos de datos de más de 50.000 filas.
 
 Consulte las [clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) si quiere conocer los pasos para descargar datos de clasificación por FTP y para cargar archivos de datos a través de FTP (incluidos los pasos de creación de una cuenta de FTP).
 
@@ -26,10 +26,10 @@ Para obtener información sobre los límites de FTP y la retención de datos, co
 
 ## Acerca del archivo .fin para cargas de clasificaciones y fuentes de datos {#section_1484719F8A134EAE91212DBD8F15174F}
 
-When you upload a classification or [!UICONTROL Data Source] file ( [!DNL .tab]or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. [!DNL .fin] Este archivo es un archivo de finalización. La función de este archivo es informar al sistema de que el archivo de datos se ha cargado completamente en la cuenta de FTP. The [!DNL .fin] file lets Adobe recognize that you are done with your import. Después de enviarlo, Adobe elimina ambos archivos del FTP y comienza a procesar la importación.
+When you upload a classification or [!UICONTROL Data Source] file ( [!DNL .tab]or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. La función de este archivo es informar al sistema de que el archivo de datos se ha cargado completamente en la cuenta de FTP. The [!DNL .fin] file lets Adobe recognize that you are done with your import. Después de enviarlo, Adobe elimina ambos archivos del FTP y comienza a procesar la importación.
 Importar archivo: [!DNL Classifications.tab]
 
-Finish File: [!DNL Classifications.fin]
+Finalizar archivo: [!DNL Classifications.fin]
 
 If you upload your Data Sources or classification file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL Experience Cloud]. Solo recibirá un aviso de esto si previamente ha indicado que su dirección de correo electrónico es el [!UICONTROL Destinatario de notificaciones] en la ventana [!UICONTROL Crear cuenta de FTP] de Analytics. Si no se escribe ninguna dirección de correo electrónico en este campo, no se envían notificaciones.
 
