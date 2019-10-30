@@ -5,7 +5,7 @@ seo-title: Archivo de registro
 solution: Analytics
 title: Archivo de registro
 topic: Ad Hoc Analysis
-uuid: 1 e 5 c 0 e 70-928 b -45 de -9 f 5 b -0 c 562909 baed
+uuid: 1e5c0e70-928b-45de-9f5b-0c562909basado
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -25,5 +25,5 @@ Para guardar y ver rápidamente un archivo de registro puede hacer lo siguiente:
 
 >[!NOTE]
 >
->El registro que guardó con este procedimiento es para la sesión actual.
+>El registro que guarda con este procedimiento es para la sesión actual.
 
