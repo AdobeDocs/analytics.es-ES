@@ -4,10 +4,10 @@ seo-description: Flujo muestra las rutas más comunes que siguen los usuarios en
 seo-title: Flujo
 solution: Analytics
 title: Flujo
-topic: 'Informes '
-uuid: d 114 d 117-b 5 cc -483 d-a 169-c 56 d 615 fa 1 c 4
+topic: Informes
+uuid: d114d117-b5cc-483d-a169-c56d615fa1c4
 translation-type: tm+mt
-source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
