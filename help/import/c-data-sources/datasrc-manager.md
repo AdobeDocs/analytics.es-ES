@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fuentes de datos
 title: Administrador de fuentes de datos
 topic: Desarrollador e implementación
-uuid: ccfa 4 a 1 c -7 c 56-421 b -8 ee 6-a 42 b 334659 b 1
+uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
 
 Cree, administre y visualice la utilización de fuentes de datos en un grupo de informes.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Fuentes de datos]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Fuentes **** de datos.
 
 ## Ficha Crear {#section_74603FDA3D8842E49F1A51624A06DE20}
 
@@ -67,7 +67,7 @@ Las selecciones que realice en la ficha Crear determinarán los campos iniciales
    <td colname="col1"> <p>Estado </p> </td> 
    <td colname="col2"> <p> Estado actual del archivo. Puede ser alguno de los siguientes valores: </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">En cola (paso 1 de 3): el archivo existe, pero no se ha empezado a procesar. Si el archivo no aparece en los próximos 30 minutos, verifique que esté presente el archivo <span class="filepath">.fin</span> correspondiente. </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">En cola (paso 1 de 3): el archivo existe, pero no se ha empezado a procesar. If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">Preparación (paso 2 de 3): el sistema está revisando el archivo en busca de errores o advertencias. </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">Procesamiento (paso 3 de 3): el sistema está procesando el archivo. </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">Fallido: el archivo no se ha procesado debido a errores. </li> 
