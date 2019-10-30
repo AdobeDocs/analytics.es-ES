@@ -7,8 +7,8 @@ solution: Analytics
 title: Comparación de props y eVars
 topic: Desarrollador e implementación
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ A continuación se indican las principales diferencias entre props y eVars:
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Métrica </p> </th> 
-   <th colname="col2" class="entry"> <p>Props </p> <p>(Variables de tráfico) </p> </th> 
+   <th colname="col2" class="entry"> <p>Propriétés </p> <p>(Variables de tráfico) </p> </th> 
    <th colname="col3" class="entry"> <p>eVars </p> <p>(Variables de conversión) </p> </th> 
   </tr>
  </thead>
