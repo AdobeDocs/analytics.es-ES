@@ -4,10 +4,10 @@ seo-description: El informe de flujo de sección anterior es similar al de flujo
 seo-title: Flujo de sección anterior
 solution: Analytics
 title: Flujo de sección anterior
-topic: 'Informes '
-uuid: 7 be 8 d 3 e 5-4936-40 a 0-845 c -1617208479 d 6
+topic: Informes
+uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
