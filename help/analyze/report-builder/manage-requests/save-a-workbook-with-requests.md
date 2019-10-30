@@ -5,9 +5,9 @@ seo-title: Guardar un libro con solicitudes
 solution: Analytics
 title: Guardar un libro con solicitudes
 topic: Creador de informes
-uuid: 31611031-0982-4124-9 fc 7-7888124 aa 603
+uuid: 31611031-0982-4124-9fc7-788124aa603
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
