@@ -5,7 +5,7 @@ seo-title: Integración de Silverpop
 title: Integración de Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -116,7 +116,7 @@ Para configurar la integración:
    <td colname="col3"> <p>Esta integración crea los segmentos definidos por el socio que se muestran en la sección Segmentos del socio. </p> <p>Además, puede seleccionar segmentos existentes de nivel de grupo de informes para incluirlos en la integración. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p>Solicitudes de acceso </p> </td> 
+   <td colname="col2"> <p> Solicitudes de acceso </p> </td> 
    <td colname="col03"> <p>(3) Configuración de datos </p> </td> 
    <td colname="col3"> <p> (Requerido) Active <span class="uicontrol"> Permitir que esta integración descargue datos</span>del producto. </p> <p>Opcional: Permite que esta integración descargue ingresos, pedidos y unidades. </p> </td> 
   </tr> 
