@@ -6,16 +6,16 @@ solution: Analytics
 subtopic: Fuentes de datos
 title: Integración de transacciones y clientes
 topic: Desarrollador e implementación
-uuid: 71 f 73 a 47-3436-4314-a 182-36 de 4 bd 935 ba
+uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Integración de transacciones y clientes
 
-Las fuentes de datos proporcionan dos formas adicionales de integrar los eventos que ocurren sin conexión con los datos en línea.
+Las fuentes de datos ofrecen dos formas adicionales de integrar los eventos que se producen sin conexión con los datos en línea.
 
 * [Activar el registro de ID de transacción](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [Integración de transacciones](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -27,7 +27,7 @@ Estas integraciones asocian los datos correspondientes a actividades sin conexi�
 
 El ID de transacción se puede activar y desactivar desde la interfaz de usuario, sin necesidad de recurrir al servicio de atención al cliente:
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL[Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -49,7 +49,7 @@ La pestaña [!UICONTROL Administrar] muestra el estado del registro de ID de tra
 
 Los ID de cliente se usan para indicar la actividad que realiza un cliente estando desconectado y vincularla con su actividad en línea. Estos ID se deben usar cuando:
 
-* Se coloca un ID de cliente en la variable *`visitorID`* .
+* Se coloca un ID de cliente en la variable *`visitorID`* campaign.
 * No hay ningún punto indicado en el que la actividad del cliente pase a realizarse sin conexión, como puede ser la solicitud o la compra de un cliente potencial.
 
 Para configurar este tipo de fuente de datos, consulte [Visitor ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
