@@ -1,18 +1,18 @@
 ---
-description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
-seo-description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
+description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y el software de correo electrónico.
+seo-description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y el software de correo electrónico.
 seo-title: Antes de activar esta integración
 title: Antes de activar esta integración
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Antes de activar esta integración {#before-you-activate-this-integration}
 
-Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
+Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y el software de correo electrónico.
 
 Al hacerlo, se asegurará de que se apliquen las prácticas recomendadas o los requisitos previos adecuados antes de la activación, lo que resultará en una integración óptima y exitosa.
 
@@ -58,11 +58,9 @@ En la tabla siguiente se describen las variables de Analytics activadas automát
 
 ### Variables requeridas {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE]
->
->Esta integración utiliza variables dedicadas para los datos del almacén de aplicaciones, por lo que no es necesario asignar variables y eventos de comercio personalizados.
+> [!NOTE] Esta integración utiliza variables dedicadas para los datos del almacén de aplicaciones, por lo que no es necesario asignar variables y eventos de comercio personalizados.
 
-| Tipo de variable | Nombre  | Método de obtención de datos | Descripción |
+| Tipo de variable | Nombre | Método de obtención de datos | Descripción |
 |---|---|---|---|
 | eVar | ID de objeto de App Store | Importado desde appFigures. | Configure esta eVar con caducidad de visita, asignación más reciente y subrelaciones básicas. |
 | event (numérico) | Descargas de App Store | Importado desde appFigures. | El número de descargas de aplicaciones móviles. |
