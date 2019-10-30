@@ -7,8 +7,8 @@ solution: Analytics
 title: Variables personalizadas
 topic: Desarrollador e implementación
 uuid: 54adf622-7f05-49c0-b7e6-702bb2f17b1c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ Lista de variables personalizadas que se usan en Analytics.
  <tbody> 
   <tr> 
    <td> Variables de tráfico </td> 
-   <td> Compruebe el valor de prop1 - 75. Esta es una lista de los elementos para comprobar. 
+   <td> Compruebe el valor de prop1 - 75. Esta es una lista de los elementos para comprobar.
     <ul id="ul_0EE2D50BA90F4F21BD63268A5082F980"> 
      <li id="li_A6E4D66E8A03400491A26A08E4945908">¿Se han utilizado las mayúsculas y minúsculas correctamente? El registro "ValueA" es diferente de "valueA". Puede usar todo en minúsculas porque un pequeño subconjunto de exploradores convierte todas las variables a minúsculas. </li> 
      <li id="li_65CBFB908E7B4ED5AF9518FE5B58D4E2">¿Los valores tienen menos de 100 caracteres de longitud? Si no es así, se podrían recortar algunos valores. </li> 
@@ -36,7 +36,7 @@ Lista de variables personalizadas que se usan en Analytics.
   </tr> 
   <tr> 
    <td> Variables de conversión </td> 
-   <td> Las variables <span class="wintitle">econversion</span> incluyen las eVar de 1 a 75. Esta es una lista de los elementos para comprobar. 
+   <td> Las variables <span class="wintitle">econversion</span> incluyen las eVar de 1 a 75. Esta es una lista de los elementos para comprobar.
     <ul id="ul_CA10C5B9F24B4C49A64CA84A9DCE8E63"> 
      <li id="li_8CCD92F3AD5E49EBA91C9B008DA47016">¿Se han utilizado las mayúsculas y minúsculas correctamente? El registro "ValueA" es diferente de "valueA". Puede usar todo en minúsculas porque un pequeño subconjunto de exploradores convierte todas las variables a minúsculas. </li> 
      <li id="li_5B6FDEDB2C32409AA59D6BB0DF2346CB">¿Los valores tienen menos de 255 caracteres de longitud? Si no es así, se podrían recortar algunos valores. </li> 
@@ -45,7 +45,7 @@ Lista de variables personalizadas que se usan en Analytics.
   </tr> 
   <tr> 
    <td> Eventos personalizados </td> 
-   <td> Los eventos incluyen valores estándar (<span class="wintitle">prodView</span>, <span class="wintitle">scOpen</span>, <span class="wintitle">scAdd</span>, <span class="wintitle">scCheckout</span>, <span class="wintitle">purchase</span>) y eventos personalizados desde event1 a event100. Todos los eventos se envían en la variable de eventos. Si hay varios eventos en una página, deben separarse con comas (sin espacios en blanco). 
+   <td> Los eventos incluyen valores estándar (<span class="wintitle">prodView</span>, <span class="wintitle">scOpen</span>, <span class="wintitle">scAdd</span>, <span class="wintitle">scCheckout</span>, <span class="wintitle">purchase</span>) y eventos personalizados desde event1 a event100. Todos los eventos se envían en la variable de eventos. Si hay varios eventos en una página, deben separarse con comas (sin espacios en blanco).
     <ul id="ul_2213CC9DE892433FAF6FC1F5A2B841B4"> 
      <li id="li_15E31A9FF1654DFA93C158F422B9EAE3">Para todos los eventos de conversión estándar, los productos también deben rellenarse con los productos correspondientes. Para todos los eventos excepto las compras, los elementos qty y price son opcionales. </li> 
      <li id="li_03ED9AAC45DA47A58AB482E2CEBF5108">El evento de <span class="wintitle">compras</span> debe configurarse solo una vez en una sesión después de completar y confirmar la compra. </li> 
