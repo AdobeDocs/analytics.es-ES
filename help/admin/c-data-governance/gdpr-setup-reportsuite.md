@@ -5,7 +5,7 @@ seo-title: Etiquetado de datos de grupos de informes
 title: Etiquetado de datos de grupos de informes
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,15 +14,13 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identidad, confidencialidad y control de datos a cada variable de un grupo de informes determinado. Asegúrese de familiarizarse primero con las etiquetas y sus definiciones.
 
->[!NOTE]
->
->Recuerde que el etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
+> [!NOTE] Recuerde que el etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
 
 ## Asignación o edición de etiquetas de grupos de informes {#section_39F829F35A274EACA532E2F6FF392996}
 
-**Ejemplo**: Usted, como controlador de datos, planea recopilar direcciones de correo electrónico e ID de cookies de los sujetos de datos para procesar sus solicitudes de privacidad de datos. Estos ID de cookie se almacenan en un grupo de informes en Adobe Analytics. Si desea crear una etiqueta para direcciones de correo electrónico e ID de cookie, debe usar el marco de etiquetado y aplicación del uso de los datos (DULE) de Adobe Cloud Platform en Analytics.
+**Ejemplo**: Usted, como responsable del tratamiento de datos, pretende recopilar direcciones de correo electrónico e ID de cookie de los interesados para tratar sus solicitudes de privacidad de datos. Estos ID de cookie se almacenan en un grupo de informes en Adobe Analytics. Si desea crear una etiqueta para direcciones de correo electrónico e ID de cookie, debe usar el marco de etiquetado y aplicación del uso de los datos (DULE) de Adobe Cloud Platform en Analytics.
 
-1. In Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** &gt; **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
+1. En Analytics, vaya a **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de datos]** &gt; **[!UICONTROL (seleccione el grupo de informes)]** ![](assets/privacy_rs_settings.png)
 
 1. Seleccione el grupo de variables que desea etiquetar.
 
@@ -35,7 +33,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
    * **Dimensiones de conversión** (eVars no relacionadas con la comercialización)
    * **Dimensiones de tráfico personalizadas** (props)
    * **Dimensiones y eventos de la solución** (las dimensiones y eventos relacionadas con soluciones como Móvil, Vídeo, Activity Map, etc. e integraciones con soluciones como Adobe Campaign, Adobe Experience Manager, Advertising Cloud, etc.)
-   * **Dimensiones de procesamiento de datos** (las variables que no están expuestas directamente en la generación de informes mediante la interfaz de Adobe Analytics, pero están disponibles mediante las fuentes de datos o las solicitudes del almacén de datos)
+   * **Dimensiones de procesamiento de datos** (las variables que no están expuestas directamente en la generación de informes mediante la interfaz de Adobe Analytics, pero están disponibles mediante las fuentes de datos o las solicitudes del Data Warehouse)
 
 1. (Opcional) Haga clic en el icono de información (i) junto a cada variable para comprender mejor sus valores más comunes a lo largo de los últimos 90 días. (Esta funcionalidad no está disponible para las dimensiones de procesamiento de datos porque no está disponible en la interfaz de Analytics).
 
@@ -57,7 +55,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. Utilice esta sección para indicar a Adobe cómo gestionar cada variable para el acceso a la privacidad de datos y las solicitudes de eliminación, así como para definir qué variables deben analizarse para encontrar los ID de sujeto de datos para estas solicitudes. For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
+1. Abra la sección de datos de privacidad de datos para establecer las etiquetas de **Administración de datos**. Utilice esta sección para instruir cómo gestiona Adobe cada variable de solicitudes de eliminación y acceso de privacidad de datos, así como para la definición de qué variables deben analizarse para encontrar ID de interesados para estas solicitudes. Para obtener más información sobre estas etiquetas, consulte [Etiquetas de administración de datos (Privacidad de datos).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![](assets/privacy_labels.png)
 
@@ -65,7 +63,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
 ## Copia de etiquetas en grupos de informes{#section_7C6FDAFF049F4126B84F6261F72668EE}
 
-Si desea aplicar la misma configuración DULE/Data Privacy a más de un grupo de informes, siga estos pasos:
+Si desea aplicar la misma configuración de DULE/Privacidad de datos más de un grupo de informes, puede seguir estos pasos:
 
 1. Seleccione el grupo de variables (dimensiones estándar, dimensiones de conversión, etc.) que contenga la variable que desea copiar. Tenga en cuenta que solo puede copiar las etiquetas para un grupo de variables a la vez.
 1. Seleccione algunas o todas las variables de este grupo.
