@@ -5,7 +5,7 @@ seo-title: Activar la integración
 title: Activar la integración
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -32,9 +32,9 @@ Utilice el Asistente para la configuración de Conectores de datos de Adobe para
 | Enviado | Número de mensajes de correo electrónico enviados. |
 | Devoluciones totales | Número de mensajes de correo electrónico que no se entregaron a los destinatarios debido a un problema de entrega. |
 | Clics únicos | Número de clics distintos. |
-| Unique Opens | Número de aperturas distintas. |
-| Unsubscribed | Number of visitors who opened the email message but then clicked the Unsubscribe link to opt-out of future email messages from your organization. |
-| Segmentos | This integration creates the partner-defined segments displayed in the Partner Segments section. Additionally, you can select existing Report Suite-Level segments to include in the integration. |
-| Access Requests | Enable the recommended access privileges. |
-| Recopilación de datos | Select JavaScript Plug-in if you want to use the s_code.js plug-in as the collection model for this integration. **** Select **Automated Solution** if you want to use an automated collection model for this integration, then specify the unique identifiers used for this integration. Si selecciona esta opción, especifique los identificadores únicos utilizados para esta integración: <ul><li>Parámetro de cadena de consulta de ID del mensaje: Este valor representa el ID del mensaje que su socio de correo electrónico anexó a la dirección URL de la página de aterrizaje.</li><li>Parámetro de cadena de consulta de ID del destinatario: Este valor representa la ID del destinatario anexada a la URL de la página de aterrizaje por su socio de correo electrónico.</li></ul> |
+| Aperturas únicas | Número de aperturas distintas. |
+| No suscrito | Número de visitantes que abrieron el mensaje de correo electrónico y luego hicieron clic en el vínculo Cancelar suscripción para desactivar futuros mensajes de correo electrónico de su organización. |
+| Segmentos | Esta integración crea los segmentos definidos por el socio que se muestran en la sección Segmentos del socio. Además, puede seleccionar segmentos existentes de nivel de grupo de informes para incluirlos en la integración. |
+|  Solicitudes de acceso | Habilite los privilegios de acceso recomendados. |
+| Recopilación de datos | Seleccione **JavaScript Plug-in** si desea utilizar el complemento s_code.js como modelo de recopilación para esta integración. Seleccione Solución **** automatizada si desea utilizar un modelo de recopilación automatizada para esta integración y, a continuación, especifique los identificadores únicos utilizados para esta integración. Si selecciona esta opción, especifique los identificadores únicos utilizados para esta integración: <ul><li>Parámetro de cadena de consulta de ID del mensaje: Este valor representa el ID del mensaje que su socio de correo electrónico anexó a la dirección URL de la página de aterrizaje.</li><li>Parámetro de cadena de consulta de ID del destinatario: Este valor representa la ID del destinatario anexada a la URL de la página de aterrizaje por su socio de correo electrónico.</li></ul> |
 | Generación de tableros y marcadores | Genere automáticamente un tablero y marcadores para la integración. |
