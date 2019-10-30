@@ -1,6 +1,6 @@
 ---
 description: Conozca las ventajas y limitaciones de utilizar la opción Marcas de hora opcionales.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Conozca las ventajas y limitaciones de utilizar la opción Marcas de hora opcionales.
 seo-title: Usar marcas de hora opcionales
 solution: Analytics
@@ -8,7 +8,7 @@ title: Usar marcas de hora opcionales
 topic: Desarrollador e implementación
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Marcas de hora opcionales es la configuración predeterminada para todos los gru
 * Envíe datos con marca de hora de una aplicación móvil a un grupo de informes globales.
 * Actualice las aplicaciones para usar marcas de hora sin tener que crear un nuevo grupo de informes.
 
->[!NOTE]
->
->Marcas de hora opcionales es la configuración predeterminada para todos los nuevos grupos de informes generados a partir de una plantilla. Los nuevos grupos de informes copiados de un grupo de informes existente heredarán la configuración del original.
+> [!NOTE] Marcas de hora opcionales es la configuración predeterminada para todos los nuevos grupos de informes generados a partir de una plantilla. Los nuevos grupos de informes copiados de un grupo de informes existente heredarán la configuración del original.
 
 Consulte [Marcas de hora opcionales](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html) para obtener información adicional sobre configuración.
 
@@ -33,7 +31,7 @@ Consulte [Marcas de hora opcionales](https://marketing.adobe.com/resources/help/
 
 Con la característica Marcas de hora opcionales, puede combinar datos sin marca de hora con datos con marca de hora sin provocar una pérdida de datos. Los datos sin conexión con marca de hora generados en un dispositivo móvil se pueden combinar con datos activos sin marca de hora de una página web, o integrarse con datos de cualquier plataforma utilizando una llamada a la variable timestamp de lado del cliente.
 
-* **Datos con marca de hora**. Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app.
+* **Datos con marca de hora**. Los datos con marca de hora de cliente se capturan y se envían directamente con los datos del dispositivo utilizando variables timestamp de lado del cliente: JavaScript en una página web, o utilizando una llamada al SDK móvil ([!DNL offlineEnabled=true]) en una aplicación móvil.
 * **Datos sin marca de hora**. Adobe establece una marca de hora en los datos sin marca de hora de un grupo de informes cuando los datos llegan a los servidores de recopilación de datos.
 
 ![](assets/timestamp_v_non2.png)
@@ -62,7 +60,7 @@ La combinación de datos en un grupo de informes global se puede realizar de var
 
 >[!IMPORTANT]
 >
->Planifique cuidadosamente el diseño de cada conjunto de datos de componente para que la combinación tenga sentido en un grupo de informes globales.
+>Planifique cuidadosamente el diseño de cada conjunto de datos componente para que la combinación tenga sentido en un grupo de informes global.
 
 ## Prácticas recomendadas para el uso de marcas de hora {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
