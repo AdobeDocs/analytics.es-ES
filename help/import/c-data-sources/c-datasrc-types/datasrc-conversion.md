@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fuentes de datos
 title: Conversión
 topic: Desarrollador e implementación
-uuid: 5 e 7907 b 1-6 c 9 c -4073-876 b -410 f 3 a 29767 d
+uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,10 +29,10 @@ Cuando se indica un evento Vista, también hay que indicar la dimensión de dato
 | Fecha | Utilice este formato de fecha: MM/DD/AAAA/HH/mm/SS (por ejemplo, 01/01/2015/06/00/00) |
 | Categoría | Nombre de la categoría.  Si se indica una categoría, también se debe seleccionar un producto. |
 | Canal | Nombre del canal. |
-| Evarn | Nombre de evarn. Los valores válidos para n son los números enteros entre 1 y 75. |
+| eVarn | Nombre de la eVarn. Los valores válidos para n son los números enteros entre 1 y 75. |
 | Producto | Nombre del producto. |
 | Estado | Nombre del estado. |
-| Código postal | Nombre del código postal. |
+| Zip | Nombre del código postal. |
 
 <p class="head"> <b>Métricas de conversión</b> </p>
 
@@ -45,7 +45,7 @@ Cuando se indica un evento Vista, también hay que indicar la dimensión de dato
 | Vistas del carro de compras | Número de vistas del carro de compras. |
 | Cierres de compra | Número de cierres de compra. |
 | Evento n | Cantidad de veces que se produjo el evento n. Los valores válidos para n son los números enteros entre 1 y 100.  Cuando se indica un evento Vista, también hay que indicar la dimensión de datos (eVar) correspondiente. Por ejemplo, si se incluyen las vistas de eVar2, se deberá indicar la eVar2 con un valor. |
-| Vistas de evarn | Cantidad de veces que se vio la eVar n. Los valores válidos para n son los números enteros entre 1 y 75. |
+| Vistas de eVarn | Cantidad de veces que se vio la eVar n. Los valores válidos para n son los números enteros entre 1 y 75. |
 | Precio | Precio del producto. |
 | Pedidos | Número de pedidos asentados. |
 | Vistas del producto | Número de vistas del producto. |
