@@ -4,10 +4,10 @@ seo-description: Determina la cantidad de ingresos generados entre todos los pro
 seo-title: Ingresos
 solution: Analytics
 title: Ingresos
-topic: 'Informes '
-uuid: e 5 b 72798-f 5 c 7-440 d-a 62 d -376 bfd 115 ac 8
+topic: Informes
+uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ Utilice Ingresos para comprobar el nivel de éxito general y la tendencia de su 
 
 * A continuación se indican los requisitos que deben cumplirse para que este informe pueda recopilar datos correctamente. En la misma solicitud de imagen, debe suceder lo siguiente:
 
-   * Un evento de compra ([!UICONTROL purchase]) debe activarse en la `s.events` correspondiente.
+   * Un evento de compra ([!UICONTROL purchase]) debe activarse en la `s.events` campaign.
 
    * La variable `products` debe aparecer definida con un número en el campo de precio.
    * Por ejemplo, en este caso se pasarían 35,99 $ al informe de ingresos:
@@ -35,11 +35,11 @@ Utilice Ingresos para comprobar el nivel de éxito general y la tendencia de su 
        s.events="purchase"
       ```
 
-* Si hay más de un producto presente en la variable [!UICONTROL s.products], todos se contabilizarán en el informe de ingresos. For example, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] would pass $9 in revenue to reporting.
+* Si hay más de un producto presente en la variable [!UICONTROL s.products], todos se contabilizarán en el informe de ingresos. Por ejemplo: [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] pasaría 9 dólares en ingresos a los informes.
 
    >[!NOTE]
    >
-   >Los ingresos no se multiplican si la cantidad aumenta en un único producto. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >Los ingresos no se multiplican si la cantidad aumenta en un solo producto. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
 
 * [!UICONTROL Ingresos] redondea la cantidad total de un período de tiempo al valor de divisa más cercano. No redondea cada producto individual o entrada.
 * Como Analytics redondea cada día a la divisa entera más cercana, la suma de cada día estará mínimamente desajustada si se compara con el total mensual. Esto se debe a que el total mensual no es la suma de cada día redondeado, sino la suma absoluta redondeada a la divisa entera más cercana.
