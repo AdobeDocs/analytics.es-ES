@@ -5,14 +5,14 @@ seo-title: Consulta o administración de la configuración de control de datos d
 title: Consulta o administración de la configuración de control de datos del grupo de informes
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Consulta o administración de la configuración de control de datos del grupo de informes
 
-El cuadro de diálogo Control de datos de Herramientas de administración proporciona una descripción general de los grupos de informes que se han configurado para el control de datos, si se han asignado a una organización de Experience Cloud y si se ha dispuesto una política de retención de datos para este grupo de informes.
+El cuadro de diálogo Administración de datos en Herramientas de administración proporciona una descripción general de los grupos de informes que se han configurado para el control de datos, si se han asignado a una organización de Experience Cloud y si se ha dispuesto una política de retención de datos para este grupo de informes.
 
 1. Inicie sesión en Adobe Experience Cloud.
 1. Vaya a  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Control de datos.]**
@@ -44,11 +44,11 @@ El cuadro de diálogo Control de datos de Herramientas de administración propor
   </tr> 
   <tr> 
    <td colname="col1"> <p>Política de retención de datos </p> </td> 
-   <td colname="col2"> <p>La implementación de Privacidad de datos de Analytics requiere que tenga una política de retención de datos implementada. </p> <p>Esta configuración indica: </p> 
+   <td colname="col2"> <p>La implementación de la privacidad datos de Analytics requiere que establezca una política de retención de datos. </p> <p>Esta configuración indica: </p> 
     <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
      <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">si se ha implementado una política de retención de datos para este grupo de informes; </li> 
      <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">cuánto tiempo retiene Adobe los datos antes de eliminarlos. El periodo de retención de datos predeterminado es de 25 meses. </li> 
-    </ul> <p>Nota:  Adobe Analytics no puede ayudarle a procesar solicitudes a la API de privacidad de datos, es decir, procesar solicitudes de acceso o eliminación que reciba de los usuarios finales, si no se ha establecido el período de retención de datos. Póngase en contacto con su gestor de éxito de los clientes para establecer el periodo de retención de datos. </p> </td> 
+    </ul> <p>Nota: Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API de privacidad de datos (es decir, el procesamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos. Póngase en contacto con su gestor de éxito de los clientes para establecer el periodo de retención de datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grupos </p> </td> 
@@ -60,7 +60,7 @@ El cuadro de diálogo Control de datos de Herramientas de administración propor
   </tr> 
   <tr> 
    <td colname="col1"> <p>Exportar a CSV </p> </td> 
-   <td colname="col2"> <p>Si marca la casilla de verificación que está junto a uno o más grupos de informes, se muestra la opción <span class="uicontrol">Exportar a CSV</span>. Esta opción le permite descargar un archivo CSV que contiene todas las definiciones de etiqueta actuales para todas las variables de todos los grupos de informes seleccionados. </p> <p>Le recomendamos que su equipo legal revise sus opciones de etiquetado, algo que esta opción facilita. En lugar de tener que realizar la revisión con una sesión iniciada en la interfaz de Administración de datos, puede compartir el archivo .csv con ellos. </p> <p><img placement="break"  src="assets/export_csv.png" width="300px" id="image_5FE821B2D07B402D8E0F6FE53D6FC52E" /> </p> </td> 
+   <td colname="col2"> <p>Si marca la casilla de verificación que está junto a uno o más grupos de informes, se muestra la opción <span class="uicontrol">Exportar a CSV</span>. Esta opción le permite descargar un archivo CSV que contiene todas las definiciones de etiqueta actuales para todas las variables de todos los grupos de informes seleccionados. </p> <p>Le recomendamos que su equipo legal revise sus opciones de etiquetado, algo que esta opción facilita. En lugar de tener que realizar la revisión con una sesión iniciada en la interfaz de Administración de datos, puede compartir el archivo .CSV con ellos. </p> <p><img placement="break"  src="assets/export_csv.png" width="300px" id="image_5FE821B2D07B402D8E0F6FE53D6FC52E" /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
