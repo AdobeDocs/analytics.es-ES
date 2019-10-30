@@ -7,8 +7,8 @@ solution: Analytics
 title: Seguimiento sin conexión
 topic: Desarrollador e implementación
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 Las funciones y variables siguientes permiten almacenar llamadas de medición cuando la aplicación se encuentra sin conexión.
 
->[!NOTE]
->
->Para habilitar el seguimiento sin conexión, el grupo de informes debe estar habilitado para las marcas de tiempo. Si estas marcas se encuentran habilitadas en el grupo de informes, la propiedad de configuración `trackOffline` *debe* ser verdadera. Si no están habilitadas, la propiedad `trackOffline` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo, [Contacte con el servicio de Atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html#analytics)
+> [!NOTE] Para habilitar el seguimiento sin conexión, el grupo de informes debe estar habilitado para las marcas de tiempo. Si estas marcas se encuentran habilitadas en el grupo de informes, la propiedad de configuración `trackOffline` *debe* ser verdadera. Si no están habilitadas, la propiedad `trackOffline` *debe* tener el valor false. Si esta configuración no se realiza correctamente, se perderán datos. Si no está seguro de si un grupo de informes se ha habilitado para las marcas de tiempo, [póngase en contacto con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
 Cuando se habilita, AppMeasurement sin conexión se comporta de esta manera:
 
@@ -60,13 +58,12 @@ En cada una de las visitas posteriores o en el intervalo definido por `offlineTh
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p> Establece manualmente el estado en línea o sin conexión del objeto de medición. La biblioteca detecta automáticamente si el dispositivo está en línea o sin conexión, de modo que estos métodos solo son necesarios si quiere forzar la medición sin conexión. <code> forceOnline</code> solo se usa para volver al estado en línea después de haber pasado manualmente al estado sin conexión. </p> <p>Cuando la medición está sin conexión: </p> 
+   <td colname="col2"> <p> Establece manualmente el estado en línea o sin conexión del objeto de medición. La biblioteca detecta automáticamente si el dispositivo está en línea o sin conexión, de modo que estos métodos solo son necesarios si quiere forzar la medición sin conexión. <code> forceOnline </code>   solo se usa para volver al estado en línea después de haber pasado manualmente al estado sin conexión. </p> <p>Cuando la medición está sin conexión: </p> 
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
-     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Si <code>trackOffline</code> es verdadera: las visitas se almacenan hasta que la medición pasa a en línea. </li> 
-     <li id="li_6A623377462548DB97C31654EADCFAF3"> Si <code>trackOffline</code> es falsa: las visitas se descartan. </li> 
+     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> Si <code> trackOffline </code> es verdadera: las visitas se almacenan hasta que la medición pasa a en línea. </li> 
+     <li id="li_6A623377462548DB97C31654EADCFAF3"> Si <code> trackOffline </code> es falsa: las visitas se descartan. </li> 
     </ul> <p> <b>Ejemplos:</b> </p> 
-    <code class="syntax c">
-      s.forceOffline();
+    
 
 s.forceOnline();
 </code> </td>
