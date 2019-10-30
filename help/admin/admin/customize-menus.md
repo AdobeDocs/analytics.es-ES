@@ -5,9 +5,9 @@ seo-title: Personalización de menús
 solution: Analytics
 title: Personalización de menús
 topic: Herramientas de administración
-uuid: 31 e 335 e 7-c 91 a -4669-a 9 b 7-00 f 9 e 385375 a
+uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Esta función permite personalizar los menús de informes que un usuario ve en R
 
 Los cambios de menú se aplican a todos los usuarios que acceden al grupo de informes. Sin embargo, los usuarios pueden restaurar la configuración predeterminada de un menú al utilizar el grupo de informes.
 
->[!NOTE]
->
->Cualquier cambio en la estructura del menú no afecta al Creador de informes ni a los Análisis específicos. No obstante, si se cambia el nombre de un informe, este cambio sí se verá reflejado en ambas herramientas.
+> [!NOTE] Cualquier cambio en la estructura del menú no afecta al Creador de informes ni a los análisis específicos. No obstante, si se cambia el nombre de un informe, este cambio sí se verá reflejado en ambas herramientas.
 
 ## Descripciones de la personalización de menús {#section_B0D224DACB914A378902A4E0E1234889}
 
