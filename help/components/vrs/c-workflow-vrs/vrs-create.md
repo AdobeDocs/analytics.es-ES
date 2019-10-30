@@ -2,27 +2,27 @@
 description: Antes de empezar a crear grupos de informes virtuales, hay que tener algunos aspectos en cuenta.
 keywords: Grupo de informes virtuales
 seo-description: Antes de empezar a crear grupos de informes virtuales, hay que tener algunos aspectos en cuenta.
-seo-title: Creación de grupos de informes virtuales
+seo-title: Crear un grupo de informes virtuales
 solution: Analytics
-title: Creación de grupos de informes virtuales
+title: Crear un grupo de informes virtuales
 topic: Reports and Analytics
-uuid: 022 a 6656-808 e -4 c 92-b 7 ec -4 d 2 a 42 e 84 fa 8
+uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Creación de grupos de informes virtuales
+# Crear un grupo de informes virtuales
 
 Antes de empezar a crear grupos de informes virtuales, hay que tener algunos aspectos en cuenta.
 
 * Los usuarios que no sean administradores no pueden ver el Administrador de grupos de informes virtuales.
 * Los grupos de informes virtuales no se pueden compartir. El uso compartido se realiza mediante grupos/permisos.
-* En el Administrador de grupos de informes virtuales solo puede ver sus propios grupos. Debe hacer clic en Mostrar todos para ver los de otros usuarios.
+* En el Administrador de grupos de informes virtuales solo puede ver sus propios grupos. Tienes que hacer clic en "mostrar todo" para ver el de todos los demás.
 
 1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
-1. Click **[!UICONTROL Add +]**.
+1. Haga clic en **[!UICONTROL Agregar +]**.
 
    ![](assets/new_vrs.png)
 
