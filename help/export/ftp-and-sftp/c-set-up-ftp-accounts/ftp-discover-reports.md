@@ -1,18 +1,18 @@
 ---
 description: Se puede configurar un programa de entrega para enviar automáticamente informes a una dirección de correo electrónico o a un servidor FTP.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Se puede configurar un programa de entrega para enviar automáticamente informes a una dirección de correo electrónico o a un servidor FTP.
-seo-title: Informes entregados por Análisis específicos
+seo-title: Informes entregados por Ad Hoc Analysis
 solution: Analytics
-title: Informes entregados por Análisis específicos
-uuid: 9 a 26 fb 77-9 cec -40 a 3-b 994-226692637902
+title: Informes entregados por Ad Hoc Analysis
+uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Informes entregados por Análisis específicos
+# Informes entregados por Ad Hoc Analysis
 
 Se puede configurar un programa de entrega para enviar automáticamente informes a una dirección de correo electrónico o a un servidor FTP.
 
