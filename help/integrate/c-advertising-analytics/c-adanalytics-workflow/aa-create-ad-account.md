@@ -1,14 +1,14 @@
 ---
-seo-title: Configurar una cuenta de publicidad
-title: Configurar una cuenta de publicidad
-uuid: 4 e 37 caa 3-e 4 a 5-43 ad -97 c 0-12 db 62 ad 5283
+seo-title: Configurar una cuenta publicitaria
+title: Configurar una cuenta publicitaria
+uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configurar una cuenta de publicidad
+# Configurar una cuenta publicitaria
 
 Los administradores de Adobe Analytics pueden crear nuevas cuentas publicitarias y asignar diversas cuentas a varios grupos de informes (1:1, 1:Muchos, Muchos:Muchos).
 
@@ -35,7 +35,7 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Tipo </p> </td> 
-      <td colname="col2"> <p>Tiene 2 opciones: Google adwords y Microsoft Bing Ads. </p> <p>Nota: El 31 de marzo de 2019, Microsoft Bing absorbió Yahoo Gemini. Como resultado, la opción de cuenta publicitaria de Yahoo Gemini ya no está disponible.  </p> </td> 
+      <td colname="col2"> <p>Tiene dos opciones: Google AdWords y anuncios de Microsoft Bing. </p> <p>Nota: El 31 de marzo de 2019, Microsoft Bing absorbió Yahoo Gemini. Como resultado, la opción de cuenta publicitaria de Yahoo Gemini ya no está disponible.  </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Nombre de la cuenta </p> </td> 
@@ -47,7 +47,7 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: proporcione el identificador de la cuenta de Google. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: proporcione el identificador de la cuenta de Bing y el identificador de cliente de Bing. </li> 
-        </ul> <p>Consulte <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> Localizar el identificador de cuenta</a> para obtener información sobre estos identificadores. </p> <p>Una vez que haya iniciado sesión correctamente, aparecerá el campo Token de oauth. 
+        </ul> <p>Consulte <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> Localizar el identificador de cuenta</a> para obtener información sobre estos identificadores. </p> <p>Una vez que haya iniciado sesión correctamente, se mostrará el campo Token de OAuth 
         <systemoutput>
           Recuperado
         </systemoutput>. </p> </td> 
@@ -70,12 +70,12 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
       <td colname="col1"> <p>Tipo </p> </td> 
       <td colname="col2"> 
         <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Automático</span>: permite que el motor de Advertising Cloud decida cómo se adjuntan los parámetros de seguimiento a las plantillas de seguimiento/URL de destino del motor de búsqueda. Este es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado. <p>Importante: Para configurar una cuenta de motor de búsqueda en “Modo automático”, debe llevar a cabo las siguientes acciones: 
+        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Automático</span>: Permite al motor de Advertising Cloud decidir cómo se anexan los parámetros de seguimiento a las plantillas de seguimiento/direcciones URL de destino del motor de búsqueda. Este es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado. <p>Importante: Para configurar una cuenta de motor de búsqueda en 'Modo automático', usted es el responsable de realizar las siguientes acciones: 
           <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">En la cuenta agregada se añadirá el parámetro y valor “s_kwcid” a las plantillas de seguimiento de la cuenta o a las URL de las páginas de destino. Se insertará al final de la URL. Como resultado, es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL. </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">Además, en la URL de destino pueden insertarse palabras clave como parte del valor “s_kwcid”, de modo que, si contienen caracteres especiales o símbolos, confirme que su servidor web los admite (un ejemplo de carácter especial común es “+”, que se utiliza en las palabras clave “Broad Match Modified”). </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: le permite administrar cómo se añaden los parámetros de seguimiento a las plantillas de seguimiento o a las direcciones URL de destino del motor de búsqueda. <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local"> Consulte estos ejemplos de seguimiento manual para cada motor de búsqueda</a>. </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: Le permite administrar cómo se agregan los parámetros de seguimiento a las plantillas de seguimiento/direcciones URL de destino del motor de búsqueda. <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local"> Consulte estos ejemplos de seguimiento manual para cada motor de búsqueda</a>. </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -109,7 +109,5 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
 
    Ahora se le dirigirá a la [IU de administración](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB) de cuentas publicitarias, en que se incluirá su cuenta recién creada.
 
->[!NOTE]
->
->Debe esperar al menos 24 horas antes de que los datos del motor de búsqueda empiecen a rellenar los informes de Analytics.
+> [!NOTE] Debe esperar al menos 24 horas antes de que los datos del motor de búsqueda empiecen a rellenar los informes de Analytics.
 
