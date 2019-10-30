@@ -4,10 +4,10 @@ seo-description: Muestra promedios para las métricas Vistas del producto, Adici
 seo-title: Canal de conversión de productos
 solution: Analytics
 title: Canal de conversión de productos
-topic: 'Informes '
-uuid: e 857 aa 20-32 b 6-45 a 2-a 934-6 a 11 deadb 49 d
+topic: Informes
+uuid: e857aa20-32b6-45a2-a934-6a11mortal b49d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,4 +18,4 @@ Muestra promedios para las métricas Vistas del producto, Adiciones al carro de 
 
 Para agregar métricas y eventos personalizados de otros grupos de informes, haga clic en un vínculo de **[!UICONTROL Eventos seleccionados]en el encabezado del informe.**
 
-Debido a que cuando se ven los datos aún no se han completado los períodos de tiempo actuales, este informe puede indicar una tendencia descendente desde el período anterior al actual. Por ejemplo, es probable que hoy haya menos visitas que ayer pero solo porque las estadísticas de los demás períodos aún no han sido calculadas.
+Debido a que cuando se ven los datos aún no se han completado los períodos de tiempo actuales, este informe puede indicar una tendencia descendente desde el período anterior al actual. Por ejemplo: hoy puede haber menos visitas que ayer, pero sólo porque las estadísticas de los demás períodos aún no han sido calculadas.
