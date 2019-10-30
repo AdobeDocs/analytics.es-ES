@@ -8,7 +8,7 @@ title: Variables de conversión (eVar)
 topic: Herramientas de administración
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 La variable de conversión de perspectiva personalizada (o eVar) se coloca en el código de Adobe en las páginas web del sitio seleccionadas. Su principal función es segmentar las métricas de éxito de conversión en los informes de marketing personalizados. Una eVar puede basarse en visitas y funcionar de modo similar a las cookies. Los valores pasados a las variables eVar siguen al usuario durante un período de tiempo predeterminado.
 
-Cuando una eVar está establecida en un valor para un visitante, Adobe recuerda automáticamente ese valor hasta que caduque. Cualquier evento exitoso que encuentra el visitante mientras la eVar está activa se cuenta hacia el valor eVar.
+Cuando una eVar está establecida en un valor para un visitante, Adobe recuerda automáticamente ese valor hasta que caduque. Cualquier evento de éxito que encuentra el visitante mientras la eVar está activa se cuenta hacia el valor eVar.
 
 El mejor uso de las eVars es para medir causa y efecto, como:
 
@@ -27,9 +27,7 @@ El mejor uso de las eVars es para medir causa y efecto, como:
 
 Si se desea realizar la medición de tráfico o las rutas, se recomienda utilizar variables de tráfico.
 
->[!NOTE]
->
->Solo se puede almacenar un valor único en una eVar en una solicitud de imagen. Si quiere que haya varios valores en un valor eVar, le recomendamos que implemente [Variables de lista](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
+> [!NOTE] Se puede guardar un solo valor único en una eVar de una solicitud de imagen. Si quiere que haya varios valores en un valor eVar, le recomendamos que implemente [Variables de lista](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html).
 
 ## Variables de conversión - Descripciones {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -44,7 +42,7 @@ Descripciones de los campos utilizados al [editar variables](/help/admin/admin/c
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">Nombre</span> </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> Nombre </span> </p> </td> 
    <td colname="col2"> <p>Nombre descriptivo de la variable de conversión. Así se le llama a la eVar en los informes generales, y será el nombre del informe que aparecerá en el menú de la izquierda. </p> </td> 
   </tr> 
   <tr> 
