@@ -5,9 +5,9 @@ seo-title: 'Participación de visitantes: Ad Hoc Analysis'
 solution: Analytics
 title: 'Participación de visitantes: Ad Hoc Analysis'
 topic: Métricas
-uuid: 567 d 627 c-a 2 a 8-4 fbf-b 3 fd-abb 1341 e 57 a 0
+uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Al generarse el informe, la asignación de crédito por la conversión es así:
 <table id="table_91A7244E77854838A8392B49366FB445"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Página </th> 
+   <th colname="col1" class="entry"> Activity Map </th> 
    <th colname="col2" class="entry"> Ingresos </th> 
    <th colname="col3" class="entry"> Ingresos (Participación) </th> 
    <th colname="col4" class="entry"> Ingresos (Participación de visitante) </th> 
