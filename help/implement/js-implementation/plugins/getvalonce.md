@@ -8,8 +8,8 @@ subtopic: Complementos
 title: getValOnce
 topic: Desarrollador e implementación
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,15 +45,11 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
    * Si un usuario cierra la página, abre una pestaña diferente y regresa al sitio en los próximos 30 minutos, el complemento creará una sesión nueva y mantendrá abierta la visita de [!DNL Analytics].
    * Si un usuario mantiene abierta la ventana del explorador sin hacer clic en ningún vínculo durante más de 30 minutos, la visita de [!DNL Analytics] caducará mientras que la sesión del explorador se mantendrá abierta.
 
->[!NOTE]
->
->Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+> [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
->[!NOTE]
->
->Si su organización utiliza canales de marketing y tiene configuradas reglas basadas en `s.campaign`, se recomienda que no utilice el complemento getValOnce al establecer el valor de `s.campaign`. De hacerlo, podría asignarse un canal incorrecto en una pulsación de una campaña secundaria.
+> [!NOTE]Si su organización utiliza canales de marketing y tiene configuradas reglas basadas en `s.campaign`, se recomienda que no utilice el complemento getValOnce al establecer el valor de `s.campaign`. De hacerlo, podría asignarse un canal incorrecto en una pulsación de una campaña secundaria.
 
 Para implementar este complemento, inserte el código siguiente en el archivo [!DNL s_code.js].
 
