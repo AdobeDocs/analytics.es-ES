@@ -7,8 +7,8 @@ solution: Analytics
 title: Resumen de props y eVars
 topic: Desarrollador e implementación
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Las propiedades también permiten correlacionar datos personalizados con eventos
 
 Por ejemplo, si usted es fabricante de automóviles, quizás le interese ver "Modelo de automóvil más popular" para complementar el informe "Páginas". Para ello, puede asignar una de las propiedades de tráfico para representar el modelo de automóvil. Después, implemente el código para pasar el modelo de automóvil a las páginas correspondientes.
 
->[!NOTE]
->
->[!DNL Analytics] admite hasta 75 variables [!UICONTROL s.prop].
+> [!NOTE] [!DNL Analytics] admite hasta 75 variables [!UICONTROL s.prop].
 
 Las props se utilizan en informes de rutas o en informes de correlación. Por ejemplo: las variables de [!UICONTROL propiedad] pueden utilizarse para mostrar el tipo de contenido, la subsección o el nombre de la plantilla. El informe [!UICONTROL Tráfico personalizado] resultante muestra el tipo de contenido, la subsección o la plantilla que se ve con más frecuencia.
 
@@ -40,6 +38,6 @@ Las eVars (o variables de [!UICONTROL perspectiva de conversión personalizada])
 
 En un sitio de conversión, las eVars se pueden usar para realizar el seguimiento de las diferencias entre los visitantes que han iniciado sesión y los que no a la hora de completar una compra. Cuando un visitante inicia sesión, se configura una eVar como "sesión iniciada". Cuando ese visitante llega a la página de cierre de compra, el evento de cierre de compra se atribuye al valor "sesión iniciada". Cuando un visitante llega a la página Gracias después de la compra, los productos y las cantidades de productos se atribuyen al valor "sesión iniciada". El informe [!UICONTROL eVar personalizada] resultante muestra el número total de cierres de compra y pedidos para los visitantes "sesión iniciada" y "sesión no iniciada".
 
-Para obtener más información, consulte [Variable de tráfico](https://marketing.adobe.com/resources/help/es_ES/reference/traffic_var.html) en la Ayuda y referencia de Analytics.
+Para obtener más información, consulte [Variable de tráfico](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) en la Ayuda y referencia de Analytics.
 
 Para obtener información sobre la configuración de propiedades en Digital Tag Management, consulte [Crear una propiedad web](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
