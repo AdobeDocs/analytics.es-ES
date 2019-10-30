@@ -1,13 +1,13 @@
 ---
-description: Muestra los dominios que atrajeron a aquellos clientes que repercutieron más sobre las métricas de éxito del sitio. Los referentes se dividen en dos categorías principales Dominios y direcciones URL. Los dominios se refieren al nombre de dominio y aparecen como el dominio base sin la cadena de consultas o los subdirectorios adjuntos. Las direcciones URL incluyen el nombre de dominio base, así como cualquier cadena de consulta o subdirectorio.
-seo-description: Muestra los dominios que atrajeron a aquellos clientes que repercutieron más sobre las métricas de éxito del sitio. Los referentes se dividen en dos categorías principales Dominios y direcciones URL. Los dominios se refieren al nombre de dominio y aparecen como el dominio base sin la cadena de consultas o los subdirectorios adjuntos. Las direcciones URL incluyen el nombre del dominio base, junto con los subdirectorios o cadenas de consulta.
+description: 'Muestra los dominios que atrajeron a aquellos clientes que repercutieron más sobre las métricas de éxito del sitio. Los referentes se dividen en dos categorías principales: dominios y direcciones URL. Los dominios se refieren al nombre de dominio y aparecen como el dominio base sin la cadena de consultas o los subdirectorios adjuntos. Las direcciones URL incluyen el nombre de dominio base, así como cualquier cadena de consulta o subdirectorio.'
+seo-description: 'Muestra los dominios que atrajeron a aquellos clientes que repercutieron más sobre las métricas de éxito del sitio. Los referentes se dividen en dos categorías principales: dominios y direcciones URL. Los dominios se refieren al nombre de dominio y aparecen como el dominio base sin la cadena de consultas o los subdirectorios adjuntos. Las direcciones URL incluyen el nombre del dominio base, junto con los subdirectorios o cadenas de consulta.'
 seo-title: Dominios de referencia
 solution: Analytics
 title: Dominios de referencia
-topic: 'Informes '
-uuid: ab 310 bb 8-51 b 1-4428-a 42 e -2377 d 36 ca 986
+topic: Informes
+uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Muestra los dominios que atrajeron a aquellos clientes que repercutieron más so
   <tr> 
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry"> Reports &amp; Analytics </th> 
-   <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
+   <th colname="col3" class="entry"> Ad Hoc Analysis  </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr>
  </thead>
@@ -42,8 +42,8 @@ Muestra los dominios que atrajeron a aquellos clientes que repercutieron más so
   </tr> 
   <tr> 
    <td colname="col1"> Límites de valores </td> 
-   <td colname="col2"> Ninguno </td> 
-   <td colname="col3"> Ninguno </td> 
+   <td colname="col2"> Ninguna </td> 
+   <td colname="col3"> Ninguna </td> 
    <td colname="col4"> Ninguna </td> 
   </tr> 
   <tr> 
