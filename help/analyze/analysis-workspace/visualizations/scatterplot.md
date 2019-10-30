@@ -3,9 +3,9 @@ description: Muestra las impresiones servidas y cuántos usuarios únicos han vi
 seo-description: Muestra las impresiones servidas y cuántos usuarios únicos han visto dichas impresiones.
 seo-title: Diagrama de dispersión
 title: Diagrama de dispersión
-uuid: 470 b 3142-3 a 0 a -4 cd 8-8919-7 b 64044188 c 8
+uuid: 470b3142-3a0a-4cd8-8919-7b6404188c8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,5 @@ El tamaño de cada uno de los puntos de datos proporciona una pista visual acerc
 
 ![](assets/scatter.png)
 
->[!NOTE]
->
->Una tabla asociada con un diagrama de dispersión requiere por lo menos dos columnas. La primera columna define el eje X y la segunda columna define el eje Y. Si existe una tercera columna disponible, el diagrama de dispersión la utiliza para determinar el radio del punto. En otras palabras, las columnas *1*, *2* y *3* se asignan a *X*, *Y* y *radio del punto*.
+> [!NOTE] Una tabla asociada a un diagrama de dispersión requiere al menos dos columnas. La primera columna define el eje X y la segunda columna define el eje Y. Si existe una tercera columna disponible, el diagrama de dispersión la utiliza para determinar el radio del punto. En otras palabras, las columnas *1*, *2* y *3* se asignan a *X*, *Y* y *radio del punto*.
 
