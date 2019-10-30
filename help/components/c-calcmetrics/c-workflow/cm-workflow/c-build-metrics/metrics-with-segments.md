@@ -3,9 +3,9 @@ description: La segmentación de una métrica individual le permite realizar com
 seo-description: La segmentación de una métrica individual le permite realizar comparaciones de métricas dentro del mismo informe. (Solo métricas derivadas)
 seo-title: Métricas segmentadas
 title: Métricas segmentadas
-uuid: 88 f 9829 b -76 e 4-4598-9494-084 a 91602 bc 1
+uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
