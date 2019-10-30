@@ -5,9 +5,9 @@ seo-title: Detección de anomalías
 solution: Analytics
 title: Detección de anomalías
 topic: Creador de informes
-uuid: 02 da 21 b 4-3394-471 b -97 b 5-aa 1 bddf 1 f 445
+uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ Algunos ejemplos de anomalías que puede investigar son:
 * Picos en los eventos de almacenamiento de vídeo
 * Picos en tasas de bits de vídeo bajas
 
->[!NOTE]
->
->La detección de anomalías solo está disponible cuando se selecciona la granularidad Día.
+> [!NOTE] La detección de anomalías solo está disponible cuando selecciona la granularidad Día.
 
 <p class="head"> <b>Métricas de detección de anomalías</b> </p>
 
