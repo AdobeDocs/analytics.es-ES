@@ -6,7 +6,7 @@ solution: Analytics
 title: Implementación de la integración
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
