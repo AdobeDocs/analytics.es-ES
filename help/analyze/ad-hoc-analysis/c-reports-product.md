@@ -5,7 +5,7 @@ seo-title: Informes de productos
 solution: Analytics
 title: Informes de productos
 topic: Ad Hoc Analysis
-uuid: e 2 a 8814 b -735 d -4 f 63-97 ee-af 1 afac 4 d 75 d
+uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
