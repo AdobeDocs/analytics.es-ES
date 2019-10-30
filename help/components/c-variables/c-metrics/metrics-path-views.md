@@ -5,9 +5,9 @@ seo-title: Vistas de rutas
 solution: Analytics
 title: Vistas de rutas
 topic: Métricas
-uuid: ceab 036 c -8 e 0 c -43 b 7-946 a-aeba 6 a 253982
+uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
