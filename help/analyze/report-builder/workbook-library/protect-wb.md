@@ -5,9 +5,9 @@ seo-title: Bloquear/desbloquear libros
 solution: Analytics
 title: Bloquear/desbloquear libros
 topic: Creador de informes
-uuid: ef 5 c 276 c -5 f 74-4741-b 6 fa -4 c 79 eda 29 f 62
+uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,7 @@ Puede desbloquear un libro bloqueado si cuenta con uno de los siguientes permiso
 * Es administrador o
 * Es la persona que ha bloqueado el libro en primer lugar. En este caso, no tiene que ser administrador.
 
->[!NOTE]
->
->No puede agregar una solicitud a un libro protegido a menos que tenga los permisos para desbloquear el libro.
+> [!NOTE] No puede agregar una solicitud a un libro protegido a menos que tenga los permisos para desbloquear el libro.
 
 Cuando un libro está bloqueado contra la edición de solicitudes,
 
@@ -56,15 +54,15 @@ If you try to edit a protected workbook (through the context menu, or **[!UICONT
 
 Supongamos que el libro A tiene una solicitud que está bloqueada y que la creó el usuario A.
 
-**Ejemplo 1: Usuario administrador (o Usuario A)**
+**Ejemplo 1: Usuario administrador (o usuario A)**
 
 1. El usuario inicia sesión en el Creador de informes y abre el libro 
-1. El libro A está bloqueado actualmente, por lo que el botón "Crear solicitud" está desactivado en la barra de herramientas, junto con todos los demás botones cuyas funciones están desactivadas por el bloqueo.
+1. El libro A está actualmente bloqueado, por lo que el botón "Crear solicitud" está desactivado en la barra de herramientas, junto con todos los demás botones cuya funcionalidad está deshabilitada por el bloqueo.
 1. Si el usuario intenta utilizar uno de los botones desactivados, aparece el mensaje que el libro está bloqueado actualmente.
 1. El usuario puede desbloquear el libro, lo cual activa completamente la función de edición.
 1. Tras el desbloqueo, el libro permanece desbloqueado hasta que se vuelve a bloquear explícitamente.
 
-**Ejemplo 2: Usuario no administrador (Usuario B)**
+**Ejemplo 2: Usuario no administrador (usuario B)**
 
 1. El usuario inicia sesión en el Creador de informes y abre el libro 
 1. El usuario no puede añadir/editar la solicitud.
