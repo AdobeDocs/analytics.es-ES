@@ -6,8 +6,8 @@ seo-title: Prueba de reglas no publicadas para el alojamiento de Akamai
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Prueba de reglas no publicadas para el alojamiento de Akamai
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 Prueba de reglas no publicadas desde la consola con el uso del alojamiento de Akamai.
 
-El complemento de cambio suele ser la forma más sencilla de realizar pruebas. Consulte [Complementos de Search Discovery](https://marketing.adobe.com/resources/help/es_ES/dtm/search_discovery_plugins.html) en la documentación del producto de Dynamic Tag Management para obtener más información.
+El complemento de cambio suele ser la forma más sencilla de realizar pruebas. Consulte [Complementos de Search Discovery](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) en la documentación del producto de Dynamic Tag Management para obtener más información.
 
 Los pasos siguientes muestran cómo realizar pruebas sin utilizar el complemento de cambio:
 
