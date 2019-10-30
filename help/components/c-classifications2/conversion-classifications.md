@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Clasificaciones
 title: Clasificaciones de conversión
 topic: Herramientas de administración
-uuid: 4 c 8726 c 9-f 527-44 e 1-be 01-8 c 7 b 3 b 5 c 20 f 0
+uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Las clasificaciones sirven para clasificar los valores en grupos e informar a nivel del grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda pagada en una categoría como términos de música pop e informar sobre el éxito de esa categoría en relación a métricas como Instancias (pulsaciones) y la conversión a eventos de éxito.
 
-## Conversion classifications {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
+## Clasificaciones de conversión {#concept_B4B1478A8CB540599AC9D4A58CA4B6FE}
 
 Las clasificaciones sirven para clasificar los valores en grupos e informar a nivel del grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda pagada en una categoría como *términos de música pop* e informar sobre el éxito de esa categoría en relación a métricas como Instancias (pulsaciones) y la conversión a eventos de éxito.
 
@@ -65,11 +65,11 @@ t_classification_conversion.xml
 Instrucciones que describen cómo se agregan clasificaciones de conversión en Administración.
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Seleccione un grupo de informes.
+1. Selección de un grupo de informes.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1. En la lista desplegable **Seleccionar tipo de clasificación**, seleccione la variable donde desee agregar una clasificación. 
 
-   ![Información de paso](assets/sub_class_create.png)
+   ![Información del paso](assets/sub_class_create.png)
 
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
 1. En el campo **Seleccionar tipo**, seleccione el tipo de clasificación que desee agregar a la variable. 
@@ -95,7 +95,7 @@ t_classification_delete_conversion.xml
 Elimine una clasificación de conversión cuando ya no la necesite.
 
 1. Open the Report Suite Manager by clicking **[!UICONTROL Admin]**&gt; **[!UICONTROL Report Suites]** in the Suite header.
-1. Seleccione un grupo de informes.
+1. Selección de un grupo de informes.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
 1. En la lista desplegable **Seleccionar tipo de clasificación**, seleccione la variable donde desee eliminar una clasificación. 
 1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Delete Classification]**.
