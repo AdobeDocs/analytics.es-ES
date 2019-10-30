@@ -1,18 +1,18 @@
 ---
 description: El Creador de informes de Adobe incluye ahora una configuración de permisos análoga a la de las Herramientas de administración de Analytics.
 seo-description: El Creador de informes de Adobe incluye ahora una configuración de permisos análoga a la de las Herramientas de administración de Analytics.
-seo-title: Permisos de acceso de usuario para dimensiones y métricas
+seo-title: Permisos de acceso del usuario para dimensiones y métricas
 solution: Analytics
-title: Permisos de acceso de usuario para dimensiones y métricas
+title: Permisos de acceso del usuario para dimensiones y métricas
 topic: Creador de informes
-uuid: b 561407 d-c 4 fa -4 f 1 e -8 b 16-5 ca 46 fcbf 36 f
+uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Permisos de acceso de usuario para dimensiones y métricas
+# Permisos de acceso del usuario para dimensiones y métricas
 
 El Creador de informes de Adobe incluye ahora una configuración de permisos análoga a la de las Herramientas de administración de Analytics.
 
@@ -27,7 +27,7 @@ Siga estas instrucciones para **cada uno** de los libros del Creador de informes
 1. Abra el libro.
 1. Actualice todas las solicitudes.
 1. Si le aparece un error de permisos de acceso de usuario, haga clic en **[!UICONTROL Abrir archivo CSV]para obtener acceso a la lista de errores de permisos restringidos.**
-1. Cree un archivo "AllRestrictedPermissionErrors.xlsx" y copie/pegue la lista de errores de permisos restringidos del archivo CSV en este archivo.
+1. Cree un archivo "AllRestrictedPermissionErrors.xlsx" y copie y pegue la lista de errores de permisos restringidos del archivo CSV en este archivo.
 1. Cierre el libro del Creador de informes.
 
-Una vez que haya procesado todos los libros, debe tener una lista completa de errores de permisos restringidos en "AllRestrictedPermissionErrors.xlsx". Envíe esta lista a su administrador de acceso del usuario de Adobe Analytics y solicítele que le conceda acceso a las métricas y dimensiones.
+Una vez procesados todos los libros, debe tener una lista completa de errores de permisos restringidos en "AllRestrictedPermissionErrors.xlsx". Envíe esta lista a su administrador de acceso del usuario de Adobe Analytics y solicítele que le conceda acceso a las métricas y dimensiones.
