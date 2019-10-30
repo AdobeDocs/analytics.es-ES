@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Información general de paneles
-title: Información general de paneles
-uuid: 480700 e 6-332 e -44 f 2-a 486-e 3 d 1852 cddbc
+seo-title: Resumen de paneles
+title: Resumen de paneles
+uuid: 480700e6-332e-44f2-a486-e3d1852cdbc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Información general de paneles
+# Resumen de paneles
 
 Un panel es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono que hay en la parte superior izquierda de Workspace. Los paneles son útiles si desea organizar sus proyectos por periodos de tiempo, unidades de negocio, geografía, etcétera. En Analysis Workspace dispone de estos cuatro tipos de panel: panel en blanco, panel atribución, panel improvisado y panel de comparación de segmentos.
 
@@ -41,7 +41,7 @@ Recuerde:
 
    ![](assets/create_dropdown.png)
 
-   De este modo, los componentes se convierten en una lista desplegable, no en un segmento. (También puede agregar segmentos sin mantener pulsada la tecla).
+   De este modo, los componentes se convierten en una lista desplegable, no en un segmento. (También puede añadir segmentos si no mantiene pulsada la tecla).
 
    ![](assets/dropdown.png)
 
