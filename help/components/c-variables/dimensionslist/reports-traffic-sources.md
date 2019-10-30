@@ -7,7 +7,7 @@ title: Fuentes de tráfico
 topic: Informes
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 0cb6b29e46518eec9f88718b4990aefa3393490c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -60,11 +60,11 @@ Los informes de este menú se dividen en tres categorías básicas:
   </tr> 
   <tr> 
    <td colname="col1"> Clasificación de todas las páginas de búsqueda </td> 
-   <td colname="col2"> <p> Muestra la clasificación del sitio entre todas las listas de las búsquedas del visitante, incluidos los datos de clasificación de la página en las búsquedas naturales y pagas. </p> <p>Por ejemplo, un usuario que llegue a su sitio desde un motor de búsqueda puede haberlo visto en la tercera de cien páginas de resultados. Esto puede ayudarle a ver y optimizar rápidamente las iniciativas de los motores de búsqueda. Los datos de este informe se pueden ver en todos los períodos de tiempo excepto <span class="wintitle">Por hora</span>. </p> </td> 
+   <td colname="col2"> <p> Muestra la clasificación del sitio entre todos los listados de las búsquedas del visitante, incluso los datos de clasificación de la página de búsqueda natural o paga. </p> <p>Por ejemplo, un usuario que llegue a su sitio desde un motor de búsqueda puede haberlo visto en la tercera de cien páginas de resultados. Esto puede ayudarle a ver y optimizar rápidamente las iniciativas de los motores de búsqueda. Los datos de este informe se pueden ver en todos los períodos de tiempo excepto <span class="wintitle">Por hora</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dominios de referencia </td> 
-   <td colname="col2"> <p> Muestra los dominios que trajeron a los clientes que repercutieron más sobre las métricas de éxito del sitio. Los referentes se dividen en dos categorías: dominios y direcciones URL. Los dominios se refieren al nombre de dominio y aparecen como el dominio base sin la cadena de consultas o los subdirectorios adjuntos. Las direcciones URL incluyen el nombre de dominio base, así como cualquier cadena de consulta o subdirectorio. </p> </td> 
+   <td colname="col2"> <p> Muestra los dominios que atrajeron a aquellos clientes que repercutieron más sobre las métricas de éxito del sitio. Los referentes se dividen en dos categorías: dominios y direcciones URL. Los dominios se refieren al nombre de dominio y aparecen como el dominio base sin la cadena de consultas o los subdirectorios adjuntos. Las direcciones URL incluyen el nombre de dominio base, así como cualquier cadena de consulta o subdirectorio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dominios de referencia originales </td> 
@@ -76,12 +76,12 @@ Los informes de este menú se dividen en tres categorías básicas:
   </tr> 
   <tr> 
    <td colname="col1"> Tipos de referente </td> 
-   <td colname="col2"> <p> Realizar un seguimiento y registro de los sitios referentes de los visitantes permite averiguar, en cada visita, cómo descubrió el sitio el visitante. La lista siguiente define los distintos tipos de referentes. </p> 
+   <td colname="col2"> <p> Al rastrear y registrar los sitios de referencia de los visitantes para cada visita, puede determinar cómo los visitantes descubrieron el sitio en cada visita. La lista siguiente define los distintos tipos de referentes. </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> Los referentes del disco duro se registran cuando los visitantes hacen clic en un vínculo en un documento HTML ubicado en el disco duro y como consecuencia llegan a su sitio. </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> Se registran como otros referentes del sitio web cuando los visitantes hacen clic en un vínculo ubicado en una página de otro sitio web (no definida como parte del sitio) y llegan al sitio web. </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> Se registran como referentes de motor de búsqueda cuando los visitantes utilizan un motor de búsqueda para acceder al sitio. </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Los referentes escritos o de marcadores se registran cuando los visitantes escriben su dirección URL directamente en el explorador o si acceden al sitio eligiendo un marcador. </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Los referentes escritos o marcadores se registran cuando los visitantes escriben la dirección URL del sitio directamente en el explorador o si acceden al sitio seleccionando un marcador. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
