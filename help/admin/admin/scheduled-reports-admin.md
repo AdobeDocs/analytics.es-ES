@@ -4,10 +4,10 @@ seo-description: Permite que los usuarios de nivel de administración vean y ges
 seo-title: Cola de informes programados
 solution: Analytics
 title: Cola de informes programados
-topic: 'Informes '
-uuid: 3 fcf 92 d 3-a 472-465 f-ad 7 a-c 48 cd 9 a 8238 b
+topic: Informes
+uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Permite que los usuarios de nivel de administración vean y gestionen informes programados en toda la organización.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Informes programados]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; Informes **[!UICONTROL programados]**
 
 Algunas funciones de nivel de administración en el Administrador de informes programados son:
 
@@ -29,9 +29,7 @@ Algunas funciones de nivel de administración en el Administrador de informes pr
 
 En la ficha **[!UICONTROL Lista de informes]**, puede **mostrar todos los informes programados]en su organización, además de los que programó personalmente.[!UICONTROL **
 
->[!NOTE]
->
->The **[!UICONTROL Report Name]** column displays the name of the report which is being scheduled and the **[!UICONTROL File Name]** column displays any custom file name set by you in Advanced Delivery Options. En consecuencia, si programa varios informes del mismo tipo de informe y especifica nombres personalizados para cada uno, el Administrador de informes programados mostraría varias entradas con el mismo Nombre de informe pero con diferentes nombres de archivos. Esto se debe que el informe de servidor que se programa es el mismo, por lo que la columna Nombre del informe tendría los mismos nombres de informes para todos excepto los nombres de archivos personalizados (tal como se estableció).
+> [!NOTE] La columna Nombre **[!UICONTROL del]** informe muestra el nombre del informe que se está programando y la columna Nombre **[!UICONTROL del]** archivo muestra cualquier nombre de archivo personalizado que haya definido en Opciones de envío avanzadas. En consecuencia, si programa varios informes del mismo tipo de informe y especifica nombres personalizados para cada uno, el Administrador de informes programados mostraría varias entradas con el mismo Nombre de informe pero con diferentes nombres de archivos. Esto se debe que el informe de servidor que se programa es el mismo, por lo que la columna Nombre del informe tendría los mismos nombres de informes para todos excepto los nombres de archivos personalizados (tal como se estableció).
 
 ![](assets/show_all_scheduled_reports.png)
 
