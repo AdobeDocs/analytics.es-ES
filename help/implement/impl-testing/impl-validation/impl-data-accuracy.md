@@ -7,8 +7,8 @@ solution: Analytics
 title: Validación de la precisión de los datos
 topic: Desarrollador e implementación
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ Los puntos de datos preferidos para esta validación, por orden de preferencia, 
 * Comparación de los eventos de éxito conocidos, especialmente los datos registrados en los que la dirección IP y otra información del explorador almacenada generalmente en registros de servidores web se puede comparar con los datos recopilados.
 * Comparación de las vistas de páginas.
 
->[!NOTE]
->
->Las páginas predeterminadas, como [!DNL index.html], generalmente reciben tráfico automatizado o de seguimiento. Estas páginas muestran diferencias mayores con la recopilación de datos basada en el explorador que otras páginas visitadas.
+> [!NOTE] Las páginas predeterminadas, como [!DNL index.html], generalmente reciben tráfico automatizado o de seguimiento. Estas páginas muestran diferencias mayores con la recopilación de datos basada en el explorador que otras páginas visitadas.
 
 Los tres tipos de validación requieren un registro de depuración o una fuente de datos para el período de tiempo en cuestión. Generalmente es un día o menos.
 
