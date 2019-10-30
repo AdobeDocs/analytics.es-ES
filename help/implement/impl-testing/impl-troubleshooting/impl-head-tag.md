@@ -7,8 +7,8 @@ solution: Analytics
 title: Incluir código de Analytics en la etiqueta Head
 topic: Desarrollador e implementación
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 El código de Analytics crea un objeto de imagen, una imagen no visible que no se muestra en la página.
 
->[!NOTE]
->
->Esta sección se aplica solo a la implementación de s_code.js heredada. [AppMeasurement para JavaScript 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) permite implementar la biblioteca y el código de página en la etiqueta `<head>`.
+> [!NOTE] Esta sección se aplica solo a la implementación de s_code.js heredada. [AppMeasurement para JavaScript 1.0](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) permite implementar la biblioteca y el código de página en la etiqueta `<head>`.
 
 Anteriormente, un procedimiento de implementación habitual era colocar el código JavaScript de Analytics entre las etiquetas <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> y </head> . Al colocar el código entre estas etiquetas, se impedía que la imagen de 1 x 1 píxeles devuelta por la solicitud que enviaba los datos a los servidores de Adobe afectara al diseño de la página de ninguna manera. Cuando el código se coloca en el encabezado del documento, aparece antes en el código. Esto permite que se ejecute antes, lo que optimiza el recuento de las vistas de página para cargas de página parciales.
 
@@ -37,7 +35,7 @@ Si desea integrar Analytics con Target, el archivo de inclusión JavaScript debe
 <html> 
 <head></head> 
 <body> 
-<!-- Analytics code version: H.20.3. 
+<!-- Analytics code version: H.20.3.
 Copyright 1997-2009 Omniture, Inc. More info available at 
 https://www.omniture.com --> 
 <script language="JavaScript" type="text/javascript" src="https://www.yourdomain.com/js/s_code.js"></script> 
