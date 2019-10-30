@@ -1,18 +1,18 @@
 ---
 description: El Creador de informes utiliza el calendario personalizado de Analytics. El calendario se puede usar para definir el primer día de la semana y del año, y permite elegir un estilo de calendario comercial distinto. Los formatos de calendario se utilizan por distintos motivos, entre los que se incluyen la comparación de ventas y estandarización de la previsión, el análisis del costo en plantilla o la regulación del recuento de inventario físico.
 seo-description: El Creador de informes utiliza el calendario personalizado de Analytics. El calendario se puede usar para definir el primer día de la semana y del año, y permite elegir un estilo de calendario comercial distinto. Los formatos de calendario se utilizan por distintos motivos, entre los que se incluyen la comparación de ventas y estandarización de la previsión, el análisis del costo en plantilla o la regulación del recuento de inventario físico.
-seo-title: Calendario personalizado
+seo-title: 'Calendario personalizado '
 solution: Analytics
-title: Calendario personalizado
+title: 'Calendario personalizado '
 topic: Creador de informes
-uuid: 88 d 24 bf 9-de 46-41 e 0-937 e-b 8 a 1 fe 36 c 55 d
+uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Calendario personalizado
+# Calendario personalizado 
 
 El Creador de informes utiliza el calendario personalizado de Analytics. El calendario se puede usar para definir el primer día de la semana y del año, y permite elegir un estilo de calendario comercial distinto. Los formatos de calendario se utilizan por distintos motivos, entre los que se incluyen la comparación de ventas y estandarización de la previsión, el análisis del costo en plantilla o la regulación del recuento de inventario físico.
 
@@ -40,7 +40,7 @@ A continuación se describe cada formato de calendario.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Calendario personalizado </p> </td> 
-   <td colname="col2"> <p> Ofrece tres formatos, según el número de semanas de cada mes. El número de semanas de cada mes depende del primer día del año seleccionado. </p> <p>Un año tiene 52 semanas. Se divide esa cantidad entre 4 trimestres y se obtienen 13 semanas por trimestre. Pero un trimestre tiene 3 meses. Como 13 no es divisible entre 3, se acaba asignando la semana extra a uno de los meses para que el resultado siempre sea coherente. 5-4-4 significa que el primer mes del trimestre tiene la semana extra. 4-5-4 significa que el segundo mes del trimestre tiene la semana extra, etc. En el calendario 4-4-5, la semana 53.ª se añade al último trimestre del año. </p> 
+   <td colname="col2"> <p> Ofrece tres formatos, según el número de semanas de cada mes. El número de semanas de cada mes depende del primer día del año seleccionado. </p> <p>Un año tiene 52 semanas. Se divide esa cantidad entre 4 trimestres y se obtienen 13 semanas por trimestre. Pero un trimestre tiene 3 meses. 13 no es divisible por tres, así que terminas poniendo la semana extra en uno de los meses para que siempre sea consistente. 5-4-4 significa que el primer mes del trimestre tiene la semana extra. 4-5-4 significa que el segundo mes del trimestre tiene la semana extra, etc. En el calendario 4-4-5, la semana 53.ª se añade al último trimestre del año. </p> 
     <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: enero tiene 4 semanas, febrero tiene 5, marzo tiene 4, y así sucesivamente. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: enero tiene 4 semanas, febrero 4 semanas, marzo 5 semanas y así sucesivamente. </li> 
