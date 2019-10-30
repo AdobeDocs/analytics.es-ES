@@ -5,9 +5,9 @@ seo-title: Objetivos
 solution: Analytics
 title: Objetivos
 topic: Reports and Analytics
-uuid: bfe 29 dc 8-8 da 8-4107-8 bb 1-4 a 7494 f 12 bc 9
+uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
