@@ -8,7 +8,7 @@ title: Paneles e informes breves
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,9 +34,7 @@ Debe tener en cuenta que algunos de los informes visualizados con más frecuenci
 * Informes en tiempo real
 * Otros tableros
 
->[!NOTE]
->
->The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. Sin embargo, aún hay un par de circunstancias en las que verá algunos o todos estos informes breves.
+> [!NOTE] El tablero Información general **[!UICONTROL del]** sitio ya no aparece en Informes y análisis. Sin embargo, aún hay un par de circunstancias en las que verá algunos o todos estos informes breves.
 
 * Si, por ejemplo, solo tiene tres informes vistos con frecuencia, Reports &amp; Analytics tomará dos informes del tablero Información general de sitio para completar el tablero **[!UICONTROL Mis informes recomendados].**
 * Los grupos de informes completamente nuevos también contarán inicialmente con informes breves de Información general de sitio, hasta que se puedan sustituir por los informes que visualiza con más frecuencia. Aun así, el tablero se llamará **[!UICONTROL Mis informes recomendados]**.
