@@ -8,7 +8,7 @@ title: Acerca de las clasificaciones
 topic: Herramientas de administración
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,11 +31,9 @@ Una vez clasificado, los informes que pueden generarse con la variable clave pue
 >
 >Se ha eliminado de la base de código la posibilidad de importar clasificaciones numéricas 2 y fechas activadas. Este cambio entra en vigor con el lanzamiento de mantenimiento de junio de 2019. Si tiene columnas numéricas o con fecha habilitada en el archivo de importación, esas celdas serán omitidas sin aviso y cualquier otra información de ese archivo se importará como de costumbre. Las clasificaciones existentes se pueden exportar a través del flujo de trabajo de clasificación estándar y seguirán estando disponibles en los informes.
 
->[!NOTE]
->
->En la versión de mantenimiento de Analytics del 10 de mayo de 2018, Adobe comenzó a limitar la funcionalidad de las clasificaciones numéricas y con fecha habilitada. Estos tipos de clasificaciones se eliminaron de las interfaces del Administrador y del Importador de clasificaciones. No es posible añadir nuevas clasificaciones numéricas y habilitadas por fecha. Las clasificaciones existentes se podrán seguir administrando (cargado y eliminado) a través del flujo de trabajo de clasificación estándar y permanecerán disponibles en los informes.
+> [!NOTE] En la versión de mantenimiento de Analytics del 10 de mayo de 2018, Adobe comenzó a limitar la funcionalidad de las clasificaciones numéricas y con fecha habilitada. Estos tipos de clasificaciones se eliminaron de las interfaces del Administrador y del Importador de clasificaciones. No es posible añadir nuevas clasificaciones numéricas y habilitadas por fecha. Las clasificaciones existentes se podrán seguir administrando (cargado y eliminado) a través del flujo de trabajo de clasificación estándar y permanecerán disponibles en los informes.
 
-After creating the classifications, you can leverage the new data attributes throughout Adobe Analytics.
+Después de crear las clasificaciones, puede aprovechar los nuevos atributos de datos en Adobe Analytics.
 
 **Ejemplo de códigos de seguimiento**
 
