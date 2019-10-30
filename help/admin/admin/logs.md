@@ -5,9 +5,9 @@ seo-title: Registros
 solution: Analytics
 title: Registros
 topic: Herramientas de administración
-uuid: d 5 d 4723 d-f 4 cf -403 e-ae 9 c -76 d 7 faed 2 be 6
+uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
