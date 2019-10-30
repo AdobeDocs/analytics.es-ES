@@ -8,8 +8,8 @@ subtopic: Resolución de problemas
 title: Errores de sintaxis comunes
 topic: Desarrollador e implementación
 uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
