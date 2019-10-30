@@ -1,11 +1,11 @@
 ---
 description: El Asistente para la integración de Conectores de datos le guía a través del proceso de integración de Conectores de datos.
 seo-description: El Asistente para la integración de Conectores de datos le guía a través del proceso de integración de Conectores de datos.
-seo-title: Running the Data Connectors Integration Wizard
+seo-title: Ejecución del Asistente para la integración de Data Connectors
 title: Ejecución del Asistente para la integración de Data Connectors
 uuid: 714417f7-c1df-4e61-a07f-d319f6581c9c
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,7 +30,7 @@ Para configurar la integración:
 1. En la página de introducción de Integración de Datran, revise el texto, luego seleccione la casilla de verificación para aceptar las tarifas asociadas con la integración y haga clic en **Siguiente**.
 
    Esta página proporciona información general sobre la integración, junto con vínculos útiles para obtener más información. Esta integración conlleva tarifas tanto de Adobe como de Datran. Póngase en contacto con los Representantes de ventas correspondientes para ambas organizaciones y asegúrese de comprender la estructura de tarifas.
-1. On each page of the Data Connectors Integration Wizard, provide the required information, as described in the following table:
+1. En cada página del Asistente para la integración de Data Connectors, proporcione la información necesaria, tal como se describe en la tabla siguiente:
 
 <table id="table_74EC1EEBE7A548AB878AA40187EBCD30"> 
  <thead> 
@@ -59,17 +59,17 @@ Para configurar la integración:
   <tr valign="top"> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>ID del mensaje </p> </td> 
-   <td colname="col3"> <p>Identify the Adobe Analytics eVar used for tracking the email Message ID. </p> <p>El ID del mensaje se utiliza para campañas de mercadotecnia y remercadotecnia. La ID del mensaje se conoce generalmente como "Código de seguimiento". </p> </td> 
+   <td colname="col3"> <p>Identifique la eVar de Adobe Analytics que se utiliza para rastrear la ID del mensaje de correo electrónico. </p> <p>El ID del mensaje se utiliza para campañas de mercadotecnia y remercadotecnia. La ID del mensaje se conoce generalmente como "Código de seguimiento". </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>Recipient ID </p> </td> 
-   <td colname="col3"> <p>Identify the Adobe Analytics eVar used for tracking the email Recipient ID. </p> <p>La ID del destinatario se utiliza para campañas de mercadotecnia y remercadotecnia. La ID del mensaje se conoce generalmente como "código del visitante". </p> </td> 
+   <td colname="col3"> <p>Identifique la eVar de Adobe Analytics que se utiliza para rastrear la ID del destinatario del correo electrónico. </p> <p>La ID del destinatario se utiliza para campañas de mercadotecnia y remercadotecnia. La ID del mensaje se conoce generalmente como "código del visitante". </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>Casilla de verificación Aceptación </p> </td> 
-   <td colname="col3"> <p>Revise la información mostrada junto a la casilla de verificación Aceptación: </p> <p><i>I understand that by enabling "Recipient ID" tracking, this feature may track personally identifiable information of our site visitors. Esto tiene implicaciones para la privacidad que requieren la implementación de los procedimientos apropiados por parte de mi organización, tales como la notificación y el consentimiento de los visitantes de nuestro sitio. </i> </p> <p>Si acepta la declaración de aceptación, active la casilla de verificación y, a continuación, haga clic en <b>Siguiente</b> para continuar con el paso 4 del Asistente. </p> </td> 
+   <td colname="col3"> <p>Revise la información mostrada junto a la casilla de verificación Aceptación: </p> <p><i>Reconozco que, al habilitar el seguimiento de "ID del destinatario", esta función puede rastrear información personal de los visitantes de nuestro sitio. Esto tiene implicaciones para la privacidad que requieren la implementación de los procedimientos apropiados por parte de mi organización, tales como la notificación y el consentimiento de los visitantes de nuestro sitio. </i> </p> <p>Si acepta la declaración de aceptación, active la casilla de verificación y, a continuación, haga clic en <b>Siguiente</b> para continuar con el paso 4 del Asistente. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>4 </p> </td> 
@@ -78,28 +78,28 @@ Para configurar la integración:
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
-   <td colname="col2"> <p>Clicked </p> </td> 
-   <td colname="col3"> <p>Specify the Adobe Analytics event that stores the email Clicked data imported from the email system. </p> <p>El evento en el que se hizo clic permite ver el número de visitantes que hicieron clic en el mensaje de correo electrónico. </p> </td> 
+   <td colname="col2"> <p>Clic </p> </td> 
+   <td colname="col3"> <p>Especifique el evento de Adobe Analytics que almacena los datos de correo electrónico en los que se hizo clic importados del sistema de correo electrónico. </p> <p>El evento en el que se hizo clic permite ver el número de visitantes que hicieron clic en el mensaje de correo electrónico. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col2"> <p>Abierto </p> </td> 
-   <td colname="col3"> <p>Specify the Adobe Analytics event that stores the email Opened data imported from the email system. </p> <p>The Opened event lets you see the number of visitors who opened the email message. </p> </td> 
+   <td colname="col3"> <p>Especifique el evento de Adobe Analytics que almacena los datos de correo electrónico abiertos importados del sistema de correo electrónico. </p> <p>El evento Abrir permite ver el número de visitantes que abrieron el mensaje de correo electrónico. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
-   <td colname="col2"> <p>Sent </p> </td> 
-   <td colname="col3"> <p>Specify the Adobe Analytics event that stores the email Sent data imported from the email system. </p> <p>The Clicked event lets you see the number of email messages that were sent. </p> </td> 
+   <td colname="col2"> <p>Enviado </p> </td> 
+   <td colname="col3"> <p>Especifique el evento de Adobe Analytics que almacena los datos de correo electrónico enviados importados del sistema de correo electrónico. </p> <p>El evento en el que se hizo clic permite ver el número de mensajes de correo electrónico que se enviaron. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
-   <td colname="col2"> <p>Total Bounces </p> </td> 
-   <td colname="col3"> <p>Specify the Adobe Analytics event that stores the email Total Bounces data imported from the email system. </p> <p>El evento Devoluciones totales permite ver el número de mensajes de correo electrónico que no se entregaron a los destinatarios debido a un problema de entrega. </p> </td> 
+   <td colname="col2"> <p>Devoluciones totales </p> </td> 
+   <td colname="col3"> <p>Especifique el evento de Adobe Analytics que almacena los datos de Devoluciones totales importados desde el sistema de correo electrónico. </p> <p>El evento Devoluciones totales permite ver el número de mensajes de correo electrónico que no se entregaron a los destinatarios debido a un problema de entrega. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
-   <td colname="col2"> <p>Unsubscribed </p> </td> 
-   <td colname="col3"> <p>Specify the Adobe Analytics event that stores the email Unsubscribe data imported from the email system. </p> <p>El evento Cancelar suscripción le permite ver el número de visitantes que abrieron el mensaje de correo electrónico y luego hicieron clic en el vínculo Cancelar suscripción para rechazar futuros mensajes de correo electrónico de su organización. </p> <p>Haga clic en Siguiente para continuar con el paso 6 del Asistente. </p> </td> 
+   <td colname="col2"> <p>No suscrito </p> </td> 
+   <td colname="col3"> <p>Especifique el evento de Adobe Analytics que almacena los datos de cancelación de suscripción de correo electrónico importados del sistema de correo electrónico. </p> <p>El evento Cancelar suscripción le permite ver el número de visitantes que abrieron el mensaje de correo electrónico y luego hicieron clic en el vínculo Cancelar suscripción para rechazar futuros mensajes de correo electrónico de su organización. </p> <p>Haga clic en Siguiente para continuar con el paso 6 del Asistente. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 
@@ -109,7 +109,7 @@ Para configurar la integración:
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 
    <td colname="col2"> <p>Recopilación de datos: Solución automatizada </p> </td> 
-   <td colname="col3"> <p>Select Automated Solution if you want to use an automated collection model for this integration, then specify the unique identifiers used for this integration.<b></b> </p> <p> <p>Nota:  La solución automatizada es la selección predeterminada. </p> </p> <p>Si selecciona esta opción, especifique los identificadores únicos utilizados para esta integración: </p> <p><b>Parámetro de cadena de consulta de ID de mensaje:</b>este valor representa el ID del mensaje que su socio de correo electrónico anexó a la dirección URL de la página de aterrizaje. </p> <p><b></b> Parámetro de cadena de consulta de ID del destinatario: Este valor representa la ID del destinatario anexada a la dirección URL de la página de aterrizaje por su socio de correo electrónico. </p> <p>Haga clic en <b>Siguiente</b> para continuar con el paso 7 del Asistente. </p> </td> 
+   <td colname="col3"> <p>Seleccione Solución <b></b> automatizada si desea utilizar un modelo de recopilación automatizada para esta integración y, a continuación, especifique los identificadores únicos utilizados para esta integración. </p> <p> <p>Nota:  La solución automatizada es la selección predeterminada. </p> </p> <p>Si selecciona esta opción, especifique los identificadores únicos utilizados para esta integración: </p> <p><b>Parámetro de cadena de consulta de ID de mensaje:</b>este valor representa el ID del mensaje que su socio de correo electrónico anexó a la dirección URL de la página de aterrizaje. </p> <p><b></b> Parámetro de cadena de consulta de ID del destinatario: Este valor representa la ID del destinatario anexada a la dirección URL de la página de aterrizaje por su socio de correo electrónico. </p> <p>Haga clic en <b>Siguiente</b> para continuar con el paso 7 del Asistente. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>7 </p> </td> 
