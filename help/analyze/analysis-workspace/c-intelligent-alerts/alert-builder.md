@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Generador de alertas
 title: Generador de alertas
-uuid: ebc 2 d 457-4 abd -4 b 1 a -9357-489 b 5 aeb 3 f 64
+uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 >
 >Las alertas inteligentes solo están disponibles para los clientes de Adobe Analytics Prime y Adobe Analytics Ultimate.
 
-## Generador de alertas de acceso
+## Acceso al Generador de alertas
 
 Acceda al Generador de alertas de una de las cuatro formas disponibles:
 
@@ -43,9 +43,7 @@ Especifique un nombre para la alerta. El nombre de la alerta puede contener el n
 
 Especifique cuándo desea que se compruebe la métrica: cada hora, cada día, semanalmente o mensualmente.
 
->[!NOTE]
->
->Para los grupos de informes con un calendario personalizado, no es compatible con la granularidad mensual en el Generador de alertas.
+> [!NOTE] Para los grupos de informes con un calendario personalizado, no se admite la granularidad mensual en el Generador de alertas.
 
 **Destinatarios**
 
@@ -55,7 +53,7 @@ Especifique hacia dónde se puede enviar la alerta. Se puede enviar una alerta a
 >
 >The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
 
-El correo electrónico que un usuario recibe una vez que se ha activado una alerta similar a esta:
+El correo electrónico que un usuario recibiría una vez que se activara una alerta tiene un aspecto similar al siguiente:
 
 ![](assets/alerts-email.PNG)
 
@@ -69,7 +67,7 @@ Establezca la fecha de caducidad de la alerta.
 
 * Arrastre y suelte las métricas en el lienzo para añadir activadores.
 
-   An **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 * Determine el umbral que debe superar la métrica para que se establezca la alerta. Puede ajustar este valor a un umbral y, a continuación, a una de las condiciones siguientes:
 
    * existe anomalía
@@ -90,7 +88,7 @@ Establezca la fecha de caducidad de la alerta.
 
 Puede añadir las reglas AND u OR si hace clic en el icono de engranaje.
 
-## Preview Alerts {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## Vista previa de alertas {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 La vista previa de alertas interactiva le muestra con qué frecuencia, aproximada, se activará una alerta en función de las experiencias pasadas.
 
