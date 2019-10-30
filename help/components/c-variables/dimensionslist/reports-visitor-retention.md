@@ -4,10 +4,10 @@ seo-description: Muestra información sobre la lealtad del cliente. Puede ver la
 seo-title: Retención de visitantes
 solution: Analytics
 title: Retención de visitantes
-topic: 'Informes '
-uuid: e 2 d 477 d 0-f 704-489 b-b 4 b 3-941 bc 352 cd 7 a
+topic: Informes
+uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,7 +41,7 @@ Muestra información sobre la lealtad del cliente. Puede ver la cantidad de visi
    <td colname="col2"> <p>Muestra el número de visitantes que vieron el sitio más de una vez en un día determinado. Un día se define como el último período de 24 horas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Número de visitas </td> 
+   <td colname="col1"> Número de visita </td> 
    <td colname="col2"> <p>Muestra el número de visitas de cada visitante que entra en el sitio. </p> </td> 
   </tr> 
   <tr> 
@@ -54,7 +54,7 @@ Muestra información sobre la lealtad del cliente. Puede ver la cantidad de visi
   </tr> 
   <tr> 
    <td colname="col1"> Días desde la última compra </td> 
-   <td colname="col2"> <p>Muestra la cantidad más frecuente de días que transcurren entre una compra y otra del mismo cliente y le permite ver los períodos de tiempo que más contribuyeron a las métricas de éxito clave para su sitio, como Ingresos y Pedidos. </p> </td> 
+   <td colname="col2"> <p>Muestra la cantidad más frecuente de días que transcurren entre una compra y otra del mismo cliente y le permite ver los períodos de tiempo que más contribuyeron a las métricas de éxito clave para su sitio, tales como Ingresos y Pedidos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliente único diario </td> 
