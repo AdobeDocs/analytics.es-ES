@@ -1,11 +1,11 @@
 ---
 description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,15 +14,15 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
 La variable es una lista de variables separadas por coma que se envían con vínculos personalizados, de salida y de descarga.
 
-If *`linkTrackVars`* is set to "", all variables that have values are sent with link data. To avoid inflation of instances or page views associated with other variables, Adobe recommends populating  and  in the onClick event of a link that is used for link tracking.*`linkTrackVars`**`linkTrackEvents`*
+Si *`linkTrackVars`* se configura como “”, todas las variables que tienen valores se envían con los datos del vínculo. Para evitar una inflación de instancias o vistas de página asociadas con otras variables, Adobe recomienda rellenar *`linkTrackVars`* y *`linkTrackEvents`* en el evento [!UICONTROL onClick] de un vínculo que se utiliza para el seguimiento de vínculos.
 
-All variables that should be sent with link data (custom, exit, and download links) should be listed in *`linkTrackVars`*. If  is used,  should contain "events."*`linkTrackEvents`**`linkTrackVars`*
+Todas las variables se envíen con datos de vínculo (vínculos personalizados, de salida y de descarga) deben incluirse en *`linkTrackVars`*. Si *`linkTrackEvents`* se utiliza, *`linkTrackVars`* debe contener “events”.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| N.D. | N.D. | Cualquiera | "None" |
+| N.D. | N.D. | Cualquiera | "Ninguna" |
 
-Al rellenar *`linkTrackVars`*, do not use the 's.' prefix for variables. Por ejemplo: en lugar de rellenar *`linkTrackVars`* "s.prop1", debe rellenarlo con "prop1". The following example illustrates how  should be used.*`linkTrackVars`*
+When populating *`linkTrackVars`*, do not use the 's.' prefix for variables. Por ejemplo: en lugar de rellenar *`linkTrackVars`* con “s.prop1”, debe rellenarlo con “prop1”. El siguiente ejemplo ilustra cómo debe usarse *`linkTrackVars`*.
 
 ```js
 s.linkTrackVars="eVar1,events" 
@@ -35,17 +35,17 @@ s.t() // eVar1, event1 and event2 are recorded
 <a href="test.php" onClick="s=s_gi('rs1');s.eVar1='value C';s.events='';s.tl(this,'o')">eVar1 is recorded</a> 
 ```
 
-Puesto que el vínculo a google.com es un vínculo de salida (a menos que usted sea Google), event1 y eVar1 se envían con los datos del vínculo de salida, lo que aumenta las instancias asociadas a eVar1 y el número de veces que se activa event1. In the link to [!DNL test.php], [!UICONTROL eVar1] is sent with a value of 'value C' because that is the current value of [!UICONTROL eVar1] at the time that *`tl()`* is called.
+Puesto que el vínculo a google.com es un vínculo de salida (a menos que usted sea Google), event1 y eVar1 se envían con los datos del vínculo de salida, lo que aumenta las instancias asociadas a eVar1 y el número de veces que se activa event1. En el vínculo a [!DNL test.php][!UICONTROL , se envía eVar1] con un valor de “value C” porque ese es el valor actual de [!UICONTROL eVar1] en el momento de la llamada a *`tl()`*.
 
 ## Sintaxis y valores posibles
 
-La sintaxis de la variable *`linkTrackVars`* es una lista de nombres de variable separados por coma, que distingue entre mayúsculas y minúsculas y sin prefijo de nombre de objeto. Use 'eVar1' en lugar de 's.eVar1'.
+La variable *`linkTrackVars`* es una lista de nombres de variable separados por coma, que distingue entre mayúsculas y minúsculas y sin prefijo de nombre de objeto. Use 'eVar1' en lugar de 's.eVar1'.
 
 ```js
 s.linkTrackVars="variable_name[,variable_name[...]]"
 ```
 
-La variable *`linkTrackVars`* puede contener solamente variables que se envían a [!DNL Analytics], a saber: *`events`*, *`campaign`*, *`purchaseID`*, *`products`*, [!UICONTROL eVar1-75], [!UICONTROL prop1-75], [!UICONTROL hier1-5]*`channel`**`server`**`state`**`zip`**`pageType`*,,,, y.
+La variable *`linkTrackVars`* contiene solo las variables enviadas a [!DNL Analytics], es decir: *`events`*, *`campaign`*, *`purchaseID`*, *`products`*, [!UICONTROL eVar1-75], [!UICONTROL prop1-75], [!UICONTROL hier1-5], *`channel`*, *`server`*, *`state`*, *`zip`* y *`pageType`*.
 
 ## Ejemplos
 
@@ -59,12 +59,12 @@ s.linkTrackVars="products"
 
 ## Parámetros de configuración
 
-Ninguno.
+Ninguna
 
 ## Problemas, preguntas y consejos
 
-* If *`linkTrackVars`* is blank, all variables that have values are tracked with all server calls.
-* Any variable listed in *`linkTrackVars`* that has a value at the time of any download, exit, or custom link, are tracked.
-* Si *`linkTrackEvents`* se utiliza, *`linkTrackVars`* debe contener "events".
+* Si *`linkTrackVars`* está en blanco, se realiza el seguimiento de todas las variables que tienen valores con todas las llamadas al servidor.
+* Cualquier variable de *`linkTrackVars`* que tenga un valor en el momento del vínculo de descarga, salida o personalizado se siguen.
+* Si *`linkTrackEvents`* se utiliza, *`linkTrackVars`* debe contener “events”.
 
 * No use el prefijo "s." ni "s_objectname." para las variables.
