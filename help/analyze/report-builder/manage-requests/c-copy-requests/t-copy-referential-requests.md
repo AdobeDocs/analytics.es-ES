@@ -5,9 +5,9 @@ seo-title: Copiar solicitudes de referencia
 solution: Analytics
 title: Copiar solicitudes de referencia
 topic: Creador de informes
-uuid: b 6 f 64630-868 f -455 b -8682-471 ff 9 fc 596 e
+uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Para propagar o copiar y pegar las solicitudes de referencia en la hoja de cálc
 
 También se pueden crear solicitudes que hagan referencia a filtros de entrada desde solicitudes en diferentes hojas de cálculo, pero no en diferentes libros. Por ejemplo, una solicitud de la Hoja 2 puede utilizar un grupo de informes de una celda determinada de la Hoja 1 y un intervalo de fechas de una celda de una solicitud en la Hoja 2. La nueva salida se puede situar en cualquier hoja o en una nueva hoja del mismo libro. Cuando se pega una solicitud relativa, si un filtro de entrada reside en una hoja de cálculo distinta de la hoja en la que se sitúa el resultado de la solicitud copiada, el filtro se pega como filtro absoluto.
 
->[!NOTE]
->
->No se puede generar una sola solicitud en varias hojas de cálculo. Asimismo, el sistema no puede pegar algunas solicitudes copiadas en libros nuevos porque las solicitudes contienen filtros de entrada de otras hojas de cálculo. Los filtros de entrada incluyen grupos de informes de celdas, intervalos de fechas de celdas, filtros de celdas y otros parámetros relacionados.
+> [!NOTE] No se puede generar una sola solicitud en varias hojas de cálculo. Asimismo, el sistema no puede pegar algunas solicitudes copiadas en libros nuevos porque las solicitudes contienen filtros de entrada de otras hojas de cálculo. Los filtros de entrada incluyen grupos de informes de celdas, intervalos de fechas de celdas, filtros de celdas y otros parámetros relacionados.
 
 **Para copiar solicitudes de referencia**
 
