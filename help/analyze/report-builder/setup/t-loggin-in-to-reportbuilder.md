@@ -1,18 +1,18 @@
 ---
 description: Pasos que describen cómo iniciar sesión en el Creador de informes.
 seo-description: Pasos que describen cómo iniciar sesión en el Creador de informes.
-seo-title: Iniciar sesión en el Creador de informes
+seo-title: Iniciar sesión en el Report Builder
 solution: Analytics
-title: Iniciar sesión en el Creador de informes
+title: Iniciar sesión en el Report Builder
 topic: Creador de informes
-uuid: 94944 ce 3-499 d -4 d 3 f -954 b-c 241267 d 4 e 92
+uuid: 94944ce3-499d-4d3f-954b-c241267d4e92
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Iniciar sesión en el Creador de informes
+# Iniciar sesión en el Report Builder
 
 Pasos que describen cómo iniciar sesión en el Creador de informes.
 
