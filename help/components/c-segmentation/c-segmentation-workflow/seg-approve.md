@@ -5,9 +5,9 @@ seo-title: Aprobar segmentos
 solution: Analytics
 title: Aprobar segmentos
 topic: Segmentos
-uuid: 01 f 4 ff 51-d 923-4328-a 68 d-c 4 e 793 cb 5 b 34
+uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
