@@ -5,9 +5,9 @@ seo-title: Copiar solicitudes simples
 solution: Analytics
 title: Copiar solicitudes simples
 topic: Creador de informes
-uuid: ff 20560 a -01 ee -47 e 7-8 bd 1-b 73 edb 010456
+uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
