@@ -4,20 +4,20 @@ seo-title: Características del entorno de RDC de Adobe Analytics
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Características del entorno RDC
 
-El entorno de Recopilación regional de datos (RDC) incluye características como se describe a continuación.
+El entorno de recopilación de datos regionales (RDC) incluye características como se describe a continuación.
 
 ## Mejoras en el rendimiento
 
-For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
+Para conocer los tiempos de respuesta actuales al usar RDC, consulte Rendimiento [de solicitudes de](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/)Adobe Analytics.
 
-Generalmente, los usuarios han experimentado mejoras en el tiempo de respuesta con RDC de la siguiente manera:
+En general, los usuarios han experimentado mejoras en el tiempo de respuesta con RDC de la siguiente manera:
 
 | Regiones | Tiempo de respuesta quitado por RDC |
 | --- | --- |
@@ -43,7 +43,7 @@ Según la implementación, podría estar usando cookies de origen o de terceros.
 
 ## Páginas seguras
 
-Si su sitio contiene páginas que utilizan el protocolo https, tiene páginas seguras. La mayoría de las vistas de páginas rastreadas por Adobe Analytics se aseguran mediante el protocolo https. Las páginas seguras requieren un certificado SSL para el seguimiento. Si su propiedad web está usando cookies de terceros, las páginas seguras utilizan un certificado SSL propiedad de Adobe, que permite enviar datos a nuestros servidores de recopilación de datos sin una implementación de FPSSL.
+Si el sitio contiene páginas que utilizan el protocolo https, se han protegido las páginas. La mayoría de las vistas de página rastreadas por Adobe Analytics se aseguran mediante el protocolo https. Las páginas seguras requieren un certificado SSL para el seguimiento. Si la propiedad web utiliza cookies de terceros, las páginas seguras utilizan un certificado SSL propiedad de Adobe, que permite que los datos se envíen a nuestros servidores de recopilación de datos de forma segura sin una implementación de FPSSL.
 
 ## Cambios DNS (actualización de CNAME)
 
