@@ -3,12 +3,12 @@ description: El archivo de importación y exportación incluye seis columnas par
 seo-description: El archivo de importación y exportación incluye seis columnas para cada clasificación numérica 2.
 seo-title: Importar clasificaciones numéricas 2
 solution: Analytics
-subtopic: Classifications
+subtopic: Clasificaciones
 title: Importar clasificaciones numéricas 2
 topic: Herramientas de administración
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
