@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Clasificaciones
 title: Ejemplos
 topic: Herramientas de administración
-uuid: 0553 d 07 f -87 c 1-4372-90 ce -7118 a 6393 a 01
+uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -70,7 +70,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-En febrero, el coste del usuario para Product1 bajó al 15% de los ingresos y el de Product2 bajó al 25% de sus ingresos.
+En febrero, el coste del usuario para Product1 se redujo al 15 % de los ingresos y Product2 bajó al 25 % de los ingresos.
 
 ## Resultado {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -170,9 +170,7 @@ Informe: Productos
 |---|---|---|
 | Product1 | 10 000,23 $ | 2.500,05 $ |
 
->[!NOTE]
->
->Esta función es para que los usuarios avanzados aproximen los valores. La información resultante no deberá tratarse como valores exactos.
+> [!NOTE] Esta función es para que los usuarios avanzados aproximen los valores. La información resultante no deberá tratarse como valores exactos.
 
 <!-- 
 
