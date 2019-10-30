@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: Migrar a AppMeasurement para JavaScript
 topic: Desarrollador e implementación
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 La siguiente tabla contiene la lista de tareas que debe llevar a cabo para migrar su implementación.
 
->[!NOTE]
->
->Se recomienda migrar al [Servicio de identidad](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) cuando migre a [!DNL AppMeasurement] para JavaScript.
+> [!NOTE] Se recomienda migrar al [Servicio de identidad](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) cuando migre a [!DNL AppMeasurement] para JavaScript.
 
 ![](assets/step1_icon.png) Comprobar la compatibilidad de complementos
 
