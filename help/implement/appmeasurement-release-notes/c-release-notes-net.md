@@ -8,7 +8,7 @@ title: Windows Silverlight, NET, IIS, XBOX
 topic: Desarrollador e implementación
 uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,17 +17,15 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!IMPORTANT]
 >
->Estos SDK se han cerrado y Adobe ya no los admite ni distribuye.
+>Estos SDK han quedado obsoletos y Adobe ya no los admite ni distribuye.
 
->[!NOTE]
->
->Para encontrar la versión actual de la biblioteca, active el registro de depuración.
+> [!NOTE] Para saber la versión de la biblioteca actual, active los registros de depuración.
 
 ## Versión 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 Fecha de versión: **agosto de 2014**
 
-* Se ha eliminado la compatibilidad con el [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* Se ha eliminado la compatibilidad con el [!DNL Microsoft Silverlight Analytics Framework]. Adobe ya no admite ni distribuye la integración de [!DNL Microsoft Silverlight Analytics Framework] para [!DNL AppMeasurement].
 
 * Cambios internos para admitir próximas funciones.
 
@@ -35,16 +33,16 @@ Fecha de versión: **agosto de 2014**
 
 Fecha de versión: **marzo de 2013**
 
-* Fixed exception with getting default referrer in [!DNL Silverlight] outside of a browser context and properly exposed SSL property in the [!DNL Microsoft Silverlight Analytics Framework] component.
+* Se ha solucionado una excepción relacionada con la obtención del referente predeterminado en [!DNL Silverlight] fuera de un contexto de explorador y con una propiedad de SSL expuesta correctamente en el componente [!DNL Microsoft Silverlight Analytics Framework].
 
 ## Versión 1.4 {#section_2F4ADA4628EC43B480177C3DDB3D1CFA}
 
 Fecha de versión: **febrero de 2013**
 
-* Se ha agregado compatibilidad para enviar direcciones URL superiores a 255 bytes para admitir la expansión del campo de URL de la página en los servidores de recopilación de datos de Adobe. Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. Esto ayuda a impedir que las direcciones URL largas prevalgan sobre otros datos en caso de truncamiento del navegador, pero sigue permitiendo capturar las direcciones URL largas. 
+* Se ha agregado compatibilidad para enviar direcciones URL superiores a 255 bytes para admitir la expansión del campo de URL de la página en los servidores de recopilación de datos de Adobe. Las direcciones URL de la página superiores a 255 bytes se han partido. Los primeros 255 bytes aparecen en el parámetro `g=` y los bytes restantes aparecen luego en la cadena de consulta en el parámetro de consulta `-g=`. Esto ayuda a impedir que las direcciones URL largas prevalgan sobre otros datos en caso de truncamiento del navegador, pero sigue permitiendo capturar las direcciones URL largas.
 
 * Se ha agregado un nuevo método de identificación de visitantes alternativos. Consulte [Identificación de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html).
-* Added a new `abort` flag that can be set inside `doPlugins`. Configurar este indicador a verdadero impide que la biblioteca [!DNL AppMeasurement] siga con la llamada de seguimiento. El indicador de anulación se restablece con cada llamada de seguimiento, así que si también se tiene que cancelar una llamada de seguimiento posterior, de nuevo se tendrá que configurar el indicador dentro de `doPlugins`.
+* Se ha añadido un nuevo indicador `abort` que se puede configurar dentro de `doPlugins`. Configurar este indicador a verdadero impide que la biblioteca [!DNL AppMeasurement] siga con la llamada de seguimiento. El indicador de anulación se restablece con cada llamada de seguimiento, así que si también se tiene que cancelar una llamada de seguimiento posterior, de nuevo se tendrá que configurar el indicador dentro de `doPlugins`.
 
    ```js
    s.doPlugins = function(s) { 
@@ -64,7 +62,7 @@ Fecha de versión: **septiembre de 2012**
 * Se ha solucionado un problema donde puede que el evento completo del vídeo no se envíe al utilizar un método `media.monitor` personalizado que rastrea el evento de cierre multimedia:
 
    ```
-   If(media.event==”CLOSE”) { 
+   If(media.event=="CLOSE") { 
    … 
    } 
    ```
@@ -90,7 +88,7 @@ Fecha de versión: **enero de 2012**
 
 ## Versión 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
 
-* New support and build for [!DNL iOS] Phone platform including offline tracking.
+* Nueva compatibilidad y compilación para la plataforma de [!DNL iOS] Phone, que incluye el seguimiento sin conexión.
 * Compatibilidad para que el delegado doRequest omita el modo en que se envían las solicitudes para los datos de seguimiento.
 * Compatibilidad para contextData que transmite reglas de procesamiento de parte del servidor (solo versión 15).
 * Compatibilidad para llamadas al servidor livianas (actualmente en modo beta).
