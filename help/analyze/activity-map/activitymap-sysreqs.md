@@ -7,7 +7,7 @@ title: Sistemas compatibles y requisitos
 topic: Activity Map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 | Firefox | Última versión |
 | Chrome | Última versión. Note:  The [!DNL Activity Map] Chrome plugin is a "developer mode" plugin only at this time. Al iniciar este complemento, verá un mensaje donde se le sugerirá que deshabilite las extensiones en modo de desarrollador. Este mensaje se mostrará cada vez que se inicie el complemento. |
 
->[!NOTE]
->
->From a link collection perspective, [!DNL Activity Map] supports a much larger list of browsers.
+> [!NOTE] Desde el punto de vista de la recopilación de vínculos, [!DNL Activity Map] admite una lista mucho mayor de exploradores.
 
 Otros requisitos:
 
