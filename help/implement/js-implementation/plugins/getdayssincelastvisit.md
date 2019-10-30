@@ -8,8 +8,8 @@ subtopic: Complementos
 title: getDaysSinceLastVisit
 topic: Desarrollador e implementación
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Determina el número de días transcurridos desde la última vez que un usuario 
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/) ahora incluye una dimensión **[!UICONTROL Días desde la última visita]** predeterminada, con lo que se anula la necesidad de este complemento.
+>[Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) ahora incluye una dimensión **[!UICONTROL Días transcurridos desde la última visita]** , con lo que se anula la necesidad de este complemento.
 
 Los datos de frecuencia de retorno se pueden emplear para responder a las preguntas siguientes:
 
@@ -30,9 +30,7 @@ Los datos de frecuencia de retorno se pueden emplear para responder a las pregun
 
 El complemento también puede generar valores para segmentación. Por ejemplo, puede crear un segmento para ver únicamente todos los datos de aquellas visitas que estuvieron precedidas por 30 días o más en los que el usuario no realizó ninguna visita.
 
->[!NOTE]
->
->Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+> [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación y código de complemento {#section_5600DBB819F143D59527A73BD94418DE}
 
