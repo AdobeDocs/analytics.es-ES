@@ -8,7 +8,7 @@ title: Creación de un proyecto de Workspace
 topic: Reports and Analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -53,7 +53,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
    >[!NOTE]
    >
-   >Sometimes, an "Incompatible Report Suite" message shows up when loading a project (or switching to a report suite) where not all of the components (metrics/dimensions) included in the project are included in the report suite. Se puede ver una lista de los componentes que no son compatibles. De este modo, podrá saber por qué aparece el mensaje.
+   >A veces, aparece un mensaje de "Grupo de informes incompatible" al cargar un proyecto (o al cambiar a un grupo de informes) en el que no todos los componentes (métricas/dimensiones) incluidos en el proyecto están incluidos en el grupo de informes. Se puede ver una lista de los componentes que no son compatibles. De este modo, podrá saber por qué aparece el mensaje.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -112,7 +112,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
   </tr> 
   <tr> 
    <td colname="col1"> Métricas (verde) </td> 
-   <td colname="col2"> <p>Se aplican en el nivel de proyecto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Occurrences</span> is the default metric for the data table. </p> </td> 
+   <td colname="col2"> <p>Se aplican en el nivel de proyecto. </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> Ocurrencias</span> es la métrica predeterminada para la tabla de datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
@@ -129,7 +129,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
 El panel [!UICONTROL Visualizaciones] incluye gráficos, diagramas circulares, tablas de datos, tablas de [cohorte](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E), diagramas Venn y otros elementos estándar de Analytics. Puede arrastrar y colocar varias visualizaciones en su proyecto.
 
-![Resultado de los pasos](assets/visualizations.png)
+![Resultado (](assets/visualizations.png)
 
 ![](assets/fa_full_panel.png)
 
@@ -139,7 +139,7 @@ El panel [!UICONTROL Visualizaciones] incluye gráficos, diagramas circulares, t
 
 El menú del botón secundario le permite realizar las siguientes acciones, según en qué celda de una tabla haga clic con el botón secundario.
 
-![Resultado de los pasos](assets/fa_data_table_actions.png)
+![Resultado (](assets/fa_data_table_actions.png)
 
 <table id="table_0F84CC5B604D4D41BD0C9668DF525929"> 
  <thead> 
