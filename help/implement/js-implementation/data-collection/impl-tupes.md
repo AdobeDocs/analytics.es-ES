@@ -7,8 +7,8 @@ solution: Analytics
 title: Seguimiento en diferentes tipos de implementación
 topic: Desarrollador e implementación
 uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
