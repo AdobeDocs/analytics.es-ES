@@ -4,8 +4,8 @@ seo-description: El complemento s.hitGovernor realiza un seguimiento del número
 seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
-translation-type: ht
-source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
