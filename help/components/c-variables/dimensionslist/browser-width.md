@@ -5,9 +5,9 @@ seo-title: Anchura y altura del navegador
 solution: Analytics
 title: Anchura y altura del navegador
 topic: Métricas
-uuid: 1 c 0 d 3 ea 9-e 001-4152-9 bfc -8 fe 6406 bc 755
+uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
