@@ -5,7 +5,7 @@ seo-title: Crear métricas
 title: Crear métricas
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -90,7 +90,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
    <td colname="col3"> <p>La compatibilidad del producto le muestra si la métrica es compatible con los <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">Datos actuales</a>, con los Datos completamente procesados o solo con los informes del Canal de marketing (asignación de primer toque). <p>Nota: Datos actuales no es compatible con todas las métricas. Las métricas que contienen segmentos o funciones no son compatibles con los datos actuales. <a href="../../../../../components/c-calcmetrics/cm-compatibility.md#concept_906480DEBEEC4D279BBBBD4CE7DFE70C" format="dita" scope="local"> Más... </a> </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <span class="uicontrol"> Agregar </span> </td> 
+   <td colname="col2"> <span class="uicontrol"> Agregue </span> </td> 
    <td colname="col3"> <p>Puede añadir contenedores y números estáticos a la definición de todos los tipos de métricas calculadas. Para obtener métricas calculadas avanzadas, también puede añadir segmentos y funciones. </p> <p> 
      <ul id="ul_607C1B303F334062BC620317667DE490"> 
       <li id="li_53462789B8AF4F1AA9B45565D37CF22B">Los contenedores funcionan como una expresión matemática y determinan el orden de las operaciones. Así, cualquier cosa que se encuentre en un contenedor se procesará antes de la operación siguiente. </li> 
@@ -112,7 +112,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de dimensiones </p> </td> 
-   <td colname="col3"> <p>En lugar de salir del creador de métricas calculadas para generar un segmento simple (en el creador de segmentos), como “Página = Página principal”, puede arrastrar Página y seleccionar Página principal directamente en el creador de métricas calculadas. </p> <p>Esto conlleva un flujo de trabajo mucho más simplificado en lo relativo a la creación de métricas calculadas segmentadas. </p> </td> 
+   <td colname="col3"> <p>En lugar de salir del Creador de métricas calculadas para generar un segmento simple (en el Generador de segmentos), por ejemplo "Página = Página principal", puede arrastrar Página y seleccionar Página principal directamente desde el Creador de métricas calculadas. </p> <p>Esto conlleva un flujo de trabajo mucho más simplificado en lo relativo a la creación de métricas calculadas segmentadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de métricas </p> </td> 
