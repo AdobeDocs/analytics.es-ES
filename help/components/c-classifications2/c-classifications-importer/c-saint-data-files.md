@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Clasificaciones
 title: Archivos de datos de clasificación
 topic: Herramientas de administración
-uuid: f 27 bb 812-56 e 0-472 a -9993-d 869 f 0 fea 700
+uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: c0c4a3f42a7236c6f9e5001f5ca0ef9173dbaa66
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: c0c4a3f42a7236c6f9e5001f5ca0ef9173dbaa66
 
 El importador permite realizar cargas masivas de datos de clasificaciones a los informes de análisis, mediante un archivo. Para que las cargas de datos sean correctas, es necesario usar un formato de archivo específico en la importación.
 
-Para ayudarle a crear archivos de datos válidos, puede descargar un archivo de plantilla que ofrece una estructura de datos en la que puede pegar los datos de las clasificaciones. Para obtener más información, consulte [Descargar la plantilla de clasificaciones](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417).
+Para ayudarle a crear archivos de datos válidos, puede descargar un archivo de plantilla que ofrece una estructura de datos en la que puede pegar los datos de las clasificaciones. Para obtener más información, consulte [Descargar plantilla](../../../components/c-classifications2/c-classifications-importer/c-download-saint-data.md#concept_0F06847AD8D042F5BA818AE3C37E2417)de clasificaciones.
 
 See [General File Structure](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) for more information about character limits in classifications.
 
@@ -47,7 +47,7 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
 
 * Las clasificaciones no pueden contener un acento circunflejo (^) porque este carácter se usa para denotar una subclasificación.
 * Utilice los guiones con cuidado. For example, if you use a hyphen (-) in a Social term, Social recognizes the hyphen as a [!DNL Not] operator (the minus sign). For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*.
-* Para clasificar los datos de los informes, se aplican límites de caracteres. For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. Los códigos de seguimiento y todas las variables de conversión personalizadas (eVar) admiten un máximo de 255 bytes.
+* Para clasificar los datos de los informes, se aplican límites de caracteres. Por ejemplo: si carga un archivo de texto de clasificaciones para productos ( *`s.products`*) con nombres de productos superiores a 100 caracteres (bytes), los productos no se mostrarán en los informes. Los códigos de seguimiento y todas las variables de conversión personalizadas (eVar) admiten un máximo de 255 bytes.
 * Archivo de datos delimitado por tabuladores (crear el archivo de plantilla con un editor de texto o una aplicación de hoja de cálculo).
 * Either a [!DNL .tab] or [!DNL .txt] file extension.
 * El signo de almohadilla (#) identifica la línea como comentario del usuario. Adobe ignora las líneas que comienzan por #.
@@ -60,7 +60,7 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
    * Pueden surgir problemas cuando se especifica v2.1 en el archivo, pero lo que realmente se desea es v2.0, concretamente, cuando las comillas se utilizan de formas que son ilegales según el formato de Excel. Por ejemplo, si tiene un valor: "VP SIN REPS" S/l Dress w/ Overlay. Con v2.1, este formato es incorrecto (el valor debería estar comprendido entre comillas de apertura y cierre, y las comillas que forman parte del valor real deberían estar especificadas con comillas) y las clasificaciones no funcionarán más allá de este punto.
    * Asegúrese de realizar una de las siguientes acciones: cambiar el formato de archivo a v2.0 al cambiar el encabezado (celda C1) en los archivos que carga, O implementar correctamente el entrecomillado de Excel en todos los archivos.
 
-* La primera fila (que no es de comentario) del archivo de datos contiene los encabezados de columna que se usan para identificar los datos de clasificación de esa columna. El importador requiere un formato específico para los encabezados de columna. Para obtener más información, consulte [Formato del encabezado de las columnas](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_ADC08C783477451B959782CEA23AF5EF).
+* La primera fila (que no es de comentario) del archivo de datos contiene los encabezados de columna que se usan para identificar los datos de clasificación de esa columna. El importador requiere un formato específico para los encabezados de columna. Para obtener más información, consulte Formato [de encabezado de columna](../../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_ADC08C783477451B959782CEA23AF5EF).
 * Justo después de la fila del encabezado de los archivos de datos, están las filas de datos. Cada línea de datos debe contener un campo de datos por cada encabezado de columna.
 * El archivo de datos admite los códigos de control que se indican a continuación y que Adobe utiliza para dar estructura al archivo e importar correctamente los datos de clasificaciones:
 
@@ -100,29 +100,25 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
 >* [Problemas comunes de carga](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
 
 
-## Formato de encabezado de columna
+## Formato del encabezado de columna
 
->[!NOTE]
->
->Adobe recomienda limitar a 30 el número de columnas de importación y exportación.
+> [!NOTE] Adobe recomienda limitar a 30 el número de columnas de importación y exportación.
 
 Los archivos de clasificación admiten los siguientes encabezados de columna:
 
 ### Clave
 
-Cada valor debe ser único en todo el sistema. The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site’s [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
+Cada valor debe ser único en todo el sistema. The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site's [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
 
-### Encabezado de la columna Clasificación
+### Encabezado de columna de clasificación
 
 Por ejemplo, Reports &amp; Analytics incluye automáticamente dos clasificaciones para variables de [!UICONTROL Campaña]: [!UICONTROL Campañas] y [!UICONTROL Elementos creativos]. Para añadir datos a la clasificación [!UICONTROL Campañas], el encabezado de la columna del archivo de datos de clasificación sería [!UICONTROL Campañas].
 
->[!NOTE]
->
->The values in the [!UICONTROL Classifications] column heading must exactly match the classification’s naming convention, or the import fails. Por ejemplo, si el administrador cambia [!UICONTROL Campañas] por [!UICONTROL Nombres de campaña internos] en el [!UICONTROL Gestor de configuración de campañas], el encabezado de la columna del archivo debe cambiar también para que coincidan.
+> [!NOTE] Los valores del encabezado de la columna [!UICONTROL Clasificaciones] deben coincidir exactamente con la convención de nomenclatura de la clasificación, o bien la importación falla. Por ejemplo, si el administrador cambia [!UICONTROL Campañas] por [!UICONTROL Nombres de campaña internos] en el [!UICONTROL Gestor de configuración de campañas], el encabezado de la columna del archivo debe cambiar también para que coincidan.
 
 Además, el archivo de datos admite las siguientes convenciones de encabezado adicionales, para identificar subclasificaciones y otras columnas de datos especializados:
 
-### Encabezamiento de subclasificación
+### Encabezado de subclasificación
 
 Por ejemplo, [!UICONTROL Campaigns^Owner] es el encabezamiento de columna de la columna que contiene valores [!UICONTROL Propietario de la campaña]. Del mismo modo, [!UICONTROL Creative Elements^Size] es el encabezamiento de columna de la columna que contiene la subclasificación [!UICONTROL Tamaño] de la clasificación [!UICONTROL Elementos creativos].
 
@@ -130,9 +126,9 @@ Por ejemplo, [!UICONTROL Campaigns^Owner] es el encabezamiento de columna de la 
 
 Por ejemplo, [!UICONTROL Campañas^~Coste] hace referencia a la métrica [!UICONTROL Coste] en la clasificación [!UICONTROL Campañas].
 
-### Encabezamiento de modificador PER
+### Encabezado del modificador PER
 
-*`Per Modifier`* los encabezados se marcan agregando *`~per`* al encabezamiento de métrica de clasificación. For example, if the *`Metric`* heading is *`Campaigns^~Cost`*, the PER modifier heading is *`Campaigns^~Cost~per`*. Adobe supports the following *`PER Modifier`* keywords:
+*`Per Modifier`* los encabezados se indican agregando *`~per`* al encabezado de métrica de clasificación. For example, if the *`Metric`* heading is *`Campaigns^~Cost`*, the PER modifier heading is *`Campaigns^~Cost~per`*. Adobe admite las siguientes *`PER Modifier`* palabras clave:
 
 Estos caracteres tienen un significado especial dentro de un archivo de datos. Cuando sea posible, evite utilizar estas palabras en datos y nombres de atributos.
 
@@ -158,9 +154,9 @@ Estos caracteres tienen un significado especial dentro de un archivo de datos. C
 
 **EVENTO:** multiplicar el valor por el número de veces que el evento personalizado específico se produjo por cada elemento de línea del informe.
 
-**Ejemplo:** Si la Campaña A cuesta $ 10.000, [!UICONTROL la columna Campaigns ^ ~ Cost] contiene un valor de 10000 y la [!UICONTROL columna Campaigns ^~Costper~] contiene [!UICONTROL FIJO]. Al mostrar el Coste de la Campaña A en los informes, verá 10 000 $ como el coste fijo de la Campaña A correspondiente al intervalo de fechas.
+**** Ejemplo: Si la Campaña A costó $10.000, la columna [!UICONTROL Campañas^~Costo] contiene un valor de 10.000 y la columna [!UICONTROL Campañas^~~Costper] contiene [!UICONTROL FIJO]. Al mostrar el Coste de la Campaña A en los informes, verá 10 000 $ como el coste fijo de la Campaña A correspondiente al intervalo de fechas.
 
-**Ejemplo:** Si Campaña B cuesta aproximadamente 2 $ por clic, la [!UICONTROL columna Campaigns ^ ~ Cost] contiene 2 y la **[!UICONTROL columna Campaigns ^~Costper~]** contiene [!UICONTROL CLIC]. When displaying the Cost for Campaign B in the reports, Adobe calculates (2 * [number of clicks]) on the fly for the date range of the report. Esto le proporciona un cálculo del coste total basado en el número de clics realizados con la Campaña B.
+**** Ejemplo: Si la Campaña B cuesta aproximadamente $2 por clic, la columna [!UICONTROL Campañas^~Costo] contiene 2 y la columna **[!UICONTROL Campañas^~~Costper]** contiene [!UICONTROL CLIC]. When displaying the Cost for Campaign B in the reports, Adobe calculates (2 * [number of clicks]) on the fly for the date range of the report. Esto le proporciona un cálculo del coste total basado en el número de clics realizados con la Campaña B.
 
 ### Fecha
 
@@ -168,27 +164,24 @@ Las fechas de las campañas suelen ser rangos (fechas de inicio y de finalizaci�
 
 Para obtener más información, consulte [Clasificaciones de conversión](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications).
 
->[!NOTE]
->
->In the May 10, 2018, [!DNL Analytics] Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. Estos tipos de clasificaciones se eliminaron de las interfaces del Administrador y del Importador de clasificaciones. No es posible añadir nuevas clasificaciones numéricas y habilitadas por fecha. Las clasificaciones existentes se podrán seguir administrando (cargado y eliminado) a través del flujo de trabajo de clasificación estándar y permanecerán disponibles en los informes.
+> [!NOTE] En la versión de mantenimiento del 10 de mayo de 2018, [!DNL Analytics] Adobe comenzó a limitar la funcionalidad de las clasificaciones numéricas y con fecha habilitada. Estos tipos de clasificaciones se eliminaron de las interfaces del Administrador y del Importador de clasificaciones. No es posible añadir nuevas clasificaciones numéricas y habilitadas por fecha. Las clasificaciones existentes se podrán seguir administrando (cargado y eliminado) a través del flujo de trabajo de clasificación estándar y permanecerán disponibles en los informes.
 
 ## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL Las clasificaciones] se pueden utilizar para asignar intervalos de fechas a las campañas u otras [!UICONTROL clasificaciones de conversión], lo que permite una medición de campañas más precisa. Después de especificar el intervalo de fechas de un valor, cualquier valor coincidente que ocurra fuera del intervalo de fechas no se clasificará. Esto es útil para la medición de campañas que desea utilizar las fechas exactas en que la campaña estaba en activo, y no todas las visitas que coinciden con la propia campaña. Para clasificar correctamente un valor con un intervalo de fechas, se debe cumplir lo siguiente:
+[!UICONTROL Las clasificaciones] se pueden utilizar para asignar intervalos de fechas a las campañas u otras [!UICONTROL clasificaciones]de conversión, lo que permite una medición de campañas más precisa. Después de especificar el intervalo de fechas de un valor, cualquier valor coincidente que ocurra fuera del intervalo de fechas no se clasificará. Esto es útil para la medición de campañas que desea utilizar las fechas exactas en que la campaña estaba en activo, y no todas las visitas que coinciden con la propia campaña. Para clasificar correctamente un valor con un intervalo de fechas, se debe cumplir lo siguiente:
 
-* [!UICONTROL La clasificación] debe basarse en una variable de conversión.
+* The [!UICONTROL classification] must be based on a conversion variable.
 * The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
 * El intervalo de fechas involucrado debe contener una fecha de inicio y (opcionalmente) una fecha de finalización.
 
 Para clasificar campañas basadas en intervalos de fechas:
 
-1. Log in to [!DNL Analytics] and go to Admin &gt; Classifications.
+1. Inicie sesión en [!DNL Analytics] y vaya a Administración &gt; Clasificaciones.
 1. Haga clic en la ficha **[!UICONTROL Exportación del explorador], compruebe que los ajustes de su clasificación habilitada mediante datos son correctos y, a continuación, haga clic en Exportar archivo.**
 1. Abra este archivo en Microsoft Excel o cualquier otro editor de hoja de cálculo con el que esté familiarizado.
-1. Una de las columnas terminará con
+1. Una de las columnas finalizará con
 
-   ^~period~
-which is the column to enter the date range in.
+   ^~period~, que es la columna en la que se introduce el intervalo de fechas.
 1. En esta columna, introduzca cada intervalo de fechas del valor en el formato siguiente:
 
    `YYYY/MM/DD - YYYY/MM/DD`. Compruebe lo siguiente:
@@ -198,11 +191,9 @@ which is the column to enter the date range in.
    * Si el mes o el día es un dígito simple, hay un cero al inicio.
    * Hay un intervalo de fechas de inicio; el intervalo de fechas de finalización es opcional.
 
-1. Save the file, and upload it to [!DNL Analytics] by going to Admin | Classifications | Import File.
+1. Guarde el archivo y cárguelo [!DNL Analytics] en Admin| Clasificaciones| Importar archivo.
 
->[!NOTE]
->
->Un valor clave específico no puede tener más de un intervalo de fechas.
+> [!NOTE] Un valor clave específico no puede tener más de un intervalo de fechas.
 
 ## Resolución de problemas de clasificaciones
 
