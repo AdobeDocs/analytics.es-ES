@@ -7,7 +7,7 @@ title: Seguimiento de vínculos metodología
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -62,12 +62,12 @@ La utilización de la región del vínculo ofrece las siguientes ventajas:
 * Ayuda a distinguir los vínculos que tienen el mismo ID principal.
 * La tendencia de una región se ve menos afectada por el aspecto dinámico de la página web.
 * Los usuarios pueden ver los vínculos de mayor rendimiento que hay en una región. Si tenemos Región como anclaje, podemos mostrar superposiciones de vínculos que no estén visibles en ese momento en la página (Ajax, targeting).
-* Una región puede reemplazar páginas, ya que una región determinada se puede usar en muchas páginas web. Ayuda a responder a preguntas como: “¿La región 'Oferta de productos' ofrece mejores resultados en la página de aterrizaje de mujeres o de hombres?
+* Una región puede reemplazar páginas, ya que una región determinada se puede usar en muchas páginas web. Ayuda a responder preguntas como: "¿La región "Oferta de productos" tiene el mejor rendimiento en la página de aterrizaje de la mujer o de los hombres?
 * La dimensión de región es importante para analizar páginas web muy dinámicas. Esto se debe a que elimina el ruido provocado por los cambios continuos en los vínculos: la región “Últimas noticias” de la página de aterrizaje de la CNN puede tener muchos vínculos que cambian. Pero la región siempre estará ahí. Por eso puede ser interesante definir tendencias en el nivel de región a lo largo de varios días.
 
 **Seguimiento de regiones personalizado**
 
-Puede personalizar el parámetro de región para un vínculo (el predeterminado es el ID del vínculo): una etiqueta definida en “ID” usará todos los elementos HTML con un parámetro “id” como región. Por este motivo, al definir la etiqueta Región en “id”, lo más probable es que se devuelvan muchas regiones diferentes (tantas como “ID” distintos haya en la página). Asimismo, si quiere una implementación más personalizada, puede establecer la etiqueta de región en otro valor más específico, como “region_id”.
+Puede personalizar el parámetro de región para un vínculo (el predeterminado es el ID del vínculo): una etiqueta definida en “ID” usará todos los elementos HTML con un parámetro “id” como región. Por lo tanto, si se establece la etiqueta Región en "id", es muy probable que se devuelvan muchas regiones distintas (siempre que haya "ID" diferentes en la página). Asimismo, si quiere una implementación más personalizada, puede establecer la etiqueta de región en otro valor más específico, como “region_id”.
 
 A continuación, puede ver un fragmento de HTML de muestra donde se usa el atributo de ID de región predeterminado: “id”.
 
