@@ -1,20 +1,20 @@
 ---
 description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.linkTrackEvents
 
-The  variable is a comma-separated list of events that are sent with a [!UICONTROL custom], [!UICONTROL exit], or [!UICONTROL download] link.
+La variable es una lista de eventos separados por comas que se envían con un vínculo [!UICONTROL personalizado], [!UICONTROL de salida], o [!UICONTROL de descarga].
 
-If an event is not in *`linkTrackEvents`*, it is not sent to [!DNL Analytics], even if it is populated in the [!UICONTROL onClick] event of a link, as shown in the following example:
+Si el evento no aparece en *`linkTrackEvents`*, no se envía a [!DNL Analytics], aunque esté relleno en el evento [!UICONTROL onClick] de un vínculo, como se muestra en el ejemplo siguiente:
 
 ```js
 s.linkTrackVars="events" 
@@ -24,25 +24,25 @@ s.t() // both event1 and event2 are recorded
 <a href="test.php" onClick="s=s_gi('rs1');s.events='event2';s.tl(this,'o')">No events are recorded</a> 
 ```
 
-En el primer vínculo a [!DNL help.php], observe que la variable events retiene el valor que se configuró antes de hacer clic en el vínculo. Esto permite enviar event1 con el vínculo personalizado. In the second example, the link to [!DNL test.php], event2 is not recorded because it is not listed in *`linkTrackEvents`*.
+En el primer vínculo a [!DNL help.php], observe que la variable de eventos retiene el valor que se configuró antes de hacer clic en el vínculo. Esto permite enviar event1 con el vínculo personalizado. En el segundo ejemplo, el vínculo a [!DNL test.php], event2 no se registra porque no está en la lista de *`linkTrackEvents`*.
 
-Para evitar confusiones y posibles problemas, Adobe recomienda rellenar *`linkTrackVars`* y *`linkTrackEvents`* en el evento [!UICONTROL onClick] de un vínculo que se utiliza para el seguimiento de vínculos.
+Para evitar confusiones y posibles problemas, se recomienda rellenar *`linkTrackVars`* y *`linkTrackEvents`* en el evento [!UICONTROL onClick] de un vínculo que se utiliza para el seguimiento de vínculos.
 
-The *`linkTrackEvents`* variable contains the events that should be sent with [!UICONTROL custom], [!UICONTROL download], and [!UICONTROL exit] links. Esta variable solo se considera si *`linkTrackVars`* contiene "events".
+La variable *`linkTrackEvents`* contiene los eventos que deben enviarse con los vínculos [!UICONTROL personalizados], de [!UICONTROL descarga] y de [!UICONTROL salida]. Esta variable solo se tiene en cuenta si *`linkTrackVars`* contiene “events”.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| N.D. | N.D. | Conversión | "None" |
+| N.D. | N.D. | Conversión | "Ninguna" |
 
 ## Sintaxis y valores posibles
 
-La sintaxis de la variable *`linkTrackEvents`* es una lista de eventos separados por coma (sin espacios).
+La variable *`linkTrackEvents`* es una lista de eventos separados por comas (sin espacios).
 
 ```js
 s.linkTrackEvents="event1[,event2[,event3[...]]]"
 ```
 
-Solo se permiten nombres de evento en *`linkTrackEvents`*. These events are listed in [Events](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html). Si aparece un espacio antes o después del nombre de evento, el evento no se puede enviar con ninguna solicitud de imagen de vínculo.
+Solo se permiten nombres de evento en *`linkTrackEvents`*. Estos eventos se incluyen en [Eventos](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html). Si aparece un espacio antes o después del nombre de evento, el evento no se puede enviar con ninguna solicitud de imagen de vínculo.
 
 ## Ejemplos
 
@@ -56,12 +56,12 @@ s.linkTrackEvents="scAdd,scCheckout,purchase,event14"
 
 ## Parámetros de configuración
 
-Ninguno.
+Ninguna
 
 ## Problemas, preguntas y consejos
 
-* El archivo JavaScript solo usa *`linkTrackEvents`* si *`linkTrackVars`* contiene la variable "events". "events" debe incluirse en *`linkTrackVars`* solo cuando *`linkTrackEvents`* se defina.
+* El archivo JavaScript solo utiliza *`linkTrackEvents`* si *`linkTrackVars`* contiene la variable “events”. “events” debe incluirse en *`linkTrackVars`* solo cuando *`linkTrackEvents`* se defina.
 
-* Beware if an event is fired on a page, and is listed in *`linkTrackEvents`*. That event is recorded again with any [!UICONTROL exit], [!UICONTROL download], or [!UICONTROL custom] links unless the events variable is reset prior to that event (in the [!UICONTROL onClick] of a link or after the call to the *`t()`* function).
+* Tenga cuidado si se activa un evento en una página y está incluido en *`linkTrackEvents`*. Ese evento se registra de nuevo con los vínculos de [!UICONTROL salida], [!UICONTROL descarga] o [!UICONTROL personalizados] a menos que la variable de eventos se restablezca antes de dicho evento (en el evento [!UICONTROL onClick] de un vínculo o después de la llamada a la función *`t()`*).
 
-* If *`linkTrackEvents`* contains spaces between event names, the events are not recorded.
+* Si *`linkTrackEvents`* contiene espacios entre los nombres de evento, los eventos no se registran.
