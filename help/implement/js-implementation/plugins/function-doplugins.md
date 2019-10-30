@@ -8,8 +8,8 @@ subtopic: Complementos
 title: Función doPlugins
 topic: Desarrollador e implementación
 uuid: 367d5550-f8e2-477d-8681-18ae9665d699
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ Para saber si un complemento está incluido en el archivo JavaScript y está lis
 s.getQueryParam=new Function("qp","d","" 
 +"vars=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l" 
 // 
-// ... more code below ... 
+// ... more code below ...
 // 
 ```
 
