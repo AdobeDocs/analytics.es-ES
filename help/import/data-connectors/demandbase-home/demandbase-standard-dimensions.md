@@ -5,7 +5,7 @@ seo-title: Dimensiones estándar de Demandbase
 title: Dimensiones estándar de Demandbase
 uuid: dea1c680-b5e2-4237-bb2f-baf5f17c8019
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
