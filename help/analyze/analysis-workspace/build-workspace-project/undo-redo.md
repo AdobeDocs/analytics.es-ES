@@ -1,16 +1,16 @@
 ---
 description: Cambios y mejoras en la opción Deshacer de Analysis Workspace.
 seo-description: Cambios y mejoras en la opción Deshacer de Analysis Workspace.
-seo-title: Deshacer y rehacer ajustes
-title: Deshacer y rehacer ajustes
-uuid: a 4 dbc 169-5 fd 7-4383-aee 0-6 b 5 ba 1 c 235 ab
+seo-title: Configuración de Deshacer y Rehacer
+title: Configuración de Deshacer y Rehacer
+uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Deshacer y rehacer ajustes
+# Configuración de Deshacer y Rehacer
 
 **[!UICONTROL Espacio de trabajo]** &gt; **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Deshacer/Rehacer]**
 
@@ -22,7 +22,7 @@ source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
 
 * Puede deshacer y rehacer los cambios realizados en el conjunto de informes.
 * Se muestra un mensaje deshacer/rehacer cerca del nombre del proyecto para indicar cuándo se está deshaciendo o rehaciendo una acción.
-* You can use these [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* Puede utilizar estas [teclas de acceso directo](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
 
    * CTRL(CMD)+Z para deshacer
    * CTRL(CMD)+MAYÚS+Z para rehacer
