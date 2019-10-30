@@ -5,7 +5,7 @@ seo-title: Informes de dispositivos móviles
 title: Informes de dispositivos móviles
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Muestran información sobre el acceso a sitios web desde dispositivos móviles. 
 
 Para mejorar la identificación de visitantes para dispositivos móviles, debe estar en la lista del operador (lista de usuarios permitidos) para el envío de ID de suscriptores a un dominio. (You can view the carrier in the **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** report.)
 
->[!NOTE]
->
->Para ver informes en un dispositivo móvil, inicie sesión en [Experience Cloud](https://login.experiencecloud.adobe.com).
+> [!NOTE] Para ver informes en un dispositivo móvil, inicie sesión en [Experience Cloud](https://login.experiencecloud.adobe.com).
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
@@ -69,11 +67,11 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> <p>Informe de profundidad de color </p> </td> 
-   <td colname="col2"> <p>Agrupa las visitas realizadas desde dispositivos móviles según la cantidad de colores admitidos. El informe muestra la cantidad total de visitantes al sitio que utilizaron un dispositivo móvil y los divide en grupos según la cantidad de colores configurados en sus dispositivos móviles. Por ejemplo, si el teléfono móvil de un visitante admite 24 colores, los Reports and Analytics de marketing incrementan el elemento de línea correspondiente a 24 colores. </p> </td> 
+   <td colname="col2"> <p>Agrupa las visitas realizadas desde dispositivos móviles según la cantidad de colores admitidos. El informe muestra la cantidad total de visitantes al sitio que utilizaron un dispositivo móvil y los divide en grupos según la cantidad de colores configurados en sus dispositivos móviles. Por ejemplo: si el teléfono móvil de un visitante admite 24 colores, los informes y análisis de marketing incrementan el elemento de línea correspondiente a 24 colores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Informe de compatibilidad con audio </p> </td> 
-   <td colname="col2"> <p>Agrupa los dispositivos portátiles según el tipo de formato de audio que admiten. Por ejemplo, si el teléfono de un visitante admite formatos <span class="filepath">.mp3</span>, el <span class="wintitle">informe de compatibilidad con audio</span> se incrementa al menos en uno. Si el teléfono admite más de un formato de imagen, una visita a un sitio podría dar como resultado incrementos para cada tipo de audio admitido. En otras palabras, si un teléfono admite los formatos <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> y <span class="filepath">.amr</span>, cada uno de estos grupos se incrementa en el informe. Por lo tanto, la suma de los grupos puede ser mayor que el total que aparece al final del informe. </p> </td> 
+   <td colname="col2"> <p>Agrupa los dispositivos portátiles según el tipo de formato de audio que admiten. For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the <span class="wintitle"> Audio Support</span> report increments by at least one. Si el teléfono admite más de un formato de imagen, una visita a un sitio podría dar como resultado incrementos para cada tipo de audio admitido. En otras palabras, si un teléfono admite los formatos <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> y <span class="filepath">.amr</span>, cada uno de estos grupos se incrementa en el informe. Por lo tanto, la suma de los grupos puede ser mayor que el total que aparece al final del informe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Informes de compatibilidad con vídeo </p> </td> 
