@@ -1,19 +1,19 @@
 ---
 description: La columna previa contiene los datos en el estado en el que se enviaron a la recopilación de datos. La columna posterior contiene el valor tras el procesamiento.
-keywords: Fuente de datos; trabajo; pre column; post column; distinción entre mayúsculas y minúsculas
+keywords: Fuente de datos;trabajo;columna previa;columna posterior;distinción entre mayúsculas y minúsculas
 seo-description: La columna previa contiene los datos en el estado en el que se enviaron a la recopilación de datos. La columna posterior contiene el valor tras el procesamiento.
-seo-title: Columnas pre y post
+seo-title: Columnas previas y posteriores
 solution: Analytics
-title: Columnas pre y post
+title: Columnas previas y posteriores
 topic: Reports and Analytics
-uuid: a 415327 b -6151-4 d 08-b 8 b 9-5 aaa 2348 eb 0 c
+uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Columnas pre y post
+# Columnas previas y posteriores
 
 La columna previa contiene los datos en el estado en el que se enviaron a la recopilación de datos. La columna posterior contiene el valor tras el procesamiento.
 
@@ -29,8 +29,8 @@ Al procesar la fuente de datos, puede escribir valores en minúsculas con fines 
 
 Si ve diferentes variaciones de la distinción de mayúsculas y minúsculas del mismo valor entre las columnas previas y posteriores (por ejemplo, "nieve" en la columna previa y "Nieve" en la columna posterior), indica que está pasando por las dos versiones del mismo valor en su sitio. Se pasó anteriormente por la variación de la distinción de mayúsculas y minúsculas en la columna posterior y se almacena en la cookie virtual, o se procesó aproximadamente en el mismo momento para el grupo de informes. Por ejemplo:
 
-Visita 1: s.list1="Tabby,Persian,Siamese”;
+Visita 1: s.list1="Tabby,Persian,Siamese";
 
-Visita 2: s.list1=“tabby,persian,siamese”;
+Visita individual 2: s.list1="tabby,persian,siamese";
 
 Si se informa de la visita principal 2 en la fuente de datos, la columna previa contendrá la misma cantidad de minúsculas y mayúsculas pasada en (tabby,persian,siamese), pero el valor de la visita 1 permanece para la visita y se informará en la columna posterior (que será Tabby,Persian,Siamese), debido a que las visitas 1 y 2 contienen exactamente el mismo valor si se lleva a cabo una comparación con distinción de mayúsculas y minúsculas.
