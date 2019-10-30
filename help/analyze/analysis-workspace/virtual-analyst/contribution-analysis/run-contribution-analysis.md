@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Ejecutar análisis de contribución
 title: Ejecutar análisis de contribución
-uuid: 5282 a 5 f 9-0771-4974-93 cb -335204 bde 114
+uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
 
 El análisis de contribución es un proceso de aprendizaje automatizado intensivo diseñado para descubrir qué contribuye a una anomalía observada en Adobe Analytics. El propósito es ayudar al usuario a descubrir las áreas de interés u oportunidades para un análisis adicional de forma más rápida de lo que sería posible de otro modo.
 
-## Ejecución de análisis de contribución {#section_7D2C5E48A5664727941DF4C90976D9DC}
+## Ejecutar análisis de contribución {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
 Hay dos formas de invocar el análisis de contribución en un proyecto:
 
@@ -22,7 +22,7 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 
    >[!NOTE]
    >
-   >Actualmente solo se admite el análisis de contribución con granularidad diaria.
+   >Actualmente solo se admite el análisis de contribución con la granularidad diaria.
 
    ![](assets/run_ca.png)
 
@@ -51,9 +51,7 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
    * [Crear alertas.](/help/components/c-alerts/intellligent-alerts.md)
    * [Crear o comparar segmentos.](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 
->[!NOTE]
->
->Resaltamos la anomalía que se está analizando con un punto azul dentro del análisis de contribución y los proyectos de alerta inteligente vinculados a ella. Esto proporciona una indicación más clara de la anomalía que se está analizando.
+> [!NOTE] Resaltamos la anomalía que se está analizando con un punto azul en el análisis de contribución y en los proyectos de alerta inteligente vinculados a ella. Esto proporciona una indicación más clara de la anomalía que se está analizando.
 
 ## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
