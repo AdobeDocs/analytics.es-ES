@@ -4,10 +4,10 @@ seo-description: Normalmente, los índices de conversión miden la conversión e
 seo-title: Canal de conversión
 solution: Analytics
 title: Canal de conversión
-topic: 'Informes '
-uuid: a 67 ce 302-fae 1-434 a-b 662-91672 e 85 cab 3
+topic: Informes
+uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,5 @@ Este informe también se puede personalizar para poder agregar eventos de conver
 
 La tabla del informe muestra estadísticas de ventas promedio por pulsación y unidades promedio vendidas por pulsación. A estos informes, se les pueden agregar métricas y eventos personalizados de otros grupos de informes. Aunque estos canales tienen muchos parecidos, se basan en variables y eventos diferentes. Estos informes se pueden usar para ver qué porcentajes y tendencias generales de los usuarios activan eventos específicos que se determinen. Permiten ver los lugares en los que los usuarios no siguen la ruta de eventos esperada, lo cual permite comprender ese punto en particular dentro del proceso de conversión.
 
->[!NOTE]
->
->Las instancias en el contexto de estos informes son iguales al número total de visitas donde se ha definido una evar o un evento.
+> [!NOTE] Las instancias en el contexto de estos informes equivalen al número total de visitas donde se definió una eVar o un evento.
 
