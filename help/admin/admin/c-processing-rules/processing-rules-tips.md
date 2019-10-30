@@ -8,7 +8,7 @@ title: Consejos y sugerencias de reglas de procesamiento
 topic: Herramientas de administración
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,7 +23,7 @@ Esta sección contiene algunas pautas de ayuda para probar reglas de procesamien
 
 **Probar reglas que lean términos de búsqueda**
 
-Para cualquier criterio basado en una búsqueda como, por ejemplo, si prop1 contiene “noticias”, vaya al informe prop 1 y busque “noticias” y vea si hay alguna coincidencia inesperada.
+Para cualquier criterio basado en una búsqueda, como si prop1 contiene "noticias", vaya al informe prop 1 y busque "noticias" y vea si hay alguna coincidencia que no esperaba.
 
 **Probar reglas que leen variables**
 
@@ -31,7 +31,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 **Usar un grupo de informes dev**
 
-Se recomienda configurar las reglas de procesamiento en un grupo de informes dev para garantizar que funcionen correctamente. Si es posible, es recomendable copiar las reglas en un pequeño grupo de informes de producción antes de una implementación amplia.
+Se recomienda configurar reglas de procesamiento en un grupo de informes dev para asegurarse de que funcionan correctamente. Si es posible, es recomendable copiar las reglas en un pequeño grupo de informes de producción antes de una implementación amplia.
 
 ## Comprobar valores vacíos {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -62,4 +62,3 @@ Los términos de búsqueda extraídos de una cadena de consulta deben codificars
 Seleccione la condición de coincidencia apropiada para encontrar la condición más restrictiva que coincida correctamente. Puede buscar valores en un informe antes de crear una regla para asegurarse de que no haya coincidencias no deseadas. Por ejemplo, debe buscar en el informe Prop2 para encontrar todas las ubicaciones en las que coincida esta condición antes de habilitar esta regla.
 
 ![](assets/tips-startswith.png)
-
