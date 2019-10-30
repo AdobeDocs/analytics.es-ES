@@ -5,9 +5,9 @@ seo-title: Eliminar segmentos
 solution: Analytics
 title: Eliminar segmentos
 topic: Segmentos
-uuid: cb 6 db 6 ad-f 400-4633-900 a -8 a 02 dcfccf 2 c
+uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Cuando elimina un segmento:
 
    ![](assets/duplicate_seg_names.png)
 
-   Tiene un marcador que hace referencia al segmento para el grupo de informes mainprod. Entonces, elimina dicho segmento porque es un duplicado. El marcador seguirá funcionando, haciendo referencia a la definición del segmento eliminado. Si cambia la definición del segmento para el resto del segmento con el fin de incluir Isla Santa Catalina y Tijuana, el segmento aplicado al marcador no cambiará. Utilizará la definición antigua. Para arreglarlo, actualice el marcador a fin de que haga referencia a la definición nueva. Si no tiene la seguridad de que un marcador, panel o informe programado esté utilizando un segmento eliminado, puede cambiar el nombre del resto del segmento para que quede claro si el marcador utiliza el resto del segmento.
+   Tiene un marcador que hace referencia al segmento para el grupo de informes mainprod. Luego elimina ese segmento porque es un duplicado. El marcador seguirá funcionando, haciendo referencia a la definición del segmento eliminado. Si cambia la definición del segmento para el resto del segmento con el fin de incluir Isla Santa Catalina y Tijuana, el segmento aplicado al marcador no cambiará. Utilizará la definición antigua. Para arreglarlo, actualice el marcador a fin de que haga referencia a la definición nueva. Si no está seguro de si un marcador, tablero o informe programado está usando un segmento eliminado, puede cambiar el nombre del segmento restante para que quede más claro si el marcador está usando el segmento restante.
 
 ## Edit Embedded Deleted Segments in Ad Hoc Analysis {#section_976D601DBD2244E38B0A0222E31D2610}
 
