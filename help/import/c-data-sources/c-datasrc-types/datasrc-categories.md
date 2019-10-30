@@ -1,23 +1,23 @@
 ---
 description: Las categorías de fuentes de datos identifican diferentes tipos de fuentes datos que ofrecen una funcionalidad similar.
 seo-description: Las categorías de fuentes de datos identifican diferentes tipos de fuentes datos que ofrecen una funcionalidad similar.
-seo-title: Descripción general de los tipos de datos y las categorías
+seo-title: Resumen de los tipos de datos y las categorías
 solution: Analytics
 subtopic: Fuentes de datos
-title: Descripción general de los tipos de datos y las categorías
+title: Resumen de los tipos de datos y las categorías
 topic: Desarrollador e implementación
-uuid: b 5004 cdc-b 68 a -4 a 82-a 159-a 7 cd 7 b 8 bfe 21
+uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Descripción general de los tipos de datos y las categorías
+# Resumen de los tipos de datos y las categorías
 
 Las categorías de fuentes de datos identifican diferentes tipos de fuentes datos que ofrecen una funcionalidad similar.
 
-Las categorías ofrecen un modo de agrupar las fuentes de datos según la perspectiva del usuario. Para crear una fuente de datos a través de la interfaz de usuario correspondiente, primero se selecciona una categoría de fuentes de datos y después un tipo específico de fuente de datos. Cada categoría contiene tipos de fuentes de datos que admiten tipos de datos similares. Las fuentes de datos pueden agruparse en las siguientes categorías:
+Las categorías proporcionan una manera de agrupar las fuentes de datos desde la perspectiva del usuario. Para crear una fuente de datos a través de la interfaz de usuario correspondiente, primero se selecciona una categoría de fuentes de datos y después un tipo específico de fuente de datos. Cada categoría contiene tipos de fuentes de datos que admiten tipos de datos similares. Las fuentes de datos pueden agruparse en las siguientes categorías:
 
 ## Uso del sitio web {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -36,9 +36,9 @@ Las categorías ofrecen un modo de agrupar las fuentes de datos según la perspe
    <td colname="col3"> <p>La mayoría de los servidores web genera archivos de registro donde se asienta cada página que se solicita al servidor. El uso de esta fuente de datos permite procesar los archivos de registro de la mayoría de los servidores web y agregarlos a los informes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Carga masiva de Marketing Cloud </p> </td> 
+   <td colname="col1"> <p>Carga masiva de Advertising Cloud </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> Conversión </a> </p> </td> 
-   <td colname="col3"> <p>Proporciona cargas masivas manuales y automatizadas de Excel en Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Proporciona cargas masivas manuales y automatizadas por Excel en Advertising Cloud. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fuente de datos de tráfico de nivel de sitio </p> </td> 
