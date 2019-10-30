@@ -5,9 +5,9 @@ seo-title: Añadir un grupo de usuarios del Data Warehouse
 solution: Analytics
 title: Añadir un grupo de usuarios del Data Warehouse
 topic: Data Warehouse
-uuid: d 89294 db-caa 3-4044-b 70 d -65 b 512 b 0 dc 1 c
+uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ Instrucciones sobre cómo los administradores pueden activar el acceso a los inf
 
    >[!NOTE]
    >
-   >En caso de conflicto de permisos (como un usuario asignado a dos grupos, uno de los cuales deniega el acceso a una función y otro otorga ese mismo acceso), el sistema restringe el permiso. Puede que sea necesario quitar de esos grupos a los usuarios pertenecientes a grupos que denieguen el acceso al Data Warehouse.
+   >En caso de conflicto de permisos (como un usuario asignado a dos grupos, uno de los cuales niega el acceso a una función y el otro concede el mismo acceso), el sistema restringirá el permiso. Puede que sea necesario quitar de esos grupos a los usuarios pertenecientes a grupos que denieguen el acceso al Data Warehouse.
 
 >[!MORE_LIKE_THIS]
 >
