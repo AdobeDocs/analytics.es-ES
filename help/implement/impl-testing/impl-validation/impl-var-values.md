@@ -7,8 +7,8 @@ solution: Analytics
 title: Variables y valores
 topic: Desarrollador e implementación
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,8 +48,6 @@ var s_code=s.t();if(s_code)document.write(s_code)//-->
 
 Los nombres de página distinguen entre mayúsculas y minúsculas y, en caso de diferencia, se crean registros de página adicionales. "Home" y "home" son dos páginas diferentes en [!DNL Analytics].
 
->[!NOTE]
->
->No se pueden combinar varios registros de página en los informes.
+> [!NOTE] No se pueden combinar varios registros de página en los informes.
 
 Compruebe que los vínculos se incluyen en el informe [!UICONTROL Vínculos personalizado]. Asegúrese de que se pasan los parámetros correctos a la función [!UICONTROL tl]. Para obtener más información sobre [!UICONTROL vínculos personalizados], consulte [Seguimiento de vínculos](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
