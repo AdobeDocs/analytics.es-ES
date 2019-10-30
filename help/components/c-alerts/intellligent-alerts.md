@@ -5,7 +5,7 @@ seo-title: Alertas inteligentes
 title: Alertas inteligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,7 +45,7 @@ Hay cuatro formas en las que puede acceder al Generador de alertas:
 
 ## Preguntas más frecuentes: Cómo se calculan y activan las alertas {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean [distintos modelos](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90 %), obtendrá más anomalías que con otro más alto (99 %). Los umbrales 99,75 % y 99,99 % se introdujeron específicamente para la granularidad horaria, de modo que no se activen tantas anomalías.
+Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean [distintos modelos](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90 %), obtendrá más anomalías que con otro más alto (99 %). Los umbrales del 99,75 % y 99,99 % se introdujeron específicamente para la granularidad por hora, de modo que no activaría tantas anomalías.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -74,7 +74,7 @@ Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 des
    <td colname="col2"> <p>En estos momentos, no. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: ¿Se puede obtener una tabla de los “valores esperados” que forman la línea de puntos, o hay alguna forma de saber cuáles son esos valores? </b> </p> </td> 
+   <td colname="col1"> <p><b>P: ¿Puedo obtener una tabla de los "valores esperados" que componen la línea de puntos o algún tipo de resultado de cuáles son esos valores? </b> </p> </td> 
    <td colname="col2"> <p>No en Workspace, pero es posible en el Report Builder (consulte este vídeo acerca de <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Detección de anomalías en el Report Builder </a>). </p> <p>Tenga en cuenta que el Report Builder emplea métodos de detección de anomalías menos sofisticados. Utiliza un periodo de entrenamiento de 30 días y un intervalo fijo del 95 %, de forma similar a la <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Detección de anomalías de Reports &amp; Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
