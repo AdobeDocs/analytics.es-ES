@@ -4,10 +4,10 @@ seo-description: Muestra la cantidad de visitas realizadas al sitio web durante 
 seo-title: Visitas
 solution: Analytics
 title: Visitas
-topic: 'Informes '
-uuid: ff 65 bddf-fb 65-4 cf 0-8 aae -4 ab 59 c 2 bb 0 a 7
+topic: Informes
+uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ Consulte [Métrica de visitas](../../../components/c-variables/c-metrics/metrics
    <td colname="col2"> <p> <span class="uicontrol"> Métricas del sitio</span> &gt; <span class="uicontrol">Visitas</span> </p> <p>Puede ejecutar un <span class="wintitle">informe de visitas</span> sobre una página seleccionada. Las visitas que se extienden más allá de la media noche se contabilizan tanto en el día en que se inició la visita como en el día en que finalizó. No obstante, en el total del intervalo de fechas dado se anula la duplicación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Ad Hoc Analysis </p> </td> 
+   <td colname="col1"> <p> Ad Hoc Analysis  </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Informes</span> &gt; <span class="uicontrol">Métricas del sitio</span> &gt; <span class="uicontrol">Visitas</span> </p> 
     <ul id="ul_73FEE02C129041D6A63F2DB07676960F"> 
      <li id="li_CC3BB22DE97941EB8032BE4421FFC173"> Puede desglosar cada elemento de este informe según casi todos los demás informes y variables, lo que permite ver los desgloses con cualquier granularidad. </li> 
