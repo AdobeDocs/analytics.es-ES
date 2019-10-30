@@ -1,6 +1,6 @@
 ---
 description: El complemento getTimeParting rellena variables personalizadas con los valores de hora del día, día de la semana y fin de semana y día laborable. Analysis Workspace incluye dimensiones de división del tiempo. Debe utilizarse el complemento si se necesitan las dimensiones de división del tiempo en otras soluciones de Analytics fuera de Analysis Workspace.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: El complemento getTimeParting rellena variables personalizadas con los valores de hora del día, día de la semana y fin de semana y día laborable. Analysis Workspace incluye dimensiones de división del tiempo. Debe utilizarse el complemento si se necesitan las dimensiones de división del tiempo en otras soluciones de Analytics fuera de Analysis Workspace.
 seo-title: getTimeParting
 solution: Analytics
@@ -9,20 +9,18 @@ title: getTimeParting
 topic: Desarrollador e implementación
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # getTimeParting
 
-El complemento getTimeParting rellena variables personalizadas con los valores de hora del día, día de la semana y fin de semana y día laborable. Analysis Workspace incluye dimensiones de división del tiempo. The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
+El complemento getTimeParting rellena variables personalizadas con los valores de hora del día, día de la semana y fin de semana y día laborable. [!UICONTROL Analysis Workspace] incluye dimensiones de división del tiempo. Debe utilizarse el complemento si se necesitan las dimensiones de división del tiempo en otras soluciones de Analytics fuera de [!UICONTROL Analysis Workspace].
 
 Este complemento captura la información sobre la fecha y hora disponible en el explorador del usuario. A partir de esta información obtiene la hora del día y el día de la semana. A continuación convierte estos datos a la zona horaria que usted elija. Asimismo, tiene en cuenta el horario de verano.
 
->[!NOTE]
->
->Las siguientes instrucciones requieren que modifique el código de recopilación de datos del sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+> [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Código de complemento {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +28,7 @@ Este complemento captura la información sobre la fecha y hora disponible en el 
 
 Inserte el código siguiente en el área del archivo [!DNL s_code.js] etiquetado [!UICONTROL SECCIÓN CONFIG], y realice las actualizaciones necesarias tal como se describe a continuación.
 
-`s._tpDST` - una matriz de valores de DST. La matriz está estructurada en el siguiente formato: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST`: matriz de valores de horario de verano. La matriz tiene el siguiente formato: `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -87,7 +85,7 @@ var tp = s.getTimeParting(h,z);
 * h = (requerido) Hemisferio: especifique el hemisferio al que va a convertir la hora. Debe ser un valor 'n' o 's'. Se usa para determinar cómo se usa la matriz de horario de verano pasada. Si se pasa 'n', el complemento usa las fechas cuando el horario de verano está activado. Si se pasa 's', el complemento usa las fechas cuando el horario de verano está desactivado.
 * z = (opcional) Zona horaria: si desea que los datos se basen en un período de tiempo específico, se tendrá que especificar aquí como diferencia horaria respecto a GMT. Tenga en cuenta que debe ser GMT durante los horarios que no sean de verano. Si no se especifica ningún valor, el valor predeterminado es GMT (por ejemplo, "-5" para la hora del este de EE. UU.).
 
-**Valores devueltos**
+**Devuelve**
 
 Devuelve un valor concatenado de hora, a nivel de minuto y día de la semana, por ejemplo:
 
