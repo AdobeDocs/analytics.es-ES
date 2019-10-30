@@ -8,8 +8,8 @@ subtopic: Resolución de problemas
 title: Resumen de optimización
 topic: Desarrollador e implementación
 uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ La implementación de Analytics se organiza en tres pasos principales.
 
 1. El archivo de biblioteca crea una solicitud de imagen a un servidor de recopilación de datos de Adobe. El servidor recopila los datos que se están enviando y devuelve una imagen transparente de 1x1 al explorador del visitante. Este tercer paso apenas incrementa el tiempo de descarga total de la página.
 
->[!NOTE]
->
->Los clientes pueden realizar otros pasos para minimizar la sobrecarga de Analytics.
+> [!NOTE] Los clientes pueden realizar otros pasos para minimizar la sobrecarga de Analytics.
 
