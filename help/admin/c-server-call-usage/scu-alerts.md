@@ -5,7 +5,7 @@ seo-title: Alertas de uso de llamadas al servidor
 title: Alertas de uso de llamadas al servidor
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -68,7 +68,7 @@ Para administrar alertas:
 
    | Acción | Definición |
    |--- |--- |
-   | + Añadir | Acceda al [Generador de alertas](../../admin/c-server-call-usage/scu-alerts.md) haciendo clic en [!UICONTROL + Añadir]. |
+   | + Agregue | Acceda al [Generador de alertas](../../admin/c-server-call-usage/scu-alerts.md) haciendo clic en [!UICONTROL + Añadir]. |
    | Etiqueta | Etiquete alertas para organizarlas y que sea más fácil utilizarlas. |
    | Eliminar | Puede eliminar todas las alertas excepto las predeterminadas. |
    | Cambiar nombre | Puede cambiar el nombre de todas las alertas excepto el de las predeterminadas. |
