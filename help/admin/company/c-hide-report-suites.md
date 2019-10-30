@@ -6,9 +6,9 @@ seo-title: Ocultar grupos de informes
 solution: Analytics
 title: Ocultar grupos de informes
 topic: Herramientas de administración
-uuid: 3 e 857 ba 7-d 48 e -44 d 5-ad 60-f 3349 e 203 e 10
+uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Ocultar un grupo de informes evita que aparezca en el menú desplegable del sele
 
 >[!IMPORTANT]
 >
->Los datos que se envían a un grupo de informes ocultos desde su sitio se seguirán recopilando, procesando y facturando. Es decir, un grupo de informes nunca se elimina completamente.
+>Los datos que se envían a un grupo de informes oculto desde su sitio siguen recopilándose, procesándose y facturándose. Es decir, un grupo de informes nunca se elimina completamente.
 
 To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. Active la casilla de verificación **[!UICONTROL Oculto]a la izquierda del nombre del grupo de informes.**
 
