@@ -8,8 +8,8 @@ subtopic: Analysis Workspace
 title: Modo de implementación simplificado
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,18 +30,16 @@ Los nuevos usuarios pueden crear rápidamente su primer grupo de informes (repos
 
 Este procedimiento le permite:
 
-* Crear rápidamente su primer [Grupo de informes](https://marketing.adobe.com/resources/help/es_ES/analytics/getting-started/report-suites.html).
-* Implementar [!DNL Analytics] y el [servicio de ID](https://marketing.adobe.com/resources/help/es_ES/mcvid/).
+* Crear rápidamente su primer [grupo de informes](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html).
+* Implementar [!DNL Analytics] y el servicio [de identidad](https://marketing.adobe.com/resources/help/en_US/mcvid/).
 
 * Ejecutar informes sobre datos básicos en el nivel de página.
 
->[!NOTE]
->
->Antes de empezar, compruebe que Analytics está [activado en Adobe Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/core_services.html) (el proceso de suministro de soluciones). Si ha recibido un mensaje de correo electrónico en el que se le invita a iniciar sesión en Analytics en el tablero de empresa, habrá cumplido con este requisito previo.
+> [!NOTE] Antes de empezar, compruebe que Analytics está [activado en Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html) (el proceso de aprovisionamiento de soluciones). Si ha recibido un mensaje de correo electrónico en el que se le invita a iniciar sesión en Analytics en el tablero de empresa, habrá cumplido con este requisito previo.
 
 **Para ejecutar el modo de implementación simplificada**
 
-1. Inicie sesión en [!DNL Adobe Experience Cloud] ([experience ecloud.adobe.com](https://experiencecloud.adobe.com)).
+1. Log in to the [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
 
    Una vez acceda a [!DNL Analytics], el sistema determinará si dispone de un grupo de informes. Si no, aparecerá la página [!UICONTROL Introducción a Adobe Analytics].
 
@@ -73,7 +71,7 @@ Este procedimiento le permite:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Repositorio de datos (grupo de informes) </p> </td> 
-       <td colname="col2"> <p> Un <a href="https://marketing.adobe.com/resources/help/es_ES/analytics/getting-started/report-suites.html" format="html" scope="external">grupo de informes</a> es un conjunto de datos discretos que por lo general corresponden a una sola propiedad (sitio o aplicación) o marca. Cada grupo de informes tiene su propio conjunto de informes y métricas. </p> </td> 
+       <td colname="col2"> <p> Un <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">grupo de informes</a> es un conjunto de datos discretos que por lo general corresponden a una sola propiedad (sitio o aplicación) o marca. Cada grupo de informes tiene su propio conjunto de informes y métricas. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Zona horaria </p> </td> 
@@ -110,20 +108,20 @@ Este procedimiento le permite:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Descargar </p> </td> 
-       <td colname="col2"> <p> Descarga el archivo de instalación, llamado <span class="filepath">INSTALL-ME &lt;nombre del grupo de informes&gt;.js</span>. Esta opción es adecuada para usuarios con experiencia que comprenden el proceso de <a href="https://marketing.adobe.com/resources/help/es_ES/sc/implement/js_implementation.html" format="html" scope="external">implementación de JavaScript</a>. </p> <p> <p>Importante: La descarga del código no conlleva la implementación de <span class="keyword">Analytics</span>. Se trata de una implementación manual en las páginas del sitio, o bien, a través los servicios de consultoría de Adobe. </p> </p> </td> 
+       <td colname="col2"> <p> Descarga el archivo de instalación, llamado <span class="filepath">INSTALL-ME &lt;nombre del grupo de informes&gt;.js</span>. Esta opción es adecuada para usuarios con experiencia que comprenden el proceso de <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">implementación de JavaScript</a>. </p> <p> <p>Importante: La descarga del código no conlleva la implementación de <span class="keyword">Analytics</span>. Se trata de una implementación manual en las páginas del sitio, o bien, a través los servicios de consultoría de Adobe. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
 
 1. Ejecutar un informe.
 
-   Tras implementar la herramienta Analytics, podrá ejecutar un informe en Reports &amp; Analytics para confirmar la llegada de datos a su sitio (consulte [Inicie sesión y explore](https://marketing.adobe.com/resources/help/es_ES/analytics/getting-started/analytics-navigation.html) para conocer mejor la interfaz de Analytics.
+   Tras implementar la herramienta Analytics, podrá ejecutar un informe en Reports &amp; Analytics para confirmar la llegada de datos a su sitio (consulte [Iniciar sesión y navegar](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) para familiarizarse con la interfaz de Analytics).
 
    Por ejemplo, **[!UICONTROL Métricas del sitio]** &gt; **[!UICONTROL Tiempo real]** le permite ver datos inmediatos.
 
    >[!NOTE]
    >
-   >El informe [!UICONTROL Tiempo real] requiere cierta configuración ates de poder ejecutarse. Consulte [Configuración de informes en tiempo real](https://marketing.adobe.com/resources/help/es_ES/reference/t_realtime_admin.html).
+   >El informe [!UICONTROL Tiempo real] requiere cierta configuración ates de poder ejecutarse. Consulte [Configuración de informes en tiempo real](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html).
 
 **Ejemplo de informe en tiempo real**
 
