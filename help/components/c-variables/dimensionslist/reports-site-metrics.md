@@ -1,18 +1,18 @@
 ---
 description: Los informes de métricas del sitio muestran información cuantitativa sobre el sitio Web. Por ejemplo, muestran cuántas veces miran los visitantes las páginas, las cantidades de compras realizadas desde páginas determinadas, el tiempo empleado en páginas y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 seo-description: Los informes de métricas del sitio muestran información cuantitativa sobre el sitio web. Por ejemplo, muestran cuántas veces miran los visitantes las páginas, las cantidades de compras realizadas desde páginas determinadas, el tiempo empleado en páginas y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
-seo-title: Métrica del sitio
+seo-title: Métricas del sitio
 solution: Analytics
-title: 'Métrica del sitio  '
-topic: 'Informes '
-uuid: a 7 bec 7 f 5-7 dc 7-4124-b 61 d -2 faa 3 d 4 f 3 a 8 e
+title: Métricas del sitio
+topic: Informes
+uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Métrica del sitio
+# Métricas del sitio
 
 Los informes de métricas del sitio muestran información cuantitativa sobre el sitio Web. Por ejemplo, muestran cuántas veces miran los visitantes las páginas, las cantidades de compras realizadas desde páginas determinadas, el tiempo empleado en páginas y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
