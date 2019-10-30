@@ -7,8 +7,8 @@ solution: Analytics
 title: Elegir un método de implementación
 topic: Desarrollador e implementación
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
-translation-type: ht
-source-git-commit: b1e69abd65f171b804e7f56031e594890bbd27bb
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,17 +27,17 @@ Existen varias formas de implementar Adobe Analytics.
 
 [!UICONTROL Experience Platform Launch] ofrece a los usuarios las herramientas necesarias para crear y mantener sus propias integraciones con [!DNL Experience Platform Launch], que se denominan Extensiones. Estas extensiones están disponibles para los clientes web y móviles de [!UICONTROL Launch] en las tiendas de aplicaciones de modo que puedan instalar, configurar e implementar rápidamente sus integraciones.
 
-Para obtener más información, consulte [Introducción a Experience Platform Launch](https://docs.adobelaunch.com/getting-started).
+For more information, see [Getting Started with Experience Platform Launch](https://docs.adobelaunch.com/getting-started).
 
 ## [!UICONTROL Dynamic Tag Management] {#section_22E3F3F928894A6A8D77E6953E6CA51C}
 
 [!UICONTROL Dynamic Tag Management] automatiza buena parte del trabajo detallado necesario para implementar [!DNL Analytics]. Introduzca la información necesaria en una interfaz basada en formularios y [!DNL Dynamic Tag Management] generará el código que tiene que añadir a sus páginas.
 Es importante familiarizarse con JavaScript y comprender la terminología básica de Analytics, como:
 
-* Qué es una [eVar](https://marketing.adobe.com/resources/help/es_ES/reference/conversion_var_admin.html) y cómo funcionan
+* Qué es una [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) y cómo funciona
 * Cuándo utilizar un [evento personalizado](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
 
-Para obtener información sobre cómo obtener acceso a DTM, consulte [Introducción](https://marketing.adobe.com/resources/help/es_ES/dtm/get_started.html) en la documentación del producto de DTM.
+Para obtener información sobre el acceso, puesta en marcha y ejecución de Dynamic Tag Management, consulte [Introducción](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) en Documentación del producto de Dynamic Tag Management.
 
 Para obtener más información, consulte [Implementación de Analytics con DTM](../../implement/c-implement-with-dtm/dtm-implementation-overview.md).
 
