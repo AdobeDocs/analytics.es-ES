@@ -8,8 +8,8 @@ subtopic: Complementos
 title: getNewRepeat
 topic: Desarrollador e implementación
 uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Use este complemento para responder a las preguntas siguientes:
 * ¿Los visitantes de retorno generan una mayor conversión per cápita que los visitantes nuevos? ¿Cuál es esta tasa?
 * ¿Mis campañas de marketing causan persistencia entre visitas? Por ejemplo, ¿los usuarios que hacen clic en mis campañas regresan posteriormente?
 
->[!NOTE]
->
->Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+> [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación y código de complemento {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -34,7 +32,7 @@ Use este complemento para responder a las preguntas siguientes:
 
 **Configuración de complemento**
 
-Inserte el código siguiente en la función La función *`s_doPlugins()`*, que se encuentra en el área del archivo *`s_code.js`* llamado *Configuración de complemento*. Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos de valores persistentes. Debe ser una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. Puede utilizar el ejemplo siguiente y actualizarlo según sus necesidades.
+Inserte el siguiente código en la función *`s_doPlugins()`*, que está ubicada en el área del archivo *`s_code.js`con el nombre* Configurar complemento *.* Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos de valores persistentes. Debe ser una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. Puede utilizar el ejemplo siguiente y actualizarlo según sus necesidades.
 
 `s.prop1=s.getNewRepeat(30,'s_getNewRepeat');`
 
