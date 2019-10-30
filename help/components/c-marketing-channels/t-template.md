@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canales de mercadotecnia
 title: Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes
 topic: Reports and Analytics
-uuid: 212 d 16 d 7-fb 0 c -40 c 4-b 8 ff-a 86 c 9 a 511 a 23
+uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Cómo se utiliza un grupo de informes principal como plantilla para poner a prueba la configuración de su canal de mercadotecnia. Para ahorrar tiempo, puede aplicar esta plantilla a uno o más grupos de informes de producción en una actualización masiva. Esta tarea se realiza por separado con los canales y los conjuntos de reglas.
 
->[!NOTE]
->
->Aplique canales a partir de una plantilla antes de aplicar conjuntos de reglas. Los canales deben ser los mismos en todos los grupos de informes al realizar este procedimiento.
+> [!NOTE] Aplique canales de una plantilla antes de aplicar conjuntos de reglas. Los canales deben ser los mismos en todos los grupos de informes al realizar este procedimiento.
 
 **Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes**
 
