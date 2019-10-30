@@ -1,11 +1,11 @@
 ---
 description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,18 +15,18 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
 La variable es una referencia a la función y permite llamar a la función en el lugar apropiado dentro del archivo JavaScript.
 
-The *`s_doPlugins`* function is called each time any of the following occurs:
+La función *`s_doPlugins`* se invoca cada vez que se produce una de las siguientes acciones:
 
-* Se llama a la *`t()`* función
-* Se llama a la *`tl()`* función
+* Se invoca la función *`t()`*
+* Se invoca la función *`tl()`*
 * Se hace clic en un vínculo de salida o de descarga
 * Se hace clic en un elemento de página seguido por el mapa de clics de visitantes
 
-La función *`doPlugins`* se usa para ejecutar rutinas personalizadas para recopilar o modificar datos. If you are using an object name other than "s," make sure that the *`s_doPlugins`* is renamed appropriately. Por ejemplo, si el nombre del objeto es s_mc, la *`s_doPlugins`* función debe llamarse s_mc_doPlugins.
+La función *`doPlugins`* se usa para ejecutar rutinas personalizadas para recopilar o modificar datos. Si va a usar un nombre de objeto que no sea “s”, asegúrese de cambiar el nombre a *`s_doPlugins`*. Por ejemplo, si el nombre del objeto es s_mc, la función *`s_doPlugins`* debe llamarse s_mc_doPlugins.
 
 ## Sintaxis y valores posibles
 
-La sintaxis de la variable *`s_doPlugins`* función no debe estar entre comillas y siempre *`doPlugins`* debe asignarse al nombre exacto de la *`s_doPlugins`* función (si se cambia el nombre de la función).
+La función *`s_doPlugins`* no debe estar entre comillas y *`doPlugins`* debe asignarse siempre al nombre exacto de la función *`s_doPlugins`* (si se ha cambiado el nombre de la función).
 
 ```js
 s.doPlugins=s_doPlugins;
@@ -44,10 +44,10 @@ s_mc.doPlugins=s_mc_doPlugins;
 
 ## Parámetros de configuración
 
-Ninguno.
+Ninguna
 
 ## Problemas, preguntas y consejos
 
-* El único motivo para cambiar el nombre de objeto (por ejemplo, de s a s_mc) es si comparte contenido con otros clientes o extrae información de ellos. Cambiar el nombre de la función *`s_doPlugins`* function to [!UICONTROL s_mc_doPlugins] ensures that another client's JavaScript file does not overwrite your *`doPlugins`* function.
+* El único motivo para cambiar el nombre de objeto (por ejemplo, de s a s_mc) es si comparte contenido con otros clientes o extrae información de ellos. Cambiar el nombre de la función *`s_doPlugins`* a [!UICONTROL s_mc_doPlugins] garantiza que el archivo JavaScript de otro cliente no sobrescribirá su función *`doPlugins`*.
 
-* Si inesperadamente comienza a extraer contenido de otro cliente de Adobe y se sobrescribe su *`s_doPlugins`* función, es posible cambiar el nombre de la *`s_doPlugins`* función sin cambiar el nombre del objeto. Aunque la mejor solución es usar un nombre de objeto diferente de otros archivos JavaScript en la misma página, no es obligatorio.
+* Si inesperadamente comienza a extraer contenido de otro cliente de Adobe y se sobrescribe su función *`s_doPlugins`*, es posible cambiar el nombre de *`s_doPlugins`* sin cambiar el nombre del objeto. Aunque la mejor solución es usar un nombre de objeto diferente de otros archivos JavaScript en la misma página, no es obligatorio.
