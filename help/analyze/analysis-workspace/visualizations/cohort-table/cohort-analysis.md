@@ -6,7 +6,7 @@ title: ¿Qué es el análisis de cohorte?
 topic: Reports and Analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ A *`cohort`* is a group of people sharing common characteristics over a specifie
 
 Después de crear un informe de cohorte, puede depurar sus componentes (dimensiones, métricas y segmentos específicos), y luego compartir el informe de cohorte con quien desee. Consulte [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
 
-Examples of what you can do with Cohort Analysis:
+Ejemplos de lo que puede hacer con el análisis de cohorte:
 
 * Iniciar campañas diseñadas para generar una acción deseada.
 * Modificar el presupuesto de mercadotecnia en el momento justo del ciclo de vida del cliente.
@@ -35,13 +35,13 @@ El análisis de cohorte está disponible para todos los clientes de Analytics co
 >
 >El análisis de cohorte no admite métricas calculadas.
 
-## Cohort Analysis capabilities
+## Capacidades de análisis de cohorte
 
 En enero de 2019, Adobe lanzó una versión nueva y considerablemente mejorada del análisis de cohorte. Ofrece un control mucho más preciso de las cohortes que genera. Estas son las mejoras destacadas:
 
 ### Tabla de retención
 
-A retention cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
+Un informe de cohorte de retención devuelve visitantes: cada celda de datos muestra el número y el porcentaje sin procesar de visitantes de la cohorte que realizaron la acción durante ese período de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
 
 ![](assets/retention-report.png)
 
