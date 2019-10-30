@@ -3,7 +3,7 @@ description: Preguntas más frecuentes sobre el seguimiento de vínculos en [!DN
 seo-description: Preguntas más frecuentes sobre el seguimiento de vínculos en [!DNL Activity Map].
 seo-title: Preguntas frecuentes sobre el seguimiento de vínculos
 solution: Analytics
-title: Preguntas frecuentes sobre el seguimiento de vínculos
+title: Seguimiento de vínculos Preguntas más frecuentes
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
