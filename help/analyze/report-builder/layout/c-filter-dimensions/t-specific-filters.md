@@ -5,9 +5,9 @@ seo-title: Filtros específicos
 solution: Analytics
 title: Filtros específicos
 topic: Creador de informes
-uuid: b 3 a 8187 a -3 d 59-4 da 0-abca-e 933664332 e 3
+uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,11 +22,11 @@ Se puede buscar en elementos de dimensión específicos mediante la creación de
 
 1. Cree o edite una solicitud y avance en el [!UICONTROL Asistente para solicitudes: Paso 2].
 
-   ![Resultado de los pasos](assets/dimension_filter.png)
+   ![Resultado (](assets/dimension_filter.png)
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2]**, haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione[!UICONTROL Filtro]**.
 
-   ![Resultado de los pasos](assets/choose_page_specific01.png)
+   ![Resultado (](assets/choose_page_specific01.png)
 
 1. Enable **[!UICONTROL Specific]**, then enable one of the following options:
 
