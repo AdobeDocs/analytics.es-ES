@@ -5,9 +5,9 @@ seo-title: Etiquetar segmentos
 solution: Analytics
 title: Etiquetar segmentos
 topic: Segmentos
-uuid: 2 adb 95 b 8-862 e -439 a -8694-e 2 ee 163066 a 6
+uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
