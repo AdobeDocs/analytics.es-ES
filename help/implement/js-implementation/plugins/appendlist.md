@@ -8,8 +8,8 @@ subtopic: Complementos
 title: appendList
 topic: Desarrollador e implementación
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Este complemento es útil para:
  </tbody> 
 </table>
 
->[!NOTE]
->
->Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+> [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
