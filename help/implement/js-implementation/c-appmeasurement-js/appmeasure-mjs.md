@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: Acerca de AppMeasurement para JavaScript
 topic: Desarrollador e implementación
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
