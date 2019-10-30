@@ -7,7 +7,7 @@ title: Resumen de los informes personalizados
 topic: Reports and Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,7 +61,7 @@ Al abrir un tablero con informes breves que tengan distintos intervalos de fecha
 1. Haga clic en el icono de calendario de la parte superior derecha.
 1. Seleccione una fecha.
 
-   Puede hacer lo siguiente:
+   Puede:
 
    * Ver los periodos de días, meses o años (hasta tres).
    * Arrastrar el cursor por las fechas para seleccionar un intervalo.
@@ -84,9 +84,7 @@ t_reports_comparing_dates.xml
 
 No puede comparar las fechas entre los informes de tendencia.
 
->[!NOTE]
->
->If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. A continuación, puede usar fórmulas personalizadas en Excel para analizar la diferencia entre ambos.
+> [!NOTE] Si desea realizar una comparación de fechas en métricas clave de un tablero, puede extraer los datos en el Creador [de](https://marketing.adobe.com/resources/help/en_US/arb/) informes mediante dos solicitudes independientes. A continuación, puede usar fórmulas personalizadas en Excel para analizar la diferencia entre ambos.
 
 Para comparar fechas entre informes de clasificación en Reports &amp; Analytics:
 
@@ -144,7 +142,7 @@ t_reports_select_page.xml
 1. Haga clic en el vínculo **Página seleccionada.**
 1. En [!UICONTROL Elegir página], seleccione las páginas que desee mostrar.
 1. Busque la página.
-1. Click **[!UICONTROL OK.]**
+1. Haga clic en **[!UICONTROL Aceptar.]**
 
 ## Comparar grupos de informes {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
@@ -175,7 +173,7 @@ Además de la representación gráfica, la tabla del informe proporciona una com
 1. Genere un informe que le permita comparar informes.
 1. Haga clic en el vínculo **Comparar con otro sitio.**
 1. Busque el grupo de informes.
-1. Click **[!UICONTROL OK.]**
+1. Haga clic en **[!UICONTROL Aceptar.]**
 
 ## Especificar la granularidad de los informes {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
