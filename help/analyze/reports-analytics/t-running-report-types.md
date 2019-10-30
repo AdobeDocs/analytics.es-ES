@@ -7,7 +7,7 @@ title: Ejecutar diferentes tipos de informes
 topic: Informes,Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -79,12 +79,12 @@ Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://m
 1. In [!UICONTROL Adobe Analytics], click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Fallout]**.
 1. En la página [!UICONTROL Informe de visitas en el orden previsto]**, haga clic en[!UICONTROL Iniciar Report Builder para visitas en el orden previsto]**.
 
-   ![Resultado de los pasos](assets/fallout_add_items.png)
+   ![Resultado (](assets/fallout_add_items.png)
 
 1. En la página [!UICONTROL Definir puntos de comprobación], especifique los puntos de comprobación que desee utilizar para el informe.
 1. Click **[!UICONTROL Run Report]**.
 
-   ![Resultado de los pasos](assets/fallout_report.png)
+   ![Resultado (](assets/fallout_report.png)
 
 >[!MORE_LIKE_THIS]
 >
@@ -157,9 +157,7 @@ Consulte las nuevas funciones de [Detección de anomalías y Análisis de contri
 
 **[!UICONTROL Informes]** &gt; Métricas **[!UICONTROL del]** sitio &gt; Detección **[!UICONTROL de anomalías]** .
 
->[!NOTE]
->
->También puede ejecutar Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] También puede ejecutar Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 Si desea más información sobre la configuración de la detección de anomalías, consulte la [Guía de referencia](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
 
@@ -313,7 +311,7 @@ Si desea más información sobre la configuración de informes en tiempo real, c
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Ordenar por... Más popular/Ganadores/Perdedores</strong></td> 
-   <td class="chdesc stentry"> Puede conmutar el orden entre <span class="uicontrol">Más popular</span> (predeterminado), <span class="uicontrol">Ganadores</span> (las dimensiones que muestran el mayor crecimiento) y <span class="uicontrol">Perdedores</span> (las dimensiones que están en trayectoria descendente). <p>A continuación encontrará la fórmula que se utiliza para determinar los ganadores y los perdedores: Tiempo real busca la muestra más temprana y la anterior a la muestra más reciente y realiza un cálculo de "% de cambio" sencillo. De modo que si se selecciona "Últimos 15 minutos" y n representa el minuto actual, n-1 se compara con n-15. Tiempo real actualmente no realiza ninguna ponderación. El minuto actual se ignora porque no está completo y probablemente produciría un cambio de porcentaje falso. </p> <p>Esta formula se mantiene entre todas las métricas utilizadas en el informe en tiempo real. </p> </td> 
+   <td class="chdesc stentry"> Puede conmutar el orden entre <span class="uicontrol">Más popular</span> (predeterminado), <span class="uicontrol">Ganadores</span> (las dimensiones que muestran el mayor crecimiento) y <span class="uicontrol">Perdedores</span> (las dimensiones que están en trayectoria descendente). <p>Esta es la fórmula que se utiliza para determinar los ganadores o perdedores: Real-Time observa la muestra más temprana y la muestra más reciente y realiza un cálculo simple de "cambio de porcentaje". Así que si selecciona "Últimos 15 minutos" y n representa el minuto actual, n-1 se compara con n-15. Tiempo real actualmente no realiza ninguna ponderación. El minuto actual se ignora porque no está completo y probablemente produciría un cambio de porcentaje falso. </p> <p>Esta formula se mantiene entre todas las métricas utilizadas en el informe en tiempo real. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Informe breve 1 secundario</strong></td> 
