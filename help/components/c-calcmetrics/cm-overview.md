@@ -6,7 +6,7 @@ seo-title: Métricas calculadas y calculadas avanzadas (derivadas)
 title: Métricas calculadas y calculadas avanzadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas pers
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Como parte de este cambio, las métricas calculadas que usan un modelo de asignación no predeterminado se migraron a los nuevos modelos de atribución mejorados:
 >
 >* Los modelos de asignación "Último toque de canal de mercadotecnia" y "Primer toque de canal de mercadotecnia" se migraron a los nuevos modelos de atribución "Último toque" y "Primer toque" respectivamente (Nota: "Canales de mercadotecnia" no se ha desaprobado; solo se han utilizado los dos modelos de asignación que aparecen en las métricas calculadas).
->* Además, hemos corregido la forma en que se calcula la asignación lineal. Para los clientes que usan métricas calculadas con modelos de asignación “Lineal”, los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obtener más información, consulte [Funcionamiento de la asignación lineal a partir del 19 de julio de 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Además, hemos corregido la forma en que se calcula la asignación lineal. Para los clientes que utilizan métricas calculadas con modelos de asignación "lineal", los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obtener más información, consulte [Funcionamiento de la asignación lineal a partir del 19 de julio de 2018](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
 Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
