@@ -3,9 +3,9 @@ description: Le permite ver cómo se compara un valor que le interese con otros 
 seo-description: Le permite ver cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos).
 seo-title: Gráfico de viñetas
 title: Gráfico de viñetas
-uuid: 2 f 133189-2 a 50-45 af-b 225-7 d 2 b 433 fbef 5
+uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,4 +16,4 @@ Le permite ver cómo se compara un valor que le interese con otros rangos de ren
 
 ![](assets/bullet-image.png)
 
-El gráfico de viñetas tiene una sola medida principal (por ejemplo, los ingresos año a fecha actuales) y permite introducir rangos de rendimiento de intervalos cualitativos (por ejemplo, en comparación con los ingresos objetivo). Puede especificar alta, media y baja. Puede especificar intervalos objetivo en [!UICONTROL Configuración de visualización].
+El gráfico de viñetas presenta una única medida principal (por ejemplo, los ingresos anuales actuales hasta la fecha) y permite introducir intervalos cualitativos de rendimiento (por ejemplo, en comparación con los ingresos objetivo). Puede especificar alto, medio y bajo. Puede especificar intervalos objetivo en [!UICONTROL Configuración de visualización].
