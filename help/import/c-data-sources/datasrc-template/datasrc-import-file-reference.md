@@ -1,19 +1,19 @@
 ---
 description: Información sobre la plantilla .txt de fuentes de datos.
 seo-description: Información sobre la plantilla .txt de fuentes de datos.
-seo-title: Referencia de archivo de importación
+seo-title: Referencia sobre el archivo de importación
 solution: Analytics
 subtopic: Fuentes de datos
-title: Referencia de archivo de importación
+title: Referencia sobre el archivo de importación
 topic: Desarrollador e implementación
-uuid: cc 58 f 8 d 8-cb 6 e -4908-846 f -0 a 41 c 6 da 805 d
+uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Referencia de archivo de importación
+# Referencia sobre el archivo de importación
 
 Información sobre la plantilla .txt de fuentes de datos.
 
@@ -28,9 +28,9 @@ Para identificar los datos en las diferentes columnas del archivo de fuente de d
 
 **Fecha** (obligatorio): una marca temporal para cada fila de datos en el archivo.
 
-**Variables**: nombres de las variables de informes asignadas a las dimensiones de datos de la fuente de datos.
+**Variables**: Nombres de las variables de informes asignadas a las dimensiones de datos de la fuente de datos.
 
-**Eventos**: nombres de los eventos asignados a las métricas de la fuente de datos.
+**Eventos**: Nombres de los eventos asignados a las métricas de la fuente de datos.
 
 Utilice la plantilla de fuente de datos para crear un archivo de fuente de datos con los datos que desea cargar. Al crear el archivo de fuente de datos, tenga en cuenta lo siguiente:
 
@@ -63,6 +63,6 @@ Utilice la plantilla de fuente de datos para crear un archivo de fuente de datos
 
 **Archivo .FIN**
 
-Cuando haya terminado de rellenar el archivo de fuente de datos, puede enviarlo por FTP a Analytics. Pero, para que los datos se procesen, también deberá cargar, a continuación del otro, You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+Cuando haya terminado de completar el archivo de fuente de datos, puede enviarlo por FTP a Analytics. Pero, para que los datos se procesen, también deberá cargar, a continuación del otro, You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
 
 For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
