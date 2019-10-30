@@ -5,9 +5,9 @@ seo-title: Visitantes únicos
 solution: Analytics
 title: Visitantes únicos
 topic: Métricas
-uuid: ae 210698-99 f 9-485 e-a 640-c 7520807 adc 7
+uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,9 +26,9 @@ La versión 15 elimina las [!UICONTROL visitas] y los [!UICONTROL visitantes ú
 |---|---|
 | Tráfico | Un visitante es una persona que llega al sitio web. No requiere de una cookie persistente. |
 | Conversión | Un visitante es una persona que llega al sitio web. Se contabiliza cuando se produce una acción o un evento relacionado con la conversión. |
-| Ad Hoc Analysis | Un visitante es una persona que llega al sitio web. No requiere de una cookie persistente. |
+| Ad Hoc Analysis  | Un visitante es una persona que llega al sitio web. No requiere de una cookie persistente. |
 
-See [Unique Visitors Report - Version 15 and Ad Hoc Analysis](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
+Consulte Informe Visitantes [únicos - Versión 15 y Análisis](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)específicos.
 
 >[!MORE_LIKE_THIS]
 >
