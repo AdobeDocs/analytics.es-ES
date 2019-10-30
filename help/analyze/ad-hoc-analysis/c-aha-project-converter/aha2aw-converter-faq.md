@@ -3,7 +3,7 @@ description: 'null'
 seo-description: 'null'
 seo-title: Preguntas frecuentes del Conversor de proyectos
 title: Preguntas frecuentes del Conversor de proyectos
-uuid: 8 e 1 bf 0 e 9-ce 0 f -443 a-bcfe -45 d 3 e 2 c 82 b 1 c
+uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -17,15 +17,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * [Problemas conocidos de conversión](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
 * [Preguntas más frecuentes sobre conversión](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
-## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
+## Problemas conocidos de conversión {#section_39C922A58B2E49C9877B363042801361}
 
 | Problema | Descripción |
 |--- |--- |
-| Granularidad de minuto con desgloses o columnas | Cuando la granularidad de minutos tiene desgloses aplicados o si la granularidad de minutos está presente en las columnas, el proyecto no se puede convertir a Analysis Workspace. Una solución consiste en eliminar el desglose por granularidad de minuto y eliminarlo de las columnas y luego convertir el proyecto. A continuación, puede aplicar desgloses al granularidad de minutos en Analysis Workspace. |
-| Métrica calculada interna utilizada junto con un segmento de columna | Si utiliza una métrica calculada interna junto con un segmento de columna, el proyecto no se puede convertir a Analysis Workspace. Para solucionar este problema, elimine las métricas calculadas internas del proyecto antes de la conversión y, a continuación, vuelva a agregarlas en Analysis Workspace. |
+| Granularidad de minutos con desgloses o en columnas | Cuando la granularidad de minutos tiene desgloses aplicados o si la granularidad de minutos está presente en las columnas, el proyecto no se puede convertir a Analysis Workspace.  Una solución consiste en eliminar el desglose por granularidad de minutos, quitarlo de las columnas y luego convertir el proyecto. A continuación, puede aplicar desgloses en granularidad de minutos en Analysis Workspace. |
+| Métrica calculada interna utilizada junto con un segmento de columna | Si utiliza una métrica calculada interna junto con un segmento de columna, el proyecto no se puede convertir a Analysis Workspace. Para solucionar este problema, elimine las métricas calculadas internas del proyecto antes de la conversión y vuelva a agregarlas en Analysis Workspace. |
 
 
-## Conversion FAQ {#section_1E53FE373AF045978F939916124E194E}
+## Preguntas más frecuentes sobre conversión {#section_1E53FE373AF045978F939916124E194E}
 
 <table id="table_48CC119236C94835A6A512E989BE4200"> 
  <thead> 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Hay alguna función de Ad Hoc Analysis no compatible con Analysis Workspace?</b> </p> </td> 
-   <td colname="col2"> <p>R: El informe de análisis del sitio no es compatible con Analysis Workspace. También existen ligeras diferencias entre otras visualizaciones en Análisis específicos y Espacio de trabajo. Consulte las preguntas siguientes para obtener más información. </p> </td> 
+   <td colname="col2"> <p>R: El informe de análisis del sitio no es compatible con Analysis Workspace. También hay algunas ligeras diferencias entre otras visualizaciones en Análisis específicos y en Espacio de trabajo. Consulte las preguntas siguientes para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Cómo se convierte la configuración de la tabla?</b> </p> </td> 
