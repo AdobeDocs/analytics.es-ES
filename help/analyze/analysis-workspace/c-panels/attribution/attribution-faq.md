@@ -3,7 +3,7 @@ title: Preguntas más frecuentes sobre atribución
 seo-title: Preguntas más frecuentes sobre atribución
 description: Obtenga respuestas a preguntas más frecuentes sobre atribución.
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ La atribución se vuelve a calcular durante el tiempo de ejecución del informe,
 
 No. Los modelos de atribución utilizan el procesamiento del tiempo de los informes, que solo está disponible en Analysis Workspace. Consulte Procesamiento [de tiempo de](../../../../components/vrs/vrs-report-time-processing.md) informes para obtener más información.
 
-**¿Los modelos de atribución solo están disponibles si estoy utilizando un grupo de informes virtuales con el procesamiento de tiempo del informe habilitado?**
+**¿Los modelos de atribución solo están disponibles si estoy utilizando un grupo de informes virtuales con el procesamiento de tiempo de informes habilitado?**
 
 Los modelos de atribución están disponibles fuera de los grupos de informes virtuales. Aunque utilizan el procesamiento de tiempo de los informes en segundo plano, los modelos de atribución están disponibles tanto para los grupos de informes estándar como para los virtuales.
 
