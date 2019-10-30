@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Plantillas
 title: Plantillas
-uuid: d 6 d 1 b 745-a 684-41 c 1-879 b -9 f 9 a 9503 fe 00
+uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ## Plantillas {#topic_40932F09E18A467983AFBB29908E1CB8}
 
-Puede elegir si crear un proyecto desde:
+Puede elegir entre crear un proyecto a partir de:
 
-* Un proyecto en blanco (opción predeterminada). For instructions, see [Create an Analysis Workspace Project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2).
+* Un proyecto en blanco (opción predeterminada). Para obtener instrucciones, consulte [Creación de un proyecto](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)de Analysis Workspace.
 * Una plantilla estándar. Adobe se encarga de crear estas plantillas, que están listas para usarse.
 * Una plantilla personalizada. Estas plantillas las pueden crear usuarios con derechos de administrador o usuarios que no sean administradores, siempre que se les haya concedido el permiso "Guardar como plantilla". (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
@@ -25,7 +25,7 @@ Puede elegir si crear un proyecto desde:
 * [Creación de una plantilla personalizada](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
 * [Plantillas estándar](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
 
-## Create a custom template {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## Creación de una plantilla personalizada {#task_279637F56CFD4B6094D7CBDB82FA4835}
 
 Los usuarios que tengan derechos de administrador pueden convertir cualquier proyecto que creen en una plantilla personalizada. A continuación se muestra cómo:
 
@@ -91,7 +91,7 @@ Puede utilizar estas plantillas rellenadas previamente tal cual, o puede adaptar
 
 [Plantillas estándar en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
-Estas son plantillas disponibles y las preguntas que cada plantilla responde:
+Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a responder:
 
 ### Publicidad
 
@@ -99,49 +99,47 @@ Estas son plantillas disponibles y las preguntas que cada plantilla responde:
 >
 >Las plantillas de publicidad solo están disponibles si el grupo de informes está habilitado para Advertising Cloud.
 
-* **Motores de búsqueda**: Esta plantilla desglosa las tendencias publicitarias, plataformas de publicidad, palabras clave, cuentas, campañas, etc.
+* **Motores** de búsqueda: Esta plantilla desglosa las tendencias publicitarias, las plataformas de publicidad, las palabras clave, las cuentas, las campañas y mucho más.
 
 ### Comercio
 
-* **Magento: Mercadotecnia y comercio**: Esta plantilla desglosa la conversión de comercio electrónico por atribución de canal de mercadotecnia, además de proporcionar una perspectiva por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y más. For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing y comercio**: Esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de mercadotecnia, así como también proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo general, consulte &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Medios
 
-* **Consumo de audio**: ¿Qué contenido consumen más y atrae a los usuarios?
-* **Actualización - Frecuencia - Lealtad**: ¿Quiénes son mis fieles lectores?
+* **Consumo** de audio: ¿Qué contenido se consume más y atrae a los usuarios?
+* **Actualización - Frecuencia - Lealtad**: ¿Quiénes son mis leales lectores?
 
-### Dispositivo móvil
+### Mobile
 
 >[!IMPORTANT]
 >
->Las plantillas móviles solo están disponibles si el grupo de informes está habilitado para Móvil.
+>Las plantillas móviles solo están disponibles si el grupo de informes está habilitado para móvil.
 
-* **Mensajería:** Se centra en el rendimiento de la mensajería push y en la aplicación.
-* **Ubicación:** Incluye un mapa que muestra datos de ubicación.
-* **Métricas clave:** Pulse las métricas clave de la aplicación.
-* **Uso de la aplicación:** ¿Cuántos usuarios de la aplicación, inicios y ejecuciones por primera vez tuvieron la aplicación y cuál fue la duración promedio de la sesión?
-* **Adquisición:** Ver cómo funcionan los vínculos de adquisición móvil.
-* **Rendimiento:** ¿Cómo se realiza la aplicación y dónde tienen problemas los usuarios?
-* **Retención:** ¿Quiénes son mis fieles usuarios y qué hacen?
-* **Viajes:** ¿Cuáles son los patrones de uso destacados de mi aplicación?
+* **** Mensajería: Se centra en el rendimiento de la mensajería en la aplicación y push.
+* **** Ubicación: Incluye un mapa que muestra los datos de ubicación.
+* **** Métricas clave: Mantenga un pulso sobre las métricas clave de la aplicación.
+* **** Uso de la aplicación: ¿Cuántos usuarios de la aplicación, inicios y primeros inicios tuvo la aplicación y cuál fue la duración media de la sesión?
+* **** Adquisición: Ver el rendimiento de los vínculos de adquisición móvil.
+* **** Rendimiento: ¿Cómo funciona la aplicación y dónde tienen problemas los usuarios?
+* **** Retención: ¿Quiénes son mis fieles usuarios y qué hacen?
+* **** Viajes: ¿Cuáles son los patrones de uso más destacados de mi aplicación?
 
 ### Comercial
 
-* **Rendimiento de la campaña:** ¿Qué campañas generan la mayor cantidad de ingresos?
-* **Productos:** ¿Qué productos tienen el mejor rendimiento?
+* **** Rendimiento de la campaña: ¿Qué campañas generan la mayor cantidad de ingresos?
+* **** Productos: ¿Qué productos tienen el mejor rendimiento?
 
 ### Web
 
-* **Adquisición:** ¿Cuáles son los principales impulsores de tráfico de mi sitio web?
-* **Consumo de contenido:** ¿Cuáles son los principales lugares que las personas visitan en el sitio?
-* **Retención:** ¿Qué tipos de usuarios son los usuarios fieles de mi sitio?
-* **Tecnología:** ¿Qué tecnología utilizan las personas para acceder al sitio?
+* **** Adquisición: ¿Cuáles son los principales impulsores de tráfico de mi sitio web?
+* **** Consumo de contenido: ¿Cuáles son los lugares más visitados por la gente en mi sitio?
+* **** Retención: ¿Qué tipos de usuarios pueden ser usuarios leales al sitio?
+* **** Tecnología: ¿Qué tecnología utilizan las personas para acceder al sitio?
 
 ### People
 
->[!NOTE]
->
->The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+> [!NOTE] La plantilla Personas y su métrica asociada Personas solo están disponibles para su uso como parte de la cooperación entre dispositivos de [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
 
 La plantilla está basada en la métrica Personas, que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. Esta plantilla le permite hacer lo siguiente:
 
