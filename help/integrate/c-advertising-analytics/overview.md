@@ -1,22 +1,20 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Descripción general de Análisis de publicidad
-title: Descripción general de Análisis de publicidad
-uuid: 00 e 461 ff -3 e 17-4071-818 b -93 fd 1 e 4 b 36 f 1
+seo-title: Resumen de Advertising Analytics
+title: Resumen de Advertising Analytics
+uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Descripción general de Análisis de publicidad
+# Resumen de Advertising Analytics
 
-Advertising Analytics le permite consultar todos los datos de búsqueda de pago de Google y Bing alineados en Adobe Analytics. Anteriormente, cualquier dato de Google adwords/DFA o Microsoft Bing Ads tendría que verse en Adobe Advertising Cloud (AMO) o en Google/Bing. Ahora, obtendrá los datos siguientes en Adobe Analytics: impresiones, clics, costes, puntuación de calidad y posición media directamente de los motores de búsqueda, así como instancias de AMO ID (instancias de clic).
+Advertising Analytics le permite consultar todos los datos de búsqueda de pago de Google y Bing alineados en Adobe Analytics. Anteriormente, cualquier dato de Google AdWords/DFA o de Microsoft Bing Ads tendría que verse en Adobe Advertising Cloud (AMO) o en Google/Bing. Ahora, obtendrá los datos siguientes en Adobe Analytics: impresiones, clics, costes, puntuación de calidad y posición media directamente de los motores de búsqueda, así como instancias de AMO ID (instancias de clic).
 
->[!NOTE]
->
->Yahoo Gemini fue absorbida por Microsoft Bing el 31 de marzo de 2019. Como resultado, la opción de cuenta publicitaria de Yahoo Gemini ya no está disponible.
+> [!NOTE] Yahoo Gemini fue absorbida por Microsoft Bing el 31 de marzo de 2019. Como resultado, la opción de cuenta publicitaria de Yahoo Gemini ya no está disponible.
 
 Al unir los datos de estos motores de búsqueda en Adobe Analytics, puede analizarlos mediante la potencia de Analysis Workspace. Una nueva plantilla denominada [Rendimiento de búsqueda de pago](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254) de Workspace facilita este análisis.
 
@@ -77,26 +75,26 @@ Advertising Analytics añade las siguientes dimensiones y métricas a Analysis W
 
 >[!IMPORTANT]
 >
->Esta integración crea un nuevo conjunto de dimensiones a través de las clasificaciones de la variable de ID de AMO. Estas dimensiones nuevas no afectan a los canales de marketing existentes ni a las dimensiones de la variable de seguimiento de campañas ni los modifican. El identificador de AMO está conectado al perfil de un visitante cuando dicho visitante aterriza en el sitio web desde un anuncio de búsqueda de pago. Como tal, las dimensiones de AMO se pueden utilizar para desglosar las métricas de AMO que proporciona esta integración, así como los datos que el visitante haya capturado del sitio web (visitas, visitantes, visualizaciones de páginas, tasa de rebotes, pedidos, ingresos, eventos personalizados, etc.). También se pueden desglosar por otras dimensiones al informar sobre otras métricas en el sitio.
+>Esta integración crea un nuevo conjunto de dimensiones mediante clasificaciones de la variable de ID de AMO. Estas dimensiones nuevas no afectan a los canales de marketing existentes ni a las dimensiones de la variable de seguimiento de campañas ni los modifican. El identificador de AMO está conectado al perfil de un visitante cuando dicho visitante aterriza en el sitio web desde un anuncio de búsqueda de pago. Como tal, las dimensiones de AMO se pueden utilizar para desglosar las métricas de AMO que proporciona esta integración, así como los datos que el visitante haya capturado del sitio web (visitas, visitantes, visualizaciones de páginas, tasa de rebotes, pedidos, ingresos, eventos personalizados, etc.). También se pueden desglosar por otras dimensiones al informar sobre otras métricas en el sitio.
 >
 >Las clasificaciones de estas métricas se actualizan a diario. Así pues, si realiza cambios en los metadatos en un motor de búsqueda, es posible que dichos cambios no se reflejen hasta el día siguiente cuando se actualicen las clasificaciones.
 
 | Nombre de la clasificación (dimensión) | Definición |
 |--- |--- |
 | Tipo de coincidencia de palabra clave (AMO ID) | El tipo de coincidencia de palabra clave. Por lo general, los valores serán amplia, frase, exacta o sin valor si el tipo de anuncio no tiene ningún tipo de coincidencia. |
-| Plataforma de publicidad (AMO ID) | El nombre del motor de búsqueda. Los valores pueden incluir Google adwords o Microsoft Bing Ads. |
+| Plataforma de publicidad (AMO ID) | El nombre del motor de búsqueda. Los valores pueden incluir Google AdWords o Microsoft Bing Ads. |
 | Cuenta (AMO ID) | El nombre de la cuenta de motor de búsqueda de la que se está realizando un seguimiento. |
 | Campaña (AMO ID) | El nombre de la campaña en la cuenta de motor de búsqueda. |
 | Grupo de publicidad (AMO ID) | El nombre del grupo de publicidad en las campañas de motor de búsqueda. |
 | Anuncio (AMO ID) | El Título de anuncio + Descripción de anuncio que se utilizan en su anuncio. |
 | Palabra clave (AMO ID) | El valor de palabra clave de su cuenta de motor de búsqueda. |
 | Tipo de coincidencia (AMO ID) | El tipo de coincidencia de palabra clave asignado a su palabra clave. Por lo general, los valores serán amplia, frase, exacta o sin valor si el tipo de anuncio no tiene ningún tipo de coincidencia. |
-| Tipo de anuncio (AMO ID) | El tipo de anuncio que se publica, que suele ser “Anuncio de texto”. |
+| Tipo de anuncio (AMO ID) | Tipo de anuncio publicado, que suele ser “Anuncio de texto”. |
 | Título de anuncio (AMO ID) | El objeto Título que se utiliza en su anuncio. |
 | Descripción de anuncio (AMO ID) | El objeto Descripción de anuncio que se utiliza en su anuncio. |
 | URL mostrada de anuncio (AMO ID) | El objeto URL mostrada de anuncio que se utiliza en su anuncio. |
 | URL de destino de anuncio (AMO ID) | La URL de la página de destino o la URL final asignada a su anuncio. |
-| Red (AMO ID) | La red en la que se publica su anuncio. Para Advertising Analytics, este valor es siempre “Búsqueda”. |
+| Red (AMO ID) | La red en la que se publica su anuncio. Para Advertising Analytics, este valor es siempre "Search". |
 | Colocación (AMO ID) | El sitio web de colocación gestionada (para las redes de contenido). Solo las colocaciones gestionadas utilizan esta dimensión. |
 | Segmento de producto (AMO ID) | El nombre del segmento de producto utilizado en los anuncios PLA (no el producto comprado en sí). |
 | Optimización (AMO ID) | No se utiliza en Advertising Analytics. Solo lo utilizan los clientes de Advertising Cloud. |
