@@ -3,9 +3,9 @@ description: Nuevas funciones en la segmentación con Adobe Analytics.
 seo-description: Nuevas funciones en la segmentación con Adobe Analytics.
 seo-title: Novedades de la segmentación con Analytics
 title: Novedades de la segmentación con Analytics
-uuid: ac 53 e 984-9 af 5-4536-8105-345 d 78 cc 5653
+uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,14 +15,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Nuevas funciones en la segmentación con Adobe Analytics.
 
 * [Noviembre de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_EAF1A19D50774E8CB822A64B29495D80)
-* [Octubre de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_543F31389665406A9106C0DACDA089AD)
+* [octubre de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_543F31389665406A9106C0DACDA089AD)
 * [Septiembre de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_ECC5516509BB4774A439BD22ED5803CD)
 * [junio de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_3A4B77FC1FA5422BB14516065F066B21)
 * [Enero de 2016](../../components/c-segmentation/whats-new-segmentation.md#concept_95A4D824A5DC423AB594F3D6ADCF229D)
 * [Noviembre de 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_BCD702E34E134D06AF936AE475D7B4B8)
-* [Octubre de 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_B1F82BE6425647BE8C003606EB73EE10)
+* [octubre de 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_B1F82BE6425647BE8C003606EB73EE10)
 * [Septiembre de 2015](../../components/c-segmentation/whats-new-segmentation.md#concept_C43C11F33EB54F928268304F3D4867AA)
-* [Octubre de 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_486A4F65270B423B9F7457ED4CB6429E)
+* [octubre de 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_486A4F65270B423B9F7457ED4CB6429E)
 * [Septiembre de 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_6FF28E134DE647FDA4CC1FD7DC1FADC8)
 * [Agosto de 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_8AD156B1DCB74D938A0501365F77D4ED)
 * [Julio de 2014](../../components/c-segmentation/whats-new-segmentation.md#concept_252D29FA25FC4FA999BBC94127A616B1)
@@ -53,7 +53,7 @@ Nuevas funciones en la segmentación con Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Intervalos de fechas en los segmentos </p> </td> 
-   <td colname="col2"> <p>Permite generar segmentos que contienen intervalos de fechas móviles para responder a preguntas sobre campañas o eventos en curso. Por ejemplo, ahora se puede crear fácilmente un segmento que incluya a “todas las personas que hayan efectuado una compra en los últimos 60 días”. </p> <p> <p>Nota: Tenga en cuenta que esta función no está disponible en Análisis específicos. </p> </p> </td> 
+   <td colname="col2"> <p>Permite generar segmentos que contienen intervalos de fechas móviles para responder a preguntas sobre campañas o eventos en curso. Por ejemplo: ahora puede crear fácilmente un segmento que incluya a "todos los que han realizado una compra en los últimos 60 días". </p> <p> <p>Nota: Tenga en cuenta que esta función no está disponible en Análisis específicos. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +72,7 @@ Nuevas funciones en la segmentación con Adobe Analytics.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Restricciones de dimensión con segmentos secuenciales </p> </td> 
-   <td colname="col2"> <p>En una cláusula “En”, entre instrucciones ENTONCES, se puede agregar, por ejemplo, “En 1 instancia de palabra clave de búsqueda”, “En 1 instancia de eVar 47”. Esto restringe el segmento a una instancia de una dimensión. </p> </td> 
+   <td colname="col2"> <p>En una cláusula "dentro", entre instrucciones ENTONCES, puede agregar, por ejemplo, "dentro de 1 instancia de palabra clave de búsqueda", "dentro de 1 instancia de eVar 47". Esto restringe el segmento a una instancia de una dimensión. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">Utilizar segmentos en el análisis de visitas en el orden previsto </a> </p> </td> 
@@ -136,7 +136,7 @@ Nuevas funciones en la segmentación con Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Almacén de datos: desglose por segmentos </p> </td> 
-   <td colname="col2"> <p>Se ha agregado compatibilidad con <span class="wintitle"> Desglose por segmentos</span>. Además de los desgloses Estándar (elementos) y Personalizado (estadísticas), ahora los informes se pueden desglosar por segmentos. Cuando se selecciona la pestaña <span class="wintitle">Segmentos</span>, la lista se llena con el mismo conjunto de segmentos que se ofrece en la lista desplegable <span class="wintitle">Segmentos disponibles</span>. </p> <p>Los elementos de línea pertenecientes al segmento devolverán el valor “1”, y los externos, el valor “0”. </p> </td> 
+   <td colname="col2"> <p>Se ha agregado compatibilidad con <span class="wintitle"> Desglose por segmentos</span>. Además de los desgloses Estándar (elementos) y Personalizado (estadísticas), ahora los informes se pueden desglosar por segmentos. Cuando se selecciona la pestaña <span class="wintitle">Segmentos</span>, la lista se llena con el mismo conjunto de segmentos que se ofrece en la lista desplegable <span class="wintitle">Segmentos disponibles</span>. </p> <p>Los elementos de línea con membresía en el segmento informarán un valor de "1" y los elementos fuera del informe de segmento "0". </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,7 @@ Nuevas funciones en la segmentación con Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cambios de permisos en el Generador de segmentos </p> </td> 
-   <td colname="col2"> <p>El usuario administrador puede delimitar los usuarios que pueden crear segmentos nuevos. De forma predeterminada, todos los usuarios pueden crear segmentos. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Más...</a> </p> </td> 
+   <td colname="col2"> <p>El usuario administrador puede delimitar los usuarios que pueden crear segmentos nuevos. De forma predeterminada, todos los usuarios pueden crear segmentos. <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> Más...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -228,7 +228,7 @@ Nuevas funciones en la segmentación con Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Compatibilidad para las coincidencias y no coincidencias en los segmentos del almacén de datos </p> </td> 
-   <td colname="col2"> <p>El almacén de datos ahora es compatible con las coincidencias y no coincidencias en las definiciones de segmentos. (Informes y análisis y Análisis específicos ya los admiten). </p> <p>En la próxima versión serán compatibles los segmentos que anteriormente eran incompatibles con el almacén de datos porque dicho almacén no era compatible con los parámetros “coincide” y “no coincide” (en el caso de que este fuera el único motivo de que los segmentos fueran incompatibles). Con la nueva versión, es posible que se muestren segmentos adicionales en la lista de segmentos del almacén de datos. </p> </td> 
+   <td colname="col2"> <p>El almacén de datos ahora admite "coincidencias" y "no coincidencias" en las definiciones de segmentos. (Informes y análisis y Análisis específicos ya los admiten). </p> <p>Los segmentos que anteriormente eran incompatibles con el Almacén de datos porque el Almacén de datos no admitía "coincidencias" y "no coincidencias" serán compatibles tras la versión (suponiendo que ese era el único motivo por el que el segmento era incompatible). Con la nueva versión, es posible que se muestren segmentos adicionales en la lista de segmentos del almacén de datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parámetro Segments.Save de la API de los servicios web </p> </td> 
