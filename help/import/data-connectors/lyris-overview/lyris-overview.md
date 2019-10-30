@@ -6,7 +6,7 @@ solution: Analytics
 title: Conector de datos Lyris para Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -101,37 +101,37 @@ Esta integración requiere que se reserven al menos 2 eVars para cada implementa
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Correos electrónicos enviados </td> 
    <td colname="col3"> Para almacenar no. de correos electrónicos enviados desde Lyris </td> 
-   <td colname="col4">Tipo: Numérico <p>Participación: Habilitado </p> </td> 
+   <td colname="col4">Tipo:Numérico <p>Participación: Habilitado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris: correos electrónicos abiertos </td> 
    <td colname="col3"> Para almacenar no. de correos electrónicos que se abrieron </td> 
-   <td colname="col4">Tipo: Numérico <p>Participación: Habilitado </p> </td> 
+   <td colname="col4">Tipo:Numérico <p>Participación: Habilitado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris: correos electrónicos únicos abiertos </td> 
    <td colname="col3"> Para almacenar no. de correos electrónicos únicos que se abrieron </td> 
-   <td colname="col4">Tipo: Numérico <p>Participación: Habilitado </p> </td> 
+   <td colname="col4">Tipo:Numérico <p>Participación: Habilitado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Pulsaciones por correo electrónico </td> 
    <td colname="col3"> Para almacenar no. de veces que se hizo clic en un correo electrónico </td> 
-   <td colname="col4">Tipo: Numérico <p>Participación: Habilitado </p> </td> 
+   <td colname="col4">Tipo:Numérico <p>Participación: Habilitado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Devoluciones de correo electrónico </td> 
    <td colname="col3"> Para guardar el no. de correos electrónicos devueltos </td> 
-   <td colname="col4">Tipo: Numérico <p>Participación: Habilitado </p> </td> 
+   <td colname="col4">Tipo:Numérico <p>Participación: Habilitado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Lyris - Cancelación de suscripciones a correo electrónico </td> 
    <td colname="col3"> Para guardar el no. de suscripciones de correo electrónico desactivadas </td> 
-   <td colname="col4">Tipo: Numérico <p>Participación: Habilitado </p> </td> 
+   <td colname="col4">Tipo:Numérico <p>Participación: Habilitado </p> </td> 
   </tr> 
  </tbody> 
 </table>
