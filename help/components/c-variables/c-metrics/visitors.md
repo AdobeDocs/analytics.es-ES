@@ -6,9 +6,9 @@ seo-title: Visitantes
 solution: Analytics
 title: Visitantes
 topic: Métricas
-uuid: 098 beb 78-5294-42 b 4-8875-f 3908 aa 646 ca
+uuid: 098beb78-5294-42b4-8875-f3908aa646ca
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Número de visitantes únicos del sitio durante la hora, el día, la semana, el 
 | Conversión | Un visitante es una persona que llega al sitio web. Se contabiliza cuando se produce una acción o un evento relacionado con la conversión. |
 | Ad Hoc Analysis | Un visitante es una persona que llega al sitio web. No requiere de una cookie persistente. |
 
->[!NOTE]
->
->If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
+> [!NOTE] Si utiliza Analytics como fuente de informes para Adobe Target, consulte [Minimización de los recuentos inflados de visitas y visitantes en A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) en la documentación [!DNL Target] .
 
 Consulte [Identificación de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) en la Guía de implementación de Adobe Analytics para obtener más información.
 
