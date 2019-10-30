@@ -8,8 +8,8 @@ subtopic: Variables
 title: Variables y limitaciones
 topic: Desarrollador e implementación
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Mirada de alto nivel a variables y sus limitaciones.
 
->[!NOTE]
->
->Consulte [Variables de configuración](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) y [Variables de página](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) para obtener una vista detallada de las variables de Analytics más comunes.
+> [!NOTE] Consulte [Variables de configuración](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00) y [Variables de página](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3) para obtener una vista detallada de las variables de Analytics más comunes.
 
 La siguiente tabla proporciona información rápida sobre variables de [!DNL Analytics]:
 
@@ -44,7 +42,7 @@ La siguiente tabla proporciona información rápida sobre variables de [!DNL Ana
 | dynamicAccountMatch | Utiliza el objeto DOM para recuperar la sección de la dirección URL donde se aplican todas las reglas de *`dynamicAccountList`*. Esta variable solo es válida cuando *`dynamicAccountSelection`* está configurada en “True”. |
 | dynamicAccountSelection | Permite seleccionar dinámicamente el grupo de informes en función de la dirección URL de cada página. |
 | dynamicVariablePrefix | Permite a la implementación marcar variables que deben rellenarse de forma dinámica. Las cookies, los encabezados de solicitud y parámetros de cadena de consulta de imagen se pueden rellenar dinámicamente. |
-| eVarN | Se utiliza para generar informes personalizados en el [!DNL Analytics] [!UICONTROL módulo de conversión de]. Cuando una eVar está establecida en un valor para un visitante, [!DNL Analytics] recuerda automáticamente ese valor hasta que caduque. Cualquier evento de éxito que encuentra el visitante mientras la eVar está activa se contabiliza en el valor de eVar. |
+| eVarN | Se utiliza para generar informes personalizados en el [!DNL Analytics] [!UICONTROL módulo de conversión de]. Cuando una eVar está establecida en un valor para un visitante, [!DNL Analytics] recuerda automáticamente ese valor hasta que caduque. Cualquier evento de éxito que encuentra el visitante mientras la eVar está activa se cuenta hacia el valor eVar. |
 | eventos | Registra eventos de éxito de carro de compras y personalizados comunes. |
 | fpCookieDomainPeriods | Determina el dominio donde se configurarán las cookies de [!DNL Analytics] que no sean la [!UICONTROL ID de visitante] (s_vi); para ello, se determina el número de puntos en el dominio de la página. |
 | hierN | Determina la ubicación de una página en la jerarquía del sitio. Esta variable resulta muy útil para los sitios que tienen más de tres niveles en la estructura del sitio. |
@@ -55,9 +53,9 @@ La siguiente tabla proporciona información rápida sobre variables de [!DNL Ana
 | linkExternalFilters | Si el sitio contiene muchos vínculos a sitios externos y no se desea realizar el seguimiento de todos los vínculos de salida, use *`linkExternalFilters`* para crear un informe de un subconjunto específico de vínculos de salida. |
 | linkInternalFilters | Determina qué vínculos del sitio son vínculos de salida. Es una lista de filtros separados por coma que representan los vínculos que son parte del sitio. |
 | linkLeaveQueryString | Determina si la cadena de consulta debe incluirse en los informes [!UICONTROL Vínculos de salida] y [!UICONTROL Descargas de archivos]. |
-| linkName | Variable opcional utilizada en el [!UICONTROL seguimiento] de vínculos que determina el nombre de un vínculo de salida, de descarga o personalizado. La variable La variable *`linkName`* no suele ser necesaria ya que el tercer parámetro de la función *`tl()`* la sustituye. |
-| linkTrackEvents | Contiene los eventos que deben enviarse con los vínculos personalizados, de descarga y de salida. La variable solo se tiene en cuenta si *`linkTrackVars`* contiene "events". |
-| linkTrackVars | Lista de variables separadas por coma que se enviarán con vínculos de descarga, de salida o personalizados. Si *`linkTrackVars`* se configura como "", todas las variables que tienen valores se envían con los datos del vínculo. |
+| linkName | Variable opcional utilizada en el [!UICONTROL seguimiento] de vínculos que determina el nombre de un vínculo de salida, de descarga o personalizado. La variable *`linkName`* no suele ser necesaria ya que el tercer parámetro de la función *`tl()`* la sustituye. |
+| linkTrackEvents | Contiene los eventos que deben enviarse con los vínculos personalizados, de descarga y de salida. Esta variable solo se tiene en cuenta si *`linkTrackVars`* contiene “events”. |
+| linkTrackVars | Lista de variables separadas por coma que se enviarán con vínculos de descarga, de salida o personalizados. Si *`linkTrackVars`* se configura como “”, todas las variables que tienen valores se envían con los datos del vínculo. |
 | linkType | Variable opcional utilizada para el seguimiento de vínculos que determina qué informe mostrará el nombre o la dirección URL del vínculo (vínculos de salida, de descarga, personalizados). *`linkType`* no suele ser necesaria, ya que el segundo parámetro de la función *`tl()`* la sustituye. |
 | mediaLength | Especifica la longitud total del contenido multimedia que se está reproduciendo. |
 | mediaName | Especifica el nombre del vídeo o elemento multimedia. Solo está disponible mediante la [!UICONTROL API de inserción de datos] y la [!UICONTROL fuente de datos de procesamiento completo]. |
@@ -71,7 +69,7 @@ La siguiente tabla proporciona información rápida sobre variables de [!DNL Ana
 | pageType | Solo se usa para designar una página de error 404 Página no encontrada. Solo tiene un posible valor, que es "errorPage". En una página de error 404, la variable *`pageName`* no debe rellenarse. |
 | pageURL | En casos excepcionales, la dirección URL de la página no es la dirección URL que se desearía registrar en [!DNL Analytics]. Para dar cabida a estas situaciones, [!DNL Analytics] ofrece la variable *`pageURL`*, que anula la dirección URL real de la página. |
 | plugins | En exploradores Netscape y Mozilla, enumera los complementos instalados en el explorador. |
-| products | Se usa para realizar el seguimiento de productos y categorías de productos, así como la cantidad de compra y el precio de compra. La variable *`products`* siempre debe configurarse junto con un evento de éxito. De forma opcional, la variable *`products`* puede realizar el seguimiento de eventos numéricos y monetarios, así como eVars de [!UICONTROL Marketing]. |
+| Productos | Se usa para realizar el seguimiento de productos y categorías de productos, así como la cantidad de compra y el precio de compra. La variable *`products`* siempre debe configurarse junto con un evento de éxito. De forma opcional, la variable *`products`* puede realizar el seguimiento de eventos numéricos y monetarios, así como eVars de [!UICONTROL Marketing]. |
 | propN | Se utiliza para generar informes personalizados en el [!DNL Analytics]módulo de tráfico[!UICONTROL  de ]. Las [!UICONTROL props] se pueden utilizar como contadores (para contabilizar el número de veces que se envía una vista de página), para los informes de rutas o en informes de correlación. |
 | purchaseID | Se utiliza para evitar que [!DNL Analytics] contabilice un pedido varias veces. Siempre que se use el evento purchase en el sitio, se debe usar la variable *`purchaseID`*. |
 | referrer | Restaura la información del referente perdida. |
@@ -83,9 +81,9 @@ La siguiente tabla proporciona información rápida sobre variables de [!DNL Ana
 | trackingServer | Se utiliza para la implementación de cookies de origen a fin de especificar el dominio en el cual se escriben la solicitud de imagen y la cookie. Se utiliza para páginas no seguras. |
 | trackingServerSecure | Se utiliza para la implementación de cookies de origen a fin de especificar el dominio en el cual se escriben la solicitud de imagen y la cookie. Se utiliza para páginas seguras. |
 | trackInlineStats | Determina si se recopilarán los datos del mapa de clics de visitantes. |
-| transactionID | Enlaza datos sin conexión con una transacción en línea (como un posible cliente o una compra generada en línea). Cada *`transactionID`* única enviada a Adobe se registrará a fin de prepararla para una carga de [!UICONTROL fuentes de datos] de información sin conexión sobre esa transacción. Consulte la [Guía de fuentes de datos](https://marketing.adobe.com/resources/help/es_ES/sc/datasources/). |
+| transactionID | Enlaza datos sin conexión con una transacción en línea (como un posible cliente o una compra generada en línea). Cada *`transactionID`* único enviado a Adobe se registrará a fin de prepararlo para una carga de [!UICONTROL fuentes de datos] de información sin conexión sobre esa transacción. Consulte la [Guía de fuentes de datos](https://marketing.adobe.com/resources/help/en_US/sc/datasources/). |
 | s_usePlugins | Si la función La función *`s_doPlugins`* está disponible y contiene código útil, [!UICONTROL s_usePlugins] debe configurarse como “True”. Cuando [!UICONTROL usePlugins] tiene el valor “true”, se llama a la función *`s_doPlugins`* antes de cada solicitud de imagen. |
 | visitorID | Los visitantes se pueden identificar mediante la etiqueta *`visitorID`* o por dirección IP o agente de usuario. *`visitorID`* puede tener hasta 100 caracteres alfanuméricos y no debe contener guiones. |
-| visitorNamespace | Si *`visitorNamespace`* se usa en el archivo JavaScript, no la elimine ni la modifique. Esta variable se usa para identificar el dominio con el que se configuran las cookies. Si *`visitorNamespace`* cambia, es probable que todos los visitantes notificados a [!DNL Analytics] se conviertan en nuevos visitantes. Es decir, no modifique esta variable sin la autorización de un consultor de Adobe. |
+| visitorNamespace | Si *`visitorNamespace`* se usa en el archivo JavaScript, no la elimine ni la modifique. Esta variable se usa para identificar el dominio con el que se configuran las cookies. Si *`visitorNamespace`* cambia, es probable que todos los visitantes notificados a se conviertan en nuevos visitantes. [!DNL Analytics] Es decir, no modifique esta variable sin la autorización de un consultor de Adobe. |
 | zip | Captura el código postal de un visitante del sitio. |
 
