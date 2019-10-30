@@ -5,9 +5,9 @@ seo-title: Tiempo empleado
 solution: Analytics
 title: Tiempo empleado
 topic: Métricas
-uuid: a 9 f 63 da 3-7 e 79-49 c 3-9 b 0 b -6 dcd 2 ae 6 aadc
+uuid: a9f63da3-7e79-49c3-9b0b-6dcd2ae6aadc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ Esta tabla muestra las distintas métricas de Tiempo empleado, su definición y 
   <tr> 
    <td colname="col1"> <p>Segundos totales empleados </p> </td> 
    <td colname="col2"> <p>Representa el tiempo total que los visitantes interactúan con un elemento de dimensión específico. </p> <p>Incluye la instancia de un valor y persistencia en todas las visitas individuales posteriores. En el caso de las props, el tiempo empleado también se cuenta en los eventos de vínculo siguientes. </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder (llamado “tiempo total empleado”) </p> <p>Data Warehouse </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Creador de informes (llamado 'tiempo total empleado') </p> <p>Data Warehouse </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tiempo empleado por visita (segundos) </p> </td> 
@@ -47,17 +47,17 @@ Esta tabla muestra las distintas métricas de Tiempo empleado, su definición y 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tiempo empleado por visitante (segundos) </p> </td> 
-   <td colname="col2"> <p><i>Segundos totales empleados / (visitante único - visitantes únicos de devolución)</i> </p> <p>Representa el tiempo medio que los visitantes interactúan con un elemento de dimensión específico a lo largo de la duración del visitante (la duración de su cookie). </p> </td> 
+   <td colname="col2"> <p><i>Segundos totales empleados / (visitante único - visitantes únicos de devolución)</i> </p> <p>Representa la cantidad promedio de tiempo que los visitantes interactúan con un elemento de dimensión específico durante toda la vida del visitante (la duración de la cookie). </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tiempo promedio empleado en el sitio (segundos) </p> </td> 
-   <td colname="col2"> <p>Representa el tiempo total que los visitantes interactúan con un elemento de dimensión específico, por secuencia con un elemento de dimensión. No se limita al promedio del “sitio”, como su nombre sugiere. Consulte la sección Cómo se calcula el tiempo empleado para obtener más información sobre las secuencias. </p> <p>Nota: Es muy probable que, en el nivel de elemento de dimensión, esta métrica difiera del Tiempo empleado por visita debido a diferencias en el denominador del cálculo. </p> </td> 
+   <td colname="col2"> <p>Representa el tiempo total que los visitantes interactúan con un elemento de dimensión específico, por secuencia con un elemento de dimensión. No se limita solamente a los promedios del "sitio" como sugiere el nombre. Consulte la sección Cómo se calcula el tiempo empleado para obtener más información sobre las secuencias. </p> <p>Nota: Es muy probable que, en el nivel de elemento de dimensión, esta métrica difiera del Tiempo empleado por visita debido a diferencias en el denominador del cálculo. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics (se muestra en minutos) </p> <p>Report Builder (se muestra en minutos) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tiempo promedio empleado en la página </p> </td> 
-   <td colname="col2"> <p><b>Métrica obsoleta. </b> </p> <p>Se recomienda el uso de “Tiempo promedio empleado en el sitio” si se necesita el tiempo promedio para un elemento de dimensión. </p> </td> 
+   <td colname="col2"> <p><b>Métrica obsoleta. </b> </p> <p>Se recomienda utilizar 'Tiempo promedio invertido en el sitio' si se necesita el tiempo promedio para un elemento de dimensión. </p> </td> 
    <td colname="col3"> <p>Report Builder (cuando hay una dimensión en la solicitud) </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Esta tabla muestra las distintas métricas de Tiempo empleado, su definición y 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Longitud promedio de sesión (móvil) </p> </td> 
-   <td colname="col2"> <p>Duración total de la sesión/(Usos - Primeros lanzamientos) </p> <p>Solo SDK de aplicaciones móviles. Es una métrica de nivel de sesión. </p> </td> 
+   <td colname="col2"> <p>Duración total de la sesión / (Inicios - Primeros inicios) </p> <p>Solo SDK de aplicaciones móviles. Es una métrica de nivel de sesión. </p> </td> 
    <td colname="col3"> <p>Report Builder </p> <p>Interfaz de usuario de Mobile Services </p> </td> 
   </tr> 
  </tbody> 
@@ -110,7 +110,7 @@ Esta tabla muestra las distintas dimensiones de Tiempo empleado, su definición 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tiempo empleado en la página (granular) </p> </td> 
-   <td colname="col2"> <p>El tiempo total empleado en cada visita individual, truncado al segundo más cercano. Es una dimensión de nivel de visita individual e incluye tanto las vistas de página como los eventos de vínculo. No se limita a la dimensión “página”, como su nombre sugiere. </p> </td> 
+   <td colname="col2"> <p>El tiempo total empleado en cada visita individual, truncado al segundo más cercano. Es una dimensión de nivel de visita individual e incluye tanto las vistas de página como los eventos de vínculo. No se limita a la dimensión "página", como sugiere el nombre. </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> </td> 
   </tr> 
   <tr> 
@@ -137,9 +137,7 @@ Esta tabla muestra las distintas dimensiones de Tiempo empleado, su definición 
 
 Adobe Analytics utiliza valores explícitos (incluidos eventos de vínculo y vistas de vídeo) para calcular la métrica [!UICONTROL Tiempo empleado].
 
->[!NOTE]
->
->Without link events like [!UICONTROL Video Views] or [!UICONTROL Exit Links], time spent on the last hit of a visit cannot be known. Además, y por motivos similares, las [!UICONTROL visitas de devolución] (las [!UICONTROL visitas] con una sola visita individual) no tienen asociado un valor de [!UICONTROL Tiempo empleado].
+> [!NOTE] Sin eventos de vínculo como vistas [!UICONTROL de] vídeo o vínculos [!UICONTROL de]salida, no se puede saber el tiempo empleado en la última visita individual de una visita. Además, y por motivos similares, las [!UICONTROL visitas de devolución] (las [!UICONTROL visitas] con una sola visita individual) no tienen asociado un valor de [!UICONTROL Tiempo empleado].
 
 El **numerador** en todos los cálculos de tiempo empleado es “Segundos totales empleados”.
 
@@ -171,10 +169,10 @@ El **denominador** no está disponible como una métrica separada en Analytics. 
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿Qué dimensión de tiempo empleado es más apropiada para su desglose con otras dimensiones? </p> </td> 
-   <td colname="col2"> <p>La dimensión «Tiempo empleado en la página (granular)» es una dimensión de nivel de visita individual. Desglosarla mediante otra dimensión indicará los segundos que duró una visita individual en la que la dimensión de desglose también estaba presente. </p> <p>En el ejemplo siguiente, el término de búsqueda “classifieds” se asocia a los tiempos de visita individual 54 segundos, 59 segundos, etc., tal vez indicando que los visitantes pasan tiempo leyendo el contenido devuelto por el término de búsqueda. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>La dimensión "Tiempo empleado en la página: granular" es una dimensión de nivel de visita individual. Desglosarla mediante otra dimensión indicará los segundos que duró una visita individual en la que la dimensión de desglose también estaba presente. </p> <p>En el ejemplo siguiente, el término de búsqueda "classifieds" se asocia con tiempos de visita de 54 segundos, 59 segundos, etc., tal vez indicando que los visitantes invierten tiempo en leer el contenido devuelto para ese término de búsqueda. </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>¿Qué métrica es apropiada para la dimensión «Tiempo empleado en la página - granular»? </p> </td> 
+   <td colname="col1"> <p>¿Qué métrica es apropiada para la dimensión "Tiempo empleado en la página: granular"? </p> </td> 
    <td colname="col2"> <p>Cualquiera. La dimensión muestra el tiempo empleado en la visita individual exacta en la que se produjo el evento. Un tiempo empleado mayor significa que un visitante pasó más tiempo en una página (visita individual) en la que se produjo el evento. </p> <p><img placement="break" align="center"  src="assets/time-spent2.png" id="image_A741C1BA52254124B5C28D030FE20EFF" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
@@ -228,13 +226,13 @@ Supongamos que el siguiente conjunto de llamadas de servidor es para un único v
   </tr> 
   <tr> 
    <td colname="col1"> <b>Tipo de visita</b> </td> 
-   <td colname="col2"> Página </td> 
+   <td colname="col2"> Activity Map </td> 
    <td colname="col3"> Vínculo </td> 
-   <td colname="col4"> Página </td> 
-   <td colname="col5"> Página </td> 
-   <td colname="col6"> Página </td> 
-   <td colname="col7"> Página </td> 
-   <td colname="col8"> Página </td> 
+   <td colname="col4"> Activity Map </td> 
+   <td colname="col5"> Activity Map </td> 
+   <td colname="col6"> Activity Map </td> 
+   <td colname="col7"> Activity Map </td> 
+   <td colname="col8"> Activity Map </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Nombre de la página</b> </td> 
@@ -350,8 +348,8 @@ Para las dimensiones de tiempo empleado, en los informes asociados aparecerán l
 Algunas notas adicionales para complementar el ejemplo:
 
 * Todos los cálculos del tiempo empleado se basan en el tiempo transcurrido de visita, que comienza en cero en la primera visita individual de la visita.
-* “Segundos empleados” es la diferencia entre la marca de tiempo de la visita individual actual y la de la visita individual siguiente. Como resultado, la última visita individual de la visita (y las devoluciones) carecen de tiempo empleado.
-* Una “secuencia” es un conjunto consecutivo de visitas individuales en el que una variable dada contiene el mismo valor (por configuración, por propagarse hacia delante o por persistir). Por ejemplo, prop1 “A” tiene dos secuencias: las visitas individuales 1 y 2, y la visita individual 6. Los valores en la última visita individual de la visita no comienzan una nueva secuencia porque la última visita individual no tiene valor de tiempo empleado. El tiempo promedio empleado en un sitio utiliza secuencias en el denominador.
+* "Segundos empleados" es la diferencia entre la marca de tiempo de la visita actual y la marca de tiempo de la siguiente visita. Como resultado, la última visita individual de la visita (y las devoluciones) carecen de tiempo empleado.
+* Una "secuencia" es un conjunto consecutivo de visitas individuales en el que una variable dada contiene el mismo valor (ya sea por estar configurada, propagarse hacia delante o persistir). Por ejemplo, prop1 "A" tiene dos secuencias: visitas individuales 1 y 2 y visita individual 6. Los valores en la última visita individual de la visita no comienzan una nueva secuencia porque la última visita individual no tiene valor de tiempo empleado. El tiempo promedio empleado en un sitio utiliza secuencias en el denominador.
 
-   * Solo para los propósitos de Tiempo empleado, las props se “propagan hacia delante” desde las visitas individuales de página hacia las visitas individuales de vínculo subsiguientes, como se muestra arriba para la visita individual n.º 2 de prop1. Esto permite que el valor configurado para prop1 en la visita individual n.º 1 (“A”) acumule el tiempo empleado en la visita individual n.º 2.
+   * Solo para los fines de Tiempo empleado, las props se "propagan hacia delante" desde las visitas individuales de página hasta las visitas individuales de vínculo subsiguientes, como se muestra arriba para prop1 en la visita individual 2. Esto permite que el valor configurado para prop1 en la visita individual 1 ("A") acumule el tiempo empleado en la visita individual 2.
    * Las eVars acumulan Tiempo empleado en cualquier visita individual en las que estén configuradas o persistan. La persistencia de una eVar se define en la configuración de eVar, en Administración de Analytics.
