@@ -7,8 +7,8 @@ solution: Analytics
 title: performanceTiming
 topic: Desarrollador e implementación
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ Aquí podrá encontrar los detalles completos sobre el objeto Temporización de 
 
 [https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface](https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface)
 
-Además, el complemento puede usar de forma opcional el objeto performanceEntries para registrar los detalles sobre nombre del recurso, inicio de tiempo de carga del recurso y duración de tiempo de carga del recurso para cada recurso individual que se carga en una página dada. Se registra una gran cantidad de información con este complemento, y como tal requiere que el objeto de almacenamiento DOM esté habilitado para almacenar la información de carga de página entre vistas de páginas. Asegúrese de que la política de privacidad de la empresa permita el uso del objeto de almacenamiento DOM antes de habilitar esta funcionalidad. También requiere el uso de una listVar para el seguimiento de todos los recursos.
+Además, el complemento puede usar de forma opcional el objeto performanceEntries para registrar los detalles sobre nombre del recurso, inicio de tiempo de carga del recurso y duración de tiempo de carga del recurso para cada recurso individual que se carga en una página dada. Se registra una gran cantidad de información con este complemento, y como tal requiere que el objeto de almacenamiento DOM esté habilitado para almacenar la información de carga de página entre vistas de páginas. Asegúrese de que la política de privacidad de su empresa permite el uso del objeto de almacenamiento DOM antes de habilitar esta funcionalidad. También requiere el uso de una listVar para el seguimiento de todos los recursos.
 
 ## Complementos de soporte requeridos {#section_B6447EB6548942EFBC219AEFDC245639}
 
@@ -55,9 +55,7 @@ Además, el complemento puede usar de forma opcional el objeto performanceEntrie
 
 ## Implementación y código de complemento {#section_564D77E1CF0E445586D95AD9769CE57D}
 
->[!NOTE]
->
->Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de Adobe Analytics. Este complemento solo es compatible con las bibliotecas de seguimiento de [!DNL AppMeasurement].
+> [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de Adobe Analytics. Este complemento solo es compatible con las bibliotecas de seguimiento de [!DNL AppMeasurement].
 
 **Sección Config (antes de doPlugins):**
 
@@ -77,9 +75,7 @@ s.ptc = false;
 
 Para inicializar el complemento, se requiere una línea de código en la sección `doPlugins` del s_code, preferiblemente tras haber designado la variable `s.pageName`. Si desea utilizar la funcionalidad de tiempo de carga de recursos dentro del complemento, debe pasar el nombre de la variable de lista que se usará. De lo contrario, solo se realizará el seguimiento de las entradas de temporización de rendimiento en los eventos especificados previamente en la variable `s.pte`.
 
->[!NOTE]
->
->Para correlacionar entradas de temporización de rendimiento con páginas en el sitio, también debe inicializar el complemento `getPreviousValue`. Se recomienda comparar estas entradas de rendimiento con el nombre de página anterior o el valor de dirección URL de página anterior.
+> [!NOTE]Para correlacionar entradas de temporización de rendimiento con páginas en el sitio, también debe inicializar el complemento `getPreviousValue`. Se recomienda comparar estas entradas de rendimiento con el nombre de página anterior o el valor de dirección URL de página anterior.
 
 *Llamadas de muestra*
 
