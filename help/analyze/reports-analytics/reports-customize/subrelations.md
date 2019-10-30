@@ -5,9 +5,9 @@ seo-title: Subrelaciones
 solution: Analytics
 title: Subrelaciones
 topic: Reports and Analytics
-uuid: ca 6 df 50 f -5 d 4 c -4 f 91-bf 27-86 ccd 01391 a 2
+uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
