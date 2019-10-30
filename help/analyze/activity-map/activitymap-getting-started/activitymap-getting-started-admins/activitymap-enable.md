@@ -7,7 +7,7 @@ title: Habilitar [!DNL Activity Map]
 topic: Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -58,6 +58,4 @@ First, you need to enable [!DNL Activity Map] reports at a report-suite level.
 
 1. This allow your Admin users to download [!DNL Activity Map] from  **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
 
-<note>
-  Si desea que los usuarios que no son administradores descarguen [!DNL Activity Map], debe crear un nuevo grupo de usuarios que proporcione permisos para <span class="uicontrol"> Herramientas </span> &gt; <span class="uicontrol"> Instalación heredada de ClickMap </span>. A continuación, puede agregar usuarios que no sean administradores a este grupo. Este nivel de permiso combinado con el [!DNL Activity Map] Access proporcionará permisos completos para descargar y utilizar la herramienta. 
-</note>
+> [!NOTE] Si desea que los usuarios que no son administradores descarguen [!DNL Activity Map], cree un nuevo grupo de usuarios que proporcione permisos para 'Herramientas' e 'Instalación heredada de ClickMap'. Este nivel de permiso combinado con [!DNL Activity Map] Access proporciona permisos para descargar y utilizar la herramienta.
