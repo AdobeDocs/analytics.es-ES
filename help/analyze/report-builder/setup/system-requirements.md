@@ -5,9 +5,9 @@ seo-title: Requisitos del sistema
 solution: Analytics
 title: Requisitos del sistema
 topic: Creador de informes
-uuid: b 86 e 728 a -1 b 9 d -4 a 3 f -9 c 0 e -1 e 248 fd 1979 d
+uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
