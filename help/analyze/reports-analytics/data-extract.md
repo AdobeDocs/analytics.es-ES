@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Programa
 title: Extracción de datos
 topic: Reports and Analytics
-uuid: 430 f 03 bb -09 e 2-4 e 43-8 cbd -1754 b 49 acefe
+uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Las extracciones de datos permiten elegir los parámetros que se verán en los ejes X e Y del informe, además del elemento por el cual se filtra el informe.
 
-## Data extract {#concept_52E6446E927A4CAC8E0EA15A3AE2C0EC}
+## Extracción de datos {#concept_52E6446E927A4CAC8E0EA15A3AE2C0EC}
 
 Las extracciones de datos permiten elegir los parámetros que se verán en los ejes X e Y del informe, además del elemento por el cual se filtra el informe.
 
