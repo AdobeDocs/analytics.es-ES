@@ -7,8 +7,8 @@ solution: Analytics
 title: Información general sobre rutas
 topic: Desarrollador e implementación
 uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,8 +21,6 @@ Por ejemplo, un visitante fue a la página A, después a la página B y después
 
 Analytics proporciona control de rutas integrado en el nivel de página. La idea básica del control de rutas es que pueda ver el orden de las páginas que los usuarios vieron durante sus visitas. Estos datos se presentan en diferentes informes que dan formato a los datos de distintas maneras, en función de lo que esté intentando ver.
 
->[!NOTE]
->
->Para habilitar el control de rutas, vaya a **[!UICONTROL Administración &gt; Grupos de informes &gt; Editar configuración &gt; Tráfico &gt; Variables de tráfico]**. Para habilitar el control de rutas en la sección del sitio y en los informes de servidor, póngase en contacto con el Servicio de atención al cliente.
+> [!NOTE] Para habilitar el control de rutas, vaya a **[!UICONTROL Administración &gt; Grupos de informes &gt; Editar configuración &gt; Tráfico &gt; Variables de tráfico]**. Para habilitar el control de rutas en la sección del sitio y en los informes de servidor, póngase en contacto con el Servicio de atención al cliente.
 
 Explore opciones de rutas (flujo) más poderosas en [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
