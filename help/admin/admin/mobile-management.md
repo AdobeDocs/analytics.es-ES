@@ -5,9 +5,9 @@ seo-title: Administración de móviles
 solution: Analytics
 title: Administración de móviles
 topic: Herramientas de administración
-uuid: d 09 edf 72-bb 91-422 d-b 22 c -7 b 6971 f 228 de
+uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 6184104b5a46242c5973552298964e96ff671d7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Esta integración entre Adobe Analytics y Mobile Services:
 * Añade nuevas dimensiones de Adobe Mobile.
 * Sincroniza datos con Analytics cada 15 minutos.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Administración]** de móviles &gt; **[!UICONTROL Informes de aplicaciones móviles]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **** de informes &gt; **[!UICONTROL Editar configuración]** &gt; Administración **** móvil &gt; Informes de aplicaciones **** móviles.
 
 ## Paso 1. Habilitar Informes de aplicaciones {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -50,12 +50,12 @@ Activar el seguimiento de ubicación le permite:
 
 Habilitar las visitas en segundo plano (las generadas cuando la aplicación está en segundo plano) significa que estas se tratan como visitas en primer plano normales. Ahora aparecen en los informes regulares, lo que también afecta a la atribución. Esta configuración solo suele ser deseable para mantener la coherencia con implementaciones anteriores.
 
-Lo recomendable es “incluir las visitas en segundo plano” en un [grupo de informes virtuales](../../components/vrs/vrs-about.md). Esto le permite ver las visitas, pero no afecta negativamente a su recuento y al de visitantes.
+Instead, we recommend that you "include background hits" in a [virtual report suite](../../components/vrs/vrs-about.md). Esto le permite ver las visitas, pero no afecta negativamente a su recuento y al de visitantes.
 Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
 Las clasificaciones sirven para categorizar los valores en grupos y realizar informes sobre el nivel del grupo. Por ejemplo, puede clasificar todas las campañas de Búsqueda pagada en una categoría como “términos de música pop” e informar sobre el éxito de esa categoría respecto a métricas como Instancias (o pulsaciones) y la conversión en eventos exitosos.
 
-| Clasificación | Definición |
+| Clasificación de | Definición |
 |--- |--- |
 | Fecha de primer lanzamiento | Fecha del primer inicio tras la instalación o reinstalación.   MM/DD/AAAA |
 | ID de la aplicación | Almacena el nombre y la versión de la aplicación en el siguiente formato:   `[AppName] [BundleVersion]`  Por ejemplo, `myapp 1.1.` |
