@@ -5,7 +5,7 @@ seo-title: Espacios de nombres
 title: Espacios de nombres
 uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 A cada ID al que desee permitir búsquedas se le asigna un área de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
 
-La cadena de espacio de nombres se utiliza para identificar los campos en los que se desea buscar al proporcionar un ID como parte de una solicitud de privacidad de datos. Cuando se envía una solicitud de privacidad de datos, la solicitud incluye una sección JSON que especifica los ID del sujeto de datos que se utilizarán para la solicitud. Se pueden incluir varios ID como parte de una sola solicitud para un interesado. En el JSON se incluye lo siguiente:
+La cadena del área de nombres se emplea para identificar los campos en los que desea buscar al proporcionar un ID como parte de una solicitud de privacidad de datos. Cuando se envía una solicitud de privacidad de datos, la solicitud incluirá una sección de JSON en la que se especifican los ID de los interesados que se utilizarán para la solicitud. Se pueden incluir varios ID como parte de una sola solicitud para un interesado. En el JSON se incluye lo siguiente:
 
 * Un campo “namespace” que contiene la cadena del área de nombres.
 * Un campo “type” que, en la mayoría de las solicitudes de Adobe Analytics, contiene el valor “analytics”.
 * Un campo “value” que contiene el ID que Analytics debería buscar en las variables de área de nombres asociadas de cada uno de sus grupos de informes.
 
-Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) for more details.
+Consulte la [documentación de la API de privacidad de datos de Experience Cloud](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) para obtener más información.
 
 <!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
 
@@ -68,9 +68,7 @@ El valor debe especificarse como un número decimal de 38 dígitos. Si obtiene e
 
 También se puede utilizar `"namespaceId": 4` en lugar de o además de `"namespace": "ECID"` y es posible que vea que otros productos de Adobe utilizan ese formulario.
 
->[!NOTE]
->
->Experience Cloud ID (ECID) se conocía antes como Marketing Cloud ID (MCID) y aún se hace referencia a él con ese nombre en partes de la documentación publicada.
+> [!NOTE] Experience Cloud ID (ECID) se conocía antes como Marketing Cloud ID (MCID) y aún se hace referencia a él con ese nombre en partes de la documentación publicada.
 >
 >Estos ID son los únicos que Analytics admite cuyo valor de “type” es distinto de “analytics”.
 
@@ -78,7 +76,7 @@ Si el formato de la parte de valor de cualquiera de estos ID de cookies no sigue
 
 Lo habitual es que recopile estos ID de cookie mediante el nuevo código de [JavaScript de privacidad](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm) (vínculo a la documentación técnica), que proporcionará automáticamente todos los pares clave/valor para estos ID de JSON.
 
-Este código JavaScript rellena el JSON con otros pares de clave/valor además de los enumerados anteriormente (espacio de nombres, tipo, valor), pero los campos enumerados arriba son los más importantes para el procesamiento de la privacidad de datos de Analytics y los únicos que debe proporcionar si recopila los ID de otra manera.
+Este código de JavaScript rellena el JSON con otros pares clave/valor además de los indicados arriba (área de nombres, tipo, valor), pero los campos que verá arriba son los más importantes para el tratamiento de la privacidad de datos de Analytics y los únicos que tendrá que proporcionar si recopila los ID con cualquier otro método.
 
 ## ID de visitante personalizado
 
