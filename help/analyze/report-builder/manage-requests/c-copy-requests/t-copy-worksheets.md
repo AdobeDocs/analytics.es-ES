@@ -5,9 +5,9 @@ seo-title: Copiar hojas de cálculo
 solution: Analytics
 title: Copiar hojas de cálculo
 topic: Creador de informes
-uuid: 817 b 8 c 7 e -26 bd -41 a 0-a 5 bb-ff 12 e 5246 e 03
+uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
