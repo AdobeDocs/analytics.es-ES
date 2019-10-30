@@ -8,8 +8,8 @@ subtopic: Complementos
 title: getQueryParam
 topic: Desarrollador e implementación
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Devuelve el valor de un parámetro de cadena de consulta especificado, si se enc
 
 Una vez instalado en el código de [!DNL AppMeasurement] para JavaScript, el complemento se configura seleccionando una variable de [!DNL Analytics] que se rellenará con datos encontrados en la cadena de consulta y especificando qué valores de la cadena de consulta se van a capturar. El complemento detecta la cadena de consulta especificada, si está presente, y rellena la variable seleccionada con su valor. Si no se encuentra un parámetro de cadena de consulta con ese valor, se devuelve una cadena vacía. Si existe un parámetro de cadena de consulta pero no dispone de un valor (como param1 en `?param1&param2=value`), se devolverá el valor *`true`*.
 
->[!NOTE]
->
->El código base para el complemento debe estar instalado en el código de [!DNL AppMeasurement] para JavaScript para que los ejemplos siguientes funcionen.
+> [!NOTE] El código base para el complemento debe estar instalado en el código de [!DNL AppMeasurement] para JavaScript para que los ejemplos siguientes funcionen.
 
 Si desea utilizar *`s.campaign`* para capturar los códigos de seguimiento de campaña disponibles como valores del parámetro de consulta *`cid`*, debe introducir lo siguiente en la función *`doPlugins()`* de [!DNL AppMeasurement] para el código de JavaScript:
 
@@ -34,9 +32,7 @@ Si desea utilizar *`s.campaign`* para capturar los códigos de seguimiento de ca
 
 En este ejemplo, si el usuario llegó a una página de aterrizaje de un sitio cuya URL era [!DNL https://www.yoursite.com/index.html?cid=123456], entonces *`s.campaign`* tendría el valor *123456*. Esto puede verse con el depurador [!DNL DigitalPulse], que debería mostrar *v0=123456* como parte de la solicitud de imagen.
 
->[!NOTE]
->
->El parámetro *`cid`* y demás se utilizan como ejemplos. Puede sustituirlos por cualquier parámetro de cadena de consulta que exista en el sitio.
+> [!NOTE] El parámetro *`cid`* y demás se utilizan como ejemplos. Puede sustituirlos por cualquier parámetro de cadena de consulta que exista en el sitio.
 
 El complemento *`getQueryParam`* tiene dos argumentos adicionales (opciones) que se pueden usar para capturar datos en variables de Analytics:
 
@@ -74,9 +70,7 @@ La etiqueta “f” debe usarse en este tercer argumento con marcos si el parám
 
 Si se utilizan marcos y el parámetro *f*, es recomendable usar el complemento *`getValOnce`* para evitar que el código de seguimiento de campaña se envíe con cada vista de página.
 
->[!NOTE]
->
->Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+> [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 **Código de complemento**
 
