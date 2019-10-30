@@ -4,10 +4,10 @@ seo-description: Informe de rutas que proporciona un análisis detallado de las 
 seo-title: Página anterior
 solution: Analytics
 title: Página anterior
-topic: 'Informes '
-uuid: 743 d 9931-25 ed -4782-a 10 a-da 25 c 4 f 89480
+topic: Informes
+uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,7 +36,7 @@ Por ejemplo: puede que desee saber de dónde provienen las personas que visitaro
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ad Hoc Analysis </td> 
+   <td colname="col1"> Ad Hoc Analysis  </td> 
    <td colname="col2"> Un informe de flujo. Puede especificar la dirección en la interfaz y ejecutar el informe a nivel de varias visitas o de una visita. </td> 
   </tr> 
  </tbody> 
