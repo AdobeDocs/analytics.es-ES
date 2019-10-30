@@ -1,20 +1,20 @@
 ---
 description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.usePlugins
 
-If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.'
+Si la función está disponible y contiene código útil, [!UICONTROL s_usePlugins] debe configurarse como “true”.
 
-Cuando [!UICONTROL usePlugins] es 'true', se llama a la *`s_doPlugins`* función antes de cada solicitud de imagen.
+Cuando [!UICONTROL usePlugins] tiene el valor “true”, se llama a la función *`s_doPlugins`* antes de cada solicitud de imagen.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
@@ -38,8 +38,8 @@ s.usePlugins=true
 s.usePlugins=false
 ```
 
-La variable [!UICONTROL usePlugins] solo debe ser false (o no declararse) si la función *`s_doPlugins`* function is not declared in your JavaScript file.
+La variable [!UICONTROL usePlugins] solo debe ser false (o no declarada) si la función *`s_doPlugins`* no está declarada en el archivo JavaScript.
 
 ## Parámetros de configuración
 
-Ninguno.
+Ninguna
