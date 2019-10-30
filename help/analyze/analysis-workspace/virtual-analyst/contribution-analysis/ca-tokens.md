@@ -1,24 +1,24 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Información general sobre el análisis de contribución
-title: Información general sobre el análisis de contribución
-uuid: 2 bd 295 b 0-c 5 ce -4443-86 af -024 efd 20 c 021
+seo-title: Resumen de los análisis de contribución
+title: Resumen de los análisis de contribución
+uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: d3aecc01bc490018c3878f0f6c4dbd621ad35a01
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Información general sobre el análisis de contribución
+# Resumen de los análisis de contribución
 
 Análisis de contribución descubre patrones ocultos en sus datos para explicar las anomalías estadísticas e identificar correlaciones tras acciones de cliente inesperadas, valores que sobrepasan el límite y picos o caídas repentinos de métricas seleccionadas en segmentos de audiencia convergentes.
 
-Algo ha sucedido. ¿Por qué? Su informe Detección de anomalías muestra un pico inusual en los pedidos y desea saber por qué. ¿Qué ha pasado fuera de lo normal? ¿Quién está respondiendo a qué campaña o referencia? ¿Algo se ha hecho viral? ¿Qué factores específicos han contribuido a esta anomalía? Y quizá lo más importante: ¿cómo puedo capturar información importante acerca de mi cliente y repetir este comportamiento? (O, si se ha producido una caída en una métrica o subida en una métrica negativa,¿cómo puedo evitarla en el futuro?)
+Algo pasó. ¿Por qué? Su informe Detección de anomalías muestra un pico inusual en los pedidos y desea saber por qué. ¿Qué ha pasado fuera de lo normal? ¿Quién está respondiendo a qué campaña o referencia? ¿Algo se ha hecho viral? ¿Qué factores específicos han contribuido a esta anomalía? Y quizá lo más importante: ¿cómo puedo capturar información importante acerca de mi cliente y repetir este comportamiento? (O, si se produce un descenso en una métrica o un aumento en una métrica negativa, ¿cómo puedo evitarla en el futuro?)
 
 Análisis de contribución le ayuda a evaluar los datos inmediatamente para saber por qué se ha producido una anomalía. Desglosa las contribuciones en anomalías en cuestión de segundos, algo que tardaba semanas, proporcionando patrones para segmentos de audiencia y ayudando a desarrollar un diálogo para las interacciones con el cliente. Puede utilizar el análisis de contribución de forma estratégica para identificar y capturar asociaciones significativas y desarrollar nuevos segmentos de audiencia, o utilizarlo de forma táctica para identificar actividades que sobrepasen el límite o actividades fraudulentas que activen una alerta.
 
-[Detección de anomalías](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifica picos de datos y caídas estadísticas pronunciadas basándose en métricas y segmentos de audiencia concretos. Establece una norma histórica basada en un período de prueba y, a continuación, representa desplazamientos extremos correlacionados con eventos específicos. Puede realizar un informe sobre un aumento abrupto en una métrica positiva de pedidos o un aumento en una métrica negativa de devoluciones, o caídas en ambas, capturando puntos de datos estadísticamente relevantes para ser evaluados por un análisis de contribución. Una vez identificada una anomalía estadística, el análisis de contribución le permite desglosar y evaluar variables de marketing y de campaña relevantes en todos los puntos de datos anómalos. Ejecuta algoritmos avanzados y procesos de aprendizaje automático para evaluar asociaciones que hayan contribuido a un pico o caída significativo. Estos los cálculos se muestran en visualizaciones interactivas diseñadas para ofrecerle distintas perspectivas que ayudan a responder por qué sucedieron algo y qué hacer al respecto.
+[Detección de anomalías](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifica picos de datos y caídas estadísticas pronunciadas basándose en métricas y segmentos de audiencia concretos. Establece una norma histórica basada en un período de prueba y, a continuación, representa desplazamientos extremos correlacionados con eventos específicos. Puede realizar un informe sobre un aumento abrupto en una métrica positiva de pedidos o un aumento en una métrica negativa de devoluciones, o caídas en ambas, capturando puntos de datos estadísticamente relevantes para ser evaluados por un análisis de contribución. Una vez identificada una anomalía estadística, el análisis de contribución le permite desglosar y evaluar variables de marketing y de campaña relevantes en todos los puntos de datos anómalos. Ejecuta algoritmos avanzados y procesos de aprendizaje automático para evaluar asociaciones que hayan contribuido a un pico o caída significativo. Estos a continuación, los cálculos se muestran en visualizaciones interactivas diseñadas para ofrecerle perspectivas variables que le ayudarán a responder por qué sucedió algo y qué hacer al respecto.
 
 El análisis de contribución le ayuda a desarrollar un diálogo para describir por qué se ha producido una anomalía y cómo responder a ella, capturando métricas relevantes e identificando puntos ocultos que le darán una razón general para las interacciones de la audiencia y las tendencias en los intereses de los clientes. Algunas veces las anomalías son fáciles de ver y corregir, como un pedido aislado de 2000 kayaks. Por el contrario, otras veces es difícil, como identificar una tendencia emergente a lo largo de un período de tiempo en una región que solo reacciona a una determinada campaña con objetivo. Unir elementos de contribución en métricas para varias dimensiones y sus asociaciones le proporciona una idea general de las interacciones de su audiencia y le ayuda a proporcionar contexto a los puntos de datos anómalos.
 
@@ -36,13 +36,13 @@ Después del análisis completo de una anomalía, se genera un resumen de contri
 
 >[!IMPORTANT]
 >
->El análisis de contribución se ha eliminado del conjunto de funciones de Informes y análisis y ahora solo está disponible mediante Analysis Workspace.
+>El análisis de contribución se ha eliminado del conjunto de funciones de Informes y análisis y ahora solo está disponible a través de Analysis Workspace.
 
 Los clientes que tengan algún derecho de Análisis de contribución pueden ejecutar análisis de contribución completos tantas veces al mes como deseen en Analysis Workspace. Quedan **excluidos** los clientes de producto específico (SiteCatalyst 15), los de Analytics Foundation y los de Analytics Select, que en ningún caso tienen acceso a la función Análisis de contribución.
 
 El número de ejecuciones por empresa está limitado por los tokens mensuales, que se conceden según el producto de Adobe Analytics que la empresa haya adquirido. También se puede restringir el acceso a Análisis de contribución para evitar un uso indebido de los tokens.
 
-## Preguntas más frecuentes {#section_11D0431AD2014B96AB9561CA66A367CE}
+## Preguntas frecuentes {#section_11D0431AD2014B96AB9561CA66A367CE}
 
 <table id="table_357775E5058644099E26B15A6790E8AF"> 
  <thead> 
@@ -54,11 +54,11 @@ El número de ejecuciones por empresa está limitado por los tokens mensuales, q
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>¿Por qué Adobe ha introducido los tokens?</b> </p> </td> 
-   <td colname="col2"> <p>Análisis de contribución ha sido una de las funciones más aclamadas de Adobe Analytics desde su lanzamiento en 2015. Al permitirle realizar un número pequeño de ejecuciones “completas” al mes (en lugar de ofrecerle únicamente 3 dimensiones para algunos productos de Analytics), podrá ver mejor las ventajas que aporta un análisis de contribución completo e ilimitado. </p> </td> 
+   <td colname="col2"> <p>Análisis de contribución ha sido una de las funciones más aclamadas de Adobe Analytics desde su lanzamiento en 2015. Al ofrecerle un pequeño número de ejecuciones "completas" por mes (en lugar de solo 3 dimensiones para algunos productos de Analytics), podrá ver mejor lo que puede hacer por usted un análisis de contribución completo e ilimitado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>¿Cómo funciona la creación de tokens en Análisis de contribución? ¿Hay que pagar un token para cargar un proyecto con un análisis de contribución existente o solo cuando se ejecuta uno nuevo?</b> </p> </td> 
-   <td colname="col2"> <p>Cada empresa (y no cada usuario) recibe un número determinado de tokens al mes, lo cual le permite ejecutar un análisis de contribución “completo” en Analysis Workspace. </p> <p>Siempre que se genera un nuevo análisis de contribución, hay que pagar un token. Cargar proyectos con análisis de contribución previamente ejecutados no cuesta ningún token. </p> </td> 
+   <td colname="col2"> <p>Cada empresa de inicio de sesión (no cada usuario) obtiene un determinado número de testigos por mes, lo que le permite ejecutar un análisis de contribución "completo" en Analysis Workspace. </p> <p>Siempre que se genera un nuevo análisis de contribución, hay que pagar un token. Cargar proyectos con análisis de contribución previamente ejecutados no cuesta ningún token. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>¿Se aplican tokens al análisis de contribución en Reports &amp; Analytics?</b> </p> </td> 
@@ -70,7 +70,7 @@ El número de ejecuciones por empresa está limitado por los tokens mensuales, q
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>¿Cómo se restringe el acceso a Análisis de contribución?</b> </p> </td> 
-   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. Debe autorizar el uso de Análisis de contribución solo para usuarios que tengan una razón legítima para usarla y que no harán malgastar su acceso. </p> <p>El permiso se denomina “Análisis de contribución”, en <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar el acceso a todos los informes</span> &gt; <span class="uicontrol">Personalizar las herramientas del grupo de informes</span> &gt; <span class="uicontrol">Herramientas e informes</span></span>. </p> </td> 
+   <td colname="col2"> <p>De forma predeterminada, solo los administradores tienen acceso para ejecutar los análisis de contribución, pero pueden otorgar acceso a otros usuarios creando un grupo de permisos en la <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Consola de administración </a>. Debe dar permiso para usar el análisis de contribución solo a los usuarios que tengan una razón legítima para utilizarlo y en los que se confíe que no abusen de su acceso. </p> <p>El permiso se denomina “Análisis de contribución”, en <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar el acceso a todos los informes</span> &gt; <span class="uicontrol">Personalizar las herramientas del grupo de informes</span> &gt; <span class="uicontrol">Herramientas e informes</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>¿Cómo puedo saber de cuántos tokens al mes dispone mi empresa y qué cantidad hemos usado en el mes actual?</b> </p> </td> 
@@ -86,7 +86,7 @@ A continuación encontrará una lista detallada de los derechos de Detección de
 
 >[!IMPORTANT]
 >
->Las características Detección de anomalías y Análisis de contribución se han eliminado del conjunto de funciones de Reports &amp; Analytics, y ahora solo están disponibles en Analysis Workspace. Tenga en cuenta que los clientes de Adobe Analytics Select y Adobe Analytics Foundation solo tienen acceso a la Detección de anomalías de “granularidad diaria” en Workspace.
+>Las características Detección de anomalías y Análisis de contribución se han eliminado del conjunto de funciones de Reports &amp; Analytics, y ahora solo están disponibles en Analysis Workspace. Tenga en cuenta que los clientes de Adobe Analytics Select y Adobe Analytics Foundation solo tienen acceso a la detección de anomalías de "granularidad diaria" en Workspace.
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
