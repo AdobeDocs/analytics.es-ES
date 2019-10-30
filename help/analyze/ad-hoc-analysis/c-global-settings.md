@@ -3,7 +3,7 @@ description: Configurar las opciones globales de comportamiento. Por ejemplo, se
 seo-description: Configurar las opciones globales de comportamiento. Por ejemplo, se puede configurar el guardado automático, las opciones de gráficos y tablas y especificar la fuente y la configuración regional.
 seo-title: Configuración
 title: Configuración
-uuid: 34444052-479 b -4923-b 379-a 03 ca 614 bf 3 e
+uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
