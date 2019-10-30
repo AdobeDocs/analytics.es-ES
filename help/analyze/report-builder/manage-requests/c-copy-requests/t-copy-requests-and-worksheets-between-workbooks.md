@@ -1,18 +1,18 @@
 ---
 description: Se puede copiar una hoja de cálculo completa de un libro de origen en una hoja de cálculo de uno o varios libros de destino.
 seo-description: Se puede copiar una hoja de cálculo completa de un libro de origen en una hoja de cálculo de uno o varios libros de destino.
-seo-title: Copia de solicitudes y hojas de cálculo entre libros
+seo-title: Copiar solicitudes y hojas de cálculo entre libros
 solution: Analytics
-title: Copia de solicitudes y hojas de cálculo entre libros
+title: Copiar solicitudes y hojas de cálculo entre libros
 topic: Creador de informes
-uuid: 6 b 2 c 4259-d 8 cb -430 e -819 f -38 e 213 dd 2661
+uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Copia de solicitudes y hojas de cálculo entre libros
+# Copiar solicitudes y hojas de cálculo entre libros
 
 Se puede copiar una hoja de cálculo completa de un libro de origen en una hoja de cálculo de uno o varios libros de destino.
 
