@@ -5,9 +5,9 @@ seo-title: Controles interactivos
 solution: Analytics
 title: Controles interactivos
 topic: Creador de informes
-uuid: 5 f 324 b 61-e 032-455 e -9947-5037 f 013 e 0 fa
+uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,9 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 
 >[!IMPORTANT]
 >
->Debe tener instalado el Creador de informes v 5.0 para que funcionen los controles interactivos. &gt;
->* Si ejecuta Microsoft Excel en Windows pero ejecuta una versión anterior del Creador de informes, o si no tiene el Creador de informes instalado: puede cambiar el valor en el control interactivo pero no se actualizará en la solicitud asociada, ni se actualizarán los parámetros asociados a la solicitud.
->* Si ejecuta Excel en Mac y cambia el valor en el control provocará que se muestre el siguiente mensaje: "No se encuentra la macro 'Adobe.ReportBuilder.Bridge.FormControlClick.Event'".
+>Debe tener el Creador de informes v5.0 instalado para que funcionen los controles interactivos. &gt;
+>* Si ejecuta Microsoft Excel en Windows pero ejecuta una versión inferior del creador de informes o si no tiene instalado el creador de informes: Puede cambiar el valor en el control interactivo, pero no actualizará la solicitud asociada ni los parámetros asociados de la solicitud.
+>* Si ejecuta Excel en Mac, al cambiar el valor en el control se mostrará el siguiente mensaje: "No se encuentra la macro 'Adobe.ReportBuilder.Bridge.FormControlClick.Event'."
 >
 
 
@@ -45,7 +45,7 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 
    ![](assets/control_settings.png)
 
-1. Tenga en cuenta la opción para "Actualizar automáticamente las solicitudes vinculadas al seleccionar el elemento".
+1. Observe la opción para "Actualizar automáticamente las solicitudes vinculadas al seleccionar elementos".
 
    * Si esta opción está activada, se actualizan todas las solicitudes que utilizan este control.
    * Si no está activada, los parámetros de solicitud asociados se actualizan, pero la solicitud no se actualiza.
@@ -57,13 +57,13 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 1. Ahora puede cambiar el intervalo de fechas y la solicitud se actualizará con ese intervalo de fechas.
 1. También puede copiar la solicitud y hacer clic con el botón derecho para utilizar una de las dos opciones de Pegar solicitud:
 
-   * **[!UICONTROL Pegar solicitud]** &gt; **[!UICONTROL Utilizar celda de entrada absoluta]**. Esto significa que la solicitud copiada señalará al mismo control de fecha interactivo que la solicitud original.
+   * **[!UICONTROL Pegar solicitud]** &gt; **[!UICONTROL Usar celda]** de entrada absoluta. Esto significa que la solicitud copiada señalará al mismo control de fecha interactivo que la solicitud original.
 
-   * **[!UICONTROL Pegar solicitud]**&gt; **[!UICONTROL Utilizar celda de entrada relativa]**. Esto significa que la solicitud copiada señalará a su propio control.
+   * **[!UICONTROL Pegar solicitud]**&gt; **[!UICONTROL Usar celda]** de entrada relativa. Esto significa que la solicitud copiada señalará a su propio control.
 
       >[!NOTE]
       >
-      >Puede utilizar la funcionalidad de control nativa de Cortar/Copiar/Pegar de Microsoft Excel. El Creador de informes reconoce automáticamente los controles recientemente añadidos.
+      >Puede utilizar la funcionalidad de control nativo de cortar/copiar/pegar de Microsoft Excel. El Creador de informes reconoce automáticamente los controles recientemente añadidos.
 
 ## Implement interactive segment control {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
