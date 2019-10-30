@@ -1,11 +1,11 @@
 ---
 description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,9 @@ La variable *`linkLeaveQueryString`* determina si la cadena de consulta debe inc
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |--- |--- |--- |--- |
-| N.D. | N.D. | Descargas de archivos de vínculos de salida | false |
+| N.D. | N.D. | Descargas de archivos a través de vínculos de salida | false |
 
->[!NOTE]
->
->Setting `linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
+> [!NOTE] La configuración `linkLeaveQueryString=true` incluye todos los parámetros de cadena de consulta de todos los vínculos de salida y de descarga.
 
 ## Sintaxis
 
@@ -60,5 +58,5 @@ No es necesaria ninguna configuración para esta variable.
 
 ## Problemas, preguntas y consejos
 
-* Setting `s.linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
-* The `linkLeaveQueryString` variable does not affect recorded page URLs, visitor click map, or [!UICONTROL Path] reports.
+* La configuración `s.linkLeaveQueryString=true` incluye todos los parámetros de cadena de consulta de todos los vínculos de salida y de descarga.
+* La variable `linkLeaveQueryString` no afecta a los informes de direcciones URL de página registradas, mapa de clics de visitantes o [!UICONTROL Rutas].
