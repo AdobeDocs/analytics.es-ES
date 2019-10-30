@@ -5,9 +5,9 @@ seo-title: Facturación
 solution: Analytics
 title: Facturación
 topic: Herramientas de administración
-uuid: ad 6 ee 1 c 4-d 317-4320-a 36 e-ee 966 c 8 f 145 e
+uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La página Facturación permite acceder a la información de facturación, que contiene los detalles de tráfico correspondientes a cada grupo de informes. Solo los administradores autorizados tienen acceso a esta página.
 
->[!NOTE]
->
->Si el acceso a la ficha Facturación está deshabilitado para su empresa, comuníquese con el administrador de cuentas.
+> [!NOTE] Si su empresa ha deshabilitado el acceso a la ficha de facturación, póngase en contacto con el administrador de cuentas.
 
 Los datos de información general del tráfico de la página de facturación permiten establecer una correlación entre los datos de vistas de página de los informes y las llamadas al servidor facturables incluidas en la factura. La página [!UICONTROL Facturación] permite lo siguiente:
 
@@ -44,9 +42,7 @@ El informe de [!UICONTROL facturación mensual] resultante incluirá la siguient
 | Vínculos personalizados | Vínculos personalizados totales por cada grupo de informes. Puede confirmar los valores de vínculos personalizados en Contenido del sitio &gt; Vínculos &gt; Vínculos personalizados. |
 | Vínculos de salida | Vínculos de salida totales por cada grupo de informes. Puede confirmar los valores de vínculos de salida en Contenido del sitio &gt; Vínculos &gt; Vínculos de salida. |
 
->[!NOTE]
->
->To obtain a working copy of the [!UICONTROL Monthly Invoice] report, copy it onto your clipboard, then paste it into a spreadsheet program such as Microsoft Excel*.
+> [!NOTE] Para obtener una copia de trabajo del informe Factura  mensual, cópielo en el portapapeles y péguelo en un programa de hojas de cálculo como Microsoft Excel*.
 
 ## Fecha de informes vs. Fecha de procesamiento {#section_51A48C2F223F4904BE1407C13333C457}
 
