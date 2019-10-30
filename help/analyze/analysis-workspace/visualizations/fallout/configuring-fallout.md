@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Configurar una visualización de visitas en el orden previsto
-title: Configurar una visualización de visitas en el orden previsto
-uuid: fc 117745-baf 3-46 fb -873 d -9307092 cc 337
+seo-title: Configurar una visualización de abandonos
+title: Configurar una visualización de abandonos
+uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 6ab75012df1bfae16f4ccf86488610b003e4f9b2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configurar una visualización de visitas en el orden previsto
+# Configurar una visualización de abandonos
 
 Puede especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional. Normalmente, un punto de contacto es una página de su sitio web. Sin embargo, los puntos de contacto no están limitados a páginas. Por ejemplo, puede añadir eventos, como unidades, así como visitantes únicos y visitas de retorno. También puede añadir dimensiones, como categoría, tipo de navegador o término de búsqueda interno.
 
@@ -18,7 +18,7 @@ Incluso puede añadir segmentos dentro de un punto de contacto. Por ejemplo, es 
 
 No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
 
-Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos, camiseta en una página y en la siguiente mira camiseta,calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
+Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos, camiseta en una página y en la siguiente está mirando camiseta, calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
 1. Arrastre una visualización de [!UICONTROL visitas en el orden previsto] de la lista desplegable Visualizaciones a una [!UICONTROL tabla improvisada].
 
@@ -38,7 +38,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 
    >[!NOTE]
    >
-   >Los segmentos múltiples se unen con AND, pero se unen con OR varios elementos como elementos de dimensión y métricas.
+   >Varios segmentos se unen con Y, pero varios elementos como elementos de dimensión y métricas se unen con O.
 
    ![](assets/multiple_obj_touchpoint.png)
 
