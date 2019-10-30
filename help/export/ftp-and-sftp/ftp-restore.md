@@ -1,18 +1,18 @@
 ---
 description: Adobe no puede restaurar ningún dato que se haya eliminado de una cuenta de FTP.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Adobe no puede restaurar ningún dato que se haya eliminado de una cuenta de FTP.
-seo-title: Restauración de datos de FTP y cuentas FTP eliminadas
+seo-title: Restauración de datos y cuentas de FTP eliminados
 solution: Analytics
-title: Restauración de datos de FTP y cuentas FTP eliminadas
-uuid: 79 bed 9 e 4-c 84 f -468 f-a 33 e -55 c 51 b 2 d 16 da
+title: Restauración de datos y cuentas de FTP eliminados
+uuid: 79bed9e4-c84f-468f-a33e-55c51b2d16da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Restauración de datos de FTP y cuentas FTP eliminadas
+# Restauración de datos y cuentas de FTP eliminados
 
 Adobe no puede restaurar ningún dato que se haya eliminado de una cuenta de FTP.
 
