@@ -4,8 +4,8 @@ seo-description: 'null'
 seo-title: Ejemplo de etiquetado
 title: Ejemplo de etiquetado
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
