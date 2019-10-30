@@ -1,20 +1,20 @@
 ---
 description: La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
 seo-description: La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
-seo-title: Ver el uso del grupo de informes
-title: Ver el uso del grupo de informes
-uuid: c 609 ed 99-9 acc -4023-905 a -81 a 40 dd 07 a 79
+seo-title: Ver uso del grupo de informes
+title: Ver uso del grupo de informes
+uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: a6aac17d93877ed2a6525484ba5aa4e741ca116a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ver el uso del grupo de informes
+# Ver uso del grupo de informes
 
 La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Uso de llamadas al servidor]** &gt; **[!UICONTROL Uso del grupo de informes]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Uso **[!UICONTROL de llamadas]** al servidor &gt; Uso de grupos **[!UICONTROL de informes]**
 
 >[!IMPORTANT]
 >
@@ -51,13 +51,13 @@ Esta opción permite descargar los datos de uso actual y datos de periodos anter
 
 | Elemento de informe | Descripción |
 |--- |--- |
-| Nombre del archivo | Hardcoded name: Usage Report `day and time of report creation.csv` |
+| Nombre del archivo | Nombre codificado: Informe de uso `day and time of report creation.csv` |
 | Grupos de informes incluidos | Cualquier grupo de informes que seleccione en la página Uso del servidor de informes se incluye en esta lista. |
 | Tipos de llamada incluidos | Especifique cualquier combinación de estas: Todas las llamadas (predeterminado), Primarias, Secundarias, Primarias móviles, Secundarias móviles. |
-| Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**Nota:** No puede descargar datos de uso anteriores a enero de 2015 </br>. |
+| Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**** Nota: No puede descargar datos de uso antes de enero de 2015 </br>. |
 
 1. Haga clic en **[!UICONTROL Descargar]**.
 
-Esta es una captura de pantalla del archivo. csv descargado. Incluye una columna para la ID del grupo de informes. La ID del grupo de informes especifica un ID exclusivo que solo puede contener caracteres alfanuméricos. Este ID no se puede cambiar después de crear un grupo de informes.
+A continuación se muestra una captura de pantalla del aspecto del archivo .csv descargado. Incluye una columna para la ID del grupo de informes. La ID del grupo de informes especifica una ID única que solo puede contener caracteres alfanuméricos. Esta ID no se puede cambiar después de crear un grupo de informes.
 
 ![](assets/download-usage.png)
