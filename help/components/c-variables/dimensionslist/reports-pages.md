@@ -4,10 +4,10 @@ seo-description: Clasifica las páginas del sitio según la cantidad de tráfico
 seo-title: Páginas
 solution: Analytics
 title: Páginas
-topic: 'Informes '
-uuid: 6435 e 262-e 734-4 c 15-af 5 b -173799 d 5 cc 43
+topic: Informes
+uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,8 +24,8 @@ Observe que, en Reports &amp; Analytics, las métricas sobre el informe de las p
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry">Informes y <p>análisis </p> </th> 
-   <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
+   <th colname="col2" class="entry">Informes &amp; <p>Analytics </p> </th> 
+   <th colname="col3" class="entry"> Ad Hoc Analysis  </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
    <th colname="col5" class="entry"> Analysis Workspace </th> 
   </tr>
@@ -49,7 +49,7 @@ Observe que, en Reports &amp; Analytics, las métricas sobre el informe de las p
    <td colname="col1"> Límites de valores </td> 
    <td colname="col2"> <p>Primeras 500000 visitas únicas por mes + nuevos valores con tráfico </p> </td> 
    <td colname="col3"> <p>Primeras 500000 visitas únicas por mes + nuevos valores con tráfico </p> </td> 
-   <td colname="col4"> Ninguno </td> 
+   <td colname="col4"> Ninguna </td> 
    <td colname="col5"> <p>Primeras 500000 visitas únicas por mes + nuevos valores con tráfico </p> </td> 
   </tr> 
   <tr> 
