@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Habilitar grupo de informes para análisis de publicidad
-title: Habilitar grupo de informes para análisis de publicidad
-uuid: 934 f 0 e 02-b 5 d 7-4 eca -93 d 8-92 f 95 bd 7014 a
+seo-title: Activación de un grupo de informes para Advertising Analytics
+title: Activación de un grupo de informes para Advertising Analytics
+uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Habilitar grupo de informes para análisis de publicidad
+# Activación de un grupo de informes para Advertising Analytics
 
-Para ver cualquier dato de búsqueda de Análisis de publicidad en Analytics, debe configurar cada grupo de informes de Experience Cloud para los informes de Advertising Analytics.
+Para ver los datos de búsqueda de Análisis de publicidad en Analytics, debe configurar cada grupo de informes asignado a Experience Cloud para los informes de Análisis de publicidad.
 
 1. [Asigne su grupo de informes a una organización](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html).
 1. Navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
@@ -24,7 +24,7 @@ Para ver cualquier dato de búsqueda de Análisis de publicidad en Analytics, de
 
    >[!IMPORTANT]
    >
-   >AMO ID hace referencia a la variable de Adobe Advertising Cloud en la que se van a insertar los datos de búsqueda.
+   >El ID de AMO se refiere a la variable de Adobe Advertising Cloud en la que se van a insertar los datos de búsqueda.
 
 1. Establezca las variables de asignación y caducidad que desea que utilice la variable de AMO ID. Las variables de conversión (eVars) permiten que Adobe Analytics atribuya eventos de éxito a valores específicos de variables. En ocasiones, las variables encuentran más de un valor antes de visitar un evento de éxito. Para estos casos, la asignación determina qué valor de variable recibe crédito por el evento.
 
