@@ -7,7 +7,7 @@ title: Resumen de Data Warehouse
 topic: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ El Data Warehouse comprime automáticamente cualquier archivo que supere 1 MB de
 
 El Data Warehouse pude procesar un número ilimitado de filas en una única solicitud para informes programados y descargados individuales.
 
->[!NOTE]
->
->El almacén de datos informa del primer valor encontrado en el período de la presentación de informes.
+> [!NOTE] El almacén de datos informa del primer valor encontrado en el período de la presentación de informes.
 
 >[!IMPORTANT]
 >
