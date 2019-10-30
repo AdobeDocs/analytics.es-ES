@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Preguntas frecuentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
    <td colname="col1"> <b>P: ¿Cómo sé si mis grupos de informes realizan personalización en el sitio o direccionamiento fuera o dentro del sitio?</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
-     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">Esto no se aplica al envío de datos de Adobe Analytics a Adobe Audience Manager. </li> 
+     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">No se aplican al envío de datos de Adobe Analytics a Adobe Audience Manager. </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">Pregúntese lo siguiente: ¿volverá a compartir un segmento ya compartido en Analytics con una dimensión MCA en Experience Cloud? </li> 
      <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">¿Va a realizar la exportación (por ejemplo, a través de fuentes de datos) a un sistema de inteligencia empresarial (BI) que se use para este propósito? </li> 
     </ul> </td> 
@@ -89,20 +89,20 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
    <td colname="col2"> <p>En casi cualquier parte; se las trata como cualquier otra dimensión recopilada en Analytics. Hay dos excepciones: de momento, los datos no estarán en Data Workbench o Livestream. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: ¿Por qué no veo los datos que pasan a través de Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Probablemente tenga en AAM un conflicto de controles de privacidad entre la fuente y el destino de los datos.. </p> </td> 
+   <td colname="col1"> <p><b>P: ¿Por qué no veo datos que llegan a Analytics?</b> </p> </td> 
+   <td colname="col2"> <p>Es probable que haya controles de privacidad de AAM en conflicto entre el origen y el destino de los datos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Por qué faltan en Analytics algunos de mis segmentos, aunque elegí enviarlos todos?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">Puede existir un conflicto entre los controles de exportación de datos de AAM del destino y de las fuentes de datos del segmento que impida el envío de determinados segmentos. </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">Los controles de exportación de datos de AAM en el destino y en las fuentes de datos de los segmentos pueden estar en conflicto, lo que impide que se envíen determinados segmentos. </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">Si utiliza características de datos de terceros en sus segmentos, estos no pueden compartirse con destinos (grupos de conjuntos de informes) que contengan datos personales. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Por qué veo "Se ha alcanzado el límite de audiencias" en mi informe de Analytics? (Nota: esto también se representará como ID de audiencia = -1 y "::max_audiences_expanded::" en el almacén de datos)</b> </p> </td> 
-   <td colname="col2"> <p>De forma predeterminada, la integración de Audience Analytics para AAM envía a Analytics, para cada visita, todos los segmentos a los que el visitante pertenece. Si un visitante pertenece a más de 150 segmentos de AAM en una sola visita, se envían a Analytics los <b>150 segmentos para los que se ha obtenido cualificación más recientemente</b> y el resto se trunca. </p> <p>Se envía a Analytics un marcador adicional que indica que la lista de segmentos se ha truncado y se muestra “Alcanzado límite de audiencias” en la dimensión Nombre de audiencia y “-1” en la dimensión ID de audiencia. </p> <p>Aunque es poco probable que un visitante esté cualificado para pertenecer a más de 150 segmentos en una visita particular, puede suceder en un pequeño número de ocasiones. Si el mensaje “Alcanzado límite de audiencias” aparece en su informe, tiene dos opciones: </p> 
+   <td colname="col2"> <p>De forma predeterminada, la integración de Audience Analytics para AAM envía a Analytics, para cada visita, todos los segmentos a los que el visitante pertenece. Si un visitante pertenece a más de 150 segmentos de AAM en una sola visita, se envían a Analytics los <b>150 segmentos para los que se ha obtenido cualificación más recientemente</b> y el resto se trunca. </p> <p>Se envía a Analytics un indicador adicional que indica que la lista de segmentos se ha truncado y se muestra como "Alcanzado límite de audiencia" en la dimensión Nombre de audiencia y "-1" en la dimensión ID de audiencia. </p> <p>Aunque es poco probable que un visitante esté cualificado para pertenecer a más de 150 segmentos en una visita particular, puede suceder en un pequeño número de ocasiones. Si experimenta el "Límite de audiencias alcanzado" en los informes, tiene dos opciones: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>Opción 1</b>: permita que la integración siga funcionando del modo predeterminado, con el envío de los 150 segmentos para los que un visitante particular ha obtenido cualificación más recientemente. </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>Opción 2</b>: en AAM, escoja para la integración los 150 segmentos más relevantes para su negocio. AAM comprobará la adecuación de los visitantes a estos 150 segmentos. La desventaja de este enfoque es que solo recibirá estos 150 segmentos para todos los visitantes. Por su parte, la opción 1 puede ofrecer segmentos ilimitados, ya que la integración se produce por visita. </li> 
@@ -124,7 +124,7 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
    <td colname="col2"> <p>Sí. En la configuración de destinos de AAM solo verá los grupos de informes que tengan activado el reenvío de servidor. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: ¿Por qué no puedo activar el reenvío de servidor para determinados grupos de informes en Administración de Analytics?</b> </p> </td> 
+   <td colname="col1"> <p><b>P: ¿Por qué no puedo activar ciertos grupos de informes para SSF en Administración de Analytics?</b> </p> </td> 
    <td colname="col2"> <p>Solo se pueden habilitar los grupos asignados a su organización de Experience Cloud. </p> </td> 
   </tr> 
  </tbody> 
