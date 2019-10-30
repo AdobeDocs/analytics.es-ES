@@ -1,18 +1,18 @@
 ---
 description: Métodos para optimizar el servicio del Creador de informes y lista de mensajes de error que pueden producirse ocasionalmente.
 seo-description: Métodos para optimizar el servicio del Creador de informes y lista de mensajes de error que pueden producirse ocasionalmente.
-seo-title: Solución de problemas y prácticas recomendadas para el Creador de informes
+seo-title: Solución de problemas y prácticas recomendadas para el Report Builder
 solution: Analytics
-title: Solución de problemas y prácticas recomendadas para el Creador de informes
+title: Solución de problemas y prácticas recomendadas para el Report Builder
 topic: Creador de informes
-uuid: 36 a 08143-dc 78-40 f 5-9 ce 9-7 d 16980 aa 27 b
+uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Solución de problemas y prácticas recomendadas para el Creador de informes
+# Solución de problemas y prácticas recomendadas para el Report Builder
 
 Métodos para optimizar el servicio del Creador de informes y lista de mensajes de error que pueden producirse ocasionalmente.
 
@@ -24,7 +24,7 @@ Esto presenta un problema de compatibilidad avanzada: una vez actualice a la ver
 
 Experimentará el siguiente efecto secundario al abrir un libro ARB v5.1 con solicitud de clasificación:
 
-* Al abrir el libro, aparecerá la siguiente advertencia: "Este libro se guardó por última vez utilizando el Creador de informes v5.1. Esta versión ha introducido algunas funciones que son incompatibles con la versión del Creador de informes instalada en este equipo. Se recomienda que actualice el Creador de informes a la última versión antes de actualizar este libro".
+* Al abrir el libro, recibirá la siguiente advertencia: "Este libro se guardó por última vez con el Creador de informes v5.1. Esta versión ha introducido algunas funciones que no son compatibles con la versión del Creador de informes instalada en este equipo. Se recomienda actualizar a la versión más reciente del Creador de informes antes de actualizar este libro".
 * Si hace clic con el botón secundario en una solicitud ARB con clasificación, no se mostrarán los menús contextuales del Creador de informes (editar solicitud, agregar solicitud dependiente...).
 * Si ejecuta Actualizar todo, haciendo clic en el tercer botón o actualizando un grupo de solicitudes desde el formulario del Administrador de solicitudes, la solicitud de clasificación se ejecutará sin errores. No obstante, no se escribirán los valores de clasificación.
 * Aún puede editar la solicitud abriendo el Administrador de solicitudes; a continuación, avance fila a fila hasta que alcance la solicitud correcta.
@@ -85,7 +85,7 @@ La velocidad de procesamiento puede verse afectada por las siguientes configurac
 | Número de entradas | Conjunto de datos pequeño | Conjunto de datos grande |
 
 
-**Programación de la hora**
+**Tiempo de programación**
 
 Escalonar la programación en un periodo de 24 horas (ver la siguiente tabla). Programar marcadores, tableros y libros del Creador de informes existentes con muy poca diferencia horaria puede causar retrasos.
 
@@ -99,7 +99,7 @@ Programar solicitudes más grandes y más complejas por la mañana temprano para
 
 Todos los informes programados tienen un tiempo de espera de cuatro horas. El sistema intenta programar tres veces más, pero posiblemente se producirá un fallo. (Generalmente, cuanto más grandes sean los conjuntos de datos más tardarán en ejecutarse). Esto puede comprobarse en los informes de [!DNL Analytics] y en el Creador de informes:
 
-* [!DNL Analytics]: **[!UICONTROL Favoritos]** &gt; **[!UICONTROL Informes programados]**
+* [!DNL Analytics]:: **[!UICONTROL Favoritos]** &gt; Informes **[!UICONTROL programados]**
 
 * Creador de informes: haga clic en **[!UICONTROL Administración]**, en la ficha [!UICONTROL Complementos] de Excel.
 
@@ -107,9 +107,7 @@ Todos los informes programados tienen un tiempo de espera de cuatro horas. El si
 
 Lista de mensajes de error que se pueden producir ocasionalmente al utilizar el Creador de informes.
 
->[!NOTE]
->
->Esto es sólo una selección de mensajes de error y no una lista exhaustiva. Para obtener más información sobre la resolución de errores, póngase en contacto con su administrador.
+> [!NOTE] Se trata sólo de una selección de mensajes de error y no de una lista exhaustiva. Para obtener más información sobre la resolución de errores, póngase en contacto con su administrador.
 
 **Esta función solo se puede aplicar en un libro abierto.**
 
