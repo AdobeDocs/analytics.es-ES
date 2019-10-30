@@ -7,8 +7,8 @@ solution: Analytics
 title: Encabezados HTTP de recopilación de datos
 topic: Desarrollador e implementación
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,7 +27,7 @@ Los encabezados de solicitud y respuesta HTTP se usan para recopilar datos adici
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Leer cookies anteriormente creadas por nuestros servidores de recopilación de datos. </p> <p> A fecha de 2014, los servidores de Adobe descartarán cualquier cookie que acompañe a una llamada de servidor, excepto aquellas establecidas por Adobe. Consulte <a href="https://marketing.adobe.com/resources/help/es_ES/whitepapers/cookies/" format="https" scope="external">Cookies utilizadas en Experience Cloud</a> para obtener una lista completa de las cookies de Adobe. </p> </td> 
+   <td> <p>Leer cookies anteriormente creadas por nuestros servidores de recopilación de datos. </p> <p> A fecha de 2014, los servidores de Adobe descartarán cualquier cookie que acompañe a una llamada de servidor, excepto aquellas establecidas por Adobe. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Cookies utilizadas en Experience Cloud</a> para obtener una lista completa de las cookies de Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
@@ -88,9 +88,7 @@ Los encabezados de solicitud y respuesta HTTP se usan para recopilar datos adici
  </tbody> 
 </table>
 
->[!NOTE]
->
->Las implementaciones que usan variables dinámicas tienen la opción de leer en otros encabezados de solicitud HTTP no enumerados anteriormente.
+> [!NOTE] Las implementaciones que usan variables dinámicas tienen la opción de leer en otros encabezados de solicitud HTTP no enumerados anteriormente.
 
 ## Encabezados de respuesta HTTP {#section_A9C7035198C84037A21A8033CC408F0E}
 
@@ -110,6 +108,4 @@ Los encabezados de solicitud y respuesta HTTP se usan para recopilar datos adici
 | Content-Type | Especifica el tipo de contenido que se devuelve al cliente (GIF, texto, Javascript, etc.). |
 | Content-Length | Especifica el tamaño del contenido que se devuelve al cliente. |
 
->[!NOTE]
->
->Se pueden configurar otros encabezados HTTP en la respuesta de seguimiento del estado interno. Algunos de estos encabezados podrían devolverse al explorador, pero no es necesario que los reciban.
+> [!NOTE] Se pueden configurar otros encabezados HTTP en la respuesta de seguimiento del estado interno. Algunos de estos encabezados podrían devolverse al explorador, pero no es necesario que los reciban.
