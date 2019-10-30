@@ -1,13 +1,13 @@
 ---
 description: Es importante conocer los términos clave a la hora de usar la interfaz de Fuente de datos de análisis.
-keywords: Fuente de datos; términos; terminología; trabajo
+keywords: Fuente de datos;términos;terminología;trabajo
 seo-description: Es importante conocer los términos clave a la hora de usar la interfaz de Fuente de datos de análisis.
 seo-title: Terminología
 solution: Analytics
 title: Terminología
-uuid: 87368708-aaac -40 a 5-bd 00-b 0964 bcf 3507
+uuid: 87368708-aaac-40a5-bd00-b0964bcf3507
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
