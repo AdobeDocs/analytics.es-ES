@@ -1,14 +1,14 @@
 ---
 description: La tabla de búsqueda para determinar el tipo de visita basándose en el valor de page_event.
-keywords: Fuente de datos; page; event; page_ event; post_ page_ event
+keywords: Fuente de datos;página;evento;page_event;post_page_event
 seo-description: La tabla de búsqueda para determinar el tipo de visita basándose en el valor de page_event.
 seo-title: Búsqueda de eventos de página
 solution: Analytics
 title: Búsqueda de eventos de página
 topic: Reports and Analytics
-uuid: 73 af 597 c -5560-466 e -94 b 2-ddd 1 d 64797 c 8
+uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,17 +29,17 @@ La tabla de búsqueda para determinar el tipo de visita basándose en el valor d
   <tr> 
    <td colname="col1"> Vistas de páginas </td> 
    <td colname="col02"> el mismo que el posterior </td> 
-   <td colname="col2"> <p>0 para todas las vistas de página (llamadas <code>s.t()</code>) </p> <p>0 para las llamadas <code>trackState</code> desde los SDK para móviles. </p> </td> 
+   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 para las llamadas <code> trackState </code> desde los SDK para móviles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Seguimiento de vínculos </td> 
-   <td colname="col02"> <p>10 para "otro vínculo" </p> <p>10 para llamadas <code>trackAction</code> y del ciclo vital desde los SDK para móviles. </p> <p>11 para "vínculo de descarga" </p> <p>12 para "vínculo externo o de salida" </p> </td> 
-   <td colname="col2"> <p>100 para "otro vínculo" </p> <p>100 para llamadas <code>trackAction</code> y del ciclo vital desde los SDK para móviles. </p> <p>101 para "vínculo de descarga" </p> <p>102 para "vínculo externo o de salida" </p> </td> 
+   <td colname="col02"> <p>10 para "otro vínculo" </p> <p>10 para llamadas <code> trackAction </code> y del ciclo vital desde los SDK para móviles. </p> <p>11 para "vínculo de descarga" </p> <p>12 para "vínculo externo o de salida" </p> </td> 
+   <td colname="col2"> <p>100 para "otro vínculo" </p> <p>100 para llamadas <code> trackAction </code> y del ciclo vital desde los SDK para móviles. </p> <p>101 para "vínculo de descarga" </p> <p>102 para "vínculo externo o de salida" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Vídeo de hitos </td> 
    <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31: evento de inicio de recursos multimedia </p> <p>32: solo el evento de actualización de medios (no realiza ninguna evar ni el procesamiento de otra variable) </p> <p>33: evento de actualización de recursos multimedia + de otra variable (incluye eVar y el procesamiento de otra variable) </p> </td> 
+    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31: evento de inicio de recursos multimedia </p> <p>32: único evento de actualización de recursos multimedia (no realiza ninguna eVar ni el procesamiento de otra variable) </p> <p>33: evento de actualización de recursos multimedia + de otra variable (incluye eVar y el procesamiento de otra variable) </p> </td> 
    <td colname="col2"> 
     <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76: evento de inicio de recursos multimedia </p> <p>77: único evento de actualización de recursos multimedia (no realiza ninguna eVar ni el procesamiento de otra variable) </p> <p>78: evento de actualización de recursos multimedia + de otra variable (incluye eVar y el procesamiento de otra variable) </p> </td> 
   </tr> 
