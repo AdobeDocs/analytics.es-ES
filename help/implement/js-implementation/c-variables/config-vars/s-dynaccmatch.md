@@ -1,20 +1,20 @@
 ---
 description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.dynamicAccountMatch
 
-La variable utiliza el objeto DOM para recuperar la sección de la dirección URL donde se aplican todas las reglas de 
+La variable utiliza el objeto DOM para recuperar la sección de la dirección URL donde se aplican todas las reglas de
 
-This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' Como el valor predeterminado es [!DNL window.location.host], esta variable no es necesaria para que [!UICONTROL selección de cuentas dinámicas] funcione. For additional information, see [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+Esta variable solo es válida cuando *`dynamicAccountSelection`* está configurada en “True”. Como el valor predeterminado es [!DNL window.location.host], esta variable no es necesaria para que [!UICONTROL selección de cuentas dinámicas] funcione. Para obtener más información, consulte [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
 Las reglas encontradas en `dynamicAccountList` se aplican al valor de `dynamicAccountMatch`. Si `dynamicAccountMatch` solo contiene [!DNL window.location.host] (predeterminado), las reglas en `dynamicAccountList` se aplican solo al dominio de la página.
 
@@ -24,7 +24,7 @@ Las reglas encontradas en `dynamicAccountList` se aplican al valor de `dynamicAc
 
 ## Sintaxis y valores posibles
 
-La sintaxis de la variable `dynamicAccountMatch` normalmente la rellenará el consultor de Adobe que proporciona el archivo de AppMeasurement para JavaScript. Sin embargo, los valores indicados a continuación se pueden aplicar en cualquier momento.
+La variable `dynamicAccountMatch` normalmente la rellenará el consultor de Adobe que proporcione el archivo de AppMeasurement para JavaScript. Sin embargo, los valores indicados a continuación se pueden aplicar en cualquier momento.
 
 ```js
 s.dynamicAccountMatch=[DOM object]
@@ -51,12 +51,12 @@ s.dynamicAccountMatch=window.location.host+window.location.pathname
 
 ## Parámetros de configuración
 
-Ninguno.
+Ninguna
 
 ## Problemas, preguntas y consejos
 
-* La selección de cuentas dinámicas no se admite en [AppMeasurement para JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* La selección de cuentas dinámicas no es compatible con [AppMeasurement para JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
 
-* When pages are saved to a hard drive, [!DNL window.location.host] is empty, causing those page views to be sent to the default report suite (in `s_account`).
+* Cuando las páginas se guardan en un disco duro, [!DNL window.location.host] está vacío, lo que provoca que las vistas de esas páginas se envíen al grupo de informes predeterminado (en `s_account`).
 
-* Cuando se traduce una página con un motor de traducción web, como Google, la [!UICONTROL selección de cuentas dinámicas] no funciona como está previsto. Para un seguimiento más preciso, rellene el lado del servidor de la variable [!UICONTROL s_account ].
+* Cuando se traduce una página con un motor de traducción web, como Google, la [!UICONTROL selección de cuentas dinámicas] no funciona como está previsto. Para un seguimiento más preciso, rellene el lado del servidor de la variable [!UICONTROL s_account].
