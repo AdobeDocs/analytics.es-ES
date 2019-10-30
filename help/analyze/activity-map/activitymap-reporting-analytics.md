@@ -30,7 +30,7 @@ Puede [personalizar el acceso de los usuarios a las dimensiones](https://marketi
 
 | Dimensión | Descripción |
 |---|---|
-| [!DNL Activity Map]Activity Map | Muestra las páginas en las que se hizo clic en un vínculo. |
+| [!DNL Activity Map] Activity Map | Muestra las páginas en las que se hizo clic en un vínculo. |
 | [!DNL Activity Map] Región | Indica todas las regiones de los vínculos recopilados en todo el sitio web. Tenga en cuenta que si una región aparece en varias páginas, la métrica se agregará en todas sus páginas. |
 | [!DNL Activity Map] Vínculos | Indica todos los vínculos recopilados en todo el sitio web. |
 | [!DNL Activity Map] Vínculos y región | Indica todos los vínculos recopilados con la región correspondiente en todo el sitio web. |
