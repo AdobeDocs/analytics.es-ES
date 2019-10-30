@@ -1,19 +1,19 @@
 ---
 description: Puede copiar el valor de una eVar en una propiedad para permitir las rutas.
 seo-description: Puede copiar el valor de una eVar en una propiedad para permitir las rutas.
-seo-title: Determinar una ruta copiando un valor evar en una prop
+seo-title: Determinar una ruta copiando un valor eVar en una propiedad
 solution: Analytics
 subtopic: Reglas de procesamiento
-title: Determinar una ruta copiando un valor evar en una prop
+title: Determinar una ruta copiando un valor eVar en una propiedad
 topic: Herramientas de administración
-uuid: 8 d 7647 c 7-aa 91-466 b -8 d 31-fb 4 dce 83 f 04 a
+uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Determinar una ruta copiando un valor evar en una prop
+# Determinar una ruta copiando un valor eVar en una propiedad
 
 Puede copiar el valor de una eVar en una propiedad para permitir las rutas.
 
