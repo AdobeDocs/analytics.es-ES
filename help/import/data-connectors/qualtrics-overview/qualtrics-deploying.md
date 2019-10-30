@@ -1,14 +1,14 @@
 ---
-description: Deploying this integration is a simple process that requires the following actions.
-seo-description: Deploying this integration is a simple process that requires the following actions.
-seo-title: Deploying the Integration
+description: Implementar esta integración es un proceso sencillo que requiere las siguientes acciones.
+seo-description: Implementar esta integración es un proceso sencillo que requiere las siguientes acciones.
+seo-title: Implementación de la integración
 solution: Analytics
 subtopic: Qualtrics
 title: Implementación de la integración
 topic: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,25 +34,25 @@ Para activar la integración, debe completar el asistente para la integración d
 
 1. **Paso 2 del Asistente: Asignaciones** de variables| Lista de respuestas de Qualtrics| Seleccione una variable de lista disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del Administrador de grupos de informes).  ||—|—|| ID de respuesta de Qualtrics| Seleccione una eVar o prop disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del Administrador de grupos de informes).  || Servidor de seguimiento|Proporcione la configuración del servidor de seguimiento (dominio) que utiliza para realizar el seguimiento de los datos de Adobe Analytics. Utilice el servidor de `trackingServerSecure` seguimiento si difiere de la configuración estándar del servidor de seguimiento.  || Envíos de estudio de calidad| Seleccione un evento disponible en su grupo de informes (es posible que necesite habilitar un nuevo evento desde el Administrador de grupos de informes).  |
 
-1. **Wizard Step 3: Nothing required, informational only.**
+1. **Paso 3** del asistente: No se necesita nada, solo información.
 
-   Step Result 1. **Wizard Step 4 - Export Settings**
+   Resultado (1). **Paso 4 del Asistente: Exportar configuración**
 
-   | eVar | Select up to five of your eVars to expose for exporting to Qualtrics |
+   | eVar | Seleccione hasta cinco de las eVars que desee exhibir para exportar a Qualtrics |
    |---|---|
    | Eventos | Seleccione hasta cinco de los eventos personalizados que desee exponer para exportarlos a Qualtrics |
-   | Props | Select up to five of your Props to expose for exporting to Qualtrics |
-   | Solicitudes de acceso | Marque la casilla de cualquiera de las métricas y dimensiones estándar que desee exportar a Qualtrics. Se `visitor_id` requiere para permitir que la exportación funcione correctamente. |
+   | Propriétés | Seleccione hasta cinco de las Props que desee exponer para exportar a Qualtrics |
+   |  Solicitudes de acceso | Marque la casilla de cualquiera de las métricas y dimensiones estándar que desee exportar a Qualtrics. Se `visitor_id` requiere para permitir que la exportación funcione correctamente. |
 
 1. **Paso 5** del asistente: Revise la configuración y haga clic en **[!UICONTROL Activar ahora]**.
 
-## Enabling the Integration in Qualtrics Research Suite{#enabling-the-integration-in-qualtrics-research-suite}
+## Activación de la integración en Qualtrics Research Suite{#enabling-the-integration-in-qualtrics-research-suite}
 
-After completing the integration wizard, you must activate the integration for each Qualtrics survey that you want connected.
+Después de completar el asistente de integración, debe activar la integración para cada estudio de Qualtrics que desee conectar.
 
-1. Log in to the Qualtrics Research Suite.
-1. On the My Surveys tab, click the Edit button for the survey that you want to integrate.********
-1. Haga clic en el menú Opciones **** avanzadas y seleccione **[!UICONTROL Adobe Analytics]**. (if you do not see this option, ask your administrator about gaining the permissions required).
+1. Inicie sesión en Qualtrics Research Suite.
+1. En la ficha **[!UICONTROL Mis estudios]** , haga clic en el botón **[!UICONTROL Editar]** del estudio que desee integrar.
+1. Haga clic en el menú Opciones **** avanzadas y seleccione **[!UICONTROL Adobe Analytics]**. (si no ve esta opción, pregunte al administrador si desea obtener los permisos necesarios).
 
    ![](assets/advanced_options.png)
 
@@ -61,7 +61,7 @@ After completing the integration wizard, you must activate the integration for e
    1. La casilla de verificación **[!UICONTROL Enviar marca de hora con señalización]** solo se debe utilizar cuando se integre con un grupo de informes configurado para recibir datos con marca de hora (algo poco común).
    ![](assets/integration_config.png)
 
-## Verifying the Integration{#verifying-the-integration}
+## Verificación de la integración{#verifying-the-integration}
 
 Después de completar todos los pasos de implementación, puede validar que la integración esté transfiriendo datos correctamente.
 
