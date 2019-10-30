@@ -1,20 +1,20 @@
 ---
 description: Habilite permisos para métricas de tráfico, métricas de conversión, eventos personalizados, eventos de soluciones y reconocimiento de contenido.
-keywords: grupos; permisos
+keywords: grupos;permisos
 seo-description: Habilite permisos para métricas de tráfico, métricas de conversión, eventos personalizados, eventos de soluciones y reconocimiento de contenido.
-seo-title: Personalizar permisos de métricas
+seo-title: Personalizar permisos para métricas
 solution: Analytics
 subtopic: Usuarios y grupos
-title: Personalizar permisos de métricas
+title: Personalizar permisos para métricas
 topic: Herramientas de administración
-uuid: 7 bfff 68 a -2 add -4068-a 07 d -87 a 4 f 624634 c
+uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Personalizar permisos de métricas
+# Personalizar permisos para métricas
 
 >[!IMPORTANT]
 >
@@ -22,7 +22,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 Habilite permisos para métricas de tráfico, métricas de conversión, eventos personalizados, eventos de soluciones y reconocimiento de contenido.
 
-**[!UICONTROL Administración]** de usuarios &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Acceso a informes]** &gt; **[!UICONTROL Métricas]** &gt; **[!UICONTROL Personalizar]**
+**[!UICONTROL Administración]** de usuarios &gt; **[!UICONTROL Grupos]** &gt; Acceso **[!UICONTROL a]** informes &gt; **[!UICONTROL Métricas]** &gt; **[!UICONTROL Personalizar]**
 
 Las opciones de la página Personalizar métricas se aplican a los grupos de informes seleccionados en la página [!UICONTROL Definir grupos de usuarios].
 
@@ -36,7 +36,7 @@ Puede definir permisos para eventos personalizados y para eventos de soluciones 
 
 A cada uno de los grupos personalizados con métricas se le añadirán todos los eventos de soluciones de Analytics que se agreguen como métricas nuevas.
 
-See [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md) for information about metrics used in Analytics.
+Consulte Información general [sobre](/help/components/c-variables/c-metrics/metricslist.md) métricas para obtener información sobre las métricas utilizadas en Analytics.
 
 ## Según el contenido
 
