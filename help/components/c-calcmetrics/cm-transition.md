@@ -1,16 +1,16 @@
 ---
 description: Es posible que estos cambios en la forma en la que las métricas calculadas funcionan en Analytics le sorprendan.
 seo-description: Es posible que estos cambios en la forma en la que las métricas calculadas funcionan en Analytics le sorprendan.
-seo-title: Preguntas más frecuentes
-title: Preguntas más frecuentes
-uuid: 9 b 7 f 1 cd 1-b 969-4 b 15-8 af 1-969 d 816 b 65 b 8
+seo-title: Preguntas frecuentes
+title: Preguntas frecuentes
+uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Preguntas más frecuentes
+# Preguntas frecuentes
 
 These changes to the way calculated metrics work in [!DNL Analytics] may impact you.
 
@@ -38,11 +38,11 @@ These changes to the way calculated metrics work in [!DNL Analytics] may impact 
 
 [¿Qué les sucede a las métricas calculadas de un usuario si se elimina dicho usuario?](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[¿Por qué veo métricas calculadas "Desconocida" que no son válidas para otros grupos de informes a pesar de que pueden crearse y aplicarse a esos grupos de informes?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[¿Por qué veo métricas calculadas "Desconocidas" que no son válidas para otros grupos de informes aunque se puedan crear y aplicar a esos grupos de informes?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
 [¿Por qué no se han guardado los cambios que he realizado en mis métricas calculadas antiguas?](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[¿Por qué no aparecen mis métricas calculadas en el informe de Canales de marketing?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[¿Por qué no aparecen mis métricas calculadas en el informe Canales de mercadotecnia?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
 [¿Por qué algunas métricas calculadas muestran fórmulas sin el paréntesis añadido?](../../components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
@@ -77,9 +77,9 @@ You would see a number of calculated metrics with the same name (but created in 
 
 Considere la posibilidad de consolidar métricas calculadas con nombres y definiciones similares pero tenga cuidado a la hora de hacerlo. Puede marcar el grupo de informes de una métrica calculada en el Administrador de métricas calculadas para comprobar su grupo de informes original. También puede comprobar las definiciones de las métricas cuando elimine posibles duplicados para asegurarse de que está consolidando correctamente las métricas.
 
-> [!NOTE] Aunque las métricas calculadas ya no están vinculadas a un grupo de informes específico y se pueden utilizar en cualquier grupo de informes que sea visible para la empresa de inicio de sesión, el grupo de informes en el que se creó la métrica calculada o que se guardó por última vez seguirá estando visible en el Administrador de métricas calculadas.
+> [!NOTE] Aunque las métricas calculadas ya no están enlazadas a un grupo de informes específico y se pueden usar en cualquier grupo de informes que sea visible para la empresa de inicio de sesión, el grupo de informes en el cual se creó o guardó la métrica calculada por última vez aún está visible en el Administrador de métricas calculadas.
 
-> [!NOTE] Incluso si se elimina una métrica calculada, cualquier informe de tablero o marcador que haga referencia a esa métrica seguirá funcionando.
+> [!NOTE] Incluso si se elimina una métrica calculada, todos los marcadores o informes de tablero que hagan referencia a esa métrica seguirán funcionando.
 
 ## ¿Qué ha sucedido con mis Métricas calculadas globales?{#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -91,7 +91,7 @@ Las métricas calculadas globales ahora son propiedad del primer usuario Adminis
 
 Nada. Sin embargo, el nuevo propietario Administrador debería tener cuidado al modificar o eliminar estas métricas calculadas porque se pueden utilizar en diversos informes con marcadores y paneles.
 
-> [!NOTE] Incluso si se elimina una métrica calculada, cualquier informe de tablero o marcador que haga referencia a esa métrica seguirá funcionando.
+> [!NOTE] Incluso si se elimina una métrica calculada, todos los marcadores o informes de tablero que hagan referencia a esa métrica seguirán funcionando.
 
 ## ¿Qué les ha sucedido a las Métricas calculadas globales que se compartieron entre Empresas de inicio de sesión?{#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -100,12 +100,10 @@ Anteriormente, un Administrador podía crear métricas calculadas (conocidas com
 Las métricas calculadas globales no ya no pueden compartirse entre empresas de inicio de sesión. Ya no están ligadas a un grupo de informes específico pero, en su lugar están ligadas una empresa de inicio de sesión específica. Las métricas calculadas que se compartieron entre empresas de inicio de sesión
 
 * Se migraron a todas las empresas de inicio de sesión con acceso a ese grupo de informes.
-* Predeterminado en "compartido con todos".
+* De forma predeterminada, "compartido con todos".
 * Serán copias independientes de todas las demás empresas de inicio de sesión.
 
->[!NOTE]
->
->Si la métrica calculada se ha utilizado en un marcador, tablero, alerta o informe programado, la edición de la nueva copia NO afectará la antigua métrica calculada persistente.
+> [!NOTE] Si la métrica calculada se utilizó en un marcador, tablero, alerta o informe programado, la edición de la nueva copia NO afectará a la antigua métrica calculada persistente.
 
 ## ¿Qué les ha sucedido a las Métricas calculadas con una clasificación de Numérico o Numérico2?{#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
@@ -137,7 +135,7 @@ Utilice una métrica base de Visitante único en un informe con un segmento. Pue
 
 Anteriormente, si guardaba una métrica calculada con el método API (1.3 o 1.4) ReportSuite.SaveCalculatedMetrics era lo mismo que crear o actualizar una métrica calculada en la Admin Console. Lo mismo sucede con ReportSuite.DeleteCalculatedMetrics. Además, la lista de métricas calculadas que se muestra en la Admin Console o cuando llama a ReportSuite.GetCalculatedMetrics es la misma.
 
-Ahora, los métodos API (1.3 o 1.4) reportsuite calculatedmetrics seguirán guardando, eliminando y recuperando métricas calculadas con la tienda antigua. Las métricas calculadas existentes se migrarán y serán visibles en el nuevo Creador de métricas calculadas. **Las métricas calculadas nuevas creadas con los métodos API solo serán visibles en la API. Todavía se pueden utilizar en la API de generación de informes.**
+Ahora, los métodos de la API ReportSuite CalculatedMetrics (1.3 o 1.4) seguirán guardando, eliminando y recuperando métricas calculadas mediante el almacén antiguo. Las métricas calculadas existentes se migrarán y serán visibles en el nuevo Creador de métricas calculadas. **Las métricas calculadas nuevas creadas con los métodos API solo serán visibles en la API. Todavía se pueden utilizar en la API de generación de informes.**
 
 **Qué debe hacer**
 
@@ -155,9 +153,9 @@ Los datos actuales no admiten métricas calculadas que contengan segmentos o fun
 
 También se eliminará cualquier métrica calculada que haya creado este usuario. Sin embargo, las métricas calculadas eliminadas seguirán funcionando como parte de marcadores, tableros o informes programados guardados.
 
-## ¿Por qué veo métricas calculadas "Desconocida" que no son válidas para otros grupos de informes a pesar de que pueden crearse y aplicarse a esos grupos de informes?{#section_6772818EFDED46E9B7095D64C3B77211}
+## Why do I see "Unknown" calculated metrics that aren't 'valid' for other report suites even though they can be created and applied to those report suites? {#section_6772818EFDED46E9B7095D64C3B77211}
 
-La interfaz de usuario muestra "desconocida" si la métrica calculada contiene métricas o dimensiones base que no existen para el grupo de informes seleccionado.
+La interfaz de usuario muestra "desconocido" si la métrica calculada contiene métricas o dimensiones base que no existen para el grupo de informes seleccionado.
 
 ## ¿Por qué no se han guardado los cambios que he realizado en mis métricas calculadas antiguas?{#section_81CDEFCA1FD542579AF183DA1494EAF0}
 
@@ -167,15 +165,15 @@ Esto puede deberse al momento en el que se realizó la migración a la nueva bas
 
 Tendrá que repetir los cambios que ha realizado en sus métricas antiguas.
 
-## ¿Por qué no aparecen mis métricas calculadas en el informe de Canales de marketing?{#section_FC350359A775433AB5F43C7CAB304D62}
+## Why don't my calculated metrics show up in the Marketing Channels report? {#section_FC350359A775433AB5F43C7CAB304D62}
 
 (Anteriormente, todas las métricas calculadas se enumeraban en el selector de métricas en informes de Canales de marketing con la opción de primer o último toque).
 
-Ahora, solo aquellas métricas calculadas que tienen su tipo de asignación establecido específicamente en primer toque o último toque en el Creador de métricas calculadas estarán disponibles en el selector de métricas en los informes de los Canales de marketing. Tenga en cuenta que cualquier métrica calculada que ya se haya aplicado en los informes del Canal de marketing seguirá aplicándose y funcionando como antes. Para crear una métrica calculada para Canales de marketing, haga clic en el icono de configuración en el creador de métricas y seleccione el tipo de asignación como Primer toque o Último toque. Recuerde que si lo hace, la métrica calculada será compatible únicamente con los informes de Canal de marketing y no se podrán utilizar en ningún otro informe.
+Ahora, solo aquellas métricas calculadas que tienen su tipo de asignación establecido específicamente en primer toque o último toque en el Creador de métricas calculadas estarán disponibles en el selector de métricas en los informes de los Canales de marketing. Tenga en cuenta que cualquier métrica calculada que ya se haya aplicado en los informes del Canal de marketing seguirá aplicándose y funcionando como antes. Para crear una métrica calculada para Canales de marketing, haga clic en el icono de configuración en el creador de métricas y seleccione el tipo de asignación como Primer toque o Último toque. Recuerde que esto hará que la métrica calculada sea compatible solamente con los informes de canal de mercadotecnia y no se podrá utilizar en ningún otro informe.
 
 ## ¿Por qué algunas métricas calculadas muestran fórmulas sin el paréntesis añadido?{#section_AC0D1E9714AD487F9A1C73359F518B5E}
 
-Durante la migración, Adobe ha eliminado los paréntesis superfluos de algunas fórmulas. Solo se han eliminado los paréntesis que no afectan a cómo se calcula la métrica. Esto no cambiará los datos, tan solo simplifica la fórmula.
+Durante la migración, Adobe ha eliminado los paréntesis superfluos de algunas fórmulas. Solo se han eliminado los paréntesis que no afectan a cómo se calcula la métrica. Esto no cambiará los datos, simplemente simplifica la fórmula.
 
 ## (Solo Ad Hoc Analysis) ¿Las métricas calculadas con definiciones de segmento en línea o incrustadas siguen siendo compatibles? {#section_B25C924A282F49388AB604E3D826F44C}
 
@@ -187,7 +185,7 @@ Debe guardar explícitamente el segmento. Las métricas existentes calculadas co
 
 ## (Solo en el Report Builder) ¿Por qué han desaparecido las métricas calculadas de mis solicitudes? {#section_DA4792FE5D7945218CD5E6328DE08E82}
 
-Si la solicitud se creó en la versión 5.2 y contiene métricas calculadas, estas métricas no serán visibles en la versión 5.1 (o en versiones anteriores). Esto es debido a que las métricas calculadas ahora utilizan ID globales (ID no específicas de grupos de informes).
+Si la solicitud se creó en la versión 5.2 y contiene métricas calculadas, dichas métricas no serán visibles en la versión 5.1 (o en versiones anteriores). Esto es debido a que las métricas calculadas ahora utilizan ID globales (ID no específicas de grupos de informes).
 
 **Qué debe hacer**
 
