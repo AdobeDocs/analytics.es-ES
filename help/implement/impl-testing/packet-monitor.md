@@ -8,8 +8,8 @@ subtopic: Depurador
 title: Analizadores de paquetes
 topic: Desarrollador e implementación
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,21 +29,17 @@ En casos muy excepcionales, el depurador informará de una solicitud de imagen a
 
 Aunque Adobe no proporciona un monitor de paquetes oficial, hay una amplia variedad en Internet. A continuación se nombran varios monitores de paquetes que otros usuarios consideran útiles.
 
->[!NOTE]
->
->Estas listas no son completas, solo ofrecen información sobre monitores usados con frecuencia. Si conoce un monitor de paquetes que ha utilizado satisfactoriamente y considera que es útil, no dude en proporcionar información sobre él usando el botón [!UICONTROL Comentario], que se encuentra a la derecha de esta ventana.
+> [!NOTE] Estas listas no son completas, solo ofrecen información sobre monitores usados con frecuencia. Si conoce un monitor de paquetes que ha utilizado satisfactoriamente y considera que es útil, no dude en proporcionar información sobre él usando el botón [!UICONTROL Comentario], que se encuentra a la derecha de esta ventana.
 
 | Firefox | Internet Explorer | Chrome | Programas independientes |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin) (visor de etiquetas) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (visor de etiquetas) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Herramientas de desarrollador de Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Herramientas para desarrolladores Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
 | [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
->[!NOTE]
->
->Adobe NO ofrece soporte ni solución de problemas en relación con ninguna incidencia que pueda sufrir con estos monitores de paquetes. Consulte el sitio de origen del monitor de paquetes para obtener asistencia.
+> [!NOTE] Adobe NO ofrece soporte ni solución de problemas en relación con ninguna incidencia que pueda sufrir con estos monitores de paquetes. Consulte el sitio de origen del monitor de paquetes para obtener asistencia.
 
 <!-- 
 
