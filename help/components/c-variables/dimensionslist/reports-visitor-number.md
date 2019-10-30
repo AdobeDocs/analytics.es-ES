@@ -1,18 +1,18 @@
 ---
 description: Ayuda a medir la lealtad de los visitantes realizando un seguimiento de la cantidad de veces que cada uno de ellos visita el sitio. Durante el período de tiempo seleccionado, puede ver si la mayoría de las visitas corresponde a visitantes que entraban en el sitio por primera o por vigésima vez.
 seo-description: Ayuda a medir la lealtad de los visitantes realizando un seguimiento de la cantidad de veces que cada uno de ellos visita el sitio. Durante el período de tiempo seleccionado, puede ver si la mayoría de las visitas corresponde a visitantes que entraban en el sitio por primera o por vigésima vez.
-seo-title: Número de visitas
+seo-title: Número de visita
 solution: Analytics
-title: Número de visitas
-topic: 'Informes '
-uuid: f 98 dafab -9369-4055-a 793-5 ea 0217 b 78 b 0
+title: Número de visita
+topic: Informes
+uuid: f98dafab-9369-4055-a793-5ea0217b78b0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Número de visitas
+# Número de visita
 
 Ayuda a medir la lealtad de los visitantes realizando un seguimiento de la cantidad de veces que cada uno de ellos visita el sitio. Durante el período de tiempo seleccionado, puede ver si la mayoría de las visitas corresponde a visitantes que entraban en el sitio por primera o por vigésima vez.
 
