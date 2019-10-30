@@ -4,10 +4,10 @@ seo-description: Muestra la cantidad de tiempo que los visitantes emplearon en l
 seo-title: Tiempo invertido en la página
 solution: Analytics
 title: Tiempo invertido en la página
-topic: 'Informes '
-uuid: 0 a 875 fa 4-da 31-4370-a 44 b -955 f 22273 cf 4
+topic: Informes
+uuid: 0a875fa4-da31-4370-a44b-955f2273cf4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
