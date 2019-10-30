@@ -5,9 +5,9 @@ seo-title: Programar libros con las macros habilitadas
 solution: Analytics
 title: Programar libros con las macros habilitadas
 topic: Creador de informes
-uuid: 874 cfac 8-ca 63-4 dec-b 2 aa-a 3 dcd 037 c 5 c 5
+uuid: 874cface8-ca63-4dec-b2aa-a3dcd037c5c5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,6 +20,6 @@ Puede ser útil si desea programar, procesar y recibir de forma segura libros co
 
 >[!IMPORTANT]
 >
->Aunque el Creador de informes permite programar libros con macros, estas macros no se pueden accionar durante cada ejecución programada. Solo se pueden accionar cuando el libro se abre dentro de la aplicación de Microsoft Excel nativa.
+>Aunque el Creador de informes le permite programar libros con macros, estas macros no se ejercen durante cada ejecución programada. Solo se pueden accionar cuando el libro se abre dentro de la aplicación de Microsoft Excel nativa.
 
 Los libros programados con macros solo se pueden ofrecer en formato con las macros habilitadas (.xlsm), porque todos los demás formatos compatibles (xls, xlsx, pdf, word, csv o txt) eliminarían las macros del libro.
