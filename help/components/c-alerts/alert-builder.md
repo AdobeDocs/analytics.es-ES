@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Generador de alertas
 title: Generador de alertas
-uuid: 86 d 00 a 33-dc 99-4 dc 3-a 732-0 b 895 ba 487 bc
+uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,9 +37,7 @@ Especifique un nombre para la alerta. El nombre de la alerta puede contener el n
 
 Especifique cuándo desea que se compruebe la métrica: cada hora, cada día, semanalmente o mensualmente.
 
->[!NOTE]
->
->Para los grupos de informes con un calendario personalizado, no es compatible con la granularidad mensual en el Generador de alertas.
+> [!NOTE] Para los grupos de informes con un calendario personalizado, no se admite la granularidad mensual en el Generador de alertas.
 
 **Destinatarios**
 
@@ -59,7 +57,7 @@ Establezca la fecha de caducidad de la alerta.
 
 * Arrastre y suelte las métricas en el lienzo para añadir activadores.
 
-   Note that an **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Note that an **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 
 * Determine el umbral que debe superar la métrica para que se establezca la alerta. Puede ajustar este valor a un umbral y, a continuación, a una de las condiciones siguientes:
 
