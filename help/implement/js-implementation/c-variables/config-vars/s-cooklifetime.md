@@ -1,11 +1,11 @@
 ---
 description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ La variable la usan tanto JavaScript como los servidores de recopilación de dat
 |---|---|---|---|
 | N.D. | cl | Tráfico &gt; Tecnología &gt; Cookies &gt; Todos los informes relacionados con el visitante | "" |
 
-Si *`cookieLifetime`* se configura, anula todas las demás caducidades de las cookies tanto para JavaScript como para los servidores de recopilación de datos, con una excepción que se describe a continuación. The *`cookieLifetime`* variable can have one of three values:
+If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. La variable *`cookieLifetime`* puede tener uno de estos tres valores:
 
 * [!DNL Analytics] Cookies
 * Cookies
@@ -49,8 +49,8 @@ s.cookieLifetime="86400" // one day in seconds
 
 ## Parámetros de configuración
 
-Ninguno.
+Ninguna
 
 ## Problemas, preguntas y consejos
 
-*`cookieLifetime`* afecta al [!DNL Analytics] seguimiento. If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Tenga cuidado al configurar *`cookieLifetime`*.
+*`cookieLifetime`* afecta al seguimiento de [!DNL Analytics]. Si, por ejemplo, el valor de *`cookieLifetime`* es dos días, los informes de visitantes únicos mensuales, trimestrales y anuales serán incorrectos. Tenga cuidado al configurar *`cookieLifetime`*.
