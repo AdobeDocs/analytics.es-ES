@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Información general sobre Uso de llamadas al servidor
 title: Información general sobre Uso de llamadas al servidor
-uuid: 6 e 014364-efc 1-4769-a 0 b 5-cf 105 c 0 ed 9 b 1
+uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Uso de llamadas al servidor de Adobe Analytics trata sus solicitudes de transparencia tanto en los datos de uso de llamadas al explorador como al servidor móvil. Permite acceder a:
 
 * Un tablero de Uso de llamadas al servidor que registra sus datos de consumo de llamadas al servidor y lo compara con su límite contractual. (**[!UICONTROL Analytics &gt; Admin &gt; Uso de llamadas al servidor]**)
-* A Server Call Usage alert type in the Alert Builder that lets you set up alerts to prevent overages (**[!UICONTROL Analytics &gt; Components &gt;Alerts]**)
+* Tipo de alerta Uso de llamadas al servidor en el Generador de alertas que permite configurar alertas para evitar sobrecargas (**[!UICONTROL Analytics &gt; Componentes &gt; Alertas]**)
 
 Las principales ventajas de Uso de llamadas al servidor son las siguientes:
 
@@ -45,7 +45,7 @@ Este es un breve manual sobre terminología esencial para Uso de llamadas al ser
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Llamada al servidor </p> </td> 
-   <td colname="col2"> <p>Una llamada al servidor, también conocida como “visita individual” o “solicitud de imagen” es una instancia en la que se envían datos a servidores de Adobe para su procesamiento. El tipo más común de llamada al servidor es una vista de página. Se produce una vista de página donde un visitante ve una página del sitio Web y se genera una llamada al servidor a Adobe, donde la información se recopila, procesa y luego se incluye en las métricas de informes. </p> <p>Existen otros tipos de llamadas al servidor, como vínculos de salida y descargas de archivos, en las que los datos se envían a Adobe para su procesamiento, pero no se registran como una nueva vista de página. Incluso las vistas de página “excluidas” (por ejemplo, excluidas de los informes mediante la configuración de un intervalo de direcciones IP) son llamadas al servidor, ya que Adobe las recibe y las procesa pero nunca las muestra en los informes. </p> <p><b>Llamada al servidor primaria</b>: solicitudes recibidas directamente desde los exploradores de los visitantes del sitio web o la API de inserción de datos. Incluye Visitas individuales primarias (Vistas de página), Eventos personalizados primarios, Eventos de descarga primarios y Eventos de salida primarios. </p> <p><b>Llamada al servidor secundaria</b>: copias de las llamadas al servidor primarias creadas mediante etiquetas de conjuntos múltiples, o copiadas o movidas a través de una regla de VISTA. Si se ha movido (no copiado) una llamada al servidor secundaria a un grupo de informes diferente a través de una regla de VISTA, las llamadas al servidor secundarias acumuladas se deducen de las llamadas al servidor primarias. </p> <p><b>Llamada al servidor primaria móvil</b> </p> <p>Solicitudes recibidas directamente desde uno de los SDK de Mobile. Incluya trackaction, trackstate, trackapp Crashes, trackactionfrombackground, tracklocation, trackbeacon, trackpushmessageclickthrough, tracktimedactionbacklog, tracklifetimevalueincrease.</p> <p><b>Llamada al servidor secundaria móvil</b> </p> <p>Copias de las llamadas al servidor primarias creadas mediante etiquetas de conjuntos múltiples, o copiadas o movidas a través de una regla de VISTA. Si se ha movido (no copiado) una llamada al servidor secundaria a un grupo de informes diferente a través de una regla de VISTA, las llamadas al servidor secundarias acumuladas se deducen de las llamadas al servidor primarias. </p> <p>Nota: Si su empresa está autorizada, de forma contractual, a realizar llamadas de Mobile Server (primarias o secundarias) únicamente, tanto el uso web como el específico de móvil contarán en su asignación específica de móvil. </p> </td> 
+   <td colname="col2"> <p>Una llamada al servidor, también conocida como “visita individual” o “solicitud de imagen” es una instancia en la que se envían datos a servidores de Adobe para su procesamiento. El tipo más común de llamada al servidor es una vista de página. Una vista de página se produce cuando un visitante ve una página del sitio web y se genera una llamada al servidor para Adobe, donde la información se recopila, procesa y luego se incluye en las métricas del informe. </p> <p>Existen otros tipos de llamadas al servidor, como vínculos de salida y descargas de archivos, en las que los datos se envían a Adobe para su procesamiento, pero no se registran como una nueva vista de página. Incluso las vistas de página “excluidas” (por ejemplo, excluidas de los informes mediante la configuración de un intervalo de direcciones IP) son llamadas al servidor, ya que Adobe las recibe y las procesa pero nunca las muestra en los informes. </p> <p><b>Llamada al servidor primaria</b>: solicitudes recibidas directamente desde los exploradores de los visitantes del sitio web o la API de inserción de datos. Incluye Visitas individuales primarias (Vistas de página), Eventos personalizados primarios, Eventos de descarga primarios y Eventos de salida primarios. </p> <p><b>Llamada al servidor secundaria</b>: copias de las llamadas al servidor primarias creadas mediante etiquetas de conjuntos múltiples, o copiadas o movidas a través de una regla de VISTA. Si se ha movido (no copiado) una llamada al servidor secundaria a un grupo de informes diferente a través de una regla de VISTA, las llamadas al servidor secundarias acumuladas se deducen de las llamadas al servidor primarias. </p> <p><b>Llamada al servidor primaria móvil</b> </p> <p>Solicitudes recibidas directamente de uno de los SDK móviles. Incluya trackAction, trackState, trackApp Crashes, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease.</p> <p><b>Llamada al servidor secundaria móvil</b> </p> <p>Copias de las llamadas al servidor primarias creadas mediante etiquetas de conjuntos múltiples, o copiadas o movidas a través de una regla de VISTA. Si se ha movido (no copiado) una llamada al servidor secundaria a un grupo de informes diferente a través de una regla de VISTA, las llamadas al servidor secundarias acumuladas se deducen de las llamadas al servidor primarias. </p> <p>Nota: Si su empresa está autorizada, de forma contractual, a realizar llamadas de Mobile Server (primarias o secundarias) únicamente, tanto el uso web como el específico de móvil contarán en su asignación específica de móvil. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empresa de facturación (ID de facturación) </p> </td> 
@@ -75,7 +75,7 @@ Este es un breve manual sobre terminología esencial para Uso de llamadas al ser
   </tr> 
   <tr> 
    <td colname="col1"> <p>Periodo contractual </p> </td> 
-   <td colname="col2"> <p>Los periodos contractuales pueden ser de varios años. Digamos que su empresa tiene una asignación de llamadas al servidor de 6 millones de llamadas para un periodo contractual de 3 años. Para el monitoreo de uso de llamadas al servidor, este período de 3 años se puede desglosar en períodos de uso más pequeños para facilitar comparaciones año tras año. </p> </td> 
+   <td colname="col2"> <p>Los periodos contractuales pueden ser de varios años. Digamos que su empresa tiene una asignación de llamadas al servidor de 6 millones de llamadas para un periodo contractual de 3 años. A efectos de la supervisión del uso de llamadas al servidor, este período de 3 años se puede desglosar en períodos de uso más pequeños para facilitar las comparaciones año tras año. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,9 +84,7 @@ Este es un breve manual sobre terminología esencial para Uso de llamadas al ser
 
 El permiso de Uso de llamadas al servidor se concede, de forma automática, a los administradores de Analytics. Permite a los usuarios ver el tablero y crear alertas de llamadas al servidor. Los administradores pueden elegir conceder este permiso a los no administradores.
 
->[!NOTE]
->
->Su empresa puede elegir qué empresas de inicio de sesión tienen acceso al Uso de llamadas al servidor.
+> [!NOTE] Su empresa puede elegir qué empresas de inicio de sesión tienen acceso al uso de llamadas al servidor.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
@@ -106,7 +104,7 @@ El permiso de Uso de llamadas al servidor se concede, de forma automática, a lo
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Inicie sesión en login. experiencecloud. adobe. com.</li> 
+     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Inicie sesión en login.experience.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Haga clic en <span class="uicontrol">Analytics </span>. </li> 
      <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Vaya a <span class="ignoretag"><span class="uicontrol">Productos</span> &gt; <span class="uicontrol">Product Profile</span> &gt; <span class="uicontrol">Permisos</span> &gt; <span class="uicontrol">Herramientas Analytics</span> &gt; <span class="uicontrol">Uso de llamadas al servidor </span> </span> </li> 
     </ol> </td> 
