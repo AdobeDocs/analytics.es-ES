@@ -7,8 +7,8 @@ solution: Analytics
 title: Informes para dispositivos con protocolos móviles
 topic: Desarrollador e implementación
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ El seguimiento de los dispositivos móviles se realiza mediante una señalizaci�
 
 Estos informes solo tienen datos si el referente se rellena en la solicitud de imagen enviada desde la página móvil. El referente se rellena mediante el parámetro de cadena de consulta "r", como se indica en el documento técnico Implementación sin JavaScript. También debe pasar manualmente la información del referente en la solicitud de imagen.
 
-El parámetro de cadena de consulta "r" debe incluir el protocolo del referente. De no hacerlo así, no se rellenará el informe del referente. Por ejemplo, use `r=https://msn.com`, no `r=msn.com`.
+El parámetro de cadena de consulta 'r' debe incluir el protocolo del referente. De no hacerlo así, no se rellenará el informe del referente. Por ejemplo, use `r=https://msn.com`, no `r=msn.com`.
 
 ## Segmentación geográfica y dominios {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
