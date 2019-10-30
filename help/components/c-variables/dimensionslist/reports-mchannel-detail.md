@@ -7,7 +7,7 @@ title: Detalles de canal de marketing de primer y último toque
 topic: Informes
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,7 +42,5 @@ Estos informes ofrecen una perspectiva sobre las palabras clave o las campañas 
    * Visitas y Visitantes: disponibles en función del grupo de informes y la organización. Para obtener más detalles el usuario debe ponerse en contacto con el Administrador de cuentas.
    Consulte [Métricas](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) en la ayuda sobre [!UICONTROL canales de marketing].
 
->[!NOTE]
->
->[!UICONTROL Los informes de canal] de mercadotecnia no están disponibles en la versión 13.5.
+> [!NOTE] Los informes de canal [!UICONTROL de] mercadotecnia no están disponibles en la versión 13.5.
 
