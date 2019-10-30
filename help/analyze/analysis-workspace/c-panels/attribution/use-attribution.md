@@ -5,7 +5,7 @@ seo-title: Uso de Attribution IQ en Analysis Workspace
 title: Uso de Attribution IQ en Analysis Workspace
 uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
 translation-type: tm+mt
-source-git-commit: 989568079f301a99a744e06b9de3d8636b3686a1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,13 +28,13 @@ Las Tablas improvisadas de Analysis Workspace admiten modelos de atribución que
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}
 
-Cualquier desglose dentro de una Tabla improvisada también puede tener aplicado cualquier modelo de atribución que puede ser el mismo o diferente de la columna principal. Por ejemplo, puede que necesite analizar Órdenes lineales en su dimensión de Canales de marketing pero aplicar Órdenes en forma de U a los códigos de seguimiento específicos dentro de un Canal. Para editar el modelo de atribución aplicado a un desglose, simplemente sitúe el ratón encima del modelo de desglose y haga clic en “Editar”:
+Cualquier desglose dentro de una Tabla improvisada también puede tener aplicado cualquier modelo de atribución que puede ser el mismo o diferente de la columna principal. Por ejemplo, puede que necesite analizar Órdenes lineales en su dimensión de Canales de marketing pero aplicar Órdenes en forma de U a los códigos de seguimiento específicos dentro de un Canal. Para editar el modelo de atribución aplicado a un desglose, simplemente pase el ratón sobre el modelo de desglose y haga clic en "Editar":
 
 ![](assets/breakdown_settings.png)
 
 ## Compare one attribution model to another {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-Si le gustaría comparar rápida y fácilmente un modelo de atribución con otro, haga clic con el botón derecho en una métrica y seleccione **[!UICONTROL Agregar modelo de atribución comparativa]**:
+If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
@@ -69,4 +69,4 @@ El panel Atribución es una forma sencilla de generar un análisis comparando va
 | Gráfico de superposición de dimensiones | Un Diagrama de Venn que muestra los tres elementos de dimensión superiores (por ejemplo: Canales) y con qué frecuencia participan en conjunto en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando un visitante estuvo expuesto a ambos elementos de dimensión (por ejemplo: Canales). Seleccionar otras filas en la Tabla improvisada actualizará la visualización para reflejar su selección. |
 | Puntos de contacto de marketing por viaje | Un Histograma que indica el número de puntos de contacto de marketing (o cualquier dimensión) que un visitante tuvo en el rango de fechas de generación de informes. Esto resulta útil para ver qué impacto tuvo la atribución de múltiples contactos para su conjunto de datos. Si prácticamente todos los visitantes tienen un solo punto de contacto, los diferentes modelos de atribución no serán muy diferentes entre sí en cuanto a los resultados. |
 | Detalle de rendimiento de canal de marketing | Permite comparar visualmente hasta tres modelos de atribución mediante un diagrama de puntos. |
-| Flujo de canal de marketing | Permite ver en qué canales hay interacción con más frecuencia y en qué orden a lo largo del viaje de un visitante. |
+| Flujo de canal de marketing | Permite ver con qué canales se interactúan con mayor frecuencia y en qué orden durante el viaje de un visitante. |
