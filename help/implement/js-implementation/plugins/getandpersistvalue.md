@@ -8,8 +8,8 @@ subtopic: Complementos
 title: getAndPersistValue
 topic: Desarrollador e implementación
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ El complemento getAndPersistValue obtiene un valor que usted elija y lo rellena 
 
 Por ejemplo: puede utilizar este complemento para establecer un código de seguimiento de campaña de la variable *`campaign`* en una variable de tráfico personalizado (*`s.prop`*) en la vista de página de cada visitante realizada durante los próximos 30 días. Este ejemplo le permite determinar cuántas vistas de página ha generado el código de seguimiento como resultado de la pulsación original.
 
->[!NOTE]
->
->Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+> [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación y código de complemento {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -34,7 +32,7 @@ Por ejemplo: puede utilizar este complemento para establecer un código de segui
 
 **Configuración de complemento**
 
-Inserte el código siguiente en la función La función *`s_doPlugins()`*, que se encuentra en el área del archivo *`s_code.js`* llamado *Configuración de complemento*. Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos de valores persistentes. Debe ser una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. Puede utilizar el ejemplo siguiente y actualizarlo según sus necesidades.
+Inserte el siguiente código en la función *`s_doPlugins()`*, que está ubicada en el área del archivo *`s_code.js`con el nombre* Configurar complemento *.* Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos de valores persistentes. Debe ser una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. Puede utilizar el ejemplo siguiente y actualizarlo según sus necesidades.
 
 `s.prop1=s.getAndPersistValue(s.campaign,'s_getval',30);`
 
