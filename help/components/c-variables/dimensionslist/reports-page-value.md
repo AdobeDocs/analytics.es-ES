@@ -1,18 +1,18 @@
 ---
-description: 'Muestra en qué medida participaron determinadas páginas en la generación de ingresos. '
-seo-description: 'Muestra en qué medida participaron determinadas páginas en la generación de ingresos. '
+description: Muestra en qué medida participaron determinadas páginas en la generación de ingresos.
+seo-description: Muestra en qué medida participaron determinadas páginas en la generación de ingresos.
 seo-title: Valor de la página
 solution: Analytics
 title: Valor de la página
-topic: 'Informes '
-uuid: 852 ae 05 f-e 728-4 bcd -9 b 28-f 068 a 4 a 35 c 75
+topic: Informes
+uuid: 852ae05f-e728-4bcd-9b28-f068a4a35c75
 translation-type: tm+mt
-source-git-commit: af2c0dd5269fe54dec949d4bd98bb09f22c9bfa2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Valor de la página
 
-El informe Valor de página se ha desaprobado y ya no está disponible.
+El informe Valor de la página se ha desaprobado y ya no está disponible.
 
