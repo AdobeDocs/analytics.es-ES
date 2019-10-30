@@ -5,9 +5,9 @@ seo-title: Administrar tráfico
 solution: Analytics
 title: Administrar tráfico
 topic: Herramientas de administración
-uuid: c 1 be 90 d 3-f 8 f 8-40 a 5-a 93 f -9 af 312 a 34828
+uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
