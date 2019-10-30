@@ -1,18 +1,18 @@
 ---
 description: Para crear varias copias de una solicitud original, rellene un área seleccionada de celdas con el número permitido de copias de la solicitud según el espacio disponible.
 seo-description: Para crear varias copias de una solicitud original, rellene un área seleccionada de celdas con el número permitido de copias de la solicitud según el espacio disponible.
-seo-title: Crear más de una copia de una solicitud
+seo-title: Crear varias copias de una solicitud
 solution: Analytics
-title: Crear más de una copia de una solicitud
+title: Crear varias copias de una solicitud
 topic: Creador de informes
-uuid: aa 8442 f 3-28 c 7-4665-b 0 ff-e 81 fcdb 79 f 6 c
+uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Crear más de una copia de una solicitud
+# Crear varias copias de una solicitud
 
 Para crear varias copias de una solicitud original, rellene un área seleccionada de celdas con el número permitido de copias de la solicitud según el espacio disponible.
 
