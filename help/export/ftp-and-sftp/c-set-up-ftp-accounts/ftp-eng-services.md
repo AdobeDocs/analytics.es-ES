@@ -1,18 +1,18 @@
 ---
 description: Muchas de las participaciones de los servicios de ingeniería de Adobe suelen requerir el intercambio de datos a través de FTP.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Muchas de las participaciones de los servicios de ingeniería de Adobe suelen requerir el intercambio de datos a través de FTP.
-seo-title: Participaciones de servicios de ingeniería con FTP
+seo-title: Participación de los servicios de ingeniería en FTP
 solution: Analytics
-title: Participaciones de servicios de ingeniería con FTP
-uuid: 38 d 1 fc 13-b 709-4661-805 b -7 efa 82 b 57 a 47
+title: Participación de los servicios de ingeniería en FTP
+uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Participaciones de servicios de ingeniería con FTP
+# Participación de los servicios de ingeniería en FTP
 
 Muchas de las participaciones de los servicios de ingeniería de Adobe suelen requerir el intercambio de datos a través de FTP.
 
@@ -26,4 +26,4 @@ Para obtener información sobre los límites de FTP y la retención de datos, co
 
 ## Participaciones personalizadas {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Los servicios de ingeniería de Adobe ofrecen proyectos personalizados que utilizan FTP y SFTP. Para obtener más información sobre los proyectos personalizados, consulte Servicios de ingeniería de Adobe. For information on SFTP, see [Secure File Transfer Protocol](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC).
+Los servicios de ingeniería de Adobe ofrecen proyectos personalizados que utilizan FTP y SFTP. Para obtener más información sobre los proyectos personalizados, consulte Servicios de ingeniería de Adobe. Para obtener información sobre SFTP, consulte Protocolo [](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC)seguro de transferencia de archivos.
