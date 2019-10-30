@@ -1,23 +1,23 @@
 ---
 description: Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados de fila y columna. El vínculo Opciones de formato está disponible para los tipos de diseño personalizado y de tabla dinámica.
 seo-description: Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados de fila y columna. El vínculo Opciones de formato está disponible para los tipos de diseño personalizado y de tabla dinámica.
-seo-title: Formato de encabezados de visualización
+seo-title: Dar formato a los encabezados
 solution: Analytics
-title: Formato de encabezados de visualización
+title: Dar formato a los encabezados
 topic: Creador de informes
-uuid: cd 0 e 167 b -9463-43 fd -87 b 2-724 d 1 c 79 de 68
+uuid: da0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Formato de encabezados de visualización
+# Dar formato a los encabezados
 
 Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados de fila y columna. El vínculo Opciones de formato está disponible para los tipos de diseño personalizado y de tabla dinámica.
 
 1. Cree una solicitud en el [!UICONTROL Asistente para solicitudes: Paso 1].
-1. Click **[!UICONTROL Next]**.
+1. Haga clic en **[!UICONTROL Siguiente]**.
 1. En el formulario [!UICONTROL Asistente para solicitudes: Paso 2], añada los datos de dimensiones y métricas a la solicitud.
 1. Click **[!UICONTROL Format Options]**.
 1. Configure las opciones de [!UICONTROL visualización:]
@@ -27,7 +27,7 @@ Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados
    | Nombre del informe | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | Parámetros de filtros | Muestra los filtros de dimensión como, por ejemplo, un filtro de búsqueda. |
    | Segmento | Muestra el parámetro de segmento. |
-   | Creación de los datos | Muestra los parámetros de la actualización de datos. For example:    Data Recency: Page Views (1.5 hr ago), Exits (30 mins ago)  See [Options](../../../analyze/report-builder/options.md) for information about current data processing. |
+   | Creación de los datos | Muestra los parámetros de la actualización de datos.  Por ejemplo:    Creación de los datos: Vistas de página (hace 1,5 horas), Salidas (hace 30 minutos) Consulte [Opciones](../../../analyze/report-builder/options.md) para obtener información sobre el procesamiento de datos actual. |
 
    Respecto al orden de visualización, si la cuadrícula [!UICONTROL Rótulo de fila] (en el Paso 2) contiene un elemento, éste se muestra en primer lugar en la solicitud. De lo contrario, el sistema utiliza el primer elemento presente en la cuadrícula [!UICONTROL Rótulo de columna]. Si no existen filas ni columnas, se muestra el primer elemento de la cuadrícula [!UICONTROL Métrica].
 
