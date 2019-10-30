@@ -77,7 +77,7 @@ source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
    + Paneles {#panels}
       + [Resumen de paneles](analysis-workspace/c-panels/panels.md)
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
-      + Atribución {atribución}
+      + Atribución {#attribution}
          + [Información general de atribución](analysis-workspace/c-panels/attribution/attribution.md)
          + [Uso del panel Atribución](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Preguntas más frecuentes sobre atribución](analysis-workspace/c-panels/attribution/attribution-faq.md)
