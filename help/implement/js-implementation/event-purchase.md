@@ -1,6 +1,6 @@
 ---
 description: Para el evento purchase, se usan variables de Analytics para capturar información específica sobre las compras. La variable s.purchaseID se usa para serializar (anular la duplicación) el evento.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Para el evento purchase, se usan variables de Analytics para capturar información específica sobre las compras. La variable s.purchaseID se usa para serializar (anular la duplicación) el evento.
 seo-title: Eventos Purchase
 solution: Analytics
@@ -8,7 +8,7 @@ title: Eventos Purchase
 topic: Desarrollador e implementación
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: e21bb18dd0d0eb13222c655091c3a87939a0351d
+source-git-commit: fb8657100929f333e5e6933ff9d61d8598bf9e05
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: e21bb18dd0d0eb13222c655091c3a87939a0351d
 
 Para el evento purchase, se usan variables de Analytics para capturar información específica sobre las compras. La variable `s.purchaseID` se usa para serializar (anular la duplicación) el evento.
 
-Si se llama a un evento de compra sin la variable `purchaseID`, automáticamente se genera una variable única basada en las variables `s.products` y `s.events`. Este ID de compra generado automáticamente se almacena localmente como un valor de cookie dentro del explorador del visitante y no se envía a Adobe. Por otro lado, los ID de compra definidos manualmente se envían a Adobe. Las últimas cinco compras realizadas por un visitante (con o sin ID de compra) se almacenan en la cookie local.
+Si se pasa una visita con un evento de compra sin un ID de compra, Adobe Analytics utiliza la información de la visita (s.purchase y s.events) para crear un "ID de compra temporal". Esta ID de compra temporal solo se aplica al visitante de la visita. Los 5 ID de compra temporales anteriores se almacenan para cada ID de visitante (por grupo de informes).
 
 Cuando un visitante realiza cualquier compra, se realizan las siguientes comprobaciones:
 
-* ¿El la ID de compra coincide con cualquiera de los cinco valores de cookie? En caso afirmativo, la solicitud de imagen se considera una compra duplicada. En el informe no aparece ninguna variable de conversión y tampoco el evento de compra.
+* ¿El el ID de compra temporal coincide con cualquiera de los últimos cinco ID de compra temporal almacenados? En caso afirmativo, la solicitud de imagen se considera una compra duplicada. En el informe no aparece ninguna variable de conversión y tampoco el evento de compra.
 * Si `s.purchaseID` se define, ¿coincide con algún valor ya recopilado en el grupo de informes? En caso afirmativo, la solicitud de imagen se considera una compra duplicada. En el informe no aparece ninguna variable de conversión y tampoco el evento de compra.
 
 Se puede utilizar código del lado del servidor para generar el número único (valor alfanumérico) incrustado en el código fuente HTML. Con este fin normalmente se usa la ID de pedido o un valor alfanumérico similar. Este valor no debe cambiar si el usuario actualiza la página.
