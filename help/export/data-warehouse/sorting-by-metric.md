@@ -4,9 +4,9 @@ seo-description: Proporciona informes de desgloses clasificados en Data Warehous
 seo-title: Ordenar por métrica
 solution: Analytics
 title: Ordenar por métrica
-uuid: 07 da 2607-b 3 fd -463 b -90 d 4-6884 a 93 c 7 e 25
+uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ Los informes del Data Warehouse se pueden organizar con "Orden de las métricas"
 
 Consulte la columna "Diseño de informe" en esta tabla para determinar cómo "Orden de las métricas" interactúa con otras opciones de informes de Data Warehouse.
 
-| ¿Ordenar por métrica? | ¿Tiene métricas? | ¿Tienes desgloses? | ¿Granularidad de la fecha? | ¿Máximo de filas establecidas? | Diseño de informe |
+| Ordenar por métrica? | ¿Tiene métricas? | ¿Tienes desgloses? | ¿Granularidad de la fecha? | ¿Máximo de filas establecidas? | Diseño de informe |
 |---|---|---|---|---|---|
 | No | Sí o No | Sí o No | Sí o No | Sí o No | 1 |
 | Sí | No | Sí o No | Sí o No | Sí o No | 1 |
