@@ -5,9 +5,9 @@ seo-title: 'Caso de uso: obtención de ID de visitantes'
 solution: Analytics
 title: 'Caso de uso: obtención de ID de visitantes'
 topic: Herramientas de administración
-uuid: ed 228334-619 c -43 d 7-b 781-a 18 af 73 b 00 bb
+uuid: ed228334-619c-43d7-b781-a18af73b00bb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
