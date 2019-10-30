@@ -1,18 +1,18 @@
 ---
 description: Si protege la hoja de cálculo (mediante el bloqueo de celdas), no se podrán crear, editar ni actualizar solicitudes. Quite toda protección de la hoja de cálculo antes de utilizar el administrador de solicitudes.
 seo-description: Si protege la hoja de cálculo (mediante el bloqueo de celdas), no se podrán crear, editar ni actualizar solicitudes. Quite toda protección de la hoja de cálculo antes de utilizar el administrador de solicitudes.
-seo-title: Elementos de hoja de cálculo protegidos
+seo-title: Elementos de hojas de cálculo protegidas
 solution: Analytics
-title: Elementos de hoja de cálculo protegidos
+title: Elementos de hojas de cálculo protegidas
 topic: Creador de informes
-uuid: 4 b 632862-4943-4567-a 458-46 a 6548952 fa
+uuid: 4b632862-4943-4567-a458-46a6548952fa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Elementos de hoja de cálculo protegidos
+# Elementos de hojas de cálculo protegidas
 
 Si protege la hoja de cálculo (mediante el bloqueo de celdas), no se podrán crear, editar ni actualizar solicitudes. Quite toda protección de la hoja de cálculo antes de utilizar el administrador de solicitudes.
 
