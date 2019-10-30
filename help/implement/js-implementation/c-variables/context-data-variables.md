@@ -1,6 +1,6 @@
 ---
 description: Las variables de datos de contexto permiten definir las variables personalizadas de cada página que pueden leer las reglas de procesamiento.
-keywords: Implementación de Analytics;contextdata;s.contextdata
+keywords: Implementación de Analytics, contextdata, s.contextdata
 seo-description: Las variables de datos de contexto permiten definir las variables personalizadas de cada página que pueden leer las reglas de procesamiento.
 seo-title: Variables de datos de contexto
 solution: Analytics
@@ -9,7 +9,7 @@ title: Variables de datos de contexto
 topic: Desarrollador e implementación
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ Las variables de datos de contexto permiten definir las variables personalizadas
 
 En lugar de asignar explícitamente valores a props y eVars en el código, puede enviar datos en las variables de datos de contexto que se asignan mediante reglas de procesamiento. Las reglas de procesamiento proporcionan una poderosa interfaz gráfica para realizar cambios en los datos a medida que se reciben. En función de los valores enviados en los datos de contexto, puede configurar eventos, copiar valores a eVars y props y ejecutar enunciados condicionales adicionales.
 
->[!NOTE]
->
->Las variables de datos de contexto no distinguen entre mayúsculas y minúsculas. Por ejemplo, las dos instancias siguientes son iguales a todos los efectos:
+> [!NOTE] Las variables de datos de contexto no distinguen entre mayúsculas y minúsculas. Por ejemplo, las dos instancias siguientes son iguales a todos los efectos:
 >```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
@@ -33,7 +31,7 @@ En lugar de asignar explícitamente valores a props y eVars en el código, puede
 
 El uso de datos de contexto le ayuda a evitar tener que hacer actualizaciones del código para admitir configuraciones de grupos de informes distintas.
 
-Por ejemplo, puede definir la siguiente variable *`s.contextData`* variable:
+Por ejemplo, puede definir la siguiente variable *`s.contextData`* campaign:
 
 ```
 s.contextData['myco.rsid'] = 'value'
@@ -57,11 +55,11 @@ Debido a que las reglas de procesamiento se aplican únicamente cuando los datos
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Nombres y caracteres admitidos </p> </td> 
-   <td colname="col2"> <p>Los nombres de variables de datos de contexto solo pueden contener caracteres alfanuméricos, guión bajo y punto. Todos los demás caracteres se eliminan. Las variables de datos de contexto no tienen una designación numérica, sino que se les asigna un nombre. </p> <p>Por ejemplo, la variable de datos de contexto <code>login_page-home</code> se transforma automáticamente en <code>login_pagehome </code>. Todos los datos que se envíen a la variable <code>login_page-home</code> se asignan a <code>login_pagehome </code>. </p> </td> 
+   <td colname="col2"> <p>Los nombres de variables de datos de contexto solo pueden contener caracteres alfanuméricos, guión bajo y punto. Todos los demás caracteres se eliminan. Las variables de datos de contexto no tienen una designación numérica, sino que se les asigna un nombre. </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Espacio de nombres </p> </td> 
-   <td colname="col2"> <p>Se recomienda prefijar las variables con el nombre de su empresa, el nombre de su sitio o un valor similar para así asegurarse de que el nombre es único en el grupo de informes. </p> <p>Se puede poner nombre a las variables de datos de contexto de forma similar a como se hace con otras variables de JavaScript. Tenga en cuenta que el espacio de nombres <code>a.*</code> está reservado para el uso de los productos de Adobe en los nombres de las variables de contexto. Por ejemplo, la biblioteca de AppMeasurement para iOS usa <code>a.InstallEvent</code> para medir las instalaciones de aplicaciones. </p> </td> 
+   <td colname="col2"> <p>Se recomienda prefijar las variables con el nombre de su empresa, el nombre de su sitio o un valor similar para así asegurarse de que el nombre es único en el grupo de informes. </p> <p>Se puede poner nombre a las variables de datos de contexto de forma similar a como se hace con otras variables de JavaScript. Be aware that the namespace <code> a.* </code> is reserved for use by Adobe products in context variable names. Por ejemplo, la biblioteca de AppMeasurement para iOS usa <code> a.InstallEvent </code> para medir las instalaciones de aplicaciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Límites de URL para Internet Explorer </p> </td> 
@@ -86,7 +84,7 @@ s.tl(true,"o","Link Name");
 
 ## Ejemplos {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Posibles maneras de reemplazar la implementación de la *`s.pageName`* variable, suponiendo que las reglas de procesamiento estén correctamente configuradas para cada una:
+Posibles maneras de reemplazar la implementación de la variable *`s.pageName`*, suponiendo que las reglas de procesamiento estén correctamente configuradas para cada una:
 
 ```
 s.contextData['page'] = "Home Page" 
