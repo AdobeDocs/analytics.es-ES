@@ -4,10 +4,10 @@ seo-description: Este informe muestra el tiempo que transcurre entre las visitas
 seo-title: Frecuencia de retorno
 solution: Analytics
 title: Frecuencia de retorno
-topic: 'Informes '
-uuid: 7069205 d -8 fab -4 ff 7-9 d 01-be 9705142 e 27
+topic: Informes
+uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,5 +37,5 @@ De manera predeterminada, este informe incluye los siguientes períodos:
 ## Notas {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
 * Este informe no registra visitantes de primera visita, ya que no hay ninguna visita anterior con la que compararla.
-* El intervalo de fecha del informe usa la hora en que se produjo la primera visita. Por ejemplo, un visitante llega al sitio en abril y vuelve dos veces en el mismo día en octubre. Si se ejecuta un informe de Frecuencia de retorno para el mes de octubre, mostraría una visita en el apartado "hace más de 1 mes" y una visita en el apartado "hace menos de 1 día".
+* El intervalo de fecha del informe usa la hora en que se produjo la primera visita. Por ejemplo, un visitante llega al sitio en abril y vuelve dos veces en el mismo día en octubre. Si se extrae un informe de frecuencia de retorno para el mes de octubre, se mostrará una visita en "más de 1 mes" y una visita en "menos de 1 día".
 
