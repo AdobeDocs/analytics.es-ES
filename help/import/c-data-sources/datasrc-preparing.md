@@ -3,12 +3,12 @@ description: Pasos que puede seguir como preparación para utilizar fuentes de d
 seo-description: Pasos que puede seguir como preparación para utilizar fuentes de datos
 seo-title: Preparación para el uso de fuentes de datos
 solution: Analytics
-subtopic: ' Fuentes de datos'
+subtopic: Fuentes de datos
 title: Preparación para el uso de fuentes de datos
 topic: Desarrollador e implementación
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,7 @@ Cuando determine la correspondencia entre métricas y eventos para la fuente de 
 
 Consulte [Eventos de éxito](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) en la ayuda de Herramientas de administración.
 
->[!NOTE]
->
->Adobe recomienda encarecidamente el uso de eventos nuevos y vacíos con fuentes de datos, pero en casos excepcionales puede que sea recomendable utilizar un evento preexistente.
+> [!NOTE] Adobe recomienda encarecidamente el uso de eventos nuevos y vacíos con fuentes de datos, pero en casos excepcionales puede que sea recomendable utilizar un evento preexistente.
 
 ## Identificar las dimensiones de datos {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -43,9 +41,7 @@ Por ejemplo, si una métrica de fuentes de datos mide la cantidad de impresiones
 
 Las métricas se pueden definir con varias dimensiones de datos, pero entonces deben proveer un valor o una combinación de valores pertinentes a cada dimensión de datos asociada. Por ejemplo, si importa una métrica de ventas sin conexión y la asocia con las dimensiones de datos *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
->[!NOTE]
->
->It is possible to import Total metrics that cannot be broken down by any data dimension.
+> [!NOTE] Es posible importar métricas totales que no se pueden desglosar por ninguna dimensión de datos.
 
 Después de definir las dimensiones de datos que se tienen que utilizar con una fuente de datos, asigne los datos de las dimensiones a una variable para integrarlos en los informes de marketing. Utilice informes estándar (por ejemplo, producto, código de seguimiento, palabra clave de búsqueda) o variables de tráfico de conversiones (eVars).
 
