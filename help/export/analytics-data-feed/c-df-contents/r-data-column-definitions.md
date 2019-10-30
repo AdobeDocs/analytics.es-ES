@@ -1,13 +1,13 @@
 ---
 description: Utilice esta sección para seleccionar qué columnas de datos incluir en la fuente y especificar cómo deben procesarse y agruparse los datos de la fuente antes de la entrega.
-keywords: Fuente de datos; data; column; definiciones; seleccionar plantillas de columna; flujo de navegación; columnas disponibles; columnas incluidas; compresión, formato; tipo de paquete; incluir manifiesto de datos; eliminar caracteres de escape; download csv
+keywords: Fuente de datos;datos;columna;definiciones;seleccionar plantillas de columna;flujo de navegación;columnas disponibles;columnas incluidas;formato de compresión;tipo de paquete;incluir manifiesto de datos;eliminar caracteres de escape;descargar csv
 seo-description: Utilice esta sección para seleccionar qué columnas de datos incluir en la fuente y especificar cómo deben procesarse y agruparse los datos de la fuente antes de la entrega.
 seo-title: Definiciones de columnas de datos
 solution: Analytics
 title: Definiciones de columnas de datos
-uuid: 43370933-5 dd 9-48 f 0-a 1 be -3 d 10 d 38 a 0 edb
+uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,5 @@ La sección de definiciones de columnas de datos contiene lo siguiente:
 
 La opción Descargar CSV permite descargar la definición de columna de datos actual.
 
->[!NOTE]
->
->Esta opción solo está disponible cuando se agrega al menos una columna a la lista Columnas incluidas.
+> [!NOTE] Esta opción solo está disponible después de agregar al menos una columna a la lista Columnas incluidas.
 
