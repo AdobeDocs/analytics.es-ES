@@ -1,13 +1,13 @@
 ---
 description: La sección Destino de la fuente define cómo se distribuye la fuente.
-keywords: Fuente de datos; feed; destination; sftp; s 3; ftp; configuración
+keywords: Fuente de datos;fuente;destino;sftp;s3;ftp;configuración
 seo-description: La sección Destino de la fuente define cómo se distribuye la fuente.
 seo-title: Destino de la fuente
 solution: Analytics
 title: Destino de la fuente
-uuid: 4 a 59 e 8 de-e 7 a 6-4 f 7 a-bf 42-db 7 d 59 e 61 b 4 c
+uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -103,7 +103,7 @@ La siguiente tabla incluye las opciones de todos los canales de distribución. L
   </tr> 
   <tr> 
    <td colname="col1"> <p> Host </p> </td> 
-   <td colname="col2"> <p>Especifique la ubicación del host de FTP o SFTP. </p> <p>Este valor debe especificarse con el formato adecuado para ftp/sftp, <code>ftp.dominio.com/subdominio</code> o <code>sftp.dominio.com/subdominio</code>. </p> <p> Los puertos estándar 21 y 22 son necesarios para FTP y SFTP. </p> </td> 
+   <td colname="col2"> <p>Especifique la ubicación del host de FTP o SFTP. </p> <p>Este valor debe cumplir el formato ftp/sftp correcto <code> ftp.domain.com/subdomain</code> o <code> sftp.domain.com/subdomain</code>. </p> <p> Los puertos estándar 21 y 22 son necesarios para FTP y SFTP. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contraseña </p> <p>Confirmar contraseña </p> </td> 
