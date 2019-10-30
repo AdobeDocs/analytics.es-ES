@@ -4,10 +4,10 @@ seo-description: Muestra las métricas basadas en si el dispositivo tiene JavaSc
 seo-title: Asistencia técnica de JavaScript
 solution: Analytics
 title: Asistencia técnica de JavaScript
-topic: 'Informes '
-uuid: 7 b 95001 a-cd 35-478 a -8 b 24-54 d 30666110 d
+topic: Informes
+uuid: 7b95001a-cd35-478a-8b24-54d3066110d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Muestra las métricas basadas en si el dispositivo tiene JavaScript habilitado, deshabilitado o si se cuenta como "no identificado".
 
->[!NOTE]
->
->In early November 2016, we plan to remove the restriction where JavaScript is always listed as *`disabled / unidentified`* for Mobile devices.
+> [!NOTE] A principios de noviembre de 2016, planeamos eliminar la restricción en la que JavaScript siempre aparece como *`disabled / unidentified`* para dispositivos móviles.
 
 El informe JavaScript corresponde a la columna javascript de los datos sin procesar.
 
