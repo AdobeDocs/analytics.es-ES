@@ -1,6 +1,6 @@
 ---
 description: Descripción de las bibliotecas de medición disponibles.
-keywords: Implementación de Analytics;recopilar;datos;recopilación
+keywords: Implementación de Analytics, recopilar, datos, recopilación
 seo-description: Descripción de las bibliotecas de medición disponibles.
 seo-title: Resumen de bibliotecas adicionales
 solution: Analytics
@@ -8,7 +8,7 @@ title: Resumen de bibliotecas adicionales
 topic: Desarrollador e implementación
 uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
