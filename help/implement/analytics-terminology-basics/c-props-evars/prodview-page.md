@@ -7,8 +7,8 @@ solution: Analytics
 title: Página de vista detallada del producto
 topic: Desarrollador e implementación
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 656fb909447ed079fa42a909a9c197296c9e2723
 
 ---
 
@@ -46,7 +46,7 @@ s.products=";SKU"
 
 ```js
 s.events="scCheckout" 
-s.products=”;SKU" 
+s.products=";SKU" 
 ```
 
 ## Página de confirmación {#section_E006943CD5FD42358086581CA44B9660}
