@@ -1,19 +1,19 @@
 ---
 description: Esta tabla de referencia define los campos, las opciones y los atributos de visita que puede seleccionar en la página Reglas de procesamiento de canal de mercadotecnia.
 seo-description: Esta tabla de referencia define los campos, las opciones y los atributos de visita que puede seleccionar en la página Reglas de procesamiento de canal de mercadotecnia.
-seo-title: 'Reglas de procesamiento de canal de mercadotecnia: definiciones'
+seo-title: 'Reglas de procesamiento de canal de marketing: Definiciones'
 solution: Analytics
 subtopic: Canales de mercadotecnia
-title: 'Reglas de procesamiento de canal de mercadotecnia: definiciones'
+title: 'Reglas de procesamiento de canal de marketing: Definiciones'
 topic: Reports and Analytics
-uuid: 4 e 71 ff 5 b -912 a -4 dc 0-9 c 22-4 be 74 c 5 e 3 cc 0
+uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Reglas de procesamiento de canal de mercadotecnia: definiciones
+# Reglas de procesamiento de canal de marketing: Definiciones
 
 Esta tabla de referencia define los campos, las opciones y los atributos de visita que puede seleccionar en la página Reglas de procesamiento de canal de mercadotecnia.
 
@@ -35,11 +35,11 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
   </tr>
   <tr> 
    <td colname="col1"> <p>ID de AMO </p> </td> 
-   <td colname="col2"> <p>Código de seguimiento principal utilizado por las integraciones de Advertising Cloud y Advertising Analytics. Cuando una de estas integraciones está habilitada, el prefijo del código de seguimiento se puede utilizar para identificar canales específicos de Advertising Cloud. Utilice "AMO ID" con "AL" para la búsqueda, "AC" para Mostrar o "AO" para Social. Cuando se utiliza el ID de AMO en los canales de mercadotecnia, las métricas de costo/costo/impresión pueden atribuirse al canal correcto (cuando no se configura, estas métricas se dirigen a Directas o Ninguna). </p> </td> 
+   <td colname="col2"> <p>El código de seguimiento principal utilizado por las integraciones de Advertising Cloud y Advertising Analytics. Cuando se habilita una de estas integraciones, se puede usar el prefijo del código de seguimiento para identificar canales específicos de Advertising Cloud. Utilice "AMO ID" para comenzar con "AL" para la búsqueda, "AC" para la visualización o "AO" para Social. Cuando se utiliza el ID de AMO en los canales de mercadotecnia, las métricas de clics, costos e impresiones se pueden atribuir al canal correcto (cuando no se configuren, estas métricas irán a Directas o a Ninguna). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>ID ED ED </p> </td> 
-   <td colname="col2"> <p>Código de seguimiento secundario utilizado por Advertising Cloud. El principal objetivo de este código de seguimiento es servir como clave para enviar datos nuevamente a la nube de publicidad. No obstante, también se puede utilizar para identificar pulsaciones de visualización vs. visualizaciones de visualización si desea verlos como dos canales de mercadotecnia separados. Esto se puede hacer configurando la lógica de canal de mercadotecnia para "AMO EF ID" en ": d "para Mostrar clickthroughs o" AMO EF ID "termina con": i "para Visualizaciones de visualización. Si no desea dividir la visualización en dos canales, use la dimensión ID de AMO en su lugar. </p> </td> 
+   <td colname="col1"> <p>ID DE AMO ED </p> </td> 
+   <td colname="col2"> <p>Código de seguimiento secundario utilizado por Advertising Cloud. El propósito principal de este código de seguimiento es servir como clave para enviar datos de vuelta a Ad Cloud. Sin embargo, también se puede utilizar para identificar las visualizaciones de pulsaciones vs. visualizaciones de pulsaciones si desea verlas como dos canales de mercadotecnia independientes. Esto se puede hacer configurando que la lógica del canal de mercadotecnia para "AMO EF ID" termine con ":d" para las visualizaciones de pulsaciones o que "AMO EF ID" termine con ":i" para las visualizaciones de visualizaciones. Si no desea dividir la visualización en dos canales, utilice la dimensión de ID de AMO en su lugar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de conversión </p> </td> 
@@ -51,7 +51,7 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
      <ul id="ul_FE39B5F36235441FB757CC73CA2C4F51"> 
       <li id="li_6DC09918D69B443091AB94DB773D5189"> <p> <span class="uicontrol"> No existe</span>: indica que el atributo de visita no existe en la solicitud. Por ejemplo, en un dominio referente, si el usuario escribe una dirección URL o hace clic en un marcador, el atributo de dominio referente no existe. </p> </li> 
       <li id="li_3AB958F997974682824E85014CA266D6"> <p> <span class="uicontrol"> Está vacío</span>: indica que existe un atributo de visita que, generalmente, es un parámetro de eVar o de cadena de consulta, pero que no hay ningún valor asociado al atributo de visita. </p> </li> 
-      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> No contiene </span>: Permite especificar, por ejemplo, que un dominio de referencia no contiene un valor específico (en oposición a utilizar la selección <span class="term"> Contiene </span>. </p> </li> 
+      <li id="li_25EDA39748D141BA8173CC4C41035ABA"> <p> <span class="uicontrol"> No Contiene </span>: Permite especificar, por ejemplo, que un dominio de referencia no contiene un valor específico (a diferencia de usar la selección <span class="term"> Contiene </span>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
   </tr> 
   <tr> 
    <td colname="col1"> <p>El referente no concuerda con los filtros de dirección URL internos </p> </td> 
-   <td colname="col2"> <p>La dirección URL de referencia no coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. Puede utilizar esta configuración con <span class="term"> URL de página </span> y <span class="term"> Existe </span> para configurar una regla de captador global, de modo que ninguna visita aterrice en la sección <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No se identificó </a> el canal del informe. </p> </td> 
+   <td colname="col2"> <p>La dirección URL de referencia no coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. Puede utilizar esta configuración con <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hacer caso omiso de visitas que coincidan con los filtros de direcciones de URL internas </p> </td> 
@@ -83,8 +83,8 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
    <td colname="col2"> <p>Primera página de una visita detectada por los informes de Adobe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Página </p> </td> 
-   <td colname="col2"> <p>El nombre de una página web del sitio que está etiquetada con la señalización web de Adobe. Este valor equivale a <span class="varname"> s.pageName </span>. Examples include <span class="varname"> Home Page </span> and <span class="varname"> About Us </span>. </p> </td> 
+   <td colname="col1"> <p>Activity Map </p> </td> 
+   <td colname="col2"> <p>El nombre de una página web de su sitio que se etiqueta con la señalización web de Adobe. This value is equivalent to <span class="varname"> s.pageName </span>. Algunos ejemplos son <span class="varname"> Página principal </span> y <span class="varname"> Información sobre la empresa </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio de página </p> </td> 
@@ -137,12 +137,13 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
   <tr> 
    <td colname="col1"> <p>Motor de búsqueda + Palabras clave </p> </td> 
    <td colname="col2"> <p>Una concatenación de la palabra clave de búsqueda y el motor de búsqueda que identifica de forma exclusiva el motor de búsqueda. Por ejemplo, si busca la palabra ordenador, el motor de búsqueda y la palabra clave se identifican de este modo: </p> 
-    <code>Código de seguimiento de búsqueda = " &lt; tipo_ de_ búsqueda &gt;: &lt; motor de búsqueda &gt;: &lt; palabra clave de búsqueda &gt; "donde search_ type =" n "o" p ", motor_ de_ búsqueda =" Google "y palabra_ clave_ de_ búsqueda =" equipo " </code>
-  <p><b>Nota:</b> n = natural; p = paga </p> </td> 
+    <code>
+      Search&nbsp;Tracking&nbsp;Code&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"&lt;search_type&gt;:&lt;search&nbsp;engine&gt;:&lt;search&nbsp;keyword&gt;"&nbsp;where &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search_type&nbsp;=&nbsp;"n"&nbsp;or&nbsp;"p",&nbsp;search_engine&nbsp;=&nbsp;"Google",&nbsp;and&nbsp;search_keyword&nbsp;= &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"computer" 
+    </code> <p><b></b> Nota: n = natural; p = pago </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Definir el valor del canal en </p> </td> 
-   <td colname="col2"> <p>Además de saber qué canal de mercadotecnia lleva al visitante a su sitio, puede saber también qué anuncio de banner, palabra clave de búsqueda o campaña de correo electrónico del canal recibe crédito por la actividad del visitante en el sitio. Este identificador es un valor de canal que se almacena junto con el canal. A menudo, este valor es un identificador de campaña integrado en la página de aterrizaje o en la dirección URL de referencia; en otros casos es la combinación del motor de búsqueda y la palabra clave de búsqueda, o bien, la dirección URL de referencia que identifica de forma más correcta al visitante en un canal particular. </p> </td> 
+   <td colname="col2"> <p>Además de saber qué canal de mercadotecnia lleva a un visitante a su sitio, puede saber qué publicidad tipo titular, palabra clave de búsqueda o campaña de correo electrónico dentro del canal recibe crédito por la actividad del visitante en el sitio. Este identificador es un valor de canal que se almacena junto con el canal. A menudo, este valor es un identificador de campaña integrado en la página de aterrizaje o en la dirección URL de referencia; en otros casos es la combinación del motor de búsqueda y la palabra clave de búsqueda, o bien, la dirección URL de referencia que identifica de forma más correcta al visitante en un canal particular. </p> </td> 
   </tr> 
  </tbody> 
 </table>
