@@ -1,18 +1,18 @@
 ---
 description: La política sobre FTP de Adobe deshabilita automáticamente el acceso a las cuentas de FTP que están inactivas durante 90 días seguidos.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: La política sobre FTP de Adobe deshabilita automáticamente el acceso a las cuentas de FTP que están inactivas durante 90 días seguidos.
-seo-title: Eliminar datos de FTP y cuentas FTP
+seo-title: Eliminación de datos y cuentas de FTP
 solution: Analytics
-title: Eliminar datos de FTP y cuentas FTP
-uuid: 1 cbd 3 add -3561-492 a -9 ed 4-aedbd 3 d 5 b 257
+title: Eliminación de datos y cuentas de FTP
+uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Eliminar datos de FTP y cuentas FTP
+# Eliminación de datos y cuentas de FTP
 
 La política sobre FTP de Adobe deshabilita automáticamente el acceso a las cuentas de FTP que están inactivas durante 90 días seguidos.
 
