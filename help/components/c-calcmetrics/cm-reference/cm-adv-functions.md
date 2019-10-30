@@ -3,9 +3,9 @@ description: Marque Mostrar avanzadas para acceder a estas funciones en la lista
 seo-description: Marque Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 seo-title: Funciones avanzadas de referencia
 title: Funciones avanzadas de referencia
-uuid: 7 d 1071 b 9-1737-4 b 7 c-b 318-87907 dae 5619
+uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: ff46935f6ec38c8981e4a1fffdbdc637bdf557db
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,9 +36,7 @@ Por otra parte, si tiene dos métricas en las que está interesado, puede que no
 
 Devuelve el valor de su argumento. Utilice NO para asegurarse de que un valor no es igual a un valor en concreto.
 
->[!NOTE]
->
->0 (cero) significa Falso y cualquier otro valor es Verdadero.
+> [!NOTE] 0 (cero) significa False y cualquier otro valor es True.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -65,7 +63,7 @@ Approximate Count Distinct (dimension)
 
 El número aproximado de elementos distintos (eVar del ID del cliente) es un caso práctico común para esta función.
 
-Definición para una nueva métrica calculada “Clientes aproximados”:
+Definición de una nueva métrica calculada "Clientes aproximados":
 
 ![](assets/approx-count-distinct.png)
 
@@ -214,9 +212,7 @@ Devuelve la media de las últimas N filas.
 
 Si N &lt;= 0 utiliza todas las filas anteriores. Como se ordena por la dimensión, solo resulta útil en dimensiones que tienen un orden natural como la fecha o la longitud de ruta.
 
->[!NOTE]
->
->Esto no funciona como se espera con métricas de tasa como ingresos/visitantes: calcula la media de las tasas en lugar de sumar los ingresos sobre el último N y sumar los visitantes sobre el último N y luego los divide. En su lugar utilice
+> [!NOTE] Esto no funciona como es de esperar con métricas de tasa como ingresos/visitante: promedia las tasas en lugar de sumar los ingresos en la última N y sumar los visitantes en la última N y luego dividirlos. En su lugar utilice
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -459,9 +455,7 @@ Devuelve todos los elementos que no contienen la coincidencia exacta del valor i
 
 Devuelve TRUE si algún argumento es VERDADERO o devuelve FALSE si todos los argumentos son FALSOS.
 
->[!NOTE]
->
->0 (cero) significa Falso y cualquier otro valor es Verdadero.
+> [!NOTE] 0 (cero) significa False y cualquier otro valor es True.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -658,7 +652,7 @@ Es el nombre por el que también se conoce una variable estandarizada, concretam
 
 Realiza una prueba T con una distribución m con una unidad tipificada de col y n grados de libertad.
 
-The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+La firma es `t_test( x, n, m )`. Debajo, simplemente llama `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
 Aquí, `m` es la cantidad de colas y `n`, los grados de la libertad. Estos deben ser números (constantes en todo el informe, es decir, que no se modifiquen de fila a fila).
 
@@ -702,11 +696,9 @@ La ecuación de variable estandarizada es:
 
 donde [!DNL x] es la puntuación sin procesar, [!DNL μ] es la media de población y [!DNL σ] es la desviación estándar de la población.
 
->[!NOTE]
->
->[!DNL μ] (mu) y[!DNL σ] (sigma) se calculan automáticamente a partir de la métrica.
+> [!NOTE] [!DNL μ][!DNL σ] (mu) y (sigma) se calculan automáticamente a partir de la métrica.
 
-Variable estandarizada (métrica)
+Puntuación Z(métrica)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -729,7 +721,5 @@ Realiza una prueba Z con una distribución n con una variable estandarizada de A
 
 Devuelve la probabilidad de que la fila actual pueda verse por casualidad en la columna.
 
->[!NOTE]
->
->Asume que los valores se distribuyen normalmente.
+> [!NOTE] Supone que los valores se distribuyen normalmente.
 
