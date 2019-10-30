@@ -5,7 +5,7 @@ seo-title: Entregar conector de datos para Adobe Analytics
 title: Entregar conector de datos para Adobe Analytics
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -70,7 +70,7 @@ Podría haber tarifas asociadas con esta integración.
 
 ## Qué Debe Saber Antes De Activar Esta Integración{#what-you-should-know-before-activating-this-integration}
 
-Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
+Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y el software de correo electrónico.
 
 Al hacerlo, se asegurará de que se apliquen las prácticas recomendadas o los requisitos previos adecuados antes de la activación, lo que resultará en una integración óptima y exitosa.
 
