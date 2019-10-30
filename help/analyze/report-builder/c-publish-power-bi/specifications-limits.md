@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Limitaciones y especificaciones
 title: Limitaciones y especificaciones
-uuid: 6717 b 6 ea -7 e 01-49 b 8-8 f 6 e-fb 733 a 03 b 687
+uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE]
->
->Estas restricciones se aplican únicamente a la opción "Publicar solicitudes del Creador de informes como tablas de conjuntos de datos de Power BI".
+> [!NOTE] Estas restricciones solo se aplican a la opción "Publicar solicitudes del Creador de informes como tablas de conjuntos de datos de Power BI".
 
 * Se puede exportar a Power BI un máximo de 100 solicitudes del Creador de informes por cada libro.
 * El proceso de programación detendrá las solicitudes de exportación al alcanzar la 101.ª solicitud.
@@ -24,9 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE]
->
->Esta especificación se aplica a las opciones "Publicar todas las solicitudes del Creador de informes como tablas de conjuntos de datos de Power BI" y "Publicar todas las tablas con formato en el libro como tablas de conjuntos de datos de Power BI".
+> [!NOTE] Esta especificación se aplica a las opciones "Publicar todas las solicitudes del Creador de informes como tablas de conjuntos de datos de Power BI" y "Publicar todas las tablas con formato en el libro como tablas de conjuntos de datos de Power BI".
 
 Editar una solicitud del Creador de informes tras su publicación en Power BI puede causar problemas.
 
