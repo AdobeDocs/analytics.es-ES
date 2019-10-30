@@ -1,17 +1,17 @@
 ---
 keywords: Analysis Workspace
-seo-title: Descripción general del Espacio de trabajo de análisis
+seo-title: Información general de Analysis Workspace
 solution: Analytics
-title: Descripción general del Espacio de trabajo de análisis
+title: Analysis Workspace sobre validación
 topic: Reports and Analytics
-uuid: 4 df 6 be 48-2 c 88-4 b 9 d -9536-ed 64 ffbb 6 ee 4
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Descripción general del Espacio de trabajo de análisis
+# Información general de Analysis Workspace
 
 Analysis Workspace elimina todas las limitaciones típicas de un único informe de Analytics. Proporciona un lienzo flexible y robusto para la creación de proyectos de análisis personalizados. Arrastre y coloque cualquier número de tablas de datos, visualizaciones y componentes (dimensiones, métricas, segmentos y granularidades de tiempo) en un proyecto. Cree de forma instantánea desgloses y segmentos, cohortes para análisis y alertas, compare segmentos, realice análisis de flujo y visitas en el orden previsto, y revise y programe informes para compartir con cualquier persona de su empresa.
 
@@ -23,9 +23,7 @@ Analysis Workspace elimina todas las limitaciones típicas de un único informe 
 
 Lista de reproducción de YouTube completa disponible [aquí](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS).
 
->[!NOTE]
->
->See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+> [!NOTE] Consulte [Novedades en Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) para obtener actualizaciones sobre las funciones.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +51,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Puede compartir estos vínculos como lo haría con el de un proyecto para llevar a un usuario hasta una visualización o panel específico de un proyecto. Se han añadido las opciones nuevas “Obtener vínculo del panel” y “Obtener vínculo de visualización”, a las que se accede con el botón derecho. Para agregar el intravínculo a un proyecto:
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Puede compartir estos vínculos como lo haría con el de un proyecto para llevar a un usuario hasta una visualización o panel específico de un proyecto. Se han añadido nuevas opciones de clic con el botón derecho denominadas "Obtener vínculo del panel" y "Obtener vínculo de visualización". Para agregar el intravínculo a un proyecto:
 
 1. Arrastre una visualización de texto a un proyecto. Puede situarla junto a una visualización o tabla que necesite contexto.
 1. Rellene el cuadro de texto con, por ejemplo, una tabla de contenido. A continuación, resalte un elemento que desee vincular a un panel o una visualización, como las métricas de éxito.
@@ -69,9 +67,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
 
 Si tiene paneles o visualizaciones contraídos en el proyecto y hace clic en un vínculo, se ampliará el panel o la visualización para que los usuarios puedan verlo.
 
->[!NOTE]
->
->You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
+> [!NOTE] También puede utilizar esta función en la opción **[!UICONTROL Editar descripción]** haciendo clic con el botón derecho.
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
@@ -105,7 +101,7 @@ Ahora, las tendencias seleccionadas están **vinculadas** a la siguiente tabla, 
 
 Como minorista, puede profundizar más que nunca antes en sus campañas para comprender cómo involucrar mejor a los clientes. Desglose los datos ilimitadamente para sus necesidades específicas; genere consultas con métricas, dimensiones, segmentos, líneas de tiempo y otros valores de desglose de análisis relevantes.
 
-![Resultado de los pasos](assets/fa_data_table_actions.png)
+![Resultado (](assets/fa_data_table_actions.png)
 
 See [Break down dimensions](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4).
 
@@ -121,7 +117,7 @@ Arrastre un segmento al panel improvisado en el nivel de proyecto para que el se
 
 ![](assets/segment-panel.png)
 
-Consulte   [Segmentos](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
+Consulte [Segmentos](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
