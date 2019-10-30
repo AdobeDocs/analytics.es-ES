@@ -4,10 +4,10 @@ seo-description: Este informe muestra la cantidad de tiempo que transcurre antes
 seo-title: Tiempo previo al evento
 solution: Analytics
 title: Tiempo previo al evento
-topic: 'Informes '
-uuid: 851 d 9 b 6 e -9 d 85-464 a -9 c 40-ce 525365 ea 7 d
+topic: Informes
+uuid: 851d9b6e-9d85-464a-9c40-ce525365ea7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
