@@ -5,9 +5,9 @@ seo-title: Copiar solicitudes adyacentes
 solution: Analytics
 title: Copiar solicitudes adyacentes
 topic: Creador de informes
-uuid: c 8 abec 0 d -6 fbd -4 a 98-8672-ede 81317487 b
+uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Del mismo modo que se copian y se pegan las solicitudes, también se pueden reub
 
 Al cortar una solicitud, ésta se elimina de su ubicación original y se sitúa en la nueva ubicación tras seleccionar [!UICONTROL Pegar solicitud]. Si se cambia de opinión tras cortar una solicitud determinada y se decide copiar o cortar una solicitud diferente de otra celda, el Creador de informes deja la primera solicitud en su celda original y solo actúa con la segunda (efectúa la copia o el pegado).
 
->[!NOTE]
->
->El creador de informes no admite el comando Deshacer de Excel para cortar o pegar solicitudes. Por lo tanto, se debe ser cuidadoso al cortar las solicitudes.
+> [!NOTE] El creador de informes no admite el comando Deshacer de Excel para cortar o pegar solicitudes. Por lo tanto, se debe ser cuidadoso al cortar las solicitudes.
 
 No existe limitación a la hora de copiar y pegar en la misma hoja del libro. Es posible copiar una solicitud de una hoja y pegarla en una ubicación de otra hoja del mismo libro.
 
