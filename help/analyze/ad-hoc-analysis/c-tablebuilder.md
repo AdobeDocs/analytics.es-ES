@@ -3,7 +3,7 @@ description: El Generador de tablas permite crear informes con cualquier configu
 seo-description: El Generador de tablas permite crear informes con cualquier configuración de métricas, dimensiones y segmentos. Por ejemplo, puede agregar varias métricas al Generador de tablas y aplicar segmentos a todas ellas a la vez. Puede aplicar artículos de los paneles de herramientas como filas o desgloses, o como columnas, y girar la tabla para verla de otro modo. Después de crear la tabla, puede interactuar directamente con la tabla de datos resultantes, para profundizar el análisis. Tenga presente que al generar una tabla de datos desde el Generador de tablas se ejecuta una consulta y se crea una nueva tabla de datos.
 seo-title: Generador de tablas
 title: Generador de tablas
-uuid: d 5 dbd 05 e -9 ebd -4571-b 3 a 5-3856 c 28 b 65 f 3
+uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
