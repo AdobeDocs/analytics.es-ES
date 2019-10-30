@@ -4,10 +4,10 @@ seo-description: 'Muestra las vistas de ruta, o la cantidad de veces y porcentaj
 seo-title: Flujo de página siguiente
 solution: Analytics
 title: Flujo de página siguiente
-topic: 'Informes '
-uuid: d 3 d 2 a 461-63 ee -4 bf 7-9 e 68-1 ce 1 c 345330 f
+topic: Informes
+uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,7 +39,7 @@ Utilice este informe para:
    <td colname="col2"> <p> Haga clic en <span class="uicontrol">Gráfico</span> para ver en dos niveles las páginas que más visitan los usuarios tras ver la página seleccionada. El informe también indica el momento en el que los visitantes abandonan el sitio. </p> <p>Haga clic en <b>Tabla</b> para ver las páginas siguientes en una lista similar a la del <a href="../../../components/c-variables/dimensionslist/reports-next-page.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Informe de página siguiente</a>. No obstante, también permite explorar más en profundidad cada <i>página siguiente</i> para ver las páginas siguientes en un flujo de dos páginas. </p> <p>Reports &amp; Analytics usa vistas de ruta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ad Hoc Analysis </td> 
+   <td colname="col1"> Ad Hoc Analysis  </td> 
    <td colname="col2"> <p>Haga clic en cualquier página subrayada para ampliar más el gráfico. No existen límites a la cantidad de páginas que se pueden tener en el gráfico. Además, al pasar el puntero del ratón por encima de una página, aparecerán datos sobre visitas e ingresos para esa página. </p> <p>Los Ad Hoc Analysis usan vistas de página (o cualquier otra métrica que utilice). </p> </td> 
   </tr> 
  </tbody> 
