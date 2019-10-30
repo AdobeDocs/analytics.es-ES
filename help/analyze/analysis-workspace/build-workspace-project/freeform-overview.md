@@ -2,18 +2,18 @@
 description: 'null'
 keywords: Analysis Workspace
 seo-description: 'null'
-seo-title: 'Crear proyecto: información general'
+seo-title: 'Creación de un proyecto: Resumen'
 solution: Analytics
-title: 'Crear proyecto: información general'
+title: 'Creación de un proyecto: Resumen'
 topic: Reports and Analytics
-uuid: a 68 be 05 d-f 31 e -4 e 6 d-ad 04-c 784 ecb 0 eb 00
+uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Crear proyecto: información general
+# Creación de un proyecto: Resumen
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Espacio de trabajo]**
 
@@ -44,7 +44,7 @@ La lista de proyectos de Workspace contiene la siguiente información:
 
 ## Info y configuración del proyecto {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Espacio de trabajo]** &gt; **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Info y configuración del proyecto]**
+**[!UICONTROL Espacio de trabajo]** &gt; **[!UICONTROL Proyecto]** &gt; Información y configuración **[!UICONTROL del proyecto]**
 
 ![](assets/projectinfo.png)
 
@@ -59,7 +59,7 @@ La lista de proyectos de Workspace contiene la siguiente información:
 | Descripción | Una descripción es útil para aclarar el propósito de un proyecto. Puede hacer doble clic en la descripción para editarla. |
 | Contar instancias repetidas en el proyecto | Especifica si las instancias repetidas se cuentan en los informes. Si hay varios valores secuenciales para una misma variable, puede contarlos como una o como varias instancias de la variable. |
 | Esquema de colores de visualización | Puede cambiar el esquema de colores que se utiliza en Workspace eligiendo una opción de una paleta de colores distinta o creando una paleta propia. Esta función afecta a muchos elementos de Workspace, incluidas la mayoría de las visualizaciones. |
-| Densidad de visualización | Le permite ver más datos en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. |
+| Ver densidad | Le permite ver más datos en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. |
 
 ## Menú Proyectos {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
 
@@ -69,9 +69,7 @@ El menú Proyectos principal tiene esta apariencia:
 
 Los submenús contienen las siguientes opciones.
 
->[!NOTE]
->
->Options marked by an asterisk (*) display only with **saved** projects.
+> [!NOTE] Las opciones marcadas con un asterisco (*) solo se muestran con los proyectos **guardados** .
 
 | Proyecto | Editar | Insertar | Componentes | Compartir | Ayuda |
 |---|---|---|---|---|---|
