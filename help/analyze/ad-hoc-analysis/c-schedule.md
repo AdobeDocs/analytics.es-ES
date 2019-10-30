@@ -5,7 +5,7 @@ seo-title: Administrador de programación
 solution: Analytics
 title: Administrador de programación
 topic: Ad Hoc Analysis
-uuid: 82 a 054 ef -109 d -414 d-a 6 e 1-e 09 ee 57 c 163 f
+uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -22,13 +22,13 @@ La programación de envío de los informes se puede personalizar. Por ejemplo, d
 
 >[!NOTE]
 >
->Cuando se desactiva una cuenta de usuario, se suspenden todos los envíos de informes programados que hayan sido creados por ese usuario.
+>Cuando se deshabilita una cuenta de usuario, se suspenden todos los envíos de informes programados que haya creado ese usuario.
 
-To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns.
+Para asegurarse de que los elementos de línea de un desglose son persistentes en los informes programados y guardados, utilice la función **[!UICONTROL Editar elementos]** del Generador de [tablas](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) para crear listas de dimensiones fijas en los desgloses.
 
 >[!IMPORTANT]
 >
->Análisis específicos permite definir y programar rápidamente informes para obtener informes específicos, oportunos y específicos. No se ha diseñado para la exportación completa de datos con una gran cantidad de datos o filas, columnas, evaluaciones métricas o desgloses exhaustivos con extractos de datos.
+>Los análisis específicos le permiten definir y programar rápidamente informes para satisfacer necesidades específicas de informes puntuales y específicos. No se ha diseñado para la exportación completa de datos con una gran cantidad de datos o filas, columnas, evaluaciones métricas o desgloses exhaustivos con extractos de datos.
 >
 >Las restricciones prácticas para los informes programados en Ad Hoc Analysis se basan en este principio: si su informe no se genera en diez minutos (el tiempo de espera para Ad Hoc Analysis), lo más probable es que su informe sea demasiado complejo.
 >
