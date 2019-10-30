@@ -5,9 +5,9 @@ seo-title: Características de los informes
 solution: Analytics
 title: Características de los informes
 topic: Reports and Analytics
-uuid: 32 f 72961-cb 94-4 e 50-ae 18-03326 e 02 bc 8 b
+uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,31 +22,31 @@ Este ejemplo muestra un [!UICONTROL Informe de páginas]. Las opciones de config
 
 An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages Reports]** &gt; **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png){width = "672 px"}
+![](assets/pages_report.png){width="672px"}
 
 ## Barra de herramientas de informes {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Comparta los datos del informe con quienes toman decisiones y pueden cambiar las estrategias de marketing o del sitio basándose en los datos.
 
-![](assets/toolbar.png){width = "672 px"}
+![](assets/toolbar.png){width="672px"}
 
-Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Consulte también [Personalización de un informe](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Encabezado y configuración de informes {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
 Muestra la configuración del informe y permite configurar el tipo de informe, seleccionar las métricas, etc. Las opciones disponibles en este grupo varían dependiendo del informe que ejecute.
 
-![](assets/settings_header.png){width = "672 px"}
+![](assets/settings_header.png){width="672px"}
 
-See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.
+Consulte [Personalización de un informe](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) para obtener más información.
 
 ## Calendario {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
 Especifique la fecha haciendo clic en el botón de calendario y seleccionando un intervalo de fecha. También puede seleccionar dos intervalos de fechas para comparar el rendimiento.
 
-![](assets/calendar_large.png){width = "672 px"}
+![](assets/calendar_large.png){width="672px"}
 
-See [Selecting a Date or Date Range](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) and [Comparing Dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+Consulte [Selección de una fecha o un intervalo](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) de fechas y [Comparación de fechas](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
 
 ## Tipo de gráfico {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
