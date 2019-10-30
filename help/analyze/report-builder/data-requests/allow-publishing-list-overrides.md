@@ -7,7 +7,7 @@ title: Permitir anulaciones de la lista de publicación
 topic: Creador de informes
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,5 @@ Si activa [!UICONTROL Permitir anulación de la lista de publicación], el grupo
 
 Esta opción no está disponible para los grupos de informes que se seleccionen desde las celdas.
 
->[!NOTE]
->
->Si el informe programado se envía a varias listas de publicación, el informe se ejecuta una vez para cada lista. Los grupos de informes variables se reemplazan por el grupo de informes asignado a la lista de publicación.
+> [!NOTE] Si el informe programado se envía a varias listas de publicación, el informe se ejecuta una vez para cada lista. Los grupos de informes variables se reemplazan por el grupo de informes asignado a la lista de publicación.
 
