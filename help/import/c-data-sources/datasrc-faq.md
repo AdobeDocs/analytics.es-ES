@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fuentes de datos
 title: Preguntas frecuentes sobre las fuentes de datos
 topic: Desarrollador e implementación
-uuid: 394 a 627 f -093 c -400 a-bfb 3-c 2 aa 24568 deb
+uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ Cada fila del archivo de fuente de datos que comience con un signo de almohadill
 
 Sí. Puesto que muchos informes de marketing usan la columna de fecha como clave, las fuentes de datos deben incluir una columna de fecha.
 
-## ¿Se pueden almacenar datos en variables que ya se están utilizando? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 Para la importación de datos mediante fuentes de datos, Adobe recomienda seleccionar variables nuevas que no estén en uso. Si no está seguro de la configuración del archivo de datos o desea comprender mejor por qué la reutilización de variables comporta riesgos, póngase en contacto con el Servicio de atención al cliente.
 
@@ -53,7 +53,7 @@ Cuando se cargan datos mediante fuentes de datos, estos no sobrescriben otros da
 
 Cuando se cargan datos al sistema de fuentes de datos, se están cargando métricas que estarán disponibles en la interfaz de informes.
 
-Por ejemplo, al cargar los ingresos del centro de llamadas correspondientes a los productos que se venden en el sitio web, puede colocarlos en el mismo informe que los ingresos obtenidos a través de Internet. Pero no se podrán usar junto con las visitas, porque la información correspondiente a las visitas no se cargó junto con la de ingresos. Adobe únicamente puede generar informes sobre las métricas y los elementos cargados mediante las fuentes de datos (además de las métricas habituales de informes de marketing).
+Por ejemplo, al cargar los ingresos del centro de llamadas correspondientes a los productos que se venden en el sitio web, puede colocarlos en el mismo informe que los ingresos obtenidos a través de Internet. Sin embargo, no podrá utilizarlo junto con Visitas, ya que no cargó el número de visitas con él. Adobe únicamente puede generar informes sobre las métricas y los elementos cargados mediante las fuentes de datos (además de las métricas habituales de informes de marketing).
 
 ## What happens if I pass negative values into reporting through Data Sources? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -68,7 +68,7 @@ Archivo de muestra:
 <table id="table_D5408E0BDB984229B4C60A66BB53CEBB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> Fecha </code> </p> </td> 
+   <td colname="col1"> <p> <code> Date </code> </p> </td> 
    <td colname="col2"> <p> <code> Event15 </code> </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Como durante el procesamiento de fuentes de datos (genéricas, no de tráfico) s
 
 ## En las cargas de fuentes de datos o en los archivos de clasificación, ¿la extensión de archivo distingue entre mayúsculas y minúsculas? {#section_710787BA4D8C403D8326D666807832B8}
 
-Si la extensión de un archivo de clasificación o de carga de fuente de datos contiene mayúsculas, no se procesará. Es decir, las extensiones de los archivos de carga de fuentes de datos tienen que estar en minúsculas. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. However, [!DNL .txt] and [!DNL .fin] are processed.
+Si la extensión de un archivo de clasificación o de carga de fuente de datos contiene mayúsculas, no se procesará. Es decir, las extensiones de los archivos de carga de fuentes de datos tienen que estar en minúsculas. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. Sin embargo, [!DNL .txt] y [!DNL .fin] se procesan.
 
 ## ¿Se pueden agregar otros eventos a la plantilla generada o no se puede pasar de tres?{#section_F184913926DD43B1872956CED308ADB5}
 
@@ -130,7 +130,7 @@ La fuente de datos contiene todas las métricas del ID de transacción que se ha
 
 ## ¿Las eVars que continúan en este momento en el perfil del visitante se asignan a métricas cargadas mediante fuentes de datos? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-En el caso del procesamiento completo, no. En el caso del ID de transacción, sí. Las fuentes de datos de procesamiento completo se procesan mediante perfiles de visitante independientes. Por eso, aunque los ID de visitante coincidan, no se vincularán entre ellos desde el punto de vista de una asignación de eVar. Como las fuentes de datos del ID de transacción están vinculadas al perfil del visitante principal, las eVars persistentes se asignan a eventos cargados con el ID de transacción.
+En el caso del procesamiento completo, no. En el caso del ID de transacción, sí. Las fuentes de datos de procesamiento completo se procesan con perfiles de visitante independientes, por lo que aunque las ID de visitante coincidan, no se vincularán entre sí desde la perspectiva de asignación de eVar. Como las fuentes de datos del ID de transacción están vinculadas al perfil del visitante principal, las eVars persistentes se asignan a eventos cargados con el ID de transacción.
 
 ## ¿Las eVars cargadas mediante fuentes de datos continúan en el comportamiento en Internet posterior? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
