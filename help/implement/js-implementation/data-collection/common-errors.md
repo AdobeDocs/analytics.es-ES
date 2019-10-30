@@ -8,8 +8,8 @@ subtopic: Resolución de problemas
 title: Errores comunes
 topic: Desarrollador e implementación
 uuid: 04345355-60cc-4678-81c3-390c86752df1
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -56,7 +56,7 @@ s.dynamicAccountList="suiteid1,suiteid2=client.com"
 
 No escriba las variables de [!UICONTROL coincidencia de cuentas dinámicas] entre comillas. A continuación se muestran las opciones.
 
-| Nombre de host/dominio | Ninguno. |
+| Nombre de host/dominio | Ninguna |
 |---|---|
 | Cadena de consulta | s.dynamicAccountMatch=(window.location.search?window.location.search:"?") |
 | Host/dominio y ruta | s.dynamicAccountMatch=window.location.host+window.lcation.pathname |
