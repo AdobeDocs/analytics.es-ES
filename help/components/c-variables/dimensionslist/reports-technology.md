@@ -4,10 +4,10 @@ seo-description: Estos informes muestran información sobre los navegadores, los
 seo-title: Tecnología
 solution: Analytics
 title: Tecnología
-topic: 'Informes '
-uuid: 8 e 2 f 88 dc-e 1 b 9-428 e-b 0 d 3-faf 4 c 063 bebc
+topic: Informes
+uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,12 +41,12 @@ Estos informes muestran información sobre los navegadores, sistemas operativos,
    <td colname="col2"> <p> Muestra las alturas más comunes de los exploradores (en píxeles) que los visitantes utilizan para ver el sitio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Sistemas operativos </td> 
+   <td colname="col1"> Sistema operativo </td> 
    <td colname="col2"> <p> Muestra los sistemas operativos que usan los visitantes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intensidad de color del monitor </td> 
-   <td colname="col2"> <p> Muestra las configuraciones de la intensidad de color más comunes de los visitantes, según la configuración de sus ordenadores. La intensidad del color se refiere a la cantidad de colores que se pueden mostrar en la pantalla. </p> </td> 
+   <td colname="col2"> <p> Muestra la configuración de la intensidad del color más popular de los visitantes, según la configuración de su equipo. La intensidad del color se refiere a la cantidad de colores que se pueden mostrar en la pantalla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Resoluciones de monitor </td> 
@@ -62,7 +62,7 @@ Estos informes muestran información sobre los navegadores, sistemas operativos,
   </tr> 
   <tr> 
    <td colname="col1"> Versión de JavaScript </td> 
-   <td colname="col2"> <p> Muestra las versiones de JavaScript que utilizan los exploradores de los visitantes al ver el sitio. </p> </td> 
+   <td colname="col2"> <p> Muestra las versiones de JavaScript que utilizan los navegadores de los visitantes al ver el sitio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookies </td> 
