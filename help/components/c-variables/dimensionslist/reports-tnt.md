@@ -4,10 +4,10 @@ seo-description: Puede ver y segmentar los datos del tráfico de Adobe Target en
 seo-title: Target
 solution: Analytics
 title: Target
-topic: 'Informes '
-uuid: 387 dfc 37-d 799-465 c -99 e 3-2 d 3980 fec 183
+topic: Informes
+uuid: 387dfc37-d799-465c-99e3-2d3980fect183
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
