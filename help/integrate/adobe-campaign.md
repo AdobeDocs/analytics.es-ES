@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Informes de Adobe Campaign
 title: Informes de Adobe Campaign
-uuid: 0919 ae 9 f -84 eb -43 a 5-8282-6 cd 6 dec 63 dc 1
+uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,12 +54,12 @@ The integration between Adobe Campaign Standard and Adobe Analytics adds the fol
 
 ## Paso 3. Use clasificaciones de Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos]** de informes &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Adobe Campaign]** &gt; **[!UICONTROL Clasificaciones de Adobe Campaign]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **[!UICONTROL de]** informes &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Adobe Campaign]** **[!UICONTROL &gt; Clasificaciones de Adobe Campaign]**
 
 Una vez que el grupo de informes esté habilitado para Adobe Campaign, quedan disponibles las siguientes clasificaciones:
 
 * ID de entrega (nombre de entrega interno que ve en Campaign)
-* Etiqueta de entrega (Entrega en Campaña - Entrega individual/Entrega recurrente/Entrega de transacción)
+* Etiqueta de entrega (Entrega en campaña - Entrega individual/Entrega recurrente/Entrega de transacción)
 * ID de campaña (nombre de campaña interno que ve en Campaign)
 * Etiqueta de campaña (campaña en Adobe Campaign)
 * Etiqueta de entrega ejecutada (lista de entregas ejecutadas individuales)
