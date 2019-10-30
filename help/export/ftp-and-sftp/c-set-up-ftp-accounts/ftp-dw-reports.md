@@ -1,18 +1,18 @@
 ---
 description: El almacén de datos le permite solicitar informes para mostrar las relaciones de datos avanzadas a partir de datos sin procesar basándose en sus preguntas únicas.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: El almacén de datos le permite solicitar informes para mostrar las relaciones de datos avanzadas a partir de datos sin procesar basándose en sus preguntas únicas.
-seo-title: Informes entregados por el Almacén de datos
+seo-title: Informes entregados por Data Warehouse
 solution: Analytics
-title: Informes entregados por el Almacén de datos
-uuid: 7 a 26 e 6 f 7-51 a 1-45 fb-b 53 e -8 c 49 c 4 f 84 aa 6
+title: Informes entregados por Data Warehouse
+uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Informes entregados por el Almacén de datos
+# Informes entregados por Data Warehouse
 
 El almacén de datos le permite solicitar informes para mostrar las relaciones de datos avanzadas a partir de datos sin procesar basándose en sus preguntas únicas.
 
