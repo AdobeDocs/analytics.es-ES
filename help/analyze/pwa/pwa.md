@@ -1,33 +1,33 @@
 ---
-title: Pwas para Analytics
-seo-title: Pwas para Analytics
+title: PWA para Analytics
+seo-title: PWA para Analytics
 description: Aplicaciones web progresivas para Adobe Analytics
-seo-description: Usar pwas con Analytics
+seo-description: Uso de PWA con Analytics
 translation-type: tm+mt
-source-git-commit: f64e5d9977bebd0e9db4af0f7118e9e64978c1c7
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Pwas para Analytics
+# PWA para Analytics
 
-En esta guía se describe cómo utilizar Adobe Analytics con aplicaciones web progresivas (PWAS).
+Esta guía describe cómo utilizar Adobe Analytics con aplicaciones web progresivas (PWA).
 
 ## Primeros pasos
 
-Pwas puede proporcionar una experiencia nativa de aplicación, así como funciones sin conexión, para un sitio web. Normalmente, pwas incluye un trabajo de servicio, disposiciones de almacenamiento en caché y un archivo de manifiesto, todos los cuales pueden ayudar con tiempos de carga más rápidos, una navegación más sencilla y un comportamiento interactivo.
+Los archivos PWA pueden proporcionar una experiencia nativa de la aplicación, así como funciones sin conexión, para un sitio web. Normalmente, los archivos PWA incluyen un trabajador de servicios, provisiones en caché y un archivo de manifiesto, todo lo cual puede ayudar a agilizar los tiempos de carga, facilitar la navegación y mejorar el comportamiento interactivo.
 
-Adobe Analytics funciona tan perfectamente con pwas como con sitios web tradicionales. Aunque los PWAS tienen unos cuantos requisitos para comportarse de forma progresiva y de forma progresiva, no crean barreras ni limitaciones en la forma en que Analytics recopila o informa los datos de ellos de forma diferente a los sitios Web tradicionales. De hecho, como Analytics ya incluye capacidades de seguimiento sin conexión, los PWAS pueden ayudarle a aprovechar esta característica integrada más fácilmente que con sitios web tradicionales.
+Adobe Analytics funciona igual de bien con los PWA que con los sitios web tradicionales. Aunque los PWA tienen algunos requisitos más para comportarse de forma progresiva en sí mismos, no crean barreras ni limitaciones a la forma en que Analytics recopila o informa datos de ellos de forma diferente a los sitios web tradicionales. De hecho, como Analytics ya incluye funciones de seguimiento sin conexión, los PWA pueden ayudarle a aprovechar esta función integrada con más facilidad que con los sitios web tradicionales.
 
-## Obtención de los datos de PWA Analytics
+## Obtención de los datos de análisis de PWA
 
-Para recopilar y analizar los datos PWA con Analytics, no es necesario realizar cambios de configuración. Analytics proporciona automáticamente todas las funciones y funciones que utilizaría con un sitio web tradicional.
+Para recopilar y analizar los datos de PWA con Analytics, no es necesario realizar ningún cambio de configuración. Analytics proporciona automáticamente las mismas funciones y características que con un sitio web tradicional.
 
-## Agregar seguimiento sin conexión para aumentar la eficacia PWA
+## Agregar seguimiento sin conexión para aumentar la eficacia de PWA
 
-Puede aumentar la eficacia de su PWA utilizando las capacidades de seguimiento [sin conexión de Analytics](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) . De forma predeterminada, esta función está desactivada, pero puede añadir la siguiente propiedad al archivo appmeasurement. js para activarla: `s.trackOffline=true;`.
+Puede aumentar la eficacia de su PWA mediante el uso de las capacidades [de seguimiento](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) sin conexión de Analytics. De forma predeterminada, esta función está desactivada, pero puede agregar la siguiente propiedad al archivo AppMeasurement.js para activarla: `s.trackOffline=true;`.
 
-Por ejemplo, en el siguiente archivo appmeasurement. js, la propiedad se añade al final `CONFIG SECTION`de:
+Por ejemplo, en el siguiente archivo AppMeasurement.js, la propiedad se agrega al final del `CONFIG SECTION`:
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -47,8 +47,8 @@ s.trackOffline=true
 ```
 
 
-Para obtener más información sobre la edición del archivo appmeasurement. js, consulte [Inserción de código en el archivo appmeasurement. js](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html).
+Para obtener más información sobre la edición del archivo AppMeasurement.js, consulte [Inserción de código en el archivo](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)AppMeasurement.js.
 
-Para ver ejemplos de configuraciones en el archivo appmeasurement. js, consulte [Configuración del archivo appmeasurement. js](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7).
+Para obtener ejemplos de configuraciones en el archivo AppMeasurement.js, consulte [Configuración del archivo](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)AppMeasurement.js.
 
-Para obtener más información acerca de las características del archivo appmeasurement. js, consulte la descripción general de implementación [de Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+Para obtener más información sobre las características del archivo AppMeasurement.js, consulte la descripción general [de la implementación de](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)Javascript.
