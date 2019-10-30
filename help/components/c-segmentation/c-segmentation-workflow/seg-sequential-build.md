@@ -1,28 +1,28 @@
 ---
-description: Los segmentos secuenciales se crean mediante el operador ENTONCES, en lugar de Y u O. ENTONCES implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica a todos los datos coincidentes y muestra el filtro “Incluir a todos”. Los segmentos secuenciales pueden filtrarse adicionalmente a un subconjunto de visitas coincidentes mediante las opciones “Solo Antes de Secuencia” y “Solo Después de Secuencia”.
-seo-description: Los segmentos secuenciales se crean mediante el operador ENTONCES, en lugar de Y u O. ENTONCES implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica a todos los datos coincidentes y muestra el filtro “Incluir a todos”. Los segmentos secuenciales pueden filtrarse adicionalmente a un subconjunto de visitas coincidentes mediante las opciones “Solo Antes de Secuencia” y “Solo Después de Secuencia”.
+description: Los segmentos secuenciales se crean mediante el operador ENTONCES, en lugar de Y u O. ENTONCES implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica todos los datos coincidentes y muestra el filtro "Incluir a todos". Los segmentos secuenciales se pueden filtrar aún más a un subconjunto de visitas coincidentes mediante las opciones "Solo antes de la secuencia" y "Solo después de la secuencia".
+seo-description: Los segmentos secuenciales se crean mediante el operador ENTONCES, en lugar de Y u O. ENTONCES implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica todos los datos coincidentes y muestra el filtro "Incluir a todos". Los segmentos secuenciales se pueden filtrar aún más a un subconjunto de visitas coincidentes mediante las opciones "Solo antes de la secuencia" y "Solo después de la secuencia".
 seo-title: Generar segmentos secuenciales
 solution: Analytics
 title: Generar segmentos secuenciales
 topic: Segmentos
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Generar segmentos secuenciales
 
-Los segmentos secuenciales se crean mediante el operador ENTONCES, en lugar de Y u O. ENTONCES implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica a todos los datos coincidentes y muestra el filtro “Incluir a todos”. Los segmentos secuenciales pueden filtrarse adicionalmente a un subconjunto de visitas coincidentes mediante las opciones “Solo Antes de Secuencia” y “Solo Después de Secuencia”.
+Los segmentos secuenciales se crean mediante el operador ENTONCES, en lugar de Y u O. ENTONCES implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica todos los datos coincidentes y muestra el filtro "Incluir a todos". Los segmentos secuenciales se pueden filtrar aún más a un subconjunto de visitas coincidentes mediante las opciones "Solo antes de la secuencia" y "Solo después de la secuencia".
 
 ![](assets/before-after-sequence.png)
 
-Además, puede restringir los segmentos secuenciales a una duración, granularidad y recuentos entre puntos de comprobación específicos mediante los [operadores Después y Dentro de](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
+Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
 
 ## Incluir a todos {#section_75ADDD5D41F04800A09E592BB2940B35}
 
-Al crear un segmento en el cual se ha definido “Incluir a todos”, el segmento identifica las rutas de acceso que coinciden con el patrón determinado como conjunto. Este es un ejemplo de segmento de secuencia básica que busca una visita individual (Página A) seguida de otra (Página B) según la visita del mismo visitante. Este segmento está definido en Incluir a todos.
+Cuando se crea un segmento en el que se establece "Incluir a todos", el segmento identifica las rutas que coinciden con el patrón dado como un todo. Este es un ejemplo de segmento de secuencia básica que busca una visita individual (Página A) seguida de otra (Página B) según la visita del mismo visitante. Este segmento está definido en Incluir a todos.
 
 ![](assets/sequence-filter.png)
 
@@ -35,8 +35,8 @@ Al crear un segmento en el cual se ha definido “Incluir a todos”, el segment
 
 Las opciones **[!UICONTROL Solo Antes de Secuencia]** y **Solo Después de Secuencia]filtran el segmento a un subconjunto de datos anterior o posterior a la secuencia especificada.[!UICONTROL **
 
-* **Solo Antes de Secuencia**: incluye todas las visitas anteriores a la secuencia + la primera visita de la propia secuencia (consulte los ejemplos 1 y 3). Si la secuencia aparece varias veces en una ruta, “Solo Antes de Secuencia” incluye la primera visita de la última aparición de la secuencia y todas las visitas anteriores (consulte el ejemplo 2).
-* **Solo Después de Secuencia**: incluye todas las visitas posteriores a la secuencia + la última visita de la propia secuencia (consulte los ejemplos 1 y 3). Si la secuencia aparece varias veces en una ruta, “Solo Después de Secuencia” incluye la última visita de la primera aparición de la secuencia y todas las visitas posteriores (consulte el ejemplo 2).
+* **Solo Antes de Secuencia**: incluye todas las visitas anteriores a la secuencia + la primera visita de la propia secuencia (consulte los ejemplos 1 y 3). Si una secuencia aparece varias veces en una ruta, "Solo antes de la secuencia" incluye la primera visita individual de la última incidencia de la secuencia y todas las visitas individuales anteriores (ver ejemplo 2).
+* **Solo Después de Secuencia**: incluye todas las visitas posteriores a la secuencia + la última visita de la propia secuencia (consulte los ejemplos 1 y 3). Si una secuencia aparece varias veces en una ruta, "Solo después" incluye la última visita individual de la primera incidencia de la secuencia y todas las visitas individuales posteriores (véase el ejemplo 2).
 
 Por ejemplo, si tenemos una secuencia de B -&gt; D, los tres filtros identificarán las visitas del modo siguiente:
 
@@ -56,7 +56,7 @@ Por ejemplo, si tenemos una secuencia de B -&gt; D, los tres filtros identificar
 | Solo Antes de Secuencia | A | B | C | D | B |  |  |  |
 | Solo Después de Secuencia |  |  |  | D | B | C | D | E |
 
-Vamos a enmarcar también este concepto con la dimensión Profundidad de acierto.
+Enmarcemos también este concepto con la dimensión Profundidad de acierto.
 
 **Ejemplo 3: Profundidad de acierto 3 entonces 5**
 
@@ -64,9 +64,9 @@ Vamos a enmarcar también este concepto con la dimensión Profundidad de acierto
 
 ## Restricciones de dimensión {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-En una cláusula “En”, entre instrucciones ENTONCES, se puede agregar, por ejemplo, “En 1 instancia de palabra clave de búsqueda”, “En 1 instancia de eVar 47”. Esto restringe el segmento a una instancia de una dimensión.
+En una cláusula "dentro", entre instrucciones ENTONCES, puede agregar, por ejemplo, "dentro de 1 instancia de palabra clave de búsqueda", "dentro de 1 instancia de eVar 47". Esto restringe el segmento a una instancia de una dimensión.
 
-La configuración de una cláusula “En Dimensión” entre reglas permite a un segmento restringir datos a secuencias en las cuales se cumpla la cláusula. Vea el ejemplo siguiente, en el cual la restricción se define en “En 1 página”:
+La configuración de una cláusula 'En dimensión' entre reglas permite que un segmento restrinja los datos a secuencias en las que se cumpla dicha cláusula. Vea el ejemplo siguiente, en el cual la restricción se define en “En 1 página”:
 
 ![](assets/sequence-filter4.png)
 
@@ -247,9 +247,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 Los contenedores de grupo lógico son necesarios para agrupar condiciones en un único punto de comprobación secuencial de segmento. El contenedor de grupo lógico especial solo está disponible en la segmentación secuencial, para garantizar que sus condiciones se cumplen después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente. Las condiciones dentro del propio punto de control del grupo lógico pueden cumplirse en cualquier orden. Por el contrario, los contenedores no secuenciales (visita individual, visita, visitante) no requieren que se cumplan sus condiciones dentro de la secuencia global, lo que produce resultados poco intuitivos si se utilizan con un operador ENTONCES.
 El contenedor de grupo  lógico fue diseñado para tratar *varios puntos de comprobación como un grupo*, *sin ningún orden* entre los puntos de comprobación agrupados. En otras palabras, no nos importa el orden de los puntos de control dentro de ese grupo. Por ejemplo, no puede anidar un contenedor de [!UICONTROL visitante] dentro de un contenedor de [!UICONTROL visitante]. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
->[!NOTE]
->
->A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
+> [!NOTE] Un grupo  lógico solo se puede definir en un segmento secuencial, lo que significa que el operador [!UICONTROL ENTONCES] se utiliza en la expresión.
 
 | Jerarquía de contenedores | Ilustración | Definición |
 |---|---|---|
@@ -399,7 +397,7 @@ En el caso de "Después de 2 semanas", si una visita individual a una página A 
 
 >[!IMPORTANT]
 >
->En una cláusula “En”, entre instrucciones ENTONCES, se puede agregar, por ejemplo, “En 1 instancia de palabra clave de búsqueda”, “En 1 instancia de eVar 47”. Esto restringe el segmento a una instancia de una dimensión.
+>En una cláusula "dentro", entre instrucciones ENTONCES, puede agregar, por ejemplo, "dentro de 1 instancia de palabra clave de búsqueda", "dentro de 1 instancia de eVar 47". Esto restringe el segmento a una instancia de una dimensión.
 
 **Ejemplo**: Los visitantes que visitaron la página A luego visitaron la página B en un plazo de 5 minutos.
 
