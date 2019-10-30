@@ -1,26 +1,24 @@
 ---
 description: Esta capacidad integra aún más el uso del Creador de informes dentro del flujo de trabajo natural de Excel, sin necesidad de acceder a la interfaz de usuario del Creador de informes.
 seo-description: Esta capacidad integra aún más el uso del Creador de informes dentro del flujo de trabajo natural de Excel, sin necesidad de acceder a la interfaz de usuario del Creador de informes.
-seo-title: Invocar la funcionalidad del Creador de informes desde las funciones de Microsoft Excel
+seo-title: Invocar la funcionalidad del Report Builder desde las funciones de Microsoft Excel
 solution: Analytics
-title: Invocar la funcionalidad del Creador de informes desde las funciones de Microsoft Excel
+title: Invocar la funcionalidad del Report Builder desde las funciones de Microsoft Excel
 topic: Creador de informes
-uuid: 5342 cc 4 f -085 d -4 a 2 d-a 498-38 b 00 a 3 ef 4 d 3
+uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Invocar la funcionalidad del Creador de informes desde las funciones de Microsoft Excel
+# Invocar la funcionalidad del Report Builder desde las funciones de Microsoft Excel
 
 Esta capacidad integra aún más el uso del Creador de informes dentro del flujo de trabajo natural de Excel, sin necesidad de acceder a la interfaz de usuario del Creador de informes.
 
 Por ejemplo, es posible que desee actualizar automáticamente las solicitudes del Creador de informes cuyo filtro de entrada se basa en datos recuperados en Excel a partir de otras fuentes. Ahora puede hacerlo mediante la función de la cadena RefreshRequestsInCellsRange(..) . Todas las llamadas son asíncronas. Se devuelven inmediatamente y no esperan que se ejecute completamente una llamada.
 
->[!NOTE]
->
->Debe tener el Creador de informes 5.0 (o posterior) instalado para que funcione esta funcionalidad.
+> [!NOTE] Debe tener el Creador de informes 5.0 (o posterior) instalado para que esta funcionalidad funcione.
 
 A continuación encontrará una tabla con la lista de funciones expuestas:
 
