@@ -7,7 +7,7 @@ title: Administrador de programación
 topic: Ad Hoc Analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ La programación de envío de los informes se puede personalizar. Por ejemplo, d
 
 La programación de envío de los informes se puede personalizar. Por ejemplo, detener el envío de informes en un momento determinado o indicar la cantidad de veces que se desea enviar un informe. Cuando se crea una programación nueva, esta usa el intervalo de fechas definido en el informe. Por ejemplo, si crea un informe para los últimos 90 días y lo programa de modo que se ejecute en forma diaria, cada día recibirá un informe de los últimos 90 días. Si crea un informe con un intervalo de fechas estático del calendario, verá el mismo informe cada vez que se envíe.
 
->[!NOTE]
->
->Cuando se deshabilita una cuenta de usuario, se suspenden todos los envíos de informes programados que haya creado ese usuario.
+> [!NOTE] Cuando se deshabilita una cuenta de usuario, se suspenden todos los envíos de informes programados que haya creado ese usuario.
 
 Para asegurarse de que los elementos de línea de un desglose son persistentes en los informes programados y guardados, utilice la función **[!UICONTROL Editar elementos]** del Generador de [tablas](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) para crear listas de dimensiones fijas en los desgloses.
 
