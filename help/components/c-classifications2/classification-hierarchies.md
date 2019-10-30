@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Clasificaciones
 title: Jerarquías de clasificación
 topic: Herramientas de administración
-uuid: 1 b 2 b 73 af -84 ea -4 b 90-b 4 a 5-ba 75235547 fb
+uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La página Jerarquías de clasificación le permite definir jerarquías de clasificación que puede utilizar para crear informes de jerarquía con el mismo nombre.
 
-## Classification hierarchies {#concept_10A956342D7D4C3E9114CCFCE1364741}
+## Jerarquías de clasificación {#concept_10A956342D7D4C3E9114CCFCE1364741}
 
 La página [!UICONTROL Jerarquías de clasificación] permite definir jerarquías de clasificación que pueden usarse para crear informes de [!UICONTROL jerarquía] con el mismo nombre.
 
@@ -38,7 +38,7 @@ t_classification_heirarchy.xml
  -->
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Seleccione un grupo de informes.
+1. Selección de un grupo de informes.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Classification Hierarchies]**.
 1. En la lista desplegable **Generar jerarquía para**, seleccione la variable donde desee crear una jerarquía de clasificación. 
 
