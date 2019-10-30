@@ -4,17 +4,17 @@ seo-description: Muestra información sobre las estadísticas de acceso a los me
 seo-title: Vídeo
 solution: Analytics
 title: Vídeo
-topic: 'Informes '
-uuid: d 14 c 4451-2543-414 e-a 582-001 dce 001 f 5 f
+topic: Informes
+uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Vídeo
 
-Muestra información sobre las estadísticas de acceso a los medios en línea. Los informes muestran los datos en vídeo y otro acceso a los medios.
+Muestra información sobre las estadísticas de acceso a los medios en línea. Los informes muestran datos sobre vídeo y acceso otros medios.
 
 ## Vídeo {#topic_1D37A51371C74BC3A24996263C38F8E5}
 
