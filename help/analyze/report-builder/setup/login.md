@@ -1,18 +1,18 @@
 ---
 description: Información sobre las tres formas de iniciar sesión en el Creador de informes.
 seo-description: Información sobre las tres formas de iniciar sesión en el Creador de informes.
-seo-title: Inicio de sesión en el Creador de informes
+seo-title: Inicio de sesión en el Report Builder
 solution: Analytics
-title: Inicio de sesión en el Creador de informes
+title: Inicio de sesión en el Report Builder
 topic: Creador de informes
-uuid: 9 a 21 b 791-e 323-46 d 2-b 850-2 d 67 babe 964 b
+uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Inicio de sesión en el Creador de informes
+# Inicio de sesión en el Report Builder
 
 Información sobre las tres formas de iniciar sesión en el Creador de informes.
 
@@ -28,7 +28,7 @@ Actualmente están disponibles las siguientes opciones de inicio de sesión al h
 
 Use este inicio de sesión si desea iniciar sesión en el Creador de informes con sus credenciales de Adobe Analytics.
 
-**Inicio de sesión del Creador de informes: definiciones de campo**
+**Inicio de sesión del Creador de informes: definiciones de campos**
 
 | Campo | Definición |
 |--- |--- |
@@ -50,7 +50,5 @@ El inicio de sesión de Experience Cloud permite utilizar su Enterprise ID (corr
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE]
->
->El inicio de sesión de Experience Cloud se basa en la sesión y el testigo caduca al cabo de 30 días.
+> [!NOTE] El inicio de sesión de Experience Cloud se basa en una sesión y el token caduca pasados 30 días.
 
