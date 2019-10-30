@@ -4,9 +4,9 @@ seo-description: El objetivo del informe PathFinder es ayudarlo a dividir sus ru
 seo-title: PathFinder
 solution: Analytics
 title: PathFinder
-uuid: 35 a 00 bd 7-263 c -4 a 8 b -99 d 0-fea 08046 edc 7
+uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
