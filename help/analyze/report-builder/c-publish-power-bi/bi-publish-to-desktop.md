@@ -1,16 +1,16 @@
 ---
 description: Explica cómo extraer activos publicados en el Creador de informes a Power BI Desktop
 seo-description: Explica cómo extraer activos publicados en el Creador de informes a Power BI Desktop
-seo-title: Extracción de recursos publicados en Power BI Desktop
-title: Extracción de recursos publicados en Power BI Desktop
-uuid: ef 47 d 5 c 7-31 e 0-44 fc-a 792-bc 9 d 12 bb 089 e
+seo-title: Extraer activos publicados a Power BI Desktop
+title: Extraer activos publicados a Power BI Desktop
+uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Extracción de recursos publicados en Power BI Desktop
+# Extraer activos publicados a Power BI Desktop
 
 Explica cómo extraer activos publicados en el Creador de informes a Power BI Desktop
 
@@ -27,7 +27,7 @@ En la actualización de abril de 2017 de Power BI Desktop, Microsoft incluyó la
 1. Habilite **[!UICONTROL Conexión dinámica al Servicio de Power BI]** y haga clic en **[!UICONTROL Aceptar]**. ![](assets/bi-preview-features.png)
 
 1. Reinicie Power BI Desktop.
-1. Once you have restarted the desktop, go to **[!UICONTROL Home]** &gt; **[!UICONTROL Get Data]** &gt; **[!UICONTROL More...]**.
+1. **[!UICONTROL Una vez que haya reiniciado el escritorio, vaya a]** Inicio **[!UICONTROL &gt;]** Obtener datos **[!UICONTROL &gt;]** Más....
 1. Busque y seleccione **[!UICONTROL Servicio de Power BI]**.
 1. Under **[!UICONTROL Microsoft Power BI service]** &gt; **[!UICONTROL My Workspace]**, select the dataset that you had previously published from Report Builder.
 
