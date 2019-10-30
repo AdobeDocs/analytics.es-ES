@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 seo-description: Ejemplos de cómo usar tablas de datos, segmentos e ideas de casos de uso para Analysis Workspace.
 seo-title: Casos de uso de Analysis Workspace
 solution: Analytics
-title: Casos de uso de Analysis Workspace
+title: Analysis Workspace casos de uso
 topic: Reports and Analytics
-uuid: 09 e 20 b 76-8 c 31-4 d 20-920 b-bebc 877 b 3 b 70
+uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
