@@ -1,18 +1,18 @@
 ---
 description: Información sobre la función de los botones de la barra de herramientas del Creador de informes.
 seo-description: Información sobre la función de los botones de la barra de herramientas del Creador de informes.
-seo-title: Barra de herramientas del Creador de informes
+seo-title: Barra de herramientas del Report Builder
 solution: Analytics
-title: Barra de herramientas del Creador de informes
+title: Barra de herramientas del Report Builder
 topic: Creador de informes
-uuid: 9 f 340 fb 0-f 99 a -4 dd 4-bcca -19 c 54 e 5499 e 6
+uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Barra de herramientas del Creador de informes
+# Barra de herramientas del Report Builder
 
 Información sobre la función de los botones de la barra de herramientas del Creador de informes.
 
@@ -34,7 +34,7 @@ Tras instalar el Creador de informes e iniciar Excel, haga clic en **[!UICONTROL
 
 **Biblioteca:** inicia la [!UICONTROL biblioteca de libros] para que se pueda cargar un libro de Excel del Creador de informes que desee compartir. También se pueden descargar y editar libros compartidos. See [Use the Workbook Library](../../analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
-**Opciones:** Permite especificar si desea que se le pregunte la fecha **[!UICONTROL Con fecha]** (ahora) al actualizar las solicitudes y permite habilitar el registro para solucionar problemas. Consulte [Opciones](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF).
+**** Opciones: Permite especificar si desea que se le pregunte por la fecha **[!UICONTROL Con]** (ahora) al actualizar las solicitudes y permite activar el registro para solucionar problemas. Consulte [Opciones](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF).
 
 **Bloqueado/desbloqueado:** puede proteger todas las solicitudes en un libro contra las solicitudes de adición y edición bloqueando el libro. Esto permite la edición de libros sin conexión al pausar todas las solicitudes de informe para una edición más eficiente. Consulte [Bloquear/desbloquear libros](../../analyze/report-builder/workbook-library/protect-wb.md#concept_8FAD0CFBAFDF417ABDDEA4CC26F93F83).
 
