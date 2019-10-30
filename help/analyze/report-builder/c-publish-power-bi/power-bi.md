@@ -5,7 +5,7 @@ seo-title: Resumen de publicación en Power BI
 title: Resumen de publicación en Power BI
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Los libros programados son hojas de cálculo de Excel con formato, rellenas con 
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE]
->
->Si el libro contiene una macro, se desactivará "Publicar todas las tablas con formato en el libro como tablas de conjuntos de datos de Power BI".
+> [!NOTE] Si el libro contiene una macro, se desactivará "Publicar todas las tablas con formato en el libro como tablas de conjuntos de datos de Power BI".
 
 En vez de importar todo el libro, puede importar solo el contenido de todas las tablas con formato dentro del libro.
 
