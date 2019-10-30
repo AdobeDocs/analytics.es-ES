@@ -1,16 +1,16 @@
 ---
 description: Puede ver anomalías en una tabla o un gráfico de líneas.
 seo-description: Puede ver anomalías en una tabla o un gráfico de líneas.
-seo-title: Ver anomalías en Analysis Workspace
-title: Ver anomalías en Analysis Workspace
-uuid: 270 a 7 ea 9-6485-4 c 83-8220-5 a 2200 bd 7200
+seo-title: Visualización de anomalías en Analysis Workspace
+title: Visualización de anomalías en Analysis Workspace
+uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ver anomalías en Analysis Workspace
+# Visualización de anomalías en Analysis Workspace
 
 Puede ver anomalías en una tabla o un gráfico de líneas.
 
