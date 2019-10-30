@@ -6,8 +6,8 @@ seo-title: Crear condiciones para reglas basadas en eventos
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Crear condiciones para reglas basadas en eventos
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Las condiciones determinan cuándo se activa una regla basada en eventos.
 
    ![](assets/condition-event-based.png)
 
-   Para obtener más información, consulte [Tipos de eventos](https://marketing.adobe.com/resources/help/es_ES/dtm/event_types.html) en la documentación del producto de Tag Management de Adobe.
+   Para obtener más información, consulte [Tipos de evento](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html) en Documentación del producto de Tag Management.
 
 1. Habilite las opciones siguientes según sea necesario:
 
@@ -37,7 +37,7 @@ Las condiciones determinan cuándo se activa una regla basada en eventos.
 
    ![](assets/condition-event-based2.png)
 
-   Consulte [Uso del selector de CSS](https://marketing.adobe.com/resources/help/es_ES/dtm/css-selector.html) en la documentación del producto de Dynamic Tag Management para obtener información sobre cómo encontrar la etiqueta de elemento adecuada.
+   Consulte [Uso del selector CSS](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html) en Documentación del producto de Dynamic Tag Management para obtener información sobre cómo se busca la etiqueta de elemento correcta.
 
 1. Seleccione y configure cualquier tipo de condición o criterio adicional que desee relacionar con la regla.
 
