@@ -8,8 +8,8 @@ subtopic: Complementos
 title: getPreviousValue
 topic: Desarrollador e implementación
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 Captura el valor de una variable de Analytics en la siguiente vista de página. Por ejemplo, puede usar el complemento para capturar el valor s.pageName de la vista de página anterior a una variable de tráfico personalizado. También dispone de una opción para capturar un valor anterior solamente cuando los eventos de éxito designados están configurados.
 
->[!NOTE]
->
->Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+> [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación y código de complemento {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -28,7 +26,7 @@ Captura el valor de una variable de Analytics en la siguiente vista de página. 
 
 **Configuración de complemento**
 
-Inserte el código siguiente en la función La función *`s_doPlugins()`*, que se encuentra en el área del archivo *`s_code.js`* llamado *Configuración de complemento*. Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos de valores persistentes. Debe ser una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. Puede utilizar el ejemplo siguiente y actualizarlo según sus necesidades.
+Inserte el siguiente código en la función *`s_doPlugins()`*, que está ubicada en el área del archivo *`s_code.js`con el nombre* Configurar complemento *.* Seleccione una variable de tráfico personalizado (término de búsqueda interna s.prop) o una variable de conversión personalizada (s.eVar) que se utilizarán en la captura de datos de valores persistentes. Debe ser una variable que se haya activado mediante Admin Console pero que en la actualidad no se esté utilizando para ningún otro fin. Puede utilizar el ejemplo siguiente y actualizarlo según sus necesidades.
 
 `s.prop1=s.getPreviousValue(s.pageName,'gpv_pn','event1');`
 
