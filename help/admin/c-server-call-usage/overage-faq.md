@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Preguntas frecuentes sobre Uso de llamadas al servidor
 title: Preguntas frecuentes sobre Uso de llamadas al servidor
-uuid: 43340481-2 e 49-446 b-bec 7-86 fcadeb 4233
+uuid: 43340481-2e49-446b-bec7-86fcadeb4233
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>R: No. Los detalles de uso y asignación mostrados abarcan todas sus empresas de inicio de sesión regidas por el contrato de Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>P: En la ficha Uso de grupos de informes, vemos el consumo entre los grupos de informes que no están disponibles para los informes en la empresa de inicio de sesión actual. ¿Es un error?</b> </p> </td> 
+   <td colname="col1"> <p><b>P: En la ficha Uso del grupo de informes, se puede ver el consumo entre los grupos de informes que no están disponibles para los informes en la empresa de inicio de sesión actual. ¿Es un error?</b> </p> </td> 
    <td colname="col2"> <p>R: No. Al igual que los detalles de asignación y consumo de llamadas al servidor, la lista de grupos de informes abarca todas las empresas de inicio de sesión que ha implementado en su contrato de Analytics.  </p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Mi contrato no incluye una disposición para llamadas al servidor secundarias, pero sigo viéndolas en las fichas Uso actual y Uso del grupo de informes. ¿Significa esto que empezaré a incurrir en cargos adicionales?</b> </p> </td> 
-   <td colname="col2"> <p>R: El hecho de si empezaría a incurrir en cargos adicionales al enviar llamadas al servidor secundarias sin contar con una disposición para dichas llamadas depende de su contrato. En algunos casos, el consumo de llamadas al servidor secundarias puede descontarse de su asignación de llamadas al servidor primarias, consumiéndolas a un ritmo mayor del esperado. En otros casos, se le podrían facturar llamadas al servidor secundarias aunque no haya consumido todas sus llamadas al servidor primarias. Consulte su contrato o póngase en contacto con su administrador de satisfacción del cliente para confirmarlo. </p> </td> 
+   <td colname="col2"> <p>R: El hecho de si empezaría a incurrir en cargos adicionales al enviar llamadas al servidor secundarias sin contar con una disposición para dichas llamadas depende de su contrato. En algunos casos, el consumo de llamadas al servidor secundarias puede descontarse de su asignación de llamadas al servidor primarias, consumiéndolas a un ritmo mayor del esperado. En otros casos, se puede facturar por llamadas al servidor secundario incluso si no se han consumido todas las llamadas al servidor primario. Consulte su contrato o póngase en contacto con su administrador de satisfacción del cliente para confirmarlo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: Mi contrato/periodo de uso acaba de empezar y ya estoy recibiendo alertas por haber superado mi asignación de llamadas al servidor secundarias. ¿Es un error y se me empezarán a facturar cargos adicionales? </b> </p> </td> 
