@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: ID de transacción y perfiles de visitante
+seo-title: ID de transacción y perfiles del visitante
 solution: Analytics
-title: ID de transacción y perfiles de visitante
+title: ID de transacción y perfiles del visitante
 topic: Desarrollador e implementación
-uuid: 7 a 72779 c -7 f 67-4872-ad 5 e-edf 298 d 53 cac
+uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# ID de transacción y perfiles de visitante
+# ID de transacción y perfiles del visitante
 
 En esta sección se incluye información importante referente a los datos del perfil del visitante que se utilizan al cargar datos mediante un ID de transacción.
 
