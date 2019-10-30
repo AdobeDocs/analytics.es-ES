@@ -8,7 +8,7 @@ title: Ejecutar un informe de análisis de cohorte
 topic: Reports and Analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,7 +39,7 @@ Cree una cohorte y ejecute un informe de análisis de cohorte en Analysis Worksp
 
 1. Haga clic en **[!UICONTROL Crear]**.
 
-   ![Resultado de los pasos](assets/cohort-report.png)
+   ![Resultado (](assets/cohort-report.png)
 
    El informe muestra los visitantes que realizaron un pedido ( *`Included`* columna) y que regresaron al sitio en visitas posteriores. La reducción en visitas durante el tiempo le permite identificar problemas y tomar medidas.
 1. (Opcional) Cree un segmento a partir de una selección.
