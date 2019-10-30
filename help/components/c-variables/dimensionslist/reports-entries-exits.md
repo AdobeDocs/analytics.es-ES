@@ -4,10 +4,10 @@ seo-description: El informe de páginas de entrada muestra, según el porcentaje
 seo-title: Entradas y salidas
 solution: Analytics
 title: Entradas y salidas
-topic: 'Informes '
-uuid: 756 de 55 b -136 b -427 b-a 80 c-f 822260131 b 1
+topic: Informes
+uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 # Entradas y salidas
 
 >[!NOTE]
->Para visitas con varios valores en la variable products, Entradas y Salidas se aplican a todos los valores de producto en una visita individual en lugar de solo a la primera.
+>Para las visitas con varios valores en la variable products, las entradas y salidas se aplican a todos los valores de producto de una visita en lugar de solo a la primera.
 
 El informe de páginas de entrada muestra, según el porcentaje y el número total de visitas, qué páginas del sitio son las primeras en ser vistas por un nuevo visitante.
 
