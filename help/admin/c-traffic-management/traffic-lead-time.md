@@ -5,9 +5,9 @@ seo-title: Tiempo de espera necesario para aumentos de tráfico
 solution: Analytics
 title: Tiempo de espera necesario para aumentos de tráfico
 topic: Herramientas de administración
-uuid: aa 3 fb 882-51 b 0-458 f -917 b -7 c 54 d 5659623
+uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: e373297bcf1c9ae0f421ed246125204f31c39cc3
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ Adobe necesita que se informe por adelantado en caso de nuevas configuraciones d
 
 La asignación del hardware está dirigida por alertas enviadas mediante la interfaz de usuario de Reports &amp; Analytics.
 
-> [!IMPORTANT] Adobe no puede dar cabida a solicitudes de cambio de tráfico de «marcador de posición». A menos que se indique lo contrario, respete el tiempo de espera sugerido lo más cercano posible, incluso no enviar una alerta demasiado pronto. See [Schedule a traffic spike](../../admin/c-traffic-management/t-traffic-schedule-spike.md) or [Specify permanent traffic increase](../../admin/c-traffic-management/t-traffic-permanent.md).
+> [!IMPORTANT] Adobe no puede admitir solicitudes de cambio de tráfico de "marcador de posición". A menos que se indique lo contrario, respete el plazo sugerido lo más estrechamente posible, incluido el hecho de no enviar una alerta demasiado pronto. Consulte [Programar un pico](../../admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfico o [Especificar un incremento](../../admin/c-traffic-management/t-traffic-permanent.md)permanente de tráfico.
 
 Respete las siguientes normas para determinar la antelación del envío de alertas de tráfico:
 
@@ -28,8 +28,8 @@ Respete las siguientes normas para determinar la antelación del envío de alert
  <thead>
   <tr>
    <th colname="col1" class="entry"> Estimativos de tráfico DIARIO (visitas individuales) </th>
-   <th colname="col2" class="entry"> <p>Tiempo de posible cliente necesario (de enero a octubre) </p> </th>
-   <th colname="col3" class="entry"> <p>Tiempo de espera necesario (de noviembre a diciembre) </p> </th>
+   <th colname="col2" class="entry"> <p>Tiempo de espera necesario (de enero a octubre) </p> </th>
+   <th colname="col3" class="entry"> <p>Plazo necesario (noviembre a diciembre) </p> </th>
   </tr>
  </thead>
  <tbody>
@@ -41,7 +41,7 @@ Respete las siguientes normas para determinar la antelación del envío de alert
   <tr>
    <td colname="col1"> 1,000,000 - 5,000,000 </td>
    <td colname="col2"> Dos días HÁBILES </td>
-   <td colname="col3" morerows="3"> Todos los incrementos de tráfico dirigidos a noviembre y diciembre deben enviarse antes del 1 de septiembre. El objetivo de esto es permitir tiempo para la capacidad de compra si es necesario para ajustarse al tráfico de las fiestas. </td>
+   <td colname="col3" morerows="3"> Todos los incrementos de tráfico previstos para noviembre-diciembre deberían enviarse antes del 1 de septiembre. El objetivo de esto es permitir tiempo para la capacidad de compra si es necesario para ajustarse al tráfico de las fiestas. </td>
   </tr>
   <tr>
    <td colname="col1"> 5,000,000 - 10,000,000 </td>
@@ -71,4 +71,4 @@ Otras cuestiones para tener en cuenta:
 
 ## Anulación de asignaciones de hardware por tráfico inexistente
 
-Se anulará la asignación de hardware para nuevas cuentas, picos de tráfico e incrementos de tráfico si el tráfico proyectado en la alerta del cliente no se materializa dentro de las 4 semanas de la "Fecha de lanzamiento". Si el tráfico aún está anticipado, se debe generar una nueva alerta de cliente como incremento de tráfico.
+El hardware para nuevas cuentas, picos de tráfico e incrementos de tráfico se desasignará si el tráfico proyectado en la alerta del cliente no se materializa en las 4 semanas siguientes a la "Fecha de lanzamiento". Si el tráfico aún está anticipado, se debe generar una nueva alerta de cliente como incremento de tráfico.
