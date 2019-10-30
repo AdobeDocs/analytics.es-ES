@@ -8,7 +8,7 @@ title: Asignar grupos de usuarios a un grupo de informes
 topic: Herramientas de administración
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
