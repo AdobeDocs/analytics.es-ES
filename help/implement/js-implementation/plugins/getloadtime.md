@@ -7,8 +7,8 @@ solution: Analytics
 title: getLoadTime
 topic: Desarrollador e implementación
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,9 +19,7 @@ Obtiene el tiempo de carga de la página en décimas de segundo y permite almace
 
 Para usar este complemento, inserte el código de la función y llame a la función dos veces desde el archivo [!DNL s_code.js]: una al principio del archivo y otra en la sección `doPlugins`. Este complemento no se ha definido como un método del objeto s de forma deliberada. De hacerlo, aumentaría el tiempo de carga calculado de la página.
 
->[!NOTE]
->
->Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
+> [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
 ## Implementación y código de complemento {#section_968AC379C3004C359A85AFED5A48D5AE}
 
