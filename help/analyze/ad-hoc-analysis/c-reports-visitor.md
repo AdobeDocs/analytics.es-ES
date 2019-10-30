@@ -7,7 +7,7 @@ title: Informes de visitante
 topic: Ad Hoc Analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Este informe se puede desglosar según cualquier otro informe o variable, para d
 * Cuántas visitas hizo un usuario que entró al sitio desde un vínculo enviado por la campaña XYZ hasta que hizo una compra.
 * Si, por ejemplo, los usuarios de Tokio hacen más visitas antes de generar una posible venta que los usuarios de Londres.
 
->[!NOTE]
->
->Si el mismo visitante visita su sitio web varias veces en el mismo período, cada número de visita especificado se incrementa para cada visita.
+> [!NOTE] Si el mismo visitante visita su sitio web varias veces en el mismo período, cada número de visita especificado se incrementa para cada visita.
 
 Este informe se basa en los datos de identificación del visitante que recibe Adobe cada vez que los visitantes abren una página en sus navegadores. Adobe compara los datos que recibe con los datos históricos de identificación de los visitantes para determinar si la descarga de página es:
 
@@ -73,9 +71,7 @@ Este informe se basa en los datos de identificación del visitante que recibe Ad
 * Un visitante anterior que continúa una visita (el número de visita no se incrementa).
 * Un visitante anterior que inicia una visita nueva (el número de visita se incrementa en uno).
 
->[!NOTE]
->
->Cada ID de visitante de Analytics está asociado con un perfil del visitante en los servidores de Adobe. Los perfiles de visitante se borran tras 13 meses de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante.
+> [!NOTE] Cada ID de visitante de Analytics está asociado con un perfil del visitante en los servidores de Adobe. Los perfiles de visitante se borran tras 13 meses de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante.
 
 ## Lealtad del cliente {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -94,11 +90,9 @@ El informe [!UICONTROL Lealtad del cliente] revela los patrones de compra de los
 * **Cliente que vuelve**: visitantes que han realizado dos compras
 * **Cliente fiel**: visitantes que han realizado más de tres compras
 
->[!NOTE]
->
->Al utilizar estas métricas, todas las visitas del usuario (o todos los visitantes) se representan en este informe, independientemente de si la visita (o el visitante) incluyó una compra.
+> [!NOTE] Al utilizar estas métricas, todas las visitas del usuario (o todos los visitantes) se representan en este informe, independientemente de si la visita (o el visitante) incluyó una compra.
 
-El estado de lealtad cambia después de que termine la visita en la que se produce un evento de compra. Por ejemplo, un cliente nuevo (una compra) hace una compra y, a continuación, en la misma visita, se inscribe para recibir un boletín de noticias. El evento de inscripción para el boletín todavía se considera una interacción con un cliente nuevo, porque el estado de lealtad del cliente no cambiará sino hasta la próxima visita.
+El estado de lealtad cambia después de que termine la visita en la que se produce un evento de compra. Por ejemplo, un cliente nuevo (una compra) hace una compra y, a continuación, en la misma visita, se inscribe para recibir un boletín de noticias. El evento de inscripción en el boletín todavía se considera una interacción con un cliente nuevo, porque el estado de lealtad del cliente no cambia hasta la siguiente visita.
 
 ## Perfil del visitante {#concept_4D829198CD144DCDA667E0651F93AFC7}
 
@@ -110,7 +104,7 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Idiomas]**: muestra los idiomas preferidos por los visitantes, captura el idioma del navegador predeterminado y muestra los idiomas que los visitantes usan con más frecuencia en su sitio.
+**[!UICONTROL Idiomas]**: Muestra los idiomas preferidos de los visitantes, captura el idioma predeterminado del explorador y muestra los idiomas que los visitantes utilizan con más frecuencia en el sitio.
 
 **[!UICONTROL Dominios]**: enumera las organizaciones y los ISP que los visitantes utilizan para acceder al sitio. Este informe difiere del informe de [!UICONTROL dominios completos] en que el informe de dominios completos registra el dominio completo del proveedor, mientras que el primero indica el dominio secundario.
 
