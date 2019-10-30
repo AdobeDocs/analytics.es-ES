@@ -1,25 +1,25 @@
 ---
-description: Agregue métricas calculadas a los informes Canal de mercadotecnia en Analytics.
-seo-description: Agregue métricas calculadas a los informes Canal de mercadotecnia en Analytics.
-seo-title: Métricas calculadas utilizadas informes de canal de mercadotecnia
+description: Agregue métricas calculadas a los informes de canal de mercadotecnia en Analytics.
+seo-description: Agregue métricas calculadas a los informes de canal de mercadotecnia en Analytics.
+seo-title: Informes de canales de marketing usados en métricas calculadas
 solution: Analytics
 subtopic: Canales de mercadotecnia
-title: Métricas calculadas utilizadas informes de canal de mercadotecnia
+title: Informes de canales de marketing usados en métricas calculadas
 topic: Reports and Analytics
-uuid: b 33 dd 05 b -4 c 85-436 b -88 da -396 cb 42 ef 01 c
+uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Métricas calculadas utilizadas informes de canal de mercadotecnia
+# Informes de canales de marketing usados en métricas calculadas
 
-Agregue métricas calculadas a los informes Canal de mercadotecnia en Analytics.
+Agregue métricas calculadas a los informes de canal de mercadotecnia en Analytics.
 
-## Calculated metrics used Marketing Channel reports {#topic_4521D324A79E43EF99E69FCDE1E92F74}
+## Informes de canales de marketing usados en métricas calculadas {#topic_4521D324A79E43EF99E69FCDE1E92F74}
 
-Agregue métricas calculadas a los informes Canal de mercadotecnia en Analytics.
+Agregue métricas calculadas a los informes de canal de mercadotecnia en Analytics.
 
 Las métricas calculadas que se crean en informes y análisis están disponibles en el informe [!UICONTROL Canal de mercadotecnia], con equivalentes de primer toque y de último toque. Por ejemplo, si ha creado una métrica calculada denominada Ingresos por pedido, dicha métrica estará disponible en el informe Canal de mercadotecnia como *`First Touch Revenue per Order`* y *`Last Touch Revenue per Order`*.
 
@@ -33,7 +33,7 @@ Agregue una métrica calculada del Informe de descripción general de canal de m
 
    See [Run Marketing Channel reports](../../components/c-marketing-channels/t-reports-sc.md#task_AED9E5814809432AB00955CC54F80C84).
 
-1. In the report, click **[!UICONTROL Edit.]** ![](assets/metric_edit_icon.png)
+1. **[!UICONTROL En el informe, haga clic en]** Editar. ![](assets/metric_edit_icon.png)
 
    >[!NOTE]
    >
