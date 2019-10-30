@@ -3,12 +3,12 @@ description: Descubra las prácticas recomendadas y vea ejemplos de cómo rellen
 seo-description: Descubra las prácticas recomendadas y vea ejemplos de cómo rellenar las diversas reglas que puede configurar para sus canales de mercadotecnia.
 seo-title: Preguntas frecuentes y ejemplos
 solution: Analytics
-subtopic: Marketing channels
+subtopic: Canales de mercadotecnia
 title: Preguntas frecuentes y ejemplos
 topic: Reports and Analytics
-uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
+uuid: 1c63a1b5-a191-4855-aa65-face19ab1037a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -37,7 +37,7 @@ Cada implementación de las reglas de procesamiento de canal de mercadotecnia po
 **Pregunta**: mis códigos de seguimiento no se rigen por ningún patrón y tengo que especificar miles de ellos para el canal Afiliados.
 
 * Utilice el proceso de eliminación. Si los canales Correo electrónico y Afiliados utilizan el mismo parámetro de cadena de consulta pero solamente tiene unos cuantos códigos de seguimiento de correo electrónico, puede especificar los códigos de seguimiento de correo electrónico en un conjunto de reglas que definan el correo electrónico. Luego, clasifique todos los demás códigos de seguimiento con *`affiliates.`*
-* En su sistema de correo electrónico, agregue un parámetro de cadena de consulta a todas las direcciones URL de páginas de aterrizaje, como *`&ch=eml`*. Cree un conjunto de reglas que detecte si el parámetro de consulta ch es igual a *`eml`*. If it does not contain , then it is an affiliate.*`eml`*
+* En su sistema de correo electrónico, agregue un parámetro de cadena de consulta a todas las direcciones URL de páginas de aterrizaje, como *`&ch=eml`*. Cree un conjunto de reglas que detecte si el parámetro de consulta ch es igual a *`eml`*. Si no contiene *`eml`*, entonces es un afiliado.
 
 **Pregunta**: los dominios de referencia contienen más datos de lo que tenía previsto.
 
@@ -81,9 +81,7 @@ Cuando las reglas no capturan datos o si las reglas no se han configurado correc
 
 This kind of rule serves as a catch-all to ensure that channel traffic always matches external traffic, and typically does not end up in **[!UICONTROL No Channel Identified]**. Tenga cuidado de no crear una regla que identifique también el tráfico interno. Asignar al valor del canal **[!UICONTROL Dominio de referencia]** o **Dirección URL de página]es el modo más frecuente y útil de crear una regla Otro que funcione.[!UICONTROL **
 
->[!NOTE]
->
->There might be still some channel traffic that can fall into the No Channel Identified category. Por ejemplo: un visitante viene al sitio, crea un marcador de una página y en la misma visita, vuelve a la página a través del marcador. Debido a que esta no es la primera página de la visita, irá al canal Directo o al canal Otros porque no hay dominio de referencia.
+> [!NOTE] Es posible que todavía haya tráfico de canal que pueda caer en la categoría No se identificó el canal. Por ejemplo: un visitante viene al sitio, crea un marcador de una página y en la misma visita, vuelve a la página a través del marcador. Debido a que esta no es la primera página de la visita, irá al canal Directo o al canal Otros porque no hay dominio de referencia.
 
 ## Búsqueda de pago {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
