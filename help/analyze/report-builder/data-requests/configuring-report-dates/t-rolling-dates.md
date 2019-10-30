@@ -5,9 +5,9 @@ seo-title: Fechas móviles
 solution: Analytics
 title: Fechas móviles
 topic: Creador de informes
-uuid: 28319 f 02-2 a 4 a -408 d-a 7 d 1-545247 ad 6178
+uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
