@@ -7,8 +7,8 @@ solution: Analytics
 title: Eventos
 topic: Desarrollador e implementación
 uuid: d2edd432-60bc-4426-9967-153b713147a1
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,4 +27,4 @@ Algunos tipos de evento comunes son:
 
 Para obtener información detallada, consulte [Configurar eventos de éxito](/help/admin/admin/c-success-events/t-success-events.md).
 
-Los eventos de éxito se describen en detalle en la [Página de ayuda y referencias de Analytics](https://marketing.adobe.com/resources/help/es_ES/reference/success_event.html).
+Los eventos de éxito se describen en detalle en la [Ayuda y referencia de Analytics](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html).
