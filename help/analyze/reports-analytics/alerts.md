@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Alertas
 title: Alertas
 topic: Reports and Analytics
-uuid: e 1333 a 9 b-eba 0-45 b 7-b 7 e 6-46 e 06190 db 64
+uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,14 +17,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Alertas {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-Como el nuevo sistema de alerta de todas las alertas inteligentes de Adobe Analytics, las alertas inteligentes permiten crear y administrar alertas, completas con la vista previa de alertas y la contribución de reglas. Puede 
+Como el nuevo sistema de alertas para todos los usuarios de Adobe Analytics, las alertas inteligentes le permiten crear y administrar alertas, con vista previa de alertas y contribución de reglas. Puede
 
 * Generar alertas en función de anomalías (umbrales del 90 %, 95 % o 99 %; cambio de %; por encima/por debajo).
 * Obtener una vista previa de la frecuencia con la que se activará una alerta.
 * Enviar alertas por correo electrónico o SMS con vínculos a proyectos de Analysis Workspace autogenerados.
 * Crear alertas “apiladas” que capturan varias métricas en una sola alerta.
 
-You can access this new Alerts system from **[!UICONTROL More]** &gt; **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
+Puede acceder a este nuevo sistema de Alertas en **[!UICONTROL Más]** &gt; **[!UICONTROL Alertas]** en cualquier análisis de Reports &amp; Analytics.
 
 Para obtener más información, consulte la documentación de Analysis Workspace sobre las [Alertas inteligentes](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html).
 
@@ -38,7 +38,7 @@ t_add_an_alert.xml
 
  -->
 
-Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** menu. Sin embargo, todavía puede acceder a él desde informes en Reports &amp; Analytics:
+Vaya al nuevo Generador de alertas en el menú **[!UICONTROL Análisis]** &gt; **[!UICONTROL Componentes]** . Sin embargo, todavía puede acceder a él desde informes en Reports &amp; Analytics:
 
 1. En Reports &amp; Analytics, abra el informe en el que desee establecer una alerta.
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
