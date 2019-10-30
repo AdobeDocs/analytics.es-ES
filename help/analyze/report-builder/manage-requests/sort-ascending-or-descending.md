@@ -5,9 +5,9 @@ seo-title: Orden ascendente o descendente
 solution: Analytics
 title: Orden ascendente o descendente
 topic: Creador de informes
-uuid: 81199890-c 183-4 e 42-a 343-dc 33 a 9 e 9 ed 46
+uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
