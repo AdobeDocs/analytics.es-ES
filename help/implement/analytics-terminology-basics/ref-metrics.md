@@ -7,8 +7,8 @@ solution: Analytics
 title: Métricas
 topic: Desarrollador e implementación
 uuid: d2addb55-cae6-470d-b482-303ef365809c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ Las métricas son la base de los informes y le ayudan a ver y comprender las rel
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Métricas de tráfico </p> </td> 
-   <td colname="col2"> <p> <b>Vista de la página:</b> carga de una página web en el navegador de un usuario (una instancia de ejecución del código de Reports &amp; Analytics). </p> <p> <b>Visita:</b> cualquier número de visualizaciones de páginas cuando el visitante entra en su sitio. Las visitas finalizan tras 30 minutos de inactividad. </p> <p> <b>Visitante único:</b> una persona que visita su sitio por primera vez durante un intervalo de tiempo concreto, como una hora, un día, una semana, un mes, un trimestre o un año. (Incluye también visitantes únicos en cualquier intervalo de tiempo). </p> </td> 
+   <td colname="col2"> <p> <b></b> Vista de página: Una página web se carga en el explorador de un usuario (una ejecución del código de Informes y análisis). </p> <p> <b>Visita:</b> cualquier número de visualizaciones de páginas cuando el visitante entra en su sitio. Las visitas finalizan tras 30 minutos de inactividad. </p> <p> <b>Visitante único:</b> una persona que visita su sitio por primera vez durante un intervalo de tiempo concreto, como una hora, un día, una semana, un mes, un trimestre o un año. (Incluye también visitantes únicos en cualquier intervalo de tiempo). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Métricas de conversión </p> </td> 
@@ -45,9 +45,9 @@ Las métricas son la base de los informes y le ayudan a ver y comprender las rel
   </tr> 
   <tr> 
    <td colname="col1"> <p>Métricas calculadas </p> </td> 
-   <td colname="col2"> <p>Las <a href="https://marketing.adobe.com/resources/help/es_ES/reference/calculated_metric.html" format="html" scope="external">métricas calculadas</a> permiten combinar métricas para crear operaciones matemáticas que se utilicen como nuevas métricas. Estas métricas se pueden crear para un informe al que se agregan métricas. Los administradores pueden crear métricas calculadas para todos los usuarios de un grupo de informes. </p> </td> 
+   <td colname="col2"> <p>Las <a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">métricas calculadas</a> permiten combinar métricas para crear operaciones matemáticas que se utilicen como nuevas métricas. Estas métricas se pueden crear para un informe al que se agregan métricas. Los administradores pueden crear métricas calculadas para todos los usuarios de un grupo de informes. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Consulte [Métricas](https://marketing.adobe.com/resources/help/es_ES/reference/metrics.html) en la página de ayuda y referencia de Analytics para obtener más información sobre las métricas.
+Consulte [Métricas](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) en la Ayuda y referencia de Analytics para ver su definición.
