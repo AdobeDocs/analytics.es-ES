@@ -4,10 +4,10 @@ seo-description: Agrupa las visitas al sitio con dispositivos móviles según el
 seo-title: Tamaño de la pantalla
 solution: Analytics
 title: Tamaño de la pantalla
-topic: 'Informes '
-uuid: a 71378 c 7-91 b 1-43 da -8583-fbbdc 5 df 39 ba
+topic: Informes
+uuid: a71378c7-91b1-43da-8583-fbdc5df39ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
