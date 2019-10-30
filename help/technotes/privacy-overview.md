@@ -2,17 +2,17 @@
 description: Información general sobre los datos que recopila Adobe Analytics y otras consideraciones de privacidad.
 keywords: privacidad
 seo-description: Información general sobre los datos que recopila Adobe Analytics y otras consideraciones de privacidad.
-seo-title: Información general sobre privacidad
+seo-title: Resumen de privacidad
 solution: Analytics
-title: Información general sobre privacidad
-uuid: f 19 a 8 b 35-3 e 10-47 ae -93 c 1-6 a 9924 b 11313
+title: Resumen de privacidad
+uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Información general sobre privacidad
+# Resumen de privacidad
 
 Información general sobre los datos que recopila Adobe Analytics y otras consideraciones de privacidad.
 
@@ -74,7 +74,7 @@ Adobe Analytics recopila los datos siguientes:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> El análisis de origen no está en el ámbito del Programa de autorregulación de publicidad en línea basada en el comportamiento ("AdChoices"). </td> 
+   <td colname="col2"> Los análisis de origen no están dentro del ámbito del programa de autorregulación para publicidad de comportamiento en línea ("AdChoices"). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -94,15 +94,15 @@ Adobe Analytics recopila los datos siguientes:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Un cliente puede establecer la variable permanente de cookie en el código de medición de JavaScript a un valor de "ninguno", "sesión" o cualquier otro valor especificado en segundos. </td> 
+   <td colname="col2"> Un cliente puede establecer la variable de duración de la cookie en el código de medición de JavaScript en un valor de "ninguno", "sesión" u otro valor especificado medido en segundos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe ha desarrollado una nueva opción de "privacidad por diseño" que Adobe ClientCare puede habilitar para Adobe Analytics (antes SiteCatalyst) versiones 14.9 y 15.4. Al activar esta opción, el último octeto (la última parte) de la dirección IP es sustituido inmediatamente con el valor 0 cuando Adobe recopila la dirección IP. Esta protección se realiza antes de procesar la dirección IP, incluso antes de realizar la búsqueda geográfica y la búsqueda de ISP de la dirección IP. </td> 
+   <td colname="col2"> Adobe ha desarrollado una nueva configuración de "privacidad por diseño" que ahora puede activar Adobe ClientCare para Adobe Analytics (anteriormente SiteCatalyst) versiones 14.9 y 15.4. Cuando se habilita esta nueva configuración, el último octeto (la última parte) de la dirección IP se reemplaza inmediatamente por el valor 0 una vez que Adobe recopila la dirección IP. Esta protección se realiza antes de procesar la dirección IP, incluso antes de realizar la búsqueda geográfica y la búsqueda de ISP de la dirección IP. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Alemania </td> 
-   <td colname="col2"> <p>Si los clientes no poseen un Contrato de procesamiento de datos para Adobe Analytics con Adobe, deberán contactar con su administrador de cuentas de Adobe o el administrador de éxito de clientes, quienes trabajarán con el Departamento legal de Adobe para obtenerlo. </p> <p>Adobe ha preparado un contrato de procesamiento de datos (Vertrag fuer Auftragsdatenverarbeitung - ADV) para Analytics que ha sido revisado y aprobado por la Autoridad de Protección de Datos de Baviera (Bayerisches Landesamt fuer Datenschutzaufsicht - baylda). El ADV está disponible en alemán y en inglés. </p> </td> 
+   <td colname="col2"> <p>Si los clientes no poseen un Contrato de procesamiento de datos para Adobe Analytics con Adobe, deberán contactar con su administrador de cuentas de Adobe o el administrador de éxito de clientes, quienes trabajarán con el Departamento legal de Adobe para obtenerlo. </p> <p>Adobe ha preparado un Acuerdo de procesamiento de datos (Vertrag fuer Auftragsdatenverarbeitung - ADV) para Analytics que ha sido revisado y aprobado por la Autoridad de Protección de Datos de Baviera (Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA). El ADV está disponible en alemán y en inglés. </p> </td> 
   </tr> 
  </tbody> 
 </table>
