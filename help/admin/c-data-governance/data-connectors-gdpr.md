@@ -1,26 +1,24 @@
 ---
 description: En esta página se enumeran todas las variables de socio en Data Connectors (anteriormente conocido como Genesis) que podrían contener datos directa o indirectamente identificables de sus interesados.
 seo-description: En esta página se enumeran todas las variables de socio en Data Connectors (anteriormente conocido como Genesis) que podrían contener datos directa o indirectamente identificables de sus interesados.
-seo-title: Privacidad de datos y Conectores de datos (Genesis)
-title: Privacidad de datos y Conectores de datos (Genesis)
+seo-title: Privacidad de datos y Data Connectors (Genesis)
+title: Privacidad de datos y Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Privacidad de datos y Conectores de datos (Genesis)
+# Privacidad de datos y Data Connectors (Genesis)
 
 En esta página se enumeran todas las variables de socio en Data Connectors (anteriormente conocido como Genesis) que podrían contener datos directa o indirectamente identificables de sus interesados.
 
-Esta información le permite identificar cualquier dato de identificación directa o datos de identificación indirecta importados a través de nuestros conectores, cuando reciben una solicitud de privacidad de datos.
+Esta información le permite identificar todos los datos directa o indirectamente identificables importados a través de nuestros conectores cuando reciben una solicitud de privacidad de datos.
 
 Si utiliza una integración de cualquiera de los conectores siguientes, simplemente puede comprobar qué clasificaciones/variables asociadas en su integración podrían contener datos directa o indirectamente identificables.
 
->[!NOTE]
->
->This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
+> [!NOTE] Esta información se proporciona para ayudarle a identificar las variables que se deben [etiquetar](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), pero es usted como responsable del tratamiento de datos el que debe aplicar las etiquetas adecuadas o llevar a cabo otras acciones pertinentes para preparar correctamente [el cumplimiento de la privacidad de datos](/help/admin/c-data-governance/an-gdpr-overview.md) (actualizar clasificaciones, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
