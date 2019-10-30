@@ -7,7 +7,7 @@ title: Eventos de calendario
 topic: Reports and Analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 Pasos para añadir eventos de calendario y gestionar eventos compartidos.
 
->[!NOTE]
->
->Para garantizar el rendimiento óptimo de los informes, los últimos 20 eventos de calendario se mostrarán en gráficos de tendencias y tiempo extra.
+> [!NOTE] Para garantizar el rendimiento óptimo de los informes, los últimos 20 eventos de calendario se mostrarán en gráficos de tendencias y tiempo extra.
 
 Para los informes con tendencias en el paso del tiempo, puede utilizar esta herramienta para mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, el ingreso o alguna otra métrica. El proceso de configurar un evento de calendario implica darle un nombre al evento, configurar las fechas, añadir notas y configurar un icono.. Por ejemplo, si usa Social, puede crear un evento de calendario para mostrar que había una correlación entre un aumento en el tráfico del sitio y la mención de un producto por parte de una personalidad destacada a través de Twitter.
 
