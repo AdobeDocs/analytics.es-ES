@@ -5,7 +5,7 @@ seo-title: Menú Informes
 title: Menú Informes
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,9 +39,7 @@ El menú Informes proporciona una experiencia de búsqueda mejorada. Click **[!U
 
 Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por la lista de informes. Presione la tecla Escape para cerrar la búsqueda sin cambiar el informe actual; o bien, presione Intro para cargar el informe seleccionado.
 
->[!NOTE]
->
->También puede buscar en la lista de informes por propiedad, eVar y número de evento. En la barra de búsqueda, introduzca la propiedad, eVar o número de evento.
+> [!NOTE] También puede buscar en la lista de informes por propiedad, eVar y número de evento. En la barra de búsqueda, introduzca la propiedad, eVar o número de evento.
 
 ## Descripción general de navegación {#section_A6A0A369207149BABE504753B48A42D7}
 
