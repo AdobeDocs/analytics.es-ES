@@ -3,9 +3,9 @@ description: El Creador de métricas calculadas permite aplicar funciones estad�
 seo-description: El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
 seo-title: Funciones básicas de referencia
 title: Funciones básicas de referencia
-uuid: 5 c 2 b 4 a 0 e -613 c -4 b 27-95 b 8-01 d 480 aeab 78
+uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: a4ccd3503d9d8e5e5367bb1ebd149262c5cb925a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ El Creador de métricas calculadas permite aplicar funciones estadísticas y mat
 
 Aquí se encuentra una lista alfabética de las funciones y sus definiciones.
 
->[!NOTE]
->
->Where [!DNL metric] is identified as an argument in a function, other expressions of metrics are also allowed. For example, [!DNL MAXV(metrics)] also allows for [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [!DNL MAXV(metrics)] también permite [!DNL MAXV(PageViews + Visits).]
 
 ## Funciones de tabla en comparación con funciones de fila {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -107,7 +105,7 @@ EXP(metric)
 Operador de potencia
 
 <pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+pow(x,y) =<sup>xy</sup> = x*x*x*... (y veces)
 </pre>
 
 ## Media (Tabla) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -160,7 +158,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Percentil (Tabla) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Devuelve el percentil k-ésimo de los valores de una métrica. Puede utilizar esta función para establecer un umbral de aceptación. Por ejemplo, puede decidir si desea examinar los elementos de dimensión que se puntean por encima del percentil 90.
+Devuelve el percentil k-ésimo de los valores de una métrica. Puede utilizar esta función para establecer un umbral de aceptación. Por ejemplo, puede decidir examinar los elementos de dimensión que tengan una puntuación superior al porcentaje 90.
 
 ```
 PERCENTILE(metric,k)
@@ -237,7 +235,7 @@ round( 314.15, -2) = 300
 
 ## Recuento de fila {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Devuelve el recuento de filas de una columna en concreto (el número de elementos únicos registrados en una dimensión). “Sobrepasa el número de elementos únicos” cuenta como 1.
+Devuelve el recuento de filas de una columna determinada (el número de elementos únicos informados dentro de una dimensión). "Se excedió la cantidad de valores exclusivos" se cuenta como 1.
 
 ## Máximo de fila {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -326,7 +324,7 @@ A modo de ejemplo, suponga que tiene una columna de tres elementos:
 
 3
 
-El promedio de esta columna es 2. La varianza de la columna será ((1 - 2) ² + (2 - 2) ² + (3 - 2) ²/3 = 2/3. En Ad Hoc Analysis, tendrá el siguiente aspecto:
+El promedio de esta columna es 2. La varianza de la columna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. En Ad Hoc Analysis, tendrá el siguiente aspecto:
 
 1 2/3
 
