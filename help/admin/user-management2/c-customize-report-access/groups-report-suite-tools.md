@@ -9,7 +9,7 @@ title: Personalizar herramientas de grupos de informes
 topic: Herramientas de administración
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -78,8 +78,8 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | Instalación heredada de ClickMap | Otorga derechos de instalación para la herramienta heredada de ClickMap. |
 | [Visitas de retorno](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Informe que muestra el número de visitas en las que el número de visitas es mayor que 1. El informe de visitas de retorno incluye visitantes sin cookies. |
 | [Importador/Exportador de clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) y [Generador de reglas](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | Consolidado en clasificaciones (ver más adelante). |
-| Administrador de fuentes de datos | Concede derechos a la Fuente de datos de análisis. |
-| Classifications | Combina los siguientes permisos: 'Clasificaciones de tráfico', 'Clasificaciones de vídeo', 'Clasificaciones de conversión', 'Jerarquías de clasificación', 'Administrador de clasificaciones' e 'Importador/Exportador de clasificaciones y Generador de reglas'.  Nota: Con este permiso, los usuarios pueden editar las clasificaciones de todos los grupos de informes, no solo los seleccionados. |
+| Administrador de fuentes de datos | Concede derechos a la Fuente de datos de Analytics. |
+| Clasificaciones | Combina los siguientes permisos: 'Clasificaciones de tráfico', 'Clasificaciones de vídeo', 'Clasificaciones de conversión', 'Jerarquías de clasificación', 'Administrador de clasificaciones' e 'Importador/Exportador de clasificaciones y Generador de reglas'.  Nota: Con este permiso, los usuarios pueden editar las clasificaciones de todos los grupos de informes, no solo los seleccionados. |
 | [Análisis de contribución](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Concede permisos para utilizar los análisis de contribución en Analysis Workspace. |
 | **Elementos de tablero** |  |
 | La configuración de Elementos de tablero permite acceder a [informes breves](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) en Informes y análisis:, Mis informes recomendados, Informe breve de resumen de la empresa, Imagen, Informe breve de KPI/medición, Totales de grupos de informes, Texto, Informe breve, Informe breve de resumen de uso y Recursos Web |  |
