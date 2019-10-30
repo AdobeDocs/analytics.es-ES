@@ -3,9 +3,9 @@ description: Los atributos del cliente se almacenan en un nuevo tipo de elemento
 seo-description: Los atributos del cliente se almacenan en un nuevo tipo de elemento denominado VisAttr, que puede configurarse como dimensión o como métrica.
 seo-title: Atributos del cliente
 title: Atributos del cliente
-uuid: a 8340 b 83-d 7 ba -46 fe-bb 20-b 546 cdf 375 b 8
+uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,6 +22,6 @@ Para obtener más información sobre cómo cargar atributos de cliente, consulte
 
 * Es compatible con el mismo desglose que un eVar (todo se puede desglosar).
 * VisAttr es compatible con todas las métricas eVar.
-* VisAttr como métrica es compatible con la clasificación por categorías o "bucketization", (como el Tiempo transcurrido en el sitio: 0 a 30, 31 a 60,...).
+* VisAttr como métrica es compatible con "bucketization" (como Tiempo empleado en el sitio: 0 a 30, 31 a 60, ...)
 * VisAttr está disponible como una dimensión de segmentación.
 
