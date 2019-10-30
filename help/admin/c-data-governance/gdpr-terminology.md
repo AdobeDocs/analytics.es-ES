@@ -5,7 +5,7 @@ seo-title: Terminología del RGPD
 title: Terminología del RGPD
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
