@@ -1,18 +1,18 @@
 ---
 description: Tras crear informes con solicitudes insertadas, se puede aplicar formato condicional a las celdas del libro.
 seo-description: Tras crear informes con solicitudes insertadas, se puede aplicar formato condicional a las celdas del libro.
-seo-title: Especificar formato condicional
+seo-title: Especificar un formato condicional
 solution: Analytics
-title: Especificar formato condicional
+title: Especificar un formato condicional
 topic: Creador de informes
-uuid: 13 ac 12 f 1-3498-4 bf 9-a 6 d 0-c 5 d 84 e 0125 dc
+uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Especificar formato condicional
+# Especificar un formato condicional
 
 Tras crear informes con solicitudes insertadas, se puede aplicar formato condicional a las celdas del libro.
 
@@ -22,7 +22,5 @@ El formato condicional permite identificar las celdas que contienen resultados o
 
 Por motivos de seguridad, se deshabilitan las macros que se escriben para el libro utilizando el lenguaje Visual Basic para Aplicaciones (VBA) de Excel.
 
->[!NOTE]
->
->El formato condicional es una función de Excel. Para obtener más información sobre la creación de reglas de formato, consulte la documentación de Excel.
+> [!NOTE] El formato condicional es una función de Excel. Para obtener más información sobre la creación de reglas de formato, consulte la documentación de Excel.
 
