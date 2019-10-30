@@ -1,13 +1,13 @@
 ---
 description: La diferencia entre el modo activo y pasivo del FTP controla el modo en que se establecen las conexiones de puerto. Esta elección tiene efectos en el cortafuegos.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: La diferencia entre el modo activo y pasivo del FTP controla el modo en que se establecen las conexiones de puerto. Esta elección tiene efectos en el cortafuegos.
 seo-title: Uso del modo FTP pasivo
 solution: Analytics
 title: Uso del modo FTP pasivo
-uuid: e 56 e 937 e-ec 42-45 ec-ae 8 e -8 a 8 ea 1 b 76 f 3 f
+uuid: e56e937e-ec42-45ec-ae8e-8a8ea1b76f3f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
