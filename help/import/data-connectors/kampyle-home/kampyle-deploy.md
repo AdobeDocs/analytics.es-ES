@@ -6,7 +6,7 @@ solution: Analytics
 title: Implementación de la integración
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ En muchos casos, la forma más sencilla de implementar el objeto de configuraci�
 > [!NOTE] Si utiliza Adobe TagManager o la administración dinámica de etiquetas para implementar Adobe Analytics, puede añadir fácilmente el objeto de configuración de integración mediante esa herramienta.
 
 1. Vaya a la ficha **[!UICONTROL Recursos]** &gt; **[!UICONTROL Asistencia]** de la integración.
-1. Descargue y guarde el recurso **[!UICONTROL Kampyle Integration Code (JS)]** . The code looks similar to this:
+1. Descargue y guarde el recurso **[!UICONTROL Kampyle Integration Code (JS)]** . El código tiene un aspecto similar al siguiente:
 
    ```
    /* Kampyle:  Integration configuration settings */
@@ -54,27 +54,25 @@ En muchos casos, la forma más sencilla de implementar el objeto de configuraci�
    ```
 
 1. Implemente el código mediante uno de los siguientes métodos:
-| **Utiliza Adobe TagManager o la administración dinámica de etiquetas.** | Utilice la interfaz de administración de etiquetas para agregar el código. |
-|---|---|
-| **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |
+| **Utiliza Adobe TagManager o la administración dinámica de etiquetas.** | Utilice la interfaz de administración de etiquetas para agregar el código. ||—|—|| **En todos los demás casos** | Envíe el código al recurso de organización responsable de actualizar el código de implementación de Adobe Analytics.  |
 
-## Verify the Integration{#verify-the-integration}
+## Verificar la integración{#verify-the-integration}
 
-Validate that the integration is successfully transferring data by completing a couple of checks.
+Valide que la integración esté transfiriendo datos correctamente mediante la realización de un par de comprobaciones.
 
 ### Registro de actividades de integración {#section-0472df9180db4f218db5f6040cab07af}
 
-View your Kampyle integration setup within the Adobe Experience Cloud by navigating to Support &gt; Integration Activity Log. ******** Under the Data In tab, you should see entries stating that classification data was successfully imported.****
+Para ver la configuración de la integración de Kampyle en Adobe Experience Cloud, vaya a **[!UICONTROL Asistencia]** &gt; Registro **[!UICONTROL de actividades]** de integración. En la ficha **[!UICONTROL Datos en]** , debe ver las entradas que indican que los datos de clasificación se importaron correctamente.
 
-> [!NOTE] Log entries should appear within 24 hours of successful deployment.
+> [!NOTE] Las entradas de registro deben aparecer en las 24 horas siguientes a la implementación correcta.
 
 ![](assets/integration_activity_log.png)
 
-### Adobe Reporting Data {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
+### Datos de informes de Adobe {#section-1ae9f0a5e6bc40988478ff55aefd56ac}
 
-View your Kampyle feedback reports with Adobe Analytics by navigating to the Kampyle reporting within the appropriate menu structure.
+Vea sus informes de comentarios de Kampyle con Adobe Analytics navegando hasta los informes de Kampyle dentro de la estructura de menú adecuada.
 
-> [!NOTE] Reporting data should appear within 24-48 hours of successful deployment, assuming that the integrated feedback form(s) is actively receiving submissions.
+> [!NOTE] Los datos de los informes deberían aparecer en un plazo de 24 a 48 horas a partir de la implementación correcta, suponiendo que los formularios integrados de comentarios estén recibiendo envíos activamente.
 
 ![](assets/adobe_reporting_data.png)
 
