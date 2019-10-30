@@ -60,7 +60,7 @@ t_managing_users.xml
 
  -->
 
-1. Click **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**, then click **[!UICONTROL Manage Users]**.
+1. Haga clic en **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Administración]** &gt; Administración **[!UICONTROL de usuarios]** y, a continuación, haga clic en **[!UICONTROL Administrar usuarios]**.
 1. Busque y seleccione el usuario y haga clic en **[!UICONTROL Terminar].**
 
    En la página [!UICONTROL Sesiones de Ad Hoc Analysis activas], aparecen primero los usuarios que han estado más tiempo inactivos.
@@ -119,7 +119,7 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis usa HTTP para comunicarse con el servidor. y está sujeto a las mismas directivas de proxy que cualquier otro tráfico HTTP.
 
-1. In the [!DNL Windows Control Panel], launch the [!UICONTROL Java Control Panel].
+1. En el [!DNL Windows Control Panel], inicie el Panel de control [!UICONTROL Java].
 1. En la ficha **General**, haga clic en **[!UICONTROL Configuración de red]**.
 1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
