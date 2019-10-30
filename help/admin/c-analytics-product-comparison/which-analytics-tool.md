@@ -5,7 +5,7 @@ seo-title: ¿Qué herramienta de Adobe Analytics debo usar?
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,7 +66,7 @@ El **[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
 * Opciones:
 
    * Generador de reglas: úselo cuando tenga valores de formato predecibles que se recopilen para una variable (por ejemplo, valores delimitados). Este enfoque le permite configurar reglas una vez y, en gran medida, no tendrá que volver a modificarlas.
-   * Importación del explorador: úsela cuando no tenga valores predecibles o cuando tenga una lista de valores limitada que requiera una actualización única. Para este enfoque es necesario supervisar de forma continuada las clasificaciones para identificar nuevos valores.
+   * Importador de exploradores: se utiliza cuando no tiene valores predecibles o cuando tiene una lista finita de valores que requiere una actualización única. Para este enfoque es necesario supervisar de forma continuada las clasificaciones para identificar nuevos valores.
 
 Las **[Fuentes de datos](/help/import/c-data-sources/datasrc-home.md)** deben usarse:
 
@@ -111,7 +111,7 @@ El **[Report Builder](/help/analyze/report-builder/home.md)** debe usarse:
 * Para acceder a datos más granulares de los que están disponibles en la interfaz de usuario (vista de tabla no normalizada).
 * Para descargar datos en un formato adecuado para una entrada de tabla dinámica.
 * Si el cliente desea introducir datos de Adobe en una herramienta de visualización de datos de terceros (resumidos ligeramente y que no sean de nivel de visita).
-* Para acceder a todos los valores de dimensión únicos si aparece “Poco tráfico” en Adobe Analytics.
+* Para acceder a todos los valores de dimensión únicos si se encuentra en "Poco tráfico" en Adobe Analytics
 
 **[Se debe usar la fuente](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** de datos de Analytics:
 
@@ -129,7 +129,7 @@ Las **[API de informes](https://marketing.adobe.com/developer/get-started/introd
 
 Los Servicios de ingeniería deben usarse cuando:
 
-* El resto de las herramientas de Adobe no se adapten a sus necesidades.
+* Las demás herramientas de Adobe no satisfacen sus necesidades.
 * Desea obtener una experiencia personalizada.
 * Desea una solución completamente automatizada.
 * Desea alcanzar a un gran número de dispositivos.
