@@ -5,9 +5,9 @@ seo-title: Menú de informes simplificado
 solution: Analytics
 title: Menú de informes simplificado
 topic: Herramientas de administración
-uuid: cc 7023 e 4-9 e 28-477 e -9266-6 d 06 e 5379559
+uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ El menú Reports &amp; Analytics de Adobe simplificado permite aplicar un menú 
 
 ![](assets/simplified-menu.png)
 
->[!NOTE]
->
->Tenga en cuenta que la aplicación del menú simplificado elimina toda la personalización que haya realizado en la estructura de menú predeterminada. Además, implementa la estructura de menús simplificados para todos los usuarios de Marketing Reports &amp; Analytics de su organización. Piense detenidamente en las repercusiones (como la formación que haya proporcionado sobre la estructura de menús existente) antes de implementar este nuevo menú, ya que no podrá revertir a ninguna personalización en su estructura de menús existente.
+> [!NOTE] Tenga en cuenta que al aplicar el menú simplificado se elimina toda la personalización que haya hecho en la estructura de menú predeterminada. Además, implementa la estructura de menús simplificados para todos los usuarios de Marketing Reports &amp; Analytics de su organización. Piense detenidamente en las repercusiones (como la formación que haya proporcionado sobre la estructura de menús existente) antes de implementar este nuevo menú, ya que no podrá revertir a ninguna personalización en su estructura de menús existente.
 
 1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** to open the Report Suite Manager.
 1. Seleccione el grupo de informes para el que quiera implementar la estructura de menús simplificados.
