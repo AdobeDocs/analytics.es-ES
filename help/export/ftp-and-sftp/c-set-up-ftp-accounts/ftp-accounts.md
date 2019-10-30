@@ -1,18 +1,18 @@
 ---
 description: Configure y utilice cuentas de FTP alojadas en Adobe.
-keywords: ftp; sftp
+keywords: ftp;sftp
 seo-description: Configure y utilice cuentas de FTP alojadas en Adobe.
-seo-title: 'Configuración de cuentas de FTP: información general'
+seo-title: Resumen de configuración de cuentas de FTP
 solution: Analytics
-title: 'Configuración de cuentas de FTP: información general'
-uuid: e 5524619-248 a -4 aae -9 f 64-cd 7 d 33 f 3 c 407
+title: Resumen de configuración de cuentas de FTP
+uuid: e5524619-248a-4ae-9f64-cd7d33f3c407
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configuración de cuentas de FTP: información general
+# Resumen de configuración de cuentas de FTP
 
 Configure y utilice cuentas de FTP alojadas en Adobe.
 
