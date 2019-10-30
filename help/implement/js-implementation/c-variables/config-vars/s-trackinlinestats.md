@@ -1,11 +1,11 @@
 ---
 description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
 La variable determina si los datos de ClickMap se recopilan.
 
-If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null.
+Si *`trackInlineStats`* tiene el valor “true”, los datos sobre la página y el vínculo pulsado se almacenan en una cookie llamada s_sq. Si tiene el valor “False”, s_sq tendrá el valor “[[B]]”, que se considera nulo.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
@@ -27,7 +27,7 @@ js
 s.trackInlineStats=true|false
 ```
 
-La sintaxis de la variable *`trackInlineStats`* se espera que sea 'true' o 'false'.
+Se espera que la variable *`trackInlineStats`* sea 'true' o 'false'.
 
 ## Ejemplos
 
@@ -41,4 +41,4 @@ s.trackInlineStats=false
 
 ## Parámetros de configuración
 
-Ninguno.
+Ninguna
