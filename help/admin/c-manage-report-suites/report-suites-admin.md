@@ -7,7 +7,7 @@ title: Administrador del grupo de informes
 topic: Herramientas de administración
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Un grupo de informes define los informes completos e independientes de un sitio 
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **[!UICONTROL de informes]**
 
->[!NOTE]
->
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. Consulte la documentación [del grupo de informes](/help/components/vrs/vrs-about.md)virtuales.
+> [!NOTE] Los grupos de informes virtuales se administran mediante **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; Grupos **[!UICONTROL de informes]** virtuales. Consulte la documentación [del grupo de informes](/help/components/vrs/vrs-about.md)virtuales.
 
 ## Descripciones del Administrador del grupo de informes {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
