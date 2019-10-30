@@ -7,7 +7,7 @@ title: Informes de productos
 topic: Ad Hoc Analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ c_reports_products_conv_funnel.xml
 
 Para agregar métricas y eventos personalizados de otros grupos de informes, haga clic en un vínculo de **[!UICONTROL Eventos seleccionados]en el encabezado del informe.**
 
-Debido a que cuando se ven los datos aún no se han completado los períodos de tiempo actuales, este informe puede indicar una tendencia descendente desde el período anterior al actual. Por ejemplo, es probable que hoy haya menos visitas que ayer pero solo porque las estadísticas de los demás períodos aún no han sido calculadas.
+Debido a que cuando se ven los datos aún no se han completado los períodos de tiempo actuales, este informe puede indicar una tendencia descendente desde el período anterior al actual. Por ejemplo: hoy puede haber menos visitas que ayer, pero sólo porque las estadísticas de los demás períodos aún no han sido calculadas.
 
 ## Categorías {#concept_3260EE45B2164E478E8A90E046D078AB}
 
@@ -38,4 +38,4 @@ c_reports_categories.xml
 
  -->
 
-Muestran cómo las diversas categorías de productos influyen sobre las métricas de éxito del sitio.
+Muestra cómo varias categorías de productos afectan las métricas de éxito del sitio.
