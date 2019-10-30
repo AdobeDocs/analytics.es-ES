@@ -3,9 +3,9 @@ description: Los grupos de informes virtuales se pueden revisar para que incluya
 seo-description: Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan componentes en Analysis Workspace.
 seo-title: Revisión de componentes de grupo de informes virtuales
 title: Revisión de componentes de grupo de informes virtuales
-uuid: 6 c 6 a 4071-22 ad -4 e 8 c-b 1 ed -140 b 2 aa 04 f 76
+uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan componentes en Analysis Workspace.
 
->[!NOTE]
->
->Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. Anteriormente, cualquiera podía ver los componentes no organizados al hacer clic en **[!UICONTROL Mostrar todos los componentes]**. La [experiencia actualizada de organización](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) permite un control más detallado sobre qué componentes son visibles.
+> [!NOTE]Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. Anteriormente, cualquiera podía ver los componentes no organizados al hacer clic en **[!UICONTROL Mostrar todos los componentes]**. La [experiencia actualizada de organización](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) permite un control más detallado sobre qué componentes son visibles.
 
 Para habilitar la revisión de componentes,
 
@@ -32,8 +30,8 @@ Para habilitar la revisión de componentes,
    >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
 
    * [!UICONTROL Reports &amp; Analytics]
-   * [!UICONTROL Ad Hoc Analysis]
-   * [!UICONTROL Almacén de datos]
+   * [!UICONTROL Ad Hoc Analysis ]
+   * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * API de informes de Analytics
    Una vez comprobado, puede agregar los componentes que desee incluir en el grupo de informes virtuales arrastrando los componentes aplicables de la columna “componentes excluidos” a la columna “componentes incluidos”. Los componentes que se pueden incluir y excluir son los siguientes:
