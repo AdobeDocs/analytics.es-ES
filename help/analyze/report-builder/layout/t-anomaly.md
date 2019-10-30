@@ -1,18 +1,18 @@
 ---
 description: Los pasos describen cómo crear una solicitud de detección de anomalías en el Creador de informes.
 seo-description: Los pasos describen cómo crear una solicitud de detección de anomalías en el creador de informes.
-seo-title: Configure una solicitud de detección de anomalías
+seo-title: Configuración de una solicitud de detección de anomalías
 solution: Analytics
-title: Configure una solicitud de detección de anomalías
+title: Configuración de una solicitud de detección de anomalías
 topic: Creador de informes
-uuid: 1 e 504 ff 9-df 88-4 fa 7-95 ea -1 ca 05 a 6 f 9 c 0 d
+uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Configure una solicitud de detección de anomalías
+# Configuración de una solicitud de detección de anomalías
 
 Los pasos describen cómo crear una solicitud de detección de anomalías en el Creador de informes.
 
@@ -25,15 +25,15 @@ Los pasos describen cómo crear una solicitud de detección de anomalías en el 
 
 1. After configuring date ranges, click **[!UICONTROL Next]**.
 
-   Resultado 1. On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
+   Resultado (1). On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
 
-   Resultado 1. For the added metric, click the **[!UICONTROL None]** link.
+   Resultado (1). For the added metric, click the **[!UICONTROL None]** link.
 
-   ![Resultado de los pasos](assets/anomaly_select.png)
+   ![Resultado (](assets/anomaly_select.png)
 
 1. Select **[!UICONTROL Anomaly Detection]** &gt; **[!UICONTROL `<selection>`]**.
 
-   ![Información de paso](assets/anomaly_visit.png)
+   ![Información del paso](assets/anomaly_visit.png)
 
    Cuando selecciona una de estas opciones, el sistema crea copias de Detección de anomalías de la métrica original. Por ejemplo, en la métrica Visitas, la métrica de límite inferior de visitas se añade al grupo de [!UICONTROL Métrica].
 1. Click **[!UICONTROL Finish]** and select the cell for output to Excel.
