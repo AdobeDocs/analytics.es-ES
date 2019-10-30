@@ -5,9 +5,9 @@ seo-title: Métodos de búsqueda
 solution: Analytics
 title: Métodos de búsqueda
 topic: Herramientas de administración
-uuid: 1053993 e -7 fc 4-4874-84 fa -367 ecdcd 7 b 45
+uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 La página Métodos de localización identifica la manera en que los diversos informes de métodos de localización reciben crédito para eventos de éxito de conversión en un sitio. Por ejemplo, si un motor de búsqueda envía a un visitante a un sitio, y este visitante realiza una compra, Métodos de localización especifica cómo debe recibir el crédito el motor de búsqueda para el referente.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Conversión]** &gt; **[!UICONTROL Métodos de búsqueda]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **** de informes &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Conversión]** &gt; Métodos de **** búsqueda.
 
 ## Descripciones de los métodos de localización {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -55,7 +55,5 @@ La página Métodos de localización identifica la manera en que los diversos in
  </tbody> 
 </table>
 
->[!NOTE]
->
->Todos los métodos de búsqueda caducan cuando finaliza la visita. Si elige que caduque después de un evento distinto (por ejemplo, con el cierre de compra del carro), el método de búsqueda caducará cuando se produzca el cierre de compra, durante la visita. Si no se produce el cierre de compra durante la visita, el método de búsqueda caducará cuando la visita finalice.
+> [!NOTE] Todos los métodos de búsqueda caducan al finalizar la visita. Si elige que caduque después de un evento distinto (por ejemplo, con el cierre de compra del carro), el método de búsqueda caducará cuando se produzca el cierre de compra, durante la visita. Si no se produce el cierre de compra durante la visita, el método de búsqueda caducará cuando la visita finalice.
 
