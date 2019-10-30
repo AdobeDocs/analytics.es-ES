@@ -1,18 +1,18 @@
 ---
 description: Describe los pasos involucrados en la aplicación de filtros a un informe de ruta.
 seo-description: Describe los pasos involucrados en la aplicación de filtros a un informe de ruta.
-seo-title: Filtrar un informe de ruta utilizando el Asistente para solicitudes
+seo-title: Filtrado de un informe de rutas mediante el Asistente para solicitudes
 solution: Analytics
-title: Filtrar un informe de ruta utilizando el Asistente para solicitudes
+title: Filtrado de un informe de rutas mediante el Asistente para solicitudes
 topic: Creador de informes
-uuid: 9 b 22 d 5 b 5-7 ae 8-49 a 2-90 ae -0 c 1075562 bbe
+uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filtrar un informe de ruta utilizando el Asistente para solicitudes
+# Filtrado de un informe de rutas mediante el Asistente para solicitudes
 
 Describe los pasos involucrados en la aplicación de filtros a un informe de ruta.
 
@@ -25,7 +25,7 @@ En este ejemplo se utilizan las rutas de sección del sitio.
    ![](assets/site_section_path_1.png)
 
 1. Especifique las fechas adecuadas.
-1. Click **[!UICONTROL Next]**.
+1. Haga clic en **[!UICONTROL Siguiente]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Top 1-10 (pattern applied)]** link. En un informe de ruta, se aplica un patrón de forma predeterminada.
 
    ![](assets/site_section_path_2.png)
