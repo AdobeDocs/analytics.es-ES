@@ -8,7 +8,7 @@ title: Variables y eventos de Analytics
 topic: Data Connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ Además de la variable de campaña, puede usar eVars y eventos de Analytics que 
 | Variable | Nombre descriptivo | Método de obtención de datos | Descripción |
 |---|---|---|---|
 | s.campaign o eVar | Código de seguimiento de anuncios | Se completa automáticamente mediante Data Connector para campañas DFA. | Rastrea conversiones de pulsaciones para todas las campañas. |
-| eVar* | Visualización | Se completa automáticamente mediante VISTA y DFA para campañas DFA. | Rastrea datos de visualización para los ID DFA. Esta eVar debe tener la misma caducidad que la variable *`s.campaign`* variable. Debe ser la misma variable de conversión identificada en la ID de proveedor de variable. Asegúrese de que la eVar tenga subrelaciones completas habilitadas. El coste por habilitar esta función es parte de la tarifa por integración de Data Connectors. |
+| eVar* | Visualización | Se completa automáticamente mediante VISTA y DFA para campañas DFA. | Rastrea datos de visualización para los ID DFA. Esta eVar debe tener la misma caducidad que la variable *`s.campaign`* campaign. Debe ser la misma variable de conversión identificada en la ID de proveedor de variable. Asegúrese de que la eVar tenga subrelaciones completas habilitadas. El coste por habilitar esta función es parte de la tarifa por integración de Data Connectors. |
 | eVar* | Errores de consulta DFA | (Opcional) Se completa mediante código de recopilación JavaScript. | Contiene uno de varios códigos de error devueltos por DFA. |
 | event* | Recuento de visualizaciones | Se completa automáticamente mediante Data Connector para campañas DFA. | Captura la cantidad de veces que los usuarios vieron un anuncio, no pulsaron, pero llegaron a su sitio. |
 | event* | Impresiones | Se completa automáticamente mediante una fuente de datos de DFA. | Rastrea la cantidad de veces que se publicó un anuncio DFA específico. |
