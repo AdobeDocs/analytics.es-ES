@@ -5,7 +5,7 @@ seo-title: Preguntas frecuentes
 title: Preguntas frecuentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Es posible asignar un <b>grupo de informes virtual</b> (VRS) a una cuenta de Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Los grupos de informes virtuales no recopilan datos, de manera que no puede asignar directamente una cuenta de Advertising Analytics a un VRS. </p> <p>No obstante, puede asignar la cuenta de Advertising Analytics al grupo de informes principal del VRS en que quiere ver datos. </p> <p>Las métricas del motor de búsqueda (clic/coste/impresiones) pueden no mostrarse en el grupo de informes virtual a no ser que se incluya en la lógica del segmento una condición “o” basada en el AMO ID (o en su clasificación). Ejemplo: agregar “todas las visitas donde existe AMO ID” incluiría en el segmento las métricas del motor de búsqueda. </p> </td> 
+   <td colname="col2"> <p>R: Los grupos de informes virtuales no recopilan datos, de manera que no puede asignar directamente una cuenta de Advertising Analytics a un VRS. </p> <p>No obstante, puede asignar la cuenta de Advertising Analytics al grupo de informes principal del VRS en que quiere ver datos. </p> <p>Es posible que las métricas del motor de búsqueda (clic/costo/impresiones) no se muestren en el VRS a menos que incluya una condición "o" en la lógica del segmento según la ID de AMO (o su clasificación). Ejemplo: La adición de "todas las visitas donde existe la ID de AMO" incluiría las métricas del motor de búsqueda en el segmento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Se pueden incluir las métricas de Advertising Analytics en el informe <b>Canales de marketing</b>? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Solo capturamos google.com o también <b>versiones específicas de los países</b> como google.co.uk, google.it, google.fr o google.de? </p> </td> 
-   <td colname="col2"> <p>A: La clasificación Plataforma de publicidad captura estos valores: "Google Adwords" y "Bing Ads". </p> <p>Una práctica recomendada habitual es incluir el código de país como parte del nombre de las campañas. A continuación, puede filtrarlas o segmentarlas (por ejemplo, si todas las campañas empiezan por códigodepaís_, el hecho de crear un segmento en el que las campañas (ID de AMO) empiecen por “UK_” solo le proporcionaría datos para el Reino Unido). </p> </td> 
+   <td colname="col2"> <p>A: La clasificación Plataforma de publicidad captura estos valores: "Google Adwords" y "Bing Ads". </p> <p>Una práctica recomendada habitual es incluir el código de país como parte del nombre de las campañas. A continuación, puede filtrar o segmentar (por ejemplo: si todas las campañas comienzan con código de país_, crear un segmento en el que Campañas (ID de AMO) comience con "UK_" le proporcionará sólo datos para el Reino Unido). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: La métrica “Coste de AMO” es el coste que se paga por cada palabra clave o anuncio según informe el motor de búsqueda. ¿Es el coste neto o el bruto? </p> </td> 
