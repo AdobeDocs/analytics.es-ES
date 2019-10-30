@@ -8,8 +8,8 @@ subtopic: Visitantes
 title: Visitas
 topic: Desarrollador e implementación
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Documentación de Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/).
+>Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte la documentación [de cooperación entre dispositivos de](https://marketing.adobe.com/resources/help/en_US/mcdc/)Adobe Experience Cloud.
 
 Analytics contabiliza una visita cada vez que se produce una llamada al servidor con un Número de página de visita igual a 1.
 
