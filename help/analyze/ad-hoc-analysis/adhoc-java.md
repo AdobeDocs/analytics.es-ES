@@ -4,7 +4,7 @@ seo-description: Instrucciones sobre cómo ejecutar análisis específicos con J
 seo-title: Análisis específicos y Java 11
 title: Ejecutar Ad Hoc Analysis en Java 11
 translation-type: tm+mt
-source-git-commit: 23bdb0c24416c376ec1df7b609a5794dbf8886f2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,13 +25,11 @@ Trabaje con su equipo de TI para comprobar que se cumpla lo siguiente:
 1. Vaya a **[!UICONTROL Analytics &gt; Herramientas &gt; Ad Hoc Analysis]**.
 1. Haga clic en **[!UICONTROL Ad Hoc Analysis (Java 11)]**. Esto descarga un archivo zip.
 1. Descomprima el archivo descargado.
-1. **Seleccione el archivo .bat (PC) o .sh (Mac)**. Seleccione el archivo del centro de datos adecuado mirando el número que sigue a "sc" en la URL de Adobe Analytics. (3 = LON, 4 = SIN, 5 = PNW) Si utiliza un PC, verifique si está ejecutando un sistema operativo Windows de 32 o 64 bits si va a "Acerca de su PC". A continuación, seleccione el archivo .bat apropiado.
+1. **Seleccione el archivo .bat (PC) o .sh (Mac)**. Para seleccionar el archivo del centro de datos adecuado, fíjese en el número siguiente a "sc" en la URL de Adobe Analytics. (3 = LON, 4 = SIN, 5 = PNW) Si utiliza un PC, verifique si está ejecutando un sistema operativo Windows de 32 o 64 bits si va a "Acerca de su PC". A continuación, seleccione el archivo .bat apropiado.
 1. **Ejecutar el archivo seleccionado**. Para PC: Haga doble clic en el archivo .bat. Para Mac: Haga clic derecho en el archivo .sh y, a continuación, seleccione **[!UICONTROL Abrir con &gt; Otro....  &gt; Utilidades &gt; (Activar todas las aplicaciones) &gt; seleccione Terminal &gt; Abrir]**.
 1. Inicie sesión en el Ad Hoc Analysis.
 
->[!Note]
->
-> Los métodos de autenticación de Federated ID y Enterprise ID no son compatibles con la versión de Java 11 de Análisis específicos.
+> [!NOTE] Los métodos de autenticación de Federated ID y Enterprise ID no son compatibles con la versión de Java 11 de Análisis específicos.
 
 ## Características no admitidas en el Ad Hoc Analysis (Java 11)
 
