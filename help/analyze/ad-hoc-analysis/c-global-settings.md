@@ -5,7 +5,7 @@ seo-title: Configuración
 title: Configuración
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -84,7 +84,7 @@ r_dsc_site_analysis_tab.xml
 
 | Campo | Definición |
 |--- |--- |
-| Métricas | Permite seleccionar las métricas representadas por el ancho y la altura del cilindro y determinar qué métrica se representa mediante colores; también permite configurar los colores usados para representar valores altos y bajos de la métrica. Se pueden configurar métricas para los ejes X e Y; también se pueden agregar otras métricas para que aparezcan en el texto emergente del informe. También puede invertir cualquiera de las métricas seleccionadas para la presentación. |
+| Métricas | Permite seleccionar las métricas representadas por el ancho y la altura del cilindro y determinar qué métrica se representa mediante colores; también permite configurar los colores usados para representar valores altos y bajos de la métrica. Puede establecer las métricas para los ejes X e Y y agregar cualquier otra métrica que desee que aparezca en el texto emergente del informe. También puede invertir cualquiera de las métricas seleccionadas para la presentación. |
 | General y alertas | Permite habilitar y deshabilitar ciertos elementos gráficos del informe. Se pueden configurar alertas para que aparezcan en el informe cuando las métricas asociadas con las páginas y representadas por los cilindros superen cierto valor. |
 
 ## Ficha Fuente y configuración regional: definiciones {#reference_5F2129B67CC44E5BA9EA7E30A35BFB49}
