@@ -1,11 +1,11 @@
 ---
 description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
-keywords: Implementación de análisis
+keywords: Implementación de Analytics
 seo-description: Las variables dinámicas permiten copiar valores entre distintas variables sin necesidad de escribir varias veces los valores completos en las solicitudes de imagen del sitio.
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Las cookies, los encabezados de solicitud y parámetros de cadena de consulta de
 ## Sintaxis y valores posibles
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 O USE MARCAS PERSONALIZADAS PARA VARIABLES DINÁMICAS
@@ -35,7 +35,7 @@ s.dynamicVariablePrefix=".."
 ## Ejemplos
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 O USE MARCAS PERSONALIZADAS PARA VARIABLES DINÁMICAS
