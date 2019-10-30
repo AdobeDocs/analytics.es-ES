@@ -75,7 +75,7 @@ Este informe se basa en los datos de identificación del visitante que recibe Ad
 
 >[!NOTE]
 >
->Cada ID de visitante de Analytics está asociado a un perfil de visitante en los servidores de Adobe. Los perfiles de visitante se borran tras 13 meses de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante.
+>Cada ID de visitante de Analytics está asociado con un perfil del visitante en los servidores de Adobe. Los perfiles de visitante se borran tras 13 meses de inactividad, independientemente de la caducidad de cualquier cookie del ID del visitante.
 
 ## Lealtad del cliente {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
