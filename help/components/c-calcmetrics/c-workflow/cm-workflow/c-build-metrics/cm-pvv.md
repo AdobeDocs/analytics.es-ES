@@ -1,16 +1,16 @@
 ---
 description: Le muestra cómo crear una métrica "Vistas de página por visitas" simple.
 seo-description: Le muestra cómo crear una métrica "Vistas de página por visitas" simple.
-seo-title: Crear una métrica simple "Vistas de página por visitas"
-title: Crear una métrica simple "Vistas de página por visitas"
-uuid: 0730 e 51 c -1 f 8 f -473 b -8825-d 72911 f 2944 c
+seo-title: Crear una métrica "Vistas de página por visitas" simple
+title: Crear una métrica "Vistas de página por visitas" simple
+uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Crear una métrica simple "Vistas de página por visitas"
+# Crear una métrica "Vistas de página por visitas" simple
 
 Le muestra cómo crear una métrica "Vistas de página por visitas" simple.
 
@@ -31,5 +31,5 @@ Para crear una métrica "Vistas de página por visitas" simple haga lo siguiente
 1. La compatibilidad del producto le muestra si la métrica es compatible con los [Datos actuales](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) o únicamente con los Datos completamente procesados.
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Observe que la fórmula de **[!UICONTROL Resumen]se actualiza cada vez que realice cambios en la definición de la métrica.**
-1. You are now automatically taken to the [Calculated Metric Manager](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653), which is similar to the Segment Manager. Le permite compartir, aprobar, (volver a) etiquetar, cambiar el nombre o eliminar métricas.
+1. Ahora se le redirige automáticamente al Administrador [de métricas](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)calculadas, que es similar al Administrador de segmentos. Le permite compartir, aprobar, (volver a) etiquetar, cambiar el nombre o eliminar métricas.
 
