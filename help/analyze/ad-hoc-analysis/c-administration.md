@@ -5,7 +5,7 @@ seo-title: Administración
 title: Administración
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -151,9 +151,3 @@ Otro ejemplo sería que si recibe 10 millones de visitas por día, con una fracc
 * (10.000.000 x 365) / 750.000.000 = 4,8
 
 Así que para mantener la cantidad de visitas de la fracción de 365 días por debajo de 750.000.000, se puede tomar una muestra de datos con una frecuencia de 4,8:1. Con números enteros, la frecuencia de muestreo es de 5:1.
-
->[!MORE_LIKE_THIS]
->
->* [Usuarios](https://marketing.adobe.com/resources/help/en_US/reference/users.html)
->* [Grupos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)
-
