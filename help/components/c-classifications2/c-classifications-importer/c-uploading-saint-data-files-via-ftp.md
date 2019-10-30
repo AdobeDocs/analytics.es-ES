@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Clasificaciones
 title: Importación de FTP
 topic: Herramientas de administración
-uuid: a 914970 d-ba 02-4111-9 dcf -06448 f 71 b 9 f 3
+uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Instrucciones sobre cómo cargar archivos de datos a través de FTP.
 
-## FTP import {#concept_2F965BE873254546A61FB755F25299FD}
+## Importación de FTP {#concept_2F965BE873254546A61FB755F25299FD}
 
 Instrucciones sobre cómo cargar archivos de datos a través de FTP.
 
-**[!UICONTROL Administración]** &gt; **[!UICONTROL Importador de clasificaciones]**.
+**[!UICONTROL Administración]** &gt; Importador **[!UICONTROL de clasificaciones]**.
 
 Es importante tener en cuenta los límites recomendados siguientes:
 
@@ -36,11 +36,9 @@ Cada nuevo valor clave que cargue se restará a los únicos de esa variable para
 
 Si ha superado las únicas del mes, no verá los datos de clasificación correspondientes a los valores únicos superados en los informes. Puede ver esas clasificaciones en el almacén de datos o el Ad Hoc Analysis.
 
->[!NOTE]
->
->El tiempo necesario para procesar un archivo de datos de clasificación varía según el tamaño del archivo y el número actual de archivos que estén procesando los servidores de Adobe. El procesamiento de los archivos no suele tardar más de 72 horas.
+> [!NOTE] El tiempo necesario para procesar un archivo de datos de clasificación varía según el tamaño del archivo y el número actual de archivos que ya están procesando los servidores de Adobe. El procesamiento de los archivos no suele tardar más de 72 horas.
 
-Antes de cargar datos a través de FTP, se debe crear una cuenta de FTP. Para obtener más información, consulte [Crear una cuenta de FTP](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Antes de cargar datos a través de FTP, se debe crear una cuenta de FTP. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Importar clasificaciones a través del FTP {#task_132C36830B69418B8C929E39838EF01D}
 
