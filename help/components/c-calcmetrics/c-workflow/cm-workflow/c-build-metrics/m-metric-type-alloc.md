@@ -3,9 +3,9 @@ description: Si selecciona el icono de engranaje junto a una métrica, puede esp
 seo-description: Si selecciona el icono de engranaje junto a una métrica, puede especificar el tipo de métrica y el modelo de atribución.
 seo-title: Tipo de métrica y atribución
 title: Tipo de métrica y atribución
-uuid: 64649698-df 2 a -42 c 3-bb 31-938 f 766 e 1 d 1 f
+uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,15 +34,15 @@ Si selecciona el icono de engranaje junto a una métrica, puede especificar el t
 >In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. Como parte de este cambio, las métricas calculadas que usan un modelo de asignación no predeterminado se migraron a los nuevos modelos de atribución mejorados:
 >
 >* Para obtener una lista completa de todos los modelos de atribución no predeterminados y ventanas retroactivas, consulte la documentación de [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html).
->* Los modelos de asignación “Último toque del canal de marketing” y “Primer toque del canal de marketing” se migrarán a los nuevos modelos de atribución “Último toque” y “Primer toque”, respectivamente. Tenga en cuenta que “Canales de marketing” no dejará de utilizarse, pues únicamente se retirarán los dos modelos de asignación que aparecen en las métricas calculadas.
->* Además, corregiremos la forma de calcular la asignación lineal. Para los clientes que usan métricas calculadas con modelos de asignación “Lineal”, los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obtener más información, consulte [Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Los modelos de asignación "Último toque de canal de mercadotecnia" y "Primer toque de canal de mercadotecnia" se migrarán a los nuevos modelos de atribución "Último toque" y "Primer toque" respectivamente (Nota: "Canales de mercadotecnia" no se desaprobará; solo se considerarán los dos modelos de asignación que aparecen en las métricas calculadas).
+>* Además, corregiremos la forma de calcular la asignación lineal. Para los clientes que utilizan métricas calculadas con modelos de asignación "lineal", los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obtener más información, consulte [Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018)](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 >
 
 
 
 ## Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-En julio de 2018, Adobe cambió la forma en que se informa la asignación lineal para Métricas calculadas. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. Este cambio afectará principalmente a las eVars y otras dimensiones que tienen persistencia. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). Los otros informes que usan la asignación lineal seguirán usando el método existente.
+En julio de 2018, Adobe cambió el modo en que se informa la asignación lineal para las métricas calculadas. This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. Este cambio afectará principalmente a las eVars y otras dimensiones que tienen persistencia. Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). Los otros informes que usan la asignación lineal seguirán usando el método existente.
 
 El ejemplo siguiente ilustra de qué forma cambiarán las métricas calculadas con la asignación lineal en los informes:
 
