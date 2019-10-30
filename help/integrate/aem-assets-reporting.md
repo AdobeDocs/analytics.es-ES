@@ -4,10 +4,10 @@ seo-description: Pasos administrativos para activar Informes de AEM Assets en An
 seo-title: Informes de AEM Assets
 solution: Analytics
 title: Informes de AEM Assets
-topic: 'Informes '
-uuid: 242 f 5 ea 0-146 c -4 edb -928 e -35 b 4 c 084934 d
+topic: Informes
+uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Pasos administrativos para activar Informes de AEM Assets en Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL AEM]** &gt; **[!UICONTROL Informes de AEM Assets]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **[!UICONTROL de]** informes &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL AEM]** **[!UICONTROL &gt; Informes de activos de AEM]**
 
 Permite que Analytics recopile impresiones y clics en recursos proporcionados por AEM Asset Insights. Esta integración
 
