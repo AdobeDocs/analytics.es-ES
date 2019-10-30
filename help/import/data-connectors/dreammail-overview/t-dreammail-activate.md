@@ -5,7 +5,7 @@ seo-title: Activar la integración
 title: Activar la integración
 uuid: 9084b691-291d-49f7-9fa4-abda507e060d
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,6 +38,6 @@ Utilice el Asistente para la configuración de Conectores de datos de Adobe para
 | Valor destacado | Evento de ingresos que se puede exportar en segmentos de remercadotecnia. |
 | TotalClicks | El evento en el que se hizo clic permite ver el número de visitantes que hicieron clic en el mensaje de correo electrónico. |
 | Segmentos | Esta integración crea los segmentos definidos por el socio que se muestran en la sección Segmentos del socio. Además, puede seleccionar segmentos existentes de nivel de grupo de informes para incluirlos en la integración. |
-| Solicitudes de acceso | Habilite los privilegios de acceso recomendados. |
+|  Solicitudes de acceso | Habilite los privilegios de acceso recomendados. |
 | Recopilación de datos | Seleccione **JavaScript Plug-in** si desea utilizar el complemento s_code.js como modelo de recopilación para esta integración (consulte ). Seleccione Solución **** automatizada si desea utilizar un modelo de recopilación automatizada para esta integración y, a continuación, especifique los identificadores únicos utilizados para esta integración. Si selecciona esta opción, especifique los identificadores únicos utilizados para esta integración:<ul><li>Parámetro de cadena de consulta de ID del mensaje: Este valor representa el ID del mensaje que su socio de correo electrónico anexó a la dirección URL de la página de aterrizaje.</li><li>Parámetro de cadena de consulta de ID del destinatario: Este valor representa la ID del destinatario anexada a la URL de la página de aterrizaje por su socio de correo electrónico.</li></ul> |
 | Generación de tableros y marcadores | Genere automáticamente un tablero y marcadores para la integración. |
