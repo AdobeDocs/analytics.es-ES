@@ -3,9 +3,9 @@ description: Un histograma es un nuevo tipo de visualización en Analysis Worksp
 seo-description: Un histograma es un nuevo tipo de visualización en Analysis Workspace.
 seo-title: Histograma
 title: Histograma
-uuid: 8 a 6 bd 2 c 4-da 15-4 f 64-b 889-ab 9 add 685046
+uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Para crear un histograma:
 
 ![](assets/histogram.png)
 
->[!NOTE]
->
->Los histogramas solo admiten métricas estándar, no métricas calculadas.
+> [!NOTE] Los histogramas solo admiten métricas estándar, no métricas calculadas.
 
 Aquí hemos utilizado la métrica Vistas de página por Visitantes únicos. El primer contenedor (izquierda) corresponde a 1 vista de página por visitante único, el segundo bloque a dos vistas de página, etcétera.
 
@@ -41,7 +39,7 @@ Para ajustar la configuración de su histograma, haga clic en el icono de Config
 | Iniciando el depósito | Determina por qué contenedor empieza el histograma. La opción predeterminada es “1”. Puede ajustar los números iniciales de 0 hasta el infinito (sin números negativos). |
 | Contenedor de métricas | Le permite aumentar/disminuir el número de rangos de fecha (contenedores). El número máximo de contenedores es 50. |
 | Tamaño del contenedor de métricas | Le permite establecer el tamaño de cada contenedor. Por ejemplo, puede cambiar el tamaño del contenedor de 1 vista de página a 2 vistas de página. |
-| Método de recuento | Elija entre [Visitante](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visita](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) o [Acierto](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Por ejemplo, vistas de página por visita o visitas de página por visitante o visitas de página por cada acierto. Para aciertos, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre. |
+| Método de recuento | Elija entre [Visitante](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html), [Visita](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html) o [Acierto](https://marketing.adobe.com/resources/help/en_US/reference/hit.html). Por ejemplo, vistas de página por visita o visitas de página por visitante o visitas de página por cada acierto. Para la visita individual, "Ocurrencias" se utiliza como métrica del eje y en una tabla improvisada. |
 
 **Ejemplos**:
 
