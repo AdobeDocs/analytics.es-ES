@@ -1,18 +1,18 @@
 ---
 description: Las solicitudes se pueden actualizar para todas las hojas o para varias solicitudes.
 seo-description: Las solicitudes se pueden actualizar para todas las hojas o para varias solicitudes.
-seo-title: Actualizar solicitudes de todas las hojas
+seo-title: Actualizar las solicitudes de todas las hojas
 solution: Analytics
-title: Actualizar solicitudes de todas las hojas
+title: Actualizar las solicitudes de todas las hojas
 topic: Creador de informes
-uuid: 7 aa 3 a 206-6 b 14-40 c 1-8 e 18-51998 f 02649 e
+uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Actualizar solicitudes de todas las hojas
+# Actualizar las solicitudes de todas las hojas
 
 Las solicitudes se pueden actualizar para todas las hojas o para varias solicitudes.
 
