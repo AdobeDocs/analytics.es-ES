@@ -26,7 +26,7 @@ The [!DNL Activity Map] module is part of the AppMeasurement.js file (located at
 
    Hemos incluido [código de implementación de muestra](../../../../analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md#concept_EC27DA8A62F5411EBED51284CB7E1734) para facilitar la visualización de los cambios que se han hecho en el código al incluir el módulo [!DNL Activity Map]
 
-1. Valide la implementación:
+1. Validar la implementación:
 
    1. Cuando se hace clic en un elemento activo, los datos se guardan en una cookie llamada s_sq.
    1. The [!DNL Activity Map] data can be seen in the query-string on the tracking call. Por ejemplo:
