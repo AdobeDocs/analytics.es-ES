@@ -5,7 +5,7 @@ seo-title: Código de complemento de Analytics
 title: Código de complemento de Analytics
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,6 +24,4 @@ Si seleccionó el método de recopilación de datos del complemento JavaScript, 
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
->[!NOTE]
->
->El complemento de arriba supone que algunas variables de comercio personalizadas (eVars) están disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Analytics, simplemente reemplácelas por las que están disponibles.
+> [!NOTE] El complemento de arriba supone que algunas variables de comercio personalizadas (eVars) están disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Analytics, simplemente reemplácelas por las que están disponibles.
