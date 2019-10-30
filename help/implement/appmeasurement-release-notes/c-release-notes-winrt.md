@@ -7,23 +7,19 @@ subtopic: Notas de la versión
 title: WinRT para Windows 8
 topic: Desarrollador e implementación
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # WinRT para Windows 8{#winrt-for-windows}
 
->[!NOTE]
->
->Para saber la versión de la biblioteca actual, active los registros de depuración.
+> [!NOTE] Para saber la versión de la biblioteca actual, active los registros de depuración.
 
-La biblioteca móvil [Descargas](https://marketing.adobe.com/developer/es/get-started/mobile/c-measuring-mobile-applications) está disponible en [!DNL Developer Connection].
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
->[!NOTE]
->
->[!DNL WinRT] para el SDK 8 de [!DNL Windows] se ha sustituido con el SDK de [Universal App Store para Windows 8.1](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E). Este SDK no se va a desarrollar más.
+> [!NOTE][!DNL WinRT] para el SDK 8 de [!DNL Windows] se ha sustituido con el SDK de [Universal App Store para Windows 8.1](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E). Este SDK no se va a desarrollar más.
 
 ## Versión 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
