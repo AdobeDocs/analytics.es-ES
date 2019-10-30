@@ -1,18 +1,18 @@
 ---
 description: Describe los pasos involucrados en la aplicación de filtros a un informe de visitas en el orden previsto.
 seo-description: Describe los pasos involucrados en la aplicación de filtros a un informe de visitas en el orden previsto.
-seo-title: Filtrar un informe de visitas en el orden previsto utilizando el Asistente para solicitudes
+seo-title: Filtrado de un informe de abandonos mediante el Asistente para solicitudes
 solution: Analytics
-title: Filtrar un informe de visitas en el orden previsto utilizando el Asistente para solicitudes
+title: Filtrado de un informe de abandonos mediante el Asistente para solicitudes
 topic: Creador de informes
-uuid: 269 e 900 e -23 bd -48 d 8-9 bac -69 e 3167 a 9 c 18
+uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filtrar un informe de visitas en el orden previsto utilizando el Asistente para solicitudes
+# Filtrado de un informe de abandonos mediante el Asistente para solicitudes
 
 Describe los pasos involucrados en la aplicación de filtros a un informe de visitas en el orden previsto.
 
@@ -24,8 +24,8 @@ En este ejemplo se muestra el informe de visitas en el orden previsto de página
 
    ![](assets/page_fallout.png)
 
-1. Configure the appropriate [date ranges](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
-1. Click **[!UICONTROL Next]**.
+1. Configure los intervalos [de](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)fechas adecuados.
+1. Haga clic en **[!UICONTROL Siguiente]**.
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. (En un informe de visitas en el orden previsto, siempre tiene que definir los elementos de ruta, a diferencia de en un informe de ruta, donde se aplica un patrón previamente). 
 
    ![](assets/define_checkpoints.png)
