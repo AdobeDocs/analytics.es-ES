@@ -7,8 +7,8 @@ solution: Analytics
 title: Informes y grupos de informes
 topic: Desarrollador e implementación
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
-translation-type: ht
-source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,24 +35,24 @@ Podrá ejecutar un *informe de Analytics* tras implementar Adobe Analytics. Los 
 
 Los tipos de informes más importantes son:
 
-* [Tráfico](https://marketing.adobe.com/resources/help/es_ES/reference/reports_traffic.html): Proporciona una perspectiva detallada sobre cómo los visitantes interactúan con el sitio web y las estadísticas de tráfico personalizadas.
-* [Conversión](https://marketing.adobe.com/resources/help/es_ES/reference/reports_conversion.html): Muestra información sobre los indicadores de éxito definidos.
-* [Rutas](https://marketing.adobe.com/resources/help/es_ES/reference/reports_paths.html): Permite rastrear y registrar las rutas completas de navegación de los visitantes.
+* [Tráfico](https://marketing.adobe.com/resources/help/en_US/reference/reports_traffic.html): proporcionan una perspectiva exhaustiva del modo en el que los visitantes interactúan con el sitio web, además de las estadísticas de tráfico que haya personalizado.
+* [Conversión](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html): muestran información acerca de los indicadores de éxito definidos.
+* [Rutas](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html): le permiten hacer un seguimiento de todas las rutas de navegación de los visitantes, así como mantener un registro de las mismas.
 
-Puede utilizar [Analysis Workspace](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/) para eliminar las limitaciones típicas de un solo informe de Analytics. Proporciona un lienzo flexible y robusto para la creación de proyectos de análisis personalizados. Arrastre y coloque cualquier número de tablas de datos, visualizaciones y componentes (dimensiones, métricas, segmentos y granularidades de tiempo) en un proyecto. Cree de forma instantánea desgloses y segmentos, cohortes para análisis, alertas y cree segmentos y recopile informes para compartir con cualquier persona de su industria.
+Puede utilizar [Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) para eliminar las limitaciones típicas de un único informe de Analytics. Proporciona un lienzo flexible y robusto para la creación de proyectos de análisis personalizados. Arrastre y coloque cualquier número de tablas de datos, visualizaciones y componentes (dimensiones, métricas, segmentos y granularidades de tiempo) en un proyecto. Cree de forma instantánea desgloses y segmentos, cohortes para análisis, alertas y cree segmentos y recopile informes para compartir con cualquier persona de su industria.
 
 <p class="head"> <b>Consulte también</b> </p>
 
 * [Ayuda de Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
 * [Reports and Analytics](/help/analyze/reports-analytics/overview/report-overview.md)
-* [Informes en tiempo real](https://marketing.adobe.com/resources/help/es_ES/reference/realtime.html)
-* [Report Builder de Adobe](https://marketing.adobe.com/resources/help/es_ES/arb/)
-* [Extracciones de datos](https://marketing.adobe.com/resources/help/es_ES/sc/user/data_extract.html)
-* [Activity Map](https://marketing.adobe.com/resources/help/es_ES/analytics/activitymap/)
-* [Administrador de grupo de informes](https://marketing.adobe.com/resources/help/es_ES/reference/report_suites_admin.html)
-* [Comparación y requisitos de productos de Analytics](https://marketing.adobe.com/resources/help/es_ES/reference/analytics-product-comparison.html)
-* [Descripciones de informes](https://marketing.adobe.com/resources/help/es_ES/reference/reports_descriptions.html)
-* [Tableros e informes breves](https://marketing.adobe.com/resources/help/es_ES/sc/user/dashboard.html)
+* [Informes en tiempo real](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
+* Ayuda de [Report Builder de Adobe](https://marketing.adobe.com/resources/help/en_US/arb/)
+* [Extracciones de datos](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
+* [Página de](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)
+* [Administrador del grupo de informes](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
+* [Comparación de productos y requisitos de Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
+* [Descripciones de los informes](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
+* [Tableros e informes breves](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
 * [Marcadores](/help/analyze/reports-analytics/bookmarks.md)
 * [Grupos de informes virtuales](/help/components/vrs/vrs-about.md)
 * [Detección de anomalías](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
