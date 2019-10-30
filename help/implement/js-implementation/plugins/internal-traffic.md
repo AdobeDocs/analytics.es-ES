@@ -3,8 +3,8 @@ title: Tráfico interno
 description: El complemento Tráfico interno identifica dinámicamente a los visitantes que provienen de una red interna.
 seo-description: Complemento de tráfico interno
 seo-title: Complemento de tráfico interno
-translation-type: ht
-source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,10 +28,10 @@ El complemento intenta cargar un archivo que solo estaría disponible en la red 
 ## Implementación
 
 1. Agregue el píxel de intranet: Puede agregar cualquier tipo de archivo en la intranet al que intente acceder el complemento. Se recomienda un píxel transparente 1x1. Debe colocarse en una ubicación de su Intranet a la que se pueda acceder fácilmente desde sus redes internas.
-1. Configurar una eVar: Será necesario agregar una eVar dentro del grupo de informes de destino. Debe tener una caducidad de “Visita” y la asignación de “Valor original (primero)”.
+1. Configurar una eVar: Será necesario agregar una eVar dentro del grupo de informes de destino. Debe tener una caducidad de "Visita" y la asignación de "Valor original (primero)".
 1. Defina la dirección URL interna: Dentro de las variables de configuración de AppMeasurement y antes de crear una instancia de doPlugins, defina la variable de URL interna (s.intURL) para el píxel o utilice otro archivo para la comprobación de tráfico. Por ejemplo: `s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modifique doPlugins y establezca la eVar: El complemento se puede inicializar incluyendo esta línea de código en la sección doPlugins del código de biblioteca de AppMeasurement, utilizando la eVar definida en el paso uno: `s.eVarXX = s.intCheck();`
-El valor de la variable se establecerá en “internal” o “external”.
+1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
+The variable value will be set to "internal" or "external".
 1. Agregar el código fuente del complemento: Incluya el código de complemento debajo de la sección doPlugins del archivo AppMeasurement.
 
 ## Código fuente del complemento
