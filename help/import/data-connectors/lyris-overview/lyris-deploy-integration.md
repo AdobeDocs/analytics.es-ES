@@ -6,7 +6,7 @@ solution: Analytics
 title: Implementación de la integración
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -75,9 +75,7 @@ Pasos para comprobar que la integración de Lyris/Adobe Analytics se ha realizad
 
 Una vez completados todos los pasos de implementación, puede validar que la integración esté transfiriendo datos correctamente.
 
->[!NOTE]
->
->El intercambio de datos tarda unos días. Asegúrese de ponerse en contacto con Lyris después de activar la integración.
+> [!NOTE] El intercambio de datos tarda unos días. Asegúrese de ponerse en contacto con Lyris después de activar la integración.
 
 1. Navegue hasta la integración de Lyris en Conectores de datos. En la ficha **[!UICONTROL Asistencia]** &gt; Registro **[!UICONTROL de actividades de]** integración, debería ver eventos como datos de **[!UICONTROL métricas importados correctamente]** y/o datos **[!UICONTROL de clasificación importados correctamente]**:
 
@@ -91,9 +89,7 @@ Una vez completados todos los pasos de implementación, puede validar que la int
 
 Muestra el código del complemento Lyris que se va a utilizar con Adobe Analytics.
 
->[!NOTE]
->
->Asegúrese de reservar las eVars necesarias en la herramienta de administración de Adobe Analytics antes de trabajar con el código siguiente. Una vez que sepa qué eVars ha reservado, reemplace eVarN por la eVar relevante. Por ejemplo: eVar10.
+> [!NOTE] Asegúrese de reservar las eVars necesarias en la herramienta de administración de Adobe Analytics antes de trabajar con el código siguiente. Una vez que sepa qué eVars ha reservado, reemplace eVarN por la eVar relevante. Por ejemplo: eVar10.
 
 ```
 /* 
