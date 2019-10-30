@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Fuentes de datos
 title: Procesamiento completo
 topic: Desarrollador e implementación
-uuid: 590 ae 89 c -6 e 17-453 b-b 701-ce 1 adbea 6 fa 4
+uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,31 +45,32 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante "usuario@ejemp
    <td colname="col3"> <p>Código de seguimiento de la campaña de conversión. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col1"> <p>canal </p> </td> 
+   <td colname="col2"> <p>canal </p> </td> 
    <td colname="col3"> <p>Cadena correspondiente al canal (por ejemplo, Sección de deportes). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Nota: en fuentes de datos estándar esta variable también se puede indicar como <code>currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Nota: en fuentes de datos estándar esta variable también se puede indicar como <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>Código de la moneda en que están expresados los ingresos (por ejemplo, USD). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Use el formato de fecha ISO 8601 (<code>AAAA-MM-DDThh:mm:ss±desplazamiento_UTC</code>; por ejemplo, <code>2013-09-01T12:00:00-07:00</code>) o el formato de tiempo de Unix (UTF; la cantidad de segundos transcurridos desde el 1 de enero de 1970). </p> </td> 
+   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i> (es decir, &lt;eVar2&gt;…&lt;/eVar2&gt;) </p> </td> 
-   <td colname="col3"> <p>Nombre de la eVar de conversión. Se pueden usar hasta 75 eVars ( <span class="varname"> Evar 1 </span> - <span class="varname"> evar 75 </span>). </p> <p>Puede indicar el nombre de la eVar (eVar12) o un nombre descriptivo ("Campaña publicitaria 3"). </p> </td> 
+   <td colname="col3"> <p>Nombre de la eVar de conversión. Se pueden usar hasta 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Puede indicar el nombre de la eVar (eVar12) o un nombre descriptivo ("Campaña publicitaria 3"). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col1"> <p>eventos </p> </td> 
+   <td colname="col2"> <p>eventos </p> </td> 
    <td colname="col3"> <p>Cadena de eventos. El formato se aplica con la misma sintaxis que la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a>. </p> <p>Por ejemplo: </p> 
-    <code>Scadd, event 1, event 7 </code>
-  </td> 
+    <code>
+      scAdd,event1,event7 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
@@ -109,12 +110,12 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante "usuario@ejemp
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>Dirección URL de la página (por ejemplo, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Lista de productos (por ejemplo, <code>“Deportes;Pelota;1;5,95”).</code> </p> </td> 
+   <td colname="col1"> <p>Productos </p> </td> 
+   <td colname="col2"> <p>Productos </p> </td> 
+   <td colname="col3"> <p>Lista de productos (por ejemplo, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -201,7 +202,7 @@ En la tabla siguiente se muestran las variables de tráfico que se llenan autom�
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Tipo de conexión del visitante ( <span class="term"> lan </span> o <span class="term"> módem </span>). </p> </td> 
+   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
