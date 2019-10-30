@@ -1,20 +1,20 @@
 ---
-description: Utilice el complemento del Creador de informes de Adobe para Microsoft Excel a fin de crear solicitudes personalizadas a partir de datos de análisis de Web, que se pueden insertar en hojas de cálculo de Excel.
-keywords: ftp; sftp
-seo-description: Utilice el complemento del Creador de informes de Adobe para Microsoft Excel a fin de crear solicitudes personalizadas a partir de datos de análisis de Web, que se pueden insertar en hojas de cálculo de Excel.
-seo-title: Informes enviados del Creador de informes
+description: Utilice el complemento Creador de informes de Adobe para Microsoft Excel a fin de crear solicitudes personalizadas a partir de datos de análisis de Web, que puede insertar en las hojas de cálculo de Excel.
+keywords: ftp;sftp
+seo-description: Utilice el complemento Creador de informes de Adobe para Microsoft Excel a fin de crear solicitudes personalizadas a partir de datos de análisis de Web, que puede insertar en las hojas de cálculo de Excel.
+seo-title: Informes entregados por el Report Builder
 solution: Analytics
-title: Informes enviados del Creador de informes
-uuid: 94070700-4073-499 a-afe 2-10 a 30 eeab 79 f
+title: Informes entregados por el Report Builder
+uuid: 94070700-4073-499a-afe2-10a30eab79f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Informes enviados del Creador de informes
+# Informes entregados por el Report Builder
 
-Utilice el complemento del Creador de informes de Adobe para Microsoft Excel a fin de crear solicitudes personalizadas a partir de datos de análisis de Web, que se pueden insertar en hojas de cálculo de Excel.
+Utilice el complemento Creador de informes de Adobe para Microsoft Excel a fin de crear solicitudes personalizadas a partir de datos de análisis de Web, que puede insertar en las hojas de cálculo de Excel.
 
 Las solicitudes pueden hacer referencia, de forma dinámica, a las celdas que hay en la hoja de cálculo y la presentación de los datos se puede actualizar y personalizar. Para los datos de FTP, se debe comprobar si el host se encuentra disponible de forma externa. Para obtener más información sobre los informes que entrega el [!UICONTROL creador de informes], consulte la [Ayuda del creador de informes](https://marketing.adobe.com/resources/help/en_US/arb/index.html#ReportBuilder_Home).
 
