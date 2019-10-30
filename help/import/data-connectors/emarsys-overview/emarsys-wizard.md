@@ -5,7 +5,7 @@ seo-title: Ejecución del Asistente para la integración de Data Connectors
 title: Ejecución del Asistente para la integración de Data Connectors
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
