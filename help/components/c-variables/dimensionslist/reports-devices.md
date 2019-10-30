@@ -4,10 +4,10 @@ seo-description: Muestra una lista detallada de los dispositivos móviles utiliz
 seo-title: Dispositivos
 solution: Analytics
 title: Dispositivos
-topic: 'Informes '
-uuid: b 7 ca 4 a 3 f -8646-42 b 8-82 c 8-ea 4 f 809 dc 115
+topic: Informes
+uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
