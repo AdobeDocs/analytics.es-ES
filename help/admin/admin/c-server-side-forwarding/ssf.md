@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Resumen del reenvío del lado del servidor
 uuid: 22dbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,10 +43,10 @@ En la pestaña Solicitud, compruebe que haya un valor establecido para MID. Esto
 
 Compruebe si ya tiene implementada una versión del reenvío del lado del servidor, [inspeccionando la solicitud](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)de seguimiento de Analytics.
 
-En la pestaña “Respuesta”, compruebe que la respuesta contenga datos de Audience Manager. Si ve:
+En la ficha "Respuesta", compruebe que la respuesta contiene datos de Audience Manager. Si ve:
 
-* Una **respuesta JSON de Audience Manager que incluye elementos como “postbacks” o “dcs_region”**: ya tiene habilitado algún tipo de reenvío del lado del servidor. Siga con el paso 3.
-* **"status":"SUCCESS"**: tiene implementado el módulo Gestión de público, pero el reenvío de servidor no está configurado correctamente. Siga con el paso 3.
+* A **JSON response from Audience Manager that includes items such as "postbacks" or "dcs_region"**: you have some form of server-side forwarding already enabled. Siga con el paso 3.
+* The **"status":"SUCCESS"**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. Siga con el paso 3.
 * Una **imagen 2 x 2**: no tiene implementado el reenvío del lado del servidor o el módulo Gestión de público. Para corregir esto:
 
    * **Clientes de AAM con DIL**: se deben realizar los dos pasos siguientes en un breve tiempo:
@@ -70,7 +70,5 @@ Go to **Analytics** &gt; **Admin** &gt; **Report Suites** &gt; (select **report 
 
 <!-- Meike, check Report Suite Mapping UI link above -->
 
->[!NOTE]
->
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. Una vez que termine, la configuración tardará varias horas en tener efecto.
+> [!NOTE] Los datos no aparecerán en otras soluciones de Experience Cloud, como [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) o [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) hasta que se hayan completado los 3 pasos. Una vez que termine, la configuración tardará varias horas en tener efecto.
 
