@@ -7,8 +7,8 @@ solution: Analytics
 title: Artículos Instantáneos de Facebook
 topic: Desarrollador e implementación
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 Cómo implementar Analytics en Artículos Instantáneos de Facebook.
 
-Artículos Instantáneos de Facebook es un nuevo método que los editores pueden usar para generar artículos en Facebook de forma rápida e interactiva. Artículos Instantáneos puede cargar contenido hasta 10 veces más rápido que la Web móvil.
+Artículos Instantáneos de Facebook es un nuevo método para que los editores creen artículos interactivos y rápidos en Facebook. Artículos Instantáneos puede cargar contenido hasta 10 veces más rápido que la Web móvil.
 
 Adobe Analytics puede incrustarse dentro de Artículos Instantáneos de Facebook para realizar un seguimiento del comportamiento del visitante mientras interactúa con el contenido. Como el contenido del editor se encuentra dentro de la aplicación de Facebook y no en los sitios web del editor, el método de etiquetado es levemente distinto a una implementación estándar de Analytics.
 
