@@ -7,7 +7,7 @@ title: Informes de fuentes de tráfico
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ c_reports_ref_domains.xml
 
  -->
 
-Muestra los dominios que trajeron a los clientes que repercutieron más sobre las métricas de éxito del sitio. Los referentes se dividen en dos categorías: dominios y direcciones URL. Los dominios se refieren al nombre de dominio y aparecen como el dominio base sin la cadena de consultas o los subdirectorios adjuntos. Las direcciones URL incluyen el nombre de dominio base, así como cualquier cadena de consulta o subdirectorio.
+Muestra los dominios que atrajeron a aquellos clientes que repercutieron más sobre las métricas de éxito del sitio. Los referentes se dividen en dos categorías: dominios y direcciones URL. Los dominios se refieren al nombre de dominio y aparecen como el dominio base sin la cadena de consultas o los subdirectorios adjuntos. Las direcciones URL incluyen el nombre de dominio base, así como cualquier cadena de consulta o subdirectorio.
 
 ## Dominios de referencia originales {#concept_EB18251DF70343169B46BB59543A579A}
 
@@ -99,13 +99,11 @@ Todo dominio o dirección URL que no forme parte de esos dominios y direcciones 
 
 Consulte [Filtros de URL internos](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) en la ayuda de [!DNL Admin Console] para obtener más información.
 
->[!NOTE]
->
->Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. Por ejemplo, todas las visitas procedentes de [!DNL https://mail.yahoo.com] no se cuentan como referente de correo electrónico, porque el protocolo es [!DNL https://]. Los mensajes de correo electrónico de Outlook se registran en la línea de direcciones escritas o marcadores, mientras que todos los referentes con protocolo HTTP cuyo dominio es un motor de búsqueda conocido se registran en la línea de motores de búsqueda.
+> [!NOTE] Los informes y análisis de marketing registran un dominio de referencia como correo electrónico cuando los visitantes hacen clic en un vínculo de mensaje de correo electrónico que contiene el protocolo [!DNL imap://] o [!DNL mail://] llegan al sitio. Por ejemplo, todas las visitas procedentes de [!DNL https://mail.yahoo.com] no se cuentan como referente de correo electrónico, porque el protocolo es [!DNL https://]. Los mensajes de correo electrónico de Outlook se registran en la línea de direcciones escritas o marcadores, mientras que todos los referentes con protocolo HTTP cuyo dominio es un motor de búsqueda conocido se registran en la línea de motores de búsqueda.
 
 ## Tipo de referente {#concept_689E42D8F96C450DA41C7167C7388198}
 
-Realizar un seguimiento y registro de los sitios referentes de los visitantes permite averiguar, en cada visita, cómo descubrió el sitio el visitante.
+Al rastrear y registrar los sitios de referencia de los visitantes para cada visita, puede determinar cómo los visitantes descubrieron el sitio en cada visita.
 
 <!-- 
 
@@ -120,7 +118,7 @@ La lista siguiente define los distintos tipos de referentes:
 * Se graban los referentes *escritos/en marcadores*
 
    * Si un visitante entra en su sitio través de un enlace que no proceda del explorador (por ejemplo, en un correo electrónico).
-   * Si un visitante escribe la URL de su sitio directamente en el explorador.
+   * Si un visitante escribe la dirección URL del sitio directamente en el explorador.
    * Si un visitante hace clic en un enlace HTML en su disco duro personal.
    * Si un visitante accede a su sitio al seleccionar los marcadores del explorador.
 
@@ -134,7 +132,5 @@ Los siguientes artículos de línea podrían mostrarse cuando ejecute este infor
 
 **USENET (grupos de noticias)**: significa que la dirección URL de un referente empezaba por `news://`. Por lo tanto, el vínculo de referente se publicó en un grupo de noticias Usenet, en vez de en una página web.
 
->[!NOTE]
->
->Referrer Type logic matches other traffic sources reports (such as [!UICONTROL Referrers] and [!UICONTROL Referring Domains]). Esto debería reducir o eliminar la aparición de artículos de línea Dentro del sitio y Sin JavaScript en el informe de [!UICONTROL tipo de referente].
+> [!NOTE] La lógica de tipo de referente coincide con otros informes de fuentes de tráfico (como [!UICONTROL Referentes] y Dominios de [!UICONTROL referencia]). Esto debería reducir o eliminar la aparición de artículos de línea Dentro del sitio y Sin JavaScript en el informe de [!UICONTROL tipo de referente].
 
