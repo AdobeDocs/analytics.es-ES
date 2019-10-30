@@ -6,8 +6,8 @@ seo-title: Implementar Adobe Analytics manualmente (heredado)
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Implementar Adobe Analytics manualmente (heredado)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
