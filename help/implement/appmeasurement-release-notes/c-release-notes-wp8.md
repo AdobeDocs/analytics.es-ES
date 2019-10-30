@@ -7,23 +7,19 @@ subtopic: Notas de la versión
 title: Windows Phone 8
 topic: Desarrollador e implementación
 uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Windows Phone 8{#windows-phone}
 
->[!NOTE]
->
->Para saber la versión de la biblioteca actual, active los registros de depuración.
+> [!NOTE] Para saber la versión de la biblioteca actual, active los registros de depuración.
 
-La biblioteca móvil [Descargas](https://marketing.adobe.com/developer/es/get-started/mobile/c-measuring-mobile-applications) está disponible en [!DNL Developer Connection].
+Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
->[!NOTE]
->
->El SDK 8 de [!DNL Windows] [ se ha sustituido con el SDK de Universal App Store para Windows 8.1](../appmeasurement-release-notes/c-release-notes-winu.md). Este SDK no se va a desarrollar más.
+> [!NOTE] El SDK 8 de [!DNL Windows] [ se ha sustituido con el SDK de Universal App Store para Windows 8.1](../appmeasurement-release-notes/c-release-notes-winu.md). Este SDK no se va a desarrollar más.
 
 ## Versión 3.0.4 {#section_51A8A53CDFB24F6F9D882E9C30ECDB49}
 
