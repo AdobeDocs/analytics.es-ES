@@ -1,46 +1,46 @@
 ---
 description: Define la configuración común para un sitio Web que agrega contenido como, por ejemplo, un portal de noticias.
 seo-description: Define la configuración común para un sitio Web que agrega contenido como, por ejemplo, un portal de noticias.
-seo-title: Portal de agregación
+seo-title: Portal de agregadores
 solution: Analytics
-title: Portal de agregación
+title: Portal de agregadores
 topic: Herramientas de administración
-uuid: d 227 c 209-4 d 88-4 eff-b 126-994 b 2 a 179 c 51
+uuid: d227c209-4d88-4eff-b126-994b2a179c51
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Portal de agregación
+# Portal de agregadores
 
 Define la configuración común para un sitio Web que agrega contenido como, por ejemplo, un portal de noticias.
 
-| Variables de conversión | Tipo | Subrelaciones | Asignación | Vencimiento | `s_code` correspondiente |
+| Variables de conversión | Tipo | Subrelaciones | Asignación | Vencimiento | `s_code` campaign |
 |---|---|---|---|---|---|
 | Campaña interna | Cadena | Básica | Más reciente (última) | Visita | `evar1` |
 | Términos de búsqueda interna | Cadena | Básica | Más reciente (última) | Visita | `evar2` |
 | Categoría de referencia | Cadena | Básica | Más reciente (última) | Visita | `evar3` |
 
-| Eventos de éxito | Tipo | `s_code` correspondiente |
+| Eventos de éxito | Tipo | `s_code` campaign |
 |---|---|---|
 | Inicio de sesión | Contador (sin subrelaciones) | `event1` |
 | Vista de referencia | Contador (sin subrelaciones) | `event2` |
 | Clics de referencia | Contador (sin subrelaciones) | `event3` |
 
-| Variables de perspectiva personalizada | `s_code` correspondiente |
+| Variables de perspectiva personalizada | `s_code` campaign |
 |---|---|
 | Propiedad de tráfico 1 a 5 | `prop1, prop2, prop3, prop4, prop5` |
 
 La tabla siguiente contiene una lista de los eventos de comercio estándar. La configuración inicial de estos eventos es idéntica en todas las plantillas de grupo de informes. Los eventos con una variable s_code N/A no necesitan configurarse, se suministran de manera automática.
 
-| Eventos de comercio estándar | Tipo | `s_code` correspondiente |
+| Eventos de comercio estándar | Tipo | `s_code` campaign |
 |---|---|---|
 | Ingresos | Contador | `purchase` |
 | Pedidos | Contador | `purchase` |
 | Unidades | Contador | `purchase` |
 | Carros de compras | Contador | `scOpen` |
-| Vistas de carro de compras | Contador | `scView` |
+| Vistas del carro de compras | Contador | `scView` |
 | Instancias | Contador | N/A |
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
