@@ -5,9 +5,9 @@ seo-title: Editar varias solicitudes
 solution: Analytics
 title: Editar varias solicitudes
 topic: Creador de informes
-uuid: 5 be 23376-ba 94-4 d 5 c -84 c 7-a 60134 aacf 7 d
+uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
