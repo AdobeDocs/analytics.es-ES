@@ -7,8 +7,8 @@ solution: Analytics
 title: ID de visitante de Analytics
 topic: Desarrollador e implementación
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Cuando se envía una solicitud al servidor de recopilación de datos de Adobe, s
 
 Algunos exploradores, como Apple Safari, ya no almacenan cookies configuradas en el encabezado HTTP de los dominios que no coincidan con el dominio del sitio web actual (se trata de una cookie usada en un contexto de terceros o una cookie de terceros). Por ejemplo, si está en `mysite.com` y el servidor de recopilación de datos es `mysite.omtrdc.net`, el explorador puede rechazar la cookie que se devuelve en el encabezado HTTP desde `mysite.omtrdc.net`.
 
-Para evitarlo, muchos clientes han implementado registros CNAME en sus servidores de recopilación de datos como parte de una [cookie de origen](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/). Si se configura la asignación de un registro CNAME a un nombre de host en el dominio del cliente para el servidor de recopilación de datos (por ejemplo, si se asigna `metrics.mysite.com` a `mysite.omtrdc.net`), se almacenará la cookie de ID de visitante porque ahora coinciden los dominios de recopilación de datos y del sitio web. Así aumentan las probabilidades de que se almacene la cookie de ID de visitante, pero se obtiene una cierta sobrecarga porque es necesario configurar los registros CNAME y mantener los certificados SSL para los servidores de recopilación de datos.
+Para evitarlo, muchos clientes han implementado registros CNAME para sus servidores de recopilación de datos como parte de la [implementación de cookies de origen](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/). Si se configura la asignación de un registro CNAME a un nombre de host en el dominio del cliente para el servidor de recopilación de datos (por ejemplo, si se asigna `metrics.mysite.com` a `mysite.omtrdc.net`), se almacenará la cookie de ID de visitante porque ahora coinciden los dominios de recopilación de datos y del sitio web. Así aumentan las probabilidades de que se almacene la cookie de ID de visitante, pero se obtiene una cierta sobrecarga porque es necesario configurar los registros CNAME y mantener los certificados SSL para los servidores de recopilación de datos.
 
 ## Cookies en dispositivos móviles {#section_7D05AE259E024F73A95C48BD1E419851}
 
