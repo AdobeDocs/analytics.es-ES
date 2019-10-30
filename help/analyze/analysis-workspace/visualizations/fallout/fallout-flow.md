@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: Resumen de abandonos
 title: Resumen de abandonos
-uuid: 2 d 98899 e-e 401-4 d 7 a -8 af 0-de 0002 f 84178
+uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
