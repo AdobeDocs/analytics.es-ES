@@ -1,22 +1,22 @@
 ---
-seo-title: Ayuda de Report Builder de Adobe
+seo-title: Ayuda del Report Builder de Adobe
 solution: Analytics
-title: Ayuda de Report Builder de Adobe
+title: Ayuda del Report Builder de Adobe
 topic: Creador de informes
-uuid: 034 ae 0 e 4-2 a 98-4 bac -977 d -92515960 c 46 e
+uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 4d9f6d7573dc321229e957844fa4a5343f523cc7
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Ayuda de Report Builder de Adobe {#adobe-report-builder-help}
+# Ayuda del Report Builder de Adobe {#adobe-report-builder-help}
 
 El Creador de informes de [!DNL Adobe] es un complemento para Microsoft Excel. El Creador de informes permite crear solicitudes personalizadas a partir de datos de informes y análisis, que se pueden insertar en hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que el Creador de informes presenta los datos.
 
 <!-- >>[!IMPORTANT]
 >
->Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018. 
+>Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
 >See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
 
@@ -34,7 +34,7 @@ El Creador de informes de [!DNL Adobe] es un complemento para Microsoft Excel. E
 * [¿Qué opciones hay para crear intervalos de fechas personalizados?](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
 * [¿Por qué no puedo ver mis segmentos en el Creador de informes?](data-requests/segmentation.md)
 
-## Preguntas y problemas comunes
+## Preguntas comunes y solución de problemas
 
 * [¿Cómo se crea una solicitud de datos?](data-requests/t-create-a-data-request.md)
 * [Solución de problemas y prácticas recomendadas para el Creador de informes](troubleshoot.md)
@@ -53,4 +53,4 @@ El Creador de informes de [!DNL Adobe] es un complemento para Microsoft Excel. E
 
 * [Ayuda de Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
 * [Ayuda de informes y análisis](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [Ayuda de referencia](https://marketing.adobe.com/resources/help/en_US/reference/index.html) de Analytics en herramientas de administración, informes y métricas.
+* [Ayuda de referencia](https://marketing.adobe.com/resources/help/en_US/reference/index.html) de Analytics sobre herramientas de administración, informes y métricas.
