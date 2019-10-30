@@ -5,7 +5,7 @@ seo-title: Fechas e intervalos de fechas
 title: Fechas e intervalos de fechas
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,13 +22,11 @@ En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar 
 
 También es posible arrastrar fechas (y dimensiones temporales) dentro del informe o del [!UICONTROL Generador de tablas]. Se pueden seleccionar fechas, semanas, meses o años concretos, o bien fechas móviles. Si usa el calendario personalizado en los Reports and Analytics de marketing, un grupo de informes heredará esa configuración y actualizará el informe como corresponda.
 
-Al seleccionar un rango de fecha cuando cree un proyecto, si usa Preconfigurado a la izquierda, establecerá una fecha movible, mientras que si usa el calendario a la izquierda, esto no ocurrirá. Una forma fácil de saber si la fecha es movible es el mensaje "Este rango de fecha será movible" al lado del botón **[!UICONTROL Aceptar].**
+Al seleccionar un rango de fecha cuando cree un proyecto, si usa Preconfigurado a la izquierda, establecerá una fecha movible, mientras que si usa el calendario a la izquierda, esto no ocurrirá. An easy way to tell whether your date range is rolling is the statement "This date range will roll" next to the **[!UICONTROL OK]** button.
 
 ![](assets/daterange.jpeg)
 
->[!NOTE]
->
->Si necesita ayuda para ejecutar informes preexistentes, póngase en contacto con el administrador de cuentas.
+> [!NOTE] Si necesita ayuda para ejecutar informes preexistentes, póngase en contacto con el administrador de cuentas.
 
 ## Fracciones de datos preexistentes {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -45,7 +43,5 @@ c_legacy_data.xml
 1. [Cree o abra un proyecto.](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
 1. Abra el [calendario](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)y seleccione **[!UICONTROL Trimestre]** o **[!UICONTROL Año]**.
 
->[!NOTE]
->
->Las fracciones de fecha históricas están dentro de las restricciones de trimestre y año. No se pueden ver datos que sobrepasen los límites entre las fracciones preexistentes y la nueva plataforma de procesamiento. Intervalos de fechas que abarcan ambos resultados en un error. Asimismo, solo se aplican los intervalos de fecha al calendario gregoriano, no al calendario personalizado.
+> [!NOTE] Las fracciones de fecha históricas están dentro de las restricciones de trimestre y año. No se pueden ver datos que sobrepasen los límites entre las fracciones preexistentes y la nueva plataforma de procesamiento. Intervalos de fechas que abarcan ambos resultados en un error. Asimismo, solo se aplican los intervalos de fecha al calendario gregoriano, no al calendario personalizado.
 
