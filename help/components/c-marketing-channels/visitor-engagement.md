@@ -1,25 +1,25 @@
 ---
-description: Descubra cómo especificar la caducidad de compromiso del visitante en Canales de mercadotecnia.
-seo-description: Descubra cómo especificar la caducidad de compromiso del visitante en Canales de mercadotecnia.
-seo-title: Caducidad de compromiso del visitante
+description: Descubra cómo especificar la caducidad de compromiso del visitante en los canales de mercadotecnia.
+seo-description: Descubra cómo especificar la caducidad de compromiso del visitante en los canales de mercadotecnia.
+seo-title: Caducidad de la participación del visitante
 solution: Analytics
 subtopic: Canales de mercadotecnia
-title: Caducidad de compromiso del visitante
+title: Caducidad de la participación del visitante
 topic: Reports and Analytics
-uuid: 47 f 1 ccaf -3 ce 7-494 d-b 456-956 a 3 a 3 c 6 c 9 a
+uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Caducidad de compromiso del visitante
+# Caducidad de la participación del visitante
 
-Descubra cómo especificar la caducidad de compromiso del visitante en Canales de mercadotecnia.
+Descubra cómo especificar la caducidad de compromiso del visitante en los canales de mercadotecnia.
 
-## Visitor engagement expiration {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
+## Caducidad de la participación del visitante {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
-Descubra cómo especificar la caducidad de compromiso del visitante en Canales de mercadotecnia.
+Descubra cómo especificar la caducidad de compromiso del visitante en los canales de mercadotecnia.
 
 El compromiso del visitante especifica la cantidad de tiempo que desea permitir para que la actividad previa del visitante en su sitio web se atribuya al canal de primer toque.
 
