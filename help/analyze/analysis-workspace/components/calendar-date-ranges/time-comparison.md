@@ -1,11 +1,11 @@
 ---
-description: Comparación de fechas en Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas común, como año tras año, trimestre tras trimestre, mes tras mes, etc.
-seo-description: Comparación de fechas en Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas común, como año tras año, trimestre tras trimestre, mes tras mes, etc.
+description: La comparación de fechas en Analysis Workspace permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas común, como año tras año, trimestre tras trimestre, mes tras mes, etc.
+seo-description: La comparación de fechas en Analysis Workspace permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas común, como año tras año, trimestre tras trimestre, mes tras mes, etc.
 seo-title: Comparación de fechas
 title: Comparación de fechas
-uuid: ef 18 f 9 d 9-b 6 ad -4859-b 7 c 9-9750 ca 0 df 519
+uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ La comparación de fechas de Analysis Workspace le permite tomar cualquier colum
 
 ## Comparar periodos de tiempo {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
-El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta “¿En qué medida nos va mejor/peor que en este mismo momento del año pasado?” es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna “diferencia” que muestra el porcentaje de cambio en comparación con un periodo de tiempo concreto.
+El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta “¿En qué medida nos va mejor/peor que en este mismo momento del año pasado?” es fundamental para comprender su negocio. La comparación de fechas incluye automáticamente una columna "diferencia", que muestra el cambio de porcentaje comparado con un período de tiempo especificado.
 
 1. Cree una tabla improvisada con cualquier dimensión y métrica que quiera comprobar a lo largo de un periodo de tiempo.
 1. Haga clic con el botón secundario en una fila de tabla y seleccione **[!UICONTROL Comparar periodos de tiempo]**.
@@ -25,7 +25,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
    >[!IMPORTANT]
    >
-   >Esta opción de clic derecho está desactivada para filas de métricas, filas de intervalos de fechas y filas de dimensiones de tiempo.
+   >Esta opción de clic derecho está deshabilitada para filas de métricas, filas de intervalo de fechas y filas de dimensión de tiempo.
 
 1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
 
