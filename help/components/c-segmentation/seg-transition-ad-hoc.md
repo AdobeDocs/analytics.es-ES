@@ -1,19 +1,19 @@
 ---
 description: Si está habituado a trabajar con el Generador de segmentos en Análisis específicos, esta lista de preguntas más frecuentes le explica qué sucede con los segmentos y las carpetas existentes y qué acciones debe realizar.
-keywords: segmentación; segmentos
+keywords: segmentación;segmentos
 seo-description: Si está habituado a trabajar con el Generador de segmentos en Análisis específicos, esta lista de preguntas más frecuentes le explica qué sucede con los segmentos y las carpetas existentes y qué acciones debe realizar.
-seo-title: Guía de transición para Análisis específicos
+seo-title: Guía de transición para Ad Hoc Analysis
 solution: Analytics
-title: Guía de transición para Análisis específicos
+title: Guía de transición para Ad Hoc Analysis
 topic: Segmentos
-uuid: d 409 d 71 a-f 8 d 9-42 a 2-add 2-37 d 426 cd 40 d 1
+uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Guía de transición para Análisis específicos
+# Guía de transición para Ad Hoc Analysis
 
 Si está habituado a trabajar con el Generador de segmentos en Análisis específicos, esta lista de preguntas más frecuentes le explica qué sucede con los segmentos y las carpetas existentes y qué acciones debe realizar.
 
@@ -94,7 +94,7 @@ Si el segmento se publicó en Experience Cloud, no puede ni eliminarlo ni editar
    <td colname="col2">Estos segmentos de Ad Hoc Analysis se muestran como segmentos regulares en Adobe Analytics. <p>No se deben confundir con la función Favoritos del Administrador de segmentos, que le permite marcar segmentos como favoritos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Segmentos preconfigurados en Análisis específicos: 
+   <td colname="col1">Segmentos preconfigurados en análisis específicos: 
     <ul id="ul_BBF3C3F4D41A40AF98DA9DA6D299AD03"> 
      <li id="li_B65A004BDF8743FDABCD3332AEB8A010">Visitas a una sola página </li> 
      <li id="li_908CF5F964154C9D9EBBAC2A900DCB49">Visitas desde dispositivos móviles </li> 
