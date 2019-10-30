@@ -9,24 +9,20 @@ title: Personalizar permisos para dimensiones
 topic: Herramientas de administración
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
 
 # Personalizar permisos para dimensiones
 
->[!IMPORTANT]
->
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] La administración de usuarios y productos se está trasladando a la [Consola](https://helpx.adobe.com/enterprise/using/admin-console.html)de administración. Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
 
 Personalice el acceso de usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas.
 
 **[!UICONTROL Administración]** de usuarios &gt; **[!UICONTROL Grupos]** &gt; Acceso **[!UICONTROL a]** informes &gt; **[!UICONTROL Dimensiones]** &gt; **[!UICONTROL Personalizar]**
 
->[!IMPORTANT]
->
->Algunas dimensiones no están permitidas en este momento. Estas dimensiones son: Longitud del marcador móvil, Número del dispositivo móvil, DRM móvil, Servicios de información móvil, Máquina virtual Java móvil, Decoración de correo móvil, Protocolos de red móvil, Sistema operativo móvil, Pulsar para hablar móvil.
+> [!IMPORTANT] Algunas dimensiones no están permitidas en este momento. Estas dimensiones son: Longitud del marcador móvil, Número del dispositivo móvil, DRM móvil, Servicios de información móvil, Máquina virtual Java móvil, Decoración de correo móvil, Protocolos de red móvil, Sistema operativo móvil, Pulsar para hablar móvil.
 >
 >Estas dimensiones están disponibles para todos los usuarios, independientemente de otros permisos.
 
@@ -62,7 +58,7 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
    <td colname="col2"> <p>Las eVars 1 a 250 obtienen permisos de forma individual. Las eVars son variables de conversión personalizadas que se emplean para segmentar las métricas de éxito de conversión de segmentos en los informes personalizados. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external"> Props </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external"> Propriétés </a> </p> </td> 
    <td colname="col2"> <p>Las props son variables de tráfico personalizadas. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html" format="html" scope="external">Props de tráfico y eVars de conversión</a> en Implementación de Analytics. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +82,7 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/" format="https" scope="external">Página de  </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/" format="https" scope="external"> Página de </a> </p> </td> 
    <td colname="col2"> <p> Dimensiones de los informes de Activity Map: Página de Activity Map; Vínculo de Activity Map; Región de Activity Map; Vínculo de Activity Map por región; Activity Map XY </p> </td> 
   </tr> 
   <tr> 
@@ -107,4 +103,3 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
   </tr> 
  </tbody> 
 </table>
-
