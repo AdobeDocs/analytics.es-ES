@@ -1,31 +1,31 @@
 ---
-description: Descubra cómo asignar importes de costo y presupuesto a los canales.
-seo-description: Descubra cómo asignar importes de costo y presupuesto a los canales.
-seo-title: Costos y presupuestos
+description: Aprenda a asignar importes de costo y presupuesto a los canales.
+seo-description: Aprenda a asignar importes de costo y presupuesto a los canales.
+seo-title: Costes y presupuestos
 solution: Analytics
 subtopic: Canales de mercadotecnia
-title: Costos y presupuestos
+title: Costes y presupuestos
 topic: Reports and Analytics
-uuid: 7 ba 0 e 968-e 565-4 d 4 c -8 fc 0-39 bf 25 d 3 e 5 b 1
+uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Costos y presupuestos
+# Costes y presupuestos
 
-Descubra cómo asignar importes de costo y presupuesto a los canales.
+Aprenda a asignar importes de costo y presupuesto a los canales.
 
-## Costs and budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
+## Costes y presupuestos {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
 
-Descubra cómo asignar importes de costo y presupuesto a los canales.
+Aprenda a asignar importes de costo y presupuesto a los canales.
 
 El costo representa lo que gasta en el canal. El presupuesto representa el importe que se puede gastar.
 
 Una manera práctica de ver el ROI es crear una métrica calculada que muestre los ingresos menos los costos. También se puede crear una que muestre el costo total junto con un desglose del costo por cada nuevo compromiso. Por ejemplo, puede ejecutar un informe de [!UICONTROL canal de primer toque] que muestre los compromisos nuevos; luego, puede agregar la métrica Costo de primer toque, que muestre el costo por cada nuevo compromiso, creando una métrica calculada.
 
-Consulte [Las métricas calculadas usan informes de canal](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74)de mercadotecnia.
+Consulte [Informes de canales de marketing usados en métricas calculadas](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
 
 Puede asignar costos y presupuestos solamente a los canales. A cada costo se le asigna un intervalo de tiempo durante el que se aplican a los informes. Cuando los costos se asocian con un canal directamente, se elige una métrica de asignación para mostrar el desglose de los costos en las campañas de un canal.
 
