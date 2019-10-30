@@ -7,7 +7,7 @@ title: Configurar eventos de éxito
 topic: Herramientas de administración
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Instrucciones sobre cómo configurar eventos de éxito.
 1. Selección de un grupo de informes.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**.
 
-   ![Resultado de los pasos](assets/success_event_page.png)
+   ![Resultado (](assets/success_event_page.png)
 
 1. En la columna **Nombre**, active la casilla que hay junto a cada elemento para activar la edición y, a continuación, especifique el nombre que desee.
 1. En la columna **Tipo**, active la casilla que hay junto a cada elemento para activar la lista desplegable y, a continuación, seleccione el tipo que desee.
