@@ -6,16 +6,16 @@ solution: Analytics
 subtopic: Usuarios y grupos
 title: Administrar usuarios de Ad Hoc Analysis
 topic: Herramientas de administración
-uuid: 9018 e 90 c-e 808-4 ef 3-a 0 d 6-529 d 931632 a 5
+uuid: 9018e90c-e808-4ef3-a0d6-529d931632a5
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Administrar usuarios de Ad Hoc Analysis
 
-Instrucciones sobre cómo agregar, editar o eliminar usuarios de análisis específicos.
+Instrucciones sobre cómo agregar, editar o eliminar usuarios de Análisis específicos.
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Manage Ad Hoc Analysis Users]**.
