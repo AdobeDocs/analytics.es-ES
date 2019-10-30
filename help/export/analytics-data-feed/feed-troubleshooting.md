@@ -1,13 +1,13 @@
 ---
 description: Esta sección contiene información sobre los problemas más frecuentes.
-keywords: Fuente de datos; solución de problemas
+keywords: Fuente de datos;solución de problemas
 seo-description: Esta sección contiene información sobre los problemas más frecuentes.
 seo-title: Solución de problemas de fuentes de datos
 solution: Analytics
 title: Solución de problemas de fuentes de datos
-uuid: 4 be 981 ab -3 a 61-4099-9 b 0 d -785 d 2 ac 2492 a
+uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -44,15 +44,15 @@ En caso de un error de transferencia, puede [volver a ejecutar un trabajo](../..
 
 ## Opciones de reenvío {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Once you have verified/corrected the delivery issue, just use [rerun the job](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) to get the files.
+Una vez verificado/corregido el problema de entrega, simplemente utilice [volver a ejecutar el trabajo](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) para obtener los archivos.
 
 ## Efecto del horario de verano en las Fuentes de datos por hora {#section_70E867D942054DD09048E027A9474FFD}
 
 En determinadas zonas horarias, la hora cambia dos veces al año debido a las definiciones del horario de verano (DST). Las fuentes de datos respetan la zona horaria que se ha tomado como referencia para configurar el grupo de informes. Si la zona horaria del grupo de informes no utiliza DST, la entrega de archivos seguirá su curso como cualquier otro día. Si la zona horaria del grupo de informes sí utiliza DST, la entrega de archivos se verá modificada en la hora en la que se produzca el cambio de horario (normalmente a las 2 de la madrugada).
 
-Cuando se realice la transición de STD (estándar) a DST, el cliente solo recibirá 23 archivos. La hora que se salta en la transición a DST se omite sin más. Por ejemplo, si la transición se produce a las 2 de la madrugada, el cliente recibirá un archivo correspondiente a la 1 y un archivo correspondiente a las 3. No habrá archivo para las 2, porque las 2 STD se convierten en las 3 DST.
+Al realizar las transiciones de tiempo de STD -&gt; DST ("Primavera hacia adelante"), el cliente solo recibirá 23 archivos. La hora que se salta en la transición a DST se omite sin más. Por ejemplo, si la transición se produce a las 2 de la madrugada, obtendrán un archivo para la 1 y un archivo para las 3. No habrá archivo para las 2, porque las 2 STD se convierten en las 3 DST.
 
-Cuando se realice la transición de DST a STD, el cliente recibirá 24 archivos. Sin embargo, la hora de transición en realidad incluirá datos correspondientes a dos horas. Por ejemplo, si la transición se produce a las 2 de la madrugada, el archivo de la 1 se retrasará una hora, pero incluirá datos de dos horas. Incluirá datos entre la 1 DST y las 2 STD (que habrían sido las 3 DST). El siguiente archivo empezará a las 2 STD.
+Al realizar las transiciones de DST -&gt; STD, ("Visitas en el orden previsto"), el cliente recibirá 24 archivos. Sin embargo, la hora de transición incluirá datos de 2 horas. Por ejemplo, si la transición se produce a las 2 de la madrugada, el archivo de la 1 se retrasará una hora, pero incluirá datos de dos horas. Incluirá datos entre la 1 DST y las 2 STD (que habrían sido las 3 DST). El siguiente archivo empezará a las 2 STD.
 
 ## Sin datos durante un período de tiempo {#section_72510794694D42A9A75C966B812AEB0F}
 
