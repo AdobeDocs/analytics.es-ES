@@ -4,9 +4,9 @@ seo-description: Una tabla comparativa de las API de informes de Analytics. Se i
 seo-title: Comparación de las API de informes de Analytics
 solution: Analytics
 title: Comparación de las API de informes de Analytics
-uuid: fa 533 a 8 e -33 c 0-42 f 4-a 294-cabee 0258 c 8 f
+uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,9 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos a documentación de apoyo.
 
->[!NOTE]
->
->Con respecto a la latencia, Analytics para Target (A 4 T) combina datos de Analytics y Target en la misma visita para crear informes integrados. Dado que las llamadas de Analytics y Target se producen en momentos diferentes, las visitas se almacenan antes de procesarse para poder recopilar datos de las dos soluciones. Este proceso añade **de 7 a 10 minutos más** de latencia a todos los puntos de comprobación.
+> [!NOTE] En cuanto a la latencia, Analytics para Target (A4T) combina datos de Analytics y Target en la misma visita para los informes integrados. Dado que las llamadas de Analytics y Target se producen en momentos diferentes, las visitas se almacenan antes de procesarse para poder recopilar datos de las dos soluciones. Este proceso añade **de 7 a 10 minutos más** de latencia a todos los puntos de comprobación.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
