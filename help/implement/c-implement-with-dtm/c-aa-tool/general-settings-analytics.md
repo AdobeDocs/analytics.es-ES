@@ -7,8 +7,8 @@ solution: Analytics
 title: General
 topic: Desarrollador e implementación
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,10 +35,10 @@ Descripciones de los campos de la configuración general de DTM para la implemen
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> Si la cookie existe y está establecida en <span class="term">True</span>, la herramienta se cargará de forma normal. </li> 
     </ul> <p>Usted es el responsable de configurar la cookie <span class="filepath">sat_track</span> (o personalizada) en <span class="term">False</span> si un visitante decide excluirse. Puede realizar esto mediante el uso de un código personalizado: </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“false”); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
      </code> </p> <p> También debe tener un mecanismo para configurar esa cookie como <span class="term"> true </span> si desea que un visitante pueda aceptar su inclusión más tarde: </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“true"); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"true"); 
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Descripciones de los campos de la configuración general de DTM para la implemen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidor de seguimiento de SSL </p> </td> 
-   <td colname="col2"> <p>Dominio en el cual se escriben la solicitud de imagen y la cookie. Se utiliza para páginas seguras. Si no está definido, los datos SSL se dirigen a <span class="term"> trackingServer </span>. </p> </td> 
+   <td colname="col2"> <p>Dominio en el cual se escriben la solicitud de imagen y la cookie. Se utiliza para páginas seguras. If not defined, SSL data goes to <span class="term"> trackingServer </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Centro de datos </p> </td> 
