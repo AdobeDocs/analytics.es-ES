@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Canales de mercadotecnia
 title: Acerca de los canales y las reglas
 topic: Reports and Analytics
-uuid: 7 d 574790-4 d 0 d -419 d -8 fb 5-c 16 ec 5 a 4 a 387
+uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Imagine que el canal es un contenedor de visitas y que las reglas asignan las vi
 
 Adobe ofrece varios canales predefinidos durante la [configuración automática](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B), que puede editar para adaptarlos a sus necesidades.
 
->[!NOTE]
->
->Adobe recomienda configurar el informe en un grupo de informes que puede utilizar como plantilla para realizar pruebas. Puede usar la plantilla para aplicar conjuntos de canales y reglas de forma global a uno o más grupos de informes de producción.
+> [!NOTE] Adobe recomienda configurar el informe en un grupo de informes que puede utilizar como plantilla para realizar pruebas. Puede usar la plantilla para aplicar conjuntos de canales y reglas de forma global a uno o más grupos de informes de producción.
 >
 >Consulte [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
 
