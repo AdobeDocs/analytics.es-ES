@@ -3,9 +3,9 @@ description: Explica las tres opciones de Compatibilidad del producto.
 seo-description: Explica las tres opciones de Compatibilidad del producto.
 seo-title: Compatibilidad de métricas
 title: Compatibilidad de métricas
-uuid: f 2706 e 2 b-c 0 cc -4 af 2-bcb 4-1318796 e 9845
+uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: 6661e99d6b1289242e6c7ce3833b56e2f9990acc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
