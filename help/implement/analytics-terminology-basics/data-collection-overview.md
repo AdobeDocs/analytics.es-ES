@@ -1,6 +1,6 @@
 ---
 description: Conozca cómo las visitas al sitio web se convierten en un informe en Adobe Analytics.
-keywords: Analytics Implementation;data collection
+keywords: Implementación de Analytics, recopilación de datos
 seo-description: Conozca cómo las visitas al sitio web se convierten en un informe en Adobe Analytics.
 seo-title: Recopilación de datos
 solution: Analytics
@@ -8,7 +8,7 @@ title: Recopilación de datos
 topic: Desarrollador e implementación
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,7 +61,7 @@ Adobe ha creado varios métodos para enviar datos a Analytics. Entre estos méto
 
    >[!NOTE]
    >
-   >Each image request contains a random number string to prevent browser caching and ensure that subsequent image requests are made by the browser.
+   >Cada solicitud de imagen contiene una cadena de número aleatoria para impedir el almacenamiento en caché del explorador y garantizar que el explorador realice las solicitudes de imagen siguientes.
 
 1. Adobe devuelve una imagen en píxeles transparente.
 
