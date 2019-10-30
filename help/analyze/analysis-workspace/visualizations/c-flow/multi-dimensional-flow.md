@@ -3,9 +3,9 @@ description: Un flujo interdimensional le permite examinar las rutas del usuario
 seo-description: Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones.
 seo-title: Flujos interdimensionales
 title: Flujos interdimensionales
-uuid: 51 d 08531-1 c 56-46 c 7-b 505-bd 8 d 5 e 6 aa 6 c 1 c 1
+uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ Existe una etiqueta de dimensión en la parte superior de cada columna Flujo que
 
 Observaremos dos casos de uso: un caso de uso de aplicación y un caso de uso web.
 
-## Use case one: app {#section_3D31D37B9C9F4134AE46C96291E41294}
+## Caso de uso uno: app {#section_3D31D37B9C9F4134AE46C96291E41294}
 
 La dimensión [!UICONTROL Nombre de la acción] se ha añadido al flujo, donde el principal elemento devuelto es [!UICONTROL ItemAdded]:
 
@@ -50,7 +50,7 @@ Esto es lo que sucede si añade otra dimensión Nombre de la acción al final de
 
 Esto permite obtener información exhaustiva y realizar posibles cambios a la aplicación que está analizando.
 
-## Use case two: web {#section_8D55983FA0C84926995270052AE01CD8}
+## Caso de uso dos: web {#section_8D55983FA0C84926995270052AE01CD8}
 
 Este caso de uso le muestra cómo puede analizar qué campañas obtienen el máximo número de entradas al sitio web.
 
