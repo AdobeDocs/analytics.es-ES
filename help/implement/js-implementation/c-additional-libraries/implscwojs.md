@@ -7,8 +7,8 @@ solution: Analytics
 title: Implementar Analytics con etiquetas de imagen HTML
 topic: Desarrollador e implementación
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,5 @@ JavaScript puede detectar opciones de configuración del explorador que no está
 * Para rastrear eventos de conversión (como las compras) en los que la precisión es fundamental.
 * Esta estrategia también se puede usar para rellenar completamente la solicitud de imagen dentro de la etiqueta <noscript> para rastrear usuarios sin JavaScript o con JavaScript deshabilitado.
 
->[!NOTE]
->
->El uso de etiquetas de imagen generadas por el servidor requiere un tiempo de implementación adicional y resultan más difíciles de depurar, implementar y mantener. Adobe recomienda encarecidamente a sus clientes usar la recopilación de datos basada en JavaScript en todas las páginas siempre que sea posible. Hay varios informes y funciones, incluidos el mapa de clics de visitantes, vínculos de descarga, vínculos de salida y variables de explorador (alto y ancho del explorador, etc.) que no se pueden recopilar o no se admiten con este método de implementación.
+> [!NOTE] El uso de etiquetas de imagen generadas por el servidor requiere un tiempo de implementación adicional y resultan más difíciles de depurar, implementar y mantener. Adobe recomienda encarecidamente a sus clientes usar la recopilación de datos basada en JavaScript en todas las páginas siempre que sea posible. Hay varios informes y funciones, incluidos el mapa de clics de visitantes, vínculos de descarga, vínculos de salida y variables de explorador (alto y ancho del explorador, etc.) que no se pueden recopilar o no se admiten con este método de implementación.
 
