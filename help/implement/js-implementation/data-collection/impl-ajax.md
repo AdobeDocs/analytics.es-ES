@@ -7,8 +7,8 @@ solution: Analytics
 title: Implementación con AJAX
 topic: Desarrollador e implementación
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ La diferencia respecto a incluir [!UICONTROL AJAX] en la combinación es que hay
 Hay dos funciones en el código de JavaScript que permite enviar datos. Hay algunas directrices diferentes que deben seguirse para saber qué método se debe utilizar para enviar datos.
 Si ya se ha realizado una solicitud de imagen en la página, debe borrar los valores de las variables establecidas con anterioridad. Use la función `clearVars()` en [!DNL AppMeasurement] para JavaScript o escriba una función JavaScript simple para borrar las variables si usa código H. Configure los valores apropiados para el contenido cambiado, concretamente la variable *`pageName`*. Una vez configuradas las variables, llame a la función *`t()`*.
 
->[!NOTE]
->
->Antes de llamar a `s.t()`, borre los valores del objeto s que no deban conservarse. Si usa [!DNL AppMeasurement] para JavaScript, puede llamar a `s.clearVars()`. Si usa código H, establezca las variables para una cadena vacía escribiendo una rutina simple.
+> [!NOTE] Antes de llamar a `s.t()`, borre los valores del objeto s que no deban conservarse. Si usa [!DNL AppMeasurement] para JavaScript, puede llamar a `s.clearVars()`. Si usa código H, establezca las variables para una cadena vacía escribiendo una rutina simple.
 
 ```js
 s.clearVars(); 
@@ -57,7 +55,7 @@ $.ajax({
 Si anteriormente se realizó una solicitud de imagen en la misma página, borre los valores de las variables previamente configuradas. Para ello:
 
 * Escriba una función de JavaScript simple para borrar las variables de Adobe.
-* Configure las variables *`linkTrackVars`* y *`linkTrackEvents`* en el archivo [!DNL s_code.js], si aún no lo ha hecho.
+* Configure las variables  *`linkTrackVars`* y *`linkTrackEvents`* en el archivo [!DNL s_code.js], si aún no lo ha hecho.
 
 * Configure los valores apropiados para el contenido cambiado, concretamente la variable *`pageName`*.
 * Una vez configuradas las variables, llame a la función *`tl()`*.
