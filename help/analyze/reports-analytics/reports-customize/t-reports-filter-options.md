@@ -1,18 +1,18 @@
 ---
 description: Los filtros le permiten reducir el informe para incluir o excluir elementos de línea que concuerden con un filtro.
 seo-description: Los filtros le permiten reducir el informe para incluir o excluir elementos de línea que concuerden con un filtro.
-seo-title: Filtro de datos de los informes
+seo-title: Filtrado de datos de los informes
 solution: Analytics
-title: Filtro de datos de los informes
+title: Filtrado de datos de los informes
 topic: Reports and Analytics
-uuid: b 6 dcaaf 7-61 f 0-4793-870 d-e 1 d 156575 d 5 a
+uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: bf67baa33bc21e71c911d5108ee6044adf634fce
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+# Filtrar datos del informe {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 Los filtros le permiten reducir el informe para incluir o excluir elementos de línea que concuerden con un filtro.
 
@@ -48,9 +48,7 @@ Los filtros avanzados le permiten controlar el ámbito de su búsqueda a través
 
 Coincide si el término se encuentra en cualquier punto del elemento de línea. Opera igual que un filtro simple.
 
->[!NOTE]
->
->Los espacios no se pueden utilizar en filtros porque los espacios son delimitadores en búsquedas
+> [!NOTE] Los espacios no se pueden usar en los filtros, ya que los espacios son delimitadores en las búsquedas
 
 **No contiene**
 
@@ -131,11 +129,11 @@ Avanzado le permite realizar una búsqueda con comodines y otras búsquedas comp
 | Avanzado (carácter especial) | Descripción |
 |--- |--- |
 | `" "` | Coincide la frase exacta. |
-| `*` | Comodín, coincidencia amplia. <br>Por ejemplo `r*p` , coincide con "Suscripción de registro". |
+| `*` | Comodín, coincidencia amplia. <br>Por ejemplo, `r*p` coincide con "Registro de registro". |
 | `^` | Comienza con. <br>No incluya un espacio entre los caracteres especiales y la frase de búsqueda. |
 | `$` | Finaliza con. <br>No incluya un espacio entre los caracteres especiales y la frase de búsqueda. |
 | `-` | No. <br>No incluya un espacio entre los caracteres especiales y la frase de búsqueda. |
-| `|` | Or<br>Note:  you must include a space on each side of the pipe character, `" | "`. |
+| `|` | <br>ONota:  debe incluir un espacio en cada lado del carácter de barra vertical, `" | "`. |
 
 ## Crear filtros específicos de informes {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -178,4 +176,4 @@ Puede filtrar los datos que se muestran en un informe de correlación usando cua
 1. Ejecute un informe que admita correlaciones. (See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. En [!UICONTROL Creador de reglas de filtro], seleccione una categoría para correlacionar con un elemento.
-1. Click **[!UICONTROL OK.]**
+1. Haga clic en **[!UICONTROL Aceptar.]**
