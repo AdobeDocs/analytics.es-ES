@@ -1,18 +1,18 @@
 ---
-description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
-seo-description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
+description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y el software de correo electrónico.
+seo-description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y el software de correo electrónico.
 seo-title: Antes de activar esta integración
 title: Antes de activar esta integración
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Antes de activar esta integración{#before-you-activate-this-integration}
 
-Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
+Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y el software de correo electrónico.
 
 Al hacerlo, se asegurará de que se apliquen las prácticas recomendadas o los requisitos previos adecuados antes de la activación, lo que resultará en una integración óptima y exitosa.
 
@@ -36,9 +36,7 @@ Revise la siguiente información sobre esta integración de Data Connector en re
 * **** Cuenta válida de Silverpop: Para utilizar la integración de correo electrónico de Data Connectors, un cliente debe tener una cuenta activa de Silverpop con correo electrónico habilitado y credenciales de usuario activas.
 * **Póngase En Contacto Con Su Representante** De Silverpop. Silverpop no activa automáticamente esta integración. Debe ponerse en contacto con su representante de Silverpop para iniciar la configuración de Silverpop antes de importar o exportar datos desde Analytics.
 
->[!NOTE]
->
->Esta integración solo funciona con organizaciones de participación (no con Transact).
+> [!NOTE] Esta integración solo funciona con organizaciones de participación (no con Transact).
 
 ## Precio{#pricing}
 
