@@ -1,16 +1,16 @@
 ---
 description: Indica la versión actual y las anteriores, y sus funciones.
 seo-description: Indica la versión actual y las anteriores, y sus funciones.
-seo-title: Novedades del Creador de informes
-title: Novedades del Creador de informes
-uuid: 20 f 4 a 839-0667-45 a 7-b 037-0357 d 0 e 23010
+seo-title: Novedades del Report Builder
+title: Novedades del Report Builder
+uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Novedades del Creador de informes
+# Novedades del Report Builder
 
 Indica la versión actual y las anteriores, y sus funciones.
 
@@ -24,7 +24,7 @@ Para obtener más información, consulte [Editar métricas en varias solicitudes
 
 ## Creador de informes 5.5
 
-**Publicar en Power BI con el Creador de informes 5.5**
+**Publicación en Power BI con el Report Builder 5.5**
 
 Microsoft Power BI es un conjunto de tableros de análisis empresarial para analizar datos y compartir resultados. La integración de Adobe Analytics con Power BI le permite visualizar datos de Analytics del Creador de informes dentro de Microsoft Power BI y compartirlos fácilmente dentro de su organización.
 
@@ -42,7 +42,7 @@ Al combinar las capacidades de generación del Creador de informes con las carac
    >
    >You can change to a different locale by going to the [main Adobe Forums page](https://forums.adobe.com/welcome), under International Forums.
 
-* **Seguridad mejorada de inicio de sesión** Además de una [nueva pantalla de inicio de sesión](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981), el inicio de sesión del Creador de informes estándar tiene un proceso de autenticación más seguro, basado en el marco de autorización de oauth.
+* **Seguridad** de inicio de sesión mejorada Además de una [nueva pantalla](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)de inicio de sesión, el inicio de sesión del Creador de informes estándar presenta un proceso de autenticación más seguro, basado en el marco de autorización de OAuth.
 
 ## Creador de informes 5.3
 
@@ -54,7 +54,7 @@ Al combinar las capacidades de generación del Creador de informes con las carac
 
 * **El Creador de informes de métricas** calculadas 5.2 es compatible con las métricas calculadas [unificadas de Adobe Analytics](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4). Entre otras innovaciones, ahora las métricas calculadas tienen un identificador global, de modo que ya no están restringidas a un grupo de informes.
 
-* **Búsqueda mejorada para informes y métricas** Con la adición de más [eVars y eventos](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) a Adobe Analytics, el número de informes y métricas que se ofrecen en el Creador de informes de Adobe ha aumentado significativamente. In order to simplify the search, a couple of new search bars have been added to the Request Wizard: one for [report search](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) and one to search for [metrics](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4).
+* **Búsqueda mejorada para informes y métricas** Con la adición de más [eVars y eventos](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) a Adobe Analytics, el número de informes y métricas que se ofrecen en el Creador de informes de Adobe ha aumentado significativamente. Para simplificar la búsqueda, se han agregado un par de nuevas barras de búsqueda al Asistente para solicitudes: una para la búsqueda [de](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) informes y otra para buscar [métricas](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4).
 
-* **Atributos** del cliente Los atributos del cliente se almacenan en un nuevo tipo de elemento llamado visattr, que se puede configurar como dimensión o como métrica. Para obtener más información sobre cómo cargar atributos de cliente, consulte la ayuda de [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
+* **Atributos** del cliente Los atributos del cliente se almacenan en un nuevo tipo de elemento llamado VisAttr, que se puede configurar como dimensión o métrica. Para obtener más información sobre cómo cargar atributos de cliente, consulte la ayuda de [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
 
