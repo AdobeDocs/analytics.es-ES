@@ -8,7 +8,7 @@ title: Preguntas frecuentes
 topic: Segmentos
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,7 +47,7 @@ Para acceder al Generador de segmentos, haga lo siguiente:
 
 * En la parte superior del Administrador de segmentos, haga clic en **[!UICONTROL + Agregar]**.  ![](assets/add_button.png)
 
-   o
+   O bien
 
 * Haga clic en un título de segmento existente en el Administrador de segmentos para editarlo en el Generador de segmentos.
 
@@ -129,7 +129,7 @@ Las plantillas de segmentos están marcadas con un icono especial en el Generado
 
 **¿Qué ha pasado con mis carpetas de segmentos existentes?**
 
-En lugar de utilizar carpetas (Análisis específicos), el Administrador de segmentos emplea etiquetas. Los nombres de sus carpetas se convierten automáticamente en etiquetas, que se aplican a los segmentos respectivos.
+En lugar de utilizar carpetas (Análisis específicos), el Administrador de segmentos emplea . Los nombres de sus carpetas se convierten automáticamente en etiquetas, que se aplican a los segmentos respectivos.
 
 **¿Qué ha pasado con los informes programados que tienen segmentos aplicados?**
 
@@ -141,7 +141,7 @@ Los informes programados no se actualizan cuando edita un segmento con el mismo 
 
 ![](assets/duplicate_seg_names.png)
 
-Tiene un marcador que hace referencia al segmento para el grupo de informes mainprod. Entonces, elimina dicho segmento porque es un duplicado. El marcador seguirá funcionando, haciendo referencia a la definición del segmento eliminado. Si cambia la definición del segmento para el segmento maindev con el fin de incluir Isla Santa Catalina y Tijuana, el segmento aplicado al marcador no cambiará. Utilizará la definición antigua. Para arreglarlo, actualice el marcador a fin de que haga referencia a la definición nueva. Si no tiene la seguridad de que un marcador, panel o informe programado esté utilizando un segmento eliminado, puede cambiar el nombre del resto del segmento para que quede claro si el marcador utiliza el resto del segmento.
+Tiene un marcador que hace referencia al segmento para el grupo de informes mainprod. Luego elimina ese segmento porque es un duplicado. El marcador seguirá funcionando, haciendo referencia a la definición del segmento eliminado. Si cambia la definición del segmento para el segmento maindev con el fin de incluir Isla Santa Catalina y Tijuana, el segmento aplicado al marcador no cambiará. Utilizará la definición antigua. Para arreglarlo, actualice el marcador a fin de que haga referencia a la definición nueva. Si no está seguro de si un marcador, tablero o informe programado está usando un segmento eliminado, puede cambiar el nombre del segmento restante para que quede más claro si el marcador está usando el segmento restante.
 
 **¿Qué les sucede a los segmentos del Almacén de datos?**
 
@@ -185,7 +185,7 @@ Los informes existentes que tengan estos segmentos aplicados seguirán funcionan
 
 Los segmentos de **Administrador** se migrarán en la nueva interfaz de segmentos y se mostrarán como segmentos compartidos para todos.
 
-El propietario de estos segmentos se establece como administrador con la cuenta más antigua de la lista de inicio de sesión de la empresa de usuarios administradores; no obstante, todos los administradores pueden eliminar, editar y compartir estos segmentos.
+El propietario de estos segmentos se establece en el administrador con la cuenta más antigua de la lista de usuarios administradores de la empresa de inicio de sesión. Sin embargo, todos los administradores pueden eliminar, editar y compartir estos segmentos.
 
 Ya no está disponible la interfaz de administración de segmentos en Admin Console donde los administradores creaban y gestionaban estos segmentos globales. Ahora, los administradores deben utilizar el nuevo Generador de segmentos para crear segmentos y compartirlos con los grupos o las personas adecuadas, o con todos.
 
@@ -343,7 +343,7 @@ Las siguientes dimensiones se cambiaron a listas enumeradas:
 | compatibilidad con cookies del dispositivo móvil | decoración de correo móvil | sistema operativo |
 | compatibilidad con la imagen del dispositivo móvil | servicios de información móvil | tipo de referente |
 | profundidad de color del dispositivo móvil | tipo de dispositivo móvil | motor de búsqueda |
-| compatibilidad con el audio del dispositivo móvil | tipo de explorador | estado |
+| compatibilidad con el audio del dispositivo móvil | tipo de explorador | state |
 | compatibilidad con el vídeo del dispositivo móvil | explorador | país geográfico |
 | DRM móvil | tipo de conexión | región geográfica |
 | protocolos de red móvil | operador de telefonía móvil | ciudad geográfica |
