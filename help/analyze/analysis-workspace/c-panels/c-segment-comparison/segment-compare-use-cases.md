@@ -3,7 +3,7 @@ title: Casos de uso de comparación de segmentos
 description: Conozca los casos de uso del mundo real sobre cómo se puede utilizar el panel de comparación de segmentos para obtener información sobre la estrategia de mercadotecnia.
 keywords: IQ de segmento
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ El panel de comparación de segmentos es una función muy utilizada en Analysis 
 
 > *“Comparamos los impactos procedentes de un sitio con los del otro y encontramos enseguida varias inconsistencias de etiquetado. De este modo, evitamos problemas de datos antes del lanzamiento del producto”.*
 
-Un administrador de productos a cargo de un sitio web móvil y un sitio web de escritorio recibió la tarea de asegurarse de que las etiquetas fueran coherentes en todos los dispositivos móviles y de escritorio. Para asegurarse de que no se había perdido nada importante, utilizó el panel de comparación de segmentos para comparar las visitas procedentes de su sitio de dispositivos móviles con las visitas procedentes de su sitio de escritorio. Observó que no había eventos de cierre de compra en el sitio web móvil y obtuvo las etiquetas correctas antes de que se lanzara el sitio móvil. Como resultado, el gestor de producto evitó el desastre de datos que hubiera supuesto que el sitio móvil no registrara ninguna conversión.
+Un administrador de productos a cargo de un sitio web móvil y un sitio web de escritorio recibió la tarea de asegurarse de que las etiquetas fueran coherentes en todos los dispositivos móviles y de escritorio. Para asegurarse de que no se había perdido nada importante, utilizó el panel de comparación de segmentos para comparar las visitas provenientes de su sitio de dispositivos móviles con las visitas provenientes de su sitio de escritorio. Observó que no había eventos de cierre de compra en el sitio web móvil y obtuvo las etiquetas correctas antes de que se lanzara el sitio móvil. Como resultado, el gestor de producto evitó el desastre de datos que hubiera supuesto que el sitio móvil no registrara ninguna conversión.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
@@ -54,7 +54,7 @@ Una gran empresa de servicios B2B quería entender el tipo de tráfico que llega
 
 ## Caso de uso 5: comparar los compradores de Fitbit con los demás
 
-> *“Descubrimos que las personas que compraban Fitbits tenían 6 veces más probabilidad de recibir un mensaje 'sin existencias' que todos los demás, por lo que encargamos rápidamente más Fitbits para evitar quedarnos sin stock”.*
+> *"Descubrimos que la gente que compraba Fitbits tenía 6 veces más probabilidades de recibir un mensaje 'sin existencias' que todos los demás, ¡así que rápidamente pedimos más Fitbits y evitamos quedarnos sin existencias!"*
 
 Un importante minorista en línea estaba interesado en saber cómo uno de los productos de vacaciones más populares, Fitbit, estaba vendiendo y qué hacía que los compradores de Fitbit fueran únicos entre otros clientes. Utilizando la comparación de segmentos, descubrieron que los usuarios que compraban Fitbits tenían 6 veces más probabilidades de recibir un mensaje "sin existencias" que cualquier otro cliente. Después de un análisis más profundo, el equipo de mercadotecnia dirigió a estos visitantes a sus tiendas de ladrillos y morteros mientras esperaban a que su departamento de compras solicitara más Fitbits para enviar. Como resultado, el minorista evitó más mensajes "fuera de existencias" y satisfizo más su demanda navideña.
 
