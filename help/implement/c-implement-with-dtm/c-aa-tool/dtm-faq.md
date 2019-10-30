@@ -6,8 +6,8 @@ seo-title: Preguntas frecuentes sobre la herramienta Adobe Analytics
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Preguntas frecuentes sobre la herramienta Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ Se trata de las preguntas más frecuentes sobre la configuración automática de
  <tbody> 
   <tr> 
    <td colname="col1"> <p> ¿Dónde puedo colocar mis complementos al implementar Adobe Analytics a través de DTM? </p> </td> 
-   <td colname="col2"> <p> Si utiliza DTM para alojar manualmente <code>s_code</code>, se pueden añadir complementos en el mismo editor que el <code>s_code</code> alojado, tal y como ocurriría en una implementación de Adobe Analytics típica. </p> <p>Sin embargo, también es una opción colocar los complementos en el editor dentro de la sección <span class="term">Personalizar código de página</span> de la configuración de la herramienta. Los dos métodos de implementación deberían ser igual de eficaces. </p> </td> 
+   <td colname="col2"> <p> Si utiliza DTM para alojar manualmente <code> s_code</code>, se pueden añadir complementos en el mismo editor que el <code> s_code</code> alojado, tal y como ocurriría en una implementación de Adobe Analytics típica. </p> <p>Sin embargo, también es una opción colocar los complementos en el editor dentro de la sección <span class="term">Personalizar código de página</span> de la configuración de la herramienta. Los dos métodos de implementación deberían ser igual de eficaces. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Si realizo cambios de configuración en la nueva versión de la herramienta, ¿puedo probarla en el entorno de ensayo antes de publicarla en el de producción? </p> </td> 
