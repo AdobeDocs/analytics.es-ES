@@ -6,9 +6,9 @@ seo-title: Instancias
 solution: Analytics
 title: Instancias
 topic: Métricas
-uuid: fec 94 bdd-a 1 dc -4 cb 0-8983-ea 575 b 69589 f
+uuid: memoria de 2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
