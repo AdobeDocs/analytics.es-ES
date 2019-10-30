@@ -1,13 +1,13 @@
 ---
 description: Puede activar una fuente en pausa o inactiva.
-keywords: Fuente de datos; feed; activar
+keywords: Fuente de datos;fuente;activar
 seo-description: Puede activar una fuente en pausa o inactiva.
 seo-title: Activar una fuente
 solution: Analytics
 title: Activar una fuente
-uuid: f 7 bd 977 e -3004-4134-a 1 fb -07 f 1 f 7 c 516 ea
+uuid: f7bd977e-3004-4134-a1fb-07f1f7c516ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
