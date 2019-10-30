@@ -1,20 +1,20 @@
 ---
-description: Realizar un seguimiento de los sitios referentes de los visitantes y registrarlos (permite determinar en cada visita cómo descubrió el sitio el visitante).
-seo-description: Realizar un seguimiento de los sitios referentes de los visitantes y registrarlos (permite determinar en cada visita cómo descubrió el sitio el visitante).
+description: Al rastrear y registrar los sitios de referencia de los visitantes para cada visita, puede determinar cómo los visitantes descubrieron el sitio en cada visita.
+seo-description: Al rastrear y registrar los sitios de referencia de los visitantes para cada visita, puede determinar cómo los visitantes descubrieron el sitio en cada visita.
 seo-title: Tipo de referente
 solution: Analytics
 title: Tipo de referente
-topic: 'Informes '
-uuid: 7 f 63 d 327-d 223-4537-a 722-4780 aae 05 c 2 b
+topic: Informes
+uuid: 7f63d327-d223-4537-a722-4780ae05c2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Tipo de referente
 
-Realizar un seguimiento de los sitios referentes de los visitantes y registrarlos (permite determinar en cada visita cómo descubrió el sitio el visitante).
+Al rastrear y registrar los sitios de referencia de los visitantes para cada visita, puede determinar cómo los visitantes descubrieron el sitio en cada visita.
 
 La lista siguiente define los distintos tipos de referentes:
 
@@ -24,9 +24,9 @@ La lista siguiente define los distintos tipos de referentes:
 
 **[!UICONTROL Redes sociales]**: Adobe debe considerar el valor de referencia como una red social. Consulte [Lista de redes sociales](https://helpx.adobe.com/analytics/kb/list-social-networks.html).
 
-**Correo electrónico**: Un dominio de referencia se considera un dominio de referencia de correo electrónico cuando los visitantes hacen clic en un vínculo de mensaje enviado por correo electrónico que contiene el protocolo [!DNL imap://] o [!DNL mail://] llegan al sitio. Por ejemplo, todas las visitas procedentes de [!DNL https://mail.yahoo.com] no se cuentan como referente de correo electrónico, porque el protocolo es [!DNL https://]. Los mensajes de correo electrónico de Outlook se registran en la línea de direcciones escritas o marcadores, mientras que todos los referentes con protocolo HTTP cuyo dominio es un motor de búsqueda conocido se registran en la línea de motores de búsqueda.
+**Correo electrónico**: Un dominio de referencia se considera un dominio de referencia de correo electrónico cuando los visitantes hacen clic en un vínculo de mensaje de correo electrónico que contiene el protocolo [!DNL imap://] o [!DNL mail://] y llegan al sitio. Por ejemplo, todas las visitas procedentes de [!DNL https://mail.yahoo.com] no se cuentan como referente de correo electrónico, porque el protocolo es [!DNL https://]. Los mensajes de correo electrónico de Outlook se registran en la línea de direcciones escritas o marcadores, mientras que todos los referentes con protocolo HTTP cuyo dominio es un motor de búsqueda conocido se registran en la línea de motores de búsqueda.
 
-**Escritos o marcadores**: los referentes se registran cuando los visitantes escriben la dirección URL directamente en la barra de direcciones del explorador, o si acceden al sitio mediante un marcador. Los dispositivos móviles registran en el informe un tipo de referente *`typed/bookmarked`* si no hay ningún tipo de referente en la primera entrada de la visita.
+**Escritos o marcadores**: los referentes se registran cuando los visitantes escriben la dirección URL del sitio directamente en el explorador o si acceden al sitio seleccionando marcadores. Los dispositivos móviles informan de un tipo de referente *`typed/bookmarked`* si no hay ningún referente en la primera visita individual de la visita.
 
 **[!UICONTROL Dentro de su sitio]**: estos artículos son direcciones URL que son etiquetadas por los filtros de URL internos. These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
 
