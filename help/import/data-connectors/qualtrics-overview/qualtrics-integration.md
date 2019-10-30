@@ -8,7 +8,7 @@ title: Uso de la integración
 topic: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 Una vez completada la implementación, puede empezar a utilizar las capacidades adicionales que proporciona esta integración.
 
->[!NOTE]
->
->Puede tardar entre 24 y 48 horas en empezar a ver los datos de respuesta de Qualtrics en los informes de Adobe Analytics.
+> [!NOTE] Puede tardar entre 24 y 48 horas en empezar a ver los datos de respuesta de Qualtrics en los informes de Adobe Analytics.
 
 Las siguientes son acciones que se deben realizar para obtener valor de esta integración desde Adobe Analytics.
 
