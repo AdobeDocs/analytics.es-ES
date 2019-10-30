@@ -5,9 +5,9 @@ seo-title: Agregar métricas de participación
 solution: Analytics
 title: Agregar métricas de participación
 topic: Métricas
-uuid: 0 cadc 5 f 7-64 d 0-442 a -8 faf-b 3 bf 13 f 04434
+uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
