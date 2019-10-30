@@ -8,7 +8,7 @@ title: Resumen de las visualizaciones
 topic: Reports and Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Obtenga información sobre las visualizaciones y los ajustes de visualización e
 
 Para mostrar el Panel de visualizaciones, haga clic en **[!UICONTROL Visualizaciones]en el panel lateral.**
 
-![Resultado de los pasos](assets/visualizations.png)
+![Resultado (](assets/visualizations.png)
 
 La mayoría de los tipos de visualización (como los gráficos de área, barras, sectores y líneas) le resultarán familiares si utiliza Adobe Analytics. Sin embargo, Analysis Workspace proporciona una configuración de visualización y múltiples tipos de visualización únicos o nuevos con funciones interactivas.
 
