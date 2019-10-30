@@ -6,7 +6,7 @@ solution: Analytics
 title: Conector de datos selectivo para Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -82,31 +82,31 @@ Aparte de estas eVars, es posible que algunos eventos se reserven en función de
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Enviado </td> 
    <td colname="col3"> Para almacenar el número de mensajes de correo electrónico enviados desde Selplice. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participación</b>: Habilitado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participación</b>: Habilitado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Enviado </td> 
    <td colname="col3"> Para almacenar el número de correos electrónicos entregados. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participación</b>: Habilitado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participación</b>: Habilitado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Vistas </td> 
    <td colname="col3"> Para almacenar el número de correos electrónicos únicos que se vieron. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participación</b>: Habilitado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participación</b>: Habilitado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Clics </td> 
    <td colname="col3"> Para almacenar el número de veces que se hizo clic en un correo electrónico. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participación</b>: Habilitado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participación</b>: Habilitado </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Evento </td> 
    <td colname="col2"> Devuelto </td> 
    <td colname="col3"> Para almacenar el número de correos electrónicos devueltos. </td> 
-   <td colname="col4"> <p><b>Tipo</b>: Numérico </p> <p><b>Participación</b>: Habilitado </p> </td> 
+   <td colname="col4"> <p><b>Tipo</b>:Numérico </p> <p><b>Participación</b>: Habilitado </p> </td> 
   </tr> 
  </tbody> 
 </table>
