@@ -5,7 +5,7 @@ seo-title: Ver uso de llamadas al servidor actual
 title: Ver uso de llamadas al servidor actual
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Uso **[!UICONTROL de llamadas]** al servidor &gt; Uso **[!UICONTROL actual]**
 
->[!IMPORTANT]
->
->Todos los números de uso y compromiso que vea son acumulativos en todas sus empresas de inicio de sesión y grupos de informes.
+> [!IMPORTANT] Todos los números de uso y compromiso que vea son acumulativos en todas sus empresas de inicio de sesión y grupos de informes.
 
 El tablero de Uso actual:
 
@@ -27,9 +25,7 @@ El tablero de Uso actual:
 
 * Compara el uso de su periodo actual con el del año pasado (línea azul). Obviamente, la línea azul solo aparecerá si su empresa tiene datos de uso de llamadas al servidor del año anterior.
 
-   >[!NOTE]
-   >
-   >Si desea ver el uso de un período de tiempo anterior, debe ir a la ficha Uso [del grupo de](/help/admin/c-server-call-usage/report-suite-usage.md) informes y descargar los datos de uso de un período anterior.
+   > [!NOTE] Si desea ver el uso de un período de tiempo anterior, debe ir a la ficha Uso [del grupo de](/help/admin/c-server-call-usage/report-suite-usage.md) informes y descargar los datos de uso de un período anterior.
 
 * Muestra el porcentaje de llamadas utilizado (en porcentajes y datos sin procesar) y el porcentaje del periodo de uso empleado (en porcentajes y datos sin procesar).
 * De forma predeterminada, se actualiza a diario, con una latencia de procesamiento de 5 días.
@@ -42,4 +38,3 @@ El tablero de Uso actual:
 | Uso del periodo actual (verde) | El periodo actual se basa en el [periodo de uso](/help/admin/c-server-call-usage/overage-overview.md). |
 | Uso del periodo anterior (azul) | El periodo anterior se define como el periodo de uso actual menos 1 año. |
 | Límite de uso (rojo) | Su límite de uso contractual para este periodo de uso. |
-
