@@ -7,7 +7,7 @@ title: Generar segmentos
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -134,7 +134,7 @@ Si el segmento se [publicó en Experience Cloud](https://marketing.adobe.com/res
   </tr> 
   <tr> 
    <td colname="col1">Segmentos de Administrador <p>(también conocidos como segmentos "globales") </p> </td> 
-   <td colname="col2"> <p> Los segmentos de <b>Administrador</b> se migrarán en la nueva interfaz de segmentos y se mostrarán como segmentos compartidos para todos. </p> <p>El propietario de estos segmentos se establece como administrador con la cuenta más antigua de la lista de inicio de sesión de la empresa de usuarios administradores; no obstante, todos los administradores pueden eliminar, editar y compartir estos segmentos. </p> <p>Ya no está disponible la interfaz de administración de segmentos en Admin Console donde los administradores creaban y gestionaban estos segmentos globales. Los administradores ahora deben utilizar el nuevo Generador de segmentos para crear segmentos y compartirlos con los grupos o individuos adecuados o con todos. </p> </td> 
+   <td colname="col2"> <p> Los segmentos de <b>Administrador</b> se migrarán en la nueva interfaz de segmentos y se mostrarán como segmentos compartidos para todos. </p> <p>El propietario de estos segmentos se establece en el administrador con la cuenta más antigua de la lista de usuarios administradores de la empresa de inicio de sesión. Sin embargo, todos los administradores pueden eliminar, editar y compartir estos segmentos. </p> <p>Ya no está disponible la interfaz de administración de segmentos en Admin Console donde los administradores creaban y gestionaban estos segmentos globales. Los administradores ahora deben utilizar el nuevo Generador de segmentos para crear segmentos y compartirlos con los grupos o individuos adecuados o con todos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
