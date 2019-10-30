@@ -1,13 +1,13 @@
 ---
 description: De forma predeterminada, se incluye el historial de trabajos de los últimos 30 días correspondiente a todos los grupos de informes.
-keywords: Fuente de datos; feed; trabajo; history
+keywords: Fuente de datos;fuente;trabajo;historial
 seo-description: De forma predeterminada, se incluye el historial de trabajos de los últimos 30 días correspondiente a todos los grupos de informes.
 seo-title: Ver el historial de trabajos de una fuente
 solution: Analytics
 title: Ver el historial de trabajos de una fuente
-uuid: db 47 c 9 c 5-4700-4269-9846-e 8 b 38911 a 654
+uuid: db47c9c5-4700-4269-9846-e8b38911a654
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
