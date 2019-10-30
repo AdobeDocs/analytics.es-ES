@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Programa
 title: Programación y distribución del informe
 topic: Reports and Analytics
-uuid: 1230 b 0 f 3-e 026-4 b 83-b 231-14 d 6 f 75 a 3836
+uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: cca2896eaaf3786e79e7bd389bcb5a409e3d357e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,17 +25,15 @@ Debido a las diferencias en los mecanismos y las plataformas de procesamiento, l
 * Data Extract: 50 000 filas
 * Data Warehouse: sin límite
 
-Estas limitaciones son para informes individuales programados y descargados; los tableros están limitados a la cantidad de espacio disponible en un informe breve.
+Estas limitaciones son para los informes programados y descargados individuales; los tableros están limitados a la cantidad de espacio disponible en un informe breve.
 
->[!NOTE]
+> [!NOTE] La "Hora de envío"/"Hora del día" ingresada por el usuario especifica la hora en que el informe debe comenzar a procesarse, no la hora en que se enviará. El tiempo real que el informe se enviará se basa principalmente en el tiempo que lleva procesar (los informes complejos y grandes tardan más en procesarse que los informes más simples). Por ejemplo: si un informe tarda 15 minutos en procesarse, el tiempo de entrega real será al menos 15 minutos después del "Tiempo de entrega" /"Hora del día" especificado originalmente.
+>Además, hay otros factores que pueden aumentar aún más la demora antes de que se presente el informe:
 >
->La "Hora de entrega"/"Hora del día" ingresada por el usuario especifica el tiempo que debe comenzar el informe, no la hora en que se enviará. La hora real en la que se enviará el informe se basa principalmente en el tiempo que tardará en procesarse (los informes complejos y complejos tardan más en procesarse que los informes simples). Por ejemplo, si un informe tarda 15 minutos en procesarse, la hora de entrega real será de al menos 15 minutos después del "Tiempo de entrega"/"Hora del día" originalmente especificada.
->Además, hay otros factores que pueden aumentar aún más el retraso antes de que se envíe el informe:
->
-> * **Ejecutar muchas programaciones del mismo tipo al mismo tiempo** (por ejemplo, muchos tableros, etc.) puede sobrecargar el sistema. El sistema de programación sólo permite que algunos informes (5-10) de cualquier tipo se ejecuten de forma simultánea, por lo que cuando todos los informes de entre 5 y 10 estén programados a la vez, algunos deberán esperar en línea para que otros informes empiecen a procesarse. Este problema se puede mitigar programando los informes de una empresa en horas escaladas a lo largo del día o la hora, en lugar de hacerlo simultáneamente.
-> * Además del tipo de informe específico (Tableros, etc.), los informes también esperan en línea si la empresa tiene **más de 15 ó 20 de cualquier tipo de informe programado a la vez (en todos los tipos de informe)**. Esto se puede mitigar con tiempos de programación escalados en lugar de tener muchas ejecutándose al mismo tiempo.
-> * **Los problemas en los servicios** de flujo descendente en los que depende el Programador también pueden afectar al envío de los informes. Por ejemplo, si usa de forma independiente las API para ejecutar informes y llenar la cola de solicitud de API, los informes programados pueden entregarse lentamente mientras compite por ese recurso.
-> * **La latencia del grupo de informes** (un retraso en la recopilación de datos) también puede retrasar algunos informes programados.
+> * **Ejecución de muchas programaciones diferentes del mismo tipo al mismo tiempo** (por ejemplo, muchos tableros, etc.) puede sobrecargar el sistema. El sistema de programación solo permite que se ejecuten al mismo tiempo unos pocos informes (5-10) de cualquier tipo, por lo que cuando se programen más de 5-10 a la vez, algunos tendrán que esperar en la línea para que otros informes finalicen antes de que puedan comenzar a procesarse. Este problema se puede mitigar programando los informes de una empresa en horas escalonadas durante el día o la hora, en lugar de hacerlo simultáneamente.
+> * Además del tipo de informe específico (Tableros, etc.), los informes también esperarán en línea si la empresa tiene **entre 15 y 20 informes de cualquier tipo programados a la vez (en todos los diferentes tipos de informes)**. Esto se puede mitigar escalofriando las horas programadas en lugar de tener muchas ejecutándose al mismo tiempo.
+> * **Los problemas en los servicios** de flujo descendente en los que se basa el Programador también pueden afectar al envío de informes. Por ejemplo: si utiliza las API de forma independiente para ejecutar informes y rellenar la cola de solicitudes de API, los informes programados pueden entregarse lentamente mientras compite por ese recurso.
+> * **La latencia** del grupo de informes (un retraso en la recopilación de datos) también puede retrasar algunos informes programados.
 
 
 
@@ -57,10 +55,10 @@ Instrucciones sobre cómo descargar y enviar por correo electrónico informes en
 
 | Opción | Descripción |
 |--- |--- |
-| Nombre del archivo del informe | Especifica el nombre del informe. El formato predeterminado `<report name> for <suite> - <report date range>`es. Para especificar un nombre personalizado, seleccione [!UICONTROL Personalizar]. |
+| Nombre del archivo del informe | Especifica el nombre del informe. The default format is `<report name> for <suite> - <report date range>`. Para especificar un nombre personalizado, seleccione [!UICONTROL Personalizar]. |
 | Formato del informe | Le permite especificar formatos PDF, CSV, Excel, HTML, Word o Móvil para el envío. Si selecciona CSV, también puede especificar la codificación para CSV:<ul><li>Shift-JIS: codificación de caracteres japoneses.</li><li>EUC-JP: Código Unix ampliado, principalmente para japonés, coreano y chino simplificado.</li></ul> |
 | Contenido del informe | <ul><li>Número de filas de la tabla: especifica el número de filas que desea que sean visibles en la tabla del informe que está enviando.</li><li>Idioma para el encabezado y pie de página: especifica el idioma del encabezado y el pie de página.</li><li>Comentarios: especifica el texto que aparece al comienzo del informe.</li></ul> |
-| Enviar el archivo de firma digital | Cuando solicita un informe, como un informe con marcadores o solicitudes del almacén de datos, puede solicitar una firma de datos. La firma digital de Adobe no restringe el acceso a la información, pero el propósito del archivo de firma digital (.sig) es verificar la validez del archivo de informes enviado. Si utiliza la firma digital, los destinatarios del informe pueden verificar si el archivo proviene de Adobe y si no ha sido alterado. |
+| Enviar el archivo de firma digital | Cuando solicita un informe, como un informe con marcador o solicitudes del almacén de datos, puede solicitar una firma de datos. La firma digital de Adobe no restringe el acceso a los datos, pero el propósito del archivo de firma digital (.sig) es verificar la validez del archivo de informe enviado. Si utiliza la firma digital, los destinatarios del informe pueden verificar si el archivo proviene de Adobe y si no ha sido alterado. |
 | Destino del informe | <ul><li>Correo electrónico: permite configurar las direcciones de correo electrónico, la línea de asunto y las notas.</li><li>FTP: permite configurar FTP, incluso el host, el puerto, el directorio, el nombre de usuario y la contraseña.</li></ul> |
 
 1. Click **[!UICONTROL Scheduling Options]**.
@@ -69,9 +67,9 @@ Instrucciones sobre cómo descargar y enviar por correo electrónico informes en
 |--- |--- |
 | Enviar informe ahora | Envía el informe inmediatamente. |
 | Programar después | Muestra las opciones para especificar un intervalo de tiempo y las opciones de envío. |
-| Intervalo de tiempo del informe | **Fijo**: evita que la fecha avance con el transcurso del tiempo. **Móvil**: permite que la fecha avance con el transcurso del tiempo. Algunas consideraciones:<ul><li>Si selecciona Móvil tanto para la fecha de inicio como para la de finalización y selecciona un informe diario del día anterior, recibirá un mensaje de correo electrónico todos los días con el informe del día anterior.</li><li>Si selecciona Fijo para la fecha de inicio y móvil para la fecha de finalización, recibirá el primer día un informe del día anterior. El segundo día recibirá un informe de los dos días anteriores, el tercer día recibirá un informe de los tres días anteriores y así sucesivamente.</li><li>Si selecciona Fijo tanto para la fecha de inicio como para la de finalización, recibirá un informe idéntico para los días precisos que haya especificado.</li><li>No se puede seleccionar una fecha de inicio móvil y una fecha de finalización fija.</li></ul> |
+| Intervalo de tiempo del informe | **Fijo**: evita que la fecha avance con el transcurso del tiempo. **Móvil**: permite que la fecha avance con el transcurso del tiempo. Algunas consideraciones:<ul><li>Si selecciona Móvil tanto para la fecha de inicio como para la de finalización y selecciona un informe diario del día anterior, recibirá un mensaje de correo electrónico todos los días con el informe del día anterior.</li><li>Si selecciona Fijo para el día de inicio y móvil para el día de finalización, recibirá el primer día un informe para el día anterior. El segundo día recibirá un informe de los dos días anteriores, el tercer día recibirá un informe de los tres días anteriores y así sucesivamente.</li><li>Si selecciona Fijo tanto para la fecha de inicio como para la de finalización, recibirá un informe idéntico para los días precisos que haya especificado.</li><li>No puede seleccionar una fecha de inicio móvil y una fecha de fin fija.</li></ul> |
 | Frecuencia de envío | <ul><li>**Por hora**: envía un mensaje de correo electrónico cada hora, cada dos horas o a cualquier otro intervalo de horas.</li><li>**Diario**: envía un mensaje de correo electrónico todos los días, cada dos días, cada tres días o a cualquier otro intervalo de días. También es posible que se lo envíe cada día laborable.</li><li>**Semanal**: envía un mensaje de correo electrónico todas las semanas, cada dos semanas, cada tres semanas o a cualquier otro intervalo de semanas. También se puede especificar qué día de la semana enviarlo.</li><li>**Mensualmente**: especifica el intervalo en cantidad de meses y se puede también seleccionar el día del mes en que ha de enviarse o el día de una determinada semana del mes.</li><li>**Anualmente**: especifica el día del año en que ha de enviarse el informe o bien puede enviarse un día de la semana de cualquier semana del año.</li><li>**Hora del día**: se aplica al huso horario conectado al grupo de informes seleccionado.</li></ul> |
-| Opciones de finalización de envío | <ul><li>**Sin fin**: especifica sin fin.</li><li>**Finalizar después`value`de ocurrencias**: Especifica el número de ocurrencias antes de finalizar el envío.</li><li>**Finalizar el**: permite especificar una fecha determinada. Si desea que los datos se procesen en la misma fecha que los datos del informe, el informe contendrá solamente los datos que se hayan incluido en la base de datos en el momento en el que se envíe el informe. Puesto que el procesamiento completo de un día puede llevar hasta 24 horas, es posible que no estén disponibles los datos completos al tiempo de enviar el informe. Para obtener los datos completos, siempre fije el tiempo de procesamiento en 24 horas después del final del período de informe.</li></ul> |
+| Opciones de finalización de envío | <ul><li>**Sin fin**: especifica sin fin.</li><li>**Finalizar después de`value`ocurrencias**: Especifica el número de ocurrencias antes de finalizar la entrega.</li><li>**Finalizar el**: permite especificar una fecha determinada. Si desea que los datos se procesen en la misma fecha que los datos del informe, el informe contendrá solamente los datos que se hayan incluido en la base de datos en el momento en el que se envíe el informe. Puesto que el procesamiento completo de un día puede llevar hasta 24 horas, es posible que no estén disponibles los datos completos al tiempo de enviar el informe. Para obtener los datos completos, siempre fije el tiempo de procesamiento en 24 horas después del final del período de informe.</li></ul> |
 
 ## Imprimir un informe {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
@@ -126,7 +124,7 @@ Puede cancelar la suscripción de informes programados. Dejará de recibir el in
 
 >[!IMPORTANT]
 >
->Para que pueda recibir nuevamente el informe, es necesario crear una nueva programación.
+>Para poder volver a recibir el informe, es necesario crear una nueva programación.
 
 Para cancelar una suscripción de un informe programado:
 
@@ -140,7 +138,7 @@ Para cancelar una suscripción de un informe programado:
 
    >[!NOTE]
    >
-   >Este flujo de trabajo es el mismo tanto si usted es el programador de informes como si es el destinatario del informe.
+   >Este flujo de trabajo es el mismo tanto si usted es el programador de informes como el destinatario del informe.
 
 Al cancelar la suscripción de un informe no se cancela el informe programado.
 
