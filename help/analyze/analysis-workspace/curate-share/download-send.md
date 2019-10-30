@@ -3,9 +3,9 @@ description: Puede descargar proyectos guardados y sin guardar en los formatos P
 seo-description: Puede descargar proyectos guardados y sin guardar en los formatos PDF y CSV.
 seo-title: Descarga de archivos PDF o CSV
 title: Descarga de archivos PDF o CSV
-uuid: 8 af 5 f 3 d 7-5870-4 ed 6-8 a 9 f-ef 290 a 48 ef 5 f
+uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: b9e57162fae605719d7d85aad52a29165cb63fe4
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,13 +16,9 @@ Puede descargar proyectos guardados y sin guardar en los formatos PDF y CSV.
 
 El nombre del archivo PDF o CSV coincide con el nombre actual del proyecto. En el caso de proyectos sin guardar, el archivo descargado incluye los cambios sin guardar en el proyecto. Tenga en cuenta que no puede programar proyectos no guardados en PDF o CSV.
 
->[!NOTE]
->
->También es compatible con la visualización de visitas en el orden previsto en formato CSV.
+> [!NOTE] También se admite la visualización de visitas en el orden previsto en formato CSV.
 
->[!NOTE]
->
->Cuando procesamos un proyecto en PDF, solo procesamos lo que se encuentra en la página. Si un proyecto tiene paneles y visualizaciones de tamaño personalizado, deberá cambiarlos a tamaño automático (mediante el botón que hay en la esquina superior derecha) para que no se trunque el contenido.
+> [!NOTE] Cuando procesamos un proyecto en PDF, simplemente procesamos lo que hay en la página. Si un proyecto tiene paneles y visualizaciones de tamaño personalizado, deberá cambiarlos a tamaño automático (mediante el botón que hay en la esquina superior derecha) para que no se trunque el contenido.
 
 1. Cree o abra un proyecto.
 1. Click **[!UICONTROL Project]** &gt; **[!UICONTROL Download CSV (or Download PDF).]**
@@ -30,12 +26,12 @@ El nombre del archivo PDF o CSV coincide con el nombre actual del proyecto. En e
 On April 11, 2019, several changes were made to **[!CSV downloads]** (and **[!Copy to Clipboard]**) from Analysis Workspace to remove formatting from exported data.
 * El separador de miles ya no se incluye. (Se seguirá incluyendo el separador decimal y se respetará el formato definido dentro de **[!UICONTROL Componentes &gt; Configuración de informes &gt; Separador de miles]**).
 * No se muestran símbolos de moneda.
-* No se muestran símbolos porcentuales.
-* Los porcentajes están en forma decimal; Por ejemplo: el 75% se representa como 0,75.
-* La hora se muestra en segundos.
+* No se muestran símbolos de porcentaje.
+* Los porcentajes están en forma decimal; Por ejemplo, el 75% se representa como 0,75.
+* El tiempo se muestra en segundos.
 * Las tablas de cohorte solo muestran valores sin procesar; se eliminan los porcentajes.
 * Si un número no es válido, se muestra una celda vacía.
 
->[!Note:]
+>[!NNota:]
 >
-> Los valores numéricos que utilizan una coma como separador decimal seguirán apareciendo en el CSV exportado.
+> Los valores numéricos que utilizan una coma como separador decimal seguirán cotizándose en el CSV exportado.
