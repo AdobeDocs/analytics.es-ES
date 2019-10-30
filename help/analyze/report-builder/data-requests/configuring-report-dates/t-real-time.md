@@ -7,7 +7,7 @@ title: Configuración de una solicitud en tiempo real
 topic: Creador de informes
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Los pasos describen cómo configurar las fechas de solicitud en tiempo real.
 
 1. Seleccione un intervalo de tiempo en minutos o horas.
 
-   ![Resultado de los pasos](assets/real_time_select_date.png)
+   ![Resultado (](assets/real_time_select_date.png)
 
    Los informes en tiempo real están disponibles únicamente para las últimas 20 horas. Para la granularidad, tiene las opciones de seleccionar de granularidad de 1 minuto hasta 30 minutos.
-1. Click **[!UICONTROL Next]** and continue [configuring the request layout](../../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB).
+1. Haga clic en **[!UICONTROL Siguiente]** y continúe [configurando el diseño](../../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB)de la solicitud.
