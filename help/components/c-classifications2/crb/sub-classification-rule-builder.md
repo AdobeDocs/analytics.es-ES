@@ -8,7 +8,7 @@ title: 'Subclasificaciones y el Generador de reglas: Caso de uso'
 topic: Herramientas de administración
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,9 +47,7 @@ t_rule_builder_subclass.xml
 
 Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el Generador de reglas.
 
->[!NOTE]
->
->Estos pasos describen cómo se lleva a cabo el caso de uso descrito en [Subclasificaciones y el Generador](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)de reglas.
+> [!NOTE] Estos pasos describen cómo se lleva a cabo el caso de uso descrito en [Subclasificaciones y el Generador](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)de reglas.
 
 1. Cree clasificaciones y subclasificaciones en el [Administrador de clasificación](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
