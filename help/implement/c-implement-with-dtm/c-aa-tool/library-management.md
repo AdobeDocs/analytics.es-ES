@@ -6,8 +6,8 @@ seo-title: Administración de biblioteca
 solution: Experience Cloud, Dynamic Tag Management
 title: Administración de biblioteca
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ Descripciones de los campos y las opciones del ajuste Administración de bibliot
 
 **[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png) **[!UICONTROL Editar herramienta]** &gt; **[!UICONTROL Administración de biblioteca]**
 
->[!NOTE]
->
->Si se utiliza más de una herramienta Adobe Analytics en una misma propiedad web, cada una deberá tener un nombre de la variable del rastreador único. Si existen duplicados de nombres de variables de objetos entre distintas herramientas Adobe Analytics en una misma propiedad web, se podría producir un conflicto.
+> [!NOTE] Si se utiliza más de una herramienta Adobe Analytics en una misma propiedad web, cada una deberá tener un nombre de la variable del rastreador único. Si existen duplicados de nombres de variables de objetos entre distintas herramientas Adobe Analytics en una misma propiedad web, se podría producir un conflicto.
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
