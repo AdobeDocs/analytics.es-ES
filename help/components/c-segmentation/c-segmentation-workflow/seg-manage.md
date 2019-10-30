@@ -1,18 +1,18 @@
 ---
 description: El Administrador de segmentos ofrece numerosas maneras de conservar los segmentos, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 seo-description: El Administrador de segmentos ofrece numerosas maneras de conservar los segmentos, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
-seo-title: Administrar segmentos
+seo-title: Administración de segmentos
 solution: Analytics
-title: Administrar segmentos
+title: Administración de segmentos
 topic: Segmentos
-uuid: 47 d 54822-a 662-471 d -8 dab -03 ddf 6 c 2 f 395
+uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Administrar segmentos
+# Administración de segmentos
 
 El Administrador de segmentos ofrece numerosas maneras de conservar los segmentos, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 
@@ -50,7 +50,7 @@ En este [vídeo de YouTube de Adobe Analytics](https://www.youtube.com/watch?v=C
 
 El Organizador de segmentos en análisis específicos le muestra todos los segmentos que posee y todos los que han compartido con usted.
 
-To access the Segment Organizer in [!DNL ad hoc analysis]:
+Para acceder al Organizador de segmentos en [!DNL ad hoc analysis]:
 
 * Vaya a la ficha **[!UICONTROL Segmentos]** en el panel de la izquierda, haga clic en el icono de la llave inglesa ![ y seleccione **Organizar segmentos]en el menú.](assets/wrench_icon.png)[!UICONTROL **
 
