@@ -7,7 +7,7 @@ title: Informes en tiempo real
 topic: Informes
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 Muestra tráfico de páginas web y clasifica las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
 
->[!NOTE]
->
->El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md).
+> [!NOTE] El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md).
 
 **[!UICONTROL Métricas]** del sitio &gt; Tiempo **[!UICONTROL real]**
 
@@ -44,7 +42,7 @@ Como administrador, puede
 
 * Compare, por ejemplo, los valores de la semana pasada con los valores del año pasado (así como el total de hoy).
 
-Tenga en cuenta que no se admiten las métricas de conversión (eVar), ya que no hay concepto de persistencia. Aunque puede seleccionar métricas de conversión, solo funcionarán si se establecen en la misma página que las dimensiones. Para obtener más información, consulte el mensaje de advertencia registrado en [Configuración de informes](/help/admin/admin/realtime/t-realtime-admin.md)en tiempo real.
+Tenga en cuenta que no se admiten las métricas de conversión (eVar), ya que no hay concepto de persistencia. Aunque puede seleccionar métricas de conversión, solo funcionarán si se establecen en la misma página que las dimensiones. Para obtener más información, consulte el mensaje de advertencia capturado en [Configuración de informes](/help/admin/admin/realtime/t-realtime-admin.md)en tiempo real.
 
 La configuración y visualización de informes en tiempo real está restringida a administradores o cualquier otro usuario de los grupos de permisos "Acceso a todos los informes" e "Informes avanzados". Sin embargo, Tiempo real respeta los permisos. Por ejemplo, si no dispone de permisos para ver ingresos, no podrá ver un informe en tiempo real que incluya datos de ingresos.
 
