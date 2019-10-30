@@ -3,9 +3,9 @@ description: En el Administrador de métricas calculadas, el etiquetado de segme
 seo-description: En el Administrador de métricas calculadas, el etiquetado de segmentos le permite organizarlos.
 seo-title: Etiquetar métricas calculadas
 title: Etiquetar métricas calculadas
-uuid: f 90 ddbed-adc 4-407 d-b 4 b 0-469 eda 61 c 704
+uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
