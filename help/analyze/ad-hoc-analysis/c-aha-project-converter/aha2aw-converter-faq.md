@@ -5,7 +5,7 @@ seo-title: Preguntas frecuentes del Conversor de proyectos
 title: Preguntas frecuentes del Conversor de proyectos
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col1"> <p><b>P: ¿Cómo se convierten los intervalos de fechas?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Los intervalos de fechas de “Último día X” en Ad Hoc Analysis <i>excluyen</i> hoy, mientras que Analysis Workspace <i>incluye</i> hoy. Así, es posible que los intervalos de fechas como “últimos 90 días” no coincidan exactamente entre herramientas. Utilice intervalos de fechas personalizados para recuperar el mismo periodo de tiempo en Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. Por lo tanto, es posible que los intervalos de fechas como 'últimos 90 días' no coincidan exactamente entre las herramientas. Utilice intervalos de fechas personalizados para recuperar el mismo periodo de tiempo en Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">El intervalo de fechas del nivel de espacio de trabajo de Ad Hoc Analysis se aplica al nivel de proyecto/espacio de trabajo en Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">El intervalo de fechas del nivel de informe de Ad Hoc Analysis se aplica al nivel de columna de tabla en Workspace. </li> 
     </ul> <p>Puede editar sus intervalos de fechas personalizados en <span class="uicontrol">Análisis</span> &gt; <span class="uicontrol">Componentes</span> &gt; <span class="uicontrol">Intervalos de fechas</span>. </p> </td> 
