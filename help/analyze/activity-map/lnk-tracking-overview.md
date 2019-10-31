@@ -1,31 +1,31 @@
 ---
-description: '[!DNL Activity Map] realiza un seguimiento de los vínculos con un algoritmo más sólido que '
-seo-description: '[!DNL Activity Map] realiza un seguimiento de los vínculos con un algoritmo más sólido que '
+description: 'Mapa de actividades realiza un seguimiento de los vínculos con un algoritmo más seguro que '
+seo-description: 'Mapa de actividades realiza un seguimiento de los vínculos con un algoritmo más seguro que '
 seo-title: Potente seguimiento de vínculos
 solution: Analytics
 title: Potente seguimiento de vínculos
 topic: Activity Map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # Potente seguimiento de vínculos
 
-[!DNL Activity Map] rastrea vínculos con un algoritmo más sólido que:
+Activity Map realiza un seguimiento de los vínculos con un algoritmo más seguro.
 
 * Incluye el seguimiento de las regiones de página para evitar que un mismo vínculo se pueda confundir en distintos dispositivos si aparece en posiciones distintas de la página.
 * Garantiza la exclusividad de los vínculos, lo que implica que los vínculos que sean distintos no se puedan confundir por problemas con los ID o entre distintos tipos de explorador.
 
-For more on link tracking in [!DNL Activity Map], go [here](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md).
+Para obtener más información sobre el seguimiento de vínculos en Activity Map, entre [aquí](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md).
 
-## How [!DNL Activity Map] link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
+## How Activity Map link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
-> [!CAUTION] Al activar [!DNL Activity Map] el seguimiento, es posible que esté recopilando datos de información personal (PII). Dichos datos se pueden utilizar por sí solos o junto con otra información para identificar a una persona concreta, ponerse en contacto con ella o localizarla, o bien para identificar a una persona en contexto.
+> [!CAUTION] Si activa el seguimiento de Activity Map, es posible que recopile información de identificación personal (PII). Dicha información se puede utilizar, tanto por sí sola como con otros datos, para identificar o localizar a una persona única, para ponerse en contacto con ella o para identificar a una persona en contexto.
 
-Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
+A continuación se indican algunos casos conocidos en los que pueden recopilarse datos PII con el seguimiento de Activity Map:
 
 * `Mailto` vínculos. Un vínculo mailto es un tipo de vínculo HTML que activa el cliente de correo predeterminado en el equipo para enviar un mensaje de correo electrónico.
 * `User ID` vínculos que pueden aparecer en el encabezado o pie de página de un sitio web una vez que el usuario haya iniciado sesión.
