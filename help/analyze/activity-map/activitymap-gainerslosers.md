@@ -7,7 +7,7 @@ title: Superposiciones personalizables
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Las superposiciones permiten configurar la visualización de datos de varias formas para que pueda ver y conocer fácilmente la popularidad que tienen los vínculos en una página.
 
-Con las superposiciones se pueden ver los datos de clics directamente en la página. This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
+Con las superposiciones se pueden ver los datos de clics directamente en la página. Esto es lo que diferencia una herramienta de análisis visual, como Activity Map, de la mayoría de las herramientas gráficas y de tablas, como Reports &amp; Analytics.
 
-[!DNL Activity Map] ofrece tres tipos de superposiciones:
+Activity Map ofrece tres tipos de superposiciones:
 
 * Superposición de degradado (mapa de calor)
 * Superposición de burbujas
@@ -46,7 +46,7 @@ Estas métricas se superponen a los vínculos de la página como una especie de 
 
 La superposición de burbujas muestra el contenido de la superposición (métrica, porcentaje o clasificación) en una pequeña burbuja.
 
-Las superposiciones de burbujas se muestran cuando selecciona en la barra de herramientas esta superposición en Tipo de superposición. Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). Si no se selecciona esta opción, se ven las superposiciones de degradado.
+Las superposiciones de burbujas se muestran cuando selecciona en la barra de herramientas esta superposición en Tipo de superposición. Las superposiciones de burbujas se ven para todos los vínculos que se ajustan a la selección en [Configuración de Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md) (30 primeros, 50 primeros, todos...). Si no se selecciona esta opción, se ven las superposiciones de degradado.
 
 ![](assets/bubble_overlay.png)
 
