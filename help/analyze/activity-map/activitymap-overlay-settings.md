@@ -1,22 +1,22 @@
 ---
-description: El panel de configuración de [!DNL Activity Map] le permite modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposiciones.
-seo-description: El panel de configuración de [!DNL Activity Map] le permite modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposiciones.
-seo-title: Configurar la configuración de [!DNL Activity Map]
+description: En el panel Configuración de Activity Map se pueden modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
+seo-description: En el panel Configuración de Activity Map se pueden modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
+seo-title: Definición de la configuración de Activity Map
 solution: Analytics
-title: Configurar la configuración de [!DNL Activity Map]
+title: Definición de la configuración de Activity Map
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Configure [!DNL Activity Map] settings
+# Definición de la configuración de Activity Map
 
-The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
+En el panel Configuración de Activity Map se pueden modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
 
-Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
+Para acceder al panel Configuración de Activity Map, haga clic en el icono del engranaje que hay en la barra de herramientas de Activity Map.
 
 El panel Configuración muestra un contenido concreto según el modo de aplicación seleccionado. La ficha Otros contiene ajustes generales.
 
@@ -97,7 +97,7 @@ El panel Configuración muestra un contenido concreto según el modo de aplicaci
  <tbody> 
   <tr> 
    <td colname="col1"> Report Suite </td> 
-   <td colname="col2"> <p>Ahora, la lista de los grupos de informes a la que puede acceder no solo incluye los grupos que aparecen en la etiqueta Sitio web. Ahora puede sustituir el grupo de informes seleccionado (correspondiente a una de las etiquetas de la página) por otro grupo de informes. No hace falta que este nuevo grupo de informes esté vinculado a una etiqueta de la página. If you change the selected report suite in the [!DNL Activity Map] Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>Importante: Los grupos de informes virtuales solo son compatibles con el modo Estándar, no con el Activo. Si está en el modo Activo en un grupo de informes estándar pero selecciona un grupo de informes virtuales en este cuadro de diálogo, cuando haga clic en <span class="uicontrol">Aceptar</span> aquí aparecerá el modo Estándar. </p> </p> <p>Además, el control de calendario se reinicializará para adoptar el tipo de calendario que tenga el grupo de informes (gregoriano, minorista, personalizado...). </p> </td> 
+   <td colname="col2"> <p>Ahora, la lista de los grupos de informes a la que puede acceder no solo incluye los grupos que aparecen en la etiqueta Sitio web. Ahora puede sustituir el grupo de informes seleccionado (correspondiente a una de las etiquetas de la página) por otro grupo de informes. No hace falta que este nuevo grupo de informes esté vinculado a una etiqueta de la página. Si cambia el grupo de informes seleccionado en Configuración de Activity Map, el proceso de <span class="uicontrol">guardado</span> hará que todos los informes afectados de Analytics se actualicen. </p> <p> <p>Importante: Los grupos de informes virtuales solo son compatibles con el modo Estándar, no con el Activo. Si está en el modo Activo en un grupo de informes estándar pero selecciona un grupo de informes virtuales en este cuadro de diálogo, cuando haga clic en <span class="uicontrol">Aceptar</span> aquí aparecerá el modo Estándar. </p> </p> <p>Además, el control de calendario se reinicializará para adoptar el tipo de calendario que tenga el grupo de informes (gregoriano, minorista, personalizado...). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Idioma </td> 
