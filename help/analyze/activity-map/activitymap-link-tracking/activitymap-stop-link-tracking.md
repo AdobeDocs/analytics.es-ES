@@ -1,20 +1,20 @@
 ---
-description: Pasos para detener el seguimiento de vínculos en [!DNL Activity Map] o ClickMap heredado.
-seo-description: Pasos para detener el seguimiento de vínculos en [!DNL Activity Map] o ClickMap heredado.
+description: Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
+seo-description: Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
 seo-title: Detener el seguimiento de vínculos
 solution: Analytics
 title: Detener el seguimiento de vínculos
 topic: Activity Map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # Detener el seguimiento de vínculos
 
-Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
+Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,7 +25,7 @@ Steps for stopping link tracking in [!DNL Activity Map] or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!Activity Map DNL] </td> 
+   <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Elimine el siguiente contenido del archivo Appmeasurement.js: 
     <code>
      /*
