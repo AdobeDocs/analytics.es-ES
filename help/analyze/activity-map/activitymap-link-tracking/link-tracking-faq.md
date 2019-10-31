@@ -1,24 +1,26 @@
 ---
-description: Preguntas más frecuentes sobre el seguimiento de vínculos en [!DNL Activity Map].
-seo-description: Preguntas más frecuentes sobre el seguimiento de vínculos en [!DNL Activity Map].
+description: Preguntas frecuentes sobre el seguimiento de vínculos en Activity Map.
+seo-description: Preguntas frecuentes sobre el seguimiento de vínculos en Activity Map.
 seo-title: Preguntas frecuentes sobre el seguimiento de vínculos
 solution: Analytics
 title: Seguimiento de vínculos Preguntas más frecuentes
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # Preguntas frecuentes sobre el seguimiento de vínculos
 
-Frequently asked questions about link tracking in [!DNL Activity Map].
+Preguntas frecuentes sobre el seguimiento de vínculos en Activity Map.
 
-> [!CAUTION] Al activar [!DNL Activity Map] el seguimiento, **puede estar** **recopilando datos de información personal (PII).** Dichos datos se pueden utilizar por sí solos o junto con otra información para identificar a una persona concreta, ponerse en contacto con ella o localizarla, o bien para identificar a una persona en contexto.
+>[!CAUTION]
+>
+>**Al activar el seguimiento de Mapa de actividades,** puede recopilar datos de información personal (PII). Estos datos pueden utilizarse por sí mismos o con otra información para identificar, contactar o ubicar a una sola persona, o para identificar a una persona en contexto.
 
-Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
+A continuación se indican algunos casos conocidos en los que pueden recopilarse datos PII con el seguimiento de Activity Map:
 
 * `Mailto` vínculos. Un vínculo mailto es un tipo de vínculo HTML que activa el cliente de correo predeterminado en el equipo para enviar un mensaje de correo electrónico.
 * `User ID` vínculos que pueden aparecer en el encabezado o pie de página de un sitio web una vez que el usuario haya iniciado sesión.
@@ -29,7 +31,7 @@ Here are some known cases where PII data might be collected using [!DNL Activity
  <tbody> 
   <tr> 
    <td colname="col1"> <b>P: ¿Cuándo se produce el seguimiento de vínculos?</b> <p> </p> </td> 
-   <td colname="col2"> A: La identificación de vínculos y regiones de [!DNL Activity Map] se produce cuando los usuarios hacen clic en una página. </td> 
+   <td colname="col2"> R: La identificación de vínculos y regiones de Activity Map se lleva a cabo cuando los usuarios hacen clic en una página. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>P: ¿De qué elementos se realiza el seguimiento de forma predeterminada?</b> <p> </p> </td> 
@@ -40,20 +42,20 @@ Here are some known cases where PII data might be collected using [!DNL Activity
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">¿Se trata de una etiqueta INPUT o un botón SUBMIT con un valor o texto secundario? </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">¿Se trata de una etiqueta INPUT con el tipo IMAGE y una propiedad src? </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">¿Es un &lt;Button&gt;? </li> 
-    </ul> <p>Si la respuesta a alguna de estas preguntas es <b>Sí</b>, el elemento se trata como vínculo y se le realiza un seguimiento. </p> <p>Importante: AppMeasurement no considera las etiquetas Button con el atributo type="button" como vínculos. Considere la posibilidad de quitar el atributo "type='button'" de las etiquetas Button y agregar en su lugar el atributo role="button" o submit="button". </p> <p>Importante: Las etiquetas delimitadoras con un href que comienza con "#" se consideran una ubicación de destino interna por AppMeasurement, no un vínculo (ya que no abandona la página). De forma predeterminada, [!DNL Activity Map] no rastrea estas ubicaciones de destino internas. Rastrea únicamente los vínculos que conducen al usuario a una nueva página.</p></td> 
+    </ul> <p>Si la respuesta a alguna de estas preguntas es <b>Sí</b>, el elemento se trata como vínculo y se le realiza un seguimiento. </p> <p>Importante: AppMeasurement no considera las etiquetas Button con el atributo type="button" como vínculos. Considere la posibilidad de quitar el atributo "type='button'" de las etiquetas Button y agregar en su lugar el atributo role="button" o submit="button". </p> <p>Importante: Las etiquetas delimitadoras con un href que comienza con "#" se consideran una ubicación de destino interna por AppMeasurement, no un vínculo (ya que no abandona la página). De forma predeterminada, Activity Map no realiza el seguimiento de estas ubicaciones de destino internas. Rastrea únicamente los vínculos que conducen al usuario a una nueva página.</p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>P: ¿Cómo hace [!DNL Activity Map] para rastrear otros elementos HTML visuales?</b> </td> 
+   <td colname="col1"> <b>P: ¿Cómo realiza Activity Map el seguimiento de otros elementos HTML visuales?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Mediante la <code> s.tl() </code> función</b> <p>Si el clic se produjo mediante una invocación de s.tl, [!DNL Activity Map] también recibirá este evento de clic y determinará si se encontró una variable de cadena linkName. Durante la ejecución de s.tl, linkName se establecerá como el ID del vínculo [!DNL Activity Map]. El elemento donde se hizo clic y que originó la llamada de s.tl() se utilizará para determinar la región. Ejemplo: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Mediante la <code> s.tl() </code> función</b> <p>Si el clic se produjo a través de una invocación de s.tl, Activity Map también recibirá este evento de clic y determinará si se encontró la variable de cadena linkName. Durante la ejecución de s.tl, el linkName se definirá como ID del vínculo de Activity Map. El elemento donde se hizo clic y que originó la llamada de s.tl() se utilizará para determinar la región. Ejemplo: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
      <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>A través de la <code> s_objectID </code> variable</b> <p>Ejemplo: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
-       </code> </p> <p>Importante:  Tenga en cuenta que se requiere un punto y coma (;) final al usar s_objectID en [!DNL Activity Map]. </p> </li> 
+       </code> </p> <p>Importante: Tenga en cuenta que es obligatorio el uso de un punto y coma de cierre (;) al usar s_objectID en Activity Map. </p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
