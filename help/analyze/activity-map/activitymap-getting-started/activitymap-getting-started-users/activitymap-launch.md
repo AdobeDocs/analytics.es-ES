@@ -1,20 +1,20 @@
 ---
-description: Si tiene instalado el complemento de navegador correcto, puede iniciar [!DNL Activity Map] directamente desde su página web.
-seo-description: Si tiene instalado el complemento de navegador correcto, puede iniciar [!DNL Activity Map] directamente desde su página web.
-seo-title: Iniciar [!DNL Activity Map]
+description: Si el complemento del explorador adecuado está instalado, Activity Map se puede iniciar directamente desde la página web.
+seo-description: Si el complemento del explorador adecuado está instalado, Mapa de actividades se puede iniciar directamente desde la página web.
+seo-title: Inicio de Activity Map
 solution: Analytics
-title: Iniciar [!DNL Activity Map]
+title: Inicio de Activity Map
 topic: Activity Map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Launch [!DNL Activity Map]{#launch-activity-map}
+# Inicio de Activity Map{#launch-activity-map}
 
-Assuming that the correct browser plug-in is installed, you can launch [!DNL Activity Map] directly from your web page.
+Si el complemento del explorador adecuado está instalado, Activity Map se puede iniciar directamente desde la página web.
 
 1. Haga clic en el icono de Adobe Analytics que hay a la derecha de la barra de direcciones del explorador:\
    ![](assets/an_icon.png){width="90px"}
