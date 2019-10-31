@@ -7,7 +7,7 @@ title: Informe de vínculos
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 El informe de vínculos recoge los vínculos encontrados en la página actual. No informa acerca de todos los vínculos que se recopilaron para esa página.
 
-El informe Vínculos en la página ofrece una vista tabular de los vínculos. Algunas veces, puede interesarle ver los clics en vínculos (u otras métricas) clasificados en una sola vista. Esto permite comparar mejor un vínculo con otro. Cree el informe Vínculos en la página incluyendo una lista clasificada de todos los vínculos de la página (por ID de vínculo), la información de clic (número y porcentaje) y la región de la página. Click the Links in Page report button in the [!DNL Activity Map] toolbar.
+El informe Vínculos en la página ofrece una vista tabular de los vínculos. Algunas veces, puede interesarle ver los clics en vínculos (u otras métricas) clasificados en una sola vista. Esto permite comparar mejor un vínculo con otro. Cree el informe Vínculos en la página incluyendo una lista clasificada de todos los vínculos de la página (por ID de vínculo), la información de clic (número y porcentaje) y la región de la página. Haga clic en el botón del informe Vínculos en la página que hay en la barra de herramientas Activity Map.
 
-El informe **[!UICONTROL Vínculos en la página]se abre debajo de la ventana del explorador en el tablero .**[!DNL Activity Map]
+El informe **[!UICONTROL Vínculos en la página]se abre debajo de la ventana del explorador en el tablero Activity Map.**
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -63,7 +63,7 @@ En el modo Estándar, el informe “Vínculos en la página” muestra datos sob
 
 **Filtrar datos**
 
-Cuando quiera centrarse en un vínculo determinado, puede buscar un término relacionado en el campo **[!UICONTROL Filtrar datos].** Solo los vínculos que coincidan con la búsqueda tendrán superposiciones. Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
+Cuando quiera centrarse en un vínculo determinado, puede buscar un término relacionado en el campo **[!UICONTROL Filtrar datos].** Solo los vínculos que coincidan con la búsqueda tendrán superposiciones. Sin filtro, se mostrarán las superposiciones especificadas en la [Configuración de Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md).
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
