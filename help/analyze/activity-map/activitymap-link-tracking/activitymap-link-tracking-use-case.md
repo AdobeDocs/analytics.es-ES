@@ -7,7 +7,7 @@ title: Diferenciación entre varios vínculos que hacen referencia al mismo ID y
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Los vínculos se pueden diferenciar personalizando bien el ID del vínculo con la variable s_objectID, bien la región, o bien el archivo del módulo Activity Map AppMeasurement.
 
-As an example, let's say you have multiple "Buy" links that are identified by [!DNL Activity Map] under the same Link ID and Region:
+Como ejemplo, supongamos que tenemos varios vínculos “Buy” (comprar) identificados en Activity Map con el mismo ID y la misma región de vínculo:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -51,11 +51,11 @@ As an example, let's say you have multiple "Buy" links that are identified by [!
 
 ## Personalizar el ID del vínculo con s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Si crea una ID de objeto única para un vínculo o una ubicación de vínculo en una página, se puede mejorar el seguimiento de [!DNL Activity Map] o utilizar [!DNL Activity Map] para informar sobre un tipo o ubicación de vínculo, en lugar de la URL del vínculo. Haga clic [aquí](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) para obtener más información sobre la variable s_objectID.
+Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en una página, se puede mejorar el seguimiento de Activity Map, o bien utilizar Activity Map para informar sobre un tipo o una ubicación de vínculo en lugar de la URL del vínculo. Haga clic [aquí](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) para obtener más información sobre la variable s_objectID.
 
 >[!IMPORTANT]
 >
->Note that a trailing semicolon (;) is required when using s_objectID in [!DNL Activity Map].
+>Tenga en cuenta que se requiere un punto y coma (;) final al usar s_objectID en Activity Map.
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
