@@ -1,20 +1,20 @@
 ---
-description: Le permite aplicar un filtro de varios segmentos dentro de [!DNL Activity Map].
-seo-description: Le permite aplicar un filtro de varios segmentos dentro de [!DNL Activity Map].
+description: Permite aplicar un filtro de varios segmentos en Activity Map.
+seo-description: Permite aplicar un filtro de varios segmentos en Activity Map.
 seo-title: Segmentación de clientes
 solution: Analytics
 title: Segmentación de clientes
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # Segmentación de clientes
 
-Lets you apply a multiple-segment filter within [!DNL Activity Map].
+Permite aplicar un filtro de varios segmentos en Activity Map.
 
 > [!NOTE] El control Segmento solo está disponible en modo Estándar porque la plataforma Adobe Analytics no admite la segmentación de datos en tiempo real.
 
@@ -28,4 +28,4 @@ Cuando se selecciona más de un segmento, en la etiqueta de selección de segmen
 
 ![](assets/two_segments.png)
 
-The selected segments will be applied to all Analytics reports presented in [!DNL Activity Map], i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
+Los segmentos seleccionados se aplicarán a todos los informes de Analytics que se presenten en Activity Map, es decir, en las superposiciones y en los informes **[!UICONTROL Vínculos en la página]** y **Detalles de página[!UICONTROL .]**
