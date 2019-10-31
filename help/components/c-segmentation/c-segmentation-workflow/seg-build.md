@@ -52,12 +52,14 @@ Acceda al Generador de segmentos de una de las siguientes maneras:
 1. **** Etiquetas: [Etiquete el segmento](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) que esté creando seleccionando una lista de etiquetas existentes o creando una nueva etiqueta.
 1. **** Definiciones: Aquí es donde [genera y configura segmentos](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4), agrega reglas y anida y secuencia contenedores. Permite introducir una descripción del nuevo segmento seleccionando el contenedor y arrastrando y soltando las dimensiones, los segmentos o las métricas en la definición.
 1. **** Mostrar: (Selector de contenedor superior). Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). El contenedor de nivel superior predeterminado es el contenedor de visita individual.
-1. **** Opciones: Icono (engranaje)
+1. **[!UICONTROL Opciones:]** (Icono engranaje)
 
    * **[!UICONTROL + Agregar contenedor:]** Permite agregar un nuevo contenedor (debajo del contenedor de nivel superior) a la definición del segmento.
    * **[!UICONTROL + Agregar contenedor desde selección:]** Permite crear un nuevo contenedor a partir de los elementos que haya seleccionado (varios) en el campo Definiciones.
    * **[!UICONTROL Excluir:]** Permite definir el segmento excluyendo una o más dimensiones, segmentos o métricas.
+
    **[!UICONTROL Modelos de atribución:]** Para la segmentación de dimensiones. Los modelos de dimensión son especialmente útiles en la segmentación secuencial, como en aquellos que admiten visualizaciones de flujo:
+
    * **[!UICONTROL Repetir]** (predeterminado): Incluye instancias y valores persistentes para la dimensión.
    * **[!UICONTROL Instancia]**: Incluye instancias para la dimensión.
    * **[!UICONTROL Instancia]** no repetitiva: Incluye instancias únicas (no repetitivas) para la dimensión.
