@@ -8,7 +8,7 @@ title: AppMeasurement para JavaScript
 topic: Desarrollador e implementación
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -284,7 +284,7 @@ Fecha de versión: **19 de mayo de 2016**
 
 Fecha de versión: **21 de abril de 2016**
 
-* El módulo [!DNL Activity Map] de [!DNL AppMeasurement] se ha integrado en el módulo estándar de [!DNL AppMeasurement], por lo que solo deberá hacer referencia a un archivo [!DNL .js]. Además, el seguimiento de [!DNL Activity Map] está habilitado de forma predeterminada. (AN-112689)
+* The [!DNL AppMeasurement] Activity Map module has been integrated in the [!DNL AppMeasurement] standard module, so that you only have to reference one [!DNL .js] file. Además, el seguimiento de Activity Map está habilitado de forma predeterminada. (AN-112689)
 
 * Se ha solucionado un problema de truncamiento que sucedía al enviar la orden de variables de cadena de consulta en [!DNL AppMeasurement], por lo que *`pageURLRest`* se coloca al final. (AN-114647)
 
