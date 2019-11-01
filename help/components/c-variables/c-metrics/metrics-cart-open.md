@@ -5,9 +5,9 @@ seo-title: Apertura de la compra
 solution: Analytics
 title: Apertura de la compra
 topic: Métricas
-uuid: 3 aac 7908-979 e -48 db-a 6 d 4-580863657 e 3 c
+uuid: 3aac7908-979e-48db-a6d4-580863657e3c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -20,9 +20,9 @@ Número de veces que un cliente abrió un carro de compras agregando el primer a
 |---|---|
 | Tráfico | N/A |
 | Conversión | Instancia del evento de [!UICONTROL carro de compras] que se está configurando. Sucede cuando se crea un nuevo carro de compras. |
-| Ad Hoc Analysis | Instancia del evento de [!UICONTROL carro de compras] que se está configurando. Sucede cuando se crea un nuevo carro de compras. |
+| Ad Hoc Analysis  | Instancia del evento de [!UICONTROL carro de compras] que se está configurando. Sucede cuando se crea un nuevo carro de compras. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Informe de carro de compras](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)
 
