@@ -4,12 +4,14 @@ seo-title: Lista completa de documentación técnica de Adobe Analytics y guías
 description: Guías y recursos para usuarios de Analytics
 seo-description: Lista completa de documentos técnicos de Adobe Analytics, notas de la versión y guías de usuario de autoayuda.
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 85d80a186d7f833065a2ebebad53ca158c788100
 
 ---
 
 
 # Documentación de Adobe Analytics
+
+Bienvenido a la página de inicio del producto y la documentación técnica de Adobe Analytics. Aquí puede encontrar información de autoayuda y asistencia para herramientas de informes como [!UICONTROL Analysis Workspace], Creador de [!UICONTROL informes], API de informes, Área de trabajo [!UICONTROL de datos]y Mapa de [!UICONTROL actividades]. También puede acceder a la documentación de administración, implementación y todas las funciones de productos y usuarios que admite Adobe Analytics.
 
 [![Herramientas](assets/analyze_50px.png)](/help/analyze/home.md) [Guía de herramientas de Analytics](/help/analyze/home.md): Incluye todas las herramientas de análisis que se pueden utilizar en Adobe Analytics. En primer lugar, proporciona documentación detallada sobre Analysis Workspace, la principal herramienta de análisis y visualización de Analytics.
 
