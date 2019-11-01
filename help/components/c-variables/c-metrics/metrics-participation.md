@@ -7,7 +7,7 @@ title: Participación
 topic: Métricas
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -43,7 +43,7 @@ Al mostrar los ingresos en el Informe de términos de búsqueda internos, verá 
 
    La participación es similar a la asignación lineal, con la excepción de que se otorga crédito total a todos los valores. Si usa Ingresos (participación) como la métrica, se ignorará la asignación. Ingresos (participación) en este ejemplo asignaría 120 € a los dos términos de búsqueda.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Cálculos de métricas](/help/components/c-variables/c-metrics/metrics-calculations.md)
 
