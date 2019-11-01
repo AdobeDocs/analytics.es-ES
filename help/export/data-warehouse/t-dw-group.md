@@ -7,7 +7,7 @@ title: Añadir un grupo de usuarios del Data Warehouse
 topic: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -37,7 +37,7 @@ Instrucciones sobre cómo los administradores pueden activar el acceso a los inf
    >
    >En caso de conflicto de permisos (como un usuario asignado a dos grupos, uno de los cuales niega el acceso a una función y el otro concede el mismo acceso), el sistema restringirá el permiso. Puede que sea necesario quitar de esos grupos a los usuarios pertenecientes a grupos que denieguen el acceso al Data Warehouse.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Grupos](/help/admin/user-management2/c-user-groups/groups.md)
 
