@@ -7,7 +7,7 @@ title: Vistas de rutas
 topic: Métricas
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -24,7 +24,7 @@ El término [!UICONTROL vista de ruta] se utiliza para indicar la cantidad de ve
 | Conversión | N/A |
 | Ad Hoc Analysis | No es la duración de una visita completa. Normalmente es una colección de rutas, cada una de las cuales tiene 3 o 4 páginas de longitud. Muestra la frecuencia de visitas en esa ruta en particular. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Informes de rutas](/help/components/c-variables/dimensionslist/reports-paths.md)
 
