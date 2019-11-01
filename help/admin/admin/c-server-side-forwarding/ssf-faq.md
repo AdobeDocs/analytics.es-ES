@@ -5,7 +5,7 @@ seo-title: Preguntas frecuentes acerca del reenvío del lado del servidor
 title: Preguntas frecuentes acerca del reenvío del lado del servidor
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -33,7 +33,7 @@ Preguntas más frecuentes acerca de características, funcionalidades y problema
 | P: ¿Qué sucede si tenemos dos organizaciones de Experience Cloud (o instancias de AAM) y queremos compartir datos entre ambas organizaciones de Experience Cloud? ¿Puedo reenviar un servidor a una sola visita de Analytics a varias organizaciones de Experience Cloud? | No. Si necesita compartir datos recopilados en una organización de Experience Cloud con otra organización de Experience Cloud, le recomendamos que envíe las audiencias aplicables de una instancia de Audience Manager a otra mediante el mercado de audiencias. |
 | P: ¿Resultará el reenvío del lado del servidor en alguna facturación adicional en Audience Manager o Analytics? | En Analytics no se producirá ninguna facturación adicional. En Audience Manager, las visitas reenviadas se tratan como cualquier otra visita y se facturan.  Por eso es tan importante no tener habilitados al mismo tiempo DIL y el reenvío del lado del servidor, lo que podría provocar dobles facturaciones, además de la duplicación de datos. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Reenvío del lado del servidor](/help/admin/admin/c-server-side-forwarding/ssf.md)
 
