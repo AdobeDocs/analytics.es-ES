@@ -5,7 +5,7 @@ seo-title: Configuración de columna
 title: Configuración de columna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ El formato condicional aplica formato que puede definir a los límites superior,
 | Personalizado | Puede asignar de forma manual los valores de los campos Superior, Punto medio y Límite inferior para el formato condicional. Esto le proporciona la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
 | Vista previa de celdas de tabla | Muestra una vista previa del aspecto de cada una de las celdas con las opciones de formato seleccionadas actualmente aplicadas. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Administración de fuentes de datos](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
