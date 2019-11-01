@@ -5,7 +5,7 @@ seo-title: Configurar informes ya creados
 title: Configurar informes ya creados
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -164,7 +164,7 @@ Ciertos informes permiten desglosar los datos de la tabla para poder ver los dat
    >
    >Para obtener más flexibilidad, utilice el Generador [de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tablas para configurar un informe con desgloses. Cuando abra un informe con desgloses guardado o programado, es posible que tenga que hacer clic en **[!UICONTROL Reemplazar tabla]para refrescar un desglose de los datos del informe dinámico.** Por ejemplo, es posible que tenga que actualizar un informe programado que contenga desgloses de artículos de línea que pueden cambiar en función del intervalo de fecha o la actividad del visitante.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Generador de tablas](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -249,7 +249,7 @@ t_column_width.xml
 
    Esta opción queda desactivada si la opción [!UICONTROL Ajustar a pantalla] está activada. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Generador de tablas](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
