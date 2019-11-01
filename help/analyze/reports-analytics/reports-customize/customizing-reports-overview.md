@@ -7,7 +7,7 @@ title: Resumen de los informes personalizados
 topic: Reports and Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -36,7 +36,7 @@ Solo los administradores pueden crear un informe personalizado. Cuando crea un i
 
    Asegúrese de que no haya repetido el nombre de otro informe ya existente.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Personalización de menús](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
