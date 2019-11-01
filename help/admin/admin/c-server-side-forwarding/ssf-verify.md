@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Comprobar la implementación del reenvío del lado del servidor
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -27,7 +27,7 @@ Para comprobar el estado del reenvío del lado del servidor:
 >
 >If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. Asegúrese de que el servicio de identidad está correctamente implementado, ha implementado el módulo de medición de aplicaciones, que el grupo de informes aplicable se ha asignado a la organización de IMS correcta y que el reenvío del lado del servidor se ha habilitado en la consola de administración de Analytics.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Charles Web Debugger](https://www.charlesproxy.com/)
 
