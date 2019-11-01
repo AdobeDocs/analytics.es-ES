@@ -7,7 +7,7 @@ title: Crear un grupo de informes
 topic: Herramientas de administración
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -28,7 +28,7 @@ Pasos que describen cómo se crea un grupo de informes y cómo se copia la confi
 1. Complete los campos descritos en [Nuevo grupo de informes.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Haga clic en **[!UICONTROL Crear grupo de informes]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Creación de grupos de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-create.md)
 
