@@ -8,7 +8,7 @@ title: Creación de reglas de procesamiento para los canales de mercadotecnia
 topic: Reports and Analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ Este procedimiento emplea una regla de correo electrónico como ejemplo. En este
 1. Para priorizar las reglas, arrástrelas a la posición que corresponda.
 1. Haga clic en **[!UICONTROL Guardar.]**
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Preguntas frecuentes y ejemplos](/help/components/c-marketing-channels/c-faq.md)
 
