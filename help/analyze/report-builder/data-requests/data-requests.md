@@ -5,7 +5,7 @@ seo-title: 'Solicitudes de datos: Paso 1 del Asistente para solicitudes'
 title: 'Solicitudes de datos: Paso 1 del Asistente para solicitudes'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -32,6 +32,6 @@ En el formulario Asistente para solicitudes: Paso 1, se selecciona el grupo y el
 
 1. **Aplicar granularidad**: especifica el nivel de detalle basado en el tiempo que se incluye en el informe. Consulte [Granularidad](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Crear una solicitud de datos](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)
