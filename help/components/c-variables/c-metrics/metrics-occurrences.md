@@ -7,7 +7,7 @@ title: Ocurrencias
 topic: Métricas
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -30,7 +30,7 @@ Se muestran dos métricas que parecen similares:
 | Más instancias que ocurrencias | No es posible en los informes porque todas las instancias se registran también como ocurrencias. |
 | Instancias igual a ocurrencias | Es lo más común en las variables de tráfico ya que por naturaleza no persisten más allá de la solicitud de imagen. |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Instancias](/help/components/c-variables/c-metrics/metrics-instance.md)
 
