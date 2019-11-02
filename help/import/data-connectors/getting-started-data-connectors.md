@@ -4,7 +4,7 @@ seo-description: Inicie sesión en los conectores de datos; importar datos de se
 seo-title: Conectores de datos de Analytics
 title: Introducción a los conectores de datos de Analytics
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
 
 ---
 
@@ -79,7 +79,7 @@ Para implementar correctamente los segmentos de remarketing se deben cumplir las
    * Compras: `purchase` evento
    * Product Views: `prodView` event
 
-**** Nota: Si el producto se define sin un evento asociado, el evento prodView se activa automáticamente.
+> [!NOTE] Si el producto se define sin un evento asociado, el evento prodView se activa automáticamente.
 Si no se cumplen los requisitos anteriores, no se informa correctamente de los segmentos de remarketing correspondientes.
 
 [!UICONTROL Abandonos del carro de compras]: se activa después de que el usuario añada un producto al carro de compras:
