@@ -8,7 +8,7 @@ title: Procesamiento completo
 topic: Desarrollador e implementación
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
 
 ---
 
@@ -26,7 +26,7 @@ Los datos de fuentes de datos de procesamiento completo se procesan como si se r
 
 Los datos de fuentes de datos de procesamiento completo se procesan con perfiles de visitante independientes, de modo que, aunque el ID de visitante indicado en los datos cargados coincida con los datos recopilados mediante JavaScript u otra biblioteca de AppMeasurement, los perfiles de visitante no están conectados desde un punto de vista de asignación de eVar.
 
-Pongamos como ejemplo que un usuario que tiene el ID de visitante "usuario@ejemplo.com" visita su sitio web desde una campaña de marketing llamada "Rebajas de primavera", que se almacena en la variable de campaña. Si más tarde se carga una transacción con el mismo ID de visitante, los ingresos y los eventos de éxito cargados mediante fuentes de datos de procesamiento completo no se atribuyen a la campaña "Rebajas de primavera".
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. Si más tarde se carga una transacción con el mismo ID de visitante, los ingresos y los eventos de éxito cargados mediante fuentes de datos de procesamiento completo no se atribuyen a la campaña "Rebajas de primavera".
 
 ## Referencia sobre columnas {#section_92BAE76639E3404E97276B1BE0581078}
 
