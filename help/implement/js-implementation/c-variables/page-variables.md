@@ -9,7 +9,7 @@ title: Variables de página
 topic: Desarrollador e implementación
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8a96dc0587125e1b72e3146eb2f0923cecd808fb
 
 ---
 
@@ -2055,13 +2055,11 @@ El Servicio de atención al cliente debe habilitar un grupo de informes para que
 **Problemas, preguntas y consejos** {#section_EFDE8F67D13C4775A461E0B00D30AFD7}
 
 * Las marcas de tiempo se usan principalmente para realizar el seguimiento de datos sin conexión en plataformas móviles. Las marcas de tiempo personalizadas suelen estar deshabilitadas a menos que estén recopilando datos de aplicaciones web y sin conexión en el mismo grupo de informes.
-* Los datos se marcan con la hora si los datos sin conexión están habilitados en el SDK móvil (configuración predeterminada) o en cualquier momento en el que un grupo de informes se configure para aceptar datos con marca de hora. Puede que los datos recogidos sin conexión en dispositivos móviles se envíen horas o semanas después de la fecha en la que se produjeron. Puede que estas visitas se mantengan en cola en la plataforma Analytics durante más minutos u horas que las visitas sin marca de tiempo:
+* Los datos se marcan con la hora cuando los datos sin conexión están activados en el SDK móvil (configuración predeterminada) o cuando se configura un grupo de informes para aceptar datos con marca de hora. Los datos recopilados sin conexión pueden enviarse horas o semanas después de la fecha en que se produjo el evento originalmente. Puede que estas visitas se mantengan en cola en la plataforma Analytics durante más minutos u horas que las visitas sin marca de tiempo:
 
-   * Para los datos con marca de hora de envío muy cerca de la hora actual, el retraso probable es de 10-15 minutos.
-   * Para los datos con marca de hora de envío de ayer, el retraso probable es de unas dos horas.
-   * Para los datos con marca de hora de envío anterior a ayer, cada día añade aproximadamente una hora de retraso, hasta los 15 días, cuando el retraso se detiene.
-
-* Los datos de sesión con marca de tiempo habilitada se conservan por un período máximo de 92 días.
+   * Para los datos con marca de hora enviados en tiempo muy cercano al actual, el retraso probable es de 10 a 15 minutos.
+   * Para los datos con marca de hora enviados desde ayer, el retraso probable es de aproximadamente 2 horas.
+   * Para los datos con marca de hora que se envían con una antigüedad mayor que ayer, cada día agrega unas 2 horas de retraso, hasta un máximo de 48 horas.
 
 ## trackingServer {#concept_45EE91B1A99B4A37AFAEF1C0A8A6B02F}
 
