@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ Este complemento permite bloquear automáticamente ese tráfico durante el resto
 
 ## Cómo funciona el complemento Hit Governor {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-El complemento incrementa un valor de cookie cada vez que se envía una solicitud de imagen a sus servidores de seguimiento, y realiza un seguimiento de este comportamiento a lo largo de un periodo de tiempo consecutivo. El periodo de tiempo predeterminado es de un minuto, aunque es posible ignorar este valor (consulte [Implementación](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) más adelante). Si el número total de visitas durante ese periodo excede el límite predeterminado (60), se envía una última solicitud de imagen de vínculo personalizado para establecer la variable de datos de contexto *`exceptionFlag`*. También es posible ignorar el límite de visitas predeterminado.
+El complemento incrementa un valor de cookie cada vez que se envía una solicitud de imagen a sus servidores de seguimiento, y realiza un seguimiento de este comportamiento a lo largo de un periodo de tiempo consecutivo. El periodo de tiempo predeterminado es de un minuto, aunque es posible ignorar este valor (consulte [Implementación](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2) más adelante). Si el número total de visitas durante ese periodo excede el límite predeterminado (60), se envía una última solicitud de imagen de vínculo personalizado para establecer la variable de datos de contexto *`exceptionFlag`*. También es posible ignorar el límite de visitas predeterminado.
 
 Si lo desea, es posible impedir que a partir de ese punto se recopile tráfico para ese visitante específico durante un periodo predeterminado de sesenta días. El bloqueo del tráfico requiere una línea de código adicional en su función doPlugins, como se describe más adelante. También es posible ajustar el periodo de tiempo. La lógica concede tiempo para incluir la dirección IP del visitante, el agente de usuario o el ID de visitante de [!DNL Experience Cloud] en la lógica apropiada de excepción permanente, o para restablecer el periodo de espera una vez transcurridos los sesenta días. Si el complemento identifica este tráfico como fraudulento pasados sesenta días, el tráfico vuelve a marcarse como excepción y no se recopilará durante sesenta días más.
 
@@ -55,7 +55,7 @@ Para implementar el complemento hitGovernor:
    }); 
    ```
 
-   Bajo la sección doPlugins del archivo de AppMeasurement, incluya el código del complemento contenido en el [código fuente del complemento](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0), a continuación.
+   Bajo la sección doPlugins del archivo de AppMeasurement, incluya el código del complemento contenido en el [código fuente del complemento](/help/implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0), a continuación.
 
    Es posible omitir el umbral límite de visitas, el umbral de tiempo de visitas y los plazos de exclusión de tráfico estableciendo las siguientes variables, fuera del complemento mismo y preferiblemente con sus demás variables de configuración:
 
