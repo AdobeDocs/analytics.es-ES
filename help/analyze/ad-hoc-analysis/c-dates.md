@@ -5,7 +5,7 @@ seo-title: Fechas e intervalos de fechas
 title: Fechas e intervalos de fechas
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,8 +40,8 @@ c_legacy_data.xml
 
 **Para acceder a fracciones de datos del historial**
 
-1. [Cree o abra un proyecto.](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. Abra el [calendario](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)y seleccione **[!UICONTROL Trimestre]** o **[!UICONTROL Año]**.
+1. [Cree o abra un proyecto.](/help/analyze/ad-hoc-analysis/c-getting-started.md)
+1. Abra el [calendario](/help/analyze/ad-hoc-analysis/c-dates.md)y seleccione **[!UICONTROL Trimestre]** o **[!UICONTROL Año]**.
 
 > [!NOTE] Las fracciones de fecha históricas están dentro de las restricciones de trimestre y año. No se pueden ver datos que sobrepasen los límites entre las fracciones preexistentes y la nueva plataforma de procesamiento. Intervalos de fechas que abarcan ambos resultados en un error. Asimismo, solo se aplican los intervalos de fecha al calendario gregoriano, no al calendario personalizado.
 
