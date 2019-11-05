@@ -8,7 +8,7 @@ title: Información general sobre la implementación de DTM
 topic: Desarrollador e implementación
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,11 +25,11 @@ Para obtener un resumen detallado de los pasos de implementación de Dynamic Tag
 
 Esta guía le muestra los siguientes pasos para la implementación de Analytics mediante DTM:
 
-1. [Crear una propiedad web](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
-1. [Configurar las opciones de alojamiento](../../implement/c-implement-with-dtm/t-configure-hosting.md#task_EAD99BB391F544C0BB197D0B3D03EBAC).
-1. [Agregar código de Encabezado y Pie de página a cada una de las páginas administradas](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5).
-1. [Adición de la herramienta Adobe Analytics](../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
-1. Cree [elementos de datos](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2), [reglas y condiciones](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB) y [acciones](../../implement/c-implement-with-dtm/c-rules/t-rules-actions.md#task_94DFE0D8B53A43E2892851BABE381121).
+1. [Crear una propiedad web](/help/implement/c-implement-with-dtm/t-create-web-property.md).
+1. [Configurar las opciones de alojamiento](/help/implement/c-implement-with-dtm/t-configure-hosting.md).
+1. [Agregar código de Encabezado y Pie de página a cada una de las páginas administradas](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md).
+1. [Adición de la herramienta Adobe Analytics](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
+1. Cree [elementos de datos](/help/implement/c-implement-with-dtm/t-data-element.md), [reglas y condiciones](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md) y [acciones](/help/implement/c-implement-with-dtm/c-rules/t-rules-actions.md).
 
 1. Herramientas de publicación y reglas para el servidor de producción.
 
