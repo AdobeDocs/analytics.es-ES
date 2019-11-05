@@ -5,7 +5,7 @@ seo-title: Preguntas frecuentes del Conversor de proyectos
 title: Preguntas frecuentes del Conversor de proyectos
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
 
 ---
 
@@ -14,8 +14,8 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## Preguntas frecuentes del Conversor de proyectos {#topic_8231595303AD403E9322645A63632D57}
 
-* [Problemas conocidos de conversión](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
-* [Preguntas más frecuentes sobre conversión](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
+* [Problemas conocidos de conversión](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
+* [Preguntas más frecuentes sobre conversión](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
 ## Problemas conocidos de conversión {#section_39C922A58B2E49C9877B363042801361}
 
@@ -52,9 +52,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>R: Recuerde que los gráficos y diagramas se denominan “visualizaciones” en Workspace. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>Configuración</b>: los ajustes de visualización “Cantidad de elementos” o “Cantidad de barras” no son compatibles con Workspace. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Gráfico circular</b>: exportado como visualización de <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/donut.html" format="html" scope="external">Donut</a>. Esta visualización en Workspace está limitada a 19 secciones. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Gráfico de burbujas</b>: exportado como visualización de<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/scatterplot.html" format="html" scope="external"> Diagrama de puntos</a>. De forma predeterminada, el diagrama de puntos dibuja la primera métrica en el eje x y la segunda en el eje y. Si solo hay una métrica, el gráfico de burbujas se convertirá en visualizaciones de Línea. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histograma</b>: admite una lógica de bloques diferente en Workspace frente a Ad Hoc Analysis. Así, se convierte en una visualización de <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/bar.html" format="html" scope="external">barras</a>. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Gráfico circular</b>: exportado como visualización de <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/donut.html"  >Donut</a>. Esta visualización en Workspace está limitada a 19 secciones. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Gráfico de burbujas</b>: exportado como visualización de<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/scatterplot.html"  > Diagrama de puntos</a>. De forma predeterminada, el diagrama de puntos dibuja la primera métrica en el eje x y la segunda en el eje y. Si solo hay una métrica, el gráfico de burbujas se convertirá en visualizaciones de Línea. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histograma</b>: admite una lógica de bloques diferente en Workspace frente a Ad Hoc Analysis. Así, se convierte en una visualización de <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/bar.html"  >barras</a>. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Diagrama de puntos</b>: en proyectos exportados en Analysis Workspace, el eje y se establece como primera columna, el eje x como segunda y el diámetro como tercera. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Tablas de visitas en el orden previsto</b>: para mostrar las tablas de abandono o continuación, haga clic con el botón derecho en el punto de comprobación y seleccione una opción de desglose. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Intervalos de fechas de nivel de informe de visitas en el orden previsto</b>: no se han aplicado los intervalos de fechas de informe personalizado a las visualizaciones de visitas en el orden previsto. </li> 
@@ -70,7 +70,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Los segmentos del nivel de espacio de trabajo de Ad Hoc Analysis se aplican al nivel de proyecto/espacio de trabajo en Workspace. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Los segmentos del nivel de informe de Ad Hoc Analysis se aplican al nivel de columna de tabla en Workspace. </li> 
      <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Los segmentos de tabla de Ad Hoc Analysis se aplican al nivel de columna en Workspace. </li> 
-    </ul> <p>Puede editar segmentos en el <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="https" scope="external">Generador de segmentos</a>. </p> </td> 
+    </ul> <p>Puede editar segmentos en el <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >Generador de segmentos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Cómo se convierten los intervalos de fechas?</b> </p> </td> 
@@ -88,7 +88,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_010572F793F54680ABE64117DAB7E800">Las métricas calculadas son internas en el proyecto exportado (no son públicas). Puede elegir hacerlas públicas haciendo clic con el botón derecho en la métrica y haciendo clic en <span class="uicontrol">Hacer público</span>. <p><img placement="inline"  src="assets/calc_metric_internal.png" id="image_EA19BA55B161499CBDB9275A5C94BA90" width="200px" /> </p> </li> 
      <li id="li_930546EC8FEB432C8810FAF93556FC9A">Todos los tipos de métricas calculadas son compatibles con la exportación. </li> 
      <li id="li_DFF7C6F8BB2344928D49194DA0F6EC38"><b>Tipos de asignación</b>: aunque Analysis Workspace no muestra el tipo de asignación de una métrica calculada de forma explícita, la exportación crea y ajusta el tipo de asignación que estaba presente en Ad Hoc Analysis. </li> 
-    </ul> <p>Puede editar el tipo de asignación en el <a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/" format="https" scope="external">Creador de métricas calculadas</a> haciendo clic en el icono de edición (lápiz). </p> </td> 
+    </ul> <p>Puede editar el tipo de asignación en el <a href="https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/"  >Creador de métricas calculadas</a> haciendo clic en el icono de edición (lápiz). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Cómo se aplica la configuración de datos global de Ad Hoc a los proyectos convertidos?</b> </p> </td> 
@@ -104,7 +104,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Hay alguna diferencia en los nombres entre dos herramientas?</b> </p> </td> 
-   <td colname="col2"> <p>R: Sí. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html" format="html" scope="external">Comparación de terminología clave</a> en la documentación de Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>R: Sí. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  >Comparación de terminología clave</a> en la documentación de Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
