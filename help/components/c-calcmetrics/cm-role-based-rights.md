@@ -5,7 +5,7 @@ seo-title: Derechos basados en roles de métricas calculadas
 title: Derechos basados en roles de métricas calculadas
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ Los derechos de las métricas calculadas difieren entre los usuarios a nivel de 
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Usuarios de nivel de administrador</b> </td> 
-   <td colname="col02"> Los administradores pueden crear métricas calculadas y <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">grupos</a> para limitar los derechos de los usuarios en la creación de métricas calculadas. </td> 
+   <td colname="col02"> Los administradores pueden crear métricas calculadas y <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >grupos</a> para limitar los derechos de los usuarios en la creación de métricas calculadas. </td> 
    <td colname="col2"> Pueden compartir con toda la empresa, con grupos de usuarios y con usuarios individuales. </td> 
    <td colname="col3"> <span class="keyword"> [!Informes y análisis UICONTROL] </span>: Puede ver, editar, eliminar, etc. sus propias métricas calculadas y las de otros usuarios. <p> <span class="keyword"> Ad Hoc Analysis</span> y <span class="keyword">Report Builder</span>: pueden ver, editar, eliminar, etc. sus propias métricas calculadas y las que se han compartido con ellos. </p> </td> 
    <td colname="col4"> Pueden aprobar métricas calculadas como canónicas. </td> 
