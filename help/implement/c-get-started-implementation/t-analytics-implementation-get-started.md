@@ -9,7 +9,7 @@ title: Modo de implementación simplificado
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,11 +67,11 @@ Este procedimiento le permite:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Capa de datos </p> </td> 
-       <td colname="col2"> <p>(Recomendado) Una matriz de JavaScript utilizada para almacenar información. Si aplica una configuración automática mediante Dynamic Tag Management, utilizará una capa de datos. </p> <p>Si desea consultar un blog sobre capas de datos, visite <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external">Capas de datos: de palabra de moda a práctica recomendada</a>. </p> </td> 
+       <td colname="col2"> <p>(Recomendado) Una matriz de JavaScript utilizada para almacenar información. Si aplica una configuración automática mediante Dynamic Tag Management, utilizará una capa de datos. </p> <p>Si desea consultar un blog sobre capas de datos, visite <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/">Capas de datos: de palabra de moda a práctica recomendada</a>. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Repositorio de datos (grupo de informes) </p> </td> 
-       <td colname="col2"> <p> Un <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">grupo de informes</a> es un conjunto de datos discretos que por lo general corresponden a una sola propiedad (sitio o aplicación) o marca. Cada grupo de informes tiene su propio conjunto de informes y métricas. </p> </td> 
+       <td colname="col2"> <p> Un <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html">grupo de informes</a> es un conjunto de datos discretos que por lo general corresponden a una sola propiedad (sitio o aplicación) o marca. Cada grupo de informes tiene su propio conjunto de informes y métricas. </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>Zona horaria </p> </td> 
@@ -108,7 +108,7 @@ Este procedimiento le permite:
       </tr> 
       <tr> 
        <td colname="col1"> <p>Descargar </p> </td> 
-       <td colname="col2"> <p> Descarga el archivo de instalación, llamado <span class="filepath">INSTALL-ME &lt;nombre del grupo de informes&gt;.js</span>. Esta opción es adecuada para usuarios con experiencia que comprenden el proceso de <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">implementación de JavaScript</a>. </p> <p> <p>Importante: La descarga del código no conlleva la implementación de <span class="keyword">Analytics</span>. Se trata de una implementación manual en las páginas del sitio, o bien, a través los servicios de consultoría de Adobe. </p> </p> </td> 
+       <td colname="col2"> <p> Descarga el archivo de instalación, llamado <span class="filepath">INSTALL-ME &lt;nombre del grupo de informes&gt;.js</span>. Esta opción es adecuada para usuarios con experiencia que comprenden el proceso de <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html">implementación de JavaScript</a>. </p> <p> <p>Importante: La descarga del código no conlleva la implementación de <span class="keyword">Analytics</span>. Se trata de una implementación manual en las páginas del sitio, o bien, a través los servicios de consultoría de Adobe. </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
