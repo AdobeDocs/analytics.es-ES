@@ -5,7 +5,7 @@ seo-title: Configuración de Deshacer y Rehacer
 title: Configuración de Deshacer y Rehacer
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * Puede deshacer y rehacer los cambios realizados en el conjunto de informes.
 * Se muestra un mensaje deshacer/rehacer cerca del nombre del proyecto para indicar cuándo se está deshaciendo o rehaciendo una acción.
-* Puede utilizar estas [teclas de acceso directo](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* Puede utilizar estas [teclas de acceso directo](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
    * CTRL(CMD)+Z para deshacer
    * CTRL(CMD)+MAYÚS+Z para rehacer
