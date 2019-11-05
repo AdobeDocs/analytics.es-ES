@@ -8,7 +8,7 @@ title: Paneles e informes breves
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -58,7 +58,7 @@ Este tablero proporciona información general sobre las métricas clave relacion
 
 Utilice el [!UICONTROL Administrador de tableros] para editar y administrar tableros, y para activar en ellos DirectAccess.
 
-Consulte [Administración de tableros](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+Consulte [Administración de tableros](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
 
 ## Crear un tablero {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -84,10 +84,10 @@ Antes de añadir un informe (como informe breve) a un tablero, defina el diseño
 
 1. Añada el contenido disponible al tablero, arrastrando artículos al lienzo de informes breves.
 
-   Consulte [Creación de un informe breve](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) y [Edición de la configuración](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)del tablero.
+   Consulte [Creación de un informe breve](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) y [Edición de la configuración](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)del tablero.
 1. Haga clic en **[!UICONTROL Guardar.]**
 
-   Guardar un tablero lo convierte en disponible en el menú **[!UICONTROL Tablero].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Consulte [Administración de tableros](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   Guardar un tablero lo convierte en disponible en el menú **[!UICONTROL Tablero].** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Consulte [Administración de tableros](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
 
 1. (Opcional) Para establecer el tablero como página de aterrizaje, haga clic en **Más opciones** &gt; **[!UICONTROL Establecer como página de aterrizaje]**.
 
