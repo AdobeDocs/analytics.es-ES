@@ -5,7 +5,7 @@ seo-title: Preguntas frecuentes
 title: Preguntas frecuentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,43 +14,43 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 These changes to the way calculated metrics work in [!DNL Analytics] may impact you.
 
-[¿Cómo puedo acceder al Creador de métricas calculadas?](../../components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
+[¿Cómo puedo acceder al Creador de métricas calculadas?](/help/components/c-calcmetrics/cm-transition.md#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1)
 
-[¿Cómo puedo acceder al Administrador de métricas calculadas?](../../components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
+[¿Cómo puedo acceder al Administrador de métricas calculadas?](/help/components/c-calcmetrics/cm-transition.md#section_DD0BD13E9EC940268EBE8BC88241A152)
 
-[¿Por qué veo tantas métricas calculadas con el mismo nombre?](../../components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
+[¿Por qué veo tantas métricas calculadas con el mismo nombre?](/help/components/c-calcmetrics/cm-transition.md#section_E15C5B6CCC58498CAEC3FBDA8988F0A1)
 
-[¿Qué ha sucedido con mis Métricas calculadas globales?](../../components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
+[¿Qué ha sucedido con mis Métricas calculadas globales?](/help/components/c-calcmetrics/cm-transition.md#section_7351D4C7361F4ABAA1B43F8E89AAD211)
 
-[¿Qué les ha sucedido a las Métricas calculadas globales que se compartieron entre Empresas de inicio de sesión?](../../components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
+[¿Qué les ha sucedido a las Métricas calculadas globales que se compartieron entre Empresas de inicio de sesión?](/help/components/c-calcmetrics/cm-transition.md#section_59E5CD948ED643AE9AD3D2E4277647F8)
 
-[¿Qué les ha sucedido a las Métricas calculadas con una clasificación de Numérico o Numérico2?](../../components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
+[¿Qué les ha sucedido a las Métricas calculadas con una clasificación de Numérico o Numérico2?](/help/components/c-calcmetrics/cm-transition.md#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B)
 
-[¿Qué les ha sucedido a las Métricas permanentes?](../../components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
+[¿Qué les ha sucedido a las Métricas permanentes?](/help/components/c-calcmetrics/cm-transition.md#section_AEDB02EF24584DAD8731BED9DDCE4F48)
 
-[¿Qué pasa si necesito conocer Métricas calculadas en base a métricas de visitante únicas diarias/semanales/mensuales/trimestrales/anuales?](../../components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
+[¿Qué pasa si necesito conocer Métricas calculadas en base a métricas de visitante únicas diarias/semanales/mensuales/trimestrales/anuales?](/help/components/c-calcmetrics/cm-transition.md#section_E9A77EBB41CE4881B196CC1C282B2DF3)
 
-[¿Qué sucede con las Métricas calculadas creadas o administradas con los antiguos métodos de API del grupo de informes?](../../components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
+[¿Qué sucede con las Métricas calculadas creadas o administradas con los antiguos métodos de API del grupo de informes?](/help/components/c-calcmetrics/cm-transition.md#section_13ED1BAD02634674BDAEB479B060A4B6)
 
-[¿Los datos actuales admiten todo tipo de Métricas calculadas?](../../components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
+[¿Los datos actuales admiten todo tipo de Métricas calculadas?](/help/components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
 
-[¿Qué significa "No se ha introducido un nombre" conjuntamente con las métricas calculadas migradas?](../../components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
+[¿Qué significa "No se ha introducido un nombre" conjuntamente con las métricas calculadas migradas?](/help/components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
 
-[¿Qué les sucede a las métricas calculadas de un usuario si se elimina dicho usuario?](../../components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
+[¿Qué les sucede a las métricas calculadas de un usuario si se elimina dicho usuario?](/help/components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
-[¿Por qué veo métricas calculadas "Desconocidas" que no son válidas para otros grupos de informes aunque se puedan crear y aplicar a esos grupos de informes?](../../components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
+[¿Por qué veo métricas calculadas "Desconocidas" que no son válidas para otros grupos de informes aunque se puedan crear y aplicar a esos grupos de informes?](/help/components/c-calcmetrics/cm-transition.md#section_6772818EFDED46E9B7095D64C3B77211)
 
-[¿Por qué no se han guardado los cambios que he realizado en mis métricas calculadas antiguas?](../../components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
+[¿Por qué no se han guardado los cambios que he realizado en mis métricas calculadas antiguas?](/help/components/c-calcmetrics/cm-transition.md#section_81CDEFCA1FD542579AF183DA1494EAF0)
 
-[¿Por qué no aparecen mis métricas calculadas en el informe Canales de mercadotecnia?](../../components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
+[¿Por qué no aparecen mis métricas calculadas en el informe Canales de mercadotecnia?](/help/components/c-calcmetrics/cm-transition.md#section_FC350359A775433AB5F43C7CAB304D62)
 
-[¿Por qué algunas métricas calculadas muestran fórmulas sin el paréntesis añadido?](../../components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
+[¿Por qué algunas métricas calculadas muestran fórmulas sin el paréntesis añadido?](/help/components/c-calcmetrics/cm-transition.md#section_AC0D1E9714AD487F9A1C73359F518B5E)
 
-[(Solo Ad Hoc Analysis) ¿Las métricas calculadas con definiciones de segmento en línea o incrustadas siguen siendo compatibles?](../../components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
+[(Solo Ad Hoc Analysis) ¿Las métricas calculadas con definiciones de segmento en línea o incrustadas siguen siendo compatibles?](/help/components/c-calcmetrics/cm-transition.md#section_B25C924A282F49388AB604E3D826F44C)
 
-[(Solo en el Report Builder) ¿Por qué han desaparecido las métricas calculadas de mis solicitudes?](../../components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
+[(Solo en el Report Builder) ¿Por qué han desaparecido las métricas calculadas de mis solicitudes?](/help/components/c-calcmetrics/cm-transition.md#section_DA4792FE5D7945218CD5E6328DE08E82)
 
-[¿Cómo funcionan los Totales de métricas calculadas?](../../components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
+[¿Cómo funcionan los Totales de métricas calculadas?](/help/components/c-calcmetrics/cm-transition.md#section_57BA3A299C7948ABB82B0392A9B0F33E)
 
 ## ¿Cómo puedo acceder al Creador de métricas calculadas?{#section_D9AE9A0ACF824BACB5D05F0C2F7E9CA1}
 
