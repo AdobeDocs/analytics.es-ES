@@ -7,7 +7,7 @@ title: Administrador de seguridad
 topic: Herramientas de administración
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,7 +50,7 @@ Permite controlar el acceso a los datos de los informes. Las opciones incluyen c
      </code>). También pueden utilizarse caracteres comodín (*) para especificar cualquier número del 0 al 255 (por ejemplo, 
      <code>
        192.168.[10-14].*
-     </code>) </p> <p>Los inicios de sesión que generan errores se registran y pueden verse desde <a href="../../admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232" format="dita" scope="local">Uso del registro y acceso a él</a>. </p> </td> 
+     </code>) </p> <p>Los inicios de sesión que generan errores se registran y pueden verse desde <a href="/help/admin/admin/logs.md#section_6FBAF92D9EA244809C45A78A2F0A7232">Uso del registro y acceso a él</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Aplicar restricciones de dominio de correo electrónico</span> </td> 
