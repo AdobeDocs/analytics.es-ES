@@ -8,7 +8,7 @@ title: 'Subclasificaciones y el Generador de reglas: Caso de uso'
 topic: Herramientas de administración
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ Puede combinar el Generador de reglas de clasificaciones con subclasificaciones 
 
 Puede combinar el Generador de reglas de clasificaciones con subclasificaciones para simplificar la administración de clasificaciones y reducir el número de reglas necesarias. Puede ser conveniente hacer esto si el código de seguimiento está formado por códigos que desea clasificar de forma independiente.
 
-See [Sub-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) for conceptual information about sub-classifications.
+See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
 
 **Ejemplo**
 
@@ -33,7 +33,7 @@ Las jerarquías de clasificación permiten aplicar una clasificación a otra (ll
 
 ![](assets/sub_class_table.png)
 
-Una vez preparada esta estructura, puede usar el [Generador de reglas de clasificaciones](../../../components/c-classifications2/crb/classification-rule-builder.md) para cargar archivos pequeños que solo actualicen las tablas de búsqueda (las tablas verde y roja de la imagen anterior). A continuación, puede usar el Generador de reglas para mantener actualizada la tabla de la clasificación principal.
+Una vez preparada esta estructura, puede usar el [Generador de reglas de clasificaciones](/help/components/c-classifications2/crb/classification-rule-builder.md) para cargar archivos pequeños que solo actualicen las tablas de búsqueda (las tablas verde y roja de la imagen anterior). A continuación, puede usar el Generador de reglas para mantener actualizada la tabla de la clasificación principal.
 
 En la siguiente tarea, se describe cómo hacerlo.
 
@@ -47,7 +47,9 @@ t_rule_builder_subclass.xml
 
 Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el Generador de reglas.
 
-> [!NOTE] Estos pasos describen cómo se lleva a cabo el caso de uso descrito en [Subclasificaciones y el Generador](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)de reglas.
+>[!NOTE]
+>
+> Estos pasos describen cómo se lleva a cabo el caso de uso descrito en [Subclasificaciones y el Generador](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)de reglas.
 
 1. Cree clasificaciones y subclasificaciones en el [Administrador de clasificación](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
@@ -55,7 +57,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
    ![Información del paso](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
+1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
    Para hacerlo, se usa una expresión regular. En este ejemplo, la regla para rellenar el *`Broad Campaign code`* utilizaría esta expresión regular:
 
@@ -70,7 +72,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
 1. Cargue un archivo de clasificación que incluya solamente las subclasificaciones especificadas.
 
-   Consulte Clasificaciones [de](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)varios niveles.
+   Consulte Clasificaciones [de](/help/components/c-classifications2/c-sub-classifications.md)varios niveles.
 
    Ejemplo:
 
