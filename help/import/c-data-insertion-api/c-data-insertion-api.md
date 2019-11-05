@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: API de inserción de datos
 title: API de inserción de datos
-uuid: 9 c 66 c 7 a 5-4 d 16-4 e 02-8 e 34-6031504 b 34 d 0
+uuid: 9c66c7a5-4d16-4e02-8e34-6031504b34d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,4 +14,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 <!-- Git link needs to change to root relative link -->
 
-See [https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)
+Consulte [https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)
