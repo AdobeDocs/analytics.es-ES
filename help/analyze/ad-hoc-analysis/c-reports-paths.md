@@ -7,7 +7,7 @@ title: Informes de rutas
 topic: Ad Hoc Analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ Los informes de rutas incluyen informes exhaustivos estándar y de análisis ava
 
 **[!UICONTROL Visita en el orden previsto]**: muestra la baja en visitas y los índices de conversión entre cada punto de comprobación definido. Los pasos están organizados desde arriba hacia abajo, con las cifras y porcentajes sin procesar a la izquierda, y la conversión y los porcentajes de visitas en el orden previsto a la derecha.
 
-Consulte [Informe de visitas en el orden previsto](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obtener más información.
+Consulte [Informe de visitas en el orden previsto](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obtener más información.
 
 **[!UICONTROL Longitud de ruta]**: muestra la profundidad con que los visitantes navegan por el sitio (según el porcentaje y el recuento total). Dicho de otro modo, el informe indica la cantidad de páginas en las que entra el visitante promedio antes de retirarse.
 
