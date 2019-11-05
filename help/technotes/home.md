@@ -1,7 +1,7 @@
 ---
 title: Página de inicio de notas técnicas
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -16,11 +16,11 @@ Esta guía proporciona información útil sobre temas que no pertenecen a una he
 
 ## Más guías de usuario de Analytics
 
-[Guías de usuario de Analytics](../landing/home.md)
+[Guías de usuario de Analytics](/help/landing/home.md)
 
 ## Recursos clave de Analytics
 
-* [Contacte con el servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
-* [Foro de la comunidad de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://forums.adobe.com/message/10660755)
-* [Experience League](https://experienceleague.adobe.com/?lang=es#recommended/solutions/analytics)
+* [Experience League](https://landing.adobe.com/experience-league/)
