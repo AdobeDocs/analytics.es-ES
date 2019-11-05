@@ -3,7 +3,7 @@ title: Casos de uso de comparación de segmentos
 description: Conozca los casos de uso del mundo real sobre cómo se puede utilizar el panel de comparación de segmentos para obtener información sobre la estrategia de mercadotecnia.
 keywords: IQ de segmento
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -56,7 +56,7 @@ Una gran empresa de servicios B2B quería entender el tipo de tráfico que llega
 
 > *"Descubrimos que la gente que compraba Fitbits tenía 6 veces más probabilidades de recibir un mensaje 'sin existencias' que todos los demás, ¡así que rápidamente pedimos más Fitbits y evitamos quedarnos sin existencias!"*
 
-Un importante minorista en línea estaba interesado en saber cómo uno de los productos de vacaciones más populares, Fitbit, estaba vendiendo y qué hacía que los compradores de Fitbit fueran únicos entre otros clientes. Utilizando la comparación de segmentos, descubrieron que los usuarios que compraban Fitbits tenían 6 veces más probabilidades de recibir un mensaje "sin existencias" que cualquier otro cliente. Después de un análisis más profundo, el equipo de mercadotecnia dirigió a estos visitantes a sus tiendas de ladrillos y morteros mientras esperaban a que su departamento de compras solicitara más Fitbits para enviar. Como resultado, el minorista evitó más mensajes "fuera de existencias" y satisfizo más su demanda navideña.
+**** Escenario: Un importante minorista en línea estaba interesado en saber cómo uno de los productos de vacaciones más atractivos - Fitbit - estaba vendiendo y qué hacía que los compradores de Fitbit fueran únicos entre otros clientes. El equipo de marketing solo tuvo que hacer clic derecho en el elemento “Fitbit” del informe de productos y ejecutar un rápido análisis con IQ de segmento. Lo que descubrieron fue que los usuarios que compraban Fitbits tenían 6 veces más probabilidad de encontrarse el mensaje “sin existencias” que cualquier otro cliente. Tras nuevos análisis, pudieron dirigir a estos visitantes a las tiendas físicas mientras ellos esperaban a que el departamento de compras realizara nuevos pedidos de Fitbits. Como resultado, el minorista evitó nuevos mensajes de falta de existencias y pudo satisfacer mejor la demanda de las fiestas.
 
 | Segmento 1 | Segmento 2 |
 |--- |--- |
