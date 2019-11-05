@@ -9,7 +9,7 @@ title: Visitas
 topic: Desarrollador e implementación
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics contabiliza una visita cada vez que se produce una llamada al servidor con un Número de página de visita igual a 1.
 
-Si observa la [tabla anterior](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), esto ocurrió 4 veces: en las visitas individuales 1, 9, 11 y 12. De forma similar a los visitantes, este valor vuelve a la normalidad después de la asociación inicial porque [!UICONTROL Número de página de visita] se restablece a 1 debido a un cambio en la [!UICONTROL ID de visitante] efectiva.
+Si observa la [tabla anterior](/help/implement/js-implementation/xdevice-visid/visit-example.md), esto ocurrió 4 veces: en las visitas individuales 1, 9, 11 y 12. De forma similar a los visitantes, este valor vuelve a la normalidad después de la asociación inicial porque [!UICONTROL Número de página de visita] se restablece a 1 debido a un cambio en la [!UICONTROL ID de visitante] efectiva.
