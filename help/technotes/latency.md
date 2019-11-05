@@ -9,7 +9,7 @@ title: Disponibilidad y latencia de los datos
 topic: Informes
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -45,7 +45,7 @@ Algunas funciones de Adobe Experience Cloud incluyen una cantidad innata de late
 
 Existen varias estrategias para evitar la latencia o reducir el tiempo de recuperación cuando se produce:
 
-* **** Notificar a Adobe de los picos de tráfico esperados: Aunque es imposible anticipar cada pico de tráfico en el sitio, puede haber casos en los que espere recibir un aumento significativo de tráfico. Algunos ejemplos son un período festivo particularmente exitoso o poco después de una gran campaña push. En estos casos, Adobe proporciona un método para que su organización nos informe de los incrementos de tráfico esperados. De este modo podremos asignar recursos de procesamiento adicionales a su grupo de informes. Consulte [Programar un pico](../admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfico en la guía del usuario de administración para obtener información sobre cómo notificar a Adobe sobre el aumento de tráfico.
+* **** Notificar a Adobe de los picos de tráfico esperados: Aunque es imposible anticipar cada pico de tráfico en el sitio, puede haber casos en los que espere recibir un aumento significativo de tráfico. Algunos ejemplos son un período festivo particularmente exitoso o poco después de una gran campaña push. En estos casos, Adobe proporciona un método para que su organización nos informe de los incrementos de tráfico esperados. De este modo podremos asignar recursos de procesamiento adicionales a su grupo de informes. Consulte [Programar un pico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfico en la guía del usuario de administración para obtener información sobre cómo notificar a Adobe sobre el aumento de tráfico.
 * **** Considere la carga de procesamiento al activar nuevas funciones: Algunas funciones requieren más procesamiento que otras. Cuantas más características haya habilitadas en un grupo de informes, más difícil será recuperarse de la latencia. Cuando active características en un grupo de informes, tenga en cuenta que las siguientes características incrementan la cantidad de datos que se deben procesar:
 
    * Implementación de más de 20 eventos en la misma página
