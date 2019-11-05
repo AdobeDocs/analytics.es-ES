@@ -8,7 +8,7 @@ title: Preguntas frecuentes sobre las fuentes de datos
 topic: Desarrollador e implementación
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,7 +19,7 @@ En esta sección encontrará respuestas a preguntas comunes.
 
 ## ¿Cómo se pueden conectar datos sin conexión con eventos en línea? {#section_F48A9474A70D4CB8B449DE305F199AD6}
 
-Para que las fuentes de datos de ID de transacción vinculen datos sin conexión a eventos en línea, es necesario activar el registro de ID de transacción. Consulte el [registro de ID de transacción](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) para obtener más información.
+Para que las fuentes de datos de ID de transacción vinculen datos sin conexión a eventos en línea, es necesario activar el registro de ID de transacción. Consulte el [registro de ID de transacción](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) para obtener más información.
 
 ## ¿Cuánto cuesta utilizar la opción de fuente de datos? {#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
 
