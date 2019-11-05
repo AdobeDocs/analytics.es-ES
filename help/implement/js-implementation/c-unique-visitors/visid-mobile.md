@@ -8,7 +8,7 @@ title: Identificación de dispositivos móviles
 topic: Desarrollador e implementación
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 La mayoría de los dispositivos móviles aceptan cookies del explorador. Sin embargo, en los casos en los que los dispositivos no aceptan cookies, se usa otro método para identificar de forma única a los dispositivos inalámbricos.
 
-Adobe ha identificado varios [encabezados de ID de suscriptor](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) HTTP que identifican de forma única a la mayoría de dispositivos móviles. Estos encabezados suelen incluir el número de teléfono del dispositivo (o una versión con hash) u otros identificadores. La mayoría de los dispositivos actuales cuentan con uno o varios encabezados que los identifican de forma exclusiva y que todos los servidores de recopilación de datos de Adobe usan de forma automática como ID de visitante.
+Adobe ha identificado varios [encabezados de ID de suscriptor](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D) HTTP que identifican de forma única a la mayoría de dispositivos móviles. Estos encabezados suelen incluir el número de teléfono del dispositivo (o una versión con hash) u otros identificadores. La mayoría de los dispositivos actuales cuentan con uno o varios encabezados que los identifican de forma exclusiva y que todos los servidores de recopilación de datos de Adobe usan de forma automática como ID de visitante.
 
 En una solicitud de imagen habitual, un “1” en la ruta (`/b/ss/rsid/1`) hace que los servidores de Adobe devuelvan una imagen e intenten configurar una cookie de [!UICONTROL ID de visitante] persistente (`AMCV_` o `s_vi`). Sin embargo, si el dispositivo se reconoce como un dispositivo móvil basado en encabezados HTTP, se pasa un "5" en lugar del "1", lo que indica que se debe devolver una imagen con formato wbmp, así como que se debe usar nuestra lista de encabezados inalámbricos reconocidos (y no una cookie) para identificar el dispositivo.
 
@@ -88,4 +88,4 @@ Los encabezados de la siguiente lista se usan para identificar dispositivos inal
 
 Por ejemplo, "callinglineid" coincidiría con "X-Up-Calling-Line-ID" y "nokia-callinglineid". El tipo de encabezado nos indica qué esperar en el encabezado. Aquí se indica el orden de prioridad de los encabezados (si hay un encabezado "callinglineid" presente, se usa en lugar de "subno").
 
-Puede usar los métodos de API [Variables dinámicas](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262) para extraer valores específicos de un encabezado.
+Puede usar los métodos de API [Variables dinámicas](/help/implement/js-implementation/c-variables/dynvars-overview.md) para extraer valores específicos de un encabezado.
