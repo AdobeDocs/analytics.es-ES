@@ -5,7 +5,7 @@ seo-title: Conector de datos Emarsys para Adobe Analytics
 title: Conector de datos Emarsys para Adobe Analytics
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -53,7 +53,7 @@ Esta integración de Data Connectors requiere lo siguiente:
 
 * Una cuenta de emarsys activa
 
-Para obtener instrucciones de integración paso a paso, consulte [Ejecución del Asistente](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a)para la integración de Conectores de datos.
+Para obtener instrucciones de integración paso a paso, consulte [Ejecución del Asistente para la integración de Conectores de datos.](/help/import/data-connectors/emarsys-overview/emarsys-wizard.md)
 
 ## Precio{#pricing}
 
