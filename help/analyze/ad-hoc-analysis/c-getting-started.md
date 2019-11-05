@@ -5,7 +5,7 @@ seo-title: Introducción
 title: Introducción
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -29,7 +29,7 @@ Estas características permiten responder a preguntas sobre el tráfico del siti
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Iniciar sesión en Adobe <span class="keyword">Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com" scope="external" format="https"> marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
+   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Iniciar Ad Hoc Analysis. </p> </td> 
@@ -37,20 +37,20 @@ Estas características permiten responder a preguntas sobre el tráfico del siti
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Crear un proyecto. </p> </td> 
-   <td colname="col2"> <p>En la página de inicio, seleccione un grupo de informes y haga clic en <span class="uicontrol">Crear proyecto</span>. </p> <p>See <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_FAE346335B0347A192C6C806C775D72B" type="concept" format="dita" scope="local"> Projects and Workspaces</a>. </p> </td> 
+   <td colname="col2"> <p>En la página de inicio, seleccione un grupo de informes y haga clic en <span class="uicontrol">Crear proyecto</span>. </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Projects and Workspaces</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. Abrir un informe. </p> </td> 
-   <td colname="col2"> <p>Busque un informe con el menú de informes estándar de Cloud. También puede elegir una plantilla. </p> <p>Consulte <a href="../../analyze/ad-hoc-analysis/c-getting-started.md#concept_370F674C5B4C45368731AA801C5A45F8" type="concept" format="dita" scope="local"> Plantillas de informe</a>. </p> </td> 
+   <td colname="col2"> <p>Busque un informe con el menú de informes estándar de Cloud. También puede elegir una plantilla. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Plantillas de informe</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5. Configurar el informe. </p> </td> 
    <td colname="col2"> <p>Para configurar el informe deberá realizar diversas tareas: </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Crear segmentos para profundizar en los datos. </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Agregar métricas, dimensiones y segmentos al <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> Generador de tablas</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuración de intervalos <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> de fechas</a> </li> 
-     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> Programar</a> el envío de informes </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Agregar métricas, dimensiones y segmentos al <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Generador de tablas</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuración de intervalos <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > de fechas</a> </li> 
+     <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Programar</a> el envío de informes </li> 
     </ul> <p>Busque en este sistema de ayuda para encontrar la ayuda que necesita. </p> </td> 
   </tr> 
  </tbody> 
