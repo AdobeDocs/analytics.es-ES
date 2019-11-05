@@ -7,7 +7,7 @@ solution: Analytics
 title: Participación de los servicios de ingeniería en FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ Muchas de las participaciones de los servicios de ingeniería de Adobe suelen re
 
 Estas participaciones incluyen [!UICONTROL DB VISTA] y proyectos personalizados.
 
-Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).
+Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](/help/export/ftp-and-sftp/ftp-limits.md).
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
@@ -26,4 +26,4 @@ Para obtener información sobre los límites de FTP y la retención de datos, co
 
 ## Participaciones personalizadas {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Los servicios de ingeniería de Adobe ofrecen proyectos personalizados que utilizan FTP y SFTP. Para obtener más información sobre los proyectos personalizados, consulte Servicios de ingeniería de Adobe. Para obtener información sobre SFTP, consulte Protocolo [](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC)seguro de transferencia de archivos.
+Los servicios de ingeniería de Adobe ofrecen proyectos personalizados que utilizan FTP y SFTP. Para obtener más información sobre los proyectos personalizados, consulte Servicios de ingeniería de Adobe. Para obtener información sobre SFTP, consulte Protocolo [](/help/export/ftp-and-sftp/c-sftp/ftp-sftp.md)seguro de transferencia de archivos.
