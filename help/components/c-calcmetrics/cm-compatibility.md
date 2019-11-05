@@ -5,7 +5,7 @@ seo-title: Compatibilidad de métricas
 title: Compatibilidad de métricas
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,7 +26,7 @@ Al crear métricas calculadas o calculadas avanzadas en el Creador de métricas 
  <tbody> 
   <tr> 
    <td colname="col1"> Datos actuales </td> 
-   <td colname="col2"> <p>La opción Incluir datos actuales en Analytics le permite ver los datos de Analytics más recientes, con frecuencia antes incluso de que dichos datos se hayan completado y procesado totalmente. <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external"> Datos actuales</a> muestra la mayoría de las métricas en cuestión de minutos y proporciona datos procesables que facilitan una toma de decisiones rápida. </p> <p>Datos actuales solo admite métricas calculadas (aquellas que incluyan multiplicaciones, divisiones, sumas y restas). Los datos actuales no admiten métricas calculadas avanzadas (que contengan segmentos o funciones). </p> </td> 
+   <td colname="col2"> <p>La opción Incluir datos actuales en Analytics le permite ver los datos de Analytics más recientes, con frecuencia antes incluso de que dichos datos se hayan completado y procesado totalmente. <a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  > Datos actuales</a> muestra la mayoría de las métricas en cuestión de minutos y proporciona datos procesables que facilitan una toma de decisiones rápida. </p> <p>Datos actuales solo admite métricas calculadas (aquellas que incluyan multiplicaciones, divisiones, sumas y restas). Los datos actuales no admiten métricas calculadas avanzadas (que contengan segmentos o funciones). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Datos completamente procesados </td> 
