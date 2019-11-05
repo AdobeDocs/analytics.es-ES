@@ -7,7 +7,7 @@ title: Copiar solicitudes simples
 topic: Creador de informes
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Se puede copiar una solicitud simple en vez de una solicitud de referencia. Una solicitud simple no contiene referencias a otra solicitud ni al contenido de una celda.
 
-A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. Estos filtros utilizan la coincidencia o la tendencia y se basan en resultados de una solicitud anterior o en el contenido introducido por el usuario en una celda, denominada celda de entrada. 
+A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. Estos filtros utilizan la coincidencia o la tendencia y se basan en resultados de una solicitud anterior o en el contenido introducido por el usuario en una celda, denominada celda de entrada. 
 1. Cree una solicitud válida.
 1. Haga clic con el botón derecho en una de las celdas donde se asigna la solicitud, o bien seleccione una región de celdas que contenga solicitudes.
 
