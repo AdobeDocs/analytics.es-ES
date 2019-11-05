@@ -7,7 +7,7 @@ title: Descargar la configuración del grupo de informes
 topic: Herramientas de administración
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,7 +50,7 @@ Descripción de los elementos utilizados al [crear un grupo de informes](/help/a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fecha de lanzamiento </p> </td> 
-   <td colname="col2">Informa a Adobe de la fecha en la que se espera que se active este grupo de informes. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">Informa a Adobe de la fecha en la que se espera que se active este grupo de informes. If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Vistas de la página estimadas por día</span> </td> 
