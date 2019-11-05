@@ -7,7 +7,7 @@ title: Iniciar sesión en el Report Builder
 topic: Creador de informes
 uuid: 94944ce3-499d-4d3f-954b-c241267d4e92
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,7 +20,7 @@ Pasos que describen cómo iniciar sesión en el Creador de informes.
 1. Click **[!UICONTROL Sign In]**, and specify the method (Experience Cloud, Single Sign-on, and Standard). Otras operaciones de inicio de sesión son las siguientes:
 
    * Hacer clic en **[!UICONTROL Crear]**.
-   * [Seleccionar una solicitud en el Administrador de solicitudes](../../../analyze/report-builder/manage-requests/r-arb-manage-requests.md) y después hacer clic en **[!UICONTROL Añadir]** o **[!UICONTROL Administrar]**.
+   * [Seleccionar una solicitud en el Administrador de solicitudes](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md) y después hacer clic en **[!UICONTROL Añadir]** o **[!UICONTROL Administrar]**.
    * Hacer doble clic en una solicitud en Excel.
 
 1. Rellene los campos de la página [!UICONTROL Inicio de sesión]**y, a continuación, haga clic en[!UICONTROL Aceptar]**.
