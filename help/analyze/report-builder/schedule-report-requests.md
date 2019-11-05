@@ -1,13 +1,13 @@
 ---
 description: Puede programar solicitudes de informe, especificar opciones de entrega avanzadas, definir destinatarios y ver el historial de programación. Las opciones de envío avanzadas permiten configurar informes que se desean enviar a una hora concreta o a intervalos. También se puede especificar el formato de archivo en el que se desea enviar el informe.
 seo-description: Puede programar solicitudes de informe, especificar opciones de entrega avanzadas, definir destinatarios y ver el historial de programación. Las opciones de envío avanzadas permiten configurar informes que se desean enviar a una hora concreta o a intervalos. También se puede especificar el formato de archivo en el que se desea enviar el informe.
-seo-title: Programar solicitudes de informe
+seo-title: Programar solicitudes de informes
 solution: Analytics
-title: Programar solicitudes de informe
+title: Programar solicitudes de informes
 topic: Creador de informes
-uuid: d 9 b 65 b 82-1975-403 b-bc 50-f 22 cfea 6019 f
+uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
