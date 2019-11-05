@@ -5,16 +5,16 @@ seo-title: Términos comunes
 solution: Analytics
 title: Términos comunes
 topic: Reports and Analytics
-uuid: 0560 dc 7 d -9 f 92-46 d 4-848 b -3 cf 297073382
+uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
 
 ---
 
 
-# Términos comunes{#common-terms}
+# Términos comunes
 
-Introducción a los términos de Adobe Analytics usados habitualmente.
+Introducción a los términos utilizados de Adobe Analytics.
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -30,7 +30,7 @@ Introducción a los términos de Adobe Analytics usados habitualmente.
   </tr> 
   <tr> 
    <td> <p>Métrica </p> </td> 
-   <td> <p>Información cuantitativa sobre la actividad de su sitio Web, tales como Vistas, Pulsaciones, Recargas, Tiempo promedio invertido, Fecha, Unidades, etc. </p> <p>Si desea más información, consulte <a scope="local" href="../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686" type="concept" format="dita"> Métricas</a>. </p> </td> 
+   <td> <p>Información cuantitativa sobre la actividad de su sitio Web, tales como Vistas, Pulsaciones, Recargas, Tiempo promedio invertido, Fecha, Unidades, etc. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/metrics.md">Metrics</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Dimensión </p> </td> 
@@ -38,15 +38,15 @@ Introducción a los términos de Adobe Analytics usados habitualmente.
   </tr> 
   <tr> 
    <td> <p> Informe </p> </td> 
-   <td> <p>La base de la funcionalidad de informes de marketing. Puede ejecutar informes en línea de todos los datos recopilados. </p> <p>Si desea más información, consulte   <a href="../../../analyze/reports-analytics/reports.md#concept_54DA0D426E2B49F3BF0E707FE83932A6" type="concept" format="dita" scope="local"> Tipos de informes</a>. </p> </td> 
+   <td> <p>La base de la funcionalidad de informes de marketing. Puede ejecutar informes en línea de todos los datos recopilados. </p> <p>For more information, see <a href="/help/analyze/reports-analytics/reports.md"> Report Types</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Vista de página </p> </td> 
+   <td> <p> Vista de la página </p> </td> 
    <td> <p>Una sola página web que se carga en el explorador de un visitante. Una vista de página es una ejecución del código JavaScript de esa página. El sistema cuenta de forma precisa la cantidad de veces que se carga una página, aunque el visitante la actualice con frecuencia o utilice los botones <span class="uicontrol">Atrás</span> y <span class="uicontrol">Recargar</span> del explorador. Una vista de página cuenta la página completa, no los elementos individuales ni las visitas. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Visita </p> </td> 
-   <td> <p>Secuencia de visitas de la página efectuadas en una sesión. La visita termina únicamente después de 30 minutos de inactividad o de 12 horas de actividad continua. (Esta métrica de tiempo es el estándar en la industria para el análisis web.) Las visitas se rastrean mediante cookies. Una visita comienza cuando un visitante accede a una página. En ocasiones, la visita recibe el nombre de <span class="term"> sesión</span>, pero no es una sesión del explorador. Dirigirse a un sitio diferente, cerrar el explorador o incluso reiniciar el equipo no termina una visita. </p> <p> Si se supera el tiempo de inactividad mientras un visitante está leyendo una página, la visita se cerrará y se procesará. Se inicia una nueva visita cuando el visitante llega a otra página. </p> <p>Si la fecha cambia durante la visita, como cuando se visita un sitio a medianoche, la visita se atribuye al día en que se inició la misma. </p> </td> 
+   <td> <p>Secuencia de visitas de la página efectuadas en una sesión. La visita termina únicamente después de 30 minutos de inactividad o de 12 horas de actividad continua. (Esta métrica de tiempo es el estándar en la industria para el análisis web.) Las visitas se rastrean mediante cookies. Una visita comienza cuando un visitante accede a una página. En ocasiones, la visita recibe el nombre de <span class="term"> session</span>, but it is not a browser session. Dirigirse a un sitio diferente, cerrar el explorador o incluso reiniciar el equipo no termina una visita. </p> <p> Si se supera el tiempo de inactividad mientras un visitante está leyendo una página, la visita se cerrará y se procesará. Se inicia una nueva visita cuando el visitante llega a otra página. </p> <p>Si la fecha cambia durante la visita, como cuando se visita un sitio a medianoche, la visita se atribuye al día en que se inició la misma. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Visitante único </p> </td> 
@@ -66,7 +66,7 @@ Introducción a los términos de Adobe Analytics usados habitualmente.
   </tr> 
   <tr> 
    <td> <p>Canal </p> </td> 
-   <td> <p> Secciones o categorías definidas de su sitio. Los sitios web que tienen dos categorías principales, como <span class="term"> tiempo</span> y <span class="term"> noticias</span>, tienen dos canales. Puede agrupar las estadísticas de todas las vistas de páginas que se producen en cualquier canal de su sitio. </p> </td> 
+   <td> <p> Secciones o categorías definidas de su sitio. Los sitios web que tienen dos categorías principales, como <span class="term"> clima</span> y <span class="term"> noticias</span>, tienen dos canales. Puede agrupar las estadísticas de todas las vistas de páginas que se producen en cualquier canal de su sitio. </p> </td> 
   </tr> 
  </tbody> 
 </table>
