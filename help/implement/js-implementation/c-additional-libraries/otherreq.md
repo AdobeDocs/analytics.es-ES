@@ -7,8 +7,8 @@ solution: Analytics
 title: Implementación sin directrices de JavaScript
 topic: Desarrollador e implementación
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -23,7 +23,7 @@ Puede ver un ejemplo de código para comprender mejor la implementación. La sig
 
 **Distinción entre mayúsculas y minúsculas**
 
-Los nombres de parámetro (`pageName`, `purchaseID`, etc.) distinguen entre mayúsculas y minúsculas y no registrarán correctamente los datos a menos que aparezcan tal y como se designan en la tabla que se muestra en [Parámetros de consulta](../../../implement/js-implementation/data-collection/query-parameters.md).
+Los nombres de parámetro (`pageName`, `purchaseID`, etc.) distinguen entre mayúsculas y minúsculas y no registrarán correctamente los datos a menos que aparezcan tal y como se designan en la tabla que se muestra en [Parámetros de consulta](/help/implement/js-implementation/data-collection/query-parameters.md).
 
 **Codificar los parámetros de consulta**
 
@@ -33,7 +33,7 @@ La versión para JavaScript de esta función se denomina escape (y para decodifi
 
 **Longitud de variable máxima**
 
-Cada variable tiene una longitud máxima. Esta longitud se especifica para cada variable en [Variables de Analytics](../../../implement/js-implementation/c-variables/sc-variables.md). Si se supera la longitud máxima de una variable, el valor de esta variable se trunca al almacenarse y mostrarse en Analytics.
+Cada variable tiene una longitud máxima. Esta longitud se especifica para cada variable en [Variables de Analytics](/help/implement/js-implementation/c-variables/sc-variables.md). Si se supera la longitud máxima de una variable, el valor de esta variable se trunca al almacenarse y mostrarse en Analytics.
 
 **Caracteres no válidos**
 
