@@ -7,7 +7,7 @@ title: Visitas
 topic: Informes
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,12 +24,12 @@ Muestra la cantidad de visitas realizadas al sitio web durante un período deter
 * El inicio de una visita se produce en la primera solicitud de imagen procedente de un visitante nuevo, o después de que la visita del usuario existente haya caducado. Es lo que se identifica como página de entrada.
 * El final de una visita es la última solicitud de imagen antes de que la visita caduque. Es lo que se identifica como página de salida.
 
-   Consulte [Informes de entradas y salidas](../../../components/c-variables/dimensionslist/reports-entries-exits.md#concept_C4AED2C1D62E43A48ACAA837327FCCF2).
+   Consulte [Informes de entradas y salidas](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * Los desgloses por hora se basan en el huso horario del grupo de informes.
 * Este informe no contiene elementos de línea. Solo se puede ver en formato de tendencias.
 * Se puede aplicar una granularidad de hora, día, semana, mes, trimestre y año. Estas configuraciones de granularidad están disponibles en función del intervalo de fechas de los informes.
 
-Consulte [Métrica de visitas](../../../components/c-variables/c-metrics/metrics-visit.md#concept_9DA4D9EF8B964755BAC57378AD37911E) para obtener más información sobre el modo en el que Experience Cloud procesa esta métrica.
+Consulte [Métrica de visitas](/help/components/c-variables/c-metrics/metrics-visit.md) para obtener más información sobre el modo en el que Experience Cloud procesa esta métrica.
 
 **Información del informe específica de productos**
 
