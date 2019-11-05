@@ -1,13 +1,13 @@
 ---
 description: Utilice la sección Información de la fuente para asignar un nombre a la fuente, especificar el grupo de informes que debe generarse con esta, determinar su recurrencia y especificar cuándo empieza y finaliza.
-keywords: Fuente de datos; información; name; grupo de informes; email when complete; email; intervalo; feed; retrasar procesamiento; delay; start; end; date; fuente continua
+keywords: Fuente de datos;información;nombre;grupo de informes;correo electrónico al completarse;correo electrónico;intervalo;fuente;retraso de procesamiento;retraso;inicio;fin;fecha;fuente continua
 seo-description: Utilice la sección Información de la fuente para asignar un nombre a la fuente, especificar el grupo de informes que debe generarse con esta, determinar su recurrencia y especificar cuándo empieza y finaliza.
 seo-title: Información de la fuente
 solution: Analytics
 title: Información de la fuente
-uuid: adf 92 f 42-a 957-4 de 0-a 5 a 1-683 f 2933 af 04
+uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -32,7 +32,7 @@ Utilice la sección Información de la fuente para asignar un nombre a la fuente
   </tr>
   <tr>
    <td colname="col1"> <p>Conjunto de informes (requerido) </p> </td>
-   <td colname="col2"> <p>Especifique los grupos de informes correspondientes a la consulta de la fuente. </p> <p>Debe seleccionar al menos un grupo de informes y no se puede incluir el mismo grupo dos veces. </p> <p>Están disponibles todos los grupos de informes no virtuales disponibles para el usuario que ha iniciado sesión. </p></td>
+   <td colname="col2"> <p>Especifique los grupos de informes correspondientes a la consulta de la fuente. </p> <p>Debe seleccionar al menos un grupo de informes y no se puede incluir el mismo grupo dos veces. </p> <p>Todos los grupos de informes no virtuales disponibles para el usuario que ha iniciado sesión están disponibles. </p></td>
   </tr>
   <tr>
    <td colname="col1"> <p>Enviar correo electrónico al completarse (requerido) </p> </td>
