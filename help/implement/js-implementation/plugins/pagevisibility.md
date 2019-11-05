@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: Desarrollador e implementación
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,7 +19,7 @@ Registra el número de segundos que la página ha sido la ficha activa del explo
 
 > [!NOTE] Esta es una versión beta del complemento y podrían llegar nuevas actualizaciones.
 
-Este complemento requiere [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+Este complemento requiere [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md).
 
 Este complemento también registra el número total de segundos que la página estaba en el explorador (tanto en forma de visualización activa como pasiva). Se requiere el uso del complemento getPreviousValue para poder realizar un seguimiento del nombre de página anterior asociado con los eventos de visibilidad de página. Realizar un seguimiento de estos valores le permite obtener un mejor entendimiento del compromiso de los visitantes y seguir de forma más precisa el comportamiento de dichos visitantes en las páginas.
 
