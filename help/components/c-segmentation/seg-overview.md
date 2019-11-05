@@ -7,7 +7,7 @@ title: Acerca de los segmentos y los contenedores
 topic: Segmentos
 uuid: e8b1edd1-5d6c-4213-994b-feed789ad30a4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ Los segmentos le permiten identificar subconjuntos de visitantes basándose en s
 
 Los segmentos se basan en una jerarquía de niveles de [!UICONTROL visitante], [!UICONTROL visita] y [!UICONTROL visita individual] usando un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones del visitante basándose en las reglas entre los contenedores y dentro de ellos. Los segmentos de Analytics pueden generarse, aprobarse, compartirse, guardarse y ejecutarse en varios productos y capacidades en [!DNL Adobe Experience Cloud]. Los segmentos pueden generarse a partir de un informe, integrarse en un informe de panel o marcarse como favoritos para acceder rápidamente a ellos.
 
-You can build and save segments in the Segment Builder, or generate segments from a Fallout report (in [!DNL ad hoc analysis]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos pueden utilizarse juntos como [segmentos apilados](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_40C299B60B354E10B344702EA3138B34).
+You can build and save segments in the Segment Builder, or generate segments from a Fallout report (in [!DNL ad hoc analysis]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos pueden utilizarse juntos como [segmentos apilados](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Segmentos {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -113,7 +113,7 @@ Los contenedores de visitas individuales incluyen valores basados en el desglose
 
 **Contenedor de grupo lógico**
 
-El contenedor de grupo lógico le permite proporcionar un contenedor separado dentro de las reglas de segmento para filtrar entidades no basadas en jerarquía. Por ejemplo, es posible que necesite proporcionar un contenedor anidado dentro del segmento que filtra en función del visitante. Este tipo de lógica requiere interrumpir la jerarquía (puesto que usted ya tiene un contenedor de visitante de nivel superior) para filtrar únicamente para visitantes seleccionados. Puede hacerse con el contenedor de grupo lógico. Consulte [Ejemplos de grupos lógicos](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560) para obtener más información.
+El contenedor de grupo lógico le permite proporcionar un contenedor separado dentro de las reglas de segmento para filtrar entidades no basadas en jerarquía. Por ejemplo, es posible que necesite proporcionar un contenedor anidado dentro del segmento que filtra en función del visitante. Este tipo de lógica requiere interrumpir la jerarquía (puesto que usted ya tiene un contenedor de visitante de nivel superior) para filtrar únicamente para visitantes seleccionados. Puede hacerse con el contenedor de grupo lógico. Consulte [Ejemplos de grupos lógicos](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) para obtener más información.
 
 ## Nesting containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -154,13 +154,13 @@ La segmentación secuencial emplea los mismos contenedores básicos, incluidos e
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL Visitantes] constituye el contenedor de orden superior en la segmentación secuencial, con [!UICONTROL visitas] contenidas dentro del contenedor de [!UICONTROL visitantes] y [!UICONTROL visitas individuales] contenidas dentro de los contenedores de [!UICONTROL visitantes] o [!UICONTROL visitas]. Esta [jerarquía de contenedores](../../components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) debe mantenerse para generar segmentos secuenciales bien ordenados.
+[!UICONTROL Visitantes] constituye el contenedor de orden superior en la segmentación secuencial, con [!UICONTROL visitas] contenidas dentro del contenedor de [!UICONTROL visitantes] y [!UICONTROL visitas individuales] contenidas dentro de los contenedores de [!UICONTROL visitantes] o [!UICONTROL visitas]. Esta [jerarquía de contenedores](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) debe mantenerse para generar segmentos secuenciales bien ordenados.
 
 **Para generar segmentos secuenciales**, se anidan los contenedores y se une la lógica secuencial usando el operador [!UICONTROL ENTONCES], que requiere que cada contenedor sea verdadero en función de la secuencia del visitante.
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-La única excepción a esta jerarquía de contenedores es al usar el [contenedor de grupo lógico](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560). El contenedor de [!UICONTROL grupo lógico] le permite anidar una visita individual dentro de un contenedor sin orden para capturar eventos y dimensiones pero fuera de un orden secuencial.
+La única excepción a esta jerarquía de contenedores es al usar el [contenedor de grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md). El contenedor de [!UICONTROL grupo lógico] le permite anidar una visita individual dentro de un contenedor sin orden para capturar eventos y dimensiones pero fuera de un orden secuencial.
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -253,7 +253,7 @@ El uso de un segmento con un contenedor menor que el alcance del desglose devuel
 
 El hecho de filtrar por las dimensiones que persisten en una serie de páginas, como una eVar de campaña o una dimensión de referencia, afecta a los datos recopilados a nivel de contenedor, y debe entenderse bien para garantizar la precisión de los informes.
 
-Los datos de los segmentos pueden variar en función de la persistencia de una dimensión o de una variable aplicada en las páginas seleccionadas. Algunas dimensiones, como la de página, proporcionan valores únicos a nivel de página y se filtran basándose en los datos del contenedor de visita individual. (Consulte el [ejemplo de Informes basados en datos de contenedores](../../components/c-segmentation/seg-overview.md#concept_BE822C12F87C4F07B7147D80BEFBAB87)). Otras dimensiones, como la de dominio de referencia, persisten en varias páginas de una visita. Algunas dimensiones o variables aplicadas, como la duración de la visita, permanecen en todo el historial del visitante.
+Los datos de los segmentos pueden variar en función de la persistencia de una dimensión o de una variable aplicada en las páginas seleccionadas. Algunas dimensiones, como la de página, proporcionan valores únicos a nivel de página y se filtran basándose en los datos del contenedor de visita individual. (Consulte el [ejemplo de Informes basados en datos de contenedores](/help/components/c-segmentation/seg-overview.md)). Otras dimensiones, como la de dominio de referencia, persisten en varias páginas de una visita. Algunas dimensiones o variables aplicadas, como la duración de la visita, permanecen en todo el historial del visitante.
 
 ![](assets/RefDomain_aol.png)
 
