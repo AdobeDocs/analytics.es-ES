@@ -9,7 +9,7 @@ title: Visitantes
 topic: Desarrollador e implementación
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics contabiliza cada ID de visitante efectiva única como un visitante único.
 
-Si observa la [tabla anterior](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), esto ocurrió 3 veces: en las visitas individuales 1, 9 y 10. Esto ocurre porque la [!UICONTROL ID de visitante] efectiva es la misma para ambas llamadas al servidor, y esto es así aunque haya varias horas de diferencia entre las visitas y se realicen desde dispositivos diferentes.
+Si observa la [tabla anterior](/help/implement/js-implementation/xdevice-visid/visit-example.md), esto ocurrió 3 veces: en las visitas individuales 1, 9 y 10. Esto ocurre porque la [!UICONTROL ID de visitante] efectiva es la misma para ambas llamadas al servidor, y esto es así aunque haya varias horas de diferencia entre las visitas y se realicen desde dispositivos diferentes.
 
 Esto puede aumentar el número de visitantes únicos que ve cuando la identificación de visitantes entre dispositivos está habilitada. El visitante se podría contabilizar dos veces en la misma visita: una en la visita inicial y otra después de que el usuario se autentique.
 
