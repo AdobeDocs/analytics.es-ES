@@ -5,7 +5,7 @@ seo-description: Las variables dinámicas permiten copiar valores entre distinta
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -30,7 +30,9 @@ Consulte también [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/
 |---|---|---|---|
 | N.D. | CDP | Afecta a varios informes ya que controla el modo de almacenamiento y gestión de la ID de visitante. | "2" |
 
-> [!NOTE] Algunos servicios de computación en la nube se consideran dominios de nivel superior, que no permiten la escritura de cookies. (Por ejemplo, `*.googlecode.com`, `compute.amazonaws.com`, `*.herokuapp.com`, etc.). Si implementa en esos servicios, podría verse afectado por la configuración de privacidad de Analytics que elimina a los usuarios que han bloqueado todas las cookies si no cuenta con su propio dominio configurado (por ejemplo, si está probando la implementación). En este caso, cualquier visita para la que el sistema haya determinado que las cookies están deshabilitadas, no son funcionales o no son accesibles queda fuera y se excluye de los informes.
+>[!NOTE]
+>
+>Algunos servicios de computación en la nube se consideran dominios de nivel superior, que no permiten la escritura de cookies. (Por ejemplo, `*.googlecode.com`, `compute.amazonaws.com`, `*.herokuapp.com`, etc.). Si implementa en esos servicios, podría verse afectado por la configuración de privacidad de Analytics que elimina a los usuarios que han bloqueado todas las cookies si no cuenta con su propio dominio configurado (por ejemplo, si está probando la implementación). En este caso, cualquier visita para la que el sistema haya determinado que las cookies están deshabilitadas, no son funcionales o no son accesibles queda fuera y se excluye de los informes.
 
 ## Ejemplos
 
