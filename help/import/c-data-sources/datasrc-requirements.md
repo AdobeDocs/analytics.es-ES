@@ -8,7 +8,7 @@ title: Requisitos y límites de carga
 topic: Desarrollador e implementación
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ Información sobre requisitos para el grupo de informes antes de utilizar fuente
 
 En las secciones siguientes se indican restricciones que rigen para las fuentes de datos y los datos importados a informes y análisis de marketing.
 
-* [Límites de tamaño](../../import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
-* [Fechas](../../import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
-* [General](../../import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
-* [Compatibilidad con formatos multibyte](../../import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
-* [Carga de archivos de registro web](../../import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [Límites de tamaño](/help/import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
+* [Fechas](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
+* [General](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
+* [Compatibilidad con formatos multibyte](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
+* [Carga de archivos de registro web](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
 ## Límites de tamaño {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
@@ -43,7 +43,7 @@ En las secciones siguientes se indican restricciones que rigen para las fuentes 
 
 * Cuando se carga un archivo al sistema de fuente de datos, este realiza una verificación básica de los datos, para comprobar que el archivo no contenga errores de formato. Si el sistema encuentra algún error en el archivo, envía al usuario un aviso por correo electrónico y detiene el procesamiento.
 * Los campos de datos no pueden contener ningún punto y coma; si algún registro contiene un punto y coma, el sistema de fuente de datos lo omitirá.
-* Los datos de los archivos de registro web, tráfico y algunos agrupamientos de fuentes de datos genéricas no se pueden usar en el Almacén de datos ni en Discover. Para obtener más información, consulte Tipos [de datos y categorías](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105).
+* Los datos de los archivos de registro web, tráfico y algunos agrupamientos de fuentes de datos genéricas no se pueden usar en el Almacén de datos ni en Discover. Para obtener más información, consulte Tipos [de datos y categorías](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * Las fuentes de datos no admiten los eventos serializados.
 
 ## Compatibilidad con formatos multibyte {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -60,7 +60,7 @@ El sistema de fuentes de datos admite archivos con codificación multibyte. El s
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Admitido. El grupo de informes que se use con la fuente de datos debe tener habilitada la compatibilidad con codificación de caracteres multibyte. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">Nuevo grupo de informes</a> en la ayuda. </p> </td> 
+   <td colname="col2"> <p>Admitido. El grupo de informes que se use con la fuente de datos debe tener habilitada la compatibilidad con codificación de caracteres multibyte. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  >Nuevo grupo de informes</a> en la ayuda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 con marca de orden de bytes (EF BB BF) </td> 
