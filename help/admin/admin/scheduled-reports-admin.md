@@ -7,7 +7,7 @@ title: Cola de informes programados
 topic: Informes
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,10 +20,10 @@ Permite que los usuarios de nivel de administración vean y gestionen informes p
 
 Algunas funciones de nivel de administración en el Administrador de informes programados son:
 
-* La opción [Mostrar todos los informes programados](../../admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) de su organización.
-* [Funciones de filtro avanzado](../../admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) de su organización.
-* La nueva ficha [Cola de informes](../../admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) que enumera todos los informes que están en cola para la ejecución en los servidores de informes.
-* Visualización del [ID de programa](../../admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) en la interfaz de cola de informe.
+* La opción [Mostrar todos los informes programados](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) de su organización.
+* [Funciones de filtro avanzado](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) de su organización.
+* La nueva ficha [Cola de informes](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) que enumera todos los informes que están en cola para la ejecución en los servidores de informes.
+* Visualización del [ID de programa](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) en la interfaz de cola de informe.
 
 ## Mostrar todos los informes programados {#section_3F167CAAEEC24140B476CF95B7402690}
 
