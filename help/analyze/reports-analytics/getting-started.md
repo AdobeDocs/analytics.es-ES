@@ -8,7 +8,7 @@ title: Introducción a Reports and Analytics
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,13 +77,13 @@ Instrucciones sobre cómo generar un informe.
 
 1. Inicie sesión en [!UICONTROL Reports &amp; Analytics].
 
-   Se muestra el menú Informes o un [tablero](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) si ha configurado uno.
+   Se muestra el menú Informes o un [tablero](/help/analyze/reports-analytics/dashboard.md) si ha configurado uno.
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
+   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report.
 
 ## Editar la configuración de la cuenta de un usuario
 
@@ -116,11 +116,11 @@ Todos los usuarios tienen acceso a la página [!UICONTROL Información de la cue
   </tr> 
   <tr> 
    <td> <p> Inicio de sesión </p> </td> 
-   <td> <p>Muestra el nombre de usuario de la cuenta y le permite cambiar la contraseña de la cuenta. </p> <p>Vea también: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" scope="external">Cómo restablecer la contraseña de la cuenta de Reports &amp; Analytics</a>. </p> </td> 
+   <td> <p>Muestra el nombre de usuario de la cuenta y le permite cambiar la contraseña de la cuenta. </p> <p>Vea también: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >Cómo restablecer la contraseña de la cuenta de Reports &amp; Analytics</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Servicio web </p> </td> 
-   <td> <p>Muestra el nombre de usuario de los servicios web y el secreto compartido asociado a esta cuenta. Utilice estas credenciales cuando acceda a Experience Cloud a través de las API de servicios web. Si desea más información, consulte <a href="https://marketing.adobe.com/developer" scope="external" format="https">Developer Connection</a>. </p> <p> <p>Nota: Esta información se muestra únicamente si la cuenta está autorizada como usuario de servicios Web. </p> </p> </td> 
+   <td> <p>Muestra el nombre de usuario de los servicios web y el secreto compartido asociado a esta cuenta. Utilice estas credenciales cuando acceda a Experience Cloud a través de las API de servicios web. Si desea más información, consulte <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>. </p> <p> <p>Nota: Esta información se muestra únicamente si la cuenta está autorizada como usuario de servicios Web. </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Excluir este equipo </p> </td> 
