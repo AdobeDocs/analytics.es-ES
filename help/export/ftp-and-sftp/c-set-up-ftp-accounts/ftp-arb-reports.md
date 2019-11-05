@@ -7,7 +7,7 @@ solution: Analytics
 title: Informes entregados por el Report Builder
 uuid: 94070700-4073-499a-afe2-10a30eab79f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ Utilice el complemento Creador de informes de Adobe para Microsoft Excel a fin d
 
 Las solicitudes pueden hacer referencia, de forma dinámica, a las celdas que hay en la hoja de cálculo y la presentación de los datos se puede actualizar y personalizar. Para los datos de FTP, se debe comprobar si el host se encuentra disponible de forma externa. Para obtener más información sobre los informes que entrega el [!UICONTROL creador de informes], consulte la [Ayuda del creador de informes](https://marketing.adobe.com/resources/help/en_US/arb/index.html#ReportBuilder_Home).
 
-Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).
+Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](/help/export/ftp-and-sftp/ftp-limits.md).
