@@ -8,12 +8,12 @@ title: Información sobre la recopilación de datos
 topic: Reports and Analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# Información sobre la recopilación de datos{#about-data-collection}
+# Información sobre la recopilación de datos
 
 Obtenga más información sobre cómo se recopilan los datos para Adobe Analytics.
 
@@ -29,4 +29,4 @@ En un nivel superior, el proceso de recopilación de datos fluye de la siguiente
 
 La recopilación de datos es muy rápida y no se percibe en los tiempos de carga de las páginas. Los datos recopilados incluyen las vistas de páginas resultantes de hacer clic en los botones **Actualizar** o **Atrás**. El código JavaScript se ejecuta incluso cuando la página se recupera de la caché.
 
-See [Data Collection in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html).
+See [Data Collection in Analytics.](/help/import/home.md)
