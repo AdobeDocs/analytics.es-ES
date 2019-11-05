@@ -7,7 +7,7 @@ title: Generar segmentos
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,17 +22,17 @@ Ad Hoc Analysis incluye funciones conocidas para la generación de segmentos, ad
 
 Si desea más información e instrucciones sobre la generación y administración de segmentos en el entorno de Segmentación unificada, incluidas las funciones de análisis específicos, consulte la documentación de [Segmentación unificada](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html).
 
-* [Nuevas características](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
+* [Nuevas características](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [Cambios en la definición de segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
-* [¿Qué ha ocurrido con mis segmentos existentes?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
-* [¿Qué ha ocurrido con mis carpetas de segmentos existentes?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
-* [¿Puedo gestionar todos mis segmentos de Analytics en el Administrador de segmentos?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
-* [¿Qué es el contenedor de visitas? ¿En qué se diferencia de un contenedor de vistas de página?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
-* [¿Qué derechos y privilegios necesito para utilizar, crear y administrar segmentos?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [¿Qué debo hacer con los segmentos duplicados que tienen...](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
-* [¿Cómo recomienda Adobe que limpie los segmentos?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
-* [¿Por qué no puedo eliminar este segmento?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
-* [Más acerca de lo que ocurre con sus segmentos existentes](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
+* [¿Qué ha ocurrido con mis segmentos existentes?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+* [¿Qué ha ocurrido con mis carpetas de segmentos existentes?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
+* [¿Puedo gestionar todos mis segmentos de Analytics en el Administrador de segmentos?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
+* [¿Qué es el contenedor de visitas? ¿En qué se diferencia de un contenedor de vistas de página?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
+* [¿Qué derechos y privilegios necesito para utilizar, crear y administrar segmentos?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
+* [¿Qué debo hacer con los segmentos duplicados que tienen...](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [¿Cómo recomienda Adobe que limpie los segmentos?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
+* [¿Por qué no puedo eliminar este segmento?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
+* [Más acerca de lo que ocurre con sus segmentos existentes](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## Funciones {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -117,7 +117,7 @@ Si el segmento se [publicó en Experience Cloud](https://marketing.adobe.com/res
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">Visitas de búsqueda de pago </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">Visitas con cookie de ID de visitante </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Estos segmentos se migrarán como <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> plantillas de segmentos al Generador de segmentos.</a> </p> <p>Los informes existentes que tengan estos segmentos aplicados seguirán funcionando correctamente. </p> </td> 
+   <td colname="col2"> <p>Estos segmentos se migrarán como <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > plantillas de segmentos al Generador de segmentos.</a> </p> <p>Los informes existentes que tengan estos segmentos aplicados seguirán funcionando correctamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmentos de Experience Cloud (Suite): 
@@ -130,7 +130,7 @@ Si el segmento se [publicó en Experience Cloud](https://marketing.adobe.com/res
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">Visitas con más de 5 visitas previas* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">Visitas provenientes de Facebook* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> La mayoría de estos segmentos (excepto los marcados con un asterisco *) se migrarán como <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external"> plantillas de segmentos al Generador de segmentos.</a> Además, se han agregado varias plantillas de segmentos nuevas. </p> <p>Los informes existentes que tengan estos segmentos aplicados seguirán funcionando correctamente. </p> </td> 
+   <td colname="col2"> <p> La mayoría de estos segmentos (excepto los marcados con un asterisco *) se migrarán como <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  > plantillas de segmentos al Generador de segmentos.</a> Además, se han agregado varias plantillas de segmentos nuevas. </p> <p>Los informes existentes que tengan estos segmentos aplicados seguirán funcionando correctamente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Segmentos de Administrador <p>(también conocidos como segmentos "globales") </p> </td> 
