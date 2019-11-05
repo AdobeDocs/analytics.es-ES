@@ -5,9 +5,9 @@ seo-title: Administración social
 solution: Analytics
 title: Administración social
 topic: Herramientas de administración
-uuid: d 5159048-d 7 bc -4321-9753-9 b 4 d 733 e 529 f
+uuid: d5159048-d7bc-4321-9753-9b4d733e529f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -16,6 +16,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Si Adobe Social está habilitado, esta opción le permite clasificar variables de Social.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Administración]** social &gt; **[!UICONTROL Clasificaciones sociales.]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **** de informes &gt; **[!UICONTROL Editar configuración]** &gt; Administración **** social &gt; Clasificaciones **[!UICONTROL sociales.]**
 
 <!--Meike, link to social user guide?-->
