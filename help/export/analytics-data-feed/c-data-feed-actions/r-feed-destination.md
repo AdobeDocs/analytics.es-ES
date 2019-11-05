@@ -7,7 +7,7 @@ solution: Analytics
 title: Destino de la fuente
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -95,7 +95,7 @@ La siguiente tabla incluye las opciones de todos los canales de distribución. L
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cubo </p> </td> 
-   <td colname="col2"> <p>Introduzca la ubicación del cubo de Amazon S3. </p> <p>Este valor debe coincidir con el formato utilizado para los depósitos S3 (See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html" format="html" scope="external"> https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>Nota: Consulte <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">Ajuste BucketOwnerFullControl para fuentes de datos de Amazon S3</a> más adelante para obtener información detallada sobre la configuración de Amazon S3. </p> </p> </td> 
+   <td colname="col2"> <p>Introduzca la ubicación del cubo de Amazon S3. </p> <p>Este valor debe coincidir con el formato utilizado para los depósitos S3 (See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html"  > https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>Nota: Consulte <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >Ajuste BucketOwnerFullControl para fuentes de datos de Amazon S3</a> más adelante para obtener información detallada sobre la configuración de Amazon S3. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contenedor </p> </td> 
@@ -111,7 +111,7 @@ La siguiente tabla incluye las opciones de todos los canales de distribución. L
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ruta </p> </td> 
-   <td colname="col2"> <p>Seleccione la ruta del host o del depósito. Esta ruta debe existir antes de crear la fuente. </p> <p> <p>Nota: Consulte <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">Ajuste BucketOwnerFullControl para fuentes de datos de Amazon S3</a> más adelante para obtener información detallada sobre la configuración de Amazon S3. </p> </p> </td> 
+   <td colname="col2"> <p>Seleccione la ruta del host o del depósito. Esta ruta debe existir antes de crear la fuente. </p> <p> <p>Nota: Consulte <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >Ajuste BucketOwnerFullControl para fuentes de datos de Amazon S3</a> más adelante para obtener información detallada sobre la configuración de Amazon S3. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cuenta </p> </td> 
@@ -119,11 +119,11 @@ La siguiente tabla incluye las opciones de todos los canales de distribución. L
   </tr> 
   <tr> 
    <td colname="col1"> <p>Clave pública </p> </td> 
-   <td colname="col2"> <p>Facilite la clave pública de SFTP. </p> <p>Debe descargar la clave pública para configurar el repositorio de SFTP. </p> <p> <p>Nota: No es necesario descargar la clave pública para crear la fuente. </p> </p> <p>Puede utilizar una clave pública que ya se haya descargado al crear una fuente anterior. </p> <p>Para obtener más información, consulte <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html" format="html" scope="external">https://marketing.adobe.com/resources/help/es_ES/whitepapers/ftp/ftp_sftp_dw.html</a>. </p> </td> 
+   <td colname="col2"> <p>Facilite la clave pública de SFTP. </p> <p>Debe descargar la clave pública para configurar el repositorio de SFTP. </p> <p> <p>Nota: No es necesario descargar la clave pública para crear la fuente. </p> </p> <p>Puede utilizar una clave pública que ya se haya descargado al crear una fuente anterior. </p> <p>Para obtener más información, consulte <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html"  >https://marketing.adobe.com/resources/help/es_ES/whitepapers/ftp/ftp_sftp_dw.html</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Clave </p> <p>Confirmación de la clave </p> </td> 
-   <td colname="col2"> <p> Introduzca la clave de acceso al almacenamiento. Vuelva a introducirla para confirmar. </p> <p> <p>Nota: Consulte <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys" format="https" scope="external">https://docs.microsoft.com/es-es/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> para más información sobre cómo obtener las claves de acceso. </p> </p> </td> 
+   <td colname="col2"> <p> Introduzca la clave de acceso al almacenamiento. Vuelva a introducirla para confirmar. </p> <p> <p>Nota: Consulte <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys"  >https://docs.microsoft.com/es-es/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> para más información sobre cómo obtener las claves de acceso. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Clave secreta </p> <p>Confirmar clave secreta </p> </td> 
