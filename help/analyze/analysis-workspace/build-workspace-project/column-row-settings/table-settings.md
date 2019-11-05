@@ -5,7 +5,7 @@ seo-title: Configuración de filas
 title: Configuración de filas
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 La configuración de filas varía en función del componente que haya arrastrado a la tabla.
 
-También puede utilizar [acciones del botón secundario en una tabla](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F) para administrar las filas seleccionadas.
+También puede utilizar [acciones del botón secundario en una tabla](/help/analyze/analysis-workspace/visualizations/freeform-table.md) para administrar las filas seleccionadas.
 
 Para obtener acceso a la configuración de fila de tabla, haga clic en el icono Configuración junto a una dimensión, segmento, métrica, periodo de tiempo o desglose dentro de cada uno de estos elementos:
 
@@ -29,7 +29,7 @@ Para obtener acceso a la configuración de fila de tabla, haga clic en el icono 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Comparaciones de fechas</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparaciones de fechas</a> </p> </td> 
    <td colname="col2"> <p><b>Alinee fechas de cada columna con todas a partir de la misma fila. </b> </p> <p>Cuando elija alinear las fechas, por ejemplo en una comparación mes tras mes entre octubre y septiembre de 2016, la columna izquierda comenzará el 1 de octubre y la de la derecha comenzará el 1 de septiembre: </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Deshabilitado de forma predeterminada. </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ Para obtener acceso a la configuración de fila de tabla, haga clic en el icono 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Totales de columna </p> </td> 
-   <td colname="col2"> <p>Esta configuración solo se muestra con las <a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local"> filas manuales (estáticas)</a> (cuando ha seleccionado un conjunto finito de elementos), no con las filas dinámicas (cuando suelta una dimensión que muestra todos los elementos). <p>Nota: Para las filas manuales de <i>métricas</i>, la configuración está deshabilitada porque no tiene sentido sumar métricas aparte de las filas actuales de una tabla. </p> </p> <p><b>Calcular los totales sumando los valores actuales de cada columna (habilitado de forma predeterminada):</b> </p> <p>Esta opción solo calcula las filas actuales de la tabla (cálculo del lado del cliente). </p> <p><b>Calcular los totales basados en todas las filas para cada métrica (deshabilitado de forma predeterminada):</b> </p> <p>Esta opción incluye todos los elementos de dimensión para dicha dimensión, incluso los que no aparecen en la lista (cálculo del lado del servidor). </p> </td> 
+   <td colname="col2"> <p>Esta configuración solo se muestra con las <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  > filas manuales (estáticas)</a> (cuando ha seleccionado un conjunto finito de elementos), no con las filas dinámicas (cuando suelta una dimensión que muestra todos los elementos). <p>Nota: Para las filas manuales de <i>métricas</i>, la configuración está deshabilitada porque no tiene sentido sumar métricas aparte de las filas actuales de una tabla. </p> </p> <p><b>Calcular los totales sumando los valores actuales de cada columna (habilitado de forma predeterminada):</b> </p> <p>Esta opción solo calcula las filas actuales de la tabla (cálculo del lado del cliente). </p> <p><b>Calcular los totales basados en todas las filas para cada métrica (deshabilitado de forma predeterminada):</b> </p> <p>Esta opción incluye todos los elementos de dimensión para dicha dimensión, incluso los que no aparecen en la lista (cálculo del lado del servidor). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Desgloses </p> </td> 
