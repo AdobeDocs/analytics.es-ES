@@ -5,9 +5,9 @@ seo-title: Descargar la configuración de grupo de informes
 solution: Analytics
 title: Descargar la configuración de grupo de informes
 topic: Herramientas de administración
-uuid: f 0 aa 19 a 5-eb 5 d -4 ad 4-b 463-9400 abb 07038
+uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
