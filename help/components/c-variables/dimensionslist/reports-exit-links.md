@@ -7,7 +7,7 @@ title: Vínculos de salida
 topic: Informes
 uuid: e1452f04-389d-4aa3-8763-73280284302
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,6 +35,6 @@ Para que esta página se rellene correctamente deben cumplirse varios requisitos
 * Este informe puede verse en los formatos de tendencias y clasificación.
 * Este informe puede utilizar un filtro de búsqueda para localizar artículos de línea específicos.
 * Pueden crearse [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
-* [Instancias](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) son las únicas métricas disponibles de forma predeterminada en este informe y cuentan el número de veces que se ha activado un vínculo de salida.
+* [Instancias](/help/components/c-variables/c-metrics/metrics-instance.md) son las únicas métricas disponibles de forma predeterminada en este informe y cuentan el número de veces que se ha activado un vínculo de salida.
 * En este informe pueden habilitarse los visitantes diarios, semanales, mensuales y trimestrales. No obstante, solo puede hacerlo un representante de Adobe con un costo adicional. Cuando se habilitan los visitantes únicos para cualquier variable de seguimiento de vínculos personalizados, aumenta considerablemente la latencia del grupo de informes.
 
