@@ -7,7 +7,7 @@ title: Visita a una sola página
 topic: Informes
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,8 +24,8 @@ Este informe se utiliza por lo general en el contexto del informe [!UICONTROL P�
 
 * Una visita a una sola página se considera una visita que contiene un único valor, no una sola solicitud de imagen.
 
-   * En el contexto de un [informe de páginas](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5), solamente puede activarse una única página en la visita.
-   * En el contexto del informe [de secciones del](../../../components/c-variables/dimensionslist/reports-site-sections.md#concept_39E550D7A9E34C9580E81F5F9E12BDDD)sitio, se activa una sola sección del sitio única dentro de la visita.
+   * En el contexto de un [informe de páginas](/help/components/c-variables/dimensionslist/reports-pages.md), solamente puede activarse una única página en la visita.
+   * En el contexto del informe [de secciones del](/help/components/c-variables/dimensionslist/reports-site-sections.md)sitio, se activa una sola sección del sitio única dentro de la visita.
    * En el contexto de una variable [de](/help/admin/admin/c-traffic-variables/traffic-var.md)tráfico, una visita rellena este informe si se activa un único valor único.
 
 * Siempre y cuando la variable en el contexto del informe contenga un solo valor único, las visitas a una sola página podrán constar de muchas solicitudes de imagen. Tan pronto se rellene un segundo valor único, la visita dejará de considerarse como visita a una sola página.
