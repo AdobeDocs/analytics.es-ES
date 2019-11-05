@@ -1,18 +1,18 @@
 ---
 description: Utilice la ficha Trabajos para ver los historiales de trabajos y administrarlos.
-keywords: Fuente de datos; trabajo; configurar
+keywords: Fuente de datos;trabajo;configurar
 seo-description: Utilice la ficha Trabajos para ver los historiales de trabajos y administrarlos.
-seo-title: 'Trabajos de fuente de datos: información general'
+seo-title: Resumen de los trabajos de la fuente de datos
 solution: Analytics
-title: 'Trabajos de fuente de datos: información general'
-uuid: 83 ccaabb -9457-4 e 37-9 d 1 e-f 2 ee 281 dando 6
+title: Resumen de los trabajos de la fuente de datos
+uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Trabajos de fuente de datos: información general
+# Resumen de los trabajos de la fuente de datos
 
 Utilice la ficha Trabajos para ver los historiales de trabajos y administrarlos.
 
@@ -35,7 +35,7 @@ Nombre de la fuente, Hora de inicio y Estado son columnas obligatorias que no pu
 | Nombre de la fuente | Nombre que se asigna a la fuente. |
 | Hora de inicio | Hora de inicio del trabajo según su zona horaria. |
 | Tiempo de ejecución | El tiempo necesario para que se ejecute el trabajo. Se indica como dd hh:mm:ss. |
-| Estado | El estado [actual](../../../export/analytics-data-feed/c-df-jobs/r-job-status.md#reference_7A39A327F643447F9B5AE3A2502C72BA) del trabajo. |
+| Estado | El estado [actual](/help/export/analytics-data-feed/c-df-jobs/r-job-status.md) del trabajo. |
 | Tiempo de finalización | La hora a la que el trabajo ha finalizado su ejecución. Se indica según su zona horaria. |
 | Fecha solicitada | Marca de fecha de los datos incluidos en el trabajo. |
 
