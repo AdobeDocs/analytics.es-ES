@@ -7,7 +7,7 @@ title: Vista de la página
 topic: Métricas
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,4 +24,4 @@ A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt;
 | Conversión | Una vista de página se produce cuando un visitante accede a una página del sitio web. |
 | Ad Hoc Analysis  | Una vista de página se produce cuando un visitante accede a una página del sitio web. |
 
-Consulte [Informe de vistas de página](../../../components/c-variables/dimensionslist/reports-page-views.md#concept_332C9BDFD6C1495C8362860478B9BA33).
+Consulte [Informe de vistas de página](/help/components/c-variables/dimensionslist/reports-page-views.md).
