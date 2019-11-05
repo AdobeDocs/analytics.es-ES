@@ -8,7 +8,7 @@ title: Variables y valores
 topic: Desarrollador e implementación
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,4 +50,4 @@ Los nombres de página distinguen entre mayúsculas y minúsculas y, en caso de 
 
 > [!NOTE] No se pueden combinar varios registros de página en los informes.
 
-Compruebe que los vínculos se incluyen en el informe [!UICONTROL Vínculos personalizado]. Asegúrese de que se pasan los parámetros correctos a la función [!UICONTROL tl]. Para obtener más información sobre [!UICONTROL vínculos personalizados], consulte [Seguimiento de vínculos](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
+Compruebe que los vínculos se incluyen en el informe [!UICONTROL Vínculos personalizado]. Asegúrese de que se pasan los parámetros correctos a la función [!UICONTROL tl]. Para obtener más información sobre [!UICONTROL vínculos personalizados], consulte [Seguimiento de vínculos](/help/implement/js-implementation/function-tl.md).
