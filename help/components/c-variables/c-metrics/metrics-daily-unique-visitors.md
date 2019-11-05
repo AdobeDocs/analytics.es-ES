@@ -7,7 +7,7 @@ title: Visitantes únicos diarios
 topic: Métricas
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ Número de visitantes no duplicados (contabilizados solo una vez) del sitio web 
 | Conversión | Solo admite [!UICONTROL visitantes únicos diarios]. Tiene la misma definición que el tráfico, con la excepción de que sólo se contabiliza si existe un evento relacionado con la conversión. |
 | Ad Hoc Analysis  | Visitante único que accede al sitio por un solo día. Las visitas múltiples en un día se contabilizan como un [!UICONTROL visitante único diario]. |
 
-Consulte [Visitantes únicos](../../../components/c-variables/c-metrics/metrics-unique-visitors.md#concept_9B3F44A4EA4E4F178FF164EF9694F88E).
+Consulte [Visitantes únicos](/help/components/c-variables/c-metrics/metrics-unique-visitors.md).
