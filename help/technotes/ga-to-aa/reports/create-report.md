@@ -1,71 +1,71 @@
 ---
 title: Crear un informe básico en Analysis Workspace
-description: Aprenda a crear un informe básico en Analysis Workspace en un formato orientado a usuarios familiarizados con herramientas de terceros como Google Analytics.
+description: Descubra cómo crear un informe básico en Analysis Workspace en un formato dirigido a usuarios familiarizados con herramientas de terceros como Google Analytics.
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
 
 
-# Creación de un informe básico en Analysis Workspace para usuarios de Google Analytics
+# Crear un informe básico en Analysis Workspace para los usuarios de Google Analytics
 
 Analysis Workspace (una de las funciones principales de Adobe Analytics) proporciona un área sólida para que un usuario obtenga cualquier perspectiva sobre los datos recopilados. Los informes son muy diferentes entre Google Analytics y Adobe Analytics:
 
-* La estructura de informes de Google Analytics permite seleccionar un tipo particular de datos, como ubicación geográfica o tráfico de referencia. La plataforma utiliza una vista de informe prefabricada basada en la mejor manera de ver esos datos.
-* La estructura de informes de Analysis Workspace proporciona un lienzo en blanco, lo que proporciona mayor flexibilidad para satisfacer las necesidades exactas de los informes.
+* La estructura de informes de Google Analytics permite seleccionar un tipo concreto de datos, como ubicación geográfica o tráfico de referencia. La plataforma utiliza una vista de informes prefabricada basada en la mejor manera esperada de ver esos datos.
+* La estructura de informes de Analysis Workspace proporciona un lienzo en blanco, lo que proporciona más flexibilidad para satisfacer las necesidades exactas de informes.
 
-Como Analysis Workspace funciona más como un lienzo que los informes prefabricados, la recreación de informes desde Google Analytics es simplemente una cuestión de usar las visualizaciones y componentes correctos.
+Como Analysis Workspace funciona más como un lienzo que como informes prefabricados, recrear informes de Google Analytics es simplemente una cuestión de utilizar las visualizaciones y los componentes adecuados.
 
 ## Términos clave utilizados en Workspace
 
-* **Los paneles** son los bloques principales de trabajo. En casi todos los escenarios se utiliza un panel improvisado.
-* **Las visualizaciones** conforman todos los paneles improvisados. Su propósito es representar los datos en distintos formatos. La mayoría de las veces el formato es una tabla, pero otras veces pueden ser como un gráfico de líneas o anillo. Muchos informes de Google Analytics se realizan con el equivalente de dos visualizaciones: un gráfico de líneas y una tabla improvisada.
-* **Los componentes** se colocan en una visualización para devolver datos. Los componentes pueden mezclarse de muchas formas diferentes para satisfacer las necesidades de los informes.
-   * **Las dimensiones** son valores de variable y normalmente contienen texto. Algunos ejemplos son: nombre de página, referente o país geográfico. Se muestran generalmente como filas en una tabla.
-   * **Las métricas** suelen indicar un evento o una conversión de algún tipo. Algunos ejemplos son eventos comunes como una vista de página, o algo más significativo como una compra o registro. Se suelen ver como columnas en tablas para mostrar el número de veces que se produjo el evento por dimensión.
-   * **Los segmentos** son un subconjunto de los datos y se comportan de forma similar a los segmentos de Google Analytics. Permiten realizar filtros personalizados, permitiéndole centrarse en una parte concreta de los datos.
-   * **Los intervalos** de fechas permiten organizar los datos cuando se produce un evento. Son el pilar de visualización de tendencias a lo largo del tiempo y generalmente se asocian con una métrica.
+* **Los paneles** son los componentes principales del espacio de trabajo. En casi todos los casos, se utiliza un panel improvisado.
+* **Las visualizaciones** conforman todos los paneles improvisados. Su propósito es representar los datos en diferentes formatos. La mayoría de las veces ese formato es una tabla, pero otras veces puede ser cosas como un gráfico circular o de líneas. Muchos informes de Google Analytics tienen el equivalente de dos visualizaciones: un gráfico de líneas y una tabla improvisada.
+* **Los componentes** se colocan en una visualización para devolver datos. Los componentes se pueden mezclar de muchas maneras diferentes para satisfacer las necesidades de informes.
+   * **Las dimensiones** son valores variables y generalmente contienen texto. Los ejemplos incluyen nombre de página, referente o país geográfico. Normalmente se enumeran como filas en una tabla.
+   * **Las métricas** generalmente significan un evento o conversión de algún tipo. Los ejemplos incluyen eventos comunes, como una vista de página, o algo más significativo como una compra o un registro. Generalmente se ven como columnas en tablas para mostrar el número de veces que se produjo ese evento por dimensión.
+   * **Los segmentos** son un subconjunto de sus datos y se comportan de manera similar a los segmentos en Google Analytics. Permiten crear filtros personalizados, lo que le permite centrarse en una parte específica de sus datos.
+   * **Los intervalos** de fechas permiten organizar los datos según el momento en que se produjo un evento. Son la columna vertebral de las tendencias de visualización a lo largo del tiempo y suelen estar emparejadas con una métrica.
 
 ## Crear un informe básico en Workspace
 
-Cree un informe Todas las páginas (similar al de Google Analytics) arrastrando los componentes adecuados a un lienzo de espacio de trabajo.
+Cree un informe de todas las páginas (similar al de Google Analytics) arrastrando los componentes adecuados a un lienzo de área de trabajo.
 
-1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
-2. Haga clic en el icono 9 cuadrado en la esquina superior derecha y, a continuación, haga clic en el logotipo de color de color.
+1. Inicie sesión en [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
+2. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
 3. En la barra de navegación superior, haga clic en Espacio de trabajo.
-4. Haga clic en el botón'Crear nuevo proyecto '.
-5. En la ventana emergente modal, asegúrese de que está seleccionada la opción «Proyecto en blanco» y, a continuación, haga clic en Crear.
-6. A la izquierda se muestra una lista de dimensiones, métricas, segmentos e intervalos de fechas. Busque la dimensión Páginas (naranja color) y arrástrela al lienzo rotulada «Arrastrar una dimensión aquí».
-7. Se puede ver un informe que muestra las páginas principales de este mes. Analysis Workspace automatically populates the report with the [Occurrences](../../../components/c-variables/c-metrics/metrics-occurrences.md) metric.
-8. Una tabla en Google Analytics suele contener 7-8 métricas. Busque la métrica Tasa de devoluciones (verde color) y arrástrela al lado del encabezado de métrica Ocurrencias. Si arrastra la métrica Tasa de devoluciones al lado de Ocurrencias, ambas métricas se muestran en paralelo.
-9. Muchas métricas pueden colocarse en paralelo arrastrando métricas al lado de encabezados de métricas existentes. See [commonly used metrics](common-metrics.md) for information on how to obtain metrics typically used in Google Analytics.
+4. Haga clic en el botón 'Crear nuevo proyecto'.
+5. En la ventana emergente modal, asegúrese de que está seleccionado 'Proyecto en blanco' y, a continuación, haga clic en Crear.
+6. A la izquierda se muestra una lista de dimensiones, métricas, segmentos e intervalos de fechas. Busque la dimensión Páginas (de color naranja) y arrástrela al lienzo rotulado 'Colocar una dimensión aquí'.
+7. Se puede ver un informe que muestra las páginas principales de este mes. Analysis Workspace rellena automáticamente el informe con la métrica [Ocurrencias](/help/components/c-variables/c-metrics/metrics-occurrences.md) .
+8. Una tabla de Google Analytics suele contener entre 7 y 8 métricas. Busque la métrica Tasa de salida hacia otro sitio (de color verde) y arrástrela junto al encabezado de la métrica Ocurrencias. Si arrastra la métrica Tasa de salida hacia otro sitio junto a Ocurrencias, ambas métricas se muestran una junto a la otra.
+9. Muchas métricas se pueden colocar en paralelo arrastrando las métricas junto a los encabezados de métricas existentes. Consulte las métricas [de uso](common-metrics.md) común para obtener información sobre cómo obtener las métricas que se utilizan normalmente en Google Analytics.
 
-   ![Nueva métrica](../assets/new_metric.png)
+   ![Nueva métrica](/help/technotes/ga-to-aa//assets/new_metric.png)
 
-## Comenzar con una plantilla de informe prediseñada en Workspace
+## Comience con una plantilla de informe prediseñada en Workspace
 
-Cree la plantilla Consumo de contenido (similar al informe Todas las páginas en Google Analytics) mediante el acceso a una plantilla de proyecto.
+Cree la plantilla Consumo de contenido (similar al informe Todas las páginas de Google Analytics) accediendo a una plantilla de proyecto.
 
-1. Haga clic en el botón'Crear nuevo proyecto '.
-2. Busque y haga doble clic en el icono'Consumo de contenido (Web)' enumerado en Todas las plantillas.
-3. Examine cada una de las visualizaciones prediseñadas: Flujo de página de entrada, Tabla de páginas principales, Flujo de página de salida, Flujo de sección del sitio de entrada y Tabla de secciones principales del sitio.
+1. Haga clic en el botón 'Crear nuevo proyecto'.
+2. Busque y haga doble clic en el icono 'Consumo de contenido (Web)' que aparece en Todas las plantillas.
+3. Examine cada una de las visualizaciones prediseñadas: Flujo de página de entrada, Tabla de páginas principales, Flujo de página de salida, Flujo de sección del sitio de entrada y Tabla de secciones del sitio principales.
 
-   ![Selección de plantilla](../assets/content_consumption_template.png)
+   ![Selección de plantilla](/help/technotes/ga-to-aa/assets/content_consumption_template.png)
 
 ## Experimente con la herramienta
 
-Como Analysis Workspace es una herramienta de creación de informes, no afecta a la recopilación de datos. No existen consecuencias para arrastrar componentes de forma indiscriminada a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto de su espacio de trabajo para ver lo que está disponible para usted.
+Como Analysis Workspace es una herramienta de generación de informes, no afecta a la recopilación de datos. No hay repercusiones en arrastrar indiscriminadamente componentes a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto del área de trabajo para ver qué hay disponible.
 
-Si accidentalmente arrastra un componente no válido a su proyecto de espacio de trabajo o desea retroceder, pulse Ctrl + Z (Windows) o cmd + Z (Mac) para deshacer la última acción realizada. You can also start with a clean slate by clicking *[!UICONTROL Project]&gt;[!UICONTROL New]* in the upper left menu.
+Si arrastra accidentalmente un componente no válido al proyecto del área de trabajo o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. También puede empezar con una pizarra limpia haciendo clic en *[!UICONTROL Proyecto]&gt;[!UICONTROL Nuevo]* en el menú superior izquierdo.
 
-Adobe ha colocado muchas funcionalidades en Analysis Workspace en el menú contextual del clic derecho. La mayoría de las visualizaciones y componentes se puede hacer clic con el botón derecho para obtener un análisis y una interacción más detallados. Considere hacer clic con el botón derecho en los componentes del espacio de trabajo para ver las opciones disponibles.
+Adobe ha colocado muchas funciones en Analysis Workspace en el menú contextual que se muestra al hacer clic con el botón derecho. La mayoría de las visualizaciones y componentes se pueden pulsar con el botón derecho para obtener un análisis e interacción más detallados. Considere la posibilidad de hacer clic con el botón secundario en los componentes del espacio de trabajo para ver qué opciones están disponibles.
 
 ## Comprender qué dimensiones y métricas utilizar
 
-Si se siente cómodo con Analysis Workspace y desea volver a crear un informe específico que suele verse en Google Analytics, busque el informe en su página respectiva:
+Si se siente cómodo con Analysis Workspace y desea volver a crear un informe específico que se vea normalmente en Google Analytics, ubique el informe en su página respectiva:
 
 * [Informes en tiempo real](realtime-reports.md)
 * [Informes de audiencia](audience-reports.md)
 * [Informes de adquisición](acquisition-reports.md)
 * [Informes de comportamiento](behavior-reports.md)
-* [Informes Conversiones](conversions-reports.md)
+* [Informes de conversión](conversions-reports.md)
