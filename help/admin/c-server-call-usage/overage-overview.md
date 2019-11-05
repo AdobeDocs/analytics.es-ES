@@ -5,7 +5,7 @@ seo-title: Información general sobre Uso de llamadas al servidor
 title: Información general sobre Uso de llamadas al servidor
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,8 +28,8 @@ Previously, while you could access monthly server call consumption data under  *
 
 ## Requisitos previos {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Permisos**: para acceder al tablero de Uso de llamadas al servidor y al administrador o generador de alertas, debe ser administrador de Adobe Analytics.
-* **Permisos**: los administradores pueden conceder acceso a los no administradores. El permiso se llama **[!UICONTROL Uso de llamadas al servidor]**. Consulte [Permiso de Uso de llamadas al servidor](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **** Permisos: Para acceder al panel Uso de llamadas al servidor y al Generador de alertas/Administrador, debe ser administrador de Adobe Analytics.
+* **** Permisos: Los administradores pueden otorgar acceso a usuarios que no sean administradores: el permiso se denomina Uso de llamadas **[!UICONTROL al servidor]**. Consulte [Permiso de Uso de llamadas al servidor](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## Terminología importante {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -53,13 +53,13 @@ Este es un breve manual sobre terminología esencial para Uso de llamadas al ser
   </tr> 
   <tr> 
    <td colname="col1"> <p>Empresa de inicio de sesión </p> </td> 
-   <td colname="col2"> <p>Una empresa de facturación puede tener <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html" format="html" scope="external">varias empresas de inicio de sesión </a>. Una empresa de inicio de sesión es una recopilación de grupos de informes que su organización utiliza. Algunas organizaciones tienen varias empresas de inicio de sesión que aplican a diferentes partes de la organización. Esto es especialmente útil en organizaciones grandes que trabajan con diferentes unidades de negocio y en las que muchos grupos de informes no sirven para otras personas de la empresa. </p> <p>A menudo, son subsidiarias regionales de una empresa. Este ejemplo muestra empresas de inicio de sesión y sus grupos de informes asociados: </p> 
+   <td colname="col2"> <p>Una empresa de facturación puede tener <a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html">varias empresas de inicio de sesión </a>. Una empresa de inicio de sesión es una recopilación de grupos de informes que su organización utiliza. Algunas organizaciones tienen varias empresas de inicio de sesión que aplican a diferentes partes de la organización. Esto es especialmente útil en organizaciones grandes que trabajan con diferentes unidades de negocio y en las que muchos grupos de informes no sirven para otras personas de la empresa. </p> <p>A menudo, son subsidiarias regionales de una empresa. Este ejemplo muestra empresas de inicio de sesión y sus grupos de informes asociados: </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide: RS1, RS2, RS3, RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Nota: Los datos del uso de llamadas al servidor para <u>todos</u> los grupos de informes de una empresa de facturación son visibles para todos los usuarios con el <a href="../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369" format="dita" scope="local">permiso</a> adecuado. </p> </td> 
+    </ul> <p>Nota: Los datos del uso de llamadas al servidor para <u>todos</u> los grupos de informes de una empresa de facturación son visibles para todos los usuarios con el <a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">permiso</a> adecuado. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Organización de Experience Cloud </p> </td> 
