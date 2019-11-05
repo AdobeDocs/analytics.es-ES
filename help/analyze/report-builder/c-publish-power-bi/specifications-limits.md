@@ -5,7 +5,7 @@ seo-title: Limitaciones y especificaciones
 title: Limitaciones y especificaciones
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,7 +31,7 @@ Editar una solicitud del Creador de informes tras su publicación en Power BI pu
    **Este es un ejemplo de cómo se produce un error de visualización:**
 
    1. En el Creador de informes, cree un libro con una solicitud, empleando para ello la dimensión Página y la métrica Vistas de página.
-   1. [Programe esta solicitud](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) para que se publique en Power BI.
+   1. [Programe esta solicitud](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) para que se publique en Power BI.
    1. En Power BI, cree una visualización para Página y Vistas de páginas.
    1. Ahora, edite el libro eliminando Vistas de páginas de la solicitud.
    1. Edite la programación del libro actualizado y vuelva a publicar la solicitud en Power BI.
@@ -43,7 +43,7 @@ Editar una solicitud del Creador de informes tras su publicación en Power BI pu
    **Este es un ejemplo de cómo NO se produce un error de visualización**:
 
    1. En el Creador de informes, cree un libro con una solicitud, empleando para ello la dimensión Página y la métrica Vistas de página.
-   1. [Programe esta solicitud](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463) para que se publique en Power BI.
+   1. [Programe esta solicitud](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) para que se publique en Power BI.
    1. En Power BI, cree una visualización para Página y Vistas de páginas.
    1. Ahora, edite el libro en el Creador de informes agregando la métrica Visitas y conservando Página y Vistas de página.
    1. Edite la programación del libro actualizado y vuelva a publicar la solicitud en Power BI.
