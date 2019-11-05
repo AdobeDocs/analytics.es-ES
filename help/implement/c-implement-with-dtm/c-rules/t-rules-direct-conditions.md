@@ -6,8 +6,8 @@ seo-title: Creación de condiciones para reglas de llamada directa
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Creación de condiciones para reglas de llamada directa
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -22,5 +22,5 @@ Creación de condiciones para reglas de llamada directa.
 
    >[!NOTE]
    >
-   >Si especifica la cadena que pasará a `_satellite.track()` en una llamada directa a través de la interfaz de usuario, tal y como hemos descrito, no utilice comillas. Si inserta un [código de página personalizado](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B) mediante el editor, debe usar comillas.
+   >Si especifica la cadena que pasará a `_satellite.track()` en una llamada directa a través de la interfaz de usuario, tal y como hemos descrito, no utilice comillas. Si inserta un [código de página personalizado](/help/implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md) mediante el editor, debe usar comillas.
 
