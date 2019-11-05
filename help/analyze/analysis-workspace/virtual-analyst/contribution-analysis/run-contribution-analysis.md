@@ -5,7 +5,7 @@ seo-title: Ejecutar análisis de contribución
 title: Ejecutar análisis de contribución
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -30,7 +30,7 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 
    ![](assets/contribution-analysis.png)
 
-1. (Opcional) Una vez haya hecho clic en **[!UICONTROL Ejecutar análisis de contribución]**, tanto en un gráfico de líneas como en una tabla, puede reducir (y así acelerar) el ámbito del análisis mediante [la exclusión de dimensiones](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Opcional) Una vez haya hecho clic en **[!UICONTROL Ejecutar análisis de contribución]**, tanto en un gráfico de líneas como en una tabla, puede reducir (y así acelerar) el ámbito del análisis mediante [la exclusión de dimensiones](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Espere mientras se carga su análisis de contribución. Esto puede requerir una gran cantidad de tiempo, en función del tamaño del grupo de informes y el número de dimensiones. El análisis de contribución realiza análisis en 50 000 elementos por dimensión.
 1. A continuación, Analysis Workspace carga un nuevo panel de análisis de contribución directamente en este proyecto. Observará una gran cantidad de paneles familiares si ya ha utilizado el análisis de contribución en Reports &amp; Analytics anteriormente:
@@ -45,11 +45,11 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 
 1. Como el análisis de contribución ahora forma parte de Analysis Workspace, puede aprovechar algunas de sus funciones desde el menú secundario de la tabla para que su análisis sea aún más relevante, por ejemplo:
 
-   * [Desglosar todos los elementos de la dimensión por otra dimensión.](../../../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4)
-   * [Realizar la tendencia de una fila o más.](../../../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
-   * [Añadir nuevas visualizaciones.](../../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)
+   * [Desglosar todos los elementos de la dimensión por otra dimensión.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
+   * [Realizar la tendencia de una fila o más.](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [Añadir nuevas visualizaciones.](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [Crear alertas.](/help/components/c-alerts/intellligent-alerts.md)
-   * [Crear o comparar segmentos.](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
+   * [Crear o comparar segmentos.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 > [!NOTE] Resaltamos la anomalía que se está analizando con un punto azul en el análisis de contribución y en los proyectos de alerta inteligente vinculados a ella. Esto proporciona una indicación más clara de la anomalía que se está analizando.
 
