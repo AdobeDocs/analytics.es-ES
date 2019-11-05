@@ -5,7 +5,7 @@ seo-title: Integración de Silverpop
 title: Integración de Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -123,7 +123,7 @@ Para configurar la integración:
   <tr valign="top"> 
    <td colname="col2"> <p>Recopilación de datos </p> </td> 
    <td colname="col03"> <p>(3) Configuración de datos </p> </td> 
-   <td colname="col3"> <p>Seleccione Complemento <b></b> JavaScript si desea utilizar el complemento s_code.js como modelo de recopilación para esta integración (consulte <a href="../silverpop-overview/silverpop-analytics-code.md#concept-28e7c834a6804a949aa9306f8896b36e" format="dita" scope="local"> Código</a>de complemento de Analytics). </p> <p>Seleccione Solución <b></b> automatizada si desea utilizar un modelo de recopilación automatizada para esta integración y, a continuación, especifique los identificadores únicos utilizados para esta integración. </p> <p>Si selecciona esta opción, especifique los identificadores únicos utilizados para esta integración: </p> <p> <b>Parámetro de cadena de consulta de ID de mensaje:</b>este valor representa el ID del mensaje que su socio de correo electrónico anexó a la dirección URL de la página de aterrizaje. </p> <p> <b></b> Parámetro de cadena de consulta de ID del destinatario: Este valor representa la ID del destinatario anexada a la dirección URL de la página de aterrizaje por su socio de correo electrónico. </p> </td> 
+   <td colname="col3"> <p>Seleccione Complemento <b></b> JavaScript si desea utilizar el complemento s_code.js como modelo de recopilación para esta integración (consulte <a href="../silverpop-overview/silverpop-analytics-code.md"> Código</a>de complemento de Analytics). </p> <p>Seleccione Solución <b></b> automatizada si desea utilizar un modelo de recopilación automatizada para esta integración y, a continuación, especifique los identificadores únicos utilizados para esta integración. </p> <p>Si selecciona esta opción, especifique los identificadores únicos utilizados para esta integración: </p> <p> <b>Parámetro de cadena de consulta de ID de mensaje:</b>este valor representa el ID del mensaje que su socio de correo electrónico anexó a la dirección URL de la página de aterrizaje. </p> <p> <b></b> Parámetro de cadena de consulta de ID del destinatario: Este valor representa la ID del destinatario anexada a la dirección URL de la página de aterrizaje por su socio de correo electrónico. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>Generación de tableros y marcadores </p> </td> 
