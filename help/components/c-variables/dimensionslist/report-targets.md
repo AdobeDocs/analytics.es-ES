@@ -5,7 +5,7 @@ seo-title: Objetivos
 title: Objetivos
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,7 +14,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Los informes de Targets permiten medir el rendimiento del sitio web y llevar un seguimiento del avance hacia los objetivos. Por ejemplo, es posible que desee incrementar la cantidad de visitantes de una región, el ingreso por pedido o la cantidad de visitas provenientes de un referente específico.
 
-> [!NOTE] Estos informes no deben confundirse con el informe de Adobe [Target](../../../components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) .
+>[!NOTE]
+>
+> Estos informes no deben confundirse con el informe de Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18) .
 
 To access your Targets reports, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL Targets]** &gt; **[!UICONTROL [your target name]]**
 
