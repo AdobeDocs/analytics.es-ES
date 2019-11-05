@@ -8,7 +8,7 @@ title: Variables de conversión (eVar)
 topic: Herramientas de administración
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,7 +87,7 @@ Descripciones de los campos utilizados al [editar variables](/help/admin/admin/c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Comercialización</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Las variables de comercialización pueden seguir una de dos sintaxis: </p> <p> <b></b> Sintaxis</span>de productos: Asocia el valor de eVar a un producto. Nota: Si la sintaxis de los productos se selecciona, la sección de Evento de enlace de comercialización se desactiva y no se puede seleccionar para la edición. Para esta sintaxis, los eventos de enlace no son aplicables. </p> </p> <p> <b></b> Sintaxis</span>de la variable de conversión: Asocia la eVar con un producto solo si se produce un evento de enlace. En este caso, usted selecciona los eventos que actúan como eventos de enlace. </p> <p>Si cambia este valor sin actualizar adecuadamente el código JavaScript, se perderán datos. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">Variables de comercialización</a>. </p> </td> 
+   <td colname="col2"> <p>Las variables de comercialización pueden seguir una de dos sintaxis: </p> <p> <b></b> Sintaxis</span>de productos: Asocia el valor de eVar a un producto. Nota: Si la sintaxis de los productos se selecciona, la sección de Evento de enlace de comercialización se desactiva y no se puede seleccionar para la edición. Para esta sintaxis, los eventos de enlace no son aplicables. </p> </p> <p> <b></b> Sintaxis</span>de la variable de conversión: Asocia la eVar con un producto solo si se produce un evento de enlace. En este caso, usted selecciona los eventos que actúan como eventos de enlace. </p> <p>Si cambia este valor sin actualizar adecuadamente el código JavaScript, se perderán datos. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html">Variables de comercialización</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento de enlace de comercialización</span> </p> <p>(solo eVar) </p> </td> 
