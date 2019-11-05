@@ -5,7 +5,7 @@ seo-title: Antes de activar esta integración
 title: Antes de activar esta integración
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -21,7 +21,7 @@ Al hacerlo, se asegurará de que se apliquen las prácticas recomendadas o los r
 Revise la siguiente información sobre esta integración de Conectores de datos en relación con Adobe Analytics:
 
 * **** Específico del grupo de informes: Tenga en cuenta que esta integración es específica del grupo de informes. Asegúrese de seleccionar el grupo de informes deseado antes de activar la integración.
-* **** Variables de Analytics disponibles y configuradas: Esta integración requiere 5 eventos personalizados y 2 eVars personalizadas, y opcionalmente 3 eventos adicionales y 3 eVars adicionales. Consulte Variables [de integración de Analytics](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2).
+* **** Variables de Analytics disponibles y configuradas: Esta integración requiere 5 eventos personalizados y 2 eVars personalizadas, y opcionalmente 3 eventos adicionales y 3 eVars adicionales. Consulte Variables [de integración de Analytics](/help/import/data-connectors/silverpop-overview/silverpop-variables.md).
 
 * **** Representante autorizado: Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda. Al activar esta integración, usted declara que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
 * **** Almacén de datos™: Esta integración requiere que el almacén de datos esté habilitado para generar segmentos de remercadotecnia. Si no ha habilitado el almacén de datos, póngase en contacto con Adobe para obtener más información.
