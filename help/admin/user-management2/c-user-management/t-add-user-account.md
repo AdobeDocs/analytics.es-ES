@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: Usuarios y grupos
 title: Agregar una cuenta de usuario
 topic: Herramientas de administración
-uuid: 7 ce 9408 b-d 934-40 df-ada 4-55 d 98 e 36 aa 6 e
+uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
@@ -21,6 +21,6 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 Instrucciones que describen cómo añadir una cuenta de usuario.
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuarios]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Administración **[!UICONTROL de usuarios]**.
 1. Haga clic en **[!UICONTROL Agregar nuevo usuario]**.
-1. Complete los campos especificados en [Descripción de cuentas de usuarios](../../../admin/user-management2/c-user-management/users.md#section_14A7E169514A42A88E06387CC7C2E9AD).
+1. Complete los campos especificados en [Descripción de cuentas de usuarios](/help/admin/user-management2/c-user-management/users.md#section_14A7E169514A42A88E06387CC7C2E9AD).
