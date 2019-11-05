@@ -9,7 +9,7 @@ title: getAndPersistValue
 topic: Desarrollador e implementación
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ El complemento getAndPersistValue obtiene un valor que usted elija y lo rellena 
 
 >[!IMPORTANT]
 >
->Este complemento no se ha validado para que sea compatible con [AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8). Consulte [Asistencia del complemento de AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+>Este complemento no se ha validado para que sea compatible con [AppMeasurement para JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md). Consulte [Asistencia del complemento de AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 
 Por ejemplo: puede utilizar este complemento para establecer un código de seguimiento de campaña de la variable *`campaign`* en una variable de tráfico personalizado (*`s.prop`*) en la vista de página de cada visitante realizada durante los próximos 30 días. Este ejemplo le permite determinar cuántas vistas de página ha generado el código de seguimiento como resultado de la pulsación original.
 
