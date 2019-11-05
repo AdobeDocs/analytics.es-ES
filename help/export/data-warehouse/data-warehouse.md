@@ -7,7 +7,7 @@ title: Resumen de Data Warehouse
 topic: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,7 +67,7 @@ En esta tabla se describen los campos y las opciones de la ficha [!UICONTROL Sol
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Orden de las métricas</span> </td> 
-   <td colname="col2">Proporciona informes de desgloses clasificados, ordenados por un valor de métrica descendente, parecido a lo que se muestra en la interfaz de usuario de Reports &amp; Analytics, Data Workbench, etc. <a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> Más...</a> </td> 
+   <td colname="col2">Proporciona informes de desgloses clasificados, ordenados por un valor de métrica descendente, parecido a lo que se muestra en la interfaz de usuario de Reports &amp; Analytics, Data Workbench, etc. <a href="/help/export/data-warehouse/sorting-by-metric.md"  > Más...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Programar envío</span> </td> 
