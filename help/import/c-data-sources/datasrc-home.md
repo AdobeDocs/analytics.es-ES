@@ -8,7 +8,7 @@ title: Resumen de fuentes de datos
 topic: Desarrollador e implementación
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,6 +37,6 @@ Se pueden usar fuentes de datos para comprender mejor los datos preclic, al impo
 
 >[!IMPORTANT]
 >
->Para que las fuentes de datos de ID de transacción conecten datos sin conexión con eventos en línea, el Servicio de atención al cliente debe activar el registro de ID de transacción. Consulte el [registro de ID de transacción](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) para obtener más información.
+>Para que las fuentes de datos de ID de transacción conecten datos sin conexión con eventos en línea, el Servicio de atención al cliente debe activar el registro de ID de transacción. Consulte el [registro de ID de transacción](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) para obtener más información.
 
 Después de la importación, la mayor parte de los datos de las fuentes estará disponible en toda la Digital Marketing Suite.
