@@ -5,7 +5,7 @@ seo-title: Segmentación de datos de aplicación
 title: Segmentación de datos de aplicación
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 84c40be45ed4b03435451c12b000910579d75ba1
 
 ---
 
@@ -17,7 +17,7 @@ La integración appFigures se utiliza a menudo para recopilar datos de varias ap
 Directrices de segmentación para datos de appFigures:
 
 * Solo debe utilizar contenedores de vista de página.
-* Solo debe usar dimensiones [AppFigures](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) en reglas de filtrado.
-* Puede utilizar varias reglas de segmentos siempre que solo se haga referencia a las dimensiones [](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) AppFigures.
+* Solo debe usar dimensiones [AppFigures](/help/import/data-connectors/appfigures-overview/appfigures-metrics.md) en reglas de filtrado.
+* Puede utilizar varias reglas de segmentos siempre que solo se haga referencia a las dimensiones [](/help/import/data-connectors/appfigures-overview/appfigures-segment-filter.md) AppFigures.
 * Puede utilizar el lienzo Incluir y Excluir.
 * Los segmentos solo se aplican a Adobe Analytics v15.
