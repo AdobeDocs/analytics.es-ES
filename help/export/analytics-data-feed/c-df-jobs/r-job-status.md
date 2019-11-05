@@ -1,13 +1,13 @@
 ---
 description: Los trabajos se pueden mostrar con cualquiera de las etiquetas de estado.
-keywords: Fuente de datos; trabajo; status; esperando datos; failed; ready; processing; complete; ningún dato
+keywords: Fuente de datos;trabajo;estado;esperando datos;error;listo;procesamiento;completado;sin datos
 seo-description: Los trabajos se pueden mostrar con cualquiera de las etiquetas de estado.
 seo-title: Estado del trabajo
 solution: Analytics
 title: Estado del trabajo
-uuid: 0058 b 83 f -7 bff -4 fd 0-bb 9 f-ab 15616 d 29 cf
+uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -19,7 +19,7 @@ Los trabajos se pueden mostrar con cualquiera de las etiquetas de estado.
 | Estado | Descripción |
 |---|---|
 | Esperando datos | El trabajo está en ejecución y se están recopilando datos. |
-| Error | Se ha producido un problema. Consulte [Resolución de problemas relacionados con los trabajos](../../../export/analytics-data-feed/jobs-troubleshooting.md#concept_F3B0CDCCCD8047EEA3CFE9717D860320). |
+| Error | Se ha producido un problema. Consulte [Resolución de problemas relacionados con los trabajos](/help/export/analytics-data-feed/jobs-troubleshooting.md). |
 | Preparado | El trabajo está listo para ejecutarse. |
 | Procesando | El trabajo está creando los archivos de datos y preparándolos para su envío. |
 | Completado | El trabajo ha creado y enviado los archivos. |
