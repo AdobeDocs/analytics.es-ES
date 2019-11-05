@@ -7,7 +7,7 @@ title: Filtrado de datos de los informes
 topic: Reports and Analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -173,7 +173,7 @@ Puede filtrar los datos que se muestran en un informe de correlación usando cua
 
 **Para agregar un filtro de correlación**
 
-1. Ejecute un informe que admita correlaciones. (See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. Ejecute un informe que admita correlaciones. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. En [!UICONTROL Creador de reglas de filtro], seleccione una categoría para correlacionar con un elemento.
 1. Haga clic en **[!UICONTROL Aceptar.]**
