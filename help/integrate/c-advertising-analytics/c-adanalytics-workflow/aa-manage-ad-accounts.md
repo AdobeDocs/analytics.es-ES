@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Administrar cuentas de publicidad
-title: Administrar cuentas de publicidad
-uuid: 0 b 205046-2 eb 5-4 cd 6-be 62-cdf 716 fe 934 e
+seo-title: Administrar las cuentas publicitarias
+title: Administrar las cuentas publicitarias
+uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Administrar cuentas de publicidad
+# Administrar las cuentas publicitarias
 
 You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
 
@@ -26,11 +26,11 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Acciones</b> </p> </td> 
-   <td colname="col2"> <p><b>Nota: Las acciones se muestran únicamente si ha seleccionado por lo menos una cuenta de publicidad. </b> </p> </td> 
+   <td colname="col2"> <p><b>Nota: Las acciones solo se muestran si ha seleccionado al menos una cuenta de publicidad. </b> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>+ Añadir </p> </td> 
-   <td colname="col2"> <p>Lo lleva a la IU <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C" format="dita" scope="local">Configurar cuenta publicitaria</a>. </p> </td> 
+   <td colname="col1"> <p>+ Agregue </p> </td> 
+   <td colname="col2"> <p>Lo lleva a la IU <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md"  >Configurar cuenta publicitaria</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cambiar nombre </p> </td> 
@@ -62,7 +62,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cuenta </p> </td> 
-   <td colname="col2"> <p>Enumera uno de los dos tipos de cuenta admitidos: Google Adwords o Bing Ads. </p> </td> 
+   <td colname="col2"> <p>Enumera uno de los 2 tipos de cuentas admitidos: Google Adwords o Bing Ads. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Estado </p> </td> 
