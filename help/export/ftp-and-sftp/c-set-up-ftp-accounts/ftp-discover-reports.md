@@ -7,7 +7,7 @@ solution: Analytics
 title: Informes entregados por Ad Hoc Analysis
 uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ Se puede configurar un programa de entrega para enviar automáticamente informes
 
 El programa de entrega puede fijarse en un período seleccionado. Los informes se suelen enviar el primer día del período siguiente y nunca se envían después de la mañana del segundo día. Las entregas programadas se pueden modificar o detener en cualquier momento. Para obtener más información sobre los informes que entrega el [!UICONTROL análisis específico], consulte la [Ayuda de análisis específicos](https://marketing.adobe.com/resources/help/en_US/dsc/index.html#Discover_Help).
 
-Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).
+Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](/help/export/ftp-and-sftp/ftp-limits.md).
