@@ -7,12 +7,12 @@ title: Características de los informes
 topic: Reports and Analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# Características de los informes{#report-features}
+# Características de los informes
 
 Introducción a las características de un informe; incluye la barra de herramientas, el calendario y la tabla de detalles.
 
@@ -30,7 +30,7 @@ Comparta los datos del informe con quienes toman decisiones y pueden cambiar las
 
 ![](assets/toolbar.png){width="672px"}
 
-Consulte también [Personalización de un informe](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Consulte también [Personalización de un informe](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Encabezado y configuración de informes {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -38,7 +38,7 @@ Muestra la configuración del informe y permite configurar el tipo de informe, s
 
 ![](assets/settings_header.png){width="672px"}
 
-Consulte [Personalización de un informe](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) para obtener más información.
+Consulte [Personalización de un informe](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) para obtener más información.
 
 ## Calendario {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -46,23 +46,23 @@ Especifique la fecha haciendo clic en el botón de calendario y seleccionando un
 
 ![](assets/calendar_large.png){width="672px"}
 
-Consulte [Selección de una fecha o un intervalo](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) de fechas y [Comparación de fechas](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+Consulte [Selección de una fecha o un intervalo](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) de fechas y [Comparación de fechas](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Tipo de gráfico {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
-Seleccione el tipo de gráfico que desee ver.
+Seleccione el tipo de gráfico que desee ver:
 
 ![](assets/graph_type.png)
 
-Consulte [Cambio de los gráficos de informes](../../../analyze/reports-analytics/reports-customize/t-reports-graphs.md#task_B290BF0B82124111AA19B3F3ACED500A).
+See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
 
 ## Visualización de gráficos {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-Según el tipo de gráfico que haya seleccionado, generalmente, verá los artículos principales de la lista de detalles. Si el gráfico es un gráfico de tendencias que muestra diferentes periodos de tiempo, se muestran todos los periodos de tiempo.
+Según el tipo de gráfico que haya seleccionado, generalmente, verá los artículos principales de la lista de detalles. Si el gráfico es un gráfico de tendencias que muestra diferentes periodos de tiempo, se muestran todos los periodos de tiempo.:
 
 ![](assets/graph.png)
 
-Consulte [Personalización de informes](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Consulte [Personalización de informes.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
 ## Métricas {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -70,14 +70,14 @@ Añada métricas al informe. Los administradores pueden especificar métricas pr
 
 ![](assets/metrics.png)
 
-Consulte [Métricas](../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686).
+Consulte [Métricas.](/help/analyze/reports-analytics/metrics.md)
 
 ## Tabla de detalles {#section_449A5DC848744F65A10DA12E189B835D}
 
-Los detalles constituyen la mayor parte de los datos del informe. En este caso, se indican varias páginas y esas páginas se miden con Vistas de página, que indica la cantidad de veces que se cargaron las páginas durante el periodo de tiempo.
+Los detalles constituyen la mayor parte de los datos del informe. En este caso, se indican varias páginas y esas páginas se miden con Vistas de página, que indica la cantidad de veces que se cargaron las páginas durante el periodo de tiempo:
 
 ![](assets/detail.png)
 
 En la tabla de detalles, puede filtrar datos, crear desgloses, añadir métricas, etc.
 
-Consulte [Personalización de informes](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Consulte [Personalización de informes.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
