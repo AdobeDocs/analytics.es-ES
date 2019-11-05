@@ -5,7 +5,7 @@ seo-title: Informes de dispositivos móviles
 title: Informes de dispositivos móviles
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -91,7 +91,7 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> Informe de versión de Java </td> 
-   <td colname="col2"> <p>Agrupa los dispositivos móviles según la versión de Java que admiten. El informe de versión de Java identifica la versión de Java según la solicitud de especificación de Java (JSR) admitida en el dispositivo. El informe también incluye un grupo desconocido para los sistemas operativos no identificados de dispositivos móviles. </p> <p>Para obtener más información sobre una JSR específica, visite el sitio web de <a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java Community Process</a>. </p> </td> 
+   <td colname="col2"> <p>Agrupa los dispositivos móviles según la versión de Java que admiten. El informe de versión de Java identifica la versión de Java según la solicitud de especificación de Java (JSR) admitida en el dispositivo. El informe también incluye un grupo desconocido para los sistemas operativos no identificados de dispositivos móviles. </p> <p>Para obtener más información sobre una JSR específica, visite el sitio web de <a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Informe de longitud de la dirección URL del marcador </td> 
