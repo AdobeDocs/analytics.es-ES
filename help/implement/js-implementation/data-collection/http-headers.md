@@ -8,7 +8,7 @@ title: Encabezados HTTP de recopilación de datos
 topic: Desarrollador e implementación
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ Los encabezados de solicitud y respuesta HTTP se usan para recopilar datos adici
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>Leer cookies anteriormente creadas por nuestros servidores de recopilación de datos. </p> <p> A fecha de 2014, los servidores de Adobe descartarán cualquier cookie que acompañe a una llamada de servidor, excepto aquellas establecidas por Adobe. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Cookies utilizadas en Experience Cloud</a> para obtener una lista completa de las cookies de Adobe. </p> </td> 
+   <td> <p>Leer cookies anteriormente creadas por nuestros servidores de recopilación de datos. </p> <p> A fecha de 2014, los servidores de Adobe descartarán cualquier cookie que acompañe a una llamada de servidor, excepto aquellas establecidas por Adobe. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/">Cookies utilizadas en Experience Cloud</a> para obtener una lista completa de las cookies de Adobe. </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
