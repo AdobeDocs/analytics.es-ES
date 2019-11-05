@@ -7,7 +7,7 @@ title: Tiempo de espera necesario para aumentos de tráfico
 topic: Herramientas de administración
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -18,7 +18,7 @@ Adobe necesita que se informe por adelantado en caso de nuevas configuraciones d
 
 La asignación del hardware está dirigida por alertas enviadas mediante la interfaz de usuario de Reports &amp; Analytics.
 
-> [!IMPORTANT] Adobe no puede admitir solicitudes de cambio de tráfico de "marcador de posición". A menos que se indique lo contrario, respete el plazo sugerido lo más estrechamente posible, incluido el hecho de no enviar una alerta demasiado pronto. Consulte [Programar un pico](../../admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfico o [Especificar un incremento](../../admin/c-traffic-management/t-traffic-permanent.md)permanente de tráfico.
+> [!IMPORTANT] Adobe no puede admitir solicitudes de cambio de tráfico de "marcador de posición". A menos que se indique lo contrario, respete el plazo sugerido lo más estrechamente posible, incluido el hecho de no enviar una alerta demasiado pronto. Consulte [Programar un pico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfico o [Especificar un incremento](/help/admin/c-traffic-management/t-traffic-permanent.md)permanente de tráfico.
 
 Respete las siguientes normas para determinar la antelación del envío de alertas de tráfico:
 
