@@ -8,7 +8,7 @@ title: Adición de código de Encabezado y Pie de página
 topic: Desarrollador e implementación
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Dynamic Tag Management crea códigos incrustados de ensayo y producción que pue
 
    >[!NOTE]
    >
-   >El código incrustado de producción refleja únicamente los elementos publicados en dicha [propiedad](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123). Sin embargo, el código incrustado para ensayo refleja todos los elementos en la propiedad asociada, con independencia de su estado de publicación. Para probar los elementos no publicados en el sitio de producción, active de forma local la realización de ensayos en la consola. Para ello, siga las instrucciones que se indican en la sección [Probar reglas no publicadas para el alojamiento de Akamai](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259).
+   >El código incrustado de producción refleja únicamente los elementos publicados en dicha [propiedad](/help/implement/c-implement-with-dtm/t-create-web-property.md). Sin embargo, el código incrustado para ensayo refleja todos los elementos en la propiedad asociada, con independencia de su estado de publicación. Para probar los elementos no publicados en el sitio de producción, active de forma local la realización de ensayos en la consola. Para ello, siga las instrucciones que se indican en la sección [Probar reglas no publicadas para el alojamiento de Akamai](/help/implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md).
 
 1. Copie el código del pie de página de producción y colóquelo en la sección [!DNL BODY] del sitio HTML.
 
