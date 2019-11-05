@@ -8,7 +8,7 @@ title: Resumen de administración de usuarios
 topic: Herramientas de administración
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -82,7 +82,7 @@ Crea un tablero predeterminado para un grupo de informes especificado.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Usuario</span> </td> 
-   <td colname="col2"> <p> Concede al usuario únicamente los permisos de grupo seleccionados. Seleccione los grupos que desee en el campo <span class="uicontrol">Grupos disponibles</span> (a la izquierda) y, a continuación, haga clic en <span class="uicontrol">Agregar</span>. Los grupos que asigne aparecerán en el campo <span class="uicontrol">Grupos asignados</span> (a la derecha). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> Concede al usuario únicamente los permisos de grupo seleccionados. Seleccione los grupos que desee en el campo <span class="uicontrol">Grupos disponibles</span> (a la izquierda) y, a continuación, haga clic en <span class="uicontrol">Agregar</span>. Los grupos que asigne aparecerán en el campo <span class="uicontrol">Grupos asignados</span> (a la derecha). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
