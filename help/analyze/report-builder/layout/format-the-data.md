@@ -1,22 +1,22 @@
 ---
 description: Además de las opciones de formato de celda estándar disponibles mediante la función de Excel Formato > Celdas (Ctrl+1), es posible aplicar un formato limitado a los rangos de celdas con el Creador de informes. Estas opciones de formato dependen de la métrica seleccionada.
 seo-description: Además de las opciones de formato de celda estándar disponibles mediante la función de Excel Formato > Celdas (Ctrl+1), es posible aplicar un formato limitado a los rangos de celdas con el Creador de informes. Estas opciones de formato dependen de la métrica seleccionada.
-seo-title: Dar formato a la fecha
+seo-title: Dar formato a las fechas
 solution: Analytics
-title: Dar formato a la fecha
+title: Dar formato a las fechas
 topic: Creador de informes
-uuid: 5211 db 30-07 b 3-4413-97 c 3-e 40 e 6 ff 223 cd
+uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Dar formato a la fecha
+# Dar formato a las fechas
 
 Además de las opciones de formato de celda estándar disponibles mediante la función de Excel Formato &gt; Celdas (Ctrl+1), es posible aplicar un formato limitado a los rangos de celdas con el Creador de informes. Estas opciones de formato dependen de la métrica seleccionada.
 
-After you [add dimensions](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) to the Row Labels grid, click **[!UICONTROL Format]**.
+After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) to the Row Labels grid, click **[!UICONTROL Format]**.
 
 En el menú **[!UICONTROL Formato]**, haga clic en **Formato personalizado]para aplicar formatos personalizados a fechas de forma similar a la función de anteponer y posponer.[!UICONTROL ** Por ejemplo, puede introducir texto que siempre aparezca tras la fecha (por ejemplo, A.D., B.C.E., A.H., etc.). Puede añadir texto antes de la fecha; por ejemplo, [!UICONTROL Fecha de inicio] y [!UICONTROL Fecha de inicio y finalización]. Asimismo, puede crear una expresión de fecha personalizada desde las abreviaciones de día, mes y año y emplear un separador personalizado entre las partes de la fecha. Todos los formatos de fecha deben constar de tres abreviaciones únicamente incluidas entre corchetes.
 
