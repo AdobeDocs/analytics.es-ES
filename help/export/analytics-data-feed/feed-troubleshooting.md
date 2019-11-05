@@ -7,7 +7,7 @@ solution: Analytics
 title: Solución de problemas de fuentes de datos
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,11 +40,11 @@ AWS también permite a los usuarios crear objetos en un bucket que pertenece a o
 
 Si se produce un error de transferencia mediante FTP (no se puede iniciar la sesión, se pierde la conexión, se agota la cuota, etc.), Adobe intenta conectarse automáticamente y envía los datos hasta tres veces diferentes. Si no se resuelven los errores, la fuente se marca como errónea y se envía una notificación de correo electrónico.
 
-En caso de un error de transferencia, puede [volver a ejecutar un trabajo](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) hasta que se realice correctamente.
+En caso de un error de transferencia, puede [volver a ejecutar un trabajo](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) hasta que se realice correctamente.
 
 ## Opciones de reenvío {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Una vez verificado/corregido el problema de entrega, simplemente utilice [volver a ejecutar el trabajo](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) para obtener los archivos.
+Una vez verificado/corregido el problema de entrega, simplemente utilice [volver a ejecutar el trabajo](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) para obtener los archivos.
 
 ## Efecto del horario de verano en las Fuentes de datos por hora {#section_70E867D942054DD09048E027A9474FFD}
 
