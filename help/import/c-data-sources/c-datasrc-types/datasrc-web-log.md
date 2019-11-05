@@ -1,19 +1,19 @@
 ---
 description: Este tipo de fuentes de datos permite importar archivos de registro de servidor web estándar.
 seo-description: Este tipo de fuentes de datos permite importar archivos de registro de servidor web estándar.
-seo-title: Registro Web
+seo-title: Registro web
 solution: Analytics
 subtopic: Fuentes de datos
-title: Registro Web
+title: Registro web
 topic: Desarrollador e implementación
-uuid: a 0 efed 57-6 d 1 b -43 d 8-97 ce-dc 31009805 e 0
+uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Registro Web
+# Registro web
 
 Este tipo de fuentes de datos permite importar archivos de registro de servidor web estándar.
 
