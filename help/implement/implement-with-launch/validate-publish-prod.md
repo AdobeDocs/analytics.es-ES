@@ -3,8 +3,8 @@ title: Implementación de Adobe Analytics en un entorno de desarrollo
 seo-title: Implementación de Adobe Analytics en un entorno de desarrollo
 description: Descubra cómo utilizar Adobe Experience Platform Launch para implementar Adobe Analytics en su entorno de desarrollo.
 seo-description: Descubra cómo utilizar Adobe Experience Platform Launch para implementar Adobe Analytics en su entorno de desarrollo.
-translation-type: ht
-source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -21,7 +21,7 @@ Una vez que la biblioteca de Adobe Experience Platform Launch se haya puesto en 
 
 Experience Cloud Debugger es un complemento de Chrome que muestra todas las etiquetas de Experience Cloud presentes en una página.
 
-1. Abra el [Explorador web de Chrome](https://www.google.com/chrome/) y vaya a [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) en la tienda web de Chrome para instalar la extensión.
+1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
 2. Vaya al sitio web de desarrollo en el que haya implementado Launch.
 3. Haga clic en el icono de Adobe Experience Cloud Debugger en la parte superior derecha de Chrome
 4. Si todo está correctamente implementado, debe ver el contenido dentro de Adobe Analytics, Adobe Experience Platform Launch y el servicio de ID de visitante de Adobe Experience Cloud:
@@ -66,4 +66,4 @@ En el sitio, abra la consola del desarrollador del explorador (normalmente F12).
 Ahora que se ha configurado una implementación básica, su función dentro de su organización puede influir en la ruta de acceso en la que desee obtener más información:
 
 * [Crear un documento de diseño de solución](../prepare/solution-design.md): Planifique cómo desea utilizar las variables personalizadas e inclúyalas en la implementación
-* [Introducción a Analysis Workspace](../../analyze/analysis-workspace/home.md): Vaya directamente a Adobe Analytics mediante la función de señalización de la herramienta.
+* [Introducción a Analysis Workspace](/help/analyze/analysis-workspace/home.md): Vaya directamente a Adobe Analytics mediante la función de señalización de la herramienta.
