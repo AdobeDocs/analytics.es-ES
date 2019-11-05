@@ -7,7 +7,7 @@ title: Métricas
 topic: Reports and Analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,17 +16,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Las métricas son la base de los informes, ya que ayudan a ver y a comprender las relaciones que hay entre los datos y permiten las comparaciones paralelas de diferentes conjuntos de datos relacionados con el sitio Web. Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc.
 
-## Métricas {#concept_EB00207C07BD4481AB116E62EC24E686}
+## Métricas
 
 Las métricas son la base de los informes, ya que ayudan a ver y a comprender las relaciones que hay entre los datos y permiten las comparaciones paralelas de diferentes conjuntos de datos relacionados con el sitio Web. Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc.
 
 Las métricas y los datos asociados se exhiben en las columnas de los informes. Las métricas de tráfico muestran datos sobre el volumen de visitantes. Las métricas de conversión muestran datos sobre los eventos de éxito, como compras, descargas o cualquier otra acción que desee que realicen los usuarios en su sitio web.
 
-Las [métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) se crean combinando métricas.
+Las [métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) se crean combinando métricas.
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
+For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
 
-## Seleccionar métricas de informe predeterminadas {#task_9537A607288A4450AE07EC7C070B47C6}
+## Seleccionar métricas de informe predeterminadas
 
 Instrucciones sobre cómo seleccionar métricas predeterminadas en el nivel de informe.
 
