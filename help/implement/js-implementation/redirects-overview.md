@@ -9,7 +9,7 @@ title: Redirecciones y alias
 topic: Desarrollador e implementación
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,8 +38,8 @@ redirects_sc.xml
 
 Los siguientes ejemplos muestran los efectos sobre la navegación con y sin redirecciones:
 
-* [Ejemplo: navegación sin redirecciones](../../implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
-* [Ejemplo: navegación con redirecciones](../../implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
+* [Ejemplo: navegación sin redirecciones](/help/implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
+* [Ejemplo: navegación con redirecciones](/help/implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
 
 ## Ejemplo: navegación sin redirecciones {#section_5C835A4D665A4625A23333C2C21F152D}
 
@@ -58,7 +58,7 @@ Las redirecciones pueden hacer que el navegador borre la verdadera dirección UR
 1. La barra de direcciones de la ventana del explorador muestra los términos de búsqueda que el usuario escribió en el campo de búsqueda `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Observe que los términos de búsqueda se incluyen en los parámetros de la cadena de consulta de la dirección URL que están después de `https://www.google.com/search?`. El navegador también muestra una página que contiene los resultados de la búsqueda, entre los que se incluye un vínculo a uno de sus nombres de dominio: [!DNL https://www.flytohawaiiforfree.com/]. Este dominio *mnemónico* está configurado para redireccionar al usuario a `https://www.flywithus.com/`.
 1. El usuario hace clic en el vínculo `https://www.flytohawaiiforfree.com/` y el servidor lo redirecciona a su sitio principal, `https://www.flywithus.com`. Cuando se produce la redirección, se pierden datos importantes para la recopilación de datos de [!DNL Analytics] porque el explorador borra la dirección URL de referencia. Por ello, se pierde la información de la búsqueda original que se usa en los informes de [!DNL Analytics] (por ejemplo: [!UICONTROL Dominios de referencia], [!UICONTROL Motores de búsqueda] y [!UICONTROL Palabras clave de búsqueda]).
 
-[Implementación de redirecciones](../../implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7) describe cómo aprovechar las variables de [!DNL Analytics] para captar los datos que se pierden en la redirección. En particular, la sección explica cómo solucionar la situación de los “billetes de avión con descuento” que se ha descrito más arriba.
+[Implementación de redirecciones](/help/implement/js-implementation/redirects-overview.md#concept_5EC2EE9677A44CC5B90A38ECF28152E7) describe cómo aprovechar las variables de [!DNL Analytics] para captar los datos que se pierden en la redirección. En particular, la sección explica cómo solucionar la situación de los “billetes de avión con descuento” que se ha descrito más arriba.
 
 ## Implementar redirecciones {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
