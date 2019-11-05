@@ -8,7 +8,7 @@ title: Acerca de las clasificaciones
 topic: Herramientas de administración
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -43,7 +43,7 @@ Informes y análisis incluye clasificaciones predefinidas para la variable de c�
 
 Consulte [Clasificaciones de tráfico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) y [Clasificaciones de las conversiones](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html).
 
-En la tabla siguiente se describen los distintos tipos de clasificaciones disponibles y los tipos de variables que admiten. Consulte la información de Estructura [general de archivos](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) antes de cargar archivos de datos.
+En la tabla siguiente se describen los distintos tipos de clasificaciones disponibles y los tipos de variables que admiten. Consulte la información de Estructura [general de archivos](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) antes de cargar archivos de datos.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
