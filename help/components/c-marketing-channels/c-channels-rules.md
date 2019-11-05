@@ -8,7 +8,7 @@ title: Acerca de los canales y las reglas
 topic: Reports and Analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,18 +21,20 @@ Imagine que el canal es un contenedor de visitas y que las reglas asignan las vi
 
 ![](assets/buckets_2.png)
 
-Adobe ofrece varios canales predefinidos durante la [configuración automática](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B), que puede editar para adaptarlos a sus necesidades.
+Adobe ofrece varios canales predefinidos durante la [configuración automática](/help/components/c-marketing-channels/c-channel-autosetup.md), que puede editar para adaptarlos a sus necesidades.
 
-> [!NOTE] Adobe recomienda configurar el informe en un grupo de informes que puede utilizar como plantilla para realizar pruebas. Puede usar la plantilla para aplicar conjuntos de canales y reglas de forma global a uno o más grupos de informes de producción.
+>[!NOTE]
 >
->Consulte [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
+> Adobe recomienda configurar el informe en un grupo de informes que puede utilizar como plantilla para realizar pruebas. Puede usar la plantilla para aplicar conjuntos de canales y reglas de forma global a uno o más grupos de informes de producción.
+>
+>Consulte [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/t-template.md).
 
 Consulte los siguientes temas:
 
-* [Requisitos previos](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [Notas de procesamiento importantes](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [Requisitos previos](/help/components/c-marketing-channels/c-channels-rules.md#prereqs)
+* [Notas de procesamiento importantes](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
 
-## Requisitos previos {#section_9913D2932E3140C099B7978CA95378B2}
+## Requisitos previos {#prereqs}
 
 En caso necesario, póngase en contacto con el departamento de atención al cliente para obtener ayuda con los requisitos previos:
 
@@ -42,11 +44,11 @@ En caso necesario, póngase en contacto con el departamento de atención al clie
 
 * Configure el acceso del grupo de usuarios al **[!UICONTROL Informe de canal de mercadotecnia]**.
 
-   See [Configure User Group Access](../../components/c-marketing-channels/t-user-groups.md#task_B156E7527FE94055A43A697338FE8C8C).
+   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
 
 * Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
 
-## Important processing notes {#section_DE372EEF02314F2395750CF2892DAAE1}
+## Important processing notes {#important-proc-rules}
 
 * El sistema procesa las reglas en el orden en el que las especifique y, cuando se cumple una regla, se detiene el procesamiento de las demás reglas.
 * Las reglas pueden acceder a las variables que ha establecido VISTA, pero no pueden acceder a los datos que VISTA ha eliminado.
