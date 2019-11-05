@@ -7,7 +7,7 @@ title: Dar formato a los encabezados
 topic: Creador de informes
 uuid: da0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -27,7 +27,7 @@ Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados
    | Nombre del informe | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | Parámetros de filtros | Muestra los filtros de dimensión como, por ejemplo, un filtro de búsqueda. |
    | Segmento | Muestra el parámetro de segmento. |
-   | Creación de los datos | Muestra los parámetros de la actualización de datos.  Por ejemplo:    Creación de los datos: Vistas de página (hace 1,5 horas), Salidas (hace 30 minutos) Consulte [Opciones](../../../analyze/report-builder/options.md) para obtener información sobre el procesamiento de datos actual. |
+   | Creación de los datos | Muestra los parámetros de la actualización de datos.  Por ejemplo:    Creación de los datos: Vistas de página (hace 1,5 horas), Salidas (hace 30 minutos) Consulte [Opciones](/help/analyze/report-builder/options.md) para obtener información sobre el procesamiento de datos actual. |
 
    Respecto al orden de visualización, si la cuadrícula [!UICONTROL Rótulo de fila] (en el Paso 2) contiene un elemento, éste se muestra en primer lugar en la solicitud. De lo contrario, el sistema utiliza el primer elemento presente en la cuadrícula [!UICONTROL Rótulo de columna]. Si no existen filas ni columnas, se muestra el primer elemento de la cuadrícula [!UICONTROL Métrica].
 
@@ -43,6 +43,6 @@ Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados
 
    **Realizar contorno automático:** transforma los datos devueltos por el Creador de informes de una vista de lista a una vista de árbol.
 
-   **Asignar nombre a esta solicitud:** Permite escribir un nombre definido por el usuario para la solicitud, o usar el nombre predeterminado seleccionado en el Paso 1. Este nombre aparece como nombre de [!UICONTROL Informe] en el [!UICONTROL Administrador de solicitudes]. Consulte [Especificar el nombre de una solicitud](../../../analyze/report-builder/layout/name-a-request.md#concept_37277AFB63EA4541B6FD93A5B713D82D).
+   **Asignar nombre a esta solicitud:** Permite escribir un nombre definido por el usuario para la solicitud, o usar el nombre predeterminado seleccionado en el Paso 1. Este nombre aparece como nombre de [!UICONTROL Informe] en el [!UICONTROL Administrador de solicitudes]. Consulte [Especificar el nombre de una solicitud](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
