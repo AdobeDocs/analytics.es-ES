@@ -1,16 +1,16 @@
 ---
 description: Puede compartir y revisar proyectos, así como enviar archivos de proyecto (en los formatos PDF o CSV) inmediatamente o siguiendo una planificación.
 seo-description: Puede compartir y revisar proyectos, así como enviar archivos de proyecto (en los formatos PDF o CSV) inmediatamente o siguiendo una planificación.
-seo-title: Compartir y programar archivos de proyecto
-title: Compartir y programar archivos de proyecto
-uuid: d 8539 e 0 b-eaa 5-4 a 3 d -8282-a 37 d 47 e 2 fe 96
+seo-title: Uso compartido y programación de archivos de proyecto
+title: Uso compartido y programación de archivos de proyecto
+uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Compartir y programar archivos de proyecto
+# Uso compartido y programación de archivos de proyecto
 
 Puede compartir y revisar proyectos, así como enviar archivos de proyecto (en los formatos PDF o CSV) inmediatamente o siguiendo una planificación.
 
@@ -26,7 +26,7 @@ Puede compartir y revisar proyectos, así como enviar archivos de proyecto (en l
  <tbody> 
   <tr> 
    <td colname="col1"> Compartir proyecto </td> 
-   <td colname="col2"><a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Más información</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Más información</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Obtener vínculo del proyecto </td> 
@@ -38,11 +38,11 @@ Puede compartir y revisar proyectos, así como enviar archivos de proyecto (en l
   </tr> 
   <tr> 
    <td colname="col1"> Enviar archivo según lo programado </td> 
-   <td colname="col2"> <p>Especificar la fecha de inicio, el intervalo y la frecuencia, y la fecha de finalización. <a href="../../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C" format="dita" scope="local"> Más información</a> </p> </td> 
+   <td colname="col2"> <p>Especificar la fecha de inicio, el intervalo y la frecuencia, y la fecha de finalización. <a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > Más información</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Depurar datos de proyectos </td> 
-   <td colname="col2"> <p><a href="../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local"> Más información</a> </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Más información</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
