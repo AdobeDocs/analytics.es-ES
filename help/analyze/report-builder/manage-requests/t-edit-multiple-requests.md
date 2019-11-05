@@ -7,7 +7,7 @@ title: Editar varias solicitudes
 topic: Creador de informes
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ Puede cambiar varias solicitudes al mismo tiempo, en función del grupo de infor
    * **Por segmento:** agrupa las solicitudes según el nombre del segmento.
 
       * **Elegir segmento**: muestra si Para agregar segmentos, haga clic en **[!UICONTROL Editar grupo]** y seleccione un segmento del panel [!UICONTROL Editar grupo].
-   * **Por métrica**: Consulte [Editar métricas en varias solicitudes](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB).
+   * **** Por métrica: Consulte [Editar métricas en varias solicitudes](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Por intervalo de fechas y granularidad:** agrupa la visualización de solicitudes por intervalo de fechas y la granularidad de la hora.
    * **Por grupo:** agrupa la visualización de solicitudes por grupos de solicitudes agrupadas.
