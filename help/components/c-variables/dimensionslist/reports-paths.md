@@ -7,7 +7,7 @@ title: Rutas
 topic: Informes
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,7 +38,7 @@ Los informes de rutas incluyen informes exhaustivos estándar y de análisis ava
 
 ![](assets/fallout_graphic.png)
 
-Consulte [Informe de visitas en el orden previsto](../../../components/c-variables/dimensionslist/reports-fallout.md#concept_DE1F8040F1B741F087B78568B342EC41).
+Consulte [Informe de visitas en el orden previsto](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL PathFinder]**: permite dividir las rutas completas en fragmentos, dando como resultado patrones precisos que contribuyen a optimizar su sitio. El asistente de Pathfinder permite especificar los criterios de selección que se utilizan para generar el informe. De este modo, se pueden analizar los fragmentos de la ruta y consultar los que comienzan o finalizan en una página determinada, o incluso los que comienzan en una página y finalizan en otra.
 
