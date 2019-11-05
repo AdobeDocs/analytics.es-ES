@@ -5,7 +5,7 @@ seo-title: Plantillas
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,16 +16,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Puede elegir entre crear un proyecto a partir de:
 
-* Un proyecto en blanco (opción predeterminada). Para obtener instrucciones, consulte [Creación de un proyecto](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)de Analysis Workspace.
+* Un proyecto en blanco (opción predeterminada). Para obtener instrucciones, consulte [Creación de un proyecto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)de Analysis Workspace.
 * Una plantilla estándar. Adobe se encarga de crear estas plantillas, que están listas para usarse.
 * Una plantilla personalizada. Estas plantillas las pueden crear usuarios con derechos de administrador o usuarios que no sean administradores, siempre que se les haya concedido el permiso "Guardar como plantilla". (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
 
-* [Creación de una plantilla personalizada](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
-* [Plantillas estándar](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
+* [Creación de una plantilla personalizada](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* [Plantillas estándar](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
-## Creación de una plantilla personalizada {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## Creación de una plantilla personalizada {#create-custom-template}
 
 Los usuarios que tengan derechos de administrador pueden convertir cualquier proyecto que creen en una plantilla personalizada. A continuación se muestra cómo:
 
