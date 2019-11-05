@@ -7,7 +7,7 @@ title: Ocurrencias
 topic: Métricas
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Número de veces que se captura un valor específico más el número de vistas d
 
 Se muestran dos métricas que parecen similares:
 
-**[Instancias](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)**: el número de veces que se estableció un valor para una variable.
+**[Instancias](/help/components/c-variables/c-metrics/metrics-instance.md)**: el número de veces que se estableció un valor para una variable.
 
 **Ocurrencias**: el número total de veces que se estableció o persistió un valor.
 
