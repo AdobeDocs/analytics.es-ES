@@ -7,7 +7,7 @@ title: Vistas de páginas
 topic: Informes
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Es un informe de tendencia que muestra el número de veces que se vieron las páginas del sitio web en un período determinado (hora, día, semana, mes, trimestre o año). Este informe permite hacer un seguimiento de vistas para cada página del sitio, como así también del total agregado de vistas para todas las páginas del sitio.
 
-A [page view](../../../components/c-variables/c-metrics/metrics-page-view.md#concept_ABB4C6725E844B13970D6BD625654F26) is a request for a full page document rather than an element of a page, such as an image or video. Si un mismo visitante ve 15 páginas durante una visita, se cuentan 15 vistas de página. Si un visitante ve la misma página tres veces durante una visita, se cuentan tres vistas de página.
+A [page view](/help/components/c-variables/c-metrics/metrics-page-view.md) is a request for a full page document rather than an element of a page, such as an image or video. Si un mismo visitante ve 15 páginas durante una visita, se cuentan 15 vistas de página. Si un visitante ve la misma página tres veces durante una visita, se cuentan tres vistas de página.
 
 **Propiedades de los informes**
 
