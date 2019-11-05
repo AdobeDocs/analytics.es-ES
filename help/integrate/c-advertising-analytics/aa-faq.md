@@ -5,7 +5,7 @@ seo-title: Preguntas frecuentes
 title: Preguntas frecuentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Qué <b>SKU de Adobe Analytics</b> dan derecho a utilizar Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Advertising Analytics está disponible para los SKU <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" scope="external">Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" scope="external">Prime</a> y <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" scope="external">Ultimate</a> de Adobe Analytics. </p> </td> 
+   <td colname="col2"> <p>R: Advertising Analytics está disponible para los SKU <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>, <a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> y <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> de Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Se debe <b>pagar un importe adicional</b> para utilizar Advertising Analytics? </p> </td> 
@@ -91,7 +91,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: Estoy intentando <b>asignar las cuentas de Advertising Analytics a un grupo de informes determinado</b>, pero no está disponible en el modal Grupos de informes. ¿Por qué? </p> </td> 
-   <td colname="col2"> <p>R: Antes de poder asignar un grupo de informes a una cuenta de Advertising Analytics, el grupo de informes en cuestión debe <a href="../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local">aprovisionarse para los informes de Advertising Analytics </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>R: Antes de poder asignar un grupo de informes a una cuenta de Advertising Analytics, el grupo de informes en cuestión debe <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >aprovisionarse para los informes de Advertising Analytics </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Es posible asignar un <b>grupo de informes virtual</b> (VRS) a una cuenta de Advertising Analytics? </p> </td> 
