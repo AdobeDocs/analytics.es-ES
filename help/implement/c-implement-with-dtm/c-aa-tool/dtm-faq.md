@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Preguntas frecuentes sobre la herramienta Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -47,7 +47,7 @@ Se trata de las preguntas más frecuentes sobre la configuración automática de
  </tbody> 
 </table>
 
-Consulte [Agregar la herramienta Adobe Analytics](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) para obtener información sobre la configuración.
+Consulte [Agregar la herramienta Adobe Analytics](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md) para obtener información sobre la configuración.
 
 ## Posibles inconvenientes {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
