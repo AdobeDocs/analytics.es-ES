@@ -8,7 +8,7 @@ title: Acerca de las subclasificaciones
 topic: Herramientas de administración
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -42,7 +42,7 @@ Cada clasificación de este modelo es independiente y corresponde a un nuevo sub
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Para obtener más información sobre el archivo de datos, consulte [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+Para obtener más información sobre el archivo de datos, consulte [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 <!-- 
 
@@ -54,7 +54,7 @@ Las clasificaciones de múltiples niveles están formadas por clasificaciones pr
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Clasificaciones principales:** una clasificación principal es toda clasificación que tenga asociada una clasificación secundaria. Una clasificación puede ser clasificación principal y secundaria a la vez. Las clasificaciones principales de nivel superior corresponden a clasificaciones de un solo nivel (Consulte [Clasificaciones de un solo nivel](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)).
+**Clasificaciones principales:** una clasificación principal es toda clasificación que tenga asociada una clasificación secundaria. Una clasificación puede ser clasificación principal y secundaria a la vez. Las clasificaciones principales de nivel superior corresponden a clasificaciones de un solo nivel (Consulte [Clasificaciones de un solo nivel](/help/components/c-classifications2/c-sub-classifications.md)).
 
 **Clasificaciones secundarias:** una clasificación secundaria es toda clasificación que tenga otra clasificación como su principal en lugar de la variable. Las clasificaciones secundarias ofrecen información adicional sobre su clasificación principal. Por ejemplo, la clasificación [!UICONTROL Campañas] puede tener una clasificación secundaria de Propietario de la campaña. Las clasificaciones [!UICONTROL numéricas] también funcionan como métricas en los informes de clasificación.
 
@@ -62,7 +62,7 @@ Cada clasificación, ya sea principal o secundaria, constituye una columna de da
 
 `<parent_name>^<child_name>`
 
-Para obtener más información sobre el formato del archivo de datos, consulte Archivos [de datos de clasificación](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+Para obtener más información sobre el formato del archivo de datos, consulte Archivos [de datos de clasificación](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 Por ejemplo:
 
