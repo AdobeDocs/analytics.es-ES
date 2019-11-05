@@ -8,7 +8,7 @@ title: Introducción a los canales de marketing
 topic: Reports and Analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,22 +32,24 @@ La definición de los canales utilizados es una de las partes más importantes d
 * ¿Desea sumar todos los sitios de redes sociales o hay alguno que le gustaría seguir de forma individual?
 * ¿Existen otros canales que podrían afectar a la conversión y que quiera rastrear?
 
-Hay una lista de canales recomendados en [Preguntas frecuentes y ejemplos](../../components/c-marketing-channels/c-faq.md#concept_72CE3270AC264DB2A64BCB3E4B0D9C44). Cree una lista con los canales que desee usar. De este modo, será más fácil activar y definir los canales a la hora de crearlos.
+Hay una lista de canales recomendados en [Preguntas frecuentes y ejemplos](/help/components/c-marketing-channels/c-faq.md). Cree una lista con los canales que desee usar. De este modo, será más fácil activar y definir los canales a la hora de crearlos.
 
 ![](assets/step2_icon.png) Agregue canales de mercadotecnia en la página Administrador [!UICONTROL de canales] de mercadotecnia.
 
 After defining what channels to track, you enable them in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-See [Channels and Rules](../../components/c-marketing-channels/c-channels-rules.md#concept_C832E652974F419C82A4FAD9076C3197) for important prerequisite and conceptual information.
+See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.md) for important prerequisite and conceptual information.
 
-Consulte [Agregar canales](../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03) de mercadotecnia para ver el procedimiento.
+Consulte [Agregar canales](/help/components/c-marketing-channels/c-channels.md) de mercadotecnia para ver el procedimiento.
 
-> [!NOTE] Si los canales de mercadotecnia no se han configurado anteriormente, se muestra la configuración [](../../components/c-marketing-channels/c-channel-autosetup.md#concept_2EC91690B4F94889ADE935AB69B9025D) automática. Esta configuración proporciona varios canales preconfigurados que se pueden personalizar. Adobe recomienda usar estas reglas como plantilla. No obstante, si ya tiene definiciones de canales consolidadas, puede omitir la configuración automática.
+>[!NOTE]
+>
+> Si los canales de mercadotecnia no se han configurado anteriormente, se muestra la configuración [](/help/components/c-marketing-channels/c-channel-autosetup.md) automática. Esta configuración proporciona varios canales preconfigurados que se pueden personalizar. Adobe recomienda usar estas reglas como plantilla. No obstante, si ya tiene definiciones de canales consolidadas, puede omitir la configuración automática.
 
 ![](assets/step3_icon.png) Configure o pula las reglas de cada canal en la página [!UICONTROL Reglas de procesamiento de canal de mercadotecnia].
 
 Después de crear los canales en la página [!UICONTROL Administrador de canales de mercadotecnia], configure las reglas para que esos canales puedan obtener datos y crear informes.
 
-Consulte [Reglas de procesamiento de canal de marketing](../../components/c-marketing-channels/c-rules.md#concept_9ADC8D3AA4C84288ACC6D441D4036646).
+Consulte [Reglas de procesamiento de canal de marketing](/help/components/c-marketing-channels/c-rules.md).
 
 Si los canales se han creado en la configuración automática, las reglas de los canales ya estarán definidas. Puede modificarlas para adaptarlas a sus necesidades.
