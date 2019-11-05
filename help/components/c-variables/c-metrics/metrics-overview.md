@@ -7,7 +7,7 @@ title: Referencia rápida de Métricas
 topic: Métricas
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Lista de las métricas estándar de Adobe Analytics.
 
-> [!NOTE] Cualquier métrica (evento) que no aparezca a continuación es una métrica [](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) personalizada (evento personalizado).
+>[!NOTE]
+>
+>Cualquier métrica (evento) que no aparezca a continuación es una métrica [](/help/components/c-variables/c-metrics/metrics-custom.md) personalizada (evento personalizado).
 
 >[!IMPORTANT]
 >
