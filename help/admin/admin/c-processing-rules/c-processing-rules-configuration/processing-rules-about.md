@@ -8,7 +8,7 @@ title: Funcionamiento de las reglas de procesamiento
 topic: Herramientas de administración
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Las reglas se aplican a un solo grupo de informes. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> Copiar reglas de procesamiento en otro grupo de informes </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> Copiar reglas de procesamiento en otro grupo de informes </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento se aplican por orden de lista. </p> </td> 
@@ -41,15 +41,15 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento se aplican inmediatamente al grupo de informes después de guardarse. </p> </td> 
-   <td colname="col2"> <p>Los cambios de las reglas de procesamiento deberían estar visibles en el grupo de informes tras unos minutos después de guardarse. A la hora de probar reglas de procesamiento, es recomendable configurar <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>Los cambios de las reglas de procesamiento deberían estar visibles en el grupo de informes tras unos minutos después de guardarse. A la hora de probar reglas de procesamiento, es recomendable configurar <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento son la única forma de acceder a las variables de datos de contexto. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copiar una variable de datos de contexto en una eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiar una variable de datos de contexto en una eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento se aplican antes que las reglas de VISTA y las reglas de canal de marketing. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> Orden de procesamiento </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> Orden de procesamiento </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las visitas no se pueden excluir. </p> </td> 
@@ -81,7 +81,7 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las comparaciones de valores en la IU distinguen entre mayúsculas y minúsculas. </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> Limpiar los valores de un informe </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> Limpiar los valores de un informe </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Los nombres de las variables de datos de contexto solo pueden contener caracteres alfanuméricos, guiones bajos y puntos. Quedan descartados todos los caracteres restantes. </p> </td> 
