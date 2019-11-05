@@ -7,7 +7,7 @@ title: Secciones del sitio
 topic: Informes
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -30,7 +30,7 @@ Muestra las secciones del sitio más visitadas. Las secciones del sitio pueden i
    * **Todas las métricas de comercio electrónico estándar**: ingresos, pedidos, unidades, carros de compra, vistas del carro de compras, cierres de compra, adiciones al carro de compra y eliminaciones del carro de compra.
    * **Todos los eventos personalizados**: eventos 1-80 y eventos 81-100 si se trabaja con el código H22 o superior.
 
-Todos los eventos de conversión del [!UICONTROL informe de secciones del sitio] utilizan la última asignación. Verá que la conversión está dividida entre las páginas que no contienen eventos de éxito en la implementación. En esto se diferencia del [informe de páginas](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5), que usa asignación lineal.
+Todos los eventos de conversión del [!UICONTROL informe de secciones del sitio] utilizan la última asignación. Verá que la conversión está dividida entre las páginas que no contienen eventos de éxito en la implementación. En esto se diferencia del [informe de páginas](/help/components/c-variables/dimensionslist/reports-pages.md), que usa asignación lineal.
 
 **Información específica de productos**
 
