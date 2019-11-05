@@ -8,7 +8,7 @@ title: Resumen de props y eVars
 topic: Desarrollador e implementación
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Las variables de tráfico personalizado, también denominadas propiedades (s.prop) o variables de propiedad, son contadores que contabilizan el número de veces que cada valor se envía a Analytics.
 
-Para determinar qué variables se asignan y dónde, es importante conocer las diferencias entre la funcionalidad prop y eVar. Entender estas diferencias permite a la organización decidir qué tipo de variable es mejor utilizar. Para obtener más información, consulte [Comparación de props y eVars](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+Para determinar qué variables se asignan y dónde, es importante conocer las diferencias entre la funcionalidad prop y eVar. Entender estas diferencias permite a la organización decidir qué tipo de variable es mejor utilizar. Para obtener más información, consulte [Comparación de props y eVars](/help/implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md).
 
 Las propiedades también permiten correlacionar datos personalizados con eventos relativos al tráfico. Estas variables están incorporadas en el código de [!DNL Analytics] en cada página del sitio web. Con las variables [!UICONTROL s.prop], [!DNL Analytics] permite crear informes personalizados, exclusivos de su organización, sector y objetivos empresariales.
 
@@ -40,4 +40,4 @@ En un sitio de conversión, las eVars se pueden usar para realizar el seguimient
 
 Para obtener más información, consulte [Variable de tráfico](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html) en la Ayuda y referencia de Analytics.
 
-Para obtener información sobre la configuración de propiedades en Digital Tag Management, consulte [Crear una propiedad web](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123).
+Para obtener información sobre la configuración de propiedades en Digital Tag Management, consulte [Crear una propiedad web](/help/implement/c-implement-with-dtm/t-create-web-property.md).
