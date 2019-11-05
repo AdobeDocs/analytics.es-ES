@@ -3,7 +3,7 @@ seo-title: Configurar una cuenta publicitaria
 title: Configurar una cuenta publicitaria
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Los administradores de Adobe Analytics pueden crear nuevas cuentas publicitarias y asignar diversas cuentas a varios grupos de informes (1:1, 1:Muchos, Muchos:Muchos).
 
-Los administradores también pueden [conceder acceso a los usuarios que no son administradores](../../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) para que configuren cuentas publicitarias.
+Los administradores también pueden [conceder acceso a los usuarios que no son administradores](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) para que configuren cuentas publicitarias.
 
 ![](assets/aa_accounts.png)
 
@@ -47,7 +47,7 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: proporcione el identificador de la cuenta de Google. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: proporcione el identificador de la cuenta de Bing y el identificador de cliente de Bing. </li> 
-        </ul> <p>Consulte <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local"> Localizar el identificador de cuenta</a> para obtener información sobre estos identificadores. </p> <p>Una vez que haya iniciado sesión correctamente, se mostrará el campo Token de OAuth 
+        </ul> <p>Consulte <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar el identificador de cuenta</a> para obtener información sobre estos identificadores. </p> <p>Una vez que haya iniciado sesión correctamente, se mostrará el campo Token de OAuth 
         <systemoutput>
           Recuperado
         </systemoutput>. </p> </td> 
@@ -75,7 +75,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">En la cuenta agregada se añadirá el parámetro y valor “s_kwcid” a las plantillas de seguimiento de la cuenta o a las URL de las páginas de destino. Se insertará al final de la URL. Como resultado, es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL. </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">Además, en la URL de destino pueden insertarse palabras clave como parte del valor “s_kwcid”, de modo que, si contienen caracteres especiales o símbolos, confirme que su servidor web los admite (un ejemplo de carácter especial común es “+”, que se utiliza en las palabras clave “Broad Match Modified”). </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: Le permite administrar cómo se agregan los parámetros de seguimiento a las plantillas de seguimiento/direcciones URL de destino del motor de búsqueda. <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local"> Consulte estos ejemplos de seguimiento manual para cada motor de búsqueda</a>. </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: Le permite administrar cómo se agregan los parámetros de seguimiento a las plantillas de seguimiento/direcciones URL de destino del motor de búsqueda. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Consulte estos ejemplos de seguimiento manual para cada motor de búsqueda</a>. </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -99,7 +99,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Asignación de grupos de informes </p> </td> 
-      <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" scope="external">asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
+      <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -107,7 +107,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Después de guardar, se muestra una lista de advertencias en un mensaje de exención de responsabilidad. Se le pedirá que confirme haber leído y entendido este contrato. Haga clic en la casilla de selección y, después, en **[!UICONTROL Aceptar]**.
 
-   Ahora se le dirigirá a la [IU de administración](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB) de cuentas publicitarias, en que se incluirá su cuenta recién creada.
+   Ahora se le dirigirá a la [IU de administración](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) de cuentas publicitarias, en que se incluirá su cuenta recién creada.
 
 > [!NOTE] Debe esperar al menos 24 horas antes de que los datos del motor de búsqueda empiecen a rellenar los informes de Analytics.
 
