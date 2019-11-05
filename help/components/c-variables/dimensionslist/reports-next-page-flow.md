@@ -7,7 +7,7 @@ title: Flujo de página siguiente
 topic: Informes
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ Utilice este informe para:
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> Haga clic en <span class="uicontrol">Gráfico</span> para ver en dos niveles las páginas que más visitan los usuarios tras ver la página seleccionada. El informe también indica el momento en el que los visitantes abandonan el sitio. </p> <p>Haga clic en <b>Tabla</b> para ver las páginas siguientes en una lista similar a la del <a href="../../../components/c-variables/dimensionslist/reports-next-page.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> Informe de página siguiente</a>. No obstante, también permite explorar más en profundidad cada <i>página siguiente</i> para ver las páginas siguientes en un flujo de dos páginas. </p> <p>Reports &amp; Analytics usa vistas de ruta. </p> </td> 
+   <td colname="col2"> <p> Haga clic en <span class="uicontrol">Gráfico</span> para ver en dos niveles las páginas que más visitan los usuarios tras ver la página seleccionada. El informe también indica el momento en el que los visitantes abandonan el sitio. </p> <p>Haga clic en <b>Tabla</b> para ver las páginas siguientes en una lista similar a la del <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Informe de página siguiente</a>. No obstante, también permite explorar más en profundidad cada <i>página siguiente</i> para ver las páginas siguientes en un flujo de dos páginas. </p> <p>Reports &amp; Analytics usa vistas de ruta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis  </td> 
