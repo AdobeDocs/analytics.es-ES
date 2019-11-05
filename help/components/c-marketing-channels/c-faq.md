@@ -8,29 +8,31 @@ title: Preguntas frecuentes y ejemplos
 topic: Reports and Analytics
 uuid: 1c63a1b5-a191-4855-aa65-face19ab1037a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # Preguntas frecuentes y ejemplos
 
-Descubra las prácticas recomendadas y vea ejemplos de cómo rellenar las diversas reglas que puede configurar para sus canales de mercadotecnia.
+<!--
+Read about best practices and examples of how to populate various rules you can set up for your marketing channels.
 
-* [Preguntas frecuentes](../../components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573)
-* [No se ha identificado el canal](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)
-* [Búsqueda paga](../../components/c-marketing-channels/c-faq.md#section_E934BFE182E4404A93FE07AFEAE64DC1)
-* [Búsqueda natural](../../components/c-marketing-channels/c-faq.md#section_A4C6B8F0360449BE94F0128FF7C71386)
-* [Afiliados](../../components/c-marketing-channels/c-faq.md#section_8D142C7074CD4DEC87DF55B691107622)
-* [Redes sociales](../../components/c-marketing-channels/c-faq.md#section_492B72A3B261479D9C84F631E90C03D8)
-* [Mostrar](../../components/c-marketing-channels/c-faq.md#section_4FD846B89FCE4ECFB7781BD02874A1AB)
-* [Internas](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)
-* [Correo electrónico](../../components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE)
-* [Directas](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
+* [Frequently Asked Questions](/help/components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573) 
+* [No Channel Identified](/help/components/c-marketing-channels/c-faq.md##no-channel-identified) 
+* [Paid Search](/help/components/c-marketing-channels/c-faq.md#section_E934BFE182E4404A93FE07AFEAE64DC1) 
+* [Natural Search](/help/components/c-marketing-channels/c-faq.md#section_A4C6B8F0360449BE94F0128FF7C71386) 
+* [Affiliates](/help/components/c-marketing-channels/c-faq.md#section_8D142C7074CD4DEC87DF55B691107622) 
+* [Social Networks](/help/components/c-marketing-channels/c-faq.md#section_492B72A3B261479D9C84F631E90C03D8) 
+* [Display](/help/components/c-marketing-channels/c-faq.md#section_4FD846B89FCE4ECFB7781BD02874A1AB) 
+* [Internal](/help/components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) 
+* [Email](/help/components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE) 
+* [Direct](/help/components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
+-->
 
-Consulte [Create Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
+See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
-## Preguntas frecuentes {#section_E490CEAF0E76422C91D34D8A80A0C573}
+## Preguntas frecuentes {#faq}
 
 Cada implementación de las reglas de procesamiento de canal de mercadotecnia podría diferir, según sus códigos de seguimiento. La configuración de las reglas que proporcionen los resultados que necesita podría requerir cierta creatividad para resolver los problemas.
 
@@ -39,7 +41,7 @@ Cada implementación de las reglas de procesamiento de canal de mercadotecnia po
 * Utilice el proceso de eliminación. Si los canales Correo electrónico y Afiliados utilizan el mismo parámetro de cadena de consulta pero solamente tiene unos cuantos códigos de seguimiento de correo electrónico, puede especificar los códigos de seguimiento de correo electrónico en un conjunto de reglas que definan el correo electrónico. Luego, clasifique todos los demás códigos de seguimiento con *`affiliates.`*
 * En su sistema de correo electrónico, agregue un parámetro de cadena de consulta a todas las direcciones URL de páginas de aterrizaje, como *`&ch=eml`*. Cree un conjunto de reglas que detecte si el parámetro de consulta ch es igual a *`eml`*. Si no contiene *`eml`*, entonces es un afiliado.
 
-**Pregunta**: los dominios de referencia contienen más datos de lo que tenía previsto.
+**Pregunta**: Los dominios de referencia contienen más datos de los que esperaba.
 
 * Es posible que los dominios de referencia estén demasiado arriba en la lista de reglas de procesamiento. Dicho conjunto de reglas debería ser uno de los últimos (o el último): el orden de procesamiento es importante.
 
@@ -65,15 +67,15 @@ Cada implementación de las reglas de procesamiento de canal de mercadotecnia po
 
 Asegúrese de tener un canal para estas tres posibilidades. Por ejemplo, cree reglas como estas:
 
-1. **[!UICONTROL Referente]** y **[!UICONTROL No existe]** y **[!UICONTROL Es la primera página de la visita]**. (Consulte [Directas](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A).)
+1. **[!UICONTROL Referente]** y **[!UICONTROL No existe]** y **[!UICONTROL Es la primera página de la visita]**. (Consulte [Directas.](/help/components/c-marketing-channels/c-faq.md))
 
-2. **[!UICONTROL El referente coincide con los filtros]** de URL internos y **[!UICONTROL es la primera página de la visita]**. (Consulte [Internas](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947).)
+2. **[!UICONTROL El referente coincide con los filtros]** de URL internos y **[!UICONTROL es la primera página de la visita]**. (Consulte [Internas](/help/components/c-marketing-channels/c-faq.md).)
 
 3. **[!UICONTROL Referente]** y **[!UICONTROL Existe]** y **[!UICONTROL El referente no concuerda con los filtros de dirección URL internos]**.
 
-Por último, cree el canal *Otros* para que capture las visitas restantes, tal como se describe en [No se ha identificado el canal](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7).
+Por último, cree el canal *Otros* para que capture las visitas restantes, tal como se describe en [No se ha identificado el canal](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
-## No se ha identificado el canal {#section_451E42994DA247A8A7B8559C715A5EE7}
+## No se ha identificado el canal {#no-channel-identified}
 
 Cuando las reglas no capturan datos o si las reglas no se han configurado correctamente, el informe muestra los datos en la fila [!UICONTROL No se ha identificado el canal] del informe. Por ejemplo, puede crear un conjunto de reglas denominado *Otro* al final del orden de procesamiento, que también identifique el tráfico interno.
 
@@ -83,7 +85,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 > [!NOTE] Es posible que todavía haya tráfico de canal que pueda caer en la categoría No se identificó el canal. Por ejemplo: un visitante viene al sitio, crea un marcador de una página y en la misma visita, vuelve a la página a través del marcador. Debido a que esta no es la primera página de la visita, irá al canal Directo o al canal Otros porque no hay dominio de referencia.
 
-## Búsqueda de pago {#section_E934BFE182E4404A93FE07AFEAE64DC1}
+## Búsqueda de pago {#paid-search}
 
 La búsqueda paga es una palabra o frase por la que se paga a un motor de búsqueda, para que la coloque en los resultados de la búsqueda. Para buscar coincidencias con las reglas de detección de búsqueda paga, el canal de mercadotecnia usa la configuración de la página [!UICONTROL Detección de búsqueda paga]. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**). La dirección URL de destino coincide con la regla de detección de búsqueda paga existente para dicho motor de búsqueda.
 
@@ -93,7 +95,7 @@ En la regla de canal de mercadotecnia, la configuración de [!UICONTROL Búsqued
 
 Consulte [Detección de búsqueda paga](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) en Administración para obtener más información.
 
-## Búsqueda natural {#section_A4C6B8F0360449BE94F0128FF7C71386}
+## Búsqueda natural {#natural-search}
 
 Las búsquedas naturales tienen lugar cuando los visitantes encuentran su sitio web a través de una búsqueda en Internet en la que el motor de búsqueda clasifica su sitio sin que usted haya pagado específicamente para ello. Puede controlar la URL de destino que el motor de búsqueda utiliza para establecer el vínculo a su sitio. Esta URL permite a Analytics identificar si una búsqueda es natural.
 
@@ -105,31 +107,31 @@ En la regla de canal de mercadotecnia, la configuración de búsqueda natural es
 
 Consulte [Detección de búsqueda paga](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) en Administración para obtener más información.
 
-## Afiliados {#section_8D142C7074CD4DEC87DF55B691107622}
+## Afiliados {#afilliates}
 
 Las reglas de afiliados identifican a los visitantes que proceden de un conjunto específico de dominios de referencia. En la regla, se enumeran los dominios de los afiliados de los que desee hacer un seguimiento, de este modo:
 
 ![](assets/example_affiliates.png)
 
-## Redes sociales {#section_492B72A3B261479D9C84F631E90C03D8}
+## Redes sociales {#social-networks}
 
 Esta regla identifica a los visitantes que se originan en una red social como, por ejemplo, Facebook*. La configuración puede ser así:
 
 ![](assets/example_social.png)
 
-## Mostrar {#section_4FD846B89FCE4ECFB7781BD02874A1AB}
+## Mostrar {#display}
 
 Esta regla identifica a los visitantes que proceden de anuncios de banners. Se identifica con un parámetro de cadena de consulta en la dirección URL de destino, en este caso *`Ad_01`*.
 
 ![](assets/example_display.png)
 
-## Internas {#section_179A2BE5C8E24719A9E5C0DC09AF0947}
+## Internas {#internal}
 
 Esta regla identifica a los visitantes que proceden de un referente que coincide con los filtros de URL internos del grupo de informes.
 
 ![](assets/example_internal.png)
 
-## Correo electrónico {#section_4A927BE947B748E39595F4525B7280DE}
+## Correo electrónico {#email}
 
 Para configurar esta regla, se indica el parámetro de cadena de consulta correspondiente a la campaña de correo electrónico. En este ejemplo, el parámetro es *`eml`*:
 
@@ -139,7 +141,7 @@ Si la regla contiene códigos de seguimiento, escriba un valor en cada línea, d
 
 ![](assets/tracking_code.png)
 
-## Directas {#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A}
+## Directas {#direct}
 
 Esta regla identifica a los visitantes que no cuentan con un dominio de referencia. Esto incluye a los visitantes que llegan a su sitio directamente como, por ejemplo, con un vínculo de Favoritos, o que han pegado el vínculo en el navegador.
 
