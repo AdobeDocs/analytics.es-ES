@@ -8,7 +8,7 @@ title: Costes y presupuestos
 topic: Reports and Analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Aprenda a asignar importes de costo y presupuesto a los canales.
 
-## Costes y presupuestos {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
-
-Aprenda a asignar importes de costo y presupuesto a los canales.
-
 El costo representa lo que gasta en el canal. El presupuesto representa el importe que se puede gastar.
 
 Una manera práctica de ver el ROI es crear una métrica calculada que muestre los ingresos menos los costos. También se puede crear una que muestre el costo total junto con un desglose del costo por cada nuevo compromiso. Por ejemplo, puede ejecutar un informe de [!UICONTROL canal de primer toque] que muestre los compromisos nuevos; luego, puede agregar la métrica Costo de primer toque, que muestre el costo por cada nuevo compromiso, creando una métrica calculada.
 
-Consulte [Informes de canales de marketing usados en métricas calculadas](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+Consulte [Informes de canales de marketing usados en métricas calculadas](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
 
 Puede asignar costos y presupuestos solamente a los canales. A cada costo se le asigna un intervalo de tiempo durante el que se aplican a los informes. Cuando los costos se asocian con un canal directamente, se elige una métrica de asignación para mostrar el desglose de los costos en las campañas de un canal.
 
 Después de agregar costos y elementos de presupuesto, puede exportar los datos de la tabla a un archivo CSV. También puede importar un archivo CSV a la página Costos de canal de mercadotecnia.
 
-## Adición de elementos de costo y presupuesto {#task_9238A033994440748960DE21593E6388}
+## Adición de elementos de costo y presupuesto {#add-cost-and-budget}
 
 Agregue elementos de coste y presupuesto a los canales de mercadotecnia.
 
@@ -45,11 +41,9 @@ Agregue elementos de coste y presupuesto a los canales de mercadotecnia.
 
 1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
 
-## Marketing Channel costs - definitions {#reference_0B193210E10A4B6B84A385A781FD9515}
+## Marketing Channel costs - definitions {#mktg-channel-costs}
 
 Definiciones de los campos de costos o presupuestos de canal de mercadotecnia.
-
-
 
 | Campo | Definición |
 |--- |--- |
