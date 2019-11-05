@@ -8,7 +8,7 @@ title: Crear un grupo de informes virtuales
 topic: Reports and Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -62,7 +62,7 @@ Antes de empezar a crear grupos de informes virtuales, hay que tener algunos asp
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos </td> 
-   <td colname="col2"> <p>Solo tiene que añadir un segmento o <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html" format="https" scope="external">apilar otros</a>. </p> <p> <p>Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción Y. No es posible cambiarlo a una instrucción O. </p> </p> <p>Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. </p> </td> 
+   <td colname="col2"> <p>Solo tiene que añadir un segmento o <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >apilar otros</a>. </p> <p> <p>Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción Y. No es posible cambiarlo a una instrucción O. </p> </p> <p>Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. </p> </td> 
   </tr> 
  </tbody> 
 </table>
