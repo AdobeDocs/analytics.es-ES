@@ -8,7 +8,7 @@ title: Alertas
 topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -103,17 +103,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertas con una ranura ASI como el grupo de informes </p> </td> 
-   <td colname="col2"> <p>Ya no puede <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html" format="https" scope="external">crear o editar ranuras ASI</a> y no estarán disponibles para su uso en Analysis Workspace. Por tanto, ya no son compatibles con las nuevas alertas. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Ya no puede <a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  >crear o editar ranuras ASI</a> y no estarán disponibles para su uso en Analysis Workspace. Por tanto, ya no son compatibles con las nuevas alertas. </p> <p> </p> </td> 
    <td colname="col3"> <p>No está disponible en el nuevo Administrador de alertas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertas con métricas de participación </p> </td> 
-   <td colname="col2"> <p>  Las <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html" format="https" scope="external">métricas de participación</a> están disponibles en Reports &amp; Analytics pero actualmente no están disponibles en el nuevo sistema de alertas de Analysis Workspace. </p> <p> </p> </td> 
+   <td colname="col2"> <p>  Las <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  >métricas de participación</a> están disponibles en Reports &amp; Analytics pero actualmente no están disponibles en el nuevo sistema de alertas de Analysis Workspace. </p> <p> </p> </td> 
    <td colname="col3"> <p>No está disponible en el nuevo Administrador de alertas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Alertas mensuales para grupos de informes de calendario personalizados </p> </td> 
-   <td colname="col2"> <p>Esto solo afecta a los clientes con alertas configuradas para grupos de informes que tengan <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html" format="https" scope="external">fechas de inicio mensuales personalizadas</a> (Federación Nacional Minorista de EE. UU./NRF y tipos de calendario personalizados). </p> <p>No afecta a las alertas de los grupos de informes del calendario gregoriano ni del gregoriano modificado. Anteriormente, estas alertas se enviaban el primer día del mes gregoriano (por ejemplo, el 1 de enero, el 1 de febrero, etc.). Esto no funcionará con la nueva función de detección de anomalías de alertas, la cual tiene en cuenta los datos del mes anterior para la detección de anomalías. En el futuro, añadiremos la compatibilidad con nuestro sistema de programación para calendarios personalizados, de modo que tanto las Alertas como los Proyectos programados podrán programarse para enviarse el primer día del mes del calendario personalizado en lugar de simplemente el primer día del mes gregoriano. </p> <p> </p> </td> 
+   <td colname="col2"> <p>Esto solo afecta a los clientes con alertas configuradas para grupos de informes que tengan <a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  >fechas de inicio mensuales personalizadas</a> (Federación Nacional Minorista de EE. UU./NRF y tipos de calendario personalizados). </p> <p>No afecta a las alertas de los grupos de informes del calendario gregoriano ni del gregoriano modificado. Anteriormente, estas alertas se enviaban el primer día del mes gregoriano (por ejemplo, el 1 de enero, el 1 de febrero, etc.). Esto no funcionará con la nueva función de detección de anomalías de alertas, la cual tiene en cuenta los datos del mes anterior para la detección de anomalías. En el futuro, añadiremos la compatibilidad con nuestro sistema de programación para calendarios personalizados, de modo que tanto las Alertas como los Proyectos programados podrán programarse para enviarse el primer día del mes del calendario personalizado en lugar de simplemente el primer día del mes gregoriano. </p> <p> </p> </td> 
    <td colname="col3"> <p>Todavía no está disponible en el nuevo Administrador de alertas. </p> </td> 
   </tr> 
   <tr> 
