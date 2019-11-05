@@ -5,7 +5,7 @@ seo-title: Implementar Analytics para asistentes digitales
 title: Implementar Analytics para asistentes digitales
 uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
 translation-type: tm+mt
-source-git-commit: de48a1211edd3a4fd35cc455f2002384deeed5be
+source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 
 ---
 
@@ -56,7 +56,7 @@ GET
 /b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net" format="http" scope="external">
+<xref href="https://sc.omtrdc.net">
   sc.omtrdc.net
  Cache-Control: no-cache
 </xref href="https:>
@@ -64,7 +64,7 @@ Host:
 
 ## Varios asistentes o varias aplicaciones
 
-Es probable que su organización quiera aplicaciones para varias plataformas. Es recomendable incluir un ID de aplicación con cada solicitud. This variable can be set in the `a.AppID` context data variable. Follow the format of `[AppName] [BundleVersion]`, for example, BigMac for Alexa 1.2:
+Es probable que su organización quiera aplicaciones para varias plataformas. Es recomendable incluir un ID de aplicación con cada solicitud. This variable can be set in the `a.AppID` context data variable. Siga el formato `[AppName] [BundleVersion]`, por ejemplo, BigMac para Alexa 1.2:
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
@@ -82,7 +82,7 @@ Cache-Control: no-cache
 
 Adobe Analytics utiliza el servicio [de identidad de](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience Cloud para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven una `userID` que puede utilizar para mantener la actividad para distintos usuarios. En la mayoría de los casos, este valor es lo que se puede pasar como identificador único. Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos. En estos casos, Adobe recomienda que hash el identificador único tenga un valor de longitud fija mediante un algoritmo hash estándar, como MD5 o Sha1.
 
-El uso del servicio de ID proporciona el mayor valor al asignar ECID a distintos dispositivos (por ejemplo, Web a asistente digital). Si la aplicación es móvil, utilice los SDK de la plataforma de experiencia tal cual y envíe el ID de usuario con el `setCustomerID` método . Sin embargo, si la aplicación es un servicio, utilice el ID de usuario proporcionado por el servicio como ECID, así como la configuración en `setCustomerID`.
+El uso del servicio de ID proporciona el mayor valor al asignar ECID a distintos dispositivos (por ejemplo, Web a asistente digital). Si la aplicación es móvil, utilice los SDK de la plataforma de experiencia tal cual y envíe el ID de usuario con el `setCustomerID` método . However, if your app is a service, use the user ID provided by the service as the ECID, as well as setting it in `setCustomerID`.
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
@@ -127,7 +127,7 @@ Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
 
-o
+O bien
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
