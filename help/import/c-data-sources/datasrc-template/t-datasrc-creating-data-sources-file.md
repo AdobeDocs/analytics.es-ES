@@ -8,7 +8,7 @@ title: Generación de plantillas de archivo de importación
 topic: Desarrollador e implementación
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 El archivo de plantilla de importaciones está diseñado para proporcionarle los conceptos básicos de importación.
 
-No es obligatorio usar nada más las columnas definidas en la plantilla, sino que se pueden agregar otras columnas que se necesiten, siempre que la métrica o la definición sea compatible con el tipo de procesamiento de datos seleccionado. Para saber cuáles son las métricas y dimensiones compatibles con cada tipo, consulte las siguientes secciones: Registro [](../../../import/c-data-sources/c-datasrc-types/datasrc-web-log.md#concept_E25D89C8B90A41FEB7DF4E936CACEE2B)Web, [Tráfico](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC), [Conversión](../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0), ID [](../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776)de transacción, ID [de](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)[](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED)visitante, Procesamiento completo). For example, for a traffic data type, you can add a column for any metric or dimensions listed in [Traffic](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC).
+No es obligatorio usar nada más las columnas definidas en la plantilla, sino que se pueden agregar otras columnas que se necesiten, siempre que la métrica o la definición sea compatible con el tipo de procesamiento de datos seleccionado. Para saber cuáles son las métricas y dimensiones compatibles con cada tipo, consulte las siguientes secciones: Registro [](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md)Web, [Tráfico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md), [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md), ID [](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)de transacción, ID [de](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)[](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)visitante, Procesamiento completo). For example, for a traffic data type, you can add a column for any metric or dimensions listed in [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md).
 
 Una vez creada la plantilla, puede descargarla, escribir los datos en ella y cargar el archivo al sitio FTP del sistema de fuentes de datos. Una vez procesados por el servidor de fuentes de datos, los datos importados están disponibles para su uso en los informes de Analytics.
 
 La plantilla de la fuente de datos es un archivo .txt que se puede abrir con cualquier editor de texto. Sin embargo, es más fácil trabajar con la plantilla en Microsoft Excel u otra aplicación de hoja de cálculo. El contenido de la plantilla depende según las opciones que se elijan en el Asistente para la activación de fuentes de datos.
 
-Consulte [Referencia sobre el archivo de importación](../../../import/c-data-sources/datasrc-template/datasrc-import-file-reference.md#concept_472095E1D011434D98A21C101A4618BD) para obtener más detalles.
+Consulte [Referencia sobre el archivo de importación](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) para obtener más detalles.
 
 1. Iniciar sesión en Analytics.
 1. En la Suite, haga clic en **Administración**&gt; **[!UICONTROL Fuentes de datos]**.
