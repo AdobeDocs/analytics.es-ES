@@ -5,7 +5,7 @@ seo-title: Informar sobre datos publicitarios en Adobe Analytics
 title: Informar sobre datos publicitarios en Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,9 @@ Detalles sobre la plantilla Analysis Workspace y los informes en Reports &amp; A
 
 Esta plantilla permite a cualquier usuario que implemente esta integración del motor de búsqueda acceder a numerosos datos del motor de búsqueda en Analytics. You can access it via **[!UICONTROL Workspace]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Advertising]** &gt; **[!UICONTROL Search Engines.]**
 
-> [!NOTE] La categoría Plantilla de publicidad es visible para todos los clientes, aunque no haya implementado ninguna cuenta de publicidad. Sin embargo, si intenta abrir la plantilla Motores de búsqueda de pago para una empresa que no se ha proporcionado, aparecerá un mensaje de error en el que se explica que todavía no ha configurado ninguna cuenta de motor de búsqueda. En este caso, haga clic en **[!UICONTROL Configurar ahora]**, lo que lo llevará a la pantalla [Configuración de cuenta publicitaria](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C).
+>[!NOTE]
+>
+> La categoría Plantilla de publicidad es visible para todos los clientes, aunque no haya implementado ninguna cuenta de publicidad. Sin embargo, si intenta abrir la plantilla Motores de búsqueda de pago para una empresa que no se ha proporcionado, aparecerá un mensaje de error en el que se explica que todavía no ha configurado ninguna cuenta de motor de búsqueda. En este caso, haga clic en **[!UICONTROL Configurar ahora]**, lo que lo llevará a la pantalla [Configuración de cuenta publicitaria](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
