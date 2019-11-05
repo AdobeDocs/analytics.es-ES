@@ -7,7 +7,7 @@ title: Agregar métricas y dimensiones
 topic: Creador de informes
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Pasos para agregar métricas y dimensiones a una solicitud.
 
-1. [Cree la solicitud de datos](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) en el [!UICONTROL Asistente para solicitudes: Paso 1] y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
+1. [Cree la solicitud de datos](/help/analyze/report-builder/data-requests/data-requests.md) en el [!UICONTROL Asistente para solicitudes: Paso 1] y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2], haga doble clic en las métricas o arrástrelas a la ubicación que desee.
 
    ![Información del paso](assets/adding_metrics.png)
@@ -64,7 +64,7 @@ La dimensión [!UICONTROL Fecha] se añade automáticamente. Las dimensiones de 
     * Año
     * Intervalo de fecha (cuando no se especifica granularidad)
 
-1. Modifique las métricas y las dimensiones configurando las opciones [y los filtros de](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) formato.
+1. Modifique las métricas y las dimensiones configurando las opciones [y los filtros de](/help/analyze/report-builder/layout/t-format-display-headers.md) formato.
 1. Haga clic en **[!UICONTROL Finalizar]**.
 En el ejemplo siguiente, las dimensiones están relacionadas con la métrica [!UICONTROL Página]. En este caso, la dimensión [!UICONTROL Dominio de referencia] crea un informe de desglose entre [!UICONTROL Página] y [!UICONTROL Dominio de referencia]. La ficha [!UICONTROL Dimensión] solo se actualiza con dimensiones que se pueden añadir a un informe de desglose.
 
