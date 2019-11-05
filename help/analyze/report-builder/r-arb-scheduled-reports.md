@@ -7,7 +7,7 @@ title: Administrador de tareas programadas
 topic: Creador de informes
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,7 +40,7 @@ El Administrador de tareas programadas le permite ver una lista de los informes 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opciones de publicación </p> </td> 
-   <td colname="col2"> <p>Esta columna indicará Power BI si alguna de las <a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#concept_0C4105AA10F9460A872C2489C9CD7945" format="dita" scope="local"> opciones de publicación de Power BI</a> está seleccionada. </p> </td> 
+   <td colname="col2"> <p>Esta columna indicará Power BI si alguna de las <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  > opciones de publicación de Power BI</a> está seleccionada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Programa </p> </td> 
