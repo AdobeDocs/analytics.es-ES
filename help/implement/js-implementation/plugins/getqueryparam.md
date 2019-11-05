@@ -9,7 +9,7 @@ title: getQueryParam
 topic: Desarrollador e implementación
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Devuelve el valor de un parámetro de cadena de consulta especificado, si se enc
 
 >[!IMPORTANT]
 >
->Este complemento solo se usa en el código H. [AppMeasurement para JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) proporciona esta funcionalidad de forma nativa mediante [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5).
+>Este complemento solo se usa en el código H. [AppMeasurement para JavaScript](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) proporciona esta funcionalidad de forma nativa mediante [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md).
 
 Una vez instalado en el código de [!DNL AppMeasurement] para JavaScript, el complemento se configura seleccionando una variable de [!DNL Analytics] que se rellenará con datos encontrados en la cadena de consulta y especificando qué valores de la cadena de consulta se van a capturar. El complemento detecta la cadena de consulta especificada, si está presente, y rellena la variable seleccionada con su valor. Si no se encuentra un parámetro de cadena de consulta con ese valor, se devuelve una cadena vacía. Si existe un parámetro de cadena de consulta pero no dispone de un valor (como param1 en `?param1&param2=value`), se devolverá el valor *`true`*.
 
