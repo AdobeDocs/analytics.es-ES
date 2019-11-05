@@ -1,18 +1,18 @@
 ---
 description: Definición de los campos de fechas móviles en el Creador de informes.
 seo-description: Definición de los campos de fechas móviles en el Creador de informes.
-seo-title: 'Definiciones del Asistente para solicitudes: fechas móviles'
+seo-title: 'Definiciones del Asistente para solicitudes: Fechas móviles'
 solution: Analytics
-title: 'Definiciones del Asistente para solicitudes: fechas móviles'
+title: 'Definiciones del Asistente para solicitudes: Fechas móviles'
 topic: Creador de informes
-uuid: 19 e 25900-96 a 3-4 f 6 c -9551-9 f 7 af 8 cc 6963
+uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Definiciones del Asistente para solicitudes: fechas móviles
+# Definiciones del Asistente para solicitudes: Fechas móviles
 
 Definición de los campos de fechas móviles en el Creador de informes.
 
@@ -26,7 +26,7 @@ Definición de los campos de fechas móviles en el Creador de informes.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Expresión personalizada </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md#task_F5D3C926214F47B8A2C45B2A38C75A45" type="task" format="dita" scope="local"> Expresiones de fechas personalizadas</a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > Expresiones de fechas personalizadas</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Con fecha </p> </td> 
