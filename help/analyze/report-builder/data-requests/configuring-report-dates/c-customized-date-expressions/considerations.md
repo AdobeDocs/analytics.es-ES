@@ -7,7 +7,7 @@ title: Consideraciones de fecha personalizadas
 topic: Creador de informes
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -51,4 +51,4 @@ El día de la semana actual comenzando el domingo 23 de noviembre menos siete d�
 
 El día de la semana actual comenzando el domingo 23 de noviembre menos un día = sábado 22 de noviembre.
 
-En Europa y algunos países, la semana comienza el lunes en lugar del domingo. En este caso, se puede personalizar el calendario para cambiar la fecha de inicio. (Consulte [Calendario personalizado](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).)
+En Europa y algunos países, la semana comienza el lunes en lugar del domingo. En este caso, se puede personalizar el calendario para cambiar la fecha de inicio. (Consulte [Calendario personalizado](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
