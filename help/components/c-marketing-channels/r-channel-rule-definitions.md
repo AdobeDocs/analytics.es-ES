@@ -8,7 +8,7 @@ title: 'Reglas de procesamiento de canal de marketing: Definiciones'
 topic: Reports and Analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -43,7 +43,7 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de conversión </p> </td> 
-   <td colname="col2"> <p>Contiene eVars que se han habilitado para este grupo de informes y se aplica solamente cuando las variables se definen mediante el código de Adobe en la página. </p> <p>Consulte la <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf" scope="external" format="html">Guía de implementación </a>. </p> </td> 
+   <td colname="col2"> <p>Contiene eVars que se han habilitado para este grupo de informes y se aplica solamente cuando las variables se definen mediante el código de Adobe en la página. </p> <p>Consulte la <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf"  >Guía de implementación </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Existe </p> </td> 
@@ -56,7 +56,7 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Identificar el canal como </p> </td> 
-   <td colname="col2"> <p>Asocia la regla con un canal de mercadotecnia que haya agregado a la página <span class="wintitle">Administrador de canales de mercadotecnia</span>. </p> <p>See <a href="../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03" type="task" format="dita" scope="local"> Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p>Asocia la regla con un canal de mercadotecnia que haya agregado a la página <span class="wintitle">Administrador de canales de mercadotecnia</span>. </p> <p>See <a href="/help/components/c-marketing-channels/c-channels.md"   > Add marketing channels </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Concuerda con las reglas de detección de búsqueda paga </p> </td> 
@@ -72,7 +72,7 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
   </tr> 
   <tr> 
    <td colname="col1"> <p>El referente no concuerda con los filtros de dirección URL internos </p> </td> 
-   <td colname="col2"> <p>La dirección URL de referencia no coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. Puede utilizar esta configuración con <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>La dirección URL de referencia no coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. Puede utilizar esta configuración con <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Hacer caso omiso de visitas que coincidan con los filtros de direcciones de URL internas </p> </td> 
@@ -147,6 +147,3 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
   </tr> 
  </tbody> 
 </table>
-
-
-
