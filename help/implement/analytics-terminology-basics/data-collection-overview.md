@@ -8,7 +8,7 @@ title: Recopilación de datos
 topic: Desarrollador e implementación
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,8 +87,8 @@ Adobe ha creado varios métodos para enviar datos a Analytics. Entre estos méto
 
 Para obtener más información, consulte:
 
-* [Recopilación de datos](../../implement/js-implementation/data-collection/query-parameters.md)
-* [Crear un elemento de datos](../../implement/c-implement-with-dtm/t-data-element.md#task_962EF08CE2AE49B3B739295F6E4792C2)
+* [Recopilación de datos](/help/implement/js-implementation/data-collection/query-parameters.md)
+* [Crear un elemento de datos](/help/implement/c-implement-with-dtm/t-data-element.md)
 * [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)
 * [Ad Hoc Analysis ](https://marketing.adobe.com/resources/help/en_US/dsc/c_getting_started.html)
 * [Fuentes de datos](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_datasources.html)
