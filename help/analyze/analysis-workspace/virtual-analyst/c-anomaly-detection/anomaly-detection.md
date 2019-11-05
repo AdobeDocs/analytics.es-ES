@@ -5,7 +5,7 @@ seo-title: Resumen de la Detección de anomalías
 title: Resumen de la Detección de anomalías
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ Puede ver y analizar las anomalías de datos en contexto dentro de Analysis Work
 
 [Análisis de contribución en YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
-> [!IMPORTANT] La detección de anomalías solo está disponible en Analysis Workspace. Los clientes de Adobe Analytics Select y Foundation solo tienen acceso a la detección de anomalías de "granularidad diaria" en Workspace. Para obtener más información, consulte la información relativa a los [derechos de Detección de anomalías y Análisis de contribución](../contribution-analysis/ca-tokens.md).
+>[!IMPORTANT] La detección de anomalías se ha eliminado del conjunto de funciones de Informes y análisis y ahora solo está disponible mediante Analysis Workspace. Tenga en cuenta que los clientes de Adobe Analytics Select y Adobe Analytics Foundation solo tienen acceso a la detección de anomalías de "granularidad diaria" en Workspace. Para obtener más información, consulte la información relativa a los [derechos de Detección de anomalías y Análisis de contribución](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A).
 
 La detección de anomalías constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores.
 
