@@ -5,7 +5,7 @@ seo-title: Uso de funciones
 title: Uso de funciones
 uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Las funciones le permiten filtrar y clasificar sus datos, y realizar análisis estadísticos.
 
-Para obtener una lista de todas las funciones, consulte Funciones [](../../../../../components/c-calcmetrics/cm-reference/cm-functions.md#concept_E3022D5EEEE145B69A23438BAF7016B2) básicas y funciones [avanzadas](../../../../../components/c-calcmetrics/cm-reference/cm-adv-functions.md#concept_A5FB9127D70F4E1AA02D1ACBF4F54174).
+Para obtener una lista de todas las funciones, consulte Funciones [](/help/components/c-calcmetrics/cm-reference/cm-functions.md) básicas y funciones [avanzadas](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
 
 > [!NOTE] Al incluir funciones en una fórmula de métricas calculadas, aplique siempre la función antes de arrastrar métricas o segmentos.
 
