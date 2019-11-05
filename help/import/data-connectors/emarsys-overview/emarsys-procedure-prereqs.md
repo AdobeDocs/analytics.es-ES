@@ -5,7 +5,7 @@ seo-title: Procedimiento de integración y requisitos previos
 title: Procedimiento de integración y requisitos previos
 uuid: d0cd9f08-b66e-470a-a5d2-08cbdc18275
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -26,4 +26,4 @@ Esta integración de Data Connectors requiere lo siguiente:
 
 * Una cuenta de emarsys activa
 
-Para obtener instrucciones de integración paso a paso, consulte [Ejecución del Asistente](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a)para la integración de Conectores de datos.
+Para obtener instrucciones de integración paso a paso, consulte [Ejecución del Asistente para integración de Data Connectors](/help/import/data-connectors/emarsys-overview/emarsys-wizard.md)
