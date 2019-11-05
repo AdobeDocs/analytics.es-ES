@@ -8,7 +8,7 @@ title: Administrador de tableros
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -86,7 +86,7 @@ Cuando copia el tablero preexistente, el sistema lo abre para editarlo y ahí pu
 
    El tablero copiado se abre en el editor de diseño de tablero.
 
-   Consulte [Edición de datos de informes breves y tableros](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460).
+   Consulte [Edición de datos de informes breves y tableros](/help/analyze/reports-analytics/dashboard.md).
 
 ## Compartir un tablero
 
@@ -107,7 +107,7 @@ En el [!UICONTROL Administrador de tableros], puede ver si un tablero está prog
 1. Abra un tablero.
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
 
-   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information.
+   See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information.
 
 ## Archivar un tablero
 
