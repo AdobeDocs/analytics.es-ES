@@ -9,7 +9,7 @@ title: Migrar a AppMeasurement para JavaScript
 topic: Desarrollador e implementación
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -18,13 +18,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 La siguiente tabla contiene la lista de tareas que debe llevar a cabo para migrar su implementación.
 
-> [!NOTE] Se recomienda migrar al [Servicio de identidad](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07) cuando migre a [!DNL AppMeasurement] para JavaScript.
+>[!NOTE]
+>
+>Se recomienda migrar al [Servicio de identidad](/help/implement/js-implementation/c-unique-visitors/visid-service.md) cuando migre a [!DNL AppMeasurement] para JavaScript.
 
 ![](assets/step1_icon.png) Comprobar la compatibilidad de complementos
 
 Donde: s\_code.js
 
-Algunos complementos ya no son compatibles. Consulte [Asistencia del complemento de AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A).
+Algunos complementos ya no son compatibles. Consulte [Asistencia del complemento de AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md).
 
 ![](assets/step2_icon.png) Descargar el nuevo AppMeasurement
 
@@ -42,7 +44,7 @@ Mueva todo el código que aparece antes de la sección `DO NOT ALTER ANYTHING BE
 
 Donde: AppMeasurement.js
 
-Si va a usar el complemento getQueryParam, actualice estas llamadas para usar la nueva utilidad [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)
+Si va a usar el complemento getQueryParam, actualice estas llamadas para usar la nueva utilidad [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md)
 
 ![](assets/step5_icon.png) (Opcional) Actualizar los módulos Media e Integrate
 
