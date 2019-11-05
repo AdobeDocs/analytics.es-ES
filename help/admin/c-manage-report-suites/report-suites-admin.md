@@ -7,7 +7,7 @@ title: Administrador del grupo de informes
 topic: Herramientas de administración
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -54,7 +54,7 @@ La tabla siguiente describe los elementos de la página [!UICONTROL Administrado
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Resúmenes</span> </td> 
-   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> Grupo de informes resumidos</a>. </p> </td> 
+   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Grupo de informes resumidos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar configuración</span> </td> 
@@ -62,7 +62,7 @@ La tabla siguiente describe los elementos de la página [!UICONTROL Administrado
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Crear nueva</span> </td> 
-   <td colname="col2">Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nuevo grupo de informes</a>. </td> 
+   <td colname="col2">Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Nuevo grupo de informes</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Personalizar columnas</span> </td> 
@@ -70,15 +70,15 @@ La tabla siguiente describe los elementos de la página [!UICONTROL Administrado
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">ID del grupo de informes </span> </td> 
-   <td colname="col2">Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nuevo grupo de informes</a>. </td> 
+   <td colname="col2">Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Nuevo grupo de informes</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Título del sitio</span> </td> 
-   <td colname="col2"> <p>Identifica los grupos de informes en las Herramientas de administración y en la lista desplegable de grupo de informes del encabezado de los informes de marketing. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nuevo grupo de informes</a>. </p> </td> 
+   <td colname="col2"> <p>Identifica los grupos de informes en las Herramientas de administración y en la lista desplegable de grupo de informes del encabezado de los informes de marketing. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Nuevo grupo de informes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Dirección URL base</span> </td> 
-   <td colname="col2"> <p>Define el dominio base del grupo de informes. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">Nuevo grupo de informes</a>. </p> </td> 
+   <td colname="col2"> <p>Define el dominio base del grupo de informes. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">Nuevo grupo de informes</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
