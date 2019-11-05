@@ -8,7 +8,7 @@ title: Elegir un método de implementación
 topic: Desarrollador e implementación
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,11 +35,11 @@ For more information, see [Getting Started with Experience Platform Launch](http
 Es importante familiarizarse con JavaScript y comprender la terminología básica de Analytics, como:
 
 * Qué es una [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) y cómo funciona
-* Cuándo utilizar un [evento personalizado](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
+* Cuándo utilizar un [evento personalizado](/help/implement/analytics-terminology-basics/c-props-evars/event-custom.md)
 
 Para obtener información sobre el acceso, puesta en marcha y ejecución de Dynamic Tag Management, consulte [Introducción](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html) en Documentación del producto de Dynamic Tag Management.
 
-Para obtener más información, consulte [Implementación de Analytics con DTM](../../implement/c-implement-with-dtm/dtm-implementation-overview.md).
+Para obtener más información, consulte [Implementación de Analytics con DTM](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md).
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
@@ -50,4 +50,4 @@ La implementación con JavaScript requiere lo siguiente:
 * Buenos conocimientos de JavaScript
 * Una buena comprensión de los conceptos y la terminología de Analytics
 
-Para obtener más información, consulte [Implementación de Analytics con JavaScript](../../implement/js-implementation/javascript-implementation-overview.md).
+Para obtener más información, consulte [Implementación de Analytics con JavaScript](/help/implement/js-implementation/javascript-implementation-overview.md).
