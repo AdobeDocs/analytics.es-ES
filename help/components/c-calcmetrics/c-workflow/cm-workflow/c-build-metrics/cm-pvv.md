@@ -5,7 +5,7 @@ seo-title: Crear una métrica "Vistas de página por visitas" simple
 title: Crear una métrica "Vistas de página por visitas" simple
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Le muestra cómo crear una métrica "Vistas de página por visitas" simple.
 
-Para obtener una descripción detallada de los componentes de la interfaz de usuario, consulte [Crear métricas](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18).
+Para obtener una descripción detallada de los componentes de la interfaz de usuario, consulte [Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 Para crear una métrica "Vistas de página por visitas" simple haga lo siguiente.
 
@@ -31,5 +31,5 @@ Para crear una métrica "Vistas de página por visitas" simple haga lo siguiente
 1. La compatibilidad del producto le muestra si la métrica es compatible con los [Datos actuales](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) o únicamente con los Datos completamente procesados.
 1. Haga clic en **[!UICONTROL Guardar]**.
 1. Observe que la fórmula de **[!UICONTROL Resumen]se actualiza cada vez que realice cambios en la definición de la métrica.**
-1. Ahora se le redirige automáticamente al Administrador [de métricas](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)calculadas, que es similar al Administrador de segmentos. Le permite compartir, aprobar, (volver a) etiquetar, cambiar el nombre o eliminar métricas.
+1. Ahora se le redirige automáticamente al Administrador [de métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)calculadas, que es similar al Administrador de segmentos. Le permite compartir, aprobar, (volver a) etiquetar, cambiar el nombre o eliminar métricas.
 
