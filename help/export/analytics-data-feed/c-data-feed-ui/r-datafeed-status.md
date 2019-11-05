@@ -1,18 +1,18 @@
 ---
 description: Las fuentes se pueden mostrar con cualquiera de las etiquetas de estado.
-keywords: Fuente de datos; status; activo; pendiente de aprobación; eliminado; complete; pendiente; inactivo
+keywords: Fuente de datos;estado;activo;aprobación pendiente;eliminada;completa;pendiente;inactiva
 seo-description: Las fuentes se pueden mostrar con cualquiera de las etiquetas de estado.
-seo-title: Estado de fuente de datos
+seo-title: Estado de la fuente de datos
 solution: Analytics
-title: Estado de fuente de datos
-uuid: 07 ec 0 d 16-925 c -481 d -801 c -869 eb 1568689
+title: Estado de la fuente de datos
+uuid: 07ec0d16-925c-481d-801c-869eb1568689
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# Estado de fuente de datos
+# Estado de la fuente de datos
 
 Las fuentes se pueden mostrar con cualquiera de las etiquetas de estado.
 
