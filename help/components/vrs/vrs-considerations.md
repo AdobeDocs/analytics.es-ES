@@ -8,7 +8,7 @@ title: Información importante sobre el etiquetado de grupos múltiples y global
 topic: Reports and Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -51,7 +51,7 @@ Resumen:
 * Los informes a tiempo real no son compatibles con los grupos de informes virtuales porque los datos están segmentados.
 * “Datos actuales” no es compatible con los grupos de informes virtuales, ya que no admite segmentación.
 
-[Los informes](/help/admin/admin/realtime/t-realtime-admin.md) en tiempo real y ["Datos actuales"](../../technotes/latency.md) no están disponibles en los grupos de informes virtuales. Estas funciones de Reports &amp; Analytics proporcionan acceso a ciertos tipos limitados de datos de manera acelerada, en cuestión de segundos o minutos. Una de las limitaciones de estas vistas es que no admiten segmentación; es decir, los datos a tiempo real en Reports &amp; Analytics no se pueden segmentar. Debido a que los grupos de informes virtuales se crean mediante la segmentación, no es compatible con los informes a tiempo real. Esto afecta a los usuarios que responden a las tendencias que tienen lugar en Adobe Analytics en cuestión de segundos o minutos desde la recopilación de datos, por ejemplo, los editores en una sala de prensa que adaptan montones de titulares basados en el consumo de contenido a tiempo real. En este caso, debe hacer una de las siguientes acciones:
+[Los informes](/help/admin/admin/realtime/t-realtime-admin.md) en tiempo real y ["Datos actuales"](/help/technotes/latency.md) no están disponibles en los grupos de informes virtuales. Estas funciones de Reports &amp; Analytics proporcionan acceso a ciertos tipos limitados de datos de manera acelerada, en cuestión de segundos o minutos. Una de las limitaciones de estas vistas es que no admiten segmentación; es decir, los datos a tiempo real en Reports &amp; Analytics no se pueden segmentar. Debido a que los grupos de informes virtuales se crean mediante la segmentación, no es compatible con los informes a tiempo real. Esto afecta a los usuarios que responden a las tendencias que tienen lugar en Adobe Analytics en cuestión de segundos o minutos desde la recopilación de datos, por ejemplo, los editores en una sala de prensa que adaptan montones de titulares basados en el consumo de contenido a tiempo real. En este caso, debe hacer una de las siguientes acciones:
 
 * Considerar el uso de etiquetado de grupos múltiples para asegurar que todos los usuarios ven únicamente los datos en tiempo real que deben ver.
 * Conceder a estos usuarios acceso a un grupo de informes auténtico (global) si se les debe permitir el acceso al conjunto de datos completo.
@@ -63,7 +63,7 @@ Resumen:
 * Los grupos de informes virtuales no tienen límites de valor único propios para las dimensiones, sino que los heredan de su grupo de informes principal.
 * Si los usuarios de Adobe Analytics necesitan acceder a todos los valores de una dimensión que recibe con frecuencia más de 500 000 valores únicos al mes, considere seguir con la etiqueta de grupos múltiples.
 
-En casos de alta cardinalidad (grandes cantidades de valores únicos en una dimensión determinada, como SKU de producto o páginas), los bloques de Adobe Analytics rara vez encontraron valores cada mes en un elemento de línea "Poco tráfico" agregado dentro de cualquier dimensión dada en un grupo de informes. Los valores incluidos en el bloque "Poco tráfico" no se pueden segmentar. Esto permite que las consultas de Adobe Analytics vuelvan rápidamente, al tiempo que se centran en los primeros 500 000 elementos de línea que se ven con más frecuencia para la dimensión en sus propiedades digitales (por ejemplo, podría ser sus primeros 500 000 nombres de página). Puede obtener más información sobre los límites de valores únicos [aquí](../../technotes/low-traffic.md).
+En casos de alta cardinalidad (grandes cantidades de valores únicos en una dimensión determinada, como SKU de producto o páginas), los bloques de Adobe Analytics rara vez encontraron valores cada mes en un elemento de línea "Poco tráfico" agregado dentro de cualquier dimensión dada en un grupo de informes. Los valores incluidos en el bloque "Poco tráfico" no se pueden segmentar. Esto permite que las consultas de Adobe Analytics vuelvan rápidamente, al tiempo que se centran en los primeros 500 000 elementos de línea que se ven con más frecuencia para la dimensión en sus propiedades digitales (por ejemplo, podría ser sus primeros 500 000 nombres de página). Puede obtener más información sobre los límites de valores únicos [aquí](/help/technotes/low-traffic.md).
 
 Los grupos de informes virtuales no tienen su propio conjunto de 500 000 valores únicos por dimensión al mes. Si el grupo de informes en el que se basa un VRS ha superado los 500 000 valores únicos para una dimensión determinada y ha comenzado a combinar valores de frecuencia inferior en el elemento de línea "Poco tráfico" para esa dimensión, es posible que también vea "Poco tráfico" en el grupo de informes virtuales.
 
