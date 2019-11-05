@@ -7,7 +7,7 @@ title: Mobile
 topic: Informes
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,11 +87,11 @@ Están disponibles los siguientes informes móviles:
   </tr> 
   <tr> 
    <td colname="col1"> Sistema operativo (obsoleto) </td> 
-   <td colname="col2"> <p> Agrupa los dispositivos móviles según el sistema operativo que ejecutan. Entre los sistemas operativos de dispositivos móviles figuran Windows, RIM, iOS, Symbian, etc. El informe también incluye un grupo desconocido para los sistemas operativos no identificados de dispositivos móviles. </p> <p>Nota: Este informe quedó obsoleto cuando se actualizó el informe Tecnología &gt; <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"> Sistemas</a> operativos para incluir todos los sistemas operativos, incluso móviles. Puede crear un segmento en el existe "dispositivo móvil" y aplicarlo al informe Tecnología &gt; Sistemas operativos para ver solo sistemas operativos móviles. </p> </td> 
+   <td colname="col2"> <p> Agrupa los dispositivos móviles según el sistema operativo que ejecutan. Entre los sistemas operativos de dispositivos móviles figuran Windows, RIM, iOS, Symbian, etc. El informe también incluye un grupo desconocido para los sistemas operativos no identificados de dispositivos móviles. </p> <p>Nota: Este informe quedó obsoleto cuando se actualizó el informe Tecnología &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > Sistemas</a> operativos para incluir todos los sistemas operativos, incluso móviles. Puede crear un segmento en el existe "dispositivo móvil" y aplicarlo al informe Tecnología &gt; Sistemas operativos para ver solo sistemas operativos móviles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Versión de Java </td> 
-   <td colname="col2"> <p> Agrupa los dispositivos móviles según la versión de Java que admiten. El informe de versión de Java identifica la versión de Java según la solicitud de especificación de Java (JSR) admitida en el dispositivo. El informe también incluye un grupo desconocido para los sistemas operativos no identificados de dispositivos móviles. </p> <p>Para obtener más información sobre una JSR específica, visite el sitio web de <a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java Community Process</a>. </p> </td> 
+   <td colname="col2"> <p> Agrupa los dispositivos móviles según la versión de Java que admiten. El informe de versión de Java identifica la versión de Java según la solicitud de especificación de Java (JSR) admitida en el dispositivo. El informe también incluye un grupo desconocido para los sistemas operativos no identificados de dispositivos móviles. </p> <p>Para obtener más información sobre una JSR específica, visite el sitio web de <a href="https://jcp.org/en/jsr/overview"  >Java Community Process</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Longitud de la dirección URL del marcador </td> 
