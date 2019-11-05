@@ -5,7 +5,7 @@ seo-title: Mapa
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -61,7 +61,7 @@ La visualización de mapas en Analysis Workspace
       * Esquema de colores verde/rojo: positivo/negativo
    * **Girar** el mapa en 2D o 3D manteniendo presionada la tecla [!UICONTROL Ctrl] y desplazando el mapa.
 
-   * **Alternar** entre las distintas vistas, como el mapa de calor, empleando las [configuraciones](../../../analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritas más adelante. La visualización de burbujas es la configuración predeterminada.
+   * **Alternar** entre las distintas vistas, como el mapa de calor, empleando las [configuraciones](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritas más adelante. La visualización de burbujas es la configuración predeterminada.
 
 
 1. **Guardar** el proyecto para guardar la configuración completa del mapa (coordenadas, zoom, rotación).
