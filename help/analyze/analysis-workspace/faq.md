@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Preguntas más frecuentes
-title: Preguntas más frecuentes
-uuid: f 2 eb 6784-8355-4 be 3-af 10-f 20 d 1 ab 0 de 0 e
+seo-title: Preguntas frecuentes
+title: Preguntas frecuentes
+uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# Preguntas más frecuentes
+# Preguntas frecuentes
 
 <table id="table_BC4237EC03FF42579CC736498D6654F9"> 
  <thead> 
@@ -22,7 +22,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
  <tbody> 
   <tr> 
    <td colname="col1"> <p>¿Cuáles son los requisitos de administración y acceso de Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#concept_0ED9C077EF4C4C70B44BDAF494AE416C" format="dita" scope="local"> Requisitos de administración</a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md"  > Requisitos de administración</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿Cuántos grupos de informes se pueden ver en un proyecto de Analysis Workspace? </p> </td> 
@@ -30,7 +30,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿Cómo se implementa Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>No se requiere implementación especial. Analysis Workspace está disponible en todas las empresas con Analytics estándar o premium. Sin embargo, son aplicables los permisos estándares para el contenido (como los grupos de informes y los componentes de proyecto) y para la depurar y compartir proyectos. Consulte <a href="../../analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#section_FD3737DE452F4F6CA181F13FF3DC668F" format="dita" scope="local">Administración y requisitos de acceso</a>. </p> </td> 
+   <td colname="col2"> <p>No se requiere implementación especial. Analysis Workspace está disponible en todas las empresas con Analytics estándar o premium. Sin embargo, son aplicables los permisos estándares para el contenido (como los grupos de informes y los componentes de proyecto) y para la depurar y compartir proyectos. Consulte <a href="/help/analyze/analysis-workspace/frequently-asked-questions-analysis-workspace.md#section_FD3737DE452F4F6CA181F13FF3DC668F"  >Administración y requisitos de acceso</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿Analysis Workspace cambia los informes preconfigurados en Adobe Analytics? </p> </td> 
@@ -42,11 +42,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr>
   <tr> 
    <td colname="col1"> <p>¿Cómo puedo optimizar el rendimiento de Analysis Workspace? </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="../../analyze/analysis-workspace/optimizing-performance.md#concept_A272AD0B5BC843879663D1F01B1F57C4" format="dita" scope="local">Optimización del rendimiento</a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/analyze/analysis-workspace/optimizing-performance.md"  >Optimización del rendimiento</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿En qué se parecen y diferencian las capacidades de Analysis Workspace y los Ad Hoc Analysis? </p> </td> 
-   <td colname="col2"> <p>See <a href="../../analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md#concept_377738FD6BBA4BEEB59EC004B5519AC1" format="dita" scope="local"> Analysis Workspace compared to Ad Hoc Analysis</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace compared to Ad Hoc Analysis</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
