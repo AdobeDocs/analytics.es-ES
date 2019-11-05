@@ -5,7 +5,7 @@ seo-title: Métrica de participación
 title: Métrica de participación
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ Veamos un caso de uso sencillo. Usted es el propietario de cierto contenido y qu
 
 1. Cree una nueva métrica en el Creador de métricas calculadas.
 1. Arrastre los "Pedidos" del evento de éxito al lienzo Definición.
-1. Cambie el modelo [de](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) atribución de ese evento a **[!UICONTROL Participación]** en el engranaje **[!UICONTROL Configuración]** . Seleccione **[!UICONTROL Visita]** retrospectiva. La definición debería tener un aspecto parecido al siguiente:
+1. Cambie el modelo [de](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) atribución de ese evento a **[!UICONTROL Participación]** en el engranaje **[!UICONTROL Configuración]** . Seleccione **[!UICONTROL Visita]** retrospectiva. La definición debería tener un aspecto parecido al siguiente:
 
    ![](assets/participation.png)
 
