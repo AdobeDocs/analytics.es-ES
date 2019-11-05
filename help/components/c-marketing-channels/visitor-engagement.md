@@ -8,16 +8,12 @@ title: Caducidad de la participación del visitante
 topic: Reports and Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # Caducidad de la participación del visitante
-
-Descubra cómo especificar la caducidad de compromiso del visitante en los canales de mercadotecnia.
-
-## Caducidad de la participación del visitante {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 Descubra cómo especificar la caducidad de compromiso del visitante en los canales de mercadotecnia.
 
@@ -31,7 +27,7 @@ Por ejemplo, muchas veces los visitantes hacen clic a través de una campaña de
 | Nunca | El período de compromiso del visitante no caduca. |
 | Restablecimiento del canal | Termina todos los periodos de compromiso de los visitantes.  Si necesita restablecer todos los datos de canal de mercadotecnia, puede hacer que expiren todos los períodos de compromiso de los visitantes. Podría necesitar restablecer los datos si las reglas de procesamiento están mal configuradas. Todos los valores de canales de primer y último toque expirarán inmediatamente y se restablecerán cuando vuelvan los visitantes. |
 
-## Especificación de la caducidad del compromiso del visitante {#task_A8B8B5A07C5A4882BB895252A018FDED}
+## Especificación de la caducidad del compromiso del visitante {#specify-visitor-expire}
 
 Especifique la caducidad del compromiso del visitante.
 
