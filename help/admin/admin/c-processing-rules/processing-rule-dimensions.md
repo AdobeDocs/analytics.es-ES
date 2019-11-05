@@ -8,7 +8,7 @@ title: Dimensiones disponibles para las reglas de procesamiento
 topic: Herramientas de administración
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -41,7 +41,7 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de datos de contexto </p> </td> 
-   <td colname="col2"> <p>Variables con nombre que se envían con una visita. </p> <p>Nota: Los datos de las variables de datos de contexto se deben copiar en variables de informes para que aparezcan en los informes. Tampoco pueden verse en ninguna interfaz de informes, ni siquiera en las fuentes de datos del flujo de navegación. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> Copiar una variable de datos de contexto en una eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md" format="dita" scope="local"> Definir un evento con una variable de datos de contexto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> Variables de datos de contexto</a> </p> </td> 
+   <td colname="col2"> <p>Variables con nombre que se envían con una visita. </p> <p>Nota: Los datos de las variables de datos de contexto se deben copiar en variables de informes para que aparezcan en los informes. Tampoco pueden verse en ninguna interfaz de informes, ni siquiera en las fuentes de datos del flujo de navegación. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiar una variable de datos de contexto en una eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Definir un evento con una variable de datos de contexto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> Variables de datos de contexto</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
