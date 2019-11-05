@@ -8,7 +8,7 @@ title: Clasificaciones de tráfico
 topic: Herramientas de administración
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ Las clasificaciones de tráfico permiten clasificar variables de tráfico (props
 
 La página Clasificaciones de tráfico permite crear clasificaciones de los grupos de informes seleccionados. Una vez clasificado, cualquier informe que se pueda generar con los datos clave también se puede generar con los atributos asociados.
 
-Después de activar las clasificaciones, utilice el [Importador de clasificaciones](../../components/c-classifications2/c-classifications-importer/c-working-with-saint.md#concept_08ED8C7A86C64E7DA5DE3044BB94B2EA) para asignar valores determinados a la clasificación adecuada.
+Después de activar las clasificaciones, utilice el [Importador de clasificaciones](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) para asignar valores determinados a la clasificación adecuada.
 
 ## Add a Traffic Classification {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
