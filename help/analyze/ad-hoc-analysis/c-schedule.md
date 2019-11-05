@@ -7,7 +7,7 @@ title: Administrador de programación
 topic: Ad Hoc Analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,7 +22,7 @@ La programación de envío de los informes se puede personalizar. Por ejemplo, d
 
 > [!NOTE] Cuando se deshabilita una cuenta de usuario, se suspenden todos los envíos de informes programados que haya creado ese usuario.
 
-Para asegurarse de que los elementos de línea de un desglose son persistentes en los informes programados y guardados, utilice la función **[!UICONTROL Editar elementos]** del Generador de [tablas](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) para crear listas de dimensiones fijas en los desgloses.
+Para asegurarse de que los elementos de línea de un desglose son persistentes en los informes programados y guardados, utilice la función **[!UICONTROL Editar elementos]** del Generador de [tablas](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) para crear listas de dimensiones fijas en los desgloses.
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ La información que se muestra en el informe seleccionado en un determinado mome
   </tr> 
   <tr> 
    <td colname="col1"> <p> Avanzado </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_F99B65BF7C9746638D8147EED147015B" type="reference" format="dita" scope="local"> Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Destino del archivo </p> </td> 
