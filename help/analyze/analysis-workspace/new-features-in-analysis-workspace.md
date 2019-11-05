@@ -8,7 +8,7 @@ title: Novedades en Analysis Workspace
 topic: Reports and Analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -100,7 +100,7 @@ Nuevas funciones y mejoras publicadas el 13 de septiembre de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Nueva plantilla: Consumo de audio</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html" format="html" scope="external">Audio Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Audio Analytics </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ Nuevas funciones y mejoras publicadas el 19 de julio de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/attribution-iq/attribution.md#concept_5BDCF631FCC841FF920FE07F1B0D08A2" format="dita" scope="local"> Attribution IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > Attribution IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>Attribution IQ permite realizar un análisis más sofisticado e inteligente del rendimiento de marketing. Pueden utilizarse nuevos modelos de atribución en las métricas de Analysis Workspace (en cualquier tabla o desglose) y en las métricas calculadas. Un nuevo panel Atribución permite una mejor visualización y comparación. </p> </td> 
   </tr> 
   <tr> 
@@ -158,7 +158,7 @@ Nuevas funciones y mejoras publicadas el 19 de julio de 2018.
    <td colname="col2"> <p>Ahora se muestran los totales de las métricas calculadas, incluidos los porcentajes, siempre que sea posible </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Nuevo <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> intervalo de fechas </a>preestablecido </b> </p> </td> 
+   <td colname="col1"> <p><b>Nuevo <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > intervalo de fechas </a>preestablecido </b> </p> </td> 
    <td colname="col2"> <p>Se ha agregado “13 últimas semanas completas” a los ajustes preestablecidos de intervalo de fechas en Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -177,7 +177,7 @@ Nuevas funciones y mejoras lanzadas el 14 de junio de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/components/dimensions/view-dimensions.md#concept_5459DF3389564391A04AEBC63D732337" format="dita" scope="local"> Columnas de dimensión dinámica </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > Columnas de dimensión dinámica </a> </b> </p> </td> 
    <td colname="col2"> <p>Anteriormente, al colocar una dimensión en una columna, se mostraban los cinco valores principales para las dimensiones que no fueran temporales (quince para las temporales) y dichos valores se mantenían estáticos, es decir, los cinco valores elegidos no cambiaban nunca. </p> <p>A partir de ahora, y de forma predeterminada, se muestran valores dinámicos en lugar de valores estáticos, con la opción de convertirlos en valores estáticos. Otros aspectos que considerar: </p> 
     <ul id="ul_C802BC32CB084E30B4E58E9E90B9A63D"> 
      <li id="li_452466AB416F4737B532849C604BD4CC">Haga clic (i) en la dimensión dinámica para ver la clasificación (el principal de entre cinco valores) y el tipo de dimensión. </li> 
@@ -210,7 +210,7 @@ Nuevas funciones y mejoras lanzadas el 10 de mayo de 2018.
    <td colname="col2"> <p>Proporcionaremos Sugerencias del día (junto con un vídeo corto) en la esquina inferior derecha de la interfaz. Estas sugerencias sirven para que se familiarice con la gran cantidad de funciones de Analysis Workspace. Puede elegir rechazar estas sugerencias o acceder a ellas a través de <span class="uicontrol">Ayuda</span> &gt; <span class="uicontrol">Sugerencias</span> en cualquier momento. </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> Plantillas de <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> segmentos </a> y plantillas de métricas <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> calculadas </a></b> </p> </td> 
+   <td colname="col1"> <p><b> Plantillas de <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > segmentos </a> y plantillas de métricas <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > calculadas </a></b> </p> </td> 
    <td colname="col2"> <p>El carril izquierdo muestra ahora plantillas de segmento y plantillas de métrica calculada. </p> </td> 
   </tr> 
   <tr> 
@@ -218,7 +218,7 @@ Nuevas funciones y mejoras lanzadas el 10 de mayo de 2018.
    <td colname="col2"> <p>Ahora puede desplazarse hacia arriba o abajo mientras arrastra los componentes a una nueva ubicación. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Información adicional sobre <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md#concept_B215F229DD804928BB4455198E89A68D" format="dita" scope="local"> anomalías </a></b> </p> </td> 
+   <td colname="col1"> <p><b>Información adicional sobre <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > anomalías </a></b> </p> </td> 
    <td colname="col2"> <p>Al pasar el cursor sobre una anomalía en un gráfico de líneas, la información ahora muestra la fecha y el valor sin procesar de la anomalía. </p> </td> 
   </tr> 
  </tbody> 
@@ -237,19 +237,19 @@ Nuevas funciones y mejoras lanzadas el 12 de abril de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> Configuración Justificar el texto del encabezado activada de forma predeterminada </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Configuración Justificar el texto del encabezado activada de forma predeterminada </a> </p> </td> 
    <td colname="col2"> <p>Ahora, la configuración de columna <span class="uicontrol">Justificar el texto del encabezado</span> está activada de forma predeterminada en las tablas improvisadas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md#concept_AA32AA9932F744FB9044F59C7B8E562C" format="dita" scope="local">Nueva configuración de filas</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  >Nueva configuración de filas</a> </p> </td> 
    <td colname="col2"> <p>La nueva configuración <span class="uicontrol">Calcular porcentaje por fila</span> obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto resulta particularmente útil en los porcentajes de tendencias, como averiguar cómo se comporta una dimensión en comparación con el resto a lo largo del tiempo. Se activa de forma predeterminada al hacer clic en el icono <span class="uicontrol">Visualizar</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B" format="dita" scope="local"> Configuración de la visualización “Apilada al 100 %”</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Configuración de la visualización “Apilada al 100 %”</a> </p> </td> 
    <td colname="col2"> <p>Una nueva configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización apilada al 100 % para que pueda analizar las proporciones relativas. </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>  Disponibilidad exclusiva de <a href="../../analyze/analysis-workspace/virtual-analyst/virtual-analyst.md#concept_2DEA84993D8641808C25CF2DC286093E" format="dita" scope="local">Detección de anomalías y Análisis de contribución</a> en Analysis Workspace </p> </td> 
+   <td colname="col1"> <p>  Disponibilidad exclusiva de <a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  >Detección de anomalías y Análisis de contribución</a> en Analysis Workspace </p> </td> 
    <td colname="col2"> <p>Las características Detección de anomalías y Análisis de contribución se han eliminado del conjunto de funciones de Reports &amp; Analytics, y ahora solo están disponibles en Analysis Workspace. </p> <p>Tenga en cuenta que los clientes de Adobe Analytics Select y Adobe Analytics Foundation solo tienen acceso a la detección de anomalías de "granularidad diaria" en Workspace. </p> </td> 
   </tr> 
  </tbody> 
@@ -268,15 +268,15 @@ Nuevas funciones y mejoras lanzadas el 8 de marzo de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> Justificación del texto del encabezado </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Justificación del texto del encabezado </a> </p> </td> 
    <td colname="col2"> <p>Ahora puede justificar el texto del encabezado en las tablas improvisadas para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. Hemos agregado una opción en la configuración de columna llamada "Ajustar texto de encabezado". Esto resulta muy útil en el procesamiento de archivos .pdf y en las métricas con nombres largos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> Clic con el botón derecho para crear una métrica </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > Clic con el botón derecho para crear una métrica </a> </p> </td> 
    <td colname="col2"> <p>Con el fin de facilitar la creación rápida de métricas calculadas, se ha añadido la opción <span class="uicontrol">Crear métrica a partir de selección</span> al menú que se abre al hacer clic con el botón derecho en las tablas improvisadas. Esta opción se muestra cuando se selecciona al menos una celda de columna de encabezado. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> Mejoras en la visualización de Mapa </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Mejoras en la visualización de Mapa </a> </p> </td> 
    <td colname="col2"> <p>Para poder mostrar comparaciones entre períodos (por ejemplo, año tras año) en la visualización de Mapa, hemos añadido las siguientes mejoras: </p> 
     <ul id="ul_F570E6AB174C45788620CF50E2742A08"> 
      <li id="li_746E329037764644A9CCF79161C26350">La visualización de Mapa ahora permite mostrar números negativos. Por ejemplo, si planea crear una métrica año tras año, el mapa puede mostrar -33 % en Nueva York. </li> 
@@ -285,7 +285,7 @@ Nuevas funciones y mejoras lanzadas el 8 de marzo de 2018.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> Actualizaciones en las plantillas personalizadas </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Actualizaciones en las plantillas personalizadas </a> </p> </td> 
    <td colname="col2"> <p>En las plantillas personalizadas recién publicadas: </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">Hemos añadido un icono de plantilla en la parte superior del proyecto (cerca del título) para ayudar a diferenciar el modo de edición de plantilla del hecho de usar una plantilla como punto de partida para un proyecto. </li> 
@@ -308,11 +308,11 @@ Nueva función y mejoras publicadas el 8 de febrero de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#section_309C3DEDC9584A3FA3699BE10BF751ED" format="dita" scope="local"> Plantillas personalizadas de espacio de trabajo </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > Plantillas personalizadas de espacio de trabajo </a> </p> </td> 
    <td colname="col2"> <p>Ahora puede crear sus propias plantillas de espacio de trabajo y guardarlas para que otros usuarios de su organización puedan empezar a trabajar con los datos pertinentes para ellos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> Nuevo modo para iniciar los proyectos </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Nuevo modo para iniciar los proyectos </a> </p> </td> 
    <td colname="col2"> <p>Al hacer clic en "nuevo proyecto", se abre una nueva pantalla que le ofrece la opción de empezar desde </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">un proyecto en blanco, </li> 
@@ -325,15 +325,15 @@ Nueva función y mejoras publicadas el 8 de febrero de 2018.
    <td colname="col2"> <p>Hemos agregado la opción “Copiar en el portapapeles” al hacer clic con el botón derecho para que pueda copiar celdas o tablas de forma sistemática. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">Mejora en los porcentajes de las columnas</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >Mejora en los porcentajes de las columnas</a> </p> </td> 
    <td colname="col2"> <p>El "porcentaje del total" mostrado en las columnas tenía un límite del 100%, incluso cuando ciertos escenarios llevan a que las filas superen el 100% del total (por ejemplo, con promedios). </p> <p>Ahora se muestran porcentajes superiores al 100 % para ofrecer una mayor precisión. También hemos incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB" format="dita" scope="local"> Posibilidad de usar el formato condicional en los desgloses </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Posibilidad de usar el formato condicional en los desgloses </a> </p> </td> 
    <td colname="col2"> <p>La aplicación de formato condicional (colores, etc.) en tablas improvisadas ahora se activa automáticamente en los desgloses, a menos que se seleccionen los límites "Personalizados". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Changes to default <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> calendar </a> view </p> </td> 
+   <td colname="col1"> <p>Changes to default <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > calendar </a> view </p> </td> 
    <td colname="col2"> <p>Ahora, el calendario del espacio de trabajo mostrará de forma predeterminada el mes actual y el anterior, en vez de mostrar el mes actual y el siguiente. </p> </td> 
   </tr> 
   <tr> 
@@ -356,7 +356,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Más <a href="../../analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md#concept_3E1AE8B53CBE4D06B2C4470EDA7E9FE9" format="dita" scope="local">opciones de filtrado</a> de elementos de dimensión en tablas Freeform </p> </td> 
+   <td colname="col1"> <p>Más <a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  >opciones de filtrado</a> de elementos de dimensión en tablas Freeform </p> </td> 
    <td colname="col2"> <p>Se han añadido estas opciones de filtrado (avanzadas) para elementos de dimensión (además de las opciones existentes “contiene” y “no contiene”): </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Contiene todos los términos </li> 
@@ -371,11 +371,11 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C" format="dita" scope="local"> Copia y pegado de visualizaciones/paneles</a> entre paneles y proyectos </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  > Copia y pegado de visualizaciones/paneles</a> entre paneles y proyectos </p> </td> 
    <td colname="col2"> <p>Ahora puede hacer clic con el botón derecho, copiar una visualización o panel y, a continuación, pegar (“insertar”) el elemento copiado en otro sitio dentro del mismo proyecto o en un proyecto distinto. </p> <p>Puede utilizar esta capacidad para crear “bloques de construcción” (visualizaciones/paneles predefinidos) que es posible copiar en otros proyectos para ponerse en marcha más rápido y con datos específicos de su negocio. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local">Nuevas plantillas móviles para “mensajería” y “ubicación”</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >Nuevas plantillas móviles para “mensajería” y “ubicación”</a> </p> </td> 
    <td colname="col2"> <p>Se han añadido dos nuevas plantillas de proyecto: </p> 
     <ul id="ul_2F5976C849474A2B8A6BCDA2559F2855"> 
      <li id="li_51B7830E062A4CFDBDF219C56249A733">Una nueva plantilla de proyecto móvil para “mensajería” que se centra en el rendimiento de la mensajería dentro de la aplicación y la mensajería push. </li> 
@@ -387,19 +387,19 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
    <td colname="col2"> <p>Al cambiar el tamaño de la columna más a la izquierda, Workspace mantiene ahora la relación de anchura del resto de las columnas (no ajusta únicamente el ancho de la columna de la derecha). Este cambio acelera la creación de tablas tanto para análisis como para uso compartido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visualización de <a href="../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local">400 filas</a> en una tabla </p> </td> 
+   <td colname="col1"> <p>Visualización de <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >400 filas</a> en una tabla </p> </td> 
    <td colname="col2"> <p>Ahora se pueden mostrar 400 filas en una tabla (frente a las 200 anteriores) para permitir tendencias de 365 días. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>  Compatibilidad con la <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local">visualización Mapa</a> en PDF </p> </td> 
+   <td colname="col1"> <p>  Compatibilidad con la <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  >visualización Mapa</a> en PDF </p> </td> 
    <td colname="col2"> <p>La visualización Mapa, introducida en octubre de 2017, puede representarse ahora en PDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> Intravínculos relativos</a> al guardar como/copiar un proyecto </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Intravínculos relativos</a> al guardar como/copiar un proyecto </p> </td> 
    <td colname="col2"> <p>Anteriormente, cuando se copiaba un proyecto o se hacía un "guardar como", todos los intravínculos guardados apuntaban al proyecto original, no al copiado. </p> <p>Ahora, los intravínculos son relativos al proyecto en el que residen después de la operación de copiar o guardar como. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Análisis de contribución: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html" format="html" scope="external">notificación de tokens </a> </p> </td> 
+   <td colname="col1"> <p>Análisis de contribución: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  >notificación de tokens </a> </p> </td> 
    <td colname="col2"> <p>Si su empresa tiene un número limitado de tokens de Análisis de contribución, la interfaz de Analysis Workspace muestra ahora una notificación cada vez que consume un token. De este modo, sabe cuántos tokens le quedan.&amp;nbsp; </p> <p>(Usuarios administradores: es posible restringir quién puede utilizar estos tokens mediante la edición de los permisos de grupo. El permiso se denomina “Detección de anomalías y análisis de contribución” en <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar el acceso a todos los informes</span> &gt; <span class="uicontrol">Personalizar las herramientas del grupo de informes</span> &gt; <span class="uicontrol">Herramientas e informes</span>).  </p> </td> 
   </tr> 
   <tr> 
@@ -449,23 +449,23 @@ Nuevas funciones lanzadas el 26 de octubre de 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> Visualización de mapas </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > Visualización de mapas </a> </p> </td> 
    <td colname="col2"> <p>El nuevo&amp;nbsp;Map Visualization&amp;nbsp;le permite ver fácilmente las interacciones del cliente en el contexto de su ubicación. De una vista macro (global) a una vista micro (de la ciudad), puede fácilmente aumentar y reducir distintos niveles de jerarquía en la visualización para ver clústeres de usuarios en las regiones. </p> <p>Puede visualizar los datos de ubicación a través de la dirección IP (en conjuntos de datos no móviles) o arrojar los datos de latitud y&amp;nbsp;longitud (para clientes que usen el SDK móvil) en Analysis Workspace.&amp;nbsp; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/line.md#concept_EBE07FCD66C24D2AB58F1EC0F8017AD8" format="dita" scope="local"> Selector de granularidad en visualizaciones de tendencias </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  > Selector de granularidad en visualizaciones de tendencias </a> </p> </td> 
    <td colname="col2"> <p>Ahora puede alternar fácilmente entre las granularidades de tiempo cuando la dimensión de la fuente de datos es de tiempo. Puede cambiar las granularidades en el menú desplegable que hay en la configuración de visualización. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> Dimensiones y eventos completos en la zona de colocación de segmentos </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Dimensiones y eventos completos en la zona de colocación de segmentos </a> </p> </td> 
    <td colname="col2"> <p>Antes, en las zonas de colocación de segmentos solo se podían colocar elementos de dimensión, intervalos de fechas o segmentos. Ahora, en esta zona se pueden colocar dimensiones o eventos completos. En ambos casos, Analysis Workspace crea segmentos de visita del tipo “existe”. </p> <p>Ejemplos: “Visita donde existe eVar1” o “Visita donde existe evento1”. </p> <p>Nota: No se pueden colocar métricas calculadas en una zona de segmentos. Solo sirven para la zona de segmentos aquellas dimensiones/métricas para las que se pueden crear segmentos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> Visualizaciones conectadas en la configuración de fuentes de datos </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > Visualizaciones conectadas en la configuración de fuentes de datos </a> </p> </td> 
    <td colname="col2"> <p>Ahora, cuando hay visualizaciones conectadas a una tabla de forma libre o de conjuntos, el punto superior izquierdo (Configuración de fuentes de datos) muestra dichas visualizaciones. Al pasar el ratón por encima, se resalta la visualización vinculada y, al hacer clic en ella, se abre. </p> <p>Además, la casilla “Mostrar/ocultar tabla de datos” permite elegir si quiere ver o no esta tabla. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> Se ha añadido event# a los nombres de evento del carril izquierdo </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Se ha añadido event# a los nombres de evento del carril izquierdo </a> </p> </td> 
    <td colname="col2"> <p>Antes de octubre de 2017, se añadieron evar# y prop# a los nombres de dimensión y se podía buscar en esos números. Ahora esta misma funcionalidad está disponible para los eventos. </p> <p>Ejemplo: ahora, “Suscripciones” figura en el carril izquierdo como “Suscripciones (evento1)”. </p> <p>Recuerde: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">El número de evento no aparece en la tabla (para abreviar los títulos). </li> 
@@ -473,7 +473,7 @@ Nuevas funciones lanzadas el 26 de octubre de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> Dimensiones integradas, ordenadas en un orden lógico de forma predeterminada </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Dimensiones integradas, ordenadas en un orden lógico de forma predeterminada </a> </p> </td> 
    <td colname="col2"> <p>El criterio de ordenación predeterminado de algunas dimensiones integradas se ha actualizado en estos casos: </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">Cuando se arrastran a una tabla de forma libre. </li> 
@@ -481,11 +481,11 @@ Nuevas funciones lanzadas el 26 de octubre de 2017.
     </ul> <p>Por ejemplo, si se coloca “Hora del día” en una tabla, se ordena de 00 a 23. Sigue existiendo la opción de ordenar por cualquier columna de métrica. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md" format="dita" scope="local"> Opción para permitir que el intervalo de confianza vuelva a escalar un gráfico </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > Opción para permitir que el intervalo de confianza vuelva a escalar un gráfico </a> </p> </td> 
    <td colname="col2"> <p>El intervalo de confianza de detección de anomalías no escala automáticamente el eje Y de una visualización para conseguir que el gráfico sea más legible. </p> <p>Ahora, tiene la opción de permitir que el intervalo de confianza escale el gráfico. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md" format="dita" scope="local"> Alertas: se ha añadido la opción <b>Renovar</b> </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md"  > Alertas: se ha añadido la opción <b>Renovar</b> </a> </p> </td> 
    <td colname="col2"> <p>En el Administrador de alertas, cuando se seleccionan una o varias alertas, estas se pueden renovar haciendo clic en <span class="uicontrol">Renovar </span>. </p> <p>Esto amplía sus fechas de caducidad 1 año a partir del momento en que se hace clic en <span class="uicontrol">Renovar</span>, fuera cual fuera su fecha de caducidad original. </p> </td> 
   </tr> 
   <tr> 
@@ -513,7 +513,7 @@ Nuevas funciones lanzadas el 21 de septiembre de 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md#concept_03D6295D84CD42528D40B932AD80AE04" format="dita" scope="local">Dimensiones de partición de tiempo en Analysis Workspace</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md"  >Dimensiones de partición de tiempo en Analysis Workspace</a> </p> </td> 
    <td colname="col2"> <p>Las dimensiones basadas en marca de hora se han añadido directamente a Analysis Workspace. Entre las dimensiones se incluyen: </p> 
     <ul id="ul_9BDBC0B344504E85840040E493873A47"> 
      <li id="li_826A8CBF4FDB4C98AC176C7145C09DB2">Hora del día (por ejemplo, 01, 12, 15 o 23) </li> 
@@ -527,27 +527,27 @@ Nuevas funciones lanzadas el 21 de septiembre de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> Administrar varias columnas a la vez en tablas de formas libres </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Administrar varias columnas a la vez en tablas de formas libres </a> </p> </td> 
    <td colname="col2"> <p>Ahora, se puede cambiar la configuración de varias columnas a la vez. Basta con seleccionar varias columnas y hacer clic en el icono de configuración de cualquiera de ellas. Los cambios realizados se aplicarán a todas las columnas que tengan celdas seleccionadas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md#concept_7D1D66E9D34D4C52902C8E2D92658B27" format="dita" scope="local"> Flujo: etiquetado interdimensional </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > Flujo: etiquetado interdimensional </a> </p> </td> 
    <td colname="col2"> <p>Existe una nueva etiqueta de dimensión en la parte superior de cada columna Flujo que hace que el uso de varias dimensiones en una visualización de flujo sea más intuitivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477" format="dita" scope="local"> Método de contabilización de accesos de histograma </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477"  > Método de contabilización de accesos de histograma </a> </p> </td> 
    <td colname="col2"> <p>Antes, había dos métodos de contabilización en una visualización de histograma: Visita y Visitante (predeterminado). </p> <p>Ahora, se puede usar un tercer método de contabilización como contenedor de segmentos: “Acceso”. "Ocurrencias" se utiliza como métrica del eje y en la tabla improvisada. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>  Botón <span class="uicontrol">Borrar todo</span> para la configuración de Comparación de segmentos y Análisis de contribución </p> </td> 
    <td colname="col2"> <p>Ahora, en lugar de borrar manualmente cada elemento, se pueden borrar todos en las siguientes áreas de Workspace: </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC" format="dita" scope="local"> Componentes excluidos de Análisis de contribución </a> </li> 
-     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="../../analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937" format="dita" scope="local"> Componentes excluidos de Comparación de segmentos </a> </li> 
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > Componentes excluidos de Análisis de contribución </a> </li> 
+     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937"  > Componentes excluidos de Comparación de segmentos </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local">Nombres actualizados para los tipos de visualización Cambio de resumen</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  >Nombres actualizados para los tipos de visualización Cambio de resumen</a> </p> </td> 
    <td colname="col2"> <p>Se ha cambiado el nombre de dos opciones disponibles en Cambio de resumen para aclarar su significado: </p> 
     <ul id="ul_7301D1C73E72424F911EE8DAAD9247A0"> 
      <li id="li_89D94632E0C94263A84887AF5B360E27">Mostrar cambio &gt; Mostrar cambio de porcentaje </li> 
@@ -555,7 +555,7 @@ Nuevas funciones lanzadas el 21 de septiembre de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local">Más lugares decimales para Números/Cambios de resumen abreviados</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  >Más lugares decimales para Números/Cambios de resumen abreviados</a> </p> </td> 
    <td colname="col2"> <p>Antes, las visualizaciones de Números/Cambios de resumen abreviados mostraban 0 lugares decimales. </p> <p>Ahora, es posible elegir de 0 a 3 lugares decimales para mejorar los informes. </p> </td> 
   </tr> 
  </tbody> 
@@ -574,19 +574,19 @@ Nuevas funciones lanzadas el 17 de agosto de 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> Etiquetado de un proyecto mientras se guarda </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Etiquetado de un proyecto mientras se guarda </a> </p> </td> 
    <td colname="col2"> <p>Ahora puede agregar etiquetas a un proyecto mientras lo guarda. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7" format="dita" scope="local"> Columna Etiquetas de la página de lista de proyectos </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md"  > Columna Etiquetas de la página de lista de proyectos </a> </p> </td> 
    <td colname="col2"> <p>Se ha añadido una columna <span class="wintitle">Etiquetas</span> en la página de lista de proyectos de Workspace. En esta columna se muestran las etiquetas de cada proyecto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Exportación de visualizaciones de flujo como archivos .csv </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > Exportación de visualizaciones de flujo como archivos .csv </a> </p> </td> 
    <td colname="col2"> <p>Puede descargar visualizaciones de flujo como archivos .csv, lo que le permitirá analizar los resultados de flujo en Microsoft Excel (visualizados como una tabla) o en otra herramienta. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> Alertas inteligentes: intervalos de confianza adicionales </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md"  > Alertas inteligentes: intervalos de confianza adicionales </a> </p> </td> 
    <td colname="col2"> <p>Para las alertas basadas en la detección de anomalías se han añadido dos nuevos niveles de confianza (99,75 % y 99,9 %). También se han cambiado los valores predeterminados de algunas selecciones de granularidad: </p> 
     <ul id="ul_EB1F07A4D2204D57B2DDD9838CE4F5D9"> 
      <li id="li_542AAACE703F4EBFBD91F11F5ABC2929">por hora: ahora 99,75 % </li> 
@@ -609,23 +609,23 @@ Nuevas funciones lanzadas el 20 de julio de 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F" format="dita" scope="local"> Editor de texto enriquecido </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/text.md"  > Editor de texto enriquecido </a></b> </p> </td> 
    <td colname="col2"> <p>Le permite cambiar los ajustes de fuente (negrita, cursiva, etc.) y los hipervínculos en visualizaciones de cuadros de texto y descripciones de paneles/visualizaciones. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086" format="dita" scope="local"> Intravínculos (vínculos de visualización rápida) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > Intravínculos (vínculos de visualización rápida) </a></b> </p> </td> 
    <td colname="col2"> <p>Los <b>intravínculos</b> le permiten vincular con paneles y visualizaciones específicos de un proyecto desde un cuadro de texto, por ejemplo, para crear la tabla de contenido de un proyecto. Puede compartir estos vínculos como lo haría con el de un proyecto para llevar a un usuario hasta una visualización o panel específico de un proyecto. Se han añadido nuevas opciones de clic con el botón derecho denominadas "Obtener vínculo del panel" y "Obtener vínculo de visualización". </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE" format="dita" scope="local"> Edición de etiquetas de leyenda </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE"  > Edición de etiquetas de leyenda </a></b> </p> </td> 
    <td colname="col2"> <p>Le permite cambiar el nombre de las series en las leyendas de las visualizaciones (visitas en el orden previsto, área, área apilada, barras, barras apiladas, anillo, histograma, barras horizontales, barras horizontales apiladas, líneas, dispersión y Venn) para contribuir al uso de las imágenes. </p> <p>La edición de leyendas <b>no</b> se aplica a: visualizaciones de rectángulos, viñetas, número o cambio de resumen, texto, improvisación, histograma, cohorte o flujo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> Actualizaciones para "Administrar fuentes de datos" </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > Actualizaciones para "Administrar fuentes de datos" </a></b> </p> </td> 
    <td colname="col2"> <p>Hemos redesarrollado el modo en que se administran las fuentes de datos (lo que alimenta las visualizaciones). Ya no se emplean tablas separadas y ocultas cuando se vincula la fuente de datos con una tabla. </p> <p>Ahora, la visualización se mantiene unida a la tabla desde la que se creó. Esto también soluciona un error en las tablas vinculadas en tiempo real que se producía si se cambiaba la granularidad y luego se volvía a la granularidad antigua al cargar de nuevo el proyecto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#concept_0E420C3EB71847399AA1D719C0B75250" format="dita" scope="local"> Posibilidad de resaltar una anomalía específica </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > Posibilidad de resaltar una anomalía específica </a></b> </p> </td> 
    <td colname="col2"> <p>Ahora, la anomalía se resalta con un punto azul dentro del análisis de contribución y en los proyectos de alerta inteligente vinculados con ella. Esto proporciona una indicación más clara de la anomalía que se está analizando. </p> </td> 
   </tr> 
   <tr> 
@@ -633,7 +633,7 @@ Nuevas funciones lanzadas el 20 de julio de 2017.
    <td colname="col2"> <p>Antes, si iniciaba sesión con las credenciales de Experience Cloud y navegaba a Analytics, no podía utilizar la función <span class="ignoretag"><span class="uicontrol">Compartir</span> &gt; <span class="uicontrol">Obtener vínculo del proyecto</span></span>. Hemos solucionado este problema. Para que esta opción esté disponible, aún es necesario haber guardado el proyecto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C" format="dita" scope="local">Filtro “Proyectos caducados” en el Administrador de proyectos programados</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >Filtro “Proyectos caducados” en el Administrador de proyectos programados</a></b> </p> </td> 
    <td colname="col2"> <p>Ahora es posible filtrar para ver los proyectos caducados en el Administrador de proyectos programados. Entonces se puede decidir si los proyectos se reinician o se eliminan. </p> </td> 
   </tr> 
  </tbody> 
@@ -652,7 +652,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md#concept_298891C950D5498FA820CC4D7F51F4CA" format="dita" scope="local"> Mejoras en la visita en el orden previsto</a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > Mejoras en la visita en el orden previsto</a></b> </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">Sin límite de segmentos para la comparación </li> 
@@ -663,14 +663,14 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow-settings.md#concept_1DD357A991414622877364BAB40C8E26" format="dita" scope="local"> <b>Mejoras de flujo</b></a> </td> 
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b>Mejoras de flujo</b></a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Se ha añadido una nueva configuración de visualización denominada <span class="wintitle">Inhabilitar el truncado de etiquetas</span> (valor predeterminado = sin marcar). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local">Cambios en el calendario</a></b>  </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >Cambios en el calendario</a></b>  </td> 
    <td colname="col2"> Se han realizado cambios en el calendario para adaptarlo al calendario de Reports &amp; Analytics: 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">Con el primer clic se inicia la selección de un intervalo de fechas. A continuación, resalte el intervalo en cualquier dirección y vuelva a hacer clic para determinar el final del intervalo de fechas. Si se mantiene pulsada la tecla Mayús (o se hace clic con el botón derecho) mientras se hace clic en la primera fecha, se adjuntará al intervalo. </li> 
@@ -686,7 +686,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> Casilla de verificación Usar límites porcentuales </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Casilla de verificación Usar límites porcentuales </a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> Se ha añadido una casilla para indicar techos porcentuales, especialmente para métricas basadas en porcentajes (aunque también funciona para métricas no porcentuales). </li> 
@@ -700,7 +700,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md" format="dita" scope="local"> Mejoras en el Administrador de alertas</a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > Mejoras en el Administrador de alertas</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Se ha añadido la posibilidad de habilitar/deshabilitar alertas. </li> 
@@ -709,7 +709,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Nuevas <b> <a href="../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051" format="dita" scope="local"> teclas de acceso directo </a></b> </p> </td> 
+   <td colname="col1"> <p>Nuevas <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > teclas de acceso directo </a></b> </p> </td> 
    <td colname="col2"> <p>Se han añadido las siguientes teclas de acceso directo: </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + mayús + 1 = ir al panel Paneles </li> 
@@ -733,12 +733,12 @@ Nuevas funciones lanzadas el 20 de abril de 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> Plantilla Personas </a> </p> </td> 
-   <td colname="col2"> <p>Nota: La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de la <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html" format="html" scope="external">cooperación entre dispositivos de Adobe Experience Cloud </a>. </p> <p>La plantilla está basada en la métrica Personas que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Plantilla Personas </a> </p> </td> 
+   <td colname="col2"> <p>Nota: La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de la <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html"  >cooperación entre dispositivos de Adobe Experience Cloud </a>. </p> <p>La plantilla está basada en la métrica Personas que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mejoras en la opción Deshacer/Rehacer </p> </td> 
-   <td colname="col2"> <p>En estas listas se muestran las acciones que puede y las que no puede <a href="../../analyze/analysis-workspace/build-workspace-project/undo-redo.md#concept_993110B9F2F84EB192308108882F8EEC" format="dita" scope="local"> deshacer y rehacer en Analysis Workspace </a>. </p> </td> 
+   <td colname="col2"> <p>En estas listas se muestran las acciones que puede y las que no puede <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > deshacer y rehacer en Analysis Workspace </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -756,7 +756,7 @@ Nueva función lanzada el 16 de febrero de 2017:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md#concept_AA32AA9932F744FB9044F59C7B8E562C" format="dita" scope="local"> Desglose por posición </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Desglose por posición </a> </p> </td> 
    <td colname="col2"> <p>Permite el desglose por posición de tabla. Ejemplo: "Siempre quiero que se desglosen las 7 primeras filas de una tabla improvisada." Ahora, cuando crea una tabla improvisada hay una casilla que le permite habilitar “Desglose por posición”. Esta opción está desactivada de manera predeterminada. </p> <p>Anteriormente, la lista de valores del desglose estaba "bloqueada". Esto llevaba a una situación en la que, por ejemplo, si realizaba un desglose de <span class="wintitle">Fecha</span> por <span class="wintitle">Página</span>, obtenía una lista de las 50 primeras páginas para el intervalo de fechas seleccionado. </p> <p>Si se guardaba ese informe y se ejecutaba un mes después, era probable que las 50 primeras páginas hubieran cambiado. No obstante, Analysis Workspace “confiaba” en los resultados del desglose original y devolvía las mismas páginas, pero con el mes en curso como intervalo de fechas. </p> </td> 
   </tr> 
  </tbody> 
@@ -775,11 +775,11 @@ Nueva función lanzada el 19 de enero de 2017:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/curate-share/download-send.md#concept_BB548979F47F45739679B830428C3025" format="dita" scope="local">Enviar y descargar un PDF sin tener que guardar el proyecto</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  >Enviar y descargar un PDF sin tener que guardar el proyecto</a> </p> </td> 
    <td colname="col2"> <p>Ahora puede enviar y descargar un PDF en Workspace sin tener que guardar el proyecto. El nombre del archivo PDF coincide con el nombre actual del proyecto. El PDF descargado incluye los cambios sin guardar en el proyecto. Tenga en cuenta que no puede programar proyectos sin guardar. (También puede enviar y descargar archivos CSV sin guardar, pero no puede programarlos). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local">Compartir automáticamente componentes de proyectos</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >Compartir automáticamente componentes de proyectos</a> </p> </td> 
    <td colname="col2"> <p>Ahora tiene la opción de compartir automáticamente los componentes del proyecto (segmentos, métricas calculadas e intervalos de fecha) con todos los destinatarios. Después de compartirse, estos componentes aparecerán en la lista desplegable de componentes del espacio de trabajo del destinatario. </p> </td> 
   </tr> 
   <tr> 
@@ -787,11 +787,11 @@ Nueva función lanzada el 19 de enero de 2017:
    <td colname="col2"> <p>Se ha agregado compatibilidad con Visualización de visitas en el orden previsto en formato CSV. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> Intervalos de fechas en los segmentos </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Intervalos de fechas en los segmentos </a> </p> </td> 
    <td colname="col2"> <p>Puede soltar intervalos de fecha en las zonas de colocación de segmentos (por ejemplo, zonas de colocación de segmentos de panel, zonas de colocación de segmentos de Visualización de visitas en el orden previsto, etc.). Los intervalos de fecha se convierten automáticamente en segmentos. Los intervalos de fecha pueden ser personalizados y no personalizados, pero no granularidades como hora/día/semana/mes/trimestre/año. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Agregar un periodo de tiempo a cada columna de una tabla </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Agregar un periodo de tiempo a cada columna de una tabla </a> </p> </td> 
    <td colname="col2"> <p>Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que permite agregar un periodo diferente al periodo en que está establecido el calendario. Esta función es otra manera de poder comparar fechas. También puede alinear fechas de cada columna con todas a partir de la misma fila. </p> </td> 
   </tr> 
  </tbody> 
@@ -810,7 +810,7 @@ Nueva función lanzada el 10 de noviembre de 2016:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> Comparación de fechas </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparación de fechas </a> </p> </td> 
    <td colname="col2"> <p>La nueva función de comparación de fechas permite utilizar cualquier columna para crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre, mes tras mes, etc. </p> <p>Las comparaciones de fechas incluyen automáticamente la columna     Diferencia, que muestra el cambio de porcentaje. </p> </td> 
   </tr> 
  </tbody> 
@@ -829,7 +829,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> Análisis de visitas en el orden previsto </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  > Análisis de visitas en el orden previsto </a></b> </td> 
    <td colname="col2"> <p>La nueva función de visitas en el orden previsto ofrece la funcionalidad de embudo de comercialización en Analysis Workspace. Un embudo le permite identificar dónde abandonan los clientes una campaña de marketing o dónde se desvían de una ruta de conversión definida mientras interactúan con su sitio web o campaña de canales múltiples. El análisis de visitas en el orden previsto le permite crear embudos robustos con nuevas visualizaciones y la flexibilidad inherente que proporciona Analysis Workspace para identificar la conversión de métricas de éxito. El análisis de visitas en el orden previsto le permite </p> <p> </p> 
     <ul id="ul_E7C8255BA5D84F74ABBC6CC0E148DFB0"> 
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">Arrastrar, soltar y reorganizar pasos de embudo (puntos de contacto) </li> 
@@ -838,7 +838,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
     </ul> <p><img placement="break"  src="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> Visualización de flujo </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > Visualización de flujo </a></b> </td> 
    <td colname="col2"> <p>La nueva característica de flujo le permite visualizar el flujo/viaje del cliente a través de los sitios web/aplicaciones mediante nuevas visualizaciones actualizadas y flexibles en Analysis Workspace para poder descubrir cómo se mueven y progresan los clientes en sus sitios/aplicaciones. El flujo le permite </p> <p> </p> 
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC"> 
      <li id="li_0F7AF953EAB746DC95032FF9A533E560">Visualizar el viaje del cliente a través de los activos </li> 
@@ -847,7 +847,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
     </ul> <p><img placement="break"  src="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local">Alertas inteligentes</a></b> </td> 
+   <td colname="col1"> <b><a href="/help/components/c-alerts/intellligent-alerts.md"  >Alertas inteligentes</a></b> </td> 
    <td colname="col2"> <p>Dado que el nuevo sistema de alertas para todas las alertas inteligentes de Adobe Analytics le permite crear y gestionar alertas en Analysis Workspace, finalice con la vista previa de alerta y la contribución de reglas. Puede: </p> <p> </p> 
     <ul id="ul_02BD64D3047942009880B8F1DA1F2A40"> 
      <li id="li_01504AABBC514DF38354683843222541">Generar alertas en función de anomalías (umbrales del 90 %, 95 % o 99 %; cambio de %; por encima/por debajo). </li> 
@@ -857,7 +857,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_65E7C869C20B4509984189C8FD971F0E" format="dita" scope="local"> Detección de anomalías y análisis de contribución </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > Detección de anomalías y análisis de contribución </a></b> </td> 
    <td colname="col2"> <p>Avísenos si un cambio en datos de tendencias es significante y cuál fue el motivo. </p> <p>Tanto la detección de anomalías como el análisis de contribución ahora son flujos de trabajo principales en Analysis Workspace. </p> <p>Importante: El análisis de contribución está disponible solamente para clientes de Adobe Analytics Premium. </p> <p>Puede: </p> <p> </p> 
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6"> 
      <li id="li_787236BB5EA545B8833B311C06C24337">Detectar automáticamente anomalías de datos estadísticamente significativas en sus datos. </li> 
@@ -865,7 +865,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
     </ul> <p><img placement="break"  src="assets/anomaly_linechart.png" width="500px" id="image_DFAF4034E2AC4B4AAB140EA004112722" /> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> Proyectos iniciales </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Proyectos iniciales </a></b> </td> 
    <td colname="col2"> Para facilitar los primeros pasos de los usuarios en Analysis Workspace, hemos creado unas plantillas de proyecto previamente para problemas empresariales comunes, como <p> </p> 
     <ul id="ul_603F5ACC16F74D53AEB9F762FAC91656"> 
      <li id="li_6B3F2E5D4B044EC19D45E5501E33DB91">Retención de usuarios </li> 
@@ -873,7 +873,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
     </ul> <p><img placement="break"  src="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_46E886D108DF49BDB6EE2D5A0E054E95" format="dita" scope="local">Visualización del histograma</a></b> </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md">Visualización del histograma</a></b> </td> 
    <td colname="col2"> <p>El histograma permite a los usuarios ver distribuciones de usuarios en cualquier evento de éxito. Puede personalizar los contenedores y el tamaño del contenedor para adaptarse a cualquier distribución e identificar usuarios de alto y bajo valor. </p> <p><img placement="break"  src="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
   </tr> 
   <tr> 
@@ -888,7 +888,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
      <li id="li_946EC05568D4447193E9307546DF6F9B">Se ha agregado un filtro a la barra de búsqueda que permite filtrar por etiquetas, favoritos, elementos aprobados y componentes. </li> 
      <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Se ha agregado un icono de vista previa a filas manuales (no a filas dinámicas que enumeran elementos de dimensión) que permite obtener una vista previa de segmentos, métricas e intervalos de fechas. </li> 
      <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->Se ha actualizado el vínculo de YouTube para tutoriales de Analysis Workspace: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS" format="https" scope="external">https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS </a>. </li> 
+      <!--AN-128702: -->Se ha actualizado el vínculo de YouTube para tutoriales de Analysis Workspace: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS </a>. </li> 
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->Para las visualizaciones, hemos agregado una opción al menú contextual del botón secundario denominada <span class="uicontrol">Comenzar de nuevo</span> (funcionará para Flujo, Venn e Histograma), que elimina la configuración para la visualización actual y abre un nuevo panel donde puede volver a configurarla. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">Una nueva configuración de visualización denominada “Leyenda visible” permite ocultar el texto de detalles de filtro para la visualización Número de resumen/Cambio de resumen. </li> 
@@ -905,18 +905,18 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
 Nuevas funciones lanzadas el 16 de junio de 2016:
 
 * [Nuevo permiso](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) de grupo que permite a los administradores permitir o denegar el acceso de los usuarios a la ficha **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]** . Desde el 16 de junio de 2016, todos los usuarios tienen acceso a esta pestaña. Para denegar el acceso, solo tiene que eliminar usuarios del grupo Acceso a Analysis Workspace.
-*  El [El panel Comparación de segmentos](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) detecta las diferencias más significativas estadísticamente entre dos segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso.
-* [Estructura del Nuevo menú de proyectos](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7) que reorganiza el menú de la parte superior y lo hace más extensible. Por ejemplo, para crear un **Panel de cohorte nuevo** ahora tiene que crear un Panel en blanco y arrastrarlo hasta una visualización de Tabla de cohorte.
-* [Nuevo carril izquierdo](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7): paneles, visualizaciones, componentes
-* Un nuevo tipo de [](../../analyze/analysis-workspace/visualizations/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D)Visualización Venn le permite arrastrar hasta tres segmentos y una métrica y construir un diagrama de Venn.
-* El gráfico de líneas [Selección de tendencias](../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) de una tabla jerárquica ahora está vinculado.
-* [Icono “Crear imagen”](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276): al hacer clic en el botón aparece una suposición inteligente sobre su siguiente acción (gráfico de barras, Venn...).
-* La funcionalidad [Filas manuales](../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8) se ha ampliado.
-* Nueva zona de colocación [Añadir segmento](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
+*  El [El panel Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) detecta las diferencias más significativas estadísticamente entre dos segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso.
+* [Estructura del Nuevo menú de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) que reorganiza el menú de la parte superior y lo hace más extensible. Por ejemplo, para crear un **Panel de cohorte nuevo** ahora tiene que crear un Panel en blanco y arrastrarlo hasta una visualización de Tabla de cohorte.
+* [Nuevo carril izquierdo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): paneles, visualizaciones, componentes
+* Un nuevo tipo de [](/help/analyze/analysis-workspace/visualizations/venn.md)Visualización Venn le permite arrastrar hasta tres segmentos y una métrica y construir un diagrama de Venn.
+* El gráfico de líneas [Selección de tendencias](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) de una tabla jerárquica ahora está vinculado.
+* [Icono “Crear imagen”](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): al hacer clic en el botón aparece una suposición inteligente sobre su siguiente acción (gráfico de barras, Venn...).
+* La funcionalidad [Filas manuales](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) se ha ampliado.
+* Nueva zona de colocación [Añadir segmento](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 * Actualizaciones menores:
 
    * Posibilidad de eliminar todas las visualizaciones de un panel y todos los paneles de un proyecto. (Anteriormente, debía mantener al menos una visualización o un panel).
-   * Cambios en las [teclas de método abreviado](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) (teclas de acceso directo) que pueden facilitar el trabajo con Analysis Workspace.
+   * Cambios en las [teclas de método abreviado](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (teclas de acceso directo) que pueden facilitar el trabajo con Analysis Workspace.
    * Cambios de estilo: fuentes más pequeñas en las visualizaciones, muestras de color en las filas; selector de fecha desplazado hacia abajo (en los paneles).
 
 ## Abril de 2016
@@ -933,7 +933,7 @@ Nuevas funciones lanzadas el 21 de abril de 2016:
  <tbody> 
   <tr> 
    <td colname="col1"> Enviar archivo </td> 
-   <td colname="col2"> <p>Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega. See <a href="../../analyze/analysis-workspace/curate-share/t-schedule-report.md#task_509549DD2D83495A94A0DFC6724DA907" format="dita" scope="local"> Send File - Schedule a project for delivery </a>. </p> </td> 
+   <td colname="col2"> <p>Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega. See <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Send File - Schedule a project for delivery </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Descargar PDF </td> 
@@ -946,17 +946,17 @@ Nuevas funciones lanzadas el 21 de abril de 2016:
 
 Nuevas funciones lanzadas el 21 de enero de 2016.
 
-* [Deshacer acciones](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
-* [Vincular a este proyecto](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
-* [Visualizaciones de gráficos de viñetas, diagramas de dispersión y gráficos de rectángulos](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
-* [“Guardar como” para segmentos, métricas y fechas](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
-* [Botón Agregar nuevo segmento](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
-* [Formato condicional](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
-* [Vista previa de dimensión](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
-* [Leyenda visible](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
-* [Eje Y delimitador a cero](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
-* [Nombre del proyecto en el título de la ficha](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
-* [Transferir propiedad del proyecto](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
+* [Deshacer acciones](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
+* [Vincular a este proyecto](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
+* [Visualizaciones de gráficos de viñetas, diagramas de dispersión y gráficos de rectángulos](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
+* [“Guardar como” para segmentos, métricas y fechas](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
+* [Botón Agregar nuevo segmento](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
+* [Formato condicional](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
+* [Vista previa de dimensión](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
+* [Leyenda visible](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
+* [Eje Y delimitador a cero](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
+* [Nombre del proyecto en el título de la ficha](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
+* [Transferir propiedad del proyecto](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
 
 
 ## Deshacer acciones {#section_12890C393D5E4FC8A3CF050318BD8482}
@@ -967,7 +967,7 @@ Para deshacer, haga clic en **[!UICONTROL Deshacer]en el menú de acción.**
 
 ![](assets/undo.png)
 
-También puede utilizar métodos abreviados [de](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) teclado estándar de Windows y Mac (ctrl o cmd + z) para Deshacer.
+También puede utilizar métodos abreviados [de](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) teclado estándar de Windows y Mac (ctrl o cmd + z) para Deshacer.
 
 *`Undo`* es particularmente útil para deshacer desgloses en la tabla.
 
