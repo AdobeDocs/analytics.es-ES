@@ -8,7 +8,7 @@ title: Administrador de fuentes de datos
 topic: Desarrollador e implementación
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ Cree, administre y visualice la utilización de fuentes de datos en un grupo de 
 
 La ficha [!UICONTROL Crear] permite configurar una fuente de datos nueva para el grupo de informes seleccionado. Al activar una fuente de datos, un [!UICONTROL asistente] le guiará por el proceso de crear una plantilla y creará una ubicación FTP para cargar los datos.
 
-Las selecciones que realice en la ficha Crear determinarán los campos iniciales que contendrá la plantilla al ser creada. Consulte [Generación de plantillas de archivo de importación](../../import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md#task_A2F150D9DC1A4D338E878534FA506267).
+Las selecciones que realice en la ficha Crear determinarán los campos iniciales que contendrá la plantilla al ser creada. Consulte [Generación de plantillas de archivo de importación](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
 ## Ficha Administrar {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
@@ -41,7 +41,7 @@ Las selecciones que realice en la ficha Crear determinarán los campos iniciales
   </tr> 
   <tr> 
    <td colname="col1"> <p>Completar procesamiento </p> </td> 
-   <td colname="col2"> <p>Indica al sistema de fuentes de datos que cierre todas las visitas abiertas que haya en el archivo y finalice el procesamiento del archivo de fuente de datos como si estuviera completo. Esto es útil cuando se tienen visitas que se extienden a lo largo de varios archivos de fuente de datos. Esto solo concierne al <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> Procesamiento completo</a>. </p> </td> 
+   <td colname="col2"> <p>Indica al sistema de fuentes de datos que cierre todas las visitas abiertas que haya en el archivo y finalice el procesamiento del archivo de fuente de datos como si estuviera completo. Esto es útil cuando se tienen visitas que se extienden a lo largo de varios archivos de fuente de datos. Esto solo concierne al <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Procesamiento completo</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Desactivar </p> </td> 
@@ -49,7 +49,7 @@ Las selecciones que realice en la ficha Crear determinarán los campos iniciales
   </tr> 
   <tr> 
    <td colname="col1"> <p>Detener procesamiento si hay errores/advertencias </p> </td> 
-   <td colname="col2"> <p> Indica al motor de procesamiento de fuentes de datos que detenga el procesamiento si encuentra un error. El procesamiento de la fuente de datos no se reanudará hasta que el usuario seleccione Reiniciar procesamiento. La opción Detener procesamiento si hay advertencias solo concierne al <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> Procesamiento completo</a>. </p> <p>Cuando las fuentes de datos encuentran un error de archivo, se lo notifican. El sistema traslada el archivo de fuente de datos que tiene el error a una carpeta llamada <span class="filepath">files_with_errors</span> del servidor FTP. Cuando haya resuelto el problema, vuelva a enviar el archivo de fuente de datos para que el sistema lo procese. </p> </td> 
+   <td colname="col2"> <p> Indica al motor de procesamiento de fuentes de datos que detenga el procesamiento si encuentra un error. El procesamiento de la fuente de datos no se reanudará hasta que el usuario seleccione Reiniciar procesamiento. La opción Detener procesamiento si hay advertencias solo concierne al <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > Procesamiento completo</a>. </p> <p>Cuando las fuentes de datos encuentran un error de archivo, se lo notifican. El sistema traslada el archivo de fuente de datos que tiene el error a una carpeta llamada <span class="filepath">files_with_errors</span> del servidor FTP. Cuando haya resuelto el problema, vuelva a enviar el archivo de fuente de datos para que el sistema lo procese. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configurar </p> </td> 
