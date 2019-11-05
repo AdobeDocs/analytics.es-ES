@@ -8,7 +8,7 @@ title: Visitor ID
 topic: Desarrollador e implementación
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Las ID de visitante se pueden importar seleccionando la categoría Fuente de datos genérica (ID de transacción).
 
-Consulte [Integración de datos](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6)sin conexión.
+Consulte [Integración de datos](/help/import/c-data-sources/datasrc-integrating-offline-data.md)sin conexión.
 
 <p class="head"> <b>Dimensiones de ID de visitante</b> </p>
 
