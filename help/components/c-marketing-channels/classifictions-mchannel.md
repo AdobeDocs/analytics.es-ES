@@ -8,16 +8,12 @@ title: Clasificaciones en los canales de marketing
 topic: Reports and Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # Clasificaciones en los canales de marketing
-
-Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
-
-## Clasificaciones en los canales de marketing {#topic_18E1471F1A584B358E57E191074A7243}
 
 Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
 
@@ -29,7 +25,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 >
 >Los informes de clasificación de canales de mercadotecnia se comportan de manera un poco diferente que las clasificaciones estándar: al crear clasificaciones para informes de primer toque o de último toque, se aplican automáticamente a ambos. No se puede clasificar una sin clasificar la otra.
 
-## Clasificaciones de canal de mercadotecnia: definiciones {#section_38D2F8BBA47D444780B65BD84156532D}
+## Clasificaciones de canal de mercadotecnia: definiciones {#mktg-channel-classifications}
 
 | Término | Definición |
 |--- |--- |
@@ -37,11 +33,13 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 | Nombre | El nombre de la clasificación. La clasificación que agregue aparecerá como opción de Desglose de canal en el Administrador de canales de mercadotecnia . |
 | Opciones | El nombre de la clasificación. La clasificación que agregue aparecerá como opción de Desglose de canal en el Administrador de canales de mercadotecnia . |
 
-## Creación de clasificaciones de canal de mercadotecnia {#task_BCA5597281574E339E71F3BBC1BE3DFA}
+## Creación de clasificaciones de canal de mercadotecnia {#create-mktg-channel-classifications}
 
 Cree clasificaciones para el informe [!UICONTROL Canales de mercadotecnia].
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
-1. En la página [Clasificaciones de canal de mercadotecnia](../../components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D), especifique el tipo de clasificación.
+<!--
+1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D) page, specify the classification type.
+-->
 1. En [!UICONTROL Clasificaciones]**, haga clic en[!UICONTROL Agregar clasificación]** (o edite una existente).
