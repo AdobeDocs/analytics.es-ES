@@ -7,7 +7,7 @@ solution: Analytics
 title: Fuentes de datos
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ Desde la pestaña [!UICONTROL Crear] del Administrador de fuentes de datos se pu
 
 En la ventana [!UICONTROL Administrar fuentes de datos], busque la fuente de datos y seleccione el vínculo Información de FTP. La información de inicio de sesión en el FTP aparece en la sección [!UICONTROL Información de carga/FTP] de la ventana [!UICONTROL Activar una fuente de datos].
 
-Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E).
+Para obtener información sobre los límites de FTP y la retención de datos, consulte [Límites de FTP y retención de datos](/help/export/ftp-and-sftp/ftp-limits.md).
 
 ## Acerca del archivo .fin para cargas de clasificaciones y fuentes de datos {#section_1484719F8A134EAE91212DBD8F15174F}
 
