@@ -8,7 +8,7 @@ title: Artículos Instantáneos de Facebook
 topic: Desarrollador e implementación
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -82,7 +82,7 @@ El HTML de muestra se puede usar para capturar estadísticas de los artículos i
    1. El dominio del servidor de seguimiento de la empresa.
    1. La variable namespace del visitante. **Nota:** Muchos de estos valores pueden encontrarse dentro de su implementación estándar de Analytics. El Servicio de atención al cliente o la Consultoría de Adobe pueden ayudarlo a proporcionar los valores adecuados si es necesario.
 
-1. [Establezca variable y seguimiento de evento personalizados](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
+1. [Establezca variable y seguimiento de evento personalizados](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. Incluya la sintaxis de solicitud de imagen para la vista de página `( s.t())`.
 
 ## Paso 3. Establezca variable y seguimiento de evento personalizados {#section_932C41BD21154C25B99389299BDF3E0B}
