@@ -5,7 +5,7 @@ seo-title: Generador de tablas
 title: Generador de tablas
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -44,7 +44,7 @@ El [!UICONTROL Generador de tablas] no está disponible para ciertos informes de
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar artículos</span> </td> 
-   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Elija una lista de artículos de dimensión para crear una lista fija de desgloses. Al agregar artículos a esta lista, se convertirán en persistentes en un informe guardado y no se contraerán cuando abra un informe programado o guardado. </p> <p>Consulte <a href="../../analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841" format="dita" scope="local"> Desglose de datos de tabla</a>. </p> </td> 
+   <td colname="col2"> <p><img  src="assets/Edit_Buttcon.png" id="image_E44BCC4B0BFF453D8564047E3DA2501A"> </img> </p> <p>Elija una lista de artículos de dimensión para crear una lista fija de desgloses. Al agregar artículos a esta lista, se convertirán en persistentes en un informe guardado y no se contraerán cuando abra un informe programado o guardado. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#task_29BEE0AF09DA4625B9B44BAB77D7C841"  > Desglose de datos de tabla</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Columnas</span> </td> 
