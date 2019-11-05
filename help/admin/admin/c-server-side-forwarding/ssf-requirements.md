@@ -4,9 +4,9 @@ seo-description: Debe satisfacer los siguientes requisitos de solución, servici
 seo-title: Requisitos para el reenvío del lado del servidor
 solution: Audience Manager
 title: Requisitos para el reenvío del lado del servidor
-uuid: e 52 c 9292-b 2 ed -4782-9594-c 813 e 4 f 894 e 1
+uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -21,7 +21,7 @@ El reenvío del lado del servidor funciona con [Analytics](https://www.adobe.com
 
 ## Requisitos de servidor
 
-Server-side forwarding requires the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). El servicio de identidad proporciona un ID universal que identifica a los visitantes del sitio en todas las soluciones de Experience Cloud. Debe implementar el servicio de ID para que el reenvío del lado del servidor funcione.
+El reenvío de servidor requiere el servicio [de identidad](https://marketing.adobe.com/resources/help/en_US/mcvid/). El servicio de identidad proporciona un ID universal que identifica a los visitantes del sitio en todas las soluciones de Experience Cloud. Debe implementar el servicio de ID para que el reenvío del lado del servidor funcione.
 
 ## Versiones de código
 
@@ -35,5 +35,5 @@ El reenvío del lado del servidor requiere la versión 1.5 (o posterior) de las 
 
 Cualquier herramienta que supervise las solicitudes HTTP realizadas por un navegador puede mostrar el número de versión de su código AppMeasurement y de la API de visitante. The `AppMeasurement_Module_AudienceManagement.js` does not contain or return a version ID. Los siguientes ejemplos muestran el aspecto del ID de versión del código de `AppMeasurement.js` y `VisitorAPI.js`.
 
-* `AppMeasurement.js`: [Adobe Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) devuelve la versión de appmeasurement de este modo: `Version of Code | JS-1.5.1`. Otras herramientas pueden utilizar una etiqueta distinta, pero el valor siempre sigue el patrón `JS-X.X.X`, donde `X` es un número de versión.
-* `VisitorAPI.js`: Busque `d_visid_ver` el parámetro. It will show you the Visitor ID service like this: `d_visid_ver: 1.5.5`. El código de la API de visitante anterior a la versión 1.5.2 no incluía número de versión. Probablemente esté utilizando una biblioteca de código antigua (y deba actualizarla) si los resultados de monitorización no devuelven un número de versión.
+* `AppMeasurement.js`:: El depurador de [Adobe](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) devuelve la versión de AppMeasurement de este modo: `Version of Code | JS-1.5.1`. Otras herramientas pueden utilizar una etiqueta distinta, pero el valor siempre sigue el patrón `JS-X.X.X`, donde `X` es un número de versión.
+* `VisitorAPI.js`:: Busque el `d_visid_ver` parámetro. It will show you the Visitor ID service like this: `d_visid_ver: 1.5.5`. El código de la API de visitante anterior a la versión 1.5.2 no incluía número de versión. Probablemente esté utilizando una biblioteca de código antigua (y deba actualizarla) si los resultados de monitorización no devuelven un número de versión.
