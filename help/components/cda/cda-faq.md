@@ -2,7 +2,7 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 translation-type: tm+mt
-source-git-commit: e7a78c2ac21042f57487c1c230e1c96318810429
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -35,7 +35,7 @@ Adobe trata las visitas con marca de hora como si se hubieran recibido en el mom
 
 **¿En qué se diferencia CDA de la ID de visitante personalizada?**
 
-[La ID](../../implement/js-implementation/c-unique-visitors/visid-custom.md) de visitante personalizada es un método heredado para [conectar usuarios entre dispositivos](../../implement/js-implementation/xdevice-visid/xdevice-connecting.md). Con una ID de visitante personalizada, se utiliza la `s.visitorID` variable para establecer explícitamente la ID que se utiliza para la lógica del visitante. La `s.visitorID` variable anula los ID basados en cookies que estén presentes. Consulte [Identificar visitantes](../../implement/js-implementation/c-unique-visitors/visid-overview.md) únicos en la guía Implementar usuario para obtener más información.
+[La ID](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) de visitante personalizada es un método heredado para [conectar usuarios entre dispositivos](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md). Con una ID de visitante personalizada, se utiliza la `s.visitorID` variable para establecer explícitamente la ID que se utiliza para la lógica del visitante. La `s.visitorID` variable anula los ID basados en cookies que estén presentes. Consulte [Identificar visitantes](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) únicos en la guía Implementar usuario para obtener más información.
 
 Las ID de visitante personalizadas tienen una serie de efectos secundarios no deseados que CDA está diseñado para superar o minimizar. Por ejemplo, la metodología de ID de visitante personalizada no tiene capacidades de retroactividad. Si un usuario se autentica en mitad de una visita, la primera parte de la visita se asocia con un ID de visitante diferente al de la última parte de la visita. Los ID de visitante independientes producen inflación de visitas y visitantes. La ventana retrospectiva de 30 días de CDA le permite retroceder en el tiempo para reafirmar el comportamiento anterior como perteneciente a la misma persona, lo que trae un comportamiento entre dispositivos no autenticado junto con un comportamiento autenticado entre dispositivos con inflación mínima o cero.
 
