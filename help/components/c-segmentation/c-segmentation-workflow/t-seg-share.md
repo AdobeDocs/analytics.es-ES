@@ -7,7 +7,7 @@ title: Compartir segmentos
 topic: Segmentos
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ En función de sus permisos, puede compartir segmentos con toda su organización
 
 ¿Cuándo debe compartir segmentos con toda la compañía en vez de con un grupo de usuarios o personas? A continuación se indica una serie de prácticas recomendadas seguir:
 
-* Como administrador, comparta un segmento con **[!UICONTROL Todos]si resulta útil para toda la compañía y si todos se sienten cómodos al utilizarlo.** In this case, you should also consider making it an [approved](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) segment.
+* Como administrador, comparta un segmento con **[!UICONTROL Todos]si resulta útil para toda la compañía y si todos se sienten cómodos al utilizarlo.** In this case, you should also consider making it an [approved](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) segment.
 
 * Como administrador, comparta un segmento con un **[!UICONTROL Grupo]específico si el segmento le aporta valor empresarial al equipo.** No apruebe oficialmente este tipo de segmentos.
 * Como administrador o usuario individual, comparta un segmento con otras personas para examinar y validar un segmento. Si finalmente no resulta útil, descártelo. No apruebe oficialmente este tipo de segmentos.
