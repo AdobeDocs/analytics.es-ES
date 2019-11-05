@@ -7,7 +7,7 @@ title: Ejecutar diferentes tipos de informes
 topic: Informes,Reports and Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -186,7 +186,7 @@ La detección de anomalías muestra dos tipos de gráficos: un gráfico de resum
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Si los límites inferiores y el valor esperado son los mismos, el porcentaje de desviación es -100 % </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">De lo contrario, el % de desviación es ((valor límite inferior - valor real) / (valor esperado - valor límite inferior)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Al hacer clic en <span class="uicontrol">Mostrar segmentos</span>, aparece el carril del segmento que permite aplicar segmentos a un informe de detección de anomalías. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external"> Más información</a> sobre segmentación. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Al hacer clic en <span class="uicontrol">Mostrar segmentos</span>, aparece el carril del segmento que permite aplicar segmentos a un informe de detección de anomalías. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  > Más información</a> sobre segmentación. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Al hacer clic en <span class="uicontrol">Editar métricas</span>, puede seleccionar y deseleccionar métricas para las cuales desea detectar anomalías. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -241,7 +241,7 @@ La detección de anomalías se configura de forma independiente para cada grupo 
 
    Consulte la [guía de segmentación de Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) para obtener más información sobre cómo crear y administrar segmentos. 1. (Opcional) Marque como favorito o añada un marcador al informe.
 1. (Opcional) Cambiar la fecha de finalización del periodo de vista. La opción predeterminada es ayer.
-1. Ahora puede empezar a interpretar el informe. [Visualización de gráficos](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de detección de anomalías.
+1. Ahora puede empezar a interpretar el informe. [Visualización de gráficos](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de detección de anomalías.
 
 ## Ejecutar un informe en tiempo real {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -268,7 +268,7 @@ Si desea más información sobre la configuración de informes en tiempo real, c
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Seleccionar grupo de informes</strong></td> 
-   <td class="chdesc stentry"> Muestra el grupo de informes para abarca este informe en tiempo real. Para cambiar el grupo de informes, consulte la <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">Configuración de informes en tiempo real </a>. </td> 
+   <td class="chdesc stentry"> Muestra el grupo de informes para abarca este informe en tiempo real. Para cambiar el grupo de informes, consulte la <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >Configuración de informes en tiempo real </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Conmutar entre informes</strong></td> 
