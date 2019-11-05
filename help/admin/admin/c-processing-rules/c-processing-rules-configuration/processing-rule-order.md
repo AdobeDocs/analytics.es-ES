@@ -8,7 +8,7 @@ title: Orden de procesamiento
 topic: Herramientas de administración
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -28,7 +28,7 @@ Las siguientes tablas indican los datos que suelen estar disponibles antes y des
 | Búsqueda de variables dinámicas | Las variables se rellenan dinámicamente extrayendo información de los encabezados HTTP u otras variables. For example, `s.eVar5="D=c1"` will put the value of prop1 into eVar5. |
 | AppMeasurement | Las funciones y los plugins usados en AppMeasurement se ejecutan en el navegador o en la aplicación cliente. |
 | Dynamic Tag Management | Las reglas definidas en la herramienta Dynamic Tag Management se ejecutan tal como están definidas. |
-| Reglas de bots | [Las reglas de bots](../../../../admin/admin/bot-removal/bot-rules.md) permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. |
+| Reglas de bots | [Las reglas de bots](/help/admin/admin/bot-removal/bot-rules.md) permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. |
 
 ## Después de las reglas de procesamiento
 
