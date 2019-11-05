@@ -5,7 +5,7 @@ seo-title: Resumen de paneles
 title: Resumen de paneles
 uuid: 480700e6-332e-44f2-a486-e3d1852cdbc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ Un panel es una colección de tablas y visualizaciones. Puede acceder a los pane
 
 Los paneles en blanco e improvisado son puntos de inicio del análisis, mientras que los de Attribution IQ y comparación de segmentos se prestan a análisis más avanzados. También hemos agregado un botón de panel “+” para que pueda añadir paneles en blanco en cualquier momento.
 
-El panel inicial predeterminado es el improvisado, pero también puede convertir el [panel en blanco](../../../analyze/analysis-workspace/c-panels/blank-panel.md#concept_B0AD924A792F4166B13448AC253CE7E2) en el panel predeterminado.
+El panel inicial predeterminado es el improvisado, pero también puede convertir el [panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
 
 ## Filtros desplegables en los paneles {#section_D2828EEDD52944528E87F470EAB581CF}
 
