@@ -9,7 +9,7 @@ title: Variables dinámicas
 topic: Desarrollador e implementación
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ Una ventaja importante de las variables dinámicas es la capacidad de capturar c
 
 En la solicitud de imagen de Adobe que se produce en la vista de página, si está utilizando variables dinámicas para copiar el valor de [!UICONTROL Tráfico personalizado ] en [!UICONTROL Conversión personalizada ], debería ver `v1=D=c1`1=1. Si eVar1 recibió un valor previamente en la solicitud, los servidores de Adobe copian dinámicamente el valor de [!UICONTROL Tráfico personalizado 1] en [!UICONTROL Conversión personalizada 1] durante el procesamiento de los datos. Como resultado, el valor pasado originalmente usando [!UICONTROL Tráfico personalizado 1] también aparece en los informes de [!UICONTROL Conversión personalizada 1].
 
-Las variables dinámicas se pasan mediante la configuración de una variable en el valor deseado y la posterior configuración de otras variables en `D=[variable abbreviation]`. Para obtener las abreviaciones de cada variable, consulte [Parámetros de consulta de recopilación de datos](../../../implement/js-implementation/data-collection/query-parameters.md). Las variables dinámicas pueden extraer datos de las ubicaciones siguientes:
+Las variables dinámicas se pasan mediante la configuración de una variable en el valor deseado y la posterior configuración de otras variables en `D=[variable abbreviation]`. Para obtener las abreviaciones de cada variable, consulte [Parámetros de consulta de recopilación de datos](/help/implement/js-implementation/data-collection/query-parameters.md). Las variables dinámicas pueden extraer datos de las ubicaciones siguientes:
 
 * Otras variables de cadena de consulta
 * Encabezados HTTP (excepto el encabezado HTTP Cookie)
