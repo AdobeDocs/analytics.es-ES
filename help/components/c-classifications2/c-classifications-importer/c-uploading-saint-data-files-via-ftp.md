@@ -8,7 +8,7 @@ title: Importación de FTP
 topic: Herramientas de administración
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -38,7 +38,7 @@ Si ha superado las únicas del mes, no verá los datos de clasificación corresp
 
 > [!NOTE] El tiempo necesario para procesar un archivo de datos de clasificación varía según el tamaño del archivo y el número actual de archivos que ya están procesando los servidores de Adobe. El procesamiento de los archivos no suele tardar más de 72 horas.
 
-Antes de cargar datos a través de FTP, se debe crear una cuenta de FTP. For more information, see [Create an FTP account](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Antes de cargar datos a través de FTP, se debe crear una cuenta de FTP. For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 ## Importar clasificaciones a través del FTP {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -50,7 +50,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 Instrucciones sobre cómo utilizar una cuenta de FTP para importar clasificaciones en Adobe Analytics.
 
-Para obtener más información acerca de cómo crear una cuenta de FTP, consulte [Crear una cuenta de FTP](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Para obtener más información acerca de cómo crear una cuenta de FTP, consulte [Crear una cuenta de FTP](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
