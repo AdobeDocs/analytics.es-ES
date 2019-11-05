@@ -9,7 +9,7 @@ title: Conectar usuarios entre dispositivos
 topic: Desarrollador e implementación
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,7 +26,7 @@ Cuando se proporciona una variable de [!UICONTROL ID de visitante] con una visit
 
 Generalmente, la [!UICONTROL ID de visitante] se configura tras la autenticación o después de que un visitante realice alguna otra acción que permita identificarlo de manera única independientemente del dispositivo que se emplee. Recomendamos crear un hash del nombre de usuario o una ID interna que no contenga información que pueda identificar al visitante.
 
-En el [ejemplo anterior](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md), una vez que el cliente inicia sesión en cada dispositivo, todos esos dispositivos se asocian al mismo perfil de usuario. Aunque posteriormente el visitante cierre la sesión en un dispositivo, la identificación seguirá funcionando, ya que las [!UICONTROL ID de visitante] se almacenan en una cookie ubicada en cada uno de los dispositivos que ya están asociados al mismo perfil del visitante. Recomendamos rellenar la variable [!UICONTROL s.visitorID] siempre que sea posible por si se elimina la cookie con la [!UICONTROL ID de visitante].
+En el [ejemplo anterior](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md), una vez que el cliente inicia sesión en cada dispositivo, todos esos dispositivos se asocian al mismo perfil de usuario. Aunque posteriormente el visitante cierre la sesión en un dispositivo, la identificación seguirá funcionando, ya que las [!UICONTROL ID de visitante] se almacenan en una cookie ubicada en cada uno de los dispositivos que ya están asociados al mismo perfil del visitante. Recomendamos rellenar la variable [!UICONTROL s.visitorID] siempre que sea posible por si se elimina la cookie con la [!UICONTROL ID de visitante].
 
 ## Recuentos de visitas y visitantes únicos {#section_70330AB6724C4E419A4BD0BDD54641AC}
 
