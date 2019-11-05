@@ -5,7 +5,7 @@ seo-title: Resumen de publicación en Power BI
 title: Resumen de publicación en Power BI
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,13 +22,13 @@ Al combinar las capacidades de generación del Creador de informes con las carac
 
 La integración con el Creador de informes de Adobe le permite
 
-* [Publicar en Power BI libros programados del Creador de informes](../../../analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687)
-* [Publicar todas las tablas con formato de un libro como tablas de conjuntos de datos de Power BI](../../../analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A)
-* [Publicar todas las solicitudes del Creador de informes como tablas de conjuntos de datos de Power BI](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
+* [Publicar en Power BI libros programados del Creador de informes](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Publicar todas las tablas con formato de un libro como tablas de conjuntos de datos de Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [Publicar todas las solicitudes del Creador de informes como tablas de conjuntos de datos de Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## Requisitos del sistema {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [instalado](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* Adobe Report Builder 5.5 [instalado](/help/analyze/report-builder/setup/t-install-arb.md)
 * Cuenta Microsoft activa que le permita iniciar sesión en Power BI
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -81,7 +81,7 @@ En vez de importar todo el libro, puede importar solo el contenido de todas las 
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (Opcional) Puede personalizar el nombre del activo publicado en Power BI. Puede ser útil si utiliza el control de versiones como parte del nombre del libro (p. ej., milibro_v1.1.xlsx) y no quiere que el número de versión aparezca en el nombre del activo publicado en Power BI. Tiene la ventaja añadida de que el activo publicado no cambiará si el número de versión varía. (Vea aquí las [especificaciones](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#concept_1B6522B4D7A9482680198F125D94EEFD)).
+1. (Opcional) Puede personalizar el nombre del activo publicado en Power BI. Puede ser útil si utiliza el control de versiones como parte del nombre del libro (p. ej., milibro_v1.1.xlsx) y no quiere que el número de versión aparezca en el nombre del activo publicado en Power BI. Tiene la ventaja añadida de que el activo publicado no cambiará si el número de versión varía. (Vea aquí las [especificaciones](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md)).
 
 **Ver los datos de tabla en Power BI**
 
