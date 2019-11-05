@@ -5,7 +5,7 @@ seo-title: Novedades del Report Builder
 title: Novedades del Report Builder
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,15 +14,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Indica la versión actual y las anteriores, y sus funciones.
 
-## Creador de informes 5.6
+## Report Builder 5.6{#rb-5-6-section}
 
 **Editar métricas en varias solicitudes**
 
 La función Editar varias métricas permite agregar, eliminar o reemplazar métricas fácilmente en un grupo preexistente de solicitudes.
 
-Para obtener más información, consulte [Editar métricas en varias solicitudes](../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB).
+Para obtener más información, consulte [Editar métricas en varias solicitudes](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
-## Creador de informes 5.5
+## Report Builder 5.5{#rb-5-5-section}
 
 **Publicación en Power BI con el Report Builder 5.5**
 
@@ -30,11 +30,11 @@ Microsoft Power BI es un conjunto de tableros de análisis empresarial para anal
 
 Anteriormente, el analista programaba el envío de libros del Creador de informes mediante correo electrónico (o ftp). Ahora, las personas que usted determine pueden emplear sus cuentas de Power BI para obtener acceso a datos precisos y actualizados de su empresa mediante un entorno basado en web, disponible desde distintas plataformas y dispositivos.
 
-Al combinar las capacidades de generación del Creador de informes con las características de visualización de Power BI, la información se hace más accesible para todos los miembros de la organización. Power BI también le permite integrar Adobe Analytics con otras fuentes de datos (p. ej., puntos de venta, CRM) para descubrir datos, asociaciones y oportunidades únicas relativas a los clientes. [Más...](../../analyze/report-builder/c-publish-power-bi/power-bi.md#concept_07653F1641774B70AD2DE77F0614B8CC)
+Al combinar las capacidades de generación del Creador de informes con las características de visualización de Power BI, la información se hace más accesible para todos los miembros de la organización. Con Power BI, también puede integrar Adobe Analytics con otras fuentes de datos (p. ej., puntos de venta, CRM) para descubrir perspectivas, asociaciones y oportunidades únicas de los clientes. [Más...](/help/analyze/report-builder/c-publish-power-bi/power-bi.md)
 
-## Creador de informes 5.4
+## Creador de informes 5.4{#rb-5-4-section}
 
-* **Mejor administración y mejor edición de segmentos en diversas solicitudes.** Las nuevas opciones de [!UICONTROL Editar varias solicitudes] permiten añadir, quitar, reemplazar y reemplazar todos los segmentos dentro de varias solicitudes de destino. [Más...](../../analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **Mejor administración y mejor edición de segmentos en diversas solicitudes.** Las nuevas opciones de [!UICONTROL Editar varias solicitudes] permiten añadir, quitar, reemplazar y reemplazar todos los segmentos dentro de varias solicitudes de destino. [Más...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
 * **Nuevo vínculo a la Comunidad del Creador de informes de Adobe** El vínculo de la nueva Comunidad de Adobe, en Ayuda, redirige al foro de la Comunidad de Adobe con la búsqueda reducida a los problemas del Creador de informes. La Comunidad de Adobe es una herramienta muy útil para preguntar a otros usuarios del Creador de informes acerca de la aplicación o para compartir prácticas y procesos recomendados.
 
@@ -42,19 +42,19 @@ Al combinar las capacidades de generación del Creador de informes con las carac
    >
    >You can change to a different locale by going to the [main Adobe Forums page](https://forums.adobe.com/welcome), under International Forums.
 
-* **Seguridad** de inicio de sesión mejorada Además de una [nueva pantalla](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)de inicio de sesión, el inicio de sesión del Creador de informes estándar presenta un proceso de autenticación más seguro, basado en el marco de autorización de OAuth.
+* **Seguridad** de inicio de sesión mejorada Además de una [nueva pantalla](/help/analyze/report-builder/setup/login.md)de inicio de sesión, el inicio de sesión del Creador de informes estándar presenta un proceso de autenticación más seguro, basado en el marco de autorización de OAuth.
 
-## Creador de informes 5.3
+## Report Builder 5.3{#rb-5-3-section}
 
 * [Grupos de informes virtuales](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
 * [Audiencias de Experience Cloud en Analytics](https://marketing.adobe.com/resources/help/en_US/mcloud/mc-audiences-aam.html)
 * [Informes de AEM Assets](https://marketing.adobe.com/resources/help/en_US/reference/aem-assets-reporting.html)
 
-## Creador de informes 5.2
+## Report Builder 5.2{#rb-5-2-section}
 
-* **El Creador de informes de métricas** calculadas 5.2 es compatible con las métricas calculadas [unificadas de Adobe Analytics](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4). Entre otras innovaciones, ahora las métricas calculadas tienen un identificador global, de modo que ya no están restringidas a un grupo de informes.
+* **El Creador de informes de métricas** calculadas 5.2 es compatible con las métricas calculadas [unificadas de Adobe Analytics](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md). Entre otras innovaciones, ahora las métricas calculadas tienen un identificador global, de modo que ya no están restringidas a un grupo de informes.
 
-* **Búsqueda mejorada para informes y métricas** Con la adición de más [eVars y eventos](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) a Adobe Analytics, el número de informes y métricas que se ofrecen en el Creador de informes de Adobe ha aumentado significativamente. Para simplificar la búsqueda, se han agregado un par de nuevas barras de búsqueda al Asistente para solicitudes: una para la búsqueda [de](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) informes y otra para buscar [métricas](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4).
+* **Búsqueda mejorada para informes y métricas** Con la adición de más [eVars y eventos](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) a Adobe Analytics, el número de informes y métricas que se ofrecen en el Creador de informes de Adobe ha aumentado significativamente. Para simplificar la búsqueda, se han agregado un par de nuevas barras de búsqueda al Asistente para solicitudes: una para la búsqueda [de](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) informes y otra para buscar [métricas](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
 
 * **Atributos** del cliente Los atributos del cliente se almacenan en un nuevo tipo de elemento llamado VisAttr, que se puede configurar como dimensión o métrica. Para obtener más información sobre cómo cargar atributos de cliente, consulte la ayuda de [Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html).
 
