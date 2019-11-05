@@ -6,9 +6,9 @@ seo-title: Requisitos de administración
 solution: Analytics
 title: Requisitos de administración
 topic: Reports and Analytics
-uuid: 6 c 8 bfeaa -0 cf 8-435 d-a 4 d 1-67 e 2 cb 55 da 4 c
+uuid: 6c8bfea-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -37,14 +37,14 @@ Requisitos del sistema para Analysis Workspace.
   </tr> 
   <tr> 
    <td colname="col1"> Usuarios </td> 
-   <td colname="col2"> <p>Para habilitar el acceso a la pestaña Workspace en Analytics, los administradores deben añadir usuarios al grupo <span class="uicontrol">Acceso a Analysis Workspace</span> en <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Grupos</a>. </p> </td> 
+   <td colname="col2"> <p>Para habilitar el acceso a la pestaña Workspace en Analytics, los administradores deben añadir usuarios al grupo <span class="uicontrol">Acceso a Analysis Workspace</span> en <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Grupos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Transferir proyectos </td> 
    <td colname="col2"> <p>Los administradores pueden transferir proyectos de <span class="wintitle">Analysis Workspace</span> de un usuario a otro. </p> <p>Para ello, vaya a <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Administración del usuario</span> &gt; <span class="uicontrol">Transferir</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Explorador </td> 
+   <td colname="col1"> Navegador </td> 
    <td colname="col2"> <p> Exploradores: </p> 
     <ul id="ul_B10D000F38DC44F68E2909B483E58FE0"> 
      <li id="li_5A905B0F5342443B96433FDBB1015CA9">Preferidos: versiones más recientes de Firefox, Chrome, Safari o Edge. </li> 
