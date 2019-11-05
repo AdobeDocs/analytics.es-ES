@@ -8,7 +8,7 @@ title: Procesamiento completo
 topic: Desarrollador e implementación
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,8 +19,8 @@ El sistema de fuentes de datos admite las siguientes variables al procesar datos
 
 Los datos de fuentes de datos de procesamiento completo se procesan como si se recibieran en los servidores de Adobe a la hora especificada (cada visita contiene una marca de tiempo).
 
-* [Perfil del visitante](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
-* [Referencia sobre columnas](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
+* [Perfil del visitante](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
+* [Referencia sobre columnas](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
 ## Perfil del visitante {#section_6065627D0C144506965F562C80AE67F8}
 
@@ -67,7 +67,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>eventos </p> </td> 
    <td colname="col2"> <p>eventos </p> </td> 
-   <td colname="col3"> <p>Cadena de eventos. El formato se aplica con la misma sintaxis que la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a>. </p> <p>Por ejemplo: </p> 
+   <td colname="col3"> <p>Cadena de eventos. El formato se aplica con la misma sintaxis que la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a>. </p> <p>Por ejemplo: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -170,7 +170,7 @@ En la tabla siguiente se muestran las variables de tráfico que se llenan autom�
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Conjunto de caracteres admitido para el sitio web. Por ejemplo: UTF-8, ISO-8859-1, etc. </p> <p>Consulte el documento técnico <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html" format="https" scope="external">Conjunto de caracteres de byte múltiple</a> (internacionalización) para obtener una lista exhaustiva. </p> </td> 
+   <td colname="col2"> <p>Conjunto de caracteres admitido para el sitio web. Por ejemplo: UTF-8, ISO-8859-1, etc. </p> <p>Consulte el documento técnico <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  >Conjunto de caracteres de byte múltiple</a> (internacionalización) para obtener una lista exhaustiva. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
