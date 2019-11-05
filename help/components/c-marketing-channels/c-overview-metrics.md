@@ -8,16 +8,12 @@ title: Métricas utilizadas en los informes de canales de marketing
 topic: Reports and Analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # Métricas utilizadas en los informes de canales de marketing
-
-Cómo utilizar las métricas en los informes de canal de mercadotecnia.
-
-## Métricas utilizadas en los informes de canales de marketing {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
 Cómo utilizar las métricas en los informes de canal de mercadotecnia.
 
@@ -29,11 +25,11 @@ Agregue (o edite) las métricas.
 
 Agregue una columna al informe.
 
-## Métricas de primer y último toque {#concept_68D9A50204304BA58C1F8013451E7853}
+## Métricas de primer y último toque {#first-and-last-touch}
 
 El primer toque y el último toque son atributos de canal que permiten ver cuántas participaciones nuevas (o datos de métricas como vistas de productos, ingresos y pedidos) resultan de la actividad de un visitante en el canal.
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). Se anotan tanto el primer canal por el que entró el usuario, como el canal más reciente. A continuación, se otorga crédito del evento de éxito a los canales correspondientes.
+When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). Se anotan tanto el primer canal por el que entró el usuario, como el canal más reciente. A continuación, se otorga crédito del evento de éxito a los canales correspondientes.
 
 <!-- 
 
@@ -65,7 +61,7 @@ Cada instancia de evento de éxito tendrá exactamente un canal de primer toque 
 
 > [!NOTE] Este informe utiliza la versión de primer toque o último toque de cada métrica. Por ello, es posible que los datos que se muestran en un informe [!UICONTROL Canal de mercadotecnia] no coincidan con los datos de otros informes.
 
-## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
+## Metric definitions {#metric-defs}
 
 | Métrica | Definición |
 |--- |--- |
@@ -73,7 +69,7 @@ Cada instancia de evento de éxito tendrá exactamente un canal de primer toque 
 | Visitante de primer toque | En los informes de canal, el visitante de primer toque es un visitante único diario que se originó en un canal. El compromiso del cliente se almacena durante el período de compromiso con el sitio, que podría durar varias visitas. |
 | Canal de último toque | El canal de conversión, es decir, el último canal de mercadotecnia que atrae al visitante y que provoca una conversión. Solamente se establece un canal como el canal de primer toque. El canal de último toque puede cambiar con cada visita de retorno al sitio. Cada visita tiene un canal de primer toque y uno de último toque, pero el valor del canal de primer toque nunca cambia con las visitas subsiguientes. |
 
-## Pulsación {#reference_55E2254F02EF4E7EB0AD2838C948347A}
+## Pulsación {#click-through}
 
 La pulsación es una instancia del canal de último toque. Constituye una eVar con la asignación más reciente.
 
@@ -89,7 +85,7 @@ Por ejemplo, supongamos que un visitante llega al sitio web una vez al día y qu
 
 El informe Canal de primer toque muestra 1 nuevo compromiso para la búsqueda paga. Cada uno de los demás canales muestra 0 nuevos compromisos. El informe Canal de último toque muestra 2 pulsaciones para la búsqueda paga; 3 para la visualización, y 2 para la búsqueda natural.
 
-## Agregar métricas a un informe de canal de mercadotecnia {#task_D381139E00504666AB2402D553CFEA5B}
+## Agregar métricas a un informe de canal de mercadotecnia {#add-metrics-to-mktg-channel-rpt}
 
 Agregue métricas a un informe de canal de mercadotecnia. Puede agregar hasta cuatro métricas a cada columna del informe, y todas las columnas que desee.
 
