@@ -5,7 +5,7 @@ seo-title: Resumen de Advertising Analytics
 title: Resumen de Advertising Analytics
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ Advertising Analytics le permite consultar todos los datos de búsqueda de pago 
 
 > [!NOTE] Yahoo Gemini fue absorbida por Microsoft Bing el 31 de marzo de 2019. Como resultado, la opción de cuenta publicitaria de Yahoo Gemini ya no está disponible.
 
-Al unir los datos de estos motores de búsqueda en Adobe Analytics, puede analizarlos mediante la potencia de Analysis Workspace. Una nueva plantilla denominada [Rendimiento de búsqueda de pago](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254) de Workspace facilita este análisis.
+Al unir los datos de estos motores de búsqueda en Adobe Analytics, puede analizarlos mediante la potencia de Analysis Workspace. Una nueva plantilla denominada [Rendimiento de búsqueda de pago](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) de Workspace facilita este análisis.
 
 ![](assets/aa_aw.png)
 
@@ -30,13 +30,13 @@ Esta integración va dirigida a los públicos siguientes:
 * Advertising Analytics está disponible únicamente para los SKU [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html) y [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) de Adobe Analytics.
 
 * Esta funcionalidad está disponible para clientes que no sean de Advertising Cloud ni de AMO.
-* Para tener acceso a Advertising Analytics, debe ser administrador de Adobe Analytics. Posteriormente, puede [conceder permisos de acceso](../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) a los usuarios que no sean administradores.
+* Para tener acceso a Advertising Analytics, debe ser administrador de Adobe Analytics. Posteriormente, puede [conceder permisos de acceso](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369) a los usuarios que no sean administradores.
 * Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
-* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
+* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
 
 * Necesita credenciales de inicio de sesión para un usuario con permisos de edición en las cuentas de búsqueda que desee integrar en Adobe Analytics, como un identificador de cuenta de Google y una contraseña.
 * En el caso de Bing Ads, también necesita el identificador de cliente de Bing.
-* Si utiliza Internet Explorer 11 (o una versión anterior), no podrá [configurar correctamente una cuenta publicitaria](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C) para ninguno de los tres motores de búsqueda. En su lugar, utilice otros navegadores web.
+* Si utiliza Internet Explorer 11 (o una versión anterior), no podrá [configurar correctamente una cuenta publicitaria](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) para ninguno de los tres motores de búsqueda. En su lugar, utilice otros navegadores web.
 
 ## Permisos de Advertising Analytics {#section_FCC58EB635954A32990D4E67B52B4369}
 
