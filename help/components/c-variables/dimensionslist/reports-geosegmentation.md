@@ -7,7 +7,7 @@ title: Segmentación geográfica
 topic: Informes
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,7 +32,7 @@ Todas las métricas disponibles en otros lugares distintos a Reports &amp; Analy
   </tr> 
   <tr> 
    <td colname="col1"> Regiones </td> 
-   <td colname="col2"> <p> Una zona geográfica más pequeña que un país, pero más grande que ciudad. En algunos países, una región es un estado, una provincia o una prefectura. En otras zonas, se trata de un país constituyente, departamento o región metropolitana. A la derecha de cada región que aparece, se muestra entre paréntesis el país al que pertenece. </p> <p>En el detalle de la tabla, haga clic en Ejecutar un informe de ciudades para esta región (la lupa) para ejecutar un informe que muestre el rendimiento de las ciudades de una región determinada comparado con el de otras ciudades de esa misma región. </p> <p>Consulte <a href="../../../components/c-variables/dimensionslist/reports-geosegmentation-reference.md#concept_F7D998B418544B39ACD8838B48B732F1" format="dita" scope="local"> Uso de regiones de segmentación geográfica y código postal por país</a> para ver qué países utilizan regiones. </p> </td> 
+   <td colname="col2"> <p> Una zona geográfica más pequeña que un país, pero más grande que ciudad. En algunos países, una región es un estado, una provincia o una prefectura. En otras zonas, se trata de un país constituyente, departamento o región metropolitana. A la derecha de cada región que aparece, se muestra entre paréntesis el país al que pertenece. </p> <p>En el detalle de la tabla, haga clic en Ejecutar un informe de ciudades para esta región (la lupa) para ejecutar un informe que muestre el rendimiento de las ciudades de una región determinada comparado con el de otras ciudades de esa misma región. </p> <p>Consulte <a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  > Uso de regiones de segmentación geográfica y código postal por país</a> para ver qué países utilizan regiones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ciudades </td> 
