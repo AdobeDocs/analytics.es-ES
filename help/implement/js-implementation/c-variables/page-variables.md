@@ -9,7 +9,7 @@ title: Variables de página
 topic: Desarrollador e implementación
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 8a96dc0587125e1b72e3146eb2f0923cecd808fb
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -123,7 +123,7 @@ Todos los elementos de una campaña de marketing deben tener asociado un código
 
 Hay dos maneras de rellenar la variable *`campaign`*:
 
-* El complemento [!UICONTROL getQueryParam], usado en el archivo JavaScript, recupera un parámetro de cadena de consulta de la dirección URL. Para obtener más información sobre el complemento [!UICONTROL getQueryParam], consulte [Complementos de implementación](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+* El complemento [!UICONTROL getQueryParam], usado en el archivo JavaScript, recupera un parámetro de cadena de consulta de la dirección URL. Para obtener más información sobre el complemento [!UICONTROL getQueryParam], consulte [Complementos de implementación](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 * Asigne un valor a la variable *`campaign`* en el HTML de la página web.
 
@@ -131,7 +131,7 @@ Con cualquiera de los métodos para rellenar la variable *`campaign`*, el tráfi
 
 Por ejemplo, un visitante entra en el sitio haciendo clic en una palabra clave de búsqueda de pago. Cuando el visitante llega a la página de aterrizaje, la dirección URL contiene un parámetro de cadena de consulta que identifica el código de seguimiento de la palabra clave. Después, el visitante hace clic en un vínculo a otra página, pero inmediatamente hace clic en el botón Atrás para volver a la página de aterrizaje. Cuando el visitante llega por segunda vez a la página de aterrizaje, la dirección URL con el parámetro de cadena de consulta identifica de nuevo el código de seguimiento y se registra una segunda pulsación, aumentando incorrectamente el número de pulsaciones.
 
-Para evitar este aumento incorrecto del número de pulsaciones, Adobe recomienda usar el complemento [!UICONTROL getValOnce] para forzar que cada pulsación de la campaña se cuente solo una vez. Para obtener más información sobre el complemento [!UICONTROL getValOnce], consulte [Complementos de implementación](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+Para evitar este aumento incorrecto del número de pulsaciones, Adobe recomienda usar el complemento [!UICONTROL getValOnce] para forzar que cada pulsación de la campaña se cuente solo una vez. Para obtener más información sobre el complemento [!UICONTROL getValOnce], consulte [Complementos de implementación](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 **Sintaxis y valores posibles** {#section_91A141841A6D4711A1EE08A6145A301D}
 
@@ -161,7 +161,7 @@ Cada valor de campaign permanece activo para un usuario y recibe el crédito por
 
 **Problemas, preguntas y consejos** {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
 
-* Para evitar aumentar incorrectamente el número de pulsaciones, use el complemento [!UICONTROL getValOnce] para que las pulsaciones de una campaña se cuenten solo una vez por sesión. Para obtener más información sobre el complemento [!UICONTROL getValOnce], consulte [Complementos de implementación](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+* Para evitar aumentar incorrectamente el número de pulsaciones, use el complemento [!UICONTROL getValOnce] para que las pulsaciones de una campaña se cuenten solo una vez por sesión. Para obtener más información sobre el complemento [!UICONTROL getValOnce], consulte [Complementos de implementación](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 * Para obtener más información sobre el seguimiento de campañas de marketing y las compras por palabras clave, consulte [Campañas](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html).
 * Use [!DNL DigitalPulse Debugger] para ver el valor real de las campañas (v0 en el depurador). Si v0 no aparece en el depurador, no se han registrado datos de la campaña para esa página.
@@ -300,7 +300,7 @@ Cuando se establece un valor en una eVar para un visitante, el valor se recuerda
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| 255 bytes | V1-v75 ( [o v100 o v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | Conversión personalizada | "" |
+| 255 bytes | V1-v75 ( [o v100 o v250](/help/implement/js-implementation/c-variables/page-variables.md)) | Conversión personalizada | "" |
 
 **Caducidad** {#section_6DB5882B960D4660AE248B91B76883C4}
 
@@ -327,7 +327,7 @@ Uno de los requisitos habituales para un informe de [!UICONTROL eVar personaliza
 
 **Sintaxis y valores posibles** {#section_BD46438B14F3488FB9AC42994C317B06}
 
-Aunque se puede cambiar el nombre de las eVars, siempre se debe hacer referencia a ellas en el archivo JavaScript por eVarX, donde X es un número entre 1 y 75 ([ o 100 o 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)).
+Aunque se puede cambiar el nombre de las eVars, siempre se debe hacer referencia a ellas en el archivo JavaScript por eVarX, donde X es un número entre 1 y 75 ([ o 100 o 250](/help/implement/js-implementation/c-variables/page-variables.md)).
 
 ```js
 s.eVarX="value"
@@ -418,11 +418,11 @@ Un [!UICONTROL evento] se debe considerar un hito dentro de un sitio. Los evento
 
 De forma predeterminada, los eventos de éxito se configuran como eventos de *contador*. Los eventos de contador contabilizan el número de veces que se configura un evento de éxito (x+1). Los eventos también se pueden configurar como eventos *numéricos*. Los eventos numéricos permiten especificar el número que se incrementará. Esto podría ser necesario cuando se contabilizan valores dinámicos o arbitrarios, como los resultados devueltos por una búsqueda interna.
 
-Un tipo de evento final, *moneda*, permite definir la cantidad que se sumará (similar a los eventos numéricos), pero la muestra como moneda en los informes y está sujeta a las conversiones monetarias basadas en el valor de s. *`currencyCode`* y en la configuración de moneda predeterminada para su grupo de informes. Para obtener información adicional sobre cómo usar eventos numéricos y monetarios, consulte [Productos](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2).
+Un tipo de evento final, *moneda*, permite definir la cantidad que se sumará (similar a los eventos numéricos), pero la muestra como moneda en los informes y está sujeta a las conversiones monetarias basadas en el valor de s. *`currencyCode`* y en la configuración de moneda predeterminada para su grupo de informes. Para obtener información adicional sobre cómo usar eventos numéricos y monetarios, consulte [Productos](/help/implement/js-implementation/c-variables/page-variables.md).
 
 **Configuración de la variable** {#section_9195286C34C54B02B2598E2B856492C3}
 
-La variable [!UICONTROL s.events] está habilitada de forma predeterminada para todas las implementaciones. Los siete eventos de conversión preconfigurados están habilitados automáticamente para todos los grupos de informes nuevos. Los nuevos eventos personalizados (event1- [event100 o event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) los puede habilitar un usuario con derechos de administrador en Admin Console.
+La variable [!UICONTROL s.events] está habilitada de forma predeterminada para todas las implementaciones. Los siete eventos de conversión preconfigurados están habilitados automáticamente para todos los grupos de informes nuevos. Los nuevos eventos personalizados (event1- [event100 o event1000](/help/implement/js-implementation/c-variables/page-variables.md)) los puede habilitar un usuario con derechos de administrador en Admin Console.
 
 **Valores posibles** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
@@ -476,7 +476,7 @@ Los eventos numéricos y monetarios deben incluirse en la variable [!UICONTROL s
 
 De forma predeterminada, un evento se contabiliza cada vez que se establece el evento en su sitio.
 
-Consulte [Serialización de eventos](../../../implement/js-implementation/event-serialization.md#concept_092B638D7FEE423D91F8A57EA8E09705) para obtener más información.
+Consulte [Serialización de eventos](/help/implement/js-implementation/event-serialization.md) para obtener más información.
 
 **Sintaxis** {#section_8559D42D3F344AF3BB3C0125F78C4989}
 
@@ -750,11 +750,11 @@ list_props.xml
 
 **Consideraciones**
 
-* Las props de lista solo se activan en variables de tráfico ( [props](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254)).
+* Las props de lista solo se activan en variables de tráfico ( [props](/help/implement/js-implementation/c-variables/page-variables.md)).
 * No se puede habilitar el control de rutas ni las correlaciones para las props de lista.
 * Analytics proporciona visitas y visitantes únicos prácticamente en todos los informes, incluidos los informes de props de lista.
 * Las clasificaciones son compatibles con las props de lista.
-* Cualquier variable de tráfico personalizado puede convertirse en una prop de lista. (Excepciones: [pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328), [channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D) y [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2)).
+* Cualquier variable de tráfico personalizado puede convertirse en una prop de lista. (Excepciones: [pageName](/help/implement/js-implementation/c-variables/page-variables.md), [channel](/help/implement/js-implementation/c-variables/page-variables.md) y [server](/help/implement/js-implementation/c-variables/page-variables.md)).
 
 * Cuando se definen valores duplicados en la misma solicitud de página, no se anula la duplicación de instancias.
 
@@ -1313,7 +1313,7 @@ mobile.xml
 
  -->
 
-Consulte [Protocolos de red móvil](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC).
+Consulte [Protocolos de red móvil](/help/implement/js-implementation/c-additional-libraries/network-protocols.md).
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
@@ -1586,7 +1586,7 @@ La variable *`products`* siempre debe configurarse junto con un evento de éxito
 | Producto | (Requerido) Identificador usado para realizar el seguimiento de un producto. Este identificador se utiliza para rellenar el informe [!UICONTROL Productos]. Asegúrese de usar el mismo identificador en todo el proceso de cierre de la compra. |
 | Cantidad | Número de unidades compradas. Este campo se debe configurar con un evento [!UICONTROL purchase] para que se registre. |
 | Precio | Hace referencia al coste combinado de la cantidad total comprada (unidades x precio unitario individual), no al precio individual. Este campo se debe configurar con un evento [!UICONTROL purchase] para que se registre. |
-| Eventos | Eventos monetarios asociados al producto especificado. Consulte [Eventos monetarios específicos de productos](../../../implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C) y [Eventos monetarios de todo el pedido](../../../implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0). |
+| Eventos | Eventos monetarios asociados al producto especificado. Consulte [Eventos monetarios específicos de productos](/help/implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C) y [Eventos monetarios de todo el pedido](/help/implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0). |
 | eVars | Valores eVar de comercialización asociados a un producto específico. Consulte [Variables de comercialización](/help/components/c-variables/c-merch-variables/var-merchandising.md). |
 
 Los valores incluidos en la variable *`products`* se basan en el tipo de evento que esté registrando. El delimitador de categoría/producto (;) es necesario como marcador de posición cuando se omite la categoría. Solo se requieren otros delimitadores en caso de que sea necesario distinguir el parámetro que se está incluyendo, como se muestra en los ejemplos de esta página.
@@ -2015,7 +2015,7 @@ La variable *`timestamp`* debe tener el formato que se describe en la sección s
 >
 >Asimismo, si habilita la compatibilidad con la marca de tiempo en un grupo de informes de modo que se admita el seguimiento sin conexión, también deberá establecerse de forma manual una marca de tiempo para todas las visitas que se envíen a este grupo de informes desde JavaScript (con *`s.timestamp`*). No es posible enviar visitas con y sin marca de tiempo a un mismo grupo de informes.
 >
->También se puede usar el ajuste [Marcas de hora opcionales](../../../implement/js-implementation/timestamps-overview.md#concept_1A7DF6F7BDA34467B51A6F61E08BB73F) para combinar datos con y sin marca de tiempo en el mismo grupo de informes global, enviar datos con marca de tiempo desde una aplicación móvil a un grupo de informes global, y actualizar aplicaciones para emplear marcas de tiempo sin tener que crear un nuevo grupo de informes.
+>También se puede usar el ajuste [Marcas de hora opcionales](/help/implement/js-implementation/timestamps-overview.md) para combinar datos con y sin marca de tiempo en el mismo grupo de informes global, enviar datos con marca de tiempo desde una aplicación móvil a un grupo de informes global, y actualizar aplicaciones para emplear marcas de tiempo sin tener que crear un nuevo grupo de informes.
 
 **Formatos de las marcas de tiempo** {#section_C12CBCECCD7047D38EF63A5800761CE9}
 
