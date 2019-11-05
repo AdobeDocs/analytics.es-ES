@@ -8,7 +8,7 @@ title: Preguntas frecuentes
 topic: Segmentos
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,12 +25,12 @@ Responde preguntas frecuentes sobre las funciones de segmentación, acceso, perm
    * Utilice [segmentos como dimensiones](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) en una comparación.
    * Utilice segmentos en el [análisis de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
 
-* Puede aplicar [varios segmentos a un informe o un proyecto](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F).
+* Puede aplicar [varios segmentos a un informe o un proyecto](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * Los segmentos son universales para todos los grupos de informes.
-* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
-* El nuevo [Administrador de segmentos](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F) le permite configurar [flujos de trabajo](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF) con funciones de uso compartido, etiquetado, verificación y aprobación de segmentos.
+* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* El nuevo [Administrador de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) le permite configurar [flujos de trabajo](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) con funciones de uso compartido, etiquetado, verificación y aprobación de segmentos.
 
-* Ahora puede [etiquetar segmentos](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) para organizar y buscar más tarde en lugar de utilizar carpetas. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* Ahora puede [etiquetar segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) para organizar y buscar más tarde en lugar de utilizar carpetas. Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
 
 * Ahora puede crear [Segmentos secuenciales](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) fuera de Ad Hoc Analysis.
 * El Contenedor de vista de página se llama ahora Contenedor de visita individual para indicar que el contenedor segmenta todos los tipos de datos, no solo vistas de página. Por ejemplo, si vincula las llamadas de seguimiento, el Contenedor de visita individual incluirá o excluirá las llamadas trackAction desde los SDK móviles. Tenga en cuenta que no se ha modificado la manera de funcionar del contenedor; simplemente se le ha cambiado el nombre.
@@ -63,7 +63,7 @@ Acceda al Administrador de segmentos de una de las siguientes maneras:
 
 **¿Dónde está ahora la lista desplegable de segmentos heredados?**
 
-La lista desplegable de segmentos de Informes y análisis se ha sustituido por una interfaz de [Generador de segmentos](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) con muchas más funciones que le permite crear segmentos "universales" utilizables en los grupos de informes y en las soluciones de Adobe Analytics. Para ver una lista de segmentos existentes, haga clic en el icono Segmentos ![](assets/segment_icon.png)
+La lista desplegable de segmentos de Informes y análisis se ha sustituido por una interfaz de [Generador de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) con muchas más funciones que le permite crear segmentos "universales" utilizables en los grupos de informes y en las soluciones de Adobe Analytics. Para ver una lista de segmentos existentes, haga clic en el icono Segmentos ![](assets/segment_icon.png)
 
 en la navegación izquierda y se muestra el carril del segmento.
 
@@ -79,7 +79,7 @@ La lista desplegable de grupo de informes se ha trasladado junto al selector de 
 
 De forma predeterminada, todos los usuarios pueden crear y editar segmentos personales. Sin embargo, los administradores pueden decidir quién cuenta con los [permisos para crear segmentos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) y pueden asignarlos a grupos específicos. Estos segmentos se pueden compartir directamente con cualquier otro usuario de Analytics.
 
-Los administradores pueden editar cualquier segmento, así como compartir segmentos con grupos y con cualquier persona de la organización. [Más...](../../components/c-segmentation/seg-reference/seg-rights.md)
+Los administradores pueden editar cualquier segmento, así como compartir segmentos con grupos y con cualquier persona de la organización. [Más...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
 **¿Puedo ver todos los segmentos de mi compañía?**
 
@@ -97,7 +97,7 @@ Los Análisis específicos y el creador de informes solo muestran segmentos crea
 
 **¿Por qué no puedo eliminar este segmento?**
 
-Si el segmento se [publicó en Experience Cloud](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01), no es posible eliminarlo ni editarlo. Pero sí copiarlo y editar esa versión copiada.
+Si el segmento se [publicó en Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), no es posible eliminarlo ni editarlo. Pero sí copiarlo y editar esa versión copiada.
 
 ## Prácticas recomendadas {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -113,13 +113,13 @@ Ahora que los segmentos funcionan en múltiples grupos de informes, es posible q
 * Revise los segmentos que tiene.
 * Añádalos a la biblioteca de segmentos cuando sea pertinente.
 * Apruebe los segmentos canónicos.
-* Etiquete los segmentos siguiendo las [prácticas recomendadas](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50).
+* Etiquete los segmentos siguiendo las [prácticas recomendadas](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Administración de segmentos heredados {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 **¿Qué ha pasado con mis segmentos existentes?**
 
-Sus segmentos existentes seguirán funcionando como siempre. Todos los informes a los que se hayan aplicado dichos segmentos funcionarán correctamente. [Más...](../../components/c-segmentation/seg-transition.md#section_83ACAB256F394DCD8B424D8920BDD853)
+Sus segmentos existentes seguirán funcionando como siempre. Todos los informes a los que se hayan aplicado dichos segmentos funcionarán correctamente. [Más...](/help/components/c-segmentation/seg-transition.md)
 
 La mayoría de los segmentos de grupo y predefinidos antiguos se migrarán como plantillas de segmentos al Generador de segmentos. Las plantillas de segmentos se utilizan para generar rápidamente segmentos personalizados con audiencias comunes. Las plantillas de segmentos no pueden aplicarse a un informe directamente, pero pueden guardarse de manera muy sencilla en un segmento personalizado.
 
@@ -205,9 +205,9 @@ Los siguientes consejos le ayudarán a migrar dimensiones comunes:
 * Exploradores: utilice la dimensión Tipos de exploradores para obtener todos los exploradores de un tipo, por ejemplo Google Chrome
 * Sistemas operativos: utilice las dimensiones Tipos de sistemas operativos para obtener todos los sistemas operativos de un tipo, por ejemplo, Microsoft Windows.
 
-* [Dimensiones nuevas y renombradas](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [Cambios en Contiene](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Cambios a menor que y mayor que](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [Dimensiones nuevas y renombradas](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
+* [Cambios en Contiene](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [Cambios a menor que y mayor que](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## Dimensiones nuevas y renombradas {#section_73CF121B64A24DEF8E6499F3167BF742}
 
