@@ -8,7 +8,7 @@ title: Resumen de las visualizaciones
 topic: Reports and Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ Para acceder a la [!UICONTROL configuración de visualización], arrastre una vi
 
 >[!IMPORTANT]
 >
->La configuración de visualización visible depende de la visualización. No todos los ajustes se aplican a todas las visualizaciones. Además, algunos ajustes avanzados aparecen **solo** para visualizaciones concretas, como [Ajustes de histograma](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
+>La configuración de visualización visible depende de la visualización. No todos los ajustes se aplican a todas las visualizaciones. Además, algunos ajustes avanzados aparecen **solo** para visualizaciones concretas, como [Ajustes de histograma](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
 
 ![](assets/visualization_settings.png)
 
@@ -67,7 +67,7 @@ Para acceder a la [!UICONTROL configuración de visualización], arrastre una vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalización </p> </td> 
-   <td colname="col2"> <p>Fuerza métricas para igualar proporciones. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> Normalización</a>. </p> </td> 
+   <td colname="col2"> <p>Fuerza métricas para igualar proporciones. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalización</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostrar eje doble </p> </td> 
