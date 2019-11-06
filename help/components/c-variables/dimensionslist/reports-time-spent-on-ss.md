@@ -7,11 +7,11 @@ title: Tiempo empleado en la sección del sitio
 topic: Informes
 uuid: e8820dc6-7ecd-4d4c-9a40-96f008c5ddd3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
 
 ---
 
 
 # Tiempo empleado en la sección del sitio
 
-See [Time Spent](/help/components/c-variables/c-metrics/metrics-time-spent.md) for more information.
+See [Time Spent](reports-time-spent-on-page.md) for more information.
