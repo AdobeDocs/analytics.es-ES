@@ -4,7 +4,7 @@ seo-title: Lista completa de documentación técnica de Adobe Analytics y guías
 description: Guías y recursos para usuarios de Analytics
 seo-description: Lista completa de documentos técnicos de Adobe Analytics, notas de la versión y guías de usuario de autoayuda.
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -29,7 +29,7 @@ Bienvenido a la página de inicio del producto y la documentación técnica de A
 
 [![Guía](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)de análisis de[medios de Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) : Implementar Analytics en fuentes de audio o vídeo. Incluye el SDK de medios y la API de recopilación de medios.
 
-[![Guías](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)del Área de trabajo[de datos de DWB](https://marketing.adobe.com/resources/help/en_US/insight/) : cliente del Área de trabajo de datos, instalación, configuración del conjunto de datos y mucho más
+[![Guías](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)del Área de trabajo[de datos de DWB](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) : cliente del Área de trabajo de datos, instalación, configuración del conjunto de datos y mucho más
 
 [![Notas técnicas](assets/technotes_50px.png)](/help/technotes/home.md) [Notas técnicas de Analytics](/help/technotes/home.md): Una base de conocimiento que contiene artículos útiles que no pertenecen a una herramienta o componente de análisis específico.
 
@@ -47,7 +47,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
+* [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
 * [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
 * [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
