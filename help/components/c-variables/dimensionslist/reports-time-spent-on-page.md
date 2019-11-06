@@ -1,19 +1,43 @@
 ---
 description: Muestra la cantidad de tiempo que los visitantes emplearon en la página.
-seo-description: Muestra la cantidad de tiempo que los visitantes emplearon en la página.
-seo-title: Tiempo invertido en la página
 solution: Analytics
 title: Tiempo invertido en la página
 topic: Informes
-uuid: 0a875fa4-da31-4370-a44b-955f2273cf4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
 
 ---
 
 
-# Tiempo invertido en la página
+# Time spent on page
 
-Muestra la cantidad de tiempo que los visitantes emplearon en la página.
+Adobe Analytics ofrece varias formas de determinar el tiempo empleado en los informes de Analytics. En la mayoría de los casos, el tiempo empleado se calcula siguiendo los pasos siguientes:
 
-See [Time Spent](/help/components/c-variables/c-metrics/metrics-time-spent.md) for more information.
+1. Para una visita individual determinada, observe la marca de tiempo y el valor de dimensión.
+2. Compare esta visita con la marca de tiempo de la siguiente visita en la visita.
+3. La cantidad de tiempo que transcurrió entre estas dos visitas individuales contribuye al tiempo empleado para esa página.
+
+Cuando visualice datos de dimensiones de tiempo empleado, tenga en cuenta lo siguiente:
+
+* El tiempo empleado tiene en cuenta la asignación y la caducidad.
+* Las vistas de página y los tipos de visitas de seguimiento de vínculos se tienen en cuenta al calcular el tiempo empleado en datos.
+* El tiempo empleado no se mide durante la última visita individual de la visita, ya que no hay ninguna solicitud de imagen posterior para medir el tiempo transcurrido.
+* Las devoluciones no pueden medir el tiempo empleado, ya que la visita consiste en una sola visita.
+
+El tiempo empleado en la página mide el tiempo transcurrido entre las visitas individuales de una visita. Existen dimensiones independientes entre **granular** y **agrupado**.
+
+* **** Granular: Cada valor de dimensión es un número diferente de segundos transcurridos entre dos visitas.
+* **** Agrupado: Cada valor de dimensión es un bloque predefinido:
+   * Menos de 15 segundos
+   * de 15 a 29 segundos
+   * de 1 a 3 minutos
+   * de 3 a 5 minutos
+   * de 5 a 10 minutos
+   * de 10 a 15 minutos
+   * de 15 a 20 minutos
+   * de 20 a 30 minutos
+   * Más de 30 minutos
+
+Esta dimensión se basa en visitas individuales, que si se utiliza como desglose pueden proporcionar datos más significativos. Compare esta dimensión con el [tiempo empleado por visita](reports-time-spent-per-visit.md), que es una dimensión basada en visitas.
+
+![Tiempo empleado](assets/time-spent1.png)
