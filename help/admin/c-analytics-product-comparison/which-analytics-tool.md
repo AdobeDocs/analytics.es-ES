@@ -5,7 +5,7 @@ seo-title: ¿Qué herramienta de Adobe Analytics debo usar?
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -49,7 +49,7 @@ Los **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** deben usa
 * Para organizar por fichas el trabajo de los proyectos.
 * Para usar el informe de Análisis del sitio (informe de rutas en 3D).
 
-El **[Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)** debe usarse:
+El **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** debe usarse:
 
 * Como la opción de herramienta de Analytics más flexible (para análisis en el nivel de visita y de visitante).
 * Para crear un conjunto de datos de varios canales de interacciones en línea y sin conexión desde CRM hasta POS a web.
