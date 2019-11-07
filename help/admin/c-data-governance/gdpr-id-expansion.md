@@ -1,11 +1,9 @@
 ---
 description: 'Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics puede asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos. Puede solicitar esta opción con un parámetro opcional a cada solicitud de privacidad de datos que envíe junto a la solicitud de JSON '
-seo-description: 'Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics puede asociar al interesado. Analytics puede crear un conjunto ampliado de ID para incluir estos datos asociados en las solicitudes de privacidad de datos. Puede solicitar esta opción con un parámetro opcional a cada solicitud de privacidad de datos que envíe junto a la solicitud de JSON '
-seo-title: Expansión de ID
 title: Expansión de ID
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -18,7 +16,7 @@ Los ID que envíe no siempre abarcan todos los datos coincidentes que Analytics 
 "expandIds": true
 ```
 
-Consulte la [Ejemplos de solicitudes de JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) para ver un ejemplo de cómo incluir esta opción con la solicitud. Para obtener más información, consulte la [Documentación de la API del servicio de privacidad.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+Consulte la [Ejemplos de solicitudes de JSON](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request) para ver un ejemplo de cómo incluir esta opción con la solicitud. Para obtener más información, consulte la [Documentación de la API del servicio de privacidad](https://www.adobe.io/apis/experienceplatform/gdpr.html).
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -58,7 +56,7 @@ En el futuro, "analyticsDeleteMethod" puede admitir un valor de "purge" además 
 
 Además de su valor predeterminado, el campo de prioridad también admite un valor "bajo". Debería especificar este valor en las solicitudes que no sean producto de una solicitud del interesado y que, por lo tanto, no se deban completar en un plazo de 30 días por imperativo legal. Tenga en cuenta que Adobe desaconseja el uso de la API del servicio de privacidad para otros fines que no sean solicitudes iniciadas por los interesados. La API del servicio de privacidad no es una herramienta adecuada para borrar ni reparar datos. Asimismo, si se usa para tales fines, tendrá consecuencias no deseadas.
 
-[!NOTE]La [API del servicio de privacidad](https://www.adobe.io/apis/experienceplatform/gdpr.html) sirve para ayudarle a realizar las solicitudes de privacidad de datos, que suelen ser urgentes. El uso de esta API para otros fines no es compatible con Adobe y puede afectar a la capacidad de Adobe de proporcionar respuestas oportunas de solicitudes de privacidad de datos iniciadas por el usuario y de alta prioridad para otros clientes de Adobe. Le rogamos que no use la API del servicio de privacidad para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes.
+> [!NOTE]La [API del servicio de privacidad](https://www.adobe.io/apis/experienceplatform/gdpr.html) sirve para ayudarle a realizar las solicitudes de privacidad de datos, que suelen ser urgentes. El uso de esta API para otros fines no es compatible con Adobe y puede afectar a la capacidad de Adobe de proporcionar respuestas oportunas de solicitudes de privacidad de datos iniciadas por el usuario y de alta prioridad para otros clientes de Adobe. Le rogamos que no use la API del servicio de privacidad para otros fines, por ejemplo, para borrar datos que se hayan enviado por error a grupos de visitantes grandes.
 
 También debe tener en cuenta que cualquier información de estado de un visitante del cual se elimine una visita (actualizada o anonimizada) se restablecerá como resultado de una solicitud de eliminación de privacidad de datos. La próxima vez que el visitante vuelva a su sitio web, lo hará como visitante nuevo. Toda atribución de eVar partirá de cero, al igual que los detalles relativos al número de visitas, los referentes, la primera página visitada, etc. Este efecto colateral no es deseable en los casos en los que quiera borrar campos de datos, lo que a su vez representa uno de los motivos por los que la API del servicio de privacidad no es apropiada para este uso.
 
