@@ -1,11 +1,9 @@
 ---
 description: En este documento se describe lo que debe hacer en Adobe Analytics para cumplir los derechos de eliminación y acceso de sus interesados según el RGPD.
-seo-description: En este documento se describe lo que debe hacer en Adobe Analytics para cumplir los derechos de eliminación y acceso de sus interesados según el RGPD.
-seo-title: Adobe Analytics y el RGPD
 title: Adobe Analytics y el RGPD
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
