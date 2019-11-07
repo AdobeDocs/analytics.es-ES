@@ -1,12 +1,10 @@
 ---
 description: Variables para informes de privacidad en Privacidad de datos.
-seo-description: Variables para informes de privacidad en Privacidad de datos.
-seo-title: Variables de informes de privacidad
 solution: Analytics
 title: Variables de informes de privacidad
 topic: Herramientas de administración
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -38,12 +36,14 @@ Estas variables de informes de privacidad proporcionan un marco fácil de usar p
 Puede habilitar las variables de informes de privacidad mediante una nueva configuración de privacidad disponible en la Consola de administración de Analytics.
 
 Cada grupo de informes se puede configurar de la siguiente manera:
-1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
-1. Seleccione los grupos de informes donde desee recopilar los datos de medios y haga clic en **[!UICONTROL Editar configuración &gt; Gestión de la privacidad.]**
+1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites]**.
+1. Seleccione los grupos de informes donde desee recopilar los datos de medios y haga clic en **[!UICONTROL Editar configuración &gt; Gestión de la privacidad]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. Haga clic en el botón **[!UICONTROL Activar informes de privacidad de datos.]** **** Nota: Una vez habilitadas, estas variables no se pueden desactivar.
+1. Haga clic en el botón **[!UICONTROL Activar informes de privacidad de datos.]**
+
+   > [!NOTE] Una vez habilitadas, estas variables no se pueden desactivar.
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -65,14 +65,14 @@ Consulte [Variables de datos de contexto](https://docs.adobe.com/help/en/analyti
 
 * Datos de contexto: `contextData.['cm.ssf']`
 * Valores aceptados:
-   * 1 - Al enviar el valor "1", indica que el reenvío del lado del servidor está en estado de exclusión. El valor "1" asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte [Cumplimiento de la privacidad electrónica de AAM.](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * 1 - Al enviar el valor "1", indica que el reenvío del lado del servidor está en estado de exclusión. El valor "1" asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte [Cumplimiento de la privacidad electrónica de AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * No se aceptan otros valores para este parámetro.
 
 ### DMP
 
 * Datos de contexto: `contextData.['opt.dmp']`
 * Valores aceptados:
-   * N: Al enviar el valor "N", esto indica que el consumidor está optando por dejar de compartirlo en las plataformas de administración de datos. **** Nota: La configuración de esta variable en "N" no bloquea actualmente el uso compartido a AAM, pero el bloqueo de llamadas a la funcionalidad AAM se agregará a principios de 2020. Por ahora, Adobe recomienda configurar `c.cm.ssf=1` y `c.opt.dmp=N` bloquear el envío de visitas a AAM.
+   * N: Al enviar el valor "N", esto indica que el consumidor está optando por dejar de compartirlo en las plataformas de administración de datos. **Nota**: La configuración de esta variable en "N" no bloquea actualmente el uso compartido a AAM, pero el bloqueo de llamadas a la funcionalidad AAM se agregará a principios de 2020. Por ahora, Adobe recomienda configurar `c.cm.ssf=1` y `c.opt.dmp=N` bloquear el envío de visitas a AAM.
    * Y: Al enviar el valor "Y", esto indica que el consumidor está optando por compartir en plataformas de administración de datos.
 
 ### SELL
