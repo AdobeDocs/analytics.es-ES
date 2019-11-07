@@ -1,11 +1,9 @@
 ---
 description: A cada ID al que desee permitir búsquedas se le asigna un área de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
-seo-description: A cada ID al que desee permitir búsquedas se le asigna un área de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
-seo-title: Espacios de nombres
 title: Espacios de nombres
 uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
