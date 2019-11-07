@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Ejemplo de etiquetado
 title: Ejemplo de etiquetado
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -67,7 +65,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Solo se ven afectadas las celdas de las filas que contienen AAID = 77 y una etiqueta DEL-DEVICE.
+> [!NOTE] Solo se ven afectadas las celdas de las filas que contienen AAID = 77 y una etiqueta DEL-DEVICE.
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -81,7 +79,7 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Solo se ven afectadas las celdas de las filas que contienen user=Mary y una etiqueta DEL-PERSON. Además, en la práctica, la variable que contiene A_ID probablemente sería una prop o eVar y su valor de sustitución sería una cadena que empiece por “Privacidad-”, seguida por un número aleatorio (GUID), en lugar de sustituir el valor numérico con un valor numérico aleatorio diferente.
+> [!NOTE] Solo se ven afectadas las celdas de las filas que contienen user=Mary y una etiqueta DEL-PERSON. Además, en la práctica, la variable que contiene A_ID probablemente sería una prop o eVar y su valor de sustitución sería una cadena que empiece por “Privacidad-”, seguida por un número aleatorio (GUID), en lugar de sustituir el valor numérico con un valor numérico aleatorio diferente.
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
