@@ -1,11 +1,9 @@
 ---
 description: Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identidad, confidencialidad y control de datos a cada variable de un grupo de informes determinado. Asegúrese de familiarizarse primero con las etiquetas y sus definiciones.
-seo-description: Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identidad, confidencialidad y control de datos a cada variable de un grupo de informes determinado. Asegúrese de familiarizarse primero con las etiquetas y sus definiciones.
-seo-title: Etiquetado de datos de grupos de informes
 title: Etiquetado de datos de grupos de informes
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
