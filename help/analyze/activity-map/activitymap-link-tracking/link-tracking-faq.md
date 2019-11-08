@@ -3,10 +3,10 @@ description: Preguntas frecuentes sobre el seguimiento de vínculos en Activity 
 seo-description: Preguntas frecuentes sobre el seguimiento de vínculos en Activity Map.
 seo-title: Preguntas frecuentes sobre el seguimiento de vínculos
 solution: Analytics
-title: Seguimiento de vínculos Preguntas más frecuentes
+title: Seguimiento de vínculos  Preguntas más frecuentes
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,12 +18,12 @@ Preguntas frecuentes sobre el seguimiento de vínculos en Activity Map.
 
 >[!CAUTION]
 >
->**Al activar el seguimiento de Mapa de actividades,** puede recopilar datos de información personal (PII). Estos datos pueden utilizarse por sí mismos o con otra información para identificar, contactar o ubicar a una sola persona, o para identificar a una persona en contexto.
+>Si activa el seguimiento de Activity Map, **es posible que recopile información de identificación personal (PII)**. Dicha información se puede utilizar, tanto por sí sola como con otros datos, para identificar o localizar a una persona única, para ponerse en contacto con ella o para identificar a una persona en contexto.
 
 A continuación se indican algunos casos conocidos en los que pueden recopilarse datos PII con el seguimiento de Activity Map:
 
-* `Mailto` vínculos. Un vínculo mailto es un tipo de vínculo HTML que activa el cliente de correo predeterminado en el equipo para enviar un mensaje de correo electrónico.
-* `User ID` vínculos que pueden aparecer en el encabezado o pie de página de un sitio web una vez que el usuario haya iniciado sesión.
+* Vínculos `Mailto`. Un vínculo mailto es un tipo de vínculo HTML que activa el cliente de correo predeterminado en el equipo para enviar un mensaje de correo electrónico.
+* Los vínculos de `User ID` pueden aparecer en el encabezado o pie de página de un sitio web una vez que el usuario ha iniciado sesión.
 * Para las instituciones financieras, es posible que se muestre como vínculo el número de cuenta. Al hacer clic en dicho vínculo, se recopilará el texto que contenga.
 * Los sitios web de entidades sanitarias también pueden mostrar datos PII como vínculos. Al hacer clic en dichos vínculos, se recopilará el texto que contengan, por lo que se recopilarán datos PII.
 
@@ -42,17 +42,17 @@ A continuación se indican algunos casos conocidos en los que pueden recopilarse
      <li id="li_D4B0AEEEA58A4F82A1BCBD3971A60D02">¿Se trata de una etiqueta INPUT o un botón SUBMIT con un valor o texto secundario? </li> 
      <li id="li_F7ABE88308E1413E9B9C2224DEC91BAB">¿Se trata de una etiqueta INPUT con el tipo IMAGE y una propiedad src? </li> 
      <li id="li_F34A0C986E8040109A1DDF88C26E56D5">¿Es un &lt;Button&gt;? </li> 
-    </ul> <p>Si la respuesta a alguna de estas preguntas es <b>Sí</b>, el elemento se trata como vínculo y se le realiza un seguimiento. </p> <p>Importante: AppMeasurement no considera las etiquetas Button con el atributo type="button" como vínculos. Considere la posibilidad de quitar el atributo "type='button'" de las etiquetas Button y agregar en su lugar el atributo role="button" o submit="button". </p> <p>Importante: Las etiquetas delimitadoras con un href que comienza con "#" se consideran una ubicación de destino interna por AppMeasurement, no un vínculo (ya que no abandona la página). De forma predeterminada, Activity Map no realiza el seguimiento de estas ubicaciones de destino internas. Rastrea únicamente los vínculos que conducen al usuario a una nueva página.</p></td> 
+    </ul> <p>Si la respuesta a alguna de estas preguntas es <b>Sí</b>, el elemento se trata como vínculo y se le realiza un seguimiento. </p> <p>Importante: AppMeasurement no considera las etiquetas Button con el atributo type="button" como vínculos. Considere la posibilidad de quitar el atributo "type='button'" de las etiquetas Button y agregar en su lugar el atributo role="button" o submit="button". </p> <p>Importante: Las etiquetas delimitadoras con un href que comienza con “#” se consideran una ubicación de destino interna con AppMeasurement, no un vínculo (ya que no se abandona la página). De forma predeterminada, Activity Map no realiza el seguimiento de estas ubicaciones de destino internas. Rastrea únicamente los vínculos que conducen al usuario a una nueva página.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>P: ¿Cómo realiza Activity Map el seguimiento de otros elementos HTML visuales?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>Mediante la <code> s.tl() </code> función</b> <p>Si el clic se produjo a través de una invocación de s.tl, Activity Map también recibirá este evento de clic y determinará si se encontró la variable de cadena linkName. Durante la ejecución de s.tl, el linkName se definirá como ID del vínculo de Activity Map. El elemento donde se hizo clic y que originó la llamada de s.tl() se utilizará para determinar la región. Ejemplo: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>A través de la función <code> s.tl() </code></b> <p>Si el clic se produjo a través de una invocación de s.tl, Activity Map también recibirá este evento de clic y determinará si se encontró la variable de cadena linkName. Durante la ejecución de s.tl, el linkName se definirá como ID del vínculo de Activity Map. El elemento donde se hizo clic y que originó la llamada de s.tl() se utilizará para determinar la región. Ejemplo: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>A través de la <code> s_objectID </code> variable</b> <p>Ejemplo: </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>A través de la variable <code> s_objectID </code>.</b> <p>Ejemplo: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>Importante: Tenga en cuenta que es obligatorio el uso de un punto y coma de cierre (;) al usar s_objectID en Activity Map. </p> </li> 
@@ -88,19 +88,20 @@ A continuación se indican algunos casos conocidos en los que pueden recopilarse
    <td colname="col1"> <b>P: ¿Pueden dar ejemplos de vínculos de los que NO se realizará un seguimiento?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
-     <li id="li_99372060646B43EF94C13A9C682CE693">Razón: la etiqueta de anclaje no tiene una href válida. 
+     <li id="li_99372060646B43EF94C13A9C682CE693">Razón: la etiqueta de anclaje no tiene una href válida 
+       
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
-     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
+     <li id="li_736A5F7DC2D74B4DA1CECEE3AD10EB19">Razón: No aparecen <code> s_ObjectID </code> ni <code> s.tl() </code> 
       <code>
         &lt;p&nbsp;onclick="showPanel('market&nbsp;rates')"&gt; &nbsp;&nbsp;&nbsp;&nbsp;&lt;span&nbsp;class="title"&gt;Current&nbsp;Market&nbsp;Rates&lt;/span&gt;&lt;span&nbsp; class="subtitle"&gt;1.45USD&lt;/span&gt; &lt;/p&gt;
       </code> </li> 
-     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Reason: Neither <code> s_ObjectID </code> nor <code> s.tl() </code> present 
+     <li id="li_45F9ED97140F47F99F8C167BC1DC546F">Razón: No aparecen <code> s_ObjectID </code> ni <code> s.tl() </code> 
       <code>
         &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="A"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="B"/&gt; &lt;input&nbsp;type="radio"&nbsp;onclick="changeState(this)"&nbsp;name="group1"&nbsp;value="C"/&gt;
       </code> </li> 
-     <li id="li_9EBFCC58F3A94F30BA62156F14B15D55">Razón: falta la propiedad src en un elemento de entrada de formulario.<code>
+     <li id="li_9EBFCC58F3A94F30BA62156F14B15D55">Razón: falta la propiedad src en un elemento de entrada de formulario       <code>
         &lt;input&amp;nbsp;type="image"/&gt; 
       </code> </li> 
     </ol> </td> 
