@@ -6,7 +6,7 @@ solution: Analytics
 title: Preguntas frecuentes sobre Activity Map
 topic: Activity Map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e830bad6eae774a82b0d1ec05fa71bba9cc32d2b
 
 ---
@@ -28,7 +28,7 @@ Activity Map permite configurar distintas vistas para identificar visualmente la
 * [Instalación de los complementos del explorador de Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [Inicio de Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Funciones de Activity Map**
+**Funcionalidades de Activity Map**
 
 * [Potente seguimiento de vínculos](lnk-tracking-overview.md)
 * [Modo Estándar y modo Activo](activitymap-standard-live.md)
