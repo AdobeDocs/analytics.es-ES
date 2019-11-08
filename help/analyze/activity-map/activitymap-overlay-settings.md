@@ -6,7 +6,7 @@ solution: Analytics
 title: Definición de la configuración de Activity Map
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -22,10 +22,10 @@ El panel Configuración muestra un contenido concreto según el modo de aplicaci
 
 | Estándar | **[!UICONTROL Superposiciones de degradado]** o **[!UICONTROL burbujas]** |
 |---|---|
-| Activo | **[!UICONTROL Ganadores y perdedores]**, **[!UICONTROL degradado]**, superposiciones **[!UICONTROL de burbujas]** |
+| Activo | **[!UICONTROL Superposiciones de ganadores y perdedores]**, **[!UICONTROL degradado]** y **[!UICONTROL burbujas]** |
 | Otros | Selección de idioma y de grupo de informes |
 
-## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
+## Configuración de la superposición en el modo Estándar {#section_24DB95376E1A448494ECF3F57743FC19}
 
 ![](assets/settings_standard.png)
 
@@ -42,7 +42,7 @@ El panel Configuración muestra un contenido concreto según el modo de aplicaci
    <td colname="col3"> 
     <ul id="ul_13AD02789F2D4904A35215A8FA230F3E"> 
      <li id="li_8DB71636D2074C69B0D94D3FB0CAFE28"> <b>Sin etiquetas</b>: solo aplicable para la superposición de degradado. En este caso, el color de la superposición dará una idea de la clasificación del vínculo. </li> 
-     <li id="li_39C98D7EA9514C1D8731B9D21C0E73A6"> <b>Valor</b>: el total bruto de la métrica que corresponde a ese vínculo. </li> 
+     <li id="li_39C98D7EA9514C1D8731B9D21C0E73A6"> <b>Valor</b>: el total bruto de la métrica que corresponde a ese vínculo </li> 
      <li id="li_A5F583E45BCD4F2399398F9DCC7FE382"> <b>Porcentaje</b>: porcentaje de la métrica para este vínculo en la métrica total de la página. </li> 
      <li id="li_E4BF7D3B863E4B6C8E737CF29ADA9D67"> <b>Rango</b>: clasificación de este vínculo en relación con todos los vínculos que hay en la página representada. </li> 
     </ul> </td> 
@@ -78,18 +78,18 @@ El panel Configuración muestra un contenido concreto según el modo de aplicaci
  </tbody> 
 </table>
 
-## Settings for live mode overlays {#section_D30F6E62FB5D404090B588F396A460AF}
+## Configuración de las superposiciones en el modo Activo {#section_D30F6E62FB5D404090B588F396A460AF}
 
 ![](assets/settings_live.png)
 
 | Configuración | Descripción |
 |---|---|
-| **[!UICONTROL Mostrar los primeros]** | Select number of links to display (or all) and the **[!UICONTROL Gainers]** or **[!UICONTROL Losers]** (or both) to display as overlays. |
+| **[!UICONTROL Mostrar los primeros]** | Seleccione el número de vínculos que quiere mostrar (pueden ser todos) y los **[!UICONTROL Ganadores]** o **[!UICONTROL Perdedores]** (o ambos) que se verán como superposiciones. |
 | **[!UICONTROL Excluir inferior (%)]** | Seleccione esta opción para eliminar los vínculos ganadores y perdedores con datos dispersos. Filtre el porcentaje inferior de cambios de vínculo para ver solo los vínculos que tengan datos suficientes para mostrar ganancias o pérdidas significativas. El porcentaje se calcula basándose en el número de vínculos que haya en la página. Por ejemplo, si se filtra el 10 % inferior de una lista de 200 vínculos, se filtrarían los últimos 20 vínculos. |
 | **[!UICONTROL Actualizar datos automáticamente]** | Permite decidir si los datos de Analytics que se ven en la interfaz deberían actualizarse automáticamente o no cuando se calcula un período nuevo. |
 | **[!UICONTROL Período de actualización automática]** | Cuando se activa esta opción, la página web se actualiza con cada recuperación de datos nuevos para que los vínculos de la página se puedan sincronizar mejor con los datos recopilados. |
 
-## Other settings {#section_697A12F099494D699A4BF498598178C5}
+## Otra configuración {#section_697A12F099494D699A4BF498598178C5}
 
 ![](assets/settings_other.png)
 
