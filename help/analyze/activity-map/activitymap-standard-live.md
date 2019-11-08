@@ -1,12 +1,12 @@
 ---
 description: Activity Map dispone de dos modos básicos para crear informes complementarios de la actividad de la página.
-seo-description: Mapa de actividades dispone de dos modos básicos para crear informes complementarios de la actividad de la página.
+seo-description: Activity Map dispone de dos modos básicos para crear informes complementarios de la actividad de la página.
 seo-title: Modo Estándar y modo Activo
 solution: Analytics
 title: Modo Estándar y modo Activo
 topic: Activity Map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -21,7 +21,7 @@ Activity Map dispone de dos modos básicos para crear informes complementarios d
 
 Se puede alternar entre los dos modos haciendo clic en el botón Modo de la barra de herramientas.
 
-## Modo estándar {#section_0C755F30B7EC4A13A62AB9A391AF51E6}
+## Modo estándar  {#section_0C755F30B7EC4A13A62AB9A391AF51E6}
 
 En el **modo Estándar**, se puede seleccionar el rango de fechas en la barra de herramientas, como vemos a continuación.
 
@@ -33,7 +33,7 @@ P: ¿Qué ocurre si una página incluye vínculos con el mismo nombre en varias 
 
 R: Depende de cómo sume los datos del vínculo. En Activity Map, miramos el ID y la región del vínculo de una página determinada. Así, la asignación de datos debería ser para la combinación "ID|Región del vínculo". En este caso, como la región es diferente, el vínculo|región sería distinto y, por tanto, todos los ingresos asignados para el primer vínculo|región diferirán de los asignados para el segundo vínculo. Sin embargo, en la IU de Adobe Analytics, puede consultar únicamente el informe de ID del vínculo (en lugar del informe de vínculo|región) para una página determinada (página desglosada por vínculos). En este caso, los ingresos de ambas regiones se sumarían.
 
-## Modo Activo {#section_D619B77D89A840F0B1C2DEA2715A516A}
+## Modo Activo  {#section_D619B77D89A840F0B1C2DEA2715A516A}
 
 En el **modo Activo**, los datos de Analytics se muestran en incrementos de 1 a 15 minutos en forma de tendencias. Este modo sirve para analizar y supervisar las tendencias a corto plazo de la página web.
 
@@ -41,7 +41,7 @@ El modo Activo responde a las necesidades de las organizaciones editoriales. Est
 
 >[!IMPORTANT]
 >
->Los grupos de informes virtuales no son compatibles con el modo Activo, solo con el modo Estándar.
+>Los grupos de informes virtuales solo son compatibles con el modo Estándar, no con el Activo.
 
 ![](assets/live_mode.png)
 
