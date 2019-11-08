@@ -1,12 +1,12 @@
 ---
 description: Si el complemento del explorador adecuado está instalado, Activity Map se puede iniciar directamente desde la página web.
-seo-description: Si el complemento del explorador adecuado está instalado, Mapa de actividades se puede iniciar directamente desde la página web.
+seo-description: Si el complemento del explorador adecuado está instalado, Activity Map se puede iniciar directamente desde la página web.
 seo-title: Inicio de Activity Map
 solution: Analytics
 title: Inicio de Activity Map
 topic: Activity Map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
