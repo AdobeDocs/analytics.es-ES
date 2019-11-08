@@ -1,12 +1,12 @@
 ---
-description: 'Mapa de actividades realiza un seguimiento de los vínculos con un algoritmo más seguro que '
-seo-description: 'Mapa de actividades realiza un seguimiento de los vínculos con un algoritmo más seguro que '
+description: 'Activity Map realiza un seguimiento de los vínculos con un algoritmo más seguro que '
+seo-description: 'Activity Map realiza un seguimiento de los vínculos con un algoritmo más seguro que '
 seo-title: Potente seguimiento de vínculos
 solution: Analytics
 title: Potente seguimiento de vínculos
 topic: Activity Map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -21,13 +21,13 @@ Activity Map realiza un seguimiento de los vínculos con un algoritmo más segur
 
 Para obtener más información sobre el seguimiento de vínculos en Activity Map, entre [aquí](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md).
 
-## How Activity Map link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
+## Recopilar datos PII con el seguimiento de vínculos de Activity Map {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
 > [!CAUTION] Si activa el seguimiento de Activity Map, es posible que recopile información de identificación personal (PII). Dicha información se puede utilizar, tanto por sí sola como con otros datos, para identificar o localizar a una persona única, para ponerse en contacto con ella o para identificar a una persona en contexto.
 
 A continuación se indican algunos casos conocidos en los que pueden recopilarse datos PII con el seguimiento de Activity Map:
 
-* `Mailto` vínculos. Un vínculo mailto es un tipo de vínculo HTML que activa el cliente de correo predeterminado en el equipo para enviar un mensaje de correo electrónico.
-* `User ID` vínculos que pueden aparecer en el encabezado o pie de página de un sitio web una vez que el usuario haya iniciado sesión.
+* Vínculos `Mailto`. Un vínculo mailto es un tipo de vínculo HTML que activa el cliente de correo predeterminado en el equipo para enviar un mensaje de correo electrónico.
+* Los vínculos de `User ID` pueden aparecer en el encabezado o pie de página de un sitio web una vez que el usuario ha iniciado sesión.
 * Para las instituciones financieras, es posible que se muestre como vínculo el número de cuenta. Al hacer clic en dicho vínculo, se recopilará el texto que contenga.
 * Los sitios web de entidades sanitarias también pueden mostrar datos PII como vínculos. Al hacer clic en dichos vínculos, se recopilará el texto que contengan, por lo que se recopilarán datos PII.
