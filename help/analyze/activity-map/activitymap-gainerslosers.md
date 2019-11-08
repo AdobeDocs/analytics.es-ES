@@ -6,7 +6,7 @@ solution: Analytics
 title: Superposiciones personalizables
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -30,7 +30,7 @@ Para hacer cambios en las superposiciones, abra el [panel Configuración de sola
 
 Si coloca el ratón sobre una superposición, se verán los [detalles](/help/analyze/activity-map/activitymap-overlay-details.md).
 
-## Gradient overlay (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
+## Superposición de degradado (mapa de calor) {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 Con la superposición de degradado, la intensidad del color se basa en la popularidad del vínculo. Esta intensidad se puede normalizar en las 30 primeras clasificaciones o en una función del valor absoluto de la métrica.
 
@@ -42,7 +42,7 @@ Estas métricas se superponen a los vínculos de la página como una especie de 
 
 ![](assets/gradient.png)
 
-## Bubble overlay {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
+## Superposición de burbujas {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
 
 La superposición de burbujas muestra el contenido de la superposición (métrica, porcentaje o clasificación) en una pequeña burbuja.
 
@@ -50,13 +50,13 @@ Las superposiciones de burbujas se muestran cuando selecciona en la barra de her
 
 ![](assets/bubble_overlay.png)
 
-> [!NOTE] Las superposiciones de burbujas para submenús solo se muestran cuando se muestra el submenú:
+> [!NOTE] Las superposiciones de burbujas en submenús solo se ven cuando se muestra el submenú:
 >
->![](assets/bubbles_submenu.png)&gt;
+>![](assets/bubbles_submenu.png) &gt; 
 
-## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
+## Superposiciones de ganadores y perdedores {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL Las superposiciones]** de ganadores y perdedores solo están disponibles en el modo Activo. Informan de los cambios en tiempo real que se producen en la actividad de los vínculos comparando las métricas del período actual con las métricas del período anterior. Permiten ver rápidamente las tendencias en tiempo real de una forma visual.
+**[!UICONTROL Las superposiciones de ganadores y perdedores]** solo están disponibles en el modo Activo. Informan de los cambios en tiempo real que se producen en la actividad de los vínculos comparando las métricas del período actual con las métricas del período anterior. Permiten ver rápidamente las tendencias en tiempo real de una forma visual.
 
 Esta superposición en tiempo real clasifica los clics según los cambios en el valor de la métrica entre los períodos anteriores y el actual.
 
