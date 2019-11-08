@@ -6,7 +6,7 @@ solution: Analytics
 title: Solución de problemas con las extensiones de los exploradores
 topic: Activity Map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 # Solución de problemas con las extensiones del navegador
 
-Muestra los parámetros del explorador que no son compatibles con el uso de Activity Map. Estos ajustes deben deshabilitarse.
+Muestra los parámetros de explorador que no son compatibles con el uso de Activity Map. Estos ajustes deben deshabilitarse.
 
 ## Chrome
 
