@@ -1,12 +1,12 @@
 ---
 description: Preguntas frecuentes sobre la instalación, configuración y utilización de las funciones de Activity Map.
-seo-description: Preguntas frecuentes sobre la instalación, configuración y utilización de las funciones de Mapa de actividades.
+seo-description: Preguntas frecuentes sobre la instalación, configuración y utilización de las funciones de Activity Map.
 seo-title: Preguntas frecuentes sobre Activity Map
 solution: Analytics
 title: Preguntas frecuentes sobre Activity Map
 topic: Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -20,15 +20,15 @@ Preguntas frecuentes sobre la instalación, configuración y utilización de las
 
 **P: ¿Cuáles son los pasos de implementación necesarios para habilitar el nuevo Activity Map?**
 
-A: Consulte [Habilitar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+R: Consulte [Habilitar Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 
 **P: ¿Todos los clientes de Analytics tienen acceso a la página de habilitación de Activity Map de las Herramientas de administración?**
 
-A: Los clientes de Adobe SiteCatalyst no tienen acceso a la página Habilitación de Activity Map de la Consola de administración. Solo las empresas que disponen de los contratos Adobe Analytics Standard y Adobe Analytics Premium tienen acceso a esta página de configuración.
+R: Los clientes de Adobe SiteCatalyst no tienen acceso a la página de habilitación de Activity Map de Admin Console. Solo las empresas que disponen de los contratos Adobe Analytics Standard y Adobe Analytics Premium tienen acceso a esta página de configuración.
 
 **P: ¿El nuevo código de AppMeasurement se puede configurar a través de la Dynamic Tag Management (DTM)?**
 
-R: Sí, se puede [implementar manualmente](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) el nuevo código de AppMeasurement.
+R: Sí, se puede [implementar manualmente](https://marketing.adobe.com/resources/help/es_ES/dtm/analytics_dtm.html) el nuevo código de AppMeasurement.
 
 **P: ¿Cuáles son los cambios más importantes de la biblioteca AppMeasurement v1.6?**
 
@@ -42,7 +42,7 @@ R: AppMeasurement se implanta en el nivel de grupo de informes. El nivel de grup
 
 R: No. La funcionalidad de Activity Map no depende de la API de visitante.
 
-## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Aplicación Activity Map {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
 **P: ¿Puedo usar Activity Map si antes no he utilizado ClickMap de visitantes en el sitio web?**
 
@@ -73,13 +73,13 @@ R: Mientras Activity Map está en uso, la etiqueta de Analytics no recopila dato
 
 **P: ¿Por qué el desplegable de las métricas muestra las mismas métricas varias veces?**
 
-R: Activity Map muestra las métricas de todos los grupos de informes. Por este motivo, algunas métricas pueden estar duplicadas si la empresa no las [ha consolidado](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
+R: Activity Map muestra las métricas de todos los grupos de informes. Por este motivo, algunas métricas pueden estar duplicadas si la empresa no las [ha consolidado](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/cm_transition.html).
 
 El menú desplegable de las métricas le permite limitar la lista de métricas calculadas a las asignadas al grupo de informes de las páginas visitadas.
 
 **P: ¿En qué se parecen el informe Todos los vínculos de Activity Map y los informes de Activity Map de Reports &amp; Analytics?**
 
-A: Para extraer el informe Todos los vínculos en Activity Map, se crea una solicitud de desglose de la siguiente manera: Página de Activity Map = "visitedpage", desglosada por Vínculo y región de Activity Map en `<list of link&regions present in the page at rendering time>`.
+R: Para extraer el informe Todos los vínculos en Activity Map, se crea una solicitud de desglose de la siguiente manera: Página de Activity Map = "visitedpage", desglosada por Vínculo y región de Activity Map en `<list of link&regions present in the page at rendering time>`.
 
 Para disponer de un informe equivalente en Reports &amp; Analytics, primero habría que ir al informe Página de Activity Map. Aquí habría que filtrar por el nombre de la página visitada en Activity Map. El nombre de la página visitada aparece en la columna izquierda, en el panel inferior Detalles de página de Activity Map. Cuando se encuentre la página, podrá realizar el desglose a partir de ella y elegir los vínculos y las regiones de Activity Map como dimensión secundaria.
 
@@ -123,9 +123,9 @@ Aparece un mensaje de advertencia que indica que debe (/home/analyze/activity-ma
 
 *Página web con una etiqueta de Analytics compatible (AppMeasurement v1.6 o posterior) pero sin la creación de informes de Activity Map habilitada en las Herramientas de administración*
 
-Se muestra un mensaje de advertencia que indica que debe solicitar al administrador que \[Habilite el informe de Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md").
+Aparece un mensaje de advertencia que indica que debe pedirle al administrador que \[habilite el informe de Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md") .
 
-**P: ¿Puedo exportar los datos de Activity Map (contextData) mediante un[Analytics Data Feed](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)?**
+**P: ¿Puedo exportar los datos de Activity Map (contextData) mediante un[Analytics Data Feed](https://marketing.adobe.com/resources/help/es_ES/reference/analytics-data-feed.html)?**
 
 R: No.
 
@@ -133,7 +133,7 @@ R: No.
 
 **P: ¿Los segmentos están unidos a los segmentos de cada usuario? ¿O los segmentos compartidos del nivel de administrador están disponibles en Activity Map?**
 
-A: Activity Map hereda los segmentos de nivel de administrador (segmentos de informes) de Analytics.
+R: Activity Map hereda los segmentos del nivel de administrador (segmentos de informes) de Analytics.
 
 **P: ¿Los segmentos funcionan en el modo Activo?**
 
