@@ -6,7 +6,7 @@ solution: Analytics
 title: Informe de vínculos
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,9 +18,9 @@ El informe de vínculos recoge los vínculos encontrados en la página actual. N
 
 El informe Vínculos en la página ofrece una vista tabular de los vínculos. Algunas veces, puede interesarle ver los clics en vínculos (u otras métricas) clasificados en una sola vista. Esto permite comparar mejor un vínculo con otro. Cree el informe Vínculos en la página incluyendo una lista clasificada de todos los vínculos de la página (por ID de vínculo), la información de clic (número y porcentaje) y la región de la página. Haga clic en el botón del informe Vínculos en la página que hay en la barra de herramientas Activity Map.
 
-El informe **[!UICONTROL Vínculos en la página]se abre debajo de la ventana del explorador en el tablero Activity Map.**
+El informe **[!UICONTROL Vínculos en la página]** se abre debajo de la ventana del explorador en el tablero Activity Map.
 
-## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
+## Modo estándar {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
 ![](assets/links_in_page.png)
 
@@ -40,7 +40,7 @@ En el modo Estándar, el informe “Vínculos en la página” muestra datos sob
   </tr> 
   <tr> 
    <td colname="col1"> ID del vínculo </td> 
-   <td colname="col2">El ID principal del vínculo (para obtener más información sobre cómo se define el ID principal en la [Nueva metodología de seguimiento de vínculos] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
+   <td colname="col2">El ID principal del vínculo (para obtener más información sobre cómo se define el ID principal con la [Nueva metodología de seguimiento de vínculos] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clics </td> 
@@ -63,11 +63,11 @@ En el modo Estándar, el informe “Vínculos en la página” muestra datos sob
 
 **Filtrar datos**
 
-Cuando quiera centrarse en un vínculo determinado, puede buscar un término relacionado en el campo **[!UICONTROL Filtrar datos].** Solo los vínculos que coincidan con la búsqueda tendrán superposiciones. Sin filtro, se mostrarán las superposiciones especificadas en la [Configuración de Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md).
+Cuando quiera centrarse en un vínculo determinado, puede buscar un término relacionado en el campo **[!UICONTROL Filtrar datos]**. Solo los vínculos que coincidan con la búsqueda tendrán superposiciones. Sin filtro, se mostrarán las superposiciones especificadas en la [Configuración de Activity Map](/help/analyze/activity-map/activitymap-overlay-settings.md).
 
-## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
+## Modo Activo {#section_AC1967217B5A4532ACB01D33636F6770}
 
-En el modo Activo, el informe Vínculos en la página muestra datos de tendencias que abarcan varios minutos.
+En el modo Activo, el informe Vínculos en la página muestra datos de tendencias de varios minutos.
 
 ![](assets/links_on_page.png)
 
@@ -85,7 +85,7 @@ En el modo Activo, el informe Vínculos en la página muestra datos de tendencia
   </tr> 
   <tr> 
    <td colname="col1"> ID del vínculo </td> 
-   <td colname="col2">El ID principal del vínculo. Para obtener más información sobre cómo se define el ID principal mediante la nueva [metodología de seguimiento de vínculos] (/help/analysis/activity-map/activity-map-link-tracking/activity map-)ink-tracking-methods.md). </td> 
+   <td colname="col2">El ID principal del vínculo. Para obtener más información sobre cómo se define el ID principal con la nueva [metodología de seguimiento de vínculos] (/help/analysis/activity-map/activity-map-link-tracking/activity map-)ink-tracking-methods.md). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clics en vínculos </td> 
@@ -114,7 +114,7 @@ En el modo Activo, el informe Vínculos en la página muestra datos de tendencia
  </tbody> 
 </table>
 
-## Sorting and filtering {#section_4B8E8233C21247CAA70DAEC2156548AD}
+## Ordenación y filtrado {#section_4B8E8233C21247CAA70DAEC2156548AD}
 
 Algunas veces, solo queremos analizar los resultados de una región concreta de la página (por ejemplo, el panel izquierdo) para decidir cómo organizar el contenido de esta zona de la página web.
 
