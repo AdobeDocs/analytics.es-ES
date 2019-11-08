@@ -6,7 +6,7 @@ solution: Analytics
 title: Detalles de página
 topic: Activity Map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
@@ -18,11 +18,11 @@ La ficha Detalles de página muestra el informe de página en forma de tabla y e
 
 ![](assets/page_flow.png)
 
-## Page report {#section_2335A9EFE57B4A7687B397DF2098CC6B}
+## Informe de página {#section_2335A9EFE57B4A7687B397DF2098CC6B}
 
 Este panel muestra las métricas de tráfico relacionadas con la página web visitada. Si va a una página web que no tiene implementada la etiqueta de página de Analytics, el panel no se verá.
 
-## Page Flow report {#section_D6EDE78CF7124758BF846E57ADABA234}
+## Informe del flujo de página {#section_D6EDE78CF7124758BF846E57ADABA234}
 
 A la izquierda se ven las páginas anteriores y los referentes (externos), que se pueden expandir alternativamente para mostrar las primeras cuatro entradas de cada categoría.
 
