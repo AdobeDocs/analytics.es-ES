@@ -9,24 +9,24 @@ title: Variables de configuración
 topic: Desarrollador e implementación
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
 
 ---
 
 
 # Variables de configuración sobre validación
 
-Las variables de configuración controlan la manera en que se capturan y procesan los datos en los informes. Las variables de configuración más comunes que se establecen generalmente en el JavaScript principal global (AppMeasurement.js). Estas variables pueden establecerse dentro de los vínculos y del código de nivel de página de Analytics cuando corresponde.
+Las variables de configuración controlan la manera en que se capturan y procesan los datos en los informes. Las variables de configuración más comunes que se establecen generalmente en el JavaScript principal global (AppMeasurement.js. Estas variables pueden establecerse dentro de los vínculos y del código de nivel de página de Analytics cuando corresponde.
 
-No todas estas variables aparecen en el código de forma predeterminada al generar código mediante **[!UICONTROL Herramienta de administración]** &gt; **[!UICONTROL Administrador de códigos]**. Puede que algunas de estas variables de configuración no sean aplicables a las necesidades de implementación del sitio.
+No todas estas variables aparecen en el código de forma predeterminada al generar código mediante **[!UICONTROL Herramienta de administración]** &gt; **[!UICONTROL Administrador de códigos]**. Es posible que algunas de estas variables de configuración no sean aplicables a las necesidades de implementación del sitio.
 
 Algunos de los objetivos de usar estas variables de configuración son:
 
-* Seguir varios sitios o dominios.
-* Usar cualquier moneda en compras.
-* Capturar datos en idiomas indiferentes.
-* Seguimiento de vínculos (cantidad de archivos descargados, vínculos a sitios externos).
-* Seguir vínculos personalizados con un fin determinado.
+* Seguir varios sitios o dominios
+* Usar cualquier moneda en compras
+* Capturar datos en idiomas indiferentes
+* Seguimiento de vínculos (número de archivos descargados, vínculos a sitios externos).
+* Seguir vínculos personalizados con un fin determinado
 
 > [!NOTE] [!DNL AppMeasurement] requiere que todas las variables de configuración estén establecidas antes de la llamada inicial a la función de seguimiento, `t()`. Si las variables de configuración se configuran después de la llamada a `t()`, pueden producirse resultados inesperados. Para garantizar la adecuada recopilación de datos, todas las variables de configuración deben estar encima de la función `doPlugins`.
 
