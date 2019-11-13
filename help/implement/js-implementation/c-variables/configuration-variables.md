@@ -9,7 +9,7 @@ title: Variables de configuración
 topic: Desarrollador e implementación
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: e4cf3c1273db545e01d89a31f433b7c11e07bb6c
+source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
 
 ---
 
@@ -68,7 +68,7 @@ Para obtener ayuda con variables de configuración específicas, haga clic en cu
 
 * [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkdownldftype.html): Incluya una lista de extensiones de archivo separadas por coma.
 
-* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkintfilters.html): Incluye una lista de filtros separados por comas que representan los vínculos que forman parte del sitio.
+* [s.linkInternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-trackintfilters.html): Incluye una lista de filtros separados por comas que representan los vínculos que forman parte del sitio.
 
 * [s.linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linklvqrystring.html): Determine si la cadena de consulta debe incluirse o no en los informes Vínculos de salida y Descarga de archivos.
 
@@ -77,4 +77,3 @@ Para obtener ayuda con variables de configuración específicas, haga clic en cu
 * [s.linkExternalFilters](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linkextfilters.html): Se utiliza para informar sobre un subconjunto específico de vínculos de salida.
 
 * [s.usePlugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-useplugins.html): Llame a la `s_doPlugins` función antes de cada solicitud de imagen.
-
