@@ -5,16 +5,20 @@ seo-description: Las variables dinámicas permiten copiar valores entre distinta
 solution: null
 title: Variables dinámicas
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 82060388a9a2122b66c57725cafa0eb4ce54e147
 
 ---
 
 
 # s.linkTrackEvents
 
-La variable es una lista de eventos separados por comas que se envían con un vínculo [!UICONTROL personalizado], [!UICONTROL de salida], o [!UICONTROL de descarga].
+La variable es una lista de eventos separados por comas que se envían con un vínculo personalizado, de salida, o de descarga. The `linkTrackEvents` parameter should include each event you want to track with every file download, exit link, and custom link. Cuando se da uno de estos tipos de vínculo, el valor actual de cada variable se identifica como seguido. Esta variable solo se tiene en cuenta si `linkTrackVars` contiene “events”.
 
-Si el evento no aparece en *`linkTrackEvents`*, no se envía a [!DNL Analytics], aunque esté relleno en el evento [!UICONTROL onClick] de un vínculo, como se muestra en el ejemplo siguiente:
+| Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
+|---|---|---|---|
+| N.D. | N.D. | Conversión | "Ninguna" |
+
+If an event is not in `linkTrackEvents`, it is not sent to Analytics, even if it is populated in the `onClick` event of a link, as shown in the following example:
 
 ```js
 s.linkTrackVars="events" 
@@ -24,33 +28,77 @@ s.t() // both event1 and event2 are recorded
 <a href="test.php" onClick="s=s_gi('rs1');s.events='event2';s.tl(this,'o')">No events are recorded</a> 
 ```
 
-En el primer vínculo a [!DNL help.php], observe que la variable de eventos retiene el valor que se configuró antes de hacer clic en el vínculo. Esto permite enviar event1 con el vínculo personalizado. En el segundo ejemplo, el vínculo a [!DNL test.php], event2 no se registra porque no está en la lista de *`linkTrackEvents`*.
+The values of [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) and `linkTrackEvents` override the settings in the JS file and ensure only the variables and events specified in the custom link code are set for the specific link. La configuración de ambos afecta a cada descarga de archivo, vínculo de salida y vínculo personalizado. Las instancias de cada variable y evento se pueden aumentar en situaciones en las que la variable (o el evento) se aplique a la página actual, pero no a la descarga de archivo, el vínculo de salida o el vínculo personalizado específicos.
 
-Para evitar confusiones y posibles problemas, se recomienda rellenar *`linkTrackVars`* y *`linkTrackEvents`* en el evento [!UICONTROL onClick] de un vínculo que se utiliza para el seguimiento de vínculos.
+Para asegurarse de que las variables correctas se establecen con el código de vínculo personalizado, Adobe recomienda configurar *`linkTrackVars`* y *`linkTrackEvents`* dentro del código de vínculo personalizado de la siguiente manera:
 
-La variable *`linkTrackEvents`* contiene los eventos que deben enviarse con los vínculos [!UICONTROL personalizados], de [!UICONTROL descarga] y de [!UICONTROL salida]. Esta variable solo se tiene en cuenta si *`linkTrackVars`* contiene “events”.
+```js
+<a href="index.html" onClick=" 
+var s=s_gi('rsid'); 
+s.linkTrackVars='prop1,prop2,eVar1,eVar2,events'; 
+s.linkTrackEvents='event1'; 
+s.prop1='Custom Property of Link'; 
+s.events='event1'; 
+s.tl(this,'o','Link Name'); 
+">My Page 
+```
+
+En el ejemplo anterior, el valor de prop1 se establece dentro del propio código de vínculo personalizado. El valor de prop2 proviene del valor actual de la variable, según se ha definido en la página.
+
+*Nota: Si`linkTrackVars`(o`linkTrackEvents`) es nulo (o una cadena vacía como ""), se realiza el seguimiento de todas las variables (o eventos) de Analytics definidas para la página actual. En otras palabras, todas las variables que tienen valores se enviarán con datos de vínculo. Es muy probable que esto aumente las instancias de cada variable. Para evitar una inflación de instancias o vistas de página asociadas con otras variables, Adobe recomienda rellenar`linkTrackVars`y`linkTrackEvents`en el evento[!UICONTROL onClick]de un vínculo que se utiliza para el seguimiento de vínculos.*
+
+Todas las variables se envíen con datos de vínculo (vínculos personalizados, de salida y de descarga) deben incluirse en `linkTrackVars`. Si `linkTrackEvents` se utiliza, `linkTrackVars` debe contener “events”.
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| N.D. | N.D. | Conversión | "Ninguna" |
+| N.D. | N.D. | Cualquiera | "Ninguna" |
+
+When populating `linkTrackEvents`, do not use the 's.' prefix for variables. Por ejemplo, en lugar de rellenarlo con "s.event1", debe rellenarlo con "event1". El siguiente ejemplo ilustra cómo debe utilizarse.
+
+```js
+s.linkTrackVars="eVar1,events" 
+s.linkTrackEvents="event1" 
+s.events="event1" 
+s.eVar1="value A" 
+s.eVar2="value B" 
+s.t() // eVar1, event1 and event2 are recorded 
+<a href="https://google.com">event1 and eVar1 are recorded</a> 
+<a href="test.php" onClick="s=s_gi('rs1');s.eVar1='value C';s.events='';s.tl(this,'o')">eVar1 is recorded</a> 
+```
+
+En el primer vínculo, observe que la variable events retiene el valor que se configuró antes de hacer clic en el vínculo. Esto permite enviar event1 con el vínculo personalizado. In the second example, the link to event2 is not recorded because it is not listed in `linkTrackEvents`.
+
+Para evitar confusiones y posibles problemas, se recomienda rellenar [`linkTrackVars`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) y `linkTrackEvents` en el evento `onClick` de un vínculo que se utiliza para el seguimiento de vínculos.
 
 ## Sintaxis y valores posibles
 
 La variable *`linkTrackEvents`* es una lista de eventos separados por comas (sin espacios).
 
-```js
+```
 s.linkTrackEvents="event1[,event2[,event3[...]]]"
 ```
 
-Solo se permiten nombres de evento en *`linkTrackEvents`*. Estos eventos se incluyen en [Eventos](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html). Si aparece un espacio antes o después del nombre de evento, el evento no se puede enviar con ninguna solicitud de imagen de vínculo.
+Solo se permiten nombres de evento en `linkTrackEvents`. Estos eventos se incluyen en [Eventos](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html). Si aparece un espacio antes o después del nombre del evento, el evento no se puede enviar con ninguna solicitud de imagen de vínculo.
 
 ## Ejemplos
 
-```js
+To track `prop1`, `eVar1`, and `event1` with every file download, exit link, and custom link, use the following settings within the global JS file:
+
+```
+s.linkTrackVars="prop1,eVar1,events"
+```
+
+```
+s.linkTrackEvents="event1"
+```
+
+**Más ejemplos**
+
+```
 s.linkTrackEvents="purchase,event1"
 ```
 
-```js
+```
 s.linkTrackEvents="scAdd,scCheckout,purchase,event14"
 ```
 
@@ -60,8 +108,8 @@ Ninguna
 
 ## Problemas, preguntas y consejos
 
-* El archivo JavaScript solo utiliza *`linkTrackEvents`* si *`linkTrackVars`* contiene la variable “events”. “events” debe incluirse en *`linkTrackVars`* solo cuando *`linkTrackEvents`* se defina.
+* El archivo JavaScript solo utiliza `linkTrackEvents` si `linkTrackVars` contiene la variable “events”. “events” debe incluirse en `linkTrackVars` solo cuando `linkTrackEvents` se defina.
 
-* Tenga cuidado si se activa un evento en una página y está incluido en *`linkTrackEvents`*. Ese evento se registra de nuevo con los vínculos de [!UICONTROL salida], [!UICONTROL descarga] o [!UICONTROL personalizados] a menos que la variable de eventos se restablezca antes de dicho evento (en el evento [!UICONTROL onClick] de un vínculo o después de la llamada a la función *`t()`*).
+* Tenga cuidado si se activa un evento en una página y está incluido en `linkTrackEvents`. Ese evento se registra de nuevo con los vínculos de [!UICONTROL salida], [!UICONTROL descarga] o [!UICONTROL personalizados] a menos que la variable de eventos se restablezca antes de dicho evento (en el evento [!UICONTROL onClick] de un vínculo o después de la llamada a la función `t()`).
 
-* Si *`linkTrackEvents`* contiene espacios entre los nombres de evento, los eventos no se registran.
+* Si `linkTrackEvents` contiene espacios entre los nombres de evento, los eventos no se registran.
