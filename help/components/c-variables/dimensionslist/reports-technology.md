@@ -1,13 +1,11 @@
 ---
-description: Estos informes muestran información sobre los exploradores, los sistemas operativos, la resolución de los monitores, etc. que utilizan los visitantes.
-seo-description: Estos informes muestran información sobre los navegadores, los sistemas operativos, la resolución de los monitores, etc. que utilizan los visitantes.
-seo-title: Tecnología
+description: Estos informes muestran información sobre los navegadores, los sistemas operativos, la resolución de los monitores, etc. que utilizan los visitantes.
 solution: Analytics
 title: Tecnología
-topic: Informes
+topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
