@@ -1,18 +1,16 @@
 ---
 description: Ahora puede combinar estos dos tipos de métricas en la misma solicitud, en lugar de tener que crear solicitudes independientes.
-seo-description: Ahora puede combinar estos dos tipos de métricas en la misma solicitud, en lugar de tener que crear solicitudes independientes.
-seo-title: Combinar métricas de tráfico y comercio en la misma solicitud
 solution: Analytics
-title: Combinar métricas de tráfico y comercio en la misma solicitud
-topic: Creador de informes
-uuid: 2813 d 594-f 4 ec -4 f 6 a -8539-ec 7 d 954 a 392 f
+title: Combinación de las métricas de tráfico y comercio en la misma solicitud
+topic: Report builder
+uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Combinar métricas de tráfico y comercio en la misma solicitud
+# Combinación de las métricas de tráfico y comercio en la misma solicitud
 
 Ahora puede combinar estos dos tipos de métricas en la misma solicitud, en lugar de tener que crear solicitudes independientes.
 
