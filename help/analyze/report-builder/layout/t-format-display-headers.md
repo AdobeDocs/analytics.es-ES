@@ -1,13 +1,11 @@
 ---
 description: Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados de fila y columna. El vínculo Opciones de formato está disponible para los tipos de diseño personalizado y de tabla dinámica.
-seo-description: Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados de fila y columna. El vínculo Opciones de formato está disponible para los tipos de diseño personalizado y de tabla dinámica.
-seo-title: Dar formato a los encabezados
 solution: Analytics
 title: Dar formato a los encabezados
-topic: Creador de informes
-uuid: da0e167b-9463-43fd-87b2-724d1c79de68
+topic: Report builder
+uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,7 +25,7 @@ Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados
    | Nombre del informe | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | Parámetros de filtros | Muestra los filtros de dimensión como, por ejemplo, un filtro de búsqueda. |
    | Segmento | Muestra el parámetro de segmento. |
-   | Creación de los datos | Muestra los parámetros de la actualización de datos.  Por ejemplo:    Creación de los datos: Vistas de página (hace 1,5 horas), Salidas (hace 30 minutos) Consulte [Opciones](/help/analyze/report-builder/options.md) para obtener información sobre el procesamiento de datos actual. |
+   | Creación de los datos | Muestra los parámetros de la actualización de datos. Por ejemplo:    Creación de los datos: Vistas de página (hace 1,5 horas), Salidas (hace 30 minutos) Consulte [Opciones](/help/analyze/report-builder/options.md) para obtener información sobre el procesamiento de datos actual. |
 
    Respecto al orden de visualización, si la cuadrícula [!UICONTROL Rótulo de fila] (en el Paso 2) contiene un elemento, éste se muestra en primer lugar en la solicitud. De lo contrario, el sistema utiliza el primer elemento presente en la cuadrícula [!UICONTROL Rótulo de columna]. Si no existen filas ni columnas, se muestra el primer elemento de la cuadrícula [!UICONTROL Métrica].
 
