@@ -1,13 +1,11 @@
 ---
 description: Por cada llamada al servidor que se envía, se cuenta una vista de página. Esta métrica representa el total de instancias de vistas de página. Las llamadas tracklink no se cuentan como vistas de página y no contribuyen a incrementar la métrica de vistas de página.
-seo-description: Por cada llamada al servidor que se envía, se cuenta una vista de página. Esta métrica representa el total de instancias de vistas de página. Las llamadas tracklink no se cuentan como vistas de página y no contribuyen a incrementar la métrica de vistas de página.
-seo-title: Vista de la página
 solution: Analytics
 title: Vista de la página
-topic: Métricas
+topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
