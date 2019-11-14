@@ -1,13 +1,11 @@
 ---
 description: El informe de vínculos recoge los vínculos encontrados en la página actual. No informa acerca de todos los vínculos que se recopilaron para esa página.
-seo-description: El informe de vínculos recoge los vínculos encontrados en la página actual. No informa acerca de todos los vínculos que se recopilaron para esa página.
-seo-title: Informe de vínculos
 solution: Analytics
 title: Informe de vínculos
-topic: Activity Map
+topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
