@@ -1,13 +1,11 @@
 ---
 description: La sección Tráfico permanente permite cambiar los niveles de tráfico esperados, para que Adobe pueda reasignar los recursos necesarios para el nuevo nivel de tráfico.
-seo-description: La sección Tráfico permanente permite cambiar los niveles de tráfico esperados, para que Adobe pueda reasignar los recursos necesarios para el nuevo nivel de tráfico.
-seo-title: Especificar un incremento de tráfico permanente
 solution: Analytics
 title: Especificar un incremento de tráfico permanente
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
