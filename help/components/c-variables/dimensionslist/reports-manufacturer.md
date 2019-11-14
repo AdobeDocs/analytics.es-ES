@@ -1,13 +1,11 @@
 ---
 description: Agrupa las visitas al sitio con dispositivos móviles según el fabricante. Muestra el tipo de fabricante, la cantidad de vistas para cada fabricante y los porcentajes correspondientes.
-seo-description: Agrupa las visitas al sitio con dispositivos móviles según el fabricante. Muestra el tipo de fabricante, la cantidad de vistas para cada fabricante y los porcentajes correspondientes.
-seo-title: Fabricante
 solution: Analytics
 title: Fabricante
-topic: 'Informes '
-uuid: 561403 bb -2 d 87-4 bda-a 98 e -41667 be 655 e 5
+topic: Reports
+uuid: 561403bb-2d87-4bda-a98e-41667be655e5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
