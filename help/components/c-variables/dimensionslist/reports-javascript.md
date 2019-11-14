@@ -1,13 +1,11 @@
 ---
 description: Muestra las métricas basadas en si el dispositivo tiene JavaScript habilitado, deshabilitado o si se cuenta como "no identificado".
-seo-description: Muestra las métricas basadas en si el dispositivo tiene JavaScript habilitado, deshabilitado o si se cuenta como "no identificado".
-seo-title: Asistencia técnica de JavaScript
 solution: Analytics
 title: Asistencia técnica de JavaScript
-topic: Informes
-uuid: 7b95001a-cd35-478a-8b24-54d3066110d
+topic: Reports
+uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
