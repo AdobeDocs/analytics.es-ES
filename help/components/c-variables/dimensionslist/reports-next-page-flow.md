@@ -1,13 +1,11 @@
 ---
 description: 'Muestra las vistas de ruta, o la cantidad de veces y porcentajes que se vio una página, dentro de una restricción de ruta. Por ejemplo: puede ocurrir que la página de la política de privacidad tenga un total de 10 000 vistas, pero que solamente 500 de ellas se produjeron inmediatamente antes de la página de inicio. En este caso, se informarán 500 vistas de ruta. Estos datos se pueden analizar en el nivel de la visita o del visitante. El porcentaje de cada página se muestra al lado de su nombre. El ancho de una línea conectada a la página representa el porcentaje relativo de visitas.'
-seo-description: 'Muestra las vistas de ruta, o la cantidad de veces y porcentajes que se vio una página, dentro de una restricción de ruta. Por ejemplo: puede ocurrir que la página de la política de privacidad tenga un total de 10 000 vistas, pero que solamente 500 de ellas se produjeron inmediatamente antes de la página de inicio. En este caso, se informarán 500 vistas de ruta. Estos datos se pueden analizar en el nivel de la visita o del visitante. El porcentaje de cada página se muestra al lado de su nombre. El ancho de una línea conectada a la página representa el porcentaje relativo de visitas.'
-seo-title: Flujo de página siguiente
 solution: Analytics
 title: Flujo de página siguiente
-topic: Informes
+topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
