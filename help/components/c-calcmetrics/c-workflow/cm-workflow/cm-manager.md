@@ -1,11 +1,9 @@
 ---
 description: El Administrador de métricas calculadas ofrece numerosas maneras de conservar las métricas, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
-seo-description: El Administrador de métricas calculadas ofrece numerosas maneras de conservar las métricas, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
-seo-title: Administrador de métricas calculadas
 title: Administrador de métricas calculadas
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -33,4 +31,4 @@ El Administrador de métricas calculadas muestra todos los segmentos que posee y
 | Compartido con | Enumera las personas o grupos (solo administrador) o todos (solo administrador) con los que compartió el segmento. |
 | Selector de columnas | Le permite seleccionar o deseleccionar columnas en el Administrador de métricas calculadas para que pueda personalizar la vista. |
 | Icono compartido (no se muestra) | Indica que usted compartió esta métrica personalizada con otra persona o que la han compartido con usted. |
-| Icono aprobado (no se muestra) | Indica que un administrador ha aprobado esta métrica personalizada. |
+| Icono Aprobado (no se muestra) | Indica que un administrador ha aprobado esta métrica personalizada. |
