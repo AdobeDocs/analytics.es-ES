@@ -1,14 +1,12 @@
 ---
 description: Los eventos personalizados permiten definir el tipo de éxito que desea seguir.
-keywords: Implementación de Analytics, evento personalizado
-seo-description: Los eventos personalizados permiten definir el tipo de éxito que desea seguir.
-seo-title: ¿Qué es un evento personalizado?
+keywords: Analytics Implementation;custom event
 solution: Analytics
 title: ¿Qué es un evento personalizado?
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 8e78ba04-9b4c-4566-980c-c24dd9d82236
-translation-type: ht
-source-git-commit: d7056c233e784a073c75c55f396ff43c9e0d1c71
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
