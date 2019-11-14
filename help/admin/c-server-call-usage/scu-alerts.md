@@ -1,11 +1,9 @@
 ---
 description: Añada o administre alertas de uso de llamadas al servidor. Al configurar una alerta, se aplica a todos los grupos de informes en todas las empresas de inicio de sesión de una empresa de facturación.
-seo-description: Añada o administre alertas de uso de llamadas al servidor. Al configurar una alerta, se aplica a todos los grupos de informes en todas las empresas de inicio de sesión de una empresa de facturación.
-seo-title: Alertas de uso de llamadas al servidor
 title: Alertas de uso de llamadas al servidor
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ Al configurar una alerta, se aplica a todos los grupos de informes en todas las 
 
 A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Esta alerta activa una notificación dirigida a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
+It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Esta alerta desencadena una notificación dirigida a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
 
 * “Cualquier” uso de llamadas al servidor que sea “mayor o igual que” el 100 % para cualquier tipo de llamada al servidor para la que esté autorizado, O
 * “Cualquier” uso de llamadas al servidor que sea “mayor o igual que” el 90 % para cualquier tipo de llamada al servidor para la que esté autorizado, O
@@ -49,7 +47,7 @@ Para crear alertas adicionales,
    * **Fecha** de caducidad: De forma predeterminada, la fecha de caducidad es un año a partir de la fecha de creación de la alerta.
    * **Enviar una alerta cuando**:
 
-      * Cualquiera de estas métricas activadorAgregue el tipo de llamadas al servidor como métrica y especifique el umbral de alerta seleccionando el modificador y el umbral:
+      * Cualquiera de estos activadores de métricasAgregue el tipo de llamadas al servidor como métrica y especifique el umbral de alerta seleccionando el modificador y el umbral:
          * mayor o igual que
          * menor o igual que
       * con
