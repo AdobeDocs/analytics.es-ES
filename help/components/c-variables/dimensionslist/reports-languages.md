@@ -1,13 +1,11 @@
 ---
 description: Captura la configuración de idioma del explorador del visitante y permite averiguar los ingresos y los visitantes únicos relacionados esta. Si se conoce el efecto de los idiomas preferidos en las métricas de éxito de un sitio, puede decidirse cómo presentar dicho sitio en otros idiomas. Por ejemplo, si se detecta que un gran número de clientes germano parlantes genera actividad en el carro de compras de un sitio, puede traducirse al alemán e implementar una campaña de marketing para conducir el tráfico a la versión alemana del sitio.
-seo-description: Captura la configuración de idioma del explorador del visitante y permite averiguar los ingresos y los visitantes únicos relacionados esta. Si se conoce el efecto de los idiomas preferidos en las métricas de éxito de un sitio, puede decidirse cómo presentar dicho sitio en otros idiomas. Por ejemplo, si se detecta que un gran número de clientes germano parlantes genera actividad en el carro de compras de un sitio, puede traducirse al alemán e implementar una campaña de marketing para conducir el tráfico a la versión alemana del sitio.
-seo-title: Idioma
 solution: Analytics
 title: Idioma
-topic: Informes
-uuid: 04f1fc86-2738-4063-8091-772dc59f9cf
+topic: Reports
+uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
