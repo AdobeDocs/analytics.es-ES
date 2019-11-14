@@ -1,13 +1,11 @@
 ---
 description: Muestra el dominio o la dirección URL desde donde los visitantes llegaron al sitio, cómo encontraron el sitio web y la cantidad de visitas al sitio provenientes de esas ubicaciones referentes.
-seo-description: Muestra el dominio o la dirección URL desde donde los visitantes llegaron al sitio, cómo encontraron el sitio web y la cantidad de visitas al sitio provenientes de esas ubicaciones referentes.
-seo-title: Referentes
 solution: Analytics
 title: Referentes
-topic: Informes
+topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
