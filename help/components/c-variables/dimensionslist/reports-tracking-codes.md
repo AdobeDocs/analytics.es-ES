@@ -1,13 +1,11 @@
 ---
 description: Evalúa el efecto que los distintos códigos de seguimiento publicitario tienen en los eventos de conversión del sitio. Este informe se puede utilizar para conocer las campañas específicas que ofrecen un mejor rendimiento para los eventos de éxito. También se emplea para comprobar si las campañas están ayudando u obstaculizando las iniciativas del sitio, por ejemplo, para saber qué campañas generan mayores ingresos.
-seo-description: Evalúa el efecto que los distintos códigos de seguimiento publicitario tienen en los eventos de conversión del sitio. Este informe se puede utilizar para conocer las campañas específicas que ofrecen un mejor rendimiento para los eventos de éxito. También se emplea para comprobar si las campañas están ayudando u obstaculizando las iniciativas del sitio, por ejemplo, para saber qué campañas generan mayores ingresos.
-seo-title: Códigos de seguimiento
 solution: Analytics
 title: Códigos de seguimiento
-topic: Informes
+topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
