@@ -1,13 +1,11 @@
 ---
 description: Muestra las zonas horarias de las que proceden los visitantes. El gráfico muestra un mapa mundial. Si recibió la visita de personas de un huso horario determinado, aparecerá una columna de color en ese huso horario, en la que se indicará la cantidad de visitantes que recibió en un período de tiempo determinado. Todos los husos horarios se presentan en la Hora del Meridiano de Greenwich (GMT, por sus siglas en inglés), que es la hora internacional estándar.
-seo-description: Muestra las zonas horarias de las que proceden los visitantes. El gráfico muestra un mapa mundial. Si recibió la visita de personas de un huso horario determinado, aparecerá una columna de color en ese huso horario, en la que se indicará la cantidad de visitantes que recibió en un período de tiempo determinado. Todos los husos horarios se presentan en la Hora del Meridiano de Greenwich (GMT, por sus siglas en inglés), que es la hora internacional estándar.
-seo-title: Zonas horarias
 solution: Analytics
 title: Zonas horarias
-topic: Informes
-uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223dc
+topic: Reports
+uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
