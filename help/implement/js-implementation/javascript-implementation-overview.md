@@ -1,14 +1,12 @@
 ---
 description: Para comenzar a utilizar Analytics, los datos deben enviarse a un grupo de informes para que se muestren en los informes.
-keywords: Implementación de Analytics, javascript, implementación de javascript, appmeasurement, descargar appmeasurement, servicio de identidad, visitorapi.js, caché, compresión de appmeasurement
-seo-description: Para comenzar a utilizar Analytics, los datos deben enviarse a un grupo de informes para que se muestren en los informes.
-seo-title: Resumen de la implementación de JavaScript
+keywords: Analytics Implementation;javascript;javascript implementation;appmeasurement;download appmeasurement;Identity Service;visitorapi.js;caching;appmeasurement compression
 solution: Analytics
 title: Resumen de la implementación de JavaScript
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: bb661d8c-faf9-4454-ac3c-0c1a4c0a9336
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
