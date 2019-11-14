@@ -1,13 +1,11 @@
 ---
 description: Adobe admite la exportación de solicitudes del almacén de datos a servidores SFTP.
 keywords: ftp;sftp
-seo-description: Adobe admite la exportación de solicitudes del almacén de datos a servidores SFTP.
-seo-title: Envío de solicitudes de Data Warehouse a los servidores SFTP
 solution: Analytics
 title: Envío de solicitudes de Data Warehouse a los servidores SFTP
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -48,4 +46,4 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 
 El comando PUT de SFTP coloca un archivo temporal con la extensión .part en el directorio especificado. Cuando la carga se termina, la extensión del archivo se cambia por la extensión final. Ahora el archivo ya está listo para su uso.
 
-Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. Este método es adecuado cuando el servidor SFTP gestiona automáticamente el cambio de nombre de los archivos durante la carga y no hay posibilidad de que el archivo se procese antes de que la carga se complete.
+Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. Este método es adecuado cuando el servidor SFTP gestiona automáticamente el cambio de nombre de los archivos durante la carga y no hay ninguna posibilidad de que el archivo se procese antes de que la carga se complete.
