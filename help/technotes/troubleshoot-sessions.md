@@ -1,21 +1,19 @@
 ---
 title: Resolución de problemas de sesiones en Adobe Analytics
 description: Obtenga información sobre cómo resolver problemas relacionados con la desconexión de Adobe Analytics.
-seo-title: Resolución de problemas de sesiones en Adobe Analytics
-seo-description: Obtenga información sobre cómo resolver problemas relacionados con la desconexión de Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Resolución de problemas de sesiones en Adobe Analytics
 
-Esta página trata sobre la resolución de problemas de sesiones, lo que significa que puede iniciar sesión correctamente pero tiene problemas para seguir iniciando sesión. Si tiene problemas para iniciar sesión en Adobe Analytics, consulte [Solución de problemas para iniciar sesión en Adobe Analytics](troubleshoot-login.md).
+Esta página trata sobre la resolución de problemas de las sesiones, lo que significa que puede iniciar sesión correctamente pero tiene problemas para seguir iniciando sesión. Si tiene problemas para iniciar sesión en Adobe Analytics, consulte [Solución de problemas para iniciar sesión en Adobe Analytics](troubleshoot-login.md).
 
 Casi todos los problemas basados en sesiones se originan en la red corporativa personalizada de una organización. Si puede iniciar sesión en Adobe Analytics pero tiene problemas para seguir iniciándola, utilice este artículo para determinar la causa.
 
-## Determine si el problema se debe a la red de su organización
+## Determinar si el problema se debe a la red de su organización
 
 Muchas organizaciones implementan funciones de red adicionales para mejorar la seguridad, como servidores proxy o servidores de seguridad. Estas personalizaciones a veces pueden interferir con la capacidad de mantener una sesión activa en Adobe Analytics.
 
