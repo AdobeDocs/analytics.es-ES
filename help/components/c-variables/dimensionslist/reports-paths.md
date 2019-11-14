@@ -1,13 +1,11 @@
 ---
-description: Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
-seo-description: Muestra información sobre el orden en que se accede a las páginas del sitio web. Puede recopilar información sobre los lugares hacia a los que va un visitante antes y después de visitar una página de su sitio.
-seo-title: Rutas
+description: Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares hacia a los que va un visitante antes y después de visitar una página de su sitio.
 solution: Analytics
 title: Rutas
-topic: Informes
+topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
