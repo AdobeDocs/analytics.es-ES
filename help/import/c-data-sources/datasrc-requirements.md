@@ -1,14 +1,12 @@
 ---
 description: Información sobre requisitos para el grupo de informes antes de utilizar fuentes de datos.
-seo-description: Información sobre requisitos para el grupo de informes antes de utilizar fuentes de datos.
-seo-title: Requisitos y límites de carga
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Requisitos y límites de carga
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -99,4 +97,4 @@ Si se envía un archivo UTF-8 o ISO-8859-1 y el grupo de informes no está confi
 
 [!DNL /jokes/misc/snail_joke.html?userid=12345]
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+[!DNL /jokes/misc/snail_joke.html?userid=98765
