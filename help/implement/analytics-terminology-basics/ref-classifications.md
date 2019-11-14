@@ -1,14 +1,12 @@
 ---
 description: Las clasificaciones se crean mediante la agrupación (clasificación) de datos granulares a partir de un informe de origen.
-keywords: Implementación de Analytics, clasificación
-seo-description: Las clasificaciones se crean mediante la agrupación (clasificación) de datos granulares a partir de un informe de origen.
-seo-title: Clasificaciones
+keywords: Analytics Implementation;classification
 solution: Analytics
 title: Clasificaciones
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,5 +19,5 @@ Por ejemplo, si desea analizar anuncios en pantalla que estén mezclados con cam
 
 Para obtener más información, consulte:
 
-* [Clasificaciones](https://marketing.adobe.com/resources/help/es_ES/reference/classifications.html) en la página de ayuda y Guía de referencia de Analytics
+* [Clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) en la ayuda de Analytics y en la Guía de referencia
 
