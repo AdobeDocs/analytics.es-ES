@@ -1,14 +1,12 @@
 ---
 description: Antes de empezar a crear grupos de informes virtuales, hay que tener algunos aspectos en cuenta.
-keywords: Grupo de informes virtuales
-seo-description: Antes de empezar a crear grupos de informes virtuales, hay que tener algunos aspectos en cuenta.
-seo-title: Crear un grupo de informes virtuales
+keywords: Virtual Report Suite
 solution: Analytics
 title: Crear un grupo de informes virtuales
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
