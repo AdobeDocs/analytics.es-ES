@@ -1,14 +1,12 @@
 ---
 description: El archivo de plantilla de importaciones está diseñado para proporcionarle los conceptos básicos de importación.
-seo-description: El archivo de plantilla de importaciones está diseñado para proporcionarle los conceptos básicos de importación.
-seo-title: Generación de plantillas de archivo de importación
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Generación de plantillas de archivo de importación
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -39,7 +37,7 @@ Consulte [Referencia sobre el archivo de importación](/help/import/c-data-sourc
    | 1 | Casilla de verificación Tarifas asociadas | Seleccione la casilla de verificación para indicar que acepta las tarifas asociadas con el uso de esta plantilla de fuente de datos. |
    | 2 | Elegir métricas | Seleccione las métricas que desea importar con esta fuente de datos. Analytics recomienda determinadas métricas en función de la categoría y el tipo de fuente de datos seleccionados en el paso 3.  Para indicar otra métrica, escriba su nombre en un campo vacío y marque la casilla de verificación para habilitar la métrica. |
    | 3 | Asignar métricas | Seleccione un evento de Analytics para recibir cada métrica importada seleccionada en la página 2 del Asistente.  Debe usar eventos nuevos todavía no asignados a los que antes les haya asignado nombres que se correspondan con los datos de métricas importadas que recibirán a través de la fuente de datos.  Si se usa como variable de destino una eVar o una variable de producto o de código de seguimiento, y los valores cargados coinciden con valores capturados ya existentes, los eventos cargados básicamente agregarán las métricas a los valores preexistentes. Por ejemplo, puede crear una métrica "Pedidos sin conexión" con una dimensión de datos Productos que ya tenga Vistas del producto, Cierres de compras y Pedidos como métricas existentes. |
-   | 4 | Elegir las dimensiones de los datos | Seleccione las dimensiones de datos para el desglose de las métricas importadas mediante esta fuente de datos. Analytics recomienda determinadas dimensiones de datos según el tipo de fuente de datos seleccionado en el paso 3.  Para indicar otra dimensión de datos, escriba su nombre en un campo vacío y marque la casilla de verificación para habilitar la dimensión. |
+   | 4 | Elegir las dimensiones de los datos | Seleccione las dimensiones de datos para el desglose de las métricas importadas mediante esta fuente de datos. Analytics recomienda determinadas dimensiones de datos en función del tipo de fuente de datos seleccionado en el paso 3.  Para indicar otra dimensión de datos, escriba su nombre en un campo vacío y marque la casilla de verificación para habilitar la dimensión. |
    | 5 | Asignar las dimensiones de los datos | Seleccione el informe estándar o la eVar que recibirá cada dimensión de datos seleccionada en la página 4 del Asistente. |
 
 1. Cuando se haya creado la plantilla, copie los datos en las columnas que correspondan, teniendo presente respetar el formato de datos necesario para cada columna de datos.
