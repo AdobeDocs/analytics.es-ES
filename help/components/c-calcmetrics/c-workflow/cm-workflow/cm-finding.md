@@ -1,11 +1,9 @@
 ---
-description: Describe las dos maneras principales de encontrar la clasificación y el filtrado de métricas.
-seo-description: Describe las dos maneras principales de encontrar la clasificación y el filtrado de métricas.
-seo-title: Buscar métricas
+description: Describe las dos maneras principales de encontrar las métricas que se ordenan y filtran.
 title: Buscar métricas
-uuid: 60 c 8 e 02 c -736 d -4 d 20-8799-69 f 6 ca 250033
+uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
