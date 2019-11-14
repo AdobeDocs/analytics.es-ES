@@ -1,11 +1,9 @@
 ---
 description: La integración de Data Connectors para emarsys utiliza variables de Analytics para rastrear distintas métricas de emarsys.
-seo-description: La integración de Data Connectors para emarsys utiliza variables de Analytics para rastrear distintas métricas de emarsys.
-seo-title: Variables de Analytics
 title: Variables de Analytics
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -22,7 +20,7 @@ Después de identificar el evento y las eVars que se usarán con la integración
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Tipo de variable </th> 
-   <th colname="col2" class="entry"> Nombre  </th> 
+   <th colname="col2" class="entry"> Nombre </th> 
    <th colname="col3" class="entry"> Método de obtención de datos </th> 
    <th colname="col4" class="entry"> Descripción </th> 
   </tr>
