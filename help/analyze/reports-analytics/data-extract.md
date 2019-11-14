@@ -1,14 +1,12 @@
 ---
 description: Las extracciones de datos permiten elegir los parámetros que se verán en los ejes X e Y del informe, además del elemento por el cual se filtra el informe.
-seo-description: Las extracciones de datos permiten elegir los parámetros que se verán en los ejes X e Y del informe, además del elemento por el cual se filtra el informe.
-seo-title: Extracción de datos
 solution: Analytics
-subtopic: Programa
+subtopic: Schedule
 title: Extracción de datos
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
