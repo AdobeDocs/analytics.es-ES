@@ -1,14 +1,12 @@
 ---
 description: La variable products se usa para realizar el seguimiento de productos y categorías de productos (así como la cantidad de compra y el precio de compra).
-keywords: Implementación de Analytics, variable products, vista de producto, evento de éxito
-seo-description: La variable products se usa para realizar el seguimiento de productos y categorías de productos (así como la cantidad de compra y el precio de compra).
-seo-title: Página de vista detallada del producto
+keywords: Analytics Implementation;products variable;product view;success event
 solution: Analytics
 title: Página de vista detallada del producto
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 464c9daf-b042-4fb8-8ca6-e104c0bcef45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
