@@ -1,15 +1,13 @@
 ---
 description: Las variables de datos de contexto permiten definir las variables personalizadas de cada página que pueden leer las reglas de procesamiento.
-keywords: Implementación de Analytics, contextdata, s.contextdata
-seo-description: Las variables de datos de contexto permiten definir las variables personalizadas de cada página que pueden leer las reglas de procesamiento.
-seo-title: Variables de datos de contexto
+keywords: Analytics Implementation;contextdata;s.contextdata
 solution: Analytics
 subtopic: Variables
 title: Variables de datos de contexto
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,11 +19,13 @@ Las variables de datos de contexto permiten definir las variables personalizadas
 En lugar de asignar explícitamente valores a props y eVars en el código, puede enviar datos en las variables de datos de contexto que se asignan mediante reglas de procesamiento. Las reglas de procesamiento proporcionan una poderosa interfaz gráfica para realizar cambios en los datos a medida que se reciben. En función de los valores enviados en los datos de contexto, puede configurar eventos, copiar valores a eVars y props y ejecutar enunciados condicionales adicionales.
 
 > [!NOTE] Las variables de datos de contexto no distinguen entre mayúsculas y minúsculas. Por ejemplo, las dos instancias siguientes son iguales a todos los efectos:
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >y
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
