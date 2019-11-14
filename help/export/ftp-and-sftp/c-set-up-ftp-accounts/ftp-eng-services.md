@@ -1,13 +1,11 @@
 ---
 description: Muchas de las participaciones de los servicios de ingeniería de Adobe suelen requerir el intercambio de datos a través de FTP.
 keywords: ftp;sftp
-seo-description: Muchas de las participaciones de los servicios de ingeniería de Adobe suelen requerir el intercambio de datos a través de FTP.
-seo-title: Participación de los servicios de ingeniería en FTP
 solution: Analytics
 title: Participación de los servicios de ingeniería en FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
