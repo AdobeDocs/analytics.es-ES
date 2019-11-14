@@ -1,14 +1,12 @@
 ---
 description: Los marcadores le permiten acceder a los informes que utiliza con mayor frecuencia. Los marcadores que cree se añadirán a Experience Cloud y estarán disponibles en funciones integradas como los conectores de datos.
-seo-description: Los marcadores le permiten acceder a los informes que utiliza con mayor frecuencia. Los marcadores que cree se añadirán a Experience Cloud y estarán disponibles en funciones integradas como los conectores de datos.
-seo-title: Administrador de marcadores
 solution: Analytics
-subtopic: Marcadores
+subtopic: Bookmarks
 title: Administrador de marcadores
-topic: Reports and Analytics
-uuid: 7 a 1287 da -8 a 39-4 dad -90 b 0-f 311 b 5 e 83722
+topic: Reports and analytics
+uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,11 +27,11 @@ t_bookmarks_creating.xml
 
 1. Ejecute un informe y, a continuación, haga clic en **[!UICONTROL Marcador.]**.
 
-       | Nombre | A nombre sencillo de usuario para este marcador.|
-       |---|---|
-       |Add to|Specifies the folder in which you want to place the bookmark.|
-       |Make Public| Makes this bookmark available for users with access to the report suite.|
-       |Display report upon login| Displays the report when you log in.|
+       |Nombre|Un nombre descriptivo para este marcador.
+    |
+ |—|—|     |Agregar a|Especifica la carpeta en la que desea colocar el marcador.
+|     |Convertir en público| Pone este marcador a disposición de los usuarios con acceso al grupo de informes.
+|     |Mostrar informe al iniciar sesión| Muestra el informe al iniciar sesión.|
    
 ## Administrar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
