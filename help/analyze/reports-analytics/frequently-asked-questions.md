@@ -1,19 +1,17 @@
 ---
 description: Ofrece respuestas y sugerencias para resolución de problemas a algunas de las preguntas más frecuentes de Analytics.
-keywords: Resolución de problemas de Analytics
-seo-description: Ofrece respuestas y sugerencias para resolución de problemas a algunas de las preguntas más frecuentes de Analytics.
-seo-title: Preguntas frecuentes
+keywords: Troubleshooting Analytics
 title: Preguntas frecuentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Preguntas frecuentes
 
-Proporciona respuestas y sugerencias de solución de problemas a algunas de las preguntas más frecuentes de Analytics para Informes y análisis. Para ver las preguntas más frecuentes sobre la implementación, consulte las [preguntas más frecuentes](/help/implement/faq.md) en la guía del usuario Implementación.
+Proporciona respuestas y sugerencias para la resolución de problemas a algunas de las preguntas más frecuentes de Analytics para Informes y análisis. Para ver las preguntas más frecuentes sobre la implementación, consulte las [preguntas más frecuentes](/help/implement/faq.md) en la guía del usuario Implementación.
 
 **Mi cuenta se ha bloqueado; ¿Cómo puedo desbloquearlo?**
 
@@ -24,7 +22,7 @@ Para reactivar una cuenta, póngase en contacto con un administrador de su organ
 Existen varios aspectos que comprobar para solucionar problemas con los datos del informe:
 
 * Compruebe las métricas utilizadas: Algunos informes tienen el valor predeterminado Ingresos en Informes y análisis. Asegúrese de que la métrica que está viendo es relevante para el informe.
-* Compruebe el intervalo de fechas: Los intervalos de fechas, especialmente los que están fuera de la política de retención de datos de su organización, no pueden devolver datos. Asegúrese de que el intervalo de fechas esté configurado correctamente.
+* Compruebe el intervalo de fechas: Los intervalos de fechas, especialmente los que están más allá de la política de retención de datos de su organización, no pueden devolver datos. Asegúrese de que el intervalo de fechas esté configurado correctamente.
 * Compruebe los filtros de URL internos: Algunos informes de fuentes de tráfico no funcionan hasta que se definen correctamente los filtros de URL internos.
 
 **¿Por qué faltan algunos informes en el menú de navegación?**
@@ -59,6 +57,6 @@ No es posible eliminar un grupo de informes. Sin embargo, un grupo de informes p
 
 El contenedor de segmentos que utilice dependerá de la amplitud con la que desee capturar los datos. Los contenedores de vista de página solo generan visitas que coinciden con los criterios del segmento, lo cual resulta útil para filtrar partes irrelevantes de las visitas. Los contenedores de visita traen todas las visitas individuales de una visita en la que una o varias visitas coincidieron con los criterios del segmento, lo cual resulta útil para ver las sesiones en general. Los contenedores de visitante proporcionan todas las visitas en las que una visita coincidió con los criterios del segmento, lo cual resulta útil para ver a las personas. Es su elección como analista determinar qué contenedor de segmentos es mejor utilizar. Consulte Información general sobre [la segmentación](/help/components/c-segmentation/seg-overview.md) en la guía del usuario Componentes para obtener más información.
 
-**¿Por qué no aparece mi segmento en el almacén de datos?**
+**¿Por qué no se muestra mi segmento en el almacén de datos?**
 
 Debido a la arquitectura de procesamiento única del almacén de datos, la plataforma no está optimizada para manejar algunos tipos de datos, como las rutas. Consulte Compatibilidad [de segmentos del Almacén](/help/components/c-segmentation/seg-reference/seg-compatibility.md) de datos en la guía del usuario Componentes para obtener más información.
