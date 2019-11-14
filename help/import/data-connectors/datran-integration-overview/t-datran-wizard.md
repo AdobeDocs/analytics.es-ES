@@ -1,11 +1,9 @@
 ---
 description: El Asistente para la integración de Conectores de datos le guía a través del proceso de integración de Conectores de datos.
-seo-description: El Asistente para la integración de Conectores de datos le guía a través del proceso de integración de Conectores de datos.
-seo-title: Ejecución del Asistente para la integración de Data Connectors
 title: Ejecución del Asistente para la integración de Data Connectors
 uuid: 714417f7-c1df-4e61-a07f-d319f6581c9c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,12 +47,12 @@ Para configurar la integración:
   <tr valign="top"> 
    <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>Integración de dirección de correo electrónico </p> </td> 
-   <td colname="col3"> <p>Especifique la dirección de correo electrónico que recibe todas las notificaciones relacionadas con esta integración y haga clic en <b>Siguiente</b> para continuar con el paso 2 del Asistente. </p> </td> 
+   <td colname="col3"> <p>Especifique la dirección de correo electrónico que recibe todas las notificaciones relacionadas con esta integración y, a continuación, haga clic en <b>Siguiente</b> para continuar con el paso 2 del Asistente. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>ID de cuenta </p> </td> 
-   <td colname="col3"> <p>Especifique su ID de cuenta de Datran (el identificador único asignado a su organización por Datran) y haga clic en <b>Siguiente</b> para continuar con el paso 3 del Asistente. </p> </td> 
+   <td colname="col3"> <p>Especifique su ID de cuenta de Datran (el identificador único asignado a su organización por Datran) y, a continuación, haga clic en <b>Siguiente</b> para continuar con el paso 3 del Asistente. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>3 </p> </td> 
@@ -64,7 +62,7 @@ Para configurar la integración:
   <tr valign="top"> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col2"> <p>Recipient ID </p> </td> 
-   <td colname="col3"> <p>Identifique la eVar de Adobe Analytics que se utiliza para rastrear la ID del destinatario del correo electrónico. </p> <p>La ID del destinatario se utiliza para campañas de mercadotecnia y remercadotecnia. La ID del mensaje se conoce generalmente como "código del visitante". </p> </td> 
+   <td colname="col3"> <p>Identifique la eVar de Adobe Analytics que se utiliza para rastrear la ID del destinatario del correo electrónico. </p> <p>La ID del destinatario se utiliza para campañas de mercadotecnia y remercadotecnia. La ID del mensaje se conoce comúnmente como "Código del visitante". </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>3 </p> </td> 
@@ -74,7 +72,7 @@ Para configurar la integración:
   <tr valign="top"> 
    <td colname="col1"> <p>4 </p> </td> 
    <td colname="col2"> <p>Segmentos de nivel de grupo de informes definidos por el cliente </p> </td> 
-   <td colname="col3"> <p>Esta integración crea los segmentos definidos por el socio que se muestran en la parte izquierda de la página Segmentos de integración del Asistente para integración. </p> <p>Además, puede seleccionar segmentos existentes de nivel de grupo de informes para incluirlos en la integración. </p> <p>Seleccione los segmentos deseados en la parte derecha de la página y haga clic en <b>Siguiente</b> para continuar con el paso 5 del Asistente. </p> </td> 
+   <td colname="col3"> <p>Esta integración crea los segmentos definidos por el socio que se muestran en la parte izquierda de la página Segmentos de integración del Asistente para integración. </p> <p>Además, puede seleccionar segmentos existentes de nivel de grupo de informes para incluirlos en la integración. </p> <p>Seleccione los segmentos que desee en el lado derecho de la página y haga clic en <b>Siguiente</b> para continuar con el paso 5 del Asistente. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>5 </p> </td> 
@@ -104,7 +102,7 @@ Para configurar la integración:
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 
    <td colname="col2"> <p>Recopilación de datos: Complemento JavaScript </p> </td> 
-   <td colname="col3"> <p>Seleccione <b>JavaScript Plug-in</b> si desea utilizar el complemento como modelo de recopilación para esta integración, luego haga clic en <b>Siguiente</b> para continuar con el paso 7 del Asistente. </p> <p> <p>Nota:  La solución automatizada es la selección predeterminada. </p> </p> <p>Póngase en contacto con su consultor de Adobe para obtener una copia del complemento JavaScript utilizado para esta integración. </p> </td> 
+   <td colname="col3"> <p>Seleccione <b>JavaScript Plug-in</b> si desea utilizar el complemento como modelo de recopilación para esta integración y, a continuación, haga clic en <b>Siguiente</b> para continuar con el paso 7 del Asistente. </p> <p> <p>Nota:  La solución automatizada es la selección predeterminada. </p> </p> <p>Póngase en contacto con su consultor de Adobe para obtener una copia del complemento JavaScript utilizado para esta integración. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>6 </p> </td> 
