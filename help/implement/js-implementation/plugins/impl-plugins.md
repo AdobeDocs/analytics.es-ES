@@ -1,15 +1,13 @@
 ---
 description: Los complementos de AppMeasurement para JavaScript son programas o funciones que realizan algunas funciones avanzadas.
-keywords: Implementación de Analytics
-seo-description: Los complementos de AppMeasurement para JavaScript son programas o funciones que realizan algunas funciones avanzadas.
-seo-title: Uso de complementos de implementación
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Complementos
+subtopic: Plug-ins
 title: Uso de complementos de implementación
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
