@@ -1,14 +1,12 @@
 ---
 description: Instrucciones sobre cómo enviar un mensaje de correo electrónico a todos los usuarios de una empresa.
-seo-description: Instrucciones sobre cómo enviar un mensaje de correo electrónico a todos los usuarios de una empresa.
-seo-title: Usuarios de correo electrónico
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: Usuarios de correo electrónico
-topic: Herramientas de administración
+topic: Admin tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
