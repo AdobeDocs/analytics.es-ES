@@ -1,13 +1,11 @@
 ---
-description: Este informe muestra el tiempo que transcurre entre las visitas de los visitantes que retornan y la cantidad de visitas que entran dentro de cada categoría de longitud de tiempo. Use este informe para ver la cantidad de tiempo promedio que pasan los visitantes repetidos sin ir al sitio, y las tendencias de los clientes repetidos.
-seo-description: Este informe muestra el tiempo que transcurre entre las visitas de los visitantes que retornan y la cantidad de visitas que entran dentro de cada categoría de longitud de tiempo. Use este informe para ver la cantidad de tiempo promedio que pasan los visitantes repetidos sin ir al sitio, y las tendencias que siguen los clientes repetidos.
-seo-title: Frecuencia de retorno
+description: Este informe muestra el tiempo que transcurre entre las visitas de los visitantes que retornan y la cantidad de visitas que entran dentro de cada categoría de longitud de tiempo. Use este informe para ver la cantidad de tiempo promedio que pasan los visitantes repetidos sin ir al sitio, y las tendencias que siguen los clientes repetidos.
 solution: Analytics
 title: Frecuencia de retorno
-topic: Informes
+topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
