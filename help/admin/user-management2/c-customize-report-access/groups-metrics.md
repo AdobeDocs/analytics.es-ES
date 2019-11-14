@@ -1,15 +1,13 @@
 ---
 description: Habilite permisos para métricas de tráfico, métricas de conversión, eventos personalizados, eventos de soluciones y reconocimiento de contenido.
-keywords: grupos;permisos
-seo-description: Habilite permisos para métricas de tráfico, métricas de conversión, eventos personalizados, eventos de soluciones y reconocimiento de contenido.
-seo-title: Personalizar permisos para métricas
+keywords: groups;permissions
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: Personalizar permisos para métricas
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
