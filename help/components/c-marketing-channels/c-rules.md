@@ -1,14 +1,12 @@
 ---
 description: Las reglas de procesamiento de canales de mercadotecnia averiguan si la visita de un visitante cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
-seo-description: Las reglas de procesamiento de canales de mercadotecnia averiguan si la visita de un visitante cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
-seo-title: Reglas de procesamiento de canales de marketing
 solution: Analytics
-subtopic: Canales de mercadotecnia
+subtopic: Marketing channels
 title: Reglas de procesamiento de canales de marketing
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: f6394f4b-a244-48e9-9892-7dfbfceb5fc9
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
