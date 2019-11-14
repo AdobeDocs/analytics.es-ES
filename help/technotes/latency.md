@@ -1,22 +1,20 @@
 ---
-description: La siguiente información puede ayudar a solucionar problemas de latencia de grupos de informes en los datos de Analytics.
-keywords: datos faltantes;lento
-seo-description: La siguiente información puede ayudar a solucionar problemas de latencia de grupos de informes en los datos de Analytics.
-seo-title: Disponibilidad y latencia de los datos
+description: La siguiente información puede ayudar a solucionar los problemas de latencia de los grupos de informes en los datos de Analytics.
+keywords: missing data;slow
 solution: Analytics
-subtopic: Datos actuales
+subtopic: Current data
 title: Disponibilidad y latencia de los datos
-topic: Informes
+topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Latencia y disponibilidad de datos en Adobe Analytics
 
-Generalmente, puede esperar ver los datos completos en los informes dos horas después de que se recopilen los datos. La siguiente información puede ayudar a solucionar problemas de latencia de grupos de informes en los datos de Analytics.
+Generalmente, puede esperar ver los datos completos en los informes dos horas después de que se recopilen los datos. La siguiente información puede ayudar a solucionar los problemas de latencia de los grupos de informes en los datos de Analytics.
 
 ## Explicación del agrupamiento de datos
 
@@ -39,14 +37,14 @@ La latencia está causada por una de las siguientes categorías generales:
 Algunas funciones de Adobe Experience Cloud incluyen una cantidad innata de latencia además del tiempo de procesamiento estándar.
 
 * Analytics para Target (A4T) requiere de 5 a 10 minutos de latencia adicionales para permitir que los datos recopilados de ambas plataformas se almacenen en la misma visita.
-* Los datos con marca de hora requieren tiempo adicional debido a que estos datos se procesan en diferentes servidores. Las visitas con marca de tiempo recibidas en tiempo real o casi en tiempo real pueden tardar hasta 15 minutos. Las visitas recibidas con una marca de hora de ayer pueden tardar hasta 2 horas. Las visitas más antiguas pueden tardar más tiempo, aumentando cada día hasta un máximo de aproximadamente 24 horas.
+* Los datos con marca de hora requieren tiempo adicional debido a que estos datos se procesan en diferentes servidores. Las visitas con marca de tiempo recibidas en tiempo real o casi en tiempo real pueden tardar hasta 15 minutos. Las visitas recibidas con una marca de fecha y hora de ayer pueden tardar hasta 2 horas. Las visitas más antiguas pueden tardar más tiempo, aumentando cada día hasta un máximo de aproximadamente 24 horas.
 
 ## Formas de mitigar o prevenir la latencia
 
 Existen varias estrategias para evitar la latencia o reducir el tiempo de recuperación cuando se produce:
 
 * **** Notificar a Adobe de los picos de tráfico esperados: Aunque es imposible anticipar cada pico de tráfico en el sitio, puede haber casos en los que espere recibir un aumento significativo de tráfico. Algunos ejemplos son un período festivo particularmente exitoso o poco después de una gran campaña push. En estos casos, Adobe proporciona un método para que su organización nos informe de los incrementos de tráfico esperados. De este modo podremos asignar recursos de procesamiento adicionales a su grupo de informes. Consulte [Programar un pico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfico en la guía del usuario de administración para obtener información sobre cómo notificar a Adobe sobre el aumento de tráfico.
-* **** Considere la carga de procesamiento al activar nuevas funciones: Algunas funciones requieren más procesamiento que otras. Cuantas más características haya habilitadas en un grupo de informes, más difícil será recuperarse de la latencia. Cuando active características en un grupo de informes, tenga en cuenta que las siguientes características incrementan la cantidad de datos que se deben procesar:
+* **** Considere la carga de procesamiento al activar nuevas funciones: Algunas funciones requieren un procesamiento más intensivo que otras. Cuantas más características haya habilitadas en un grupo de informes, más difícil será recuperarse de la latencia. Cuando active características en un grupo de informes, tenga en cuenta que las siguientes características incrementan la cantidad de datos que se deben procesar:
 
    * Implementación de más de 20 eventos en la misma página
    * Reglas de VISTA complejas
