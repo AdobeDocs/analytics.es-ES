@@ -1,14 +1,12 @@
 ---
 description: Descripciones de los campos de la configuración general del administrador dinámico de etiquetas para la implementación de Adobe Analytics.
-keywords: Implementación de Analytics, método de implementación, Dynamic Tag Management, dtm, configuración general, conformidad con la ue, conjunto de caracteres, código de divisa, servidor de seguimiento, servidor de seguimiento de ssl
-seo-description: Descripciones de los campos de la configuración general del administrador dinámico de etiquetas para la implementación de Adobe Analytics.
-seo-title: General
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
 solution: Analytics
 title: General
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
