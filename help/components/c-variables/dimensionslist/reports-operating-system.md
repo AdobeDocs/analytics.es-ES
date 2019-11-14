@@ -1,18 +1,16 @@
 ---
 description: Agrupa el tráfico web por el sistema operativo usado por el cliente.
-seo-description: Agrupa el tráfico web por el sistema operativo usado por el cliente.
-seo-title: Sistema operativo
 solution: Analytics
 title: Sistema operativo
-topic: 'Informes '
-uuid: 68307788-467 a -4294-becc -921 c 105 a 0825
+topic: Reports
+uuid: 68307788-467a-4294-becc-921c105a0825
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Sistemas operativos
+# Sistema operativo
 
 Agrupa el tráfico web por el sistema operativo usado por el cliente.
 
