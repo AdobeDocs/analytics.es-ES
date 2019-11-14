@@ -1,13 +1,11 @@
 ---
 description: Las dimensiones son descripciones o características de datos de métricas que se pueden visualizar, desglosar y comparar en un informe. Son valores no numéricos y fechas que muestran una correlación, subrelación o clasificación de la métrica original del informe.
-seo-description: Las dimensiones son descripciones o características de datos de métricas que se pueden visualizar, desglosar y comparar en un informe. Son valores no numéricos y fechas que muestran una correlación, subrelación o clasificación de la métrica original del informe.
-seo-title: Dimensiones
 solution: Analytics
 title: Dimensiones
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
