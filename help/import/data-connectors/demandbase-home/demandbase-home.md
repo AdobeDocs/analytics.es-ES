@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Conector de datos de Demandbase para Adobe Analytics
 title: Conector de datos de Demandbase para Adobe Analytics
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -14,9 +12,9 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 Esta integración de Adobe® Data Connectors combina el servicio de ID en tiempo real de Demandbase con la información de comportamiento de Adobe Analytics para crear potentes oportunidades de análisis, optimización y personalización de contenido para las organizaciones B2B.
 
-Proporcionar contenido relevante a los posibles clientes en función de características predeterminadas, genera posibles clientes más calificados y una mayor conversión. La entrega de contenido relevante para un sector en particular, el tamaño de la empresa o incluso una empresa en particular, le permite recibir el mensaje correcto directamente al visitante, sin depender de que lo encuentre en su sitio. Esto llevará a menos devoluciones y a un canal de conversión más saludable y calificado.
+Proporcionar contenido relevante a los posibles clientes en función de características predeterminadas, genera posibles clientes más calificados y una mayor conversión. La entrega de contenido relevante para un sector en particular, el tamaño de la empresa o incluso la propia empresa en particular, le permite recibir el mensaje correcto directamente al visitante, sin depender de que lo encuentre en su sitio. Esto llevará a menos devoluciones y a un canal de conversión más saludable y calificado.
 
-## Principales ventajas y características{#key-benefits-and-features}
+## Ventajas y características principales{#key-benefits-and-features}
 
 Enumera los 5 beneficios y funciones principales.
 
