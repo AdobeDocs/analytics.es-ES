@@ -1,13 +1,11 @@
 ---
 description: No se debe confundir con la métrica Visitas a una sola página de los Ad Hoc Analysis. El informe Visitas a una sola página muestra las páginas en las que entran y de las que salen los visitantes de un sitio web sin realizar pasos para ver ninguna otra página.
-seo-description: No se debe confundir con la métrica Visitas a una sola página de los Ad Hoc Analysis. El informe Visitas a una sola página muestra las páginas en las que entran y de las que salen los visitantes de un sitio web sin realizar pasos para ver ninguna otra página.
-seo-title: Visita a una sola página
 solution: Analytics
 title: Visita a una sola página
-topic: Informes
+topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
