@@ -1,14 +1,12 @@
 ---
 description: Las claves no clasificadas se agrupan en informes de clasificación como un solo artículo de línea etiquetado como Ninguno. Puede resultar útil cambiar el nombre de Ninguno por otro más descriptivo.
-seo-description: Las claves no clasificadas se agrupan en informes de clasificación como un solo artículo de línea etiquetado como Ninguno. Puede resultar útil cambiar el nombre de Ninguno por otro más descriptivo.
-seo-title: Claves no clasificadas
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: Claves no clasificadas
-topic: Herramientas de administración
+topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
