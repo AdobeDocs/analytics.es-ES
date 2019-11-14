@@ -1,14 +1,12 @@
 ---
 description: Las reglas de procesamiento permiten realizar cambios en los datos según ciertas condiciones definidas. Cuando los atributos o los valores coinciden con las condiciones definidas, se pueden definir y eliminar valores, y definir eventos.
-seo-description: Las reglas de procesamiento permiten realizar cambios en los datos según ciertas condiciones definidas. Cuando los atributos o los valores coinciden con las condiciones definidas, se pueden definir y eliminar valores, y definir eventos.
-seo-title: Funcionamiento de las reglas de procesamiento
 solution: Analytics
-subtopic: Reglas de procesamiento
+subtopic: Processing rules
 title: Funcionamiento de las reglas de procesamiento
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
