@@ -1,15 +1,13 @@
 ---
 description: La siguiente tabla muestra la diferencia entre el código correcto y los errores de código.
-keywords: Implementación de Analytics
-seo-description: La siguiente tabla muestra la diferencia entre el código correcto y los errores de código.
-seo-title: Errores de sintaxis comunes
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Resolución de problemas
+subtopic: Troubleshooting
 title: Errores de sintaxis comunes
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
