@@ -1,13 +1,11 @@
 ---
 description: Los archivos de registro ayudan a ver cuándo los usuarios inician la sesión, su uso, los accesos, los grupos de informes y los cambios del administrador.
-seo-description: Los archivos de registro ayudan a ver cuándo los usuarios inician la sesión, su uso, los accesos, los grupos de informes y los cambios del administrador.
-seo-title: Registros
 solution: Analytics
 title: Registros
-topic: Herramientas de administración
+topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -31,7 +29,7 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 | Intervalo de fechas | Especifique un filtro de intervalo de fechas. Puede introducir una fecha manualmente, con el formato AAAA-MM-DD, o hacer clic en el icono del calendario para seleccionar una fecha. |
 | Inicio de sesión | Filtre el registro por nombre de usuario. |
 | IP | Filtre el registro por dirección IP. |
-| Grupo de informes | Filtre el registro por un ID de grupo de informes específico. |
+| Report Suite | Filtre el registro por un ID de grupo de informes específico. |
 | Tipo de evento | Filtre el registro por tipo de evento. Seleccione un tipo de evento de la lista desplegable. |
 | Evento | Filtre el registro por una palabra o frase de la descripción del evento. |
 | Descargar informe | Exporta el contenido del [!UICONTROL registro de uso y acceso] a un archivo delimitado por tabulaciones. |
