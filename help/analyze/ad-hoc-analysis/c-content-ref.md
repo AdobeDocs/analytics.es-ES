@@ -1,20 +1,18 @@
 ---
-description: Análisis específicos se integra con el entorno de segmentación de Analytics, lo que le permite crear, compartir, administrar y aplicar segmentos de visitantes en todos los productos de Adobe. Análisis específicos proporciona una interfaz de usuario basada en Java para el Generador de segmentos y el Administrador de segmentos idéntica a las herramientas basadas en la web utilizadas por otras herramientas de Analytics, que coincide con las llamadas al servidor y proporciona las mismas funciones y funcionalidades desde una consola basada en Java.
-seo-description: Análisis específicos se integra con el entorno de segmentación de Analytics, lo que le permite crear, compartir, administrar y aplicar segmentos de visitantes en todos los productos de Adobe. Análisis específicos proporciona una interfaz de usuario basada en Java para el Generador de segmentos y el Administrador de segmentos idéntica a las herramientas basadas en la web utilizadas por otras herramientas de Analytics, que coincide con las llamadas al servidor y proporciona las mismas funciones y funcionalidades desde una consola basada en Java.
-seo-title: Generar segmentos
+description: Análisis específicos se integra con el entorno de segmentación de Analytics, lo que le permite crear, compartir, administrar y aplicar segmentos de visitantes en todos los productos de Adobe. Análisis específicos proporciona una interfaz de usuario basada en Java para el Generador de segmentos y el Administrador de segmentos idéntica a las herramientas basadas en la web utilizadas por otras herramientas de Analytics, que concuerdan con las llamadas al servidor y proporcionan las mismas funciones y funcionalidades desde una consola basada en Java.
 solution: Analytics
 title: Generar segmentos
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Generar segmentos
 
-Análisis específicos se integra con el entorno de segmentación de Analytics, lo que le permite crear, compartir, administrar y aplicar segmentos de visitantes en todos los productos de Adobe. Análisis específicos proporciona una interfaz de usuario basada en Java para el Generador de segmentos y el Administrador de segmentos idéntica a las herramientas basadas en la web utilizadas por otras herramientas de Analytics, que coincide con las llamadas al servidor y proporciona las mismas funciones y funcionalidades desde una consola basada en Java.
+Análisis específicos se integra con el entorno de segmentación de Analytics, lo que le permite crear, compartir, administrar y aplicar segmentos de visitantes en todos los productos de Adobe. Análisis específicos proporciona una interfaz de usuario basada en Java para el Generador de segmentos y el Administrador de segmentos idéntica a las herramientas basadas en la web utilizadas por otras herramientas de Analytics, que concuerdan con las llamadas al servidor y proporcionan las mismas funciones y funcionalidades desde una consola basada en Java.
 
 Ad Hoc Analysis incluye funciones conocidas para la generación de segmentos, además de nuevas actualizaciones de funciones como el [Administrador de segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html) utilizado para configurar el [flujo de trabajo](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html) de administración de segmentos. Como siempre, puede crear y guardar segmentos en el [Generador de segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html) o [generar segmentos desde un informe de Visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_fallout.html) desde la consola de Ad Hoc Analysis y, a continuación, guardar los segmentos nuevos o ampliados en la biblioteca de audiencias para el acceso general y la aplicación. ![](assets/seg__overview_ad_hoc.png)
 
