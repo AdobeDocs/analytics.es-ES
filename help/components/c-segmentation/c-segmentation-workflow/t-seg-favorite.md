@@ -1,13 +1,11 @@
 ---
 description: Marcar los segmentos como favoritos es otra manera de organizarlos para que su uso sea más sencillo.
-seo-description: Marcar los segmentos como favoritos es otra manera de organizarlos para que su uso sea más sencillo.
-seo-title: Marcar segmentos como favoritos
 solution: Analytics
 title: Marcar segmentos como favoritos
-topic: Segmentos
-uuid: 0 bc 1 f 19 c -4 ab 1-47 a 2-8 dd 4-9 aa 0015846 ed
+topic: Segments
+uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
