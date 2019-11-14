@@ -1,14 +1,12 @@
 ---
 description: Implemente Adobe Analytics mediante el uso de Dynamic Tag Management. Para ello, debe crear la herramienta Adobe Analytics y configurar el código de página de forma automática o manual. Para la mayoría de los usuarios, se recomienda seguir el método automático.
-keywords: Implementación de Analytics, método de implementación, Dynamic Tag Management, dtm, herramienta de análisis, propiedad, tipo de herramienta, nombre de herramienta, método de configuración, analytics premium, evars, eventos
-seo-description: Implemente Adobe Analytics mediante el uso de Dynamic Tag Management. Para ello, debe crear la herramienta Adobe Analytics y configurar el código de página de forma automática o manual. Para la mayoría de los usuarios, se recomienda seguir el método automático.
-seo-title: Agregar la herramienta Adobe Analytics
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
 solution: Analytics
 title: Agregar la herramienta Adobe Analytics
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -55,7 +53,7 @@ Implemente Adobe Analytics mediante el uso de Dynamic Tag Management. Para ello,
    <td colname="col2"> <p> <b>Manual</b>: administra de forma manual el código de AppMeasurement. Puede descargar el código de <span class="keyword">AppMeasurement</span> de <span class="keyword">Analytics</span> desde <span class="ignoretag"><span class="uicontrol">Herramientas de administración</span> &gt; <span class="uicontrol">Administrador de códigos</span></span>. </p> <p>Haga clic en <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html">JavaScript (nuevo)</a> para obtener información sobre cómo descargar el código localmente para copiarlo y pegarlo en el campo <span class="wintitle">Editar código</span> en <a href="/help/implement/c-implement-with-dtm/c-aa-tool/library-management.md">Administración de bibliotecas</a>. </p> <p>Rellene los campos específicos de la configuración manual: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>ID de la cuenta de producción:</b> (obligatorio) su cuenta de producción para la recopilación de datos. En Analytics, este es su ID para el grupo de informes. Dynamic Tag Management instala automáticamente la cuenta correcta en el entorno de producción y ensayo. </p> </li> 
-     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID de la cuenta de ensayo:</b> (obligatorio) se utiliza en el entorno de desarrollo o prueba. En Analytics, este es su ID para el grupo de informes. Una cuenta de ensayo permite separar los datos de prueba de los de producción. </p> </li> 
+     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>ID de la cuenta de ensayo:</b> (obligatorio) se utiliza en el entorno de desarrollo o prueba. En Analytics, este es su ID para el grupo de informes. Una cuenta de ensayo mantiene los datos de prueba separados de la producción. </p> </li> 
      <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>Servidor de seguimiento :</b> especifique la información de su servidor de seguimiento  </p> <p>Las variables <span class="wintitle">Servidor de seguimiento</span> y <span class="wintitle">Servidor de seguimiento SSL</span> se utilizan en la implementación de cookies personales para especificar el dominio en el cual se escribe la cookie y la solicitud de imagen. Para obtener más información, consulte el artículo <a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html">Rellenar correctamente las variables trackingServer y trackingServerSecure</a>. </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>Servidor de seguimiento SSL:</b> especifique la información de su servidor de seguimiento SSL. </p> </li> 
     </ul> </td> 
