@@ -1,17 +1,15 @@
 ---
 title: PWA para Analytics
-seo-title: PWA para Analytics
 description: Aplicaciones web progresivas para Adobe Analytics
-seo-description: Uso de PWA con Analytics
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # PWA para Analytics
 
-Esta guía describe cómo utilizar Adobe Analytics con aplicaciones web progresivas (PWA).
+En esta guía se describe cómo utilizar Adobe Analytics con aplicaciones web progresivas (PWA).
 
 ## Primeros pasos
 
@@ -21,7 +19,7 @@ Adobe Analytics funciona igual de bien con los PWA que con los sitios web tradic
 
 ## Obtención de los datos de análisis de PWA
 
-Para recopilar y analizar los datos de PWA con Analytics, no es necesario realizar ningún cambio de configuración. Analytics proporciona automáticamente las mismas funciones y características que con un sitio web tradicional.
+Para recopilar y analizar los datos de PWA con Analytics, no es necesario realizar ningún cambio en la configuración. Analytics proporciona automáticamente las mismas funciones y características que con un sitio web tradicional.
 
 ## Agregar seguimiento sin conexión para aumentar la eficacia de PWA
 
