@@ -1,11 +1,9 @@
 ---
 description: Enumera los identificadores de dimensión opcionales que se pueden proporcionar en el paso 4 del asistente de integración de Adobe.
-seo-description: Enumera los identificadores de dimensión opcionales que se pueden proporcionar en el paso 4 del asistente de integración de Adobe.
-seo-title: Dimensiones personalizadas de Demandbase
 title: Dimensiones personalizadas de Demandbase
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -105,7 +103,7 @@ Si no está seguro del ID de API exacto para entrar en el asistente, consulte co
    <td colname="col3"> Dirección URL utilizada por la organización identificada. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Marcador de bolsa </td> 
+   <td colname="col1"> Ticker de bolsa </td> 
    <td colname="col2"> stock_ticker </td> 
    <td colname="col3"> El ticker de acciones, si la organización identificada, se negocia públicamente. </td> 
   </tr> 
@@ -140,9 +138,9 @@ Si no está seguro del ID de API exacto para entrar en el asistente, consulte co
    <td colname="col3"> Indica que la empresa identificada vende principalmente a consumidores o personas. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Perspectiva de tecnología </td> 
+   <td colname="col1"> Perspectiva de la tecnología </td> 
    <td colname="col2"> ??? </td> 
-   <td colname="col3"> Hasta 75 categorías de tecnología definidas por los clientes a través de categoría, proveedor y productos para el uso de anuncios, mensajes o copia de mercadotecnia con objetivos o personalización. </td> 
+   <td colname="col3"> Hasta 75 categorías de tecnología definidas por los clientes a través de categoría, proveedor y productos para el uso de anuncios, mensajes o copia de mercadotecnia con objetivos y/o personalización. </td> 
   </tr> 
  </tbody> 
 </table>
