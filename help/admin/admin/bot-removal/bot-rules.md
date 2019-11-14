@@ -1,14 +1,12 @@
 ---
 description: Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta.
-seo-description: Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta.
-seo-title: Reglas de bots
 solution: Analytics
-subtopic: Reglas de bots
+subtopic: Bot rules
 title: Resumen sobre reglas Bot
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +30,7 @@ Los datos del tráfico de bots se almacenan en un repositorio independiente para
 
 ## Reglas de bots estándar IAB
 
-Las reglas estándar de bots IAB se pueden activar marcando la casilla [!UICONTROL Activar reglas] de filtrado de bots IAB. Esta selección eliminará los bots de la lista internacional de bots y arañas de IAB (International Advertising Bureau's) para eliminar el tráfico de bots. La IAB actualiza esta lista mensualmente.
+Las reglas de bots estándar de IAB se pueden activar marcando la casilla [!UICONTROL Activar reglas] de filtrado de bots de IAB. Esta selección eliminará los bots de la lista internacional de bots y arañas de la IAB (International Advertising Bureau's) para eliminar el tráfico de bots. La IAB actualiza esta lista mensualmente.
 
 ![](assets/bot-iab-checkbox.png)
 
