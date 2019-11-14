@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Implementación de la integración
 solution: Analytics
 title: Implementación de la integración
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -15,7 +13,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Implementar esta integración es un proceso sencillo que consiste en completar el Asistente para integración de Adobe, implementar el código de complemento (javascript) y verificar la integración.
 
-## Complete el Asistente para integración de Adobe{#complete-the-adobe-integration-wizard}
+## Completar el Asistente para integración de Adobe{#complete-the-adobe-integration-wizard}
 
 Para activar la integración, debe completar el asistente de configuración en la interfaz de Conectores de datos.
 
@@ -43,7 +41,7 @@ Después de completar el asistente de integración, debe implementar el objeto d
 
 En muchos casos, la forma más sencilla de implementar el objeto de configuración de integración es incluirlo en el código de implementación de Adobe Analytics.
 
-> [!NOTE] Si utiliza Adobe TagManager o la administración dinámica de etiquetas para implementar Adobe Analytics, puede añadir fácilmente el objeto de configuración de integración mediante esa herramienta.
+> [!NOTE] Si utiliza Adobe TagManager o la administración dinámica de etiquetas para implementar Adobe Analytics, puede añadir fácilmente el objeto de configuración de integración a través de esa herramienta.
 
 1. Vaya a la ficha **[!UICONTROL Recursos]** &gt; **[!UICONTROL Asistencia]** de la integración.
 1. Descargue y guarde el recurso **[!UICONTROL Kampyle Integration Code (JS)]** . El código tiene un aspecto similar al siguiente:
