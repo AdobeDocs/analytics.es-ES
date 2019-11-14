@@ -1,13 +1,11 @@
 ---
 description: Define la configuración común de un portal de trabajo o sitio Web de búsqueda de empleo.
-seo-description: Define la configuración común de un portal de trabajo o sitio Web de búsqueda de empleo.
-seo-title: Portal de trabajo
 solution: Analytics
 title: Portal de trabajo
-topic: Herramientas de administración
+topic: Admin tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
