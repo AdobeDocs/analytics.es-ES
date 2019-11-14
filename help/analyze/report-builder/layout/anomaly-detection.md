@@ -1,13 +1,11 @@
 ---
 description: La detección de anomalías usa el modelado estadístico para buscar automáticamente tendencias inesperadas en sus datos. El modelo analiza métricas y determina un límite inferior, límite superior y rango de valores esperado. Cuando hay un pico o una caída inesperados, el sistema le alerta en el informe.
-seo-description: La detección de anomalías usa el modelado estadístico para buscar automáticamente tendencias inesperadas en sus datos. El modelo analiza métricas y determina un límite inferior, límite superior y rango de valores esperado. Cuando hay un pico o una caída inesperados, el sistema le alerta en el informe.
-seo-title: Detección de anomalías
 solution: Analytics
 title: Detección de anomalías
-topic: Creador de informes
+topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Algunos ejemplos de anomalías que puede investigar son:
 * Picos en los eventos de almacenamiento de vídeo
 * Picos en tasas de bits de vídeo bajas
 
-> [!NOTE] La detección de anomalías solo está disponible cuando selecciona la granularidad Día.
+> [!NOTE] La detección de anomalías solo está disponible cuando se selecciona la granularidad Día.
 
 <p class="head"> <b>Métricas de detección de anomalías</b> </p>
 
