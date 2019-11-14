@@ -1,13 +1,11 @@
 ---
 description: 'Acciones de conversión en el sitio que se desea que realicen los visitantes. Ejemplos de estas acciones podrían ser: un registro, una suscripción, la cumplimentación de un formulario de posible cliente, un inicio de conversación (chat), una compra, una reserva o una encuesta finalizada.'
-seo-description: 'Acciones de conversión en el sitio que se desea que realicen los visitantes. Ejemplos de estas acciones podrían ser: un registro, una suscripción, la cumplimentación de un formulario de posible cliente, un inicio de conversación (chat), una compra, una reserva o una encuesta finalizada.'
-seo-title: Eventos personalizados
 solution: Analytics
 title: Eventos personalizados
-topic: Informes
+topic: Reports
 uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
