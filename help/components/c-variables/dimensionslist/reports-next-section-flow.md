@@ -1,13 +1,11 @@
 ---
 description: Flujo de sección siguiente es similar a Flujo de página siguiente. Muestra datos relacionados con secciones del sitio (grupos de páginas web relacionadas). Si una página está incluida en más de una sección del sitio, muestra los datos de todas las secciones del sitio que la incluyan.
-seo-description: Flujo de sección siguiente es similar a Flujo de página siguiente. Muestra datos relacionados con secciones del sitio (grupos de páginas web relacionadas). Si una página está incluida en más de una sección del sitio, muestra los datos de todas las secciones del sitio que la incluyan.
-seo-title: Flujo de sección siguiente
 solution: Analytics
 title: Flujo de sección siguiente
-topic: Informes
-uuid: da476822-a3e2-496c-a27d-a13beac8cba2
+topic: Reports
+uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
