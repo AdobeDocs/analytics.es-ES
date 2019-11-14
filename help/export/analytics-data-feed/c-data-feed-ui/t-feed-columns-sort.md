@@ -1,13 +1,11 @@
 ---
 description: Puede definir qué columnas están disponibles y ordenarlas según sus necesidades.
-keywords: Fuente de datos;columnas;configuración de columnas
-seo-description: Puede definir qué columnas están disponibles y ordenarlas según sus necesidades.
-seo-title: Ordenar columnas
+keywords: Data Feed;columns;columns configuration
 solution: Analytics
 title: Ordenar columnas
 uuid: 97861aff-6395-48da-8eb4-aea67cd74005
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
