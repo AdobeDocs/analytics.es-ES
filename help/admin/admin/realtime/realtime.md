@@ -1,13 +1,11 @@
 ---
 description: Muestra tráfico de páginas web y clasifica las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
-seo-description: Muestra tráfico de páginas web y clasifica las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
-seo-title: Informes en tiempo real
 solution: Analytics
 title: Informes en tiempo real
-topic: Informes
+topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -55,4 +53,4 @@ Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Anal
 * Para el flujo en directo, los informes en tiempo real, las solicitudes de la API y todos los datos actuales para las variables de tráfico, solo se retrasan las visitas con un ID de datos suplementario.
 * Para los datos actuales en las métricas de conversión, los datos finalizados y las fuentes de datos, todas las visitas se retrasan de 5 a 7 minutos más.
 
-Tenga en cuenta que el aumento de latencia comienza después de implementar el servicio de identidad, aunque no haya implementado completamente esta integración.
+Tenga en cuenta que el aumento de la latencia se da después de implementar el Servicio de identidad, incluso aunque no haya implementado correctamente esta integración.
