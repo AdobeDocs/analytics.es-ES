@@ -1,14 +1,12 @@
 ---
 description: Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
-seo-description: Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
-seo-title: Reglas de clasificación
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: Reglas de clasificación
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -149,7 +147,7 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 | Expresión regular | Cadena o resultados de coincidencias | Grupos de coincidencias correspondientes |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:: em:JuneSale:20130601 `$1`: em `$2`: JuneSale `$3`: 20130601 |
-| Creación de la sintaxis | `^` = inicia la línea () = agrupa los caracteres y permite extraer los caracteres coincidentes entre paréntesis.  `(.+)` = captura uno ( . ) y ( + ) ya \ = inicio de una cadena.  `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. |
+| Creación de la sintaxis | `^` = inicia la línea () = agrupa los caracteres y permite extraer los caracteres coincidentes en los paréntesis.  `(.+)` = captura uno ( . ) y ( + ) ya más \ = inicio de una cadena.  `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. |
 
 Consulte [Expresiones regulares: tabla de referencia](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obtener más información sobre el significado de los caracteres de las expresiones regulares.
 
@@ -170,7 +168,7 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Para |
 |--- |--- |--- |--- |
-| Expresión regular | `^.(s).*$` | Marca y motor | `$0` Captura los dos primeros caracteres para el nombre de marca y el motor de búsqueda. |
+| Expresión regular | `^.(s).*$` | Marca y motor | `$0` Captura los dos primeros caracteres para el nombre de la marca y el motor de búsqueda. |
 | Expresión regular | `^.(s).*$` | Motor de búsqueda | `$1` Captura el segundo carácter de Google. |
 
 ## Expresiones regulares: hacer coincidir códigos de seguimiento de distinta longitud {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
@@ -307,7 +305,7 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
 
 >[!NOTE]
 >
-> En este procedimiento, debe aplicar las reglas a uno o más grupos de informes. El número recomendado de reglas por conjunto de reglas está entre 500 y 1000, aunque no hay límites. Si el número de reglas supera las 100, considere la posibilidad de simplificar el conjunto de reglas mediante [subclasificaciones](/help/components/c-classifications2/c-sub-classifications.md).
+>En este procedimiento, debe aplicar las reglas a uno o más grupos de informes. El número recomendado de reglas por conjunto de reglas está entre 500 y 1000, aunque no hay límites. Si el número de reglas supera las 100, considere la posibilidad de simplificar el conjunto de reglas mediante [subclasificaciones](/help/components/c-classifications2/c-sub-classifications.md).
 
 1. [Crear un conjunto](/help/components/c-classifications2/crb/classification-rule-set.md) de reglas de clasificación.
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -319,7 +317,7 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
    Se muestra la página **[!UICONTROL Seleccionar grupos de informes].**
 
    >[!NOTE]
-   Los grupos de informes se muestran en esta página *`only`* cuando se cumplen las siguientes condiciones:  &gt;
+   Los grupos de informes se muestran en esta página *`only`* cuando se cumplen las siguientes condiciones:        &gt;
 
    * Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
    (Consulte *`Variable`* en Conjuntos [de reglas de](/help/components/c-classifications2/crb/classification-rule-set.md) clasificación para obtener una explicación sobre este requisito previo).
