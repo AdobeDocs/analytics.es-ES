@@ -1,10 +1,9 @@
 ---
 title: Recopilación de datos regionales para China
-seo-title: Adobe Analytics China RDC
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -13,7 +12,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 La recopilación de datos regionales (RDC, Regional Data Collection) de Adobe en China continental permite a los clientes en dicha zona enviar datos directamente a un centro de recogida de datos (DCC, Data Collection Center) en China, en lugar de a otras ubicaciones del mundo. Esto mejora los tiempos de carga de la página y la precisión de los datos en comparación con el envío de los mismos a los centros de recopilación de datos fuera de China.
 
-> [!IMPORTANT] El uso del nodo RDC de China conlleva un coste adicional. Antes de implementar la recopilación de datos en China mediante el nodo RDC descrito en este documento, póngase en contacto con el administrador de cuentas de su organización para asegurarse de que está correctamente autorizado para esta funcionalidad.
+> [!IMPORTANT] Existe un costo adicional asociado con el uso del nodo RDC de China. Antes de implementar la recopilación de datos en China mediante el nodo RDC descrito en este documento, póngase en contacto con el administrador de cuentas de su organización para asegurarse de que está correctamente autorizado para esta funcionalidad.
 
 ## Configuración del servidor de seguimiento para China
 
