@@ -1,11 +1,9 @@
 ---
 description: Todo lo que debe saber sobre la migración de ID de usuario de Analytics a Admin Console en Adobe Experience Cloud.
-seo-description: Todo lo que debe saber sobre la migración de ID de usuario de Analytics a Admin Console en Adobe Experience Cloud.
-seo-title: Migración de usuarios de Analytics a Admin Console
 title: Migración de usuarios de Analytics a Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -253,7 +251,7 @@ Información importante sobre el proceso de migración y su impacto en la admini
   </tr> 
   <tr> 
    <td colname="col1"> <p>No he podido migrar todos los usuarios antes de la fecha de fin de la migración. ¿Perderán los usuarios no migrados el acceso a Analytics? </p> </td> 
-   <td colname="col2"> <p>Los usuarios que no se hayan migrado hasta la fecha de finalización se redirigirán a la página de inicio de sesión de Experience Cloud (experience ecloud.adobe.com) y no podrán acceder a Analytics. Sin embargo, seguirá teniendo acceso a la herramienta de migración, por lo que podrá buscarlos y migrarlos para restaurar su acceso. </p> </td> 
+   <td colname="col2"> <p>Los usuarios que no se hayan migrado antes de la fecha de finalización se redirigirán a la página de inicio de sesión de Experience Cloud (experience ecloud.adobe.com) y no podrán acceder a Analytics. Sin embargo, seguirá teniendo acceso a la herramienta de migración, por lo que podrá buscarlos y migrarlos para restaurar su acceso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
