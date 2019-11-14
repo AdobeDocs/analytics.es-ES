@@ -1,13 +1,11 @@
 ---
 description: Tras crear informes con solicitudes insertadas, se puede aplicar formato condicional a las celdas del libro.
-seo-description: Tras crear informes con solicitudes insertadas, se puede aplicar formato condicional a las celdas del libro.
-seo-title: Especificar un formato condicional
 solution: Analytics
 title: Especificar un formato condicional
-topic: Creador de informes
+topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
