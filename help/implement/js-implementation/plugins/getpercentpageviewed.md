@@ -1,15 +1,13 @@
 ---
 description: Mide la actividad de desplazamiento de un visitante para comprobar cuánto ve de una página antes de pasar a otra. Este complemento permite determinar la cantidad promedio de contenido que ven los usuarios. De este modo puede optimizar la longitud y el diseño de las páginas en función del comportamiento de los usuarios.
-keywords: Implementación de Analytics
-seo-description: Mide la actividad de desplazamiento de un visitante para comprobar cuánto ve de una página antes de pasar a otra. Este complemento permite determinar la cantidad promedio de contenido que ven los usuarios. De este modo puede optimizar la longitud y el diseño de las páginas en función del comportamiento de los usuarios.
-seo-title: getPercentPageViewed
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Complementos
+subtopic: Plug-ins
 title: getPercentPageViewed
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
