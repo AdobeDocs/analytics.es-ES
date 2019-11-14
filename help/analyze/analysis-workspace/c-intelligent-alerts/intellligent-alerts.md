@@ -1,11 +1,9 @@
 ---
 description: El nuevo sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
-seo-description: El nuevo sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
-seo-title: Resumen de las alertas inteligentes
 title: Resumen de las alertas inteligentes
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -28,7 +26,7 @@ El nuevo Generador de alertas y el Administrador de alertas en Analysis Workspac
 Hay cuatro formas en las que puede acceder al Generador de alertas:
 
 * Ir directamente al Generador de alertas:  **[!UICONTROL Componentes]** &gt; **[!UICONTROL Alertas]**
-* Uso del atajo de teclado en Workspace: `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac)
+* Uso del método abreviado de teclado en Workspace: `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac)
 * Selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. Se abre el Generador de alertas y se rellenan previamente las métricas y los filtros adecuados aplicados desde la tabla. Puede editar la alerta si es necesario.
 
    ![Crear alertas a partir de la selección](assets/create-alert-from-selection.png)
