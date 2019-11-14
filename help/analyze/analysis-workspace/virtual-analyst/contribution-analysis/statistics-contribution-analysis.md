@@ -1,11 +1,9 @@
 ---
 description: El análisis de contribución es un proceso de aprendizaje automatizado intensivo diseñado para descubrir qué contribuye a una anomalía observada en Adobe Analytics. El propósito es ayudar al usuario a descubrir las áreas de interés u oportunidades para un análisis adicional de forma más rápida de lo que sería posible de otro modo.
-seo-description: El análisis de contribución es un proceso de aprendizaje automatizado intensivo diseñado para descubrir qué contribuye a una anomalía observada en Adobe Analytics. El propósito es ayudar al usuario a descubrir las áreas de interés u oportunidades para un análisis adicional de forma más rápida de lo que sería posible de otro modo.
-seo-title: Técnicas estadísticas utilizadas en los análisis de contribución
 title: Técnicas estadísticas utilizadas en los análisis de contribución
 uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,7 +18,7 @@ El análisis de contribución lo logra realizando un algoritmo de dos partes en 
 
    ![](assets/contingency_table.png)
 
-   En la Tabla 1, la V de Cramer puede utilizarse para medir la asociación entre las vistas de página por países para el período 1 (por ejemplo, histórico) y el período 2 (por ejemplo, el día en que se produjo la anomalía). Un valor bajo para la V de Cramer implica un bajo nivel de asociación. La V de Cramer va de 0 (sin asociación) a 1 (asociación completa). La estadística de V de Cramer se puede calcular:
+   En la Tabla 1, la V de Cramer puede utilizarse para medir la asociación entre las vistas de página por países para el período 1 (por ejemplo, histórico) y el período 2 (por ejemplo, el día en que se produjo la anomalía). Un valor bajo para la V de Cramer implica un bajo nivel de asociación. La V de Cramer oscila entre 0 (sin asociación) y 1 (asociación completa). La estadística de V de Cramer se puede calcular:
 
    ![](assets/cramers-v.png)
 
