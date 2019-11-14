@@ -1,14 +1,12 @@
 ---
 description: Cree un grupo que conceda derechos administrativos limitados a los usuarios del informe Canal de mercadotecnia y luego asigne usuarios a dicho grupo. Por ejemplo, puede crear un grupo que permita que los usuarios que no sean administrativos ingresen importes de costo o presupuesto.
-seo-description: Cree un grupo que conceda derechos administrativos limitados a los usuarios del informe Canal de mercadotecnia y luego asigne usuarios a dicho grupo. Por ejemplo, puede crear un grupo que permita que los usuarios que no sean administrativos ingresen importes de costo o presupuesto.
-seo-title: Conceder derechos administrativos limitados
 solution: Analytics
-subtopic: Canales de mercadotecnia
+subtopic: Marketing channels
 title: Conceder derechos administrativos limitados
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
