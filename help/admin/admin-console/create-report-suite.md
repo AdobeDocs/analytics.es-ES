@@ -1,10 +1,8 @@
 ---
 title: Crear un grupo de informes
-seo-title: Crear un grupo de informes en Adobe Analytics
 description: Cree un contenedor básico para la recopilación de datos en Adobe Analytics.
-seo-description: Cree un contenedor básico para la recopilación de datos en Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,7 +25,7 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
 1. Debería ver automáticamente una ventana modal 'Bienvenido a Adobe Analytics'. Si no lo hace, haga clic en el icono de ayuda en la esquina superior derecha y, a continuación, seleccione 'Bienvenido a Adobe Analytics'.
 1. En la ventana modal, haga clic en Iniciar configuración.
-1. Siga cada mensaje que describa los conceptos básicos como tipo de propiedad, industrias y zona horaria. Haga clic en Siguiente.
+1. Siga cada mensaje que describa los aspectos básicos como el tipo de propiedad, las industrias y el huso horario. Haga clic en Siguiente.
 1. Ahora se crea el grupo de informes. Adobe también recomienda disponer de un grupo de informes de desarrollo, por lo que las pruebas no manchan los datos de los clientes. Haga clic en el icono de ayuda en la esquina superior derecha y, a continuación, seleccione de nuevo 'Bienvenido a Adobe Analytics'.
 1. En la ventana modal, haga clic en Iniciar configuración.
 Asigne el mismo nombre a este grupo de informes, excepto anexar "- DEV" al final. Dado que este grupo de informes sólo recibirá tráfico interno, el tamaño estimado puede ser el más pequeño.
@@ -37,7 +35,7 @@ Asigne el mismo nombre a este grupo de informes, excepto anexar "- DEV" al final
 
 **Tras iniciar sesión en Experience Cloud, el icono de Analytics aparece atenuado.**
 
-Esto significa que no se han concedido a su cuenta los permisos correctos para Analytics. Trabaje con un administrador de nivel de sistema de su organización para asegurarse de que pertenece a un perfil con los permisos adecuados para acceder a Adobe Analytics.
+Esto significa que a su cuenta no se le han concedido los permisos correctos para Analytics. Trabaje con un administrador de nivel de sistema de su organización para asegurarse de que pertenece a un perfil con los permisos adecuados para acceder a Adobe Analytics.
 
 **Después de iniciar sesión en Adobe Analytics, falta la ventana emergente y la lista desplegable 'Bienvenido a Adobe Analytics'.**
 
