@@ -1,11 +1,9 @@
 ---
 description: Detalles sobre la plantilla Analysis Workspace y los informes en Reports & Analytics y Report Builder.
-seo-description: Detalles sobre la plantilla Analysis Workspace y los informes en Reports & Analytics y Report Builder.
-seo-title: Informar sobre datos publicitarios en Adobe Analytics
 title: Informar sobre datos publicitarios en Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -22,7 +20,7 @@ Esta plantilla permite a cualquier usuario que implemente esta integración del 
 
 >[!NOTE]
 >
-> La categoría Plantilla de publicidad es visible para todos los clientes, aunque no haya implementado ninguna cuenta de publicidad. Sin embargo, si intenta abrir la plantilla Motores de búsqueda de pago para una empresa que no se ha proporcionado, aparecerá un mensaje de error en el que se explica que todavía no ha configurado ninguna cuenta de motor de búsqueda. En este caso, haga clic en **[!UICONTROL Configurar ahora]**, lo que lo llevará a la pantalla [Configuración de cuenta publicitaria](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
+>La categoría Plantilla de publicidad es visible para todos los clientes, aunque no haya implementado ninguna cuenta de publicidad. Sin embargo, si intenta abrir la plantilla Motores de búsqueda de pago para una empresa que no se ha proporcionado, aparecerá un mensaje de error en el que se explica que todavía no ha configurado ninguna cuenta de motor de búsqueda. En este caso, haga clic en **[!UICONTROL Configurar ahora]**, lo que lo llevará a la pantalla [Configuración de cuenta publicitaria](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
