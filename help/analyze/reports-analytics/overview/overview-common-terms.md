@@ -1,13 +1,11 @@
 ---
 description: Introducción a los términos de análisis web que se usan más frecuentemente en los informes de marketing.
-seo-description: Introducción a los términos de análisis web que se usan más frecuentemente en los informes de marketing.
-seo-title: Términos comunes
 solution: Analytics
 title: Términos comunes
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Introducción a los términos utilizados de Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Grupo de informes </p> </td> 
+   <td colname="col1"> <p> Report Suite </p> </td> 
    <td colname="col2"> <p>El grupo de informes define los informes completos e independientes de un sitio Web, un conjunto de sitios Web o un subconjunto de sitios Web que se haya seleccionado. Por lo general, un grupo de informes es un sitio Web, pero podría ser un segmento global en el cual haya combinado las cifras de varios sitios para obtener valores totales. Asimismo, un grupo de informes puede ser de menor tamaño que un sitio web, si desea ejecutar informes de una porción del sitio. </p> <p>Por ejemplo, si los usuarios que inician sesión y los que no inician sesión usan el sitio de forma diferente, y el encargado de estudiar los informes de cada grupo no es la misma persona, puede clasificar los grupos de informes en función de las páginas que requieran autenticación y las que no la requieran. </p> <p>Al iniciar sesión, selecciona el grupo de informes que va a utilizar (excepto cuando utiliza resúmenes que combinan varios grupos de informes). </p> </td> 
   </tr> 
   <tr> 
