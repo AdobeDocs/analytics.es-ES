@@ -1,14 +1,12 @@
 ---
 description: El servicio de ID reemplaza el mecanismo de ID de visitante de Analytics heredado y se requiere para la medición de vídeo de Heartbeat, Analytics para Target y las integraciones y los servicios principales futuros de Experience Cloud.
-keywords: Implementación de Analytics
-seo-description: El servicio de ID reemplaza el mecanismo de ID de visitante de Analytics heredado y se requiere para la medición de vídeo de Heartbeat, Analytics para Target y las integraciones y los servicios principales futuros de Experience Cloud.
-seo-title: Servicio de identidad
+keywords: Analytics Implementation
 solution: Analytics
 title: Servicio de identidad
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 8ae013d4-d5a9-4b20-bf3b-145f0dcc3d6d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
