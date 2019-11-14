@@ -1,14 +1,12 @@
 ---
 description: WAP e I-Mode son los dos protocolos o estándares principales que se usan hoy en día. WAP se utiliza principalmente en Estados Unidos, mientras que I-Mode es más popular en Japón y Europa.
-keywords: Implementación de Analytics, wap, i-mode
-seo-description: WAP e I-Mode son los dos protocolos o estándares principales que se usan hoy en día. WAP se utiliza principalmente en Estados Unidos, mientras que I-Mode es más popular en Japón y Europa.
-seo-title: Protocolos de red móvil
+keywords: Analytics Implementation;wap;i-mode
 solution: Analytics
 title: Protocolos de red móvil
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: b453677c-7449-4174-a243-a0eb024b319d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
