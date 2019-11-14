@@ -1,13 +1,11 @@
 ---
 description: El número de veces que una página se visualiza o que una dimensión se establece al acceder a la misma mediante un dispositivo móvil. Solo Ad Hoc Analysis.
-seo-description: El número de veces que una página se visualiza o que una dimensión se establece al acceder a la misma mediante un dispositivo móvil. Solo Ad Hoc Analysis.
-seo-title: Vistas con dispositivos móviles
 solution: Analytics
 title: Vistas con dispositivos móviles
-topic: Métricas
+topic: Metrics
 uuid: ba6ba9e8-3242-4a38-ae7b-359f821e2a46
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
