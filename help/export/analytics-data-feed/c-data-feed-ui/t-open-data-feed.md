@@ -1,13 +1,11 @@
 ---
 description: Se puede acceder a la interfaz de usuario de Fuente de datos desde la ficha Administración.
-keywords: Fuente de datos;página de aterrizaje de fuente de datos;lista de fuentes
-seo-description: Se puede acceder a la interfaz de usuario de Fuente de datos desde la ficha Administración.
-seo-title: Abrir la interfaz de la fuente de datos
+keywords: Data Feed;data feed landing page;feeds list
 solution: Analytics
 title: Abrir la interfaz de la fuente de datos
 uuid: d4a1aa01-603b-423e-b5ed-9091c39aa14b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
