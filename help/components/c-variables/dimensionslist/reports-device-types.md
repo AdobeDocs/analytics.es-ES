@@ -1,13 +1,11 @@
 ---
 description: Agrupa dispositivos móviles en teléfonos móviles, tabletas, lectores electrónicos, consolas de juegos, televisores, receptores de televisión, reproductores multimedia y otras categorías de alto nivel para poder ver la distribución entre tipos de dispositivos móviles.
-seo-description: Agrupa dispositivos móviles en teléfonos móviles, tabletas, lectores electrónicos, consolas de juegos, televisores, receptores de televisión, reproductores multimedia y otras categorías de alto nivel para poder ver la distribución entre tipos de dispositivos móviles.
-seo-title: Tipos de dispositivos
 solution: Analytics
 title: Tipos de dispositivos
-topic: Informes
+topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
