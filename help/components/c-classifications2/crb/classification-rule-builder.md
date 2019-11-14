@@ -1,14 +1,12 @@
 ---
 description: En lugar de mantener y cargar clasificaciones cada vez que cambien sus códigos de seguimiento, puede crear clasificaciones automáticas basadas en reglas y aplicarlas en varios grupos de informes. Las reglas se procesan a intervalos frecuentes, según el volumen de tráfico relacionado con la clasificación.
-seo-description: En lugar de mantener y cargar clasificaciones cada vez que cambien sus códigos de seguimiento, puede crear clasificaciones automáticas basadas en reglas y aplicarlas en varios grupos de informes. Las reglas se procesan a intervalos frecuentes, según el volumen de tráfico relacionado con la clasificación.
-seo-title: Flujo de trabajo del generador de reglas de clasificación
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: Flujo de trabajo del generador de reglas de clasificación
-topic: Herramientas de administración
+topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -45,7 +43,7 @@ Estos son los pasos de alto nivel que debe realizar para implementar las reglas 
 
 >[!NOTE]
 >
-> Los grupos con permisos para utilizar la herramienta de importación de clasificaciones pueden utilizar reglas de clasificación. See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
+>Los grupos con permisos para utilizar la herramienta de importación de clasificaciones pueden utilizar reglas de clasificación. See [How Rules Are Processed](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for important processing information.
 
 **Recursos adicionales**
 
