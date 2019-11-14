@@ -1,13 +1,11 @@
 ---
 description: Describe los pasos involucrados en la aplicación de filtros a un informe de visitas en el orden previsto.
-seo-description: Describe los pasos involucrados en la aplicación de filtros a un informe de visitas en el orden previsto.
-seo-title: Filtrado de un informe de abandonos mediante el Asistente para solicitudes
 solution: Analytics
 title: Filtrado de un informe de abandonos mediante el Asistente para solicitudes
-topic: Creador de informes
+topic: Report builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
