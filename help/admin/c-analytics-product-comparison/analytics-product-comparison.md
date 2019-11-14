@@ -1,12 +1,10 @@
 ---
 description: Requisitos del sistema y comparación de Analysis Workspace, Informes y análisis, Análisis específicos, Creador de informes, Almacén de datos y Área de trabajo de datos
-seo-description: Requisitos del sistema y comparación de Analysis Workspace, Informes y análisis, Análisis específicos, Creador de informes, Almacén de datos y Área de trabajo de datos
-seo-title: Comparación de productos y requisitos de Analytics
 solution: Analytics
 title: Comparación de productos y requisitos de Analytics
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
