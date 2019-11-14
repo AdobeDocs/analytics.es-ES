@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Resumen de los análisis de contribución
 title: Resumen de los análisis de contribución
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -70,7 +68,7 @@ El número de ejecuciones por empresa está limitado por los tokens mensuales, q
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>¿Cómo se restringe el acceso a Análisis de contribución?</b> </p> </td> 
-   <td colname="col2"> <p>De forma predeterminada, solo los administradores tienen acceso para ejecutar los análisis de contribución, pero pueden otorgar acceso a otros usuarios creando un grupo de permisos en la <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"  > Consola de administración </a>. Debe dar permiso para usar el análisis de contribución solo a los usuarios que tengan una razón legítima para utilizarlo y en los que se confíe que no abusen de su acceso. </p> <p>El permiso se denomina “Análisis de contribución”, en <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar el acceso a todos los informes</span> &gt; <span class="uicontrol">Personalizar las herramientas del grupo de informes</span> &gt; <span class="uicontrol">Herramientas e informes</span></span>. </p> </td> 
+   <td colname="col2"> <p>De forma predeterminada, solo los administradores tienen acceso para ejecutar los análisis de contribución, pero los administradores pueden otorgar acceso a otros usuarios creando un grupo de permisos en la <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"  > Consola de administración </a>. Debe dar permiso para usar el análisis de contribución solo a los usuarios que tengan una razón legítima para utilizarlo y en los que se confíe que no abusen de su acceso. </p> <p>El permiso se denomina “Análisis de contribución”, en <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Editar grupos</span> &gt; <span class="uicontrol">Editar el acceso a todos los informes</span> &gt; <span class="uicontrol">Personalizar las herramientas del grupo de informes</span> &gt; <span class="uicontrol">Herramientas e informes</span></span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>¿Cómo puedo saber de cuántos tokens al mes dispone mi empresa y qué cantidad hemos usado en el mes actual?</b> </p> </td> 
