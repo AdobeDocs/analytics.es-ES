@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics admite modelos de clasificaciones de un solo nivel y de varios niveles. Las jerarquías de clasificación permiten aplicar una clasificación a otra.
-seo-description: Adobe Analytics admite modelos de clasificaciones de un solo nivel y de varios niveles. Las jerarquías de clasificación permiten aplicar una clasificación a otra.
-seo-title: Acerca de las subclasificaciones
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: Acerca de las subclasificaciones
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
