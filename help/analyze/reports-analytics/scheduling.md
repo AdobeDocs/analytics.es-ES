@@ -1,14 +1,12 @@
 ---
 description: Información sobre cómo programar, descargar y distribuir informes.
-seo-description: Información sobre cómo programar, descargar y distribuir informes.
-seo-title: Programación y distribución del informe
 solution: Analytics
-subtopic: Programa
+subtopic: Schedule
 title: Programación y distribución del informe
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -31,7 +29,7 @@ Estas limitaciones son para los informes programados y descargados individuales;
 >Además, hay otros factores que pueden aumentar aún más la demora antes de que se presente el informe:
 >
 > * **Ejecución de muchas programaciones diferentes del mismo tipo al mismo tiempo** (por ejemplo, muchos tableros, etc.) puede sobrecargar el sistema. El sistema de programación solo permite que se ejecuten al mismo tiempo unos pocos informes (5-10) de cualquier tipo, por lo que cuando se programen más de 5-10 a la vez, algunos tendrán que esperar en la línea para que otros informes finalicen antes de que puedan comenzar a procesarse. Este problema se puede mitigar programando los informes de una empresa en horas escalonadas durante el día o la hora, en lugar de hacerlo simultáneamente.
-> * Además del tipo de informe específico (Tableros, etc.), los informes también esperarán en línea si la empresa tiene **entre 15 y 20 informes de cualquier tipo programados a la vez (en todos los diferentes tipos de informes)**. Esto se puede mitigar escalofriando las horas programadas en lugar de tener muchas ejecutándose al mismo tiempo.
+> * Además del tipo de informe específico (Tableros, etc.), los informes también esperarán en línea si la empresa tiene **entre 15 y 20 informes de cualquier tipo programados a la vez (en todos los diferentes tipos de informes)**. Esto se puede mitigar escalofriando los tiempos de programación en lugar de tener muchos ejecutándose al mismo tiempo.
 > * **Los problemas en los servicios** de flujo descendente en los que se basa el Programador también pueden afectar al envío de informes. Por ejemplo: si utiliza las API de forma independiente para ejecutar informes y rellenar la cola de solicitudes de API, los informes programados pueden entregarse lentamente mientras compite por ese recurso.
 > * **La latencia** del grupo de informes (un retraso en la recopilación de datos) también puede retrasar algunos informes programados.
 
