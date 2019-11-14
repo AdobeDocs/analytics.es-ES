@@ -1,15 +1,13 @@
 ---
 description: Mirada de alto nivel a variables y sus limitaciones.
-keywords: Implementación de Analytics;variable;limitaciones;límites
-seo-description: Mirada de alto nivel a variables y sus limitaciones.
-seo-title: Variables y limitaciones
+keywords: Analytics Implementation;variable;limitations;limits
 solution: Analytics
 subtopic: Variables
 title: Variables y limitaciones
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
