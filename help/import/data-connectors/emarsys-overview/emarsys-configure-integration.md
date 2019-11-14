@@ -1,11 +1,9 @@
 ---
 description: Tareas e información que debe tener antes de ejecutar el asistente de integración de Conectores de datos para implementar la integración de Conectores de datos.
-seo-description: Tareas e información que debe tener antes de ejecutar el asistente de integración de Conectores de datos para implementar la integración de Conectores de datos.
-seo-title: Preparación de la integración de correo electrónico de Data Connectors
 title: Preparación de la integración de correo electrónico de Data Connectors
 uuid: 01e1f269-54c9-4175-aff8-16c39ac4ee9d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
