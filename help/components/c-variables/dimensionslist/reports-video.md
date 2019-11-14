@@ -1,13 +1,11 @@
 ---
-description: Muestra información sobre las estadísticas de acceso a los medios en línea. Los informes muestran datos sobre vídeo y acceso otros medios.
-seo-description: Muestra información sobre las estadísticas de acceso a los medios en línea. Los informes muestran los datos en vídeo y otro acceso a los medios.
-seo-title: Vídeo
+description: Muestra información sobre las estadísticas de acceso a los medios en línea. Los informes muestran los datos en vídeo y otro acceso a los medios.
 solution: Analytics
 title: Vídeo
-topic: Informes
+topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
