@@ -1,15 +1,13 @@
 ---
 description: Habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero.
-keywords: grupos;permisos
-seo-description: Habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero.
-seo-title: Personalizar herramientas de grupos de informes
+keywords: groups;permissions
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: Personalizar herramientas de grupos de informes
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
