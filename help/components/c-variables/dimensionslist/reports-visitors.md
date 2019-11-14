@@ -1,13 +1,11 @@
 ---
 description: Muestra el número de visitantes únicos del sitio durante la hora, el día, la semana, el mes, el trimestre o el año que se haya seleccionado. Cada visitante único se cuenta solo una vez durante el lapso seleccionado. Los visitantes que regresan al sitio no se cuentan nuevamente como usuarios únicos hasta que haya transcurrido el intervalo de tiempo.
-seo-description: Muestra el número de visitantes únicos del sitio durante la hora, el día, la semana, el mes, el trimestre o el año que se haya seleccionado. Cada visitante único se cuenta solo una vez durante el lapso seleccionado. Los visitantes que regresan al sitio no se cuentan nuevamente como usuarios únicos hasta que haya transcurrido el intervalo de tiempo.
-seo-title: Visitantes
 solution: Analytics
 title: Visitantes
-topic: Informes
+topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
