@@ -1,10 +1,8 @@
 ---
 title: Ayuda de importación de Analytics
-seo-title: Ayuda de importación de Analytics
 description: 'null'
-seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Esta guía explica cómo obtener datos en Analytics. Incluye:
 
 ## Recursos clave de Analytics
 
-* [Póngase en contacto con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
