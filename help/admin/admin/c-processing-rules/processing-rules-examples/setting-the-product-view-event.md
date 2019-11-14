@@ -1,19 +1,17 @@
 ---
 description: Los eventos se pueden definir según los valores de la página o determinados valores de una variable.
-seo-description: Los eventos se pueden definir según los valores de la página o determinados valores de una variable.
-seo-title: Configure el evento de vista del producto desde la página de información general del producto
 solution: Analytics
-subtopic: Reglas de procesamiento
-title: Configure el evento de vista del producto desde la página de información general del producto
-topic: Herramientas de administración
-uuid: caa 7 a 077-dd 47-460 e-b 14 d-fe 10 c 4 e 61 f 97
+subtopic: Processing rules
+title: Definir el evento de vistas de producto desde la página de información general del producto
+topic: Admin tools
+uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Configure el evento de vista del producto desde la página de información general del producto
+# Definir el evento de vistas de producto desde la página de información general del producto
 
 Los eventos se pueden definir según los valores de la página o determinados valores de una variable.
 
