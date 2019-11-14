@@ -1,11 +1,9 @@
 ---
 description: El Asistente para la integración de Conectores de datos le guía a través del proceso de integración de Conectores de datos.
-seo-description: El Asistente para la integración de Conectores de datos le guía a través del proceso de integración de Conectores de datos.
-seo-title: Integración de Silverpop
 title: Integración de Silverpop
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -23,7 +21,7 @@ Para configurar la integración:
 1. Seleccione el grupo de informes que desee utilizar para esta integración.
 1. Proporcione un nombre descriptivo para identificar esta integración y haga clic en **[!UICONTROL Crear y configurar esta integración]**.
 
-   Esta página proporciona información general sobre la integración, junto con vínculos útiles para obtener más información. Esta integración conlleva tarifas de Adobe y Silverpop. Póngase en contacto con los Representantes de ventas correspondientes para ambas organizaciones y asegúrese de comprender la estructura de tarifas.
+   Esta página proporciona información general sobre la integración, junto con vínculos útiles para obtener más información. Esta integración conlleva tarifas tanto de Adobe como de Silverpop. Póngase en contacto con los Representantes de ventas correspondientes para ambas organizaciones y asegúrese de comprender la estructura de tarifas.
 1. En cada página del Asistente para la integración de Data Connectors, proporcione la información necesaria, tal como se describe en la tabla siguiente:
 
 <table id="table_74EC1EEBE7A548AB878AA40187EBCD30"> 
@@ -116,7 +114,7 @@ Para configurar la integración:
    <td colname="col3"> <p>Esta integración crea los segmentos definidos por el socio que se muestran en la sección Segmentos del socio. </p> <p>Además, puede seleccionar segmentos existentes de nivel de grupo de informes para incluirlos en la integración. </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p> Solicitudes de acceso </p> </td> 
+   <td colname="col2"> <p>Solicitudes de acceso </p> </td> 
    <td colname="col03"> <p>(3) Configuración de datos </p> </td> 
    <td colname="col3"> <p> (Requerido) Active <span class="uicontrol"> Permitir que esta integración descargue datos</span>del producto. </p> <p>Opcional: Permite que esta integración descargue ingresos, pedidos y unidades. </p> </td> 
   </tr> 
