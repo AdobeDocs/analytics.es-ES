@@ -1,14 +1,12 @@
 ---
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
-seo-description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
-seo-title: AppMeasurement para JavaScript
 solution: Analytics
-subtopic: Notas de la versión
+subtopic: Release notes
 title: AppMeasurement para JavaScript
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
