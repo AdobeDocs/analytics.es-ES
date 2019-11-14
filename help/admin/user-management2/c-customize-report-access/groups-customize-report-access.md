@@ -1,15 +1,13 @@
 ---
 description: Personalice los permisos de grupo a las herramientas de Analytics, las herramientas de grupos de informes, las métricas y las dimensiones.
-keywords: grupos;permisos
-seo-description: Personalice los permisos de grupo a las herramientas de Analytics, las herramientas de grupos de informes, las métricas y las dimensiones.
-seo-title: 'Personalizar el acceso a los informes: Resumen'
+keywords: groups;permissions
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: 'Personalizar el acceso a los informes: Resumen'
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
