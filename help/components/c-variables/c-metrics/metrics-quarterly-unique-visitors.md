@@ -1,13 +1,11 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Visitantes únicos trimestrales
 solution: Analytics
 title: Visitantes únicos trimestrales
-topic: Métricas
-uuid: a 61 e 982 d-a 0 c 6-4915-9 bed -1 e 203 ee 2 cfee
+topic: Metrics
+uuid: a61e982d-a0c6-4915-9bed-1e203ee2cfee
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,5 +16,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|---|
 | Tráfico | Visitante único que accede al sitio en un mismo trimestre. Las visitas múltiples en un trimestre se contabilizan como un [!UICONTROL visitante único trimestral]. |
 | Conversión | N/A |
-| Ad Hoc Analysis | Visitante único que accede al sitio en un mismo trimestre. Las visitas múltiples en un trimestre se contabilizan como un [!UICONTROL visitante único trimestral]. |
+| Ad Hoc Analysis  | Visitante único que accede al sitio en un mismo trimestre. Las visitas múltiples en un trimestre se contabilizan como un [!UICONTROL visitante único trimestral]. |
 
