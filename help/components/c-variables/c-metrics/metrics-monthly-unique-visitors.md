@@ -1,13 +1,11 @@
 ---
 description: Número de visitantes no duplicados (contabilizados solo una vez) del sitio web durante el curso de un mes determinado.
-seo-description: Número de visitantes no duplicados (contabilizados solo una vez) del sitio web durante el curso de un mes determinado.
-seo-title: Visitantes únicos mensuales
 solution: Analytics
 title: Visitantes únicos mensuales
-topic: Métricas
-uuid: b 11555 b 6-b 4 df -4 ebf-ba 2 c -2 f 31651256 f 6
+topic: Metrics
+uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,6 +18,6 @@ Número de visitantes no duplicados (contabilizados solo una vez) del sitio web 
 |---|---|
 | Tráfico | Visitante único que accede al sitio por un solo mes. Las visitas múltiples en un mes se contabilizan como un [!UICONTROL visitante único mensual]. |
 | Conversión | N/A |
-| Ad Hoc Analysis | Visitante único que accede al sitio por un solo mes. Las visitas múltiples en un mes se contabilizan como un [!UICONTROL visitante único mensual]. |
+| Ad Hoc Analysis  | Visitante único que accede al sitio por un solo mes. Las visitas múltiples en un mes se contabilizan como un [!UICONTROL visitante único mensual]. |
 
 See [Unique Visitors](/help/components/c-variables/c-metrics/metrics-unique-visitors.md).
