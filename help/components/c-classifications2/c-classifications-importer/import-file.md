@@ -1,14 +1,12 @@
 ---
 description: Una vez copiados los datos adecuados en el archivo de plantilla de clasificaciones, puede procederse a la importación (carga) en los servidores de recopilación de datos de Adobe.
-seo-description: Una vez copiados los datos adecuados en el archivo de plantilla de clasificaciones, puede procederse a la importación (carga) en los servidores de recopilación de datos de Adobe.
-seo-title: Importación del explorador y FTP
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: Importación del explorador y FTP
-topic: Herramientas de administración
+topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
