@@ -1,11 +1,9 @@
 ---
 description: Esta integración combina la potencia del sistema de comentarios integrado del software de marketing por correo electrónico y los informes de comportamiento de Adobe Analytics para crear potentes oportunidades de optimización y análisis para su organización.
-seo-description: Esta integración combina la potencia del sistema de comentarios integrado del software de marketing por correo electrónico y los informes de comportamiento de Adobe Analytics para crear potentes oportunidades de optimización y análisis para su organización.
-seo-title: conector de datos de Broadmail de Optivo® para Adobe Analytics
 title: conector de datos de Broadmail de Optivo® para Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -26,7 +24,7 @@ Este programa es un método rápido para que los socios de plataformas de tercer
 
 Si tiene alguna pregunta sobre el servicio actual, la garantía o la licencia, póngase en contacto con el administrador de cuentas de Adobe.
 
-## Principales ventajas y características{#key-benefits-and-features}
+## Ventajas y características principales{#key-benefits-and-features}
 
 Esta integración incluye las siguientes ventajas clave:
 
@@ -56,7 +54,7 @@ Antes de iniciar la integración de Conectores de datos para , complete los sigu
 * **** Específico del grupo de informes: Tenga en cuenta que esta integración es específica del grupo de informes. Asegúrese de seleccionar el grupo de informes deseado antes de activar la integración.
 * **** Variables de Adobe Analytics disponibles y configuradas: Esta integración requiere eventos personalizados y eVars personalizadas.
 
-* **** Representante autorizado: Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda. Al activar esta integración, usted declara que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
+* **** Representante autorizado: Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda. Al activar esta integración, usted declara por la presente que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
 * **** ID del mensaje: La integración requiere que captemos y almacenemos un "ID de mensaje" dentro de una variable de Adobe Analytics (eVar). Estos ID son necesarios para identificar los envíos de correo. Como parte del proceso de configuración, debe identificar una eVar para este fin cuando el Asistente le solicite.
 * **** Socio: La integración requiere que captemos y almacenemos un [!UICONTROL ~socio~] dentro de una variable de Adobe Analytics (eVar). Este ID es una representación numérica o codificada de una dirección de correo electrónico del sistema de [!UICONTROL ~socios~] . Este [!UICONTROL ~socio~] está asociado con el comportamiento de los visitantes intermedios en el sitio (abandonos del carro de compras, compras, etc.) que se incorpora al sistema de [!UICONTROL ~socios~] y se puede aprovechar para fines de remercadotecnia. Como parte del proceso de configuración, debe identificar una eVar para este fin cuando el Asistente le solicite.
 * **** Hora del anuncio: Como parte del proceso de configuración, esta integración requiere una asignación a una eVar que corresponda al tiempo de una acción posterior al clic. Esto es necesario para transmitir información sobre una acción de destinatario al [!UICONTROL ~socio~] después de que el destinatario haga clic en un vínculo en un correo.
@@ -65,13 +63,13 @@ Antes de iniciar la integración de Conectores de datos para , complete los sigu
 
 * **** Tipo de acción de postclic: Como parte del proceso de configuración, esta integración requiere una asignación a una eVar que corresponda al tipo de acción de postclic. Esto es necesario para transmitir información sobre una acción de destinatario al [!UICONTROL ~socio~] después de que el destinatario haga clic en un vínculo en un correo.
 
-* **** Cumplimiento de la privacidad: Debe comprender que al habilitar el seguimiento de ID de visitante o destinatario, esta función puede rastrear información personal de los visitantes del sitio. Esto tiene implicaciones para la privacidad que requieren la implementación de los procedimientos apropiados por parte de su organización, como por ejemplo, notificar a los visitantes del sitio y obtener su consentimiento.
+* **** Cumplimiento de la privacidad: Debe comprender que, al habilitar el seguimiento de ID de visitante o destinatario, esta función puede rastrear información personal de los visitantes del sitio. Esto tiene implicaciones para la privacidad que requieren la implementación de los procedimientos apropiados por parte de su organización, como por ejemplo, notificar a los visitantes del sitio y obtener su consentimiento.
 
 ## Precio{#pricing}
 
  Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda.
 
-Al activar esta integración, usted declara que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
+Al activar esta integración, usted declara por la presente que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
 
 ### Consideraciones sobre los precios de Adobe {#section-1f4f46c0d969435db57d38c1c310a05a}
 
@@ -83,6 +81,6 @@ Esta integración está disponible para los clientes [!DNL ~asociados de negocio
 
 ## Variables de Adobe Analytics{#adobe-analytics-variables}
 
-Esta integración requiere variables de Adobe Analytics para rastrear métricas.
+Esta integración requiere variables de Adobe Analytics para realizar un seguimiento de las métricas.
 
 Después de identificar el evento y las eVars que se van a usar con esta integración, deben habilitarse en la Consola de administración de Analytics (para obtener instrucciones, consulte Grupos [de informes](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html) ).
