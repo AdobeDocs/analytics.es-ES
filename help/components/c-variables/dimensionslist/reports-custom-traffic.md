@@ -1,13 +1,11 @@
 ---
 description: Los informes Tráfico personalizado permiten a las organizaciones crear informes con nuevas dimensiones que no se implementan de forma predeterminada. Aunque tienen varios usos, estos informes suelen utilizarse para medir el tráfico y las rutas.
-seo-description: Los informes Tráfico personalizado permiten a las organizaciones crear informes con nuevas dimensiones que no se implementan de forma predeterminada. Aunque tienen varios usos, estos informes suelen utilizarse para medir el tráfico y las rutas.
-seo-title: Tráfico personalizado
 solution: Analytics
 title: Tráfico personalizado
-topic: Informes
+topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
