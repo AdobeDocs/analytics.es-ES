@@ -1,13 +1,11 @@
 ---
 description: Pasos para ejecutar los distintos tipos de informes.
-seo-description: Pasos para ejecutar los distintos tipos de informes.
-seo-title: Ejecutar diferentes tipos de informes
 solution: Analytics
 title: Ejecutar diferentes tipos de informes
-topic: Informes,Reports and Analytics
+topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -311,7 +309,7 @@ Si desea más información sobre la configuración de informes en tiempo real, c
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Ordenar por... Más popular/Ganadores/Perdedores</strong></td> 
-   <td class="chdesc stentry"> Puede conmutar el orden entre <span class="uicontrol">Más popular</span> (predeterminado), <span class="uicontrol">Ganadores</span> (las dimensiones que muestran el mayor crecimiento) y <span class="uicontrol">Perdedores</span> (las dimensiones que están en trayectoria descendente). <p>Esta es la fórmula que se utiliza para determinar los ganadores o perdedores: Real-Time observa la muestra más temprana y la muestra más reciente y realiza un cálculo simple de "cambio de porcentaje". Así que si selecciona "Últimos 15 minutos" y n representa el minuto actual, n-1 se compara con n-15. Tiempo real actualmente no realiza ninguna ponderación. El minuto actual se ignora porque no está completo y probablemente produciría un cambio de porcentaje falso. </p> <p>Esta formula se mantiene entre todas las métricas utilizadas en el informe en tiempo real. </p> </td> 
+   <td class="chdesc stentry"> Puede conmutar el orden entre <span class="uicontrol">Más popular</span> (predeterminado), <span class="uicontrol">Ganadores</span> (las dimensiones que muestran el mayor crecimiento) y <span class="uicontrol">Perdedores</span> (las dimensiones que están en trayectoria descendente). <p>Esta es la fórmula que se utiliza para determinar los ganadores o los perdedores: Real-Time observa la muestra más temprana y la muestra más reciente y realiza un cálculo simple de "cambio de porcentaje". Por lo tanto, si selecciona "Últimos 15 minutos" y n representa el minuto actual, n-1 se compara con n-15. Tiempo real actualmente no realiza ninguna ponderación. El minuto actual se ignora porque no está completo y probablemente produciría un cambio de porcentaje falso. </p> <p>Esta formula se mantiene entre todas las métricas utilizadas en el informe en tiempo real. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Informe breve 1 secundario</strong></td> 
