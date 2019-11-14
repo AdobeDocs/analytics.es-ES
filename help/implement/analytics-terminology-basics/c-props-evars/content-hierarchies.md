@@ -1,14 +1,12 @@
 ---
 description: Un uso habitual de las jerarquías de contenido es mostrar las diferentes rutas que los visitantes han seguido desde una determinada página o nivel.
-keywords: Implementación de Analytics, jerarquías de contenido, hier
-seo-description: Un uso habitual de las jerarquías de contenido es mostrar las diferentes rutas que los visitantes han seguido desde una determinada página o nivel.
-seo-title: Recuento de jerarquías de contenido
+keywords: Analytics Implementation;content hierachies;hier
 solution: Analytics
 title: Recuento de jerarquías de contenido
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: d41df92d-65fb-44de-bf46-8fac24303dad
-translation-type: ht
-source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -35,7 +33,7 @@ Hay ocasiones en que cabe utilizar tanto props como la variable *`hier`*. Las si
  <thead> 
   <tr> 
    <th class="entry"> </th> 
-   <th class="entry"> Props </th> 
+   <th class="entry"> Propriétés </th> 
    <th class="entry"> Jerarquía </th> 
   </tr> 
  </thead>
