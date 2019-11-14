@@ -1,14 +1,12 @@
 ---
 description: Las reglas de procesamiento simplifican la recopilación de datos y administran el contenido que se envía a los informes.
-keywords: Implementación de Analytics, reglas de procesamiento, reglas
-seo-description: Las reglas de procesamiento simplifican la recopilación de datos y administran el contenido que se envía a los informes.
-seo-title: Reglas de procesamiento
+keywords: Analytics Implementation;processing rules;rules
 solution: Analytics
 title: Reglas de procesamiento
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
