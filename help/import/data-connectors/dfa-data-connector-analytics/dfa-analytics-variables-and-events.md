@@ -1,14 +1,12 @@
 ---
 description: La integración de Data Connectors para DFA usa variables de Analytics para rastrear resultados de campañas DFA.
 keywords: DFA
-seo-description: La integración de Data Connectors para DFA usa variables de Analytics para rastrear resultados de campañas DFA.
-seo-title: Variables y eventos de Analytics
 solution: Analytics
 title: Variables y eventos de Analytics
-topic: Data Connectors
+topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
