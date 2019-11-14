@@ -1,13 +1,11 @@
 ---
 description: Combine tanto los datos con marcas de hora como los datos sin marcas de hora en un grupo de informes único.
-seo-description: Combine tanto los datos con marcas de hora como los datos sin marcas de hora en un grupo de informes único.
-seo-title: Marcas de hora opcionales
 solution: Analytics
 title: Marcas de hora opcionales
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -48,5 +46,5 @@ Consulte [Uso de marcas de hora opcionales](/help/implement/js-implementation/ti
 
    Esto cambiará el grupo de informes a Marcas de hora opcionales.
 
-> [!NOTE] Si un grupo de informes se configuró en **Marcas de hora opcionales**, para cambiarlo a cualquier otra configuración, póngase en contacto con Adobe Client Care.
+> [!NOTE] Si un grupo de informes se configuró en **Marcas de hora opcionales**, para cambiar esta opción a cualquier otra configuración, póngase en contacto con Adobe Client Care.
 
