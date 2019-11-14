@@ -1,13 +1,11 @@
 ---
 description: Las abreviaciones de tiempo hacen referencia a una fecha concreta en que comienza un período, no a un intervalo de días. Un intervalo de días se expresa especificando una fecha de inicio y una de finalización para dos abreviaciones de tiempo (o períodos).
-seo-description: Las abreviaciones de tiempo hacen referencia a una fecha concreta en que comienza un período, no a un intervalo de días. Un intervalo de días se expresa especificando una fecha de inicio y una de finalización para dos abreviaciones de tiempo (o períodos).
-seo-title: Abreviaciones de fecha
 solution: Analytics
 title: Abreviaciones de fecha
-topic: Creador de informes
-uuid: 829d613e-5900-4586-a9fc-23998492d8b
+topic: Report builder
+uuid: 829d613e-5900-4586-a9fc-239988492d8b
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
