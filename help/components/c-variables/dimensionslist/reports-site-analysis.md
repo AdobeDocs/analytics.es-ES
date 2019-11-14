@@ -1,13 +1,11 @@
 ---
 description: Un informe de Ad Hoc Analysis. El informe de análisis del sitio muestra la trayectoria que siguen los visitantes a través de determinadas páginas y eventos. Por ejemplo, se puede ver el flujo de tráfico entre páginas, la afinidad entre productos y canales de marketing y el modo en que las campañas y los canales llevan a que se realicen pedidos de productos. Se pueden arrastrar páginas, artículos (y listas) de dimensión y eventos de métricas. Cada cilindro representa uno o más artículos de dimensión (páginas) o un evento. Las flechas representan el flujo entre los valores de los cilindros. Se asignan métricas a las posiciones de los cilindros (X e Y), el ancho, la altura y el color del cilindro. La posición, el tamaño y el color cambian según los valores de las métricas.
-seo-description: Un informe de Ad Hoc Analysis. El informe de análisis del sitio muestra la trayectoria que siguen los visitantes a través de determinadas páginas y eventos. Por ejemplo, se puede ver el flujo de tráfico entre páginas, la afinidad entre productos y canales de marketing y el modo en que las campañas y los canales llevan a que se realicen pedidos de productos. Se pueden arrastrar páginas, artículos (y listas) de dimensión y eventos de métricas. Cada cilindro representa uno o más artículos de dimensión (páginas) o un evento. Las flechas representan el flujo entre los valores de los cilindros. Se asignan métricas a las posiciones de los cilindros (X e Y), el ancho, la altura y el color del cilindro. La posición, el tamaño y el color cambian según los valores de las métricas.
-seo-title: Análisis del sitio
 solution: Analytics
 title: Análisis del sitio
-topic: Informes
+topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
