@@ -1,14 +1,12 @@
 ---
 description: Recopilación de notas de versiones para iOS.
-seo-description: Recopilación de notas de versiones para iOS.
-seo-title: iOS
 solution: Analytics,Experience Cloud
-subtopic: Notas de la versión
+subtopic: Release notes
 title: iOS
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -320,7 +318,7 @@ La versión 4.8.0 del SDK de [!DNL iOS] (2 de noviembre de 2015) incluye los sig
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p>Se cambió el <code> visitorSyncIdentifiers:identifiers</code> método a <code> visitorSyncIdentifiers:</code> </p> </td> 
+    </ul> <p>Se ha cambiado el <code> visitorSyncIdentifiers:identifiers</code> método a <code> visitorSyncIdentifiers:</code> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> Nuevos métodos de TVJS </td> 
