@@ -1,19 +1,17 @@
 ---
 description: Sugerencias y prácticas recomendadas para los nuevos usuarios de los grupos de informes virtuales.
-keywords: Grupo de informes virtuales
-seo-description: Sugerencias y prácticas recomendadas para los nuevos usuarios de los grupos de informes virtuales.
-seo-title: FAQ de VRS
+keywords: Virtual Report Suite
 solution: Analytics
-title: FAQ de VRS
-topic: Reports and Analytics
-uuid: 91225743-765 a -4145-9 ce 5-4268 e 80 ea 7 e 8
+title: Preguntas frecuentes sobre VRS
+topic: Reports and analytics
+uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# FAQ de VRS
+# Preguntas frecuentes sobre VRS
 
 Sugerencias y prácticas recomendadas para los nuevos usuarios de los grupos de informes virtuales.
 
