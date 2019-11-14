@@ -1,24 +1,22 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Descripción general de la configuración de la empresa
-title: Descripción general de la configuración de la empresa
-uuid: 175 de 01 f -02 ae -44 e 2-ae 94-fa 49733 e 2703
+title: Resumen de la configuración de la empresa
+uuid: 175de01f-02ae-44e2-ae94-fa49733e2703
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Descripción general de la configuración de la empresa
+# Resumen de la configuración de la empresa
 
 La página [!UICONTROL Configuración de la empresa] permite configurar opciones que se aplican a todos los grupos de informes que gestiona la organización.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Configuraciones de la empresa]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Configuración **[!UICONTROL de empresa]**
 
-+ [Niveles de acceso de funciones](feature-access-levels.md)
++ [Niveles de acceso de las funcionalidades](feature-access-levels.md)
 + [Servicios Web](web-services-admin.md)
-+ [Informes del creador de informes](report-builder-reports-admin.md)
++ [Informes del Report Builder](report-builder-reports-admin.md)
 + [Inicio de sesión único](single-signon-admin.md)
 + [Acciones pendientes](pending-actions-admin.md)
 + [Promoción conjunta de marca](co-branding-admin.md)
