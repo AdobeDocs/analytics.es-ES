@@ -1,15 +1,13 @@
 ---
 description: Las redirecciones llevan al navegador a una nueva ubicación sin interacción del usuario. Se ejecutan en el navegador web (redirección del lado del cliente) o el servidor web (redirección del lado del servidor).
-keywords: Implementación de Analytics
-seo-description: Las redirecciones llevan al navegador a una nueva ubicación sin interacción del usuario. Se ejecutan en el navegador web (redirección del lado del cliente) o el servidor web (redirección del lado del servidor).
-seo-title: Redirecciones y alias
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Redirecciones
+subtopic: Redirects
 title: Redirecciones y alias
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
