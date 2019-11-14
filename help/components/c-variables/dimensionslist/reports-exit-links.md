@@ -1,13 +1,11 @@
 ---
 description: Muestra los vínculos más comunes en los que los usuarios hacen clic y conducen a ubicaciones externas al sitio. Por lo general, estos vínculos señalan a sitios de afiliados o socios. No obstante, pueden llevar a cualquier ubicación donde se haya implementado un vínculo externo. Este informe permite ver los vínculos de afiliados más populares y ayuda a validar el número de referentes que se ha proporcionado conforme al estado de los socios.
-seo-description: Muestra los vínculos más comunes en los que los usuarios hacen clic y conducen a ubicaciones externas al sitio. Por lo general, estos vínculos señalan a sitios de afiliados o socios. No obstante, pueden llevar a cualquier ubicación donde se haya implementado un vínculo externo. Este informe permite ver los vínculos de afiliados más populares y ayuda a validar el número de referentes que se ha proporcionado conforme al estado de los socios.
-seo-title: Vínculos de salida
 solution: Analytics
 title: Vínculos de salida
-topic: Informes
-uuid: e1452f04-389d-4aa3-8763-73280284302
+topic: Reports
+uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
