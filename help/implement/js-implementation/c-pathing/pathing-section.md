@@ -1,14 +1,12 @@
 ---
 description: Si desea saber cómo los usuarios pasan de una sección a otra del sitio, primero debe asegurarse de que las secciones están etiquetadas con la variable channel.
-keywords: Implementación de Analytics
-seo-description: Si desea saber cómo los usuarios pasan de una sección a otra del sitio, primero debe asegurarse de que las secciones están etiquetadas con la variable channel.
-seo-title: Moverse de sección a sección
+keywords: Analytics Implementation
 solution: Analytics
 title: Moverse de sección a sección
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 987cdaf3-4daf-423a-bcfe-226d8e7c3648
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
