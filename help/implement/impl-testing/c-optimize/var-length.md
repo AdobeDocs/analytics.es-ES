@@ -1,15 +1,13 @@
 ---
 description: La longitud de las variables de Analytics puede afectar al tamaño del fragmento de código HTML, el archivo de biblioteca JavaScript y la solicitud de imagen.
-keywords: Implementación de Analytics
-seo-description: La longitud de las variables de Analytics puede afectar al tamaño del fragmento de código HTML, el archivo de biblioteca JavaScript y la solicitud de imagen.
-seo-title: Longitud de las variables
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Resolución de problemas
+subtopic: Troubleshooting
 title: Longitud de las variables
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 87deabb3-2acb-4797-9a65-769d9e2fbd62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
