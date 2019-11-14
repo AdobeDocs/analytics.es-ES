@@ -1,11 +1,9 @@
 ---
 description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con el marketing por correo electrónico de Silverpop para crear una poderosa herramienta que permite redefinir la medición de éxito y dirigir a las audiencias con mensajes más relevantes.
-seo-description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con el marketing por correo electrónico de Silverpop para crear una poderosa herramienta que permite redefinir la medición de éxito y dirigir a las audiencias con mensajes más relevantes.
-seo-title: Conector de datos Silverpop para Adobe Analytics
 title: Conector de datos Silverpop para Adobe Analytics
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ El envío de mensajes de correo electrónico relevantes a estos segmentos de mer
 
 Este aumento en la eficacia de la mercadotecnia es una de las ventajas clave de la integración de Analytics con Silverpop. Además, esta integración sincronizará automáticamente las métricas de correo electrónico con los datos de Analytics con tanta frecuencia como cada hora para los informes de bucle cerrado.
 
-## Principales ventajas y características{#key-benefits-and-features}
+## Ventajas y características principales{#key-benefits-and-features}
 
 Esta integración incluye las siguientes ventajas clave:
 
@@ -34,7 +32,7 @@ Las siguientes funciones son nuevas en la versión 2.0 de la integración de Con
 * Dos métricas estándar adicionales para clientes no minoristas.
 * Remercadotecnia para los usuarios que no hayan hecho clic a través de un correo electrónico.
 * Las clasificaciones de productos se exportan a Silverpop para personalizaciones adicionales en los mensajes de remercadotecnia.
-* Hay datos adicionales disponibles en segmentos de remercadotecnia (pedidos, ingresos y unidades).
+* Hay datos adicionales disponibles en los segmentos de remercadotecnia (pedidos, ingresos y unidades).
 
 ## Segmentos de marketing dinámico{#dynamic-marketing-segments}
 
