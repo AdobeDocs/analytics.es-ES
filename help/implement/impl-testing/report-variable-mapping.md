@@ -1,14 +1,12 @@
 ---
 description: Las tablas siguientes muestran la asignación de informes a variables, o los informes y las variables que contienen.
-keywords: Implementación de Analytics
-seo-description: Las tablas siguientes muestran la asignación de informes a variables, o los informes y las variables que contienen.
-seo-title: Asignación de informes a variables
+keywords: Analytics Implementation
 solution: Analytics
 title: Asignación de informes a variables
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -168,7 +166,7 @@ La tabla siguiente muestra las variables de [!UICONTROL tráfico] que se usan pa
 | Resoluciones de monitor | N.D. | Configurado automáticamente por el archivo .JS |
 | Complementos de Netscape | N.D. | Configurado automáticamente por el archivo .JS |
 | Java | N.D. | Configurado automáticamente por el archivo .JS |
-| Las etiquetas | N.D. | Configurado automáticamente por el archivo .JS |
+| JavaScript | N.D. | Configurado automáticamente por el archivo .JS |
 | Versión de JavaScript | N.D. | Configurado automáticamente por el archivo .JS |
 | Cookies | N.D. | Configurado automáticamente por el archivo .JS |
 | Tipos de conexión | N.D. | Configurado automáticamente por el archivo .JS |
