@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Resumen del flujo de trabajo
 title: Resumen del flujo de trabajo
-uuid: be550622-eadb-4062-a0cb-2d66b2dca92
+uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
