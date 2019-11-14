@@ -1,14 +1,12 @@
 ---
 description: Recopilación de notas de versiones sobre el código H de JavaScript heredado.
-seo-description: Recopilación de notas de versiones sobre el código H de JavaScript heredado.
-seo-title: Código H de JavaScript - Heredado
 solution: Analytics
-subtopic: Notas de la versión
+subtopic: Release notes
 title: Código H de JavaScript - Heredado
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
