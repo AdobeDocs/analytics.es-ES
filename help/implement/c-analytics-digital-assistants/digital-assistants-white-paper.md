@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Implementar Analytics para asistentes digitales
 title: Implementar Analytics para asistentes digitales
 uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
 translation-type: tm+mt
-source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -80,7 +78,7 @@ Cache-Control: no-cache
 
 ## Identificación de usuario/visitante
 
-Adobe Analytics utiliza el servicio [de identidad de](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience Cloud para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven una `userID` que puede utilizar para mantener la actividad para distintos usuarios. En la mayoría de los casos, este valor es lo que se puede pasar como identificador único. Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos. En estos casos, Adobe recomienda que hash el identificador único tenga un valor de longitud fija mediante un algoritmo hash estándar, como MD5 o Sha1.
+Adobe Analytics utiliza el servicio [de identidad de](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience Cloud para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven una `userID` que puede utilizar para mantener la actividad para distintos usuarios. En la mayoría de los casos, este valor es lo que se puede pasar como identificador único. Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos. En estos casos, Adobe recomienda que se hash el identificador único en un valor de longitud fija mediante un algoritmo hash estándar, como MD5 o Sha1.
 
 El uso del servicio de ID proporciona el mayor valor al asignar ECID a distintos dispositivos (por ejemplo, Web a asistente digital). Si la aplicación es móvil, utilice los SDK de la plataforma de experiencia tal cual y envíe el ID de usuario con el `setCustomerID` método . However, if your app is a service, use the user ID provided by the service as the ECID, as well as setting it in `setCustomerID`.
 
@@ -155,7 +153,7 @@ Cache-Control: no-cache
 
 A veces, el asistente digital proporciona a la aplicación entradas que no sabe gestionar. Por ejemplo, "Siri, envía a John 20 bolsas de carbón para cenar anoche desde mi aplicación bancaria"
 
-Cuando esto ocurra, pida a la aplicación que aclare esta situación. Además, envíe datos a Adobe que indiquen que la aplicación tiene un estado de error junto con una eVar que especifique el tipo de error. Asegúrese de incluir errores cuando las entradas no sean correctas y errores cuando la aplicación haya tenido algún problema.
+Cuando esto ocurra, pida a la aplicación que aclare esta situación. Además, envíe datos a Adobe que indiquen que la aplicación tiene un estado de error junto con una eVar que especifique el tipo de error. Asegúrese de incluir errores en los casos en los que las entradas no son correctas y errores en los que la aplicación ha tenido un problema.
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
@@ -169,7 +167,7 @@ Aunque la mayoría de las plataformas no exponen el dispositivo con el que habl�
 
 Ejemplo: `":Audio:Camera:Screen:Video:"`
 
-Los dos puntos principales y finales ayudan a crear segmentos. Por ejemplo, mostrar todas las visitas con `:Audio:` capacidades.
+Los dos puntos al inicio y al final ayudan a crear segmentos. Por ejemplo, mostrar todas las visitas con `:Audio:` capacidades.
 
 * [Capacidades](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference) de Amazon con Amazon Alexa
 * [Capacidades](https://developers.google.com/actions/assistant/surface-capabilities) de Google mediante acciones en Google
