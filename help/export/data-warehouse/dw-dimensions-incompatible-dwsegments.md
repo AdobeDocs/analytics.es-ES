@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Dimensiones no compatibles con los segmentos del Data Warehouse
 title: Dimensiones no compatibles con los segmentos del Data Warehouse
-uuid: ce 772 b 7 a -6 a 30-454 a-a 38 f-d 2 bb 2521 f 0 fb
+uuid: ce772b7a-6a30-454a-a38f-d2bb2521f0fb
 translation-type: tm+mt
-source-git-commit: b732e31da8d144cd0074c2b91c400ceacc84b991
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -14,4 +12,4 @@ source-git-commit: b732e31da8d144cd0074c2b91c400ceacc84b991
 
 <!-- This page is a duplicate of dimension-support.md. Once internal redirects are in place, we can remove this page and point it to dimension-support.md. -->
 
-Ésta es una página temporal. Consulte [Compatibilidad con componentes](component-support.md).
+Esta es una página temporal. Consulte Compatibilidad con [componentes](component-support.md).
