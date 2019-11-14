@@ -1,10 +1,8 @@
 ---
 description: Importe datos de seguimiento de aplicaciones de terceros en Analytics.
-seo-description: Inicie sesión en los conectores de datos; importar datos de seguimiento de aplicaciones de terceros en Analytics, agregar integraciones, consola de conectores de datos.
-seo-title: Conectores de datos de Analytics
 title: Introducción a los conectores de datos de Analytics
 translation-type: tm+mt
-source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,7 +47,7 @@ Debe tener una cuenta actual para acceder a la página de aterrizaje de [!UICONT
 
    En función de la integración de producto individual, puede que deba proporcionar información concreta sobre la configuración como parte del proceso de integración.
 
-   Cuando se completa la integración, el icono del producto asociado aparece en la página Red de Data Connectors y está disponible en los menús.
+   Cuando se completa la integración, el icono del producto asociado se muestra en la página Red de Data Connectors y está disponible en los menús.
 
 ## Consola de Conectores de datos
 
