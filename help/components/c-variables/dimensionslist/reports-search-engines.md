@@ -1,13 +1,11 @@
 ---
-description: Muestran qué motores de búsqueda usan los visitantes, para todas las búsquedas, para las búsquedas pagadas y para las búsquedas naturales.
-seo-description: Muestra los motores de búsqueda que utilizan los visitantes, para todas las búsquedas, para las búsquedas pagas y para las búsquedas naturales.
-seo-title: Motores de búsqueda
+description: Muestra los motores de búsqueda que utilizan los visitantes, para todas las búsquedas, para las búsquedas pagas y para las búsquedas naturales.
 solution: Analytics
 title: Motores de búsqueda
-topic: Informes
+topic: Reports
 uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
