@@ -1,19 +1,17 @@
 ---
 description: 'null'
 keywords: DFA
-seo-description: 'null'
-seo-title: Data Connector de DFA para Adobe Analytics
 solution: Analytics
 title: Data Connector de DFA para Adobe Analytics
-topic: Data Connectors
+topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Data Connector de DFA para Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
+# DFA Data Connector de para Adobe Analytics{#dfa-data-connector-for-adobe-analytics}
 
 En el mercado en línea actual, cada vez más complejo y competitivo, los anunciantes y las agencias en línea deben mejorar continuamente su comprensión del entorno de mercadotecnia en línea y su retorno en gastos de publicidad. Aunque los anunciantes, las agencias, y los publicistas poseen herramientas individuales para ayudarles a lograr estos objetivos, agregar datos manualmente desde sistemas de datos y procesos diferentes puede dañar gravemente la eficacia de las campañas de marketing en línea, dando como resultado un rendimiento de la campaña menos que óptimo, discrepancias de datos y confusión.
 
@@ -64,7 +62,7 @@ La parte de recopilación de datos de la integración de Adobe comienza cuando e
 
 Cuando llegan los datos, o si tardan demasiado tiempo, activa la visita a los servidores de seguimiento de Adobe (3).
 
-El módulo Integrate es un módulo principal y especial de JavaScript de Adobe que hace que se demore la señalización de imagen de Adobe, esperando la solicitud de un tercero durante un período de tiempo específico (`s.maxDelay`). `s.maxDelay` define cuánto tiempo el módulo Integrate esperará los datos del Servidor de Floodlight DFA antes de activar la etiqueta de imagen en el explorador del visitante. Este comportamiento es importante para que los datos básicos del visitante se sigan recopilando, incluso cuando los Servidores de Floodlight DFA no están en funcionamiento o bien tienen una carga intensiva. Si los datos de Floodlight llegan antes de que `s.maxDelay` hayan caducado, los datos de seguimiento de Adobe aún se activarán de forma inmediata, y contendrán los datos de DFA adicionales.
+El módulo Integrate es un módulo principal y especial de JavaScript de Adobe que hace que se demore la señalización de imagen de Adobe, esperando la solicitud de un tercero durante un período de tiempo específico (`s.maxDelay`). `s.maxDelay` define cuánto tiempo esperará el módulo Integrate a los datos del Servidor de Floodlight DFA antes de activar la etiqueta de imagen en el explorador del visitante. Este comportamiento es importante para que los datos básicos del visitante se sigan recopilando, incluso cuando los Servidores de Floodlight DFA no están en funcionamiento o bien tienen una carga intensiva. Si los datos de Floodlight llegan antes de que `s.maxDelay` hayan caducado, los datos de seguimiento de Adobe aún se activarán de forma inmediata, y contendrán los datos de DFA adicionales.
 
 Cuando se agota el tiempo de espera, el código de la página puede especificar un Evento de Informes y análisis de Adobe para utilizarse como Evento de tiempo de espera. Este evento resulta útil a la hora de diagnosticar problemas con la integración, o a la hora de ajustar `s.maxDelay`. En casos donde existen tiempos de espera excesivos, incremente `s.maxDelay`. `s.maxDelay` sin embargo, se puede configurar demasiado alto, en los casos en que los visitantes podrían tener el potencial de abandonar el sitio antes de que caduque el `s.maxDelay` temporizador..
 
