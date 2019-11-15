@@ -1,15 +1,13 @@
 ---
 description: Los clientes pueden comprimir el archivo de la biblioteca JavaScript usando una codificación normalizada, por ejemplo, gzip.
-keywords: Implementación de Analytics
-seo-description: Los clientes pueden comprimir el archivo de la biblioteca JavaScript usando una codificación normalizada, por ejemplo, gzip.
-seo-title: Compresión de archivos
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Resolución de problemas
+subtopic: Troubleshooting
 title: Compresión de archivos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 609fec4b-2732-4ef5-9263-32192e4f0825
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
