@@ -1,14 +1,12 @@
 ---
 description: El Administrador de grupos de informes virtuales permite a los administradores editar, añadir, etiquetar, eliminar, cambiar el nombre, aprobar, copiar, exportar y filtrar grupos de informes virtuales. No es visible para los usuarios que no son administradores.
-keywords: Grupo de informes virtuales
-seo-description: El Administrador de grupos de informes virtuales permite a los administradores editar, añadir, etiquetar, eliminar, cambiar el nombre, aprobar, copiar, exportar y filtrar grupos de informes virtuales. No es visible para los usuarios que no son administradores.
-seo-title: Administrar grupos de informes virtuales
+keywords: Virtual Report Suite
 solution: Analytics
 title: Administrar grupos de informes virtuales
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
