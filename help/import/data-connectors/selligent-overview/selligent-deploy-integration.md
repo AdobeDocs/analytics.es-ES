@@ -1,12 +1,10 @@
 ---
 description: La implementación de esta integración es un proceso sencillo de tres pasos.
-seo-description: La implementación de esta integración es un proceso sencillo de tres pasos.
-seo-title: Implementación de la integración
 solution: Analytics
 title: Implementación de la integración
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -55,7 +53,7 @@ Tan pronto como la integración está habilitada dentro de Adobe Analytics, se a
 
 Se ha creado un rastreador que rastreará cada correo electrónico. Si desea limitarlo a un dominio determinado, actualice la configuración del rastreador.
 
-Se recomienda encarecidamente mover el parámetro de seguimiento de Adobe Analytics en la dirección URL al principio. Esto garantizará que las reglas de procesamiento de Adobe recogen los parámetros de la dirección URL de la página de aterrizaje. Habilite el seguimiento marcando la casilla como se muestra a continuación.
+Se recomienda encarecidamente mover el parámetro de seguimiento de Adobe Analytics en la dirección URL al principio. Esto garantizará que las reglas de procesamiento de Adobe recogen los parámetros de la dirección URL de la página de aterrizaje. Habilite el seguimiento marcando la casilla de verificación como se muestra a continuación.
 
 ![](assets/selligent-tracker.png)
 
@@ -67,7 +65,7 @@ El intercambio de datos tardará unos días en comenzar. Asegúrese de ponerse e
 
 ### Registro de actividades de integración {#section-927e270495db479fba9578915d9ae9c9}
 
-Vaya a la integración selectiva dentro de Conectores de datos. En la ficha **[!UICONTROL Asistencia]** , debería ver eventos como Datos de métricas importados o Datos de clasificación importados correctamente:
+Navegue hasta la integración selectiva dentro de Conectores de datos. En la ficha **[!UICONTROL Asistencia]** , debería ver eventos como Datos de métricas importados o Datos de clasificación importados correctamente:
 
 ![](assets/selligent-verifying.png)
 
