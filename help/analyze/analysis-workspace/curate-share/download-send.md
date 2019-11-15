@@ -1,11 +1,9 @@
 ---
 description: Puede descargar proyectos guardados y sin guardar en los formatos PDF y CSV.
-seo-description: Puede descargar proyectos guardados y sin guardar en los formatos PDF y CSV.
-seo-title: Descarga de archivos PDF o CSV
 title: Descarga de archivos PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,7 +25,7 @@ On April 11, 2019, several changes were made to **[!CSV downloads]** (and **[!Co
 * El separador de miles ya no se incluye. (Se seguirá incluyendo el separador decimal y se respetará el formato definido dentro de **[!UICONTROL Componentes &gt; Configuración de informes &gt; Separador de miles]**).
 * No se muestran símbolos de moneda.
 * No se muestran símbolos de porcentaje.
-* Los porcentajes están en forma decimal; Por ejemplo, el 75% se representa como 0,75.
+* Los porcentajes se expresan en forma decimal; Por ejemplo, el 75% se representa como 0,75.
 * El tiempo se muestra en segundos.
 * Las tablas de cohorte solo muestran valores sin procesar; se eliminan los porcentajes.
 * Si un número no es válido, se muestra una celda vacía.
