@@ -1,13 +1,11 @@
 ---
 description: Cuando un informe tiene una gran cantidad de valores únicos, Adobe proporciona funcionalidad para garantizar que los valores más importantes aparezcan en el informe.
-seo-description: Cuando un informe tiene una gran cantidad de valores únicos, Adobe proporciona funcionalidad para garantizar que los valores más importantes aparezcan en el informe.
-seo-title: Valor de poco tráfico en Adobe Analytics
 solution: Analytics
 title: Valor de poco tráfico en Adobe Analytics
-topic: Métricas
+topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
