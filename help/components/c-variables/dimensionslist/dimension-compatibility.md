@@ -1,10 +1,8 @@
 ---
 title: Compatibilidad de dimensiones de Analytics
-seo-title: Dimensiones y informes de Analytics compatibles con Analysis Workspace, Informes y análisis, o ambos.
 description: Referencia para dimensiones e informes de Analytics.
-seo-description: Dimensiones de Espacio de trabajo de análisis, dimensiones de Informes y análisis, dimensiones, dimensiones de R & A, Dimensiones de espacio de trabajo
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ Recuerde que
 |---|---|
 | Analytics para Target | targetraw |
 | ID de audiencias | mcaudiences |
-| Explorador | browser |
+| Navegador | browser |
 | Tipo de navegador | browsertype |
 | Categoría | category |
 | Ciudades | geocity |
@@ -34,8 +32,8 @@ Recuerde que
 | Compatibilidad con cookies | cookie |
 | Países | geocountry |
 | Lealtad del cliente | customerloyalty |
-| Variables de conversión personalizadas | evar 1, evar 2, etc. |
-| Variables de perspectiva personalizadas | prop 1, prop 2, etc. |
+| Variables de conversión personalizadas | evar1, evar2, etc. |
+| Variables de perspectiva personalizadas | prop1, prop2, etc. |
 | Vínculo personalizado | customlink |
 | Días antes de la primera compra | daysbeforefirstpurchase |
 | Días desde la última compra | dayssincelastpurchase |
@@ -70,7 +68,7 @@ Recuerde que
 | Resolución del monitor | monitorresolution |
 | Sistema operativo | operatingsystem |
 | Dominio de referencia original | referringdomainoriginal |
-| Página | página |
+| Activity Map | página |
 | Páginas no encontradas | pagesnotfound |
 | Producto | producto |
 | Referrer | referrer |
@@ -96,7 +94,7 @@ Recuerde que
 | Tiempo previo al evento | timeprior |
 | Tiempo empleado por visita - General | timespent |
 | Profundidad de la visita | pathlength |
-| Número de visitas | visitnumber |
+| Número de visita | visitnumber |
 | Código postal | zip |
 
 ## Dimensiones compatibles únicamente con Analysis Workspace
@@ -198,7 +196,7 @@ Reports &amp; Analytics contiene varios informes preconfigurados que, o bien no 
 * DRM
 * Páginas de entrada
 * Páginas de salida
-* Visitas en el orden previsto
+* Abandono
 * Rutas completas
 * ICities
 * Servicios de información
@@ -239,7 +237,7 @@ Reports &amp; Analytics contiene varios informes preconfigurados que, o bien no 
 * Dominios de nivel superior
 * DMA de EE. UU.
 * Estados de EE. UU.
-* Número de visitas
+* Número de visita
 * Página principal del visitante
 
 ## Dimensiones de reconocimiento de contenido compatibles con Reports &amp; Analytics y con Analysis Workspace
@@ -360,7 +358,7 @@ Reports &amp; Analytics contiene varios informes preconfigurados que, o bien no 
 | AMO EF ID | amo_ef_id |
 | ID de AMO | amo_cid |
 
-### Activity Map
+### Activity Map 
 
 | Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
