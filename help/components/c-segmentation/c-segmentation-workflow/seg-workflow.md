@@ -1,13 +1,11 @@
 ---
 description: Describe un flujo de trabajo sugerido para los segmentos creados con el Generador de segmentos y administrados con el Administrador de segmentos.
-seo-description: Describe un flujo de trabajo sugerido para los segmentos creados con el Generador de segmentos y administrados con el Administrador de segmentos.
-seo-title: Resumen del flujo de trabajo de segmentación
 solution: Analytics
 title: Resumen del flujo de trabajo de segmentación
-topic: Segmentos
+topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 29bff19e4d33402e8fb65192d7eee134c76c537d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
