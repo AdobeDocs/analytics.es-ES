@@ -1,13 +1,11 @@
 ---
 description: El informe de descripción general de canal de marketing está diseñado para ofrecer una perspectiva de alto nivel de los métodos más efectivos para que los clientes lleguen al sitio. Utilice este informe para asignar métricas de éxito e ingresos a diversos canales. También puede ver las palabras clave o campañas específicas más exitosas dentro de cada canal. Contiene su propia y única interfaz, lo que permite ver métricas de primer y último toque al mismo tiempo.
-seo-description: El informe de descripción general de canal de marketing está diseñado para ofrecer una perspectiva de alto nivel de los métodos más efectivos para que los clientes lleguen al sitio. Utilice este informe para asignar métricas de éxito e ingresos a diversos canales. También puede ver las palabras clave o campañas específicas más exitosas dentro de cada canal. Contiene su propia y única interfaz, lo que permite ver métricas de primer y último toque al mismo tiempo.
-seo-title: Descripción general de canal de marketing
 solution: Analytics
 title: Descripción general de canal de marketing
-topic: Informes
+topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
