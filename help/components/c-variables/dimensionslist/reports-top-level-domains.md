@@ -1,13 +1,11 @@
 ---
 description: Muestra el impacto que los clientes de distintos países tuvieron sobre las métricas de éxito. Esta dimensión identifica las regiones del mundo de las que provienen los visitantes en función de la extensión de su dominio de origen.
-seo-description: Muestra el impacto que los clientes de distintos países tuvieron sobre las métricas de éxito. Esta dimensión identifica las regiones del mundo de las que provienen los visitantes en función de la extensión de su dominio de origen.
-seo-title: Dominios de nivel superior
 solution: Analytics
 title: Dominios de nivel superior
-topic: Informes
+topic: Reports
 uuid: c40ba9bc-fbf2-4e50-9117-6c5947e6675b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
