@@ -1,15 +1,13 @@
 ---
 description: Analytics contabiliza una visita cada vez que se produce una llamada al servidor con un Número de página de visita igual a 1.
-keywords: Implementación de Analytics
-seo-description: Analytics contabiliza una visita cada vez que se produce una llamada al servidor con un Número de página de visita igual a 1.
-seo-title: Visitas
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Visitantes
+subtopic: Visitors
 title: Visitas
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
