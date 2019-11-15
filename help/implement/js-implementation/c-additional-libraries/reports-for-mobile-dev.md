@@ -1,14 +1,12 @@
 ---
 description: El seguimiento de los dispositivos móviles se realiza mediante una señalización, al igual que ocurre con otros visitantes, por lo que la mayoría de los informes se encuentran disponibles y son correctos.
-keywords: Implementación de Analytics, informes, protocolos móviles, motores de búsqueda, palabras clave de búsqueda, dominios referentes, referentes, geosegmentación, dominios, tipo de conexión, zona horaria, cookies, java, javascript, colores de monitor, resolución del monitor, ancho del explorador, altura, complemento netscape
-seo-description: El seguimiento de los dispositivos móviles se realiza mediante una señalización, al igual que ocurre con otros visitantes, por lo que la mayoría de los informes se encuentran disponibles y son correctos.
-seo-title: Informes para dispositivos con protocolos móviles
+keywords: Analytics Implementation;reports;mobile protocols;search engines;search keywords;referring domains;referrers;geosegmentation;domains;connection type;time zone;cookies;java;javascript;monitor colors;monitor resolution;browser width;height;netscape plug-in
 solution: Analytics
 title: Informes para dispositivos con protocolos móviles
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
