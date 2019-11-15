@@ -1,14 +1,12 @@
 ---
 description: El control de rutas se define como la ruta que los usuarios siguen en su sitio.
-keywords: Implementación de Analytics
-seo-description: El control de rutas se define como la ruta que los usuarios siguen en su sitio.
-seo-title: Información general sobre rutas
+keywords: Analytics Implementation
 solution: Analytics
 title: Información general sobre rutas
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
