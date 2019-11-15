@@ -1,13 +1,11 @@
 ---
 description: Muestra la cantidad de visitas realizadas al sitio web durante un período determinado.
-seo-description: Muestra la cantidad de visitas realizadas al sitio web durante un período determinado.
-seo-title: Visitas
 solution: Analytics
 title: Visitas
-topic: Informes
+topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
