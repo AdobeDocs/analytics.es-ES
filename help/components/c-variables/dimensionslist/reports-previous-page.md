@@ -1,13 +1,11 @@
 ---
 description: Informe de rutas que proporciona un análisis detallado de las rutas del sitio al señalar las páginas del sitio a las que accedieron los visitantes antes de ver una página seleccionada del sitio.
-seo-description: Informe de rutas que proporciona un análisis detallado de las rutas del sitio al señalar las páginas del sitio a las que accedieron los visitantes antes de ver una página seleccionada del sitio.
-seo-title: Página anterior
 solution: Analytics
 title: Página anterior
-topic: Informes
+topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
