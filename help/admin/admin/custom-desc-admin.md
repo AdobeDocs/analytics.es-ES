@@ -1,13 +1,11 @@
 ---
 description: Puede proporcionar descripciones personalizadas de informe para eVars, propiedades, clasificaciones y eventos. Todos los usuarios finales pueden ver las descripciones.
-seo-description: Puede proporcionar descripciones personalizadas de informe para eVars, propiedades, clasificaciones y eventos. Todos los usuarios finales pueden ver las descripciones.
-seo-title: Descripciones personalizadas de informe
 solution: Analytics
 title: Descripciones personalizadas de informe
-topic: Herramientas de administración
+topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ Puede proporcionar descripciones personalizadas de informe para eVars, propiedad
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **** de informes &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL *variable*]**
 
-> [!NOTE] La adición de descripciones está disponible para las clasificaciones más tradicionales, pero no actualmente para las clasificaciones móviles.
+> [!NOTE] La adición de descripciones está disponible para la mayoría de las clasificaciones tradicionales, pero no actualmente para las clasificaciones móviles.
 
 ![](assets/report_descriptions.png)
 
