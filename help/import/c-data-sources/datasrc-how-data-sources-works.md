@@ -1,14 +1,12 @@
 ---
 description: Información sobre los métodos de Adobe para proporcionar acceso a fuentes de datos.
-seo-description: Información sobre los métodos de Adobe para proporcionar acceso a fuentes de datos.
-seo-title: Funcionamiento de las fuentes de datos
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Funcionamiento de las fuentes de datos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 Información sobre los métodos de Adobe para proporcionar acceso a fuentes de datos.
 
-> [!NOTE] Una vez enviados mediante las fuentes de datos, los datos importados no se distinguen de los datos de informes recopilados mediante otros métodos (señalización JavaScript, ActionSource, API de inserción de datos, etc.). Los datos no se pueden eliminar después de importarlos.
+> [!NOTE] Una vez enviados a través de las fuentes de datos, los datos importados no se distinguen de los datos de informes recopilados mediante otros métodos (señalización JavaScript, ActionSource, API de inserción de datos, etc.). Los datos no se pueden eliminar después de importarlos.
 
 ![](assets/data_sources_overview.png)
 
