@@ -1,14 +1,12 @@
 ---
 description: Las alertas inteligentes le permiten crear y gestionar alertas en Analysis Workspace, con vista previa de alertas y contribución de reglas.
-keywords: Implementación de Analytics, alerta, anomalías, anomalía, correo electrónico, sms, varias métricas, múltiples métricas
-seo-description: Las alertas inteligentes le permiten crear y gestionar alertas en Analysis Workspace, con vista previa de alertas y contribución de reglas.
-seo-title: Alertas
+keywords: Analytics Implementation;alert;anomalies;anomaly;email;sms;multiple metrics
 solution: Analytics
 title: Alertas
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
