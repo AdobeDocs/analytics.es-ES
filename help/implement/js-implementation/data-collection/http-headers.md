@@ -1,14 +1,12 @@
 ---
 description: Los encabezados de solicitud y respuesta HTTP se usan para recopilar datos adicionales a los que recopila AppMeasurement. En esta sección se describen los encabezados utilizados durante la recopilación de datos.
-keywords: Implementación de Analytics
-seo-description: Los encabezados de solicitud y respuesta HTTP se usan para recopilar datos adicionales a los que recopila AppMeasurement. En esta sección se describen los encabezados utilizados durante la recopilación de datos.
-seo-title: Encabezados HTTP de recopilación de datos
+keywords: Analytics Implementation
 solution: Analytics
 title: Encabezados HTTP de recopilación de datos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
