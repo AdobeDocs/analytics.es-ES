@@ -1,24 +1,22 @@
 ---
 description: El seguimiento de las descargas de archivos y los vínculos de salida se puede realizar automáticamente en función de los parámetros configurados en el archivo de AppMeasurement para JavaScript.
-keywords: Implementación de análisis
-seo-description: El seguimiento de las descargas de archivos y los vínculos de salida se puede realizar automáticamente en función de los parámetros configurados en el archivo de AppMeasurement para JavaScript.
-seo-title: Función s.tl() - Seguimiento de vínculos
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Seguimiento de vínculos
+subtopic: Link tracking
 title: Función s.tl() - Seguimiento de vínculos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Función s.tl() - Seguimiento de vínculos
 
-Si su organización prefiere tener más control sobre los vínculos que rastrear y su comportamiento, se recomienda el seguimiento manual de vínculos. Utilice la función s.tl() para enviar manualmente solicitudes de imagen de seguimiento de vínculos con el contenido exacto deseado. Si el seguimiento de vínculos básico es todo lo que se necesita, consulte `s.trackDownloadLinks` y `s.trackExternalLinks` en [Variables](c-variables/configuration-variables.md)de configuración. Los vínculos personalizados no se pueden rastrear automáticamente.
+Si su organización prefiere tener más control sobre los vínculos quiere rastrear y su comportamiento, se recomienda utilizar un seguimiento manual de vínculos. Utilice la función s.tl() para enviar manualmente solicitudes de imagen de seguimiento de vínculos con el contenido exacto deseado. Si el seguimiento de vínculos básico es todo lo que se necesita, consulte `s.trackDownloadLinks` y `s.trackExternalLinks` en [Variables de configuración](c-variables/configuration-variables.md). Los vínculos personalizados no se pueden rastrear automáticamente.
 
-> [!NOTE] El código de seguimiento de vínculos suele ser muy específico para el sitio y para las necesidades de informes. Adobe recomienda una experiencia de implementación previa o un consultor de implementación para comprender cómo utilizar esta función según sus necesidades comerciales.
+> [!NOTE] El código de seguimiento de vínculos suele ser muy específico para el sitio y para las necesidades derivadas de los informes. Se recomienda contar con experiencia de implementación previa o con un consultor de implementación para comprender cómo utilizar esta función de acuerdo con sus necesidades comerciales.
 
 ## Sintaxis y ejemplos
 
@@ -42,8 +40,8 @@ s.tl(this,'o','Example Link');
 
 El primer argumento determina si el explorador espera hasta 500 ms antes de salir de la página. Si una solicitud de imagen se envía antes de 500 ms, la página se desplaza inmediatamente al vínculo donde se hizo clic.
 
-* `this`:: Espere hasta 500 ms para que AppMeasurement tenga tiempo de enviar una solicitud de imagen. Valor predeterminado.
-* `true`:: No espere. Si el vínculo sale de la página, es posible que no se envíe una solicitud de imagen.
+* `this`: Esperar hasta 500 ms para que AppMeasurement tenga tiempo de enviar una solicitud de imagen. Valor predeterminado.
+* `true`: No esperar. Si el vínculo sale de la página, es posible que no se envíe una solicitud de imagen.
 
 La demora solo es necesaria cuando un vínculo abandona la página.
 
@@ -57,11 +55,11 @@ s.tl(true,'o','Example link');
 
 ### linkType (requerido)
 
-El segundo argumento tiene tres valores válidos según el tipo de vínculo que desee capturar. Determina qué dimensión de Adobe Analytics llena la solicitud de imagen.
+El segundo argumento tiene tres posibles valores, en función del tipo de vínculo que se desea capturar. Determina qué dimensión de Adobe Analytics se utiliza en la solicitud de imagen.
 
 * `d`: Descargas de archivos
 * `e`: Vínculos de salida
-* `o`:: Vínculos personalizados
+* `o`: Vínculos personalizados
 
 ```JavaScript
 // Populates the File Downloads dimension
@@ -92,10 +90,10 @@ Permite cambiar los valores de las variables para una sola llamada. Si utiliza e
 
 ### doneAction (opcional)
 
-Especifica una acción de navegación que se ejecutará después de que se complete la llamada de seguimiento de vínculos. Requiere el uso de `s.useForcedLinkTracking` y `s.forcedLinkTrackingTimeout`. The doneAction variable can be the string `navigate`, which causes the method to set `document.location` to the href attribute of `linkObject`. La variable doneAction también puede ser una función que permita una mayor personalización.
+Especifica una acción de navegación que se ejecutará después de que se complete la llamada de seguimiento de vínculos. Requiere el uso de `s.useForcedLinkTracking` y `s.forcedLinkTrackingTimeout`. La variable doneAction puede ser la cadena `navigate`, lo que hace que el método configure `document.location` como el atributo href de `linkObject`. La variable doneAction también puede ser una función que permita una mayor personalización.
 
 Si se proporciona un valor para doneAction en un evento `onClick``false` con delimitador, debe devolver después de la llamada a `s.tl` para evitar la navegación predeterminada del explorador.
-To mirror the default behavior and follow the URL specified by the href attribute, provide a string of `navigate` as the doneAction. De forma opcional, puede proporcionar su propia función para que se ocupe del evento de navegación pasando esta función como doneAction.
+Para imitar el comportamiento predeterminado y seguir la dirección URL especificada por el atributo href, proporcione una cadena `navigate` como doneAction. De forma opcional, puede proporcionar su propia función para que se ocupe del evento de navegación pasando esta función como doneAction.
 
 ```JavaScript
 s.tl(this,'e','Example link',null,'navigate');return false;
@@ -122,7 +120,7 @@ function trackClickInteraction(name){
 
 ## Evitar recuentos de vínculos duplicados {#section_9C3F73DE758F4727943439DED110543C}
 
-Es posible que los vínculos se cuenten dos veces en situaciones en las que el seguimiento automático de descargas de archivos o vínculos de salida captura normalmente el vínculo. For example, if you are tracking PDF downloads automatically, an `s.tl` call results in a duplicate download count:
+Puede ocurrir que un vínculo se cuente dos veces si suele capturarse mediante la descarga automática de archivos o en el seguimiento de vínculos de salida. Por ejemplo, si rastrea descargas de PDF de forma automática, una llamada a `s.tl` generará un recuento de descargas duplicado:
 
 ```JavaScript
 function trackDownload(obj) {}
