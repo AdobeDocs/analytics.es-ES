@@ -1,15 +1,13 @@
 ---
 description: Escribe un valor en una cookie.
-keywords: Implementación de Analytics
-seo-description: Escribe un valor en una cookie.
-seo-title: Util.cookieWrite
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
