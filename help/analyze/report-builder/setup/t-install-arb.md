@@ -1,13 +1,11 @@
 ---
 description: Pasos que describen cómo instalar el Creador de informes.
-seo-description: Pasos que describen cómo instalar el Creador de informes.
-seo-title: Instalación del Report Builder
 solution: Analytics
 title: Instalación del Report Builder
-topic: Creador de informes
+topic: Report builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
