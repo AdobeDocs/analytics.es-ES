@@ -1,14 +1,12 @@
 ---
 description: La variable de conversión de perspectiva personalizada (o eVar) se coloca en el código de Adobe en las páginas web del sitio seleccionadas. Su principal función es segmentar las métricas de éxito de conversión en los informes de marketing personalizados. Una eVar puede basarse en visitas y funcionar de modo similar a las cookies. Los valores pasados a las variables eVar siguen al usuario durante un período de tiempo predeterminado.
 keywords: eVar
-seo-description: La variable de conversión de perspectiva personalizada (o eVar) se coloca en el código de Adobe en las páginas web del sitio seleccionadas. Su principal función es segmentar las métricas de éxito de conversión en los informes de marketing personalizados. Una eVar puede basarse en visitas y funcionar de modo similar a las cookies. Los valores pasados a las variables eVar siguen al usuario durante un período de tiempo predeterminado.
-seo-title: Variables de conversión (eVar)
 solution: Analytics
 title: Variables de conversión (eVar)
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -79,7 +77,7 @@ Descripciones de los campos utilizados al [editar variables](/help/admin/admin/c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Estado</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Define el estado de la eVar: </p> <p><b></b> Deshabilitado</span>: Deshabilita la eVar. Quita la eVar de la lista de variables de conversión. </p> <p> <b></b> Sin subrelaciones</span>:Impide que se desglose la eVar con una subrelación. </p> <p> <b>Subrelaciones</b>básicas: </span>Permite desglosar una eVar en cualquier informe con subrelaciones completas (por ejemplo, Productos o Campaña). </p> </td> 
+   <td colname="col2"> <p>Define el estado de la eVar: </p> <p><b></b> Deshabilitado</span>: Deshabilita la eVar. Quita la eVar de la lista de variables de conversión. </p> <p> <b></b> Sin subrelaciones</span>: Impide que se desglose la eVar con una subrelación. </p> <p> <b>Subrelaciones</b>básicas: </span>Permite desglosar una eVar en cualquier informe con subrelaciones completas (por ejemplo, Productos o Campaña). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol">Restaurar</span> </p> </td> 
@@ -87,7 +85,7 @@ Descripciones de los campos utilizados al [editar variables](/help/admin/admin/c
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Comercialización</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Las variables de comercialización pueden seguir una de dos sintaxis: </p> <p> <b></b> Sintaxis</span>de productos: Asocia el valor de eVar a un producto. Nota: Si la sintaxis de los productos se selecciona, la sección de Evento de enlace de comercialización se desactiva y no se puede seleccionar para la edición. Para esta sintaxis, los eventos de enlace no son aplicables. </p> </p> <p> <b></b> Sintaxis</span>de la variable de conversión: Asocia la eVar con un producto solo si se produce un evento de enlace. En este caso, usted selecciona los eventos que actúan como eventos de enlace. </p> <p>Si cambia este valor sin actualizar adecuadamente el código JavaScript, se perderán datos. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html">Variables de comercialización</a>. </p> </td> 
+   <td colname="col2"> <p>Las variables de comercialización pueden seguir una de dos sintaxis: </p> <p> <b></b> Sintaxis</span>de productos: Asocia el valor de la eVar a un producto. Nota: Si la sintaxis de los productos se selecciona, la sección de Evento de enlace de comercialización se desactiva y no se puede seleccionar para la edición. Para esta sintaxis, los eventos de enlace no son aplicables. </p> </p> <p> <b></b> Sintaxis</span>de la variable de conversión: Asocia la eVar con un producto solo si se produce un evento de enlace. En este caso, usted selecciona los eventos que actúan como eventos de enlace. </p> <p>Si cambia este valor sin actualizar adecuadamente el código JavaScript, se perderán datos. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html">Variables de comercialización</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento de enlace de comercialización</span> </p> <p>(solo eVar) </p> </td> 
