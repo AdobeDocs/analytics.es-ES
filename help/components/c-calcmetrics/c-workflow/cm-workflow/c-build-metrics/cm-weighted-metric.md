@@ -1,11 +1,9 @@
 ---
 description: Muestra ejemplos de métricas filtradas y ponderadas.
-seo-description: Muestra ejemplos de métricas filtradas y ponderadas.
-seo-title: Métricas filtradas y ponderadas
 title: Métricas filtradas y ponderadas
-uuid: 8 c 4 ed 912-68 a 3-4896-91 c 8-aa 7 daffae 6 a 9
+uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
