@@ -1,13 +1,11 @@
 ---
 description: Muestra dónde los visitantes abandonan una secuencia preestablecida de páginas o la continúan. y señala las tasas de conversión y de abandono a lo largo de cada paso de la secuencia. Por ejemplo, se puede hacer un seguimiento de dónde los visitantes abandonan la secuencia prevista a lo largo del proceso de compra. Para ello se selecciona un punto inicial y un punto de conclusión y se agregan puntos intermedios para crear una ruta de navegación del sitio web.
-seo-description: Muestra dónde los visitantes abandonan una secuencia preestablecida de páginas o la continúan. y señala las tasas de conversión y de abandono a lo largo de cada paso de la secuencia. Por ejemplo, se puede hacer un seguimiento de dónde los visitantes abandonan la secuencia prevista a lo largo del proceso de compra. Para ello se selecciona un punto inicial y un punto de conclusión y se agregan puntos intermedios para crear una ruta de navegación del sitio web.
-seo-title: Abandono
 solution: Analytics
 title: Abandono
-topic: Informes
+topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
