@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Cumplimiento de GDPR/ePrivacy y reenvío de servidor
 title: Cumplimiento de GDPR/ePrivacy y reenvío de servidor
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -34,11 +32,11 @@ Siga los pasos indicados en función del método de implementación.
 
 ## Elaboración de informes (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-Puede utilizar Adobe Analytics para informar sobre la cantidad de tráfico que se basa en el consentimiento y, como resultado, se reenvía en el servidor en comparación con la cantidad de tráfico que no se basa en el consentimiento y que no se reenvía a AAM.
+Puede utilizar Adobe Analytics para informar sobre la cantidad de tráfico que se basa en el consentimiento y, como resultado, se ha reenviado en el servidor en comparación con la cantidad de tráfico que no se basa en el consentimiento y que no se ha reenviado a AAM.
 
 Para configurar este tipo de informes, asigne la nueva variable contextual a una variable de tráfico personalizado (prop) mediante reglas de procesamiento. Para ello, haga lo siguiente:
 
-1. Implementar la variable "cm.ssf" (como se muestra arriba).
+1. Implemente la variable "cm.ssf" (como se muestra arriba).
 1. [Habilite el elemento prop.](/help/admin/admin/c-traffic-variables/traffic-var.md)
 1. Utilice reglas de procesamiento para asignar la variable contextual al elemento prop.
 
