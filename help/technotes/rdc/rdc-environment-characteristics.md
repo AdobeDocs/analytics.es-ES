@@ -1,10 +1,8 @@
 ---
 title: Características del entorno de recopilación de datos regionales (RDC)
-seo-title: Características del entorno de RDC de Adobe Analytics
 description: null
-seo-description: null
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ Según la implementación, podría estar usando cookies de origen o de terceros.
 
 ## Páginas seguras
 
-Si el sitio contiene páginas que utilizan el protocolo https, se han protegido las páginas. La mayoría de las vistas de página rastreadas por Adobe Analytics se aseguran mediante el protocolo https. Las páginas seguras requieren un certificado SSL para el seguimiento. Si la propiedad web utiliza cookies de terceros, las páginas seguras utilizan un certificado SSL propiedad de Adobe, que permite que los datos se envíen a nuestros servidores de recopilación de datos de forma segura sin una implementación de FPSSL.
+Si el sitio contiene páginas que utilizan el protocolo https, se han asegurado las páginas. La mayoría de las vistas de página rastreadas por Adobe Analytics se aseguran mediante el protocolo https. Las páginas seguras requieren un certificado SSL para el seguimiento. Si la propiedad web utiliza cookies de terceros, las páginas seguras utilizan un certificado SSL propiedad de Adobe, que permite que los datos se envíen a nuestros servidores de recopilación de datos de forma segura sin una implementación de FPSSL.
 
 ## Cambios DNS (actualización de CNAME)
 
