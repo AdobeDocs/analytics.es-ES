@@ -1,13 +1,11 @@
 ---
 description: Los segmentos son subconjuntos de datos o datos filtrados mediante reglas que se han creado. Los segmentos se basan en visitas y visitantes.
-seo-description: Los segmentos son subconjuntos de datos o datos filtrados mediante reglas que se han creado. Los segmentos se basan en visitas y visitantes.
-seo-title: Segmentación de Analytics
 solution: Analytics
 title: Segmentación de Analytics
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
