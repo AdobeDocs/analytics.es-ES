@@ -1,14 +1,12 @@
 ---
 description: La tabla de búsqueda para determinar el tipo de visita basándose en el valor de page_event.
-keywords: Fuente de datos;página;evento;page_event;post_page_event
-seo-description: La tabla de búsqueda para determinar el tipo de visita basándose en el valor de page_event.
-seo-title: Búsqueda de eventos de página
+keywords: Data Feed;page;event;page_event;post_page_event
 solution: Analytics
 title: Búsqueda de eventos de página
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +30,7 @@ La tabla de búsqueda para determinar el tipo de visita basándose en el valor d
    <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 para las llamadas <code> trackState </code> desde los SDK para móviles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Seguimiento de vínculos </td> 
+   <td colname="col1"> Seguimiento de vínculos  </td> 
    <td colname="col02"> <p>10 para "otro vínculo" </p> <p>10 para llamadas <code> trackAction </code> y del ciclo vital desde los SDK para móviles. </p> <p>11 para "vínculo de descarga" </p> <p>12 para "vínculo externo o de salida" </p> </td> 
    <td colname="col2"> <p>100 para "otro vínculo" </p> <p>100 para llamadas <code> trackAction </code> y del ciclo vital desde los SDK para móviles. </p> <p>101 para "vínculo de descarga" </p> <p>102 para "vínculo externo o de salida" </p> </td> 
   </tr> 
