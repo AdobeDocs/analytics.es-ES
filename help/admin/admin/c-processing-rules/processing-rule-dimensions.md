@@ -1,14 +1,12 @@
 ---
 description: Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contrario) con reglas de procesamiento.
-seo-description: Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contrario) con reglas de procesamiento.
-seo-title: Dimensiones disponibles para las reglas de procesamiento
 solution: Analytics
-subtopic: Reglas de procesamiento
+subtopic: Processing rules
 title: Dimensiones disponibles para las reglas de procesamiento
-topic: Herramientas de administración
+topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
