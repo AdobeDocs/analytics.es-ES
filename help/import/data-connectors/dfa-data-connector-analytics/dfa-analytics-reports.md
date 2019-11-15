@@ -1,14 +1,12 @@
 ---
 description: Una vez que los servidores de recopilación de Adobe® y DFA se pueden comunicar, puede generar informes en Informes y análisis que incluyen datos de DFA.
 keywords: DFA
-seo-description: Una vez que los servidores de recopilación de Adobe® y DFA se pueden comunicar, puede generar informes en Informes y análisis que incluyen datos de DFA.
-seo-title: Informes de Analytics que usan datos de DFA
 solution: Analytics
 title: Informes de Analytics que usan datos de DFA
-topic: Data Connectors
+topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
