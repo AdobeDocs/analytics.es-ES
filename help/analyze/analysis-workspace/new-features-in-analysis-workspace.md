@@ -1,14 +1,12 @@
 ---
 description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Nuevas funciones de Analysis Workspace.
-seo-title: Novedades en Analysis Workspace
 solution: Analytics
 title: Novedades en Analysis Workspace
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -37,7 +35,7 @@ Nuevas funciones y mejoras publicadas el 17 de enero de 2019.
 
 | Función | Descripción |
 |--- |--- |
-| [Análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Las principales mejoras realizadas en Análisis de cohorte le permiten:<ul><li>Aplicar una inclusión de segmento y devolver métricas por separado. </li><li>Mostrar la pérdida en lugar de la retención.</li><li>Mostrar tablas de latencia (tiempo transcurrido antes y después de un evento de inclusión).</li><li>Personalizar la dimensión de cohorte (para agrupar visitantes en función de una eVar, no solo el tiempo).</li><li>Realice un cálculo de cohorte móvil: calcule la retención/reproducción en base a un período de tiempo anterior, no la cohorte original. </li><li>Añada múltiples métricas en campos de inclusión y devolución, y aplique segmentos. (No se admiten las métricas calculadas)</li></ul> |
+| [Análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Las principales mejoras realizadas en Análisis de cohorte le permiten:<ul><li>Aplicar una inclusión de segmento y devolver métricas por separado. </li><li>Mostrar la pérdida en lugar de la retención.</li><li>Mostrar tablas de latencia (tiempo transcurrido antes y después de un evento de inclusión).</li><li>Personalizar la dimensión de cohorte (para agrupar visitantes en función de una eVar, no solo el tiempo).</li><li>Realice un cálculo de cohorte móvil: calcule la retención/reproducción en base a un período de tiempo anterior, no a la cohorte original. </li><li>Añada múltiples métricas en campos de inclusión y devolución, y aplique segmentos. (No se admiten las métricas calculadas)</li></ul> |
 | [Ver densidad](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Esta nueva configuración le permite ver más datos en una sola pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte. Puede acceder a ella desde Proyecto &gt; Info y configuración del proyecto. |
 | [Compatibilidad con variables de diversos valores en Attribution IQ](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Algunas dimensiones en Analytics pueden contener múltiples valores en una sola visita, como listVars, la variable de producto, las props de lista o eVars de merchandising. Analysis Workspace permite aplicar Attribution IQ a cualquiera de estos tipos de variables en el nivel de visita. |
 | Mejoras en el rendimiento | Mejoras de velocidad en las visualizaciones de desgloses: los proyectos con muchos desgloses se cargarán más rápido. |
@@ -326,7 +324,7 @@ Nueva función y mejoras publicadas el 8 de febrero de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >Mejora en los porcentajes de las columnas</a> </p> </td> 
-   <td colname="col2"> <p>El "porcentaje del total" mostrado en las columnas tenía un límite del 100%, incluso cuando ciertos escenarios llevan a que las filas superen el 100% del total (por ejemplo, con promedios). </p> <p>Ahora se muestran porcentajes superiores al 100 % para ofrecer una mayor precisión. También hemos incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. </p> </td> 
+   <td colname="col2"> <p>El "porcentaje del total" mostrado en las columnas tenía un límite del 100%, incluso cuando ciertos escenarios llevaban a que las filas superaran el 100% del total (por ejemplo, con promedios). </p> <p>Ahora se muestran porcentajes superiores al 100 % para ofrecer una mayor precisión. También hemos incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Posibilidad de usar el formato condicional en los desgloses </a> </p> </td> 
@@ -905,7 +903,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
 Nuevas funciones lanzadas el 16 de junio de 2016:
 
 * [Nuevo permiso](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) de grupo que permite a los administradores permitir o denegar el acceso de los usuarios a la ficha **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]** . Desde el 16 de junio de 2016, todos los usuarios tienen acceso a esta pestaña. Para denegar el acceso, solo tiene que eliminar usuarios del grupo Acceso a Analysis Workspace.
-*  El [El panel Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) detecta las diferencias más significativas estadísticamente entre dos segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso.
+* El [El panel Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) detecta las diferencias más significativas estadísticamente entre dos segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso.
 * [Estructura del Nuevo menú de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) que reorganiza el menú de la parte superior y lo hace más extensible. Por ejemplo, para crear un **Panel de cohorte nuevo** ahora tiene que crear un Panel en blanco y arrastrarlo hasta una visualización de Tabla de cohorte.
 * [Nuevo carril izquierdo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): paneles, visualizaciones, componentes
 * Un nuevo tipo de [](/help/analyze/analysis-workspace/visualizations/venn.md)Visualización Venn le permite arrastrar hasta tres segmentos y una métrica y construir un diagrama de Venn.
