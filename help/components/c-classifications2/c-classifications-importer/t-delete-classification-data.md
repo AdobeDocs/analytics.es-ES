@@ -1,14 +1,12 @@
 ---
 description: Instrucciones sobre cómo eliminar o quitar datos de clasificación.
-seo-description: Instrucciones sobre cómo eliminar o quitar datos de clasificación.
-seo-title: Eliminar datos de clasificación
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: Eliminar datos de clasificación
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
