@@ -1,13 +1,11 @@
 ---
 description: La sección Programar picos permite avisar a Adobe de los picos de tráfico temporales, para que se puedan asignar los recursos adecuados.
-seo-description: La sección Programar picos permite avisar a Adobe de los picos de tráfico temporales, para que se puedan asignar los recursos adecuados.
-seo-title: Programar un pico de tráfico
 solution: Analytics
 title: Programar un pico de tráfico
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 350bebc0-0593-4ee7-b7e2-7848d9f5726b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
