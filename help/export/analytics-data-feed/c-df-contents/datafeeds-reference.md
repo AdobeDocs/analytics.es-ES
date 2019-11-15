@@ -1,15 +1,13 @@
 ---
 description: Datos de tabla que describen las columnas de las fuentes de datos.
-keywords: Fuente de datos;columnas
-seo-description: Datos de tabla que describen las columnas de las fuentes de datos.
-seo-title: Referencia de columnas de datos
+keywords: Data Feed;columns
 solution: Analytics
-subtopic: fuentes de datos
+subtopic: data feeds
 title: Referencia de columnas de datos
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -31,12 +29,12 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | aemassetsource | Identifica la fuente del evento de recursos. Se utiliza en Adobe Experience Manager. | varchar(255) |
 | aemclickedassetid | ID de recurso de un recurso de Adobe Experience Manager. Incrementa los eventos de clic. | varchar(255) |
 | browser | ID numérica del explorador. Se remite a la tabla de búsqueda de browser.tsv. | int sin firmar |
-| browser_height | Altura de la ventana del explorador en píxeles. | smallint sin firmar |
-| browser_width | Anchura de la ventana del explorador en píxeles. | smallint sin firmar |
+| browser_height | Altura de la ventana del explorador en píxeles. | viruela sin firmar |
+| browser_width | Anchura de la ventana del explorador en píxeles. | viruela sin firmar |
 | c_color | Profundidad de bits de la paleta de colores. Se utiliza en el cálculo de la dimensión Profundidad de color. Utiliza la función de JavaScript screen.colorDepth(). | char(20) |
 | campaign | Variable utilizada en la dimensión Código de seguimiento. | varchar(255) |
 | carrier | Variable de integración de Adobe Advertising Cloud. Especifica el operador de telefonía móvil. Se remite a la tabla de búsqueda de operadores. | varchar(100) |
-| channel | Variable utilizada en la dimensión Secciones del sitio. | varchar(100) |
+| canal | Variable utilizada en la dimensión Secciones del sitio. | varchar(100) |
 | click_action | Ya no se utiliza. Dirección de vínculos en los que se ha hecho clic en la herramienta heredada Clickmap. | varchar(100) |
 | click_action_type | Ya no se utiliza. Tipo de vínculo de la herramienta heredada Clickmap.<br>0: HREF URL<br>1: ID<br>2 personalizada: Evento<br>onClick de JavaScript 3: Elemento de formulario | tinyint sin firmar |
 | click_context | Ya no se utiliza. Nombre de la página en la que se ha hecho clic en vínculo. Forma parte de la herramienta heredada Clickmap. | varchar(255) |
@@ -48,10 +46,10 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | clickmappage | Página de Activity Map | varchar(255) |
 | clickmapregion | Región de Mapa de actividades | varchar(255) |
 | code_ver | Versión de la biblioteca de AppMeasurement que se ha utilizado para compilar y enviar la solicitud de imagen. | char(16) |
-| color | ID de profundidad de color basada en el valor de la columna c_color. Se remite a la tabla de búsqueda de color_depth.tsv. | smallint sin firmar |
+| color | ID de profundidad de color basada en el valor de la columna c_color. Se remite a la tabla de búsqueda de color_depth.tsv. | viruela sin firmar |
 | connection_type | ID numérica que representa el tipo de conexión. Variable utilizada en la dimensión Tipo de conexión. Se remite a la tabla de búsqueda de connection_type.tsv. | tinyint sin firmar |
 | cookies | Variable utilizada en la dimensión Compatibilidad con cookies.<br>Y:<br>EnabledN:<br>DisabledU: Desconocido | char(1) |
-| country | ID numérica que representa el país desde el que provino el clic. Adobe se asocia con Digital Envoy para hacer coincidir las direcciones IP con los países. Utiliza la búsqueda de country.tsv. | smallint unsigned |
+| country | ID numérica que representa el país desde el que provino el clic. Adobe se asocia con Digital Envoy para hacer coincidir las direcciones IP con los países. Utiliza la búsqueda de country.tsv. | viruela sin firmar |
 | ct_connect_type | Se relaciona con la columna connection_type. Los valores más comunes son LAN/Wi-Fi, Operador de telefonía móvil y Módem. | char(20) |
 | curr_factor | Determina el lugar decimal de la moneda y se utiliza para la conversión de monedas. Por ejemplo, USD utiliza dos lugares decimales, por lo que el valor de esta columna debe ser 2. | tinyint |
 | curr_rate | El tipo de cambio vigente cuando se produjo la transacción. Adobe se asocia con XE para determinar el tipo de cambio del día. | decimal(24,12) |
@@ -67,7 +65,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | ef_id | El ef_id utilizado en las integraciones de Adobe Advertising Cloud. | varchar(255) |
 | evar1-evar250 | Variables personalizadas 1-250. Cada organización utiliza las eVars de forma diferente. El mejor lugar para obtener más información sobre cómo su organización completa las eVars respectivos sería un documento de diseño de soluciones que sea específico de su organización. | varchar(255) |
 | event_list | Una lista separada con comas de las ID numéricas que representa los eventos activados en la visita. Incluye los eventos predeterminados y los eventos personalizados 1-1000. Utiliza la búsqueda de event.tsv. | text |
-| exclude_hit | Un indicador que señala que la visita no está incluida en la creación de informes. The visit_num column is not incremented for excluded hits.<br>1: Not used. Parte de una función eliminada.<br>2: Not used. Parte de una función eliminada.<br>3: No longer used. Exclusión<br>de agente de usuario 4: Exclusión basada en la dirección<br>IP 5: Falta la información de visitas vitales, como page_url, pagename, page_event o event_list<br>6: JavaScript no procesó correctamente la visita<br>7: Exclusión específica de la cuenta, como en una regla<br>VISTA 8: No se usa. Exclusión alternativa específica de la cuenta.<br>9: Not used. Parte de una función eliminada.<br>10: Código<br>de moneda no válido 11: La visita individual no incluye una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo<br>de informes que no es de marca de hora 12: No se usa. Parte de una función eliminada.<br>13: No se usa. Parte de una función eliminada.<br>14: Visita de Target que no coincide con una visita<br>de Analytics 15: No se está utilizando actualmente.<br>16: Visita de Advertising Cloud que no coincide con una visita de Analytics | tinyint sin firmar |
+| exclude_hit | Un indicador que señala que la visita no está incluida en la creación de informes. La columna visit_num no se incrementa para las visitas excluidas.<br>1: No se usa. Parte de una función eliminada.<br>2: No se usa. Parte de una función eliminada.<br>3: Ya no se utiliza. Exclusión<br>de agente de usuario 4: Exclusión basada en la dirección<br>IP 5: Falta la información de visitas vitales, como page_url, pagename, page_event o event_list<br>6: JavaScript no procesó correctamente la visita<br>7: Exclusión específica de la cuenta, como en una regla<br>VISTA 8: No se usa. Exclusión alternativa específica de la cuenta.<br>9: No se usa. Parte de una función eliminada.<br>10: Código<br>de moneda no válido 11: La visita individual no incluye una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo<br>de informes que no es de marca de hora 12: No se usa. Parte de una función eliminada.<br>13: No se usa. Parte de una función eliminada.<br>14: Visita de Target que no coincide con una visita<br>de Analytics 15: No se está utilizando actualmente.<br>16: Visita de Advertising Cloud que no coincide con una visita de Analytics | tinyint sin firmar |
 | first_hit_page_url | La primera URL del visitante. | varchar(255) |
 | first_hit_pagename | Variable utilizada en la dimensión Página de entrada original. El nombre de la página de entrada original del visitante. | varchar(100) |
 | first_hit_ref_domain | Variable utilizada en la dimensión Dominio de referencia original. Se basa en first_hit_referrer. El primer dominio de referencia del visitante. | varchar(100) |
@@ -91,9 +89,9 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | j_jscript | Versión de JavaScript admitida por el explorador. | char(5) |
 | java_enabled | Indicador que señala si Java está habilitado. <br>Y: Habilitado <br>N: <br>U deshabilitada: Desconocido | char(1) |
 | javascript | ID de búsqueda de la versión de JavaScript basado en j_jscript. Utiliza la tabla de búsqueda. | tinyint sin firmar |
-| language | ID numérica de idioma. Utiliza la tabla de búsqueda de languages.tsv. | smallint sin firmar |
+| language | ID numérica de idioma. Utiliza la tabla de búsqueda de languages.tsv. | viruela sin firmar |
 | last_hit_time_gmt | Marca de tiempo (en Tiempo Unix) de la visita anterior. Se utiliza para calcular la dimensión Días desde la última visita. | int |
-| last_purchase_num | Variable utilizada en la dimensión Lealtad del cliente. Indica la cantidad de compras anteriores que realizó el visitante. <br>0: No prior purchases (not a customer) 1: 1 prior purchase (new customer) 2: 2 prior purchases (return customer) 3: 3 or more prior purchases (loyal customer)<br><br><br> | int sin firmar |
+| last_purchase_num | Variable utilizada en la dimensión Lealtad del cliente. Indica la cantidad de compras anteriores que realizó el visitante. <br>0: Sin compras previas (no cliente) <br>1: 1 compra anterior (nuevo cliente) <br>2: 2 compras anteriores (cliente de devolución) <br>3: 3 o más compras anteriores (cliente fiel) | int sin firmar |
 | last_purchase_time_gmt | Se utiliza para calcular la dimensión Días desde la última compra. Marca de tiempo (en Tiempo Unix) de la última compra realizada. Para la primera compra y para los visitantes que no hayan realizado ninguna compra anteriormente, este valor es 0. | int |
 | latlon1 | Ubicación (menos de 10 km) | varchar(255) |
 | latlon23 | Ubicación (menos de 100 m) | varchar(255) |
@@ -101,15 +99,15 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | mc_audiences | Lista de las ID de segmento de Audience Manager a los que pertenece el visitante. | text |
 | mcvisid | ID de visitante de Experience Cloud. Número de 128 bits que consiste en dos números de 64 bits concatenados aumentados a 19 dígitos. | varchar(255) |
 | mobile_id | Si el usuario utiliza un dispositivo móvil, el ID numérico del dispositivo. | int |
-| mobileaction | Acción móvil. Automatically collected when trackAction is called in Mobile Services. Permite establecer automáticamente las rutas de acción en la aplicación. | varchar(100) |
+| mobileaction | Acción móvil. Se recopila automáticamente cuando se llama a trackAction en Mobile Services. Permite establecer automáticamente las rutas de acción en la aplicación. | varchar(100) |
 | mobileappid | ID de la aplicación móvil. Almacena el nombre y la versión de la aplicación en el siguiente formato:[AppName] [BundleVersion] | varchar(255) |
-| mobileappperformanceappid | Used in the Apteligent data connector. The App ID used in Apteligent. | varchar(255) |
-| mobileappperformancecrashid | Used in the Apteligent data connector. The crash ID used in Apteligent. | varchar(255) |
-| mobileappstoreobjectid | Used in the Appfigures data connector. ID del objeto de App Store | varchar(255) |
-| mobilebeaconmajor | Mobile Services beacon major | varchar(100) |
-| mobilebeaconminor | Mobile Services beacon minor | varchar(100) |
-| mobilebeaconproximity | Mobile Services beacon proximity | varchar(255) |
-| mobilebeaconuuid | Mobile Services beacon UUID | varchar(100) |
+| mobileappejecuanceappid | Se utiliza en el conector de datos Apteligent. El ID de la aplicación utilizado en Apteligent. | varchar(255) |
+| mobileappejecuancecrashid | Se utiliza en el conector de datos Apteligent. ID de bloqueo utilizado en Apteligent. | varchar(255) |
+| mobileappstoreobjectid | Se utiliza en el conector de datos Appgures. ID del objeto de App Store | varchar(255) |
+| mobilebeaconmajor | Señalización de Mobile Services principal | varchar(100) |
+| mobilebeaconminor | Señalización de Mobile Services menor | varchar(100) |
+| mobilebeaconproximity | proximidad de la señalización de Mobile Services | varchar(255) |
+| mobilebeaconuuid | UUID de señalización de Mobile Services | varchar(100) |
 | mobilecampaigncontent | El nombre o ID del contenido que se muestra en el vínculo. Rellenado por Adquisición de aplicación móvil. | varchar(255) |
 | mobilecampaignmedium | El medio de marketing, como banners o correo electrónico. Rellenado por Adquisición de aplicación móvil. | varchar(255) |
 | mobilecampaignname | Nombre de la campaña, también almacenada en la variable de campaña. Rellenado por Adquisición de aplicación móvil. | varchar(255) |
@@ -117,7 +115,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | mobilecampaignterm | Palabras clave de pago u otros términos con los que quiera realizar un seguimiento de esta adquisición. Rellenado por Adquisición de aplicación móvil. | varchar(255) |
 | mobiledayofweek | Número del día de la semana en que se abrió la aplicación. | varchar(255) |
 | mobiledayssincefirstuse | Cantidad de días desde que la aplicación se ejecutó por primera vez. | varchar(255) |
-| mobiledayssincelastupgrade | Recopilado desde la variable de datos de contexto a.DaysSinceLastUpgrade. The number of days that have passed since the previous session. | varchar(255) |
+| mobiledayssincelastupgrade | Recopilado desde la variable de datos de contexto a.DaysSinceLastUpgrade. Número de días que han transcurrido desde la sesión anterior. | varchar(255) |
 | mobiledayssincelastuse | Cantidad de días desde que la aplicación se ejecutó por última vez. | varchar(255) |
 | mobiledeeplinkid | Recopilado desde la variable de datos de contexto a.<span>deeplink</span>.id. Se utiliza en los informes de adquisición como identificador para el vínculo de adquisición móvil. | varchar(255) |
 | mobiledevice | Nombre del dispositivo móvil. En iOS, se almacena como una cadena de 2 dígitos separados por una coma. El primer número representa la generación del dispositivo y el segundo, la familia del dispositivo. | varchar(255) |
@@ -135,7 +133,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | mobileosversion | Versión del sistema operativo de Mobile Services | varchar(255) |
 | mobileplaceaccuracy | Recopilado desde la variable de datos de contexto a.loc.acc. Indica la precisión del GPS en metros en el momento de la recogida. | varchar(255) |
 | mobileplacecategory | Recopilado desde la variable de datos de contexto a.loc.category. Describe la categoría de un lugar específico. | varchar(255) |
-| mobileplaceid | Collected from the context data variable a.loc.id. <span></span> Identificador de un punto de interés determinado. | varchar(255) |
+| mobileplaceid | Recopilado desde la variable de datos de contexto a.<span>loc</span>.id. Identificador de un punto de interés determinado. | varchar(255) |
 | mobilerelaunchcampaign content | Contenido de inicio de Mobile Services | varchar(255) |
 | mobilerelaunchcampaignmedium | Medio de inicio de Mobile Services | varchar(255) |
 | mobilerelaunchcampaign ignsource | Origen de inicio de Mobile Services | varchar(255) |
@@ -159,10 +157,10 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | partner_plugins | No se utiliza. Hace muchos años, formaba parte de una función que luego se descartó. | varchar(255) |
 | persistent_cookie | La utiliza la dimensión Compatibilidad con cookies persistentes. Indica si el visitante admite las cookies que no se descartan después de cada visita. | char(1) |
 | plugins | Ya no se utiliza. Lista de ID numéricas que corresponden a los plugins disponibles dentro del explorador. Utiliza la búsqueda de plugins.tsv. | varchar(180) |
-| pointofinterest | Mobile Services point of interest name | varchar(255) |
+| pointofinterest | Nombre del punto de interés de Mobile Services | varchar(255) |
 | pointofinterestdistance | Distancia de Mobile Services al centro de puntos de interés | varchar(255) |
 | post_ columns | Contiene el valor definitivo que se ha utilizado en los informes. Cada columna de publicación se completa después de la lógica del lado del servidor, las reglas de procesamiento y las reglas de VISTA. Adobe recomienda usar columnas de publicación en la mayoría de los casos. | Consulte la correspondiente columna de no publicación |
-| prev_page | No se utiliza. Identificador de la página anterior registrada de Adobe | int unsigned |
+| prev_page | No se utiliza. Identificador de la página anterior registrada de Adobe | int sin firmar |
 | product_list | Lista de productos tal como se transmite mediante la variable de productos. Los productos están delimitados por comas, mientras que las propiedades de los productos individuales están delimitadas por punto y coma. | text |
 | product_merchandising | No se utiliza. Se usa product_list en su lugar. | text |
 | prop1 - prop75 | Variables de tráfico personalizadas 1-75. | varchar(100) |
@@ -171,12 +169,12 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | ref_domain | Se basa en la columna de referentes. El dominio de referencia de la visita. | varchar(100) |
 | ref_type | Una ID numérica que representa el tipo de referente de la visita.<br>1: Dentro del sitio<br>2: Otros sitios web <br>3: Motores de búsqueda <br>4: Disco duro <br>5: USENET <br>6: Escritos o marcadores (sin referente) <br>7: Correo electrónico <br>8: Sin JavaScript <br>9: Redes sociales | tinyint sin firmar |
 | referrer | URL de la página anterior. | varchar(255) |
-| resolution | ID numérico que representa la resolución del monitor. Completa la dimensión Resolución del monitor. Utiliza la tabla de búsqueda de resolution.tsv. | smallint unsigned |
-| s_kwcid | Keyword ID used in Adobe Advertising Cloud integrations. | varchar(255) |
+| resolution | ID numérico que representa la resolución del monitor. Completa la dimensión Resolución del monitor. Utiliza la tabla de búsqueda de resolution.tsv. | viruela sin firmar |
+| s_kwcid | ID de palabra clave utilizado en integraciones de Adobe Advertising Cloud. | varchar(255) |
 | s_resolution | Valor no procesado de resolución de pantalla. Se recopila mediante la función de JavaScript screen.width x screen-height. | char(20) |
 | sampled_hit | Ya no se utiliza. Anteriormente, se utilizaba para muestreo en Ad Hoc Analysis. | char(1) |
-| search_engine | ID numérica que representa el Motor de búsqueda que refirió al visitante a su sitio. Utiliza la búsqueda de search_engines.tsv. | smallint unsigned |
-| search_page_num | Lo utiliza la dimensión Rango de todas las páginas de búsqueda. Indica en qué página de resultados de búsqueda apareció su sitio antes de que el usuario hiciera clic para acceder a su sitio. | smallint unsigned |
+| search_engine | ID numérica que representa el Motor de búsqueda que refirió al visitante a su sitio. Utiliza la búsqueda de search_engines.tsv. | viruela sin firmar |
+| search_page_num | Lo utiliza la dimensión Rango de todas las páginas de búsqueda. Indica en qué página de resultados de búsqueda apareció su sitio antes de que el usuario hiciera clic para acceder a su sitio. | viruela sin firmar |
 | secondary_hit | Indicador que hace un seguimiento de las visitas secundarias. Por lo general, se origina a partir del etiquetado de grupos múltiples y las reglas de VISTA que copian las visitas. | tinyint sin firmar |
 | service | No se utiliza. Se usa page_event en su lugar. | char(2) |
 | socialaccountandappids | Ya no se utiliza. Cuenta social e ID de aplicación. | varchar(255) |
@@ -201,12 +199,12 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | tnt_action | Se utiliza en las integraciones de Adobe Target. | text |
 | tnt_post_vista | Ya no se utiliza. Se usa post_tnt en su lugar. | text |
 | transactionid | Un identificador exclusivo donde, más tarde, se pueden cargar diversos puntos de datos a través de fuentes de datos. | text |
-| truncated_hit | Un indicador que señala que se ha truncado la solicitud de imagen. Indica que se ha recibido una visita parcial. <br>Y: Se truncó la visita; visita parcial recibida <br>N: La visita no se truncó; visita completa recibida | char(1) |
+| truncated_hit | Un indicador que señala que se ha truncado la solicitud de imagen. Indica que se ha recibido una visita parcial. <br>Y: Se truncó la visita; visita parcial recibida <br>N: La visita no se truncó; visita individual completa recibida | char(1) |
 | ua_color | Ya no se utiliza. Anteriormente, se utilizaba como alternativa a la profundidad de color. | char(20) |
 | ua_os | Ya no se utiliza. Anteriormente, se utilizaba como alternativa al sistema operativo. | char(80) |
 | ua_pixels | Ya no se utiliza. Anteriormente, se utilizaba como alternativa a la anchura y la altura del explorador. | char(20) |
 | user_agent | El grupo desconocido que se envía en la cabecera HTTP de la solicitud de imagen. | text |
-| user_hash | No es de uso. Hash de la ID del grupo de informes. Se usa username en su lugar. | int unsigned |
+| user_hash | No es de uso. Hash de la ID del grupo de informes. Se usa username en su lugar. | int sin firmar |
 | user_server | Variable utilizada en la dimensión de Servidores. | varchar(100) |
 | userid | No es de uso. La ID numérica de la ID del grupo de informes. Se usa username en su lugar. | int sin firmar |
 | username | La ID del grupo de informes de la visita. | char(40) |
@@ -265,12 +263,12 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | visid_timestamp | Si la ID de visitante se ha generado recientemente, proporciona la marca de tiempo (en Tiempo Unix) del momento en que se generó la ID de visitante. | int |
 | visid_type | ID numérica que representa qué método se ha utilizado para identificar al visitante. <br>0: VisitorID personalizado <br>1: IP y reserva del agente de usuario <br>2: Encabezado de suscriptor móvil HTTP <br>3: Valor de cookie heredado (s_vi) <br>4: Valor de cookie de reserva (s_fid) <br>5: Servicio de identidad | tinyint sin firmar |
 | visit_keywords | Variable utilizada en la dimensión Palabra clave de búsqueda. Esta columna utiliza un límite de caracteres no estándar para dar cabida a la lógica back-end utilizada por Adobe. | varchar(244) |
-| visit_num | Variable utilizada en la dimensión Número de visitas. Empieza en 1 y aumenta cada vez que se inicia una nueva visita por visitante. | int unsigned |
-| visit_page_num | Variable utilizada en la dimensión Profundidad de visita. Aumenta de uno en uno con cada visita que genera el usuario. Restablece cada visita. | int unsigned |
+| visit_num | Variable utilizada en la dimensión Número de visitas. Empieza en 1 y aumenta cada vez que se inicia una nueva visita por visitante. | int sin firmar |
+| visit_page_num | Variable utilizada en la dimensión Profundidad de visita. Aumenta de uno en uno con cada visita que genera el usuario. Restablece cada visita. | int sin firmar |
 | visit_ref_domain | Se basa en la columna de visit_referrer. El primer dominio de referencia de la visita. | varchar(100) |
 | visit_ref_type | ID numérica que representa el tipo de referente del primer referente de la visita. Utiliza la tabla de búsqueda de referrer_type.tsv. | tinyint sin firmar |
 | visit_referrer | El primer referente de la visita. | varchar(255) |
-| visit_search_engine | ID numérica del primer motor de búsqueda de la visita. Utiliza la tabla de búsqueda de search_engines.tsv. | smallint unsigned |
+| visit_search_engine | ID numérica del primer motor de búsqueda de la visita. Utiliza la tabla de búsqueda de search_engines.tsv. | viruela sin firmar |
 | visit_start_page_url | La primera URL de la visita. | varchar(255) |
 | visit_start_pagename | El primer nombre de página de la visita. | varchar(100) |
 | visit_start_time_gmt | Marca de tiempo (en Tiempo Unix) de la primera visita. | int |
@@ -286,8 +284,8 @@ La siguiente lista de columnas no se utiliza y no contiene datos:
 * mobileactioninapptime
 * mobileactiontotaltime
 * mobileappejecuanceaffectedusers
-* mobileappperformance ceappid<span>.</span>app-perf-app-name
-* mobileappperformance ceappid<span>.</span>app-perf-platform
+* mobileappejecuanceappid<span>.</span>app-perf-app-name
+* mobileappejecuanceappid<span>.</span>app-perf-platform
 * mobileappejecuancecrashes
 * mobileappperformance ancecrashid<span>.</span>app-perf-crash-name
 * mobileappejecuanceloads
