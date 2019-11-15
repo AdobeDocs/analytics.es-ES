@@ -1,13 +1,11 @@
 ---
 description: Permite usar el segmento para actividades de marketing en la biblioteca de audiencias, Target y Audience Manager.
-seo-description: Permite usar el segmento para actividades de marketing en la biblioteca de audiencias, Target y Audience Manager.
-seo-title: Publicación de segmentos en Experience Cloud
 solution: Analytics
 title: Publicación de segmentos en Experience Cloud
-topic: Segmentos
+topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -103,7 +101,7 @@ Las siguientes capturas de pantalla muestran cómo recuperar el UUID de AAM en e
 
 **Método 2: Uso de las herramientas para desarrolladores de Chrome (u otras herramientas para desarrolladores de exploradores)**
 
-1. Iniciar Chrome Developer Tools antes de cargar una página
+1. Iniciar las herramientas para desarrolladores de Chrome antes de cargar una página
 1. Cargue la página y marque Aplicaciones &gt; Cookies. El UUID de AAM debe configurarse en la cookie de terceros Demdex ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) en el ejemplo siguiente). El parámetro de campo es la configuración UUID de AAM en el navegador (`50814298273775797762943354787774730612` en el ejemplo siguiente).
 
 ![Herramientas para desarrolladores Chrome](assets/ggogle-uuid.png)
@@ -118,8 +116,8 @@ El UUID de AAM en el navegador se utilizará de forma predeterminada cuando se c
 
 En AAM, la lista de visitantes con ECID para un segmento determinado se evalúa de forma de flujo continuo, ya que Analytics comparte segmentos con Experience Cloud.
 
-1. En [!DNL Audience Manager], vaya a Datos de [!UICONTROL audiencia &gt; Características &gt; Características]de Analytics. Verá una carpeta para cada grupo de informes de Analytics asignada a su organización de Experience Cloud. Estas carpetas (para características, segmentos y fuentes de datos) se crean cuando se inicia o aprovisiona el servicio principal Perfiles y audiencias/personas.
-1. Seleccione la carpeta para el grupo de informes en el que creó el segmento con el que quería compartir [!DNL Audience Manager]. Verá el segmento o la audiencia que creó. Cuando comparte un segmento, ocurren dos cosas en [!DNL Audience Manager]:
+1. En [!DNL Audience Manager], vaya a Datos de [!UICONTROL audiencia &gt; Características &gt; Características]de Analytics. Verá una carpeta para cada grupo de informes de Analytics que esté asignada a su organización de Experience Cloud. Estas carpetas (para características, segmentos y fuentes de datos) se crean cuando se inicia o aprovisiona el servicio principal Perfiles y audiencias/personas.
+1. Seleccione la carpeta para el grupo de informes en el que creó previamente el segmento con el que desea compartir [!DNL Audience Manager]. Verá el segmento o la audiencia que creó. Cuando comparte un segmento, ocurren dos cosas en [!DNL Audience Manager]:
 * Se crea una característica, primero sin datos en ella. Aprox. 8 horas después de que se publique el segmento en [!DNL Analytics], la lista de ECID se incorpora y comparte con [!DNL Audience Manager] y otras soluciones de Experience Cloud.
 
 ![](assets/aam-traits.png)
