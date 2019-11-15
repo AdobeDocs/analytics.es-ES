@@ -1,15 +1,13 @@
 ---
 description: La función doPlugins generalmente llama a los complementos JavaScript, que se ejecutan cuando se llama a la función t() en el código para pegar.
-keywords: Implementación de Analytics
-seo-description: La función doPlugins generalmente llama a los complementos JavaScript, que se ejecutan cuando se llama a la función t() en el código para pegar.
-seo-title: Llamadas a complementos con la función doPlugins
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Complementos
+subtopic: Plug-ins
 title: Llamadas a complementos con la función doPlugins
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 95dd01de-8136-4ec9-aac9-4a3d5371b839
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
