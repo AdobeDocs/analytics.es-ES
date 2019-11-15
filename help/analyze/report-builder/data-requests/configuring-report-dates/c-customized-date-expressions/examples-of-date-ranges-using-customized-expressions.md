@@ -1,13 +1,11 @@
 ---
 description: Ejemplos, notas y notas sobre sintaxis acerca del uso de intervalos de fechas en expresiones personalizadas.
-seo-description: Ejemplos, notas y notas sobre sintaxis acerca del uso de intervalos de fechas en expresiones personalizadas.
-seo-title: Ejemplos de intervalos de fechas utilizando expresiones personalizadas
 solution: Analytics
 title: Ejemplos de intervalos de fechas utilizando expresiones personalizadas
-topic: Creador de informes
+topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
