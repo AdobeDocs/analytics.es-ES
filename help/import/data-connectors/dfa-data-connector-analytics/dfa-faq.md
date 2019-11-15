@@ -1,14 +1,12 @@
 ---
 description: 'null'
 keywords: DFA
-seo-description: 'null'
-seo-title: Preguntas frecuentes
 solution: Analytics
 title: Preguntas frecuentes
-topic: Data Connectors
+topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ La respuesta para esta pregunta pueden ser varias.
 
 En primer lugar, compruebe que el anuncio en cuestión tenga una dirección URL de la página de aterrizaje que esté (a) etiquetada con código de Adobe para el mismo grupo de informes en el que está viendo la discrepancia y (b) contenga el parámetro de cadena de consulta *`clickThroughParam`*.
 
-En segundo lugar, compruebe que dispone de una integración en funcionamiento siguiendo los pasos que se indican en [Confirmación de una integración](../dfa-data-connector-analytics/dfa-integration.md)DFA correcta. Si ve que hay código de seguimiento DFA que viene con la visita de Adobe en la página de aterrizaje, debería ver que esa pulsación viene en el informe de campañas DFA. Si no ve que esto suceda, verifique que los grupos de informes coincidan entre la variable de la página de aterrizaje y el grupo de informes que se está viendo en Informes y análisis. *`s.account`* Si coinciden, consulte los códigos de seguimiento en el informe de eVar de visualización que tengan un formato similar a DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
+En segundo lugar, compruebe que dispone de una integración en funcionamiento siguiendo los pasos que se indican en [Confirmación de una integración](../dfa-data-connector-analytics/dfa-integration.md)DFA correcta. Si ve que hay código de seguimiento DFA que viene con la visita de Adobe en la página de aterrizaje, debería ver que esa pulsación viene en el informe de campañas DFA. Si no ve que esto suceda, verifique que los grupos de informes coincidan entre la variable de la página de aterrizaje *`s.account`* y el grupo de informes que se está viendo en Informes y análisis. Si coinciden, consulte los códigos de seguimiento en el informe de eVar de visualización que tengan un formato similar a DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
 
 Indican errores de la regla DFA VISTA para resumir los datos sin procesar de DFA. Este problema se puede remediar al abrir un ticket de soporte técnico con su Representante de cuentas de Adobe.
 
