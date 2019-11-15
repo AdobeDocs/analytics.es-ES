@@ -1,21 +1,19 @@
 ---
-description: Aprenda a asignar importes de costo y presupuesto a los canales.
-seo-description: Aprenda a asignar importes de costo y presupuesto a los canales.
-seo-title: Costes y presupuestos
+description: Obtenga información sobre cómo asignar importes de costo y presupuesto a los canales.
 solution: Analytics
-subtopic: Canales de mercadotecnia
+subtopic: Marketing channels
 title: Costes y presupuestos
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Costes y presupuestos
 
-Aprenda a asignar importes de costo y presupuesto a los canales.
+Obtenga información sobre cómo asignar importes de costo y presupuesto a los canales.
 
 El costo representa lo que gasta en el canal. El presupuesto representa el importe que se puede gastar.
 
