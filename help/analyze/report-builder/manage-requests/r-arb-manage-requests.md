@@ -1,13 +1,11 @@
 ---
 description: Descripción de los campos para administrar solicitudes en el Creador de informes.
-seo-description: Descripción de los campos para administrar solicitudes en el Creador de informes.
-seo-title: 'Administrar solicitudes: definiciones'
 solution: Analytics
 title: 'Administrar solicitudes: definiciones'
-topic: Creador de informes
+topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ El Administrador [!UICONTROL de] solicitudes se muestra al hacer clic en **[!UIC
    <td colname="col2"> <p>Muestra el nombre de las hojas del libro. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Grupo de informes </p> </td> 
+   <td colname="col1"> <p>Report Suite </p> </td> 
    <td colname="col2"> <p>Muestra el nombre del grupo de informes. </p> </td> 
   </tr> 
   <tr> 
