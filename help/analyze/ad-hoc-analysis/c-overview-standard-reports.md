@@ -1,13 +1,11 @@
 ---
 description: Los informes estándar presentan datos de la actividad del sitio web y de los visitantes, patrones de tráfico, datos de los sitios referentes, campañas de publicidad, retención de visitantes, datos de productos, etc. Se pueden ejecutar informes y luego acceder a herramientas para configurar segmentos, métricas y comparaciones de informes.
-seo-description: Los informes estándar presentan datos de la actividad del sitio web y de los visitantes, patrones de tráfico, datos de los sitios referentes, campañas de publicidad, retención de visitantes, datos de productos, etc. Se pueden ejecutar informes y luego acceder a herramientas para configurar segmentos, métricas y comparaciones de informes.
-seo-title: Resumen de los informes
 solution: Analytics
 title: Resumen de los informes
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
