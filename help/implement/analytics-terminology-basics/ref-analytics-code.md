@@ -1,14 +1,12 @@
 ---
 description: Los datos se envían a un grupo de informes para que se muestren a la hora de generar informes. El modo más sencillo y habitual de enviar datos a Analytics es mediante la implementación de DTM. También puede introducir el código con la implementación con JavaScript.
-keywords: Implementación de Analytics, código de analytics, código de encabezado, código de pie de página, encabezado, pie de página, Dynamic Tag Management, dtm, javascript
-seo-description: Los datos se envían a un grupo de informes para que se muestren a la hora de generar informes. El modo más sencillo y habitual de enviar datos a Analytics es mediante la implementación de DTM. También puede introducir el código con la implementación con JavaScript.
-seo-title: Código de Analytics
+keywords: Analytics Implementation;analytics code;header code;footer code;header;footer;dynamic tag management;dtm;javascript
 solution: Analytics
 title: Código de Analytics
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 2615429c-63a3-4a11-8a16-7b933ed462f5
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
