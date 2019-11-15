@@ -1,11 +1,9 @@
 ---
 description: Una descripción general del menú Informes en Reports & Analytics.
-seo-description: Una descripción general del menú Informes en Reports & Analytics.
-seo-title: Menú Informes
 title: Menú Informes
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
