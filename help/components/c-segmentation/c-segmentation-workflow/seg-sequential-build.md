@@ -1,13 +1,11 @@
 ---
 description: Los segmentos secuenciales se crean mediante el operador ENTONCES, en lugar de Y u O. ENTONCES implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica todos los datos coincidentes y muestra el filtro "Incluir a todos". Los segmentos secuenciales se pueden filtrar aún más a un subconjunto de visitas coincidentes mediante las opciones "Solo antes de la secuencia" y "Solo después de la secuencia".
-seo-description: Los segmentos secuenciales se crean mediante el operador ENTONCES, en lugar de Y u O. ENTONCES implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica todos los datos coincidentes y muestra el filtro "Incluir a todos". Los segmentos secuenciales se pueden filtrar aún más a un subconjunto de visitas coincidentes mediante las opciones "Solo antes de la secuencia" y "Solo después de la secuencia".
-seo-title: Generar segmentos secuenciales
 solution: Analytics
 title: Generar segmentos secuenciales
-topic: Segmentos
+topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -35,7 +33,7 @@ Cuando se crea un segmento en el que se establece "Incluir a todos", el segmento
 
 Las opciones **[!UICONTROL Solo Antes de Secuencia]** y **Solo Después de Secuencia]filtran el segmento a un subconjunto de datos anterior o posterior a la secuencia especificada.[!UICONTROL **
 
-* **Solo Antes de Secuencia**: incluye todas las visitas anteriores a la secuencia + la primera visita de la propia secuencia (consulte los ejemplos 1 y 3). Si una secuencia aparece varias veces en una ruta, "Solo antes de la secuencia" incluye la primera visita individual de la última incidencia de la secuencia y todas las visitas individuales anteriores (ver ejemplo 2).
+* **Solo Antes de Secuencia**: incluye todas las visitas anteriores a la secuencia + la primera visita de la propia secuencia (consulte los ejemplos 1 y 3). Si una secuencia aparece varias veces en una ruta, "Solo antes de la secuencia" incluye la primera visita individual de la última incidencia de la secuencia y todas las visitas individuales anteriores (véase el ejemplo 2).
 * **Solo Después de Secuencia**: incluye todas las visitas posteriores a la secuencia + la última visita de la propia secuencia (consulte los ejemplos 1 y 3). Si una secuencia aparece varias veces en una ruta, "Solo después" incluye la última visita individual de la primera incidencia de la secuencia y todas las visitas individuales posteriores (véase el ejemplo 2).
 
 Por ejemplo, si tenemos una secuencia de B -&gt; D, los tres filtros identificarán las visitas del modo siguiente:
@@ -189,7 +187,7 @@ El operador [!UICONTROL Excluir] puede emplearse para identificar una secuencia 
 
 Aplique lógica a los visitantes de un segmento en el caso de que no se haya producido un punto de comprobación explícitamente entre otros dos puntos de comprobación.
 
-**Ejemplo**: Visitantes que visitaron la página A y luego visitaron la página C, pero no la página B.
+**Ejemplo**: Visitantes que visitaron la página A y luego visitaron la página C, pero que no visitaron la página B.
 
 **Casos de uso**
 
@@ -247,7 +245,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 Los contenedores de grupo lógico son necesarios para agrupar condiciones en un único punto de comprobación secuencial de segmento. El contenedor de grupo lógico especial solo está disponible en la segmentación secuencial, para garantizar que sus condiciones se cumplen después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente. Las condiciones dentro del propio punto de control del grupo lógico pueden cumplirse en cualquier orden. Por el contrario, los contenedores no secuenciales (visita individual, visita, visitante) no requieren que se cumplan sus condiciones dentro de la secuencia global, lo que produce resultados poco intuitivos si se utilizan con un operador ENTONCES.
 El contenedor de grupo  lógico fue diseñado para tratar *varios puntos de comprobación como un grupo*, *sin ningún orden* entre los puntos de comprobación agrupados. En otras palabras, no nos importa el orden de los puntos de control dentro de ese grupo. Por ejemplo, no puede anidar un contenedor de [!UICONTROL visitante] dentro de un contenedor de [!UICONTROL visitante]. But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
-> [!NOTE] Un grupo  lógico solo se puede definir en un segmento secuencial, lo que significa que el operador [!UICONTROL ENTONCES] se utiliza en la expresión.
+> [!NOTE] Un grupo  lógico solo se puede definir en un segmento secuencial, lo que significa que el operador [!UICONTROL ENTONCES] se utiliza dentro de la expresión.
 
 | Jerarquía de contenedores | Ilustración | Definición |
 |---|---|---|
@@ -365,7 +363,7 @@ La duración está especificada por una sola letra en mayúsculas que representa
 | Operadores | Descripción |
 |--- |--- |
 | DESPUÉS DE | El operador Después se usa para especificar un límite mínimo de tiempo entre dos puntos de comprobación. Al establecer los valores de Después, el límite de tiempo empezará cuando se aplique el segmento. Por ejemplo, si el operador Después se configura en un contenedor para identificar a los visitantes que visitan la página A pero no regresan a la página B hasta después de un día, ese día empezará cuando el visitante abandone la página A.  Para que el visitante se incluya en el segmento, debe transcurrir un mínimo de 1440 minutos (un día) después de salir de la página A para ver la página B. |
-| DENTRO DE | El operador En se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. Por ejemplo, si el operador En se configura en un contenedor para identificar a los visitantes que visitan la página A y luego regresan para visitar la página B en un día, ese día comenzará cuando el visitante abandone la página A. Para incluirse en el segmento, el visitante tendrá un tiempo máximo de un día antes de abrir la página B.   Para que el visitante se incluya en el segmento, la visita a la página B debe realizarse en un máximo de 1440 minutos (un día) después de salir de la página A para ver la página B. |
+| DENTRO DE | El operador En se usa para especificar un límite máximo de tiempo entre dos puntos de comprobación. Por ejemplo, si el operador En se configura en un contenedor para identificar a los visitantes que visitan la página A y luego regresan para visitar la página B en un plazo de un día, ese día comenzará cuando el visitante abandone la página A. Para incluirse en el segmento, el visitante tendrá un tiempo máximo de un día antes de abrir la página B.   Para que el visitante se incluya en el segmento, la visita a la página B debe realizarse en un máximo de 1440 minutos (un día) después de salir de la página A para ver la página B. |
 | DESPUÉS/EN | Al usar los operadores Después y En, es importante entender que ambos operadores empezarán y finalizarán en paralelo, no en secuencia.   For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. Ambas condiciones se aplican desde el momento de la primera visita individual a la página. |
 
 ### Usar el operador Después
