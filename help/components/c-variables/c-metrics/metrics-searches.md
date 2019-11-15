@@ -1,13 +1,11 @@
 ---
 description: Métrica predeterminada recomendada para motores de búsqueda y palabras clave. Esta métrica representa las instancias de pulsación y muestra la página que está asociada a un motor o a una palabra clave específica. Los datos de la métrica Búsquedas pueden informarse en forma retroactiva al comienzo del conjunto de datos.
-seo-description: Métrica predeterminada recomendada para motores de búsqueda y palabras clave. Esta métrica representa las instancias de pulsación y muestra la página que está asociada a un motor o a una palabra clave específica. Los datos de la métrica Búsquedas pueden informarse en forma retroactiva al comienzo del conjunto de datos.
-seo-title: Búsquedas
 solution: Analytics
 title: Búsquedas
-topic: Métricas
+topic: Metrics
 uuid: 7269e83c-6ac7-4423-bb6e-d07540fdd750
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
