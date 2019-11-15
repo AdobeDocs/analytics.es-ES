@@ -1,13 +1,11 @@
 ---
 description: Los informes se pueden programar para enviarlos de acuerdo al formato de archivo y la hora que se definan.
-seo-description: Los informes se pueden programar para enviarlos de acuerdo al formato de archivo y la hora que se definan.
-seo-title: Programar una solicitud de datos
 solution: Analytics
 title: Programar una solicitud de datos
-topic: Creador de informes
+topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -26,7 +24,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 >Además, hay otros factores que pueden aumentar aún más el retraso antes de que se envíe el libro:
 >
 > * **La ejecución de muchas programaciones diferentes del mismo tipo al mismo tiempo** puede sobrecargar el sistema. El sistema de programación solo permite que se ejecuten simultáneamente algunos libros (5-10) de cualquier tipo, por lo que cuando se programen más de 5-10 a la vez, algunos tendrán que esperar en la línea para que otros libros terminen antes de que puedan empezar a procesarse. Este problema se puede mitigar programando los libros de una empresa a horas escalonadas durante el día o la hora, en lugar de hacerlo simultáneamente.
-> * Además del tipo de libro específico, los libros también esperarán en línea si la empresa tiene **más de 15-20 libros programados a la vez (en todos los tipos de libro)**. Esto se puede mitigar escalofriando las horas programadas en lugar de tener muchas ejecutándose al mismo tiempo.
+> * Además del tipo de libro específico, los libros también esperarán en línea si la empresa tiene **más de 15-20 libros programados a la vez (en todos los tipos de libro)**. Esto se puede mitigar escalofriando los tiempos de programación en lugar de tener muchos ejecutándose al mismo tiempo.
 > * **Los problemas en los servicios** de flujo descendente en los que se basa el Programador también pueden afectar a la entrega de libros. Por ejemplo, si utiliza las API de forma independiente para ejecutar libros y rellenar la cola de solicitudes de API, los libros programados pueden entregarse lentamente mientras compite por ese recurso.
 > * **La latencia** del grupo de informes (un retraso en la recopilación de datos) también puede retrasar algunos libros programados.
 
@@ -46,7 +44,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 | Campo | Descripción |
 |--- |--- |
-| Seleccionar informe | Nombre del libro. Para los nuevos informes programados, este campo se completa con el nombre del libro activo. |
+| Seleccionar informe | El nombre del libro. Para los nuevos informes programados, este campo se completa con el nombre del libro activo. |
 | Seleccionar | Muestra la página Seleccionar informe. Se puede seleccionar un informe del servidor (donde se almacenan todos los libros programados previamente) o del equipo local. Si se selecciona un libro de la unidad local en formato .xls, el sistema convierte el archivo a .xlsx. Como parte de la conversión, el archivo se abre en Excel y se activa. Si el libro seleccionado para el informe programado tiene el mismo nombre de archivo que el libro abierto actualmente en Excel, el sistema selecciona el archivo local en lugar del archivo cargado previamente. Si selecciona un informe del repositorio de programación, se crea una copia del libro en el servidor, con su nombre de archivo actualizado con 1. El informe programado recién creado utiliza el libro copiado. |
 | Personalizar | Le permite personalizar el formato de fecha. |
 | Para | Muestra la libreta de direcciones de Outlook, si corresponde. |
