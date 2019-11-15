@@ -1,13 +1,11 @@
 ---
 description: Los vínculos se pueden diferenciar personalizando bien el ID del vínculo con la variable s_objectID, bien la región, o bien el archivo del módulo Activity Map AppMeasurement.
-seo-description: Los vínculos se pueden diferenciar personalizando bien el ID del vínculo con la variable s_objectID, bien la región, o bien el archivo del módulo Activity Map AppMeasurement.
-seo-title: Diferenciación entre varios vínculos que hacen referencia al mismo ID y la misma región de vínculo
 solution: Analytics
 title: Diferenciación entre varios vínculos que hacen referencia al mismo ID y la misma región de vínculo
-topic: Activity Map
+topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -51,7 +49,7 @@ Como ejemplo, supongamos que tenemos varios vínculos “Buy” (comprar) identi
 
 ## Personalizar el ID del vínculo con s_objectID  {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en una página, se puede mejorar el seguimiento de Activity Map, o bien utilizar Activity Map para informar sobre un tipo o una ubicación de vínculo en lugar de la URL del vínculo. Haga clic [aquí](https://marketing.adobe.com/resources/help/es_ES/sc/implement/s_objectID.html) para obtener más información sobre la variable s_objectID.
+Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en una página, se puede mejorar el seguimiento de Activity Map, o bien utilizar Activity Map para informar sobre un tipo o una ubicación de vínculo en lugar de la URL del vínculo. Haga clic [aquí](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) para obtener más información sobre la variable s_objectID.
 
 >[!IMPORTANT]
 >
