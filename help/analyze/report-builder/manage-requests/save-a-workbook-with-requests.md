@@ -1,13 +1,11 @@
 ---
 description: Tras crear informes con solicitudes insertadas, puede guardarlos haciendo clic en Archivo > Guardar o Archivo > Guardar como en Excel. El Creador de informes detecta si el informe contiene solicitudes. Al hacer clic en cualquiera de estas opciones de almacenamiento aparece el formulario Guardar libro como.
-seo-description: Tras crear informes con solicitudes insertadas, puede guardarlos haciendo clic en Archivo > Guardar o Archivo > Guardar como en Excel. El Creador de informes detecta si el informe contiene solicitudes. Al hacer clic en cualquiera de estas opciones de almacenamiento aparece el formulario Guardar libro como.
-seo-title: Guardar un libro con solicitudes
 solution: Analytics
 title: Guardar un libro con solicitudes
-topic: Creador de informes
-uuid: 31611031-0982-4124-9fc7-788124aa603
+topic: Report builder
+uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
