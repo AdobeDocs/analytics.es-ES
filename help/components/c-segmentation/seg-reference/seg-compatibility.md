@@ -1,27 +1,25 @@
 ---
 description: No todos los segmentos creados en el Generador de segmentos son compatibles con el Almacén de datos. Esta tabla enumera las funciones admitidas..
-seo-description: No todos los segmentos creados en el Generador de segmentos son compatibles con el Almacén de datos. Esta tabla enumera las funciones admitidas..
-seo-title: Compatibilidad del segmento con el Almacén de datos
 solution: Analytics
-title: Compatibilidad del segmento con el Almacén de datos
-topic: Segmentos
-uuid: 370258 c 5-8614-4434-871 c -41753 ed 77 f 5 c
+title: Compatibilidad del segmento con el Data Warehouse
+topic: Segments
+uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 26bba9528873c983852754056a5495c4004d25e6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Compatibilidad del segmento con el Almacén de datos
+# Compatibilidad del segmento con el Data Warehouse
 
-Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. En esta tabla se muestran las funciones admitidas.
+Not all segments created in the Segment Builder are compatible with [!DNL Data Warehouse]. Esta tabla enumera las funciones admitidas.
 
 <table id="table_BBB1DAFDF85041598FA4AF869172CF7F"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry"> Analysis Workspace, Informes y análisis, Análisis específicos </th> 
-   <th colname="col3" class="entry"> Almacén de datos </th> 
+   <th colname="col3" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -58,7 +56,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
     <ul id="ul_61A5B314CCCF497DB0385324E3309E22"> 
      <li id="li_1254089BDFAE4E0F8E51CB1511BBBF53">Dirección IP </li> 
      <li id="li_D8E040F77A8C46A084547F4FE685CB10">URL de la página </li> 
-     <li id="li_4C79AE900CF6458780C124143DC6FA5B">ID del visitante </li> 
+     <li id="li_4C79AE900CF6458780C124143DC6FA5B">Visitor ID </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">ID de visitante de Experience Cloud </li> 
     </ul> <p>The following dimensions <b>cannot </b>be used in Data Warehouse segments: </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
