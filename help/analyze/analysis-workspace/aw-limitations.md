@@ -1,10 +1,8 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Limitaciones del espacio de trabajo, limitaciones conocidas en Analysis Workspace
 title: Limitaciones conocidas en Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 ## Tablas
 
 * No se pueden agregar columnas de comparación de fechas cuando se utilizan intervalos de fechas o métricas como filas de una tabla.
-* Crear métrica a partir de selección se desactiva cuando los segmentos se utilizan como filas de una tabla. Además, Crear métrica a partir de selección no debe aplicarse a columnas alineadas con la fecha.
+* Crear métrica a partir de selección se desactiva cuando los segmentos se utilizan como filas de una tabla. Además, la métrica Crear a partir de selección no se debe aplicar a las columnas alineadas con la fecha.
 * El formato condicional de las filas de desglose no puede utilizar intervalos personalizados.
 * Las filas totales de la tabla no pueden ser de tendencias cuando se calculan los totales sumando la configuración de valores de fila (generalmente se utiliza con elementos de fila estáticos).
 * [!UICONTROL El análisis] de contribución se puede ejecutar [!UICONTROL sólo] con la granularidad _diaria_. No se puede ejecutar con datos [!UICONTROL por hora], [!UICONTROL semanales], etc.
@@ -40,7 +38,7 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 
 * Las métricas calculadas no se pueden usar en ciertas visualizaciones. Consulte "Visualizaciones" más arriba.
 * Las métricas calculadas no se pueden usar en el panel [!UICONTROL Atribución] , ya que las métricas calculadas pueden incluir modelos de atribución independientes.
-* Algunos componentes y operadores no están disponibles si se crea una métrica calculada desde Workspace (en lugar de hacerlo desde [!UICONTROL Componentes &gt; Segmentos]). Por ejemplo, Dirección [!UICONTROL IP].
+* Determinados componentes y operadores no están disponibles si se crea una métrica calculada desde Workspace (en lugar de hacerlo desde [!UICONTROL Componentes &gt; Segmentos]). Por ejemplo, Dirección [!UICONTROL IP].
 
 ## Componentes &gt; Intervalos de fechas
 
