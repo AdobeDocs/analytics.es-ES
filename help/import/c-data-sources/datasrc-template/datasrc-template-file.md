@@ -1,14 +1,12 @@
 ---
 description: Información sobre la plantilla de fuentes de datos, que ofrece un marco de datos adecuado para el envío de un conjunto específico de datos externos a las fuentes de datos.
-seo-description: Información sobre la plantilla de fuentes de datos, que ofrece un marco de datos adecuado para el envío de un conjunto específico de datos externos a las fuentes de datos.
-seo-title: Resumen de plantilla de fuentes de datos
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Resumen de plantilla de fuentes de datos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
