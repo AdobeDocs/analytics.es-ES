@@ -1,19 +1,17 @@
 ---
 description: 'null'
-keywords: Implementación de Analytics
-seo-description: 'null'
-seo-title: Descripción general de las variables de comercialización
+keywords: Analytics Implementation
 solution: Analytics
-title: Descripción general de las variables de comercialización
-topic: Desarrollador e implementación
-uuid: 2 ccf 516 a-a 7 ee -48 ab -92 aa -414228 a 4102 f
+title: Resumen de las variables de comercialización
+topic: Developer and implementation
+uuid: 2ccf516a-a7ee-48ab-92aa-414228a4102f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Descripción general de las variables de comercialización
+# Resumen de las variables de comercialización
 
 Al medir el éxito de campañas o términos de búsqueda externos, normalmente se desea que un único valor reciba crédito por los eventos de éxito que se produzcan. Por ejemplo, si un cliente hace clic en un vínculo de una campaña de correo electrónico para visitar un sitio web, todas las compras que se realicen como resultado de ese clic deben abonarse a dicha campaña.
 
