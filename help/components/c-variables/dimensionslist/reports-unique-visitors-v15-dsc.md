@@ -1,13 +1,11 @@
 ---
 description: Muestra el número de visitantes únicos que accedieron al sitio web. Cada visitante se cuenta solamente una vez, independientemente de cuántas veces haya visitado el sitio web.
-seo-description: Muestra el número de visitantes únicos que accedieron al sitio web. Cada visitante se cuenta solamente una vez, independientemente de cuántas veces haya visitado el sitio web.
-seo-title: Visitantes únicos
 solution: Analytics
 title: Visitantes únicos
-topic: Informes
+topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
