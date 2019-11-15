@@ -1,15 +1,13 @@
 ---
 description: Especifique un enlace de exclusión y personalice la marca del enlace. Es posible que los visitantes del sitio web opten por no rastrear su actividad en los productos de análisis de Adobe visitando la página de exclusión del dominio de recopilación de datos.
-keywords: Implementación de Analytics
-seo-description: Especifique un enlace de exclusión y personalice la marca del enlace. Es posible que los visitantes del sitio web opten por no rastrear su actividad en los productos de análisis de Adobe visitando la página de exclusión del dominio de recopilación de datos.
-seo-title: Adición de un vínculo de no participación
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Resolución de problemas
+subtopic: Troubleshooting
 title: Adición de un vínculo de no participación
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
