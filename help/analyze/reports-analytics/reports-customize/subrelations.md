@@ -1,13 +1,11 @@
 ---
 description: Las subrelaciones completas están activadas en todos los informes de conversión, para poder desglosar cualquier eVar por otra eVar. El menú Desglosar por de la tabla de informes es igual que el menú estándar de informes de Analytics, para mantener la coherencia.
-seo-description: Las subrelaciones completas están activadas en todos los informes de conversión, para poder desglosar cualquier eVar por otra eVar. El menú Desglosar por de la tabla de informes es igual que el menú estándar de informes de Analytics, para mantener la coherencia.
-seo-title: Subrelaciones
 solution: Analytics
 title: Subrelaciones
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
