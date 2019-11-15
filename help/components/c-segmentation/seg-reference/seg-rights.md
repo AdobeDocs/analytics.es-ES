@@ -1,13 +1,11 @@
 ---
 description: La funcionalidad de los segmentos difiere considerablemente entre los usuarios de nivel de administrador y los usuarios que no son administradores.
-seo-description: La funcionalidad de los segmentos difiere considerablemente entre los usuarios de nivel de administrador y los usuarios que no son administradores.
-seo-title: Derechos de segmentos por función
 solution: Analytics
 title: Derechos de segmentos por función
-topic: Segmentos
-uuid: 62 b 742 c 5-c 918-45 b 7-98 c 7-f 6 badc 0 b 9 fc 7
+topic: Segments
+uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
