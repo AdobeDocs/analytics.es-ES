@@ -1,13 +1,11 @@
 ---
 description: Utilice el complemento Creador de informes de Adobe para Microsoft Excel a fin de crear solicitudes personalizadas a partir de datos de análisis de Web, que puede insertar en las hojas de cálculo de Excel.
 keywords: ftp;sftp
-seo-description: Utilice el complemento Creador de informes de Adobe para Microsoft Excel a fin de crear solicitudes personalizadas a partir de datos de análisis de Web, que puede insertar en las hojas de cálculo de Excel.
-seo-title: Informes entregados por el Report Builder
 solution: Analytics
 title: Informes entregados por el Report Builder
-uuid: 94070700-4073-499a-afe2-10a30eab79f
+uuid: 94070700-4073-499a-afe2-10a30eeab79f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
