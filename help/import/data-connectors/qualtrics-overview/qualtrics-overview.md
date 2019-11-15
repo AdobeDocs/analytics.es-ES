@@ -1,14 +1,12 @@
 ---
 description: Esta integración combina las capacidades de investigación de los clientes de Qualtrics Research Suite con los abundantes datos que recopila en Adobe Analytics para crear potentes oportunidades de optimización y análisis para su organización.
-seo-description: Esta integración combina las capacidades de investigación de los clientes de Qualtrics Research Suite con los abundantes datos que recopila en Adobe Analytics para crear potentes oportunidades de optimización y análisis para su organización.
-seo-title: Conector de datos Qualtrics para Adobe Analytics
 solution: Analytics
 subtopic: Qualtrics
 title: Conector de datos Qualtrics para Adobe Analytics
-topic: Data Connectors
+topic: Data connectors
 uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ Esta integración combina las capacidades de investigación de los clientes de Q
 
 Esta integración bidireccional conecta primero los datos de respuesta del estudio Qualtrics con los datos del flujo de navegación del visitante. A continuación, inserta acciones y atributos de comportamiento relevantes, desde Adobe Analytics, en los informes de encuestas de Qualtrics.
 
-## Principales ventajas y características{#key-benefits-and-features}
+## Ventajas y características principales{#key-benefits-and-features}
 
 * Genere segmentos de usuarios en base a las respuestas que los usuarios dan a preguntas específicas del estudio.
 * Informes de tráfico y conversión basados en los detalles del estudio, la pregunta y el nivel de respuesta.
