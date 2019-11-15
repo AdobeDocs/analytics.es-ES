@@ -1,13 +1,11 @@
 ---
 description: La página Métodos de localización identifica la manera en que los diversos informes de métodos de localización reciben crédito para eventos de éxito de conversión en un sitio. Por ejemplo, si un motor de búsqueda envía a un visitante a un sitio, y este visitante realiza una compra, Métodos de localización especifica cómo debe recibir el crédito el motor de búsqueda para el referente.
-seo-description: La página Métodos de localización identifica la manera en que los diversos informes de métodos de localización reciben crédito para eventos de éxito de conversión en un sitio. Por ejemplo, si un motor de búsqueda envía a un visitante a un sitio, y este visitante realiza una compra, Métodos de localización especifica cómo debe recibir el crédito el motor de búsqueda para el referente.
-seo-title: Métodos de búsqueda
 solution: Analytics
 title: Métodos de búsqueda
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
