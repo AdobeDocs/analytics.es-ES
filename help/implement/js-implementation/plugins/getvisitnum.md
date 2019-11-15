@@ -1,15 +1,13 @@
 ---
 description: El complemento getVisitNum determina cuántas visitas al sitio ha realizado un usuario y captura este número en una variable de Analytics.
-keywords: Implementación de Analytics
-seo-description: El complemento getVisitNum determina cuántas visitas al sitio ha realizado un usuario y captura este número en una variable de Analytics.
-seo-title: getVisitNum
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Complementos
+subtopic: Plug-ins
 title: getVisitNum
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
