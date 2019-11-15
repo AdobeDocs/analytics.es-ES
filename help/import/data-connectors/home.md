@@ -1,10 +1,8 @@
 ---
 title: Ayuda de Conectores de datos de Analytics
-seo-title: Ayuda de Conectores de datos de Analytics
 description: ayuda de conectores de datos
-seo-description: ayuda de conectores de datos
 translation-type: tm+mt
-source-git-commit: e9249fb546049e846be55d20604d7820bb4cdbf6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -26,7 +24,7 @@ Incluye:
 
 ## Recursos clave de Analytics
 
-* [Contactar con el Servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
