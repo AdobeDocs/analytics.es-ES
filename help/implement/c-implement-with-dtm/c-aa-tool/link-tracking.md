@@ -1,13 +1,11 @@
 ---
 description: Descripciones de los campos de Dynamic Tag Management de seguimiento de vínculos al implementar Analytics.
-keywords: Dynamic Tag Management, seguimiento de vínculos, habilitar clickmap, seguimiento de vínculos de descarga, extensiones de descarga, seguimiento de vínculos de salida, mantener parámetros de URL
-seo-description: Descripciones de los campos de Dynamic Tag Management de seguimiento de vínculos al implementar Analytics.
-seo-title: Seguimiento de vínculos
+keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Seguimiento de vínculos
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
