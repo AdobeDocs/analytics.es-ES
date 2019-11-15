@@ -1,11 +1,9 @@
 ---
 description: Estas son instrucciones para ayudarle a localizar sus ID de cuenta para Google y Bing.
-seo-description: Estas son instrucciones para ayudarle a localizar sus ID de cuenta para Google y Bing.
-seo-title: Localización de los ID de su cuenta
 title: Localización de los ID de su cuenta
 uuid: 34f9bb8d-84b4-4890-9200-c926d0abb1d6
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
