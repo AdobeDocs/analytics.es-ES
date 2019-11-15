@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Información general sobre Uso de llamadas al servidor
 title: Información general sobre Uso de llamadas al servidor
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -104,7 +102,7 @@ El permiso de Uso de llamadas al servidor se concede, de forma automática, a lo
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Inicie sesión en login.experience.adobe.com.</li> 
+     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Inicie sesión en login.experienceCloud.adobe.com.</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Haga clic en <span class="uicontrol">Analytics </span>. </li> 
      <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Vaya a <span class="ignoretag"><span class="uicontrol">Productos</span> &gt; <span class="uicontrol">Product Profile</span> &gt; <span class="uicontrol">Permisos</span> &gt; <span class="uicontrol">Herramientas Analytics</span> &gt; <span class="uicontrol">Uso de llamadas al servidor </span> </span> </li> 
     </ol> </td> 
