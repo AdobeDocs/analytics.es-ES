@@ -1,13 +1,11 @@
 ---
 description: Grupo de informes basado en el análisis de rutas. Técnicamente, las rutas suponen el paso de un nombre de página a otro (de un valor a otro).
-seo-description: Grupo de informes basado en el análisis de rutas. Técnicamente, las rutas suponen el paso de un nombre de página a otro (de un valor a otro).
-seo-title: Control de rutas
 solution: Analytics
 title: Control de rutas
-topic: Informes
+topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
