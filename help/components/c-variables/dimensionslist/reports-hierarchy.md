@@ -1,13 +1,11 @@
 ---
 description: Muestra la disposición jerárquica de las páginas en el sitio web y las muestra en orden según cómo estén configuradas en la variable hierN. Este informe se completa usando la configuración adecuada de la variable usted configure en cada página que desee incluir en la jerarquía. Asimismo, le permite ver las métricas seleccionadas (como visitantes únicos) para la jerarquía.
-seo-description: Muestra la disposición jerárquica de las páginas en el sitio web y las muestra en orden según cómo estén configuradas en la variable hierN. Este informe se completa usando la configuración adecuada de la variable usted configure en cada página que desee incluir en la jerarquía. Asimismo, le permite ver las métricas seleccionadas (como visitantes únicos) para la jerarquía.
-seo-title: Jerarquía
 solution: Analytics
 title: Jerarquía
-topic: Informes
+topic: Reports
 uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
