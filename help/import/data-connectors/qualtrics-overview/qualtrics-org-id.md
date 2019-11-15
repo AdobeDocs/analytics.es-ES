@@ -1,14 +1,12 @@
 ---
 description: El identificador de organización es necesario para completar el asistente de integración. Para encontrar este ID debe hacer lo siguiente.
-seo-description: El identificador de organización es necesario para completar el asistente de integración. Para encontrar este ID debe hacer lo siguiente.
-seo-title: Búsqueda de la ID de organización de Qualtrics
 solution: Analytics
 subtopic: Qualtrics
 title: Búsqueda de la ID de organización de Qualtrics
-topic: Data Connectors
+topic: Data connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
