@@ -1,14 +1,12 @@
 ---
 description: Registra el número de segundos que la página ha sido la ficha activa del explorador y pasa ese valor a una métrica en la siguiente visualización de página.
-keywords: Implementación de Analytics
-seo-description: Registra el número de segundos que la página ha sido la ficha activa del explorador y pasa ese valor a una métrica en la siguiente visualización de página.
-seo-title: getPageVisibility
+keywords: Analytics Implementation
 solution: Analytics
 title: getPageVisibility
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -126,7 +124,7 @@ Sí, el total de segundos de página y el total de instancias de visibilidad son
 
 **¿Seguirán teniendo sentido los eventos capturados si los utilizo en informes que no sean el de Nombre de página anterior?**
 
-Dado que el complemento registra valores en la solicitud de imagen siguiente, solo se pueden aplicar otras eVars capturadas en un contexto de "página anterior", por ejemplo: 'URL de página anterior'.
+Dado que el complemento registra valores en la solicitud de imagen subsiguiente, solo se pueden aplicar otras eVars capturadas en un contexto de "página anterior", por ejemplo: 'Dirección URL de la página anterior'.
 
 **¿Enviará el complemento el tiempo de visibilidad en una llamada s.tl() o solo en una llamada s.t()?**
 
