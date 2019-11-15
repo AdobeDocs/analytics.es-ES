@@ -1,13 +1,11 @@
 ---
 description: Muestra los vínculos preferidos de los visitantes al sitio. Por ejemplo, es probable que la página de inicio de un sitio tenga varios vínculos a la misma página. Tal vez haya dos vínculos, uno gráfico y otro de texto, que lleven a la misma página. Este informe muestra el porcentaje de visitantes que han utilizado el vínculo gráfico frente al de texto.
-seo-description: Muestra los vínculos preferidos de los visitantes al sitio. Por ejemplo, es probable que la página de inicio de un sitio tenga varios vínculos a la misma página. Tal vez haya dos vínculos, uno gráfico y otro de texto, que lleven a la misma página. Este informe muestra el porcentaje de visitantes que han utilizado el vínculo gráfico frente al de texto.
-seo-title: Vínculo personalizado
 solution: Analytics
 title: Vínculo personalizado
-topic: Informes
+topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
