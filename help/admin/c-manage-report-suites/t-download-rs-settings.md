@@ -1,13 +1,11 @@
 ---
 description: Instrucciones sobre cómo generar una hoja de cálculo de Excel con toda la configuración del grupo de informes seleccionado.
-seo-description: Instrucciones sobre cómo generar una hoja de cálculo de Excel con toda la configuración del grupo de informes seleccionado.
-seo-title: Descargar la configuración de grupo de informes
 solution: Analytics
 title: Descargar la configuración de grupo de informes
-topic: Herramientas de administración
+topic: Admin tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
