@@ -1,11 +1,9 @@
 ---
 description: Migre usuarios del sistema de administración de usuarios de Analytics heredado a Admin Console.
-seo-description: Migre usuarios del sistema de administración de usuarios de Analytics heredado a Admin Console.
-seo-title: Migración de cuentas de usuarios de Analytics para Adobe ID
 title: Migración de cuentas de usuarios de Analytics para Adobe ID
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
