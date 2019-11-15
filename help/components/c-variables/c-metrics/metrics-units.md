@@ -1,13 +1,11 @@
 ---
 description: Unidades totales que se pidieron durante el período de tiempo seleccionado. Como pueden comprarse varias unidades por pedido, las unidades representan una métrica fundamental que revela el movimiento general del inventario.
-seo-description: Unidades totales que se pidieron durante el período de tiempo seleccionado. Como pueden comprarse varias unidades por pedido, las unidades representan una métrica fundamental que revela el movimiento general del inventario.
-seo-title: Unidades
 solution: Analytics
 title: Unidades
-topic: Métricas
-uuid: a 0 b 3 f 3 e 0-5 ba 2-4 c 5 c -9 f 7 b -5 b 89 b 3079 dd 8
+topic: Metrics
+uuid: a0b3f3e0-5ba2-4c5c-9f7b-5b89b3079dd8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,5 +18,5 @@ Unidades totales que se pidieron durante el período de tiempo seleccionado. Com
 |---|---|
 | Tráfico | La unidad es una definición del producto y se establece en el evento de [!UICONTROL purchase]. Constituye el número de artículos de un mismo producto comprado o la suma total de artículos de todos los productos. |
 | Conversión | La unidad es una definición del producto y se establece en el evento de [!UICONTROL purchase]. Constituye el número de artículos de un mismo producto comprado o la suma total de artículos de todos los productos. |
-| Ad Hoc Analysis | La unidad es una definición del producto y se establece en el evento de [!UICONTROL purchase]. Constituye el número de artículos de un mismo producto comprado o la suma total de artículos de todos los productos. |
+| Ad Hoc Analysis  | La unidad es una definición del producto y se establece en el evento de [!UICONTROL purchase]. Constituye el número de artículos de un mismo producto comprado o la suma total de artículos de todos los productos. |
 
