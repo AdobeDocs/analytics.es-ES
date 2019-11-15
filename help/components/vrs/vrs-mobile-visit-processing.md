@@ -1,11 +1,9 @@
 ---
 description: Las sesiones con contexto en los grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas con dispositivos portátiles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
-seo-description: Las sesiones con contexto en los grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas con dispositivos portátiles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
-seo-title: Sesiones según el contexto
 title: Sesiones según el contexto
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
