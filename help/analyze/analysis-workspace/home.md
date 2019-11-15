@@ -1,14 +1,12 @@
 ---
 description: Cómo empezar a usar Adobe Analytics.
 keywords: Analysis Workspace
-seo-description: Cómo empezar a usar Adobe Analytics.
-seo-title: Guía de introducción
 solution: Analytics
 title: Guía de introducción
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 851feadb-5e30-45ab-9f66-02bdf844fa54
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -45,7 +43,7 @@ Extraiga un informe de tendencias básico con Analysis Workspace. Un informe de 
 4. Haga clic en el botón 'Crear nuevo proyecto'.
 5. En la ventana emergente modal, asegúrese de que está seleccionado 'Proyecto en blanco' y, a continuación, haga clic en Crear.
 6. A la izquierda, debería ver una lista de dimensiones, métricas, segmentos e intervalos de fechas. Busque la dimensión Vistas de página y arrástrela al pequeño espacio del lienzo rotulado 'Colocar una métrica aquí'. Evite soltarlo en el espacio reservado para dimensiones (al menos para este ejercicio).
-7. Tenga en cuenta que si el grupo de informes tiene datos, debería ver un informe de vistas de página básico con tendencias durante el mes actual. Analysis Workspace introdujo automáticamente el intervalo de fechas 'Día' para que pueda ver la tendencia de las vistas de página del mes actual.
+7. Tenga en cuenta que si el grupo de informes tiene datos, debería ver un informe de vistas de página básico con tendencias a lo largo del mes actual. Analysis Workspace introdujo automáticamente el intervalo de fechas 'Día' para que pueda ver la tendencia de las vistas de página del mes actual.
 8. Busque el intervalo de fechas de la semana (de color púrpura) en la lista de componentes de intervalo de fechas de la izquierda. Haga clic en el título del intervalo de fechas para expandir y ver todos los componentes del intervalo de fechas o utilice la barra de búsqueda.
 9. Arrastre el intervalo de fechas de la semana sobre el encabezado del intervalo de fechas del día en el lienzo para reemplazarlo.
 10. Tenga en cuenta que el informe de tendencias ahora se agrega por semana en lugar de por día.
@@ -53,7 +51,7 @@ Extraiga un informe de tendencias básico con Analysis Workspace. Un informe de 
 
 ## Experimente con la herramienta
 
-Como Analysis Workspace es una herramienta de generación de informes, no afecta a la recopilación de datos. No hay repercusiones en arrastrar indiscriminadamente componentes a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto del área de trabajo para ver qué hay disponible.
+Dado que Analysis Workspace es una herramienta de generación de informes, no afecta a la recopilación de datos. No hay repercusiones en arrastrar indiscriminadamente componentes a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto del área de trabajo para ver qué hay disponible.
 
 Si arrastra accidentalmente un componente no válido al proyecto del área de trabajo o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. También puede empezar con una pizarra limpia haciendo clic en *[!UICONTROL Proyecto]&gt;[!UICONTROL Nuevo]* en el menú superior izquierdo.
 
@@ -69,15 +67,15 @@ Si crea correctamente un informe de área de trabajo pero no hay datos, puede co
 
 * Verifique dos veces el grupo de informes y asegúrese de que se rellena con datos.
 * Si utiliza un segmento en el informe, es posible que los criterios del segmento no coincidan con ningún dato. Intente eliminar el segmento o ajustar la definición del mismo.
-* Compruebe el intervalo de fechas en la esquina superior derecha y asegúrese de que está establecido en un valor que esperaba.
+* Compruebe el intervalo de fechas en la esquina superior derecha y asegúrese de que está establecido en un valor que esperaría.
 * Vaya al sitio web y utilice el depurador para validar que se estén recopilando datos.
 
 ## Recursos adicionales
 
 * [Notas](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)de la versión de Analysis Workspace: Lea las últimas funciones introducidas en la herramienta.
-* [Espacio de trabajo de análisis en YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): Aprenda a utilizar la mayoría de las funciones de Analysis Workspace mediante esta extensa lista de reproducción.
+* [Espacio de trabajo de análisis en YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): Aprenda a utilizar la mayoría de las funciones de Analysis Workspace a través de esta extensa lista de reproducción.
 * Sugerencias del producto: Las sugerencias del día, junto con vídeos cortos, aparecen ocasionalmente en la esquina inferior derecha de Analysis Workspace. Si estas sugerencias se descartan, se puede acceder a ellas a través de *[!UICONTROL Ayuda]&gt;[!UICONTROL Sugerencias]* en cualquier momento.
-* [Comunidad](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)de Analysis Workspace: Analice Analysis Workspace con otros usuarios y vote las funciones que desee ver en la herramienta.
+* [Comunidad](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)de Analysis Workspace: Analice Analysis Workspace con otros usuarios y vote sobre las funciones que desee ver en la herramienta.
 * Publicaciones del blog:
    * [Fortalecer las empresas con un análisis más inteligente](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
    * [Las nuevas funciones en Adobe Analytics logran que la información valiosa sea más accesible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
@@ -94,7 +92,7 @@ Hay muchas direcciones que seguir para comprender mejor Analysis Workspace. A co
 * [Detalles de la IU](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)de Workspace: Ahora que ha creado un informe básico, familiarícese con el resto de la interfaz.
 * [Visualizaciones en Workspace](visualizations/freeform-analysis-visualizations.md): Las tablas improvisadas son simplemente un tipo de visualización en Analysis Workspace. Aprenda a utilizar otras visualizaciones, como gráficos de líneas, gráficos de barras y mapas geográficos.
 * [Dimensiones en Workspace](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): Obtenga más información sobre las dimensiones y cómo utilizarlas en algo más que en los informes clasificados.
-* [Métricas en Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md): Obtenga más información sobre las métricas y cómo utilizarlas en otras partes de tablas improvisadas.
+* [Métricas en Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md): Obtenga más información sobre las métricas y cómo utilizarlas en otras partes de las tablas improvisadas.
 * [Introducción a la segmentación](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): Obtenga información sobre los segmentos y extraiga un informe básico mediante un segmento.
 * [Intervalos de fechas en Workspace](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): Obtenga información sobre las fechas relativas y móviles y utilícelas en proyectos de espacio de trabajo.
 * Uso compartido de proyectos en Workspace: Muestre a su colega el impresionante proyecto de Workspace que ha creado.
@@ -102,7 +100,7 @@ Hay muchas direcciones que seguir para comprender mejor Analysis Workspace. A co
 
 ### Para analistas y administradores que buscan mejorar la calidad del espacio de trabajo en su organización
 
-* [Permisos](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)de Analysis Workspace: Asigne permisos de usuario a Workspace mediante Adobe Admin Console.
+* [Permisos](https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html)de Analysis Workspace: Asigne permisos de usuario a Workspace a través de Adobe Admin Console.
 * [Crear un documento](/help/implement/prepare/solution-design.md)de diseño de solución: Comience a planificar cómo su organización recopila dimensiones o métricas adicionales específicas del sitio.
 * [Plantillas en Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Cree plantillas para que sus colegas puedan empezar con un espacio de proyecto adaptado a sus necesidades.
 * [Revisión](curate-share/curate.md)del espacio de trabajo: Cree un proyecto que limite los componentes disponibles, haciendo que el espacio de trabajo sea más accesible para los menos familiarizados con la herramienta
