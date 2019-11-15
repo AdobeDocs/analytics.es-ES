@@ -1,14 +1,12 @@
 ---
 description: Un tablero es una colección de informes en miniatura, llamados informes breves. Un tablero es más útil cuando contiene informes breves relacionados que le ofrecen información general completa sobre determinados aspectos de su sitio, como métodos de búsqueda, perfiles de visitantes, etc.
-seo-description: Un tablero es una colección de informes en miniatura, llamados informes breves. Un tablero es más útil cuando contiene informes breves relacionados que le ofrecen información general completa sobre determinados aspectos de su sitio, como métodos de búsqueda, perfiles de visitantes, etc.
-seo-title: Paneles e informes breves
 solution: Analytics
-subtopic: Tableros
+subtopic: Dashboards
 title: Paneles e informes breves
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
