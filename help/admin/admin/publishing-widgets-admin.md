@@ -1,13 +1,11 @@
 ---
 description: Una utilidad de publicación es un contenedor que permite incrustar informes de marketing (marcadores y tableros) en una página web. Los miembros de la organización que no dispongan de acceso a los informes de marketing también podrán ver los datos relevantes.
-seo-description: Una utilidad de publicación es un contenedor que permite incrustar informes de marketing (marcadores y tableros) en una página web. Los miembros de la organización que no dispongan de acceso a los informes de marketing también podrán ver los datos relevantes.
-seo-title: Widget de publicaciones
 solution: Analytics
 title: Widget de publicaciones
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,4 +41,4 @@ Si ve diferencias entre los datos de la utilidad de publicación y la interfaz d
 | Nombre | El nombre de la utilidad. |
 | Descripción | Opcional. Permite escribir una descripción de la utilidad. |
 | Número de visita | En la lista desplegable Informe superior, seleccione una carpeta o un tablero. En la lista desplegable Informe inferior, seleccione un informe breve o un marcador.  Estos informes no requieren la autenticación de visitantes. <br>Si un visitante carga una página web que contiene una utilidad de publicación, la utilidad mostrará automáticamente el informe asociado utilizando los datos actuales de los informes. Si se cambia una utilidad de publicación, por ejemplo, si se cambia el informe asociado, se actualizará automáticamente el resultado del informe de todas las páginas web que utilicen esa utilidad, sin necesidad de volver a implementarlas.</br> |
-| Destino | Permite especificar el destino de la utilidad   Los destinos deben tener un formato de URL válido, incluido el prefijo https:// o https://. Los destinos de los utilidades de publicación son inclusivos, es decir, que el utilidad de publicación funcionará en todas las direcciones URL que incluyan el destino especificado. <br>Por ejemplo, un Destino de https://www.corp1.com/sales/ permite las utilidades Publicación en todas las páginas Web en la página de ventas o debajo de ella en el sitio Web www.corp1.com.</br> |
+| Destino | Permite especificar el destino de la utilidad   Los destinos deben tener un formato de dirección URL válido, incluido el prefijo https:// o https://. Los destinos de los utilidades de publicación son inclusivos, es decir, que el utilidad de publicación funcionará en todas las direcciones URL que incluyan el destino especificado. <br>Por ejemplo, un Destino de https://www.corp1.com/sales/ permite las utilidades Publicación en todas las páginas Web en la página de ventas o debajo de ella en el sitio Web www.corp1.com.</br> |
