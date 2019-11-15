@@ -1,13 +1,11 @@
 ---
-description: Muestran información sobre el acceso a sitios web desde dispositivos móviles. Los informes sobre dispositivos móviles mejoran la identificación del visitante recopilando datos sobre los dispositivos móviles utilizados para ver el sitio. Los informes de dispositivos móviles pueden identificar al fabricante y las capacidades del dispositivo, como tamaño de pantalla, vídeo, audio, compatibilidad con cookies y otras métricas. Los informes de dispositivos móviles están disponibles para todos los grupos de informes.
-seo-description: Muestran información sobre el acceso a sitios web desde dispositivos móviles. Los informes sobre dispositivos móviles mejoran la identificación del visitante recopilando datos sobre los dispositivos móviles utilizados para ver el sitio. Los informes de dispositivos móviles pueden identificar al fabricante y las capacidades del dispositivo, como tamaño de pantalla, vídeo, audio, compatibilidad con cookies y otras métricas. Los informes de dispositivos portátiles están disponibles para todos los grupos de informes.
-seo-title: Mobile
+description: Muestran información sobre el acceso a sitios web desde dispositivos móviles. Los informes sobre dispositivos móviles mejoran la identificación del visitante recopilando datos sobre los dispositivos móviles utilizados para ver el sitio. Los informes de dispositivos móviles pueden identificar al fabricante y las capacidades del dispositivo, como tamaño de pantalla, vídeo, audio, compatibilidad con cookies y otras métricas. Los informes de dispositivos portátiles están disponibles para todos los grupos de informes.
 solution: Analytics
 title: Mobile
-topic: Informes
+topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,7 +18,7 @@ Muestran información sobre el acceso a sitios web desde dispositivos móviles. 
 
 Muestran información sobre el acceso a sitios web desde dispositivos móviles. Los informes sobre dispositivos móviles mejoran la identificación del visitante recopilando datos sobre los dispositivos móviles utilizados para ver el sitio. Los informes de dispositivos móviles pueden identificar al fabricante y las capacidades del dispositivo, como tamaño de pantalla, vídeo, audio, compatibilidad con cookies y otras métricas. Los informes de dispositivos móviles están disponibles para todos los grupos de informes.
 
-> [!NOTE] Los informes de dispositivos móviles solo muestran tráfico web móvil. Los datos recopilados de aplicaciones móviles que usen iOS nativo, Android y otros SDK aparecen en los informes de aplicaciones móviles y solo se muestran si se habilita esta opción en Herramientas de administración.
+> [!NOTE] Los informes de dispositivos móviles solo muestran el tráfico web de dispositivos móviles. Los datos recopilados de aplicaciones móviles que usen iOS nativo, Android y otros SDK aparecen en los informes de aplicaciones móviles y solo se muestran si se habilita esta opción en Herramientas de administración.
 
 Están disponibles los siguientes informes móviles:
 
