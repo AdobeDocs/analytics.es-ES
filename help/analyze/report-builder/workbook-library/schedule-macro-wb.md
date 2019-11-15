@@ -1,13 +1,11 @@
 ---
 description: El Creador de informes de Adobe admite el formato .xlsm que le permite programar libros con las macros habilitadas.
-seo-description: El Creador de informes de Adobe admite el formato .xlsm que le permite programar libros con las macros habilitadas.
-seo-title: Programar libros con las macros habilitadas
 solution: Analytics
 title: Programar libros con las macros habilitadas
-topic: Creador de informes
-uuid: 874cface8-ca63-4dec-b2aa-a3dcd037c5c5
+topic: Report builder
+uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
