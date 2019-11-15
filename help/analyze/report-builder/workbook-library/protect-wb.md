@@ -1,13 +1,11 @@
 ---
 description: Puede proteger todas las solicitudes en un libro contra las solicitudes para añadir y editar si bloquea el libro. Esto permite la edición de libros sin conexión al pausar todas las solicitudes de informe para una edición más eficiente.
-seo-description: Puede proteger todas las solicitudes en un libro contra las solicitudes para añadir y editar si bloquea el libro. Esto permite la edición de libros sin conexión al pausar todas las solicitudes de informe para una edición más eficiente.
-seo-title: Bloquear/desbloquear libros
 solution: Analytics
 title: Bloquear/desbloquear libros
-topic: Creador de informes
+topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -57,7 +55,7 @@ Supongamos que el libro A tiene una solicitud que está bloqueada y que la creó
 **Ejemplo 1: Usuario administrador (o usuario A)**
 
 1. El usuario inicia sesión en el Creador de informes y abre el libro 
-1. El libro A está actualmente bloqueado, por lo que el botón "Crear solicitud" está desactivado en la barra de herramientas, junto con todos los demás botones cuya funcionalidad está deshabilitada por el bloqueo.
+1. El libro A está actualmente bloqueado, por lo que el botón "Crear solicitud" está desactivado en la barra de herramientas, junto con todos los demás botones cuya funcionalidad está deshabilitada al bloquearlo.
 1. Si el usuario intenta utilizar uno de los botones desactivados, aparece el mensaje que el libro está bloqueado actualmente.
 1. El usuario puede desbloquear el libro, lo cual activa completamente la función de edición.
 1. Tras el desbloqueo, el libro permanece desbloqueado hasta que se vuelve a bloquear explícitamente.
