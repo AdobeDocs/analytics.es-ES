@@ -1,14 +1,12 @@
 ---
 description: Desglose de dimensiones y elementos de dimensión en Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Desglose de dimensiones y elementos de dimensión en Analysis Workspace.
-seo-title: Desglose de dimensiones
 solution: Analytics
 title: Desglose de dimensiones
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
