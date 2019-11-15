@@ -1,14 +1,12 @@
 ---
 description: 'null'
 keywords: Analysis Workspace
-seo-description: 'null'
-seo-title: 'Creación de un proyecto: Resumen'
 solution: Analytics
 title: 'Creación de un proyecto: Resumen'
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
