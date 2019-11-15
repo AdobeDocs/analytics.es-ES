@@ -1,15 +1,13 @@
 ---
 description: La función s.sa() permite cambiar en cualquier momento y de forma dinámica un grupo de informes en la página, antes o después de que la solicitud de imagen se active.
-keywords: Implementación de Analytics
-seo-description: La función s.sa() permite cambiar en cualquier momento y de forma dinámica un grupo de informes en la página, antes o después de que la solicitud de imagen se active.
-seo-title: Función s.sa()
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Funciones
+subtopic: Functions
 title: Función s.sa()
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
