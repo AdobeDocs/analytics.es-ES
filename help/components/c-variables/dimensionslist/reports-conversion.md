@@ -1,13 +1,11 @@
 ---
 description: Ofrece un análisis completo, preciso y detallado de la actividad de los clientes. Las métricas, como Administración de campañas, Ciclo de ventas, Visitas de clientes en el orden previsto y Conversión de clientes, permiten medir las transacciones de comercio electrónico, las fuentes de ventas, la eficacia de la publicidad, la lealtad de los clientes y mucho más.
-seo-description: Ofrece un análisis completo, preciso y detallado de la actividad de los clientes. Las métricas, como Administración de campañas, Ciclo de ventas, Visitas de clientes en el orden previsto y Conversión de clientes, permiten medir las transacciones de comercio electrónico, las fuentes de ventas, la eficacia de la publicidad, la lealtad de los clientes y mucho más.
-seo-title: Conversión
 solution: Analytics
 title: Conversión
-topic: Informes
+topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
