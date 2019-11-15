@@ -1,14 +1,12 @@
 ---
 description: La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde con una visualización.
-keywords: Analysis Workspace;Sincronizar visualización con fuente de datos
-seo-description: La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde con una visualización.
-seo-title: Administración de fuentes de datos
+keywords: Analysis Workspace;Synchronize visualization with data source
 solution: Analytics
 title: Administración de fuentes de datos
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -41,10 +39,10 @@ Esta arquitectura difiere de la anterior en que Analysis Workspace ya no crea un
 
 * Puede crear una visualización de resumen y bloquearla en una celda de la misma tabla en la que la creó. Al activar “Mostrar fuente de datos”, se muestra la procedencia exacta de esta información en la tabla. Los datos de origen aparecerán atenuados:
 
-   ![](assets/data-source2.png)&gt;
+   ![](assets/data-source2.png) &gt; 
 * Puede agregar muchas visualizaciones cuyo origen sean diferentes celdas de una misma tabla, como se muestra aquí. Esta tabla es la misma que en el ejemplo anterior, pero la celda de origen (y la métrica) es diferente:
 
-   ![](assets/data-source3.png)&gt;
+   ![](assets/data-source3.png) &gt; 
 * Puede ver si existen visualizaciones conectadas a una tabla improvisada o de cohorte haciendo clic en el punto superior izquierdo (Configuración de fuente de datos). Al pasar el ratón por encima, se resalta la visualización vinculada y, al hacer clic en ella, se abre.
 
-   ![](assets/linked-visualizations.png)&gt;
+   ![](assets/linked-visualizations.png) &gt; 
