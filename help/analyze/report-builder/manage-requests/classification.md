@@ -1,13 +1,11 @@
 ---
 description: Los desgloses de clasificación se utilizan para asignar datos de informes de análisis a propiedades relacionadas. Las clasificaciones pueden utilizarse para distintos fines, pero el más común es la clasificación de los códigos de seguimiento de campaña (tanto internos como externos) y los ID de productos.
-seo-description: Los desgloses de clasificación se utilizan para asignar datos de informes de análisis a propiedades relacionadas. Las clasificaciones pueden utilizarse para distintos fines, pero el más común es la clasificación de los códigos de seguimiento de campaña (tanto internos como externos) y los ID de productos.
-seo-title: Clasificación de
 solution: Analytics
 title: Clasificación de
-topic: Creador de informes
+topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
