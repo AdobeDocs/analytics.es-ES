@@ -1,11 +1,9 @@
 ---
 description: Muestra las impresiones servidas y cuántos usuarios únicos han visto dichas impresiones.
-seo-description: Muestra las impresiones servidas y cuántos usuarios únicos han visto dichas impresiones.
-seo-title: Diagrama de dispersión
 title: Diagrama de dispersión
-uuid: 470b3142-3a0a-4cd8-8919-7b6404188c8
+uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
