@@ -1,14 +1,12 @@
 ---
 description: Pasos en los que se describe cómo asignar elementos de cuenta de usuario (tableros, métricas calculadas, eventos de calendario, alertas, marcadores, segmentos, proyectos de Analysis Workspace y proyectos programados) de la cuenta de un usuario a la de otro.
-seo-description: Pasos en los que se describe cómo asignar elementos de cuenta de usuario (tableros, métricas calculadas, eventos de calendario, alertas, marcadores, segmentos, proyectos de Analysis Workspace y proyectos programados) de la cuenta de un usuario a la de otro.
-seo-title: Transferir elementos de cuenta de usuario
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: Transferir elementos de cuenta de usuario
-topic: Herramientas de administración
-uuid: b 083 c 622-1397-45 ab -8796-f 7 cdc 7043 ec 6
+topic: Admin tools
+uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,5 +30,5 @@ Pasos en los que se describe cómo asignar elementos de cuenta de usuario (table
 
    >[!NOTE]
    >
-   >Los recursos de Análisis específicos no se pueden transferir. Si su organización utiliza varias empresas de inicio de sesión, no puede transferir nada entre las empresas de inicio de sesión.
+   >No se pueden transferir los recursos de Análisis específicos. Si su organización utiliza varias empresas de inicio de sesión, no puede transferir nada entre las empresas de inicio de sesión.
 
