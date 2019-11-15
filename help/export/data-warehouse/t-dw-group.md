@@ -1,13 +1,11 @@
 ---
 description: Instrucciones sobre cómo los administradores pueden activar el acceso a los informes del Data Warehouse para un grupo de usuarios.
-seo-description: Instrucciones sobre cómo los administradores pueden activar el acceso a los informes del Data Warehouse para un grupo de usuarios.
-seo-title: Añadir un grupo de usuarios del Data Warehouse
 solution: Analytics
 title: Añadir un grupo de usuarios del Data Warehouse
-topic: Data Warehouse
+topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
