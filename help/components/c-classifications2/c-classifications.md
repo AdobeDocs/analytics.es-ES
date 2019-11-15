@@ -1,14 +1,12 @@
 ---
 description: Una clasificación es una forma de categorizar los datos de variables de Analytics y, a continuación, mostrar los datos de diferentes maneras cuando se generan informes.
-seo-description: Una clasificación es una forma de categorizar los datos de variables de Analytics y, a continuación, mostrar los datos de diferentes maneras cuando se generan informes.
-seo-title: Acerca de las clasificaciones
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: Acerca de las clasificaciones
-topic: Herramientas de administración
+topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
