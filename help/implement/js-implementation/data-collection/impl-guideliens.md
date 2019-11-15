@@ -1,14 +1,12 @@
 ---
 description: Al seguir estas directrices se usan los mismos dominios de cookies, lo que permite realizar el seguimiento de las visitas en diferentes tipos de implementaciones.
-keywords: Implementación de Analytics
-seo-description: Al seguir estas directrices se usan los mismos dominios de cookies, lo que permite realizar el seguimiento de las visitas en diferentes tipos de implementaciones.
-seo-title: Directrices de implementación
+keywords: Analytics Implementation
 solution: Analytics
 title: Directrices de implementación
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
