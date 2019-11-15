@@ -1,14 +1,12 @@
 ---
 description: Los eventos realizan un seguimiento de cuándo un visitante ha realizado una acción especificada.
-keywords: Implementación de Analytics, evento, evento de éxito, evento de divisa, evento personalizado
-seo-description: Los eventos realizan un seguimiento de cuándo un visitante ha realizado una acción especificada.
-seo-title: Eventos
+keywords: Analytics Implementation;event;success event;currency event;custom event
 solution: Analytics
 title: Eventos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: d2edd432-60bc-4426-9967-153b713147a1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
