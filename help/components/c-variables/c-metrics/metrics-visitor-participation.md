@@ -1,13 +1,11 @@
 ---
 description: La serie de métricas de participación de visitantes permite ver la participación a lo largo de varias sesiones de visita en canales de marketing, campañas, ingresos, etc. Por ejemplo, el crédito por compras e ingresos se puede atribuir en forma retroactiva a otros puntos de contacto promocionales previos a la visita en la que se realizó el pedido. Ad Hoc Analysis proporciona datos de la participación de los visitantes en diversas visitas.
-seo-description: La serie de métricas de participación de visitantes permite ver la participación a lo largo de varias sesiones de visita en canales de marketing, campañas, ingresos, etc. Por ejemplo, el crédito por compras e ingresos se puede atribuir en forma retroactiva a otros puntos de contacto promocionales previos a la visita en la que se realizó el pedido. Ad Hoc Analysis proporciona datos de la participación de los visitantes en diversas visitas.
-seo-title: 'Participación de visitantes: Ad Hoc Analysis'
 solution: Analytics
 title: 'Participación de visitantes: Ad Hoc Analysis'
-topic: Métricas
+topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
