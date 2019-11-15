@@ -1,13 +1,11 @@
 ---
 description: Puede ver y segmentar los datos del tráfico de Adobe Target en un informe.
-seo-description: Puede ver y segmentar los datos del tráfico de Adobe Target en un informe.
-seo-title: Target
 solution: Analytics
 title: Target
-topic: Informes
-uuid: 387dfc37-d799-465c-99e3-2d3980fect183
+topic: Reports
+uuid: 387dfc37-d799-465c-99e3-2d3980fec183
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
