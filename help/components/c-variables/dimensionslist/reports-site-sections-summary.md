@@ -1,13 +1,11 @@
 ---
 description: Un informe de resumen para secciones de sitio que muestra puntos de entrada de página anterior, puntos de salida de página siguiente, e información sobre instancias (denominadas vistas de página en esta interfaz), profundidad de las secciones del sitio, tiempo empleado en el sitio, etc.
-seo-description: Un informe de resumen para secciones de sitio que muestra puntos de entrada de página anterior, puntos de salida de página siguiente, e información sobre instancias (denominadas vistas de página en esta interfaz), profundidad de las secciones del sitio, tiempo empleado en el sitio, etc.
-seo-title: Resumen de las secciones del sitio
 solution: Analytics
 title: Resumen de las secciones del sitio
-topic: 'Informes '
-uuid: 5 bee 04 ea -5414-4538-b 0 d 1-120700982762
+topic: Reports
+uuid: 5bee04ea-5414-4538-b0d1-120700982762
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
