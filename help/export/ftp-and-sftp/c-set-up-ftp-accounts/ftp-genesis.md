@@ -1,13 +1,11 @@
 ---
 description: Al crear una integración con un socio de Adobe a través de conectores de datos, Adobe puede insertar información sobre la nueva comercialización u otro tipo de datos en una cuenta de FTP, que el propio usuario o el socio pueden descargar.
 keywords: ftp;sftp
-seo-description: Al crear una integración con un socio de Adobe a través de conectores de datos, Adobe puede insertar información sobre la nueva comercialización u otro tipo de datos en una cuenta de FTP, que el propio usuario o el socio pueden descargar.
-seo-title: Data Connectors
 solution: Analytics
 title: Data Connectors
 uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
