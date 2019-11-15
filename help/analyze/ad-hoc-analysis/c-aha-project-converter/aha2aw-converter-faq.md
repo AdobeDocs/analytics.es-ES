@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Preguntas frecuentes del Conversor de proyectos
 title: Preguntas frecuentes del Conversor de proyectos
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,8 +19,8 @@ source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
 
 | Problema | Descripción |
 |--- |--- |
-| Granularidad de minutos con desgloses o en columnas | Cuando la granularidad de minutos tiene desgloses aplicados o si la granularidad de minutos está presente en las columnas, el proyecto no se puede convertir a Analysis Workspace.  Una solución consiste en eliminar el desglose por granularidad de minutos, quitarlo de las columnas y luego convertir el proyecto. A continuación, puede aplicar desgloses en granularidad de minutos en Analysis Workspace. |
-| Métrica calculada interna utilizada junto con un segmento de columna | Si utiliza una métrica calculada interna junto con un segmento de columna, el proyecto no se puede convertir a Analysis Workspace. Para solucionar este problema, elimine las métricas calculadas internas del proyecto antes de la conversión y vuelva a agregarlas en Analysis Workspace. |
+| Granularidad de minutos con desgloses o en columnas | Cuando la granularidad de minutos tiene desgloses aplicados o si la granularidad de minutos está presente en las columnas, el proyecto no se puede convertir a Analysis Workspace.  Una solución consiste en eliminar el desglose por granularidad de minutos, quitarlo de las columnas y, a continuación, convertir el proyecto. A continuación, puede aplicar desgloses en granularidad de minutos en Analysis Workspace. |
+| Métrica calculada interna utilizada junto con un segmento de columna | Si utiliza una métrica calculada interna junto con un segmento de columna, el proyecto no se puede convertir a Analysis Workspace. Para solucionar este problema, elimine las métricas calculadas internas del proyecto antes de la conversión y, a continuación, vuelva a agregarlas en Analysis Workspace. |
 
 
 ## Preguntas más frecuentes sobre conversión {#section_1E53FE373AF045978F939916124E194E}
