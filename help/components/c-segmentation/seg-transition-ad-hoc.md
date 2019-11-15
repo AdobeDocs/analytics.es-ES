@@ -1,14 +1,12 @@
 ---
 description: Si está habituado a trabajar con el Generador de segmentos en Análisis específicos, esta lista de preguntas más frecuentes le explica qué sucede con los segmentos y las carpetas existentes y qué acciones debe realizar.
-keywords: segmentación;segmentos
-seo-description: Si está habituado a trabajar con el Generador de segmentos en Análisis específicos, esta lista de preguntas más frecuentes le explica qué sucede con los segmentos y las carpetas existentes y qué acciones debe realizar.
-seo-title: Guía de transición para Ad Hoc Analysis
+keywords: segmentation;segments
 solution: Analytics
 title: Guía de transición para Ad Hoc Analysis
-topic: Segmentos
+topic: Segments
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
