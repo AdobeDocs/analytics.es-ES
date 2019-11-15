@@ -1,15 +1,13 @@
 ---
 description: Ejemplo que contiene una muestra de llamadas al servidor enviadas en una interacción de cliente habitual.
-keywords: Implementación de Analytics
-seo-description: Ejemplo que contiene una muestra de llamadas al servidor enviadas en una interacción de cliente habitual.
-seo-title: Visita de ejemplo
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Visitantes
+subtopic: Visitors
 title: Visita de ejemplo
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
