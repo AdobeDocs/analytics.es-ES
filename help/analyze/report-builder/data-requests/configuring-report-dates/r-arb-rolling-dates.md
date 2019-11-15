@@ -1,13 +1,11 @@
 ---
 description: Definición de los campos de fechas móviles en el Creador de informes.
-seo-description: Definición de los campos de fechas móviles en el Creador de informes.
-seo-title: 'Definiciones del Asistente para solicitudes: Fechas móviles'
 solution: Analytics
 title: 'Definiciones del Asistente para solicitudes: Fechas móviles'
-topic: Creador de informes
+topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
