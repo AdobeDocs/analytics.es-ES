@@ -1,13 +1,11 @@
 ---
 description: Preguntas frecuentes sobre la instalación, configuración y utilización de las funciones de Activity Map.
-seo-description: Preguntas frecuentes sobre la instalación, configuración y utilización de las funciones de Activity Map.
-seo-title: Preguntas frecuentes sobre Activity Map
 solution: Analytics
 title: Preguntas frecuentes sobre Activity Map
-topic: Activity Map
+topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -28,7 +26,7 @@ R: Los clientes de Adobe SiteCatalyst no tienen acceso a la página de habilitac
 
 **P: ¿El nuevo código de AppMeasurement se puede configurar a través de la Dynamic Tag Management (DTM)?**
 
-R: Sí, se puede [implementar manualmente](https://marketing.adobe.com/resources/help/es_ES/dtm/analytics_dtm.html) el nuevo código de AppMeasurement.
+R: Sí, se puede [implementar manualmente](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html) el nuevo código de AppMeasurement.
 
 **P: ¿Cuáles son los cambios más importantes de la biblioteca AppMeasurement v1.6?**
 
@@ -73,7 +71,7 @@ R: Mientras Activity Map está en uso, la etiqueta de Analytics no recopila dato
 
 **P: ¿Por qué el desplegable de las métricas muestra las mismas métricas varias veces?**
 
-R: Activity Map muestra las métricas de todos los grupos de informes. Por este motivo, algunas métricas pueden estar duplicadas si la empresa no las [ha consolidado](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/cm_transition.html).
+R: Activity Map muestra las métricas de todos los grupos de informes. Por este motivo, algunas métricas pueden estar duplicadas si la empresa no las [ha consolidado](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html).
 
 El menú desplegable de las métricas le permite limitar la lista de métricas calculadas a las asignadas al grupo de informes de las páginas visitadas.
 
@@ -125,7 +123,7 @@ Aparece un mensaje de advertencia que indica que debe (/home/analyze/activity-ma
 
 Aparece un mensaje de advertencia que indica que debe pedirle al administrador que \[habilite el informe de Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md") .
 
-**P: ¿Puedo exportar los datos de Activity Map (contextData) mediante un[Analytics Data Feed](https://marketing.adobe.com/resources/help/es_ES/reference/analytics-data-feed.html)?**
+**P: ¿Puedo exportar los datos de Activity Map (contextData) mediante un[Analytics Data Feed](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)?**
 
 R: No.
 
