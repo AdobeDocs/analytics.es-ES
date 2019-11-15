@@ -1,11 +1,9 @@
 ---
 description: Con el seguimiento se determina cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
-seo-description: Con el seguimiento se determina cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
-seo-title: Modo manual de seguimiento y modo automático
 title: Modo manual de seguimiento y modo automático
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -23,7 +21,7 @@ En el modo automático, el motor de Advertising Cloud decide cómo se gestionan 
 Como consecuencia, cuando seleccione el modo automático, antes de poder guardar la configuración de la cuenta deberá marcar una casilla de verificación para confirmar este hecho.
 
 
-Tenga en cuenta que para configurar una cuenta de motor de búsqueda en 'Modo automático', es responsable de realizar las siguientes acciones:
+Tenga en cuenta que para configurar una cuenta de motor de búsqueda en 'Modo automático', usted es el responsable de realizar las siguientes acciones:
 
 * En la cuenta agregada se añadirá el parámetro y valor “s_kwcid” a las plantillas de seguimiento de la cuenta o a las URL de las páginas de destino. Se insertará al final de la URL. Es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL. **Usted es responsable de garantizar que los parámetros de URL añadidos se conserven correctamente en la página de destino final.**
 * Además, es posible insertar palabras clave en la URL de destino como parte del valor “s_kwcid”. Si contienen caracteres especiales o símbolos, confirme que su servidor web los admite. Ejemplo: un carácter especial común es “+”, que se utiliza en las palabras clave “Broad Match Modified”.
