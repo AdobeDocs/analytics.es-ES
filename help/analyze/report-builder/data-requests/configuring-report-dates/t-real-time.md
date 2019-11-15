@@ -1,13 +1,11 @@
 ---
 description: Los pasos describen cómo configurar las fechas de solicitud en tiempo real.
-seo-description: Los pasos describen cómo configurar las fechas de solicitud en tiempo real.
-seo-title: Configuración de una solicitud en tiempo real
 solution: Analytics
 title: Configuración de una solicitud en tiempo real
-topic: Creador de informes
+topic: Report builder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
