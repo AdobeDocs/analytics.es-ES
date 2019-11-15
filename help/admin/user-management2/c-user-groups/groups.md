@@ -1,14 +1,12 @@
 ---
 description: Descripciones de los elementos de la página Definir grupo de usuarios.
-seo-description: Descripciones de los elementos de la página Definir grupo de usuarios.
-seo-title: Configuración de grupos de usuarios
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: Configuración de grupos de usuarios
-topic: Herramientas de administración
+topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
