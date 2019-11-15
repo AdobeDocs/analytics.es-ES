@@ -1,13 +1,11 @@
 ---
 description: Pasos y consideraciones a tener en cuenta al actualizar el Creador de informes.
-seo-description: Pasos y consideraciones a tener en cuenta al actualizar el Creador de informes.
-seo-title: Actualizar el Report Builder
 solution: Analytics
 title: Actualizar el Report Builder
-topic: Creador de informes
+topic: Report builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -41,7 +39,7 @@ R: No, su configuración completa, incluyendo la configuración de autenticació
 
    >[!NOTE]
    >
-   > Si este botón está atenuado, no hay ninguna versión nueva del Creador de informes disponible.
+   >Si este botón está atenuado, no hay ninguna versión nueva del Creador de informes disponible.
 
 1. Si lo desea, seleccione la casilla de verificación **[!UICONTROL Actualizar cuando una nueva versión esté disponible].** Más adelante, esto iniciará el proceso de actualización de forma automática cuando haya una versión nueva disponible.
 1. Cuando aparezca la pantalla de configuración, haga clic en **[!UICONTROL Siguiente &gt;]**.
