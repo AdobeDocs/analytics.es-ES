@@ -1,13 +1,11 @@
 ---
 description: Todos los informes marcados y los informes del tablero ahora se enumeran como dimensiones en el paso 1 del Asistente para solicitudes y pueden importarse como solicitudes del Creador de informes.
-seo-description: Todos los informes marcados y los informes del tablero ahora se enumeran como dimensiones en el paso 1 del Asistente para solicitudes y pueden importarse como solicitudes del Creador de informes.
-seo-title: Importación de informes marcados e informes del panel
 solution: Analytics
 title: Importación de informes marcados e informes del panel
-topic: Creador de informes
+topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -34,5 +32,5 @@ El bookmarklet importado configurará adecuadamente el grupo de informes, el seg
 
 >[!IMPORTANT]
 >
->El intervalo de fechas se establecerá en el mismo intervalo de fechas, pero como un intervalo de fechas estático, aunque este intervalo de fechas sea un intervalo de fechas móvil en el marcador Informes y análisis.
+>El intervalo de fechas se establecerá en el mismo intervalo de fechas, pero como un intervalo de fechas estático, incluso si este intervalo de fechas era un intervalo de fechas móvil en el marcador Informes y análisis.
 
