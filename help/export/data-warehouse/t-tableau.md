@@ -1,20 +1,18 @@
 ---
-description: El almacén de datos puede entregar informes en formato de archivo Tableau Data Extract (TDE) que le permiten visualizar datos y crear capas en datos adicionales desde fuera de Adobe Analytics. Puede enviar por correo electrónico esta información, o enviarla por FTP a otro sitio FTP.
-seo-description: El almacén de datos puede entregar informes en formato de archivo Tableau Data Extract (TDE) que le permiten visualizar datos y crear capas en datos adicionales desde fuera de Adobe Analytics. Puede enviar por correo electrónico esta información, o enviarla por FTP a otro sitio FTP.
-seo-title: Archivo de datos Tableau
+description: El Almacén de datos puede entregar informes en formato de archivo Tableau Data Extract (TDE) que le permite visualizar datos y crear capas en datos adicionales desde fuera de Adobe Analytics. Puede enviar por correo electrónico esta información, o enviarla por FTP a otro sitio FTP.
 solution: Analytics
 title: Archivo de datos Tableau
-topic: Data Warehouse
+topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Archivo de datos Tableau
 
-El almacén de datos puede entregar informes en formato de archivo Tableau Data Extract (TDE) que le permiten visualizar datos y crear capas en datos adicionales desde fuera de Adobe Analytics. Puede enviar por correo electrónico esta información, o enviarla por FTP a otro sitio FTP.
+El Almacén de datos puede entregar informes en formato de archivo Tableau Data Extract (TDE) que le permite visualizar datos y crear capas en datos adicionales desde fuera de Adobe Analytics. Puede enviar por correo electrónico esta información, o enviarla por FTP a otro sitio FTP.
 
 Consulte [Tableau y Adobe Analytics](https://www.tableausoftware.com/about/blog/2014/3/tableau-and-adobe-analytics-digital-marketing-gets-even-more-awesome-29491) para obtener más información.
 
