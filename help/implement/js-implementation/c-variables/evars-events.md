@@ -1,14 +1,12 @@
 ---
 description: 'Si desea rastrear información adicional pero no tiene suficientes variables para hacerlo, ahora tiene acceso a eVars y eventos de éxito adicionales '
-keywords: Implementación de Analytics, evars, eventos, número de evars, cuántas evars, cuántos eventos
-seo-description: 'Si desea rastrear información adicional pero no tiene suficientes variables para hacerlo, ahora tiene acceso a eVars y eventos de éxito adicionales '
-seo-title: Eventos y eVars adicionales
+keywords: Analytics Implementation;evars;events;evars number;how many evars;how many events
 solution: Analytics
 title: Eventos y eVars adicionales
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 6f53069b-6941-40f1-9db6-2d1839822b8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
