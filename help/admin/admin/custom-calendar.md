@@ -1,13 +1,11 @@
 ---
 description: Opciones de calendario aparte del modelo gregoriano. Las opciones incluyen los modelos de calendario 4-4-5, 4-5-4 y 5-4-4, todos ellos utilizados como estándar en el sector minorista. Además, los informes ofrecen la opción de usar un calendario totalmente personalizable que puede configurar usted mismo.
-seo-description: Opciones de calendario aparte del modelo gregoriano. Las opciones incluyen los modelos de calendario 4-4-5, 4-5-4 y 5-4-4, todos ellos utilizados como estándar en el sector minorista. Además, los informes ofrecen la opción de usar un calendario totalmente personalizable que puede configurar usted mismo.
-seo-title: Personalizar calendario
 solution: Analytics
 title: Personalizar calendario
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -20,7 +18,7 @@ Opciones de calendario aparte del modelo gregoriano. Las opciones incluyen los m
 
 >[!CAUTION]
 >
-> Al cambiar el calendario se cambia la forma en que se procesan los datos (es decir, la definición de visitantes únicos semanales y mensuales). Al cambiar la definición de semanas y meses de un calendario no se modifican los datos históricos.
+>Al cambiar el calendario se cambia la forma en que se procesan los datos (es decir, la definición de visitantes únicos semanales y mensuales). Al cambiar la definición de semanas y meses de un calendario no se modifican los datos históricos.
 
 El calendario se puede usar para definir el primer día de la semana y del año, y permite elegir un estilo de calendario comercial distinto. Los formatos de calendario se utilizan por distintos motivos, entre los que se incluyen la comparación de ventas y estandarización de la previsión, el análisis del costo en plantilla o la regulación del recuento de inventario físico. Por ejemplo, el sector minorista utiliza el calendario contable 4-5-4 para las temporadas de venta específicas de dicho sector. A continuación se describe cada formato de calendario.
 
