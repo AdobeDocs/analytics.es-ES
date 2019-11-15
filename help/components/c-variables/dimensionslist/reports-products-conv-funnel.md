@@ -1,13 +1,11 @@
 ---
-description: Muestra promedios para las métricas Vistas del producto, Adiciones al carro de compras, Pedidos, Unidades e Ingresos. También muestra las conversiones clave entre los datos importantes de cada grupo de informes y las métricas de conversión estándar (Pedidos, Unidades e Ingresos). La parte superior (información general) del canal ofrece un resumen visual de los datos de conversión. La sección del canal muestra estadísticas de todos los eventos de la sección Información general en función de los pedidos y hasta dos métricas más, como Ingresos y Unidades.
-seo-description: Muestra promedios para las métricas Vistas del producto, Adiciones al carro de compras, Pedidos, Unidades e Ingresos. También muestra las conversiones clave entre los datos importantes de cada grupo de informes y las métricas de conversión estándar (Pedidos, Unidades e Ingresos). La parte superior (información general) del canal ofrece un resumen visual de los datos de conversión. La sección del canal muestra estadísticas de todos los eventos de la sección Información general basados en los pedidos y en hasta dos métricas más, como Ingresos y Unidades.
-seo-title: Canal de conversión de productos
+description: Muestra promedios para las métricas Vistas del producto, Adiciones al carro de compras, Pedidos, Unidades e Ingresos. También muestra las conversiones clave entre los datos importantes de cada grupo de informes y las métricas de conversión estándar (Pedidos, Unidades e Ingresos). La parte superior (información general) del canal ofrece un resumen visual de los datos de conversión. La sección del canal muestra estadísticas de todos los eventos de la sección Información general basados en los pedidos y en hasta dos métricas más, como Ingresos y Unidades.
 solution: Analytics
 title: Canal de conversión de productos
-topic: Informes
-uuid: e857aa20-32b6-45a2-a934-6a11mortal b49d
+topic: Reports
+uuid: e857aa20-32b6-45a2-a934-6a11deadb49d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
