@@ -1,21 +1,19 @@
 ---
 description: 'null'
-keywords: segmentación;segmentos
-seo-description: 'null'
-seo-title: Preguntas frecuentes
+keywords: segmentation;segments
 solution: Analytics
 title: Preguntas frecuentes
-topic: Segmentos
+topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Preguntas frecuentes
 
-Responde preguntas frecuentes sobre las funciones de segmentación, acceso, permisos, prácticas recomendadas y administración de segmentos heredados.
+Responde preguntas frecuentes sobre las funciones de segmentación, el acceso, los permisos, las prácticas recomendadas y la administración de segmentos heredados.
 
 ## Funciones {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -207,7 +205,7 @@ Los siguientes consejos le ayudarán a migrar dimensiones comunes:
 
 * [Dimensiones nuevas y renombradas](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
 * [Cambios en Contiene](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [Cambios a menor que y mayor que](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [Cambia a Menor que y Mayor que](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## Dimensiones nuevas y renombradas {#section_73CF121B64A24DEF8E6499F3167BF742}
 
