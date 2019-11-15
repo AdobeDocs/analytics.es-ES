@@ -1,18 +1,16 @@
 ---
 description: Describe cómo crear informes de ruta con filtros predefinidos.
-seo-description: Describe cómo crear informes de ruta con filtros predefinidos.
-seo-title: Filtrar informes de ruta mediante la adición de solicitudes dependientes
 solution: Analytics
-title: Filtrar informes de ruta mediante la adición de solicitudes dependientes
-topic: Creador de informes
-uuid: dd 1294 f 8-a 26 b -4254-a 9 f 6-1365 b 2912 adf
+title: Filtrado de informes de ruta añadiendo solicitudes dependientes
+topic: Report builder
+uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Filtrar informes de ruta mediante la adición de solicitudes dependientes
+# Filtrado de informes de ruta añadiendo solicitudes dependientes
 
 Describe cómo crear informes de ruta con filtros predefinidos.
 
@@ -38,4 +36,4 @@ Report Builder does not offer these as standalone reports, but you can create th
 
 1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
 
-   Aparece el Asistente para solicitudes con la métrica Página anterior ya seleccionada. 1. Siga perfeccionando la solicitud en el Asistente para solicitudes y genere su solicitud.
+   Aparece el Asistente para solicitudes con la métrica Página anterior ya seleccionada. 1. Siga refinando la solicitud en el Asistente para solicitudes y genere la solicitud.
