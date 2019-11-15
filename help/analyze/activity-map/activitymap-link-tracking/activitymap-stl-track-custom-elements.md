@@ -1,13 +1,11 @@
 ---
 description: La función s.tl() se puede usar para hacer un seguimiento de elementos personalizados y configurar la representación de las superposiciones en el contenido dinámico.
-seo-description: La función s.tl() se puede usar para hacer un seguimiento de elementos personalizados y configurar la representación de las superposiciones en el contenido dinámico.
-seo-title: Utilizar la función s.tl()
 solution: Analytics
 title: Utilizar la función s.tl()
-topic: Activity Map
+topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 La función s.tl() se puede usar para hacer un seguimiento de elementos personalizados y configurar la representación de las superposiciones en el contenido dinámico.
 
-## Tracking custom elements {#section_5D6688DFFFC241718249A9A0C632E465}
+## Seguimiento de elementos personalizados {#section_5D6688DFFFC241718249A9A0C632E465}
 
 Al usar la [función s.tl()](https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html) en el módulo AppMeasurement de Activity Map se puede realizar un seguimiento de cualquier objeto en el que se haga clic, incluso objetos que no sean etiquetas de anclaje ni elementos de imagen. Con s.tl, se puede hacer un seguimiento de cualquier elemento personalizado que no resulte en una carga de página.
 
@@ -29,9 +27,9 @@ s.tl(this,linkType,
 
 En otras palabras, si se usa s.tl para hacer un seguimiento de los elementos personalizados, el ID del vínculo se extrae del valor pasado como tercer parámetro (linkName) en la función s.tl. No se extrae del algoritmo de seguimiento estándar de vínculos que se utiliza para el [seguimiento predeterminado](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) en Activity Map.
 
-## Overlay rendering for dynamic content {#section_FD24B61A732149C7B58BA957DD84A5E7}
+## Representación de superposiciones en el contenido dinámico {#section_FD24B61A732149C7B58BA957DD84A5E7}
 
-Cuando se llama a la función s.tl() directamente desde el evento en el que se hace clic del elemento HTML, Activity Map puede mostrar una superposición para ese elemento cuando se carga la página web. Ejemplo:
+Cuando se llama a la función s.tl() directamente desde el evento en el que se hace clic del elemento HTML, Activity Map puede mostrar una superposición para ese elemento al cargar la página web. Ejemplo:
 
 ```
 <div onclick="s.tl(this,'o','some link name')">Text to click on</a>
@@ -39,7 +37,7 @@ Cuando se llama a la función s.tl() directamente desde el evento en el que se h
 
 Cuando se añade contenido de página web a la página tras su carga inicial, se llama indirectamente a la función s.tl y no se pueden mostrar superposiciones para ese nuevo contenido si no se activa expresamente o se hace clic en él. Luego se desencadena un proceso de recopilación de nuevos vínculos desde Activity Map.
 
-Cuando no se llama a la función s.tl() directamente desde el evento en el que se hace clic del elemento HTML, Activity Map solo puede mostrar la superposición una vez que el usuario ha hecho clic en ese elemento. A continuación, vemos un ejemplo en el que se llama indirectamente a la función s.tl():
+Cuando no se llama directamente a la función s.tl() desde el evento en el que se hace clic del elemento HTML, Activity Map solo puede mostrar la superposición cuando el usuario ha hecho clic en el elemento. A continuación, vemos un ejemplo en el que se llama indirectamente a la función s.tl():
 
 ```
 <div onclick="someFn(event)"></div> 
@@ -50,7 +48,7 @@ Cuando no se llama a la función s.tl() directamente desde el evento en el que s
  </script>
 ```
 
-La mejor manera de que Activity Map superponga vínculos de contenido dinámico es tener configurada una función ActivityMap.link personalizada para llamar a la misma función cuyo valor devuelto se pase a s.tl. A continuación se muestra un ejemplo:
+La mejor manera de que Activity Map superponga vínculos de contenido dinámico es tener configurada una función ActivityMap.link personalizada para llamar a la misma función cuyo valor devuelto se pase a s.tl. A continuación, se muestra un ejemplo:
 
 ```
 var originalLinkFunction = s.ActivityMap.link; 
@@ -68,5 +66,5 @@ s.ActivityMap.link = function(element,linkName){
 Aquí, hemos sobrescrito la función ActivityMap.link para que realice una de estas tres acciones cuando se llame:
 
 1. Si se pasa linkName, s.tl() la llama para que se devuelva únicamente el contenido que s.tl ha pasado como linkName.
-1. Activity Map la llama en el momento de generar los informes para que linkName nunca se pase y se llame a makeLinkName() con el elemento del vínculo. This is the crucial step here - the "makeLinkName(element)" call should be the same at the s.tl call's 3rd argument in the `<button>` tag. Esto significa que, cuando se llama a s.tl, realizamos un seguimiento de la cadena devuelta por makeLinkName. Cuando Activity Map realiza un informe sobre los vínculos de la página, usa la misma llamada para generar un vínculo.
+1. Activity Map la llama en el momento de generar los informes para que linkName nunca se pase y se llame a makeLinkName() con el elemento del vínculo. Este es el paso clave: la llamada de “makeLinkName(element)” debe ser la misma en el tercer argumento de la llamada de s.tl en la etiqueta `<button>`. Esto significa que, cuando se llama a s.tl, realizamos un seguimiento de la cadena devuelta por makeLinkName. Cuando Activity Map realiza un informe sobre los vínculos de la página, usa la misma llamada para generar un vínculo.
 1. La solución definitiva es devolver el valor devuelto original de la función predeterminada de vínculo de Activity Map. Esta referencia solo le será útil en casos predeterminados, ya que en ella solo encontrará ayuda para sobrescribir o escribir código predeterminado para makeLinkName, y no para presentar un valor devuelto de vínculo para todos los vínculos de la página.
