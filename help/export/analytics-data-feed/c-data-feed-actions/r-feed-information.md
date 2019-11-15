@@ -1,13 +1,11 @@
 ---
 description: Utilice la sección Información de la fuente para asignar un nombre a la fuente, especificar el grupo de informes que debe generarse con esta, determinar su recurrencia y especificar cuándo empieza y finaliza.
-keywords: Fuente de datos;información;nombre;grupo de informes;correo electrónico al completarse;correo electrónico;intervalo;fuente;retraso de procesamiento;retraso;inicio;fin;fecha;fuente continua
-seo-description: Utilice la sección Información de la fuente para asignar un nombre a la fuente, especificar el grupo de informes que debe generarse con esta, determinar su recurrencia y especificar cuándo empieza y finaliza.
-seo-title: Información de la fuente
+keywords: Data Feed;information;name;report suite;email when complete;email;interval;feed;delay processing;delay;start;end;date;continuous feed
 solution: Analytics
 title: Información de la fuente
 uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
