@@ -1,13 +1,11 @@
 ---
 description: Es un informe de tendencia que muestra el número de veces que se vieron las páginas del sitio web en un período determinado (hora, día, semana, mes, trimestre o año). Este informe permite hacer un seguimiento de vistas para cada página del sitio, como así también del total agregado de vistas para todas las páginas del sitio.
-seo-description: Es un informe de tendencia que muestra el número de veces que se vieron las páginas del sitio web en un período determinado (hora, día, semana, mes, trimestre o año). Este informe permite hacer un seguimiento de vistas para cada página del sitio, como así también del total agregado de vistas para todas las páginas del sitio.
-seo-title: Vistas de páginas
 solution: Analytics
 title: Vistas de páginas
-topic: Informes
+topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
