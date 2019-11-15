@@ -1,11 +1,9 @@
 ---
 description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con la mercadotecnia por correo electrónico para crear una poderosa herramienta que permite redefinir la medición del éxito y dirigir a las audiencias con mensajes más relevantes.
-seo-description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con la mercadotecnia por correo electrónico para crear una poderosa herramienta que permite redefinir la medición del éxito y dirigir a las audiencias con mensajes más relevantes.
-seo-title: Conector de datos de DreamMail para Adobe Analytics
 title: Conector de datos de DreamMail para Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ El envío de mensajes de correo electrónico relevantes a estos segmentos de mer
 
 Este aumento en la eficacia de la mercadotecnia es uno de los beneficios clave de la integración [!DNL Analytics] con el [!DNL ~socio~]. Además, esta integración sincronizará automáticamente las métricas de correo electrónico con [!DNL Analytics] los datos con la misma frecuencia y hora en los informes de bucle cerrado.
 
-## Principales ventajas y características{#key-benefits-and-features}
+## Ventajas y características principales{#key-benefits-and-features}
 
 Esta integración incluye las siguientes ventajas clave:
 
@@ -44,17 +42,17 @@ Antes de iniciar la integración de Conectores de datos para , complete los sigu
 * **** Específico del grupo de informes: Tenga en cuenta que esta integración es específica del grupo de informes. Asegúrese de seleccionar el grupo de informes deseado antes de activar la integración.
 * **** Variables de Analytics disponibles y configuradas: Esta integración requiere eventos personalizados y eVars personalizadas, y, opcionalmente, eventos adicionales y eVars adicionales.
 
-* **** Representante autorizado: Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda. Al activar esta integración, usted declara que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
+* **** Representante autorizado: Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda. Al activar esta integración, usted declara por la presente que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
 * **** Almacén de datos™: Esta integración requiere que el almacén de datos esté habilitado para generar segmentos de remercadotecnia. Si no ha habilitado el almacén de datos, póngase en contacto con Adobe para obtener más información.
-* **[!DNL ~~Socio]**: La integración requiere que captemos y almacenemos una dirección de correo electrónico en una variable de Analytics (eVar). El " [!DNL ~socio~]" está asociado con el comportamiento de los visitantes que siguen el flujo en el sitio (abandonos del carro de compras, compras, etc.) que se incorpora al sistema de [!DNL ~socios~] y se puede aprovechar para fines de remercadotecnia. Como parte del proceso de configuración, debe identificar una eVar para este fin cuando el Asistente le solicite.
-* **** Seguimiento externo: Si actualmente no está siguiendo la práctica recomendada de habilitar el seguimiento externo para cada campaña de correo electrónico que envía, debe hacerlo para garantizar una integración exitosa. Consulte la sección [!DNL ~Socio~] para obtener más detalles.
-* **** Cumplimiento de la privacidad: Debe comprender que al habilitar el seguimiento de ID de visitante o destinatario, esta función puede rastrear información personal de los visitantes del sitio. Esto tiene implicaciones para la privacidad que requieren la implementación de los procedimientos apropiados por parte de su organización, como por ejemplo, notificar a los visitantes del sitio y obtener su consentimiento.
+* **[!DNL ~~Socio]**: La integración requiere que captemos y almacenemos una dirección de correo electrónico dentro de una variable de Analytics (eVar). El " [!DNL ~socio~]" está asociado con el comportamiento de los visitantes que siguen el flujo en el sitio (abandonos del carro de compras, compras, etc.) que se incorpora al sistema de [!DNL ~socios~] y se puede aprovechar para fines de remercadotecnia. Como parte del proceso de configuración, debe identificar una eVar para este fin cuando el Asistente le solicite.
+* **** Seguimiento externo: Si actualmente no está siguiendo la práctica recomendada de habilitar el seguimiento externo para cada campaña de correo electrónico que envía, debe hacerlo para garantizar una integración exitosa. Consulte la sección [!DNL ~Socio~] a continuación para obtener más detalles.
+* **** Cumplimiento de la privacidad: Debe comprender que, al habilitar el seguimiento de ID de visitante o destinatario, esta función puede rastrear información personal de los visitantes del sitio. Esto tiene implicaciones para la privacidad que requieren la implementación de los procedimientos apropiados por parte de su organización, como por ejemplo, notificar a los visitantes del sitio y obtener su consentimiento.
 
 ## Precio{#pricing}
 
  Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda.
 
-Al activar esta integración, usted declara que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
+Al activar esta integración, usted declara por la presente que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
 
 ### Consideraciones sobre los precios de Adobe {#section-1f4f46c0d969435db57d38c1c310a05a}
 
@@ -62,7 +60,7 @@ Esta integración podría tener tasas recurrentes y de implementación, incluido
 
 ### ~Consideraciones de precios de socio~{#section-f8ca71df32224412a5101efb6e356529}
 
-Esta integración podría tener tasas recurrentes y de implementación. Póngase en contacto [!DNL DreamMail] para obtener detalles sobre los precios.
+Esta integración podría tener tasas recurrentes y de implementación. Póngase en contacto [!DNL DreamMail] para obtener más información sobre los precios.
 
 ## Analytics Integration Variables{#analytics-integration-variables}
 
