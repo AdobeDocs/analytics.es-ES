@@ -1,14 +1,12 @@
 ---
 description: La columna previa contiene los datos en el estado en el que se enviaron a la recopilación de datos. La columna posterior contiene el valor tras el procesamiento.
-keywords: Fuente de datos;trabajo;columna previa;columna posterior;distinción entre mayúsculas y minúsculas
-seo-description: La columna previa contiene los datos en el estado en el que se enviaron a la recopilación de datos. La columna posterior contiene el valor tras el procesamiento.
-seo-title: Columnas previas y posteriores
+keywords: Data Feed;job;pre column;post column;case sensitivity
 solution: Analytics
 title: Columnas previas y posteriores
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
