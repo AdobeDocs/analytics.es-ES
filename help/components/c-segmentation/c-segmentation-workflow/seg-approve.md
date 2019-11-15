@@ -1,13 +1,11 @@
 ---
-description: 'En el Administrador de segmentos, puede establecer un flujo de trabajo que incluya la aprobación de segmentos para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes. '
-seo-description: 'En el Administrador de segmentos, puede establecer un flujo de trabajo que incluya la aprobación de segmentos para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes. '
-seo-title: Aprobar segmentos
+description: En el Administrador de segmentos, puede establecer un flujo de trabajo que incluya la aprobación de segmentos para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes.
 solution: Analytics
 title: Aprobar segmentos
-topic: Segmentos
+topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
