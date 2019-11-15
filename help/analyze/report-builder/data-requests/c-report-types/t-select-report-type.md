@@ -1,18 +1,16 @@
 ---
 description: Pasos para seleccionar el tipo de informe base para la solicitud de datos.
-seo-description: Pasos para seleccionar el tipo de informe base para la solicitud de datos.
-seo-title: Seleccionar un tipo de informe
 solution: Analytics
-title: Seleccionar un tipo de informe
-topic: Creador de informes
-uuid: ebb 682 b 8-590 e -4484-9 c 29-5 c 4 db 2 f 5 edd 1
+title: Selección de un tipo de informe
+topic: Report builder
+uuid: ebb682b8-590e-4484-9c29-5c4db2f5edd1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Seleccionar un tipo de informe
+# Selección de un tipo de informe
 
 Pasos para seleccionar el tipo de informe base para la solicitud de datos.
 
