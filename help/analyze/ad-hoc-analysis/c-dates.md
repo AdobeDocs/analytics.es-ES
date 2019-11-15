@@ -1,11 +1,9 @@
 ---
 description: En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos. Se pueden realizar selecciones de calendario en los niveles de proyecto, espacio de trabajo e informe. El intervalo de fechas del proyecto se toma como fecha predeterminada. Sin embargo, el intervalo de fechas del espacio de trabajo tiene prioridad sobre el intervalo de fechas del proyecto. Asimismo, el intervalo de fechas del informe tiene prioridad sobre la configuración de fechas de los espacios de trabajo y los proyectos. No se puede seleccionar un intervalo de fechas que exceda el intervalo de disponibilidad de datos.
-seo-description: En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos. Se pueden realizar selecciones de calendario en los niveles de proyecto, espacio de trabajo e informe. El intervalo de fechas del proyecto se toma como fecha predeterminada. Sin embargo, el intervalo de fechas del espacio de trabajo tiene prioridad sobre el intervalo de fechas del proyecto. Asimismo, el intervalo de fechas del informe tiene prioridad sobre la configuración de fechas de los espacios de trabajo y los proyectos. No se puede seleccionar un intervalo de fechas que exceda el intervalo de disponibilidad de datos.
-seo-title: Fechas e intervalos de fechas
 title: Fechas e intervalos de fechas
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
