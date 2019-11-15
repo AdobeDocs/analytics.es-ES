@@ -1,19 +1,17 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Conector de datos de Responsys para Adobe Analytics
 solution: Analytics
 title: Conector de datos de Responsys para Adobe Analytics
 uuid: 1181ae49-59c4-4c6a-a5cf-f7a0ec956850
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Responsys Data Connector for Adobe Analytics{#responsys-data-connector-for-adobe-analytics}
 
-Adobe Analytics ofrece una gran cantidad de nuevas oportunidades de segmentación para los especialistas en mercadotecnia de correo electrónico que utilizan Responsys Interact. Al enviar mensajes de correo electrónico relevantes y oportunos a los segmentos de mercadotecnia dinámica identificados por Adobe Analytics (anteriormente SiteCatalyst), se puede generar una mayor conversión e ingresos tanto por parte de los clientes actuales como potenciales.
+Adobe Analytics ofrece una gran cantidad de nuevas oportunidades de segmentación para los especialistas en mercadotecnia de correo electrónico que utilizan Responsys Interact. Al enviar mensajes de correo electrónico relevantes y oportunos a los segmentos de mercadotecnia dinámica identificados por Adobe Analytics (anteriormente SiteCatalyst), se puede aumentar la conversión y los ingresos tanto de los clientes potenciales como de los actuales.
 
 Por ejemplo: los especialistas en mercadotecnia pueden enviar un incentivo por correo electrónico a los visitantes que vieron un producto en particular o abandonaron un carro de compras, alentándolos a regresar al sitio y completar una compra. La estrecha integración entre informes y análisis de marketing y Responsys Interact permite la automatización, la segmentación precisa y la generación de informes en circuito cerrado de estas campañas de remercadotecnia, lo que aumenta la eficacia de los esfuerzos de mercadotecnia por correo electrónico, al tiempo que aumenta las conversiones del sitio web y mejora de forma mensurable el ROI general.
 
@@ -21,7 +19,7 @@ Por ejemplo: los especialistas en mercadotecnia pueden enviar un incentivo por c
 
 Enumera las principales ventajas de la integración de Adobe Analytics y Responsys Interact.
 
-* Consolide los datos de marketing y análisis de correo electrónico en una interfaz de informes.
+* Consolide los datos de análisis y mercadotecnia de correo electrónico en una interfaz de informes.
 * Optimizar las campañas de correo electrónico según la conversión y la contribución a los ingresos y al éxito del sitio.
 * Vuelva a comercializar los visitantes clave y los segmentos de mercado en función del abandono del carro de compras, las compras de productos, las vistas de productos y los datos actuales e históricos (hasta 90 días antes de la activación).
 
