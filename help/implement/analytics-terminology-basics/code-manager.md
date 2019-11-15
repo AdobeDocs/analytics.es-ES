@@ -1,14 +1,12 @@
 ---
 description: El administrador de códigos le permite descargar códigos de recopilación de datos para plataformas web y móviles.
-keywords: Implementación de Analytics, recopilación de datos, administrador de códigos
-seo-description: El administrador de códigos le permite descargar códigos de recopilación de datos para plataformas web y móviles.
-seo-title: Administrador de códigos
+keywords: Analytics Implementation;data collection;code manager
 solution: Analytics
 title: Administrador de códigos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ El administrador de códigos le permite descargar códigos de recopilación de d
 
 **[!UICONTROL Analytics &gt; Administración &gt; Administrador de códigos]**.
 
-Después de descargar la biblioteca, deberá configurar el código para enviar datos al servidor de seguimiento y al grupo de informes correctos. Encontrará recursos de implementación adicionales en [Desarrollador e implementación](https://marketing.adobe.com/resources/help/es_ES/reference/developer.html).
+Después de descargar la biblioteca, deberá configurar el código para enviar datos al servidor de seguimiento y al grupo de informes correctos. En [Developer &amp; Implementation](https://marketing.adobe.com/resources/help/en_US/reference/developer.html) encontrará recursos de implementación adicionales.
 
 ## Descripciones de la página Administrador de códigos {#section_0C23784E20BD4631841FF24E5075DA12}
 
