@@ -1,14 +1,12 @@
 ---
 description: Esta tabla de referencia define los campos, las opciones y los atributos de visita que puede seleccionar en la página Reglas de procesamiento de canal de mercadotecnia.
-seo-description: Esta tabla de referencia define los campos, las opciones y los atributos de visita que puede seleccionar en la página Reglas de procesamiento de canal de mercadotecnia.
-seo-title: 'Reglas de procesamiento de canal de marketing: Definiciones'
 solution: Analytics
-subtopic: Canales de mercadotecnia
+subtopic: Marketing channels
 title: 'Reglas de procesamiento de canal de marketing: Definiciones'
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -84,7 +82,7 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activity Map </p> </td> 
-   <td colname="col2"> <p>El nombre de una página web de su sitio que se etiqueta con la señalización web de Adobe. This value is equivalent to <span class="varname"> s.pageName </span>. Algunos ejemplos son <span class="varname"> Página principal </span> y <span class="varname"> Información sobre la empresa </span>. </p> </td> 
+   <td colname="col2"> <p>El nombre de una página web de su sitio que está etiquetada mediante la señalización web de Adobe. This value is equivalent to <span class="varname"> s.pageName </span>. Algunos ejemplos son <span class="varname"> Página principal </span> y <span class="varname"> Información sobre la empresa </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio de página </p> </td> 
