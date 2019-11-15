@@ -1,14 +1,12 @@
 ---
 description: 'Configurar la integración de DFA implica las siguientes tareas '
 keywords: DFA
-seo-description: 'Configurar la integración de DFA implica las siguientes tareas '
-seo-title: Integración de DFA
 solution: Analytics
 title: Integración de DFA
-topic: Data Connectors
+topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -263,7 +261,7 @@ Timeout Percentage = [Step 3] / [Step 2] * 100
 
 Observe que el Porcentaje de tiempo de espera está realmente considerando todos los visitantes del sitio. Algunos de estos visitantes no habrían estado unidos con DFA en absoluto. Por lo tanto, el tiempo de espera es confuso. Para mejorar este cálculo, otro análisis podría considerar solamente los visitantes únicos de las páginas con el `clickThroughParam` establecido (por ejemplo, `?CID=1`). Esto mostrará más exactitud.
 
-Si el Porcentaje de tiempo de espera es muy bajo, considere la posibilidad de reducir *`s.maxDelay`*. Si es muy alto, incremente *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. Al aumentar *`s.maxDelay`*, querrá ejecutar un [!DNL Page Views Report] para asegurarse de que las vistas de página no se están agotando debido a la pérdida de datos. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
+Si el Porcentaje de tiempo de espera es muy bajo, considere la posibilidad de reducir *`s.maxDelay`*. Si es muy alto, incremente *`s.maxDelay`*. When decreasing *`s.maxDelay`*, you will want to rerun the [!DNL Timeout Report] to ensure that timeouts have not dramatically increased. Al aumentar *`s.maxDelay`*, querrá ejecutar un informe [!DNL Page Views Report] para asegurarse de que las vistas de página no se están agotando debido a la pérdida de datos. Each time *`s.maxDelay`* is changed observe the data for several days in order to ensure that the data represents a trend, and not just a day-to-day fluctuation.
 
 The optimal setting for *`s.maxDelay`* is the point at which the timeout percentage is minimized while Page Views do not drop off.
 
