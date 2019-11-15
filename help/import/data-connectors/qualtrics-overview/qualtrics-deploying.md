@@ -1,14 +1,12 @@
 ---
 description: Implementar esta integración es un proceso sencillo que requiere las siguientes acciones.
-seo-description: Implementar esta integración es un proceso sencillo que requiere las siguientes acciones.
-seo-title: Implementación de la integración
 solution: Analytics
 subtopic: Qualtrics
 title: Implementación de la integración
-topic: Data Connectors
+topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -30,9 +28,9 @@ Para activar la integración, debe completar el asistente para la integración d
    |---|---|
    | Descripción | (Opcional) Descripción de esta configuración de integración. |
    | ID de organización de Qualtrics | [Búsqueda de la ID de organización de Qualtrics](../qualtrics-overview/qualtrics-org-id.md) |
-   | Token de Adobe SiteCatalyst | [Generación del token de Qualtrics Adobe Analytics](../qualtrics-overview/qualtrics-token.md) |
+   | Token de Adobe SiteCatalyst | [Generación del token de Qualtrics de Adobe Analytics](../qualtrics-overview/qualtrics-token.md) |
 
-1. **Paso 2 del Asistente: Asignaciones** de variables| Lista de respuestas de Qualtrics| Seleccione una variable de lista disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del Administrador de grupos de informes).  ||—|—|| ID de respuesta de Qualtrics| Seleccione una eVar o prop disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del Administrador de grupos de informes).  || Servidor de seguimiento|Proporcione la configuración del servidor de seguimiento (dominio) que utiliza para realizar el seguimiento de los datos de Adobe Analytics. Utilice el servidor de `trackingServerSecure` seguimiento si difiere de la configuración estándar del servidor de seguimiento.  || Envíos de estudio de calidad| Seleccione un evento disponible en su grupo de informes (es posible que necesite habilitar un nuevo evento desde el Administrador de grupos de informes).  |
+1. **Paso 2 del Asistente: Asignaciones** de variables| Lista de respuestas de Qualtrics| Seleccione una variable de lista disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del Administrador de grupos de informes).  ||—|—|| ID de respuesta de Qualtrics| Seleccione una eVar o prop disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del Administrador de grupos de informes).  || Servidor de seguimiento|Proporcione la configuración del servidor de seguimiento (dominio) que utiliza para realizar el seguimiento de los datos de Adobe Analytics. Utilice el servidor de `trackingServerSecure` seguimiento si difiere de la configuración estándar del servidor de seguimiento.  || Envíos de Encuesta de Qualtrics| Seleccione un evento disponible en su grupo de informes (es posible que necesite habilitar un nuevo evento desde el Administrador de grupos de informes).  |
 
 1. **Paso 3** del asistente: No se necesita nada, solo información.
 
@@ -42,7 +40,7 @@ Para activar la integración, debe completar el asistente para la integración d
    |---|---|
    | Eventos | Seleccione hasta cinco de los eventos personalizados que desee exponer para exportarlos a Qualtrics |
    | Propriétés | Seleccione hasta cinco de las Props que desee exponer para exportar a Qualtrics |
-   |  Solicitudes de acceso | Marque la casilla de cualquiera de las métricas y dimensiones estándar que desee exportar a Qualtrics. Se `visitor_id` requiere para permitir que la exportación funcione correctamente. |
+   | Solicitudes de acceso | Marque la casilla de cualquiera de las métricas y dimensiones estándar que desee exportar a Qualtrics. Se `visitor_id` requiere para permitir que la exportación funcione correctamente. |
 
 1. **Paso 5** del asistente: Revise la configuración y haga clic en **[!UICONTROL Activar ahora]**.
 
@@ -63,7 +61,7 @@ Después de completar el asistente de integración, debe activar la integración
 
 ## Verificación de la integración{#verifying-the-integration}
 
-Después de completar todos los pasos de implementación, puede validar que la integración esté transfiriendo datos correctamente.
+Una vez completados todos los pasos de implementación, puede validar que la integración esté transfiriendo datos correctamente.
 
 1. **Registro** de actividades de integración: En la interfaz de usuario de Conectores de datos, vea la ficha **[!UICONTROL Asistencia]** en la integración de Qualtrics. Debajo del encabezado Registro **[!UICONTROL de actividades de]** integración debe ver las entradas que indican los datos de clasificación correctos importados.
 
