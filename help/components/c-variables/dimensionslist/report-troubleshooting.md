@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics proporciona una interfaz de informes flexible que le permite generar una variedad de informes complejos. Mientras que la mayoría de los informes se generan muy rápidamente, puede encontrar informes que agoten el tiempo de espera o no se generen correctamente. Con el fin de ayudar a evitar fallos en la generación de informes, en esta sección se describen varios factores que tienen impacto en la velocidad de la generación de informes. Si se comprende esta información es útil para estructurar informes para que se generen correctamente.
-keywords: prácticas recomendadas;error;tiempo de espera;resolución de problemas;lento
-seo-description: Adobe Analytics proporciona una interfaz de informes flexible que le permite generar una variedad de informes complejos. Mientras que la mayoría de los informes se generan muy rápidamente, puede encontrar informes que agoten el tiempo de espera o no se generen correctamente. Con el fin de ayudar a evitar fallos en la generación de informes, en esta sección se describen varios factores que tienen impacto en la velocidad de la generación de informes. Si se comprende esta información es útil para estructurar informes para que se generen correctamente.
-seo-title: Información sobre prácticas recomendadas y resolución de problemas
+keywords: best practices;failure;timeout;troubleshooting;slow
 solution: Analytics
 title: Información sobre prácticas recomendadas y resolución de problemas
-topic: Informes
+topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
