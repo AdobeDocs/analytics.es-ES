@@ -1,15 +1,13 @@
 ---
 description: La variable pageType solo se usa para designar una página de error 404 (Página no encontrada).
-keywords: Implementación de Analytics
-seo-description: La variable pageType solo se usa para designar una página de error 404 (Página no encontrada).
-seo-title: Configuración correcta de la variable pageType
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Resolución de problemas
+subtopic: Troubleshooting
 title: Configuración correcta de la variable pageType
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: eafaf58e-ba07-416f-89b9-694687cc4802
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
