@@ -1,13 +1,11 @@
 ---
 description: Cómo aplicar uno o más segmentos a un informe desde el carril del segmento.
-seo-description: Cómo aplicar uno o más segmentos a un informe desde el carril del segmento.
-seo-title: Seleccionar y aplicar segmentos
 solution: Analytics
 title: Seleccionar y aplicar segmentos
-topic: Segmentos
-uuid: f 835 ddc 1-4650-4 e 5 f -848 d -6 c 97 fb 7 d 6141
+topic: Segments
+uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
