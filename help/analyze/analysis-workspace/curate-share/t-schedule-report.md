@@ -1,14 +1,12 @@
 ---
 description: Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega.
 keywords: Analysis Workspace
-seo-description: Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega.
-seo-title: 'Envío de archivo: Programar un proyecto para su entrega'
 solution: Analytics
 title: 'Envío de archivo: Programar un proyecto para su entrega'
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
