@@ -1,11 +1,9 @@
 ---
 description: Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio empleado, fechas, unidades, pedidos, ingresos, etc. Las métricas y los datos asociados se exhiben en las columnas de los informes.
-seo-description: Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio empleado, fechas, unidades, pedidos, ingresos, etc. Las métricas y los datos asociados se exhiben en las columnas de los informes.
-seo-title: Métricas
 title: Métricas
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
