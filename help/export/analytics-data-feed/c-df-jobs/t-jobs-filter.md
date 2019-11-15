@@ -1,18 +1,16 @@
 ---
 description: Las funciones de búsqueda y filtrado le permiten encontrar el trabajo que busca en la lista.
-keywords: Fuente de datos; trabajo; filter; buscar
-seo-description: Las funciones de búsqueda y filtrado le permiten encontrar el trabajo que busca en la lista.
-seo-title: Lista de trabajos de filtro
+keywords: Data Feed;job;filter;search
 solution: Analytics
-title: Lista de trabajos de filtro
-uuid: 811990 bb-b 721-42 c 3-9262-2 ec 2 ba 262087
+title: Filtrar la lista de trabajos
+uuid: 811990bb-b721-42c3-9262-2ec2ba262087
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Lista de trabajos de filtro
+# Filtrar la lista de trabajos
 
 Las funciones de búsqueda y filtrado le permiten encontrar el trabajo que busca en la lista.
 
