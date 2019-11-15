@@ -1,14 +1,12 @@
 ---
 description: Pasos que describen cómo agregar un usuario a un grupo.
-seo-description: Pasos que describen cómo agregar un usuario a un grupo.
-seo-title: Agregar un usuario a un grupo
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: Agregar un usuario a un grupo
-topic: Herramientas de administración
-uuid: 032245 b 3-848 d -4727-9 b 7 d -6 c 5956 c 5 f 06 a
+topic: Admin tools
+uuid: 032245b3-848d-4727-9b7d-6c5956c5f06a
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
