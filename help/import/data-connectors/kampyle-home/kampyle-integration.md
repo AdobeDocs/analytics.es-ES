@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Uso de la integración
 solution: Analytics
 title: Uso de la integración
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,7 +27,7 @@ Con Informes y análisis de Adobe, puede explorar varias dimensiones de comentar
 
 Puede crear segmentos basados en dimensiones de comentarios.
 
-Una característica principal de esta integración es la capacidad de crear segmentos de Adobe Analytics basados en las dimensiones de comentarios de Kampyle. Por ejemplo, puede generar un segmento que incluya solo Visitas en las que se haya dado un grado 1 ó 2. Puede llamar a esto "Grado de votos - BAJO". Esta definición de segmento sería la siguiente:
+Una característica principal de esta integración es la capacidad de crear segmentos de Adobe Analytics basados en las dimensiones de comentarios de Kampyle. Por ejemplo, puede generar un segmento que incluya solo Visitas en las que se haya dado un grado de 1 o 2. Puede llamar a esto "Grado de votos - BAJO". Esta definición de segmento sería la siguiente:
 
 ![](assets/segment_feedback.png)
 
