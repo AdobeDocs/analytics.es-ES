@@ -1,13 +1,11 @@
 ---
 description: Cuando configura una fuente, algunos ajustes permiten definir la frecuencia con la que se procesan los trabajos.
-keywords: Fuente de datos;trabajo;configuración;diario;por hora;Rellenos de datos para fuentes de datos por hora;rellenar
-seo-description: Cuando configura una fuente, algunos ajustes permiten definir la frecuencia con la que se procesan los trabajos.
-seo-title: Configuración de trabajos
+keywords: Data Feed;job;settings;daily;hourly;Data Backfills for Hourly Data Feeds;backfill
 solution: Analytics
 title: Configuración de trabajos
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
