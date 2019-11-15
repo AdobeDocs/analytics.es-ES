@@ -1,13 +1,11 @@
 ---
 description: Los administradores pueden configurar un informe con métricas específicas y un intervalo de fechas determinado y, a continuación, guardarlo en los menús de informes para que esté disponible para todos los usuarios.
-seo-description: Los administradores pueden configurar un informe con métricas específicas y un intervalo de fechas determinado y, a continuación, guardarlo en los menús de informes para que esté disponible para todos los usuarios.
-seo-title: Personalizado
 solution: Analytics
 title: Personalizado
-topic: Informes
+topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
