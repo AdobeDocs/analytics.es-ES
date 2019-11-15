@@ -1,12 +1,10 @@
 ---
 description: Describe el proceso de implementación de tres pasos.
-seo-description: Describe el proceso de implementación de tres pasos.
-seo-title: Implementación de la integración
 solution: Analytics
 title: Implementación de la integración
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -41,7 +39,7 @@ Para activar la integración, debe completar el asistente de integración de Lyr
    ![](assets/variable_mapping.png)
 
 1. Puede elegir sus propios segmentos en **[!UICONTROL Sus segmentos]** , excepto los 3 segmentos de socios automatizados.
-1. Esta integración puede requerir la descarga de algunos puntos de datos en su cuenta de Lyris. Puede elegir otorgar acceso a esto en Solicitud **[!UICONTROL de]** acceso.
+1. Esta integración puede requerir la descarga de algunos puntos de datos en su cuenta de Lyris. Puede optar por dar acceso a esto en Solicitud **[!UICONTROL de]** acceso.
 1. En Recopilación **[!UICONTROL de]** datos, puede elegir tener una solución automática o manual (complemento de JavaScript) para recopilar parámetros de cadena de consulta de la dirección URL de la página de aterrizaje. Si decide tener una solución automatizada, introduzca el parámetro de cadena de consulta para ID de mensaje e ID de destinatario. Para obtener un complemento de JavaScript, póngase en contacto con su consultor de Adobe.
 
    ![](assets/data_collection.png)
@@ -67,7 +65,7 @@ Instrucciones que describen lo que se debe configurar dentro de Lyris tras la fi
 
    >[!NOTE]
    >
-   >Si está aplicando la herramienta de análisis nativa de Lyris, *haga clic en Rastrea* todas las variables requeridas que se agregan.
+   >Si está aplicando la herramienta de análisis nativa de Lyris, *haga clic en Rastrea* todas las variables requeridas que se agreguen.
 
 ## Verificación de la integración{#verifying-the-integration}
 
