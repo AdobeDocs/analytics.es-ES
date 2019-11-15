@@ -1,15 +1,13 @@
 ---
 description: Recopila la información de Target para la integración en Analytics. Este complemento se reemplaza por la integración entre Adobe Analytics y Adobe Target.
-keywords: Implementación de Analytics
-seo-description: Recopila la información de Target para la integración en Analytics. Este complemento se reemplaza por la integración entre Adobe Analytics y Adobe Target.
-seo-title: trackTNT
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Complementos
+subtopic: Plug-ins
 title: trackTNT
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 84f019c1-d3d1-4434-9cce-0459d745acf6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
