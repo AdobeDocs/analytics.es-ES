@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Implementación de la integración
 solution: Analytics
 title: Implementación de la integración
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -15,12 +13,12 @@ source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 La implementación de esta integración es un proceso sencillo que requiere las siguientes acciones:
 
-## Complete el Asistente para integración de Adobe{#completing-the-adobe-integration-wizard}
+## Completar el Asistente para integración de Adobe{#completing-the-adobe-integration-wizard}
 
 Pasos para completar el asistente de integración en la interfaz de Conectores de datos.
 
 1. Vaya al área Conectores de datos (anteriormente Genesis) dentro de Adobe Experience Cloud.
-1. Inicie el asistente de integración de ContactLab.
+1. Inicie el asistente para la integración de ContactLab.
 1. Elija el grupo de informes deseado y proporcione un nombre para la integración.
 1. Configure los siguientes elementos:
 
