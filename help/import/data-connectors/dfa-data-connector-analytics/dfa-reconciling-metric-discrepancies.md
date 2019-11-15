@@ -1,14 +1,12 @@
 ---
 description: Puede que en ciertas ocasiones algunas métricas no presenten una diferencia aceptable al comparar métricas de Adobe Analytics con métricas de DFA. A continuación, se encuentra una lista de definiciones de métricas y motivos posibles de las variaciones.
 keywords: DFA
-seo-description: Puede que en ciertas ocasiones algunas métricas no presenten una diferencia aceptable al comparar métricas de Adobe Analytics con métricas de DFA. A continuación, se encuentra una lista de definiciones de métricas y motivos posibles de las variaciones.
-seo-title: Reconciliación de discrepancias de métricas
 solution: Analytics
 title: Reconciliación de discrepancias de métricas
-topic: Data Connectors
+topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -39,7 +37,7 @@ Muestra una lista de motivos por los cuales cualquier discrepancia puede ocurrir
 
 La aceptación de cookies de terceros generalmente es la causa principal de discrepancia entre Adobe Analytics y DFA. Safari y algunos otros exploradores bloquean las cookies de terceros de forma predeterminada. Esto significa que, de forma predeterminada, Safari acepta la cookie propia utilizada por la mayoría de las implementaciones de Analytics, pero rechaza la cookie de terceros utilizada por DFA.
 
-Una muestra de datos de nuestros clientes beta de Analytics 15 mostró que menos del 0,5 % de los usuarios generalmente rechazan las cookies de origen, mientras que entre el 5 y el 12 % rechazan las cookies de terceros (muchos de estos rechazos se deben probablemente a la configuración predeterminada del explorador).
+Una muestra de datos de nuestros clientes beta de Analytics 15 mostró que menos del 0,5 % de los usuarios generalmente rechazan las cookies de origen, mientras que entre el 5 y el 12 % rechazan las cookies de terceros (es probable que muchos de estos rechazos se deban a la configuración predeterminada del explorador).
 
 Esta discrepancia puede dar como resultado una gran diferencia en los datos recopilados por Analytics y DFA.
 
