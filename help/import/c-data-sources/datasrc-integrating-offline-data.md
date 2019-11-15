@@ -1,14 +1,12 @@
 ---
 description: Las fuentes de datos ofrecen otros dos modos de integrar eventos sin conexión en sus datos en línea.
-seo-description: Las fuentes de datos ofrecen otros dos modos de integrar eventos sin conexión en sus datos en línea.
-seo-title: Integración de transacciones y clientes
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Integración de transacciones y clientes
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
