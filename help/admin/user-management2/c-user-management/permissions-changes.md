@@ -1,15 +1,13 @@
 ---
 description: 'null'
-keywords: grupos;permisos
-seo-description: 'null'
-seo-title: Cambios en los permisos de usuarios y grupos
+keywords: groups;permissions
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: Cambios en los permisos de usuarios y grupos
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -98,7 +96,7 @@ Aquí incluimos información importante sobre actualizaciones nuevas y planifica
    <td colname="col1"> <p>¿Qué cambios se realizaron en la versión de <b>octubre de 2016</b> en cuanto a permisos? </p> </td> 
    <td colname="col2"> <p>Se implementaron las siguientes mejoras con respecto a la interfaz de <span class="wintitle">Herramientas de administración</span>: </p> <p> 
      <ul id="ul_2A31E8DC17A94B7FABDBA9C87C3947EF"> 
-      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">Cambios de permisos como se describe en Cambios administrativos: Otoño de 2016 <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"></a>. </li> 
+      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">Cambios en los permisos como se describe en Cambios administrativos: Otoño de 2016 <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"></a>. </li> 
       <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">Se han eliminado los informes de tráfico obsoletos que ya no estaban en el menú. </li> 
       <li id="li_57234CF27E1D405987DE89312CD62C52">Permisos de clasificación: El acceso a las clasificaciones se determinará mediante el acceso a la variable para la que está la clasificación. </li> 
      </ul> </p> </td> 
@@ -126,7 +124,7 @@ Aquí incluimos información importante sobre actualizaciones nuevas y planifica
 
 En la tabla siguiente se muestran distintas tareas y dónde pueden llevarse a cabo (dependiendo del estado de la empresa).
 
-> [!NOTE] Consulte *`migrated user`* y *`Experience Cloud user`* los usuarios que han aceptado una invitación por correo electrónico para unirse a Experience Cloud. Si no se acepta la invitación por correo electrónico, los usuarios seguirán siendo usuarios de Analytics y no podrán administrarse en Admin Console. (Una excepción es cuando se produce la migración mediante [un Federated ID o un Enterprise ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html). En este caso, el usuario se migra cuando el administrador migra a los usuarios uno a uno).
+> [!NOTE] Consulte *`migrated user`* y *`Experience Cloud user`* los usuarios que han aceptado una invitación por correo electrónico para unirse a Experience Cloud. Si no se acepta la invitación por correo electrónico, los usuarios seguirán siendo usuarios de Analytics y no se podrán administrar en Admin Console. (Una excepción es cuando se produce la migración mediante [un Federated ID o un Enterprise ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html). En este caso, el usuario se migra cuando el administrador migra a los usuarios uno a uno).
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
