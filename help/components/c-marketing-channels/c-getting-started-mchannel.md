@@ -1,14 +1,12 @@
 ---
 description: Los canales de mercadotecnia se utilizan habitualmente para conocer cómo llegan los visitantes al sitio. Se pueden personalizar reglas de procesamiento de canal de mercadotecnia en función de los canales que quiera rastrear y de cómo desea hacerlo.
-seo-description: Los canales de mercadotecnia se utilizan habitualmente para conocer cómo llegan los visitantes al sitio. Se pueden personalizar reglas de procesamiento de canal de mercadotecnia en función de los canales que quiera rastrear y de cómo desea hacerlo.
-seo-title: Introducción a los canales de marketing
 solution: Analytics
-subtopic: Canales de mercadotecnia
+subtopic: Marketing channels
 title: Introducción a los canales de marketing
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -44,7 +42,7 @@ Consulte [Agregar canales](/help/components/c-marketing-channels/c-channels.md) 
 
 >[!NOTE]
 >
-> Si los canales de mercadotecnia no se han configurado anteriormente, se muestra la configuración [](/help/components/c-marketing-channels/c-channel-autosetup.md) automática. Esta configuración proporciona varios canales preconfigurados que se pueden personalizar. Adobe recomienda usar estas reglas como plantilla. No obstante, si ya tiene definiciones de canales consolidadas, puede omitir la configuración automática.
+>Si los canales de mercadotecnia no se han configurado anteriormente, se muestra la configuración [](/help/components/c-marketing-channels/c-channel-autosetup.md) automática. Esta configuración proporciona varios canales preconfigurados que se pueden personalizar. Adobe recomienda usar estas reglas como plantilla. No obstante, si ya tiene definiciones de canales consolidadas, puede omitir la configuración automática.
 
 ![](assets/step3_icon.png) Configure o pula las reglas de cada canal en la página [!UICONTROL Reglas de procesamiento de canal de mercadotecnia].
 
