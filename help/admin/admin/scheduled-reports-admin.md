@@ -1,13 +1,11 @@
 ---
 description: Permite que los usuarios de nivel de administración vean y gestionen informes programados en toda la organización.
-seo-description: Permite que los usuarios de nivel de administración vean y gestionen informes programados en toda la organización.
-seo-title: Cola de informes programados
 solution: Analytics
 title: Cola de informes programados
-topic: Informes
+topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
