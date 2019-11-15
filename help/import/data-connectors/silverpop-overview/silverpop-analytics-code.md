@@ -1,11 +1,9 @@
 ---
 description: 'Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Analytics en sus páginas '
-seo-description: 'Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Analytics en sus páginas '
-seo-title: Código de complemento de Analytics
 title: Código de complemento de Analytics
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
