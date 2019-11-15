@@ -1,18 +1,16 @@
 ---
 description: Proporciona una lista de métricas y dimensiones compatibles con los informes en tiempo real. Las clasificaciones también son compatibles, en caso de que las haya definido.
-seo-description: Proporciona una lista de métricas y dimensiones compatibles con los informes en tiempo real. Las clasificaciones también son compatibles, en caso de que las haya definido.
-seo-title: Dimensiones y métricas en tiempo real compatibles
 solution: Analytics
-title: Dimensiones y métricas en tiempo real compatibles
-topic: 'Informes '
-uuid: a 3 a 869 ef -0 f 4 a -44 b 5-a 386-2746 cc 0822 c 4
+title: Métricas y dimensiones en tiempo real compatibles
+topic: Reports
+uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Dimensiones y métricas en tiempo real compatibles
+# Métricas y dimensiones en tiempo real compatibles
 
 Proporciona una lista de métricas y dimensiones compatibles con los informes en tiempo real. Las clasificaciones también son compatibles, en caso de que las haya definido.
 
@@ -22,7 +20,7 @@ Proporciona una lista de métricas y dimensiones compatibles con los informes en
 * Pedidos
 * Unidades
 * Carros de compras
-* Vistas de carro de compras
+* Vistas del carro de compras
 * Cierres de compra
 * Adiciones al carro de compras
 * Eliminaciones del carro de compras
@@ -31,7 +29,7 @@ Proporciona una lista de métricas y dimensiones compatibles con los informes en
 
 ## Dimensiones admitidas {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
-* Página
+* Activity Map
 * Palabra clave de búsqueda
 * Motor de búsqueda
 * Dominio de referencia
