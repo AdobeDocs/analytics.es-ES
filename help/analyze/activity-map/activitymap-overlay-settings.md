@@ -1,13 +1,11 @@
 ---
 description: En el panel Configuración de Activity Map se pueden modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
-seo-description: En el panel Configuración de Activity Map se pueden modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
-seo-title: Definición de la configuración de Activity Map
 solution: Analytics
 title: Definición de la configuración de Activity Map
-topic: Activity Map
+topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
