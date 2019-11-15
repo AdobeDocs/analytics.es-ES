@@ -1,14 +1,12 @@
 ---
 description: El código de seguimiento móvil se coloca en la página en forma de etiqueta de imagen generada por el servidor.
-keywords: Implementación de Analytics, seguimiento móvil, protocolos móviles, evitar el almacenamiento en caché, etiqueta alt, tipo de imagen predeterminado
-seo-description: El código de seguimiento móvil se coloca en la página en forma de etiqueta de imagen generada por el servidor.
-seo-title: Etiquetado de páginas para los protocolos móviles
+keywords: Analytics Implementation;mobile tracking;mobile protocols;prevent caching;alt tag;default image type
 solution: Analytics
 title: Etiquetado de páginas para los protocolos móviles
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
