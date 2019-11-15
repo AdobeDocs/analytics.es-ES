@@ -1,13 +1,11 @@
 ---
 description: Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
-seo-description: Muestra información sobre el orden en que se accede a las páginas del sitio web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
-seo-title: Informes de rutas
 solution: Analytics
 title: Informes de rutas
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
