@@ -1,13 +1,11 @@
 ---
 description: Puede editar algunos campos de fuente.
-keywords: Fuente de datos;fuente;editar
-seo-description: Puede editar algunos campos de fuente.
-seo-title: Editar una fuente
+keywords: Data Feed;feed;edit
 solution: Analytics
 title: Editar una fuente
 uuid: 75e862f3-da08-4d1f-84d9-513981d98dd5
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
