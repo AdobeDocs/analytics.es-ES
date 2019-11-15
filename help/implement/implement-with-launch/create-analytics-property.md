@@ -1,10 +1,8 @@
 ---
 title: Creación de una propiedad de Analytics en Launch
-seo-title: Creación de una propiedad de Adobe Analytics en Adobe Experience Platform Launch
 description: Cree un espacio para personalizar el modo en que se recopilan los datos con Adobe Experience Platform Launch.
-seo-description: Cree un espacio para personalizar el modo en que se recopilan los datos en Adobe Analytics con Adobe Experience Platform Launch.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
