@@ -1,13 +1,11 @@
 ---
 description: Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
-seo-description: Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
-seo-title: Detener el seguimiento de vínculos
 solution: Analytics
 title: Detener el seguimiento de vínculos
-topic: Activity Map
+topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,8 +23,9 @@ Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activity Map </td> 
+   <td colname="col1"> Activity Map  </td> 
    <td colname="col2"> Elimine el siguiente contenido del archivo Appmeasurement.js: 
+     
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
