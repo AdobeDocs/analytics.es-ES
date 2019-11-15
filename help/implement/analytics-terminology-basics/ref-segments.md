@@ -1,14 +1,12 @@
 ---
 description: Los segmentos son subconjuntos de datos o datos filtrados mediante reglas que se han creado.
-keywords: Implementación de Analytics, segmento
-seo-description: Los segmentos son subconjuntos de datos o datos filtrados mediante reglas que se han creado.
-seo-title: Segmentos
+keywords: Analytics Implementation;segment
 solution: Analytics
 title: Segmentos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
