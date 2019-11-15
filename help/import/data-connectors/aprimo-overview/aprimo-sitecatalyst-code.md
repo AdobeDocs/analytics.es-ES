@@ -1,11 +1,9 @@
 ---
 description: Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Adobe Analytics en sus páginas.
-seo-description: Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Adobe Analytics en sus páginas.
-seo-title: Código de complemento de Adobe Analytics
 title: Código de complemento de Adobe Analytics
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
