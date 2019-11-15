@@ -1,13 +1,11 @@
 ---
 description: El informe Métricas clave permite comparar métricas para ver si existen tendencias conjuntas. Por ejemplo, cuando aumentan las vistas de páginas, ¿aumenta también el número de visitantes?
-seo-description: El informe Métricas clave permite comparar métricas para ver si existen tendencias conjuntas. Por ejemplo, cuando aumentan las vistas de páginas, ¿aumenta también el número de visitantes?
-seo-title: Métricas clave
 solution: Analytics
 title: Métricas clave
-topic: 'Informes '
-uuid: 33 e 57 c 24-66 e 6-40 a 5-a 1 b 0-dc 6 a 66 a 74 a 1 c
+topic: Reports
+uuid: 33e57c24-66e6-40a5-a1b0-dc6a66a74a1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
