@@ -1,15 +1,13 @@
 ---
 description: Habilite permisos de usuario para elementos generales (facturación, registros, etc.), administración de la empresa, herramientas, acceso a servicios web, Report Builder e integración de Data Connectors.
-keywords: grupos;permisos
-seo-description: Habilite permisos de usuario para elementos generales (facturación, registros, etc.), administración de la empresa, herramientas, acceso a servicios web, Report Builder e integración de Data Connectors.
-seo-title: Personalizar permisos para las herramientas de Analytics
+keywords: groups;permissions
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: Personalizar permisos para las herramientas de Analytics
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
