@@ -1,14 +1,12 @@
 ---
 description: Para utilizar de forma eficaz las reglas de procesamiento, es esencial comprender cuándo se aplican durante la recopilación de datos.
-seo-description: Para utilizar de forma eficaz las reglas de procesamiento, es esencial comprender cuándo se aplican durante la recopilación de datos.
-seo-title: Orden de procesamiento
 solution: Analytics
-subtopic: Reglas de procesamiento
+subtopic: Processing rules
 title: Orden de procesamiento
-topic: Herramientas de administración
+topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
