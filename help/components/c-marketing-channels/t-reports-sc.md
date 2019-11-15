@@ -1,14 +1,12 @@
 ---
 description: Cómo se ejecuta el informe Canal de mercadotecnia.
-seo-description: Cómo se ejecuta el informe Canal de mercadotecnia.
-seo-title: Ejecución de informes de canales de mercadotecnia.
 solution: Analytics
-subtopic: Canales de mercadotecnia
+subtopic: Marketing channels
 title: Ejecución de informes de canales de mercadotecnia.
-topic: Reports and Analytics
-uuid: 95 a 7 aa 1 e -570 b -4 d 63-a 493-91 c 2337 bb 715
+topic: Reports and analytics
+uuid: 95a7aa1e-570b-4d63-a493-91c2337bb715
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
