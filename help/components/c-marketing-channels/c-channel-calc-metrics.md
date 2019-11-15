@@ -1,14 +1,12 @@
 ---
 description: Agregue métricas calculadas a los informes de canal de mercadotecnia en Analytics.
-seo-description: Agregue métricas calculadas a los informes de canal de mercadotecnia en Analytics.
-seo-title: Informes de canales de marketing usados en métricas calculadas
 solution: Analytics
-subtopic: Canales de mercadotecnia
+subtopic: Marketing channels
 title: Informes de canales de marketing usados en métricas calculadas
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: b33dd05b-4c85-436b-88da-396cb42ef01c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
