@@ -1,13 +1,11 @@
 ---
 description: Los trabajos se pueden mostrar con cualquiera de las etiquetas de estado.
-keywords: Fuente de datos;trabajo;estado;esperando datos;error;listo;procesamiento;completado;sin datos
-seo-description: Los trabajos se pueden mostrar con cualquiera de las etiquetas de estado.
-seo-title: Estado del trabajo
+keywords: Data Feed;job;status;waiting for data;failed;ready;processing;complete;no data
 solution: Analytics
 title: Estado del trabajo
 uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
