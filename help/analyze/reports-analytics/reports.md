@@ -1,13 +1,11 @@
 ---
-description: 'Información sobre los tipos de informe básicos: Tráfico, Conversión y Rutas.'
-seo-description: 'Información sobre los tipos de informe básicos: Tráfico, Conversión y Rutas.'
-seo-title: Tipos de informes
+description: 'Información sobre los tipos de informe básicos: Tráfico, Conversión y Rutas. '
 solution: Analytics
 title: Tipos de informes
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
