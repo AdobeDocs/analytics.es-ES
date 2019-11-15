@@ -1,14 +1,12 @@
 ---
 description: Puede combinar el Generador de reglas de clasificaciones con subclasificaciones para simplificar la administración de clasificaciones y reducir el número de reglas necesarias. Puede ser conveniente hacer esto si el código de seguimiento está formado por códigos que desea clasificar de forma independiente.
-seo-description: Puede combinar el Generador de reglas de clasificaciones con subclasificaciones para simplificar la administración de clasificaciones y reducir el número de reglas necesarias. Puede ser conveniente hacer esto si el código de seguimiento está formado por códigos que desea clasificar de forma independiente.
-seo-title: 'Subclasificaciones y el Generador de reglas: Caso de uso'
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: 'Subclasificaciones y el Generador de reglas: Caso de uso'
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,7 +47,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
 >[!NOTE]
 >
-> Estos pasos describen cómo se lleva a cabo el caso de uso descrito en [Subclasificaciones y el Generador](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)de reglas.
+>Estos pasos describen cómo se lleva a cabo el caso de uso descrito en [Subclasificaciones y el Generador](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)de reglas.
 
 1. Cree clasificaciones y subclasificaciones en el [Administrador de clasificación](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html).
 
