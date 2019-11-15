@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Tiempo de procesamiento de las fuentes de datos
 solution: Analytics
 title: Tiempo de procesamiento de las fuentes de datos
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
