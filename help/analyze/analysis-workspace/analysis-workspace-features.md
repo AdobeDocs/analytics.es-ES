@@ -1,12 +1,11 @@
 ---
 keywords: Analysis Workspace
-seo-title: Información general de Analysis Workspace
 solution: Analytics
-title: Analysis Workspace sobre validación
-topic: Reports and Analytics
+title: Información general de Analysis Workspace
+topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -69,7 +68,7 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
 
 Si tiene paneles o visualizaciones contraídos en el proyecto y hace clic en un vínculo, se ampliará el panel o la visualización para que los usuarios puedan verlo.
 
-> [!NOTE] También puede utilizar esta función en la opción **[!UICONTROL Editar descripción]** haciendo clic con el botón derecho.
+> [!NOTE] También puede utilizar esta función dentro de la opción **[!UICONTROL Editar descripción]** haciendo clic con el botón derecho.
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
