@@ -1,14 +1,12 @@
 ---
 description: Una “capa de datos” es un marco de objetos JavaScript que los desarrolladores insertan en las páginas.
-keywords: Implementación de Analytics, capa de datos, digitalData
-seo-description: Una “capa de datos” es un marco de objetos JavaScript que los desarrolladores insertan en las páginas. Las herramientas de rastreo (incluidos los sistemas de Tag Management como Dynamic Tag Management) pueden utilizar las capas de datos para rellenar informes.
-seo-title: Capa de datos
+keywords: Analytics Implementation;data layer;digitalData
 solution: Analytics
 title: Capa de datos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: dedb2a50-06f3-4354-8993-a25d4952ce1e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
