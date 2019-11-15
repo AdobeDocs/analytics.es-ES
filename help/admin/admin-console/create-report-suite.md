@@ -2,7 +2,7 @@
 title: Crear un grupo de informes
 description: Cree un contenedor básico para la recopilación de datos en Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -19,7 +19,7 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 
 ## Crear un grupo de informes
 
-> [!NOTE]Nota: También existe una forma de crear un grupo de informes en Adobe Analytics con el administrador heredado. Adobe recomienda utilizar el asistente para la configuración de grupos de informes que se describe aquí.
+> [!NOTE] También existe una forma de crear un grupo de informes en Adobe Analytics con el administrador heredado. Adobe recomienda utilizar el asistente para la configuración de grupos de informes que se describe aquí.
 
 1. Inicie sesión en [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
