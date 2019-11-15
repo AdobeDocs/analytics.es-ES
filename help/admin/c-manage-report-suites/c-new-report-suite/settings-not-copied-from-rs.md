@@ -1,13 +1,11 @@
 ---
 description: Si ha copiado la configuración de un grupo de informes existente, un mensaje del sistema identificará las opciones que no se copian al nuevo grupo de informes.
-seo-description: Si ha copiado la configuración de un grupo de informes existente, un mensaje del sistema identificará las opciones que no se copian al nuevo grupo de informes.
-seo-title: Configuración que no se copia desde un grupo de informes de origen
 solution: Analytics
 title: Configuración que no se copia desde un grupo de informes de origen
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
