@@ -1,14 +1,12 @@
 ---
 description: Asegúrese de que las variables que se rellenan desde scripts o código del servidor no incluyen comillas que pudieran interferir con los valores.
-keywords: Implementación de Analytics
-seo-description: Asegúrese de que las variables que se rellenan desde scripts o código del servidor no incluyen comillas que pudieran interferir con los valores.
-seo-title: Variables y valores
+keywords: Analytics Implementation
 solution: Analytics
 title: Variables y valores
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
