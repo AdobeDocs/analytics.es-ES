@@ -1,13 +1,11 @@
 ---
 description: El administrador de códigos le permite descargar códigos de recopilación de datos para plataformas web y móviles.
-seo-description: El administrador de códigos le permite descargar códigos de recopilación de datos para plataformas web y móviles.
-seo-title: Administrador de códigos
 solution: Analytics
 title: Administrador de códigos
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
