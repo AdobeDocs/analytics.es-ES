@@ -1,18 +1,16 @@
 ---
-description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y el software de correo electrónico.
-seo-description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y el software de correo electrónico.
-seo-title: Antes de activar esta integración
+description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
 title: Antes de activar esta integración
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Antes de activar esta integración {#before-you-activate-this-integration}
 
-Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y el software de correo electrónico.
+Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
 
 Al hacerlo, se asegurará de que se apliquen las prácticas recomendadas o los requisitos previos adecuados antes de la activación, lo que resultará en una integración óptima y exitosa.
 
@@ -25,13 +23,13 @@ Revise la siguiente información sobre esta integración de conectores de datos 
 
 * **** Grupo de informes inicializado con datos activos: Si está creando un grupo de informes completamente nuevo para esta integración, debe haber recibido algunos datos (al menos una visita) mediante los requisitos de appFigures de seguimiento activo. Si no se han registrado los datos activos, el grupo de informes no estará listo para recibir los datos integrados de App Store.
 
-* **** Integración existente con App Store: Esta integración devuelve datos durante 13 meses. Para evitar cualquier superposición con cualquier proveedor de datos del almacén de aplicaciones anterior, póngase en contacto con el representante de appFigures. Hágalos saber la última fecha en que recibió los datos. appFigures ajustará el período de relleno posterior en consecuencia.
+* **** Integración existente con App Store: Esta integración rellena los datos durante 13 meses. Para evitar cualquier superposición con cualquier proveedor de datos del almacén de aplicaciones anterior, póngase en contacto con el representante de appFigures. Hágalos saber la última fecha en que recibió los datos. appFigures ajustará el período de relleno posterior en consecuencia.
 
 ## appFigures Requirements{#appfigures-requirements}
 
 Revise la siguiente información sobre esta integración de conectores de datos en relación con appFigures:
 
-* **** Cliente actual de appFigures: Esta integración requiere que sea usuario de Adobe y de appFigures. Si actualmente no es usuario de appFigures Enterprise Plan, no tendrá la información necesaria para completar el asistente para la integración. Visite appFigures en la web para obtener más información.
+* **** Cliente actual de appFigures: Esta integración requiere que sea usuario de Adobe y de appFigures. Si actualmente no es usuario de appFigures Enterprise Plan, no dispondrá de la información necesaria para completar el asistente para la integración. Visite appFigures en la web para obtener más información.
 * **** Clave de cuenta de appFigures: Se requiere una clave de cuenta appFigures para activar el conector de datos appFigures. Esta clave de cuenta se puede generar en la sección "Complementos". Consulte [Configurar la integración](../appfigures-overview/t-appfigures-integration.md) para obtener más información.
 
 * **Finalización** de datos: La información de descarga, ventas y clasificación se sincroniza cada día durante los 7 días anteriores. Después de 7 días, los datos se consideran finales y ya no se actualizan.
