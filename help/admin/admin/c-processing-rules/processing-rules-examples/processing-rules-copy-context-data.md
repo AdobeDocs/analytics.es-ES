@@ -1,14 +1,12 @@
 ---
 description: Las reglas de procesamiento se utilizan para mover valores desde variables de datos de contexto a props y eVars.
-seo-description: Las reglas de procesamiento se utilizan para mover valores desde variables de datos de contexto a props y eVars.
-seo-title: Copiar una variable de datos de contexto en una eVar
 solution: Analytics
-subtopic: Reglas de procesamiento
+subtopic: Processing rules
 title: Copiar una variable de datos de contexto en una eVar
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
