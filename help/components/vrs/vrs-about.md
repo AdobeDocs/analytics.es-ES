@@ -1,11 +1,9 @@
 ---
 description: Los grupos de informes virtuales segmentan los datos de Adobe Analytics de modo que pueda controlar el acceso a cada segmento.
-seo-description: Los grupos de informes virtuales segmentan los datos de Adobe Analytics de modo que pueda controlar el acceso a cada segmento.
-seo-title: Resumen de los grupos de informes virtuales
 title: Resumen de los grupos de informes virtuales
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
