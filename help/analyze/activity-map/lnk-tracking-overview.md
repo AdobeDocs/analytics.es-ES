@@ -1,20 +1,18 @@
 ---
 description: 'Activity Map realiza un seguimiento de los vínculos con un algoritmo más seguro que '
-seo-description: 'Activity Map realiza un seguimiento de los vínculos con un algoritmo más seguro que '
-seo-title: Potente seguimiento de vínculos
 solution: Analytics
 title: Potente seguimiento de vínculos
-topic: Activity Map
+topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # Potente seguimiento de vínculos
 
-Activity Map realiza un seguimiento de los vínculos con un algoritmo más seguro.
+Activity Map realiza un seguimiento de los vínculos con un algoritmo más seguro que:
 
 * Incluye el seguimiento de las regiones de página para evitar que un mismo vínculo se pueda confundir en distintos dispositivos si aparece en posiciones distintas de la página.
 * Garantiza la exclusividad de los vínculos, lo que implica que los vínculos que sean distintos no se puedan confundir por problemas con los ID o entre distintos tipos de explorador.
