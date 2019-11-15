@@ -1,13 +1,11 @@
 ---
 description: Al rastrear y registrar los sitios de referencia de los visitantes para cada visita, puede determinar cómo los visitantes descubrieron el sitio en cada visita.
-seo-description: Al rastrear y registrar los sitios de referencia de los visitantes para cada visita, puede determinar cómo los visitantes descubrieron el sitio en cada visita.
-seo-title: Tipo de referente
 solution: Analytics
 title: Tipo de referente
-topic: Informes
-uuid: 7f63d327-d223-4537-a722-4780ae05c2b
+topic: Reports
+uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -26,7 +24,7 @@ La lista siguiente define los distintos tipos de referentes:
 
 **Correo electrónico**: Un dominio de referencia se considera un dominio de referencia de correo electrónico cuando los visitantes hacen clic en un vínculo de mensaje de correo electrónico que contiene el protocolo [!DNL imap://] o [!DNL mail://] y llegan al sitio. Por ejemplo, todas las visitas procedentes de [!DNL https://mail.yahoo.com] no se cuentan como referente de correo electrónico, porque el protocolo es [!DNL https://]. Los mensajes de correo electrónico de Outlook se registran en la línea de direcciones escritas o marcadores, mientras que todos los referentes con protocolo HTTP cuyo dominio es un motor de búsqueda conocido se registran en la línea de motores de búsqueda.
 
-**Escritos o marcadores**: los referentes se registran cuando los visitantes escriben la dirección URL del sitio directamente en el explorador o si acceden al sitio seleccionando marcadores. Los dispositivos móviles informan de un tipo de referente *`typed/bookmarked`* si no hay ningún referente en la primera visita individual de la visita.
+**Escritos o marcadores**: los referentes se registran cuando los visitantes escriben la dirección URL del sitio directamente en el explorador o si acceden al sitio seleccionando un marcador. Los dispositivos móviles informan de un tipo de referente *`typed/bookmarked`* si no hay ningún referente en la primera visita individual de la visita.
 
 **[!UICONTROL Dentro de su sitio]**: estos artículos son direcciones URL que son etiquetadas por los filtros de URL internos. These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
 
