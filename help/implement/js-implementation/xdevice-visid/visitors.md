@@ -1,15 +1,13 @@
 ---
 description: Analytics contabiliza cada ID de visitante efectiva única como un visitante único.
-keywords: Implementación de Analytics
-seo-description: Analytics contabiliza cada ID de visitante efectiva única como un visitante único.
-seo-title: Visitantes
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Visitantes
+subtopic: Visitors
 title: Visitantes
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
