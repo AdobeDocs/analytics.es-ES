@@ -1,13 +1,11 @@
 ---
 description: Crear una fuente nueva
-keywords: Fuente de datos;agregar
-seo-description: Crear una fuente nueva
-seo-title: Añadir una fuente
+keywords: Data Feed;add
 solution: Analytics
 title: Añadir una fuente
 uuid: e6767e2d-3283-4cdd-a972-475517f820bb
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
