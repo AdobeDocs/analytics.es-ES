@@ -1,14 +1,12 @@
 ---
 description: Las clasificaciones numéricas 2 ofrecen métricas personalizadas y flexibles que puede importar en Adobe Experience Cloud a través del importador.
-seo-description: Las clasificaciones numéricas 2 ofrecen métricas personalizadas y flexibles que puede importar en Adobe Experience Cloud a través del importador.
-seo-title: Resumen de clasificaciones numéricas 2
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: Resumen de clasificaciones numéricas 2
-topic: Herramientas de administración
+topic: Admin tools
 uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
