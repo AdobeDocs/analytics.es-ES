@@ -1,11 +1,9 @@
 ---
 description: 'Esta integración incluye las siguientes ventajas clave '
-seo-description: 'Esta integración incluye las siguientes ventajas clave '
-seo-title: Principales ventajas y características
-title: Principales ventajas y características
+title: Ventajas y características principales
 uuid: 1140d0d1-5e4a-4cf6-b5b7-dc47270b4ca5
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
