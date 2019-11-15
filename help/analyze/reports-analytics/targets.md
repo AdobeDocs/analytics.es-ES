@@ -1,13 +1,11 @@
 ---
 description: Los objetivos le permiten medir el rendimiento del sitio y llevar un control del avance hacia los objetivos. Por ejemplo, es posible que desee incrementar la cantidad de visitantes de una región, el ingreso por pedido o la cantidad de visitas provenientes de un referente específico.
-seo-description: Los objetivos le permiten medir el rendimiento del sitio y llevar un control del avance hacia los objetivos. Por ejemplo, es posible que desee incrementar la cantidad de visitantes de una región, el ingreso por pedido o la cantidad de visitas provenientes de un referente específico.
-seo-title: Objetivos
 solution: Analytics
 title: Objetivos
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
