@@ -1,18 +1,16 @@
 ---
 description: Pasos para seleccionar un grupo de informes de una solicitud existente.
-seo-description: Pasos para seleccionar un grupo de informes de una solicitud existente.
-seo-title: Seleccione un grupo de informes de una solicitud existente en Excel
 solution: Analytics
-title: Seleccione un grupo de informes de una solicitud existente en Excel
-topic: Creador de informes
-uuid: 92 fe 4823-6 b 8 a -4178-9 c 94-fb 4 f 5 e 03 e 4 a 5
+title: Selección de un grupo de informes de una solicitud existente en Excel
+topic: Report builder
+uuid: 92fe4823-6b8a-4178-9c94-fb4f5e03e4a5
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Seleccione un grupo de informes de una solicitud existente en Excel
+# Selección de un grupo de informes de una solicitud existente en Excel
 
 Pasos para seleccionar un grupo de informes de una solicitud existente.
 
