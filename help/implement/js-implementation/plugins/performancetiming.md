@@ -1,14 +1,12 @@
 ---
 description: Este complemento funciona por medio de la API JavaScript de Temporización de navegación para medir el rendimiento en la Web de forma precisa. Esto proporciona un método nativo para obtener estadísticas de temporización precisas y detalladas para eventos de carga de páginas y tiempos de carga de recursos. Anteriormente, las mediciones de este tipo utilizaban el objeto Date de JavaScript para métricas de temporización, o una extrapolación rudimentaria de las métricas de Temporización de navegación. Ambas metodologías, si bien proporcionan datos de tendencias para tiempos de carga de página, no son fiables.
-keywords: Implementación de Analytics
-seo-description: Este complemento funciona por medio de la API JavaScript de Temporización de navegación para medir el rendimiento en la Web de forma precisa. Esto proporciona un método nativo para obtener estadísticas de temporización precisas y detalladas para eventos de carga de páginas y tiempos de carga de recursos. Anteriormente, las mediciones de este tipo utilizaban el objeto Date de JavaScript para métricas de temporización, o una extrapolación rudimentaria de las métricas de Temporización de navegación. Ambas metodologías, si bien proporcionan datos de tendencias para tiempos de carga de página, no son fiables.
-seo-title: performanceTiming
+keywords: Analytics Implementation
 solution: Analytics
 title: performanceTiming
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
