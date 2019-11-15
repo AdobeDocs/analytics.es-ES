@@ -1,14 +1,12 @@
 ---
 description: Cree una cohorte y ejecute un informe de análisis de cohorte en Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Cree una cohorte y ejecute un informe de análisis de cohorte en Analysis Workspace.
-seo-title: Ejecutar un informe de análisis de cohorte
 solution: Analytics
 title: Ejecutar un informe de análisis de cohorte
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -33,7 +31,7 @@ Cree una cohorte y ejecute un informe de análisis de cohorte en Analysis Worksp
 
 1. Para ajustar la configuración **[!UICONTROL de la tabla de]** cohorte, haga clic en el icono de engranaje.
 
-| Configuración| Descripción|| Solo mostrar porcentaje| Elimina el valor numérico y solo muestra el porcentaje. || Porcentaje de redondeo al total más cercano| Redondea el valor porcentual al total más cercano en lugar de mostrar el valor decimal. || Mostrar fila de porcentaje promedio| Inserta una nueva fila en la parte superior de la tabla y, a continuación, agrega el promedio de los valores dentro de cada columna. |
+| Configuración| Descripción|| Mostrar solo el porcentaje| Elimina el valor numérico y solo muestra el porcentaje. || Porcentaje de redondeo al total más cercano| Redondea el valor porcentual al total más cercano en lugar de mostrar el valor decimal. || Mostrar fila de porcentaje promedio| Inserta una nueva fila en la parte superior de la tabla y, a continuación, agrega el promedio de los valores dentro de cada columna. |
 
 ## Generar el informe Análisis de cohorte
 
