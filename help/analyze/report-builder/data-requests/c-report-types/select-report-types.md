@@ -1,13 +1,11 @@
 ---
 description: Se puede seleccionar el tipo de informe básico para la solicitud de datos, que puede ser Métricas del sitio, Contenido del sitio y Vídeo.
-seo-description: Se puede seleccionar el tipo de informe básico para la solicitud de datos, que puede ser Métricas del sitio, Contenido del sitio y Vídeo.
-seo-title: Información general sobre tipos de informes
 solution: Analytics
 title: Información general sobre tipos de informes
-topic: Creador de informes
-uuid: 63 e 656 d 0-f 22 e -4846-9 e 24-7 ef 3299 dde 5 a
+topic: Report builder
+uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
