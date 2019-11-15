@@ -1,19 +1,17 @@
 ---
 description: Pasos que puede seguir como preparación para utilizar fuentes de datos
-seo-description: Pasos que puede seguir como preparación para utilizar fuentes de datos
-seo-title: Preparación para el uso de fuentes de datos
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Preparación para el uso de fuentes de datos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Preparación para utilizar fuentes de datos
+# Preparación para el uso de fuentes de datos
 
 Pasos que puede seguir como preparación para utilizar fuentes de datos
 
