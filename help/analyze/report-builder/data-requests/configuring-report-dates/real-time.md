@@ -1,13 +1,11 @@
 ---
 description: Muestra el tráfico de la página web y clasifica las vistas de la página en tiempo real, de modo que puede comprender más rápidamente las tendencias de su sitio.
-seo-description: Muestra el tráfico de la página web y clasifica las vistas de la página en tiempo real, de modo que puede comprender más rápidamente las tendencias de su sitio.
-seo-title: Informes en tiempo real
 solution: Analytics
 title: Informes en tiempo real
-topic: Creador de informes
+topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
