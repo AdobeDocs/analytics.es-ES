@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Barras horizontales y barras horizontales apiladas
 title: Barras horizontales y barras horizontales apiladas
-uuid: 3730929 d -42 e 6-4543-b 12 a-d 002 f 86 ac 82 d
+uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
