@@ -1,14 +1,12 @@
 ---
 description: Administrar usuarios y grupos en la página Administración de usuarios le permite administrar los usuarios y grupos y controlar el acceso a los informes, las herramientas y los grupos de informes.
-seo-description: Administrar usuarios y grupos en la página Administración de usuarios le permite administrar los usuarios y grupos y controlar el acceso a los informes, las herramientas y los grupos de informes.
-seo-title: Resumen de administración de usuarios
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: Resumen de administración de usuarios
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
