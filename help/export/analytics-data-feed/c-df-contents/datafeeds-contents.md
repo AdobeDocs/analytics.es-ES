@@ -1,15 +1,13 @@
 ---
 description: En esta sección se describen los archivos que se encuentran en una entrega de fuentes de datos.
-keywords: Fuente de datos;trabajo;contenido;manifiesto;archivo;búsqueda;datos de visitas;contenido de entrega
-seo-description: En esta sección se describen los archivos que se encuentran en una entrega de fuentes de datos.
-seo-title: Resumen del contenido de la fuente de datos
+keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
 solution: Analytics
-subtopic: fuentes de datos
+subtopic: data feeds
 title: Resumen del contenido de la fuente de datos
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 4ce92a400c6590ce7c891155f404b64f0808bcb8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
