@@ -1,15 +1,13 @@
 ---
 description: Captura el valor de una variable de Analytics en la siguiente vista de página. Por ejemplo, puede usar el complemento para capturar el valor s.pageName de la vista de página anterior a una variable de tráfico personalizado. También dispone de una opción para capturar un valor anterior solamente cuando los eventos de éxito designados están configurados.
-keywords: Implementación de Analytics
-seo-description: Captura el valor de una variable de Analytics en la siguiente vista de página. Por ejemplo, puede usar el complemento para capturar el valor s.pageName de la vista de página anterior a una variable de tráfico personalizado. También dispone de una opción para capturar un valor anterior solamente cuando los eventos de éxito designados están configurados.
-seo-title: getPreviousValue
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Complementos
+subtopic: Plug-ins
 title: getPreviousValue
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
