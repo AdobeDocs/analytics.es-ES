@@ -1,14 +1,12 @@
 ---
 description: Puede capturar en los informes los valores de elementos de formularios tales como botones de opción y casillas de verificación. Esto ayuda a analizar las opciones más seleccionadas en los formularios en línea.
-keywords: Implementación de Analytics
-seo-description: Puede capturar en los informes los valores de elementos de formularios tales como botones de opción y casillas de verificación. Esto ayuda a analizar las opciones más seleccionadas en los formularios en línea.
-seo-title: Recopilación de datos de elementos de formulario
+keywords: Analytics Implementation
 solution: Analytics
 title: Recopilación de datos de elementos de formulario
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
