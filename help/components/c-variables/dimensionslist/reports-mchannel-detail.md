@@ -1,13 +1,11 @@
 ---
 description: Estos informes ofrecen una perspectiva sobre las palabras clave o las campañas específicas más eficaces de un sitio. Permiten asignar ingresos y métricas de éxito a distintos detalles de canal, independientemente del canal global al que pertenecen. Por ejemplo, puede verse la comparación de una palabra clave de búsqueda pagada determinada respecto a una campaña de correo electrónico específica. Al contrario que el informe de descripción general de canal de marketing, este informe es muy similar a un informe de marketing estándar.
-seo-description: Estos informes ofrecen una perspectiva sobre las palabras clave o las campañas específicas más eficaces de un sitio. Permiten asignar ingresos y métricas de éxito a distintos detalles de canal, independientemente del canal global al que pertenecen. Por ejemplo, puede verse la comparación de una palabra clave de búsqueda pagada determinada respecto a una campaña de correo electrónico específica. Al contrario que el informe de descripción general de canal de marketing, este informe es muy similar a un informe de marketing estándar.
-seo-title: Detalles de canal de marketing de primer y último toque
 solution: Analytics
 title: Detalles de canal de marketing de primer y último toque
-topic: Informes
+topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
