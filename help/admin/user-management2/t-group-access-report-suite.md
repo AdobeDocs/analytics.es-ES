@@ -1,14 +1,12 @@
 ---
 description: Instrucciones sobre cómo asignar grupos de usuarios a un grupo de informes.
-seo-description: Instrucciones sobre cómo asignar grupos de usuarios a un grupo de informes.
-seo-title: Asignar grupos de usuarios a un grupo de informes
 solution: Analytics
-subtopic: Usuarios y grupos
+subtopic: Users and groups
 title: Asignar grupos de usuarios a un grupo de informes
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
