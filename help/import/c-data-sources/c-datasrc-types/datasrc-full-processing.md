@@ -1,14 +1,12 @@
 ---
 description: El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
-seo-description: El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
-seo-title: Procesamiento completo
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Procesamiento completo
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
