@@ -1,15 +1,13 @@
 ---
 description: Los analizadores de paquetes permiten ver los datos que se envían desde la implementación a los servidores de recopilación de datos de Adobe.
-keywords: Implementación de Analytics
-seo-description: Los analizadores de paquetes permiten ver los datos que se envían desde la implementación a los servidores de recopilación de datos de Adobe.
-seo-title: Analizadores de paquetes
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Depurador
+subtopic: Debugger
 title: Analizadores de paquetes
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
