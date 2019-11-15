@@ -1,14 +1,12 @@
 ---
 description: Las fuentes de datos de Adobe Analytics le permiten importar manualmente datos sin conexión o en línea adicionales para incluirlos en informes.
-seo-description: Las fuentes de datos de Adobe Analytics le permiten importar manualmente datos sin conexión o en línea adicionales para incluirlos en informes.
-seo-title: Resumen de fuentes de datos
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Resumen de fuentes de datos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
