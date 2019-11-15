@@ -1,11 +1,9 @@
 ---
 description: El Asistente para la integración de conectores de datos le guía a través del proceso de integración de conectores de datos.
-seo-description: El Asistente para la integración de conectores de datos le guía a través del proceso de integración de conectores de datos.
-seo-title: Configuración de la integración
 title: Configuración de la integración
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ Para configurar la integración:
 1. [Genere](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud) la clave de cuenta de integración a partir de AppFigures.
 1. Vaya a **[!UICONTROL Analytics]** &gt; Conectores **[!UICONTROL de datos]** como usuario administrador y haga clic en **[!UICONTROL + Agregar nuevo]** para agregar una nueva integración.
 1. En la lista **[!UICONTROL Mostrar]** , seleccione por nombre y arrastre la integración **appFigures** a una ranura de complemento vacía.
-1. En la página de introducción a la integración de AppFigures, revise el texto, active la casilla de verificación para aceptar las tarifas asociadas con la integración y haga clic en **Siguiente**.
+1. En la página de introducción a la integración de AppFigures, revise el texto, active la casilla de verificación para aceptar las tarifas asociadas con la integración y, a continuación, haga clic en **Siguiente**.
 1. Seleccione el grupo de informes que desee utilizar para esta integración.
 1. Proporcione un nombre descriptivo para identificar esta integración y haga clic en **[!UICONTROL Crear y configurar esta integración]**.
 
