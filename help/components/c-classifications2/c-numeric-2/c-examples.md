@@ -1,14 +1,12 @@
 ---
 description: Ejemplos que ofrecen información sobre cómo importar clasificaciones numéricas 2.
-seo-description: Ejemplos que ofrecen información sobre cómo importar clasificaciones numéricas 2.
-seo-title: Ejemplos
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: Ejemplos
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
