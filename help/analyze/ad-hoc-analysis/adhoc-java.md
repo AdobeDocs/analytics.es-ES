@@ -1,10 +1,8 @@
 ---
 description: Instrucciones sobre cómo ejecutar análisis específicos con Java 11.
-seo-description: Instrucciones sobre cómo ejecutar análisis específicos con Java 11.
-seo-title: Análisis específicos y Java 11
 title: Ejecutar Ad Hoc Analysis en Java 11
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,7 +27,7 @@ Trabaje con su equipo de TI para comprobar que se cumpla lo siguiente:
 1. **Ejecutar el archivo seleccionado**. Para PC: Haga doble clic en el archivo .bat. Para Mac: Haga clic derecho en el archivo .sh y, a continuación, seleccione **[!UICONTROL Abrir con &gt; Otro....  &gt; Utilidades &gt; (Activar todas las aplicaciones) &gt; seleccione Terminal &gt; Abrir]**.
 1. Inicie sesión en el Ad Hoc Analysis.
 
-> [!NOTE] Los métodos de autenticación de Federated ID y Enterprise ID no son compatibles con la versión de Java 11 de Análisis específicos.
+> [!NOTE] Los métodos de autenticación de Federated ID y Enterprise ID no son compatibles con la versión de Java 11 de los análisis específicos.
 
 ## Características no admitidas en el Ad Hoc Analysis (Java 11)
 
