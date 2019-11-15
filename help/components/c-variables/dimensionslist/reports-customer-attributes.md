@@ -1,12 +1,10 @@
 ---
 description: Sección de preguntas más frecuentes de Analytics sobre atributos del cliente y cómo ejecutar el informe de atributos del cliente.
-seo-description: Sección de preguntas más frecuentes de Analytics sobre atributos del cliente y cómo ejecutar el informe de atributos del cliente.
-seo-title: Atributos del cliente
 solution: Experience Cloud,Analytics
 title: Atributos del cliente
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
