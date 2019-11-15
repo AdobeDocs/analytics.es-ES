@@ -1,13 +1,11 @@
 ---
 description: La siguiente tabla muestra si el país tiene regiones o códigos postales, lo que indica si se completará el informe de regiones o códigos postales.
-seo-description: La siguiente tabla muestra si el país tiene regiones o códigos postales, lo que indica si se completará el informe de regiones o códigos postales.
-seo-title: Uso de regiones de segmentación geográfica y código postal por país
 solution: Analytics
 title: Uso de regiones de segmentación geográfica y código postal por país
-topic: Informes
+topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
