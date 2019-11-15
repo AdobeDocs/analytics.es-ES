@@ -1,11 +1,9 @@
 ---
 description: Estos son algunos problemas comunes que se producen al utilizar el Creador de informes con Power BI.
-seo-description: Estos son algunos problemas comunes que se producen al utilizar el Creador de informes con Power BI.
-seo-title: Solución de problemas de integración de Power BI
 title: Solución de problemas de integración de Power BI
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
