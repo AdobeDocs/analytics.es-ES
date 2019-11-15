@@ -1,14 +1,12 @@
 ---
 description: Recopilación de notas de versiones para la biblioteca móvil de Android.
-seo-description: Recopilación de notas de versiones para la biblioteca móvil de Android.
-seo-title: Android
 solution: Analytics,Experience Cloud
-subtopic: Notas de la versión
+subtopic: Release notes
 title: Android
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
