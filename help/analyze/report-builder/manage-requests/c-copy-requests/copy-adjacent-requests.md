@@ -1,13 +1,11 @@
 ---
 description: Del mismo modo que se copian y se pegan las solicitudes, también se pueden reubicar las solicitudes en otra parte de la hoja de cálculo, seleccionando Cortar solicitud en el menú contextual.
-seo-description: Del mismo modo que se copian y se pegan las solicitudes, también se pueden reubicar las solicitudes en otra parte de la hoja de cálculo, seleccionando Cortar solicitud en el menú contextual.
-seo-title: Copiar solicitudes adyacentes
 solution: Analytics
 title: Copiar solicitudes adyacentes
-topic: Creador de informes
+topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
