@@ -1,14 +1,12 @@
 ---
 description: Las clasificaciones numéricas 2 se crean de la misma manera que las otras clasificaciones. Solo puede añadir clasificaciones numéricas dos a variables de conversión o de canal.
-seo-description: Las clasificaciones numéricas 2 se crean de la misma manera que las otras clasificaciones. Solo puede añadir clasificaciones numéricas dos a variables de conversión o de canal.
-seo-title: Crear clasificaciones numéricas 2
 solution: Analytics
-subtopic: Clasificaciones
+subtopic: Classifications
 title: Crear clasificaciones numéricas 2
-topic: Herramientas de administración
+topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
