@@ -1,13 +1,11 @@
 ---
 description: Las funciones de búsqueda y filtrado le permiten encontrar la fuente que busca en la lista.
-keywords: Fuente de datos;buscar;filtro;grupo de informes;propietario;estado
-seo-description: Las funciones de búsqueda y filtrado le permiten encontrar la fuente que busca en la lista.
-seo-title: Buscar y filtrar
+keywords: Data Feed;search;filter;report suite;owner;status
 solution: Analytics
 title: Buscar y filtrar
 uuid: 0d9e38ea-e681-4aa3-843a-d0221e88c177
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
