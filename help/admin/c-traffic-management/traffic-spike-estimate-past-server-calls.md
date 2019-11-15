@@ -1,12 +1,10 @@
 ---
 description: Le permite obtener el promedio diario de llamadas al servidor correspondiente a un lapso de tiempo específico del año pasado, además de un aumento esperado del volumen de llamadas de este año. Así, podrá programar un pico de tráfico basado en este factor de multiplicación.
-seo-description: Le permite obtener el promedio diario de llamadas al servidor correspondiente a un lapso de tiempo específico del año pasado, además de un aumento esperado del volumen de llamadas de este año. Así, podrá programar un pico de tráfico basado en este factor de multiplicación.
-seo-title: Estimar las llamadas al servidor anteriores y programar un pico de tráfico
 solution: Analytics
 title: Estimar las llamadas al servidor anteriores y programar un pico de tráfico
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
