@@ -1,10 +1,8 @@
 ---
 description: Instale el depurador heredado de Adobe Experience Cloud. Este depurador inspecciona las etiquetas de Analytics, Target, Advertising Cloud, Identity Service, DTM e Launch.
-seo-description: Instale el depurador heredado de Adobe Experience Cloud. Este depurador inspecciona las etiquetas de Analytics, Target, Advertising Cloud, Identity Service, DTM e Launch.
-seo-title: Depurador heredado de Adobe Experience Cloud
 title: Depurador heredado de Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -29,7 +27,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 ### Paso 2: Pegar código de bookmarklet en un marcador
 
-Cada navegador tiene diferentes formas de administrar marcadores, pero el concepto es el mismo. Se crea un marcador con el nombre deseado y el código del bookmarklet como dirección URL.
+Cada navegador tiene diferentes formas de administrar los marcadores, pero el concepto es el mismo. Se crea un marcador con el nombre deseado y el código del bookmarklet como dirección URL.
 
 #### Chrome
 
@@ -52,27 +50,27 @@ Si insiste en no utilizar la extensión [de](https://docs.adobe.com/content/help
 Edge no tiene la capacidad de crear manualmente un bookmarklet, pero se puede editar una dirección URL de marcador.
 
 1. Haga clic en el icono de estrella en la parte derecha del campo URL para marcar la página actual.
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
-3. Click the star icon with lines to open the Favorites bar.
-4. Right click the newly created bookmark, the select 'Edit URL'.
-5. Paste the code snippet in the text field, then hit Enter.
+2. Asigne un nombre al marcador "Adobe Experience Cloud Debugger" y guárdelo en la ubicación deseada.
+3. Haga clic en el icono de estrella con líneas para abrir la barra Favoritos.
+4. Haga clic con el botón derecho en el marcador recién creado y seleccione 'Editar URL'.
+5. Pegue el fragmento de código en el campo de texto y, a continuación, pulse Intro.
 
 #### Safari
 
-Safari does not have the ability to manually create a bookmarklet, but a bookmark URL can be edited.
+Safari no tiene la capacidad de crear manualmente un bookmarklet, pero se puede editar una dirección URL de marcador.
 
-1. Click the Share icon in the top right, which opens a bookmark modal window.
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
-3. Click Bookmarks &gt; Edit Bookmarks, and locate the newly created bookmark.
-4. Right click &gt; Edit Address, then paste the code snippet into text field.
+1. Haga clic en el icono Compartir en la parte superior derecha, que abre una ventana modal de marcador.
+2. Asigne un nombre al marcador "Adobe Experience Cloud Debugger" y guárdelo en la ubicación deseada.
+3. Haga clic en Marcadores &gt; Editar marcadores y busque el marcador recién creado.
+4. Haga clic con el botón secundario del mouse (ratón) &gt; Editar dirección y, a continuación, pegue el fragmento de código en el campo de texto.
 
-## Using the legacy debugger
+## Uso del depurador heredado
 
-To use the debugger, navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
+Para utilizar el depurador, vaya a la página deseada en el sitio y haga clic en el bookmarklet. Aparece una ventana emergente que muestra los datos enviados a Adobe.
 
-> [!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+> [!NOTE] Algunos complementos y bloqueadores de ventanas emergentes que bloquean anuncios pueden interferir con la carga de la ventana del depurador. Compruebe si hay ventanas emergentes bloqueadas en el explorador y déjelas para que el depurador funcione correctamente.
 
-The debugger has several options available, all of which customize how data is displayed. Ninguna de estas opciones afecta a la recopilación de datos.
+El depurador tiene varias opciones disponibles, todas las cuales personalizan el modo en que se muestran los datos. Ninguna de estas opciones afecta a la recopilación de datos.
 
 * **** Productos de Experience Cloud mostrados: Muestra u oculta solicitudes de imagen para cada producto de Experience Cloud correspondiente.
 * **** Descodificación de URL: La dirección URL descodifica la solicitud de imagen para que coincida con lo que se muestra en los informes. Adobe recomienda dejar esta casilla marcada.
