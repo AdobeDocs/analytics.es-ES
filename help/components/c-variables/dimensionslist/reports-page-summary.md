@@ -1,13 +1,11 @@
 ---
 description: Este informe recopila y organiza información específica acerca de una página individual y la presenta en un solo informe. Se puede utilizar para comprender de qué manera los visitantes están llegando a una página determinada y si avanzan más por su sitio o salen.
-seo-description: Este informe recopila y organiza información específica acerca de una página individual y la presenta en un solo informe. Se puede utilizar para comprender de qué manera los visitantes están llegando a una página determinada y si avanzan más por su sitio o salen.
-seo-title: Resumen de página
 solution: Analytics
 title: Resumen de página
-topic: Informes
+topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
