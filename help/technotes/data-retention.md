@@ -1,11 +1,9 @@
 ---
-seo-description: Los datos recopilados por Adobe Analytics se conservan durante un período de tiempo específico. El tiempo que Adobe mantiene estos datos varía según el contrato y se describe en la política de retención de datos de una organización.
-seo-title: Política de retención de datos para Adobe Analytics
 title: Política de retención de datos
 description: Una directiva de retención de datos determina cuánto tiempo Adobe almacena los datos.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -31,7 +29,7 @@ Adobe, en su función de procesador de datos, debe tomar las medidas adecuadas p
 
 ## Eliminación de datos
 
-Una vez que los datos superan la directiva de retención de datos, Adobe conserva el derecho de eliminarlos sin opción de recuperación. Debe asegurarse de que todos los datos que desea conservar se encuentran dentro de la directiva de retención de datos de su organización.
+Una vez que los datos superan la directiva de retención de datos, Adobe conserva el derecho de eliminarlos sin opción de recuperación. Debe asegurarse de que todos los datos que desea conservar se encuentren dentro de la política de retención de datos de su organización.
 
 ## Preguntas frecuentes
 
