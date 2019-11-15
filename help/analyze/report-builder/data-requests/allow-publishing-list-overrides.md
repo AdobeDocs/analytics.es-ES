@@ -1,13 +1,11 @@
 ---
 description: Cuando se programa un informe, se puede seleccionar una lista de publicación para utilizarla en la distribución.
-seo-description: Cuando se programa un informe, se puede seleccionar una lista de publicación para utilizarla en la distribución.
-seo-title: Permitir anulaciones de la lista de publicación
 solution: Analytics
 title: Permitir anulaciones de la lista de publicación
-topic: Creador de informes
+topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
