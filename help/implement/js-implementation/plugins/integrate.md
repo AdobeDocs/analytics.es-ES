@@ -1,10 +1,8 @@
 ---
 title: Integrar módulo
-seo-title: Módulo Integrate para Adobe Analytics
 description: El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización.
-seo-description: El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización.
-translation-type: ht
-source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
