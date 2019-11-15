@@ -1,13 +1,11 @@
 ---
 description: Cree una herramienta Adobe Analytics para la implementación mediante el uso de Dynamic Tag Management. Este procedimiento describe una implementación manual (heredada).
 keywords: Dynamic Tag Management
-seo-description: Cree una herramienta Adobe Analytics para la implementación mediante el uso de Dynamic Tag Management. Este procedimiento describe una implementación manual (heredada).
-seo-title: Implementar Adobe Analytics manualmente (heredado)
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Implementar Adobe Analytics manualmente (heredado)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -43,7 +41,7 @@ Si desea cambiar una configuración de manual a automática, edite una herramien
       | Tipo de herramienta | La solución de Experience Cloud, como Analytics, Target, Social, etc. |
       | Nombre de la herramienta | El nombre de esta herramienta. Este nombre se muestra en la ficha [!UICONTROL Información general] en [!UICONTROL Herramientas instaladas]. |
       | ID de cuenta de producción | Un número de su cuenta de producción para la recopilación de datos. Dynamic Tag Management instala automáticamente la cuenta correcta en el entorno de producción y ensayo. |
-      | ID de cuenta de ensayo | Un número que se utiliza en el entorno de prueba o desarrollo. Una cuenta de ensayo permite separar los datos de prueba de los de producción. |
+      | ID de cuenta de ensayo | Un número que se utiliza en el entorno de prueba o desarrollo. Una cuenta de ensayo mantiene los datos de prueba separados de la producción. |
 
 1. Haga clic en **[!UICONTROL Crear herramienta]**.
 
