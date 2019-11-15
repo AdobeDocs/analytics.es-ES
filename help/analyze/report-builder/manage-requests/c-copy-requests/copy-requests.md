@@ -1,13 +1,11 @@
 ---
 description: Es posible pegar las celdas asignadas con varias solicitudes y pegar el contenido en una zona seleccionada y vacía de la hoja de cálculo.
-seo-description: Es posible pegar las celdas asignadas con varias solicitudes y pegar el contenido en una zona seleccionada y vacía de la hoja de cálculo.
-seo-title: Resumen de solicitudes de copia
 solution: Analytics
 title: Resumen de solicitudes de copia
-topic: Creador de informes
+topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
