@@ -1,13 +1,11 @@
 ---
 description: Muestra información sobre la eficacia de los esfuerzos de publicidad. Puede ver qué tipo de publicidad le aporta mayor tráfico y qué empleado está a cargo de dicha publicidad.
-seo-description: Muestra información sobre la eficacia de los esfuerzos de publicidad. Puede ver qué tipo de publicidad le aporta mayor tráfico y qué empleado está a cargo de dicha publicidad.
-seo-title: Campañas
 solution: Analytics
 title: Campañas
-topic: Informes
+topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
