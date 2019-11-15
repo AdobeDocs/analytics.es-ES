@@ -1,11 +1,9 @@
 ---
 description: Implementar esta integración es un proceso sencillo que requiere las siguientes acciones.
-seo-description: Implementar esta integración es un proceso sencillo que requiere las siguientes acciones.
-seo-title: Implementación de la integración
 title: Implementación de la integración
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,7 +47,7 @@ Para activar la integración, debe completar el asistente de configuración en l
   </tr> 
   <tr> 
    <td colname="col1"> Enviar a Adobe Target </td> 
-   <td colname="col2">Si es "true", las dimensiones Demandbase también se enviarán a Adobe Target mediante un mbox oculto. <p>Nota:  Se debe implementar un archivo mbox.js configurado en la página web para que se recopilen las dimensiones. </p> </td> 
+   <td colname="col2">Si es "true", las dimensiones de Demandbase también se enviarán a Adobe Target mediante un mbox oculto. <p>Nota:  Se debe implementar un archivo mbox.js configurado en la página web para que se recopilen las dimensiones. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +79,7 @@ Después de completar el asistente de integración, debe implementar el código 
 1. Incluya el módulo Integrate si no está presente en el código de implementación de Adobe Analytics.
 1. Implemente el código mediante uno de los siguientes métodos:
 
-   * Utilice Adobe TagManager o Administración dinámica de etiquetas para agregar el código.
+   * Utilice Adobe TagManager o la administración dinámica de etiquetas para agregar el código.
    * O bien, envíe el código al recurso de organización responsable de actualizar el código de implementación de Adobe Analytics.
 
 >[!IMPORTANT]
@@ -151,7 +149,7 @@ Sin embargo, si necesita realizar ajustes, a continuación se describen algunos 
 
 ## Inclusión del módulo Integrate{#including-the-integrate-module}
 
-El código de integración requiere que el módulo Integrate exista en la implementación de Adobe Analytics.
+El código de integración requiere que el módulo Integrate exista dentro de la implementación de Adobe Analytics.
 
 Si todavía no tiene el módulo Integrate como parte de la implementación, complete los siguientes pasos según el tipo de implementación que tenga.
 
@@ -164,11 +162,11 @@ Si todavía no tiene el módulo Integrate como parte de la implementación, comp
 
    >[!NOTE]
    >
-   >Pegarlo justo antes del comentario DO NOT ALTER ANYTHING BELOW THIS LINE dentro del archivo.
+   >Pegarlo justo antes del comentario DO NOT ALTER ANYTHING BELOW THIS LINE (NO ALTERAR NADA DEBAJO DE ESTA LÍNEA) dentro del archivo.
 
 ### Para código heredado (código H) {#section-bba8ad8c715e4f97883e7de3269f681a}
 
-1. Descargue el módulo Integrate del área "Recursos" de la interfaz de usuario de Conectores de datos (en la ficha Asistencia técnica).
+1. Descargue el módulo Integrate desde el área "Recursos" de la interfaz de usuario de Conectores de datos (en la ficha Asistencia técnica).
 
    ![](assets/h_code.png)
 
@@ -176,13 +174,13 @@ Si todavía no tiene el módulo Integrate como parte de la implementación, comp
 
    >[!NOTE]
    >
-   >Pegarlo justo antes del comentario DO NOT ALTER ANYTHING BELOW THIS LINE dentro del archivo.
+   >Pegarlo justo antes del comentario DO NOT ALTER ANYTHING BELOW THIS LINE (NO ALTERAR NADA DEBAJO DE ESTA LÍNEA) dentro del archivo.
 
 ## Verificación de la integración{#verifying-the-integration}
 
 Valide que la integración está capturando datos correctamente mediante la comprobación del seguimiento activo y los informes.
 
-### Seguimiento activo {#section-9c20e8ff6b404ae09387ee07d675c9e2}
+### Seguimiento en vivo {#section-9c20e8ff6b404ae09387ee07d675c9e2}
 
 Utilice la herramienta de depuración DigitalPulse para comprobar que los datos de dimensión Demandbase se están enviando a Adobe Analytics. Después de eliminar las cookies, vuelva a cargar una página del sitio web en la que se haya implementado el código de integración. Suponiendo que la IP actual se asigna a una organización reconocida por Demandbase, debería ver resultados similares a los siguientes.
 
