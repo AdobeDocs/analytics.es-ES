@@ -1,14 +1,12 @@
 ---
 description: La interfaz del Data Warehouse resulta muy flexible para ejecutar informes personalizados. Estas pautas ayudan a reducir el tiempo necesario para la recuperación de datos.
-keywords: prácticas recomendadas;error;tiempo de espera;solución de problemas
-seo-description: La interfaz del Data Warehouse resulta muy flexible para ejecutar informes personalizados. Estas pautas ayudan a reducir el tiempo necesario para la recuperación de datos.
-seo-title: Prácticas recomendadas de Data Warehouse
+keywords: best practices;failure;timeout;troubleshooting
 solution: Analytics
 title: Prácticas recomendadas de Data Warehouse
-topic: Data Warehouse
+topic: Data warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
