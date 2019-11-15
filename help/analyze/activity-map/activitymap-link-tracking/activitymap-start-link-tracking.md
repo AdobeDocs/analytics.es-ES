@@ -1,13 +1,11 @@
 ---
 description: Pasos para empezar a realizar un seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
-seo-description: Pasos para empezar a realizar un seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
-seo-title: Iniciar el seguimiento de vínculos
 solution: Analytics
 title: Iniciar el seguimiento de vínculos
-topic: Activity Map
+topic: Activity map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,8 +23,8 @@ Pasos para empezar a realizar un seguimiento de los vínculos en Activity Map o 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> Añada el siguiente contenido del archivo Appmeasurement.js: 
+   <td colname="col1"> Activity Map  </td> 
+   <td colname="col2"> Añada el siguiente contenido del archivo Appmeasurement.js:  
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
