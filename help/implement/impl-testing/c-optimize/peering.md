@@ -1,15 +1,13 @@
 ---
 description: La relación entre iguales de redes privadas permite que los datos pasen de la red de un ISP a la red de Analytics de forma más eficaz.
-keywords: Implementación de Analytics
-seo-description: La relación entre iguales de redes privadas permite que los datos pasen de la red de un ISP a la red de Analytics de forma más eficaz.
-seo-title: Relación entre iguales
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Resolución de problemas
+subtopic: Troubleshooting
 title: Relación entre iguales
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: b3d34369-8cb8-4f12-8b58-847132c43881
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
