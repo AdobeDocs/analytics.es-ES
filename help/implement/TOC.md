@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: usuario final
-user-guide-title: Guía de implementación de Analytics
-user-guide-url: /content/help/es-ES/analytics/implementation/home.html
+audience: end-user
+user-guide-title: Analytics Implementation Guide
+user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 3e449b1075ad04fc3f1a48aea28b5a46b9db3d6f
+source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 
 ---
 
@@ -141,6 +141,13 @@ source-git-commit: 3e449b1075ad04fc3f1a48aea28b5a46b9db3d6f
          + [s.linkExternalFilters](js-implementation/c-variables/config-vars/s-linkextfilters.md)
          + [s.useBeacon](js-implementation/c-variables/config-vars/s-usebeacon.md)
          + [s.usePlugins](js-implementation/c-variables/config-vars/s-useplugins.md)
+         + [s.useForcedLinkTracking](js-implementation/c-variables/config-vars/s-useforcedlinktracking.md)
+         + [s.linkType](js-implementation/c-variables/config-vars/s-linktype.md)
+         + [s.linkName](js-implementation/c-variables/config-vars/s-linkname.md)
+         + [s.ForcedLinkTrackingTimeout](js-implementation/c-variables/config-vars/s-forcedlinktrackingtimeout.md)
+         + [s.linkTrackEvents](js-implementation/c-variables/config-vars/s-linktrackevents.md)
+         + [s.linkURL](js-implementation/c-variables/config-vars/s-linkurl.md)
+         + [s.linkObject](js-implementation/c-variables/config-vars/s-linkobject.md)
       + [Variables de datos de contexto](js-implementation/c-variables/context-data-variables.md)
       + [Variables dinámicas](js-implementation/c-variables/dynvars-overview.md)
       + [Variables de página](js-implementation/c-variables/page-variables.md)
