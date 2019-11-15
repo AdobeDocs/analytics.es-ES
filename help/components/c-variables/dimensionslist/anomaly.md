@@ -1,14 +1,12 @@
 ---
 description: La detección de anomalías constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores.
-keywords: anomalía
-seo-description: La detección de anomalías constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores.
-seo-title: Detección de anomalías
+keywords: anomaly
 solution: Analytics
 title: Detección de anomalías
-topic: Informes
+topic: Reports
 uuid: 0e8bf30c-004d-47d3-ad8d-c5a86ba81d9d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
