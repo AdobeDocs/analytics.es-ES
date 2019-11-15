@@ -1,13 +1,11 @@
 ---
 description: Indica los parámetros de explorador que no son compatibles con el uso de Activity Map. Estos ajustes deben deshabilitarse.
-seo-description: Indica los parámetros de explorador que no son compatibles con el uso de Activity Map. Estos ajustes deben deshabilitarse.
-seo-title: Solución de problemas con las extensiones de los exploradores
 solution: Analytics
 title: Solución de problemas con las extensiones de los exploradores
-topic: Activity Map
+topic: Activity map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
-translation-type: ht
-source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
