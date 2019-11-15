@@ -1,13 +1,11 @@
 ---
 description: Las fuentes de tráfico ofrecen una descripción detallada sobre cómo los visitantes interactúan con el sitio web.
-seo-description: Las fuentes de tráfico ofrecen una descripción detallada sobre cómo los visitantes interactúan con el sitio web.
-seo-title: Informes de fuentes de tráfico
 solution: Analytics
 title: Informes de fuentes de tráfico
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
