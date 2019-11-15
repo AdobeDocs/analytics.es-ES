@@ -1,13 +1,11 @@
 ---
 description: Instancia de la vista del producto que se está configurando. Se produce cuando se ve una página con detalles de un producto. Este valor se obtiene a partir del evento prodView.
-seo-description: Instancia de la vista del producto que se está configurando. Se produce cuando se ve una página con detalles de un producto. Este valor se obtiene a partir del evento prodView.
-seo-title: Vistas del producto
 solution: Analytics
 title: Vistas del producto
-topic: Métricas
+topic: Metrics
 uuid: a9f2bbcd-e9ba-42d6-90c8-2fd4e6c9775b
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
