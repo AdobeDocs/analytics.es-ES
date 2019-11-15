@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Uso de la integración
 solution: Analytics
 title: Uso de la integración
 uuid: c902a868-20a7-42df-8a79-8e154608f299
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -44,12 +42,12 @@ Enumera las dimensiones de informes de Dynamic Signal que se incluyen en esta in
 | Dimensión | Descripción |
 |---|---|
 | Tipo de canal | La red social (o plataforma de blogueo) donde el usuario compartió una publicación comunitaria. Los usuarios pueden compartir una publicación en varios canales. Los clics y otras actividades se segmentan por canal. Este campo muestra Facebook, Twitter, etc. para que pueda ver qué tipo de canal genera actividad. |
-| ID del artículo | El ID del artículo identifica de forma exclusiva cada parte del contenido de la comunidad de Dynamic Signal. |
+| ID del artículo | El ID del artículo identifica de forma exclusiva cada fragmento de contenido de la comunidad de Dynamic Signal. |
 | Tipo de origen | Este campo indica si la publicación fue creada por un "Miembro" o por la "Marca". Tenga en cuenta que, en cualquier caso, el contenido se puede crear manualmente en la aplicación o importar desde una fuente externa. |
 | Nombre de usuario | El usuario que compartió una publicación en sus redes sociales, generando pulsaciones en el sitio. |
-| ID de origen | El ID de origen identifica exclusivamente al creador (o autor) de la publicación compartida. Normalmente, se trata de un miembro en particular o de una fuente externa. |
-| ID de usuario | El ID de usuario identifica exclusivamente a un usuario (es decir, un miembro) en la comunidad de Dynamic Signal. En este caso, el usuario es el que comparte la publicación en sus redes sociales. |
+| ID de origen | El ID de origen identifica de forma exclusiva al creador (o autor) de la publicación compartida. Normalmente, se trata de un miembro en particular o de una fuente externa. |
+| ID de usuario | El ID de usuario identifica de forma exclusiva a un usuario (es decir, un miembro) en la comunidad de Dynamic Signal. En este caso, el usuario es el que comparte la publicación en sus redes sociales. |
 | Nombre del origen | La fuente es el creador (o autor) de la publicación compartida. En la mayoría de los casos, se trata de un miembro de la comunidad o de una fuente externa. |
 | Título del artículo | Título de la publicación compartida que generó clics en el sitio. |
-| Nombre de comunidad | Nombre de la comunidad de señales dinámicas. |
+| Nombre de la comunidad | Nombre de la comunidad de señales dinámicas. |
 
