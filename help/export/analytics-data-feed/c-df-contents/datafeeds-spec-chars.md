@@ -1,15 +1,13 @@
 ---
 description: Información sobre los caracteres especiales que se utilizan en la fuente de datos.
-keywords: Fuente de datos;trabajo;caracteres especiales;hit_data;variables de varios valores;events_list;products_list;mvvars
-seo-description: Información sobre los caracteres especiales que se utilizan en la fuente de datos.
-seo-title: Caracteres especiales
+keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
-subtopic: fuentes de datos
+subtopic: data feeds
 title: Caracteres especiales
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
