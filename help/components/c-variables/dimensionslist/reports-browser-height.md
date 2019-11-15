@@ -1,13 +1,11 @@
 ---
 description: Se refiere a la distancia vertical de los datos únicamente en la ventana del explorador. Las barras de herramientas, los menús, los botones, etc., no son elementos de la dimensión de altura del explorador.
-seo-description: Se refiere a la distancia vertical de los datos únicamente en la ventana del explorador. Las barras de herramientas, los menús, los botones, etc., no son elementos de la dimensión de altura del explorador.
-seo-title: Altura del explorador
 solution: Analytics
 title: Altura del explorador
-topic: Informes
+topic: Reports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
