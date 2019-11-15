@@ -1,15 +1,13 @@
 ---
 description: El complemento APL (o appendList) permite anexar un valor a cualquier lista delimitada, con la opción de distinción de mayúsculas habilitada o deshabilitada para asegurarse de que el valor no exista en la lista. Hay varios complementos estándar que hacen referencia al complemento APL, pero puede utilizarse directamente en diversas situaciones.
-keywords: Implementación de Analytics
-seo-description: El complemento APL (o appendList) permite anexar un valor a cualquier lista delimitada, con la opción de distinción de mayúsculas habilitada o deshabilitada para asegurarse de que el valor no exista en la lista. Hay varios complementos estándar que hacen referencia al complemento APL, pero puede utilizarse directamente en diversas situaciones.
-seo-title: appendList
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Complementos
+subtopic: Plug-ins
 title: appendList
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
