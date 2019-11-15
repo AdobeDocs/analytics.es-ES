@@ -1,14 +1,12 @@
 ---
 description: En esta sección encontrará respuestas a preguntas comunes.
-seo-description: En esta sección encontrará respuestas a preguntas comunes.
-seo-title: Preguntas frecuentes sobre las fuentes de datos
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Preguntas frecuentes sobre las fuentes de datos
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
