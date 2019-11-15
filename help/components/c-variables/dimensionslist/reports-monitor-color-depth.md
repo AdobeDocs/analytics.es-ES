@@ -1,13 +1,11 @@
 ---
 description: Muestra datos sobre la intensidad de color que los visitantes del sitio web tienen configurada en sus ordenadores. La profundidad del color se refiere a la cantidad de colores que se pueden mostrar en la pantalla.
-seo-description: Muestra datos sobre la intensidad de color que los visitantes del sitio web tienen configurada en sus ordenadores. La profundidad del color se refiere a la cantidad de colores que se pueden mostrar en la pantalla.
-seo-title: Profundidad del color del monitor
 solution: Analytics
 title: Profundidad del color del monitor
-topic: 'Informes '
-uuid: 508 b 2 e 13-43 ae -463 d-bfca -7 dda 77807 aa 3
+topic: Reports
+uuid: 508b2e13-43ae-463d-bfca-7dda77807aa3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
