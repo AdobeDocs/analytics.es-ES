@@ -1,14 +1,12 @@
 ---
 description: Las ID de visitante se pueden importar seleccionando la categoría Fuente de datos genérica (ID de transacción).
-seo-description: Las ID de visitante se pueden importar seleccionando la categoría Fuente de datos genérica (ID de transacción).
-seo-title: Visitor ID
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Visitor ID
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
