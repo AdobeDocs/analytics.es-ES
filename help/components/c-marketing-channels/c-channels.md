@@ -1,14 +1,12 @@
 ---
 description: Agregue o habilite canales de mercadotecnia en el Administrador de canales de mercadotecnia. En los grupos de informes que no tengan canales de mercadotecnia, puede crear varios canales, junto con sus reglas, gracias a una configuración automática. Puede editar los canales predefinidos según sus necesidades o crear otros (hasta un total de 25).
-seo-description: Agregue o habilite canales de mercadotecnia en el Administrador de canales de mercadotecnia. En los grupos de informes que no tengan canales de mercadotecnia, puede crear varios canales, junto con sus reglas, gracias a una configuración automática. Puede editar los canales predefinidos según sus necesidades o crear otros (hasta un total de 25).
-seo-title: Administrar Canales de marketing
 solution: Analytics
-subtopic: Canales de mercadotecnia
+subtopic: Marketing channels
 title: Administrar Canales de marketing
-topic: Reports and Analytics
-uuid: 9d367bb6-a17b-49b8-9cd5-24face35ae982
+topic: Reports and analytics
+uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
