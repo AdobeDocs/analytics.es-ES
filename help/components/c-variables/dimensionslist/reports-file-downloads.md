@@ -1,13 +1,11 @@
 ---
 description: Descargas de archivos ayuda a conocer la frecuencia con la que los visitantes descargan archivos del sitio. Entre los ejemplos de descargas de archivos se pueden citar documentos de procesadores de textos, hojas de cálculo, archivos de audio, archivos de vídeo, manuales de usuario, etc. Esto incluye tanto archivos que se hayan guardado y abierto directamente desde el explorador, como archivos guardados en el equipo del usuario. El informe muestra el nombre del archivo descargado y la dirección URL completa necesaria para acceder al archivo.
-seo-description: Descargas de archivos ayuda a conocer la frecuencia con la que los visitantes descargan archivos del sitio. Entre los ejemplos de descargas de archivos se pueden citar documentos de procesadores de textos, hojas de cálculo, archivos de audio, archivos de vídeo, manuales de usuario, etc. Esto incluye tanto archivos que se hayan guardado y abierto directamente desde el explorador, como archivos guardados en el equipo del usuario. El informe muestra el nombre del archivo descargado y la dirección URL completa necesaria para acceder al archivo.
-seo-title: Descargas de archivos
 solution: Analytics
 title: Descargas de archivos
-topic: Informes
+topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
