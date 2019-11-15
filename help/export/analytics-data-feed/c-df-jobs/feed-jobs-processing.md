@@ -1,13 +1,11 @@
 ---
 description: Utilice la ficha Trabajos para ver los historiales de trabajos y administrarlos.
-keywords: Fuente de datos;trabajo;configurar
-seo-description: Utilice la ficha Trabajos para ver los historiales de trabajos y administrarlos.
-seo-title: Resumen de los trabajos de la fuente de datos
+keywords: Data Feed;job;configure
 solution: Analytics
 title: Resumen de los trabajos de la fuente de datos
 uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
