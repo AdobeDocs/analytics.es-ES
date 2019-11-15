@@ -97,4 +97,4 @@ Si se envía un archivo UTF-8 o ISO-8859-1 y el grupo de informes no está confi
 
 [!DNL /jokes/misc/snail_joke.html?userid=12345]
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765
+[!DNL /jokes/misc/snail_joke.html?userid=98765]
