@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: Conector de datos de ContactLab para Adobe Analytics
 solution: Analytics
 title: Conector de datos de ContactLab para Adobe Analytics
 uuid: 9e6ed7cd-dce1-4c00-9090-d4306202e3ea
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,14 +15,14 @@ La integración de ContactLab y Adobe Analytics permite a los clientes actuales 
 
 Esta integración sincroniza automáticamente las métricas de correo electrónico con Adobe Analytics para la mercadotecnia de bucle cerrado con la audiencia adecuada y con la máxima eficacia.
 
-## Principales ventajas y características{#key-benefits-and-features}
+## Ventajas y características principales{#key-benefits-and-features}
 
-Muestra las principales ventajas de la integración entre Adobe Analytics y ContactLab.
+Enumera las principales ventajas de la integración entre Adobe Analytics y ContactLab.
 
-* Consolide los datos de marketing y análisis de correo electrónico en una interfaz de informes.
+* Consolide los datos de análisis y mercadotecnia de correo electrónico en una interfaz de informes.
 * Proporcione informes de tráfico y conversión basados en los detalles de nivel de respuesta, pregunta y encuesta.
 * Optimizar las campañas de correo electrónico según la conversión y la contribución a los ingresos y al éxito del sitio.
-* Volver a comercializar a visitantes clave y segmentos de mercado según el abandono del carro de compras, las compras de productos, las vistas de productos (y mucho más), abarcando los datos actuales e históricos (hasta 90 días antes de la activación).
+* Volver a comercializar a visitantes clave y segmentos de mercado en base al abandono del carro de compras, las compras de productos, las vistas de productos (y mucho más), abarcando los datos actuales e históricos (hasta 90 días antes de la activación).
 
 ## Requisitos previos para los clientes de Adobe {#section-23ba9dd1a1774f3099a6764d3fadd4ef}
 
