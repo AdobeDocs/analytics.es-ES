@@ -1,18 +1,16 @@
 ---
 description: Pasos para desinstalar el Creador de informes de Adobe.
-seo-description: Pasos para desinstalar el Creador de informes de Adobe.
-seo-title: Desinstalación del Creador de informes
 solution: Analytics
-title: Desinstalación del Creador de informes
-topic: Creador de informes
-uuid: 3 fade 973-e 246-4 fcb-abc 1-0 aafddca 0536
+title: Desinstalación del Report Builder
+topic: Report builder
+uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Desinstalación del Creador de informes
+# Desinstalación del Report Builder
 
 Pasos para desinstalar el Creador de informes de Adobe.
 
@@ -24,5 +22,5 @@ Pasos para desinstalar el Creador de informes de Adobe.
 
    Si desea eliminar por completo todos los archivos y carpetas del directorio Archivos de programa, siga estos pasos después de desinstalar el Creador de informes.
 1. Click **[!UICONTROL Start]** &gt; **[!UICONTROL Computer]**.
-1. Navigate to [!DNL C:\Program Files\Adobe\]or, if on a 64-bit version of Windows, [!DNL C:\Program Files (x86)\Adobe.]
+1. Vaya a [!DNL C:\Program Files\Adobe\]o, si se encuentra en una versión de 64 bits de Windows, [!DNL C:\Program Files (x86)\Adobe.]
 1. Elimine la carpeta del Creador de informes en este directorio, si todavía está ahí.
