@@ -1,13 +1,11 @@
 ---
 description: Muestra tráfico de páginas web y clasifica las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
-seo-description: Muestra tráfico de páginas web y clasifica las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
-seo-title: Resumen de informes en tiempo real
 solution: Analytics
 title: Resumen de informes en tiempo real
-topic: Informes
+topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ Los informes en tiempo real muestran el tráfico de páginas web y clasifican la
 
 >[!NOTE]
 >
->El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
+> El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL Métricas]** del sitio &gt; Tiempo **[!UICONTROL real]**
 
@@ -57,4 +55,4 @@ Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Anal
 * Para el flujo en directo, los informes en tiempo real, las solicitudes de la API y todos los datos actuales para las variables de tráfico, solo se retrasan las visitas con un ID de datos suplementario.
 * Para los datos actuales en las métricas de conversión, los datos finalizados y las fuentes de datos, todas las visitas se retrasan de 5 a 7 minutos más.
 
-Tenga en cuenta que el aumento de latencia comienza después de implementar el servicio de identidad, aunque no haya implementado completamente esta integración.
+Tenga en cuenta que el aumento de la latencia se da después de implementar el Servicio de identidad, incluso aunque no haya implementado correctamente esta integración.
