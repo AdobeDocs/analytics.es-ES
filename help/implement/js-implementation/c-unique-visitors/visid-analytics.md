@@ -1,14 +1,12 @@
 ---
 description: Cuando un usuario visita el sitio, el servidor web de Adobe configura una cookie persistente incluyéndola en la respuesta HTTP al explorador. Esta cookie se configura en el dominio de recopilación de datos especificado.
-keywords: Implementación de Analytics
-seo-description: Cuando un usuario visita el sitio, el servidor web de Adobe configura una cookie persistente incluyéndola en la respuesta HTTP al explorador. Esta cookie se configura en el dominio de recopilación de datos especificado.
-seo-title: ID de visitante de Analytics
+keywords: Analytics Implementation
 solution: Analytics
 title: ID de visitante de Analytics
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
