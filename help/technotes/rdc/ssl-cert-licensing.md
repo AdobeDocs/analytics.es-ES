@@ -1,10 +1,8 @@
 ---
 title: Licencias de certificados SSL
-seo-title: Licencias de certificados SSL de Adobe Analytics
 description: null
-seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
