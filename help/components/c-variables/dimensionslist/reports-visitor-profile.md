@@ -1,13 +1,11 @@
 ---
 description: Informe que ayuda a observar los patrones de compras de los clientes en diferentes categorías de perfiles, como países, estados, códigos postales y dominios.
-seo-description: Informe que ayuda a observar los patrones de compras de los clientes en diferentes categorías de perfiles, como países, estados, códigos postales y dominios.
-seo-title: Perfil del visitante
 solution: Analytics
 title: Perfil del visitante
-topic: Informes
+topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -26,7 +24,7 @@ Informe que ayuda a observar los patrones de compras de los clientes en diferent
  <tbody> 
   <tr> 
    <td colname="col1"> Idiomas </td> 
-   <td colname="col2"> <p>  Muestra los idiomas preferidos de los visitantes, captura el idioma predeterminado del explorador y muestra los idiomas que los visitantes utilizan con más frecuencia en el sitio. </p> </td> 
+   <td colname="col2"> <p> Muestra los idiomas preferidos de los visitantes, captura el idioma predeterminado del explorador y muestra los idiomas que los visitantes utilizan con más frecuencia en el sitio. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dominios </td> 
