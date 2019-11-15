@@ -1,13 +1,11 @@
 ---
 description: Identifica el modo en el que algunos productos individuales y grupos de productos (categorías) contribuyen a las distintas métricas de conversión, como Ingresos o Cierres de compra.
-seo-description: Identifica el modo en el que algunos productos individuales y grupos de productos (categorías) contribuyen a las distintas métricas de conversión, como Ingresos o Cierres de compra.
-seo-title: Productos
 solution: Analytics
 title: Productos
-topic: Informes
+topic: Reports
 uuid: a081352b-601a-43be-83ad-fa7f69890b49
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
