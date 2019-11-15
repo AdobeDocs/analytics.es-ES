@@ -1,14 +1,12 @@
 ---
 description: Requisitos del sistema para Analysis Workspace.
 keywords: Analysis Workspace
-seo-description: Requisitos del sistema para Analysis Workspace.
-seo-title: Requisitos de administración
 solution: Analytics
 title: Requisitos de administración
-topic: Reports and Analytics
-uuid: 6c8bfea-0cf8-435d-a4d1-67e2cb55da4c
+topic: Reports and analytics
+uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
