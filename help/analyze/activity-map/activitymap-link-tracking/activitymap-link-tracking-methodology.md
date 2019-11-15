@@ -1,13 +1,11 @@
 ---
 description: Esta sección está dirigida a los administradores de Adobe Analytics. Explora los nuevos parámetros de seguimiento de vínculos. Explica cómo garantizan la exclusividad y coherencia de los vínculos en distintos exploradores y dispositivos, y de qué modo facilitar el cambio de posición de los vínculos en una página.
-seo-description: Esta sección está dirigida a los administradores de Adobe Analytics. Explora los nuevos parámetros de seguimiento de vínculos. Explica cómo garantizan la exclusividad y coherencia de los vínculos en distintos exploradores y dispositivos, y de qué modo facilitar el cambio de posición de los vínculos en una página.
-seo-title: Método de seguimiento de vínculos
 solution: Analytics
-title: Seguimiento de vínculos metodología
-topic: Activity Map
+title: Método de seguimiento de vínculos
+topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,14 +16,14 @@ Esta sección está dirigida a los administradores de Adobe Analytics. Explora l
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obtener más información sobre cómo Activity Map recopila datos PII, acceda [aquí](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Cualquier vínculo en el que el texto (no el href) pueda contener información de identificación personal (PII) debe implementarse de forma explícita mediante [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) o excluyendo la recopilación de vínculos de Activity Map con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obtener más información sobre cómo Activity Map recopila datos PII, acceda [aquí](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map basa el seguimiento de vínculos en estos dos ID:
 
 * ID principal: se trata del parámetro reconocible del vínculo.
 * Región del vínculo: es un parámetro secundario que permite a los usuarios indicar una cadena que representa el área global del vínculo en la página o región. Este parámetro se puede generar automáticamente si el usuario no lo proporciona.
 
-## ID principal {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## ID principal  {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
 Si el HTML tiene un s_objectid, el ID principal predeterminado pasará a ser s_objectid. Si no, se usarán los parámetros siguientes como ID principal (en este orden de prioridad):
 
@@ -35,7 +33,7 @@ Si el HTML tiene un s_objectid, el ID principal predeterminado pasará a ser s_o
 * Src (origen)
 * Action (acción)
 
-## Utilización de Innertext y de Acción de vínculo (URL) {#section_70C3573E22274522A8CC035BF18EC468}
+## Utilización de Innertext y de Acción de vínculo (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
 
 Acción de vínculo es la acción que efectúa la página web cuando se hace clic en el vínculo. Normalmente es la URL que se visita tras hacer clic en el vínculo. Al usar Acción de vínculo, pueden surgir los problemas siguientes:
 
@@ -50,7 +48,7 @@ Por eso, usamos Innertext, que aporta las ventajas siguientes respecto a Acción
 * No se ve afectado por el cambio de posición de un vínculo en la página.
 * Mejora la legibilidad, de modo que los usuarios pueden empezar a analizar los informes de seguimiento fuera de Activity Map.
 
-## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
+## Región del vínculo {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
 Este nuevo atributo permite a los usuarios especificar una cadena que representa la región de la página donde se encuentra el vínculo.
 
@@ -62,12 +60,12 @@ La utilización de la región del vínculo ofrece las siguientes ventajas:
 * Ayuda a distinguir los vínculos que tienen el mismo ID principal.
 * La tendencia de una región se ve menos afectada por el aspecto dinámico de la página web.
 * Los usuarios pueden ver los vínculos de mayor rendimiento que hay en una región. Si tenemos Región como anclaje, podemos mostrar superposiciones de vínculos que no estén visibles en ese momento en la página (Ajax, targeting).
-* Una región puede reemplazar páginas, ya que una región determinada se puede usar en muchas páginas web. Ayuda a responder preguntas como: "¿La región "Oferta de productos" tiene el mejor rendimiento en la página de aterrizaje de la mujer o de los hombres?
+* Una región puede reemplazar páginas, ya que una región determinada se puede usar en muchas páginas web. Ayuda a responder a preguntas como: ¿La región “Oferta de productos” ofrece mejores resultados en la página de aterrizaje de mujeres o de hombres?
 * La dimensión de región es importante para analizar páginas web muy dinámicas. Esto se debe a que elimina el ruido provocado por los cambios continuos en los vínculos: la región “Últimas noticias” de la página de aterrizaje de la CNN puede tener muchos vínculos que cambian. Pero la región siempre estará ahí. Por eso puede ser interesante definir tendencias en el nivel de región a lo largo de varios días.
 
 **Seguimiento de regiones personalizado**
 
-Puede personalizar el parámetro de región para un vínculo (el predeterminado es el ID del vínculo): una etiqueta definida en “ID” usará todos los elementos HTML con un parámetro “id” como región. Por lo tanto, si se establece la etiqueta Región en "id", es muy probable que se devuelvan muchas regiones distintas (siempre que haya "ID" diferentes en la página). Asimismo, si quiere una implementación más personalizada, puede establecer la etiqueta de región en otro valor más específico, como “region_id”.
+Puede personalizar el parámetro de región para un vínculo (el predeterminado es el ID del vínculo): una etiqueta definida en “ID” usará todos los elementos HTML con un parámetro “id” como región. Por este motivo, al definir la etiqueta Región en “id”, lo más probable es que se devuelvan muchas regiones diferentes (tantas como “ID” distintos haya en la página). Asimismo, si quiere una implementación más personalizada, puede establecer la etiqueta de región en otro valor más específico, como “region_id”.
 
 A continuación, puede ver un fragmento de HTML de muestra donde se usa el atributo de ID de región predeterminado: “id”.
 
