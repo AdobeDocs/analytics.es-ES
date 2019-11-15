@@ -1,13 +1,11 @@
 ---
 description: Pasos administrativos para configurar informes en tiempo real.
-seo-description: Pasos administrativos para configurar informes en tiempo real.
-seo-title: Configurar informes en tiempo real
 solution: Analytics
 title: Configurar informes en tiempo real
-topic: Herramientas de administración
+topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -45,7 +43,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    >[!NOTE]
    >
-   >Para un solo informe en tiempo real, actualmente no se admiten dimensiones duplicadas, aunque se seleccione una clasificación diferente para cada dimensión.
+   >Para un solo informe en tiempo real, actualmente no se admiten dimensiones duplicadas, aunque se haya seleccionado una clasificación diferente para cada dimensión.
 
    Para obtener más información sobre las clasificaciones, consulte [Acerca de las clasificaciones](/help/components/c-classifications2/c-classifications.md).
 
