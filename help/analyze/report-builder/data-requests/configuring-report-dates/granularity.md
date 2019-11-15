@@ -1,13 +1,11 @@
 ---
 description: En el paso 1 del Asistente para solicitudes, puede aplicar un nivel de granularidad a la solicitud de datos. La granularidad especifica el nivel de detalle basado en el tiempo que se incluye en el informe.
-seo-description: En el paso 1 del Asistente para solicitudes, puede aplicar un nivel de granularidad a la solicitud de datos. La granularidad especifica el nivel de detalle basado en el tiempo que se incluye en el informe.
-seo-title: Granularidad
 solution: Analytics
 title: Granularidad
-topic: Creador de informes
+topic: Report builder
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
