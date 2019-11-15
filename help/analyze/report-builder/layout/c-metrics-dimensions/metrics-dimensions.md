@@ -1,13 +1,11 @@
 ---
 description: Puede agregar métricas y dimensiones al paso 2 del Asistente para solicitudes para definir el diseño de Analytics de los datos en la solicitud. La lista de métricas y dimensiones del Creador de informes es similar al diseño de menú mostrado en Informes y análisis.
-seo-description: Puede agregar métricas y dimensiones al paso 2 del Asistente para solicitudes para definir el diseño de Analytics de los datos en la solicitud. La lista de métricas y dimensiones del Creador de informes es similar al diseño de menú mostrado en Informes y análisis.
-seo-title: Resumen de métricas y dimensiones
 solution: Analytics
 title: Resumen de métricas y dimensiones
-topic: Creador de informes
+topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
