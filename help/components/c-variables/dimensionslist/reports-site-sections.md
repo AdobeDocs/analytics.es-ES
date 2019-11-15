@@ -1,13 +1,11 @@
 ---
 description: Muestra las secciones del sitio más visitadas. Las secciones del sitio pueden incluir grupos de productos, similares a categorías, definidas por el usuario. Por ejemplo, puede tener un grupo de páginas Cámaras, un grupo Equipos, etc. Los datos para el informe de secciones del sitio con conversión se importan desde el informe de secciones del sitio al grupo Tráfico, el cual recibe la información desde la variable de canal en el código de seguimiento. Puede utilizar este informe para identificar el mayor impacto en las estadísticas del sitio correspondiente a los artículos de las diversas secciones del sitio.
-seo-description: Muestra las secciones del sitio más visitadas. Las secciones del sitio pueden incluir grupos de productos, similares a categorías, definidas por el usuario. Por ejemplo, puede tener un grupo de páginas Cámaras, un grupo Equipos, etc. Los datos para el informe de secciones del sitio con conversión se importan desde el informe de secciones del sitio al grupo Tráfico, el cual recibe la información desde la variable de canal en el código de seguimiento. Puede utilizar este informe para identificar el mayor impacto en las estadísticas del sitio correspondiente a los artículos de las diversas secciones del sitio.
-seo-title: Secciones del sitio
 solution: Analytics
 title: Secciones del sitio
-topic: Informes
+topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
