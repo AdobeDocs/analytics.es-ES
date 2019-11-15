@@ -1,11 +1,9 @@
 ---
 description: En función de sus permisos, puede compartir métricas con toda su organización, con grupos o con usuarios individuales.
-seo-description: En función de sus permisos, puede compartir métricas con toda su organización, con grupos o con usuarios individuales.
-seo-title: Compartir métricas calculadas
 title: Compartir métricas calculadas
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
