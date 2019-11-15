@@ -1,14 +1,12 @@
 ---
 description: Utilice Dynamic Tag Management para agregar código de encabezado y pie de página que determine la carga de JavaScript y contenido de la página en su sitio. Debe instalar el código de Encabezado y Pie de página en cada una de las páginas del sitio, independientemente de la opción de alojamiento que utilice.
-keywords: Implementación de Analytics;método de implementación;Dynamic Tag Management;dtm;código;código de página;código de encabezado;código de pie de página;incrustar código;pestaña insertar;insertar;incrustar
-seo-description: Utilice Dynamic Tag Management para agregar código de encabezado y pie de página que determine la carga de JavaScript y contenido de la página en su sitio. Debe instalar el código de Encabezado y Pie de página en cada una de las páginas del sitio, independientemente de la opción de alojamiento que utilice.
-seo-title: Adición de código de Encabezado y Pie de página
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
 solution: Analytics
 title: Adición de código de Encabezado y Pie de página
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
