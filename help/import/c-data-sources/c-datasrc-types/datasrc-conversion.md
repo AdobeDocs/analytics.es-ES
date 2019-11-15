@@ -1,14 +1,12 @@
 ---
 description: El sistema de fuentes de datos admite las siguientes dimensiones y métricas para los tipos de datos que se procesan como conversiones.
-seo-description: El sistema de fuentes de datos admite las siguientes dimensiones y métricas para los tipos de datos que se procesan como conversiones.
-seo-title: Conversión
 solution: Analytics
-subtopic: Fuentes de datos
+subtopic: Data sources
 title: Conversión
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
