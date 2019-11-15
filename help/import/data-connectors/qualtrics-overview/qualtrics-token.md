@@ -1,19 +1,17 @@
 ---
 description: Se requiere un token para completar el asistente de integración. Para buscar este ID, complete lo siguiente.
-seo-description: Se requiere un token para completar el asistente de integración. Para buscar este ID, complete lo siguiente.
-seo-title: Generación del token de Qualtrics Adobe Analytics
 solution: Analytics
 subtopic: Qualtrics
-title: Generación del token de Qualtrics Adobe Analytics
-topic: Data Connectors
+title: Generación del token de Qualtrics de Adobe Analytics
+topic: Data connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Generación del token de Qualtrics Adobe Analytics{#generating-your-qualtrics-adobe-analytics-token}
+# Generación del token de Qualtrics de Adobe Analytics{#generating-your-qualtrics-adobe-analytics-token}
 
 Se requiere un token para completar el asistente de integración. Para buscar este ID, complete lo siguiente.
 
@@ -32,5 +30,5 @@ Se requiere un token para completar el asistente de integración. Para buscar es
 
    >[!NOTE]
    >
-   >Si no ve la opción de generar un testigo de Adobe Analytics, póngase en contacto con el administrador de cuentas de Qualtrics para habilitar los permisos adecuados para su cuenta.
+   >Si no ve la opción de generar un testigo de Adobe Analytics, póngase en contacto con el administrador de su cuenta de Qualtrics para habilitar los permisos adecuados para su cuenta.
 
