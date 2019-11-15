@@ -1,13 +1,11 @@
 ---
 description: Muestra información sobre los lugares de Internet que conducen el tráfico a su sitio. Puede ver los motores de búsqueda y los sitios web, fuera del dominio, que le envían visitantes.
-seo-description: Muestra información sobre los lugares de Internet que conducen el tráfico a su sitio. Puede ver los motores de búsqueda y los sitios web, fuera del dominio, que le envían visitantes.
-seo-title: Fuentes de tráfico
 solution: Analytics
 title: Fuentes de tráfico
-topic: Informes
+topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
