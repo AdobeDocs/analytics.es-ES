@@ -1,13 +1,11 @@
 ---
 description: Métricas que hacen referencia a la distancia horizontal o vertical de los datos únicamente en la ventana del navegador. Más específicamente, el navegador
-seo-description: Métricas que hacen referencia a la distancia horizontal o vertical de los datos únicamente en la ventana del navegador. Más específicamente, el navegador
-seo-title: Anchura y altura del navegador
 solution: Analytics
 title: Anchura y altura del navegador
-topic: Métricas
+topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
