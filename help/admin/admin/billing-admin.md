@@ -1,13 +1,11 @@
 ---
 description: La página Facturación permite acceder a la información de facturación, que contiene los detalles de tráfico correspondientes a cada grupo de informes. Solo los administradores autorizados tienen acceso a esta página.
-seo-description: La página Facturación permite acceder a la información de facturación, que contiene los detalles de tráfico correspondientes a cada grupo de informes. Solo los administradores autorizados tienen acceso a esta página.
-seo-title: Facturación
 solution: Analytics
 title: Facturación
-topic: Herramientas de administración
+topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,7 +30,7 @@ El informe de [!UICONTROL facturación mensual] resultante incluirá la siguient
 
 | Columna | Descripción |
 |--- |--- |
-| Grupo de informes | El grupo de informes asociado a la actividad de recopilación de datos. |
+| Report Suite | El grupo de informes asociado a la actividad de recopilación de datos. |
 | Ubicación | El centro de datos que almacena datos de grupos de informes: San José (California), Dallas (Texas), Noroeste del Pacífico (Estados Unidos), Londres (Reino Unido) o Singapur. En la mayoría de los casos, todos los grupos de informes de la empresa están ubicados en el mismo centro de datos. |
 | Llamadas primarias al servidor | Solicitudes recibidas directamente desde los exploradores de los visitantes del sitio web o la API de inserción de datos. Incluye Visitas individuales primarias (Vistas de página), Eventos personalizados primarios, Eventos de descarga primarios y Eventos de salida primarios. |
 | Llamadas secundarias al servidor | Copias de las llamadas al servidor primarias creadas mediante etiquetas de conjuntos múltiples, o copiadas o movidas a través de una regla de VISTA.  Si una regla de VISTA ha movido (no copiado) a otro grupo de informes una llamada secundaria al servidor, la página Facturación indica esta transferencia con un número negativo. En ese caso, la suma de las llamadas secundarias se resta de las llamadas primarias al servidor. |
