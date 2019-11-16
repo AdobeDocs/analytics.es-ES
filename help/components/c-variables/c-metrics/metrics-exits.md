@@ -1,13 +1,11 @@
 ---
 description: El número de veces que un valor determinado se captura como el último de una visita. Las salidas solo tienen lugar una vez por visita.
-seo-description: El número de veces que un valor determinado se captura como el último de una visita. Las salidas solo tienen lugar una vez por visita.
-seo-title: Salidas
 solution: Analytics
 title: Salidas
-topic: Métricas
+topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
