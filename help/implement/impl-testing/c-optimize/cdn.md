@@ -1,15 +1,13 @@
 ---
 description: Los servicios de envío de contenido o las redes de distribución de contenido (CDN), como Akamai y Speedera, llevan el contenido más cerca del límite de la red y mantienen los documentos que se solicitan con más frecuencia cerca del lugar desde el que se accede a ellos.
-keywords: Implementación de Analytics
-seo-description: Los servicios de envío de contenido o las redes de distribución de contenido (CDN), como Akamai y Speedera, llevan el contenido más cerca del límite de la red y mantienen los documentos que se solicitan con más frecuencia cerca del lugar desde el que se accede a ellos.
-seo-title: Redes y servicios de envío de contenido
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: Resolución de problemas
+subtopic: Troubleshooting
 title: Redes y servicios de envío de contenido
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 6cb57c59-d0f9-4ca5-9f15-0e74e585a4a1
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
