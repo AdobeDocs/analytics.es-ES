@@ -1,13 +1,11 @@
 ---
 description: Al habilitar la administración de móviles se activan las variables de soluciones móviles, que capturan el ciclo de vida y otras métricas de aplicaciones móviles.
-seo-description: Al habilitar la administración de móviles se activan las variables de soluciones móviles, que capturan el ciclo de vida y otras métricas de aplicaciones móviles.
-seo-title: Administración de móviles
 solution: Analytics
 title: Administración de móviles
-topic: Herramientas de administración
+topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
