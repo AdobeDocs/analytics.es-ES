@@ -1,13 +1,11 @@
 ---
 description: Cargue un libro de Excel del Creador de informes que desee compartir.
-seo-description: Cargue un libro de Excel del Creador de informes que desee compartir.
-seo-title: Cargar un libro
 solution: Analytics
 title: Cargar un libro
-topic: Creador de informes
+topic: Report builder
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
