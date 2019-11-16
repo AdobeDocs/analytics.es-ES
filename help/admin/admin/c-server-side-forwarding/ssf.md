@@ -1,12 +1,10 @@
 ---
 description: El reenvío del lado del servidor se diseñó para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de Experience Cloud. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud, y a dichas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
-seo-description: El reenvío del lado del servidor se diseñó para los clientes que desean compartir en tiempo real datos de Analytics con otras soluciones de Experience Cloud. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud, y a dichas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
-seo-title: Resumen del reenvío del lado del servidor
 solution: Audience Manager
 title: Resumen del reenvío del lado del servidor
-uuid: 22dbde5-6805-4eba-8f82-62772644dcaa
+uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -30,7 +28,7 @@ El reenvío del lado del servidor mejora la recopilación de datos porque:
 
 Para comprender la posición de su organización en cuanto a la implementación del reenvío del lado del servidor, siga estos pasos de validación:
 
-## ![step1_icon.png image](assets/step1_icon.png) Verificar implementación del servicio MID
+## ![step1_icon.png image](assets/step1_icon.png) Comprobación de la implementación del servicio MID
 
 Compruebe si el servicio Experience Cloud ID (MID) está implementado. Para ello, consulte la [solicitud de seguimiento de Analytics](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html).
 
