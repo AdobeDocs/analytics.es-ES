@@ -1,14 +1,12 @@
 ---
 description: Información general sobre los pasos necesarios para planificar la implementación de grupos de informes virtuales.
-keywords: Grupo de informes virtuales
-seo-description: Información general sobre los pasos necesarios para planificar la implementación de grupos de informes virtuales.
-seo-title: Flujo de trabajo del grupo de informes virtuales
+keywords: Virtual Report Suite
 solution: Analytics
 title: Flujo de trabajo del grupo de informes virtuales
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
