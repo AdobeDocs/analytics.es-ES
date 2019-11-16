@@ -1,17 +1,17 @@
 ---
-description: Los grupos de informes virtuales se pueden utilizar para reemplazar el etiquetado de grupos múltiples. Por ejemplo, en lugar de enviar datos a dos grupos de informes separados, puede enviar datos a uno y utilizar los grupos de informes virtuales para limitar la cantidad de datos a la que tienen acceso los usuarios. Sin embargo, el acceso a los datos es solo una de las razones por las que puede ser beneficiosa la separación de los grupos de informes. Observe detenidamente los siguientes casos de uso antes de realizar cambios de implementación relacionados con los grupos de informes virtuales.
-keywords: Virtual Report Suite
+description: Los grupos de informes virtuales y el etiquetado de grupos múltiples tienen diferentes ventajas. Aprenda cuál es mejor para su organización.
+keywords: Virtual Report Suite,VRS
 solution: Analytics
-title: Información importante sobre el etiquetado de grupos múltiples y globales
-topic: Reports and analytics
+title: Grupos de informes virtuales y consideraciones de etiquetado de grupos múltiples
+topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: a835e5f4d7569532f220dc3d59f88ee7468a909e
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
 
-# Información importante sobre el etiquetado de grupos múltiples y globales
+# Grupos de informes virtuales y consideraciones de etiquetado de grupos múltiples
 
 Los grupos de informes virtuales (VRS) le permiten ver datos de un grupo de informes que recopila datos de sus propiedades digitales, pero con un segmento aplicado de manera permanente.
 
