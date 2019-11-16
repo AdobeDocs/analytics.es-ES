@@ -2,7 +2,7 @@
 title: Grupos de informes globales en Adobe Analytics
 description: Comprender las ventajas y los requisitos para utilizar un grupo de informes globales.
 translation-type: tm+mt
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+source-git-commit: d7c4412feb85f4381d8811b29fc23c9c85d23555
 
 ---
 
@@ -19,6 +19,9 @@ Adobe recomienda implementar un grupo de informes globales en la mayoría de los
 * **** Compatibilidad con Analytics entre dispositivos: CDA requiere un grupo de informes que recopila datos de varios lugares, como su sitio web y su aplicación móvil. Los dispositivos independientes pueden unir los datos si se implementan correctamente. Consulte Análisis [entre dispositivos](../../components/cda/cda-home.md) en la guía del usuario Componentes para obtener más información.
 * **** No se necesita más de un grupo de informes: Todos los datos se pueden recopilar en un solo grupo de informes, por lo que es menos probable que un programador envíe datos erróneamente al grupo de informes incorrecto.
 * **** No es necesario realizar resúmenes: Los resúmenes son una característica bastante antigua que agrega datos de grupos de informes individuales diariamente. Los resúmenes no anulan la duplicación de datos de visitas o visitantes, lo que puede provocar un aumento de los números. Consulte [Resúmenes](../../admin/c-manage-report-suites/rollup-report-suite.md) en la guía del usuario de administración para obtener más información.
+* **** Ahorre tiempo: Los proyectos, las clasificaciones, los segmentos y las métricas calculadas del espacio de trabajo están vinculados al mismo grupo de informes globales. Los administradores invierten menos tiempo en administrar estos componentes y la administración de datos.
+* **** Atribución más precisa entre marcas: Si una visita comienza en un sitio y luego hace clic en otro antes de activar un evento de éxito, la atribución se recopila con precisión. Por ejemplo: un visitante hace clic en un vínculo de búsqueda paga y aterriza en el sitio A. Luego hacen clic en un vínculo al sitio B y luego realizan una compra. Un grupo de informes globales atribuye correctamente la compra a la búsqueda paga.
+* **** Implementación simplificada: Dado que todas las marcas y sitios envían datos al mismo grupo de informes, las implementaciones de cada sitio están alineadas. Este control obligatorio garantiza que una dimensión o métrica específica se guarde en la misma eVar o evento. Esta simplificación beneficia a administradores, probadores, propietarios de administración de etiquetas y analistas.
 
 > [!NOTE] Coordinar la implementación de un grupo de informes globales es un proyecto grande. Adobe recomienda trabajar con un consultor para reducir las complicaciones y los problemas que surgen.
 
@@ -32,13 +35,14 @@ Utilice las siguientes directrices generales para comprender el proceso de imple
    > [!IMPORTANT] Asegúrese de que cualquier variable personalizada dada se utilice de manera similar en los distintos dominios. No utilice la misma eVar o evento para distintos fines en los distintos sitios.
 4. Asegúrese de que cada dominio tenga una capa de datos para simplificar la recopilación de datos. Los datos se pueden recopilar sin una capa de datos, pero la fiabilidad y la longevidad de la implementación disminuyen, especialmente a medida que el sitio pasa por rediseños.
 5. Utilice Adobe Experience Platform Launch para implementar Analytics. Es probable que distintos sitios requieran diferentes elementos de datos. Utilice reglas específicas de cada dominio para asegurarse de que cada elemento de datos se rellena correctamente y, a continuación, asigne esos elementos de datos a sus eVars y eventos respectivos. Consulte Información general sobre [el lanzamiento](https://docs.adobe.com/content/help/en/launch/using/overview.html) en la guía del usuario de Adobe Experience Platform Launch.
+6. Incluya el servicio [de ID de](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience Cloud y utilice la [función appendVisitorIDsTo](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/appendvisitorid.html) . Esta función combina datos de visitantes cuando los usuarios hacen clic de un dominio a otro.
 
 ## Modificación de una implementación existente con un grupo de informes global
 
 El proceso de mover una implementación existente en varios sitios a un único grupo de informes globales requiere más tiempo y coordinación entre los equipos de su organización.
 
 1. Determine si desea utilizar uno de los grupos de informes existentes o empezar a utilizarlo de nuevo con un nuevo grupo de informes. Si desea cambiar los usos de las variables existentes en la implementación, se recomienda comenzar con un nuevo grupo de informes.
-2. Determinar una fecha de corte para el momento en que desee realizar el cambio a un grupo de informes globales. El mejor momento para realizar un recorte es entre dos períodos de informes significativos, como un trimestre fiscal o un año.
+2. Determinar una fecha de corte para el momento en que desee realizar el cambio a un grupo de informes globales. El mejor momento para realizar un corte es entre dos períodos de informes significativos o junto con los cambios más importantes en el sitio. Algunos ejemplos son el inicio de un trimestre o año fiscal, durante una actualización del sitio o el cambio a un nuevo sistema de administración de etiquetas.
 3. Siga los pasos anteriores (cree un grupo de informes, recopile los requisitos de informes en un documento de diseño de solución y establezca una capa de datos en cada sitio). Al implementar Launch, valide la implementación con una versión de desarrollo del sitio web.
 4. Una vez que haya confirmado que la implementación está funcionando en dev, envíe la implementación de Launch a la fecha de cambio.
 
