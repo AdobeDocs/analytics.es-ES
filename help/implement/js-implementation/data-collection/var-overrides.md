@@ -1,15 +1,13 @@
 ---
 description: Las anulaciones de variables permiten cambiar el valor de una variable para un único seguimiento o una sola llamada de seguimiento de vínculos.
-keywords: Implementación de Analytics
-seo-description: Las anulaciones de variables permiten cambiar el valor de una variable para un único seguimiento o una sola llamada de seguimiento de vínculos.
-seo-title: Anulaciones de variables
+keywords: Analytics Implementation
 solution: Analytics
 subtopic: Variables
 title: Anulaciones de variables
-topic: Desarrollador e implementación
+topic: Developer and implementation
 uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
