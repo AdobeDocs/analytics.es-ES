@@ -2,9 +2,9 @@
 description: Adobe Analytics ofrece varias métricas y dimensiones de Tiempo empleado. Averigüe qué son y cómo se calculan.
 solution: Analytics
 title: Tiempo empleado
-topic: Métricas
+topic: Metrics
 translation-type: tm+mt
-source-git-commit: ee9a6462138fe3483ca8a4ba042cb4eb39536031
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -21,7 +21,7 @@ Al ver las métricas de tiempo empleado, tenga en cuenta lo siguiente:
 
 * El tiempo empleado tiene en cuenta la asignación y la caducidad.
 * Las vistas de página y los tipos de visitas de seguimiento de vínculos se tienen en cuenta al calcular el tiempo empleado en datos.
-* El tiempo empleado no se mide durante la última visita individual de la visita, ya que no hay ninguna solicitud de imagen posterior para medir el tiempo transcurrido.
+* El tiempo empleado no se mide durante la última visita individual de la visita, ya que no hay ninguna solicitud de imagen subsiguiente para medir el tiempo transcurrido.
 * Las devoluciones no pueden medir el tiempo empleado, ya que la visita consiste en una sola visita.
 
 ## Segundos totales empleados
@@ -38,8 +38,10 @@ Cantidad promedio de tiempo que los visitantes interactúan con un valor de dime
 
 ## Tiempo promedio empleado en el sitio (segundos)
 
-Cantidad promedio de tiempo invertido en el sitio con el valor de dimensión dado. Esta métrica suele estar emparejada con una dimensión de fecha para mostrar el tiempo empleado a lo largo del tiempo. Su cálculo aproximado es `Total seconds spent / (Sequences - Bounces)`. Las secuencias son una serie de visitas individuales en las que el valor de la dimensión no ha cambiado. En la mayoría de los casos, utilice el tiempo empleado por visita en su lugar.
+Cantidad promedio de tiempo invertido en el sitio, generalmente asociado a una dimensión de fecha. Aunque esta métrica generalmente muestra las tendencias del tiempo empleado con el paso del tiempo, también puede utilizarse con dimensiones como cálculo alternativo al Tiempo empleado por visita. Su cálculo aproximado es `Total seconds spent / (Sequences - Bounces)`. Las secuencias son una serie de visitas individuales en las que el valor de la dimensión no ha cambiado.
+
+> [!NOTE] El tiempo empleado por visita y el tiempo promedio empleado en el sitio son métricas similares. La diferencia entre estas dos métricas es su denominador; el tiempo empleado por visita utiliza `visits - bounces`, mientras que el tiempo promedio empleado en el sitio utiliza `sequences - bounces`. En el nivel de visita, estas métricas parecen similares, pero pueden tener algunas diferencias en el nivel de visita individual.
 
 ## Tiempo promedio empleado en la página
 
-Solo disponible en el Creador de informes. En la mayoría de los casos, utilice el tiempo empleado por visita en su lugar.
+Solo está disponible en el Creador de informes. En la mayoría de los casos, utilice el tiempo empleado por visita en su lugar.
