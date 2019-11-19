@@ -6,7 +6,7 @@ title: Funcionamiento de las fuentes de datos
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -32,4 +32,4 @@ Los informes de marketing permiten crear y administrar fuentes de datos para car
 
 Adobe ofrece una API específica que permite vincular mediante programación cualquier aplicación con el sistema de fuentes de datos. Esto elimina la necesidad de usar un servidor FTP intermedio, y las transferencias de datos pasan a realizarse por HTTP, SOAP y REST.
 
-Consulte la [documentación de API de fuentes de datos](https://marketing.adobe.com/developer/documentation/data-sources/c-data-sources-api).
+Consulte la [documentación de API de fuentes de datos](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api).
