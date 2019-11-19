@@ -2,9 +2,9 @@
 description: Muestra la cantidad de tiempo que los visitantes emplearon en la página.
 solution: Analytics
 title: Tiempo invertido en la página
-topic: Informes
+topic: Reports
 translation-type: tm+mt
-source-git-commit: 77eac41cdcfe0ad71ffe81525f6de4dc6b2b48d4
+source-git-commit: df64b85f2567df68d2f710762596e4960214a4f6
 
 ---
 
@@ -21,7 +21,7 @@ Cuando visualice datos de dimensiones de tiempo empleado, tenga en cuenta lo sig
 
 * El tiempo empleado tiene en cuenta la asignación y la caducidad.
 * Las vistas de página y los tipos de visitas de seguimiento de vínculos se tienen en cuenta al calcular el tiempo empleado en datos.
-* El tiempo empleado no se mide durante la última visita individual de la visita, ya que no hay ninguna solicitud de imagen posterior para medir el tiempo transcurrido.
+* El tiempo empleado no se mide durante la última visita individual de la visita, ya que no hay ninguna solicitud de imagen subsiguiente para medir el tiempo transcurrido.
 * Las devoluciones no pueden medir el tiempo empleado, ya que la visita consiste en una sola visita.
 
 El tiempo empleado en la página mide el tiempo transcurrido entre las visitas individuales de una visita. Existen dimensiones independientes entre **granular** y **agrupado**.
@@ -40,4 +40,4 @@ El tiempo empleado en la página mide el tiempo transcurrido entre las visitas i
 
 Esta dimensión se basa en visitas individuales, que si se utiliza como desglose pueden proporcionar datos más significativos. Compare esta dimensión con el [tiempo empleado por visita](reports-time-spent-per-visit.md), que es una dimensión basada en visitas.
 
-![Tiempo empleado](assets/time-spent1.png)
+![Tiempo empleado](/help/components/c-variables/c-metrics/assets/time-spent1.png)
