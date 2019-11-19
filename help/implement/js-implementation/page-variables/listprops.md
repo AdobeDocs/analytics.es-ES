@@ -7,7 +7,7 @@ title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -25,17 +25,17 @@ list_props.xml
 
 **Consideraciones**
 
-* Las props de lista solo se activan en variables de tráfico ( [props](/help/implement/js-implementation/c-variables/page-variables.md)).
+* Las props de lista solo se activan en variables de tráfico ( [props](/help/implement/js-implementation/page-variables/propn.md)).
 * No se puede habilitar el control de rutas ni las correlaciones para las props de lista.
 * Analytics proporciona visitas y visitantes únicos prácticamente en todos los informes, incluidos los informes de props de lista.
 * Las clasificaciones son compatibles con las props de lista.
-* Cualquier variable de tráfico personalizado puede convertirse en una prop de lista. (Excepciones: [pageName](/help/implement/js-implementation/c-variables/page-variables.md), [channel](/help/implement/js-implementation/c-variables/page-variables.md) y [server](/help/implement/js-implementation/c-variables/page-variables.md)).
+* Cualquier variable de tráfico personalizado puede convertirse en una prop de lista. (Excepciones: [pageName](/help/implement/js-implementation/page-variables/pagename.md), [channel](/help/implement/js-implementation/page-variables/channel.md) y [server](/help/implement/js-implementation/page-variables/server.md)).
 
 * Cuando se definen valores duplicados en la misma solicitud de página, no se anula la duplicación de instancias.
 
 Una prop puede cambiarse a una prop de lista en la página Herramientas de administración &gt; Grupo de informes &gt; Variables de tráfico al habilitar la compatibilidad de lista y luego seleccionar un delimitador. Los delimitadores habituales son: dos puntos, punto y coma, coma o barra vertical. Técnicamente puede ser cualquiera de los primeros 127 caracteres ASCII.
 
-**Ejemplos de implementación** {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
+**Ejemplos de implementación**
 
 Cuando solicite la activación de props de lista, indique el delimitador que desea usar. Después de que la *`s.prop`* que elija se active, se pueden configurar múltiples valores en la variable tal como se muestra en los ejemplos siguientes:
 
