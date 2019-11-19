@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 6aafcddb0fb08d642de8020c656e59a7f2a670aa
+source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 ---
 
@@ -150,7 +150,8 @@ source-git-commit: 6aafcddb0fb08d642de8020c656e59a7f2a670aa
          + [s.linkObject](js-implementation/c-variables/config-vars/s-linkobject.md)
       + [Variables de datos de contexto](js-implementation/c-variables/context-data-variables.md)
       + [Variables dinámicas](js-implementation/c-variables/dynvars-overview.md)
-      + [Variables de página] {#page-variables}
+      + Variables de página {#page-variables}
+         + [Información general sobre las variables de página](js-implementation/page-variables/page-variables.md)
          + [browserHeight](js-implementation/page-variables/browserheight.md)
          + [browserWidth](js-implementation/page-variables/browserwidth.md)
          + [campaign](js-implementation/page-variables/campaign.md)
