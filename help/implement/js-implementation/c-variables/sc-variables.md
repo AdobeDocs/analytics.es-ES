@@ -7,7 +7,7 @@ title: Resumen de las variables
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analytics proporciona varias variables para recopilar los datos que necesita. Por ejemplo, el valor de la variable pageName es el nombre de la página web para la que se crea el informe. En esta sección se describen las variables que admite AppMeasurement.
 
-Para obtener más información sobre las variables de página, vaya [aquí](/help/implement/js-implementation/c-variables/page-variables.md).
+Para obtener más información sobre las variables de página, vaya [aquí](/help/implement/js-implementation/page-variables/page-variables.md).
 Para obtener más información sobre las variables de configuración, vaya [aquí](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
-## Cómo establecer variables {#section_E52CF9E8FDF74164A1511E0D9D31884D}
+## Cómo establecer variables
 
 AppMeasurement requiere que todas las variables de configuración estén establecidas antes de la llamada inicial a la función de seguimiento, *`t()`*. Si las variables de configuración se configuran después de la llamada a *`t()`*, pueden producirse resultados inesperados.
 
