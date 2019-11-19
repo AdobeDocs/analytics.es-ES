@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Referentes y campañas
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
 
@@ -26,11 +26,11 @@ Descripciones de los campos de [!UICONTROL Dynamic Tag Management] para opciones
  <tbody> 
   <tr> 
    <td colname="col1"> Anulación de referente </td> 
-   <td colname="col2"> <p>Anula el valor configurado en la variable La variable <span class="varname">s.referrer</span>, que suele completar el referente configurado en el explorador. </p> <p>Consulte <a href="/help/implement/js-implementation/c-variables/page-variables.md">Variables de página</a>. </p> </td> 
+   <td colname="col2"> <p>Anula el valor configurado en la variable La variable <span class="varname">s.referrer</span>, que suele completar el referente configurado en el explorador. </p> <p>Consulte <a href="/help/implement/js-implementation/page-variables/page-variables.md">Variables de página</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Campaign </td> 
-   <td colname="col2"> <p>Una variable que identifica las campañas de marketing utilizadas para atraer visitantes a un sitio. El valor de campaña generalmente se toma de un parámetro de cadena de consultas. </p> <p>See [<a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>Una variable que identifica las campañas de marketing utilizadas para atraer visitantes a un sitio. El valor de campaña generalmente se toma de un parámetro de cadena de consultas. </p> <p>See [<a href="/help/implement/js-implementation/page-variables/campaign.md">Page Variables</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
