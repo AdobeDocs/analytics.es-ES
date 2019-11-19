@@ -5,7 +5,7 @@ title: Códigos de seguimiento
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 ---
 
@@ -16,7 +16,7 @@ Evalúa el efecto que los distintos códigos de seguimiento publicitario tienen 
 
 **Propiedades generales**
 
-* Este informe hace referencia a los datos directamente desde la variable [s.campaign](/help/implement/js-implementation/c-variables/page-variables.md) implementada en el sitio web.
+* Este informe hace referencia a los datos directamente desde la variable [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) implementada en el sitio web.
 * La variable en la que se basa este informe es una [variable de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Es decir, puede persistir más allá de la vista de página y se puede asociar a métricas dentro de la fecha de caducidad especificada.
 * La métrica predeterminada del informe es Ingresos. Puede cambiar este valor predeterminado en el [!UICONTROL Administrador del grupo de informes] de las [!UICONTROL Herramientas de administración]. ( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
 
