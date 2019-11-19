@@ -6,7 +6,7 @@ title: ID de visitante personalizado
 topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -21,7 +21,7 @@ Si puede derivar y administrar las [!UICONTROL ID de visitantes] de sus usuarios
 
 | Método | Descripción |
 |---|---|
-| [s.visitorID](/help/implement/js-implementation/c-variables/page-variables.md) | Si se usa JavaScript en el explorador, o si está usando cualquier otra biblioteca de AppMeasurement, puede configurar la ID del visitante en una variable de recopilación de datos. |
+| [s.visitorID](/help/implement/js-implementation/page-variables/page-variables.md) | Si se usa JavaScript en el explorador, o si está usando cualquier otra biblioteca de AppMeasurement, puede configurar la ID del visitante en una variable de recopilación de datos. |
 | Parámetro de cadena de consulta en la solicitud de imagen | Con este método puede pasar la [!UICONTROL ID de visitante] a Adobe mediante el parámetro de [!UICONTROL cadena de consulta vid] en una solicitud de imagen codificada. |
 | API de inserción de datos | En dispositivos que usan protocolos inalámbricos que no aceptan JavaScript, puede enviar una publicación XML que contenga el elemento XML `<visitorid/>` a servidores de recopilación de Adobe desde sus servidores. |
 | Reescritura de direcciones URL y VISTA | Algunas arquitecturas de implementación permiten la reescritura de direcciones URL para mantener el estado de la sesión cuando no se puede configurar una cookie. En estos casos, los servicios de ingeniería de Adobe pueden implementar una regla [!DNL VISTA] para buscar el valor de sesión en la dirección URL de la página y, después, darle formato y colocarla en los valores [!UICONTROL visid]. |
