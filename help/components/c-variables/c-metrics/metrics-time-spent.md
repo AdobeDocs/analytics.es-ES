@@ -4,7 +4,7 @@ solution: Analytics
 title: Tiempo empleado
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e67926856111834bb9c783ec916a24d34981454c
+source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
 
 ---
 
@@ -46,13 +46,15 @@ The **numerator** in all time spent calculations is total seconds spent.
 
 The **denominator** is not available as a separate metric in Adobe Analytics. Para las métricas de "tiempo empleado" de nivel de visita individual, el denominador son secuencias. Una secuencia es un conjunto consecutivo de visitas individuales en el que una variable dada contiene el mismo valor (por configuración, por propagarse hacia delante o por persistir). 'Propagar hacia delante' se refiere a la persistencia de props entre vistas de página (es decir, a través de eventos de vínculo subsiguientes), con el fin de calcular el tiempo empleado.
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially 'Instances' or 'Page Views', but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
+* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL 'Instances'] or [!UICONTROL 'Page Views'], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
 
 * Las visitas de salida y de devolución también se eliminan del denominador porque no se puede saber el tiempo empleado.
 
 ## Preguntas frecuentes
 
-**T1: ¿Se pueden aplicar todas las métricas de tiempo empleado a cualquier dimensión?** A: Las métricas de tiempo empleado que se pueden aplicar a cualquier dimensión son:
+**T1: ¿Se pueden aplicar todas las métricas de tiempo empleado a cualquier dimensión?**
+
+A: Las métricas de tiempo empleado que se pueden aplicar a cualquier dimensión son:
 
 * [!UICONTROL Segundos totales empleados]
 
@@ -62,16 +64,22 @@ The **denominator** is not available as a separate metric in Adobe Analytics. Pa
 
 * [!UICONTROL Tiempo promedio empleado en el sitio] (segundos)
 
-**Segundo trimestre: ¿Qué dimensión de tiempo empleado se utiliza mejor en los desgloses con otras dimensiones?** A: La dimensión [!UICONTROL Tiempo empleado en la página: granular] es una dimensión de nivel de visita individual. Desglosarla mediante otra dimensión indicará los segundos que duró una visita individual en la que la dimensión de desglose también estaba presente.
+**Segundo trimestre: ¿Qué dimensión de tiempo empleado se utiliza mejor en los desgloses con otras dimensiones?**
+
+A: The [!UICONTROL Time Spent on Page – granular] dimension is a hit-level dimension. Desglosarla mediante otra dimensión indicará los segundos que duró una visita individual en la que la dimensión de desglose también estaba presente.
 En el ejemplo siguiente, el término de búsqueda "classifieds" se asocia con tiempos de visita de 54 segundos, 59 segundos, etc., tal vez indicando que los visitantes invierten tiempo leyendo el contenido devuelto para ese término.
 
 ![](assets/time-spent1.png)
 
-**Tercer trimestre: ¿Qué métrica es apropiada para la dimensión de[!UICONTROL Tiempo empleado en la página (granular])?** A: Cualquier métrica. La dimensión mostrará el tiempo empleado en la visita individual exacta en la que se produjo el evento. Un tiempo empleado mayor significa que un visitante pasó más tiempo en una página (visita individual) en la que se produjo el evento.
+**Tercer trimestre: ¿Qué métrica es apropiada para la dimensión de[!UICONTROL Tiempo empleado en la página (granular])?**
+
+A: Cualquier métrica. La dimensión mostrará el tiempo empleado en la visita individual exacta en la que se produjo el evento. Un tiempo empleado mayor significa que un visitante pasó más tiempo en una página (visita individual) en la que se produjo el evento.
 
 ![](assets/time-spent2.png)
 
-**T4: ¿En qué se diferencia el tiempo[!UICONTROL promedio invertido en el sitio]del[!UICONTROL tiempo empleado por visita]?** A: La diferencia es el denominador de la métrica:
+**T4: ¿En qué se diferencia el tiempo[!UICONTROL promedio invertido en el sitio]del[!UICONTROL tiempo empleado por visita]?**
+
+A: La diferencia es el denominador de la métrica:
 
 * [!UICONTROL El tiempo promedio invertido en el sitio] utiliza las secuencias que incluyen un elemento de dimensión.
 
@@ -88,7 +96,7 @@ Supongamos que el siguiente conjunto de llamadas de servidor es para un único v
 | **Tiempo de visita transcurrido (en segundos)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Segundos empleados** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo de visita** | Activity Map | Vínculo | Activity Map | Activity Map | Activity Map | Activity Map | Activity Map |
-| **Nombre de la página** | Página principal | - | Producto | Página principal | Página principal (recarga) | Carro de compras | Confirmación de pedido |
+| **Nombre de la página** | Página principal | - | Producto | Página principal | Página principal (recarga) | Carro de compras | Confirmación del pedido |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (configurado) | A (propagado hacia delante) | sin configurar | B (conjunto) | B (conjunto) | A(configurado) | C (configurado) |
 | **Segundos empleados por prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
