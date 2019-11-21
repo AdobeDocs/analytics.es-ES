@@ -7,7 +7,7 @@ title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
 
 ---
 
@@ -18,7 +18,7 @@ También se conoce como List Var. Similar a cómo funcionan las props de lista, 
 
 <!-- 
 
-listN.xml
+listN.xml (bob edit)
 
  -->
 
