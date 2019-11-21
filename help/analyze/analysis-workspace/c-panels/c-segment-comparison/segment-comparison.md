@@ -1,9 +1,9 @@
 ---
 title: Información general del panel de comparación de segmentos
 description: Aprenda a utilizar el panel de comparación de segmentos, que forma parte de IQ de segmento en Analysis Workspace.
-keywords: Analysis Workspace;Segment IQ
+keywords: Analysis Workspace;IQ de segmento
 solution: Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
@@ -11,16 +11,16 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 # Información general del panel de comparación de segmentos
 
-El panel Comparación de segmentos es una parte de la herramienta de [Segmento IQ](../../segment-iq.md) que detecta las diferencias estadísticamente más significativas entre un número ilimitado de segmentos. La función se repite mediante un análisis automatizado de todas las dimensiones y métricas a las que tiene acceso. Descubrir automáticamente las características clave de los segmentos de audiencia que dirigen los KPI de su empresa y le permite ver cuánto se superponen los segmentos.
+El panel Comparación de segmentos es una parte de la herramienta de [IQ de segmento](../../segment-iq.md) que detecta las diferencias estadísticamente más significativas entre un número ilimitado de segmentos. La función se repite mediante un análisis automatizado de todas las dimensiones y métricas a las que tiene acceso. De forma automática, muestra las características clave de los segmentos de audiencia que dirigen el KPI de su empresa y le permite observar cuánto se superponen los segmentos.
 
 ## Creación de un panel de comparación de segmentos
 
-1. Inicie sesión en [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
-1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics de color.
-1. En la barra de navegación superior, haga clic en Espacio de trabajo.
-1. Haga clic en el botón 'Crear nuevo proyecto'.
-1. En la ventana emergente modal, asegúrese de que está seleccionado 'Proyecto en blanco' y, a continuación, haga clic en Crear.
-1. Haga clic en el botón Paneles de la izquierda y, a continuación, arrastre el panel Comparación de segmentos por encima o por debajo del panel de tabla improvisada creado automáticamente.
+1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
+1. En la barra de navegación superior, haga clic en Workspace.
+1. Haga clic en el botón Crear nuevo proyecto.
+1. En la ventana emergente modal, compruebe que está seleccionado “Proyecto en blanco” y, a continuación, haga clic en Crear.
+1. Haga clic en el botón Paneles de la izquierda y, a continuación, arrastre el panel Comparación de segmentos por encima o por debajo del panel de tabla de forma libre creado automáticamente.
 
    ![Comparar panel](assets/seg-compare-panel.png)
 
@@ -28,24 +28,24 @@ El panel Comparación de segmentos es una parte de la herramienta de [Segmento I
 
    ![Comparar audiencias](assets/compare-audiences.png)
 
-   Después de arrastrar un segmento al panel, Analytics crea automáticamente un segmento [!UICONTROL 'Todos los demás'] que incluye a todos los que NO están en el segmento que ha elegido. Se trata de un segmento que se utiliza con frecuencia en el panel de comparación, pero puede eliminarlo y comparar otro segmento de su elección.
+   Después de arrastrar un segmento al panel, Analytics crea automáticamente un segmento [!UICONTROL “Todos los demás”] que incluye a todos los que NO están en el segmento que ha elegido. Se trata de un segmento que se utiliza con frecuencia en el panel de comparación, pero puede eliminarlo y comparar otro segmento de su elección.
 
    ![Todos los demás](assets/everyone-else.png)
 
 1. Una vez que haya determinado qué dos segmentos comparar, haga clic en [!UICONTROL Generar].
 
-   Esta acción inicia un proceso back-end que busca diferencias estadísticas entre los dos segmentos seleccionados y todas las dimensiones, métricas y otros segmentos. Una barra de progreso en la parte superior del panel indica el tiempo restante hasta que se analizan todas las métricas y dimensiones. Las métricas, dimensiones y segmentos utilizados con más frecuencia tienen prioridad para ejecutarse primero, de modo que los resultados más relevantes se devuelvan de manera oportuna.
+   Esta acción inicia un proceso backend que busca diferencias estadísticas entre los dos segmentos seleccionados y todas las dimensiones, métricas y otros segmentos. Una barra de progreso en la parte superior del panel indica el tiempo restante hasta que se analizan todas las métricas y dimensiones. Las métricas, dimensiones y segmentos utilizados con más frecuencia tienen prioridad para ejecutarse primero, de modo que los resultados más relevantes se devuelvan de manera oportuna.
 
-## Excluir componentes de la comparación
+## Excluir componentes de comparación
 
-A veces se desea excluir algunas dimensiones, métricas o segmentos de las comparaciones de segmentos. Por ejemplo, desea comparar el segmento 'Usuarios móviles de EE. UU.' con 'Usuarios móviles alemanes'. Incluir dimensiones relacionadas con la geografía no tendría sentido, ya que estos segmentos ya implican esas diferencias.
+A veces se desea excluir algunas dimensiones, métricas o segmentos de las comparaciones de segmentos. Por ejemplo, desea comparar el segmento “Usuarios móviles de EE. UU.” con “Usuarios móviles alemanes”. Incluir dimensiones relacionadas con la geografía no tendría sentido, ya que estos segmentos ya implican esas diferencias.
 
-1. Una vez que los dos segmentos deseados estén en el panel, haga clic en [!UICONTROL 'Mostrar opciones avanzadas'].
-1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
+1. Una vez que los dos segmentos deseados estén en el panel, haga clic en [!UICONTROL “Mostrar opciones avanzadas”].
+1. Arrastre y suelte los componentes que desea excluir en cualquier sitio del panel [!UICONTROL Componentes excluidos].
 
    ![Componentes excluidos](assets/excluded-components.png)
 
-Haga clic en [!UICONTROL 'Establecer como predeterminado'] para excluir automáticamente los componentes actuales en todas las comparaciones de segmentos futuras. Si desea editar componentes excluidos, haga clic en un tipo de componente y, a continuación, haga clic en la 'X' situada junto a un componente para volver a incluirlos en el análisis. Haga clic en 'Borrar todo' para volver a incluir todos los componentes en la comparación de segmentos.
+Haga clic en [!UICONTROL Establecer como predeterminado] para excluir automáticamente los componentes actuales en todas las comparaciones de segmentos futuras. Si desea editar componentes excluidos, haga clic en un tipo de componente y, a continuación, haga clic en la “X” situada junto a un componente para volver a incluirlos en el análisis. Haga clic en “Borrar todo” para volver a incluir todos los componentes en la comparación de segmentos.
 
 ![Dimensiones excluidas](assets/excluded-dimensions.png)
 
@@ -71,9 +71,9 @@ A la derecha de la visualización Tamaño y superposición, se muestra el recuen
 
 ### Métricas principales
 
-Muestra las métricas más significativas estadísticamente entre los dos segmentos. Cada fila de dicha tabla representa una métrica diferenciadora, ordenada según lo diferente que sea de cada segmento. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no hay relevancia estadística.
+Muestra las métricas más significativas estadísticamente entre los dos segmentos. Cada fila de dicha tabla representa una métrica diferenciadora, ordenada según lo diferente que sea de cada segmento. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
 
-Esta visualización es similar a las tablas improvisadas en Analysis Workspace. Si desea realizar un análisis más profundo de una métrica específica, pase el ratón sobre un elemento de línea y haga clic en 'Crear imagen'. Se crea una nueva tabla para analizar esa métrica específica. Si una métrica no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la 'X' para eliminarla.
+Esta visualización es similar a las tablas de forma libre en Analysis Workspace. Si desea realizar un análisis más profundo de una métrica específica, pase el ratón sobre un elemento de línea y haga clic en “Crear imagen”. Se crea una nueva tabla para analizar esa métrica específica. Si una métrica no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarla.
 
 > [!NOTE] Las métricas agregadas a esta tabla una vez finalizada la comparación de segmentos no reciben una puntuación de diferencia.
 
@@ -81,15 +81,15 @@ Esta visualización es similar a las tablas improvisadas en Analysis Workspace. 
 
 ### Métrica a lo largo del tiempo por segmento
 
-A la derecha de la tabla de métricas se encuentra la visualización vinculada. Puede hacer clic en un elemento de línea en la tabla de la izquierda y esta visualización se actualiza para mostrar esa métrica con las tendencias a lo largo del tiempo.
+A la derecha de la tabla de métricas se encuentra la visualización vinculada. Puede hacer clic en un elemento de línea en la tabla de la izquierda y esta visualización se actualiza para mostrar esa métrica con las tendencias históricas.
 
 ![Línea de métricas principales](assets/linked-viz.png)
 
 ### Dimensiones principales
 
-Muestra los valores de dimensión más significativos estadísticamente en todas las dimensiones. Cada fila muestra el porcentaje de cada segmento que muestra este valor de dimensión. Por ejemplo, esta tabla podría revelar que el 100 % de los visitantes del segmento A tenían el elemento de dimensión 'Tipo de explorador: Google", mientras que solo el 19,6 % del "segmento B" tenía este elemento de dimensión. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no hay relevancia estadística.
+Muestra los valores de dimensión más significativos estadísticamente en todas las dimensiones. Cada fila muestra el porcentaje de cada segmento con este valor de dimensión. Por ejemplo, esta tabla podría revelar que el 100% de los visitantes del segmento A tenían el elemento de dimensión “Tipo de explorador: Google”, mientras que solo el 19,6% del “segmento B” tenía este elemento de dimensión. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
 
-Esta visualización es similar a las tablas improvisadas en Analysis Workspace. Si desea realizar un análisis más profundo de un valor de dimensión específico, pase el ratón sobre un elemento de línea y haga clic en 'Crear elemento visual'. Se crea una nueva tabla para analizar ese valor de dimensión específico. Si un valor de dimensión es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la 'X' para eliminarlo.
+Esta visualización es similar a las tablas de forma libre en Analysis Workspace. Si desea realizar un análisis más profundo de un valor de dimensión específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese valor de dimensión específico. Si un valor de dimensión es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
 
 > [!NOTE] Los valores de dimensión agregados a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
 
@@ -97,15 +97,15 @@ Esta visualización es similar a las tablas improvisadas en Analysis Workspace. 
 
 ### Elementos de dimensión por segmento
 
-A la derecha de la tabla de dimensiones hay una visualización de gráficos de barras vinculados. Muestra todos los valores de dimensión mostrados en un gráfico de barras. Al hacer clic en un elemento de línea en la tabla de la izquierda, se actualiza la visualización de la derecha.
+A la derecha de la tabla de dimensiones se encuentra la visualización de gráfico de barras vinculada. En ella aparecen todos los valores de dimensión en un gráfico de barras. Al hacer clic en un elemento de línea en la tabla de la izquierda, se actualiza la visualización de la derecha.
 
 ![Gráfico de barras de dimensiones principales](assets/top-dimension-item.png)
 
 ### Segmentos principales
 
-Muestra qué otros segmentos (que no sean los dos seleccionados para la comparación) tienen superposición estadísticamente significativa. Por ejemplo: esta tabla puede mostrar que un tercer segmento, 'Visitantes repetidos', se superpone con el segmento A pero no con el segmento B. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no hay relevancia estadística.
+Muestra qué otros segmentos (que no sean los dos seleccionados para la comparación) tienen una superposición estadísticamente significativa. Por ejemplo: esta tabla puede mostrar que un tercer segmento, “Visitantes repetidos”, se superpone con el segmento A pero no con el segmento B. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
 
-Esta visualización es similar a las tablas improvisadas en Analysis Workspace. Si desea realizar un análisis más profundo de un segmento específico, pase el ratón sobre un elemento de línea y haga clic en 'Crear elemento visual'. Se crea una nueva tabla para analizar ese segmento específico. Si un segmento es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la 'X' para eliminarlo.
+Esta visualización es similar a las tablas de forma libre en Analysis Workspace. Si desea realizar un análisis más profundo de un segmento específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese segmento específico. Si un segmento no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
 
 > [!NOTE] Los segmentos agregados a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
 
@@ -113,6 +113,6 @@ Esta visualización es similar a las tablas improvisadas en Analysis Workspace. 
 
 ### Superposición de segmentos
 
-A la derecha de la tabla de segmentos se encuentra una visualización de diagrama de ventilación vinculada. Muestra el segmento más significativo estadísticamente aplicado a los segmentos comparados. Por ejemplo, 'Segmento A' + 'Segmento estadísticamente significativo' vs. 'Segmento B' + 'Segmento estadísticamente significativo'. Al hacer clic en un elemento de línea de segmento en la tabla de la izquierda, se actualiza el diagrama de Venn de la derecha.
+A la derecha de la tabla de segmentos se encuentra la visualización de diagrama de Venn vinculada. Muestra el segmento más significativo estadísticamente aplicado a los segmentos comparados. Por ejemplo, “Segmento A” + “Segmento estadísticamente significativo” vs. “Segmento B” + “Segmento estadísticamente significativo”. Al hacer clic en un elemento de línea de segmento en la tabla de la izquierda, se actualiza el diagrama de Venn de la derecha.
 
-![Diagrama de ventilación de segmentos principales](assets/segment-overlap.png)
+![Diagrama de Venn de segmentos principales](assets/segment-overlap.png)
