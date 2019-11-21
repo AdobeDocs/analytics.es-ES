@@ -5,7 +5,7 @@ title: Compatibilidad del segmento con el Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b91fb59ab3483ee670a86f428b2757786e89a3c5
 
 ---
 
@@ -36,7 +36,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   <tr> 
    <td colname="col1"> <b>Y y O pueden combinarse sin ningún límite</b> </td> 
    <td colname="col2"> Admitido </td> 
-   <td colname="col3"> Algunas limitaciones </td> 
+   <td colname="col3"> Algunas limitaciones. Véase la nota* a continuación de la tabla. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Contenedores anidados</b> </td> 
@@ -94,3 +94,4 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
  </tbody> 
 </table>
 
+*Nota: El almacén de datos no admite todos los casos de uso de un`exclusion`o`without`contenedor al usar`AND/OR`. Cuando se utiliza una combinación de estas características, solo se admiten en el almacén de datos los segmentos que se pueden volver a escribir como`A AND NOT B`(o **incluir esta característica**y **excluir esta característica**).*
