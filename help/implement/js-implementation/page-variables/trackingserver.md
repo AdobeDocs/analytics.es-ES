@@ -7,7 +7,7 @@ title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 21f278017472ae39c6066ca7694a5cdbbfde41f3
 # trackingServer
 
 La variable se utiliza para la implementación de cookies de origen a fin de especificar el dominio en el cual se escriben la solicitud de imagen y la cookie.
+
 
 <!-- 
 
