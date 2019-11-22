@@ -7,7 +7,7 @@ title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # props de lista
 
 Las props de lista son una lista delimitada de valores que se pasan a una variable y, a continuación, se incluyen en los informes como elementos de línea individuales. Las props de lista generalmente se implementan en páginas que contienen valores seleccionables por el usuario como, por ejemplo, elementos enumerados con casillas de verificación o botones de opción. Resultan útiles para aquellos casos en los que desea definir varios valores en una variable sin enviar varias solicitudes de imagen.
+
 
 <!-- 
 
