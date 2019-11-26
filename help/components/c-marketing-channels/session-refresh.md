@@ -2,7 +2,7 @@
 title: Canal interno (Actualización de sesión)
 description: Obtenga información sobre el canal Interno (Actualización de sesión).
 translation-type: tm+mt
-source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -38,11 +38,11 @@ Ejemplo:
 
 ## Relación entre primer y último toque
 
-Para comprender la interacción entre el primer y el último toque, y confirmar que las sobrescrituras funcionan según lo esperado, puede extraer un informe de canal de primer toque, subrelacionado con un informe de canal de último toque, con la métrica de éxito clave en (ver ejemplo más abajo). El ejemplo muestra la interacción entre los canales de primer y último toque.
+Para comprender la interacción entre el primer y el último toque, y confirmar que las sobrescrituras funcionan según lo esperado, puede extraer un informe de canal de primer toque, subrelacionado con un informe de canal de último toque, con la métrica de éxito clave en (ver ejemplo más abajo). En el ejemplo se muestra la interacción entre los canales de primer y último toque.
 
 ![](assets/int-channel3.png)
 
-La intersección donde el primer toque es igual a último toque se resalta en naranja. Tanto la actualización directa como la actualización de sesión solo obtienen crédito de último toque si también son el canal de primer toque, ya que no pueden tomar crédito de otros canales persistentes (filas resaltadas en gris).
+La intersección en la que el primer toque es igual que el último toque se resalta en naranja. Tanto la actualización directa como la actualización de sesión solo obtienen crédito de último toque si también son el canal de primer toque, ya que no pueden tomar crédito de otros canales persistentes (filas resaltadas en gris).
 
 ## ¿Por qué se produce la actualización de la sesión?
 
