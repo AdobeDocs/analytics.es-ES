@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Guía de administración de Analytics
-user-guide-url: /content/help/es-ES/analytics/admin/home.html
+user-guide-title: Analytics Admin Guide
+user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -117,6 +117,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Promoción conjunta de marca](company/co-branding-admin.md)
    + [Ocultar grupos de informes](company/c-hide-report-suites.md)
    + [Administrador de seguridad](company/security-manager.md)
+   + [Fin de vida útil para "Aplicar restricciones de inicio de sesión IP"](company/login-restrictions-eol.md)
 + Administrar grupos de informes {#manage-report-suites}
    + [Administrador del grupo de informes](c-manage-report-suites/report-suites-admin.md)
    + [Grupos de informes globales y resumidos](c-manage-report-suites/rollup-report-suite.md)
@@ -161,7 +162,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Usuarios de correo electrónico](user-management2/t-email-users.md)
 + Gobierno de datos {#data-governance}
    + [Adobe Analytics y el RGPD](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics y CCPA](c-data-governance/an-ccpa-overview.md)
+   + [Adobe Analytics y la CCPA](c-data-governance/an-ccpa-overview.md)
    + [Preguntas frecuentes](c-data-governance/gdpr-faq.md)
    + [Flujo de trabajo de privacidad de datos de Adobe Analytics](c-data-governance/an-gdpr-workflow.md)
    + [Consulta o administración de la configuración de control de datos del grupo de informes](c-data-governance/gdpr-view-settings.md)
@@ -172,7 +173,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [Expansión de ID](c-data-governance/gdpr-id-expansion.md)
    + [Prácticas recomendadas de etiquetado](c-data-governance/gdpr-analytics-ids.md)
    + [Ejemplo de etiquetado](c-data-governance/gdpr-labeling-example.md)
-   + [Privacidad de datos y Conectores de datos (Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [Privacidad de datos y Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [Terminología de privacidad de datos](c-data-governance/gdpr-terminology.md)
    + [Variables de informes de privacidad](c-data-governance/consent-variables.md)
 + Uso de llamadas al servidor {#server-call-usage}
