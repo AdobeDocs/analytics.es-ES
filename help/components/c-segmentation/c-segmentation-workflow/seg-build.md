@@ -5,7 +5,7 @@ title: Generar segmentos
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -56,13 +56,12 @@ Acceda al Generador de segmentos de una de las siguientes maneras::
    * **[!UICONTROL + Agregar contenedor desde selección]**: le permite crear un nuevo contenedor a partir del elemento o elementos que haya seleccionado en el campo Definiciones.
    * **[!UICONTROL Excluir]**: permite definir el segmento excluyendo una o más dimensiones, segmentos o métricas.
 
-**[!UICONTROL Modelos]** de atribución: Para la segmentación de dimensiones. Los modelos de dimensión son especialmente útiles en la segmentación secuencial, como en aquellos que admiten visualizaciones de flujo:
+1. **[!UICONTROL Modelos]** de atribución: Para la segmentación de dimensiones. Los modelos de dimensión son especialmente útiles en la segmentación secuencial, como en aquellos que admiten visualizaciones de flujo:
 
-    * **[!UICONTROL Repetir]** (predeterminado): Incluye instancias y valores persistentes para la dimensión.
-    * **[!UICONTROL Instancia]**: Incluye instancias para la dimensión.
-    * **[!UICONTROL Instancia]no repetitiva**: Incluye instancias únicas (no repetitivas) para la dimensión.
-
-![](assets/attribution-models.jpg)
+   * **[!UICONTROL Repetir]** (predeterminado): Incluye instancias y valores persistentes para la dimensión.
+   * **[!UICONTROL Instancia]**: Incluye instancias para la dimensión.
+   * **[!UICONTROL Instancia]** no repetitiva: Incluye instancias únicas (no repetitivas) para la dimensión.
+   ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL Dimensiones]**: Las dimensiones se arrastran y se sueltan desde la lista Dimensiones (barra lateral naranja).
 1. **[!UICONTROL Comparación]**: Puede comparar y restringir valores usando operadores seleccionados.
