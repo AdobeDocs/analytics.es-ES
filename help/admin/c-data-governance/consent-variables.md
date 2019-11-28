@@ -3,7 +3,7 @@ description: Variables para informes de privacidad en Privacidad de datos.
 solution: Analytics
 title: Variables de informes de privacidad
 topic: Herramientas de administración
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -11,8 +11,8 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 # Variables de informes de privacidad
 
-Para proporcionar asistencia adicional en la administración de datos de privacidad, existe un conjunto de variables reservadas que se pueden utilizar junto con variables de datos de contexto específicas. 
-Estas variables de informes de privacidad proporcionan un marco fácil de usar para capturar el estado de privacidad en cada visita de análisis.
+Para proporcionar asistencia adicional en la administración de datos de privacidad, existe un conjunto de variables reservadas que se pueden utilizar junto con variables de datos de contexto específicas.
+Estas variables de informes de privacidad proporcionan un marco fácil de usar para registrar el estado de privacidad en cada visita de análisis.
 
 ## Variables
 
@@ -33,17 +33,17 @@ Estas variables de informes de privacidad proporcionan un marco fácil de usar p
 
 ## Creación de informes
 
-Puede habilitar las variables de informes de privacidad mediante una nueva configuración de privacidad disponible en la Consola de administración de Analytics.
+Puede habilitar las variables de informes de privacidad mediante una nueva configuración de privacidad disponible en Admin Console de Analytics.
 
-Cada grupo de informes se puede configurar de la siguiente manera:
-1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites]**.
+Cada grupo de informes se puede configurar de esta forma:
+1. En Reports &amp; Analytics, haga clic en **[!UICONTROL Administración &gt; Grupos de informes]**.
 1. Seleccione los grupos de informes donde desee recopilar los datos de medios y haga clic en **[!UICONTROL Editar configuración &gt; Gestión de la privacidad]**.
 
    ![](assets/rsm-privacy-select.png)
 
 1. Haga clic en el botón **[!UICONTROL Activar informes de privacidad de datos.]**
 
-   > [!NOTE] Una vez habilitadas, estas variables no se pueden desactivar.
+   > [!NOTE] Una vez estas variables estén activadas, no se pueden desactivar.
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -57,27 +57,27 @@ Cada grupo de informes se puede configurar de la siguiente manera:
 
 ## Implementación
 
-Se han predefinido tres variables de datos de contexto para que funcionen con las variables reservadas de la administración de informes de privacidad.  Depende de cada ingeniero de implementación determinar cómo administrar y mantener la configuración de estas variables.
+Se han predefinido tres variables de datos de contexto para que funcionen con las variables reservadas de administración de informes de privacidad.  Depende de cada ingeniero de implementación determinar cómo administrar y mantener la configuración de estas variables.
 
-Consulte [Variables de datos de contexto](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) para obtener instrucciones generales sobre cómo implementar variables de datos de contexto.
+Consulte [Variables de datos de contexto](https://docs.adobe.com/help/es-ES/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) para obtener instrucciones generales sobre cómo implementar variables de datos de contexto.
 
 ### SSF
 
 * Datos de contexto: `contextData.['cm.ssf']`
 * Valores aceptados:
-   * 1 - Al enviar el valor "1", indica que el reenvío del lado del servidor está en estado de exclusión. El valor "1" asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte [Cumplimiento de la privacidad electrónica de AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 - Al enviar el valor “1”, esto indica que el Reenvío del lado del servidor está en estado de exclusión. El valor “1” asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte [Cumplimiento de la privacidad electrónica de AAM](https://docs.adobe.com/help/es-ES/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * No se aceptan otros valores para este parámetro.
 
 ### DMP
 
 * Datos de contexto: `contextData.['opt.dmp']`
 * Valores aceptados:
-   * N: Al enviar el valor "N", esto indica que el consumidor está optando por dejar de compartirlo en las plataformas de administración de datos. **Nota**: La configuración de esta variable en "N" no bloquea actualmente el uso compartido a AAM, pero el bloqueo de llamadas a la funcionalidad AAM se agregará a principios de 2020. Por ahora, Adobe recomienda configurar `c.cm.ssf=1` y `c.opt.dmp=N` bloquear el envío de visitas a AAM.
-   * Y: Al enviar el valor "Y", esto indica que el consumidor está optando por compartir en plataformas de administración de datos.
+   * N - Al enviar el valor “N” esto indica que el consumidor se excluye del uso compartido para las plataformas de administración de datos. **Nota**: En la actualidad, configurar esta variable como “N” no bloquea el uso compartido a AAM. Sin embargo, el bloqueo de llamadas a la funcionalidad AAM se agregará a principios de 2020. Por ahora, Adobe recomienda configurar `c.cm.ssf=1` y `c.opt.dmp=N` para bloquear el envío de visitas a AAM.
+   * Y - Al enviar el valor “Y” esto indica que el consumidor se incluye en el uso compartido para las plataformas de administración de datos.
 
 ### SELL
 
 * Datos de contexto: `contextData.['opt.sell']`
 * Valores aceptados:
-   * N - Al enviar el valor "N", esto indica que el consumidor está optando por no compartir o vender los datos a terceros.
-   * Y - Al enviar el valor "Y", esto indica que el consumidor está optando por compartir o vender los datos a terceros.
+   * N - Al enviar el valor “N” indica que el consumidor se excluye del uso compartido o de la venta de los datos a terceros.
+   * Y - Al enviar el valor “Y” esto indica que el consumidor se incluye en el uso compartido o de la venta de los datos a terceros.
