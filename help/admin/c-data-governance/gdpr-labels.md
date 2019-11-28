@@ -2,7 +2,7 @@
 description: 'null'
 title: Etiquetas de privacidad de datos para variables de Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 # Etiquetas de privacidad de datos para variables de Analytics
 
-## ¿Por qué debería etiquetar sus datos?{#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
+## ¿Por qué debería etiquetar sus datos? {#section_A075CDF3AD0744BD8CEB41CE3FB7BFB3}
 
 Muchos clientes de Adobe tienen equipos legales que han revisado las leyes de privacidad de datos (RGPD, CCPA, etc.) y que han sacado sus propias conclusiones sobre cómo deben manejarse los datos para cumplir con las leyes de privacidad de datos. Las interpretaciones legales pueden ser distintas de una empresa a otra y la configuración de administración de datos también puede diferir según el cliente. Dado que los clientes tienen distintas preferencias para el tratamiento de privacidad de datos y diferentes conjuntos de datos, Adobe permite a sus clientes, como responsables del tratamiento de datos, personalizar la configuración que deseen para el tratamiento de privacidad de datos en lo relativo a sus propios datos. De este modo, cada cliente individual puede tratar las solicitudes de privacidad de datos de la manera que mejor se adapte a su marca y a su conjunto de datos único.
 
