@@ -3,13 +3,13 @@ cloud: experience-cloud
 product: adobe
 archtype: usuario final
 user-guide: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 
 ---
 
 
-# Table of Contents {#table-of-contents}
+# Índice de contenidos {#table-of-contents}
 
 + [Migración de usuarios de Analytics a Admin Console](c-migration-tool/c-migration-tool.md)
    + [Migración de cuentas de usuarios de Analytics para Adobe ID](c-migration-tool/t-migrate-users.md)
