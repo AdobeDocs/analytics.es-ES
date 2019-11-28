@@ -2,7 +2,7 @@
 description: El cuadro de diálogo Administración de datos en Herramientas de administración proporciona una descripción general de los grupos de informes que se han configurado para el control de datos, si se han asignado a una organización de Experience Cloud y si se ha dispuesto una política de retención de datos para este grupo de informes.
 title: Consulta o administración de la configuración de control de datos del grupo de informes
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -36,16 +36,16 @@ El cuadro de diálogo Administración de datos en Herramientas de administració
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Asignado</b>: este grupo de informes ya ha sido asignado a la organización Experience Cloud como la empresa de inicio de sesión de Analytics en la que inicia sesión. Solo pueden etiquetarse los grupos de informes que tengan esta configuración. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Asignar grupo de informes:</b> al hacer clic en este vínculo, podrá <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html">asignar un grupo de informes</a> a una organización Experience Cloud. <p>Esto significa que se le redireccionará a la página de administración de asignación de grupos de informes de la organización de Experience Cloud, donde tendrá que encontrar el grupo de informes y asignarlo a la organización apropiada. Una vez que haya completado ese paso, vuelva a esta interfaz de usuario de control de datos. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Asignar grupo de informes:</b> al hacer clic en este vínculo, podrá <a href="https://marketing.adobe.com/resources/help/es_ES/mcloud/report-suite-mapping.html">asignar un grupo de informes</a> a una organización Experience Cloud. <p>Esto significa que se le redireccionará a la página de administración de asignación de grupos de informes de la organización de Experience Cloud, donde tendrá que encontrar el grupo de informes y asignarlo a la organización apropiada. Una vez que haya completado ese paso, vuelva a esta interfaz de usuario de control de datos. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Asignado a otra organización:</b> otra organización de Experience Cloud ya ha asignado este grupo de informes a su organización. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Política de retención de datos </p> </td> 
-   <td colname="col2"> <p>La implementación de la privacidad datos de Analytics requiere que establezca una política de retención de datos. </p> <p>Esta configuración muestra si: </p> 
+   <td colname="col2"> <p>La implementación de la privacidad datos de Analytics requiere que establezca una política de retención de datos. </p> <p>Esta configuración indica: </p> 
     <ul> 
-     <li>Se ha establecido una directiva de retención de datos para este grupo de informes y </li> 
-     <li>El tiempo que Adobe retiene los datos antes de eliminarlos. El periodo de retención de datos predeterminado es de 25 meses. </li> 
+     <li>Se ha implementado una política de retención de datos para este grupo de informes; y </li> 
+     <li>cuánto tiempo retiene Adobe los datos antes de eliminarlos. El periodo de retención de datos predeterminado es de 25 meses. </li> 
     </ul> <p>Nota: Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API de privacidad de datos (es decir, el procesamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos. Póngase en contacto con su gestor de éxito de los clientes para establecer el periodo de retención de datos. </p> </td> 
   </tr> 
   <tr> 
