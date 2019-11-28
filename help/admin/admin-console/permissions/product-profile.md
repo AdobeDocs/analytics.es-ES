@@ -1,54 +1,54 @@
 ---
 source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Perfiles de producto en Adobe Analytics
 
-Los perfiles de producto son un ajuste preestablecido de permiso que los administradores de productos pueden asignar a los usuarios de una organización. Si crea un perfil de producto y asigna un usuario de Experience Cloud a dicho perfil de producto, heredará los elementos de permisos contenidos en el perfil de producto.
+Los perfiles de producto son un ajuste preestablecido de permisos que los administradores de productos pueden asignar a los usuarios de una organización. Si crea un perfil de producto y asigna un usuario de Experience Cloud a ese perfil de producto, heredarán los elementos de permiso contenidos en el perfil de producto.
 
-See [Manage products and profiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) in the Enterprise user guide for general information on product profiles.
+Consulte [Administrar productos y perfiles](https://helpx.adobe.com/es/enterprise/using/manage-products-and-profiles.html) en la guía de usuario de Enterprise para obtener información general sobre los perfiles de producto.
 
 ## Administradores de perfil de producto
 
-Los administradores de perfil de producto son un grupo opcional que puede agregar o eliminar usuarios a dicho perfil de producto. Tenga en cuenta que un administrador de perfil de producto no es lo mismo que un administrador de producto:
+Los administradores de perfil de producto son un grupo opcional que puede agregar o eliminar usuarios a ese perfil de producto. Tenga en cuenta que un administrador de perfiles de producto no es lo mismo que un administrador de productos:
 
-* Los administradores de perfil de producto son simplemente responsables de la lista de usuarios de un perfil de producto.
-* Los administradores de perfil de producto no tienen acceso completo a Adobe Analytics. Se reserva acceso completo a Adobe Analytics para administradores de productos.
-* Los administradores de perfil de producto no pueden ajustar los elementos de permisos en su perfil de producto; un administrador de producto debe realizar ajustes de elementos de permisos.
-* Los administradores de perfil de producto son ideales para administradores o responsables de equipo que solo necesitan conceder y administrar el acceso a Adobe Analytics para su equipo. Las personas no necesitarían que los administradores del sistema o administradores de productos concedieran acceso a Adobe Analytics.
+* Los administradores de perfil de producto son responsables solo de la lista de usuarios de un perfil de producto.
+* Los administradores de perfil de producto no tienen acceso completo a Adobe Analytics. El acceso completo a Adobe Analytics está reservado para los administradores de productos.
+* Los administradores de perfiles de producto no pueden ajustar los elementos de permisos en su perfil de producto; un administrador de productos debe realizar ajustes en los elementos de permisos.
+* Los administradores de perfil de producto son ideales para los gerentes o jefes de equipo que solo necesitan otorgar y administrar el acceso a Adobe Analytics para su equipo. Los usuarios no necesitan molestar a los administradores del sistema o de productos para conceder acceso a Adobe Analytics.
 
 ## Elementos de permiso de Adobe Analytics
 
 Los permisos mínimos requeridos en un perfil de producto para acceder a Adobe Analytics son los siguientes:
 
-* El perfil de producto debe tener acceso a al menos un grupo de informes
-* The product profile must belong to the Analytics Tools permission item **Analysis Workspace Access** (or **Reports &amp; Analytics Access**)
+* El perfil de producto debe tener acceso al menos a un grupo de informes
+* El perfil de producto debe pertenecer al elemento de permiso Herramientas de Analytics **Acceso a Analysis Workspace** (o **Acceso a Reports &amp; Analytics**)
 
 ### Grupos de informes
 
-Otorga acceso a los grupos de informes que pertenecen a su organización de Analytics. Un usuario debe pertenecer a al menos un grupo de informes para que tenga acceso a usar Adobe Analytics.
+Concede acceso a los grupos de informes que pertenecen a su organización de Analytics. Un usuario debe pertenecer al menos a un grupo de informes para que se le conceda acceso para utilizar Adobe Analytics.
 
 ### Métricas
 
-Otorga acceso a las métricas del grupo de informes. Las métricas se enumeran como su respectivo componente en Analysis Workspace o si la métrica está disponible en Informes y análisis, disponible como elemento de menú en Métricas del sitio.
+Otorga acceso a las métricas del grupo de informes. Las métricas se muestran como su componente respectivo en Analysis Workspace o si la métrica está disponible en Reports &amp; Analytics, disponible como un elemento de menú en Métricas del sitio.
 
-Las métricas personalizadas tienen la etiqueta «Evento personalizado 1-1000» para mantenerlas independientes de los grupos de informes. Si «Evento personalizado 1» es un elemento de permiso habilitado, ese usuario tiene acceso al evento 1 en todos los grupos de informes del perfil de producto.
+Las métricas personalizadas están etiquetadas como 'Evento personalizado 1-1000' para mantenerlas independientes de los grupos de informes. Si 'Evento personalizado 1' es un elemento de permiso habilitado, ese usuario tiene acceso a event1 en todos los grupos de informes del perfil de producto.
 
 ### Dimensiones
 
-Otorga acceso a dimensiones en su grupo de informes. Las dimensiones se enumeran como su componente respectivo en Analysis Workspace o si la dimensión está disponible en Informes y análisis, disponible como elemento de menú.
+Otorga acceso a las dimensiones del grupo de informes. Las dimensiones se muestran como sus respectivos componentes en Analysis Workspace o si están disponibles en Reports &amp; Analytics, disponibles como elemento de menú.
 
-Las variables personalizadas, como las evars, tienen la etiqueta «Conversión personalizada 1-250» para mantenerlas independientes de los grupos de informes. Si la «Conversión personalizada 1» es un elemento de permiso habilitado, ese usuario tiene acceso a evar 1 en todos los grupos de informes del perfil de producto.
+Las variables personalizadas, como las eVars, están etiquetadas como 'Conversión personalizada 1-250' para mantenerlas independientes de los grupos de informes. Si 'Conversión personalizada 1' es un elemento de permiso habilitado, ese usuario tiene acceso a eVar1 en todos los grupos de informes del perfil de producto.
 
 ### Herramientas de grupos de informes
 
-Los elementos de los permisos de las herramientas del grupo de informes otorgan acceso a las funciones específicas de los grupos de informes a los que el usuario tiene acceso. See [Report Suite Tools](report-suite-tools.md) for a full list of permission items and descriptions.
+Los elementos de permiso de las herramientas del grupo de informes otorgan acceso a funciones específicas de los grupos de informes a los que el usuario tiene acceso. Consulte [Herramientas de grupos de informes](report-suite-tools.md) para obtener una lista completa de los elementos y las descripciones de los permisos.
 
 ### Herramientas de Analytics
 
-Los elementos de permiso de herramientas de Analytics otorgan acceso a funciones que dependen de la configuración del grupo de informes. See [Analytics Tools](analytics-tools.md) for a full list of permission items and descriptions.
+Los elementos de permiso de las herramientas de Analytics conceden acceso a funciones que son independientes de la configuración del grupo de informes. Consulte [Herramientas de Analytics](analytics-tools.md) para obtener una lista completa de los elementos y las descripciones de los permisos.
 
-## Desarrolladores de perfiles de producto
+## Desarrolladores de perfil de producto
 
-Developers are similar to users, except they are granted the ability to use the Experience Cloud API on Adobe I/O. See [Manage Developers](https://helpx.adobe.com/enterprise/using/manage-developers.html) in the Enterprise user guide for more information.
+Los desarrolladores son similares a los usuarios, pero se les concede la capacidad de usar la API de Experience Cloud en Adobe I/O. Consulte [Administrar desarrolladores](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en la guía de usuario de Enterprise para obtener más información.
