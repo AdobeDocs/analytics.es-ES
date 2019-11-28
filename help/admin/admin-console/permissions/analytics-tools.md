@@ -1,46 +1,46 @@
 ---
 source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Elementos de permiso de herramientas de Analytics
 
-Los elementos de permiso de Herramientas de Analytics otorgan acceso a funciones de Adobe Analytics. Los elementos de permiso de herramientas de Analytics no se aplican a un grupo de informes, sino a Adobe Analytics en su conjunto.
+Los elementos de permiso de las herramientas de Analytics conceden acceso a las funciones de Adobe Analytics. Los elementos de permiso de las herramientas de Analytics no se aplican a un grupo de informes, sino a Adobe Analytics en su conjunto.
 
-| Elemento de permiso de herramientas de Analytics | Descripción |
+| Elemento de permiso de las herramientas de Analytics | Descripción |
 |----|----|
 | Uso de llamadas al servidor | Otorga acceso a Administración &gt; Uso de llamadas al servidor. |
-| Administrador de códigos | Se conservan con fines heredados. Otorga acceso a Administración &gt; Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en Launch Platform Launch en su lugar. |
-| Administrador de códigos - Servicios Web | Otorga acceso al Administrador de códigos a través de la API 1.4. |
+| Administrador de códigos | Se ha mantenido para propósitos heredados. Otorga acceso a Administración &gt; Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en Adobe Experience Platform Launch. |
+| Administrador de códigos - Servicios Web | Otorga acceso al Administrador de códigos mediante la API 1.4. |
 | Registros | Otorga acceso a Administración &gt; Registros. |
-| Registros - Servicios Web | Concede acceso para extraer registros a través de la API 1.4. |
-| Administración del tráfico | Otorga acceso a Administración &gt; Administración del tráfico. |
+| Registros - Servicios Web | Otorga acceso a los registros de extracción a través de la API 1.4. |
+| Administración del tráfico | Concede acceso a Administración &gt; Administración de tráfico. |
 | Administración de permisos | Ya no se utiliza. Otorga acceso a la interfaz de administración de usuarios heredada en Administración &gt; Administración de usuarios. |
-| Permisos (lectura) - Servicios Web | Ya no se utiliza. Permite al usuario ver los permisos heredados de Analytics mediante la API de administración. En su lugar, utilice Adobe Admin Console. |
-| Permisos (escritura) - Servicios Web | Ya no se utiliza. Permite al usuario editar los permisos heredados de Analytics mediante la API de administración. En su lugar, utilice Adobe Admin Console. |
-| Seguridad | Otorga acceso a Administración &gt; Configuración de la empresa &gt; Administrador de seguridad. |
-| Asistencia | Otorga acceso a Administración &gt; Configuración de la empresa &gt; Información de asistencia. |
-| Servicios Web | Otorga acceso a Administración &gt; Configuración de la empresa &gt; Servicios Web. |
-| Inicio de sesión único | Ya no se utiliza. Otorga acceso al servicio de inicio de sesión único desaprobado. |
-| Acciones pendientes | Otorga acceso a Administración &gt; Configuración de la empresa &gt; Acciones pendientes. |
-| Promoción conjunta de marca | Ya no se utiliza. Otorga acceso a Administración &gt; Configuración de la empresa &gt; Promoción conjunta de marca. |
+| Permisos (lectura) - Servicios Web | Ya no se utiliza. Permite al usuario ver permisos de Analytics heredados mediante la API de administración. Utilice Adobe Admin Console en su lugar. |
+| Permisos (escritura) - Servicios Web | Ya no se utiliza. Permite al usuario editar permisos de Analytics heredados mediante la API de administración. Utilice Adobe Admin Console en su lugar. |
+| Seguridad | Otorga acceso a Administración &gt; Configuraciones de la empresa &gt; Administrador de seguridad. |
+| Asistencia | Otorga acceso a Administración &gt; Configuraciones de la empresa &gt; Información de asistencia. |
+| Servicios Web | Otorga acceso a Administración &gt; Configuraciones de la empresa &gt; Servicios Web. |
+| Inicio de sesión único | Ya no se utiliza. Otorga acceso al servicio de inicio de sesión único obsoleto. |
+| Acciones pendientes | Otorga acceso a Administración &gt; Configuraciones de la empresa &gt; Acciones pendientes. |
+| Promoción conjunta de marca | Ya no se utiliza. Concede acceso a Administración &gt; Configuración de empresa &gt; Promoción conjunta de marca. |
 | Preferencias | No se usa. |
-| Ocultar grupos de informes | Otorga acceso a Administración &gt; Configuración de la empresa &gt; Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente de su acceso al grupo de informes. |
+| Ocultar grupos de informes | Concede acceso a Administración &gt; Configuración de la empresa &gt; Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
 | Usuarios de licencias de Excel | No se usa. |
-| Activity Map | Otorga acceso a Herramientas &gt; Mapa de actividades. Permite al usuario utilizar la extensión Activity Map. |
-| Datos actuales | Habilita la opción para ver los datos actuales en informes de Informes y análisis. |
-| Usuarios con licencias para Ad Hoc Analysis | Habilita el botón de descarga en Herramientas &gt; Análisis específicos y permite al usuario autenticarse con la herramienta. See [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
+| Página de | Otorga acceso a Herramientas &gt; Activity Map. Permite al usuario utilizar la extensión Activity Map. |
+| Datos actuales | Habilita la opción para ver los datos actuales en los informes de Reports &amp; Analytics. |
+| Usuarios con licencias para Ad Hoc Analysis | Habilita el botón de descarga en Herramientas &gt; Ad Hoc Analysis y permite al usuario autenticarse con la herramienta. Consulte [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
 | Administrador de aplicaciones móviles | No se usa. |
-| Acceso a Servicio Web | Otorga la capacidad de utilizar la API, incluida la autenticación con sitios de terceros y el envío de llamadas de API. |
-| Report Builder | Habilita el botón de descarga en Herramientas &gt; Creador de informes y permite al usuario autenticarse en Microsoft Excel. |
-| Acceso a Analysis Workspace | Otorga acceso a Analysis Workspace. Los usuarios deben pertenecer a este grupo (preferido) o a Informes y análisis para utilizar Adobe Analytics. |
-| Acceso a Informes y análisis | Otorga acceso a Informes y análisis. Los usuarios deben pertenecer a este grupo o a Analysis Workspace Access (preferidos) para utilizar Adobe Analytics. |
+| Acceso a Servicio Web | Concede la capacidad de usar la API, incluida la autenticación con sitios de terceros y el envío de llamadas de API. |
+| Report Builder | Habilita el botón de descarga en Herramientas &gt; Report Builder, y permite al usuario autenticarse dentro de Microsoft Excel. |
+| Acceso a Analysis Workspace | Disponen de acceso a Analysis Workspace. Los usuarios deben pertenecer a este grupo (opción preferida) o a Acceso a Reports &amp; Analytics para utilizar Adobe Analytics. |
+| Acceso a Reports &amp; Analytics | Concede acceso a Reports &amp; Analytics. Los usuarios deben pertenecer a este grupo o a Acceso a Analysis Workspace (opción preferida) para utilizar Adobe Analytics. |
 | Analysis Workspace: Guardar como plantilla | Otorga acceso a Proyecto &gt; Guardar como plantilla en Analysis Workspace. |
-| Acceso a Labs | Actualmente en desarrollo. Cuando se libera, otorga acceso a Labs. |
-| Creación de métricas calculadas | Otorga la capacidad de crear métricas calculadas en todas las capacidades de Analytics. |
-| Creación de segmentos | Otorga la capacidad de crear y compartir segmentos en todas las capacidades de Analytics. |
+| Acceso a Labs | Actualmente en desarrollo. Cuando esté disponible, concederá acceso a Labs. |
+| Creación de métricas calculadas | Concede la capacidad de crear métricas calculadas en todas las capacidades de Analytics. |
+| Creación de segmentos | Concede la capacidad de crear y compartir segmentos en todas las funciones de Analytics. |
 | Administración de Advertising Analytics | No se usa. |
-| Publicación de segmentos | Otorga la capacidad de convertir a un segmento de Experience Cloud en audiencia de Experience Cloud al crear o editar un segmento. |
-| Integraciones (crear) | Otorga acceso a Administración &gt; Conectores de datos y permite al usuario crear conectores de datos. |
-| Integraciones (actualizar) | Otorga acceso a Administración &gt; Conectores de datos y permite al usuario modificar las configuraciones existentes del conector. |
-| Integraciones (eliminar) | Otorga acceso a Administración &gt; Conectores de datos y permite al usuario eliminar conectores de datos. |
+| Publicación de segmentos | Concede la capacidad de convertir un segmento en una audiencia de Experience Cloud al crear o editar un segmento. |
+| Integraciones (crear) | Otorga acceso a Administración &gt; Data Connectors y permite al usuario crear conectores de datos. |
+| Integraciones (actualizar) | Otorga acceso a Administración &gt; Data Connectors y permite al usuario modificar las configuraciones de conectores existentes. |
+| Integraciones (eliminar) | Otorga acceso a Administración &gt; Data Connectors y permite al usuario eliminar conectores de datos. |
