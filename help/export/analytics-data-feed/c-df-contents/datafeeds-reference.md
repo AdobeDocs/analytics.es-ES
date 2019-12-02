@@ -7,7 +7,7 @@ title: Referencia de columnas de datos
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Utilice esta página para conocer los datos contenidos en cada columna. La mayoría de las implementaciones no utilizan cada columna, por lo que se puede hacer referencia a esta página al determinar qué columnas incluir en una exportación de fuente de datos.
 
-> [!IMPORTANT] Para cualquier columna dada (por ejemplo, una que está definida como 255 caracteres), una fuente de datos puede enviar caracteres adicionales debido a la adición de caracteres que escapan los valores en una cadena. Tenga en cuenta este tema si la implementación envía con regularidad valores que exceden los límites de caracteres.
+> [!IMPORTANT] Para cualquier columna dada (por ejemplo, una que está definida como 255 caracteres), una fuente de datos puede enviar caracteres adicionales debido a la adición de caracteres que escapan los valores en una cadena. Tenga en cuenta estos caracteres adicionales potenciales si su implementación envía con regularidad valores que exceden los límites de caracteres.
 
 ## Columnas, descripciones y tipos de datos
 
-> [!NOTE] La mayoría de las columnas contienen una columna similar con un prefijo de `post_`. Las columnas de publicación muestran valores después de la lógica del lado del servidor, las reglas de procesamiento y las reglas de VISTA. Adobe recomienda usar columnas de publicación en la mayoría de los casos.
+> [!NOTE] La mayoría de las columnas contienen una columna similar con un prefijo de `post_`. Las columnas de publicación muestran valores después de la lógica del lado del servidor, las reglas de procesamiento y las reglas de VISTA. Adobe recomienda usar columnas de publicación en la mayoría de los casos. Consulte Preguntas más frecuentes sobre las fuentes [de datos](../df-faq.md) para obtener más información.
 
 | Nombre de la columna | Descripción de la columna | Tipo de datos |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | aemassetid | Una variable de valores múltiples que corresponde a las ID de recursos (GUID) de un conjunto de recursos de Adobe Experience Manager. Incrementa los eventos de impresión. | text |
 | aemassetsource | Identifica la fuente del evento de recursos. Se utiliza en Adobe Experience Manager. | varchar(255) |
 | aemclickedassetid | ID de recurso de un recurso de Adobe Experience Manager. Incrementa los eventos de clic. | varchar(255) |
-| browser | ID numérica del explorador. Se remite a la tabla de búsqueda de browser.tsv. | int sin firmar |
+| explorador | ID numérica del explorador. Se remite a la tabla de búsqueda de browser.tsv. | int sin firmar |
 | browser_height | Altura de la ventana del explorador en píxeles. | viruela sin firmar |
 | browser_width | Anchura de la ventana del explorador en píxeles. | viruela sin firmar |
 | c_color | Profundidad de bits de la paleta de colores. Se utiliza en el cálculo de la dimensión Profundidad de color. Utiliza la función de JavaScript screen.colorDepth(). | char(20) |
@@ -41,7 +41,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | click_context_type | Ya no se utiliza. Indica si click_context tenía un nombre de página o si estaba vinculado a la URL de la página de forma predeterminada.<br>0: Dirección URL<br>de la página 1: Nombre de la página | tinyint sin firmar |
 | click_sourceid | Ya no se utiliza. ID numérica para la ubicación dentro de la página del enlace en el que se ha hecho clic. Forma parte de la herramienta heredada Clickmap. | int sin firmar |
 | click_tag | Ya no se utiliza. Tipo de elemento HTML en el que se ha hecho clic. | char(10) |
-| clickmaplink | Página de link | varchar(255) |
+| clickmaplink | Página de  link | varchar(255) |
 | clickmaplinkbyregion | Vínculo de Activity Map por región | varchar(255) |
 | clickmappage | Página de Activity Map | varchar(255) |
 | clickmapregion | Región de Mapa de actividades | varchar(255) |
@@ -85,11 +85,11 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | homepage | Ya no se utiliza. Indicaba si la URL actual es la página de inicio del explorador. | char(1) |
 | hourly_visitor | Un indicador que determina si la visita es un visitante nuevo por hora. | tinyint sin firmar |
 | ip | Dirección IP basada en la cabecera HTTP de la solicitud de imagen. | char(20) |
-| ip2 | No se utiliza. Variable de referencia de backend para los grupos de informes que contienen reglas de VISTA basadas en una dirección IP. | char(20) |
+| ip2 | No se usa. Variable de referencia de backend para los grupos de informes que contienen reglas de VISTA basadas en una dirección IP. | char(20) |
 | j_jscript | Versión de JavaScript admitida por el explorador. | char(5) |
 | java_enabled | Indicador que señala si Java está habilitado. <br>Y: Habilitado <br>N: <br>U deshabilitada: Desconocido | char(1) |
 | javascript | ID de búsqueda de la versión de JavaScript basado en j_jscript. Utiliza la tabla de búsqueda. | tinyint sin firmar |
-| language | ID numérica de idioma. Utiliza la tabla de búsqueda de languages.tsv. | viruela sin firmar |
+| idioma | ID numérica de idioma. Utiliza la tabla de búsqueda de languages.tsv. | viruela sin firmar |
 | last_hit_time_gmt | Marca de tiempo (en Tiempo Unix) de la visita anterior. Se utiliza para calcular la dimensión Días desde la última visita. | int |
 | last_purchase_num | Variable utilizada en la dimensión Lealtad del cliente. Indica la cantidad de compras anteriores que realizó el visitante. <br>0: Sin compras previas (no cliente) <br>1: 1 compra anterior (nuevo cliente) <br>2: 2 compras anteriores (cliente de devolución) <br>3: 3 o más compras anteriores (cliente fiel) | int sin firmar |
 | last_purchase_time_gmt | Se utiliza para calcular la dimensión Días desde la última compra. Marca de tiempo (en Tiempo Unix) de la última compra realizada. Para la primera compra y para los visitantes que no hayan realizado ninguna compra anteriormente, este valor es 0. | int |
@@ -97,7 +97,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | latlon23 | Ubicación (menos de 100 m) | varchar(255) |
 | latlon45 | Ubicación (menos de 1 m) | varchar(255) |
 | mc_audiences | Lista de las ID de segmento de Audience Manager a los que pertenece el visitante. | text |
-| mcvisid | ID de visitante de Experience Cloud. Número de 128 bits que consiste en dos números de 64 bits concatenados aumentados a 19 dígitos. | varchar(255) |
+| mcvisid | el ID de visitante de Experience Cloud. Número de 128 bits que consiste en dos números de 64 bits concatenados aumentados a 19 dígitos. | varchar(255) |
 | mobile_id | Si el usuario utiliza un dispositivo móvil, el ID numérico del dispositivo. | int |
 | mobileaction | Acción móvil. Se recopila automáticamente cuando se llama a trackAction en Mobile Services. Permite establecer automáticamente las rutas de acción en la aplicación. | varchar(100) |
 | mobileappid | ID de la aplicación móvil. Almacena el nombre y la versión de la aplicación en el siguiente formato:[AppName] [BundleVersion] | varchar(255) |
@@ -142,7 +142,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | mobileresolution | Resolución del dispositivo móvil. Anchura por altura en píxeles. | varchar(255) |
 | monthly_visitor | Un indicador que señala que el visitante es exclusivo del mes actual. | tinyint sin firmar |
 | mvvar1 - mvvar3 | Valores de variable de lista. Contiene una lista delimitada de valores personalizados en función de la implementación. | text |
-| namespace | No se utiliza. Hace muchos años, formaba parte de una función que luego se descartó. | varchar(50) |
+| namespace | No se usa. Hace muchos años, formaba parte de una función que luego se descartó. | varchar(50) |
 | new_visit | Un indicador que determina si la visita actual es una nueva visita. Los servidores de Adobe lo establecen después de 30 minutos de inactividad de la visita. | tinyint sin firmar |
 | os | ID numérica que representa el sistema operativo del visitante. Se basa en la columna user_agent. Utiliza la búsqueda de os. | int sin firmar |
 | p_plugins | Ya no se utiliza. Lista de plugins disponibles para el explorador. Utilizaba la función de JavaScript navigator.plugins(). | text |
@@ -154,21 +154,21 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | page_url | La URL de la visita. No se utiliza en las solicitudes de imagen de seguimiento de vínculos. | varchar(255) |
 | pagename | Se utiliza para completar la dimensión Páginas. Si la variable de nombre de página está vacía, Analytics utiliza page_url en su lugar. | varchar(100) |
 | paid_search | Un indicador que se establece si la visita coincide con la detección de búsquedas de pago. | tinyint sin firmar |
-| partner_plugins | No se utiliza. Hace muchos años, formaba parte de una función que luego se descartó. | varchar(255) |
+| partner_plugins | No se usa. Hace muchos años, formaba parte de una función que luego se descartó. | varchar(255) |
 | persistent_cookie | La utiliza la dimensión Compatibilidad con cookies persistentes. Indica si el visitante admite las cookies que no se descartan después de cada visita. | char(1) |
 | plugins | Ya no se utiliza. Lista de ID numéricas que corresponden a los plugins disponibles dentro del explorador. Utiliza la búsqueda de plugins.tsv. | varchar(180) |
 | pointofinterest | Nombre del punto de interés de Mobile Services | varchar(255) |
 | pointofinterestdistance | Distancia de Mobile Services al centro de puntos de interés | varchar(255) |
 | post_ columns | Contiene el valor definitivo que se ha utilizado en los informes. Cada columna de publicación se completa después de la lógica del lado del servidor, las reglas de procesamiento y las reglas de VISTA. Adobe recomienda usar columnas de publicación en la mayoría de los casos. | Consulte la correspondiente columna de no publicación |
-| prev_page | No se utiliza. Identificador de la página anterior registrada de Adobe | int sin firmar |
+| prev_page | No se usa. Identificador de la página anterior registrada de Adobe | int sin firmar |
 | product_list | Lista de productos tal como se transmite mediante la variable de productos. Los productos están delimitados por comas, mientras que las propiedades de los productos individuales están delimitadas por punto y coma. | text |
-| product_merchandising | No se utiliza. Se usa product_list en su lugar. | text |
+| product_merchandising | No se usa. Se usa product_list en su lugar. | text |
 | prop1 - prop75 | Variables de tráfico personalizadas 1-75. | varchar(100) |
 | purchaseid | Identificador exclusivo de una compra como se establece mediante la variable s_purchaseID. Lo utiliza la columna duplicate_purchase. | char(20) |
 | quarterly_visitor | Un indicador que determina si la visita es un visitante nuevo trimestral. | tinyint sin firmar |
 | ref_domain | Se basa en la columna de referentes. El dominio de referencia de la visita. | varchar(100) |
 | ref_type | Una ID numérica que representa el tipo de referente de la visita.<br>1: Dentro del sitio<br>2: Otros sitios web <br>3: Motores de búsqueda <br>4: Disco duro <br>5: USENET <br>6: Escritos o marcadores (sin referente) <br>7: Correo electrónico <br>8: Sin JavaScript <br>9: Redes sociales | tinyint sin firmar |
-| referrer | URL de la página anterior. | varchar(255) |
+| referente | URL de la página anterior. | varchar(255) |
 | resolution | ID numérico que representa la resolución del monitor. Completa la dimensión Resolución del monitor. Utiliza la tabla de búsqueda de resolution.tsv. | viruela sin firmar |
 | s_kwcid | ID de palabra clave utilizado en integraciones de Adobe Advertising Cloud. | varchar(255) |
 | s_resolution | Valor no procesado de resolución de pantalla. Se recopila mediante la función de JavaScript screen.width x screen-height. | char(20) |
@@ -176,7 +176,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | search_engine | ID numérica que representa el Motor de búsqueda que refirió al visitante a su sitio. Utiliza la búsqueda de search_engines.tsv. | viruela sin firmar |
 | search_page_num | Lo utiliza la dimensión Rango de todas las páginas de búsqueda. Indica en qué página de resultados de búsqueda apareció su sitio antes de que el usuario hiciera clic para acceder a su sitio. | viruela sin firmar |
 | secondary_hit | Indicador que hace un seguimiento de las visitas secundarias. Por lo general, se origina a partir del etiquetado de grupos múltiples y las reglas de VISTA que copian las visitas. | tinyint sin firmar |
-| service | No se utiliza. Se usa page_event en su lugar. | char(2) |
+| service | No se usa. Se usa page_event en su lugar. | char(2) |
 | socialaccountandappids | Ya no se utiliza. Cuenta social e ID de aplicación. | varchar(255) |
 | socialassettrackingcode | Ya no se utiliza. Variable de campaña en redes sociales. | varchar(255) |
 | socialauthor | Ya no se utiliza. Variable de autores en redes sociales. | varchar(255) |
@@ -214,7 +214,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | va_finder_id | ID numérica que identifica la dimensión Canal del primer contacto. La búsqueda de esta ID se puede encontrar en el Administrador de canales de marketing. | tinyint sin firmar |
 | va_instance_event | Indicador que identifica las instancias de Canal de marketing. Lo utiliza la métrica de Instancias de último contacto de canal de marketing. | tinyint sin firmar |
 | va_new_engagement | Indicador que identifica las nuevas interacciones en canales de marketing. Lo utiliza la métrica de Nuevas interacciones. | tinyint sin firmar |
-| video | Contenido de vídeo | varchar(255) |
+| vídeo | Contenido de vídeo | varchar(255) |
 | videoad | Nombre del anuncio de vídeo | varchar(255) |
 | videoadinpod | Anuncio de vídeo en posición de pod | varchar(255) |
 | videoadlength | Duración de la publicidad de vídeo | varchar(255) |
