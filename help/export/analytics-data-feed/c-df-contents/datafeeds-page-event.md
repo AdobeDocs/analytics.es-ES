@@ -6,7 +6,7 @@ title: Búsqueda de eventos de página
 topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -15,47 +15,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 La tabla de búsqueda para determinar el tipo de visita basándose en el valor de page_event.
 
-<table id="table_33AF375E0B41474696D7A4A92C652A5F"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Tipo de visita </th> 
-   <th colname="col02" class="entry"> valor de page_event </th> 
-   <th colname="col2" class="entry"> valor de post_page_event </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> Vistas de páginas </td> 
-   <td colname="col02"> el mismo que el posterior </td> 
-   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0 para las llamadas <code> trackState </code> desde los SDK para móviles. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Seguimiento de vínculos  </td> 
-   <td colname="col02"> <p>10 para "otro vínculo" </p> <p>10 para llamadas <code> trackAction </code> y del ciclo vital desde los SDK para móviles. </p> <p>11 para "vínculo de descarga" </p> <p>12 para "vínculo externo o de salida" </p> </td> 
-   <td colname="col2"> <p>100 para "otro vínculo" </p> <p>100 para llamadas <code> trackAction </code> y del ciclo vital desde los SDK para móviles. </p> <p>101 para "vínculo de descarga" </p> <p>102 para "vínculo externo o de salida" </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Vídeo de hitos </td> 
-   <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31: evento de inicio de recursos multimedia </p> <p>32: único evento de actualización de recursos multimedia (no realiza ninguna eVar ni el procesamiento de otra variable) </p> <p>33: evento de actualización de recursos multimedia + de otra variable (incluye eVar y el procesamiento de otra variable) </p> </td> 
-   <td colname="col2"> 
-    <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76: evento de inicio de recursos multimedia </p> <p>77: único evento de actualización de recursos multimedia (no realiza ninguna eVar ni el procesamiento de otra variable) </p> <p>78: evento de actualización de recursos multimedia + de otra variable (incluye eVar y el procesamiento de otra variable) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Vídeo de monitoreo del funcionamiento </p> </td> 
-   <td colname="col02"> el mismo que el posterior </td> 
-   <td colname="col2"> <p> 50 = inicio del flujo de recursos multimedia (que no sea Primetime) </p> <p> 51 = cierre del flujo de recursos multimedia (que no sea Primetime), completo o finalizado </p> <p> 52 = limpieza del flujo de recursos multimedia (que no sea Primetime) </p> <p> 53 = mantener vivo el flujo de recursos multimedia (que no sea Primetime) </p> <p> 54 = inicio publicitario del flujo de recursos multimedia (que no sean Primetime) </p> <p> 55 = cierre publicitario del flujo de recursos multimedia (que no sea Primetime), completo o finalizado </p> <p> 56 = limpieza publicitaria del flujo de recursos multimedia (que no sean Primetime) </p> <p> 60 = inicio del flujo de recursos multimedia Primetime </p> <p> 61 = cierre del flujo de recursos multimedia Primetime (completo o finalizado) </p> <p> 62 = limpieza del flujo de recursos multimedia Primetime </p> <p> 63 = mantener vivo el flujo de recursos multimedia Primetime </p> <p> 64 = inicio publicitario del flujo de recursos multimedia Primetime </p> <p> 65 = cierre publicitario del flujo de recursos multimedia Primetime (completo o finalizado) </p> <p> 66 = limpieza publicitaria del flujo de recursos multimedia Primetime </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Survey </td> 
-   <td colname="col02"> 40 </td> 
-   <td colname="col2"> 80 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Analytics para Target </td> 
-   <td colname="col02"> 70: indica una visita que incluye datos de actividad de Target. Se aplica a visitas asociadas o no asociadas a una llamada de Analytics. </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Tipo de visita | `page_event` valor | `post_page_event` valor |
+| --- | --- | --- |
+| Vistas de páginas | 0: Todas las llamadas y llamadas de vistas de páginas desde SDK móviles `trackState` | El mismo valor que `post_page_event` |
+| Seguimiento de vínculos  | 10: Vínculos personalizados y `trackAction` llamadas en SDK móvil<br>11: Vínculos<br>de descarga 12: Vínculos de salida | 100: Vínculos personalizados y `trackAction` llamadas en SDK móvil's<br>101: Vínculos<br>de descarga 102: Vínculos de salida |
+| Vídeo de hitos | 31: Inicio<br>de medios 32: Actualizaciones de medios (sin otro procesamiento de variables)<br>33: Actualizaciones de medios (con otras variables) | 76: Media start<br>77: Actualizaciones de medios (sin otro procesamiento de variables)<br>78: Actualizaciones de medios (con otras variables) |
+| Vídeo de monitoreo del funcionamiento | 50: Inicio del flujo de medios (que no sea Primetime)<br>51: Cierre del flujo de medios (que no sea Primetime)<br>52: Eliminación de flujo de medios (que no sea Primetime)<br>53: El flujo de medios se mantiene vivo (no Primetime)<br>54: Inicio de anuncio de flujo de medios (que no sea Primetime)<br>55: Cierre de anuncio de flujo de medios (que no sea Primetime)<br>56: Depuración de anuncios de flujo de medios (que no sea Primetime)<br>60: Inicio<br>del flujo de medios Primetime 61: Primetime media stream close<br>62: Limpieza del flujo de medios Primetime<br>63: Primetime, flujo de medios mantiene vivo<br>64: Primetime flujo de medios y inicio<br>65: Primetime media stream y close<br>66: Eliminación de anuncios de flujo de medios Primetime | El mismo valor que `post_page_event` |
+| Encuesta | 40: Cualquier llamada generada desde Survey | 80: Cualquier llamada generada desde Survey |
+| Analytics para Target | 70: La visita individual incluye datos de actividad de Target | El mismo valor que `post_page_event` |
