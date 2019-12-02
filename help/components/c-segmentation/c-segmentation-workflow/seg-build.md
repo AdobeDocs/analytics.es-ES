@@ -5,16 +5,14 @@ title: Generar segmentos
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: a50b08cba865b61bc647ba6af9e678ef8edfe3bc
 
 ---
 
 
 # Generador de segmentos
 
-El Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
-
-El [!UICONTROL Generador de segmentos] proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
+The [!UICONTROL Segment Builder] provides a canvas to drag and drop Metrics, Dimensions, Segments, and Events to segment visitors based on container hierarchy logic, rules, and operators. Esta herramienta de desarrollo integrado le permite generar y guardar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
 
 >[!IMPORTANT]
 >
@@ -22,23 +20,23 @@ El [!UICONTROL Generador de segmentos] proporciona un lienzo al que arrastrar y 
 
 Existen varias formas de acceder al Generador de segmentos:
 
-* **Navegación** superior de Analytics: Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Segmentos]**.
-* **[!UICONTROL Espacio de trabajo]** de análisis: Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Espacio de trabajo]**, abra un proyecto y haga clic en **[!UICONTROL + Nuevo]** &gt; **[!UICONTROL Crear segmento]**.
-* **[!UICONTROL Informes y análisis]**: Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]**, abra un informe existente, haga clic en el icono Segmentos ![](assets/segment_icon.png) en el panel de navegación izquierdo y, a continuación, haga clic en **[!UICONTROL Agregar]**.
-* **[!UICONTROL Análisis]** específicos: [Generar segmentos en análisis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments)específicos.
-* **[!UICONTROL Creador]** de informes: [Agregue o edite segmentos en el Creador](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)de informes.
+* **Navegación superior de Analytics**: Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Segmentos]**.
+* **[!UICONTROL Analysis Workspace]**: Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, abra un proyecto y haga clic en **[!UICONTROL + Nuevo]** &gt; **[!UICONTROL Crear segmento]**.
+* **[!UICONTROL Reports &amp; Analytics]** Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]**, abra un informe existente y haga clic en el icono Segmentos ![](assets/segment_icon.png) en la navegación izquierda; a continuación, haga clic en **[!UICONTROL Agregar]**.
+* **[!UICONTROL Ad Hoc Analysis]**: [Generar segmentos en Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
+* **[!UICONTROL Report Builder]**: [Añadir o editar segmentos en Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html).
 
-## Segment Builder user interface {#concept_643F2DF74C544796B58F4656ABC5F726}
+## Interfaz de usuario del Generador de segmentos {#concept_643F2DF74C544796B58F4656ABC5F726}
 
 El [!UICONTROL Generador de segmentos] le permite generar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas. Proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, eventos u otros segmentos para segmentar a visitantes en función de la lógica, las reglas y los operadores de la jerarquía.
 
-## Características de la interfaz de usuario web {#section_F61C4268A5974C788629399ADE1E6E7C}
+## Características de la interfaz de usuario web  {#section_F61C4268A5974C788629399ADE1E6E7C}
 
-El [!UICONTROL Generador de segmentos] le permite generar y editar segmentos en la interfaz de usuario web (o en una [interfaz de usuario de Java en Análisis específicos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)). Puede agregar definiciones de reglas y contenedores para refinar sus segmentos, apilar segmentos y anidarlos para refinarlos. También puede validar cuántas vistas de páginas, visitas y visitantes únicos tiene como resultado su definición de segmento actual. Luego puede guardar el segmento por si lo necesita posteriormente.
+El [!UICONTROL Generador de segmentos] le permite generar y editar segmentos en la interfaz de usuario web (o en una [interfaz de usuario de Java en Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)). Puede agregar definiciones de reglas y contenedores para refinar sus segmentos, apilar segmentos y anidarlos para refinarlos. También puede validar cuántas vistas de páginas, visitas y visitantes únicos tiene como resultado su definición de segmento actual. Luego puede guardar el segmento por si lo necesita posteriormente.
 
 Acceda al Generador de segmentos de una de las siguientes maneras::
 
-* Muestre un informe existente y haga clic en el icono de Segmentos ![ en el menú de navegación de la izquierda. ](assets/segment_icon.png) Haga clic en **[!UICONTROL Añadir en el carril de segmentos que se muestra]**.
+* Muestre un informe existente y haga clic en el icono de Segmentos ![](assets/segment_icon.png) en el menú de navegación de la izquierda. Haga clic en **[!UICONTROL Añadir en el carril de segmentos que se muestra]**.
 
 * En el Administrador de segmentos, haga clic en **[!UICONTROL + Agregar]**.
 * Haciendo clic en un título de segmento existente en el Administrador de segmentos para editarlo en el Generador de segmentos.
@@ -47,16 +45,16 @@ Acceda al Generador de segmentos de una de las siguientes maneras::
 
 1. **[!UICONTROL Título]**: Permite asignar un nombre al segmento o cambiarlo por otro.
 1. **[!UICONTROL Descripción]**: Proporcione una descripción para el segmento. Debe proporcionar una descripción si desea compartir el segmento.
-1. **[!UICONTROL Etiquetas]**: [Etiquete el segmento](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) que esté creando eligiendo de una lista de etiquetas existentes o creando una nueva etiqueta.
-1. **[!UICONTROL Definiciones]**: Aquí es donde se [generan y configuran segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), se agregan reglas y se anidan y secuencian contenedores. Permite introducir una descripción del nuevo segmento seleccionando el contenedor y arrastrando y soltando las dimensiones, los segmentos o las métricas en la definición.
-1. **[!UICONTROL Mostrar]**: (Selector de contenedor superior). Lets you select the top-level [container](/help/components/c-segmentation/seg-overview.md) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). El contenedor de nivel superior predeterminado es el contenedor de visita individual.
-1. **[!UICONTROL Opciones]**: Icono (de engranaje)
+1. **[!UICONTROL Etiquetas]**: [ Etiquete el segmento](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) que va a generar seleccionando las etiquetas existentes en una lista o creando una etiqueta nueva.
+1. **[!UICONTROL Definiciones]**: Esta es la zona de trabajo donde [se generan y configuran segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md), se agregan reglas y se anidan y secuencian contenedores. Permite introducir una descripción del nuevo segmento seleccionando el contenedor y arrastrando y soltando las dimensiones, los segmentos o las métricas en la definición.
+1. **[!UICONTROL Mostrar]**: (Selector de contenedor superior). Le permite seleccionar el nivel de [contenedor](/help/components/c-segmentation/seg-overview.md) superior ([!UICONTROL visitante], [!UICONTROL visita] o [!UICONTROL visita individual]). El contenedor de nivel superior predeterminado es el contenedor de visita individual.
+1. Icono de **[!UICONTROL opciones]** (engranaje)
 
    * **[!UICONTROL + Agregar contenedor]**: le permite agregar un contenedor nuevo (bajo el contenedor de nivel superior) a la definición del segmento.
    * **[!UICONTROL + Agregar contenedor desde selección]**: le permite crear un nuevo contenedor a partir del elemento o elementos que haya seleccionado en el campo Definiciones.
    * **[!UICONTROL Excluir]**: permite definir el segmento excluyendo una o más dimensiones, segmentos o métricas.
 
-1. **[!UICONTROL Modelos]** de atribución: Para la segmentación de dimensiones. Los modelos de dimensión son especialmente útiles en la segmentación secuencial, como en aquellos que admiten visualizaciones de flujo:
+1. **[!UICONTROL Modelos de atribución]**: Para la segmentación de dimensiones. Los modelos de dimensión son especialmente útiles en la segmentación secuencial, como en aquellos que admiten visualizaciones de flujo:
 
    * **[!UICONTROL Repetir]** (predeterminado): Incluye instancias y valores persistentes para la dimensión.
    * **[!UICONTROL Instancia]**: Incluye instancias para la dimensión.
@@ -64,25 +62,25 @@ Acceda al Generador de segmentos de una de las siguientes maneras::
    ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL Dimensiones]**: Las dimensiones se arrastran y se sueltan desde la lista Dimensiones (barra lateral naranja).
-1. **[!UICONTROL Comparación]**: Puede comparar y restringir valores usando operadores seleccionados.
-1. **[!UICONTROL Valor]**: El valor introducido o seleccionado para la dimensión, segmento o métrica.
-1. **[!UICONTROL Y/O/Entonces]**: Asigna los operadores [!UICONTROL Y/O/ENTONCES] entre contenedores o reglas. The THEN operator lets you [define sequential segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
-1. **[!UICONTROL Métrica]**: Métrica (barra lateral verde) que se arrastró y soltó desde la lista Métricas.
-1. **[!UICONTROL Operador de comparación]** : Puede comparar y restringir valores usando operadores seleccionados.
-1. **[!UICONTROL Valor]**: El valor introducido o seleccionado para la dimensión, segmento o métrica.
-1. **[!UICONTROL X]**: (Eliminar) Permite eliminar esta parte de la definición del segmento.
-1. **[!UICONTROL Guardar]** o **[!UICONTROL Cancelar]**: Guarda o cancela el segmento. After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
-1. **[!UICONTROL Buscar]**: Busca la lista de dimensiones, segmentos o métricas.
+1. **[!UICONTROL Comparación]**: Puede comparar y restringir valores utilizando una selección de operadores.
+1. **[!UICONTROL Valor]**: Valor introducido o seleccionado para la dimensión, el segmento o la métrica.
+1. **[!UICONTROL And/Or/Then]**: Asigna los operadores [!UICONTROL AND/OR/THEN] entre contenedores o reglas. El operador THEN le permite [definir segmentos secuenciales](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
+1. **[!UICONTROL Métrica]**: Métrica arrastrada y soltada a partir de la lista Métricas.
+1. Operador de **[!UICONTROL comparación]**: Puede comparar y restringir valores utilizando una selección de operadores.
+1. **[!UICONTROL Valor]**: Valor introducido o seleccionado para la dimensión, el segmento o la métrica.
+1. **[!UICONTROL X]**: Le permite eliminar esta parte de una definición de segmento.
+1. **[!UICONTROL Guardar]** o **[!UICONTROL Cancelar]**: Guarda o cancela el segmento. Después de hacer clic en **[!UICONTROL Guardar]**, se le redirigirá al Administrador de segmentos, donde podrá administrar el segmento en cuestión.
+1. **[!UICONTROL Buscar]**: Permite buscar la lista de dimensiones, segmentos o métricas.
 1. **[!UICONTROL Dimensiones]**: (Lista) Haga clic en el encabezado para ampliarlo.
-1. **[!UICONTROL Métricas]**: Haga clic en el encabezado para expandirlo.
-1. **[!UICONTROL Segmentos]**: Haga clic en el encabezado para expandirlo.
-1. **[!UICONTROL Selector]** de grupos de informes: Permite seleccionar el grupo de informes en el que se guardará este segmento. Puede seguir utilizando el segmento en todos los grupos de informes.
-1. **[!UICONTROL Vista previa]** del segmento: Permite obtener una vista previa de las métricas clave para ver si tiene un segmento válido y cuán amplio es el segmento. Representa el desglose del conjunto de datos que verá si aplica este segmento. Muestra tres círculos concéntricos y una lista para indicar el número y el porcentaje de coincidencias de [!UICONTROL visitas individuales], [!UICONTROL visitas] y [!UICONTROL visitantes] de un segmento comparado con un conjunto de datos. Esta tabla se actualiza inmediatamente después de crear o cambiar la definición del segmento.
-1. **[!UICONTROL Compatibilidad]** del producto: Proporciona una lista de los productos de Adobe Analytics (Analysis Workspace, [!UICONTROL Informes y análisis], Análisis específicos, Almacén de datos) con los que el segmento que ha creado es compatible. La mayoría de los segmentos son compatibles con todos los productos. Sin embargo, no todos los operadores y dimensiones son compatibles con todos los productos de Analytics, en especial [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Esta tabla se actualiza inmediatamente después de cambiar la definición del segmento.
+1. **[!UICONTROL Métricas]**: Haga clic en el encabezado para ampliarlo.
+1. **[!UICONTROL Segmentos]**: Haga clic en el encabezado para ampliarlo.
+1. **[!UICONTROL Selector de grupo de informes]**: Le permite seleccionar el grupo de informes en el que se guardará este segmento. Puede seguir utilizando el segmento en todos los grupos de informes.
+1. **[!UICONTROL Previsualización de segmento]**: Le permite previsualizar las métricas clave para comprobar si tiene un segmento válido y ver su amplitud. Representa el desglose del conjunto de datos que verá si aplica este segmento. Muestra tres círculos concéntricos y una lista para indicar el número y el porcentaje de coincidencias de [!UICONTROL visitas individuales], [!UICONTROL visitas] y [!UICONTROL visitantes] de un segmento comparado con un conjunto de datos. Esta tabla se actualiza inmediatamente después de crear o cambiar la definición del segmento.
+1. **[!UICONTROL Compatibilidad de producto]**: Proporciona una lista de los productos de Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) con los que es compatible el segmento que ha creado. La mayoría de los segmentos son compatibles con todos los productos. Sin embargo, no todos los operadores y dimensiones son compatibles con todos los productos de Analytics, en especial  [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Esta tabla se actualiza inmediatamente después de cambiar la definición del segmento.
 
-Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports &amp; Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports &amp; Analytics] gives you the intersection of the report date range and the segment's embedded date range.
+Los segmentos con intervalos de fechas incorporados siguen operando en Analysis Workspace de forma distinta a como lo hacen en [!UICONTROL Reports &amp; Analytics]. En Workspace, un segmento con un intervalo de fechas integrado anula el intervalo de fechas del panel. Por su parte, en [!UICONTROL Reports &amp; Analytics] se emplea la intersección del intervalo de fechas del informe y el intervalo de fechas integrado del segmento.
 
-**[!UICONTROL Publicar en Experience Cloud (para`<report suite name>`)]**: (No se muestra en pantalla) Esta opción solo aparece si el grupo de informes en el que está guardando este segmento está [habilitado para Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. Es necesario introducir un título y una descripción de segmento.
+**[!UICONTROL Publicar en Experience Cloud (para`<report suite name>`)]**: (No se muestra en pantalla) Esta opción solo aparece si el grupo de informes en el que está guardando este segmento está [habilitado para Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Al publicar un segmento en Experience Cloud, puede utilizarlo para la actividad de marketing en la [!UICONTROL biblioteca de audiencias], en [!DNL Target] y en [!DNL Audience Manager]. Es necesario introducir un título y una descripción de segmento.
 
 > [!NOTE] En Analytics, puede editar o eliminar un segmento publicado. Si el segmento se encuentra en uso, aparece un mensaje de advertencia al editar un segmento. No puede eliminar un segmento publicado que Adobe [!DNL Target] esté usando.
 
@@ -90,11 +88,11 @@ Segments with embedded date ranges continue to operate differently in Analysis W
 
 >[!IMPORTANT]
 >
->Debe limitar el número de audiencias compartidas de Analytics a 20 para evitar retrasos de procesamiento adicionales. Las audiencias compartidas en Experience Cloud desde Analytics no pueden superar los 20 millones de miembros únicos. Además, debido al almacenamiento en caché, los grupos de informes eliminados en Analytics tardan 12 horas en desaparecer de Experience Cloud.
+>Debe limitar la cantidad de audiencias compartidas de Analytics a 20 para evitar retrasos de procesamiento adicionales. Las audiencias compartidas en Experience Cloud desde Analytics no pueden superar los 20 millones de miembros únicos. Además, debido al almacenamiento en caché, los grupos de informes eliminados en Analytics tardan 12 horas en desaparecer de Experience Cloud.
 
 >[!IMPORTANT]
 >
->Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], [!DNL Advertising Cloud], and [!DNL Campaign].
+>Una vez que un visitante se califica para la audiencia compartida desde Analytics, deben pasar de 24 a 48 horas antes de que pueda realizarse alguna acción sobre esa información en [!DNL Target], [!DNL Advertising Cloud] y [!DNL Campaign].
 
 ## Generar segmentos {#build-segments}
 
@@ -102,20 +100,20 @@ Segments with embedded date ranges continue to operate differently in Analysis W
 
    ![](assets/drag_n_drop_dimension.png)
 
-   El contenedor de [!UICONTROL visita individual] de nivel superior predeterminado se muestra tras arrastrar un elemento a [!UICONTROL Definiciones]. Puede cambiar el tipo de contenedor a visita o visitante desde el menú desplegable **[!UICONTROL Mostrar].**
+   El contenedor de [!UICONTROL visita individual] de nivel superior predeterminado se muestra tras arrastrar un elemento a [!UICONTROL Definiciones]. Puede cambiar el tipo de contenedor a visita o visitante desde el menú desplegable **[!UICONTROL Mostrar]**.
 
 1. Establezca el [operador](/help/components/c-segmentation/seg-reference/seg-operators.md) en el menú desplegable.
 1. Introduzca o seleccione un valor para el elemento seleccionado.
-1. Add additional containers if needed, using **[!UICONTROL And]**, **[!UICONTROL Or]**, or **[!UICONTROL Then]** rules.
+1. Agregue contenedores adicionales si es necesario, utilizando las reglas **[!UICONTROL And]**, **[!UICONTROL Or]** o **[!UICONTROL Then]**.
 1. Después de colocar los contenedores y configurar las reglas, consulte los resultados del segmento en la tabla de validación, en la parte superior derecha. El validador indica el porcentaje y el número absoluto de vistas de la página, visitas y visitantes únicos que coinciden con el segmento que ha creado.
-1. Under **[!UICONTROL Tags]**, [tag](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md) the container by selecting an existing tag or creating a new one.
-1. Haga clic en **[!UICONTROL Guardar]para guardar el segmento.**
+1. En **[!UICONTROL Etiquetas]**, [etiquete](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md) el contenedor seleccionando una etiqueta existente o creando una nueva.
+1. Haga clic en **[!UICONTROL Guardar]** para guardar el segmento.
 
-Ahora se le redirige al Administrador [de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md), donde puede etiquetar, compartir y administrar el segmento de varias formas.
+Ahora se le redirige al [Administrador de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md), donde puede etiquetar, compartir y administrar el segmento de varias formas.
 
-## Build and nest containers {#section_1C38F15703B44474B0718CEF06639EFD}
+## Generar y anidar contenedores {#section_1C38F15703B44474B0718CEF06639EFD}
 
-You can [build a framework of containers](/help/components/c-segmentation/seg-overview.md) and then place logic rules and operators between.
+Puede [generar un marco de contenedores](/help/components/c-segmentation/seg-overview.md) y luego colocar reglas lógicas y operadores entre medias.
 
 1. Haga clic en **[!UICONTROL Opciones &gt; Agregar contenedor]**.
 
@@ -127,23 +125,23 @@ You can [build a framework of containers](/help/components/c-segmentation/seg-ov
 
 1. Cambie el tipo de contenedor según sea necesario.
 1. Arrastre una dimensión, segmento o evento desde el panel izquierdo al contenedor.
-1. Continue to add new containers from the top-level **[!UICONTROL Options]** &gt; **[!UICONTROL Add container]** button at the top of the definition, or add containers from within a container to nest logic.
+1. Siga agregando nuevos contenedores desde el botón **[!UICONTROL Opciones]** &gt; **[!UICONTROL Agregar contenedores]** del nivel superior situado en la parte superior de la definición o agregue contenedores desde dentro de un contenedor para anidar la lógica.
 
-   **O**
+   **OR**
 
-   Select one or more rules and then click **[!UICONTROL Options]** &gt; **[!UICONTROL Add container from selection]**. Esto convierte su selección en un contenedor separado.
+   Seleccione una o más reglas y luego haga clic en **[!UICONTROL Opciones]** &gt; **[!UICONTROL Agregar contenedor desde selección]**. Esto convierte su selección en un contenedor separado.
 
-## Use date ranges in segments {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
+## Usar intervalos de fechas en los segmentos {#concept_252A83D43B6F4A4EBAB55F08AB2A1ACE}
 
 Puede generar segmentos que contienen intervalos de fechas móviles para responder a preguntas sobre campañas o eventos en curso.
 
-Por ejemplo: puede crear fácilmente un segmento que incluya a "todos los que hayan realizado una compra en los últimos 60 días".
+Por ejemplo, puede crear fácilmente un segmento que incluya a “todas las personas que hayan efectuado una compra en los últimos 60 días”.
 
-Usted crea un contenedor de visita y, dentro del mismo, agrega el intervalo temporal [!UICONTROL Últimos 60 días] y la métrica [!UICONTROL Pedidos es mayor o igual que 1], con un operador Y:
+Usted crea un contenedor de visita y, dentro del mismo, agrega el intervalo temporal [!UICONTROL Últimos 60 días] y la métrica [!UICONTROL Pedidos es mayor o igual que 1], con un operador AND:
 
 ![](assets/date-ranges.png)
 
-## Stack segments {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
+## Apilar segmentos {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
 El apilamiento de segmentos funciona mediante la combinación de criterios en cada segmento utilizando un operador "y", y luego aplicando los criterios combinados.
 
@@ -160,12 +158,12 @@ Si utiliza el apilamiento de segmentos, puede reducir el número de segmentos a 
 * Un segmento para usuarios de tabletas.
 * 20 segmentos para las diferentes zonas geográficas.
 
-> [!NOTE] Al apilar dos segmentos, se unen de forma predeterminada mediante una instrucción Y. No es posible cambiarlo a una instrucción O.
+> [!NOTE] Al apilar dos segmentos, se unen de manera predeterminada con una instrucción AND. No es posible cambiarlo a una instrucción OR.
 
 1. Vaya al Generador de segmentos.
 1. Introduzca un título y una descripción para el segmento.
 
-   Resultado (1). Haga clic en **[!UICONTROL Mostrar segmentos]para que aparezca la lista de segmentos en el panel de navegación izquierdo.**
+   Resultado (1). Haga clic en **[!UICONTROL Mostrar segmentos]** para que aparezca la lista de segmentos en el panel de navegación izquierdo.
 
    Resultado (1). Arrastre y suelte los segmentos que desea apilar en el lienzo de definición del segmento. A continuación se muestra un ejemplo de un segmento que apila los segmentos existentes "Visitas desde tabletas" y "Geografía EE. UU.":
 
@@ -175,11 +173,11 @@ Si utiliza el apilamiento de segmentos, puede reducir el número de segmentos a 
 
    Resultado de los pasos
 
-## Use segment templates {#concept_5098446CC78D441E93B8E4D1D1EA6558}
+## Usar plantillas de segmentos {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
 Las plantillas representan los antiguos segmentos preconfigurados y de grupo.
 
-In the Segment Manager, click **[!UICONTROL Add]**, which takes you to the Segment Builder. Now click the Segments icon  ![](assets/segment_icon.png)
+En el Administrador de segmentos, haga clic en **[!UICONTROL Agregar]**, que le lleva al Generador de segmentos. A continuación, haga clic en el icono Segmentos ![](assets/segment_icon.png)
 
 para que aparezca el carril del segmento. Las plantillas de segmentos aparecen en la parte inferior de la lista de segmentos. Las distinguirá por el icono de carpeta que aparece a la izquierda del nombre de la plantilla:
 
@@ -270,7 +268,7 @@ Puede arrastrar estas plantillas al lienzo de definiciones y utilizarlas tal y c
  </tbody> 
 </table>
 
-## Example: Campaign visitors segment {#concept_61AC6115097B4EB3AEFE8CE98F38315D}
+## Ejemplo: Segmento de visitantes de Campaign {#concept_61AC6115097B4EB3AEFE8CE98F38315D}
 
 Muestra un ejemplo de este segmento frecuentemente utilizado.
 
