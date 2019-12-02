@@ -1,58 +1,33 @@
 ---
 product: analytics
-audience: usuario final
-user-guide-title: Guía de exportación de Analytics
-user-guide-url: /content/help/es-ES/analytics/export/home.html
-translation-type: ht
-source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
+audience: end-user
+user-guide-title: Analytics Export Guide
+user-guide-url: /content/help/en/analytics/export/home.html
+translation-type: tm+mt
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
 
 # Guía de exportación de Analytics {#export}
 
-+ [Ayuda de exportación de Analytics](home.md)
++ [Inicio de la exportación de Analytics](home.md)
 + Fuente de datos de Analytics{#analytics-data-feed}
-   + Introducción {#get-started}
-      + [Resumen de la fuente de datos de Analytics](analytics-data-feed/c-getstarted/data-feed-overview.md)
-      + [Terminología](analytics-data-feed/c-getstarted/datafeeds-terminology.md)
-      + [Prácticas recomendadas e información general](analytics-data-feed/c-getstarted/data-feeds-best-practices.md)
-   + Interfaz de la fuente de datos{#data-feed-ui}
-      + [Abrir la interfaz de la fuente de datos](analytics-data-feed/c-data-feed-ui/t-open-data-feed.md)
-      + [Ordenar columnas](analytics-data-feed/c-data-feed-ui/t-feed-columns-sort.md)
-      + [Buscar y filtrar](analytics-data-feed/c-data-feed-ui/t-feed-search-and-filter.md)
-      + [Estado de la fuente de datos](analytics-data-feed/c-data-feed-ui/r-datafeed-status.md)
-   + Acciones de la fuente de datos{#data-feed-actions}
-      + [Panel de la fuente de datos](analytics-data-feed/c-data-feed-actions/data-feed-actions.md)
-      + [Añadir una fuente](analytics-data-feed/c-data-feed-actions/t-feed-add.md)
-      + [Información de la fuente](analytics-data-feed/c-data-feed-actions/r-feed-information.md)
-      + [Destino de la fuente](analytics-data-feed/c-data-feed-actions/r-feed-destination.md)
-      + [Ver el historial de trabajos de una fuente](analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)
-      + [Eliminar una fuente](analytics-data-feed/c-data-feed-actions/t-feed-delete.md)
-      + [Pausar una fuente](analytics-data-feed/c-data-feed-actions/t-feed-pause.md)
-      + [Activar una fuente](analytics-data-feed/c-data-feed-actions/t-feed-activate.md)
-      + [Editar una fuente](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
-   + Trabajos de la fuente de datos {#data-feed-jobs}
-      + [Resumen de los trabajos de la fuente de datos](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
-      + [Filtrar la lista de trabajos](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
-      + [Configuración de trabajos](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
-      + [Estado del trabajo](analytics-data-feed/c-df-jobs/r-job-status.md)
-      + [Volver a ejecutar un trabajo](analytics-data-feed/c-df-jobs/t-job-rerun.md)
+   + [Información general sobre fuentes de datos](analytics-data-feed/data-feed-overview.md)
+   + [Crear o editar una fuente de datos](analytics-data-feed/create-feed.md)
+   + [Administrar fuentes de datos](analytics-data-feed/df-manage-feeds.md)
+   + [Administrar trabajos de fuentes de datos](analytics-data-feed/df-manage-jobs.md)
    + Contenido de la fuente de datos {#data-feed-contents}
-      + [Resumen del contenido de la fuente de datos](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [Información general sobre el contenido de las fuentes de datos](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
-      + [Identificar visitantes](analytics-data-feed/c-df-contents/datafeeds-visid.md)
-      + [Definiciones de columnas de datos](analytics-data-feed/c-df-contents/r-data-column-definitions.md)
       + [Referencia de columnas de datos](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Búsqueda de eventos de página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [Búsqueda de la fuente de visitas](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
-      + [Columnas previas y posteriores](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
       + [Caracteres especiales](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Visitas que llegan tarde](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-      + [Preguntas más frecuentes sobre trabajos](analytics-data-feed/c-df-contents/jobs-faq.md)
-   + [Solución de problemas de fuentes de datos](analytics-data-feed/feed-troubleshooting.md)
+   + [Preguntas frecuentes sobre fuentes de datos](analytics-data-feed/df-faq.md)
+   + [Prácticas recomendadas de fuentes de datos](analytics-data-feed/data-feeds-best-practices.md)
+   + [Resolución de problemas de fuentes de datos](analytics-data-feed/feed-troubleshooting.md)
    + [Solución de problemas de los trabajos](analytics-data-feed/jobs-troubleshooting.md)
-   + [Notas de la versión de la fuente de datos](analytics-data-feed/datafeeds-history.md)
 + Data Warehouse {#data-warehouse}
    + [Resumen de Data Warehouse](data-warehouse/data-warehouse.md)
    + [Añadir un grupo de usuarios del Data Warehouse](data-warehouse/t-dw-group.md)
