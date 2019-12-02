@@ -5,7 +5,7 @@ solution: Analytics
 title: Solución de problemas de fuentes de datos
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
@@ -38,11 +38,11 @@ AWS también permite a los usuarios crear objetos en un bucket que pertenece a o
 
 Si se produce un error de transferencia mediante FTP (no se puede iniciar la sesión, se pierde la conexión, se agota la cuota, etc.), Adobe intenta conectarse automáticamente y envía los datos hasta tres veces diferentes. Si no se resuelven los errores, la fuente se marca como errónea y se envía una notificación de correo electrónico.
 
-En caso de un error de transferencia, puede [volver a ejecutar un trabajo](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) hasta que se realice correctamente.
+En caso de un error de transferencia, puede volver a ejecutar un trabajo hasta que se realice correctamente.
 
 ## Opciones de reenvío {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Una vez verificado/corregido el problema de entrega, simplemente utilice [volver a ejecutar el trabajo](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) para obtener los archivos.
+Una vez verificado/corregido el problema de entrega, vuelva a ejecutar el trabajo para obtener los archivos.
 
 ## Efecto del horario de verano en las Fuentes de datos por hora {#section_70E867D942054DD09048E027A9474FFD}
 
@@ -56,7 +56,7 @@ Al realizar las transiciones de DST -&gt; STD, ("Visitas en el orden previsto"),
 
 Si quiere, puede configurar una fuente de datos para que envíe un archivo de manifiesto si no se recopilan datos durante un período concreto. Si activa esta opción, recibirá un archivo de manifiesto de aspecto parecido al siguiente:
 
-```
+```text
 Datafeed-Manifest-Version: 1.0
  Lookup-Files: 0
  Data-Files: 0
