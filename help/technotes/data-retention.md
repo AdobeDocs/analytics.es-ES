@@ -3,7 +3,7 @@ title: Política de retención de datos
 description: Una directiva de retención de datos determina cuánto tiempo Adobe almacena los datos.
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -43,7 +43,7 @@ La directiva de retención de datos define un período de retención de datos gr
 
 **¿Puedo solicitar una copia de mis datos antes de que se eliminen?**
 
-Sí. Adobe puede proporcionar un volcado de datos histórico de datos sin procesar y de nivel de visita. Consulte Fuentes [de datos](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) en la Guía del usuario de exportación para obtener más información. Si tiene requisitos de exportación de datos fuera del ámbito de lo que la interfaz de usuario puede proporcionar, póngase en contacto con el administrador de cuentas de su organización. Se pueden hacer adaptaciones especiales; los costes pueden variar.
+Sí. Adobe puede proporcionar un volcado de datos histórico de datos sin procesar y de nivel de visita. Consulte Fuentes [de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la Guía del usuario de exportación para obtener más información. Si tiene requisitos de exportación de datos fuera del ámbito de lo que la interfaz de usuario puede proporcionar, póngase en contacto con el administrador de cuentas de su organización. Se pueden hacer adaptaciones especiales; los costes pueden variar.
 
 **¿Cuándo elimina Adobe los datos?**
 
