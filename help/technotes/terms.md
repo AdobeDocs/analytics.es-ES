@@ -2,7 +2,7 @@
 title: Términos utilizados en Adobe Analytics
 description: Glosario para Adobe Analytics, que define los términos comunes utilizados.
 translation-type: tm+mt
-source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -14,7 +14,7 @@ Utilice este glosario para comprender el contexto de muchos términos que utiliz
 * **** Activity Map: Complemento del explorador que muestra en qué áreas del sitio se hizo clic con mayor frecuencia. Consulte Mapa [de actividades](/help/analyze/activity-map/activity-map.md) en la guía de usuario de Análisis.
 * **** Consola de administración: Puede hacer referencia a:
    * Herramientas de administración heredadas, donde se administra la configuración del grupo de informes en Adobe Analytics. En versiones anteriores de Adobe Analytics, los permisos de usuario también se gestionaban aquí. Consulte Herramientas [de administración](/help/admin/admin/c-admin-tools.md) en la guía del usuario de administración.
-   * Consola de administración de Adobe, donde se proporciona acceso al producto y se administran los permisos de usuario. Consulte Consola [de administración](/help/admin/admin-console/home.md) en la guía del usuario de administración.
+   * Consola de administración de Adobe, donde se proporciona acceso al producto y se administran los permisos de usuario. See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
 * **** Asignación: Si una variable de conversión encuentra más de un valor durante una visita, la configuración de asignación de la variable determina qué valor se guarda. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **** Anomalía: Se ha detectado mediante el modelado estadístico para encontrar automáticamente tendencias inesperadas en los datos. El modelo analiza las métricas y determina un límite inferior, límite superior y rango esperado de valores. Consulte Detección [de anomalías](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) en la guía del usuario Analizar.
 * **** AppMeasurement: Biblioteca de códigos utilizada para recopilar datos y enviarlos a Adobe. Consulte la [página de inicio](/help/implement/home.md) de la guía de usuario Implementación.
@@ -43,7 +43,7 @@ Utilice este glosario para comprender el contexto de muchos términos que utiliz
 * **** Delegado de asistencia al cliente: Un usuario designado autorizado para interactuar directamente con el Servicio de atención al cliente de Adobe. Consulte Delegados [de asistencia al](https://helpx.adobe.com/experience-cloud/supported-users.html) cliente en la base de conocimiento de Experience Cloud.
 * **** Servidor de recopilación de datos: Servidores propiedad de Adobe que reciben y procesan datos. Las solicitudes de imagen se envían a los servidores de recopilación de datos de Adobe para su uso en los informes.
 * **** Conectores de datos: Una solución de desarrollo completa que permite a un tercero automatizar la carga de datos en Adobe Analytics. Los clientes de ese tercero pueden utilizar un conector de datos para enriquecer sus datos en Adobe Analytics. La mayoría de los conectores de datos utilizan un flujo de trabajo similar al utilizado en las fuentes de datos. Consulte Conectores de datos en la Guía del usuario de importación.
-* **** Fuente de datos: Exportación de datos sin procesar que enumera cada visita como una fila y las variables como columnas independientes. Normalmente se utiliza para exportar datos de Adobe Analytics a una base de datos de terceros. Consulte Fuentes [de datos](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) en la Guía del usuario de exportación.
+* **** Fuente de datos: Exportación de datos sin procesar que enumera cada visita como una fila y las variables como columnas independientes. Normalmente se utiliza para exportar datos de Adobe Analytics a una base de datos de terceros. Consulte Fuentes [de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la Guía del usuario de exportación.
 * **** Fuentes de datos: Permite a un usuario cargar datos de un archivo en Adobe Analytics. Normalmente, el archivo se extrae de un sitio FTP. Consulte Fuentes [de datos](/help/import/c-data-sources/datasrc-home.md) en la guía Importar usuario.
 * **** Almacén de datos: Característica de Adobe Analytics que le permite solicitar informes de mayor tamaño. Consulte Almacén [de datos](/help/export/data-warehouse/data-warehouse.md) en la guía de usuario Exportar.
 * **** Dimensión: Un tipo de componente que contiene valores variables, como texto. Algunos ejemplos son Nombre de página, Código de seguimiento o Dominio de referencia. Una métrica suele ser su contraparte.
