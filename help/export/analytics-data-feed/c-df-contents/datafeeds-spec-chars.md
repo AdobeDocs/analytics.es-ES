@@ -3,122 +3,53 @@ description: Información sobre los caracteres especiales que se utilizan en la 
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
 subtopic: data feeds
-title: Caracteres especiales
+title: Caracteres especiales en las fuentes de datos
 topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
 
-# Caracteres especiales
+# Caracteres especiales en las fuentes de datos
 
-Información sobre los caracteres especiales que se utilizan en la fuente de datos.
+Adobe utiliza la lógica de escape para asegurarse de que los valores enviados a los servidores de recopilación de datos no dañan ni dañan los archivos de fuentes de datos. Adobe reserva los siguientes caracteres para los siguientes fines en `hit_data.tsv`.
 
-* [Caracteres especiales del archivo hit_data](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E)
-* [Caracteres especiales de las variables multivalor (events_list, products_list, mvvars)](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC)
-* [Flujo de trabajo de muestra](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
+## Caracteres especiales en cualquier columna
 
-## Caracteres especiales del archivo hit_data {#section_9759C7A6AE684EB5B4A154FB6A26B39E}
+| Carácter | Descripción |
+|--- |--- |
+| `\t` | Representa una ficha. Marca el final de una columna o campo de datos. |
+| `\n` | Representa una nueva línea. Marca el final de una fila o visita individual. |
+| `\` | Barra invertida. Escapa los caracteres cuando se envían como parte de la recopilación de datos. |
 
-Los caracteres siguientes tienen un significado especial en el archivo hit_data:
+Cuando estos valores reservados van precedidos de una barra invertida, se envían como parte de la recopilación de datos.
 
-| Carácter | Significado | Descripción |
-|--- |--- |--- |
-| \t (carácter de tabulación) | Final de columna | Marca el final de un campo de datos. |
-| \n (carácter de nueva línea) | Final de fila | Marca el final de una fila de datos. |
-| \  (carácter de barra invertida) | Carácter de escape | Elude la tabulación, la nueva línea y la barra invertida cuando el carácter forma parte del valor enviado durante la recopilación de datos. |
+| Carácter | Descripción |
+|--- |--- |
+| `\\t` | El valor '`\t`' se envió durante la recopilación de datos y Adobe lo escapó. |
+| `\\n` | El valor '`\n`' se envió durante la recopilación de datos y Adobe lo escapó. |
+| `\\` | El valor '`\`' se envió durante la recopilación de datos y Adobe lo escapó. |
 
-La barra invertida delante de cualquiera de los caracteres especiales representa un carácter literal.
+Por ejemplo: un visitante del sitio utiliza la búsqueda interna y busca "search\nstring". Rellene eVar1 con "search\nstring" y envíe ese valor a Adobe. Adobe recibe esta visita y escapa a la nueva línea incluida en la cadena. El valor real colocado en los datos sin procesar es "search\\nstring".
 
-| Carácter | Significado | Descripción |
-|--- |--- |--- |
-| \\t | Tabulación | Carácter literal de tabulación. Este carácter forma parte del valor enviado durante la recopilación de datos. |
-| \\n | Nueva línea | Nueva línea literal. Este carácter forma parte del valor enviado durante la recopilación de datos. |
-| \\ | Barra invertida | Carácter literal de barra invertida. Este carácter forma parte del valor enviado durante la recopilación de datos. |
+## Caracteres especiales de las variables multivalor (events_list, products_list, mvvars)
 
-## Caracteres especiales de las variables multivalor (events_list, products_list, mvvars) {#section_056F8D540FFC4F24A001DC74331C2AAC}
+Los siguientes caracteres tienen un significado especial en las columnas que pueden contener varios valores.
 
-Los caracteres siguientes tienen un significado especial en las variables multivalor:
+| Carácter | Descripción |
+|--- |--- |
+| `,` | Coma. Representa el final de un valor individual. Separa las cadenas de producto, los ID de evento u otros valores. |
+| `;` | Punto y coma. Representa el final de un valor individual en `product_list`. Separa los campos de una sola cadena de producto. |
+| `=` | Es igual a signo. Assigns a value to an event in `product_list`. |
+| `^` | Acento circunflejo. Escapa los caracteres cuando se envían como parte de la recopilación de datos. |
 
-<table id="table_FDA13DE05A784ED4972C2955BD2642C7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Carácter </th> 
-   <th colname="col02" class="entry"> Significado </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <code> , </code> (carácter de coma) </td> 
-   <td colname="col02"> Final del valor </td> 
-   <td colname="col2"> <p>Separa las cadenas de productos, los ID de eventos u otros valores de las variables multivalor. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> ; </code> (carácter de punto y coma) </td> 
-   <td colname="col02"> Final del subvalor incluido en un valor de producto concreto </td> 
-   <td colname="col2"> <p>Separa los valores asociados con un producto concreto de <code> product_list </code>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> = </code> (carácter de igualdad) </td> 
-   <td colname="col02"> Asignación de valor </td> 
-   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+Cuando estos valores reservados van precedidos de un acento circunflejo, se envían como parte de la recopilación de datos.
 
-Cuando uno de los caracteres especiales va precedido de un acento circunflejo, representa un carácter literal.
-
-| Carácter | Significado | Descripción |
-|--- |--- |--- |
-| ^, | Coma | Carácter literal de coma. Este carácter forma parte del valor enviado durante la recopilación de datos. |
-| ^; | Punto y coma | Carácter literal de punto y coma. Este carácter forma parte del valor enviado durante la recopilación de datos. |
-| ^= | Es igual a | Carácter literal de igualdad. Este carácter forma parte del valor enviado durante la recopilación de datos. |
-| ^^ | Acento circunflejo | Carácter literal de acento circunflejo. Este carácter forma parte del valor enviado durante la recopilación de datos. |
-
-## Flujo de trabajo de muestra {#section_97F8C2925A35433DA2E7E8BE60037E37}
-
-Si algunas de las columnas de la fuente de datos contienen datos introducidos por el usuario, tiene que comprobar si hay caracteres especiales antes de separar los datos por columna o fila mediante `split`, `readLine`, u otra función similar.
-
-Consideremos los siguientes datos:
-
-| Ancho del explorador | Altura del explorador | eVar1 | prop1 |
-|---|---|---|---|
-| 1680 | 1050 | search\nstring | en |
-| 800 | 600 | search\tstring | en |
-
-Durante la exportación, se eluden los caracteres de nueva línea y de tabulación de los valores de eVar1. La fuente de datos de estas filas aparece de la forma siguiente:
-
-```
-1680\t1050\tsearch\\nstring\ten\n 
-800\t600\tsearch\\tstring\ten\n
-```
-
-Calling `readLine()` on the first row returns the following partial string:
-
-```
-800\t600\tsearch\
-```
-
-Calling `split("\t")` on the second row returns the following string array:
-
-```
-800 
-600 
-search\ 
-string 
-en
-```
-
-Para evitarlo, utilice una solución parecida a la siguiente:
-
-1. Empezando por el principio del archivo, lea hasta que localice un carácter de tabulación, nueva línea, barra invertida o acento circunflejo.
-1. Realice una acción en función del carácter especial que haya encontrado:
-
-   * Tabulación: inserte la cadena hasta ese punto en una celda de almacenamiento de datos y continúe.
-   * Nueva línea: complete la fila de almacenamiento de datos.
-   * Barra invertida: lea el siguiente carácter, inserte el literal de cadena adecuado y continúe.
-   * Acento circunflejo: lea el siguiente carácter, inserte el literal de cadena adecuado y continúe.
-
+| Carácter | Descripción |
+|--- |--- |
+| `^,` | El valor '`,`' se envió durante la recopilación de datos y Adobe lo escapó. |
+| `^;` | El valor '`;`' se envió durante la recopilación de datos y Adobe lo escapó. |
+| `^=` | El valor '`=`' se envió durante la recopilación de datos y Adobe lo escapó. |
+| `^^` | El valor '`^`' se envió durante la recopilación de datos y Adobe lo escapó. |
