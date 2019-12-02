@@ -2,7 +2,7 @@
 title: Informes de audiencia en Adobe Analytics
 description: Obtenga información sobre cómo crear informes basados en audiencias mediante Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
 
@@ -23,7 +23,7 @@ Para obtener un gráfico de líneas de visitantes únicos:
 2. Haga clic en el icono Componentes de la izquierda y, a continuación, arrastre la métrica Visitantes **** únicos al espacio más pequeño rotulado 'Colocar una métrica aquí'.
 3. Si desea una granularidad diferente, arrastre el intervalo de fechas deseado (por ejemplo, **Día**, **Semana**, **Mes**, etc.) encima del encabezado de dimensión de fecha existente.
 
-Consulte Visitantes [](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) únicos en la guía del usuario Componentes para obtener detalles sobre cómo calcula Adobe los visitantes únicos.
+Consulte Visitantes [](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) únicos en la guía del usuario Componentes para obtener más información sobre cómo calcula Adobe los visitantes únicos.
 
 ## Valor de duración
 
@@ -50,13 +50,13 @@ El informe Audiencias de Google Analytics requiere la configuración de audienci
 El informe Explorador de usuarios permite a un analista ver visitas individuales mediante identificadores anónimos. Adobe no saca a la superficie los identificadores back-end fuera de las fuentes de datos, que son exportaciones de datos sin procesar en el nivel de visita individual.
 
 * Si estos datos se desean en Analysis Workspace, es posible trabajar con un consultor de implementación para pasar el valor de cookie de identificador único anónima a una eVar. Tenga en cuenta que esto solo funciona con implementaciones más pequeñas que consisten en menos de 1 millón de visitantes únicos por mes.
-* Si estos datos se desean dentro de las fuentes de datos, las columnas concatenadas `visid_high` y `visid_low` son la forma más común de identificar visitantes únicos. Obtenga más información sobre las fuentes [de datos](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) en la Guía del usuario de exportación.
+* Si estos datos se desean dentro de las fuentes de datos, las columnas concatenadas `visid_high` y `visid_low` son la forma más común de identificar visitantes únicos. Obtenga más información sobre las fuentes [de datos](/help/export/analytics-data-feed/data-feed-overview.md) en la Guía del usuario de exportación.
 
 ## Informes demográficos e intereses
 
 Los datos demográficos y de intereses proporcionan información sobre la edad, el sexo y los intereses de los usuarios del sitio. Google recopila esos datos mediante sus capacidades de seguimiento entre sitios.
 
-Adobe no recopila automáticamente los datos demográficos y de intereses. Sin embargo, si su organización obtiene estos datos, puede utilizar Atributos del cliente, una función de la plataforma de Adobe Experience Cloud. Permite un control total de la organización de los datos por atributos, y no se limita a la demografía o los intereses.
+Adobe no recopila automáticamente los datos demográficos y de intereses. Sin embargo, si su organización obtiene estos datos, puede utilizar Atributos del cliente, una función de la plataforma de Adobe Experience Cloud. Permite un control total de la organización de los datos por atributos, y no se limita sólo a la demografía o a los intereses.
 
 Consulte la Ayuda de Atributos del cliente para obtener más información.
 
@@ -108,7 +108,7 @@ Si también se desea un gráfico de líneas:
 
 El informe de frecuencia y actualización es aproximadamente igual a la dimensión Número **de** visita en Analysis Workspace.
 
-1. En el menú de componentes, localice la dimensión Número **de** visita y arrástrela al área grande de la tabla improvisada con la etiqueta 'Colocar una dimensión aquí'.
+1. En el menú de componentes, localice la dimensión Número **de** visita y arrástrela hasta el área grande de la tabla improvisada con la etiqueta 'Colocar una dimensión aquí'.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la guía [de traducción de](common-metrics.md) métricas para obtener detalles sobre cómo obtener cada métrica respectiva.
 
 Consulte la dimensión Número [de](/help/components/c-variables/dimensionslist/reports-visitor-number.md) visita en la guía del usuario Componentes para obtener más información.
@@ -124,7 +124,7 @@ Consulte la dimensión [Tiempo empleado por visita](/help/components/c-variables
 
 ## Tecnología: explorador y SO
 
-Hay varias dimensiones principales disponibles en el informe Explorador y SO.
+Hay varias dimensiones principales disponibles en el informe Explorador y sistema operativo.
 
 * La dimensión principal del **explorador** también está disponible en Analysis Workspace como dimensión.
 * La dimensión principal del sistema **operativo** también está disponible en Analysis Workspace como dimensión.
@@ -137,8 +137,8 @@ Hay varias dimensiones principales disponibles en el informe Explorador y SO.
 
 Consulte las páginas siguientes en la guía del usuario Componentes para obtener más información sobre sus dimensiones respectivas:
 
-* [Navegador](/help/components/c-variables/dimensionslist/reports-browsers.md)
-* [Sistema operativo](/help/components/c-variables/dimensionslist/reports-operating-system.md)
+* [Explorador](/help/components/c-variables/dimensionslist/reports-browsers.md)
+* [Sistema operativo ](/help/components/c-variables/dimensionslist/reports-operating-system.md)
 * [Resolución del monitor](/help/components/c-variables/dimensionslist/reports-technology.md)
 * [Profundidad de color](/help/components/c-variables/dimensionslist/reports-color-depth.md)
 
@@ -181,7 +181,7 @@ Los informes de evaluación comparativa permiten ver cómo se comparan las facet
 
 El informe de flujo está disponible en ambas plataformas. Para crear un informe de flujo:
 
-1. Haga clic en el icono de visualizaciones de la izquierda y arrastre una visualización de flujo al espacio de trabajo sobre la tabla improvisada
+1. Haga clic en el icono de visualizaciones de la izquierda y arrastre una visualización de flujo al espacio de trabajo encima de la tabla improvisada
 2. Busque la dimensión **Páginas** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los valores de dimensión son de color amarillo.
 3. Busque el valor de página deseado para comenzar y arrástrelo al espacio etiquetado como 'Dimensión o elemento' en el centro
 4. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
