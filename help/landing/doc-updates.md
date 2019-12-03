@@ -3,7 +3,7 @@ title: Actualizaciones de documentación de Adobe Analytics
 description: Actualizaciones de documentación técnica de Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 811a5d8c8a79d6522173aa1ef77ea9a0af9f8c80
+source-git-commit: a785aa20800e189503b6bc0010cbd87cba7333e0
 
 ---
 
@@ -20,6 +20,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Fecha | Descripción |
 |---|---|
+| 25 de noviembre de 2019 | Nuevo tema sobre el [fin de vida útil para aplicar restricciones de inicio de sesión IP](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
+| 25 de noviembre de 2019 | Nuevo tema sobre el canal de mercadotecnia [interno (actualización de sesión)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
 | 21 de noviembre de 2019 | Nuevo conjunto de documentación para [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
 | 28 de septiembre de 2019 | Nuevos artículos sobre variables [de configuración para la implementación de Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
 | 12 de septiembre de 2019 | Nueva documentación para [Journey IQ: Análisis entre dispositivos](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
