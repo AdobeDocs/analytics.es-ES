@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -73,13 +73,14 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
          + [Definir un evento con una variable de datos de contexto](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
          + [Eliminar un evento de una visita](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
       + [Consejos y sugerencias de reglas de procesamiento](admin/c-processing-rules/processing-rules-tips.md)
-   + Informes en tiempo real{#real-time-reports}
+   + Informes en tiempo real {#real-time-reports}
       + [Resumen de informes en tiempo real](admin/realtime/realtime.md)
       + [Configuración de informes en tiempo real](admin/realtime/t-realtime-admin.md)
       + [Métricas y dimensiones en tiempo real compatibles](admin/realtime/realtime-metrics.md)
    + [Cola de informes programados](admin/scheduled-reports-admin.md)
    + Reenvío del lado del servidor {#server-side-forwarding}
       + [Resumen del reenvío del lado del servidor](admin/c-server-side-forwarding/ssf.md)
+      + [Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [Requisitos para el reenvío del lado del servidor](admin/c-server-side-forwarding/ssf-requirements.md)
       + [Referencia de datos y código del reenvío del lado del servidor](admin/c-server-side-forwarding/ssf-reference.md)
       + [Comprobar la implementación del reenvío del lado del servidor](admin/c-server-side-forwarding/ssf-verify.md)
