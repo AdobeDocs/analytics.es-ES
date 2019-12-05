@@ -2,7 +2,7 @@
 description: Instrucciones para configurar los cuadros de mandos de la aplicación móvil.
 title: Guía del curador de aplicaciones de Adobe Analytics Mobile
 translation-type: tm+mt
-source-git-commit: 13fddb340dd05a24234814f7ca8579e9861335bd
+source-git-commit: 286ab1e043d8f54681a4df8171c244a98d0e0d2b
 
 ---
 
@@ -24,7 +24,7 @@ Esta guía está pensada para ayudar a los curadores de datos de Adobe Analytics
 
 En la tabla siguiente se describen los términos para comprender la audiencia, las funciones y el funcionamiento de la aplicación móvil de Analytics.
 
-|Término|Definición||—|—||Consumidor| Persona ejecutiva que está viendo métricas y perspectivas clave de Analytics en un dispositivo móvil||Curador|Persona con conocimientos de datos que encuentra y distribuye perspectivas de Analytics y configura los cuadros de mandos para que los vea el consumidor||Curación|El acto de crear o editar un cuadro de mandos móvil que contenga métricas, dimensiones y otros componentes relevantes para el consumidor||Cuadro de mandos|Una vista de aplicación móvil que contiene uno o más mosaicos||Mosaico|Una representación para una métrica dentro de una vista Cuadro de mandos||Desglose|Una vista secundaria a la que se puede acceder tocando un mosaico en el cuadro de mandos. Esta vista se expande en la métrica mostrada en el mosaico y, opcionalmente, informa sobre dimensiones de desglose adicionales.||Intervalo de fechas|El intervalo de fechas principal para los informes de aplicaciones móviles||Intervalo de fechas de comparación|Intervalo de fechas que se compara con el intervalo de fechas principal.|
+|Término|Definición||—|—||Consumidor| Persona ejecutiva que está viendo métricas y perspectivas clave de Analytics en un dispositivo móvil||Curador|Persona con conocimientos de datos que encuentra y distribuye perspectivas de Analytics y configura los cuadros de mandos para que los vea el consumidor||Curación|El acto de crear o editar un cuadro de mandos móvil que contenga métricas, dimensiones y otros componentes relevantes para el consumidor||Cuadro de mandos|Una vista de aplicación móvil que contiene uno o más mosaicos||Mosaico|Una representación para una métrica dentro de una vista Cuadro de mandos||Desglose|Una vista secundaria a la que se puede acceder tocando un mosaico en el cuadro de mandos. Esta vista se expande en la métrica mostrada en el mosaico y, opcionalmente, informa sobre dimensiones de desglose adicionales.||Intervalo de fechas|El intervalo de fechas principal para los informes de aplicaciones móviles||Intervalo de fechas de comparación|El intervalo de fechas que se compara con el intervalo de fechas principal|
 
  
 ## Creación de un cuadro de mandos para usuarios ejecutivos
@@ -38,6 +38,9 @@ Para crear el cuadro de mandos, deberá hacer lo siguiente:
 
 1. Acceda a la plantilla Cuadro de mandos móvil en blanco.
 2. Configure el cuadro de mandos con datos y guárdelo.
+
+![Ejemplo de cuadro de mandos](/help/analyze/mobile-app/assets/intro_scorecard.png)
+
 
 
 ### Acceso a la plantilla Cuadro de mandos móvil en blanco
