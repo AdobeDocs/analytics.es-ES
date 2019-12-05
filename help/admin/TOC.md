@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
+source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
 
 ---
 
@@ -145,6 +145,7 @@ source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
    + [Administración de usuarios y productos](user-management2/user-management.md)
    + [Asignar grupos de usuarios a un grupo de informes](user-management2/t-group-access-report-suite.md)
    + Administración de usuarios {#user-management}
+      + [Migración de usuarios a Admin Console de Experience Cloud](user-management2/user-migration/c-migration-tool/c-migration-tool.md)
       + [Resumen de administración de usuarios](user-management2/c-user-management/users.md)
       + [Agregar una cuenta de usuario](user-management2/c-user-management/t-add-user-account.md)
       + [Cambios en los permisos de usuarios y grupos](user-management2/c-user-management/permissions-changes.md)
