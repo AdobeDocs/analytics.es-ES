@@ -2,7 +2,7 @@
 title: Guías de documentación técnica de Adobe Analytics
 description: Guías y recursos para usuarios de Analytics
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: cb1594fbfff4e3ec0dcb7bbe76874b04828eb69e
 
 ---
 
@@ -11,23 +11,23 @@ source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 Bienvenido a la página de inicio del producto y la documentación técnica de Adobe Analytics. Aquí puede encontrar información de autoayuda y asistencia para herramientas de informes como [!UICONTROL Analysis Workspace], Creador de [!UICONTROL informes], API de informes, Área de trabajo [!UICONTROL de datos]y Mapa de [!UICONTROL actividades]. También puede acceder a la documentación de administración, implementación y todas las funciones de productos y usuarios que admite Adobe Analytics.
 
-[![Herramientas](assets/analyze_50px.png)](/help/analyze/home.md) [Guía de herramientas de Analytics](/help/analyze/home.md): Incluye todas las herramientas de análisis que se pueden utilizar en Adobe Analytics. En primer lugar, proporciona documentación detallada sobre Analysis Workspace, la principal herramienta de análisis y visualización de Analytics.
+[![Herramientas](assets/analyze_50px.png)](/help/analyze/home.md)Guía[de herramientas](/help/analyze/home.md) de Analytics: Proporciona acceso a Espacio de trabajo de [análisis](/help/analyze/analysis-workspace/home.md), la herramienta de análisis y visualización más importante para Analytics. También incluye todas las herramientas de análisis ([!UICONTROL Creador]de informes, API de informes, Área de trabajo [!UICONTROL de datos]y Mapa de [!UICONTROL actividades]) que puede utilizar en Adobe Analytics.
 
-[![Administrador](assets/admin_50px.png)](/help/admin/home.md) [Guía del administrador](/help/admin/home.md): Tareas de administración para configurar grupos de informes, administración de datos, uso de llamadas al servidor, etc.
+[![Guía](assets/admin_50px.png)](/help/admin/home.md)[de administración](/help/admin/home.md) : Obtenga información sobre la administración de usuarios y productos en la Consola de administración de Experience Cloud, la configuración de grupos de informes, la configuración de la empresa, la administración de datos, el uso de llamadas al servidor, la administración de tráfico y mucho más.
 
-[![Implementación](assets/implement_50px.png)](/help/implement/home.md) [Guía de implementación](/help/implement/home.md): Personalice los datos que se recopilan para aprovechar al máximo Adobe Analytics. Incluye contenido de implementaciones de JavaScript y Launch de Adobe Experience Platform.
+[![Implementación](assets/implement_50px.png)](/help/implement/home.md) [Guía de implementación](/help/implement/home.md): Personalice los datos que se recopilan para aprovechar al máximo Adobe Analytics. Includes content on [!UICONTROL Adobe Experience Platform Launch] and JavaScript implementations.
 
 [![Componentes](assets/components_50px.png)](/help/components/home.md) [Guía de componentes](/help/components/home.md): Conozca las funciones que le ayudarán a organizar sus datos. Los componentes incluyen segmentos, métricas calculadas, grupos de informes virtuales, alertas y más. Esta guía también incluye una referencia de variable, donde se explican todas las dimensiones y métricas disponibles.
 
-[![Exportar](assets/export_50px.png)](/help/export/home.md) [Guía de exportación](/help/export/home.md): Obtenga datos de Adobe Analytics a través de Data Warehouse, fuentes de datos y mucho más.
+[![Export](assets/export_50px.png)](/help/export/home.md)[Export Guide](/help/export/home.md) - Obtener datos de Adobe Analytics: Utilice fuentes [!UICONTROL de datos] para recibir una exportación diaria o por hora de datos sin procesar. Recupere un resultado de hoja de cálculo de datos mediante [!UICONTROL el almacén]de datos.
 
-[![Importar](assets/import_50px.png)](/help/import/home.md) [Guía de importación](/help/import/home.md): Incorporar datos a Analytics desde fuentes externas, ya sea de forma masiva o en tiempo real. Incluye fuentes de datos, API de inserción de datos y Data Connectors.
+[![Importar](assets/import_50px.png)](/help/import/home.md) [Guía de importación](/help/import/home.md): Incorporar datos a Analytics desde fuentes externas, ya sea de forma masiva o en tiempo real. Includes [!UICONTROL Data Sources], [!UICONTROL Data Insertion API], and [!UICONTROL Data Connectors].
 
-[![Integración](assets/integrate_50px.png)](/help/integrate/home.md) [Guía de integración](/help/integrate/home.md): Configure integraciones con otras soluciones de Adobe Experience Cloud, como Audience Manager, Advertising Cloud o Target.
+[![Guía](assets/integrate_50px.png)](/help/integrate/home.md)de[integración](/help/integrate/home.md) : configure integraciones con otras soluciones de Adobe Experience Cloud, como Audience Manager, Advertising Cloud y Target.
 
 [![Guía](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)de análisis de[medios de Media Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) : Implementar Analytics en fuentes de audio o vídeo. Incluye el SDK de medios y la API de recopilación de medios.
 
-[![Guías](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)del Área de trabajo[de datos de DWB](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) : cliente del Área de trabajo de datos, instalación, configuración del conjunto de datos y mucho más
+[![Guías](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)del área de trabajo[de datos de DWB](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) : Obtenga información sobre las capacidades de múltiples canales, potentes y altamente flexibles de [!UICONTROL Data Workbench]. Incluye [!UICONTROL el cliente]de Área de trabajo de datos, la instalación, las guías de configuración [!UICONTROL de] conjuntos de datos y mucho más.
 
 [![Notas técnicas](assets/technotes_50px.png)](/help/technotes/home.md) [Notas técnicas de Analytics](/help/technotes/home.md): Una base de conocimiento que contiene artículos útiles que no pertenecen a una herramienta o componente de análisis específico.
 
