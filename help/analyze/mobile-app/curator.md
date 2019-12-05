@@ -2,7 +2,7 @@
 description: Instrucciones para configurar los cuadros de mandos de la aplicación móvil.
 title: Guía del curador de aplicaciones de Adobe Analytics Mobile
 translation-type: tm+mt
-source-git-commit: 286ab1e043d8f54681a4df8171c244a98d0e0d2b
+source-git-commit: e01002d04560b6fe56a2ac2f4869d48f7604972d
 
 ---
 
@@ -32,15 +32,18 @@ En la tabla siguiente se describen los términos para comprender la audiencia, l
 Un cuadro de mandos móvil muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, como se muestra a continuación:
 
 
+![Ejemplo de cuadro de mandos](/help/analyze/mobile-app/assets/intro_scorecard.png)
+
+
 Como curador de este cuadro de mandos, puede utilizar el Generador de cuadros de mando para configurar los mosaicos que aparecen en el cuadro de mandos para su consumidor. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses una vez tocados los mosaicos. La interfaz del Generador de cuadros de mando se muestra a continuación:
+
+![Generador de cuadros de mando](help/analyze/mobile-app/assets/scorecard_builder.png)
+
 
 Para crear el cuadro de mandos, deberá hacer lo siguiente:
 
 1. Acceda a la plantilla Cuadro de mandos móvil en blanco.
 2. Configure el cuadro de mandos con datos y guárdelo.
-
-![Ejemplo de cuadro de mandos](/help/analyze/mobile-app/assets/intro_scorecard.png)
-
 
 
 ### Acceso a la plantilla Cuadro de mandos móvil en blanco
@@ -49,94 +52,97 @@ Puede acceder a la plantilla Cuadro de mandos móvil en blanco de una de las sig
 
 **Crear un nuevo proyecto**
 
-1. Abra Adobe Analytics y haga clic en la ficha Espacio de trabajo.
-2. Haga clic en el botón Crear nuevo proyecto y seleccione la plantilla de proyecto Cuadro de mandos móvil en blanco.
+1. Abra Adobe Analytics y haga clic en la ficha **Espacio de trabajo** .
+2. Haga clic en el botón **Crear nuevo proyecto** y seleccione la plantilla de proyecto de cuadro de mando móvil **en blanco** .
 3. Click the **Create** button.
+
+![Plantilla Cuadro de mandos](help/analyze/mobile-app/assets/new_template.png)
+
 
 *Nota: Si no ve la plantilla Cuadro de mandos móvil en blanco, como se muestra a continuación, su empresa aún no se ha activado para la versión beta. Comuníquese con el administrador de servicio al cliente.*
 
 
 **Agregar un proyecto**
 
-En la pantalla Proyectos, en la ficha Componentes, haga clic en el botón Agregar y seleccione Cuadro de mandos móvil.
+En la pantalla **Proyectos** , en la ficha **Componentes** , haga clic en el botón **Agregar** y seleccione Cuadro de mandos **móvil**.
 
-
-
+![Agregar proyectos](help/analyze/mobile-app/assets/add_project.png)
 
 **Uso de las herramientas de Analytics**
 
-En Analytics, haga clic en el menú Herramientas y seleccione Aplicación móvil. En la pantalla siguiente, haga clic en el botón Crear cuadro de mandos.
+En Analytics, haga clic en el menú **Herramientas** y seleccione Aplicación **móvil**. En la pantalla siguiente, haga clic en el botón **Crear cuadro de mandos** .
 
 ### Configurar el cuadro de mandos con datos y guardarlo
 
 Para implementar la plantilla Cuadro de mandos:
 
-1. En Propiedades (en el carril derecho), especifique un grupo de informes de proyecto del que desee utilizar los datos.
+1. En **Propiedades** (en el carril derecho), especifique un grupo **de informes de** proyecto desde el que desee utilizar los datos.
+
+   ![Selección de grupos de informes](help/analyze/mobile-app/assets/properties_save.png)
+
+2. Para agregar un nuevo mosaico al cuadro de mandos, arrastre una métrica desde el panel izquierdo y suéltela en la zona **Arrastrar y soltar métricas aquí** . También puede insertar una métrica entre dos mosaicos mediante un flujo de trabajo similar.
+
+   ![Agregar mosaicos](help/analyze/mobile-app/assets/build_list.png)
 
 
-
-2. Para agregar un nuevo mosaico al cuadro de mandos, arrastre una métrica desde el panel izquierdo y suéltela en la zona Arrastrar y soltar métricas aquí. También puede insertar una métrica entre dos mosaicos mediante un flujo de trabajo similar.
-
-
-   Desde cada mosaico, puede acceder a una vista detallada que muestra información adicional sobre la métrica, como elementos principales para una lista de dimensiones relacionadas.
+   *Desde cada mosaico, puede acceder a una vista detallada que muestra información adicional sobre la métrica, como elementos principales para una lista de dimensiones relacionadas.*
 
 
-3. Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico. Por ejemplo, puede agregar dimensiones adecuadas (como Región de DMA, en este ejemplo) a la métrica Visitantes únicos arrastrándola y soltándola en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de Propiedades específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
+3. Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico. Por ejemplo, puede agregar dimensiones adecuadas (como Región **** DMA, en este ejemplo) a la métrica Visitantes **** únicos arrastrándola y soltándola en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de **Propiedades** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
+
+   ![Agregar dimensiones](help/analyze/mobile-app/assets/layer_dimensions.png)
+
+   *Nota: También puede agregar una dimensión a todos los mosaicos soltándola en el lienzo Cuadro de mandos.*
+
+   Al hacer clic en un mosaico en el Generador de cuadros de mandos, el carril derecho muestra las propiedades y características asociadas con ese mosaico. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, de forma alternativa, configurar el mosaico especificando componentes en lugar de arrastrarlos y soltarlos desde el carril izquierdo.
 
 
-   *Nota: También puede agregar una dimensión a todos los mosaicos soltándola en el lienzo Cuadro de mandos. *
+   Además, si hace clic en mosaicos, una ventana emergente dinámica mostrará cómo el usuario ejecutivo de la aplicación verá la vista Desglose. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fechas predeterminado.
 
-   Al hacer clic en un mosaico en el Generador de cuadros de mandos, el carril derecho muestra las propiedades y características asociadas con ese mosaico. En este carril, puede proporcionar un nuevo Título para el mosaico y, de forma alternativa, configurar el mosaico especificando componentes en lugar de arrastrarlos y soltarlos desde el carril izquierdo.
+   ![Breakdown_view](help/analyze/mobile-app/assets/break_view.png)
 
-
-
-
-
-
-
-
-   Además, si hace clic en mosaicos, una ventana emergente dinámica mostrará cómo el usuario ejecutivo de la aplicación verá la vista Desglose. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será hora o días, según el intervalo de fechas predeterminado.
-
-
-
-
-   Al hacer clic en un mosaico, se muestra la vista Desglosar de ese mosaico al lado del cuadro de mandos.
-Observe cómo cada dimensión agregada al mosaico se mostrará en una lista desplegable en la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones enumeradas en la lista desplegable.
+   *Observe cómo cada dimensión agregada al mosaico se mostrará en una lista desplegable en la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones enumeradas en la lista desplegable.*
 
 4. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del cuadro de mandos, coloque el mosaico encima del cuadro de mandos.
 
-5. Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de mandos, haga clic en cualquier lugar del cuadro de mandos fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la x que aparece al pasar el ratón sobre el componente, como se muestra a continuación en el segmento Clientes móviles:
+5. Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de mandos, haga clic en cualquier lugar del cuadro de mandos fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento Clientes **** móviles:
 
-6. En Propiedades de cuadro de mandos, también puede especificar de forma opcional lo siguiente:
+   ![Remove_components](help/analyze/mobile-app/assets/new_remove.png)
 
-   * Un Intervalo De Fechas Predeterminado. Los intervalos que especifique aquí serán los mismos que se aplican al primer acceso del usuario ejecutivo al cuadro de mandos en su aplicación.
+6. En **Propiedades** de cuadro de mandos, también puede especificar de forma opcional lo siguiente:
 
-   * Un intervalo de fechas de comparación
+   * Un Intervalo **De Fechas** Predeterminado. Los intervalos que especifique aquí serán los mismos que se aplican al primer acceso del usuario ejecutivo al cuadro de mandos en su aplicación.
 
-   * Cualquier segmento que se aplicará a todo el cuadro de mandos
+   * Intervalo de fechas de **comparación**
+
+   * Cualquier **segmento** que se aplique a todo el cuadro de mandos
 
 7. Para asignar un nombre al cuadro de mandos, haga clic en el espacio de nombres en la parte superior izquierda de la pantalla y escriba el nuevo nombre.
+
+   ![Naming_scorecards](help/analyze/mobile-app/assets/new_name.png)
 
 ## Compartir el cuadro de mandos
 
 Para compartir cuadro de mandos con un usuario ejecutivo:
 
-1. Haga clic en el menú Compartir y seleccione Compartir cuadro de mandos.
+1. Haga clic en el menú **Compartir** y seleccione **Compartir cuadro de mandos**.
 
-2. En el formulario Compartir, complete los campos de la siguiente manera:
+2. En el formulario **Compartir** , complete los campos de la siguiente manera:
 
    * Proporcionar el nombre del cuadro de mandos
    * Proporcionar una descripción del cuadro de mandos
    * Adición de etiquetas relevantes
    * Especificación de los destinatarios para el cuadro de mandos
-   * Seleccione la opción para compartir componentes incrustados con destinatarios para asegurarse de que el usuario ejecutivo tiene acceso a todos los componentes del cuadro de mandos.
+   * Seleccione la opción para **compartir componentes incrustados con destinatarios** para asegurarse de que el usuario ejecutivo tiene acceso a todos los componentes del cuadro de mandos.
 
-3. Haga clic en Compartir.
+3. Haga clic en **Compartir**.
+
+![Share_Scorecards](help/analyze/mobile-app/assets/new_share.png)
+
 
 Una vez que haya compartido un cuadro de mandos, los destinatarios podrán acceder a él en su aplicación móvil de Analytics. Si realiza cambios posteriores en el cuadro de mandos en el Generador de cuadros de mando, se actualizarán automáticamente en el cuadro de mando compartido. Los usuarios ejecutivos verán los cambios después de actualizar el cuadro de mandos en su aplicación.
 
-*Nota: Si actualiza el cuadro de mandos agregando nuevos componentes, es posible que desee volver a compartir el cuadro de mandos (y marcar la opción Compartir automáticamente los componentes incrustados con los destinatarios) para asegurarse de que los usuarios ejecutivos tienen acceso a estos cambios.*
-
+*Nota: Si actualiza el cuadro de mandos agregando nuevos componentes, es posible que desee volver a compartir el cuadro de mandos (y marcar la opción Compartir **automáticamente componentes incrustados con destinatarios**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.*
 
 ## Configurar usuarios ejecutivos con la aplicación
 
@@ -150,23 +156,48 @@ Para ayudar a los usuarios ejecutivos a acceder a sus cuadros de mandos en la ap
     * Tienen un inicio de sesión válido en Adobe Analytics
     * Ha creado correctamente cuadros de mando móviles para ellos y los ha compartido con ellos.
     * Tienen acceso a Analysis Workspace y al grupo de informes en el que se basa
-    el cuadro de mandos* Tienen acceso a los componentes que incluye el cuadro de mandos. Nota: Puede seleccionar una opción al compartir los cuadros de mandos para compartir automáticamente los componentes incrustados con los destinatarios.
-
+    el cuadro de mandos* Tienen acceso a los componentes que incluye el cuadro de mandos. Nota: Puede seleccionar una opción al compartir los cuadros de mandos para **Compartir automáticamente los componentes incrustados con los destinatarios**.
 
 ### Ayudar a los usuarios ejecutivos a utilizar la aplicación
 
-1. Para ayudar a los usuarios ejecutivos, asegúrese de que pueden descargar e instalar la aplicación según el sistema operativo del dispositivo móvil.
+Durante la fase beta y antes de que la aplicación se muestre al público, puede controlar quién tiene acceso a la aplicación.
 
-   **iOS**
+1. Ayuda a los usuarios ejecutivos a descargar e instalar la aplicación. Para ello, proporcione los siguientes pasos para ampliar el acceso a los usuarios ejecutivos, en función de si utilizan un iOS o un dispositivo Android.
+
+   **Para usuarios ejecutivos en iOS:**
+
+   1. Haga clic en el siguiente vínculo público (también está disponible en Analytics en **Herramientas** &gt; Aplicación **** móvil):
+
+      [Vínculo](https://testflight.apple.com/join/WtXMQxlI)de iOS: `https://testflight.apple.com/join/WtXMQxlI`
+
+      Después de hacer clic en el vínculo, aparece la siguiente pantalla de prueba:
+
+      ![Pantalla de prueba](help/analyze/mobile-app/assets/testflight1.png)
+
+   2. Toque el vínculo **Ver en App Store** en la pantalla para descargar la aplicación Testflight.
+
+   3. Después de instalar la aplicación Testflight, busque e instale la aplicación móvil de Adobe Analytics en Testflight, como se muestra a continuación:
+   ![Pantalla de prueba](help/analyze/mobile-app/assets/testflight2.png)
+
+   **Para usuarios ejecutivos en Android:**
+
+   1. Toque el siguiente vínculo de Play Store en el dispositivo del usuario (también está disponible en Analytics en **Herramientas** &gt; Aplicación **** móvil):
 
 
+      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-   **Android**
+      Después de tocar el vínculo, toque el vínculo Convertir en probador en la siguiente pantalla:
 
+      ![Pantalla Play Store](help/analyze/mobile-app/assets/play.png)
 
+   2. Toque el vínculo **descargarlo en Google Play** en la siguiente pantalla:
 
+      ![Vínculo de descarga](help/analyze/mobile-app/assets/playnext.png)
 
+   3. Descargue e instale la aplicación.
+   Una vez descargado e instalado, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics existentes; admitimos Adobe ID y Enterprise ID.
 
+   ![Pantalla de bienvenida de la aplicación](help/analyze/mobile-app/assets/welcome.png)
 
 2. Ayudarles a acceder a su cuadro de mandos. Después de que los usuarios ejecutivos inicien sesión en la aplicación, aparece la pantalla Elegir una empresa. Esta pantalla enumera las empresas de inicio de sesión a las que pertenece el usuario ejecutivo. Para ayudarles a acceder al cuadro de mandos:
 
