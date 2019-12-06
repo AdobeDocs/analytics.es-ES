@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
 
 ---
 
@@ -145,16 +145,17 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
    + [Administración de usuarios y productos](user-management2/user-management.md)
    + [Asignar grupos de usuarios a un grupo de informes](user-management2/t-group-access-report-suite.md)
    + Administración de usuarios {#user-management}
-      + [Migración de usuarios de Analytics a Admin Console](user-management2/user-migration/c-migration-tool.md)
-         + [Migración de cuentas de usuarios de Analytics para Adobe ID](user-management2/user-migration/t-migrate-users.md)
-         + [Migración de las cuentas de usuario de Analytics para Enterprise ID y Federated ID](user-management2/user-migration/migrate-enterprise.md)
-         + [Desactivación de inicios de sesión heredados](user-management2/user-migration/t-disable-legacy-login.md)
-         + [API afectadas por la migración](user-management2/user-migration/developer.md)
       + [Resumen de administración de usuarios](user-management2/c-user-management/users.md)
       + [Agregar una cuenta de usuario](user-management2/c-user-management/t-add-user-account.md)
       + [Cambios en los permisos de usuarios y grupos](user-management2/c-user-management/permissions-changes.md)
       + [Transferir elementos de cuenta de usuario](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [Agregar un usuario a un grupo](user-management2/c-user-management/t-add-user-to-group.md)
+      + Migración de usuarios a Adobe Admin Console {#migrate-users}
+         + [Migración de usuarios de Analytics a Admin Console](user-management2/user-migration/c-migration-tool.md)
+         + [Migración de cuentas de usuarios de Analytics para Adobe ID](user-management2/user-migration/t-migrate-users.md)
+         + [Migración de las cuentas de usuario de Analytics para Enterprise ID y Federated ID](user-management2/user-migration/migrate-enterprise.md)
+         + [Desactivación de inicios de sesión heredados](user-management2/user-migration/t-disable-legacy-login.md)
+         + [API afectadas por la migración](user-management2/user-migration/developer.md)
       + [Administrar usuarios de Ad Hoc Analysis](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + Grupos de usuarios {#user-groups}
       + [Agregar un grupo de usuarios](user-management2/c-user-groups/t-user-group.md)
