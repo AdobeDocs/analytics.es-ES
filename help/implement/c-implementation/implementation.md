@@ -3,7 +3,7 @@ description: 'null'
 title: Hoja de ruta de implementación
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9d0b8e1e9bc2d92fb949ceed7bcfaa31818d02b8
 
 ---
 
@@ -70,12 +70,7 @@ Si es nuevo en Adobe Analytics, puede crear rápidamente su primer grupo de info
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
-   <td colname="col1"> Validar la implementación. </td> 
-   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md"> Prueba y validación</a> Proporciona información sobre la validación de la implementación. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
+   <td colname="col01"> <img  src="assets/step4_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> Usar Adobe Experience Cloud Debugger para verificar que se están enviando los datos. </td> 
    <td colname="col2"> <p>Instale <a href="/help/implement/impl-testing/debugger.md">Experience Cloud Debugger</a>. A continuación, cargue una página en la que haya implementado el código de página y abra el depurador. El depurador mostrará los detalles sobre los datos de recopilación que se han enviado. </p> </td> 
   </tr> 
