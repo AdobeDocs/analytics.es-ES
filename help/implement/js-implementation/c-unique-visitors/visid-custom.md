@@ -1,12 +1,11 @@
 ---
 description: Puede implementar un método personalizado para identificar a los visitantes mediante la configuración de la variable s.visitorID.
 keywords: Analytics Implementation
-solution: Analytics
 title: ID de visitante personalizado
 topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
