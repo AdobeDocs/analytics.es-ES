@@ -1,10 +1,9 @@
 ---
 description: Variables para informes de privacidad en Privacidad de datos.
-solution: Analytics
 title: Variables de informes de privacidad
-topic: Herramientas de administración
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+topic: Admin tools
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -59,13 +58,13 @@ Cada grupo de informes se puede configurar de esta forma:
 
 Se han predefinido tres variables de datos de contexto para que funcionen con las variables reservadas de administración de informes de privacidad.  Depende de cada ingeniero de implementación determinar cómo administrar y mantener la configuración de estas variables.
 
-Consulte [Variables de datos de contexto](https://docs.adobe.com/help/es-ES/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) para obtener instrucciones generales sobre cómo implementar variables de datos de contexto.
+Consulte [Variables de datos de contexto](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) para obtener instrucciones generales sobre cómo implementar variables de datos de contexto.
 
 ### SSF
 
 * Datos de contexto: `contextData.['cm.ssf']`
 * Valores aceptados:
-   * 1 - Al enviar el valor “1”, esto indica que el Reenvío del lado del servidor está en estado de exclusión. El valor “1” asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte [Cumplimiento de la privacidad electrónica de AAM](https://docs.adobe.com/help/es-ES/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 - Al enviar el valor “1”, esto indica que el Reenvío del lado del servidor está en estado de exclusión. El valor “1” asociado con esta variable bloqueará el uso compartido de esta visita con Adobe Audience Manager. Consulte [Cumplimiento de la privacidad electrónica de AAM](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
    * No se aceptan otros valores para este parámetro.
 
 ### DMP
