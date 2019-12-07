@@ -1,11 +1,10 @@
 ---
 description: Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
-solution: Analytics
 title: Detener el seguimiento de vínculos
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Activity Map  </td> 
+   <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Elimine el siguiente contenido del archivo Appmeasurement.js: 
      
     <code>
