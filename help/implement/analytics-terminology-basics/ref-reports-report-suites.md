@@ -1,12 +1,11 @@
 ---
 description: Un grupo de informes define los informes completos e independientes de un sitio web, de un conjunto de sitios web o de un subconjunto de páginas web que se hayan seleccionado. Por lo general, un grupo de informes es un sitio web, pero podría ser un segmento global en el cual se han combinado las cifras de varios sitios para obtener valores totales. Al iniciar sesión en los informes de marketing, Ad Hoc Analysis y Report Builder, deberá seleccionar el grupo de informes que quiera utilizar (excepto al usar resúmenes que combinen grupos de informes).
 keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
-solution: Analytics
 title: Informes y grupos de informes
 topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -46,7 +45,7 @@ Puede utilizar [Analysis Workspace](https://marketing.adobe.com/resources/help/e
 * [Informes en tiempo real](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
 * Ayuda de [Report Builder de Adobe](https://marketing.adobe.com/resources/help/en_US/arb/)
 * [Extracciones de datos](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
-* [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)
+* [Página de](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)
 * [Administrador del grupo de informes](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
 * [Comparación de productos y requisitos de Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
 * [Descripciones de los informes](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
