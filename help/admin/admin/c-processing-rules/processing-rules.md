@@ -1,12 +1,11 @@
 ---
 description: Las reglas de procesamiento simplifican la recopilación de datos y administran el contenido a medida que se envía a los informes.
-solution: Analytics
 subtopic: Processing rules
 title: Resumen de las reglas de procesamiento
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -34,14 +33,14 @@ En este momento, los administradores tienen **de forma predeterminada** permiso 
 
 1. Si aún no lo ha hecho, [cree un grupo](/help/admin/user-management2/c-user-groups/groups.md) que solo incluya aquellos usuarios que no son administradores y que necesitan autorización para utilizar reglas de procesamiento.
 1. [Agregue los usuarios que no sean administradores a ese grupo](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL [group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
+1. A continuación, vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuarios]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL [nombre del grupo]]** &gt; **[!UICONTROL Editar]** &gt; **[!UICONTROL Acceso a informes]** &gt; **[!UICONTROL Herramientas de grupos de informes]** &gt; **[!UICONTROL Personalizar]** &gt; **[!UICONTROL Administración de grupos de informes]**.
 1. Marque la casilla que está junto a [!UICONTROL Reglas de procesamiento] y haga clic en **[!UICONTROL Aceptar]**.
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->Dado que las reglas de procesamiento afectan permanentemente a los datos de Analytics, recomendamos encarecidamente que los administradores de reglas de procesamiento reciban formación de certificación en Adobe Analytics y estén familiarizados con todas las fuentes de datos de sus grupos de informes (sitios web estándar, sitios móviles, aplicaciones móviles, API de inserción de datos, etc.). El conocimiento de las variables de datos de contexto y las variables estándar completadas en diversas plataformas ayudará a impedir la eliminación o modificación accidentales de los datos.
+>Como las reglas de procesamiento afectan permanentemente a los datos de Analytics, recomendamos encarecidamente que los administradores de reglas de procesamiento reciban formación para certificación en Adobe Analytics, y estén familiarizados con todas las fuentes de datos para los grupos de informes (sitios web estándar, sitios móviles, aplicaciones móviles, API de inserción de datos, etc.). El conocimiento de las variables de datos de contexto y las variables estándar completadas en diversas plataformas ayudará a impedir la eliminación o modificación accidentales de los datos.
 
 ## Simplificar la recopilación de datos con datos de contexto {#section_09EEA03612D24C15839631AA9E9668D8}
 
