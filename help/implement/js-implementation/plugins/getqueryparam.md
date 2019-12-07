@@ -1,13 +1,12 @@
 ---
 description: Devuelve el valor de un parámetro de cadena de consulta especificado, si se encuentra en la dirección URL de la página. Puesto que los datos importantes (por ejemplo, códigos de seguimiento de campañas, palabras clave de búsqueda interna, etc.) están disponibles en la cadena de consulta en una página, getQueryParam ayuda a capturar los datos en variables de Analytics.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getQueryParam
 topic: Developer and implementation
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
