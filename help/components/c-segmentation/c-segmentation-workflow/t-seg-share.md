@@ -1,11 +1,10 @@
 ---
 description: En función de sus permisos, puede compartir segmentos con toda su organización, con grupos o con usuarios individuales.
-solution: Analytics
 title: Compartir segmentos
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,15 +13,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 En función de sus permisos, puede compartir segmentos con toda su organización, con grupos o con usuarios individuales.
 
-| Administrador | Puede compartir segmentos con Todos, con Grupos y con Usuarios. Los grupos se establecen como grupos de permisos en la consola de administración. |
+| Administrador | Puede compartir segmentos con Todos, con Grupos y con Usuarios. Los grupos se establecen como grupos de permisos en la Admin Console. |
 |---|---|
 | No administrador | Puede compartir segmentos únicamente con usuarios individuales. |
 
 ¿Cuándo debe compartir segmentos con toda la compañía en vez de con un grupo de usuarios o personas? A continuación se indica una serie de prácticas recomendadas seguir:
 
-* Como administrador, comparta un segmento con **[!UICONTROL Todos]si resulta útil para toda la compañía y si todos se sienten cómodos al utilizarlo.** In this case, you should also consider making it an [approved](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) segment.
+* Como administrador, comparta un segmento con **[!UICONTROL Todos]** si resulta útil para toda la compañía y si todos se sienten cómodos al utilizarlo. En este caso, debe considerar la posibilidad de marcarla como segmento [aprobado](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md).
 
-* Como administrador, comparta un segmento con un **[!UICONTROL Grupo]específico si el segmento le aporta valor empresarial al equipo.** No apruebe oficialmente este tipo de segmentos.
+* Como administrador, comparta un segmento con un **[!UICONTROL Grupo]** específico si el segmento le aporta valor empresarial al equipo. No apruebe oficialmente este tipo de segmentos.
 * Como administrador o usuario individual, comparta un segmento con otras personas para examinar y validar un segmento. Si finalmente no resulta útil, descártelo. No apruebe oficialmente este tipo de segmentos.
 
 1. En el Administrador de segmentos, marque la casilla que aparece junto al segmento que desea compartir. Aparecerá la barra de herramientas para la administración de segmentos:
@@ -33,8 +32,8 @@ En función de sus permisos, puede compartir segmentos con toda su organización
 
    ![](assets/sharing_segments.png)
 
-   Si es administrador, puede seleccionar **[!UICONTROL Todos]** o elegir entre **[!UICONTROL Grupos]y** Usuarios] de su organización. **[!UICONTROL ** Si no es administrador, solo verá usuarios individuales. Utilice el campo **[!UICONTROL Buscar]para buscar grupos o usuarios.** 1. Click **[!UICONTROL Share]**.
+   Si es administrador, puede seleccionar **[!UICONTROL Todos]** o elegir entre **[!UICONTROL Grupos]** y **[!UICONTROL Usuarios]** de su organización. Si no es administrador, solo verá usuarios individuales. Utilice el campo **[!UICONTROL Buscar]** para buscar grupos o usuarios. 1. Haga clic en **[!UICONTROL Compartir]**.
 
    El icono de compartir aparece junto al segmento:  ![](assets/share_icon.png)
 
-1. You can filter on segments shared with you by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
+1. Puede filtrar los segmentos que se han compartido con usted accediendo a **[!UICONTROL Filtros]** &gt; **[!UICONTROL Otros filtros]** &gt; **[!UICONTROL Compartidos conmigo]**.
