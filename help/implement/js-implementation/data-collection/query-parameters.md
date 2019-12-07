@@ -1,12 +1,11 @@
 ---
 description: En las tablas siguientes se describe el parámetro de consulta que contiene el valor de las distintas variables de Analytics que se envían a la recopilación de datos.
 keywords: Analytics Implementation
-solution: Analytics
 title: Parámetros de consulta de recopilación de datos
 topic: Developer and implementation
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
