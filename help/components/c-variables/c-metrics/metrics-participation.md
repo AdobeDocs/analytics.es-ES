@@ -1,11 +1,10 @@
 ---
 description: Las métricas de participación otorgan crédito total de eventos de éxito a todos los valores de un eVar transferidos durante una visita. Las métricas de participación son útiles para determinar qué páginas, campañas u otros valores de variables personalizadas contribuyen más al éxito del sitio. La participación se basa en visitas. Todos los valores de eVar de una visita anterior y que incluyan la visita cuando se produce un evento reciben crédito de participación, independientemente del valor de caducidad.
-solution: Analytics
 title: Participación
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,18 +13,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Las métricas de participación otorgan crédito total de eventos de éxito a todos los valores de un eVar transferidos durante una visita. Las métricas de participación son útiles para determinar qué páginas, campañas u otros valores de variables personalizadas contribuyen más al éxito del sitio. La participación se basa en visitas. Todos los valores de eVar de una visita anterior y que incluyan la visita cuando se produce un evento reciben crédito de participación, independientemente del valor de caducidad.
 
-See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) for more information about how Ad Hoc Analysis uses participation.
+Consulte [Participación de visitantes: Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) para obtener más información sobre cómo utilizan la participación los Ad Hoc Analysis.
 
 Las métricas de participación tienen dos configuraciones por evento de conversión:
 
 * **Deshabilitado**: estado predeterminado de cada evento de conversión. La participación no se recopilará para este evento.
 * **Habilitado**: los datos de participación se recopilan para este evento.
 
-> [!NOTE] Puede habilitar la participación para un máximo de 100 eventos personalizados. Después de esa cifra, puede crear métricas de participación en el creador [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
+> [!NOTE] Puede habilitar la participación hasta un máximo de 100 eventos personalizados. Una vez superada esa cifra, puede crear métricas de participación en el creador [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
 
 Una vez habilitadas, las métricas de participación estarán disponibles automáticamente en todos los informes de conversión. No obstante, las métricas de participación también se pueden ver en informes de tráfico específicos si así se solicita. Opcionalmente, se puede solicitar que las métricas de participación estén disponibles en determinados informes de tráfico.
 
-## Ejemplo de participación de ingresos {#section_DAB6C348201B454BB4ED01313AA777AF}
+## Ejemplo de participación de ingresos  {#section_DAB6C348201B454BB4ED01313AA777AF}
 
 Imagine la secuencia siguiente:
 
