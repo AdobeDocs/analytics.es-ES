@@ -1,11 +1,10 @@
 ---
 description: Pasos para agregar métricas y dimensiones a una solicitud.
-solution: Analytics
 title: Agregar métricas y dimensiones
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Pasos para agregar métricas y dimensiones a una solicitud.
 1. [Cree la solicitud de datos](/help/analyze/report-builder/data-requests/data-requests.md) en el [!UICONTROL Asistente para solicitudes: Paso 1] y, a continuación, haga clic en **[!UICONTROL Siguiente]**.
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2], haga doble clic en las métricas o arrástrelas a la ubicación que desee.
 
-   ![Información del paso](assets/adding_metrics.png)
+   ![Información sobre los pasos](assets/adding_metrics.png)
 
    Cuando se añaden métricas, éstas no se eliminan de la ficha [!UICONTROL Métrica], ya que las métricas pueden aparecer varias veces en una solicitud. Por ejemplo, se puede mostrar el subtotal de la métrica junto con cada valor. Sin embargo, la lista de las métricas disponibles cambia cada vez que se añade o se elimina una dimensión.
 
