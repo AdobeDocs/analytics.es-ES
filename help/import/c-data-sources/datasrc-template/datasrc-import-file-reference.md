@@ -1,12 +1,11 @@
 ---
 description: Información sobre la plantilla .txt de fuentes de datos.
-solution: Analytics
 subtopic: Data sources
 title: Referencia sobre el archivo de importación
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
