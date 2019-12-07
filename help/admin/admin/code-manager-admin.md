@@ -1,11 +1,10 @@
 ---
 description: El administrador de códigos le permite descargar códigos de recopilación de datos para plataformas web y móviles.
-solution: Analytics
 title: Administrador de códigos
 topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 El administrador de códigos le permite descargar códigos de recopilación de datos para plataformas web y móviles.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Administrador **[!UICONTROL de códigos]**.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Administrador de códigos]**.
 
 Después de descargar la biblioteca, deberá configurar el código para enviar datos al servidor de seguimiento y al grupo de informes correctos. En la guía del usuario de [Implementación](/help/implement/home.md) encontrará recursos de implementación adicionales.
 
