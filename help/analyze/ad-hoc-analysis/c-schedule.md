@@ -1,11 +1,10 @@
 ---
 description: La programación de envío de los informes se puede personalizar. Por ejemplo, detener el envío de informes en un momento determinado o indicar la cantidad de veces que se desea enviar un informe. Cuando se crea una programación nueva, esta usa el intervalo de fechas definido en el informe. Por ejemplo, si crea un informe para los últimos 90 días y lo programa de modo que se ejecute en forma diaria, cada día recibirá un informe de los últimos 90 días. Si crea un informe con un intervalo de fechas estático del calendario, verá el mismo informe cada vez que se envíe.
-solution: Analytics
 title: Administrador de programación
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
