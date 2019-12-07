@@ -1,11 +1,10 @@
 ---
 description: Las métricas se calculan usando métodos estándar, de asignación, de participación, reciente y lineal. Cada método calcula los valores de forma diferente basándose en fórmulas.
-solution: Analytics
 title: Cálculos de métricas
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ Las métricas se calculan usando métodos estándar, de asignación, de particip
   </tr> 
   <tr> 
    <td colname="col1"> Lineal </td> 
-   <td colname="col2"> <p>Si se selecciona la asignación lineal, los eventos de éxito se dividen de manera uniforme entre todos los valores de variable que aparecen en la visita. En el caso de eventos numéricos y de moneda, como <span class="term"> Revenue</span>, the monetary amount is divided. Para eventos de contador como <span class="term"> Pedidos</span>, se asigna una fracción del evento a cada valor de variable en la visita. Estas fracciones de los informes se suman y redondean hasta el entero más próximo que aparece en los informes. </p> <p>Por ejemplo, si en una visita se accede a cuatro páginas antes de un evento de éxito, cada página recibe crédito para el 25% del evento. Si, en la misma visita, <span class="varname"> campaña</span> tiene dos valores, cada valor de campaña recibirá el 50% del crédito por el evento. </p> </td> 
+   <td colname="col2"> <p>Si se selecciona la asignación lineal, los eventos de éxito se dividen de manera uniforme entre todos los valores de variable que aparecen en la visita. En el caso de eventos numéricos y de moneda, como  <span class="term"> Ingresos</span>, se divide la cantidad monetaria. Para eventos de contador como <span class="term"> Pedidos</span>, se asigna una fracción del evento a cada valor de variable en la visita. Estas fracciones de los informes se suman y redondean hasta el entero más próximo que aparece en los informes. </p> <p>Por ejemplo, si en una visita se accede a cuatro páginas antes de un evento de éxito, cada página recibe crédito para el 25% del evento. Si, en la misma visita,  <span class="varname"> campaña</span> tiene dos valores. Cada valor de campaña recibirá el 50% del crédito por el evento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Participación </td> 
@@ -45,7 +44,7 @@ Las métricas se calculan usando métodos estándar, de asignación, de particip
 
 Imaginemos que un sitio incluye una búsqueda interna de la que se está realizando un seguimiento con una variable de conversión (eVar). El visitante realiza varias búsquedas internas antes de realizar una compra de 100 $:
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; compra de $100
+*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt; compra de 100$
 
 En los informes, la asignación de crédito sería la siguiente:
 
@@ -63,29 +62,29 @@ En los informes, la asignación de crédito sería la siguiente:
   <tr> 
    <td colname="col1"> <p>Mascota </p> </td> 
    <td colname="col2"> <p>100 $ </p> </td> 
-   <td colname="col3"> <p>0 $ </p> </td> 
-   <td colname="col4"> <p>25 $ </p> </td> 
+   <td colname="col3"> <p>0 USD </p> </td> 
+   <td colname="col4"> <p>$25 </p> </td> 
    <td colname="col5"> <p>100 $ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Felino </p> </td> 
-   <td colname="col2"> <p>0 $ </p> </td> 
-   <td colname="col3"> <p>0 $ </p> </td> 
-   <td colname="col4"> <p>25 $ </p> </td> 
+   <td colname="col2"> <p>0 USD </p> </td> 
+   <td colname="col3"> <p>0 USD </p> </td> 
+   <td colname="col4"> <p>$25 </p> </td> 
    <td colname="col5"> <p>100 $ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gato </p> </td> 
-   <td colname="col2"> <p>0 $ </p> </td> 
-   <td colname="col3"> <p>0 $ </p> </td> 
-   <td colname="col4"> <p>25 $ </p> </td> 
+   <td colname="col2"> <p>0 USD </p> </td> 
+   <td colname="col3"> <p>0 USD </p> </td> 
+   <td colname="col4"> <p>$25 </p> </td> 
    <td colname="col5"> <p>100 $ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gatito </p> </td> 
-   <td colname="col2"> <p>0 $ </p> </td> 
+   <td colname="col2"> <p>0 USD </p> </td> 
    <td colname="col3"> <p>100 $ </p> </td> 
-   <td colname="col4"> <p>25 $ </p> </td> 
+   <td colname="col4"> <p>$25 </p> </td> 
    <td colname="col5"> <p>100 $ </p> </td> 
   </tr> 
  </tbody> 
