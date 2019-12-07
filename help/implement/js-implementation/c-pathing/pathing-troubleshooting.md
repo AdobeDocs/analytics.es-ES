@@ -1,12 +1,11 @@
 ---
 description: Lista de motivos por los que la información de control de rutas podría no registrarse y mostrarse en los informes.
 keywords: Analytics Implementation
-solution: Analytics
 title: Motivos por el que el control de rutas podría no registrarse
 topic: Developer and implementation
 uuid: 9985b7f7-75ea-4c94-97a3-520f92630989
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
