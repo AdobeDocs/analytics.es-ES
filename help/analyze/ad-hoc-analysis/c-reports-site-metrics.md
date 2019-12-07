@@ -1,11 +1,10 @@
 ---
 description: Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
-solution: Analytics
-title: Informes de métricas del sitio
+title: Métricas del sitio informes
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,11 +13,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
-## Informes de métricas del sitio {#concept_0639CA16551749A693F49ADED4842CCE}
+## Métricas del sitio reports {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
-Los informes de métricas recogen tendencias a lo largo del tiempo; se les pueden aplicar diversos niveles de granularidad, como “hora” y “día de la semana”. También permiten analizar el tiempo empleado en el sitio, las compras, los ingresos y métricas similares.
+Los informes de métricas son  de tendencias con el tiempo. se les pueden aplicar diversos niveles de granularidad, como “hora” y “día de la semana”. También permiten analizar el tiempo empleado en el sitio, las compras, los ingresos y métricas similares.
 
 En el menú [!UICONTROL Métricas del sitio] se encuentran disponibles los siguientes informes.
 
@@ -128,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Dado que cada grupo de informes de análisis es distinto, este conjunto de informes se utiliza de forma diferente con cada cliente. El informe de [!UICONTROL eventos personalizados] se puede utilizar como contador para indicar la cantidad de veces que se produce un evento. Por ejemplo, si **[!UICONTROL evento1]se configura para mostrar la cantidad de veces que se descarga un documento, el informe de eventos personalizados para el Evento 1 mostrará la cantidad total de descargas.** Es posible tener varios informes de eventos personalizados.
+Dado que cada grupo de informes de análisis es distinto, este conjunto de informes se utiliza de forma diferente con cada cliente. El informe de [!UICONTROL eventos personalizados] se puede utilizar como contador para indicar la cantidad de veces que se produce un evento. Por ejemplo, si **[!UICONTROL evento1]** se configura para mostrar la cantidad de veces que se descarga un documento, el informe de eventos personalizados para el Evento 1 mostrará la cantidad total de descargas.  Es posible tener varios informes de eventos personalizados.
 
 ## Informes de conversión {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
