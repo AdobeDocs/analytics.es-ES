@@ -1,10 +1,9 @@
 ---
 description: Describe las eficiencias de mercadotecnia logradas a través de la integración.
-solution: Analytics
 title: Conector de datos Lyris para Adobe Analytics
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,18 +47,18 @@ Esto garantiza que las prácticas recomendadas y los requisitos previos adecuado
 
 ### Requisitos previos de Adobe Analytics {#section-ddb9d4f3b283438ea33788f47f35e69a}
 
-* **Grupo de informes específico**: Tenga en cuenta que esta integración es específica del grupo de informes. Asegúrese de seleccionar el grupo de informes deseado antes de activar la integración
-* **Variables** de Analytics disponibles y configuradas: Esta integración requiere eventos personalizados y eVars personalizadas, y, opcionalmente, eventos adicionales y eVars adicionales.
+* **Grupo de informes específico**:Tenga en cuenta que esta integración es específica del grupo de informes. Asegúrese de seleccionar el grupo de informes deseado antes de activar la integración
+* **Variables** de Analytics disponibles y configuradas:Esta integración requiere eventos personalizados y eVars personalizadas, y, opcionalmente, eventos adicionales y eVars adicionales.
 
-* **Representante** autorizado: Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda. Al activar esta integración, usted declara por la presente que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
+* **Representante** autorizado:Tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda. Al activar esta integración, usted declara por la presente que es un representante autorizado de su empresa; y como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
 * **Almacén** de datos de Adobe Analytics: Esta integración requiere que el almacén de datos de Adobe Analytics esté habilitado para generar segmentos de remarketing. Si no ha habilitado el almacén de datos, póngase en contacto con Adobe para obtener más información.
 * **ID** del destinatario: La integración requiere que captemos y almacenemos un "ID de visitante" dentro de una variable de Analytics (eVar). La ID del visitante (conocida con frecuencia como "ID del destinatario") es una representación numérica o codificada de una dirección de correo electrónico del sistema Lyris. Esta "ID del destinatario" está asociada con el comportamiento de los visitantes que siguen el flujo de navegación en el sitio (abandonos del carro de compras, compras, etc.) que se introduce de nuevo en el sistema Lyris y se puede aprovechar para fines de remercadotecnia. Como parte del proceso de configuración, debe identificar una eVar para este fin cuando el Asistente le solicite.
 * **Seguimiento** externo: Si actualmente no está siguiendo la práctica recomendada de habilitar el seguimiento externo para cada campaña de correo electrónico que envía, debe hacerlo para garantizar una integración exitosa. Consulte la sección Lyris para obtener más detalles
-* **Cumplimiento** de la privacidad: Debe comprender que, al habilitar el seguimiento de ID de visitante o destinatario, esta función puede rastrear información personal de los visitantes del sitio. Esto tiene implicaciones para la privacidad, ya que requiere la implementación de los procedimientos apropiados por parte de su organización, como por ejemplo notificar a los visitantes del sitio y obtener su consentimiento.
+* **Cumplimiento** de la privacidad:Debe comprender que, al habilitar el seguimiento de ID de visitante o destinatario, esta función puede rastrear información personal de los visitantes del sitio. Esto tiene implicaciones para la privacidad, ya que requiere la implementación de los procedimientos apropiados por parte de su organización, como por ejemplo notificar a los visitantes del sitio y obtener su consentimiento.
 
 ### Requisitos previos para Lyris EmailLabs {#section-84abae9401224a3699fed861f715ebde}
 
-* **Cuenta** válida de Lyris: Para utilizar esta integración de Data Connector, debe tener una cuenta de Lyris válida.
+* **Cuenta** Lyris válida: Para utilizar esta integración de Data Connector, debe tener una cuenta de Lyris válida.
 * **Información** de la cuenta: Durante esta configuración de integración necesitará la siguiente información sobre su cuenta de Lyris:
 
    * *Clave* de API de Lyris: Se utiliza para la población de datos
