@@ -1,11 +1,10 @@
 ---
 description: Estos informes ofrecen una perspectiva sobre las palabras clave o las campañas específicas más eficaces de un sitio. Permiten asignar ingresos y métricas de éxito a distintos detalles de canal, independientemente del canal global al que pertenecen. Por ejemplo, puede verse la comparación de una palabra clave de búsqueda pagada determinada respecto a una campaña de correo electrónico específica. Al contrario que el informe de descripción general de canal de marketing, este informe es muy similar a un informe de marketing estándar.
-solution: Analytics
 title: Detalles de canal de marketing de primer y último toque
 topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Estos informes ofrecen una perspectiva sobre las palabras clave o las campañas 
 
 * Este informe se ejecuta en reglas definidas en los canales de marketing. Consulte [Canales y reglas](https://marketing.adobe.com/resources/help/en_US/mchannel/c_channels_rules.html).
 
-   De forma específica, el informe usa el elemento **[!UICONTROL Definir el valor del canal en]de cada regla.** Si se cambian estas reglas o la definición del valor del canal, cambiará también el modo de cálculo de los datos del informe. Véanse las [preguntas frecuentes](https://marketing.adobe.com/resources/help/en_US/mchannel/c_faq.html) sobre las reglas de procesamiento del canal de marketing para obtener más información.
+   De forma específica, el informe usa el elemento **[!UICONTROL Definir el valor del canal en]** de cada regla. Si se cambian estas reglas o la definición del valor del canal, cambiará también el modo de cálculo de los datos del informe. Véanse las [preguntas frecuentes](https://marketing.adobe.com/resources/help/en_US/mchannel/c_faq.html) sobre las reglas de procesamiento del canal de marketing para obtener más información.
 
 * Las diferencias existentes entre el *primer* y el *último toque* se describen en [Información sobre los informes de canal de marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview.html).
 
@@ -33,12 +32,12 @@ Estos informes ofrecen una perspectiva sobre las palabras clave o las campañas 
 * En este informe se pueden utilizar las métricas siguientes (en función de la organización y la configuración del grupo de informes):
 * 
 
-   * Pulsaciones: número de veces que se define la variable *`s.campaign`* se define.
+   * Pulsaciones: número de veces que se define la variable  *`s.campaign`* se define.
    * Nuevos compromisos: número de visitantes que han recibido un nuevo canal de primer toque.
    * Todas las métricas de comercio electrónico estándar: ingresos, pedidos, unidades, carros de compra, vistas del carro de compras, cierres de compra, adiciones al carro de compra, eliminaciones del carro de compra.
    * Todos los eventos personalizados: eventos 1-80 y eventos 81-100 si se trabaja con el código H22 o superior.
    * Visitas y Visitantes: disponibles en función del grupo de informes y la organización. Para obtener más detalles el usuario debe ponerse en contacto con el Administrador de cuentas.
    Consulte [Métricas](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html) en la ayuda sobre [!UICONTROL canales de marketing].
 
-> [!NOTE] Los informes de canal [!UICONTROL de] mercadotecnia no están disponibles en la versión 13.5.
+> [!NOTE] El informe [!UICONTROL Canal de marketing] no está disponible en la versión 13.5.
 
