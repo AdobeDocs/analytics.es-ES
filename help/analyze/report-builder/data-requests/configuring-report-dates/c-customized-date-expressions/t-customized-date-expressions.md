@@ -1,11 +1,10 @@
 ---
 description: Se puede especificar un intervalo de fechas complejo mediante la creación de una expresión personalizada.
-solution: Analytics
 title: Resumen de expresiones de fechas personalizadas
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
