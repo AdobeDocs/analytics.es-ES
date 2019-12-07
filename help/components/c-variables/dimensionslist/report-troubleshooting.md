@@ -1,12 +1,11 @@
 ---
 description: Adobe Analytics proporciona una interfaz de informes flexible que le permite generar una variedad de informes complejos. Mientras que la mayoría de los informes se generan muy rápidamente, puede encontrar informes que agoten el tiempo de espera o no se generen correctamente. Con el fin de ayudar a evitar fallos en la generación de informes, en esta sección se describen varios factores que tienen impacto en la velocidad de la generación de informes. Si se comprende esta información es útil para estructurar informes para que se generen correctamente.
 keywords: best practices;failure;timeout;troubleshooting;slow
-solution: Analytics
 title: Información sobre prácticas recomendadas y resolución de problemas
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,9 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Adobe Analytics proporciona una interfaz de informes flexible que le permite generar una variedad de informes complejos. Mientras que la mayoría de los informes se generan muy rápidamente, puede encontrar informes que agoten el tiempo de espera o no se generen correctamente. Con el fin de ayudar a evitar fallos en la generación de informes, en esta sección se describen varios factores que tienen impacto en la velocidad de la generación de informes. Si se comprende esta información es útil para estructurar informes para que se generen correctamente.
 
 >[!Note]
->Estas recomendaciones se aplican a Informes y análisis, Análisis específicos y Creador de informes.
->No se aplican a Analysis Workspace, que tiene su propio conjunto de [optimizaciones](/help/analyze/analysis-workspace/optimizing-performance.md). They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). Un conjunto adicional de
->[las prácticas](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) recomendadas están disponibles para la API de informes de Adobe Analytics.
+>Estas recomendaciones se aplican a Reports &amp; Analytics, Ad Hoc Analysis y Report Builder.
+>No se aplican a Analysis Workspace, que tiene su propio conjunto de [recomendaciones](/help/analyze/analysis-workspace/optimizing-performance.md). Tampoco se aplican a [las recomendaciones](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html) de Data Warehouse. Un conjunto adicional de
+>[recomendaciones](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) está disponibles para la API de informes de Adobe Analytics.
 
 ## Tiempos de espera de informe y cola de solicitud {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
@@ -30,7 +29,7 @@ Un solo informe se rompe en varias solicitudes (una por desglose), y cada solici
 
 Cada grupo de informes mantiene una cola separada de solicitudes. Si se solicitan varios informes de forma simultánea, incluso de usuarios separados, un pequeño número de informes se genera simultáneamente. A medida que se completan los informes, los informes restantes se generan en el mismo orden en que se recibieron. Como resultado, si un gran número de informes complejos ya se encuentran en la cola del grupo de informes, puede que se agote el tiempo de ejecución de un informe que normalmente se genera rápidamente.
 
-## Factores que afectan a la velocidad del informe {#section_6BA937EB6CEC4CBCB71FAAD32F031DC2}
+## Factores que afectan a la velocidad del informe  {#section_6BA937EB6CEC4CBCB71FAAD32F031DC2}
 
 Los siguientes factores contribuyen a que los tiempos de generación de informes sean más largos. Si se aumenta uno de estos factores puede no resultar en el agotamiento del tiempo de ejecución para el informe, pero puede retrasar otros informes de la cola del grupo de informes y provocar que el informe subsiguiente agote el tiempo de ejecución.
 
@@ -54,7 +53,7 @@ Los segmentos que consideran muchas dimensiones o tienen muchas reglas (24+) aum
 
 Los informes que contienen cientos de miles de valores únicos se generan más lentamente que los informes que contienen menos valores únicos, aunque el segmento o el filtro reduzcan el número de valores que finalmente aparecen en un informe. Por ejemplo, un informe que muestra términos de búsqueda normalmente se genera más lentamente que otros informes, incluso si se aplica un filtro para mostrar solo términos de búsqueda que contienen un valor específico.
 
-## Otras opciones de informes {#section_FEF85C7FC6E14755A6086AFFF36E0EB4}
+## Otras opciones de informes  {#section_FEF85C7FC6E14755A6086AFFF36E0EB4}
 
 Además de reducir el intervalo de tiempo, el número de métricas y el número de desgloses de un informe, las siguientes directrices ayudan a aumentar la fiabilidad de envío del informe:
 
