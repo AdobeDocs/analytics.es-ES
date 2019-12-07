@@ -2,7 +2,7 @@
 description: Instrucciones para configurar los cuadros de mandos de la aplicación móvil.
 title: Guía del curador de aplicaciones de Adobe Analytics Mobile
 translation-type: tm+mt
-source-git-commit: e01002d04560b6fe56a2ac2f4869d48f7604972d
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -24,7 +24,16 @@ Esta guía está pensada para ayudar a los curadores de datos de Adobe Analytics
 
 En la tabla siguiente se describen los términos para comprender la audiencia, las funciones y el funcionamiento de la aplicación móvil de Analytics.
 
-|Término|Definición||—|—||Consumidor| Persona ejecutiva que está viendo métricas y perspectivas clave de Analytics en un dispositivo móvil||Curador|Persona con conocimientos de datos que encuentra y distribuye perspectivas de Analytics y configura los cuadros de mandos para que los vea el consumidor||Curación|El acto de crear o editar un cuadro de mandos móvil que contenga métricas, dimensiones y otros componentes relevantes para el consumidor||Cuadro de mandos|Una vista de aplicación móvil que contiene uno o más mosaicos||Mosaico|Una representación para una métrica dentro de una vista Cuadro de mandos||Desglose|Una vista secundaria a la que se puede acceder tocando un mosaico en el cuadro de mandos. Esta vista se expande en la métrica mostrada en el mosaico y, opcionalmente, informa sobre dimensiones de desglose adicionales.||Intervalo de fechas|El intervalo de fechas principal para los informes de aplicaciones móviles||Intervalo de fechas de comparación|El intervalo de fechas que se compara con el intervalo de fechas principal|
+| Término | Definición |
+|--- |--- |
+| Consumidor | Persona ejecutiva que ve métricas clave y perspectivas de Analytics en un dispositivo móvil |
+| Curador | Persona alfabetizada de datos que busca y distribuye perspectivas de Analytics y configura los cuadros de mandos para que los vea el consumidor |
+| Revisión | Acto de crear o editar un cuadro de mandos móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
+| Cuadro de mandos | Vista de aplicación móvil que contiene uno o más mosaicos |
+| Mosaico | Representación de una métrica dentro de una vista Cuadro de mandos |
+| Desglosar | Una vista secundaria a la que se puede acceder tocando un mosaico en el cuadro de mandos. Esta vista se expande en la métrica mostrada en el mosaico y, opcionalmente, informa sobre dimensiones de desglose adicionales. |
+| Intervalo de fechas | El intervalo de fechas principal para los informes de aplicaciones móviles |
+| Intervalo de fechas de comparación | Intervalo de fechas que se compara con el intervalo de fechas principal |
 
  
 ## Creación de un cuadro de mandos para usuarios ejecutivos
@@ -32,12 +41,12 @@ En la tabla siguiente se describen los términos para comprender la audiencia, l
 Un cuadro de mandos móvil muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, como se muestra a continuación:
 
 
-![Ejemplo de cuadro de mandos](/help/analyze/mobile-app/assets/intro_scorecard.png)
+![Ejemplo de cuadro de mandos](assets/intro_scorecard.png)
 
 
 Como curador de este cuadro de mandos, puede utilizar el Generador de cuadros de mando para configurar los mosaicos que aparecen en el cuadro de mandos para su consumidor. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses una vez tocados los mosaicos. La interfaz del Generador de cuadros de mando se muestra a continuación:
 
-![Generador de cuadros de mando](help/analyze/mobile-app/assets/scorecard_builder.png)
+![Generador de cuadros de mando](assets/scorecard_builder.png)
 
 
 Para crear el cuadro de mandos, deberá hacer lo siguiente:
@@ -56,7 +65,7 @@ Puede acceder a la plantilla Cuadro de mandos móvil en blanco de una de las sig
 2. Haga clic en el botón **Crear nuevo proyecto** y seleccione la plantilla de proyecto de cuadro de mando móvil **en blanco** .
 3. Click the **Create** button.
 
-![Plantilla Cuadro de mandos](help/analyze/mobile-app/assets/new_template.png)
+![Plantilla Cuadro de mandos](assets/new_template.png)
 
 
 *Nota: Si no ve la plantilla Cuadro de mandos móvil en blanco, como se muestra a continuación, su empresa aún no se ha activado para la versión beta. Comuníquese con el administrador de servicio al cliente.*
@@ -66,7 +75,7 @@ Puede acceder a la plantilla Cuadro de mandos móvil en blanco de una de las sig
 
 En la pantalla **Proyectos** , en la ficha **Componentes** , haga clic en el botón **Agregar** y seleccione Cuadro de mandos **móvil**.
 
-![Agregar proyectos](help/analyze/mobile-app/assets/add_project.png)
+![Agregar proyectos](assets/add_project.png)
 
 **Uso de las herramientas de Analytics**
 
@@ -78,11 +87,11 @@ Para implementar la plantilla Cuadro de mandos:
 
 1. En **Propiedades** (en el carril derecho), especifique un grupo **de informes de** proyecto desde el que desee utilizar los datos.
 
-   ![Selección de grupos de informes](help/analyze/mobile-app/assets/properties_save.png)
+   ![Selección de grupos de informes](assets/properties_save.png)
 
 2. Para agregar un nuevo mosaico al cuadro de mandos, arrastre una métrica desde el panel izquierdo y suéltela en la zona **Arrastrar y soltar métricas aquí** . También puede insertar una métrica entre dos mosaicos mediante un flujo de trabajo similar.
 
-   ![Agregar mosaicos](help/analyze/mobile-app/assets/build_list.png)
+   ![Agregar mosaicos](assets/build_list.png)
 
 
    *Desde cada mosaico, puede acceder a una vista detallada que muestra información adicional sobre la métrica, como elementos principales para una lista de dimensiones relacionadas.*
@@ -90,7 +99,7 @@ Para implementar la plantilla Cuadro de mandos:
 
 3. Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico. Por ejemplo, puede agregar dimensiones adecuadas (como Región **** DMA, en este ejemplo) a la métrica Visitantes **** únicos arrastrándola y soltándola en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de **Propiedades** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
 
-   ![Agregar dimensiones](help/analyze/mobile-app/assets/layer_dimensions.png)
+   ![Agregar dimensiones](assets/layer_dimensions.png)
 
    *Nota: También puede agregar una dimensión a todos los mosaicos soltándola en el lienzo Cuadro de mandos.*
 
@@ -99,7 +108,7 @@ Para implementar la plantilla Cuadro de mandos:
 
    Además, si hace clic en mosaicos, una ventana emergente dinámica mostrará cómo el usuario ejecutivo de la aplicación verá la vista Desglose. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fechas predeterminado.
 
-   ![Breakdown_view](help/analyze/mobile-app/assets/break_view.png)
+   ![Breakdown_view](assets/break_view.png)
 
    *Observe cómo cada dimensión agregada al mosaico se mostrará en una lista desplegable en la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones enumeradas en la lista desplegable.*
 
@@ -107,7 +116,7 @@ Para implementar la plantilla Cuadro de mandos:
 
 5. Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de mandos, haga clic en cualquier lugar del cuadro de mandos fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento Clientes **** móviles:
 
-   ![Remove_components](help/analyze/mobile-app/assets/new_remove.png)
+   ![Remove_components](assets/new_remove.png)
 
 6. En **Propiedades** de cuadro de mandos, también puede especificar de forma opcional lo siguiente:
 
@@ -119,7 +128,7 @@ Para implementar la plantilla Cuadro de mandos:
 
 7. Para asignar un nombre al cuadro de mandos, haga clic en el espacio de nombres en la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
-   ![Naming_scorecards](help/analyze/mobile-app/assets/new_name.png)
+   ![Naming_Scorecards](assets/new_name.png)
 
 ## Compartir el cuadro de mandos
 
@@ -137,7 +146,7 @@ Para compartir cuadro de mandos con un usuario ejecutivo:
 
 3. Haga clic en **Compartir**.
 
-![Share_Scorecards](help/analyze/mobile-app/assets/new_share.png)
+![Share_Scorecards](assets/new_share.png)
 
 
 Una vez que haya compartido un cuadro de mandos, los destinatarios podrán acceder a él en su aplicación móvil de Analytics. Si realiza cambios posteriores en el cuadro de mandos en el Generador de cuadros de mando, se actualizarán automáticamente en el cuadro de mando compartido. Los usuarios ejecutivos verán los cambios después de actualizar el cuadro de mandos en su aplicación.
@@ -152,11 +161,11 @@ En algunos casos, los usuarios ejecutivos pueden necesitar asistencia adicional 
 
 Para ayudar a los usuarios ejecutivos a acceder a sus cuadros de mandos en la aplicación, asegúrese de que:
 
-    * Los requisitos mínimos del sistema operativo móvil en sus dispositivos son iOS versión 10 o superior, o Android versión 4.4 (KitKat) o superior
-    * Tienen un inicio de sesión válido en Adobe Analytics
-    * Ha creado correctamente cuadros de mando móviles para ellos y los ha compartido con ellos.
-    * Tienen acceso a Analysis Workspace y al grupo de informes en el que se basa
-    el cuadro de mandos* Tienen acceso a los componentes que incluye el cuadro de mandos. Nota: Puede seleccionar una opción al compartir los cuadros de mandos para **Compartir automáticamente los componentes incrustados con los destinatarios**.
+* Los requisitos mínimos del sistema operativo móvil en sus dispositivos son iOS versión 10 o superior, o Android versión 4.4 (KitKat) o superior
+* Tienen un inicio de sesión válido en Adobe Analytics
+* Ha creado correctamente cuadros de mandos móviles para ellos y comparte estos cuadros de mandos con ellos.
+* Tienen acceso a Analysis Workspace y al grupo de informes en el que se basa el cuadro de mandos
+* Tienen acceso a los componentes que incluye el cuadro de mandos. Nota: Puede seleccionar una opción al compartir los cuadros de mandos para compartir **automáticamente los componentes incrustados con los destinatarios**.
 
 ### Ayudar a los usuarios ejecutivos a utilizar la aplicación
 
@@ -172,13 +181,13 @@ Durante la fase beta y antes de que la aplicación se muestre al público, puede
 
       Después de hacer clic en el vínculo, aparece la siguiente pantalla de prueba:
 
-      ![Pantalla de prueba](help/analyze/mobile-app/assets/testflight1.png)
+      ![Pantalla de prueba](assets/testflight1.png)
 
    2. Toque el vínculo **Ver en App Store** en la pantalla para descargar la aplicación Testflight.
 
    3. Después de instalar la aplicación Testflight, busque e instale la aplicación móvil de Adobe Analytics en Testflight, como se muestra a continuación:
-   ![Pantalla de prueba](help/analyze/mobile-app/assets/testflight2.png)
 
+      ![Pantalla de prueba](assets/testflight2.png)
    **Para usuarios ejecutivos en Android:**
 
    1. Toque el siguiente vínculo de Play Store en el dispositivo del usuario (también está disponible en Analytics en **Herramientas** &gt; Aplicación **** móvil):
@@ -188,97 +197,80 @@ Durante la fase beta y antes de que la aplicación se muestre al público, puede
 
       Después de tocar el vínculo, toque el vínculo Convertir en probador en la siguiente pantalla:
 
-      ![Pantalla Play Store](help/analyze/mobile-app/assets/play.png)
+      ![Pantalla Play Store](assets/play.png)
 
    2. Toque el vínculo **descargarlo en Google Play** en la siguiente pantalla:
 
-      ![Vínculo de descarga](help/analyze/mobile-app/assets/playnext.png)
+      ![Vínculo de descarga](assets/playnext.png)
 
    3. Descargue e instale la aplicación.
    Una vez descargado e instalado, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics existentes; admitimos Adobe ID y Enterprise ID.
 
-   ![Pantalla de bienvenida de la aplicación](help/analyze/mobile-app/assets/welcome.png)
+   ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
-2. Ayudarles a acceder a su cuadro de mandos. Después de que los usuarios ejecutivos inicien sesión en la aplicación, aparece la pantalla Elegir una empresa. Esta pantalla enumera las empresas de inicio de sesión a las que pertenece el usuario ejecutivo. Para ayudarles a acceder al cuadro de mandos:
+2. Ayudarles a acceder a su cuadro de mandos. Después de que los usuarios ejecutivos inicien sesión en la aplicación, aparece la pantalla **Elegir una empresa** . Esta pantalla enumera las empresas de inicio de sesión a las que pertenece el usuario ejecutivo. Para ayudarles a acceder al cuadro de mandos:
 
-* Toque el nombre de la empresa de inicio de sesión o de la organización de Experience Cloud que se aplica al cuadro de mandos que ha compartido. A continuación, la lista Cuadro de mandos muestra todos los cuadros de mando que se han compartido con el ejecutivo en esa empresa de inicio de sesión.
-* Ayudarles a ordenar esta lista por Últimas modificaciones, si corresponde.
-* Toque el nombre del cuadro de mandos para verlo.
-
-
-1. Para elegir una empresa, tómela.
-2. Puntee en un cuadro de mandos en la lista Cuadro de mandos.
+   * Toque el nombre de la empresa de inicio de sesión o de la organización de Experience Cloud que se aplica al cuadro de mandos que ha compartido. A continuación, la lista Cuadro de mandos muestra todos los cuadros de mando que se han compartido con el ejecutivo en esa empresa de inicio de sesión.
+   * Ayudarles a ordenar esta lista por **Últimas modificaciones**, si corresponde.
+   * Toque el nombre del cuadro de mandos para verlo.
+   ![Seleccione una empresa](assets/accesscard.png)
 
    Nota: Si el usuario ejecutivo inicia sesión y ve un mensaje que dice que no se ha compartido nada:
 
    * Es posible que el usuario ejecutivo haya seleccionado una instancia incorrecta de Analytics
-   * El cuadro de mandos no se ha compartido con el usuario ejecutivo
+   * Es posible que el cuadro de mandos no se haya compartido con el usuario ejecutivo
 
-3. Muestra cómo aparecen los mosaicos en el cuadro de mandos que comparte.
+      ![Nada compartido](assets/nothing.png)
+   Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia de Analytics correcta y que se ha compartido el cuadro de mandos.
 
+3. Explicar al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de mandos compartidos.
+
+   ![Explicar mosaicos](assets/newexplain.png)
 
 
    Información adicional sobre mosaicos:
 
-       
- * La granularidad de los minigráficos depende de la longitud del intervalo de fechas:       * Un día muestra una tendencia
- por hora     * Más de un día y menos de un año muestra una tendencia
- diaria     * Un año o más muestra una tendencia
- semanal     * La fórmula de cambio de valor porcentual es total de la métrica (intervalo de fechas actual) - total de la métrica (intervalo de fechas de comparación) / total de la métrica (intervalo de fechas de comparación).
-       * Puede bajar la pantalla para actualizar el cuadro de mandos.
-   
+   * La granularidad de los minigráficos depende de la longitud del intervalo de fechas:
+      * Un día muestra una tendencia por hora
+      * Más de un día y menos de un año muestran una tendencia diaria
+      * Un año o más muestra una tendencia semanal
+   * La fórmula de cambio de valor porcentual es el total de la métrica (intervalo de fechas actual) - total de la métrica (intervalo de fechas de comparación) / total de la métrica (intervalo de fechas de comparación).
+   * Puede bajar la pantalla para actualizar el cuadro de mandos.
 
-4. Toque un mosaico para mostrar cómo funciona un desglose detallado o un informe de tendencias para el mosaico.
+
+4. Toque un mosaico para mostrar el funcionamiento de un desglose detallado del mosaico.
+
+   ![Vista de desglose](assets/sparkline.png)
 
 
 5. Para cambiar los intervalos de fechas del cuadro de mandos:
 
+   ![Cambiar fechas](assets/changedate.png)
 
+   *Nota: También puede cambiar los intervalos de fechas dentro de la vista Desglosar que se muestra arriba de la misma manera.*
 
-   *1. Puntee en el encabezado Fecha. 2. En la pantalla Intervalo de fechas, toque el lapso de tiempo con el que desee trabajar.*
-
-   Según el intervalo que toque (Día, Semana, Mes o Año), verá dos opciones para los intervalos de fechas, ya sea el intervalo de tiempo actual o el que le preceda inmediatamente. Toque una de estas dos opciones para seleccionar el primer rango. En la lista COMPARAR con, toque una de las opciones presentadas para comparar los datos de este período de tiempo con el primer intervalo de fechas seleccionado. Puntee Hecho en la parte superior derecha de la pantalla. El campo Intervalos de fechas y los mosaicos Cuadro de mandos se actualizan con los nuevos datos de comparación de los nuevos rangos seleccionados.
-
+   Según el intervalo que toque (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: el intervalo de tiempo actual o el que le preceda inmediatamente. Toque una de estas dos opciones para seleccionar el primer rango. En la lista **COMPARAR con** , toque una de las opciones presentadas para comparar los datos de este período de tiempo con el primer intervalo de fechas seleccionado. Puntee **Listo** en la parte superior derecha de la pantalla. El campo **Intervalos** de fechas y los mosaicos Cuadro de mandos se actualizan con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
 6. Para dejar comentarios sobre esta aplicación:
 
-
    1. Toque el icono de usuario en la parte superior derecha de la pantalla de la aplicación.
-   2. En la pantalla Mi cuenta, toque la opción Comentarios.
+   2. En la pantalla **Mi cuenta** , toque la opción **Comentarios** .
    3. Toque para ver las opciones para dejar comentarios.
+   ![Dejar comentarios](assets/feedback.png)
+   ![Opciones de comentarios](assets/feedback_option.png)
 
 
+**Para informar de un error**:
 
-*Toque el icono Usuario en la parte superior derecha. 2. Puntee en el tipo de comentarios. 3. Puntee en la opción de comentarios correspondiente.*
-
-
-
+Toque la opción y elija una subcategoría del error. En el formulario para informar de un error, proporcione su dirección de correo electrónico en el campo superior y su descripción del error en el campo debajo. Se adjunta automáticamente al mensaje una captura de pantalla de la información de la cuenta, pero puede eliminarla si lo desea tocando la **X** en la imagen adjunta. También tiene opciones para grabar una pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar el informe, toque el icono del plano de papel en la parte superior derecha del formulario.
 
 
+![Error de informe](assets/newbug.png)
 
+**Para sugerir una mejora**:
 
+Toque la opción y elija una subcategoría para la sugerencia. En el formulario de sugerencias, proporcione su dirección de correo electrónico en el campo superior y su descripción del error en el campo debajo. Se adjunta automáticamente al mensaje una captura de pantalla de la información de la cuenta, pero puede eliminarla si lo desea tocando la **X** en la imagen adjunta. También tiene opciones para grabar una pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar la sugerencia, toque el icono de plano de papel en la parte superior derecha del formulario.
 
-Para informar de un error:
+**Para hacer una pregunta**:
 
-Toque la opción y elija una subcategoría del error. En el formulario para informar de un error, proporcione su dirección de correo electrónico en el campo superior y su descripción del error en el campo debajo. Se adjunta automáticamente al mensaje una captura de pantalla de la información de la cuenta, pero puede eliminarla si lo desea tocando la X en la imagen adjunta. También tiene opciones para grabar una pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar el informe, toque el icono del plano de papel en la parte superior derecha del formulario.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Para sugerir una mejora:
-
-Toque la opción y elija una subcategoría para la sugerencia. En el formulario de sugerencias, proporcione su dirección de correo electrónico en el campo superior y su descripción del error en el campo debajo. Se adjunta automáticamente al mensaje una captura de pantalla de la información de la cuenta, pero puede eliminarla si lo desea tocando la X en la imagen adjunta. También tiene opciones para grabar una pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar la sugerencia, toque el icono de plano de papel en la parte superior derecha del formulario.
-
-Para hacer una pregunta:
-
-Puntee en la opción y proporcione su dirección de correo electrónico en el campo superior y su pregunta en el campo inferior. Se adjunta automáticamente una captura de pantalla al mensaje, pero puede eliminarla si lo desea tocando la X en la imagen adjunta. También tiene opciones para grabar una pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar la pregunta, toque el icono de plano de papel en la parte superior derecha del formulario.
+Puntee en la opción y proporcione su dirección de correo electrónico en el campo superior y su pregunta en el campo inferior. Se adjunta automáticamente una captura de pantalla al mensaje, pero puede eliminarla si lo desea tocando la **X** en la imagen adjunta. También tiene opciones para grabar una pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar la pregunta, toque el icono de plano de papel en la parte superior derecha del formulario.
