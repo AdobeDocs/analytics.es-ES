@@ -1,26 +1,25 @@
 ---
 description: Personalice el acceso de usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Personalizar permisos para dimensiones
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Personalizar permisos para dimensiones
 
-> [!IMPORTANT] La administración de usuarios y productos se está trasladando a la [Consola](https://helpx.adobe.com/enterprise/using/admin-console.html)de administración. Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** &gt; **[!UICONTROL Herramientas de administración]** &gt; **[!UICONTROL Administración de usuarios]**.
 
 Personalice el acceso de usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas.
 
-**[!UICONTROL Administración]** de usuarios &gt; **[!UICONTROL Grupos]** &gt; Acceso **[!UICONTROL a]** informes &gt; **[!UICONTROL Dimensiones]** &gt; **[!UICONTROL Personalizar]**
+**[!UICONTROL Administración de usuarios]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Acceso a informes]** &gt; **[!UICONTROL Dimensiones]** &gt; **[!UICONTROL Personalizar]**
 
-> [!IMPORTANT] Algunas dimensiones no están permitidas en este momento. Estas dimensiones son: Longitud del marcador móvil, Número del dispositivo móvil, DRM móvil, Servicios de información móvil, Máquina virtual Java móvil, Decoración de correo móvil, Protocolos de red móvil, Sistema operativo móvil, Pulsar para hablar móvil.
+> [!IMPORTANT] Algunas dimensiones no pueden recibir permisos en este momento. Estas dimensiones son: Longitud del marcador móvil, Número del dispositivo móvil, DRM móvil, Servicios de información móvil, Máquina virtual Java móvil, Decoración de correo móvil, Protocolos de red móvil, Sistema operativo móvil, Pulsar para hablar móvil.
 >
 >Estas dimensiones están disponibles para todos los usuarios, independientemente de otros permisos.
 
@@ -32,7 +31,7 @@ Conozca la información que sigue sobre la categoría de permisos Dimensión.
 
 * Las eVars 1 a 250 obtienen permisos de forma individual.
 * Todos los informes de tráfico son dimensiones.
-* Los informes de vídeo y móviles son dimensiones, así como otros informes de soluciones de Analytics (Experience Manager, Advertising Cloud, Social, etc.).
+* Los informes de Vídeo y Móvil son dimensiones, al igual que otros informes de soluciones de Analytics (Experience Manager, Advertising Cloud, Social, etc.).
 * Los informes de rutas están disponibles si un usuario tiene acceso a la dimensión primaria.
 * Se han migrado automáticamente a las nuevas categorías todas las dimensiones y métricas actuales dentro de grupos personalizados. Si un grupo existente tiene métricas habilitadas, se le asignarán todas las dimensiones que puedan recibir permisos por primera vez (eVars y según el contenido) y métricas de forma predeterminada.
 * Permisos del Importador de clasificaciones (anteriormente, SAINT): el acceso a las clasificaciones viene determinado por el acceso a la [variable](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html) en la cual se basa la clasificación.
@@ -68,8 +67,8 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
    <td colname="col2"> <p> Similar a cómo funcionan las props de lista, las variables de lista permiten incluir varios valores dentro de la misma solicitud de imagen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Standard </p> </td> 
-   <td colname="col2"> <p>Hace referencia a dimensiones (integradas) en Analytics. </p> </td> 
+   <td colname="col1"> <p>Estándar </p> </td> 
+   <td colname="col2"> <p>Hace referencia a dimensiones dimensiones (integradas) en Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
@@ -80,7 +79,7 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
    <td colname="col2"> <p>Adobe Advertising Cloud </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/"> Activity Map </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/"> Página de </a> </p> </td> 
    <td colname="col2"> <p> Dimensiones de los informes de Activity Map: Página de Activity Map; Vínculo de Activity Map; Región de Activity Map; Vínculo de Activity Map por región; Activity Map XY </p> </td> 
   </tr> 
   <tr> 
