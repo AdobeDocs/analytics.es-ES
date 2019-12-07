@@ -1,11 +1,10 @@
 ---
 description: Muestra información acerca de los visitantes, incluso cosas como el recuento de visitantes, la lealtad del cliente y las características del visitante.
-solution: Analytics
 title: Informes de visitante
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -102,7 +101,7 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Idiomas]**:Muestra los idiomas preferidos de los visitantes, captura el idioma predeterminado del explorador y muestra los idiomas que los visitantes utilizan con más frecuencia en el sitio.
+**[!UICONTROL Idiomas]**: Muestra los idiomas preferidos de los visitantes, captura el idioma predeterminado del explorador y muestra los idiomas que los visitantes utilizan con más frecuencia en el sitio.
 
 **[!UICONTROL Dominios]**: enumera las organizaciones y los ISP que los visitantes utilizan para acceder al sitio. Este informe difiere del informe de [!UICONTROL dominios completos] en que el informe de dominios completos registra el dominio completo del proveedor, mientras que el primero indica el dominio secundario.
 
