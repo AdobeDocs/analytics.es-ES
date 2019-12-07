@@ -1,13 +1,12 @@
 ---
 description: Ejemplo que contiene una muestra de llamadas al servidor enviadas en una interacción de cliente habitual.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Visitors
 title: Ejemplo de identificación de visitantes entre dispositivos
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: 3e2f0bccbe7183ea75b12b1ef2b5afdd87837629
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
