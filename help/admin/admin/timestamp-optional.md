@@ -1,11 +1,10 @@
 ---
 description: Combine tanto los datos con marcas de hora como los datos sin marcas de hora en un grupo de informes único.
-solution: Analytics
 title: Marcas de hora opcionales
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,9 +23,9 @@ Consulte [Uso de marcas de hora opcionales](/help/implement/js-implementation/ti
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. Esto puede generar datos confusos y afectar de forma negativa a los cálculos de hora (como por ejemplo los valores de tiempo empleado), atribución (persistencia de eVar), número de visitas/recuentos de visitas y informes de rutas.
+>Si usa Marcas de hora opcionales, no configure [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) en datos que ya cuenten con marcas de hora. Esto puede generar datos confusos y afectar de forma negativa a los cálculos de hora (como por ejemplo los valores de tiempo empleado), atribución (persistencia de eVar), número de visitas/recuentos de visitas y informes de rutas.
 
-> [!NOTE] Los datos de sesión con marca de tiempo habilitada se conservan por un período máximo de 92 días. Esto significa que una visita/sesión se "mantendrá abierta" durante 92 días, mientras que cualquier visita individual adicional (que no sea 30 minutos después de la visita individual anterior) se puede incluir en la misma visita/sesión. Cualquier visita "antigua" que se reciba fuera de servicio producirá resultados "desconocidos", ya que una serie de factores (segmentación, asignación, caducidad, etc.) influir en si estas visitas se incluirán o no en los informes.
+> [!NOTE] Los datos de sesión con marca de tiempo habilitada se conservan por un período máximo de 92 días. Esto significa que una visita/sesión se “mantendrá abierta” durante 92 días, mientras que cualquier visita individual adicional (que no sea 30 minutos después de la visita individual anterior) se puede incluir en la misma visita/sesión. Cualquier visita “antigua” que se reciba de manera desordenada producirá resultados “desconocidos”, ya que una serie de factores (segmentación, asignación, caducidad, etc.) influyen en si estas visitas se incluirán o no en los informes.
 
 ## Nuevos grupos de informes {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -46,5 +45,5 @@ Consulte [Uso de marcas de hora opcionales](/help/implement/js-implementation/ti
 
    Esto cambiará el grupo de informes a Marcas de hora opcionales.
 
-> [!NOTE] Si un grupo de informes se configuró en **Marcas de hora opcionales**, para cambiar esta opción a cualquier otra configuración, póngase en contacto con Adobe Client Care.
+> [!NOTE] Si un grupo de informes está establecido en **Marcas de hora opcionales**, póngase en contacto con el servicio de atención al cliente de Adobe para cambiar esta o cualquier otra opción de configuración.
 
