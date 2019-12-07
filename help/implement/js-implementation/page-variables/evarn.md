@@ -1,13 +1,12 @@
 ---
 description: Las variables de página rellenan directamente un informe, como pageName, Props de lista, Variables de lista, etc.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -97,7 +96,7 @@ Las eVars se pueden configurar en Analytics &gt; Administración &gt; Grupos de 
    <td> Se usa para configurar qué valor de la eVar recibe el crédito por los eventos de éxito. <p>Si Asignación se configura como "Más reciente (último)", B recibe el crédito. </p> <p>Si Asignación se configura como "Valor original (primero)", A recibe el crédito. </p> <p>Si Asignación se configura como "Lineal", tanto A como B reciben el crédito por la mitad del valor de la compra. </p> </td> 
   </tr> 
   <tr> 
-   <td> Caduca después de </td> 
+   <td> Caduca después </td> 
    <td> Permite determinar si una eVar expira cuando se produzca un evento específico, como una compra, o después de un período de tiempo personalizado o predefinido. </td> 
   </tr> 
   <tr> 
