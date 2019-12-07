@@ -1,11 +1,10 @@
 ---
 description: Un grupo de informes define los informes completos e independientes de un sitio web, de un conjunto de sitios web o de un subconjunto de páginas web que se hayan seleccionado. Por lo general, un grupo de informes es un sitio web, pero podría ser un segmento global en el cual se han combinado las cifras de varios sitios para obtener valores totales. Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes a utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes). Asimismo, un grupo de informes puede ser de menor tamaño que un sitio web si desea ejecutar informes solo para una parte del sitio. Las soluciones de Analytics reúnen estos almacenes de datos y generan informes a partir de ellos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en la que se procesan los datos en un grupo de informes.
-solution: Analytics
 title: Administrador del grupo de informes
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Un grupo de informes define los informes completos e independientes de un sitio web, de un conjunto de sitios web o de un subconjunto de páginas web que se hayan seleccionado. Por lo general, un grupo de informes es un sitio web, pero podría ser un segmento global en el cual se han combinado las cifras de varios sitios para obtener valores totales. Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes a utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes). Asimismo, un grupo de informes puede ser de menor tamaño que un sitio web si desea ejecutar informes solo para una parte del sitio. Las soluciones de Analytics reúnen estos almacenes de datos y generan informes a partir de ellos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en la que se procesan los datos en un grupo de informes.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **[!UICONTROL de informes]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]**
 
-> [!NOTE] Los grupos de informes virtuales se administran mediante **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; Grupos **[!UICONTROL de informes]** virtuales. Consulte la documentación [del grupo de informes](/help/components/vrs/vrs-about.md)virtuales.
+> [!NOTE] Los grupos de informes virtuales se gestionan a través de **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Grupos de informes virtuales]**. Consulte la [documentación del grupo de informes virtuales](/help/components/vrs/vrs-about.md).
 
 ## Descripciones del Administrador del grupo de informes {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
