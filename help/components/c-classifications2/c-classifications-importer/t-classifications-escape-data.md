@@ -1,12 +1,11 @@
 ---
 description: Pasos que describen cómo aplicar secuencias de escape a los datos de clasificación del archivo de clasificación.
-solution: Analytics
 subtopic: Classifications
 title: Aplicar secuencias de escape a los datos de clasificación
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ Pasos que describen cómo aplicar secuencias de escape a los datos de clasificac
 
    >[!NOTE]
    >
-   >To specify a format of v2.1, enable **[!UICONTROL Quoted Output]** when exporting the file on the [!UICONTROL Classification Importer] page ( [!UICONTROL Browser Export] or [!UICONTROL FTP Export]).
+   >Para especificar un formato de v2.1, habilite **[!UICONTROL Salida citada]** al exportar el archivo en la página [!UICONTROL Importador de clasificaciones] ([!UICONTROL Exportación del explorador] o [!UICONTROL Exportación FTP]).
 
 1. Rodee el campo que contiene caracteres especiales con comillas dobles (`"`).
 
