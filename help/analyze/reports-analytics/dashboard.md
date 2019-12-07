@@ -1,12 +1,11 @@
 ---
 description: Un tablero es una colección de informes en miniatura, llamados informes breves. Un tablero es más útil cuando contiene informes breves relacionados que le ofrecen información general completa sobre determinados aspectos de su sitio, como métodos de búsqueda, perfiles de visitantes, etc.
-solution: Analytics
 subtopic: Dashboards
 title: Paneles e informes breves
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -185,7 +184,7 @@ t_dashboard_edit.xml
 1. Click **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]** &gt; *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
-| Para | Haga esto |
+| Hasta | Haga esto |
 |--- |--- |
 | Cambiar el grupo de informes de un tablero | Haga clic en el menú del encabezado de Experience Cloud y, a continuación, seleccione un grupo de informes. |
 | Cambiar el grupo de informes de un informe breve | En el informe breve, haga clic en el nombre del grupo de informes y, a continuación, seleccione un grupo de informes en el menú [!UICONTROL Grupo de informes] |
@@ -210,7 +209,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Configuración **[!UICONTROL de empresa]**.
+1. **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Configuración de la empresa]**.
 1. En la página [!UICONTROL Configuración de empresa]**, haga clic en[!UICONTROL Promocionar conjuntamente Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
 1. Examine para cargar la imagen y, a continuación, haga clic en **[!UICONTROL Guardar.]**
