@@ -1,12 +1,11 @@
 ---
 description: Los datos de clasificación pueden importarse (cargarse) a través del explorador web. Este método restringe la carga de datos de clasificación a un solo grupo de informes.
-solution: Analytics
 subtopic: Classifications
 title: Importación del explorador
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ Los datos de clasificación pueden importarse (cargarse) a través del explorado
 
 Los datos de clasificación pueden importarse (cargarse) a través del explorador web. Este método restringe la carga de datos de clasificación a un solo grupo de informes.
 
-**[!UICONTROL Administración]** &gt; Importador **[!UICONTROL de clasificaciones]**
+**[!UICONTROL Administración]** &gt; **[!UICONTROL Importador de clasificaciones]**
 
 ## Importación del explorador de clasificaciones: descripciones de los campos {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -62,11 +61,11 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Import File]**.
-1. Configure los campos Importación **[!UICONTROL del]** explorador.
-1. Click **[!UICONTROL Import File]**.
+1. Haga clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Importador de clasificaciones]**.
+1. Haga clic en **[!UICONTROL Importar archivo]**.
+1. Configure los campos **[!UICONTROL Importación del explorador]**.
+1. Haga clic en **[!UICONTROL Importar archivo]**.
 1. Observe la ventana de estado para ver los mensajes de procesamiento.
-1. (Conditional) If you selected **[!UICONTROL Automatically Download Classification File After Upload is Complete]**, specify where you want to store the resulting file when processing completes.
+1. (Condicional) Si activó **[!UICONTROL Descargar automáticamente el archivo de clasificación cuando se haya completado la carga]**, indique dónde desea almacenar el archivo resultante cuando termine el procesamiento.
 >Si la importación es correcta, se muestran inmediatamente los cambios correspondientes en una exportación. Pese a ello, los cambios de datos en los informes pueden tardar hasta cuatro horas si utiliza una importación mediante explorador y hasta 24 horas si utiliza una importación mediante FTP.
 
