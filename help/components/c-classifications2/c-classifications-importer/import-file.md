@@ -1,12 +1,11 @@
 ---
 description: Una vez copiados los datos adecuados en el archivo de plantilla de clasificaciones, puede procederse a la importación (carga) en los servidores de recopilación de datos de Adobe.
-solution: Analytics
 subtopic: Classifications
 title: Importación del explorador y FTP
 topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Una vez copiados los datos adecuados en el archivo de plantilla de clasificaciones, puede procederse a la importación (carga) en los servidores de recopilación de datos de Adobe.
 
-> [!NOTE] No es necesario descargar (mediante la función de exportación) los datos de clasificación existentes antes de cargar los nuevos datos. Únicamente debe cargarse un nuevo archivo que contiene las filas nuevas de datos. Con este método se obtiene un mejor rendimiento.
+> [!NOTE] No es necesario descargar (con la función de exportación) los datos de clasificación existentes antes de cargar los nuevos datos. Únicamente debe cargarse un nuevo archivo que contiene las filas nuevas de datos. Con este método se obtiene un mejor rendimiento.
 
 Consulte [Estructura general de los archivos](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) para obtener información relevante sobre la estructura y las limitaciones de los archivos cargados.
 
