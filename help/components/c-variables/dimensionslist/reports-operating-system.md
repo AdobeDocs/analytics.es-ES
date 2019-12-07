@@ -1,11 +1,10 @@
 ---
 description: Agrupa el tráfico web por el sistema operativo usado por el cliente.
-solution: Analytics
 title: Sistema operativo
 topic: Reports
 uuid: 68307788-467a-4294-becc-921c105a0825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ Los sistemas operativos de equipos de escritorio y móviles aparecen en este inf
 
 Este informe utiliza datos de dispositivos dinámicos que se actualizan constantemente a medida que se lanzan e identifican nuevos dispositivos. Por ejemplo, podría identificarse incorrectamente una nueva tableta que se lanza durante el mes actual porque aún no existe en la base de datos de dispositivos. Cuando se actualiza la base de datos de dispositivos con el nuevo dispositivo, los cambios resultantes se aplican a todas las fechas de informes. Por consiguiente, podría ver leves variaciones en este informe para fechas históricas con el transcurso del tiempo. Como regla general, el informe más actual tendrá la fecha más exacta para cualquier período de informe.
 
-## Cambios {#section_B028CE3DDDC4401FA0609F908885A5DD}
+## Cambios  {#section_B028CE3DDDC4401FA0609F908885A5DD}
 
 <table id="table_82084301B1044103BB3B293595BC86BD"> 
  <thead> 
