@@ -1,12 +1,11 @@
 ---
 description: Antes de empezar a crear grupos de informes virtuales, hay que tener algunos aspectos en cuenta.
 keywords: Virtual Report Suite
-solution: Analytics
 title: Crear un grupo de informes virtuales
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,9 +16,9 @@ Antes de empezar a crear grupos de informes virtuales, hay que tener algunos asp
 
 * Los usuarios que no sean administradores no pueden ver el Administrador de grupos de informes virtuales.
 * Los grupos de informes virtuales no se pueden compartir. El uso compartido se realiza mediante grupos/permisos.
-* En el Administrador de grupos de informes virtuales solo puede ver sus propios grupos. Tienes que hacer clic en "mostrar todo" para ver el de todos los demás.
+* En el Administrador de grupos de informes virtuales solo puede ver sus propios grupos. Debe hacer clic en “Mostrar todos” para ver los de otros usuarios.
 
-1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
+1. Vaya a **[!UICONTROL Componentes]** &gt; **[!UICONTROL Grupos de informes virtuales]**.
 1. Haga clic en **[!UICONTROL Agregar +]**.
 
    ![](assets/new_vrs.png)
@@ -60,7 +59,7 @@ Antes de empezar a crear grupos de informes virtuales, hay que tener algunos asp
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos </td> 
-   <td colname="col2"> <p>Solo tiene que añadir un segmento o <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >apilar otros</a>. </p> <p> <p>Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción Y. No es posible cambiarlo a una instrucción O. </p> </p> <p>Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. </p> </td> 
+   <td colname="col2"> <p>Solo tiene que añadir un segmento o <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >apilar otros</a>. </p> <p> <p>Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción Y. No es posible cambiarlo a una instrucción OR. </p> </p> <p>Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. </p> </td> 
   </tr> 
  </tbody> 
 </table>
