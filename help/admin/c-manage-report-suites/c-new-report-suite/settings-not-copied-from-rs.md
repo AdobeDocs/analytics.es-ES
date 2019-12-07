@@ -1,11 +1,10 @@
 ---
 description: Si ha copiado la configuración de un grupo de informes existente, un mensaje del sistema identificará las opciones que no se copian al nuevo grupo de informes.
-solution: Analytics
 title: Configuración que no se copia desde un grupo de informes de origen
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,13 +32,13 @@ Las siguientes configuraciones no se copian de la plantilla o los grupos de info
    <td colname="col2"> 
     <ol id="ol_4F3028A440C94447890498CF2E64C15B"> 
      <li id="li_243C7F7DF3074F7FB9893BEFDA8B0732"> <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Grupos de informes</span>. A continuación, seleccione un grupo de informe. </li> 
-     <li id="li_357D06A1F528473CBA07D4C840BE95D9">Haga clic en <span class="uicontrol">Editar configuración</span> &gt; <span class="uicontrol">General</span> &gt; <span class="uicontrol">Configuración general de cuenta</span> </li> 
+     <li id="li_357D06A1F528473CBA07D4C840BE95D9">Haga clic en <span class="uicontrol">Editar configuración</span> &gt; <span class="uicontrol">General</span> &gt; <span class="uicontrol">Configuración general de la cuenta</span> </li> 
      <li id="li_9E0B7A9542864399AFDD5D422F7D6C22">Marque la casilla y seleccione la configuración en <span class="uicontrol">Almacenamiento de ID de transacción</span> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Jerarquía </p> </td> 
-   <td colname="col2"> <p>Contactar el servicio de atención al cliente de Adobe </p> </td> 
+   <td colname="col2"> <p>Póngase en contacto con el servicio de atención al cliente de Adobe </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Personalizaciones de menú </p> </td> 
