@@ -1,11 +1,10 @@
 ---
 description: Clasifica las páginas del sitio según la cantidad de tráfico que reciben. Cuando para tomar decisiones de negocios se necesita conocer datos cuantitativos de las páginas, este informe permite obtenerlos, mediante la adición de la métrica correcta.
-solution: Analytics
 title: Páginas
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
