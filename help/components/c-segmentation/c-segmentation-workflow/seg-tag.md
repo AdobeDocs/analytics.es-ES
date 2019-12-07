@@ -1,11 +1,10 @@
 ---
 description: En el Administrador de segmentos, el etiquetado de segmentos le permite organizarlos.
-solution: Analytics
 title: Etiquetar segmentos
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,8 +31,8 @@ Todos los usuarios pueden crear etiquetas para los segmentos y aplicar una o má
 
       ![](assets/tagging_ui.png)
 
-1. Haga clic en **[!UICONTROL Etiqueta]de nuevo para etiquetar el segmento.**
+1. Haga clic en **[!UICONTROL Etiqueta]** de nuevo para etiquetar el segmento.
 
 La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas.)
 
-You can also filter on tags by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Tags]**.
+También puede filtrar las etiquetas accediendo a **[!UICONTROL Filtros]** &gt; **[!UICONTROL Etiquetas]**.
