@@ -1,12 +1,11 @@
 ---
 description: El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
-solution: Analytics
 subtopic: Data sources
 title: Procesamiento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -111,8 +110,8 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col3"> <p>Dirección URL de la página (por ejemplo, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Productos </p> </td> 
-   <td colname="col2"> <p>Productos </p> </td> 
+   <td colname="col1"> <p>products </p> </td> 
+   <td colname="col2"> <p>products </p> </td> 
    <td colname="col3"> <p>Lista de productos (por ejemplo, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
@@ -131,8 +130,8 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col3"> <p>ID del grupo de informes a los cuales atribuir la visita. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>server </p> </td> 
+   <td colname="col1"> <p>servidor </p> </td> 
+   <td colname="col2"> <p>servidor </p> </td> 
    <td colname="col3"> <p>Cadena del servidor. </p> </td> 
   </tr> 
   <tr> 
@@ -231,7 +230,7 @@ En la tabla siguiente se muestran las variables de tráfico que se llenan autom�
    <td colname="col2"> <p>Valores de las propiedades. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>referrer </p> </td> 
+   <td colname="col1"> <p>referente </p> </td> 
    <td colname="col2"> <p>Dirección URL del referente de la página. </p> </td> 
   </tr> 
   <tr> 
