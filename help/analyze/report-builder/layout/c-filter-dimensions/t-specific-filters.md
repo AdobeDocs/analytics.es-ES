@@ -1,11 +1,10 @@
 ---
 description: Filtros que aplican términos de dimensión específicos.
-solution: Analytics
 title: Filtros específicos
 topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,11 +19,11 @@ Se puede buscar en elementos de dimensión específicos mediante la creación de
 
 1. Cree o edite una solicitud y avance en el [!UICONTROL Asistente para solicitudes: Paso 2].
 
-   ![Resultado (](assets/dimension_filter.png)
+   ![Resultado de pasos](assets/dimension_filter.png)
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2]**, haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione[!UICONTROL Filtro]**.
 
-   ![Resultado (](assets/choose_page_specific01.png)
+   ![Resultado de pasos](assets/choose_page_specific01.png)
 
 1. Enable **[!UICONTROL Specific]**, then enable one of the following options:
 
