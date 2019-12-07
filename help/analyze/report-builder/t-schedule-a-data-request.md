@@ -1,11 +1,10 @@
 ---
 description: Los informes se pueden programar para enviarlos de acuerdo al formato de archivo y la hora que se definan.
-solution: Analytics
 title: Programar una solicitud de datos
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,9 +44,9 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Campo | Descripción |
 |--- |--- |
 | Seleccionar informe | El nombre del libro. Para los nuevos informes programados, este campo se completa con el nombre del libro activo. |
-| Seleccionar | Muestra la página Seleccionar informe. Se puede seleccionar un informe del servidor (donde se almacenan todos los libros programados previamente) o del equipo local. Si se selecciona un libro de la unidad local en formato .xls, el sistema convierte el archivo a .xlsx. Como parte de la conversión, el archivo se abre en Excel y se activa. Si el libro seleccionado para el informe programado tiene el mismo nombre de archivo que el libro abierto actualmente en Excel, el sistema selecciona el archivo local en lugar del archivo cargado previamente. Si selecciona un informe del repositorio de programación, se crea una copia del libro en el servidor, con su nombre de archivo actualizado con 1. El informe programado recién creado utiliza el libro copiado. |
+| Select | Muestra la página Seleccionar informe. Se puede seleccionar un informe del servidor (donde se almacenan todos los libros programados previamente) o del equipo local. Si se selecciona un libro de la unidad local en formato .xls, el sistema convierte el archivo a .xlsx. Como parte de la conversión, el archivo se abre en Excel y se activa. Si el libro seleccionado para el informe programado tiene el mismo nombre de archivo que el libro abierto actualmente en Excel, el sistema selecciona el archivo local en lugar del archivo cargado previamente. Si selecciona un informe del repositorio de programación, se crea una copia del libro en el servidor, con su nombre de archivo actualizado con 1. El informe programado recién creado utiliza el libro copiado. |
 | Personalizar | Le permite personalizar el formato de fecha. |
-| Para | Muestra la libreta de direcciones de Outlook, si corresponde. |
+| Hasta | Muestra la libreta de direcciones de Outlook, si corresponde. |
 | Enviar a: Correo electrónico | Destinatario de correo electrónico del libro. |
 | Enviar a: Lista de publicación | Muestra las listas de distribución disponibles para esta empresa. |
 | Power BI | Consulte [Publicar libro en Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) para obtener más información. |
