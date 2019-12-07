@@ -1,18 +1,17 @@
 ---
 description: Las variables de página rellenan directamente un informe, como pageName, Props de lista, Variables de lista, etc.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# server
+# servidor
 
 La variable se usa para mostrar el dominio de una página web (para mostrar a qué dominios vienen los usuarios) o el servidor que atiende la página (para una referencia rápida del balance de carga).
 
@@ -25,7 +24,7 @@ server.xml
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| 100 bytes | server | Servidores | "" |
+| 100 bytes | servidor | Servidores | "" |
 
 Si su sitio tiene más de un dominio que sirve el mismo contenido, la variable *`server`* se puede usar para realizar el seguimiento de cuál de esos dominios están usando los visitantes. El siguiente código JavaScript rellenará el dominio de la página en la variable server.
 
