@@ -1,11 +1,10 @@
 ---
 description: Muestra un promedio de la distancia recorrida en una visita para que se active cada valor. Esta métrica es muy valiosa a la hora de determinar hasta qué punto de una página determinada o valor de prop llegan los usuarios durante una visita. Profundidad promedio de la página está disponible en cualquier variable que tenga las rutas activadas.
-solution: Analytics
 title: Profundidad promedio de la página
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ La [!UICONTROL profundidad de página] ayuda a conocer la posición de una deter
   </tr> 
   <tr> 
    <td colname="col1"> Conversión </td> 
-   <td colname="col2"> N/A </td> 
+   <td colname="col2"> N/D </td> 
   </tr> 
  </tbody> 
 </table>
