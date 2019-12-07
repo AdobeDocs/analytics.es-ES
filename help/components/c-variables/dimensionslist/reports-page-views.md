@@ -1,11 +1,10 @@
 ---
 description: Es un informe de tendencia que muestra el número de veces que se vieron las páginas del sitio web en un período determinado (hora, día, semana, mes, trimestre o año). Este informe permite hacer un seguimiento de vistas para cada página del sitio, como así también del total agregado de vistas para todas las páginas del sitio.
-solution: Analytics
 title: Vistas de páginas
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,12 +13,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Es un informe de tendencia que muestra el número de veces que se vieron las páginas del sitio web en un período determinado (hora, día, semana, mes, trimestre o año). Este informe permite hacer un seguimiento de vistas para cada página del sitio, como así también del total agregado de vistas para todas las páginas del sitio.
 
-A [page view](/help/components/c-variables/c-metrics/metrics-page-view.md) is a request for a full page document rather than an element of a page, such as an image or video. Si un mismo visitante ve 15 páginas durante una visita, se cuentan 15 vistas de página. Si un visitante ve la misma página tres veces durante una visita, se cuentan tres vistas de página.
+Una [vista de página](/help/components/c-variables/c-metrics/metrics-page-view.md) es una solicitud de un documento de una página completa, en vez de un elemento de una página, como, por ejemplo, una imagen o un vídeo. Si un mismo visitante ve 15 páginas durante una visita, se cuentan 15 vistas de página. Si un visitante ve la misma página tres veces durante una visita, se cuentan tres vistas de página.
 
 **Propiedades de los informes**
 
 * Este informe hace referencia al número de veces que la función [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) se ha llamado en el sitio.
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* Las llamadas de [seguimiento de vínculos](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) personalizados (por ejemplo, vínculos personalizados, descargas de archivos y vínculos de salida) utilizan la función [!DNL s.tl()] y no se contabilizan en este informe.
 
 * Debido a que las solicitudes de imagen se envían cuando el usuario actualiza la página o hace clic en el botón de retroceso, este informe también incluye dichas acciones.
 * Los desgloses por hora se basan en el huso horario del grupo de informes.
