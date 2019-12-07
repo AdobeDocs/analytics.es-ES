@@ -1,13 +1,12 @@
 ---
 description: En las siguientes secciones se describen los errores más comunes de las cuentas dinámicas.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Errores comunes
 topic: Developer and implementation
 uuid: 04345355-60cc-4678-81c3-390c86752df1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
