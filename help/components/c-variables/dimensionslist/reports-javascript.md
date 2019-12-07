@@ -1,11 +1,10 @@
 ---
 description: Muestra las métricas basadas en si el dispositivo tiene JavaScript habilitado, deshabilitado o si se cuenta como "no identificado".
-solution: Analytics
 title: Asistencia técnica de JavaScript
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Muestra las métricas basadas en si el dispositivo tiene JavaScript habilitado, deshabilitado o si se cuenta como "no identificado".
 
-> [!NOTE] A principios de noviembre de 2016, planeamos eliminar la restricción en la que JavaScript siempre aparece como *`disabled / unidentified`* para dispositivos móviles.
+> [!NOTE] A principios de noviembre de 2016, planeamos quitar la restricción donde JavaScript siempre se enumera como *`disabled / unidentified`* para dispositivos móviles.
 
 El informe JavaScript corresponde a la columna javascript de los datos sin procesar.
 
