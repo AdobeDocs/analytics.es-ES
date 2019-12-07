@@ -1,10 +1,9 @@
 ---
-description: Puede habilitar los informes de privacidad.
-solution: Analytics
+description: Puede habilitar la creación de informes de privacidad.
 title: Creación de informes de privacidad
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,5 +12,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Para admitir la medición de Administración de datos y Administración de consentimiento, utilice estas variables.
 
-Consulte Variables [de administración de](/help/admin/c-data-governance/consent-variables.md) consentimiento para obtener más información.
+Para obtener más información, consulte [Variables de administración de consentimiento](/help/admin/c-data-governance/consent-variables.md).
 
