@@ -1,11 +1,10 @@
 ---
-description: Muestran información sobre el acceso a sitios web desde dispositivos móviles. Los informes sobre dispositivos móviles mejoran la identificación del visitante recopilando datos sobre los dispositivos móviles utilizados para ver el sitio. Los informes de dispositivos móviles pueden identificar al fabricante y las capacidades del dispositivo, como tamaño de pantalla, vídeo, audio, compatibilidad con cookies y otras métricas. Los informes de dispositivos portátiles están disponibles para todos los grupos de informes.
-solution: Analytics
+description: Muestran información sobre el acceso a sitios web desde dispositivos móviles. Los informes sobre dispositivos móviles mejoran la identificación del visitante recopilando datos sobre los dispositivos móviles utilizados para ver el sitio. Los informes de dispositivos móviles pueden identificar al fabricante y las capacidades del dispositivo, como tamaño de pantalla, vídeo, audio, compatibilidad con cookies y otras métricas. Los informes de dispositivos móviles están disponibles para todos los grupos de informes.
 title: Mobile
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Muestran información sobre el acceso a sitios web desde dispositivos móviles. 
 
 Muestran información sobre el acceso a sitios web desde dispositivos móviles. Los informes sobre dispositivos móviles mejoran la identificación del visitante recopilando datos sobre los dispositivos móviles utilizados para ver el sitio. Los informes de dispositivos móviles pueden identificar al fabricante y las capacidades del dispositivo, como tamaño de pantalla, vídeo, audio, compatibilidad con cookies y otras métricas. Los informes de dispositivos móviles están disponibles para todos los grupos de informes.
 
-> [!NOTE] Los informes de dispositivos móviles solo muestran el tráfico web de dispositivos móviles. Los datos recopilados de aplicaciones móviles que usen iOS nativo, Android y otros SDK aparecen en los informes de aplicaciones móviles y solo se muestran si se habilita esta opción en Herramientas de administración.
+> [!NOTE] En los informes de móviles solo se muestra tráfico web de dispositivos móviles. Los datos recopilados de aplicaciones móviles que usen iOS nativo, Android y otros SDK aparecen en los informes de aplicaciones móviles y solo se muestran si se habilita esta opción en Herramientas de administración.
 
 Están disponibles los siguientes informes móviles:
 
@@ -57,19 +56,19 @@ Están disponibles los siguientes informes móviles:
   </tr> 
   <tr> 
    <td colname="col1"> Compatibilidad con cookies </td> 
-   <td colname="col2"> <p>Agrupa las visitas realizadas con dispositivos portátiles según si admiten cookies o no. Los visitantes se dividen en grupos: los que admiten cookies y los que no. El tipo de dispositivo móvil se identifica en la cadena del agente de usuario. Adobe mantiene una lista de dispositivos portátiles de los que se sabe que admiten cookies. If the mobile device listed in the user agent string is also listed in Adobe's list of mobile devices, then the <span class="term"> Supported</span> line item in the <span class="wintitle"> Cookie Support</span> report is incremented. Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
+   <td colname="col2"> <p>Agrupa las visitas realizadas con dispositivos portátiles según si admiten cookies o no. Los visitantes se dividen en grupos: los que admiten cookies y los que no. El tipo de dispositivo móvil se identifica en la cadena del agente de usuario. Adobe mantiene una lista de dispositivos portátiles de los que se sabe que admiten cookies. Si el dispositivo portátil que aparece en la cadena del agente de usuario se encuentra también en la lista de Adobe, se incrementa el elemento de línea <span class="term">Compatible</span> del informe de <span class="wintitle">Compatibilidad con cookies</span>. De lo contrario, el elemento de línea <span class="term">No compatible</span> del informe se incrementa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Compatibilidad con imágenes </td> 
-   <td colname="col2"> <p> Agrupa los dispositivos móviles según los tipos de imágenes que admiten. </p> <p>For example, if a visitor's phone that supports <span class="filepath"> .jpeg</span> images, accesses a site, the <span class="wintitle"> Image Support</span> report is incremented by at least one. Si el teléfono admite más de un formato de imagen, una visita al sitio puede dar como resultado varios incrementos correspondientes a esa visita. Dicho de otro modo, si su teléfono admite los formatos <span class="filepath">.jpeg</span>, <span class="filepath">.png</span> y <span class="filepath">.gif</span>, cada uno de estos grupos se verá incrementado en uno en el informe. Por lo tanto, la suma de los grupos puede ser mayor que el total que aparece al final del informe. </p> </td> 
+   <td colname="col2"> <p> Agrupa los dispositivos móviles según los tipos de imágenes que admiten. </p> <p>Por ejemplo, si el teléfono de un visitante que admite imágenes <span class="filepath">.jpeg</span> accede al sitio, el informe de <span class="wintitle">compatibilidad con imágenes</span> se incrementa por lo menos en uno. Si el teléfono admite más de un formato de imagen, una visita al sitio puede dar como resultado varios incrementos correspondientes a esa visita. Dicho de otro modo, si su teléfono admite los formatos <span class="filepath">.jpeg</span>, <span class="filepath">.png</span> y <span class="filepath">.gif</span>, cada uno de estos grupos se verá incrementado en uno en el informe. Por lo tanto, la suma de los grupos puede ser mayor que el total que aparece al final del informe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Profundidad de color </td> 
-   <td colname="col2"> <p> Agrupa las visitas realizadas desde dispositivos móviles según la cantidad de colores admitidos. El informe muestra la cantidad total de visitantes al sitio que utilizaron un dispositivo móvil y los divide en grupos según la cantidad de colores configurados en sus dispositivos móviles. </p> <p>Por ejemplo: si el teléfono móvil de un visitante admite 24 colores, el informe incrementa el elemento de línea correspondiente a 24 colores. </p> </td> 
+   <td colname="col2"> <p> Agrupa las visitas realizadas desde dispositivos móviles según la cantidad de colores admitidos. El informe muestra la cantidad total de visitantes al sitio que utilizaron un dispositivo móvil y los divide en grupos según la cantidad de colores configurados en sus dispositivos móviles. </p> <p>Por ejemplo, si el teléfono móvil de un visitante admite 24 colores, el informe incrementa el elemento de línea correspondiente a 24 colores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Compatibilidad con audio </td> 
-   <td colname="col2"> <p> Agrupa los dispositivos móviles según los tipos de formato de audio que admiten. </p> <p>For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the Audio Support report increments by at least one. Si el teléfono admite más de un formato de imagen, una visita a un sitio podría dar como resultado incrementos para cada tipo de audio admitido. En otras palabras, si un teléfono admite los formatos <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> y <span class="filepath">.amr</span>, cada uno de estos grupos se incrementa en el informe. Por lo tanto, la suma de los grupos puede ser mayor que el total que aparece al final del informe. </p> </td> 
+   <td colname="col2"> <p> Agrupa los dispositivos móviles según los tipos de formato de audio que admiten. </p> <p>Por ejemplo, si el teléfono de un visitante admite formatos <span class="filepath">.mp3</span>, el informe de compatibilidad con audio se incrementa al menos en uno. Si el teléfono admite más de un formato de imagen, una visita a un sitio podría dar como resultado incrementos para cada tipo de audio admitido. En otras palabras, si un teléfono admite los formatos <span class="filepath">.mp3</span>, <span class="filepath">.aac</span> y <span class="filepath">.amr</span>, cada uno de estos grupos se incrementa en el informe. Por lo tanto, la suma de los grupos puede ser mayor que el total que aparece al final del informe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Compatibilidad con vídeo </td> 
@@ -77,15 +76,15 @@ Están disponibles los siguientes informes móviles:
   </tr> 
   <tr> 
    <td colname="col1"> DRM </td> 
-   <td colname="col2"> <p> Agrupan los dispositivos móviles según el tipo de administración de derechos digitales (DRM) que admiten. Los grupos de DRM incluyen <span class="term"> Bloqueo</span>de reenvío, <span class="term"> Envío</span>combinado, <span class="term"> Envío</span>separado y <span class="term"> Desconocido.</span> </p> </td> 
+   <td colname="col2"> <p> Agrupan los dispositivos móviles según el tipo de administración de derechos digitales (DRM) que admiten. Los grupos de DRM incluyen  <span class="term"> Bloqueo de reenvío</span>, <span class="term"> Envío combinado</span>, <span class="term"> Envío separado</span> y <span class="term"> Desconocido.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Protocolos de red </td> 
    <td colname="col2"> <p> Agrupa los dispositivos móviles según los protocolos de red (GPRS, CSD, EDGE, HSCSD, etc.) que admiten. El informe también incluye un grupo desconocido para los protocolos de red no identificados. </p> <p>Si un visitante utiliza un dispositivo móvil para acceder al sitio, el informe de protocolos de red se incrementa por lo menos en uno. Si el teléfono admite varios protocolos de red, entonces se incrementa cada uno de los grupos del informe. Por lo tanto, la suma de los grupos puede ser mayor que el total que aparece al final del informe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Sistema operativo (obsoleto) </td> 
-   <td colname="col2"> <p> Agrupa los dispositivos móviles según el sistema operativo que ejecutan. Entre los sistemas operativos de dispositivos móviles figuran Windows, RIM, iOS, Symbian, etc. El informe también incluye un grupo desconocido para los sistemas operativos no identificados de dispositivos móviles. </p> <p>Nota: Este informe quedó obsoleto cuando se actualizó el informe Tecnología &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > Sistemas</a> operativos para incluir todos los sistemas operativos, incluso móviles. Puede crear un segmento en el existe "dispositivo móvil" y aplicarlo al informe Tecnología &gt; Sistemas operativos para ver solo sistemas operativos móviles. </p> </td> 
+   <td colname="col1"> Sistema operativo  (obsoleto) </td> 
+   <td colname="col2"> <p> Agrupa los dispositivos móviles según el sistema operativo que ejecutan. Entre los sistemas operativos de dispositivos móviles figuran Windows, RIM, iOS, Symbian, etc. El informe también incluye un grupo desconocido para los sistemas operativos no identificados de dispositivos móviles. </p> <p>Nota: Este informe quedó obsoleto cuando se actualizó el informe Tecnología &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  > Sistemas operativos</a> para incluir todos los sistemas operativos, incluso móviles. Puede crear un segmento en el existe "dispositivo móvil" y aplicarlo al informe Tecnología &gt; Sistemas operativos para ver solo sistemas operativos móviles. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Versión de Java </td> 
@@ -109,11 +108,11 @@ Están disponibles los siguientes informes móviles:
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
-   <td colname="col2"> <p> Agrupa los dispositivos móviles en función de si el dispositivo admite la función de pulsar y hablar (PTT). El informe también incluye un grupo Grupo <span class="term"> desconocido</span> para los dispositivos en los que no se puede determinar la compatibilidad con PTT. </p> </td> 
+   <td colname="col2"> <p> Agrupa los dispositivos móviles en función de si el dispositivo admite la función de pulsar y hablar (PTT). El informe también incluye un grupo  Grupo <span class="term"> desconocido</span> para los dispositivos en los que no se puede determinar la compatibilidad con PTT. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Compatibilidad con Decoration Mail </td> 
-   <td colname="col2"> <p> Agrupa los dispositivos móviles en función de si admiten DecoMail, que permite al usuario decorar los mensajes con gráficos y animaciones. El informe también incluye un grupo Grupo <span class="term"> desconocido</span> para los dispositivos en los que no se puede determinar la compatibilidad con Decoration Mail. </p> </td> 
+   <td colname="col2"> <p> Agrupa los dispositivos móviles en función de si admiten DecoMail, que permite al usuario decorar los mensajes con gráficos y animaciones. El informe también incluye un grupo  Grupo <span class="term"> desconocido</span> para los dispositivos en los que no se puede determinar la compatibilidad con Decoration Mail. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Servicios de información </td> 
