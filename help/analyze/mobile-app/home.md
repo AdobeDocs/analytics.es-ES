@@ -2,7 +2,7 @@
 title: Aplicación móvil
 description: Documentación del producto y autoayuda para la aplicación móvil de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3abe9a29137f85e0c6f8438435663bb7b78a05d0
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -15,6 +15,6 @@ La aplicación móvil de Adobe Analytics proporciona perspectivas de Adobe Analy
 
 La siguiente documentación beta está disponible para la aplicación móvil de Analytics:
 
-* Guía de inicio rápido del usuario ejecutivo: Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar cuadros de mando en la aplicación móvil de Analytics. La aplicación permite a los usuarios ejecutivos ver una amplia representación de datos de resumen importantes de forma rápida y sencilla en sus propios dispositivos móviles.
+* [Guía](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html)del curador: Esta guía está pensada para ayudar a los curadores de datos a configurar Scorecards para sus usuarios ejecutivos en la aplicación móvil de Analytics. Los curadores pueden ser administradores de la organización o personas con otras funciones responsables de configurar los cuadros de mandos de la aplicación.
 
-* Guía del curador: Esta guía está pensada para ayudar a los curadores de datos a configurar Scorecards para sus usuarios ejecutivos en la aplicación móvil de Analytics. Los curadores pueden ser administradores de la organización o personas con otras funciones responsables de configurar los cuadros de mandos de la aplicación.
+* [Guía](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/executive.html)de inicio rápido para el usuario ejecutivo: Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar cuadros de mando en la aplicación móvil de Analytics. La aplicación permite a los usuarios ejecutivos ver una amplia representación de datos de resumen importantes de forma rápida y sencilla en sus propios dispositivos móviles.
