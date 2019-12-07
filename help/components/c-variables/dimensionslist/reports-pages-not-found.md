@@ -1,11 +1,10 @@
 ---
 description: Ayuda a identificar las páginas que contienen vínculos rotos y a medir el tráfico hacia páginas inexistentes. Por lo general, a estas páginas se les denomina Páginas 404. Este informe permite comprobar si los visitantes acceden a estas páginas dañadas y con qué frecuencia.
-solution: Analytics
 title: Páginas no encontradas
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
