@@ -1,20 +1,19 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
 title: ¿Qué es el análisis de cohorte?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # ¿Qué es el análisis de cohorte?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. El análisis de cohorte resulta útil, por ejemplo, cuando desea conocer cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia (Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. (Las explicaciones de análisis de cohorte se encuentran disponibles en la web, como en [Cohort Analysis 101 ](https://en.wikipedia.org/wiki/Cohort_analysis)(Guía de análisis de cohorte))
 
-Después de crear un informe de cohorte, puede depurar sus componentes (dimensiones, métricas y segmentos específicos), y luego compartir el informe de cohorte con quien desee. Consulte [Curate and Share](/help/analyze/analysis-workspace/curate-share/curate.md).
+Después de crear un informe de cohorte, puede depurar sus componentes (dimensiones, métricas y segmentos específicos), y luego compartir el informe de cohorte con quien desee. Consulte [Depurar y compartir](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 Ejemplos de lo que puede hacer con el análisis de cohorte:
 
@@ -34,19 +33,19 @@ El análisis de cohorte está disponible para todos los clientes de Analytics co
 >
 >El análisis de cohorte no admite métricas calculadas.
 
-## Capacidades de análisis de cohorte
+## Capacidades del análisis de cohorte
 
 En enero de 2019, Adobe lanzó una versión nueva y considerablemente mejorada del análisis de cohorte. Ofrece un control mucho más preciso de las cohortes que genera. Estas son las mejoras destacadas:
 
 ### Tabla de retención
 
-Un informe de cohorte de retención devuelve visitantes: cada celda de datos muestra el número y el porcentaje sin procesar de visitantes de la cohorte que realizaron la acción durante ese período de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
+Un informe de cohorte de retención devuelve la información de visitantes: cada celda de datos muestra el número sin procesar y el porcentaje de visitantes en la cohorte que realizó la acción durante ese período de tiempo. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
 
 ![](assets/retention-report.png)
 
 ### Tabla de pérdida
 
-Una cohorte de Churn es el inverso de una tabla de retención y muestra los visitantes que abandonaron o que nunca cumplieron los criterios de retorno para su cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
+Una cohorte de pérdida es la inversa de una tabla de retención y muestra a los visitantes que abandonaron o que no llegaron a satisfacer los criterios de regreso de su cohorte a lo largo del tiempo. Se pueden incluir hasta 3 métricas y hasta 10 segmentos.
 
 ![](assets/churn-report.png)
 
