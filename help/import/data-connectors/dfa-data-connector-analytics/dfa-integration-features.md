@@ -1,12 +1,11 @@
 ---
 description: 'Una vez activada, la integración Data Connectors DFA proporciona las siguientes métricas para sus informes de Adobe Analytics '
 keywords: DFA
-solution: Analytics
 title: Funciones de integración
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -36,7 +35,7 @@ Estos ID cumplen la función de clave compartida entre Genesis y DFA para asocia
 | ID del sitio | El sitio de terceros en el que se alojó el anuncio. La clasificación del Nombre del sitio proporciona un nombre descriptivo de este ID del sitio. |
 |---|---|
 | ID de anuncio | Un ID para el mensaje comercial que se entrega a un usuario. La clasificación del Nombre del anuncio contiene el nombre del anuncio tal como lo define su organización en el sistema de DFA. Por ejemplo: `Hybrid Coup Textlink - Build`. |
-| ID de ubicación | Una representación en la cuenta de DFA de un sitio web, parte de un sitio web o grupo de sitios web donde ha comprado espacio de publicidad. |
+| ID de colocación | Una representación en la cuenta de DFA de un sitio web, parte de un sitio web o grupo de sitios web donde ha comprado espacio de publicidad. |
 | ID del creativo | La imagen, Flash SWF u otro recurso pensado para ser mostrado al visitante. La clasificación Nombre del creativo contiene el nombre que ha proporcionado a este creativo en la interfaz DFA. |
 
 Las otras dos clasificaciones, Herramienta de entrega (DoubleClick para Anunciantes) y Canal (anuncio tipo titular) tienen los mismos valores para cualquier campaña de DFA y ayudan a distinguir datos importados de DFA.
