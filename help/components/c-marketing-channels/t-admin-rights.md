@@ -1,12 +1,11 @@
 ---
 description: Cree un grupo que conceda derechos administrativos limitados a los usuarios del informe Canal de mercadotecnia y luego asigne usuarios a dicho grupo. Por ejemplo, puede crear un grupo que permita que los usuarios que no sean administrativos ingresen importes de costo o presupuesto.
-solution: Analytics
 subtopic: Marketing channels
 title: Conceder derechos administrativos limitados
 topic: Reports and analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Cree un grupo que conceda derechos administrativos limitados a los usuarios del informe Canal de mercadotecnia y luego asigne usuarios a dicho grupo. Por ejemplo, puede crear un grupo que permita que los usuarios que no sean administrativos ingresen importes de costo o presupuesto.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Groups.]**
-1. Haga clic en un nombre de grupo personalizado o en **Agregar nuevo grupo de usuarios** para crear un grupo de usuarios.
+1. Haga clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuario]**.
+1. Haga clic en **[!UICONTROL Grupos]**.
+1. Haga clic en un nombre de grupo personalizado o en **[!UICONTROL Agregar nuevo grupo de usuarios]** para crear un grupo de usuarios.
 
    Consulte [Administración de usuarios](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html) en la *Ayuda del administrador*.
 
-1. Under Report Access, locate Admin, then click **[!UICONTROL Customize.]**
-1. Active los **Canales** y los **[!UICONTROL Costos.]**
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Save.]**
+1. En Acceso al informe, busque Administración y, a continuación, haga clic en **[!UICONTROL Personalizar.]**
+1. Active los **[!UICONTROL Canales]** y los **[!UICONTROL Costos.]**
+1. Haga clic en **[!UICONTROL Aceptar]** y luego en **[!UICONTROL Guardar.]**
 
 Definiciones de los campos para definir los grupos de usuarios en las Herramientas de administración:
 
