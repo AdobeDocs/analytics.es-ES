@@ -1,11 +1,10 @@
 ---
 description: Normalmente, los índices de conversión miden la conversión entre los eventos iniciales y finales y los hitos o puntos de un proceso de conversión. Después de que usted codifique los eventos de éxito en el sitio, el informe creará los índices existentes entre esos eventos de éxito y los mostrará en un informe de canal de conversión.
-solution: Analytics
 title: Canal de conversión
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,5 +32,5 @@ Este informe también se puede personalizar para poder agregar eventos de conver
 
 La tabla del informe muestra estadísticas de ventas promedio por pulsación y unidades promedio vendidas por pulsación. A estos informes, se les pueden agregar métricas y eventos personalizados de otros grupos de informes. Aunque estos canales tienen muchos parecidos, se basan en variables y eventos diferentes. Estos informes se pueden usar para ver qué porcentajes y tendencias generales de los usuarios activan eventos específicos que se determinen. Permiten ver los lugares en los que los usuarios no siguen la ruta de eventos esperada, lo cual permite comprender ese punto en particular dentro del proceso de conversión.
 
-> [!NOTE] Las instancias en el contexto de estos informes equivalen al número total de visitas donde se definió una eVar o un evento.
+> [!NOTE] El número de instancias en el contexto de estos informes es igual al número total de visitas donde se ha definido una eVar o evento.
 
