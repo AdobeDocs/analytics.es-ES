@@ -1,12 +1,11 @@
 ---
 description: Información sobre requisitos para el grupo de informes antes de utilizar fuentes de datos.
-solution: Analytics
 subtopic: Data sources
 title: Requisitos y límites de carga
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ En las secciones siguientes se indican restricciones que rigen para las fuentes 
 * Solo pueden importarse datos con fechas actuales o pasadas. No intente usar fechas futuras en las fuentes de datos.
 * Para habilitar las funciones gráficas del informe, todas las filas deben tener indicada una fecha. Si una fila no incluye fecha, el sistema de fuentes de datos generará un error y rechazará el archivo. El formato de fecha y hora depende del tipo de fuente de datos:
 
-   * **Fuentes** de datos de procesamiento completo: Utilice el formato de fecha ISO 8601 `YYYY-MM-DDThh:mm:ss±UTC_offset` (por ejemplo, `2013-09-01T12:00:00-07:00`) o el formato de hora Unix (el número de segundos transcurridos desde el 1 de enero de 1970).
+   * **Fuentes** de datos de procesamiento completo:Utilice el formato de fecha ISO 8601 `YYYY-MM-DDThh:mm:ss±UTC_offset` (por ejemplo, `2013-09-01T12:00:00-07:00`) o el formato de hora Unix (el número de segundos transcurridos desde el 1 de enero de 1970).
 
    * **Fuentes** de datos estándar y de integración: Utilice el siguiente formato de fecha: `MM/DD/YYYY/HH/mm/SS` (por ejemplo, `01/01/2013/06/00/00`)
 
@@ -52,7 +51,7 @@ El sistema de fuentes de datos admite archivos con codificación multibyte. El s
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Codificación de caracteres </th> 
-   <th colname="col2" class="entry"> Compatibilidad </th> 
+   <th colname="col2" class="entry"> Asistencia </th> 
   </tr> 
  </thead>
  <tbody> 
