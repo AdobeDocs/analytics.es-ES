@@ -1,11 +1,10 @@
 ---
 description: En las solicitudes de tabla dinámica y diseño personalizado, es posible anteponer y posponer cadenas o caracteres a las celdas que incluyan valores numéricos o de cadena.
-solution: Analytics
 title: Anteponer y posponer texto en celdas
 topic: Report builder
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
