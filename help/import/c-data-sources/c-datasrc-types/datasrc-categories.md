@@ -1,12 +1,11 @@
 ---
 description: Las categorías de fuentes de datos identifican diferentes tipos de fuentes datos que ofrecen una funcionalidad similar.
-solution: Analytics
 subtopic: Data sources
 title: Resumen de los tipos de datos y las categorías
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
