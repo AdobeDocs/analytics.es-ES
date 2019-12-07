@@ -1,11 +1,10 @@
 ---
 description: Enumera una serie de consideraciones que debe tener en cuenta antes de eliminar segmentos.
-solution: Analytics
 title: Eliminar segmentos
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,10 +20,10 @@ Cuando elimina un segmento:
 
    ![](assets/duplicate_seg_names.png)
 
-   Tiene un marcador que hace referencia al segmento para el grupo de informes mainprod. Luego elimina ese segmento porque es un duplicado. El marcador seguirá funcionando, haciendo referencia a la definición del segmento eliminado. Si cambia la definición del segmento para el resto del segmento con el fin de incluir Isla Santa Catalina y Tijuana, el segmento aplicado al marcador no cambiará. Utilizará la definición antigua. Para arreglarlo, actualice el marcador a fin de que haga referencia a la definición nueva. Si no está seguro de si un marcador, tablero o informe programado está usando un segmento eliminado, puede cambiar el nombre del segmento restante para que quede más claro si el marcador está usando el segmento restante.
+   Tiene un marcador que hace referencia al segmento para el grupo de informes mainprod. Elimine dicho segmento, ya que es un duplicado. El marcador seguirá funcionando, haciendo referencia a la definición del segmento eliminado. Si cambia la definición del segmento para el resto del segmento con el fin de incluir Isla Santa Catalina y Tijuana, el segmento aplicado al marcador no cambiará. Utilizará la definición antigua. Para arreglarlo, actualice el marcador a fin de que haga referencia a la definición nueva. Si no sabe con seguridad si un marcador, panel o informe programado esté utilizando un segmento eliminado, puede cambiar el nombre del resto del segmento para que quede claro si el marcador lo utiliza.
 
-## Edit Embedded Deleted Segments in Ad Hoc Analysis {#section_976D601DBD2244E38B0A0222E31D2610}
+## Editar segmentos eliminados incrustados en Ad Hoc Analysis {#section_976D601DBD2244E38B0A0222E31D2610}
 
-Ahora, Análisis específicos le permite editar segmentos eliminados incrustados dentro del [Creador de métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) y realizar la operación "Guardar como" en el segmento.
+Ahora, Ad Hoc Analysis le permite editar segmentos eliminados incrustados dentro del [Creador de métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) y realizar la operación "Guardar como" en el segmento.
 
 Sin embargo, cualquier otro segmento eliminado que haga referencia al segmento eliminado permanecerá sin cambios.
