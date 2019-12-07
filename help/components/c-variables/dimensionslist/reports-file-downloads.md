@@ -1,11 +1,10 @@
 ---
 description: Descargas de archivos ayuda a conocer la frecuencia con la que los visitantes descargan archivos del sitio. Entre los ejemplos de descargas de archivos se pueden citar documentos de procesadores de textos, hojas de cálculo, archivos de audio, archivos de vídeo, manuales de usuario, etc. Esto incluye tanto archivos que se hayan guardado y abierto directamente desde el explorador, como archivos guardados en el equipo del usuario. El informe muestra el nombre del archivo descargado y la dirección URL completa necesaria para acceder al archivo.
-solution: Analytics
 title: Descargas de archivos
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Descargas de archivos ayuda a conocer la frecuencia con la que los visitantes de
 
 **Navegación**
 
-**[!UICONTROL Informes]** &gt; Contenido **[!UICONTROL del]** sitio &gt; **[!UICONTROL Vínculos]** &gt; Descargas **[!UICONTROL de archivos]**
+**[!UICONTROL Informes]** &gt; **[!UICONTROL Contenido del sitio]** &gt; **[!UICONTROL Enlaces]** &gt; **[!UICONTROL Descargas del archivo]**
 
 Si este informe no está disponible en la ubicación predeterminada, consulte a sus administradores, que pueden haber cambiado la estructura de menú predeterminada para atender mejor a las necesidades específicas de la organización.
 
@@ -36,6 +35,6 @@ Los informes de marketing capturan información sobre los archivos descargados d
 
 1. En el archivo, localice la variable [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html). Asegúrese de que esté configurada en *true*.
 
-1. Localice la variable [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html). Asegúrese de que todas las extensiones de archivo deseadas estén presentes en la lista. If necessary, add missing extensions like [!DNL .zip], [!DNL .pdf], and so on.)
+1. Localice la variable [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html). Asegúrese de que todas las extensiones de archivo deseadas estén presentes en la lista. En caso necesario, agregue las extensiones que faltan (por ejemplo, [!DNL .zip], [!DNL .pdf], etc.)
 
 Si las variables parecen estar correctamente configuradas, pero el [!UICONTROL informe de descargas de archivos] continúa sin recibir datos, los usuarios de asistencia técnica de la organización deben ponerse en contacto con el Servicio de atención al cliente.
