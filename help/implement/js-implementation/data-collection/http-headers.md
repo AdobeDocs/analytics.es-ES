@@ -1,12 +1,11 @@
 ---
 description: Los encabezados de solicitud y respuesta HTTP se usan para recopilar datos adicionales a los que recopila AppMeasurement. En esta sección se describen los encabezados utilizados durante la recopilación de datos.
 keywords: Analytics Implementation
-solution: Analytics
 title: Encabezados HTTP de recopilación de datos
 topic: Developer and implementation
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -76,7 +75,7 @@ Los encabezados de solicitud y respuesta HTTP se usan para recopilar datos adici
    <td> Se usa para identificar los formatos de imagen admitidos por el explorador con el fin de saber si es necesario devolver una imagen GIF o WBMP. </td> 
   </tr> 
   <tr> 
-   <td> Referrer </td> 
+   <td> Referente </td> 
    <td> Se usa como reserva para obtener información sobre la dirección URL desde la que se realizó la solicitud de recopilación de datos si no se pasó en la cadena de consulta o si es diferente del valor en la cadena de consulta. </td> 
   </tr> 
   <tr> 
@@ -93,14 +92,14 @@ Los encabezados de solicitud y respuesta HTTP se usan para recopilar datos adici
 | **Encabezado** | **Uso** |
 |---|---|
 | Access-Control-Allow-Origin | Se usa para permitir solicitudes de recopilación de datos sobre estilos de uso compartido de recursos entre orígenes a nuestros servidores. |
-| Expires | Control de caché del explorador. |
+| Caduca | Control de caché del explorador. |
 | Last-Modified | Control de caché del explorador. |
 | Cache-Control | Control de caché del explorador. |
 | Pragma | Control de caché del explorador. |
 | ETag | Control de caché del explorador. |
 | Vary | Control de caché del explorador. |
 | P3P | Proporciona la directiva P3P predeterminada o personalizada para la solicitud de recopilación de datos. |
-| Status | Contiene el estado "SUCCESS" o "FAILURE" para una solicitud que no es de contenido. Se usa únicamente cuando la solicitud especifica que no se debe devolver ningún contenido. |
+| Estado | Contiene el estado "SUCCESS" o "FAILURE" para una solicitud que no es de contenido. Se usa únicamente cuando la solicitud especifica que no se debe devolver ningún contenido. |
 | Reason | Contiene el motivo del estado de error de una solicitud que no es de contenido. Se usa únicamente cuando la solicitud especifica que no se debe devolver ningún contenido. |
 | Ubicación | Se usa para redirigir al cliente que realiza la recopilación de datos a una dirección URL diferente. Un ejemplo es nuestra negociación de cookies para detectar la posibilidad de configurar la cookie de ID de visitante. |
 | Content-Type | Especifica el tipo de contenido que se devuelve al cliente (GIF, texto, Javascript, etc.). |
