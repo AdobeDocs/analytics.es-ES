@@ -1,11 +1,10 @@
 ---
 description: Opciones de calendario aparte del modelo gregoriano. Las opciones incluyen los modelos de calendario 4-4-5, 4-5-4 y 5-4-4, todos ellos utilizados como estándar en el sector minorista. Además, los informes ofrecen la opción de usar un calendario totalmente personalizable que puede configurar usted mismo.
-solution: Analytics
 title: Personalizar calendario
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,11 +13,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Opciones de calendario aparte del modelo gregoriano. Las opciones incluyen los modelos de calendario 4-4-5, 4-5-4 y 5-4-4, todos ellos utilizados como estándar en el sector minorista. Además, los informes ofrecen la opción de usar un calendario totalmente personalizable que puede configurar usted mismo.
 
-**[!UICONTROL Administración]** &gt; Grupos **[!UICONTROL de informes]** &gt; **[!UICONTROL [seleccionar grupo]]** de informes &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Personalizar calendario]**
+**[!UICONTROL Administración]** &gt; **[!UICONTROL Grupo de informes]** &gt; **[!UICONTROL [seleccionar grupo de informes]]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Personalizar calendario]**
 
 >[!CAUTION]
 >
->Al cambiar el calendario se cambia la forma en que se procesan los datos (es decir, la definición de visitantes únicos semanales y mensuales). Al cambiar la definición de semanas y meses de un calendario no se modifican los datos históricos.
+>Al modificar el calendario se cambia la forma en que se procesan los datos (es decir, la definición de los visitantes únicos por semana y por mes). Al cambiar la definición de semanas y meses de un calendario no se modifican los datos históricos.
 
 El calendario se puede usar para definir el primer día de la semana y del año, y permite elegir un estilo de calendario comercial distinto. Los formatos de calendario se utilizan por distintos motivos, entre los que se incluyen la comparación de ventas y estandarización de la previsión, el análisis del costo en plantilla o la regulación del recuento de inventario físico. Por ejemplo, el sector minorista utiliza el calendario contable 4-5-4 para las temporadas de venta específicas de dicho sector. A continuación se describe cada formato de calendario.
 
@@ -46,7 +45,7 @@ El calendario se puede usar para definir el primer día de la semana y del año,
   </tr> 
   <tr> 
    <td colname="col1"> <p>Calendario personalizado </p> </td> 
-   <td colname="col2"> <p> Ofrece tres formatos, según el número de semanas de cada mes. El número de semanas de cada mes depende del primer día del año seleccionado. </p> <p>Un año tiene 52 semanas. Se divide esa cantidad entre 4 trimestres y se obtienen 13 semanas por trimestre. Pero un trimestre tiene 3 meses. 13 no es divisible por tres, así que terminas poniendo la semana extra en uno de los meses para que siempre sea consistente. 5-4-4 significa que el primer mes del trimestre tiene la semana extra. 4-5-4 significa que el segundo mes del trimestre tiene la semana extra, etc. En el calendario 4-4-5, la semana 53.ª se añade al último trimestre del año. </p> 
+   <td colname="col2"> <p> Ofrece tres formatos, según el número de semanas de cada mes. El número de semanas de cada mes depende del primer día del año seleccionado. </p> <p>Un año tiene 52 semanas. Se divide esa cantidad entre 4 trimestres y se obtienen 13 semanas por trimestre. Pero un trimestre tiene 3 meses. Como 13 no es divisible entre 3, se acaba asignando la semana extra a uno de los meses para que el resultado siempre sea coherente. 5-4-4 significa que el primer mes del trimestre tiene la semana extra. 4-5-4 significa que el segundo mes del trimestre tiene la semana extra, etc. En el calendario 4-4-5, la semana 53.ª se añade al último trimestre del año. </p> 
     <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: enero tiene 4 semanas, febrero tiene 5, marzo tiene 4, y así sucesivamente. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: enero tiene 4 semanas, febrero tiene otras 4, marzo tiene 5, y así sucesivamente. </li> 
