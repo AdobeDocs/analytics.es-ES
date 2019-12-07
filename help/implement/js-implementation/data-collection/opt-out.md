@@ -1,12 +1,11 @@
 ---
 description: 'null'
 keywords: Analytics Implementation
-solution: Analytics
 title: Implementación de exclusiones de Adobe
 topic: Developer and implementation
 uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Es posible que algunos visitantes de un sitio web no deseen que su información 
 * Adobe Audience Targeted Creative
 * Adobe AudienceManager
 * Adobe AdLens
-* Adobe Experience Manager
+* Adobe Experience Manager 
 
 ## Recomendaciones sobre la política de privacidad {#section_BBDEE21C259842F7881642E31FB3D9B7}
 
