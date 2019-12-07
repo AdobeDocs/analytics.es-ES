@@ -1,12 +1,11 @@
 ---
 description: Implementar esta integración es un proceso sencillo que requiere las siguientes acciones.
-solution: Analytics
 subtopic: Qualtrics
 title: Implementación de la integración
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
