@@ -1,11 +1,10 @@
 ---
 description: Para crear varias copias de una solicitud original, rellene un área seleccionada de celdas con el número permitido de copias de la solicitud según el espacio disponible.
-solution: Analytics
 title: Crear varias copias de una solicitud
 topic: Report builder
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
