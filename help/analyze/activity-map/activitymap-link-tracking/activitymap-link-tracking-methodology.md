@@ -1,11 +1,10 @@
 ---
 description: Esta sección está dirigida a los administradores de Adobe Analytics. Explora los nuevos parámetros de seguimiento de vínculos. Explica cómo garantizan la exclusividad y coherencia de los vínculos en distintos exploradores y dispositivos, y de qué modo facilitar el cambio de posición de los vínculos en una página.
-solution: Analytics
 title: Método de seguimiento de vínculos
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Si el HTML tiene un s_objectid, el ID principal predeterminado pasará a ser s_o
 
 * Innertext (texto interior)
 * Alttext (texto alternativo)
-* Title (título)
+* Título
 * Src (origen)
 * Action (acción)
 
