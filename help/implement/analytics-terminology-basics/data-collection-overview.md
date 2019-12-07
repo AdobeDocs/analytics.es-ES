@@ -1,12 +1,11 @@
 ---
 description: Conozca cómo las visitas al sitio web se convierten en un informe en Adobe Analytics.
 keywords: Analytics Implementation;data collection
-solution: Analytics
 title: Recopilación de datos
 topic: Developer and implementation
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
