@@ -1,11 +1,10 @@
 ---
 description: Muestra los promedios de las métricas del grupo de informes de campañas. Las métricas predeterminadas son Pulsaciones, Ventas totales, Pedidos e Ingresos.
-solution: Analytics
 title: Canal de conversión de campañas
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Muestra los promedios de las métricas del grupo de informes de campañas. Las métricas predeterminadas son Pulsaciones, Ventas totales, Pedidos e Ingresos.
 
-**[!UICONTROL Campañas]** &gt; Canal de conversión **[!UICONTROL de campañas]**
+**[!UICONTROL Campañas]** &gt; **[!UICONTROL Canal de conversión de campañas]**
 
 La parte superior de un gráfico de canal muestra los datos de conversión. La parte inferior muestra las estadísticas de todos los eventos del área principal basados en los pedidos y un máximo de dos métricas más, Ingresos y Unidades.
 
