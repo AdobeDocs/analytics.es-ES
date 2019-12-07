@@ -1,12 +1,11 @@
 ---
 description: La serialización de eventos es el proceso de implementación de medidas para evitar que los informes de Analytics incluyan eventos duplicados. Esto se suele producir cuando un usuario actualiza la página varias veces, va a una determinada página varias veces o guarda la página web en su equipo (por ejemplo, si un cliente guarda una página de confirmación de compra en su equipo, cada vez que la consultase, los pedidos y los ingresos se volverían a contar si no se aplicara la serialización de eventos).
 keywords: Analytics Implementation
-solution: Analytics
 title: Resumen de la serialización de eventos
 topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -60,8 +59,8 @@ Cuando la [!UICONTROL serialización de eventos] está implementada y [!DNL Anal
 | Stacy | El usuario visita la página por primera vez. | event1:1001 | 2 |
 | Stacy | El usuario vuelve a cargar la página (podría ocurrir un error de envío del formulario y provocar que la página se vuelva a cargar). | event1:1001 | 2 |
 | Jill | El usuario visita la página por primera vez, introduce la información correctamente y se mueve a la página siguiente. | event1:1002 | 3 |
-| Jamie | El usuario visita la página por primera vez. | event1 | 4 |
-| Jamie | El usuario olvida rellenar el campo de apellido del formulario. El formulario se muestra de nuevo con la información que falta resaltada. | event1 | 5 |
+| Jamie | El usuario visita la página por primera vez. | evento 1 | 4 |
+| Jamie | El usuario olvida rellenar el campo de apellido del formulario. El formulario se muestra de nuevo con la información que falta resaltada. | evento 1 | 5 |
 
 Al seleccionar las ID de serialización, tenga en cuenta lo siguiente:
 
