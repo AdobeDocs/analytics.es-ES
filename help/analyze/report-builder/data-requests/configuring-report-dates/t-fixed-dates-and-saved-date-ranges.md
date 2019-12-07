@@ -1,11 +1,10 @@
 ---
 description: Cuando se especifica una fecha fija o un intervalo de fechas, el Creador de informes muestra el calendario de informes, donde puede seleccionar una fecha, un intervalo de fechas o una fecha preestablecida. También se puede guardar una fecha fija para utilizarla como plantilla y especificar si las fechas guardadas están disponibles para el grupo de informes actual o para todos los grupos de informes.
-solution: Analytics
 title: Fechas fijas e intervalos de fechas guardados
 topic: Report builder
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
