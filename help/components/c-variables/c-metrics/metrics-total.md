@@ -1,11 +1,10 @@
 ---
 description: Valor de todos los elementos de línea del informe para un período del informe. Si tiene seleccionado actualmente un filtro, el total podría representar el total filtrado en vez del total del grupo de informes. Si no hay ningún filtro seleccionado, el total representa el total del grupo de informes.
-solution: Analytics
 title: Total
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -32,7 +31,7 @@ Valor de todos los elementos de línea del informe para un período del informe.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Hoc Analysis  </p> </td> 
-   <td colname="col2"> <p>N/A </p> </td> 
+   <td colname="col2"> <p>N/D </p> </td> 
   </tr> 
  </tbody> 
 </table>
