@@ -1,11 +1,10 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
 title: Información general de Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analysis Workspace elimina todas las limitaciones típicas de un único informe de Analytics. Proporciona un lienzo flexible y robusto para la creación de proyectos de análisis personalizados. Arrastre y coloque cualquier número de tablas de datos, visualizaciones y componentes (dimensiones, métricas, segmentos y granularidades de tiempo) en un proyecto. Cree de forma instantánea desgloses y segmentos, cohortes para análisis y alertas, compare segmentos, realice análisis de flujo y visitas en el orden previsto, y revise y programe informes para compartir con cualquier persona de su empresa.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Espacio de trabajo]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
-## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## Vídeo introductorio {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
 >[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
 
@@ -24,9 +23,9 @@ Lista de reproducción de YouTube completa disponible [aquí](https://www.youtub
 
 >[!NOTE]
 >
->See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about features.
+>Consulte [Novedades de Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) para estar al día de las últimas funciones.
 
-## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## Control total sobre elementos y componentes de proyectos {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
 Analysis Workspace proporciona libertad y flexibilidad:
 
@@ -38,7 +37,7 @@ Analysis Workspace proporciona libertad y flexibilidad:
 
 Consulte [Crear un proyecto de Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) para obtener más información.
 
-## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
+## Varias visualizaciones en un proyecto {#section_B7670740C2D44130B21DAF0873280DA5}
 
 Arrastre y coloque todas las visualizaciones que desee en un proyecto.
 
@@ -48,11 +47,11 @@ Cree un proyecto mostrando el porcentaje de cambio, con varias visualizaciones q
 
 ![](assets/visualizations-multiple02.png)
 
-See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
+Consulte [Crear un proyecto de Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) para obtener más información.
 
-## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
+## Intravínculos a paneles y visualizaciones {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. Puede compartir estos vínculos como lo haría con el de un proyecto para llevar a un usuario hasta una visualización o panel específico de un proyecto. Se han añadido nuevas opciones de clic con el botón derecho denominadas "Obtener vínculo del panel" y "Obtener vínculo de visualización". Para agregar el intravínculo a un proyecto:
+Junto a la [edición de texto enriquecido](/help/analyze/analysis-workspace/visualizations/text.md) de Analysis Workspace, puede vincular con paneles y visualizaciones específicos de un proyecto desde un cuadro de texto, por ejemplo, para crear la tabla de contenido de un proyecto. Puede compartir estos vínculos como lo haría con el de un proyecto para llevar a un usuario hasta una visualización o panel específico de un proyecto. Se han añadido las opciones nuevas “Obtener vínculo del panel” y “Obtener vínculo de visualización”, a las que se accede con el botón derecho. Para agregar el intravínculo a un proyecto:
 
 1. Arrastre una visualización de texto a un proyecto. Puede situarla junto a una visualización o tabla que necesite contexto.
 1. Rellene el cuadro de texto con, por ejemplo, una tabla de contenido. A continuación, resalte un elemento que desee vincular a un panel o una visualización, como las métricas de éxito.
@@ -68,27 +67,27 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
 
 Si tiene paneles o visualizaciones contraídos en el proyecto y hace clic en un vínculo, se ampliará el panel o la visualización para que los usuarios puedan verlo.
 
-> [!NOTE] También puede utilizar esta función dentro de la opción **[!UICONTROL Editar descripción]** haciendo clic con el botón derecho.
+> [!NOTE] También puede utilizar esta función con la opción **[!UICONTROL Editar descripción]** del menú contextual.
 
-## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## Vinculación a otros proyectos {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** &gt; **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+Puede vincular usuarios a otros proyectos que puedan resultarles de interés. Para ello, vaya a **[!UICONTROL Compartir]** &gt; **[!UICONTROL Obtener vínculo del proyecto]** e incruste este vínculo en las descripciones de los proyectos, por ejemplo.
 
-## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## Visualización dinámica de celdas seleccionadas {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
 Seleccione celdas individuales y vea el cambio dinámico de las visualizaciones. [Sincronice y bloquee](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) una visualización con celdas seleccionadas.
 
 ![](assets/visualize-selected-cells.png)
 
-## Lock selected items or positions {#section_9D66A001586F49CEB0C565581E44957C}
+## Bloqueo de elementos o posiciones seleccionados {#section_9D66A001586F49CEB0C565581E44957C}
 
 Al bloquear visualizaciones, puede controlar qué fuentes de tabla improvisada de datos corresponden a las visualizaciones.
 
 ![](assets/manage-data-source.png)
 
-See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+Consulte [Administración de fuentes de datos](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
-## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## Visualizaciones de tendencias de celdas seleccionadas {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
 Cree una visualización a partir de celdas seleccionadas (haga clic con el botón secundario &gt; **[!UICONTROL Selección de tendencia]**.)
 
@@ -98,15 +97,15 @@ Ahora, las tendencias seleccionadas están **vinculadas** a la siguiente tabla, 
 
 ![](assets/trend-selection2.png)
 
-## Dimensions and dimension item breakdowns {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## Dimensiones y desgloses de elementos de dimensión {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
 
 Como minorista, puede profundizar más que nunca antes en sus campañas para comprender cómo involucrar mejor a los clientes. Desglose los datos ilimitadamente para sus necesidades específicas; genere consultas con métricas, dimensiones, segmentos, líneas de tiempo y otros valores de desglose de análisis relevantes.
 
-![Resultado (](assets/fa_data_table_actions.png)
+![Resultado ](assets/fa_data_table_actions.png)
 
-See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+Consulte [Dimensiones de desglose](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
-## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
+## Segmentos de selecciones de tabla {#section_73BC3688089B426D969B3D5B606DA970}
 
 Seleccione celdas en la tabla improvisada de datos y cree un segmento a partir de la selección.
 
@@ -120,18 +119,18 @@ Arrastre un segmento al panel improvisado en el nivel de proyecto para que el se
 
 Consulte [Segmentos](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 
-## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
+## Etiquetado de proyectos y componentes {#section_F54D688132A541F2982326D5E022B90D}
 
 Puede aplicar etiquetas a proyectos y componentes en Analysis Workspace:
 
-* Aplique o cree etiquetas de nivel de proyecto en el panel Información. (![)](assets/information_icon.png)
+* Aplique o cree etiquetas de nivel de proyecto en el panel Información. (![](assets/information_icon.png)
 
 * Haga clic con el botón secundario en los componentes para etiquetar (o crear etiquetas) del panel Componentes.
 * Use # en el campo Buscar para localizar las etiquetas.
 
-## Component actions {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## Acciones de componente {#section_CBF4D0A5F63E4B0883077B8D852B800B}
 
-Realice acciones a nivel de componente desde el menú Acciones en la parte superior del carril izquierdo del componente. Seleccione un componente y haga clic en **[!UICONTROL Acciones]para ver las acciones.**
+Realice acciones a nivel de componente desde el menú Acciones en la parte superior del carril izquierdo del componente. Seleccione un componente y haga clic en **[!UICONTROL Acciones]** para ver las acciones.
 
 | Acción de componente | Descripción |
 |--- |--- |
@@ -143,7 +142,7 @@ Realice acciones a nivel de componente desde el menú Acciones en la parte super
 
 Consulte [Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para obtener más información.
 
-## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## Descripciones de funcionalidades adicionales {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
 **Lo que puede arrastrar y apilar**
 
@@ -164,7 +163,7 @@ No existe un límite técnico con respecto al número de tablas improvisadas y a
 * Ordene los ajustes preestablecidos de intervalos de fechas (no incluye intervalos de fechas personalizados).
 * CTRL (o Comando) + clic + arrastrar una columna copia la columna, y cuando arrastra la copia, se pega en la nueva posición de la tabla.
 
-See [Hotkeys Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for more information.
+Consulte [Teclas de acceso directo disponibles en Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) para obtener más información.
 
 **Selecciones y acciones**
 
