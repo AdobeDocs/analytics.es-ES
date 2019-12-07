@@ -1,12 +1,11 @@
 ---
 description: Las tablas siguientes muestran la asignación de informes a variables, o los informes y las variables que contienen.
 keywords: Analytics Implementation
-solution: Analytics
 title: Asignación de informes a variables
 topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -50,8 +49,8 @@ Las tablas siguientes muestran la asignación de informes a variables, o los inf
 |---|
 | Conversiones y promedios | s.products, s.events, s.campaign |  |
 | Código de seguimiento | s.campaign |  |
-| Elementos creativos | N.D. | Definido en [!DNL Analytics] |
-| Campañas | N.D. | Definido en [!DNL Analytics] |
+| Elementos creativos | N/D | Definido en [!DNL Analytics] |
+| Campañas | N/D | Definido en [!DNL Analytics] |
 
 | Lealtad del cliente |
 |---|
@@ -68,33 +67,33 @@ Las tablas siguientes muestran la asignación de informes a variables, o los inf
 
 | Métodos de búsqueda |
 |---|
-| Dominios de referencia | N.D. | Configurado automáticamente por el archivo .JS |
-| Dominios de referencia originales | N.D. | Configurado automáticamente por el archivo .JS |
-| Motores de búsqueda | N.D. | Configurado automáticamente por el archivo .JS |
-| Palabras clave de búsqueda | N.D. | Configurado automáticamente por el archivo .JS |
+| Dominios de referencia | N/D | Configurado automáticamente por el archivo .JS |
+| Dominios de referencia originales | N/D | Configurado automáticamente por el archivo .JS |
+| Motores de búsqueda | N/D | Configurado automáticamente por el archivo .JS |
+| Palabras clave de búsqueda | N/D | Configurado automáticamente por el archivo .JS |
 
 | Perfil del visitante |
 |---|
-| Dominios de nivel superior | N.D. | Configurado automáticamente por el archivo .JS |
-| Idiomas | N.D. | Configurado automáticamente por el archivo .JS |
-| Zonas horarias | N.D. | Configurado automáticamente por el archivo .JS |
+| Dominios de nivel superior | N/D | Configurado automáticamente por el archivo .JS |
+| Idiomas | N/D | Configurado automáticamente por el archivo .JS |
+| Zonas horarias | N/D | Configurado automáticamente por el archivo .JS |
 | Estados | s.state | Variable configurada en la confirmación del pedido (Gracias) page |
 | Códigos postales | s.zip | Variable configurada en la confirmación del pedido (Gracias) page |
-| Dominios | N.D. | Configurado automáticamente por el archivo .JS |
+| Dominios | N/D | Configurado automáticamente por el archivo .JS |
 
 | Tecnología |
 |---|
-| Exploradores | N.D. | Configurado automáticamente por el archivo .JS |
-| Sistema operativo | N.D. | Configurado automáticamente por el archivo .JS |
-| Resoluciones de monitor | N.D. | Configurado automáticamente por el archivo .JS |
+| Exploradores | N/D | Configurado automáticamente por el archivo .JS |
+| Sistema operativo | N/D | Configurado automáticamente por el archivo .JS |
+| Resoluciones de monitor | N/D | Configurado automáticamente por el archivo .JS |
 
 | Ruta del sitio |
 |---|
 | Valor de la página | s.pageName, s.products, s.events, s.purchaseID |  |
 | Páginas de entrada | s.pageName |  |
 | Páginas de entrada originales | s.pageName |  |
-| Páginas por visita | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Tiempo empleado en el sitio | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Páginas por visita | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Tiempo empleado en el sitio | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
 | Secciones del sitio | [!UICONTROL s.channel] | Igual que el informe [!UICONTROL Canal] en la sección de informes [!UICONTROL Tráfico] |
 
 | Variables del cliente |
@@ -111,65 +110,65 @@ La tabla siguiente muestra las variables de [!UICONTROL tráfico] que se usan pa
 
 | Métricas calculadas |
 |---|
-| N.D. | N.D. | N.D. |
+| N/D | N/D | N/D |
 
 | Tráfico del sitio |
 |---|
-| Vistas de páginas | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Visitantes únicos por hora | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Visitantes únicos diarios | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Visitantes únicos mensuales | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Visitantes únicos anuales | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Visitas | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Descargas de archivos | N.D. | Configurado automáticamente por el archivo .JS (depende de la configuración de las variables JS) |
+| Vistas de páginas | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Visitantes únicos por hora | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Visitantes únicos diarios | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Visitantes únicos mensuales | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Visitantes únicos anuales | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Visitas | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Descargas de archivos | N/D | Configurado automáticamente por el archivo .JS (depende de la configuración de las variables JS) |
 
 | Métodos de búsqueda |
 |---|
-| Dominios de referencia | N.D. | Configurado automáticamente por el archivo .JS |
-| Referentes | N.D. | Configurado automáticamente por el archivo .JS |
-| Motores de búsqueda | N.D. | Configurado automáticamente por el archivo .JS |
-| Palabras clave de búsqueda | N.D. | Configurado automáticamente por el archivo .JS |
-| Frecuencia de retorno | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Visitas de retorno diario | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Visitas de retorno | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Números de visita | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Dominios de referencia | N/D | Configurado automáticamente por el archivo .JS |
+| Referentes | N/D | Configurado automáticamente por el archivo .JS |
+| Motores de búsqueda | N/D | Configurado automáticamente por el archivo .JS |
+| Palabras clave de búsqueda | N/D | Configurado automáticamente por el archivo .JS |
+| Frecuencia de retorno | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Visitas de retorno diario | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Visitas de retorno | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Números de visita | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
 
 | Perfil del visitante |
 |---|
-| Dominios | N.D. | Configurado automáticamente por el archivo .JS |
-| Dominios de nivel superior | N.D. | Configurado automáticamente por el archivo .JS |
-| Idiomas | N.D. | Configurado automáticamente por el archivo .JS |
-| Zonas horarias | N.D. | Configurado automáticamente por el archivo .JS |
-| Detalles del visitante | N.D. | Configurado automáticamente por el archivo .JS |
-| Últimos 100 visitantes | N.D. | Calculado mediante reglas empresariales en [!DNL Analytics] |
-| Página principal del usuario | N.D. | Configurado automáticamente por el archivo .JS |
-| Visitantes clave | N.D. | Basado en la dirección IP del visitante |
-| Páginas consultadas por los visitantes clave | N.D. | Basado en la dirección IP del visitante |
+| Dominios | N/D | Configurado automáticamente por el archivo .JS |
+| Dominios de nivel superior | N/D | Configurado automáticamente por el archivo .JS |
+| Idiomas | N/D | Configurado automáticamente por el archivo .JS |
+| Zonas horarias | N/D | Configurado automáticamente por el archivo .JS |
+| Detalles del visitante | N/D | Configurado automáticamente por el archivo .JS |
+| Últimos 100 visitantes | N/D | Calculado mediante reglas empresariales en [!DNL Analytics] |
+| Página principal del usuario | N/D | Configurado automáticamente por el archivo .JS |
+| Visitantes clave | N/D | Basado en la dirección IP del visitante |
+| Páginas consultadas por los visitantes clave | N/D | Basado en la dirección IP del visitante |
 
 | Segmentación geográfica |
 |---|
-| Países | N.D. | Basado en la dirección IP del visitante |
-| Estados de EE. UU. | N.D. | Basado en la dirección IP del visitante |
-| DMA | N.D. | Basado en la dirección IP del visitante |
-| Ciudades internacionales | N.D. | Basado en la dirección IP del visitante |
-| Ciudades de EE. UU. | N.D. | Basado en la dirección IP del visitante |
+| Países | N/D | Basado en la dirección IP del visitante |
+| Estados de EE. UU. | N/D | Basado en la dirección IP del visitante |
+| DMA | N/D | Basado en la dirección IP del visitante |
+| Ciudades internacionales | N/D | Basado en la dirección IP del visitante |
+| Ciudades de EE. UU. | N/D | Basado en la dirección IP del visitante |
 
 | Tecnología |
 |---|
-| Tipos de explorador | N.D. | Configurado automáticamente por el archivo .JS |
-| Exploradores | N.D. | Configurado automáticamente por el archivo .JS |
-| Dispositivos móviles | N.D. | Configurado automáticamente por el archivo .JS |
-| Ancho del explorador | N.D. | Configurado automáticamente por el archivo .JS |
-| Altura del explorador | N.D. | Configurado automáticamente por el archivo .JS |
-| Sistema operativo | N.D. | Configurado automáticamente por el archivo .JS |
-| Profundidad del color del monitor | N.D. | Configurado automáticamente por el archivo .JS |
-| Resoluciones de monitor | N.D. | Configurado automáticamente por el archivo .JS |
-| Complementos de Netscape | N.D. | Configurado automáticamente por el archivo .JS |
-| Java | N.D. | Configurado automáticamente por el archivo .JS |
-| JavaScript | N.D. | Configurado automáticamente por el archivo .JS |
-| Versión de JavaScript | N.D. | Configurado automáticamente por el archivo .JS |
-| Cookies | N.D. | Configurado automáticamente por el archivo .JS |
-| Tipos de conexión | N.D. | Configurado automáticamente por el archivo .JS |
+| Tipos de explorador | N/D | Configurado automáticamente por el archivo .JS |
+| Exploradores | N/D | Configurado automáticamente por el archivo .JS |
+| Dispositivos móviles | N/D | Configurado automáticamente por el archivo .JS |
+| Anchura del explorador | N/D | Configurado automáticamente por el archivo .JS |
+| Altura del explorador | N/D | Configurado automáticamente por el archivo .JS |
+| Sistema operativo | N/D | Configurado automáticamente por el archivo .JS |
+| Profundidad del color del monitor | N/D | Configurado automáticamente por el archivo .JS |
+| Resoluciones de monitor | N/D | Configurado automáticamente por el archivo .JS |
+| Complementos de Netscape | N/D | Configurado automáticamente por el archivo .JS |
+| Java | N/D | Configurado automáticamente por el archivo .JS |
+| JavaScript | N/D | Configurado automáticamente por el archivo .JS |
+| Versión de JavaScript | N/D | Configurado automáticamente por el archivo .JS |
+| Cookies | N/D | Configurado automáticamente por el archivo .JS |
+| Tipos de conexión | N/D | Configurado automáticamente por el archivo .JS |
 | Segmentación |
 
 | Segmentación |
