@@ -1,12 +1,11 @@
 ---
 description: Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel de forma libre.
 keywords: Analysis Workspace
-solution: Analytics
 title: Creación de un proyecto de Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel de forma libre.
 
-Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz de Analysis Workspace y verá cómo se crea un proyecto. Para casos de uso específicos, consulte Casos [de uso de Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz de Analysis Workspace y verá cómo se crea un proyecto. Para casos de uso específicos, consulte [Casos de uso de Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
 
 ## Crear un proyecto
 
 1. Especifique el permiso del usuario para crear y depurar proyectos.
 
-   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **Acceso a todos los informes[!UICONTROL .]** ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. ( **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuarios]** &gt; [Grupos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. En [!DNL Experience Cloud], haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -31,9 +30,9 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
    ![](assets/analysis-app-search.png)
 
-1. Click **[!UICONTROL Create New Project]**.
+1. Haga clic en **[!UICONTROL Crear nuevo proyecto]**.
 
-   Puede elegir crear un proyecto a partir de:
+   Puede elegir crear un proyecto a partir de
 
 * Un proyecto en blanco (opción predeterminada). Consulte las instrucciones más abajo.
 * Una plantilla estándar. Adobe se encarga de crear estas plantillas, que están listas para usarse. Para obtener instrucciones, consulte [Plantillas](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md).
@@ -41,9 +40,9 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. Para crear un proyecto a partir de un proyecto en blanco, haga clic en **[!UICONTROL Proyecto en blanco]**.
 
-   * Then click **[!UICONTROL Create]**, or
+   * A continuación, haga clic en **[!UICONTROL Crear]**, o bien
    * pulse **[!UICONTROL Intro]**.
    Aparece un proyecto en blanco, que muestra un panel improvisado y una visualización de tabla de datos.
 
@@ -51,7 +50,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
    >[!NOTE]
    >
-   >A veces, aparece un mensaje de "Grupo de informes incompatible" al cargar un proyecto (o al cambiar a un grupo de informes) en el que no todos los componentes (métricas/dimensiones) incluidos en el proyecto están incluidos en el grupo de informes. Se puede ver una lista de los componentes que no son compatibles. De este modo, podrá saber por qué aparece el mensaje.
+   >En ocasiones, aparece el mensaje “Grupo de informes incompatible” al cargar un proyecto (o cambiar a un grupo de informes) en el que no todos los componentes (métricas/dimensiones) contenidos en él están incluidos en el grupo de informes. Se puede ver una lista de los componentes que no son compatibles. De este modo, podrá saber por qué aparece el mensaje.
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -71,7 +70,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
   </tr> 
   <tr> 
    <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >Panel improvisado</a> </td> 
-   <td colname="col2"> <p>El lienzo o espacio de trabajo con que interactúa en Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>El lienzo o Workspace con que interactúa en Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,11 +85,11 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
    >[!NOTE]
    >
-   >Después de copiar/guardar como, los intravínculos ahora son relativos al proyecto en el que viven, no al proyecto original del que se copiaron.
+   >Tras copiar/guardar como, los intravínculos ahora son relativos al proyecto en el que existen, no al proyecto original desde el cual se copiaron.
 
 ## Añadir componentes y visualizaciones {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. Cree el proyecto arrastrándolo *`components`* y *`visualizations`* hasta él.
+1. Cree el proyecto arrastrando *`components`* y *`visualizations`* hasta él.
 
    **Componentes**
 
@@ -127,7 +126,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
 El panel [!UICONTROL Visualizaciones] incluye gráficos, diagramas circulares, tablas de datos, tablas de [cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), diagramas Venn y otros elementos estándar de Analytics. Puede arrastrar y colocar varias visualizaciones en su proyecto.
 
-![Resultado (](assets/visualizations.png)
+![Resultado ](assets/visualizations.png)
 
 ![](assets/fa_full_panel.png)
 
@@ -137,7 +136,7 @@ El panel [!UICONTROL Visualizaciones] incluye gráficos, diagramas circulares, t
 
 El menú del botón secundario le permite realizar las siguientes acciones, según en qué celda de una tabla haga clic con el botón secundario.
 
-![Resultado (](assets/fa_data_table_actions.png)
+![Resultado ](assets/fa_data_table_actions.png)
 
 <table id="table_0F84CC5B604D4D41BD0C9668DF525929"> 
  <thead> 
@@ -198,7 +197,7 @@ El menú del botón secundario le permite realizar las siguientes acciones, seg�
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Muestre solamente las filas seleccionadas. </td> 
+   <td colname="col1"> Mostrar solamente las filas seleccionadas. </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
