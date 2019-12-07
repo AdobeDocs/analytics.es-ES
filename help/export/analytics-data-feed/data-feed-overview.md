@@ -1,11 +1,10 @@
 ---
 description: Los datos que se recopilan de sitios web y aplicaciones móviles, o que se cargan mediante las API del servicio web o fuentes de datos, se procesan y almacenan en el Data Warehouse de Adobe. Estos datos del flujo de navegación sin procesar forman el conjunto de datos que se utilizan en Adobe Analytics.
 keywords: clickstream;data feed;datafeed;Data Feed
-solution: Analytics
 title: Resumen de la fuente de datos de Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,10 @@ Asegúrese de cumplir todos los requisitos siguientes antes de utilizar fuentes 
 
 Una vez que haya comprendido el flujo de trabajo básico de la obtención de fuentes de datos, puede trabajar con equipos de su organización para almacenar o ingestar datos sin procesar en una base de datos.
 
-[Crear una fuente](create-feed.md)de datos: Detalles técnicos para crear una fuente de datos, que explican los campos individuales con más detalle[Administrar fuentes](df-manage-feeds.md)de datos: Obtenga más información sobre cómo navegar por el contenido[de fuentes](c-df-contents/datafeeds-contents.md)de datos en la interfaz de fuentes de datos: Comprenda qué hay dentro del archivo[comprimido Definiciones](c-df-contents/datafeeds-reference.md)de columnas de datos: Una lista completa de todas las columnas disponibles
+* [Crear una fuente](create-feed.md)de datos: Detalles técnicos para crear una fuente de datos, que explican los campos individuales con más detalle
+* [Administrar fuentes](df-manage-feeds.md)de datos: Más información sobre cómo navegar por la interfaz de fuente de datos
+* [Contenido](c-df-contents/datafeeds-contents.md)de la fuente de datos: Comprender qué hay dentro del archivo comprimido
+* [Definiciones](c-df-contents/datafeeds-reference.md)de columnas de datos: Una lista completa de todas las columnas disponibles
 
 ## Recursos adicionales
 
