@@ -1,11 +1,10 @@
 ---
 description: Muestra un desglose de palabras clave de búsqueda.
-solution: Analytics
 title: Palabras clave de búsqueda
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ Muestra un desglose de palabras clave de búsqueda.
 
 >[!IMPORTANT]
 >
->Para la búsqueda paga y natural, los motores de búsqueda dejaron de proporcionar (en la mayoría de los casos) las palabras clave de búsqueda como parte del referente. En consecuencia, Adobe siempre clasifica el dominio Google (o Bing, o Yahoo) como búsqueda. A partir del formato y el contenido del referente (aun sin las palabras clave), Adobe puede determinar muchas veces cuándo se trata del resultado de una búsqueda, de modo que esta se cuenta con las palabras clave No disponible. [Más...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>Para las búsquedas de pago y naturales, los motores de búsqueda dejaron de proporcionar (en la mayoría de los casos) las palabras clave de búsqueda como parte del referente. En consecuencia, Adobe siempre clasifica el dominio Google (o Bing, o Yahoo) como búsqueda. A partir del formato y el contenido del referente (aun sin las palabras clave), Adobe puede determinar muchas veces cuándo se trata del resultado de una búsqueda, de modo que esta se cuenta con las palabras clave No disponible. [Más...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
 
 ## Asignación, caducidad y valores especiales {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -63,7 +62,7 @@ Muestra un desglose de palabras clave de búsqueda.
  </tbody> 
 </table>
 
-## Historial de informes {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
+## Historial de informes  {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
 | Fecha | Cambiar |
 |---|---|
