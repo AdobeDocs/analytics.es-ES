@@ -1,12 +1,11 @@
 ---
 description: Administre los usuarios, grupos y productos de Analytics en Admin Console.
-solution: Analytics
 subtopic: Users and groups
 title: Administración de usuarios y productos
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Administre los usuarios, grupos y productos de Analytics en Admin Console.
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** &gt; **[!UICONTROL Herramientas de administración]** &gt; **[!UICONTROL Administración de usuarios]**.
 
 ## Recursos de ayuda para los administradores de Admin Console {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -35,7 +34,7 @@ Administre los usuarios, grupos y productos de Analytics en Admin Console.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inicio de Admin Console </p> </td> 
-   <td colname="col2"> <p>Cuando haya migrado sus cuentas de usuario, podrá administrar los usuarios y los productos en todas las soluciones desde Admin Console </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Para obtener más información, consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Administración de los usuarios y los productos de Experience Cloud</a>, donde encontrará actualizaciones sobre la administración de usuarios y productos de Experience Cloud en Admin Console. </p> </td> 
+   <td colname="col2"> <p>Cuando haya migrado sus cuentas de usuario, podrá administrar los usuarios y los productos en todas las soluciones desde Admin Console </p> <p>Vaya a <a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>. </p> <p>Para obtener más información, consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">Administración de los usuarios y los productos de Experience Cloud</a>, donde encontrará actualizaciones sobre la administración de usuarios y productos de Experience Cloud en Admin Console. </p> </td> 
   </tr> 
  </tbody> 
 </table>
