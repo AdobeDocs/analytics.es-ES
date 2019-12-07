@@ -1,19 +1,18 @@
 ---
 description: 'null'
 keywords: Analysis Workspace
-solution: Analytics
 title: 'Creación de un proyecto: Resumen'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Creación de un proyecto: Resumen
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Espacio de trabajo]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
 Puede crear un proyecto de Analytics robusto basado en cualquier combinación de visualizaciones, componentes de informe y tablas de datos. Incorpora muchas de las características del generador de tablas de Ad Hoc Analysis en Analytics.
 
@@ -23,7 +22,7 @@ La consulta va directamente al motor de búsqueda (puede realizar cambios en lí
 
 ## Página de lista de proyectos de Workspace {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, the page lists all the projects you own or have been granted access to. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. (si no ve esta opción, como en la captura de pantalla que aparece a continuación, significa que ya es su página de aterrizaje).
+Si accede primero a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, la página muestra todos los proyectos que posee o a los que se le ha otorgado acceso. Puede establecer esta página como página de aterrizaje de Adobe Analytics. Para ello, haga clic en **[!UICONTROL Establecer como página de aterrizaje]**. (si no ve esta opción, como en la captura de pantalla que aparece a continuación, significa que ya es su página de aterrizaje).
 
 ![](assets/sample-project.png)
 
@@ -31,18 +30,18 @@ La lista de proyectos de Workspace contiene la siguiente información:
 
 | Elemento | Descripción |
 |---|---|
-| Proyecto  [Plantillas](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Puede utilizar estas plantillas de proyecto rellenadas previamente tal cual, o puede adaptarlas a sus necesidades (mediante la adición o sustitución de métricas o visualizaciones, por ejemplo) y guardarlas con un nuevo nombre. |
+| Proyecto [Plantillas](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | Puede utilizar estas plantillas de proyecto rellenadas previamente tal cual, o puede adaptarlas a sus necesidades (mediante la adición o sustitución de métricas o visualizaciones, por ejemplo) y guardarlas con un nuevo nombre. |
 | [Crear nuevo proyecto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Haga clic en este vínculo para iniciar un proyecto nuevo desde cero. |
-| Administrar proyectos | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
+| Administrar proyectos | Al hacer clic en este vínculo, accederá al administrador de componentes de proyectos (**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Proyectos]**), el cual muestra todos sus proyectos y le permite etiquetar, compartir, eliminar, cambiar el nombre, aprobar, copiar y exportar proyectos a CSV. |
 | Ver tutoriales | Le permite acceder a los [vídeos en YouTube de Analysis Workspace](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS). |
 | Nombre | Nombre del proyecto de Workspace. |
 | Creado por | Persona que ha creado el proyecto (usted mismo o alguien que haya compartido su proyecto). |
-| Etiquetas | Tags that were applied to the project, either in the Projects Component Manager or under **[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]**. |
+| Etiquetas | Etiquetas aplicadas al proyecto, ya sea en el administrador de componentes de proyectos o en **[!UICONTROL Workspace]** &gt; **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Información y configuración del proyecto]**. |
 | Última modificación | Fecha y hora de última modificación del proyecto. |
 
 ## Info y configuración del proyecto {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL Espacio de trabajo]** &gt; **[!UICONTROL Proyecto]** &gt; Información y configuración **[!UICONTROL del proyecto]**
+**[!UICONTROL Workspace]** &gt; **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Info y configuración del proyecto]**
 
 ![](assets/projectinfo.png)
 
@@ -67,7 +66,7 @@ El menú Proyectos principal tiene esta apariencia:
 
 Los submenús contienen las siguientes opciones.
 
-> [!NOTE] Las opciones marcadas con un asterisco (*) solo se muestran con los proyectos **guardados** .
+> [!NOTE] Las opciones marcadas con un asterisco (*) solo se muestran con los proyectos **guardados**.
 
 | Proyecto | Editar | Insertar | Componentes | Compartir | Ayuda |
 |---|---|---|---|---|---|
@@ -83,8 +82,8 @@ Los submenús contienen las siguientes opciones.
 
 ## Carril izquierdo {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-The left rail has 3 icons, allowing you access to Panels, [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), and [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(Dimensions, Metrics, Segments, Data Ranges) with one click:
+El carril izquierdo tiene tres iconos que le permiten acceder a paneles, [visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) y [componentes](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) (dimensiones, métricas, segmentos e intervalos de fechas) con un clic:
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-Se ha añadido un **[!UICONTROL Panel en blanco]a la lista de paneles accesibles desde el carril izquierdo.** Para crear un **Panel de cohorte nuevo**, arrastre un Panel en blanco y una visualización de una Tabla de cohorte.
+Se ha añadido un **[!UICONTROL Panel en blanco]** a la lista de paneles accesibles desde el carril izquierdo. Para crear un **Panel de cohorte nuevo**, arrastre un Panel en blanco y una visualización de una Tabla de cohorte.
