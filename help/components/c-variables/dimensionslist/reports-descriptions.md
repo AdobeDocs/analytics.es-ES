@@ -1,11 +1,10 @@
 ---
 description: 'Definiciones de los informes predefinidos disponibles en Reports & Analytics, así como de las dimensiones disponibles en otras herramientas de Analytics, como Analysis Workspace. '
-solution: Analytics
 title: Descripciones de dimensiones
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Definiciones de los informes predefinidos disponibles en Reports &amp; Analytics, así como de las dimensiones disponibles en otras herramientas de Analytics, como Analysis Workspace. 
 
-Las dimensiones son descripciones o características de datos de métricas que se pueden visualizar, desglosar y comparar en un informe. Son valores no numéricos y fechas que se desglosan o que son una clasificación de la métrica del tipo de informe original.
+Las dimensiones son descripciones o características de datos de métricas que se pueden visualizar, desglosar y comparar en un informe. Son valores no numéricos y fechas que pueden desglosarse, o bien son una clasificación de la métrica original del tipo de informe.
 
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 
