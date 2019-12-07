@@ -1,11 +1,10 @@
 ---
-description: Estos informes muestran información sobre los navegadores, los sistemas operativos, la resolución de los monitores, etc. que utilizan los visitantes.
-solution: Analytics
+description: Estos informes muestran información sobre los navegadores, sistemas operativos, resolución de los monitores, etc. que utilizan los visitantes.
 title: Tecnología
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -31,7 +30,7 @@ Estos informes muestran información sobre los navegadores, sistemas operativos,
    <td colname="col2"> <p> Clasifica los exploradores que visitan su sitio en los principales grupos, como Microsoft y Google. </p> <p>Por ejemplo, un <span class="wintitle">Informe de navegadores</span> que muestra 100 visitantes únicos diarios que utilizan Microsoft Explorer 8.0 y 200 que utilizan Microsoft Explorer 6.0 anotaría 300 visitantes que utilizan Microsoft en el <span class="wintitle">Informe de tipos de explorador</span>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ancho del explorador </td> 
+   <td colname="col1"> Anchura del explorador </td> 
    <td colname="col2"> <p> Muestra los anchos más comunes de los exploradores (en píxeles) que los visitantes utilizan para ver el sitio. </p> </td> 
   </tr> 
   <tr> 
@@ -44,7 +43,7 @@ Estos informes muestran información sobre los navegadores, sistemas operativos,
   </tr> 
   <tr> 
    <td colname="col1"> Intensidad de color del monitor </td> 
-   <td colname="col2"> <p> Muestra la configuración de la intensidad del color más popular de los visitantes, según la configuración de su equipo. La intensidad del color se refiere a la cantidad de colores que se pueden mostrar en la pantalla. </p> </td> 
+   <td colname="col2"> <p> Muestra las configuraciones de la intensidad de color más comunes de los visitantes, según la configuración de sus ordenadores. La intensidad del color se refiere a la cantidad de colores que se pueden mostrar en la pantalla. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Resoluciones de monitor </td> 
