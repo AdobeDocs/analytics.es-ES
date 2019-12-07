@@ -1,12 +1,11 @@
 ---
 description: Las clasificaciones sirven para clasificar los valores en grupos e informar a nivel del grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda pagada en una categoría como términos de música pop e informar sobre el éxito de esa categoría en relación a métricas como Instancias (pulsaciones) y la conversión a eventos de éxito.
-solution: Analytics
 subtopic: Classifications
 title: Clasificaciones de conversión
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ Las clasificaciones sirven para clasificar los valores en grupos e informar a ni
 
 Las clasificaciones de conversión permiten clasificar variables de conversión. Una vez clasificado, cualquier informe que se pueda generar con los datos clave también se puede generar con las propiedades de datos asociadas.
 
-Después de activar las clasificaciones, utilice el [Importador de clasificaciones](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) para asignar valores determinados a la clasificación adecuada.
+Después de activar las clasificaciones, utilice el  [Importador de clasificaciones](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) para asignar valores determinados a la clasificación adecuada.
 
 ## Descripciones de clasificaciones de conversión {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
@@ -62,22 +61,22 @@ t_classification_conversion.xml
 
 Instrucciones que describen cómo se agregan clasificaciones de conversión en Administración.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Haga clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupo de informes]**.
 1. Selección de un grupo de informes.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
-1. En la lista desplegable **Seleccionar tipo de clasificación**, seleccione la variable donde desee agregar una clasificación. 
+1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Conversión]** &gt; **[!UICONTROL Clasificación de la conversión]**.
+1. En la lista desplegable **[!UICONTROL Seleccionar tipo de clasificación]**, seleccione la variable donde desee agregar una clasificación. 
 
-   ![Información del paso](assets/sub_class_create.png)
+   ![Información sobre los pasos](assets/sub_class_create.png)
 
-1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
-1. En el campo **Seleccionar tipo**, seleccione el tipo de clasificación que desee agregar a la variable. 
+1. Pase el cursor sobre el icono **[!UICONTROL Editar clasificación]**, a continuación seleccione **[!UICONTROL Añadir clasificación]**.
+1. En el campo **[!UICONTROL Seleccionar tipo]**, seleccione el tipo de clasificación que desee agregar a la variable. 
 
-   Las opciones son **[!UICONTROL Texto]** y **[!UICONTROL Numérica]**. For more information on classification types, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
-1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
+   Las opciones son **[!UICONTROL Texto]** y **[!UICONTROL Numérica]**. Para obtener más información acerca de los tipos de clasificaciones, consulte [esta página de ayuda](/help/components/c-classifications2/c-classifications.md).
+1. En el cuadro de diálogo **[!UICONTROL Clasificaciones de texto]**, configure la clasificación como desee:
 
    Consulte [Descripciones de clasificaciones de conversión](/help/components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4) para obtener información sobre estos elementos.
 
-1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
+1. En el cuadro de diálogo **[!UICONTROL Lista desplegable]**, agregue o elimine opciones.
 
    Al agregar opciones, se crea una lista de valores de clasificación disponibles para esta clasificación. Puede utilizarse esta opción con las variables de Campaña para proporcionar a los usuarios una lista de los valores admitidos para la clasificación en el Administrador de campañas. Utilice esto para dimensiones de clasificación donde tiene un número pequeño de valores permitidos que cambian pocas veces o nunca. Por ejemplo, podría ejecutar diferentes campañas dirigidas a diferentes niveles de lealtad de clientes: Plata, Oro y Platino. Luego podría utilizar una lista desplegable para asegurarse de que solo los valores aceptados sean aquellos que coincidan con sus tres niveles. Si alguien intenta utilizar un valor diferente, se descarta.
 1. Haga clic en **[!UICONTROL Guardar]**.
@@ -92,9 +91,9 @@ t_classification_delete_conversion.xml
 
 Elimine una clasificación de conversión cuando ya no la necesite.
 
-1. Open the Report Suite Manager by clicking **[!UICONTROL Admin]**&gt; **[!UICONTROL Report Suites]** in the Suite header.
+1. Abra el Administrador de grupos de informes haciendo clic en **[!UICONTROL Administración]**&gt; **[!UICONTROL Grupos de informes]** en el encabezado de Suite.
 1. Selección de un grupo de informes.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
-1. En la lista desplegable **Seleccionar tipo de clasificación**, seleccione la variable donde desee eliminar una clasificación. 
-1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Delete Classification]**.
+1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Conversión]** &gt; **[!UICONTROL Clasificación de la conversión]**.
+1. En la lista desplegable **[!UICONTROL Seleccionar tipo de clasificación]**, seleccione la variable donde desee eliminar una clasificación. 
+1. Pase el cursor sobre **[!UICONTROL Editar clasificación]** y, a continuación, seleccione **[!UICONTROL Eliminar clasificación]**.
 1. En el cuadro de diálogo Eliminar clasificación, haga clic en **[!UICONTROL Eliminar]**.
