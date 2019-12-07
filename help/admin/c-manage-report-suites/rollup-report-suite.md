@@ -1,11 +1,10 @@
 ---
 description: Los grupos de informes resumidos acumulan datos de varios grupos de informes secundarios y los muestran en un conjunto de datos resumido.
-solution: Analytics
 title: Grupos de informes globales y resumidos
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
