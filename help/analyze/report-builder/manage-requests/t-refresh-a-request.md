@@ -1,11 +1,10 @@
 ---
 description: Las solicitudes se actualizan una vez editadas o filtradas, o si se desean ver los datos más recientes. Se pueden seleccionar varias solicitudes de una hoja de cálculo y actualizarlas al mismo tiempo.
-solution: Analytics
 title: Actualizar solicitudes
 topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
