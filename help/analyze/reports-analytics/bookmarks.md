@@ -1,12 +1,11 @@
 ---
 description: Los marcadores le permiten acceder a los informes que utiliza con mayor frecuencia. Los marcadores que cree se añadirán a Experience Cloud y estarán disponibles en funciones integradas como los conectores de datos.
-solution: Analytics
 subtopic: Bookmarks
 title: Administrador de marcadores
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,10 +26,11 @@ t_bookmarks_creating.xml
 
 1. Ejecute un informe y, a continuación, haga clic en **[!UICONTROL Marcador.]**.
 
-       |Nombre|Un nombre descriptivo para este marcador.|
-       |—|—|     |Agregar a|Especifica la carpeta en la que desea colocar el marcador.|
-       |Convertir en público| Pone este marcador a disposición de los usuarios con acceso al grupo de informes.|
-       |Mostrar informe al iniciar sesión| Muestra el informe al iniciar sesión.|
+       |Nombre|Un nombre descriptivo para este marcador.
+    |
+ |—|—|     |Agregar a|Especifica la carpeta en la que desea colocar el marcador.
+|     |Convertir en público| Pone este marcador a disposición de los usuarios con acceso al grupo de informes.
+|     |Mostrar informe al iniciar sesión| Muestra el informe al iniciar sesión.|
    
 ## Administrar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
