@@ -1,13 +1,12 @@
 ---
 description: Esta sección contiene un ejemplo de código para el archivo JavaScript principal y las páginas de un sitio.
 keywords: Analytics Implementation;appmeasurement.js code;example page code
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Ejemplo de código de página y configuración global
 topic: Developer and implementation
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
