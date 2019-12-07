@@ -1,11 +1,10 @@
 ---
 description: Pasos para seleccionar un grupo de informes de una solicitud existente.
-solution: Analytics
 title: Selección de un grupo de informes de una solicitud existente en Excel
 topic: Report builder
 uuid: 92fe4823-6b8a-4178-9c94-fb4f5e03e4a5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
