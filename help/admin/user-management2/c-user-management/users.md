@@ -1,12 +1,11 @@
 ---
 description: Administrar usuarios y grupos en la página Administración de usuarios le permite administrar los usuarios y grupos y controlar el acceso a los informes, las herramientas y los grupos de informes.
-solution: Analytics
 subtopic: Users and groups
 title: Resumen de administración de usuarios
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,11 +14,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** &gt; **[!UICONTROL Herramientas de administración]** &gt; **[!UICONTROL Administración de usuarios]**.
 
 Administrar usuarios y grupos en la página Administración de usuarios le permite administrar los usuarios y grupos y controlar el acceso a los informes, las herramientas y los grupos de informes.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Administración **[!UICONTROL de usuarios]** &gt; **[!UICONTROL Editar usuarios]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuarios]** &gt; **[!UICONTROL Editar usuarios]**
 
 ## Descripciones de la cuenta de usuario {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -80,7 +79,7 @@ Crea un tablero predeterminado para un grupo de informes especificado.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Usuario</span> </td> 
-   <td colname="col2"> <p> Concede al usuario únicamente los permisos de grupo seleccionados. Seleccione los grupos que desee en el campo <span class="uicontrol">Grupos disponibles</span> (a la izquierda) y, a continuación, haga clic en <span class="uicontrol">Agregar</span>. Los grupos que asigne aparecerán en el campo <span class="uicontrol">Grupos asignados</span> (a la derecha). For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> Concede al usuario únicamente los permisos de grupo seleccionados. Seleccione los grupos que desee en el campo <span class="uicontrol">Grupos disponibles</span> (a la izquierda) y, a continuación, haga clic en <span class="uicontrol">Agregar</span>. Los grupos que asigne aparecerán en el campo <span class="uicontrol">Grupos asignados</span> (a la derecha). Para obtener información acerca de cómo crear y administrar grupos, consulte <a href="/help/admin/user-management2/c-user-groups/groups.md"> Grupos</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
