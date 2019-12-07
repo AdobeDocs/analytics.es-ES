@@ -1,11 +1,10 @@
 ---
-description: Define la configuración común de un sitio web que desarrolla contenido original y muestra artículos y videos.
-solution: Analytics
+description: Define la configuración común de un sitio web que desarrolla contenido original y muestra artículos y vídeos.
 title: Contenido y medios
 topic: Admin tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -43,12 +42,12 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Unidades | Contador | `purchase` |
 | Carros de compras | Contador | `scOpen` |
 | Vistas del carro de compras | Contador | `scView` |
-| Instancias | Contador | N/A |
+| Instancias | Contador | N/D |
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
 | Visitas | Contador (sin subrelaciones) | N/A |
 | Vistas de páginas | Contador (sin subrelaciones) | N/A |
 | Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos | Contador (sin subrelaciones) | N.D. |
+| Visitantes únicos | Contador (sin subrelaciones) | N/A |
 
