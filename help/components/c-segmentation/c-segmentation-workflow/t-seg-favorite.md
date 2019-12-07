@@ -1,11 +1,10 @@
 ---
 description: Marcar los segmentos como favoritos es otra manera de organizarlos para que su uso sea más sencillo.
-solution: Analytics
 title: Marcar segmentos como favoritos
 topic: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,4 +17,4 @@ Marcar los segmentos como favoritos es otra manera de organizarlos para que su u
 
    ![](assets/favorites.png)
 
-1. You can also filter on favorites under **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Favorites]**.
+1. También puede filtrar por favoritos desde **[!UICONTROL Filtros]** &gt; **[!UICONTROL Otros filtros]** &gt; **[!UICONTROL Favoritos]**.
