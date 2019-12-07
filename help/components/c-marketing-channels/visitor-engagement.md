@@ -1,19 +1,18 @@
 ---
-description: Descubra cómo especificar la caducidad de compromiso del visitante en los canales de mercadotecnia.
-solution: Analytics
+description: Descubra cómo especificar la caducidad de la interacción del visitante en los Canales de marketing.
 subtopic: Marketing channels
 title: Caducidad de la participación del visitante
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Caducidad de la participación del visitante
 
-Descubra cómo especificar la caducidad de compromiso del visitante en los canales de mercadotecnia.
+Descubra cómo especificar la caducidad de la interacción del visitante en los Canales de marketing.
 
 El compromiso del visitante especifica la cantidad de tiempo que desea permitir para que la actividad previa del visitante en su sitio web se atribuya al canal de primer toque.
 
@@ -29,10 +28,10 @@ Por ejemplo, muchas veces los visitantes hacen clic a través de una campaña de
 
 Especifique la caducidad del compromiso del visitante.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Expiration]**.
+1. Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]**.
+1. En el [!UICONTROL Administrador del grupo de informes], haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Canales de marketing]** &gt; **[!UICONTROL Expiración de canal de marketing]**.
 
    ![](assets/mchannel_expiration.png)
 
-1. Configure los campos de caducidad de compromiso del visitante.
+1. Configure los campos de caducidad de interacción del visitante.
 1. Haga clic en **[!UICONTROL Guardar.]**
