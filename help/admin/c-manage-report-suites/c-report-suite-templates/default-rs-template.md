@@ -1,11 +1,10 @@
 ---
 description: Configura distintas variables comunes y eventos de éxito de un sitio Web.
-solution: Analytics
 title: Plantilla predeterminada
 topic: Admin tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -43,12 +42,12 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Unidades | Contador | `purchase` |
 | Carros de compras | Contador | `scOpen` |
 | Vistas del carro de compras | Contador | `scView` |
-| Instancias | Contador | N/A |
+| Instancias | Contador | N/D |
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
 | Visitas | Contador (sin subrelaciones) | N/A |
 | Vistas de páginas | Contador (sin subrelaciones) | N/A |
 | Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos | Contador (sin subrelaciones) | N.D. |
+| Visitantes únicos | Contador (sin subrelaciones) | N/A |
 
