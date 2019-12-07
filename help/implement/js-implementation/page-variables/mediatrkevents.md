@@ -1,13 +1,12 @@
 ---
 description: Las variables de página rellenan directamente un informe, como pageName, Props de lista, Variables de lista, etc.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ Solo es aplicable con JavaScript y [!UICONTROL ActionSource].
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| N.D. | N.D. | N.D. | s.Media.trackEvents="None" |
+| N/D | N/D | N/D | s.Media.trackEvents="None" |
 
 **Sintaxis y valores posibles** {#section_66A978EF56914BEAAE73359A268A1B4A}
 
