@@ -1,18 +1,17 @@
 ---
 description: Las variables de página rellenan directamente un informe, como pageName, Props de lista, Variables de lista, etc.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Productos
+# informe de productos
 
 La variable se usa para rastrear productos y categorías de productos, así como precios y cantidades de compra. Los productos se suelen configurar junto con un evento de carro o un evento
 
@@ -51,7 +50,7 @@ La variable *`products`* siempre debe configurarse junto con un evento de éxito
  <tbody> 
   <tr> 
    <td> <p>La cadena de productos <span class="wintitle"></span> tiene un tamaño máximo de 64 k. </p> </td> 
-   <td> Productos </td> 
+   <td> products </td> 
    <td> Productos <p>Categorías (opcional) </p> <p>Ingresos (opcional) </p> <p>Unidades (opcional) </p> <p>Eventos personalizados (opcional) </p> <p>eVars (opcional) </p> </td> 
    <td> " " </td> 
   </tr> 
