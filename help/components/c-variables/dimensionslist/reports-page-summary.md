@@ -1,11 +1,10 @@
 ---
 description: Este informe recopila y organiza información específica acerca de una página individual y la presenta en un solo informe. Se puede utilizar para comprender de qué manera los visitantes están llegando a una página determinada y si avanzan más por su sitio o salen.
-solution: Analytics
 title: Resumen de página
 topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
