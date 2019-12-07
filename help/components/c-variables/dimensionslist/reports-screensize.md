@@ -1,11 +1,10 @@
 ---
 description: Agrupa las visitas al sitio con dispositivos móviles según el tamaño de pantalla del dispositivo. Muestra cada tamaño de pantalla, el número de visitantes al sitio por cada tamaño de pantalla y cada tamaño de pantalla como porcentaje de las vistas totales. En comparación con Ancho de la pantalla y Altura de la pantalla, Tamaño de pantalla muestra tanto la altura como el ancho del tamaño de la pantalla.
-solution: Analytics
 title: Tamaño de la pantalla
 topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
