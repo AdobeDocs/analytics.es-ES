@@ -1,12 +1,11 @@
 ---
 description: Las clasificaciones de tráfico permiten clasificar variables de tráfico (props). Las clasificaciones de tráfico solo pueden usar clasificaciones de texto.
-solution: Analytics
 subtopic: Classifications
 title: Clasificaciones de tráfico
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,9 +20,9 @@ Las clasificaciones de tráfico permiten clasificar variables de tráfico (props
 
 La página Clasificaciones de tráfico permite crear clasificaciones de los grupos de informes seleccionados. Una vez clasificado, cualquier informe que se pueda generar con los datos clave también se puede generar con los atributos asociados.
 
-Después de activar las clasificaciones, utilice el [Importador de clasificaciones](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) para asignar valores determinados a la clasificación adecuada.
+Después de activar las clasificaciones, utilice el  [Importador de clasificaciones](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md) para asignar valores determinados a la clasificación adecuada.
 
-## Add a Traffic Classification {#task_4DB49CCB1D764483907BC33A5CEB7315}
+## Agregar una clasificación de tráfico {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
 <!-- 
 
@@ -33,15 +32,15 @@ t_classification_add_traffic.xml
 
 Instrucciones que describen cómo agregar o editar clasificaciones para los grupos de informes seleccionados.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** in the Suite header.
+1. Haga clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** en el encabezado de Grupo.
 1. Selección de un grupo de informes.
-1. En el campo **Seleccionar tipo de clasificación**, seleccione la variable donde desee agregar una clasificación.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]**.
+1. En el campo **[!UICONTROL Seleccionar tipo de clasificación]**, seleccione la variable donde desee agregar una clasificación.
+1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Tráfico]** &gt; **[!UICONTROL Clasificaciones de tráfico]**. 
 
-   ![Información del paso](assets/traffic-classification.png)
+   ![Información sobre los pasos](assets/traffic-classification.png)
 
-1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]** or **[!UICONTROL Edit Classification]**.
-1. In the **[!UICONTROL Text Classification]** dialog box, configure the classification as desired:
+1. Pase el cursor sobre el icono **[!UICONTROL Editar clasificación]**, luego seleccione **[!UICONTROL Agregar clasificación]** o **[!UICONTROL Editar clasificación]**.
+1. En el cuadro de diálogo **[!UICONTROL Clasificación de texto]**, configure la clasificación como desee:
 
    **[!UICONTROL Nombre:]** Especifique el nombre de la clasificación.
 
