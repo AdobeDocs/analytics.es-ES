@@ -1,11 +1,10 @@
 ---
 description: Instrucciones sobre cómo personalizar el gráfico de modo que resulte lo más práctico posible para la audiencia objetivo.
-solution: Analytics
 title: Cambiar gráficos de informes
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
