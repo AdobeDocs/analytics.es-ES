@@ -1,12 +1,11 @@
 ---
 description: 'Configurar la integración de DFA implica las siguientes tareas '
 keywords: DFA
-solution: Analytics
 title: Integración de DFA
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,14 +20,14 @@ Complete los pasos de la integración de Data Connectors DFA.
 
 Las páginas de configuración proporcionan información general sobre la integración, junto con vínculos útiles para obtener más información. Existen tarifas de Adobe como DoubleClick asociadas con esta integración. Póngase en contacto con los Representantes de ventas correspondientes para ambas organizaciones y asegúrese de comprender la estructura de tarifas.
 
-1. Inicie sesión en el [!DNL Adobe Analytics].
+1. Log in to the [!DNL Adobe Analytics].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 
    ![](assets/data_connectors.png)
 
 1. Locate **[!UICONTROL DoubleClick DFA]**, then click **[!UICONTROL Add New]**.
 
-   ![Resultado (](assets/wizard-01.png)
+   ![Resultado de pasos](assets/wizard-01.png)
 
    En cada página del Asistente para integración, proporcione la información requerida y haga clic en **[!UICONTROL Siguiente]**. La siguiente tabla explica la información necesaria para completar la integración mediante el asistente.
 
