@@ -1,12 +1,11 @@
 ---
 description: Información sobre los métodos de Adobe para proporcionar acceso a fuentes de datos.
-solution: Analytics
 subtopic: Data sources
 title: Funcionamiento de las fuentes de datos
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
