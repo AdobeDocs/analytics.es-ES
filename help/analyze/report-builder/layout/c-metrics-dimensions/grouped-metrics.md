@@ -1,11 +1,10 @@
 ---
 description: Ahora puede combinar estos dos tipos de métricas en la misma solicitud, en lugar de tener que crear solicitudes independientes.
-solution: Analytics
 title: Combinación de las métricas de tráfico y comercio en la misma solicitud
 topic: Report builder
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
