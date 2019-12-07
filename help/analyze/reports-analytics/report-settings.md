@@ -1,11 +1,10 @@
 ---
 description: Configuración que define cómo aparecen todos los informes y la información que ajusta las opciones de menú predeterminadas a su ubicación en el menú simplificado.
-solution: Analytics
 title: Configuración de visualización de informes y navegación
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -91,7 +90,7 @@ Si está acostumbrado al menú predeterminado, la tabla siguiente le facilita en
 |  | Profundidad de color | Audiencia &gt; Móvil &gt; Profundidad de color |
 |  | Compatibilidad con audio | Audiencia &gt; Móvil &gt; Compatibilidad con audio |
 |  | Compatibilidad con vídeo | Audiencia &gt; Móvil &gt; Compatibilidad con vídeo |
-|  | Sistema operativo | Audiencia &gt; Móvil &gt; Sistema operativo |
+|  | Sistema operativo  | Audiencia &gt; Móvil &gt; Sistema operativo |
 | **Rutas** |  |  |
 |  | Páginas | Navegación &gt; Rutas &gt; Páginas |
 |  | Términos de búsqueda interna | Navegación &gt; Rutas &gt; Términos de búsqueda interna |
@@ -136,7 +135,7 @@ Si está acostumbrado al menú predeterminado, la tabla siguiente le facilita en
 | **Tráfico personalizado** |  |  |
 |  | Tráfico personalizado 1-10 | Contenido &gt; Tráfico personalizado &gt; Tráfico personalizado 1-10 |
 | **Test&amp;Target** |  | Conversión &gt; Test&amp;Target |
-| **Survey** |  | Audiencia &gt; Survey |
+| **Encuesta** |  | Audiencia &gt; Survey |
 | **Canales de marketing** |  |  |
 |  | Informe de descripción general de canal | Fuentes de tráfico &gt; Canales de marketing &gt; Informe de descripción general de canal |
 |  | Canal de primer toque | Fuentes de tráfico &gt; Canales de marketing &gt; Canal de primer toque |
