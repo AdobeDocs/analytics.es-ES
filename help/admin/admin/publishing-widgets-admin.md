@@ -1,18 +1,17 @@
 ---
 description: Una utilidad de publicación es un contenedor que permite incrustar informes de marketing (marcadores y tableros) en una página web. Los miembros de la organización que no dispongan de acceso a los informes de marketing también podrán ver los datos relevantes.
-solution: Analytics
 title: Widget de publicaciones
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Widget de publicaciones
 
-Una utilidad de publicación es un contenedor que permite incrustar informes de Analytics (marcadores y tableros) en una página web. Las personas de su organización que no tengan acceso a los informes de Analytics pueden ver los datos pertinentes.
+Una utilidad de publicación es un contenedor que permite incrustar informes de Analytics (marcadores y paneles) en una página web. Los miembros de la organización que no dispongan de acceso a los informes de Analytics también podrán ver los datos relevantes.
 
 Por ejemplo, se puede disponer un tablero donde los ejecutivos de la empresa puedan ver el número de visitantes de la página, de visitantes de página únicos, etcétera.
 
@@ -29,10 +28,10 @@ La utilidad ejecuta el informe la primera vez que cualquier usuario ve la utilid
 Si ve diferencias entre los datos de la utilidad de publicación y la interfaz de informes, es posible que tenga que borrar el contenido de la caché de la utilidad de publicación.
 
 1. Haga clic en la utilidad de publicación (de modo que el foco se sitúe sobre la utilidad).
-1. Haga clic en **[!UICONTROL Guardar]en la utilidad.**
+1. Haga clic en **[!UICONTROL Guardar]** en la utilidad.
 1. Vuelva a ejecutar la utilidad. (El modo de Vista previa no usa la caché de la utilidad).
 
-> [!NOTE] Las utilidades de publicación solo muestran la primera columna de datos de un informe.
+> [!NOTE] Los widgets de publicación solo muestran la primera columna de datos de un informe.
 
 ## Descripciones de los utilidades de publicación {#section_D67478AECCA946B19A3E4C7071EB4871}
 
@@ -41,4 +40,4 @@ Si ve diferencias entre los datos de la utilidad de publicación y la interfaz d
 | Nombre | El nombre de la utilidad. |
 | Descripción | Opcional. Permite escribir una descripción de la utilidad. |
 | Número de visita | En la lista desplegable Informe superior, seleccione una carpeta o un tablero. En la lista desplegable Informe inferior, seleccione un informe breve o un marcador.  Estos informes no requieren la autenticación de visitantes. <br>Si un visitante carga una página web que contiene una utilidad de publicación, la utilidad mostrará automáticamente el informe asociado utilizando los datos actuales de los informes. Si se cambia una utilidad de publicación, por ejemplo, si se cambia el informe asociado, se actualizará automáticamente el resultado del informe de todas las páginas web que utilicen esa utilidad, sin necesidad de volver a implementarlas.</br> |
-| Destino | Permite especificar el destino de la utilidad   Los destinos deben tener un formato de dirección URL válido, incluido el prefijo https:// o https://. Los destinos de los utilidades de publicación son inclusivos, es decir, que el utilidad de publicación funcionará en todas las direcciones URL que incluyan el destino especificado. <br>Por ejemplo, un Destino de https://www.corp1.com/sales/ permite las utilidades Publicación en todas las páginas Web en la página de ventas o debajo de ella en el sitio Web www.corp1.com.</br> |
+| Destino | Permite especificar el destino de la utilidad   El destino debe tener un formato de dirección URL válido, con el prefijo https:// o https:// incluido. Los destinos de los utilidades de publicación son inclusivos, es decir, que el utilidad de publicación funcionará en todas las direcciones URL que incluyan el destino especificado. <br>Por ejemplo, un destino como https://www.corp1.com/sales/ permite que el widget de publicaciones aparezca en todas las páginas Web que se encuentren en el nivel de la página de ventas u otro nivel inferior dentro del sitio Web www.corp1.com.</br> |
