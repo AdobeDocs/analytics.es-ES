@@ -1,12 +1,11 @@
 ---
 description: Las reglas de procesamiento permiten realizar cambios en los datos según ciertas condiciones definidas. Cuando los atributos o los valores coinciden con las condiciones definidas, se pueden definir y eliminar valores, y definir eventos.
-solution: Analytics
 subtopic: Processing rules
 title: Funcionamiento de las reglas de procesamiento
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,7 +38,7 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento se aplican inmediatamente al grupo de informes después de guardarse. </p> </td> 
-   <td colname="col2"> <p>Los cambios de las reglas de procesamiento deberían estar visibles en el grupo de informes tras unos minutos después de guardarse. A la hora de probar reglas de procesamiento, es recomendable configurar <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>Los cambios de las reglas de procesamiento deberían estar visibles en el grupo de informes tras unos minutos después de guardarse. A la hora de probar reglas de procesamiento, es recomendable configurar <a href="/help/admin/admin/realtime/t-realtime-admin.md"> Informes en tiempo real</a> en su grupo de informes de prueba para poder ver rápidamente los resultados de una regla de procesamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas de procesamiento son la única forma de acceder a las variables de datos de contexto. </p> </td> 
@@ -62,7 +61,7 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
    <td colname="col2"> <p>La búsqueda de dispositivos móviles es anterior a las reglas de procesamiento, pero los atributos no están disponibles en las reglas de procesamiento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Si se ejecuta JavaScript AppMeasurement H.25.2 o anterior, no pueden leerse los parámetros de cadena a partir de los primeros 255 caracteres de la dirección URL. JavaScript AppMeasurement H.25.3 y posterior proporciona la dirección URL completa, incluidos todos los parámetros de cadena de consulta, para las reglas de procesamiento. </p> </td> 
+   <td colname="col1"> <p>Si se ejecuta JavaScript AppMeasurement H.25.2 o anterior, no pueden leerse los parámetros de cadena a partir de los primeros 255 caracteres de la dirección URL. JavaScript AppMeasurement H.25.3 y posteriores ofrecen la dirección URL completa de todos los parámetros de cadena de búsqueda para las reglas de procesamiento. </p> </td> 
    <td colname="col2"> <p>Existe la posibilidad de actualizar a H.25.3 o posterior, o de leer los parámetros de cadena de consulta de las direcciones URL largas del lado del cliente y almacenar los valores en variables de datos de contexto. </p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +82,7 @@ La siguiente tabla contiene los principales conceptos que debe comprender al uti
   </tr> 
   <tr> 
    <td colname="col1"> <p>Los nombres de las variables de datos de contexto solo pueden contener caracteres alfanuméricos, guiones bajos y puntos. Quedan descartados todos los caracteres restantes. </p> </td> 
-   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>Las variables de datos de contexto que contienen caracteres no admitidos no pueden agregarse en la interfaz de reglas de procesamiento. </p> </td> 
+   <td colname="col2"> <p>Por ejemplo, la variable de data de contexto <code> login_page-home</code> se transforma automáticamente en <code> login_pagehome</code>. Todos los datos enviados a la variable <code> login_page-home</code> se asignan en <code> login_pagehome</code>. </p> <p>Las variables de datos de contexto que contienen caracteres no admitidos no pueden agregarse en la interfaz de reglas de procesamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>El acento circunflejo (^) es un carácter especial en el sistema de reglas de procesamiento. </p> </td> 
@@ -104,4 +103,4 @@ No se buscan valores automáticamente en las variables antes de que ocurran las 
 
 Las acciones definen y eliminan variables de página, o activan eventos. Las acciones también pueden concatenar valores para que aparezcan en un informe.
 
-For example, you might want to display `category:product` by concatenating two variables.
+Por ejemplo, si se desea mostrar `category:product` concatenando dos variables.
