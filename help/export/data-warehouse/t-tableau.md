@@ -1,11 +1,10 @@
 ---
 description: El Almacén de datos puede entregar informes en formato de archivo Tableau Data Extract (TDE) que le permite visualizar datos y crear capas en datos adicionales desde fuera de Adobe Analytics. Puede enviar por correo electrónico esta información, o enviarla por FTP a otro sitio FTP.
-solution: Analytics
 title: Archivo de datos Tableau
 topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
