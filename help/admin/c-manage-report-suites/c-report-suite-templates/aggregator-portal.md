@@ -1,11 +1,10 @@
 ---
 description: Define la configuración común para un sitio Web que agrega contenido como, por ejemplo, un portal de noticias.
-solution: Analytics
 title: Portal de agregadores
 topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,12 +38,12 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Unidades | Contador | `purchase` |
 | Carros de compras | Contador | `scOpen` |
 | Vistas del carro de compras | Contador | `scView` |
-| Instancias | Contador | N/A |
+| Instancias | Contador | N/D |
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
 | Visitas | Contador (sin subrelaciones) | N/A |
 | Vistas de páginas | Contador (sin subrelaciones) | N/A |
 | Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos | Contador (sin subrelaciones) | N.D. |
+| Visitantes únicos | Contador (sin subrelaciones) | N/A |
 
