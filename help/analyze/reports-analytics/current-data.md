@@ -1,12 +1,11 @@
 ---
 description: La opción Incluir datos actuales de Reports & Analytics le permite ver los datos de Analytics más recientes, con frecuencia antes incluso de que dichos datos se hayan completado y procesado totalmente. Datos actuales muestra la mayoría de las métricas en cuestión de minutos y proporciona datos procesables que facilitan una toma de decisiones rápida.
-solution: Analytics
 subtopic: Current Data
 title: Datos actuales
 topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ Es visible como una opción como parte de la configuración de un informe:
 Datos actuales está habilitado de forma predeterminada en todos los informes compatibles. Si prefiere ver todas las métricas una vez que los datos se hayan procesado completamente, existen varias opciones:
 
 * Utilice Analysis Workspace, que utiliza datos completamente procesados.
-* Haga clic en 'No' en la configuración del informe de datos actual para utilizar solo los datos completamente procesados.
+* Haga clic en 'No' en la configuración del informe de datos actual para usar solamente los datos completamente procesados.
 * Elimine el elemento de permiso 'Datos actuales' de un perfil de producto en Admin Console para evitar que los usuarios que no son administradores vean esta opción. Consulte los elementos [de permiso Herramientas de](/help/admin/admin-console/permissions/analytics-tools.md) Analytics en la guía del usuario de Administración para obtener más información.
 
 Debido a la disponibilidad de los datos con prioridad, los datos actuales no se pueden utilizar actualmente con segmentos, clasificaciones, desgloses, rutas y algunas métricas. Si se utiliza una de estas características, los datos actuales se obligan a 'No' en el informe y se muestra un aviso amarillo que explica por qué no se encuentran disponibles los datos actuales.
