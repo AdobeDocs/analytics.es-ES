@@ -1,12 +1,11 @@
 ---
 description: En Experience Cloud hay varios tipos de variables disponibles. Los dos tipos más populares, props y eVars, permiten a la organización obtener informes sobre dimensiones personalizadas del sitio que los informes predeterminados estándar no ofrecen.
 keywords: Analytics Implementation;prop;evar;props vs evars;naming convention;traffic variables;persistence;success event;pathing
-solution: Analytics
 title: Comparación de props y eVars
 topic: Developer and implementation
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
