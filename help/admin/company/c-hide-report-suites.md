@@ -1,12 +1,11 @@
 ---
 description: Le permite ocultar grupos de informes en la interfaz de usuario de Adobe Analytics.
 keywords: delete report suite
-solution: Analytics
 title: Ocultar grupos de informes
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,14 +20,14 @@ Ocultar un grupo de informes evita que aparezca en el menú desplegable del sele
 
 >[!IMPORTANT]
 >
->Los datos que se envían a un grupo de informes oculto desde su sitio siguen recopilándose, procesándose y facturándose. Es decir, un grupo de informes nunca se elimina completamente.
+>Los datos enviados a un grupo de informes oculto desde su sitio se seguirán recopilando, procesando y facturando. Es decir, un grupo de informes nunca se elimina completamente.
 
-To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. Active la casilla de verificación **[!UICONTROL Oculto]a la izquierda del nombre del grupo de informes.**
+Para ocultar el grupo de informes, vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Configuración de la empresa]** &gt; **[!UICONTROL Ocultar grupos de informes]**. Active la casilla de verificación **[!UICONTROL Oculto]** a la izquierda del nombre del grupo de informes.
 
-Para volver a mostrar el grupo de informes, desactive la casilla de verificación **[!UICONTROL Oculto].**
+Para volver a mostrar el grupo de informes, desactive la casilla de verificación **[!UICONTROL Oculto]**.
 
-To view only hidden report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Hidden Report Suites]**.
+Para ver únicamente los grupos de informes ocultos en **[!UICONTROL Configuración de la empresa]**, seleccione **[!UICONTROL Ver]** &gt; **[!UICONTROL Solo los grupos de informes ocultos]**.
 
-To view only visible report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Visible Report Suites]**.
+Para ver únicamente los grupos de informes visibles en **[!UICONTROL Configuración de la empresa]**, seleccione **[!UICONTROL Ver]** &gt; **[!UICONTROL Solo los grupos de informes visibles]**.
 
-The default is **[!UICONTROL View]** &gt; **[!UICONTROL All]**.
+El valor predeterminado es **[!UICONTROL Ver]** &gt; **[!UICONTROL Todos]**.
