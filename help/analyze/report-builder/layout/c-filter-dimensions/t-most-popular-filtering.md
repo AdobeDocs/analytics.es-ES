@@ -1,11 +1,10 @@
 ---
 description: Filtros condicionales y de clasificación que se configuran mediante la lógica booleana con las expresiones de búsqueda Y/O.
-solution: Analytics
 title: Filtros más utilizados
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Cree o edite una solicitud y avance en el [!UICONTROL Asistente para solicitudes: Paso 2].
 
-   ![Información del paso](assets/dimension_filter.png)
+   ![Información sobre los pasos](assets/dimension_filter.png)
 
 1. En el [!UICONTROL Asistente para solicitudes: Paso 2]**, haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione[!UICONTROL Filtro]**.
 1. En el formulario [!UICONTROL Elegir página]**, active[!UICONTROL Más populares]** y después configure las siguientes opciones:
@@ -37,7 +36,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Para crear una expresión de búsqueda, haga clic en **[!UICONTROL Añadir]**.
 
-   ![Información del paso](assets/expressions_define_filter.png)
+   ![Información sobre los pasos](assets/expressions_define_filter.png)
 
 1. En el formulario [!UICONTROL Definir filtro], configure las condiciones adecuadas para sus necesidades.
 
@@ -47,7 +46,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
-   ![Información del paso](assets/choose_page_02.png)
+   ![Información sobre los pasos](assets/choose_page_02.png)
 
 1. En el formulario [!UICONTROL Seleccionar página]**, haga clic en[!UICONTROL Guardar]** para guardar la expresión.
 1. Haga clic en **[!UICONTROL Aceptar]**.
