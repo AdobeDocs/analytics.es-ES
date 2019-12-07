@@ -1,18 +1,17 @@
 ---
 description: Muestra información sobre los lugares de Internet que conducen el tráfico a su sitio. Puede ver los motores de búsqueda y los sitios web, fuera del dominio, que le envían visitantes.
-solution: Analytics
 title: Fuentes de tráfico
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Fuentes de tráfico
 
-Muestra información sobre los lugares de Internet que conducen el tráfico a su sitio. Puede ver los motores de búsqueda y los sitios Web, más allá de su dominio, que le envían visitantes.
+Muestra información sobre los lugares de Internet que conducen el tráfico a su sitio. Puede ver los motores de búsqueda y los sitios web, fuera del dominio, que le envían visitantes.
 
 ## Fuentes de tráfico {#topic_6718F8EFD5984DC5839B9E8F6CC45EDA}
 
@@ -58,7 +57,7 @@ Los informes de este menú se dividen en tres categorías básicas:
   </tr> 
   <tr> 
    <td colname="col1"> Clasificación de todas las páginas de búsqueda </td> 
-   <td colname="col2"> <p> Muestra la clasificación del sitio entre todos los listados de las búsquedas del visitante, incluso los datos de clasificación de la página de búsqueda natural o paga. </p> <p>Por ejemplo, un usuario que llegue a su sitio desde un motor de búsqueda puede haberlo visto en la tercera de cien páginas de resultados. Esto puede ayudarle a ver y optimizar rápidamente las iniciativas de los motores de búsqueda. Los datos de este informe se pueden ver en todos los períodos de tiempo excepto <span class="wintitle">Por hora</span>. </p> </td> 
+   <td colname="col2"> <p> Muestra la clasificación del sitio entre todas las listas de las búsquedas del visitante, incluidos los datos de clasificación de la página en las búsquedas naturales y de pago. </p> <p>Por ejemplo, un usuario que llegue a su sitio desde un motor de búsqueda puede haberlo visto en la tercera de cien páginas de resultados. Esto puede ayudarle a ver y optimizar rápidamente las iniciativas de los motores de búsqueda. Los datos de este informe se pueden ver en todos los períodos de tiempo excepto <span class="wintitle">Por hora</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Dominios de referencia </td> 
@@ -70,16 +69,16 @@ Los informes de este menú se dividen en tres categorías básicas:
   </tr> 
   <tr> 
    <td colname="col1"> Referentes </td> 
-   <td colname="col2"> <p> Muestra el dominio o la dirección URL desde donde los visitantes llegaron al sitio, cómo encontraron el sitio web y la cantidad de visitas al sitio provenientes de esas ubicaciones referentes. </p> <p>Por ejemplo, si un visitante llega al sitio haciendo clic en un vínculo desde el sitio A, y el sitio A no está definido como parte del dominio, entonces el sitio A es el sitio referente. Durante la implementación, un asesor de implementación puede ayudarle a definir los dominios y las direcciones URL que forman parte de su sitio web (también se puede hacer después de la implementación). Todo dominio o dirección URL que no forme parte de esos dominios y esas direcciones URL que se hayan definido se considerarán referentes. </p> <p>Por ejemplo, si una página web A y una página web B se agregan al filtro de dirección URL interno pero no así la página web C, entonces la página web C se considerará un referente. </p> <p>Consulte <a href="/help/admin/admin/internal-url-filter-admin.md"> Filtros URL internos</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. Los mensajes de correo electrónico de Outlook se presentarán en los informes en la línea <span class="wintitle">Escritos o marcadores</span>, mientras que todo referente con un protocolo HTTP cuyo dominio sea un motor de búsqueda conocido se presentará en la línea <span class="wintitle">Motor de búsqueda</span>. </p> </td> 
+   <td colname="col2"> <p> Muestra el dominio o la dirección URL desde donde los visitantes llegaron al sitio, cómo encontraron el sitio web y la cantidad de visitas al sitio provenientes de esas ubicaciones referentes. </p> <p>Por ejemplo, si un visitante llega al sitio haciendo clic en un vínculo desde el sitio A, y el sitio A no está definido como parte del dominio, entonces el sitio A es el sitio referente. Durante la implementación, un asesor de implementación puede ayudarle a definir los dominios y las direcciones URL que forman parte de su sitio web (también se puede hacer después de la implementación). Todo dominio o dirección URL que no forme parte de esos dominios y esas direcciones URL que se hayan definido se considerarán referentes. </p> <p>Por ejemplo, si una página web A y una página web B se agregan al filtro de dirección URL interno pero no así la página web C, entonces la página web C se considerará un referente. </p> <p>Consulte <a href="/help/admin/admin/internal-url-filter-admin.md"> Filtros URL internos</a></p>  <p>Nota: Analytics registra los dominios de referencia como correo electrónico cuando los visitantes llegan al sitio haciendo clic en un vínculo enviado por correo electrónico que contiene el protocolo <code> imap://</code> o <span class="filepath"> mail://</span>. </p> <p>Por ejemplo, todas las visitas procedentes de <code> https://mail.yahoo.com</code> no se cuentan como referente de correo electrónico, porque el protocolo es <span class="filepath"> https://</span>. Los mensajes de correo electrónico de Outlook se presentarán en los informes en la línea <span class="wintitle">Escritos o marcadores</span>, mientras que todo referente con un protocolo HTTP cuyo dominio sea un motor de búsqueda conocido se presentará en la línea <span class="wintitle">Motor de búsqueda</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tipos de referente </td> 
-   <td colname="col2"> <p> Al rastrear y registrar los sitios de referencia de los visitantes para cada visita, puede determinar cómo los visitantes descubrieron el sitio en cada visita. La lista siguiente define los distintos tipos de referentes. </p> 
+   <td colname="col2"> <p> Al realizar un seguimiento y registrar los sitios referentes de los visitantes permite averiguar, cómo descubrió el sitio el visitante en cada visita. La lista siguiente define los distintos tipos de referentes. </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> Los referentes del disco duro se registran cuando los visitantes hacen clic en un vínculo en un documento HTML ubicado en el disco duro y como consecuencia llegan a su sitio. </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> Se registran como otros referentes del sitio web cuando los visitantes hacen clic en un vínculo ubicado en una página de otro sitio web (no definida como parte del sitio) y llegan al sitio web. </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> Se registran como referentes de motor de búsqueda cuando los visitantes utilizan un motor de búsqueda para acceder al sitio. </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Los referentes escritos o marcadores se registran cuando los visitantes escriben la dirección URL del sitio directamente en el explorador o si acceden al sitio seleccionando un marcador. </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> Los referentes Escrito o Marcador se registran cuando los visitantes escriben la dirección URL directamente en la barra de direcciones del explorador, o si acceden al sitio mediante un marcador. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
