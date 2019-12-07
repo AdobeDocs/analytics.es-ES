@@ -1,12 +1,11 @@
 ---
 description: Implementar con AJAX es exactamente igual que implementar código en una página HTML estándar.
 keywords: Analytics Implementation
-solution: Analytics
 title: Implementación con AJAX
 topic: Developer and implementation
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
