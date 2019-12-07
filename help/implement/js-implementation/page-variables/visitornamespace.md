@@ -1,13 +1,12 @@
 ---
 description: Las variables de página rellenan directamente un informe, como pageName, Props de lista, Variables de lista, etc.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ Si *`visitorNamespace`* se usa en el archivo JavaScript, no la elimine ni la mod
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| N.D. | ns | N.D. | "" |
+| N/D | ns | N/D | "" |
 
 Analytics utiliza una cookie para identificar de manera única a los visitantes del sitio. Si *`visitorNamespace`* no se utiliza, la cookie se asocia con 2o7.net. Si se utiliza *`visitorNamespace`*, la cookie se asocia con un subdominio de 2o7.net. Todos los visitantes del sitio deberán tener las cookies asociadas con el mismo dominio o subdominio.
 
