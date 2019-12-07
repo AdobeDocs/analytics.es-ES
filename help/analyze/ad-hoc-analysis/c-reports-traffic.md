@@ -1,11 +1,10 @@
 ---
 description: Las fuentes de tráfico ofrecen una descripción detallada sobre cómo los visitantes interactúan con el sitio web.
-solution: Analytics
 title: Informes de fuentes de tráfico
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ Los informes de fuentes de tráfico permiten:
 
 **Modo de persistencia común**
 
-En las [!UICONTROL fuentes de tráfico], todos los valores de los informes permanecen y reciben crédito hasta que resulten sobrescritos o hasta que termine la visita (lo que suceda primero). Antes, solo persistían los valores de Palabras clave y Dominios de referencia. Por ejemplo, si un visitante busca “DVD” en Google y obtiene como resultado una compra de 100 $ en su sitio, el informe asigna 100 $ de crédito a la palabra clave “DVD” y también al motor de búsqueda Google. This functionality is unalterable, regardless of [!DNL Admin Console] settings.
+En las [!UICONTROL fuentes de tráfico], todos los valores de los informes permanecen y reciben crédito hasta que resulten sobrescritos o hasta que termine la visita (lo que suceda primero). Antes, solo persistían los valores de Palabras clave y Dominios de referencia. Por ejemplo, si un visitante busca en Google la palabra  "DVD", que les lleva al sitio, donde efectúan una compra de 100 $, el informe asigna un crédito de 100 $ a la palabra clave "DVD" y también al motor de búsqueda de Google. This functionality is unalterable, regardless of [!DNL Admin Console] settings.
 
 ## Palabras clave de búsqueda {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -47,7 +46,7 @@ c_reports_search_keyword.xml
 
 ## Motores de búsqueda {#concept_351CDE4F5FC44371B6B657064E125134}
 
-Muestran qué motores de búsqueda usan los visitantes, para todas las búsquedas, para las búsquedas pagadas y para las búsquedas naturales.
+Muestran qué motores de búsqueda usan los visitantes, para todas las búsquedas, para las búsquedas de pago y para las búsquedas naturales.
 
 <!-- 
 
@@ -79,7 +78,7 @@ c_reports_original_ref_domains.xml
 
  -->
 
-Muestra los referentes originales que llevaron a los clientes al sitio. Los clientes pueden visitar un sitio muchas veces y en cada visita el referente puede ser distinto. Este informe muestra de qué manera fueron conducidos la primera vez que llegaron al sitio. Con esta información podrá ver si siguieron utilizando el mismo referente y también observar patrones con respecto al modo en que los clientes llegan a su sitio. Se puede ver el número de visitantes generado por el referente original o descubrir la cantidad de ingresos que produjo cada referente original. Los informes de referentes se pueden completar cada vez que un visitante entra en el sitio, incluso si lo hace varias veces durante una sesión (antes de que la visita caduque).
+Muestra los referentes originales que llevaron a los clientes al sitio. Los clientes pueden visitar un sitio muchas veces y en cada visita el referente puede ser distinto. Este informe muestra de qué manera fueron conducidos la primera vez que llegaron al sitio. Con esta información podrá ver si siguieron utilizando el mismo referente y también observar patrones con respecto al modo en que los clientes llegan a su sitio. Se puede ver el número de visitantes generado por el referente original o descubrir la cantidad de ingresos que produjo cada referente original. Los informes de referentes se pueden rellenar cada vez que un visitante entra en el sitio, incluso si lo hace varias veces durante una sesión (antes de que la visita caduque).
 
 ## Referentes {#concept_40CF9C2D10B94E82819BC65A232F05C3}
 
@@ -101,7 +100,7 @@ Consulte [Filtros de URL internos](https://marketing.adobe.com/resources/help/en
 
 ## Tipo de referente {#concept_689E42D8F96C450DA41C7167C7388198}
 
-Al rastrear y registrar los sitios de referencia de los visitantes para cada visita, puede determinar cómo los visitantes descubrieron el sitio en cada visita.
+Al realizar un seguimiento y registrar los sitios referentes de los visitantes permite averiguar, cómo descubrió el sitio el visitante en cada visita.
 
 <!-- 
 
@@ -124,7 +123,7 @@ La lista siguiente define los distintos tipos de referentes:
 
 Los siguientes artículos de línea podrían mostrarse cuando ejecute este informe:
 
-**Dentro de su sitio**: estos artículos son direcciones URL que son etiquetadas por los filtros de URL internos. No se contabilizan como  instancias de referente, pero se pueden ver en informes de otras métricas.
+**Dentro de su sitio**: estos artículos son direcciones URL que son etiquetadas por los filtros de URL internos. Estos elementos no se cuentan como instancias de referente, sino que se pueden ver cuando se generan informes en otras métricas.
 
 **Sin JavaScript**: no hay JavaScript, por lo que el tipo no se puede identificar (desconocido). Esto significa que un cliente, desde un explorador, no proporcionó información de referente y, por consiguiente, no se sabe si admite JavaScript. No se contabilizan como “instancias de referente” pero se pueden ver en los informes de otras métricas.
 
