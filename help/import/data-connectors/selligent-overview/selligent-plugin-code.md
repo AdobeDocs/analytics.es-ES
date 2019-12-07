@@ -1,10 +1,9 @@
 ---
 description: Reserve las eVars necesarias en la herramienta de administración de Adobe Analytics antes de trabajar con el código siguiente.
-solution: Analytics
 title: Código del complemento Parámetro de cadena de consulta
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
