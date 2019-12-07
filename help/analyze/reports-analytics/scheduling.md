@@ -1,12 +1,11 @@
 ---
 description: Información sobre cómo programar, descargar y distribuir informes.
-solution: Analytics
 subtopic: Schedule
 title: Programación y distribución del informe
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
