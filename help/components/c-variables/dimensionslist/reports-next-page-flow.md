@@ -1,11 +1,10 @@
 ---
 description: 'Muestra las vistas de ruta, o la cantidad de veces y porcentajes que se vio una página, dentro de una restricción de ruta. Por ejemplo: puede ocurrir que la página de la política de privacidad tenga un total de 10 000 vistas, pero que solamente 500 de ellas se produjeron inmediatamente antes de la página de inicio. En este caso, se informarán 500 vistas de ruta. Estos datos se pueden analizar en el nivel de la visita o del visitante. El porcentaje de cada página se muestra al lado de su nombre. El ancho de una línea conectada a la página representa el porcentaje relativo de visitas.'
-solution: Analytics
 title: Flujo de página siguiente
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -34,7 +33,7 @@ Utilice este informe para:
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> Haga clic en <span class="uicontrol">Gráfico</span> para ver en dos niveles las páginas que más visitan los usuarios tras ver la página seleccionada. El informe también indica el momento en el que los visitantes abandonan el sitio. </p> <p>Haga clic en <b>Tabla</b> para ver las páginas siguientes en una lista similar a la del <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Informe de página siguiente</a>. No obstante, también permite explorar más en profundidad cada <i>página siguiente</i> para ver las páginas siguientes en un flujo de dos páginas. </p> <p>Reports &amp; Analytics usa vistas de ruta. </p> </td> 
+   <td colname="col2"> <p> Haga clic en <span class="uicontrol">Gráfico</span> para ver en dos niveles las páginas que más visitan los usuarios tras ver la página seleccionada. El informe también indica el momento en el que los visitantes abandonan el sitio. </p> <p>Haga clic en <b>Tabla</b> para ver las páginas siguientes en una lista similar a la del  <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > Informe de página siguiente</a>. No obstante, también permite explorar más en profundidad cada <i>página siguiente</i> para ver las páginas siguientes en un flujo de dos páginas. </p> <p>Reports &amp; Analytics usa vistas de ruta. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis  </td> 
