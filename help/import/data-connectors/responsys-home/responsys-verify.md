@@ -1,10 +1,9 @@
 ---
 description: Después de la implementación, debe validar que la integración esté transfiriendo datos correctamente a través de las siguientes comprobaciones.
-solution: Analytics
 title: Verificación de la integración
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
