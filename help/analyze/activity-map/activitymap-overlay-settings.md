@@ -1,11 +1,10 @@
 ---
 description: En el panel Configuración de Activity Map se pueden modificar la configuración y las propiedades de todos los tipos de visualizaciones de superposición.
-solution: Analytics
 title: Definición de la configuración de Activity Map
 topic: Activity map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,7 +20,7 @@ El panel Configuración muestra un contenido concreto según el modo de aplicaci
 | Estándar | **[!UICONTROL Superposiciones de degradado]** o **[!UICONTROL burbujas]** |
 |---|---|
 | Activo | **[!UICONTROL Superposiciones de ganadores y perdedores]**, **[!UICONTROL degradado]** y **[!UICONTROL burbujas]** |
-| Otros | Selección de idioma y de grupo de informes |
+| Otro | Selección de idioma y de grupo de informes |
 
 ## Configuración de la superposición en el modo Estándar {#section_24DB95376E1A448494ECF3F57743FC19}
 
