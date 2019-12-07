@@ -1,11 +1,10 @@
 ---
 description: Acceso único se define como el número de visitas al sitio que contenían un solo valor Nombre de página único. Si un usuario entra en el sitio y hace clic en un vínculo, activa un evento (por ejemplo, una vista de vídeo) o vuelve a cargar la página, la visita seguirá considerándose una visita de acceso único. Mientras el valor de la variable pageName no cambie, la visita seguirá considerándose como un acceso único independientemente del número de solicitudes enviadas.
-solution: Analytics
 title: Acceso único
 topic: Metrics
 uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
