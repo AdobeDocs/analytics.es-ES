@@ -1,11 +1,10 @@
 ---
 description: El informe de descripción general de canal de marketing está diseñado para ofrecer una perspectiva de alto nivel de los métodos más efectivos para que los clientes lleguen al sitio. Utilice este informe para asignar métricas de éxito e ingresos a diversos canales. También puede ver las palabras clave o campañas específicas más exitosas dentro de cada canal. Contiene su propia y única interfaz, lo que permite ver métricas de primer y último toque al mismo tiempo.
-solution: Analytics
 title: Descripción general de canal de marketing
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,7 +24,7 @@ El informe de descripción general de canal de marketing está diseñado para of
 * Se puede utilizar la [clasificación](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html), lo que permite cambiar el nombre de los elementos de línea y consolidarlos.
 * En este informe se pueden utilizar las métricas siguientes (en función de la organización y la configuración del grupo de informes):
 
-   * **Pulsaciones**: cantidad de veces que se define la variable *`s.campaign`* se define.
+   * **Pulsaciones**: cantidad de veces que se define la variable  *`s.campaign`* se define.
 
    * [Nuevos compromisos](https://marketing.adobe.com/resources/help/en_US/mchannel/t_visitor_engagement.html): cantidad de visitantes que han recibido un nuevo canal de primer toque.
    * Todas las métricas de comercio electrónico estándar: ingresos, pedidos, unidades, carros de compra, vistas del carro de compras, cierres de compra, adiciones al carro de compra, eliminaciones del carro de compra.
@@ -34,11 +33,11 @@ El informe de descripción general de canal de marketing está diseñado para of
 
    * **Presupuesto** y **Costo**: métricas específicas para canales de marketing. Consulte [Costes y presupuestos](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_budget.html).
 
-## Propiedades específicas de productos {#section_0C78D294D00942FD9A26D37CB5D645AE}
+## Propiedades específicas de productos  {#section_0C78D294D00942FD9A26D37CB5D645AE}
 
 **Versiones 14 y 15**
 
-This report can be accessed by going to **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Channel Overview Report]** (provided the menu is not customized).
+Para acceder a este informe, vaya a **[!UICONTROL Canales de marketing]** &gt; **[!UICONTROL Informe de descripción general de canal]** (siempre que el menú no esté personalizado).
 
 La segmentación no está disponible en este informe. En su lugar, utilice el [!UICONTROL Canal de primer toque o último toque] o [!UICONTROL Detalles de primer toque o último toque].
 
