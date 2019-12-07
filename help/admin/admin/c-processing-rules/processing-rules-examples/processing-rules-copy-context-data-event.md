@@ -1,12 +1,11 @@
 ---
 description: Las reglas de procesamiento pueden activar eventos basados en variables de datos de contexto.
-solution: Analytics
 subtopic: Processing rules
 title: Definir un evento con una variable de datos de contexto
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,7 +24,7 @@ La lista de [!UICONTROL variables de contexto] incluye todas las variables que s
 
 ![](assets/add-context-variable.png)
 
-La siguiente definición de regla se expande en la regla [Copiar una variable de datos de contexto a una regla eVar](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) para establecer también un evento en cada visita que contenga una variable de datos de contexto específica:
+La siguiente definición de regla se expande en la regla [Copiar una variable de datos de contexto a una eVar](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) para establecer también un evento en cada visita que contenga una variable de datos de contexto específica:
 
 | Conjunto de reglas | Valor |
 |---|---|
