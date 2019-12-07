@@ -1,11 +1,10 @@
 ---
 description: Es posible especificar un intervalo de fechas seleccionando celdas de una hoja de cálculo que contenga una solicitud. El Creador de informes utiliza la información del intervalo de fechas concretas en esas solicitudes. Si selecciona la fecha actual obtendrá datos parciales según la hora del día en que se ejecute la solicitud.
-solution: Analytics
 title: Fechas de una celda
 topic: Report builder
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
