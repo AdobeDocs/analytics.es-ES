@@ -1,11 +1,10 @@
 ---
 description: La métrica Vistas de rutas se basa en los datos de rutas, que se rastrean en todos los usuarios que aceptan cookies persistentes.
-solution: Analytics
 title: Vistas de rutas
 topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ El término [!UICONTROL vista de ruta] se utiliza para indicar la cantidad de ve
 | Usos | Descripción |
 |---|---|
 | Tráfico | No es la duración de una visita completa. Normalmente es una colección de rutas, cada una de las cuales tiene 3 o 4 páginas de longitud. Muestra la frecuencia de visitas en esa ruta en particular. |
-| Conversión | N/A |
+| Conversión | N/D |
 | Ad Hoc Analysis | No es la duración de una visita completa. Normalmente es una colección de rutas, cada una de las cuales tiene 3 o 4 páginas de longitud. Muestra la frecuencia de visitas en esa ruta en particular. |
 
 >[!MORELIKETHIS]
