@@ -1,11 +1,10 @@
 ---
 description: Muestra el dominio o la dirección URL desde donde los visitantes llegaron al sitio, cómo encontraron el sitio web y la cantidad de visitas al sitio provenientes de esas ubicaciones referentes.
-solution: Analytics
 title: Referentes
 topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ Todo dominio o dirección URL que no forme parte de esos dominios y direcciones 
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry"> Reports &amp; Analytics de marketing (SiteCatalyst) </th> 
    <th colname="col3" class="entry"> Análisis específico </th> 
-   <th colname="col4" class="entry"> Almacén de datos </th> 
+   <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr>
  </thead>
  <tbody> 
@@ -64,7 +63,7 @@ Todo dominio o dirección URL que no forme parte de esos dominios y direcciones 
 * La métrica correspondiente se llama Instancia de referente en los Ad Hoc Analysis.
 * Los valores escritos o marcadores no se incluyen en los informes de referentes. Esto quiere decir que las visitas de todo el sitio no coincidirán con las visitas en este informe.
 
-## Historial de informes {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
+## Historial de informes  {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
 <table id="table_9DFA79EC6A5A48648F2FB5418E1752DB"> 
  <thead> 
