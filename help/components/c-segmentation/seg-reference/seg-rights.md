@@ -1,11 +1,10 @@
 ---
 description: La funcionalidad de los segmentos difiere considerablemente entre los usuarios de nivel de administrador y los usuarios que no son administradores.
-solution: Analytics
 title: Derechos de segmentos por función
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ La funcionalidad de los segmentos difiere considerablemente entre los usuarios d
   <tr> 
    <td colname="col1"> <b>Usuarios de nivel de administrador</b> </td> 
    <td colname="col2"> Pueden compartir con toda la empresa, con grupos de usuarios y con usuarios individuales. </td> 
-   <td colname="col3"> <span class="keyword"> Analysis Workspace, Informes y análisis </span>: Puede ver, editar, eliminar, etc. sus propios segmentos y los de otros usuarios. <p> <span class="keyword"> Ad Hoc Analysis</span> y <span class="keyword">Report Builder</span>: pueden ver, editar, eliminar, etc. sus propios segmentos y los que se han compartido con ellos. </p> </td> 
+   <td colname="col3"> <span class="keyword">Analysis Workspace, Reports &amp; Analytics</span>: Pueden ver, editar, eliminar, etc. sus propios segmentos y los de otros usuarios. <p> <span class="keyword"> Ad Hoc Analysis</span> y <span class="keyword">Report Builder</span>: pueden ver, editar, eliminar, etc. sus propios segmentos y los que se han compartido con ellos. </p> </td> 
    <td colname="col4"> Pueden aprobar segmentos como canónicos. </td> 
    <td colname="col5"> Pueden aplicar cualquier segmento en toda la organización. </td> 
   </tr> 
