@@ -1,11 +1,10 @@
 ---
 description: Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las actividades de sitio web internas, las pruebas del sitio y el uso por parte de los empleados, de los informes. La exclusión de datos elimina los datos de las direcciones IP para conseguir mayor precisión en los informes. También es posible eliminar datos de ataques de negación de servicio u otros eventos dañinos que pueden distorsionar los datos de los informes. Puede configurar la exclusión o utilizar el cortafuegos.
-solution: Analytics
 title: Excluir por dirección IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las act
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Excluir por dirección IP]**
 
-> [!NOTE] Las visitas excluidas por dirección IP se facturan como llamadas [](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)al servidor.
+> [!NOTE] Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
 
 ## Excluir por cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -28,7 +27,7 @@ Esta función permite al usuario y a sus compañeros visitar el sitio sin distor
 |--- |--- |
 | [!UICONTROL Agregar CNAME] | Genera un vínculo de no participación con el que puede excluirse un dominio. Para obtener ayuda, póngase en contacto con los usuarios de asistencia técnica de la empresa. <br>Puede excluirse el tráfico para que no quede registrado en los grupos de informes desde la página de exclusión de la empresa, donde puede especificarse la exclusión del explorador de la medición. <br>Si la implementación utiliza cookies de terceros, la página de exclusión estará [aquí](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true). |
 
-> [!NOTE] La exclusión por equipo solo funciona si:
+> [!NOTE] La exclusión por equipo solo funcionará si:
 >
 > * Se accede al sitio web desde la misma estación de trabajo.
 > * Se habilitan las cookies en el explorador en uso.
@@ -41,7 +40,7 @@ Una dirección IP es una dirección de Internet. Todos los usuarios de Internet 
 
 Mediante las direcciones IP, se contabilizan las vistas de página y se identifican los visitantes de página únicos. Si se excluyen de la contabilización algunas direcciones IP, se puede evitar que Adobe realice un seguimiento de los visitantes frecuentes. Esta función permite al usuario y a sus compañeros visitar el sitio sin distorsionar los datos del tráfico. Pueden excluirse hasta 50 direcciones IP diferentes.
 
-Pueden utilizarse indicadores comodín (*) para excluir un intervalo de direcciones. For example, `[!DNL 0.0.*.0]` would exclude all IP addresses between `[!DNL 0.0.0.0]` and `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
+Pueden utilizarse indicadores comodín (*) para excluir un intervalo de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
 
 ## Excluir por servidor de seguridad {#section_3E7BFB71ADD941D39F923DB9557AD9CD}
 
@@ -51,6 +50,6 @@ Consulte el artículo [Direcciones IP utilizadas en Experience Cloud](https://ma
 
 ## Influencia de la confusión de IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
-Si la confusión de IP está habilitada, la exclusión de IP se produce antes de que la dirección IP se confunda, por lo que los clientes no necesitan cambiar nada cuando habilitan la confusión de IP.
+Si la confusión de la IP está habilitada, la exclusión de la IP se produce antes de que la dirección IP se confunda, por lo que los clientes no necesitan cambiar nada cuando habilitan la confusión de la IP.
 
 Si se elimina el último octeto, será antes del filtrado de la IP. Como tal, el último octeto se sustituye por un 0 y las reglas de exclusión de la IP se deben actualizar para coincidir con las direcciones de IP que tengan un cero al final. Un * coincidente debe corresponder a un 0.
