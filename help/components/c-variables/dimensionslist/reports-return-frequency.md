@@ -1,11 +1,10 @@
 ---
-description: Este informe muestra el tiempo que transcurre entre las visitas de los visitantes que retornan y la cantidad de visitas que entran dentro de cada categoría de longitud de tiempo. Use este informe para ver la cantidad de tiempo promedio que pasan los visitantes repetidos sin ir al sitio, y las tendencias que siguen los clientes repetidos.
-solution: Analytics
+description: Este informe muestra el tiempo que transcurre entre las visitas de los visitantes que retornan y la cantidad de visitas que entran dentro de cada categoría de longitud de tiempo. Use este informe para ver la cantidad de tiempo promedio que pasan los visitantes repetidos sin ir al sitio, y las tendencias de los clientes repetidos.
 title: Frecuencia de retorno
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -35,5 +34,5 @@ De manera predeterminada, este informe incluye los siguientes períodos:
 ## Notas {#section_5217B15C081141F9B430DB7D4D61AFE5}
 
 * Este informe no registra visitantes de primera visita, ya que no hay ninguna visita anterior con la que compararla.
-* El intervalo de fecha del informe usa la hora en que se produjo la primera visita. Por ejemplo, un visitante llega al sitio en abril y vuelve dos veces en el mismo día en octubre. Si se extrae un informe de frecuencia de retorno para el mes de octubre, se mostrará una visita en "más de 1 mes" y una visita en "menos de 1 día".
+* El intervalo de fecha del informe usa la hora en que se produjo la primera visita. Por ejemplo, un visitante llega al sitio en abril y vuelve dos veces en el mismo día en octubre. Si se ejecuta un informe de Frecuencia de retorno para el mes de octubre, mostraría una visita en el apartado “hace más de 1 mes” y otra en el apartado “hace menos de 1 día”.
 
