@@ -1,11 +1,10 @@
 ---
 description: Después de ejecutar un informe, puede personalizarlo para ver y analizar los datos según sus necesidades. Puede filtrar los datos de informe, cambiar la forma en que se presentan los datos gráficamente, cambiar la granularidad de la fecha, etc.
-solution: Analytics
 title: Resumen de los informes personalizados
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -164,7 +163,7 @@ Además de la representación gráfica, la tabla del informe proporciona una com
 * Conversión personalizada
 * Tráfico personalizado
 * Target
-* Survey
+* Encuesta
 
 **Para comparar grupos de informes**
 
