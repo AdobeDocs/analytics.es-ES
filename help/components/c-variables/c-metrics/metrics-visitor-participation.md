@@ -1,11 +1,10 @@
 ---
 description: La serie de métricas de participación de visitantes permite ver la participación a lo largo de varias sesiones de visita en canales de marketing, campañas, ingresos, etc. Por ejemplo, el crédito por compras e ingresos se puede atribuir en forma retroactiva a otros puntos de contacto promocionales previos a la visita en la que se realizó el pedido. Ad Hoc Analysis proporciona datos de la participación de los visitantes en diversas visitas.
-solution: Analytics
 title: 'Participación de visitantes: Ad Hoc Analysis'
 topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Al generarse el informe, la asignación de crédito por la conversión es así:
 <table id="table_91A7244E77854838A8392B49366FB445"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Activity Map </th> 
+   <th colname="col1" class="entry"> Página </th> 
    <th colname="col2" class="entry"> Ingresos </th> 
    <th colname="col3" class="entry"> Ingresos (Participación) </th> 
    <th colname="col4" class="entry"> Ingresos (Participación de visitante) </th> 
