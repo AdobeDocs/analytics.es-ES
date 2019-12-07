@@ -1,11 +1,10 @@
 ---
 description: Información general sobre los datos que recopila Adobe Analytics y otras consideraciones de privacidad.
 keywords: privacy
-solution: Analytics
 title: Resumen de privacidad
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -30,7 +29,7 @@ Adobe Analytics recopila los datos siguientes:
 | Consulta de búsqueda en la que el cliente hace clic para acceder a la página del cliente | Sí |
 | Tipo de explorador | Sí |
 | Tipo de dispositivo | Sí |
-| Sistema operativo | Sí |
+| Sistema operativo  | Sí |
 | ISP/velocidad de conexión | Sí |
 | Configuración de pantalla (como tamaño y resolución de pantalla) | Sí |
 | Dirección IP (usada para obtener una ubicación aproximada) | Sí* |
