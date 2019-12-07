@@ -1,11 +1,10 @@
 ---
 description: Además de las opciones de formato de celda estándar disponibles mediante la función de Excel Formato > Celdas (Ctrl+1), es posible aplicar un formato limitado a los rangos de celdas con el Creador de informes. Estas opciones de formato dependen de la métrica seleccionada.
-solution: Analytics
 title: Dar formato a las fechas
 topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ En la siguiente tabla se describe cómo se pueden utilizar las abreviaciones de 
 | M | Número de mes | 3 |
 | MM | Número de mes con margen 0 para meses &lt; 10 | 03 |
 | MMM | Nombre corto del mes | Mar |
-| MMMM | Nombre largo del mes | marzo |
+| MMMM | Nombre largo del mes | Marzo de |
 | D | Nombre largo de la fecha | Miércoles, 14 de marzo, 2012  |
 | d | Número de día | 14 |
 | dd | Número de día con margen 0 para días &lt; 10 | 01 - 09 |
