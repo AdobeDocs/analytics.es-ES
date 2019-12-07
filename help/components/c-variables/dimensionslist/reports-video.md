@@ -1,22 +1,21 @@
 ---
 description: Muestra información sobre las estadísticas de acceso a los medios en línea. Los informes muestran los datos en vídeo y otro acceso a los medios.
-solution: Analytics
 title: Vídeo
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Vídeo
 
-Muestra información sobre las estadísticas de acceso a los medios en línea. Los informes muestran datos sobre vídeo y acceso otros medios.
+Muestra información sobre las estadísticas de acceso a los medios en línea. Los informes muestran los datos en vídeo y otro acceso a los medios.
 
 ## Vídeo {#topic_1D37A51371C74BC3A24996263C38F8E5}
 
-Muestra información sobre las estadísticas de acceso a los medios en línea. Los informes muestran datos sobre vídeo y acceso otros medios.
+Muestra información sobre las estadísticas de acceso a los medios en línea. Los informes muestran los datos en vídeo y otro acceso a los medios.
 
 <table id="table_A032C55365C34F808764965ADF62F81F"> 
  <thead> 
@@ -45,4 +44,4 @@ Muestra información sobre las estadísticas de acceso a los medios en línea. L
  </tbody> 
 </table>
 
-See [Measuring audio and video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+Consulte [Medición de audio y vídeo en Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/). 
