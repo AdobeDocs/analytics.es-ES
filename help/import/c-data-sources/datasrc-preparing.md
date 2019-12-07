@@ -1,12 +1,11 @@
 ---
 description: Pasos que puede seguir como preparación para utilizar fuentes de datos
-solution: Analytics
 subtopic: Data sources
 title: Preparación para el uso de fuentes de datos
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
