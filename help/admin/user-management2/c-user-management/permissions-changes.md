@@ -1,13 +1,12 @@
 ---
 description: 'null'
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Cambios en los permisos de usuarios y grupos
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,13 +15,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** &gt; **[!UICONTROL Herramientas de administración]** &gt; **[!UICONTROL Administración de usuarios]**.
 
-## ¿Qué ha cambiado?{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
+## ¿Qué ha cambiado? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL Administración]** &gt; Administración **[!UICONTROL de usuarios]** &gt; **[!UICONTROL Grupos]**
+**[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuarios]** &gt; **[!UICONTROL Grupos]**
 
-> [!NOTE] Debido al gran número de posibles combinaciones de permisos disponibles, no podemos proporcionar documentación que describa todos los métodos de API que se pueden usar en cada combinación de permisos. Por lo general, los usuarios no administradores a los que se les otorga acceso a Servicios Web tendrán acceso de solo lectura a los métodos API. Por lo tanto, no tendrán acceso de escritura en los métodos.
+> [!NOTE] Debido al alto número de combinaciones de permisos posibles, no se puede proporcionar documentación que describa todos los métodos API que se pueden utilizar en cada combinación de permisos. Por lo general, los usuarios no administradores a los que se les otorga acceso a Servicios Web tendrán acceso de solo lectura a los métodos API. Por lo tanto, no tendrán acceso de escritura en los métodos.
 
 Debido a que la API y la interfaz utilizan el mismo sistema para dar permisos, los permisos que un administrador de la interfaz (Adobe Admin Console) haya concedido a un usuario que no es administrador determinado serán los mismos que este tendrá en la API.
 
@@ -38,7 +37,7 @@ Debido a que la API y la interfaz utilizan el mismo sistema para dar permisos, l
    <td colname="col1"> <p id="reportaccess">Cambios en <span class="uicontrol">Acceso a informes</span> (personalizar grupos) </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Agregar nuevo grupo</span> &gt; <span class="uicontrol">Acceso a informes</span> </p> <p>La sección <span class="wintitle">Acceso a informes</span> en la página <span class="wintitle">Definir grupo de usuarios</span> se ha optimizado para cuatro categorías, lo que permite personalizar permisos a nivel granular. </p> <p><img  src="assets/report-access.png" id="image_CB83E5C7DB4343619421A1FAA61478D0"> </img> </p> <p>Elementos anteriormente en </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Herramientas de Analytics</a>: habilite permisos de usuario para elementos de General (facturación, registros, etc.), Administración de la empresa, Herramientas, Acceso a servicio Web, Report Builder e integración de Data Connectors. </p> <p> <b>Nota</b>: Las configuraciones de empresa de la categoría Personalizar Admin Console se han trasladado a las herramientas de Analytics. </p> </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Herramientas de Analytics</a>: habilite permisos de usuario para elementos de General (facturación, registros, etc.), Administración de la empresa, Herramientas, Acceso a servicio Web, Report Builder e integración de Data Connectors. </p> <p> <b>Nota:</b> Las configuraciones de empresa de la categoría Personalizar Admin Console se han trasladado a las herramientas de Analytics. </p> </li> 
      <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md"> Herramientas del grupo de informes</a>: habilite permisos de usuario para Servicios Web, Administración de grupos de informes, Herramientas e informes y Elementos de tablero. </p> </li> 
      <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md"> Métricas</a>: habilite permisos para tráfico, conversión, eventos personalizados, eventos de soluciones, reconocimiento de contenido, etc. </p> </li> 
      <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Dimensiones</a>: personalice el acceso de los usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas. </p> </li> 
@@ -46,7 +45,7 @@ Debido a que la API y la interfaz utilizan el mismo sistema para dar permisos, l
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cambios en los grupos predefinidos </p> </td> 
-   <td colname="col2"> <p> <b>Acceso de administrador:</b> los grupos predefinidos ya no son obligatorios para los administradores. Los administradores ahora tienen acceso a todos los elementos (herramientas, dimensiones y métricas), al igual que a Acceso a servicio Web, Report Builder, Activity Map y Ad Hoc Analysis. </p> <p>En adelante, el objetivo de los grupos será conceder acceso a los usuarios que no son administradores, o restringirlo. </p> <p> <b>Grupos personalizados:</b> los grupos personalizados han reemplazado a los grupos predefinidos. Los grupos predefinidos existentes se migrarán a grupos personalizados; el nombre del grupo se mantendrá. Se conservarán los grupos personalizados que se hayan podido crear, incluida su configuración. No obstante, observará que la ubicación de los ajustes de configuración ha cambiado. Por ejemplo, los ajustes de configuración de la empresa (en Admin Console personalizado) están ahora en <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizar herramientas de Analytics</a>. </p> <p> Los usuarios que pertenecen a <span class="term"> Acceso</span> a todos los informes se han migrado a un grupo personalizado con acceso a: </p> 
+   <td colname="col2"> <p> <b>Acceso de administrador:</b> los grupos predefinidos ya no son obligatorios para los administradores. Los administradores ahora tienen acceso a todos los elementos (herramientas, dimensiones y métricas), al igual que a Acceso a servicio Web, Report Builder, Activity Map y Ad Hoc Analysis. </p> <p>En adelante, el objetivo de los grupos será conceder acceso a los usuarios que no son administradores, o restringirlo. </p> <p> <b>Grupos personalizados:</b> los grupos personalizados han reemplazado a los grupos predefinidos. Los grupos predefinidos existentes se migrarán a grupos personalizados; el nombre del grupo se mantendrá. Se conservarán los grupos personalizados que se hayan podido crear, incluida su configuración. No obstante, observará que la ubicación de los ajustes de configuración ha cambiado. Por ejemplo, los ajustes de configuración de la empresa (en Admin Console personalizado) están ahora en <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizar herramientas de Analytics</a>. </p> <p> Los usuarios que pertenecen a <span class="term"> Acceso a todos los informes</span> se han migrado a un grupo personalizado con acceso a: </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">Todas las dimensiones </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">Todas las métricas </li> 
@@ -63,7 +62,7 @@ Debido a que la API y la interfaz utilizan el mismo sistema para dar permisos, l
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Se han migrado automáticamente a las nuevas categorías todas las dimensiones y métricas actuales dentro de grupos personalizados. Si un grupo existente tiene métricas habilitadas, se le asignarán todas las dimensiones que puedan recibir permisos por primera vez (eVars y según el contenido) y métricas de forma predeterminada. </p> </li> 
      <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permisos del Importador de clasificaciones (anteriormente, SAINT): el acceso a las clasificaciones viene determinado por el acceso a la <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">variable</a> en la cual se basa la clasificación. </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
+    </ul> <p>Consulte <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Personalizar permisos para dimensiones</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
@@ -89,16 +88,16 @@ Aquí incluimos información importante sobre actualizaciones nuevas y planifica
    <td colname="col2"> <p> <b>Acceso a todos los grupos de informes</b> </p> <p>A la hora de añadir grupos de informes que incluir en un grupo, puede especificar <span class="uicontrol">Acceso a todos los grupos de informes</span>. Esta opción aplica permisos de grupo a todos los grupos de informes actuales o futuros. </p> <p>Para habilitar esta función, vaya a <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Grupos</span> &gt; <span class="uicontrol">Añadir nuevo grupo de usuarios</span> y seleccione <span class="uicontrol">Acceso a todos los grupos de informes</span>. </p> <p><img placement="break"  src="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>¿Debo usar Admin Console para administrar usuarios o la administración de usuarios de Analytics existente? </p> </td> 
-   <td colname="col2"> <p>Los cambios realizados en Analytics &gt; Administración &gt; Administración de usuarios no se reflejan en Admin Console. Por lo tanto, solo los clientes nuevos que ya utilicen Admin Console para la administración de usuarios y grupos deben continuar haciéndolo. Está planeada una migración para la administración de grupos de Analytics existente a Admin Console. </p> </td> 
+   <td colname="col1"> <p>¿Debo usar Admin Console para administrar a los usuarios, o debo usar el sistema existente de administración de usuarios de Analytics? </p> </td> 
+   <td colname="col2"> <p>Los cambios realizados en Analytics &gt; Administración &gt; Administración de usuarios no se reflejan en Admin Console. Por lo tanto, solo deberán seguir utilizándolo los clientes nuevos que ya usan Admin Console para administrar sus usuarios y sus grupos. Se ha planificado la migración de la administración de grupos de Analytics existente a Admin Console. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿Qué cambios se realizaron en la versión de <b>octubre de 2016</b> en cuanto a permisos? </p> </td> 
    <td colname="col2"> <p>Se implementaron las siguientes mejoras con respecto a la interfaz de <span class="wintitle">Herramientas de administración</span>: </p> <p> 
      <ul id="ul_2A31E8DC17A94B7FABDBA9C87C3947EF"> 
-      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">Cambios en los permisos como se describe en Cambios administrativos: Otoño de 2016 <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"></a>. </li> 
+      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">Cambios de permisos como se describe en <a href="/help/admin/user-management2/c-user-management/permissions-changes.md">Cambios administrativos: Otoño de 2016</a>. </li> 
       <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">Se han eliminado los informes de tráfico obsoletos que ya no estaban en el menú. </li> 
-      <li id="li_57234CF27E1D405987DE89312CD62C52">Permisos de clasificación: El acceso a las clasificaciones se determinará mediante el acceso a la variable para la que está la clasificación. </li> 
+      <li id="li_57234CF27E1D405987DE89312CD62C52">Permisos para clasificaciones: El acceso a las clasificaciones vendrá determinado por el acceso a la variable para la que sea la clasificación. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -124,7 +123,7 @@ Aquí incluimos información importante sobre actualizaciones nuevas y planifica
 
 En la tabla siguiente se muestran distintas tareas y dónde pueden llevarse a cabo (dependiendo del estado de la empresa).
 
-> [!NOTE] Consulte *`migrated user`* y *`Experience Cloud user`* los usuarios que han aceptado una invitación por correo electrónico para unirse a Experience Cloud. Si no se acepta la invitación por correo electrónico, los usuarios seguirán siendo usuarios de Analytics y no se podrán administrar en Admin Console. (Una excepción es cuando se produce la migración mediante [un Federated ID o un Enterprise ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html). En este caso, el usuario se migra cuando el administrador migra a los usuarios uno a uno).
+> [!NOTE] *`migrated user`* y *`Experience Cloud user`* hacen referencia a usuarios que han aceptado una invitación por correo electrónico para unirse a Experience Cloud. Si no se acepta la invitación por correo electrónico, los usuarios seguirán siendo usuarios de Analytics y no podrán gestionarse desde Admin Console. (Una excepción es cuando se produce la migración mediante [un Federated ID o un Enterprise ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html). En este caso, el usuario se migra cuando el administrador migra a los usuarios uno a uno).
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
@@ -138,21 +137,21 @@ En la tabla siguiente se muestran distintas tareas y dónde pueden llevarse a ca
  <tbody> 
   <tr> 
    <td colname="col1"> Crear un usuario </td> 
-   <td colname="col2"> <p>Admin Console (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Herramientas de administración</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Consola de administración</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Consola de administración</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (al crear un usuario y agregarlo a una <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">configuración de producto</a> de Analytics, se crea también la cuenta de usuario en Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Herramientas de administración</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Editar un usuario </td> 
    <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> Herramientas de administración</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Consola de administración</a> </p> <p> Herramientas de administración: la edición en las herramientas de administración para usuarios migrados se limita a la administración de claves de API y a eliminar o transferir recursos. </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Consola de administración</a> </p> <p> Herramientas de administración: la edición se limita a la administración de claves de API y a eliminar y transferir recursos. </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> Herramientas de administración: la edición en las herramientas de administración para usuarios migrados se limita a la administración de claves de API y a eliminar o transferir recursos. </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> Herramientas de administración: la edición se limita a la administración de claves de API y a eliminar y transferir recursos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Eliminar un usuario </td> 
-   <td colname="col2"> <p>Admin Console: para usuarios de Experience Cloud </p> <p>Herramientas de administración: para todos los usuarios, pero para los usuarios de Experience Cloud solo elimina el usuario de Analytics asignado, no la cuenta de Experience Cloud. </p> </td> 
-   <td colname="col3"> <p>Consola de administración: para usuarios migrados. </p> <p>Herramientas de administración: para usuarios solo de Analytics. </p> </td> 
-   <td colname="col4"> <p>Admin Console </p> <p> Herramientas de administración: después de eliminar un usuario de Experience Cloud o desvincular su cuenta en Admin Console, puede eliminar el inicio de sesión de Analytics desde las Herramientas de administración. </p> </td> 
+   <td colname="col2"> <p>Admin Console para usuarios de Experience Cloud </p> <p>Herramientas de administración: para todos los usuarios, pero para los usuarios de Experience Cloud solo elimina el usuario de Analytics asignado, no la cuenta de Experience Cloud. </p> </td> 
+   <td colname="col3"> <p>Admin Console para usuarios migrados. </p> <p>Herramientas de administración: para usuarios solo de Analytics. </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> <p> Herramientas de administración: Tras eliminar un usuario de Experience Cloud, o desvincular su cuenta en Admin Console, podrá eliminar el inicio de sesión en Analytics desde las Herramientas de administración. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Iniciar sesión en Analytics </td> 
@@ -162,32 +161,32 @@ En la tabla siguiente se muestran distintas tareas y dónde pueden llevarse a ca
   </tr> 
   <tr> 
    <td colname="col1"> Crear un grupo </td> 
-   <td colname="col2"> <p>Consola de administración: cuando se crea un grupo en Admin Console, aparecerá un grupo asignado en Analytics en las Herramientas de administración, pero este grupo asignado no podrá cambiar su nombre desde las Herramientas de administración ni eliminarlo de las Herramientas de administración. </p> <p>Herramientas de administración. </p> </td> 
-   <td colname="col3"> <p>Consola de administración (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> crear configuración</a>de producto) </p> </td> 
-   <td colname="col4"> <p>Consola de administración (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> crear configuración</a>de producto) </p> </td> 
+   <td colname="col2"> <p>Admin Console: Cuando se cree un grupo en Admin Console, aparecerá un grupo asignado en Analytics en las Herramientas de administración, si bien no se podrá cambiar el nombre de este grupo asignado desde las Herramientas de administración, ni tampoco se podrá eliminar de las Herramientas de administración. </p> <p>Herramientas de administración. </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">crear configuración de producto</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">crear configuración de producto</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Editar usuarios en un grupo </td> 
-   <td colname="col2"> <p>Admin Console: solo para usuarios de Experience Cloud </p> <p>Herramientas de administración: desde las herramientas de administración se puede editar la pertenencia de los usuarios solo de Analytics y de los usuarios de Experience Cloud a grupos. Sin embargo, si un usuario de Experience Cloud forma parte de un grupo en Admin Console, no se puede quitar del grupo en las Herramientas de administración. </p> </td> 
-   <td colname="col3"> <p>Admin Console: solo usuarios de Experience Cloud </p> <p> Herramientas de administración: en las herramientas de administración se siguen pudiendo agregar o eliminar de los grupos los inicios de sesión solo en Analytics. </p> </td> 
+   <td colname="col2"> <p>Admin Console: Solo para usuarios de Experience Cloud </p> <p>Herramientas de administración: desde las herramientas de administración se puede editar la pertenencia de los usuarios solo de Analytics y de los usuarios de Experience Cloud a grupos. No obstante, si un usuario de Experience Cloud forma parte de un grupo en Admin Console, no podrá eliminarse del grupo en las Herramientas de administración. </p> </td> 
+   <td colname="col3"> <p>Admin Console: Solo usuarios de Experience Cloud </p> <p> Herramientas de administración: en las herramientas de administración se siguen pudiendo agregar o eliminar de los grupos los inicios de sesión solo en Analytics. </p> </td> 
    <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Editar permisos para un grupo </td> 
-   <td colname="col2"> <p>Consola de administración: puede editar los grupos creados en la Consola de administración. </p> <p>Herramientas de administración: puede editar permisos para cualquier grupo. </p> </td> 
-   <td colname="col3"> <p>Consola de administración </p> </td> 
-   <td colname="col4"> <p>Consola de administración </p> </td> 
+   <td colname="col2"> <p>Admin Console: Puede editar los grupos creados en Admin Console. </p> <p>Herramientas de administración: puede editar permisos para cualquier grupo. </p> </td> 
+   <td colname="col3"> <p>Admin Console </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Eliminar un grupo </td> 
-   <td colname="col2"> <p>Consola de administración: solo puede eliminar grupos creados en la Consola de administración. </p> <p>Herramientas de administración: puede eliminar solo los grupos creados desde las herramientas de administración. </p> </td> 
-   <td colname="col3"> <p>Consola de administración </p> </td> 
-   <td colname="col4"> <p>Consola de administración </p> </td> 
+   <td colname="col2"> <p>Admin Console: Solo puede eliminar grupos creados en Admin Console. </p> <p>Herramientas de administración: puede eliminar solo los grupos creados desde las herramientas de administración. </p> </td> 
+   <td colname="col3"> <p>Admin Console </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cambiar el estado de administración de un usuario </td> 
-   <td colname="col2"> <p>Admin Console: solo para usuarios de Experience Cloud. </p> <p>Herramientas de administración </p> </td> 
-   <td colname="col3"> <p>Admin Console: solo para usuarios de Experience Cloud. </p> <p>Herramientas de administración: solo para usuarios de Analytics. </p> </td> 
+   <td colname="col2"> <p>Admin Console: Solo para usuarios de Experience Cloud. </p> <p>Herramientas de administración </p> </td> 
+   <td colname="col3"> <p>Admin Console: Solo para usuarios de Experience Cloud. </p> <p>Herramientas de administración: solo para usuarios de Analytics. </p> </td> 
    <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
  </tbody> 
