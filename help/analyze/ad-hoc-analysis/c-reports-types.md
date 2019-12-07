@@ -1,11 +1,10 @@
 ---
 description: Descripción de los tipos de informes usados en Experience Cloud.
-solution: Analytics
 title: Tipos de informes
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -119,7 +118,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-Por ejemplo, si se tienen datos específicos en diferentes servidores, o los mismos datos duplicados en servidores separados, el informe muestra la trayectoria que siguieron los usuarios. Esto también se aplica a los dominios dentro del sitio web. For example, you can see how many users went from a `https://www.mysite.com` to `https://info.mysite.com` or `https://sales.mysite.com`.
+Por ejemplo, si se tienen datos específicos en diferentes servidores, o los mismos datos duplicados en servidores separados, el informe muestra la trayectoria que siguieron los usuarios. Esto también se aplica a los dominios dentro del sitio web. Se puede ver cuántos usuarios fueron de `https://www.mysite.com` a `https://info.mysite.com` o `https://sales.mysite.com`.
 
 ## Flujo de sección siguiente {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -170,7 +169,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Por ejemplo, si se tienen datos específicos en diferentes servidores, o los mismos datos duplicados en servidores separados, el informe muestra la trayectoria que siguieron los usuarios. Esto también se aplica a los dominios dentro del sitio web. For example, you can see how many users went from a `www.mysite.com` to `info.mysite.com` or `sales.mysite.com`.
+Por ejemplo, si se tienen datos específicos en diferentes servidores, o los mismos datos duplicados en servidores separados, el informe muestra la trayectoria que siguieron los usuarios. Esto también se aplica a los dominios dentro del sitio web. Se puede ver cuántos usuarios fueron de `www.mysite.com` a `info.mysite.com` o `sales.mysite.com`.
 
 ## Informes de canal de conversión {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
