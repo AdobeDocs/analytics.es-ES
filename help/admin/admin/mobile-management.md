@@ -1,11 +1,10 @@
 ---
 description: Al habilitar la administración de móviles se activan las variables de soluciones móviles, que capturan el ciclo de vida y otras métricas de aplicaciones móviles.
-solution: Analytics
 title: Administración de móviles
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ Esta integración entre Adobe Analytics y Mobile Services:
 * Añade nuevas dimensiones de Adobe Mobile.
 * Sincroniza datos con Analytics cada 15 minutos.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **** de informes &gt; **[!UICONTROL Editar configuración]** &gt; Administración **** móvil &gt; Informes de aplicaciones **** móviles.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Administración de móviles]** &gt; **[!UICONTROL Informes de aplicaciones móviles]**.
 
 ## Paso 1. Habilitar Informes de aplicaciones {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -48,8 +47,8 @@ Activar el seguimiento de ubicación le permite:
 
 Habilitar las visitas en segundo plano (las generadas cuando la aplicación está en segundo plano) significa que estas se tratan como visitas en primer plano normales. Ahora aparecen en los informes regulares, lo que también afecta a la atribución. Esta configuración solo suele ser deseable para mantener la coherencia con implementaciones anteriores.
 
-Instead, we recommend that you "include background hits" in a [virtual report suite](/help/components/vrs/vrs-about.md). Esto le permite ver las visitas, pero no afecta negativamente a su recuento y al de visitantes.
-Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+Lo recomendable es “incluir las visitas en segundo plano” en un [grupos de informes virtuales](/help/components/vrs/vrs-about.md). Esto le permite ver las visitas, pero no afecta negativamente a su recuento y al de visitantes.
+Las clasificaciones móviles se habilitan cuando se activa la opción **[!UICONTROL Administración de móviles]** &gt; **[!UICONTROL Informes de aplicaciones móviles]**.
 
 Las clasificaciones sirven para categorizar los valores en grupos y realizar informes sobre el nivel del grupo. Por ejemplo, puede clasificar todas las campañas de Búsqueda pagada en una categoría como “términos de música pop” e informar sobre el éxito de esa categoría respecto a métricas como Instancias (o pulsaciones) y la conversión en eventos exitosos.
 
