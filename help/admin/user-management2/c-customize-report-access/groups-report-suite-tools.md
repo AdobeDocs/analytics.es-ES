@@ -1,13 +1,12 @@
 ---
 description: Habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: Personalizar herramientas de grupos de informes
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,11 +15,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** &gt; **[!UICONTROL Herramientas de administración]** &gt; **[!UICONTROL Administración de usuarios]**.
 
 Habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero.
 
-**[!UICONTROL Administración]** de usuarios &gt; **[!UICONTROL Grupos]** &gt; Acceso **[!UICONTROL a]** informes &gt; Herramientas **[!UICONTROL de grupos de]** informes &gt; **[!UICONTROL Personalizar]**
+**[!UICONTROL Administración de usuarios]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Acceso a informes]** &gt; **[!UICONTROL Herramientas del grupo de informes]** &gt; **[!UICONTROL Personalizar]**
 
 La página [!UICONTROL Personalizar herramientas del grupo de informes] concede a los miembros de un grupo acceso a los elementos que siguen.
 
@@ -34,17 +33,17 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 |--- |--- |
 | **Servicios Web** |  |
 | Estas opciones permiten a los usuarios hacer llamadas al método de Data Warehouse y extraer ajustes de configuración de grupos de informes. |  |
-| Data Warehouse | Permite que un usuario no administrador realice llamadas mediante los métodos del almacén de datos mediante la API de servicios Web. See [Data Warehouse - Developer Documentation](/help/export/data-warehouse/data-warehouse.md) |
+| Data Warehouse | Permite a los usuarios que no son administradores hacer llamadas mediante los métodos de Data Warehouse por medio de la API de Servicios Web. Consulte [Data Warehouse: Documentación para desarrolladores](/help/export/data-warehouse/data-warehouse.md) |
 | Grupos de informes (lectura) | Permite a los usuarios que no son administradores utilizar los métodos de grupos de informes en la API. |
 | Grupos de informes (escritura) | Permite a los usuarios que no son administradores utilizar los métodos de grupos de informes en la API. |
 | **Administración de grupos de informes** |  |
-| These settings grant access to the menu items in  Admin &gt;  Report Suites  &gt;  Edit Settings ([Report Suite Manager](/help/admin/c-manage-report-suites/report-suites-admin.md)). |  |
+| Estas opciones otorgan acceso a los elementos de menú dentro de Administración &gt; Grupos de informes &gt; Editar configuración ([Administrador de grupos de informes](/help/admin/c-manage-report-suites/report-suites-admin.md)) |  |
 | [Administración del tráfico](/help/admin/c-traffic-management/traffic-management.md) | Otorga permiso a Administración del tráfico. |
 | [Administración de grupos de informes](/help/admin/c-manage-report-suites/report-suites-admin.md) | Concede permiso para administrar grupos de informes. |
 | [Resumen de la cuenta](/help/admin/admin/general-acct-settings-admin.md) | Concede permiso para editar configuración de la cuenta para un grupo de informes. |
 | [Filtros de dirección URL](/help/admin/admin/internal-url-filter-admin.md) | Concede permiso para acceder a los filtros de URL internos en los grupos de informes. Los filtros de URL internos se utilizan para determinar qué referentes (o páginas de referentes) son internos del sitio. |
 | [Calendario personalizado](/help/admin/admin/custom-calendar.md) | Otorga permiso para editar el calendario personalizado. |
-| [Búsqueda pagada](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) | La detección de búsqueda de pago diferencia entre búsquedas pagadas y naturales en los informes Motores de búsqueda y Palabras clave de búsqueda. |
+| [Búsqueda de pago](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html) | La detección de búsqueda de pago diferencia entre búsquedas pagadas y naturales en los informes Motores de búsqueda y Palabras clave de búsqueda. |
 | [Personalización de menús](/help/admin/admin/customize-menus.md) | Personalice los menús de los informes que ve un usuario en Reports &amp; Analytics. |
 | [Configuración de informes en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Permisos para configurar análisis de informes en tiempo real. |
 | [Configuración de vídeo](/help/admin/admin/video-management.md) | Permisos para designar un conjunto de variables de conversión personalizadas (eVars) y de eventos personalizados para utilizarlos para hacer rastreos y generar informes en vídeo. |
@@ -59,7 +58,7 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | [Visitante único](https://marketing.adobe.com/resources/help/en_US/reference/t_unique_visitor_variable.html) | Otorga permiso para especificar la variable de visitante único. |
 | [Eventos de éxito](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html) | Acciones que se pueden rastrear, como visualizaciones de productos, cierres de compra y adquisiciones. |
 | [Jerarquías de clasificación](/help/components/c-classifications2/classification-hierarchies.md) | Consolidado en clasificaciones (en Herramientas e informes). |
-| [Variables de lista](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) | También se conoce como List Var. Similar a cómo funcionan las props de lista, las variables de lista permiten incluir varios valores dentro de la misma solicitud de imagen. |
+| [Variables de lista ](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) | También se conoce como List Var. Similar a cómo funcionan las props de lista, las variables de lista permiten incluir varios valores dentro de la misma solicitud de imagen. |
 | [Medidas predeterminadas](/help/admin/admin/default-metrics.md) | Reports &amp; Analytics muestra un conjunto predeterminado de métricas en todos los informes de conversión, a menos que algún usuario seleccione un conjunto personalizado de métricas. Las medidas seleccionadas se muestran a todos los usuarios del grupo de informes asociado. |
 | [Reglas de procesamiento](https://marketing.adobe.com/resources/help/en_US/sc/implement/ref-processing-rules.html) | Concede acceso a las reglas de procesamiento, lo que simplifica la recopilación de datos y gestiona el contenido al enviarlo a los informes. |
 | **Herramientas e informes** |  |
@@ -77,9 +76,9 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | [Visitas de retorno](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Informe que muestra el número de visitas en las que el número de visitas es mayor que 1. El informe de visitas de retorno incluye visitantes sin cookies. |
 | [Importador/Exportador de clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) y [Generador de reglas](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | Consolidado en clasificaciones (ver más adelante). |
 | Administrador de fuentes de datos | Concede derechos a la Fuente de datos de Analytics. |
-| Clasificaciones | Combina los siguientes permisos: 'Clasificaciones de tráfico', 'Clasificaciones de vídeo', 'Clasificaciones de conversión', 'Jerarquías de clasificación', 'Administrador de clasificaciones' e 'Importador/Exportador de clasificaciones y Generador de reglas'.  Nota: Con este permiso, los usuarios pueden editar las clasificaciones de todos los grupos de informes, no solo los seleccionados. |
+| Clasificaciones | Combina los siguientes permisos: “Clasificaciones de tráfico”, “Clasificaciones de vídeo”, “Clasificaciones de conversión”, “Jerarquías de clasificación”, “Administrador de clasificaciones” e “Importador/Exportador de clasificaciones y Generador de reglas”.  Nota: Con este permiso, los usuarios pueden editar las clasificaciones de todos los grupos de informes, no solo los seleccionados. |
 | [Análisis de contribución](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | Concede permisos para utilizar los análisis de contribución en Analysis Workspace. |
 | **Elementos de tablero** |  |
-| La configuración de Elementos de tablero permite acceder a [informes breves](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) en Informes y análisis:, Mis informes recomendados, Informe breve de resumen de la empresa, Imagen, Informe breve de KPI/medición, Totales de grupos de informes, Texto, Informe breve, Informe breve de resumen de uso y Recursos Web |  |
+| La configuración de Elementos de panel le permite acceder a [informes breves](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) en Reports &amp; Analytics:, Mis informes recomendados, Informe breve de resumen de la empresa, Imagen, Informe breve de KPI/medición, Totales de grupos de informes, Texto, Informe breve, Informe breve de resumen de uso y Recursos web |  |
 | **Otro** |  |
 | Social | Controla el acceso al menú Administración social en el Administrador de grupos de informes. |
