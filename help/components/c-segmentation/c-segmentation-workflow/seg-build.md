@@ -1,11 +1,10 @@
 ---
 description: El Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
-solution: Analytics
 title: Generar segmentos
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: a50b08cba865b61bc647ba6af9e678ef8edfe3bc
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
