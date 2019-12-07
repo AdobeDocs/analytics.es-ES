@@ -1,19 +1,18 @@
 ---
-description: Cómo utilizar las métricas en los informes de canal de mercadotecnia.
-solution: Analytics
+description: Cómo utilizar las métricas en los informes de canal de marketing.
 subtopic: Marketing channels
 title: Métricas utilizadas en los informes de canales de marketing
 topic: Reports and analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Métricas utilizadas en los informes de canales de marketing
 
-Cómo utilizar las métricas en los informes de canal de mercadotecnia.
+Cómo utilizar las métricas en los informes de canal de marketing.
 
 ![](assets/metric_edit_icon.png)
 
@@ -25,9 +24,9 @@ Agregue una columna al informe.
 
 ## Métricas de primer y último toque {#first-and-last-touch}
 
-El primer toque y el último toque son atributos de canal que permiten ver cuántas participaciones nuevas (o datos de métricas como vistas de productos, ingresos y pedidos) resultan de la actividad de un visitante en el canal.
+Primer y último toque son atributos de canal que permiten ver cuánto compromiso (o datos de métricas como vistas de productos, ingresos y pedidos) se genera a partir de la actividad de un visitante en el canal.
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). Se anotan tanto el primer canal por el que entró el usuario, como el canal más reciente. A continuación, se otorga crédito del evento de éxito a los canales correspondientes.
+Cuando se produce un evento de éxito, Analytics observa toda la actividad y el historial del visitante (hasta la [caducidad de la participación del visitante](/help/components/c-marketing-channels/visitor-engagement.md)). Se anotan tanto el primer canal por el que entró el usuario, como el canal más reciente. A continuación, se otorga crédito del evento de éxito a los canales correspondientes.
 
 <!-- 
 
@@ -59,7 +58,7 @@ Cada instancia de evento de éxito tendrá exactamente un canal de primer toque 
 
 > [!NOTE] Este informe utiliza la versión de primer toque o último toque de cada métrica. Por ello, es posible que los datos que se muestran en un informe [!UICONTROL Canal de mercadotecnia] no coincidan con los datos de otros informes.
 
-## Metric definitions {#metric-defs}
+## Definiciones de métricas {#metric-defs}
 
 | Métrica | Definición |
 |--- |--- |
@@ -92,7 +91,7 @@ Agregue métricas a un informe de canal de mercadotecnia. Puede agregar hasta cu
 
    ![](assets/metric_edit_icon.png)
 
-1. En [!UICONTROL Métricas disponibles], arrastre y suelte las métricas desde la sección [!UICONTROL Métricas disponibles] hasta la sección [!UICONTROL Métricas seleccionadas.]
+1. En [!UICONTROL Métricas disponibles], arrastre y suelte las métricas desde la sección [!UICONTROL Métricas disponibles] hasta la sección [!UICONTROL Métricas seleccionadas].
 
    ![Resultado (](assets/metric_create.png)
 
