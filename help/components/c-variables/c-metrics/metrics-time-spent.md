@@ -1,10 +1,9 @@
 ---
 description: Adobe Analytics ofrece varias métricas y dimensiones de Tiempo empleado. Averigüe qué son y cómo se calculan.
-solution: Analytics
 title: Tiempo empleado
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,8 +17,8 @@ Los productos de Adobe Analytics ofrecen varias métricas y dimensiones [!UICONT
 | Métrica | Definición | Disponible en |
 |---|---|---|
 | [!UICONTROL Segundos totales empleados] | Representa el tiempo total que los visitantes interactúan con un elemento de dimensión específico. Incluye la instancia de un valor y la persistencia en todas las visitas posteriores. En el caso de las props, el tiempo empleado también se cuenta en los eventos de vínculo siguientes. | Analysis Workspace, Informes y análisis, Creador de informes (llamado "tiempo total empleado"), Almacén de datos, Análisis específicos |
-| [!UICONTROL Tiempo empleado por visita] (segundos) | *Segundos totales empleados / (devoluciones de visita)*<br>Representa la cantidad promedio de tiempo que los visitantes interactúan con un elemento de dimensión específico durante cada visita. | Analysis Workspace, Informes y análisis, Análisis específicos |
-| [!UICONTROL Tiempo empleado por visitante] (segundos) | *Segundos totales empleados /*<br>visitante únicoRepresenta la cantidad promedio de tiempo que los visitantes interactúan con un elemento de dimensión específico durante toda la vida del visitante (la duración de la cookie). | Analysis Workspace, Informes y análisis, Análisis específicos |
+| [!UICONTROL Tiempo empleado por visita] (segundos) | *Segundos totales empleados / (devoluciones de visita)*<br>Representa la cantidad promedio de tiempo que los visitantes interactúan con un elemento de dimensión específico durante cada visita. | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
+| [!UICONTROL Tiempo empleado por visitante] (segundos) | *Segundos totales empleados /*<br>visitante únicoRepresenta la cantidad promedio de tiempo que los visitantes interactúan con un elemento de dimensión específico durante toda la vida del visitante (la duración de la cookie). | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
 | [!UICONTROL Tiempo promedio empleado en el sitio] (segundos) | Representa el tiempo total que los visitantes interactúan con un elemento de dimensión específico, por secuencia con un elemento de dimensión. No se limita al promedio del “sitio”, como su nombre sugiere. Consulte la sección "Cómo se calcula el tiempo empleado" para obtener más información sobre las secuencias.<br>**Nota**: Es muy probable que esta métrica difiera de 'Tiempo empleado por visita' en un nivel de elemento de dimensión debido a las diferencias en el denominador en el cálculo. | Analysis Workspace, Informes y análisis (se muestra en minutos), Creador de informes (se muestra en minutos), Análisis específicos |
 | [!UICONTROL Tiempo promedio empleado en la página] | Métrica obsoleta.<br> En su lugar, se recomienda utilizar "Tiempo promedio empleado en el sitio" si se necesita tiempo promedio para un elemento de dimensión. | Report Builder (cuando hay una dimensión en la solicitud) |
 | [!UICONTROL Duración]total de la sesión, también conocida como Duración de la sesión [!UICONTROL anterior] | Solo SDK de aplicaciones móviles. <br>Se determina para la sesión anterior la próxima vez que se inicia la aplicación. Esta métrica se calcula en segundos y no cuenta cuando la aplicación se encuentra en segundo plano, solo cuando está en uso. Es una métrica de nivel de sesión.<br>Ejemplo: Instalamos la aplicación ABC, la iniciamos y la usamos durante 2 minutos y luego la cerramos. No se envían datos sobre la hora de esta sesión. The next time we launch the app, [!UICONTROL Previous Session Length] will be sent with a value of 120. | Analysis Workspace, Informes y análisis, Creador de informes, Interfaz de usuario de Mobile Services |
@@ -32,7 +31,7 @@ Los productos de Adobe Analytics ofrecen varias métricas y dimensiones [!UICONT
 | [!UICONTROL Tiempo empleado por visita (granular)] | El tiempo total empleado durante la visita, truncado al segundo más cercano y aplicado a todas las visitas individuales que formaron parte de la visita. Es una dimensión de nivel de visita. | Analysis Workspace, Análisis específicos |
 | [!UICONTROL Tiempo empleado por visita - General] | La dimensión granular, agrupada en 9 intervalos distintos. Es una dimensión de nivel de visita. Los intervalos son:<ul><li>Menos de 1 minuto</li><li>1 a 5 minutos</li><li>5 a 10 minutos</li><li>10 a 30 minutos</li><li>30 a 60 minutos</li><li>1 a 2 horas</li><li>2 a 5 horas</li><li>5 a 10 horas</li><li>10 a 15 horas</li></ul>**Nota**: No puede haber bloques superiores a esto, ya que una visita caduca después de 12 horas de actividad. | Analysis Workspace, Informes y análisis, Creador de informes, Análisis específicos |
 | [!UICONTROL Tiempo empleado en la página (granular)] | El tiempo total empleado en cada visita individual, truncado al segundo más cercano. Se trata de una dimensión de nivel de visita individual que incluye vistas de página y eventos de vínculo. A pesar de su nombre, no se limita a la dimensión "página". | Analysis Workspace, Análisis específicos |
-| [!UICONTROL Tiempo empleado en la página (general)] | La dimensión granular, agrupada en 10 intervalos distintos; sin embargo, la dimensión agrupada solo cuenta vistas de página (y excluye los eventos de vínculo). Es una dimensión de nivel de visita individual. Los intervalos son:<ul><li>menos de 15 segundos</li><li>de 15 a 29 segundos</li><li>de 30 a 59 segundos</li><li>de 1 a 3 minutos</li><li>de 3 a 5 minutos</li><li>de 5 a 10 minutos</li><li>de 10 a 15 minutos</li><li>de 15 a 20 minutos</li><li>de 20 a 30 minutos</li><li>más de 30 minutos</li></ul> | Analysis Workspace, Informes y análisis, Análisis específicos |
+| [!UICONTROL Tiempo empleado en la página (general)] | La dimensión granular, agrupada en 10 intervalos distintos; sin embargo, la dimensión agrupada solo cuenta vistas de página (y excluye los eventos de vínculo). Es una dimensión de nivel de visita individual. Los intervalos son:<ul><li>menos de 15 segundos</li><li>de 15 a 29 segundos</li><li>de 30 a 59 segundos</li><li>de 1 a 3 minutos</li><li>de 3 a 5 minutos</li><li>de 5 a 10 minutos</li><li>de 10 a 15 minutos</li><li>de 15 a 20 minutos</li><li>de 20 a 30 minutos</li><li>más de 30 minutos</li></ul> | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
 
 ## Cálculo del tiempo empleado
 
@@ -95,7 +94,7 @@ Supongamos que el siguiente conjunto de llamadas de servidor es para un único v
 |---|---|---|---|---|---|---|---|
 | **Tiempo de visita transcurrido (en segundos)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Segundos empleados** | 30 | 50 | 100 | 10 | 40 | 60 | - |
-| **Tipo de visita** | Activity Map | Vínculo | Activity Map | Activity Map | Activity Map | Activity Map | Activity Map |
+| **Tipo de visita** | Página | Vínculo | Página | Página | Página | Página | Página |
 | **Nombre de la página** | Página principal | - | Producto | Página principal | Página principal (recarga) | Carro de compras | Confirmación del pedido |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (configurado) | A (propagado hacia delante) | sin configurar | B (conjunto) | B (conjunto) | A(configurado) | C (configurado) |
