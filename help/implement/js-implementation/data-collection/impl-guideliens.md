@@ -1,12 +1,11 @@
 ---
 description: Al seguir estas directrices se usan los mismos dominios de cookies, lo que permite realizar el seguimiento de las visitas en diferentes tipos de implementaciones.
 keywords: Analytics Implementation
-solution: Analytics
 title: Directrices de implementación
 topic: Developer and implementation
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
