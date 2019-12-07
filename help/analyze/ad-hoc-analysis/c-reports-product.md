@@ -1,11 +1,10 @@
 ---
 description: Muestran información sobre los productos que se venden, distribuyen o muestran en el sitio web. Se pueden ver los datos sobre los pedidos o las descargas de los productos, aplicaciones o contenido.
-solution: Analytics
 title: Informes de productos
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,9 +23,9 @@ c_reports_products_conv_funnel.xml
 
  -->
 
-Para agregar métricas y eventos personalizados de otros grupos de informes, haga clic en un vínculo de **[!UICONTROL Eventos seleccionados]en el encabezado del informe.**
+Para agregar métricas y eventos personalizados de otros grupos de informes, haga clic en un vínculo de **[!UICONTROL Eventos seleccionados]** en el encabezado del informe.
 
-Debido a que cuando se ven los datos aún no se han completado los períodos de tiempo actuales, este informe puede indicar una tendencia descendente desde el período anterior al actual. Por ejemplo: hoy puede haber menos visitas que ayer, pero sólo porque las estadísticas de los demás períodos aún no han sido calculadas.
+Debido a que cuando se ven los datos aún no se han completado los períodos de tiempo actuales, este informe puede indicar una tendencia descendente desde el período anterior al actual. Por ejemplo, es probable que hoy haya menos visitas que ayer pero solo porque las estadísticas de los demás períodos aún no han sido calculadas.
 
 ## Categorías {#concept_3260EE45B2164E478E8A90E046D078AB}
 
@@ -36,4 +35,4 @@ c_reports_categories.xml
 
  -->
 
-Muestra cómo varias categorías de productos afectan las métricas de éxito del sitio.
+Muestran cómo las diversas categorías de productos influyen sobre las métricas de éxito del sitio.
