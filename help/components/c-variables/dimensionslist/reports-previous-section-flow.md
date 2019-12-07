@@ -1,11 +1,10 @@
 ---
 description: El informe de flujo de sección anterior es similar al de flujo de página anterior. Muestra datos relacionados con secciones del sitio (grupos de páginas web relacionadas). Si una página está incluida en más de una sección del sitio, el informe muestra los datos de todas las secciones del sitio que la incluyan.
-solution: Analytics
 title: Flujo de sección anterior
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
