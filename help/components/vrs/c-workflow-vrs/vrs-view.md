@@ -1,12 +1,11 @@
 ---
 description: Haga clic en el icono i (Información) junto al nombre del grupo de informes para obtener información sobre él.
 keywords: Virtual Report Suite
-solution: Analytics
 title: Visualización de la información del grupo de informes virtuales
 topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Haga clic en el icono i (Información) junto al nombre del grupo de informes para obtener información sobre él.
 
-## En el selector de grupos de informes {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
+## En el selector de grupos de informes  {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
 
 Hacer clic en el icono Información junto al grupo de informes virtuales en el selector de grupos de informes proporciona esta información:
 
