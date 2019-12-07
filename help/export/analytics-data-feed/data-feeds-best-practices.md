@@ -1,11 +1,10 @@
 ---
 description: 'A continuación se indican algunas de las prácticas recomendadas para el procesamiento y la entrega de una fuente de datos. Recomendaciones '
 keywords: Data Feed;best practices;traffic spike;hourly;ftp
-solution: Analytics
 title: Prácticas recomendadas e información general
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
