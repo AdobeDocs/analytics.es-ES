@@ -1,13 +1,12 @@
 ---
 description: Personalice los permisos de grupo a las herramientas de Analytics, las herramientas de grupos de informes, las métricas y las dimensiones.
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: 'Personalizar el acceso a los informes: Resumen'
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,11 +15,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** &gt; **[!UICONTROL Herramientas de administración]** &gt; **[!UICONTROL Administración de usuarios]**.
 
 Personalice los permisos de grupo a las herramientas de Analytics, las herramientas de grupos de informes, las métricas y las dimensiones.
 
-**[!UICONTROL Agregar nuevo grupo]** &gt; Acceso a **[!UICONTROL informes]**
+**[!UICONTROL Agregar nuevo grupo]** &gt; **[!UICONTROL Acceso a informes]**
 
 La sección [!UICONTROL Acceso a informes] de la página [!UICONTROL Definir grupo de usuarios] proporciona acceso a categorías que le permiten personalizar permisos en un nivel granular.
 
@@ -44,7 +43,7 @@ Por ejemplo, puede crear un grupo con acceso a varias herramientas de Analytics 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grupos personalizados </p> </td> 
-   <td colname="col2"> <p> Los grupos personalizados han reemplazado a los grupos predefinidos. Los grupos predefinidos existentes se migrarán a grupos personalizados; el nombre del grupo se mantendrá. Se conservarán los grupos personalizados que se hayan podido crear, incluida su configuración. No obstante, observará que la ubicación de los ajustes de configuración ha cambiado. Por ejemplo, los ajustes de configuración de la empresa (en Admin Console personalizado) están ahora en <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizar herramientas de Analytics</a>. </p> <p> Los usuarios que pertenecen a <span class="term"> Acceso</span> a todos los informes se han migrado a un grupo personalizado con acceso a: </p> 
+   <td colname="col2"> <p> Los grupos personalizados han reemplazado a los grupos predefinidos. Los grupos predefinidos existentes se migrarán a grupos personalizados; el nombre del grupo se mantendrá. Se conservarán los grupos personalizados que se hayan podido crear, incluida su configuración. No obstante, observará que la ubicación de los ajustes de configuración ha cambiado. Por ejemplo, los ajustes de configuración de la empresa (en Admin Console personalizado) están ahora en <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> Personalizar herramientas de Analytics</a>. </p> <p> Los usuarios que pertenecen a <span class="term"> Acceso a todos los informes</span> se han migrado a un grupo personalizado con acceso a: </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">Todas las dimensiones </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">Todas las métricas </li> 
@@ -61,11 +60,11 @@ Por ejemplo, puede crear un grupo con acceso a varias herramientas de Analytics 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>Se han migrado automáticamente a las nuevas categorías todas las dimensiones y métricas actuales dentro de grupos personalizados. Si un grupo existente tiene métricas habilitadas, se le asignarán todas las dimensiones que puedan recibir permisos por primera vez (eVars y según el contenido) y métricas de forma predeterminada. </p> </li> 
      <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Permisos del Importador de clasificaciones (anteriormente, SAINT): el acceso a las clasificaciones viene determinado por el acceso a la <a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">variable</a> en la cual se basa la clasificación. </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
+    </ul> <p>Consulte <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Personalizar permisos para dimensiones</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>Solo se recomienda para clientes nuevos o clientes cuyas empresas estén <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">aprovisionadas en Experience Cloud</a>. Se ha planificado la migración de los clientes existentes de <span class="keyword">Analytics</span> al sistema de administración de identidades de <span class="keyword">Experience Cloud</span>. </p> <p>Encontrará más información en Migración de usuarios de <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/"> Analytics a Admin Console</a>. </p> </td> 
+   <td colname="col2"> <p>Solo se recomienda para clientes nuevos o clientes cuyas empresas estén <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">aprovisionadas en Experience Cloud</a>. Se ha planificado la migración de los clientes existentes de <span class="keyword">Analytics</span> al sistema de administración de identidades de <span class="keyword">Experience Cloud</span>. </p> <p>Encontrará más información en <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Migración de usuarios de Analytics a Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Según el contenido </p> </td> 
