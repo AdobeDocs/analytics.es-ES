@@ -1,11 +1,10 @@
 ---
 description: Los segmentos le permiten identificar subconjuntos de visitantes basándose en sus características o en las interacciones con el sitio web. Los segmentos están diseñados como análisis de audiencia codificados que puede crear para sus necesidades específicas, y luego verificar, editar y compartir con otros integrantes del equipo, o bien utilizar en otros productos de Adobe y capacidades de Analytics.
-solution: Analytics
 title: Acerca de los segmentos y los contenedores
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,7 +15,7 @@ Los segmentos le permiten identificar subconjuntos de visitantes basándose en s
 
 Los segmentos se basan en una jerarquía de niveles de [!UICONTROL visitante], [!UICONTROL visita] y [!UICONTROL visita individual] usando un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones del visitante basándose en las reglas entre los contenedores y dentro de ellos. Los segmentos de Analytics pueden generarse, aprobarse, compartirse, guardarse y ejecutarse en varios productos y capacidades en [!DNL Adobe Experience Cloud]. Los segmentos pueden generarse a partir de un informe, integrarse en un informe de panel o marcarse como favoritos para acceder rápidamente a ellos.
 
-You can build and save segments in the Segment Builder, or generate segments from a Fallout report (in [!DNL ad hoc analysis]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos pueden utilizarse juntos como [segmentos apilados](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
+Puede crear y guardar segmentos en el Generador de segmentos, o bien crearlos a partir de un informe de abandonos (en un [!DNL ad hoc analysis]). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos pueden utilizarse juntos como  [segmentos apilados](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 
 ## Segmentos {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -26,20 +25,20 @@ Los segmentos identifican quiénes son sus visitantes (país, sexo, cafetería),
 
 Los segmentos pueden basarse en los siguientes valores:
 
-* Visitantes en función de atributos: tipo de explorador, dispositivo, número de visitas, país, sexo.
-* Visitantes en función de las interacciones: campañas, búsqueda de palabras clave, motor de búsqueda.
-* Visitantes en función de salidas y entradas: visitantes de Facebook, una página de aterrizaje definida, dominio de referencia.
-* Visitantes basados en variables personalizadas: campo de formulario, categorías definidas, ID de cliente.
+* Visitantes en función de sus atributos: tipo de navegador, dispositivo, número de visitas, país, género.
+* Visitantes en función de interacciones: campañas, búsqueda de palabras clave o motor de búsqueda.
+* Visitantes en función de salidas y entradas: visitantes de Facebook, una página de aterrizaje definida o un dominio de referencia.
+* Visitantes en función de variables personalizadas: campo de formulario, categorías definidas o ID de cliente.
 
-Cuando genera segmentos de audiencia en el Generador de segmentos, define condiciones utilizando los operadores [!UICONTROL Y] y [!UICONTROL O] entre los contenedores.
+Cuando genera segmentos de audiencia en el Generador de segmentos, define condiciones utilizando los operadores [!UICONTROL AND] y [!UICONTROL OR] entre los contenedores.
 
 ![](assets/standard_segment_containers.png)
 
-Este tipo de segmentos filtra conjuntos de datos en función de características unidas con los operadores [!UICONTROL Y] y [!UICONTROL O].
+Este tipo de segmentos filtra conjuntos de datos en función de características unidas con los operadores [!UICONTROL AND] y [!UICONTROL OR].
 
-## Segmentos secuenciales {#section_EE5B14287FC44E0B96E77679A2438948}
+## Segmentos secuenciales  {#section_EE5B14287FC44E0B96E77679A2438948}
 
-Los segmentos secuenciales le permiten identificar a los visitantes en función de la navegación y las vistas de página en su sitio, lo que proporciona un segmento de acciones e interacciones definidas. Los segmentos secuenciales le ayudan a identificar qué le gusta a un visitante, así como lo que evita. Cuando se generan segmentos secuenciales, se utiliza el operador [!UICONTROL ENTONCES] para definir y ordenar la navegación del visitante.
+Los segmentos secuenciales le permiten identificar a los visitantes en función de la navegación y las vistas de página en su sitio, lo que proporciona un segmento de acciones e interacciones definidas. Los segmentos secuenciales le ayudan a identificar qué le gusta a un visitante, así como lo que evita. Cuando se generan segmentos secuenciales, se utiliza el operador [!UICONTROL THEN] para definir y ordenar la navegación del visitante.
 
 ![](assets/sequential_seg.png)
 
@@ -54,7 +53,7 @@ Los segmentos secuenciales pueden basarse en los siguientes valores de visitas i
 
 ![](assets/sequential_segmentation_containers_view.png)
 
-Un segmento secuencial filtra conjuntos de datos en función de las acciones del usuario usando el operador [!UICONTROL ENTONCES].
+Un segmento secuencial filtra conjuntos de datos en función de las acciones del usuario usando el operador [!UICONTROL THEN].
 
 ## Vídeo explicativo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
@@ -64,11 +63,11 @@ En este vídeo de YouTube se proporciona una breve descripción sobre qué son l
 |---|---|
 | Contenedores de segmento | [Contenedores de segmento en Adobe Analytics](https://www.youtube.com/watch?v=A513j-ej0oc&index=2&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
 
-## About containers {#section_AF2A28BE92474DB386AE85743C71B2D6}
+## Acerca de los contenedores {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
-Un segmento establece las condiciones necesarias para filtrar a un visitante en función de sus atributos o de las interacciones con su sitio. Para establecer las condiciones en un segmento, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de segmentos proporciona una arquitectura sencilla para crear estos subconjuntos y aplicar reglas como contenedores anidados, jerárquicos de visitantes, visitas o visitas individuales.
+Un segmento establece las condiciones necesarias para filtrar a un visitante en función de sus atributos o de las interacciones con su sitio. Para establecer las condiciones en un segmento, debe fijar las reglas que filtran a los visitantes según sus características de visitante y/o rasgos de navegación. Si desea desglosar todavía más los datos de los visitantes, puede filtrar basándose en las visitas específicas y/o las visitas individuales de cada visitante para ver una página. El Generador de segmentos proporciona una sencilla arquitectura para crear estos subconjuntos y aplicar reglas como contenedores anidados y jerárquicos de visitante, visita y visita individual.
 
-La arquitectura de contenedor empleada en el Generador de segmentos define el **[!UICONTROL visitante]como el contenedor exterior, que incluye datos globales específicos del visitante en las visitas y vistas de páginas.** Un contenedor de **[!UICONTROL visita]** anidado le permite establecer reglas para desglosar los datos del visitante en función de las visitas, y un contenedor de **visita individual]anidado le permite desglosar la información del visitante según las vistas de página individuales.[!UICONTROL ** Cada contenedor le permite realizar informes basados en el historial del visitante o en las interacciones detalladas por visitas, o bien desglosar las visitas individuales.
+La arquitectura de contenedor empleada en el Generador de segmentos define el **[!UICONTROL visitante]** como el contenedor exterior, que incluye datos globales específicos del visitante en las visitas y vistas de páginas. Un contenedor de **[!UICONTROL visita]** anidado le permite establecer reglas para desglosar los datos del visitante en función de las visitas, y un contenedor de **[!UICONTROL visita individual]** anidado le permite desglosar la información del visitante según las vistas de página individuales. Cada contenedor le permite realizar informes basados en el historial del visitante o en las interacciones detalladas por visitas, o bien desglosar las visitas individuales.
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
 
@@ -113,7 +112,7 @@ Los contenedores de visitas individuales incluyen valores basados en el desglose
 
 El contenedor de grupo lógico le permite proporcionar un contenedor separado dentro de las reglas de segmento para filtrar entidades no basadas en jerarquía. Por ejemplo, es posible que necesite proporcionar un contenedor anidado dentro del segmento que filtra en función del visitante. Este tipo de lógica requiere interrumpir la jerarquía (puesto que usted ya tiene un contenedor de visitante de nivel superior) para filtrar únicamente para visitantes seleccionados. Puede hacerse con el contenedor de grupo lógico. Consulte [Ejemplos de grupos lógicos](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) para obtener más información.
 
-## Nesting containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
+## Anidado de contenedores {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
 Al crear contenedores de segmentos dentro de otros contenedores, básicamente está creando un segmento dentro de otro segmento. La siguiente lógica se utiliza con los contenedores anidados:
 
@@ -132,7 +131,7 @@ Puede utilizar el anidado entre contenedores, así como entre las reglas dentro 
 
 **Incluir varios contenedores dentro de una sola definición**
 
-Si incluye varios segmentos en un nuevo segmento compuesto puede refinar los datos todavía más. El hecho de arrastrar juntos dos segmentos existentes funciona como una instrucción "O" al filtrar los visitantes. Todos los contenedores del lienzo se revisan comparándolos con todos los datos, y todos los datos que coincidan con alguno de los contenedores se incluirán en el informe.
+Si incluye varios segmentos en un nuevo segmento compuesto puede refinar los datos todavía más. El hecho de arrastrar juntos dos segmentos existentes funciona como una instrucción “OR” al filtrar los visitantes. Todos los contenedores del lienzo se revisan comparándolos con todos los datos, y todos los datos que coincidan con alguno de los contenedores se incluirán en el informe.
 
 Por ejemplo, si arrastra un contenedor de visita donde País = Estados Unidos con un contenedor de visita donde Pedido = Verdadero
 
@@ -146,7 +145,7 @@ generará un segmento que se comportará siguiendo este orden:
 1. A continuación, el segmento volverá a buscar entre todos los datos para comprobar si algún visitante realizó un pedido.
 1. Ambos conjuntos de datos se aplicarán entonces al informe.
 
-## Containers for sequential segments {#section_324AF503F51A4A62806151FE440F3B2E}
+## Contenedores para segmentos secuenciales {#section_324AF503F51A4A62806151FE440F3B2E}
 
 La segmentación secuencial emplea los mismos contenedores básicos, incluidos el de [!UICONTROL visitantes], [!UICONTROL visitas] y [!UICONTROL visitas individuales] (así como las vistas de página u otras dimensiones) anidados jerárquicamente.
 
@@ -154,21 +153,21 @@ La segmentación secuencial emplea los mismos contenedores básicos, incluidos e
 
 [!UICONTROL Visitantes] constituye el contenedor de orden superior en la segmentación secuencial, con [!UICONTROL visitas] contenidas dentro del contenedor de [!UICONTROL visitantes] y [!UICONTROL visitas individuales] contenidas dentro de los contenedores de [!UICONTROL visitantes] o [!UICONTROL visitas]. Esta [jerarquía de contenedores](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) debe mantenerse para generar segmentos secuenciales bien ordenados.
 
-**Para generar segmentos secuenciales**, se anidan los contenedores y se une la lógica secuencial usando el operador [!UICONTROL ENTONCES], que requiere que cada contenedor sea verdadero en función de la secuencia del visitante.
+**Para generar segmentos secuenciales**, se anidan los contenedores y se une la lógica secuencial usando el operador [!UICONTROL THEN], que requiere que cada contenedor sea verdadero en función de la secuencia del visitante.
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-La única excepción a esta jerarquía de contenedores es al usar el [contenedor de grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md). El contenedor de [!UICONTROL grupo lógico] le permite anidar una visita individual dentro de un contenedor sin orden para capturar eventos y dimensiones pero fuera de un orden secuencial.
+La única excepción a esta jerarquía de contenedores es al usar el  [contenedor de grupo lógico](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md). El contenedor de [!UICONTROL grupo lógico] le permite anidar una visita individual dentro de un contenedor sin orden para capturar eventos y dimensiones pero fuera de un orden secuencial.
 
 ![](assets/logic_group_hierarchy.png)
 
-## Reports based on container data {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
+## Informes basados en datos de contenedores {#concept_BE822C12F87C4F07B7147D80BEFBAB87}
 
 Los contenedores le permiten filtrar datos diferentes basados en valores de informes al desglosar los segmentos y aplicarlos a los informes.
 
 Los datos capturados en cada nivel de la jerarquía de contenedores visitante &gt; visita &gt; visita individual afectan a cómo genera sus segmentos. Si toma el mismo segmento aplicado al mismo informe utilizando el mismo conjunto de datos, obtendrá valores diferentes en función del contenedor a partir del cual genere el informe. Los factores como el nivel al que se realiza el informe del contenedor y la persistencia de los valores en las visitas individuales pueden suponer grandes cambios en la precisión de sus informes. 
 
-## Basics of container data {#section_9576D970F912450191AFB5B83F7F1656}
+## Principios básicos de los datos de contenedor {#section_9576D970F912450191AFB5B83F7F1656}
 
 Por ejemplo, el visitante que se muestra a continuación visitó un sitio en la primera visita, aterrizó en la página de inicio y, a continuación, visitó otras tres páginas y convirtió la visita en una venta. En una visita aparte, el visitante llegó esta vez a través de la página del producto, se dirigió a la página de inicio, volvió atrás a la página del producto y, por último, cerró la sesión tras echar un vistazo a los gorros de invierno. En función de los datos capturados para cada contenedor del segmento, se mostrarán en el informe valores diferentes.
 
@@ -192,7 +191,7 @@ Al realizar informes desde el contenedor de visita individual, podrá comprobar 
 
 >[!IMPORTANT]
 >
->Independientemente de cómo vea los datos (desde los contenedores de visita individual, visita o visitante), todos tienen el mismo número de visitantes, 63.541 en este ejemplo. Independientemente de cómo genere el informe, la condición de visitante inicial —los visitantes que vieron la página Abrigos de invierno— permanece intacta. Es el subconjunto de datos desde el que realiza el informe en los diferentes niveles.
+>Independientemente de cómo visualice los datos (desde el contenedor de visita individual, visita o visitante), todos tienen el mismo número de visitantes, 63 541 en este ejemplo. Independientemente de cómo genere el informe, la condición de visitante inicial —los visitantes que vieron la página Abrigos de invierno— permanece intacta. Es el subconjunto de datos desde el que realiza el informe en los diferentes niveles.
 
 **Informes desde el contenedor de visita**
 
@@ -216,9 +215,9 @@ Si muestra los segmentos desde el contenedor de visitante, verá que las vistas 
 
 Resumiendo: es fundamental entender cómo funciona la segmentación en diferentes desgloses de datos para interpretar los datos que devuelve.
 
-## Reporting based on the container {#section_D0604748F2794327B8C668617A31EC18}
+## Informes basados en el contenedor {#section_D0604748F2794327B8C668617A31EC18}
 
-Cada desglose de datos de segmentos tiene un ámbito al que se aplica. Most breakdowns are based on *Page Views*, however, many valuable segments are based on the *Visit* container, and to a lesser degree the *Visitor* container. Es importante entender los informes en función del alcance del contenedor.
+Todos los desgloses de datos de segmentos tienen un alcance determinado al que estos se aplican. La mayoría de los desgloses de informes se basan en *vistas de página*. Sin embargo, muchos segmentos valiosos se basan en el contenedor de *visita* y, en menor medida, en el contenedor de *visitante*. Es importante entender los informes en función del alcance del contenedor.
 
 Partiendo del ejemplo del segmento *Página = Abrigos de invierno* utilizado anteriormente, las cuestiones enumeradas a continuación definen otros aspectos del segmento en función de cómo se aplican los datos del contenedor y de cómo debería coincidir el alcance de los datos con el tipo de segmento.
 
@@ -226,8 +225,8 @@ Partiendo del ejemplo del segmento *Página = Abrigos de invierno* utilizado ant
 
 Si se aplica el contenedor de segmento según el alcance natural de los datos, se generan los resultados esperados cuando los elementos de línea coinciden con la regla del segmento.
 
-* **Contenedor de visita individual donde Página es igual a "Abrigo de invierno"***: al visualizar un informe de página con este segmento, se devuelven solo los valores iguales a "Abrigo de invierno".* Todas las demás páginas se excluyen del informe.
-* **Contenedor de visita donde Página de entrada es igual a "Ropa de invierno"***: al visualizar un informe de página de entrada con este segmento, se devuelve solo la segunda visita, ya que su página de entrada coincide con la regla del segmento.*
+* **Contenedor de visita individual donde Página es igual a "Abrigo de invierno"**: al visualizar un informe de *página* con este segmento, se devuelven solo los valores iguales a "Abrigo de invierno". Todas las demás páginas se excluyen del informe.
+* **Contenedor de visita donde Página de entrada es igual a "Ropa de invierno"**: al visualizar un *informe de página* de entrada con este segmento, se devuelve solo la segunda visita, ya que su página de entrada coincide con la regla del segmento.
 * **Contenedor de visita, donde el número de visitas es igual a 1**: al visualizar una visita, todas las vistas de página desde la primera visita se incluyen en el informe, ya que coincide con la regla del segmento.
 
 **Vistas de página a nivel de contenedor de visita**
@@ -247,11 +246,11 @@ El uso de un segmento con un contenedor menor que el alcance del desglose devuel
 * **Contenedor de visita individual donde Página es igual a "Compra"**: si se usan las vistas de página como métrica, solo se mostrará la página de compra (tal y como cabría esperar). Si se usa un informe de participación en ingresos, todas las páginas de la primera visita recibirán 100 dólares, dado que la métrica de participación se basa en la visita.
 * **Contenedor de visita individual donde Página es igual a "Abrigo de invierno"**: si se usan las vistas de página como métrica, solo se mostrará la página de abrigo de invierno (tal y como cabría esperar). Si se usa un informe de participación en ingresos, ninguna página recibirá saldo, ya que esta dimensión requiere una dimensión persistente. La vista de página que realizó la compra (la página de compra) no se incluye en el contenedor de visita individual, por lo que ningún elemento recibe participación en los ingresos. Sin embargo, si se ejecuta un informe desde el contenedor de visita, se incluirán todas las vistas de página de esa visita y se distribuirá la participación en los ingresos (100 dólares) entre todas las páginas vistas en la sesión.
 
-## Persistence across containers {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
+## Persistencia a través de los contenedores {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
 
 El hecho de filtrar por las dimensiones que persisten en una serie de páginas, como una eVar de campaña o una dimensión de referencia, afecta a los datos recopilados a nivel de contenedor, y debe entenderse bien para garantizar la precisión de los informes.
 
-Los datos de los segmentos pueden variar en función de la persistencia de una dimensión o de una variable aplicada en las páginas seleccionadas. Algunas dimensiones, como la de página, proporcionan valores únicos a nivel de página y se filtran basándose en los datos del contenedor de visita individual. (Consulte el [ejemplo de Informes basados en datos de contenedores](/help/components/c-segmentation/seg-overview.md)). Otras dimensiones, como la de dominio de referencia, persisten en varias páginas de una visita. Algunas dimensiones o variables aplicadas, como la duración de la visita, permanecen en todo el historial del visitante.
+Los datos de los segmentos pueden variar en función de la persistencia de una dimensión o de una variable aplicada en las páginas seleccionadas. Algunas dimensiones, como la de página, proporcionan valores únicos a nivel de página y se filtran basándose en los datos del contenedor de visita individual. (Consulte el  [ejemplo de Informes basados en datos de contenedores](/help/components/c-segmentation/seg-overview.md)). Otras dimensiones, como la de dominio de referencia, persisten en varias páginas de una visita. Algunas dimensiones o variables aplicadas, como la duración de la visita, permanecen en todo el historial del visitante.
 
 ![](assets/RefDomain_aol.png)
 
@@ -298,5 +297,5 @@ Cuando vea datos desde el contenedor de visitante, fíjese en que las vistas de 
 Resumiendo:
 
 * El contenedor de visita devuelve todas las páginas vistas en una visita donde al menos una página cumple los criterios. Así pues, si una página se ve solo en la visita 1 del día 1, entonces se incluyen en los datos todas las páginas vistas en toda la visita.
-* Tenga cuidado cuando la condición con la que está segmentando se encuentra en una eVar o en otro tipo de variable persistente. Por ejemplo: puede usar la condición "donde campaña contiene correo electrónico" y caduca pasados 7 días. Si la campaña se establece en la primera visita, persistirá durante 7 días más. De este modo se incluirá cada visita, incluso si la campaña solo estaba establecida en la primera visita. Las demás visitas también se incluirán (siempre y cuando se encuentren dentro del intervalo de fechas del informe). Si desea eliminar la inclusión de valores persistentes, utilice el evento "instancia de" o una variable prop equivalente, si está disponible.
+* Tenga cuidado cuando la condición con la que está segmentando se encuentra en una eVar o en otro tipo de variable persistente. Por ejemplo, podría utilizar la condición “donde Campaign contenga un correo electrónico”, que expira tras 7 días. Si la campaña se establece en la primera visita, persistirá durante 7 días más. De este modo se incluirá cada visita, incluso si la campaña solo estaba establecida en la primera visita. Las demás visitas también se incluirán (siempre y cuando se encuentren dentro del intervalo de fechas del informe). Si desea que los valores persistentes dejen de incluirse, utilice el evento “instancia de” o una variable Prop equivalente, si está disponible.
 
