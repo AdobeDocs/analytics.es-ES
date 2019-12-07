@@ -1,13 +1,12 @@
 ---
 description: Mirada de alto nivel a variables y sus limitaciones.
 keywords: Analytics Implementation;variable;limitations;limits
-solution: Analytics
 subtopic: Variables
 title: Variables y limitaciones
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -69,12 +68,12 @@ La siguiente tabla proporciona información rápida sobre variables de [!DNL Ana
 | pageType | Solo se usa para designar una página de error 404 Página no encontrada. Solo tiene un posible valor, que es "errorPage". En una página de error 404, la variable *`pageName`* no debe rellenarse. |
 | pageURL | En casos excepcionales, la dirección URL de la página no es la dirección URL que se desearía registrar en [!DNL Analytics]. Para dar cabida a estas situaciones, [!DNL Analytics] ofrece la variable *`pageURL`*, que anula la dirección URL real de la página. |
 | plugins | En exploradores Netscape y Mozilla, enumera los complementos instalados en el explorador. |
-| Productos | Se usa para realizar el seguimiento de productos y categorías de productos, así como la cantidad de compra y el precio de compra. La variable *`products`* siempre debe configurarse junto con un evento de éxito. De forma opcional, la variable *`products`* puede realizar el seguimiento de eventos numéricos y monetarios, así como eVars de [!UICONTROL Marketing]. |
+| products | Se usa para realizar el seguimiento de productos y categorías de productos, así como la cantidad de compra y el precio de compra. La variable *`products`* siempre debe configurarse junto con un evento de éxito. De forma opcional, la variable *`products`* puede realizar el seguimiento de eventos numéricos y monetarios, así como eVars de [!UICONTROL Marketing]. |
 | propN | Se utiliza para generar informes personalizados en el [!DNL Analytics]módulo de tráfico[!UICONTROL  de ]. Las [!UICONTROL props] se pueden utilizar como contadores (para contabilizar el número de veces que se envía una vista de página), para los informes de rutas o en informes de correlación. |
 | purchaseID | Se utiliza para evitar que [!DNL Analytics] contabilice un pedido varias veces. Siempre que se use el evento purchase en el sitio, se debe usar la variable *`purchaseID`*. |
-| referrer | Restaura la información del referente perdida. |
+| referente | Restaura la información del referente perdida. |
 | resolution | Indica la resolución de la pantalla del visitante que está viendo la página web. |
-| server | Muestra el dominio de una página web (para ver a qué dominios se dirigen los visitantes) o el servidor que facilita la página (para una referencia rápida de balance de carga). |
+| servidor | Muestra el dominio de una página web (para ver a qué dominios se dirigen los visitantes) o el servidor que facilita la página (para una referencia rápida de balance de carga). |
 | state | Captura el estado de un visitante del sitio. |
 | trackDownloadLinks | Establezca *`trackDownloadLinks`* como “True” si desea realizar el seguimiento de los vínculos a archivos descargables del sitio. Si *`trackDownloadLinks`* tiene el valor “true”, *`linkDownloadFileTypes`* determina qué vínculos son archivos descargables. |
 | trackExternalLinks | Si *`trackExternalLinks`* tiene el valor “true” *`linkInternalFilters`* y *`linkExternalFilters`* determina si un vínculo en el que se hizo clic es un vínculo de salida. |
