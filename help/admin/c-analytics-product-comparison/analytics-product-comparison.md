@@ -1,19 +1,18 @@
 ---
-description: Requisitos del sistema y comparación de Analysis Workspace, Informes y análisis, Análisis específicos, Creador de informes, Almacén de datos y Área de trabajo de datos
-solution: Analytics
+description: Requisitos del sistema y comparación de Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse y Data Workbench
 title: Comparación de productos y requisitos de Analytics
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Comparación de productos y requisitos de Analytics
 
-Requisitos del sistema y comparación de Analysis Workspace, Informes y análisis, Análisis específicos, Creador de informes, Almacén de datos y Área de trabajo de datos
+Requisitos del sistema y comparación de Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse y Data Workbench
 
-For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
+Si no sabe qué producto de Adobe Analytics utilizar, consúltelo [aquí](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
