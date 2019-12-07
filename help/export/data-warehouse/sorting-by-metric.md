@@ -1,10 +1,9 @@
 ---
 description: Proporciona informes de desgloses clasificados en Data Warehouse, ordenados por el valor de métrica descendente.
-solution: Analytics
 title: Ordenar por métrica
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -30,7 +29,7 @@ Consulte la columna "Diseño de informe" en esta tabla para determinar cómo "Or
 |---|---|---|---|---|---|
 | No | Sí o No | Sí o No | Sí o No | Sí o No | 1 |
 | Sí | No | Sí o No | Sí o No | Sí o No | 1 |
-| Sí | Sí | No | No | N/A | 1 |
+| Sí | Sí | No | No | N/D | 1 |
 | Sí | Sí | No | Sí o No | No | 1 |
 | Sí | Sí | Sí | No | No | 2 |
 | Sí | Sí | No | Sí | Sí | 3 |
