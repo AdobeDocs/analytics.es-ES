@@ -1,13 +1,12 @@
 ---
 description: Las variables de página rellenan directamente un informe, como pageName, Props de lista, Variables de lista, etc.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -110,7 +109,7 @@ Este resultado mostraría tres elementos de línea con 50 dólares de ingresos c
 <table id="table_09E1879B44624A858555449E2DC74E69"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Activity Map </th> 
+   <th colname="col1" class="entry"> Página </th> 
    <th colname="col2" class="entry"> s.list1 </th> 
    <th colname="col3" class="entry"> s.events/s.products </th> 
   </tr> 
