@@ -1,11 +1,10 @@
 ---
 description: Las superposiciones permiten configurar la visualización de datos de varias formas para que pueda ver y conocer fácilmente la popularidad que tienen los vínculos en una página.
-solution: Analytics
 title: Superposiciones personalizables
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
