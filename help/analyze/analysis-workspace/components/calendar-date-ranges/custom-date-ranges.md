@@ -1,12 +1,11 @@
 ---
 description: Cree intervalos de fechas personalizados en Analysis Workspace y guárdelos como componentes de tiempo.
 keywords: Analysis Workspace
-solution: Analytics
 title: Crear intervalos de fechas
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,9 +16,9 @@ Cree intervalos de fechas personalizados en Analysis Workspace y guárdelos como
 
 **[!UICONTROL Componentes]** &gt; **[!UICONTROL Nuevo intervalo de fechas]**
 
-Se aplica un intervalo de fechas en el nivel de panel. To add a date range to your project, click **Panels** &gt; *`<select panel>`*, and specify a new date range.
+Se aplica un intervalo de fechas en el nivel de panel. Para agregar un intervalo de fechas al proyecto, haga clic en **Paneles** &gt; *`<select panel>`* y especifique el nuevo intervalo de fechas.
 
-## Date range for "two months ago" {#section_C4109C57CB444BB2A79CC8082BD67294}
+## Intervalo de fechas para “Dos meses atrás”{#section_C4109C57CB444BB2A79CC8082BD67294}
 
 El siguiente intervalo de fechas personalizado muestra un intervalo de fechas para “dos meses atrás”, con una visualización de cambio de resumen que muestra el cambio direccional.
 
