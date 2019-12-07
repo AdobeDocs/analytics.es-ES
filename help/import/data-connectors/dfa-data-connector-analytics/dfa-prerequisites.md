@@ -1,17 +1,16 @@
 ---
 description: 'null'
 keywords: DFA
-solution: Analytics
 title: Requisitos previos
 topic: Data connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Requisitos previos{#prerequisites}
+# Requisitos previos {#prerequisites}
 
 Antes de empezar la integración de Data Connectors de Adobe para DFA, haga lo siguiente:
 
