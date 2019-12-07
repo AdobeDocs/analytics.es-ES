@@ -1,11 +1,10 @@
 ---
 description: Número de visitantes no duplicados (contabilizados solo una vez) del sitio web durante el curso de un día determinado. La visita del visitante único diario termina a la medianoche del huso horario seleccionado en el grupo de informes.
-solution: Analytics
 title: Visitantes únicos diarios
 topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
