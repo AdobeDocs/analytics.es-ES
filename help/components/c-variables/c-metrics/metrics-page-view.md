@@ -1,11 +1,10 @@
 ---
 description: Por cada llamada al servidor que se envía, se cuenta una vista de página. Esta métrica representa el total de instancias de vistas de página. Las llamadas tracklink no se cuentan como vistas de página y no contribuyen a incrementar la métrica de vistas de página.
-solution: Analytics
 title: Vista de la página
 topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Por cada llamada al servidor que se envía, se cuenta una vista de página. Esta métrica representa el total de instancias de vistas de página. Las llamadas tracklink no se cuentan como vistas de página y no contribuyen a incrementar la métrica de vistas de página.
 
-A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Entry Pages]** report, sort by it, and see which entry pages drive the most page views.
+Una forma útil de usar la métrica Vista de página consiste en ejecutar un informe de **[!UICONTROL Rutas]** &gt; **[!UICONTROL Páginas]** &gt; **[!UICONTROL Páginas de entrada]**, ordenarlo y ver cuáles son las páginas de entrada que generan la mayoría de las vistas de página.
 
 | Usos | Descripción |
 |---|---|
