@@ -1,12 +1,11 @@
 ---
 description: Gestione proyectos programados de Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Administrador de programación de informes
 topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,13 +14,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Gestione proyectos programados de Analysis Workspace.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; Proyectos **** programados.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Proyectos programados]**.
 
 ![](assets/components-scheduled-projects.png)
 
 En el Administrador de programación de informes, puede editar y eliminar los envíos periódicos de proyectos. Puede crear programas de entregas que envíen los informes por correo electrónico a una dirección especificada. Puede configurar los programas a fin de que los informes se envíen automáticamente a intervalos especificados por un periodo de tiempo o indefinidamente, o bien para que se detenga el envío de un proyecto recurrente.
 
-El Administrador de proyectos programados muestra los elementos que ha creado un usuario específico. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados.
+El Administrador de programación de proyectos muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados.
 
 ![](assets/scheduled-projects.png)
 
