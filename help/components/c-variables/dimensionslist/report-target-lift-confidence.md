@@ -1,32 +1,31 @@
 ---
 description: Permite evaluar el éxito de las campañas de Adobe Analytics del mismo modo que se ha hecho en Target Classic en el pasado.
-solution: Analytics
 title: Alza y confianza de Target
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Alza y confianza de Target
 
-Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
+Permite evaluar el éxito de las campañas de Adobe Analytics del mismo modo que se ha hecho en [!DNL Target Classic] en el pasado.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]** &gt; **[!UICONTROL Ver todos los informes]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics para Target]** &gt; Actividades de **** Target.
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]** &gt; **[!UICONTROL Ver todos los informes]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics para Target]** &gt; **[!UICONTROL Actividades de Target]**.
 
 La documentación de Adobe Target contiene más información sobre [Alza](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) y [confianza](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html).
 
 Para calcular el alza y la confianza:
 
-1. En el informe **[!UICONTROL Actividades de Target], haga clic en una actividad para que aparezcan sus detalles.**
+1. En el informe **[!UICONTROL Actividades de Target]**, haga clic en una actividad para que aparezcan sus detalles.
 1. En Tipo de informe, seleccione **[!UICONTROL Alza y confianza]**.
-1. Haga clic en **[!UICONTROL Mostrar métricas]para agregar una métrica.** No se puede agregar más de una métrica para este tipo de informe, dado que es recomendable evaluar una prueba solo con una métrica. Más métricas sólo agregarían ruido y reducirían la señal de la prueba.
-1. (Optional) Under **[!UICONTROL Normalizing Metric]**, select one of the following: Visitors, Visits, or Impressions. La mayoría de las veces, Visitantes será la opción predeterminada.
+1. Haga clic en **[!UICONTROL Mostrar métricas]** para agregar una métrica. No se puede agregar más de una métrica para este tipo de informe, dado que es recomendable evaluar una prueba solo con una métrica. Más métricas sólo agregarían ruido y reducirían la señal de la prueba.
+1. (Opcional) En **[!UICONTROL Normalización de métrica]**, seleccione una las siguientes opciones: Visitantes, Visitas o Impresiones. La mayoría de las veces, Visitantes será la opción predeterminada.
 
 1. El informe agregará estas métricas, incluida la proporción entre métrica y métrica de normalización.
 
-## Configuración de informes {#section_3508439E09CA4E38B2EA309BA477C01D}
+## Configuración de informes  {#section_3508439E09CA4E38B2EA309BA477C01D}
 
 ![](assets/lift_confidence_ui.png)
 
