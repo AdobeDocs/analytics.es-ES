@@ -1,11 +1,10 @@
 ---
 description: Permite que los usuarios de nivel de administración vean y gestionen informes programados en toda la organización.
-solution: Analytics
 title: Cola de informes programados
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Permite que los usuarios de nivel de administración vean y gestionen informes programados en toda la organización.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; Informes **[!UICONTROL programados]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Informes programados]**
 
 Algunas funciones de nivel de administración en el Administrador de informes programados son:
 
@@ -25,15 +24,15 @@ Algunas funciones de nivel de administración en el Administrador de informes pr
 
 ## Mostrar todos los informes programados {#section_3F167CAAEEC24140B476CF95B7402690}
 
-En la ficha **[!UICONTROL Lista de informes]**, puede **mostrar todos los informes programados]en su organización, además de los que programó personalmente.[!UICONTROL **
+En la ficha **[!UICONTROL Lista de informes]**, puede **[!UICONTROL mostrar todos los informes programados]** en su organización, además de los que programó personalmente.
 
-> [!NOTE] La columna Nombre **[!UICONTROL del]** informe muestra el nombre del informe que se está programando y la columna Nombre **[!UICONTROL del]** archivo muestra cualquier nombre de archivo personalizado que haya definido en Opciones de envío avanzadas. En consecuencia, si programa varios informes del mismo tipo de informe y especifica nombres personalizados para cada uno, el Administrador de informes programados mostraría varias entradas con el mismo Nombre de informe pero con diferentes nombres de archivos. Esto se debe que el informe de servidor que se programa es el mismo, por lo que la columna Nombre del informe tendría los mismos nombres de informes para todos excepto los nombres de archivos personalizados (tal como se estableció).
+> [!NOTE] La columna **[!UICONTROL Nombre del informe]** muestra el nombre del informe que se está programando. La columna **[!UICONTROL Nombre del archivo]** muestra todo el nombre de archivo personalizado que haya establecido en las Opciones de envío avanzadas. En consecuencia, si programa varios informes del mismo tipo de informe y especifica nombres personalizados para cada uno, el Administrador de informes programados mostraría varias entradas con el mismo Nombre de informe pero con diferentes nombres de archivos. Esto se debe que el informe de servidor que se programa es el mismo, por lo que la columna Nombre del informe tendría los mismos nombres de informes para todos excepto los nombres de archivos personalizados (tal como se estableció).
 
 ![](assets/show_all_scheduled_reports.png)
 
 ## Funciones de filtro avanzado {#section_206A52A85DE84947AAB3AD082FBF6275}
 
-For example, if you wanted to filter on all reports that are scheduled hourly, you would specify **[!UICONTROL Frequency equals Hourly]** in the **[!UICONTROL Advanced]** filter and click **[!UICONTROL Apply]**:
+Por ejemplo, si desea filtrar todos los informes que están programados cada hora, especifique **[!UICONTROL Frecuencia igual a cada hora]** en el filtro **[!UICONTROL Avanzado]** y haga clic en **[!UICONTROL Aplicar]**:
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
@@ -43,10 +42,10 @@ Esta cola le permite gestionar y eliminar potencialmente cualquier informe progr
 
 ![](assets/scheduled_reports_2.png)
 
-La cola de informes también le proporciona la habilidad de "Omitir el informe programado una vez". Haga clic en el icono azul en la columna **[!UICONTROL Administrar].**
+La cola de informes también le proporciona la habilidad de "Omitir el informe programado una vez". Haga clic en el icono azul en la columna **[!UICONTROL Administrar]**.
 
 ## ID de programa {#section_568B70F4228C4229977CB85D2DCD53A1}
 
-Si el **[!UICONTROL ID de programa]está expuesto en la interfaz de la cola de informe es útil cuando necesita ponerse el contacto con Adobe Client Care para resolver un problema de los informes programados.**
+Si el **[!UICONTROL ID de programa]** está expuesto en la interfaz de la cola de informe es útil cuando necesita ponerse el contacto con Adobe Client Care para resolver un problema de los informes programados.
 
 ![](assets/schedule_id.png)
