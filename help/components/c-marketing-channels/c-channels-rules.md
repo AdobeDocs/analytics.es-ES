@@ -1,12 +1,11 @@
 ---
 description: Para que los canales y sus datos puedan aparecer en el informe, debe crear los canales y las reglas subyacentes que procesan los datos. También puede crear importes de costos y presupuestos para los canales relacionados, y especificar cuánto tiempo desea que dure el período de compromiso del visitante. Las tareas de configuración de informes se realizan en las Herramientas de administración.
-solution: Analytics
 subtopic: Marketing channels
 title: Acerca de los canales y las reglas
 topic: Reports and analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,11 +18,11 @@ Imagine que el canal es un contenedor de visitas y que las reglas asignan las vi
 
 ![](assets/buckets_2.png)
 
-Adobe ofrece varios canales predefinidos durante la [configuración automática](/help/components/c-marketing-channels/c-channel-autosetup.md), que puede editar para adaptarlos a sus necesidades.
+Adobe ofrece varios canales predefinidos durante la  [configuración automática](/help/components/c-marketing-channels/c-channel-autosetup.md), que puede editar para adaptarlos a sus necesidades.
 
 >[!NOTE]
 >
->Adobe recomienda configurar el informe en un grupo de informes que puede utilizar como plantilla para realizar pruebas. Puede usar la plantilla para aplicar conjuntos de canales y reglas de forma global a uno o más grupos de informes de producción.
+>Adobe recomienda que configure el informe en un grupo de informes, que puede utilizar como plantilla para realizar pruebas. Puede usar la plantilla para aplicar conjuntos de canales y reglas de forma global a uno o más grupos de informes de producción.
 >
 >Consulte [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/t-template.md).
 
@@ -36,17 +35,17 @@ Consulte los siguientes temas:
 
 En caso necesario, póngase en contacto con el departamento de atención al cliente para obtener ayuda con los requisitos previos:
 
-* In the Administration Console (General Account Settings), enable the **[!UICONTROL Conversion Level]** (e-commerce) option for the report suite.
+* En la Consola de administración (Configuración general de cuenta), habilite la opción **[!UICONTROL Nivel de conversión]** (comercio electrónico) para el grupo de informes.
 
-   See [General Account Settings](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html) in Analytics help for more information.
+   Consulte [Configuración general de cuenta](https://marketing.adobe.com/resources/help/en_US/reference/general_acct_settings_admin.html) en la sección de ayuda de Analytics para obtener más información.
 
 * Configure el acceso del grupo de usuarios al **[!UICONTROL Informe de canal de mercadotecnia]**.
 
-   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
+   Consulte [Configuración del acceso de grupos de usuarios](/help/components/c-marketing-channels/t-user-groups.md).
 
-* Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
+* Asegúrese de que su administrador de cuentas haya habilitado los **[!UICONTROL Informes de canal]** en el grupo de informes.
 
-## Important processing notes {#important-proc-rules}
+## Notas de procesamiento importantes {#important-proc-rules}
 
 * El sistema procesa las reglas en el orden en el que las especifique y, cuando se cumple una regla, se detiene el procesamiento de las demás reglas.
 * Las reglas pueden acceder a las variables que ha establecido VISTA, pero no pueden acceder a los datos que VISTA ha eliminado.
