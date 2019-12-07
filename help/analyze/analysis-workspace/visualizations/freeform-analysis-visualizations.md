@@ -1,12 +1,11 @@
 ---
 description: Obtenga información sobre las visualizaciones y los ajustes de visualización en Analysis Workspace.
 keywords: Analysis Workspace
-solution: Analytics
 title: Resumen de las visualizaciones
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,21 +16,21 @@ Obtenga información sobre las visualizaciones y los ajustes de visualización e
 
 [Tipos de visualización en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
-## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
+## Panel de visualizaciones {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Para mostrar el Panel de visualizaciones, haga clic en **[!UICONTROL Visualizaciones]en el panel lateral.**
+Para mostrar el Panel de visualizaciones, haga clic en **[!UICONTROL Visualizaciones]** en el panel lateral.
 
-![Resultado (](assets/visualizations.png)
+![Resultado ](assets/visualizations.png)
 
 La mayoría de los tipos de visualización (como los gráficos de área, barras, sectores y líneas) le resultarán familiares si utiliza Adobe Analytics. Sin embargo, Analysis Workspace proporciona una configuración de visualización y múltiples tipos de visualización únicos o nuevos con funciones interactivas.
 
-## Visualization settings {#section_D3BB5042A92245D8BF6BCF072C66624B}
+## Configuración de visualización {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
 Para acceder a la [!UICONTROL configuración de visualización], arrastre una visualización al [!UICONTROL panel improvisado] y haga clic en el icono de engranaje de [!UICONTROL Configuración de visualización].
 
 >[!IMPORTANT]
 >
->La configuración de visualización visible depende de la visualización. No todos los ajustes se aplican a todas las visualizaciones. Además, algunos ajustes avanzados aparecen **solo** para visualizaciones concretas, como [Ajustes de histograma](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
+>La visibilidad de los ajustes de visualización varía en función de la visualización. No todos los ajustes se aplican a todas las visualizaciones. Además, algunos ajustes avanzados aparecen **solo** para visualizaciones concretas, como [Ajustes de histograma](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
 
 ![](assets/visualization_settings.png)
 
@@ -69,7 +68,7 @@ Para acceder a la [!UICONTROL configuración de visualización], arrastre una vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostrar eje doble </p> </td> 
-   <td colname="col2"> <p>Solo se aplica si tiene dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para la otra métrica). </p> </td> 
+   <td colname="col2"> <p>Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostrar anomalías </p> </td> 
@@ -78,13 +77,13 @@ Para acceder a la [!UICONTROL configuración de visualización], arrastre una vi
  </tbody> 
 </table>
 
-## Create Visual icon {#section_9C11D9DEDC42413AA53E69A71A509DFC}
+## Icono Crear imagen {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-Si no está seguro de qué visualización escoger, haga clic en el icono **[!UICONTROL Crear visualización]en cualquier fila de la tabla.** Dicho icono aparecerá cuando se sitúe sobre la fila de la tabla. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene hasta tres segmentos seleccionados, se creará un diagrama de Venn. Para más de tres segmentos, se creará un gráfico de barras. Para otros tipos de datos, es posible que se cree un gráfico de líneas, etc.
+Si no está seguro de qué visualización escoger, haga clic en el icono **[!UICONTROL Crear visualización]** en cualquier fila de la tabla. Dicho icono aparecerá cuando se sitúe sobre la fila de la tabla. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene hasta tres segmentos seleccionados, se creará un diagrama de Venn. Para más de tres segmentos, se creará un gráfico de barras. Para otros tipos de datos, es posible que se cree un gráfico de líneas, etc.
 
 ![](assets/create-visual.png)
 
-## Right-click visualization/panel menu {#section_05B7914D4C9E443F97E2BFFDEC70240C}
+## Hacer clic con el botón derecho en el menú Visualización/Panel {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
 Se puede acceder a la configuración contextual de un gráfico si hace clic con el botón derecho junto al encabezado de una visualización o un panel. Estarán disponibles todos o algunos de los siguientes ajustes:
 
@@ -104,7 +103,7 @@ Se puede acceder a la configuración contextual de un gráfico si hace clic con 
 | Obtener vínculo de visualización | Le permite copiar y compartir este vínculo para enviar a otros usuarios directamente a esta visualización. Los usuarios deberán iniciar sesión. |
 | Volver a empezar | (Funciona en Flujo, Venn, Histograma) Elimina la configuración de la visualización actual y abre un panel nuevo donde puede volver a configurarla. |
 
-## Edit legend labels {#section_94F1988CB4B9434BA1D9C6034062C3DE}
+## Edición de las etiquetas de la leyenda {#section_94F1988CB4B9434BA1D9C6034062C3DE}
 
 Le permite cambiar el nombre de las series en las leyendas de las visualizaciones (visitas en el orden previsto, área, área apilada, barras, barras apiladas, anillo, histograma, barras horizontales, barras horizontales apiladas, líneas, dispersión y Venn) para contribuir al uso de las imágenes.
 
@@ -118,6 +117,6 @@ Para editar una etiqueta de leyenda en un gráfico de líneas, por ejemplo:
    ![](assets/edit-label.png)
 
 1. Introduzca el nuevo texto de etiqueta.
-1. Pulse **[!UICONTROL Intro]para guardar.**
+1. Pulse **[!UICONTROL Intro]** para guardar.
 
 Este es un [vínculo a un vídeo](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sobre este tema.
