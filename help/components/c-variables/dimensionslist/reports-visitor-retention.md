@@ -1,11 +1,10 @@
 ---
 description: Muestra información sobre la lealtad del cliente. Puede ver la cantidad de visitantes y la frecuencia con que regresan al sitio. Los informes de esta categoría muestran información sobre la lealtad del cliente. Puede ver la cantidad de visitantes y la frecuencia con que regresan al sitio.
-solution: Analytics
 title: Retención de visitantes
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -52,7 +51,7 @@ Muestra información sobre la lealtad del cliente. Puede ver la cantidad de visi
   </tr> 
   <tr> 
    <td colname="col1"> Días desde la última compra </td> 
-   <td colname="col2"> <p>Muestra la cantidad más frecuente de días que transcurren entre una compra y otra del mismo cliente y le permite ver los períodos de tiempo que más contribuyeron a las métricas de éxito clave para su sitio, tales como Ingresos y Pedidos. </p> </td> 
+   <td colname="col2"> <p>Muestra la cantidad más frecuente de días que transcurren entre una compra y otra del mismo cliente y le permite ver los períodos de tiempo que más contribuyeron a las métricas de éxito clave para su sitio, como los ingresos y pedidos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cliente único diario </td> 
