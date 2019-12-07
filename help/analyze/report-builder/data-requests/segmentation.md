@@ -1,11 +1,10 @@
 ---
 description: Cómo añadir, editar, aplicar y filtrar los segmentos de Adobe Analytics en el Creador de informes.
-solution: Analytics
 title: Administración de segmentos
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -69,13 +68,13 @@ Los filtros disponibles incluyen:
 
 | Nombre del filtro | Descripción |
 |---|---|
-| Etiquetas | Le permite filtrar los segmentos con etiquetas específicas. Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
+| Etiquetas | Le permite filtrar segmentos con determinadas  . Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
 | Propietarios | Le permite filtrar segmentos por el propietario. Tenga en cuenta que los filtros de Propietario utilizan el operador OR. Si marca dos propietarios, el panel de la derecha muestra los segmentos que son propiedad de **uno** de los propietarios. |
 | Otros filtros &gt; Solo el *nombre del grupo de informes* | If you apply the "Only *report suite name*" filter in the Segment Builder in [!DNL marketing reports & analytics], and then display the Advanced Filter in [!DNL report builder], the Advanced filter will display the segment for the selected report suite only. |
 | Otros filtros &gt; Míos | Muestra todos los segmentos de su propiedad. |
-| Otros filtros &gt; Compartidos conmigo | Muestra todos los segmentos que otros comparten con usted. |
-| Otros filtros &gt; Favoritos | Muestra todos los segmentos que haya marcado como Favoritos. |
-| Otros filtros &gt; Aprobados | Muestra todos los segmentos aprobados oficialmente. |
+| Otros filtros &gt; Compartidos conmigo | Muestra todos los segmentos que se han  compartido con usted. |
+| Otros filtros &gt; Favoritos | Muestra todos los segmentos que ha marcado como  Favoritos. |
+| Otros filtros &gt; Aprobados | Muestra todos los segmentos oficialmente  aprobados. |
 
 ## Añadir un control de segmento a un libro {#section_E3E5149A8464441FA5445A98DBD520AC}
 
@@ -115,7 +114,7 @@ El Creador de informes 5.4 permite añadir, eliminar, reemplazar y reemplazar to
 
    | Opción | Descripción |
    |---|---|
-   | Añadir segmento | Permite elegir uno o más segmentos para añadirlos a la lista de segmentos actuales. |
+   | Agregue Segmento | Permite elegir uno o más segmentos para añadirlos a la lista de segmentos actuales. |
    | Reemplazar segmentos | Permite elegir los segmentos que se reemplazarán por uno o más segmentos. |
    | Reemplazar todos los segmentos por | Permite elegir uno o más segmentos para reemplazar por ellos los segmentos actuales. |
    | Eliminar segmentos | Permite eliminar los segmentos de las solicitudes. |
