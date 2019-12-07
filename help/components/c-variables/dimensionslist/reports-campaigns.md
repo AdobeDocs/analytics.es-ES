@@ -1,11 +1,10 @@
 ---
 description: Muestra información sobre la eficacia de los esfuerzos de publicidad. Puede ver qué tipo de publicidad le aporta mayor tráfico y qué empleado está a cargo de dicha publicidad.
-solution: Analytics
 title: Campañas
 topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
