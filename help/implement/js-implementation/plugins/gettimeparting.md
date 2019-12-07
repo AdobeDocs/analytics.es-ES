@@ -1,13 +1,12 @@
 ---
 description: El complemento getTimeParting rellena variables personalizadas con los valores de hora del día, día de la semana y fin de semana y día laborable. Analysis Workspace incluye dimensiones de división del tiempo. Debe utilizarse el complemento si se necesitan las dimensiones de división del tiempo en otras soluciones de Analytics fuera de Analysis Workspace.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getTimeParting
 topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
