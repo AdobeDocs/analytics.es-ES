@@ -1,12 +1,11 @@
 ---
 description: Ejemplos que ofrecen información sobre cómo importar clasificaciones numéricas 2.
-solution: Analytics
 subtopic: Classifications
 title: Ejemplos
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ En este caso, se ha creado la clasificación en el administrador de [!UICONTROL 
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 
-In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~`) and Product2 had a cost of 30% of its revenue. Because you are importing a new row, `~MyCost^~id~` is blank.
+En enero, Product1 tenía un coste del 20% de sus ingresos (aparece en `~MyCost^~value~`) y Product2 tenía un coste del 30% de sus ingresos. Como está importando una fila nueva, `~MyCost^~id~` está en blanco.
 
 ## Resultado {#section_E0569289C9B34C479C7D2CD9ECBF866E}
 
@@ -68,7 +67,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-En febrero, el coste del usuario para Product1 se redujo al 15 % de los ingresos y Product2 bajó al 25 % de los ingresos.
+En febrero, el coste del usuario para Product1 bajó al 15% de los ingresos y el de Product2 bajó al 25% de sus ingresos.
 
 ## Resultado {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -130,7 +129,7 @@ Informe: Productos
 | Productos | Ingresos | MyCost |
 |---|---|---|
 | Product1 | 11 023,75 $ | 3.000,00 $ |
-| Product2 | 8000,12 $ | 2.000,00 $ |
+| Product2 | 8000,12 $ | $2.000,00 |
 
 <!-- 
 
@@ -168,7 +167,7 @@ Informe: Productos
 |---|---|---|
 | Product1 | 10 000,23 $ | 2.500,05 $ |
 
-> [!NOTE] Esta función es para que los usuarios avanzados aproximen los valores. La información resultante no deberá tratarse como valores exactos.
+> [!NOTE] esta función es para que los usuarios avanzados aproximen los valores. La información resultante no deberá tratarse como valores exactos.
 
 <!-- 
 
@@ -197,7 +196,7 @@ Informe: Productos por página
 | Productos por página | Pedidos | MyCost |
 |---|---|---|
 | Product1 | 1000 | 1.000,00 $ |
-| Página principal | 600 | 600 $ |
+| Página principal | 600 | $600 |
 | Carro de compras | 400 | 400 $ |
 
 <!-- 
