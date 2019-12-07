@@ -1,13 +1,12 @@
 ---
 description: Las variables de página rellenan directamente un informe, como pageName, Props de lista, Variables de lista, etc.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,6 +26,6 @@ Se utiliza para páginas no seguras. If *`trackingServer`* is defined, nothing g
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| N.D. | N.D. | N.D. | "" |
+| N/D | N/D | N/D | "" |
 
 [Aquí](https://helpx.adobe.com/analytics/kb/determining-data-center.html) podrá consultar una lista de centros de datos de Adobe.
