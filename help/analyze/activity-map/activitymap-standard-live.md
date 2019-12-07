@@ -1,11 +1,10 @@
 ---
 description: Activity Map dispone de dos modos básicos para crear informes complementarios de la actividad de la página.
-solution: Analytics
 title: Modo Estándar y modo Activo
 topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
