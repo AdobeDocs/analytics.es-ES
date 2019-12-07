@@ -1,12 +1,11 @@
 ---
 description: Las empresas usan Analytics para determinar el éxito de una campaña de correo electrónico.
 keywords: Analytics Implementation
-solution: Analytics
 title: Seguimiento de correo electrónico externo
 topic: Developer and implementation
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
