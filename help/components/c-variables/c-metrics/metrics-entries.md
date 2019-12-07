@@ -1,11 +1,10 @@
 ---
 description: Entradas representa el número de veces que un valor determinado se captura como el primero de una visita. Entradas solo tiene lugar una vez por visita. No obstante, no tiene por qué ser necesariamente la primera visita si no se ha definido la variable.
-solution: Analytics
 title: Entradas
 topic: Metrics
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
