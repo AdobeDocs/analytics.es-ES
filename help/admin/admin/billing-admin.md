@@ -1,11 +1,10 @@
 ---
 description: La página Facturación permite acceder a la información de facturación, que contiene los detalles de tráfico correspondientes a cada grupo de informes. Solo los administradores autorizados tienen acceso a esta página.
-solution: Analytics
 title: Facturación
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 La página Facturación permite acceder a la información de facturación, que contiene los detalles de tráfico correspondientes a cada grupo de informes. Solo los administradores autorizados tienen acceso a esta página.
 
-> [!NOTE] Si su empresa ha deshabilitado el acceso a la ficha de facturación, póngase en contacto con el administrador de cuentas.
+> [!NOTE] Si una empresa tiene deshabilitado el acceso a la ficha de facturación, deberá ponerse en contacto con el Administrador de cuentas correspondiente.
 
 Los datos de información general del tráfico de la página de facturación permiten establecer una correlación entre los datos de vistas de página de los informes y las llamadas al servidor facturables incluidas en la factura. La página [!UICONTROL Facturación] permite lo siguiente:
 
@@ -40,7 +39,7 @@ El informe de [!UICONTROL facturación mensual] resultante incluirá la siguient
 | Vínculos personalizados | Vínculos personalizados totales por cada grupo de informes. Puede confirmar los valores de vínculos personalizados en Contenido del sitio &gt; Vínculos &gt; Vínculos personalizados. |
 | Vínculos de salida | Vínculos de salida totales por cada grupo de informes. Puede confirmar los valores de vínculos de salida en Contenido del sitio &gt; Vínculos &gt; Vínculos de salida. |
 
-> [!NOTE] Para obtener una copia de trabajo del informe Factura  mensual, cópielo en el portapapeles y péguelo en un programa de hojas de cálculo como Microsoft Excel*.
+> [!NOTE] Para obtener una copia de trabajo del informe de [!UICONTROL Facturación mensual], es necesario copiar este informe en el portapapeles y pegarlo en un programa de hoja de cálculo como Microsoft Excel*.
 
 ## Fecha de informes vs. Fecha de procesamiento {#section_51A48C2F223F4904BE1407C13333C457}
 
