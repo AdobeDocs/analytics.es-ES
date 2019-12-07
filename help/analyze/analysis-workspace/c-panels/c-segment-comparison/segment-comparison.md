@@ -1,10 +1,9 @@
 ---
 title: Información general del panel de comparación de segmentos
 description: Aprenda a utilizar el panel de comparación de segmentos, que forma parte de IQ de segmento en Analysis Workspace.
-keywords: Analysis Workspace;IQ de segmento
-solution: Analytics
-translation-type: ht
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+keywords: Analysis Workspace;Segment IQ
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
