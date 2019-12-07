@@ -1,13 +1,12 @@
 ---
 description: Las variables de página rellenan directamente un informe, como pageName, Props de lista, Variables de lista, etc.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: Variables de página
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,10 +47,10 @@ Las variables de página rellenan directamente un informe, como pageName, Props 
 * [plugins](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/plugins.html)
 * [propN](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/propn.html)
 * [purchaseID](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/purchaseid.html)
-* [referrer](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/referrer.html)
+* [referente](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/referrer.html)
 * [resolution](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/resolution.html)
 * [s_objectID](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/sobjectid.html)
-* [server](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/server.html)
+* [servidor](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/server.html)
 * [state](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/state.html)
 * [timestamp](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/timestamp.html)
 * [trackingServer](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables/trackingserver.html)
