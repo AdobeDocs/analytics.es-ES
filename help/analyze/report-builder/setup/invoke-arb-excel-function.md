@@ -1,11 +1,10 @@
 ---
 description: Esta capacidad integra aún más el uso del Creador de informes dentro del flujo de trabajo natural de Excel, sin necesidad de acceder a la interfaz de usuario del Creador de informes.
-solution: Analytics
 title: Invocar la funcionalidad del Report Builder desde las funciones de Microsoft Excel
 topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
