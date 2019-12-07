@@ -1,11 +1,10 @@
 ---
 description: Determina la cantidad de ingresos generados entre todos los productos durante un período de tiempo específico.
-solution: Analytics
 title: Ingresos
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,7 +19,7 @@ Utilice Ingresos para comprobar el nivel de éxito general y la tendencia de su 
 
 * A continuación se indican los requisitos que deben cumplirse para que este informe pueda recopilar datos correctamente. En la misma solicitud de imagen, debe suceder lo siguiente:
 
-   * Un evento de compra ([!UICONTROL purchase]) debe activarse en la `s.events` campaign.
+   * Un evento de compra ([!UICONTROL purchase]) debe activarse en la  `s.events` campaign.
 
    * La variable `products` debe aparecer definida con un número en el campo de precio.
    * Por ejemplo, en este caso se pasarían 35,99 $ al informe de ingresos:
@@ -37,11 +36,11 @@ Utilice Ingresos para comprobar el nivel de éxito general y la tendencia de su 
 
    >[!NOTE]
    >
-   >Los ingresos no se multiplican si la cantidad aumenta en un solo producto. For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >Los ingresos no se multiplican si la cantidad se incrementa en un solo producto. Por ejemplo, [!DNL s.products="Womens;Socks;5;4.50"] no pasa a 22,50 $ a los informes, sino que pasa 4,50 $. Compruebe que la implementación pasa los ingresos totales en relación con la cantidad enumerada ([!DNL s.products="Womens;Socks;5;22.50"]).
 
 * [!UICONTROL Ingresos] redondea la cantidad total de un período de tiempo al valor de divisa más cercano. No redondea cada producto individual o entrada.
 * Como Analytics redondea cada día a la divisa entera más cercana, la suma de cada día estará mínimamente desajustada si se compara con el total mensual. Esto se debe a que el total mensual no es la suma de cada día redondeado, sino la suma absoluta redondeada a la divisa entera más cercana.
-* Puede crear un informe que no redondee los ingresos a la divisa entera más cercana. Para ello, utilice una [métrica calculada](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+* Puede crear un informe que no redondee los ingresos a la divisa entera más cercana. Para ello, utilice una  [métrica calculada](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
 * Salvo que se utilice la variable `purchaseID`, es posible que los usuarios que actualicen la página aumenten los ingresos ya que, al hacerlo, enviarán estos datos a Adobe varias veces.
 * Los desgloses por hora se basan en el huso horario del grupo de informes.
 * Este informe no contiene elementos de línea. Solo puede verse en formato de tendencias.
@@ -63,17 +62,17 @@ Utilice Ingresos para comprobar el nivel de éxito general y la tendencia de su 
 
 * Los desgloses no están disponibles por hora.
 
-## Propiedades específicas de productos {#section_ED87FFD020634453AABE86B0248BE69B}
+## Propiedades específicas de productos  {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* This report can be accessed by going to **[!UICONTROL Conversion]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* Puede acceder a este informe desde **[!UICONTROL Conversión]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Ingresos]**.
 
 * Los desgloses de [!UICONTROL fuentes de tráfico] se pueden encontrar en [!UICONTROL Métodos de búsqueda].
 
-* This report can be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* Puede acceder a este informe desde **[!UICONTROL Métricas del sitio]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Ingresos]**.
 
 * Además de todos los desgloses enumerados anteriormente, también están disponibles los desgloses de [!UICONTROL Canal de marketing de primer toque y último toque].
 
-* This report can also be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* También puede acceder a este informe desde **[!UICONTROL Métricas del sitio]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Ingresos]**.
 
 * Además de los desgloses mencionados anteriormente, se pueden utilizar las variables de [!UICONTROL lista] y las variables actuales de [!UICONTROL vídeo].
 
