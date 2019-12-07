@@ -1,13 +1,12 @@
 ---
 description: Colocar la llamada al archivo de biblioteca JavaScript en la parte superior de la página garantiza que la imagen estará entre los primeros elementos que se descarguen.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: Ubicación y simultaneidad del archivo JavaScript
 topic: Developer and implementation
 uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
