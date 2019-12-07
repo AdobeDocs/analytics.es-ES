@@ -1,11 +1,10 @@
 ---
 description: Los informes de métricas del sitio muestran información cuantitativa sobre el sitio Web. Por ejemplo, muestran cuántas veces miran los visitantes las páginas, las cantidades de compras realizadas desde páginas determinadas, el tiempo empleado en páginas y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
-solution: Analytics
 title: Métricas del sitio
 topic: Reports
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ Los informes de métricas del sitio muestran información cuantitativa sobre el 
 
 Los informes [!UICONTROL Métricas del sitio] muestran información cuantitativa sobre el sitio web. Por ejemplo, muestran cuántas veces miran los visitantes las páginas, las cantidades de compras realizadas desde páginas determinadas, el tiempo empleado en páginas y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
-Los informes de métricas son [de tendencias](/help/components/c-variables/dimensionslist/reports-types.md) con el tiempo. Es decir, se puede aplicar granularidad de hora y día de la semana para estos informes.
+Los informes de métricas son  [de tendencias](/help/components/c-variables/dimensionslist/reports-types.md) con el tiempo. Es decir, se puede aplicar granularidad de hora y día de la semana para estos informes.
 
 * [Vistas de páginas](/help/components/c-variables/dimensionslist/reports-page-views.md)
 * [Informe de visitas](/help/components/c-variables/dimensionslist/reports-visits.md)
