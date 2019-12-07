@@ -1,11 +1,10 @@
 ---
 description: Pasos para ejecutar los distintos tipos de informes.
-solution: Analytics
 title: Ejecutar diferentes tipos de informes
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Pasos para ejecutar los distintos tipos de informes.
 
 ## Ejecutar un informe de clasificación {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-En los informes de clasificación, la tabla muestra las clasificaciones de las páginas del informe en relación con la métrica, según un número o un porcentaje. Los informes de clasificación pueden mostrar varias métricas dentro de un mismo informe.
+En los informes de clasificación, la tabla muestra las clasificaciones de las páginas del informe en relación con la métrica, según un número o un porcentaje. Los informes de clasificación pueden mostrar varias métricas a la vez.
 
 <!-- 
 
@@ -77,12 +76,12 @@ Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://m
 1. In [!UICONTROL Adobe Analytics], click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Fallout]**.
 1. En la página [!UICONTROL Informe de visitas en el orden previsto]**, haga clic en[!UICONTROL Iniciar Report Builder para visitas en el orden previsto]**.
 
-   ![Resultado (](assets/fallout_add_items.png)
+   ![Resultado de pasos](assets/fallout_add_items.png)
 
 1. En la página [!UICONTROL Definir puntos de comprobación], especifique los puntos de comprobación que desee utilizar para el informe.
 1. Click **[!UICONTROL Run Report]**.
 
-   ![Resultado (](assets/fallout_report.png)
+   ![Resultado de pasos](assets/fallout_report.png)
 
 >[!MORELIKETHIS]
 >
