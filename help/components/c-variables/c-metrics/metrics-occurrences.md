@@ -1,11 +1,10 @@
 ---
 description: Número de veces que se captura un valor específico más el número de vistas de página para el que persistió el valor dado. En otras palabras, las ocurrencias son la suma de vistas de página y eventos de página. Las ocurrencias están disponibles en Analysis Workspace y en Ad Hoc Analysis.
-solution: Analytics
 title: Ocurrencias
 topic: Metrics
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Número de veces que se captura un valor específico más el número de vistas de página para el que persistió el valor dado. En otras palabras, las ocurrencias son la suma de vistas de página y eventos de página. Las ocurrencias están disponibles en Analysis Workspace y en Ad Hoc Analysis.
 
-## Comparación de instancias y ocurrencias {#section_4B0741AC1A78456E98AE0D4D28D70D29}
+## Comparación de instancias y ocurrencias  {#section_4B0741AC1A78456E98AE0D4D28D70D29}
 
 Se muestran dos métricas que parecen similares:
 
