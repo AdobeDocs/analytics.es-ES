@@ -1,12 +1,11 @@
 ---
 description: Un conjunto de reglas es un grupo de reglas de clasificación para una variable específica. La variable se aplica al conjunto de reglas. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes.
-solution: Analytics
 subtopic: Classifications
 title: Conjuntos de reglas de clasificación
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,9 +18,9 @@ Un conjunto de reglas es un grupo de reglas de clasificación para una variable 
 
 Un conjunto de reglas es un grupo de reglas de clasificación para una variable específica. La variable se aplica al conjunto de reglas. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes.
 
-## Página Clasificación del Generador de reglas {#section_C60B0888C76D49C596EF19F11808B718}
+## Página Clasificación del Generador de reglas  {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Generador de reglas **[!UICONTROL de clasificación]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Clasificación del generador de reglas]**
 
 Los campos y las opciones disponibles en el [!UICONTROL Generador de reglas de clasificación] son los siguientes:
 
@@ -56,7 +55,7 @@ Los campos y las opciones disponibles en el [!UICONTROL Generador de reglas de c
  </tbody> 
 </table>
 
-## Create a Classification Rule Set {#create-classification-rule-set}
+## Crear un conjunto de reglas de clasificación {#create-classification-rule-set}
 
 <!-- 
 
@@ -66,27 +65,27 @@ t_classification_rule_set.xml
 
 Nombre el conjunto de reglas de clasificación, aplique la variable y especifique la configuración de sobrescritura.
 
-1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. (Requisito previo) Defina la estructura de clasificación en **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupo de informes]**.
 
    (Consulte [Clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) en la ayuda de las herramientas de administración, donde se trata la adición de clasificaciones).
 
    Las variables se mostrarán en el panel [!UICONTROL Nuevo conjunto de reglas] solo después de haber definido como mínimo una clasificación para la variable.
 
-   You can create classifications on a variable in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]** (or **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**). A continuación, debe seleccionar la variable y hacer clic en **[!UICONTROL Agregar clasificación]**.
+   El usuario puede crear clasificaciones en variables desde **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupo de informes]** &gt; **[!UICONTROL Tráfico]** &gt; **[!UICONTROL Clasificaciones de tráfico]** (o **[!UICONTROL conversión]** &gt; **[!UICONTROL Clasificaciones de conversión]**). A continuación, debe seleccionar la variable y hacer clic en **[!UICONTROL Agregar clasificación]**.
 
-1. To create the rule set, click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Rule Builder]** &gt; **[!UICONTROL Add Rule Set]**.
+1. Para crear el conjunto de reglas, haga clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Clasificación del Generador de reglas]** &gt; **[!UICONTROL Añadir conjunto de reglas]**.
 
    ![](assets/new_rule_set.png)
 
-1. Name the rule set, then click **[!UICONTROL Create Rule Set]**.
+1. Especifique un nombre para el conjunto de reglas y haga clic en **[!UICONTROL Crear conjunto de reglas]**.
 1. Seleccione el conjunto de reglas para editar.
 
    ![](assets/classification_rules_page.png)
 
-1. Click **[!UICONTROL Select Report Suites and Variables]**.
+1. Haga clic en **[!UICONTROL Seleccionar grupos de informes y variables]**.
 
    El grupo de informes y la lista de variables se rellenarán con todas las variables disponibles clasificadas en todos los grupos de informes de la empresa de inicio de sesión. Cada variable única de un grupo de informes solo puede pertenecer a un conjunto de reglas.
 
    Consulte *`Variable`* en las definiciones de la página [Generador de reglas de clasificación](/help/components/c-classifications2/crb/classification-rule-definitions.md) para obtener más información.
-1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
-1. Continue by [adding classification rules](/help/components/c-classifications2/crb/classification-rule-set.md) to the rule set.
+1. Especifique los grupos de informes y las variables que se usarán y luego haga clic en **[!UICONTROL Guardar]**.
+1. Después, [agregue las reglas de clasificación](/help/components/c-classifications2/crb/classification-rule-set.md) al conjunto de reglas.
