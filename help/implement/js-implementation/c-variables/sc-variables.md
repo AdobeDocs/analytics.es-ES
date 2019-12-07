@@ -1,13 +1,12 @@
 ---
 description: Analytics proporciona varias variables para recopilar los datos que necesita. Por ejemplo, el valor de la variable pageName es el nombre de la página web para la que se crea el informe. En esta sección se describen las variables que admite AppMeasurement.
 keywords: Analytics Implementation;appmeasurement variables
-solution: Analytics
 subtopic: Variables
 title: Resumen de las variables
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
