@@ -1,12 +1,11 @@
 ---
 description: El archivo de importación y exportación incluye seis columnas para cada clasificación numérica 2.
-solution: Analytics
 subtopic: Classifications
 title: Importar clasificaciones numéricas 2
 topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,15 +22,15 @@ Las siguientes definiciones asumen que el nombre de su clasificación numérica 
 
 **~MyCost:** un nombre descriptivo para la fila.
 
-**~~MyCost^~id**: ID para editar una fila existente. Cuando añada una fila nueva, esto debería estar en blanco. Al llevar a cabo exportaciones desde el Administrador de clasificación, se asigna automáticamente un ID.
+**~MyCost^~id~:** El ID para editar una fila existente. Cuando añada una fila nueva, esto debería estar en blanco. Al llevar a cabo exportaciones desde el Administrador de clasificación, se asigna automáticamente un ID.
 
-**~~MyCost^~value**: Valor de la fila. Si la columna de la tasa es fija, entonces se trata de un valor determinado que se distribuye a lo largo de todo el periodo. Si la columna de tasa es un evento, entonces es el multiplicador de dicho evento. Esta entrada no debe contener comas.
+**~MyCost^~value~:** El valor de la fila. Si la columna de la tasa es fija, entonces se trata de un valor determinado que se distribuye a lo largo de todo el periodo. Si la columna de tasa es un evento, entonces es el multiplicador de dicho evento. Esta entrada no debe contener comas.
 
-**~~MyCost^~period**: Período de tiempo al que corresponde esta fila. Debe incluir las fechas de inicio y finalización, separadas por un guión. El guión debe escribirse entre espacios. La definición debe tener el formato siguiente:
+**~MyCost^~period~:** El periodo de tiempo al que corresponde esta fila. Debe incluir las fechas de inicio y finalización, separadas por un guión. El guión debe escribirse entre espacios. La definición debe tener el formato siguiente:
 
 AAAA/MM/DD - AAAA/MM/DD
 
-**~~MyCost^~rate**: Evento que se multiplicará por la columna [!UICONTROL Valor] . Los valores válidos son:
+**~MyCost^~rate~~:** El evento a multiplicar por la columna [!UICONTROL Valor]. Los valores válidos son:
 
 * fijo: para indicar que se trata de un valor único que debe propagarse a lo largo del periodo.
 * revenue
@@ -44,8 +43,8 @@ AAAA/MM/DD - AAAA/MM/DD
 * checkout
 * scadd
 * scremove
-* event 1
-* event 2
+* evento 1
+* evento 2
 * etc.
 
-**~~MyCost^~hinge**: Evento que se utiliza para distribuir el valor durante un desglose. This value is often the same as [!UICONTROL ~MyCost^~rate~], unless you are using [!UICONTROL fixed]. The valid values for this column are identical to that of [!UICONTROL ~MyCost^~rate~], with the addition of [!UICONTROL none].
+**~MyCost^~hinge~:** El evento que se debe utilizar para distribuir el valor durante un desglose. Este valor suele ser el mismo que [!UICONTROL ~MyCost^~rate~~], a menos que esté utilizando [!UICONTROL fijo]. Los valores válidos para esta columna son idénticos a los de [!UICONTROL ~MyCost^~rate~~], con el añadido de [!UICONTROL ninguno].
