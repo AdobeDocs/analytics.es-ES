@@ -1,12 +1,11 @@
 ---
 description: Descripciones de los campos de la configuración general del administrador dinámico de etiquetas para la implementación de Adobe Analytics.
 keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
-solution: Analytics
 title: General
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,7 +43,7 @@ Descripciones de los campos de la configuración general de DTM para la implemen
    <td colname="col2"> <p>Muestra los conjuntos de codificación de caracteres disponibles. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Código de divisa </p> </td> 
+   <td colname="col1"> <p>Código de moneda </p> </td> 
    <td colname="col2"> <p>Muestra los códigos de divisa admitidos para la selección. </p> </td> 
   </tr> 
   <tr> 
