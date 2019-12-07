@@ -1,11 +1,10 @@
 ---
 description: Ofrece un análisis completo, preciso y detallado de la actividad de los clientes. Las métricas, como Administración de campañas, Ciclo de ventas, Visitas de clientes en el orden previsto y Conversión de clientes, permiten medir las transacciones de comercio electrónico, las fuentes de ventas, la eficacia de la publicidad, la lealtad de los clientes y mucho más.
-solution: Analytics
 title: Conversión
 topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Ofrece un análisis completo, preciso y detallado de la actividad de los clientes. Las métricas, como Administración de campañas, Ciclo de ventas, Visitas de clientes en el orden previsto y Conversión de clientes, permiten medir las transacciones de comercio electrónico, las fuentes de ventas, la eficacia de la publicidad, la lealtad de los clientes y mucho más.
 
-Por ejemplo, si desea ver qué tipo de campañas internas de la página principal tuvieron como resultado una compra, primero deberá capturar los códigos de seguimiento internos y establecer la persistencia en un período de una visita para la *`s.eVar`* que captura campañas internas. Cuando finaliza un evento de éxito (por ejemplo, una compra), el crédito de ese éxito se otorga a cualquier variable de conversión que sea persistente en el visitante; por ejemplo, un ID de campaña interna. Si ejecuta el [!UICONTROL informe de campaña interna], podrá ver qué campaña generó la mayor conversión en el sitio.
+Por ejemplo, si desea ver qué tipo de campañas internas de la página principal tuvieron como resultado una compra, primero deberá capturar los códigos de seguimiento internos y establecer la persistencia en un período de una visita para la  *`s.eVar`* que captura campañas internas. Cuando finaliza un evento de éxito (por ejemplo, una compra), el crédito de ese éxito se otorga a cualquier variable de conversión que sea persistente en el visitante; por ejemplo, un ID de campaña interna. Si ejecuta el [!UICONTROL informe de campaña interna], podrá ver qué campaña generó la mayor conversión en el sitio.
 
-Algunos de los informes listos para usarse contienen tanto métricas de tráfico como de conversión (tales como los informes [!UICONTROL Motor de búsqueda]). Sin embargo, los informes [!UICONTROL Tráfico] y [!UICONTROL Conversión] son únicos para su organización y se muestran en los menús **[!UICONTROL Tráfico personalizado]** y **Conversión personalizada[!UICONTROL .]**
+Algunos de los informes listos para usarse contienen tanto métricas de tráfico como de conversión (tales como los informes [!UICONTROL Motor de búsqueda]). Sin embargo, los informes [!UICONTROL Tráfico] y [!UICONTROL Conversión] son únicos para su organización y se muestran en los menús **[!UICONTROL Tráfico personalizado]** y **[!UICONTROL Conversión personalizada]**.
 
 **Propiedades de los informes**
 
