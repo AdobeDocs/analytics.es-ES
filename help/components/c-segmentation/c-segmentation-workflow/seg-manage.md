@@ -1,11 +1,10 @@
 ---
 description: El Administrador de segmentos ofrece numerosas maneras de conservar los segmentos, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
-solution: Analytics
 title: Administración de segmentos
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,14 +15,14 @@ El Administrador de segmentos ofrece numerosas maneras de conservar los segmento
 
 El Administrador de segmentos de Analytics le muestra todos los segmentos que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todos los segmentos de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del Administrador de segmentos. Acceda al Administrador de segmentos de una de las siguientes maneras:
 
-* Going to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Segments]** in the top navigation.
-* Muestre un informe existente y haga clic en el icono de Segmentos ![ en el menú de navegación de la izquierda. ](assets/segment_icon.png) A continuación, haga clic en **[!UICONTROL Administrar]**.
+* Vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Segmentos]** en la parte superior de la navegación.
+* Muestre un informe existente y haga clic en el icono de Segmentos ![](assets/segment_icon.png) en el menú de navegación de la izquierda. A continuación, haga clic en **[!UICONTROL Administrar]**.
 
 ## Vídeo explicativo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
 En este [vídeo de YouTube de Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&index=6&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) se proporciona una breve descripción sobre cómo utilizar el administrador de segmentos.
 
-## Interfaz de usuario del Administrador de segmentos {#section_7FDCD12949BE4741A402DB83AB7B37DF}
+## Interfaz de usuario del Administrador de segmentos  {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
 ![](assets/segment_manager_ui.png)
 
@@ -44,13 +43,13 @@ En este [vídeo de YouTube de Adobe Analytics](https://www.youtube.com/watch?v=C
 | 13 | Icono de aprobado | Indica que un administrador ha aprobado este segmento. |
 | 14 | Filtros | Permite ver y seleccionar los filtros de Etiquetas, Conjuntos de informes, Propietarios y Otros (Mostrar todo, Míos, Compartidos conmigo, Aprobados y Favoritos). |
 
-## Administrador de segmentos en Análisis específicos {#section_CC8BDC968EBC4BC1919870869D8443A9}
+## Administrador de segmentos en Ad Hoc Analysis {#section_CC8BDC968EBC4BC1919870869D8443A9}
 
 El Organizador de segmentos en análisis específicos le muestra todos los segmentos que posee y todos los que han compartido con usted.
 
 Para acceder al Organizador de segmentos en [!DNL ad hoc analysis]:
 
-* Vaya a la ficha **[!UICONTROL Segmentos]** en el panel de la izquierda, haga clic en el icono de la llave inglesa ![ y seleccione **Organizar segmentos]en el menú.](assets/wrench_icon.png)[!UICONTROL **
+* Vaya a la ficha **[!UICONTROL Segmentos]** en el panel de la izquierda, haga clic en el icono de la llave inglesa ![](assets/wrench_icon.png) y seleccione **[!UICONTROL Organizar segmentos]** en el menú.
 
 ![](assets/ad_hoc_organize_segments.png)
 
