@@ -1,11 +1,10 @@
 ---
 description: La sección Tráfico permanente permite cambiar los niveles de tráfico esperados, para que Adobe pueda reasignar los recursos necesarios para el nuevo nivel de tráfico.
-solution: Analytics
 title: Especificar un incremento de tráfico permanente
 topic: Admin tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -16,15 +15,15 @@ La sección Tráfico permanente permite cambiar los niveles de tráfico esperado
 
 Lea la información sobre [Tiempo de espera necesario para aumentos de tráfico](/help/admin/c-traffic-management/traffic-lead-time.md) para especificar un aumento de tráfico permanente.
 
-1. Open the Report Suite Manager by clicking **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Para abrir el Administrador de grupos de informes, haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic Management]** &gt; **[!UICONTROL Permanent Traffic]**.
-1.  En el campo **Nuevas vistas de página diarias esperadas**, especifique el número total de vistas de página diarias esperadas con el nuevo nivel de tráfico.
+1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Administración de tráfico]** &gt; **[!UICONTROL Tráfico permanente]**.
+1. En el campo **[!UICONTROL Nuevas vistas de página diarias esperadas]**, especifique el número total de vistas de página diarias esperadas con el nuevo nivel de tráfico.
 
    Asegúrese de indicar el número total de vistas de página esperadas, no solo las vistas de página adicionales.
-1. En el campo **Fecha de aplicación**, especifique la fecha en la que espera que comience el nuevo nivel de tráfico y haga clic en **[!UICONTROL Enviar]**.
+1. En el campo **[!UICONTROL Fecha de aplicación]**, especifique la fecha en la que espera que comience el nuevo nivel de tráfico y haga clic en **[!UICONTROL Enviar]**.
 
    >[!NOTE]
    >
-   >Para programar un aumento permanente del tráfico, incluya un número de teléfono en la información de contacto del usuario para que Adobe pueda comunicarse con usted si tiene alguna pregunta.
+   >Para programar un aumento de tráfico permanente, incluya un número de teléfono en su información de contacto de usuario para que Adobe pueda comunicarse con usted si tiene alguna pregunta.
 
