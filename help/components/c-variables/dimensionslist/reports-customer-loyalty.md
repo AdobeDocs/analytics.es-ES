@@ -1,16 +1,15 @@
 ---
 description: Lealtad del cliente revela los patrones de compra de los clientes.
-solution: Analytics
 title: Lealtad del cliente
 topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Lealtad del cliente
+# Lealtad del cliente 
 
 Lealtad del cliente revela los patrones de compra de los clientes.
 
