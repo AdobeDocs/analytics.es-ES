@@ -1,12 +1,11 @@
 ---
 description: El archivo de plantilla de importaciones está diseñado para proporcionarle los conceptos básicos de importación.
-solution: Analytics
 subtopic: Data sources
 title: Generación de plantillas de archivo de importación
 topic: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Consulte [Referencia sobre el archivo de importación](/help/import/c-data-sourc
    | Página del Asistente | Campo | Descripción |
    |--- |--- |--- |
    | 1 | Nombre | El nombre de la plantilla que Analytics muestra en el Administrador de fuentes de datos. |
-   | 1 | Correo electrónico | El correo electrónico al que se envían todas las notificaciones relacionadas con el uso de esta plantilla de fuente de datos. |
+   | 1 | Correo electrónico  | El correo electrónico al que se envían todas las notificaciones relacionadas con el uso de esta plantilla de fuente de datos. |
    | 1 | Casilla de verificación Tarifas asociadas | Seleccione la casilla de verificación para indicar que acepta las tarifas asociadas con el uso de esta plantilla de fuente de datos. |
    | 2 | Elegir métricas | Seleccione las métricas que desea importar con esta fuente de datos. Analytics recomienda determinadas métricas en función de la categoría y el tipo de fuente de datos seleccionados en el paso 3.  Para indicar otra métrica, escriba su nombre en un campo vacío y marque la casilla de verificación para habilitar la métrica. |
    | 3 | Asignar métricas | Seleccione un evento de Analytics para recibir cada métrica importada seleccionada en la página 2 del Asistente.  Debe usar eventos nuevos todavía no asignados a los que antes les haya asignado nombres que se correspondan con los datos de métricas importadas que recibirán a través de la fuente de datos.  Si se usa como variable de destino una eVar o una variable de producto o de código de seguimiento, y los valores cargados coinciden con valores capturados ya existentes, los eventos cargados básicamente agregarán las métricas a los valores preexistentes. Por ejemplo, puede crear una métrica "Pedidos sin conexión" con una dimensión de datos Productos que ya tenga Vistas del producto, Cierres de compras y Pedidos como métricas existentes. |
