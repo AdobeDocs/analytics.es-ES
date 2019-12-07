@@ -1,11 +1,10 @@
 ---
 description: Describe un flujo de trabajo sugerido para los segmentos creados con el Generador de segmentos y administrados con el Administrador de segmentos.
-solution: Analytics
 title: Resumen del flujo de trabajo de segmentación
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ seg_workflow.xml
 ![](assets/seg_workflow.png)
 
 
-![](assets/step1_icon.png) Segmentos [ del plan](/help/components/c-segmentation/c-segmentation-workflow/seg-plan.md)
+![](assets/step1_icon.png) [ Planificar segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-plan.md)
 
 ¿Ha hecho las preguntas correctas antes de crear segmentos y establecer un nuevo entorno de administración de segmentos? ¿Ha diseñado el segmento teniendo en cuenta su propósito y su uso específico?
 
@@ -37,7 +36,7 @@ Consulte la lista de comprobación para la planificación de segmentos para obte
 
 Genere y edite segmentos para utilizarlos en todas las capacidades de Analytics.
 
-Consulte [Build Sequential Segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) for how to build segments with the THEN operator.
+Consulte [Generación de segmentos secuenciales](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) para obtener información acerca de cómo generar segmentos con el operador THEN.
 
 ![](assets/step3_icon.png) [ Etiquetar segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
 
@@ -55,11 +54,11 @@ Puede aplicar segmentos directamente desde un informe, desde el carril del segme
 
 Comparta sus segmentos con la audiencia deseada en otras herramientas de Analytics, así como en Adobe Target y Adobe Experience Cloud.
 
-![](assets/step7_icon.png) Segmentos de [ filtro](/help/components/c-segmentation/c-segmentation-workflow/t-seg-filter.md)
+![](assets/step7_icon.png) [ Filtrar segmentos](/help/components/c-segmentation/c-segmentation-workflow/t-seg-filter.md)
 
 Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados).
 
-![](assets/step8_icon.png) [ Marcar segmento como favoritos](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
+![](assets/step8_icon.png) [ Marcar segmentos como favoritos](/help/components/c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
 
 Marcar los segmentos como favoritos es otra manera de organizarlos para que su uso sea más sencillo.
 
