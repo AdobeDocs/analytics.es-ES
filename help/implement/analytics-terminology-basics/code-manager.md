@@ -1,12 +1,11 @@
 ---
 description: El administrador de códigos le permite descargar códigos de recopilación de datos para plataformas web y móviles.
 keywords: Analytics Implementation;data collection;code manager
-solution: Analytics
 title: Administrador de códigos
 topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
