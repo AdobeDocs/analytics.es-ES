@@ -1,12 +1,11 @@
 ---
 description: Agregue datos sin conexión a los informes de canales de mercadotecnia.
-solution: Analytics
 subtopic: Marketing channels
 title: Adición de datos de canales sin conexión
 topic: Reports and analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ Agregue datos sin conexión a los informes de canales de mercadotecnia.
 
 Los canales en línea permiten clasificar los datos de los visitantes que provienen de fuentes como, por ejemplo, un motor de búsqueda, un anuncio de Internet, un dominio de referencia o una campaña de correo electrónico. Los canales sin conexión se aplican a los visitantes que hayan encontrado el sitio mediante anuncios en televisión, periódicos o revistas.
 
-**Integrar las fuentes de datos en los informes de canal de mercadotecnia**
+**Integración de fuentes de datos en informes del Canal de marketing**
 
 Si desea integrar [datos de orígenes de datos](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html) en informes del canal de mercadotecnia, tenga en cuenta lo siguiente:
 
@@ -33,11 +32,11 @@ Consulte "Uso de fuentes de datos" en la [Guía del usuario de fuentes de datos]
 
 **Adición de datos de canales sin conexión**
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+1. Haga clic en **[!UICONTROL Administradores]** &gt; **[!UICONTROL Fuentes de datos]**.
 1. En la página Fuentes de datos, haga clic en **[!UICONTROL Crear.]**
-1. Under **[!UICONTROL 1. Seleccionar categoría]**, seleccione **[!UICONTROL Datos de canal sin conexión]**.
-1. Under **[!UICONTROL 2. Seleccionar tipo]**, seleccione **[!UICONTROL Datos de canal sin conexión]**.
-1. Click **[!UICONTROL Activate.]**
+1. En **[!UICONTROL 1. Seleccionar categoría]**, seleccione **[!UICONTROL Datos de canal sin conexión]**.
+1. En **[!UICONTROL 2. Seleccionar tipo]**, seleccione **[!UICONTROL Datos de canal sin conexión]**.
+1. Haga clic en **[!UICONTROL Activar.]**
 1. Para correlacionar las métricas sin conexión con las métricas de informes, siga las indicaciones del Asistente para la activación de fuentes de datos.
 1. Descargue y edite el archivo de plantilla en un editor como, por ejemplo, Excel.
 
