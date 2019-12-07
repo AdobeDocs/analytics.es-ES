@@ -1,12 +1,11 @@
 ---
 description: Describe cómo se cuentan las instancias en las variables de comercialización.
 keywords: Analytics Implementation
-solution: Analytics
 title: Las instancias en las variables de comercialización
 topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,5 +47,5 @@ s.products=";Fernie Snow Goggles"
 
 La asignación a "Ninguno" se produce cuando se establece un valor para una eVar en una página sin eventos de enlace, o si se establece el valor de la eVar en la cadena de productos sin uno de estos eventos.
 
-> [!NOTE] La funcionalidad actual para contar instancias en variables de comercialización se está revisando y está programado que cambie en una próxima versión.
+> [!NOTE] La funcionalidad actual de recuento de instancias en las variables de comercialización se está revisando y su modificación se ha programado para una versión próxima.
 
