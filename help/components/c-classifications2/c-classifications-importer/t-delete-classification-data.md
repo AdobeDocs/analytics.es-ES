@@ -1,12 +1,11 @@
 ---
 description: Instrucciones sobre cómo eliminar o quitar datos de clasificación.
-solution: Analytics
 subtopic: Classifications
 title: Eliminar datos de clasificación
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,10 +18,10 @@ A veces es necesario eliminar los datos de clasificación después de cargarlos.
 
 La eliminación de datos de clasificación implica la carga de un archivo de clasificación que contenga `~empty~` o `~deletekey~` en las celdas correspondientes.
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Browser Export]**.
+1. Haga clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Importador de clasificaciones]**.
+1. Haga clic en **[!UICONTROL Exportación del navegador]**.
 1. Seleccione el grupo de informes y el conjunto de datos de los que deben eliminarse los datos de clasificación.
-1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
+1. Ajuste la configuración opcional para filtrar los datos específicos que está buscando y haga clic en **[!UICONTROL Exportar archivo]**.
 1. Una vez descargado el archivo, ábralo y reemplace los valores de clasificación por `~empty~` o `~deletekey~`.
 1. Guarde el archivo como archivo de texto delimitado por tabuladores.
 1. Haga clic en **[!UICONTROL Importar archivo]** y vuelva a cargar el archivo de clasificación guardado en Adobe Analytics.
