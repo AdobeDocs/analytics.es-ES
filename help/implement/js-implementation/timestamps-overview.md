@@ -1,12 +1,11 @@
 ---
 description: Conozca las ventajas y limitaciones de utilizar la opción Marcas de hora opcionales.
 keywords: Analytics Implementation
-solution: Analytics
 title: Usar marcas de hora opcionales
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
