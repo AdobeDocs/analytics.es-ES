@@ -1,11 +1,10 @@
 ---
 description: Antes de comenzar a asignar elementos a la hoja de cálculo, compruebe que la hoja no esté protegida. Si el esquema de protección de la hoja de cálculo evita todas las acciones del usuario, no se podrán seleccionar celdas en la hoja. En primer lugar, desproteja la hoja y después añada asignaciones de celda.
-solution: Analytics
 title: Asignación de métricas y dimensiones a las celdas
 topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
