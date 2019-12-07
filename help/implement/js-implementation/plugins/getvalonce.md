@@ -1,13 +1,12 @@
 ---
 description: El complemento getValOnce evita que una determinada variable se establezca en el valor definido anteriormente. Para determinar el último valor visto de una variable, el complemento utiliza una cookie. Si el valor actual coincide con el valor de la cookie, la variable se sobrescribe con una cadena vacía antes de ser remitida a los servidores de procesamiento de Adobe. Este complemento resulta útil para evitar la inflación de instancias de variables de conversión que se produce cuando los usuarios actualizan la página o hacen clic en el botón Atrás.
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getValOnce
 topic: Developer and implementation
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
