@@ -1,12 +1,11 @@
 ---
 description: Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contrario) con reglas de procesamiento.
-solution: Analytics
 subtopic: Processing rules
 title: Dimensiones disponibles para las reglas de procesamiento
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -97,11 +96,11 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parámetro de cadena de consulta </p> </td> 
-   <td colname="col2"> <p>Valor de un parámetro de cadena de consulta especificado en la URL actual, o nulo si no existe ningún parámetro. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>Si se ejecuta AppMeasurement para JavaScript H.25.2 o anterior, la dirección URL de la página puede truncarse al superar los 255 caracteres. AppMeasurement para JavaScript H.25.3 (versión de junio de 2013) y posteriores proporcionan las direcciones URL completas para las reglas de procesamiento. </p> </td> 
+   <td colname="col2"> <p>Valor de un parámetro de cadena de consulta especificado en la URL actual, o nulo si no existe ningún parámetro. Para la dirección URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, el valor del parámetro de cadena de consulta <span class="syntax codeph"> cid</span> es <b>ad1</b> y el valor del <span class="syntax codeph"> nodo</span> del parámetro de cadena de consulta es <b>4</b>. </p> <p>Si se ejecuta AppMeasurement para JavaScript H.25.2 o anterior, la dirección URL de la página puede truncarse al superar los 255 caracteres. AppMeasurement para JavaScript H.25.3 (versión de junio de 2013) y posteriores proporcionan las direcciones URL completas para las reglas de procesamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ruta de página </p> </td> 
-   <td colname="col2"> <p>Ruta de la URL de la página. The path of the URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+   <td colname="col2"> <p>Ruta de la URL de la página. La ruta de la dirección URL <b>https://www.example.com/news/a.html?cid=ad1</b> es <span class="syntax codeph">/news/a.html</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio de página </p> </td> 
@@ -121,7 +120,7 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parámetro de cadena de consulta referente (solo lectura) </p> </td> 
-   <td colname="col2"> <p>Valor de un parámetro de cadena de consulta especificado en la URL referente, o nulo si no existe ningún parámetro. For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>Si se ejecuta AppMeasurement para JavaScript H.25.2 o anterior, la dirección URL de la página puede truncarse al superar los 255 caracteres. AppMeasurement para JavaScript H.25.3 (versión de junio de 2013) y posteriores proporcionan las direcciones URL completas para las reglas de procesamiento. </p> </td> 
+   <td colname="col2"> <p>Valor de un parámetro de cadena de consulta especificado en la URL referente, o nulo si no existe ningún parámetro. Para la dirección URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, el valor del parámetro de cadena de consulta <span class="syntax codeph"> cid</span> es <b>ad1</b> y el valor del <span class="syntax codeph"> nodo</span> del parámetro de cadena de consulta es <b>4</b>. </p> <p>Si se ejecuta AppMeasurement para JavaScript H.25.2 o anterior, la dirección URL de la página puede truncarse al superar los 255 caracteres. AppMeasurement para JavaScript H.25.3 (versión de junio de 2013) y posteriores proporcionan las direcciones URL completas para las reglas de procesamiento. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio de referencia (solo lectura) </p> </td> 
