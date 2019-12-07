@@ -1,19 +1,18 @@
 ---
-description: Agregue o habilite canales de mercadotecnia en el Administrador de canales de mercadotecnia. En los grupos de informes que no tengan canales de mercadotecnia, puede crear varios canales, junto con sus reglas, gracias a una configuración automática. Puede editar los canales predefinidos según sus necesidades o crear otros (hasta un total de 25).
-solution: Analytics
+description: Agregue o habilite canales de marketing en el Administrador de canales de marketing. En los grupos de informes que no tengan canales de mercadotecnia, puede crear varios canales, junto con sus reglas, gracias a una configuración automática. Puede editar los canales predefinidos según sus necesidades o crear otros (hasta un total de 25).
 subtopic: Marketing channels
 title: Administrar Canales de marketing
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Administrar Canales de marketing
 
-Agregue o habilite canales de mercadotecnia en el Administrador de canales de mercadotecnia. En los grupos de informes que no tengan canales de mercadotecnia, puede crear varios canales, junto con sus reglas, gracias a una configuración automática. Puede editar los canales predefinidos según sus necesidades o crear otros (hasta un total de 25).
+Agregue o habilite canales de marketing en el Administrador de canales de marketing. En los grupos de informes que no tengan canales de mercadotecnia, puede crear varios canales, junto con sus reglas, gracias a una configuración automática. Puede editar los canales predefinidos según sus necesidades o crear otros (hasta un total de 25).
 
 Aquí tiene algunas indicaciones para la creación de canales:
 
@@ -26,29 +25,29 @@ La adición de canales a la página [!UICONTROL Canales de mercadotecnia] se rea
 
 Agregue canales de marketing en el Administrador de canales de marketing.
 
-> [!NOTE] No puede eliminar un canal. Si no desea utilizar un canal, puede deshabilitarlo o cambiarle el nombre y guardarlo para utilizarlo después.
+> [!NOTE] Los canales no se pueden eliminar. Si no desea utilizar un canal, puede deshabilitarlo o cambiarle el nombre y guardarlo para utilizarlo después.
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupo de informes]**.
 1. En la página [!UICONTROL Administrador del grupo de informes], seleccione un grupo de informes.
 
    Si selecciona varios grupos de informes, debe seleccionar una plantilla que copie la configuración de la plantilla a los grupos de informes seleccionados.
 
    Consulte [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/t-template.md).
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
+1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Canales de marketing]** &gt; **[!UICONTROL Administrador de canales de marketing]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
+   Si no se han definido canales en el grupo de informes, se abre la página [Configuración automática](/help/components/c-marketing-channels/c-channel-autosetup.md).
 
 1. En la página [!UICONTROL Administrador de canales de mercadotecnia]**, haga clic en[!UICONTROL Agregar canal]**.
 
    Esta opción no está disponible cuando ya se han definido 25 canales.
 
 1. Haga clic en **[!UICONTROL Guardar.]**
-1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
+1. Para configurar las reglas del canal, haga clic en **[!UICONTROL Reglas de procesamiento de canal de marketing]**.
 
-   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
+   Consulte [Creación de reglas de procesamiento para los canales de marketing](/help/components/c-marketing-channels/t-rules.md).
 
-## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
+## Administrador del canal de marketing: definiciones de la interfaz {#mktg-channel-mgr}
 
 Definiciones de los campos de la página [!UICONTROL Administrador del canal de mercadotecnia].
 
@@ -78,7 +77,7 @@ Definiciones de los campos de la página [!UICONTROL Administrador del canal de 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tipo </p> </td> 
-   <td colname="col2"> <p> Especifica cómo llegó el usuario a su sitio web. Puede seleccionar <span class="uicontrol">En línea</span> o <span class="uicontrol">Sin conexión</span>. Utilice los canales en línea para los visitantes que llegaron mediante un motor de búsqueda o una campaña de correo electrónico. Los canales sin conexión se aplican a los visitantes que hayan encontrado el sitio mediante cupones de periódicos o anuncios en revistas. Por lo general, los canales sin conexión incluyen datos importados a través de las fuentes de datos de informes. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Fuentes de datos</a>. </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> Especifica cómo llegó el usuario a su sitio web. Puede seleccionar <span class="uicontrol">En línea</span> o <span class="uicontrol">Sin conexión</span>. Utilice los canales en línea para los visitantes que llegaron mediante un motor de búsqueda o una campaña de correo electrónico. Los canales sin conexión se aplican a los visitantes que hayan encontrado el sitio mediante cupones de periódicos o anuncios en revistas. Por lo general, los canales sin conexión incluyen datos importados a través de las fuentes de datos de informes. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Fuentes de datos</a>. </p> <p>Consulte <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Añadir datos sin conexión</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Color </p> </td> 
