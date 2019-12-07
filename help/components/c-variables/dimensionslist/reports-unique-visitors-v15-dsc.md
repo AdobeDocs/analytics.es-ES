@@ -1,11 +1,10 @@
 ---
 description: Muestra el número de visitantes únicos que accedieron al sitio web. Cada visitante se cuenta solamente una vez, independientemente de cuántas veces haya visitado el sitio web.
-solution: Analytics
 title: Visitantes únicos
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,7 +32,7 @@ Consulte la tabla siguiente para los ejemplos de esta página. Aquí se represen
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Activity Map </p> </td> 
+   <td colname="col1"> <p>Página </p> </td> 
    <td colname="col2"> <p>A </p> </td> 
    <td colname="col3"> <p>C </p> </td> 
    <td colname="col4"> <p>A </p> </td> 
@@ -55,14 +54,14 @@ Consulte la tabla siguiente para los ejemplos de esta página. Aquí se represen
  </tbody> 
 </table>
 
-## Informe de visitantes únicos - Métrica de tendencias {#section_372C08A881D34BBF811C1DE0A1460617}
+## Informe de visitantes únicos - Métrica de tendencias  {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL Los informes de visitantes] únicos se comportan de manera similar en los análisis específicos. Para cada entrada en la que se produzca la visita, el visitante se contabiliza en esa entrada. Cada página recibe el crédito si el visitante está en esa página.
+Los informes de [!UICONTROL visitantes únicos] de la versión  se comportan de manera similar en los Ad Hoc Analysis. Para cada entrada en la que se produzca la visita, el visitante se contabiliza en esa entrada. Cada página recibe el crédito si el visitante está en esa página.
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Activity Map </th> 
+   <th colname="col1" class="entry"> Página </th> 
    <th colname="col2" class="entry"> Visitantes únicos </th> 
   </tr> 
  </thead>
@@ -105,19 +104,19 @@ Además, cada fecha recibe crédito por tener a ese visitante en dicha fecha.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -140,19 +139,19 @@ Puede seleccionar una página para el [!UICONTROL informe de visitantes únicos]
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -162,7 +161,7 @@ Puede seleccionar una página para el [!UICONTROL informe de visitantes únicos]
  </tbody> 
 </table>
 
-## Visitantes únicos basados en períodos (tendencias) {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
+## Visitantes únicos basados en períodos (tendencias)  {#section_B3502EBF1ACB487AA8E0EFBA9A0561FD}
 
 Puede ejecutar [!UICONTROL informes de visitantes únicos] por hora, diarios, semanales, mensuales, trimestrales y anuales (tendencias).
 
@@ -177,19 +176,19 @@ Los visitantes únicos basados en períodos se contabilizan únicamente en la pr
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 2 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -210,19 +209,19 @@ El siguiente informe se mostraría para los visitantes únicos diarios.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -243,11 +242,11 @@ Los totales de las métricas pueden variar en función del intervalo de fechas d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>2 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -278,19 +277,19 @@ Para los visitantes únicos semanales, en los que Página = A, los informes de m
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 2 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -311,19 +310,19 @@ Para visitantes únicos semanales, donde Página = B, la única fecha en la que 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 1 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>2 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>3 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 3 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4 de enero </p> </td> 
+   <td colname="col1"> <p>Enero de 4 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -333,14 +332,14 @@ Para visitantes únicos semanales, donde Página = B, la única fecha en la que 
  </tbody> 
 </table>
 
-## Métricas de visitante único basado en períodos en informes sin tendencias {#section_90B784F4E49F4930B3F0923B95958BA2}
+## Métricas de visitante único basado en períodos en informes sin tendencias  {#section_90B784F4E49F4930B3F0923B95958BA2}
 
 Puede agregar métricas de visitante único basado en períodos a informes sin tendencias como, por ejemplo, una métrica de visitantes únicos semanales en un [!UICONTROL informe de páginas].
 
 <table id="table_8651A42696B0404CAEAE0FC5522CC1C9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Activity Map </th> 
+   <th colname="col1" class="entry"> Página </th> 
    <th colname="col02" class="entry"> Fecha de visita </th> 
    <th colname="col2" class="entry"> Visitas - Visitante único semanal </th> 
   </tr> 
@@ -348,27 +347,27 @@ Puede agregar métricas de visitante único basado en períodos a informes sin t
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1 de enero </p> </td> 
+   <td colname="col02"> <p>Enero de 1 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>2 de enero </p> </td> 
+   <td colname="col02"> <p>Enero de 2 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>3 de enero </p> </td> 
+   <td colname="col02"> <p>Enero de 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>4 de enero </p> </td> 
+   <td colname="col02"> <p>Enero de 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>E </p> </td> 
-   <td colname="col02"> <p>5 de enero </p> </td> 
+   <td colname="col02"> <p>Enero de 5 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -384,7 +383,7 @@ Una métrica de visitantes únicos diarios en un [!UICONTROL informe de páginas
 <table id="table_04C7C305C2B945D6A79A6B80F48A4BF5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Activity Map </th> 
+   <th colname="col1" class="entry"> Página </th> 
    <th colname="col02" class="entry"> Fecha de visita </th> 
    <th colname="col2" class="entry"> Visitas </th> 
   </tr> 
@@ -392,22 +391,22 @@ Una métrica de visitantes únicos diarios en un [!UICONTROL informe de páginas
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1 de enero </p> </td> 
+   <td colname="col02"> <p>Enero de 1 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>2 de enero </p> </td> 
+   <td colname="col02"> <p>Enero de 2 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>3 de enero </p> </td> 
+   <td colname="col02"> <p>Enero de 3 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>4 de enero </p> </td> 
+   <td colname="col02"> <p>Enero de 4 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -418,7 +417,7 @@ Una métrica de visitantes únicos diarios en un [!UICONTROL informe de páginas
  </tbody> 
 </table>
 
-Para desglosar un atributo en otro (por ejemplo, *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
+Para desglosar un atributo en otro (por ejemplo,  *`page`* de *`eVar`*), Analytics asigna un visitante único basado en períodos a cada instancia única de período y página (o el atributo que se correlacione).
 
 Si desglosa la Página Page A en las eVars T, U, el 2 de enero quedará excluido porque la Página A se visualizó el 1 de enero. Los siguientes resultados se mostrarían para los visitantes únicos semanales.
 
@@ -445,8 +444,8 @@ Si desglosa la Página Page A en las eVars T, U, el 2 de enero quedará excluido
  </tbody> 
 </table>
 
-## Cookies persistentes {#section_81E139F08AEB4E30A06472856975EA1E}
+## Cookies persistentes  {#section_81E139F08AEB4E30A06472856975EA1E}
 
-Las cookies persistentes permanecen en el equipo de un visitante entre visitas para que Adobe pueda identificar a visitantes en visitas siguientes. To see the percentage of users who do and do not accept persistent cookies, select **[!UICONTROL Filter]** &gt; **[!UICONTROL Persistent Cookies]**.
+Las cookies persistentes permanecen en el equipo de un visitante entre visitas para que Adobe pueda identificar a visitantes en visitas siguientes. Para ver el porcentaje de usuarios que aceptan y no aceptan cookies persistentes, seleccione **[!UICONTROL Filtro]** &gt; **[!UICONTROL Cookies persistentes]**.
 
 El gráfico al igual que la vista de detalles más abajo muestran tanto visitantes de cookies persistentes como visitantes de cookies no persistentes. Muy a menudo, el número de visitantes de cookies no persistentes es ínfimo.
