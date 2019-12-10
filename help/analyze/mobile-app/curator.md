@@ -2,7 +2,7 @@
 description: Instrucciones para configurar los cuadros de mandos de la aplicación móvil.
 title: Guía del curador de aplicaciones de Adobe Analytics Mobile
 translation-type: tm+mt
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
@@ -190,9 +190,7 @@ Durante la fase beta y antes de que la aplicación se muestre al público, puede
       ![Pantalla de prueba](assets/testflight2.png)
    **Para usuarios ejecutivos en Android:**
 
-   1. Toque el siguiente vínculo de Play Store en el dispositivo del usuario (también está disponible en Analytics en **Herramientas** &gt; Aplicación **** móvil):
-
-
+   1. Toque el siguiente vínculo de Play Store en el dispositivo del usuario (también está disponible en Analytics en **Herramientas** &gt; Aplicación ****móvil):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Después de tocar el vínculo, toque el vínculo Convertir en probador en la siguiente pantalla:
@@ -200,12 +198,10 @@ Durante la fase beta y antes de que la aplicación se muestre al público, puede
       ![Pantalla Play Store](assets/play.png)
 
    2. Toque el vínculo **descargarlo en Google Play** en la siguiente pantalla:
-
       ![Vínculo de descarga](assets/playnext.png)
 
    3. Descargue e instale la aplicación.
-   Una vez descargado e instalado, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics existentes; admitimos Adobe ID y Enterprise ID.
-
+Una vez descargado e instalado, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics existentes; admitimos Adobe ID y Enterprise ID.
    ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
 2. Ayudarles a acceder a su cuadro de mandos. Después de que los usuarios ejecutivos inicien sesión en la aplicación, aparece la pantalla **Elegir una empresa** . Esta pantalla enumera las empresas de inicio de sesión a las que pertenece el usuario ejecutivo. Para ayudarles a acceder al cuadro de mandos:
