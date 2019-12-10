@@ -26,11 +26,11 @@ t_bookmarks_creating.xml
 
 1. Ejecute un informe y, a continuación, haga clic en **[!UICONTROL Marcador.]**.
 
-       |Nombre|Un nombre descriptivo para este marcador.
-    |
- |—|—|     |Agregar a|Especifica la carpeta en la que desea colocar el marcador.
-|     |Convertir en público| Pone este marcador a disposición de los usuarios con acceso al grupo de informes.
-|     |Mostrar informe al iniciar sesión| Muestra el informe al iniciar sesión.|
+ |Nombre|Un nombre descriptivo para este marcador. |
+ |---|---|      
+ |Agregar a|Especifica la carpeta en la que desea colocar el marcador.|     
+ |Convertir en público| Pone este marcador a disposición de los usuarios con acceso al grupo de informes.|     
+ |Mostrar informe al iniciar sesión| Muestra el informe al iniciar sesión.|
    
 ## Administrar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
