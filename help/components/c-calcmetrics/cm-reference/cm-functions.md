@@ -1,20 +1,14 @@
 ---
 description: El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
-title: Funciones básicas de referencia
+title: 'Referencia: funciones básicas'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # Referencia: funciones básicas
-
-<!-- 
-
-cm_functions.xml
-
- -->
 
 El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
 
@@ -103,7 +97,7 @@ EXP(metric)
 Operador de potencia
 
 <pre>
-pow(x,y) =<sup>xy</sup> = x*x*x*... (y veces)
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y veces)
 </pre>
 
 ## Media (Tabla) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -156,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Percentil (Tabla) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Devuelve el percentil k-ésimo de los valores de una métrica. Puede utilizar esta función para establecer un umbral de aceptación. Por ejemplo, puede decidir examinar los elementos de dimensión que tengan una puntuación superior al porcentaje 90.
+Devuelve el percentil k-ésimo de los valores de una métrica. Puede utilizar esta función para establecer un umbral de aceptación. Por ejemplo, puede decidir si se examinan los elementos de la dimensión cuyo valor es superior al percentil 90.
 
 ```
 PERCENTILE(metric,k)
@@ -208,7 +202,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-*Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
+*Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *quart* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *quart* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *quart* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
 
 ## Ronda {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
@@ -233,7 +227,7 @@ round( 314.15, -2) = 300
 
 ## Recuento de fila {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-Devuelve el recuento de filas de una columna determinada (el número de elementos únicos informados dentro de una dimensión). "Se excedió la cantidad de valores exclusivos" se cuenta como 1.
+Devuelve el número de filas de una determinada columna (el número de elementos únicos incluidos dentro de una dimensión). “Únicos excedidos” cuenta como 1.
 
 ## Máximo de fila {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
