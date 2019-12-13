@@ -1,28 +1,22 @@
 ---
-description: Marque Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
-title: Funciones avanzadas de referencia
+description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
+title: 'Referencia: funciones avanzadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # Referencia: funciones avanzadas
 
-<!-- 
-
-cm_adv_functions.xml
-
- -->
-
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en la lista desplegable **[!UICONTROL Funciones]**.
 
 ## Funciones de tabla en comparación con funciones de fila {#section_8977BE40A47E4ED79EB543A9703A4905}
 
 Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
 
-## ¿Qué significa el parámetro Include-Zeros? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## ¿Qué significa el parámetro Include-Zeros?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa "nada", pero en ocasiones es importante.
 
@@ -34,7 +28,7 @@ Por otra parte, si tiene dos métricas en las que está interesado, puede que no
 
 Devuelve el valor de su argumento. Utilice NO para asegurarse de que un valor no es igual a un valor en concreto.
 
-> [!NOTE] 0 (cero) significa False y cualquier otro valor es True.
+> [!NOTE] 0 (cero) significa Falso y cualquier otro valor es Verdadero.
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -57,11 +51,11 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | Dimensión de la que se quiere obtener el número aproximado de elementos distintos. |
 
-## Caso práctico de ejemplo {#section_424E3FC5092948F0A9D655F6CCBA0312}
+## Caso práctico de ejemplo  {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 El número aproximado de elementos distintos (eVar del ID del cliente) es un caso práctico común para esta función.
 
-Definición de una nueva métrica calculada "Clientes aproximados":
+Definición para una nueva métrica calculada “Clientes aproximados”:
 
 ![](assets/approx-count-distinct.png)
 
@@ -69,11 +63,11 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ![](assets/approx-customers.png)
 
-## Se excedió la cantidad de valores exclusivos {#section_9C583858A9F94FF7BA054D1043194BAA}
+## Se excedió la cantidad de valores exclusivos  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
-## Comparación de funciones de recuento {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+## Comparación de funciones de recuento  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 La función Approximate Count Distinct() es una mejora de las funciones Count() y RowCount() porque la métrica que se crea puede usarse en cualquier informe dimensional para representar un número aproximado de elementos para una dimensión distinta. Por ejemplo, un recuento de los ID de cliente que se usan en un informe sobre tipos de dispositivos móviles.
 
@@ -210,7 +204,7 @@ Devuelve la media de las últimas N filas.
 
 Si N &lt;= 0 utiliza todas las filas anteriores. Como se ordena por la dimensión, solo resulta útil en dimensiones que tienen un orden natural como la fecha o la longitud de ruta.
 
-> [!NOTE] Esto no funciona como es de esperar con métricas de tasa como ingresos/visitante: promedia las tasas en lugar de sumar los ingresos en la última N y sumar los visitantes en la última N y luego dividirlos. En su lugar utilice
+> [!NOTE] Esto no funcionará de la forma esperada con métricas de tasa, tales como ingresos o visitantes. Calcula la media de las tasas, en lugar de sumar los ingresos y los visitantes del último N y después dividirlos. En su lugar utilice
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -222,7 +216,7 @@ Devuelve elementos que coinciden exactamente con un valor numérico o de cadena.
 
 ## Regresión exponencial: coeficiente de correlación (Tabla) {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
-Returns the correlation coefficient, *r*, between two metric columns ( *metric_A* and *metric_B*) for the regression equation .
+Devuelve el coeficiente de correlación, *r*, entre dos columnas de métricas (*metric_A* y *metric_B*) en la ecuación de regresión.
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -235,7 +229,7 @@ CORREL.EXP(metric_X, metric_Y)
 
 ## Regresión exponencial: intersección (Tabla) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
+Devuelve la intersección, *b*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -248,7 +242,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## Regresión exponencial: pendiente (Tabla) {#concept_230991B0371E44308C52853EFA656F04}
 
-Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
+Devuelve la pendiente, *a*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para.
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -367,7 +361,7 @@ LOG10(metric)
 
 ## Regresión logarítmica: coeficiente de correlación (Tabla) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. Se calcula mediante la ecuación CORREL.
+Devuelve el coeficiente de correlación, *r*, entre dos columnas de métricas (*metric_X* y *metric_Y*) en la ecuación de regresión [!DNL Y = a ln(X) + b]. Se calcula mediante la ecuación CORREL.
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -393,7 +387,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## Regresión de registro: Y predicha (fila) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. Se calcula mediante la ecuación ESTIMATE.
+Calcula los valores [!DNL y] predichos (metric_Y), dados los valores [!DNL x] conocidos (metric_X) con el método de "menos cuadrados" para calcular la mejor opción basándose en [!DNL Y = a ln(X) + b]. Se calcula mediante la ecuación ESTIMATE.
 
 En el análisis de regresión, esta función calcula los valores [!DNL y] predichos (*metric_Y*), dados los valores [!DNL x] conocidos (*metric_X*) usando el logaritmo para calcular la mejor opción para la ecuación de regresión [!DNL Y = a ln(X) + b]. Los valores [!DNL a] se corresponden con cada valor x y [!DNL b] es un valor constante.
 
@@ -408,7 +402,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## Regresión logarítmica: pendiente (Tabla) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. Se calcula mediante la ecuación SLOPE.
+Devuelve la pendiente, *a*, entre dos columnas de métricas (*metric_X* y *metric_Y*) en la ecuación de regresión [!DNL Y = a ln(X) + b]. Se calcula mediante la ecuación SLOPE.
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -453,7 +447,7 @@ Devuelve todos los elementos que no contienen la coincidencia exacta del valor i
 
 Devuelve TRUE si algún argumento es VERDADERO o devuelve FALSE si todos los argumentos son FALSOS.
 
-> [!NOTE] 0 (cero) significa False y cualquier otro valor es True.
+> [!NOTE] 0 (cero) significa Falso y cualquier otro valor es Verdadero.
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -476,7 +470,7 @@ La función [!DNL PI] no tiene argumentos.
 
 ## Regresión potencial: coeficiente de correlación (Tabla) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Devuelve el coeficiente de correlación, *r*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para [!DNL Y = b*X].
 
 ```
 CORREL.POWER(metric_X, metric_Y)
@@ -489,7 +483,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## Regresión potencial: intersección (Tabla) {#concept_7781C85597D64D578E19B212BDD1764F}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Devuelve la intersección, *b*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para [!DNL Y = b*X].
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -502,7 +496,7 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 
 ## Regresión potencial: Y predicha (Fila) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
+Calcula los valores [!DNL y] predichos ([!DNL metric_Y]), dados los valores [!DNL x] conocidos ([!DNL metric_X]) utilizando el método de “menos cuadrados” para calcular la mejor opción de línea para [!DNL Y = b*X].
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -515,7 +509,7 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 
 ## Regresión potencial: pendiente (Tabla) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+Devuelve la pendiente, *a*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para [!DNL Y = b*X]a.
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -528,7 +522,7 @@ SLOPE.POWER(metric_X, metric_Y)
 
 ## Regresión cuadrática: coeficiente de correlación (Tabla) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+Devuelve el coeficiente de correlación *r*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para [!DNL Y=(a*X+b)]****.
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -541,7 +535,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 ## Regresión cuadrática: intersección (Tabla) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+Devuelve la intersección, *b*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para [!DNL Y=(a*X+b)]****.
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -554,7 +548,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## Regresión cuadrática: Y predicha (Fila) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
+Calcula los valores [!DNL y] predichos (metric_Y), dados los valores [!DNL x] conocidos (metric_X) utilizando el método de los menos cuadrados para calcular la mejor opción de línea para [!DNL Y=(a*X+b)]**** .
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -567,7 +561,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 ## Regresión cuadrática: pendiente (Tabla) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
+Devuelve la pendiente, *a*, entre dos columnas de métricas (*metric_X* y metric_Y) para [!DNL Y=(a*X+b)]****.
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -593,7 +587,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 ## Regresión recíproca: intersección (Tabla) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+Devuelve la intersección, *b*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para [!DNL Y = a/X+b].
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
@@ -606,7 +600,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 ## Regresión recíproca: Y predicha (Fila) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
+Calcula los valores [!DNL y] predichos (metric_Y), dados los valores [!DNL x] conocidos (metric_X) utilizando el método de los menos cuadrados para calcular la mejor opción de línea para [!DNL Y = a/X+b].
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
@@ -619,7 +613,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 ## Regresión recíproca: pendiente (Tabla) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+Devuelve la pendiente, *a*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para [!DNL Y = a/X+b]a.
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
@@ -650,7 +644,7 @@ Es el nombre por el que también se conoce una variable estandarizada, concretam
 
 Realiza una prueba T con una distribución m con una unidad tipificada de col y n grados de libertad.
 
-La firma es `t_test( x, n, m )`. Debajo, simplemente llama `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+La firma es `t_test( x, n, m )`. Debajo, simplemente llama `m*cdf_t(-abs(x),n)`. (esto es similar a la función z-test que ejecuta `m*cdf_z(-abs(x))`.
 
 Aquí, `m` es la cantidad de colas y `n`, los grados de la libertad. Estos deben ser números (constantes en todo el informe, es decir, que no se modifiquen de fila a fila).
 
@@ -660,7 +654,7 @@ El valor de retorno es la probabilidad de ver la estadística test x dados los g
 
 **Ejemplos:**
 
-1. Úselo para buscar valores atípicos:
+1. Úselo para buscar periféricos:
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
@@ -694,7 +688,7 @@ La ecuación de variable estandarizada es:
 
 donde [!DNL x] es la puntuación sin procesar, [!DNL μ] es la media de población y [!DNL σ] es la desviación estándar de la población.
 
-> [!NOTE] [!DNL μ][!DNL σ] (mu) y (sigma) se calculan automáticamente a partir de la métrica.
+> [!NOTE] [!DNL μ] (mu) y[!DNL σ] (sigma) se calculan automáticamente a partir de la métrica.
 
 Puntuación Z(métrica)
 
@@ -719,5 +713,5 @@ Realiza una prueba Z con una distribución n con una variable estandarizada de A
 
 Devuelve la probabilidad de que la fila actual pueda verse por casualidad en la columna.
 
-> [!NOTE] Supone que los valores se distribuyen normalmente.
+> [!NOTE] Asume que los valores se distribuyen de forma normal.
 
