@@ -1,9 +1,9 @@
 ---
 title: Resumen de IQ de segmentos
 description: Descubra qué es IQ de segmentos de Adobe Analytics y cómo puede ayudar a su organización.
-keywords: Analysis Workspace;IQ de segmento
-translation-type: ht
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+keywords: Analysis Workspace;Segment IQ
+translation-type: tm+mt
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 Los analistas pueden tardar muchas horas o incluso días para buscar las diferencias relevantes entre segmentos de las métricas y dimensiones de su empresa. Este análisis no solo es tedioso y lleva tiempo, sino que no se puede saber si se pasa por alto algún detalle importante que podría afectar directamente a la estrategia de marketing diseñada para los destinatarios.
 
-Muchas organizaciones han conseguido crear campañas exitosas gracias a las funciones de IQ de segmento. Consulte [Casos de uso de comparación de segmentos](c-panels/c-segment-comparison/segment-compare-use-cases.md) para escenarios reales que han proporcionado a las organizaciones datos muy valiosos.
+Muchas organizaciones han conseguido crear campañas exitosas gracias a las funciones de IQ de segmento. See [Segment comparison use cases](c-panels/c-segment-comparison/segment-compare-use-cases.md) for real-world scenarios that provide organizations valuable insight.
 
 ## Funciones
 
