@@ -2,7 +2,7 @@
 title: Analista virtual
 description: Descubra qué funciones de Adobe Analytics contribuyen a los analistas virtuales.
 translation-type: tm+mt
-source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -13,7 +13,7 @@ Analista virtual, un conjunto de funciones que forma parte de Adobe Analytics, u
 
 ## Funciones  {#features}
 
-El Analista virtual incluye:
+Virtual Analyst incluye las siguientes funciones:
 
 * [Detección de anomalías:](virtual-analyst/c-anomaly-detection/anomaly-detection.md) Constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores.
 * [ Análisis de contribución:](virtual-analyst/contribution-analysis/run-contribution-analysis.md) Ayudar a determinar los factores que más contribuyen a las anomalías de los datos.
