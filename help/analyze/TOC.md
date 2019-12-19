@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
+source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
       + [Envío de archivo: Programar un proyecto para su entrega](analysis-workspace/curate-share/t-schedule-report.md)
       + [Administrador de programación de informes](analysis-workspace/curate-share/schedule-projects.md)
    + Analista virtual {#virtual-analyst}
-      + [Analista virtual](analysis-workspace/virtual-analyst/virtual-analyst.md)
+      + [Visión general de los analistas virtuales](analysis-workspace/virtual-analyst.md)
       + Detección de anomalías {#anomaly-detection}
          + [Resumen de la Detección de anomalías](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Visualización de anomalías en Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -117,7 +117,6 @@ source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
    + [Limitaciones de Analysis Workspace](analysis-workspace/aw-limitations.md)
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
    + [IQ de segmento](analysis-workspace/segment-iq.md)
-   + [Analista virtual](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
    + [Ayuda del Report Builder de Adobe](report-builder/home.md)
    + [Novedades del Report Builder](report-builder/whats-new-arb.md)
