@@ -26,7 +26,8 @@ En lugar de asignar explícitamente valores a props y eVars en el código, puede
 >
 ```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```
+>
+```
 
 El uso de datos de contexto le ayuda a evitar tener que hacer actualizaciones del código para admitir configuraciones de grupos de informes distintas.
 
