@@ -2,7 +2,7 @@
 title: Ayuda de Analysis Workspace
 description: Documentación del producto y autoayuda para Analysis Workspace, Activity Map, Creador de informes, API de informes e Informes y análisis (anteriormente productos de Omniture Analytics).
 translation-type: tm+mt
-source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
+source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
 
@@ -23,6 +23,7 @@ Esta guía proporciona documentación del producto y autoayuda para las siguient
 ## Artículos de herramientas de Analytics clave
 
 * [Introducción a Analysis Workspace](analysis-workspace/home.md)
+* [¿Qué herramienta de Adobe Analytics debo usar?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Introducción al Report Builder](report-builder/home.md)
 * [Introducción a Activity Map](activity-map/activity-map.md)
 
