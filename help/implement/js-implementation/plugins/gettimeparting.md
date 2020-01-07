@@ -6,122 +6,118 @@ title: getTimeParting
 topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 73d20b23e38bc619c156c418c95096a94d2fdfce
 
 ---
 
 
 # getTimeParting
 
-El complemento getTimeParting rellena variables personalizadas con los valores de hora del día, día de la semana y fin de semana y día laborable. [!UICONTROL Analysis Workspace] incluye dimensiones de división del tiempo. Debe utilizarse el complemento si se necesitan las dimensiones de división del tiempo en otras soluciones de Analytics fuera de [!UICONTROL Analysis Workspace].
+El complemento getTimeParting proporciona una solución de análisis completa que le permite capturar los detalles del tiempo en que se produce cualquier actividad medible en el sitio.
 
-Este complemento captura la información sobre la fecha y hora disponible en el explorador del usuario. A partir de esta información obtiene la hora del día y el día de la semana. A continuación convierte estos datos a la zona horaria que usted elija. Asimismo, tiene en cuenta el horario de verano.
+Debe utilizar el complemento getTimeParting si desea desglosar las métricas por cualquier división de tiempo repetible en un intervalo de fechas determinado.  Por ejemplo: el complemento getTimeParting le permitirá comparar tasas de conversión entre dos días diferentes de la semana (por ejemplo: todos los domingos vs. todos los jueves), dos períodos diferentes del día (por ejemplo: todas las mañanas vs. todas las noches) o incluso dos minutos subsiguientes (por ejemplo: todas las instancias de 10:00 AM vs. todas las instancias de intervalo de 10:01 AM) para la fecha especifique en el informe.
+
+[!DNL Analysis Workspace] proporciona dimensiones similares listas para usar con formato que tienen un formato ligeramente diferente al que proporciona este complemento (consulte [aquí](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.html)).  Adobe Consulting recomienda leer el resto de esta sección de ayuda para determinar si este complemento proporciona datos de una manera que se adapte mejor a sus necesidades.
+
+Si no necesita desglosar las métricas por una división de tiempo repetible en un intervalo de fechas específico, no necesitará utilizar el complemento getTimeParting.  Además, si encuentra que las dimensiones de partición de tiempo [!DNL Analysis Workspace] son suficientes, no necesitará implementar este complemento.
+
+>[!CAUTION] La solución que ofrece la versión 4.0 o posterior del complemento getTimeParting es muy diferente a la que ofrecían las versiones anteriores del complemento.  Si decide actualizar desde una versión anterior a la 4.0, debe implementar la solución &quot;desde cero&quot;.  En otras palabras, debe configurar una eVar completamente nueva - una eVar - para guardar los datos proporcionados por el complemento y leer esta documentación cuidadosamente antes de implementar la solución.
+
+>[!CAUTION] También: Esta versión del complemento no es *totalmente* compatible con los exploradores de Microsoft Internet Explorer, aunque el complemento es totalmente compatible con los exploradores de Microsoft Edge.   Los visitantes que utilicen Internet Explorer podrán proporcionar la hora pero solo en su zona horaria *local* en lugar de convertirse al huso horario que especifique.  Consulte los ejemplos siguientes para obtener una solución que no incluya datos de los exploradores de Internet Explorer pero que tenga en cuenta su presencia.
 
 > [!NOTE] Las instrucciones siguientes exigen modificar el código de recopilación de datos en el sitio. Esto puede afectar a la recopilación de datos en el sitio y solamente debe hacerlo un desarrollador con experiencia en el uso y la implementación de [!DNL Analytics].
 
-## Código de complemento {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
+> [!WARNING] Pruebe siempre todas las implementaciones de complementos antes de implementarlas en producción para asegurarse de que la recopilación de datos funciona correctamente.
 
-**Sección config**
+## Requisitos previos
 
-Inserte el código siguiente en el área del archivo [!DNL s_code.js] etiquetado [!UICONTROL SECCIÓN CONFIG], y realice las actualizaciones necesarias tal como se describe a continuación.
+Ninguna
 
-`s._tpDST`: matriz de valores de horario de verano. La matriz tiene el siguiente formato: `YYYY:'MM/DD,MM/DD'`
+## Cómo implementar
 
-```js
-//time parting configuration 
-//Australia 
-s._tpDST = { 
-2012:'4/1,10/7', 
-2013:'4/7,10/6', 
-2014:'4/6,10/5', 
-2015:'4/5,10/4', 
-2016:'4/3,10/2', 
-2017:'4/2,10/1', 
-2018:'4/1,10/7', 
-2019:'4/7,10/6',
-2020:'4/5,10/4',
-2021:'4/4,10/3'} 
-  
-//US 
-s._tpDST = { 
-2012:'3/11,11/4', 
-2013:'3/10,11/3', 
-2014:'3/9,11/2', 
-2015:'3/8,11/1', 
-2016:'3/13,11/6', 
-2017:'3/12,11/5', 
-2018:'3/11,11/4', 
-2019:'3/10,11/3',
-2020:'3/8,11/1',
-2021:'3/14,11/7'} 
-  
-//Europe 
-s._tpDST = { 
-2012:'3/25,10/28', 
-2013:'3/31,10/27', 
-2014:'3/30,10/26', 
-2015:'3/29,10/25', 
-2016:'3/27,10/30', 
-2017:'3/26,10/29', 
-2018:'3/25,10/28', 
-2019:'3/31,10/27',
-2020:'3/29,10/25',
-2021:'3/28,10/31'}
-```
+* Copie y pegue el siguiente código en cualquier lugar de la sección Complementos del código de AppMeasurement:
 
-Nota para clientes del hemisferio norte: en la matriz, los valores de horario de verano son valores de inicio y finalización del horario de verano.
+```function getTimeParting(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:a, minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])}```
 
-Nota para clientes del hemisferio sur: en la matriz, los valores de horario de verano son valores de finalización e inicio del horario de verano.
+> [!NOTE] También puede utilizar un administrador de etiquetas como Adobe Launch para implementar el código del complemento sin necesidad de adjuntarlo a AppMeasurement o a cualquier otra solución de análisis
 
-**Parámetros**
+* Ejecute la función getTimeParting como se describe a continuación dentro de la función doPlugins o en cualquier otra ubicación donde necesite capturar los datos de partición de tiempo
 
-```js
-var tp = s.getTimeParting(h,z);
-```
+**Argumentos para pasar**
 
-* h = (requerido) Hemisferio: especifique el hemisferio al que va a convertir la hora. Debe ser un valor 'n' o 's'. Se usa para determinar cómo se usa la matriz de horario de verano pasada. Si se pasa 'n', el complemento usa las fechas cuando el horario de verano está activado. Si se pasa 's', el complemento usa las fechas cuando el horario de verano está desactivado.
-* z = (opcional) Zona horaria: si desea que los datos se basen en un período de tiempo específico, se tendrá que especificar aquí como diferencia horaria respecto a GMT. Tenga en cuenta que debe ser GMT durante los horarios que no sean de verano. Si no se especifica ningún valor, el valor predeterminado es GMT (por ejemplo, "-5" para la hora del este de EE. UU.).
+* t: (Cadena **OPCIONAL pero recomendada**) El nombre del huso horario al que se va a convertir la hora local del visitante.  El valor predeterminado es &quot;Etc/GMT&quot; o UTC/GMT cuando no está establecido.  Visite [https://en.wikipedia.org/wiki/List_of_tz_database_time_zones] para obtener la lista completa de valores que desea introducir.
 
-**Devuelve**
+Los valores comunes incluyen:
 
-Devuelve un valor concatenado de hora, a nivel de minuto y día de la semana, por ejemplo:
+* &quot;América/Nueva York&quot; para la Hora del Este
+* &quot;América/Chicago&quot; para el tiempo central
+* &quot;América/Denver&quot; para los tiempos de montaña
+* &quot;América/Los Ángeles&quot; para la hora del Pacífico
 
-```
-8:03 AM|Monday
-```
+## Devuelve
 
-Puede usar [Clasificaciones](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) para agrupar las visitas en períodos de tiempo. Por ejemplo, podría configurar una regla del Generador de reglas de clasificación para crear un bloque con las visitas realizadas entre las 9:00 AM y las 9:59 AM en "9:00 AM - 10:00 AM". Como alternativa a las clasificaciones, podría proporcionar lógica adicional de lado del cliente para crear bloques con las visitas en JavaScript.
+El complemento getTimeParting devuelve una cadena que contiene lo siguiente:
 
-**Llamada de ejemplo**
+* El año actual
+* El mes actual
+* Fecha actual (es decir, día del mes)
+* Día actual (es decir, día de la semana)
+* La hora actual (tiempo no militar)
 
-```js
-var tp = s.getTimeParting('n','-7'); 
-s.prop1 = tp;
-```
+Cada uno de los elementos anteriores está delimitado por un carácter de barra vertical (&quot;|&quot;).
 
-**SECCIÓN DE COMPLEMENTOS**
+## Llamadas de ejemplo
 
-Agregue el código siguiente a la [!UICONTROL SECCIÓN DE COMPLEMENTOS] en el archivo [!DNL s_code.js].
+Utilice el siguiente código si se encuentra en París, Francia y desea utilizar eVar10 (en Adobe Analytics) para capturar los datos de partición de tiempo:
 
-```js
-/* 
- * Plugin: getTimeParting 3.4 
- */ 
-s.getTimeParting=new Function("h","z","" 
-+"var s=this,od;od=new Date('1/1/2000');if(od.getDay()!=6||od.getMont" 
-+"h()!=0){return'Data Not Available';}else{var H,M,D,U,ds,de,tm,da=['" 
-+"Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturda" 
-+"y'],d=new Date();z=z?z:0;z=parseFloat(z);if(s._tpDST){var dso=s._tp" 
-+"DST[d.getFullYear()].split(/,/);ds=new Date(dso[0]+'/'+d.getFullYea" 
-+"r());de=new Date(dso[1]+'/'+d.getFullYear());if(h=='n'&&d>ds&&d<de)" 
-+"{z=z+1;}else if(h=='s'&&(d>de||d<ds)){z=z+1;}}d=d.getTime()+(d.getT" 
-+"imezoneOffset()*60000);d=new Date(d+(3600000*z));H=d.getHours();M=d" 
-+".getMinutes();M=(M<10)?'0'+M:M;D=d.getDay();U=' AM';if(H>=12){U=' P" 
-+"M';H=H-12;}if(H==0){H=12;}D=da[D];tm=H+':'+M+U;return(tm+'|'+D);}");
-```
+```s.eVar10 = getTimeParting("Europe/Paris")```
 
-**Notas**
+Utilice el siguiente código si se encuentra en San José, California:
 
-* Antes de su implementación en la producción, realice pruebas de las instalaciones de complementos para asegurarse de que la recopilación de datos se comporta según lo esperado.
-* Para que funcionen correctamente, las variables de configuración deben configurarse para el complemento.
+```s.eVar10 = getTimeParting("America/Los_Angeles")```
 
+Utilice el siguiente código si se encuentra en el país africano de Ghana:
+
+```s.eVar10 = getTimeParting();```
+
+Ghana está dentro del huso horario UTC/GMT.  Por lo tanto, este ejemplo muestra que en tales circunstancias no será necesario ningún argumento de complemento.
+
+Utilice el siguiente código si se encuentra en Nueva York y no desea incluir datos de los visitantes de Internet Explorer (ya que los valores devueltos por los exploradores IE solo se pueden proporcionar en la hora local del visitante)
+
+```if(!document.documentMode) s.eVar10 = getTimeParting("America/New_York");```
+```else s.eVar10 = "Internet Explorer Visitors";```
+
+**Resultados de llamadas**
+
+Si un visitante de Denver, Colorado visita un sitio el 31 de agosto de 2020 a las 9:15 AM, el siguiente código...
+
+```s.eVar10 = getTimeParting("Europe/Athens");```
+
+...establecería s.eVar10 igual a **year=2020| month=August| date=31| day=Monday| time=6:15 PM**
+
+El siguiente código...
+
+```s.eVar10 = getTimeParting("America/Nome");```
+
+... en su lugar, establecería s.eVar10 igual a **year=2020| month=August| date=31| day=Monday| time=6:15 AM**
+
+El siguiente código...
+
+```s.eVar10 = getTimeParting("Asia/Calcutta");```
+
+... en su lugar, establecería s.eVar10 igual a **year=2020| month=August| date=31| day=Monday| time=8:45 PM**
+
+El siguiente código...
+
+```s.eVar10 = getTimeParting("Australia/Sydney");```
+
+... en su lugar, establecería s.eVar10 igual a **year=2020| month=September| date=1| day=Martes| time=1:15 AM**
+
+## Configuración de Adobe Analytics
+
+Si desea capturar los datos de partición de tiempo en Adobe Analytics, configure una nueva eVar con las siguientes características:
+
+* Nombre: Partición de tiempo
+* Asignación: Más reciente (última)
+* Caduca después de: Visita
+* Todos los demás atributos utilizan los valores predeterminados proporcionados
