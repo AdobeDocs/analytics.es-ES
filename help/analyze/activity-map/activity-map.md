@@ -4,12 +4,15 @@ title: Preguntas frecuentes sobre Activity Map
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: c796c9ecf1c14d3b095ad09647500c6c70d27fd5
 
 ---
 
 
 # Preguntas frecuentes sobre Activity Map
+
+>[!IMPORTANT]
+>El 16 de enero de 2020, Adobe Analytics empezará a pasar a un nuevo dominio: https://experience.adobe.com/analytics. Este cambio puede hacer que Activity Map deje de funcionar para algunos clientes en casos específicos. Como sabe, Activity Map se inserta en la página del cliente en un iframe (un iframe para la barra de herramientas de Activity Map y un iframe para el panel inferior de Activity Map). Es posible que haya establecido una directiva de directiva de seguridad de contenido en la página web para &quot;frame-src&quot; que no incluya &quot;.adobe.com&quot;. En ese caso, Activity Map dejará de funcionar cuando se visite una página de &quot;.adobe.com&quot;. Deberá agregar &quot;.adobe.com&quot; a la directiva de la directiva de seguridad de contenido para solucionar este problema.
 
 Activity Map es una aplicación de Adobe Analytics diseñada para clasificar la actividad de los vínculos usando superposiciones visuales y que ofrece un tablero de análisis en tiempo real para supervisar la participación de la audiencia en las páginas web.
 
