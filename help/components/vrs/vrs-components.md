@@ -2,7 +2,7 @@
 description: Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan componentes en Analysis Workspace.
 title: Revisión de componentes de grupo de informes virtuales
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,12 +12,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan componentes en Analysis Workspace.
 
-> [!NOTE]Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. Anteriormente, cualquiera podía ver los componentes no organizados al hacer clic en **[!UICONTROL Mostrar todos los componentes]**. La [experiencia actualizada de organización](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html) permite un control más detallado sobre qué componentes son visibles.
+> [!NOTE]Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. Anteriormente, cualquiera podía ver los componentes no organizados al hacer clic en **[!UICONTROL Mostrar todos los componentes]**. La [experiencia actualizada de organización](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/curate-projects-vrs.html) permite un control más detallado sobre qué componentes son visibles.
 
 Para habilitar la revisión de componentes,
 
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]** &gt; **[!UICONTROL Create new virtual report suite]**.
-1. Tras definir la **[!UICONTROL Configuración]**, haga clic en la ficha **Componentes[!UICONTROL .]**
+1. Vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Grupo de informes virtual]** &gt; **[!UICONTROL Crear nuevo grupo de informes virtual]**.
+1. Tras definir la **[!UICONTROL Configuración]**, haga clic en la ficha **[!UICONTROL Componentes]**.
 
 1. Seleccione la casilla de verificación **[!UICONTROL Habilitar la personalización de componentes del grupo de informes virtuales]**:
 
@@ -25,7 +25,7 @@ Para habilitar la revisión de componentes,
 
    >[!NOTE]
    >
-   >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
+   >Si la personalización de componentes está habilitada, el grupo de informes virtuales **solo es accesible desde Analysis Workspace** y, por lo tanto, no lo es desde:
 
    * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis ]
@@ -40,7 +40,7 @@ Para habilitar la revisión de componentes,
    * Intervalos de fechas
    >[!NOTE]
    >
-   >There is no need to *share* curated components (segments, calculated metrics, date ranges). Siempre serán visibles en Analysis Workspace si se depuran para el grupo de informes virtuales aunque no se hayan compartido.
+   >No es necesario *compartir* componentes depurados (segmentos, métricas calculadas, intervalos de fechas). Siempre serán visibles en Analysis Workspace si se depuran para el grupo de informes virtuales aunque no se hayan compartido.
 
 1. Además, puede filtrar o buscar en los componentes y añadir la selección filtrada entera a la columna “incluido” haciendo clic en **[!UICONTROL Añadir todo]**.
 
@@ -62,6 +62,6 @@ Use grupos de componentes para realizar agregaciones masivas de componentes a su
 
 ![](assets/vrs-comp-grp.png)
 
-## Comportamiento del espacio de trabajo {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Comportamiento de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Para obtener más información sobre la organización en Analysis Workspace, consulte [Organizar y compartir un proyecto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html).
+Para obtener más información sobre la organización en Analysis Workspace, consulte [Organizar y compartir un proyecto](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/curate.html).
