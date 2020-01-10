@@ -3,7 +3,7 @@ description: Sección de preguntas más frecuentes de Analytics sobre atributos 
 solution: Experience Cloud,Analytics
 title: Atributos del cliente
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,22 +13,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Sección de preguntas más frecuentes de Analytics sobre atributos del cliente y cómo ejecutar el informe de atributos del cliente.
 
-**[!UICONTROL Informes]** **[!UICONTROL &gt; Perfil]** del visitante &gt; Atributos **[!UICONTROL del cliente]**
+**[!UICONTROL Informes]** **[!UICONTROL &gt; Perfil del visitante]** &gt; **[!UICONTROL Atributos del cliente]**
 
 Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en un origen de datos de atributos del cliente en Experience Cloud. Una vez que los datos se hayan cargado, podrá ejecutar el informe de atributos del cliente en Reports &amp; Analytics.
 
-* [Atributos del cliente e informes de métricas en Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
+* [Atributos del cliente e informes de métricas en Analytics ](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [Preguntas más frecuentes - Atributos del cliente en Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-Consulte [Atributos del cliente](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) en la ayuda de Experience Cloud para obtener información sobre cómo cargar datos de atributos del cliente.
+Consulte [Atributos del cliente](https://marketing.adobe.com/resources/help/es_ES/mcloud/attributes.html) en la ayuda de Experience Cloud para obtener información sobre cómo cargar datos de atributos del cliente.
 
 ## Atributos del cliente e informes de métricas en Analytics {#section_EF343662146B460A882D3DF772ADD86D}
 
-Después de cargar atributos de cliente y validar el esquema (en Experience Cloud), el sistema crea métricas basadas en nombres prácticos (como *`age`* o *`gender`*) que se asignan a las cadenas de atributos y los enteros. These metrics appear in **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** reports.
+Después de cargar atributos de cliente y validar el esquema (en Experience Cloud), el sistema crea métricas basadas en nombres prácticos (como *`age`* o *`gender`*) que se asignan a las cadenas de atributos y los enteros. Estas métricas aparecen en los informes, a los que se accede desde **[!UICONTROL Perfil del visitante]** &gt; **[!UICONTROL Atributos del cliente]**.
 
 Por ejemplo:
 
-**[!UICONTROL Perfil]** del visitante &gt; Atributos **** del cliente &gt; **[!UICONTROL Edad]**
+**[!UICONTROL Perfil del visitante]** &gt; **[!UICONTROL Atributos del cliente]** &gt; **[!UICONTROL Edad]**
 
 ![](assets/report_age.png)
 
@@ -40,7 +40,7 @@ Si especifica una cadena como *`age`*, el sistema crea las siguientes métricas 
 * Métrica Edad: métrica que puede añadir a un informe, como el de visitantes únicos.
 * Métrica Recuento de edad: le permite saber, por ejemplo, si los visitantes han especificado un valor de *`age`* en un formulario.
 
-Como las métricas son sumas en una tabla de informe, debería [crear una métrica calculada](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) que le indique la edad media. La fórmula para esta métrica es `Age / Count of Age`.
+Como las métricas son sumas en una tabla de informe, debería [crear una métrica calculada](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/) que le indique la edad media. La fórmula para esta métrica es `Age / Count of Age`.
 
 ## Preguntas más frecuentes - Atributos del cliente en Analytics {#section_E29641D1F3D649C1AC9EA5231921F038}
 
@@ -53,12 +53,12 @@ Como las métricas son sumas en una tabla de informe, debería [crear una métri
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>¿Por qué es preferible utilizar el servicio de identidad para establecer el ID de cliente en lugar de rellenar el ID de cliente en una propiedad o eVar? </p> </td> 
+   <td colname="col1"> <p>¿Por qué es preferible utilizar el servicio de identidad para establecer el ID de cliente en lugar de rellenarlo en una propiedad o eVar? </p> </td> 
    <td colname="col2"> <p>El uso del servicio de identidad ofrece una serie de ventajas: </p> 
     <ul id="ul_5D3659604D43419F9CA5920B4F93728E"> 
-     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">Si no establece el ID de cliente con el servicio de identidad, los registros de cliente solo estarán disponibles para Adobe Analytics. Si desea utilizar los registros de cliente para la segmentación en tiempo real, debe utilizar el servicio de identidad. </li> 
-     <li id="li_228358684E474A298E39578D427BF932">El uso del servicio de identidad para establecer el ID de cliente reduce el tiempo necesario para sincronizar los ID con Experience Cloud. Si pone el ID de cliente en una propiedad o eVar, los ID de cliente se envían a Experience Cloud mediante la sincronización de servidor de back-end que se produce por lotes. El servicio de identidad sincroniza el ID de cliente con Experience Cloud inmediatamente. </li> 
-     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> El uso del servicio de identidad en lugar de una propiedad o eVar libera esa prop o eVar para otros usos. </li> 
+     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">Si no establece el ID de cliente con el servicio de identidad, los registros del cliente solo estarán disponibles para Adobe Analytics. Si desea utilizar los registros del cliente para la segmentación en tiempo real, debe usar el servicio de identidad. </li> 
+     <li id="li_228358684E474A298E39578D427BF932">Utilizar el servicio de identidad para establecer el ID de cliente reduce el tiempo empleado en sincronizar los ID con Experience Cloud. Si pone el ID de cliente en una propiedad o eVar, los ID de cliente se envían a Experience Cloud mediante la sincronización de servidor de back-end que se produce por lotes. El servicio de identidad sincroniza inmediatamente el ID de cliente con Experience Cloud. </li> 
+     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> Usar el servicio de identidad en lugar de una propiedad o eVar libera esa propiedad o eVar para otros usos. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
