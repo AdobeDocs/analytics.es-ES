@@ -2,7 +2,7 @@
 description: 'null'
 title: Resumen de paneles
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -35,15 +35,15 @@ Recuerde:
 
 **Para crear y utilizar filtros desplegables:**
 
-1. Select any items from the left rail and, **while holding down the  key**, drop them into the panel drop zone.
+1. Seleccione cualquier elemento del carril izquierdo y, **mientras pulsa la tecla**, suéltelo en la zona de colocación del panel.
 
    ![](assets/create_dropdown.png)
 
-   De este modo, los componentes se convierten en una lista desplegable, no en un segmento. (También puede añadir segmentos si no mantiene pulsada la tecla).
+   De este modo, los componentes se convierten en una lista desplegable, no en un segmento. (También puede agregar segmentos; para ello, no mantenga pulsada la tecla ).
 
    ![](assets/dropdown.png)
 
-1. Seleccione una de las opciones desplegables para cambiar los datos en el panel de abajo. (You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
+1. Seleccione una de las opciones desplegables para cambiar los datos en el panel de abajo. (También puede optar por no filtrar ninguno de los datos del panel seleccionando **[!UICONTROL Sin filtro]**).
 1. Por ejemplo, si también quisiera dividir los datos por canal de marketing, podría agregar otra lista desplegable llamada “Canal de marketing”:
 
    ![](assets/mc_dropdown.png)
