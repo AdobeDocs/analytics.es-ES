@@ -2,7 +2,7 @@
 description: El complemento s.hitGovernor realiza un seguimiento del número total de solicitudes de imagen de Analytics que se envían durante un tiempo consecutivo predefinido y puede realizar lógica adicional si este total supera un determinado límite.
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
