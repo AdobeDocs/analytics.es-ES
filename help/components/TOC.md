@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
@@ -113,7 +113,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Crear clasificaciones numéricas 2](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
       + [Importar clasificaciones numéricas 2](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
       + [Ejemplos](c-classifications2/c-numeric-2/c-examples.md)
-   + [Resolución de problemas de clasificaciones](c-classifications2/c-classifications-troubleshooting.md)
+   + [Clasificaciones de resolución de errores](c-classifications2/c-classifications-troubleshooting.md)
 + [Eventos de calendario](t-calendar-event.md)
 + Variables {#variables}
    + [Resumen de las variables](c-variables/c-variables.md)
@@ -128,7 +128,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
       + [Longitud de la dirección URL del marcador](c-variables/dimensionslist/reports-bookmark-url.md)
       + [Bots](c-variables/dimensionslist/reports-bots.md)
       + [Desglosar](c-variables/dimensionslist/breakdown.md)
-      + [Navegador](c-variables/dimensionslist/reports-browsers.md)
+      + [Explorador](c-variables/dimensionslist/reports-browsers.md)
       + [Altura del explorador](c-variables/dimensionslist/reports-browser-height.md)
       + [Tipos de explorador](c-variables/dimensionslist/reports-browser-type.md)
       + [Longitud de la dirección URL del navegador](c-variables/dimensionslist/reports-browser-url.md)
@@ -326,7 +326,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Resumen de informes en tiempo real](c-real-time-reporting/realtime.md)
    + [Configurar informes en tiempo real](c-real-time-reporting/t-realtime-admin.md)
    + [Métricas y dimensiones en tiempo real compatibles](c-real-time-reporting/realtime-metrics.md)
-+ Canales de marketing{#marketing-channels}
++ Canales de marketing {#marketing-channels}
    + [Introducción a los canales de marketing](c-marketing-channels/c-getting-started-mchannel.md)
    + [Acerca de los informes del canal de marketing](c-marketing-channels/c-overview.md)
    + [Acerca de los canales y las reglas](c-marketing-channels/c-channels-rules.md)
@@ -347,4 +347,4 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Acceso a informes](c-marketing-channels/c-channel-report-access.md)
    + [Configuración del acceso de grupos de usuarios](c-marketing-channels/t-user-groups.md)
    + [Conceder derechos administrativos limitados](c-marketing-channels/t-admin-rights.md)
-   + [Ejecución de informes de canales de mercadotecnia.](c-marketing-channels/t-reports-sc.md)
+   + [Ejecución de informes de canales de mercadotecnia](c-marketing-channels/t-reports-sc.md).
