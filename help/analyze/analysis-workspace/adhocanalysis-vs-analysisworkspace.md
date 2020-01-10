@@ -2,7 +2,7 @@
 description: Compara la terminología y tareas de los Ad Hoc Analysis con las de Analysis Workspace.
 title: Analysis Workspace comparado con los Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,17 +14,17 @@ Compara la terminología y tareas de los Ad Hoc Analysis con las de Analysis Wor
 
 Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al flujo de trabajo del explorador. Aunque parte de la terminología y la funcionalidad se comparten entre ambos productos, en Analysis Workspace se han introducido nuevos términos y enfoques de análisis.
 
-[Aquí](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html) tiene una comparativa técnica de las características principales y los requisitos del sistema de ambos productos.
+[Aquí](https://marketing.adobe.com/resources/help/es_ES/reference/analytics-product-comparison.html) tiene una comparativa técnica de las características principales y los requisitos del sistema de ambos productos.
 
 ## Comparación de terminología clave {#section_6109406B83B043A18E46D38F130B1D2E}
 
-| Ad Hoc Analysis  | Analysis Workspace |
+| Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
 | Proyecto | Workspace o proyecto |
 | Workspace | Panel |
-| Informe | Tabla improvisada |
+| Informe | Tabla de forma libre |
 | Gráficos | Visualización |
-| Jerarquía: Proyecto &gt; Espacios de trabajo &gt; Informes | Jerarquía: Proyecto &gt; Paneles &gt; Tablas |
+| Jerarquía: Proyecto &gt; Workspace &gt; Informes | Jerarquía: Proyecto &gt; Paneles &gt; Tablas |
 | Plantillas de informes Jerárquicas, De tendencia, Totales | Visualización de tabla improvisada |
 | Plantilla de flujo | Visualización de flujo |
 | Abandono | Visualización de visitas en el orden previsto |
@@ -34,7 +34,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Tarea de Ad Hoc Analysis </th> 
+   <th colname="col1" class="entry"> Ad Hoc Analysis Tarea </th> 
    <th colname="col2" class="entry"> Tarea de Analysis Workspace </th> 
   </tr>
  </thead>
@@ -47,7 +47,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
    <td colname="col1"> <p>Aplicar segmentos </p> </td> 
    <td colname="col2"> <p>Los segmentos están disponibles en el menú de componente Segmento y pueden aplicarse en tres lugares en Analysis Workspace: </p> 
     <ol id="ol_800D81FE2C84459B94B085C51E140330"> 
-     <li id="li_F2E050902F9A4831BBA57F466E07DEAE">En el <b>nivel del panel</b>, que se aplica a muchas visualizaciones del panel. Esto es similar a aplicar un segmento a un espacio de trabajo en análisis específicos. </li> 
+     <li id="li_F2E050902F9A4831BBA57F466E07DEAE">En el <b>nivel del panel</b>, que se aplica a muchas visualizaciones del panel. Esto es similar a aplicar un segmento a un Workspace en análisis específicos. </li> 
      <li id="li_2D88E43E0161485C95B08DC3C593EFD9">Como <b>filas en una tabla</b>. Esto es similar a añadir segmentos a la sección “Filas/Desgloses” del generador de tablas de análisis específicos. </li> 
      <li id="li_102E1A1DAA9247C08FC46C5AB3D78113">Como <b>columnas de una tabla</b>. Esto es similar a añadir segmentos a la sección “Columnas” del generador de tablas de Ad Hoc Analysis, o a aplicar un segmento en el nivel de informes en Ad Hoc Analysis. </li> 
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > Vídeo: Uso de segmentos en Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > Vídeo: Aplicación de segmentos a un panel</a> </p> </td> 
@@ -67,7 +67,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Utilizar visitas en el orden previsto y embudos de conversión </p> </td> 
-   <td colname="col2"> <p> Las <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  >visualizaciones de visitas en el orden previsto</a> están disponibles en Analysis Workspace en el menú de componente Visualización. De forma similar a los Ad Hoc Analysis: </p> 
+   <td colname="col2"> <p>Las <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  >visualizaciones de visitas en el orden previsto</a> están disponibles en Analysis Workspace en el menú de componente Visualización. De forma similar a los Ad Hoc Analysis: </p> 
     <ol id="ol_625FF45AED4E403DBEE1A906282E8531"> 
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Las visitas en el orden previsto pueden abarcar una visita o visitante, y puede incluirse “Todas las visitas” de manera opcional. Las visitas en el orden previsto se pueden clasificar rápidamente en tendencias mediante el menú que se abre al hacer clic con el botón derecho. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Los elementos dimensionales pueden conectarse mediante un operador O (como en los grupos) y el embudo puede utilizar eventos. </li> 
@@ -76,7 +76,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Examinar el flujo (rutas) </p> </td> 
-   <td colname="col2"> <p> Las <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  >visualizaciones de flujo</a> están disponibles en Analysis Workspace en el menú de componente Visualización. De forma similar a los Ad Hoc Analysis: </p> 
+   <td colname="col2"> <p>Las <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  >visualizaciones de flujo</a> están disponibles en Analysis Workspace en el menú de componente Visualización. De forma similar a los Ad Hoc Analysis: </p> 
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Un flujo puede abarcar una visita o visitante. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Las estadísticas clave se muestran como porcentajes de vistas de ruta. </li> 
