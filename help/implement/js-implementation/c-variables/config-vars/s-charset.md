@@ -3,7 +3,7 @@ description: Las variables dinámicas permiten copiar valores entre distintas va
 keywords: Analytics Implementation
 solution: null
 title: Variables dinámicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -41,7 +41,7 @@ Si la variable *`charSet`* contiene un valor incorrecto, los datos de todas las 
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |--- |--- |--- |--- |
-| N.D. | CE | N.D. | "" |
+| N/A | CE | N/A | "" |
 
 ## Sintaxis y valores posibles
 
