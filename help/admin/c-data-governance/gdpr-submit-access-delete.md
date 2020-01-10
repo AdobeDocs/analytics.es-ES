@@ -103,7 +103,7 @@ Tenga en cuenta que existen tres bloques en la sección del usuario que represen
 * La segunda solicitud también es de acceso, pero utiliza una cookie de MCID/ECID.
 * La tercera solicitud solicita tanto el acceso como la eliminación de los ID especificados. Mientras que la expansión del ID se especifica para todas las solicitudes, tendrá un mayor impacto en esta tercera solicitud, ya que es la única que utiliza ID sin cookies. Como resultado, esta solicitud también descubrirá los ID de cookie asociados a cualquier dispositivo con el CRM-ID o la dirección de correo electrónico especificados y expandirá la solicitud para incluir también dichos ID.
 
-Tenga en cuenta lo siguiente:
+Tenga en cuenta que
 
 * El valor “5D7236525AA6D9580A495C6C@AdobeOrg” en la sección “companyContexts” debe actualizarse con el valor de su propia organización de Experience Cloud.
 * Los campos “tipo” y “área de nombres” se describen de forma más detallada en la sección [Área de nombres](/help/admin/c-data-governance/gdpr-namespaces.md).
