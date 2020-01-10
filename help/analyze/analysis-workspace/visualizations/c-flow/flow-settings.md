@@ -2,7 +2,7 @@
 description: 'null'
 title: Configuración de flujo
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,10 +12,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | Configuración | Descripción |
 |--- |--- |
-| Contenedor de flujo  | <ul><li>Visita</li><li>Visitante</li></ul> Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
+| Contenedor de flujo | <ul><li>Visita</li><li>Visitante</li></ul> Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
 | Opciones de flujo | <ul><li>Etiquetas de ajustes</li></ul> Normalmente, las etiquetas de los elementos de flujo se truncan para ahorrar espacio en la pantalla, pero puede hacer la etiqueta entera visible al marcar esta casilla.  Valor predeterminado = sin marcar.<ul><li>Incluir instancias de repetición</li></ul> Las visualizaciones de flujo se basan en instancias de una dimensión. Esta configuración le da la opción de incluir o excluir instancias repetidas, por ejemplo, recargas de página. Sin embargo, las repeticiones no se pueden eliminar de las visualizaciones de flujo que incluyen dimensiones multivalor, como listVars, listProps, s.product, eVars de comercialización, etc. |
 
-## Opciones de clic con el botón derecho
+## Opciones con el botón derecho del ratón
 
 | Opción | Descripción |
 |--- |--- |
