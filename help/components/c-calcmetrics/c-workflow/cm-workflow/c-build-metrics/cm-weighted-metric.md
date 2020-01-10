@@ -2,7 +2,7 @@
 description: Muestra ejemplos de métricas filtradas y ponderadas.
 title: Métricas filtradas y ponderadas
 uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
