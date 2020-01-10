@@ -3,7 +3,7 @@ description: Las variables dinámicas permiten copiar valores entre distintas va
 keywords: Analytics Implementation
 solution: null
 title: Variables dinámicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,11 +23,11 @@ Si *`cookieDomainPeriods`* se establece en "3" pero el dominio solo contiene dos
 
 > [!NOTE] No incluya más subdominios como parte de *`cookieDomainPeriods`*. Por ejemplo, `store.toys.mysite.com` seguiría configurándose con *`cookieDomainPeriods`* en “2”. Esta definición de variable configura correctamente las cookies en el dominio raíz, [!DNL mysite.com]. Si se establece *`cookieDomainPeriods`* como “3” en este ejemplo, las cookies se configurarían en el dominio [!DNL toys.mysite.com], que tiene las mismas implicaciones que en el ejemplo anterior.
 
-Consulte también [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html).
+Consulte también [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/es-ES/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html).
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| N.D. | CDP | Afecta a varios informes ya que controla el modo de almacenamiento y gestión de la ID de visitante. | "2" |
+| N/A | CDP | Afecta a varios informes ya que controla el modo de almacenamiento y gestión de la ID de visitante. | "2" |
 
 >[!NOTE]
 >
