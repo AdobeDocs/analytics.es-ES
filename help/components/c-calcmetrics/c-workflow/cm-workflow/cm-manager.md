@@ -2,7 +2,7 @@
 description: El Administrador de métricas calculadas ofrece numerosas maneras de conservar las métricas, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 title: Administrador de métricas calculadas
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ El Administrador de métricas calculadas ofrece numerosas maneras de conservar l
 
 El Administrador de métricas calculadas muestra todos los segmentos que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todas las métricas personalizadas de la organización. En esta introducción se presentan la interfaz de usuario y las capacidades del Administrador de métricas calculadas. Acceda a ella
 
-* Going to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the left navigation. A continuación, haga clic en **[!UICONTROL Métricas calculadas]**.
+* Vaya a **[!UICONTROL Análisis]** &gt; **[!UICONTROL Componentes]** en el panel de navegación izquierdo. A continuación, haga clic en **[!UICONTROL Métricas calculadas]**.
 
 ![](assets/calcmet_mgr_ui.png)
 
@@ -31,4 +31,4 @@ El Administrador de métricas calculadas muestra todos los segmentos que posee y
 | Compartido con | Enumera las personas o grupos (solo administrador) o todos (solo administrador) con los que compartió el segmento. |
 | Selector de columnas | Le permite seleccionar o deseleccionar columnas en el Administrador de métricas calculadas para que pueda personalizar la vista. |
 | Icono compartido (no se muestra) | Indica que usted compartió esta métrica personalizada con otra persona o que la han compartido con usted. |
-| Icono Aprobado (no se muestra) | Indica que un administrador ha aprobado esta métrica personalizada. |
+| Icono aprobado (no se muestra) | Indica que un administrador ha aprobado esta métrica personalizada. |
