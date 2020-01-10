@@ -2,7 +2,7 @@
 description: 'null'
 title: Resumen de la configuración de la empresa
 uuid: 175de01f-02ae-44e2-ae94-fa49733e2703
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 La página [!UICONTROL Configuración de la empresa] permite configurar opciones que se aplican a todos los grupos de informes que gestiona la organización.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Configuración **[!UICONTROL de empresa]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Configuración de la empresa]**
 
 + [Niveles de acceso de las funcionalidades](feature-access-levels.md)
 + [Servicios Web](web-services-admin.md)
