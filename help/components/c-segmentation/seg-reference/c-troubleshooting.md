@@ -2,7 +2,7 @@
 description: 'null'
 title: Solución de problemas de segmentación
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Error: "Elementos incompatibles en este segmento" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
-Este error se produce cuando intenta guardar un segmento en la carpeta del Almacén de datos donde el segmento contiene elementos no compatibles con el Almacén de datos. Para corregir este error, puede hacer una de estas dos acciones:
+Este error se produce cuando intenta guardar un segmento en la carpeta del Almacén de datos donde el segmento contiene elementos no compatibles con el Data Warehouse. Para corregir este error, puede hacer una de estas dos acciones:
 
 * Guardar el segmento en una carpeta distinta.
 * Eliminar o cambiar las partes incompatibles del segmento.
@@ -29,8 +29,8 @@ Motivos posibles:
 
 Motivos posibles:
 
-* Algunas dimensiones están disponibles únicamente en el Almacén de datos y no en el Administrador de segmentos.
-* El segmento no es compatible con Informes y análisis.
+* Algunas dimensiones están disponibles únicamente en el Almacén de datos y no en el Data Warehouse.
+* El segmento no es compatible con Reports &amp; Analytics.
 * El segmento únicamente se comprueba para un grupo de informes específico.
 * Es posible que otro usuario haya eliminado un segmento compartido.
 * Los segmentos no se han podido cargar debido a un problema de caché del navegador o del centro de datos.
