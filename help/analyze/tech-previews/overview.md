@@ -1,7 +1,7 @@
 ---
 title: Guía del usuario de Labs
-description: Vista previa de proyectos de prototipo para Adobe Analytics
-translation-type: tm+mt
+description: Vista previa de proyectos prototipo para Adobe Analytics
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Guía del usuario de Labs
 
->[!NOTE] Labs se publica actualmente como acceso anticipado a un número limitado de clientes, pero se publicará ampliamente más adelante.
+>[!NOTE] Ahora mismo, Labs se trata de un acceso anticipado para un número limitado de clientes, pero más adelante será accesible de manera más amplia.
 
-Los laboratorios permiten crear prototipos más rápidos de las ideas en las primeras etapas. Es una combinación de herramientas y procesos que acelera el desarrollo de manera transparente, con un enfoque en el cliente. Permite que los usuarios se involucren con tecnologías emergentes, descubran perspectivas valiosas e influyan en el desarrollo de funciones y prioridades futuras. Puede usar Labs para obtener acceso anticipado a las innovaciones de Analytics y para evaluar las próximas funciones en el contexto de sus propios casos de uso empresarial y datos.
+Labs permite crear prototipos en las primeras etapas del diseño de manera más rápida. Es una combinación de herramientas y procesos que aceleran el desarrollo de manera transparente, siempre pensando en el cliente. Permite que los usuarios se involucren con tecnologías emergentes, descubran perspectivas valiosas e influyan en el desarrollo de funciones y prioridades futuras. Puede usar Labs para obtener acceso anticipado a las innovaciones de Analytics y para evaluar las próximas funciones en el contexto de sus propios casos de uso y datos empresariales.
 
 ## Requisitos
 
-Los laboratorios se activan automáticamente para todos los administradores. Los demás miembros del equipo deben ponerse en contacto con los administradores de sus productos y solicitar acceso.
+Labs se activa automáticamente para todos los administradores. Los demás integrantes del equipo deben ponerse en contacto con los administradores de sus productos y solicitar acceso.
 
 Si aún no lo ha hecho, lea y firme los formularios correspondientes del Acuerdo de no divulgación y los Términos y condiciones.
 
@@ -24,47 +24,47 @@ Si aún no lo ha hecho, lea y firme los formularios correspondientes del Acuerdo
 
 Para acceder a Labs:
 
-1. Si todavía no tiene acceso a Workspace y Labs, solicite permisos al administrador.
+1. Si todavía no tiene acceso a Workspace y Labs, solicite los permisos necesarios al administrador.
 
-1. Click the **Labs** tab.
+1. Haga clic en la pestaña **Labs**.
 
-## Evaluar un prototipo
+## Evaluación de un prototipo
 
 Para iniciar y evaluar un prototipo:
 
 1. En la pantalla Labs, haga clic en el botón **Iniciar** del prototipo que desee ver. Cuando se inicie el prototipo, verá su nombre en la parte superior izquierda del entorno de prototipo.
 
-   ![prototype name](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
+   ![nombre de prototipo](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. Vea un vídeo que resalta el prototipo haciendo clic en **Ver vídeo** en la parte superior derecha de la pantalla. Haga clic en el botón **Cerrar** cuando se complete el vídeo.
+1. Vea un vídeo que resalta el prototipo haciendo clic en **Ver vídeo** en la parte superior derecha de la pantalla. Haga clic en el botón **Cerrar** cuando finalice el vídeo.
 
    ![opciones de vista previa](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-1. Trabaje con el prototipo. Al trabajar en el entorno de prototipo:
+1. Trabaje con el prototipo. Al trabajar en el entorno de prototipos:
 
 * Los proyectos creados dentro del entorno de prototipo no se pueden guardar ni compartir.
 
-* En un prototipo puede evaluar los datos con cualquier dimensión, métrica, segmento y visualización a la que de otro modo tenga acceso dentro de Workspace.
+* En un prototipo puede evaluar los datos con cualquier dimensión, métrica, segmento y visualización a los que tenga acceso en Workspace.
 
-* Los cambios que realice dentro de un prototipo no afectarán a la recopilación o el procesamiento de datos.
+* Los cambios que realice dentro de un prototipo no afectarán a la recopilación ni al procesamiento de datos.
 
-* Los cambios realizados mediante la creación o modificación de segmentos, métricas calculadas y alertas persisten fuera del entorno de prototipo.
+* Los cambios realizados mediante la creación o modificación de segmentos, métricas calculadas y alertas se conservan fuera del entorno de prototipo.
 
 ## Dejar comentarios
 
-1. Haga clic en el botón **Enviar comentarios** para proporcionar comentarios en el cuadro de mensaje en cualquier momento al trabajar con el prototipo.
+1. Haga clic en el botón **Enviar comentarios** para proporcionar comentarios en el cuadro de mensaje en cualquier momento mientras trabaja con el prototipo.
 
    ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
 
 1. Haga clic en **Enviar** para enviar sus comentarios.
 
-1. Para probar un prototipo diferente o salir del entorno de prototipo, haga clic en el botón **Dejar prototipo** en la parte superior derecha de la pantalla y complete el estudio breve del prototipo. Cualquier cambio realizado en un proyecto prototipo se pierde al salir del entorno prototipo.
+1. Para probar un prototipo diferente o salir del entorno de prototipo, haga clic en el botón **Dejar prototipo** en la parte superior derecha de la pantalla y complete la encuesta breve del prototipo. Cualquier cambio realizado en un proyecto prototipo se pierde al salir del entorno de prototipos.
 
-   ![nuevo cuadro de comentarios](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![new feedback box](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
 1. Haga clic en **Enviar** para volver al portal principal de vistas previas.
 
 ## Información adicional
 
-* Algunos prototipos dentro de los laboratorios se convierten en funciones de Analytics, mientras que otros pueden no serlo. Los comentarios conducen a la decisión, así que revise los prototipos y haga saber a Adobe cuán valiosos los encuentra.
-* Los laboratorios están disponibles para todos los derechos de SKU.
+* Algunos prototipos dentro de Labs se convierten en funciones de Analytics, mientras que otros pueden no llegar a serlo. Los comentarios ayudan a tomar decisiones, así que revise los prototipos e informe a Adobe de lo que opina acerca de ellos.
+* Labs está disponible para todos los SKU.
