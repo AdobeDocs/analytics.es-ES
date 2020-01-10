@@ -3,7 +3,7 @@ description: Las variables dinámicas permiten copiar valores entre distintas va
 keywords: Analytics Implementation
 solution: null
 title: Variables dinámicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # s.dynamicAccountList
 
-> [!NOTE] La `s.dynamicAccountList` variable no se admite en las bibliotecas [de AppMeasurement](../../c-appmeasurement-js/appmeasure-mjs.md)actuales. Solo se utiliza en AppMeasurement heredado, como el código H.
+> [!NOTE] La variable `s.dynamicAccountList` no se admite en [las bibliotecas de AppMeasurement actuales](../../c-appmeasurement-js/appmeasure-mjs.md). Solo se utiliza en el antiguo AppMeasurement, como el código H.
 
-La `s.dynamicAccountList` variable se utiliza para ayudar a determinar dinámicamente un grupo de informes al que enviar datos. Se utiliza junto con las `dynamicAccountSelection` variables y `dynamicAccountMatch` . The rules in `dynamicAccountList` are applied if `dynamicAccountSelection` is set to `true`, and they apply to the section of the URL specified in `dynamicAccountMatch`.
+La variable `s.dynamicAccountList` se utiliza para ayudar a determinar dinámicamente un grupo de informes al que enviar datos. Se utiliza junto con las variables `dynamicAccountSelection` y `dynamicAccountMatch`. Las reglas de `dynamicAccountList` se aplican si `dynamicAccountSelection` se establece en `true` y se aplican a la sección de la URL especificada en `dynamicAccountMatch`.
 
 ## Sintaxis y valores posibles
 
@@ -21,17 +21,17 @@ La `s.dynamicAccountList` variable se utiliza para ayudar a determinar dinámica
 s.dynamicAccountList="rs1[,rs2]=domain1.com[,domain2.com/path][;...]";
 ```
 
-La entrada válida es una lista separada por punto y coma de pares nombre=valor (reglas). Cada lista contiene los siguientes elementos:
+Se acepta una lista de pares nombre=valor (reglas) separadas por punto y coma. Cada lista contiene los siguientes elementos:
 
-* Una o más ID de grupo de informes (separadas por comas)
-* Un signo igual
-* Uno o más filtros de URL (separados por comas)
+* Uno o varios ID de grupo de informes (separados por coma).
+* Un signo igual.
+* Uno o varios filtros de URL (separados por coma).
 
 En la cadena solo deben usarse caracteres ASCII estándar (sin espacios).
 
 ## Ejemplos
 
-En todos los ejemplos siguientes, la dirección URL de la página es `https://example.com/path2/?prod_id=12345`, la `dynamicAccountSelection` variable se establece en `true`y la `s_account` variable se establece en `examplersid`.
+En todos los ejemplos siguientes, la dirección URL de la página es `https://example.com/path2/?prod_id=12345`, la variable `dynamicAccountSelection` se establece en `true` y la variable `s_account` se establece en `examplersid`.
 
 ```js
 // In this example, the report suite that receives data is examplersid1.
@@ -49,8 +49,8 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 
 ## Problemas, preguntas y consejos
 
-* Las reglas enumeradas en esta variable se aplican con un orden de izquierda a derecha. If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. Como resultado, coloque reglas más genéricas a la derecha de la lista.
-* If no rules match, the default report suite in `s_account` is used.
-* Si la página se guarda en el disco duro de alguien o se traduce a través de un motor de traducción web (como las páginas traducidas de Google), es probable que la selección de cuentas dinámicas no funcione.
+* Las reglas enumeradas en esta variable se aplican en un orden de izquierda a derecha. Si la variable `dynamicAccountMatch` coincide con más de una regla, se usa la regla situada más a la izquierda para determinar el grupo de informes. Como resultado, las reglas más genéricas deben situarse a la derecha de la lista.
+* Si no coincide ninguna regla, se usa el grupo de informes predeterminado de `s_account`.
+* Si su página se guarda en el disco duro de otra persona o se traduce mediante un motor de traducción web (como las páginas traducidas por Google), la selección de cuentas dinámicas probablemente no funcionará.
 * Las reglas `dynamicAccountSelection` solo se aplican a la sección de la dirección URL especificada en `dynamicAccountMatch`.
-* Use the [!DNL Adobe Experience Cloud Debugger] to test the destination report suite.
+* Utilice [!DNL Adobe Experience Cloud Debugger] para probar los grupos de informes de destino.
