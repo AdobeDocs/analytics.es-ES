@@ -2,7 +2,7 @@
 description: 'null'
 title: Preguntas frecuentes
 uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -44,7 +44,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>¿En qué se parecen y diferencian las capacidades de Analysis Workspace y los Ad Hoc Analysis? </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  > Analysis Workspace compared to Ad Hoc Analysis</a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  >Analysis Workspace comparado con los Ad Hoc Analysis</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
