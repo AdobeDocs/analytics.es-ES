@@ -2,7 +2,7 @@
 description: Muestra cómo se elimina o descarta un evento de una visita mediante una regla de procesamiento, sin necesidad de implementar un cambio en la página.
 title: Eliminar un evento de una visita
 uuid: 4c481aa2-d074-4abe-b472-9f685bb1f4a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
