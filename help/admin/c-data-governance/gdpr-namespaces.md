@@ -2,7 +2,7 @@
 description: A cada ID al que desee permitir búsquedas se le asigna un área de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
 title: Espacios de nombres
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
@@ -48,7 +48,7 @@ También puede utilizar `"namespaceId": 10` en lugar de o además de `"namespace
 
 Forma obsoleta:
 
-El valor debe especificarse como dos números hexadecimales de 16 dígitos o como dos números decimales de 19 dígitos. Los números deben separarse con una raya, una raya baja o dos puntos. Se deben agregar ceros a la izquierda si cualquiera de los números no tiene suficientes dígitos.
+El valor debe especificarse como dos números hexadecimales de 16 dígitos o como dos números decimales de 19 dígitos. Los números deben separarse con una raya, una raya baja o dos puntos. Si alguno de los números no tiene dígitos suficientes, es necesario añadir ceros a la izquierda.
 
 ## Cookie del servicio de identidad
 
@@ -68,7 +68,7 @@ También se puede utilizar `"namespaceId": 4` en lugar de o además de `"namespa
 >
 >Estos ID son los únicos que Analytics admite cuyo valor de “type” es distinto de “analytics”.
 
-Si el formato de la parte de valor de cualquiera de estos ID de cookies no sigue el formato descrito para ese ID, la solicitud de privacidad de datos fallará, con el error "Valor no formateado correctamente".
+Si el formato de la porción de valor de cualquiera de estos ID de cookie no cumple con el formato descrito para el ID, la solicitud amparada en la privacidad de datos falla y genera el error “El valor no tiene el formato correcto”.
 
 Lo habitual es que recopile estos ID de cookie mediante el nuevo código de [JavaScript de privacidad](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm) (vínculo a la documentación técnica), que proporcionará automáticamente todos los pares clave/valor para estos ID de JSON.
 
@@ -104,7 +104,7 @@ En el caso de los ID en variables de tráfico o conversión personalizadas (prop
 
 También puede ver los áreas de nombres que haya definido con anterioridad para otras variables o grupos de informes y reutilizar uno de ellos, de forma que el mismo área de nombres pueda utilizarse para todos sus grupos de informes que almacenan ese tipo de ID. Además, es posible asignar el mismo área de nombres a diversas variables dentro de un grupo de informes. Por ejemplo, algunos clientes almacenan un ID de CRM en una variable de tráfico y una de conversión (según la página, a veces se usa solo una de las dos), y podrían asignar el área de nombres “ID de CRM” a ambas variables.
 
-> [!TIP] Evite utilizar el nombre descriptivo de una variable (el nombre mostrado en la interfaz de usuario de los informes) o el número de la variable (como eVar12) al especificar el espacio de nombres a la API de privacidad de datos, a menos que sea el espacio de nombres especificado al aplicar la etiqueta ID-DEVICE o ID-PERSON. Utilizar un área de nombres en lugar de un nombre descriptivo permite que el mismo bloque de identidad del usuario especifique la variable correcta para múltiples grupos de informes. Por ejemplo: si el ID está en eVars diferentes en algunos grupos de informes o si los nombres descriptivos no coinciden (por ejemplo, cuando el nombre descriptivo se ha localizado para un grupo de informes específico).
+> [!TIP] No puede utilizar un nombre descriptivo de una variable (el nombre mostrado en la interfaz de usuario de generación de informes) o el número de la variable (como eVar12) cuando especifica el área de nombres en la API de privacidad de datos, a menos que también sea el área de nombres especificado al aplicar la etiqueta ID-DEVICE o ID-PERSON. Utilizar un área de nombres en lugar de un nombre descriptivo permite que el mismo bloque de identidad del usuario especifique la variable correcta para múltiples grupos de informes. Por ejemplo, si el ID está en eVars diferentes en algunos grupos de informes o si los nombres descriptivos no coinciden (como cuando el nombre descriptivo se ha localizado para un grupo de informes específico).
 
 > [!CAUTION] Las áreas de nombres "visitorId" y "customVisitorId" están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
 
