@@ -1,8 +1,8 @@
 ---
-description: Las sesiones con contexto en los grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas con dispositivos portátiles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
+description: Las sesiones según el contexto en los grupos de informes virtuales cambian el modo en que Adobe Analytics calcula las visitas con dispositivos móviles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
 title: Sesiones según el contexto
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Sesiones según el contexto
 
-Las sesiones con contexto en los grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas con dispositivos portátiles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
+Las sesiones según el contexto en los grupos de informes virtuales cambian el modo en que Adobe Analytics calcula las visitas con dispositivos móviles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
 
 Puede definir una visita del modo que desee sin alterar los datos subyacentes para adaptarse al modo en que sus visitantes interactúan con las aplicaciones móviles.
 
