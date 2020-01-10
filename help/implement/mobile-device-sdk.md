@@ -1,7 +1,7 @@
 ---
 title: Implementación de Analytics para dispositivos móviles
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0550b1ad44aebe70398b3994ff0dd72507e2ed4c
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 0550b1ad44aebe70398b3994ff0dd72507e2ed4c
 
 Para implementar Analytics para dispositivos móviles, consulte los siguientes repositorios y documentación de SDK:
 
-## SDK de Experience Platform Mobile
+## SDK para móviles de Experience Platform
 
 * [Repositorio de SDK](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation/blob/master/resources/frequently-asked-questions/current-sdk-versions.md)
 
@@ -23,10 +23,10 @@ Para implementar Analytics para dispositivos móviles, consulte los siguientes r
 
 * [Repositorio de SDK](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/sdks)
 
-* [Documentación iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
-* [Documentación Android](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [Documentación iOS](https://docs.adobe.com/content/help/es-ES/mobile-services/ios/overview.html)
+* [Documentación Android](https://docs.adobe.com/content/help/es-ES/mobile-services/android/overview.html)
 
-*Nota: Para obtener más información sobre la compatibilidad con la versión 4, consulte las preguntas más frecuentes[](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)sobre la versión 4 de los SDK para móviles.*
+*Nota: Para obtener más información sobre la compatibilidad con la versión 4, consulte[las preguntas frecuentes sobre la versión 4 de los SDK para móviles](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq).*
 
 ## AppMeasurement 3.x
 
