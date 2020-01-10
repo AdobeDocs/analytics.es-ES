@@ -2,7 +2,7 @@
 description: 'null'
 title: 'Alertas inteligentes: Casos de uso'
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ De este modo, se rellena instantáneamente el Generador de alertas para crear un
 
 ![](assets/prepopulated_alert.png)
 
-## Consolidate (stack) alerts instead of creating multiple alerts {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Consolidar las alertas (apilar) en lugar de crear múltiples alertas {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 El apilado de alertas garantiza que las alertas se combinen y que no obtenga diversas alertas independientes.
 
