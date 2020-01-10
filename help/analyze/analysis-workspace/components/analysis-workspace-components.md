@@ -2,7 +2,7 @@
 description: Los componentes de Analysis Workspace están formados por métricas, dimensiones, segmentos y granularidades de tiempo que puede arrastrar y soltar en un proyecto. Los componentes personalizados que crea se añaden a estos paneles como, por ejemplo, los intervalos de fecha personalizados.
 title: Resumen de componentes
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,15 +12,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Los componentes de Analysis Workspace están formados por métricas, dimensiones, segmentos y granularidades de tiempo que puede arrastrar y soltar en un proyecto. Los componentes personalizados que crea se añaden a estos paneles como, por ejemplo, los intervalos de fecha personalizados.
 
-Para acceder al panel Componentes, haga clic en el icono **[!UICONTROL Componentes]en el carril izquierdo.** Puede alternar entre paneles (panel en blanco, panel [improvisado](/help/analyze/analysis-workspace/visualizations/freeform-table.md)o panel Comparación [de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) ), [visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)y componentes con los iconos del carril izquierdo o mediante [teclas de acceso directo](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Para acceder al panel Componentes, haga clic en el icono **[!UICONTROL Componentes]** en el carril izquierdo. Puede alternar entre paneles (panel en blanco, [panel de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) o panel [Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)), [Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) y componentes con los iconos del carril izquierdo o mediante [métodos abreviados de teclado](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/components.png)
 
-See [Create a freeform analysis project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for information about using Components in a project.
+Consulte [Crear un proyecto de análisis improvisado](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) para obtener información sobre el uso de Componentes en un proyecto.
 
 ## Acciones de componente {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
-Puede administrar componentes (de uno en uno o seleccionando más de uno) de diferentes formas. Haga clic con el botón derecho en un componente o haga clic en **[!UICONTROL Acciones]en la parte superior de la lista de componentes.**
+Puede administrar componentes (de uno en uno o seleccionando más de uno) de diferentes formas. Haga clic con el botón derecho en un componente o haga clic en **[!UICONTROL Acciones]** en la parte superior de la lista de componentes.
 
 > [!NOTE] Estas acciones no se aplican a los componentes de tiempo.
 
@@ -32,4 +32,4 @@ Puede administrar componentes (de uno en uno o seleccionando más de uno) de dif
 | Compartir | Solo se aplica a los segmentos. |
 | Eliminar | Solo se aplica a los segmentos. |
 
-[Creación de métricas, segmentos y fechas en YouTube](https://www.youtube.com/watch?v=XXJuNAte8E8&index=25&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51)
+[Creación de métricas, segmentos y fechas en YouTube](https://www.youtube.com/watch?v=XXJuNAte8E8&amp;index=25&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51)
