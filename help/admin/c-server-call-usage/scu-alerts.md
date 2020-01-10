@@ -1,22 +1,22 @@
 ---
 description: Añada o administre alertas de uso de llamadas al servidor. Al configurar una alerta, se aplica a todos los grupos de informes en todas las empresas de inicio de sesión de una empresa de facturación.
-title: Alertas de uso de llamadas al servidor
+title: Alertas sobre el uso de llamadas al servidor
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Alertas de uso de llamadas al servidor
+# Alertas sobre el uso de llamadas al servidor
 
 Al configurar una alerta, se aplica a todos los grupos de informes en todas las empresas de inicio de sesión de una empresa de facturación.
 
 ## Información general
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+Se añade una nueva categoría de alertas denominada **[!UICONTROL Alerta de uso de llamadas al servidor]** a la interfaz de usuario de [Administración de alertas](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/intellligent_alerts.html).
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. Esta alerta desencadena una notificación dirigida a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
+Está previamente completado con **1 alerta predeterminada** que aparece en cualquier empresa de inicio de sesión con acceso a la función Uso de llamadas al servidor. Esta alerta activa una notificación destinada a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
 
 * “Cualquier” uso de llamadas al servidor que sea “mayor o igual que” el 100 % para cualquier tipo de llamada al servidor para la que esté autorizado, O
 * “Cualquier” uso de llamadas al servidor que sea “mayor o igual que” el 90 % para cualquier tipo de llamada al servidor para la que esté autorizado, O
@@ -26,8 +26,8 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
 Puede acceder a las alertas de uso de llamadas al servidor de dos formas:
 
-* Haga clic en **[!UICONTROL Administrar alertas]en la esquina superior derecha de la ficha Uso actual en la pestaña de uso de Grupo de informes o**
-* Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]** in Adobe Analytics.
+* Haga clic en **[!UICONTROL Administrar alertas]** en la esquina superior derecha de la ficha Uso actual en la pestaña de uso de Grupo de informes o
+* Vaya a **[!UICONTROL Componentes]** &gt; **[!UICONTROL Alertas]** en Adobe Analytics.
 
 ## Crear alertas de uso de llamadas al servidor {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
@@ -42,16 +42,16 @@ Para crear alertas adicionales,
    ![](assets/sc_alert.png)
 
    * **Título**: Especifique un nombre descriptivo. No es posible guardar la alerta sin nombre.
-   * **Granularidad** de tiempo: Se refiere a la frecuencia con la que se comprobará la alerta. *En este momento solo admitimos granularidad Semanal.* Esto significa que la alerta se comprobará de forma semanal y consultará los datos del periodo de uso actual.
-   * **Destinatarios**: Especifique quién debe recibir un correo electrónico cuando la alerta active el umbral especificado.
-   * **Fecha** de caducidad: De forma predeterminada, la fecha de caducidad es un año a partir de la fecha de creación de la alerta.
+   * **Granularidad**: Hace referencia a la frecuencia con la que se consultará la alerta. *En este momento solo admitimos granularidad Semanal.* Esto significa que la alerta se comprobará de forma semanal y consultará los datos del periodo de uso actual.
+   * **Destinatarios**: Especifique cualquier miembro de la organización que deba recibir un correo electrónico cuando la alerta active el umbral especificado.
+   * **Fecha de caducidad**: De forma predeterminada, la fecha de caducidad es de un año a partir de la fecha de creación de la alerta.
    * **Enviar una alerta cuando**:
 
-      * Cualquiera de estos activadores de métricasAgregue el tipo de llamadas al servidor como métrica y especifique el umbral de alerta seleccionando el modificador y el umbral:
+      * Activación por cualquiera de estas métricas
+Añada el tipo de llamadas al servidor como métrica y especifique el umbral de alertas seleccionando el modificador y el umbral:
          * mayor o igual que
          * menor o igual que
-      * con
-Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
+      * con Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
