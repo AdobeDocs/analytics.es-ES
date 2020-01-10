@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;global variables;server variable;evar;props;dyn
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Variables globales
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
@@ -25,4 +25,4 @@ Estas variables se activan en todas las señalizaciones de reglas de carga de p�
 | Servidor | La variable predefinida rellena la dimensión de servidores en Adobe Analytics. Consulte [Variables de página](/help/implement/js-implementation/page-variables/page-variables.md) |
 | eVars | Las [variables eVar](/help/implement/js-implementation/page-variables/evarn.md) se utilizan para generar informes de conversión personalizados. |
 | Propriétés | Las [variables de propiedad (prop)](/help/implement/js-implementation/page-variables/propn.md) se utilizan para generar informes de tráfico personalizados. |
-| Prefijo de variable dinámica | Prefijo especial que se encuentra al principio del valor. El prefijo predeterminado es "D=". Consulte [Variables dinámicas](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html) |
+| Prefijo de variable dinámica | Prefijo especial que se encuentra al principio del valor. El prefijo predeterminado es "D=". Consulte [Variables dinámicas](https://docs.adobe.com/content/help/es-ES/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html) |
