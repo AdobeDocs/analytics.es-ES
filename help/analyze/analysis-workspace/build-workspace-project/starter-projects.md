@@ -2,7 +2,7 @@
 description: 'null'
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Plantillas {#topic_40932F09E18A467983AFBB29908E1CB8}
 
-Puede elegir entre crear un proyecto a partir de:
+Puede elegir crear un proyecto a partir de:
 
-* Un proyecto en blanco (opción predeterminada). Para obtener instrucciones, consulte [Creación de un proyecto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)de Analysis Workspace.
+* Un proyecto en blanco (opción predeterminada). Para obtener instrucciones, consulte [Creación de un proyecto de Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 * Una plantilla estándar. Adobe se encarga de crear estas plantillas, que están listas para usarse.
-* Una plantilla personalizada. Estas plantillas las pueden crear usuarios con derechos de administrador o usuarios que no sean administradores, siempre que se les haya concedido el permiso "Guardar como plantilla". (See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
+* Una plantilla personalizada. Estas plantillas las pueden crear usuarios con derechos de administrador o usuarios que no sean administradores, siempre que se les haya concedido el permiso "Guardar como plantilla". (Consulte [Gestionar permisos de productos](https://helpx.adobe.com/es/enterprise/using/manage-permissions-and-roles.html) en Admin Console para obtener más información).
 
 ![](assets/start_modal.png)
 
@@ -28,7 +28,7 @@ Puede elegir entre crear un proyecto a partir de:
 Los usuarios que tengan derechos de administrador pueden convertir cualquier proyecto que creen en una plantilla personalizada. A continuación se muestra cómo:
 
 1. Abra el proyecto.
-1. Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Save As Template]**.
+1. Vaya a **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Guardar como plantilla]**.
 
    ![](assets/save_project_template.png)
 
@@ -36,7 +36,7 @@ Los usuarios que tengan derechos de administrador pueden convertir cualquier pro
 
    >[!NOTE]
    >
-   >De forma predeterminada, las plantillas de proyecto son visibles para todos los miembros de la organización. Puede ordenarlas mediante etiquetas. (Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
+   >De forma predeterminada, las plantillas de proyecto son visibles para todos los miembros de su organización. Puede ordenarlas mediante etiquetas. (Vaya a **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Información y configuración del proyecto]** para editar las etiquetas y las descripciones).
 
 ### Acciones que se pueden llevar a cabo en las plantillas personalizadas
 
@@ -51,7 +51,7 @@ Los usuarios que tengan derechos de administrador pueden convertir cualquier pro
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Editar  plantilla </p> </td> 
+   <td colname="col1"> <p>Editar plantilla </p> </td> 
    <td colname="col2"> <p>Permite que el administrador edite la plantilla cambiando la fuente de datos, los componentes, las visualizaciones, los intervalos de fechas, etc. </p> <p>Para editar una plantilla personalizada, puede: </p> 
     <ul id="ul_2B3A371F83334E14806385753A360903"> 
      <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">Buscar la lista de plantillas personalizadas en Analysis Workspace, seleccionar una y hacer clic en <span class="uicontrol">Editar plantilla</span>. </li> 
@@ -81,13 +81,13 @@ Los usuarios que tengan derechos de administrador pueden convertir cualquier pro
  </tbody> 
 </table>
 
-## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+## Plantillas estándar {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
-Al abrir un espacio de trabajo por primera vez, las plantillas están disponibles en el carril izquierdo. Las plantillas de Analysis Workspace cubren casos de uso comunes. Están agrupadas por la vertical a la que pertenecen y se rellenan con distintas dimensiones, segmentos, métricas y visualizaciones, según el grupo de informes que haya seleccionado.
+Al abrir un Workspace por primera vez, las plantillas aparecen en el panel izquierdo. Las plantillas de Analysis Workspace cubren casos de uso comunes. Están agrupadas por la vertical a la que pertenecen y se rellenan con distintas dimensiones, segmentos, métricas y visualizaciones, según el grupo de informes que haya seleccionado.
 
 Puede utilizar estas plantillas rellenadas previamente tal cual, o puede adaptarlas a sus necesidades (mediante la adición o sustitución de métricas o visualizaciones, por ejemplo) y guardarlas con un nuevo nombre.
 
-[Plantillas estándar en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+[Plantillas estándar en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
 
 Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a responder:
 
@@ -97,47 +97,47 @@ Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a 
 >
 >Las plantillas de publicidad solo están disponibles si el grupo de informes está habilitado para Advertising Cloud.
 
-* **Motores** de búsqueda: Esta plantilla desglosa las tendencias publicitarias, las plataformas de publicidad, las palabras clave, las cuentas, las campañas y mucho más.
+* **Motores de búsqueda**: Esta plantilla desglosa las tendencias publicitarias, las plataformas de publicidad, las palabras clave, las cuentas, las campañas y mucho más.
 
 ### Comercio
 
-* **Magento: Marketing y comercio**: Esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de mercadotecnia, así como también proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo general, consulte &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing and Commerce**: Esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo introductorio, consulte &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Medios
 
-* **Consumo** de audio: ¿Qué contenido se consume más y atrae a los usuarios?
-* **Actualización - Frecuencia - Lealtad**: ¿Quiénes son mis leales lectores?
+* **Consumo de audio**: ¿Qué contenido se consume más y resulta más atractivo para los usuarios?
+* **Actualización, Frecuencia, Lealtad**: ¿Quiénes son mis lectores más fieles?
 
 ### Mobile
 
 >[!IMPORTANT]
 >
->Las plantillas móviles solo están disponibles si el grupo de informes está habilitado para móvil.
+>Las plantillas móviles están disponibles únicamente si el grupo de informes está activado para móvil.
 
-* **** Mensajería: Se centra en el rendimiento de la mensajería en la aplicación y push.
-* **** Ubicación: Incluye un mapa que muestra los datos de ubicación.
-* **** Métricas clave: Mantenga un pulso sobre las métricas clave de la aplicación.
-* **** Uso de la aplicación: ¿Cuántos usuarios de la aplicación, inicios y primeros inicios tuvo la aplicación y cuál fue la duración media de la sesión?
-* **** Adquisición: Ver el rendimiento de los vínculos de adquisición móvil.
-* **** Rendimiento: ¿Cómo funciona la aplicación y dónde tienen problemas los usuarios?
-* **** Retención: ¿Quiénes son mis fieles usuarios y qué hacen?
-* **** Viajes: ¿Cuáles son los patrones de uso más destacados de mi aplicación?
+* **Mensajería:** Se centra en el rendimiento de la mensajería en la aplicación y mensajería push.
+* **Ubicación:** Incluye un mapa que muestra los datos de ubicación.
+* **Métricas clave:** Observar las métricas clave de su aplicación.
+* **Uso de la aplicación:** ¿Cuántos usuarios de la aplicación, ejecuciones y ejecuciones por primera vez ha tenido la aplicación y cuál es la longitud promedio de cada sesión?
+* **Adquisición:** Consulte el rendimiento de los vínculos de adquisición móvil.
+* **Rendimiento:** ¿Qué rendimiento tiene la aplicación y dónde tienen problemas los usuarios?
+* **Retención:** ¿Quiénes son mis usuarios más fieles y qué hacen?
+* **Recorridos:** ¿Cuáles son los patrones de uso más destacados de mi aplicación?
 
 ### Comercial
 
-* **** Rendimiento de la campaña: ¿Qué campañas generan la mayor cantidad de ingresos?
-* **** Productos: ¿Qué productos tienen el mejor rendimiento?
+* **Rendimiento de la campaña:** ¿Qué campañas consiguen el máximo de ingresos?
+* **Productos:** ¿Qué productos tienen el mejor rendimiento?
 
 ### Web
 
-* **** Adquisición: ¿Cuáles son los principales impulsores de tráfico de mi sitio web?
-* **** Consumo de contenido: ¿Cuáles son los lugares más visitados por la gente en mi sitio?
-* **** Retención: ¿Qué tipos de usuarios pueden ser usuarios leales al sitio?
-* **** Tecnología: ¿Qué tecnología utilizan las personas para acceder al sitio?
+* **Adquisición:** ¿Cuáles son los principales impulsores de tráfico a mi sitio web?
+* **Consumo de contenido:** ¿Cuáles son los principales lugares que visitan los usuarios en mi sitio web?
+* **Retención:** ¿Qué tipo de usuarios es más probable que sea leal a mi sitio?
+* **Tecnología:** ¿Qué tecnología utilizan los usuarios para acceder a mi sitio?
 
-### People
+### Personas
 
-> [!NOTE] La plantilla Personas y su métrica asociada Personas solo están disponibles para su uso como parte de la cooperación entre dispositivos de [Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+> [!NOTE] La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/mcdc-people.html).
 
 La plantilla está basada en la métrica Personas, que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. Esta plantilla le permite hacer lo siguiente:
 
