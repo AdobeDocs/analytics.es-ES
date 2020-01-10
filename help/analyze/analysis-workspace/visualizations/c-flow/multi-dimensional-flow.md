@@ -2,7 +2,7 @@
 description: Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones.
 title: Flujos interdimensionales
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
