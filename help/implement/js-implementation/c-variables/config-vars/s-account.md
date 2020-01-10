@@ -3,7 +3,7 @@ description: Las variables dinámicas permiten copiar valores entre distintas va
 keywords: Analytics Implementation
 solution: null
 title: Variables dinámicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -20,7 +20,7 @@ Si envía datos a grupos de informes múltiples (etiquetado de grupos múltiples
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |--- |--- |--- |--- |
-| 40 bytes | En la ruta de URL | N.D. | N.D. |
+| 40 bytes | En la ruta de URL | N/A | N/A |
 
 Cada ID de grupo de informes debe coincidir con el valor creado en [!DNL Admin Console]. Cada ID de grupo de informes debe tener 40 bytes o menos, pero la suma de todos los grupos (es decir, la lista separada por comas completa) no tiene límite.
 
@@ -30,7 +30,7 @@ En [!DNL Analytics], el cuadro desplegable del sitio en la esquina superior izqu
 
 La variable `s_account` se declara normalmente dentro del archivo JavaScript (s_code.js). Puede declarar la variable `s_account` en la página HTML, lo cual es una práctica común cuando el valor de `s_account` varía de página en página. Puesto que esta variable `s_account` tiene un alcance global, debe declararse inmediatamente antes de incluir el archivo JavaScript de Adobe. Si `s_account` no tiene un valor cuando se carga el archivo JavaScript, no se envían datos a [!DNL Analytics].
 
-[!DNL DigitalPulse Debugger]de Adobe muestra el valor de `s_account` en la ruta de la dirección URL que aparece justo debajo de la palabra “Image”, después de /b/ss/. En algunos casos, el valor de `s_account` también aparece en el dominio, antes de 112.2o7.net. El valor en la ruta es el único valor que determina el grupo de informes de destino. El texto en negritas que sigue muestra el grupo de informes al que se envían los datos, según aparecerá en el depurador. Consulte [DigitalPulse Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
+[!DNL DigitalPulse Debugger]de Adobe muestra el valor de `s_account` en la ruta de la dirección URL que aparece justo debajo de la palabra “Image”, después de /b/ss/. En algunos casos, el valor de `s_account` también aparece en el dominio, antes de 112.2o7.net. El valor en la ruta es el único valor que determina el grupo de informes de destino. El texto en negritas que sigue muestra el grupo de informes al que se envían los datos, según aparecerá en el depurador. Consulte [DigitalPulse Debugger](https://docs.adobe.com/content/help/es-ES/analytics/implementation/testing-and-validation/debugger.translate.html).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
