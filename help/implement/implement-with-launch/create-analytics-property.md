@@ -1,7 +1,7 @@
 ---
 title: Creación de una propiedad de Analytics en Launch
 description: Cree un espacio para personalizar el modo en que se recopilan los datos con Adobe Experience Platform Launch.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ Adobe Experience Platform Launch es la herramienta que puede utilizar para integ
 
 Las propiedades son contenedores generales que se utilizan para administrar etiquetas. Las extensiones permiten instalar etiquetas específicas del producto y configurarlas.
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
+1. Vaya a [launch.adobe.com](https://launch.adobe.com) e inicie sesión si se le solicita.
 1. Haga clic en Propiedad nueva.
 1. Asigne un nombre a la propiedad, como el título del sitio web e introduzca el dominio en el que desea implementar Analytics. Haga clic en Guardar.
 1. Haga clic en la propiedad recién creada para establecer su configuración.
@@ -32,7 +32,7 @@ Las propiedades son contenedores generales que se utilizan para administrar etiq
 
 Los elementos de datos son referencias a partes específicas del sitio para recopilar valores de variables.
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
+1. Vaya a [launch.adobe.com](https://launch.adobe.com) e inicie sesión si se le solicita.
 2. Haga clic en la propiedad de Launch que desee implementar en el sitio.
 3. Haga clic en la pestaña Elementos de datos y, a continuación, haga clic en Crear nuevo elemento de datos.
 4. Asigne al elemento de datos la siguiente configuración:
@@ -49,7 +49,7 @@ Los elementos de datos son referencias a partes específicas del sitio para reco
 
 Las reglas asignan elementos de datos a valores de variables de Analytics y determinan cuándo se envían dichos valores a los servidores de Adobe.
 
-1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
+1. Vaya a [launch.adobe.com](https://launch.adobe.com) e inicie sesión si se le solicita.
 1. Haga clic en la propiedad de Launch que desee implementar en el sitio.
 1. Haga clic en Crear nueva regla y asígnele el nombre `Global Rule`.
 1. Haga clic en Agregar junto a los eventos e introduzca la siguiente configuración:
@@ -74,9 +74,9 @@ Las reglas asignan elementos de datos a valores de variables de Analytics y dete
 
 ## Documentación y recursos adicionales
 
-* [Documentación](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)de extensión de Adobe Analytics: Documentación completa específica de la extensión Adobe Analytics en Adobe Experience Platform Launch.
+* [Documentación de la extensión de Adobe Analytics](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Documentación completa específica de la extensión de Adobe Analytics en Adobe Experience Platform Launch.
 * [Introducción a Launch](https://docs.adobelaunch.com/getting-started): Documentación completa para Launch, incluida una guía de introducción más detallada
-* [Adobe Experience Platform inicie el canal](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd)de YouTube: Aprenda a utilizar Launch a través de vídeos
+* [Canal de YouTube de Adobe Experience Platform Launch](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd): Aprenda a utilizar Launch a través de vídeos
 
 ## Pasos siguientes
 
