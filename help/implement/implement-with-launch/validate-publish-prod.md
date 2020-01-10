@@ -1,7 +1,7 @@
 ---
 title: Implementación de Adobe Analytics en un entorno de desarrollo
 description: Descubra cómo utilizar Adobe Experience Platform Launch para implementar Adobe Analytics en su entorno de desarrollo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ Una vez que la biblioteca de Adobe Experience Platform Launch se haya puesto en 
 
 Experience Cloud Debugger es un complemento de Chrome que muestra todas las etiquetas de Experience Cloud presentes en una página.
 
-1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
+1. Abra el [Explorador web de Chrome](https://www.google.com/chrome/) y vaya a [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) en la tienda web de Chrome para instalar la extensión.
 2. Vaya al sitio web de desarrollo en el que haya implementado Launch.
 3. Haga clic en el icono de Adobe Experience Cloud Debugger en la parte superior derecha de Chrome
 4. Si todo está correctamente implementado, debe ver el contenido dentro de Adobe Analytics, Adobe Experience Platform Launch y el servicio de ID de visitante de Adobe Experience Cloud:
@@ -45,7 +45,7 @@ Una vez validado que está viendo los datos, puede insertar la implementación e
 
 Confirme que está viendo los datos en la versión activa del sitio y comience la recopilación de datos oficiales para Adobe Analytics.
 
-1. Una vez que los propietarios del sitio web hayan confirmado que han insertado el código de lanzamiento en producción, vaya a la página principal del sitio web en Chrome y abra Adobe Experience Cloud Debugger.
+1. Una vez que los propietarios del sitio web hayan confirmado que han insertado el código de Launch en producción, vaya a la página principal del sitio web en Chrome y abra Adobe Experience Cloud Debugger.
 2. Si todo funciona, debería ver datos similares a los de las pruebas en su entorno de desarrollo. Llegados a este punto, está usted recopilando datos en su sitio y puede empezar a utilizar Adobe Analytics para crear informes.
 
 ## Resolución de problemas
