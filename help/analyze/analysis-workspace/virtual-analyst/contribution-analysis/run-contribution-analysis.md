@@ -2,7 +2,7 @@
 description: 'null'
 title: Ejecutar análisis de contribución
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,11 +20,11 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 
    >[!NOTE]
    >
-   >Actualmente solo se admite el análisis de contribución con la granularidad diaria.
+   >Actualmente únicamente se admite el análisis de contribución con granularidad diaria.
 
    ![](assets/run_ca.png)
 
-* En un gráfico de líneas, sitúese sobre un punto de datos de anomalía. Haga clic en el vínculo **[!UICONTROL Analizar]que aparece.**
+* En un gráfico de líneas, sitúese sobre un punto de datos de anomalía. Haga clic en el vínculo **[!UICONTROL Analizar]** que aparece.
 
    ![](assets/contribution-analysis.png)
 
@@ -35,9 +35,9 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 
    * Una visualización que muestra el número de **visitas** en ese día.
    * Una **línea de tendencias de visitas** mensual para el contexto.
-   * Los **elementos principales** que han contribuido a esta anomalía, ordenados por [puntuación de contribución](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_contribution_score.html), además de la métrica en cuestión y una métrica de visitantes únicos para poner la métrica en contexto desde una perspectiva de tamaño.
+   * Los **elementos principales** que han contribuido a esta anomalía, ordenados por [puntuación de contribución](https://marketing.adobe.com/resources/help/es_ES/analytics/contribution/ca_contribution_score.html), además de la métrica en cuestión y una métrica de visitantes únicos para poner la métrica en contexto desde una perspectiva de tamaño.
 
-   * La tabla [Segmentos generados](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_workflow_premium.html) (grupos de elementos principales) identifica las asociaciones de los elementos principales en función de su puntuación de contribución, ocurrencias de anomalías y el porcentaje de contribución general a la métrica anómala. A continuación, esto se captura como segmento de audiencia (segmento de contribución 1, segmento de contribución 2, etcétera). Si hace clic en el botón “i” (información), se le mostrará la definición de cada segmento automático, incluidos los elementos principales de los cuales se compone:
+   * La tabla [Segmentos generados](https://marketing.adobe.com/resources/help/es_ES/analytics/contribution/ca_workflow_premium.html) (grupos de elementos principales) identifica las asociaciones de los elementos principales en función de su puntuación de contribución, ocurrencias de anomalías y el porcentaje de contribución general a la métrica anómala. A continuación, esto se captura como segmento de audiencia (segmento de contribución 1, segmento de contribución 2, etcétera). Si hace clic en el botón “i” (información), se le mostrará la definición de cada segmento automático, incluidos los elementos principales de los cuales se compone:
 
       ![](assets/auto_segment.png)
 
@@ -49,19 +49,19 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
    * [Crear alertas.](/help/components/c-alerts/intellligent-alerts.md)
    * [Crear o comparar segmentos.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-> [!NOTE] Resaltamos la anomalía que se está analizando con un punto azul en el análisis de contribución y en los proyectos de alerta inteligente vinculados a ella. Esto proporciona una indicación más clara de la anomalía que se está analizando.
+> [!NOTE] La anomalía analizada se resalta con un punto azul dentro del análisis de contribución y en los proyectos de alerta inteligente vinculados con ella. Esto proporciona una indicación más clara de la anomalía que se está analizando.
 
-## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## Excluir dimensiones del análisis de contribución {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
 Puede haber ocasiones en las que desea excluir algunas dimensiones del análisis de contribución. Por ejemplo, es posible que no le importen las dimensiones relacionadas con el navegador o el hardware, y desea acelerar el análisis eliminándolas.
 
-1. Después de hacer clic en **[!UICONTROL Ejecutar análisis de contribución]** (o en **[!UICONTROL Analizar]en un gráfico de líneas), se muestra el panel** Dimensiones excluidas **.**
+1. Después de hacer clic en **[!UICONTROL Ejecutar análisis de contribución]** (o en **[!UICONTROL Analizar]** en un gráfico de líneas), se muestra el panel **[!UICONTROL Dimensiones excluidas]**.
 
-1. Simplemente arrastre las dimensiones no deseadas al panel **[!UICONTROL Dimensiones excluidas]** y, a continuación, guarde la lista haciendo clic en **[!UICONTROL Establecer como predeterminado]**. O haga clic en **[!UICONTROL Borrar todo]para volver a empezar con la selección de las dimensiones que desea excluir.**
+1. Simplemente arrastre las dimensiones no deseadas al panel **[!UICONTROL Dimensiones excluidas]** y, a continuación, guarde la lista haciendo clic en **[!UICONTROL Establecer como predeterminado]**. O haga clic en **[!UICONTROL Borrar todo]** para volver a empezar con la selección de las dimensiones que desea excluir.
 
    ![](assets/exclude_dimensions.png)
 
-1. Una vez haya añadido dimensiones que se deben excluir (o que haya decidido no hacerlo), haga clic en **[!UICONTROL Ejecutar análisis de contribución]de nuevo.**
+1. Una vez haya añadido dimensiones que se deben excluir (o que haya decidido no hacerlo), haga clic en **[!UICONTROL Ejecutar análisis de contribución]** de nuevo.
 1. Si alguna vez necesita revisar la lista de dimensiones excluidas, haga doble clic en Dimensiones y aparecerá la lista de dimensiones excluidas:
 
    ![](assets/excluded-dimensions.png)
