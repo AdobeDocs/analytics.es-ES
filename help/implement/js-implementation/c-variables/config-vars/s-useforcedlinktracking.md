@@ -3,7 +3,7 @@ description: Las variables dinámicas permiten copiar valores entre distintas va
 keywords: Analytics Implementation
 solution: null
 title: Variables dinámicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 Esta marca se usa para deshabilitar el seguimiento de vínculos forzado para algunos exploradores. El seguimiento de vínculos forzado está habilitado de forma predeterminada para los exploradores FireFox 20+ y WebKit.
 
-When `useForcedLinkTracking` is enabled, the AppMeasurement file overrides the default link behavior on some browsers to prevent the track link call from being canceled when the new page opens. El archivo AppMeasurement ejecuta la llamada de seguimiento de vínculos y controla el evento de navegación manualmente, en lugar de utilizar la acción predeterminada del explorador.
+Cuando se habilita `useForcedLinkTracking`, el archivo AppMeasurement anula el comportamiento predeterminado de los vínculos en algunos exploradores para evitar que la llamada de seguimiento de vínculos se cancele cuando se abra una nueva página. El archivo AppMeasurement ejecuta esta llamada y administra el evento de navegación de forma manual, en lugar de realizar la acción predeterminada del explorador.
 
 En JavaScript H.25.4 (lanzado en febrero de 2013), se agregaron las siguientes limitaciones de ámbito a los vínculos seguidos cuando `useForcedLinkTracking` está habilitada. El seguimiento de vínculo forzado automático solo se aplica a:
 
