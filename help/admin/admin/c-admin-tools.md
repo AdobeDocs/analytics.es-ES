@@ -2,7 +2,7 @@
 description: 'null'
 title: Herramientas de administración
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,10 +12,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]**
 
->[!IMPORTANT] No abra varias fichas de administración en el mismo explorador. Esto puede llevar a guardar de forma involuntaria ajustes en el grupo de informes incorrecto. Si necesita, por ejemplo, comparar grupos de reglas y copiarlos en un nuevo grupo de informes, sugerimos abrir un nuevo explorador o tomar una captura de pantalla para comparar los grupos de reglas.
+>[!IMPORTANT] No abra varias fichas de Administración en el mismo explorador. Esto puede llevar a guardar de forma involuntaria ajustes en el grupo de informes incorrecto. Si necesita, por ejemplo, comparar grupos de reglas y copiarlos en un nuevo grupo de informes, sugerimos abrir un nuevo explorador o tomar una captura de pantalla para comparar los grupos de reglas.
 
 + [Facturación](billing-admin.md)
-+ [Resumen sobre reglas Bot](bot-removal/bot-rules.md)
++ [Resumen sobre reglas de Bot](bot-removal/bot-rules.md)
 + [Administrador de códigos](code-manager-admin.md)
 + [Variables de conversión (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [Códigos de divisa](currency.md)
@@ -25,7 +25,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 + [Medidas predeterminadas](default-metrics.md)
 + [Excluir por dirección IP](exclude-ip.md)
 + [Métodos de búsqueda](finding-methods.md)
-+ [Configuración de la cuenta generales](general-acct-settings-admin.md)
++ [Configuración general de la cuenta](general-acct-settings-admin.md)
 + [Administración de grupos](group.md)
 + [Filtros URL internos](internal-url-filter-admin.md)
 + [Registros](logs.md)
