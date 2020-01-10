@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;switcher plugin;akamai;test akamai;unpubli
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Prueba de reglas no publicadas para el alojamiento de Akamai
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Prueba de reglas no publicadas desde la consola con el uso del alojamiento de Akamai.
 
-El complemento de cambio suele ser la forma más sencilla de realizar pruebas. Consulte [Complementos de Search Discovery](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) en la documentación del producto de Dynamic Tag Management para obtener más información.
+El complemento de cambio suele ser la forma más sencilla de realizar pruebas. Consulte [Complementos de Search Discovery](https://marketing.adobe.com/resources/help/es_ES/dtm/search_discovery_plugins.html) en la documentación del producto de Dynamic Tag Management para obtener más información.
 
 Los pasos siguientes muestran cómo realizar pruebas sin utilizar el complemento de cambio:
 
