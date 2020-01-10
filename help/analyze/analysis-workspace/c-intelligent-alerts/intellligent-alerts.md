@@ -2,7 +2,7 @@
 description: El nuevo sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
 title: Resumen de las alertas inteligentes
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Resumen de las alertas inteligentes
 
-Alertas inteligentes permite un control más granular de las alertas e integra la detección de anomalías con el sistema de alerta.
+El sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
 
 [Alertas inteligentes en YouTube](https://www.youtube.com/watch?v=UVH9xr_2REA) (5:34)
 
@@ -26,26 +26,26 @@ El nuevo Generador de alertas y el Administrador de alertas en Analysis Workspac
 Hay cuatro formas en las que puede acceder al Generador de alertas:
 
 * Ir directamente al Generador de alertas:  **[!UICONTROL Componentes]** &gt; **[!UICONTROL Alertas]**
-* Uso del método abreviado de teclado en Workspace: `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac)
-* Selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. Se abre el Generador de alertas y se rellenan previamente las métricas y los filtros adecuados aplicados desde la tabla. Puede editar la alerta si es necesario.
+* Uso del atajo de teclado en Workspace: `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac)
+* Seleccione uno o más elementos de línea de la tabla improvisada, haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**. Se abre el Generador de alertas y se rellenan previamente las métricas y los filtros adecuados aplicados desde la tabla. A continuación, puede editar la alerta si fuera necesario.
 
    ![Crear alertas a partir de la selección](assets/create-alert-from-selection.png)
 
-* From within a Reports &amp; Analytics report, by going to  **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]** . Esto abre el creador de alertas y rellena previamente las métricas y filtros adecuados aplicados desde el informe. Puede editar la alerta si es necesario.
+* Desde un informe de Reports &amp; Analytics, vaya a **[!UICONTROL Más]** &gt; **[!UICONTROL Agregar alerta]**. Esto abre el Generador de alertas y rellena previamente las métricas y filtros adecuados aplicados desde el informe. A continuación, puede editar la alerta si fuera necesario.
 
    ![Agregar alerta](assets/add-alert.png)
 
-Los umbrales porcentuales son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean [distintos modelos](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral inferior (como 90 %), obtendrá más anomalías que si establece un umbral superior (99,75 %).
+Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean [distintos modelos](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90%), obtendrá más anomalías que con otro más alto (99,75%).
 
-> [!IMPORTANT] El uso de datos con marca de hora para crear alertas puede provocar que las alertas se activen incorrectamente. Adobe recomienda utilizar datos sin marca de hora para las alertas inteligentes.
+> [!IMPORTANT] El uso de datos con fecha y hora para crear alertas puede hacer que se activen incorrectamente. Adobe recomienda utilizar datos sin marca de hora para las alertas inteligentes.
 
 ## Retrospectiva de anomalías para alertas
 
-Si una alerta utiliza la detección de anomalías, el período de prueba varía según la granularidad seleccionada para la alerta.
+Si una alerta utiliza la detección de anomalías, el periodo de prueba varía según la granularidad seleccionada para la alerta.
 
-* Granularidad mensual: 15 meses + el mismo intervalo del año pasado
-* Granularidad semanal: 15 semanas + el mismo intervalo del año pasado
-* Granularidad diaria: 35 días + el mismo intervalo del año pasado
-* Granularidad por hora: 336 horas
+* Granularidad mensual = 15 meses + el mismo intervalo del año anterior
+* Granularidad semanal = 15 semanas + el mismo intervalo del año anterior
+* Granularidad diaria = 35 días + el mismo intervalo del año anterior
+* Granularidad horaria: 336 horas
 
-Consulte Técnicas [estadísticas utilizadas en la detección](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) de anomalías para obtener más información.
+Consulte [Técnicas estadísticas utilizadas en la detección de anomalías](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para obtener más información.
