@@ -2,7 +2,7 @@
 description: La configuración de filas varía en función del componente que haya arrastrado a la tabla.
 title: Configuración de filas
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -40,7 +40,7 @@ Para obtener acceso a la configuración de fila de tabla, haga clic en el icono 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Desgloses </p> </td> 
-   <td colname="col2"> <p><b>Desglose por posición:</b> </p> <p>Puede realizar desgloses según una ubicación fija en una tabla de forma libre. Por ejemplo, puede especificar que se desglosen siempre las primeras siete filas. </p> <p>(Anteriormente, la lista de valores del desglose estaba "bloqueada". This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. Si se guardaba ese informe y se ejecutaba un mes después, era probable que las 50 primeras páginas hubieran cambiado. No obstante, Analysis Workspace utilizaría los resultados del desglose original y devolvería las mismas páginas, pero con el mes en curso como intervalo de fechas.) </p> <p>Para realizar desgloses basados en una ubicación fija: </p> 
+   <td colname="col2"> <p><b>Desglose por posición:</b> </p> <p>Puede realizar desgloses según una ubicación fija en una tabla de forma libre. Por ejemplo, puede especificar que se desglosen siempre las primeras siete filas. </p> <p>(Anteriormente, la lista de valores en el desglose estaba “bloqueada”. Esto llevaba a una situación en la que, por ejemplo, si realizaba un desglose de <span class="term">Fecha</span> por <span class="term">Página</span>, obtenía una lista de las 50 primeras páginas para el intervalo de fechas seleccionado. Si se guardaba ese informe y se ejecutaba un mes después, era probable que las 50 primeras páginas hubieran cambiado. No obstante, Analysis Workspace utilizaría los resultados del desglose original y devolvería las mismas páginas, pero con el mes en curso como intervalo de fechas.) </p> <p>Para realizar desgloses basados en una ubicación fija: </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">Desglose algunas de las filas de su tabla. </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">Haga clic en el icono de configuración (engranaje) junto a la fila que quiere en una posición fija. </li> 
