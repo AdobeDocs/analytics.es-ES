@@ -5,7 +5,7 @@ subtopic: Release notes
 title: Android
 topic: Developer and implementation
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -91,7 +91,7 @@ La versión 4.13.2 del SDK de [!DNL Android] (10 de noviembre de 2016) incluye l
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Enlaces profundos </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p>Ahora, al llamar a <code> trackAdobeDeepLink</code>, las variables con los prefijos “<code> adb</code>” y “<code> ctx</code>” se gestionan correctamente. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -196,7 +196,7 @@ La versión 4.11.0 del SDK de [!DNL Android] (22 de junio de 2016) incluye los s
 
 ## Versión 4.10.0 {#section_262928ABA971490EA6B8E277E17BDD89}
 
-La versión 4.10.0 del SDK de [!DNL Android] 20 de mayo de 2016) incluye los siguientes cambios:
+La versión 4.10.0 del SDK de [!DNL Android] (20 de mayo de 2016) incluye los siguientes cambios:
 
 <table frame="all" colsep="1" rowsep="1" id="table_E6B19BD9903A41D9AAF0035CD66756B5"> 
  <thead> 
@@ -405,7 +405,7 @@ La versión 4.4 del SDK de [!DNL Android] incluye los siguientes cambios:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Compatibilidad con seguimiento de las señalizaciones web en <span class="keyword">PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>Las llamadas <code> trackBeacon</code> y <code> clearCurrentBeacon</code> ahora están disponibles en <span class="keyword">PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
