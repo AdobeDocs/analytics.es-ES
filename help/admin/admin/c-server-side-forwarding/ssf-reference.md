@@ -2,7 +2,7 @@
 description: Una lista exhaustiva con descripciones de las variables de configuración, los encabezados HTTP y las señales de datos en las llamadas de reenvío del lado del servidor.
 title: Referencia de datos y código del reenvío del lado del servidor
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,12 +14,12 @@ Una lista exhaustiva con descripciones de las variables de configuración, los e
 
 ## Variables de configuración {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Parameters prefixed with `d_*` identify special, system-level key-value pairs used by our [data collection servers](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS). Consulte también [Atributos admitidos para llamadas a la API DCS](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+Los parámetros prefijados con `d_*` identifican pares clave-valor especiales del sistema que emplean nuestros [servidores de recopilación de datos](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/system-components/components-data-collection.translate.html) (DCS). Consulte también [Atributos admitidos para llamadas a la API DCS](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.translate.html).
 
 | Parámetro | Descripción |
 |--- |--- |
-| d_rs | (Se establece con reenvío de servidor heredado/basado en el seguimiento y servidor) <br>Se establece en los grupos de informes pasados con la visita a Analytics. |
-| d_dst_filter | (Se establece con el reenvío de servidor basado en grupos de informes) <br>Se establece en los ID de grupo de informes pasados con la visita a Analytics. |
+| d_rs | (Se establece con reenvío del lado del servidor heredado/basado en el servidor de seguimiento) <br>Se establece en los grupos de informes pasados con la visita a Analytics. |
+| d_dst_filter | (Se establece con el reenvío del lado del servidor basado en grupos de informes) <br>Se establece en los ID de grupo de informes pasados con la visita a Analytics. |
 | d_dst | Se establece en d_dst=1<br> si la solicitud a Analytics espera contenido acerca del destino a devolver al cliente. |
 | d_mid | Experience Cloud ID transferido a Analytics. |
 
@@ -40,14 +40,14 @@ Estos encabezados son campos que contienen información como solicitudes de dato
 
 ## Señales definidas por el cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Parameters prefixed with `c_` identify customer-defined variables. Consulte también [Atributos admitidos para llamadas a la API DCS](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html).
+Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.translate.html).
 
 | Señal | Descripción |
 |--- |--- |
 | c_browserWidth y c_browserHeight | Anchura y altura de la ventana del navegador. |
 | c_campaign | La establece s.campaign . |
 | c_channel | La establece s.channel . |
-| c_clientDateTime | Marca de tiempo con formato dd/mm/aaaa hh:mm:ss W TZ.    TZ se expresa en minutos y coincide con el resultado del método Date.getTimezoneOffset. |
+| c_clientDateTime | Marca de tiempo con formato   dd/mm/yyy hh:mm:ss  W TZ .    TZ se expresa en minutos y coincide con el resultado del método Date.getTimezoneOffset. |
 | c_colorDepth | Se especifica como color de 16 o 32 bits. |
 | c_connectionType | Especifica el tipo de conexión. Las opciones incluyen:<ul><li>modem</li><li>lan</li></ul> |
 | c_contextData.* | Ejemplos:<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>Signal: c_contextData.category=news</li></ul> |
@@ -59,7 +59,7 @@ Parameters prefixed with `c_` identify customer-defined variables. Consulte tamb
 | c_javaEnabled | Especifica si Java puede habilitarse. Las opciones incluyen: sí, no, desconocido |
 | c_javaScriptVersion | Versión de JavaScript admitida por un navegador. |
 | c_latitude | Latitud numérica |
-| c_linkClick | Las opciones incluyen: personalizado, salida de descarga |
+| c_linkClick | Las opciones incluyen: personalizado, salir de la descarga |
 | c_linkCustomName | El nombre personalizado (de haberlo) que el vínculo proporciona. |
 | c_linkDownloadURL | La dirección URL de los vínculos de descarga. |
 | c_linkExitURL | La dirección URL del vínculo de salida. |
