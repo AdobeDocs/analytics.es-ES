@@ -3,7 +3,7 @@ description: Las variables dinámicas permiten copiar valores entre distintas va
 keywords: Analytics Implementation
 solution: null
 title: Variables dinámicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -18,11 +18,11 @@ Es una lista de filtros separados por coma que representan los vínculos que son
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| N.D. | N.D. | Rutas &gt; Entradas y salidas &gt; Vínculos de salida |  |
+| N/A | N/A | Rutas &gt; Entradas y salidas &gt; Vínculos de salida |  |
 
 > [!NOTE]Anteriormente habíamos sugerido establecer linkInternalFilters en JavaScript: Sin embargo, el resultado era que todos los dominios se consideraban externos, incluido el dominio actual en el que reside la etiqueta. Si desea que algunos dominios se consideren internos, puede agregarlos como se muestra en los ejemplos siguientes.
 
-La variable *`linkInternalFilters`* se usa para determinar si un vínculo es de salida, que se define como un vínculo que saca al visitante del sitio. El vínculo puede aparecer en el informe de vínculos de salida independientemente de si la ventana objetivo de un vínculo de salida es una ventana emergente o la ventana actual. Solo se realiza el seguimiento de los vínculos de salida si es *`trackExternalLinks`* está configurada como `"true"`. (Consulte [Seguimiento de vínculos](https://marketing.adobe.com/resources/help/en_US/dtm/link_tracking.html) en la documentación de Dynamic Tag Management para obtener información sobre cómo administra DTM los vínculos de salida). Los filtros de *`linkInternalFilters`* no distinguen entre mayúsculas y minúsculas.
+La variable *`linkInternalFilters`* se usa para determinar si un vínculo es de salida, que se define como un vínculo que saca al visitante del sitio. El vínculo puede aparecer en el informe de vínculos de salida independientemente de si la ventana objetivo de un vínculo de salida es una ventana emergente o la ventana actual. Solo se realiza el seguimiento de los vínculos de salida si es *`trackExternalLinks`* está configurada como `"true"`. (Consulte [Seguimiento de vínculos](https://marketing.adobe.com/resources/help/es_ES/dtm/link_tracking.html) en la documentación de Dynamic Tag Management para obtener información sobre cómo administra DTM los vínculos de salida). Los filtros de *`linkInternalFilters`* no distinguen entre mayúsculas y minúsculas.
 
 La lista de filtros de *`linkInternalFilters`* se aplica de forma predeterminada al dominio y la ruta de cualquier vínculo. Si *`linkLeaveQueryString`* tiene el valor `"true"`, los filtros se aplican a toda la dirección URL (dominio, ruta y cadena de consulta). Los filtros siempre se aplican a la ruta absoluta de la dirección URL, incluso si se utiliza una ruta relativa como el valor href.
 
@@ -89,15 +89,15 @@ s.linkInternalFilters="javascript:,mysite.com,[more filters here]"
 s.linkLeaveQueryString=false 
 ```
 
-Los parámetros `trackDownloadLinks` and `trackExternalLinks` determine if automatic file download and exit link tracking are enabled. Cuando está activado, cualquier vínculo con un tipo de archivo que coincida con uno de los valores de `linkDownloadFileTypes` se rastrea automáticamente como una descarga de archivo. Cualquier vínculo con una dirección URL que no contenga uno de los valores de `linkInternalFilters` se rastrea automáticamente como vínculo de salida.
+Los parámetros `trackDownloadLinks` y `trackExternalLinks`determinan si está activado el registro automático de descarga de archivos y vínculos de salida. Cuando está activado, cualquier vínculo con un tipo de archivo que coincida con uno de los valores de `linkDownloadFileTypes` se rastrea automáticamente como una descarga de archivo. Cualquier vínculo con una dirección URL que no contenga uno de los valores de `linkInternalFilters` se rastrea automáticamente como vínculo de salida.
 
-In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+En JavaScript H.25.4 (lanzado en febrero de 2013), se actualizó el seguimiento automático de vínculos de salida para ignorar siempre los vínculos con atributos `HREF` que comienzan por `#`, `about:` o `javascript:`.
 
 ### Ejemplo 1
 
-Los tipos de archivo `.jpg` y `.aspx` no se incluyen en `linkDownloadFileTypes` arriba, por lo tanto no se rastrean automáticamente los clics en ellos ni se informan como descargas de archivos.
+Los tipos de archivo `.jpg` y `.aspx` no se incluyen en `linkDownloadFileTypes`, por lo tanto, no se rastrean automáticamente los clics en ellos ni se registran como descargas de archivos.
 
-The parameter `linkLeaveQueryString` modifies the logic used to determine exit links. When `linkLeaveQueryString`=false, exit links are determined using only the domain, path, and file portion of the link URL. When `linkLeaveQueryString`=true, the query string portion of the link URL is also used to determine an exit link.
+El parámetro `linkLeaveQueryString` modifica la lógica que se usa para determinar los vínculos de salida. Cuando el valor de `linkLeaveQueryString` es false, los vínculos de salida se determinan solamente según la parte del dominio, la ruta y el archivo de la dirección URL del vínculo. Cuando el valor de `linkLeaveQueryString` es true, la parte de la cadena de consulta de la dirección URL del vínculo también se utiliza para determinar los vínculos de salida.
 
 ### Ejemplo 2
 
@@ -125,4 +125,4 @@ s.linkLeaveQueryString=true
 <a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
 ```
 
-*Nota: Un mismo vínculo solo se puede registrar como descarga de archivo o como vínculo de salida; tiene prioridad la descarga de archivo. Si un vínculo es tanto un vínculo de salida como una descarga de archivo en función de los parámetros`linkDownloadFileTypes`y`linkInternalFilters`, se rastrea e informa como una descarga de archivo y no como un vínculo de salida.*
+*Nota: Un mismo vínculo solo se puede registrar como descarga de archivo o como vínculo de salida; tiene prioridad la descarga de archivo. Si un vínculo es tanto un vínculo de salida como una descarga de archivo en función de los parámetros`linkDownloadFileTypes`y`linkInternalFilters`, se rastrea y registra como una descarga de archivo y no como un vínculo de salida.*
