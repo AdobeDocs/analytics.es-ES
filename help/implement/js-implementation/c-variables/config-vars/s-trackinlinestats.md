@@ -3,7 +3,7 @@ description: Las variables dinámicas permiten copiar valores entre distintas va
 keywords: Analytics Implementation
 solution: null
 title: Variables dinámicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ Si *`trackInlineStats`* tiene el valor “true”, los datos sobre la página y 
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| N.D. | N.D. | ClickMap | False |
+| N/A | N/A | ClickMap | False |
 
 ## Sintaxis y valores posibles
 
