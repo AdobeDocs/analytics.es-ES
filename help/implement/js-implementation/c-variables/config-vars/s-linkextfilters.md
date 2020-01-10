@@ -3,7 +3,7 @@ description: Las variables dinámicas permiten copiar valores entre distintas va
 keywords: Analytics Implementation
 solution: null
 title: Variables dinámicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,9 +15,9 @@ Si el sitio contiene muchos vínculos a sitios externos y no se desea realizar e
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |---|---|---|---|
-| N.D. | N.D. | Rutas &gt; Entradas y salidas &gt; Vínculos de salida | "" |
+| N/A | N/A | Rutas &gt; Entradas y salidas &gt; Vínculos de salida | "" |
 
-The *`linkExternalFilters`* variable is an optional variable used in conjunction with *`linkInternalFilters`* to determine whether a link is an exit link. Un vínculo de salida se define como un vínculo que conduce a un visitante fuera del sitio. El vínculo puede aparecer en el informe de vínculos de salida independientemente de si la ventana objetivo de un vínculo de salida es una ventana emergente o la ventana actual. Los vínculos de salida solo se rastrean si *`trackExternalLinks`* tiene el valor “True”. Los filtros de *`linkExternalFilters`* y *`linkInternalFilters`* no distinguen entre mayúsculas y minúsculas.
+La variable *`linkExternalFilters`* es una variable opcional utilizada junto con *`linkInternalFilters`* para determinar si un vínculo es de salida. Un vínculo de salida se define como un vínculo que conduce a un visitante fuera del sitio. El vínculo puede aparecer en el informe de vínculos de salida independientemente de si la ventana objetivo de un vínculo de salida es una ventana emergente o la ventana actual. Los vínculos de salida solo se rastrean si *`trackExternalLinks`* tiene el valor “True”. Los filtros de *`linkExternalFilters`* y *`linkInternalFilters`* no distinguen entre mayúsculas y minúsculas.
 
 > [!NOTE]Si no desea usar *`linkExternalFilters`*, elimínelo o configúrelo como “”.
 
@@ -68,6 +68,6 @@ Ninguna
 
 * Usar *`linkExternalFilters`* puede disminuir los resultados del sitio que sean vínculos de salida. No utilice esta variable en lugar de *`linkInternalFilters`* para obligar a los vínculos internos a convertirse en vínculos de salida.
 
-* Si *`linkExternalFilters`* se debe aplicar a la cadena de consulta de un vínculo, asegúrese de que *`linkLeaveQueryString`* tiene el valor “true”. Consulte [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html) antes de establecerlo como `"true"`.
+* Si *`linkExternalFilters`* se debe aplicar a la cadena de consulta de un vínculo, asegúrese de que *`linkLeaveQueryString`* tiene el valor “true”. Consulte [linkLeaveQueryString](https://docs.adobe.com/content/help/es-ES/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html) antes de establecerlo como `"true"`.
 
 * Para desactivar el seguimiento de vínculos de salida, configure *`trackExternalLinks`* como `"false"`.
