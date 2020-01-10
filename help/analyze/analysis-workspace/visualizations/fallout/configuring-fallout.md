@@ -2,7 +2,7 @@
 description: 'null'
 title: Configurar una visualización de abandonos
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,11 +16,11 @@ Incluso puede añadir segmentos dentro de un punto de contacto. Por ejemplo, es 
 
 No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
 
-Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos, camiseta en una página y en la siguiente está mirando camiseta, calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
+Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://marketing.adobe.com/resources/help/es_ES/sc/implement/listN.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
 1. Arrastre una visualización de [!UICONTROL visitas en el orden previsto] de la lista desplegable Visualizaciones a una [!UICONTROL tabla improvisada].
 
-1. Arrastre la dimensión Página en la tabla improvisada y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar TouchPoint]como el primer punto de contacto.**
+1. Arrastre la dimensión Página en la tabla improvisada y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar TouchPoint]** como el primer punto de contacto.
 
    ![](assets/fallout1.png)
 
@@ -36,7 +36,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 
    >[!NOTE]
    >
-   >Varios segmentos se unen con Y, pero varios elementos como elementos de dimensión y métricas se unen con O.
+   >Los segmentos se unen con AND, mientras que los elementos (como elementos de dimensión y métricas) se unen con OR.
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -57,14 +57,14 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
  </tbody> 
 </table>
 
-## Fallout settings {#section_0C7C89D72F0B4D6EB467F278AC979093}
+## Ajustes de abandonos {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
 | Configuración | Descripción |
 |--- |--- |
 | Contenedor de visitas en el orden previsto <ul><li>Visita</li><li>Visitante</li></ul> | Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. La opción predeterminada es Visitante.  Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
 | Mostrar "Todos los visitantes" como primer punto de contacto | Puede deseleccionar esta opción si no desea que “Todos los visitantes” sea el primer punto de contacto. |
 
-When you **right-click a touchpoint**, the following options appear:
+Al hacer **clic con el botón derecho en un punto de contacto**, se muestran las siguientes opciones:
 
 | Opción | Descripción |
 |--- |--- |
