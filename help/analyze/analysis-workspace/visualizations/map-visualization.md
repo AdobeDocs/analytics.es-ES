@@ -2,7 +2,7 @@
 description: 'null'
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,9 +20,9 @@ La visualización de mapas en Analysis Workspace
 * Admite exportación de PDF.
 * Aprovecha WebGL para la visualización de gráficos. Si sus controladores gráficos no admiten la representación WebGL, es posible que deba actualizarlos.
 
-## Build a map visualization {#section_61BBFA3A7BFD48DA8D305A69D9416299}
+## Creación de una visualización de mapas {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. En la lista de visualizaciones, arrastre **[!UICONTROL Mapa]a un panel improvisado:**
+1. En la lista de visualizaciones, arrastre **[!UICONTROL Mapa]** a un panel improvisado:
 
    ![](assets/map-viz1.png)
 
@@ -67,9 +67,9 @@ La visualización de mapas en Analysis Workspace
 
    ![](assets/location-dimensions.png)
 
-## Map visualization settings {#section_5F89C620A6AA42BC8E0955478B3A427E}
+## Configuración de visualización de mapas {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
-Existen 2 conjuntos de configuraciones para el mapa:
+Hay 2 conjuntos de configuraciones para el mapa:
 
 El **icono de llave inglesa** en la parte superior recupera el cuadro de diálogo inicial, donde puede cambiar la métrica y la fuente de datos:
 
@@ -84,4 +84,4 @@ Al hacer clic en el **icono de engranaje**, se muestra esta configuración de vi
 | Estilos: tema de color | Muestra el esquema de colores para el mapa de calor y las burbujas. Puede elegir entre Coral, Rojos, Verdes o Azules. El valor predeterminado es Coral. |
 | Estilos: estilo de mapa | Puede elegir entre Básico, Calles, Brillante, Claro, Oscuro y Satélite. |
 | Radio de clúster | Agrupa los puntos de datos que se hallan dentro de un radio de píxeles definido. El valor predeterminado es 50. |
-| Valor máximo personalizado | Permite alterar el umbral para el valor máximo del mapa: al ajustar este valor, se ajusta la escala de los valores de burbujas/mapa de calor (color y tamaño) en relación con el valor máximo personalizado establecido. |
+| Valor máximo personalizado | Le permite alterar el umbral para el valor máximo del mapa. Al ajustar este valor, se ajusta la escala de los valores (color y tamaño) de las burbujas/mapa de calor en relación con el valor máximo personalizado establecido. |
