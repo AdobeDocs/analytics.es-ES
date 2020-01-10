@@ -2,7 +2,7 @@
 description: 'null'
 title: Generador de alertas
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->Las alertas inteligentes solo están disponibles para los clientes de Adobe Analytics Prime y Adobe Analytics Ultimate.
+>Las alertas inteligentes están disponibles solo para los clientes de Adobe Analytics Prime y Adobe Analytics Ultimate.
 
 ## Acceso al Generador de alertas
 
@@ -21,9 +21,9 @@ Acceda al Generador de alertas de una de las cuatro formas disponibles:
 * Mediante el acceso directo siguiente en Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
+* En **[!UICONTROL Workspace]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Alerta nueva]**.
 * Seleccione uno o más elementos de línea de la tabla improvisada, haga clic con el botón derecho y elija **[!UICONTROL Crear alerta a partir de la selección]**.
-* From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* Desde un informe de Reports &amp; Analytics, vaya a **[!UICONTROL Más]** &gt; **[!UICONTROL Agregar alerta]**.
 
 ## Generar alertas
 
@@ -41,7 +41,7 @@ Especifique un nombre para la alerta. El nombre de la alerta puede contener el n
 
 Especifique cuándo desea que se compruebe la métrica: cada hora, cada día, semanalmente o mensualmente.
 
-> [!NOTE] Para los grupos de informes con un calendario personalizado, no se admite la granularidad mensual en el Generador de alertas.
+> [!NOTE] La granularidad mensual no es compatible con los grupos de informes con un calendario personalizado en el Generador de alertas.
 
 **Destinatarios**
 
@@ -49,9 +49,9 @@ Especifique hacia dónde se puede enviar la alerta. Se puede enviar una alerta a
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>El número de teléfono debe estar precedido por “+” y un [código de país](https://countrycode.org/).
 
-El correo electrónico que un usuario recibiría una vez que se activara una alerta tiene un aspecto similar al siguiente:
+El correo electrónico que el usuario recibe una vez que se activa una alerta tiene un aspecto similar al siguiente:
 
 ![](assets/alerts-email.PNG)
 
@@ -65,7 +65,7 @@ Establezca la fecha de caducidad de la alerta.
 
 * Arrastre y suelte las métricas en el lienzo para añadir activadores.
 
-   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   Si alguno de los componentes (métricas, dimensiones o segmentos) de la alerta no es compatible con el grupo de informes seleccionado, aparecerá un mensaje **“componentes no compatibles”**.
 * Determine el umbral que debe superar la métrica para que se establezca la alerta. Puede ajustar este valor a un umbral y, a continuación, a una de las condiciones siguientes:
 
    * existe anomalía
