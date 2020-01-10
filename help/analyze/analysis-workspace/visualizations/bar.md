@@ -2,7 +2,7 @@
 description: 'null'
 title: Barra y barra apilada
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ Esta visualización muestra las barras verticales que representan los distintos 
 
 Un menú desplegable de granularidad en la configuración de visualización le permite cambiar una visualización de tendencias (p. ej., una línea o una barra) de diaria a semanal, mensual, etc.
 
-## Bar stacked {#section_9EA83779AE964635907EE5031A785A49}
+## Barra apilada {#section_9EA83779AE964635907EE5031A785A49}
 
 Esta visualización es similar a un gráfico de barras, pero con las barras de series apiladas en la parte superior de cada barra.
 
