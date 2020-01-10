@@ -1,8 +1,8 @@
 ---
-description: El procesamiento del tiempo de los informes es una configuración de grupo de informes virtuales que permite procesar los datos de forma retroactiva y no destructiva.
+description: El procesamiento de intervalo de tiempo es una configuración de los grupos de informes virtuales que permite procesar los datos de una forma retroactiva y no destructiva.
 title: Procesamiento de tiempo de los informes
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Procesamiento de tiempo de los informes
 
-El procesamiento del tiempo de los informes es una configuración de grupo de informes virtuales que permite procesar los datos de forma retroactiva y no destructiva.
+El procesamiento de intervalo de tiempo es una configuración de los grupos de informes virtuales que permite procesar los datos de una forma retroactiva y no destructiva.
 
-> [!NOTE] Procesamiento de intervalo de tiempo solo está disponible para Analysis Workspace.
+> [!NOTE] El procesamiento de intervalo de tiempo solo está disponible para Analysis Workspace.
 
 Procesamiento de intervalo de tiempo solo afecta a los datos en el grupo de informes virtuales y no tiene efecto sobre ningún dato o recopilación de datos en el grupo de informes base. La diferencia entre Procesamiento de intervalo de tiempo y el procesamiento tradicional de Analytics se entiende mejor con el siguiente diagrama:
 
@@ -30,45 +30,45 @@ Procesamiento de intervalo de tiempo también permite a Analytics impedir que la
 
 Los grupos de informes virtuales con Procesamiento de intervalo de tiempo habilitado disponen en este momento de las siguientes opciones de configuración:
 
-* **** Tiempo de espera de visita: La configuración del tiempo de espera de visita define la cantidad de inactividad que debe tener un visitante único antes de que se inicie automáticamente una nueva visita. El valor predeterminado es de 30 minutos. Por ejemplo, si establece el tiempo de espera de visita en 15 minutos, se crea un nuevo grupo de visitas por cada secuencia de visitas obtenida separada de la anterior por al menos 15 minutos de inactividad. Estos ajustes afectan no solo al recuento de visitas, sino también al modo de evaluar los contenedores de segmentos de visita y a la lógica de caducidad de visitas para cualquier eVar que caduque durante una visita. Reducir el tiempo de espera de visita probablemente aumente el número total de visitas en los informes, y viceversa.
-* **** Configuración de visitas de aplicaciones móviles: Para los grupos de informes que contienen datos generados por aplicaciones móviles a través de los SDK [de](https://www.adobe.io/apis/cloudplatform/mobile.html)Adobe Mobile, hay disponible una configuración de visitas adicional. Dichos ajustes no son destructivos y afectan únicamente a las visitas recopiladas mediante los SDK para móviles. Estos ajustes no tienen efecto en los datos recopilados fuera del SDK para móviles.
-* **** Impedir que las visitas en segundo plano inicien una nueva visita: Los SDK de Mobile recopilan las visitas en segundo plano cuando la aplicación está en segundo plano.
-* **** Iniciar una nueva visita cada vez que se inicie la aplicación: Además del tiempo de espera de visita, puede forzar el inicio de una visita cada vez que se registre un evento de inicio de aplicación desde los SDK móviles, independientemente de la ventana de inactividad. Esta configuración afecta a la métrica de visitas y al contenedor de segmentos de visita, así como a la lógica de caducidad de visitas de las eVars.
-* **** Iniciar nueva visita con evento: Una nueva sesión se inicia cuando se activa un evento, independientemente de si se ha agotado el tiempo de espera de una sesión. La sesión recién creada incluye el evento que la ha iniciado. Además, es posible utilizar varios eventos para iniciar una sesión, y se activa una nueva si se observa en los datos cualquiera de esos eventos. Este ajuste afecta al recuento de visitas, al contenedor de segmentación de visitas y a la lógica de caducidad de las visitas en eVars.
+* **Tiempo de espera de visita:** El tiempo de espera de visita es la cantidad de inactividad que un visitante exclusivo debe presentar antes de que se inicie automáticamente una nueva visita. El valor predeterminado es de 30 minutos. Por ejemplo, si establece el tiempo de espera de visita en 15 minutos, se crea un nuevo grupo de visitas por cada secuencia de visitas obtenida separada de la anterior por al menos 15 minutos de inactividad. Estos ajustes afectan no solo al recuento de visitas, sino también al modo de evaluar los contenedores de segmentos de visita y a la lógica de caducidad de visitas para cualquier eVar que caduque durante una visita. Reducir el tiempo de espera de visita probablemente aumente el número total de visitas en los informes, y viceversa.
+* **Configuración de visitas de aplicación móvil:** Para los grupos de informes que contienen datos generados por aplicaciones móviles mediante los [SDK para móviles de Adobe](https://www.adobe.io/apis/cloudplatform/mobile.html), existen ajustes de visita adicionales. Dichos ajustes no son destructivos y afectan únicamente a las visitas recopiladas mediante los SDK para móviles. Estos ajustes no tienen efecto en los datos recopilados fuera del SDK para móviles.
+* **Impedir que las visitas en segundo plano inicien una nueva visita:** Los SDK para móviles recopilan las visitas en segundo plano cuando la aplicación está en segundo plano.
+* **Iniciar una nueva visita cada vez que se inicie la aplicación:** Además del tiempo de espera de visita, es posible forzar el comienzo de una visita cada vez que se registra un evento de inicio de aplicación procedente de los SDK para móviles, independientemente del tiempo de inactividad. Esta configuración afecta a la métrica de visitas y al contenedor de segmentos de visita, así como a la lógica de caducidad de visitas de las eVars.
+* **Iniciar una nueva visita con el evento:** Una nueva sesión se inicia cuando se activa un evento, independientemente de si se ha superado o no el tiempo de espera de la sesión. La sesión recién creada incluye el evento que la ha iniciado. Además, es posible utilizar varios eventos para iniciar una sesión, y se activa una nueva si se observa en los datos cualquiera de esos eventos. Este ajuste afecta al recuento de visitas, al contenedor de segmentación de visitas y a la lógica de caducidad de las visitas en eVars.
 
-Procesamiento de intervalo de tiempo no admite todas las métricas y dimensiones disponibles en los informes tradicionales de Analytics. Virtual report suites utilizing Report Time Processing are only accessible in Analysis Workspace and will not be accessible in [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse, Report Builder, Data Feeds, or the reporting API.
+Procesamiento de intervalo de tiempo no admite todas las métricas y dimensiones disponibles en los informes tradicionales de Analytics. Solo se puede acceder a los grupos de informes virtuales que utilizan Procesamiento de intervalo de tiempo desde Analysis Workspace. No es posible hacerlo desde [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse, Report Builder, Fuentes de datos o la API de informes.
 
 Además, Procesamiento de intervalo de tiempo solo procesa los datos que se producen dentro del intervalo de fechas del informe (lo que se refiere como “limitación de fechas” más adelante). Esto significa que los valores de eVar establecidos para no caducar nunca para un visitante antes de intervalo de fechas del informe no persisten hasta el periodo del informe y no aparecen en este. También significa que las mediciones de lealtad de los clientes se basan exclusivamente en los datos presentes en el intervalo de fechas del informe, y no en el historial completo anterior a dicho intervalo.
 
 A continuación se ofrece una lista de métricas y dimensiones que en este momento no son compatibles con Procesamiento de intervalo de tiempo:
 
-* **** Analytics para Target: Actualmente no se admite. Está prevista la compatibilidad futura.
-* **** Métricas y dimensiones reservadas de Analytics para Advertising Cloud: Actualmente no se admite. Está prevista la compatibilidad futura.
-* **** Métrica de acceso único: No admitido de forma permanente.
-* **** Variables de lista: Actualmente no se admite. Está prevista la compatibilidad futura.
-* **** eVars de contador: No admitido de forma permanente.
-* **** Variables de canales de mercadotecnia: Actualmente no se admite. Está prevista la compatibilidad futura.
-* **** Dimensión Días desde la última compra: Debido a la naturaleza de la limitación de fechas de Procesamiento de intervalo de tiempo, esta dimensión no se admite.
-* **** Dimensión Días antes de la primera compra: Debido a la naturaleza de la limitación de fechas de Procesamiento de intervalo de tiempo, esta dimensión no se admite.
-* **** Dimensión Frecuencia de retorno: Debido a la naturaleza de la limitación de fechas de Procesamiento de intervalo de tiempo, esta dimensión no se admite. Se puede utilizar un enfoque alternativo empleando una métrica de recuento de visitas en un segmento, o utilizando la métrica de visitas en un informe de histograma.
-* **** Dimensión Días transcurridos desde la última visita: Debido a la naturaleza de la limitación de fechas de Procesamiento de intervalo de tiempo, esta dimensión no se admite.
-* **** Dimensión original de la página de entrada: Debido a la naturaleza de la limitación de fechas de Procesamiento de intervalo de tiempo, esta dimensión no se admite.
-* **** eVars de asignación lineal: Actualmente no se admite. Está prevista la compatibilidad futura.
-* **** Dimensión Dominio de referencia original: Actualmente no se admite. Está prevista la compatibilidad futura.
-* **** Número de visita: Debido a la naturaleza de la limitación de fechas de Procesamiento de intervalo de tiempo, esta métrica no es compatible. Como alternativa en las aplicaciones móviles, puede utilizar una métrica calculada que incluya visitantes/visitas con la métrica Instalación de la aplicación para identificar nuevos visitantes o visitas.
-* **** Fuentes de datos de ID de transacción: Actualmente no se admite. Está prevista la compatibilidad futura.
+* **Analytics para Target:** Actualmente no es compatible. Está prevista la compatibilidad futura.
+* **Métricas y dimensiones reservadas de Analytics para Advertising Cloud:** Actualmente no es compatible. Está prevista la compatibilidad futura.
+* **Métrica de acceso único:** No es compatible de forma permanente.
+* **Variables de lista:** Actualmente no es compatible. Está prevista la compatibilidad futura.
+* **eVars de contador:** No es compatible de forma permanente.
+* **Variables de canales de marketing:** Actualmente no es compatible. Está prevista la compatibilidad futura.
+* **Dimensión de días desde la última compra:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta dimensión no es compatible.
+* **Dimensión de días antes de la primera compra:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta dimensión no es compatible.
+* **Dimensión de frecuencia de retorno:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta dimensión no es compatible. Se puede utilizar un enfoque alternativo empleando una métrica de recuento de visitas en un segmento, o utilizando la métrica de visitas en un informe de histograma.
+* **Dimensión de días desde la última visita:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta dimensión no es compatible.
+* **Dimensión original de página de entrada:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta dimensión no es compatible.
+* **eVars de asignación lineal:** Actualmente no es compatible. Está prevista la compatibilidad futura.
+* **Dimensión del dominio de referencia original:** Actualmente no es compatible. Está prevista la compatibilidad futura.
+* **Número de visitas:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, esta métrica no es compatible. Como alternativa en las aplicaciones móviles, puede utilizar una métrica calculada que incluya visitantes/visitas con la métrica Instalación de la aplicación para identificar nuevos visitantes o visitas.
+* **Fuentes de datos de ID de transacción:** Actualmente no es compatible. Está prevista la compatibilidad futura.
 
 A continuación se ofrece una lista de dimensiones y métricas que pueden verse afectadas por la configuración seleccionada para Procesamiento de intervalo de tiempo:
 
-* Si "Impedir que las visitas en segundo plano inicien una nueva visita" está habilitado, se producen los siguientes cambios. Consulte Sesionización según [el contexto](vrs-mobile-visit-processing.md) para obtener más información.
-   * **** Devoluciones/Tasa de salida hacia otro sitio: Las visitas en segundo plano que no van seguidas de una visita en primer plano no se consideran una devolución y no contribuyen a la tasa de salida hacia otro sitio.
-   * **** Tiempo empleado segundos por visita: Solo las visitas que incluyen visitas en primer plano contribuyen a esta métrica.
-   * **** Tiempo empleado por visita: Solo las visitas que incluyen visitas en primer plano contribuyen a esta métrica.
-   * **** Métricas y dimensiones de entrada y salida: En esta dimensión solo aparecen las entradas y salidas de visitas con visitas en primer plano.
-   * **** Métrica Visitantes únicos: Visitantes únicos no incluye los visitantes que solo tuvieron visitas en segundo plano en el intervalo de fechas del informe.
-* **** Visitas: Las visitas reflejan cualquier configuración que haya configurado el grupo de informes virtuales, que puede ser diferente del grupo de informes base.
-* **** Eventos serializados con ID de evento: Los eventos que utilizan la serialización de eventos con un ID de evento solo se eliminan en el caso de los eventos que se producen dentro del intervalo de fechas del informe para un visitante. Estos eventos no se desduplican en todas las fechas o visitantes globalmente debido a la limitación de fechas de Procesamiento de intervalo de tiempo.
-* **** Compras/Ingresos/Pedidos/Unidades: Cuando se utiliza la ID de compra, estas métricas solo se eliminan de la duplicación de las ID de compra que se producen dentro del intervalo de fechas del informe para un visitante en lugar de hacerlo en toda la fecha o los visitantes globalmente debido a la limitación de fechas de Procesamiento de intervalo de tiempo.
-* **** eVars no de comercialización/eVars reservadas: Los valores establecidos en una eVar solo persisten si el valor se estableció dentro del intervalo de fechas del informe debido a la limitación de fechas de Procesamiento de intervalo de tiempo. Además, las caducidades basadas en el tiempo pueden caducar una hora antes o una hora después si la persistencia abarca un cambio de horario de verano.
-* **** eVars de comercialización/eVars reservadas: Véase más arriba. Además, para la conversión de sintaxis, cuando el enlace está establecido en “cualquier evento”, se utiliza “cualquier visita”.
-* **** Tipo de visita individual: Esta dimensión especifica si una visita es en primer o en segundo plano.
+* Si “Impedir que las visitas en segundo plano inicien una nueva visita” está habilitado, se producirán los siguientes cambios: Consulte [Creación de sesiones según el contexto](vrs-mobile-visit-processing.md) para obtener más información.
+   * **Devoluciones/Tasa de devoluciones:** Las visitas individuales en segundo plano que no van seguidas de una visita individual en primer plano no se consideran una devolución y no contribuyen a la tasa de devoluciones.
+   * **Tiempo empleado en segundos por visita:** Solo las visitas que incluyen visitas individuales que se producen en primer plano contribuyen a esta métrica.
+   * **Tiempo empleado por visita:** Solo las visitas que incluyen visitas individuales en primer plano contribuyen a esta métrica.
+   * **Métricas y dimensiones de entrada y salida:** En esta dimensión solo aparecen las entradas y salidas de visitas con visitas individuales en primer plano.
+   * **Métrica de visitantes únicos:** En los visitantes únicos no se incluyen los visitantes que solo tuvieron visitas individuales en segundo plano en el intervalo de fechas del informe.
+* **Visitas:** Las visitas reflejan cualquier configuración del grupo de informes virtuales, que pueden diferir de las del grupo de informes base.
+* **Eventos serializados con ID de evento:** Los duplicados de los eventos que utilizan la serialización de eventos con un ID de evento solo se eliminan en el caso de los eventos que se producen dentro del intervalo de fechas del informe para un visitante. Los duplicados de estos eventos no se eliminan en todas las fechas o visitantes globalmente debido a la limitación de fechas del Procesamiento de intervalo de tiempo.
+* **Compras/Ingresos/Pedidos/Unidades:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, cuando se utiliza el ID de compra, los duplicados de estas métricas solo se eliminan para los ID de compra duplicados que se producen dentro del intervalo de fechas del informe para un visitante, y no en cualquier fecha y para cualquier visitante de forma global.
+* **eVars que no sean de comercialización/eVars reservadas:** Debido a la naturaleza de la limitación de fechas del Procesamiento de intervalo de tiempo, un valor establecido en una eVar persiste solo si se estableció dentro del intervalo de fechas del informe. Además, las caducidades basadas en la hora pueden producirse 60 minutos antes o después si la persistencia se ve afectada por un cambio de hora.
+* **eVars de comercialización/eVars reservadas:** Consulte lo anterior. Además, para la conversión de sintaxis, cuando el enlace está establecido en “cualquier evento”, se utiliza “cualquier visita”.
+* **Tipo de visita individual:** Esta dimensión especifica si una visita individual es en primer o en segundo plano.
