@@ -344,7 +344,7 @@ El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de vari
    <td colname="col4"> <p>No es posible eliminar la etiqueta DEL, pero puede cambiarla por DEL-DEVICE o DEL-PERSON, o ambas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Acción de ClickMap (heredada) </p> <p>Contexto de ClickMap (heredada) </p> <p>Activity Map, </p> <p>URL de la página, </p> <p>URL de la página de la entrada original </p> <p>Referente </p> <p>URL de la página del inicio de la visita </p> </td> 
+   <td colname="col2"> <p>Acción de ClickMap (heredada) </p> <p>Contexto de ClickMap (heredada) </p> <p>Activity Map, </p> <p>URL de la página, </p> <p>URL de la página de la entrada original </p> <p>Referente, </p> <p>URL de la página del inicio de la visita </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Las variables pueden contener parámetros de URL, que podrían incluir datos directa o indirectamente identificables. Si su implementación no recopila datos directa o indirectamente identificables en estas variables, estos no necesitan etiquetas de identidad o eliminación. </p> <p>Tenga en cuenta que la eliminación borra los parámetros de URL, pero conserva la URL de base. </p> </td> 
   </tr> 
