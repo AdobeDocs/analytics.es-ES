@@ -5,7 +5,7 @@ subtopic: Release notes
 title: iOS
 topic: Developer and implementation
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,9 +19,9 @@ Recopilación de notas de versiones para iOS.
 
 Las descargas de las bibliotecas móviles están disponibles en [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) y en [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios).
 
-[Documentación de 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
+[Documentación de 4.x](https://marketing.adobe.com/resources/help/es_ES/mobile/ios/)
 
-[Documentación de 3.x](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
+[Documentación de 3.x](https://marketing.adobe.com/resources/help/es_ES/sc/appmeasurement/ios/)
 
 ## Versión 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
@@ -91,11 +91,11 @@ La versión 4.13.2 del SDK de [!DNL iOS] (10 de noviembre de 2016) incluye los s
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Configuración </p> </td> 
-   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
+   <td colname="2"> <p> Los IDFA no válidos (00000000-0000-0000-0000-000000000000) que se pasen al SDK a través de <code> setAdvertisingIdentifier:</code> se ignorarán. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Enlaces profundos </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p>Ahora, al llamar a <code> trackAdobeDeepLink</code>, las variables con los prefijos “<code> adb</code>” y “<code> ctx</code>” se gestionan correctamente. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> Adquisición </p> </td> 
@@ -198,7 +198,7 @@ La versión 4.11.0 del SDK de [!DNL iOS] (22 de junio de 2016) incluye los sigui
 
 ## Versión 4.10.0 {#section_F0D6D7FD89DE4DF5A121B05FA093CC5B}
 
-La versión 4.10.0 del SDK de [!DNL iOS] 20 de mayo de 2016) incluye los siguientes cambios:
+La versión 4.10.0 del SDK de [!DNL iOS] (20 de mayo de 2016) incluye los siguientes cambios:
 
 <table frame="all" colsep="1" rowsep="1" id="table_AC447B6E4D55489F803923BF5D1D6653"> 
  <thead> 
@@ -318,7 +318,7 @@ La versión 4.8.0 del SDK de [!DNL iOS] (2 de noviembre de 2015) incluye los sig
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p>Se ha cambiado el <code> visitorSyncIdentifiers:identifiers</code> método a <code> visitorSyncIdentifiers:</code> </p> </td> 
+    </ul> <p>Se ha cambiado el método <code> visitorSyncIdentifiers:identifiers</code> a <code> visitorSyncIdentifiers:</code> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> Nuevos métodos de TVJS </td> 
@@ -428,7 +428,7 @@ La versión 4.6 del SDK de [!DNL iOS] (17 de septiembre de 2015) incluye los sig
      <ul id="ul_22EF89556F6B481ABE0D1B9C5EE70B55"> 
       <li id="li_C41F6FAC0B334B89B8B5D1A517CA2301"> <code> setPushIdentifier</code> </li> 
       <li id="li_B7893FB0453340EDB4290BC0B47BF096"><code> setAdvertisingIdentifier</code> </li> 
-      <li id="li_85EF5F2B8837497B90F782946283622E">La variable <code> trackPushMessageClickThrough</code> </li> 
+      <li id="li_85EF5F2B8837497B90F782946283622E"><code> trackPushMessageClickThrough</code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -452,7 +452,7 @@ La versión 4.5 del SDK de [!DNL iOS] incluye los siguientes cambios:
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> Extensión de iOS</span> </p> </td> 
-   <td colname="2"> <p>A partir del SDK 4.5 de <span class="keyword">iOS</span>, una nueva extensión de <span class="keyword">iOS</span> le permite recopilar el uso de los datos de sus aplicaciones de Apple Watch, utilidades de Today, utilidades de edición fotográfica y todas las demás aplicaciones de extensión de <span class="keyword">iOS</span>. </p> <p>Se le recomienda encarecidamente que utilice <span class="keyword">iOS</span> SDK en vez de su propio envoltorio o "wrapper". </p> <p>Apple proporciona un conjunto de API que permite a la aplicación Watch comunicarse con la aplicación contenedora (enviar solicitudes a la aplicación contenedora y, a continuación, recibir respuestas). </p> <p>Aunque se pueden enviar datos de seguimiento como un diccionario desde la aplicación Watch hasta la aplicación contenedora y, a continuación, llamar cualquier método de seguimiento de la aplicación contenedora para enviar los datos, esta solución tiene algunas limitaciones. </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. El hecho de llamar a otros métodos de seguimiento interfiere con los datos del ciclo vital, por lo que solo debería utilizar estos tres métodos para enviar datos desde la aplicación Watch. </p> <p>Incluso si estos tres métodos de seguimiento cumplen con sus requisitos, se le recomienda utilizar <span class="keyword">iOS</span> SDK porque el SDK para la aplicación Watch incluye todas las funciones de <span class="keyword">Mobile</span>, excepto la mensajería en la aplicación. </p> </td> 
+   <td colname="2"> <p>A partir del SDK 4.5 de <span class="keyword">iOS</span>, una nueva extensión de <span class="keyword">iOS</span> le permite recopilar el uso de los datos de sus aplicaciones de Apple Watch, utilidades de Today, utilidades de edición fotográfica y todas las demás aplicaciones de extensión de <span class="keyword">iOS</span>. </p> <p>Se le recomienda encarecidamente que utilice <span class="keyword">iOS</span> SDK en vez de su propio envoltorio o "wrapper". </p> <p>Apple proporciona un conjunto de API que permite a la aplicación Watch comunicarse con la aplicación contenedora (enviar solicitudes a la aplicación contenedora y, a continuación, recibir respuestas). </p> <p>Aunque se pueden enviar datos de seguimiento como un diccionario desde la aplicación Watch hasta la aplicación contenedora y, a continuación, llamar cualquier método de seguimiento de la aplicación contenedora para enviar los datos, esta solución tiene algunas limitaciones. </p> <p>En la mayoría de los casos, cuando un usuario utiliza la aplicación Watch, la aplicación contenedora se ejecuta en segundo plano y solo es seguro llamar a <code> TrackActionInBackground</code>, <code> TrackLocation</code> y <code> TrackBeacon</code>. El hecho de llamar a otros métodos de seguimiento interfiere con los datos del ciclo vital, por lo que solo debería utilizar estos tres métodos para enviar datos desde la aplicación Watch. </p> <p>Incluso si estos tres métodos de seguimiento cumplen con sus requisitos, se le recomienda utilizar <span class="keyword">iOS</span> SDK porque el SDK para la aplicación Watch incluye todas las funciones de <span class="keyword">Mobile</span>, excepto la mensajería en la aplicación. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -473,7 +473,7 @@ La versión 4.5 del SDK de [!DNL iOS] incluye los siguientes cambios:
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>Compatibilidad con seguimiento de las señalizaciones web en <span class="keyword">PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>Las llamadas <code> trackBeacon</code> y <code> clearCurrentBeacon</code> ahora están disponibles en <span class="keyword">PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -666,7 +666,7 @@ Versión inicial.
 | contextData | persistentContextData |
 | state | geoState |
 | zip | geoZip |
-| server | appSection |
+| servidor | appSection |
 | debugTracking | debugLogging |
 | trackOffline | offlineTrackingEnabled |
 | offlineLimit | offlineHitLimit |
@@ -690,7 +690,7 @@ Versión inicial.
 * visitorNamespace
 * pageURL
 * pageType
-* referrer
+* referente
 * linkLeaveQueryString
 * usePlugins
 * useBestPractices (gestionada por AutoTracking)
