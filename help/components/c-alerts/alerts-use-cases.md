@@ -2,7 +2,7 @@
 description: 'null'
 title: 'Alertas inteligentes: Casos de uso'
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
