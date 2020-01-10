@@ -3,7 +3,7 @@ description: Las variables dinámicas permiten copiar valores entre distintas va
 keywords: Analytics Implementation
 solution: null
 title: Variables dinámicas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,13 +17,13 @@ Todos los importes monetarios se almacenan en la moneda que elija. Si esa moneda
 
 | Tamaño máximo | Parámetro depurador | Informes rellenados | Valor predeterminado |
 |--- |--- |--- |--- |
-| N.D. | cc | Conversión &gt; Compras &gt; Ingresos Todos los informes de conversión con los ingresos o los valores monetarios | "USD" |
+| N/A | cc | Conversión &gt; Compras &gt; Ingresos Todos los informes de conversión con los ingresos o los valores monetarios | "USD" |
 
 Si su sitio permite que los visitantes compren en diferentes monedas, debe usar la variable *`currencyCode`* para asegurarse de que los ingresos se almacenan en la moneda apropiada. Por ejemplo, si la moneda base del grupo de informes es USD y vende un artículo por 40 euros, debe rellenar *`currencyCode`* con la divisa “EUR” en la página HTML. En cuanto la recopilación de datos recibe los datos, usa la tasa de conversión actual para convertir los 40 euros en su equivalente en USD.
 
 Se recomienda rellenar la variable *`currencyCode`* en la página HTML en lugar del archivo JavaScript si vende en varias monedas. Si desea utilizar sus propias tasas de conversión en lugar de las tasas de conversión utilizadas por Adobe, establezca el valor *`currencyCode`* para que sea igual a la moneda base del grupo de informes. Después, convierta todos los ingresos antes de enviarlos a [!DNL Analytics].
 
-La conversión monetaria se aplica tanto a los eventos de ingresos como monetarios. Estos son eventos que se usan para sumar valores similares a los ingresos, como los impuestos y el envío. Los eventos de ingresos y monetarios se especifican en la cadena de productos. Para obtener más información sobre los productos, consulte [eventos](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-events.html).
+La conversión monetaria se aplica tanto a los eventos de ingresos como monetarios. Estos son eventos que se usan para sumar valores similares a los ingresos, como los impuestos y el envío. Los eventos de ingresos y monetarios se especifican en la cadena de productos. Para obtener más información sobre los productos, consulte [eventos](https://docs.adobe.com/content/help/es-ES/analytics/implementation/analytics-basics/ref-events.html).
 
 ## Sintaxis y valores posibles
 
@@ -52,4 +52,4 @@ Adobe [!DNL Customer Care] puede cambiar la configuración predeterminada de su 
 * No deben usarse eventos monetarios con otros fines que no sean monetarios. Si necesita contar valores arbitrarios o dinámicos que no son monetarios, use el tipo de evento [!UICONTROL numérico].
 * Si la variable *`currencyCode`* está vacía, no se aplica ninguna conversión.
 
-Para obtener más información, consulte Códigos [de moneda](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html).
+Para obtener más información, consulte [Códigos de moneda](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/currency.html).
