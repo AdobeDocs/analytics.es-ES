@@ -2,7 +2,7 @@
 description: En el Administrador de métricas calculadas, el etiquetado de segmentos le permite organizarlos.
 title: Etiquetar métricas calculadas
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -27,8 +27,8 @@ Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar un
 
       ![](assets/cm_add_tags.png)
 
-1. Haga clic en **[!UICONTROL Etiqueta]de nuevo para etiquetar la métrica.**
+1. Haga clic en **[!UICONTROL Etiqueta]** de nuevo para etiquetar la métrica.
 
 La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas.)
 
-You can also filter on tags by going to **[!UICONTROL Show Filters]** &gt; **[!UICONTROL Tags]**.
+También puede filtrar las etiquetas accediendo a **[!UICONTROL Mostrar filtros]** &gt; **[!UICONTROL Etiquetas]**.
