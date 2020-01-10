@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -13,12 +13,12 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 + [Inicio de la exportación de Analytics](home.md)
 + Fuente de datos de Analytics{#analytics-data-feed}
-   + [Información general sobre fuentes de datos](analytics-data-feed/data-feed-overview.md)
-   + [Crear o editar una fuente de datos](analytics-data-feed/create-feed.md)
+   + [Resumen de la fuente de datos](analytics-data-feed/data-feed-overview.md)
+   + [Creación o edición de una fuente de datos](analytics-data-feed/create-feed.md)
    + [Administrar fuentes de datos](analytics-data-feed/df-manage-feeds.md)
    + [Administrar trabajos de fuentes de datos](analytics-data-feed/df-manage-jobs.md)
    + Contenido de la fuente de datos {#data-feed-contents}
-      + [Información general sobre el contenido de las fuentes de datos](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [Resumen del contenido de la fuente de datos](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referencia de columnas de datos](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [Búsqueda de eventos de página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
@@ -26,7 +26,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
       + [Visitas que llegan tarde](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Preguntas frecuentes sobre fuentes de datos](analytics-data-feed/df-faq.md)
    + [Prácticas recomendadas de fuentes de datos](analytics-data-feed/data-feeds-best-practices.md)
-   + [Resolución de problemas de fuentes de datos](analytics-data-feed/feed-troubleshooting.md)
+   + [Solución de problemas de fuentes de datos](analytics-data-feed/feed-troubleshooting.md)
    + [Solución de problemas de los trabajos](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Resumen de Data Warehouse](data-warehouse/data-warehouse.md)
