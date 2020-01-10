@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Configurar acciones para que la condición active
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,7 +20,7 @@ Más allá de herramientas integradas como [!DNL Adobe Analytics] y Google Analy
 
 Cada regla puede activar tantas secuencias de comandos o introducciones de HTML como desee.
 
-> [!NOTE] Dado que la DTM le permite insertar código personalizado en la página, tenga cuidado de no crear vulnerabilidades de scripts entre sitios (XSS) (consulte la guía [de](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) OWASP para obtener más información). Debe prestar especial atención cuando utilice elementos de datos en un script. Tenga en cuenta que los valores de elementos de datos no siempre provienen de una fuente de confianza.
+> [!NOTE] Dado que la DTM le permite insertar código personalizado en su página, debe procurar no crear vulnerabilidades de scripts de sitios cruzados (XSS) (consulte la [guía de OWASP](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) para obtener más información). Debe prestar especial atención cuando utilice elementos de datos en un script. Tenga en cuenta que los valores de elementos de datos no siempre provienen de una fuente de confianza.
 
 **Configurar acciones para que la condición active**
 
