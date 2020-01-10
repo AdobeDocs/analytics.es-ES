@@ -1,7 +1,7 @@
 ---
 title: Implementación de Adobe Analytics
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 * **Dynamic Tag Management:** El predecesor a Launch. DTM utiliza una interfaz similar para implementar Analytics, pero ya no se actualiza y no es tan flexible. Adobe recomienda utilizar Launch para implementar Adobe Analytics.
 * **JavaScript heredado:** Método manual histórico para implementar Adobe Analytics. Esquema de las variables y configuraciones utilizadas en una implementación, que pueden ser útiles para implementaciones de Launch utilizando reglas con código personalizado.
 
-## Artículos clave de implementación de Analytics
+## Artículos de implementación de Analytics clave
 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [Creación de una propiedad en Experience Platform Launch](implement-with-launch/create-analytics-property.md)
@@ -29,7 +29,7 @@ source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ## Recursos clave de Analytics
 
-* [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
 * [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
