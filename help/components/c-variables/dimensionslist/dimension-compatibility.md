@@ -1,7 +1,7 @@
 ---
 title: Compatibilidad de dimensiones de Analytics
 description: Referencia para dimensiones e informes de Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -9,23 +9,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Compatibilidad de dimensiones de Analytics
 
-Este artículo de referencia enumera las dimensiones y los informes admitidos en Informes y análisis y Analysis Workspace, solo en Analysis Workspace y solo en Informes y análisis.
+Este artículo de referencia enumera dimensiones/informes compatibles con Reports &amp; Analytics y Analysis Workspace, solo con Analysis Workspace y solo con Reports &amp; Analytics.
 
 Recuerde que
 
 * no son listas detalladas. Cada grupo de informes puede tener habilitados diferentes conjuntos de variables de producto. Además, cualquier grupo de informes puede tener cualquier cantidad de variables personalizadas habilitadas o deshabilitadas o asignadas a variables de producto. También hemos excluido los atributos y clasificaciones de visitantes, ya que son exclusivos para cada grupo de informes.
 
-* There are some cases of overlap, where Analytics tools use different terms for what is essentially the same thing, for example: `browserwidth` and `browserwidthbucketed`.
+* Existen algunos casos de superposición, en los que las herramientas de Analytics utilizan términos diferentes para conceptos prácticamente iguales, por ejemplo: `browserwidth` y `browserwidthbucketed`.
 
 ## Dimensiones compatibles con Reports &amp; Analytics y con Analysis Workspace
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |---|---|
 | Analytics para Target | targetraw |
 | ID de audiencias | mcaudiences |
-| Navegador | browser |
+| Explorador | explorador |
 | Tipo de navegador | browsertype |
-| Categoría | category |
+| Categoría | Categoría |
 | Ciudades | geocity |
 | Profundidad de color | colordepth |
 | Tipo de conexión | connectiontype |
@@ -44,8 +44,8 @@ Recuerde que
 | Vínculo de salida | exitlink |
 | Canal de primer toque | firsttouchchannel |
 | Detalles de canal de primer toque | firsttouchchanneldetail |
-| Java habilitado | javaenabled |
-| Idioma | language |
+| Habilitado para Java | javaenabled |
+| Idioma | idioma |
 | Canal de último toque | lasttouchchannel |
 | Detalles de canal de último toque | lasttouchchanneldetail |
 | Variables de lista | listvariables |
@@ -68,10 +68,10 @@ Recuerde que
 | Resolución del monitor | monitorresolution |
 | Sistema operativo | operatingsystem |
 | Dominio de referencia original | referringdomainoriginal |
-| Activity Map | página |
+| Página | página |
 | Páginas no encontradas | pagesnotfound |
 | Producto | producto |
-| Referrer | referrer |
+| Referente | referente |
 | Tipo de referente | referrertype |
 | Dominio de referencia | referringdomain |
 | Regiones | georegion |
@@ -84,7 +84,7 @@ Recuerde que
 | Palabra clave de búsqueda: natural | searchenginenaturalkeyword |
 | Palabra clave de búsqueda: de pago | searchenginepaidkeyword |
 | Clasificación de todas las páginas de búsqueda | searchenginepagerank |
-| Servidor | server |
+| Servidor | servidor |
 | Visitas a una sola página | singlepagevisits |
 | Sección del sitio | sitesections |
 | Tiempo empleado por visita (granular) | sitetime |
@@ -99,7 +99,7 @@ Recuerde que
 
 ## Dimensiones compatibles únicamente con Analysis Workspace
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
 | AM/PM | timepartampm |
 | Alto del explorador - Agrupado | browserheightbucketed |
@@ -140,7 +140,7 @@ Recuerde que
 | Compatibilidad con cookies persistentes | persistentcookie |
 | Trimestre | daterangequarter |
 | Trimestre del año | timepartquarterofyear |
-| Survey | surveybase |
+| Encuesta | surveybase |
 | Tiempo empleado en la página - Agrupado | averagepagetime |
 | Tiempo empleado en la página (granular) | pagetimeseconds |
 | Motivo de omisión de seguimiento | optoutreason |
@@ -150,10 +150,10 @@ Recuerde que
 
 ## Dimensiones de reconocimiento de contenido compatibles únicamente con Analysis Workspace
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
 | Activity Map XY | clickmapxy |
-| ID de sesión de medios | videosessionid |
+| ID de sesión de contenidos | videosessionid |
 | Método de acceso de Nielsen | nielsenaccmethod |
 | ID de aplicación de Nielsen | nielsenappid |
 | Recurso de canal de Nielsen | nielsenchannelasset |
@@ -161,7 +161,7 @@ Recuerde que
 
 ## Dimensiones compatibles únicamente con Reports &amp; Analytics
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
 | Altura del explorador | browserheight |
 | Anchura del explorador | browserwidth |
@@ -203,10 +203,10 @@ Reports &amp; Analytics contiene varios informes preconfigurados que, o bien no 
 * Versión de Java
 * Idiomas
 * Rutas más largas
-* Espectadores simultáneos de medios
-* Horario de medios
-* Detalles de medios
-* Información general de medios
+* Espectadores simultáneos de contenidos
+* Horario de contenidos
+* Detalles de contenidos
+* Información general de contenidos
 * Resoluciones de monitor
 * Protocolos de red
 * Complementos de Netscape
@@ -244,9 +244,9 @@ Reports &amp; Analytics contiene varios informes preconfigurados que, o bien no 
 
 ### Vídeo (análisis de medios)
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
-| Contenido | video |
+| Contenido | vídeo |
 | Segmento de contenido | videosegment |
 | Tipo de contenido | videocontenttype |
 | Nombre del reproductor del anuncio | videoadplayername |
@@ -282,7 +282,7 @@ Reports &amp; Analytics contiene varios informes preconfigurados que, o bien no 
 | Tipo de emisión | videostreamtype |
 | ID de error de SDK de reproductor | videoqoeplayersdkerrors |
 | ID de error externo | videoqoeexternalerrors |
-| Tipo de fuente de medios | videofeedtype |
+| Tipo de fuente de contenidos | videofeedtype |
 | Ruta de medios de entrada | entryvideopath |
 | Ruta de medios de salida | exitvideopath |
 | Género de entrada | entryvideogenre |
@@ -294,7 +294,7 @@ Reports &amp; Analytics contiene varios informes preconfigurados que, o bien no 
 
 ### Adobe Social
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
 | Términos | socialterm |
 | Plataformas sociales/Propiedades | socialcontentprovider |
@@ -316,7 +316,7 @@ Reports &amp; Analytics contiene varios informes preconfigurados que, o bien no 
 
 ### SDK móvil
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
 | Fecha de primer lanzamiento | mobileinstalldate |
 | ID de la aplicación | mobileappid |
@@ -353,25 +353,25 @@ Reports &amp; Analytics contiene varios informes preconfigurados que, o bien no 
 
 ### Adobe Advertising Cloud (AMO)
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
 | AMO EF ID | amo_ef_id |
 | ID de AMO | amo_cid |
 
-### Activity Map 
+### Activity Map
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
 | Vínculo de Activity Map por región | clickmaplinkbyregion |
 | Región de Activity Map | clickmapregion |
 | Vínculo de Activity Map | clickmaplink |
-| Página de Activity Map | clickmappage |
+| Página de Página | clickmappage |
 
 ### Integración de Nielsen
 
-Para obtener más información sobre la implementación de esta integración, visite [asociación con Nielsen](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html).
+Para obtener más información sobre la implementación de esta integración, visite [asociación con Nielsen](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html).
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
 | Modelo de anuncio de Nielsen | nielsenadmodel |
 | Segmento C de Nielsen | nielsensegmentc |
@@ -392,9 +392,9 @@ Para obtener más información sobre la implementación de esta integración, vi
 
 ### Adobe Experience Manager (AEM)
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
-| Recurso | aemassetid |
+| ID del recurso | aemassetid |
 | Origen de recursos | aemassetsource |
 | ID del recurso en el que se ha hecho clic | aemclickedassetid |
 | ID del recurso de entrada | entryaemassetid |
@@ -402,6 +402,6 @@ Para obtener más información sobre la implementación de esta integración, vi
 
 ### Adobe Campaign
 
-| Nombre de dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
+| Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
 | ID de entrega ejecutada de Adobe Campaign | ac_delivery_internal_name |
