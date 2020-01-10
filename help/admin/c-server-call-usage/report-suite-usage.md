@@ -2,7 +2,7 @@
 description: La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
 title: Ver uso del grupo de informes
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Uso **[!UICONTROL de llamadas]** al servidor &gt; Uso de grupos **[!UICONTROL de informes]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Uso de llamadas al servidor]** &gt; **[!UICONTROL Uso del grupo de informes]**
 
 >[!IMPORTANT]
 >
->If a report suite is not [linked to an Experience Cloud Organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html), its usage data will not be reflected in this dashboard. También se puede asociar un ID de facturación a varias organizaciones de Experience Cloud; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
+>Si un grupo de informes no está [vinculado a una organización de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/report-suite-mapping.html), sus datos de uso no se reflejarán en este panel. También se puede asociar un ID de facturación a varias organizaciones de Experience Cloud; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
 
 El tablero de Uso del grupo de informes:
 
@@ -24,7 +24,7 @@ El tablero de Uso del grupo de informes:
 * Muestra el porcentaje del uso global por categoría de llamadas al servidor.
 * Se actualiza a diario.
 * Se puede descargar.
-* Permite acceder a la interfaz de usuario de **[!UICONTROL Administrar alertas].**
+* Permite acceder a la interfaz de usuario de **[!UICONTROL Administrar alertas]**.
 
 ![](assets/report-suite-usage.png)
 
@@ -52,7 +52,7 @@ Esta opción permite descargar los datos de uso actual y datos de periodos anter
 | Nombre del archivo | Nombre codificado: Informe de uso `day and time of report creation.csv` |
 | Grupos de informes incluidos | Cualquier grupo de informes que seleccione en la página Uso del servidor de informes se incluye en esta lista. |
 | Tipos de llamada incluidos | Especifique cualquier combinación de estas: Todas las llamadas (predeterminado), Primarias, Secundarias, Primarias móviles, Secundarias móviles. |
-| Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**** Nota: No puede descargar datos de uso antes de enero de 2015 </br>. |
+| Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**Nota:** Recuerde que no puede descargar datos de uso anteriores a enero de 2015 </br>. |
 
 1. Haga clic en **[!UICONTROL Descargar]**.
 
