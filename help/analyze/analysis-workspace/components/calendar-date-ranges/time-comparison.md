@@ -1,8 +1,8 @@
 ---
-description: La comparación de fechas en Analysis Workspace permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas común, como año tras año, trimestre tras trimestre, mes tras mes, etc.
+description: La comparación de fechas de Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre, mes tras mes, etc.
 title: Comparación de fechas
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ La comparación de fechas de Analysis Workspace le permite tomar cualquier colum
 
 ## Comparar periodos de tiempo {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
-El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta “¿En qué medida nos va mejor/peor que en este mismo momento del año pasado?” es fundamental para comprender su negocio. La comparación de fechas incluye automáticamente una columna "diferencia", que muestra el cambio de porcentaje comparado con un período de tiempo especificado.
+El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta “¿En qué medida nos va mejor/peor que en este mismo momento del año pasado?” es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna “diferencia” que muestra el porcentaje de cambio en comparación con un periodo de tiempo concreto.
 
 1. Cree una tabla improvisada con cualquier dimensión y métrica que quiera comprobar a lo largo de un periodo de tiempo.
 1. Haga clic con el botón secundario en una fila de tabla y seleccione **[!UICONTROL Comparar periodos de tiempo]**.
@@ -23,7 +23,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
    >[!IMPORTANT]
    >
-   >Esta opción de clic derecho está deshabilitada para filas de métricas, filas de intervalo de fechas y filas de dimensión de tiempo.
+   >Esta opción del botón secundario está deshabilitada para filas de métricas, filas de intervalos de fechas y filas de dimensiones de tiempo.
 
 1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
 
@@ -35,7 +35,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
    >[!NOTE]
    >
-   >When you select a custom number of days, for example October 7 - October 20 (a 14-day range), you will get only 2 options: **[!UICONTROL Prior 14 days before this date range]**, and **[!UICONTROL Select range]**.
+   >Cuando selecciona un número personalizado de días, por ejemplo 7 de octubre-20 de octubre (un intervalo de 14 días), solo dispone de dos opciones: **[!UICONTROL 14 días anteriores a este intervalo de fechas]** y **[!UICONTROL Seleccionar intervalo]**.
 
 1. La comparación resultante tiene este aspecto:
 
@@ -49,7 +49,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
    Fíjese en que, para mostrar el cambio porcentual en el gráfico de barras, debe tener marcado el ajuste [!UICONTROL Porcentajes] en la [!UICONTROL Configuración de visualización].
 
-## Add a time period column for comparison {#section_93CC2B4F48504125BEC104046A32EB93}
+## Agregar una columna Periodo de tiempo para comparar {#section_93CC2B4F48504125BEC104046A32EB93}
 
 Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que permite agregar un periodo diferente al periodo en que está establecido el calendario. Esta es otra manera de comparar fechas.
 
@@ -65,7 +65,7 @@ Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que per
 
    >[!NOTE]
    >
-   >When you select a custom number of days, for example October 7 - October 20 (a 14-day range), you will get only 2 options: **[!UICONTROL Prior 14 days before this date range]**, and **[!UICONTROL Select range]**.
+   >Cuando selecciona un número personalizado de días, por ejemplo 7 de octubre-20 de octubre (un intervalo de 14 días), solo dispone de dos opciones: **[!UICONTROL 14 días anteriores a este intervalo de fechas]** y **[!UICONTROL Seleccionar intervalo]**.
 
 1. El periodo de tiempo se insertará en la parte superior de la columna seleccionada:
 
@@ -77,7 +77,7 @@ Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que per
 
 1. Además, puede ordenar en función de cualquier columna, lo que cambiará el orden de los días, dependiendo de la columna elegida.
 
-## Align column dates to start on same row {#section_5085E200082048CB899C3F355062A733}
+## Alinear fechas de columnas para que comiencen en la misma fila {#section_5085E200082048CB899C3F355062A733}
 
 Un nuevo ajuste para todas las tablas le permite **[!UICONTROL Alinear fechas de cada columna con todas a partir de la misma fila (se aplica a toda la tabla)]**. “Se aplica a toda la tabla” significa que si, por ejemplo, realiza un desglose en la tabla y cambia este ajuste para el desglose, cambiará el ajuste en la tabla entera.
 
@@ -85,7 +85,7 @@ Un nuevo ajuste para todas las tablas le permite **[!UICONTROL Alinear fechas de
 
 >[!IMPORTANT]
 >
->This setting is **disabled** (unchecked) for all existing projects and **enabled** (checked) for all new projects.
+>Esta configuración está **deshabilitada** (desmarcada) para todos los proyectos existentes y **habilitada** (marcada) para todos los proyectos nuevos.
 
 Ejemplo: Cuando elija alinear las fechas, si realiza una comparación mes tras mes entre octubre y septiembre de 2016, la columna izquierda comenzará el 1 de octubre y la de la derecha comenzará el 1 de septiembre:
 
