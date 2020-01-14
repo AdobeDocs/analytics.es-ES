@@ -3,7 +3,7 @@ description: Describe el proceso de implementación de tres pasos.
 title: Implementación de la integración
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a3aa8feb937e2a1f40c498aa4e143de21cf26b86
 
 ---
 
@@ -24,11 +24,11 @@ Para activar la integración, debe completar el asistente de integración de Lyr
 
    ![](assets/data_connectors.png)
 
-1. En **[!UICONTROL Añadir integración]**, arrastre y suelte el complemento Lyris en Adobe Experience Cloud. Esto abre la integración del conector de datos Lyris.
+1. En **[!UICONTROL Agregar integración]**, en Lyris HQ, haga clic en**[!UICONTROL  Activar]**.
 
    ![](assets/add_integration.png)
 
-1. En Configuración **** general, elija el grupo de informes deseado y proporcione un nombre para la integración.
+1. En Configuración ****general, elija el grupo de informes deseado y proporcione un nombre para la integración.
 1. Rellene toda la información relacionada con la cuenta de Lyris en Valores **[!UICONTROL personalizados]**.
 
    ![](assets/general_settings.png)
@@ -37,9 +37,9 @@ Para activar la integración, debe completar el asistente de integración de Lyr
 
    ![](assets/variable_mapping.png)
 
-1. Puede elegir sus propios segmentos en **[!UICONTROL Sus segmentos]** , excepto los 3 segmentos de socios automatizados.
-1. Esta integración puede requerir la descarga de algunos puntos de datos en su cuenta de Lyris. Puede optar por dar acceso a esto en Solicitud **[!UICONTROL de]** acceso.
-1. En Recopilación **[!UICONTROL de]** datos, puede elegir tener una solución automática o manual (complemento de JavaScript) para recopilar parámetros de cadena de consulta de la dirección URL de la página de aterrizaje. Si decide tener una solución automatizada, introduzca el parámetro de cadena de consulta para ID de mensaje e ID de destinatario. Para obtener un complemento de JavaScript, póngase en contacto con su consultor de Adobe.
+1. Puede elegir sus propios segmentos en **[!UICONTROL Sus segmentos]**, excepto los 3 segmentos de socios automatizados.
+1. Esta integración puede requerir la descarga de algunos puntos de datos en su cuenta de Lyris. Puede optar por dar acceso a esto en Solicitud **[!UICONTROL de]**acceso.
+1. En Recopilación **[!UICONTROL de]**datos, puede elegir tener una solución automática o manual (complemento de JavaScript) para recopilar parámetros de cadena de consulta de la dirección URL de la página de aterrizaje. Si decide tener una solución automatizada, introduzca el parámetro de cadena de consulta para ID de mensaje e ID de destinatario. Para obtener un complemento de JavaScript, póngase en contacto con su consultor de Adobe.
 
    ![](assets/data_collection.png)
 
@@ -74,15 +74,15 @@ Una vez completados todos los pasos de implementación, puede validar que la int
 
 > [!NOTE] El intercambio de datos tarda unos días. Asegúrese de ponerse en contacto con Lyris después de activar la integración.
 
-1. Navegue hasta la integración de Lyris en Conectores de datos. En la ficha **[!UICONTROL Asistencia]** &gt; Registro **[!UICONTROL de actividades de]** integración, debería ver eventos como datos de **[!UICONTROL métricas importados correctamente]** y/o datos **[!UICONTROL de clasificación importados correctamente]**:
+1. Navegue hasta la integración de Lyris en Conectores de datos. En la ficha **[!UICONTROL Asistencia]**> Registro**[!UICONTROL  de actividades de]**integración, debería ver eventos como datos de **[!UICONTROL métricas importados correctamente]**y/o datos**[!UICONTROL  de clasificación importados correctamente]**:
 
    ![](assets/integration_info.png)
 
 1. Ahora puede ver los informes de mensajes de Lyris con las métricas correspondientes. En Adobe Experience Cloud, seleccione **[!UICONTROL Informes y análisis]**.
 1. Seleccione el grupo de informes correspondiente.
-1. En Conversiones **** personalizadas, seleccione los informes **[!UICONTROL de ID de]** mensaje y elija ID de **[!UICONTROL mensaje/Nombre]** del mensaje.
+1. En Conversiones ****personalizadas, seleccione los informes**[!UICONTROL  de ID de]** mensaje y elija ID de **[!UICONTROL mensaje/Nombre]**del mensaje.
 
-## Código del complemento Parámetro de cadena de consulta{#query-string-param-plug-in-code}
+## Código de complemento del parámetro de cadena de consulta{#query-string-param-plug-in-code}
 
 Muestra el código del complemento Lyris que se va a utilizar con Adobe Analytics.
 
