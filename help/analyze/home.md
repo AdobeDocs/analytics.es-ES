@@ -1,8 +1,8 @@
 ---
-title: Ayuda de Analysis Workspace
-description: Documentación del producto y autoayuda para Analysis Workspace, Activity Map, Creador de informes, API de informes e Informes y análisis (anteriormente productos de Omniture Analytics).
+title: Guía de herramientas de Analytics
+description: Documentación del producto y autoayuda para Analysis Workspace, Activity Map, Report Builder, API de informes y Reports & Analytics (anteriormente productos de Omniture Analytics).
 translation-type: tm+mt
-source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -11,25 +11,25 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ![Banner](../../assets/doc_banner_analyze.png)
 
-Esta guía proporciona documentación del producto y autoayuda para las siguientes herramientas de análisis e informes de Adobe Analytics:
+Esta guía proporciona documentación de producto y autoayuda para las siguientes herramientas de análisis e informes de Adobe Analytics:
 
-* **Espacio de trabajo** de análisis: La función principal de Adobe Analytics. Workspace proporciona un lienzo en el que puede arrastrar componentes para satisfacer sus necesidades de creación de informes.
-* **Activity Map**: Complemento del explorador que muestra una superposición en el sitio que muestra los elementos en los que se hizo más clic.
-* **Análisis** específicos: Una aplicación Java independiente con sólidas capacidades de generación de informes. Esta herramienta ya no se actualiza y dejará de utilizarse en el futuro.
-* **API** de informes: Realice consultas de informes directamente a los servidores de Adobe y obtenga respuestas para utilizarlas en sus propias herramientas de informes de clientes.
-* **Creador** de informes: Complemento de Excel que permite recuperar datos de Analytics y colocarlos directamente en un libro.
-* **Informes y análisis**: Una herramienta con docenas de informes pregenerados. Adobe recomienda utilizar Analysis Workspace para la mayoría de sus necesidades de creación de informes.
+* **[!UICONTROL Analysis Workspace]:** esta es la funcionalidad más importante de Adobe Analytics. Workspace proporciona un lienzo en el que puede arrastrar componentes para satisfacer sus necesidades de creación de informes.
+* **[!UICONTROL Activity Map]:** es un complemento del navegador que muestra una superposición en el sitio en la que aparecerán los elementos que reciben más clics.
+* **[!UICONTROL Ad Hoc Analysis]:** una aplicación Java independiente con capacidades potentes de creación de informes. Esta herramienta ya no se actualiza y dejará de utilizarse en el futuro.
+* **[!UICONTROL API de creación de informes]:** para realizar consultas de informes directamente en los servidores de Adobe y obtener respuestas para su uso en sus propias herramientas de creación de informes de clientes.
+* **[!UICONTROL Report Builder]:** complemento de Excel que le permite recuperar datos de Analytics y colocarlos directamente en un libro de trabajo.
+* **[!UICONTROL Reports &amp; Analytics]:** herramienta con decenas de informes pregenerados. Adobe recomienda utilizar Analysis Workspace para la mayoría de sus necesidades de creación de informes.
 
 ## Artículos de herramientas de Analytics clave
 
 * [Introducción a Analysis Workspace](analysis-workspace/home.md)
 * [¿Qué herramienta de Adobe Analytics debo usar?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
-* [Introducción al Report Builder](report-builder/home.md)
+* [Introducción a Report Builder](report-builder/home.md)
 * [Introducción a Activity Map](activity-map/activity-map.md)
 
-## Más guías de usuario de Analytics
+## Más guías del usuario de Analytics
 
-[Guías de usuario de Analytics](/help/landing/home.md)
+[Guías del usuario de Analytics](/help/landing/home.md)
 
 ## Recursos clave de Analytics
 
