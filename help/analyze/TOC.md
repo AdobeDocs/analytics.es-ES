@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Analyze Guide
+user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
       + [Paginación, filtrado y ordenación de tablas](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [Paletas de color](analysis-workspace/build-workspace-project/color-palettes.md)
       + [Ver densidad](analysis-workspace/build-workspace-project/view-density.md)
-      + [Totales del espacio de trabajo](analysis-workspace/build-workspace-project/workspace-totals.md)
+      + [Totales de Workspace](analysis-workspace/build-workspace-project/workspace-totals.md)
    + Componentes {#components}
       + [Resumen de componentes](analysis-workspace/components/analysis-workspace-components.md)
       + Dimensiones {#dimensions}
@@ -79,11 +79,11 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
       + [Resumen de paneles](analysis-workspace/c-panels/panels.md)
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + Atribución {#attribution}
-         + [Información general de atribución](analysis-workspace/c-panels/attribution/attribution.md)
-         + [Uso del panel Atribución](analysis-workspace/c-panels/attribution/use-attribution.md)
+         + [Información general de Attribution](analysis-workspace/c-panels/attribution/attribution.md)
+         + [Uso del panel de Attribution](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Preguntas más frecuentes sobre Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison {#segment-comparison}
+      + Comparación de segmentos {#segment-comparison}
          + [Resumen de IQ de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso de IQ de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Pruebas estadísticas utilizadas en la comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -294,7 +294,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
    + [Eventos de calendario](reports-analytics/t-calendar-event.md)
    + [Solicitudes de Data Warehouse](reports-analytics/data-warehouse.md)
    + [Preguntas frecuentes](reports-analytics/frequently-asked-questions.md)
-+ Ad Hoc Analysis  {#ad-hoc-analysis}
++ Ad Hoc Analysis {#ad-hoc-analysis}
    + Conversor de proyectos de Ad Hoc Analysis {#aha-project-converter}
       + [Resumen del conversor de proyectos de Ad Hoc Analysis](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
       + [Convertir sus proyectos en Ad Hoc Analysis](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
