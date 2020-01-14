@@ -347,4 +347,4 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [Acceso a informes](c-marketing-channels/c-channel-report-access.md)
    + [Configuración del acceso de grupos de usuarios](c-marketing-channels/t-user-groups.md)
    + [Conceder derechos administrativos limitados](c-marketing-channels/t-admin-rights.md)
-   + [Ejecución de informes de canales de mercadotecnia](c-marketing-channels/t-reports-sc.md).
+   + [Ejecución de informes de canales de mercadotecnia](c-marketing-channels/t-reports-sc.md)
