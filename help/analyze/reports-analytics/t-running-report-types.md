@@ -4,7 +4,7 @@ title: Ejecutar diferentes tipos de informes
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
 
 ---
 
@@ -24,7 +24,7 @@ t_reports_ranked.xml
 
  -->
 
-1. Generate a report, such as a [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**).
+1. Genere un informe, como por ejemplo un [!UICONTROL informe Páginas] (**[!UICONTROL Informes]**>**[!UICONTROL  Contenido del sitio]** > **[!UICONTROL Páginas]**).
 1. En el encabezado del informe, haga clic en **[!UICONTROL Clasificación.]**
 1. Para clasificar el informe, haga clic en un encabezado de columna de la tabla.
 
@@ -44,8 +44,8 @@ La mayoría de los informes de tráfico y conversión tienen una vista de tenden
 
 **Para ejecutar un informe de tendencias**
 
-1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**.
-1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+1. Ejecute un informe de conversión o tráfico, como por ejemplo **[!UICONTROL Informes]**>**[!UICONTROL  Contenido del sitio]** > **[!UICONTROL Páginas]**.
+1. En **[!UICONTROL Tipo de informe]**, haga clic en**[!UICONTROL  Tendencias.]**
 
 ## Ejecutar un informe de canales de conversión {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,7 +57,7 @@ t_reports_conversion_funnel.xml
 
  -->
 
-To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** &gt; **[!UICONTROL Campaign Conversion Funnel]**).
+Para ejecutar este informe, seleccione un informe, como por ejemplo un informe Páginas (**[!UICONTROL Informes]**>**[!UICONTROL  Campañas]** > **[!UICONTROL Código de seguimiento]**>**[!UICONTROL  Canal de conversión de campañas]**).
 
 Consulte [Informes de conversión](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) para ver una descripción.
 
@@ -73,15 +73,15 @@ t_reports_fallout.xml
 
 Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) de Analysis Workspace.
 
-1. In [!UICONTROL Adobe Analytics], click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Fallout]**.
-1. En la página [!UICONTROL Informe de visitas en el orden previsto]**, haga clic en[!UICONTROL Iniciar Report Builder para visitas en el orden previsto]**.
+1. En [!UICONTROL Adobe Analytics], haga clic en **[!UICONTROL Informes]**>**[!UICONTROL  Rutas]** > **[!UICONTROL Páginas]**>**[!UICONTROL  Visita en el orden previsto]**.
+1. En la página [!UICONTROL Informe de visitas en el orden previsto], haga clic en **[!UICONTROL Iniciar Report Builder para visitas en el orden previsto]**.
 
-   ![Resultado de pasos](assets/fallout_add_items.png)
+   ![Resultado](assets/fallout_add_items.png)
 
 1. En la página [!UICONTROL Definir puntos de comprobación], especifique los puntos de comprobación que desee utilizar para el informe.
-1. Click **[!UICONTROL Run Report]**.
+1. Haga clic en **[!UICONTROL Ejecutar informe]**.
 
-   ![Resultado de pasos](assets/fallout_report.png)
+   ![Resultado](assets/fallout_report.png)
 
 >[!MORELIKETHIS]
 >
@@ -92,17 +92,11 @@ Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://m
 
 Los informes de flujo de página muestran el orden en el que los visitantes acceden a las páginas y navegan a través del sitio. Este informe ayuda a dar respuesta
 
-<!-- 
-
-t_reports_page_flow.xml
-
- -->
-
 Consulte la nueva [Visualización de flujo](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) en Analysis Workspace.
 
 Ejecute un informe de [Rutas](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html).
 
-For example, click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Next Page Flow]**.
+Por ejemplo, haga clic en **[!UICONTROL Informes]**>**[!UICONTROL  Rutas]** > **[!UICONTROL Páginas]**>**[!UICONTROL  Flujo de página siguiente]**.
 
 ![](assets/page_flow.png)
 
@@ -110,7 +104,7 @@ Lea este informe de izquierda a derecha, empezando por la página seleccionada. 
 
 El porcentaje de cada página posterior que se visitó aparece al lado del nombre de la página. El ancho de la línea que se conecta con las páginas siguientes ilustra dicho porcentaje relativo.
 
-**[!UICONTROL Vistas de ruta]**: indica el número de veces que se visualizó una página, cuando se está limitado a las rutas visualizadas. 
+**[!UICONTROL Vistas de ruta]**: indica el número de veces que se visualizó una página, cuando se está limitado a las rutas visualizadas.
 
 Por ejemplo, si la página Política de privacidad puede tener un total de 10 000 vistas, pero sólo 500 se produjeron inmediatamente después de la Página principal. Es por ello que se utiliza el término vista de ruta.
 
@@ -126,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
+1. Haga clic en **[!UICONTROL Informes]**>**[!UICONTROL  Productos]** > [Canal de conversión de productos](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
 
 ## Ejecutar un informe de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -152,7 +146,7 @@ t_anomaly_view.xml
 
 Consulte las nuevas funciones de [Detección de anomalías y Análisis de contribución](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) en Analysis Workspace.
 
-**[!UICONTROL Informes]** &gt; Métricas **[!UICONTROL del]** sitio &gt; Detección **[!UICONTROL de anomalías]** .
+**[!UICONTROL Informes]**>**[!UICONTROL  Métricas del sitio]** > **[!UICONTROL Detección de anomalías]**.
 
 > [!NOTE] También puede ejecutar Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
@@ -217,11 +211,11 @@ t_anomaly_config.xml
 
 La detección de anomalías se configura de forma independiente para cada grupo de informes.
 
-1. Vaya a **[!UICONTROL Analytics &gt; Informes &gt; Métricas del sitio &gt; Detección de anomalías]** .
+1. Vaya a **[!UICONTROL Analytics > Informes > Métricas del sitio > Detección de anomalías]**.
 1. Seleccione el grupo de informes para el cual desee realizar un seguimiento de la detección de anomalías diaria. Para mostrar una lista de grupos de informes, haga clic en el menú desplegable selector de grupos de informes.
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
+1. Para seleccionar las métricas y/o definir las métricas filtradas, haga clic en **[!UICONTROL Editar métricas]**en la esquina superior derecha de la pantalla:![](assets/metrics_icon.png).
 
-   Puede elegir las métricas de la lista (incluidas las métricas calculadas) de todas las métricas o de una lista de métricas con seguimiento. También puede filtrar por términos concretos para limitar la lista. 1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (Piense en el periodo de prueba como un "periodo de aprendizaje" para el algoritmo). 
+   Puede elegir las métricas de la lista (incluidas las métricas calculadas) de todas las métricas o de una lista de métricas con seguimiento. También puede filtrar por términos concretos para limitar la lista. 1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the**[!UICONTROL  View Period]** for anomaly detection. (Piense en el periodo de prueba como un &quot;periodo de aprendizaje&quot; para el algoritmo). 
 
    ![](assets/view_training_periods.png)
 
@@ -232,7 +226,7 @@ La detección de anomalías se configura de forma independiente para cada grupo 
 * Si amplía el periodo de prueba sus datos se sitúan en un contexto mayor y puede reducir el tamaño de una anomalía.
 
    El informe de métricas de detección de anomalías se actualiza cada vez que cambia un parámetro.
-1. (Optional) Apply segments to the report by clicking **[!UICONTROL Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
+1. (Opcional) Aplique segmentos al informe haciendo clic en **[!UICONTROL Mostrar segmentos]**y seleccionando uno o más segmentos existentes o creando un nuevo segmento y aplicándolo.
 
    ![](assets/ad_top_menu.png)
 
@@ -250,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Informes &gt; Métrica del sitio &gt; Tiempo real]** .
+**[!UICONTROL Informes > Métrica del sitio > Tiempo real]**.
 
 Los informes en tiempo real ofrecen dos informes principales: un informe de descripción general y un informe detallado. Cada uno consiste en diversos informes breves.
 
 Si desea más información sobre la configuración de informes en tiempo real, consulte la [Guía de referencia de Analytics](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration).
 
-1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
+1. Eche un vistazo al informe de **[!UICONTROL Información general]**y a sus componentes:![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -320,7 +314,7 @@ Si desea más información sobre la configuración de informes en tiempo real, c
    </tr> 
    </table>
 
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
+1. Haga clic en un elemento de la lista en el Informe breve principal para iniciar la vista **[!UICONTROL Detalles]**para dicho elemento de lista:![](assets/rtr_detail_report.png)
 
    | **Informe breve de tendencia del elemento** | Presenta la línea de tendencia del elemento que se ha seleccionado en el informe de descripción general de los últimos N minutos. N se puede configurar mediante el selector de intervalo de tiempo. |
    |---|---|
