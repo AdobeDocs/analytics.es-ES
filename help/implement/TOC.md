@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
+source-git-commit: 1aaba87b40f1715fe8365b60b6a4afab9b4b3a3d
 
 ---
 
@@ -144,7 +144,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
          + [s.useForcedLinkTracking](js-implementation/c-variables/config-vars/s-useforcedlinktracking.md)
          + [s.linkType](js-implementation/c-variables/config-vars/s-linktype.md)
          + [s.linkName](js-implementation/c-variables/config-vars/s-linkname.md)
-         + [s.forceLinkTrackingTimeout](js-implementation/c-variables/config-vars/s-forcedlinktrackingtimeout.md)
+         + [s.forcedLinkTrackingTimeout](js-implementation/c-variables/config-vars/s-forcedlinktrackingtimeout.md)
          + [s.linkTrackEvents](js-implementation/c-variables/config-vars/s-linktrackevents.md)
          + [s.linkURL](js-implementation/c-variables/config-vars/s-linkurl.md)
          + [s.linkObject](js-implementation/c-variables/config-vars/s-linkobject.md)
@@ -184,7 +184,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
          + [products](js-implementation/page-variables/products.md)
          + [propN](js-implementation/page-variables/propn.md)
          + [purchaseID](js-implementation/page-variables/purchaseid.md)
-         + [referente](js-implementation/page-variables/referrer.md)
+         + [referrer](js-implementation/page-variables/referrer.md)
          + [resolution](js-implementation/page-variables/resolution.md)
          + [servidor](js-implementation/page-variables/server.md)
          + [s_objectID](js-implementation/page-variables/sobjectid.md)
@@ -263,6 +263,7 @@ source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
       + [ID de visitante de Analytics](js-implementation/c-unique-visitors/visid-analytics.md)
       + [Métodos de ID de reserva](js-implementation/c-unique-visitors/visid-fallback.md)
       + [Identificación de dispositivos móviles](js-implementation/c-unique-visitors/visid-mobile.md)
+      + [Cookies de exploradores y análisis](js-implementation/c-unique-visitors/cookie-changes.md)
    + [Servicios principales de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + Identificación de visitantes entre dispositivos {#cross-device-visitor-id}
       + [Conectar usuarios entre dispositivos](js-implementation/xdevice-visid/xdevice-connecting.md)
