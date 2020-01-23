@@ -3,7 +3,7 @@ title: Actualizaciones de documentación de Adobe Analytics
 description: Actualizaciones de documentación técnica de Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 6d7b23fb88ff76fef2897671c9a80323bea32128
+source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
 
 ---
 
@@ -20,7 +20,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Fecha | Descripción |
 |---|---|
-| 22 de enero de 2020 | Se ha actualizado la página de la tabla improvisada que incluye el nuevo Generador de tablas [improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
+| 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada que incluye información sobre el nuevo Generador de tablas [improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
 | 29 de noviembre de 2019 | Revisión general de la documentación de fuentes [de datos](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 25 de noviembre de 2019 | Nuevo tema sobre el [fin de vida útil para aplicar restricciones de inicio de sesión IP](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 25 de noviembre de 2019 | Nuevo tema sobre el canal de mercadotecnia [interno (actualización de sesión)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
