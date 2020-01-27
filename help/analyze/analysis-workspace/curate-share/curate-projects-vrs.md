@@ -2,7 +2,7 @@
 title: Depuración de proyectos y grupos de informes virtuales
 description: Obtenga información sobre cómo depurar componentes VRS y proyectos
 translation-type: tm+mt
-source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
+source-git-commit: db983980a6ec3db4d60bbc8fc3ba57a4e1219287
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
 
 Al depurar proyectos o grupos de informes virtuales, básicamente se filtran los componentes para que la audiencia solo vea esos componentes de proyecto o grupo de informes virtuales (dimensiones, métricas, segmentos e intervalos de fechas) que usted quiera que use.
 
->[!Note]
+>[!NOTE]
 >
 >Los perfiles de producto son el mecanismo principal que rige los componentes que puede ver un usuario. They are managed through the [Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles). La depuración es un filtro secundario.
 
