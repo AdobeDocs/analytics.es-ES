@@ -4,7 +4,7 @@ title: Código de implementación de muestra
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
 
 ---
 
@@ -15,12 +15,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 A continuación, vemos un ejemplo de cómo se combinan la biblioteca AppMeasurement y el módulo Activity Map en el archivo [!DNL AppMeasurement.js].
 
-Observe que las secciones de código que nos interesan en esta implementación de Activity Map están en **negrita**.
-
 ```
-<b>// Initialize AppMeasurement 
+// Initialize AppMeasurement 
  var s_account="INSERT-RSID-HERE" 
- var s=s_gi(s_account)</b> 
+ var s=s_gi(s_account)
   
 /******** VISITOR ID SERVICE CONFIG - REQUIRES VisitorAPI.js ********/ 
 s.visitor=Visitor.getInstance("INSERT-MCORG-ID-HERE") 
@@ -56,7 +54,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 // https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html 
 // Plug-ins can then be used in the s_doPlugins(s) function above
 
-<b>/****************************** START Activity Map MODULE *****************************/ 
+/****************************** START Activity Map MODULE *****************************/ 
  //The following module enables ActivityMap tracking in Adobe Analytics. ActivityMap 
   allows you to view data overlays on your links and content to understand how 
   users engage with your web site. If you do not intend to use ActivityMap, you 
@@ -67,7 +65,6 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
  function AppMeasurement_Module_Activity Map(g){func 
  ...
  /* END Activity Map MODULE */ 
- </b> 
 /* 
  ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! =============== 
  
