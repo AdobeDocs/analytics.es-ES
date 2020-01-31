@@ -2,7 +2,7 @@
 title: Varios grupos de informes en Workspace
 description: Descubra cómo y por qué crear proyectos en Workspace con varios grupos de informes
 translation-type: tm+mt
-source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
@@ -22,7 +22,7 @@ Esta capacidad es útil si desea, por ejemplo,
 
 ## Panel activo
 
-Con esta función, presentamos el concepto de "panel activo" frente a "panel inactivo". El panel activo es reconocible por el borde azul claro que lo rodea. Al hacer clic dentro de un panel, este se convierte en el panel activo.
+Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a &quot;panel inactivo&quot;. El panel activo es reconocible por el borde azul claro que lo rodea. Al hacer clic dentro de un panel, este se convierte en el panel activo.
 
 >[!IMPORTANT]
 >Puede arrastrar y soltar componentes **únicamente en el panel** activo, incluso si otros paneles tienen el mismo grupo de informes. Si desea cambiar el panel mientras arrastra y suelta, puede utilizar un corte corto: presione `shift` mientras arrastra para cambiar un panel inactivo a un panel activo.
@@ -43,12 +43,12 @@ Con esta función, presentamos el concepto de "panel activo" frente a "panel ina
 
 
    >[!NOTE]
-   >En ocasiones, aparece un mensaje "Grupo de informes incompatible" al cargar un proyecto (o al cambiar a un grupo de informes) en el que no todos los componentes incluidos en el proyecto están incluidos en el grupo de informes. Se enumerarán los componentes que faltan. Siga [estas instrucciones](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) para establecer permisos para las métricas y dimensiones requeridas.
+   >En ocasiones, aparece un mensaje &quot;Grupo de informes incompatible&quot; al cargar un proyecto (o al cambiar a un grupo de informes) en el que no todos los componentes incluidos en el proyecto están incluidos en el grupo de informes. Se enumerarán los componentes que faltan. Siga [estas instrucciones](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles) para establecer permisos para las métricas y dimensiones requeridas.
 
    ![](assets/incompat-rs.png)
 
-   1. Tiene 3 opciones para hacer frente a esta incompatibilidad:
-   * Continúe con algunos componentes que faltan.
+   Tiene 3 opciones para hacer frente a esta incompatibilidad:
+   * Continúe con algunos componentes que faltan. Esto no resultará en datos para esos componentes ni en visualizaciones en blanco.
    * Deshacer.
    * Cambiar el grupo de informes.
 
@@ -58,6 +58,6 @@ Con esta función, presentamos el concepto de "panel activo" frente a "panel ina
 
 1. (Opcional) También puede ir a otros creadores de componentes de Analytics y asegurarse de que ahora muestren una etiqueta de grupo de informes que indique
 
-   * Dónde se creará un segmento (Generador de segmentos).
-   * Dónde se creará una métrica calculada (Creador de métricas calculadas).
-   * Dónde se generará una alerta (Generador de alertas).
+   * Dónde se creará un segmento: Generador [de segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Dónde se creará una métrica calculada: Creador [de métricas](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)calculadas.
+   * Dónde se generará una alerta: Generador [de alertas](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
