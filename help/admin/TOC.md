@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
 
@@ -27,6 +27,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [Variables de conversión (eVars)](admin/conversion-var-admin/conversion-var-admin.md)
       + [Editar variables de conversión](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [Clasificaciones de conversión](admin/conversion-var-admin/conversion-classifications.md)
+      + [Variables de lista](admin/conversion-var-admin/list-var-admin.md)
    + [Códigos de divisa](admin/currency.md)
    + [Descripciones personalizadas de informe](admin/custom-desc-admin.md)
    + [Personalizar calendario](admin/custom-calendar.md)
@@ -118,7 +119,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + [Promoción conjunta de marca](company/co-branding-admin.md)
    + [Ocultar grupos de informes](company/c-hide-report-suites.md)
    + [Administrador de seguridad](company/security-manager.md)
-   + [Fin de vida útil para "Aplicar restricciones de inicio de sesión IP"](company/login-restrictions-eol.md)
+   + [Fin de vida útil para “Aplicar restricciones de inicio de sesión con IP”](company/login-restrictions-eol.md)
 + Administrar grupos de informes {#manage-report-suites}
    + [Administrador del grupo de informes](c-manage-report-suites/report-suites-admin.md)
    + [Grupos de informes globales y resumidos](c-manage-report-suites/rollup-report-suite.md)
