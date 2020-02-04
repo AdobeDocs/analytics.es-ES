@@ -2,14 +2,14 @@
 title: formatTime
 description: Convierta un número de segundos en su equivalente en minutos, horas, etc.
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Complemento de Adobe:formatTime
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor con el uso de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
 
 El `formatTime` complemento le permite tomar cualquier cantidad de segundos y presentarlos en un formato agrupado, redondeados a un valor de referencia deseado. Adobe recomienda utilizar este complemento si desea capturar un valor de tiempo en segundos y convertirlo en un formato de bloque (como minutos, días o semanas). Este complemento no es necesario si no desea incluir valores basados en segundos en un formato de redondeo de tiempo.
 
