@@ -1,8 +1,8 @@
 ---
 title: Eliminación de bots en Adobe Analytics
 description: 3 formas de eliminar bots en Adobe Analytics
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
 
@@ -13,18 +13,14 @@ En Adobe Analytics, tiene varias opciones para eliminar el tráfico de bots de l
 
 ## Usar reglas de bots
 
-Los métodos de filtrado de bots estándar y personalizados se admiten en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Reglas de bots]**:
+Both standard and custom bot filtering methods are supported in **[!UICONTROL Analytics]**>**[!UICONTROL  Admin]** > **[!UICONTROL Report Suites]**>**[!UICONTROL  Edit Settings]** > **[!UICONTROL General]**>**[!UICONTROL  Bot Rules]**:
 
 | Tipo de regla | Descripción |
 |--- |--- |
-| Reglas de bots estándar IAB | Al seleccionar **[!UICONTROL Activar las reglas de filtrado de bots de la IAB]**, se utiliza la Lista internacional de arañas web y bots de la [IAB](https://www.iab.com/) (International Advertising Bureau's) para eliminar el tráfico de bots. La mayoría de los clientes selecciona esta opción como mínimo. |
+| Reglas de bots estándar IAB | Al seleccionar **[!UICONTROL Activar las reglas de filtrado de bots de la IAB]**, se utiliza la Lista internacional de arañas web y bots de la[IAB](https://www.iab.com/)(International Advertising Bureau&#39;s) para eliminar el tráfico de bots. La mayoría de los clientes selecciona esta opción como mínimo. |
 | Reglas de bots personalizadas | Puede definir y agregar reglas de bots personalizadas basadas en agentes de usuario, direcciones IP o intervalos de IP. |
 
 Para obtener más información, consulte [Descripción general de las reglas de bots](/help/admin/admin/bot-removal/bot-rules.md).
-
-## Utilice el complemento de implementación `hitGovernor`
-
-Utilice el [complemento de implementación s.hitGovernor](https://docs.adobe.com/content/help/es-ES/analytics/implementation/javascript-implementation/plugins/hitgovernor.translate.html), que elimina a los visitantes que se comportan como bots, es decir, que envían docenas o cientos de visitas por minuto.
 
 ## Uso de una combinación de Herramientas de Adobe
 
@@ -32,7 +28,7 @@ Además, como los bots cambian rápidamente, Adobe ofrece otras funciones útile
 
 ### Paso 1: Pase el Experience Cloud ID de sus visitantes a un ID declarado nuevo
 
-Para empezar, le recomendamos que cree un nuevo ID declarado en el [Servicio principal de Personas](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html). Deberá pasar el Experience Cloud ID de su visitante a este nuevo ID declarado, lo cual se puede realizar rápida y fácilmente con [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/es-ES/launch/using/implement/solutions/idservice-save.translate.html). Usemos el nombre “ECID” para el ID declarado.
+Para empezar, le recomendamos que cree un nuevo ID declarado en el [Servicio principal de Personas](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html). Deberá pasar el Experience Cloud ID de su visitante a este nuevo ID declarado, lo cual se puede realizar rápida y fácilmente con [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html). Usemos el nombre “ECID” para el ID declarado.
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -40,17 +36,17 @@ A continuación, se muestra cómo que se puede capturar este ID mediante el elem
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-Una vez configurado este elemento de datos, siga [estas instrucciones](https://docs.adobe.com/content/help/es-ES/launch/using/implement/solutions/idservice-save.translate.html) para pasar los ID declarados a la herramienta ECID en Launch.
+Una vez configurado este elemento de datos, siga [estas instrucciones](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) para pasar los ID declarados a la herramienta ECID en Launch.
 
 ### Paso 2: Use la segmentación para identificar bots
 
-Ahora que el ECID de su visitante se ha pasado a un ID declarado, puede utilizar la [segmentación en Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.translate.html) para identificar a los visitantes que actúan como bots. Los bots suelen definirse por su comportamiento: visitas de acceso único, agentes de usuario inusuales, información desconocida sobre dispositivos y exploradores, sin referentes, visitantes nuevos, páginas de aterrizaje inusuales, etc. Utilice los capacidades de los desgloses y la segmentación de Workspace para identificar los bots que han evadido el filtrado de IAB y las reglas de bots del grupo de informes. Por ejemplo: a continuación se muestra una captura de pantalla de un segmento que puede usar:
+Ahora que el ECID de su visitante se ha pasado a un ID declarado, puede utilizar la [segmentación en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) para identificar a los visitantes que actúan como bots. Los bots suelen definirse por su comportamiento: visitas de acceso único, agentes de usuario inusuales, información desconocida sobre dispositivos y exploradores, sin referentes, visitantes nuevos, páginas de aterrizaje inusuales, etc. Utilice los capacidades de los desgloses y la segmentación de Workspace para identificar los bots que han evadido el filtrado de IAB y las reglas de bots del grupo de informes. Por ejemplo: a continuación se muestra una captura de pantalla de un segmento que puede usar:
 
 ![](assets/bot-filter-seg1.png)
 
 ### Paso 3: Exporte todos los [!DNL Experience Cloud IDs] desde el segmento a través de Data Warehouse
 
-Ahora que ha identificado los bots mediante segmentos, el paso siguiente es aprovechar Data Warehouse para extraer todos los Experience Cloud ID asociados a este segmento. Así debe configurar la solicitud [Data Warehouse](https://docs.adobe.com/content/help/es-ES/analytics/export/data-warehouse/data-warehouse.translate.html):
+Ahora que ha identificado los bots mediante segmentos, el paso siguiente es aprovechar Data Warehouse para extraer todos los Experience Cloud ID asociados a este segmento. Así debe configurar la solicitud [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html):
 
 ![](assets/bot-dwh-3.png)
 
