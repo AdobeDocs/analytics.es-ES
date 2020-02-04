@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: f8c8253b59d6297e4028e812bd05ee7528ef00ff
 
 ---
 
@@ -33,7 +33,6 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 + [Redirecciones y alias](redirects.md)
 + Recopilación de datos regionales {rdc}
    + [Ayuda de recopilación de datos regionales](rdc/regional-data-collection.md)
-   + [Características del entorno de recopilación de datos regionales](rdc/rdc-environment-characteristics.md)
    + [Licencias de certificación SSL](rdc/ssl-cert-licensing.md)
 + [Términos utilizados (glosario)](terms.md)
 + [Marcas de hora opcionales](timestamps-optional.md)
