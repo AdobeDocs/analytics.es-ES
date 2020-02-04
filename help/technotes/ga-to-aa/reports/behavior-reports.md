@@ -2,7 +2,7 @@
 title: Informes de comportamiento en Adobe Analytics
 description: Aprenda a crear informes de comportamiento en Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
 
@@ -17,9 +17,9 @@ Esta página supone que el usuario tiene conocimientos básicos sobre el uso de 
 
 El informe de flujo de comportamiento se puede volver a crear con la visualización Flujo.
 
-1. Haga clic en el icono de visualizaciones de la izquierda y arrastre una visualización de flujo al espacio de trabajo sobre la tabla improvisada
+1. Haga clic en el icono de visualizaciones de la izquierda y arrastre una visualización de flujo al espacio de trabajo encima de la tabla improvisada
 2. Busque la dimensión **Página** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los valores de dimensión son de color amarillo.
-3. Busque el valor de página deseado para comenzar y arrástrelo al espacio etiquetado como 'Dimensión o elemento' en el centro
+3. Busque el valor de página deseado para comenzar y arrástrelo al espacio etiquetado como &#39;Dimensión o elemento&#39; en el centro
 4. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
 ![Informe de flujo](/help/technotes/ga-to-aa/assets/flow.png)
@@ -28,12 +28,12 @@ El informe de flujo de comportamiento se puede volver a crear con la visualizaci
 
 El informe de páginas muestra el rendimiento de las páginas individuales del sitio.
 
-1. En el menú Componentes, busque la dimensión **Páginas** y arrástrela hasta el área grande de la tabla improvisada con la etiqueta 'Colocar una dimensión aquí'.
+1. En el menú Componentes, busque la dimensión **Páginas** y arrástrela hasta el área grande de la tabla improvisada con la etiqueta &#39;Colocar una dimensión aquí&#39;.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la guía [de traducción de](common-metrics.md) métricas para obtener detalles sobre cómo obtener cada métrica respectiva.
 
 Como alternativa, Adobe proporciona varios espacios de trabajo precreados denominados plantillas. La plantilla Consumo de contenido (Web) proporciona un valor similar al del informe de todas las páginas.
 
-1. Haga clic en *[!UICONTROL Proyecto]&gt;[!UICONTROL Nuevo]*, que abre una ventana modal con opciones de proyecto.
+1. Haga clic en *[!UICONTROL Proyecto]>[!UICONTROL Nuevo]*, que abre una ventana modal con opciones de proyecto.
 2. Haga clic en la plantilla Consumo de contenido (Web) y, a continuación, haga clic en Crear.
 
 ## Contenido del sitio: desglose de contenido
@@ -42,9 +42,9 @@ El informe de desglose de contenido permite observar el tráfico de la página s
 
 ## Contenido del sitio - Páginas de aterrizaje
 
-El informe de páginas de aterrizaje muestra las páginas de aterrizaje más visitadas del sitio. Las páginas de aterrizaje están disponibles en Analysis Workspace como dimensión Página de **entrada** .
+El informe de páginas de aterrizaje muestra las páginas de aterrizaje más visitadas del sitio. Las páginas de aterrizaje están disponibles en Analysis Workspace como dimensión de página de **entrada** .
 
-1. En el menú Componentes, localice la dimensión Página **de** entrada y arrástrela al área grande de la tabla improvisada con la etiqueta 'Colocar una dimensión aquí'.
+1. En el menú Componentes, localice la dimensión Página **de** entrada y arrástrela hasta el área grande de la tabla improvisada con la etiqueta &#39;Colocar una dimensión aquí&#39;.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la guía [de traducción de](common-metrics.md) métricas para obtener detalles sobre cómo obtener cada métrica respectiva.
 
 Adobe recomienda utilizar la métrica **Visitas** para esta dimensión.
@@ -53,7 +53,7 @@ Adobe recomienda utilizar la métrica **Visitas** para esta dimensión.
 
 El informe de páginas de salida muestra las páginas principales que se convirtieron en la última página de la visita individual. Está disponible en Analysis Workspace con el mismo nombre.
 
-1. En el menú Componentes, busque la dimensión **Página** de salida y arrástrela hasta el área grande de la tabla improvisada con la etiqueta 'Colocar una dimensión aquí'.
+1. En el menú Componentes, busque la dimensión **Página** de salida y arrástrela hasta el área grande de la tabla improvisada con la etiqueta &#39;Colocar una dimensión aquí&#39;.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la guía [de traducción de](common-metrics.md) métricas para obtener detalles sobre cómo obtener cada métrica respectiva.
 
 Adobe recomienda utilizar la métrica **Visitas** para esta dimensión.
@@ -62,13 +62,13 @@ Adobe recomienda utilizar la métrica **Visitas** para esta dimensión.
 
 Los informes de velocidad del sitio muestran la rapidez con la que se cargan las páginas, lo que revela las oportunidades de aumentar los tiempos de carga de las páginas.
 
-Esta función requiere una implementación adicional en ambas plataformas; Adobe recomienda trabajar con un consultor de implementación para garantizar que estos datos estén correctamente configurados para Analysis Workspace. El complemento [Temporización de](/help/implement/js-implementation/plugins/performancetiming.md) rendimiento se asigna generalmente a una eVar para obtener datos de rendimiento en Adobe Analytics.
+Esta función requiere una implementación adicional en ambas plataformas; Adobe recomienda trabajar con un consultor de implementación para garantizar que estos datos estén correctamente configurados para Analysis Workspace. El complemento [](/help/implement/vars/plugins/getpageloadtime.md) getPageLoadTime generalmente se asigna a una eVar para obtener datos de rendimiento en Adobe Analytics.
 
 ## Informes de búsqueda del sitio
 
 Los informes de búsqueda del sitio proporcionan una visión detallada de cómo los visitantes utilizan las capacidades de búsqueda interna del sitio.
 
-Esta función requiere una implementación adicional en ambas plataformas; Adobe recomienda trabajar con un consultor de implementación para garantizar que estos datos estén correctamente configurados para Analysis Workspace. Normalmente, un término de búsqueda interna se extrae de un parámetro de cadena de consulta y se coloca en una eVar para los informes.
+Esta función requiere una implementación adicional en ambas plataformas; Adobe recomienda trabajar con un consultor de implementación para garantizar que estos datos estén correctamente configurados para Analysis Workspace. Generalmente, un término de búsqueda interna se extrae de un parámetro de cadena de consulta y se coloca en una eVar para los informes.
 
 ## Informes de eventos
 
@@ -76,9 +76,9 @@ Los eventos tienen algunas diferencias estructurales importantes entre Google y 
 
 * En Google Analytics, los eventos se definen como texto en la implementación. Los eventos tienen categorías, acciones y etiquetas.
 * En Adobe Analytics, los eventos se configuran primero en Admin Console, donde se le asigna un identificador. Este identificador se utiliza en el código de implementación. Por ejemplo:
-   1. Puede establecer event1 en la Consola de administración como 'Registros'.
+   1. Puede establecer event1 en la Consola de administración como &#39;Registros&#39;.
    2. En la implementación, incluiría event1 en la variable events en la página de confirmación de registro. Cada vez que se muestra la página de confirmación de registro, event1 aumenta.
-   3. En Analysis Workspace, "Registros" aparece como una métrica para su uso en cualquier informe.
+   3. En Analysis Workspace, &quot;Registros&quot; aparece como una métrica para su uso en cualquier informe.
 
 Debido a que esta función requiere cambios en la implementación, Adobe recomienda trabajar con un consultor de implementación para garantizar que los datos estén correctamente configurados para Analysis Workspace.
 
