@@ -4,7 +4,7 @@ title: Marcas de hora opcionales
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -19,11 +19,7 @@ Marcas de hora opcionales, permite hacer lo siguiente:
 * Envíe datos con marca de hora de una aplicación móvil a un grupo de informes globales.
 * Actualice aplicaciones para usar el seguimiento sin conexión sin tener que crear un nuevo grupo de informes.
 
-Consulte [Uso de marcas de hora opcionales](/help/implement/js-implementation/timestamps-overview.md) para conocer las prácticas recomendadas al usar marcas opcionales en el grupo de informes.
-
->[!IMPORTANT]
->
->Si usa Marcas de hora opcionales, no configure [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) en datos que ya cuenten con marcas de hora. Esto puede generar datos confusos y afectar de forma negativa a los cálculos de hora (como por ejemplo los valores de tiempo empleado), atribución (persistencia de eVar), número de visitas/recuentos de visitas y informes de rutas.
+> [!IMPORTANT] Si utiliza Marcas de hora opcionales, no configure [s.visitorID](/help/implement/vars/config-vars/visitorid.md) en datos que ya tengan una marca de hora. Esto puede generar datos confusos y afectar de forma negativa a los cálculos de hora (como por ejemplo los valores de tiempo empleado), atribución (persistencia de eVar), número de visitas/recuentos de visitas y informes de rutas.
 
 > [!NOTE] Los datos de sesión con marca de tiempo habilitada se conservan por un período máximo de 92 días. Esto significa que una visita/sesión se “mantendrá abierta” durante 92 días, mientras que cualquier visita individual adicional (que no sea 30 minutos después de la visita individual anterior) se puede incluir en la misma visita/sesión. Cualquier visita “antigua” que se reciba de manera desordenada producirá resultados “desconocidos”, ya que una serie de factores (segmentación, asignación, caducidad, etc.) influyen en si estas visitas se incluirán o no en los informes.
 
@@ -31,7 +27,7 @@ Consulte [Uso de marcas de hora opcionales](/help/implement/js-implementation/ti
 
 * Si se crea a partir de una plantilla, un nuevo grupo de informes toma como valor predeterminado Marcas de horas opcionales.
 
-   (Puede crear un nuevo grupo de informes desde una plantilla en **Administradores &gt; Grupos de informes &gt; Crear nuevo &gt; Grupo de informes**).
+   (Puede crear un nuevo grupo de informes desde una plantilla en **Administradores > Grupos de informes > Crear nuevo > Grupo de informes**).
 * Si se copia de un grupo de informes existente, entonces el nuevo grupo de informes heredará el ajuste de marca de hora del original, incluido lo siguiente:
 
    * **No se permiten marcas de hora** (se admite s.visitorID)
@@ -40,7 +36,7 @@ Consulte [Uso de marcas de hora opcionales](/help/implement/js-implementation/ti
 
 ## Para cambiar los grupos de informes existentes a Marcas de hora opcionales {#section_40BCD3B4639241DEA716F7640ED33E72}
 
-1. Vaya a **Administradores &gt; Grupos de informes &gt; Editar configuración &gt; General &gt; Configuración de marcas de hora**.
+1. Vaya a **Administradores > Grupos de informes > Editar configuración > General > Configuración de marcas de hora**.
 1. Seleccione el cuadro **Convertir los grupos de informes seleccionados a marcas de hora opcional**.
 
    Esto cambiará el grupo de informes a Marcas de hora opcionales.
