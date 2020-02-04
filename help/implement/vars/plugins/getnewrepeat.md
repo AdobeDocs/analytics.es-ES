@@ -2,14 +2,14 @@
 title: getNewRepeat
 description: Rastree la actividad de los visitantes nuevos frente a los que repiten.
 translation-type: tm+mt
-source-git-commit: aa4e1e71b8962fca8c880b9efe2b0a2b8b9e1360
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Complemento de Adobe: getNewRepeat
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor con el uso de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
 
 El `getNewRepeat` complemento le permite determinar si un visitante del sitio es un visitante nuevo o un visitante de retorno en un número deseado de días. Adobe recomienda utilizar este complemento si desea identificar a los visitantes como &quot;nuevos&quot; con un número personalizado de días. Este complemento no es necesario si las dimensiones de visitante Nuevo/Repetir en Analysis Workspace satisfacen las necesidades de su organización.
 
