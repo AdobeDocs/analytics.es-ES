@@ -1,8 +1,8 @@
 ---
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
-translation-type: ht
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -17,7 +17,7 @@ Puede utilizar una visualización de flujo con la dimensión Tipo de dispositivo
 
 1. Inicie sesión en Adobe Analytics y cree un nuevo proyecto de Workspace en blanco.
 2. Haga clic en la pestaña Visualizaciones de la izquierda y arrastre una visualización de Flujo al lienzo de la derecha.
-3. Haga clic en la pestaña Componentes de la izquierda y arrastre la dimensión 'Tipo de dispositivo móvil' a la ubicación central denominada 'Dimensión o elemento'.
+3. Haga clic en la pestaña Componentes de la izquierda y arrastre la dimensión &#39;Tipo de dispositivo móvil&#39; a la ubicación central denominada &#39;Dimensión o elemento&#39;.
 4. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
 **¿Puedo ver cómo se mueven las personas entre distintas experiencias de usuario (p. ej., navegador de escritorio vs. navegador móvil vs. aplicación móvil)?**
@@ -35,7 +35,7 @@ Adobe trata las visitas con marca de hora como si se hubieran recibido en el mom
 
 **¿En qué se diferencia CDA de la ID de visitante personalizada?**
 
-[La ID](/help/implement/js-implementation/c-unique-visitors/visid-custom.md) de visitante personalizada es un método heredado para [conectar usuarios entre dispositivos](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md). Con una ID de visitante personalizada, se utiliza la `s.visitorID` variable para establecer explícitamente la ID que se utiliza para la lógica del visitante. La `s.visitorID` variable anula los ID basados en cookies que estén presentes. Consulte [Identificar visitantes únicos](/help/implement/js-implementation/c-unique-visitors/visid-overview.md) en la guía Implementar usuario para obtener más información.
+[La ID](/help/implement/vars/config-vars/visitorid.md) de visitante personalizada es un método heredado para [conectar usuarios entre dispositivos](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con una ID de visitante personalizada, se utiliza la `s.visitorID` variable para establecer explícitamente la ID que se utiliza para la lógica del visitante. La `s.visitorID` variable anula los ID basados en cookies que estén presentes.
 
 Las ID de visitante personalizadas tienen una serie de efectos secundarios no deseados que CDA está diseñado para superar o minimizar. Por ejemplo, la metodología de ID de visitante personalizada no tiene capacidades de retroactividad. Si un usuario se autentica en mitad de una visita, la primera parte de la visita se asocia con un ID de visitante diferente al de la última parte de la visita. Los ID de visitante independientes producen inflación de visitas y visitantes. El periodo retrospectiva de 30 días de CDA le permite retroceder en el tiempo para reafirmar el comportamiento anterior como perteneciente a la misma persona, lo que trae un comportamiento entre dispositivos no autenticado junto con un comportamiento autenticado entre dispositivos con inflación mínima o cero.
 
