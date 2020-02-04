@@ -4,7 +4,7 @@ title: Preguntas frecuentes sobre Activity Map
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -66,7 +66,7 @@ R: Algunos vínculos clasificados pueden estar ocultos y no verse en la página 
 
 **P: ¿Por qué los datos relacionados con los clics en vínculos no se recopilan cuando Activity Map se está ejecutando?**
 
-R: Mientras Activity Map está en uso, la etiqueta de Analytics no recopila datos relacionados con los clics en vínculos. Este comportamiento emula el del complemento ClickMap.
+R: Mientras Activity Map está en uso, la etiqueta de Analytics no recopila datos relacionados con los clics en vínculos. Este comportamiento sigue el comportamiento del complemento ClickMap.
 
 **P: ¿Por qué el desplegable de las métricas muestra las mismas métricas varias veces?**
 
@@ -76,7 +76,7 @@ El menú desplegable de las métricas le permite limitar la lista de métricas c
 
 **P: ¿En qué se parecen el informe Todos los vínculos de Activity Map y los informes de Activity Map de Reports &amp; Analytics?**
 
-R: Para extraer el informe Todos los vínculos en Activity Map, se crea una solicitud de desglose de la siguiente manera: Página de Activity Map = "visitedpage", desglosada por Vínculo y región de Activity Map en `<list of link&regions present in the page at rendering time>`.
+R: Para extraer el informe Todos los vínculos en Activity Map, se crea una solicitud de desglose de la siguiente manera: Página de Activity Map = &quot;visitedpage&quot;, desglosada por Vínculo y región de Activity Map en `<list of link&regions present in the page at rendering time>`.
 
 Para disponer de un informe equivalente en Reports &amp; Analytics, primero habría que ir al informe Página de Activity Map. Aquí habría que filtrar por el nombre de la página visitada en Activity Map. El nombre de la página visitada aparece en la columna izquierda, en el panel inferior Detalles de página de Activity Map. Cuando se encuentre la página, podrá realizar el desglose a partir de ella y elegir los vínculos y las regiones de Activity Map como dimensión secundaria.
 
@@ -86,7 +86,7 @@ Sin embargo, cabe destacar que el informe obtenido en Informes y análisis recog
 
 R: De forma predeterminada, Activity Map usa el grupo de informes asociado a la primera etiqueta que la página envía.
 
-Puede seleccionar otro grupo de informes etiquetado desde la ficha Configuración de Activity Map &gt; Otros.
+Puede seleccionar otro grupo de informes etiquetado desde la ficha Configuración de Activity Map > Otros.
 
 **P: ¿Durante cuánto tiempo analiza Activity Map la etiqueta de Analytics?**
 
@@ -120,7 +120,7 @@ Aparece un mensaje de advertencia que indica que debe (/home/analyze/activity-ma
 
 *Página web con una etiqueta de Analytics compatible (AppMeasurement v1.6 o posterior) pero sin la creación de informes de Activity Map habilitada en las Herramientas de administración*
 
-Aparece un mensaje de advertencia que indica que debe pedirle al administrador que \[habilite el informe de Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md") .
+Aparece un mensaje de advertencia que indica que debe pedirle al administrador que \[habilite el informe de Activity Map\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;) .
 
 **P: ¿Puedo exportar los datos de Activity Map (contextData) mediante un[Analytics Data Feed](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)?**
 
