@@ -2,14 +2,14 @@
 title: ' getTimeBetweenEvents'
 description: Mida la cantidad de tiempo entre dos eventos.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Complemento de Adobe: getTimeBetweenEvents
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor con el uso de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
 
 El `getTimeBetweenEvents` complemento le permite realizar un seguimiento de la cantidad de tiempo entre dos eventos de Analytics cualesquiera, incluidos el carro de compras y los eventos personalizados. Resulta útil para rastrear la cantidad de tiempo que tarda un proceso de cierre de compra en completarse o cualquier otro proceso que desee medir. Este complemento es innecesario si no tiene ningún proceso de conversión que desee medir cuánto tiempo tardan.
 
