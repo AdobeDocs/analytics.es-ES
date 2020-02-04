@@ -1,8 +1,8 @@
 ---
 title: Guía de administración inicial de Adobe Analytics
 description: Obtenga información sobre cómo empezar con Adobe Analytics, los tipos de funciones generales y el inicio de sesión en la interfaz de usuario.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -33,7 +33,7 @@ Los administradores de nivel de sistema no tienen acceso directo a los productos
 1. Haga clic en uno de los elementos de la línea de permisos. Si la inclusión automática está disponible, habilite la opción. Si la inclusión automática no está disponible, haga clic en Agregar todo. Ambas opciones mueven todos los elementos de permiso a la columna derecha.
 1. Haga clic en Guardar. Repita el paso anterior para todas las categorías de permisos.
 1. Una vez que todas las categorías de permisos se hayan concedido al perfil, vuelva a la página Información general haciendo clic en Información general en la parte superior.
-1. En el icono de Adobe Analytics, haga clic en 'Asignar usuarios'.
+1. En el icono de Adobe Analytics, haga clic en &#39;Asignar usuarios&#39;.
 1. Introduzca la dirección de correo electrónico a la que desea otorgar acceso completo a Analytics y asígneles el perfil de acceso de administrador completo recién creado. Haga clic en Guardar.
 1. Ahora el usuario tiene acceso completo a Adobe Analytics.
 
@@ -48,7 +48,7 @@ El acceso de administrador de productos para Experience Platform Launch es casi 
 1. Haga clic en uno de los elementos de la línea de permisos. Si la inclusión automática está disponible, habilite la opción. Si la inclusión automática no está disponible, haga clic en Agregar todo. Ambas opciones mueven todos los elementos de permiso a la columna derecha.
 1. Haga clic en Guardar. Repita el paso anterior para todas las categorías de permisos.
 1. Una vez que todas las categorías de permisos se hayan concedido al perfil, vuelva a la página Información general haciendo clic en Información general en la parte superior.
-1. En el icono de Experience Platform Launch by Adobe, haga clic en 'Asignar usuarios'.
+1. En el icono de Experience Platform Launch by Adobe, haga clic en &#39;Asignar usuarios&#39;.
 1. Introduzca la dirección de correo electrónico a la que desea otorgar acceso completo a Analytics y asígneles el perfil de acceso de administrador completo recién creado. Haga clic en Guardar.
 1. Ahora el usuario tiene acceso completo a Experience Platform Launch.
 
@@ -56,4 +56,4 @@ El acceso de administrador de productos para Experience Platform Launch es casi 
 
 [Crear un grupo de informes](create-report-suite.md): Haga que el administrador de Analytics inicie sesión en la herramienta y cree un grupo de informes para la recopilación de datos
 
-[Crear una propiedad en Experience Platform Launch](/help/implement/implement-with-launch/create-analytics-property.md): Haga que el administrador de Experience Platform Launch inicie sesión en la herramienta y cree una propiedad para implementarla en el sitio
+[Crear una propiedad en Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Haga que el administrador de Experience Platform Launch inicie sesión en la herramienta y cree una propiedad para implementarla en el sitio
