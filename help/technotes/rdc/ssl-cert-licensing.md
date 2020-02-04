@@ -1,22 +1,24 @@
 ---
 title: Licencias de certificados SSL
-description: null
+description: Procedimientos de certificado para certificados administrados por el cliente
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
 
 
-# Licencias de certificados SSL
+# Licencias de certificados SSL/TLS
 
-Si está usando cookies de origen y mide el tráfico seguro, debe proporcionar suficientes licencias de certificados SSL para admitir la implementación de RDC.
+Adobe recomienda administrar el certificado sin ningún costo adicional a través del programa [de certificados administrados de](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)Adobe.  El programa de certificados administrados de Adobe está completamente automatizado y garantiza que los certificados se renueven a tiempo, de modo que no se vean afectados por certificados caducados.
 
-Las licencias de certificados SSL deben admitir la instalación en hasta 10 servidores. Estos certificados se instalan en equilibradores de carga en todo el mundo. A medida que Adobe incorpora más Centros de recopilación de datos en línea, también cambian las necesidades de certificados SSL. Cómo afectará a las necesidades de certificados de licencias con el paso del tiempo dependerá del tipo de certificado que posea:
+Si elige no utilizar el programa [de certificados administrados de](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) Adobe, es responsable de proporcionar un certificado SSL/TLS para utilizar con cookies de origen.
 
-* Licencias basadas en servidor: los requisitos de licencias para implementaciones de RDC crecen con el tiempo.
-* Licencias basadas en volumen: los requisitos de licencias no se ven afectados por los cambios de infraestructura. Solamente se ven afectados a medida que el volumen de tráfico cambia con el tiempo.
-* Licencias ilimitadas: los requisitos de licencias deberían permanecer relativamente estables con el paso del tiempo.
+Si proporciona su propio certificado, es su responsabilidad adquirirlo y mantenerlo.  El certificado SSL/TLS debe incluir una licencia de servidor ilimitada.
 
-Si proporciona su propio certificado, es su responsabilidad adquirirlo y mantenerlo. Compruebe el contrato del proveedor de certificados para confirmar que los certificados SSL se pueden instalar en varios centros de datos.
+Para garantizar la seguridad del certificado, obtenga una solicitud [CSR] de firma de certificado de Adobe y organice con la autoridad de certificación deseada la firma del certificado.  Proporcione a Adobe el certificado firmado para la implementación.  Al seguir este proceso, se mantiene la seguridad de la clave del certificado.  El Servicio de atención al cliente de Adobe le ayudará en este proceso.
 
-Opcionalmente, Adobe puede administrar el certificado de forma gratuita a través del [Programa de certificados administrados de Adobe](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).
+Como parte del mantenimiento del certificado, al menos un mes antes de que caduque el certificado, organice con la autoridad de certificación deseada para obtener un certificado renovado y proporcionárselo a Adobe.  Este certificado debe utilizar el mismo CSR utilizado anteriormente.  Póngase en contacto con Adobe si necesita una copia del CSR o desea que se genere un nuevo CSR con una nueva clave.
+
+Puede ponerse en contacto con el servicio de atención al cliente en customercare@adobe.com o en el 1-800-497-0335.
+
+Entre las autoridades de certificación más utilizadas se encuentran DigiCert, Comodo y GeoTrust.
