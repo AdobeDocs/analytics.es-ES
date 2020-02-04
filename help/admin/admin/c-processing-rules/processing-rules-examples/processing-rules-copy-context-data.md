@@ -5,7 +5,7 @@ title: Copiar una variable de datos de contexto en una eVar
 topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -28,4 +28,4 @@ El ejemplo siguiente rellena `prop7` con la variable de datos de contexto `testh
 
 ![Condicional](assets/add-conditional.png)
 
-Para obtener más información sobre la implementación de variables de datos de contexto, consulte [Variables de datos de contexto](/help/implement/js-implementation/c-variables/context-data-variables.md) en la Guía de usuario de implementación.
+Para obtener más información sobre la implementación de variables de datos de contexto, consulte [Variables de datos de contexto](/help/implement/vars/page-vars/contextdata.md) en la Guía de usuario de implementación.
