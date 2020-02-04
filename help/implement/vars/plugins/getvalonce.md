@@ -2,14 +2,14 @@
 title: getValOnce
 description: Impedir que una variable de Analytics se establezca en el mismo valor dos veces seguidas.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Complemento de Adobe: getValOnce
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor con el uso de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
 
 El complemento evita que se establezca una variable igual al mismo valor más de una vez. `getValOnce` Adobe recomienda utilizar este complemento cuando desee anular la duplicación de incidencias en las que un visitante actualiza una página o visita una página determinada varias veces. Este complemento no es necesario si no le preocupa la métrica &quot;Ocurrencias&quot; en Analysis Workspace.
 
