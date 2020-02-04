@@ -2,14 +2,14 @@
 title: getTimeToComplete
 description: Mida la cantidad de tiempo que se tarda en completar una tarea.
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Complemento de Adobe: getTimeToComplete
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor con el uso de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
 
 El `getTimeToComplete` complemento rastrea el tiempo que un usuario tarda en completar un proceso en un sitio. El &quot;reloj&quot; comienza cuando se llama a la `start` acción y finaliza cuando se llama a la `stop` acción. Adobe recomienda utilizar este complemento si hay un flujo de trabajo en el sitio que tarde algún tiempo en completarse y desea saber cuánto tiempo tardan los visitantes en completarlo. No es necesario utilizar este complemento si el flujo de trabajo del sitio tarda un corto período de tiempo (menos de 3 segundos) porque la granularidad se reduce sólo al segundo completo.
 
