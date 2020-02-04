@@ -1,8 +1,8 @@
 ---
 title: Crear un grupo de informes
 description: Cree un contenedor básico para la recopilación de datos en Adobe Analytics.
-translation-type: ht
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -23,13 +23,15 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 
 1. Inicie sesión en [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
-1. Debería ver automáticamente una ventana modal con 'Bienvenido a Adobe Analytics'. Si no lo hace, haga clic en el icono de ayuda en la esquina superior derecha y, a continuación, seleccione 'Bienvenido a Adobe Analytics'.
+1. Debería ver automáticamente una ventana modal con &#39;Bienvenido a Adobe Analytics&#39;. Si no lo hace, haga clic en el icono de ayuda en la esquina superior derecha y, a continuación, seleccione &#39;Bienvenido a Adobe Analytics&#39;.
 1. En la ventana modal, haga clic en Iniciar configuración.
 1. Siga cada mensaje que describa los conceptos básicos como tipo de propiedad, industrias y zona horaria. Haga clic en Siguiente.
-1. Se crea el grupo de informes. Adobe también recomienda disponer de un grupo de informes de desarrollo para que las pruebas no afecten a los datos de los clientes. Haga clic en el icono de ayuda en la esquina superior derecha y, a continuación, seleccione de nuevo 'Bienvenido a Adobe Analytics'.
+1. Se crea el grupo de informes. Adobe también recomienda disponer de un grupo de informes de desarrollo para que las pruebas no afecten a los datos de los clientes. Haga clic en el icono de ayuda en la esquina superior derecha y, a continuación, seleccione de nuevo &#39;Bienvenido a Adobe Analytics&#39;.
 1. En la ventana modal, haga clic en Iniciar configuración.
 Asigne el mismo nombre a este grupo de informes, excepto con el sufijo “- DEV” al final. Dado que este grupo de informes solo recibirá tráfico interno, el tamaño estimado puede ser el más pequeño.
 1. Haga clic en Siguiente para terminar de crear el grupo de informes dev.
+
+Para obtener más información sobre los pasos de esta ventana modal, consulte [Implementación modal](/help/implement/prepare/implementation-modal.md) en la Guía del usuario de implementación.
 
 ## Resolución de problemas
 
@@ -37,10 +39,10 @@ Asigne el mismo nombre a este grupo de informes, excepto con el sufijo “- DEV�
 
 Esto significa que no se han concedido a su cuenta los permisos correctos para Analytics. Colabore con un administrador de nivel de sistema de su organización para asegurarse de que cuenta con un perfil con los permisos adecuados para acceder a Adobe Analytics.
 
-**Después de iniciar sesión en Adobe Analytics, falta la ventana emergente de 'Bienvenido a Adobe Analytics' y la lista desplegable.**
+**Después de iniciar sesión en Adobe Analytics, falta la ventana emergente de &#39;Bienvenido a Adobe Analytics&#39; y la lista desplegable.**
 
 Asegúrese de haber iniciado sesión a través de Experience Cloud, y no a través de my.omniture.com. Los usuarios que inician sesión a través de my.omniture.com no tienen disponible el asistente para la configuración de grupos de informes.
 
 ## Pasos siguientes
 
-[Cree y configure una propiedad para Adobe Analytics en Launch](/help/implement/implement-with-launch/create-analytics-property.md): Crear un área para administrar la implementación de Analytics
+[Cree y configure una propiedad para Adobe Analytics en Launch](/help/implement/launch/create-analytics-property.md): Crear un área para administrar la implementación de Analytics
