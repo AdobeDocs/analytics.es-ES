@@ -4,7 +4,7 @@ title: Códigos de seguimiento
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -15,9 +15,9 @@ Evalúa el efecto que los distintos códigos de seguimiento publicitario tienen 
 
 **Propiedades generales**
 
-* Este informe hace referencia a los datos directamente desde la variable [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) implementada en el sitio web.
-* La variable en la que se basa este informe es una  [variable de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Es decir, puede persistir más allá de la vista de página y se puede asociar a métricas dentro de la fecha de caducidad especificada.
-* La métrica predeterminada del informe es Ingresos. Puede cambiar este valor predeterminado en el [!UICONTROL Administrador del grupo de informes] de las [!UICONTROL Herramientas de administración]. ( **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Configuración de informe individual]** &gt; **[!UICONTROL Métricas predeterminadas]**.)
+* Este informe hace referencia a los datos directamente desde [s.campaign](/help/implement/vars/page-vars/campaign.md)
+* La variable en la que se basa este informe es una [variable de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Es decir, puede persistir más allá de la vista de página y se puede asociar a métricas dentro de la fecha de caducidad especificada.
+* La métrica predeterminada del informe es Ingresos. Puede cambiar este valor predeterminado en el [!UICONTROL Administrador del grupo de informes] de las [!UICONTROL Herramientas de administración]. (**[!UICONTROL Editar configuración]**>**[!UICONTROL  Configuración de informe individual]** > **[!UICONTROL Métricas predeterminadas]**).
 
 * Este informe puede verse tanto en formato de tendencias como de clasificación.
 * Este informe puede utilizar un filtro de búsqueda para localizar artículos de línea específicos.
@@ -36,14 +36,14 @@ Evalúa el efecto que los distintos códigos de seguimiento publicitario tienen 
 
 * En este informe se pueden utilizar las métricas siguientes (en función de la organización y la configuración del grupo de informes):
 
-   * Pulsaciones: número de veces que se define la variable  *`s.campaign`* se define
+   * Pulsaciones: número de veces que se define la variable *`s.campaign`*se define
    * Todas las métricas de comercio electrónico estándar: ingresos, pedidos, unidades, carros de compra, vistas del carro de compras, cierres de compra, adiciones al carro de compra, eliminaciones del carro de compra.
    * Todos los eventos personalizados: eventos 1-80 y eventos 81-100 si se trabaja con el código H22 o superior
    * Visitas y Visitantes: disponibles en función del grupo de informes y la organización. Para obtener más información el usuario debe ponerse en contacto con el Administrador de cuentas.
 
 **Propiedades de Reports &amp; Analytics**
 
-* Haga clic en **[!UICONTROL Conversión]** &gt; **[!UICONTROL Campañas]** &gt; **[!UICONTROL Código de seguimiento]** para localizar este informe, a menos que el menú esté personalizado.
+* Haga clic en **[!UICONTROL Conversión]**>**[!UICONTROL  Campañas]** > **[!UICONTROL Código de seguimiento]**para localizar este informe, a menos que el menú esté personalizado.
 
 * Este informe también puede desglosarse mediante todas las [variables de lista](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html).
 * Las vistas de página, visitas y visitantes únicos están disponibles como métricas.
