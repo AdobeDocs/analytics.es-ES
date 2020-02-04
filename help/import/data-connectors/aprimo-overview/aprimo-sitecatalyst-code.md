@@ -3,7 +3,7 @@ description: Si seleccionó el método de recopilación de datos del complemento
 title: Código de complemento de Adobe Analytics
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -26,5 +26,5 @@ Si seleccionó el método de recopilación de datos del complemento JavaScript, 
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
-> [!NOTE] El complemento de arriba supone que algunas variables de comercio personalizadas (eVars) están disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Adobe Analytics, simplemente reemplácelas por las que están disponibles.
+> [!NOTE] El complemento de arriba supone que hay ciertas variables de comercio personalizadas (eVars) disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Adobe Analytics, simplemente reemplácelas por las que están disponibles.
 
