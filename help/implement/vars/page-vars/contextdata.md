@@ -1,0 +1,53 @@
+---
+title: contextData
+description: Las variables de datos de contexto permiten definir variables personalizadas en cada página que pueden leer las reglas de procesamiento.
+translation-type: tm+mt
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+
+---
+
+
+# contextData
+
+Las variables de datos de contexto permiten definir variables personalizadas en cada página que pueden leer las reglas de procesamiento. En lugar de asignar explícitamente valores a variables de Analytics en el código, puede enviar datos en variables de datos de contexto. Las reglas de procesamiento toman valores de variables de datos de contexto y los pasan a las variables de Analytics correspondientes. See [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in the Admin user guide.
+
+Las variables de datos de contexto son útiles para que los equipos de desarrollo recopilen datos en elementos con nombre en lugar de variables numeradas. Por ejemplo, en lugar de solicitar que los equipos de desarrollo asignen al autor de la página a `eVar10`, puede solicitar que se asigne a `s.contextData["author"]` ella. Un administrador de Analytics de su organización puede crear reglas de procesamiento para asignar variables de datos de contexto a variables de análisis para los informes. En última instancia, los equipos de desarrollo solo se preocuparían por las variables de datos de contexto en lugar de por las muchas variables de página que ofrece Adobe.
+
+## Variables de datos de contexto en Adobe Experience Platform Launch
+
+Launch no tiene una ubicación dedicada para establecer variables de datos de contexto. Utilice el editor de código personalizado, siguiendo la sintaxis de AppMeasurement.
+
+## s.contextData en AppMeasurement e inicie el editor de código personalizado
+
+La `s.contextData` variable no toma directamente un valor. En su lugar, establezca las propiedades de esta variable en una cadena.
+
+```js
+// Assign the example_variable property a value
+s.contextData["example_variable"] = "Example value";
+```
+
+* Las variables válidas de datos de contexto solo contienen caracteres alfanuméricos, guiones bajos y puntos. Adobe no garantiza la recopilación de datos en las reglas de procesamiento si se incluyen otros caracteres, como guiones.
+* No inicie variables de datos de contexto con `"a."`. Adobe reserva y utiliza este prefijo. Por ejemplo, no utilice `s.contextData["a.InstallEvent"]`.
+* Las variables de datos de contexto no distinguen entre mayúsculas y minúsculas. Las variables `s.contextData["example"]` y `s.contextData["EXAMPLE"]` son idénticas.
+
+## Usar reglas de procesamiento para rellenar variables de análisis
+
+> [!IMPORTANT] Las variables de datos de contexto se descartan después de ejecutar las reglas de procesamiento. Si no tiene reglas de procesamiento activas que coloquen valores en variables, ¡esos datos se pierden de forma permanente!
+
+1. Actualice la implementación para establecer los nombres y valores de las variables de datos de contexto.
+2. Inicie sesión en Adobe Analytics y vaya a Administración > Grupos de informes.
+3. Seleccione el grupo de informes deseado y, a continuación, vaya a Editar configuración > General > Reglas de procesamiento.
+4. Cree una regla de procesamiento que establezca una variable de Analytics en el valor de la variable de datos de contexto.
+5. Guarde los cambios.
+
+Las reglas de procesamiento se aplican inmediatamente una vez guardadas. No se aplican a los datos históricos.
+
+## Enviar datos de contexto en una llamada de seguimiento de vínculos
+
+Incluya la variable de datos de contexto como una propiedad de `contextData` en `s.linkTrackVars`:
+
+```js
+s.contextData["example_variable"] = "Example value";
+s.linkTrackVars = "contextData.example_variable";
+s.tl(true,"o","Example context data link");
+```
