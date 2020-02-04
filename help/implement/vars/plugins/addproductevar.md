@@ -2,7 +2,7 @@
 title: addProductEvar
 description: Agrega eVars de comercialización a la variable products.
 translation-type: tm+mt
-source-git-commit: d73ba14ac217ad6a46c16a29b4e19b265573fdda
+source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 ---
 
@@ -23,13 +23,13 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 1. Haga clic en la propiedad que desee.
 1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo]
 1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
-1. Si aún no lo ha hecho, cree una nueva regla de inicio denominada &quot;Inicializar complementos&quot; con la siguiente configuración:
+1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
    * Condición: Ninguno
    * Evento: Core - Biblioteca cargada (Principio de página)
 1. Agregue una acción a la regla anterior con la siguiente configuración:
    * Extensión: Complementos comunes de Analytics
    * Tipo de acción: Inicializar addProductEvar
-1. Guardar y publicar los cambios en la regla
+1. Guarde y publique los cambios en la regla.
 
 ## Instalación del complemento con el editor de código personalizado Iniciar
 
