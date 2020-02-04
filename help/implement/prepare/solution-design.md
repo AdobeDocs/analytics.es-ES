@@ -1,8 +1,8 @@
 ---
 title: Creación de un documento de diseño de solución
 description: Descubra qué es un documento de diseño de solución y cómo puede utilizarlo en su organización.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -13,7 +13,7 @@ Un documento de diseño de solución (también conocido como referencia de dise�
 
 ## Requisitos previos
 
-[Valide la implementación de Analytics y envíe informes a producción](../implement-with-launch/validate-publish-prod.md). Aunque no es necesario directamente, Adobe recomienda disponer de una implementación básica para recopilar datos críticos mientras se establecen e implementan requisitos comerciales adicionales.
+[Valide la implementación de Analytics y envíe informes a producción](../launch/validate-publish-prod.md). Aunque no es necesario directamente, Adobe recomienda disponer de una implementación básica para recopilar datos críticos mientras se establecen e implementan requisitos comerciales adicionales.
 
 ## Propiedad y ubicación del documento de diseño
 
@@ -41,14 +41,6 @@ Al determinar qué datos recopilar, es fácil decir “todo”; sin embargo, est
 La definición de un documento de diseño de solución es un proyecto bastante complejo, especialmente para las organizaciones que no lo han creado anteriormente. Si necesita asistencia adicional, Adobe proporciona asesoramiento especializado para ayudarle a poner en marcha su organización con Adobe Analytics. Póngase en contacto con el Administrador de cuentas si desea obtener los servicios profesionales de Adobe. Se puede rellenar un [cuestionario técnico previo a la implementación](assets/technical-pre-implementation-questionnaire.pdf) para que Adobe sepa exactamente cómo ayudarle en función de las necesidades de su organización.
 
 También hay varios socios de Adobe que se especializan en ayudar a crear un documento de diseño de solución, así como en implementar Adobe Analytics en su sitio.
-
-> [!NOTE] Aunque los miembros de la comunidad de Analytics han encontrado útiles los siguientes vínculos, no son propiedad de Adobe. Tenga en cuenta esta nota cuando visualice su contenido.
-
-* [ pasos para configurar el diseño web de la solución de análisis](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)/7- de ObservePoint
-* [Un marco para el proceso de análisis digital](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) de Analytics Demystified
-* [La referencia de diseño de la solución es en realidad su mejor amigo](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) de Numeric Analytics
-* [Crear una asignación de etiquetas de Adobe Analytics](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) de Antti Koski
-* [La importancia del documento de diseño de la solución](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document) de Ebiquity
 
 ## Pasos siguientes
 
