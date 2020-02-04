@@ -2,14 +2,14 @@
 title: addProductEvar
 description: Agrega eVars de comercialización a la variable products.
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Complemento de Adobe:addProductEvar
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor con el uso de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
 
 El `addProductEvar` complemento le permite agregar fácilmente una eVar de comercialización de Adobe Analytics que utilice sintaxis de producto para la variable products sin tener que preocuparse de si el contenido ya existente de la variable products se cambiará, moverá o eliminará. Adobe recomienda utilizar este complemento si desea agregar fácilmente eVars de comercialización de sintaxis de producto a la `products` variable. No es necesario usar el `addProductEvar` complemento si no utiliza eVars de comercialización con sintaxis de producto.
 
