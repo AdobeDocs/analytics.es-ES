@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: ht
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+translation-type: tm+mt
+source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
 
@@ -74,6 +74,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
       + [Informes de Analytics que usan datos de DFA](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
       + [Reconciliación de discrepancias de métricas](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)
       + [Preguntas frecuentes](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
+      + [Retraso máximo](data-connectors/dfa-data-connector-analytics/maxdelay.md)
    + Conector de datos de DreamMail para Adobe Analytics {#dreammail}
       + [Conector de datos de DreamMail para Adobe Analytics](data-connectors/dreammail-overview/dreammail-overview.md)
       + [Activación de la integración](data-connectors/dreammail-overview/t-dreammail-activate.md)
