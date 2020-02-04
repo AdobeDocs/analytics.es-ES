@@ -1,0 +1,89 @@
+---
+title: Migrar a AppMeasurement para JavaScript
+description: Determine lo que necesita para migrar la implementación fuera del código H.
+translation-type: tm+mt
+source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+
+---
+
+
+# Migrar a AppMeasurement para JavaScript
+
+Si la implementación aún utiliza el código H, Adobe recomienda migrar a la versión más reciente de AppMeasurement. Se recomienda implementar Analytics mediante [Adobe Experience Platform Launch](../launch/overview.md) , aunque se puede utilizar una implementación de JavaScript actualizada.
+
+Los siguientes cambios notables están presentes en AppMeasurement en comparación con el código H:
+
+* De 3 a 7 veces más rápido que el código H.
+* Más claro que el código H: código 21 kb sin comprimir frente al código H, que es de 33 kb sin comprimir.
+* El código de la página y la biblioteca se puede implementar dentro de la etiqueta `<head>`.
+* El código H de nivel de página existente es compatible con AppMeasurement.
+* La biblioteca proporciona utilidades nativas para obtener parámetros de consulta, leer y escribir cookies y realizar un seguimiento de vínculos avanzado.
+* La biblioteca no admite variables de configuración de cuentas dinámicas (incluidas `dynamicAccountSelection`, `dynamicAccountMatch`y `dynamicAccountList`).
+* No se admite el módulo Survey.
+
+Los siguientes pasos describen un flujo de trabajo de migración habitual.
+
+1. **Descargue el nuevo archivo** de AppMeasurement: Para acceder al nuevo archivo, inicie sesión en Adobe Analytics y, a continuación, vaya a Administración > Administrador de códigos. El archivo comprimido descargado contiene un `AppMeasurement.js` archivo minimizado, junto con los módulos Media e Integrate.
+1. **Copie las`s_code.js`personalizaciones a`AppMeasurement.js`**: Mueva todo el código antes de la`DO NOT ALTER ANYTHING BELOW THIS LINE`sección en`s_code.js`al principio de`AppMeasurement.js`.
+1. **Actualizar todos los complementos**: Asegúrese de que está utilizando la versión más reciente de cada complemento enumerado en el `s_code.js` archivo. Esto incluye los módulos Media e Integrate.
+1. **Implementar el archivo** AppMeasurement.js: Cargue el `AppMeasurement.js` archivo en el servidor web.
+1. **Actualizar referencias de secuencias de comandos para que apunten a`AppMeasurement.js`**: Asegúrese de que todas las páginas hagan referencia`AppMeasurement.js`en lugar de`s_code.js`.
+
+## Ejemplo de código de Appmeasurement
+
+Un `AppMeasurement.js` archivo típico. Asegúrese de que las variables de configuración se establecen por encima de la `doPlugins` función.
+
+```js
+// Initialize AppMeasurement
+var s = s_gi("examplersid");
+
+/******** VISITOR ID SERVICE CONFIG - REQUIRES VisitorAPI.js ********/;
+s.visitor=Visitor.getInstance("INSERT-MCORG-ID-HERE");
+
+/************************** CONFIG SECTION **************************/;
+/* You may add or alter any code config here. */
+s.trackDownloadLinks = true;
+s.trackExternalLinks = true;
+s.trackInlineStats = true;
+s.linkDownloadFileTypes = "exe,zip,wav,mp3,mov,mpg,avi,wmv,pdf,doc,docx,xls,xlsx,ppt,pptx";
+s.linkInternalFilters = "javascript:,example.com";
+
+s.usePlugins = true;
+function s_doPlugins(s) {
+
+// Use implementation plug-ins that are defined below in this section
+
+}
+s.doPlugins = s_doPlugins;
+
+/* WARNING: Changing any of the below variables will cause drastic
+changes to how your visitor data is collected.  Changes should only be
+made when instructed to do so by your account manager.*/
+s.trackingServer="example.sc.omtrdc.net";
+
+/************************** PLUGINS SECTION *************************/
+
+// Copy and paste implementation plug-ins here. Plug-ins can then be used in the s_doPlugins(s) function above
+
+/****************************** MODULES *****************************/
+
+// Copy and paste implementation modules (Media, Integrate) here.
+
+/* ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! ===============  */
+```
+
+## Ejemplo de código de página
+
+Código típico que se carga en cada página.
+
+```html
+<script src="AppMeasurement.js"></script>
+<script language="JavaScript" type="text/javascript">
+s.pageName = "Example page name";
+s.eVar1 = "Example eVar value";
+s.events = "event1";
+s.t();
+</script>
+```
+
+Asegúrese de incluir también en cada página una referencia a `AppMeasurement.js` y `VisitorAPI.js`. Consulte Implementación [de](/help/implement/js/overview.md) JavaScript para obtener más información.
