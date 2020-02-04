@@ -3,7 +3,7 @@ description: Si seleccionó el método de recopilación de datos del complemento
 title: Código de complemento de Adobe Analytics
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -50,5 +50,5 @@ s.eVar11="Post Click Product ID"; // e.g. "shoes"
 s.eVar12="Post Click Type of Action"; // e.g. "purchase"; 
 ```
 
-> [!NOTE] El complemento de arriba supone que algunas variables de comercio personalizadas (eVars) están disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Adobe Analytics, simplemente reemplácelas por las que están disponibles.
+> [!NOTE] El complemento de arriba supone que hay ciertas variables de comercio personalizadas (eVars) disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Adobe Analytics, simplemente reemplácelas por las que están disponibles.
 
