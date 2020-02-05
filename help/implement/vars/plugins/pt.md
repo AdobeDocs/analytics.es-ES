@@ -64,7 +64,7 @@ Al llamar a este método se devuelve un valor si la función de llamada de retor
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El código siguiente forma parte del complemento getQueryParam.  Ejecuta la función de ayuda getParameterValue con cada uno de los pares de clave-valor que se encuentran en la cadena de consulta de la dirección URL (fullQueryString).  En otras, para extraer cada par clave-valor, fullQueryString debe estar delimitado y dividido por un carácter &quot;&amp;&quot; de símbolo &amp;. El parámetro parameterKey hace referencia al parámetro de cadena de consulta que el complemento intenta extraer específicamente de la cadena de consulta
 

@@ -71,7 +71,7 @@ La segunda parte de la cadena devuelta son las dimensiones de anchura y altura d
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Si...
 
@@ -85,7 +85,7 @@ Si...
 s.eVar10 = getResponsiveLayout(500, 700, 1000);
 ```
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Si...
 

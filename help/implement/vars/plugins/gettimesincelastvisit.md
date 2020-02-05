@@ -72,7 +72,7 @@ Este complemento crea una cookie de origen denominada `"s_tslv"` establecida en 
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Si un visitante nuevo llega al sitio y el siguiente código se ejecuta en la primera página de la visita...
 

@@ -85,7 +85,7 @@ Al llamar a este método se devuelve un entero que representa la cantidad de tie
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El siguiente código...
 
@@ -103,7 +103,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, 
 * Cuando se registra un tiempo real entre event1 y event2, el complemento establece eVar1 igual al número de segundos entre los dos eventos que se configuran, redondeado al valor de referencia de 2 segundos más cercano (por ejemplo: 0 segundos, 2 segundos, 4 segundos, 10 segundos, 184 segundos, etc.)
 * Si s.events contiene event2 antes de que se inicie un temporizador, no se configurará eVar1.
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 El siguiente código...
 
@@ -120,7 +120,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "
 * El temporizador se restablecerá solamente cuando s.events contenga event3 OR si han transcurrido 20 días desde que se inició el temporizador
 * Cuando se registra un tiempo entre el evento1 (original) y el evento2, el complemento configurará eVar1 igual al número de horas entre los dos eventos que se configuran, redondeado al valor de referencia de 1/2 horas más cercano (por ejemplo: 0 horas, 1,5 horas, 3 horas, 7,5 horas, 478,5 horas, etc.)
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 El siguiente código...
 

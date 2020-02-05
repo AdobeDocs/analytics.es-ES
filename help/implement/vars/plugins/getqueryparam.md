@@ -69,7 +69,7 @@ Al llamar a este método se devuelve un valor según los argumentos anteriores y
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Si la dirección URL actual es la siguiente:
 
@@ -83,7 +83,7 @@ El siguiente código establecerá s.campaign como &quot;trackingcode1&quot;:
 s.campaign=s.getQueryParam('cid');
 ```
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Si la dirección URL actual es la siguiente:
 
@@ -97,7 +97,7 @@ El siguiente código establecerá s.campaign como &quot;trackingcode1:123456&quo
 s.campaign=s.getQueryParam('cid,ecid',':');
 ```
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 Si la dirección URL actual es la siguiente:
 
@@ -111,7 +111,7 @@ El siguiente código establecerá s.campaign como &quot;trackingcode1123456&quot
 s.campaign=s.getQueryParam('cid,ecid');
 ```
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 Si la dirección URL actual es la siguiente:
 
@@ -125,7 +125,7 @@ El siguiente código establecerá s.campaign en &quot;123456&quot;:
 s.campaign=s.getQueryParam('ecid');
 ```
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 Si la dirección URL actual es la siguiente:
 
@@ -141,7 +141,7 @@ s.campaign=s.getQueryParam('ecid');
 
 **** Nota: El complemento reemplaza el carácter hash de la dirección URL de Check por un signo de interrogación si no existe un signo de interrogación.  Si la dirección URL contiene un signo de interrogación que viene antes del carácter hash, el complemento reemplazará el carácter hash de la dirección URL de Check por un símbolo de interrogación;
 
-### Ejemplo n.º 6
+### Ejemplo #6
 
 Si la dirección URL actual es la siguiente...
 

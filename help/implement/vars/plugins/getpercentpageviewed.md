@@ -63,7 +63,7 @@ Este complemento crea una cookie de origen llamada `s_ppv` que contiene los valo
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El siguiente código...
 
@@ -84,7 +84,7 @@ if(s._ppvPreviousPage)
 
 **Nota**:  Si toda una página está visible la primera vez que se carga, tanto la dimensión Mayor porcentaje visto como el Porcentaje inicial visto serían iguales a 100, y tanto las carpetas vistas como las carpetas disponibles serían iguales a 1.   Cuando una página entera NO está visible cuando se carga por primera vez pero el visitante nunca termina de desplazarse hacia abajo por la página antes de moverse a la página siguiente, las dimensiones Mayor porcentaje visto y Porcentaje inicial visto serían iguales al mismo valor.
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Supongamos que s.prop5 se ha reservado para capturar un “tipo de página” resumido en lugar del nombre completo de la página.
 

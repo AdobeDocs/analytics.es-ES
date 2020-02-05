@@ -64,7 +64,7 @@ Este complemento crea una cookie de origen llamada `"s_dur"`, que es el número 
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El siguiente código...
 
@@ -74,7 +74,7 @@ s.eVar10 = s.getVisitDuration();
 
 ...siempre configurará eVar10 igual al número de minutos transcurridos desde que el visitante aterrizó en el sitio
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 El siguiente código...
 
@@ -84,7 +84,7 @@ if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
 
 ...utiliza el complemento inList para comprobar si la variable events contiene el evento purchase.  Si es así, eVar10 se configurará igual al número de minutos entre el inicio de la visita y la hora de compra del visitante.
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 El siguiente código...
 

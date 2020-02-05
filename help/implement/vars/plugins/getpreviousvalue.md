@@ -62,7 +62,7 @@ Cuando llama a este método, devuelve el valor de cadena contenido en la cookie.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El siguiente código...
 
@@ -74,7 +74,7 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 * El código restablecerá la cookie &quot;gpv_Page&quot;, haciéndola igual al valor actual de s.pageName
 * Si s.pageName no se configura en el momento de ejecutar este código, entonces el código restablecerá la caducidad del valor actual de la cookie
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 El código siguiente establece s.prop7 como el último valor pasado a s.pageName, pero sólo si event1 también está contenido en s.events, según se determina mediante el complemento inList, en el momento en que se realiza la llamada.
 
@@ -82,7 +82,7 @@ El código siguiente establece s.prop7 como el último valor pasado a s.pageName
 if(s.inList(s.events,"event1")) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 El siguiente código establece s.prop7 como el último valor pasado a s.pageName pero solo si s.pageName está actualmente establecido en la página al mismo tiempo.
 
@@ -90,7 +90,7 @@ El siguiente código establece s.prop7 como el último valor pasado a s.pageName
 if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 El siguiente código establece s.eVar10 igual al valor pasado a s.eVar1 en la solicitud de imagen anterior.   El valor anterior de eVar1 se habría incluido en la cookie &quot;s_gpv&quot;.  El código establecerá entonces la cookie &quot;s_gpv&quot; igual al valor actual de s.eVar1.
 

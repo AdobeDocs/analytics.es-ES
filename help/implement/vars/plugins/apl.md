@@ -74,7 +74,7 @@ El `apl` método devuelve el valor del `lv` argumento más cualquier valor no du
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Si...
 
@@ -94,7 +94,7 @@ s.events = s.apl(s.events, "event23");
 s.events = "event22,event24,event23";
 ```
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Si...
 
@@ -116,7 +116,7 @@ s.events = "event22,event23";
 
 En este ejemplo, la llamada de apl no realizó cambios en s.events porque s.events ya contenía &quot;event23&quot;
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 Si...
 
@@ -136,7 +136,7 @@ s.events = s.apl(s.events, "event23");
 s.events = "event23";
 ```
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 Si...
 
@@ -164,7 +164,7 @@ s.eVar5 = "hello|people|today";
 
 Tenga en cuenta que el complemento solo devuelve un valor; no necesariamente &quot;restablece&quot; la variable pasada a través del argumento lv.
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 Si...
 
@@ -186,7 +186,7 @@ s.prop4 = "hello|people,today";
 
 Asegúrese de mantener el delimitador coherente entre lo que hay en el valor del argumento lv y lo que hay en los argumentos d1/d2
 
-### Ejemplo n.º 6
+### Ejemplo #6
 
 Si...
 
@@ -208,7 +208,7 @@ s.events = "event22,event23,EVentT23";
 
 Aunque este ejemplo no es práctico, demuestra la necesidad de tener cuidado al utilizar el indicador que distingue entre mayúsculas y minúsculas.
 
-### Ejemplo n.º 7
+### Ejemplo #7
 
 Si...
 
@@ -230,7 +230,7 @@ s.events = "event22,event23,event24,event25");
 
 El complemento no agregará &quot;event23&quot; a s.events porque ya existe en s.events.  Sin embargo, agregará event24 y event25 a s.events porque no se incluyeron en s.events anteriormente.
 
-### Ejemplo n.º 8
+### Ejemplo #8
 
 Si...
 
@@ -252,7 +252,7 @@ s.linkTrackVars = "events,eVar1,campaign";
 
 Los tres últimos argumentos (p. ej. &quot;,&quot;, &quot;,&quot;, false) al final de esta llamada de API no son necesarios pero tampoco &quot;dañan nada&quot; al configurarse, ya que coinciden con los valores de argumento predeterminados.
 
-### Ejemplo n.º 9
+### Ejemplo #9
 
 Si...
 

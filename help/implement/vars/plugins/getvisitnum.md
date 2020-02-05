@@ -70,7 +70,7 @@ Este complemento establece una cookie de origen llamada `"s_vnc[LENGTH]"` , dond
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Para un visitante que no ha estado en el sitio en los últimos 365 días, el siguiente código establecerá s.prop1 en el valor de 1:
 
@@ -78,7 +78,7 @@ Para un visitante que no ha estado en el sitio en los últimos 365 días, el sig
 s.prop1=s.getVisitNum();
 ```
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Para un visitante que regresa al sitio dentro de los 364 días posteriores a su primera visita, el siguiente código establecerá s.prop1 en 2:
 
@@ -92,7 +92,7 @@ Si este visitante regresa al sitio dentro de los 364 días posteriores a su segu
 s.prop1=s.getVisitNum(365);
 ```
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 Para un visitante que regresa al sitio dentro de los 179 días posteriores a su primera visita, el siguiente código establecerá s.prop1 en 2:
 
@@ -110,7 +110,7 @@ Cuando el segundo argumento de la llamada es igual a false, la rutina que determ
 
 Cuando el segundo argumento es igual a true (o no está establecido), el complemento restablecerá el número de visita a 1 solamente después de &quot;x&quot; número de días (nuevamente, en este ejemplo, 365 días) de inactividad del visitante.
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 Para todos los visitantes que ingresan al sitio por primera vez durante la semana actual (comenzando el domingo), el siguiente código establecerá s.prop1 en 1:
 
@@ -118,7 +118,7 @@ Para todos los visitantes que ingresan al sitio por primera vez durante la seman
 s.prop1=s.getVisitNum("w");
 ```
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 Para todos los visitantes que ingresan al sitio por primera vez durante el mes actual (comenzando el primer día de cada mes), el siguiente código establecerá s.prop1 en 1:
 
@@ -128,7 +128,7 @@ s.prop1=s.getVisitNum("m");
 
 Tenga en cuenta que el complemento getVisitNum no tiene en cuenta los calendarios basados en minoristas (por ejemplo: 4-5-4, 4-4-5, etc.)
 
-### Ejemplo n.º 6
+### Ejemplo #6
 
 Para todos los visitantes que ingresan al sitio por primera vez durante el año actual (a partir del 1 de enero), el siguiente código establecerá s.prop1 en 1:
 
@@ -136,7 +136,7 @@ Para todos los visitantes que ingresan al sitio por primera vez durante el año 
 s.prop1=s.getVisitNum("y");
 ```
 
-### Ejemplo n.º 7
+### Ejemplo #7
 
 Si desea rastrear el número de visita de un visitante para la semana, el número de visita de un visitante para el mes y el número de visita de un visitante para el año (todo dentro de distintas variables de Analytics), debe utilizar un código similar al siguiente:
 

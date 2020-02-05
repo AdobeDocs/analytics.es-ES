@@ -70,7 +70,7 @@ Al llamar a este método se devuelve una cadena modificada que contiene el `lv` 
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Si...
 
@@ -90,7 +90,7 @@ s.events = s.rfl(s.events,"event24");
 s.events = "event22,event25";
 ```
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Si...
 
@@ -112,7 +112,7 @@ s.events = "event22,event24,event25";
 
 En este ejemplo, la llamada rfl no realizó cambios en s.events porque s.events no contenía &quot;event26&quot;
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 Si...
 
@@ -134,7 +134,7 @@ s.events = "";
 
 Si el argumento lv o el argumento vr están en blanco en una llamada s.rfl, el complemento no devolverá nada
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 Si...
 
@@ -162,7 +162,7 @@ s.eVar5 = "hello|today";
 
 Tenga en cuenta que el complemento solo devuelve un valor; no &quot;restablece&quot; realmente la variable pasada a través del argumento lv.
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 Si...
 
@@ -184,7 +184,7 @@ s.prop4 = "hello|people|today";
 
 Asegúrese de establecer el argumento d1 en casos en los que el valor del argumento lv contenga un delimitador diferente del valor predeterminado (es decir, coma).
 
-### Ejemplo n.º 6
+### Ejemplo #6
 
 Si...
 
@@ -206,7 +206,7 @@ s.events = "event22,event23,event25";
 
 Aunque este ejemplo no es práctico, demuestra la necesidad de pasar valores que distinguen entre mayúsculas y minúsculas.
 
-### Ejemplo n.º 7
+### Ejemplo #7
 
 Si...
 
@@ -226,7 +226,7 @@ s.events = s.rfl(s.events,"event23");
 s.events = "event22,event25";
 ```
 
-### Ejemplo n.º 8
+### Ejemplo #8
 
 Si...
 
@@ -248,7 +248,7 @@ s.events = "event22,event23:12345,event25";
 
 Cuando necesite eliminar un evento que utilice una sintaxis de serialización o numérica/monetaria, debe especificar solo el evento en sí (es decir, sin los valores de serialización/numéricos/monetarios) en la llamada s.rfl.
 
-### Ejemplo n.º 9
+### Ejemplo #9
 
 Si...
 

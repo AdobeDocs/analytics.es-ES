@@ -64,7 +64,7 @@ Llamar a este método devuelve `true` si encuentra una coincidencia y `false` si
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Si...
 
@@ -80,7 +80,7 @@ if(s.inList(s.events,"event22"))
 
 ...la afirmación condicional if será true
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Si...
 
@@ -96,7 +96,7 @@ if(s.inList(s.events,"event2"))
 
 ...la afirmación condicional if será false porque la llamada inList no realizó una coincidencia exacta entre event2 y cualquiera de los valores delimitados de s.events
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 Si...
 
@@ -112,7 +112,7 @@ if(!s.inList(s.events,"event23"))
 
 ...la afirmación condicional if será verdadera porque la llamada inList no realizó una coincidencia exacta entre event23 y cualquiera de los valores delimitados en s.events (observe el operador &quot;NOT&quot; al principio de la llamada a la variable inList).
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 Si...
 
@@ -128,7 +128,7 @@ if(s.inList(s.events,"EVenT23","",1))
 
 ...la afirmación condicional if será false.  Aunque este ejemplo no es práctico, demuestra la necesidad de tener cuidado al utilizar el indicador que distingue entre mayúsculas y minúsculas.
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 Si...
 

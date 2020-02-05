@@ -91,7 +91,7 @@ Al llamar a este método no se devuelve nada. En su lugar, cambia los valores de
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El siguiente código...
 
@@ -101,7 +101,7 @@ s.manageVars("lowerCaseVars");
 
 ...cambia los valores de todas las variables descritas anteriormente a versiones en minúsculas.  La única excepción a esto es la variable events, ya que algunos de los eventos (por ejemplo: scAdd, scCheckout, etc.) distinguen entre mayúsculas y minúsculas y no deben reducirse
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 El siguiente código...
 
@@ -111,7 +111,7 @@ s.manageVars("lowerCaseVars", "events", false);
 
 ...básicamente produce el mismo resultado que el primer ejemplo, ya que la variable events no se reduce de forma predeterminada.
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 El siguiente código...
 
@@ -121,7 +121,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 
 ...solo cambiarán (por ejemplo, minúsculas) los valores de eVar1, eVar2, eVar3 y list2
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 El siguiente código...
 
@@ -131,7 +131,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 
 ...cambiará (por ejemplo, en minúsculas) los valores de todas las variables descritas anteriormente EXCEPTO para eVar1, eVar2, eVar3 y list2
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 El siguiente código...
 

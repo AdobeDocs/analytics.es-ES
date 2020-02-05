@@ -64,7 +64,7 @@ El método devuelve una cadena que contiene una versión de la URL con formato s
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Si la dirección URL actual fuera...
 
@@ -84,7 +84,7 @@ s.pageName = getPageName()
 s.pageName = "mail.google.com|mail|u|0";
 ```
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Si la dirección URL actual fuera...
 
@@ -104,7 +104,7 @@ s.pageName = getPageName("gmail")
 s.pageName = "gmail|mail|u|0";
 ```
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 Si la dirección URL actual fuera...
 
@@ -126,7 +126,7 @@ s.pageName = "www.google.com|home"
 
 **Nota**: Cuando el código se ejecuta en una dirección URL que no contiene una ruta, siempre agrega el valor de &quot;home&quot; al final del valor devuelto
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 Si la dirección URL actual fuera...
 
@@ -146,7 +146,7 @@ s.pageName = getPageName("google","","","|")
 s.pageName = "google|home"
 ```
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 Si la dirección URL actual fuera...
 

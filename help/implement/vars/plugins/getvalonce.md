@@ -64,7 +64,7 @@ Si el argumento `vtc` y el valor de la cookie coinciden, este método devuelve u
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Utilice esta llamada para evitar que el mismo valor se pase a s.campaign más de una vez seguidas durante los próximos 30 días:
 
@@ -74,7 +74,7 @@ s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
 
 En la llamada anterior, el complemento comparará primero el valor ya contenido en la cookie s_campaign con el valor proveniente de la variable s.campaign actual.   Si no se realiza una coincidencia, el complemento establecerá la cookie s_campaign igual al nuevo valor que se obtiene de s.campaign y, a continuación, devolverá el nuevo valor.   Esta comparación se realizará durante los próximos treinta días
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Utilice esta llamada para evitar que se establezca el mismo valor durante toda la sesión:
 

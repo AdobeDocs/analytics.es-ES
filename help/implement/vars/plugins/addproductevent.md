@@ -73,7 +73,7 @@ El complemento addProductEvent no crea ni utiliza cookies
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.&ordm; 1
+### Ejemplo #1
 
 Si...
 
@@ -100,7 +100,7 @@ s.products=";product1;3;300,;product2;2;122,;product3;1;25;event35=25"
 s.events="purchase,event35"
 ```
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Si...
 
@@ -122,7 +122,7 @@ s.products=";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25
 
 Cuando el tercer argumento es igual a true (o 1), cada entrada de producto tendrá el evento especificado en la llamada agregada a su valor
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 Si...
 
@@ -151,7 +151,7 @@ s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;produ
 s.events="purchase,event2,event33,event34,event35"
 ```
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 Si...
 
@@ -180,7 +180,7 @@ s.products=";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=la
 s.events="purchase,event2,event33,event34,event35"
 ```
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 Si s.products no está configurada y se ejecuta el siguiente código...
 

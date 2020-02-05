@@ -63,7 +63,7 @@ Este complemento utiliza una cookie denominada `"s_nr[LENGTH]"` donde `[LENGTH]`
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El siguiente código establecerá s.eVar1 en el valor de &quot;Nuevo&quot; para los nuevos visitantes y seguirá configurando s.eVar1 en el valor de &quot;Nuevo&quot; (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
 
@@ -71,7 +71,7 @@ El siguiente código establecerá s.eVar1 en el valor de &quot;Nuevo&quot; para 
 s.eVar1=s.getNewRepeat();
 ```
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Si el visitante regresa al sitio en cualquier momento desde 31 minutos hasta 30 días desde la última vez que se llamó a s.getNewRepeat(), el siguiente código establecerá s.eVar1 igual al valor de &quot;Repetir&quot; y seguirá configurando s.eVar1 igual al valor de &quot;Repetir&quot; (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
 
@@ -79,7 +79,7 @@ Si el visitante regresa al sitio en cualquier momento desde 31 minutos hasta 30 
 s.eVar1=s.getNewRepeat();
 ```
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 Si el visitante no ha estado en el sitio durante al menos 30 días desde la última vez que se llamó a s.getNewRepeat(), el siguiente código establecerá s.eVar1 en el valor de &quot;New&quot; y seguirá configurando s.eVar1 en el valor de &quot;New&quot; (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
 
@@ -87,7 +87,7 @@ Si el visitante no ha estado en el sitio durante al menos 30 días desde la últ
 s.eVar1=s.getNewRepeat();
 ```
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 Si el visitante regresa al sitio en cualquier momento, de 31 minutos a 365 días (es decir, 1 año) desde la última vez que se llamó a s.getNewRepeat(), el siguiente código establecerá s.eVar1 igual al valor de &quot;Repetir&quot; y seguirá configurando s.eVar1 igual al valor de &quot;Repetir&quot; (con cada nueva llamada) durante el resto del visitante Visita al sitio.
 
@@ -95,7 +95,7 @@ Si el visitante regresa al sitio en cualquier momento, de 31 minutos a 365 días
 s.eVar1=s.getNewRepeat(365);
 ```
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 Si el visitante no ha estado en el sitio durante al menos 365 días (es decir, un año) desde la última vez que se llamó a s.getNewRepeat(), el siguiente código establecerá s.eVar1 igual al valor de &quot;New&quot; y seguirá configurando s.eVar1 igual al valor de &quot;New&quot; (con cada nueva llamada) durante el resto de la visita del visitante al sitio.
 

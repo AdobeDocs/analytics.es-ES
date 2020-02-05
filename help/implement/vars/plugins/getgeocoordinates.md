@@ -65,7 +65,7 @@ Este complemento utiliza una cookie denominada `"s_ggc"` para almacenar las coor
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El siguiente código...
 
@@ -75,7 +75,7 @@ s.eVar1 = s.getGeoCoordinates();
 
 ...establece eVar1 en uno de los valores de retorno anteriores, según el estado del dispositivo del visitante
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 El siguiente código extrae la latitud y la longitud en sus propias variables denominadas finalLatitude y finalLongitude para su uso en otros códigos o aplicaciones
 

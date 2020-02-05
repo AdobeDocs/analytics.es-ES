@@ -75,7 +75,7 @@ El método devuelve el número de segundos formateados con la unidad especificad
 
 ## Ejemplos
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El siguiente código...
 
@@ -87,7 +87,7 @@ s.eVar1 = s.formatTime(38242);
 
 El argumento pasado - 38242 segundos - es igual a 10 horas, 37 minutos y 22 segundos.  Dado que el argumento tf no se establece en esta llamada y el número de segundos pasados es entre una hora y un día, el complemento devolverá el número de segundos convertidos al valor de referencia de trimestre más cercano.
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 El siguiente código...
 
@@ -97,7 +97,7 @@ s.eVar1 = s.formatTime(38250);
 
 ...configurará s.eVar1 igual a &quot;10,75 horas&quot;El argumento pasado - 38250 segundos - es igual a 10 horas, 37 minutos y 30 segundos.  Si redondea el número de segundos pasados al valor de referencia de trimestre-hora más cercano en este caso, el valor final se establecerá en 10,75 horas
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 El siguiente código...
 
@@ -109,7 +109,7 @@ s.eVar1 = s.formatTime(38242, "m");
 
 En este caso, el argumento &quot;m&quot; fuerza al complemento a convertir los segundos al punto de referencia de ½ minuto más cercano
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 El siguiente código...
 
@@ -121,7 +121,7 @@ s.eVar1 = s.formatTime(38242, "m", 20);
 
 El valor del argumento tf (&quot;m&quot;) fuerza al complemento a convertir los segundos en minutos, pero el valor del argumento bml (20) también fuerza al complemento a redondear la conversión de minutos al punto de referencia de 20 minutos más cercano.
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 El siguiente código...
 
@@ -131,7 +131,7 @@ s.eVar1 = s.formatTime(125, "s", 2);
 
 ...será s.eVar1 igual a &quot;126 segundos&quot;, que es el valor de referencia de 2 segundos más cercano a 125 segundos
 
-### Ejemplo n.º 6
+### Ejemplo #6
 
 El siguiente código...
 
@@ -141,7 +141,7 @@ s.eVar1 = s.formatTime(125, "m", 3);
 
 ...será s.eVar1 igual a &quot;3 minutos&quot;, que es el valor de referencia de 3 minutos más cercano a 125 segundos
 
-### Ejemplo n.º 7
+### Ejemplo #7
 
 El siguiente código...
 

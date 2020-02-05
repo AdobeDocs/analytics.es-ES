@@ -61,7 +61,7 @@ El método devuelve el valor del `str` argumento con todos los caracteres innece
 
 ## Ejemplos
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Suponga lo siguiente (donde los puntos representan espacios y las flechas representan caracteres de tabulación)
 
@@ -77,7 +77,7 @@ s.eVar1 = cleanStr(s.eVar1)
 
 ...eVar1 se configurará igual a &quot;esto es una cadena de mensajes&quot; (con todos los espacios adicionales y todos los caracteres de tabulación eliminados)
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Si...
 

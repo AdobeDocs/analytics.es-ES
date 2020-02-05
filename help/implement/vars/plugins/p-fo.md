@@ -61,7 +61,7 @@ Si el objeto aún no existe, este método devuelve `true` y crea el objeto. Si e
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El siguiente código comprobará la existencia del objeto &quot;myobject&quot; dentro de la página.  Si el objeto &quot;myobject&quot; no existe, el código creará el objeto &quot;myobject&quot; y devolverá el valor true.  Como resultado, se ejecutará el código dentro de la afirmación condicional (por ejemplo, Console.log(&#39;hello&#39;);).
 

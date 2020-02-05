@@ -63,7 +63,7 @@ Si se establece la variable en el `vtp` argumento, el complemento establece la c
 
 ## Ejemplos
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 El siguiente código configurará eVar21 igual al valor de &quot;hello&quot;.  El código establecerá entonces la cookie ev21gapv, que caducará en 28 días, igual al valor de eVar21 (es decir, &quot;hola&quot;).  El código entonces (re)configurará eVar21 igual al valor de la cookie ev21gapv.
 
@@ -72,7 +72,7 @@ s.eVar21 = "hello";
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Ejemplo n.º 2
+### Ejemplo #2
 
 Supongamos que la eVar21 no se ha establecido aún en la página actual pero se ha configurado igual a &quot;hola&quot; en una página anterior en los últimos 28 días.   El siguiente código sólo configurará eVar21 igual al valor de la cookie ev21gapv (por ejemplo: &quot;hola&quot;).  No restablece la cookie ev21gapv porque no se configuró eVar21 en la página actual antes de llamar a la función.
 
@@ -80,7 +80,7 @@ Supongamos que la eVar21 no se ha establecido aún en la página actual pero se 
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Ejemplo n.º 3
+### Ejemplo #3
 
 Supongamos que la eVar21 no se ha establecido aún en la página actual pero se ha configurado igual a &quot;hola&quot; en una página anterior en los últimos 28 días.  El siguiente código establecerá solamente prop35 igual al valor de la cookie ev21gapv (por ejemplo: &quot;hola&quot;).  No se configurará eVar21.
 
@@ -88,7 +88,7 @@ Supongamos que la eVar21 no se ha establecido aún en la página actual pero se 
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Ejemplo n.º 4
+### Ejemplo #4
 
 El siguiente código establecerá eVar21 igual al valor de &quot;howdy&quot;.  A continuación, el código establecerá (o restablecerá) la cookie ev21gapv, que caducará en 28 días, igual al valor de eVar21 (es decir, &quot;caramba&quot;).  A continuación, el código establecerá prop35 igual al valor de la cookie ev21gapv (por ejemplo: &quot;caramba&quot;).
 
@@ -97,7 +97,7 @@ s.eVar21 = "howdy";
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Ejemplo n.º 5
+### Ejemplo #5
 
 Supongamos que s.eVar21 no se ha configurado en ninguna página en los últimos 28 días.  El siguiente código establecerá s.eVar21 como cero, ya que la cookie ev21gapv habría caducado 28 días después de la última vez que se configuró.
 
@@ -105,7 +105,7 @@ Supongamos que s.eVar21 no se ha configurado en ninguna página en los últimos 
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Ejemplo n.º 6
+### Ejemplo #6
 
 El siguiente código establecerá eVar30 en igual que &quot;compra&quot;.  Luego establecerá la cookie s_gapv, que caducará al final de la sesión del explorador, igual al valor de s.eVar30 (es decir, &quot;compras&quot;).  Luego establecerá s.eVar30 igual al valor de la cookie s_gapv (es decir, la llamada getAndPersistValue devuelve el valor de la cookie s_gapv, que en este caso es &quot;compra&quot;).
 

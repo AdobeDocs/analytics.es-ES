@@ -71,7 +71,7 @@ El complemento getPageLoadTime crea dos cookies de origen:
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo #1
 
 Ejecutando el siguiente código...
 
