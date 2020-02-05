@@ -73,7 +73,7 @@ El complemento addProductEvent no crea ni utiliza cookies
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo n.&ordm; 1
 
 Si...
 
