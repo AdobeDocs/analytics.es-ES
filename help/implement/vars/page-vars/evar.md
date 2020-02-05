@@ -2,7 +2,7 @@
 title: eVar
 description: Variables personalizadas que puede utilizar en su implementación.
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 
 ---
 
@@ -54,6 +54,8 @@ s.eVar1 = "+12.49";
 
 Si se especifican más de dos decimales, el contador de eVar redondea a dos decimales. Un contador eVar no puede contener números negativos.
 
+> [!IMPORTANT] Primero debe configurar las eVars en &#39;Contador&#39; en la Consola de administración antes de utilizar las eVars de contador. See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+
 ## Ventajas exclusivas para las props o las eVars
 
 En la versión actual de Adobe Analytics, las props y las eVars son variables personalizadas con capacidades similares. Sin embargo, tienen varias diferencias importantes:
@@ -61,4 +63,4 @@ En la versión actual de Adobe Analytics, las props y las eVars son variables pe
 * Los datos de las props están disponibles en los informes en cuestión de minutos. Las eVars pueden tardar hasta 30 minutos en aparecer en los informes.
 * Las props tienen un límite de 100 bytes en los informes. Las eVars tienen un límite de 255 bytes.
 * Las props pueden convertirse en props de lista, que aceptan varios valores en la misma visita. Las variables de lista son una variable independiente y sólo hay tres variables de lista disponibles.
-* De forma predeterminada, las props no persisten más allá de la visita que están configuradas. Las eVars tienen caducidad personalizada, lo que permite determinar cuándo una eVar ya no obtiene crédito por un evento subsiguiente. Si utiliza el procesamiento [del tiempo del](../../../components/vrs/vrs-report-time-processing.md)informe, tanto las props como las eVars pueden utilizar cualquier modelo de atribución que desee.
+* De forma predeterminada, las props no persisten más allá de la visita que están configuradas. Las eVars tienen caducidad personalizada, lo que permite determinar cuándo una eVar ya no obtiene crédito por un evento subsiguiente. Sin embargo, si utiliza el procesamiento [del tiempo de los](../../../components/vrs/vrs-report-time-processing.md)informes, tanto las propiedades como las eVars pueden utilizar un modelo de atribución personalizado.
