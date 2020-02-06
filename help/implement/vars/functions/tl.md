@@ -2,7 +2,7 @@
 title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -18,11 +18,11 @@ Si `trackDownloadLinks` o `trackExternalLinks` están activados, AppMeasurement 
 Launch tiene una ubicación dedicada configurada como llamada de seguimiento de vínculos.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-4. En [!UICONTROL Acciones], haga clic en el icono &#39;+&#39;
-5. Defina la lista desplegable [!UICONTROL Extensión] en Adobe Analytics y el tipo [!UICONTROL de] acción en Enviar señalización.
-6. Click the `s.tl()` radio button.
+1. Haga clic en la propiedad que desee.
+1. Vaya a la ficha [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
+1. En [!UICONTROL Acciones], haga clic en el icono &#39;+&#39;
+1. Defina la lista desplegable [!UICONTROL Extensión] en Adobe Analytics y el tipo [!UICONTROL de] acción en Enviar señalización.
+1. Click the `s.tl()` radio button.
 
 No puede establecer ningún argumento opcional en Launch.
 
