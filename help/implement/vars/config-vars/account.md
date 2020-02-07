@@ -2,14 +2,14 @@
 title: account
 description: Utilice la variable de cuenta para determinar el grupo de informes al que se envían los datos.
 translation-type: tm+mt
-source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
+source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
 
 ---
 
 
 # account
 
-> [!IMPORTANT] Esta variable está retirada. Utilice la [`s.sa()`](../functions/sa.md) función si la implementación requiere que modifique el destino del grupo de informes.
+> [!IMPORTANT] Esta variable está retirada. Utilice la [`s.sa()`](../functions/sa-method.md) función si la implementación requiere que modifique el destino del grupo de informes.
 
 En versiones anteriores de Adobe Analytics, la `account` variable determinaba el grupo de informes al que se desea enviar los datos. Se requiere un ID de grupo de informes para enviar datos a Adobe Analytics.
 
