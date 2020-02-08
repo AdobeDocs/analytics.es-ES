@@ -3,7 +3,7 @@ title: Actualizaciones de documentación de Adobe Analytics
 description: Actualizaciones de documentación técnica de Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
+source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
 
 ---
 
@@ -13,13 +13,14 @@ source-git-commit: 1fdc279fc7e7c1de11f68a8bf2555910e227d3c1
 Actualizaciones de contenido para la documentación de Adobe Analytics establecidas desde enero de 2019.
 
 * Para obtener una lista completa de las nuevas funciones, las notas de administración y las correcciones de errores, consulte las últimas [notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
-* Para obtener más información sobre las nuevas funciones de Analysis Workspace, consulte [este tema](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md).
+* Para obtener más información sobre las nuevas funciones, consulte [Nuevas funciones en Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) en la guía del usuario de Análisis.
 * Para obtener más información sobre Adobe Analytics para audio y vídeo, consulte [Medición de audio y vídeo en Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 ## Detalles de la actualización
 
 | Fecha | Descripción |
 |---|---|
+| 7 de febrero de 2020 | Actualizaciones para la [configuración de análisis](../components/cda/cda-setup.md) cruzados de dispositivos y [preguntas más frecuentes](../components/cda/cda-faq.md) |
 | 4 de febrero de 2020 | Reescritura completa de la guía [de usuario de](../implement/home.md)Implementación. |
 | 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada que incluye información sobre el nuevo Generador [](/help/analyze/analysis-workspace/visualizations/freeform-table.md)de tablas improvisado. |
 | 13 de enero de 2020 | Se han agregado [Adobe Analytics y cookies](../technotes/cookies.md)de navegador. |
