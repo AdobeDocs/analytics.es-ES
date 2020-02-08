@@ -2,7 +2,7 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 
 ---
 
@@ -33,11 +33,11 @@ El uso del tipo de dispositivo móvil, como se ilustra más arriba, permite ver 
 
 Adobe trata las visitas con marca de hora como si se hubieran recibido en el momento de la marca de hora, no cuando Adobe recibió la visita. Las visitas con marca de hora más antiguas que un mes no se pueden vincular, ya que se consideran fuera del rango en el que Adobe mantiene los datos utilizados para la identificación.
 
-**¿En qué se diferencia CDA de la ID de visitante personalizada?**
+**¿En qué se diferencia CDA de las ID de visitante personalizadas?**
 
 [La ID](/help/implement/vars/config-vars/visitorid.md) de visitante personalizada es un método heredado para [conectar usuarios entre dispositivos](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con una ID de visitante personalizada, se utiliza la `s.visitorID` variable para establecer explícitamente la ID que se utiliza para la lógica del visitante. La `s.visitorID` variable anula los ID basados en cookies que estén presentes.
 
-Las ID de visitante personalizadas tienen una serie de efectos secundarios no deseados que CDA está diseñado para superar o minimizar. Por ejemplo, la metodología de ID de visitante personalizada no tiene capacidades de retroactividad. Si un usuario se autentica en mitad de una visita, la primera parte de la visita se asocia con un ID de visitante diferente al de la última parte de la visita. Los ID de visitante independientes producen inflación de visitas y visitantes. El periodo retrospectiva de 30 días de CDA le permite retroceder en el tiempo para reafirmar el comportamiento anterior como perteneciente a la misma persona, lo que trae un comportamiento entre dispositivos no autenticado junto con un comportamiento autenticado entre dispositivos con inflación mínima o cero.
+Las ID de visitante personalizadas tienen varios efectos secundarios no deseados que CDA supera o minimiza. Por ejemplo, la metodología de ID de visitante personalizada no tiene capacidades de retroactividad. Si un usuario se autentica en mitad de una visita, la primera parte de la visita se asocia con un ID de visitante diferente al de la última parte de la visita. Los ID de visitante independientes producen inflación de visitas y visitantes. El periodo retrospectiva de 30 días de CDA le permite retroceder en el tiempo para reafirmar el comportamiento anterior como perteneciente a la misma persona, lo que trae un comportamiento entre dispositivos no autenticado junto con un comportamiento autenticado entre dispositivos con inflación mínima o cero.
 
 **¿Puedo actualizar de ID de visitante personalizado a CDA?**
 
@@ -50,3 +50,28 @@ En algunas situaciones es posible que varias personas inicien sesión desde el m
 **¿Cómo gestiona el gráfico de dispositivos las situaciones en las que una sola persona tiene MUCHOS dispositivos/ECID?**
 
 En algunas situaciones, un usuario individual puede asociarse con un gran número de ECID. Esto puede ocurrir si el usuario utiliza muchos navegadores o aplicaciones, y puede exacerbarse si borra las cookies con frecuencia o utiliza el modo de exploración privado o indirecto del explorador. El gráfico del dispositivo limita el número de ECID que se asocia a un ID de usuario determinado a 200. Si un ID de usuario se asocia con demasiados ECID, el gráfico del dispositivo supone que el ID de usuario no es válido y elimina el clúster asociado a dicho ID de usuario. El ID de usuario queda bloqueado para no quedar recluido en el futuro. El resultado de CDA es que el comportamiento del ID de usuario no se vincula entre dispositivos.
+
+**¿Cuál es la diferencia entre la métrica &#39;Personas&#39; en CDA y la métrica &#39;Visitantes únicos&#39; fuera de CDA?**
+
+La métrica &#39;Personas&#39; es similar a la métrica &#39;Visitantes únicos&#39; en el sentido de que informa sobre el número de individuos únicos. Sin embargo, al usar Análisis entre dispositivos, los visitantes únicos se combinan cuando se registran como dos visitantes únicos independientes fuera de CDA. La métrica &#39;Personas&#39; reemplaza la métrica &#39;Visitantes únicos&#39; cuando Analytics entre dispositivos está habilitado.
+
+**¿Cuál es la diferencia entre la métrica &#39;Dispositivos únicos&#39; en CDA y la métrica &#39;Visitantes únicos&#39; fuera de CDA?**
+
+Estas dos métricas son aproximadamente equivalentes entre sí.
+
+**¿Puedo incluir métricas de CDA usando la API 2.0?**
+
+Sí. Analysis Workspace utiliza la API 2.0 para solicitar datos de los servidores de Adobe y puede ver las llamadas de API que Adobe utiliza para crear sus propios informes:
+
+1. Cuando haya iniciado sesión en Analysis Workspace, abra las herramientas de desarrollador del explorador (F12 para la mayoría de los exploradores).
+1. En la consola del explorador, escriba `adobeTools.showDebugger()`. La página se vuelve a cargar con iconos de depuración en la esquina superior derecha de cada panel.
+1. Haga clic en el icono de depuración en el panel deseado y, a continuación, seleccione la visualización y la hora deseadas de la solicitud.
+1. Busque la solicitud JSON, que puede utilizar en su llamada de API a Adobe.
+
+**Los análisis entre dispositivos pueden unir a visitantes únicos. ¿Puede unir visitas?**
+
+Sí. Si un individuo envía visitas desde dos dispositivos distintos dentro del tiempo de espera de visita del grupo de informes virtuales (30 minutos de forma predeterminada), se vinculan a la misma visita.
+
+**¿Cuál es la ID de visitante definitiva que utiliza CDA? ¿Puedo exportarlo desde Adobe Analytics?**
+
+Análisis entre dispositivos calcula los datos enlazados mediante un &quot;ID de clúster&quot;. Adobe calcula este identificador en el momento en que se ejecuta el informe, también conocido como Procesamiento de intervalo de tiempo. La naturaleza del procesamiento de tiempo de los informes significa que no es compatible con el almacén de datos, las fuentes de datos u otras funciones de exportación que ofrece Adobe.
