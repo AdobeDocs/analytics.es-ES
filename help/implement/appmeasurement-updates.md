@@ -3,7 +3,7 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
 
 ---
 
@@ -14,7 +14,13 @@ Recopilación de notas de versiones de [!DNL AppMeasurement] para JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Puede descargar la versión más reciente de AppMeasurement en el Administrador [de códigos](/help/admin/admin/code-manager-admin.md).
+Puede descargar la versión más reciente de AppMeasurement en el Administrador [de]códigos (/help/admin/admin/code-manager-admin.md).
+
+## Versión 2.18.0
+
+Fecha de versión: **20 de febrero de 2020**
+
+* AppMeasurement ahora puede obligar a las cookies a incluir la etiqueta segura configurando `writeSecureCookies` &#39;true&#39;. El requisito de esta configuración es que todo el sitio web del cliente se ofrezca de forma segura (https). (AN-204604)
 
 ## Versión 2.17.0
 
@@ -228,7 +234,7 @@ Fecha de versión: **16 de junio de 2016**
 Fecha de versión: **21 de abril de 2016**
 
 * El módulo [!DNL AppMeasurement] de Activity Map de se ha integrado en el módulo estándar de [!DNL AppMeasurement], por lo que solo deberá hacer referencia a un archivo [!DNL .js]. Además, el seguimiento de Activity Map está habilitado de forma predeterminada. (AN-112689)
-* Se ha solucionado un problema de truncamiento que sucedía al enviar la orden de variables de cadena de consulta en [!DNL AppMeasurement], por lo que *`pageURLRest`*se coloca al final. (AN-114647)
+* Se ha solucionado un problema de truncamiento que sucedía al enviar la orden de variables de cadena de consulta en [!DNL AppMeasurement], por lo que *`pageURLRest`* se coloca al final. (AN-114647)
 
 ## Versión 1.5.4
 
@@ -262,8 +268,8 @@ Fecha de versión: **17 de septiembre de 2015**
 
 Fecha de versión: **18 de junio de 2015**
 
-* Compatibilidad con la API de visitante 1.5, que utiliza el método *`getCustomerIDs`*para recopilar ID de cliente y estados autenticados, y envía los ID con solicitudes de recopilación de datos.
-* Se ha corregido la creación de iframes de destino duplicados en el módulo **[!UICONTROL AudienceManagement]**(DIL 6.1)
+* Compatibilidad con la API de visitante 1.5, que utiliza el método *`getCustomerIDs`* para recopilar ID de cliente y estados autenticados, y envía los ID con solicitudes de recopilación de datos.
+* Se ha corregido la creación de iframes de destino duplicados en el módulo **[!UICONTROL AudienceManagement]** (DIL 6.1)
 * Se ha solucionado el error conocido descrito en la versión 1.4.5.
 
 ## Versión 1.4.5
@@ -290,7 +296,7 @@ Fecha de versión: **16 de abril de 2015**
 Fecha de versión: **19 de febrero de 2015**
 
 * Se ha sistematizado todo el tratamiento de las llamadas de seguimiento demoradas con lo cual se han corregido los problemas con las variables de copia de seguridad durante la demora, por ejemplo, el objeto en el que se ha hecho clic.
-* Se ha cambiado la opción a no hacer seguimiento automático del referente tras la primera llamada de seguimiento, de modo que las llamadas segunda, tercera, etc. (por lo general seguimiento de vínculos) no contarán al referente doble si se ha configurado manualmente *`s.referrer`*se ha establecido manualmente antes de la primera llamada de seguimiento.
+* Se ha cambiado la opción a no hacer seguimiento automático del referente tras la primera llamada de seguimiento, de modo que las llamadas segunda, tercera, etc. (por lo general seguimiento de vínculos) no contarán al referente doble si se ha configurado manualmente *`s.referrer`* se ha establecido manualmente antes de la primera llamada de seguimiento. 
 * Se ha actualizado el zip de distribución para incluir la API de visitante 1.3.5.
 
 ## Versión 1.4.2
@@ -298,7 +304,7 @@ Fecha de versión: **19 de febrero de 2015**
 Fecha de versión: **15 de enero de 2015**
 
 * Se ha solucionado la administración del procesamiento previo de WebKit para impedir que se haga un seguimiento de las páginas procesadas previamente que no se muestran.
-* El zip de distribución se ha actualizado para incluir la API 1.3.4 de visitantes y un módulo **[!UICONTROL AudienceManagement]**actualizado que incluye la versión 5.5 de DIL.
+* El zip de distribución se ha actualizado para incluir la API 1.3.4 de visitantes y un módulo **[!UICONTROL AudienceManagement]** actualizado que incluye la versión 5.5 de DIL.
 
 ## Versión 1.4.1
 
@@ -328,7 +334,7 @@ Fecha de versión: **18 de septiembre de 2014**
 Fecha de versión: **21 de agosto de 2014**
 
 * Se ha eliminado el seguimiento de los plugins del explorador (parámetro de consulta `p`) porque los plugins ya no se incluyen en los informes en la versión 15.
-* Adición del módulo **[!UICONTROL AudienceManagement]**en el zip de descarga.
+* Adición del módulo **[!UICONTROL AudienceManagement]** en el zip de descarga.
 * Se ha agregado compatibilidad con eVars (76 - 250) y eventos (101-1000) adicionales.
 
 > [!NOTE] El código H no admite los eventos y eVars adicionales.
