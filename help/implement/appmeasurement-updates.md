@@ -3,7 +3,7 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
@@ -18,7 +18,7 @@ Puede descargar la versión más reciente de AppMeasurement en el Administrador 
 
 ## Versión 2.18.0
 
-Fecha de versión: **20 de febrero de 2020**
+Fecha de versión: **13 de febrero de 2020**
 
 * AppMeasurement ahora puede obligar a las cookies a incluir la etiqueta segura configurando `writeSecureCookies` &#39;true&#39;. El requisito de esta configuración es que todo el sitio web del cliente se ofrezca de forma segura (https). (AN-204604)
 
