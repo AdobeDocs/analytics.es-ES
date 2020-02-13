@@ -3,7 +3,7 @@ title: Actualizaciones de documentación de Adobe Analytics
 description: Actualizaciones de documentación técnica de Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
@@ -12,21 +12,22 @@ source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
 
 Actualizaciones de contenido para la documentación de Adobe Analytics establecidas desde enero de 2019.
 
-* Para obtener una lista completa de las nuevas funciones, las notas de administración y las correcciones de errores, consulte las últimas [notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
-* Para obtener más información sobre las nuevas funciones, consulte [Nuevas funciones en Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) en la guía del usuario de Análisis.
+* Para obtener una lista completa de las nuevas funciones, las notas de administración y las correcciones de errores, consulte las últimas [notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+* Para obtener más información sobre las nuevas funciones, consulte [Nuevas funciones en Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) en la guía del usuario Herramientas.
 * Para obtener más información sobre Adobe Analytics para audio y vídeo, consulte [Medición de audio y vídeo en Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 ## Detalles de la actualización
 
 | Fecha | Descripción |
 |---|---|
+| 12 de febrero de 2020 | Actualizaciones y reorganización de la documentación de Canales de mercadotecnia. |
 | 7 de febrero de 2020 | Actualizaciones para la [configuración de análisis](../components/cda/cda-setup.md) cruzados de dispositivos y [preguntas más frecuentes](../components/cda/cda-faq.md) |
-| 4 de febrero de 2020 | Reescritura completa de la guía [de usuario de](../implement/home.md)Implementación. |
-| 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada que incluye información sobre el nuevo Generador [](/help/analyze/analysis-workspace/visualizations/freeform-table.md)de tablas improvisado. |
+| 4 de febrero de 2020 | Reescritura completa de la guía [del usuario de](../implement/home.md)implementación. |
+| 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada que incluye información sobre el nuevo [Generador de tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 13 de enero de 2020 | Se han agregado [Adobe Analytics y cookies](../technotes/cookies.md)de navegador. |
-| 29 de noviembre de 2019 | Revisión general de la documentación de fuentes [de datos](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 25 de noviembre de 2019 | Nuevo tema sobre el [fin de vida útil para aplicar restricciones de inicio de sesión IP](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
-| 25 de noviembre de 2019 | Nuevo tema sobre el canal de mercadotecnia [interno (actualización de sesión)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
+| 29 de noviembre de 2019 | Sobrescribir a la [Documentación de datos](/help/export/analytics-data-feed/data-feed-overview.md). |
+| 25 de noviembre de 2019 | Tema nuevo sobre el [fin de vida útil para aplicar restricciones de inicio de sesión de IP](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
+| 25 de noviembre de 2019 | Tema nuevo sobre el [canal de marketing interno (actualización de sesión)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
 | 21 de noviembre de 2019 | Nuevo conjunto de documentación para [Análisis del recorrido del cliente](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
 | 28 de septiembre de 2019 | Nuevos artículos sobre [variables de configuración para la implementación de Javascript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
 | 12 de septiembre de 2019 | Nueva documentación para [Journey IQ: Análisis entre dispositivos](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
