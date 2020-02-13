@@ -3,7 +3,7 @@ title: Actualizaciones de documentación de Adobe Analytics
 description: Actualizaciones de documentación técnica de Adobe Analytics
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
 
 ---
 
@@ -20,7 +20,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Fecha | Descripción |
 |---|---|
-| 12 de febrero de 2020 | Actualizaciones y reorganización de la documentación de Canales de mercadotecnia. |
+| 12 de febrero de 2020 | Actualizaciones y reorganización de la documentación de Canales [de](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) mercadotecnia. |
 | 7 de febrero de 2020 | Actualizaciones para la [configuración de análisis](../components/cda/cda-setup.md) cruzados de dispositivos y [preguntas más frecuentes](../components/cda/cda-faq.md) |
 | 4 de febrero de 2020 | Reescritura completa de la guía [del usuario de](../implement/home.md)implementación. |
 | 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada que incluye información sobre el nuevo [Generador de tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
