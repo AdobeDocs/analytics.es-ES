@@ -2,7 +2,7 @@
 title: Análisis entre dispositivos
 description: El análisis entre dispositivos cambia los datos de estar centrados en el dispositivo a estar centrados en la persona, al unir los datos del dispositivo.
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
 
 ---
 
@@ -55,7 +55,8 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * El Servicio de atención al cliente aún no admite esta función. El foro [Análisis entre dispositivos](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) se puede utilizar para ofrecer compatibilidad con esta función, que incluye la participación activa y directa de los responsables de productos de Adobe.
 * Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Consulte [Grupos de informes virtuales](../vrs/vrs-about.md) y [Procesamiento de tiempo de los informes](../vrs/vrs-report-time-processing.md) para saber más sobre estas limitaciones.
 * No se admite la API 1.4. Los conectores de Power BI y el Creador de informes dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
-* Los nuevos dispositivos que visiten el sitio pueden tardar hasta dos semanas en ser procesados por Co-op Graph. El nivel de vinculación en CDA para las dos últimas semanas es generalmente inferior al de los intervalos de fechas de más de dos semanas. Adobe planea mejorar el servicio de identidad de Adobe Experience Platform para conectar nuevos dispositivos en tiempo real en el futuro.
+* Si su organización utiliza Private Graph, los nuevos dispositivos tardan hasta 24 horas en vincularse.
+* Los nuevos dispositivos que visiten el sitio pueden tardar hasta dos semanas en ser procesados por Co-op Graph. El nivel de vinculación en CDA para las dos últimas semanas es generalmente inferior al de los intervalos de fechas de más de dos semanas. Adobe planea mejorar el gráfico de cooperación para un gráfico diario actualizado en el futuro.
 * Los datos históricos del grupo de informes virtuales cambian según el reconocimiento y la vinculación de dispositivos de Adobe. Los datos del grupo de informes de origen no cambian.
 
 Una vez que su organización haya cumplido todos los requisitos y haya comprendido las limitaciones, puede empezar a [configurar análisis](cda-setup.md) cruzados de dispositivos.
