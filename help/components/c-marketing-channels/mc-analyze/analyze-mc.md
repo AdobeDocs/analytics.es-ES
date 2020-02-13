@@ -2,7 +2,7 @@
 title: Analizar canales de mercadotecnia
 description: Obtenga información sobre cómo utilizar las dimensiones de los canales de mercadotecnia en Workspace.
 translation-type: tm+mt
-source-git-commit: 53a4f2cf78077a81d888401777323f5543cfc71c
+source-git-commit: 49e349b2caefdad09ff31550649b5dc35656b9bb
 
 ---
 
@@ -18,7 +18,7 @@ Probablemente quiera saber cuál de los canales de mercadotecnia es el más efec
 | Canal de marketing | Ésta es la dimensión Canales de mercadotecnia que recomendamos utilizar. Los modelos de IQ de atribución se pueden aplicar en tiempo de ejecución. La dimensión Canales de mercadotecnia genéricos se comporta de forma idéntica a las dimensiones del Canal de último toque, pero tiene una etiqueta diferente para evitar confusiones al utilizarla con un modelo de atribución diferente. |
 | Canal de último toque | Dimensión heredada, con modelo de atribución preaplicado e inmodificable. |
 | Canal de primer toque | Dimensión heredada, con modelo de atribución preaplicado e inmodificable. |
-| [Instancias de canal de mercadotecniaEsta métrica...] |
+| Instancias de canal de marketing | Esta métrica... |
 | Nuevos compromisos | Se trata de una métrica heredada que se incrementa únicamente cuando se le ha aplicado una asignación de &quot;primer toque&quot; a un canal. |
 
 ## Análisis básico
@@ -57,4 +57,4 @@ Con el canal de primer toque heredado y el canal de último toque, puede obtener
 
 ![](assets/mc-viz6.png)
 
-Obtenga más información en [este vídeo](https://www.youtube.com/watch?v=M3EOdONa-3E).
+Obtenga más información sobre el análisis de marketing entre fichas en [este vídeo](https://www.youtube.com/watch?v=M3EOdONa-3E).
