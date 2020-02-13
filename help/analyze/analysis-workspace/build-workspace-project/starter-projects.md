@@ -2,8 +2,8 @@
 description: 'null'
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
 
 ---
 
@@ -14,21 +14,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Puede elegir crear un proyecto a partir de:
 
-* Un proyecto en blanco (opción predeterminada). Para obtener instrucciones, consulte [Creación de un proyecto de Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
-* Una plantilla estándar. Adobe se encarga de crear estas plantillas, que están listas para usarse.
-* Una plantilla personalizada. Estas plantillas las pueden crear usuarios con derechos de administrador o usuarios que no sean administradores, siempre que se les haya concedido el permiso "Guardar como plantilla". (Consulte [Gestionar permisos de productos](https://helpx.adobe.com/es/enterprise/using/manage-permissions-and-roles.html) en Admin Console para obtener más información).
+* **Proyecto en blanco (predeterminado)**: Para obtener instrucciones, consulte [Creación de un proyecto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)de Analysis Workspace.
+* **Plantilla** estándar: Estas plantillas son creadas por Adobe y se envían con el producto.
+* **Plantilla** personalizada: Estas plantillas pueden ser creadas, compartidas o eliminadas por usuarios con derechos de administrador o por usuarios que no sean administradores, siempre que se les haya otorgado el permiso [!UICONTROL Analysis Workspace: Save as Template] en la Consola de administración. [Más información...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
-
-* [Creación de una plantilla personalizada](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
-* [Plantillas estándar](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
 ## Creación de una plantilla personalizada {#create-custom-template}
 
 Los usuarios que tengan derechos de administrador pueden convertir cualquier proyecto que creen en una plantilla personalizada. A continuación se muestra cómo:
 
 1. Abra el proyecto.
-1. Vaya a **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Guardar como plantilla]**.
+1. Vaya a **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
@@ -36,50 +33,20 @@ Los usuarios que tengan derechos de administrador pueden convertir cualquier pro
 
    >[!NOTE]
    >
-   >De forma predeterminada, las plantillas de proyecto son visibles para todos los miembros de su organización. Puede ordenarlas mediante etiquetas. (Vaya a **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Información y configuración del proyecto]** para editar las etiquetas y las descripciones).
+   >De forma predeterminada, las plantillas de proyecto son visibles para todos los miembros de su organización. Puede ordenarlas mediante etiquetas. (Vaya a **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** para editar etiquetas y descripciones).
 
 ### Acciones que se pueden llevar a cabo en las plantillas personalizadas
 
 ![](assets/custom_templates.png)
 
-<table id="table_D7C7B0CA1EE64E108484C03426800EBC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Acción </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Editar plantilla </p> </td> 
-   <td colname="col2"> <p>Permite que el administrador edite la plantilla cambiando la fuente de datos, los componentes, las visualizaciones, los intervalos de fechas, etc. </p> <p>Para editar una plantilla personalizada, puede: </p> 
-    <ul id="ul_2B3A371F83334E14806385753A360903"> 
-     <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">Buscar la lista de plantillas personalizadas en Analysis Workspace, seleccionar una y hacer clic en <span class="uicontrol">Editar plantilla</span>. </li> 
-     <li id="li_4934DAAA46204990A295E22A97F81EDA">En Analytics, ir a <span class="ignoretag"><span class="uicontrol">Componentes</span> &gt; <span class="uicontrol">Proyectos</span></span> y filtrar por <span class="uicontrol">Plantillas</span>. Acto seguido, puede hacer clic en el nombre de la plantilla que quiera editar. </li> 
-    </ul> <p> </p> <p>Nota: Tras editar una plantilla, y según la situación, tiene dos opciones: <span class="uicontrol">Guardar</span> o <span class="uicontrol">Guardar como</span>. A continuación se indican las diferencias entre ambas opciones. 
-     <ul id="ul_87E2842C8AA442399585B1C6189F5E16"> 
-      <li id="li_AB7B189729E14E40A0141ECE2A24C113"><b>Guardar</b>: actualiza la plantilla personalizada para todos los usuarios. Cuando otra persona cree un proyecto a partir de esta plantilla personalizada, verá los cambios que ha hecho usted. </li> 
-      <li id="li_C85B0B9873A3404D8B443BBD30B37CEB"><b>Guardar como</b>: crea una copia de la plantilla personalizada con sus cambios. </li> 
-     </ul> </p> <p>(Sabrá que está en el modo de edición cuando el elemento de menú <span class="uicontrol">Compartir</span> &gt; <span class="uicontrol">Compartir proyecto</span> esté desactivado). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Buscar en plantillas </p> </td> 
-   <td colname="col2"> <p>En el cuadro de diálogo Plantillas personalizadas, haga clic en <span class="uicontrol">Buscar plantillas</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ordenar plantillas </p> </td> 
-   <td colname="col2"> <p>Puede ordenar las plantillas alfabéticamente, por su relevancia o por la fecha de creación. </p> <p>En el cuadro de diálogo Plantillas personalizadas, haga clic en <span class="uicontrol">Ordenar:</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Aplicar etiquetas a una plantilla </p> </td> 
-   <td colname="col2"> <p>Abra la plantilla y vaya a <span class="ignoretag"><span class="uicontrol">Proyecto</span> &gt; <span class="uicontrol">Información y configuración del proyecto</span></span>. Haga clic en <span class="uicontrol">Añadir etiquetas</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Modificar la descripción de la plantilla </p> </td> 
-   <td colname="col2"> <p>Abra la plantilla y vaya a <span class="ignoretag"><span class="uicontrol">Proyecto</span> &gt; <span class="uicontrol">Información y configuración del proyecto</span></span>. Haga doble clic en la descripción y edítela. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Acción | Descripción |
+|--- |--- |
+| Editar plantilla | Permite que el administrador edite la plantilla cambiando la fuente de datos, los componentes, las visualizaciones, los intervalos de fechas, etc.  Para editar una plantilla personalizada, puede:<ul><li>Buscar la lista de plantillas personalizadas en Analysis Workspace, seleccionar una y hacer clic en Editar plantilla.</li><li>En Analytics, ir a Componentes > Proyectos y filtrar por Plantillas. Acto seguido, puede hacer clic en el nombre de la plantilla que quiera editar.</li></ul>**Nota:** Tras editar una plantilla, y según la situación, tiene dos opciones: Guardar o Guardar como. A continuación se indican las diferencias entre ambas opciones.<ul><li>**** Guardar: Actualiza la plantilla personalizada para todos los usuarios. Cuando otra persona cree un proyecto a partir de esta plantilla personalizada, verá los cambios que ha hecho usted.</li><li>**** Guardar como: Crea una copia de la plantilla personalizada con los cambios. (Sabrá que está en el modo de edición cuando el elemento de menú Compartir > Compartir proyecto esté desactivado).</li></ul> |
+| Buscar en plantillas | En el cuadro de diálogo Plantillas personalizadas, haga clic en Buscar plantillas. |
+| Ordenar plantillas | Puede ordenar las plantillas alfabéticamente, por su relevancia o por la fecha de creación.  En el cuadro de diálogo Plantillas personalizadas, haga clic en Ordenar:. |
+| Aplicar etiquetas a una plantilla | Abra la plantilla y vaya a Proyecto > Información y configuración del proyecto. Haga clic en Añadir etiquetas. |
+| Modificar la descripción de la plantilla | Abra la plantilla y vaya a Proyecto > Información y configuración del proyecto. Haga doble clic en la descripción y edítela. |
+
 
 ## Plantillas estándar {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
@@ -87,7 +54,7 @@ Al abrir un Workspace por primera vez, las plantillas aparecen en el panel izqui
 
 Puede utilizar estas plantillas rellenadas previamente tal cual, o puede adaptarlas a sus necesidades (mediante la adición o sustitución de métricas o visualizaciones, por ejemplo) y guardarlas con un nuevo nombre.
 
-[Plantillas estándar en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
+[Plantillas estándar en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
 Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a responder:
 
@@ -101,7 +68,7 @@ Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a 
 
 ### Comercio
 
-* **Magento: Marketing and Commerce**: Esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo introductorio, consulte &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: Marketing and Commerce**: Esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo introductorio, consulte >[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### Medios
 
@@ -137,7 +104,7 @@ Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a 
 
 ### Personas
 
-> [!NOTE] La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/mcdc-people.html).
+> [!NOTE] La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
 
 La plantilla está basada en la métrica Personas, que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. Esta plantilla le permite hacer lo siguiente:
 
@@ -149,3 +116,21 @@ La plantilla está basada en la métrica Personas, que es una versión deduplica
 * Aprender a utilizar la función para apilas segmentos con la métrica Personas.
 * Descubra cómo mejorar la eficacia de la métrica Personas con el uso del Experience Cloud ID en su entorno.
 
+### IQ de viaje: Plantilla de análisis entre dispositivos
+
+<!-->This content is mirrored in the CDA doc.<-->
+
+Esta plantilla le permite ver datos de rendimiento vitales entre dispositivos. Solo está disponible para clientes que tienen acceso a [Análisis](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) entre dispositivos (CDA).
+
+* **Nota especial para los miembros del Gráfico** de Cooperación: Muestra qué parte del grupo de informes contiene visitantes en regiones donde se admite el gráfico de cooperación y en regiones donde no se admite.
+* **Identificación de los usuarios**: Muestra la frecuencia con la que se identifican los visitantes del sitio mediante métodos basados en análisis entre dispositivos.
+* **Medición del tamaño** de la audiencia: Muestra una comparación de &#39;Dispositivos únicos&#39; comparados con &#39;Personas&#39;. La proporción de estos dos números se conoce como &#39;compresión entre dispositivos&#39;, una métrica calculada visible en este panel. Esta métrica de compresión depende de una amplia gama de factores:
+   * **Uso del gráfico** de cooperación o del gráfico privado: En términos generales, las organizaciones que utilizan la cooperación entre dispositivos tienden a ver mejores tasas de compresión que las organizaciones que utilizan el gráfico privado.
+   * **Tasa** de inicio de sesión: Cuantos más usuarios inicien sesión en el sitio, más podrá Adobe identificar y unir a los visitantes entre dispositivos. Los sitios con una tasa de inicio de sesión baja también tienen tasas de compresión bajas.
+   * **Cobertura** del ID de Experience Cloud: Solo se pueden vincular los visitantes con un ECID. Un porcentaje menor de visitantes que utilizan un ECID se correlaciona con tasas de compresión más bajas.
+   * **Uso** de varios dispositivos: Si los visitantes del sitio no utilizan varios dispositivos, puede ver tasas de compresión más bajas.
+   * **Granularidad** de informes: La compresión por día suele ser menor que la compresión por mes o año. Las posibilidades de que un individuo utilice varios dispositivos se reducen en un solo día en comparación con todo un mes. Segmentar, filtrar o utilizar dimensiones de desglose también puede mostrar una tasa de compresión más baja.
+* **Segmentos** basados en personas: Contiene una lista desplegable de segmentos que le permite ver datos específicos del dispositivo. Este panel alienta la experimentación con segmentos para ver cómo la inclusión o exclusión de tipos de dispositivos afecta a los informes.
+* **Análisis del viaje** entre dispositivos: Proporciona informes de flujo y visitas en el orden previsto en función del tipo de dispositivo.
+* **Atribución** entre dispositivos: Combine las características de Journey IQ y Atribución IQ juntos.
+* **Otros consejos y trucos**: Temas útiles en torno a CDA que le permite aprovechar al máximo su uso.
