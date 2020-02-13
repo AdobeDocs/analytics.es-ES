@@ -5,7 +5,7 @@ title: Novedades en Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
+source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ---
 
@@ -22,6 +22,7 @@ Nuevas funciones lanzadas el 20 de febrero de 2020.
 | Nueva plantilla de espacio de trabajo para organizaciones que utilizan Análisis entre dispositivos | Esta plantilla muestra la eficacia del CDA para unir visitas y le enseña las métricas y dimensiones exclusivas del CDA. Se requiere un grupo de informes que utilice CDA. Consulte [Configuración de análisis](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) entre dispositivos para obtener más información. |
 | Nuevas teclas de acceso directo en Workspace | <ul><li>Contraer/Expandir todos los paneles: `alt + m`</li><li>Panel Contraer/Expandir activo: `alt + ctrl + m`</li><li>Buscar carril izquierdo: `ctrl + /`</li><li>Mover al panel siguiente: `alt + Right Key`</li><li>Mover al panel anterior: `alt + Left Key`</li></ul>[Más información...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Otras mejoras de Workspace | <ul><li>Cuando se coloca un panel o una visualización en Workspace, el carril izquierdo cambiará automáticamente a componentes para lograr un flujo de trabajo más fluido.</li><li>Los componentes de plantilla ahora se pueden activar (por ejemplo, etiquetados, favoritos, aprobados).</li><li>Las listas filtradas de métricas y segmentos ofrecen el botón + para agregar un nuevo componente si no encuentra lo que necesita.</li></ul> |
+| Depurador de área de trabajo | El depurador de Workspace se ha agregado al menú Ayuda, lo que le permite habilitarlo para depurar solicitudes de Workspace. [Más información...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## Enero de 2020
 
