@@ -2,7 +2,7 @@
 title: Términos utilizados en Adobe Analytics
 description: Glosario para Adobe Analytics, que define los términos comunes utilizados.
 translation-type: tm+mt
-source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
+source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 
 ---
 
@@ -27,8 +27,8 @@ Utilice este glosario para comprender el contexto de muchos términos que utiliz
    * Una clasificación predeterminada de la dimensión Código de seguimiento; creado automáticamente para todos los grupos de informes.
    * Adobe Campaign, parte de Adobe Experience Cloud. Más información en [Adobe.com](https://www.adobe.com/marketing/campaign.html).
 * **** Canal: Puede hacer referencia a:
-   * La variable Canal, que rellena la dimensión Secciones del sitio. Consulte [channel](../implement/vars/page-vars/channel.md) en la Guía del usuario de implementación.
-   * Canales de mercadotecnia, un componente que ayuda a comprender cómo llegan los usuarios al sitio. Consulte Canales [de mercadotecnia](/help/components/c-marketing-channels/mc-analyze/analyze-mc.md) en la guía del usuario Componentes.
+   * La variable Canal, que rellena la dimensión Secciones del sitio. Consulte Variables [de página](/help/implement/vars/page-vars/page-variables.md) en la guía de usuario Implementación.
+   * Canales de mercadotecnia, un componente que ayuda a comprender cómo llegan los usuarios al sitio. Consulte Canales [de mercadotecnia](/help/components/c-marketing-channels/c-getting-started-mchannel.md) en la guía del usuario Componentes.
 * **** Clasificación: Función de Adobe Analytics que permite agrupar valores de dimensión. Consulte [Clasificaciones](/help/components/c-classifications2/c-classifications.md) en la guía del usuario Componentes.
 * **** Clickmap: Ya no se utiliza. Complemento de explorador heredado que muestra en qué áreas del sitio se hizo clic con mayor frecuencia. Esta herramienta se retiró a favor de Activity Map.
 * **** Fuente de datos del flujo de navegación: Consulte Fuente de datos.
@@ -68,7 +68,7 @@ Utilice este glosario para comprender el contexto de muchos términos que utiliz
 * **** Prop de lista: Una configuración que convierte una variable de tráfico típica para admitir varios valores en la misma visita. Cualquier variable de tráfico personalizada puede convertirse en una prop de lista si la configuración está habilitada. Consulte [prop](../implement/vars/page-vars/prop.md) en la Guía del usuario de implementación.
 * **** List var: Una variable distinta independiente de las variables de conversión. Las variables de lista admiten varios valores en la misma visita y los valores de variable se conservan en una visita, de forma similar a las variables de conversión. Solo hay tres variables de lista disponibles para una organización. Consulte la [lista](../implement/vars/page-vars/list.md) en la guía de usuario Implementación.
 * **** Empresa de inicio de sesión: Colección de grupos de informes que utiliza su organización. Algunas organizaciones tienen varias empresas de inicio de sesión que se aplican a diferentes partes de su organización.
-* **** Canal de mercadotecnia: Característica de Adobe Analytics que categoriza las visitas según la forma en que llegaron al sitio. La lógica utilizada para categorizar las visitas se puede personalizar mediante reglas de procesamiento del canal de mercadotecnia. Consulte [Introducción a los canales](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) de mercadotecnia en la guía del usuario Componentes.
+* **** Canal de mercadotecnia: Característica de Adobe Analytics que categoriza las visitas según la forma en que llegaron al sitio. La lógica utilizada para categorizar las visitas se puede personalizar mediante reglas de procesamiento del canal de mercadotecnia. Consulte [Introducción a los canales](/help/components/c-marketing-channels/c-getting-started-mchannel.md) de mercadotecnia en la guía del usuario Componentes.
 * **** Métrica: Tipo de componente que contiene datos cuantitativos. Los valores de las métricas generalmente contienen números, como Vistas de página, Visitas e Ingresos. Una dimensión suele ser su contraparte.
 * **** Etiquetado de grupos múltiples: La práctica de enviar la misma visita a varios grupos de informes. Con la introducción a los grupos de informes virtuales, esta práctica ya no es necesaria. La mayoría de los esfuerzos de etiquetado de grupos múltiples ayudan a alojar un grupo de informes global.
 * **** Normalización: Una forma de organizar una visualización que toma todas las métricas y las fuerza a proporciones iguales, permitiendo una comparación más sencilla de las tendencias.
