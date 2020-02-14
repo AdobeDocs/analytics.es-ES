@@ -2,7 +2,7 @@
 title: Informes de adquisición en Adobe Analytics
 description: Obtenga información sobre cómo crear informes basados en adquisiciones mediante Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 0d9d94608deac089bed97f7570b468e098d1b46e
+source-git-commit: 2e3896501a036e20f9f392c325e0c8ff1d586fba
 
 ---
 
@@ -15,7 +15,7 @@ En Adobe Analytics, estos informes se conocen como Canales **de mercadotecnia**.
 
 > [!IMPORTANT]
 >
-> Configure las reglas de procesamiento del canal de mercadotecnia para utilizar estos informes. Consulte [Introducción a los canales](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) de mercadotecnia para obtener información sobre cómo configurar mejor los canales de mercadotecnia en su organización.
+> Configure las reglas de procesamiento del canal de mercadotecnia para utilizar estos informes. Consulte [Introducción a los canales](/help/components/c-marketing-channels/c-getting-started-mchannel.md) de mercadotecnia para obtener información sobre cómo configurar mejor los canales de mercadotecnia en su organización.
 
 Esta página supone que el usuario tiene conocimientos básicos sobre el uso de Analysis Workspace. Consulte [Creación de un informe básico en Analysis Workspace para usuarios](create-report.md) de Google Analytics si todavía no está familiarizado con la herramienta en Adobe Analytics.
 
