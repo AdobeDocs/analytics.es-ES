@@ -2,8 +2,8 @@
 description: 'null'
 title: Envío de solicitudes de acceso y eliminación
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+translation-type: tm+mt
+source-git-commit: 604f9b896b843f68b23949fe77502a6d22a06509
 
 ---
 
@@ -17,11 +17,11 @@ Si sus clientes (consumidores o interesados) desean saber qué datos almacena so
 
 También debería garantizar que sus aplicaciones móviles y sitios web tengan avisos emergentes relevantes y materiales de apoyo sobre los derechos de los interesados en lo relativo a sus datos directa o indirectamente identificables y a otros datos que recopile.
 
-## Gestión del consentimiento de los clientes {#section_3012015E7E8942519FB9279CF7057EAB}
+## Gestión del consentimiento de los clientes  {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Usted, como responsable del tratamiento de datos, es el responsable de obtener un consentimiento explícito por parte de sus interesados antes de recopilar datos sobre los mismos (que posiblemente incluyan datos de Adobe Analytics) y de [implementar un mecanismo de desistimiento](https://marketing.adobe.com/resources/help/es_ES/dtm/opt-in.html) en su sitio web. Esto permite que sus interesados queden excluidos de la recopilación de datos futura de Adobe Experience Cloud.
+Usted, como responsable del tratamiento de datos, es el responsable de obtener un consentimiento explícito por parte de sus interesados antes de recopilar datos sobre los mismos (que posiblemente incluyan datos de Adobe Analytics) y de [implementar un mecanismo de desistimiento](https://marketing.adobe.com/resources/help/en_US/dtm/opt-in.html) en su sitio web. Esto permite que sus interesados queden excluidos de la recopilación de datos futura de Adobe Experience Cloud.
 
-## Validación de usuarios y sus datos {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## Validación de usuarios y sus datos  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 Usted, como responsable del tratamiento de datos, se encarga de verificar que el interesado sea quien dice ser y que tenga derechos sobre los datos que solicita. Además, es su responsabilidad garantizar que se devuelvan los datos correctos al interesado y que no reciba por accidente datos de otros interesados.
 
@@ -29,13 +29,13 @@ Para ello, debe revisar los datos que devuelva Adobe Analytics como parte de una
 
 Cada archivo combina los datos de todos sus grupos de informes y se eliminan automáticamente las copias adicionales de las visitas replicadas. Puede decidir cuál de estos archivos quiere devolver al interesado. O puede extraer algunos de estos datos y combinarlos con datos de otros sistemas antes de devolvérselos al interesado.
 
-## Envío de solicitudes {#submit-requests}
+## Envío de solicitudes  {#submit-requests}
 
 Puede enviar y eliminar solicitudes de acceso a la privacidad de datos a través de nuestro [portal de interfaz de usuario de privacidad de datos](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) o a través de nuestra [API de privacidad de datos.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 > [!NOTE] La API de privacidad de datos admite los envíos en lotes para varios usuarios en una única solicitud. El limite admitido actual es de 1000 usuarios independientes (pueden tener múltiples ID por usuario) en un único archivo JSON de solicitud.
 
-## Ejemplos de solicitudes de JSON {#sample-json-request}
+## Ejemplos de solicitudes de JSON  {#sample-json-request}
 
 A continuación tiene un JSON que podría enviarse mediante la API o la interfaz de privacidad de datos con el fin de solicitar el procesamiento de privacidad de datos para tres usuarios.
 
@@ -82,13 +82,13 @@ A continuación tiene un JSON que podría enviarse mediante la API o la interfaz
                     "namespace": "CRM-ID", 
                     "type": "analytics", 
                     "description": "namespace defined on eVar17 in some report suites", 
-                    "value": "ACME-12345678", 
+                    "value": "ACME-12345678"
                 }, 
                 { 
                     "namespace": "email address", 
                     "type": "analytics", 
                     "description": "namespace defined on eVar23 in some report suites", 
-                    "value": "john@mail.com", 
+                    "value": "john@mail.com" 
                 } 
             ] 
         } 
@@ -110,7 +110,7 @@ Tenga en cuenta que
 * Los campos “descripción” se ignoran.
 * Los campos “clave” pueden contener cualquier valor que desee. Si tiene un ID interno que utiliza para realizar el seguimiento de las solicitudes de privacidad de datos, puede introducir ese valor aquí para facilitar las solicitudes de coincidencia en el sistema de Adobe con los de sus propios sistemas.
 
-## Detalles de respuesta {#section_93F554F65DBB48A18B75EB5784056C96}
+## Detalles de respuesta  {#section_93F554F65DBB48A18B75EB5784056C96}
 
 Esta sección incluye detalles acerca de las respuestas de acceso y eliminación.
 
