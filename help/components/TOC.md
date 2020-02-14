@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: a4ef07d2cdc45c1d79d99f3a09c479686784891e
+source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
 
 ---
 
@@ -327,25 +327,11 @@ source-git-commit: a4ef07d2cdc45c1d79d99f3a09c479686784891e
    + [Configurar informes en tiempo real](c-real-time-reporting/t-realtime-admin.md)
    + [Métricas y dimensiones en tiempo real compatibles](c-real-time-reporting/realtime-metrics.md)
 + Canales de marketing {#marketing-channels}
-   + Get Started with Marketing Channels {#mc-get-started}
-      + [Introducción](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
-      + [Configuración automática](c-marketing-channels/getting-started/c-channel-autosetup.md)
-      + [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](c-marketing-channels/getting-started/t-template.md)
-   + Administrador de canales de mercadotecnia {#mc-manager}
-      + [Administrar Canales de marketing](c-marketing-channels/mark-channel-mgr/c-channels.md)
-      + [Acerca de los canales y las reglas](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
-   + Marketing Channels processing rules {#mc-proc-rules}
-      + [Reglas de procesamiento de canales de marketing](c-marketing-channels/mc-proc-rules/c-rules.md)
-      + [Creación de reglas de procesamiento para los canales de mercadotecnia](c-marketing-channels/mc-proc-rules/t-rules.md)
-      + [Criterios de regla de canal de mercadotecnia](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
-      + [Canal interno (Actualización de sesión)](c-marketing-channels/mc-proc-rules/session-refresh.md)
-   + Clasificaciones de canales de mercadotecnia {#mc-classifications}
-      + [Clasificaciones en los canales de marketing](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
-   + Caducidad de canales de mercadotecnia {#mc-expire}
-      + [Caducidad de la participación del visitante](c-marketing-channels/mc-expiration/visitor-engagement.md)
-   + Analizar canales de mercadotecnia {#mc-analyze}
-      + [Analizar canales de mercadotecnia](c-marketing-channels/mc-analyze/analyze-mc.md)
-   + Acceso a los canales de mercadotecnia {#mc-access}
-      + [Permisos de canales de mercadotecnia](c-marketing-channels/mc-access/c-channel-report-access.md)
-   + Preguntas más frecuentes sobre el canal de mercadotecnia {#mc-faq}
-      + [Preguntas más frecuentes y ejemplos de canales de mercadotecnia](c-marketing-channels/mc-faq/c-faq.md)
+   + [Introducción a los canales de mercadotecnia](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Administrar Canales de marketing](c-marketing-channels/c-channels.md)
+   + [Reglas de procesamiento de canales de marketing](c-marketing-channels/c-rules.md)
+   + [Clasificaciones en los canales de marketing](c-marketing-channels/classifictions-mchannel.md)
+   + [Caducidad de la participación del visitante](c-marketing-channels/visitor-engagement.md)
+   + [Analizar canales de mercadotecnia](c-marketing-channels/analyze-mc.md)
+   + [Permisos de canales de mercadotecnia](c-marketing-channels/c-channel-report-access.md)
+   + [Preguntas más frecuentes y ejemplos de canales de mercadotecnia](c-marketing-channels/c-faq.md)
