@@ -3,7 +3,7 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
 
 ---
 
@@ -14,13 +14,13 @@ Recopilación de notas de versiones de [!DNL AppMeasurement] para JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Puede descargar la versión más reciente de AppMeasurement en el Administrador [de]códigos (/help/admin/admin/code-manager-admin.md).
+Puede descargar la versión más reciente de AppMeasurement en el Administrador [de códigos](/help/admin/admin/code-manager-admin.md).
 
 ## Versión 2.18.0
 
 Fecha de versión: **13 de febrero de 2020**
 
-* AppMeasurement ahora puede obligar a las cookies a incluir la etiqueta segura configurando `writeSecureCookies` &#39;true&#39;. El requisito de esta configuración es que todo el sitio web del cliente se ofrezca de forma segura (https). (AN-204604)
+* AppMeasurement ahora puede obligar a las cookies a incluir el atributo Secure configurando la [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variable. El requisito de esta variable es que todo el sitio web del cliente se ofrezca de forma segura (HTTPS). (AN-204604)
 
 ## Versión 2.17.0
 
