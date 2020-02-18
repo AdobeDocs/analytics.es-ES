@@ -1,16 +1,14 @@
 ---
 title: Guía del usuario de Labs
 description: Vista previa de proyectos prototipo para Adobe Analytics
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
 
 ---
 
 
 
 # Guía del usuario de Labs
-
->[!NOTE] Ahora mismo, Labs se trata de un acceso anticipado para un número limitado de clientes, pero más adelante será accesible de manera más amplia.
 
 Labs permite crear prototipos en las primeras etapas del diseño de manera más rápida. Es una combinación de herramientas y procesos que aceleran el desarrollo de manera transparente, siempre pensando en el cliente. Permite que los usuarios se involucren con tecnologías emergentes, descubran perspectivas valiosas e influyan en el desarrollo de funciones y prioridades futuras. Puede usar Labs para obtener acceso anticipado a las innovaciones de Analytics y para evaluar las próximas funciones en el contexto de sus propios casos de uso y datos empresariales.
 
