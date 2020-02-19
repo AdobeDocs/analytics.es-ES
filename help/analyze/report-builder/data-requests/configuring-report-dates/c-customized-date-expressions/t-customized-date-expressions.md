@@ -4,7 +4,7 @@ title: Resumen de expresiones de fechas personalizadas
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
+source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 ---
 
@@ -34,5 +34,5 @@ Se recomienda que al crear expresiones haga referencia a un calendario con el fi
 
    Por ejemplo, si cambia las fechas anteriores a móvil mensualmente desde el primer día hace tres meses hasta el primer día de este mes, las fechas de la parte de opciones avanzadas se actualizarán para reflejar lo siguiente:
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldates3.png)
 
