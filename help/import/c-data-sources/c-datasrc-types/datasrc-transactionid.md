@@ -1,52 +1,23 @@
 ---
-description: Los ID de transacción se pueden integrar seleccionando la categoría Genéricas (ID de transacción).
-subtopic: Data sources
-title: ID de transacción
-topic: Developer and implementation
-uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
+title: Fuentes de datos de ID de transacción
+description: Obtenga información sobre el flujo de trabajo general de uso de fuentes de datos de ID de transacción.
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
 
 ---
 
 
-# ID de transacción
+# Fuentes de datos de ID de transacción
 
-Los ID de transacción se pueden integrar seleccionando la categoría Genéricas (ID de transacción).
+Las fuentes de datos de ID de transacción le permiten no sólo ver los datos en línea y sin conexión en paralelo, sino también enlazar los datos. Requiere el uso de la [`transactionID`](/help/implement/vars/page-vars/transactionid.md) variable en la implementación de Analytics.
 
-See [Integrating Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
+Cuando envía una visita en línea que contiene un `transactionID` valor, Adobe toma una &quot;instantánea&quot; de todas las variables configuradas o persistentes en ese momento. Si se encuentra un ID de transacción coincidente cargado a través de fuentes de datos, los datos sin conexión y en línea se vinculan. No importa qué fuente de datos se vea primero.
 
-Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
+## Flujo de trabajo general de las fuentes de datos de ID de transacción
 
-**Dimensiones de ID de transacción**
+Utilice el flujo de trabajo genérico siguiente para empezar a utilizar fuentes de datos de ID de transacción:
 
-| Nombre de columna | Descripción |
-|--- |--- |
-| ID de transacción | (Obligatorio) Valor no repetido que representa una transacción en línea que dio lugar a una actividad sin conexión. |
-| Fecha | Utilice este formato de fecha: MM/DD/AAAA/HH/mm/SS (por ejemplo, 01/01/2015/06/00/00) |
-| Código de seguimiento | Nombre del código de seguimiento. |
-| Categoría | Nombre de la categoría.  Si se indica una categoría, también se debe seleccionar un producto. |
-| Canal | Nombre del canal. |
-| eVarN | Nombre de eVarN. Los valores válidos para N son números enteros 1 - 250. |
-| Producto | Nombre del producto. |
-| Estado | Nombre del estado. |
-| Zip | Nombre del código postal. |
-
-<p class="head"> <b>Métricas de ID de transacción</b> </p>
-
-
-
-| Nombre de columna | Descripción |
-|--- |--- |
-| Pulsaciones | Número de vistas del código de seguimiento. |
-| Adiciones al carro de compras | Número de adiciones al carro de compras. |
-| Aperturas del carro de compras | Número de aperturas del carro de compras. |
-| Eliminaciones del carro de compras | Número de eliminaciones del carro de compras. |
-| Vistas del carro de compras | Número de vistas del carro de compras. |
-| Cierres de compra | Número de cierres de compra. |
-| EventN | Número de veces que se produjo eventN. Los valores válidos para N son los números enteros 1 - 1000.  Cuando se indica un evento Vista, también hay que indicar la dimensión de datos (eVar) correspondiente. Por ejemplo, si se incluyen las vistas de eVar2, se deberá indicar la eVar2 con un valor. |
-| Vistas de eVarN | Número de veces que se visualizó eVarN. Los valores válidos para N son números enteros 1 - 250. |
-| Precio | Precio del producto. |
-| Pedidos | Número de pedidos asentados. |
-| Vistas del producto | Número de vistas del producto. |
-| Cantidad | Número de unidades vendidas. |
+1. Cree una fuente de datos (categoría &#39;Genérico&#39; y tipo &#39;Fuente de datos genérica (ID de transacción)&#39;).
+1. Siga el asistente para la configuración de fuentes de datos para obtener una ubicación de FTP para cargar datos y descargar un archivo de plantilla de fuentes de datos.
+1. Actualice la implementación para incluir la `transactionID` variable.
+1. Cargue un archivo de fuentes de datos en el sitio FTP con un `.fin` archivo.
