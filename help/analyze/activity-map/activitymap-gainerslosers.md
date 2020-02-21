@@ -3,7 +3,7 @@ description: Las superposiciones permiten configurar la visualización de datos 
 title: Superposiciones personalizables
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -49,7 +49,7 @@ Las superposiciones de burbujas se muestran cuando selecciona en la barra de her
 
 > [!NOTE] Las superposiciones de burbujas en submenús solo se ven cuando se muestra el submenú:
 >
->![](assets/bubbles_submenu.png) &gt; 
+>![](assets/bubbles_submenu.png)>
 
 ## Superposiciones de ganadores y perdedores {#section_EE80278E20C14824869BF5A27A4634C8}
 
