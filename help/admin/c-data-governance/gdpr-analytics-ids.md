@@ -28,7 +28,7 @@ Aunque su empresa recopile muchos ID distintos en sus datos de Analytics, puede 
 * Algunos ID pueden corresponder a varias personas y puede no querer arriesgarse a devolver información sobre una persona a otra distinta con ese mismo ID. Por ejemplo, aunque pueda verificar que el nombre de una persona es Juan Pérez, es posible que no desee devolver todos los datos sobre todos los usuarios llamados Juan Pérez de su sistema.
 * Otro ejemplo es un ID de dispositivo, como el ID de cookie de Analytics. Si el ID se origina en una aplicación de un teléfono móvil, puede decidir que todas las interacciones que utilicen ese ID deban estar disponibles para el propietario del teléfono móvil. No obstante, si se produce en un dispositivo compartido, como un ordenador doméstico o uno de una biblioteca o un cibercafé, puede determinar que no le es posible distinguir entre los usuarios del dispositivo en cuestión y que existe demasiado riesgo de devolver datos de un usuario distinto como para permitir el uso de este tipo de ID.
 
-## Prácticas recomendadas para los ID admitidos por Analytics {#section_B6481505FF1949498D4B4B35B780D050}
+## Prácticas recomendadas para los ID admitidos por Analytics  {#section_B6481505FF1949498D4B4B35B780D050}
 
 Utilice esta tabla para determinar los tipos de ID que usará para enviar solicitudes de privacidad de datos a Analytics. Una vez que conozca esta información, le resultará más fácil determinar qué otras etiquetas debería utilizar para sus variables.
 
@@ -50,7 +50,7 @@ Utilice esta tabla para determinar los tipos de ID que usará para enviar solici
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID en variables personalizadas </p> </td> 
-   <td colname="col2"> <p>Algunos clientes colocan ID en <a href="https://marketing.adobe.com/resources/help/es_ES/sc/implement/props_eVars.html">variables de tráfico personalizadas (props) o variables de conversión personalizadas (eVars) </a>. Aunque que el más común es un ID de CRM, otros incluyen direcciones de correo electrónico, nombres de inicio de sesión del usuario, números de fidelidad del cliente o hash de estos valores. </p> 
+   <td colname="col2"> <p>Algunos clientes colocan ID en <a href="https://marketing.adobe.com/resources/help/es_ES/sc/implement/props_eVars.html">variables de tráfico personalizadas (props) o variables de conversión personalizadas (eVars)</a>. Aunque que el más común es un ID de CRM, otros incluyen direcciones de correo electrónico, nombres de inicio de sesión del usuario, números de fidelidad del cliente o hash de estos valores. </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">Si desea usar uno de estos ID para solicitudes de privacidad de datos, debe marcar el campo que lo contenga con la etiqueta ID-PERSON. </li> 
      <li id="li_94541340B054436297C5565F074413DC">(Mucho menos habitual). Si un ID de una de estas variables personalizadas solo identifica un dispositivo que podrían compartir varias personas, puede usar en su lugar una etiqueta ID-DEVICE. </li> 
@@ -82,7 +82,7 @@ Las etiquetas de eliminación DEL-DEVICE y DEL-PERSON deben usarse con moderaci�
 
    Por ejemplo, si cuenta con tres visitas que contienen el valor “foo” en eVar7, pero solo una de ellas contiene también un ID en una variable distinta que coincide con una eliminación, entonces el valor “foo” de dicha visita se modificará por uno como “Privacidad de datos-123456789”, mientras que en las otras dos visitas permanecerá sin cambios. Un informe que incluye el número de valores únicos para eVar7 ahora mostrará un valor único más que antes. Un informe que incluye los valores principales para los eVar puede incluir “foo” con solo dos instancias (en lugar de las tres anteriores), y el nuevo valor aparecerá también como instancia única.
 
-## Prácticas recomendadas para establecer etiquetas de acceso {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Prácticas recomendadas para establecer etiquetas de acceso  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
 Aunque muy pocos campos tendrán alguna de las otras etiquetas, será habitual que un gran número de campos presenten etiquetas ACC. Las etiquetas de acceso adecuadas dependerán de los ID que utilice para las solicitudes de privacidad de datos.
 
