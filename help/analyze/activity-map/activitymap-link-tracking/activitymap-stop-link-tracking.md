@@ -3,7 +3,7 @@ description: Pasos para detener el seguimiento de los vínculos en Activity Map 
 title: Detener el seguimiento de vínculos
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -41,7 +41,7 @@ Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (anteriormente ClickMap de visitantes) </td> 
-   <td colname="col2"> <p>Defina la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> en false (este es el valor predeterminado). La sintaxis es la siguiente: 
+   <td colname="col2"> <p>Defina la variable <a href="https://marketing.adobe.com/resources/help/es_ES/sc/implement/trackInlineStats.html"  >trackInlineStats</a> en false (este es el valor predeterminado). La sintaxis es la siguiente: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
