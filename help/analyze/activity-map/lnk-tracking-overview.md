@@ -3,7 +3,7 @@ description: 'Activity Map realiza un seguimiento de los vínculos con un algori
 title: Potente seguimiento de vínculos
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
