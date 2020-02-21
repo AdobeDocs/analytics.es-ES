@@ -3,7 +3,7 @@ description: Los vínculos se pueden diferenciar personalizando bien el ID del v
 title: Diferenciación entre varios vínculos que hacen referencia al mismo ID y la misma región de vínculo
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -46,9 +46,9 @@ Como ejemplo, supongamos que tenemos varios vínculos “Buy” (comprar) identi
 
 ¿Cómo se personalizan la página web y las etiquetas para diferenciar los valores de estos vínculos? Hay tres opciones: se puede personalizar el ID del vínculo, la región o el archivo del módulo Activity Map AppMeasurement.
 
-## Personalizar el ID del vínculo con s_objectID  {#section_01B0D463397B4837B2D46F087A6E5937}
+## Personalizar el ID del vínculo con s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en una página, se puede mejorar el seguimiento de Activity Map, o bien utilizar Activity Map para informar sobre un tipo o una ubicación de vínculo en lugar de la URL del vínculo. Haga clic [aquí](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) para obtener más información sobre la variable s_objectID.
+Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en una página, se puede mejorar el seguimiento de Activity Map, o bien utilizar Activity Map para informar sobre un tipo o una ubicación de vínculo en lugar de la URL del vínculo. Haga clic [aquí](https://marketing.adobe.com/resources/help/es_ES/sc/implement/s_objectID.html) para obtener más información sobre la variable s_objectID.
 
 >[!IMPORTANT]
 >
@@ -77,13 +77,13 @@ Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en 
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product2 </p> <p> </p> <p> </p> <p>Product3 </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Personalizar la región  {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## Personalizar la región {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 Puede personalizar la región asegurándose de que cada vínculo “buy” tenga definida su propia región. Para hacerlo, agregue un parámetro “id” a uno de los elementos primarios de cada etiqueta de anclaje “Buy”.
 
@@ -118,7 +118,7 @@ Puede personalizar la región asegurándose de que cada vínculo “buy” tenga
  </tbody> 
 </table>
 
-## Personalizar el archivo del módulo Activity Map AppMeasurement  {#section_B933BB9F944E4D5389002908A5A881F8}
+## Personalizar el archivo del módulo Activity Map AppMeasurement {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
