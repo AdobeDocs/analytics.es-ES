@@ -20,7 +20,7 @@ Suponga que dispone de los siguientes datos de visita:
 
 | Etiquetas | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nombre de la variable**<br>**(área de nombres)** | **MyProp1**<br>**(usuario)** | **ID del visitante**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nombre de la variable **<br>**(área de nombres)** | **MyProp1 **<br>**(usuario)** | **ID del visitante **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | Datos de visita | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -32,7 +32,7 @@ Suponga que dispone de los siguientes datos de visita:
 
 ## Ejemplo de solicitud de acceso
 
-Si envío una solicitud de acceso, el archivo de resumen contendrá los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y expandIDs es "true".
+Si envío una solicitud de acceso, el archivo de resumen contendrá los valores indicados en la tabla a continuación. Una solicitud puede contener únicamente un archivo de dispositivo, solo un archivo de persona o uno de cada. Solo se devuelven dos archivos de resumen si se utiliza un ID de persona y expandIDs es &quot;true&quot;.
 
 | Valores de API | Valores de API | Tipo de archivo devuelto | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> |
 |--- |--- |--- |---|---|---|---|---|
@@ -42,8 +42,8 @@ Si envío una solicitud de acceso, el archivo de resumen contendrá los valores 
 | user=Mary | false | contenedor | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | contenedor | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | dispositivo | no presente | 77, 88 | no presente | N, P | U, W |
-| user=Mary AAID=66 | true | contenedor | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary AAID=66 | true | dispositivo | no presente | 66, 77, 88 | no presente | N, P | U, W, Z |
+| user=Mary  AAID=66 | true | contenedor | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary  AAID=66 | true | dispositivo | no presente | 66, 77, 88 | no presente | N, P | U, W, Z |
 | xyz=X | false | dispositivo | no presente | 55, 77 | no presente | M, R | X |
 | xyz=X | true | dispositivo | no presente | 55, 77 | no presente | M, P, R | W, X |
 
