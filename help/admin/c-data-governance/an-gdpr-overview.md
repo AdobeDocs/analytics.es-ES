@@ -12,7 +12,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 En este documento se describe lo que debe hacer en Adobe Analytics para cumplir los derechos de eliminación y acceso de sus interesados según el RGPD.
 
-## Descripción general de Adobe {#section_E582A1D77583410EBB790BB646854A2C}
+## Descripción general de Adobe  {#section_E582A1D77583410EBB790BB646854A2C}
 
 > [!IMPORTANT] El contenido de este documento no constituye asesoramiento jurídico y no está pensado para sustituir el asesoramiento jurídico. Consulte al departamento legal de su empresa para recibir consejos sobre el RGPD.
 
@@ -36,7 +36,7 @@ En Adobe somos conscientes de que usted es quien más familiarizado está con lo
 
 Para ello, Adobe Analytics proporciona una interfaz de usuario de control de datos que le permite, como responsable del tratamiento de datos, establecer [etiquetas de privacidad](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) en sus grupos de informes de Analytics y en todas las dimensiones de métricas de dichos grupos. Puede identificar las columnas de su conjunto de datos que contengan datos directamente o indirectamente identificables, con lo que podrá presentar sus solicitudes de acceso y eliminación con respecto a esos datos. Para cada solicitud, se respetarán las etiquetas definidas en la interfaz de usuario de control de datos de Analytics del identificador específico con el que se corresponda dicha solicitud.
 
-Consulte [Etiquetado de datos de grupos de informes](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) para obtener más información sobre cómo configurar las etiquetas.
+Consulte  [Etiquetado de datos de grupos de informes](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) para obtener más información sobre cómo configurar las etiquetas.
 
 ## Requisitos previos {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
