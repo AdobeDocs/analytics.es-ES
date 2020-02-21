@@ -3,7 +3,7 @@ description: El informe de vínculos recoge los vínculos encontrados en la pág
 title: Informe de vínculos
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
