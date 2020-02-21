@@ -20,11 +20,11 @@ Antes de poder determinar las etiquetas que se deben aplicar a cada variable o c
 
 La implementación de privacidad de datos de Adobe Analytics admite las siguientes etiquetas para datos de identidad, datos confidenciales y administración de datos.
 
-## Etiquetas DULE {#section_B2E78130957647338495EF37DE21D6BC}
+## Etiquetas DULE  {#section_B2E78130957647338495EF37DE21D6BC}
 
 > [!NOTE] El marco de etiquetado y aplicación del uso de los datos (Data Usage Labeling &amp; Enforcement, DULE) se ha diseñado para proporcionar una manera uniforme de recopilar, comunicar y usar metadatos de los datos de todas las soluciones, servicios y plataformas de Adobe en Adobe Experience Cloud. Los metadatos ayudan a los responsables del tratamiento de datos a indicar qué datos son información personal, cuáles son datos confidenciales y qué restricciones contractuales están asociadas a los datos. En esta versión inicial, Analytics expone únicamente las etiquetas DULE que son relevantes para la privacidad de datos. A medida que otros productos de Adobe implementan la compatibilidad con las etiquetas DULE, las futuras versiones introducirán etiquetas de datos confidenciales adicionales, así como etiquetas contractuales, las cuales ayudarán a garantizar que los datos compartidos entre productos se utilizan únicamente de las formas permisibles según la ley.
 
-## Etiquetas de datos de identidad (DULE) {#identity-data-labels}
+## Etiquetas de datos de identidad (DULE)  {#identity-data-labels}
 
 Las etiquetas “I” de datos de identidad se utilizan para categorizar los datos que podrían usarse para identificar a una persona específica o ponerse en contacto con ella.
 
@@ -58,7 +58,7 @@ Las etiquetas “I” de datos de identidad se utilizan para categorizar los dat
  </tbody> 
 </table>
 
-## Etiquetas de datos confidenciales (DULE) {#sensitive-data-labels}
+## Etiquetas de datos confidenciales (DULE)  {#sensitive-data-labels}
 
 Las etiquetas de datos confidenciales “S” se utilizan para categorizar datos confidenciales, como datos geográficos. En el futuro, se presentarán etiquetas de datos confidenciales adicionales para identificar otros tipos de información confidencial.
 
@@ -200,7 +200,7 @@ Mientras que algunas variables recibirán alguna de las otras etiquetas, se espe
  </tbody> 
 </table>
 
-## Proporcionar un área de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## Proporcionar un área de nombres al etiquetar una variable como ID-DEVICE o ID-PERSON  {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que proporcione un área de nombres. Puede utilizar un área de nombres definida anteriormente o definir una nuevo.
 
@@ -240,7 +240,7 @@ El uso de la misma área de nombres para distintas variables es aceptable dentro
 
 Otro ejemplo: puede tener un CRM ID que en ocasiones se envía a través de eVar1 y en ocasiones se envía a través de prop7. También cuenta con una regla de procesamiento que copia el valor del eVar1, si existe, en el eVar3. De lo contrario, copia el valor de prop7 en el eVar3. En estos supuestos, eVar3 siempre contendrá el CRM ID si se conoce, de modo que solo eVar3 requiere una etiqueta ID-PERSON.
 
-> [!CAUTION] Las áreas de nombres “visitorId” y “customVisitorId” están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
+> [!CAUTION] Las áreas de nombres &quot;visitorId&quot; y &quot;customVisitorId&quot; están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
 
 ## Tipos de variables y las etiquetas de privacidad de datos/DULE que admiten {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -288,7 +288,7 @@ El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de vari
  </tbody> 
 </table>
 
-## Variables a las que se pueden asignar otras etiquetas que no sean ACC-ALL/ACC-PERSON/modificado {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## Variables a las que se pueden asignar otras etiquetas que no sean ACC-ALL/ACC-PERSON/modificado  {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -323,7 +323,7 @@ El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de vari
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eventos y dimensiones de la solución </p> </td> 
-   <td colname="col2"> <p>Vínculo de Activity Map </p> <p>Página de Activity Map </p> </td> 
+   <td colname="col2"> <p>Vínculo de Activity Map </p> <p>Página de  Activity Map </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Las variables pueden contener parámetros de URL, que podrían incluir datos directa o indirectamente identificables. Si su implementación no recopila datos directa o indirectamente identificables en estas variables, estos no necesitan etiquetas de identidad o eliminación. </p> <p>Tenga en cuenta que la eliminación borra los parámetros de URL, pero conserva la URL de base. </p> </td> 
   </tr> 
@@ -351,11 +351,11 @@ El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de vari
  </tbody> 
 </table>
 
-## Gestión de eliminaciones {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## Gestión de eliminaciones  {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 La compatibilidad de Adobe Analytics con las solicitudes de eliminación de privacidad de datos se ha diseñado para que los informes se vean menos afectados. En la mayoría de los casos, las métricas mostradas en los informes no deben cambiar. Un informe sobre el historial ejecutado antes de eliminar la privacidad de datos coincidirá con el mismo informe ejecutado una vez realizada la eliminación. Esto se consigue al desvincular por completo los datos eliminados del interesado y, a la vez, dejando los datos no identificables en su lugar para mantener la coherencia de los valores notificados.
 
-En la tabla siguiente se describe cómo se "eliminan" las distintas variables. Esta no es una lista completa.
+En la tabla siguiente se describe cómo se &quot;eliminan&quot; las distintas variables. Esta no es una lista completa.
 
 <table id="table_A329C2E2645F4685BC208826D070A5F6"> 
  <thead> 
@@ -430,7 +430,7 @@ En esta sección se pretende aclarar la información sobre las variables de Anal
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visitor ID </p> <p>MCID/ECID </p> </td> 
-   <td colname="col2"> <p> Estas etiquetas tienen una etiqueta DEL-DEVICE, pero no se puede añadir la etiqueta DEL-PERSON. Si especifica <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> Expansión de ID</a> con cada solicitud, estos ID se eliminarán automáticamente para todas las solicitudes de eliminación, incluso las que utilizan un ID-PERSON. </p> <p>Si no utiliza la expansión de ID, pero desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, los recuentos de visitantes únicos cambiarán en los informes del historial. </p> </td> 
+   <td colname="col2"> <p> Estas etiquetas tienen una etiqueta DEL-DEVICE, pero no se puede añadir la etiqueta DEL-PERSON. Si especifica  <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> Expansión de ID</a> con cada solicitud, estos ID se eliminarán automáticamente para todas las solicitudes de eliminación, incluso las que utilizan un ID-PERSON. </p> <p>Si no utiliza la expansión de ID, pero desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, los recuentos de visitantes únicos cambiarán en los informes del historial. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID de AMO </p> </td> 
@@ -439,7 +439,7 @@ En esta sección se pretende aclarar la información sobre las variables de Anal
  </tbody> 
 </table>
 
-## Campos de fecha para solicitudes de acceso {#section_6678FB4FF42B481C9B78E64F61782397}
+## Campos de fecha para solicitudes de acceso  {#section_6678FB4FF42B481C9B78E64F61782397}
 
 Hay cinco variables estándar que contienen marcadores de tiempo:
 
