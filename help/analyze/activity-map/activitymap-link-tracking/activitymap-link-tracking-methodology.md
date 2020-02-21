@@ -3,8 +3,8 @@ description: Esta sección está dirigida a los administradores de Adobe Analyti
 title: Método de seguimiento de vínculos
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: abf808e956ca78c9e7ceaa5240d4e1ea20f90aec
 
 ---
 
@@ -15,14 +15,14 @@ Esta sección está dirigida a los administradores de Adobe Analytics. Explora l
 
 >[!IMPORTANT]
 >
->Cualquier vínculo en el que el texto (no el href) pueda contener información de identificación personal (PII) debe implementarse de forma explícita mediante [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) o excluyendo la recopilación de vínculos de Activity Map con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obtener más información sobre cómo Activity Map recopila datos PII, acceda [aquí](/help/analyze/activity-map/lnk-tracking-overview.md).
+>Cualquier vínculo en el que el texto (no el href) pueda contener información de identificación personal (PII) debe implementarse de forma explícita mediante [s_objectID](https://marketing.adobe.com/resources/help/es_ES/sc/implement/s_objectID.html) o excluyendo la recopilación de vínculos de Activity Map con [s.ActivityMap.linkExclusions o s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). Para obtener más información sobre cómo Activity Map recopila datos PII, acceda [aquí](/help/analyze/activity-map/lnk-tracking-overview.md).
 
 Activity Map basa el seguimiento de vínculos en estos dos ID:
 
 * ID principal: se trata del parámetro reconocible del vínculo.
 * Región del vínculo: es un parámetro secundario que permite a los usuarios indicar una cadena que representa el área global del vínculo en la página o región. Este parámetro se puede generar automáticamente si el usuario no lo proporciona.
 
-## ID principal  {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## ID principal {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
 Si el HTML tiene un s_objectid, el ID principal predeterminado pasará a ser s_objectid. Si no, se usarán los parámetros siguientes como ID principal (en este orden de prioridad):
 
@@ -32,7 +32,7 @@ Si el HTML tiene un s_objectid, el ID principal predeterminado pasará a ser s_o
 * Src (origen)
 * Action (acción)
 
-## Utilización de Innertext y de Acción de vínculo (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
+## Utilización de Innertext y de Acción de vínculo (URL) {#section_70C3573E22274522A8CC035BF18EC468}
 
 Acción de vínculo es la acción que efectúa la página web cuando se hace clic en el vínculo. Normalmente es la URL que se visita tras hacer clic en el vínculo. Al usar Acción de vínculo, pueden surgir los problemas siguientes:
 
@@ -81,7 +81,9 @@ A continuación, puede ver un fragmento de HTML de muestra donde se usa el atrib
 Si lo desea, puede etiquetar elementos con un identificador de cadena al azar, en este caso “lpos”, y luego agregar atributos con el nombre “lpos”.
 
 ```
-s.ActivityMap.regionIDAttribute="lpos"; 
+<script language="JavaScript" type="text/javascript">
+s.ActivityMap.regionIDAttribute="lpos";
+</script> 
    
 <div id="nav" lpos="navbar"> 
   <ul> 
