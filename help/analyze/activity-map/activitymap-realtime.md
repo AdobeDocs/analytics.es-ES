@@ -3,7 +3,7 @@ description: El análisis de página en tiempo real (modo Activo) permite obtene
 title: Análisis de páginas en tiempo real (activo)
 topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,4 +34,4 @@ Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Anal
 * Para el flujo en directo, los informes en tiempo real, las solicitudes de la API y todos los datos actuales para las variables de tráfico, solo se retrasan las visitas con un ID de datos suplementario.
 * Para los datos actuales en las métricas de conversión, los datos finalizados y las fuentes de datos, todas las visitas se retrasan de 5 a 7 minutos más.
 
-Tenga en cuenta que el aumento de la latencia se da después de implementar el [Servicio de identidad](https://marketing.adobe.com/resources/help/en_US/mcvid/), incluso aunque no haya implementado correctamente esta integración.
+Tenga en cuenta que el aumento de la latencia se da después de implementar el [Servicio de identidad](https://marketing.adobe.com/resources/help/es_ES/mcvid/), incluso aunque no haya implementado correctamente esta integración.
