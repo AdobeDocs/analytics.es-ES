@@ -18,7 +18,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
 **Ejemplo**: Usted, como responsable del tratamiento de datos, pretende recopilar direcciones de correo electrónico e ID de cookie de los interesados para tratar sus solicitudes de privacidad de datos. Estos ID de cookie se almacenan en un grupo de informes en Adobe Analytics. Si desea crear una etiqueta para direcciones de correo electrónico e ID de cookie, debe usar el marco de etiquetado y aplicación del uso de los datos (DULE) de Adobe Cloud Platform en Analytics.
 
-1. En Analytics, vaya a **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de datos]** &gt; **[!UICONTROL (seleccione el grupo de informes)]** ![](assets/privacy_rs_settings.png)
+1. En Analytics, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Control de datos]** > **[!UICONTROL (seleccione el grupo de informes)]** ![](assets/privacy_rs_settings.png)
 
 1. Seleccione el grupo de variables que desea etiquetar.
 
