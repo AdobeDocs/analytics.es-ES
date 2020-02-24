@@ -4,7 +4,7 @@ title: Resumen de expresiones de fechas personalizadas
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
+source-git-commit: 4f879bc347656bc442108a5174be26efa171d7e3
 
 ---
 
@@ -28,11 +28,11 @@ Se recomienda que al crear expresiones haga referencia a un calendario con el fi
 
 1. Activar **[!UICONTROL Customize Expression]**. Al seleccionar las opciones en **[!UICONTROL Rolling Dates]**, puede ver fácilmente la sintaxis de las expresiones de fecha personalizadas.
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldatesfor5.png)
 
    Puede utilizar Opciones avanzadas para combinar y coincidir expresiones de fecha personalizadas. Por ejemplo, si desea ver los datos desde el primer día del año hasta el final del último mes completo, puede escribir lo siguiente:Desde: cy To: cm-1d. Puede ver que en el asistente confirma que esas fechas son el 1/1/2020-1/31/2020.
 
    Por ejemplo, si cambia las fechas anteriores a móvil mensualmente desde el primer día hace tres meses hasta el primer día de este mes, las fechas de la parte de opciones avanzadas se actualizarán para reflejar lo siguiente:
 
-   ![](assets/rolldates3.png)
+   ![](assets/rolldatesfor3.png)
 
