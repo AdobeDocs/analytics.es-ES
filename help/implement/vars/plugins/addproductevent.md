@@ -73,7 +73,7 @@ El complemento addProductEvent no crea ni utiliza cookies
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.&#186; 1
+### Ejemplo n.&deg; 1
 
 El siguiente código establece la `s.products` variable en `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
@@ -85,7 +85,7 @@ s.addProductEvent("event35", "25");
 
 El código anterior también establece la `s.events` variable en `"purchase,event35"`
 
-### Ejemplo n.&#186; 2
+### Ejemplo n.&deg; 2
 
 El siguiente código establece la `s.products` variable en `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
@@ -96,7 +96,7 @@ s.addProductEvent("event35", 25, 1);
 
 Cuando el tercer argumento de la `addProductEvent` llamada es `true` (o `1`), cada entrada de producto tiene el evento especificado en la llamada agregado a su valor.
 
-### Ejemplo n.&#186; 3
+### Ejemplo n.&deg; 3
 
 El siguiente código establece la `s.products` variable en `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
@@ -110,7 +110,7 @@ s.addProductEvent("event35", "15");
 
 El código anterior también establece la `s.events` variable en `"purchase,event2,event33,event34,event35"`
 
-### Ejemplo n.&#186; 4
+### Ejemplo n.&deg; 4
 
 El siguiente código establece la `s.products` variable en `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
@@ -126,7 +126,7 @@ El código anterior también establece la `s.events` variable en `"purchase,even
 
 > [!NOTE] El segundo argumento de la llamada puede ser un entero **o** una cadena que represente un número/número entero
 
-### Ejemplo n.&#186; 5
+### Ejemplo n.&deg; 5
 
 Si `s.products` aún no se ha establecido, el siguiente código lo establece en `";;;;event35=25"`
 
