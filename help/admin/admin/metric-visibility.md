@@ -2,7 +2,7 @@
 description: Ahora puede ocultar métricas (integradas) estándar, eventos personalizados y eventos integrados en el Menú, el Selector de métricas, el Creador de métricas calculadas y el Generador de segmentos.
 title: Visibilidad de las métricas
 uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Ahora puede ocultar métricas (integradas) estándar, eventos personalizados y eventos integrados en el Menú, el Selector de métricas, el Creador de métricas calculadas y el Generador de segmentos.
 
-1. Vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Conversión]** &gt; **[!UICONTROL Eventos de éxito]**. [Más...](/help/admin/admin/c-success-events/t-success-events.md)
+1. Acceda a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Eventos de éxito]**. [Más...](/help/admin/admin/c-success-events/t-success-events.md)
 1. Establezca la columna Visibilidad como **[!UICONTROL Visible en todas partes]**, **[!UICONTROL Generadores]** u **[!UICONTROL Oculto en todas partes]**.
 
 Esta configuración no afecta a la recopilación de datos de esa métrica. Solo afecta a su visibilidad en la interfaz de usuario. Esta es la forma en la que la configuración afecta a la visibilidad de las métricas en la interfaz de usuario:
@@ -35,7 +35,7 @@ Esta configuración no afecta a la recopilación de datos de esa métrica. Solo 
      <li id="li_0C550B8F99C94620999331BBA1F3659C">Generador de segmentos </li> 
      <li id="li_E2663CFA5F8541C39CE9A18173A074AC">Creador de métricas calculadas </li> 
     </ul> </td> 
-   <td colname="col3"> N/D </td> 
+   <td colname="col3"> N/A </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Generadores</b> </td> 
@@ -52,7 +52,7 @@ Esta configuración no afecta a la recopilación de datos de esa métrica. Solo 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Oculto en todas partes</b> </td> 
-   <td colname="col2"> N/D </td> 
+   <td colname="col2"> N/A </td> 
    <td colname="col3"> 
     <ul id="ul_CB9780D567BD4DBA90C092DDA892BF41"> 
      <li id="li_CF90047F78FD4BB28E90E95B9B367445">Reports &amp; Analytics (menú y selector de métricas) </li> 
