@@ -26,7 +26,7 @@ Siga los pasos indicados en función del método de implementación.
 
 | Método de implementación | Pasos |
 |--- |--- |
-| Adobe Experience Platform Launch | Si tiene instalada la extensión Adobe Analytics, agregue la siguiente definición de variable de datos de contexto al editor de código personalizado dentro de la configuración de acción de una regla: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota:  Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing segmentado. Establezca la variable `contextdata` en *0* para los clientes que consientan el marketing segmentado. |
+| Adobe Experience Platform Launch | Si tiene instalada la extensión Adobe Analytics, agregue la siguiente definición de variable de datos de contexto al editor de código personalizado dentro de la configuración de acción de una regla: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> Nota:  Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing segmentado. Establezca la variable `contextdata` en *0* para los clientes que consientan el marketing segmentado. |
 | DTM | Agregue la definición de la variable de datos contextuales al editor de código de página personalizado: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota: Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing dirigido. Establezca la variable de datos contextuales en 0 para los clientes que sí consientan el marketing dirigido. |
 | AppMeasurement | Agregue la definición de la variable de datos contextuales al archivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota: Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing dirigido. Establezca la variable de datos contextuales en 0 para los clientes que sí consientan el marketing dirigido. |
 
@@ -40,8 +40,8 @@ Para configurar este tipo de informes, asigne la nueva variable contextual a una
 1. [Habilite el elemento prop.](/help/admin/admin/c-traffic-variables/traffic-var.md)
 1. Utilice reglas de procesamiento para asignar la variable contextual al elemento prop.
 
-   1. Vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** y seleccione un grupo de informes.
-   1. Haga clic en **[!UICONTROL Editar grupo de informes]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Reglas de procesamiento]**.
+   1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** y seleccione un grupo de informes.
+   1. Haga clic en **[!UICONTROL Editar grupo de informes]** > **[!UICONTROL General]** > **[!UICONTROL Reglas de procesamiento]** .
    1. Haga clic en **[!UICONTROL Agregar regla.]**
    1. En **[!UICONTROL Ejecutar siempre]**, sobrescriba el valor del elemento prop que ha activado por la variable de contexto “cm.ssf(Context Data)”.
    1. Haga clic en **[!UICONTROL Guardar]**.
