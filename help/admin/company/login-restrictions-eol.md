@@ -9,7 +9,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 # Fin de vida útil para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
 
-La función **[Aplicar restricciones de inicio de sesión con IP](/help/admin/company/security-manager.md)** de Adobe Analytics permite incluir en la lista de direcciones IP específicas permitidas (que se consideran seguras) para aprobar inicios de sesión y el acceso a su entorno de Adobe Analytics. En muchos casos, esta función se utiliza para configurar una dirección IP corporativa como la única dirección IP segura desde la que los usuarios pueden iniciar sesión. Por lo tanto, para utilizar Adobe Analytics, se necesita que los usuarios estén en una oficina corporativa o que inicien sesión en la red a través de una VPN.
+La función **[Aplicar restricciones de inicio de sesión con IP](/help/admin/company/security-manager.md)**de Adobe Analytics permite incluir en la lista de direcciones IP específicas permitidas (que se consideran seguras) para aprobar inicios de sesión y el acceso a su entorno de Adobe Analytics. En muchos casos, esta función se utiliza para configurar una dirección IP corporativa como la única dirección IP segura desde la que los usuarios pueden iniciar sesión. Por lo tanto, para utilizar Adobe Analytics, se necesita que los usuarios estén en una oficina corporativa o que inicien sesión en la red a través de una VPN.
 
 Tenemos planeado finalizar la vida útil de esta función en octubre de 2020.
 
@@ -25,7 +25,7 @@ Por último, Adobe cuenta con una solución alternativa funcional y muy superior
 
 La función **[!UICONTROL Aplicar restricciones de inicio de sesión con IP]** se eliminará en octubre de 2020 para cualquier cliente que la tenga configurada. En ese momento, ya no se aplicará ninguna restricción de inicio de sesión con IP que aún exista. Si todavía necesita restringir el inicio de sesión por dirección IP, debe revisar e implementar la solución recomendada de inicio de sesión único y Federated ID (más información y recursos a continuación).
 
-Además, la configuración **[!UICONTROL Aplicar restricciones de inicio de sesión IP]** se eliminará de **[!UICONTROLAAdministración &gt; Configuración de la empresa &gt; Administrador de seguridad]** en la interfaz de usuario de Analytics (como se muestra a continuación).
+Además, la configuración **[!UICONTROL Aplicar restricciones de inicio de sesión IP]** se eliminará de **[!UICONTROLAAdministración > Configuración de la empresa > Administrador de seguridad]** en la interfaz de usuario de Analytics (como se muestra a continuación).
 
 ![](assets/sec-manager2.png)
 
