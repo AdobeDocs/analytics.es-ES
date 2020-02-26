@@ -3,7 +3,7 @@ description: Se pueden excluir datos de las direcciones IP específicas, por eje
 title: Excluir por dirección IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las actividades de sitio web internas, las pruebas del sitio y el uso por parte de los empleados, de los informes. La exclusión de datos elimina los datos de las direcciones IP para conseguir mayor precisión en los informes. También es posible eliminar datos de ataques de negación de servicio u otros eventos dañinos que pueden distorsionar los datos de los informes. Puede configurar la exclusión o utilizar el cortafuegos.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Excluir por dirección IP]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Excluir por dirección IP]**
 
-> [!NOTE] Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+> [!NOTE] Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://marketing.adobe.com/resources/help/es_ES/reference/primary_server_calls.html).
 
 ## Excluir por cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -25,7 +25,7 @@ Esta función permite al usuario y a sus compañeros visitar el sitio sin distor
 
 | Elemento | Descripción |
 |--- |--- |
-| [!UICONTROL Agregar CNAME] | Genera un vínculo de no participación con el que puede excluirse un dominio. Para obtener ayuda, póngase en contacto con los usuarios de asistencia técnica de la empresa. <br>Puede excluirse el tráfico para que no quede registrado en los grupos de informes desde la página de exclusión de la empresa, donde puede especificarse la exclusión del explorador de la medición. <br>Si la implementación utiliza cookies de terceros, la página de exclusión estará [aquí](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true). |
+| [!UICONTROL Agregar CNAME] | Genera un vínculo de no participación con el que puede excluirse un dominio. Para obtener ayuda, póngase en contacto con los usuarios de asistencia técnica de la empresa. <br>Puede excluirse el tráfico para que no quede registrado en los grupos de informes desde la página de exclusión de la empresa, donde puede especificarse la exclusión del explorador de la medición. <br>Si la implementación utiliza cookies de terceros, la página de exclusión estará [aquí](https://democorp.112.2o7.net/optout.html?locale=es_ES&amp;popup=true). |
 
 > [!NOTE] La exclusión por equipo solo funcionará si:
 >
@@ -46,7 +46,7 @@ Pueden utilizarse indicadores comodín (*) para excluir un intervalo de direccio
 
 También se puede bloquear la recopilación de datos de direcciones IP específicas a través de un cortafuegos.
 
-Consulte el artículo [Direcciones IP utilizadas en Experience Cloud](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses).
+Consulte el artículo [Direcciones IP utilizadas en Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/home/index.html#kb-adobe-ip-addresses).
 
 ## Influencia de la confusión de IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
