@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 La página [!UICONTROL Configuración de la empresa] permite configurar opciones que se aplican a todos los grupos de informes que gestiona la organización.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Configuración de la empresa]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Configuración de la empresa]**
 
 + [Niveles de acceso de las funcionalidades](feature-access-levels.md)
 + [Servicios Web](web-services-admin.md)
