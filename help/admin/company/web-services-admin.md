@@ -3,7 +3,7 @@ description: Las API de servicios web proporcionan acceso mediante programación
 title: Servicios Web
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Las API de servicios web proporcionan acceso mediante programación a los informes de marketing y a otros servicios de Suite que permiten duplicar y aumentar la funcionalidad disponible a través de la interfaz de Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Configuración de la empresa]** &gt; **[!UICONTROL Servicios web]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Servicios web]**
 
 ## Administrar servicios Web
 
-En Administración de usuarios &gt; [Grupos](/help/admin/user-management2/c-user-groups/groups.md) puede actualizar el grupo Acceso a servicio Web para incluir a los usuarios que necesitan acceder a las API de Servicios Web.
+En Administración de usuarios > [Grupos](/help/admin/user-management2/c-user-groups/groups.md) puede actualizar el grupo Acceso a servicio Web para incluir a los usuarios que necesitan acceder a las API de Servicios Web.
 
 ## WSDL: descargue el archivo WSDL de la API de servicios web para los programadores de estos servicios.
 
