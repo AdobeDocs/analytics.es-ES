@@ -1,9 +1,9 @@
 ---
 description: Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
-title: Rutas informes
+title: Informes  de rutas
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
 
-## Rutas reports {#concept_CB32E270FB9E4D929C91FDFE428CB224}
+## Informes  de rutas {#concept_CB32E270FB9E4D929C91FDFE428CB224}
 
 Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
 
-Rutas los informes incluyen informes de análisis avanzado opcionales y exhaustivos estándar que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
+Informes  de rutas incluyen informes exhaustivos estándar y de análisis avanzado opcionales que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
 
 **[!UICONTROL Flujo de página siguiente]** o **[!UICONTROL Flujo de sitio siguiente]**: muestra un gráfico ramificado de dos niveles de una página seleccionada (o sección, departamento, etc.) que el visitante ve tras irse de la página seleccionada. Use este informe para analizar e identificar los pasos que siguen los visitantes con más frecuencia después de ver una página determinada. Puede:
 
@@ -31,9 +31,9 @@ Rutas los informes incluyen informes de análisis avanzado opcionales y exhausti
 
 **[!UICONTROL Página anterior]** (u otras categorías anteriores): proporciona un análisis detallado de las rutas del sitio mostrando las páginas de este que los visitantes vieron antes de ver una página seleccionada del sitio.
 
-**[!UICONTROL Visita en el orden previsto]**: muestra la baja en visitas y los índices de conversión entre cada punto de comprobación definido. Los pasos están organizados desde arriba hacia abajo, con las cifras y porcentajes sin procesar a la izquierda, y la conversión y los porcentajes de visitas en el orden previsto a la derecha.
+**[!UICONTROL Visita en el orden previsto]**: Muestra la bajada de visitas y los índices de conversión entre cada punto de comprobación definido. Los pasos están organizados desde arriba hacia abajo, con las cifras y porcentajes sin procesar a la izquierda, y la conversión y los porcentajes de visitas en el orden previsto a la derecha.
 
-Consulte [Informe de visitas en el orden previsto](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obtener más información.
+Consulte  [Informe de visitas en el orden previsto](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obtener más información.
 
 **[!UICONTROL Longitud de ruta]**: muestra la profundidad con que los visitantes navegan por el sitio (según el porcentaje y el recuento total). Dicho de otro modo, el informe indica la cantidad de páginas en las que entra el visitante promedio antes de retirarse.
 
@@ -42,9 +42,9 @@ Consulte [Informe de visitas en el orden previsto](/help/analyze/ad-hoc-analysis
 * **[!UICONTROL Resumen de página / Resumen de categoría del sitio]**: indica todo lo que se necesita saber sobre el informe de página. Este informe toma y organiza información específica acerca de una página individual y la presenta en un informe único.
 * **[!UICONTROL Recargas]**: muestra la cantidad de veces que los visitantes recargaron las páginas individuales.
 * **[!UICONTROL Tiempo invertido en la página / Categoría del sitio]**: muestra durante cuánto tiempo los visitantes navegan por páginas individuales del sitio. El tiempo empleado se divide en diez categorías: menos de 15 segundos, entre 15 y 30 segundos, entre 30 y 60 segundos, entre 1 y 3 minutos, entre 3 y 5 minutos, entre 5 y 10 minutos, entre 10 y 15 minutos, entre 20 y 30 minutos y más de 30 minutos.
-* **[!UICONTROL Clics hasta la página]**: identifica la cantidad de clics que los visitantes hicieron para acceder a cada página del sitio. La profundidad de una página se mide contando la cantidad de páginas vistas antes de ella.
+* **[!UICONTROL Clics hasta la página]**: Identifica la cantidad de clics que los visitantes hicieron para acceder a cada página del sitio. La profundidad de una página se mide contando la cantidad de páginas vistas antes de ella.
 
-**[!UICONTROL Entradas y salidas]**: el informe de página de entrada muestra, según el porcentaje y el número total de visitas, qué páginas del sitio son las primeras en ser vistas por un nuevo visitante. Se pueden ver:
+**[!UICONTROL Entradas y salidas]**: el informe de página [!UICONTROL de entrada] muestra, según el porcentaje y el número total de visitas, qué páginas del sitio son las primeras en ser vistas por un nuevo visitante. Se pueden ver:
 
 * **[!UICONTROL Páginas de entrada]** (o secciones): muestra, según el porcentaje y el número total de visitas, las páginas del sitio que son las primeras en ser vistas por un nuevo visitante. Puede utilizar este informe para identificar qué páginas web del sitio son los puntos de entrada más frecuentes; optimizar los principales puntos de entrada al sitio y dirigir el tráfico de entrada hacia los mensajes clave.
 * **[!UICONTROL Páginas de entrada originales]**: muestra la primera página vista por los visitantes que entraron en el sitio por primera vez. Cada uno de los usuarios se cuenta una sola vez, a menos que estos borren sus cookies o que no se los esté rastreando con cookies.
@@ -79,13 +79,13 @@ t_fallout.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL New Report]** &gt; **[!UICONTROL Fallout.]**
+1. Haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Nuevo informe]** > **[!UICONTROL Visitas en el orden previsto]**.
 
-   Other Fallout reports are found in **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]**.
+   También hay otros informes de visitas en el orden previsto en **[!UICONTROL Informes]** > **[!UICONTROL Rutas]**.
 
 1. (Opcional) Si quiere filtrar los datos de acuerdo con un segmento específico, arrastre el segmento al campo [!UICONTROL Colocar segmento aquí.]
 1. Puede arrastrar cualquier artículo de dimensión al campo [!UICONTROL Colocar evento o artículos de dimensión aquí.]
-1. Click **[!UICONTROL Show Fallout At]**Visit or Visitor level, depending on whether you want to view fallout at the visit level, or across visitor sessions.
+1. Haga clic en **[!UICONTROL Mostrar visitas en el orden previsto en]** el nivel de la visita o del visitante, en función de si quiere ver las visitas en el orden previsto en una visita o en varias sesiones de visitantes.
 1. Agregue al informe artículos de dimensión, por ejemplo páginas.
 
 ## Asignar páginas a un informe de visitas en el orden previsto {#task_B386289703494FA7B5A40FF9F97CB537}
@@ -98,7 +98,7 @@ t_fallout_assign_pages.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages Fallout]**.
+1. Haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Rutas]** > **[!UICONTROL Páginas]** > **[!UICONTROL Visitas en el orden previsto de páginas]**.
 1. En el panel [!UICONTROL Dimensiones], busque las páginas que desea agregar y arrástrelas al campo [!UICONTROL Colocar evento o elementos de dimensión aquí.]
 
 ## Informe de visitas en el orden previsto: descripciones de campos {#reference_74255CC8D6134F349FEBFEC72934C866}
