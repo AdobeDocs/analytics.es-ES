@@ -3,7 +3,7 @@ description: Los informes estándar presentan datos de la actividad del sitio we
 title: Resumen de los informes
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-Estos informes normalmente se personalizan y son por tanto distintos para cada analista. Consulte [Administrador de campaña](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) en la ayuda de [!DNL Admin Console] para obtener más información.
+Estos informes normalmente se personalizan y son por tanto distintos para cada analista. Consulte [Administrador de campaña](https://marketing.adobe.com/resources/help/es_ES/reference/campaign_manager_admin.html) en la ayuda de [!DNL Admin Console] para obtener más información.
 
 ## Cálculos estadísticos {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,7 +74,7 @@ Se pueden añadir cálculos estadísticos predeterminados adicionales para infor
 
 **Para abrir los cálculos estadísticos para informes de clasificación:**
 
-1. Select **[!UICONTROL Tools]** &gt; **[!UICONTROL Ranked]** from the menu.
+1. Seleccione **[!UICONTROL Herramientas]** > **[!UICONTROL Clasificado]** del menú.
 
 1. Seleccione **[!UICONTROL Configuración]**.
 1. Seleccione **[!UICONTROL Estadísticas predeterminadas]**.
@@ -92,7 +92,7 @@ Se pueden añadir cálculos estadísticos predeterminados adicionales para infor
 | Cuartiles | Un cuartil es el conjunto de valores del conjunto de datos identificado por tres puntos que dividen el conjunto de datos en cuatro grupos iguales, cada uno consta de un cuarto del conjunto de datos. El primer cuartil es el porcentaje 25 y el tercer cuartil es el porcentaje 75. (El segundo cuartil es la mediana y el cuarto cuartil es la suma). |
 | Recuento | Devuelve el número de filas de un conjunto de datos. |
 
-## Ejemplo de cálculo de media en comparación con total de métrica {#section_7C49196503964FB0A429FA347BC92D09}
+## Ejemplo de cálculo de media en comparación con total de métrica  {#section_7C49196503964FB0A429FA347BC92D09}
 
 La función Media se calcula de forma similar a las columnas de datos de Microsoft Excel. En concreto, esto significa que la **Media** de una proporción o tasa (como, por ejemplo, determinar la tasa de devoluciones promedio) sería el promedio de las tasas, no la tasa de las devoluciones promedio. La tasa de las medias incluye el **Total** de la métrica de la tasa de devolución.
 
@@ -108,7 +108,7 @@ La función Media se calcula de forma similar a las columnas de datos de Microso
  </thead>
  <tbody> 
   <tr valign="top"> 
-   <td colname="col1"> <p>Junio de 2013 </p> <p>Julio de 2013 </p> <p>Agosto de 2013 </p> </td> 
+   <td colname="col1"> <p>junio de 2013 </p> <p>Julio de 2013 </p> <p>Agosto de 2013 </p> </td> 
    <td colname="col2" align="center"> <p>344 </p> <p>297 </p> <p>41 </p> </td> 
    <td colname="col3" align="center"> <p>1000 </p> <p>1000 </p> <p>1000 </p> </td> 
    <td colname="col4" align="center"> <p>34,4 % </p> <p>29,7 % </p> <p>41,0 % </p> </td> 
@@ -141,15 +141,15 @@ c_overlay_calculations.xml
 
  -->
 
-En un informe que identifica datos a lo largo de un periodo de tiempo, el botón **[!UICONTROL Estadísticas]le permite seleccionar cálculos que se mostrarán como superposiciones en la línea de tiempo del informe.**
+En un informe que identifica datos a lo largo de un periodo de tiempo, el botón **[!UICONTROL Estadísticas]** le permite seleccionar cálculos que se mostrarán como superposiciones en la línea de tiempo del informe.
 
 ![](assets/overlay_calculations.png)
 
-In addition to standard [Statistical Calculations](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays.
+Además de los  [Cálculos estadísticos](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585) estándar, puede seleccionar la primera, la segunda y la tercera desviación estándar en las superposiciones.
 
 ## Administrador de grupos {#concept_E1433974A61144858E87334C006982B2}
 
-Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. Los grupos se pueden editar desde el menú principal o desde el informe. Las categorías creadas en los Reports and Analytics de marketing también aparecen en la lista [!UICONTROL Selector de punto de comprobación].
+En el informe de [!UICONTROL visitas en el orden previsto] y [!UICONTROL análisis del sitio], en vez de usar una sola página, puede agrupar varias páginas y usarlas como categorías de ubicación de partida, intermedia o de destino. Los grupos se pueden editar desde el menú principal o desde el informe. Las categorías creadas en los Reports and Analytics de marketing también aparecen en la lista [!UICONTROL Selector de punto de comprobación].
 
 <!-- 
 
@@ -157,4 +157,4 @@ c_groups.xml
 
  -->
 
-Click **[!UICONTROL Tools]** &gt; **[!UICONTROL Group Manager]**.
+Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de grupos]**.
