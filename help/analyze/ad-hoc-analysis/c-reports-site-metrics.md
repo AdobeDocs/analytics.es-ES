@@ -1,9 +1,9 @@
 ---
 description: Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
-title: Métricas del sitio informes
+title: Informes de métricas del sitio
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
-## Métricas del sitio reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## Informes de las  métricas del sitio {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
@@ -89,7 +89,7 @@ Utilice este informe para:
 
 ## Informe de compras {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-Muestra datos resumidos sobre ingresos, pedidos y unidades. También puede ver el [!DNL Purchase Conversion Funnel] informe.
+Muestra datos resumidos sobre ingresos, pedidos y unidades. También puede ver el informe [!DNL Purchase Conversion Funnel].
 
 <!-- 
 
@@ -127,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Dado que cada grupo de informes de análisis es distinto, este conjunto de informes se utiliza de forma diferente con cada cliente. El informe de [!UICONTROL eventos personalizados] se puede utilizar como contador para indicar la cantidad de veces que se produce un evento. Por ejemplo, si **[!UICONTROL evento1]** se configura para mostrar la cantidad de veces que se descarga un documento, el informe de eventos personalizados para el Evento 1 mostrará la cantidad total de descargas.  Es posible tener varios informes de eventos personalizados.
+Dado que cada grupo de informes de análisis es distinto, este conjunto de informes se utiliza de forma diferente con cada cliente. El informe de [!UICONTROL eventos personalizados] se puede utilizar como contador para indicar la cantidad de veces que se produce un evento. Por ejemplo, si **[!UICONTROL evento1]** se configura para mostrar la cantidad de veces que se descarga un documento, el informe de [!UICONTROL eventos personalizados] para el Evento 1 mostrará la cantidad total de descargas. Es posible tener varios informes de eventos personalizados.
 
 ## Informes de conversión {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -163,4 +163,4 @@ c_reports_marketing_channel.xml
 
 **[!UICONTROL Informes de detalles de canales de primer o último contacto]**: muestran detalles, tales como nombres de página y referentes, tomados de los valores de canal que se configuren en la opción [!UICONTROL Definir el valor del canal en], al configurar las reglas. Los informes de detalles de canal permiten examinar minuciosamente los valores detallados del canal en el informe de resumen.
 
-Para obtener información detallada sobre la configuración del canal de marketing en los informes y análisis de marketing, consulte el sistema de [ayuda para canales de marketing](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html).
+Para obtener información detallada sobre la configuración del canal de marketing en los informes y análisis de marketing, consulte el sistema de [ayuda para canales de marketing](https://marketing.adobe.com/resources/help/es_ES/mchannel/index.html).
