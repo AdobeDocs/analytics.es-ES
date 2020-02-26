@@ -2,7 +2,7 @@
 description: Configuración de usuarios e información acerca del muestreo de datos.
 title: Administración
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Configuración de usuarios e información acerca del muestreo de datos.
 
-For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
+Para obtener ayuda sobre [!DNL Admin Console], consulte la [Documentación de Analytics](https://marketing.adobe.com/resources/help/es_ES/reference/index.html).
 
 ## Licencias de usuario {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -36,15 +36,15 @@ t_user_licenses.xml
 
  -->
 
-1. Inicie sesión en el [!DNL Experience Cloud].
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Edit Groups]**.
+1. Inicie sesión en [!DNL Experience Cloud].
+1.  Haga clic en **[!UICONTROL Admin]** > **[!UICONTROL Administración de usuarios]**. 
+1. Haga clic en **[!UICONTROL Editar grupos]**.
 
    Si su empresa ha adquirido licencias de usuario, aparecerá el grupo [!UICONTROL Usuarios con licencias de Ad Hoc Analysis] en la columna [!UICONTROL Nombre del grupo]. También se muestra el número de licencias disponibles para los inicios de sesión de los usuarios.
 
-1. Click **[!UICONTROL Edit]**.
-1. En [!UICONTROL Asignar inicios de sesión a usuarios]**, seleccione los usuarios que desee añadir al grupo y haga clic en[!UICONTROL Añadir.]**
-1. Click **[!UICONTROL Save Group]**.
+1. Haga clic en **[!UICONTROL Editar]**.
+1. En [!UICONTROL Asignar inicios de sesión a usuarios], seleccione los usuarios que desee añadir al grupo y haga clic en **[!UICONTROL Añadir.]**
+1. Haga clic en **[!UICONTROL Guardar grupo]**.
 
    El sistema de licencias no limita la cantidad de usuarios que se pueden agregar a un grupo. El uso simultáneo del número de licencias compradas es limitado.
 
@@ -58,10 +58,10 @@ t_managing_users.xml
 
  -->
 
-1. Haga clic en **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Administración]** &gt; Administración **[!UICONTROL de usuarios]** y, a continuación, haga clic en **[!UICONTROL Administrar usuarios]**.
-1. Busque y seleccione el usuario y haga clic en **[!UICONTROL Terminar].**
+1. Haga clic en **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Administración de usuarios]** y, a continuación, haga clic en **[!UICONTROL Administrar usuarios]**.
+1. Ubique el usuario y haga clic en **[!UICONTROL Finalizar.]** 
 
-   En la página [!UICONTROL Sesiones de Ad Hoc Analysis activas], aparecen primero los usuarios que han estado más tiempo inactivos.
+   En la página [!UICONTROL Sesiones activas de Ad Hoc Analysis], aparecen primero los usuarios que han estado más tiempo inactivos.
 
 ## Permisos {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
 
@@ -75,7 +75,7 @@ El acceso a los grupos de informes se configura en la [!DNL Administration Conso
 
 ## Agregar usuarios al grupo Acceso a todos los informes {#task_E821BF3B4FDB434D844A98AAB15487A9}
 
-Instrucciones sobre cómo otorgar acceso a usuarios no administradores a todos los grupos de informes.
+Instrucciones sobre cómo otorgar acceso a usuarios que no sean administradores a todos los grupos de informes.
 
 <!-- 
 
@@ -83,11 +83,11 @@ t_permissions.xml
 
  -->
 
-1. Log in to the **[!UICONTROL Experience Cloud]**.
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
-1. Click **[!UICONTROL All Report Access]**.
-1. En [!UICONTROL Usuarios disponibles]**, seleccione el usuario y haga clic en[!UICONTROL Agregar].**
-1. Click **[!UICONTROL Save Group]**.
+1. Inicie sesión desde **[!UICONTROL Experience Cloud]**. 
+1. Haga clic en **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Editar grupos]**.
+1. Haga clic en **[!UICONTROL Acceso a todos los informes]**.
+1. En [!UICONTROL Usuarios disponibles], seleccione el usuario y haga clic en **[!UICONTROL Agregar]**. 
+1. Haga clic en **[!UICONTROL Guardar grupo]**.
 
 ## Crear grupos de permisos {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -99,8 +99,8 @@ t_permission_groups.xml
 
  -->
 
-1. Log in to the **[!UICONTROL Experience Cloud]**.
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
+1. Inicie sesión desde **[!UICONTROL Experience Cloud]**. 
+1. Haga clic en **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Editar grupos]**.
 1. Cree un grupo de permisos para usuarios no administrativos que incluya los grupos de informes activados con Ad Hoc Analysis que desea poner a disposición de los usuarios.
 
    Los grupos de informes disponibles para el usuario se muestran en el menú [!UICONTROL Informe Cloud] al crear un nuevo proyecto.
@@ -117,12 +117,12 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis usa HTTP para comunicarse con el servidor. y está sujeto a las mismas directivas de proxy que cualquier otro tráfico HTTP.
 
-1. En el [!DNL Windows Control Panel], inicie el Panel de control [!UICONTROL Java].
-1. En la ficha **General**, haga clic en **[!UICONTROL Configuración de red]**.
-1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
+1. En el [!DNL Windows Control Panel], inicie el [!UICONTROL Panel de control de Java].
+1. En la ficha **[!UICONTROL General]**, haga clic en **[!UICONTROL Configuración de red]**.
+1. Seleccione **[!UICONTROL Usar configuración de navegador]** o configure manualmente las opciones de proxy.
+1. Haga clic en **[!UICONTROL Aceptar]** y vuelva a hacer clic en **[!UICONTROL Aceptar]** en el [!UICONTROL Panel de control de Java].
 
-## Cómo se muestrean los datos {#concept_8433CFD38E0243849E92DF4F1E743AC3}
+## Cómo se muestran los datos {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
 Se toman muestran de datos de visitantes para producir informes significativos y precisos. El intervalo de fechas se usa como fracción de datos para un proyecto cargado. Por lo general, la fracción representa el mes en curso más los dos meses anteriores.
 
