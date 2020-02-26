@@ -3,7 +3,7 @@ description: Pasos administrativos para configurar informes en tiempo real.
 title: Configuración de informes en tiempo real
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Configurar informes en tiempo real en Reports &amp; Analytics consiste en selecc
 
 1. Seleccione el grupo de informes para el que quiere habilitar los informes en tiempo real.
 
-   Vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]** &gt; **[!UICONTROL Ver todos los informes &gt; Métricas del sitio]** &gt; **[!UICONTROL Tiempo real]** y seleccione el grupo de informes en la lista desplegable de la parte superior:
+   Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Informes]** > **[!UICONTROL Ver todos los informes > Métricas del sitio]** > **[!UICONTROL Tiempo real]** y seleccione el grupo de informes en la lista desplegable de la parte superior:
 
    ![](assets/report_suite_selector.png)
 
@@ -27,7 +27,7 @@ Configurar informes en tiempo real en Reports &amp; Analytics consiste en selecc
 
 1. Haga clic en **[!UICONTROL Configurar]** (icono del engranaje) para ejecutar el [!UICONTROL Administrador del grupo de informes].
 
-   (También disponible en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración &gt; Grupos de informes]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Tiempo real]**.)
+   (También disponible en **[!UICONTROL Analytics]** > **[!UICONTROL Administración > Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Tiempo real]**).
 
 1. Active la configuración **[!UICONTROL Activar Tiempo real]**.
 1. Configure la recopilación de datos en tiempo real para hasta tres informes, con una métrica y tres dimensiones o clasificaciones por informe.
@@ -54,6 +54,6 @@ Configurar informes en tiempo real en Reports &amp; Analytics consiste en selecc
 
 1. Haga clic en **[!UICONTROL Guardar]** o en **[!UICONTROL Guardar y ver informe]**.
 
-   Después de esta configuración inicial del informe los datos pueden tardar hasta 20 minutos en ser transferidos. A partir de ese momento los datos estarán disponibles inmediatamente. Para obtener más información sobre la visualización de informes en tiempo real, consulte [Ejecución de un informe en tiempo real](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html).
+   Después de esta configuración inicial del informe los datos pueden tardar hasta 20 minutos en ser transferidos. A partir de ese momento los datos estarán disponibles inmediatamente. Para obtener más información sobre la visualización de informes en tiempo real, consulte [Ejecución de un informe en tiempo real](https://marketing.adobe.com/resources/help/es_ES/sc/user/reports_realtime.html).
 
 1. De manera predeterminada todos los usuarios tienen acceso a los informes en tiempo real.
