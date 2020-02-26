@@ -2,7 +2,7 @@
 description: Información sobre las diversas acciones que se pueden realizar en un informe, por ejemplo configurar gráficos, crear desgloses y extraer datos.
 title: Configurar informes ya creados
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ c_report_actions.xml
 
  -->
 
-En un informe, haga clic en la lista desplegable **[!UICONTROL Acciones de informe]** ![. ](assets/tools_icon.png)
+En un informe, haga clic en la lista desplegable **[!UICONTROL Acciones de informe]** ![](assets/tools_icon.png). 
 
 <table id="table_C18A0F1C9E214EB585A29801BA2400F8"> 
  <thead> 
@@ -50,7 +50,7 @@ En un informe, haga clic en la lista desplegable **[!UICONTROL Acciones de infor
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opciones de envío </p> </td> 
-   <td colname="col2"> <p> Consulte <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > Opciones</a>de envío. </p> </td> 
+   <td colname="col2"> <p> Consulte <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   >Opciones de envío</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Imprimir </p> </td> 
@@ -62,7 +62,7 @@ En un informe, haga clic en la lista desplegable **[!UICONTROL Acciones de infor
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fuentes de datos </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p>Consulte la pestaña <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   >Configuración general: Definiciones</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ver </p> </td> 
@@ -122,7 +122,7 @@ c_chart_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostrar regresión lineal </p> </td> 
-   <td colname="col2"> <p>Para <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > gráficos de burbujas</a>. Muestra una aproximación estadística de los datos. </p> </td> 
+   <td colname="col2"> <p>Para  <a href="/help/analyze/ad-hoc-analysis/c-reports-configure.md#concept_07E26CC767B247A5845ADFF0C18B0986"  > gráficos de burbujas</a>. Muestra una aproximación estadística de los datos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,11 +156,11 @@ Ciertos informes permiten desglosar los datos de la tabla para poder ver los dat
 **Para desglosar los datos de una tabla**
 
 1. Ejecutar un informe.
-1. Haga clic con el botón derecho en un elemento de línea y luego haga clic en **Desglose** &gt; *elemento.*
+1. Haga clic con el botón derecho en un artículo de línea y, a continuación, haga clic en **[!UICONTROL Desglose]** > *artículo*. 
 
    >[!NOTE]
    >
-   >Para obtener más flexibilidad, utilice el Generador [de](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) tablas para configurar un informe con desgloses. Cuando abra un informe con desgloses guardado o programado, es posible que tenga que hacer clic en **[!UICONTROL Reemplazar tabla]para refrescar un desglose de los datos del informe dinámico.** Por ejemplo, es posible que tenga que actualizar un informe programado que contenga desgloses de artículos de línea que pueden cambiar en función del intervalo de fecha o la actividad del visitante.
+   >Para obtener más flexibilidad, utilice el [Generador de tablas](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) para configurar un informe con desgloses. Cuando abra un informe con desgloses guardado o programado, es posible que tenga que hacer clic en **[!UICONTROL Reemplazar tabla]** para refrescar un desglose de los datos del informe dinámico. Por ejemplo, es posible que tenga que actualizar un informe programado que contenga desgloses de artículos de línea que pueden cambiar en función del intervalo de fecha o la actividad del visitante.
 
 >[!MORELIKETHIS]
 >
@@ -180,7 +180,7 @@ En los informes de clasificación, es posible cambiar el tipo de informe conserv
 **Para cambiar el tipo de informe en la tabla**
 
 1. Abra y configure un informe de clasificación.
-1. En la tabla, haga clic con el botón derecho en el encabezado de columna del nombre del informe y luego haga clic en **Seleccionar informe**; a continuación, busque el informe.
+1. En la tabla, haga clic con el botón derecho en el encabezado de columna del nombre del informe y haga clic en **[!UICONTROL Seleccionar informe]**; a continuación, busque el informe.
 
 ## Copia de datos al portapapeles {#task_357E53EF61FF49F8BE5AC8D2F419375C}
 
@@ -194,7 +194,7 @@ t_reports_clipboard.xml
 
    Se recomienda abrir Excel antes de copiar los datos, porque Excel borra el búfer de memoria al abrirse.
 
-1. At the report level, click **[!UICONTROL Settings]** ![](assets/settings_icon.png), then click **[!UICONTROL Copy Report Data]**.
+1. En el nivel del informe, haga clic en **[!UICONTROL Configuración]** ![](assets/settings_icon.png) y, a continuación, haga clic en **[!UICONTROL Copiar datos de informe]**.
 1. En Excel, seleccione una celda y pegue los datos.
 
 ## Extraer ID de visitantes {#task_7223BE8E0389460282825E61BEDC0574}
@@ -205,15 +205,15 @@ t_reports_extract_ID.xml
 
  -->
 
-En Informes y análisis, puede establecer un campo que contenga datos de ID de usuario. Para que la opción [!UICONTROL Extraer ID de visitantes] esté disponible, hay que configurarla. Si no habilitó esta opción en, pero decide habilitarla más tarde, no podrá extraer ID históricas de visitantes en forma retroactiva.
+En Reports &amp; Analytics, puede establecer un campo que contenga datos de ID del usuario. Para que la opción [!UICONTROL Extraer ID de visitantes] esté disponible, hay que configurarla. Si no habilitó esta opción en, pero decide habilitarla más tarde, no podrá extraer ID históricas de visitantes en forma retroactiva.
 
 **Para extraer las ID de visitantes**
 
-1. Agregue al informe un segmento de Almacén de datos.
+1. Agregue al informe un segmento de Data Warehouse.
 1. Haga clic con el botón derecho en el segmento y seleccione **[!UICONTROL Extraer ID de visitantes]**.
 
-   Se abrirá la aplicación Almacén de datos.
-1. En la ficha [!UICONTROL Solicitud del Data Warehouse], escriba el nombre de filtro.
+   Se abrirá la aplicación Data Warehouse.
+1. En la pestaña [!UICONTROL Solicitud del Data Warehouse], escriba el nombre de filtro.
 1. Haga clic en **[!UICONTROL Solicitar este informe]**.
 
 ## Tendencias a partir de filas {#task_83C003EDCA7140C3AE9804629DD7A235}
@@ -229,7 +229,7 @@ Durante la inspección de un informe de clasificación (por ejemplo, un informe 
 **Para analizar la tendencia en una fila**
 
 1. Ejecutar un informe de clasificación.
-1. Haga clic en el icono [!UICONTROL Tendencia] ![. ](assets/TrendInspector_Buttcon.png)
+1. Haga clic en el icono [!UICONTROL Tendencia] ![](assets/TrendInspector_Buttcon.png). 
 
    Puede seleccionar varias celdas para aplicárselas a un mismo informe de tendencia.
 
@@ -245,7 +245,7 @@ t_column_width.xml
 
 1. Dentro de la tabla, haga clic con el botón secundario en el encabezado de columna y, a continuación, haga clic en **[!UICONTROL Anchura de columna]**.
 
-   Esta opción queda desactivada si la opción [!UICONTROL Ajustar a pantalla] está activada. 1. Specify a width in pixels, then click **[!UICONTROL OK]**.
+   Esta opción queda desactivada si la opción [!UICONTROL Ajustar a pantalla] está activada. 1. Especifique una anchura en píxeles y, a continuación, haga clic en **[!UICONTROL Aceptar]**.
 
 >[!MORELIKETHIS]
 >
