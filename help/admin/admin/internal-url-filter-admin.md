@@ -3,7 +3,7 @@ description: Los filtros de URL internos identifican los referentes que se consi
 title: Filtros URL internos
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
