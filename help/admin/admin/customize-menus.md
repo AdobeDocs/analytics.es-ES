@@ -3,7 +3,7 @@ description: Esta función permite personalizar los menús de informes que un us
 title: Personalización de menús
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
