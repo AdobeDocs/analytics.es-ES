@@ -3,7 +3,7 @@ description: Vea y segmente sus datos de tráfico Adobe Target en un informe de 
 title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,4 +25,4 @@ Algunos ejemplos son:
 
 Si aprovecha los datos de los Reports and Analytics, puede profundizar en las fórmulas de Target mediante las subrelaciones y detectar los segmentos de alto rendimiento que sean idóneos para pruebas futuras y posibles campañas objetivo. Los informes de Reports and Analytics muestran datos de conversión en vez de datos de conversión de Target.
 
-Consulte el sistema de ayuda [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/) para obtener más información
+Consulte el sistema de ayuda [Adobe Target](https://marketing.adobe.com/resources/help/es_ES/target/) para obtener más información
