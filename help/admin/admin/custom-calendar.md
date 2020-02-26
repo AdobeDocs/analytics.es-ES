@@ -3,7 +3,7 @@ description: Opciones de calendario aparte del modelo gregoriano. Las opciones i
 title: Personalizar calendario
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Opciones de calendario aparte del modelo gregoriano. Las opciones incluyen los modelos de calendario 4-4-5, 4-5-4 y 5-4-4, todos ellos utilizados como estándar en el sector minorista. Además, los informes ofrecen la opción de usar un calendario totalmente personalizable que puede configurar usted mismo.
 
-**[!UICONTROL Administración]** &gt; **[!UICONTROL Grupo de informes]** &gt; **[!UICONTROL [seleccionar grupo de informes]]** &gt; **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Personalizar calendario]**
+**[!UICONTROL Administración]** > **[!UICONTROL Grupo de informes]** > **[!UICONTROL [Seleccionar grupo de informes]]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Personalizar calendario]**
 
 >[!CAUTION]
 >
