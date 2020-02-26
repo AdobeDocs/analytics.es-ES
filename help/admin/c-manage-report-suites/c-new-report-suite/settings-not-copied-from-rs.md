@@ -3,7 +3,7 @@ description: Si ha copiado la configuración de un grupo de informes existente, 
 title: Configuración que no se copia desde un grupo de informes de origen
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ Las siguientes configuraciones no se copian de la plantilla o los grupos de info
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Datos de clasificación (se copia la estructura de clasificación) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html">Documentación sobre el Importador de clasificaciones (carga)</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/es_ES/reference/c_working_with_saint.html">Documentación sobre el Importador de clasificaciones (carga)</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activar el registro de ID de transacción </p> </td> 
@@ -68,7 +68,7 @@ Las siguientes configuraciones no se copian de la plantilla o los grupos de info
   </tr> 
   <tr> 
    <td colname="col1"> <p>Administrador del mapa de clics del visitante </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> Actualizar a Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/es_ES/analytics/activitymap/activitymap-enable.html"> Actualizar a Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reglas de VISTA </p> </td> 
