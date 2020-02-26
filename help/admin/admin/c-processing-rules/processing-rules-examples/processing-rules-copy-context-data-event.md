@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Definir un evento con una variable de datos de contexto
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,11 +28,11 @@ La siguiente definición de regla se expande en la regla [Copiar una variable de
 
 | Conjunto de reglas | Valor |
 |---|---|
-| Condición | Si los datos de contexto 'término_de_búsqueda' están definidos |
-| Acción | Definir el evento "búsquedas" |
+| Condición | Si los datos de contexto &#39;término_de_búsqueda&#39; están definidos |
+| Acción | Definir el evento &quot;búsquedas&quot; |
 
 Por ejemplo:
 
 ![](assets/processing_rule_set_event.png)
 
-Consulte [Variables de datos de contexto](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html) en la ayuda de implementación.
+Consulte [Variables de datos de contexto](https://marketing.adobe.com/resources/help/es_ES/sc/implement/context_data_variables.html) en la ayuda de implementación.
