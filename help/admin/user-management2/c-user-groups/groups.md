@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: Configuración de grupos de usuarios
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** &gt; **[!UICONTROL Herramientas de administración]** &gt; **[!UICONTROL Administración de usuarios]**.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]**.
 
 Descripciones de los elementos de la página Definir grupo de usuarios.
 
-**[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuarios]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Agregar un nuevo grupo de usuarios]**
+**[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL Agregar un nuevo grupo de usuarios]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -71,8 +71,8 @@ Descripciones de los elementos de la página Definir grupo de usuarios.
        <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>Métrica</b> (otorga acceso a las métricas utilizadas en Reports &amp; Analytics, incluidas las métricas predeterminadas como las vistas de página y otras como los eventos personalizados).</li> 
        <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>Admin Console </b>(otorga acceso a componentes variados del menú Administración, como Registros y Grupo de informes). </li> 
        <li id="li_CF3FA04D402A47618401633BA8583010"><b>Descargar informe</b> (otorga la posibilidad de descargar informes desde la interfaz de usuario de Analytics). </li> 
-       <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Survey</b> (otorga acceso a los informes de Survey si su organización también utiliza la capacidad obsoleta Adobe Survey.) </li> 
-       <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>Informes avanzados</b> (otorga acceso a informes avanzados como Canales de marketing, Detección de anomalías, Segmentos y Métricas calculadas.) </li> 
+       <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>Encuesta</b> (otorga acceso a los informes de Encuesta si su organización también utiliza la capacidad obsoleta Adobe Survey). </li> 
+       <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>Informes avanzados</b> (otorga acceso a informes avanzados como Canales de marketing, Detección de anomalías, Segmentos y Métricas calculadas). </li> 
        <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>Social</b> (Permite acceso a informes generados a partir de datos en Adobe Social). </li> 
        <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>Data Connectors </b>(Permite a los usuarios crear, actualizar o eliminar conectores de datos). </li> 
       </ul> </p> 
@@ -114,7 +114,7 @@ Descripciones de los elementos de la página Definir grupo de usuarios.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Acceso completo, Personalizar, Sin acceso) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Se pueden otorgar permisos a los clientes que tienen contenedores de <span class="keyword">TagManager</span> activos. No disponible para los usuarios nuevos. </p> <p>Adobe recomienda <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html">Dynamic Tag Management</a> para llevar a cabo las implementaciones. </p> </td> 
+   <td colname="col2"> <p>Se pueden otorgar permisos a los clientes que tienen contenedores de <span class="keyword">TagManager</span> activos. No disponible para los usuarios nuevos. </p> <p>Adobe recomienda <a href="https://marketing.adobe.com/resources/help/es_ES/dtm/atm_migration.html">Dynamic Tag Management</a> para llevar a cabo las implementaciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Asignar inicios de sesión del usuario</b> </td> 
