@@ -2,7 +2,7 @@
 description: 'El tiempo es una dimensión de generación de informes útil para analizar tendencias a lo largo de horas, días, semanas e intervalos de fechas. Por ejemplo, un informe de productos muestra los ingresos obtenidos de cierto producto durante un intervalo de fechas seleccionado. Se puede agregar una dimensión Día para ver la tendencia a lo largo de cada día del período del informe. Las opciones de granularidad temporal son: hora, día, semana, mes, trimestre y año. Los ajustes predefinidos de intervalo de fechas incluyen, por ejemplo: Hoy, Ayer y Últimos 7 días.'
 title: Fecha
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
