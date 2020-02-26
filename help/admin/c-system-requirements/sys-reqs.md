@@ -2,7 +2,7 @@
 description: En este tema se describen los requisitos del sistema para las interfaces de usuario de Adobe Analytics.
 title: Requisitos del sistema
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,10 +23,10 @@ Adobe es compatible con la última versión de estos navegadores:
 
 **Solución y requisitos del producto**
 
-* [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html) (incluye Adobe Social)
-* [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html)
-* [Ad Hoc Analysis ](https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html)
+* [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/es_ES/sc/user/requirements.html) (incluye Adobe Social)
+* [Report Builder](https://marketing.adobe.com/resources/help/es_ES/arb/system_requirements.html)
+* [Ad Hoc Analysis ](https://marketing.adobe.com/resources/help/es_ES/dsc/c_sys_reqs.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html)
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/r_supported_browsers.html)
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_supported_browsers.html)
+* [Adobe Target](https://marketing.adobe.com/resources/help/es_ES/target/ov/r_supported_browsers.html)
+* [Adobe Audience Manager](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/supported-browsers.translate.html)
 
