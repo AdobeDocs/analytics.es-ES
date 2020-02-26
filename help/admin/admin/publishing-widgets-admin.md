@@ -3,7 +3,7 @@ description: Una utilidad de publicación es un contenedor que permite incrustar
 title: Widget de publicaciones
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,7 +28,7 @@ La utilidad ejecuta el informe la primera vez que cualquier usuario ve la utilid
 Si ve diferencias entre los datos de la utilidad de publicación y la interfaz de informes, es posible que tenga que borrar el contenido de la caché de la utilidad de publicación.
 
 1. Haga clic en la utilidad de publicación (de modo que el foco se sitúe sobre la utilidad).
-1. Haga clic en **[!UICONTROL Guardar]** en la utilidad.
+1. Haga clic en **[!UICONTROL Guardar]** en el widget.
 1. Vuelva a ejecutar la utilidad. (El modo de Vista previa no usa la caché de la utilidad).
 
 > [!NOTE] Los widgets de publicación solo muestran la primera columna de datos de un informe.
