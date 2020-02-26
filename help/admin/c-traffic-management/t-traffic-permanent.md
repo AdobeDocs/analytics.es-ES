@@ -3,7 +3,7 @@ description: La sección Tráfico permanente permite cambiar los niveles de trá
 title: Especificar un incremento de tráfico permanente
 topic: Admin tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,9 +15,9 @@ La sección Tráfico permanente permite cambiar los niveles de tráfico esperado
 
 Lea la información sobre [Tiempo de espera necesario para aumentos de tráfico](/help/admin/c-traffic-management/traffic-lead-time.md) para especificar un aumento de tráfico permanente.
 
-1. Para abrir el Administrador de grupos de informes, haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]**.
+1. Para abrir el Administrador de grupos de informes, haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.
-1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Administración de tráfico]** &gt; **[!UICONTROL Tráfico permanente]**.
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Administración de tráfico]** > **[!UICONTROL Tráfico permanente]**.
 1. En el campo **[!UICONTROL Nuevas vistas de página diarias esperadas]**, especifique el número total de vistas de página diarias esperadas con el nuevo nivel de tráfico.
 
    Asegúrese de indicar el número total de vistas de página esperadas, no solo las vistas de página adicionales.
