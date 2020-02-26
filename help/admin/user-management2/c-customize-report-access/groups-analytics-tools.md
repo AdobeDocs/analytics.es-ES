@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: Personalizar permisos para las herramientas de Analytics
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->La administración de usuarios y productos se ha trasladado a la [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuarios]**.
+>La administración de usuarios y productos se ha trasladado a la [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]**.
 
 Habilite permisos de usuario para elementos generales (facturación, registros, etc.), administración de la empresa, herramientas, acceso a servicios web, Report Builder e integración de Data Connectors.
 
-**[!UICONTROL Administración de usuarios]** &gt; **[!UICONTROL Grupos]** &gt; **[!UICONTROL Acceso a informes]** &gt; **[!UICONTROL Herramientas de Analytics]** &gt; **[!UICONTROL Personalizar]**
+**[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acceso a todos los informes]** > **[!UICONTROL Herramientas de Analytics]** > **[!UICONTROL Personalizar]**
 
 > [!NOTE] En la versión de otoño de 2016 (20 de octubre) se añadieron cambios en la administración de grupos. Consulte [Cambios administrativos: Otoño de 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) para ver un resumen de los cambios.
 
@@ -47,20 +47,20 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | **Administración de la empresa** |  |
 | [Seguridad](/help/admin/company/security-manager.md) | Otorga permiso para acceder a la página Administrador de seguridad para controlar el acceso a los datos de los informes. Las opciones incluyen contraseñas seguras, caducidad de las contraseñas, restricciones de inicio de sesión de direcciones IP y restricciones de dominio de correo electrónico. |
 | Información sobre asistencia | Otorga permiso para acceder a Información de soporte técnico en Configuración de la empresa. |
-| [Servicios Web](/help/admin/company/web-services-admin.md) | Permite acceder a la página Servicios Web dentro de la interfaz de las herramientas de administración ([!UICONTROL Configuración de la empresa] &gt; [!UICONTROL Servicios Web]).<br>La API de Servicios Web proporciona acceso programático a servicios de Adobe Analytics que le permiten duplicar y aumentar la funcionalidad disponible por medio de la interfaz de usuario. |
-| Inicio de sesión único (heredado) | Otorga acceso a la página de inicio de sesión único en las herramientas de administración.<br>**Nota:** El inicio de sesión único en Adobe Experience Cloud se implementa mediante la [vinculación de cuentas](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html) entre Experience Cloud y las correspondientes soluciones. |
+| [Servicios Web](/help/admin/company/web-services-admin.md) | Permite acceder a la página Servicios Web dentro de la interfaz de las herramientas de administración ([!UICONTROL Configuración de la empresa] > [!UICONTROL Servicios Web]).<br>La API de Servicios Web proporciona acceso programático a servicios de Adobe Analytics que le permiten duplicar y aumentar la funcionalidad disponible por medio de la interfaz de usuario. |
+| Inicio de sesión único (heredado) | Otorga acceso a la página de inicio de sesión único en las herramientas de administración.<br>**Nota:**El inicio de sesión único en Adobe Experience Cloud se implementa mediante la[vinculación de cuentas](https://marketing.adobe.com/resources/help/es_ES/mcloud/organizations.html)entre Experience Cloud y las correspondientes soluciones. |
 | [Acciones pendientes](/help/admin/company/pending-actions-admin.md) | Concede permiso para administrar las acciones pendientes en [!UICONTROL Configuración de la empresa]. |
 | [Promoción conjunta de marca](/help/admin/company/co-branding-admin.md) | Concede permiso para promocionar Analytics de manera conjunta. |
 | [Preferencias](/help/admin/admin/preferences-manager.md) | Otorga permiso para acceder a [!UICONTROL Administrador de preferencias]. |
 | [Ocultar grupos de informes](/help/admin/company/c-hide-report-suites.md) | Concede permiso para ocultar grupos de informes en la interfaz de usuario de Adobe Analytics. |
 | **Herramientas** | Estas opciones otorgan acceso a las herramientas de Analytics (interfaces y aplicaciones), así como a funciones avanzadas, como segmentación y métricas calculadas. |
-| [Datos actuales](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html) | Concede permiso para usar la función Datos actuales en la generación de informes. |
-| [Usuarios con licencias para Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/) | Otorga permiso para acceder a [!UICONTROL Ad Hoc Analysis]. |
+| [Datos actuales](https://marketing.adobe.com/resources/help/es_ES/reference/data_latency.html) | Concede permiso para usar la función Datos actuales en la generación de informes. |
+| [Usuarios con licencias para Ad Hoc Analysis](https://marketing.adobe.com/resources/help/es_ES/dsc/) | Otorga permiso para acceder a [!UICONTROL Ad Hoc Analysis]. |
 | Acceso a Servicio Web | Permite a los usuarios que no son administradores acceder a Servicios Web. Genera credenciales para Servicios Web. |
-| [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/setup.html) | Otorga a los miembros de este grupo acceso a licencias para el [!UICONTROL Report Builder]. |
-| [Acceso a Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) | Concede a los usuarios acceso a Analysis Workspace, la interfaz de generación de informes recomendada para [!DNL Adobe Analytics]. |
-| [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/) | Concede a los usuarios acceso a Reports &amp; Analytics. |
-| [Creación de métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/) | Concede a los usuarios permiso para crear métricas calculadas. |
-| [Creación de segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) | Otorga a los usuarios permiso para crear segmentos. |
+| [Report Builder](https://marketing.adobe.com/resources/help/es_ES/arb/setup.html) | Otorga a los miembros de este grupo acceso a licencias para el [!UICONTROL Report Builder]. |
+| [Acceso a Analysis Workspace](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/) | Concede a los usuarios acceso a Analysis Workspace, la interfaz de generación de informes recomendada para [!DNL Adobe Analytics]. |
+| [Reports &amp; Analytics](https://marketing.adobe.com/resources/help/es_ES/sc/user/) | Concede a los usuarios acceso a Reports &amp; Analytics. |
+| [Creación de métricas calculadas](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/) | Concede a los usuarios permiso para crear métricas calculadas. |
+| [Creación de segmentos](https://marketing.adobe.com/resources/help/es_ES/analytics/segment/) | Otorga a los usuarios permiso para crear segmentos. |
 | **Data Connectors** |  |
 | Integraciones (Crear, Actualizar o Eliminar) | Concede permiso para crear, actualizar y eliminar integraciones de conector de datos. |
