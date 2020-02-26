@@ -3,7 +3,7 @@ description: Configura distintas variables comunes y eventos de éxito de un sit
 title: Plantilla predeterminada
 topic: Admin tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Configura distintas variables comunes y eventos de éxito de un sitio Web.
 
-| Variables de conversión | Tipo | Subrelaciones | Asignación | Vencimiento | `s_code` campaign |
+| Variables de conversión | Tipo | Subrelaciones | Asignación | Caducidad | `s_code` campaign |
 |---|---|---|---|---|---|
 | Campaña interna | Cadena | Básica | Más reciente (última) | Visita | `evar1` |
 | Términos de búsqueda interna | Cadena | Básica | Más reciente (última) | Visita | `evar2` |
@@ -42,7 +42,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Unidades | Contador | `purchase` |
 | Carros de compras | Contador | `scOpen` |
 | Vistas del carro de compras | Contador | `scView` |
-| Instancias | Contador | N/D |
+| Instancias | Contador | N/A |
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
