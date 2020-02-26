@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Niveles de acceso de las funcionalidades
 
-**[!UICONTROL Administración]** &gt; **[!UICONTROL Configuración de la empresa]** &gt; **[!UICONTROL Ver niveles de acceso de las funciones]**
+**[!UICONTROL Administración]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Ver niveles de acceso de las funciones]**
 
 Este grupo de ajustes le permite ver el nivel de acceso a las funciones de Adobe Analytics del que disfruta su empresa. Algunas funciones solo están disponibles para las SKU de producto más avanzadas, como [Adobe Analytics Ultimate](https://www.adobe.com/es/data-analytics-cloud/analytics/ultimate.html).
 
