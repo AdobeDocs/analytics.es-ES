@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Uso de llamadas al servidor]** &gt; **[!UICONTROL Uso del grupo de informes]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Uso de llamadas al servidor]** > **[!UICONTROL Uso del grupo de informes]**
 
 >[!IMPORTANT]
 >
@@ -52,7 +52,7 @@ Esta opción permite descargar los datos de uso actual y datos de periodos anter
 | Nombre del archivo | Nombre codificado: Informe de uso `day and time of report creation.csv` |
 | Grupos de informes incluidos | Cualquier grupo de informes que seleccione en la página Uso del servidor de informes se incluye en esta lista. |
 | Tipos de llamada incluidos | Especifique cualquier combinación de estas: Todas las llamadas (predeterminado), Primarias, Secundarias, Primarias móviles, Secundarias móviles. |
-| Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**Nota:** Recuerde que no puede descargar datos de uso anteriores a enero de 2015 </br>. |
+| Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**Nota:**Recuerde que no puede descargar datos de uso anteriores a enero de 2015</br>. |
 
 1. Haga clic en **[!UICONTROL Descargar]**.
 
