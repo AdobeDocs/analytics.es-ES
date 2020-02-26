@@ -3,7 +3,7 @@ description: La página Administrar imagen de promoción conjunta de marca le pe
 title: Promoción conjunta de marca
 topic: Admin tools
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 La página Administrar imagen de promoción conjunta de marca le permite mostrar el logotipo de su empresa en los informes descargados y los paneles heredados de Reports &amp; Analytics. La promoción conjunta de marca no se utiliza en Analysis Workspace.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Configuración de la empresa]** &gt; **[!UICONTROL Promoción conjunta de marca con Adobe Experience Cloud]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Promoción conjunta de marca con Adobe Experience Cloud]**
 
 Siga las siguientes instrucciones para que la imagen aparezca mejor:
 
