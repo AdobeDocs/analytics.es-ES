@@ -3,7 +3,7 @@ description: Las listas de publicaciones facilitan el envío de diversos informe
 title: Listas de publicaciones
 topic: Admin tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
