@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Crear reglas de procesamiento
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Las reglas de procesamiento se definen en los grupos de informes.
 
-1. Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]**.
-1. Seleccionar un grupo de informes.
-1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Reglas de procesamiento]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
+1. Selección de un grupo de informes.
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Reglas de procesamiento]**.
 1. En la página **[!UICONTROL Reglas de procesamiento]**, haga clic en **[!UICONTROL Agregar regla]**.
 1. Haga clic en **[!UICONTROL Agregar condición]** y seleccione cuándo debe aplicarse la regla.
 
