@@ -14,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Uso de llamadas al servidor de Adobe Analytics trata sus solicitudes de transparencia tanto en los datos de uso de llamadas al explorador como al servidor móvil. Permite acceder a:
 
-* Un tablero de Uso de llamadas al servidor que registra sus datos de consumo de llamadas al servidor y lo compara con su límite contractual. (**[!UICONTROL Analytics &gt; Admin &gt; Uso de llamadas al servidor]**)
-* Un tipo de alerta Uso de llamadas al servidor en el Generador de alertas que le permite configurar alertas para evitar sobrecargas (**[!UICONTROL Analytics &gt; Componentes &gt; Alertas]**)
+* Un tablero de Uso de llamadas al servidor que registra sus datos de consumo de llamadas al servidor y lo compara con su límite contractual. (**[!UICONTROL Analytics > Admin > Uso de llamadas al servidor]**)
+* Un tipo de alerta Uso de llamadas al servidor en el Generador de alertas que le permite configurar alertas para evitar sobrecargas (**[!UICONTROL Analytics > Componentes > Alertas]**)
 
 Las principales ventajas de Uso de llamadas al servidor son las siguientes:
 
 * **Visibilidad** del consumo de llamadas al servidor y los datos de asignación, incluyendo consumo móvil con respecto al límite contractual de uso de llamadas al servidor.
 * **Alertas** para avisarle del riesgo o de la presencia de un cargo adicional para que pueda tomar las medidas oportunas.
 
-Anteriormente, aunque podía acceder a los datos mensuales de consumo de llamadas al servidor en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Facturación]**, estos solo se actualizaban 6 días después del cierre de la facturación para ese mes. Además, los datos no incluían el consumo móvil. Esta función también sustituirá el actual informe **[!UICONTROL Información de facturación]** en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]**.
+Anteriormente, aunque podía acceder a los datos mensuales de consumo de llamadas al servidor en **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Facturación]**, estos solo se actualizaban 6 días después del cierre de la facturación para ese mes. Además, los datos no incluían el consumo móvil. Esta función también sustituirá el actual informe **[!UICONTROL Información de facturación]** en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]** .
 
 ## Requisitos previos {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
