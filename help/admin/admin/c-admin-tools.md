@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Herramientas de administración
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]**
 
 >[!IMPORTANT] No abra varias fichas de Administración en el mismo explorador. Esto puede llevar a guardar de forma involuntaria ajustes en el grupo de informes incorrecto. Si necesita, por ejemplo, comparar grupos de reglas y copiarlos en un nuevo grupo de informes, sugerimos abrir un nuevo explorador o tomar una captura de pantalla para comparar los grupos de reglas.
 
