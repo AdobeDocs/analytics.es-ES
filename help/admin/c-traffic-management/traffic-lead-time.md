@@ -3,7 +3,7 @@ description: Adobe necesita que se informe por adelantado en caso de nuevas conf
 title: Tiempo de espera necesario para aumentos de tráfico
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
