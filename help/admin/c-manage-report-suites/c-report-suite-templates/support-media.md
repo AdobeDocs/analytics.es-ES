@@ -3,7 +3,7 @@ description: Proporciona la configuración común de un sitio web que ofrece art
 title: Medios de soporte técnico
 topic: Admin tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Proporciona la configuración común de un sitio web que ofrece artículos y vídeos de soporte para productos.
 
-| Variables de conversión | Tipo | Subrelaciones | Asignación | Vencimiento | `s_code` campaign |
+| Variables de conversión | Tipo | Subrelaciones | Asignación | Caducidad | `s_code` campaign |
 |---|---|---|---|---|---|
 | Promoción interna | Cadena | Básica | Más reciente (última) | Visita | `evar1` |
 | Términos de búsqueda interna | Cadena | Básica | Más reciente (última) | Visita | `evar2` |
@@ -35,7 +35,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Unidades | Contador | `purchase` |
 | Carros de compras | Contador | `scOpen` |
 | Vistas del carro de compras | Contador | `scView` |
-| Instancias | Contador | N/D |
+| Instancias | Contador | N/A |
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
