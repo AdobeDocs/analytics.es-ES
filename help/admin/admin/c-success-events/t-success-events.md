@@ -3,7 +3,7 @@ description: Instrucciones sobre cómo configurar eventos de éxito.
 title: Configurar eventos de éxito
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Instrucciones sobre cómo configurar eventos de éxito.
 
-1. Haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.
-1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Conversión]** &gt; **[!UICONTROL Eventos de éxito]**.
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Eventos de éxito]**.
 
-   ![Resultado de pasos](assets/success_event_page.png)
+   ![Resultado](assets/success_event_page.png)
 
 1. En la columna **[!UICONTROL Nombre]**, active la casilla que hay junto a cada elemento para activar la edición y, a continuación, especifique el nombre que desee.
 1. En la columna **[!UICONTROL Tipo]**, active la casilla que hay junto a cada elemento para activar la lista desplegable y, a continuación, seleccione el tipo que desee.
@@ -38,7 +38,7 @@ Instrucciones sobre cómo configurar eventos de éxito.
 
    >[!NOTE]
    >
-   >Puede habilitar la participación de hasta un máximo de 100 eventos personalizados. Una vez superada esa cifra, puede crear métricas de participación en el creador [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
+   >Puede habilitar la participación de hasta un máximo de 100 eventos personalizados. Una vez superada esa cifra, puede crear métricas de participación en el creador [Métricas calculadas](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/participation_metric.html).
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
