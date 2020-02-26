@@ -3,7 +3,7 @@ description: La detección de búsqueda de pago diferencia entre búsquedas paga
 title: Detección de búsqueda de pago
 topic: Admin tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,4 +20,4 @@ La siguiente tabla describe los campos y las opciones que se utilizan para [conf
 | Elementos | Descripción |
 |--- |--- |
 | Motor de búsqueda | Seleccione un motor de búsqueda en la lista desplegable. Especifique el motor si utiliza parámetros de cadena de consulta diferentes para distintos motores de búsqueda. Normalmente, el valor Cualquiera es suficiente. |
-| Cadena de consultas | Especifica una regla que distingue entre mayúsculas y minúsculas establecida para contener o no contener un valor específico. Este valor debe ser un parámetro de cadena de consulta, omitiendo los signos "?". <br>**Nota:** La detección de búsqueda de pago distingue entre mayúsculas y minúsculas. Por ejemplo, una regla que especifica PID como parámetro de cadena de consulta no muestra pid en los informes. Si su organización utiliza una mezcla de mayúsculas y minúsculas, coloque los valores exactos como reglas independientes. De este modo se podrán capturar todos los parámetros de cadena de consulta deseados.</br> |
+| Cadena de consultas | Especifica una regla que distingue entre mayúsculas y minúsculas establecida para contener o no contener un valor específico. Este valor debe ser un parámetro de cadena de consulta, omitiendo los signos &quot;?&quot;. <br>**Nota:**La detección de búsqueda de pago distingue entre mayúsculas y minúsculas. Por ejemplo, una regla que especifica PID como parámetro de cadena de consulta no muestra pid en los informes. Si su organización utiliza una mezcla de mayúsculas y minúsculas, coloque los valores exactos como reglas independientes. De este modo se podrán capturar todos los parámetros de cadena de consulta deseados.</br> |
