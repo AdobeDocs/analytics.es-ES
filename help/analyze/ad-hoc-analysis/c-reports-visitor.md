@@ -1,9 +1,9 @@
 ---
-description: Muestra información acerca de los visitantes, incluso cosas como el recuento de visitantes, la lealtad del cliente y las características del visitante.
+description: Muestra información acerca de los visitantes, incluido el recuento de los mismos, la lealtad del cliente y las características del visitante.
 title: Informes de visitante
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Informes de visitante
 
-Muestra información acerca de los visitantes, incluso cosas como el recuento de visitantes, la lealtad del cliente y las características del visitante.
+Muestra información acerca de los visitantes, incluido el recuento de los mismos, la lealtad del cliente y las características del visitante.
 
 ## Frecuencia de retorno {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
@@ -60,7 +60,7 @@ Este informe se puede desglosar según cualquier otro informe o variable, para d
 * Cuántas visitas hizo un usuario que entró al sitio desde un vínculo enviado por la campaña XYZ hasta que hizo una compra.
 * Si, por ejemplo, los usuarios de Tokio hacen más visitas antes de generar una posible venta que los usuarios de Londres.
 
-> [!NOTE] Si el mismo visitante visita su sitio web varias veces en el mismo período, cada número de visita especificado se incrementa para cada visita.
+> [!NOTE] Si el mismo visitante viene al sitio varias veces dentro de un mismo período, todos los números de visitas especificados se incrementan con cada visita.
 
 Este informe se basa en los datos de identificación del visitante que recibe Adobe cada vez que los visitantes abren una página en sus navegadores. Adobe compara los datos que recibe con los datos históricos de identificación de los visitantes para determinar si la descarga de página es:
 
@@ -87,7 +87,7 @@ El informe [!UICONTROL Lealtad del cliente] revela los patrones de compra de los
 * **Cliente que vuelve**: visitantes que han realizado dos compras
 * **Cliente fiel**: visitantes que han realizado más de tres compras
 
-> [!NOTE] Al utilizar estas métricas, todas las visitas del usuario (o todos los visitantes) se representan en este informe, independientemente de si la visita (o el visitante) incluyó una compra.
+> [!NOTE] Cuando se usan estas métricas, todas las visitas (o todos los visitantes) del usuario aparecen en el informe, independientemente de si la visita (o el visitante) incluyó una compra.
 
 El estado de lealtad cambia después de que termine la visita en la que se produce un evento de compra. Por ejemplo, un cliente nuevo (una compra) hace una compra y, a continuación, en la misma visita, se inscribe para recibir un boletín de noticias. El evento de inscripción en el boletín todavía se considera una interacción con un cliente nuevo, porque el estado de lealtad del cliente no cambia hasta la siguiente visita.
 
@@ -101,11 +101,11 @@ c_reports_visitor_profile.xml
 
  -->
 
-**[!UICONTROL Idiomas]**: Muestra los idiomas preferidos de los visitantes, captura el idioma predeterminado del explorador y muestra los idiomas que los visitantes utilizan con más frecuencia en el sitio.
+**[!UICONTROL Idiomas]**: muestra los idiomas preferidos por los visitantes, captura el idioma del navegador predeterminado y muestra los idiomas que los visitantes usan con más frecuencia en su sitio.
 
 **[!UICONTROL Dominios]**: enumera las organizaciones y los ISP que los visitantes utilizan para acceder al sitio. Este informe difiere del informe de [!UICONTROL dominios completos] en que el informe de dominios completos registra el dominio completo del proveedor, mientras que el primero indica el dominio secundario.
 
-**[!UICONTROL Dominios de nivel superior]**: identifica las regiones del mundo de donde provienen los visitantes, basándose en la extensión del dominio de origen, y muestra la cantidad de visitantes que vienen de estos países. Los dominios con terminaciones comerciales (.com), de red (.net), de educación (.edu), de gobierno (.gov) y de organización (.org), generalmente, provienen de Estados Unidos y están separados de los demás dominios.
+**[!UICONTROL Dominios de nivel superior]**: identifica las regiones del mundo de donde provienen los visitantes, basándose en la extensión del dominio de origen, y muestra la cantidad de visitantes que vienen de estos países. Los dominios con las terminaciones comerciales (.com), red (.net), educación (.edu), gobierno (.gov) y organización (.org), generalmente provienen de Estados Unidos y se los separa de los demás dominios.
 
 **[!UICONTROL Códigos postales de visitantes]**: muestra el código postal de los clientes que tuvieron el mayor efecto en las métricas de éxito de compra.
 
