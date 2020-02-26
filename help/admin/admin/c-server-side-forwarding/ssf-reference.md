@@ -47,10 +47,10 @@ Los parámetros prefijados con `c_` identifican variables definidas por el clien
 | c_browserWidth y c_browserHeight | Anchura y altura de la ventana del navegador. |
 | c_campaign | La establece s.campaign . |
 | c_channel | La establece s.channel . |
-| c_clientDateTime | Marca de tiempo con formato   dd/mm/yyy hh:mm:ss  W TZ .    TZ se expresa en minutos y coincide con el resultado del método Date.getTimezoneOffset. |
+| c_clientDateTime | Marca de tiempo con formato   dd/mm/aaa hh:mm:ss  W TZ .    TZ se expresa en minutos y coincide con el resultado del método Date.getTimezoneOffset. |
 | c_colorDepth | Se especifica como color de 16 o 32 bits. |
 | c_connectionType | Especifica el tipo de conexión. Las opciones incluyen:<ul><li>modem</li><li>lan</li></ul> |
-| c_contextData.* | Ejemplos:<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>Signal: c_contextData.category=news</li></ul> |
+| c_contextData.* | Ejemplos:<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>Signal: c_contextData.category=news</li></ul> |
 | c_cookiesEnabled | Especifica si las cookies pueden habilitarse. Las opciones incluyen: sí, no, desconocido |
 | c_currencyCode | Tipo de divisa usada para la transacción. |
 | c_evar# | eVars personalizadas |
