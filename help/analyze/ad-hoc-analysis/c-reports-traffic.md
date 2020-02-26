@@ -3,7 +3,7 @@ description: Las fuentes de tráfico ofrecen una descripción detallada sobre c�
 title: Informes de fuentes de tráfico
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Los informes de fuentes de tráfico permiten:
 
 **Modo de persistencia común**
 
-En las [!UICONTROL fuentes de tráfico], todos los valores de los informes permanecen y reciben crédito hasta que resulten sobrescritos o hasta que termine la visita (lo que suceda primero). Antes, solo persistían los valores de Palabras clave y Dominios de referencia. Por ejemplo, si un visitante busca en Google la palabra  "DVD", que les lleva al sitio, donde efectúan una compra de 100 $, el informe asigna un crédito de 100 $ a la palabra clave "DVD" y también al motor de búsqueda de Google. This functionality is unalterable, regardless of [!DNL Admin Console] settings.
+En las [!UICONTROL fuentes de tráfico], todos los valores de los informes permanecen y reciben crédito hasta que resulten sobrescritos o hasta que termine la visita (lo que suceda primero). Antes, solo persistían los valores de Palabras clave y Dominios de referencia. Por ejemplo, si un visitante busca en Google la palabra  &quot;DVD&quot;, que les lleva al sitio, donde efectúan una compra de 100 $, el informe asigna un crédito de 100 $ a la palabra clave &quot;DVD&quot; y también al motor de búsqueda de Google. Este modo de funcionamiento es inalterable y no depende de la configuración de [!DNL Admin Console].
 
 ## Palabras clave de búsqueda {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -38,9 +38,9 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL Palabras clave de búsqueda: Todas]**: muestra un desglose de cada palabra clave de búsqueda que se ha utilizado para encontrar el sitio. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
+**[!UICONTROL Palabras clave de búsqueda - Todas]**: muestra un desglose de todas las palabras clave de búsqueda que se han utilizado para encontrar el sitio. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
 
-**[!UICONTROL Palabras clave de búsqueda: Pagado]**: muestra un desglose de cada palabra clave de búsqueda paga que se utilizó para encontrar el sitio. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
+**[!UICONTROL Palabras clave de búsqueda: Pagado]**: muestra un desglose de cada palabra clave de búsqueda pagada que se utilizó para encontrar el sitio. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
 
 **[!UICONTROL Palabras clave de búsqueda: Natural]**: muestra un desglose de cada palabra clave de búsqueda natural que se utilizó para encontrar el sitio. Para ordenar esta lista según las vistas de las páginas o las palabras clave de búsqueda, haga clic en el título de la columna que se encuentra sobre la lista. Haga clic en la lupa situada al lado de la palabra clave de búsqueda para ver los resultados de búsqueda correspondientes al sitio.
 
@@ -54,11 +54,11 @@ c_reports_search_engines.xml
 
  -->
 
-**[!UICONTROL Motores de búsqueda: Todos]**: muestra los motores de búsqueda que usan los visitantes para encontrar la página web. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
+**[!UICONTROL Motores de búsqueda: Todos]**: Muestra los motores de búsqueda que usan los visitantes para encontrar la página web. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
 
-**[!UICONTROL Motores de búsqueda: Pagado]**: muestra los motores de búsqueda de palabra clave paga que usan los visitantes para encontrar la página web. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
+**[!UICONTROL Motores de búsqueda: Pagado]**: Muestra los motores de búsqueda de palabra clave paga que usan los visitantes para encontrar la página web. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
 
-**[!UICONTROL Motores de búsqueda: Natural]**: muestra los motores de búsqueda de palabra clave natural que usan los visitantes para encontrar la página web. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
+**[!UICONTROL Motores de búsqueda: Natural]**: Muestra los motores de búsqueda de palabra clave natural que usan los visitantes para encontrar la página web. El gráfico muestra un desglose porcentual de los motores de búsqueda que se utilizan para encontrar el sitio.
 
 ## Dominios de referencia {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -70,7 +70,7 @@ c_reports_ref_domains.xml
 
 Muestra los dominios que atrajeron a aquellos clientes que repercutieron más sobre las métricas de éxito del sitio. Los referentes se dividen en dos categorías: dominios y direcciones URL. Los dominios se refieren al nombre de dominio y aparecen como el dominio base sin la cadena de consultas o los subdirectorios adjuntos. Las direcciones URL incluyen el nombre de dominio base, así como cualquier cadena de consulta o subdirectorio.
 
-## Dominios de referencia originales {#concept_EB18251DF70343169B46BB59543A579A}
+## Dominios de referencia originales  {#concept_EB18251DF70343169B46BB59543A579A}
 
 <!-- 
 
@@ -94,9 +94,9 @@ Por ejemplo, si un visitante llega al sitio haciendo clic en un vínculo desde e
 
 Todo dominio o dirección URL que no forme parte de esos dominios y direcciones URL definidos se consideran referentes. Por ejemplo, supongamos que la página web A y la página web B se agregan al filtro de URL interno, pero la página web C no. En este caso, la página web C se considera referente.
 
-Consulte [Filtros de URL internos](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) en la ayuda de [!DNL Admin Console] para obtener más información.
+Consulte [Filtros de URL internos](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/internal-url-filter-admin.translate.html) en la ayuda de [!DNL Admin Console] para obtener más información.
 
-> [!NOTE] Los informes y análisis de marketing registran un dominio de referencia como correo electrónico cuando los visitantes hacen clic en un vínculo de mensaje de correo electrónico que contiene el protocolo [!DNL imap://] o [!DNL mail://] llegan al sitio. Por ejemplo, todas las visitas procedentes de [!DNL https://mail.yahoo.com] no se cuentan como referente de correo electrónico, porque el protocolo es [!DNL https://]. Los mensajes de correo electrónico de Outlook se registran en la línea de direcciones escritas o marcadores, mientras que todos los referentes con protocolo HTTP cuyo dominio es un motor de búsqueda conocido se registran en la línea de motores de búsqueda.
+> [!NOTE] La función Marketing Reports and Analytics registra los dominios de referencia como correo electrónico cuando los visitantes llegan al sitio haciendo clic en un vínculo enviado por correo electrónico que contiene el protocolo [!DNL imap://] o [!DNL mail://]. Por ejemplo, todas las visitas procedentes de [!DNL https://mail.yahoo.com] no se cuentan como referente de correo electrónico, porque el protocolo es [!DNL https://]. Los mensajes de correo electrónico de Outlook se registran en la línea de direcciones escritas o marcadores, mientras que todos los referentes con protocolo HTTP cuyo dominio es un motor de búsqueda conocido se registran en la línea de motores de búsqueda.
 
 ## Tipo de referente {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -115,7 +115,7 @@ La lista siguiente define los distintos tipos de referentes:
 * Se graban los referentes *escritos/en marcadores*
 
    * Si un visitante entra en su sitio través de un enlace que no proceda del explorador (por ejemplo, en un correo electrónico).
-   * Si un visitante escribe la dirección URL del sitio directamente en el explorador.
+   * Si un visitante escribe la URL de su sitio directamente en el explorador.
    * Si un visitante hace clic en un enlace HTML en su disco duro personal.
    * Si un visitante accede a su sitio al seleccionar los marcadores del explorador.
 
@@ -123,11 +123,11 @@ La lista siguiente define los distintos tipos de referentes:
 
 Los siguientes artículos de línea podrían mostrarse cuando ejecute este informe:
 
-**Dentro de su sitio**: estos artículos son direcciones URL que son etiquetadas por los filtros de URL internos. Estos elementos no se cuentan como instancias de referente, sino que se pueden ver cuando se generan informes en otras métricas.
+**Dentro de su sitio**: estos artículos son direcciones URL que son etiquetadas por los filtros de URL internos. Estos elementos no se contabilizan como “instancias de referente” pero se pueden ver en los informes de otras métricas.
 
 **Sin JavaScript**: no hay JavaScript, por lo que el tipo no se puede identificar (desconocido). Esto significa que un cliente, desde un explorador, no proporcionó información de referente y, por consiguiente, no se sabe si admite JavaScript. No se contabilizan como “instancias de referente” pero se pueden ver en los informes de otras métricas.
 
 **USENET (grupos de noticias)**: significa que la dirección URL de un referente empezaba por `news://`. Por lo tanto, el vínculo de referente se publicó en un grupo de noticias Usenet, en vez de en una página web.
 
-> [!NOTE] La lógica de tipo de referente coincide con otros informes de fuentes de tráfico (como [!UICONTROL Referentes] y Dominios de [!UICONTROL referencia]). Esto debería reducir o eliminar la aparición de artículos de línea Dentro del sitio y Sin JavaScript en el informe de [!UICONTROL tipo de referente].
+> [!NOTE] La lógica del tipo de referente coincide con otros informes de fuentes de tráfico (por ejemplo, [!UICONTROL Referentes] y [!UICONTROL Dominios de referencia]). Esto debería reducir o eliminar la aparición de artículos de línea Dentro del sitio y Sin JavaScript en el informe de [!UICONTROL tipo de referente].
 
