@@ -2,7 +2,7 @@
 description: Cómo migrar cuentas de usuario como Enterprise ID o Federated ID a Admin Console.
 title: Migración de las cuentas de usuario de Analytics para Enterprise ID y Federated ID
 uuid: f90bf78a-5603-4bef-b714-13215301187c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
@@ -22,39 +22,39 @@ Si desea obtener nuevos dominios y directorios, siga los pasos para:
 * Configurar dominios
 * Vincular dominios a directorios
 
-Consulte [Configuración de un sistema de identidad](https://helpx.adobe.com/enterprise/using/set-up-identity.html) para obtener ayuda.
+Consulte [Configuración de un sistema de identidad](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html) para obtener ayuda.
 
-Si otra unidad o equipo comercial ya ha creado un directorio, siga los pasos de [apoderamiento de directorios](https://helpx.adobe.com/enterprise/using/set-up-identity.html#Directorytrusting) para establecer el directorio en la organización que utiliza para Analytics.
+Si otra unidad o equipo comercial ya ha creado un directorio, siga los pasos de [apoderamiento de directorios](https://helpx.adobe.com/es/enterprise/using/set-up-identity.html#Directorytrusting) para establecer el directorio en la organización que utiliza para Analytics.
 
 ## Migración de las cuentas de usuario para Enterprise ID y Federated ID {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 En este procedimiento hará lo siguiente:
 
-* Descargar una lista de inicios de sesión desde **[!UICONTROL Analytics]** &gt; **[!UICONTROL Usuarios y recursos de Analytics]**.
+* Descargar una lista de inicios de sesión desde **[!UICONTROL Analytics]** > **[!UICONTROL Usuarios y recursos de Analytics]**.
 
-* Descargar una lista de usuarios actuales desde **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Usuarios]**.
+* Descargar una lista de usuarios actuales desde **[!UICONTROL Admin Console]** > **[!UICONTROL Usuarios]**.
 
 * Comparar las listas (buscando duplicados, de forma que no pueda sobrescribir datos de cuenta en Admin Console).
-* Cargar un [!DNL .csv] finalizado (desde **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Usuarios]**) con usuarios de Enterprise ID o Federated ID en Admin Console.
+* Cargar un [!DNL .csv] finalizado (desde **[!UICONTROL Admin Console]** > **[!UICONTROL Usuarios]**) con usuarios de Enterprise ID o Federated ID en Admin Console.
 
-Si debe migrar cuentas de usuario de Adobe ID existentes a Enterprise ID o Federated ID, póngase en contacto con el servicio de atención al cliente de Adobe y solicite un [cambio de identidades de usuario por lotes](https://helpx.adobe.com/enterprise/using/bulk-operations.html).
+Si debe migrar cuentas de usuario de Adobe ID existentes a Enterprise ID o Federated ID, póngase en contacto con el servicio de atención al cliente de Adobe y solicite un [cambio de identidades de usuario por lotes](https://helpx.adobe.com/es/enterprise/using/bulk-operations.html).
 
 **Para migrar cuentas de usuario**
 
 1. Descargue el archivo de inicios de sesión de usuario de Analytics ([!DNL User Logins List.tab]) desde Administración de usuarios de Analytics utilizando uno de los métodos siguientes (en función de si ya ha migrado o no a los usuarios).
-   1. *Antes de la migración,* vaya a **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuarios (heredado)]** &gt; **[!UICONTROL Editar usuarios]** y luego haga clic en **[!UICONTROL Descargar informe]**.
+   1. *Antes de la migración,* vaya a **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios (heredado)]** > **[!UICONTROL Editar usuarios]** y luego haga clic en **[!UICONTROL Descargar informe]**.
 
       ![](assets/download-report.png)
 
       El vínculo Descargar informe solo se muestra a los clientes que no han migrado usuarios.
 
-   1. *Si ya ha migrado usuarios,* vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Usuarios y activos de Analytics]**.
+   1. *Si ya ha migrado usuarios,* vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Usuarios y activos de Analytics]**.
 
-      ![Información del paso](assets/admin-analytics-users-assets.png)
+      ![Información sobre los pasos](assets/admin-analytics-users-assets.png)
 
    1. En la página [!DNL Users], seleccione usuarios y luego haga clic en **[!UICONTROL Exportar a CSV]**.
 
-      ![Información del paso](assets/export-csv-migrate.png)
+      ![Información sobre los pasos](assets/export-csv-migrate.png)
 
    1. Abra el archivo [!DNL User List.csv] descargado en Excel.
 
@@ -64,9 +64,9 @@ Si debe migrar cuentas de usuario de Adobe ID existentes a Enterprise ID o Feder
 
       > [!TIP] Durante este paso, Adobe recomienda racionalizar la lista de usuarios para que solo se incluya a los que tengan un ID de correo electrónico válido en la migración de Enterprise ID o Federated ID.
 
-1. In the [!UICONTROL Admin Console], download a list of Admin Console users:
+1. En [!UICONTROL Admin Console], descargue una lista de usuarios de Admin Console:
 
-   1. Vaya a [!UICONTROL Admin Console] &gt; **[!UICONTROL Usuarios]** y haga clic en [Exportar lista de usuarios a CSV](https://helpx.adobe.com/enterprise/using/users.html).
+   1. Vaya a [!UICONTROL Admin Console] > **[!UICONTROL Usuarios]** y haga clic en [Exportar lista de usuarios a CSV](https://helpx.adobe.com/es/enterprise/using/users.html).
 
       ![](assets/export-csv.png)
 
@@ -77,7 +77,7 @@ Si debe migrar cuentas de usuario de Adobe ID existentes a Enterprise ID o Feder
 1. Descargue la plantilla CSV de Admin Console:
    1. En la ficha Usuarios, haga clic en **[!UICONTROL Añadir usuarios mediante CSV]** y luego en **[!UICONTROL Descargar plantilla CSV]**.
 
-      ![Información del paso](assets/add-users-csv.png)
+      ![Información sobre los pasos](assets/add-users-csv.png)
 
    1. Seleccione **[!UICONTROL Plantilla estándar]**.
 
@@ -102,7 +102,7 @@ Si debe migrar cuentas de usuario de Adobe ID existentes a Enterprise ID o Feder
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Correo electrónico  </p> </td> 
+   <td colname="col1"> <p>Correo electrónico </p> </td> 
    <td colname="col2"> <p>Se ha copiado de <span class="filepath">Lista de inicios de sesión de usuario.tab</span>. </p> </td> 
   </tr> 
   <tr> 
@@ -119,7 +119,7 @@ Si debe migrar cuentas de usuario de Adobe ID existentes a Enterprise ID o Feder
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dominio </p> </td> 
-   <td colname="col2"> <p>Asegúrese de que los dominios de las columnas Las columnas <span class="term"> Dominio</span> y <span class="term"> Correo electrónico</span> coinciden con los dominios establecidos en los  requisitos previos</a>. </p> </td> 
+   <td colname="col2"> <p>Asegúrese de que los dominios de las columnas Las columnas <span class="term"> Dominio</span> y <span class="term"> Correo electrónico</span> coinciden con los dominios establecidos en los requisitos previos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Código del país </p> </td> 
@@ -128,18 +128,18 @@ Si debe migrar cuentas de usuario de Adobe ID existentes a Enterprise ID o Feder
  </tbody> 
 </table>
 
-Para obtener más información sobre los campos del archivo [!DNL .csv], consulte el [formato de archivo CSV](https://helpx.adobe.com/enterprise/using/users.html).
+Para obtener más información sobre los campos del archivo [!DNL .csv], consulte el [formato de archivo CSV](https://helpx.adobe.com/es/enterprise/using/users.html).
 
-> [!NOTE] Otras columnas, como Configuraciones [!UICONTROL de productos] y Funciones [!UICONTROL de administración] , pueden estar en blanco.
+> [!NOTE] Otras columnas, como [!UICONTROL Configuraciones de productos] y [!UICONTROL Funciones de administración], pueden aparecer en blanco.
 
 1. En la pestaña Usuarios de Admin Console, cargue el archivo de plantilla haciendo clic en **[!UICONTROL Añadir usuarios mediante CSV]** (como se muestra en el paso 3).
 1. En Analytics, ejecute la herramienta de migración (como se describe en [Migrar cuentas de usuario de Analytics](/help/admin/user-management2/user-migration/t-migrate-users.md)).
-1. Haga clic en **[!UICONTROL Migrar]** &gt; **[!UICONTROL Migrar como Enterprise ID]**.
+1. Haga clic en **[!UICONTROL Migrar]** > **[!UICONTROL Migrar como Enterprise ID]**.
 
-   ![Información del paso](assets/migrate-as-enterprise.png)
+   ![Información sobre los pasos](assets/migrate-as-enterprise.png)
 
-   Cuando hace clic en **[!UICONTROL Migrar]**, los usuarios se vinculan a la cuenta de Enterprise ID/Federated ID en Admin Console. Los permisos de la cuenta de usuario heredada de Analytics coincidirán con los permisos otorgados al inicio de sesión de Enterprise/Federated ID en **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL Perfiles de producto]**. El ID de usuario se muestra en el bloque Migración completada. Puede desactivar su acceso a [!DNL my.omniture.com] heredado.
+   Cuando hace clic en **[!UICONTROL Migrar]**, los usuarios se vinculan a la cuenta de Enterprise ID/Federated ID en Admin Console. Los permisos de la cuenta de usuario heredada de Analytics coincidirán con los permisos otorgados al inicio de sesión de Enterprise/Federated ID en **[!UICONTROL Admin Console]** > **[!UICONTROL Analytics]** > **[!UICONTROL Perfiles de producto]**. El ID de usuario se muestra en el bloque Migración completada. Puede desactivar su acceso a [!DNL my.omniture.com] heredado.
 
-   After migrating users, the status under the Migration Status column changes from **[!UICONTROL Not Initiated]** to **[!UICONTROL Migrated]**.
+   Después de migrar los usuarios, el estado de la columna Estado de la migración pasa de **[!UICONTROL No iniciado]** a **[!UICONTROL Migrado]**.
 
    Los usuarios de Adobe ID que se muestran en la herramienta de migración también se pueden migrar en este proceso. Aún deben iniciar sesión con su Adobe ID hasta que se realice un cambio de identidad. Póngase en contacto con el servicio de atención al cliente para obtener ayudar con un cambio de identidad.
