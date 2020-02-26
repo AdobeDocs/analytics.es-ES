@@ -1,16 +1,16 @@
 ---
-description: Introducción a los análisis específicos.
+description: Introducción a Ad Hoc Analysis.
 title: Introducción
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Introducción a Análisis específicos{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# Introduccción a Ad Hoc Analysis {#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Iimportante]
+>[!IImportante]
 >El 6 de agosto de 2018 Adobe anunció su intención de finalizar el servicio de Ad Hoc Analysis. La fecha se hará pública una vez que esté disponible. Para obtener más información, incluidas las versiones de Java compatibles durante este periodo, visite [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
 Puede realizar análisis instantáneos y avanzados sobre la actividad de un sitio web. Se pueden ver varios informes a la vez y aplicar segmentos a lo largo de varias dimensiones. Los datos se pueden analizar desde perspectivas micro y macro para ver cómo repercuten en las métricas de negocio importantes.
@@ -27,7 +27,7 @@ Estas características permiten responder a preguntas sobre el tráfico del siti
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. Iniciar sesión en Adobe <span class="keyword">Analytics</span>. </p> </td> 
-   <td colname="col2"> <p>Go to <a href="https://marketing.adobe.com"  > marketing.adobe.com </a>and log in using your Adobe Analytics credentials. </p> </td> 
+   <td colname="col2"> <p>Vaya a <a href="https://marketing.adobe.com"  >marketing.adobe.com</a> e inicie sesión con sus credenciales de Adobe Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. Iniciar Ad Hoc Analysis. </p> </td> 
@@ -35,19 +35,19 @@ Estas características permiten responder a preguntas sobre el tráfico del siti
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Crear un proyecto. </p> </td> 
-   <td colname="col2"> <p>En la página de inicio, seleccione un grupo de informes y haga clic en <span class="uicontrol">Crear proyecto</span>. </p> <p>See <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Projects and Workspaces</a>. </p> </td> 
+   <td colname="col2"> <p>En la página de inicio, seleccione un grupo de informes y haga clic en <span class="uicontrol">Crear proyecto</span>. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Proyectos y espacios de trabajo</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. Abrir un informe. </p> </td> 
-   <td colname="col2"> <p>Busque un informe con el menú de informes estándar de Cloud. También puede elegir una plantilla. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Plantillas de informe</a>. </p> </td> 
+   <td colname="col2"> <p>Busque un informe con el menú de informes estándar de Cloud. También puede elegir una plantilla. </p> <p>Consulte  <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Plantillas de informe</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5. Configurar el informe. </p> </td> 
    <td colname="col2"> <p>Para configurar el informe deberá realizar diversas tareas: </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Crear segmentos para profundizar en los datos. </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Agregar métricas, dimensiones y segmentos al <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Generador de tablas</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuración de intervalos <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   > de fechas</a> </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Agregar métricas, dimensiones y segmentos al  <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Generador de tablas</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuración de <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   >intervalos de fechas</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Programar</a> el envío de informes </li> 
     </ul> <p>Busque en este sistema de ayuda para encontrar la ayuda que necesita. </p> </td> 
   </tr> 
@@ -64,7 +64,7 @@ c_sys_reqs.xml
 
  -->
 
-> [!NOTE] A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si decide ejecutar Análisis específicos en Java 7 después de la versión de mantenimiento de julio de 2018, Adobe ya no admitirá la implementación de Análisis específicos.
+> [!NOTE] A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si ejecuta Ad Hoc Analysis en Java 7 después de la actualización de mantenimiento de julio de 2018, Adobe no ofrecerá compatibilidad para su implementación de análisis específicos.
 
 * Tarjeta de vídeo compatible con OpenGL 2.0
 * Cookies: obligatorio
@@ -73,13 +73,13 @@ c_sys_reqs.xml
 * Resolución del monitor: 800 x 600 (se recomienda 1024 x 768)
 * Profundidad de color: 16 bits o superior
 * JavaScript: habilitado
-* Versión de Java:  Java 1.7 o versiones posteriores  (consulte la nota anterior)
+* Versión de Java:   Java 1.7 o versiones posteriores   (consulte la nota anterior)
 
    Si no tiene instalada la versión correcta de Java, se instalará automáticamente. Si tiene instalada una versión incompatible de Java, Ad Hoc Analysis descargará las actualizaciones y le pedirá que las instale.
 
-## Instrucciones de actualización de Java {#section_E4C0C6492FF24636A0FF71A59331111D}
+## Instrucciones de actualización de Java  {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si decide ejecutar Análisis específicos en Java 7 después de la versión de mantenimiento de julio de 2018, Adobe ya no admitirá la implementación de Análisis específicos.
+A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si ejecuta Ad Hoc Analysis en Java 7 después de la actualización de mantenimiento de julio de 2018, Adobe no ofrecerá compatibilidad para su implementación de análisis específicos.
 
 Nuestros archivos .jar están firmados con un cifrado seguro de 256 bits con el que las versiones de Java anteriores a la 1.7.0_76 no son compatibles. Este certificado de 256 bits nos permite ofrecerle una mayor seguridad.
 
@@ -116,13 +116,13 @@ t_login_suite.xml
 
  -->
 
-1. In a browser, navigate to [!DNL marketing.adobe.com].
-1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
-1. Click **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL Ad Hoc Analysis]**.
+1. En un navegador, vaya a [!DNL marketing.adobe.com].
+1. Escriba el nombre de la empresa, el nombre de usuario y la contraseña. A continuación, haga clic en **[!UICONTROL Iniciar sesión]**.
+1. Haga clic en **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Herramientas]** > **[!UICONTROL Ad Hoc Analysis]**.
 
    Si no ve el botón **Iniciar Ad Hoc Analysis** en esta página, asegúrese de que el administrador lo haya agregado al grupo *Usuarios con licencias de Ad Hoc Analysis* en las herramientas de administración.
-1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. Guarde el [!DNL discover.jnlp] archivo localmente.
+1. Haga clic en **[!UICONTROL Iniciar Ad Hoc Analysis]**.
+1. Guarde el archivo [!DNL discover.jnlp] localmente.
 
    Puede ejecutar este archivo que guardó cada vez que desee iniciar Ad Hoc Analysis.
 
@@ -155,7 +155,7 @@ t_project_start.xml
  -->
 
 1. Inicie sesión.
-1. Abra un proyecto o haga clic en **[!UICONTROL Crear proyecto]**.
+1. Abra un proyecto guardado o haga clic en **[!UICONTROL Crear proyecto]**.
 1. Busque un informe o elija una plantilla.
 
 ## Apertura de espacios de trabajo guardados recientemente {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
@@ -168,7 +168,7 @@ t_recent_workspace.xml
 
  -->
 
-1. Click **[!UICONTROL File]** &gt; **[!UICONTROL Recent Workspace]**.
+1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Espacio de trabajo reciente]**.
 
    Puede abrir un máximo de cinco espacios de trabajo recientes. Estos espacios de trabajo dejan de estar disponibles al cerrar la sesión.
 
@@ -182,20 +182,20 @@ t_share_projects.xml
 
  -->
 
-1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
-1. **[!UICONTROL Seleccione Proyectos]****[!UICONTROL compartidos en]** Guardar en: desplegable.
+1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Guardar como]**.
+1. Seleccione **[!UICONTROL Proyectos compartidos]** en el menú desplegable **[!UICONTROL Guardar en:]**. 
 
    ![](assets/shared_projects.png)
 
-1. Click **[!UICONTROL Save]** to save the project.
+1. Haga clic en **[!UICONTROL Guardar]** para guardar el proyecto.
 
-   Shared projects can be opened via **[!UICONTROL File]** &gt; **[!UICONTROL Open]** &gt; **[!UICONTROL Shared Projects]**.
+   Los proyectos compartidos se pueden abrir a través de **[!UICONTROL Archivo]** > **[!UICONTROL Abrir]** > **[!UICONTROL Proyectos compartidos]**.
 
    >[!NOTE]
    >
-   >Puede eliminar sus propios proyectos compartidos en el mismo cuadro de diálogo para compartir proyectos seleccionando uno o varios proyectos.
+   >Puede eliminar sus proyectos compartidos en el mismo cuadro de diálogo de proyectos compartidos seleccionando uno o más proyectos.
 
-## Rename a Workspace {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
+## Cambio de nombre de un espacio de trabajo {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
 
 Instrucciones sobre cómo cambiar el nombre de espacio de trabajo.
 
@@ -206,8 +206,8 @@ t_rename_workspace.xml
  -->
 
 1. Haga clic con el botón derecho en el nombre del espacio de trabajo.
-1. Choose **[!UICONTROL Rename Workspace]**.
-1. Type a name, then click **[!UICONTROL OK]**.
+1. Elija **[!UICONTROL Cambiar nombre de espacio de trabajo]**.
+1. Escriba un nombre y haga clic en **[!UICONTROL Aceptar]**.
 
 ## Abrir un proyecto local {#task_1B3EF63A80C74776B24B99D80EAC74AC}
 
@@ -219,8 +219,8 @@ t_open_local_project.xml
 
  -->
 
-1. Click **[!UICONTROL File]** &gt; **[!UICONTROL Open Local Copy]**.
-1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
+1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Abrir copia local]**.
+1. Vaya al archivo local [!DNL .dproj] y, a continuación, haga clic en **[!UICONTROL Abrir]**.
 
 ## Plantillas de informe {#concept_370F674C5B4C45368731AA801C5A45F8}
 
@@ -232,7 +232,7 @@ c_templates.xml
 
  -->
 
-You can access templates when creating a project ( **[!UICONTROL File]** &gt; **[!UICONTROL New Project]**), or by adding a workspace or report.
+Las plantillas se pueden usar al crear un proyecto (**[!UICONTROL Archivo]** > **[!UICONTROL Nuevo proyecto]**) o al agregar un espacio de trabajo o informe.
 
 | Plantilla | Descripción |
 |--- |--- |
@@ -258,5 +258,5 @@ t_reports_opening.xml
 Puede abrir un informe de las siguientes maneras:
 
 * En la página [!UICONTROL Nuevo informe], busque un informe o elija una plantilla.
-* En el menú, haga clic en **[!UICONTROL Informes]y seleccione un informe o una plantilla de informe.**
-* Para ejecutar un informe desde una dimensión, haga clic con el botón derecho en el nombre de la dimensión y seleccione **[!UICONTROL Ejecutar informe]** &gt; **`report name`**.
+* En el menú, haga clic en **[!UICONTROL Informes]** y seleccione un informe o una plantilla de informe.
+* Para ejecutar un informe desde una dimensión, haga clic con el botón derecho en el nombre de la dimensión y seleccione **[!UICONTROL Ejecutar informe]** >   **`report name`**.
