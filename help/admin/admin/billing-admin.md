@@ -3,7 +3,7 @@ description: La página Facturación permite acceder a la información de factur
 title: Facturación
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,10 +34,10 @@ El informe de [!UICONTROL facturación mensual] resultante incluirá la siguient
 | Llamadas primarias al servidor | Solicitudes recibidas directamente desde los exploradores de los visitantes del sitio web o la API de inserción de datos. Incluye Visitas individuales primarias (Vistas de página), Eventos personalizados primarios, Eventos de descarga primarios y Eventos de salida primarios. |
 | Llamadas secundarias al servidor | Copias de las llamadas al servidor primarias creadas mediante etiquetas de conjuntos múltiples, o copiadas o movidas a través de una regla de VISTA.  Si una regla de VISTA ha movido (no copiado) a otro grupo de informes una llamada secundaria al servidor, la página Facturación indica esta transferencia con un número negativo. En ese caso, la suma de las llamadas secundarias se resta de las llamadas primarias al servidor. |
 | Total de llamadas al servidor | Total combinado de llamadas primarias y secundarias al servidor de este grupo de informes en la ubicación determinada. |
-| Vistas de páginas | Los totales de las vistas de páginas correspondientes a cada grupo de informes. Puede confirmar los valores de las vistas de páginas en Métricas del sitio &gt; Vistas de páginas. |
-| Descargas | Descargas totales de cada grupo de informes. Puede confirmar los valores de descarga en Contenido del sitio &gt; Vínculos &gt; Descargas de archivos. |
-| Vínculos personalizados | Vínculos personalizados totales por cada grupo de informes. Puede confirmar los valores de vínculos personalizados en Contenido del sitio &gt; Vínculos &gt; Vínculos personalizados. |
-| Vínculos de salida | Vínculos de salida totales por cada grupo de informes. Puede confirmar los valores de vínculos de salida en Contenido del sitio &gt; Vínculos &gt; Vínculos de salida. |
+| Vistas de páginas | Los totales de las vistas de páginas correspondientes a cada grupo de informes. Puede confirmar los valores de las vistas de páginas en Métricas del sitio > Vistas de páginas. |
+| Descargas | Descargas totales de cada grupo de informes. Puede confirmar los valores de descarga en Contenido del sitio > Vínculos > Descargas de archivos. |
+| Vínculos personalizados | Vínculos personalizados totales por cada grupo de informes. Puede confirmar los valores de vínculos personalizados en Contenido del sitio > Vínculos > Vínculos personalizados. |
+| Vínculos de salida | Vínculos de salida totales por cada grupo de informes. Puede confirmar los valores de vínculos de salida en Contenido del sitio > Vínculos > Vínculos de salida. |
 
 > [!NOTE] Para obtener una copia de trabajo del informe de [!UICONTROL Facturación mensual], es necesario copiar este informe en el portapapeles y pegarlo en un programa de hoja de cálculo como Microsoft Excel*.
 
