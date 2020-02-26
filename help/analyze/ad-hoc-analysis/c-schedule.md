@@ -3,7 +3,7 @@ description: La programación de envío de los informes se puede personalizar. P
 title: Administrador de programación
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,13 +17,13 @@ La programación de envío de los informes se puede personalizar. Por ejemplo, d
 
 La programación de envío de los informes se puede personalizar. Por ejemplo, detener el envío de informes en un momento determinado o indicar la cantidad de veces que se desea enviar un informe. Cuando se crea una programación nueva, esta usa el intervalo de fechas definido en el informe. Por ejemplo, si crea un informe para los últimos 90 días y lo programa de modo que se ejecute en forma diaria, cada día recibirá un informe de los últimos 90 días. Si crea un informe con un intervalo de fechas estático del calendario, verá el mismo informe cada vez que se envíe.
 
-> [!NOTE] Cuando se deshabilita una cuenta de usuario, se suspenden todos los envíos de informes programados que haya creado ese usuario.
+> [!NOTE] Cuando se deshabilita la cuenta de un usuario, todos los envíos de informes programados que hayan sido creados por ese usuario se suspenderán.
 
-Para asegurarse de que los elementos de línea de un desglose son persistentes en los informes programados y guardados, utilice la función **[!UICONTROL Editar elementos]** del Generador de [tablas](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) para crear listas de dimensiones fijas en los desgloses.
+Para garantizar que los elementos de línea de un desglose son persistentes en los informes programados y guardados, utilice la función **[!UICONTROL Editar elementos]** del [Generador de tablas](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) para crear listas de dimensiones fijas en los desgloses.
 
 >[!IMPORTANT]
 >
->Los análisis específicos le permiten definir y programar rápidamente informes para satisfacer necesidades específicas de informes puntuales y específicos. No se ha diseñado para la exportación completa de datos con una gran cantidad de datos o filas, columnas, evaluaciones métricas o desgloses exhaustivos con extractos de datos.
+>Ad Hoc Analysis le permite definir y programar rápidamente informes para la generación de informes específicos, adecuados y específicos que necesita. No se ha diseñado para la exportación completa de datos con una gran cantidad de datos o filas, columnas, evaluaciones métricas o desgloses exhaustivos con extractos de datos.
 >
 >Las restricciones prácticas para los informes programados en Ad Hoc Analysis se basan en este principio: si su informe no se genera en diez minutos (el tiempo de espera para Ad Hoc Analysis), lo más probable es que su informe sea demasiado complejo.
 >
@@ -41,8 +41,8 @@ t_schedule_delivery.xml
 
  -->
 
-1. Click **[!UICONTROL Tools]**, then click **[!UICONTROL Schedule Manager]**.
-1. En el [!UICONTROL Administrador de programación]**, haga clic en[!UICONTROL Nuevo].**
+1. Haga clic en **[!UICONTROL Herramientas]** y, a continuación, en **[!UICONTROL Administrador de programación]**.
+1. En el [!UICONTROL Administrador de programación], haga clic en **[!UICONTROL Nuevo]**. 
 
 ## Opciones de envío: definiciones {#reference_CA49AC560258471AAE959BCA243F170C}
 
@@ -85,7 +85,7 @@ La información que se muestra en el informe seleccionado en un determinado mome
   </tr> 
   <tr> 
    <td colname="col1"> <p> Avanzado </p> </td> 
-   <td colname="col2"> <p> See <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Advanced Format Settings</a>. </p> </td> 
+   <td colname="col2"> <p> Consulte <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   >Configuración avanzada de formato</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Destino del archivo </p> </td> 
