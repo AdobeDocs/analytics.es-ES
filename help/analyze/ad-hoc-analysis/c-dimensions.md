@@ -3,7 +3,7 @@ description: Las dimensiones son descripciones o características de datos de m�
 title: Dimensiones
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,9 +23,9 @@ Estos son algunos ejemplos de dimensiones:
 * Día, semana, mes, etc.
 * Lealtad
 * Resolución del monitor
-* Valores de s.prop y eVars personalizadas
+* Valores del término de búsqueda interna s.prop y eVars personalizados
 
-**[!UICONTROL Panel]Dimensiones**
+**[!UICONTROL Panel Dimensiones]**
 
 El panel [!UICONTROL Dimensiones] enumera y organiza todas las dimensiones de productos de su implementación de Reports and Analytics de marketing. Los informes se pueden basar en cualquier elemento de dimensiones. Las dimensiones se pueden desglosar según otras dimensiones para analizar y comparar casi cualquier cosa.
 
@@ -33,7 +33,7 @@ En el panel [!UICONTROL Dimensiones], se pueden buscar dimensiones y arrastrarla
 
 Las dimensiones se pueden ordenar según las siguientes categorías:
 
-| Categoría de dimensión | Descripción |
+| Categoría de la dimensión | Descripción |
 |--- |--- |
 | Tráfico | Incluye artículos del navegador, campañas Target, ubicación geográfica, vínculos personalizados, propiedades de tráfico personalizadas, dominios, descargas, referentes, dominios de referencia, etc. |
 | Conversión | Incluye campañas, categorías, eVars personalizadas, productos, códigos de seguimiento, etc.  |
