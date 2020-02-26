@@ -2,7 +2,7 @@
 description: Esta página de ayuda contiene casos de uso recomendados para cada herramienta de Adobe Analytics. Las herramientas deben considerarse en el orden en que aparecen en la lista. Si una herramienta específica no se adapta a sus necesidades, continúe con la siguiente herramienta.
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 ---
@@ -30,7 +30,7 @@ Para obtener más información sobre comparativas de producto de Adobe Analytics
 * Para acceder a exclusivas visualizaciones de vídeo de Espectador recurrente, Momentos de visualización y Abandono de espectadores.
 * Para utilizar las Listas de publicación en informes programados.
 
-La **[interfaz de usuario de Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**debe usarse:
+La **[interfaz de usuario de Mobile Services](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html)**debe usarse:
 
 * Para obtener una vista aislada de los datos de aplicaciones móviles.
 * Para administrar la implementación del SDK de su aplicación móvil.
@@ -45,7 +45,7 @@ Los **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**deben usar
 * Para organizar por fichas el trabajo de los proyectos.
 * Para usar el informe de Análisis del sitio (informe de rutas en 3D).
 
-El **[Área de trabajo de datos](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**debe usarse:
+El **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**debe usarse:
 
 * Como la opción de herramienta de Analytics más flexible (para análisis en el nivel de visita y de visitante).
 * Para crear un conjunto de datos de varios canales de interacciones en línea y sin conexión desde CRM hasta POS a web.
@@ -73,7 +73,7 @@ Las **[Fuentes de datos](/help/import/c-data-sources/datasrc-home.md)**deben usa
    * ID de transacción: cargas de datos que conectan un extremo en línea a datos sin conexión y que asocian por completo los datos importados a una instantánea de visitante capturada en línea (por ejemplo, pedidos completados en línea y devueltos sin conexión)
    * Procesamiento completo: fuentes de datos con marca de tiempo, procesadas como si fueran visitas recopiladas por servidores de Adobe (es decir, los datos se insertan directamente en el recorrido del visitante).
 
-Los **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(anteriormente, Génesis)** deben usarse:
+Los **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(anteriormente, Génesis)**deben usarse:
 
 * Al interactuar con un proveedor ajeno que dispone de una conexión compatible con Adobe Analytics. Los Data Connectors suelen incorporar a Adobe Analytics datos en el nivel de resumen de manera permanente, automática y recurrente.
 
@@ -119,7 +119,7 @@ Las **[API de informes](https://marketing.adobe.com/developer/get-started/introd
 
 * **Procesamiento total**: cuando desea usar datos con funciones avanzadas (como visitas, visitantes y segmentos). Son datos resumidos típicos de la interfaz de usuario de Analytics que están disponibles en ~30-90 minutos. Se puede usar mediante el Report Builder.
 * **Tiempo real:** si desea ver unas pocas métricas y dimensiones con segundos de latencia. Son datos resumidos limitados y procesados parcialmente que están disponibles en ~30 segundos. Se incluyen algoritmos únicos de los más populares, ganadores y perdedores. Se puede usar mediante el Report Builder.
-* **[!UICONTROL Emisión en directo]**: si desea un flujo de datos de Analytics de nivel de visita procesados parcialmente pocos segundos después de su recopilación. Son datos procesados parcialmente que están disponibles en ~30 segundos. Solo está disponible para Analytics Premium. Necesita otra forma de visualizar los datos (normalmente, mediante una participación de los Servicios de ingeniería).
+* **[!UICONTROL Emisión en directo]**: Si desea un flujo de datos de Analytics de nivel de visita procesados parcialmente pocos segundos después de su recopilación. Son datos procesados parcialmente que están disponibles en ~30 segundos. Solo está disponible para Analytics Premium. Necesita otra forma de visualizar los datos (normalmente, mediante una participación de los Servicios de ingeniería).
 
 ## Soluciones personalizadas {#section_4A212F26A15947599DFB0399A0440CB6}
 
