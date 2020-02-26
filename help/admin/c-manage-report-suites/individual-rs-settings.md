@@ -3,7 +3,7 @@ description: La característica Configuración de grupo de informes individuales
 title: Configuración de grupos de informes individuales
 topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,5 +18,5 @@ Para acceder a [!UICONTROL Configuración de grupos de informes individuales]:
 1. Haga clic en **[!UICONTROL Administración]** y, a continuación, en **[!UICONTROL Grupos de informes]**.
 
 1. Selección de un grupo de informes.
-1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Configuración de grupo de informes individuales]** &gt; *`<selection>`*.
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Configuración de grupo de informes individuales]** > *`<selection>`*.
 
