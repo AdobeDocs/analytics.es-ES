@@ -3,7 +3,7 @@ description: Descripción de los tipos de informes usados en Experience Cloud.
 title: Tipos de informes
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -54,11 +54,11 @@ t_trend_row.xml
 **Para analizar tendencias desde celdas**
 
 1. Abra un informe de clasificación.
-1. En la tabla, busque y seleccione la celda deseada y haga clic en **[!UICONTROL Tendencia]**.
+1. En la tabla, ubique la celda deseada y haga clic en **[!UICONTROL Tendencia]**. 
 
    ![](assets/TrendInspector_Buttcon.png)
 
-1. Para iniciar un informe completo desde la celda, haga clic en **[!UICONTROL Iniciar informe de tendencias]**.
+1. Para ver un informe completo desde la celda, haga clic en **[!UICONTROL Iniciar informe de tendencias]**.
 
    También se puede hacer clic en la celda con el botón derecho y luego hacer clic en **[!UICONTROL Celda de tendencias]**. Esta tarea también se puede realizar después de seleccionar varias celdas.
 
