@@ -3,7 +3,7 @@ description: Puede crear un nuevo grupo de informes seleccionando como modelo un
 title: Descargar la configuración del grupo de informes
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -55,11 +55,11 @@ Descripción de los elementos utilizados al [crear un grupo de informes](/help/a
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Moneda base</span> </td> 
-   <td colname="col2"> <p>Especifica la divisa predeterminada que se usará para almacenar todos los datos monetarios. Analytics convierte las transacciones en otras monedas a la moneda base mediante la tasa de conversión vigente en el momento de recibir los datos. </p> <p> Los informes de Analytics usan la variable Variable <span class="varname"> currencyCode</span> de JavaScript para identificar la divisa de una determinada transacción. </p> </td> 
+   <td colname="col2"> <p>Especifica la divisa predeterminada que se usará para almacenar todos los datos monetarios. Analytics convierte las transacciones en otras monedas a la moneda base mediante la tasa de conversión vigente en el momento de recibir los datos. </p> <p> Los informes de Analytics usan la variable Variable <span class="varname">currencyCode</span> de JavaScript para identificar la divisa de una determinada transacción. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Deshabilitar compatibilidad con caracteres de byte múltiple </span> </td> 
-   <td colname="col2"> <p>Desactiva la compatibilidad con caracteres multibyte en el grupo de informes. Si se desactiva la compatibilidad con caracteres multibyte, el sistema supondrá que los datos están en formato ISO-8859-1. Las páginas web deben especificar su conjunto de caracteres en la variable Variable <span class="varname"> charSet</span> de JavaScript. </p> <p>La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing. </p> <p>Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, el usuario debe ponerse en contacto con el Administrador de cuentas o Atención al cliente. </p> </td> 
+   <td colname="col2"> <p>Desactiva la compatibilidad con caracteres multibyte en el grupo de informes. Si se desactiva la compatibilidad con caracteres multibyte, el sistema supondrá que los datos están en formato ISO-8859-1. Las páginas web deben especificar su conjunto de caracteres en la variable Variable <span class="varname">charSet</span> de JavaScript. </p> <p>La compatibilidad con caracteres multibyte almacena los caracteres del grupo de informes en UTF-8. El sistema, al recibir los datos del conjunto de caracteres de la página web, los convierte al conjunto de caracteres UTF-8, para que pueda utilizar cualquier idioma en los informes de marketing. </p> <p>Para cambiar la compatibilidad de caracteres multibyte en un grupo de informes existente, el usuario debe ponerse en contacto con el Administrador de cuentas o Atención al cliente. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Activar los Ad Hoc Analysis en este grupo</span> </td> 
