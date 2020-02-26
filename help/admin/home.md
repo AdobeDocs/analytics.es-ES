@@ -30,9 +30,9 @@ Esta guía no cubre muchas de las capacidades genéricas que ofrece Adobe Admin 
 * [Guía introductoria para administradores de Analytics](admin-console/first-admin-guide.md): Si su empresa es nueva en Adobe Analytics, siga esta guía para comenzar a sacar el máximo partido a Adobe Analytics.
 * [Administrador de grupos de informes](c-manage-report-suites/report-suites-admin.md): La herramienta de administración más utilizada en Analytics. El Administrador de grupos de informes contiene opciones para la administración de variables, administración de clasificación, zonas horarias y mucho más.
 
-## Más guías de usuario de Analytics
+## Más guías del usuario de Analytics
 
-[Guías de usuario de Analytics](/help/landing/home.md)
+[Guías del usuario de Analytics](/help/landing/home.md)
 
 ## Recursos clave de Analytics
 
