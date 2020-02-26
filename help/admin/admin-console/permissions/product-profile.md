@@ -33,13 +33,13 @@ Concede acceso a los grupos de informes que pertenecen a su organización de Ana
 
 Otorga acceso a las métricas del grupo de informes. Las métricas se muestran como su componente respectivo en Analysis Workspace o si la métrica está disponible en Reports &amp; Analytics, disponible como un elemento de menú en Métricas del sitio.
 
-Las métricas personalizadas están etiquetadas como 'Evento personalizado 1-1000' para mantenerlas independientes de los grupos de informes. Si 'Evento personalizado 1' es un elemento de permiso habilitado, ese usuario tiene acceso a event1 en todos los grupos de informes del perfil de producto.
+Las métricas personalizadas están etiquetadas como &#39;Evento personalizado 1-1000&#39; para mantenerlas independientes de los grupos de informes. Si &#39;Evento personalizado 1&#39; es un elemento de permiso habilitado, ese usuario tiene acceso a event1 en todos los grupos de informes del perfil de producto.
 
 ### Dimensiones
 
 Otorga acceso a las dimensiones del grupo de informes. Las dimensiones se muestran como sus respectivos componentes en Analysis Workspace o si están disponibles en Reports &amp; Analytics, disponibles como elemento de menú.
 
-Las variables personalizadas, como las eVars, están etiquetadas como 'Conversión personalizada 1-250' para mantenerlas independientes de los grupos de informes. Si 'Conversión personalizada 1' es un elemento de permiso habilitado, ese usuario tiene acceso a eVar1 en todos los grupos de informes del perfil de producto.
+Las variables personalizadas, como las eVars, están etiquetadas como &#39;Conversión personalizada 1-250&#39; para mantenerlas independientes de los grupos de informes. Si &#39;Conversión personalizada 1&#39; es un elemento de permiso habilitado, ese usuario tiene acceso a eVar1 en todos los grupos de informes del perfil de producto.
 
 ### Herramientas de grupos de informes
 
