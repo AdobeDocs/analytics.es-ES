@@ -27,7 +27,7 @@ Está previamente completado con **1 alerta predeterminada** que aparece en cual
 Puede acceder a las alertas de uso de llamadas al servidor de dos formas:
 
 * Haga clic en **[!UICONTROL Administrar alertas]** en la esquina superior derecha de la ficha Uso actual en la pestaña de uso de Grupo de informes o
-* Vaya a **[!UICONTROL Componentes]** &gt; **[!UICONTROL Alertas]** en Adobe Analytics.
+* Vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** en Adobe Analytics.
 
 ## Crear alertas de uso de llamadas al servidor {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
@@ -51,7 +51,8 @@ Para crear alertas adicionales,
 Añada el tipo de llamadas al servidor como métrica y especifique el umbral de alertas seleccionando el modificador y el umbral:
          * mayor o igual que
          * menor o igual que
-      * con Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
+      * con
+Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
