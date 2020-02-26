@@ -3,7 +3,7 @@ description: Define la configuración común de un sitio Web que proporciona inf
 title: Generación de posibles clientes
 topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Define la configuración común de un sitio Web que proporciona información acerca de servicios y productos que normalmente se venden mediante un compromiso ulterior.
 
-| Variables de conversión | Tipo | Subrelaciones | Asignación | Vencimiento | `s_code` campaign |
+| Variables de conversión | Tipo | Subrelaciones | Asignación | Caducidad | `s_code` campaign |
 |---|---|---|---|---|---|
 | Promoción interna | Cadena | Básica | Más reciente (última) | Visita | `evar1` |
 | Términos de búsqueda interna | Cadena | Básica | Más reciente (última) | Visita | `evar2` |
@@ -35,7 +35,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Unidades | Contador | `purchase` |
 | Carros de compras | Contador | `scOpen` |
 | Vistas del carro de compras | Contador | `scView` |
-| Instancias | Contador | N/D |
+| Instancias | Contador | N/A |
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
