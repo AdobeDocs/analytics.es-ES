@@ -3,7 +3,7 @@ description: Permite que los usuarios de nivel de administración vean y gestion
 title: Cola de informes programados
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Permite que los usuarios de nivel de administración vean y gestionen informes programados en toda la organización.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Informes programados]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Informes programados]**
 
 Algunas funciones de nivel de administración en el Administrador de informes programados son:
 
@@ -38,11 +38,11 @@ Por ejemplo, si desea filtrar todos los informes que están programados cada hor
 
 ## Cola de informes {#section_03C866115D354BB182E90BF4D52F1E0B}
 
-Esta cola le permite gestionar y eliminar potencialmente cualquier informe programado que esté "obstaculizando" la cola. (Generalmente, los informes agotan el tiempo de espera a las 4 horas).
+Esta cola le permite gestionar y eliminar potencialmente cualquier informe programado que esté &quot;obstaculizando&quot; la cola. (Generalmente, los informes agotan el tiempo de espera a las 4 horas).
 
 ![](assets/scheduled_reports_2.png)
 
-La cola de informes también le proporciona la habilidad de "Omitir el informe programado una vez". Haga clic en el icono azul en la columna **[!UICONTROL Administrar]**.
+La cola de informes también le proporciona la habilidad de &quot;Omitir el informe programado una vez&quot;. Haga clic en el icono azul en la columna **[!UICONTROL Administrar]**.
 
 ## ID de programa {#section_568B70F4228C4229977CB85D2DCD53A1}
 
