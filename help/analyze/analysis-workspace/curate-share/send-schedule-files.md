@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Puede compartir y revisar proyectos, así como enviar archivos de proyecto (en los formatos PDF o CSV) inmediatamente o siguiendo una planificación.
 
-**[!UICONTROL Espacio de trabajo]** &gt; **[!UICONTROL Compartir]**
+**[!UICONTROL Workplace]** > **[!UICONTROL Compartir]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
