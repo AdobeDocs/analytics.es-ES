@@ -3,7 +3,7 @@ keywords: Analysis Workspace
 title: ¿Qué es el análisis de cohorte?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. (Las explicaciones de análisis de cohorte se encuentran disponibles en la web, como en [Cohort Analysis 101 ](https://en.wikipedia.org/wiki/Cohort_analysis)(Guía de análisis de cohorte))
 
-Después de crear un informe de cohorte, puede depurar sus componentes (dimensiones, métricas y segmentos específicos), y luego compartir el informe de cohorte con quien desee. Consulte [Depurar y compartir](/help/analyze/analysis-workspace/curate-share/curate.md).
+Después de crear un informe de cohorte, puede depurar sus componentes (dimensiones, métricas y segmentos específicos), y luego compartir el informe de cohorte con quien desee. Consulte  [Depurar y compartir](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 Ejemplos de lo que puede hacer con el análisis de cohorte:
 
@@ -27,7 +27,7 @@ Ejemplos de lo que puede hacer con el análisis de cohorte:
 
 El análisis de cohorte está disponible para todos los clientes de Analytics con derechos de acceso a Analysis Workspace.
 
-[Análisis de cohorte en YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Análisis de cohorte en YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
@@ -57,7 +57,7 @@ Permite calcular la retención o la pérdida en función de la columna previa, n
 
 ### Tabla de latencia
 
-Mide el tiempo transcurrido antes y después de ocurrir el evento de inclusión. Es una excelente herramienta para el análisis previo/posterior. La columna "Incluido" está en el centro de la tabla y a ambos lados se muestran los periodos de tiempo antes y después del evento de inclusión.
+Mide el tiempo transcurrido antes y después de ocurrir el evento de inclusión. Es una excelente herramienta para el análisis previo/posterior. La columna &quot;Incluido&quot; está en el centro de la tabla y a ambos lados se muestran los periodos de tiempo antes y después del evento de inclusión.
 
 ![](assets/cohort-latency.png)
 
@@ -67,5 +67,5 @@ Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es e
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-Para obtener instrucciones sobre cómo se configura y ejecuta un informe de cohorte, visite [Configurar un informe de análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
+Para obtener instrucciones sobre cómo se configura y ejecuta un informe de cohorte, visite  [Configurar un informe de análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
 
