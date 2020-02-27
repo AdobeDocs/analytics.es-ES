@@ -14,7 +14,7 @@ Las visualizaciones de visitas en el orden previsto ofrecen más opciones para c
 
 Las visualizaciones de visitas en el orden previsto le permiten:
 
-* Realizar comparaciones paralelas de dos segmentos distintos en el mismo informe.
+* Realizar comparaciones paralelas de dos segmentos distintos en el mismo informe
 * Arrastrar, soltar y reorganizar pasos de embudo (puntos de contacto)
 * Mezclar valores de distintas dimensiones y métricas
 * Crear un informe de visitas en el orden previsto multidimensional
