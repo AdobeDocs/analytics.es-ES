@@ -19,7 +19,7 @@ Los segmentos intrincados pueden tener un impacto significativo en el desempeño
 * Los operadores de “contiene”, “contiene cualquiera de”, “coincide”, “comienza con” o “termina con”
 * Segmentación secuencial, sobre todo cuando se utilizan restricciones de dimensión (Dentro/Después)
 * Número de elementos de dimensiones únicas dentro de las dimensiones utilizadas en el segmento (por ejemplo, Página = “A” cuando la Página tiene 10 elementos únicos será más rápido que Página = “A” cuando la Página tiene 100000 elementos únicos)
-* Número de dimensiones diferentes utilizadas (por ejemplo, Página = “Inicio” y Página = “Resultados de búsqueda”' será más rápido que eVar 1 = “rojo” y eVar 2 = “azul”')
+* Número de dimensiones diferentes utilizadas (por ejemplo, Página = “Inicio” y Página = “Resultados de búsqueda”&#39; será más rápido que eVar 1 = “rojo” y eVar 2 = “azul”&#39;)
 * Muchos operadores O (en lugar de Y)
 * Contenedores anidados que varían en ámbito (por ejemplo, Visita (hit) en el interior de la “Visita” dentro de “Visitante”)
 
@@ -41,7 +41,7 @@ El intervalo de datos que se solicita en un proyecto influye en el rendimiento d
 
 Siempre que sea posible, no incorpore más datos de los que necesita.
 
-Recuerde que los intervalos de fechas (componentes morados) anulan el intervalo de fechas del panel. Como resultado, si está utilizando distintos intervalos de fechas como columnas (p. ej., columnas último mes, última semana o ayer), el intervalo de fechas del panel no tiene por qué abarcar todos los intervalos de fechas de las columnas. Puede establecerse simplemente en “ayer”, ya que los intervalos de fechas empleados en la tabla improvisada anularán los del panel. Para obtener más información acerca del trabajo con intervalos de fechas en Analysis Workspace, consulte [este vídeo](https://www.youtube.com/watch?v=ybmv6EBmhn0) .
+Recuerde que los intervalos de fechas (componentes morados) anulan el intervalo de fechas del panel. Como resultado, si está utilizando distintos intervalos de fechas como columnas (p. ej., columnas último mes, última semana o ayer), el intervalo de fechas del panel no tiene por qué abarcar todos los intervalos de fechas de las columnas. Puede establecerse simplemente en “ayer”, ya que los intervalos de fechas empleados en la tabla improvisada anularán los del panel. Para obtener más información acerca del trabajo con intervalos de fechas en Analysis Workspace, consulte [este vídeo](https://www.youtube.com/watch?v=ybmv6EBmhn0).
 
 Utilice [opciones de comparación de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) para incorporar los datos de los periodos de tiempo específicos que quiere comparar. Por ejemplo, si necesita mostrar los datos del último mes comparados con los del mismo mes del año pasado, en vez de establecer el panel en los últimos 13 meses de datos, utilice simplemente la opción de comparación de periodos de tiempo para mostrar el rendimiento año tras año.
 
