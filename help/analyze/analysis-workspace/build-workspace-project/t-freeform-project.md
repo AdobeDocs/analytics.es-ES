@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Creación de un proyecto de Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,13 +20,13 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
 1. Especifique el permiso del usuario para crear y depurar proyectos.
 
-   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. ( **[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuarios]** &gt; [Grupos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. ( **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > [Grupos](https://marketing.adobe.com/resources/help/es_ES/reference/groups.html)).
 
-1. En [!DNL Experience Cloud], haga clic en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. En [!DNL Experience Cloud], haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
-   También puede especificar una barra diagonal (/) para abrir la barra de búsqueda en informes y escribir *`workspace`*.
+   También puede introducir una barra diagonal (/) para abrir la barra de búsqueda de informes y escribir *`workspace`*.
 
    ![](assets/analysis-app-search.png)
 
