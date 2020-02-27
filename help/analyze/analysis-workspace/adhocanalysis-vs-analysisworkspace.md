@@ -16,7 +16,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
 
 [Aquí](https://marketing.adobe.com/resources/help/es_ES/reference/analytics-product-comparison.html) tiene una comparativa técnica de las características principales y los requisitos del sistema de ambos productos.
 
-## Comparación de terminología clave {#section_6109406B83B043A18E46D38F130B1D2E}
+## Comparación de terminología clave  {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
@@ -24,17 +24,17 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
 | Workspace | Panel |
 | Informe | Tabla de forma libre |
 | Gráficos | Visualización |
-| Jerarquía: Proyecto &gt; Workspace &gt; Informes | Jerarquía: Proyecto &gt; Paneles &gt; Tablas |
+| Jerarquía: Proyecto > Workspace > Informes | Jerarquía: Proyecto > Paneles > Tablas |
 | Plantillas de informes Jerárquicas, De tendencia, Totales | Visualización de tabla improvisada |
 | Plantilla de flujo | Visualización de flujo |
 | Abandono | Visualización de visitas en el orden previsto |
 
-## Comparación de tareas clave {#section_F31446F1DFA742D794A30D713E223440}
+## Comparación de tareas clave  {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ad Hoc Analysis Tarea </th> 
+   <th colname="col1" class="entry"> Ad Hoc Analysis  Tarea </th> 
    <th colname="col2" class="entry"> Tarea de Analysis Workspace </th> 
   </tr>
  </thead>
@@ -72,7 +72,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Las visitas en el orden previsto pueden abarcar una visita o visitante, y puede incluirse “Todas las visitas” de manera opcional. Las visitas en el orden previsto se pueden clasificar rápidamente en tendencias mediante el menú que se abre al hacer clic con el botón derecho. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Los elementos dimensionales pueden conectarse mediante un operador O (como en los grupos) y el embudo puede utilizar eventos. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">Los pasos siguientes de las visitas en el orden imprevisto y en el orden previsto también se pueden representar mediante el menú que se abre al hacer clic con el botón derecho. </li> 
-    </ol> <p>Además, las visitas en el orden previsto permiten en Analysis Workspace el uso de <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensiones mixtas</a> dentro de los pasos, una mejora respecto a los Ad Hoc Analysis. Las dimensiones mixtas dentro de los pasos se gestionan mediante un operador Y. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Vídeo: Visitas en el orden previsto y embudos</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Vídeo: Uso de múltiples dimensiones en Visitas en el orden previsto</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Vídeo: Comparación de segmentos en Visitas en el orden previsto</a> </p> </td> 
+    </ol> <p>Además, las visitas en el orden previsto permiten en Analysis Workspace el uso de  <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensiones mixtas</a> dentro de los pasos, una mejora respecto a los Ad Hoc Analysis. Las dimensiones mixtas dentro de los pasos se gestionan mediante un operador Y. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Vídeo: Visitas en el orden previsto y embudos</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Vídeo: Uso de múltiples dimensiones en Visitas en el orden previsto</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Vídeo: Comparación de segmentos en Visitas en el orden previsto</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Examinar el flujo (rutas) </p> </td> 
@@ -80,7 +80,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Un flujo puede abarcar una visita o visitante. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Las estadísticas clave se muestran como porcentajes de vistas de ruta. </li> 
-    </ul> <p>Además, Flujo permite el uso de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensiones mixtas</a> y la capacidad de hacer clic con el botón derecho y crear un segmento, una mejora sobre los Ad Hoc Analysis. </p> <p>En este momento, los flujos de Analysis Workspace <b>no pueden</b>: </p> 
+    </ul> <p>Además, Flujo permite el uso de  <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensiones mixtas</a> y la capacidad de hacer clic con el botón derecho y crear un segmento, una mejora sobre los Ad Hoc Analysis. </p> <p>En este momento, los flujos de Analysis Workspace <b>no pueden</b>: </p> 
     <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
      <li id="li_384141A577BB4A94899C3E36714225EE">Apagar instancias repetidas. </li> 
      <li id="li_CC451BFB9FFC4C68AE28A7462B339460">Permitir a los usuarios elegir un evento de éxito. </li> 
