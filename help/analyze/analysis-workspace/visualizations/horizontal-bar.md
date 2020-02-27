@@ -16,7 +16,7 @@ Esta visualización muestra las barras horizontales que representan los distinto
 
 ![](assets/horizontal_bar.png)
 
-## Barras horizontales apiladas {#section_50C08E9E20A94024A6553BC352ADB597}
+## Barras horizontales apiladas  {#section_50C08E9E20A94024A6553BC352ADB597}
 
 Esta visualización es similar al [!UICONTROL gráfico de barras horizontales], pero las barras de series aparecen apiladas.
 
