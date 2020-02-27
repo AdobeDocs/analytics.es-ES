@@ -16,7 +16,7 @@ Ha ocurrido algo. ¿Por qué? Su informe Detección de anomalías muestra un pic
 
 Análisis de contribución le ayuda a evaluar los datos inmediatamente para saber por qué se ha producido una anomalía. Desglosa las contribuciones en anomalías en cuestión de segundos, algo que tardaba semanas, proporcionando patrones para segmentos de audiencia y ayudando a desarrollar un diálogo para las interacciones con el cliente. Puede utilizar el análisis de contribución de forma estratégica para identificar y capturar asociaciones significativas y desarrollar nuevos segmentos de audiencia, o utilizarlo de forma táctica para identificar actividades que sobrepasen el límite o actividades fraudulentas que activen una alerta.
 
-[Detección de anomalías](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifica picos de datos y caídas estadísticas pronunciadas basándose en métricas y segmentos de audiencia concretos. Establece una norma histórica basada en un período de prueba y, a continuación, representa desplazamientos extremos correlacionados con eventos específicos. Puede realizar un informe sobre un aumento abrupto en una métrica positiva de pedidos o un aumento en una métrica negativa de devoluciones, o caídas en ambas, capturando puntos de datos estadísticamente relevantes para ser evaluados por un análisis de contribución. Una vez identificada una anomalía estadística, el análisis de contribución le permite desglosar y evaluar variables de marketing y de campaña relevantes en todos los puntos de datos anómalos. Ejecuta algoritmos avanzados y procesos de aprendizaje automático para evaluar asociaciones que hayan contribuido a un pico o caída significativo. Estos cálculos aparecen en visualizaciones interactivas diseñadas para ofrecerle distintas perspectivas que le ayuden a entender por qué se ha producido algún evento y qué hacer al respecto.
+[Detección de anomalías](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) identifica picos de datos y caídas estadísticas pronunciadas basándose en métricas y segmentos de audiencia concretos. Establece una norma histórica basada en un período de prueba y, a continuación, representa desplazamientos extremos correlacionados con eventos específicos. Puede realizar un informe sobre un aumento abrupto en una métrica positiva de pedidos o un aumento en una métrica negativa de devoluciones, o caídas en ambas, capturando puntos de datos estadísticamente relevantes para ser evaluados por un análisis de contribución. Una vez identificada una anomalía estadística, el análisis de contribución le permite desglosar y evaluar variables de marketing y de campaña relevantes en todos los puntos de datos anómalos. Ejecuta algoritmos avanzados y procesos de aprendizaje automático para evaluar asociaciones que hayan contribuido a un pico o caída significativo. Estos  cálculos aparecen en visualizaciones interactivas diseñadas para ofrecerle distintas perspectivas que le ayuden a entender por qué se ha producido algún evento y qué hacer al respecto.
 
 El análisis de contribución le ayuda a desarrollar un diálogo para describir por qué se ha producido una anomalía y cómo responder a ella, capturando métricas relevantes e identificando puntos ocultos que le darán una razón general para las interacciones de la audiencia y las tendencias en los intereses de los clientes. Algunas veces las anomalías son fáciles de ver y corregir, como un pedido aislado de 2000 kayaks. Por el contrario, otras veces es difícil, como identificar una tendencia emergente a lo largo de un período de tiempo en una región que solo reacciona a una determinada campaña con objetivo. Unir elementos de contribución en métricas para varias dimensiones y sus asociaciones le proporciona una idea general de las interacciones de su audiencia y le ayuda a proporcionar contexto a los puntos de datos anómalos.
 
@@ -116,12 +116,12 @@ A continuación encontrará una lista detallada de los derechos de Detección de
    <td colname="col3"> <p>20 tokens al mes </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>+Área de datos predictiva </p> </td> 
+   <td colname="col1"> <p>+Predictive Workbench </p> </td> 
    <td colname="col2"> <p>Sí </p> </td> 
    <td colname="col3"> <p>Tokens ilimitados </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Estándar </p> 
+   <td colname="col1"> <p>Standard </p> 
     <ul id="ul_73D52020793B44868C9CE0F90893075D"> 
      <li id="li_21EE0871C87E43C8B781219B2BA0FA74">Adobe Analytics Core </li> 
      <li id="li_AB3593200F33439BAEE8FEB13CAE57F4">Adobe Analytics OD </li> 
@@ -131,12 +131,12 @@ A continuación encontrará una lista detallada de los derechos de Detección de
    <td colname="col3"> <p>2 tokens al mes </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (360, atribución) </p> </td> 
+   <td colname="col1"> <p>Premium (360, Attribution) </p> </td> 
    <td colname="col2"> <p>Sí </p> </td> 
    <td colname="col3"> <p>2 tokens al mes </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (completo, <a href="https://www.adobe.com/es/data-analytics-cloud/analytics/predictive-intelligence.html"  >inteligencia predictiva</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (CompletePremium (Complete, <a href="https://www.adobe.com/es/data-analytics-cloud/analytics/predictive-intelligence.html"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>Sí </p> </td> 
    <td colname="col3"> <p>Tokens ilimitados </p> </td> 
   </tr> 
