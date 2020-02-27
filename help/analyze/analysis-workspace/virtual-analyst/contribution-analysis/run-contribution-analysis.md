@@ -16,7 +16,7 @@ El análisis de contribución es un proceso de aprendizaje automatizado intensiv
 
 Hay dos formas de invocar el análisis de contribución en un proyecto:
 
-* En una tabla improvisada con granularidad diaria, haga clic con el botón derecho en cualquier fila y seleccione **[!UICONTROL Ejecutar análisis de contribución]**. Incluso puede ejecutarlo en filas que no muestren ninguna anomalía.
+* En una tabla improvisada con granularidad diaria, haga clic con el botón secundario en cualquier fila y seleccione **[!UICONTROL Ejecutar análisis de contribución]**. Incluso puede ejecutarlo en filas que no muestren ninguna anomalía.
 
    >[!NOTE]
    >
@@ -28,7 +28,7 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 
    ![](assets/contribution-analysis.png)
 
-1. (Opcional) Una vez haya hecho clic en **[!UICONTROL Ejecutar análisis de contribución]**, tanto en un gráfico de líneas como en una tabla, puede reducir (y así acelerar) el ámbito del análisis mediante [la exclusión de dimensiones](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
+1. (Opcional) Una vez haya hecho clic en **[!UICONTROL Ejecutar análisis de contribución]** tanto en un gráfico de líneas como en una tabla, puede reducir (y así acelerar) el ámbito del análisis mediante [la exclusión de dimensiones](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
 1. Espere mientras se carga su análisis de contribución. Esto puede requerir una gran cantidad de tiempo, en función del tamaño del grupo de informes y el número de dimensiones. El análisis de contribución realiza análisis en 50 000 elementos por dimensión.
 1. A continuación, Analysis Workspace carga un nuevo panel de análisis de contribución directamente en este proyecto. Observará una gran cantidad de paneles familiares si ya ha utilizado el análisis de contribución en Reports &amp; Analytics anteriormente:
@@ -49,7 +49,7 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
    * [Crear alertas.](/help/components/c-alerts/intellligent-alerts.md)
    * [Crear o comparar segmentos.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
-> [!NOTE] La anomalía analizada se resalta con un punto azul dentro del análisis de contribución y en los proyectos de alerta inteligente vinculados con ella. Esto proporciona una indicación más clara de la anomalía que se está analizando.
+> [!NOTE] La anomalía analizada se resalta con un punto azul en el análisis de contribución y en los proyectos de alerta inteligente vinculados con ella. Esto proporciona una indicación más clara de la anomalía que se está analizando.
 
 ## Excluir dimensiones del análisis de contribución {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
@@ -61,10 +61,10 @@ Puede haber ocasiones en las que desea excluir algunas dimensiones del análisis
 
    ![](assets/exclude_dimensions.png)
 
-1. Una vez haya añadido dimensiones que se deben excluir (o que haya decidido no hacerlo), haga clic en **[!UICONTROL Ejecutar análisis de contribución]** de nuevo.
+1. Una vez haya añadido dimensiones que se deben excluir (o haya decidido no hacerlo), haga clic en **[!UICONTROL Ejecutar análisis de contribución]** de nuevo.
 1. Si alguna vez necesita revisar la lista de dimensiones excluidas, haga doble clic en Dimensiones y aparecerá la lista de dimensiones excluidas:
 
    ![](assets/excluded-dimensions.png)
 
-1. Simplemente elimine las dimensiones no deseadas haciendo clic en la x junto a ellas y guarde la lista haciendo clic en **[!UICONTROL Establecer como predeterminado]**.
+1. Para eliminar las dimensiones no deseadas solo tiene que hacer clic en la x junto a ellas y guardar la lista haciendo clic en **[!UICONTROL Establecer como predeterminado]**.
 
