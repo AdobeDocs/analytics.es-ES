@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Casos de uso de análisis de cohorte
 topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Puede crear un análisis de cohorte de seis meses
 
 **Métrica de regreso**: sesiones o ejecuciones
 
-Los visitantes no cuentan como *`engaged`* en meses siguientes a menos que tengan una sesión o que, como mínimo, ejecuten la aplicación. El análisis de cohorte entonces le mostraría patrones de uso donde *`App Install`* siempre ocurre en el Mes 0. Podría observar que el uso cae en el Mes 2, independientemente de cuándo instalaron la aplicación los usuarios (para quienes instalaron la aplicación en enero de 2015, el Mes 2 es marzo de 2015; para quienes instalaron la aplicación en febrero de 2015, el Mes 2 es abril de 2015, y así sucesivamente). Este análisis le permite enviar un correo electrónico o un mensaje insertado a todos los usuarios durante el segundo mes después de que instalan la aplicación para recordarles que usen la aplicación.
+Los visitantes no cuentan como  *`engaged`* en meses siguientes a menos que tengan una sesión o que, como mínimo, ejecuten la aplicación. El análisis de cohorte entonces le mostraría patrones de uso donde *`App Install`* siempre ocurre en el Mes 0. Podría observar que el uso cae en el Mes 2, independientemente de cuándo instalaron la aplicación los usuarios (para quienes instalaron la aplicación en enero de 2015, el Mes 2 es marzo de 2015; para quienes instalaron la aplicación en febrero de 2015, el Mes 2 es abril de 2015, y así sucesivamente). Este análisis le permite enviar un correo electrónico o un mensaje insertado a todos los usuarios durante el segundo mes después de que instalan la aplicación para recordarles que usen la aplicación.
 
 ## Caso de uso de suscripción {#section_FDECB16766CF415BB84AE46BA491FB5F}
 
@@ -60,6 +60,6 @@ Una empresa multimedia internacional utiliza campañas dirigidas para atraer a l
 
 Un gran minorista de accesorios cuenta con muchos segmentos específicos de clientes que generan gran parte de los ingresos. Se diseñan y crean productos específicos para cada uno de esos segmentos. Cuando se produce un lanzamiento, la empresa quiere saber en qué medida el nuevo producto potencia las ventas en varias cohortes a lo largo del tiempo. Mediante la nueva configuración de tablas de latencia de las tablas de cohortes, puede analizar el comportamiento y los ingresos de un segmento de clientes dado antes y después del lanzamiento. Esta información permite identificar qué productos producen nuevos ingresos y cuáles no llegan a calar en los clientes.
 
-## Adherencia individual: usuarios más fieles caso de uso
+## Adherencia individual: usuarios más fieles  caso de uso
 
 Una gran línea aérea deriva la mayor parte de su éxito e ingresos de los clientes fieles que repiten. En muchos casos, estos viajeros fieles representan la mayoría de los ingresos, por lo que conservarlos es esencial para el éxito a largo plazo. A menudo no es sencillo identificar a los clientes más fieles y consistentes. Sin embargo, gracias a la nueva configuración de cálculo móvil de las tablas de cohortes, la empresa pudo analizar los segmentos de clientes fieles y averiguar cuáles repiten reservas un mes tras otro. Con estos datos pudo dirigirse a estos viajeros con recompensas y beneficios por su fidelidad. Además, cambiando el tipo de cohorte de retención a pérdida, también pudo identificar qué clientes no repetían reservas un mes tras otro, y así dirigirse a estos segmentos con promociones para reactivarlos y asegurar que, en el futuro, se conviertan en clientes leales.
