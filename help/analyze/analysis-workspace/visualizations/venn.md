@@ -18,9 +18,9 @@ Así pues, puede situarse encima de los segmentos para conocer mejor los porcent
 
 ![](assets/venn_hover.png)
 
-Para transformar un diagrama de Venn en una Tabla improvisada, haga clic en el punto de color al lado del encabezado de **[!UICONTROL Venn]** y seleccione **[!UICONTROL Administrar fuentes de datos]** &gt; **[!UICONTROL Fuentes de datos disponibles]** &gt; **[!UICONTROL Tabla de forma libre]**.
+Para transformar un diagrama de Venn en una tabla improvisada, haga clic en el punto de color al lado del encabezado de **[!UICONTROL Venn]** y seleccione **[!UICONTROL Administrar fuentes de datos]** > **[!UICONTROL Fuentes de datos disponibles]** > **[!UICONTROL Tabla de forma libre]**.
 
-Para normalizar el diagrama de Venn (obtener su tamaño) vaya al icono de su Configuración de visualización y seleccione **[!UICONTROL Normalización]**.
+Para normalizar el diagrama de Venn (obtener su tamaño), vaya al icono de su Configuración de visualización y seleccione **[!UICONTROL Normalización]**.
 
 ![](assets/normalization.png)
 
