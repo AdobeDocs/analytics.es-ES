@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-El administrador de alertas ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Alertas]**) está estructurado de la misma manera que el [Administrador de segmentos](https://marketing.adobe.com/resources/help/es_ES/analytics/segment/seg_manage.html) y el [Administrador de métricas calculadas](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/cm_manager.html) y le permite
+El Administrador de alertas ( **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**) tiene una estructura muy similar al [Administrador de segmentos](https://marketing.adobe.com/resources/help/es_ES/analytics/segment/seg_manage.html) y al [Administrador de métricas calculadas](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/cm_manager.html) y le permite
 
 ![](assets/alert-manager-tasks.png)
 
-* Acceda al Generador de alertas haciendo clic en **[!UICONTROL + Añadir]**.
+* Acceder al Generador de alertas haciendo clic en **[!UICONTROL + Añadir]**.
 * Etiquetar alertas. Esto permite organizarlas para facilitar su uso.
 * Eliminar alertas.
 * Cambiar el nombre de alertas.
