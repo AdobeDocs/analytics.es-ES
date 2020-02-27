@@ -23,11 +23,11 @@ Recuerde:
 
 ## Para cambiar la paleta de color:
 
-1. Vaya a **[!UICONTROL Workspace]** &gt; **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Info y configuración del proyecto]**.
+1. Vaya a **[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]**.
 1. En el menú desplegable **[!UICONTROL Paleta de color del proyecto]** puede escoger uno de los cinco esquemas de color preconfigurados.
 
    ![](assets/custom_palette.png)
 
-1. Para crear su propia paleta, seleccione **[!UICONTROL Paleta personalizada]** bajo las opciones preconfiguradas.
+1. Para crear su propia paleta, seleccione **[!UICONTROL Paleta personalizada]** en las opciones preconfiguradas.
 1. Especifique hasta 16 valores hexadecimales separados por comas (por ejemplo, #00a4e4) de los colores que desee utilizar. Si, por ejemplo, desea utilizar solo cuatro valores, estos colores se repetirán automáticamente en las visualizaciones que contengan más colores.
 
