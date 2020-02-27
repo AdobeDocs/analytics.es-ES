@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Casos de uso de Analysis Workspace
 topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Puede dirigir la investigación en los datos para responder preguntas específic
 * Compare un día con el siguiente para comparar columnas o filas y analizar el crecimiento en distintas métricas.
 * Realice una consulta sencilla como devoluciones por dimensión.
 
-## Ejemplo de minorista {#section_9EFDEF038CAD4954BCFB118A8F33A96F}
+## Ejemplo de minorista  {#section_9EFDEF038CAD4954BCFB118A8F33A96F}
 
 Supongamos que es un analista de mercadotecnia para un minorista de engranajes exterior y se le encarga que examine el rendimiento de una promoción reciente de Acción de Gracias y que haga recomendaciones sobre cómo mejorar las campañas in situ. Este ejemplo muestra cómo puede comparar los datos de ingresos de campaña para segmentos diferentes y agregar desgloses para profundizar más en la campaña.
 
@@ -57,5 +57,5 @@ Supongamos que es un analista de mercadotecnia para un minorista de engranajes e
 
    Ya ha desglosado los datos de una manera que puede generar recomendaciones y ventas cruzadas para que sus equipos de comercialización implementen en otras campañas y aporten incluso más ingresos para su compañía. Puede realizar más desgloses hasta llegar a los resultados que busca.
 
-   Ahora puede [compartir](/help/analyze/analysis-workspace/curate-share/curate.md) el informe con esos equipos de comercialización.
+   Ahora puede  [compartir](/help/analyze/analysis-workspace/curate-share/curate.md) el informe con esos equipos de comercialización.
 
