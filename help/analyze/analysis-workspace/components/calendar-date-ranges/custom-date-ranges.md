@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Crear intervalos de fechas
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Cree intervalos de fechas personalizados en Analysis Workspace y guárdelos como componentes de tiempo.
 
-**[!UICONTROL Componentes]** &gt; **[!UICONTROL Nuevo intervalo de fechas]**
+**[!UICONTROL Componentes]** > **[!UICONTROL Nuevo intervalo de fechas]**
 
-Se aplica un intervalo de fechas en el nivel de panel. Para agregar un intervalo de fechas al proyecto, haga clic en **Paneles** &gt; *`<select panel>`* y especifique el nuevo intervalo de fechas.
+Se aplica un intervalo de fechas en el panel. Para agregar un intervalo de fechas al proyecto, haga clic en **Paneles** > *`<select panel>`* y especifique el nuevo intervalo.
 
-## Intervalo de fechas para “Dos meses atrás”{#section_C4109C57CB444BB2A79CC8082BD67294}
+## Intervalo de fechas para “Dos meses atrás” {#section_C4109C57CB444BB2A79CC8082BD67294}
 
 El siguiente intervalo de fechas personalizado muestra un intervalo de fechas para “dos meses atrás”, con una visualización de cambio de resumen que muestra el cambio direccional.
 
@@ -34,7 +34,7 @@ Puede arrastrar este intervalo de fechas personalizado en un columna a lo largo 
 
 ## Usar un intervalo de fechas móvil de 7 días {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
-Se aplica un intervalo de fechas al nivel de panel. Para agregar un intervalo de fechas al proyecto, haga clic en **Acciones** &gt; **Agregar panel**, y especifique el nuevo intervalo de fechas.
+Se aplica un intervalo de fechas al nivel de panel. Para agregar un intervalo de fechas al proyecto, haga clic en **Acciones** > **Agregar panel**, y especifique el nuevo intervalo de fechas.
 
 En el Generador de intervalos de fechas, puede crear un intervalo de fechas personalizado que se muestra en el panel Componentes con otros intervalos de fechas.
 
@@ -42,7 +42,7 @@ Por ejemplo, puede crear un intervalo de fechas que especifica una ventana móvi
 
 ![](assets/create_date_range.png)
 
-Utilice *`rolling daily`*.
+Utilice  *`rolling daily`*.
 
 * La configuración de inicio sería *`current day minus 14 days`*.
 
