@@ -1,9 +1,9 @@
 ---
 keywords: Analysis Workspace
-title: Información general de Analysis Workspace
+title: Analysis Workspace  sobre validación
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Analysis Workspace elimina todas las limitaciones típicas de un único informe de Analytics. Proporciona un lienzo flexible y robusto para la creación de proyectos de análisis personalizados. Arrastre y coloque cualquier número de tablas de datos, visualizaciones y componentes (dimensiones, métricas, segmentos y granularidades de tiempo) en un proyecto. Cree de forma instantánea desgloses y segmentos, cohortes para análisis y alertas, compare segmentos, realice análisis de flujo y visitas en el orden previsto, y revise y programe informes para compartir con cualquier persona de su empresa.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
 ## Vídeo introductorio {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -71,7 +71,7 @@ Si tiene paneles o visualizaciones contraídos en el proyecto y hace clic en un 
 
 ## Vinculación a otros proyectos {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-Puede vincular usuarios a otros proyectos que puedan resultarles de interés. Para ello, vaya a **[!UICONTROL Compartir]** &gt; **[!UICONTROL Obtener vínculo del proyecto]** e incruste este vínculo en las descripciones de los proyectos, por ejemplo.
+Puede vincular usuarios a otros proyectos que puedan resultarles de interés. Para ello, vaya a **[!UICONTROL Compartir]** > **[!UICONTROL Obtener vínculo del proyecto]** e incruste este vínculo en las descripciones de los proyectos, por ejemplo.
 
 ## Visualización dinámica de celdas seleccionadas {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
@@ -89,7 +89,7 @@ Consulte [Administración de fuentes de datos](/help/analyze/analysis-workspace/
 
 ## Visualizaciones de tendencias de celdas seleccionadas {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-Cree una visualización a partir de celdas seleccionadas (haga clic con el botón secundario &gt; **[!UICONTROL Selección de tendencia]**.)
+Cree una visualización a partir de celdas seleccionadas (Haga clic con el botón secundario > **[!UICONTROL Selección de tendencia]**.)
 
 ![](assets/trend-selection.png)
 
@@ -123,7 +123,7 @@ Consulte [Segmentos](/help/analyze/analysis-workspace/components/t-freeform-proj
 
 Puede aplicar etiquetas a proyectos y componentes en Analysis Workspace:
 
-* Aplique o cree etiquetas de nivel de proyecto en el panel Información. (![](assets/information_icon.png)
+* Aplique o cree etiquetas de nivel de proyecto en el panel Información ![](assets/information_icon.png).
 
 * Haga clic con el botón secundario en los componentes para etiquetar (o crear etiquetas) del panel Componentes.
 * Use # en el campo Buscar para localizar las etiquetas.
@@ -134,13 +134,13 @@ Realice acciones a nivel de componente desde el menú Acciones en la parte super
 
 | Acción de componente | Descripción |
 |--- |--- |
-| Etiqueta | Organizar o administrar componentes aplicándoles etiquetas. A continuación, el componente se muestra en el administrador de componentes pertinente, como Analytics &gt; Componentes &gt; Segmentos o Analytics &gt; Componentes &gt; Proyectos. |
-| Favorito | Añadir el componente a la lista de favoritos. A continuación, se muestra en el administrador de componentes pertinente, como Analytics &gt; Componentes &gt; Segmentos o Analytics &gt; Componentes &gt; Proyectos  . |
-| Aprobar | Aprobar el componente para hacerlo canónico. A continuación, el componente se muestra en el administrador de componentes pertinente, como Analytics &gt; Componentes &gt; Segmentos o Analytics &gt; Componentes &gt; Proyectos. |
+| Etiqueta | Organizar o administrar componentes aplicándoles etiquetas. A continuación, el componente se muestra en el administrador de componentes pertinente, como Analytics > Componentes > Segmentos o Analytics > Componentes > Proyectos. |
+| Favorito | Añadir el componente a la lista de favoritos. A continuación, se muestra en el administrador de componentes pertinente, como Analytics > Componentes > Segmentos o Analytics > Componentes > Proyectos. |
+| Aprobar | Aprobar el componente para hacerlo canónico. A continuación, el componente se muestra en el administrador de componentes pertinente, como Analytics > Componentes > Segmentos o Analytics > Componentes > Proyectos. |
 | Compartir | Solo se aplica a los segmentos. |
 | Eliminar | Solo se aplica a los segmentos. |
 
-Consulte [Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para obtener más información.
+Consulte  [Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para obtener más información.
 
 ## Descripciones de funcionalidades adicionales {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
@@ -187,4 +187,4 @@ Un segmento predeterminado único de Analysis Workspace. *`All Visits`* muestra 
 
 Use cálculos del mismo modo en que usa métricas estándar.
 
-Consulte [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+Consulte [Métricas calculadas](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/).
