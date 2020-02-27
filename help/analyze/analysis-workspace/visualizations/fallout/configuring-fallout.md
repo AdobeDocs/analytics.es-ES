@@ -20,7 +20,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 
 1. Arrastre una visualización de [!UICONTROL visitas en el orden previsto] de la lista desplegable Visualizaciones a una [!UICONTROL tabla improvisada].
 
-1. Arrastre la dimensión Página en la tabla improvisada y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar TouchPoint]** como el primer punto de contacto.
+1. Arrastre la dimensión Página en la tabla improvisada y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar punto de contacto]** como el primer punto de contacto.
 
    ![](assets/fallout1.png)
 
@@ -28,7 +28,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 
    Los números dentro de un círculo en la parte gris de la barra muestran la visita en el orden previsto entre puntos de contacto (no la visita en el orden previsto total hasta ese punto). El porcentaje de puntos de contacto muestra la visita en orden imprevisto desde el paso anterior al actual en el informe de visita en el orden previsto.
 
-   También puede agregar una única página al informe de visitas en el orden previsto, en vez de toda la dimensión. Haga clic en la flecha derecha “&gt;” en la dimensión de página para elegir la página específica que desea agregar al informe de visitas en el orden previsto.
+   También puede agregar una única página al informe de visitas en el orden previsto, en vez de toda la dimensión. Haga clic en la flecha derecha “>” en la dimensión de página para elegir la página específica que desea agregar al informe de visitas en el orden previsto.
 
 1. Siga añadiendo puntos de contacto hasta que la secuencia se haya completado.
 
@@ -62,7 +62,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 | Configuración | Descripción |
 |--- |--- |
 | Contenedor de visitas en el orden previsto <ul><li>Visita</li><li>Visitante</li></ul> | Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. La opción predeterminada es Visitante.  Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
-| Mostrar "Todos los visitantes" como primer punto de contacto | Puede deseleccionar esta opción si no desea que “Todos los visitantes” sea el primer punto de contacto. |
+| Mostrar &quot;Todos los visitantes&quot; como primer punto de contacto | Puede deseleccionar esta opción si no desea que “Todos los visitantes” sea el primer punto de contacto. |
 
 Al hacer **clic con el botón derecho en un punto de contacto**, se muestran las siguientes opciones:
 
