@@ -14,12 +14,12 @@ Dispone de tres opciones al cambiar la densidad de visualización mediante boton
 
 - **[!UICONTROL Compacta]**: Esta es la versión con la vista más condensada.
 - **[!UICONTROL Cómoda]**: Deja algo más de espacio que la versión Compacta.
-- **[!UICONTROL Expandida]** (predeterminada): Esta es la vista de Workspace a la que está acostumbrado.
+- **[!UICONTROL Expandida]** (predeterminada): Esta es la vista habitual de Workspace.
 
 ![](assets/view-density.png)
 
 Para establecer la densidad de la visualización:
 
-1. En Workspace, vaya a **[!UICONTROL Proyectos]** &gt; **[!UICONTROL Info y configuración del proyecto]**.
+1. En Workspace, vaya a **[!UICONTROL Proyectos]** > **[!UICONTROL Info y configuración del proyecto]**.
 
-1. Seleccione entre las tres opciones indicadas y haga clic en **[!UICONTROL Guardar]**.
+1. Seleccione entre las 3 opciones indicadas y haga clic en **[!UICONTROL Guardar]**.
