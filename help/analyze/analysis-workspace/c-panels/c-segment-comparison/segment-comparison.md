@@ -2,7 +2,7 @@
 title: Información general del panel de comparación de segmentos
 description: Aprenda a utilizar el panel de comparación de segmentos, que forma parte de IQ de segmento en Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -74,7 +74,7 @@ Muestra las métricas más significativas estadísticamente entre los dos segmen
 
 Esta visualización es similar a las tablas de forma libre en Analysis Workspace. Si desea realizar un análisis más profundo de una métrica específica, pase el ratón sobre un elemento de línea y haga clic en “Crear imagen”. Se crea una nueva tabla para analizar esa métrica específica. Si una métrica no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarla.
 
-> [!NOTE] Las métricas agregadas a esta tabla una vez finalizada la comparación de segmentos no reciben una puntuación de diferencia.
+> [!NOTE] Las métricas que se agreguen a esta tabla una vez finalizada la comparación de segmentos no reciben una puntuación de diferencia.
 
 ![Métricas principales](assets/top-metrics.png)
 
@@ -90,7 +90,7 @@ Muestra los valores de dimensión más significativos estadísticamente en todas
 
 Esta visualización es similar a las tablas de forma libre en Analysis Workspace. Si desea realizar un análisis más profundo de un valor de dimensión específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese valor de dimensión específico. Si un valor de dimensión es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
 
-> [!NOTE] Los valores de dimensión agregados a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
+> [!NOTE] Los valores de dimensión que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
 
 ![Dimensiones principales](assets/top-dimension-item1.png)
 
@@ -106,7 +106,7 @@ Muestra qué otros segmentos (que no sean los dos seleccionados para la comparac
 
 Esta visualización es similar a las tablas de forma libre en Analysis Workspace. Si desea realizar un análisis más profundo de un segmento específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese segmento específico. Si un segmento no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
 
-> [!NOTE] Los segmentos agregados a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
+> [!NOTE] Los segmentos que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
 
 ![Segmentos principales](assets/top-segments.png)
 
