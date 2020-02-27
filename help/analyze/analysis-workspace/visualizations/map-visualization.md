@@ -22,7 +22,7 @@ La visualización de mapas en Analysis Workspace
 
 ## Creación de una visualización de mapas {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. En la lista de visualizaciones, arrastre **[!UICONTROL Mapa]** a un panel improvisado:
+1. En la lista de visualizaciones, arrastre **[!UICONTROL Mapa]** a un panel de forma libre:
 
    ![](assets/map-viz1.png)
 
@@ -33,7 +33,7 @@ La visualización de mapas en Analysis Workspace
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Latitud/Longitud móvil</b> </p> </td> 
-   <td colname="col2"> <p>Esta opción representa los datos de aplicaciones móviles. </p> <p>Solo verá esta opción si la ha habilitado para su conjunto de informes en <span class="ignoretag"><span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">&lt;seleccionar grupo de informes&gt;</span> &gt; <span class="uicontrol">Editar configuración</span> &gt; <span class="uicontrol">Administración móvil</span> &gt; <span class="uicontrol">Activar el seguimiento de ubicación </span> </span>. </p> <p>Esta es la configuración predeterminada (si el seguimiento de la ubicación está habilitado). </p> </td> 
+   <td colname="col2"> <p>Esta opción representa los datos de aplicaciones móviles. </p> <p>Solo verá esta opción si la ha habilitado para su conjunto de informes en <span class="ignoretag"> <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Grupos de informes </span> &gt; <span class="uicontrol"> &lt;seleccionar grupo de informes&gt; </span> &gt; <span class="uicontrol"> Editar configuración </span> &gt; <span class="uicontrol"> Administración móvil </span> &gt; <span class="uicontrol"> Activar el seguimiento de ubicación</span></span>. </p> <p>Esta es la configuración predeterminada (si el seguimiento de la ubicación está habilitado). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Dimensión geográfica</b> </p> </td> 
@@ -42,7 +42,7 @@ La visualización de mapas en Analysis Workspace
  </tbody> 
 </table>
 
-1. Haga clic en **[!UICONTROL Crear]**.
+1. Haga clic en **[!UICONTROL Generar]**.
 
    Lo recibirá la vista Mundo, con un mapa de burbujas similar a este.
 
@@ -50,7 +50,7 @@ La visualización de mapas en Analysis Workspace
 
 1. Ahora puede
 
-   * **Hacer zoom** en este mapa para ampliar determinadas áreas haciendo doble clic en el mapa o utilizando la rueda de desplazamiento. El mapa se amplía o se reduce según dónde haya colocado el cursor. La dimensión requerida (país &gt; estado &gt; ciudad) se actualiza automáticamente según la interacción con el nivel de zoom.
+   * **Hacer zoom** en este mapa para ampliar determinadas áreas haciendo doble clic en el mapa o utilizando la rueda de desplazamiento. El mapa se amplía o se reduce según dónde haya colocado el cursor. La dimensión requerida (país > estado > ciudad) se actualiza automáticamente según la interacción con el nivel de zoom.
    * **Comparar** dos o más visualizaciones de mapas en el mismo proyecto colocándolas una al lado de la otra.
    * **Mostrar comparaciones entre períodos (por ejemplo, año tras año)**:
 
