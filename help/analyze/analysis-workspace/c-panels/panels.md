@@ -16,7 +16,7 @@ Los paneles en blanco e improvisado son puntos de inicio del análisis, mientras
 
 El panel inicial predeterminado es el improvisado, pero también puede convertir el [panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
 
-## Filtros desplegables en los paneles {#section_D2828EEDD52944528E87F470EAB581CF}
+## Filtros desplegables en los paneles  {#section_D2828EEDD52944528E87F470EAB581CF}
 
 La zona de colocación del panel tiene capacidades de filtrado desplegables. Estos filtros le permiten interactuar con los datos del proyecto de manera controlada, de modo que pueda realizar análisis en profundidad, simplificar los proyectos y compartir perspectivas con otros.
 
