@@ -40,4 +40,4 @@ De forma predeterminada, el diagrama muestra los cinco flujos principales. Si ha
 
 No existe limitación a la exploración dentro de un diagrama de flujo.
 
-También puede exportar y seguir analizando el diagrama de flujo como parte del archivo .CSV de un proyecto. Para ello, vaya a **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Descargar CSV]**.
+También puede exportar y seguir analizando el diagrama de flujo como parte del archivo .CSV de un proyecto. Para ello, vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar CSV]**.
