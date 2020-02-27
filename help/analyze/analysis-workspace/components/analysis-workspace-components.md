@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Los componentes de Analysis Workspace están formados por métricas, dimensiones, segmentos y granularidades de tiempo que puede arrastrar y soltar en un proyecto. Los componentes personalizados que crea se añaden a estos paneles como, por ejemplo, los intervalos de fecha personalizados.
 
-Para acceder al panel Componentes, haga clic en el icono **[!UICONTROL Componentes]** en el carril izquierdo. Puede alternar entre paneles (panel en blanco, [panel de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) o panel [Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)), [Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) y componentes con los iconos del carril izquierdo o mediante [métodos abreviados de teclado](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
+Para acceder al panel Componentes, haga clic en el icono **[!UICONTROL Componentes]** del carril izquierdo. Puede alternar entre paneles (panel en blanco, [panel de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) o panel [Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)), [Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) y componentes con los iconos del carril izquierdo o mediante [métodos abreviados de teclado](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md).
 
 ![](assets/components.png)
 
@@ -20,15 +20,15 @@ Consulte [Crear un proyecto de análisis improvisado](/help/analyze/analysis-wor
 
 ## Acciones de componente {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
-Puede administrar componentes (de uno en uno o seleccionando más de uno) de diferentes formas. Haga clic con el botón derecho en un componente o haga clic en **[!UICONTROL Acciones]** en la parte superior de la lista de componentes.
+Puede administrar componentes (de uno en uno o seleccionando más de uno) de diferentes formas. Haga clic con el botón secundario en un componente o haga clic en **[!UICONTROL Acciones]** en la parte superior de la lista de componentes.
 
 > [!NOTE] Estas acciones no se aplican a los componentes de tiempo.
 
 | Acción de componente | Descripción |
 |--- |--- |
-| Etiqueta | Organizar o administrar componentes aplicándoles etiquetas. A continuación, el componente se muestra en el administrador de componentes pertinente, como Analytics &gt; Componentes &gt; Segmentos o Analytics &gt; Componentes &gt; Proyectos. |
-| Favorito | Añadir el componente a la lista de favoritos. A continuación, se muestra en el administrador de componentes pertinente, como Analytics &gt; Componentes &gt; Segmentos o Analytics &gt; Componentes &gt; Proyectos. |
-| Aprobar | Aprobar el componente para hacerlo canónico. A continuación, el componente se muestra en el administrador de componentes pertinente, como Analytics &gt; Componentes &gt; Segmentos o Analytics &gt; Componentes &gt; Proyectos. |
+| Etiqueta | Organizar o administrar componentes aplicándoles etiquetas. A continuación, el componente se muestra en el administrador de componentes pertinente, como Analytics > Componentes > Segmentos o Analytics > Componentes > Proyectos. |
+| Favorito | Añadir el componente a la lista de favoritos. A continuación, se muestra en el administrador de componentes pertinente, como Analytics > Componentes > Segmentos o Analytics > Componentes > Proyectos. |
+| Aprobar | Aprobar el componente para hacerlo canónico. A continuación, el componente se muestra en el administrador de componentes pertinente, como Analytics > Componentes > Segmentos o Analytics > Componentes > Proyectos. |
 | Compartir | Solo se aplica a los segmentos. |
 | Eliminar | Solo se aplica a los segmentos. |
 
