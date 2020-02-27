@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Resumen de calendario e intervalos de fechas
 
-En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
+En el calendario se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
 
 Las selecciones de calendario se aplican a nivel de panel, pero tiene la opción de aplicarlas a todos los paneles. De forma predeterminada, en el calendario del Workspace se muestran el mes actual y el anterior.
 
