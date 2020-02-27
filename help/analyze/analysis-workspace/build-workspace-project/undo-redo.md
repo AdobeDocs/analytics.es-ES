@@ -10,11 +10,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Configuración de Deshacer y Rehacer
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Deshacer/Rehacer]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Deshacer/Rehacer]**
 
-* La opción **[!UICONTROL Rehacer]** (para rehacer y deshacer) se encuentra en el menú **[!UICONTROL Edición]**.
+* La opción **[!UICONTROL Rehacer]** (para rehacer tras deshacer) se encuentra en el menú **[!UICONTROL Edición]**.
 
-* Hacer clic en **[!UICONTROL Guardar]** no borra la pila de **[!UICONTROL Deshacer]**.
+* Hacer clic en **[!UICONTROL Guardar]** no borra la pila **[!UICONTROL Deshacer]**.
 
 * **[!UICONTROL Nuevo proyecto]** o **[!UICONTROL Abrir proyecto existente]** sí borran la pila **[!UICONTROL Deshacer]**.
 
@@ -27,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Acciones que se pueden deshacer o rehacer {#section_1E94152CC206470D84FC11710311DA12}
 
-* Revisión
+* Depuración
 * Borrar todo
 * Período de tiempo
 * Análisis de contribución
