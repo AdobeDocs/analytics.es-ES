@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Resumen de los procesos de curado y del uso compartido
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,17 +16,17 @@ Una depuración le permite limitar los componentes antes de compartir un proyect
 
 **Información general del vídeo**
 
->[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&index=79&t=0s&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
+>[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Workspace]** &gt; **[!UICONTROL Compartir]** &gt; **[!UICONTROL Depurar datos de proyectos]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos de proyectos]**
 
 ## Depurar datos de proyectos
 
 1. Especifique el permiso para crear y depurar proyectos.
 
-   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarle a un [grupo](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. (**[!UICONTROL Administración]** &gt; **[!UICONTROL Administración de usuarios]** &gt; **[!UICONTROL Grupos]**).
+   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarle a un [grupo](https://marketing.adobe.com/resources/help/es_ES/reference/groups.html) con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. ( **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]**).
 
-1. [Cree y guarde](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) un proyecto y, a continuación, haga clic en **[!UICONTROL Compartir]** &gt; **[!UICONTROL Depurar datos de proyectos]**.
+1. [Cree y guarde](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) un proyecto y, a continuación, haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos de proyectos]**.
 1. Arrastre los componentes que desea compartir de la pila de componentes arrastrables de la izquierda al campo **[!UICONTROL Componentes depurados]**.
 
    ![](assets/curated-components.png)
@@ -43,7 +43,7 @@ El proyecto que se obtiene se comporta como un proyecto típico en Analysis Work
 
 Al compartir hace que este proyecto esté disponible para otros usuarios de Analysis Workspace de su organización. Cualquier depuración que realice se verá reflejada cuando los demás usuarios utilicen el proyecto.
 
-1. Tras depurar los componentes de un informe, haga clic en **[!UICONTROL Compartir]** &gt; **[!UICONTROL Compartir proyecto]**.
+1. Tras depurar los componentes de un informe, haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir proyecto]**.
 
    ![](assets/share_component.png)
 
