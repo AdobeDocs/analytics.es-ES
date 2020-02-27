@@ -20,7 +20,7 @@ Las Tablas improvisadas de Analysis Workspace admiten modelos de atribución que
 
    ![](assets/Column_Settings.png)
 
-1. Dentro de **[!UICONTROL Configuración de datos]**, active **[!UICONTROL Utilizar modelo de atribución no predeterminado]**. Para obtener más información sobre los diferentes modelos de atribución, consulte [Información general de Attribution IQ](attribution.md).
+1. En **[!UICONTROL Configuración de datos]**, active **[!UICONTROL Utilizar modelo de atribución no predeterminado]**. Para obtener más información sobre los diferentes modelos de atribución, consulte [Información general de Attribution IQ](attribution.md).
 
    ![](assets/Attribution_Model_Selection.png)
 
@@ -32,7 +32,7 @@ Cualquier desglose dentro de una Tabla improvisada también puede tener aplicado
 
 ## Comparar un modelo de atribución con otro {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-Si le gustaría comparar rápida y fácilmente un modelo de atribución con otro, haga clic con el botón derecho en una métrica y seleccione **[!UICONTROL Agregar modelo de atribución comparativa]**:
+Si quiere comparar rápida y fácilmente un modelo de atribución con otro, haga clic con el botón secundario en una métrica y seleccione **[!UICONTROL Agregar modelo de atribución comparativa]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
