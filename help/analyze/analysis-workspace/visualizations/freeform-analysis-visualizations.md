@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Obtenga información sobre las visualizaciones y los ajustes de visualización en Analysis Workspace.
 
-[Tipos de visualización en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+[Tipos de visualización en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Panel de visualizaciones {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -64,7 +64,7 @@ Para acceder a la [!UICONTROL configuración de visualización], arrastre una vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>Normalización </p> </td> 
-   <td colname="col2"> <p>Fuerza métricas para igualar proporciones. Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > Normalización</a>. </p> </td> 
+   <td colname="col2"> <p>Fuerza métricas para igualar proporciones. Consulte <a href="https://marketing.adobe.com/resources/help/es_ES/reference/normalization.html"  > Normalización</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mostrar eje doble </p> </td> 
@@ -98,7 +98,7 @@ Se puede acceder a la configuración contextual de un gráfico si hace clic con 
 | Contraer todas las visualizaciones del panel | Contrae todas las visualizaciones de este panel de proyecto. |
 | Ampliar todos los paneles | Amplía todos los paneles del proyecto. |
 | Ampliar todas las visualizaciones del panel | Amplía todas las visualizaciones de este panel de proyecto. |
-| Editar descripción | Añade (o edita) una descripción de texto del panel/visualización. Esta descripción se muestra en Proyecto &gt; Información y configuración del proyecto . |
+| Editar descripción | Añade (o edita) una descripción de texto del panel/visualización. Esta descripción se muestra en Proyecto > Información y configuración del proyecto. |
 | Obtener vínculo del panel | Le permite dirigir a los usuarios a un panel concreto de un proyecto. |
 | Obtener vínculo de visualización | Le permite copiar y compartir este vínculo para enviar a otros usuarios directamente a esta visualización. Los usuarios deberán iniciar sesión. |
 | Volver a empezar | (Funciona en Flujo, Venn, Histograma) Elimina la configuración de la visualización actual y abre un panel nuevo donde puede volver a configurarla. |
@@ -119,4 +119,4 @@ Para editar una etiqueta de leyenda en un gráfico de líneas, por ejemplo:
 1. Introduzca el nuevo texto de etiqueta.
 1. Pulse **[!UICONTROL Intro]** para guardar.
 
-Este es un [vínculo a un vídeo](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sobre este tema.
+Aquí tiene un [vínculo que dirige a un vídeo](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sobre este tema.
