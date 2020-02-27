@@ -22,7 +22,7 @@ Update screenshots for better readability.
 
 ## Crear una alerta a partir de una selección de tabla {#section_AE6D42E1255D498D908A2FA60370A419}
 
-En las tablas improvisadas, ahora puede crear alertas en contexto si hace clic con el botón derecho en una fila de la tabla y selecciona **[!UICONTROL Crear alerta a partir de la selección]**.
+En las tablas improvisadas, ahora puede crear alertas en contexto si hace clic con el botón secundario en una fila de la tabla y selecciona **[!UICONTROL Crear alerta a partir de la selección]**.
 
 ![](assets/alert_selection.png)
 
