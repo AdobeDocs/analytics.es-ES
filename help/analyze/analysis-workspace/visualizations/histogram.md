@@ -46,7 +46,7 @@ Para ajustar la configuración de su histograma, haga clic en el icono de Config
 
 ## Ver y editar los datos de un histograma {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-Para ver o modificar los datos de origen de un gráfico de histograma, haga clic en el punto del encabezado de Histograma para ir a **[!UICONTROL Configuración de fuente de datos]** &gt; **[!UICONTROL Mostrar fuente de datos]**.
+Para ver o modificar los datos de origen de un gráfico de histograma, haga clic en el punto del encabezado de Histograma para ir a **[!UICONTROL Configuración de fuente de datos]** > **[!UICONTROL Mostrar fuente de datos]**.
 
 ![](assets/manage-data-source.png)
 
