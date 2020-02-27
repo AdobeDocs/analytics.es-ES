@@ -28,6 +28,6 @@ Puede mostrar el [flujo entre dimensiones](/help/analyze/analysis-workspace/visu
 
 Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y suéltela en una zona de colocación para añadir esa dimensión al diagrama.
 
-## Exportación de diagramas de flujo como parte de archivos .CSV de proyecto {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Exportación de diagramas de flujo como parte de archivos .CSV de proyecto  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Los diagramas de flujo son parte del archivo .CSV de un proyecto que puede crear en **[!UICONTROL Proyecto]** &gt; **[!UICONTROL Descargar CSV]**. Esto le permite analizar los resultados del flujo en Microsoft Excel (visualizados como una tabla) o en otra herramienta.
+Los diagramas de flujo son parte del archivo .CSV de un proyecto que puede crear en **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar CSV]**. Esto le permite analizar los resultados del flujo en Microsoft Excel (visualizados como una tabla) o en otra herramienta.
