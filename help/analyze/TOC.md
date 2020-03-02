@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
+source-git-commit: f009b53ce14e22b7f5c014e2d6c3277d7940efe2
 
 ---
 
@@ -82,6 +82,7 @@ source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
          + [Información general de Attribution](analysis-workspace/c-panels/attribution/attribution.md)
          + [Uso del panel de Attribution](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Preguntas más frecuentes sobre Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
+         + [Atribución algorítmica](analysis-workspace/c-panels/attribution/algorithmic.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
       + Comparación de segmentos {#segment-comparison}
          + [Resumen de IQ de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
