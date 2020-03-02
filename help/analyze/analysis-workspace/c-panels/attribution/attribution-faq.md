@@ -1,8 +1,8 @@
 ---
 title: Preguntas más frecuentes sobre Attribution
 description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -15,7 +15,7 @@ El elemento de línea “Ninguno” es un captador global que representa todas l
 
 **¿Por qué a veces veo fechas fuera de la ventana de informes al utilizar modelos de atribución?**
 
-Estas fechas adicionales se deben a la ventana retrospectiva de informes de visitantes. Consulte [Datos que aparecen fuera de la ventana de informes](https://helpx.adobe.com/es/analytics/kb/data-appearing-outside-reporting-window.html) en la BC de Analytics para obtener más información. Adobe filtrará estas filas extra en una próxima versión.
+Estas fechas adicionales se deben a la ventana retrospectiva de informes de visitantes. Consulte [Datos que aparecen fuera de la ventana de informes](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) en la BC de Analytics para obtener más información. Adobe filtrará estas filas extra en una próxima versión.
 
 **¿Puedo utilizar una ventana retrospectiva personalizada con mis modelos de atribución?**
 
@@ -56,13 +56,9 @@ El panel de atribución admite todas las dimensiones. Las métricas no admitidas
 * Visitas a una sola página
 * Acceso único
 
-**¿En qué se diferencia la atribución en Analysis Workspace de la atribución en Data Workbench?**
+**¿Puedo utilizar una ventana retrospectiva personalizada con mis modelos de atribución?**
 
-Data Workbench ofrece cada vez más:
-
-* La capacidad de atribuir a través de más fuentes de datos de nivel de visitante, como impresiones de anuncios y punto de venta.
-* Modelado algorítmico. La atribución en Analysis Workspace incluye solo modelos basados en reglas. Consulte [Mejor modelado de ajuste](https://marketing.adobe.com/resources/help/en_US/insight/client/c_attrib_algorithmic.html) en la guía del usuario de Data Workbench.
-* Visualizaciones adicionales, como tablas de latencia. Consulte las [tablas de latencia](https://marketing.adobe.com/resources/help/en_US/insight/client/c_lat_tbls.html) en la guía del usuario de Data Workbench.
+Sí, con la opción de ventana retroactiva personalizada, las ventanas retrospectivas se pueden configurar en cualquier intervalo de fechas de hasta 90 días antes de la ventana de informes. Consulte [Procesamiento de tiempo de informes](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html) para obtener más información.
 
 **¿Funciona la atribución con las clasificaciones?**
 
