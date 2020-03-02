@@ -2,8 +2,8 @@
 description: 'null'
 title: Información general del panel de atribución
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -31,13 +31,17 @@ El panel de atribución es una función de [Attribution IQ](../../attribution-iq
 | ![Personalizado](assets/custom.png) | Personalizado | Permite especificar el valor que desea dar a los puntos de primer contacto, los puntos de último contacto y los puntos de contacto intermedios. Los valores especificados se normalizan al 100% incluso si los números introducidos no suman 100. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. En el caso de interacciones con dos puntos de contacto, se omite el parámetro central. Los puntos de primer y último contacto se normalizan al 100% y el crédito se asigna en consecuencia. | Este modelo es perfecto para aquellos que quieren un control total sobre su modelo de atribución y tienen necesidades específicas que otros modelos de atribución no satisfacen. |
 | ![Deterioro de tiempo](assets/time_decay.png) | Declive temporal | Sigue un declive exponencial con un parámetro de semivida personalizado, con un valor predeterminado de 7 días. El valor de cada canal depende de la cantidad de tiempo que transcurra entre el inicio del punto de contacto y la conversión final. La fórmula utilizada para determinar el crédito es `2`<sup>`(-t/halflife)`</sup>, donde `t` es la cantidad de tiempo entre un punto de contacto y una conversión. A continuación, todos los puntos de contacto se normalizan al 100%. | Ideal para equipos que periódicamente ejecutan campañas audiovisuales o que comercializan eventos con una fecha predeterminada. Cuanto más tardía sea la conversión después de un evento de marketing, menor será el crédito. |
 | ![Participación](assets/participation.png) | Participación | Otorga un 100% de crédito a todos los puntos de contacto únicos. El número total de conversiones está incrementado en comparación con otros modelos de atribución. La participación anula la duplicación de los canales vistos varias veces. | Excelente para comprender con qué frecuencia se exponen los clientes a una determinada interacción. Los medios suelen utilizar este modelo para calcular la velocidad de contenido. Los comercios suelen utilizar este modelo para comprender qué partes de sus sitios son esenciales para la conversión. |
+| ![Algoritmo](assets/algorithmic.png) | [Algoritmo](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. | Útil para evitar conjeturas o heurística al elegir el modelo de atribución adecuado para su negocio. |
 
 ## Ventanas retrospectivas
 
 Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devolverse en el tiempo para incluir los puntos de contacto. Los modelos de atribución que dan más crédito a las primeras interacciones ven diferencias mayores al tener ventanas retrospectivas distintas.
 
 * **Ventana retrospectiva de visita:** Revisa hasta el principio de una visita en la que se produjo una conversión. Las ventanas retrospectivas de visitas son estrechas, ya que no miran más allá de la visita. Las ventanas retrospectivas de visitas respetan la definición de visita modificada en los grupos de informes virtuales.
+
 * **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
+
+* **** Ventana retroactiva personalizada: Le permite expandir la ventana de atribución más allá del intervalo de fechas del informe hasta un máximo de 90 días. Las ventanas de retrospectiva personalizadas se evalúan en cada conversión en el período de la presentación de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de dimensión del 10 al 20 de febrero en el modelo de atribución.
 
 ## Ejemplo
 
@@ -51,8 +55,10 @@ Según la ventana retrospectiva y el modelo de atribución, los canales reciben 
 
 * Con el **primer contacto** y una **ventana retrospectiva de visita**, la atribución solo se fijará en la tercera visita. Entre el correo electrónico y la visualización, el correo electrónico fue el primero, por lo que el correo electrónico recibe un 100% de crédito por la compra de 50 dólares.
 * Con el **primer contacto** y una **ventana retrospectiva de visitantes**, la atribución se fijará en las tres visitas. La búsqueda de pago fue la primera, así que recibe un 100% de crédito por la compra de 50 $.
+* Con **primer toque** y una ventana **de retrospectiva** personalizada, de siete días, la atribución solo tiene en cuenta las dos visitas más recientes. En esta ventana de informes, el vínculo de medios sociales fue el primero, así que recibe un 100% de crédito por la compra de $50.
 * Con un modelo **lineal** y una **ventana retrospectiva de visita**, el crédito se divide entre el correo electrónico y la visualización. Cada uno de estos canales recibe un crédito de 25 dólares.
 * Con un modelo **lineal** y una **ventana retrospectiva de visitante**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización. Cada canal recibe un crédito de 12,50 $ por esta compra.
+* Con una ventana **retrospectiva** lineal **y** personalizada de siete días, el crédito se divide entre social, correo electrónico y visualización. Cada uno de estos canales recibe un crédito de $12.50 por esta compra. La búsqueda paga se excluye porque no se produce dentro de la ventana retrospectiva especificada.
 * Con un modelo **Forma de J** y una **ventana retrospectiva de visitante**, el crédito se divide entre la búsqueda de pago, el medio social, el correo electrónico y la visualización.
    * Se otorga un crédito del 60% a la visualización, es decir, 30 $.
    * El 20% de crédito se asigna a la búsqueda de pago, 10 $ en este caso.
