@@ -3,7 +3,7 @@ description: Configure y utilice cuentas de FTP alojadas en Adobe.
 keywords: ftp;sftp
 title: Resumen de configuración de cuentas de FTP
 uuid: e5524619-248a-4aae-9f64-cd7d33f3c407
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,6 +21,6 @@ Como los eventos de mantenimiento están programados, los clientes de Adobe reci
 * Después de haberlos transferido correctamente a sus sistemas, los usuarios deben eliminar los datos que Adobe envió a la cuenta de FTP.
 * Se debe informar a Adobe cuando las cuentas de FTP ya no se necesiten para proceder a su desactivación.
 
-The Adobe FTP host name is [!DNL ftp.omniture.com] or [!DNL ftp2.omniture.com].
+El nombre de host del de FTP de Adobe es [!DNL ftp.omniture.com] o [!DNL ftp2.omniture.com].
 
-This information, along with a username and password, should be provided either within the [!UICONTROL Experience Cloud] (for classifications and Data Sources), or by the Adobe representative responsible for setting up the account at your request. Si no sabe qué dirección de FTP usar, póngase en contacto con el administrador de cuentas de Adobe, que le indicará la dirección correcta. Además, en el caso de las cuentas de clasificaciones y fuentes de datos, Adobe no procesa los archivos de FTP a ninguna hora determinada del día, sino que utiliza un script que sondea continuamente las cuentas de FTP en busca de nuevos procesos de archivo. Los archivos cargados en estas cuentas se procesan lo más rápido posible.
+Esta información, junto con el nombre de usuario y la contraseña, se debe suministrar en [!UICONTROL Experience Cloud] (en el caso de las clasificaciones y fuentes de datos). También se puede delegar esta tarea en un representante de Adobe encargado de configurar la cuenta. Si no sabe qué dirección de FTP usar, póngase en contacto con el administrador de cuentas de Adobe, que le indicará la dirección correcta. Además, en el caso de las cuentas de clasificaciones y fuentes de datos, Adobe no procesa los archivos de FTP a ninguna hora determinada del día, sino que utiliza un script que sondea continuamente las cuentas de FTP en busca de nuevos procesos de archivo. Los archivos cargados en estas cuentas se procesan lo más rápido posible.
