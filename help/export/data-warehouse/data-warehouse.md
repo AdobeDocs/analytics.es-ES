@@ -3,7 +3,7 @@ description: El almacén de datos hace referencia a la copia de datos de Analyti
 title: Resumen de Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,11 +19,11 @@ El Data Warehouse comprime automáticamente cualquier archivo que supere 1 MB de
 
 El Data Warehouse pude procesar un número ilimitado de filas en una única solicitud para informes programados y descargados individuales.
 
-> [!NOTE] El almacén de datos informa del primer valor encontrado en el período de la presentación de informes.
+> [!NOTE] Data Warehouse informa del primer valor que se encuentra en el período de informe.
 
 >[!IMPORTANT]
 >
->Al segmentar en valores clasificados, Analysis Workspace y el Almacén de datos tratan los valores 'no especificados' de forma diferente. “No especificado” en Workspace se refiere a valores que no están clasificados, mientras que “No especificado” en Data Warehouse se refiere a valores que clasificó como “No especificado”.
+>Mediante la segmentación en valores clasificados, Analysis Workspace y Data Warehouse tratan los valores “no especificados” de forma diferente. “No especificado” en Workspace se refiere a valores que no están clasificados, mientras que “No especificado” en Data Warehouse se refiere a valores que clasificó como “No especificado”.
 
 ## Descripciones de las solicitudes del Data Warehouse {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -45,9 +45,9 @@ En esta tabla se describen los campos y las opciones de la ficha [!UICONTROL Sol
    <td colname="col1"> <span class="wintitle"> Fecha de informes</span> </td> 
    <td colname="col2"> <p>La fecha y granularidad de la solicitud. </p> 
     <ul id="ul_C00F4529BD9E4113B517A61751B1DD5C"> 
-     <li id="li_4D7C26812DF94ED7B64F985309541F46"> <span class="wintitle"> Personalizado</span>: un intervalo de fecha que puede configurarse en el calendario. </li> 
-     <li id="li_2B272087006847148A936350D1B2D523"> <span class="wintitle"> Ajuste preestablecido</span>: un intervalo preestablecido. El intervalo preestablecido se refiere a la fecha del informe. </li> 
-     <li id="li_745989965BB94D489FF7046587E13C42"> <span class="wintitle"> Granularidad</span>: la granularidad de la hora. Los valores válidos son Ninguno, Hora, Día, Semana, Mes, Trimestre y Año. </li> 
+     <li id="li_4D7C26812DF94ED7B64F985309541F46"> <span class="wintitle"> Personalizado</span>: Un intervalo de fecha que puede configurarse en el calendario. </li> 
+     <li id="li_2B272087006847148A936350D1B2D523"> <span class="wintitle"> Ajuste preestablecido</span>: Un intervalo preestablecido. El intervalo preestablecido se refiere a la fecha del informe. </li> 
+     <li id="li_745989965BB94D489FF7046587E13C42"> <span class="wintitle"> Granularidad</span>: La granularidad de la hora. Los valores válidos son Ninguno, Hora, Día, Semana, Mes, Trimestre y Año. </li> 
     </ul> <p>Los informes del Data Warehouse en los grupos de informes virtuales permiten que haya configurada una zona horaria alternativa en el grupo de informes virtuales. </p> </td> 
   </tr> 
   <tr> 
@@ -60,7 +60,7 @@ En esta tabla se describen los campos y las opciones de la ficha [!UICONTROL Sol
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Métricas</span> </td> 
-   <td colname="col2">Permite agregar métricas de las que desee informar. </td> 
+   <td colname="col2">Le permite agregar métricas de las que desee informar. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> Orden de las métricas</span> </td> 
