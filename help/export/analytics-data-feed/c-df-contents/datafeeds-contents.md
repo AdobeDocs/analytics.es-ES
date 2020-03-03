@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Resumen del contenido de la fuente de datos
 topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,11 +22,11 @@ El archivo de manifiesto contiene los siguientes detalles sobre cada archivo que
 * Nombre del archivo
 * Tamaño del archivo
 * hash MD5
-* Número de registros contenidos en el archivo
+* Cantidad de registros incluidos en el archivo
 
 El archivo de manifiesto sigue el mismo formato que un archivo de manifiesto JAR de Java.
 
-The manifest file is always delivered last as a separate `.txt` file, so that its existence indicates that the complete data set for that request period has already been delivered. Los nombres de los archivos de manifiesto se asignan según los criterios siguientes:
+El archivo de manifiesto siempre se entrega en último lugar como un archivo `.txt` independiente, de forma que su presencia indica que ya se ha entregado el conjunto de datos completo de ese período de solicitud. Los nombres de los archivos de manifiesto se asignan según los criterios siguientes:
 
 ```text
 [rsid]_[YYYY-mm-dd].txt
@@ -52,13 +52,13 @@ Datafeed-Manifest-Version: 1.0
 
 Cada archivo de manifiesto contiene un encabezado, que indica el número total de archivos de búsqueda, archivos de datos y el número total de registros incluidos en todos los archivos de datos. Este encabezado va seguido de varias secciones que contienen información para cada archivo incluido en la entrega de fuente de datos.
 
-Some feeds are configured to receive a `.fin` file instead of a `.txt` manifest. The `.fin` indicates that the upload is complete, but it contains no metadata about the upload.
+Algunas fuentes están configuradas para recibir un archivo `.fin` en lugar de un manifiesto `.txt`. El sufijo `.fin` indica que la carga se ha completado pero que no contiene metadatos de la carga.
 
 ## Archivos de búsqueda
 
-Algunas columnas de fuentes de datos muestran un número que corresponde a su valor real. Los archivos de búsqueda se utilizan para hacer coincidir un número de una columna de fuente de datos con un valor real. Por ejemplo, un valor de "497" en la columna de datos de `browser` visitas indica que la visita procede de "Microsoft Internet Explorer 8" si se mira en `browser.tsv`.
+Algunas columnas de fuentes de datos muestran un número que corresponde a su valor real. Los archivos de búsqueda se utilizan para hacer coincidir un número de una columna de fuente de datos con un valor real. Por ejemplo, un valor de “497” en la columna de datos de visitas `browser` indica que la visita procede de &quot;Microsoft Internet Explorer 8&quot; si se mira en `browser.tsv`.
 
-Note that the `column_headers.tsv` and `event_list.tsv` are specific to the data feed and report suite. Otros archivos, como puede ser `browser.tsv`, son genéricos.
+Tenga en cuenta que `column_headers.tsv` y `event_list.tsv` son específicos de la fuente de datos y del grupo de informes. Otros archivos, como puede ser `browser.tsv`, son genéricos.
 
 Los archivos de búsqueda se entregan juntos en un zip comprimido al que se le asigna un nombre según los criterios siguientes:
 
@@ -83,14 +83,14 @@ Los archivos de búsqueda se entregan juntos en un zip comprimido al que se le a
 
 ## Archivos de datos de visitas
 
-Hit data is provided in a [!DNL hit_data.tsv] file. La cantidad de datos incluida en este archivo viene determinada por el formato de entrega (por hora o por día, y en un archivo o en varios). El archivo contiene solo datos de visitas. Los encabezados de columna se entregan por separado con los archivos de búsqueda. Cada fila del archivo contiene una sola llamada al servidor.
+Los datos de visitas se proporcionan en un archivo [!DNL hit_data.tsv]. La cantidad de datos incluida en este archivo viene determinada por el formato de entrega (por hora o por día, y en un archivo o en varios). El archivo contiene solo datos de visitas. Los encabezados de columna se entregan por separado con los archivos de búsqueda. Cada fila del archivo contiene una sola llamada al servidor.
 
-Los archivos entregados por Adobe varían según el tipo de fuente de datos que haya configurado. Todos los archivos se codifican con ISO-8859-1.
+Los archivos que Adobe entrega varían en función del tipo de fuente de datos que usted haya configurado. Todos los archivos se codifican con ISO-8859-1.
 
-* `[rsid]` hace referencia a la ID del grupo de informes desde la que proviene la fuente de datos.
+* `[rsid]` hace referencia al ID del grupo de informes desde el que proviene el origen de datos.
 * `[index]` solo se utiliza en varias fuentes de archivos y hace referencia al orden correcto de los archivos paginados.
-* `[YYYY-mm-dd]` hace referencia al día de inicio de la fuente de datos.
-* `[HHMMSS]` se utiliza solamente en fuentes por hora y se refiere a la hora de inicio para la que está la fuente de datos.
+* `[YYYY-mm-dd]` hace referencia al día de inicio del origen de datos.
+* `[HHMMSS]` solo se utiliza en fuentes por hora y se refiere a la hora de inicio para la que está la fuente de datos.
 * `[compression_suffix]` hace referencia al tipo de compresión utilizado. Normalmente, las fuentes de datos se comprimen en `tar.gz` o `zip` archivos.
 
 ### A diario, archivo único
@@ -99,11 +99,11 @@ Una vez recopilados los datos durante un día, recibirá un único archivo de da
 
 `[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-Cuando se extrae, el archivo de datos contiene un único `hit_data.tsv` archivo con todos los datos de ese día, así como archivos de búsqueda para las columnas requeridas.
+Cuando se extrae, el archivo de datos contiene un único archivo `hit_data.tsv` con todos los datos de ese día, así como archivos de búsqueda para las columnas requeridas.
 
 ### Diariamente, varios archivos
 
-Una vez recopilados los datos durante un día, recibirá uno o más archivos de datos comprimidos y un archivo de manifiesto. El nombre del archivo de datos es:
+Una vez recopilados los datos durante un día, recibirá uno o varios archivos de datos comprimidos y un archivo de manifiesto. El nombre del archivo de datos es:
 
 `[index]-[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
@@ -115,7 +115,7 @@ Una vez recopilados los datos durante una hora, recibirá un único archivo de d
 
 `[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
 
-Cuando se extrae, el archivo de datos contiene un solo `hit_data.tsv` archivo con todos los datos de esa hora, así como archivos de búsqueda de las columnas requeridas.
+Cuando se extrae, el archivo de datos contiene un solo archivo `hit_data.tsv` con todos los datos de esa hora, así como archivos de búsqueda de las columnas requeridas.
 
 ### Por hora, varios archivos
 
@@ -123,8 +123,8 @@ Una vez recopilados los datos durante una hora, recibirá uno o más archivos de
 
 `[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
 
-Cuando se extrae, cada archivo de datos contiene un único `hit_data.tsv` que contiene aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para cualquier columna requerida.
+Cuando se extrae, cada archivo de datos contiene un único `hit_data.tsv` que incluye aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para cualquier columna requerida.
 
 ## Tamaño del archivo de datos
 
-El tamaño del archivo de datos de visitas varía en gran medida según la cantidad de variables utilizadas activamente y la cantidad de tráfico enviado al grupo de informes. Sin embargo, una fila de datos tiene un tamaño medio aproximado de 500 B (comprimido) o de 2 KB (sin comprimir). Si se multiplica esto por el número de llamadas al servidor, se puede obtener una estimación aproximada del tamaño de un archivo de fuente de datos. Una vez que las organizaciones empiecen a recibir archivos de fuente de datos, puede encontrar un número más preciso dividiendo el número de filas en `hit_data.tsv` por el tamaño total del archivo.
+El tamaño del archivo de datos de la visita varía en gran medida en función del número de variables que se usa de forma actica y del volumen de tráfico enviado al grupo de informes. Sin embargo, una fila de datos tiene un tamaño medio aproximado de 500 B (comprimido) o de 2 KB (sin comprimir). Si se multiplica esta cifra por el número de llamadas al servidor, se puede obtener un cálculo aproximado del tamaño del archivo de la fuente de datos. Una vez que las organizaciones empiecen a recibir archivos de fuente de datos, puede obtener un número más preciso dividiendo el número de filas en `hit_data.tsv` por el tamaño total del archivo.
