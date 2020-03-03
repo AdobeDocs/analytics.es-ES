@@ -15,7 +15,7 @@ Para acceder a la administración de fuentes de datos, siga estos pasos:
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 2. Haga clic en el menú de 9 cuadrículas en la parte superior derecha y, a continuación, haga clic en [!UICONTROL Analytics].
-3. En el menú superior, haga clic en [!UICONTROL Administración] &gt; [!UICONTROL Fuentes de datos].
+3. En el menú superior, haga clic en [!UICONTROL Administración] > [!UICONTROL Fuentes de datos].
 
 ![Menú de fuente de datos](assets/AdminMenu.png)
 
