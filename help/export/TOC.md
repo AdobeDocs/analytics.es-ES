@@ -12,7 +12,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 # Guía de exportación de Analytics {#export}
 
 + [Inicio de la exportación de Analytics](home.md)
-+ Fuente de datos de Analytics{#analytics-data-feed}
++ Fuente de datos de Analytics {#analytics-data-feed}
    + [Resumen de la fuente de datos](analytics-data-feed/data-feed-overview.md)
    + [Creación o edición de una fuente de datos](analytics-data-feed/create-feed.md)
    + [Administrar fuentes de datos](analytics-data-feed/df-manage-feeds.md)
