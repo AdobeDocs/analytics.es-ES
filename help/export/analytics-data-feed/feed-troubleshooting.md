@@ -3,7 +3,7 @@ description: Esta sección contiene información sobre los problemas más frecue
 keywords: Data Feed;troubleshooting
 title: Solución de problemas de fuentes de datos
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -29,9 +29,9 @@ En ese caso, puede hacer lo siguiente:
 
 El caso de uso más habitual de Amazon S3 es que el propietario de la cuenta de los servicios web de Amazon (AWS) crea un bucket, a continuación crea un usuario que tiene permiso para crear objetos en ese bucket y, finalmente, proporciona credenciales para ese usuario. En este caso, los objetos de un usuario pertenecen a la misma cuenta y el propietario de la cuenta tiene implícitamente un control total del objeto (leer, eliminar, etc.). Funciona de un modo similar a la entrega por FTP.
 
-AWS también permite a los usuarios crear objetos en un bucket que pertenece a otra cuenta de usuario completamente diferente. Por ejemplo, si dos usuarios de AWS, el usuario A y el usuario B, no pertenecen a la misma cuenta de AWS pero quieren crear objetos en otros buckets. Si el usuario A crea un bucket, por ejemplo el bucket A, este puede crear una política que permita explícitamente que el usuario B cree objetos en el bucket A, aunque el bucket no pertenezca al usuario. Esto puede ser beneficioso porque no es necesario que el usuario A y el usuario B intercambien credenciales. En su lugar, el usuario B proporciona su número de cuenta al usuario A y este crea una política de bucket que diga "permitir al usuario B crear objetos en el bucket A".
+AWS también permite a los usuarios crear objetos en un bucket que pertenece a otra cuenta de usuario completamente diferente. Por ejemplo, si dos usuarios de AWS, el usuario A y el usuario B, no pertenecen a la misma cuenta de AWS pero quieren crear objetos en otros buckets. Si el usuario A crea un bucket, por ejemplo el bucket A, este puede crear una política que permita explícitamente que el usuario B cree objetos en el bucket A, aunque el bucket no pertenezca al usuario. Esto puede ser beneficioso porque no es necesario que el usuario A y el usuario B intercambien credenciales. En su lugar, el usuario B proporciona su número de cuenta al usuario A y este crea una política de bucket que diga &quot;permitir al usuario B crear objetos en el bucket A&quot;.
 
-**BucketOwnerFullControl** proporciona derechos a varias cuentas para crear objetos en otros buckets. Si el usuario B carga un objeto al bucket del usuario A, el usuario B todavía "posee" ese objeto y, por defecto, no se han concedido permisos al usuario A sobre ese objeto, aunque el usuario A posea el bucket: los objetos no heredan permisos del bucket primario. El usuario B debe conceder permiso explícitamente al usuario A porque el usuario B sigue siendo el propietario del objeto. Para la carga en varias cuentas, AWS proporciona un BucketOwnerFullControl ACL, especificando que el uso de este ACL por el propietario del bucket (usuario A) tiene permisos concedidos para el objeto (leer, escribir, eliminar, etc.), a pesar de que es el usuario B quien "posee" el objeto.
+**BucketOwnerFullControl** proporciona derechos a varias cuentas para crear objetos en otros buckets. Si el usuario B carga un objeto al bucket del usuario A, el usuario B todavía &quot;posee&quot; ese objeto y, por defecto, no se han concedido permisos al usuario A sobre ese objeto, aunque el usuario A posea el bucket: los objetos no heredan permisos del bucket primario. El usuario B debe conceder permiso explícitamente al usuario A porque el usuario B sigue siendo el propietario del objeto. Para la carga en varias cuentas, AWS proporciona un BucketOwnerFullControl ACL, especificando que el uso de este ACL por el propietario del bucket (usuario A) tiene permisos concedidos para el objeto (leer, escribir, eliminar, etc.), a pesar de que es el usuario B quien &quot;posee&quot; el objeto.
 
 ## Errores de transferencia {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
@@ -41,15 +41,15 @@ En caso de un error de transferencia, puede volver a ejecutar un trabajo hasta q
 
 ## Opciones de reenvío {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Una vez verificado/corregido el problema de entrega, vuelva a ejecutar el trabajo para obtener los archivos.
+Cuando haya comprobado/corregido el problema de entrega, ejecute de nuevo el trabajo para obtener los archivos.
 
 ## Efecto del horario de verano en las Fuentes de datos por hora {#section_70E867D942054DD09048E027A9474FFD}
 
 En determinadas zonas horarias, la hora cambia dos veces al año debido a las definiciones del horario de verano (DST). Las fuentes de datos respetan la zona horaria que se ha tomado como referencia para configurar el grupo de informes. Si la zona horaria del grupo de informes no utiliza DST, la entrega de archivos seguirá su curso como cualquier otro día. Si la zona horaria del grupo de informes sí utiliza DST, la entrega de archivos se verá modificada en la hora en la que se produzca el cambio de horario (normalmente a las 2 de la madrugada).
 
-Al realizar las transiciones de tiempo de STD -&gt; DST ("Primavera hacia adelante"), el cliente solo recibirá 23 archivos. La hora que se salta en la transición a DST se omite sin más. Por ejemplo, si la transición se produce a las 2 de la madrugada, obtendrán un archivo para la 1 y un archivo para las 3. No habrá archivo para las 2, porque las 2 STD se convierten en las 3 DST.
+Cuando se realice la transición de STD a DST (cambio de hora estacional), el cliente solo recibirá 23 archivos. La hora que se salta en la transición a DST se omite sin más. Por ejemplo, si la transición se produce a las 2 de la madrugada, el cliente recibirá un archivo correspondiente a la 1 y un archivo correspondiente a las 3. No habrá archivo para las 2, porque las 2 STD se convierten en las 3 DST.
 
-Al realizar las transiciones de DST -&gt; STD, ("Visitas en el orden previsto"), el cliente recibirá 24 archivos. Sin embargo, la hora de transición incluirá datos de 2 horas. Por ejemplo, si la transición se produce a las 2 de la madrugada, el archivo de la 1 se retrasará una hora, pero incluirá datos de dos horas. Incluirá datos entre la 1 DST y las 2 STD (que habrían sido las 3 DST). El siguiente archivo empezará a las 2 STD.
+Cuando se realice la transición de DST a STD, el cliente recibirá 24 archivos. Sin embargo, la hora de transición en realidad incluirá datos correspondientes a dos horas. Por ejemplo, si la transición se produce a las 2 de la madrugada, el archivo de la 1 se retrasará una hora, pero incluirá datos de dos horas. Incluirá datos entre la 1 DST y las 2 STD (que habrían sido las 3 DST). El siguiente archivo empezará a las 2 STD.
 
 ## Sin datos durante un período de tiempo {#section_72510794694D42A9A75C966B812AEB0F}
 
