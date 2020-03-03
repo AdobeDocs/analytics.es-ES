@@ -1,9 +1,9 @@
 ---
-description: Adobe admite la exportación de solicitudes del almacén de datos a servidores SFTP.
+description: Adobe admite la exportación de solicitudes de Data Warehouse a servidores SFTP.
 keywords: ftp;sftp
 title: Envío de solicitudes de Data Warehouse a los servidores SFTP
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,33 +11,33 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Envío de solicitudes de Data Warehouse a los servidores SFTP
 
-Adobe admite la exportación de solicitudes del almacén de datos a servidores SFTP.
+Adobe admite la exportación de solicitudes de Data Warehouse a servidores SFTP.
 
 Asegúrese de que las tareas siguientes se hayan completado:
 
-Adobe admite la exportación de solicitudes del almacén de datos a servidores SFTP, siempre que se cumplan los siguientes requisitos:
+Adobe admite la exporación de solicitudes de Data Warehourse a los servidores SFTP, siempre que se cumplan las condiciones siguientes:
 
-* [!DNL sftp://] se especifica en el campo host (por ejemplo, [!DNL sftp://ftp.example.com]) y SOLO se utiliza el puerto 22 al solicitar un informe del almacén de datos.
+* Cuando el protocolo [!DNL sftp://] se especifica en el campo del host (por ejemplo, [!DNL sftp://ftp.example.com]) y SOLO se utiliza el puerto 22 al solicitar el informe de Data Warehouse.
 
-   También puede utilizar la [!DNL sftp+norename://] opción, como se describe a continuación.
+   También puede utilizar la opción [!DNL sftp+norename://], tal y como se describe a continuación.
 
-* Adobe's [!DNL authorized_keys] file is in the [!DNL .ssh] directory within the root directory of the user you log in with
+* El archivo [!DNL authorized_keys] de Adobe se encuentra en el directorio [!DNL .ssh], dentro del directorio raíz del usuario con el que inicia sesión.
 
 * El destino no es [!DNL ftp.omniture.com]. No se admite el protocolo SFTP entre los servidores internos de Adobe.
 * El destino admite la autenticación de un factor (PKI). Si se exigen dos factores, el informe no se podrá entregar. Asegúrese de que el servidor no esté configurado para intentar la autenticación usando dos factores. Adobe Analytics requiere que, al iniciar sesión, solo se utilice la clave.
 * Adobe admite el cifrado SSHv2 y regresa a SSHv1 (solo clave RSA).
 
-To successfully send a [!DNL Data Warehouse] request via SFTP:
+Para enviar correctamente una solicitud de [!DNL Data Warehouse] a través de SFTP:
 
 1. Pídale a uno de los usuarios de soporte técnico de su compañía que se ponga en contacto con el servicio de atención al cliente para obtener el archivo [!DNL authorized_keys].
-1. After this file is obtained, log in to the FTP site under the same credentials that are used for the [!DNL Data Warehouse] request.
-1. In the root directory, navigate to the folder named [!DNL .ssh] (if one does not exist, create one) and place the [!DNL authorized_keys] file there.
+1. Cuando haya obtenido el archivo, inicie sesión en el sitio del FTP con las mismas credenciales que utilizó para la solicitud de [!DNL Data Warehouse].
+1. En el directorio raíz, vaya a la carpeta denominada [!DNL .ssh] (si todavía no existe, créela) y coloque en ella el archivo [!DNL authorized_keys].
 
-1. Go to the [!DNL Data Warehouse] request manager. Configure la solicitud según sus preferencias y luego haga clic en **[!UICONTROL Opciones de envío avanzadas]**.
+1. Vaya al gestor de solicitudes de [!DNL Data Warehouse]. Configure la solicitud según sus preferencias y luego haga clic en **[!UICONTROL Opciones de envío avanzadas]**.
 
-1. In the pop-up window, click **[!UICONTROL FTP]**, then specify the ftp site (including the [!DNL sftp://] protocol, such as [!DNL sftp://ftp.omniture.com]) via port 22.
+1. En la ventana emergente, haga clic en **[!UICONTROL FTP]** y después especifique el sitio del FTP (incluido el protocolo [!DNL sftp://], de este modo: [!DNL sftp://ftp.omniture.com]) a través del puerto 22.
 
-   Including the [!DNL sftp://] protocol is only permitted when using SFTP. Regular FTP requests should omit the protocol prefix (such as, [!DNL ftp.omniture.com] instead of [!DNL ftp://ftp.omniture.com]).
+   El protocolo [!DNL sftp://] solo se puede incluir cuando se usa un SFTP. El prefijo del protocolo se debe omitir en las solicitudes normales de FTP (es decir, sería [!DNL ftp.omniture.com] en lugar de [!DNL ftp://ftp.omniture.com]).
 
 1. En el campo Carpeta, escriba el nombre de la carpeta donde quiere colocar el archivo. El nombre de la carpeta es obligatorio.
 1. Escriba el nombre de usuario y la contraseña que usó en el paso 2.
@@ -45,4 +45,4 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 
 El comando PUT de SFTP coloca un archivo temporal con la extensión .part en el directorio especificado. Cuando la carga se termina, la extensión del archivo se cambia por la extensión final. Ahora el archivo ya está listo para su uso.
 
-Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. Este método es adecuado cuando el servidor SFTP gestiona automáticamente el cambio de nombre de los archivos durante la carga y no hay ninguna posibilidad de que el archivo se procese antes de que la carga se complete.
+Otra opción es que [!DNL sftp+norename://] se especifique en lugar de [!DNL sftp://] al cargar el archivo directamente con el nombre final, sin un nombre de archivo temporal [!DNL .part] durante la carga. Este método es adecuado cuando el servidor SFTP gestiona automáticamente el cambio de nombre de archivos durante la carga y no hay posibilidad de que el archivo se procese antes de que se complete la carga.
