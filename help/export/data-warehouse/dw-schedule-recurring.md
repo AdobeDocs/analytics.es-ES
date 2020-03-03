@@ -2,7 +2,7 @@
 description: 'null'
 title: Programar una solicitud recurrente
 uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
