@@ -3,7 +3,7 @@ description: La política sobre FTP de Adobe deshabilita automáticamente el acc
 keywords: ftp;sftp
 title: Eliminación de datos y cuentas de FTP
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
