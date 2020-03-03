@@ -3,7 +3,7 @@ description: El tiempo de procesamiento de un archivo de FTP, ya sea de clasific
 keywords: ftp;sftp
 title: Tiempos de procesamiento de FTP
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
