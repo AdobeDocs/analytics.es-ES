@@ -24,7 +24,7 @@ Esta guía describe los modos de extraer datos de Adobe Analytics. Incluye:
 
 ## Más guías de usuario de Analytics
 
-[Guías de usuario de Analytics](/help/landing/home.md)
+[Guías del usuario de Analytics](/help/landing/home.md)
 
 ## Recursos clave de Analytics
 
