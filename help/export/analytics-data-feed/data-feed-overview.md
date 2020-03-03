@@ -3,7 +3,7 @@ description: Los datos que se recopilan de sitios web y aplicaciones móviles, o
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Resumen de la fuente de datos de Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
@@ -56,10 +56,10 @@ Asegúrese de cumplir todos los requisitos antes de utilizar fuentes de datos.
 
 Una vez que haya comprendido el flujo de trabajo básico de la obtención de fuentes de datos, puede trabajar con equipos de su organización para almacenar o introducir datos sin procesar en una base de datos.
 
-* [Crear una fuente](create-feed.md)de datos: Detalles técnicos para crear una fuente de datos, que explican los campos individuales con más detalle
-* [Administrar fuentes](df-manage-feeds.md)de datos: Más información sobre cómo navegar por la interfaz de fuente de datos
-* [Contenido](c-df-contents/datafeeds-contents.md)de la fuente de datos: Comprender qué hay dentro del archivo comprimido
-* [Definiciones](c-df-contents/datafeeds-reference.md)de columnas de datos: Una lista completa de todas las columnas disponibles
+* [Crear una fuente de datos](create-feed.md): Detalles técnicos para crear una fuente de datos; explicación más detallada de los campos individuales
+* [Administrar fuentes de datos](df-manage-feeds.md): Más información sobre cómo navegar por la interfaz de la fuente de datos
+* [Contenido de la fuente de datos](c-df-contents/datafeeds-contents.md): Explicación sobre los elementos incluidos en un archivo comprimido
+* [Definiciones de columnas de datos](c-df-contents/datafeeds-reference.md): Una lista completa de todas las columnas disponibles
 
 ## Recursos adicionales
 
