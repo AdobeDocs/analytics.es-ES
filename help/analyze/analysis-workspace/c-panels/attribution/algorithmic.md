@@ -1,5 +1,5 @@
 ---
-description: 'null'
+description: nulo
 title: Atribución algorítmica
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
