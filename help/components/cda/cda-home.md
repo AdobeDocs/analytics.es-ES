@@ -2,7 +2,7 @@
 title: Análisis entre dispositivos
 description: El análisis entre dispositivos cambia los datos de estar centrados en el dispositivo a estar centrados en la persona, al unir los datos del dispositivo.
 translation-type: tm+mt
-source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
+source-git-commit: 3e821ce7b045647c09d9548659834ffc2170163d
 
 ---
 
@@ -33,9 +33,9 @@ A partir de septiembre de 2019, Análisis entre dispositivos requiere lo siguien
 * Contacte con el administrador de cuentas de su organización para establecer estos puntos clave:
    * Se debe firmar un contrato con Adobe que incluya Adobe Analytics Ultimate.
    * Su organización debe utilizar el gráfico colaborativo o el gráfico privado de Adobe Experience Platform Identity Service. Consulte la página [principal](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) en la guía del usuario de Device Co-op.
-   * Su organización debe aceptar permitir que Adobe procese y almacene datos de Analytics en servidores de Microsoft Azure. Adobe utiliza Azure para almacenar datos de gráficos de dispositivos y realizar la vinculación de dispositivos. De este modo, los datos de Adobe Analytics se pasan de un lado a otro entre el centro de procesamiento de datos de Adobe y la presencia de Adobe en Microsoft Azure.
+   * Con un espíritu de colaboración y transparencia, queremos que nuestros clientes sean conscientes de nuestro uso de Microsoft Azure en asociación con Análisis entre dispositivos. Adobe utiliza Azure para almacenar datos de gráficos de dispositivos y realizar conexiones entre dispositivos. De este modo, los datos de Adobe Analytics se pasan de un lado a otro entre el centro de procesamiento de datos de Adobe y las instancias aprovisionadas de Adobe de Microsoft Azure.
 * El análisis entre dispositivos se habilita por grupo de informes. Los grupos de informes que se han habilitado para CDA requieren lo siguiente:
-   * El grupo de informes no puede tener más de 100 millones de visitas al día. Este umbral aumentará en los próximos meses.
+   * El grupo de informes no puede tener más de 500 millones de visitas al día.
    * Adobe recomienda que un grupo de informes contenga datos entre dispositivos, es decir, datos de varios tipos de dispositivos (web, aplicación, etc.). Algunas organizaciones se refieren a este concepto como un grupo de informes “global”, aunque el CDA no tiene que ser estrictamente global desde una perspectiva geográfica. El análisis entre dispositivos no funciona en todos los grupos de informes ni combina datos de varios grupos de informes.
 * Su implementación debe cumplir los siguientes requisitos:
    * Se debe implementar la versión más reciente del servicio Experience Cloud ID. Consulte la página [principal](https://docs.adobe.com/content/help/en/id-service/using/home.html) en la guía del usuario del servicio de Experience Cloud ID. Es probable que la mayoría de las implementaciones que utilizan Adobe Experience Platform Launch ya hayan implementado ECID.
