@@ -41,7 +41,7 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 * **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
 
-* **** Ventana retroactiva personalizada: Le permite expandir la ventana de atribución más allá del intervalo de fechas del informe hasta un máximo de 90 días. Las ventanas de retrospectiva personalizadas se evalúan en cada conversión en el período de la presentación de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de dimensión del 10 al 20 de febrero en el modelo de atribución.
+* **Ventana retroactiva personalizada:** Le permite expandir la ventana de atribución más allá del intervalo de fechas del informe hasta un máximo de 90 días. Las ventanas de retrospectiva personalizadas se evalúan en cada conversión en el período de la presentación de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de dimensión del 10 al 20 de febrero en el modelo de atribución.
 
 ## Ejemplo
 
