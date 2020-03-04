@@ -2,8 +2,8 @@
 description: Compara la terminología y tareas de los Ad Hoc Analysis con las de Analysis Workspace.
 title: Analysis Workspace comparado con los Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 ---
 
@@ -14,7 +14,7 @@ Compara la terminología y tareas de los Ad Hoc Analysis con las de Analysis Wor
 
 Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al flujo de trabajo del explorador. Aunque parte de la terminología y la funcionalidad se comparten entre ambos productos, en Analysis Workspace se han introducido nuevos términos y enfoques de análisis.
 
-[Aquí](https://marketing.adobe.com/resources/help/es_ES/reference/analytics-product-comparison.html) tiene una comparativa técnica de las características principales y los requisitos del sistema de ambos productos.
+[Aquí](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html) tiene una comparativa técnica de las características principales y los requisitos del sistema de ambos productos.
 
 ## Comparación de terminología clave  {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -22,7 +22,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
 |--- |--- |
 | Proyecto | Workspace o proyecto |
 | Workspace | Panel |
-| Informe | Tabla de forma libre |
+| Información general de la tienda de aplicaciones | Tabla de forma libre |
 | Gráficos | Visualización |
 | Jerarquía: Proyecto > Workspace > Informes | Jerarquía: Proyecto > Paneles > Tablas |
 | Plantillas de informes Jerárquicas, De tendencia, Totales | Visualización de tabla improvisada |
@@ -100,7 +100,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > Attribution IQ</a> en Analysis Workspace permite agregar muchos tipos nuevos de modelos de atribución a las Tablas improvisadas, Visualizaciones y Métricas calculadas. </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution-iq.md"  > Attribution IQ</a> en Analysis Workspace permite agregar muchos tipos nuevos de modelos de atribución a las Tablas improvisadas, Visualizaciones y Métricas calculadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>No se incluye </p> </td> 
