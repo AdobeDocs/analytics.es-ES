@@ -1,14 +1,14 @@
 ---
-description: 'null'
+description: nulo
 title: Preguntas frecuentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Preguntas más frecuentes
+# Preguntas frecuentes
 
 ## Acceso y derechos {#section_5F558C5981F747F0AF375A9E4B75C93C}
 
@@ -21,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Q: Do I need to be an <b>Adobe Advertising Cloud or Adobe Advertising Cloud (AMO) customer</b> to access this functionality? </p> </td> 
+   <td colname="col1"> <p>P: ¿Debo ser <b>cliente de Adobe Advertising Cloud o Adobe Media Optimizer (AMO)</b> para acceder a esta funcionalidad? </p> </td> 
    <td colname="col2"> <p>R: No, esta funcionalidad está disponible para clientes que no sean de Advertising Cloud ni de AMO. </p> <p>Los clientes de AMO pueden aprovechar la integración Analytics-AMO existente; no podrán utilizar Ad Analytics. </p> </td> 
   </tr> 
   <tr> 
@@ -47,7 +47,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Uso de Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## Uso de Advertising Analytics  {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -72,7 +72,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Qué <b>datos de búsqueda</b> obtengo con esta integración? </p> </td> 
-   <td colname="col2"> <p>R: Obtendrá 1) Impresiones, 2) Clics, 3) Costes, 4) Puntuación de calidad y 5) Posición media directamente de los motores de búsqueda, así como 6) Instancias de AMO ID (Instancias de clic). </p> </td> 
+   <td colname="col2"> <p>R: Obtendrá 1) Impresiones, 2) Clics, 3) Costes, 4) Puntuación de calidad y 5) Posición media directamente de los motores de búsqueda, así como 6) Instancias de ID de AMO (Instancias de clic). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Puedo <b>desglosar los datos de Advertising Analytics</b> según otros datos de Analytics (métricas/dimensiones)? </p> </td> 
@@ -88,16 +88,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>P: Estoy intentando <b>asignar las cuentas de Advertising Analytics a un grupo de informes determinado</b>, pero no está disponible en el modal Grupos de informes. ¿Por qué? </p> </td> 
-   <td colname="col2"> <p>R: Antes de poder asignar un grupo de informes a una cuenta de Advertising Analytics, el grupo de informes en cuestión debe <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >aprovisionarse para los informes de Advertising Analytics </a>. </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col1"> <p>P: Estoy intentando <b>asignar las cuentas de Advertising Analytics a un grupo de informes determinado</b>, pero no está disponible en el modal Grupos de informes. ¿Por qué?  </p> </td> 
+   <td colname="col2"> <p>R: Antes de poder asignar un grupo de informes a una cuenta de Advertising Analytics, el grupo de informes en cuestión debe <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >aprovisionarse para los informes de Advertising Analytics </a>. </p> <p>Esto se realiza a través de una página de Administración independiente a la que se puede acceder desde: <span class="ignoretag"> <span class="uicontrol"> Administración</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">[seleccionar grupo de informes con Experience Cloud activado]</span> &gt; <span class="uicontrol">Editar configuración</span> &gt; <span class="uicontrol">Configuración de Advertising Analytics </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Es posible asignar un <b>grupo de informes virtual</b> (VRS) a una cuenta de Advertising Analytics? </p> </td> 
-   <td colname="col2"> <p>R: Los grupos de informes virtuales no recopilan datos, de manera que no puede asignar directamente una cuenta de Advertising Analytics a un VRS. </p> <p>No obstante, puede asignar la cuenta de Advertising Analytics al grupo de informes principal del VRS en que quiere ver datos. </p> <p>Es posible que las métricas del motor de búsqueda (clic/costo/impresiones) no se muestren en el VRS a menos que incluya una condición "o" en la lógica del segmento según la ID de AMO (o su clasificación). Ejemplo: La adición de "todas las visitas donde existe la ID de AMO" incluiría las métricas del motor de búsqueda en el segmento. </p> </td> 
+   <td colname="col2"> <p>R: Los grupos de informes virtuales no recopilan datos, de manera que no puede asignar directamente una cuenta de Advertising Analytics a un VRS. </p> <p>No obstante, puede asignar la cuenta de Advertising Analytics al grupo de informes principal del VRS en que quiere ver datos. </p> <p>Las métricas del motor de búsqueda (clic/coste/impresiones) pueden no mostrarse en el grupo de informes virtual a menos que se incluya en la lógica del segmento una condición “o” basada en el ID de AMO (o en su clasificación). Ejemplo: Agregar “todas las visitas donde exista un ID de AMO” incluiría en el segmento las métricas del motor de búsqueda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Se pueden incluir las métricas de Advertising Analytics en el informe <b>Canales de marketing</b>? </p> </td> 
-   <td colname="col2"> <p>A: No, no se incluyen en el informe Canales de mercadotecnia. </p> </td> 
+   <td colname="col2"> <p>R: No, no se incluyen en el informe Canales de marketing. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿<b>Cuándo</b> obtiene Analytics los datos de búsqueda? </p> </td> 
@@ -105,7 +105,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Qué se puede <b>capturar antes del clic</b>? ¿Obtenemos impresiones, costes, posiciones medias, etc. incluso sin el clic? </p> </td> 
-   <td colname="col2"> <p>R: El ID de AMO capturará las métricas del motor de búsqueda: las impresiones, los costes, los clics, la posición media y la puntuación de calidad media. Si no hay clics, pero hay impresiones, los datos de impresión, posición y calidad se enviarán a Analytics. Normalmente, si no hay clics, tampoco hay costes. </p> </td> 
+   <td colname="col2"> <p>R: El ID de AMO registrará las métricas del motor de búsqueda: las impresiones, los costes, los clics, la posición media y la puntuación de calidad media. Si no hay clics, pero hay impresiones, los datos de impresión, posición y calidad se enviarán a Analytics. Normalmente, si no hay clics, tampoco hay costes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿En qué nivel se capturan estos datos? <b>¿En el del visitante? ¿En el de la visita?</b> </p> </td> 
@@ -113,7 +113,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: ¿Solo capturamos google.com o también <b>versiones específicas de los países</b> como google.co.uk, google.it, google.fr o google.de? </p> </td> 
-   <td colname="col2"> <p>A: La clasificación Plataforma de publicidad captura estos valores: "Google Adwords" y "Bing Ads". </p> <p>Una práctica recomendada habitual es incluir el código de país como parte del nombre de las campañas. A continuación, puede filtrar o segmentar (por ejemplo: si todas las campañas comienzan con código de país_, crear un segmento en el que Campañas (ID de AMO) comience con "UK_" le proporcionará sólo datos para el Reino Unido). </p> </td> 
+   <td colname="col2"> <p>R: La clasificación de la Plataforma de publicidad registra estos valores: “Google Adwords” y “Bing Ads”. </p> <p>Una recomendación habitual es incluir el código de país como parte del nombre de las campañas. A continuación, puede filtrarlas o segmentarlas (por ejemplo, si todas las campañas empiezan por códigodepaís_, el hecho de crear un segmento en el que las campañas (ID de AMO) empiecen por “UK_” solo le proporcionaría datos para el Reino Unido). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>P: La métrica “Coste de AMO” es el coste que se paga por cada palabra clave o anuncio según informe el motor de búsqueda. ¿Es el coste neto o el bruto? </p> </td> 
@@ -126,7 +126,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Seguimiento automático frente al manual {#section_7437C4698A6D482EB7ED94A948390119}
+## Seguimiento automático frente al manual  {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
@@ -138,7 +138,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>P: Al configurar la cuenta de Advertising, se indica que el uso de <b>Seguimiento automático</b> puede tener consecuencias imprevistas. ¿Qué tipos de consecuencias se pueden producir? </p> </td> 
-   <td colname="col2"> <p>R: 
+   <td colname="col2"> <p>A: 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
       <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">El modo automático intentará añadir los parámetros de la dirección URL al final de las plantillas de seguimiento o de las direcciones URL de destino en el formato correcto. <b>Sin embargo, usted es responsable de garantizar que los parámetros de la dirección URL añadidos se conserven correctamente en la página de aterrizaje final. </b> </li> 
       <li id="li_1202FE1FC88342378A60E8FE65E5426B">El modo automático puede insertar palabras clave en la dirección URL de aterrizaje, pero es posible que el servidor web no admita palabras clave con caracteres especiales. </li> 
