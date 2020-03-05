@@ -1,8 +1,8 @@
 ---
-description: 'null'
+description: nulo
 title: Resumen del flujo de trabajo
 uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
