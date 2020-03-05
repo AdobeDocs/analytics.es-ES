@@ -1,6 +1,6 @@
 ---
 title: Ayuda de integración de Analytics
-description: 'null'
+description: nulo
 translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
@@ -28,7 +28,7 @@ Configure integraciones con otras soluciones de Adobe Experience Cloud, como Aud
 
 ## Más guías de usuario de Analytics
 
-[Guías de usuario de Analytics](/help/landing/home.md)
+[Guías del usuario de Analytics](/help/landing/home.md)
 
 ## Recursos clave de Analytics
 
