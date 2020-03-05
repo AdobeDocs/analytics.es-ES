@@ -1,9 +1,9 @@
 ---
-title: Actualizaciones de documentación de Adobe Analytics
-description: Actualizaciones de documentación técnica de Adobe Analytics
+title: Actualizaciones de documentación técnica para Adobe Analytics
+description: Actualizaciones notables en el repositorio de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
+source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 
 ---
 
@@ -20,6 +20,8 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Fecha | Descripción |
 |---|---|
+| 25 de febrero de 2020 | Se agregó [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) la variable. |
+| 18 de febrero de 2020 | Se agregó [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) la variable. |
 | 12 de febrero de 2020 | Actualizaciones y reorganización de la documentación de Canales [de](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) mercadotecnia. |
 | 7 de febrero de 2020 | Actualizaciones para la [configuración de análisis](../components/cda/cda-setup.md) cruzados de dispositivos y [preguntas más frecuentes](../components/cda/cda-faq.md) |
 | 4 de febrero de 2020 | Reescritura completa de la guía [del usuario de](../implement/home.md)implementación. |
