@@ -3,7 +3,7 @@ description: Pasos administrativos para activar Informes del Activity Map en Ana
 title: Informes de Activity Map
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,12 +13,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Pasos administrativos para activar Informes del Activity Map en Analytics.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Grupos **[!UICONTROL de]** informes &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL Editar configuración]** &gt; Activity Map **** **[!UICONTROL &gt; Informes de Activity Map]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Informes de Activity Map]**
 
 Permite a Analytics recoger actividad del usuario originada desde el Activity Map (anteriormente, ClickMap). Esta integración
 
 * Permite la creación de informes en Analytics.
-* Adds new reports under **[!UICONTROL View All Reports]** &gt; **[!UICONTROL Activity Map:]**
+* Añade nuevos informes en **[!UICONTROL Ver todos los informes]** > **[!UICONTROL Activity Map:]**
 
    | Informe | Descripción |
    |---|---|
@@ -27,4 +27,4 @@ Permite a Analytics recoger actividad del usuario originada desde el Activity Ma
    | Vínculos de Activity Map | Indica todos los vínculos recopilados en todo el sitio web. |
    | Vínculos y región de Activity Map | Muestra todos los vínculos recogidos y la región a la que pertenecen en todo el sitio Web. |
 
-Para que se rellenen los datos, consulte la [documentación del Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/), donde encontrará instrucciones completas para la implementación.
+Para que se rellenen los datos, consulte la [documentación del Activity Map](https://marketing.adobe.com/resources/help/es_ES/analytics/activitymap/), donde encontrará instrucciones completas para la implementación.
