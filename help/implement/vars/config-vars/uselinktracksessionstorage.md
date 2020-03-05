@@ -1,8 +1,8 @@
 ---
 title: useLinkTrackSessionStorage
-description: Almacene datos de seguimiento de vínculos en almacenamiento de sesión en lugar de en una cookie.
+description: Almacene datos de seguimiento de vínculos en almacenamiento de sesiones en lugar de en una cookie.
 translation-type: tm+mt
-source-git-commit: e1a08ecd3d5eb41bce7ca91027249871c3b5b22f
+source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 
 ---
 
@@ -17,6 +17,7 @@ El uso del almacenamiento de sesión de un explorador para el seguimiento de ví
 * El almacenamiento de sesión no funciona entre subdominios. Por ejemplo, un visitante navega hasta `store.example.com`y luego `toys.example.com`. AppMeasurement no puede acceder a los datos de seguimiento de vínculos en el almacenamiento de sesiones debido a subdominios diferentes.
 
 > [!TIP] La implementación más confiable que utiliza el almacenamiento de sesión para el seguimiento de vínculos sirve todo el contenido a través de HTTPS en un único subdominio.
+
 AppMeasurement elimina los datos del seguimiento de vínculos de almacenamiento de sesión después de enviar una visita a Adobe. También caduca automáticamente cuando se cierra la ficha del explorador.
 
 ## Uso del almacenamiento de sesiones de seguimiento de vínculos en Adobe Experience Platform Launch
