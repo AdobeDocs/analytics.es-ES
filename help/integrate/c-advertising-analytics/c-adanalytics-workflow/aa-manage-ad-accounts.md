@@ -1,8 +1,8 @@
 ---
-description: 'null'
+description: nulo
 title: Administrar las cuentas publicitarias
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Administrar las cuentas publicitarias
 
-You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
+Para acceder a la IU de administración, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Cuentas publicitarias]**.
 
 ![](assets/manage_ad_accounts.png)
 
@@ -24,7 +24,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Acciones</b> </p> </td> 
-   <td colname="col2"> <p><b>Nota: Las acciones solo se muestran si ha seleccionado al menos una cuenta de publicidad. </b> </p> </td> 
+   <td colname="col2"> <p><b>Nota: Las acciones se muestran únicamente si ha seleccionado al menos una cuenta publicitaria. </b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ Agregue </p> </td> 
@@ -60,7 +60,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cuenta </p> </td> 
-   <td colname="col2"> <p>Enumera uno de los 2 tipos de cuentas admitidos: Google Adwords o Bing Ads. </p> </td> 
+   <td colname="col2"> <p>Muestra uno de los dos tipos de cuentas compatibles: Google AdWords o Bing Ads. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Estado </p> </td> 
