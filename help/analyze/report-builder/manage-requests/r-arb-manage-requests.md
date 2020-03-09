@@ -1,9 +1,9 @@
 ---
-description: Descripción de los campos para administrar solicitudes en el Creador de informes.
+description: Descripción de los campos para administrar solicitudes en Report Builder.
 title: 'Administrar solicitudes: definiciones'
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,15 +11,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Administrar solicitudes: definiciones
 
-Descripción de los campos para administrar solicitudes en el Creador de informes.
+Descripción de los campos para administrar solicitudes en Report Builder.
 
 ## Información general {#section_75C288C945FA4781A4EDF806711A5660}
 
 El [!UICONTROL Administrador de solicitudes] proporciona una vista detallada del estado de todas las solicitudes creadas para una o todas las hojas del libro activo. También se pueden añadir, editar, actualizar y eliminar solicitudes (funciones asociadas generalmente al [!UICONTROL Asistente para solicitudes] y el [!UICONTROL Administrador de solicitudes]), haciendo clic con el botón derecho en una celda disponible de la hoja de cálculo de Excel que contenga solicitudes anteriores.
 
-El Administrador [!UICONTROL de] solicitudes se muestra al hacer clic en **[!UICONTROL Administrar]** ( ![](assets/edit_request.gif) en la barra de herramientas del Creador de informes.
+El [!UICONTROL Administrador de solicitudes] se muestra al hacer clic en **[!UICONTROL Administrar]** ![](assets/edit_request.gif) en la barra de herramientas de Report Builder.
 
-> [!NOTE] El Creador de informes de Adobe solo aplica las dependencias de solicitudes dentro de la misma hoja de cálculo, no entre hojas de cálculo. La restricción a las dependencias dentro de una única hoja de cálculo asegura la puntualidad de ejecución.
+> [!NOTE] Adobe Report Builder exige dependencias de solicitud únicamente en la misma hoja de cálculo, no entre hojas de cálculo. La restricción a las dependencias dentro de una única hoja de cálculo asegura la puntualidad de ejecución.
 
 ## Definiciones {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -53,15 +53,15 @@ El Administrador [!UICONTROL de] solicitudes se muestra al hacer clic en **[!UIC
   </tr> 
   <tr> 
    <td colname="col1"> <p> Última ejecución </p> </td> 
-   <td colname="col2"> <p>Especifica la fecha en la que el Creador de informes ejecutó la solicitud por última vez. Si corresponde, la columna <span class="wintitle">Última ejecución</span> de esta tabla también muestra un mensaje de diagnóstico. </p> </td> 
+   <td colname="col2"> <p>Especifica la fecha en la que Report Builder ejecutó la solicitud por última vez. Si corresponde, la columna <span class="wintitle">Última ejecución</span> de esta tabla también muestra un mensaje de diagnóstico. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Agregue </p> </td> 
+   <td colname="col1"> <p>Agregar </p> </td> 
    <td colname="col2"> <p>Muestra el cuadro de diálogo Asistente para solicitudes. Consulte <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > Crear una solicitud de datos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Editar </p> </td> 
-   <td colname="col2"> <p> (O Editar varias solicitudes) Edita una solicitud seleccionada. El sistema muestra el cuadro de diálogo <span class="wintitle">Asistente para solicitudes</span>. See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (O Editar varias solicitudes) Edita una solicitud seleccionada. El sistema muestra el cuadro de diálogo <span class="wintitle">Asistente para solicitudes</span>. Consulte <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   >Editar varias solicitudes</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eliminar </p> </td> 
