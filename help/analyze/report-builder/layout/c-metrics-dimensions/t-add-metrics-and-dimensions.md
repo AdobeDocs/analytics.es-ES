@@ -3,7 +3,7 @@ description: Pasos para agregar métricas y dimensiones a una solicitud.
 title: Agregar métricas y dimensiones
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -29,7 +29,7 @@ Pasos para agregar métricas y dimensiones a una solicitud.
    Recuerde:
 
    * A medida que introduce un término de búsqueda, la lista se actualizará automáticamente para mostrar solo las métricas cuyas etiquetas coincidan con el término de búsqueda.
-   * Las coincidencias no distinguen entre mayúsculas y minúsculas y son equivalentes a una búsqueda "contiene".
+   * Las coincidencias no distinguen entre mayúsculas y minúsculas y son equivalentes a una búsqueda &quot;contiene&quot;.
    * Las búsquedas de palabras completas u otros indicadores de búsqueda especial (comienza con, termina con, AND, OR, etc.) no son compatibles.
 
       El Término de búsqueda se borrará al salir del Asistente para solicitudes (p.ej., al hacer clic en Finalizar o Cancelar), al volver al Paso 1 del Asistente para solicitudes o al cambiar la categoría de Métrica.
@@ -50,7 +50,7 @@ Pasos para agregar métricas y dimensiones a una solicitud.
 1. (Opcional) Para clasificar una solicitud por métrica, simplemente haga clic en la etiqueta de métrica.
 1. Añada las dimensiones del mismo modo en que se agregan las métricas.
 
-En la ficha [!UICONTROL Dimensiones], el sistema muestra las dimensiones que se desglosan en cualquier informe base seleccionado en el Paso 1 y en la configuración del grupo de informes, o que son una clasificación de ellos. Cuando se coloca una dimensión en las cuadrículas de diseño, esta se elimina de la vista de árbol y se vuelve a calcular la lista de las dimensiones restantes disponibles. 
+En la ficha [!UICONTROL Dimensiones], el sistema muestra las dimensiones que se desglosan en cualquier informe base seleccionado en el Paso 1 y en la configuración del grupo de informes, o que son una clasificación de ellos. Cuando se coloca una dimensión en las cuadrículas de diseño, esta se elimina de la vista de árbol y se vuelve a calcular la lista de las dimensiones restantes disponibles.
 
 La dimensión [!UICONTROL Fecha] se añade automáticamente. Las dimensiones de fecha disponibles cambian según la granularidad seleccionada en el [!UICONTROL Asistente para solicitudes: paso 1]. (Los valores válidos son:
 
@@ -61,8 +61,8 @@ La dimensión [!UICONTROL Fecha] se añade automáticamente. Las dimensiones de 
     * Año
     * Intervalo de fecha (cuando no se especifica granularidad)
 
-1. Modifique las métricas y las dimensiones configurando las opciones [y los filtros de](/help/analyze/report-builder/layout/t-format-display-headers.md) formato.
-1. Haga clic en **[!UICONTROL Finalizar]**.
+1. Modifique las métricas y las dimensiones configurando las [opciones y los filtros de formato](/help/analyze/report-builder/layout/t-format-display-headers.md).
+1. Haga clic en **[!UICONTROL Finalizar]**. 
 En el ejemplo siguiente, las dimensiones están relacionadas con la métrica [!UICONTROL Página]. En este caso, la dimensión [!UICONTROL Dominio de referencia] crea un informe de desglose entre [!UICONTROL Página] y [!UICONTROL Dominio de referencia]. La ficha [!UICONTROL Dimensión] solo se actualiza con dimensiones que se pueden añadir a un informe de desglose.
 
 ![](assets/page_pageview_02.png)
