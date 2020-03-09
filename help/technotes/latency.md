@@ -6,7 +6,7 @@ title: Disponibilidad y latencia de los datos
 topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
 
 ---
 
@@ -27,9 +27,9 @@ La latencia es un retraso que supera las 2 horas típicas que tardan los servido
 
 La latencia está causada por una de las siguientes categorías generales:
 
-* **** Pico de tráfico inesperado: Este tipo de latencia se produce cuando se envían más datos a un grupo de informes de los que se comprometieron o esperaron en el contrato. Es la causa más común de latencia.
-* **** Problemas normales de hardware: Adobe emplea estrategias de primera categoría para la administración y supervisión de centros de datos, la redundancia de datos y la fiabilidad del hardware. El hardware se actualiza con regularidad y conjuntamente con ventanas de mantenimiento publicadas. El mantenimiento de emergencia de hardware fallido puede requerir una parada necesaria y temporal en el procesamiento de datos (no en la recopilación de datos) a medida que el hardware de reemplazo se pone en línea. Esta parada temporal en el procesamiento puede provocar una latencia marcada.
-* **** Datos anormales: Los patrones de datos no naturales, como las visitas inusualmente largas causadas por un bot o un bot, pueden aumentar temporalmente ciertas cargas de procesamiento que resultan en latencia.
+* **Pico de tráfico inesperado:** Este tipo de latencia se produce cuando se envían más datos a un grupo de informes de los que se comprometieron o esperaron en el contrato. Es la causa más común de latencia.
+* **Problemas normales de hardware:** Adobe emplea estrategias de primera categoría para la administración y supervisión de centros de datos, la redundancia de datos y la fiabilidad del hardware. El hardware se actualiza con regularidad y conjuntamente con ventanas de mantenimiento publicadas. El mantenimiento de emergencia de hardware fallido puede requerir una parada necesaria y temporal en el procesamiento de datos (no en la recopilación de datos) a medida que el hardware de reemplazo se pone en línea. Esta parada temporal en el procesamiento puede provocar una latencia marcada.
+* **Datos anormales:** Los patrones de datos no naturales, como las visitas inusualmente largas causadas por un bot o un bot, pueden aumentar temporalmente ciertas cargas de procesamiento que resultan en latencia.
 
 ## Funciones que dependen de la latencia
 
@@ -42,15 +42,15 @@ Algunas funciones de Adobe Experience Cloud incluyen una cantidad innata de late
 
 Existen varias estrategias para evitar la latencia o reducir el tiempo de recuperación cuando se produce:
 
-* **** Notificar a Adobe de los picos de tráfico esperados: Aunque es imposible anticipar cada pico de tráfico en el sitio, puede haber casos en los que espere recibir un aumento significativo de tráfico. Algunos ejemplos son un período festivo particularmente exitoso o poco después de una gran campaña push. En estos casos, Adobe proporciona un método para que su organización nos informe de los incrementos de tráfico esperados. De este modo podremos asignar recursos de procesamiento adicionales a su grupo de informes. Consulte [Programar un pico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfico en la guía del usuario de administración para obtener información sobre cómo notificar a Adobe sobre el aumento de tráfico.
-* **** Considere la carga de procesamiento al activar nuevas funciones: Algunas funciones requieren un procesamiento más intensivo que otras. Cuantas más características haya habilitadas en un grupo de informes, más difícil será recuperarse de la latencia. Cuando active características en un grupo de informes, tenga en cuenta que las siguientes características incrementan la cantidad de datos que se deben procesar:
+* **Notificar a Adobe de los picos de tráfico esperados:** Aunque es imposible anticipar cada pico de tráfico en el sitio, puede haber casos en los que espere recibir un aumento significativo de tráfico. Algunos ejemplos son un período festivo particularmente exitoso o poco después de una gran campaña push. En estos casos, Adobe proporciona un método para que su organización nos informe de los incrementos de tráfico esperados. De este modo podremos asignar recursos de procesamiento adicionales a su grupo de informes. Consulte [Programar un pico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfico en la guía del usuario de administración para obtener información sobre cómo notificar a Adobe sobre el aumento de tráfico.
+* **Considere la carga de procesamiento al activar nuevas funciones:** Algunas funciones requieren un procesamiento más intensivo que otras. Cuantas más características haya habilitadas en un grupo de informes, más difícil será recuperarse de la latencia. Cuando active características en un grupo de informes, tenga en cuenta que las siguientes características incrementan la cantidad de datos que se deben procesar:
 
    * Implementación de más de 20 eventos en la misma página
    * Reglas de VISTA complejas
    * Más de 20 valores en la variable de productos
    * Serialización de eventos
 
-* Enable IAB Bot filtering: [Bot filtering](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html) can greatly reduce latency if your report suite is frequented by bots or crawlers. Se recomienda utilizar la lista de bots de la IAB, actualizada y mantenida por la asociación [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un usuario puede personalizar sus propias reglas de bots para complementar las de la IAB.
+* Enable IAB Bot filtering: [Bot filtering](/help/admin/admin/bot-removal/bot-removal.md) can greatly reduce latency if your report suite is frequented by bots or crawlers. Se recomienda utilizar la lista de bots de la IAB, actualizada y mantenida por la asociación [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un usuario puede personalizar sus propias reglas de bots para complementar las de la IAB.
 
 ## Qué hacer con la latencia
 
