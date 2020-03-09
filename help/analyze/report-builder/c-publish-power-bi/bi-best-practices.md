@@ -2,7 +2,7 @@
 description: 'null'
 title: Prácticas recomendadas
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ Una vez que se crea una solicitud, esta siempre tendrá la misma referencia en P
 
 Si elimina una solicitud en su libro, asegúrese de no tener ninguna visualización que apunte a ella en Power BI o, de lo contrario, se producirá un error en la visualización.
 
-* Si es posible, no elimine solicitudes que haya creado en el Creador de informes
-* Si elimina solicitudes en el Creador de informes, asegúrese de eliminar en Power BI la visualización correspondiente.
+* Si es posible, no elimine solicitudes que haya creado en Report Builder
+* Si elimina solicitudes en Report Builder, asegúrese de eliminar en Power BI la visualización correspondiente.
 * Si no está seguro: elimine las solicitudes que ya no necesite y, a continuación, vuelva a publicar y vaya a Power BI para comprobar qué visualizaciones se han roto
 
