@@ -3,7 +3,7 @@ description: Tras crear informes con solicitudes insertadas, se puede aplicar fo
 title: Especificar un formato condicional
 topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Tras crear informes con solicitudes insertadas, se puede aplicar formato condicional a las celdas del libro.
 
-En la barra de herramientas del Creador de informes, haga clic en **[!UICONTROL Formato]**.
+En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Formato]**.
 
 El formato condicional permite identificar las celdas que contienen resultados o valores que se desean supervisar. Por ejemplo, se puede aplicar un sombreado rojo (o resaltado) a una celda concreta si el resultado es inferior a las expectativas o un sombreado azul si el resultado sobrepasa las cantidades previstas. Si un cambio en los intervalos de fechas para las solicitudes elimina las condiciones que hacen que el formato condicional se aplique a los valores de celda, los formatos que resaltan la condición se desactivan temporalmente. Aunque los formatos condicionales que se especifiquen no impliquen cambios en la visualización del formato de celda, ya que no se cumplen las condiciones, continúan aplicándose a las celdas hasta que se eliminen.
 
