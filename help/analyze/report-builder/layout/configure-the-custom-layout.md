@@ -3,7 +3,7 @@ description: El diseño personalizado proporciona la mayor parte de la funcional
 title: Configuración del diseño personalizado
 topic: Report builder
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
