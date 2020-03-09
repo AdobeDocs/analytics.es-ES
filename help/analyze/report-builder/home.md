@@ -1,16 +1,16 @@
 ---
-title: Ayuda del Report Builder de Adobe
+title: Ayuda de Report Builder de Adobe
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Ayuda del Report Builder de Adobe {#adobe-report-builder-help}
+# Ayuda de Report Builder de Adobe {#adobe-report-builder-help}
 
-El Creador de informes de [!DNL Adobe] es un complemento para Microsoft Excel. El Creador de informes permite crear solicitudes personalizadas a partir de datos de informes y análisis, que se pueden insertar en hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que el Creador de informes presenta los datos.
+El Report Builder de [!DNL Adobe] es un complemento para Microsoft Excel. El Report Builder permite crear solicitudes personalizadas a partir de datos de informes y análisis, que se pueden insertar en hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos.
 
 <!-- >>[!IMPORTANT]
 >
@@ -28,27 +28,27 @@ El Creador de informes de [!DNL Adobe] es un complemento para Microsoft Excel. E
 
 * [Configuración, instalación e inicio de sesión](setup/login.md)
 * [Programar solicitudes de informes](schedule-report-requests.md)
-* [Solución de problemas y prácticas recomendadas para el Creador de informes](troubleshoot.md)
+* [Solución de problemas y prácticas recomendadas para Report Builder](troubleshoot.md)
 * [¿Qué opciones hay para crear intervalos de fechas personalizados?](data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
-* [¿Por qué no puedo ver mis segmentos en el Creador de informes?](data-requests/segmentation.md)
+* [¿Por qué no puedo ver mis segmentos en Report Builder?](data-requests/segmentation.md)
 
 ## Preguntas comunes y solución de problemas
 
 * [¿Cómo se crea una solicitud de datos?](data-requests/t-create-a-data-request.md)
-* [Solución de problemas y prácticas recomendadas para el Creador de informes](troubleshoot.md)
+* [Solución de problemas y prácticas recomendadas para Report Builder](troubleshoot.md)
 
 ## Recursos de Experience Cloud
 
-* [Comunidad de Adobe Analytics](https://helpx.adobe.com/marketing-cloud/analytics.html)
-* [Notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/whatsnew/index.html#Current%20Release%20Notes)
-* [Página de inicio de documentación del producto](https://marketing.adobe.com/resources/help/en_US/home/index.html)
-* [Programador](https://marketing.adobe.com/resources/help/en_US/home/index.html#Developer)
+* [Comunidad de Adobe Analytics](https://helpx.adobe.com/es/marketing-cloud/analytics.html)
+* [Notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/whatsnew/index.html#Current%20Release%20Notes)
+* [Página de inicio de documentación del producto](https://marketing.adobe.com/resources/help/es_ES/home/index.html)
+* [Programador](https://marketing.adobe.com/resources/help/es_ES/home/index.html#Developer)
 * [Intercambio de ideas](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
-* [Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Formación y tutoriales de Adobe](https://helpx.adobe.com/es/learning.html?promoid=KAUDK)
 * [Centro de soluciones destacadas](https://www.omniture.com/en/products/online_business_optimization)
 
-## Ayuda de Informes y análisis
+## Ayuda de Reports &amp; Analytics
 
-* [Ayuda de Analysis Workspace](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [Ayuda de informes y análisis](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html)
-* [Ayuda de referencia](https://marketing.adobe.com/resources/help/en_US/reference/index.html) de Analytics sobre herramientas de administración, informes y métricas.
+* [Ayuda de Analysis Workspace](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/)
+* [Ayuda de Reports &amp; Analytics](https://marketing.adobe.com/resources/help/es_ES/sc/user/index.html)
+* [Referencia de Analytics](https://marketing.adobe.com/resources/help/es_ES/reference/index.html) Ayuda para herramientas de administración, informes y métricas.
