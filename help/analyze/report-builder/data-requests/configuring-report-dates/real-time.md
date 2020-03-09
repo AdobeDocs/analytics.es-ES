@@ -3,7 +3,7 @@ description: Muestra el tráfico de la página web y clasifica las vistas de la 
 title: Informes en tiempo real
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,5 +24,5 @@ Puede:
 
 Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no dispone de os derechos para ver los ingresos, no podrá ver el informe en tiempo real que incluye los datos de ingresos. No compatible con eVars (métricas de conversión). Los permisos en tiempo real se activan en [Herramientas de administración](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html).
 
-> [!NOTE] Los informes [!UICONTROL en tiempo] real no son lo mismo que la función [Incluir datos](https://marketing.adobe.com/resources/help/en_US/arb/options.html) actuales (Creación de los datos) lanzada anteriormente, que reducía la latencia de los informes estándar al mostrar los datos antes de que se completara.
+> [!NOTE] [!UICONTROL Los informes en tiempo real] no son lo mismo que la función [Incluir datos actuales](https://marketing.adobe.com/resources/help/es_ES/arb/options.html) (Actualización de los datos) lanzada previamente, la cual reducía la latencia de los informes estándar al mostrar los datos antes de que finalizara.
 
