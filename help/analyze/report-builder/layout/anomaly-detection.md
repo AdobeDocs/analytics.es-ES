@@ -3,13 +3,13 @@ description: La detección de anomalías usa el modelado estadístico para busca
 title: Detección de anomalías
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Detección de anomalías{#anomaly-detection}
+# Detección de anomalías {#anomaly-detection}
 
 La detección de anomalías usa el modelado estadístico para buscar automáticamente tendencias inesperadas en sus datos. El modelo analiza métricas y determina un límite inferior, límite superior y rango de valores esperado. Cuando hay un pico o una caída inesperados, el sistema le alerta en el informe.
 
@@ -22,7 +22,7 @@ Algunos ejemplos de anomalías que puede investigar son:
 * Picos en los eventos de almacenamiento de vídeo
 * Picos en tasas de bits de vídeo bajas
 
-> [!NOTE] La detección de anomalías solo está disponible cuando se selecciona la granularidad Día.
+> [!NOTE] La detección de anomalías está disponible únicamente cuando selecciona la granularidad de día.
 
 <p class="head"> <b>Métricas de detección de anomalías</b> </p>
 
@@ -51,11 +51,11 @@ La detección de anomalías añade nuevos valores de métricas a cada métrica q
  </tbody> 
 </table>
 
-El Creador de informes aplica estos valores a las métricas seleccionadas. Por ejemplo, si selecciona la métrica de vistas de la página y aplica la detección de anomalías, *`Page Views Lower Bound`* límite inferior de vistas de la página.
+Report Builder aplica estos valores a las métricas seleccionadas. Por ejemplo, si selecciona la métrica de vistas de la página y aplica la detección de anomalías, *`Page Views Lower Bound`* límite inferior de vistas de la página.
 
 **Cómo se calcula la detección de anomalías**
 
-La detección de anomalías utiliza un período de prueba para calcular, aprender y generar informes de los datos del intervalo de predicción diariamente. El período de prueba es el periodo histórico que identifica qué es normal y qué es una anomalía y aplica lo que ha aprendido en el periodo de informes. En los informes de marketing, hay disponibles periodos de prueba de 30, 60 y 90 disponibles. En el Creador de informes, hay disponibles 30 días.
+La detección de anomalías utiliza un período de prueba para calcular, aprender y generar informes de los datos del intervalo de predicción diariamente. El período de prueba es el periodo histórico que identifica qué es normal y qué es una anomalía y aplica lo que ha aprendido en el periodo de informes. En los informes de marketing, hay disponibles periodos de prueba de 30, 60 y 90 disponibles. En Report Builder, hay disponibles 30 días.
 
 El período de prueba no es necesariamente el mismo que el periodo de informe seleccionado. Un gráfico de informe muestra el periodo de intervalo de fechas que especifique en el calendario.
 
