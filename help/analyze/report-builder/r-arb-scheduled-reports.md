@@ -3,7 +3,7 @@ description: Descripción de los campos para el Administrador de tareas programa
 title: Administrador de tareas programadas
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -49,7 +49,7 @@ El Administrador de tareas programadas le permite ver una lista de los informes 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Reactivar </p> </td> 
-   <td colname="col2"> <p>Cuando un libro programado no puede ejecutarse, el Creador de informes intenta ejecutar el libro dos veces más cada quince minutos. Tras tres intentos fallidos, el Creador de informes desactiva la programación y muestra el botón <span class="wintitle">Reactivar</span>. Cuando se reactiva un libro, el envío programado se reinicia desde el momento en que se desactivó. </p> <p>Por ejemplo, si un libro programado se desactivó hace 14 días y se ha reactivado hoy, se ejecuta por cada día que falte y se enviará 14 veces. Si no desea que el libro se envíe los días que faltan, puede eliminar el libro programado y posteriormente crear un nuevo libro utilizando los mismos parámetros de programación. </p> <p> <p>Nota: No se debe reactivar un libro a no ser que se conozcan los motivos por el que el sistema lo desactivó. Una solución al problema consiste en descargar un libro desactivado y actualizarlo en el cliente. Si no aparecen errores, debería poder reactivarlo. </p> </p> </td> 
+   <td colname="col2"> <p>Cuando un libro programado no puede ejecutarse, Report Builder intenta ejecutar el libro dos veces más cada quince minutos. Tras tres intentos fallidos, Report Builder desactiva la programación y muestra el botón <span class="wintitle">Reactivar</span>. Cuando se reactiva un libro, el envío programado se reinicia desde el momento en que se desactivó. </p> <p>Por ejemplo, si un libro programado se desactivó hace 14 días y se ha reactivado hoy, se ejecuta por cada día que falte y se enviará 14 veces. Si no desea que el libro se envíe los días que faltan, puede eliminar el libro programado y posteriormente crear un nuevo libro utilizando los mismos parámetros de programación. </p> <p> <p>Nota: No se debe reactivar un libro a no ser que se conozcan los motivos por el que el sistema lo desactivó. Una solución al problema consiste en descargar un libro desactivado y actualizarlo en el cliente. Si no aparecen errores, debería poder reactivarlo. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enviado por última vez </p> </td> 
