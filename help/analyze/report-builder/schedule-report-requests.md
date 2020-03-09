@@ -3,7 +3,7 @@ description: Puede programar solicitudes de informe, especificar opciones de ent
 title: Programar solicitudes de informes
 topic: Report builder
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,4 +11,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Programar una solicitud de informe
 
-See [Schedule a data request](/help/analyze/report-builder/t-schedule-a-data-request.md).
+Consulte [Crear una solicitud de datos](/help/analyze/report-builder/t-schedule-a-data-request.md).
