@@ -3,7 +3,7 @@ description: Los desgloses de clasificación se utilizan para asignar datos de i
 title: Clasificación de
 topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
