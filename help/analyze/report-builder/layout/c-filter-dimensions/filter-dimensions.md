@@ -3,7 +3,7 @@ description: Es posible filtrar las dimensiones que se añadan a la cuadrícula 
 title: Resumen del filtrado de dimensiones
 topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Es posible filtrar las dimensiones que se añadan a la cuadrícula Rótulos de fila. Los filtros limitan los datos devueltos por las solicitudes y se pueden aplicar desde los diseños personalizados y de tabla dinámica. Cuando se configura el filtro de dimensiones desde el diseño de tabla dinámica, se puede especificar además el número de entradas de la celda.
 
-El formulario del filtro seleccionado se completa según el elemento y la métrica que estén seleccionados en la solicitud del Creador de informes.
+El formulario del filtro seleccionado se completa según el elemento y la métrica que estén seleccionados en la solicitud de Report Builder.
 
-## Define filter - values and special characters {#section_15840216A4044C40974945FAA435AD93}
+## Definir filtro: valores y caracteres especiales {#section_15840216A4044C40974945FAA435AD93}
 
-Information about filters in the **[!UICONTROL Most Popular Filter]** &gt; **[!UICONTROL Define Filter]** panel.
+Información sobre filtros en el panel **[!UICONTROL Filtros más populares]** > **[!UICONTROL Definir filtro]**.
 
 ![](assets/define_filter.png)
 
@@ -37,7 +37,7 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
    <td colname="col1"> <p>Contiene todos los términos </p> </td> 
    <td colname="col02"> <p>Contiene todos los valores delimitados por espacios, en cualquier orden. </p> </td> 
    <td colname="col2"> <p>a b c </p> </td> 
-   <td colname="col3"> <p>Devuelve como resultado <span class="term"> a b</span>cand <span class="term"> b a c</span>, etc. </p> </td> 
+   <td colname="col3"> <p>Devuelve como resultado <span class="term"> a b c</span> y <span class="term"> b a c</span>, etc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Contiene cualquier término </p> </td> 
@@ -61,19 +61,19 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
    <td colname="col1"> <p>No contiene la frase </p> </td> 
    <td colname="col02"> <p>Devuelve todos los resultados excepto los que contienen la frase especificada. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p>Excluye <span class="term"> abc</span>, <span class="term"> abc def</span> y coincide <span class="term"> def</span> </p> </td> 
+   <td colname="col3"> <p>Excluye <span class="term"> abc</span>, <span class="term"> abc def</span> y coincide con <span class="term"> def</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Es igual a </p> </td> 
    <td colname="col02"> <p>Devuelve una coincidencia exacta. </p> </td> 
    <td colname="col2"> <p>abc </p> </td> 
-   <td colname="col3"> <p> <span class="term"> abc</span> es devuelto, y nada más. </p> </td> 
+   <td colname="col3"> <p> <span class="term"> abc</span> es el único resultado devuelto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>No es igual a </p> </td> 
    <td colname="col02"> <p>Devuelve todos los resultados excepto los que coinciden exactamente con lo que ha escrito. </p> </td> 
    <td colname="col2"> <p>a </p> </td> 
-   <td colname="col3"> <p>No devuelve como resultado <span class="term"> a</span>. </p> <p>Matches <span class="term"> a b c</span>. </p> <p>Coincide con <span class="term"> abc</span>. </p> </td> 
+   <td colname="col3"> <p>No devuelve como resultado <span class="term"> a</span>. </p> <p>Coincide con <span class="term"> a b c</span>. </p> <p>Coincide con <span class="term"> abc</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Comienza con </p> </td> 
@@ -91,7 +91,7 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
    <td colname="col1"> <p>Avanzado (caracteres especiales) </p> </td> 
    <td colname="col02"> <p>Permite usar caracteres de expresiones regulares: </p> <p> <code> "", ^, -, *, $, | </code> </p> </td> 
    <td colname="col2"> <p>"^Página*principal$" | deportes </p> </td> 
-   <td colname="col3"> <p> Define un filtro que empieza por <span class="term"> Home</span>, and then looks for zero or more characters, and then ends with <span class="term"> Page</span>. </p> <p>Además, cualquier página con <span class="term"> deportes</span> . </p> <p>Varios ejemplos de coincidencias: </p> 
+   <td colname="col3"> <p> Define un filtro que empieza por <span class="term"> Inicio</span> y, a continuación, busca cero o más caracteres y termina con <span class="term">Página</span>. </p> <p>Además, cualquier página con <span class="term"> deportes</span>. </p> <p>Varios ejemplos de coincidencias: </p> 
     <ul id="ul_72D76C5AFEAF405E8A0E4E3C604D10AE"> 
      <li id="li_4D490059B667450DA8A0103167C7B391">Página principal </li> 
      <li id="li_1351619156274092AEB2771D882AD357">Página y (otros caracteres) principal </li> 
@@ -116,7 +116,7 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
   <tr> 
    <td colname="col1"> " " </td> 
    <td colname="col2"> Es igual a </td> 
-   <td colname="col3"> <p>No es necesario anteponer un carácter de escape si no se combina con otras comillas. Por ejemplo, La visualización <span class="term"> de</span> 17" no es una frase. </p> </td> 
+   <td colname="col3"> <p>No es necesario anteponer un carácter de escape si no se combina con otras comillas. Por ejemplo, <span class="term">Pantalla de 17"</span> no es una frase. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> * </td> 
@@ -141,7 +141,7 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
   <tr> 
    <td colname="col1"> | </td> 
    <td colname="col2"> O bien </td> 
-   <td colname="col3"> <p>Solo se puede usar en el filtro <span class="term"> Filtro avanzado (caracteres especiales)</span> . </p> </td> 
+   <td colname="col3"> <p>Solo se puede usar en el filtro <span class="term"> Filtro avanzado (caracteres especiales)</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
