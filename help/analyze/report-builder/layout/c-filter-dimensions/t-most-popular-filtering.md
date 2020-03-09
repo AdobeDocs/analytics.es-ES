@@ -3,7 +3,7 @@ description: Filtros condicionales y de clasificación que se configuran mediant
 title: Filtros más utilizados
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Filtros condicionales y de clasificación que se configuran mediante la lógica booleana con las expresiones de búsqueda Y/O.
 
-Most Popular filters are expression filters that you configure using Boolean logic with AND/OR conditions, such as [!UICONTROL Page does not contain]*`<product name>`* with conditions or groups of conditions like [!UICONTROL Includes All], [!UICONTROL Includes Any], or [!UICONTROL Excludes All]. You can [save](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) these expressions for other request in this workbook, or in other workbooks.
+Los filtros más utilizados son filtros de expresión que se configuran mediante la lógica booleana con las condiciones AND/OR como, por ejemplo, [!UICONTROL La página no contiene ]*`<product name>`* con condiciones o grupos de condiciones como[!UICONTROL Incluye todo],[!UICONTROL Incluye cualquiera]o[!UICONTROL Excluye todo]. Puede [guardar](/help/analyze/report-builder/layout/c-filter-dimensions/saved-filters.md) estas expresiones para otra solicitud de este libro u otros libros de trabajo.
 
 **Para crear un filtro de este tipo**
 
@@ -21,8 +21,8 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![Información sobre los pasos](assets/dimension_filter.png)
 
-1. En el [!UICONTROL Asistente para solicitudes: Paso 2]**, haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione[!UICONTROL Filtro]**.
-1. En el formulario [!UICONTROL Elegir página]**, active[!UICONTROL Más populares]** y después configure las siguientes opciones:
+1. En el [!UICONTROL Asistente para solicitudes: Paso 2], haga clic en el vínculo situado junto a la dimensión en la cuadrícula y, a continuación, seleccione **[!UICONTROL Filtro]**.
+1. En el formulario [!UICONTROL Elegir página], active **[!UICONTROL Más populares]** y después configure las siguientes opciones:
 
    **Clasificación de inicio:** La clasificación de inicio de una dimensión. La clasificación predeterminada de 1 indica el elemento principal de la lista de datos obtenidos. Por ejemplo, para la dimensión [!UICONTROL Página], una marca de inicio de 1 indica la única página más solicitada de su sitio. Se puede especificar 10 u otro valor como celda de clasificación de inicio, lo que genera un informe que comienza con 10 como valor más alto. La métrica se organiza en orden descendente, por lo que los elementos de línea con la mayor actividad aparecen primero en la lista. Si se requieren más de 50 000 nombres de página en una solicitud, pero se dispone de miles de páginas en las que informar, se puede copiar la solicitud y cambiar la clasificación de inicio para recuperar los datos adecuados en bloques de 50 000.
 
@@ -48,5 +48,5 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![Información sobre los pasos](assets/choose_page_02.png)
 
-1. En el formulario [!UICONTROL Seleccionar página]**, haga clic en[!UICONTROL Guardar]** para guardar la expresión.
+1. En el formulario [!UICONTROL Seleccionar página], haga clic en **[!UICONTROL Guardar]** para guardar la expresión.
 1. Haga clic en **[!UICONTROL Aceptar]**.
