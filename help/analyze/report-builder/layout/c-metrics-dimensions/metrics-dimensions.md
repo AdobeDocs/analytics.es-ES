@@ -1,9 +1,9 @@
 ---
-description: Puede agregar métricas y dimensiones al paso 2 del Asistente para solicitudes para definir el diseño de Analytics de los datos en la solicitud. La lista de métricas y dimensiones del Creador de informes es similar al diseño de menú mostrado en Informes y análisis.
+description: En el paso 2 del Asistente para solicitudes se pueden añadir métricas y dimensiones para definir el diseño de Analytics para los datos en la solicitud. La lista de métricas y dimensiones de Report Builder es similar al diseño de menú mostrado en Reports and Analytics.
 title: Resumen de métricas y dimensiones
 topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Resumen de métricas y dimensiones
 
-Puede agregar métricas y dimensiones al Asistente para solicitudes: Paso 2 para definir el diseño de Analytics de los datos en la solicitud. La lista de métricas y dimensiones del Creador de informes es similar al diseño de menú mostrado en Informes y análisis.
+En el paso 2 del Asistente para solicitudes se pueden añadir métricas y dimensiones para definir el diseño de Analytics para los datos en la solicitud. La lista de métricas y dimensiones de Report Builder es similar al diseño de menú mostrado en Reports and Analytics.
 
-Las métricas se expresan en valores numéricos. Están compuestas de información cuantitativa sobre la actividad del sitio web como, por ejemplo, [!UICONTROL vistas de la página], [!UICONTROL perfil del visitante], [!UICONTROL pulsaciones], [!UICONTROL recargas], [!UICONTROL tiempo promedio invertido], [!UICONTROL fecha], [!UICONTROL unidades], etc. El Creador de informes organiza las métricas en varios grupos, que siguen la agrupación estándar en Analytics:
+Las métricas se expresan en valores numéricos. Están compuestas de información cuantitativa sobre la actividad del sitio web como, por ejemplo, [!UICONTROL vistas de la página], [!UICONTROL perfil del visitante], [!UICONTROL pulsaciones], [!UICONTROL recargas], [!UICONTROL tiempo promedio invertido], [!UICONTROL fecha], [!UICONTROL unidades], etc. Report Builder organiza las métricas en distintos grupos a modo de la agrupación estándar de Analytics:
 
 * Tráfico estándar: muestra la métrica en función del elemento de línea especificado. Por ejemplo, en un informe Páginas, la métrica Visitas muestra el número de visitas realizadas a esa página en concreto.
 * Comercio estándar: métricas como ingresos, pedidos y cierres de compra.
