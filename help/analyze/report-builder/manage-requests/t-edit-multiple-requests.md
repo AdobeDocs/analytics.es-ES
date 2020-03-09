@@ -3,7 +3,7 @@ description: Es posible modificar varias solicitudes al mismo tiempo en función
 title: Editar varias solicitudes
 topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,9 +21,9 @@ Puede cambiar varias solicitudes al mismo tiempo, en función del grupo de infor
 
    >[!NOTE]
    >
-   >To edit requests contained in cells of individual worksheets, clear the [!UICONTROL All Sheets] option on the [!UICONTROL Request Manager]. De forma predeterminada, esta casilla está activada si existen solicitudes en varias hojas de cálculo.
+   >Para editar las solicitudes incluidas en las celdas de hojas de cálculo independientes, desactive la opción [!UICONTROL Todas las hojas] en el [!UICONTROL Administrador de solicitudes]. De forma predeterminada, esta casilla está activada si existen solicitudes en varias hojas de cálculo.
 
-1. En el formulario [!UICONTROL Administrador de solicitudes]**, seleccione dos o más solicitudes y, a continuación, haga clic en[!UICONTROL Editar varias]**.
+1. En el formulario [!UICONTROL Administrador de solicitudes], seleccione dos o más solicitudes y, a continuación, haga clic en **[!UICONTROL Editar varias]**.
 
    El formulario [!UICONTROL Editar varias solicitudes] muestra columnas de información: [!UICONTROL Por grupo de informes], [!UICONTROL Por segmento], [!UICONTROL Por métrica], [!UICONTROL Por intervalo de fechas y granularidad] y [!UICONTROL Por grupo].
 1. Para agrupar la visualización de las solicitudes, haga clic en cualquiera de las siguientes opciones:
@@ -32,10 +32,10 @@ Puede cambiar varias solicitudes al mismo tiempo, en función del grupo de infor
    * **Por segmento:** agrupa las solicitudes según el nombre del segmento.
 
       * **Elegir segmento**: muestra si Para agregar segmentos, haga clic en **[!UICONTROL Editar grupo]** y seleccione un segmento del panel [!UICONTROL Editar grupo].
-   * **** Por métrica: Consulte [Editar métricas en varias solicitudes](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
+   * **Por métrica:** Consulte [Editar métricas en varias solicitudes](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
    * **Por intervalo de fechas y granularidad:** agrupa la visualización de solicitudes por intervalo de fechas y la granularidad de la hora.
    * **Por grupo:** agrupa la visualización de solicitudes por grupos de solicitudes agrupadas.
 
 
-1. En el formulario [!UICONTROL Editar varias solicitudes]**, haga clic en[!UICONTROL Aceptar]**.
+1. En el formulario [!UICONTROL Editar varias solicitudes], haga clic en **[!UICONTROL Aceptar]**.
