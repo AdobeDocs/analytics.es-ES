@@ -4,7 +4,7 @@ title: Publicación de segmentos en Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
 
 ---
 
@@ -118,6 +118,7 @@ En AAM, la lista de visitantes con ECID para un segmento determinado se evalúa 
 ![](assets/aam-traits.png)
 
 * Se crea un segmento de una característica. Este utiliza la fuente de datos asociada al grupo de informes donde publicó el segmento.
+* La caducidad de la característica ahora se establece en 16 días (anteriormente era 2 días).
 
 ## Ver el segmento en [!DNL Adobe Target]
 
