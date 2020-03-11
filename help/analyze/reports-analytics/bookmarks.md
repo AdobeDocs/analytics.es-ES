@@ -4,7 +4,7 @@ subtopic: Bookmarks
 title: Administrador de marcadores
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,13 +24,13 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Ejecute un informe y, a continuación, haga clic en **[!UICONTROL Marcador.]**.
+1. Ejecute un informe y, a continuación, haga clic en **[!UICONTROL Marcador]**.
 
- |Nombre|Un nombre descriptivo para este marcador. |
- |---|---|      
- |Agregar a|Especifica la carpeta en la que desea colocar el marcador.|     
- |Convertir en público| Pone este marcador a disposición de los usuarios con acceso al grupo de informes.|     
- |Mostrar informe al iniciar sesión| Muestra el informe al iniciar sesión.|
+       |Nombre|Un nombre de usuario reconocible para este marcador.|
+       |---|---|
+       |Agregar a|Especifica la carpeta en la que se desea colocar el marcador.|
+       |Hacer público| Hace que este marcador esté disponible para los usuarios con acceso al grupo de informes.|
+       |Mostrar informe tras iniciar sesión| Muestra el informe cuando se inicia sesión.|
    
 ## Administrar marcadores {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -42,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Marcadores]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Marcadores]**.
 
 **Mis marcadores**
 
