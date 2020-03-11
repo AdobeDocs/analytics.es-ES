@@ -4,7 +4,7 @@ subtopic: Get started
 title: Información sobre la recopilación de datos
 topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,4 +26,4 @@ En un nivel superior, el proceso de recopilación de datos fluye de la siguiente
 
 La recopilación de datos es muy rápida y no se percibe en los tiempos de carga de las páginas. Los datos recopilados incluyen las vistas de páginas resultantes de hacer clic en los botones **Actualizar** o **Atrás**. El código JavaScript se ejecuta incluso cuando la página se recupera de la caché.
 
-See [Data Collection in Analytics.](/help/import/home.md)
+Consulte [Recopilación de datos en Analytics](/help/import/home.md).
