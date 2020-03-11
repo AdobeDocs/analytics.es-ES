@@ -3,7 +3,7 @@ description: Instrucciones sobre cómo personalizar el gráfico de modo que resu
 title: Cambiar gráficos de informes
 topic: Reports and analytics
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ El tipo de gráficos disponibles depende del tipo de informe que ejecute. Por ej
 **Para cambiar un gráfico de informe**
 
 1. Ejecutar un informe.
-1. Click **[!UICONTROL Configure Graph]**.
+1. Haga clic en **[!UICONTROL Configurar gráfico]**.
 1. Seleccione un tipo de gráfico.
 
    **[!UICONTROL Línea de tendencias]**: las líneas de tendencias muestran las tendencias diarias de las métricas de informe y son útiles para medir la tendencia de una métrica a través del tiempo.
