@@ -3,7 +3,7 @@ description: Las subrelaciones completas están activadas en todos los informes 
 title: Subrelaciones
 topic: Reports and analytics
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
