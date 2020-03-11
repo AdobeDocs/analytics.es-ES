@@ -3,7 +3,7 @@ description: Las métricas son la base de los informes, ya que ayudan a ver y a 
 title: Métricas
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Las métricas y los datos asociados se exhiben en las columnas de los informes. 
 
 Las [métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) se crean combinando métricas.
 
-For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
+Para ver las definiciones, consulte [Información general de métricas](/help/components/c-variables/c-metrics/metricslist.md)
 
 ## Seleccionar métricas de informe predeterminadas
 
@@ -35,7 +35,7 @@ t_metrics_set_default.xml
 
 1. Ejecutar un informe.
 1. Añada las métricas que desee guardar como métricas predeterminadas.
-1. Click the **[!UICONTROL Add Metrics]** drop-down list, then select **[!UICONTROL Set as Default]**.
+1. Haga clic en la lista desplegable **[!UICONTROL Agregar métricas]** y, luego, seleccione **[!UICONTROL Establecer como predeterminada]**.
 
    Las métricas seleccionadas se guardan como predeterminadas para este informe. La siguiente información se aplica a las métricas predeterminadas:
 
