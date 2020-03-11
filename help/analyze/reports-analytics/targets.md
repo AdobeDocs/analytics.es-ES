@@ -3,7 +3,7 @@ description: Los objetivos le permiten medir el rendimiento del sitio y llevar u
 title: Objetivos
 topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Los objetivos le permiten medir el rendimiento del sitio y llevar un control del avance hacia los objetivos. Por ejemplo, es posible que desee incrementar la cantidad de visitantes de una región, el ingreso por pedido o la cantidad de visitas provenientes de un referente específico.
 
-## Objetivos {#concept_6516E81923E845198B7FC5D8F81DC35C}
+## Objetivos  {#concept_6516E81923E845198B7FC5D8F81DC35C}
 
 Los objetivos le permiten medir el rendimiento del sitio y llevar un control del avance hacia los objetivos. Por ejemplo, es posible que desee incrementar la cantidad de visitantes de una región, el ingreso por pedido o la cantidad de visitas provenientes de un referente específico.
 
@@ -21,9 +21,9 @@ Al crear objetivos, seleccione qué métricas de atributos o eVar desea medir o 
 
 Por ejemplo, puede medir la cantidad de visitantes únicos del sitio Web y utilizar esto como objetivo. En ese caso, elija todo el sitio Web. Sin embargo, si el objetivo es la cantidad de visitantes únicos del sitio Web provenientes de Chicago, puede especificar esa eVar en lugar de ver todo el sitio.
 
-## Descripciones de campos de objetivos {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## Descripciones de campos de objetivos  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Objetivos]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Objetivos]**.
 
 Descripciones de los campos y las opciones de la página [!UICONTROL Agregar y editar destino].
 
@@ -45,7 +45,7 @@ Descripciones de los campos y las opciones de la página [!UICONTROL Agregar y e
   </tr> 
   <tr> 
    <td colname="col1"> Seleccionar artículo </td> 
-   <td colname="col2"> <p>Muestra el formulario de selección del atributo o eVar seleccionado, para que pueda realizar una   búsqueda avanzada de los artículos relacionados. Por ejemplo, si selecciona la eVar <span class="uicontrol">Países</span>, la lista de elementos le permite especificar el país. Si selecciona la eVar <span class="uicontrol">Productos</span>, la lista de elementos le permite especificar el producto. Las variables de perspectiva personalizada también se encuentran enumeradas en el menú. Si tiene configurada una variable de perspectiva personalizada para medir los rangos de edades, la lista de artículos mostrará dichos rangos, como por ejemplo: 18-24, 25-35, etc. </p> </td> 
+   <td colname="col2"> <p>Muestra el formulario de selección del atributo o eVar seleccionado, para que pueda realizar una    búsqueda avanzada de los artículos relacionados. Por ejemplo, si selecciona la eVar <span class="uicontrol">Países</span>, la lista de elementos le permite especificar el país. Si selecciona la eVar <span class="uicontrol">Productos</span>, la lista de elementos le permite especificar el producto. Las variables de perspectiva personalizada también se encuentran enumeradas en el menú. Si tiene configurada una variable de perspectiva personalizada para medir los rangos de edades, la lista de artículos mostrará dichos rangos, como por ejemplo: 18-24, 25-35, etc. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Métrica </td> 
@@ -53,7 +53,7 @@ Descripciones de los campos y las opciones de la página [!UICONTROL Agregar y e
   </tr> 
   <tr> 
    <td colname="col1"> Periodo </td> 
-   <td colname="col2"> <p>Permite definir las opciones <span class="uicontrol">Intervalo de fechas</span> y <span class="uicontrol">Granularidad</span> del objetivo. Según las especificaciones de intervalo de fecha, algunas opciones de granularidad no se aplican. Al escribir los valores de las métricas, escriba un valor para cada   configuración de granularidad. Por ejemplo, si el intervalo de fecha es el mes de febrero y la selección de granularidad es semanal, escriba un valor para cada semana del mes de febrero. Los informes de objetivo se muestran para cada configuración de granularidad. </p> </td> 
+   <td colname="col2"> <p>Permite definir las opciones <span class="uicontrol">Intervalo de fechas</span> y <span class="uicontrol">Granularidad</span> del objetivo. Según las especificaciones de intervalo de fecha, algunas opciones de granularidad no se aplican. Al escribir los valores de las métricas, escriba un valor para cada    configuración de granularidad. Por ejemplo, si el intervalo de fecha es el mes de febrero y la selección de granularidad es semanal, escriba un valor para cada semana del mes de febrero. Los informes de objetivo se muestran para cada configuración de granularidad. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Valores </td> 
@@ -72,14 +72,14 @@ t_add_a_target.xml
 
  -->
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
-1. En la página [!UICONTROL Administrador de destinos]**, haga clic en[!UICONTROL Agregar nuevo]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Objetivos]**.
+1. En la página [!UICONTROL Administrador de destinos], haga clic en **[!UICONTROL Agregar nuevo]**.
 1. Configure las opciones que se describen en [Descripciones de campos de objetivos](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
 ## Editar un objetivo {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
-1. En la columna **Administrar**, haga clic en el icono **[!UICONTROL Editar.]**
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Objetivos]**.
+1. En la columna **[!UICONTROL Administrar]**, haga clic en el icono **[!UICONTROL Editar.]**
 1. Configure las opciones que se describen en [Descripciones de campos de objetivos](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
 1. Haga clic en **[!UICONTROL Aceptar]**.
