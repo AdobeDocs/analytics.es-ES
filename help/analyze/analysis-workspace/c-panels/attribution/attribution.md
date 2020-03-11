@@ -3,7 +3,7 @@ description: 'null'
 title: Información general del panel de atribución
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
+source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
 
 ---
 
@@ -32,7 +32,7 @@ El panel de atribución es una función de [Attribution IQ](../../attribution-iq
 | ![Deterioro de tiempo](assets/time_decay.png) | Declive temporal | Sigue un declive exponencial con un parámetro de semivida personalizado, con un valor predeterminado de 7 días. El valor de cada canal depende de la cantidad de tiempo que transcurra entre el inicio del punto de contacto y la conversión final. La fórmula utilizada para determinar el crédito es `2^(-t/halflife)`, donde `t` es la cantidad de tiempo entre un punto de contacto y una conversión. A continuación, todos los puntos de contacto se normalizan al 100%. | Ideal para equipos que periódicamente ejecutan campañas audiovisuales o que comercializan eventos con una fecha predeterminada. Cuanto más tardía sea la conversión después de un evento de marketing, menor será el crédito. |
 | ![Participación](assets/participation.png) | Participación | Otorga un 100% de crédito a todos los puntos de contacto únicos. El número total de conversiones está incrementado en comparación con otros modelos de atribución. La participación anula la duplicación de los canales vistos varias veces. | Excelente para comprender con qué frecuencia se exponen los clientes a una determinada interacción. Los medios suelen utilizar este modelo para calcular la velocidad de contenido. Los comercios suelen utilizar este modelo para comprender qué partes de sus sitios son esenciales para la conversión. |
 
-> [!NOTE] El siguiente modelo de atribución algorítmica está disponible actualmente en [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) y formará parte de una versión general en 2020.
+> [!NOTE] El siguiente modelo de atribución algorítmica está disponible actualmente en [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) y, finalmente, formará parte de una versión general.
 
 | Icono de la interfaz de usuario | Modelo de atribución | Definición | Uso |
 | --- | --- | --- | --- |
