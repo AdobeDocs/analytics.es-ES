@@ -3,7 +3,7 @@ description: Pasos para ejecutar los distintos tipos de informes.
 title: Ejecutar diferentes tipos de informes
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
 
 ---
@@ -24,8 +24,8 @@ t_reports_ranked.xml
 
  -->
 
-1. Genere un informe, como por ejemplo un [!UICONTROL informe Páginas] (**[!UICONTROL Informes]**>**[!UICONTROL  Contenido del sitio]** > **[!UICONTROL Páginas]**).
-1. En el encabezado del informe, haga clic en **[!UICONTROL Clasificación.]**
+1. Genere un informe, como por ejemplo un [!UICONTROL informe Páginas] (**[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Páginas]**).
+1. En el encabezado del informe, haga clic en **[!UICONTROL Clasificación]**.
 1. Para clasificar el informe, haga clic en un encabezado de columna de la tabla.
 
    Los informes de clasificación pueden tener hasta 200 artículos enumerados en la tabla (como productos, categorías, páginas web, etc.) y diez métricas (ingresos, pedidos, vistas, etc.).
@@ -44,8 +44,8 @@ La mayoría de los informes de tráfico y conversión tienen una vista de tenden
 
 **Para ejecutar un informe de tendencias**
 
-1. Ejecute un informe de conversión o tráfico, como por ejemplo **[!UICONTROL Informes]**>**[!UICONTROL  Contenido del sitio]** > **[!UICONTROL Páginas]**.
-1. En **[!UICONTROL Tipo de informe]**, haga clic en**[!UICONTROL  Tendencias.]**
+1. Ejecute un informe de conversión o tráfico, como por ejemplo **[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Páginas]**.
+1. En **[!UICONTROL Tipo de informe]**, haga clic en **[!UICONTROL Tendencias]**.
 
 ## Ejecutar un informe de canales de conversión {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,9 +57,9 @@ t_reports_conversion_funnel.xml
 
  -->
 
-Para ejecutar este informe, seleccione un informe, como por ejemplo un informe Páginas (**[!UICONTROL Informes]**>**[!UICONTROL  Campañas]** > **[!UICONTROL Código de seguimiento]**>**[!UICONTROL  Canal de conversión de campañas]**).
+Para ejecutar este informe, seleccione un informe, como por ejemplo un informe Páginas (**[!UICONTROL Informes]** > **[!UICONTROL Campañas]** > **[!UICONTROL Código de seguimiento]** > **[!UICONTROL Canal de conversión de campañas]**).
 
-Consulte [Informes de conversión](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html) para ver una descripción.
+Consulte [Informes de conversión](https://marketing.adobe.com/resources/help/es_ES/reference/reports_conversion.html) para ver una descripción.
 
 ## Ejecutar un informe de visitas en el orden previsto {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -71,9 +71,9 @@ t_reports_fallout.xml
 
  -->
 
-Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) de Analysis Workspace.
+Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/fallout_flow.html) de Analysis Workspace.
 
-1. En [!UICONTROL Adobe Analytics], haga clic en **[!UICONTROL Informes]**>**[!UICONTROL  Rutas]** > **[!UICONTROL Páginas]**>**[!UICONTROL  Visita en el orden previsto]**.
+1. En [!UICONTROL Adobe Analytics], haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Rutas]** > **[!UICONTROL Páginas]** > **[!UICONTROL Visita en el orden previsto]**.
 1. En la página [!UICONTROL Informe de visitas en el orden previsto], haga clic en **[!UICONTROL Iniciar Report Builder para visitas en el orden previsto]**.
 
    ![Resultado](assets/fallout_add_items.png)
@@ -85,18 +85,18 @@ Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://m
 
 >[!MORELIKETHIS]
 >
->* [Descripción del informe de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
+>* [Descripción del informe de visitas en el orden previsto](https://docs.adobe.com/content/help/es-ES/analytics/components/variables/dimensions-reports/reports-fallout.translate.html)
 
 
 ## Ejecutar un informe de flujo de página {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 Los informes de flujo de página muestran el orden en el que los visitantes acceden a las páginas y navegan a través del sitio. Este informe ayuda a dar respuesta
 
-Consulte la nueva [Visualización de flujo](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html) en Analysis Workspace.
+Consulte la nueva [Visualización de flujo](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/flow.html) en Analysis Workspace.
 
-Ejecute un informe de [Rutas](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html).
+Ejecute un informe de [Rutas](https://marketing.adobe.com/resources/help/es_ES/reference/reports_paths.html).
 
-Por ejemplo, haga clic en **[!UICONTROL Informes]**>**[!UICONTROL  Rutas]** > **[!UICONTROL Páginas]**>**[!UICONTROL  Flujo de página siguiente]**.
+Por ejemplo, haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Rutas]** > **[!UICONTROL Páginas]** > **[!UICONTROL Flujo de página siguiente]**.
 
 ![](assets/page_flow.png)
 
@@ -104,7 +104,7 @@ Lea este informe de izquierda a derecha, empezando por la página seleccionada. 
 
 El porcentaje de cada página posterior que se visitó aparece al lado del nombre de la página. El ancho de la línea que se conecta con las páginas siguientes ilustra dicho porcentaje relativo.
 
-**[!UICONTROL Vistas de ruta]**: indica el número de veces que se visualizó una página, cuando se está limitado a las rutas visualizadas.
+**[!UICONTROL Vistas de ruta]**: indica el número de veces que se visualizó una página, cuando se está limitado a las rutas visualizadas. 
 
 Por ejemplo, si la página Política de privacidad puede tener un total de 10 000 vistas, pero sólo 500 se produjeron inmediatamente después de la Página principal. Es por ello que se utiliza el término vista de ruta.
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Haga clic en **[!UICONTROL Informes]**>**[!UICONTROL  Productos]** > [Canal de conversión de productos](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
+1. Haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Productos]** > [Canal de conversión de productos](https://marketing.adobe.com/resources/help/es_ES/reference/reports_conversion_funnel.html).
 
 ## Ejecutar un informe de canal de marketing {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -132,7 +132,7 @@ t_reports_marketing_channel.xml
 
  -->
 
-Consulte el sistema de ayuda de [Canal de mercadotecnia](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) para obtener más información.
+Consulte el sistema de ayuda de [Canal de mercadotecnia](https://marketing.adobe.com/resources/help/es_ES/mchannel/index.html) para obtener más información.
 
 ## Ejecutar un informe de detección de anomalías {#task_4808C96327354D789C075823F5C3A049}
 
@@ -144,13 +144,13 @@ t_anomaly_view.xml
 
  -->
 
-Consulte las nuevas funciones de [Detección de anomalías y Análisis de contribución](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) en Analysis Workspace.
+Consulte las nuevas funciones de [Detección de anomalías y Análisis de contribución](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/anomaly_detection.html) en Analysis Workspace.
 
-**[!UICONTROL Informes]**>**[!UICONTROL  Métricas del sitio]** > **[!UICONTROL Detección de anomalías]**.
+**[!UICONTROL Informes]** > **[!UICONTROL Métricas del sitio]** > **[!UICONTROL Detección de anomalías]** .
 
-> [!NOTE] También puede ejecutar Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] También puede ejecutar la Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/anomaly_detection.html)
 
-Si desea más información sobre la configuración de la detección de anomalías, consulte la [Guía de referencia](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection).
+Si desea más información sobre la configuración de la detección de anomalías, consulte la [Guía de referencia](https://marketing.adobe.com/resources/help/es_ES/sc/user/index.html#Setting_up_Anomaly_Detection).
 
 La detección de anomalías muestra dos tipos de gráficos: un gráfico de resumen y gráficos de las métricas individuales. Los gráficos de métricas individuales solo se muestran si al menos se ha detectado una anomalía para esa métrica.
 
@@ -173,11 +173,11 @@ La detección de anomalías muestra dos tipos de gráficos: un gráfico de resum
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">Los valores de porcentaje de desvío (a la izquierda del gráfico) se calculan de la forma siguiente: 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">Si el límite superior y el valor esperado son el mismo, el porcentaje de desviación es 100 % </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">De lo contrario, el % de desviación es ((valor real - valor límite superior) / (valor límite superior - valor esperado)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">Si los límites inferiores y el valor esperado son los mismos, el porcentaje de desviación es -100 % </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">De lo contrario, el % de desviación es ((valor límite inferior - valor real) / (valor esperado - valor límite inferior)) * -100 </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">De lo contrario, el porcentaje de desviación es ((valor actual - valor de límite superior) / (valor de límite superior - valor esperado)) * 100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">Si el límite inferior y el valor esperado son el mismo, el porcentaje de desviación es -100% </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">De lo contrario, el porcentaje de desviación es ((valor de límite inferior - valor actual) / (valor actual - valor de límite inferior)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Al hacer clic en <span class="uicontrol">Mostrar segmentos</span>, aparece el carril del segmento que permite aplicar segmentos a un informe de detección de anomalías. <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  > Más información</a> sobre segmentación. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Al hacer clic en <span class="uicontrol">Mostrar segmentos</span>, aparece el carril del segmento que permite aplicar segmentos a un informe de detección de anomalías. <a href="https://marketing.adobe.com/resources/help/es_ES/analytics/segment/"  > Más información</a> sobre segmentación. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Al hacer clic en <span class="uicontrol">Editar métricas</span>, puede seleccionar y deseleccionar métricas para las cuales desea detectar anomalías. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -211,11 +211,11 @@ t_anomaly_config.xml
 
 La detección de anomalías se configura de forma independiente para cada grupo de informes.
 
-1. Vaya a **[!UICONTROL Analytics > Informes > Métricas del sitio > Detección de anomalías]**.
+1. Vaya a **[!UICONTROL Analytics > Informes > Métricas del sitio > Detección de anomalías]** .
 1. Seleccione el grupo de informes para el cual desee realizar un seguimiento de la detección de anomalías diaria. Para mostrar una lista de grupos de informes, haga clic en el menú desplegable selector de grupos de informes.
-1. Para seleccionar las métricas y/o definir las métricas filtradas, haga clic en **[!UICONTROL Editar métricas]**en la esquina superior derecha de la pantalla:![](assets/metrics_icon.png).
+1. Para seleccionar las métricas y/o definir las métricas filtradas, haga clic en **[!UICONTROL Editar métricas]** en la esquina superior derecha de la pantalla:  ![](assets/metrics_icon.png).
 
-   Puede elegir las métricas de la lista (incluidas las métricas calculadas) de todas las métricas o de una lista de métricas con seguimiento. También puede filtrar por términos concretos para limitar la lista. 1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the**[!UICONTROL  View Period]** for anomaly detection. (Piense en el periodo de prueba como un &quot;periodo de aprendizaje&quot; para el algoritmo). 
+   Puede elegir las métricas de la lista (incluidas las métricas calculadas) de todas las métricas o de una lista de métricas con seguimiento. También puede filtrar por términos concretos para limitar la lista. 1. Una vez que se haya generado el informe, defina el **[!UICONTROL periodo de prueba]** y la opción **[!UICONTROL Ver periodo]** para detectar anomalías. (Piense en el periodo de prueba como un &quot;periodo de aprendizaje&quot; para el algoritmo). 
 
    ![](assets/view_training_periods.png)
 
@@ -226,13 +226,13 @@ La detección de anomalías se configura de forma independiente para cada grupo 
 * Si amplía el periodo de prueba sus datos se sitúan en un contexto mayor y puede reducir el tamaño de una anomalía.
 
    El informe de métricas de detección de anomalías se actualiza cada vez que cambia un parámetro.
-1. (Opcional) Aplique segmentos al informe haciendo clic en **[!UICONTROL Mostrar segmentos]**y seleccionando uno o más segmentos existentes o creando un nuevo segmento y aplicándolo.
+1. (Opcional) Aplique segmentos al informe haciendo clic en **[!UICONTROL Mostrar segmentos]** y seleccionando uno o más segmentos existentes o creando un nuevo segmento y aplicándolo.
 
    ![](assets/ad_top_menu.png)
 
-   Consulte la [guía de segmentación de Analytics](https://marketing.adobe.com/resources/help/en_US/analytics/segment/) para obtener más información sobre cómo crear y administrar segmentos. 1. (Opcional) Marque como favorito o añada un marcador al informe.
+   Consulte la [guía de segmentación de Analytics](https://marketing.adobe.com/resources/help/es_ES/analytics/segment/) para obtener más información sobre cómo crear y administrar segmentos. 1. (Opcional) Marque como favorito o añada un marcador al informe.
 1. (Opcional) Cambiar la fecha de finalización del periodo de vista. La opción predeterminada es ayer.
-1. Ahora puede empezar a interpretar el informe. [Visualización de gráficos](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)de detección de anomalías.
+1. Ahora puede empezar a interpretar el informe. [Visualización de gráficos de detección de anomalías](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049).
 
 ## Ejecutar un informe en tiempo real {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -244,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL Informes > Métrica del sitio > Tiempo real]**.
+**[!UICONTROL Informes > Métrica del sitio > Tiempo real]** .
 
 Los informes en tiempo real ofrecen dos informes principales: un informe de descripción general y un informe detallado. Cada uno consiste en diversos informes breves.
 
-Si desea más información sobre la configuración de informes en tiempo real, consulte la [Guía de referencia de Analytics](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration).
+Si desea más información sobre la configuración de informes en tiempo real, consulte la [Guía de referencia de Analytics](https://marketing.adobe.com/resources/help/es_ES/reference/index.html#RealTime_Reports_Configuration).
 
-1. Eche un vistazo al informe de **[!UICONTROL Información general]**y a sus componentes:![](assets/rtr_overview_report.png)
+1. Eche un vistazo al informe de **[!UICONTROL Información general]** y a sus componentes:  ![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -259,7 +259,7 @@ Si desea más información sobre la configuración de informes en tiempo real, c
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Seleccionar grupo de informes</strong></td> 
-   <td class="chdesc stentry"> Muestra el grupo de informes para abarca este informe en tiempo real. Para cambiar el grupo de informes, consulte la <a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >Configuración de informes en tiempo real </a>. </td> 
+   <td class="chdesc stentry"> Muestra el grupo de informes para abarca este informe en tiempo real. Para cambiar el grupo de informes, consulte la <a href="https://marketing.adobe.com/resources/help/es_ES/reference/t_realtime_admin.html"  >Configuración de informes en tiempo real </a>. </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Conmutar entre informes</strong></td> 
@@ -302,7 +302,7 @@ Si desea más información sobre la configuración de informes en tiempo real, c
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Ordenar por... Más popular/Ganadores/Perdedores</strong></td> 
-   <td class="chdesc stentry"> Puede conmutar el orden entre <span class="uicontrol">Más popular</span> (predeterminado), <span class="uicontrol">Ganadores</span> (las dimensiones que muestran el mayor crecimiento) y <span class="uicontrol">Perdedores</span> (las dimensiones que están en trayectoria descendente). <p>Esta es la fórmula que se utiliza para determinar los ganadores o los perdedores: Real-Time observa la muestra más temprana y la muestra más reciente y realiza un cálculo simple de "cambio de porcentaje". Por lo tanto, si selecciona "Últimos 15 minutos" y n representa el minuto actual, n-1 se compara con n-15. Tiempo real actualmente no realiza ninguna ponderación. El minuto actual se ignora porque no está completo y probablemente produciría un cambio de porcentaje falso. </p> <p>Esta formula se mantiene entre todas las métricas utilizadas en el informe en tiempo real. </p> </td> 
+   <td class="chdesc stentry"> Puede conmutar el orden entre <span class="uicontrol">Más popular</span> (predeterminado), <span class="uicontrol">Ganadores</span> (las dimensiones que muestran el mayor crecimiento) y <span class="uicontrol">Perdedores</span> (las dimensiones que están en trayectoria descendente). <p>Esta es la fórmula que se utiliza para determinar los ganadores y los perdedores: Tiempo real busca la muestra más temprana y la anterior a la muestra más reciente y realiza un sencillo cálculo de “% de cambio”. De modo que si se selecciona “Últimos 15 minutos” y n representa el minuto actual, n-1 se compara con n-15. Tiempo real actualmente no realiza ninguna ponderación. El minuto actual se ignora porque no está completo y probablemente produciría un cambio de porcentaje falso. </p> <p>Esta formula se mantiene entre todas las métricas utilizadas en el informe en tiempo real. </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>Informe breve 1 secundario</strong></td> 
@@ -314,7 +314,7 @@ Si desea más información sobre la configuración de informes en tiempo real, c
    </tr> 
    </table>
 
-1. Haga clic en un elemento de la lista en el Informe breve principal para iniciar la vista **[!UICONTROL Detalles]**para dicho elemento de lista:![](assets/rtr_detail_report.png)
+1. Haga clic en un elemento de la lista en el Informe breve principal para iniciar la vista **[!UICONTROL Detalles]** para dicho elemento de lista:  ![](assets/rtr_detail_report.png)
 
    | **Informe breve de tendencia del elemento** | Presenta la línea de tendencia del elemento que se ha seleccionado en el informe de descripción general de los últimos N minutos. N se puede configurar mediante el selector de intervalo de tiempo. |
    |---|---|
