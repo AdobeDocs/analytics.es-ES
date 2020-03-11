@@ -4,7 +4,7 @@ subtopic: Schedule
 title: Extracción de datos
 topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,5 +32,5 @@ Las extracciones de datos pueden procesar un número máximo de 50 000 filas en
 
 Instrucciones sobre cómo extraer datos de un informe y enviarlos por correo electrónico.
 
-1. Run a report, then click **[!UICONTROL More]** &gt; **[!UICONTROL Extract Data]**.
+1. Ejecute un informe y, a continuación, haga clic en **[!UICONTROL Más]** > **[!UICONTROL Extraer datos]**.
 1. Siga los pasos del asistente de Data Extract.
