@@ -3,7 +3,7 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
+source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 ---
 
@@ -20,7 +20,7 @@ Puede descargar la versión más reciente de AppMeasurement en el Administrador 
 
 Fecha de versión: **5 de marzo de 2020**
 
-* Se ha corregido un problema relacionado con la seguridad.
+* Se ha corregido un problema relacionado con la seguridad al actualizar la detección de Internet Explorer para suprimir la advertencia JSLint.
 
 ## Versión 2.19.0
 
