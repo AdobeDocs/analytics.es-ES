@@ -2,13 +2,13 @@
 description: Una descripción general del menú Informes en Reports & Analytics.
 title: Menú Informes
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Menú Informes{#reports-menu}
+# Menú Informes {#reports-menu}
 
 Una descripción general del menú Informes en Reports &amp; Analytics.
 
@@ -23,15 +23,15 @@ El menú Informes proporciona:
 
 Mis favoritos, Vistos con mayor frecuencia e Historial de informes son todos específicos del grupo de informes. Si cambia de grupo de informes, cambiarán las tres listas.
 
-Se puede navegar por los informes con una vista de columna jerárquica. Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. Presione la tecla Escape para cerrar el menú sin cambiar el informe actual; o bien, presione Intro para cargar el informe seleccionado.
+Se puede navegar por los informes con una vista de columna jerárquica. Haga clic en **[!UICONTROL Ver todos los informes]** o presione la tecla de barra diagonal (/) y, a continuación, presione la tecla de flecha abajo (↓) para visualizar rápidamente y navegar por el menú con las teclas de flecha. Presione la tecla Escape para cerrar el menú sin cambiar el informe actual; o bien, presione Intro para cargar el informe seleccionado.
 
-![](assets/reports-landing.png){width="672px"}
+![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html).
+Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://marketing.adobe.com/resources/help/es_ES/reference/reports_descriptions.html).
 
 ## Búsqueda de informes {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-El menú Informes proporciona una experiencia de búsqueda mejorada. Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. La búsqueda de informes se ha ampliado para incluir todos los elementos de navegación de la parte izquierda de Analytics (administrador, componentes, etc.).
+El menú Informes proporciona una experiencia de búsqueda mejorada. Haga clic en **[!UICONTROL Ver todos los informes]** o presione la tecla de barra diagonal (/) y, a continuación, comience a escribir para encontrar rápidamente un informe. La búsqueda de informes se ha ampliado para incluir todos los elementos de navegación de la parte izquierda de Analytics (administrador, componentes, etc.).
 
 ![](assets/menu-search.png)
 
@@ -51,7 +51,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
  <tbody> 
   <tr> 
    <td colname="col1">Menú Soluciones de Experience Cloud <img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> Al hacer clic en este icono, se expande el menú Experience Cloud para permitirle acceder a otras soluciones de Marketing Cloud. </td> 
+   <td colname="col2"> Al hacer clic en este icono se expande el menú de Experience Cloud para que pueda acceder a otras soluciones de Marketing Cloud. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Alternar menú de informes <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
@@ -59,7 +59,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Muestra el carril de segmento que le permite agregar o administrar segmentos. También puede acceder a las interfaces de <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  >Generador de segmentos</a> y <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html"  >Administrador de segmentos</a> desde el carril del segmento. </td> 
+   <td colname="col2">Muestra el carril de segmento que le permite agregar o administrar segmentos. También puede acceder a las interfaces de <a href="https://marketing.adobe.com/resources/help/es_ES/analytics/segment/seg_build_ui.html"  >Generador de segmentos</a> y <a href="https://marketing.adobe.com/resources/help/es_ES/analytics/segment/seg_manage.html"  >Administrador de segmentos</a> desde el carril del segmento. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -75,7 +75,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Mis favoritos</span> </td> 
-   <td colname="col2">Puede recuperar fácilmente los informes marcados como <span class="uicontrol">Se marcó como "Favorito"</span> dentro de esta área. Ya sea por usuario o por grupo de informes, muestra diez Favoritos y un vínculo <span class="uicontrol">Más...</span> si tiene más de diez favoritos. <p>Observe que puede cambiar el nombre de los informes pero no los tableros en Mis favoritos. </p> <p>Los favoritos son similares a los marcadores, pero no están almacenados en una carpeta ni se administran mediante el <a href="/help/analyze/reports-analytics/bookmarks.md"  > Administrador de marcadores</a> tal como son los marcadores. </p> </td> 
+   <td colname="col2">Puede recuperar fácilmente los informes marcados como <span class="uicontrol">Se marcó como "Favorito"</span> dentro de esta área. Ya sea por usuario o por grupo de informes, muestra diez Favoritos y un vínculo <span class="uicontrol">Más...</span> si tiene más de diez favoritos. <p>Observe que puede cambiar el nombre de los informes pero no los tableros en Mis favoritos. </p> <p>Los favoritos son similares a los marcadores, pero no están almacenados en una carpeta ni se administran mediante el  <a href="/help/analyze/reports-analytics/bookmarks.md"  > Administrador de marcadores</a> tal como son los marcadores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Vistos con mayor frecuencia</span> </td> 
@@ -98,8 +98,8 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
    <td colname="col2">Permite <a href="/help/analyze/reports-analytics/bookmarks.md"  > marcar</a> el informe. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol"> Tablero</span>... </td> 
-   <td colname="col2">Lets you add the report to a <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
+   <td colname="col1"><span class="uicontrol"> Panel</span>... </td> 
+   <td colname="col2">Le permite agregar el informe a un <a href="/help/analyze/reports-analytics/dashboard.md"  >panel</a>.. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Más...</span> </td> 
@@ -107,7 +107,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
   </tr> 
   <tr> 
    <td colname="col1">Selector de grupos de informes <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">Le permite seleccionar <a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"  >grupos de informes base</a> o <a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html"  >grupos de informes virtuales</a>. </td> 
+   <td colname="col2">Le permite seleccionar <a href="https://marketing.adobe.com/resources/help/es_ES/reference/report_suites_admin.html"  >grupos de informes base</a> o <a href="https://marketing.adobe.com/resources/help/es_ES/reference/virtual-report-suites.html"  >grupos de informes virtuales</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Calendario <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -118,4 +118,4 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
 
 ## Personalización del menú Todos los informes {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html) en la Ayuda de Administradores.
+Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/customize-menus.translate.html) en la Ayuda de Administradores.
