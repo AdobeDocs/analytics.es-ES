@@ -3,7 +3,7 @@ description: Introducción a las características de un informe; incluye la barr
 title: Características de los informes
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,15 +17,15 @@ Este ejemplo muestra un [!UICONTROL Informe de páginas]. Las opciones de config
 
 ## Ejemplo de informe de páginas {#section_288CC85536684C2DB184141358481EF0}
 
-An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages Reports]** &gt; **[!UICONTROL Pages]**).
+Un ejemplo de informe de páginas (**[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Informes de páginas]** > **[!UICONTROL Páginas]**).
 
-![](assets/pages_report.png){width="672px"}
+![](assets/pages_report.png){width=&quot;672px&quot;}
 
 ## Barra de herramientas de informes {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 Comparta los datos del informe con quienes toman decisiones y pueden cambiar las estrategias de marketing o del sitio basándose en los datos.
 
-![](assets/toolbar.png){width="672px"}
+![](assets/toolbar.png){width=&quot;672px&quot;}
 
 Consulte también [Personalización de un informe](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
@@ -33,7 +33,7 @@ Consulte también [Personalización de un informe](/help/analyze/reports-analyti
 
 Muestra la configuración del informe y permite configurar el tipo de informe, seleccionar las métricas, etc. Las opciones disponibles en este grupo varían dependiendo del informe que ejecute.
 
-![](assets/settings_header.png){width="672px"}
+![](assets/settings_header.png){width=&quot;672px&quot;}
 
 Consulte [Personalización de un informe](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) para obtener más información.
 
@@ -41,9 +41,9 @@ Consulte [Personalización de un informe](/help/analyze/reports-analytics/report
 
 Especifique la fecha haciendo clic en el botón de calendario y seleccionando un intervalo de fecha. También puede seleccionar dos intervalos de fechas para comparar el rendimiento.
 
-![](assets/calendar_large.png){width="672px"}
+![](assets/calendar_large.png){width=&quot;672px&quot;}
 
-Consulte [Selección de una fecha o un intervalo](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) de fechas y [Comparación de fechas](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+Consulte [Selección de una fecha o un intervalo de fechas](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) y [Comparación de fechas](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Tipo de gráfico {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
@@ -51,7 +51,7 @@ Seleccione el tipo de gráfico que desee ver:
 
 ![](assets/graph_type.png)
 
-See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
+Consulte [Cambio de los gráficos de informes](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md).
 
 ## Visualización de gráficos {#section_4C78ADC82C234CC6841AC92C803636F4}
 
@@ -59,7 +59,7 @@ Según el tipo de gráfico que haya seleccionado, generalmente, verá los artíc
 
 ![](assets/graph.png)
 
-Consulte [Personalización de informes.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
+Consulte [Personalización de informes](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
 
 ## Métricas {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -67,7 +67,7 @@ Añada métricas al informe. Los administradores pueden especificar métricas pr
 
 ![](assets/metrics.png)
 
-Consulte [Métricas.](/help/analyze/reports-analytics/metrics.md)
+Consulte [Métricas](/help/analyze/reports-analytics/metrics.md).
 
 ## Tabla de detalles {#section_449A5DC848744F65A10DA12E189B835D}
 
@@ -77,4 +77,4 @@ Los detalles constituyen la mayor parte de los datos del informe. En este caso, 
 
 En la tabla de detalles, puede filtrar datos, crear desgloses, añadir métricas, etc.
 
-Consulte [Personalización de informes.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
+Consulte  [Personalización de informes](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
