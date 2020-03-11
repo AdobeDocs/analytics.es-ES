@@ -3,7 +3,7 @@ description: Los filtros le permiten reducir el informe para incluir o excluir e
 title: Filtrado de datos de los informes
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Los filtros le permiten reducir el informe para incluir o excluir elementos de línea que concuerden con un filtro.
 
-## Filtro simple {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## Filtro simple  {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
-El filtro simple aparece en la mayoría de informes para que pueda encontrar rápidamente elementos de línea concretos. Simple filters do not use any special characters, so `-, ", ', +` and other special characters match the literal value in the report. Puede utilizar el espacio para encontrar elementos de línea que contienen múltiples términos.
+El filtro simple aparece en la mayoría de informes para que pueda encontrar rápidamente elementos de línea concretos. Los filtros simples no utilizan ningún carácter especial, por lo que `-, ", ', +` y otros caracteres especiales concuerdan con el valor literal en el informe. Puede utilizar el espacio para encontrar elementos de línea que contienen múltiples términos.
 
 Por ejemplo:
 
@@ -45,11 +45,11 @@ Los filtros avanzados le permiten controlar el ámbito de su búsqueda a través
 
 Coincide si el término se encuentra en cualquier punto del elemento de línea. Opera igual que un filtro simple.
 
-> [!NOTE] Los espacios no se pueden usar en los filtros, ya que los espacios son delimitadores en las búsquedas
+> [!NOTE] No se pueden utilizar espacios en los filtros, ya que los espacios son delimitadores en las búsquedas
 
 **No contiene**
 
-Coincide si el término no se encuentra en cualquier punto del elemento de línea. You can filter "unspecified", "none", "keyword unavailable" and other [special values](https://marketing.adobe.com/resources/help/en_US/reference/none-unspecified-unknown-other.html) from reports using "does not contain".
+Coincide si el término no se encuentra en cualquier punto del elemento de línea. Puede filtrar “sin especificar”, “ninguno”, “teclado no disponible” y otros [valores especiales](https://marketing.adobe.com/resources/help/es_ES/reference/none-unspecified-unknown-other.html) desde los informes mediante “No contiene”.
 
 No contiene: `none`
 
@@ -58,7 +58,7 @@ Para un filtro más exacto, puede usar un filtro avanzado (caracteres especiales
 * Avanzado (carácter especial): `-^none$`
 * Avanzado (carácter especial): `-"keyword unavailable"`
 
-Por ejemplo, el siguiente elemento de línea se ha filtrado según el criterio "No contiene", pero no se ha filtrado según el criterio "Avanzado" (carácter especial):
+Por ejemplo, el siguiente elemento de línea se ha filtrado según el criterio &quot;No contiene&quot;, pero no se ha filtrado según el criterio &quot;Avanzado&quot; (carácter especial):
 
 ```
 help:Rename the None classification key
@@ -66,7 +66,7 @@ help:Rename the None classification key
 
 **Contiene uno de**
 
-Coincide si algún término, separado por espacios, se encuentra en el elemento de línea. El filtro siguiente muestra todas las páginas que contienen "hombre" o "venta":
+Coincide si algún término, separado por espacios, se encuentra en el elemento de línea. El filtro siguiente muestra todas las páginas que contienen &quot;hombre&quot; o &quot;venta&quot;:
 
 Contiene uno de: `mens sale`
 
@@ -126,11 +126,11 @@ Avanzado le permite realizar una búsqueda con comodines y otras búsquedas comp
 | Avanzado (carácter especial) | Descripción |
 |--- |--- |
 | `" "` | Coincide la frase exacta. |
-| `*` | Comodín, coincidencia amplia. <br>Por ejemplo, `r*p` coincide con "Registro de registro". |
+| `*` | Comodín, coincidencia amplia. <br>Por ejemplo, `r*p` coincide con “Registro de suscripción”. |
 | `^` | Comienza con. <br>No incluya un espacio entre los caracteres especiales y la frase de búsqueda. |
 | `$` | Finaliza con. <br>No incluya un espacio entre los caracteres especiales y la frase de búsqueda. |
 | `-` | No. <br>No incluya un espacio entre los caracteres especiales y la frase de búsqueda. |
-| `|` | <br>ONota:  debe incluir un espacio en cada lado del carácter de barra vertical, `" | "`. |
+| `|` | O<br>Nota:  Debe incluir un espacio a cada lado del carácter de barra vertical `" | "`. |
 
 ## Crear filtros específicos de informes {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
@@ -148,10 +148,10 @@ Cuando accede a estos filtros, puede ver las métricas del informe para los art�
 
 **Para crear filtros específicos del informe**
 
-1. Generate a report, such as a [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Purchase Conversion Funnel]**).
-1. En el encabezado del informe, haga clic en el vínculo **Filtro.**
-1. En la página [!UICONTROL Selector de filtro]**, haga clic en[!UICONTROL Aplicar un filtro]** y, a continuación, seleccione un tipo de filtro.
-1. Para buscar un elemento, escriba una cadena de caracteres en el campo **Buscar.**
+1. Genere un informe, por ejemplo un [!UICONTROL Informe de compra] (**[!UICONTROL Métricas del sitio]** > **[!UICONTROL Compras]** > **[!UICONTROL Canal de conversión de compra]**).
+1. En el encabezado del informe, haga clic en el vínculo **[!UICONTROL Filtro]**.
+1. En la página [!UICONTROL Selector de filtro], haga clic en **[!UICONTROL Aplicar un filtro]** y, a continuación, seleccione un tipo de filtro.
+1. Para buscar un artículo, escriba una cadena de caracteres en el campo **[!UICONTROL Buscar]**.
 1. Haga clic en **[!UICONTROL Aceptar]**.
 
 ## Añadir un filtro de correlación {#task_065042E384DA4BF3864C58AF2B88D6E2}
@@ -170,7 +170,7 @@ Puede filtrar los datos que se muestran en un informe de correlación usando cua
 
 **Para agregar un filtro de correlación**
 
-1. Ejecute un informe que admita correlaciones. (See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
+1. Ejecute un informe que admita correlaciones. (Consulte [Ejecución de un informe de desglose](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. En el encabezado del informe, haga clic en el vínculo **[!UICONTROL Filtro de correlación]**.
 1. En [!UICONTROL Creador de reglas de filtro], seleccione una categoría para correlacionar con un elemento.
-1. Haga clic en **[!UICONTROL Aceptar.]**
+1. Haga clic en **[!UICONTROL Aceptar]**.
