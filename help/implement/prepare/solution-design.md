@@ -2,7 +2,7 @@
 title: Creación de un documento de diseño de solución
 description: Descubra qué es un documento de diseño de solución y cómo puede utilizarlo en su organización.
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -46,5 +46,4 @@ También hay varios socios de Adobe que se especializan en ayudar a crear un doc
 
 Implemente las variables en el documento de diseño de la solución.
 
-* Introducción a las eVars: Descubra qué es una eVar, cómo funciona y cómo utilizarla en su implementación
-* Introducción a los eventos: Descubra qué es un evento de éxito, cómo funciona y cómo utilizarlo en la implementación
+[Crear una capa](data-layer.md)de datos: Traduzca las variables del documento de diseño a variables JavaScript del sitio.
