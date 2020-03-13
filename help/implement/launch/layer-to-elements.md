@@ -1,44 +1,36 @@
 ---
-description: 'null'
-title: Asignar objetos de capa de datos a elementos de datos
-uuid: null
+title: Asignación de objetos de capa de datos a elementos de datos
+description: Configure Launch para que lea desde la capa de datos.
 translation-type: tm+mt
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
 
-# Asignar objetos de capa de datos a elementos de datos
+# Asignación de objetos de capa de datos a elementos de datos
 
+Una vez que la organización haya establecido e implementado una capa de datos en el sitio, puede asignar objetos de capa de datos a elementos de datos dentro de Launch.
 
-Después de [crear una capa](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html) de datos para la implementación, puede asignar objetos dentro de ella a elementos [de datos en Launch](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element). Los elementos de datos son componentes básicos de su mapa de datos que se pueden aprovechar de varias formas. Puede utilizar elementos de datos para recopilar, organizar y entregar datos en las soluciones de la plataforma de Adobe, incluidos los informes de Analytics.
+## Requisitos previos
 
-Para asignar objetos de capa de datos a elementos de datos de lanzamiento:
+[Crear una capa](../prepare/data-layer.md)de datos: Asegúrese de que existe una capa de datos en el sitio. Aunque técnicamente puede asignar cualquier objeto JavaScript o crear secuencias de comandos de elementos CSS directamente desde la página, Adobe recomienda esta práctica como último recurso. Si el diseño del sitio cambia, los selectores CSS utilizados en Launch dejan de funcionar, lo que provoca la pérdida de datos.
 
-1. En Iniciar, haga clic en el nombre de la propiedad a la que desea agregar el elemento de datos. Si todavía no ha configurado una propiedad, consulte las instrucciones para [crear una propiedad](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html)de inicio.
+## Uso de Adobe Experience Platform Launch para crear elementos de datos
 
-2. Click **Data Elements** and then click **Create New Data Element**.
+[Los elementos](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) de datos son componentes de Launch que se pueden utilizar en toda la herramienta. Puede asignar valores de variables en la extensión de Adobe Analytics mediante elementos de datos.
+
+1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
+1. Haga clic en la propiedad Launch que desee.
+1. Click the [!UICONTROL Data Elements] tab, then click [!UICONTROL Add Data Element].
 
    ![crear elemento de datos](assets/createelement.png)
 
+1. Escriba un nombre para el elemento de datos. Puede ser una etiqueta simple que corresponde a una variable de JavaScript en la capa de datos que desee rastrear.
+1. En la [!UICONTROL Extension] lista desplegable, seleccione [!UICONTROL Core].
+1. En la [!UICONTROL Data Element Type] lista desplegable, seleccione [!UICONTROL JavaScript Variable]. Aparece un campo de texto a la derecha que le permite introducir la variable JavaScript para asignarla a este elemento de datos.
+1. Introduzca la variable de JavaScript que desee, normalmente dentro de la capa de datos. Por ejemplo, si la capa de datos de su organización coincide estrechamente con la práctica recomendada de Adobe, podría ser un valor `digitalData.page.pageInfo.pageName`. Puede utilizar la consola del explorador para validar la sintaxis y los valores de las variables JavaScript.
+1. Haga clic en [!UICONTROL Save].
 
-3. Escriba un nombre para el elemento de datos. Este nombre debe ser una etiqueta simple que corresponda a una variable JavaScript de la capa de datos que desee rastrear.
+## Pasos siguientes
 
-4. En Extensión, seleccione **Principal.** Esta extensión incluye todas las variables que necesitará.
-
-5. For **Data Element Type**, select **JavaScript Variable**. Escriba el nombre **de la variable** Javascript en el campo correspondiente. Debe coincidir con el nombre exacto del objeto en la capa de datos JavaScript.
-
-6. En Valor **** predeterminado, introduzca cualquier valor que desee establecer de forma predeterminada o déjelo en blanco si corresponde.
-
-7. Según sus prácticas, puede seleccionar las opciones para forzar valores en minúsculas y aplicar texto limpio (Launch aplicará espaciado convencional).
-
-8. Especifique la duración durante la cual desea que Launch almacene valores para el nuevo elemento de datos.
-
-9. Haga clic en **Guardar**.
-
-El siguiente ejemplo muestra un elemento de datos Nombre de página en Launch creado para la variable JavaScript ``pageName`` en la capa de datos:
-
-![Especificar elemento](assets/new_element.png)
-
-
-Con los objetos de capa de datos asignados a elementos de datos, puede aprovecharlos para rellenar variables de Analytics. Para obtener más información, consulte [Asignación de elementos de datos a variables](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html)de Analytics.
+[Asigne elementos de datos a variables](elements-to-variable.md)de Analytics: Asigne elementos de datos a variables de Analytics para que pueda utilizarlos como dimensiones en Analysis Workspace.
