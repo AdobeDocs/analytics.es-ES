@@ -2,14 +2,14 @@
 title: Creación de una capa de datos
 description: Descubra qué es una capa de datos en su implementación de Analytics y cómo se puede utilizar para asignar variables en Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
 
 # Creación de una capa de datos
 
-Una capa de datos es un marco de objetos JavaScript del sitio que contiene todos los valores de variables utilizados en la implementación. Permite un mayor control y un mantenimiento más sencillo en la implementación.
+Una capa de datos es un marco de objetos JavaScript del sitio que contiene todos los valores de variables utilizados en la implementación. Permite un bueno control y un mantenimiento más sencillo en la implementación.
 
 ## Requisitos previos
 
@@ -22,7 +22,7 @@ La implementación de Adobe Analytics mediante una capa de datos suele seguir es
 1. **Trabaje con el equipo de desarrollo del sitio para implementar una capa** de datos: El equipo de desarrollo del sitio es el principal responsable de asegurarse de que el objeto de capa de datos se rellene con los valores correctos. Revise esta página con el equipo de desarrollo del sitio para asegurarse de que las expectativas estén alineadas entre los equipos.
    > [!NOTE] Las especificaciones de capa de datos recomendadas por Adobe son opcionales. Si ya dispone de una capa de datos o decide no seguir las especificaciones de Adobe, asegúrese de que su organización se ajusta a las especificaciones a seguir.
 2. **Valide la capa de datos con una consola** de explorador: Una vez creada una capa de datos, puede validar que funcione con cualquier consola de desarrollador del explorador. Puede abrir la consola de desarrollador en la mayoría de los exploradores con la `F12` clave. Un valor de variable de ejemplo sería `digitalData.page.pageInfo.pageID`.
-3. **Utilice Adobe Experience Platform Launch para asignar objetos de capa de datos a elementos** de datos de Launch: Cree elementos de datos en Launch y asígnelos a los atributos de JavaScript descritos en la capa de datos.
+3. **Utilice Adobe Experience Platform Launch para asignar objetos de capa de datos a Elementos** de datos de lanzamiento: Cree elementos de datos en Launch y asígnelos a los atributos de JavaScript descritos en la capa de datos.
 4. **Utilice la extensión Adobe Analytics en Launch para asignar elementos de datos a variables** de Analytics: Después del documento de diseño de la solución, asigne cada elemento de datos a la variable de Analytics correspondiente.
 
 ## Especificaciones
@@ -167,3 +167,7 @@ Las capas de datos son extensibles; si tiene requisitos específicos de su organ
 ## Configuración de los valores de la capa de datos
 
 Las capas de datos suelen generar en el servidor, haciendo referencia a los mismos objetos utilizados para generar el contenido del sitio. Establezca la capa de datos del sitio en función de los requisitos de seguimiento establecidos en el documento [de diseño de la](solution-design.md)solución de su organización.
+
+## Pasos siguientes
+
+[Asignar objetos de capa de datos a elementos](../launch/layer-to-elements.md)de datos: Utilice la capa de datos del sitio en Adobe Experience Platform Launch.
