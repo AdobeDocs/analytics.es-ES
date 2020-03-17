@@ -5,12 +5,21 @@ title: Novedades en Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
 
 # Novedades en Analysis Workspace
+
+## Marzo de 2020
+
+Nuevas funciones lanzadas el 12 de marzo de 2020.
+
+| Función | Descripción |
+|--- |--- |
+| Compatibilidad con varios grupos de informes en Workspace | Ahora puede incluir datos de varios grupos de informes en un solo proyecto para verlos uno al lado del otro. [Más información...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Plantilla del tutorial de formación | Esta nueva plantilla estándar le guía por la terminología común y por los pasos para crear su primer análisis en Workspace. Está disponible como plantilla estándar en el modo Nuevo proyecto y reemplaza el proyecto de muestra actual para los usuarios nuevos que no tienen otros proyectos en su lista. [Más información...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Febrero de 2020
 
@@ -18,7 +27,6 @@ Nuevas funciones lanzadas el 20 de febrero de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Compatibilidad con varios grupos de informes en Workspace | Ahora puede incluir datos de varios grupos de informes en un solo proyecto para verlos uno al lado del otro. A partir del 20 de febrero de 2020, la función se lanzará a todos los clientes durante varias semanas. [Más información...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | Nueva plantilla de espacio de trabajo para organizaciones que utilizan Análisis entre dispositivos | Esta plantilla muestra la eficacia del CDA para unir visitas y le enseña las métricas y dimensiones exclusivas del CDA. Se necesita un grupo de informes que utilice CDA. Consulte [Configuración de análisis entre dispositivos](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) para obtener más información. |
 | Nuevas teclas de acceso directo en Workspace | <ul><li>Contraer/Expandir todos los paneles: `alt + m`</li><li>Contraer/Expandir panel activo: `alt + ctrl + m`</li><li>Buscar carril izquierdo: `ctrl + /`</li><li>Mover al panel siguiente: `alt + Right Key`</li><li>Mover al panel anterior: `alt + Left Key`</li></ul>[Más información...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | Otras mejoras de Workspace | <ul><li>Cuando se coloca un panel o una visualización en Workspace, el carril izquierdo cambiará automáticamente a componentes para lograr un flujo de trabajo más fluido.</li><li>Los componentes de plantilla ahora se pueden activar (por ejemplo, etiquetados, favoritos, aprobados).</li><li>Las listas filtradas de métricas y segmentos ofrecen el botón + para agregar un nuevo componente si no encuentra lo que necesita.</li></ul> |
