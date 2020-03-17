@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 
 ---
 
@@ -150,6 +150,8 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
    + [Creación de una propiedad de Analytics](launch/create-analytics-property.md)
    + [Implementar en un entorno de desarrollo](launch/deploy-dev.md)
    + [Validar y publicar en prod](launch/validate-publish-prod.md)
+   + [Asignación de objetos de capa de datos a elementos de datos](launch/layer-to-elements.md)
+   + [Asignación de elementos de datos de Launch a variables de Analytics](launch/elements-to-variable.md)
 + Implementar Analytics en otras plataformas {#other}
    + [Implementación de Analytics mediante solicitudes de imagen codificadas](other/hardcoded.md)
    + Implement Analytics using DTM {#dtm}
