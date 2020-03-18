@@ -3,7 +3,7 @@ description: Información general sobre los datos que recopila Adobe Analytics y
 keywords: privacy
 title: Resumen de privacidad
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 Adobe recomienda proporcionar a los visitantes de un sitio web información fácilmente accesible y comprensible sobre la posibilidad de expresar su disconformidad frente a la recopilación de su información de navegación por parte de los servicios y productos de Adobe.
 
-Los visitantes pueden obtener más información sobre cómo Adobe utiliza generalmente la información que recopila en el Centro de privacidad de [Adobe](https://www.adobe.com/privacy.html). Depende de su organización revelar cómo utiliza los productos y servicios de Adobe, ya que su organización controla exclusivamente cómo implementar los servicios de Adobe. Usted es el responsable de crear su propia política de privacidad, de su cumplimiento, de su cumplimiento a través de un contrato de servicio con Adobe y de su cumplimiento a través de toda la legislación aplicable.
+En el [Centro de privacidad de Adobe](https://www.adobe.com/es/privacy.html), los visitantes pueden obtener más información sobre cómo suele usar Adobe la información que recopila. Revelar el uso de los productos y servicios de Adobe es decisión de su organización, ya que es esta quien controla exclusivamente cómo implementar los servicios de Adobe. Usted es el responsable de crear su propia política de privacidad, de su cumplimiento, de su cumplimiento a través de un contrato de servicio con Adobe y de su cumplimiento a través de toda la legislación aplicable.
 
 ## Desglose de los datos recopilados {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -73,7 +73,7 @@ Adobe Analytics recopila los datos siguientes:
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Los análisis de origen no están dentro del ámbito del programa de autorregulación para publicidad de comportamiento en línea ("AdChoices"). </td> 
+   <td colname="col2"> El análisis de origen no está en el ámbito del Programa de autorregulación de publicidad en línea basada en el comportamiento (“AdChoices”). </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -89,19 +89,19 @@ Adobe Analytics recopila los datos siguientes:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe ha habilitado la opción "Protección de IP: habilitada - IP eliminada (x.x.x.x)" de forma predeterminada para todos los clientes con un grupo de informes establecido en EMEA. Con esta configuración, la dirección IP será reemplazada completamente por el valor (x.x.x.x) después de realizar la búsqueda geográfica y ya no estará disponible como punto de datos. <p>El método de sustitución básico no se puede analizar mediante ingeniería inversa para obtener una dirección IP específica. Ni el cliente ni Adobe pueden tener acceso a la dirección IP, ya que se ha convertido en anónima de forma irreversible. Para obtener más información sobre la opción de protección de IP, consulte </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/es_ES/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe ha habilitado la opción "Protección de IP: habilitada - IP eliminada (x.x.x.x)" de forma predeterminada para todos los clientes con un grupo de informes establecido en EMEA. Con esta configuración, la dirección IP será reemplazada completamente por el valor (x.x.x.x) después de realizar la búsqueda geográfica y ya no estará disponible como punto de datos. <p>El método de sustitución básico no se puede analizar mediante ingeniería inversa para obtener una dirección IP específica. Ni el cliente ni Adobe pueden tener acceso a la dirección IP, ya que se ha convertido en anónima de forma irreversible. Para obtener más información sobre la opción de protección de IP, consulte </p> <p> <a href="https://marketing.adobe.com/resources/help/es_ES/reference/index.html#General_Account_Settings"  >https://marketing.adobe.com/resources/help/es_ES/reference/index.html#General_Account_Settings</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
-   <td colname="col2"> Un cliente puede establecer la variable de duración de la cookie en el código de medición de JavaScript en un valor de "ninguno", "sesión" u otro valor especificado medido en segundos. </td> 
+   <td colname="col2"> Un cliente puede establecer la variable permanente de cookie en el código de medición de JavaScript a un valor de “ninguno”, “sesión” o cualquier otro valor especificado en segundos. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe ha desarrollado una nueva configuración de "privacidad por diseño" que ahora puede activar Adobe ClientCare para Adobe Analytics (anteriormente SiteCatalyst) versiones 14.9 y 15.4. Cuando se habilita esta nueva configuración, el último octeto (la última parte) de la dirección IP se reemplaza inmediatamente por el valor 0 una vez que Adobe recopila la dirección IP. Esta protección se realiza antes de procesar la dirección IP, incluso antes de realizar la búsqueda geográfica y la búsqueda de ISP de la dirección IP. </td> 
+   <td colname="col2"> Adobe ha desarrollado una nueva opción de “privacidad por diseño” que Adobe ClientCare puede habilitar para Adobe Analytics (antes SiteCatalyst) versiones 14.9 y 15.4. Al activar esta opción, el último octeto (la última parte) de la dirección IP es sustituido inmediatamente con el valor 0 cuando Adobe recopila la dirección IP. Esta protección se realiza antes de procesar la dirección IP, incluso antes de realizar la búsqueda geográfica y la búsqueda de ISP de la dirección IP. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Alemania </td> 
-   <td colname="col2"> <p>Si los clientes no poseen un Contrato de procesamiento de datos para Adobe Analytics con Adobe, deberán contactar con su administrador de cuentas de Adobe o el administrador de éxito de clientes, quienes trabajarán con el Departamento legal de Adobe para obtenerlo. </p> <p>Adobe ha preparado un Acuerdo de procesamiento de datos (Vertrag fuer Auftragsdatenverarbeitung - ADV) para Analytics que ha sido revisado y aprobado por la Autoridad de Protección de Datos de Baviera (Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA). El ADV está disponible en alemán y en inglés. </p> </td> 
+   <td colname="col2"> <p>Si los clientes no poseen un Contrato de procesamiento de datos para Adobe Analytics con Adobe, deberán contactar con su administrador de cuentas de Adobe o el administrador de éxito de clientes, quienes trabajarán con el Departamento legal de Adobe para obtenerlo. </p> <p>Adobe ha preparado un Contrato de procesamiento de datos (Vertrag fuer Auftragsdatenverarbeitung – ADV) para Analytics que ha sido revisado y aprobado por la Autoridad de Protección de Datos de Baviera (Bayerisches Landesamt fuer Datenschutzaufsicht – BayLDA). El ADV está disponible en alemán y en inglés. </p> </td> 
   </tr> 
  </tbody> 
 </table>
