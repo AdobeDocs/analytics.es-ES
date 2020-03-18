@@ -5,7 +5,7 @@ subtopic: Redirects
 title: Redirecciones y alias
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -64,7 +64,7 @@ redirects_js_override.xml
 
  -->
 
-El siguiente fragmento de código muestra dos variables de JavaScript, *`s_referrer`*y*`s_pageURL`*. El código se sitúa en la página de aterrizaje definitiva de la redirección.
+El siguiente fragmento de código muestra dos variables de JavaScript, *`s_referrer`* y *`s_pageURL`*. El código se sitúa en la página de aterrizaje definitiva de la redirección.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -80,7 +80,7 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->Configurar *`s.referrer`*solo una vez en la página. Si la establece más de una vez con cada llamada de seguimiento o con cada clic de vínculo que se rastree ocasiona el recuento doble del referente y dimensiones relacionadas, como motores de búsqueda y palabras clave.
+>Configurar *`s.referrer`* solo una vez en la página. Si la establece más de una vez con cada llamada de seguimiento o con cada clic en el vínculo que se rastree ocasiona el recuento doble del referente y dimensiones relacionadas, como motores de búsqueda y palabras clave.
 
 ## Redirecciones mediante getQueryParam {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
@@ -108,7 +108,7 @@ redirects_modify_mechanism.xml
 
  -->
 
-Puesto que el explorador elimina la dirección URL de referencia, se debe configurar el mecanismo que se ocupa de la redirección (por ejemplo: servidor web, código del lado del servidor, código del lado del cliente) de modo que transmita la información del referente original. Si, además, desea registrar la dirección URL del vínculo de alias, esta también se debe transferir a la página de aterrizaje definitiva. Use la variable *`s_pageURL`*para ignorar la URL actual.
+Puesto que el explorador elimina la dirección URL de referencia, se debe configurar el mecanismo que se ocupa de la redirección (por ejemplo: servidor web, código del lado del servidor, código del lado del cliente) de modo que transmita la información del referente original. Si, además, desea registrar la dirección URL del vínculo de alias, esta también se debe transferir a la página de aterrizaje definitiva. Use la variable *`s_pageURL`* para ignorar la URL actual.
 
 Dado que existen varias formas de implementar una redirección, es posible que tenga que consultar al grupo de operaciones web o a su socio de publicidad en línea cuáles son los mecanismos concretos que ejecutan las redirecciones en su sitio web.
 
@@ -120,7 +120,7 @@ redirects_referrer.xml
 
  -->
 
-En general, [!DNL Analytics] obtiene la dirección URL de referencia de la propiedad [!UICONTROL document.referrer] del explorador, y la dirección URL actual de la propiedad [!UICONTROL document.location]. Al pasar valores a las variables *`referrer`*y*`pageURL`*, puede anular el procesamiento predeterminado. Al transferir un valor a la variable referrer, [!DNL Analytics] interpreta que debe ignorar la información del referente que se encuentra en la propiedad [!UICONTROL document.referrer] y utilizar un valor alternativo que usted defina.
+En general, [!DNL Analytics] obtiene la dirección URL de referencia de la propiedad [!UICONTROL document.referrer] del explorador, y la dirección URL actual de la propiedad [!UICONTROL document.location]. Al pasar valores a las variables *`referrer`* y *`pageURL`*, puede anular el procesamiento predeterminado. Al transferir un valor a la variable referrer, [!DNL Analytics] interpreta que debe ignorar la información del referente que se encuentra en la propiedad [!UICONTROL document.referrer] y utilizar un valor alternativo que usted defina.
 
 Por lo tanto, la versión final de la página de aterrizaje debería contener el siguiente código para corregir los problemas introducidos en la situación de “billetes de avión con descuento”.
 
@@ -147,7 +147,7 @@ redirects_verify_referrer.xml
 
 Ejecute una prueba para comprobar si se captan las variables campaign, dirección URL de origen (*`s_server`*) y referente.
 
-Estas variables se representarán como los siguientes parámetros en [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
+Estas variables se representarán como los siguientes parámetros en [Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
@@ -170,7 +170,7 @@ Estas variables se representarán como los siguientes parámetros en [Experience
   </tr> 
   <tr> 
    <td> <p>URL de la página de aterrizaje definitiva </p> </td> 
-   <td> <p> <span class="filepath"> https://www.example.com </span> </p> </td> 
+   <td> <p> <span class="filepath">https://www.example.com</span> </p> </td> 
    <td> <p>Este valor NO aparecerá en DigitalPulse Debugger si se utiliza la variable <span class="varname">pageURL</span>. </p> </td> 
   </tr> 
  </tbody> 
