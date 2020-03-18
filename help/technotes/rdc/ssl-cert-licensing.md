@@ -1,7 +1,7 @@
 ---
 title: Licencias de certificados SSL
-description: Procedimientos de certificado para certificados administrados por el cliente
-translation-type: tm+mt
+description: Procedimientos de certificados para los certificados administrados por el cliente
+translation-type: ht
 source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
@@ -9,15 +9,15 @@ source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 # Licencias de certificados SSL/TLS
 
-Adobe recomienda administrar el certificado sin ningún costo adicional a través del programa [de certificados administrados de](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)Adobe.  El programa de certificados administrados de Adobe está completamente automatizado y garantiza que los certificados se renueven a tiempo, de modo que no se vean afectados por certificados caducados.
+Adobe recomienda administrar el certificado sin ningún coste adicional a través del [programa de certificados administrados de Adobe](https://marketing.adobe.com/resources/help/es_ES/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html).  El programa de certificados administrados de Adobe está completamente automatizado y garantiza que los certificados se renueven a tiempo. De este modo, se evitan consecuencias derivadas de la presencia de certificados caducados.
 
-Si elige no utilizar el programa [de certificados administrados de](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) Adobe, es responsable de proporcionar un certificado SSL/TLS para utilizar con cookies de origen.
+Si elige no utilizar el [programa de certificados administrados de Adobe](https://marketing.adobe.com/resources/help/es_ES/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html), es responsabilidad suya proporcionar el certificado SSL/TLS que se vaya a usar con las cookies de origen.
 
 Si proporciona su propio certificado, es su responsabilidad adquirirlo y mantenerlo.  El certificado SSL/TLS debe incluir una licencia de servidor ilimitada.
 
-Para garantizar la seguridad del certificado, obtenga una solicitud [CSR] de firma de certificado de Adobe y organice con la autoridad de certificación deseada la firma del certificado.  Proporcione a Adobe el certificado firmado para la implementación.  Al seguir este proceso, se mantiene la seguridad de la clave del certificado.  El Servicio de atención al cliente de Adobe le ayudará en este proceso.
+Para garantizar la seguridad del certificado, obtenga una solicitud de firma de certificado ([CSR]) de Adobe y póngase en contacto con la autoridad de certificación que desee para la firma del certificado.  Para la implementación, proporcione a Adobe el certificado firmado.  Si sigue este proceso, mantendrá la seguridad de la clave del certificado.  El Servicio de atención al cliente de Adobe le ayudará durante el proceso.
 
-Como parte del mantenimiento del certificado, al menos un mes antes de que caduque el certificado, organice con la autoridad de certificación deseada para obtener un certificado renovado y proporcionárselo a Adobe.  Este certificado debe utilizar el mismo CSR utilizado anteriormente.  Póngase en contacto con Adobe si necesita una copia del CSR o desea que se genere un nuevo CSR con una nueva clave.
+Como parte del mantenimiento del certificado, al menos un mes antes de su fecha de caducidad, póngase en contacto con la autoridad de certificación que desee para obtener un certificado renovado y proporcióneselo a Adobe.  Este certificado debe usar el mismo CSR utilizado anteriormente.  Póngase en contacto con Adobe si necesita una copia del CSR o si desea que se genere un nuevo CSR con una nueva clave.
 
 Puede ponerse en contacto con el servicio de atención al cliente en customercare@adobe.com o en el 1-800-497-0335.
 
