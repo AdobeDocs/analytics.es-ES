@@ -1,64 +1,64 @@
 ---
-title: Métricas comúnmente utilizadas en la guía de traducción de otras plataformas
-description: Obtenga información sobre cómo extraer datos de métricas para muchos informes comunes utilizando una terminología más familiar para los usuarios de Google Analytics.
-translation-type: tm+mt
+title: Guía de traducción de métricas comúnmente empleadas en otras plataformas
+description: Obtenga información sobre la extracción de datos de métricas en muchos informes comunes utilizando una terminología más habitual para los usuarios de Google Analytics.
+translation-type: ht
 source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
 
 
-# Métricas comúnmente utilizadas en la guía de traducción de otras plataformas
+# Guía de traducción de métricas comúnmente empleadas en otras plataformas
 
-En otras plataformas, como Google Analytics, muchos informes comparten un número común de métricas. Utilice esta página para comprender cómo volver a crear las métricas utilizadas en muchos informes.
+En otras plataformas, como Google Analytics, muchos informes tienen el mismo número de métricas. Utilice esta página de instrucciones para reproducir las métricas que se emplean en muchos informes.
 
-Para agregar varias métricas a una tabla improvisada del área de trabajo, arrastre la métrica desde el área de componentes junto al encabezado de la métrica en el área de trabajo:
+Para añadir varias métricas a una tabla de forma libre en el espacio de trabajo, arrastre la métrica desde el área de componentes y colóquela junto al encabezado de la métrica:
 
 ![Métrica adicional](/help/technotes/ga-to-aa/assets/new_metric.png)
 
 ## Métricas de adquisición
 
-**Los usuarios** son aproximadamente iguales a los visitantes **** únicos en Workspace. Consulte la métrica Visitantes [](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) únicos en la guía del usuario Componentes para obtener más información.
+Los **Usuarios** son aproximadamente iguales a los **Visitantes únicos** en Workspace. Consulte la métrica [Visitantes únicos](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) en la guía del usuario de Componentes para obtener más información.
 
-**Los nuevos usuarios** se pueden obtener de la siguiente manera:
+Los **Nuevos usuarios** se pueden obtener de la siguiente manera:
 
-1. Arrastre la métrica Visitantes **** únicos al área de trabajo.
-2. Arrastre el segmento **Visitas** por primera vez por encima de los encabezados de métrica Visitantes únicos:
+1. Arrastre la métrica **Visitantes únicos** al espacio de trabajo.
+2. Arrastre el segmento **Visitas por primera vez** por encima de los encabezados de métrica Visitantes únicos:
 
    ![Visitas por primera vez](../assets/first_time_visits.png)
 
-**Las sesiones** son aproximadamente iguales a **las visitas** en Analysis Workspace. Consulte la métrica [Visitas](/help/components/c-variables/c-metrics/metrics-visit.md) en la guía del usuario Componentes para obtener más detalles.
+Las **Sesiones** son aproximadamente iguales a las **Visitas** en Analysis Workspace. Consulte la métrica [Visitas](/help/components/c-variables/c-metrics/metrics-visit.md) en la guía del usuario Componentes para obtener más información.
 
 ![Métricas de adquisición](../assets/acquisition_metrics.png)
 
 ## Métricas de comportamiento
 
-**La tasa** de devoluciones está disponible en Analysis Workspace como métrica. Consulte la métrica [Tasa](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) de devoluciones en la guía del usuario Componentes para obtener información adicional.
+La **Tasa de devoluciones** se puede utilizar fácilmente como métrica en Analysis Workspace. Consulte la métrica [Tasa de devoluciones](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) en la guía del usuario de componentes para obtener más información.
 
-**Páginas/Sesión** es una métrica calculada. Puede obtenerse mediante:
+**Páginas/sesión** es una métrica calculada. Puede obtenerse de la siguiente manera:
 
-1. Si ya ha creado esta métrica calculada, localícela en Métricas y arrástrela al área de trabajo.
+1. Si ya ha creado esta métrica calculada, localícela en Métricas y arrástrela al espacio de trabajo.
 2. Si aún no ha creado esta métrica calculada, haga clic en el icono **+** situado junto a la lista de métricas para abrir el Creador de métricas calculadas.
-3. Asigne un título a 'Vistas de página por visita' y una descripción si lo desea.
-4. Establezca el formato en Decimal y establezca el número de decimales en 2.
-5. Arrastre la métrica Vistas **de** página y la métrica **Visitas** al área de definición.
-6. Organice la definición para que la fórmula sea Vistas de **página divididas por Visitas**.
+3. Asigne un título “Vistas de página por visita” y una descripción, opcionalmente.
+4. Establezca el formato Decimal y dos decimales.
+5. Arrastre la métrica **Vistas de página** y la métrica **Visitas** al área de definición.
+6. Organice la definición para que la fórmula sea **Vistas de página divididas por Visitas**.
 
    ![Vistas de página por visita](/help/technotes/ga-to-aa/assets/page_views_per_visit.png)
 
 7. Haga clic en Guardar para volver al espacio de trabajo.
 8. Arrastre la métrica calculada recién definida al espacio de trabajo.
 
-   Obtenga más información sobre las métricas [calculadas](/help/components/c-variables/c-metrics/calculated-metric.md) en la guía del usuario Componentes.
+   Obtenga más información sobre las [métricas calculadas](/help/components/c-variables/c-metrics/calculated-metric.md) en la Guía del usuario de componentes.
 
-**Tiempo La duración** de la sesión es aproximadamente igual al **tiempo empleado por visita (segundos)**. Obtenga más información sobre las métricas de [tiempo empleado](/help/components/c-variables/c-metrics/metrics-time-spent.md) en la guía del usuario Componentes.
+El **Promedio de duración de la sesión** es aproximadamente igual al **Tiempo empleado por visita (segundos)**. En la guía de usuario de componentes se encuentra más información sobre las métricas de [Tiempo empleado](/help/components/c-variables/c-metrics/metrics-time-spent.md).
 
 ## Métricas de conversión
 
-**La tasa** de conversión de objetivos, las finalizaciones **de** objetivos y el valor **de los** objetivos requieren una implementación adicional en ambas plataformas. Si su implementación ya acomoda la dimensión de productos y el evento de compra, considere los siguientes pasos:
+La **Tasa de conversión de objetivos**, las **Consecuciones de objetivos** y el **Valor de los objetivos** necesitan una implementación adicional en ambas plataformas. Si su implementación ya incorpora la dimensión de productos y el evento de compra, siga estos pasos:
 
-1. Arrastre la métrica **Pedidos** , **Ingresos** y **Visitas** al área de trabajo.
-1. Cree una métrica calculada de **pedidos por visita**. Use ctrl+clic (Windows) o cmd+clic (Mac) en ambos encabezados de métrica para resaltarlos. Haga clic con el botón derecho en uno de los encabezados, seleccione **Crear métrica a partir de selección** y, a continuación, haga clic en **Dividir**. Esta nueva métrica es similar a una tasa de conversión de objetivo.
-1. Si se necesitan lugares decimales, edite la métrica calculada. Haga clic en el botón Información en el encabezado de la métrica y, a continuación, en el icono del lápiz. Agregue 1 o 2 lugares decimales en la ventana Creador de métricas calculadas y haga clic en Guardar.
+1. Arrastre las métricas **Pedidos**, **Ingresos** y **Visitas** al espacio de trabajo.
+1. Cree una métrica calculada de **Pedidos por visita**. Pulse Ctrl+clic (Windows) o Cmd+clic (Mac) en ambos encabezados de métrica para resaltarlos. Haga clic con el botón derecho en uno de los encabezados, seleccione **Crear métrica a partir de la selección** y, a continuación, haga clic en **Dividir**. Esta nueva métrica es similar a una Tasa de conversión de objetivos.
+1. Si se necesitan decimales, edite la Métrica calculada. Haga clic en el botón Información en el encabezado de la métrica y, a continuación, en el icono del lápiz. Agregue uno o dos decimales en la ventana Generador de métricas calculadas y haga clic en Guardar.
 
    ![Pedidos por visita](/help/technotes/ga-to-aa/assets/orders_per_visit.png)
 
