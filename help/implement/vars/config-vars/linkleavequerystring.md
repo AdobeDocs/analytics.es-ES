@@ -2,14 +2,14 @@
 title: linkLeaveQueryString
 description: Permite la preservación de cadenas de consulta en dimensiones de seguimiento de vínculos.
 translation-type: tm+mt
-source-git-commit: e500332fe16887fa004858b07b59644837e183aa
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkLeaveQueryString
 
-AppMeasurement elimina las cadenas de consulta de las direcciones URL de seguimiento de vínculos de forma predeterminada. Utilice la variable linkLeaveQueryString para conservar las cadenas de consulta en las dimensiones de seguimiento de vínculos.
+AppMeasurement elimina las cadenas de consulta de las direcciones URL de seguimiento de vínculos de forma predeterminada. Utilice la `linkLeaveQueryString` variable para conservar las cadenas de consulta en las dimensiones de seguimiento de vínculos.
 
 Para algunos vínculos de salida y de descarga, la parte importante de la dirección URL puede estar en la cadena de consulta. Por ejemplo, un vínculo de descarga como `https://example.com/download.asp?filename=myfile.exe` contiene información importante sobre el vínculo en la cadena de consulta.
 
@@ -21,12 +21,12 @@ La activación `linkLeaveQueryString` se aplica a todas las dimensiones de segui
 
 ## Mantener parámetros de URL en Adobe Experience Platform Launch
 
-[!UICONTROL Mantener parámetros] de URL es una casilla de verificación debajo del [!UICONTROL acordeón Seguimiento] de vínculos al configurar la extensión de Adobe Analytics.
+[!UICONTROL Keep URL Parameters] es una casilla de verificación bajo el [!UICONTROL Link Tracking] acordeón al configurar la extensión de Adobe Analytics.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
-4. Expanda el acordeón Seguimiento [!UICONTROL de] vínculos, que muestra la casilla [!UICONTROL Mantener parámetros] de URL.
+3. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de Adobe Analytics.
+4. Expanda el [!UICONTROL Link Tracking] acordeón, que muestra la [!UICONTROL Keep URL Parameters] casilla de verificación.
 
 Marque esta casilla si desea incluir cadenas de consulta en dimensiones de seguimiento de vínculos.
 
@@ -43,7 +43,7 @@ s.linkLeaveQueryString = true;
 
 ## Ejemplo
 
-Tenga cuidado al configurar esta variable en true, ya que puede afectar a los filtros de seguimiento de vínculos como `linkInternalFilters`, `linkExternalFilters`, y `linkDownloadFiletypes`.
+Tenga cuidado al configurar esta variable en true, ya que puede afectar a los filtros de seguimiento de vínculos como [`linkInternalFilters`](linkinternalfilters.md), [`linkExternalFilters`](linkexternalfilters.md), y [`linkDownloadFiletypes`](linkdownloadfiletypes.md).
 
 Considere el siguiente ejemplo como si estuviera en `adobe.com`:
 
