@@ -2,16 +2,16 @@
 title: linkTrackEvents
 description: Determine qué eventos incluir en las solicitudes de imagen de seguimiento de vínculos.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackEvents
 
-Algunas implementaciones no desean incluir todas las variables en todas las solicitudes de imagen de seguimiento de vínculos. Utilice las variables `linkTrackVars` y `linkTrackEvents` para incluir de forma selectiva dimensiones y métricas en `tl()` las llamadas.
+Algunas implementaciones no desean incluir todas las variables en todas las solicitudes de imagen de seguimiento de vínculos. Utilice las variables [`linkTrackVars`](linktrackvars.md) y `linkTrackEvents` para incluir de forma selectiva dimensiones y métricas en [`tl()`](../functions/tl-method.md) las llamadas.
 
-Esta variable no se utiliza para las llamadas de vista de página (`t()` función).
+Esta variable no se utiliza para las llamadas de vista de página ([`t()`](../functions/t-method.md) método).
 
 ## Eventos en llamadas de seguimiento de vínculos mediante Adobe Experience Platform Launch
 
@@ -21,9 +21,9 @@ Launch detecta automáticamente los eventos definidos en la interfaz y los inclu
 
 ## s.linkTrackEvents en AppMeasurement e inicie el editor de código personalizado
 
-La `s.linkTrackEvents` variable es una cadena que contiene una lista delimitada por comas de los eventos que desea incluir en las solicitudes de imagen de seguimiento de vínculos (`tl()` función). Se deben cumplir los tres criterios siguientes para incluir métricas en las visitas de seguimiento de vínculos:
+La `s.linkTrackEvents` variable es una cadena que contiene una lista delimitada por comas de los eventos que desea incluir en las solicitudes de imagen de seguimiento de vínculos (`tl()` método). Se deben cumplir los tres criterios siguientes para incluir métricas en las visitas de seguimiento de vínculos:
 
-* Configure el evento deseado en la `events` variable. Por ejemplo: `s.events = "event1";`.
+* Configure el evento deseado en la [`events`](../page-vars/events/events-overview.md) variable. Por ejemplo: `s.events = "event1";`.
 * Set the `events` variable in `linkTrackVars`. Por ejemplo: `s.linkTrackVars = "events";`.
 * Configure el evento deseado en la `linkTrackEvents` variable. Por ejemplo: `s.linkTrackEvents = "event1";`.
 
@@ -31,7 +31,7 @@ La `s.linkTrackEvents` variable es una cadena que contiene una lista delimitada 
 s.linkTrackEvents = "event1,event2,event3,purchase";
 ```
 
-El valor predeterminado de esta variable es una cadena vacía. Si no se define esta variable, todos los eventos se incluyen en las solicitudes de imagen de seguimiento de vínculos. Tenga en cuenta que Launch rellena automáticamente esta variable en función de los eventos establecidos en la interfaz, por lo que siempre se establece en implementaciones que utilizan Launch.
+El valor predeterminado de esta variable es una cadena vacía. Si no se define esta variable, todos los eventos se incluyen en las solicitudes de imagen de seguimiento de vínculos. Tenga en cuenta que Launch rellena automáticamente esta variable en función de los eventos establecidos en la interfaz, por lo que siempre se configura en implementaciones que utilizan Launch.
 
 > [!TIP] Evite utilizar el identificador de objeto (`s.`) de Analytics al especificar eventos en esta variable. Por ejemplo, `s.linkTrackEvents = "event1";` es correcto, mientras que `s.linkTrackEvents = "s.event1";` es incorrecto.
 
