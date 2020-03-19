@@ -1,7 +1,7 @@
 ---
 title: Anulaciones de variables
 description: Las anulaciones de variables permiten cambiar el valor de una variable para un único seguimiento o una sola llamada de seguimiento de vínculos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
 
 ---
@@ -36,4 +36,4 @@ Las sobrescrituras de variables le permiten cambiar los valores de Analytics par
    s.tl(this,'o','Example override link',y);
    ```
 
-Cuando una llamada de seguimiento recibe un objeto en el parámetro overrides, todos los valores válidos en el objeto override sobrescriben los valores en el objeto estándar de Analytics. Las variables ya definidas en el objeto de Analytics existente no se ven afectadas.
+Cuando una llamada de seguimiento recibe un objeto en el parámetro overrides, todos los valores válidos en el objeto override sobrescriben los valores en el objeto estándar de Analytics. Las variables ya definidas en el objeto de Analytics no se ven afectadas.
