@@ -2,7 +2,7 @@
 title: Events
 description: Configure la variable events, que gobierna la mayoría de las métricas del sitio.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,16 +11,16 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 Las dimensiones y las métricas son componentes vitales para los informes. La `events` variable es responsable de la recopilación de datos de muchas métricas del sitio.
 
-## Eventos en el lanzamiento de Adobe Experience Platform
+## Eventos en Adobe Experience Platform Launch
 
 Puede establecer eventos al configurar la extensión de Analytics (variables globales) o en reglas.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics - Establecer variables] o haga clic en el icono &#39;+&#39;.
-5. Defina el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el tipo [!UICONTROL de] acción en [!UICONTROL Establecer variables].
-6. Busque la sección [!UICONTROL Eventos] .
+3. Vaya a la [!UICONTROL Rules] ficha y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Actions], haga clic en una [!UICONTROL Adobe Analytics - Set Variables] acción existente o en el icono &#39;+&#39;.
+5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el valor [!UICONTROL Action Type] en [!UICONTROL Set Variables].
+6. Busque la [!UICONTROL Events] sección.
 
 Hay varias funciones disponibles:
 
@@ -42,7 +42,7 @@ La `s.events` variable es una cadena que contiene una lista de eventos delimitad
 * `scView`:: Aumenta la métrica &quot;Vistas del carro de compras&quot;.
 * `scCheckout`:: Incrementa la métrica &#39;Cierres de compras&#39;.
 
-> [!TIP] Esta variable distingue entre mayúsculas y minúsculas. Evite utilizar mayúsculas y minúsculas en los valores de eventos para garantizar una recopilación de datos precisa.
+> [!NOTE] Esta variable distingue entre mayúsculas y minúsculas. Evite utilizar mayúsculas y minúsculas en los valores de eventos para garantizar una recopilación de datos precisa.
 
 ```js
 // Set the events variable to a single value
