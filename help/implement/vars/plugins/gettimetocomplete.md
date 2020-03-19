@@ -2,7 +2,7 @@
 title: getTimeToComplete
 description: Mida la cantidad de tiempo que se tarda en completar una tarea.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo]
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
+1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
 1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
    * Condición: Ninguno
    * Evento: Core - Biblioteca cargada (Principio de página)
@@ -35,14 +35,14 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
-1. Expanda el seguimiento [!UICONTROL Configurar mediante el acordeón de código] personalizado, que muestra el botón [!UICONTROL Abrir editor] .
+1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
 ## Instalación del complemento mediante AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante `s_gi`). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,15 +61,15 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 El `getTimeToComplete` método utiliza los siguientes argumentos:
 
-* **`sos`**(opcional, cadena): Establezca en`"start"`cuando desee iniciar el temporizador. Establezca en`"stop"`cuando desee detener el temporizador. El valor predeterminado es`"start"`.
-* **`cn`**(opcional, cadena): El nombre de la cookie para almacenar la hora de inicio. El valor predeterminado es`"s_gttc"`.
-* **`exp`**(opcional, entero): Número de días que caduca la cookie (y el temporizador). El valor predeterminado es`0`, que representa el final de la sesión del explorador.
+* **`sos`** (opcional, cadena): Establezca en `"start"` cuando desee iniciar el temporizador. Establezca en `"stop"` cuando desee detener el temporizador. El valor predeterminado es `"start"`.
+* **`cn`** (opcional, cadena): El nombre de la cookie para almacenar la hora de inicio. El valor predeterminado es `"s_gttc"`.
+* **`exp`** (opcional, entero): Número de días que caduca la cookie (y el temporizador). El valor predeterminado es `0`, que representa el final de la sesión del explorador.
 
 Al llamar a este método se devuelve una cadena que contiene el número de días, horas, minutos y/o segundos que transcurrió entre la acción `"start"` y `"stop"` .
 
 ## Llamadas de ejemplo
 
-### Ejemplo #1
+### Ejemplo n.º 1
 
 Utilice estas llamadas para determinar el tiempo que transcurre entre el momento en que un visitante inicia el proceso de cierre de compra y el momento en que realiza una compra.
 
@@ -87,7 +87,7 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
 
 s.prop1 capturará la cantidad de tiempo necesario para completar el proceso de compra
 
-### Ejemplo #2
+### Ejemplo n.º 2
 
 Si desea que varios temporizadores se ejecuten al mismo tiempo (para medir diferentes procesos), deberá configurar manualmente el argumento cn cookie.  Por ejemplo: si desea medir la cantidad de tiempo necesaria para que se complete una compra, debe establecer el siguiente código...
 
