@@ -2,14 +2,14 @@
 title: Util.getQueryParam
 description: Devuelve el valor de un parámetro de cadena de consulta.
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.getQueryParam
 
-Los parámetros de cadena de consulta de una URL de navegador contienen con frecuencia datos importantes para Analytics. Utilice el `Util.getQueryParam` método para recuperar datos de la cadena de consulta.
+Los parámetros de cadena de consulta de una URL de navegador contienen con frecuencia datos importantes para Analytics. Utilice el `Util.getQueryParam()` método para recuperar datos de la cadena de consulta.
 
 ## Obtener datos de parámetros de cadena de consulta en Adobe Experience Platform Launch
 
@@ -17,8 +17,8 @@ Puede obtener datos de parámetros de cadena de consulta estableciendo valores e
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha Elementos [!UICONTROL de] datos y, a continuación, haga clic en el elemento de datos deseado (o cree un elemento de datos).
-4. Defina el menú desplegable [!UICONTROL Extensión] como [!UICONTROL Principal]y el Tipo [!UICONTROL de elemento] de datos como Parámetro [!UICONTROL de cadena]de consulta.
+3. Vaya a la [!UICONTROL Data Elements] ficha y haga clic en el elemento de datos deseado (o cree un elemento de datos).
+4. Establezca el [!UICONTROL Extension] menú desplegable en [!UICONTROL Core]y el valor [!UICONTROL Data Element Type] en [!UICONTROL Query String Parameter].
 5. Introduzca el parámetro de cadena de consulta en el campo de texto.
 
 El valor del parámetro de cadena de consulta se almacena en el elemento de datos. A continuación, puede hacer referencia al elemento de datos en las reglas para asignar variables de Analytics.
@@ -50,4 +50,4 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
-> [!NOTE] Las versiones anteriores de AppMeasurement tenían un complemento denominado `s.getQueryParam` . Este complemento ya no es necesario, ya que ahora se incluye en AppMeasurement de forma predeterminada.
+> [!TIP] Hay disponible un complemento similar denominado [`s.getQueryParam`](../plugins/getqueryparam.md) . Este complemento contiene funciones más avanzadas, pero también es más complejo y no se incluye en AppMeasurement de forma predeterminada.
