@@ -1,7 +1,7 @@
 ---
 title: Implementación de Adobe Analytics en un entorno de desarrollo
 description: Descubra cómo utilizar Adobe Experience Platform Launch para implementar Adobe Analytics en su entorno de desarrollo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
@@ -69,8 +69,8 @@ Un motivo común es que ya existen elementos en otras bibliotecas que se inserta
 
 ## Documentación y recursos adicionales
 
-- [Introducción a Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html): Conozca el flujo de trabajo básico de Launch
-- [Iniciar publicación](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html): Obtenga más información sobre la publicación y los entornos
+- [Introducción a Launch](https://docs.adobe.com/content/help/es-ES/launch/using/intro/get-started/quick-start.html): Conozca el flujo de trabajo básico de Launch
+- [Publicación de Launch](https://docs.adobe.com/content/help/es-ES/launch/using/reference/publish/overview.html): Obtenga más información sobre adaptadores y entornos
 
 ## Pasos siguientes
 
