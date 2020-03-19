@@ -2,7 +2,7 @@
 title: rfl
 description: Elimine un valor específico de una cadena delimitada por caracteres.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
 
-El `rfl` complemento le permite eliminar &quot;con seguridad&quot; los valores de las cadenas delimitadas, como `events`, `products`, vars de lista y otras. Este complemento es útil si desea eliminar valores específicos de una cadena delimitada sin preocuparse por los delimitadores. Otros complementos dependen de este código para ejecutarse correctamente. Este complemento no es necesario si no necesita ejecutar una función específica en más de una variable de Analytics a la vez o si no utiliza ningún complemento dependiente.
+El `rfl` complemento le permite eliminar &quot;con seguridad&quot; los valores de las cadenas delimitadas, como [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md), etc. Este complemento es útil si desea eliminar valores específicos de una cadena delimitada sin preocuparse por los delimitadores. Otros complementos dependen de este código para ejecutarse correctamente. Este complemento no es necesario si no necesita ejecutar una función específica en más de una variable de Analytics a la vez o si no utiliza ningún complemento dependiente.
 
 El complemento utiliza la lógica siguiente:
 
@@ -24,8 +24,8 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo]
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
+1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
 1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
    * Condición: Ninguno
    * Evento: Core - Biblioteca cargada (Principio de página)
@@ -40,14 +40,14 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
-1. Expanda el seguimiento [!UICONTROL Configurar mediante el acordeón de código] personalizado, que muestra el botón [!UICONTROL Abrir editor] .
+1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
 ## Instalación del complemento mediante AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante `s_gi`). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -60,17 +60,17 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 
 El `rfl` método utiliza los siguientes argumentos:
 
-* **`lv`**(requerido, cadena): Variable (o cadena) que contiene una lista de valores delimitados
-* **`vr`**(requerido, cadena): El valor que desea eliminar del`lv`argumento. Adobe recomienda no eliminar varios valores durante una sola`rfl`llamada.
-* **`d1`**(opcional, cadena): El delimitador que utiliza el`lv`argumento. Valores predeterminados en una coma (`,`).
-* **`d2`**(opcional, cadena): El delimitador que desea que utilice la cadena de retorno. El valor predeterminado es el mismo que el`d1`argumento.
-* **`df`**(opcional, booleano): Si`true`, fuerza sólo las instancias duplicadas del`vr`argumento desde el`lv`argumento en lugar de todas las instancias. El valor predeterminado es`false`cuando no se establece.
+* **`lv`** (requerido, cadena): Variable (o cadena) que contiene una lista de valores delimitados
+* **`vr`** (requerido, cadena): El valor que desea eliminar del `lv` argumento. Adobe recomienda no eliminar varios valores durante una sola `rfl` llamada.
+* **`d1`** (opcional, cadena): El delimitador que utiliza el `lv` argumento. Valores predeterminados en una coma (`,`).
+* **`d2`** (opcional, cadena): El delimitador que desea que utilice la cadena de retorno. El valor predeterminado es el mismo que el `d1` argumento.
+* **`df`** (opcional, booleano): Si `true`, fuerza sólo las instancias duplicadas del `vr` argumento desde el `lv` argumento en lugar de todas las instancias. El valor predeterminado es `false` cuando no se establece.
 
 Al llamar a este método se devuelve una cadena modificada que contiene el `lv` argumento, pero sin instancias (o instancias duplicadas) del valor especificado en el `vr` argumento.
 
 ## Llamadas de ejemplo
 
-### Ejemplo #1
+### Ejemplo n.º 1
 
 Si...
 
@@ -90,7 +90,7 @@ s.events = s.rfl(s.events,"event24");
 s.events = "event22,event25";
 ```
 
-### Ejemplo #2
+### Ejemplo n.º 2
 
 Si...
 
@@ -112,7 +112,7 @@ s.events = "event22,event24,event25";
 
 En este ejemplo, la llamada rfl no realizó cambios en s.events porque s.events no contenía &quot;event26&quot;
 
-### Ejemplo #3
+### Ejemplo n.º 3
 
 Si...
 
@@ -134,7 +134,7 @@ s.events = "";
 
 Si el argumento lv o el argumento vr están en blanco en una llamada s.rfl, el complemento no devolverá nada
 
-### Ejemplo #4
+### Ejemplo n.º 4
 
 Si...
 
@@ -162,7 +162,7 @@ s.eVar5 = "hello|today";
 
 Tenga en cuenta que el complemento solo devuelve un valor; no &quot;restablece&quot; realmente la variable pasada a través del argumento lv.
 
-### Ejemplo #5
+### Ejemplo n.º 5
 
 Si...
 
@@ -184,7 +184,7 @@ s.prop4 = "hello|people|today";
 
 Asegúrese de establecer el argumento d1 en casos en los que el valor del argumento lv contenga un delimitador diferente del valor predeterminado (es decir, coma).
 
-### Ejemplo #6
+### Ejemplo n.º 6
 
 Si...
 
@@ -206,7 +206,7 @@ s.events = "event22,event23,event25";
 
 Aunque este ejemplo no es práctico, demuestra la necesidad de pasar valores que distinguen entre mayúsculas y minúsculas.
 
-### Ejemplo #7
+### Ejemplo n.º 7
 
 Si...
 
@@ -226,7 +226,7 @@ s.events = s.rfl(s.events,"event23");
 s.events = "event22,event25";
 ```
 
-### Ejemplo #8
+### Ejemplo n.º 8
 
 Si...
 
@@ -248,7 +248,7 @@ s.events = "event22,event23:12345,event25";
 
 Cuando necesite eliminar un evento que utilice una sintaxis de serialización o numérica/monetaria, debe especificar solo el evento en sí (es decir, sin los valores de serialización/numéricos/monetarios) en la llamada s.rfl.
 
-### Ejemplo #9
+### Ejemplo n.º 9
 
 Si...
 
@@ -351,7 +351,7 @@ s.events = s.rfl(s.events,"event24");
 s.events = "event22,event25");
 ```
 
-Cada valor que se va a eliminar de la lista debe estar contenido en su propia llamada s.rfl.
+Cada valor que se va a eliminar de la lista debe estar contenido dentro de su propia llamada s.rfl.
 
 ### Ejemplo 14
 
