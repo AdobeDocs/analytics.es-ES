@@ -2,7 +2,7 @@
 title: getAndPersistValue
 description: Almacene un valor que pueda recuperarse posteriormente en cualquier momento.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
 
-El `getAndPersistValue` complemento le permite almacenar un valor en una cookie que se puede recuperar más adelante durante una visita. Cumple una función similar a la función de duración [!UICONTROL del] almacenamiento en Adobe Experience Platform Launch. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la función de duración [!UICONTROL del] almacenamiento de Launch es suficiente o si no es necesario establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene estas variables en el servidor.
+El `getAndPersistValue` complemento le permite almacenar un valor en una cookie que se puede recuperar más adelante durante una visita. Esta función cumple una función similar a la de [!UICONTROL Storage duration] Adobe Experience Platform Launch. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la función de Launch es suficiente o si no es necesario establecer y mantener variables con el mismo valor en las visitas posteriores. [!UICONTROL Storage duration] La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene estas variables en el servidor.
 
 ## Instalación del complemento con la extensión Adobe Experience Platform Launch
 
@@ -19,8 +19,8 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo]
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
+1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
 1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
    * Condición: Ninguno
    * Evento: Core - Biblioteca cargada (Principio de página)
@@ -35,14 +35,14 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
-1. Expanda el seguimiento [!UICONTROL Configurar mediante el acordeón de código] personalizado, que muestra el botón [!UICONTROL Abrir editor] .
+1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
 ## Instalación del complemento mediante AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante `s_gi`). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,24 +55,24 @@ s.getAndPersistValue=function(vtp,cn,ex){var b=new Date;cn=cn?cn:"s_gapv";(ex=ex
 
 El `getAndPersist` método utiliza los siguientes argumentos:
 
-* **`vtp`**(obligatorio): El valor que se va a mantener de página en página
-* **`cn`**(opcional): El nombre de la cookie para almacenar el valor. Si no se establece este argumento, se llamará a la cookie`"s_gapv"`
-* **`ex`**(opcional): Número de días antes de que caduque la cookie. Si este argumento está establecido`0`o no, la cookie caduca al final de la visita (30 minutos de inactividad).
+* **`vtp`** (obligatorio): El valor que se va a mantener de página en página
+* **`cn`** (opcional): El nombre de la cookie para almacenar el valor. Si no se establece este argumento, se llamará a la cookie `"s_gapv"`
+* **`ex`** (opcional): Número de días antes de que caduque la cookie. Si este argumento está establecido `0` o no, la cookie caduca al final de la visita (30 minutos de inactividad).
 
 Si se establece la variable en el `vtp` argumento, el complemento establece la cookie y devuelve el valor de la cookie. Si no se establece la variable en el `vtp` argumento, el complemento solo devuelve el valor de la cookie.
 
 ## Ejemplos
 
-### Ejemplo #1
+### Ejemplo n.º 1
 
-El siguiente código configurará eVar21 igual al valor de &quot;hello&quot;.  El código establecerá entonces la cookie ev21gapv, que caducará en 28 días, igual al valor de eVar21 (es decir, &quot;hola&quot;).  El código entonces (re)configurará eVar21 igual al valor de la cookie ev21gapv.
+El siguiente código establecerá eVar21 igual al valor de &quot;hello&quot;.  El código establecerá entonces la cookie ev21gapv, que caducará en 28 días, igual al valor de eVar21 (es decir, &quot;hola&quot;).  El código entonces (re)configurará eVar21 igual al valor de la cookie ev21gapv.
 
 ```js
 s.eVar21 = "hello";
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Ejemplo #2
+### Ejemplo n.º 2
 
 Supongamos que la eVar21 no se ha establecido aún en la página actual pero se ha configurado igual a &quot;hola&quot; en una página anterior en los últimos 28 días.   El siguiente código sólo configurará eVar21 igual al valor de la cookie ev21gapv (por ejemplo: &quot;hola&quot;).  No restablece la cookie ev21gapv porque no se configuró eVar21 en la página actual antes de llamar a la función.
 
@@ -80,7 +80,7 @@ Supongamos que la eVar21 no se ha establecido aún en la página actual pero se 
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Ejemplo #3
+### Ejemplo n.º 3
 
 Supongamos que la eVar21 no se ha establecido aún en la página actual pero se ha configurado igual a &quot;hola&quot; en una página anterior en los últimos 28 días.  El siguiente código establecerá solamente prop35 igual al valor de la cookie ev21gapv (por ejemplo: &quot;hola&quot;).  No se configurará eVar21.
 
@@ -88,7 +88,7 @@ Supongamos que la eVar21 no se ha establecido aún en la página actual pero se 
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Ejemplo #4
+### Ejemplo n.º 4
 
 El siguiente código establecerá eVar21 igual al valor de &quot;howdy&quot;.  A continuación, el código establecerá (o restablecerá) la cookie ev21gapv, que caducará en 28 días, igual al valor de eVar21 (es decir, &quot;caramba&quot;).  A continuación, el código establecerá prop35 igual al valor de la cookie ev21gapv (por ejemplo: &quot;caramba&quot;).
 
@@ -97,7 +97,7 @@ s.eVar21 = "howdy";
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Ejemplo #5
+### Ejemplo n.º 5
 
 Supongamos que s.eVar21 no se ha configurado en ninguna página en los últimos 28 días.  El siguiente código establecerá s.eVar21 como cero, ya que la cookie ev21gapv habría caducado 28 días después de la última vez que se configuró.
 
@@ -105,7 +105,7 @@ Supongamos que s.eVar21 no se ha configurado en ninguna página en los últimos 
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### Ejemplo #6
+### Ejemplo n.º 6
 
 El siguiente código establecerá eVar30 en igual que &quot;compra&quot;.  Luego establecerá la cookie s_gapv, que caducará al final de la sesión del explorador, igual al valor de s.eVar30 (es decir, &quot;compras&quot;).  Luego establecerá s.eVar30 igual al valor de la cookie s_gapv (es decir, la llamada getAndPersistValue devuelve el valor de la cookie s_gapv, que en este caso es &quot;compra&quot;).
 
