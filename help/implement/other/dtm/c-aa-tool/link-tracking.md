@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;link tracking;enable clickmap;track download li
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Seguimiento de vínculos
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Descripciones de los campos de Dynamic Tag Management de seguimiento de vínculos al implementar Analytics.
 
-**[!UICONTROL *`Property`*]**> **[!UICONTROL![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** > **[!UICONTROL![](assets/settings_gear.png)
 
-Editar herramienta]** > **[!UICONTROL Seguimiento de vínculos]**
+Editar herramienta]** > **[!UICONTROL Seguimiento de vínculos]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
