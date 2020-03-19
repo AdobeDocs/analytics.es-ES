@@ -1,7 +1,7 @@
 ---
 title: timestamp
-description: Establezca manualmente la marca de tiempo de la visita.
-translation-type: tm+mt
+description: Establecer manualmente la marca de tiempo de la visita.
+translation-type: ht
 source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 ---
@@ -9,17 +9,17 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 # timestamp
 
-La `timestamp` variable establece manualmente la marca de tiempo de la visita para los grupos de informes habilitados para la marca de tiempo.
+La variable `timestamp` establece manualmente la marca de tiempo de la visita en los grupos de informes que tengan habilitada la marca de tiempo.
 
-> [!WARNING] No utilice esta variable si el grupo de informes no está configurado explícitamente para aceptar visitas con marca de hora. AppMeasurement establece automáticamente la hora de una visita para los grupos de informes que no admiten visitas con marca de hora. Si envía una visita con esta variable a un grupo de informes que no admite marcas de hora, esos datos se pierden de forma permanente.
+> [!WARNING] No utilice esta variable si el grupo de informes no está configurado explícitamente para aceptar visitas con marca de tiempo. AppMeasurement establece automáticamente la hora de una visita en los grupos de informes que no admiten visitas con marca de tiempo. Si envía una visita con esta variable a un grupo de informes que no admita marcas de tiempo, los datos se perderán de forma irreversible.
 
-## Marca de hora en el lanzamiento de la plataforma Adobe Experience
+## Marca de tiempo en Adobe Experience Platform Launch
 
-No hay un campo dedicado en Launch para utilizar esta variable. Utilice el editor de código personalizado, siguiendo la sintaxis de AppMeasurement.
+No hay un campo específico en Launch para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.timestamp en el editor de código personalizado AppMeasurement e Launch
+## s.timestamp en AppMeasurement y el editor de código personalizado de Launch
 
-La `s.timestamp` variable es una cadena que contiene la fecha y la hora de la visita. Los formatos válidos de marca de hora incluyen [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) y [Unix time](https://en.wikipedia.org/wiki/Unix_time).
+La variable `s.timestamp` es una cadena que contiene la fecha y la hora de la visita. Los formatos válidos para la marca de tiempo son [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601) y [Unix time](https://es.wikipedia.org/wiki/Tiempo_Unix).
 
 ```js
 // Timestamp using ISO 8601
@@ -37,16 +37,16 @@ s.timestamp = new Date().toISOString();
 
 ## Valores ISO 8601
 
-Las fechas y horas expresadas en [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) pueden adoptar diferentes formas. Adobe no admite todas las funciones de ISO 8601.
+Las fechas y horas expresadas de conformidad con la norma [ISO 8601](https://es.wikipedia.org/wiki/ISO_8601) pueden adoptar diferentes formas. Adobe no admite algunas de las formas descritas en la norma ISO 8601.
 
-* Both the date and time must be provided, separated by `T`.
-* Se requieren horas y minutos; segundos son opcionales pero se recomiendan.
+* La fecha y la hora deben proporcionarse separadas por una `T`.
+* Es obligatorio detallar las horas y los minutos; los segundos son opcionales pero se recomiendan.
 * Los días de la semana y las fechas con números ordinales no son compatibles.
-* La fecha puede tener un formato estándar o extendido. Por ejemplo, `2020-01-01T00:00:00Z` y `20200101T000000Z` son válidos.
-* Los minutos y segundos fraccionales son técnicamente válidos, pero Adobe ignora las fracciones.
+* La fecha puede tener un formato estándar o extendido. `2020-01-01T00:00:00Z` y `20200101T000000Z` son dos ejemplos válidos.
+* Los minutos y segundos fraccionarios son técnicamente válidos, pero Adobe ignora las fracciones.
 * Los husos horarios se admiten en formatos estándar y extendidos.
 
-Los siguientes son valores ISO 8601 válidos en la `timestamp` variable:
+Estos son algunos ejemplos de valores ISO 8601 válidos para la variable `timestamp`:
 
 ```text
 2020-01-01T00:00:00+00:00
