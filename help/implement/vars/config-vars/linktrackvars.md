@@ -2,18 +2,18 @@
 title: linkTrackVars
 description: Especifique qué variables se incluirán en las solicitudes de imagen de seguimiento de vínculos.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackVars
 
-Algunas implementaciones no desean incluir todas las variables en todas las solicitudes de imagen de seguimiento de vínculos. Utilice las variables `linkTrackVars` y `linkTrackEvents` para incluir de forma selectiva dimensiones y métricas en `tl()` las llamadas.
+Algunas implementaciones no desean incluir todas las variables en todas las solicitudes de imagen de seguimiento de vínculos. Utilice las variables `linkTrackVars` y [`linkTrackEvents`](linktrackevents.md) para incluir de forma selectiva dimensiones y métricas en [`tl()`](../functions/tl-method.md) las llamadas.
 
-Esta variable no se utiliza para las llamadas de vista de página (`t()` función).
+Esta variable no se utiliza para las llamadas de vista de página (`t()` método).
 
-## Variables en llamadas de seguimiento de vínculos que utilizan Adobe Experience Platform Launch
+## Variables en llamadas de seguimiento de vínculos que usan Adobe Experience Platform Launch
 
 Launch rellena automáticamente esta variable en el servidor en función de las variables establecidas en la interfaz, por lo que siempre se establece en implementaciones que utilizan Launch.
 
@@ -21,7 +21,7 @@ Launch rellena automáticamente esta variable en el servidor en función de las 
 
 ## s.linkTrackVars en AppMeasurement e inicie el editor de código personalizado
 
-La `s.linkTrackVars` variable es una cadena que contiene una lista delimitada por comas de variables que desea incluir en las solicitudes de imagen de seguimiento de vínculos (`tl()` función). Se deben cumplir los dos criterios siguientes para incluir dimensiones en las visitas de seguimiento de vínculos:
+La `s.linkTrackVars` variable es una cadena que contiene una lista delimitada por comas de variables que desea incluir en las solicitudes de imagen de seguimiento de vínculos (`tl()` método). Se deben cumplir los dos criterios siguientes para incluir dimensiones en las visitas de seguimiento de vínculos:
 
 * Establezca el valor de variable deseado. Por ejemplo: `s.eVar1 = "Example value";`.
 * Configure la variable deseada en la `linkTrackVars` variable. Por ejemplo: `s.linkTrackEvents = "eVar1";`.
