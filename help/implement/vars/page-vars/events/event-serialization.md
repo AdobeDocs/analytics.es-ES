@@ -2,7 +2,7 @@
 title: Serialización de eventos
 description: Ayuda a eliminar la duplicación de métricas en el sitio.
 translation-type: tm+mt
-source-git-commit: c5a60bc9756af2742740dbc6a26a081f55ee3235
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,7 +15,7 @@ La serialización de eventos es el proceso de implementación de medidas para ev
 
 ## Configurar la serialización de eventos
 
-En primer lugar, debe configurar la grabación [!UICONTROL de eventos] únicos de un evento para [!UICONTROL utilizar la ID] de evento en la configuración del grupo de informes. See [Success Events](../../../../admin/admin/c-success-events/success-event.md) in the Admin user guide.
+Primero debe establecer los eventos [!UICONTROL Unique Event Recording] en la configuración del grupo [!UICONTROL Use Event ID] de informes. See [Success Events](/help/admin/admin/c-success-events/success-event.md) in the Admin user guide.
 
 Al utilizar ID de evento, la anulación de duplicación se produce en los siguientes niveles:
 
@@ -23,7 +23,7 @@ Al utilizar ID de evento, la anulación de duplicación se produce en los siguie
 * La desduplicación se produce globalmente en todos los visitantes. Si el visitante A envía `event1:ABC` entonces el visitante B también lo hace `event1:ABC`, Adobe ignora la segunda instancia del visitante B.
 * La desduplicación no caduca. Si un visitante envía `event1:ABC` y vuelve 2 años después y lo envía `event1:ABC` nuevamente, Adobe ignora la segunda instancia.
 
-> [!TIP] Si desea anular la duplicación del `purchase` evento, utilice la `purchaseID` variable en su lugar.
+> [!TIP] Si desea anular la duplicación del [`purchase`](event-purchase.md) evento, utilice la [`purchaseID`](../purchaseid.md) variable en su lugar.
 
 ## Uso de ID de evento en Adobe Experience Platform Launch
 
@@ -31,10 +31,10 @@ Puede establecer el campo de ID de evento al configurar la extensión de Analyti
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics - Establecer variables] o haga clic en el icono &#39;+&#39;.
-5. Defina el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el tipo [!UICONTROL de] acción en [!UICONTROL Establecer variables].
-6. Busque la sección [!UICONTROL Eventos] , donde cada evento contiene un campo ID [!UICONTROL de] evento.
+3. Vaya a la [!UICONTROL Rules] ficha y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Actions], haga clic en una [!UICONTROL Adobe Analytics - Set Variables] acción existente o en el icono &#39;+&#39;.
+5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el valor [!UICONTROL Action Type] en [!UICONTROL Set Variables].
+6. Localice la [!UICONTROL Events] sección, donde cada evento contiene un [!UICONTROL Event ID] campo.
 
 Los valores válidos son caracteres alfanuméricos de hasta 20 bytes de longitud.
 
