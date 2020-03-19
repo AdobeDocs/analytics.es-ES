@@ -2,14 +2,14 @@
 title: usePlugins
 description: Habilite o deshabilite la función doPlugins().
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # usePlugins
 
-Si `usePlugins` está habilitada, la `doPlugins()` función se ejecuta justo antes de que AppMeasurement compila y envíe una visita a Adobe. Active esta variable si utiliza la `doPlugins()` función.
+Si `usePlugins` está habilitada, la [`doPlugins()`](../functions/doplugins.md) función se ejecuta justo antes de que AppMeasurement compila y envíe una visita a Adobe. Active esta variable si utiliza la `doPlugins()` función.
 
 ## Uso de complementos en Adobe Experience Platform Launch
 
