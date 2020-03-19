@@ -3,7 +3,7 @@ title: Información general sobre variables, funciones, métodos y complementos
 description: Descubra qué variables puede incluir en los datos que envía a Adobe para mejorar los informes.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -25,8 +25,8 @@ Adobe ofrece varias formas de implementar Adobe Analytics. Cada página ofrece u
 Las bibliotecas de AppMeasurement publicadas por Adobe Analytics siguen un orden específico al enviar datos a Adobe. Si ejecuta estas tareas de forma desordenada, los datos pueden estar incompletos.
 
 1. Si su sitio utiliza una capa de datos, asegúrese de que todas las variables aplicables se rellenen primero. See [Data layer](../prepare/data-layer.md) for more information.
-2. Utilice la capa de datos para rellenar variables de Analytics. Si utiliza Launch, esta tarea se realiza fácilmente mediante el uso de elementos de datos y, a continuación, asignando el elemento de datos a una variable. Consulte Elementos [de datos](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) en la guía de usuario de Launch.
-3. Llame a la función de seguimiento. La mayoría de las bibliotecas de AppMeasurement utilizan la `t()` función, aunque algunos SDK móviles la utilizan `track()`. Cuando se llama a la función de seguimiento, todas las variables admitidas definidas en el objeto de Analytics se envían a Adobe en forma de solicitud de imagen.
+2. Utilice la capa de datos para rellenar variables de Analytics. Si utiliza Launch, esta tarea se realiza fácilmente mediante el uso de elementos de datos y, a continuación, asignando el elemento de datos a una variable. See [Data elements](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) in the Launch user guide.
+3. Llame a la función de seguimiento. La mayoría de las bibliotecas de AppMeasurement utilizan el `t()` método, aunque algunos SDK móviles lo utilizan `track()`. Cuando se llama a la función de seguimiento, todas las variables admitidas definidas en el objeto de Analytics se envían a Adobe en forma de solicitud de imagen.
 
 ## Caracteres no válidos
 
