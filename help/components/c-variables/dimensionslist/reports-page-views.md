@@ -4,7 +4,7 @@ title: Vistas de páginas
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 707b61d853a8ec68b3f77a35a1aa5f0c7dd8a1fd
 
 ---
 
@@ -15,17 +15,16 @@ Es un informe de tendencia que muestra el número de veces que se vieron las pá
 
 Una [vista de página](/help/components/c-variables/c-metrics/metrics-page-view.md) es una solicitud de un documento de una página completa, en vez de un elemento de una página, como, por ejemplo, una imagen o un vídeo. Si un mismo visitante ve 15 páginas durante una visita, se cuentan 15 vistas de página. Si un visitante ve la misma página tres veces durante una visita, se cuentan tres vistas de página.
 
-**Propiedades de los informes**
+## Propiedades del informe
 
-* Este informe hace referencia al número de veces que la función [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) se ha llamado en el sitio.
-* Las llamadas de [seguimiento de vínculos](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) personalizados (por ejemplo, vínculos personalizados, descargas de archivos y vínculos de salida) utilizan la función [!DNL s.tl()] y no se contabilizan en este informe.
-
+* This report references the number of times the [`t()`](/help/implement/vars/functions/t-method.md) method is called on your site.
+* Las llamadas de seguimiento de vínculos que utilizan el [`tl()`](/help/implement/vars/functions/tl-method.md) método no se cuentan en este informe.
 * Debido a que las solicitudes de imagen se envían cuando el usuario actualiza la página o hace clic en el botón de retroceso, este informe también incluye dichas acciones.
 * Los desgloses por hora se basan en el huso horario del grupo de informes.
 * Este informe no contiene elementos de línea. Por lo tanto, el informe solo se puede visualizar en formato de tendencias.
 * Se puede aplicar una granularidad de hora, día, semana, mes, trimestre y año. La granularidad está disponible en función del intervalo de fechas de los informes.
 
-**Información específica del producto**
+## Información específica del producto
 
 <table id="table_61F964F47D1D43508B271999F495F7F9"> 
  <tbody> 
