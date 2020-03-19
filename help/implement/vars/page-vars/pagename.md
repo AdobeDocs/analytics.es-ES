@@ -2,7 +2,7 @@
 title: pageName
 description: Nombre de la página del sitio.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ La `pageName` variable generalmente almacena el nombre de una página determinad
 
 > [!NOTE] Esta dimensión siempre se elimina de las llamadas de seguimiento de vínculos. Si desea ver el nombre de la página donde se rastreó un vínculo, considere copiar esta variable en una eVar.
 
-Si esta variable no está definida en una llamada de seguimiento de página determinada, se utiliza la `pageURL` variable en su lugar.
+Si esta variable no está definida en una llamada de seguimiento de página determinada, se utiliza la [`pageURL`](pageurl.md) variable en su lugar.
 
 ## Nombre de página en Adobe Experience Platform Launch
 
@@ -21,10 +21,10 @@ Puede definir el nombre de la página al configurar la extensión de Analytics (
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics - Establecer variables] o haga clic en el icono &#39;+&#39;.
-5. Defina el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el tipo [!UICONTROL de] acción en [!UICONTROL Establecer variables].
-6. Busque la sección Nombre [!UICONTROL de la] página.
+3. Vaya a la [!UICONTROL Rules] ficha y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Actions], haga clic en una [!UICONTROL Adobe Analytics - Set Variables] acción existente o en el icono &#39;+&#39;.
+5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el valor [!UICONTROL Action Type] en [!UICONTROL Set Variables].
+6. Busque la [!UICONTROL Page name] sección.
 
 Puede establecer el nombre de la página en cualquier valor de cadena, incluidos los elementos de datos.
 
