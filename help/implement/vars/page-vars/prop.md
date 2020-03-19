@@ -2,7 +2,7 @@
 title: prop
 description: Variables personalizadas que puede utilizar en su implementación.
 translation-type: tm+mt
-source-git-commit: ddab63a4fe3b8f1a3187893eba1ac3a1eda3bc41
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,10 +21,10 @@ Puede establecer props durante la configuración de la extensión de Analytics (
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics - Establecer variables] o haga clic en el icono &#39;+&#39;.
-5. Defina el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el tipo [!UICONTROL de] acción en [!UICONTROL Establecer variables].
-6. Busque la sección [!UICONTROL Props] .
+3. Vaya a la [!UICONTROL Rules] ficha y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Actions], haga clic en una [!UICONTROL Adobe Analytics - Set Variables] acción existente o en el icono &#39;+&#39;.
+5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el valor [!UICONTROL Action Type] en [!UICONTROL Set Variables].
+6. Busque la [!UICONTROL Props] sección.
 
 Puede seleccionar una prop para establecer un valor o elemento de datos. También puede copiar el valor de otra variable de Analytics.
 
@@ -56,3 +56,5 @@ s.prop1 = "value1,value2,value3";
 ```
 
 > [!IMPORTANT] Las props de lista siguen estando sujetas a la longitud máxima de 100 bytes. Las props de lista son más fáciles de alcanzar este límite y se truncan, ya que pueden contener varios valores. Considere utilizar abreviaciones o valores abreviados si puede alcanzar este límite de 100 bytes.
+
+Si establece el mismo valor más de una vez en una prop de lista, en los informes se eliminan las duplicaciones. Analysis Workspace cuenta el número de visitas en las que se ve un valor y no el número de veces que existe un valor en los datos.
