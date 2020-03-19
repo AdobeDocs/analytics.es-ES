@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Configurar acciones para que la condición active
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -24,7 +24,7 @@ Cada regla puede activar tantas secuencias de comandos o introducciones de HTML 
 
 **Configurar acciones para que la condición active**
 
-1. Haga clic en **[!UICONTROL Etiquetas de JavaScript/terceros]**para agregar una nueva secuencia de scripts a la regla.
+1. Haga clic en **[!UICONTROL Etiquetas de JavaScript/terceros]** para agregar una nueva secuencia de scripts a la regla.
 
    ![](assets/scripts-actions.png)
 
@@ -35,5 +35,5 @@ Cada regla puede activar tantas secuencias de comandos o introducciones de HTML 
 1. Asigne un nombre a la secuencia de comandos.
 1. Especifique cómo quiere que se active la secuencia de comandos, y pegue el contenido deseado en el área de texto. ![](assets/scripts-actions3.png)
 
-1. Haga clic en **[!UICONTROL Guardar código]**, y la secuencia de scripts se agregará a la cola de la regla.![](assets/scripts-actions4.png)
+1. Haga clic en **[!UICONTROL Guardar código]**, y la secuencia de scripts se agregará a la cola de la regla. ![](assets/scripts-actions4.png)
 
