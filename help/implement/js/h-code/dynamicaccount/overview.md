@@ -1,7 +1,7 @@
 ---
 title: Información general sobre cuentas dinámicas
-description: Conozca el flujo de trabajo sobre cómo seleccionar dinámicamente un grupo de informes con el código H.
-translation-type: tm+mt
+description: Descubra el flujo de trabajo sobre cómo seleccionar dinámicamente un grupo de informes con el código H.
+translation-type: ht
 source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
 
 ---
@@ -13,15 +13,15 @@ source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
 
 Las cuentas dinámicas son una función de implementación que permite determinar qué grupo de informes utilizar en función de los criterios definidos. Si su organización requiere más de un grupo de informes pero desea utilizar la misma implementación entre sus sitios, las cuentas dinámicas son una buena solución.
 
-> [!TIP] Adobe recomienda enviar datos a un único grupo de informes y, a continuación, utilizar grupos de informes virtuales para separar los datos si es necesario. Consulte Consideraciones [del grupo de informes](../../../prepare/global-rs.md) globales para obtener más información.
+> [!TIP] Adobe recomienda enviar datos a un único grupo de informes y, a continuación, utilizar grupos de informes virtuales para separar los datos si es necesario. Consulte [Consideraciones del grupo de informes globales](../../../prepare/global-rs.md) para obtener más información.
 
 3 variables se utilizan para seleccionar dinámicamente un grupo de informes.
 
-* [`dynamicAccountSelection`](dynamicaccountselection.md):: Activar o desactivar la selección dinámica de cuentas.
-* [`dynamicAccountMatch`](dynamicaccountmatch.md):: Determina qué valor se debe observar. Por ejemplo, la dirección URL o una cadena de consulta.
-* [`dynamicAccountList`](dynamicaccountlist.md):: Compara los valores con `dynamicAccountMatch`y, si se encuentra una coincidencia, rellena la `account` variable.
+* [`dynamicAccountSelection`](dynamicaccountselection.md): Activar o desactivar la selección dinámica de cuentas.
+* [`dynamicAccountMatch`](dynamicaccountmatch.md): Determina qué valor se debe observar. Por ejemplo, la dirección URL o una cadena de consulta.
+* [`dynamicAccountList`](dynamicaccountlist.md): Compara los valores con `dynamicAccountMatch`y, si se encuentra una coincidencia, rellena la variable `account`.
 
-Si `dynamicAccountSelection = true`, el valor dentro de `dynamicAccountMatch` se compara con `dynamicAccountList`. Si los valores `dynamicAccountList` coinciden, la ID del grupo de informes se incluye en la `account` variable.
+Si `dynamicAccountSelection = true`, el valor dentro de `dynamicAccountMatch` se compara con `dynamicAccountList`. Si los valores en `dynamicAccountList` coinciden, la ID del grupo de informes se incluye en la variable `account`.
 
 ## Grupo de informes predeterminado
 
@@ -34,7 +34,7 @@ s.dynamicAccountMatch = location.hostname;
 s.dynamicAccountList="examplersiddev=dev.example.com;examplersidprod=example.com";
 ```
 
-Si `location.hostname` era ninguno `dev.example.com` o `example.com`, la visita se enviaría a `examplersiddefault`.
+Si `location.hostname` no es `dev.example.com` ni `example.com`, la visita se envía a `examplersiddefault`.
 
 ## Etiquetado de grupos múltiples
 
