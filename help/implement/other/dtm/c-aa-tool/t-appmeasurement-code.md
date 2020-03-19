@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;linked accounts;linking accounts;edit code;appm
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Inserción del código principal de AppMeasurement
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,12 +14,12 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Introduzca el código AppMeasurement si implementa de forma manual Dynamic Tag Management en Adobe Analytics.
 
-1. En la página de herramientas de [!DNL Adobe Analytics], expanda la sección **[!UICONTROL General]**y, a continuación, haga clic en**[!UICONTROL  Abrir editor]**.
+1. En la página de herramientas de [!DNL Adobe Analytics], expanda la sección **[!UICONTROL General]** y, a continuación, haga clic en **[!UICONTROL Abrir editor]**.
 1. Descomprima el archivo [!DNL AppMeasurement_JavaScript*.zip] que descargó en [implementar Adobe Analytics](/help/implement/other/dtm/t-analytics-deploy.md).
 
    Si opta por una biblioteca personalizada, al abrir la ventana ya incluirá la versión de código más reciente. No es necesario descargar el zip desde Admin Console.
 1. Abra [!DNL AppMeasurement.js] en un editor de texto.
-1. Copie y pegue el contenido en la ventana **[!UICONTROL Editar código.]**.
+1. Copie y pegue el contenido en la ventana **[!UICONTROL Editar código]**.
 
    ![](assets/edit-code.png)
 
@@ -32,7 +32,7 @@ Introduzca el código AppMeasurement si implementa de forma manual Dynamic Tag M
 
    >[!IMPORTANT]
    >
-   >Si agrega este código, es recomendable seleccionar también la casilla de verificación **[!UICONTROL Definir grupos de informes con el siguiente código personalizado]**en la configuración general de la biblioteca.
+   >Si agrega este código, es recomendable seleccionar también la casilla de verificación **[!UICONTROL Definir grupos de informes con el siguiente código personalizado]** en la configuración general de la biblioteca.
 
 1. Haga clic en **[!UICONTROL Guardar y cerrar]**.
 
