@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;switcher plug-in;akamai;test akamai;unpubl
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Prueba de reglas no publicadas para el alojamiento de Akamai
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 Prueba de reglas no publicadas desde la consola con el uso del alojamiento de Akamai.
 
-El complemento del conmutador suele ser la forma más sencilla de realizar pruebas. See [Search Discovery plug-ins](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html) in the Dynamic Tag Management Product Documentation for more information.
+El complemento de cambio suele ser la forma más sencilla de realizar pruebas. Consulte [Complementos de Search Discovery](https://marketing.adobe.com/resources/help/es_ES/dtm/search_discovery_plugins.html) en la documentación del producto de Dynamic Tag Management para obtener más información.
 
-Los siguientes pasos muestran cómo realizar pruebas sin utilizar el complemento Conmutador:
+Los siguientes pasos muestran cómo realizar pruebas sin utilizar el complemento de cambio:
 
 1. Acceda a la consola web de su sitio y escriba `localStorage.setItem('sdsat_stagingLibrary', true)`.
 1. Pulse **[!UICONTROL Intro]**.
