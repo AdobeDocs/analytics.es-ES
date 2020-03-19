@@ -2,7 +2,7 @@
 title: getPercentPageViewed
 description: Recupere el porcentaje de la página que vio el visitante.
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,14 +19,14 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
-1. Expanda el seguimiento [!UICONTROL Configurar mediante el acordeón de código] personalizado, que muestra el botón [!UICONTROL Abrir editor] .
+1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
 ## Instalación del complemento mediante AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante `s_gi`). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -45,8 +45,8 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 El `getPercentPageViewed` método utiliza los siguientes argumentos:
 
-* **`pid`**(opcional, cadena):  Identificador basado en páginas que se puede correlacionar con los porcentajes proporcionados por las mediciones del complemento.  Valores predeterminados de la`pageName`variable.
-* **`ch`**(opcional, booleano):  Configúrelo en`false`(o`0`) si no desea que el complemento tenga en cuenta los cambios realizados en el tamaño de una página después de su carga inicial. Si se omite, este argumento tiene el valor predeterminado`true`. Adobe recomienda omitir este argumento en la mayoría de los casos.
+* **`pid`** (opcional, cadena):  Identificador basado en páginas que se puede correlacionar con los porcentajes proporcionados por las mediciones del complemento.  Valores predeterminados de la `pageName` variable.
+* **`ch`** (opcional, booleano):  Configúrelo en `false` (o `0`) si no desea que el complemento tenga en cuenta los cambios realizados en el tamaño de una página después de su carga inicial. Si se omite, este argumento tiene el valor predeterminado `true`. Adobe recomienda omitir este argumento en la mayoría de los casos.
 
 Llamar a este método no devuelve nada; en su lugar, establece las siguientes variables:
 
@@ -63,7 +63,7 @@ Este complemento crea una cookie de origen llamada `s_ppv` que contiene los valo
 
 ## Llamadas de ejemplo
 
-### Ejemplo #1
+### Ejemplo n.º 1
 
 El siguiente código...
 
@@ -84,7 +84,7 @@ if(s._ppvPreviousPage)
 
 **Nota**:  Si toda una página está visible la primera vez que se carga, tanto la dimensión Mayor porcentaje visto como el Porcentaje inicial visto serían iguales a 100, y tanto las carpetas vistas como las carpetas disponibles serían iguales a 1.   Cuando una página entera NO está visible cuando se carga por primera vez pero el visitante nunca termina de desplazarse hacia abajo por la página antes de moverse a la página siguiente, las dimensiones Mayor porcentaje visto y Porcentaje inicial visto serían iguales al mismo valor.
 
-### Ejemplo #2
+### Ejemplo n.º 2
 
 Supongamos que s.prop5 se ha reservado para capturar un “tipo de página” resumido en lugar del nombre completo de la página.
 
