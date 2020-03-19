@@ -1,7 +1,7 @@
 ---
 title: Implementación con AJAX
-description: Obtenga información sobre cómo implementar Adobe Analytics en un sitio mediante AJAX.
-translation-type: tm+mt
+description: Obtenga más información sobre cómo implementar Adobe Analytics en un sitio mediante AJAX.
+translation-type: ht
 source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 # Implementación con AJAX
 
-AJAX es una práctica de utilizar JavaScript y HTML para borrar y generar contenido sin cargar una nueva página.
+AJAX es una práctica para utilizar JavaScript y HTML para borrar y generar contenido sin cargar una nueva página.
 
 Adobe Analytics normalmente depende de la recarga de páginas para restablecer el objeto de seguimiento de Analytics. Cada vez que se desplaza a una dirección URL diferente, se restauran todas las variables de Analytics y se pueden definir de nuevo. Al utilizar AJAX en el sitio, ajuste la implementación en función de la falta de actualizaciones de página para asegurarse de que los datos no persistan incorrectamente entre las visitas.
 
@@ -17,9 +17,9 @@ Una vez que haya implementado medidas para borrar los valores de las variables, 
 
 ## Determinación de interacciones y tipos de visitas
 
-Dado que las páginas que utilizan AJAX generalmente no se recargan, hay varias interacciones que un usuario puede realizar en el sitio. Al implementar Adobe Analytics, asegúrese de diferenciar las vistas de página de las llamadas de seguimiento de vínculos. Tenga en cuenta la siguiente pregunta para cada interacción que un usuario puede realizar en el sitio:
+Dado que las páginas que utilizan AJAX generalmente no se recargan, hay varias interacciones que un usuario puede realizar en el sitio. Al implementar Adobe Analytics, asegúrese de diferenciar las vistas de página de las llamadas de seguimiento de vínculos. Tenga en cuenta la siguiente pregunta para cada interacción que un usuario pueda realizar en el sitio:
 
-*Cuando un usuario interactúa con mi sitio, ¿cambia esa interacción lo suficiente del contenido de la página como para calificarse de página nueva?*
+*Cuando un usuario interactúa con mi sitio, ¿cambia lo suficiente el contenido de la página como para calificarse como una página nueva?*
 
 * Si la respuesta es **sí**, considere la posibilidad de utilizar una llamada de seguimiento de vista de página (`s.t()`).
 * Si la respuesta es **no**, considere rastrear esa interacción usando una llamada de seguimiento de vínculos (`s.tl()`).
@@ -28,9 +28,9 @@ Dado que las páginas que utilizan AJAX generalmente no se recargan, hay varias 
 
 ## Borrado de variables en cada página
 
-Los valores de las variables persisten en las páginas que utilizan AJAX, ya que la página no se vuelve a cargar. Por lo tanto, se requiere un ajuste especial para borrar los valores de las variables de modo que no persistan incorrectamente entre las visitas. Adobe ofrece la [`clearVars`](../vars/functions/clearvars.md) función de borrar fácilmente los valores de las variables. Asegúrese de utilizar esta función después de enviar cada visita a Adobe y antes de establecer los valores de las variables para la siguiente visita.
+Los valores de las variables persisten en las páginas que utilizan AJAX, ya que la página no se vuelve a cargar. Por lo tanto, se requiere un ajuste especial para borrar los valores de las variables de modo que no persistan incorrectamente entre las visitas. Adobe ofrece la función [`clearVars`](../vars/functions/clearvars.md) para borrar fácilmente los valores de las variables. Asegúrese de utilizar esta función después de enviar cada visita a Adobe y antes de establecer los valores de las variables para la siguiente visita.
 
-> [!TIP] La `clearVars()` función no está disponible en el código H. Si no ha actualizado a AppMeasurement, establezca cada valor de variable de Analytics en una cadena vacía.
+> [!TIP] La función `clearVars()` no está disponible en el código H. Si no ha actualizado a AppMeasurement, establezca cada valor de variable de Analytics en una cadena vacía.
 
 ## Ejemplos
 
