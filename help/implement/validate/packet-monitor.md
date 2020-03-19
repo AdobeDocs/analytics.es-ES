@@ -1,7 +1,7 @@
 ---
 title: Analizadores de paquetes
-description: Los analizadores de paquetes le permiten ver los datos enviados por su implementación a los servidores de recopilación de datos de Adobe.
-translation-type: tm+mt
+description: Los analizadores de paquetes permiten ver los datos que se envían desde la implementación a los servidores de recopilación de datos de Adobe.
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 # Analizadores de paquetes
 
-Los analizadores de paquetes le permiten ver los datos enviados por su implementación a los servidores de recopilación de datos de Adobe.
+Los analizadores de paquetes permiten ver los datos que se envían desde la implementación a los servidores de recopilación de datos de Adobe.
 
-De forma similar al depurador de Adobe Experience Cloud, un monitor de paquetes muestra qué parámetros de datos se pasan en una solicitud de imagen; sin embargo, los monitores de paquetes proporcionan funcionalidad añadida:
+Al igual que Adobe Experience Cloud Debugger, un monitor de paquetes muestra qué parámetros de datos se pasan en una solicitud de imagen. Sin embargo, los monitores de paquetes proporcionan más funciones:
 
 * Ver solicitudes de imagen de seguimiento de enlaces personalizados
 * Ver solicitudes de imagen usando métodos de implementación diferentes de JavaScript, como solicitudes de imagen preprogramadas o [!DNL Appmeasurement]
@@ -38,7 +38,7 @@ Aunque Adobe no proporciona un monitor de paquetes oficial, hay una amplia varie
 
 Este error se produce porque la solicitud de imagen de seguimiento de vínculos está diseñada para permitir al explorador pasar a la página siguiente sin esperar la respuesta de los servidores de recopilación de datos de Adobe.
 
-La respuesta de Adobe a la solicitud de imagen es una imagen transparente vacía de 1x1 que no es importante para el contenido de la página. Si ve un elemento de línea en el monitor de paquetes de Adobe, bien con una respuesta **[!UICONTROL 200 OK]**o con una respuesta**[!UICONTROL  NS_BINDING_ABORTED]**, los datos han llegado a nuestros servidores. No es necesario hacer que la página espere más.
+La respuesta de Adobe a la solicitud de imagen es una imagen transparente vacía de 1x1 que no es importante para el contenido de la página. Si ve un elemento de línea en el monitor de paquetes de Adobe, bien con una respuesta **[!UICONTROL 200 OK]** o con una respuesta **[!UICONTROL NS_BINDING_ABORTED]**, los datos han llegado a nuestros servidores. No es necesario hacer que la página espere más.
 
 Los monitores de paquetes integrados como complemento casi nunca ven la respuesta completa. Los monitores suelen ver la solicitud como anulada ya que no se recibió la respuesta completa. Estos monitores rara vez distinguen entre si lo que se anuló fue la solicitud o la respuesta. Un monitor de paquetes independiente normalmente tiene mensajes más detallados e informa del estado de manera más precisa. Por ejemplo, un usuario puede recibir un mensaje en *Charles* que indique “El cliente cerró la conexión antes de recibir la respuesta completa”. Esto significa que los datos llegaron a los servidores de Adobe, pero que el explorador pasó a la página siguiente antes de que se recibiera la imagen de 1x1 píxeles.
 
