@@ -2,7 +2,7 @@
 title: getPreviousValue
 description: Obtenga el último valor pasado a una variable.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo]
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
+1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
 1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
    * Condición: Ninguno
    * Evento: Core - Biblioteca cargada (Principio de página)
@@ -35,14 +35,14 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
-1. Expanda el seguimiento [!UICONTROL Configurar mediante el acordeón de código] personalizado, que muestra el botón [!UICONTROL Abrir editor] .
+1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
 ## Instalación del complemento mediante AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante `s_gi`). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,14 +55,14 @@ s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setT
 
 El `getPreviousValue` método utiliza los siguientes argumentos:
 
-* **`v`**(cadena, requerido): Variable que tiene el valor que desea pasar a la siguiente solicitud de imagen. Una variable común utilizada es`s.pageName`recuperar el valor de página anterior.
-* **`c`**(cadena, opcional): Nombre de la cookie que almacena el valor.  Si no se establece este argumento, el valor predeterminado es`"s_gpv"`.
+* **`v`** (cadena, requerido): Variable que tiene el valor que desea pasar a la siguiente solicitud de imagen. Una variable común utilizada es `s.pageName` recuperar el valor de página anterior.
+* **`c`** (cadena, opcional): Nombre de la cookie que almacena el valor.  Si no se establece este argumento, el valor predeterminado es `"s_gpv"`.
 
 Cuando llama a este método, devuelve el valor de cadena contenido en la cookie. A continuación, el complemento restablece la caducidad de la cookie y le asigna el valor de variable del `v` argumento. La cookie caduca tras 30 minutos de inactividad.
 
 ## Llamadas de ejemplo
 
-### Ejemplo #1
+### Ejemplo n.º 1
 
 El siguiente código...
 
@@ -74,7 +74,7 @@ s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 * El código restablecerá la cookie &quot;gpv_Page&quot;, haciéndola igual al valor actual de s.pageName
 * Si s.pageName no se configura en el momento de ejecutar este código, entonces el código restablecerá la caducidad del valor actual de la cookie
 
-### Ejemplo #2
+### Ejemplo n.º 2
 
 El código siguiente establece s.prop7 como el último valor pasado a s.pageName, pero sólo si event1 también está contenido en s.events, según se determina mediante el complemento inList, en el momento en que se realiza la llamada.
 
@@ -82,7 +82,7 @@ El código siguiente establece s.prop7 como el último valor pasado a s.pageName
 if(s.inList(s.events,"event1")) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-### Ejemplo #3
+### Ejemplo n.º 3
 
 El siguiente código establece s.prop7 como el último valor pasado a s.pageName pero solo si s.pageName está actualmente establecido en la página al mismo tiempo.
 
@@ -90,7 +90,7 @@ El siguiente código establece s.prop7 como el último valor pasado a s.pageName
 if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-### Ejemplo #4
+### Ejemplo n.º 4
 
 El siguiente código establece s.eVar10 igual al valor pasado a s.eVar1 en la solicitud de imagen anterior.   El valor anterior de eVar1 se habría incluido en la cookie &quot;s_gpv&quot;.  El código establecerá entonces la cookie &quot;s_gpv&quot; igual al valor actual de s.eVar1.
 
