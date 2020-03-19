@@ -4,7 +4,7 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud,Dynamic Tag Management
 title: Administración de biblioteca
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Descripciones de los campos y las opciones del ajuste Administración de biblioteca de Dynamic Tag Management.
 
-**[!UICONTROL *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL Editar herramienta]**>**[!UICONTROL Administración de biblioteca]**
+**[!UICONTROL *`Property`*]** > ![](assets/settings_gear.png) **[!UICONTROL  Editar herramienta ]** > **[!UICONTROL  Administración de biblioteca ]**
 
 > [!NOTE] Si se utiliza más de una herramienta Adobe Analytics en una misma propiedad web, cada una deberá tener un nombre de la variable del rastreador único. Si existen duplicados de nombres de variables de objetos entre distintas herramientas Adobe Analytics en una misma propiedad web, se podría producir un conflicto.
 
@@ -31,7 +31,7 @@ Descripciones de los campos y las opciones del ajuste Administración de bibliot
    <td colname="col2"> <p> Evita que Dynamic Tag Management instale código de página de <span class="keyword">Adobe Analytics</span> que ya se encuentra en el sitio. </p> <p>Esta función le permite utilizar Dynamic Tag Management para añadirla a la implementación existente en lugar de empezar desde cero. Asegúrese de establecer correctamente el nombre de la variable de rastreador al marcar esta casilla. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Cargar biblioteca en &lt;<span class="term"> Principio de página</span> o <span class="term">Final de página</span>&gt; </p> </td> 
+   <td colname="col1"> <p>Cargar biblioteca en &lt;<span class="term"> Principio de página</span> o <span class="term"> Final de página</span>&gt; </p> </td> 
    <td colname="col2"> <p>Especifica cuándo y dónde cargar el código de página. Independientemente de su selección, todas las reglas que utilicen la herramienta Analytics deberán tener la misma configuración. </p> </td> 
   </tr> 
   <tr> 
