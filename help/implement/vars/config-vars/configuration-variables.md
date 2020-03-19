@@ -2,7 +2,7 @@
 title: Variables de configuración
 description: Utilice variables de configuración para determinar cómo se recopilan los datos.
 translation-type: tm+mt
-source-git-commit: e9a876a1f562333056387d63de46a9cfe3fb3939
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,4 +21,4 @@ En implementaciones que utilizan Adobe Experience Platform Launch, las variables
 2. Haga clic en la propiedad que desee editar.
 3. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under Adobe Analytics.
 
-> [!IMPORTANT] Asegúrese de que todas las variables de configuración estén configuradas antes de llamar a una función de seguimiento (`t()` o `tl()`). Evite configurar variables de configuración en la `doPlugins()` función.
+> [!IMPORTANT] Asegúrese de que todas las variables de configuración estén configuradas antes de llamar a un método de seguimiento ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)). Evite configurar variables de configuración en la [`doPlugins()`](../functions/doplugins.md) función.
