@@ -1,7 +1,7 @@
 ---
 title: Solución de problemas de implementaciones de código H
-description: Conozca algunos problemas comunes con las implementaciones de JavaScript heredadas.
-translation-type: tm+mt
+description: Descubra algunos problemas comunes con las implementaciones de JavaScript heredadas.
+translation-type: ht
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -13,12 +13,12 @@ A continuación se indican los pasos para la resolución de problemas específic
 
 ## Incluir código de Analytics en la etiqueta Head
 
-> [!NOTE] Aunque las implementaciones de código H requieren que se haga referencia al código en la `<body>` etiqueta , otras implementaciones (como el uso de Adobe Experience Platform Launch) requieren que se haga referencia al código en la `<head>` etiqueta .
+> [!NOTE] Aunque las implementaciones de código H requieren que se haga referencia al código en la etiqueta `<body>`, otras implementaciones (como el uso de Adobe Experience Platform Launch) requieren que se haga referencia al código en la etiqueta `<head>`.
 
-El código de Analytics crea una imagen de 1x1 píxeles invisible. Anteriormente, una práctica común de implementación era colocar la `s_code.js` referencia en la `<head>` etiqueta . Colocar el código aquí evitó que la imagen afectara el diseño de la página de alguna manera. También se ejecuta antes, lo que le permite contar las vistas de página para cargas de página parciales de forma más eficaz.
+El código de Analytics crea una imagen de 1x1 píxeles invisible. Anteriormente, una práctica común de implementación era colocar la referencia a `s_code.js` en la etiqueta `<head>`. Colocar el código aquí evitaba que la imagen afectara al diseño de la página de alguna manera. Esto se ejecuta antes, lo que optimiza el recuento de las vistas de página para cargas de página parciales.
 
-However, certain elements of the code require the existence of the `<body>` object. Si el código JavaScript de Analytics está en la `<head>` etiqueta , se ejecuta antes de que exista el `<body>` objeto. As a result, your implementation does not collect [!UICONTROL ClickMap] data, automatic tracking of file downloads or exit links, or connection type data. Colocar la referencia de secuencia de comandos `s_code.js` en la `<head>` etiqueta funciona, pero el resultado es una versión muy limitada de Analytics.
+Sin embargo, algunos elementos del código requieren que el objeto `<body>` esté presente. Si el código JavaScript de Analytics está en la etiqueta `<head>`, se ejecuta antes de que exista el objeto `<body>`. Como resultado, la implementación no recopila datos de [!UICONTROL ClickMap] y el seguimiento automático de descargas de archivos o vínculos de salida o los datos del tipo de conexión. Colocar la referencia de script a `s_code.js` en la etiqueta `<head>` funciona, pero el resultado es una versión muy limitada de Analytics.
 
-The Analytics code can be placed anywhere inside the `<body>` tag of a well-formed HTML page. Adobe recomienda colocar el código de Analytics lo más cerca posible de la parte superior de la `<body>` etiqueta. Asegúrese de que todas las variables de página se establecen después de que se cargue el `s_code.js` archivo.
+El código de Analytics se puede colocar en cualquier lugar dentro de la etiqueta `<body>` de una página HTML. Adobe recomienda colocar el código de Analytics lo más cerca posible de la parte superior de la etiqueta `<body>`. Asegúrese de que todas las variables de página se establecen después de que se cargue el archivo `s_code.js`.
 
 > [!TIP] Si desea integrar Adobe Analytics con Adobe Target, el archivo de inclusión JavaScript debe colocarse en la parte inferior de la página.
