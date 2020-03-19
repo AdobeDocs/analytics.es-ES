@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Crear una propiedad web
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 Una propiedad web puede ser cualquier agrupación de uno o más dominios y subdominios incluida en un código incrustado y con una biblioteca de reglas.
 
-> [!NOTE] Solo los usuarios con derechos de administrador pueden crear una propiedad. Para obtener más información sobre las funciones, consulte [Crear y administrar grupos en la DTM](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) en la documentación del producto de Dynamic Tag Management.
+> [!NOTE] Solo los usuarios con derechos de administrador pueden crear una propiedad. Para obtener más información sobre las funciones, consulte [Crear y administrar grupos en la DTM](https://marketing.adobe.com/resources/help/es_ES/dtm/groups.html) en la documentación del producto de Dynamic Tag Management.
 
 Puede administrar y rastrear estos recursos con DTM. Por ejemplo, supongamos que tiene varios sitios web basados en una plantilla y quiere rastrear los mismos recursos en todos. Puede aplicar una propiedad web a varios dominios.
 
-Para obtener información general sobre propiedades web y prácticas recomendadas, consulte [Propiedades web](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) en la documentación del producto de Dynamic Tag Management.
+Para obtener información general sobre propiedades web y prácticas recomendadas, consulte [Propiedades web](https://marketing.adobe.com/resources/help/es_ES/dtm/web_property.html) en la documentación del producto de Dynamic Tag Management.
 
 1. Vaya a la página de su empresa y haga clic en **[!UICONTROL Agregar propiedad]**.
 
