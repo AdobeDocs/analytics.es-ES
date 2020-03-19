@@ -2,7 +2,7 @@
 title: manageVars
 description: Modifique los valores de más de una variable de Analytics a la vez.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo]
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
+1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
 1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
    * Condición: Ninguno
    * Evento: Core - Biblioteca cargada (Principio de página)
@@ -35,14 +35,14 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
-1. Expanda el seguimiento [!UICONTROL Configurar mediante el acordeón de código] personalizado, que muestra el botón [!UICONTROL Abrir editor] .
+1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
 ## Instalación del complemento mediante AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante `s_gi`). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -67,8 +67,8 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 El `manageVars` método utiliza los siguientes argumentos:
 
-* **`cb`**(requerido, cadena): Nombre de una función de llamada de retorno que el complemento utiliza para manipular las variables de Analytics. Puede utilizar una función de Adobe como`cleanStr`o su propia función personalizada.
-* **`l`**(opcional, cadena): Una lista delimitada por comas de las variables de Analytics que desea manipular. Si no se establece, el valor predeterminado es TODAS las variables de Adobe Analytics, lo que incluye:
+* **`cb`** (requerido, cadena): Nombre de una función de llamada de retorno que el complemento utiliza para manipular las variables de Analytics. Puede utilizar una función de Adobe como `cleanStr` o su propia función personalizada.
+* **`l`** (opcional, cadena): Una lista delimitada por comas de las variables de Analytics que desea manipular. Si no se establece, el valor predeterminado es TODAS las variables de Adobe Analytics, lo que incluye:
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -85,13 +85,13 @@ El `manageVars` método utiliza los siguientes argumentos:
    * Todas las variables de jerarquía
    * Todas las variables de lista
    * Todas las variables de datos de contexto
-* **`Il`**(opcional, booleano): Se configura como`false`si desea *excluir*la lista de variables declaradas en el`l`argumento en lugar de incluirlas. El valor predeterminado es`true`.
+* **`Il`** (opcional, booleano): Se configura como `false` si desea *excluir* la lista de variables declaradas en el `l` argumento en lugar de incluirlas. El valor predeterminado es `true`.
 
 Al llamar a este método no se devuelve nada. En su lugar, cambia los valores de las variables de Analytics en función de la función de llamada de retorno deseada.
 
 ## Llamadas de ejemplo
 
-### Ejemplo #1
+### Ejemplo n.º 1
 
 El siguiente código...
 
@@ -101,7 +101,7 @@ s.manageVars("lowerCaseVars");
 
 ...cambia los valores de todas las variables descritas anteriormente a versiones en minúsculas.  La única excepción a esto es la variable events, ya que algunos de los eventos (por ejemplo: scAdd, scCheckout, etc.) distinguen entre mayúsculas y minúsculas y no deben reducirse
 
-### Ejemplo #2
+### Ejemplo n.º 2
 
 El siguiente código...
 
@@ -111,7 +111,7 @@ s.manageVars("lowerCaseVars", "events", false);
 
 ...básicamente produce el mismo resultado que el primer ejemplo, ya que la variable events no se reduce de forma predeterminada.
 
-### Ejemplo #3
+### Ejemplo n.º 3
 
 El siguiente código...
 
@@ -121,7 +121,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 
 ...solo cambiarán (por ejemplo, minúsculas) los valores de eVar1, eVar2, eVar3 y list2
 
-### Ejemplo #4
+### Ejemplo n.º 4
 
 El siguiente código...
 
@@ -131,7 +131,7 @@ s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 
 ...cambiará (por ejemplo, en minúsculas) los valores de todas las variables descritas anteriormente EXCEPTO para eVar1, eVar2, eVar3 y list2
 
-### Ejemplo #5
+### Ejemplo n.º 5
 
 El siguiente código...
 
