@@ -1,7 +1,7 @@
 ---
 title: Seguimiento de correo electrónico externo
 description: Utilice Adobe Analytics para realizar un seguimiento del contenido del correo electrónico.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -56,7 +56,7 @@ Hay que seguir varios pasos en orden para mostrar correctamente los datos de an�
 
    1. Personalizar [!DNL s_code.js] mediante una llamada a [!UICONTROL getQueryParam].
 
-      El archivo [!DNL s_code.js] debe colocarse en una ubicación del servidor web en la que todas las páginas web tengan acceso a él. La función *`doPlugins`*en este archivo debe modificarse para que capture los parámetros de cadena de consulta en los vínculos de correo electrónico. Por ejemplo:
+      El archivo [!DNL s_code.js] debe colocarse en una ubicación del servidor web en la que todas las páginas web tengan acceso a él. La función *`doPlugins`* en este archivo debe modificarse para que capture los parámetros de cadena de consulta en los vínculos de correo electrónico. Por ejemplo:
 
       ```js
       /* Plugin Config */ 
