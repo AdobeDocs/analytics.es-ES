@@ -2,7 +2,7 @@
 title: getValOnce
 description: Impedir que una variable de Analytics se establezca en el mismo valor dos veces seguidas.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo]
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
+1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
 1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
    * Condición: Ninguno
    * Evento: Core - Biblioteca cargada (Principio de página)
@@ -35,14 +35,14 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
-1. Expanda el seguimiento [!UICONTROL Configurar mediante el acordeón de código] personalizado, que muestra el botón [!UICONTROL Abrir editor] .
+1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
 ## Instalación del complemento mediante AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante `s_gi`). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,16 +55,16 @@ s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep
 
 El `getValOnce` método utiliza los siguientes argumentos:
 
-* **`vtc`**(requerido, cadena): La variable que se va a comprobar y ver si se ha definido anteriormente en un valor idéntico
-* **`cn`**(opcional, cadena): Nombre de la cookie que contiene el valor que se va a comprobar. El valor predeterminado es`"s_gvo"`
-* **`et`**(opcional, entero): Caducidad de la cookie en días (o minutos, según el`ep`argumento). Predeterminado en`0`, que caduca al final de la sesión del explorador
-* **`ep`**(opcional, cadena): Sólo configure este argumento si también se establece el`et`argumento. Establezca este argumento en`"m"`si desea que el`et`argumento caduque en minutos en lugar de días. El valor predeterminado es`"d"`, que establece el`et`argumento en días.
+* **`vtc`** (requerido, cadena): La variable que se va a comprobar y ver si se ha definido anteriormente en un valor idéntico
+* **`cn`** (opcional, cadena): Nombre de la cookie que contiene el valor que se va a comprobar. El valor predeterminado es `"s_gvo"`
+* **`et`** (opcional, entero): Caducidad de la cookie en días (o minutos, según el `ep` argumento). Predeterminado en `0`, que caduca al final de la sesión del explorador
+* **`ep`** (opcional, cadena): Sólo configure este argumento si también se establece el `et` argumento. Establezca este argumento en `"m"` si desea que el `et` argumento caduque en minutos en lugar de días. El valor predeterminado es `"d"`, que establece el `et` argumento en días.
 
 Si el argumento `vtc` y el valor de la cookie coinciden, este método devuelve una cadena vacía. Si el argumento `vtc` y el valor de la cookie no coinciden, el método devuelve el `vtc` argumento como una cadena.
 
 ## Llamadas de ejemplo
 
-### Ejemplo #1
+### Ejemplo n.º 1
 
 Utilice esta llamada para evitar que el mismo valor se pase a s.campaign más de una vez seguidas durante los próximos 30 días:
 
@@ -74,7 +74,7 @@ s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
 
 En la llamada anterior, el complemento comparará primero el valor ya contenido en la cookie s_campaign con el valor proveniente de la variable s.campaign actual.   Si no se realiza una coincidencia, el complemento establecerá la cookie s_campaign igual al nuevo valor que se obtiene de s.campaign y, a continuación, devolverá el nuevo valor.   Esta comparación se realizará durante los próximos treinta días
 
-### Ejemplo #2
+### Ejemplo n.º 2
 
 Utilice esta llamada para evitar que se establezca el mismo valor durante toda la sesión:
 
