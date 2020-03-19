@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Cloud Debugger antiguo
 description: Instale una versión anterior de Adobe Experience Cloud Debugger. Este depurador inspecciona las etiquetas de Analytics, Target, Advertising Cloud, Identity Service, DTM y Launch.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 # Adobe Experience Cloud Debugger antiguo
 
-> [!IMPORTANT] Esta herramienta de depuración ya no se mantiene. Adobe recomienda usar la extensión [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) para Chrome.
+> [!IMPORTANT] Esta herramienta de depuración ya no se mantiene. Adobe recomienda usar la extensión [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html) para Chrome.
 
 Las versiones anteriores de [!UICONTROL Debugger] inspeccionan las etiquetas de la mayoría de los servicios de Adobe Experience Cloud. El uso del depurador permite ver qué datos se envían a Adobe en cualquier página del sitio. Puede utilizar esta información para solucionar problemas o validar la implementación de su organización.
 
@@ -31,7 +31,7 @@ Cada navegador tiene diferentes formas de administrar los marcadores, pero el co
 
 #### Chrome
 
-Si insiste en no utilizar la [extensión de Chrome](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html), se puede utilizar el bookmarklet una versión anterior del depurador.
+Si insiste en no utilizar la [extensión de Chrome](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html), se puede utilizar el bookmarklet una versión anterior del depurador.
 
 1. Haga clic en los tres puntos de la parte superior derecha y, a continuación, vaya a Marcadores > Administrador de marcadores. También puede pulsar `Ctrl` + `Shift` + `O` (Windows) o `Cmd` + `Shift` + `O` (Mac).
 2. En la parte superior derecha del administrador de marcadores, haga clic en los tres puntos y luego en “Agregar nuevo marcador”.
@@ -47,7 +47,7 @@ Si insiste en no utilizar la [extensión de Chrome](https://docs.adobe.com/conte
 
 #### Edge
 
-Edge no tiene la capacidad de crear manualmente un bookmarklet, pero se puede editar una dirección URL de marcador en un bookmarklet.
+Edge no tiene la capacidad de crear manualmente un bookmarklet, pero se puede editar una dirección URL de marcador para que sea un bookmarklet.
 
 1. Haga clic en el icono de estrella en la parte derecha del campo URL para marcar la página actual.
 2. Asigne un nombre al marcador “Adobe Experience Cloud Debugger” y guárdelo en la ubicación deseada.
@@ -57,7 +57,7 @@ Edge no tiene la capacidad de crear manualmente un bookmarklet, pero se puede ed
 
 #### Safari
 
-Safari no tiene la capacidad de crear manualmente un bookmarklet, pero una dirección URL de marcador se puede editar en un bookmarklet.
+Safari no tiene la capacidad de crear manualmente un bookmarklet, pero se puede editar una dirección URL de marcador para que sea un bookmarklet.
 
 1. Haga clic en el icono Compartir en la parte superior derecha, que abre una ventana modal de marcador.
 2. Asigne un nombre al marcador “Adobe Experience Cloud Debugger” y guárdelo en la ubicación deseada.
