@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain per
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 Descripciones de los campos de la configuración global de cookies que se utiliza para implementar [!UICONTROL Dynamic Tag Management] en Adobe Analytics.
 
-*`Property`*> Editar herramienta > Cookies
+*`Property`* > Editar herramienta > Cookies
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -38,7 +38,7 @@ Descripciones de los campos de la configuración global de cookies que se utiliz
   </tr> 
   <tr> 
    <td colname="col1"> Períodos del dominio de FP </td> 
-   <td colname="col2"> <p>La variable <span class="term">fpCookieDomainPeriods</span> está destinada a cookies configuradas por JavaScript (<code> s_sq</code>, <code> s_cc</code>, complementos), que son cookies inherentemente de origen, aunque su implementación utilice los dominios de terceros <span class="filepath">2o7.net</span> u <span class="filepath">omtrdc.net</span>. </p> <p>Consulte <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>. </p> </td> 
+   <td colname="col2"> <p>La variable <span class="term"> fpCookieDomainPeriods</span> está destinada a cookies configuradas por JavaScript (<code> s_sq</code>, <code> s_cc</code>, complementos), que son cookies inherentemente de origen, aunque su implementación utilice los dominios de terceros <span class="filepath">2o7.net</span> u <span class="filepath">omtrdc.net</span>. </p> <p>Consulte <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ID de transacción </td> 
