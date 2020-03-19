@@ -2,7 +2,7 @@
 title: informe de productos
 description: Enviar datos sobre qué productos se muestran o en el carro de compras.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 La `products` variable rastrea productos y propiedades vinculados a ellos. Esta variable se configura generalmente en páginas de productos individuales, páginas del carro de compras y páginas de confirmación de compra. Es una variable de varios valores, lo que significa que puede enviar varios productos en la misma visita y Adobe analiza el valor en valores de dimensión independientes.
 
-> [!NOTE] Si esta variable se configura en una visita individual sin un evento de carro de compras en la `events` variable, la métrica &quot;Vistas del producto&quot; se incrementa en 1. Asegúrese de configurar el evento de carro de compras correspondiente en cada visita.
+> [!NOTE] Si esta variable se configura en una visita individual sin un evento de carro de compras en la [`events`](events/events-overview.md) variable, la métrica &quot;Vistas del producto&quot; se incrementa en 1. Asegúrese de configurar el evento de carro de compras correspondiente en cada visita.
 
 ## Productos en Adobe Experience Platform Launch
 
@@ -19,7 +19,7 @@ No hay un campo dedicado en Launch para configurar esta variable; sin embargo, e
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en [!UICONTROL Catálogo] para ver todas las extensiones disponibles.
+3. Vaya a la [!UICONTROL Extensions] ficha y haga clic en [!UICONTROL Catalog] para ver todas las extensiones disponibles.
 4. Busque el término &quot;producto&quot;, que revela varias extensiones disponibles para ayudarle a configurar esta variable.
 
 Puede utilizar una de estas extensiones o puede utilizar el editor de código personalizado siguiendo la sintaxis de AppMeasurement a continuación.
@@ -31,7 +31,7 @@ La `s.products` variable es una cadena que contiene varios campos delimitados po
 * **Categoría** (opcional): La categoría de producto global. Su organización decide cómo agrupar los productos en categorías.
 * **Nombre** del producto (requerido): El nombre del producto.
 * **Cantidad** (opcional): Cuántos de estos productos están en el carro de compras. Este campo solo se aplica a las visitas con el evento de compra.
-* **Precio** (opcional): El precio total del producto como decimal. Si la cantidad es mayor que una, establezca el precio en el total y no en el precio del producto individual. Alinee la moneda de este valor para que coincida con la `currencyCode` variable. No incluya el símbolo de moneda en este campo. Este campo solo se aplica a las visitas con el evento de compra.
+* **Precio** (opcional): El precio total del producto como decimal. Si la cantidad es mayor que una, establezca el precio en el total y no en el precio del producto individual. Alinee la moneda de este valor para que coincida con la [`currencyCode`](../config-vars/currencycode.md) variable. No incluya el símbolo de moneda en este campo. Este campo solo se aplica a las visitas con el evento de compra.
 * **Eventos** (opcional): Eventos asociados al producto. Delimitar varios eventos con una barra vertical (`|`). Consulte [eventos](events/events-overview.md) para obtener más información.
 * **eVars** (opcional): eVars de comercialización vinculadas al producto. Delimite varias eVars de comercialización con una barra vertical (`|`). Consulte [eVars](../../../components/c-variables/c-merch-variables/var-merchandising.md) de comercialización para obtener más información.
 
@@ -47,7 +47,7 @@ Esta variable admite varios productos en la misma visita. Es valioso para el car
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Asegúrese de eliminar todos los puntos y comas, y las tuberías de los nombres de productos, las categorías y los valores de eVar de comercialización. Si el nombre de un producto incluye una coma, AppMeasurement la analiza como el inicio de un nuevo producto. Este análisis incorrecto elimina el resto de la cadena de producto, lo que provoca datos incorrectos en dimensiones e informes.
+> [!IMPORTANT] Elimine todos los puntos y comas, y las tuberías de los nombres de productos, las categorías y los valores de eVar de comercialización. Si el nombre de un producto incluye una coma, AppMeasurement la analiza como el inicio de un nuevo producto. Este análisis incorrecto elimina el resto de la cadena de producto, lo que provoca datos incorrectos en dimensiones e informes.
 
 ## Ejemplos
 
