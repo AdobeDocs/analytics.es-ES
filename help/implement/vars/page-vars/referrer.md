@@ -2,7 +2,7 @@
 title: referente
 description: Omitir el referente recopilado automáticamente para una visita.
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -17,10 +17,10 @@ Puede establecer el referente al configurar la extensión de Analytics (variable
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics - Establecer variables] o haga clic en el icono &#39;+&#39;.
-5. Defina el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el tipo [!UICONTROL de] acción en [!UICONTROL Establecer variables].
-6. Busque la sección [!UICONTROL Referente] .
+3. Vaya a la [!UICONTROL Rules] ficha y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Actions], haga clic en una [!UICONTROL Adobe Analytics - Set Variables] acción existente o en el icono &#39;+&#39;.
+5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el valor [!UICONTROL Action Type] en [!UICONTROL Set Variables].
+6. Busque la [!UICONTROL Referrer] sección.
 
 Puede establecer el referente en cualquier valor de cadena, incluidos los elementos de datos.
 
@@ -36,7 +36,7 @@ Evite establecer esta variable en valores que no sean URL.
 
 ## Ejemplo
 
-Muchas organizaciones se ocupan de las implementaciones en torno a las redirecciones. Puede utilizar la [`getQueryParam`](../functions/util-getqueryparam.md) utilidad para obtener el referente de la dirección URL si el sitio lo aloja. Asegúrese de que la dirección URL codifique los valores incluidos en la cadena de consulta.
+Muchas organizaciones se ocupan de las implementaciones en torno a las redirecciones. Puede utilizar la [`Util.getQueryParam()`](../functions/util-getqueryparam.md) utilidad para obtener el referente de la dirección URL si el sitio lo aloja. Asegúrese de que la dirección URL codifique los valores incluidos en la cadena de consulta.
 
 ```js
 // Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org
