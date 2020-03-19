@@ -1,8 +1,8 @@
 ---
-title: ' getTimeBetweenEvents'
+title: getTimeBetweenEvents
 description: Mida la cantidad de tiempo entre dos eventos.
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe ofrece una extensión que le permite utilizar los complementos más utiliz
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo]
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
+1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
 1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
    * Condición: Ninguno
    * Evento: Core - Biblioteca cargada (Principio de página)
@@ -35,14 +35,14 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
-1. Expanda el seguimiento [!UICONTROL Configurar mediante el acordeón de código] personalizado, que muestra el botón [!UICONTROL Abrir editor] .
+1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
 ## Instalación del complemento mediante AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante `s_gi`). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,14 +61,14 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 El `getTimeBetweenEvents` método utiliza los siguientes argumentos:
 
-* **`ste`**(requerido, cadena): Iniciar eventos de temporizador. Una cadena de eventos de Analytics delimitada por comas para &quot;iniciar el temporizador&quot;.
-* **`rt`**(requerido, booleano): Reinicie la opción del temporizador. Se establece en`true`si desea reiniciar el temporizador cada vez que la`events`variable contenga un evento de temporizador de inicio. Se establece en`false`si no desea que el temporizador se reinicie cuando vea un evento de temporizador de inicio.
-* **`stp`**(requerido, cadena): Detenga los eventos de temporizador. Cadena delimitada por comas de eventos de Analytics que &quot;detienen el temporizador&quot;.
-* **`res`**(requerido, booleano): Opción Restablecer temporizador. Establezca en`true`si desea registrar el tiempo desde que se inició el temporizador Y restablezca el temporizador después de que se detenga. Se establece en`false`si desea registrar la hora pero no detener el temporizador. Si se establece en`false`, el temporizador continúa ejecutándose después de que la variable events registre un evento stop.
+* **`ste`** (requerido, cadena): Iniciar eventos de temporizador. Una cadena de eventos de Analytics delimitada por comas para &quot;iniciar el temporizador&quot;.
+* **`rt`** (requerido, booleano): Reinicie la opción del temporizador. Se establece en `true` si desea reiniciar el temporizador cada vez que la `events` variable contenga un evento de temporizador de inicio. Se establece en `false` si no desea que el temporizador se reinicie cuando vea un evento de temporizador de inicio.
+* **`stp`** (requerido, cadena): Detenga los eventos de temporizador. Cadena delimitada por comas de eventos de Analytics que &quot;detienen el temporizador&quot;.
+* **`res`** (requerido, booleano): Opción Restablecer temporizador. Establezca en `true` si desea registrar el tiempo desde que se inició el temporizador Y restablezca el temporizador después de que se detenga. Se establece en `false` si desea registrar la hora pero no detener el temporizador. Si se establece en `false`, el temporizador continúa ejecutándose después de que la variable events registre un evento stop.
    > [!TIP] Si establece este argumento en `false`, se recomienda configurar el `rte` argumento siguiente.
-* **`cn`**(opcional, cadena): Nombre de la cookie en la que se almacena la hora del primer evento. El valor predeterminado es`"s_tbe"`.
-* **`etd`**(opcional, entero): Tiempo de caducidad de la cookie en días. Se configura para que`0`caduque al final de la sesión del explorador. El valor predeterminado es 1 día cuando no se establece.
-* **`fmt`**(opcional, cadena): Formato del tiempo en el que se devuelve el número de segundos (el valor predeterminado es nada)
+* **`cn`** (opcional, cadena): Nombre de la cookie en la que se almacena la hora del primer evento. El valor predeterminado es `"s_tbe"`.
+* **`etd`** (opcional, entero): Tiempo de caducidad de la cookie en días. Se configura para que `0` caduque al final de la sesión del explorador. El valor predeterminado es 1 día cuando no se establece.
+* **`fmt`** (opcional, cadena): Formato del tiempo en el que se devuelve el número de segundos (el valor predeterminado es nada)
    * `"s"` durante segundos
    * `"m"` durante minutos
    * `"h"` durante horas
@@ -77,15 +77,15 @@ El `getTimeBetweenEvents` método utiliza los siguientes argumentos:
       * Todo menos de un minuto se redondea al punto de referencia de 5 segundos más cercano. Por ejemplo, 10 segundos, 15 segundos
       * Todo lo que haya entre un minuto y una hora se redondea al punto de referencia de 1/2 minutos más cercano. Por ejemplo, 30,5 minutos, 31 minutos
       * Cualquier cosa entre una hora y un día se redondea al valor de referencia de cuarto de hora más cercano. Por ejemplo, 2,25 horas, 3,5 horas
-      * Cualquier valor mayor que un día se redondea al valor de referencia del día más próximo. Por ejemplo: 1 día, 3 días, 9 días
-* **`bml`**(opcional, número): Duración del índice de redondeo según el formato del`fmt`argumento. Por ejemplo, si el`fmt`argumento es`"s"`y este argumento es`2`, el valor devuelto se redondea al valor de referencia de 2 segundos más cercano. Si`fmt`el argumento es`"m"`y este argumento es`0.5`, el valor devuelto se redondea al valor de referencia de medio minuto más cercano.
-* **`rte`**(opcional, cadena): Cadena delimitada por comas de eventos de Analytics que eliminan o eliminan el temporizador. El valor predeterminado no es nada.
+      * Todo lo bueno que no sea un día se redondea al punto de referencia del día más cercano. Por ejemplo: 1 día, 3 días, 9 días
+* **`bml`** (opcional, número): Duración del índice de redondeo según el formato del `fmt` argumento. Por ejemplo, si el `fmt` argumento es `"s"` y este argumento es `2`, el valor devuelto se redondea al valor de referencia de 2 segundos más cercano. Si `fmt` el argumento es `"m"` y este argumento es `0.5`, el valor devuelto se redondea al valor de referencia de medio minuto más cercano.
+* **`rte`** (opcional, cadena): Cadena delimitada por comas de eventos de Analytics que eliminan o eliminan el temporizador. El valor predeterminado no es nada.
 
 Al llamar a este método se devuelve un entero que representa la cantidad de tiempo entre el evento de temporizador de inicio y el evento de temporizador de parada en el formato deseado.
 
 ## Llamadas de ejemplo
 
-### Ejemplo #1
+### Ejemplo n.º 1
 
 El siguiente código...
 
@@ -103,7 +103,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, 
 * Cuando se registra un tiempo real entre event1 y event2, el complemento establece eVar1 igual al número de segundos entre los dos eventos que se configuran, redondeado al valor de referencia de 2 segundos más cercano (por ejemplo: 0 segundos, 2 segundos, 4 segundos, 10 segundos, 184 segundos, etc.)
 * Si s.events contiene event2 antes de que se inicie un temporizador, no se configurará eVar1.
 
-### Ejemplo #2
+### Ejemplo n.º 2
 
 El siguiente código...
 
@@ -120,7 +120,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "
 * El temporizador se restablecerá solamente cuando s.events contenga event3 OR si han transcurrido 20 días desde que se inició el temporizador
 * Cuando se registra un tiempo entre el evento1 (original) y el evento2, el complemento configurará eVar1 igual al número de horas entre los dos eventos que se configuran, redondeado al valor de referencia de 1/2 horas más cercano (por ejemplo: 0 horas, 1,5 horas, 3 horas, 7,5 horas, 478,5 horas, etc.)
 
-### Ejemplo #3
+### Ejemplo n.º 3
 
 El siguiente código...
 
