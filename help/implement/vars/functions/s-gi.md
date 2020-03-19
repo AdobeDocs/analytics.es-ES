@@ -2,7 +2,7 @@
 title: s_gi()
 description: Cree y rastree instancias de AppMeasurement.
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,12 +13,12 @@ La `s_gi()` función crea una instancia de AppMeasurement o la encuentra por ID 
 
 ## s_gi() en Adobe Experience Platform Launch
 
-La extensión de Analytics crea una instancia del objeto de seguimiento y lo administra. Sin embargo, también puede establecer un objeto de seguimiento global en el acordeón Administración [!UICONTROL de] biblioteca al configurar la extensión de Adobe Analytics.
+La extensión de Analytics crea una instancia del objeto de seguimiento y lo administra. Sin embargo, también puede establecer un objeto de seguimiento global en el [!UICONTROL Library Management] acordeón al configurar la extensión de Adobe Analytics.
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
-4. Expanda el acordeón Administración [!UICONTROL de] biblioteca y seleccione cualquier botón de radio que no sea [!UICONTROL Administrar la biblioteca para mí].
+3. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de Adobe Analytics.
+4. Expanda el [!UICONTROL Library Management] acordeón y seleccione cualquier botón de radio que no sea [!UICONTROL Manage the library for me].
 
 El campo de texto de la variable global permite establecer un objeto de seguimiento personalizado. Its default value is `s`.
 
@@ -36,7 +36,7 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!WARNING] Las siguientes secciones y ejemplos contienen temas de implementación complejos. Pruebe exhaustivamente la implementación y rastree las personalizaciones importantes en el documento [de diseño de](../../prepare/solution-design.md)soluciones de su organización.
+> [!CAUTION] Las siguientes secciones y ejemplos contienen temas de implementación complejos. Pruebe exhaustivamente la implementación y rastree las personalizaciones importantes en el documento [de diseño de](../../prepare/solution-design.md)soluciones de su organización.
 
 ## Administrar varias implementaciones con diferentes objetos de seguimiento
 
