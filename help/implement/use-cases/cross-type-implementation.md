@@ -1,7 +1,7 @@
 ---
 title: Seguimiento en diferentes tipos de implementación
-description: Utilice diferentes tipos de implementación y rastree a los visitantes sin problemas entre ellos.
-translation-type: tm+mt
+description: Utilice diferentes tipos de implementación y realice un seguimiento de los visitantes.
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -16,6 +16,6 @@ Si utiliza más de un tipo de implementación (como JavaScript y solicitudes de 
 * *`s_account`*
 * *`s.visitorNamespace`*
 * *`s.trackingServer`*
-* *`s.trackingServerSecure`*(si se usa SSL)
+* *`s.trackingServerSecure`* (si se usa SSL)
 
 Si cada una de ellas no coincide de una implementación a otra, los usuarios podrían seguirse como visitantes diferentes.
