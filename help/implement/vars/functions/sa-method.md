@@ -2,18 +2,18 @@
 title: sa
 description: Cambie el grupo de informes en cualquier momento de la implementación.
 translation-type: tm+mt
-source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # sa
 
-El `sa` método permite cambiar dinámicamente un grupo de informes en cualquier momento de la página. Si desea enviar datos a distintos grupos de informes sin una recarga de página, puede utilizar este método.
+El `sa()` método permite cambiar dinámicamente un grupo de informes en cualquier momento de la página. Si desea enviar datos a distintos grupos de informes sin una recarga de página, puede utilizar este método.
 
 ## Uso del método sa en Adobe Experience Platform Launch
 
-No existe una manera flexible de cambiar el grupo de informes en la interfaz. Puede configurar el grupo de informes en el acordeón Administración [!UICONTROL de] biblioteca al configurar la extensión de Adobe Analytics. Sin embargo, no puede cambiar ni actualizar el grupo de informes mediante reglas. Si desea actualizar los valores de los grupos de informes una vez configurados, utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No existe una manera flexible de cambiar el grupo de informes en la interfaz. Puede configurar el grupo de informes en el acordeón [!UICONTROL Library Management] al configurar la extensión de Adobe Analytics. Sin embargo, no puede cambiar ni actualizar el grupo de informes mediante reglas. Si desea actualizar los valores de los grupos de informes una vez configurados, utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## s.sa() en el editor de código personalizado AppMeasurement e Launch
 
