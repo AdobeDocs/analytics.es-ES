@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Cree funciones de llamada de retorno después de enviar una visita a Adobe.
 translation-type: tm+mt
-source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,13 +11,13 @@ source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 La `registerPostTrackCallback` variable permite a su organización conectar una función de JavaScript inmediatamente después de que una visita se envíe correctamente a Adobe. Si falla una llamada de seguimiento, esta función no se ejecuta. Puede utilizar esta variable para enviar los datos recopilados por AppMeasurement a un socio o a una infraestructura interna, o para limpiar los valores de las variables en aplicaciones de una sola página.
 
-> [!IMPORTANT] No llame a ninguna función de seguimiento como `t` o `tl` dentro de la `registerPostTrackCallback` variable. Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
+> [!IMPORTANT] No llame a ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la `registerPostTrackCallback` variable. Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
 
 Cada vez que llama a la `registerPostTrackCallback` variable, vincula esa función para que se ejecute inmediatamente después de que se envíe correctamente una solicitud de imagen. Evite registrar la misma función varias veces en la misma carga de página.
 
-> [!NOTE] No se garantiza el tiempo y el orden de las funciones activadas entre `registerPreTrackCallback` y `registerPostTrackCallback` . Evite las dependencias entre estas dos funciones.
+> [!NOTE] No se garantiza el tiempo y el orden de las funciones activadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) y `registerPostTrackCallback` . Evite las dependencias entre estas dos funciones.
 
-## Registrar llamada de seguimiento de anuncio en el lanzamiento de Adobe Experience Platform
+## Registrar llamada de retorno de seguimiento de anuncio en Adobe Experience Platform Launch
 
 No hay un campo dedicado en Launch para utilizar esta variable. Utilice el editor de código personalizado, siguiendo la sintaxis de AppMeasurement.
 
@@ -50,7 +50,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Ejemplo de caso de uso
 
-El registro de la `clearVars()` función en la llamada de retorno de seguimiento de anuncio puede ser beneficioso para aplicaciones de una sola página. Cada vez que envía una visita a Adobe, se ejecuta la `clearVars()` función. La implementación puede luego definir las variables de nuevo sin preocuparse por los valores que persisten incorrectamente.
+El registro de la [`clearVars()`](clearvars.md) función en la llamada de retorno de seguimiento de anuncio puede ser beneficioso para aplicaciones de una sola página. Cada vez que envía una visita a Adobe, se ejecuta la `clearVars()` función. La implementación puede luego definir las variables de nuevo sin preocuparse por los valores que persisten incorrectamente.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});
