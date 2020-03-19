@@ -1,7 +1,7 @@
 ---
 title: Creación de una propiedad de Analytics en Launch
 description: Cree un espacio para personalizar el modo en que se recopilan los datos con Adobe Experience Platform Launch.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -13,7 +13,7 @@ Adobe Experience Platform Launch es la herramienta que puede utilizar para integ
 
 ## Requisitos previos
 
-[Crear un grupo de informes](/help/admin/admin-console/create-report-suite.md): Crear un silo para los datos de Analytics que se van a recopilar
+[Crear un grupo de informes](/help/admin/admin-console/create-report-suite.md): Crear un silo para los datos de Analytics que se van a recopilar.
 
 ## Crear una propiedad e instalar extensiones vitales
 
@@ -61,7 +61,7 @@ Las reglas asignan elementos de datos a valores de variables de Analytics y dete
 1. En Acciones, haga clic en Agregar e introduzca la siguiente configuración:
    * Extensión: Adobe Analytics
    * Tipo de acción: Establecer variables
-   * Nombre de página: Haga clic en el icono del contenedor y seleccione el elemento de datos `Page Name`.
+   * Nombre de página: Haga clic en el icono del contenedor y seleccione el elemento de datos `Page Name`
    * Campaña: Parámetro de consulta con un valor de `cid`
 1. Haga clic en Conservar cambios.
 1. Haga clic en el signo Más junto a acciones para agregar otra acción e introduzca la siguiente configuración:
@@ -75,8 +75,8 @@ Las reglas asignan elementos de datos a valores de variables de Analytics y dete
 ## Documentación y recursos adicionales
 
 * [Documentación de la extensión de Adobe Analytics](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Documentación completa específica de la extensión de Adobe Analytics en Adobe Experience Platform Launch.
-* [Introducción a Launch](https://docs.adobelaunch.com/getting-started): Documentación completa para Launch, incluida una guía de introducción más detallada
-* [Canal de YouTube de Adobe Experience Platform Launch](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd): Aprenda a utilizar Launch a través de vídeos
+* [Introducción a Launch](https://docs.adobelaunch.com/getting-started): Documentación completa para Launch, incluida una guía de introducción más detallada.
+* [Canal de YouTube de Adobe Experience Platform Launch](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd): Aprenda a utilizar Launch a través de vídeos
 
 ## Pasos siguientes
 
