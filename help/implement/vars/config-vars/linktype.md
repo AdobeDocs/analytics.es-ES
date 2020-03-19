@@ -2,7 +2,7 @@
 title: linkType
 description: Utilice la variable linkType para determinar a qué dimensión de seguimiento de vínculos pertenece la visita.
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -15,7 +15,7 @@ Las visitas de seguimiento de vínculos pueden completar una de las tres dimensi
 * Vínculos de salida
 * Vínculos de descarga
 
-Utilice la `linkType` variable para determinar qué dimensión desea rellenar al ejecutar la siguiente `tl()` función.
+Utilice la `linkType` variable para determinar qué dimensión desea rellenar al ejecutar la siguiente [`tl()`](../functions/tl-method.md) función.
 
 ## Tipo de vínculo en Adobe Experience Platform Launch
 
@@ -23,22 +23,22 @@ Configure el tipo de vínculo al configurar una regla para enviar una señalizac
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. Haga clic en la propiedad que desee.
-3. Vaya a la ficha [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-4. En [!UICONTROL Acciones], haga clic en el icono &#39;+&#39;
-5. Defina la lista desplegable [!UICONTROL Extensión] en Adobe Analytics y el tipo [!UICONTROL de] acción en Enviar señalización.
-6. Haga clic en el `s.tl()` botón de opción que muestra la lista desplegable Tipo [!UICONTROL de] vínculo.
+3. Vaya a la [!UICONTROL Rules] ficha y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Actions], haga clic en el icono &#39;+&#39;
+5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el [!UICONTROL Action Type] en Enviar señalización.
+6. Haga clic en el `s.tl()` botón de opción que muestra la [!UICONTROL Link Type] lista desplegable.
 
-Puede establecer este menú desplegable en Vínculo personalizado, Vínculo [!UICONTROL de]descarga o Vínculo [!UICONTROL de]salida.
+Puede establecer este menú desplegable en [!UICONTROL Custom Link], [!UICONTROL Download Link]o [!UICONTROL Exit Link].
 
 ## s.linkType en el editor de código personalizado AppMeasurement e Launch
 
-La `s.linkType` variable es una cadena que acepta uno de los tres valores de un solo carácter: `o`, `d`o `e`. Si se llama a una `tl()` función sin un tipo de vínculo, el valor predeterminado es Vínculo personalizado.
+La `s.linkType` variable es una cadena que acepta uno de los tres valores de un solo carácter: `o`, `d`o `e`. Si se llama a un `tl()` método sin un tipo de vínculo, el valor predeterminado es Vínculo personalizado.
 
 * `o` - Vínculos personalizados
 * `d` - Vínculos de descarga
 * `e` - Vínculos de salida
 
-> [!TIP] Esta variable es el segundo parámetro de la `tl()` función y no suele ser necesario configurarla como variable independiente. Sin embargo, puede utilizar la `linkType` variable si no desea establecer valores como argumentos en la `tl()` función.
+> [!TIP] Esta variable es el segundo parámetro del `tl()` método y no suele ser necesario configurarla como variable independiente. Sin embargo, puede utilizar la `linkType` variable si no desea establecer valores como argumentos en el `tl()` método.
 
 ```js
 s.linkType = "e";
