@@ -1,7 +1,7 @@
 ---
 title: Conflictos de hash
 description: Describe lo que es un conflicto de hash y cómo se puede manifestar.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
@@ -9,18 +9,18 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 # Conflictos de hash
 
-Adobe trata los valores de prop y eVar como cadenas, aunque el valor sea un número. Algunas veces estas cadenas tienen cientos de caracteres, otras veces son cortas. Para ahorrar espacio, mejorar el rendimiento y hacer que todo tenga un tamaño uniforme, las cadenas no se utilizan directamente en el procesamiento. En cambio, se computa un hash de 32 bits o 64 bits para cada valor. Todos los informes se ejecutan en estos valores con hash, donde cada hash se reemplaza por el texto original. Los hash aumentan drásticamente el rendimiento de los informes de Analytics.
+Adobe considera los valores de prop y de eVar como cadenas, incluso si el valor es un número. Algunas veces estas cadenas tienen cientos de caracteres, otras veces son cortas. Para ahorrar espacio, mejorar el rendimiento y hacer que todo tenga un tamaño uniforme, las cadenas no se usan directamente en el procesamiento. En cambio, se computa un hash de 32 bits o 64 bits para cada valor. Todos los informes se ejecutan en estos valores con hash, donde cada hash se reemplaza por el texto original. Los hash mejoran notablemente el rendimiento de los informes de Analytics.
 
-Para la mayoría de los campos, la cadena primero se convierte a minúscula (reduciendo el número de valores únicos). Se colocan hashes en los valores todos los meses (la primera vez que son vistos cada mes). De un mes a otro, existe una pequeña posibilidad de que dos valores de variable únicos hagan hash en el mismo valor. This concept is known as a *hash collision*.
+Para la mayoría de los campos, la cadena primero se convierte a minúscula (reduciendo el número de valores únicos). Se colocan hashes en los valores todos los meses (la primera vez que son vistos cada mes). De un mes a otro, existe una pequeña posibilidad de que dos valores de variables únicos tengan hashes con el mismo valor. Esto se conoce como *conflicto de hash*.
 
 Los conflictos de hash pueden manifestarse en los informes de la siguiente manera:
 
 * Si está viendo la tendencia de un valor y observa un pico durante un mes, posiblemente a otros valores para esa variable se les colocaron hash con el mismo valor que ve.
 * Lo mismo ocurre para segmentos para un valor específico.
 
-## Ejemplo de conflicto de hash
+## Ejemplo de conflictos de hash
 
-La probabilidad de los conflictos de hash aumentan con la cantidad de valores únicos en una dimensión. Por ejemplo, uno de los valores que llega tarde en el mes podría obtener el mismo valor de hash que un valor más temprano en el mes. El siguiente ejemplo puede ayudar a explicar cómo esto puede hacer que cambien los resultados de los segmentos. Supongamos que eVar62 recibe &quot;valor 100&quot; el 18 de febrero. Analytics mantendrá una tabla similar a la siguiente:
+La probabilidad de los conflictos de hash aumentan con la cantidad de valores únicos en una dimensión. Por ejemplo, uno de los valores que llega tarde en el mes podría obtener el mismo valor de hash que un valor más temprano en el mes. El siguiente ejemplo puede ayudar a explicar cómo esto puede hacer que los resultados de los segmentos cambien. Supongamos que eVar62 recibe &quot;valor 100&quot; el 18 de febrero. Analytics mantendrá una tabla similar a la siguiente:
 
 <table id="table_6A49D1D5932E485DB2083154897E5074"> 
  <thead> 
