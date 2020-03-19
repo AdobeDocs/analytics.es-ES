@@ -1,7 +1,7 @@
 ---
 title: Introducción a la implementación con Launch
 description: Obtenga información sobre cómo implementar Adobe Analytics mediante Adobe Experience Platform Launch
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ---
@@ -21,15 +21,15 @@ Para ejecutar una implementación con Launch, siga estos pasos:
 
 1. **Obtener acceso a Launch**: Puede obtener acceso a Launch a través de un administrador del sistema de su organización.
 2. **Crear una propiedad**: Las propiedades son contenedores generales que se utilizan para hacer referencia a los datos de administración de etiquetas.
-3. **Implementar en un entorno** de desarrollo: Tenga un entorno en el que pueda iterar en el desarrollo de etiquetas.
-4. **Validar y publicar en producción**: Asegúrese de que todo funciona y, a continuación, publíquelo en directo.
+3. **Implementar en un entorno de desarrollo**: Utilice un entorno en el que pueda iterar en el desarrollo de etiquetas.
+4. **Validar y publicar para producción**: Asegúrese de que todo funcione y, a continuación, publíquelo para su producción.
 
 Consulte [Creación de una propiedad de Analytics en Adobe Experience Platform Launch](create-analytics-property.md) para empezar.
 
 ## Recursos adicionales
 
-Launch puede personalizarse mucho. Obtenga más información sobre cómo aprovechar al máximo Adobe Analytics mediante la inclusión de los datos adecuados en la implementación.
+Launch se puede personalizar. Obtenga más información sobre cómo aprovechar al máximo Adobe Analytics mediante la inclusión de los datos adecuados en la implementación.
 
-* [Iniciar documentación](https://docs.adobe.com/content/help/en/launch/using/overview.html): Descubra cómo funciona la interfaz y qué extensiones están disponibles.
-* [Extensión](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)de Adobe Analytics: Utilice la extensión de Analytics para enviar datos a Adobe Analytics.
-* [Variables](../vars/overview.md)de implementación: Determine qué variables desea enviar a los servidores de recopilación de datos.
+* [Documentación de Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html): Descubra cómo funciona la interfaz y qué extensiones están disponibles.
+* [Extensión de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html): Utilice la extensión de Analytics para enviar datos a Adobe Analytics.
+* [Variables de implementación](../vars/overview.md): Determine qué variables desea enviar a los servidores de recopilación de datos.
