@@ -1,7 +1,7 @@
 ---
 title: Implementación de Adobe Analytics
 description: Implemente Adobe Analytics en su sitio, propiedad o aplicación.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -19,17 +19,17 @@ Adobe requiere código en su sitio o aplicación para enviar datos a los servido
 El código JavaScript envía una solicitud de imagen a los servidores de recopilación de datos de Adobe. Los datos de página definidos en la implementación se envían como parte de una cadena de consulta en esta solicitud de imagen.
 
 4. Adobe devuelve una imagen en píxeles transparente.
-5. Los servidores de Adobe almacenan los datos recopilados en un grupo *de* informes.
+5. Los servidores de Adobe almacenan los datos recopilados en un *grupo de informes*.
 6. Los datos de grupos de informes rellenan los informes a los que se puede tener acceso en un explorador web.
 
-   La ejecución de código JavaScript ocurre rápidamente y no afecta visiblemente a los tiempos de carga de una página. Este método permite contabilizar páginas que se mostraron cuando un visitante hizo clic en **[!UICONTROL Recarga]**o**[!UICONTROL  Atrás]** para alcanzar una página, porque el JavaScript se ejecuta incluso cuando se recupera la página de la memoria caché.
+   La ejecución de código JavaScript ocurre rápidamente y no afecta visiblemente a los tiempos de carga de una página. Este método permite contabilizar páginas que se mostraron cuando un visitante hizo clic en **[!UICONTROL Recarga]** o **[!UICONTROL Atrás]** para alcanzar una página, porque el JavaScript se ejecuta incluso cuando se recupera la página de la memoria caché.
 
-Adobe Analytics requiere código en el sitio web, la aplicación móvil u otra aplicación para enviar datos a los servidores de recopilación de datos. Existen varios métodos para implementar este código, según la plataforma y las necesidades de la organización.
+Adobe Analytics requiere código en el sitio web, la aplicación móvil u otra aplicación para enviar datos a los servidores de recopilación de datos. Hay varios métodos para implementar este código, según la plataforma y las necesidades de la organización.
 
-* **Inicio** de Adobe Experience Platform: El método estandarizado y recomendado para implementar Adobe Analytics. Coloque una etiqueta de carga en cada página y utilice la interfaz de Launch para determinar cómo se define cada variable.
-* **Administración** dinámica de etiquetas: El predecesor de Launch. DTM utiliza una interfaz similar para implementar Analytics, pero ya no se actualiza y no es tan flexible. Adobe recomienda utilizar Launch para implementar Adobe Analytics.
-* **JavaScript** heredado: El método manual histórico para implementar Adobe Analytics. Esquema de las variables y configuraciones utilizadas en una implementación, que pueden ser útiles para implementaciones de Launch utilizando reglas con código personalizado.
-* **SDK** móvil: Bibliotecas dedicadas para enviar fácilmente datos a Adobe desde su aplicación móvil.
+* **Adobe Experience Platform Launch:** Método estandarizado y recomendado para implementar Adobe Analytics. Coloque una etiqueta de carga en cada página y utilice la interfaz de Launch para determinar cómo se define cada variable.
+* **Dynamic Tag Management:** El predecesor a Launch. DTM utiliza una interfaz similar para implementar Analytics, pero ya no se actualiza y no es tan flexible. Adobe recomienda utilizar Launch para implementar Adobe Analytics.
+* **JavaScript heredado:** Método manual histórico para implementar Adobe Analytics. Esquema de las variables y configuraciones utilizadas en una implementación, que pueden ser útiles para implementaciones de Launch utilizando reglas con código personalizado.
+* **SDK móvil**: Bibliotecas dedicadas para enviar fácilmente datos a Adobe desde aplicaciones móviles.
 
 ## Artículos de implementación de Analytics clave
 
@@ -43,7 +43,7 @@ Adobe Analytics requiere código en el sitio web, la aplicación móvil u otra a
 
 ## Recursos clave de Analytics
 
-* [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Contactar con el servicio de atención al cliente](https://helpx.adobe.com/es/contact/enterprise-support.ec.html)
 * [Foro de Analytics](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Recursos de Adobe Analytics](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
