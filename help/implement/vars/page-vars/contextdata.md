@@ -2,14 +2,14 @@
 title: contextData
 description: Las variables de datos de contexto permiten definir variables personalizadas en cada página que pueden leer las reglas de procesamiento.
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # contextData
 
-Las variables de datos de contexto permiten definir variables personalizadas en cada página que pueden leer las reglas de procesamiento. En lugar de asignar explícitamente valores a variables de Analytics en el código, puede enviar datos en variables de datos de contexto. Las reglas de procesamiento toman valores de variables de datos de contexto y los pasan a las variables de Analytics correspondientes. See [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in the Admin user guide.
+Las variables de datos de contexto permiten definir variables personalizadas en cada página que pueden leer las reglas de procesamiento. En lugar de asignar explícitamente valores a variables de Analytics en el código, puede enviar datos en variables de datos de contexto. Las reglas de procesamiento toman valores de variables de datos de contexto y los pasan a las variables de Analytics correspondientes. Consulte [Reglas de procesamiento](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) en la guía de usuario de administración.
 
 Las variables de datos de contexto son útiles para que los equipos de desarrollo recopilen datos en elementos con nombre en lugar de variables numeradas. Por ejemplo, en lugar de solicitar que los equipos de desarrollo asignen al autor de la página a `eVar10`, puede solicitar que se asigne a `s.contextData["author"]` ella. Un administrador de Analytics de su organización puede crear reglas de procesamiento para asignar variables de datos de contexto a variables de análisis para los informes. En última instancia, los equipos de desarrollo solo se preocuparían por las variables de datos de contexto en lugar de por las muchas variables de página que ofrece Adobe.
 
@@ -44,7 +44,7 @@ Las reglas de procesamiento se aplican inmediatamente una vez guardadas. No se a
 
 ## Enviar datos de contexto en una llamada de seguimiento de vínculos
 
-Incluya la variable de datos de contexto como una propiedad de `contextData` en `s.linkTrackVars`:
+Incluya la variable de datos de contexto como una propiedad de `contextData` en [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";
