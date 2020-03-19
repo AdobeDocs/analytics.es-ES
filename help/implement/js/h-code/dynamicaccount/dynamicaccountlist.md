@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountList
 description: Establezca una lógica sobre cómo determina la implementación su grupo de informes.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 > [!IMPORTANT] Las cuentas dinámicas solo se admiten mediante implementaciones de JavaScript heredadas (código H). Estas variables no son compatibles con las bibliotecas de AppMeasurement actuales ni con Adobe Experience Platform Launch.
 
-La `s.dynamicAccountList` variable determina dinámicamente el valor de `s_account`. Si `dynamicAccountSelection` se establece en `true`, la `dynamicAccountMatch` variable se compara con `dynamicAccountList`. Si se encuentra una coincidencia, se utiliza la ID del grupo de informes coincidente.
+La variable `s.dynamicAccountList` determina dinámicamente el valor de `s_account`. Si `dynamicAccountSelection` se establece en `true`, la variable `dynamicAccountMatch` se compara con `dynamicAccountList`. Si se encuentra una coincidencia, se utiliza el ID del grupo de informes coincidente.
 
 ## Sintaxis
 
@@ -25,9 +25,9 @@ La entrada válida es una lista de pares rsid y valor separados por punto y coma
 
 * Uno o varios ID de grupo de informes (separados por coma).
 * Un signo igual.
-* Una o más cadenas para coincidir (separadas por comas)
+* Una o más cadenas para coincidir (separadas por comas).
 
-En la cadena solo se deben usar caracteres ASCII estándar. No incluya espacios.
+En la cadena solo deben usarse caracteres ASCII estándar. No incluya espacios.
 
 ## Ejemplos
 
