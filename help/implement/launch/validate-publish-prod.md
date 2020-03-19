@@ -1,7 +1,7 @@
 ---
 title: Implementación de Adobe Analytics en un entorno de desarrollo
 description: Descubra cómo utilizar Adobe Experience Platform Launch para implementar Adobe Analytics en su entorno de desarrollo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
@@ -17,11 +17,11 @@ Una vez que la biblioteca de Adobe Experience Platform Launch se haya puesto en 
 
 ## Valide la implementación de desarrollo con Experience Cloud Debugger
 
-El depurador de Experience Cloud es un complemento de Chrome que muestra todas las etiquetas de Experience Cloud presentes en una página.
+Experience Cloud Debugger es un complemento de Chrome que muestra todas las etiquetas de Experience Cloud presentes en una página.
 
-1. Abra el [Explorador web de Chrome](https://www.google.com/chrome/) y vaya a [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) en la tienda web de Chrome para instalar la extensión.
+1. Abra el [Explorador web de Chrome](https://www.google.com/intl/es/chrome/) y vaya a [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) en la tienda web de Chrome para instalar la extensión.
 2. Vaya al sitio web de desarrollo en el que haya implementado Launch.
-3. Haga clic en el icono de Adobe Experience Cloud Debugger en la parte superior derecha de Chrome
+3. Haga clic en el icono de Adobe Experience Cloud Debugger en la parte superior derecha de Chrome.
 4. Si todo está correctamente implementado, debe ver el contenido dentro de Adobe Analytics, Adobe Experience Platform Launch y el servicio de ID de visitante de Adobe Experience Cloud:
 
 ![Debugger][assets/debugger.png]
@@ -57,7 +57,7 @@ En el sitio, abra la consola del desarrollador del explorador (normalmente F12).
 * No hay errores de JavaScript en la consola. Póngase en contacto con los propietarios del sitio web de su organización para asegurarse de que se han resuelto todos los errores de JS.
 * El código de encabezado está correctamente implementado: Asegúrese de que el código de encabezado se encuentra dentro de la etiqueta `<head>` y de que el archivo existe.
 * La biblioteca AppMeasurement existe: Navegue directamente al origen de JS para asegurarse de que el archivo JS contiene código. Si no es así, asegúrese de que se crea cada entorno y de que la biblioteca se publica en el entorno correspondiente.
-* Interferir complementos: Algunos complementos de Chrome pueden evitar que las solicitudes de imagen se activen. Deshabilite los complementos que puedan impedir el envío de datos a los servidores de Adobe.
+* Complementos de intervención: Algunos complementos de Chrome pueden evitar que se activen solicitudes de imagen Deshabilite los complementos que puedan impedir el envío de datos a los servidores de Adobe.
 
 ## Pasos siguientes
 
