@@ -2,16 +2,16 @@
 title: addProductEvent
 description: Agrega eventos personalizados a la variable products y events.
 translation-type: tm+mt
-source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# Complemento de Adobe:addProductEvent
+# Complemento de Adobe: addProductEvent
 
 > [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
 
-El `addProductEvent` complemento agrega un evento numérico o de moneda a la `products` variable. Adobe recomienda utilizar este complemento si desea agregar un evento numérico o monetario a la `products` variable sin preocuparse por el formato de la cadena de producto. Este complemento no es necesario si no se utilizan eventos numéricos o monetarios en la `products` variable.
+El `addProductEvent` complemento agrega un evento numérico o de moneda a la [`products`](../page-vars/products.md) variable. Adobe recomienda utilizar este complemento si desea agregar un evento numérico o monetario a la `products` variable sin preocuparse por el formato de la cadena de producto. Este complemento no es necesario si no se utilizan eventos numéricos o monetarios en la `products` variable.
 
 ## Instalación del complemento con la extensión Adobe Experience Platform Launch
 
@@ -42,7 +42,7 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 ## Instalación del complemento mediante AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante `s_gi`). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -65,7 +65,7 @@ El `addProductEvent` método utiliza los siguientes argumentos:
 * **`ev`** (requerido, cadena): El valor asignado al evento numérico o de moneda en el `en` argumento.  El valor predeterminado es `1` cuando no se establece.
 * **`ap`** (opcional, booleano): Si la variable products contiene actualmente más de una entrada de producto, un valor de `true` (o `1`) agrega el evento a todas las entradas de producto.  El valor predeterminado es `false` cuando no se establece.
 
-El `addProductEvent` no devuelve nada. En su lugar, agrega el evento y su valor a la `products` variable. El complemento también agrega automáticamente el evento a la `events` variable, ya que también se requiere allí.
+El `addProductEvent` no devuelve nada. En su lugar, agrega el evento y su valor a la `products` variable. El complemento también agrega automáticamente el evento a la [`events`](../page-vars/events/events-overview.md) variable, ya que también se requiere allí.
 
 ## Cookies
 
@@ -73,7 +73,7 @@ El complemento addProductEvent no crea ni utiliza cookies
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.&deg; 1
+### Ejemplo n.º 1
 
 El siguiente código establece la `s.products` variable en `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
@@ -85,7 +85,7 @@ s.addProductEvent("event35", "25");
 
 El código anterior también establece la `s.events` variable en `"purchase,event35"`
 
-### Ejemplo n.&deg; 2
+### Ejemplo n.º 2
 
 El siguiente código establece la `s.products` variable en `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
@@ -96,7 +96,7 @@ s.addProductEvent("event35", 25, 1);
 
 Cuando el tercer argumento de la `addProductEvent` llamada es `true` (o `1`), cada entrada de producto tiene el evento especificado en la llamada agregado a su valor.
 
-### Ejemplo n.&deg; 3
+### Ejemplo n.º 3
 
 El siguiente código establece la `s.products` variable en `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
@@ -110,7 +110,7 @@ s.addProductEvent("event35", "15");
 
 El código anterior también establece la `s.events` variable en `"purchase,event2,event33,event34,event35"`
 
-### Ejemplo n.&deg; 4
+### Ejemplo n.º 4
 
 El siguiente código establece la `s.products` variable en `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
@@ -126,7 +126,7 @@ El código anterior también establece la `s.events` variable en `"purchase,even
 
 > [!NOTE] El segundo argumento de la llamada puede ser un entero **o** una cadena que represente un número/número entero
 
-### Ejemplo n.&deg; 5
+### Ejemplo n.º 5
 
 Si `s.products` aún no se ha establecido, el siguiente código lo establece en `";;;;event35=25"`
 
