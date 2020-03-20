@@ -1,20 +1,20 @@
 ---
-description: Muestra las impresiones servidas y cuántos usuarios únicos han visto dichas impresiones.
 title: Diagrama de dispersión
-uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+description: Una visualización que muestra la relación entre hasta tres métricas.
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
 
 # Diagrama de dispersión
 
-Muestra las impresiones servidas y cuántos usuarios únicos han visto dichas impresiones.
+La visualización de diagrama de puntos muestra la relación entre los valores de dimensión y hasta tres métricas. Requiere tres componentes y admite la visualización de hasta cuatro componentes.
 
-El tamaño de cada uno de los puntos de datos proporciona una pista visual acerca del número medio de veces que un visor ha sido expuesto a un anuncio. El tamaño y los datos pueden variar en función de las dimensiones, intervalos de fechas y filtros que haya seleccionado.
+* El componente de fila (normalmente una dimensión) representa cada punto del gráfico. Las distintas filas se muestran como puntos de color diferentes.
+* La columna situada más a la izquierda (normalmente, una métrica) representa la posición del punto en el eje Y (vertical).
+* La segunda columna representa la posición del punto en el eje X (horizontal).
+* La tercera columna determina el radio del punto.
+* La visualización de diagrama de puntos ignora todas las columnas subsiguientes de una tabla improvisada.
 
-![](assets/scatter.png)
-
-> [!NOTE] Una tabla asociada con un diagrama de dispersión que requiere al menos dos columnas. La primera columna define el eje X y la segunda columna define el eje Y. Si existe una tercera columna disponible, el diagrama de dispersión la utiliza para determinar el radio del punto. En otras palabras, las columnas *1*, *2* y *3* se asignan a *X*, *Y* y *radio del punto*.
-
+![Diagrama de dispersión](assets/scatter.png)
