@@ -3,7 +3,7 @@ description: 'null'
 title: Información general del panel de atribución
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
+source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
 
 ---
 
@@ -36,7 +36,7 @@ El panel de atribución es una función de [Attribution IQ](../../attribution-iq
 
 | Icono de la interfaz de usuario | Modelo de atribución | Definición | Uso |
 | --- | --- | --- | --- |
-| ![Algoritmo](assets/algorithmic.png) | [Algoritmo](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. | Útil para evitar conjeturas o heurística al elegir el modelo de atribución adecuado para su negocio. |
+| ![Algorítmico](assets/algorithmic.png) | [Algorítmico](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. | Útil para evitar conjeturas o heurística al elegir el modelo de atribución adecuado para su negocio. |
 
 ## Ventanas retrospectivas
 
@@ -96,3 +96,5 @@ La atribución siempre se ejecuta antes de la segmentación y esta se ejecuta an
 Por ejemplo, si crea un VRS y le aplica un segmento “Display Hits”, puede ver otros canales en una tabla utilizando algunos modelos de atribución.
 
 ![Grupo de informes virtuales de solo visualización](assets/vrs-aiq-example.png)
+
+> [!NOTE] Si un segmento suprime las visitas que contengan la métrica, esas instancias de métrica no se atribuirán a ninguna dimensión. Sin embargo, un filtro de informe similar simplemente ocultará algunos valores de dimensión, sin ningún impacto en las métricas procesadas por el modelo de atribución. Como resultado, un segmento y un filtro con definiciones comparables a veces pueden devolver valores inferiores para el segmento.
