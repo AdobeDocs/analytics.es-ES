@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -107,7 +107,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [Conjuntos de reglas de clasificación](c-classifications2/crb/classification-rule-set.md)
       + [Reglas de clasificación](c-classifications2/crb/classification-quickstart-rules.md)
       + [Definiciones de reglas de clasificación](c-classifications2/crb/classification-rule-definitions.md)
-      + [Subclasificaciones y el Generador de reglas: Caso de uso](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [Subclasificaciones y el Generador de reglas](c-classifications2/crb/sub-classification-rule-builder.md)
    + Clasificaciones numéricas 2 {#numeric2-classification}
       + [Resumen de clasificaciones numéricas 2](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [Crear clasificaciones numéricas 2](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
@@ -327,11 +327,11 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
    + [Configurar informes en tiempo real](c-real-time-reporting/t-realtime-admin.md)
    + [Métricas y dimensiones en tiempo real compatibles](c-real-time-reporting/realtime-metrics.md)
 + Canales de marketing {#marketing-channels}
-   + [Introducción a los canales de mercadotecnia](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Introducción a los Canales de mercadotecnia](c-marketing-channels/c-getting-started-mchannel.md)
    + [Administrar Canales de marketing](c-marketing-channels/c-channels.md)
    + [Reglas de procesamiento de canales de marketing](c-marketing-channels/c-rules.md)
    + [Clasificaciones en los canales de marketing](c-marketing-channels/classifictions-mchannel.md)
    + [Caducidad de la participación del visitante](c-marketing-channels/visitor-engagement.md)
-   + [Analizar canales de mercadotecnia](c-marketing-channels/analyze-mc.md)
-   + [Permisos de canales de mercadotecnia](c-marketing-channels/c-channel-report-access.md)
-   + [Preguntas más frecuentes y ejemplos de canales de mercadotecnia](c-marketing-channels/c-faq.md)
+   + [Analizar Canales de mercadotecnia](c-marketing-channels/analyze-mc.md)
+   + [Permisos de Canales de marketing](c-marketing-channels/c-channel-report-access.md)
+   + [Preguntas más frecuentes y ejemplos de Canales de marketing](c-marketing-channels/c-faq.md)
