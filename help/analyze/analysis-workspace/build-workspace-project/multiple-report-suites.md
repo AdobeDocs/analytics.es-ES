@@ -2,7 +2,7 @@
 title: Varios grupos de informes en Workspace
 description: Descubra cómo y por qué crear proyectos en Workspace con varios grupos de informes
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
@@ -17,6 +17,12 @@ Esta capacidad es útil si desea, por ejemplo,
 
 * Cree un tablero de métricas y visualizaciones para informar a otras organizaciones. Ahora puede incluir datos de varios grupos de informes en el mismo proyecto.
 
+## Aplicar grupo de informes a todos los paneles
+
+Puede aplicar un grupo de informes a todos los paneles a la vez haciendo clic con el botón secundario en el encabezado de cualquier panel y seleccionando **[!UICONTROL Apply Report Suite to All Panels]**.
+
+![](assets/apply-rs-all-panels.png)
+
 ## Panel activo
 
 Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a &quot;panel inactivo&quot;. Puede reconocer el panel activo por el borde azul claro que lo rodea. Al hacer clic dentro de un panel, este se convierte en el panel activo.
@@ -27,8 +33,8 @@ Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a 
 | Tarea | Panel activo | Panel inactivo |
 |---|---|---|
 | Cambiar grupo de informes | Sí | No |
-| Arrastrar y soltar componentes | Sí  | Sí, para cualquier panel que esté en el mismo grupo de informes que el panel activo. |
-| Arrastrar y soltar visualizaciones | Sí  | Sí, para cualquier panel que esté en el mismo grupo de informes que el panel activo. |
+| Arrastrar y soltar componentes | Sí | Sí, para cualquier panel que esté en el mismo grupo de informes que el panel activo. |
+| Arrastrar y soltar visualizaciones | Sí | Sí, para cualquier panel que esté en el mismo grupo de informes que el panel activo. |
 
 ## Trabajar con varios grupos de informes
 
