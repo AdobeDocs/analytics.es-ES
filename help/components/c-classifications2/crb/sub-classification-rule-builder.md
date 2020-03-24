@@ -1,46 +1,35 @@
 ---
-description: Puede combinar el Generador de reglas de clasificaciones con subclasificaciones para simplificar la administración de clasificaciones y reducir el número de reglas necesarias. Puede ser conveniente hacer esto si el código de seguimiento está formado por códigos que desea clasificar de forma independiente.
-subtopic: Classifications
-title: 'Subclasificaciones y el Generador de reglas: Caso de uso'
-topic: Admin tools
-uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
+description: No se puede combinar el Generador de reglas de clasificación con subclasificaciones.
+title: Subclasificaciones y el Generador de reglas
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
 
-# Subclasificaciones y el Generador de reglas: Caso de uso
+# Subclasificaciones y el Generador de reglas
 
-Puede combinar el Generador de reglas de clasificaciones con subclasificaciones para simplificar la administración de clasificaciones y reducir el número de reglas necesarias. Puede ser conveniente hacer esto si el código de seguimiento está formado por códigos que desea clasificar de forma independiente.
+Puede combinar el Generador de reglas de clasificación con subclasificaciones si se asegura de que cada subclasificación tiene un valor principal.
 
-## Subclasificaciones y el Generador de reglas: Caso de uso {#concept_6C8672C242544D7487E82886BBFABE6E}
-
-Puede combinar el Generador de reglas de clasificaciones con subclasificaciones para simplificar la administración de clasificaciones y reducir el número de reglas necesarias. Puede ser conveniente hacer esto si el código de seguimiento está formado por códigos que desea clasificar de forma independiente.
+La combinación del Generador de reglas de clasificación con subclasificaciones puede simplificar la administración de la clasificación y reducir el número de reglas necesarias. Puede que desee hacerlo si el código de seguimiento consta de códigos que desea clasificar por separado.
 
 Consulte [Subclasificaciones](/help/components/c-classifications2/c-sub-classifications.md) para obtener información conceptual sobre las subclasificaciones.
 
-**Ejemplo**
+## Ejemplo
 
-Supongamos que tenemos el siguiente código de seguimiento:
+Suponga el siguiente código de seguimiento:
 
 `channel:broad_campaign:creative`
 
-Las jerarquías de clasificación permiten aplicar una clasificación a otra (llamada *`sub-classification`*). Es decir, puede usar el importador como si fuera una base de datos relacional con varias tablas. Una tabla asigna los códigos de seguimiento completos a claves y otra asigna esas claves a otras tablas.
+Las jerarquías de clasificación permiten aplicar una clasificación a otra (llamada *`sub-classification`*). Es decir, puede usar el importador como una base de datos relacional, con varias tablas. Una tabla asigna los códigos de seguimiento completos a las claves y otra asigna esas claves a otras tablas.
 
 ![](assets/sub_class_table.png)
 
-Una vez preparada esta estructura, puede usar el  [Generador de reglas de clasificaciones](/help/components/c-classifications2/crb/classification-rule-builder.md) para cargar archivos pequeños que solo actualicen las tablas de búsqueda (las tablas verde y roja de la imagen anterior). A continuación, puede usar el Generador de reglas para mantener actualizada la tabla de la clasificación principal.
+Una vez preparada esta estructura, puede usar el  [Generador de reglas de clasificaciones](/help/components/c-classifications2/crb/classification-rule-builder.md) para cargar archivos pequeños que solo actualicen las tablas de búsqueda (las tablas verde y roja de la imagen anterior). A continuación, puede utilizar el generador de reglas para mantener actualizada la tabla de clasificación principal.
 
-En la siguiente tarea, se describe cómo hacerlo.
+La siguiente tarea describe cómo hacerlo.
 
 ## Configurar subclasificaciones mediante el Generador de reglas {#task_2D9016D8B4E84DBDAF88555E5369546F}
-
-<!-- 
-
-t_rule_builder_subclass.xml
-
- -->
 
 Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el Generador de reglas.
 
@@ -58,7 +47,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
    Para hacerlo, se usa una expresión regular. En este ejemplo, la regla para rellenar el  *`Broad Campaign code`* utilizaría esta expresión regular:
 
-   | `#` | Tipo de regla | Coincidencias | Configurar clasificación | Hasta |
+   | `#` | Tipo de regla | Buscar coincidencias | Configurar clasificación | Hasta |
    |---|---|---|---|---|
    |  | Expresión regular | `[^\:]:([^\:]):([^\:]`) | código Campaña general | `$1` |
    |  | Expresión regular | `[^\:]:([^\:]):([^\:]`) | código Creativo | `$2` |
@@ -73,7 +62,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
    Ejemplo:
 
-   | Clave | Canal | código Campaña general | Campaña amplia, código&amp;Sombrero;Tipo de campaña | Campaña amplia de código&amp;Sombrero;Director de campaña | ... |
+   | Clave | Canal | código Campaña general | Campaña amplia, código&amp;Hat;Tipo de campaña | Campaña amplia de código&amp;Hat;Director de campaña | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | Marca | Suzanne |  |
    | * |  | 222 | Marca | Frank |  |
@@ -82,4 +71,4 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
    Por ejemplo, cargaría este archivo cuando se introdujera un nuevo *`Broad Campaign code`*. Este archivo se aplicaría a los valores clasificados previamente. Del mismo modo, si crea una nueva subclasificación (por ejemplo,  *`Creative Theme`* como subclasificación de *`Creative code`*), solo se carga el archivo de subclasificación, en lugar de todo el archivo de clasificación.
 
-   Por lo que respecta a los informes, estas subclasificaciones funcionan exactamente igual que las clasificaciones de nivel superior. De este modo, se reduce la carga administrativa necesaria para usarlas.
+   Para sistema de informes, estas subclasificaciones funcionan exactamente igual que las clasificaciones de nivel superior. Esto reduce la carga de administración necesaria para utilizarlos.-->
