@@ -4,23 +4,23 @@ keywords: DFA
 title: Funciones de integración
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Funciones de integración{#integration-features}
+# Funciones de integración {#integration-features}
 
 Una vez activada, la integración Data Connectors DFA proporciona las siguientes métricas para sus informes de Adobe Analytics:
 
 * Visualizaciones
 * Clics de DFA
 * Impresiones
-* (opcional) Datos de costes de DFA
-* (opcional) Errores de consultas de DFA, Tiempos de espera
+* (Opcional) Datos de costes de DFA
+* (Opcional) Errores de consultas de DFA, Tiempos de espera
 
-> [!NOTE] Esta integración no admite rastreadores de clics (anteriormente comandos de clics). Los rastreadores de clics se usan para registrar la cantidad de clics en vínculos de texto, vínculos en mensajes de correo electrónico o en otros elementos que no son modificables en un sitio web.
+> [!NOTE] Esta integración no proporciona soporte para rastreadores de clics (anteriormente comandos de clics). Los rastreadores de clics se usan para registrar la cantidad de clics en vínculos de texto, vínculos en mensajes de correo electrónico o en otros elementos que no son modificables en un sitio web.
 
 La integración de DFA de Data Connectors crea automáticamente códigos de seguimiento de DFA a partir de los datos devueltos por DFA. Estos códigos de seguimiento se crean para identificar de forma exclusiva un anuncio junto con su Ubicación y Creativo asociados. A continuación, se menciona la estructura del código de seguimiento, de acuerdo con la versión de la integración. La versión 1.5 tiene este formato:
 
@@ -42,18 +42,18 @@ Las otras dos clasificaciones, Herramienta de entrega (DoubleClick para Anuncian
 
 ## Anulación de duplicación de SearchCenter {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
-La integración de DFA ahora reconoce Adobe SearchCenter. Al habilitar la anulación de duplicación de SearchCenter mediante el Asistente para Conectores de datos, los visitantes impulsados por la búsqueda no harán que se extraigan datos del Servidor de Floodlight de DFA y no *`s.campaign`* serán rellenados por DFA, permitiendo así que SearchCenter los rellene. Además, DFA y SearchCenter ahora rellenan valores de anulación de duplicación en las variables para cada producto.
+La integración de DFA ahora reconoce Adobe SearchCenter. Al habilitar la anulación de duplicación de SearchCenter mediante el asistente de Data Connectors, los visitantes guiados por la búsqueda no hacen que se extraigan datos del servidor de Floodlight de DFA y no se completan los *`s.campaign`* con DFA, permitiendo así que SearchCenter los rellene. Además, DFA y SearchCenter ahora rellenan valores de anulación de duplicación en las variables para cada producto.
 
 La siguiente lista describe la lógica que se habilita cuando está habilitada la anulación de duplicación de SearchCenter:
 
-If **[!UICONTROL DFA]** &gt; **[!UICONTROL SearchCenter deduplication]** is selected in the wizard:
+Si **[!UICONTROL DFA]** > **[!UICONTROL Anulación de duplicación de SearchCenter]** está seleccionada en el asistente:
 
-* En el caso de una pulsación de DFA, la integración rellenará la cadena "Pulsación de DFA" con la eVar de SCM configurada.
-* En el caso de una visualización de DFA, la integración rellenará la cadena "Visualización de DFA" en la eVar de SCM.
+* En el caso de hacer clic en DFA, la integración rellena la cadena “Hacer clic en DFA” con la eVar de SCM configurada.
+* En el caso de una visualización de DFA, la integración rellena la cadena “Visualización de DFA” con la eVar de SCM configurada.
 
-If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is selected in the wizard:
+Si **[!UICONTROL SearchCenter]** > **[!UICONTROL Anulación de duplicación de DFA]** está seleccionada en el asistente:
 
-* En el caso de una visualización de DFA, la integración rellenará la cadena "Visualización de DFA" en la eVar de SCM.
+* En el caso de una visualización de DFA, la integración rellena la cadena “Visualización de DFA” con la eVar de SCM configurada.
 
-> [!NOTE] Si SearchCenter &gt; Anulación de duplicación de DFA está habilitada y se establece el parámetro de cadena de consulta de SearchCenter, la visita no se considerará para el procesamiento de DFA. Esto significa que el parámetro de cadena de consulta de SearchCenter debería ser diferente al parámetro de pulsación de DFA, y ningún anuncio de visualización debería establecer el parámetro de cadena de consulta de SearchCenter.
+> [!NOTE] Si SearchCenter > Anulación de duplicación de DFA está habilitada y el parámetro de cadena de consulta de SearchCenter está establecido, la visita no se considera para procesamiento de DFA. Esto significa que el parámetro de cadena de consulta de SearchCenter debería ser diferente al parámetro de clics en DFA, y ningún anuncio de visualización debería establecer el parámetro de cadena de consulta de SearchCenter.
 
