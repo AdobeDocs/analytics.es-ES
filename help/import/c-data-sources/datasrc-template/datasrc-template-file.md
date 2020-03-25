@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Resumen de plantilla de fuentes de datos
 topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,13 +22,13 @@ Para saber cuáles son las métricas y dimensiones compatibles con cada tipo, co
 * [Tráfico](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) (obsoleto)
 * [Conversión](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md)
 * [ID de transacción](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)
-* [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+* [ID de visitante](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 * [Procesamiento completo](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)
 
-For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md).
+Por ejemplo, para un tipo de datos de ID de visitante, se puede añadir una columna para cualquiera de las métricas o dimensiones que se enumeran en [ID de visitante](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md).
 
 Una vez creada la plantilla, puede descargarla, escribir los datos en ella y cargar el archivo al sitio FTP del sistema de fuentes de datos. En cuanto el servidor de fuentes de datos procese los datos importados, estos ya se podrán usar en informes de marketing.
 
-The Data Source template is a [!DNL .txt] file that you can open with any text editor. Sin embargo, es más fácil trabajar con la plantilla en Microsoft Excel u otra aplicación de hoja de cálculo. El contenido de la plantilla depende de las opciones que se elijan en el [!UICONTROL Asistente para la activación de fuentes de datos].
+La plantilla de la fuente de datos es un archivo [!DNL .txt] que se puede abrir con cualquier editor de texto. Sin embargo, es más fácil trabajar con la plantilla en Microsoft Excel u otra aplicación de hoja de cálculo. El contenido de la plantilla depende de las opciones que se elijan en el [!UICONTROL asistente para la activación de fuentes de datos].
 
 Consulte [Referencia sobre el archivo de importación](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md) para obtener más detalles.
