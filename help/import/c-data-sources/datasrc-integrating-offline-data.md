@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Integración de transacciones y clientes
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Integración de transacciones y clientes
 
-Las fuentes de datos ofrecen dos formas adicionales de integrar los eventos que se producen sin conexión con los datos en línea.
+Las fuentes de datos ofrecen otros dos modos de integrar eventos sin conexión en sus datos en línea.
 
 * [Activar el registro de ID de transacción](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [Integración de transacciones](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -24,7 +24,7 @@ Estas integraciones asocian los datos correspondientes a actividades sin conexi�
 
 El ID de transacción se puede activar y desactivar desde la interfaz de usuario, sin necesidad de recurrir al servicio de atención al cliente:
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL [Seleccionar grupo de informes]]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Configuración general de cuenta]**.
 
 <!-- 
 
@@ -36,7 +36,7 @@ Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONT
 
  -->
 
-To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+Para comprobar si el registro de ID de transacción está activado, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Fuentes de datos]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -46,10 +46,10 @@ La pestaña [!UICONTROL Administrar] muestra el estado del registro de ID de tra
 
 Los ID de cliente se usan para indicar la actividad que realiza un cliente estando desconectado y vincularla con su actividad en línea. Estos ID se deben usar cuando:
 
-* Se coloca un ID de cliente en la variable *`visitorID`* campaign.
+* Se coloca un ID de cliente en la variable *`visitorID`*.
 * No hay ningún punto indicado en el que la actividad del cliente pase a realizarse sin conexión, como puede ser la solicitud o la compra de un cliente potencial.
 
-Para configurar este tipo de fuente de datos, consulte [Visitor ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+Para configurar este tipo de fuente de datos, consulte [ID de visitante](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## Integración de transacciones {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
