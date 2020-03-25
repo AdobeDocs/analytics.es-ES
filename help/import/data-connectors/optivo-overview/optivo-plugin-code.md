@@ -1,16 +1,16 @@
 ---
-description: Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Adobe Analytics en sus páginas.
+description: Si seleccionó el método de recopilación de datos del complemento de JavaScript, copie las siguientes líneas de código y agréguelas al código de Adobe Analytics en sus páginas.
 title: Código de complemento de Adobe Analytics
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
 
-# Código de complemento de Adobe Analytics{#adobe-analytics-plug-in-code}
+# Código de complemento de Adobe Analytics {#adobe-analytics-plug-in-code}
 
-Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Adobe Analytics en sus páginas.
+Si seleccionó el método de recopilación de datos del complemento de JavaScript, copie las siguientes líneas de código y agréguelas al código de Adobe Analytics en sus páginas.
 
 ```
 /* 
@@ -50,5 +50,5 @@ s.eVar11="Post Click Product ID"; // e.g. "shoes"
 s.eVar12="Post Click Type of Action"; // e.g. "purchase"; 
 ```
 
-> [!NOTE] El complemento de arriba supone que hay ciertas variables de comercio personalizadas (eVars) disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Adobe Analytics, simplemente reemplácelas por las que están disponibles.
+> [!NOTE] El complemento de arriba supone que hay ciertas variables de comercio personalizadas (eVars) disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Adobe Analytics, cámbielas por las que están disponibles.
 
