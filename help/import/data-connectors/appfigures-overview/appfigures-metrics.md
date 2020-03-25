@@ -1,53 +1,53 @@
 ---
-description: Las siguientes métricas se sincronizan como parte de la integración appFigures.
-title: Métrica y dimensiones
+description: Las siguientes métricas se sincronizan como parte de la integración de appFigures.
+title: Métricas y dimensiones
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Métricas y dimensiones{#metrics-and-dimensions}
+# Métricas y dimensiones {#metrics-and-dimensions}
 
-Las siguientes métricas se sincronizan como parte de la integración appFigures.
+Las siguientes métricas se sincronizan como parte de la integración de appFigures.
 
 | Métrica | Descripción |
 |---|---|
-| Descargas de App Store | El número de descargas de aplicaciones móviles. |
-| Compras de App Store (en la aplicación) | Número de compras desde la propia aplicación. |
-| Clasificación de App Store | Se utiliza para definir la métrica promedio calculada de appFigures. No se utiliza directamente. |
-| Divisor de la clasificación de App Store | Se utiliza para definir la métrica promedio calculada de appFigures. No se utiliza directamente. |
-| Clasificación de App Store | Se utiliza para definir la métrica promedio calculada de appFigures. No se utiliza directamente. |
-| Divisor de la clasificación de App Store | Se utiliza para definir la métrica promedio calculada de appFigures. No se utiliza directamente. |
-| Ingresos de App Store (en la aplicación) | El importe de los ingresos dentro de la aplicación. |
-| Ingresos de App Store (uno de descuento) | El importe de los ingresos asociados con la compra de una aplicación. |
-| Derechos de autor de App Store (en la aplicación) | Obsoleto. |
-| Derechos de autor de App Store (uno de ellos no incluido) | Obsoleto. |
+| Descargas de la tienda de aplicaciones | El número de descargas de aplicaciones móviles. |
+| Compras de la tienda de aplicaciones (en la aplicación) | Número de compras desde la propia aplicación. |
+| Clasificación de la tienda de aplicaciones | Se utiliza para definir la métrica promedio calculada de appFigures. No se utiliza directamente. |
+| Divisor de la clasificación de la tienda de aplicaciones | Se utiliza para definir la métrica promedio calculada de appFigures. No se utiliza directamente. |
+| Clasificación de la tienda de aplicaciones | Se utiliza para definir la métrica promedio calculada de appFigures. No se utiliza directamente. |
+| Divisor de la clasificación de la tienda de aplicaciones | Se utiliza para definir la métrica promedio calculada de appFigures. No se utiliza directamente. |
+| Ingresos de la tienda de aplicaciones (en la aplicación) | El importe de los ingresos dentro de la aplicación. |
+| Ingresos de la tienda de aplicaciones (únicos) | El importe de los ingresos asociados con la compra de una aplicación. |
+| Derechos de autor de la tienda de aplicaciones (en la aplicación) | Obsoleto. |
+| Derechos de autor de la tienda de aplicaciones (únicos) | Obsoleto. |
 
-El asistente de conectores de datos crea las siguientes dimensiones de clasificación reservadas para la eVar reservada del ID del objeto AppFigures.
+El asistente de Data Connectors crea las siguientes dimensiones de clasificación reservadas para la eVar reservada del ID de objeto de appFigures.
 
-| Dimensión Clasificación | Descripción |
+| Dimensión de clasificación | Descripción |
 |---|---|
-| Nombre del país | Nombre del país relacionado con la actividad del almacén de aplicaciones. |
-| Nombre del dispositivo | Nombre del dispositivo móvil relacionado con la actividad del almacén de aplicaciones. |
-| Nombre de Appstore | Nombre del almacén de aplicaciones que informó de la actividad. |
+| Nombre del país | Nombre del país relacionado con la actividad de la tienda de aplicaciones. |
+| Nombre del dispositivo | Nombre del dispositivo móvil relacionado con la actividad de la tienda de aplicaciones. |
+| Nombre de la tienda de aplicaciones | Nombre de la tienda de aplicaciones que informó de la actividad. |
 | Nombre de aplicación | Nombre de la aplicación móvil. |
 | Nombre en la aplicación | El elemento comprado dentro de la aplicación. |
-| Nombre de la categoría | Categoría principal de la aplicación en el almacén de aplicaciones. |
-| Revisar título | Título de la revisión. |
-| Revisar comentario | Observaciones del examen |
-| Versión de la aplicación | Versión de la aplicación que se utilizó para generar la revisión. |
-| Usuario de App Store | Autor (nombre de usuario) de la revisión. |
+| Nombre de la categoría | Categoría principal de la aplicación en la tienda de aplicaciones. |
+| Revisar título | Título del comentario para dar su opinión. |
+| Revisar comentario | Texto del comentario de opinión. |
+| Versión de la aplicación | Versión de la aplicación sobre la que se escribe el comentario de opinión. |
+| Usuario de la tienda de aplicaciones | Autor (nombre de usuario) del comentario. |
 
-El asistente para conectores de datos crea la siguiente métrica calculada:
+El asistente de Data Connectors crea la siguiente métrica calculada:
 
 | Métrica calculada | Descripción |
 |--- |--- |
-| Clasificación promedio de App Store (numérica) | Clasificación promedio de la aplicación. Esta métrica calculada se define mediante la fórmula siguiente:   `[App Store Rank]` / `[App Store Rank Divisor]` <br> Nota:  El número de aplicaciones clasificadas por categoría y país varía según las tiendas de aplicaciones. Si la aplicación se clasifica por debajo de este umbral, las clasificaciones de la aplicación no estarán disponibles. |
-| Puntuación media de la tienda de aplicaciones | Clasificación promedio de la aplicación. Esta métrica calculada se define con la siguiente fórmula:  `[App Store Rating]` / `[App Store Rating Divisor]` |
+| Clasificación promedio de la tienda de aplicaciones (numérica) | Clasificación promedio de la aplicación. Esta métrica calculada se define mediante la fórmula siguiente: `[App Store Rank]` / `[App Store Rank Divisor]` <br> Nota: El número de aplicaciones clasificadas por categoría y país varía según la tienda de aplicaciones. Si la aplicación se clasifica por debajo de este umbral, las clasificaciones de la aplicación no están disponibles. |
+| Puntuación media de la tienda de aplicaciones | Clasificación promedio de la aplicación. Esta métrica calculada se define con la siguiente fórmula: `[App Store Rating]` / `[App Store Rating Divisor]` |
 
-## Dimensiones relevantes para cada métrica AppFigures {#section-cd356d3dce04412893beed345305c247}
+## Dimensiones relevantes para cada métrica de appFigures {#section-cd356d3dce04412893beed345305c247}
 
 La siguiente tabla muestra qué dimensiones del informe se relacionan con qué métricas.
 
@@ -55,16 +55,16 @@ La siguiente tabla muestra qué dimensiones del informe se relacionan con qué m
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> Descargas de App Store </td> 
-   <td> Compras de App Store (en la aplicación) </td> 
-   <td> Clasificación de App Store </td> 
-   <td> Divisor de la clasificación de App Store </td> 
-   <td> Clasificación de App Store </td> 
-   <td> Divisor de la clasificación de App Store </td> 
-   <td> Ingresos de App Store (en la aplicación) </td> 
-   <td> Ingresos de App Store (único) </td> 
-   <td> Clasificación promedio de AppStore </td> 
-   <td> Clasificación media de App Store </td> 
+   <td> Descargas de la tienda de aplicaciones </td> 
+   <td> Compras de la tienda de aplicaciones (en la aplicación) </td> 
+   <td> Clasificación de la tienda de aplicaciones </td> 
+   <td> Divisor de la clasificación de la tienda de aplicaciones </td> 
+   <td> Clasificación de la tienda de aplicaciones </td> 
+   <td> Divisor de la clasificación de la tienda de aplicaciones </td> 
+   <td> Ingresos de la tienda de aplicaciones (en la aplicación) </td> 
+   <td> Ingresos de la tienda de aplicaciones (únicos) </td> 
+   <td> Clasificación promedio de la tienda de aplicaciones </td> 
+   <td> Clasificación media de la tienda de aplicaciones </td> 
   </tr> 
   <tr> 
    <td> Nombre del país </td> 
@@ -93,7 +93,7 @@ La siguiente tabla muestra qué dimensiones del informe se relacionan con qué m
    <td> <p> <img id="image_6E5B220C71CD47CEBB9CE65FB42CC692" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Nombre de Appstore </td> 
+   <td> Nombre de la tienda de aplicaciones </td> 
    <td> <p> <img id="image_B0382AE2E0A44D8BBB373E95061C96B7" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_653EE4DADF644E329EB948051AF511CC" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_16E4236EAAC64FC4872603974E61417B" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
@@ -197,7 +197,7 @@ La siguiente tabla muestra qué dimensiones del informe se relacionan con qué m
    <td> <p> <img id="image_58044643FFD44CD1A31370F1D41DEEE3" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Usuario de App Store </td> 
+   <td> Usuario de la tienda de aplicaciones </td> 
    <td> <p> <img id="image_9B14F4DC100644AFB2BA201C1BD09BD7" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_EDF0CCE6E744429EB5E2C7A0DC8893EC" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_2CCE0C5058BE4919A8FC5989D83D9121" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
