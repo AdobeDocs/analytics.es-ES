@@ -1,32 +1,32 @@
 ---
-description: Esta integración de conectores de datos de Adobe combina la potencia del análisis integrado del almacén de aplicaciones móviles appFigures y el seguimiento directo de aplicaciones de Adobe Analytics para crear potentes oportunidades de optimización y análisis para su organización.
+description: La integración de Adobe Data Connectors combina la potencia de los análisis integrados de la tienda de aplicaciones para móviles de appFigures con el seguimiento de aplicaciones directo de Adobe Analytics para crear potentes análisis y oportunidades de optimización para su organización.
 keywords: AppFigures
-title: Conector de datos appFigures para Adobe Analytics
+title: Data Connectors de appFigures para Adobe Analytics
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# appFigures Data Connector for Adobe Analytics{#appfigures-data-connector-for-adobe-analytics}
+# Data Connectors de appFigures para Adobe Analytics {#appfigures-data-connector-for-adobe-analytics}
 
-Esta integración de conectores de datos de Adobe combina la potencia del análisis integrado del almacén de aplicaciones móviles appFigures y el seguimiento directo de aplicaciones de Adobe Analytics para crear potentes oportunidades de optimización y análisis para su organización.
+La integración de Adobe Data Connectors combina la potencia de los análisis integrados de la tienda de aplicaciones para móviles de appFigures con el seguimiento de aplicaciones directo de Adobe Analytics para crear potentes análisis y oportunidades de optimización para su organización.
 
 En el mundo de las aplicaciones móviles, las métricas de rendimiento más importantes se dividen entre dos conjuntos de datos:
 
 * El comportamiento del usuario que puede rastrear directamente.
-* La actividad solo está visible para las tiendas de aplicaciones.
+* La actividad solo visible para las tiendas de aplicaciones.
 
-Al combinar estos dos conjuntos de datos de Analytics, puede tener una imagen completa de cómo sus aplicaciones están creando valor para su organización.
+Al combinar estos dos conjuntos de datos de Analytics, puede tener una imagen completa de cuán beneficiosas son las aplicaciones para su organización.
 
-## Ventajas y características principales{#key-benefits-and-features}
+## Ventajas y características principales {#key-benefits-and-features}
 
 Esta integración ofrece las siguientes ventajas clave.
 
-* Sincronización diaria automatizada de dimensiones y métricas del almacén de aplicaciones entre appFigures y Adobe Analytics.
-* Rellenado de datos históricos durante un máximo de 13 meses antes de la activación de la integración. Póngase en contacto con appFigures si ya ha realizado alguna integración con el proveedor de datos de App Store para evitar superposiciones.
-* Variables dedicadas para los datos del almacén de aplicaciones, por lo que no es necesario utilizar variables de comercio y eventos personalizados.
+* Sincronización diaria automatizada de dimensiones y métricas de la tienda de aplicaciones entre appFigures y Adobe Analytics.
+* Relleno de datos históricos durante un máximo de 13 meses antes de la activación de la integración. Póngase en contacto con appFigures si ya ha realizado alguna integración con el proveedor de datos de la tienda de aplicaciones para evitar sobrescrituras.
+* Se utilizan variables específicas para los datos de la tienda de aplicaciones, por lo que no es necesario utilizar variables y eventos de comercio personalizados.
 
 **Artículos relacionados**
 
