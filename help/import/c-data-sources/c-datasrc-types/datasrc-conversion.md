@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Conversión
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ Cuando se indica un evento Vista, también hay que indicar la dimensión de dato
 
 | Nombre de columna | Descripción |
 |--- |--- |
-| Pulsaciones | Número de vistas del código de seguimiento. |
+| Proporción de clics | Número de vistas del código de seguimiento. |
 | Adiciones al carro de compras | Número de adiciones al carro de compras. |
 | Aperturas del carro de compras | Número de aperturas del carro de compras. |
 | Eliminaciones del carro de compras | Número de eliminaciones del carro de compras. |
