@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Preguntas frecuentes sobre las fuentes de datos
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ Para que las fuentes de datos de ID de transacción vinculen datos sin conexión
 
 Las fuentes de datos no conllevan tasas adicionales, más allá de la llamada a servidor estándar. Los cargos por la llamada a servidor estándar solo se aplican a los tipos de fuentes de datos de procesamiento completo, en que los accesos (hits) individuales se envían como filas de datos. Las fuentes de datos agregadas y de tráfico no conllevan costes adicionales.
 
-## How do I include comments in Data Sources files? {#section_AA42152C7B30425EA541A7BA274E78ED}
+## ¿Cómo se pueden incluir comentarios en los archivos de fuente de datos? {#section_AA42152C7B30425EA541A7BA274E78ED}
 
 Cada fila del archivo de fuente de datos que comience con un signo de almohadilla (#) se considera un comentario.
 
@@ -30,7 +30,7 @@ Cada fila del archivo de fuente de datos que comience con un signo de almohadill
 
 Sí. Puesto que muchos informes de marketing usan la columna de fecha como clave, las fuentes de datos deben incluir una columna de fecha.
 
-## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## ¿Se pueden almacenar datos en variables que ya se están utilizando? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 Para la importación de datos mediante fuentes de datos, Adobe recomienda seleccionar variables nuevas que no estén en uso. Si no está seguro de la configuración del archivo de datos o desea comprender mejor por qué la reutilización de variables comporta riesgos, póngase en contacto con el Servicio de atención al cliente.
 
@@ -50,9 +50,9 @@ Cuando se cargan datos mediante fuentes de datos, estos no sobrescriben otros da
 
 Cuando se cargan datos al sistema de fuentes de datos, se están cargando métricas que estarán disponibles en la interfaz de informes.
 
-Por ejemplo, al cargar los ingresos del centro de llamadas correspondientes a los productos que se venden en el sitio web, puede colocarlos en el mismo informe que los ingresos obtenidos a través de Internet. Sin embargo, no podrá utilizarlo junto con Visitas, ya que no cargó el número de visitas con él. Adobe únicamente puede generar informes sobre las métricas y los elementos cargados mediante las fuentes de datos (además de las métricas habituales de informes de marketing).
+Por ejemplo, al cargar los ingresos del centro de llamadas correspondientes a los productos que se venden en el sitio web, puede colocarlos en el mismo informe que los ingresos obtenidos a través de Internet. Pero no se pueden usar junto con las visitas, porque la información correspondiente a las visitas no se ha cargado junto con la de ingresos. Adobe únicamente puede generar informes sobre las métricas y los elementos cargados mediante las fuentes de datos (además de las métricas habituales de informes de marketing).
 
-## What happens if I pass negative values into reporting through Data Sources? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
+## ¿Qué sucede si se transmiten valores negativos a informes a través de fuentes de datos? {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
 El valor disminuye según corresponda.
 
@@ -83,9 +83,9 @@ Como durante el procesamiento de fuentes de datos (genéricas, no de tráfico) s
 
 ## En las cargas de fuentes de datos o en los archivos de clasificación, ¿la extensión de archivo distingue entre mayúsculas y minúsculas? {#section_710787BA4D8C403D8326D666807832B8}
 
-Si la extensión de un archivo de clasificación o de carga de fuente de datos contiene mayúsculas, no se procesará. Es decir, las extensiones de los archivos de carga de fuentes de datos tienen que estar en minúsculas. For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. Sin embargo, [!DNL .txt] y [!DNL .fin] se procesan.
+Si la extensión de un archivo de clasificación o de carga de fuente de datos contiene mayúsculas, no se procesará. Es decir, las extensiones de los archivos de carga de fuentes de datos tienen que estar en minúsculas. Por ejemplo, no se procesan ni [!DNL file.TXT] ni [!DNL file.FIN]. Tampoco se procesarán las extensiones [!DNL .TAB] ni [!DNL .FIN]. Sin embargo, [!DNL .txt] y [!DNL .fin] sí se procesan.
 
-## ¿Se pueden agregar otros eventos a la plantilla generada o no se puede pasar de tres?{#section_F184913926DD43B1872956CED308ADB5}
+## ¿Se pueden agregar otros eventos a la plantilla generada o no se puede pasar de tres? {#section_F184913926DD43B1872956CED308ADB5}
 
 Se pueden agregar todos los eventos que quiera. Sin embargo, el asistente solo permite agregar hasta tres. Una vez creada la plantilla, se pueden agregar otros eventos según sea necesario.
 
@@ -108,26 +108,26 @@ El sistema de fuentes de datos no presenta datos desglosados por hora. Cuando se
 
 ## ¿Cómo se calculan los visitantes únicos en las cargas de fuente de datos de registros de servidor web? {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
 
-The number of Unique Visitors in a web-server log is calculated as the different distinct combinations of *`IP Address`* and *`User Agent`* in the Web log. Cada combinación única de estos dos elementos se calcula como un visitante único. Si la columna del [!UICONTROL Agente de usuario] está vacía (o no se incluye en el registro del servidor web), no será posible identificar recuentos de visitantes únicos, y toda la carga de datos se contará como un mismo visitante único (incluso si hay más de una dirección IP).
+La cantidad de visitantes únicos en los registros de servidor web se calcula según la cantidad de combinaciones distintas de *`IP Address`* y *`User Agent`* que aparezcan en el registro. Cada combinación única de estos dos elementos se calcula como un visitante único. Si la columna del [!UICONTROL Agente de usuario] está vacía (o no se incluye en el registro del servidor web), no será posible identificar recuentos de visitantes únicos, y toda la carga de datos se contará como un mismo visitante único (incluso si hay más de una dirección IP).
 
 ## En el sistema de fuentes de datos, ¿cómo se puede saber qué usuario corresponde a cada grupo de informes? {#section_8EF9D22D5BE14C218724B06E78EF7DF4}
 
-En el sistema de fuentes de datos, el ID del grupo de informes es la primera parte del nombre de usuario, al que se le agrega un número aleatorio que identifica la fuente de datos específica que se configuró. Por ejemplo, `RSID-drmossdev5 Login-drmossdev5_0001343430`.
+En el sistema de fuentes de datos, el ID del grupo de informes es la primera parte del nombre de usuario, al que se le agrega un número aleatorio que identifica la fuente de datos específica que se configuró. Por ejemplo: `RSID-drmossdev5 Login-drmossdev5_0001343430`.
 
-## How does version 15 and segmentation impact data sources? {#section_7E9E541DB73C49CDAADC031B678F8678}
+## ¿Cuál es el efecto que tienen la versión 15 y la segmentación en las fuentes de datos? {#section_7E9E541DB73C49CDAADC031B678F8678}
 
 En la versión 15, la manera de funcionar de las fuentes de datos varía según el tipo de fuente:
 
-* Las fuentes de datos de procesamiento completo, registro web e ID de transacción aparecen como es habitual. Cuando se aplican segmentos, los datos se filtran de acuerdo con las reglas de los segmentos.
+* Las fuentes de datos de procesamiento completo, registro web y el ID de transacción aparecen como es habitual. Cuando se aplican segmentos, los datos se filtran de acuerdo con las reglas de los segmentos.
 * Las fuentes de datos estándar o de conversión (campañas de publicidad, CRM, satisfacción de clientes, rendimiento del sitio, datos de resumen genéricos, compras en línea, posibles clientes y presupuestos y datos de canales sin conexión) aparecen en la versión 15. Sin embargo, dado que esas fuentes de datos no están vinculadas a las visitas ni los visitantes, quedan excluidas al aplicar segmentos.
 
-## ¿Las métricas que se importan con un ID de transacción están disponibles en fuentes de datos del flujo de navegación y en el almacén de datos? {#section_01CD14CA3E11490CB2CBA433C649029E}
+## ¿Las métricas que se importan con un ID de transacción están disponibles en fuentes de datos del flujo de navegación y en Data Warehouse? {#section_01CD14CA3E11490CB2CBA433C649029E}
 
 La fuente de datos contiene todas las métricas del ID de transacción que se han recibido. Sin embargo, si se cargan datos del ID de transacción correspondientes a una fecha ya pasada, la única forma de obtener esos datos es volver a descargar la fuente de datos de ese día.
 
 ## ¿Las eVars que continúan en este momento en el perfil del visitante se asignan a métricas cargadas mediante fuentes de datos? {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-En el caso del procesamiento completo, no. En el caso del ID de transacción, sí. Las fuentes de datos de procesamiento completo se procesan con perfiles de visitante independientes, por lo que aunque las ID de visitante coincidan, no se vincularán entre sí desde la perspectiva de asignación de eVar. Como las fuentes de datos del ID de transacción están vinculadas al perfil del visitante principal, las eVars persistentes se asignan a eventos cargados con el ID de transacción.
+En el caso del procesamiento completo, no. En el caso del ID de transacción, sí. Las fuentes de datos de procesamiento completo se procesan mediante perfiles de visitante independientes. Por eso, aunque los ID de visitante coincidan, no se vinculan entre ellos desde el punto de vista de una asignación de eVar. Como las fuentes de datos del ID de transacción están vinculadas al perfil del visitante principal, las eVars persistentes se asignan a eventos cargados con el ID de transacción.
 
 ## ¿Las eVars cargadas mediante fuentes de datos continúan en el comportamiento en Internet posterior? {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
