@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Procesamiento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Procesamiento completo
 
-El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico &gt; Procesamiento completo).
+El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
 
 Los datos de fuentes de datos de procesamiento completo se procesan como si se recibieran en los servidores de Adobe a la hora especificada (cada visita contiene una marca de tiempo).
 
@@ -23,7 +23,7 @@ Los datos de fuentes de datos de procesamiento completo se procesan como si se r
 
 Los datos de fuentes de datos de procesamiento completo se procesan con perfiles de visitante independientes, de modo que, aunque el ID de visitante indicado en los datos cargados coincida con los datos recopilados mediante JavaScript u otra biblioteca de AppMeasurement, los perfiles de visitante no están conectados desde un punto de vista de asignación de eVar.
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. Si más tarde se carga una transacción con el mismo ID de visitante, los ingresos y los eventos de éxito cargados mediante fuentes de datos de procesamiento completo no se atribuyen a la campaña "Rebajas de primavera".
+Pongamos como ejemplo que un usuario que tiene el ID de visitante `"user@example.com"` visita su sitio web desde una campaña de marketing llamada “Rebajas de primavera”, que se almacena en la variable de campaña. Si más tarde se carga una transacción con el mismo ID de visitante, los ingresos y los eventos de éxito cargados mediante fuentes de datos de procesamiento completo no se atribuyen a la campaña &quot;Rebajas de primavera&quot;.
 
 ## Referencia sobre columnas {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -54,7 +54,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>date </p> </td> 
-   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
+   <td colname="col3"> <p>Use el formato de fecha ISO 8601 <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (por ejemplo, <code> 2013-09-01T12:00:00-07:00 </code>) o el formato de tiempo de Unix (UTF; la cantidad de segundos transcurridos desde el 1 de enero de 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
@@ -62,9 +62,9 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col3"> <p>Nombre de la eVar de conversión. Se pueden usar hasta 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Puede indicar el nombre de la eVar (eVar12) o un nombre descriptivo ("Campaña publicitaria 3"). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>eventos </p> </td> 
-   <td colname="col2"> <p>eventos </p> </td> 
-   <td colname="col3"> <p>Cadena de eventos. El formato se aplica con la misma sintaxis que la variable <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a>. </p> <p>Por ejemplo: </p> 
+   <td colname="col1"> <p>Events </p> </td> 
+   <td colname="col2"> <p>Events </p> </td> 
+   <td colname="col3"> <p>Cadena de eventos. El formato se aplica con la misma sintaxis que la variable <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Por ejemplo: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -110,8 +110,8 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col3"> <p>Dirección URL de la página (por ejemplo, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
+   <td colname="col1"> <p>informe de productos </p> </td> 
+   <td colname="col2"> <p>informe de productos </p> </td> 
    <td colname="col3"> <p>Lista de productos (por ejemplo, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
@@ -199,7 +199,7 @@ En la tabla siguiente se muestran las variables de tráfico que se llenan autom�
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>Tipo de conexión del visitante (<span class="term">lan</span> o <span class="term">modem</span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
