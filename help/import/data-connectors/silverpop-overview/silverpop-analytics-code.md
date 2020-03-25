@@ -1,16 +1,16 @@
 ---
-description: 'Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Analytics en sus páginas '
+description: 'Si seleccionó el método de recopilación de datos del complemento de JavaScript, copie las siguientes líneas de código y agréguelas al código de Analytics en sus páginas. '
 title: Código de complemento de Analytics
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
 
-# Código de complemento de Analytics{#analytics-plug-in-code}
+# Código de complemento de Analytics {#analytics-plug-in-code}
 
-Si seleccionó el método de recopilación de datos del complemento JavaScript, copie las siguientes líneas de código y agréguelas al código de Analytics en sus páginas:
+Si seleccionó el método de recopilación de datos del complemento de JavaScript, copie las siguientes líneas de código y agréguelas al código de Analytics en sus páginas:
 
 `/*`
 
@@ -22,4 +22,4 @@ Si seleccionó el método de recopilación de datos del complemento JavaScript, 
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
-> [!NOTE] El complemento de arriba supone que hay ciertas variables de comercio personalizadas (eVars) disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Analytics, simplemente reemplácelas por las que están disponibles.
+> [!NOTE] El complemento de arriba supone que hay ciertas variables de comercio personalizadas (eVars) disponibles. Si las variables especificadas en el complemento anterior no están disponibles en la implementación de Analytics, cámbielas por las que están disponibles.
