@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Administrador de fuentes de datos
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,15 +14,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Cree, administre y visualice la utilización de fuentes de datos en un grupo de informes.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Administración]** &gt; Fuentes **** de datos.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Fuentes de datos]**.
 
-## Ficha Crear {#section_74603FDA3D8842E49F1A51624A06DE20}
+## Pestaña Crear {#section_74603FDA3D8842E49F1A51624A06DE20}
 
-La ficha [!UICONTROL Crear] permite configurar una fuente de datos nueva para el grupo de informes seleccionado. Al activar una fuente de datos, un [!UICONTROL asistente] le guiará por el proceso de crear una plantilla y creará una ubicación FTP para cargar los datos.
+La pestaña [!UICONTROL Crear] permite configurar una fuente de datos nueva para el grupo de informes seleccionado. Al activar una fuente de datos, un [!UICONTROL asistente] le guiará por el proceso de crear una plantilla y creará una ubicación FTP para cargar los datos.
 
-Las selecciones que realice en la ficha Crear determinarán los campos iniciales que contendrá la plantilla al ser creada. Consulte [Generación de plantillas de archivo de importación](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
+Las selecciones que realice en la pestaña Crear determinarán los campos iniciales que contendrá la plantilla al ser creada. Consulte [Generación de plantillas de archivo de importación](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md).
 
-## Ficha Administrar {#section_DD559A6701CA45F1A85E56F840F48DBE}
+## Pestaña Administrar {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
 <table id="table_F74696EC855441328CFE0BF49C20D9B0"> 
  <thead> 
@@ -64,7 +64,7 @@ Las selecciones que realice en la ficha Crear determinarán los campos iniciales
    <td colname="col1"> <p>Estado </p> </td> 
    <td colname="col2"> <p> Estado actual del archivo. Puede ser alguno de los siguientes valores: </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">En cola (paso 1 de 3): el archivo existe, pero no se ha empezado a procesar. If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">En cola (paso 1 de 3): el archivo existe, pero no se ha empezado a procesar. Si el archivo no aparece en los próximos 30 minutos, verifique que esté presente el archivo <span class="filepath">.fin</span> correspondiente. </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">Preparación (paso 2 de 3): el sistema está revisando el archivo en busca de errores o advertencias. </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">Procesamiento (paso 3 de 3): el sistema está procesando el archivo. </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">Fallido: el archivo no se ha procesado debido a errores. </li> 
@@ -74,6 +74,6 @@ Las selecciones que realice en la ficha Crear determinarán los campos iniciales
  </tbody> 
 </table>
 
-## Ficha Registro de archivos {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
+## Pestaña Registro de archivos {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
 El registro de archivos incluye una función de búsqueda que permite buscar información por nombre de fuente de datos, tipo de fuente de datos, nombre de archivo, fecha de recepción o estado.
