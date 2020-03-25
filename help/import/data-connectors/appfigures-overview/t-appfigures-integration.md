@@ -1,28 +1,28 @@
 ---
-description: El Asistente para la integración de conectores de datos le guía a través del proceso de integración de conectores de datos.
+description: El asistente de integración de Data Connectors lo guía durante el proceso de integración.
 title: Configuración de la integración
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Configuración de la integración{#configure-the-integration}
+# Configuración de la integración {#configure-the-integration}
 
-El Asistente para la integración de conectores de datos le guía a través del proceso de integración de conectores de datos.
+El asistente de integración de Data Connectors lo guía durante el proceso de integración.
 
 Para configurar la integración:
 
-1. [Genere](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud) la clave de cuenta de integración a partir de AppFigures.
-1. Vaya a **[!UICONTROL Analytics]** &gt; Conectores **[!UICONTROL de datos]** como usuario administrador y haga clic en **[!UICONTROL + Agregar nuevo]** para agregar una nueva integración.
-1. En la lista **[!UICONTROL Mostrar]** , seleccione por nombre y arrastre la integración **appFigures** a una ranura de complemento vacía.
-1. En la página de introducción a la integración de AppFigures, revise el texto, active la casilla de verificación para aceptar las tarifas asociadas con la integración y, a continuación, haga clic en **Siguiente**.
+1. [Genere](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud) la clave de cuenta de integración desde appFigures.
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Data Connectors]** como usuario administrador y haga clic en **[!UICONTROL + Añadir nueva]** para agregar una nueva integración.
+1. En la lista **[!UICONTROL Mostrar]**, seleccione por nombre y arrastre la integración de **appFigures** a una ranura de complemento vacía.
+1. En la página de introducción a la integración de appFigures, revise el texto, active la casilla de verificación para aceptar las tarifas asociadas con la integración y, a continuación, haga clic en **Siguiente**.
 1. Seleccione el grupo de informes que desee utilizar para esta integración.
 1. Proporcione un nombre descriptivo para identificar esta integración y haga clic en **[!UICONTROL Crear y configurar esta integración]**.
 
-   Esta página proporciona información general sobre la integración, junto con vínculos útiles para obtener más información. Esta integración conlleva tanto tarifas de Adobe como de appFigures. Póngase en contacto con los Representantes de ventas correspondientes para ambas organizaciones y asegúrese de comprender la estructura de tarifas.
-1. En cada página del Asistente para la integración de conectores de datos, proporcione la información necesaria, tal como se describe en la tabla siguiente:
+   Esta página proporciona información general sobre la integración, junto con vínculos útiles para obtener más información. Esta integración incluye tarifas de Adobe y appFigures. Póngase en contacto con los Representantes de ventas correspondientes para ambas organizaciones y asegúrese de comprender la estructura de tarifas.
+1. En cada página del asistente de integración de Data Connectors, proporcione la información necesaria, tal como se describe en la tabla siguiente:
 
 <table id="table_74EC1EEBE7A548AB878AA40187EBCD30"> 
  <thead> 
