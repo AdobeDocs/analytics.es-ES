@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Referencia sobre el archivo de importación
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,20 +14,20 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Información sobre la plantilla .txt de fuentes de datos.
 
-Para generar una plantilla de importación, utilice el Asistente para fuentes de datos. El archivo de importación de fuente de datos incluye estos datos:
+Para generar una plantilla de importación, utilice el asistente para fuentes de datos. El archivo de importación de fuente de datos incluye estos datos:
 
 * El símbolo de almohadilla (#) identifica las filas que son comentarios.
 * Puede agregar al archivo todos los comentarios que necesite.
 * Un comentario que indica el título del archivo de plantilla.
-* Un comentario que indica los nombres de métricas y dimensiones de datos externas indicadas en el [!UICONTROL Asistente para activación de fuentes de datos].
+* Un comentario que indica los nombres de métricas y dimensiones de datos externas indicadas en el [!UICONTROL asistente para activación de fuentes de datos].
 
 Para identificar los datos en las diferentes columnas del archivo de fuente de datos se usan encabezados de columna, que pueden ser de tres tipos:
 
 **Fecha** (obligatorio): una marca temporal para cada fila de datos en el archivo.
 
-**Variables**: Nombres de las variables de informes asignadas a las dimensiones de datos de la fuente de datos.
+**Variables**: nombres de las variables de informes asignadas a las dimensiones de datos de la fuente de datos.
 
-**Eventos**: Nombres de los eventos asignados a las métricas de la fuente de datos.
+**Eventos**: nombres de los eventos asignados a las métricas de la fuente de datos.
 
 Utilice la plantilla de fuente de datos para crear un archivo de fuente de datos con los datos que desea cargar. Al crear el archivo de fuente de datos, tenga en cuenta lo siguiente:
 
@@ -60,6 +60,6 @@ Utilice la plantilla de fuente de datos para crear un archivo de fuente de datos
 
 **Archivo .FIN**
 
-Cuando haya terminado de completar el archivo de fuente de datos, puede enviarlo por FTP a Analytics. Pero, para que los datos se procesen, también deberá cargar, a continuación del otro, You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+Cuando haya terminado de rellenar el archivo de fuente de datos, solo necesita cargarlo a Analytics mediante FTP. Pero, para que los datos se procesen, también deberá cargar, a continuación del otro, un archivo de texto vacío con el mismo nombre que el archivo de datos, pero con la extensión [!DNL .fin].
 
-For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
+Por ejemplo, si carga un archivo de datos (delimitado con tabulaciones) llamado [!DNL myproductdata.txt], también tiene que cargar un archivo de texto vacío llamado [!DNL myproductdata.fin]. Si no carga el archivo [!DNL .fin], los datos no se procesan.
