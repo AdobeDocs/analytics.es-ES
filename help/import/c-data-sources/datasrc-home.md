@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Resumen de fuentes de datos
 topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -28,9 +28,9 @@ La integración de datos ayuda a comprender las transacciones como un todo. Imag
 1. Llegan a su sitio web, lo exploran y hacen una compra
 1. Es posible que algunos visitantes devuelvan el producto a través del teléfono o en una tienda
 
-Se pueden integrar tanto los datos de preclic (búsquedas anteriores a la última que condujeron al sitio, impresiones, costo, etc.) como la información de "posventa" (devoluciones, datos del centro de llamadas).
+La integración de datos permite unir los datos preclic (las búsquedas anteriores a la última que los llevó al sitio, las impresiones, el coste, etc.) con la información “posventa” (devoluciones, datos del centro de llamadas).
 
-Se pueden usar fuentes de datos para comprender mejor los datos preclic, al importarlos a través del motor de búsqueda o de la red publicitaria. Esto permite calcular el ROAS (rendimiento del gasto en publicidad), al importar los datos referidos a costes y dividir los ingresos por coste (ingresos/coste). También puede utilizarla para ayudar a comprender los datos "después de la venta" y obtener una imagen ROAS más precisa, ya que proporciona información como Ingresos por devolución o Unidades de devolución.
+Se pueden usar fuentes de datos para comprender mejor los datos preclic, al importarlos a través del motor de búsqueda o de la red publicitaria. Esto permite calcular el ROAS (rendimiento del gasto en publicidad), al importar los datos referidos a costes y dividir los ingresos por coste (ingresos/coste). Las fuentes de datos también se pueden usar para comprender los datos “posventa” y obtener un panorama más completo del ROAS, al obtener información como la cantidad de unidades devueltas o los ingresos perdidos por esa vía.
 
 >[!IMPORTANT]
 >
