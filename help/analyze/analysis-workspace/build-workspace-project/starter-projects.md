@@ -3,18 +3,16 @@ description: 'null'
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
+source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 ---
 
 
 # Plantillas
 
-## Plantillas {#topic_40932F09E18A467983AFBB29908E1CB8}
-
 Puede elegir crear un proyecto a partir de:
 
-* **Proyecto en blanco (predeterminado)**: Para obtener instrucciones, consulte [Creación de un proyecto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)de Analysis Workspace.
+* **Proyecto en blanco (predeterminado)**: Para obtener instrucciones, consulte [Creación de un proyecto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)de área de trabajo de Análisis.
 * **Plantilla** estándar: Estas plantillas son creadas por Adobe y se envían con el producto.
 * **Plantilla** personalizada: Estas plantillas pueden ser creadas, compartidas o eliminadas por usuarios con derechos de administrador o por usuarios que no sean administradores, siempre que se les haya otorgado el permiso [!UICONTROL Analysis Workspace: Save as Template] en la Consola de administración. [Más información...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
@@ -22,14 +20,14 @@ Puede elegir crear un proyecto a partir de:
 
 ## Creación de una plantilla personalizada {#create-custom-template}
 
-Los usuarios que tengan derechos de administrador pueden convertir cualquier proyecto que creen en una plantilla personalizada. A continuación se muestra cómo:
+Los usuarios con derechos de administrador pueden convertir cualquier proyecto que creen en una plantilla personalizada. A continuación se muestra cómo:
 
 1. Abra el proyecto.
 1. Vaya a **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
-   El proyecto se guardará con el nombre del proyecto actual, seguido de la palabra “plantilla” entre paréntesis. Los administradores pueden cambiar este nombre editando la plantilla.
+   El proyecto se guardará con el nombre del proyecto actual, seguido de la palabra (plantilla) entre paréntesis. Los administradores pueden cambiar este nombre editando la plantilla.
 
    >[!NOTE]
    >
@@ -41,24 +39,26 @@ Los usuarios que tengan derechos de administrador pueden convertir cualquier pro
 
 | Acción | Descripción |
 |--- |--- |
-| Editar  plantilla | Permite que el administrador edite la plantilla cambiando la fuente de datos, los componentes, las visualizaciones, los intervalos de fechas, etc.  Para editar una plantilla personalizada, puede:<ul><li>Buscar la lista de plantillas personalizadas en Analysis Workspace, seleccionar una y hacer clic en Editar plantilla.</li><li>En Analytics, ir a Componentes > Proyectos y filtrar por Plantillas. Acto seguido, puede hacer clic en el nombre de la plantilla que quiera editar.</li></ul>**Nota:** Tras editar una plantilla, y según la situación, tiene dos opciones: Guardar o Guardar como. A continuación se indican las diferencias entre ambas opciones.<ul><li>**Guardar:** Actualiza la plantilla personalizada para todos los usuarios. Cuando otra persona cree un proyecto a partir de esta plantilla personalizada, verá los cambios que ha hecho usted.</li><li>**Guardar como:** Crea una copia de la plantilla personalizada con los cambios. (Sabrá que está en el modo de edición cuando el elemento de menú Compartir > Compartir proyecto esté desactivado).</li></ul> |
+| Editar  plantilla | Permite que un administrador edite la plantilla cambiando la fuente de datos, los componentes, las visualizaciones, los intervalos de fechas, etc.  Para editar una plantilla personalizada, haga clic en<ul><li>Buscar la lista de plantillas personalizadas en Analysis Workspace, seleccionar una y hacer clic en Editar plantilla.</li><li>En Analytics, ir a Componentes > Proyectos y filtrar por Plantillas. Acto seguido, puede hacer clic en el nombre de la plantilla que quiera editar.</li></ul>**Nota:** Después de editar una plantilla, según la situación, tiene dos opciones: Guardar, Guardar como. Así difieren:<ul><li>**Guardar:** Actualiza la plantilla personalizada para todos los usuarios. Cuando otra persona cree un proyecto a partir de esta plantilla personalizada, verá los cambios realizados.</li><li>**Guardar como:** Crea una copia de la plantilla personalizada con los cambios. (Sabrá que está en el modo de edición cuando el elemento de menú Compartir > Compartir proyecto esté desactivado).</li></ul> |
 | Buscar en plantillas | En el cuadro de diálogo Plantillas personalizadas, haga clic en Buscar plantillas. |
-| Ordenar plantillas | Puede ordenar las plantillas alfabéticamente, por su relevancia o por la fecha de creación.  En el cuadro de diálogo Plantillas personalizadas, haga clic en Ordenar:. |
+| Ordenar plantillas | Puede ordenar las plantillas alfabéticamente, por relevancia y por fecha de creación.  En el cuadro de diálogo Plantillas personalizadas, haga clic en Ordenar:. |
 | Aplicar etiquetas a una plantilla | Abra la plantilla y vaya a Proyecto > Información y configuración del proyecto. Haga clic en Añadir etiquetas. |
 | Modificar la descripción de la plantilla | Abra la plantilla y vaya a Proyecto > Información y configuración del proyecto. Haga doble clic en la descripción y edítela. |
 
 
-## Plantillas estándar {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+## Plantillas estándar
 
-Al abrir un Workspace por primera vez, las plantillas aparecen en el panel izquierdo. Las plantillas de Analysis Workspace cubren casos de uso comunes. Están agrupadas por la vertical a la que pertenecen y se rellenan con distintas dimensiones, segmentos, métricas y visualizaciones, según el grupo de informes que haya seleccionado.
+Al abrir un Workspace por primera vez, las plantillas aparecen en el panel izquierdo. Las plantillas de espacio de trabajo de Análisis cubren casos de uso comunes. Se agrupan por la vertical a la que pertenecen y se rellenan con diferentes dimensiones, segmentos, métricas y visualizaciones, según el grupo de informes que haya seleccionado.
 
-Puede utilizar estas plantillas rellenadas previamente tal cual, o puede adaptarlas a sus necesidades (mediante la adición o sustitución de métricas o visualizaciones, por ejemplo) y guardarlas con un nuevo nombre.
+Puede utilizar estas plantillas rellenadas previamente tal como son o adaptarlas a sus necesidades (por ejemplo, agregando o reemplazando métricas o visualizaciones) y guardarlas con un nuevo nombre.
 
 [Plantillas estándar en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
 Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a responder.
 
-* **Tutorial** de capacitación: Esta plantilla estándar le guía por la terminología común y por los pasos para crear su primer análisis en Workspace. Está disponible como plantilla estándar en el modo Nuevo proyecto y reemplaza el proyecto de muestra actual para los usuarios nuevos que no tienen otros proyectos en su lista.
+### Capacitación
+
+* **Tutorial** de capacitación: Esta plantilla estándar le guía por la terminología común y por los pasos para crear su primera análisis en Workspace. Está disponible como plantilla estándar en el modo Nuevo proyecto y reemplaza el proyecto de muestra actual para los usuarios nuevos que no tienen otros proyectos en su lista.
 
 ### Publicidad
 
@@ -108,15 +108,15 @@ Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a 
 
 > [!NOTE] La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
 
-Esta plantilla se basa en la métrica Personas, que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. Esta plantilla le permite hacer lo siguiente:
+Esta plantilla se basa en la métrica Personas, que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. La plantilla le permite
 
-* Segmentar sus datos para EE. UU./Canadá frente al resto del mundo. En estos momentos, la funcionalidad de cooperación entre dispositivos solo está disponible en Norteamérica.
-* Comparar en paralelo las métricas Personas y Visitantes únicos.
-* Consultar la “tasa de compresión”, una métrica calculada que analiza en qué medida la métrica Personas es inferior como porcentaje de Visitantes únicos.
-* Comparar los totales por tipo de dispositivo que utilizan sus clientes.
-* Consultar cuántos dispositivos se utilizan de media por persona.
-* Aprender a utilizar la función para apilas segmentos con la métrica Personas.
-* Descubra cómo mejorar la eficacia de la métrica Personas con el uso del Experience Cloud ID en su entorno.
+* Segmente sus datos para EE. UU./Canadá frente al resto del mundo. Device Co-op actualmente solo está disponible en Norteamérica.
+* Compare las métricas Personas y Visitantes únicos en paralelo.
+* Consulte la &quot;tasa de compresión&quot;, una métrica calculada que calcula cuánto más pequeña es la métrica Personas como porcentaje de Visitantes únicos.
+* Comparar los totales de tipo de dispositivo que utilizan los clientes
+* Ver cuántos dispositivos promedio se utilizan por persona.
+* Descubra cómo utilizar el apilamiento de segmentos con la métrica Personas.
+* Explore cómo el uso del ID de Experience Cloud en el entorno mejora la eficacia de la métrica Personas.
 
 ### IQ de viaje: Plantilla de análisis entre dispositivos
 
@@ -128,11 +128,11 @@ Esta plantilla le permite ver datos de rendimiento vitales entre dispositivos. S
 * **Identificación de los usuarios**: Muestra la frecuencia con la que se identifican los visitantes del sitio mediante métodos basados en análisis entre dispositivos.
 * **Medición del tamaño** de la audiencia: Muestra una comparación de &#39;Dispositivos únicos&#39; comparados con &#39;Personas&#39;. La proporción de estos dos números se conoce como &#39;compresión entre dispositivos&#39;, una métrica calculada visible en este panel. Esta métrica de compresión depende de una amplia gama de factores:
    * **Uso del gráfico** de cooperación o del gráfico privado: En términos generales, las organizaciones que utilizan la cooperación entre dispositivos tienden a ver mejores tasas de compresión que las organizaciones que utilizan el gráfico privado.
-   * **Tasa** de inicio de sesión: Cuantos más usuarios inicien sesión en el sitio, más podrá Adobe identificar y unir a los visitantes entre dispositivos. Los sitios con una tasa de inicio de sesión baja también tienen tasas de compresión bajas.
-   * **Cobertura** del ID de Experience Cloud: Solo se pueden vincular los visitantes con un ECID. Un porcentaje menor de visitantes que utilizan un ECID se correlaciona con tasas de compresión más bajas.
-   * **Uso** de varios dispositivos: Si los visitantes del sitio no utilizan varios dispositivos, puede ver tasas de compresión más bajas.
-   * **Granularidad** de informes: La compresión por día suele ser menor que la compresión por mes o año. Las posibilidades de que un individuo utilice varios dispositivos se reducen en un solo día en comparación con todo un mes. Segmentar, filtrar o utilizar dimensiones de desglose también puede mostrar una tasa de compresión más baja.
-* **Segmentos** basados en personas: Contiene una lista desplegable de segmentos que le permite ver datos específicos del dispositivo. Este panel alienta la experimentación con segmentos para ver cómo la inclusión o exclusión de tipos de dispositivos afecta a los informes.
+   * **Tasa** de inicio de sesión: Cuantos más usuarios inicien sesión en el sitio, más podrá Adobe identificar y unir visitantes entre dispositivos. Los sitios con una tasa de inicio de sesión baja también tienen tasas de compresión bajas.
+   * **Cobertura** del ID de Experience Cloud: Sólo se pueden unir visitantes con un ECID. Un porcentaje menor de visitantes que utilizan un ECID se correlaciona con tasas de compresión más bajas.
+   * **Uso** de varios dispositivos: Si los visitantes al sitio no utilizan varios dispositivos, puede ver tasas de compresión más bajas.
+   * **Granularidad** de Sistema de informes: La compresión por día suele ser menor que la compresión por mes o año. Las posibilidades de que un individuo utilice varios dispositivos se reducen en un solo día en comparación con todo un mes. Segmentar, filtrar o utilizar dimensiones de desglose también puede mostrar una tasa de compresión más baja.
+* **Segmentos** basados en personas: Contiene una lista desplegable de segmentos que le permite vista de datos específicos del dispositivo. Este panel alienta la experimentación con segmentos para ver cómo la inclusión o exclusión de tipos de dispositivos afecta a los informes.
 * **Análisis del viaje** entre dispositivos: Proporciona informes de flujo y visitas en el orden previsto en función del tipo de dispositivo.
 * **Atribución** entre dispositivos: Combine las características de Journey IQ y Atribución IQ juntos.
 * **Otros consejos y trucos**: Temas útiles en torno a CDA que le permite aprovechar al máximo su uso.
