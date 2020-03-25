@@ -1,26 +1,26 @@
 ---
-description: Las ID de visitante se pueden importar seleccionando la categoría Fuente de datos genérica (ID de transacción).
+description: Los ID de visitante se pueden importar seleccionando la categoría Genéricas (ID de transacción).
 subtopic: Data sources
-title: Visitor ID
+title: ID de visitante
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# Visitor ID
+# ID de visitante
 
-Las ID de visitante se pueden importar seleccionando la categoría Fuente de datos genérica (ID de transacción).
+Los ID de visitante se pueden importar seleccionando la categoría Genéricas (ID de transacción).
 
-See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
+Consulte [Integrar datos sin conexión](/help/import/c-data-sources/datasrc-integrating-offline-data.md).
 
 <p class="head"> <b>Dimensiones de ID de visitante</b> </p>
 
 | Nombre de columna | Descripción |
 |--- |--- |
-| Visitor ID | (Obligatorio) Valor no repetido que representa a un cliente en ambos sistemas (conectado a Internet y sin conexión). |
+| ID de visitante | (Obligatorio) Valor no repetido que representa a un cliente en ambos sistemas (conectado a Internet y sin conexión). |
 | Fecha | Utilice este formato de fecha: MM/DD/AAAA/hh/mm/ss (por ejemplo, 07/14/2017/06/00/00). |
 | Código de seguimiento | Nombre del código de seguimiento. |
 | Categoría | Nombre de la categoría.  Si se indica una categoría, también se debe seleccionar un producto. |
@@ -34,7 +34,7 @@ See [Integrate Offline Data](/help/import/c-data-sources/datasrc-integrating-off
 
 | Nombre de columna | Descripción |
 |--- |--- |
-| Pulsaciones | Número de vistas del código de seguimiento. |
+| Proporción de clics | Número de vistas del código de seguimiento. |
 | Adiciones al carro de compras | Número de adiciones al carro de compras. |
 | Aperturas del carro de compras | Número de aperturas del carro de compras. |
 | Eliminaciones del carro de compras | Número de eliminaciones del carro de compras. |
