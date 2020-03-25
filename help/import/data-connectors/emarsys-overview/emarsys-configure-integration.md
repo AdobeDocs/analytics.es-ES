@@ -1,24 +1,24 @@
 ---
-description: Tareas e información que debe tener antes de ejecutar el asistente de integración de Conectores de datos para implementar la integración de Conectores de datos.
+description: Tareas e información que debe hacer y tener antes de ejecutar el asistente de integración de Data Connectors para implementar la integración de Data Connectors.
 title: Preparación de la integración de correo electrónico de Data Connectors
 uuid: 01e1f269-54c9-4175-aff8-16c39ac4ee9d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Preparación de la integración de correo electrónico de Data Connectors{#preparing-for-the-data-connectors-email-integration}
+# Preparación de la integración de correo electrónico de Data Connectors {#preparing-for-the-data-connectors-email-integration}
 
-Tareas e información que debe tener antes de ejecutar el asistente de integración de Conectores de datos para implementar la integración de Conectores de datos.
+Tareas e información que debe hacer y tener antes de ejecutar el asistente de integración de Data Connectors para implementar la integración de Data Connectors.
 
-Adobe Analytics® proporciona a las organizaciones inteligencia procesable y en tiempo real sobre sus estrategias en línea e iniciativas de marketing. En combinación con emarsys, Analytics proporciona remercadotecnia en función de la determinación de objetivos basada en el comportamiento. Mejore la mercadotecnia de objetivo y comprenda la eficacia de las campañas mediante la integración sin fisuras de los datos de análisis web de emarsys y Analytics.
+Adobe Analytics® proporciona a las organizaciones inteligencia de acción en tiempo real con respecto a las estrategias en línea y a las iniciativas de marketing. En combinación con Emarsys, Analytics proporciona posibilidades de remarketing en función de la selección de objetivos basada en el comportamiento. Mejore el marketing objetivo y comprenda la eficacia de las campañas mediante la integración total de los datos de análisis web de Emarsys y Analytics.
 
-Para poder configurar la integración de su cuenta de correo electrónico, deberá disponer de lo siguiente:
+Para poder configurar la integración de su cuenta de correo electrónico, debe:
 
-* Conozca el código de cuenta de emarsys porque se introducirá en el asistente para Conectores de datos.
+* Conocer el código de cuenta de Emarsys, porque se debe introducir en el asistente de Data Connectors.
 * Saber qué dirección de correo electrónico desea utilizar para recibir notificaciones sobre las operaciones integradas.
-* Identifique o cree la variable personalizada que utilizará para capturar la ID del destinatario.
-* Identifique o cree la variable personalizada que utilizará para capturar la ID del mensaje (generalmente ésta es la variable de campaña).
-* Identifique o cree los eventos personalizados que utilizará para recopilar las devoluciones, clics, aperturas, envíos y cancelaciones de suscripción.
+* Identificar o crear la variable personalizada que sirve para recopilar el ID de destinatario.
+* Identificar o crear la variable personalizada que sirve para recopilar el ID de mensaje (suele ser la variable de campaña).
+* Identificar o crear los eventos personalizados que sirven para recopilar las devoluciones, los clics, las aperturas, los envíos y las cancelaciones de suscripción.
 
