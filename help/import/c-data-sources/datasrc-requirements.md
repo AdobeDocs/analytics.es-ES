@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Requisitos y límites de carga
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,15 +32,15 @@ En las secciones siguientes se indican restricciones que rigen para las fuentes 
 * Solo pueden importarse datos con fechas actuales o pasadas. No intente usar fechas futuras en las fuentes de datos.
 * Para habilitar las funciones gráficas del informe, todas las filas deben tener indicada una fecha. Si una fila no incluye fecha, el sistema de fuentes de datos generará un error y rechazará el archivo. El formato de fecha y hora depende del tipo de fuente de datos:
 
-   * **Fuentes** de datos de procesamiento completo:Utilice el formato de fecha ISO 8601 `YYYY-MM-DDThh:mm:ss±UTC_offset` (por ejemplo, `2013-09-01T12:00:00-07:00`) o el formato de hora Unix (el número de segundos transcurridos desde el 1 de enero de 1970).
+   * **Fuentes de datos de procesamiento completo**: use el formato de fecha ISO 8601 `YYYY-MM-DDThh:mm:ss±UTC_offset` (por ejemplo, `2013-09-01T12:00:00-07:00`) o el formato de tiempo de Unix (UTF; la cantidad de segundos transcurridos desde el 1 de enero de 1970).
 
-   * **Fuentes** de datos estándar y de integración: Utilice el siguiente formato de fecha: `MM/DD/YYYY/HH/mm/SS` (por ejemplo, `01/01/2013/06/00/00`)
+   * **Fuentes de datos estándar y de integración**: use el formato de fecha `MM/DD/YYYY/HH/mm/SS` (por ejemplo, `01/01/2013/06/00/00`).
 
 ## General {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
 * Cuando se carga un archivo al sistema de fuente de datos, este realiza una verificación básica de los datos, para comprobar que el archivo no contenga errores de formato. Si el sistema encuentra algún error en el archivo, envía al usuario un aviso por correo electrónico y detiene el procesamiento.
 * Los campos de datos no pueden contener ningún punto y coma; si algún registro contiene un punto y coma, el sistema de fuente de datos lo omitirá.
-* Los datos de los archivos de registro web, tráfico y algunos agrupamientos de fuentes de datos genéricas no se pueden usar en el Almacén de datos ni en Discover. Para obtener más información, consulte Tipos [de datos y categorías](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
+* Los datos de los archivos de registro web, tráfico y algunos agrupamientos de fuentes de datos genéricas no se pueden usar en Data Warehouse ni en Discover. Para obtener más información, consulte [Tipos de datos y categorías](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md).
 * Las fuentes de datos no admiten los eventos serializados.
 
 ## Compatibilidad con formatos multibyte {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -57,7 +57,7 @@ El sistema de fuentes de datos admite archivos con codificación multibyte. El s
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>Admitido. El grupo de informes que se use con la fuente de datos debe tener habilitada la compatibilidad con codificación de caracteres multibyte. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  >Nuevo grupo de informes</a> en la ayuda. </p> </td> 
+   <td colname="col2"> <p>Admitido. El grupo de informes que se use con la fuente de datos debe tener habilitada la compatibilidad con codificación de caracteres multibyte. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/es_ES/reference/new_report_suite.html"  >Nuevo grupo de informes</a> en la ayuda. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 con marca de orden de bytes (EF BB BF) </td> 
@@ -73,7 +73,7 @@ El sistema de fuentes de datos admite archivos con codificación multibyte. El s
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16 “big endian”, con marca de orden de bytes (EF FF) </td> 
-   <td colname="col2"> Se convierte a ISO-8859-1 o UTF-8, según la configuración del grupo de informes.  </td> 
+   <td colname="col2"> Se convierte a ISO-8859-1 o UTF-8, según la configuración del grupo de informes. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16 sin marca de orden de bytes </td> 
