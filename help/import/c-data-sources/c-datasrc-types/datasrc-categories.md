@@ -4,7 +4,7 @@ subtopic: Data sources
 title: Resumen de los tipos de datos y las categorías
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Las categorías de fuentes de datos identifican diferentes tipos de fuentes datos que ofrecen una funcionalidad similar.
 
-Las categorías proporcionan una manera de agrupar las fuentes de datos desde la perspectiva del usuario. Para crear una fuente de datos a través de la interfaz de usuario correspondiente, primero se selecciona una categoría de fuentes de datos y después un tipo específico de fuente de datos. Cada categoría contiene tipos de fuentes de datos que admiten tipos de datos similares. Las fuentes de datos pueden agruparse en las siguientes categorías:
+Las categorías ofrecen un modo de agrupar las fuentes de datos según la perspectiva del usuario. Para crear una fuente de datos a través de la interfaz de usuario correspondiente, primero se selecciona una categoría de fuentes de datos y después un tipo específico de fuente de datos. Cada categoría contiene tipos de fuentes de datos que admiten tipos de datos similares. Las fuentes de datos pueden agruparse en las siguientes categorías:
 
 ## Uso del sitio web {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -35,7 +35,7 @@ Las categorías proporcionan una manera de agrupar las fuentes de datos desde la
   <tr> 
    <td colname="col1"> <p>Carga masiva de Advertising Cloud </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversión </a> </p> </td> 
-   <td colname="col3"> <p>Proporciona cargas masivas manuales y automatizadas por Excel en Advertising Cloud. </p> </td> 
+   <td colname="col3"> <p>Ofrece cargas masivas a Advertising Cloud, tanto manuales como automatizadas con Excel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fuente de datos de tráfico de nivel de sitio </p> </td> 
@@ -74,7 +74,7 @@ Las categorías proporcionan una manera de agrupar las fuentes de datos desde la
   <tr> 
    <td colname="col1"> <p>Servicio de pago por clic genérico </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversión </a> </p> </td> 
-   <td colname="col3"> <p> Permite importar datos sobre rendimiento de pago por clic, incluidos datos como impresiones, clics y costes.  </p> <p>Es la fuente de datos genérica para datos de pago por clic; utilice esta fuente si no hay otra fuente compatible con el servicio pago por clic específico. </p> </td> 
+   <td colname="col3"> <p> Permite importar datos sobre rendimiento de pago por clic, incluidos datos como impresiones, clics y costes. </p> <p>Es la fuente de datos genérica para datos de pago por clic; utilice esta fuente si no hay otra fuente compatible con el servicio pago por clic específico. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -164,8 +164,8 @@ Las categorías proporcionan una manera de agrupar las fuentes de datos desde la
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>Fuente de datos genérica (ID de transacción) </p> </td> 
-   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > ID de transacción </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > Visitor ID </a> </p> </td> 
-   <td colname="col3"> <p>Permite vincular cualquier evento que se produce sin conexión con otro que se produce con conexión. La ID de transacción actúa como una clave que vincula los eventos sin conexión con los eventos en línea. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md"   > ID de transacción </a> </p> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md"   > ID de visitante </a> </p> </td> 
+   <td colname="col3"> <p>Permite vincular cualquier evento que se produce sin conexión con otro que se produce con conexión. El ID de transacción actúa como una clave que vincula los eventos sin conexión con los eventos en línea. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -184,7 +184,7 @@ Las categorías proporcionan una manera de agrupar las fuentes de datos desde la
   <tr> 
    <td colname="col1"> <p>Devoluciones de productos </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > Conversión </a> </p> </td> 
-   <td colname="col3"> <p>Permite importar datos de devolución de productos para asociarlos con una ID de compra y de ese modo identificar los atributos (tales como motores de búsqueda, palabras clave, campañas, etc.) que se relacionan con una mayor probabilidad de que se produzcan devoluciones. </p> </td> 
+   <td colname="col3"> <p>Permite importar datos de devolución de productos para asociarlos con un ID de compra y de ese modo identificar los atributos (tales como motores de búsqueda, palabras clave, campañas, etc.) que se relacionan con una mayor probabilidad de que se produzcan devoluciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Coste de productos </p> </td> 
