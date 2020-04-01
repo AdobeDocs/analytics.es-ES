@@ -3,7 +3,7 @@ title: Actualizaciones de documentación técnica para Adobe Analytics
 description: Actualizaciones notables en el repositorio de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
+source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
 
 ---
 
@@ -13,20 +13,20 @@ source-git-commit: 1b8de7489be8461707307dfe99d86f46557c7b8b
 Actualizaciones de contenido para la documentación de Adobe Analytics establecidas desde enero de 2019.
 
 * Para obtener una lista completa de las nuevas funciones, las notas de administración y las correcciones de errores, consulte las últimas [notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
-* Para obtener más información sobre las nuevas funciones, consulte [Nuevas funciones en Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) en la guía del usuario Herramientas.
+* Para obtener más información sobre las nuevas funciones, consulte [Nuevas funciones en Análisis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) en la guía del usuario Herramientas.
 * Para obtener más información sobre Adobe Analytics para audio y vídeo, consulte [Medición de audio y vídeo en Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
 
 ## Detalles de la actualización
 
 | Fecha | Descripción |
 |---|---|
-| 25 de febrero de 2020 | Se agregó [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) la variable. |
-| 18 de febrero de 2020 | Se agregó [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) la variable. |
-| 12 de febrero de 2020 | Actualizaciones y reorganización de la documentación de Canales [de](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) mercadotecnia. |
+| 25 de febrero de 2020 | variable [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) Añadida. |
+| 18 de febrero de 2020 | variable [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) Añadida. |
+| 12 de febrero de 2020 | Actualizaciones y reorganización de la documentación de Canales [de](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) marketing. |
 | 7 de febrero de 2020 | Actualizaciones para la [configuración de análisis](../components/cda/cda-setup.md) cruzados de dispositivos y [preguntas más frecuentes](../components/cda/cda-faq.md) |
 | 4 de febrero de 2020 | Reescritura completa de la guía [del usuario de](../implement/home.md)implementación. |
 | 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada que incluye información sobre el nuevo [Generador de tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
-| 13 de enero de 2020 | Se han agregado [Adobe Analytics y cookies](../technotes/cookies.md)de navegador. |
+| 13 de enero de 2020 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
 | 29 de noviembre de 2019 | Sobrescribir a la [Documentación de datos](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de noviembre de 2019 | Tema nuevo sobre el [fin de vida útil para aplicar restricciones de inicio de sesión de IP](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
 | 25 de noviembre de 2019 | Tema nuevo sobre el [canal de marketing interno (actualización de sesión)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
@@ -43,7 +43,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 10 de junio de 2019 | Nuevo artículo sobre [Recopilación de datos regionales (RDC) para China](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html) |
 | 4 de junio de 2019 | Nueva guía creada, titulada [Transición de una plataforma de análisis de terceros a Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
 | 30 de mayo de 2019 | Sobrescribir a la [Referencia de columna de fuente de datos](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
-| 11 de abril de 2019 | Actualizaciones para [optimizar el rendimiento de Workspace](/help/analyze/analysis-workspace/optimizing-performance.md). |
+| 11 de abril de 2019 | Actualizaciones para [optimizar el rendimiento de Workspace](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md). |
 | 14 de marzo de 2019 | Actualización principal de la [recopilación de datos regionales](/help/technotes/rdc/regional-data-collection.md). |
 | 7 de febrero de 2019 | Pequeña actualización de los ajustes &quot;Reemplazar el último octeto de direcciones IP por 0&quot; y &quot;Ofuscación IP&quot; en [Configuración general de la cuenta](/help/admin/admin/general-acct-settings-admin.md). |
 | 1 de febrero de 2019 | Actualización importante del complemento de implementación [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
