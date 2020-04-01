@@ -2,7 +2,7 @@
 title: Preguntas más frecuentes sobre Attribution
 description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
 translation-type: tm+mt
-source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
+source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 **¿Cuál es el elemento de línea “Ninguno” al utilizar Attribution?**
 
-El elemento de línea “Ninguno” es un captador global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retrospectiva. Intente incluir un intervalo de tiempo más largo en la ventana de informes.
+El elemento de línea &#39;Ninguno&#39; es un elemento de captación global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retroactiva. Intente incluir un intervalo de tiempo más largo en la ventana de informes.
 
 **¿Por qué a veces veo fechas fuera de la ventana de informes al utilizar modelos de atribución?**
 
@@ -48,7 +48,7 @@ El panel de atribución admite todas las dimensiones. Las métricas no admitidas
 * Métricas de A4T
 * Métricas de tiempo empleado
 * Devoluciones
-* Porcentaje de rebote
+* Tasa de devoluciones
 * Entradas
 * Salidas
 * Páginas no encontradas
@@ -58,7 +58,7 @@ El panel de atribución admite todas las dimensiones. Las métricas no admitidas
 
 **¿Puedo utilizar una ventana retrospectiva personalizada con mis modelos de atribución?**
 
-Sí, con la opción de ventana retroactiva personalizada, las ventanas retrospectivas se pueden configurar en cualquier intervalo de fechas de hasta 90 días antes de la ventana de informes. Consulte [Procesamiento de tiempo de informes](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html) para obtener más información.
+Sí, con la opción de ventana retrospectiva personalizada, las ventanas retrospectivas se pueden configurar en cualquier intervalo de fechas de hasta 90 días antes de la ventana de sistema de informes. Consulte [Procesamiento de tiempo de informes](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html) para obtener más información.
 
 **¿Funciona la atribución con las clasificaciones?**
 
