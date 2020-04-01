@@ -1,10 +1,8 @@
 ---
-description: 'null'
+description: Introducción a la Análisis ad hoc
 title: Resumen de Ad Hoc Analysis
-topic: Ad hoc analysis
-uuid: 49836551-9162-4dc4-b1d4-5c3d0f549dcd
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
 
 ---
 
@@ -19,5 +17,5 @@ Ad Hoc Analysis ayuda a identificar segmentos de clientes de alto valor que cont
 ## Temas nuevos y populares
 
 * Ahora puede convertir sin problemas sus proyectos de Ad Hoc Analysis en proyectos de Analysis Workspace. Vaya a [Resumen del conversor de proyectos de Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md) para saber más detalles.
-* Compruebe la sección de [Ad Hoc Analysis vs. Analysis Workspace](/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md): Analysis Workspace le ofrece mucho contenido de la funcionalidad de Ad Hoc Analysis en el flujo de trabajo del navegador. Aunque parte de la terminología y la funcionalidad se comparten entre ambos productos, en Analysis Workspace se han introducido nuevos términos y enfoques de análisis.
+* Consulte la sección sobre Análisis [ad hoc vs. Espacio de trabajo](/help/analyze/analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)de Análisis: Espacio de trabajo de Análisis incorpora gran parte de la funcionalidad de Análisis ad hoc en el flujo de trabajo del explorador. Aunque algunos términos y características siguen siendo los mismos entre los productos, hay algunos términos y enfoques nuevos de la análisis que se introducen en Espacio de trabajo de Análisis.
 * [Administración](/help/analyze/ad-hoc-analysis/c-administration.md): Obtenga información sobre cómo configurar usuarios y datos de muestra.
