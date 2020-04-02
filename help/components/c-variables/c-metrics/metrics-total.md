@@ -3,7 +3,7 @@ description: Valor de todos los elementos de línea del informe para un período
 title: Total
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,8 +30,8 @@ Valor de todos los elementos de línea del informe para un período del informe.
    <td colname="col2"> <p>Valor de todos los elementos de línea del informe para un período del informe. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ad Hoc Analysis  </p> </td> 
-   <td colname="col2"> <p>N/D </p> </td> 
+   <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
+   <td colname="col2"> <p>N/A </p> </td> 
   </tr> 
  </tbody> 
 </table>
