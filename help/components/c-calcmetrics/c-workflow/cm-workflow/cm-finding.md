@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Describe las dos formas principales de encontrar sus métricas: clasificación y filtrado.
 
-## Clasificación {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## Clasificación  {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
 Cuando abra un informe y haga clic en el icono Métricas ![](assets/metrics_icon.png) que encontrará a la izquierda para que se muestre el carril Métricas, verá cuatro opciones de clasificación en la lista desplegable **[!UICONTROL Clasificar por]** del Selector de métricas:
 
@@ -25,7 +25,7 @@ Cuando abra un informe y haga clic en el icono Métricas ![](assets/metrics_icon
 | Más utilizadas | Resulta útil cuando es un usuario sin experiencia y necesita ver qué se utiliza normalmente en el informe. |
 | Más recientes | Resulta útil si trabaja en un proyecto y utiliza el mismo grupo de métricas una y otra vez. |
 
-## Filtrado - selección avanzada {#section_33818CC048C04F098703AC229693F8CA}
+## Filtrado - selección avanzada  {#section_33818CC048C04F098703AC229693F8CA}
 
 Tras abrir un informe y hacer clic en el icono Métricas, haga clic en **[!UICONTROL Administrar]**. A continuación, haga clic en el icono Filtrar. Puede filtrar de varias formas.
 
