@@ -16,10 +16,10 @@ Los informes de Targets permiten medir el rendimiento del sitio web y llevar un 
 >
 >Estos informes no deben confundirse con el informe de Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18).
 
-Para acceder a sus informes de Objetivos, vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]** &gt; **[!UICONTROL Objetivos]** &gt; **[!UICONTROL [el nombre del objetivo]]**
+Para acceder a sus informes de Targets, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Informes]** > **[!UICONTROL Targets]** > **[!UICONTROL [nombre del destinatario]]**
 
 Al [crear objetivos](https://marketing.adobe.com/resources/help/es_ES/sc/user/targets.html), seleccione qué métricas de atributos o eVar desea medir, o bien elija que se mida el sitio completo comparándolo con la métrica seleccionada.
 
 El informe muestra el total acumulado de la métrica que especificó y la diferencia entre ese total y el objetivo que estableció al configurar el informe.
 
-También puede administrar sus objetivos en **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Objetivos]**.
+También puede administrar sus objetivos en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Targets]**.
