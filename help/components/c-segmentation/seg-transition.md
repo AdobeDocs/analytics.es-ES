@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: Preguntas frecuentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,9 +18,9 @@ Responde preguntas frecuentes sobre las funciones de segmentación, acceso, perm
 
 * Segmentación en Analysis Workspace:
 
-   * [Compare segmentos](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html).
-   * Utilice [segmentos como dimensiones](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html) en una comparación.
-   * Utilice segmentos en el [análisis de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html).
+   * [Compare segmentos](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/segment-comparison.html).
+   * Utilice [segmentos como dimensiones](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/index.html?f=segments_as_dimensions) en una comparación.
+   * Utilice segmentos en el [análisis de visitas en el orden previsto](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.translate.html).
 
 * Puede aplicar [varios segmentos a un informe o un proyecto](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md).
 * Los segmentos son universales para todos los grupos de informes.
@@ -52,15 +52,15 @@ Para acceder al Generador de segmentos, haga lo siguiente:
 
 Acceda al Administrador de segmentos de una de las siguientes maneras:
 
-* Vaya a **[!UICONTROL Análisis]** &gt; **[!UICONTROL Componentes]** en el panel de navegación superior. A continuación, haga clic en **[!UICONTROL Segmentos]**, o bien
+* Vaya a **[!UICONTROL Análisis]** > **[!UICONTROL Componentes]** en el panel de navegación superior. A continuación, haga clic en **[!UICONTROL Segmentos]**, o bien
 
 * Muestre un informe existente y haga clic en el icono de Segmentos ![](assets/segment_icon.png) en el menú de navegación de la izquierda. A continuación, haga clic en **[!UICONTROL Administrar]**, o bien
 
-* Presione la tecla de barra "/" situándose en cualquier lugar de la interfaz y busque el Administrador de segmentos.
+* Presione la tecla de barra &quot;/&quot; situándose en cualquier lugar de la interfaz y busque el Administrador de segmentos.
 
 **¿Dónde está ahora la lista desplegable de segmentos heredados?**
 
-La lista desplegable de segmentos de Reports &amp; Analytics se ha sustituido por una interfaz de  [Generador de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) con muchas más funciones que le permite crear segmentos "universales" utilizables en los grupos de informes y en las soluciones de Adobe Analytics. Para ver una lista de segmentos existentes, haga clic en el icono Segmentos ![](assets/segment_icon.png)
+La lista desplegable de segmentos de Reports &amp; Analytics se ha sustituido por una interfaz de  [Generador de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) con muchas más funciones que le permite crear segmentos &quot;universales&quot; utilizables en los grupos de informes y en las soluciones de Adobe Analytics. Para ver una lista de segmentos existentes, haga clic en el icono Segmentos ![](assets/segment_icon.png)
 
 en la navegación izquierda, y se mostrará el carril de segmentos.
 
@@ -74,7 +74,7 @@ La lista desplegable de grupo de informes se ha trasladado junto al selector de 
 
 **¿Qué derechos y privilegios necesito para utilizar, crear y administrar segmentos?**
 
-De forma predeterminada, todos los usuarios pueden crear y editar segmentos personales. Sin embargo, los administradores pueden decidir quién cuenta con los [permisos para crear segmentos](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) y pueden asignarlos a grupos específicos. Estos segmentos se pueden compartir directamente con cualquier otro usuario de Analytics.
+De forma predeterminada, todos los usuarios pueden crear y editar segmentos personales. Sin embargo, los administradores pueden decidir quién cuenta con los [permisos para crear segmentos](https://marketing.adobe.com/resources/help/es_ES/reference/groups.html) y pueden asignarlos a grupos específicos. Estos segmentos se pueden compartir directamente con cualquier otro usuario de Analytics.
 
 Los administradores pueden editar cualquier segmento, así como compartir segmentos con grupos y con cualquier persona de la organización. [Más...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
@@ -178,7 +178,7 @@ La mayoría de estos segmentos (excepto los marcados con un asterisco *) se migr
 
 Los informes existentes que tengan estos segmentos aplicados seguirán funcionando correctamente.
 
-**¿Qué les sucede a los segmentos de administración (conocidos como segmentos "Globales")?**
+**¿Qué les sucede a los segmentos de administración (conocidos como segmentos &quot;Globales&quot;)?**
 
 Los segmentos de **Administrador** se migrarán en la nueva interfaz de segmentos y se mostrarán como segmentos compartidos para todos.
 
@@ -329,7 +329,7 @@ La siguiente tabla contiene una lista de dimensiones que se renombraron en el Ge
 
 ## Cambios en las dimensiones basadas en cadenas que tienen valores conocidos  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
-Las dimensiones basadas en cadenas que tienen un conjunto de valores conocidos se cambiaron a tipos enumerados. Al crear un segmento utilizando estas dimensiones, la lista se rellena previamente con todos los valores conocidos y solo se admite el operador "es igual a". Esto le permite segmentar rápidamente los valores exactos que estaba buscando sin seleccionar valores no intencionados al utilizar coincidencias menos restrictivas.
+Las dimensiones basadas en cadenas que tienen un conjunto de valores conocidos se cambiaron a tipos enumerados. Al crear un segmento utilizando estas dimensiones, la lista se rellena previamente con todos los valores conocidos y solo se admite el operador &quot;es igual a&quot;. Esto le permite segmentar rápidamente los valores exactos que estaba buscando sin seleccionar valores no intencionados al utilizar coincidencias menos restrictivas.
 
 Las siguientes dimensiones se cambiaron a listas enumeradas:
 
@@ -351,7 +351,7 @@ Las siguientes dimensiones se cambiaron a listas enumeradas:
 
 ## Cambios en las dimensiones basadas en enteros que tienen valores conocidos  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
-Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado "- Agrupado" tras el nombre de la dimensión. La siguiente pantalla demuestra cómo se segmentan estas dimensiones utilizando la interfaz antigua y nueva del generador de segmentos:
+Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado &quot;- Agrupado&quot; tras el nombre de la dimensión. La siguiente pantalla demuestra cómo se segmentan estas dimensiones utilizando la interfaz antigua y nueva del generador de segmentos:
 
 ![](assets/seg_browser_dimension.png)
 
