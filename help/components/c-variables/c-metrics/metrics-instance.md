@@ -4,7 +4,7 @@ keywords: instances
 title: Instancias
 topic: Metrics
 uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Número de veces que se ha establecido un valor para una variable.
 
-Instancias se contabilizan para todos los tipos de visitas, pero no se cuentan cuando se registra un valor para una variable en una visita posterior debido a la persistencia.
+Instancias  se cuentan para todos los tipos de visitas, pero no se cuentan si se registra un valor para una variable en una visita subsiguiente debido a una persistencia.
 
 Por ejemplo, si un usuario llega a un sitio a través de [!DNL example.com], la primera solicitud de imagen del sitio contendrá el referente de [!DNL example.com]. Si este valor está establecido, se atribuye una instancia a [!DNL example.com] aunque este referente esté registrado para todas las páginas visualizadas durante la visita.
 
