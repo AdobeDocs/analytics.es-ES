@@ -3,7 +3,7 @@ description: Muestra un promedio de la distancia recorrida en una visita para qu
 title: Profundidad promedio de la página
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Muestra un promedio de la distancia recorrida en una visita para que se active cada valor. Esta métrica es muy valiosa a la hora de determinar hasta qué punto de una página determinada o valor de prop llegan los usuarios durante una visita. Profundidad promedio de la página está disponible en cualquier variable que tenga las rutas activadas.
 
-Por ejemplo, si una visita contiene la ruta siguiente: Página A &gt; Página B &gt; Página C &gt; Página D &gt; Página E &gt; Página F, la profundidad es un índice que muestra dónde está la página. Por ejemplo: la “Página A” tiene una profundidad de 0, mientras que la “Página F” tiene una profundidad de cinco. El promedio se basa en una combinación de todas las visitas. Una profundidad de página cuyo valor sea inferior a uno (por ejemplo: 0,9), se corresponderá con el valor medio de todas las páginas visitadas con anterioridad a la página en cuestión.
+Por ejemplo, si una visita contiene la ruta siguiente: Página A > Página B > Página C > Página D > Página E > Página F, la profundidad es un índice que muestra dónde está la página. Por ejemplo: la “Página A” tiene una profundidad de 0, mientras que la “Página F” tiene una profundidad de cinco. El promedio se basa en una combinación de todas las visitas. Una profundidad de página cuyo valor sea inferior a uno (por ejemplo: 0,9), se corresponderá con el valor medio de todas las páginas visitadas con anterioridad a la página en cuestión.
 
 La [!UICONTROL profundidad de página] ayuda a conocer la posición de una determinada página en la ruta del usuario, independientemente de las páginas siguientes o anteriores de esta ruta. Como tal, ayuda a proporcionar una perspectiva de cómo encaja la página en la imagen general de la experiencia del usuario dentro del sitio. Esta perspectiva se puede ver mejor en el informe [!UICONTROL Páginas].
 
@@ -31,7 +31,7 @@ La [!UICONTROL profundidad de página] ayuda a conocer la posición de una deter
   </tr> 
   <tr> 
    <td colname="col1"> Conversión </td> 
-   <td colname="col2"> N/D </td> 
+   <td colname="col2"> N/A </td> 
   </tr> 
  </tbody> 
 </table>
