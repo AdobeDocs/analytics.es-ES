@@ -13,14 +13,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Nuevas funciones en la segmentación con Adobe Analytics.
 
 * [Noviembre de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
-* [octubre de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Octubre de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Septiembre de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
 * [junio de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Enero de 2016](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Noviembre de 2015](/help/components/c-segmentation/whats-new-segmentation.md)
-* [octubre de 2015](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Octubre de 2015](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Septiembre de 2015](/help/components/c-segmentation/whats-new-segmentation.md)
-* [octubre de 2014](/help/components/c-segmentation/whats-new-segmentation.md)
+* [Octubre de 2014](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Septiembre de 2014](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Agosto de 2014](/help/components/c-segmentation/whats-new-segmentation.md)
 * [Julio de 2014](/help/components/c-segmentation/whats-new-segmentation.md)
@@ -134,7 +134,7 @@ Nuevas funciones en la segmentación con Adobe Analytics.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse: desglose por segmentos </p> </td> 
-   <td colname="col2"> <p>Se ha agregado compatibilidad con <span class="wintitle"> Desglose por segmentos</span>. Además de los desgloses Estándar (elementos) y Personalizado (estadísticas), ahora los informes se pueden desglosar por segmentos. Cuando se selecciona la pestaña <span class="wintitle">Segmentos</span>, la lista se llena con el mismo conjunto de segmentos que se ofrece en la lista desplegable <span class="wintitle">Segmentos disponibles</span>. </p> <p>Los elementos de línea pertenecientes al segmento devolverán el valor “1”, y los externos, el valor “0”. </p> </td> 
+   <td colname="col2"> <p>Se ha agregado compatibilidad con  <span class="wintitle"> Desglose por segmentos</span>. Además de los desgloses Estándar (elementos) y Personalizado (estadísticas), ahora los informes se pueden desglosar por segmentos. Cuando se selecciona la pestaña <span class="wintitle">Segmentos</span>, la lista se llena con el mismo conjunto de segmentos que se ofrece en la lista desplegable <span class="wintitle">Segmentos disponibles</span>. </p> <p>Los elementos de línea pertenecientes al segmento devolverán el valor “1”, y los externos, el valor “0”. </p> </td> 
   </tr> 
  </tbody> 
 </table>
