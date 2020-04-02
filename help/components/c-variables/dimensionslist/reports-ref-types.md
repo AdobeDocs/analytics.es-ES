@@ -3,7 +3,7 @@ description: Al realizar un seguimiento y registrar los sitios referentes de los
 title: Tipo de referente
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ La lista siguiente define los distintos tipos de referentes:
 
 **Motores de búsqueda**: Los referentes de motor de búsqueda se registran cuando los visitantes usan un motor de búsqueda para acceder a su sitio. Adobe debe considerar el valor de referencia como un motor de búsqueda, y no puede tratarse de un subdominio que no se considere como tal (por ejemplo, [!DNL mail.yahoo.com] no es un motor de búsqueda porque corresponde al dominio de Gmail).
 
-**[!UICONTROL Redes sociales]**: Adobe debe considerar el valor de referencia como una red social. Consulte [Lista de redes sociales](https://helpx.adobe.com/analytics/kb/list-social-networks.html).
+**[!UICONTROL Redes sociales]**: Adobe debe considerar el valor de referencia como una red social. Consulte [Lista de redes sociales](https://helpx.adobe.com/es/analytics/kb/list-social-networks.html).
 
 **Correo electrónico**: Un dominio de referencia se considera un dominio de referencia de correo electrónico cuando los visitantes hacen clic en el vínculo de mensaje de correo electrónico que contenga el protocolo [!DNL imap://] o [!DNL mail://] y que llegue a su sitio. Por ejemplo, todas las visitas procedentes de [!DNL https://mail.yahoo.com] no se cuentan como referente de correo electrónico, porque el protocolo es [!DNL https://]. Los mensajes de correo electrónico de Outlook se registran en la línea de direcciones escritas o marcadores, mientras que todos los referentes con protocolo HTTP cuyo dominio es un motor de búsqueda conocido se registran en la línea de motores de búsqueda.
 
