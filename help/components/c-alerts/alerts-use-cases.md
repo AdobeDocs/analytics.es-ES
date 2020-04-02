@@ -30,7 +30,7 @@ De este modo, se rellena instantáneamente el Generador de alertas para crear un
 
 ![](assets/prepopulated_alert.png)
 
-## Consolidar las alertas (pila) en lugar de crear múltiples alertas {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## Consolidar las alertas (pila) en lugar de crear múltiples alertas  {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 El apilado de alertas garantiza que las alertas se combinen y que no obtenga diversas alertas independientes.
 
