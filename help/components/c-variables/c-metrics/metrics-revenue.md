@@ -3,7 +3,7 @@ description: Los ingresos se capturan en el evento de compra y se definen como e
 title: Ingresos
 topic: Metrics
 uuid: d0c2c012-42a7-4ff2-8224-6486ab956d98
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,9 +15,9 @@ Los ingresos se capturan en el evento de compra y se definen como el total de d�
 
 | Usos | Descripción |
 |---|---|
-| Tráfico | N/D |
+| Tráfico | N/A |
 | Conversión | Los ingresos se capturan en el evento de [!UICONTROL purchase], y se definen como el total de dólares para la suma del pedido y cada producto. |
-| Ad Hoc Analysis  | Los ingresos se capturan en el evento de [!UICONTROL purchase], y se definen como el total de dólares para la suma del pedido y cada producto. |
+| Ad Hoc Analysis | Los ingresos se capturan en el evento de [!UICONTROL purchase], y se definen como el total de dólares para la suma del pedido y cada producto. |
 
 >[!MORELIKETHIS]
 >
