@@ -3,7 +3,7 @@ description: La siguiente tabla muestra si el país tiene regiones o códigos po
 title: Uso de regiones de segmentación geográfica y código postal por país
 topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 La siguiente tabla muestra si el país tiene regiones o códigos postales, lo que indica si se completará el informe de regiones o códigos postales.
 
-"Sí" indica que el informe está completado para ese país; "No" significa que lo informe no está completado.
+&quot;Sí&quot; indica que el informe está completado para ese país; &quot;No&quot; significa que lo informe no está completado.
 
 | **Nombre del país** | **Tiene regiones** | **Utiliza códigos postales** |
 |---|---|---|
@@ -64,7 +64,7 @@ La siguiente tabla muestra si el país tiene regiones o códigos postales, lo qu
 | suiza | Sí | Sí |
 | chile | Sí | Sí |
 | china | Sí | Sí |
-| côte d'ivoire | Sí | No |
+| côte d&#39;ivoire | Sí | No |
 | camerún | Sí | No |
 | congo - república democrática del | Sí | No |
 | congo | Sí | No |
