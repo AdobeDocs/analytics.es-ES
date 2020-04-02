@@ -1,9 +1,9 @@
 ---
 description: Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
-title: Rutas
+title: Los informes
 topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Muestra información sobre el orden en que se accede a las páginas del sitio We
 
 Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
 
-Rutas los informes incluyen informes de análisis avanzado opcionales y exhaustivos estándar que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
+Los informes  de rutas incluyen informes exhaustivos estándar y de análisis avanzado opcionales que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
 
 **[!UICONTROL Flujo de página siguiente]** o **[!UICONTROL Flujo de sitio siguiente]**: muestra un gráfico ramificado de dos niveles de una página seleccionada (o sección, departamento, etc.) que el visitante ve tras irse de la página seleccionada. Use este informe para analizar e identificar los pasos que siguen los visitantes con más frecuencia después de ver una página determinada. Puede:
 
@@ -35,7 +35,7 @@ Rutas los informes incluyen informes de análisis avanzado opcionales y exhausti
 
 ![](assets/fallout_graphic.png)
 
-Consulte [Informe de visitas en el orden previsto](/help/components/c-variables/dimensionslist/reports-fallout.md).
+Consulte  [Informe de visitas en el orden previsto](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL PathFinder]**: permite dividir las rutas completas en fragmentos, dando como resultado patrones precisos que contribuyen a optimizar su sitio. El asistente de Pathfinder permite especificar los criterios de selección que se utilizan para generar el informe. De este modo, se pueden analizar los fragmentos de la ruta y consultar los que comienzan o finalizan en una página determinada, o incluso los que comienzan en una página y finalizan en otra.
 
