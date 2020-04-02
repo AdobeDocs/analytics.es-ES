@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Crear un grupo de informes virtuales
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Antes de empezar a crear grupos de informes virtuales, hay que tener algunos asp
 * Los grupos de informes virtuales no se pueden compartir. El uso compartido se realiza mediante grupos/permisos.
 * En el Administrador de grupos de informes virtuales solo puede ver sus propios grupos. Debe hacer clic en “Mostrar todos” para ver los de otros usuarios.
 
-1. Vaya a **[!UICONTROL Componentes]** &gt; **[!UICONTROL Grupos de informes virtuales]**.
+1. Vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]**.
 1. Haga clic en **[!UICONTROL Agregar +]**.
 
    ![](assets/new_vrs.png)
@@ -47,7 +47,7 @@ Antes de empezar a crear grupos de informes virtuales, hay que tener algunos asp
   </tr> 
   <tr> 
    <td colname="col1"> Grupos </td> 
-   <td colname="col2"> <p>Seleccione los grupos de permisos a los que quiera tener acceso en este VRS. (También puede administrar permisos de grupos en <span class="ignoretag"><span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Grupos</span></span>). </p> </td> 
+   <td colname="col2"> <p>Seleccione los grupos de permisos a los que quiera tener acceso en este VRS. (También puede administrar permisos de grupos en <span class="ignoretag"><span class="uicontrol"> Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Grupos</span></span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Grupo de informes superior </td> 
@@ -59,7 +59,7 @@ Antes de empezar a crear grupos de informes virtuales, hay que tener algunos asp
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos </td> 
-   <td colname="col2"> <p>Solo tiene que añadir un segmento o <a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >apilar otros</a>. </p> <p> <p>Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción Y. No es posible cambiarlo a una instrucción OR. </p> </p> <p>Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. </p> </td> 
+   <td colname="col2"> <p>Solo tiene que añadir un segmento o <a href="https://marketing.adobe.com/resources/help/es_ES/analytics/segment/seg_stack.html"  >apilar otros</a>. </p> <p> <p>Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción Y. No es posible cambiarlo a una instrucción OR. </p> </p> <p>Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. </p> </td> 
   </tr> 
  </tbody> 
 </table>
