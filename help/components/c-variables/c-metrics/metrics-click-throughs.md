@@ -4,7 +4,7 @@ keywords: Campaign Views
 title: Pulsaciones
 topic: Metrics
 uuid: da605430-24aa-4713-a5c3-735fac0a3441
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,4 +20,4 @@ En el contexto de los canales de marketing, las pulsaciones son el número de ve
 
 *`Click-through rate`* es la forma de medir la efectividad de publicidad web. La tasa de pulsaciones se produce cuando un usuario sigue un hipervínculo (generalmente una publicidad web).
 
-Las pulsaciones en el almacén de datos se denominan "vistas de campaña".
+Las pulsaciones en el almacén de datos se denominan &quot;vistas de campaña&quot;.
