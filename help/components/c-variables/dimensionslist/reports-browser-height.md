@@ -3,7 +3,7 @@ description: Se refiere a la distancia vertical de los datos únicamente en la v
 title: Altura del explorador
 topic: Reports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
