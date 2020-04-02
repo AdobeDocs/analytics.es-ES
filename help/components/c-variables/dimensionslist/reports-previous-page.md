@@ -3,7 +3,7 @@ description: Informe de rutas que proporciona un análisis detallado de las ruta
 title: Página anterior
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ Por ejemplo: puede que desee saber de dónde provienen las personas que visitaro
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ad Hoc Analysis  </td> 
+   <td colname="col1"> Ad Hoc Analysis </td> 
    <td colname="col2"> Un informe de flujo. Puede especificar la dirección en la interfaz y ejecutar el informe a nivel de varias visitas o de una visita. </td> 
   </tr> 
  </tbody> 
