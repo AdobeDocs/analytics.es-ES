@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Preguntas frecuentes sobre VRS
 topic: Reports and analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
@@ -60,11 +60,11 @@ Sugerencias y prácticas recomendadas para los nuevos usuarios de los grupos de 
   </tr> 
   <tr> 
    <td colname="col1"> <b> He marcado “comenzar nueva visita al inicio”. ¿Por qué sigo viendo que hay muchas más visitas que inicios?</b> </td> 
-   <td colname="col2"> <p> Cuando se selecciona "iniciar nueva visita al inicio", se aplica el tiempo de espera. Por lo tanto, si un usuario utiliza la aplicación durante diez minutos con un intervalo de un minuto entre cada acción, se iniciará una nueva visita al inicio y, a continuación, se crearán nueve visitas adicionales cuando se agote el tiempo de espera de la visita. Para mantener los inicios y las visitas lo más cerca posible al utilizar la opción "Iniciar nueva visita al inicio", debe utilizar un tiempo de espera mayor que el tiempo de espera de sesión establecido en el SDK. </p> </td> 
+   <td colname="col2"> <p> Cuando se activa la opción “comenzar nueva visita al inicio”, se sigue aplicando el tiempo de espera. Por tanto, si un usuario utiliza la aplicación durante 10 minutos y deja pasar un minuto entre cada acción, se generará una nueva visita al inicio y otras nueve más, creadas al superarse el tiempo de espera de visita. Para que el número de inicios y de visitas sea lo más parecido posible al utilizar la opción “comenzar nueva visita al inicio”, se debe establecer un tiempo de espera mayor que el tiempo de espera de sesión definido en el SDK. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> Establezco “comenzar nueva visita al inicio” y configuro un tiempo de espera mayor que el del SDK. ¿Por qué el número de inicios sigue siendo mucho menor que el de visitas?</b> </td> 
-   <td colname="col2"> <p> Si el tiempo de espera es mayor que el valor establecido en el SDK, es muy probable que la aplicación esté enviando visitas individuales cuando está en segundo plano, y que dichas visitas individuales se estén registrando como visitas nuevas. Compruébelo utilizando la dimensión Tipo de visita en el grupo de informes principal para ver si se producen visitas individuales en segundo plano. </p> <p> <p>Nota: El SDK solo diferencia las visitas en primer y segundo plano a partir de la versión 4.13.6. Si su versión es anterior, todas las visitas individuales se mostrarán como visitas en primer plano. Si se encuentra en la versión correcta del SDK, debe activar la opción "Impedir que las visitas en segundo plano inicien una nueva visita". </p> </p> <p> <p>Nota: Si deshabilita el procesamiento heredado de las visitas individuales en segundo plano en Admin Console, estas no aparecerán en el grupo de informes principal, pero sí en el grupo de informes virtuales. </p> </p> </td> 
+   <td colname="col2"> <p> Si el tiempo de espera es mayor que el valor establecido en el SDK, es muy probable que la aplicación esté enviando visitas individuales cuando está en segundo plano, y que dichas visitas individuales se estén registrando como visitas nuevas. Compruébelo utilizando la dimensión Tipo de visita en el grupo de informes principal para ver si se producen visitas individuales en segundo plano. </p> <p> <p>Nota: El SDK solo diferencia las visitas en primer y segundo plano a partir de la versión 4.13.6. Si su versión es anterior, todas las visitas individuales se mostrarán como visitas en primer plano. Si su versión del SDK es la correcta, habilite el ajuste “Impedir que las visitas en segundo plano inicien una nueva visita”. </p> </p> <p> <p>Nota: Si deshabilita el procesamiento heredado de las visitas individuales en segundo plano en Admin Console, estas no aparecerán en el grupo de informes principal, pero sí en el grupo de informes virtuales. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> ¿Qué versión del SDK necesito para poder realizar el seguimiento de las visitas individuales en segundo plano?</b> </td> 
