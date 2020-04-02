@@ -3,7 +3,7 @@ description: Agrupa las visitas al sitio con dispositivos móviles según el tam
 title: Tamaño de la pantalla
 topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
