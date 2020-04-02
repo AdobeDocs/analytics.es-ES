@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Clasificaciones de tráfico
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,17 +32,17 @@ t_classification_add_traffic.xml
 
 Instrucciones que describen cómo agregar o editar clasificaciones para los grupos de informes seleccionados.
 
-1. Haga clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** en el encabezado de Grupo.
+1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** en el encabezado de Suite.
 1. Selección de un grupo de informes.
 1. En el campo **[!UICONTROL Seleccionar tipo de clasificación]**, seleccione la variable donde desee agregar una clasificación.
-1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Tráfico]** &gt; **[!UICONTROL Clasificaciones de tráfico]**. 
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Tráfico]** > **[!UICONTROL Clasificaciones de tráfico]**.
 
    ![Información sobre los pasos](assets/traffic-classification.png)
 
 1. Pase el cursor sobre el icono **[!UICONTROL Editar clasificación]**, luego seleccione **[!UICONTROL Agregar clasificación]** o **[!UICONTROL Editar clasificación]**.
 1. En el cuadro de diálogo **[!UICONTROL Clasificación de texto]**, configure la clasificación como desee:
 
-   **[!UICONTROL Nombre:]** Especifique el nombre de la clasificación.
+   **[!UICONTROL Nombre]**: Especifique el nombre de la clasificación.
 
    **[!UICONTROL Descripción]**: Proporcione una descripción más detallada.
 1. Haga clic en **[!UICONTROL Guardar]**.
