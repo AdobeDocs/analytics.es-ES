@@ -3,7 +3,7 @@ description: Muestra las secciones del sitio más visitadas. Las secciones del s
 title: Secciones del sitio
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -47,7 +47,7 @@ Todos los eventos de conversión del [!UICONTROL informe de secciones del sitio]
       <ul id="ul_3795C7AAE6DA4B7E96FCDC7F3211DFBB"> 
        <li id="li_50B295E961724CFB83D222DE9B4C7FF2">Todos los informes clasificados basados en este informe </li> 
        <li id="li_697682892D8841BC8120BEC0E1AE9753"> <span class="wintitle"> Informe de códigos de seguimiento</span> </li> 
-       <li id="li_F6D893FCBA7A4B3EB04715833CA41022">  Informes <span class="wintitle">Productos</span> y <span class="wintitle">Categorías</span> </li> 
+       <li id="li_F6D893FCBA7A4B3EB04715833CA41022"> Informes <span class="wintitle">Productos</span> y <span class="wintitle">Categorías</span> </li> 
        <li id="li_9F379E61DB4F4753AE1FFFC8F9C17347"> <span class="wintitle"> Informe Lealtad del cliente</span> </li> 
        <li id="li_64A6A06F9265410ABB425DA4AF50C440">Todas las variables de conversión totalmente subrelacionadas </li> 
        <li id="li_907DDFCC35AB48EEA5B169B4A2598FB1"> <span class="wintitle"> Canales de marketing de primer y último toque</span> </li> 
@@ -64,7 +64,7 @@ Todos los eventos de conversión del [!UICONTROL informe de secciones del sitio]
     </ul> <p>Este informe puede utilizar segmentos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ad Hoc Analysis  </td> 
+   <td colname="col1"> Ad Hoc Analysis </td> 
    <td colname="col2"> 
     <ul id="ul_DFF9BFC01FC1424B8905C2D2C0EFD156"> 
      <li id="li_65FDF1C165C84F729E0EE84FF671B5E4">Los Ad Hoc Analysis pueden desglosar el informe de secciones del sitio según todos los demás informes de la interfaz de informes de marketing, básicamente. </li> 
