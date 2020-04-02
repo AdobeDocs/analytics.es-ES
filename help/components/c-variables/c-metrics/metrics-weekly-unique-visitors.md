@@ -3,7 +3,7 @@ description: Un visitante único se refiere a una persona que ha visitado un sit
 title: Visitantes únicos semanales
 topic: Metrics
 uuid: b732abf9-cad2-4518-9669-30b85b3e1e28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,6 +16,6 @@ Un visitante único se refiere a una persona que ha visitado un sitio por primer
 | Usos | Descripción |
 |---|---|
 | Tráfico | Visitante único que accede al sitio en una misma semana. Las visitas múltiples en una semana se contabilizan como un [!UICONTROL visitante único semanal]. |
-| Conversión | N/D |
-| Ad Hoc Analysis  | Visitante único que accede al sitio en una misma semana. Las visitas múltiples en una semana se contabilizan como un [!UICONTROL visitante único semanal]. |
+| Conversión | N/A |
+| Ad Hoc Analysis | Visitante único que accede al sitio en una misma semana. Las visitas múltiples en una semana se contabilizan como un [!UICONTROL visitante único semanal]. |
 
