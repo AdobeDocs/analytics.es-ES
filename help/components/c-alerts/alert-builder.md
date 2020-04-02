@@ -19,9 +19,9 @@ Acceda al Generador de alertas de una de las cuatro formas disponibles:
 * Mediante el acceso directo siguiente en Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* En **[!UICONTROL Workspace]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Alerta nueva]**.
+* En **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alerta nueva]**.
 * Seleccione uno o más elementos de línea de la tabla improvisada, haga clic con el botón derecho y elija **[!UICONTROL Crear alerta a partir de la selección]**.
-* Desde un informe de [!UICONTROL Reports &amp; Analytics], vaya a **[!UICONTROL Más]** &gt; **[!UICONTROL Añadir alerta]**.
+* Desde un informe de [!UICONTROL Reports &amp; Analytics], vaya a **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**.
 
 La interfaz del Generador de alertas resulta familiar a quienes hayan creado segmentos o calculado métricas en [!DNL Analytics]:
 
