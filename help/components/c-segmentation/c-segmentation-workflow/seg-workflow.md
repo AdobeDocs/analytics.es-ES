@@ -3,7 +3,7 @@ description: Describe un flujo de trabajo sugerido para los segmentos creados co
 title: Resumen del flujo de trabajo de segmentación
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,13 +30,13 @@ seg_workflow.xml
 
 ¿Ha hecho las preguntas correctas antes de crear segmentos y establecer un nuevo entorno de administración de segmentos? ¿Ha diseñado el segmento teniendo en cuenta su propósito y su uso específico?
 
-Consulte la lista de comprobación para la planificación de segmentos para obtener más ayuda a la hora de planificar y organizar sus segmentos.
+Consulte la  lista de comprobación para la planificación de segmentos para obtener más ayuda a la hora de planificar y organizar sus segmentos.
 
 ![](assets/step2_icon.png) [Generar segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)
 
 Genere y edite segmentos para utilizarlos en todas las capacidades de Analytics.
 
-Consulte [Generación de segmentos secuenciales](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) para obtener información acerca de cómo generar segmentos con el operador THEN.
+Consulte  [Generación de segmentos secuenciales](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) para obtener información acerca de cómo generar segmentos con el operador THEN.
 
 ![](assets/step3_icon.png) [ Etiquetar segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md)
 
