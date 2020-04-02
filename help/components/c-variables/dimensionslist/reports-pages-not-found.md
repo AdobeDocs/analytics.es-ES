@@ -3,7 +3,7 @@ description: Ayuda a identificar las páginas que contienen vínculos rotos y a 
 title: Páginas no encontradas
 topic: Reports
 uuid: a1f5f3d1-1c4e-486c-8913-24da573ad015
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
