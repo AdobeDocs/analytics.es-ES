@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Jerarquías de clasificación
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ Los informes de [!UICONTROL jerarquía] permiten explorar en profundidad conjunt
 
 Puede generar jerarquías de clasificación de páginas web, campañas, productos o cualquiera de las demás variables de informes. El informe de jerarquía muestra las unidades, los pedidos y los ingresos de cada una de las clasificaciones de la variable en la jerarquía.
 
-Por ejemplo, si la jerarquía de un producto incluye Ropa &gt; Ropa de hombre &gt; Parte superior &gt; Polos &gt; Polos XL, el informe de jerarquía mostrará los datos de ventas de la clasificación Ropa. A continuación, puede profundizar para ver los datos de Ropa de hombre, Parte superior, Polos y Polos XL. Las jerarquías de clasificación permiten identificar rápidamente cómo contribuye cada clasificación de la jerarquía a los resultados de Ropa.
+Por ejemplo, si la jerarquía de un producto incluye Ropa > Ropa de hombre > Parte superior > Polos > Polos XL, el informe de jerarquía mostrará los datos de ventas de la clasificación Ropa. A continuación, puede profundizar para ver los datos de Ropa de hombre, Parte superior, Polos y Polos XL. Las jerarquías de clasificación permiten identificar rápidamente cómo contribuye cada clasificación de la jerarquía a los resultados de Ropa.
 
 Cree las clasificaciones antes de agregarlas a una jerarquía.
 
@@ -34,10 +34,10 @@ t_classification_heirarchy.xml
 
  -->
 
-1. Haga clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Grupo de informes]**.
+1. Haga clic en **[!UICONTROL Admin]** > **[!UICONTROL Grupos de informes]**.
 1. Selección de un grupo de informes.
-1. Haga clic en **[!UICONTROL Editar configuración]** &gt; **[!UICONTROL Conversión]** &gt; **[!UICONTROL Jerarquías de clasificación]**.
-1. En la lista desplegable **[!UICONTROL Generar jerarquía para]**, seleccione la variable donde desee crear una jerarquía de clasificación. 
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Jerarquías de clasificación]**.
+1. En la lista desplegable **[!UICONTROL Generar jerarquía para]**, seleccione la variable donde desee crear una jerarquía de clasificación.
 
    La lista de clasificaciones muestra automáticamente las clasificaciones disponibles para la variable seleccionada.
 1. Arrastre una clasificación al campo **[!UICONTROL Arrastrar aquí la nueva raíz de jerarquía]** para incluirla en la jerarquía de clasificación.
