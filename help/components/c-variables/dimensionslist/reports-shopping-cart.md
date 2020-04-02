@@ -3,7 +3,7 @@ description: Muestra cuántos carros de compras se abrieron en un período deter
 title: Carro de compras
 topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
