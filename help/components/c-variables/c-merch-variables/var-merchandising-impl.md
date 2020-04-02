@@ -3,7 +3,7 @@ description: Describe cómo habilitar e implementar una variable de comercializa
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: Implementación de una variable de comercialización
 topic: Developer and implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,15 +15,15 @@ Describe cómo habilitar e implementar una variable de comercialización.
 
 ## Activación de una variable de comercialización
 
-La comercializacón se puede habilitar para cualquier eVar personalizada en **[!UICONTROL Herramientas de administración]** &gt; **[!UICONTROL Grupos de informes]** &gt; **[!UICONTROL Conversión de variables]**.
+La comercialización se puede habilitar para cualquier eVar personalizada en **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Conversión de variables]**.
 
 ![](assets/merch-enable.png)
 
 | Configuración | Descripción |
 |--- |--- |
 | Caduca después | Determina el tiempo que deben persistir los valores de comercialización. |
-| Comercialización | **Sintaxis del producto:** El valor que se establece en `s.products`.<br>**Sintaxis de la variable de conversión:** El valor que se establece en la variable de comercialización designada. |
-| Evento de enlace de comercialización (solo para Sintaxis de la variable de conversión) | Indica si un producto debe enlazarse con la categoría de comercialización actual. Para seleccionar varios eventos, mantenga presionada la tecla Ctrl y haga clic en los distintos elementos de la lista. Solo puede seleccionar eventos si también se selecciona la opción "Sintaxis de la variable de conversión". |
+| Comercialización | **Sintaxis del producto:** El valor que se establece en `s.products`.<br>**Sintaxis de la variable de conversión:** El valor que se establece en la variable de comercialización designada. |
+| Evento de enlace de comercialización (solo para Sintaxis de la variable de conversión) | Indica si un producto debe enlazarse con la categoría de comercialización actual. Para seleccionar varios eventos, mantenga presionada la tecla Ctrl y haga clic en los distintos elementos de la lista. Solo puede seleccionar eventos si también se selecciona la opción &quot;Sintaxis de la variable de conversión&quot;. |
 
 ## Implementación y uso de Sintaxis del producto
 
@@ -42,7 +42,7 @@ s.events="prodView";
 s.products=";Snow Goggles;;;;eVar1=goggles";
 ```
 
-El valor “gafas protectoras” para eVar1 se encuentra asignado al producto “Gafas protectoras para la nieve Todos los eventos de éxito subsiguientes (adiciones de productos, cierres de compra, compras, etc.) relacionados con este producto se abonarán a "gafas protectoras".
+El valor “gafas protectoras” para eVar1 se encuentra asignado al producto “Gafas protectoras para la nieve” Todos los eventos de éxito subsiguientes (adiciones de productos, cierres de compra, compras, etc.) relacionados con este producto se abonarán a &quot;gafas protectoras&quot;.
 
 ## Implementación y uso de Sintaxis de la variable de conversión
 
@@ -80,9 +80,9 @@ s.events="prodView";
 s.products=";Snow Goggles";
 ```
 
-El valor “Naturaleza” para eVar1 se encuentra asignado al producto “Gafas protectoras para la nieve Todos los eventos de éxito subsiguientes (adiciones de productos, cierres de compra, compras, etc.) relacionados con este producto se abonarán a “gafas protectoras”. Asimismo, el valor actual de la variable de comercialización estará enlazado con todos los productos subsiguientes hasta que se cumpla una de estas condiciones:
+El valor “Naturaleza” para eVar1 se encuentra asignado al producto “Gafas protectoras para la nieve” Todos los eventos de éxito subsiguientes (adiciones de productos, cierres de compra, compras, etc.) relacionados con este producto se abonarán a “gafas protectoras”. Asimismo, el valor actual de la variable de comercialización estará enlazado con todos los productos subsiguientes hasta que se cumpla una de estas condiciones:
 
-* Que caduque la eVar (en función de la opción "Caduca después").
+* Que caduque la eVar (en función de la opción &quot;Caduca después&quot;).
 * Que la eVar de comercialización se sobrescriba con un nuevo valor.
 
 ## Información adicional externa
