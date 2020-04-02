@@ -3,7 +3,7 @@ description: El Administrador de segmentos ofrece numerosas maneras de conservar
 title: Administración de segmentos
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,12 +15,12 @@ El Administrador de segmentos ofrece numerosas maneras de conservar los segmento
 
 El Administrador de segmentos de Analytics le muestra todos los segmentos que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todos los segmentos de la organización. Esta introducción presenta la interfaz de usuario y las capacidades del Administrador de segmentos. Acceda al Administrador de segmentos de una de las siguientes maneras:
 
-* Vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Segmentos]** en la parte superior de la navegación.
+* Vaya a **[!UICONTROL Análisis]** > **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]** en el panel de navegación superior.
 * Muestre un informe existente y haga clic en el icono de Segmentos ![](assets/segment_icon.png) en el menú de navegación de la izquierda. A continuación, haga clic en **[!UICONTROL Administrar]**.
 
 ## Vídeo explicativo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-En este [vídeo de YouTube de Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&index=6&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) se proporciona una breve descripción sobre cómo utilizar el administrador de segmentos.
+En este [vídeo de YouTube de Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&amp;index=6&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) se proporciona una breve descripción sobre cómo utilizar el administrador de segmentos.
 
 ## Interfaz de usuario del Administrador de segmentos  {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
