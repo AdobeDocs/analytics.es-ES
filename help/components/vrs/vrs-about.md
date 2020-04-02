@@ -24,7 +24,7 @@ Un grupo de informes virtuales hereda la mayoría de los niveles de servicio del
 * Nombre del grupo de informes
 * Grupos de permisos (los grupos de informes virtuales se pueden asignar a sus propios grupos de permisos)
 
-## Ventajas de los grupos de informes virtuales {#section_3420422FE6DF46EAB151FD9442AAFDC4}
+## Ventajas de los grupos de informes virtuales  {#section_3420422FE6DF46EAB151FD9442AAFDC4}
 
 Los clientes pagan las llamadas del servidor secundario, así que eliminarlas puede conllevar un ahorro significativo. Un grupo de informes virtuales también es completamente retroactivo. Si el grupo de informes global ya contiene datos, los datos relevantes se incluyen automáticamente en un nuevo grupo de informes virtuales. Un nuevo grupo de informes secundario solo comenzaría a recopilar datos tras su creación, por lo que no incluiría ningún dato histórico. Cuando se implementa Analytics, solo es necesario enviar datos a un grupo de informes, no hace falta crear implementaciones para el grupo de informes global y para cada grupo de informes secundario.
 
@@ -38,7 +38,7 @@ Los grupos de informes virtuales ayudan a:
 * Una visualización de datos de un solo cliente (en el futuro)
 * La capacidad para crear grupos de informes virtuales ilimitados con los que segmentar datos
 
-## Limitaciones de los grupos de informes virtuales {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Limitaciones de los grupos de informes virtuales  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Los grupos de informes virtuales tienen las siguientes limitaciones :
 
@@ -48,7 +48,7 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 * Informe en tiempo real
 * Los ajustes y los nombres de variables no se pueden personalizar como en un grupo de informes completo
 
-## Grupos de informes virtuales o etiquetado multigrupo {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Grupos de informes virtuales o etiquetado multigrupo  {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Función | Grupo de informes virtuales | Etiquetado multigrupo |
 |--- |--- |--- |
@@ -57,7 +57,7 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 | Puede cargar datos en él (a través de clasificaciones, fuente de datos, etc.) | No | Sí |
 | Admite la creación de informes DL, marcadores, tableros, objetivos, alertas, segmentos, métricas calculadas... | Sí | Sí |
 | Se puede añadir individualmente a los grupos de permisos | Sí | Sí |
-| Se pueden utilizar funciones de administrador para modificar opciones de configuración individuales en este grupo de informes (Administración &gt; Grupos de informes) | No (la configuración se hereda de un grupo superior) | Sí |
+| Se pueden utilizar funciones de administrador para modificar opciones de configuración individuales en este grupo de informes (Administración > Grupos de informes) | No (la configuración se hereda de un grupo superior) | Sí |
 
 ## Combinación de grupos de informes virtuales y etiquetado multigrupo {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
