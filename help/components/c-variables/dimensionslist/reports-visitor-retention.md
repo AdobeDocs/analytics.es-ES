@@ -3,7 +3,7 @@ description: Muestra información sobre la lealtad del cliente. Puede ver la can
 title: Retención de visitantes
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
