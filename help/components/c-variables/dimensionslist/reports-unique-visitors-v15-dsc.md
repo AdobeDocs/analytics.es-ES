@@ -3,7 +3,7 @@ description: Muestra el número de visitantes únicos que accedieron al sitio we
 title: Visitantes únicos
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -56,7 +56,7 @@ Consulte la tabla siguiente para los ejemplos de esta página. Aquí se represen
 
 ## Informe de visitantes únicos - Métrica de tendencias  {#section_372C08A881D34BBF811C1DE0A1460617}
 
-Los informes de [!UICONTROL visitantes únicos] de la versión  se comportan de manera similar en los Ad Hoc Analysis. Para cada entrada en la que se produzca la visita, el visitante se contabiliza en esa entrada. Cada página recibe el crédito si el visitante está en esa página.
+Los informes de [!UICONTROL visitantes únicos] de la versión se comportan de manera similar en los Ad Hoc Analysis. Para cada entrada en la que se produzca la visita, el visitante se contabiliza en esa entrada. Cada página recibe el crédito si el visitante está en esa página.
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -126,7 +126,7 @@ Además, cada fecha recibe crédito por tener a ese visitante en dicha fecha.
  </tbody> 
 </table>
 
-**[!UICONTROL Informe de visitantes únicos]desglosado por *`Page`*.**
+**[!UICONTROL Informe de visitantes únicos] desglosado por *`Page`*.**
 
 Puede seleccionar una página para el [!UICONTROL informe de visitantes únicos]. En el informe siguiente, el visitante visita la página A en estas fechas:
 
@@ -446,6 +446,6 @@ Si desglosa la Página Page A en las eVars T, U, el 2 de enero quedará excluido
 
 ## Cookies persistentes  {#section_81E139F08AEB4E30A06472856975EA1E}
 
-Las cookies persistentes permanecen en el equipo de un visitante entre visitas para que Adobe pueda identificar a visitantes en visitas siguientes. Para ver el porcentaje de usuarios que aceptan y no aceptan cookies persistentes, seleccione **[!UICONTROL Filtro]** &gt; **[!UICONTROL Cookies persistentes]**.
+Las cookies persistentes permanecen en el equipo de un visitante entre visitas para que Adobe pueda identificar a visitantes en visitas siguientes. Para ver el porcentaje de usuarios que aceptan y no aceptan cookies persistentes, seleccione **[!UICONTROL Filtro]** > **[!UICONTROL Cookies persistentes]**.
 
 El gráfico al igual que la vista de detalles más abajo muestran tanto visitantes de cookies persistentes como visitantes de cookies no persistentes. Muy a menudo, el número de visitantes de cookies no persistentes es ínfimo.
