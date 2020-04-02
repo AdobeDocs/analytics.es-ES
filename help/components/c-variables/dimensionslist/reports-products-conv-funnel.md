@@ -3,7 +3,7 @@ description: Muestra promedios para las métricas Vistas del producto, Adiciones
 title: Canal de conversión de productos
 topic: Reports
 uuid: e857aa20-32b6-45a2-a934-6a11deadb49d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
