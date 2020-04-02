@@ -1,9 +1,9 @@
 ---
-description: 'Definiciones de los informes predefinidos disponibles en Reports & Analytics, así como de las dimensiones disponibles en otras herramientas de Analytics, como Analysis Workspace. '
+description: Definiciones de los informes predefinidos disponibles en Reports & Analytics, así como de las dimensiones disponibles en otras herramientas de Analytics, como Analysis Workspace.
 title: Descripciones de dimensiones
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Descripciones de dimensiones
 
-Definiciones de los informes predefinidos disponibles en Reports &amp; Analytics, así como de las dimensiones disponibles en otras herramientas de Analytics, como Analysis Workspace. 
+Definiciones de los informes predefinidos disponibles en Reports &amp; Analytics, así como de las dimensiones disponibles en otras herramientas de Analytics, como Analysis Workspace.
 
 Las dimensiones son descripciones o características de datos de métricas que se pueden visualizar, desglosar y comparar en un informe. Son valores no numéricos y fechas que pueden desglosarse, o bien son una clasificación de la métrica original del tipo de informe.
 
@@ -36,7 +36,7 @@ Las dimensiones son descripciones o características de datos de métricas que s
    <td colname="col2"><span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Herramientas</span> &gt; <span class="uicontrol">Report Builder</span></span> <p>Paso 1 del Asistente para solicitudes: Lista de informes estándar </p> <p>Paso 2 del Asistente para solicitudes: Lista de dimensiones </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Ad Hoc Analysis  </p> </td> 
+   <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
    <td colname="col2"><span class="ignoretag"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Herramientas</span> &gt; <span class="uicontrol">Ad Hoc Analysis</span></span> <p>Ver y añadir dimensiones disponibles en el panel Dimensión. </p> </td> 
   </tr> 
   <tr> 
