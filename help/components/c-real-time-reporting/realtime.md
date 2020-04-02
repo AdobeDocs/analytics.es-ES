@@ -3,7 +3,7 @@ description: Muestra tráfico de páginas web y clasifica las vistas de página 
 title: Resumen de informes en tiempo real
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Los informes en tiempo real muestran tráfico de páginas web y clasifican las v
 >
 >El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte  [Configuración de informes en tiempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
-**[!UICONTROL Métricas del sitio]** &gt; **[!UICONTROL Tiempo real]**
+**[!UICONTROL Métricas del sitio]** > **[!UICONTROL Tiempo real]**
 
 Los informes en tiempo real responden a las preguntas siguientes: ¿Cuáles son las tendencias en mi sitio y por qué? Le permite, como especialista en marketing, responder rápidamente y administrar de forma activa el rendimiento de sus campañas de marketing y de su contenido. Los datos en tiempo real recibidos tienen una latencia inferior a dos minutos y se actualizan automáticamente cada minuto.
 
@@ -43,7 +43,7 @@ Como administrador, puede
 
 Tenga en cuenta que no se admiten las métricas de conversión (eVar), ya que no hay concepto de persistencia. Aunque puede seleccionar métricas de conversión, solo funcionarán si se establecen en la misma página que las dimensiones. Para obtener más información, consulte el mensaje de advertencia registrado en [Configuración de informesen tiempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
-La configuración y visualización de informes en tiempo real está restringida a administradores o cualquier otro usuario de los grupos de permisos "Acceso a todos los informes" e "Informes avanzados". Sin embargo, Tiempo real respeta los permisos. Por ejemplo, si no dispone de permisos para ver ingresos, no podrá ver un informe en tiempo real que incluya datos de ingresos.
+La configuración y visualización de informes en tiempo real está restringida a administradores o cualquier otro usuario de los grupos de permisos &quot;Acceso a todos los informes&quot; e &quot;Informes avanzados&quot;. Sin embargo, Tiempo real respeta los permisos. Por ejemplo, si no dispone de permisos para ver ingresos, no podrá ver un informe en tiempo real que incluya datos de ingresos.
 
 ## Latencia de datos como resultado de la configuración de A4T  {#section_806CE36354FC4C539A0DED9266A5C704}
 
