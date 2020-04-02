@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Definiciones de reglas de clasificación
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,7 +32,7 @@ Esta página muestra las reglas de un conjunto de reglas.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Seleccionar grupos de informes y variables </p> </td> 
-   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Los grupos de informes a los que se aplica el conjunto de reglas. </p> <p><b>Variable</b> </p> <p>Al crear un conjunto de reglas de clasificación solo puede aplicarse una variable. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes. </p> <p>Nota: Solo puede usar las variables a las que tenga acceso en sus grupos de informes. Las variables se mostrarán en el panel <span class="wintitle">Nuevo conjunto de reglas</span> solo después de haber definido como mínimo una clasificación para la variable. </p> <p>Por ejemplo, para que <span class="term"> las páginas</span> estén disponibles como variables para el conjunto de reglas, asegúrese de que el grupo de informes tenga <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html"  > las clasificaciones de tráfico</a> implementadas para la <span class="term"> página</span>. </p> <p> El usuario puede crear clasificaciones en variables desde <span class="uicontrol">Administradores</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Clasificaciones de tráfico</span> (o <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Clasificaciones de las conversiones</span>). A continuación, debe seleccionar la variable y hacer clic en <span class="uicontrol">Agregar clasificación</span>. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html"  >Clasificaciones de tráfico</a> y <a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html"  >Clasificaciones de las conversiones</a> en la ayuda del administrador. </p> </td> 
+   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Los grupos de informes a los que se aplica el conjunto de reglas. </p> <p><b>Variable</b> </p> <p>Al crear un conjunto de reglas de clasificación solo puede aplicarse una variable. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes. </p> <p>Nota: Solo puede usar las variables a las que tenga acceso en sus grupos de informes. Las variables se mostrarán en el panel <span class="wintitle">Nuevo conjunto de reglas</span> solo después de haber definido como mínimo una clasificación para la variable. </p> <p>Por ejemplo, para que <span class="term"> las páginas</span> estén disponibles como variables para el conjunto de reglas, asegúrese de que el grupo de informes tenga <a href="https://marketing.adobe.com/resources/help/es_ES/reference/traffic_classifications.html"  > las clasificaciones de tráfico</a> implementadas para la <span class="term"> página</span>. </p> <p> El usuario puede crear clasificaciones en variables desde <span class="uicontrol">Administradores</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Clasificaciones de tráfico</span> (o <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Clasificaciones de las conversiones</span>). A continuación, debe seleccionar la variable y hacer clic en <span class="uicontrol">Agregar clasificación</span>. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/es_ES/reference/traffic_classification_admin.html"  >Clasificaciones de tráfico</a> y <a href="https://marketing.adobe.com/resources/help/es_ES/reference/conversion_classifications.html"  >Clasificaciones de las conversiones</a> en la ayuda del administrador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activar</span> </p> </td> 
@@ -44,7 +44,7 @@ Esta página muestra las reglas de un conjunto de reglas.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configurar grupos de informes y variables </p> </td> 
-   <td colname="col2"> <p>Muestra la página <span class="wintitle">Grupos de informes disponibles</span>, en la que puede seleccionar uno o más grupos de informes disponibles para usarlos para todos sus conjuntos de reglas. (Esta página también se muestra la primera vez que ejecuta el <span class="wintitle">enerador de reglas de clasificación</span>). </p> <p>Esta función sirve para ayudar a reducir el tiempo de carga del grupo de informes, en el caso de que tenga cientos de grupos de informes disponibles. </p> <p>Los grupos de informes que seleccione aquí están disponibles al nivel de regla, cuando hace clic en <span class="uicontrol">Agregar grupos</span> al crear una regla. </p> <p>Nota: Un grupo de informes <span class="term"> solo</span> estará disponible cuando los grupos de informes tengan al menos una clasificación definida para la variable en las <span class="wintitle"> Herramientas de administración</span>. <p>(Consulte <span class="term"> Variable</span> en <a href="/help/components/c-classifications2/crb/classification-rule-set.md"  > Conjuntos de reglas de clasificación</a> para obtener una explicación sobre este requisito previo). </p> </p> </td> 
+   <td colname="col2"> <p>Muestra la página <span class="wintitle">Grupos de informes disponibles</span>, en la que puede seleccionar uno o más grupos de informes disponibles para usarlos para todos sus conjuntos de reglas. (Esta página también se muestra la primera vez que ejecuta el <span class="wintitle">enerador de reglas de clasificación</span>). </p> <p>Esta función sirve para ayudar a reducir el tiempo de carga del grupo de informes, en el caso de que tenga cientos de grupos de informes disponibles. </p> <p>Los grupos de informes que seleccione aquí están disponibles al nivel de regla, cuando hace clic en <span class="uicontrol">Agregar grupos</span> al crear una regla. </p> <p>Nota: Un grupo de informes <span class="term"> solo</span> estará disponible cuando los grupos de informes tengan al menos una clasificación definida para la variable en las <span class="wintitle"> Herramientas de administración</span>. <p>(Consulte <span class="term">Variable</span> en <a href="/help/components/c-classifications2/crb/classification-rule-set.md"  >Conjuntos de reglas de clasificación</a> para obtener una explicación sobre este requisito previo). </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Las reglas sobrescriben los valores existentes </p> </td> 
@@ -84,7 +84,7 @@ Esta página muestra las reglas de un conjunto de reglas.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>El número de la regla. </p> <p>Consulte <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Cómo procesar las reglas</a> para obtener más información. </p> </td> 
+   <td colname="col2"> <p>El número de la regla. </p> <p>Consulte  <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Cómo procesar las reglas</a> para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Seleccionar tipo de regla</span> </td> 
@@ -129,7 +129,7 @@ En la página [!UICONTROL Expresión regular] puede editar las expresiones de es
 | Grupos de coincidencias | Muestra la correspondencia entre una expresión regular y los caracteres de un ID de campaña para poder clasificar una posición en este ID. |
 | Resultados de coincidencias | Muestra los elementos de una cadena que coinciden con la expresión regular. |
 
-Consulte [Expresiones regulares en las reglas de clasificación](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+Consulte  [Expresiones regulares en las reglas de clasificación](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 ## Página Pruebas {#section_EC926F97901C4E65901413F9683AA70A}
 
