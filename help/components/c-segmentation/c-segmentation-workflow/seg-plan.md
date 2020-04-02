@@ -3,7 +3,7 @@ description: Describe los pasos y las prácticas recomendadas que deben seguirse
 title: Planificar segmentos
 topic: Segments
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,10 +20,10 @@ El hecho de dedicar un cierto tiempo a la planificación de los segmentos aument
    * ¿Para qué sirve este segmento?
    * ¿Cuándo debo utilizar este segmento?
 
-1. Determine el **alcance** del segmento. ¿Qué [contenedor de segmento](/help/components/c-segmentation/seg-overview.md) representa mejor su alcance? Utilice el contenedor más pequeño posible.
+1. Determine el **alcance** del segmento. ¿Qué  [contenedor de segmento](/help/components/c-segmentation/seg-overview.md) representa mejor su alcance? Utilice el contenedor más pequeño posible.
 
-1. Decida qué **elementos** y qué valores incluirá en la definición del segmento. Tenga en cuenta [la persistencia de las variables](/help/components/c-segmentation/seg-overview.md) al tomar esta decisión.
+1. Decida qué **elementos** y qué valores incluirá en la definición del segmento. Tenga en cuenta  [la persistencia de las variables](/help/components/c-segmentation/seg-overview.md) al tomar esta decisión.
 
 1. Piense en cómo desea que se desarrolle su **proceso de aprobación**. ¿Se encargará una sola persona de revisar y aprobar los segmentos, o bien se tratará de una decisión tomada por un comité?
-1. Defina sus segmentos con miras a una **biblioteca de segmentos** que ofrezca a los usuarios empresariales la posibilidad de apilar y reutilizar fragmentos o componentes de segmentos de manera modular. [](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) ¿Qué "módulos" necesita definir para que dicha biblioteca se haga realidad?
+1. Defina sus segmentos con miras a una **biblioteca de segmentos** que ofrezca a los usuarios empresariales la posibilidad de [apilar](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) y reutilizar fragmentos o componentes de segmentos de manera modular. ¿Qué &quot;módulos&quot; necesita definir para que dicha biblioteca se haga realidad?
 
