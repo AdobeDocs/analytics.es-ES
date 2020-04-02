@@ -14,7 +14,7 @@ El Administrador de métricas calculadas ofrece numerosas maneras de conservar l
 
 El Administrador de métricas calculadas muestra todos los segmentos que posee y que han compartido con usted. Los usuarios con nivel de administrador pueden ver todas las métricas personalizadas de la organización. En esta introducción se presentan la interfaz de usuario y las capacidades del Administrador de métricas calculadas. Acceda a ella
 
-* Vaya a **[!UICONTROL Análisis]** &gt; **[!UICONTROL Componentes]** en el panel de navegación izquierdo. A continuación, haga clic en **[!UICONTROL Métricas calculadas]**.
+* Accediendo a **[!UICONTROL Análisis]** > **[!UICONTROL Componentes]** en el panel de navegación izquierdo. A continuación, haga clic en **[!UICONTROL Métricas calculadas]**.
 
 ![](assets/calcmet_mgr_ui.png)
 
