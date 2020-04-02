@@ -16,7 +16,7 @@ Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan 
 
 Para habilitar la revisión de componentes,
 
-1. Vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Grupo de informes virtual]** &gt; **[!UICONTROL Crear nuevo grupo de informes virtual]**.
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]** > **[!UICONTROL Crear nuevo grupo de informes virtuales]**.
 1. Tras definir la **[!UICONTROL Configuración]**, haga clic en la ficha **[!UICONTROL Componentes]**.
 
 1. Seleccione la casilla de verificación **[!UICONTROL Habilitar la personalización de componentes del grupo de informes virtuales]**:
@@ -56,12 +56,12 @@ En Analysis Workspace, haga clic en el icono de información de cualquier compon
 
 ![](assets/vrs-aw-renamed.png)
 
-## Grupos de componentes {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## Grupos de componentes  {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 Use grupos de componentes para realizar agregaciones masivas de componentes a su grupo de informes virtuales. Por ejemplo, si desea importar un conjunto predeterminado de componentes específicos del análisis de aplicaciones móviles, seleccione el grupo de aplicaciones móviles. Un conjunto correspondiente de dimensiones y métricas (con el nombre ya cambiado) se añade automáticamente a la lista Incluidos del grupo de informes virtuales.
 
 ![](assets/vrs-comp-grp.png)
 
-## Comportamiento de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Comportamiento de Workspace  {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 Para obtener más información sobre la organización en Analysis Workspace, consulte [Organizar y compartir un proyecto](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/curate.html).
