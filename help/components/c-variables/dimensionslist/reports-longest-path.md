@@ -3,7 +3,7 @@ description: Muestra las rutas más largas que siguen los visitantes para llegar
 title: Ruta más larga
 topic: Reports
 uuid: f2d80cf8-48f7-416f-9f8b-e2078400e596
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
