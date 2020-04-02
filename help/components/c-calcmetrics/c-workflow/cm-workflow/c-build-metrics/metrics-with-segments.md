@@ -14,7 +14,7 @@ La segmentación de una métrica individual le permite realizar comparaciones de
 
 ## Comparar segmentos {#section_29A6E0070F084BFDB6228FA9CE106F48}
 
-Digamos que desea comparar distintos aspectos de los segmentos de "Visitantes de EE. UU." para aquellos de un segmento en "Visitantes internacionales". Puede crear métricas que le proporcionarán información como:
+Digamos que desea comparar distintos aspectos de los segmentos de &quot;Visitantes de EE. UU.&quot; para aquellos de un segmento en &quot;Visitantes internacionales&quot;. Puede crear métricas que le proporcionarán información como:
 
 * ¿De qué forma se compara el contenido de navegación ente los dos grupos? (Otro ejemplo sería: ¿De qué forma se compara la tasa de conversión entre los dos segmentos?)
 * Como un porcentaje de visitantes totales, ¿cuántos visitantes de los EE. UU. navegan por ciertas páginas en comparación con los visitantes internacionales?
@@ -65,20 +65,20 @@ Puede introducir otro nivel de consulta al comparar el comportamiento de explora
 
 Si desea ver las principales diferencias entre el comportamiento de exploración de EE. UU. e Internacional de un vistazo, puede crear otra métrica que reste los porcentajes entre sí. Para ello, puede utilizar la función de Contenedor que funciona de forma efectiva como paréntesis rodeando 2 conjuntos de métricas.
 
-1. En el lienzo [!UICONTROL Definición], haga clic en **[!UICONTROL Añadir]** &gt; **[!UICONTROL Contenedor]**:
+1. En el lienzo de [!UICONTROL Definición] haga clic en **[!UICONTROL Agregar]** > **[!UICONTROL Contenedor]**:
 
    ![](assets/cm_add_container.png)
 
-1. Coloque la métrica de "% de visitantes de EE. UU. totales" que ha creado anteriormente en el primer contenedor; se amplía hasta su definición completa:
+1. Coloque la métrica de &quot;% de visitantes de EE. UU. totales&quot; que ha creado anteriormente en el primer contenedor; se amplía hasta su definición completa:
 
    ![](assets/cm_container_us.png)
 
-1. Cree otro contenedor a continuación y coloque la métrica "% de visitantes internacionales totales" en él.
+1. Cree otro contenedor a continuación y coloque la métrica &quot;% de visitantes internacionales totales&quot; en él.
 1. Cambie el operador entre los 2 contenedores a un signo de resta (-).
 
    ![](assets/cm_container_intl.png)
 
-1. Guarde la métrica (asegúrese de que le ha dado un nombre similar a "Diferencia en % entre EE. UU y internacionales").
+1. Guarde la métrica (asegúrese de que le ha dado un nombre similar a &quot;Diferencia en % entre EE. UU y internacionales&quot;).
 1. Cuando se aplica a su informe, puede observar fácilmente dónde se encuentran las principales diferencias en porcentajes y puede clasificar el informe de forma correspondiente.
 
    ![](assets/cm_diff_percent.png)
