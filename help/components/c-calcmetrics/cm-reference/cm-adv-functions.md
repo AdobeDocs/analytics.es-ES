@@ -2,7 +2,7 @@
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 title: 'Referencia: funciones avanzadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
@@ -18,7 +18,7 @@ Una función de tabla es una en la que el resultado es el mismo para cada fila d
 
 ## ¿Qué significa el parámetro Include-Zeros?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
-Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa "nada", pero en ocasiones es importante.
+Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa &quot;nada&quot;, pero en ocasiones es importante.
 
 Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métrica Vistas de página al informe, de repente hay más filas para sus ingresos todas con valor de cero. Probablemente no desea que esto afecte a ningún valor MEAN, MIN, QUARTILE, etc. los cálculos que tiene en la columna de ingresos. En este caso, debería marcar el parámetro para incluir ceros.
 
@@ -41,7 +41,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## Número aproximado de elementos distintos (dimensión) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Devuelve el número aproximado de elementos distintos de dimensiones para la dimensión seleccionada. Esta función usa el método HyperLogLog (HLL) de números aproximados de elementos distintos. Está configurada para garantizar que el valor se encuentre en el 5 % del 95 % del valor actual del tiempo.
+Devuelve el número aproximado de elementos distintos de dimensiones para la dimensión seleccionada. Esta función usa el método HyperLogLog (HLL) de números aproximados de elementos distintos.  Está configurada para garantizar que el valor se encuentre en el 5 % del 95 % del valor actual del tiempo.
 
 ```
 Approximate Count Distinct (dimension)
@@ -65,7 +65,7 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ## Se excedió la cantidad de valores exclusivos  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
+Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://marketing.adobe.com/resources/help/es_ES/reference/metrics_uniques_high_numbers.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
 ## Comparación de funciones de recuento  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -111,7 +111,7 @@ ATAN(metric)
 
 ## Regresión exponencial: Y predicha (Fila) {#concept_25615693312B4A7AB09A2921083502AD}
 
-Calcula los valores Y predichos (metric_Y), dados los valores x conocidos (metric_X) usando el método de "mínimos cuadrados" para calcular la línea que mejor se ajusta según la fórmula .
+Calcula los valores Y predichos (metric_Y), dados los valores x conocidos (metric_X) usando el método de &quot;mínimos cuadrados&quot; para calcular la línea que mejor se ajusta según la fórmula .
 
 ```
 ESTIMATE.EXP(metric_X, metric_Y)
@@ -387,7 +387,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## Regresión de registro: Y predicha (fila) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calcula los valores [!DNL y] predichos (metric_Y), dados los valores [!DNL x] conocidos (metric_X) con el método de "menos cuadrados" para calcular la mejor opción basándose en [!DNL Y = a ln(X) + b]. Se calcula mediante la ecuación ESTIMATE.
+Calcula los valores [!DNL y] predichos (metric_Y), dados los valores [!DNL x] conocidos (metric_X) con el método de &quot;menos cuadrados&quot; para calcular la mejor opción basándose en [!DNL Y = a ln(X) + b]. Se calcula mediante la ecuación ESTIMATE.
 
 En el análisis de regresión, esta función calcula los valores [!DNL y] predichos (*metric_Y*), dados los valores [!DNL x] conocidos (*metric_X*) usando el logaritmo para calcular la mejor opción para la ecuación de regresión [!DNL Y = a ln(X) + b]. Los valores [!DNL a] se corresponden con cada valor x y [!DNL b] es un valor constante.
 
@@ -437,7 +437,7 @@ NOT(logical)
 |---|---|
 | *lógico* | Requerido. Un valor o expresión que puede evaluarse como VERDADERO o FALSO. |
 
-Si utiliza NO, es necesario conocer si las expresiones (&lt;, &gt;, =, &lt;&gt; , etc.) devuelven valores 0 o 1.
+Si utiliza NO, es necesario conocer si las expresiones (&lt;, >, =, &lt;> , etc.) devuelven valores 0 o 1.
 
 ## Distinto a {#concept_EC010B7A9D2049099114A382D662FC16}
 
