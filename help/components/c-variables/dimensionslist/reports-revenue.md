@@ -3,7 +3,7 @@ description: Determina la cantidad de ingresos generados entre todos los product
 title: Ingresos
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -40,7 +40,7 @@ Utilice Ingresos para comprobar el nivel de éxito general y la tendencia de su 
 
 * [!UICONTROL Ingresos] redondea la cantidad total de un período de tiempo al valor de divisa más cercano. No redondea cada producto individual o entrada.
 * Como Analytics redondea cada día a la divisa entera más cercana, la suma de cada día estará mínimamente desajustada si se compara con el total mensual. Esto se debe a que el total mensual no es la suma de cada día redondeado, sino la suma absoluta redondeada a la divisa entera más cercana.
-* Puede crear un informe que no redondee los ingresos a la divisa entera más cercana. Para ello, utilice una  [métrica calculada](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/).
+* Puede crear un informe que no redondee los ingresos a la divisa entera más cercana. Para ello, utilice una  [métrica calculada](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/).
 * Salvo que se utilice la variable `purchaseID`, es posible que los usuarios que actualicen la página aumenten los ingresos ya que, al hacerlo, enviarán estos datos a Adobe varias veces.
 * Los desgloses por hora se basan en el huso horario del grupo de informes.
 * Este informe no contiene elementos de línea. Solo puede verse en formato de tendencias.
@@ -64,15 +64,15 @@ Utilice Ingresos para comprobar el nivel de éxito general y la tendencia de su 
 
 ## Propiedades específicas de productos  {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* Puede acceder a este informe desde **[!UICONTROL Conversión]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Ingresos]**.
+* Para acceder a este informe, vaya a **[!UICONTROL Conversión]** > **[!UICONTROL Compras]** > **[!UICONTROL Ingresos]**.
 
 * Los desgloses de [!UICONTROL fuentes de tráfico] se pueden encontrar en [!UICONTROL Métodos de búsqueda].
 
-* Puede acceder a este informe desde **[!UICONTROL Métricas del sitio]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Ingresos]**.
+* Para acceder a este informe, vaya a **[!UICONTROL Métricas del sitio]** > **[!UICONTROL Compras]** > **[!UICONTROL Ingresos]**.
 
 * Además de todos los desgloses enumerados anteriormente, también están disponibles los desgloses de [!UICONTROL Canal de marketing de primer toque y último toque].
 
-* También puede acceder a este informe desde **[!UICONTROL Métricas del sitio]** &gt; **[!UICONTROL Compras]** &gt; **[!UICONTROL Ingresos]**.
+* Para acceder a este informe, vaya a **[!UICONTROL Métricas del sitio]** > **[!UICONTROL Compras]** > **[!UICONTROL Ingresos]**.
 
 * Además de los desgloses mencionados anteriormente, se pueden utilizar las variables de [!UICONTROL lista] y las variables actuales de [!UICONTROL vídeo].
 
