@@ -2,7 +2,7 @@
 description: Permite evaluar el éxito de las campañas de Adobe Analytics del mismo modo que se ha hecho en Target Classic en el pasado.
 title: Alza y confianza de Target
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Permite evaluar el éxito de las campañas de Adobe Analytics del mismo modo que se ha hecho en [!DNL Target Classic] en el pasado.
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]** &gt; **[!UICONTROL Ver todos los informes]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics para Target]** &gt; **[!UICONTROL Actividades de Target]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Informes]** > **[!UICONTROL Ver todos los informes]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Analytics para Target]** > **[!UICONTROL Actividades de Target]** .
 
-La documentación de Adobe Target contiene más información sobre [Alza](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html) y [confianza](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html).
+La documentación de Adobe Target contiene más información sobre [Alza](https://marketing.adobe.com/resources/help/es_ES/target/target/c_estimating_lift_in_revenue.html) y [confianza](https://marketing.adobe.com/resources/help/es_ES/rec/c_Confidence_Level_and_Confidence_Interval.html).
 
 Para calcular el alza y la confianza:
 
