@@ -27,9 +27,9 @@ Los componentes de Analytics le ayudan a ajustar y potenciar su análisis de dat
 * [Referencia de dimensión](c-variables/dimensionslist/reports-descriptions.md)
 * [Referencia de métricas](c-variables/c-metrics/metricslist.md)
 
-## Más guías de usuario de Analytics
+## Más guías del usuario de Analytics
 
-[Guías de usuario de Analytics](/help/landing/home.md)
+[Guías del usuario de Analytics](/help/landing/home.md)
 
 ## Recursos clave de Analytics
 
