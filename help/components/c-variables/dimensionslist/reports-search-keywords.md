@@ -3,7 +3,7 @@ description: Muestra un desglose de palabras clave de búsqueda.
 title: Palabras clave de búsqueda
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ Muestra un desglose de palabras clave de búsqueda.
 
 >[!IMPORTANT]
 >
->Para las búsquedas de pago y naturales, los motores de búsqueda dejaron de proporcionar (en la mayoría de los casos) las palabras clave de búsqueda como parte del referente. En consecuencia, Adobe siempre clasifica el dominio Google (o Bing, o Yahoo) como búsqueda. A partir del formato y el contenido del referente (aun sin las palabras clave), Adobe puede determinar muchas veces cuándo se trata del resultado de una búsqueda, de modo que esta se cuenta con las palabras clave No disponible. [Más...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>Para las búsquedas de pago y naturales, los motores de búsqueda dejaron de proporcionar (en la mayoría de los casos) las palabras clave de búsqueda como parte del referente. En consecuencia, Adobe siempre clasifica el dominio Google (o Bing, o Yahoo) como búsqueda. A partir del formato y el contenido del referente (aun sin las palabras clave), Adobe puede determinar muchas veces cuándo se trata del resultado de una búsqueda, de modo que esta se cuenta con las palabras clave No disponible. [Más...](https://helpx.adobe.com/es/analytics/kb/keyword-unavailable.html)
 
 ## Asignación, caducidad y valores especiales {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -30,7 +30,7 @@ Muestra un desglose de palabras clave de búsqueda.
   <tr> 
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </th> 
-   <th colname="col3" class="entry"> Ad Hoc Analysis  </th> 
+   <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
