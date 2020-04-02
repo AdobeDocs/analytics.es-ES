@@ -3,7 +3,7 @@ description: Muestra la información de visitantes correspondiente a los último
 title: Detalle del visitante
 topic: Reports
 uuid: a599f855-d8fe-48a9-aa77-3ee89ba2953c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
