@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Archivos de datos de clasificación
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -52,9 +52,9 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
 * Las exportaciones de clasificación pueden tener claves duplicadas debido a los caracteres de línea nueva de la clave. En una exportación del FTP o del explorador, esto se puede resolver activando las comillas de la cuenta FTP. Esto colocará comillas alrededor de cada clave con caracteres de línea nueva.
 * La celda C1 en la primera línea del archivo de importación contiene un identificador de versión que determina cómo las clasificaciones administran el uso de comillas a lo largo del resto del archivo.
 
-   * v2.0 ignora las comillas y supone que todas forman parte de las claves y los valores especificados. Por ejemplo, considere este valor: "Este es ""un valor""". v2.0 lo interpretaría literalmente como: "Este es ""un valor""".
-   * v2.1 indica a las clasificaciones que supongan que las comillas forman parte del formato del archivo utilizado en archivos de Excel. Entonces, v2.1 aplicaría el siguiente formato para el ejemplo anterior: Este es "un valor".
-   * Pueden surgir problemas cuando se especifica v2.1 en el archivo, pero lo que realmente se desea es v2.0, concretamente, cuando las comillas se utilizan de formas que son ilegales según el formato de Excel. Por ejemplo, si tiene un valor: "VP SIN REPS" S/l Dress w/ Overlay. Con v2.1, este formato es incorrecto (el valor debería estar comprendido entre comillas de apertura y cierre, y las comillas que forman parte del valor real deberían estar especificadas con comillas) y las clasificaciones no funcionarán más allá de este punto.
+   * v2.0 ignora las comillas y supone que todas forman parte de las claves y los valores especificados. Por ejemplo, considere este valor: &quot;Este es &quot;&quot;un valor&quot;&quot;&quot;. v2.0 lo interpretaría literalmente como: &quot;Este es &quot;&quot;un valor&quot;&quot;&quot;.
+   * v2.1 indica a las clasificaciones que supongan que las comillas forman parte del formato del archivo utilizado en archivos de Excel. Entonces, v2.1 aplicaría el siguiente formato para el ejemplo anterior: Este es &quot;un valor&quot;.
+   * Pueden surgir problemas cuando se especifica v2.1 en el archivo, pero lo que realmente se desea es v2.0, concretamente, cuando las comillas se utilizan de formas que son ilegales según el formato de Excel. Por ejemplo, si tiene un valor: &quot;VP SIN REPS&quot; S/l Dress w/ Overlay. Con v2.1, este formato es incorrecto (el valor debería estar comprendido entre comillas de apertura y cierre, y las comillas que forman parte del valor real deberían estar especificadas con comillas) y las clasificaciones no funcionarán más allá de este punto.
    * Asegúrese de realizar una de las siguientes acciones: cambiar el formato de archivo a v2.0 al cambiar el encabezado (celda C1) en los archivos que carga, O implementar correctamente el entrecomillado de Excel en todos los archivos.
 
 * La primera fila (que no es de comentario) del archivo de datos contiene los encabezados de columna que se usan para identificar los datos de clasificación de esa columna. El importador requiere un formato específico para los encabezados de columna. Para obtener más información, consulte [Formato de encabezado de columna](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
@@ -94,7 +94,7 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
 
 >[!MORELIKETHIS]
 >
->* [Problemas comunes de carga de ](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
+>* [Problemas comunes de carga de ](https://helpx.adobe.com/es/analytics/kb/common-saint-upload-issues.html)
 
 
 ## Formato del encabezado de las columnas
@@ -147,13 +147,13 @@ Estos caracteres tienen un significado especial dentro de un archivo de datos. C
 
 **INSTANCIA:** multiplicar el valor por el número de instancias para el elemento de línea en el informe.
 
-**CLIC:** multiplicar el valor por el número de clics para el elemento de línea en el informe.
+**CLICK:** multiplicar el valor por el número de clics para el elemento de línea en el informe.
 
 **EVENTO:** multiplicar el valor por el número de veces que el evento personalizado específico se produjo por cada elemento de línea del informe.
 
 **Ejemplo:** Si la Campaña A tuvo un coste de 10 000 $, la columna [!UICONTROL Campaigns^~Cost] contiene un valor de 10 000 y la columna [!UICONTROL Campaigns^~Cost~per] contiene [!UICONTROL FIJO]. Al mostrar el Coste de la Campaña A en los informes, verá 10 000 $ como el coste fijo de la Campaña A correspondiente al intervalo de fechas.
 
-**Ejemplo:** si la Campaña B cuesta aproximadamente 2 $ por clic, la columna [!UICONTROL Campaigns^~Cost] contiene 2 y la columna **[!UICONTROL Campaigns^~Cost~per]** contiene [!UICONTROL CLIC]. Al mostrar el Coste de la Campaña B en los informes, Adobe calcula (2 * [número de clics]) de inmediato para el intervalo de fechas del informe. Esto le proporciona un cálculo del coste total basado en el número de clics realizados con la Campaña B.
+**Ejemplo:** si la Campaña B cuesta aproximadamente 2 $ por clic, la columna [!UICONTROL Campaigns^~Cost] contiene 2 y la columna **[!UICONTROL Campaigns^~Cost~per]** contiene [!UICONTROL CLICK]. Al mostrar el Coste de la Campaña B en los informes, Adobe calcula (2 * [número de clics]) de inmediato para el intervalo de fechas del informe. Esto le proporciona un cálculo del coste total basado en el número de clics realizados con la Campaña B.
 
 ### Fecha
 
@@ -163,9 +163,9 @@ Para obtener más información, consulte [Clasificaciones de conversión](https:
 
 > [!NOTE] En la versión de mantenimiento de [!DNL Analytics] del 10 de mayo de 2018, Adobe empezó a limitar la funcionalidad de las clasificaciones numéricas y habilitadas por fecha. Estos tipos de clasificaciones se eliminaron de las interfaces del Administrador y del Importador de clasificaciones. No es posible añadir nuevas clasificaciones numéricas y habilitadas por fecha. Las clasificaciones existentes se podrán seguir administrando (cargado y eliminado) a través del flujo de trabajo de clasificación estándar y permanecerán disponibles en los informes.
 
-## Usar fechas en conjunción con las [!UICONTROL clasificaciones ] {#section_966A07B228CD4643B258E73FB8BA150A}
+## Usar fechas en conjunción con las [!UICONTROL clasificaciones] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-Las [!UICONTROL clasificaciones] se pueden usar para asignar intervalos de fechas a las campañas u otras [!UICONTROL clasificaciones] de conversión, lo que permite una medición de campaña más exacta. Después de especificar el intervalo de fechas de un valor, cualquier valor coincidente que ocurra fuera del intervalo de fechas no se clasificará. Esto es útil para la medición de campañas que desea utilizar las fechas exactas en que la campaña estaba en activo, y no todas las visitas que coinciden con la propia campaña. Para clasificar correctamente un valor con un intervalo de fechas, se debe cumplir lo siguiente:
+Las [!UICONTROL clasificaciones] se pueden usar para asignar intervalos de fechas a las campañas u otras [!UICONTROL clasificaciones] de conversión, lo que permite una medición de campaña más exacta. Después de especificar el intervalo de fechas de un valor, cualquier valor coincidente que ocurra fuera del intervalo de fechas no se clasificará. Esto es útil para la medición de campañas que desea utilizar las fechas exactas en que la campaña estaba en activo, y no todas las visitas que coinciden con la propia campaña. Para clasificar correctamente un valor con un intervalo de fechas, se debe cumplir lo siguiente:
 
 * La [!UICONTROL clasificación] se debe basar en una variable de conversión.
 * La [!UICONTROL clasificación] utilizada debe establecerse como Habilitada para la fecha o Numérica 2.
@@ -173,7 +173,7 @@ Las [!UICONTROL clasificaciones] se pueden usar para asignar intervalos de fecha
 
 Para clasificar campañas basadas en intervalos de fechas:
 
-1. Inicie sesión en [!DNL Analytics] y vaya a Administración &gt; Clasificaciones.
+1. Inicie sesión en [!DNL Analytics] y vaya a Administración > Clasificaciones.
 1. Haga clic en la ficha **[!UICONTROL Exportación del explorador]**, compruebe que los ajustes de su clasificación habilitada mediante datos son correctos y, a continuación, haga clic en Exportar archivo.
 1. Abra este archivo en Microsoft Excel o cualquier otro editor de hoja de cálculo con el que esté familiarizado.
 1. Una de las columnas finalizará con
@@ -194,5 +194,5 @@ Para clasificar campañas basadas en intervalos de fechas:
 
 ## Clasificaciones de resolución de errores
 
-* [Problemas comunes de la carga](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
+* [Problemas comunes de la carga](https://helpx.adobe.com/es/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
 
