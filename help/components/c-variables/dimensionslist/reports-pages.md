@@ -3,7 +3,7 @@ description: Clasifica las páginas del sitio según la cantidad de tráfico que
 title: Páginas
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ Observe que, en Reports &amp; Analytics, las métricas sobre el informe de las p
   <tr> 
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry">Informes &amp; <p>Analytics </p> </th> 
-   <th colname="col3" class="entry"> Ad Hoc Analysis  </th> 
+   <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
    <th colname="col5" class="entry"> Analysis Workspace </th> 
   </tr>
@@ -63,7 +63,7 @@ En Reports &amp; Analytics, si aplica cualquier evento personalizado como métri
 
 Esto significa que, incluso aunque el evento se haya enviado con una llamada s.tl(), obtendrá la asignación lineal de cualquier llamada s.t() anterior. Ejemplo:
 
-| Nombre de la página | Page_event | Eventos |
+| Nombre de la página | Page_event | Events |
 |---|---|---|
 | Página 1 | **s.t()** |  |
 | Página 1 | s.tl() | Evento 1 |
