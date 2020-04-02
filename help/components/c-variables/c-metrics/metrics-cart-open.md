@@ -3,7 +3,7 @@ description: Número de veces que un cliente abrió un carro de compras agregand
 title: Apertura de la compra
 topic: Metrics
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,9 +15,9 @@ Número de veces que un cliente abrió un carro de compras agregando el primer a
 
 | Usos | Descripción |
 |---|---|
-| Tráfico | N/D |
+| Tráfico | N/A |
 | Conversión | Instancia del evento de [!UICONTROL carro de compras] que se está configurando. Sucede cuando se crea un nuevo carro de compras. |
-| Ad Hoc Analysis  | Instancia del evento de [!UICONTROL carro de compras] que se está configurando. Sucede cuando se crea un nuevo carro de compras. |
+| Ad Hoc Analysis | Instancia del evento de [!UICONTROL carro de compras] que se está configurando. Sucede cuando se crea un nuevo carro de compras. |
 
 >[!MORELIKETHIS]
 >
