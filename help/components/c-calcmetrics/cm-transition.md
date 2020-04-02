@@ -32,7 +32,7 @@ Es posible que estos cambios en la forma en la que las métricas calculadas func
 
 [¿Los datos actuales admiten todo tipo de Métricas calculadas?](/help/components/c-calcmetrics/cm-transition.md#section_1DAA718BB8DB4413BAF8AD4B4FAAFFA2)
 
-[¿Qué significa "No se ha introducido un nombre" conjuntamente con las métricas calculadas migradas?](/help/components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
+[¿Qué significa &quot;No se ha introducido un nombre&quot; conjuntamente con las métricas calculadas migradas?](/help/components/c-calcmetrics/cm-transition.md#section_C90CBB72A67644F38D583301981F8D03)
 
 [¿Qué les sucede a las métricas calculadas de un usuario si se elimina dicho usuario?](/help/components/c-calcmetrics/cm-transition.md#section_42ED4C15830540879C4A161423690E5A)
 
@@ -57,7 +57,7 @@ Es posible que estos cambios en la forma en la que las métricas calculadas func
 
 ## ¿Cómo puedo acceder al Administrador de métricas calculadas? {#section_DD0BD13E9EC940268EBE8BC88241A152}
 
-* Acceda a **[!UICONTROL Análisis]** &gt; **[!UICONTROL Componentes]** en el panel de navegación izquierdo. A continuación, haga clic en **[!UICONTROL Métricas calculadas]**.
+* Acceda a **[!UICONTROL Análisis]** > **[!UICONTROL Componentes]** en el panel de navegación izquierdo. A continuación, haga clic en **[!UICONTROL Métricas calculadas]**.
 
 * En cualquier informe de [!DNL Analytics], haga clic en el icono Métricas ![](assets/metrics_icon.png) que encontrará a la izquierda, para que se muestre el carril de Métricas y, a continuación, haga clic en **[!UICONTROL Administrar]**.
 
@@ -83,7 +83,7 @@ Considere la posibilidad de consolidar métricas calculadas con nombres y defini
 
 Anteriormente, un Administrador podía crear métricas calculadas (conocidas como “métricas calculadas globales” o “métricas calculadas de grupo de informes”) en un Grupo de informes a través de Herramientas de administración.
 
-Las métricas calculadas globales ahora son propiedad del primer usuario Administrador en la lista de usuarios de Administradores de la empresa de inicio de sesión. Se compartirán con "Todos" de forma predeterminada. Este patrón sigue el mismo modelo de uso compartido y planes de migración que los segmentos.
+Las métricas calculadas globales ahora son propiedad del primer usuario Administrador en la lista de usuarios de Administradores de la empresa de inicio de sesión. Se compartirán con &quot;Todos&quot; de forma predeterminada. Este patrón sigue el mismo modelo de uso compartido y planes de migración que los segmentos.
 
 **Qué debe hacer**
 
@@ -93,7 +93,7 @@ Nada. Sin embargo, el nuevo propietario Administrador debería tener cuidado al 
 
 ## ¿Qué les ha sucedido a las Métricas calculadas globales que se compartieron entre Empresas de inicio de sesión? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
-Anteriormente, un Administrador podía crear métricas calculadas (conocidas como “métricas calculadas globales” o “métricas calculadas de grupo de informes”) en un Grupo de informes a través de Herramientas de administración. Estas métricas se podrían "compartir" después entre empresas de inicio de sesión agregando el grupo de informes a varias empresas de inicio de sesión).
+Anteriormente, un Administrador podía crear métricas calculadas (conocidas como “métricas calculadas globales” o “métricas calculadas de grupo de informes”) en un Grupo de informes a través de Herramientas de administración. Estas métricas se podrían &quot;compartir&quot; después entre empresas de inicio de sesión agregando el grupo de informes a varias empresas de inicio de sesión).
 
 Las métricas calculadas globales no ya no pueden compartirse entre empresas de inicio de sesión. Ya no están ligadas a un grupo de informes específico pero, en su lugar están ligadas una empresa de inicio de sesión específica. Las métricas calculadas que se compartieron entre empresas de inicio de sesión
 
@@ -143,9 +143,9 @@ Si necesita utilizar tanto la API como el Creador de métricas calculadas, deber
 
 Los datos actuales no admiten métricas calculadas que contengan segmentos o funciones estadísticas. Las únicas funciones que son compatibles son las funciones matemáticas básicas como la suma, resta, multiplicación, división y negación (-x).
 
-## ¿Qué significa "No se ha introducido un nombre" conjuntamente con las métricas calculadas migradas? {#section_C90CBB72A67644F38D583301981F8D03}
+## ¿Qué significa &quot;No se ha introducido un nombre&quot; conjuntamente con las métricas calculadas migradas? {#section_C90CBB72A67644F38D583301981F8D03}
 
-"No se ha introducido un nombre" significa que no hay ningún nombre de métrica asociado con esta métrica migrada (simplemente una fórmula sin un nombre descriptivo).
+&quot;No se ha introducido un nombre&quot; significa que no hay ningún nombre de métrica asociado con esta métrica migrada (simplemente una fórmula sin un nombre descriptivo).
 
 ## ¿Qué les sucede a las métricas calculadas de un usuario si se elimina dicho usuario? {#section_42ED4C15830540879C4A161423690E5A}
 
