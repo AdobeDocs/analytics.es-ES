@@ -3,7 +3,7 @@ description: Muestra las arañas y los bots que han visitado el sitio durante un
 title: Bots
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
