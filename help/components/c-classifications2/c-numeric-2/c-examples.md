@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Ejemplos
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
