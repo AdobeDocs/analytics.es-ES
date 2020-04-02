@@ -38,7 +38,7 @@ Si selecciona el icono de engranaje junto a una métrica, puede especificar el t
 
 
 
-## Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018) {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
+## Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018)  {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
 En julio de 2018, Adobe cambió la forma en que se generan los informes de asignación lineal para métricas calculadas. Este cambio afecta a Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map y las API de informes. Este cambio afectará principalmente a las eVars y otras dimensiones que tienen persistencia. Tenga en cuenta que estos cambios solo se aplicarán en las métricas calculadas y no tendrán ningún impacto en otros informes con asignación lineal (como el informe Páginas de [!UICONTROL Reports &amp; Analytics]). Los otros informes que usan la asignación lineal seguirán usando el método existente.
 
