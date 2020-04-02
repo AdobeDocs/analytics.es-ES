@@ -3,7 +3,7 @@ description: 'Muestra los dominios que atrajeron a aquellos clientes que repercu
 title: Dominios de referencia
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Muestra los dominios que atrajeron a aquellos clientes que repercutieron más so
   <tr> 
    <th colname="col1" class="entry"> </th> 
    <th colname="col2" class="entry"> Reports &amp; Analytics </th> 
-   <th colname="col3" class="entry"> Ad Hoc Analysis  </th> 
+   <th colname="col3" class="entry"> Ad Hoc Analysis </th> 
    <th colname="col4" class="entry"> Data Warehouse </th> 
   </tr>
  </thead>
