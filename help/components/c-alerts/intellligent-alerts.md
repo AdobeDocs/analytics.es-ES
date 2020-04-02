@@ -32,18 +32,18 @@ Hay cuatro formas en las que puede acceder al Generador de alertas:
 * Mediante el acceso directo siguiente en Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Seleccione directamente el Generador de alertas en:  **[!UICONTROL Workspace]** &gt; **[!UICONTROL Componentes]** &gt; **[!UICONTROL Alerta nueva]**.
+* Seleccione directamente el Generador de alertas: **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alerta nueva]** .
 * Seleccione uno o más elementos de línea de la tabla improvisada, haga clic con el botón derecho y seleccione **[!UICONTROL Crear alerta a partir de la selección]**. De esta forma se abrirá el Generador de alertas, que se rellenará con las métricas y filtros adecuados aplicados a partir de la tabla. A continuación, puede editar la alerta si fuera necesario.
 
    ![](assets/create-alert-from-selection.png)
 
-* Desde un informe de [!UICONTROL Reports &amp; Analytics], vaya a  **[!UICONTROL Más]** &gt; **[!UICONTROL Añadir alerta]** . De esta forma se abrirá el nuevo Generador de alertas, que se rellenará con las métricas y filtros adecuados aplicados a partir del informe. A continuación, puede editar la alerta si fuera necesario.
+* Desde un informe de [!UICONTROL Reports &amp; Analytics], vaya a **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**. De esta forma se abrirá el nuevo Generador de alertas, que se rellenará con las métricas y filtros adecuados aplicados a partir del informe. A continuación, puede editar la alerta si fuera necesario.
 
    ![](assets/add-alert.png)
 
-## Preguntas más frecuentes: Cómo se calculan y activan las alertas {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
+## Preguntas más frecuentes: Cómo se calculan y activan las alertas  {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean [distintos modelos](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90 %), obtendrá más anomalías que con otro más alto (99 %). Los umbrales 99,75 % y 99,99 % se introdujeron específicamente para la granularidad horaria, de modo que no se activen tantas anomalías.
+Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean  [distintos modelos](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90 %), obtendrá más anomalías que con otro más alto (99 %). Los umbrales 99,75 % y 99,99 % se introdujeron específicamente para la granularidad horaria, de modo que no se activen tantas anomalías.
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
