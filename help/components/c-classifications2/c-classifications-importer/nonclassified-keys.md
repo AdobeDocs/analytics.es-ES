@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Claves no clasificadas
 topic: Admin tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,9 +32,9 @@ Instrucciones sobre cómo cambiar el nombre de una clave no clasificada que apar
 
 1. Con el importador, exporte las clasificaciones a un archivo local.
 1. Agregue una fila al archivo y escriba [!DNL ~none~] en la columna Clave.
-1. En la fila que ha agregado, escriba el nombre más descriptivo en la o las columnas de clasificación correspondientes. 
+1. En la fila que ha agregado, escriba el nombre más descriptivo en la o las columnas de clasificación correspondientes.
 
-   Para continuar con el ejemplo de esta documentación, debe escribirse "campaña no móvil" en una columna denominada [!UICONTROL Nombre de campaña móvil].
+   Para continuar con el ejemplo de esta documentación, debe escribirse &quot;campaña no móvil&quot; en una columna denominada [!UICONTROL Nombre de campaña móvil].
 
    Esta entrada cambia el nombre de  *`None`* a *`non-mobile campaign`* en el informe [!UICONTROL Tipo de campaña móvil].
 1. [Importe los datos](/help/components/c-classifications2/c-classifications-importer/import-file.md) de nuevo en el sistema.
