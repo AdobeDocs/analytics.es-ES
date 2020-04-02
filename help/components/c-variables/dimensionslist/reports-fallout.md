@@ -3,7 +3,7 @@ description: Muestra dónde los visitantes abandonan una secuencia preestablecid
 title: Abandono
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,14 +21,14 @@ Este informe resulta útil para examinar:
 
 **Analysis Workspace**
 
-Consulte [Recorrido del cliente: visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html).
+Consulte [Recorrido del cliente: visitas en el orden previsto](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/fallout_flow.html).
 
 **Reports and Analytics**
 
-Consulte [Ejecución de un informe de visitas en el orden previsto](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html), en la Ayuda, para obtener información sobre la configuración.
+Consulte [Ejecución de un informe de visitas en el orden previsto](https://marketing.adobe.com/resources/help/es_ES/sc/user/reports_realtime.html), en la Ayuda, para obtener información sobre la configuración.
 
 **Ad Hoc Analysis**
 
 Los datos de visitas en el orden previsto se pueden analizar en el nivel de la visita o del visitante. También se pueden ver una ruta de tendencia, que muestra un gráfico de la tasa de abandono de la secuencia prevista a lo largo de un período indicado. Se pueden configurar páginas aisladas o grupos de páginas como puntos de comprobación del informe, o agregar cualquier dimensión o métrica, en cualquier combinación o secuencia. También se pueden utilizar como puntos de comprobación en el informe categorías configuradas en los informes de marketing.
 
-Consulte [Informe de visita en el orden previsto](https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_fallout.html) en la Ayuda para obtener información sobre la configuración.
+Consulte [Informe de visita en el orden previsto](https://docs.adobe.com/content/help/es-ES/analytics/analyze/ad-hoc-analysis/c-reports-paths.translate.html) en la Ayuda para obtener información sobre la configuración.
