@@ -3,7 +3,7 @@ description: No todos los segmentos creados en el Generador de segmentos son com
 title: Compatibilidad del segmento con el Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
   <tr> 
    <td colname="col1"> <b>Y y O pueden combinarse sin ningún límite</b> </td> 
    <td colname="col2"> Admitido </td> 
-   <td colname="col3"> Algunas limitaciones. Véase la nota* a continuación de la tabla. </td> 
+   <td colname="col3"> Algunas limitaciones. Consulte *nota* la tabla siguiente. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Contenedores anidados</b> </td> 
@@ -93,4 +93,4 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
  </tbody> 
 </table>
 
-*Nota: El almacén de datos no admite todos los casos de uso de un`exclusion`o`without`contenedor al usar`AND/OR`. Cuando se utiliza una combinación de estas características, solo se admiten en el almacén de datos los segmentos que se pueden volver a escribir como`A AND NOT B`(o **incluir esta característica**y **excluir esta característica**).*
+*Nota: Data Warehouse no admite todos los casos de uso de un contenedor`exclusion`o`without`al usar`AND/OR`. Cuando se usa una combinación de este tipo, solo se admiten en Data Warehouse aquellos segmentos que se puedan rescribir como `A AND NOT B`, (o **que permitan incluir esta característica** y **excluir esta característica**).*
