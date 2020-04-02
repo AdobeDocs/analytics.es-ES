@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Plantilla de clasificación
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ Opcional. Antes de importar las clasificaciones a informes de marketing, existe 
 
 Opcional. Antes de importar las clasificaciones a informes de marketing, existe la posibilidad de descargar una plantilla para facilitar la creación del archivo de datos de clasificación. El archivo de datos utiliza las clasificaciones especificadas como encabezados de columna y, a continuación, organiza el conjunto de datos de informes con los encabezados de clasificación adecuados.
 
-**[!UICONTROL Administración]** &gt; **[!UICONTROL Importador de clasificaciones]**.
+**[!UICONTROL Administración]** > **[!UICONTROL Importador de clasificaciones]**.
 
 | Elemento | Descripción |
 |---|---|
@@ -40,7 +40,7 @@ La plantilla proporciona el formato de archivo que debe aplicarse a las clasific
 
 > [!NOTE] El método de la plantilla limita su descarga de datos a un único grupo de informes.
 
-1. Haga clic en **[!UICONTROL Administración]** &gt; **[!UICONTROL Importador de clasificaciones]**.
+1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Importador de clasificaciones]**.
 1. En la pestaña **[!UICONTROL Descargar plantilla]**, especifique la [configuración de la plantilla de datos](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
 1. Haga clic en **[!UICONTROL Descargar]**.
 1. Guarde el archivo de plantilla en el sistema local.
