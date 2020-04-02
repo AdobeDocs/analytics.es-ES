@@ -3,7 +3,7 @@ description: Descargas de archivos ayuda a conocer la frecuencia con la que los 
 title: Descargas de archivos
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Descargas de archivos ayuda a conocer la frecuencia con la que los visitantes de
 
 **Navegación**
 
-**[!UICONTROL Informes]** &gt; **[!UICONTROL Contenido del sitio]** &gt; **[!UICONTROL Enlaces]** &gt; **[!UICONTROL Descargas del archivo]**
+**[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Vínculos]** > **[!UICONTROL Descargas de archivos]**
 
 Si este informe no está disponible en la ubicación predeterminada, consulte a sus administradores, que pueden haber cambiado la estructura de menú predeterminada para atender mejor a las necesidades específicas de la organización.
 
