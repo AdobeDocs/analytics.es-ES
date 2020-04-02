@@ -14,11 +14,11 @@ Las sesiones según el contexto en los grupos de informes virtuales cambian el m
 
 Puede definir una visita del modo que desee sin alterar los datos subyacentes para adaptarse al modo en que sus visitantes interactúan con las aplicaciones móviles.
 
-## Parámetro URL de perspectiva de cliente {#section_8B298006362341E3AC16A148422D1F65}
+## Parámetro URL de perspectiva de cliente  {#section_8B298006362341E3AC16A148422D1F65}
 
 El proceso de recopilación de datos de Adobe Analytics le permite establecer un parámetro de cadena de consulta que especifica la perspectiva del cliente (indicada como parámetro de cadena de consulta “cp”). Este campo especifica el estado de la aplicación digital del usuario final. Esto le ayuda a saber si se generó una visita mientras una aplicación móvil estaba en segundo plano.
 
-## Procesamiento de visitas en segundo plano {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
+## Procesamiento de visitas en segundo plano  {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
 
 Una visita en segundo plano es un tipo de visita que el SDK para móviles de Adobe versión 4.13.6 o superior envía a Analytics cuando la aplicación realiza una solicitud de seguimiento estando en segundo plano. Algunos ejemplos habituales son:
 
@@ -115,15 +115,15 @@ Igualmente, si se produce una serie de visitas en segundo plano antes de una ser
 
 Las visitas en segundo plano se comportan de este modo para preservar cualquier efecto de atribución de eVars u otras variables establecidas durante las visitas en segundo plano. Esto permite que los eventos de conversión en primer plano posteriores se atribuyan a acciones realizadas cuando una aplicación estaba en segundo plano. También permite a un contenedor de segmentos de visita incluir las visitas en segundo plano que dieron como resultado una sesión en primer plano posterior, lo que resulta útil para medir la efectividad de los mensajes push.
 
-## Comportamiento de la métrica de visitas {#section_50B82618A39B454493B33B1450CCBD3E}
+## Comportamiento de la métrica de visitas  {#section_50B82618A39B454493B33B1450CCBD3E}
 
 El recuento de visitas se basa únicamente en las visitas que incluyen al menos una visita en primer plano. Esto significa que las visitas en segundo plano huérfanas no se cuentan en la métrica.
 
-## Comportamiento de tiempo pasado por métrica de visitas {#section_0A149ABB3E034B97BD0B3A7F3EB67383}
+## Comportamiento de tiempo pasado por métrica de visitas  {#section_0A149ABB3E034B97BD0B3A7F3EB67383}
 
 El tiempo pasado se sigue calculando de un modo análogo a como se hace sin visitas en segundo plano, empleando el tiempo entre visitas. No obstante, si una visita incluye visitas en segundo plano (al producirse lo bastante próximas a visitas en primer plano), dichas visitas se incluyen en el cálculo del tiempo pasado por visita, como si fueran visitas en primer plano.
 
-## Configuración del procesamiento de visitas en segundo plano {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
+## Configuración del procesamiento de visitas en segundo plano  {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
 
 Como el procesamiento de visitas en segundo plano solo está disponible para grupos de informes virtuales que utilizan Procesamiento de intervalo de tiempo, Adobe Analytics admite dos modos de procesar las visitas en segundo plano para preservar el recuento de visitas en el grupo de informes base que no utiliza Procesamiento de intervalo de tiempo. Para obtener acceso a estos ajustes, vaya a Adobe Analytics Admin Console y a la configuración del grupo de informes base aplicable y, a continuación, diríjase al menú “Administración de móviles” y al submenú “Informes de aplicaciones móviles”.
 
@@ -134,6 +134,6 @@ Como el procesamiento de visitas en segundo plano solo está disponible para gru
 
 En cualquier caso, las visitas en segundo plano se facturan al mismo coste que cualquiera otra enviada a Analytics.
 
-## Inicio de nuevas visitas tras cada inicio de aplicación {#section_9DA9A8B9758248A6B311EFBA06AECA80}
+## Inicio de nuevas visitas tras cada inicio de aplicación  {#section_9DA9A8B9758248A6B311EFBA06AECA80}
 
 Además del procesamiento de visitas en segundo plano, los grupos de informes virtuales pueden forzar que se inicie una nueva visita cada vez que el SDK para móviles envíe un evento de inicio de aplicación. Cuando este ajuste está habilitado, cada vez que el SDK envía un evento de inicio de aplicación, se fuerza el inicio de una nueva visita, haya alcanzado o no cualquier visita actual su tiempo de espera. La visita que contiene el evento de inicio de aplicación se incluye como primer elemento de la nueva visita, incrementa el recuento de visitas y crea un contenedor de visitas propio para la segmentación.
