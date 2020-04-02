@@ -365,7 +365,7 @@ Reports &amp; Analytics contiene varios informes preconfigurados que, o bien no 
 | Vínculo de Activity Map por región | clickmaplinkbyregion |
 | Región de Activity Map | clickmapregion |
 | Vínculo de Activity Map | clickmaplink |
-| Página de Página | clickmappage |
+| Página de  Página | clickmappage |
 
 ### Integración de Nielsen
 
@@ -390,7 +390,7 @@ Para obtener más información sobre la implementación de esta integración, vi
 | ID de cliente Nielsen de entrada | entrynielsenclientid |
 | ID de cliente Nielsen de salida | exitnielsenclientid |
 
-### Adobe Experience Manager (AEM)
+### Adobe Experience Manager  (AEM)
 
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
