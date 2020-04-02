@@ -3,7 +3,7 @@ description: Acceso único se define como el número de visitas al sitio que con
 title: Acceso único
 topic: Metrics
 uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,7 +30,7 @@ Acceso único se define como el número de visitas al sitio que contenían un so
    <td colname="col2"> El acceso único no es una métrica de conversión. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Ad Hoc Analysis  </td> 
+   <td colname="col1"> Ad Hoc Analysis </td> 
    <td colname="col2">Al igual que el tráfico, las <span class="wintitle">Visitas a una sola página</span> son el número de veces que se captura una sola página o valor como el único valor de una visita. <p>Esta métrica es equivalente a <span class="wintitle">Acceso único</span> Y <span class="wintitle">Devoluciones</span> en Reports &amp; Analytics, en función de si <span class="wintitle">Contar instancias repetidas</span> está establecido en Sí o No. </p> <p>Esta configuración también afecta a los informes de rutas como Flujos, Página siguiente, Visitas en el orden previsto, etc. </p> </td> 
   </tr> 
  </tbody> 
