@@ -3,7 +3,7 @@ description: Este informe muestra el tiempo que transcurre entre las visitas de 
 title: Frecuencia de retorno
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
