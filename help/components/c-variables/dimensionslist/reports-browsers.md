@@ -3,7 +3,7 @@ description: Proporciona una lista de versiones de exploradores usados para visi
 title: Explorador
 topic: Reports
 uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,5 +27,5 @@ Por ejemplo:
 
 El informe Exploradores puede contener un explorador con una versión desconocida.
 
-Adobe Analytics usa una tabla de búsqueda para rellenar el informe de exploradores. Estas entradas de tabla de búsqueda son específicas de la versión. Por tanto, cuando una organización (como por ejemplo Mozilla) actualiza su explorador, Analytics no reconoce la versión exacta usada. Cuando se produce este evento, especifica el explorador general seguido por una versión desconocida. Para obtener más información, consulte [este artículo sobre la Base de conocimiento](https://helpx.adobe.com/analytics/kb/browser-unknown-version.html).
+Adobe Analytics usa una tabla de búsqueda para rellenar el informe de exploradores. Estas entradas de tabla de búsqueda son específicas de la versión. Por tanto, cuando una organización (como por ejemplo Mozilla) actualiza su explorador, Analytics no reconoce la versión exacta usada. Cuando se produce este evento, especifica el explorador general seguido por una versión desconocida. Para obtener más información, consulte [este artículo sobre la Base de conocimiento](https://helpx.adobe.com/es/analytics/kb/browser-unknown-version.html).
 
