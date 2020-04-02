@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Acerca de las clasificaciones
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Las clasificaciones permiten aplicar categorías a los datos de variables de Analytics para mostrarlos de distintos modos cuando se generan los informes.
 
-Vídeo con información general sobre las [Clasificaciones de Analytics](https://video.tv.adobe.com/v/16853/?captions=spa).
+Vídeo de descripción general de [Clasificaciones de Analytics](https://video.tv.adobe.com/v/16853/?captions=spa).
 
-**[!UICONTROL Administración]** &gt; **[!UICONTROL Grupos de informes]** &gt; **[!UICONTROL Editar configuración]** &gt; *`<Traffic or Conversion>`*
+**[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > *`<Traffic or Conversion>`*
 
 Con las clasificaciones se establece una relación entre la variable y los metadatos relacionados con ella. Por lo general, las clasificaciones se usan en campañas. Para resumir los datos que se recopilan a través de la información de las variables (eVars, props y eventos), pueden aplicarse metadatos a los valores recopilados en las variables.
 
@@ -38,7 +38,7 @@ Supongamos que, en lugar de ver las campañas tan solo por el código de seguimi
 
 Informes y análisis incluye clasificaciones predefinidas para la variable de código de seguimiento, lo que permite obtener informes basados en clasificaciones, denominados Elementos creativos y Campañas. Para el resto de variables de tráfico y conversión, las clasificaciones deben configurarse manualmente.
 
-Consulte [Clasificaciones de tráfico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) y [Clasificaciones de las conversiones](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html).
+Consulte [Clasificaciones de tráfico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) y [Clasificaciones de las conversiones](https://marketing.adobe.com/resources/help/es_ES/reference/conversion_classifications.html).
 
 En la tabla siguiente se describen los distintos tipos de clasificaciones disponibles y los tipos de variables que admiten. Consulte la información de  [Estructura general de archivos](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) antes de cargar archivos de datos.
 
