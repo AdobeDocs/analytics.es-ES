@@ -3,7 +3,7 @@ description: Este informe recopila y organiza información específica acerca de
 title: Resumen de página
 topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
