@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Flujo de trabajo del grupo de informes virtuales
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Familiarícese con las [Consideraciones del etiquetado global/de grupos múltipl
 
 ![](assets/step2_icon.png) [Cree un grupo de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-create.md) aplicando uno o varios segmentos a un grupo de informes superior.
 
-Los grupos de informes virtuales se crean en el Administrador de grupos de informes virtuales (Componentes &gt; Grupos de informes virtuales).
+Los grupos de informes virtuales se crean en el Administrador de grupos de informes virtuales (Componentes > Grupos de informes virtuales).
 
 Una vez creado, el grupo de informes virtuales se trata como un grupo de informes base en toda la interfaz de usuario y, por lo general, lo admiten las funciones más habituales. Por ejemplo, los grupos de informes virtuales aparecen en los selectores de grupos de informes y se pueden seleccionar individualmente como cualquier otro grupo de informes.
 
@@ -33,7 +33,7 @@ Agregue permisos de grupo como parte del grupo de informes virtuales.
 Puede editar permisos de grupo de dos formas:
 
 * Edite el grupo de informes virtuales en el Administrador de grupos de informes virtuales.
-* Vaya a Administración &gt; Administración de usuarios &gt; Grupos y, a continuación, seleccione el grupo que tiene permisos para el grupo de informes virtuales y haga clic en Editar.
+* Vaya a Administración > Administración de usuarios > Grupos y, a continuación, seleccione el grupo que tiene permisos para el grupo de informes virtuales y haga clic en Editar.
 
 ![](assets/step4_icon.png) Abra un informe y seleccione un grupo de informes virtuales para proporcionar una vista segmentada de los datos.
 
