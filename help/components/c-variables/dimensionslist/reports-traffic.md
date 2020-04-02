@@ -3,7 +3,7 @@ description: Los informes de tráfico ofrecen una descripción detallada sobre c
 title: Tráfico
 topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
