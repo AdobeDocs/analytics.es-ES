@@ -37,5 +37,5 @@ En función de sus permisos, puede compartir métricas con toda su organización
 
    El icono Compartido aparece junto a la métrica:  ![](assets/share_icon.png)
 
-1. Puede filtrar las métricas que se han compartido con usted accediendo a **[!UICONTROL Filtros]** &gt; **[!UICONTROL Otros filtros]** &gt; **[!UICONTROL Compartido conmigo]**.
+1. Puede filtrar las métricas que se han compartido con usted accediendo a **[!UICONTROL Filtros]** > **[!UICONTROL Otros filtros]** > **[!UICONTROL Compartido conmigo]**.
 
