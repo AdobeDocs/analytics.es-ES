@@ -3,7 +3,7 @@ description: Instrucciones sobre cómo agregar métricas de participación.
 title: Agregar métricas de participación
 topic: Metrics
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Instrucciones sobre cómo agregar métricas de participación.
 
 La participación debe estar [activada](/help/components/c-variables/c-metrics/metrics-participation.md) para eventos (1-100) de las herramientas de administración.
 
-También puede crear métricas de participación en el creador [Métricas calculadas](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html).
+También puede crear métricas de participación en el creador [Métricas calculadas](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/participation_metric.html).
 
 1. Inicie sesión y navegue hasta cualquier informe de conversión o informe de tráfico en el que haya solicitado métricas de participación.
 1. Haga clic en **[!UICONTROL Agregar métricas]**.
