@@ -3,7 +3,7 @@ description: Un visitante único que realiza una compra. Un cliente único se co
 title: Clientes únicos
 topic: Reports
 uuid: f4fb15e8-482d-4467-81dc-58ade7743822
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
