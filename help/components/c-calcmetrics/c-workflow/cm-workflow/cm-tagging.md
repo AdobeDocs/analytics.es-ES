@@ -20,7 +20,7 @@ Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar un
 * Etiquetas de **flujo de trabajo**: pendiente de aprobación, conservado para (una unidad empresarial específica).
 
 1. En el Administrador de métricas calculadas, marque la casilla que aparece junto a la métrica que desea etiquetar. Aparecerá la barra de herramientas de administración:
-1. Haga clic en **[!UICONTROL Etiqueta]y:**
+1. Haga clic en **[!UICONTROL Etiqueta]** y:
 
    * Seleccione una de las etiquetas existentes, o bien
    * Agregue un nuevo nombre de etiqueta en el cuadro de diálogo Agregar etiquetas/Buscar y pulse **[!UICONTROL Entrar]**.
@@ -31,4 +31,4 @@ Todos los usuarios pueden crear etiquetas para métricas calculadas y aplicar un
 
 La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas.)
 
-También puede filtrar las etiquetas accediendo a **[!UICONTROL Mostrar filtros]** &gt; **[!UICONTROL Etiquetas]**.
+También puede filtrar las etiquetas accediendo a **[!UICONTROL Mostrar filtros]** > **[!UICONTROL Etiquetas]**.
