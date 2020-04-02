@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Las funciones le permiten filtrar y clasificar sus datos, y realizar análisis estadísticos.
 
-Para obtener una lista de todas las funciones, consulte [Funciones básicas](/help/components/c-calcmetrics/cm-reference/cm-functions.md) y [Funciones avanzadas](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
+Para obtener una lista de todas las funciones, consulte  [Funciones básicas](/help/components/c-calcmetrics/cm-reference/cm-functions.md) y [Funciones avanzadas](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
 
 > [!NOTE] Cuando se incluyen funciones en una fórmula de métricas calculadas, aplique siempre la función antes de arrastrar métricas o segmentos.
 
