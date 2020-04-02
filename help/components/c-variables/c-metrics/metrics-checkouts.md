@@ -3,7 +3,7 @@ description: 'Evento que sucede cuando los clientes llegan a la etapa de cierre 
 title: Cierres de compra
 topic: Metrics
 uuid: 5379b814-7055-44d1-b080-bc8a27b967d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Evento que sucede cuando los clientes llegan a la etapa de cierre de compra. La 
 
 | Usos | Descripción |
 |---|---|
-| Tráfico | N/D |
+| Tráfico | N/A |
 | Conversión | Evento donde los clientes llegan a la etapa de cierre de compra. Si bien la etapa de cierre de compra se da justo antes de que la compra finalice y generalmente abarca el ingreso de información personal del cliente (como por ejemplo información de envío y facturación), usted tiene el control absoluto para determinar cuáles son los eventos del sitio que se califican como [!UICONTROL cierres de compra]. |
-| Ad Hoc Analysis  | Evento donde los clientes llegan a la etapa de cierre de compra. Si bien la etapa de cierre de compra se da justo antes de que la compra finalice y generalmente abarca el ingreso de información personal del cliente (como por ejemplo información de envío y facturación), usted tiene el control absoluto para determinar cuáles son los eventos del sitio que se califican como [!UICONTROL cierres de compra]. |
+| Ad Hoc Analysis | Evento donde los clientes llegan a la etapa de cierre de compra. Si bien la etapa de cierre de compra se da justo antes de que la compra finalice y generalmente abarca el ingreso de información personal del cliente (como por ejemplo información de envío y facturación), usted tiene el control absoluto para determinar cuáles son los eventos del sitio que se califican como [!UICONTROL cierres de compra]. |
 
