@@ -10,14 +10,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Solución de problemas de segmentación
 
-## Error: "Elementos incompatibles en este segmento" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## Error: &quot;Elementos incompatibles en este segmento&quot; {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
 Este error se produce cuando intenta guardar un segmento en la carpeta del Almacén de datos donde el segmento contiene elementos no compatibles con el Data Warehouse. Para corregir este error, puede hacer una de estas dos acciones:
 
 * Guardar el segmento en una carpeta distinta.
 * Eliminar o cambiar las partes incompatibles del segmento.
 
-## ¿Por qué no devuelve ningún dato mi segmento? {#section_999749CBBE984142AEA49A6E68E6730A}
+## ¿Por qué no devuelve ningún dato mi segmento?  {#section_999749CBBE984142AEA49A6E68E6730A}
 
 Motivos posibles:
 
@@ -25,7 +25,7 @@ Motivos posibles:
 * El informe no admite la segmentación.
 * No hay datos que coincidan con los criterios de segmentación.
 
-## ¿Por qué no puedo ver el segmento que he creado en el Administrador de segmentos? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## ¿Por qué no puedo ver el segmento que he creado en el Administrador de segmentos?  {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 Motivos posibles:
 
@@ -37,7 +37,7 @@ Motivos posibles:
 * El segmento no se ha guardado.
 * La dirección IP puede haber sido bloqueada en el terminal del usuario.
 
-## ¿Por qué los datos de página mostrados tras aplicar un segmento parecen incorrectos? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## ¿Por qué los datos de página mostrados tras aplicar un segmento parecen incorrectos?  {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 Motivos posibles:
 
