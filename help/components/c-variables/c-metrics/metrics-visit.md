@@ -4,7 +4,7 @@ keywords: visit
 title: Visita
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Secuencia de visitas de la página efectuadas en una sesión. La métrica de visitas se utiliza comúnmente en informes que muestran el número de sesiones de usuario que se producen en el período de tiempo seleccionado.
 
-> [!NOTE] Para obtener información sobre cómo se calculan las visitas y los inicios de aplicaciones móviles, consulte [Comparar visitas e inicios de aplicaciones móviles](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) en la Base de conocimiento.
+> [!NOTE] Para obtener información sobre cómo se calculan las visitas y los inicios de aplicaciones móviles, consulte [Comparar visitas e inicios de aplicaciones móviles](https://helpx.adobe.com/es/analytics/kb/compare-visits-and-mobile-app-launches.html) en la Base de conocimiento.
 
 La métrica de visitas siempre se asocia con un período de tiempo, por lo que sabe si contar una visita nueva si el mismo visitante vuelve a su sitio. Una sesión se inicia cuando el usuario accede por primera vez al sitio y finaliza cuando se da uno de los escenarios siguientes:
 
@@ -34,10 +34,9 @@ Una visita no es necesariamente lo mismo que una sesión de navegador. Si un vis
 
 Cuando una visita finaliza, caducan y dejan de persistir todas las variables con una caducidad de visita. La métrica de número de visitas será incrementada en la siguiente visita para este visitante.
 
-> [!NOTE] Si utiliza Analytics como fuente para Adobe Target, consulte la sección sobre [minimización de recuentos inflados de visitas y visitantes en A4T ](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)[!DNL Target] en la documentación.
+> [!NOTE] Si utiliza Analytics como fuente para Adobe Target, consulte la sección sobre [minimización de recuentos inflados de visitas y visitantes en A4T ](https://marketing.adobe.com/resources/help/es_ES/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) en la [!DNL Target] documentación.
 
-
-Para obtener más información, consulte [Identificación de visitantes únicos](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html) en la Guía de implementación de Adobe Analytics.
+Para obtener más información, consulte [Identificación de visitantes únicos](https://marketing.adobe.com/resources/help/es_ES/sc/implement/visid_overview.html) en la Guía de implementación de Adobe Analytics.
 
 **Períodos de tiempo**
 
