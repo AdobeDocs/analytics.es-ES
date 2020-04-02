@@ -3,7 +3,7 @@ description: Un informe de nivel ejecutivo que muestra cifras totales. Contiene 
 title: Totales
 topic: Reports
 uuid: 575c3dba-6372-42cf-84ab-9cdadefa2e0a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
