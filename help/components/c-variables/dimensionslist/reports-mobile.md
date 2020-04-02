@@ -3,7 +3,7 @@ description: Muestran información sobre el acceso a sitios web desde dispositiv
 title: Mobile
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
