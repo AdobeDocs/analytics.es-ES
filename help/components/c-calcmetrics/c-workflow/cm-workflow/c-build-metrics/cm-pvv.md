@@ -8,16 +8,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 ---
 
 
-# Crear una métrica "Vistas de página por visitas" simple
+# Crear una métrica &quot;Vistas de página por visitas&quot; simple
 
-Le muestra cómo crear una métrica "Vistas de página por visitas" simple.
+Le muestra cómo crear una métrica &quot;Vistas de página por visitas&quot; simple.
 
-Para obtener una descripción detallada de los componentes de la interfaz de usuario, consulte [Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
+Para obtener una descripción detallada de los componentes de la interfaz de usuario, consulte  [Crear métricas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
-Para crear una métrica "Vistas de página por visitas" simple haga lo siguiente.
+Para crear una métrica &quot;Vistas de página por visitas&quot; simple haga lo siguiente.
 
 1. Vaya al Creador de métricas calculadas.
-1. Asigne a la métrica el nombre "Vistas de página por visita" o algo similar.
+1. Asigne a la métrica el nombre &quot;Vistas de página por visita&quot; o algo similar.
 1. Proporciónele una **[!UICONTROL Descripción]** descriptiva para mostrar para qué se utiliza.
 1. Seleccione el **[!UICONTROL Formato]** adecuado, en este caso, Decimal.
 1. Decida cuántos lugares decimales desea que muestre su informe.
