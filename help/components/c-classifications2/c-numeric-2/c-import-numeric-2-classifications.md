@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Importar clasificaciones numéricas 2
 topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,7 +30,7 @@ Las siguientes definiciones asumen que el nombre de su clasificación numérica 
 
 AAAA/MM/DD - AAAA/MM/DD
 
-**~MyCost^~rate~~:** El evento a multiplicar por la columna [!UICONTROL Valor]. Los valores válidos son:
+**~MyCost^~rate~:** El evento a multiplicar por la columna [!UICONTROL Valor]. Los valores válidos son:
 
 * fijo: para indicar que se trata de un valor único que debe propagarse a lo largo del periodo.
 * revenue
@@ -47,4 +47,4 @@ AAAA/MM/DD - AAAA/MM/DD
 * evento 2
 * etc.
 
-**~MyCost^~hinge~:** El evento que se debe utilizar para distribuir el valor durante un desglose. Este valor suele ser el mismo que [!UICONTROL ~MyCost^~rate~~], a menos que esté utilizando [!UICONTROL fijo]. Los valores válidos para esta columna son idénticos a los de [!UICONTROL ~MyCost^~rate~~], con el añadido de [!UICONTROL ninguno].
+**~MyCost^~hinge~:** El evento que se debe utilizar para distribuir el valor durante un desglose. Este valor suele ser el mismo que [!UICONTROL ~MyCost^~rate~], a menos que esté utilizando [!UICONTROL fijo]. Los valores válidos para esta columna son idénticos a los de [!UICONTROL ~MyCost^~rate~], con el añadido de [!UICONTROL ninguno].
