@@ -3,7 +3,7 @@ description: Se refiere al tipo de explorador que utiliza el visitante (por ejem
 title: Tipos de explorador
 topic: Reports
 uuid: c755abce-ac24-42b6-b118-a971af7f6a59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Se refiere al tipo de explorador que utiliza el visitante (por ejemplo, Internet Explorer, Mozilla Firefox, Google Chrome, etc.).
 
-Los tipos de exploradores no identificados aparecen como "no especificado".
+Los tipos de exploradores no identificados aparecen como &quot;no especificado&quot;.
 
 Por ejemplo:
 
