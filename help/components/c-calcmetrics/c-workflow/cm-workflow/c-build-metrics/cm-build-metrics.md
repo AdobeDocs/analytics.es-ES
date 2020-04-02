@@ -14,12 +14,12 @@ El Creador de métricas calculadas proporciona un lienzo en el que arrastrar y s
 
 Existen varias formas de acceder al Creador de métricas calculadas:
 
-* En Analysis Workspace, abra un proyecto y haga clic en **[!UICONTROL + Nuevo]** &gt; **[!UICONTROL Crear métrica]**.
-* En [!DNL Analytics], vaya a **[!UICONTROL Componentes]** &gt; **[!UICONTROL Métricas calculadas]**.
+* En Analysis Workspace, abra un proyecto y haga clic en **[!UICONTROL + Nuevo]** > **[!UICONTROL Crear métrica]** .
+* En [!DNL Analytics], vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Métricas calculadas]**.
 
 * Haga clic en **[!UICONTROL + Agregar]**, en la parte superior del [Administrador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), o bien
 
-* Vaya a **[!UICONTROL Analytics]** &gt; **[!UICONTROL Informes]**, abra cualquier informe, haga clic en el icono Métricas ![](assets/metrics_icon.png) para subir el carril de Métricas y, por último, haga clic en **[!UICONTROL Agregar]**.
+* Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**, abra cualquier informe, haga clic en el icono Métricas ![](assets/metrics_icon.png) para subir el riel de Métricas y, por último, haga clic en **[!UICONTROL Agregar]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -132,7 +132,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de funciones </p> </td> 
-   <td colname="col3"> <p>(Solo métricas calculadas avanzadas) Las funciones se dividen en dos listas: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Básicas </a> (utilizadas con más frecuencia) y <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Avanzadas </a>. </p> </td> 
+   <td colname="col3"> <p>(Solo métricas calculadas avanzadas) Las funciones se dividen en dos listas:  <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Básicas </a> (utilizadas con más frecuencia) y <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Avanzadas </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Selector de grupos de informes </p> </td> 
