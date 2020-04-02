@@ -3,7 +3,7 @@ description: Instancia de la vista del producto que se está configurando. Se pr
 title: Vistas del producto
 topic: Metrics
 uuid: a9f2bbcd-e9ba-42d6-90c8-2fd4e6c9775b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,9 +15,9 @@ Instancia de la vista del producto que se está configurando. Se produce cuando 
 
 | Usos | Descripción |
 |---|---|
-| Tráfico | N/D |
+| Tráfico | N/A |
 | Conversión | Instancia de la [!UICONTROL vista de producto] que se está configurando. Se produce cuando se ve la página de [!UICONTROL detalles de un producto]. |
-| Ad Hoc Analysis  | Instancia de la [!UICONTROL vista de producto] que se está configurando. Se produce cuando se ve la página de [!UICONTROL detalles de un producto]. |
+| Ad Hoc Analysis | Instancia de la [!UICONTROL vista de producto] que se está configurando. Se produce cuando se ve la página de [!UICONTROL detalles de un producto]. |
 
 >[!MORELIKETHIS]
 >
