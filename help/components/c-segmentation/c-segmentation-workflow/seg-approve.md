@@ -3,7 +3,7 @@ description: En el Administrador de segmentos, puede establecer un flujo de trab
 title: Aprobar segmentos
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Aprobar segmentos
 
-En el Administrador de segmentos, puede establecer un flujo de trabajo que incluya la aprobación de segmentos para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes. 
+En el Administrador de segmentos, puede establecer un flujo de trabajo que incluya la aprobación de segmentos para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes.
 
 Así es como se marca un segmento como aprobado:
 
