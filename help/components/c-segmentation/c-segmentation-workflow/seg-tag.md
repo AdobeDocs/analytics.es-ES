@@ -3,7 +3,7 @@ description: En el Administrador de segmentos, el etiquetado de segmentos le per
 title: Etiquetar segmentos
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ Todos los usuarios pueden crear etiquetas para los segmentos y aplicar una o má
 
    ![](assets/segment_mgmt_toolbar.png)
 
-1. Haga clic en **[!UICONTROL Etiqueta]y:**
+1. Haga clic en **[!UICONTROL Etiqueta]** y:
 
    * Seleccione una de las etiquetas existentes, o bien
    * Agregue una etiqueta nueva y presione **[!UICONTROL Entrar]**.
@@ -33,6 +33,6 @@ Todos los usuarios pueden crear etiquetas para los segmentos y aplicar una o má
 
 1. Haga clic en **[!UICONTROL Etiqueta]** de nuevo para etiquetar el segmento.
 
-La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas.)
+La etiqueta debería aparecer en la columna de etiquetas. (Haga clic en el icono del engranaje en la esquina superior derecha para administrar las columnas).
 
-También puede filtrar las etiquetas accediendo a **[!UICONTROL Filtros]** &gt; **[!UICONTROL Etiquetas]**.
+También puede filtrar las etiquetas accediendo a **[!UICONTROL Filtros]** > **[!UICONTROL Etiquetas]**.
