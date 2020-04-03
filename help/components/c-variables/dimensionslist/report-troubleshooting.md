@@ -5,7 +5,7 @@ title: Información sobre prácticas recomendadas y resolución de problemas
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: dca5bac72a2cf5f5ded5072e1867676392a7850e
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Analytics proporciona una interfaz de sistema de informes flexible que le 
 
 >[!Note]
 >Estas recomendaciones se aplican a Reports &amp; Analytics, Ad Hoc Analysis y Report Builder.
->No se aplican a Analysis Workspace, que tiene su propio conjunto de [recomendaciones](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md). Tampoco se aplican a [las recomendaciones](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html) de Data Warehouse. Un conjunto adicional de
+>No se aplican a Analysis Workspace, que tiene su propio conjunto de [recomendaciones](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). Tampoco se aplican a [las recomendaciones](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html) de Data Warehouse. Un conjunto adicional de
 >[recomendaciones](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) está disponibles para la API de informes de Adobe Analytics.
 
 ## Tiempos de espera de informe y cola de solicitud {#section_A42AD7E487C749B7B879BAFA814FFEF9}
