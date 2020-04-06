@@ -2,35 +2,35 @@
 title: linkInternalFilters
 description: Utilice la variable linkInternalFilters para ayudar al seguimiento automático de vínculos de salida.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkInternalFilters
 
-AppMeasurement ofrece la capacidad de rastrear automáticamente los vínculos que apuntan fuera del sitio. Si [`trackExternalLinks`](trackexternallinks.md) está habilitada, se envía una solicitud de imagen a Adobe directamente cuando un visitante hace clic en un vínculo para abandonar el sitio. Las [`linkExternalFilters`](linkexternalfilters.md) variables y `linkInternalFilters` determinan qué vínculos se consideran internos/externos.
+AppMeasurement ofrece la capacidad de rastrear automáticamente los vínculos que redirigen fuera del sitio. If [`trackExternalLinks`](trackexternallinks.md) is enabled, an image request is sent to Adobe right as a visitor clicks a link to leave your site. Las variables [`linkExternalFilters`](linkexternalfilters.md) y `linkInternalFilters` determinan qué vínculos se consideran internos/externos.
 
-Si esta variable contiene un valor, el seguimiento automático de vínculos de salida se comporta de manera similar a una lista negra. Si un clic en un vínculo no coincide con ningún `linkInternalFilters` valor, se considera un vínculo de salida. La dirección URL completa se examina con esta variable. Si [`linkLeaveQueryString`](linkleavequerystring.md) está habilitada, también se examina la cadena de consulta.
+Si esta variable contiene un valor, el seguimiento automático de vínculos de salida se comporta de manera similar a una lista de elementos prohibidos. Si un clic en un vínculo no coincide con ningún valor `linkInternalFilters`, se considera un vínculo de salida. La dirección URL completa se examina con esta variable. If [`linkLeaveQueryString`](linkleavequerystring.md) is enabled, the query string is also examined.
 
-Si utiliza `linkInternalFilters` y `linkExternalFilters` simultáneamente, el vínculo en el que se hizo clic debe coincidir `linkExternalFilters` y no coincidir **para** `linkInternalFilters` ser considerado un vínculo de salida. Si un vínculo en el que se hizo clic coincide con los criterios de vínculo de salida y de descarga, el tipo de vínculo de descarga tiene prioridad.
+Si utiliza `linkInternalFilters` y `linkExternalFilters` simultáneamente, el vínculo en el que se hizo clic debe coincidir con `linkExternalFilters` **y no** con `linkInternalFilters` para considerarse como un vínculo de salida. Si un vínculo en el que se hizo clic coincide con los criterios de vínculo de salida y de descarga, el tipo de vínculo de descarga tiene prioridad.
 
-> [!NOTE] `linkInternalFilters` y los filtros [de URL](/help/admin/admin/internal-url-filter-admin.md) internos son funciones independientes que cumplen objetivos distintos. La `linkInternalFilters` variable funciona específicamente para el seguimiento de vínculos de salida. Los filtros URL internos son una configuración de administración que ayuda con las dimensiones de fuentes de tráfico como Dominio de referencia.
+>[!NOTE] `linkInternalFilters`[](/help/admin/admin/internal-url-filter-admin.md) y los filtros de URL internos son funciones independientes que cumplen distintos propósitos. La variable `linkInternalFilters` funciona específicamente para el seguimiento de vínculos de salida. Los filtros URL internos son una configuración de administración que ayuda con las dimensiones de fuentes de tráfico como Dominio de referencia.
 
-## Vínculos salientes: nunca rastrear en Adobe Experience Platform Launch
+## Vínculos de salida: No rastrear Adobe Experience Platform Launch
 
-El campo No rastrear nunca es una lista de filtros separados por comas (generalmente dominios) bajo el acordeón [!UICONTROL Link Tracking] al configurar la extensión de Adobe Analytics.
+The Never Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Haga clic en la propiedad que desee.
-3. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de Adobe Analytics.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+2. Haga clic en la propiedad deseada.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expanda el [!UICONTROL Link Tracking] acordeón, que muestra el [!UICONTROL Outbound Links - Never Track] campo.
 
-Coloque filtros que no desee que nunca se rastreen como vínculos de salida en este campo. Separe varios dominios con una coma sin espacio.
+Coloque filtros que no desee que se rastreen como vínculos de salida en este campo. Separe varios dominios con una coma sin espacios.
 
-## s.linkInternalFilters en AppMeasurement e inicie el editor de código personalizado
+## s.linkInternalFilters en el editor de código personalizado de AppMeasurement y Launch
 
-La `s.linkInternalFilters` variable es una cadena que contiene filtros (como dominios) que considera internos al sitio. Separe varios filtros con una coma sin espacios.
+La variable `s.linkInternalFilters` es una cadena que contiene filtros (como dominios) que el usuario considera internos al sitio. Separe varios filtros con una coma sin espacios.
 
 ```js
 s.linkInternalFilters = "example.com,example.net,example.org";
