@@ -1,48 +1,48 @@
 ---
-title: Events
-description: Configure la variable events, que gobierna la mayoría de las métricas del sitio.
+title: events
+description: Configure la variable “events” (eventos), que gobierna la mayoría de las métricas del sitio.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Events
+# events
 
-Las dimensiones y las métricas son componentes vitales para los informes. La `events` variable es responsable de la recopilación de datos de muchas métricas del sitio.
+Las dimensiones y las métricas son componentes fundamentales para los informes. La variable `events` es responsable de la recopilación de datos de muchas métricas del sitio.
 
 ## Eventos en Adobe Experience Platform Launch
 
 Puede establecer eventos al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Haga clic en la propiedad que desee.
-3. Vaya a la [!UICONTROL Rules] ficha y, a continuación, haga clic en la regla que desee (o cree una regla).
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+2. Haga clic en la propiedad deseada.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. En [!UICONTROL Actions], haga clic en una [!UICONTROL Adobe Analytics - Set Variables] acción existente o en el icono &#39;+&#39;.
 5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el valor [!UICONTROL Action Type] en [!UICONTROL Set Variables].
-6. Busque la [!UICONTROL Events] sección.
+6. Locate the [!UICONTROL Events] section.
 
 Hay varias funciones disponibles:
 
-* Un menú desplegable permite seleccionar el evento que se va a incluir
-* Campo de texto opcional para la serialización. See [event serialization](event-serialization.md) for more information.
-* Campo de texto opcional para un valor de evento. Puede incluir moneda para eventos de moneda o un entero para eventos que no sean de moneda para incrementarla varias veces. Por ejemplo, si selecciona `event1` en la lista desplegable e incluye `10` en este campo, los informes se incrementan `event1` en 10.
+* Un menú desplegable permite seleccionar el evento que se va a incluir.
+* Un campo de texto opcional permite la serialización. Consulte [Serialización de eventos](event-serialization.md) para obtener más información.
+* Campo de texto opcional para un valor de evento. Puede incluir moneda para eventos de moneda o un entero para eventos que no sean de moneda para incrementar la cifra varias veces. Por ejemplo, si selecciona `event1` en la lista desplegable e incluye `10` en este campo, los informes se incrementan `event1` en 10.
 * Botón para agregar otro evento. No hay un límite razonable para el número de eventos que puede incluir en una visita.
 
-## s.events en el editor de código personalizado AppMeasurement e Launch
+## “s.events” en el editor de código personalizado de AppMeasurement y Launch
 
-La `s.events` variable es una cadena que contiene una lista de eventos delimitada por comas para incluir en la visita. No hay límite de bytes para esta variable, por lo que no se trunca. Los valores válidos son los siguientes:
+La variable `s.events` es una cadena que contiene una lista de eventos delimitada por comas que se pueden incluir en la visita. No hay límite de bytes para esta variable, por lo que no se trunca. Los valores válidos son los siguientes:
 
-* `event1` - `event1000`: Eventos personalizados, establezca lo que desee. Registre cómo se utiliza cada evento en el documento [de diseño de](../../../prepare/solution-design.md)soluciones de su organización. El número de eventos disponibles depende del contrato de Analytics de su organización. La mayoría de las organizaciones con contratos no preexistentes tienen disponibles 1000 eventos personalizados. Póngase en contacto con el administrador de cuentas de su organización si no está seguro de cuántos eventos personalizados tiene a su disposición.
-* `purchase`:: Aumenta la métrica &#39;Pedidos&#39; en 1 y toma los valores establecidos en la `products` variable para calcular &#39;Unidades&#39; e &#39;Ingresos&#39;. Consulte [Evento](event-purchase.md) de compra para obtener más información.
-* `prodView`:: Aumenta la métrica &quot;Vistas del producto&quot;.
-* `scOpen`:: Aumenta la métrica &#39;Carros de compras&#39;.
-* `scAdd`:: Aumenta la métrica &#39;Adiciones al carro de compras&#39;.
-* `scRemove`:: Aumenta la métrica &#39;Eliminaciones del carro de compras&#39;.
-* `scView`:: Aumenta la métrica &quot;Vistas del carro de compras&quot;.
-* `scCheckout`:: Incrementa la métrica &#39;Cierres de compras&#39;.
+* `event1` - `event1000`: Eventos personalizados, establezca lo que desee. Registre cómo se utiliza cada evento en el [documento de diseño de soluciones](../../../prepare/solution-design.md) de su organización. El número de eventos disponibles depende del contrato de Analytics de su organización. La mayoría de las organizaciones con contratos no incluidos tienen disponibles 1000 eventos personalizados. Contacte con el administrador de cuentas de su organización si no está seguro de cuántos eventos personalizados tiene a su disposición.
+* `purchase`: Aumenta la métrica “Pedidos” en 1 y toma los valores establecidos en la variable `products` para calcular “Unidades” e “Ingresos”. Consulte [Evento de compra](event-purchase.md) para obtener más información.
+* `prodView`: Aumenta la métrica “Vistas del producto”.
+* `scOpen`: Aumenta la métrica “Carros de compras”.
+* `scAdd`: Aumenta la métrica “Adiciones al carro de compras”.
+* `scRemove`: Aumenta la métrica “Eliminaciones del carro de compras”.
+* `scView`: Aumenta la métrica “Vistas del carro de compras”.
+* `scCheckout`: Aumenta la métrica “Compras finalizadas”.
 
-> [!NOTE] Esta variable distingue entre mayúsculas y minúsculas. Evite utilizar mayúsculas y minúsculas en los valores de eventos para garantizar una recopilación de datos precisa.
+>[!NOTE]: Esta variable distingue entre mayúsculas y minúsculas. Evite utilizar mayúsculas y minúsculas en los valores de eventos para garantizar una recopilación de datos precisa.
 
 ```js
 // Set the events variable to a single value
@@ -54,7 +54,7 @@ s.events = "event1,event13,purchase";
 
 ### Incrementar eventos de contador varias veces
 
-Si lo desea, puede contar eventos personalizados más de una vez. Asigne un entero al evento deseado dentro de la cadena. Los eventos creados en la configuración del grupo de informes son eventos de contador de forma predeterminada.
+Si lo desea, puede contar eventos personalizados más de una vez. Asigne un número entero al evento deseado dentro de la cadena. Los eventos creados en la configuración del grupo de informes se catalogan como eventos de contador de forma predeterminada.
 
 ```js
 // Count event1 ten times
@@ -64,11 +64,11 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
-> [!NOTE] Los eventos de contador no admiten valores decimales o de moneda. Utilice eventos monetarios para moneda o eventos numéricos para valores decimales.
+>[!NOTE] Los eventos de contador no admiten valores decimales o de moneda. Utilice eventos monetarios para moneda o eventos numéricos para valores decimales.
 
 ### Usar eventos de moneda
 
-Puede cambiar un evento personalizado para utilizar moneda en lugar de enteros. Los eventos de moneda se convierten automáticamente a la moneda del grupo de informes si la moneda del grupo de informes y la `currencyCode` variable no coinciden. Son útiles para calcular los costes de envío, los descuentos o los reembolsos. Puede configurar eventos de moneda en la `products` variable si desea atribuir el evento únicamente a ese producto.
+Puede cambiar un evento personalizado para utilizar moneda en lugar de enteros. Los eventos de moneda hacen la conversión automática a la moneda del grupo de informes si esta y la variable `currencyCode` no coinciden. Son útiles para calcular los costes de envío, los descuentos o los reembolsos. Puede configurar eventos de moneda en la variable `products` si desea atribuir el evento únicamente a ese producto.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in report suite settings
@@ -81,11 +81,11 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
-> [!NOTE] Si establece un valor de moneda tanto en la `events` variable como en la `products` variable, se utiliza el valor de moneda en `events` . Evite establecer valores monetarios en las variables `events` y `products` .
+>[!NOTE] Si establece un valor de moneda tanto en la variable `events` como en la variable `products`, se utiliza el valor de moneda en `events`. Evite establecer valores monetarios en las variables `events` y `products`.
 
 ### Usar eventos numéricos
 
-Puede cambiar un evento personalizado para aceptar valores decimales en lugar de enteros. Los eventos numéricos se comportan de manera similar a los eventos monetarios, excepto que no utilizan la conversión de moneda. Puede establecer eventos numéricos en la `products` variable si desea atribuir el evento únicamente a ese producto.
+Puede cambiar un evento personalizado para aceptar valores decimales en lugar de enteros. Los eventos numéricos se comportan de manera similar a los eventos de moneda, excepto que no utilizan la conversión monetaria. Puede establecer eventos numéricos en la variable `products` si desea atribuir el evento únicamente a ese producto.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in report suite settings
@@ -96,4 +96,4 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
-> [!NOTE] Si establece un valor numérico tanto en la `events` variable como en la `products` variable, se utiliza el valor numérico en `events` . Evite establecer valores numéricos en las variables `events` y `products` .
+>[!NOTE] Si establece un valor numérico tanto en la variable `events` como en la variable `products`, se utiliza el valor numérico en `events`. Evite establecer valores numéricos en las variables `events` y `products`.
