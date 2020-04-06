@@ -3,7 +3,7 @@ description: 'null'
 title: Implementación de la integración
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ Para activar la integración, complete el asistente de configuración en la inte
 
 Después de completar el asistente de integración, implemente el objeto de configuración de integración en la propiedad web. En muchos casos, la forma más sencilla de implementar el objeto de configuración de integración es incluirlo en el código de implementación de Adobe Analytics.
 
-> [!NOTE] Si utiliza Adobe Experience Platform Launch, puede añadir fácilmente el objeto de configuración de integración a través de esa herramienta.
+>[!NOTE] Si utiliza Adobe Experience Platform Launch, puede añadir fácilmente el objeto de configuración de integración a través de esa herramienta.
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. Descargue y guarde el **[!UICONTROL Kampyle Integration Code (JS)]** recurso. El código tiene un aspecto similar al siguiente:
@@ -61,7 +61,7 @@ Valide que la integración transfiera datos correctamente completando un par de 
 
 View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
-> [!NOTE] Las entradas de registro suelen aparecer en las 24 horas siguientes a la implementación correcta.
+>[!NOTE] Las entradas de registro suelen aparecer en las 24 horas siguientes a la implementación correcta.
 
 ![Registro de actividad de integración](assets/integration_activity_log.png)
 
@@ -69,6 +69,6 @@ View your Kampyle integration setup within the Adobe Experience Cloud by navigat
 
 Vea sus informes de comentarios de Kampyle con Adobe Analytics navegando hasta los informes de Kampyle dentro de la estructura de menú adecuada.
 
-> [!NOTE] Los datos de los informes deberían aparecer en un plazo de 24 a 48 horas después de la implementación, suponiendo que los formularios de comentarios integrados reciban los envíos de manera activa.
+>[!NOTE] Los datos de los informes deberían aparecer en un plazo de 24 a 48 horas después de la implementación, suponiendo que los formularios de comentarios integrados reciban los envíos de manera activa.
 
 ![Datos de Adobe sistema de informes](assets/adobe_reporting_data.png)
