@@ -5,42 +5,42 @@ subtopic: Users and groups
 title: Personalizar permisos para dimensiones
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Personalizar permisos para dimensiones
 
-> [!IMPORTANT] La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]**.
+>[!IMPORTANT] La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 Personalice el acceso de usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas.
 
-**[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acceso a informes]** > **[!UICONTROL Dimensiones]** > **[!UICONTROL Personalizar]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Customize]**
 
-> [!IMPORTANT] Algunas dimensiones no pueden recibir permisos en este momento. Estas dimensiones son: Longitud del marcador móvil, Número del dispositivo móvil, DRM móvil, Servicios de información móvil, Máquina virtual Java móvil, Decoración de correo móvil, Protocolos de red móvil, Sistema operativo móvil, Pulsar para hablar móvil.
+>[!IMPORTANT] Algunas dimensiones no pueden recibir permisos en este momento. Estas dimensiones son: Longitud del marcador móvil; Número de dispositivo móvil; DRM móvil; Servicios informativos móviles; Java VM móvil; Decoración de correo móvil; Protocolos de red móvil; Mobile OS; Pulsa para hablar móvil.
 >
->Estas dimensiones están disponibles para todos los usuarios, independientemente de otros permisos.
+>Estas dimensiones están disponibles para todos los usuarios, independientemente de los demás permisos.
 
-Las opciones de esta página pertenecen a los grupos de informes seleccionados en la página [!UICONTROL Definir grupos de usuarios].
+La configuración de esta página corresponde a los grupos de informes seleccionados en la [!UICONTROL Define User Groups] página.
 
 ![](assets/permissions-dimensions.png)
 
-Conozca la información que sigue sobre la categoría de permisos Dimensión.
+Obtenga la siguiente información sobre la categoría de permisos de dimensión.
 
-* Las eVars 1 a 250 obtienen permisos de forma individual.
+* Las eVars 1-250 tienen permisos individuales.
 * Todos los informes de tráfico son dimensiones.
 * Los informes de Vídeo y Móvil son dimensiones, al igual que otros informes de soluciones de Analytics (Experience Manager, Advertising Cloud, Social, etc.).
-* Los informes de rutas están disponibles si un usuario tiene acceso a la dimensión primaria.
-* Se han migrado automáticamente a las nuevas categorías todas las dimensiones y métricas actuales dentro de grupos personalizados. Si un grupo existente tiene métricas habilitadas, se le asignarán todas las dimensiones que puedan recibir permisos por primera vez (eVars y según el contenido) y métricas de forma predeterminada.
+* Los informes de rutas están disponibles si un usuario tiene acceso a la dimensión principal.
+* Todas las dimensiones y métricas actuales de los grupos personalizados se han migrado automáticamente a las nuevas categorías. Si un grupo existente tiene métricas habilitadas, se le asignarán todas las dimensiones con permisos nuevos (eVars y reconocimiento de contenido) y métricas de forma predeterminada.
 * Permisos del Importador de clasificaciones (anteriormente, SAINT): el acceso a las clasificaciones viene determinado por el acceso a la [variable](https://marketing.adobe.com/resources/help/es_ES/reference/c_classifications.html) en la cual se basa la clasificación.
 
-Para obtener más información, consulte [Preguntas más frecuentes sobre cambios de permisos](https://marketing.adobe.com/resources/help/es_ES/reference/index.html?f=permissions_faq).
+Para obtener más información, consulte Preguntas [más frecuentes sobre los cambios](https://marketing.adobe.com/resources/help/es_ES/reference/index.html?f=permissions_faq)de permisos.
 
 **Personalizar dimensiones**
 
-Los elementos que siguen son dimensiones para las cuales se pueden asignar permisos.
+Los siguientes elementos son dimensiones para las que puede obtener permisos.
 
 <table id="table_F37D74A1619A4560A5F5651E855DAF1C"> 
  <thead> 
@@ -52,7 +52,7 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md"> eVars </a> </p> </td> 
-   <td colname="col2"> <p>Las eVars 1 a 250 obtienen permisos de forma individual. Las eVars son variables de conversión personalizadas que se emplean para segmentar las métricas de éxito de conversión de segmentos en los informes personalizados. </p> </td> 
+   <td colname="col2"> <p>Las eVars 1-250 tienen permisos individuales. Las eVars son variables de conversión personalizadas que se utilizan para segmentar las métricas de éxito de conversión en los informes personalizados. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/es_ES/sc/implement/props_eVars.html"> Propriétés </a> </p> </td> 
@@ -64,7 +64,7 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/es_ES/sc/implement/listN.html"> Listvar </a> </p> </td> 
-   <td colname="col2"> <p> Similar a cómo funcionan las props de lista, las variables de lista permiten incluir varios valores dentro de la misma solicitud de imagen. </p> </td> 
+   <td colname="col2"> <p> De forma similar a como funcionan las propiedades de Lista, las variables de lista permiten varios valores dentro de la misma solicitud de imagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Estándar </p> </td> 
