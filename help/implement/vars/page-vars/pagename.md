@@ -1,36 +1,36 @@
 ---
 title: pageName
-description: Nombre de la página del sitio.
+description: El nombre de la página del sitio.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # pageName
 
-La `pageName` variable generalmente almacena el nombre de una página determinada. Es útil determinar qué páginas individuales son más populares. Esta variable rellena la dimensión &#39;Nombre de página&#39;.
+La variable `pageName` generalmente almacena el nombre de una página determinada. Es útil determinar qué páginas individuales son más populares. Esta variable rellena la dimensión “Nombre de página”.
 
-> [!NOTE] Esta dimensión siempre se elimina de las llamadas de seguimiento de vínculos. Si desea ver el nombre de la página donde se rastreó un vínculo, considere copiar esta variable en una eVar.
+>[!NOTE] Esta dimensión siempre se elimina de las llamadas de seguimiento de vínculos. Si desea ver el nombre de la página donde se ha registrado un vínculo, pruebe a copiar esta variable en una eVar.
 
-Si esta variable no está definida en una llamada de seguimiento de página determinada, se utiliza la [`pageURL`](pageurl.md) variable en su lugar.
+Si esta variable no está definida en una llamada de seguimiento de página determinada, se utiliza la variable [`pageURL`](pageurl.md) en su lugar.
 
 ## Nombre de página en Adobe Experience Platform Launch
 
 Puede definir el nombre de la página al configurar la extensión de Analytics (variables globales) o en reglas.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Haga clic en la propiedad que desee.
-3. Vaya a la [!UICONTROL Rules] ficha y, a continuación, haga clic en la regla que desee (o cree una regla).
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+2. Haga clic en la propiedad deseada.
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
 4. En [!UICONTROL Actions], haga clic en una [!UICONTROL Adobe Analytics - Set Variables] acción existente o en el icono &#39;+&#39;.
 5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el valor [!UICONTROL Action Type] en [!UICONTROL Set Variables].
-6. Busque la [!UICONTROL Page name] sección.
+6. Locate the [!UICONTROL Page name] section.
 
 Puede establecer el nombre de la página en cualquier valor de cadena, incluidos los elementos de datos.
 
-## s.pageName en AppMeasurement e inicie el editor de código personalizado
+## “s.pageName” en el editor de código personalizado de AppMeasurement y Launch
 
-La `s.pageName` variable es una cadena que generalmente contiene el nombre de la página. Tiene un valor máximo de 100 bytes; los valores más largos se truncan. Este truncamiento incluye instancias a las que se devuelve `pageURL` si esta variable está en blanco.
+La variable `s.pageName` es una cadena que generalmente contiene el nombre de la página. Tiene un valor máximo de 100 bytes. Los valores más largos se truncan. Este truncamiento incluye instancias a las que se recupera `pageURL` si esta variable está en blanco.
 
 ```js
 // Set page name to a static value
