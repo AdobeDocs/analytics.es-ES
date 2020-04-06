@@ -1,25 +1,25 @@
 ---
-description: Grupo de informes basado en el análisis de rutas. Técnicamente, las rutas suponen el paso de un nombre de página a otro (de un valor a otro).
+description: Grupo de informes basado en la análisis de rutas. Técnicamente, las rutas significan pasar de un nombre de página a otro (de un valor a otro).
 title: Control de rutas
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Control de rutas
 
-Grupo de informes basado en el análisis de rutas. Técnicamente, las rutas suponen el paso de un nombre de página a otro (de un valor a otro).
+Grupo de informes basado en la análisis de rutas. Técnicamente, las rutas significan pasar de un nombre de página a otro (de un valor a otro).
 
 Utilice [Analysis Workspace Flow](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/flow.html) para disponer de opciones más flexibles de control de rutas.
 
-> [!NOTE] Para habilitar el control de rutas, vaya a **[!UICONTROL Administración > Grupos de informes > Editar configuración > Tráfico > Variables de tráfico]**. Para habilitar el control de rutas en la sección del sitio y en los informes de servidor, póngase en contacto con el Servicio de atención al cliente.
+>[!NOTE] Para habilitar las rutas, vaya a **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Para habilitar el control de rutas en la sección del sitio y en los informes de servidor, póngase en contacto con el Servicio de atención al cliente.
 
-Si necesita saber el orden en que se recopilan los valores, deberá habilitar el control de rutas para la variable que recopila dichos valores. El control de rutas está habilitado de forma predeterminada para las páginas. No está habilitado para cualquier propiedad de manera predeterminada porque únicamente es adecuado en determinados casos. Para habilitar el control de rutas en una propiedad, el usuario debe ponerse en contacto con el Servicio de atención al cliente.
+Si necesita conocer el orden en que se recopilan los valores, debe habilitar las rutas para la variable que recopila dichos valores. El control de rutas está habilitado de forma predeterminada para las páginas. El control de rutas no está habilitado para ninguna propiedad de forma predeterminada, ya que solo es adecuado en determinados casos. Póngase en contacto con el Servicio de atención al cliente para habilitar las rutas en una propiedad.
 
-> [!NOTE] En Ad Hoc Analysis, al habilitar las clasificaciones en una propiedad, las métricas de rutas estarán disponibles para todas las clasificaciones configuradas para la propiedad habilitada.
+>[!NOTE] En Ad Hoc Analysis, al habilitar las clasificaciones en una propiedad, las métricas de rutas estarán disponibles para todas las clasificaciones configuradas para la propiedad habilitada.
 
 **Ejemplo: Rutas en secciones del sitio**
 
@@ -27,7 +27,7 @@ Si activa las rutas para la variable  *`s.channel`*, podrá rastrear cómo las v
 
 ![](assets/path_sections.png)
 
-Las rutas estarán entonces disponibles en varios informes de rutas, como [!UICONTROL Flujo de sección de sitio siguiente], cómo los visitantes se desplazan a través de los grupos de páginas o secciones del sitio.
+Las rutas están disponibles en varios informes de rutas, como [!UICONTROL Next Site Section Flow]el que muestra cómo los visitantes se desplazan a través de grupos de páginas o secciones del sitio.
 
 ![](assets/paths_report.png)
 
@@ -37,7 +37,7 @@ El mismo concepto de pasar de un valor a otro se aplica también a otras variabl
 
 **Ejemplo: Rutas por estado de inicio de sesión**
 
-Es posible que desee conocer la ruta de los visitantes a través del sitio en función del estado de inicio de sesión de un visitante. Para conocer esta información no se recomienda acudir a los informes de rutas para obtener el estado de inicio de sesión, ya que le mostrarían el cambio de valores de los visitantes en ese informe o el cambio de estado de sesión de los visitantes. En cambio, concatene el valor de segmentos con la variable  *`s.pageName`* y luego enrute la variable resultante. El código siguiente es un ejemplo de rutas de páginas por estado de miembro:
+Es posible que desee saber cómo las personas recorren el sitio en función del estado de inicio de sesión de un visitante. Para ver esta información, no debe buscar el estado de inicio de sesión en los informes de rutas, ya que le mostrarían cómo los visitantes cambiaron los valores en ese informe o cómo los visitantes podrían haber cambiado de inicio de sesión a cierre de sesión. En cambio, concatene el valor de segmentos con la variable  *`s.pageName`* y luego enrute la variable resultante. El código siguiente es un ejemplo de rutas de páginas por estado de miembro:
 
 ```js
 s.pageName="Home Page"; 
@@ -47,5 +47,5 @@ s.prop19=s.prop18 + ":" + s.pageName;
 
 A continuación, active las rutas para  *`s.prop19`* a fin de ver qué rutas toman los miembros a través de las páginas.
 
-> [!NOTE] Si realiza Ad Hoc Analysis, puede segmentar las rutas de páginas sin necesidad de concatenar valores de segmento y aplicar cualquier segmento a los informes de rutas.
+>[!NOTE] Si realiza Ad Hoc Analysis, puede segmentar las rutas de páginas sin necesidad de concatenar valores de segmento y aplicar cualquier segmento a los informes de rutas.
 
