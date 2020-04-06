@@ -3,7 +3,7 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ Recopilación de notas de versiones de [!DNL AppMeasurement] para JavaScript.
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-Puede descargar la versión más reciente de AppMeasurement en el Administrador [de códigos](/help/admin/admin/code-manager-admin.md).
+Puede descargar la versión más reciente de AppMeasurement en el [Administrador de códigos](/help/admin/admin/code-manager-admin.md).
 
 ## Versión 2.20.0
 
@@ -26,7 +26,7 @@ Fecha de versión: **5 de marzo de 2020**
 
 Fecha de versión: **21 de febrero de 2020**
 
-* Módulo de Gestión de público actualizado a DIL 9.4 (AN-209341)
+* Se ha actualizado el módulo Gestión de Audiencias a DIL 9.4. (AN-209341)
 
 ## Versión 2.18.0
 
@@ -45,10 +45,10 @@ Fecha de lanzamiento: **23 de agosto de 2019**
 
 Fecha de versión: **15 de agosto de 2019**
 
-* Se ha implementado compatibilidad con `sendBeacon` en [!UICONTROL AppMeasurement] para vínculos de salida. Si se utiliza una visita `sendBeacon` y la página se descarga, la solicitud aún se completa. Esto resulta muy útil para los vínculos de salida porque es más probable que la visita llegue a los servidores de recopilación de datos. (AN-175142)
+* Se ha implementado compatibilidad con `sendBeacon` en [!UICONTROL AppMeasurement] para vínculos de salida. Aunque la página no se cargue, si una visita utiliza `sendBeacon`, la solicitud se terminará de completar. Esto resulta muy útil para los vínculos de salida porque es más probable que la visita llegue a los servidores de recopilación de datos. (AN-175142)
 * Los valores ECID/fid ahora se almacenan en la caché en la primera visita, aunque cambie la configuración de OptIn. (AN-175142)
 * Módulo de Gestión de público actualizado a DIL 9.3. (AN-182704)
-* Exposed switch in `s.ActivityMap.trackScrollReach` to turn scroll reach tracking on or off. (AN-182754)
+* Conmutador expuesto en `s.ActivityMap.trackScrollReach` para activar o desactivar el seguimiento de alcance de desplazamiento. (AN-182754)
 * AppMeasurement actualizado para utilizar el servicio de ID de visitante 4.4.0. (AN-182912)
 
 ## Versión 2.15.0
@@ -75,8 +75,8 @@ Fecha de versión: **10 de abril de 2019**
 
 Fecha de versión: **22 de febrero de 2019**
 
-* Módulo de Gestión de público actualizado a DIL 9.1 (AN-175255)
-* Política de seguridad GTM que no permite el módulo de Activity Map. (AN-174679)
+* Se ha actualizado el módulo Gestión de Audiencias a DIL 9.1. (AN-175255)
+* La directiva de seguridad de GTM no permite el módulo de mapa de Actividad. (AN-174679)
 * Mejora de AppMeasurement para aceptar la exclusión cuando el servicio de Experience Cloud ID no se aprueba en el proceso de inclusión. (AN-175259)
 
 ## Versión 2.11.0
@@ -84,7 +84,7 @@ Fecha de versión: **22 de febrero de 2019**
 Fecha de versión: **11 de febrero de 2019**
 
 * Se ha agregado compatibilidad con la nueva funcionalidad Servicios de inclusión de Adobe en AppMeasurement. (AN-163546)
-* Se ha agregado compatibilidad con el almacenamiento de datos de seguimiento de vínculos en el almacenamiento de sesión. (AN-162272)
+* Compatibilidad Añadida para almacenar datos de seguimiento de vínculos en el almacenamiento de sesión. (AN-162272)
 * Se ha agregado compatibilidad con el tipo de flujo de medios para Audio Analytics. (AN-173265)
 
 ## Versión 2.10.0
@@ -94,7 +94,7 @@ Fecha de versión: **20 de septiembre de 2018**
 Esta versión garantiza el envío correcto de las cookies de la biblioteca de [!DNL AppMeasurement] para todos los tipos de conexión.
 
 * [!DNL AppMeasurement] bloquea las transmisiones de cookies durante POST. (AN-165538)
-* Se ha cancelado la compatibilidad con XDomainRequest. (AN-165733)
+* Deje de admitir XDomainRequest. (AN-165733)
 * Se ha reducido la duración de las cookies predeterminadas de [!DNL AppMeasurement] de cinco a dos años. (AN-158572)
 * Eliminación del Módulo multimedia del Administrador de códigos ([!DNL AppMeasurement]) (AN-166590)
 
@@ -102,10 +102,10 @@ Esta versión garantiza el envío correcto de las cookies de la biblioteca de [!
 
 Fecha de versión: **24 de mayo de 2018**
 
-> [!NOTE] En el caso de los clientes que utilicen el servicio de [!DNL Experience Cloud] ID, se necesita la API de visitantes 3.0 o una versión posterior. Adobe recomienda actualizar a la última versión de la API de visitantes cada vez que se actualicen las bibliotecas de código asociadas ([!DNL at.js], etc.).[!DNL AppMeasurement.js]
+>[!NOTE] En el caso de los clientes que utilicen el servicio de [!DNL Experience Cloud] ID, se necesita la API de visitantes 3.0 o una versión posterior. Adobe recomienda actualizar a la última versión de la API de visitantes cada vez que se actualicen las bibliotecas de código asociadas ( [!DNL at.js], etc.) [!DNL AppMeasurement.js].
 
 * Se ha actualizado [!DNL AppMeasurement] para utilizar la interfaz de Visitante actualizada para solicitar los ID. (AN-151483)
-* Se ha solucionado un problema que causaba que la cookie de seguimiento seguía escribiéndose tras desactivar el seguimiento de enlaces. (AN-156332)
+* Se corrigió un problema en el cual la cookie de seguimiento de vínculos se escribía después de desactivar el seguimiento de vínculos. (AN-156332)
 * Se ha solucionado un problema que provocaba los desgloses `registerPreTrackCallback` y `registerPostTrackCallback` de firma de función callback cuando al llamarla varias veces. (AN-158566)
 
 ## Versión 2.8.2
@@ -113,7 +113,7 @@ Fecha de versión: **24 de mayo de 2018**
 Fecha de versión: **12 de abril de 2018**
 
 * Se ha actualizado [!DNL AppMeasurement] para utilizar la interfaz de visitante actualizada para solicitar los ID. (AN-151483)
-* La cookie de seguimiento de enlace sigue escribiéndose tras desactivar el seguimiento de enlaces. (AN-156332)
+* La cookie de seguimiento de vínculos se escribe una vez que se desactiva el seguimiento de vínculos. (AN-156332)
 * Se ha reducido la duración de las cookies predeterminadas de [!DNL AppMeasurement] de cinco a dos años. (AN-158572)
 
 ## Versión 2.8.1
@@ -129,16 +129,16 @@ Fecha de versión: **15 de marzo de 2018**
 Nuevo paquete de la API de Visitante 3.1.0 (AN-159524), que incluye las correcciones: (CORE-11390, CORE-10634)
 
 * Paquete VAPI 3.1 con [!DNL AppMeasurement] 2.8. (AN-158353)
-* Refactorización mediante la compilación del punto final de recopilación de datos para facilitar el uso compartido. (AN-156647)
+* Se redimensiona la creación del punto final de recopilación de datos para facilitar el uso compartido. (AN-156647)
 * Adición de métricas de temporización de viajes de ida y vuelta de solicitud a [!DNL AppMeasurement]. (AN-158343)
 
 ## Versión 2.7.0
 
 Fecha de la versión: **18 de enero de 2018**
 
-* Abandono del soporte para las versiones 6 a 9 de Internet Explorer
-* Inclusión de la API de visitantes 3.0.0
-* Inclusión de DIL 7.00
+* Abandono de la compatibilidad con IE 6 a 9
+* Inclusión de la API de Visitante v3.0.0
+* Inclusión de DIL 7.00 
 
 ## Versión 2.6.0
 
@@ -157,14 +157,14 @@ Fecha de versión: **21 de septiembre de 2017**
 
 Fecha de lanzamiento: **17 de agosto de 2017**
 
-* Se ha incluido dil.js v6.11
+* Inclusión de dil.js v6.11
 * Se ha incluido la API 2.4.0 de visitante
 
 ## Versión 2.3.0
 
 Fecha de la versión: **20 de julio de 2017**
 
-* Se ha solucionado el error que `s.Util.getQueryParam` se capturaba `#`
+* Se ha solucionado el error en el que `s.Util.getQueryParam` capturaba `#`
 * Se ha añadido la versión 6.10 de `dil.js` (AN-145701)
 
 ## Versión 2.2.0
@@ -172,7 +172,7 @@ Fecha de la versión: **20 de julio de 2017**
 Fecha de versión: **8 de junio de 2017**
 
 * Se ha añadido compatibilidad con varios órdenes de instanciación de [!DNL AppMeasurement]. (AN-138237)
-* Inclusión de la API de visitante 2.2.0. (AN-144042)
+* Inclusión de la versión 2.2.0 de la API de Visitante. (AN-144042)
 
 ## Versión 2.1.0
 
@@ -180,24 +180,24 @@ Fecha del lanzamiento de la versión: **20 de abril de 2017**
 
 * Se ha incluido la última versión de `dil.js` (AN-140396)
 * Se ha agregado compatibilidad para el parámetro `adobe_mc_ref`, que anula al referente de la página. (AN-131920)
-* Se ha vuelto a incluir la API 2.1.0 de visitante. (AN-140873)
+* Se volvió a incluir la API de Visitante 2.1.0. (AN-140873)
 * Se ha agregado el parámetro `mcorgid`. (AN-139586)
-* Se ha agregado el parámetro (customerPerspective). (AN-140897)
+* Parámetro cp (customerPerspective) Añadido. (AN-140897)
 
 ## Versión 2.0.0
 
 Fecha de la versión: **9 de marzo de 2017**
 
-* Se ha movido a un nuevo proceso de creación que exige actualizar al número de versión 2.0.0. (AN-137878)
-* Se ha movido el tratamiento de mboxMCSDID a la ubicación de la sección correcta, donde se efectúa la llamada de seguimiento. (AN-138483)
+* Se ha trasladado a un nuevo proceso de compilación que requiere una actualización del número de versión a 2.0.0. (AN-137878)
+* Se ha movido la administración de mboxMCSDID a la ubicación de sección correcta donde se realiza la llamada de seguimiento. (AN-138483)
 
 ## Versión 1.8.0
 
 Fecha de publicación: **19 de enero de 2017**
 
-* Inclusión de la API de visitante 2.0.0
-* La función resecuenciada llama y comprueba de modo que SDID se consuma una vez completada la comprobación de anulación. (AN-134364)
-* Se agregaron `s.registerPreTrackCallback` y `s.registerPostTrackCallback` ganchos. (AN-134567)
+* Incluir VisitorAPI 2.0.0
+* Se han resecuenciado las llamadas y comprobaciones de función para que el SDID se consuma una vez completada la comprobación de anulación. (AN-134364)
+* Se agregaron los ganchos `s.registerPreTrackCallback` y `s.registerPostTrackCallback`. (AN-134567)
 
 ## Versión 1.7.0
 
@@ -211,20 +211,20 @@ Actualizado: **11 de noviembre de 2016**
 
 ## Versión 1.6.4
 
-Updated: **August 18, 2016**
+Actualizado: **18 de agosto de 2016**
 
 * [!DNL AppMeasurement] actualizado que permite leer y escribir cookies AMCV. (AN-127098)
 * Inclusión de la API de Visitante 1.7.0.
 
-> [!NOTE] También puede consultar las notas siguientes de la versión 1.6.3 de [!DNL JavaScript], que incluyen requisitos actualizados para el servicio de Experience Cloud ID.
+>[!NOTE] También puede consultar las notas siguientes de la versión 1.6.3 de [!DNL JavaScript], que incluyen requisitos actualizados para el servicio de Experience Cloud ID.
 
 ## Versión 1.6.3
 
-Updated: **August 4, 2016**
+Actualizado: **4 de agosto de 2016**
 
 * Se ha corregido un problema en el que [!DNL AppMeasurement] finalizaba de forma prematura las conexiones de solicitud. (AN-126448)
 
->[!IMPORTANT]La versión 1.6.0 del servicio de [!DNL Experience Cloud] ID *requiere* [!DNL AppMeasurement] compatible con la versión 1.6.3 o superiores de [!DNL JavaScript]. If you want to upgrade to version 1.6.0 of the Experience Cloud ID service, please make sure you are using [!DNL AppMeasurement] code version 1.6.3 or higher.
+>[!IMPORTANT]La versión 1.6.0 del servicio de [!DNL Experience Cloud] ID *requiere* [!DNL AppMeasurement] compatible con la versión 1.6.3 o superiores de [!DNL JavaScript]. Si desea actualizar el servicio de Experience Cloud ID a la versión 1.6.0, compruebe que está utilizando la versión de código 1.6.3 o superior de [!DNL AppMeasurement].
 
 ## Versión 1.6.2
 
@@ -260,14 +260,14 @@ Fecha de versión: **17 de marzo de 2016**
 Fecha de versión: **21 de enero de 2016**
 
 * Se ha solucionado la administración del módulo [!DNL Audience Manager] cuando se usan POST para las llamadas de seguimiento. (AN-115381)
-* Se ha movido el resto de la URL de la página (&quot;-g&quot;) al final de la cadena de solicitud de seguimiento. (AN-114647)
+* Se ha movido el resto de la dirección URL de la página (&quot;-g&quot;) al final de la cadena de consulta de solicitud de seguimiento. (AN-114647)
 
 ## Versión 1.5.2
 
 Fecha de versión: **5 de noviembre de 2015**
 
 * Inclusión de la API de visitante 1.5.3.
-* Se ha solucionado la detección de IE11 para el truncado de la URL 2047 (AN-114914)
+* Se corrigió la detección de IE11 para el truncamiento de URL 2047 (AN-114914)
 
 ## Versión 1.5.1
 
@@ -288,12 +288,12 @@ Fecha de versión: **18 de junio de 2015**
 
 Fecha de versión: **21 de mayo de 2015**
 
-* A partir de la versión 4.5 del SDK de iOS, una nueva extensión de iOS le permite recopilar datos de uso de sus aplicaciones de Apple Watch, utilidades de Today, utilidades de edición de fotografías y todas las demás aplicaciones de extensión de iOS. Consulte Implementación [de la extensión de](https://docs.adobe.com/content/help/en/mobile-services/ios/ios-ext/ios-ext.html) iOS en la guía del usuario de Mobile Services.
-* A partir de la versión 4.5 del SDK para Android, una nueva extensión de Android le permite recopilar datos de su aplicación Wearable para Android. Consulte [Android Wearables](https://docs.adobe.com/content/help/en/mobile-services/android/wearables-android/android-wearable.html) en la guía del usuario de Mobile Services.
+* A partir de iOS SDK versión 4.5, una nueva extensión de iOS le permite recopilar el uso de los datos de sus aplicaciones de Apple Watch, utilidades de Today, utilidades de edición fotográfica y todas las demás aplicaciones de extensión de iOS. Consulte [Implementación de la extensión de iOS](https://docs.adobe.com/content/help/es-ES/mobile-services/ios/ios-ext/ios-ext.html) en la guía del usuario de Mobile Services.
+* A partir de la versión 4.5 del SDK para Android, una nueva extensión de Android le permitirá recopilar datos de su aplicación Android Wearable. Consulte [Android Wearables](https://docs.adobe.com/content/help/es-ES/mobile-services/android/wearables-android/android-wearable.html) en la guía del usuario de Mobile Services.
 * Inclusión de la API de visitante 1.4.
 * Se ha actualizado el módulo AudienceManagement para que utilice DIL versión 6.0.
 
-> [!NOTE] Problema **conocido**: En las integraciones API/ [!DNL AppMeasurement] [!DNL Audience Manager] módulo de visitante, hay dos solicitudes de iFrame de publicación de destino realizadas en IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` y `//fast.<subdomain>.demdex.net/dest4.html`. El comportamiento correcto, tal como se ha observado en otros exploradores, es cargar únicamente `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE] **Problema conocido**: En las integraciones del módulo API de visitante/[!DNL AppMeasurement] de [!DNL Audience Manager], hay dos solicitudes de iFrame de publicación de destino realizadas en IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` y `//fast.<subdomain>.demdex.net/dest4.html`. El comportamiento correcto, tal como se ha observado en otros exploradores, es cargar únicamente `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versión 1.4.4
 
@@ -301,21 +301,21 @@ Fecha de versión: **16 de abril de 2015**
 
 * Ahora puede incluir variables de datos de contexto personalizado con métricas del ciclo vital.
 * Las llamadas `trackBeacon` y `clearCurrentBeacon` ahora están disponibles en PhoneGap.
-* A minor fix to clear the light server call profile ID after the `trackLight` call.
+* Una pequeña corrección para borrar el ID del perfil de la llamada del servidor ligero después de la llamada `trackLight`.
 
 ## Versión 1.4.3
 
 Fecha de versión: **19 de febrero de 2015**
 
 * Se ha sistematizado todo el tratamiento de las llamadas de seguimiento demoradas con lo cual se han corregido los problemas con las variables de copia de seguridad durante la demora, por ejemplo, el objeto en el que se ha hecho clic.
-* Se ha cambiado la opción a no hacer seguimiento automático del referente tras la primera llamada de seguimiento, de modo que las llamadas segunda, tercera, etc. (por lo general seguimiento de vínculos) no contarán al referente doble si se ha configurado manualmente *`s.referrer`* se ha establecido manualmente antes de la primera llamada de seguimiento. 
+* Se ha cambiado la opción a no hacer seguimiento automático del referente tras la primera llamada de seguimiento, de modo que las llamadas segunda, tercera, etc. (por lo general seguimiento de vínculos) no contarán al referente doble si se ha configurado manualmente *`s.referrer`* se ha establecido manualmente antes de la primera llamada de seguimiento.
 * Se ha actualizado el zip de distribución para incluir la API de visitante 1.3.5.
 
 ## Versión 1.4.2
 
 Fecha de versión: **15 de enero de 2015**
 
-* Se ha solucionado la administración del procesamiento previo de WebKit para impedir que se haga un seguimiento de las páginas procesadas previamente que no se muestran.
+* Se corrigió el manejo del procesamiento previo de WebKit para evitar el seguimiento de páginas preprocesadas que no se ven.
 * El zip de distribución se ha actualizado para incluir la API 1.3.4 de visitantes y un módulo **[!UICONTROL AudienceManagement]** actualizado que incluye la versión 5.5 de DIL.
 
 ## Versión 1.4.1
@@ -332,14 +332,14 @@ Fecha de versión: **18 de septiembre de 2014**
    //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
    ```
 
-   Los cuatro caracteres se limitan a caracteres permitidos en las rutas de archivo de URL, como caracteres alfanuméricos y punto.
+   Los 4 caracteres están limitados a caracteres permitidos en las rutas de archivos URL, como alfanuméricos y punto.
 
-* En las páginas con doble etiqueta con código H, se corrigió un bucle que se podía producir durante el seguimiento automático de vínculos (descarga y salida) cuando se habilita el seguimiento forzado de vínculos (exploradores de Webkit predeterminados). Además, se agregó una protección general en torno al seguimiento automático de vínculos para impedir bucles similares. Esta protección limita el seguimiento automático de vínculos de clics repetidos con el *mismo* objeto a una vez cada 10 segundos. Esta protección se aplica solo al seguimiento automático de vínculos, de modo que las llamadas al seguimiento manual de vínculos (s.tl) no están limitadas. Los clics a diferentes objetos tampoco se ven afectados por esta protección y se seguirán.
-* Se corrigió el control del objeto en el que se hace clic cuando es necesario un retraso.
-* Se corrigió un problema que provocaba un recuento doble de vista de página cuando se llamaba a s.t desde una función de onclick de vínculo, si la API del visitante no tiene aún los valores necesarios.
+* En las páginas con doble etiqueta con código H, se corrigió un bucle que podría ocurrir durante el seguimiento automático de vínculos (descarga y salida) cuando se habilita el seguimiento forzado de vínculos (predeterminado en los exploradores de Webkit). Además, se agregó una protección general al seguimiento automático de vínculos para evitar bucles similares. Esta protección limita el seguimiento automático de vínculos de clics repetidos con el *mismo* objeto a una vez cada 10 segundos. Esta protección se aplica solo al seguimiento automático de vínculos, de modo que las llamadas al seguimiento manual de vínculos (s.tl) no están limitadas. Los clics en diferentes objetos tampoco se ven afectados por esta protección y se rastrearán.
+* Se corrigió el manejo del objeto en el que se hacía clic cuando se necesitaba un retraso.
+* Se ha corregido un problema que provocaba un recuento de vistas de página de doble cuando se llamaba a s.t desde una función onclick de vínculo, si la API de Visitante aún no tiene los valores necesarios.
 * Compatibilidad con HTTP POST.
 
-   > [!IMPORTANT] Para que una [!DNL Analytics] llamada utilice el método POST en lugar del método GET en [!DNL AppMeasurement] (un método de resolución de URL [truncadas en IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), debe utilizar la implementación del servicio de ID de visitante más reciente para Experience Cloud.
+   > [!IMPORTANT] Para que una llamada de [!DNL Analytics] utilice el método POST en lugar del método GET en [!DNL AppMeasurement] (para resolver [URL truncadas en IE](https://helpx.adobe.com/es/analytics/kb/shortening-image-request-urls.html)), debe utilizar la implementación más reciente del servicio de ID de visitante para Experience Cloud.
 
 ## Versión 1.4
 
@@ -349,7 +349,7 @@ Fecha de versión: **21 de agosto de 2014**
 * Adición del módulo **[!UICONTROL AudienceManagement]** en el zip de descarga.
 * Se ha agregado compatibilidad con eVars (76 - 250) y eventos (101-1000) adicionales.
 
-> [!NOTE] El código H no admite los eventos y eVars adicionales.
+>[!NOTE] El código H no admite los eventos y eVars adicionales.
 
 ## Versión 1.3.2
 
@@ -368,19 +368,19 @@ Fecha de versión: **22 de mayo de 2014**
 
 Fecha de versión: **17 de abril de 2014**
 
-* Soporte para el [servicio de ID de visitante de Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+* Soporte para el [servicio de ID de visitante de Experience Cloud](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html).
 
 ## Versión 1.2.4
 
 Fecha de versión: **13 de marzo de 2014**
 
-* Correcciones de errores para vídeo de Heartbeat.
+* Corrección de errores para vídeo de Heartbeat.
 
 ## Versión 1.2.3
 
 Fecha de versión: **20 de febrero de 2014**
 
-* Correcciones de errores para vídeo de Heartbeat.
+* Corrección de errores para vídeo de Heartbeat.
 
 ## Versión 1.2.2
 
@@ -392,14 +392,14 @@ Fecha de versión: **6 de febrero de 2014**
 
 Fecha de versión: **15 de noviembre de 2013**
 
-* Se corrigieron los eventos de página que se utilizan para la medición de vídeo de Heartbeat.
+* Se han solucionado eventos de página utilizados para la medición de vídeo de Heartbeat.
 
 ## Versión 1.2
 
 Fecha de versión: **14 de noviembre de 2013**
 
-* Added support for [Heartbeat video measurement](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
-* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+* Se ha agregado compatibilidad con la [medición de vídeos de Heartbeat](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html).
+* `VisitorAPI.js` se ha incluido para admitir el [servicio de ID de visitante](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html).
 
 ## Versión 1.1.1
 
@@ -417,7 +417,7 @@ Fecha de versión: **18 de septiembre de 2013**
 
 Fecha de versión: **15 de agosto de 2013**
 
-* Se ha añadido la compatibilidad para la implementación a través del administración de etiquetas de Adobe.
+* Compatibilidad Añadida para la implementación mediante la administración de etiquetas de Adobe.
 * Se ha solucionado el problema que evitaba que las variables de jerarquía se fijaran en el objeto [!DNL AppMeasurement].
 
 ## Versión 1.0.2
@@ -438,7 +438,7 @@ Fecha de versión: **23 de mayo de 2013**
 
 Ya tiene disponible en el Administrador de códigos una nueva biblioteca [!DNL AppMeasurement] para [!DNL JavaScript]. Esta biblioteca proporciona la misma funcionalidad básica de [!DNL s_code.js], pero es más rápida y más ligera tanto en sitos móviles como del escritorio.
 
-* De 3 a 7 veces más rápido que el código H.25
-* Solo 21 k sin comprimir y 8 k comprimidos con gzip (el código H.25 tiene 33 k sin comprimir y 13 k comprimidos con gzip).
+* De 3 a 7 veces más rápido que el código H.25.
+* Solo 21 k sin comprimir y 8 k comprimidos con gzip (el código H.25 es 33 k sin comprimir y 13 k comprimidos con gzip).
 * Compatibilidad nativa para obtener parámetros de consulta, leer y escribir cookies y realizar un seguimiento de vínculos avanzado.
-* Pequeño y lo suficientemente rápido para su uso en sitios móviles, así como lo bastante sólido para su uso en el escritorio web completo, lo que le permitirá aprovechar una sola biblioteca en todos los entornos web.
+* Pequeño y lo suficientemente rápido como para utilizarse con sitios móviles, y lo suficientemente robusto como para utilizarse en la web de escritorio completa, lo que le permite aprovechar una sola biblioteca en todos los entornos web.
