@@ -4,8 +4,8 @@ subtopic: Classifications
 title: Resumen del importador de clasificaciones
 topic: Admin tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Utilice el importador para cargar clasificaciones en Adobe Analytics. También puede exportar los datos para actualizarlos antes de importarlos.
 
-**[!UICONTROL Administración]** > **[!UICONTROL Importador de clasificaciones]**
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
 
-Los datos que se importan con la herramienta correspondiente deben tener un formato específico. Adobe permite descargar una plantilla de datos con todos los detalles de encabezado correctos en un archivo de datos delimitado por tabuladores. Los datos nuevos pueden agregarse a esta plantilla para seguidamente importar el archivo de datos en el explorador a través del FTP.
+Los datos que se importan con la herramienta de importación deben tener un formato específico. Adobe le ofrece la opción de descargar una plantilla de datos con todos los detalles de encabezado adecuados en un archivo de datos delimitado por tabuladores. Puede agregar sus nuevos datos a esta plantilla y luego importar el archivo de datos en el explorador, mediante FTP.
 
-> [!NOTE] Adobe recomienda limitar a 30 el número de columnas de importación y exportación.
+>[!NOTE] Adobe recomienda limitar a 30 el número de columnas de importación y exportación.
 
 Consulte [Clasificaciones numéricas 2](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) para obtener información sobre cómo cargar datos a través de las clasificaciones numéricas 2.
 
