@@ -1,17 +1,17 @@
 ---
 title: Adobe Experience Cloud Debugger antiguo
 description: Instale una versión anterior de Adobe Experience Cloud Debugger. Este depurador inspecciona las etiquetas de Analytics, Target, Advertising Cloud, Identity Service, DTM y Launch.
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Adobe Experience Cloud Debugger antiguo
 
-> [!IMPORTANT] Esta herramienta de depuración ya no se mantiene. Adobe recomienda usar la extensión [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html) para Chrome.
+>[!IMPORTANT] Esta herramienta de depuración ya no se mantiene. Adobe recomienda usar la extensión [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html) para Chrome.
 
-Las versiones anteriores de [!UICONTROL Debugger] inspeccionan las etiquetas de la mayoría de los servicios de Adobe Experience Cloud. El uso del depurador permite ver qué datos se envían a Adobe en cualquier página del sitio. Puede utilizar esta información para solucionar problemas o validar la implementación de su organización.
+The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. El uso del depurador permite ver qué datos se envían a Adobe en cualquier página del sitio. Puede utilizar esta información para solucionar problemas o validar la implementación de su organización.
 
 ## Instalación de versiones anteriores de Debugger
 
@@ -68,7 +68,7 @@ Safari no tiene la capacidad de crear manualmente un bookmarklet, pero se puede 
 
 Navegue hasta la página deseada en el sitio y haga clic en el bookmarklet. Aparece una ventana emergente que muestra los datos enviados a Adobe.
 
-> [!NOTE] Algunos complementos y bloqueadores de ventanas emergentes que bloquean anuncios pueden interferir con la carga de la ventana del depurador. Compruebe si hay ventanas emergentes bloqueadas en el explorador y déjelas para que el depurador funcione correctamente.
+>[!NOTE] Algunos complementos y bloqueadores de ventanas emergentes que bloquean anuncios pueden interferir con la carga de la ventana del depurador. Compruebe si hay ventanas emergentes bloqueadas en el explorador y déjelas para que el depurador funcione correctamente.
 
 El depurador tiene varias opciones disponibles, que personalizan el modo en que se muestran los datos. Ninguna de estas opciones afecta a la recopilación de datos.
 
