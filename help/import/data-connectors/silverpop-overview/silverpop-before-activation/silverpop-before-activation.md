@@ -2,8 +2,8 @@
 description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
 title: Antes de activar esta integración
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -34,7 +34,7 @@ Revise la siguiente información sobre esta integración de Data Connectors en r
 * **Cuenta válida de Silverpop:** para utilizar la integración de correo electrónico de Data Connectors, un cliente debe tener una cuenta activa de Silverpop con correo electrónico habilitado y credenciales de usuario activas.
 * **Póngase en contacto con su representante de Silverpop**. Silverpop no activa automáticamente esta integración. Debe ponerse en contacto con su representante de Silverpop para iniciar la configuración de Silverpop antes de importar o exportar datos desde Analytics.
 
-> [!NOTE] Esta integración solo funciona con organizaciones de Engage (no con Transact).
+>[!NOTE] Esta integración solo funciona con organizaciones de Engage (no con Transact).
 
 ## Precio {#pricing}
 
