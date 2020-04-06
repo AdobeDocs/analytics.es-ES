@@ -5,7 +5,7 @@ title: Acerca de las subclasificaciones
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Adobe Analytics admite modelos de clasificaciones de un solo nivel y de varios niveles. Las jerarquías de clasificación permiten aplicar una clasificación a otra.
 
-> [!NOTE] Subclasificación hace referencia a la posibilidad de crear clasificaciones de clasificaciones. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. Para obtener más información sobre las jerarquías de clasificación, consulte [Jerarquías de clasificación](classification-hierarchies.md).
+>[!NOTE] Subclasificación hace referencia a la posibilidad de crear clasificaciones de clasificaciones. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. Para obtener más información sobre las jerarquías de clasificación, consulte [Jerarquías de clasificación](classification-hierarchies.md).
 
 Por ejemplo:
 
@@ -52,9 +52,9 @@ Por ejemplo:
 
 Aunque la plantilla de archivo para una clasificación multinivel es más compleja, el poder de las clasificaciones multinivel es que los niveles independientes se pueden cargar como archivos separados. Este método se puede utilizar para minimizar la cantidad de datos que se deben cargar periódicamente (diariamente, semanalmente, etc.) agrupando los datos en niveles de clasificación que cambian con el tiempo en comparación con los que no.
 
-> [!NOTE] Si la [!UICONTROL Key] columna de un archivo de datos está en blanco, Adobe genera automáticamente claves únicas para cada fila de datos. Para evitar posibles daños en los archivos al cargar un archivo de datos con datos de clasificación de segundo nivel o de nivel superior, rellene cada fila de la [!UICONTROL Key] columna con un asterisco (*).
+>[!NOTE] Si la [!UICONTROL Key] columna de un archivo de datos está en blanco, Adobe genera automáticamente claves únicas para cada fila de datos. Para evitar posibles daños en los archivos al cargar un archivo de datos con datos de clasificación de segundo nivel o de nivel superior, rellene cada fila de la [!UICONTROL Key] columna con un asterisco (*).
 
-Consulte [Problemas comunes de carga de clasificaciones](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues) para obtener ayuda sobre la resolución de problemas.
+Consulte [Problemas comunes de carga de clasificaciones](https://marketing.adobe.com/resources/help/es_ES/home/index.html#kb-common-saint-upload-issues) para obtener ayuda sobre la resolución de problemas.
 
 ## Ejemplos
 
