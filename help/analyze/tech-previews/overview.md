@@ -1,7 +1,7 @@
 ---
 title: Guía del usuario de Labs
 description: Vista previa de proyectos prototipo para Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
 
 ---
@@ -48,7 +48,7 @@ Para iniciar y evaluar un prototipo:
 
 * Los cambios realizados mediante la creación o modificación de segmentos, métricas calculadas y alertas se conservan fuera del entorno de prototipo.
 
-## Dejar comentarios
+## Escribir comentarios
 
 1. Haga clic en el botón **Enviar comentarios** para proporcionar comentarios en el cuadro de mensaje en cualquier momento mientras trabaja con el prototipo.
 
