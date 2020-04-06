@@ -1,48 +1,48 @@
 ---
 title: getTimeToComplete
-description: Mida la cantidad de tiempo que se tarda en completar una tarea.
+description: Mida el tiempo que se tarda en completar una tarea.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: getTimeToComplete
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `getTimeToComplete` complemento rastrea el tiempo que un usuario tarda en completar un proceso en un sitio. El &quot;reloj&quot; comienza cuando se llama a la `start` acción y finaliza cuando se llama a la `stop` acción. Adobe recomienda utilizar este complemento si hay un flujo de trabajo en el sitio que tarde algún tiempo en completarse y desea saber cuánto tiempo tardan los visitantes en completarlo. No es necesario utilizar este complemento si el flujo de trabajo del sitio tarda un corto período de tiempo (menos de 3 segundos) porque la granularidad se reduce sólo al segundo completo.
+El complemento `getTimeToComplete` rastrea el tiempo que un usuario tarda en completar un proceso en un sitio. El “reloj” comienza cuando se llama a la acción `start` y finaliza cuando se llama a la acción `stop`. Adobe recomienda utilizar este complemento si hay un flujo de trabajo en el sitio que lleve cierto tiempo completar y si desea saber cuánto tiempo tardan los visitantes en completarlo. No es necesario utilizar este complemento si el flujo de trabajo del sitio lleva un breve periodo de tiempo (menos de 3 segundos) porque la granularidad solo se reduce al segundo completo.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar getTimeToComplete
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,19 +57,19 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `getTimeToComplete` método utiliza los siguientes argumentos:
+El método `getTimeToComplete` utiliza los siguientes argumentos:
 
-* **`sos`** (opcional, cadena): Establezca en `"start"` cuando desee iniciar el temporizador. Establezca en `"stop"` cuando desee detener el temporizador. El valor predeterminado es `"start"`.
+* **`sos`** (opcional, cadena): Configúrelo en `"start"` cuando desee iniciar el temporizador. Configúrelo en `"stop"` cuando desee detener el temporizador. El valor predeterminado es `"start"`.
 * **`cn`** (opcional, cadena): El nombre de la cookie para almacenar la hora de inicio. El valor predeterminado es `"s_gttc"`.
-* **`exp`** (opcional, entero): Número de días que caduca la cookie (y el temporizador). El valor predeterminado es `0`, que representa el final de la sesión del explorador.
+* **`exp`** (opcional, entero): El número de días en que caduca la cookie (y el temporizador). El valor predeterminado es `0`, que representa el final de la sesión del explorador.
 
-Al llamar a este método se devuelve una cadena que contiene el número de días, horas, minutos y/o segundos que transcurrió entre la acción `"start"` y `"stop"` .
+Llamar a este método devuelve una cadena que contiene el número de días, horas, minutos y/o segundos que transcurridos entre la acción `"start"` y `"stop"`.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
 Utilice estas llamadas para determinar el tiempo que transcurre entre el momento en que un visitante inicia el proceso de cierre de compra y el momento en que realiza una compra.
 
@@ -79,50 +79,50 @@ Inicie el temporizador cuando el visitante inicie el cierre de compra:
 if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
 ```
 
-Detenga el temporizador cuando el visitante realice la compra y establezca prop1 en la diferencia horaria entre detención e inicio:
+Detenga el temporizador cuando el visitante realice la compra y configure prop1 en la diferencia horaria entre la detención y el inicio:
 
 ```js
 if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
 ```
 
-s.prop1 capturará la cantidad de tiempo necesario para completar el proceso de compra
+s.prop1 registrará el tiempo necesario para completar el proceso de compra
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
-Si desea que varios temporizadores se ejecuten al mismo tiempo (para medir diferentes procesos), deberá configurar manualmente el argumento cn cookie.  Por ejemplo: si desea medir la cantidad de tiempo necesaria para que se complete una compra, debe establecer el siguiente código...
+Si desea que varios temporizadores se ejecuten al mismo tiempo (para medir diferentes procesos), deberá configurar manualmente el argumento de cookie cn.  Por ejemplo: Si desea medir el tiempo necesario para completar una compra, debe establecer el siguiente código...
 
 ```javascript
 if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
 if(s.inList(s.events, "purchase")) s.prop1 = s.getTimeToComplete("start", "gttcpurchase");
 ```
 
-...pero si también desea medir (al mismo tiempo) la cantidad de tiempo necesaria para rellenar un formulario de registro, también debe ejecutar el siguiente código:
+...pero si también desea medir (a la vez) el tiempo necesario para rellenar un formulario de registro, también debe ejecutar el siguiente código:
 
 ```js
 if(s.inList(s.events, "event1")) s.getTimeToComplete("start", "gttcregister", 7);
 if(s.inList(s.events, "event2")) s.prop2 = s.getTimeToComplete("stop", "gttcregister", 7);
 ```
 
-En el segundo ejemplo, event1 tiene el propósito de capturar el inicio de un proceso de registro que puede llevar hasta 7 días para completarse, por cualquier motivo, y event2 tiene el propósito de capturar la finalización del registro.  s.prop2 capturará la cantidad de tiempo necesaria para completar el proceso de registro
+En el segundo ejemplo, event1 tiene el propósito de registrar el inicio de un proceso de registro que, por cualquier razón, puede llevar hasta 7 días completar y event2 tiene el propósito de capturar la finalización del registro.  s.prop2 registrará el tiempo necesario para completar el proceso de registro
 
 ## Historial de versiones
 
 ### 3.1 (30 de septiembre de 2019)
 
-* Se ha añadido una lógica que requiere un valor de &quot;start&quot; o &quot;stop&quot; en el primer argumento.  Todos los demás valores pasados detienen la ejecución del complemento.
-* Se ha actualizado `inList 2.0` el complemento a `inList 2.1`.
+* Se ha añadido una lógica que requiere un valor de “start” o “stop” en el primer argumento.  El resto de valores pasados detienen la ejecución del complemento.
+* Se ha actualizado el complemento `inList 2.0` a `inList 2.1`.
 
 ### 3.0 (23 de agosto de 2018)
 
-* Se ha actualizado el `formatTime v1.0` complemento a `formatTime v1.1`.
+* Se ha actualizado el complemento `formatTime v1.0` a `formatTime v1.1`.
 
 ### 3.0 (17 de abril de 2018)
 
-* Versión puntual (recompilada, tamaño de código más pequeño).
+* Versión puntual (compilada de nuevo, con un tamaño de código más pequeño).
 * Se han corregido errores menores.
 
-### 2.0 21 de junio de 2016)
+### 2.0 (21 de junio de 2016)
 
-* Se eliminó la dependencia del `p_fo` complemento.
-* Se agregó compatibilidad con el código H y AppMeasurement.
-* Se agregó el registro de la consola.
+* Se ha eliminado la dependencia del complemento `p_fo`.
+* Se ha agregado compatibilidad con el código H y con AppMeasurement.
+* Se ha agregado el registro de la consola.
