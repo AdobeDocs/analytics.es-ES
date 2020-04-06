@@ -1,19 +1,19 @@
 ---
 title: Clasificaciones en los canales de marketing
-description: Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
+description: Utilice las clasificaciones para categorizar los valores en grupos relacionados y para generar informes a nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede informar sobre el éxito de esa categoría en relación con métricas como Instancias (o pulsaciones).
 translation-type: tm+mt
-source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Clasificaciones en los canales de marketing
 
-Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
+Utilice las clasificaciones para categorizar los valores en grupos relacionados y para generar informes a nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede informar sobre el éxito de esa categoría en relación con métricas como Instancias (o pulsaciones).
 
 Las clasificaciones que agregue a este procedimiento se muestran en el [!UICONTROL Marketing Channel Overview] informe como [!UICONTROL Channel Values]. Los valores de canal son valores no clasificados en los detalles del canal.
 
-> [!NOTE] Asegúrese de estar familiarizado con la creación de clasificaciones en [Clasificaciones](/help/components/c-classifications2/c-classifications.md).
+>[!NOTE] Asegúrese de estar familiarizado con la creación de clasificaciones en [Clasificaciones](/help/components/c-classifications2/c-classifications.md).
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ Las clasificaciones que agregue a este procedimiento se muestran en el [!UICONTR
 
 | Término | Definición |
 |--- |--- |
-| Clasificaciones de texto | Especifica el tipo de categoría de clasificación que permite agrupar los datos de variables para crear informes. |
+| Clasificaciones de texto | Especifica el tipo de categoría de clasificación que le permite agrupar datos de variables para fines de sistema de informes. |
 | Nombre | El nombre de la clasificación. La clasificación que agregue aparecerá como opción de Desglose de canal en el Administrador de canales de mercadotecnia. |
 | Opciones | El nombre de la clasificación. La clasificación que agregue aparecerá como opción de Desglose de canal en el Administrador de canales de mercadotecnia. |
 
