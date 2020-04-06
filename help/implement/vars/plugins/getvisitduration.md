@@ -1,48 +1,48 @@
 ---
 title: getVisitDuration
-description: Rastrear cuánto tiempo ha estado un visitante en el sitio hasta ahora.
+description: Rastree cuánto tiempo ha pasado un visitante en el sitio hasta el momento.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: getVisitDuration
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `getVisitDuration` complemento rastrea la cantidad de tiempo en minutos que el visitante ha estado en el sitio hasta ese momento. Adobe recomienda utilizar este complemento si desea rastrear el tiempo acumulado en el sitio hasta ese momento o para rastrear el tiempo que tarda en realizar una actividad. Este complemento no rastrea la cantidad de tiempo entre eventos; si desea utilizar esta funcionalidad, utilice el [`getTimeBetweenEvents`](gettimebetweenevents.md) complemento.
+El complemento `getVisitDuration` rastrea el tiempo en minutos que el visitante ha pasado en el sitio hasta ese momento. Adobe recomienda utilizar este complemento si desea rastrear el tiempo acumulado en el sitio hasta ese momento o para rastrear el tiempo que tarda en realizar una actividad. Este complemento no rastrea el tiempo entre eventos; si desea esta funcionalidad, utilice el complemento [`getTimeBetweenEvents`](gettimebetweenevents.md).
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar getVisitDuration
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,20 +51,20 @@ s.getVisitDuration=function(){var d=new Date,c=d.getTime(),b=this.c_r("s_dur");i
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `getVisitDuration` método no utiliza ningún argumento. Devuelve uno de los siguientes valores:
+El método `getVisitDuration` no utiliza ningún argumento. Devuelve uno de los siguientes valores:
 
 * `"first hit of visit"`
 * `"less than a minute"`
 * `"1 minute"`
-* `"[x] minutes"` (donde `[x]` es el número de minutos transcurridos desde que el visitante aterrizó en el sitio)
+* `"[x] minutes"` (donde `[x]` es el número de minutos transcurridos desde que el visitante accedió al sitio)
 
-Este complemento crea una cookie de origen llamada `"s_dur"`, que es el número de milisegundos transcurridos desde que el visitante aterrizó en el sitio. La cookie caduca tras 30 minutos de inactividad.
+Este complemento crea una cookie de origen llamada `"s_dur"`, que es el número de milisegundos transcurridos desde que el visitante accedió al sitio. La cookie caduca tras 30 minutos de inactividad.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
 El siguiente código...
 
@@ -72,9 +72,9 @@ El siguiente código...
 s.eVar10 = s.getVisitDuration();
 ```
 
-...siempre configurará eVar10 igual al número de minutos transcurridos desde que el visitante aterrizó en el sitio
+...siempre establecerá eVar10 en el número de minutos transcurridos desde que el visitante accedió al sitio.
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
 El siguiente código...
 
@@ -82,9 +82,9 @@ El siguiente código...
 if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
 ```
 
-...utiliza el complemento inList para comprobar si la variable events contiene el evento purchase.  Si es así, eVar10 se configurará igual al número de minutos entre el inicio de la visita y la hora de compra del visitante.
+...utiliza el complemento inList para comprobar si la variable de eventos contiene el evento de compra.  Si es así, eVar10 se establece en el número de minutos entre el inicio de la visita y la hora de compra.
 
-### Ejemplo n.º 3
+### Ejemplo 3
 
 El siguiente código...
 
@@ -92,7 +92,7 @@ El siguiente código...
 s.prop10 = s.getVisitDuration();
 ```
 
-...siempre configurará prop10 igual al número de minutos transcurridos desde que el visitante aterrizó en el sitio.  Esto será útil si prop10 tiene las rutas habilitadas.  Si agrega la métrica &quot;salidas&quot; al informe prop10, se mostrará un informe &quot;de diagrama de dispersión&quot; granular de cuánto tiempo tardó una visita en minutos antes de que un visitante abandonara el sitio.
+...siempre establecerá prop10 en el número de minutos transcurridos desde que el visitante accedió al sitio.  Será útil si prop10 tiene las rutas habilitadas.  Si agrega la métrica “salidas” al informe prop10, se mostrará un informe “de diagrama de dispersión” granular de cuántos minutos duró una visita antes de que abandonara el sitio.
 
 ## Historial de versiones
 
