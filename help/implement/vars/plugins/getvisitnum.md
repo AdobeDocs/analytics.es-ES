@@ -1,48 +1,48 @@
 ---
 title: getVisitNum
-description: Rastrear el número de visitas actual de un visitante.
+description: Rastree el número de la visita actual de un visitante.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: getVisitNum
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `getVisitNum` complemento devuelve el número de visitas de todos los visitantes que llegan al sitio dentro del número de días deseado. Analysis Workspace ofrece una dimensión &#39;Número de visita&#39; que proporciona una funcionalidad similar. Adobe recomienda utilizar este complemento si desea controlar mejor cómo se incrementa el número de visitas. Este complemento no es necesario si la dimensión &#39;Número de visita&#39; integrada en Analysis Workspace es suficiente para sus necesidades de informes.
+El complemento `getVisitNum` devuelve el número de la visita de todos los visitantes que acceden al sitio dentro del número de días deseado. Analysis Workspace ofrece una dimensión “Número de visita” que proporciona una funcionalidad similar. Adobe recomienda utilizar este complemento si desea controlar mejor cómo se incrementa el número de visitas. Este complemento no es necesario si la dimensión “Número de visita” integrada en Analysis Workspace resulta suficiente para los informes que necesita.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar getVisitNum
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -54,31 +54,31 @@ var endOfDatePeriod=function(dp){var a=new Date,b=isNaN(dp)?0:Math.floor(dp);a.s
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `getVisitNum` método utiliza los siguientes argumentos:
+El método `getVisitNum` utiliza los siguientes argumentos:
 
-* **`rp`** (opcional, entero O cadena): Número de días antes de que se restablezca el contador de números de visitas.  El valor predeterminado es `365` cuando no se establece.
-   * Cuando este argumento es `"w"`, el contador se restablece al final de la semana (este sábado a las 11:59 pm)
-   * Cuando este argumento es `"m"`, el contador se restablece al final del mes (el último día de este mes)
+* **`rp`** (opcional, entero O cadena): El número de días antes de que se restablezca el contador de números de visitas.  Si no se configura de forma distinta, el valor predeterminado es `365`.
+   * Cuando este argumento es `"w"`, el contador se restablece al final de la semana (este sábado a las 23:59 h)
+   * Cuando este argumento es `"m"`, el contador se restablece al final del mes (el último día del mes en curso)
    * Cuando este argumento es `"y"`, el contador se restablece al final del año (31 de diciembre)
-* **`erp`** (opcional, booleano): Cuando el `rp` argumento es un número, este argumento determina si se debe ampliar la caducidad del número de visita. Si se establece en `true`, las visitas posteriores al sitio restablecen el contador de números de visitas. Si se establece en `false`, las visitas posteriores al sitio no se extienden cuando se restablece el contador de números de visitas. El valor predeterminado es `true`. Este argumento no es válido cuando el `rp` argumento es una cadena.
+* **`erp`** (opcional, booleano): Cuando el argumento `rp` es un número, este argumento determina si se debe ampliar la caducidad del número de visita. Si se establece en `true`, las posteriores visitas al sitio restablecerán el contador de número de visitas. Si se establece en `false`, las posteriores visitas al sitio no se amplían cuando se restablece el contador de número de visitas. El valor predeterminado es `true`. Este argumento no es válido cuando el argumento `rp` es una cadena.
 
-El número de visitas aumenta cada vez que el visitante regresa al sitio después de 30 minutos de inactividad. Al llamar a este método se devuelve un entero que representa el número de visita actual del visitante.
+El número de visitas aumenta cada vez que el visitante regresa al sitio después de 30 minutos de inactividad. Llamar a este método devuelve un entero que representa el número de visita actual.
 
-Este complemento establece una cookie de origen llamada `"s_vnc[LENGTH]"` , donde `[LENGTH]` es el valor que se pasa al `rp` argumento. For example, `"s_vncw"`, `"s_vncm"`, or `"s_vnc365"`. El valor de la cookie es una combinación de una marca de tiempo Unix que representa cuándo se restablece el contador de visitas, como fin de semana, fin de mes o después de 365 días de inactividad. También contiene el número de visita actual. Este complemento establece otra cookie denominada `"s_ivc"` que se establece en `true` y caduca tras 30 minutos de inactividad.
+Este complemento establece una cookie de origen llamada `"s_vnc[LENGTH]"`, donde `[LENGTH]` es el valor que se pasa al argumento `rp`. Por ejemplo, `"s_vncw"`, `"s_vncm"`o `"s_vnc365"`. El valor de la cookie es una combinación de una marca de tiempo Unix que representa cuándo se restablece el contador de visitas, como fin de semana, fin de mes o tras 365 días de inactividad. También contiene el número de visita actual. Este complemento establece otra cookie denominada `"s_ivc"` que se establece en `true` y caduca tras 30 minutos de inactividad.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
-Para un visitante que no ha estado en el sitio en los últimos 365 días, el siguiente código establecerá s.prop1 en el valor de 1:
+Para un visitante que no ha estado en el sitio en los últimos 365 días, el siguiente código establecerá s.prop1 en el valor 1:
 
 ```js
 s.prop1=s.getVisitNum();
 ```
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
 Para un visitante que regresa al sitio dentro de los 364 días posteriores a su primera visita, el siguiente código establecerá s.prop1 en 2:
 
@@ -92,7 +92,7 @@ Si este visitante regresa al sitio dentro de los 364 días posteriores a su segu
 s.prop1=s.getVisitNum(365);
 ```
 
-### Ejemplo n.º 3
+### Ejemplo 3
 
 Para un visitante que regresa al sitio dentro de los 179 días posteriores a su primera visita, el siguiente código establecerá s.prop1 en 2:
 
@@ -100,45 +100,45 @@ Para un visitante que regresa al sitio dentro de los 179 días posteriores a su 
 s.prop1=s.getVisitNum(180,false);
 ```
 
-Sin embargo, si este visitante regresa al sitio 1 o más días después de su segunda visita, el siguiente código establecerá s.prop1 en 1:
+Sin embargo, si este visitante regresa al sitio al menos un día después de su segunda visita, el siguiente código establecerá s.prop1 en 1:
 
 ```js
 s.prop1=s.getVisitNum(180,false);
 ```
 
-Cuando el segundo argumento de la llamada es igual a false, la rutina que determina cuándo se debe &quot;restablecer&quot; el número de visita a 1 lo hará &quot;x&quot; número de días (en este ejemplo, 365 días) después de la primera visita del visitante al sitio.
+Cuando el segundo argumento de la llamada tiene un valor false, la rutina que determina cuándo se debe “restablecer” a 1 el número de visita lo hará “x” días después (en este ejemplo, 365 días) de la primera visita al sitio.
 
-Cuando el segundo argumento es igual a true (o no está establecido), el complemento restablecerá el número de visita a 1 solamente después de &quot;x&quot; número de días (nuevamente, en este ejemplo, 365 días) de inactividad del visitante.
+Cuando el segundo argumento tiene un valor true (o no está establecido), el complemento restablecerá el número de visita a 1 solo después de “x” días (de nuevo, en este ejemplo, 365 días) de inactividad del visitante.
 
-### Ejemplo n.º 4
+### Ejemplo 4
 
-Para todos los visitantes que ingresan al sitio por primera vez durante la semana actual (comenzando el domingo), el siguiente código establecerá s.prop1 en 1:
+Para todos los visitantes que acceden al sitio por primera vez durante la semana en curso (que comienza el domingo), el siguiente código establecerá s.prop1 en 1:
 
 ```js
 s.prop1=s.getVisitNum("w");
 ```
 
-### Ejemplo n.º 5
+### Ejemplo 5
 
-Para todos los visitantes que ingresan al sitio por primera vez durante el mes actual (comenzando el primer día de cada mes), el siguiente código establecerá s.prop1 en 1:
+Para todos los visitantes que acceden al sitio por primera vez durante el mes en curso (a partir del primer día de cada mes), el siguiente código establecerá s.prop1 en 1:
 
 ```js
 s.prop1=s.getVisitNum("m");
 ```
 
-Tenga en cuenta que el complemento getVisitNum no tiene en cuenta los calendarios basados en minoristas (por ejemplo: 4-5-4, 4-4-5, etc.)
+Tenga en cuenta que el complemento getVisitNum no tiene en cuenta los calendarios de comercio minorista (es decir, los calendarios 4-5-4, 4-4-5, etc.)
 
-### Ejemplo n.º 6
+### Ejemplo 6
 
-Para todos los visitantes que ingresan al sitio por primera vez durante el año actual (a partir del 1 de enero), el siguiente código establecerá s.prop1 en 1:
+Para todos los visitantes que acceden al sitio por primera vez durante el año en curso (a partir del 1 de enero), el siguiente código establecerá s.prop1 en 1:
 
 ```js
 s.prop1=s.getVisitNum("y");
 ```
 
-### Ejemplo n.º 7
+### Ejemplo 7
 
-Si desea rastrear el número de visita de un visitante para la semana, el número de visita de un visitante para el mes y el número de visita de un visitante para el año (todo dentro de distintas variables de Analytics), debe utilizar un código similar al siguiente:
+Si desea rastrear el número de visita de un visitante en la semana, el número de visita de un visitante en el mes y el número de visita de un visitante en el año (todo dentro de distintas variables de Analytics), debe utilizar un código similar al siguiente:
 
 ```js
 s.prop1=s.getVisitNum("w");
@@ -146,24 +146,24 @@ s.prop2=s.getVisitNum("m");
 s.prop3=s.getVisitNum("y");
 ```
 
-En este caso, el complemento creará tres cookies diferentes, una para cada uno de los diferentes períodos de tiempo, para realizar un seguimiento del número de visita individual por período de tiempo.
+En este caso, el complemento creará tres cookies diferentes, una para cada uno de los diferentes periodos de tiempo, para realizar un seguimiento del número de visita individual por periodo de tiempo.
 
 ## Historial de versiones
 
 ### 4.11 (30 de septiembre de 2019)
 
-* Se corrigió un problema en el cual el `erp` argumento se establecía explícitamente en `false`.
+* Se ha corregido un problema en el que el argumento `erp` se establecía explícitamente en `false`.
 
 ### 4.1 (21 de mayo de 2018)
 
-* Se ha actualizado el `endOfDatePeriod` complemento a v1.1.
+* Se ha actualizado el complemento `endOfDatePeriod` a v1.1.
 
 ### 4.0 (17 de abril de 2018)
 
-* Versión puntual (recompilada, tamaño de código más pequeño).
-* Se han eliminado los argumentos de cookies, ya que el complemento ahora genera cookies de forma dinámica en función del `rp` argumento)
+* Versión puntual (compilada de nuevo, con un tamaño de código más pequeño).
+* Se han eliminado los argumentos de cookies, ya que el complemento ahora genera cookies de forma dinámica en función del argumento `rp`.
 
 ### 3.0 (5 de junio de 2016)
 
 * Revisión completa
-* Se han combinado todas las soluciones anteriores disponibles en varias versiones del `getVisitNum` complemento.
+* Se han combinado todas las soluciones anteriores disponibles en varias versiones del complemento `getVisitNum`.
