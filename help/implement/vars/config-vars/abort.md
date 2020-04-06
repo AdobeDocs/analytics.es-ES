@@ -2,35 +2,35 @@
 title: abort
 description: La variable abort es un booleano que evita que se envíe una visita a los servidores de recopilación de datos de Adobe.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # abort
 
-La `abort` variable es un booleano que puede evitar que la siguiente llamada de seguimiento se envíe a Adobe.
+La variable `abort` es un booleano que puede evitar que la siguiente llamada de seguimiento se envíe a Adobe.
 
 ## Uso de la variable abort en Adobe Experience Platform Launch
 
-No hay un campo dedicado en Launch para utilizar esta variable. Utilice el editor de código personalizado, siguiendo la sintaxis de AppMeasurement.
+No hay un campo específico en Launch para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
 ## Sintaxis de AppMeasurement y editor de código personalizado en Launch
 
-La `abort` variable es booleana. Its default value is `false`.
+La variable `abort` es booleana. Su valor predeterminado es `false`.
 
-* Si se establece en `true`, la siguiente llamada de seguimiento ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)) no envía ningún dato a Adobe.
-* Si se define como `false` o no, esta variable no hace nada.
+* Si se establece como `true`, la siguiente llamada de seguimiento ([`t()`](../functions/t-method.md) o [`tl()`](../functions/tl-method.md)) no envía ningún dato a Adobe.
+* Si se establece el valor como `false` o no se establece ninguno, esta variable no hace nada.
 
 ```js
 s.abort = true;
 ```
 
-> [!NOTE] La `abort` variable se restablece `false` después de cada llamada de seguimiento. Si necesita cancelar llamadas de seguimiento subsiguientes en la misma página, establezca `abort` nuevamente en `true` .
+>[!NOTE] La variable `abort` se restablece como `false` después de cada llamada de seguimiento. Si necesita cancelar llamadas de seguimiento subsiguientes en la misma página, establezca `abort` nuevamente como `true`.
 
 ## Ejemplo
 
-La `abort` variable se puede establecer en la [`doPlugins()`](../functions/doplugins.md) función, que es la última función que se ejecuta antes de que se envíe una solicitud de imagen a Adobe.
+La variable `abort` se puede establecer en la función [`doPlugins()`](../functions/doplugins.md), que es la última función que se ejecuta antes de que se envíe una solicitud de imagen a Adobe.
 
 ```js
 s.doPlugins = function(s) {
@@ -41,4 +41,4 @@ s.doPlugins = function(s) {
 };
 ```
 
-Puede centralizar la lógica que utiliza para identificar la actividad que no desea rastrear, como algunos vínculos personalizados o vínculos externos en los anuncios en pantalla.
+Puede centralizar la lógica utilizada para identificar la actividad que no se quiere seguir, como algunos vínculos personalizados o vínculos externos para mostrar anuncios.
