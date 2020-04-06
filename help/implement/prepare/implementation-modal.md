@@ -1,8 +1,8 @@
 ---
 title: Modo de implementación
 description: Obtenga información sobre la experiencia de los usuarios que compran sus productos por primera vez a la hora de poner en marcha la implementación de Adobe Analytics.
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,13 +25,13 @@ Acceda al modal para crear un grupo de informes siguiendo los pasos siguientes.
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en el icono de 9 cuadrículas en la parte superior y, a continuación, haga clic en [!UICONTROL Adobe Analytics].
-3. Si aún no ha creado un grupo de informes, el modal se muestra automáticamente. Si existe un grupo de informes para este proveedor de inicio de sesión, haga clic en el icono Ayuda en la parte superior derecha y, a continuación, haga clic en [!UICONTROL Bienvenido a Adobe Analytics].
+3. Si aún no ha creado un grupo de informes, el modal se muestra automáticamente. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-> [!NOTE] La opción [!UICONTROL Bienvenido a Adobe Analytics] solo aparece si inicia sesión a través de Adobe Experience Cloud. Si inicia sesión a través de dominios heredados, el modal no está disponible.
+>[!NOTE] La [!UICONTROL Welcome to Adobe Analytics] opción solo aparece si inicia sesión a través de Adobe Experience Cloud. Si inicia sesión a través de dominios heredados, el modal no está disponible.
 
 ## Crear un grupo de informes
 
-Haga clic en el botón [!UICONTROL Iniciar configuración] para iniciar el flujo de trabajo de creación de grupos de informes.
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
 ![Asistente de RS](assets/analytics-implementation-rs-wizard.png)
 
@@ -67,7 +67,7 @@ Calcule el tráfico que recibe su sitio web o aplicación por día. Esta informa
 
 Determine en qué moneda almacena los valores monetarios el grupo de informes.
 
-> [!IMPORTANT] Asegúrese de indicar la moneda correcta, especialmente si tiene requisitos de informes en relación con los ingresos. Es difícil cambiar la moneda base después de que comience la recopilación de datos.
+>[!IMPORTANT] Asegúrese de indicar la moneda correcta, especialmente si tiene requisitos de informes en relación con los ingresos. Es difícil cambiar la moneda base después de que comience la recopilación de datos.
 
 ## Recursos de implementación
 
