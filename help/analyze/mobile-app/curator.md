@@ -1,8 +1,8 @@
 ---
 description: Instrucciones para configurar los informes de valoración de la aplicación móvil.
 title: Guía del gestor de datos de la aplicación móvil de Adobe Analytics
-translation-type: ht
-source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
+translation-type: tm+mt
+source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
 
 ---
 
@@ -29,7 +29,7 @@ En la siguiente tabla se describen los términos para comprender la audiencia, l
 | Consumidor | Ejecutivo que ve métricas clave y datos de Analytics en un dispositivo móvil |
 | Gestor de datos | Experto que busca y distribuye datos de Analytics y que configura los informes de valoración que verá el consumidor |
 | Gestión de datos | Acto de crear o editar un informe de valoración móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
-| informe de valoración | Vista de la aplicación móvil que contiene uno o más mosaicos |
+| Informe de valoración | Vista de la aplicación móvil que contiene uno o más mosaicos |
 | Mosaico | Representación de una métrica en una vista del informe de valoración |
 | Desglose | Una vista secundaria a la que se puede acceder pulsando un mosaico del informe de valoración. Esta vista ofrece más información sobre la métrica que aparece en el mosaico y, opcionalmente, sobre dimensiones de desglose adicionales. |
 | Intervalo de fecha | El intervalo de fecha principal para la creación de informes de la aplicación móvil |
@@ -198,6 +198,7 @@ Durante la fase beta y antes de que la aplicación se publique, puede controlar 
       ![Pantalla de la Play Store](assets/play.png)
 
    2. Pulse el enlace **descargar en Google Play** en la siguiente pantalla:
+
       ![Vínculo de descarga](assets/playnext.png)
 
    3. Descargue e instale la aplicación.
