@@ -1,8 +1,8 @@
 ---
 title: pageType
 description: Determine si la página actual conduce a un error 404.
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 La variable `pageType` es un indicador que se utiliza para designar las páginas de error en el sitio, como los errores 404. Si esta variable contiene la cadena `errorPage`, rellena la dimensión “Páginas no encontradas”.
 
-> [!IMPORTANT] No configure esta variable en páginas que no sean de error.
+>[!IMPORTANT] No configure esta variable en páginas que no sean de error.
 
 ## Tipo de página en Adobe Experience Platform Launch
 
@@ -25,4 +25,4 @@ La variable `s.pageType` es una cadena donde el valor `errorPage` es el único v
 s.pageType = "errorPage";
 ```
 
-> [!TIP] Utilice una eVar para recopilar el código de error y obtener más información sobre los errores específicos que los visitantes encuentran en el sitio.
+>[!TIP] Utilice una eVar para recopilar el código de error y obtener más información sobre los errores específicos que los visitantes encuentran en el sitio.
