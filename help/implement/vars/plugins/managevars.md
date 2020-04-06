@@ -2,47 +2,47 @@
 title: manageVars
 description: Modifique los valores de más de una variable de Analytics a la vez.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: manageVars
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `manageVars` complemento le permite manipular los valores de varias variables de Analytics a la vez. También puede definir valores en minúsculas o eliminar caracteres innecesarios de varios valores de variables al mismo tiempo. Adobe recomienda utilizar este complemento si desea limpiar el valor de varias variables a la vez.
+El complemento `manageVars` le permite manipular los valores de varias variables de Analytics a la vez. También puede definir valores en minúsculas o eliminar caracteres innecesarios de varios valores de variables al mismo tiempo. Adobe recomienda utilizar este complemento si desea limpiar el valor de diferentes variables a la vez.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar manageVars
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -63,12 +63,12 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `manageVars` método utiliza los siguientes argumentos:
+El método `manageVars` utiliza los siguientes argumentos:
 
-* **`cb`** (requerido, cadena): Nombre de una función de llamada de retorno que el complemento utiliza para manipular las variables de Analytics. Puede utilizar una función de Adobe como `cleanStr` o su propia función personalizada.
-* **`l`** (opcional, cadena): Una lista delimitada por comas de las variables de Analytics que desea manipular. Si no se establece, el valor predeterminado es TODAS las variables de Adobe Analytics, lo que incluye:
+* **`cb`** (obligatorio, cadena): El nombre de una función de llamada de retorno que el complemento utiliza para manipular las variables de Analytics. Puede utilizar una función de Adobe como `cleanStr` o su propia función personalizada.
+* **`l`** (opcional, cadena): Una lista delimitada por comas de las variables de Analytics que desea manipular. Si no se establece, el valor predeterminado son TODAS las variables de Adobe Analytics, lo que incluye:
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -85,13 +85,13 @@ El `manageVars` método utiliza los siguientes argumentos:
    * Todas las variables de jerarquía
    * Todas las variables de lista
    * Todas las variables de datos de contexto
-* **`Il`** (opcional, booleano): Se configura como `false` si desea *excluir* la lista de variables declaradas en el `l` argumento en lugar de incluirlas. El valor predeterminado es `true`.
+* **`Il`** (opcional, booleano): Se configura como `false` si desea *excluir* la lista de variables declaradas en el argumento `l` en lugar de incluirlas. El valor predeterminado es `true`.
 
-Al llamar a este método no se devuelve nada. En su lugar, cambia los valores de las variables de Analytics en función de la función de llamada de retorno deseada.
+Llamar a este método no devuelve nada. En su lugar, cambia los valores de las variables de Analytics según la función de llamada de retorno deseada.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
 El siguiente código...
 
@@ -99,9 +99,9 @@ El siguiente código...
 s.manageVars("lowerCaseVars");
 ```
 
-...cambia los valores de todas las variables descritas anteriormente a versiones en minúsculas.  La única excepción a esto es la variable events, ya que algunos de los eventos (por ejemplo: scAdd, scCheckout, etc.) distinguen entre mayúsculas y minúsculas y no deben reducirse
+...cambia los valores de todas las variables descritas anteriormente a versiones en minúsculas.  La única excepción es la variable de eventos, ya que algunos eventos (por ejemplo: scAdd, scCheckout, etc.) distinguen entre mayúsculas y minúsculas y no deben cambiarse a minúsculas.
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
 El siguiente código...
 
@@ -109,9 +109,9 @@ El siguiente código...
 s.manageVars("lowerCaseVars", "events", false);
 ```
 
-...básicamente produce el mismo resultado que el primer ejemplo, ya que la variable events no se reduce de forma predeterminada.
+... produce casi el mismo resultado que el primer ejemplo, ya que la variable de eventos no se convierte en minúsculas de forma predeterminada.
 
-### Ejemplo n.º 3
+### Ejemplo 3
 
 El siguiente código...
 
@@ -119,9 +119,9 @@ El siguiente código...
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
-...solo cambiarán (por ejemplo, minúsculas) los valores de eVar1, eVar2, eVar3 y list2
+... solo cambiará (por ejemplo, a minúsculas) los valores de eVar1, eVar2, eVar3 y list2.
 
-### Ejemplo n.º 4
+### Ejemplo 4
 
 El siguiente código...
 
@@ -129,9 +129,9 @@ El siguiente código...
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
-...cambiará (por ejemplo, en minúsculas) los valores de todas las variables descritas anteriormente EXCEPTO para eVar1, eVar2, eVar3 y list2
+... cambiará (por ejemplo, a minúsculas) los valores de todas las variables descritas anteriormente EXCEPTO eVar1, eVar2, eVar3 y list2.
 
-### Ejemplo n.º 5
+### Ejemplo 5
 
 El siguiente código...
 
@@ -139,22 +139,22 @@ El siguiente código...
 s.manageVars("cleanStr");
 ```
 
-...cambia los valores de todas las variables descritas anteriormente, incluidas las variables events.  Específicamente, la función de llamada de retorno cleanStr hace lo siguiente en el valor de cada variable:
+... cambia los valores de todas las variables descritas anteriormente, incluidas las variables de eventos.  En concreto, la función de llamada de retorno cleanStr hace lo siguiente al valor de cada variable:
 
-* Quita la codificación HTML
+* Elimina la codificación HTML
 * Elimina los espacios en blanco que se encuentran al principio y al final del valor
-* Reemplaza las comillas simples izquierda/derecha (p. ej. ’) con una simple comilla recta (&#39;)
+* Reemplaza las comillas simples izquierda/derecha (por ejemplo ’) con una comilla simple recta (&#39;)
 * Reemplaza caracteres de tabulación, caracteres de nueva línea y caracteres de retorno de carro por espacios
-* Reemplaza todo el doble (o triple, etc.) espacios con espacios únicos
+* Reemplaza todos los espacios dobles (o triples, etc.) con espacios únicos
 
 ## Historial de versiones
 
 ### 2.1 (14 de enero de 2019)
 
-* Corrección de errores en los navegadores Internet Explorer 11.
-* Cambios para `s.cleanStr`, que ahora utiliza la `cleanStr` función regular.
+* Se han corregido los errores en los navegadores Internet Explorer 11.
+* Se han hecho cambios en `s.cleanStr`, que ahora utiliza la función regular `cleanStr`.
 
 ### 2.0 (7 de mayo de 2018)
 
 * Versión puntual (incluido el reanálisis/reescritura completo del complemento)
-* Se ha agregado `cleanStr` función de llamada de retorno
+* Se ha agregado la función `cleanStr` de llamada de retorno
