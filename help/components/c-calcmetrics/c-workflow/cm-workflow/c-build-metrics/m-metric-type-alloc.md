@@ -1,16 +1,16 @@
 ---
-description: Si selecciona el icono de engranaje junto a una métrica, puede especificar el tipo de métrica y el modelo de atribución.
+description: Si selecciona el icono de engranaje junto a una métrica, podrá especificar el tipo de métrica y el modelo de atribución.
 title: Tipo de métrica y atribución
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 
 ---
 
 
 # Tipo de métrica y atribución
 
-Si selecciona el icono de engranaje junto a una métrica, puede especificar el tipo de métrica y el modelo de atribución.
+Si selecciona el icono de engranaje junto a una métrica, podrá especificar el tipo de métrica y el modelo de atribución.
 
 * [Tipo de métrica](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
 * [Modelo de atribución de columnas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
@@ -22,8 +22,8 @@ Si selecciona el icono de engranaje junto a una métrica, puede especificar el t
 
 | Tipo de métrica | Definición |
 |---|---|
-| Estándar | Estas métricas son las mismas métricas utilizadas en los informes de [!DNL Analytics] estándares. Si una fórmula consiste en una única métrica estándar, muestra datos idénticos a los de su métrica no calculada homóloga. Las métricas estándar son útiles para crear métricas calculadas específicas para cada elemento de línea individual. Por ejemplo, [Pedidos] / [Visitas] toma pedidos de ese elemento de línea en concreto y lo divide por el número de visitas de ese elemento de línea específico. |
-| Total | Utilice el total para el periodo de generación de informes de cada elemento de línea. Si una fórmula consiste en una única métrica total, muestra el mismo número total en cada elemento de línea. Las métricas totales son útiles para crear métricas calculadas que se comparan con los datos totales del sitio. Por ejemplo, [Pedidos] / [Visitas totales] muestra la proporción de pedidos en comparación con TODAS las visitas de su sitio, no solo las visitas de una línea en concreto. |
+| Estándar | Estas métricas son las mismas métricas utilizadas en los informes de [!DNL Analytics] estándares. Si una fórmula consiste en una única métrica estándar, muestra datos idénticos a su contraparte de métricas no calculadas. Las métricas estándar son útiles para crear métricas calculadas específicas de cada elemento de línea individual. Por ejemplo, [Pedidos] / [Visitas] toma pedidos de ese elemento de línea en concreto y lo divide por el número de visitas de ese elemento de línea específico. |
+| Total | Utilice el total del período de sistema de informes en cada elemento de línea. Si una fórmula consiste en una única métrica total, muestra el mismo número total en cada elemento de línea. Las métricas totales son útiles para crear métricas calculadas que se comparan con los datos totales del sitio. Por ejemplo, [Pedidos] / [Visitas totales] muestra la proporción de pedidos en comparación con TODAS las visitas de su sitio, no solo las visitas de una línea en concreto. |
 
 ## Modelo de atribución de columnas {#section_F9690FD1943B403AB28E2FAC54EFE032}
 
@@ -31,42 +31,42 @@ Si selecciona el icono de engranaje junto a una métrica, puede especificar el t
 >
 >En julio de 2018, [!DNL Analytics] introdujo [Attribution IQ](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/attribution.html), que revisaba la forma en que se evalúan los modelos de asignación en las métricas calculadas. Como parte de este cambio, las métricas calculadas que usan un modelo de asignación no predeterminado se migraron a los nuevos modelos de atribución mejorados:
 >
->* Para obtener una lista completa de todos los modelos de atribución no predeterminados y ventanas retroactivas, consulte la documentación de [Attribution IQ](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/attribution.html).
+>* Para obtener una lista completa de los modelos de atribución no predeterminados y de las ventanas retroactivas admitidas, consulte la documentación de IQ [de](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/attribution.html) atribución.
 >* Los modelos de asignación “Último toque del canal de marketing” y “Primer toque del canal de marketing” se migrarán a los nuevos modelos de atribución “Último toque” y “Primer toque”, respectivamente. Tenga en cuenta que “Canales de marketing” no dejará de utilizarse, pues únicamente se retirarán los dos modelos de asignación que aparecen en las métricas calculadas.
->* Además, corregiremos la forma de calcular la asignación lineal. Para los clientes que usan métricas calculadas con modelos de asignación “Lineal”, los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. Este cambio para métricas calculadas se reflejará en Analysis Workspace, [!UICONTROL Reports &amp; Analytics], API de informes, Report Builder y Ad Hoc Analysis. Para obtener más información, consulte [Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Además, corregiremos la forma de calcular la asignación lineal. Para los clientes que usan métricas calculadas con modelos de asignación “Lineal”, los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. Este cambio para métricas calculadas se reflejará en Analysis Workspace, Reports &amp; Analytics, API de informes, Report Builder y Ad Hoc Analysis. For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
 >
 
 
 
-## Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018)  {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
+## Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018) 
 
-En julio de 2018, Adobe cambió la forma en que se generan los informes de asignación lineal para métricas calculadas. Este cambio afecta a Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map y las API de informes. Este cambio afectará principalmente a las eVars y otras dimensiones que tienen persistencia. Tenga en cuenta que estos cambios solo se aplicarán en las métricas calculadas y no tendrán ningún impacto en otros informes con asignación lineal (como el informe Páginas de [!UICONTROL Reports &amp; Analytics]). Los otros informes que usan la asignación lineal seguirán usando el método existente.
+En julio de 2018, Adobe cambió la forma en que se generan los informes de asignación lineal para métricas calculadas. Este cambio afecta a Analysis Workspace, Ad Hoc Analysis, Reports &amp; Analytics, Report Builder, Activity Map y las API de informes. Este cambio afectará principalmente a las eVars y otras dimensiones que tienen persistencia. Tenga en cuenta que estos cambios solo se aplicarán en las métricas calculadas y no tendrán ningún impacto en otros informes con asignación lineal (como el informe Páginas de Reports &amp; Analytics). Otros informes que utilicen la asignación lineal seguirán utilizando el método de asignación lineal existente.
 
-El ejemplo siguiente ilustra de qué forma cambiarán las métricas calculadas con la asignación lineal en los informes:
+El siguiente ejemplo ilustra cómo las métricas calculadas con asignación lineal cambiarán en el sistema de informes:
 
 <table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Visita 1 </th> 
-   <th colname="col3" class="entry"> Visita 2 </th> 
-   <th colname="col4" class="entry"> Visita 3 </th> 
-   <th colname="col5" class="entry"> Visita 4 </th> 
-   <th colname="col6" class="entry"> Visita 5 </th> 
-   <th colname="col7" class="entry"> Visita 6 </th> 
-   <th colname="col8" class="entry"> Visita 7 </th> 
+   <th colname="col2" class="entry"> Visita individual 1 </th> 
+   <th colname="col3" class="entry"> Visita individual 2 </th> 
+   <th colname="col4" class="entry"> Visita individual 3 </th> 
+   <th colname="col5" class="entry"> Visita individual 4 </th> 
+   <th colname="col6" class="entry"> Visita individual 5 </th> 
+   <th colname="col7" class="entry"> Visita individual 6 </th> 
+   <th colname="col8" class="entry"> Visita individual 7 </th> 
   </tr>
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Datos recibidos </p> </td> 
+   <td colname="col1"> <p>Datos enviados </p> </td> 
    <td colname="col2"> PROMOCIÓN A </td> 
    <td colname="col3"> - </td> 
    <td colname="col4"> PROMOCIÓN A </td> 
    <td colname="col5"> PROMOCIÓN B </td> 
    <td colname="col6"> - </td> 
-   <td colname="col7"> PROMOCIÓN C </td> 
-   <td colname="col8"> 10 USD </td> 
+   <td colname="col7"> PROMO C </td> 
+   <td colname="col8"> $10 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar de último toque </p> </td> 
@@ -75,8 +75,8 @@ El ejemplo siguiente ilustra de qué forma cambiarán las métricas calculadas c
    <td colname="col4"> PROMOCIÓN A </td> 
    <td colname="col5"> PROMOCIÓN B </td> 
    <td colname="col6"> PROMOCIÓN B </td> 
-   <td colname="col7"> PROMOCIÓN C </td> 
-   <td colname="col8"> 10 USD </td> 
+   <td colname="col7"> PROMO C </td> 
+   <td colname="col8"> $10 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar de primer toque </p> </td> 
@@ -86,209 +86,44 @@ El ejemplo siguiente ilustra de qué forma cambiarán las métricas calculadas c
    <td colname="col5"> PROMOCIÓN A </td> 
    <td colname="col6"> PROMOCIÓN A </td> 
    <td colname="col7"> PROMOCIÓN A </td> 
-   <td colname="col8"> 10 USD </td> 
+   <td colname="col8"> $10 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Prop de ejemplo </p> </td> 
+   <td colname="col1"> <p>Ejemplo de prop </p> </td> 
    <td colname="col2"> PROMOCIÓN A </td> 
    <td colname="col3"> - </td> 
    <td colname="col4"> PROMOCIÓN A </td> 
    <td colname="col5"> PROMOCIÓN B </td> 
    <td colname="col6"> - </td> 
-   <td colname="col7"> PROMOCIÓN C </td> 
-   <td colname="col8"> 10 USD </td> 
+   <td colname="col7"> PROMO C </td> 
+   <td colname="col8"> $10 </td> 
   </tr> 
  </tbody> 
 </table>
 
-En este ejemplo, los valores A, B y C se han enviado a una variable en las visitas 1, 3, 4 y 6 antes de realizarse una compra de 10 USD en la visita 7. En la segunda fila, estos valores persisten a lo largo de las visitas con base en una visita de último toque. La tercera fila ilustra una persistencia de visita de primer toque. Finalmente, la última fila ilustra de qué forma se registrarán los datos para una prop que no tiene persistencia.
+En este ejemplo, los valores A, B y C se enviaron a una variable en las visitas individuales 1, 3, 4 y 6 antes de que se realizara una compra de 10 $ en la visita individual 7. En la segunda fila, esos valores persisten entre visitas individuales en base a la visita de último toque. La tercera fila ilustra la persistencia de una visita de primer toque. Por último, la última fila ilustra cómo se registrarían los datos de una propiedad que no tenga persistencia.
 
-**Resumen del funcionamiento de la asignación lineal antes de julio de 2018**
+## Funcionamiento de la asignación lineal antes de julio de 2018
 
-Antes del 19 de julio de 2018, la atribución lineal se calculaba después de producirse la persistencia de primer toque o de último toque. Esto quiere decir que, para la última eVar de toque anterior, 10 $ se distribuirían de esta forma: A = 10 * (3/6) = 5 $, B = 10 * (2/6) = 3,33 $, C = 10 * (1/6) = 1,67 $.
+Antes del 19 de julio de 2018, la atribución lineal se calculaba después de que ya se hubiera producido la persistencia del primer toque o del último toque. Esto significaba que para la eVar de último toque anterior, los $10 se distribuirían de la siguiente manera: A = 10 * (3/6) = $5, B = 10 * (2/6) = $3,33, C = 10 * (1/6) = $1,67.
 
-Para la eVar de primer toque anterior, los 10 $ se asignarían a A. Para la prop: A = 10 * (2/4) = 5 $, B = 10 * (1/4) = 2,50 $ y C = 10 * (1/4) = 2,50 $. Para resumir el funcionamiento anterior de la asignación lineal:
+Para la eVar de primer toque anterior, los $10 se entregarían a A. Para la prop: A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50, y C = 10 * (1/4) = $2,50. Para resumir la asignación lineal como funcionaba anteriormente:
 
 | Valores | eVar de último toque actual | eVar de primer toque actual | Prop actual |
 |---|---|---|---|
-| PROMOCIÓN A | 5,00 USD | 10,00 USD | 5,00 USD |
-| PROMOCIÓN B | 3,33 USD | 0 USD | 2,50 USD |
-| PROMOCIÓN C | 1,67 USD | 0 USD | 2,50 USD |
-| Total | 10,00 USD | 10,00 USD | 10,00 USD |
+| PROMOCIÓN A | $5.00 | $10.00 | $5.00 |
+| PROMOCIÓN B | $3.33 | 0 USD | $2.50 |
+| PROMO C | $1.67 | 0 USD | $2.50 |
+| Total | $10.00 | $10.00 | $10.00 |
 
-**Resumen del funcionamiento de la asignación lineal a partir del 19 de julio de 2018**
+**Resumen del funcionamiento de la asignación lineal desde el 19 de julio de 2018**
 
-Después del 19 de julio, corregimos este comportamiento en las métricas calculadas. En lugar de usar los valores persistidos basados en el último o el primer toque, ahora [!DNL Analytics] usará solo los valores pasados (la primera fila de la tabla superior). De este modo, la configuración de la asignación de dimensiones ya no tendrá ningún impacto en la forma de calcular la asignación lineal (lo que significa que props y eVars se tratarán del mismo modo) y los resultados reflejarán lo que se haya transferido originalmente, en lugar de los valores de primer o último toque que puedan haber persistido. Es decir, en los tres casos, A = 10 * (2/4) = 5 USD, B = 10 * (1/4) = 2,50 USD, and C = 10 * (1/4) = 2,50 USD.
+Después del 19 de julio, hemos corregido este comportamiento en las métricas calculadas. En lugar de usar los valores persistidos basados en el último o el primer toque, ahora [!DNL Analytics] usará solo los valores pasados (la primera fila de la tabla superior). Como tal, la configuración de asignación de dimensiones ya no afecta a la forma en que se calcula la asignación lineal (es decir, las propiedades y las eVars se tratarán de la misma manera) y los resultados reflejan lo que se pasó originalmente en lugar de los valores de primer o último toque que pueden haber persistido. Así pues, en los tres casos, A = 10 * (2/4) = $5, B = 10 * (1/4) = $2,50, y C = 10 * (1/4) = $2,50.
 
-| Valores | eVar de último toque nueva | eVar de primer toque nueva | Prop nueva |
+| Valores | Nueva eVar de último toque | Nueva eVar de primer toque | Nueva propiedad |
 |---|---|---|---|
-| PROMOCIÓN A | 5,00 USD | 5,00 USD | 5,00 USD |
-| PROMOCIÓN B | 2,50 USD | 2,50 USD | 2,50 USD |
-| PROMOCIÓN C | 2,50 USD | 2,50 USD | 2,50 USD |
-| Total | 10,00 USD | 10,00 USD | 10,00 USD |
-
-<!-- 
-
-<p>Additionally, as part of this change, [!DNL Analytics] is <b>changing how multiple sequential successes</b> are treated. In the following example, 7 hits occurred in the same visit with two orders, one $10 order on hit 4, and one $5 order on hit 7: </p> 
-<table id="table_4647AA466D1447F6961DDC10468FCCE1"> 
- <tgroup cols="8">
-  <colspec colnum="1" colname="col1" colwidth="1.00*" />
-  <colspec colnum="2" colname="col2" colwidth="1.04*" />
-  <colspec colnum="3" colname="col3" colwidth="1.02*" />
-  <colspec colnum="4" colname="col4" colwidth="1.02*" />
-  <colspec colnum="5" colname="col5" colwidth="1.03*" />
-  <colspec colnum="6" colname="col6" colwidth="1.02*" />
-  <colspec colnum="7" colname="col7" colwidth="1.02*" />
-  <colspec colnum="8" colname="col8" colwidth="1.03*" />
-  <thead> 
-   <tr> 
-    <th colname="col1" class="entry"> </th> 
-    <th colname="col2" class="entry"> Hit 1 </th> 
-    <th colname="col3" class="entry"> Hit 2 </th> 
-    <th colname="col4" class="entry"> Hit 3 </th> 
-    <th colname="col5" class="entry"> Hit 4 </th> 
-    <th colname="col6" class="entry"> Hit 5 </th> 
-    <th colname="col7" class="entry"> Hit 6 </th> 
-    <th colname="col8" class="entry"> Hit 7 </th> 
-   </tr>
-  </thead> 
-  <tbody> 
-   <tr> 
-    <td colname="col1"> <p>Data Sent In </p> </td> 
-    <td colname="col2"> PROMO A </td> 
-    <td colname="col3"> - </td> 
-    <td colname="col4"> PROMO B </td> 
-    <td colname="col5"> $10 </td> 
-    <td colname="col6"> - </td> 
-    <td colname="col7"> PROMO C </td> 
-    <td colname="col8"> $5 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> <p>Last Touch eVar </p> </td> 
-    <td colname="col2"> PROMO A </td> 
-    <td colname="col3"> PROMO A </td> 
-    <td colname="col4"> PROMO B </td> 
-    <td colname="col5"> $10 </td> 
-    <td colname="col6"> PROMO B </td> 
-    <td colname="col7"> PROMO C </td> 
-    <td colname="col8"> $5 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> <p>First Touch eVar </p> </td> 
-    <td colname="col2"> PROMO A </td> 
-    <td colname="col3"> PROMO A </td> 
-    <td colname="col4"> PROMO A </td> 
-    <td colname="col5"> $10 </td> 
-    <td colname="col6"> PROMO A </td> 
-    <td colname="col7"> PROMO A </td> 
-    <td colname="col8"> $5 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> <p>Example prop </p> </td> 
-    <td colname="col2"> PROMO A </td> 
-    <td colname="col3"> - </td> 
-    <td colname="col4"> PROMO A </td> 
-    <td colname="col5"> $10 </td> 
-    <td colname="col6"> - </td> 
-    <td colname="col7"> PROMO C </td> 
-    <td colname="col8"> $5 </td> 
-   </tr> 
-  </tbody> 
- </tgroup> 
-</table> 
-<p> </p> 
-<p>Currently (<b>prior to July 19, 2018</b>), linear attribution would carry forward past the initial conversion and persist into the second conversion </p> 
-<ul id="ul_FD09813B59F04FF2A96A70BBE0A8F349"> 
- <li id="li_2EC965DDAE334C1795530F7C6F1674C5">In our first-touch eVar example, the total revenue for each promotion would be calculated using the promos prior to conversion on hit 4 for revenue on hit 4, but all promos for the conversion on hit 7. </li> 
- <li id="li_687C03C4B0A941AA800084F324A95FD6">In our last-touch eVar example, this would be: A = (2/3) * 10 + (2/5) * 5 = $8.66, B = (1/3) * 10 + (2/5) * 5 = $5.33, C = (1/5) * 5 = $1.00. In our FT eVar example: A = (3/3) * 10 + (5/5) * 5 = $15.00, and for the prop: A = (1/2) * 10 + (1/3) * 5 = $6.66, B = (1/2) * 10 + (1/3) * 5 = $6.66, and C = (1/3) * 5 = $1.66. </li> 
-</ul> 
-<p>Resulting in a distribution as follows: </p> 
-<table id="table_6A066E602BF641B0BD4B175EE9753C6E"> 
- <tgroup cols="4">
-  <colspec colnum="1" colname="col1" colwidth="*" />
-  <colspec colnum="2" colname="col2" colwidth="*" />
-  <colspec colnum="3" colname="col3" colwidth="*" />
-  <colspec colnum="4" colname="col4" colwidth="*" />
-  <thead> 
-   <tr> 
-    <th colname="col1" class="entry"> Values </th> 
-    <th colname="col2" class="entry"> Current Last Touch eVar </th> 
-    <th colname="col3" class="entry"> Current First Touch eVar </th> 
-    <th colname="col4" class="entry"> Current Prop </th> 
-   </tr>
-  </thead> 
-  <tbody> 
-   <tr> 
-    <td colname="col1"> PROMO A </td> 
-    <td colname="col2"> $8.66 </td> 
-    <td colname="col3"> $15.00 </td> 
-    <td colname="col4"> $6.66 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> PROMO B </td> 
-    <td colname="col2"> $5.33 </td> 
-    <td colname="col3"> $0.00 </td> 
-    <td colname="col4"> $6.66 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> PROMO C </td> 
-    <td colname="col2"> $1.00 </td> 
-    <td colname="col3"> $0.00 </td> 
-    <td colname="col4"> $1.66 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> Total </td> 
-    <td colname="col2"> $15.00 </td> 
-    <td colname="col3"> $15.00 </td> 
-    <td colname="col4"> $15.00 </td> 
-   </tr> 
-  </tbody> 
- </tgroup> 
-</table> 
-<p> </p> 
-<p><b>After July 19, 2018</b>, [!DNL Analytics] will treat each sequence of conversions independently, meaning linear attribution will no longer carry forward from one conversion to another. In the previous example, attribution will always be treated the same way (regardless of the eVar allocation settings as stated above) and will be calculated as follows: A = (1/2) * 10 = $5, B = (1/2) * 10 = $5, and C = (1/1) * 5 = $5. To summarize: </p> 
-<table id="table_2D39CCD158BF488EA404324DF50B9579"> 
- <tgroup cols="4">
-  <colspec colnum="1" colname="col1" colwidth="*" />
-  <colspec colnum="2" colname="col2" colwidth="*" />
-  <colspec colnum="3" colname="col3" colwidth="*" />
-  <colspec colnum="4" colname="col4" colwidth="*" />
-  <thead> 
-   <tr> 
-    <th colname="col1" class="entry"> Values </th> 
-    <th colname="col2" class="entry"> New Last Touch eVar </th> 
-    <th colname="col3" class="entry"> New First Touch eVar </th> 
-    <th colname="col4" class="entry"> New Prop </th> 
-   </tr>
-  </thead> 
-  <tbody> 
-   <tr> 
-    <td colname="col1"> PROMO A </td> 
-    <td colname="col2"> $5.00 </td> 
-    <td colname="col3"> $5.00 </td> 
-    <td colname="col4"> $5.00 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> PROMO B </td> 
-    <td colname="col2"> $5.00 </td> 
-    <td colname="col3"> $5.00 </td> 
-    <td colname="col4"> $5.00 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> PROMO C </td> 
-    <td colname="col2"> $5.00 </td> 
-    <td colname="col3"> $5.00 </td> 
-    <td colname="col4"> $5.00 </td> 
-   </tr> 
-   <tr> 
-    <td colname="col1"> Total </td> 
-    <td colname="col2"> $15.00 </td> 
-    <td colname="col3"> $15.00 </td> 
-    <td colname="col4"> $15.00 </td> 
-   </tr> 
-  </tbody> 
- </tgroup> 
-</table>
-
- -->
+| PROMOCIÓN A | $5.00 | $5.00 | $5.00 |
+| PROMOCIÓN B | $2.50 | $2.50 | $2.50 |
+| PROMO C | $2.50 | $2.50 | $2.50 |
+| Total | $10.00 | $10.00 | $10.00 |
 
