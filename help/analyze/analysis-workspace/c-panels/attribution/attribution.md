@@ -3,7 +3,7 @@ description: 'null'
 title: Información general del panel de atribución
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ El panel de atribución es una función de [Attribution IQ](../../attribution-iq
 | ![Deterioro de tiempo](assets/time_decay.png) | Declive temporal | Sigue un declive exponencial con un parámetro de semivida personalizado, con un valor predeterminado de 7 días. El valor de cada canal depende de la cantidad de tiempo que transcurra entre el inicio del punto de contacto y la conversión final. La fórmula utilizada para determinar el crédito es `2^(-t/halflife)`, donde `t` es la cantidad de tiempo entre un punto de contacto y una conversión. A continuación, todos los puntos de contacto se normalizan al 100%. | Ideal para equipos que periódicamente ejecutan campañas audiovisuales o que comercializan eventos con una fecha predeterminada. Cuanto más tardía sea la conversión después de un evento de marketing, menor será el crédito. |
 | ![Participación](assets/participation.png) | Participación | Otorga un 100% de crédito a todos los puntos de contacto únicos. El número total de conversiones está incrementado en comparación con otros modelos de atribución. La participación anula la duplicación de los canales vistos varias veces. | Excelente para comprender con qué frecuencia se exponen los clientes a una determinada interacción. Los medios suelen utilizar este modelo para calcular la velocidad de contenido. Los comercios suelen utilizar este modelo para comprender qué partes de sus sitios son esenciales para la conversión. |
 
-> [!NOTE] El siguiente modelo de atribución algorítmica está disponible actualmente en [Adobe Analytics Labs](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) y, finalmente, formará parte de una versión general.
+>[!NOTE] El siguiente modelo de atribución algorítmica está disponible actualmente en [Adobe Analytics Labs](https://docs.adobe.com/content/help/es-ES/analytics/analyze/tech-previews/overview.html) y, finalmente, formará parte de una versión general.
 
 | Icono de la interfaz de usuario | Modelo de atribución | Definición | Uso |
 | --- | --- | --- | --- |
@@ -75,7 +75,7 @@ Según la ventana retrospectiva y el modelo de atribución, los canales reciben 
       * Medio social: 18,6%, 9,32 $
       * Búsqueda de pago: 13,8%, 6,92 $
 
-> [!TIP] Otros eventos de conversión, como pedidos o eventos personalizados, también se dividen si el crédito pertenece a más de un canal. Por ejemplo, si dos canales contribuyen a un evento personalizado mediante un modelo de atribución lineal, ambos canales obtienen 0,5 del evento personalizado. Estas fracciones de evento se suman en todas las visitas y luego se redondean al entero más cercano para los informes.
+>[!TIP] Otros eventos de conversión, como pedidos o eventos personalizados, también se dividen si el crédito pertenece a más de un canal. Por ejemplo, si dos canales contribuyen a un evento personalizado mediante un modelo de atribución lineal, ambos canales obtienen 0,5 del evento personalizado. Estas fracciones de evento se suman en todas las visitas y luego se redondean al entero más cercano para los informes.
 
 ## Uso de la atribución con canales de marketing
 
@@ -97,4 +97,4 @@ Por ejemplo, si crea un VRS y le aplica un segmento “Display Hits”, puede ve
 
 ![Grupo de informes virtuales de solo visualización](assets/vrs-aiq-example.png)
 
-> [!NOTE] Si un segmento suprime las visitas que contengan la métrica, esas instancias de métrica no se atribuirán a ninguna dimensión. Sin embargo, un filtro de informe similar simplemente ocultará algunos valores de dimensión, sin ningún impacto en las métricas procesadas por el modelo de atribución. Como resultado, un segmento y un filtro con definiciones comparables a veces pueden devolver valores inferiores para el segmento.
+>[!NOTE] Si un segmento suprime las visitas que contengan la métrica, esas instancias de métrica no se atribuirán a ninguna dimensión. Sin embargo, un filtro de informe similar simplemente ocultará algunos valores de dimensión, sin ningún impacto en las métricas procesadas por el modelo de atribución. Como resultado, un segmento y un filtro con definiciones comparables a veces pueden devolver valores inferiores para el segmento.
