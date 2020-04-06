@@ -1,48 +1,48 @@
 ---
 title: getTimeSinceLastVisit
-description: Mida la cantidad de tiempo transcurrido entre dos visitas.
+description: Mida el tiempo transcurrido entre dos visitas.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: getTimeSinceLastVisit
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `getTimeSinceLastVisit` complemento le permite rastrear cuánto tiempo ha tardado un visitante en regresar a su sitio después de su última visita.
+El complemento `getTimeSinceLastVisit` le permite rastrear cuánto tiempo ha tardado un visitante en regresar a su sitio después de su última visita.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar getTimeSinceLastVisit
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,22 +57,22 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
  /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `getTimeSinceLastVisit` método no utiliza ningún argumento. Devuelve la cantidad de tiempo transcurrido desde la última vez que el visitante ingresó al sitio, agrupado en el siguiente formato:
+El método `getTimeSinceLastVisit` no utiliza ningún argumento. Devuelve el tiempo transcurrido desde la última vez que el visitante accedió al sitio, agrupado en el siguiente formato:
 
-* El tiempo transcurrido entre 30 minutos y una hora desde la última visita se establece en el valor de referencia de medio minuto más cercano. Por ejemplo, `"30.5 minutes"`, `"53 minutes"`
-* El tiempo entre una hora y un día se redondea al valor de referencia de cuarto de hora más cercano. Por ejemplo, `"2.25 hours"`, `"7.5 hours"`
-* El tiempo bueno que no sea un día se redondea al valor de referencia del día más próximo. Por ejemplo, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
-* Si un visitante no ha visitado antes o el tiempo transcurrido es bueno a dos años, el valor se establece en `"New Visitor"`.
+* Un valor entre 30 minutos y una hora desde la última visita se establece en la referencia de medio minuto más cercana. Por ejemplo, `"30.5 minutes"`, `"53 minutes"`.
+* Un valor entre una hora y un día se redondea a la referencia de cuarto de hora más cercana. Por ejemplo, `"2.25 hours"`, `"7.5 hours"`.
+* Un valor mayor que un día se redondea a la referencia del día más próximo. Por ejemplo, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`.
+* Si es la primera visita de un visitante o si el tiempo transcurrido supera los dos años, el valor se establece en `"New Visitor"`.
 
-> [!NOTE] Este complemento solo devuelve un valor en la primera visita individual de una visita.
+>[!NOTE] Este complemento solo devuelve un valor en la primera visita.
 
 Este complemento crea una cookie de origen denominada `"s_tslv"` establecida en una marca de tiempo Unix de la hora actual. La cookie caduca tras dos años de inactividad.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
 Si un visitante nuevo llega al sitio y el siguiente código se ejecuta en la primera página de la visita...
 
@@ -81,16 +81,16 @@ s.prop1 = s.getTimeSinceLastVisit();
 s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
 ```
 
-...el valor de s.prop1 se establecerá igual a &quot;Nuevo visitante&quot;.
+...el valor de s.prop1 se establecerá en “Nuevo visitante”.
 
-Si el mismo código se ejecuta en el mismo dominio después de 35 minutos de inactividad, el valor de s.prop1 se establecerá en &quot;35 minutos&quot;.
+Si el mismo código se ejecuta en el mismo dominio después de 35 minutos de inactividad, el valor de s.prop1 se establecerá en “35 minutos”.
 
-Si el mismo código se ejecuta en el mismo dominio después de 4 días de inactividad adicional, el valor de s.prop1 se establecerá en &quot;4 días&quot;.
+Si el mismo código se ejecuta en el mismo dominio después de 4 días de inactividad adicional, el valor de s.prop1 se establecerá en “4 días”.
 
 ## Historial de versiones
 
 ### 1.0 (16 de abril de 2018)
 
-* Versión puntual (código recompilado y tamaño más pequeño).
-* Código derivado del `getDaysSinceLastVisit` complemento (ahora obsoleto y con el nombre cambiado).
-* Ahora utiliza `formatTime` y `inList` complementos para el valor devuelto.
+* Versión puntual (código compilado de nuevo y tamaño más pequeño).
+* Código derivado del complemento `getDaysSinceLastVisit` (ahora obsoleto y con un nuevo nombre).
+* Ahora utiliza los complementos `formatTime` y `inList` para el valor devuelto.
