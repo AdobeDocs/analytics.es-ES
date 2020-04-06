@@ -3,7 +3,7 @@ description: 'null'
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -52,7 +52,7 @@ Al abrir un Workspace por primera vez, las plantillas aparecen en el panel izqui
 
 Puede utilizar estas plantillas rellenadas previamente tal como son o adaptarlas a sus necesidades (por ejemplo, agregando o reemplazando métricas o visualizaciones) y guardarlas con un nuevo nombre.
 
-[Plantillas estándar en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+[Plantillas estándar en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
 
 Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a responder.
 
@@ -106,7 +106,7 @@ Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a 
 
 ### Personas
 
-> [!NOTE] La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+>[!NOTE] La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/mcdc-people.html).
 
 Esta plantilla se basa en la métrica Personas, que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. La plantilla le permite
 
@@ -122,7 +122,7 @@ Esta plantilla se basa en la métrica Personas, que es una versión deduplicada 
 
 <!-->This content is mirrored in the CDA doc.<-->
 
-Esta plantilla le permite ver datos de rendimiento vitales entre dispositivos. Solo está disponible para clientes que tienen acceso a [Análisis](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) entre dispositivos (CDA).
+Esta plantilla le permite ver datos de rendimiento vitales entre dispositivos. Solo está disponible para clientes que tienen acceso a [Análisis](https://docs.adobe.com/content/help/es-ES/analytics/components/cda/cda-home.html) entre dispositivos (CDA).
 
 * **Nota especial para los miembros del Gráfico** de Cooperación: Muestra qué parte del grupo de informes contiene visitantes en regiones donde se admite el gráfico de cooperación y en regiones donde no se admite.
 * **Identificación de los usuarios**: Muestra la frecuencia con la que se identifican los visitantes del sitio mediante métodos basados en análisis entre dispositivos.
