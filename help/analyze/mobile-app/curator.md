@@ -1,273 +1,272 @@
 ---
-description: Instrucciones para configurar los cuadros de mandos de la aplicación móvil.
-title: Guía del curador de aplicaciones de Adobe Analytics Mobile
-translation-type: tm+mt
+description: Instrucciones para configurar los informes de valoración de la aplicación móvil.
+title: Guía del gestor de datos de la aplicación móvil de Adobe Analytics
+translation-type: ht
 source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
 
 
-# BETA: Guía del curador para la aplicación móvil de Analytics
+# BETA: Guía del gestor de datos de la aplicación móvil de Adobe Analytics
 
 
 ## Primeros pasos
 
-La aplicación móvil de Adobe Analytics proporciona perspectivas de Adobe Analytics en cualquier momento y lugar.   La aplicación permite a los usuarios acceder desde dispositivos móviles a cuadros de mandos intuitivos que se crean y comparten desde la interfaz de usuario de escritorio de Adobe Analytics. Los cuadros de mando son una colección de métricas clave y otros componentes presentados en un diseño en mosaico que puede tocar para obtener desgloses e informes de tendencias más detallados. Puede adaptar los cuadros de mandos según los datos más importantes. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
+La aplicación móvil de Adobe Analytics proporciona datos de Adobe Analytics en cualquier momento y lugar.   La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos que se crean y comparten desde la interfaz de usuario de Adobe Analytics para escritorio. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
 
 ## Acerca de esta guía
 
-Esta guía está pensada para ayudar a los curadores de datos de Adobe Analytics a configurar Scorecards para sus usuarios ejecutivos en la aplicación móvil de Analytics. Los curadores pueden ser administradores de la organización o personas con otras funciones responsables de la configuración de los cuadros de mandos de la aplicación, lo que permite a los usuarios ejecutivos ver una amplia representación de datos de resumen importantes de forma rápida y sencilla en sus propios dispositivos móviles. Aunque los usuarios ejecutivos son los usuarios finales de la aplicación móvil de Analytics, esta guía ayudará a los curadores de datos a configurar la aplicación de forma eficaz para esos usuarios.
+Esta guía está diseñada para ayudar a los gestores de datos de Adobe Analytics a configurar informes de valoración para sus usuarios ejecutivos en la aplicación móvil de Analytics. Los gestores de datos pueden ser administradores de la organización o personas con otras funciones. Son responsables de la configuración de los informes de valoración de la aplicación, lo que permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes. Aunque los usuarios ejecutivos son los usuarios finales de la aplicación móvil de Analytics, esta guía ayudará a los gestores de datos a configurar la aplicación de forma eficaz para estos usuarios.
 
 
 ## Glosario de términos
 
-En la tabla siguiente se describen los términos para comprender la audiencia, las funciones y el funcionamiento de la aplicación móvil de Analytics.
+En la siguiente tabla se describen los términos para comprender la audiencia, las funciones y el funcionamiento de la aplicación móvil de Analytics.
 
 | Término | Definición |
 |--- |--- |
-| Consumidor | Persona ejecutiva que ve métricas clave y perspectivas de Analytics en un dispositivo móvil |
-| Curador | Persona alfabetizada de datos que busca y distribuye perspectivas de Analytics y configura los cuadros de mandos para que los vea el consumidor |
-| Revisión | Acto de crear o editar un cuadro de mandos móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
-| Cuadro de mandos | Vista de aplicación móvil que contiene uno o más mosaicos |
-| Mosaico | Representación de una métrica dentro de una vista Cuadro de mandos |
-| Desglosar | Una vista secundaria a la que se puede acceder tocando un mosaico en el cuadro de mandos. Esta vista se expande en la métrica mostrada en el mosaico y, opcionalmente, informa sobre dimensiones de desglose adicionales. |
-| Intervalo de fechas | El intervalo de fechas principal para los informes de aplicaciones móviles |
-| Intervalo de fechas de comparación | Intervalo de fechas que se compara con el intervalo de fechas principal |
+| Consumidor | Ejecutivo que ve métricas clave y datos de Analytics en un dispositivo móvil |
+| Gestor de datos | Experto que busca y distribuye datos de Analytics y que configura los informes de valoración que verá el consumidor |
+| Gestión de datos | Acto de crear o editar un informe de valoración móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
+| informe de valoración | Vista de la aplicación móvil que contiene uno o más mosaicos |
+| Mosaico | Representación de una métrica en una vista del informe de valoración |
+| Desglose | Una vista secundaria a la que se puede acceder pulsando un mosaico del informe de valoración. Esta vista ofrece más información sobre la métrica que aparece en el mosaico y, opcionalmente, sobre dimensiones de desglose adicionales. |
+| Intervalo de fecha | El intervalo de fecha principal para la creación de informes de la aplicación móvil |
+| Intervalo de fecha de comparación | Intervalo de fecha que se compara con el intervalo de fecha principal |
 
  
-## Creación de un cuadro de mandos para usuarios ejecutivos
+## Creación de un informe de valoración para los usuarios ejecutivos
 
-Un cuadro de mandos móvil muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, como se muestra a continuación:
-
-
-![Ejemplo de cuadro de mandos](assets/intro_scorecard.png)
+Un informe de valoración móvil muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, tal y como se muestra a continuación:
 
 
-Como curador de este cuadro de mandos, puede utilizar el Generador de cuadros de mando para configurar los mosaicos que aparecen en el cuadro de mandos para su consumidor. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses una vez tocados los mosaicos. La interfaz del Generador de cuadros de mando se muestra a continuación:
-
-![Generador de cuadros de mando](assets/scorecard_builder.png)
+![Ejemplo de informe de valoración](assets/intro_scorecard.png)
 
 
-Para crear el cuadro de mandos, deberá hacer lo siguiente:
+Como gestor, puede utilizar el Generador de informes de valoración para configurar los mosaicos que aparecerán en el informe de valoración de su consumidor. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. La interfaz del Generador de informes de valoración se muestra a continuación:
 
-1. Acceda a la plantilla Cuadro de mandos móvil en blanco.
-2. Configure el cuadro de mandos con datos y guárdelo.
-
-
-### Acceso a la plantilla Cuadro de mandos móvil en blanco
-
-Puede acceder a la plantilla Cuadro de mandos móvil en blanco de una de las siguientes formas:
-
-**Crear un nuevo proyecto**
-
-1. Abra Adobe Analytics y haga clic en la ficha **Espacio de trabajo** .
-2. Haga clic en el botón **Crear nuevo proyecto** y seleccione la plantilla de proyecto de cuadro de mando móvil **en blanco** .
-3. Click the **Create** button.
-
-![Plantilla Cuadro de mandos](assets/new_template.png)
+![Generador de informes de valoración](assets/scorecard_builder.png)
 
 
-*Nota: Si no ve la plantilla Cuadro de mandos móvil en blanco, como se muestra a continuación, su empresa aún no se ha activado para la versión beta. Comuníquese con el administrador de servicio al cliente.*
+Para crear un informe de valoración, deberá hacer lo siguiente:
+
+1. Seleccione la plantilla informe de valoración móvil en blanco.
+2. Configure el informe de valoración con datos y guárdelo.
+
+
+### Selección de la plantilla informe de valoración móvil en blanco
+
+Puede tener acceso a la plantilla informe de valoración móvil en blanco de una de las siguientes formas:
+
+**Creación de un nuevo proyecto**
+
+1. Abra Adobe Analytics y haga clic en la ficha **Espacio de trabajo**.
+2. Haga clic en el botón **Crear nuevo proyecto** y seleccione la plantilla de proyecto **informe de valoración móvil en blanco**.
+3. Haga clic en el botón **Crear**.
+
+![Plantilla del informe de valoración](assets/new_template.png)
+
+
+*Nota: si no ve la plantilla informe de valoración móvil en blanco como se muestra a continuación, quiere decir que aún no se ha activado a su empresa para la versión beta. Póngase en contacto con el encargado de servicio al cliente.*
 
 
 **Agregar un proyecto**
 
-En la pantalla **Proyectos** , en la ficha **Componentes** , haga clic en el botón **Agregar** y seleccione Cuadro de mandos **móvil**.
+En la pantalla **Proyectos**, en la ficha **Componentes**, haga clic en el botón **Agregar** y seleccione **informe de valoración móvil**.
 
 ![Agregar proyectos](assets/add_project.png)
 
 **Uso de las herramientas de Analytics**
 
-En Analytics, haga clic en el menú **Herramientas** y seleccione Aplicación **móvil**. En la pantalla siguiente, haga clic en el botón **Crear cuadro de mandos** .
+En Analytics, haga clic en el menú **Herramientas** y seleccione **Aplicación móvil**. En la pantalla siguiente, haga clic en el botón **Crear informe de valoración**.
 
-### Configurar el cuadro de mandos con datos y guardarlo
+### Configure el informe de valoración con datos y guárdelo
 
-Para implementar la plantilla Cuadro de mandos:
+Para implementar la plantilla del informe de valoración:
 
-1. En **Propiedades** (en el carril derecho), especifique un grupo **de informes de** proyecto desde el que desee utilizar los datos.
+1. En **Propiedades** (en el carril derecho), especifique el **grupo de informes de proyecto** cuyos datos quiera utilizar.
 
-   ![Selección de grupos de informes](assets/properties_save.png)
+   ![Selección del grupo de informes](assets/properties_save.png)
 
-2. Para agregar un nuevo mosaico al cuadro de mandos, arrastre una métrica desde el panel izquierdo y suéltela en la zona **Arrastrar y soltar métricas aquí** . También puede insertar una métrica entre dos mosaicos mediante un flujo de trabajo similar.
+2. Para agregar un nuevo mosaico al informe de valoración, arrastre una métrica desde el panel izquierdo y suéltela en la zona **Arrastrar y soltar métricas aquí**. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
    ![Agregar mosaicos](assets/build_list.png)
 
 
-   *Desde cada mosaico, puede acceder a una vista detallada que muestra información adicional sobre la métrica, como elementos principales para una lista de dimensiones relacionadas.*
+   *Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.*
 
 
-3. Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico. Por ejemplo, puede agregar dimensiones adecuadas (como Región **** DMA, en este ejemplo) a la métrica Visitantes **** únicos arrastrándola y soltándola en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de **Propiedades** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
+3. Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico. Por ejemplo, puede agregar dimensiones pertinentes (como **Región DMA** en este ejemplo) a la métrica **Visitantes únicos** arrastrándolas y soltándolas en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de las **Propiedades** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
 
    ![Agregar dimensiones](assets/layer_dimensions.png)
 
-   *Nota: También puede agregar una dimensión a todos los mosaicos soltándola en el lienzo Cuadro de mandos.*
+   *Nota: también puede agregar una dimensión a todos los mosaicos soltándola en el lienzo del informe de valoración.*
 
-   Al hacer clic en un mosaico en el Generador de cuadros de mandos, el carril derecho muestra las propiedades y características asociadas con ese mosaico. En este carril, puede proporcionar un nuevo **Título** para el mosaico y, de forma alternativa, configurar el mosaico especificando componentes en lugar de arrastrarlos y soltarlos desde el carril izquierdo.
+   Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **Título** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
 
 
-   Además, si hace clic en mosaicos, una ventana emergente dinámica mostrará cómo el usuario ejecutivo de la aplicación verá la vista Desglose. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fechas predeterminado.
+   Además, si hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Desglose el usuario ejecutivo de la aplicación. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
    ![Breakdown_view](assets/break_view.png)
 
-   *Observe cómo cada dimensión agregada al mosaico se mostrará en una lista desplegable en la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones enumeradas en la lista desplegable.*
+   *Tenga en cuenta que cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.*
 
-4. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del cuadro de mandos, coloque el mosaico encima del cuadro de mandos.
+4. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración.
 
-5. Del mismo modo, para eliminar un componente que se aplique a todo el cuadro de mandos, haga clic en cualquier lugar del cuadro de mandos fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento Clientes **** móviles:
+5. Del mismo modo, para eliminar un componente que se aplique a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Clientes móviles**:
 
    ![Remove_components](assets/new_remove.png)
 
-6. En **Propiedades** de cuadro de mandos, también puede especificar de forma opcional lo siguiente:
+6. En **Propiedades** del informe de valoración, también puede especificar de forma opcional lo siguiente:
 
-   * Un Intervalo **De Fechas** Predeterminado. Los intervalos que especifique aquí serán los mismos que se aplican al primer acceso del usuario ejecutivo al cuadro de mandos en su aplicación.
+   * Un **intervalo de fecha predeterminado**. Los intervalos que especifique aquí serán los mismos que se aplicarán cuando el usuario ejecutivo acceda por primera vez al informe de valoración en su aplicación.
 
-   * Intervalo de fechas de **comparación**
+   * Un **intervalo de fecha de comparación**
 
-   * Cualquier **segmento** que se aplique a todo el cuadro de mandos
+   * Cualquier **segmento** que se aplique a todo el informe de valoración
 
-7. Para asignar un nombre al cuadro de mandos, haga clic en el espacio de nombres en la parte superior izquierda de la pantalla y escriba el nuevo nombre.
+7. Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
    ![Naming_Scorecards](assets/new_name.png)
 
-## Compartir el cuadro de mandos
+## Uso compartido del informe de valoración
 
-Para compartir cuadro de mandos con un usuario ejecutivo:
+Para compartir el informe de valoración con un usuario ejecutivo:
 
-1. Haga clic en el menú **Compartir** y seleccione **Compartir cuadro de mandos**.
+1. Haga clic en el menú **Compartir** y seleccione **Compartir informe de valoración**.
 
-2. En el formulario **Compartir** , complete los campos de la siguiente manera:
+2. En el formulario **Compartir**, rellene los campos de la siguiente manera:
 
-   * Proporcionar el nombre del cuadro de mandos
-   * Proporcionar una descripción del cuadro de mandos
-   * Adición de etiquetas relevantes
-   * Especificación de los destinatarios para el cuadro de mandos
-   * Seleccione la opción para **compartir componentes incrustados con destinatarios** para asegurarse de que el usuario ejecutivo tiene acceso a todos los componentes del cuadro de mandos.
+   * Proporcione el nombre al informe de valoración
+   * Proporcione una descripción del informe de valoración
+   * Añada las etiquetas relevantes
+   * Especificación de los destinatarios del informe de valoración
+   * Seleccione la opción **Compartir componentes incrustados con los destinatarios** para asegurarse de que el usuario ejecutivo tenga acceso a todos los componentes del informe de valoración.
 
 3. Haga clic en **Compartir**.
 
 ![Share_Scorecards](assets/new_share.png)
 
 
-Una vez que haya compartido un cuadro de mandos, los destinatarios podrán acceder a él en su aplicación móvil de Analytics. Si realiza cambios posteriores en el cuadro de mandos en el Generador de cuadros de mando, se actualizarán automáticamente en el cuadro de mando compartido. Los usuarios ejecutivos verán los cambios después de actualizar el cuadro de mandos en su aplicación.
+Una vez que haya compartido un informe de valoración, los destinatarios podrán acceder a él en su aplicación móvil de Analytics. Si realiza cambios posteriores en el informe de valoración mediante el Generador de informes de valoración, estos se aplicarán automáticamente al informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
 
-*Nota: Si actualiza el cuadro de mandos agregando nuevos componentes, es posible que desee volver a compartir el cuadro de mandos (y marcar la opción Compartir **automáticamente componentes incrustados con destinatarios**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.*
+*Nota: Si agrega nuevos componentes al informe de valoración, es posible que desee volver a compartirlo (marque la opción **Compartir automáticamente componentes incrustados con los destinatarios**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.*
 
-## Configurar usuarios ejecutivos con la aplicación
+## Configuración de los usuarios ejecutivos de la aplicación
 
-En algunos casos, los usuarios ejecutivos pueden necesitar asistencia adicional para acceder a la aplicación y utilizarla. Esta sección proporciona información para ayudarle a proporcionar esa asistencia.
+En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicional para acceder a la aplicación y utilizarla. Esta sección presenta información que le ayudará a proporcionar esa asistencia.
 
-### Ayudar a los usuarios ejecutivos a obtener acceso
+### Ayudar a los usuarios ejecutivos a acceder a la aplicación
 
-Para ayudar a los usuarios ejecutivos a acceder a sus cuadros de mandos en la aplicación, asegúrese de que:
+Para ayudar a los usuarios ejecutivos a acceder en la aplicación a los informes de valoración que ha creado, asegúrese de que:
 
-* Los requisitos mínimos del sistema operativo móvil en sus dispositivos son iOS versión 10 o superior, o Android versión 4.4 (KitKat) o superior
-* Tienen un inicio de sesión válido en Adobe Analytics
-* Ha creado correctamente cuadros de mandos móviles para ellos y comparte estos cuadros de mandos con ellos.
-* Tienen acceso a Analysis Workspace y al grupo de informes en el que se basa el cuadro de mandos
-* Tienen acceso a los componentes que incluye el cuadro de mandos. Nota: Puede seleccionar una opción al compartir los cuadros de mandos para compartir **automáticamente los componentes incrustados con los destinatarios**.
+* El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior
+* Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics
+* Haya creado y compartido correctamente los informes de valoración móviles de los usuarios.
+* Los usuarios tengan acceso a Analysis Workspace y al grupo de informes en el que se basa el informe de valoración
+* Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Nota: Al compartir los informes de valoración, puede seleccionar la opción **Compartir automáticamente los componentes incrustados con los destinatarios**.
 
 ### Ayudar a los usuarios ejecutivos a utilizar la aplicación
 
-Durante la fase beta y antes de que la aplicación se muestre al público, puede controlar quién tiene acceso a la aplicación.
+Durante la fase beta y antes de que la aplicación se publique, puede controlar quién tiene acceso a la aplicación.
 
-1. Ayuda a los usuarios ejecutivos a descargar e instalar la aplicación. Para ello, proporcione los siguientes pasos para ampliar el acceso a los usuarios ejecutivos, en función de si utilizan un iOS o un dispositivo Android.
+1. Ayudar a los usuarios ejecutivos a descargar e instalar la aplicación. Siga los siguientes pasos para ampliar el acceso a los usuarios ejecutivos, en función de si utilizan un dispositivo iOS o Android.
 
-   **Para usuarios ejecutivos en iOS:**
+   **Para usuarios ejecutivos con iOS:**
 
-   1. Haga clic en el siguiente vínculo público (también está disponible en Analytics en **Herramientas** &gt; Aplicación **** móvil):
+   1. Haga clic en el siguiente vínculo público (también está disponible en Analytics en **Herramientas** > **Aplicación móvil**):
 
-      [Vínculo](https://testflight.apple.com/join/WtXMQxlI)de iOS: `https://testflight.apple.com/join/WtXMQxlI`
+      [Vínculo de iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
-      Después de hacer clic en el vínculo, aparece la siguiente pantalla de prueba:
+      Después de hacer clic en el vínculo, aparecerá la siguiente pantalla de Testflight:
 
-      ![Pantalla de prueba](assets/testflight1.png)
+      ![Pantalla de Testflight](assets/testflight1.png)
 
-   2. Toque el vínculo **Ver en App Store** en la pantalla para descargar la aplicación Testflight.
+   2. En la pantalla, pulse el vínculo **Ver en App Store** para descargar la aplicación Testflight.
 
-   3. Después de instalar la aplicación Testflight, busque e instale la aplicación móvil de Adobe Analytics en Testflight, como se muestra a continuación:
+   3. Después de instalar la aplicación Testflight, busque e instale la aplicación móvil de Adobe Analytics en Testflight como se muestra a continuación:
 
-      ![Pantalla de prueba](assets/testflight2.png)
-      
-   **Para usuarios ejecutivos en Android:**
+      ![Pantalla de Testflight](assets/testflight2.png)
+   **Para usuarios ejecutivos con Android:**
 
-   1. Toque el siguiente vínculo de Play Store en el dispositivo del usuario (también está disponible en Analytics en **Herramientas** &gt; Aplicación ****móvil):
+   1. Pulse el siguiente enlace de la Play Store en el dispositivo del usuario (también disponible en Analytics en **Herramientas** > **Aplicación móvil**):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-      Después de tocar el vínculo, toque el vínculo Convertir en probador en la siguiente pantalla:
+      Después de pulsar el enlace, seleccione “Convertirse en evaluador” en la siguiente pantalla:
 
-      ![Pantalla Play Store](assets/play.png)
+      ![Pantalla de la Play Store](assets/play.png)
 
-   2. Toque el vínculo **descargarlo en Google Play** en la siguiente pantalla:
+   2. Pulse el enlace **descargar en Google Play** en la siguiente pantalla:
       ![Vínculo de descarga](assets/playnext.png)
 
    3. Descargue e instale la aplicación.
-Una vez descargado e instalado, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics existentes; admitimos Adobe ID y Enterprise ID.
+Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics; la aplicación es compatible con Adobe ID y con Enterprise/Federated ID.
    ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
-2. Ayudarles a acceder a su cuadro de mandos. Después de que los usuarios ejecutivos inicien sesión en la aplicación, aparece la pantalla **Elegir una empresa** . Esta pantalla enumera las empresas de inicio de sesión a las que pertenece el usuario ejecutivo. Para ayudarles a acceder al cuadro de mandos:
+2. Ayudar a los usuarios a acceder al informe de valoración que ha creado. Después de que los usuarios ejecutivos inicien sesión en la aplicación, aparecerá la pantalla **Elegir una empresa**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo. Para ayudarles a acceder al informe de valoración:
 
-   * Toque el nombre de la empresa de inicio de sesión o de la organización de Experience Cloud que se aplica al cuadro de mandos que ha compartido. A continuación, la lista Cuadro de mandos muestra todos los cuadros de mando que se han compartido con el ejecutivo en esa empresa de inicio de sesión.
-   * Ayudarles a ordenar esta lista por **Últimas modificaciones**, si corresponde.
-   * Toque el nombre del cuadro de mandos para verlo.
+   * Pulse el nombre de la empresa de inicio de sesión o de la organización de Experience Cloud con la que acceder al informe de valoración que ha compartido. A continuación, la lista de informes de valoración muestra todos los informes de valoración que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
+   * Ayude al usuario ejecutivo a ordenar esta lista por **Últimas modificaciones**, si procede.
+   * Pulse el nombre de un informe de valoración para verlo.
    ![Seleccione una empresa](assets/accesscard.png)
 
-   Nota: Si el usuario ejecutivo inicia sesión y ve un mensaje que dice que no se ha compartido nada:
+   Nota: Si el usuario ejecutivo inicia sesión y ve un mensaje que indica que no se ha compartido nada:
 
    * Es posible que el usuario ejecutivo haya seleccionado una instancia incorrecta de Analytics
-   * Es posible que el cuadro de mandos no se haya compartido con el usuario ejecutivo
+   * Es posible que el informe de valoración no se haya compartido con el usuario ejecutivo
 
-      ![Nada compartido](assets/nothing.png)
-   Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia de Analytics correcta y que se ha compartido el cuadro de mandos.
+      ![No se ha compartido nada](assets/nothing.png)
+   Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
-3. Explicar al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de mandos compartidos.
+3. Explicar al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración compartidos.
 
-   ![Explicar mosaicos](assets/newexplain.png)
-
-
-   Información adicional sobre mosaicos:
-
-   * La granularidad de los minigráficos depende de la longitud del intervalo de fechas:
-      * Un día muestra una tendencia por hora
-      * Más de un día y menos de un año muestran una tendencia diaria
-      * Un año o más muestra una tendencia semanal
-   * La fórmula de cambio de valor porcentual es el total de la métrica (intervalo de fechas actual) - total de la métrica (intervalo de fechas de comparación) / total de la métrica (intervalo de fechas de comparación).
-   * Puede bajar la pantalla para actualizar el cuadro de mandos.
+   ![Explicación de los mosaicos](assets/newexplain.png)
 
 
-4. Toque un mosaico para mostrar el funcionamiento de un desglose detallado del mosaico.
+   Información adicional sobre los mosaicos:
+
+   * La granularidad de los minigráficos depende de la longitud del intervalo de fecha:
+      * Si se selecciona un día se muestra una tendencia horaria
+      * Si se selecciona más de un día y menos de un año se muestra una tendencia diaria
+      * Si se selecciona un año o más se muestra una tendencia semanal
+   * La fórmula de la variación del valor porcentual es el total de la métrica (intervalo de fecha actual) – el total de la métrica (intervalo de fecha de comparación) / el total de la métrica (intervalo de fecha de comparación).
+   * Puede arrastrar la pantalla hacia abajo para actualizar el informe de valoración.
+
+
+4. Pulse un mosaico para mostrar el funcionamiento de un desglose detallado del mosaico.
 
    ![Vista de desglose](assets/sparkline.png)
 
 
-5. Para cambiar los intervalos de fechas del cuadro de mandos:
+5. Cambiar los intervalos de fecha del informe de valoración:
 
-   ![Cambiar fechas](assets/changedate.png)
+   ![Cambio de fechas](assets/changedate.png)
 
-   *Nota: También puede cambiar los intervalos de fechas dentro de la vista Desglosar que se muestra arriba de la misma manera.*
+   *Nota: También puede cambiar los intervalos de fechas del mismo modo en la vista Desglosar que se muestra arriba.*
 
-   Según el intervalo que toque (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: el intervalo de tiempo actual o el que le preceda inmediatamente. Toque una de estas dos opciones para seleccionar el primer rango. En la lista **COMPARAR con** , toque una de las opciones presentadas para comparar los datos de este período de tiempo con el primer intervalo de fechas seleccionado. Puntee **Listo** en la parte superior derecha de la pantalla. El campo **Intervalos** de fechas y los mosaicos Cuadro de mandos se actualizan con los nuevos datos de comparación de los nuevos rangos seleccionados.
+   Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **COMPARAR CON**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **Listo** en la parte superior derecha de la pantalla. El campo **Intervalos de fecha** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
 6. Para dejar comentarios sobre esta aplicación:
 
-   1. Toque el icono de usuario en la parte superior derecha de la pantalla de la aplicación.
-   2. En la pantalla **Mi cuenta** , toque la opción **Comentarios** .
-   3. Toque para ver las opciones para dejar comentarios.
-   ![Dejar comentarios](assets/feedback.png)
+   1. Pulse el icono de usuario en la parte superior derecha de la pantalla de la aplicación.
+   2. En la pantalla **Mi cuenta**, pulse la opción **Comentarios**.
+   3. Pulse para ver las opciones que existen para dejar comentarios.
+   ![Escribir comentarios](assets/feedback.png)
    ![Opciones de comentarios](assets/feedback_option.png)
 
 
 **Para informar de un error**:
 
-Toque la opción y elija una subcategoría del error. En el formulario para informar de un error, proporcione su dirección de correo electrónico en el campo superior y su descripción del error en el campo debajo. Se adjunta automáticamente al mensaje una captura de pantalla de la información de la cuenta, pero puede eliminarla si lo desea tocando la **X** en la imagen adjunta. También tiene opciones para grabar una pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar el informe, toque el icono del plano de papel en la parte superior derecha del formulario.
+Pulse la opción y selecciona la subcategoría del error. En el formulario para informar de un error, escriba su dirección de correo electrónico en el campo superior y una descripción del error en el campo inferior. Al mensaje se adjunta automáticamente una captura de pantalla de la información de su cuenta, pero puede eliminarla si lo desea tocando la **X** de la imagen adjunta. También tiene la opción de grabar la pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar el informe, pulse el icono del avión de papel en la parte superior derecha del formulario.
 
 
-![Error de informe](assets/newbug.png)
+![Informar de un error](assets/newbug.png)
 
 **Para sugerir una mejora**:
 
-Toque la opción y elija una subcategoría para la sugerencia. En el formulario de sugerencias, proporcione su dirección de correo electrónico en el campo superior y su descripción del error en el campo debajo. Se adjunta automáticamente al mensaje una captura de pantalla de la información de la cuenta, pero puede eliminarla si lo desea tocando la **X** en la imagen adjunta. También tiene opciones para grabar una pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar la sugerencia, toque el icono de plano de papel en la parte superior derecha del formulario.
+Pulse la opción y elija una subcategoría para la sugerencia. En el formulario de sugerencias, escriba su dirección de correo electrónico en el campo superior y una descripción del error en el campo inferior. Al mensaje se adjunta automáticamente una captura de pantalla de la información de su cuenta, pero puede eliminarla si lo desea tocando la **X** de la imagen adjunta. También tiene la opción de grabar la pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar la sugerencia, pulse el icono del avión de papel en la parte superior derecha del formulario.
 
 **Para hacer una pregunta**:
 
-Puntee en la opción y proporcione su dirección de correo electrónico en el campo superior y su pregunta en el campo inferior. Se adjunta automáticamente una captura de pantalla al mensaje, pero puede eliminarla si lo desea tocando la **X** en la imagen adjunta. También tiene opciones para grabar una pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar la pregunta, toque el icono de plano de papel en la parte superior derecha del formulario.
+Pulse la opción y escriba su dirección de correo electrónico en el campo superior y su pregunta en el campo inferior. Al mensaje se adjunta automáticamente una captura de pantalla, pero puede eliminarla si lo desea tocando la **X** de la imagen adjunta. También tiene la opción de grabar la pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar la pregunta, pulse el icono del avión de papel en la parte superior derecha del formulario.
