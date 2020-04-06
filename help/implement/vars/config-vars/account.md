@@ -2,16 +2,16 @@
 title: account
 description: Utilice la variable de cuenta para determinar el grupo de informes al que se envían los datos.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # account
 
-> [!IMPORTANT] Esta variable está retirada. Utilice la [`s.sa()`](../functions/sa-method.md) función si la implementación requiere que modifique el destino del grupo de informes.
+>[!IMPORTANT] Esta variable está retirada. Utilice la función [`s.sa()`](../functions/sa-method.md) si la implementación requiere que modifique el destino del grupo de informes.
 
-En versiones anteriores de Adobe Analytics, la `account` variable determinaba el grupo de informes al que se desea enviar los datos. Se requiere un ID de grupo de informes para enviar datos a Adobe Analytics.
+En versiones anteriores de Adobe Analytics, la variable `account` determinaba el grupo de informes al que desee enviar los datos. Se requiere un ID de grupo de informes para enviar datos a Adobe Analytics.
 
-* Si utiliza Adobe Experience Platform Launch, los grupos de informes residen bajo el [!UICONTROL Library Management] acordeón al configurar la extensión de Adobe Analytics.
-* Si utiliza la [`s_gi()`](../functions/s-gi.md) función para crear una instancia de un objeto de seguimiento de Analytics, la ID del grupo de informes ya existe como argumento requerido en la función.
+* If you use Adobe Experience Platform Launch, report suites reside under the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
+* Si utiliza la función [`s_gi()`](../functions/s-gi.md) para crear una instancia de un objeto de seguimiento de Analytics, el ID del grupo de informes ya existe como argumento requerido en la función.
