@@ -2,7 +2,7 @@
 title: Asignación de elementos de datos de Launch a variables de Analytics
 description: Asigne elementos de datos a variables de Analytics para que pueda utilizarlos como dimensiones en el área de Análisis.
 translation-type: tm+mt
-source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ Las variables globales son ideales en los casos en los que desee establecer valo
 
 ### Establecer variables en reglas
 
-Las variables configuradas en las reglas son ideales en los casos en los que no desee que se configuren variables en todas las páginas. Los criterios se definen en la regla. See [Rules](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+Las variables configuradas en las reglas son ideales en los casos en los que no desee que se configuren variables en todas las páginas. Los criterios se definen en la regla. See [Rules](https://docs.adobe.com/content/help/es-ES/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
 1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
 1. Haga clic en la propiedad Launch que desee.
@@ -43,7 +43,7 @@ Las variables configuradas en las reglas son ideales en los casos en los que no 
 1. Seleccione el elemento de datos deseado en la ventana modal. Haga clic en [!UICONTROL Select].
 1. El nombre del elemento de datos se agrega al campo de texto rodeado de `%` signos. Por ejemplo, si le asignara al elemento de datos el nombre &quot;Nombre de página&quot;, vería la cadena `%Page name%` al asignar un elemento de datos a una variable.
 
-> [!TIP] Puede concatenar elementos de datos en la misma variable. Por ejemplo, si tiene un elemento de datos &quot;Nombre de host&quot; y un elemento de datos &quot;Nombre de ruta&quot;, puede combinar ambos en una sola variable mediante `%Hostname%%Pathname%`.
+>[!TIP] Puede concatenar elementos de datos en la misma variable. Por ejemplo, si tiene un elemento de datos &quot;Nombre de host&quot; y un elemento de datos &quot;Nombre de ruta&quot;, puede combinar ambos en una sola variable mediante `%Hostname%%Pathname%`.
 
 ## Pasos siguientes
 
