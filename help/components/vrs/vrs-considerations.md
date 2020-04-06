@@ -4,8 +4,8 @@ keywords: Virtual Report Suite,VRS
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -16,7 +16,7 @@ Los grupos de informes virtuales (VRS) le permiten ver datos de un grupo de info
 
 En muchos casos, puede utilizar grupos de informes virtuales para reemplazar el etiquetado de grupos múltiples. Cambiar a grupos de informes virtuales puede eliminar de forma efectiva la necesidad de realizar [llamadas secundarias al servidor](/help/admin/c-server-call-usage/overage-overview.md). Por ejemplo: su organización tiene 6 sitios web diferentes, cada uno de los cuales envía datos a su propio grupo de informes, así como a un grupo de informes globales combinados. Cada sitio realiza una llamada secundaria al servidor, una al grupo de informes de marca individual y otra al grupo de informes globales. En su lugar, puede enviar datos de todos los sitios únicamente al grupo de informes globales y, a continuación, utilizar varios grupos de informes virtuales para separar cada marca.
 
-La sustitución del etiquetado de grupos múltiples con un grupo de informes globales y VRS permite simplificar la implementación de Adobe Analytics y reducir el consumo de llamadas al servidor. Además, se aconseja como práctica recomendada. Sin embargo, hay algunas limitaciones importantes del VRS que hay que tener en cuenta. Las siguientes directrices le ayudarán a decidir si la implementación de grupos de informes virtuales creados en un grupo de informes global es la estrategia adecuada.
+La sustitución del etiquetado de grupos múltiples con un grupo de informes globales y VRS permite simplificar la implementación de Adobe Analytics y reducir el consumo de llamadas al servidor. Además, se aconseja como práctica recomendada. Sin embargo, hay algunas limitaciones importantes del VRS que hay que tener en cuenta. Las siguientes directrices pueden ayudarle a decidir si la implementación de grupos de informes virtuales creados en un grupo de informes globales es el enfoque adecuado para usted.
 
 ## Directrices
 
@@ -52,7 +52,7 @@ Cada sitio tiene diferentes necesidades de implementación. Algunas dimensiones 
 
 Asegúrese de que el número de dimensiones y métricas únicas se pueda ajustar a un único grupo de informes globales. Si descubre que hay demasiadas dimensiones o métricas únicas, revise cada dimensión dentro de cada implementación. Es probable que haya superposición y dimensiones que no sean cruciales para el éxito del negocio. Considere también utilizar [las clasificaciones](/help/components/c-classifications2/c-classifications.md). Por ejemplo, en lugar de capturar el “Nombre de producto” en eVar5, cree una clasificación de “Nombre de producto” basada en la dimensión “Producto”. Las clasificaciones de un grupo de informes de origen están disponibles automáticamente para todos los grupos de informes virtuales dependientes.
 
-> [!TIP] Con la introducción de la [protección](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), puede cambiar el nombre de una dimensión o métrica determinada por VRS.
+>[!TIP] Con la introducción de la [protección](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), puede cambiar el nombre de una dimensión o métrica determinada por VRS.
 
 ### Matices de segmentación
 
@@ -82,7 +82,7 @@ Por ejemplo, solo se permite un DCM de Google por grupo de informes. Muchas empr
 
 Las fuentes de datos de resumen le permiten importar métricas agregadas a nivel de grupo de informes a Adobe Analytics. Debido a que las cargas de fuentes de datos de resumen contienen métricas agregadas, no se pueden segmentar. Dado que el VRS funciona mediante la segmentación, todos los datos importados mediante fuentes de datos de resumen no están disponibles en los grupos de informes virtuales. Las fuentes de datos de resumen solo están visibles en el grupo de informes de origen.
 
-> [!TIP] Las fuentes de datos de procesamiento completo admiten la segmentación y pueden utilizarse en grupos de informes virtuales.
+>[!TIP] Las fuentes de datos de procesamiento completo admiten la segmentación y pueden utilizarse en grupos de informes virtuales.
 
 ## Pasos a seguir si ha decidido utilizar VRS
 
