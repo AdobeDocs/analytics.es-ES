@@ -2,35 +2,35 @@
 title: visitorNameSpace
 description: Variable retirada que determinó el dominio de la cookie.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # visitorNamespace
 
-> [!IMPORTANT] Esta variable está retirada. Use [`trackingServer`](trackingserver.md) en su lugar.
+>[!IMPORTANT] Esta variable está retirada. Utilice [`trackingServer`](trackingserver.md) en su lugar.
 
-En versiones anteriores de Adobe Analytics, AppMeasurement utilizaba la `visitorNameSpace` variable para determinar el subdominio del `2o7.net` lugar donde se almacenan las cookies de los visitantes. El aumento de las prácticas de privacidad en los exploradores modernos hace que las cookies de terceros sean menos confiables. Con la introducción de las `trackingServer` variables y [`trackingServerSecure`](trackingserversecure.md) , ya no `visitorNameSpace` es necesario.
+En versiones anteriores de Adobe Analytics, AppMeasurement utilizaba la variable `visitorNameSpace` para ayudar a determinar el subdominio de `2o7.net` donde se almacenan las cookies de los visitantes. El aumento de las prácticas de privacidad en los exploradores modernos hace que las cookies de terceros sean menos fiables. Con la introducción de las variables `trackingServer` y [`trackingServerSecure`](trackingserversecure.md), ya no es necesario `visitorNameSpace`.
 
-> [!TIP] Adobe recomienda el uso de cookies de origen en el sitio. Las cookies de origen no utilizan esta variable.
+>[!TIP] Adobe recomienda el uso de cookies de origen en el sitio. Las cookies de origen no utilizan esta variable.
 
 ## Espacio de nombres de visitante en Adobe Experience Platform Launch
 
 [!UICONTROL Visitor Namespace] es un campo bajo el [!UICONTROL Cookies] acordeón al configurar la extensión de Adobe Analytics.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Haga clic en la propiedad que desee.
-3. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de Adobe Analytics.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+2. Haga clic en la propiedad deseada.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expanda el [!UICONTROL Cookies] acordeón, que muestra el [!UICONTROL Visitor Namespace] campo.
 
-Adobe recomienda no utilizar este campo. Utilice `trackingServer` y `trackingServerSecure` en su lugar.
+Adobe recomienda evitar este campo. Utilice `trackingServer` y `trackingServerSecure` en su lugar.
 
-## s.visitorNamespace en el editor de código personalizado AppMeasurement e Launch
+## s.visitorNamespace en el editor de código personalizado de AppMeasurement y Launch
 
-La `s.visitorNamespace` variable es una cadena que contiene un valor único por organización. Las bibliotecas antiguas de AppMeasurement incluían automáticamente este valor único al descargarlo de versiones anteriores de Adobe Analytics. Las bibliotecas actuales de AppMeasurement no utilizan esta variable a menos `trackingServer` que `trackingServerSecure` se establezcan.
+La variable `s.visitorNamespace` es una cadena que contiene un valor único por organización. Las bibliotecas antiguas de AppMeasurement incluían automáticamente este valor único al descargarlo de versiones anteriores de Adobe Analytics. Las bibliotecas actuales de AppMeasurement no utilizan esta variable a menos que `trackingServer` y `trackingServerSecure` se establezcan.
 
-Si su organización aún requiere esta variable, elija un valor que represente a su organización. Puede almacenar este valor en un documento [de diseño de](../../prepare/solution-design.md)solución.
+Si su organización aún requiere esta variable, elija un valor que represente a su organización. Puede almacenar este valor en un [documento de diseño de solución](../../prepare/solution-design.md).
 
 ```js
 // If trackingServer is not set, cookies are stored under example.112.2o7.net
