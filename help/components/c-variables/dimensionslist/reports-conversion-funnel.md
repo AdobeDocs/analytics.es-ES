@@ -1,26 +1,26 @@
 ---
-description: Normalmente, los índices de conversión miden la conversión entre los eventos iniciales y finales y los hitos o puntos de un proceso de conversión. Después de que usted codifique los eventos de éxito en el sitio, el informe creará los índices existentes entre esos eventos de éxito y los mostrará en un informe de canal de conversión.
+description: Las tasas de conversión generalmente miden la conversión entre los eventos iniciales, finales y de hitos o puntos de un proceso de conversión. Después de codificar los eventos de éxito en el sitio, el informe crea los índices entre estos diferentes eventos de éxito y los muestra en un informe de canal de conversión.
 title: Canal de conversión
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Canal de conversión
 
-Normalmente, los índices de conversión miden la conversión entre los eventos iniciales y finales y los hitos o puntos de un proceso de conversión. Después de que usted codifique los eventos de éxito en el sitio, el informe creará los índices existentes entre esos eventos de éxito y los mostrará en un informe de canal de conversión.
+Las tasas de conversión generalmente miden la conversión entre los eventos iniciales, finales y de hitos o puntos de un proceso de conversión. Después de codificar los eventos de éxito en el sitio, el informe crea los índices entre estos diferentes eventos de éxito y los muestra en un informe de canal de conversión.
 
 Están disponibles los siguientes informes de canal:
 
-* [!UICONTROL Canal de conversión de compra]: muestra visitas (específicas del informe), carros de compras, pedidos, unidades e ingresos.
-* [!UICONTROL Canal de conversión del carro de compras]: muestra visitas (específicas del informe), carros de compras, cierres de compra, pedidos e ingresos.
-* [!UICONTROL Canal de eventos personalizados]: muestra eventos personalizados del sitio. Los eventos predeterminados son del 1 al 5.
-* [!UICONTROL Canal de conversión de campañas]: muestra pulsaciones, cierres de compra, pedidos e ingresos.
+* [!UICONTROL Purchase Conversion Funnel]:: Muestra visitas (específicas del informe), carros de compras, pedidos, unidades e ingresos.
+* [!UICONTROL Cart Conversion Funnel]:: Muestra visitas (específicas del informe), carros de compras, cierres de compra, pedidos e ingresos.
+* [!UICONTROL Custom Event Funnel]:: Muestra eventos personalizados en el sitio. Muestra los eventos personalizados 1-5 de forma predeterminada.
+* [!UICONTROL Campaign Conversion Funnel]:: Muestra pulsaciones, cierres de compra, pedidos e ingresos.
 
-Este informe también se puede personalizar para poder agregar eventos de conversión personalizada al canal de conversión y comprobar si los visitantes del sitio van de un paso al siguiente. Los eventos de éxito son buenos candidatos para este tipo de análisis si casi siempre ocurren en un orden específico. Por ejemplo, en un sitio de venta minorista, los eventos de éxito generalmente suceden en este orden:
+Este informe también se puede personalizar para que pueda agregar Eventos de conversión personalizados al canal de conversión a fin de ver si los visitantes al sitio llegan de un paso a otro. Los eventos de éxito son buenos candidatos para este tipo de análisis si casi siempre se producen en un orden específico. Por ejemplo: en un sitio de venta minorista, los eventos de éxito generalmente se producen en este orden:
 
 1. Vistas del producto
 
@@ -30,7 +30,7 @@ Este informe también se puede personalizar para poder agregar eventos de conver
 
 4. Compras
 
-La tabla del informe muestra estadísticas de ventas promedio por pulsación y unidades promedio vendidas por pulsación. A estos informes, se les pueden agregar métricas y eventos personalizados de otros grupos de informes. Aunque estos canales tienen muchos parecidos, se basan en variables y eventos diferentes. Estos informes se pueden usar para ver qué porcentajes y tendencias generales de los usuarios activan eventos específicos que se determinen. Permiten ver los lugares en los que los usuarios no siguen la ruta de eventos esperada, lo cual permite comprender ese punto en particular dentro del proceso de conversión.
+La tabla del informe muestra las estadísticas de las ventas promedio por pulsación y las unidades promedio vendidas por pulsación. Puede agregar a estos informes métricas y eventos personalizados de otros grupos de sistemas de informes. Estos canales tienen muchas similitudes pero se basan en diferentes variables y eventos. Puede utilizar estos informes para ver qué porcentajes y tendencias generales de los usuarios activan eventos específicos que especifique. Puede ver dónde los usuarios no siguen los eventos, lo que proporciona una perspectiva de ese punto específico en el proceso de conversión.
 
-> [!NOTE] El número de instancias en el contexto de estos informes es igual al número total de visitas donde se ha definido una eVar o evento.
+>[!NOTE] El número de instancias en el contexto de estos informes es igual al número total de visitas donde se ha definido una eVar o evento.
 
