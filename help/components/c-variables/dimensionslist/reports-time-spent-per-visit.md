@@ -3,8 +3,8 @@ description: 'null'
 title: Tiempo empleado por visita
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -37,6 +37,6 @@ El tiempo empleado por visita mide el tiempo total transcurrido en una visita. E
    * 10 a 15 horas
    * Más de 15 horas
 
-> [!NOTE] [Visitas](../c-metrics/metrics-visit.md) suelen finalizar después de 12 horas de actividad. Sin embargo, las visitas pueden superar las 12 horas si se utilizan visitas individuales con marca de hora o fuentes de datos.
+>[!NOTE] [Visitas](../c-metrics/metrics-visit.md) suelen finalizar después de 12 horas de actividad. Sin embargo, las visitas pueden superar las 12 horas si se utilizan visitas individuales con marca de hora o fuentes de datos.
 
 Esta dimensión se basa en visitas. Compare esta dimensión con el [Tiempo empleado en la página](reports-time-spent-on-page.md), que es una dimensión basada en visitas individuales.
