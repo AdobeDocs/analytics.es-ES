@@ -2,7 +2,7 @@
 description: Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos a documentación de apoyo.
 title: Comparación de las API de informes de Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos a documentación de apoyo.
 
-> [!NOTE] En cuanto a la latencia, Analytics para Target (A4T) combina datos de Analytics y Target en la misma visita para los informes integrados. Dado que las llamadas de Analytics y Target se producen en momentos diferentes, las visitas se almacenan antes de procesarse para poder recopilar datos de las dos soluciones. Este proceso añade **de 7 a 10 minutos más** de latencia a todos los puntos de comprobación.
+> [!NOTE] En cuanto a latencia, Analytics para Target (A4T) combina datos de Analytics y Target en la misma visita para generar así informes integrados. Dado que las llamadas de Analytics y Target se producen en momentos diferentes, las visitas se almacenan antes de procesarse para poder recopilar datos de las dos soluciones. Este proceso añade **de 7 a 10 minutos más** de latencia a todos los puntos de comprobación.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -47,7 +47,7 @@ Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos
    <td colname="col5"> Completa </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > Interfaces de generación de informes</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/es_ES/reference/"  > Interfaces de generación de informes</a> </td> 
    <td colname="col2"> Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col3"> Informe en tiempo real en Reports &amp; Analytics, Report Builder, API </td> 
    <td colname="col4"> Solo API </td> 
@@ -86,7 +86,7 @@ Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > Servicios Web</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > Informes en tiempo real</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Información general de emisión en directo</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/es_ES/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
