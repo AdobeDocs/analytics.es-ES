@@ -2,31 +2,31 @@
 title: s_gi()
 description: Cree y rastree instancias de AppMeasurement.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # s_gi
 
-La `s_gi()` función crea una instancia de AppMeasurement o la encuentra por ID del grupo de informes. AppMeasurement keeps track of every instance created, and `s_gi()` returns the existing instance for a report suite if one exists. Si no existe una instancia, se crea una nueva.
+La función `s_gi()` crea una instancia de AppMeasurement o la encuentra por el ID del grupo de informes. AppMeasurement realiza un seguimiento de todas las instancias que se crean y `s_gi()` devuelve la instancia de un grupo de informes, si existe. Si no existe, se crea una nueva instancia.
 
 ## s_gi() en Adobe Experience Platform Launch
 
-La extensión de Analytics crea una instancia del objeto de seguimiento y lo administra. Sin embargo, también puede establecer un objeto de seguimiento global en el [!UICONTROL Library Management] acordeón al configurar la extensión de Adobe Analytics.
+La extensión de Analytics crea una instancia del objeto de seguimiento y lo administra. However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Haga clic en la propiedad que desee.
-3. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de Adobe Analytics.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+2. Haga clic en la propiedad deseada.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expanda el [!UICONTROL Library Management] acordeón y seleccione cualquier botón de radio que no sea [!UICONTROL Manage the library for me].
 
-El campo de texto de la variable global permite establecer un objeto de seguimiento personalizado. Its default value is `s`.
+El campo de texto de la variable global permite establecer un objeto de seguimiento personalizado. Su valor predeterminado es `s`.
 
-## s_gi() en el editor de código personalizado AppMeasurement e Launch
+## s_gi() en el editor de código personalizado de AppMeasurement y Launch
 
-Llame a la `s_gi()` función para crear una instancia de un objeto de seguimiento. Su único argumento contiene una cadena delimitada por comas de ID de grupos de informes. Se requiere el argumento de la ID del grupo de informes.
+Llame a la función `s_gi()` para crear una instancia de un objeto de seguimiento. Su único argumento contiene una cadena delimitada por comas de ID de grupos de informes. Se requiere el argumento del ID del grupo de informes.
 
-> [!TIP] Adobe recomienda usar la `s` variable como objeto de seguimiento. Adobe utiliza `s` en su documentación, ejemplos de implementación y complementos. Sin embargo, puede utilizar cualquier variable siempre y cuando sea coherente en el sitio.
+>[!TIP] Adobe recomienda usar la variable `s` como objeto de seguimiento. Adobe utiliza `s` en su documentación, ejemplos de implementación y complementos. Sin embargo, puede utilizar cualquier variable siempre y cuando sea coherente en el sitio.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,11 +36,11 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
-> [!CAUTION] Las siguientes secciones y ejemplos contienen temas de implementación complejos. Pruebe exhaustivamente la implementación y rastree las personalizaciones importantes en el documento [de diseño de](../../prepare/solution-design.md)soluciones de su organización.
+>[!CAUTION] Las siguientes secciones y ejemplos contienen temas de implementación complejos. Pruebe exhaustivamente la implementación y rastree las personalizaciones importantes en el [documento de diseño de soluciones ](../../prepare/solution-design.md)de su organización.
 
 ## Administrar varias implementaciones con diferentes objetos de seguimiento
 
-Puede enviar diferentes datos a diferentes grupos de informes si crea instancias de varios objetos de seguimiento. Estos dos objetos de seguimiento funcionan de forma independiente entre sí.
+Puede enviar diferentes datos a varios grupos de informes si crea instancias de varios objetos de seguimiento. Estos dos objetos de seguimiento funcionan de forma independiente entre sí.
 
 ```js
 // Instantiate two separate tracking objects to two different report suites
@@ -58,9 +58,9 @@ s.t();
 z.t();
 ```
 
-## Restaure las variables de AppMeasurement después de sobrescribir el objeto s
+## Restaure las variables de AppMeasurement después de sobrescribir el objeto “s”
 
-Algunas herramientas de terceros también pueden utilizar el objeto JavaScript `s` . Si sobrescribe accidentalmente el `s` objeto del sitio, puede llamar `s_gi` con el mismo argumento de cadena RSID para restaurar todos los métodos y variables sobrescritos.
+Algunas herramientas de terceros también pueden utilizar el objeto `s` de JavaScript. Si sobrescribe accidentalmente el objeto `s` del sitio, puede llamar a `s_gi` con el mismo argumento de cadena de RSID para restaurar todos los métodos y variables sobrescritos.
 
 ```js
 // Step 1: Instantiate the tracking object
@@ -81,7 +81,7 @@ s.t();
 
 ## Hacer referencia al mismo objeto de seguimiento con varias variables
 
-Si dos variables hacen referencia a la misma `s_gi()` función con el mismo grupo de informes, puede utilizar las variables de forma intercambiable.
+Si dos variables hacen referencia a la misma función `s_gi()` con el mismo grupo de informes, puede utilizar las variables de forma intercambiable.
 
 ```js
 // If the RSID is the same, any variables set in the 's' tracking object also get set in 'z' tracking object
