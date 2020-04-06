@@ -1,34 +1,34 @@
 ---
-description: Puede proporcionar descripciones personalizadas de informe para eVars, propiedades, clasificaciones y eventos. Todos los usuarios finales pueden ver las descripciones.
+description: Puede proporcionar descripciones de informes personalizadas para eVars, propiedades, clasificaciones y eventos. Las descripciones son visibles para todos los usuarios finales.
 title: Descripciones personalizadas de informe
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Descripciones personalizadas de informe
 
-Puede proporcionar descripciones personalizadas de informe para eVars, propiedades, clasificaciones y eventos. Todos los usuarios finales pueden ver las descripciones.
+Puede proporcionar descripciones de informes personalizadas para eVars, propiedades, clasificaciones y eventos. Las descripciones son visibles para todos los usuarios finales.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL *variable *]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL *variable *]**
 
-> [!NOTE] En la actualidad, está disponible la adición de descripciones para las clasificaciones más tradicionales, pero no para las clasificaciones móviles.
+>[!NOTE] En la actualidad, está disponible la adición de descripciones para las clasificaciones más tradicionales, pero no para las clasificaciones móviles.
 
 ![](assets/report_descriptions.png)
 
 1. Proporcione una descripción para el informe. El número máximo de caracteres es 255.
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
-La descripción es visible en dos ubicaciones:
+La descripción está visible en dos lugares:
 
-* En la barra de título para el informe:
+* En la barra de título de ese informe:
 
    ![](assets/report_description_2.png)
 
-* Como información de objeto cuando pasa el cursor por encima del informe en la navegación izquierda:
+* Como información de objeto, al pasar el ratón por encima del informe en la navegación izquierda:
 
    ![](assets/report_description_3.png)
 
