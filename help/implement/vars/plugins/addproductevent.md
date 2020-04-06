@@ -2,47 +2,47 @@
 title: addProductEvent
 description: Agrega eventos personalizados a la variable products y events.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: addProductEvent
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `addProductEvent` complemento agrega un evento numérico o de moneda a la [`products`](../page-vars/products.md) variable. Adobe recomienda utilizar este complemento si desea agregar un evento numérico o monetario a la `products` variable sin preocuparse por el formato de la cadena de producto. Este complemento no es necesario si no se utilizan eventos numéricos o monetarios en la `products` variable.
+El complemento `addProductEvent` agrega un evento numérico o de divisa a la variable [`products`](../page-vars/products.md). Adobe recomienda utilizar este complemento si desea agregar un evento numérico o de divisa a la variable `products` sin tener que preocuparse por el formato de la cadena de producto. Este complemento no es necesario si no se utilizan eventos numéricos o de divisa en la variable `products`.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar addProductEvent
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,23 +57,23 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `addProductEvent` método utiliza los siguientes argumentos:
+El método `addProductEvent` utiliza los siguientes argumentos:
 
-* **`en`** (requerido, cadena): Evento que se agregará a la última entrada de la `products` variable. Si la `products` variable está vacía, se crea una entrada de producto &quot;en blanco&quot; con el evento (y su valor) adjunto.
-* **`ev`** (requerido, cadena): El valor asignado al evento numérico o de moneda en el `en` argumento.  El valor predeterminado es `1` cuando no se establece.
-* **`ap`** (opcional, booleano): Si la variable products contiene actualmente más de una entrada de producto, un valor de `true` (o `1`) agrega el evento a todas las entradas de producto.  El valor predeterminado es `false` cuando no se establece.
+* **`en`** (obligatorio, cadena): Evento que se agregará a la última entrada de la variable `products`. Si la variable `products` está vacía, se crea una entrada de producto “en blanco” con el evento (y su valor) adjunto.
+* **`ev`** (obligatorio, cadena): El valor asignado al evento numérico o de divisa del argumento `en`.  Si no se configura de forma distinta, el valor predeterminado es `1`.
+* **`ap`** (opcional, booleano): Si la variable products contiene actualmente más de una entrada de producto, un valor de `true` (o `1`) agrega el evento a todas las entradas de producto.  Si no se configura de forma distinta, el valor predeterminado es `false`.
 
-El `addProductEvent` no devuelve nada. En su lugar, agrega el evento y su valor a la `products` variable. El complemento también agrega automáticamente el evento a la [`events`](../page-vars/events/events-overview.md) variable, ya que también se requiere allí.
+`addProductEvent` no devuelve nada. En su lugar, agrega el evento y su valor a la variable `products`. El complemento también agrega automáticamente el evento a la variable [`events`](../page-vars/events/events-overview.md), puesto que también es obligatorio en ella.
 
 ## Cookies
 
-El complemento addProductEvent no crea ni utiliza cookies
+El complemento addProductEvent no crea ni utiliza cookies.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
 El siguiente código establece la `s.products` variable en `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`.
 
@@ -85,7 +85,7 @@ s.addProductEvent("event35", "25");
 
 El código anterior también establece la `s.events` variable en `"purchase,event35"`
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
 El siguiente código establece la `s.products` variable en `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
@@ -94,9 +94,9 @@ s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-Cuando el tercer argumento de la `addProductEvent` llamada es `true` (o `1`), cada entrada de producto tiene el evento especificado en la llamada agregado a su valor.
+Cuando el tercer argumento de la `addProductEvent` llamada es `true` (o `1`), cada entrada de producto tiene el evento especificado en la llamada agregada a su valor.
 
-### Ejemplo n.º 3
+### Ejemplo 3
 
 El siguiente código establece la `s.products` variable en `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
@@ -110,7 +110,7 @@ s.addProductEvent("event35", "15");
 
 El código anterior también establece la `s.events` variable en `"purchase,event2,event33,event34,event35"`
 
-### Ejemplo n.º 4
+### Ejemplo 4
 
 El siguiente código establece la `s.products` variable en `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
@@ -124,9 +124,9 @@ s.addProductEvent("event35", "15", 1);
 
 El código anterior también establece la `s.events` variable en `"purchase,event2,event33,event34,event35"`.
 
-> [!NOTE] El segundo argumento de la llamada puede ser un entero **o** una cadena que represente un número/número entero
+>[!NOTE] El segundo argumento de la llamada puede ser un entero **o** una cadena que represente un número/número entero
 
-### Ejemplo n.º 5
+### Ejemplo 5
 
 Si `s.products` aún no se ha establecido, el siguiente código lo establece en `";;;;event35=25"`
 
