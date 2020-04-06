@@ -1,10 +1,10 @@
 ---
-description: Los datos que se recopilan de sitios web y aplicaciones móviles, o que se cargan mediante las API del servicio web o fuentes de datos, se procesan y almacenan en el Data Warehouse de Adobe. Estos datos del flujo de navegación sin procesar forman el conjunto de datos que se utilizan en Adobe Analytics.
+description: Los datos recopilados de sitios web, aplicaciones móviles o cargados mediante API de servicio web o fuentes de datos, se procesan y almacenan en el almacén de datos de Adobe. Estos datos del flujo de navegación sin procesar forman el conjunto de datos que utiliza Adobe Analytics.
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Resumen de la fuente de datos de Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: ht
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -26,26 +26,26 @@ Asegúrese de cumplir todos los requisitos antes de utilizar fuentes de datos.
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
 3. En la barra de navegación superior, vaya a Administración > Fuentes de datos.
-4. Haga clic en [!UICONTROL Agregar]. Aparece una nueva página con tres categorías principales: [!UICONTROL Información de fuente], [!UICONTROL Destino] y [!UICONTROL Definiciones de columnas de datos].
-5. Rellene los campos de [!UICONTROL Información de fuente].
+4. Haga clic en [!UICONTROL Add]. Aparece una nueva página con tres categorías principales: [!UICONTROL Feed information], [!UICONTROL Destination], y [!UICONTROL Data Column Definitions].
+5. Rellene [!UICONTROL Feed Information] los campos.
    * Nombre: cualquier nombre que desee, como “Prueba de fuente de datos”.
    * Grupo de informes: seleccione el grupo de informes que desee.
    * Enviar un mensaje de correo electrónico cuando se complete: escriba su correo electrónico.
    * Intervalo de fuente: seleccione el intervalo deseado (por hora o por día).
-   * Retrasar procesamiento: se puede dejar como [!UICONTROL Sin retraso].
+   * Delay processing: Can be left as [!UICONTROL No Delay].
    * Fechas de inicio y finalización: seleccione una fecha de inicio de varios días atrás y hoy como fecha de finalización.
-6. Rellene los campos de [!UICONTROL Destino].
+6. Rellene [!UICONTROL Destination] los campos.
    * Tipo: FTP.
    * Host: introduzca la dirección URL de destino de FTP que desee. Por ejemplo: `ftp://ftp.omniture.com`.
    * Ruta: se puede dejar en blanco
    * Nombre de usuario: introduzca el nombre de usuario para iniciar sesión en el sitio FTP.
    * Contraseña y confirmar contraseña: introduzca la contraseña para iniciar sesión en el sitio FTP.
-7. Complete las [!UICONTROL definiciones de columnas de datos].
+7. Rellene [!UICONTROL Data Column Definitions].
    * Seleccione la última plantilla “Todas las columnas de Adobe” en el menú desplegable.
    * Formato de compresión: Gzip.
    * Tipo de paquete: varios archivos.
    * Manifiesto: sin archivo.
-8. Haga clic en [!UICONTROL Guardar] en la parte superior derecha.
+8. Click [!UICONTROL Save] in the top right.
 9. Una vez guardado, comienza el procesamiento de datos históricos. Cuando los datos terminan de procesarse durante un día, el archivo se coloca en el sitio FTP.
 10. Inicie sesión en el sitio FTP mediante el Explorador de Windows o un cliente FTP dedicado.
 11. Descargue el archivo de fuente de datos comprimido en el equipo local.
@@ -65,4 +65,4 @@ Una vez que haya comprendido el flujo de trabajo básico de la obtención de fue
 
 Navegación de vídeo en la interfaz de fuente de datos:
 
-> [!VIDEO](https://www.youtube.com/watch?v=m_fb--gNtR4)
+>[!VIDEO](https://www.youtube.com/watch?v=m_fb--gNtR4)
