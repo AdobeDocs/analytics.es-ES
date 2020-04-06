@@ -1,8 +1,8 @@
 ---
 title: Informes de conversión en Adobe Analytics
 description: Obtenga información sobre el uso de los informes de conversión en Adobe Analytics.
-translation-type: ht
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -45,7 +45,7 @@ Tanto los informes de comercio electrónico de Google Analytics como los informe
 
 Los informes de embudo multicanal proporcionan datos adicionales del canal de marketing aparte de los que aportan los informes de adquisición. Estos informes se centran en mostrar cómo se convierten los visitantes, en lugar de en cómo llegan al sitio.
 
-> [!NOTE]
+>[!NOTE]
 >
 > El uso de informes multicanal en Adobe Analytics necesitan tanto la configuración de los canales de marketing como una implementación personalizada para dar cabida a la variable de productos y al evento de compra. Adobe recomienda trabajar con un consultor de implementación si estas funciones aún no están configuradas para su grupo de informes.
 
