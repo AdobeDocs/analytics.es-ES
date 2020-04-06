@@ -3,8 +3,8 @@ description: Cuando un informe contiene una gran cantidad de valores únicos, un
 title: Valor de poco tráfico en Adobe Analytics
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -23,7 +23,7 @@ Cuando un informe contiene una gran cantidad de valores únicos, una funcionalid
    * Si un valor ya figura en los informes, agréguelo como de costumbre.
    * Si un valor todavía no está en los informes, compruebe si se ha visto más de unas cien veces en la fecha actual. En caso afirmativo, agregue este valor al sistema de informes. En caso negativo, déjelo clasificado como poco tráfico.
 
-> [!NOTE] Si un valor de variable recibe tráfico suficiente para dejar el bloque de poco tráfico, los primeros valores recopilados no se mueven a su elemento de línea correspondiente. Estas primeras diez a cien correspondencias permanecen como poco tráfico.
+>[!NOTE] Si un valor de variable recibe tráfico suficiente para dejar el bloque de poco tráfico, los primeros valores recopilados no se mueven a su elemento de línea correspondiente. Estas primeras diez a cien correspondencias permanecen como poco tráfico.
 
 ## Cambio de los umbrales de límite único
 
