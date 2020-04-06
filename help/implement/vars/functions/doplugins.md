@@ -2,33 +2,33 @@
 title: doPlugins
 description: Configure la lógica justo antes de compilar una visita y enviarla a Adobe.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # doPlugins
 
-La `doPlugins` variable actúa como una &#39;última llamada&#39; para establecer los valores en la implementación. Si [`usePlugins`](../config-vars/useplugins.md) está activado, se ejecuta automáticamente justo antes de que se compile y envíe a Adobe cualquier tipo de solicitud de imagen, incluidos:
+La variable `doPlugins` actúa como una “última llamada” para establecer los valores en la implementación. If [`usePlugins`](../config-vars/useplugins.md) is enabled, it automatically runs just before any type of image request is compiled and sent to Adobe, including:
 
 * Todas las llamadas a la vista de página ([`t()`](t-method.md))
 * Todas las llamadas de seguimiento de vínculos ([`tl()`](tl-method.md)), incluidos los vínculos de descarga automática y los vínculos de salida
 
-Utilice la `doPlugins` variable para llamar al código del complemento y establecer los valores de la variable final justo antes de compilar una solicitud de imagen y enviarla a Adobe.
+Utilice la variable `doPlugins` para llamar al código del complemento y establecer los valores de la variable final justo antes de compilar una solicitud de imagen y enviarla a Adobe.
 
 ## Complementos en Adobe Experience Platform Launch
 
-No hay un campo dedicado en Launch para utilizar esta variable. Utilice el editor de código personalizado, siguiendo la sintaxis de AppMeasurement.
+No hay un campo específico en Launch para utilizar esta variable. Utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.doPlugins en el código personalizado AppMeasurement e Launch
+## s.doPlugins en el editor de código personalizado de AppMeasurement y Launch
 
-Configure la `s.doPlugins` variable en una función que contenga el código deseado. La función se ejecuta automáticamente cuando realiza una llamada de seguimiento.
+Establezca la variable `s.doPlugins` como una función que contenga el código deseado. La función se ejecuta automáticamente cuando realiza una llamada de seguimiento.
 
 ```js
 s.doPlugins = function() {/* Desired code */};
 ```
 
-> [!NOTE] Configure una función en la `doPlugins` variable sólo una vez en la implementación. Si establece la `doPlugins` variable más de una vez, solo se utilizará el código más reciente.
+>[!NOTE] Establezca una función en la variable `doPlugins` solo una vez en la implementación. Si establece la variable `doPlugins` más de una vez, solo se utilizará el código más reciente.
 
 ## Ejemplos
 
@@ -44,4 +44,4 @@ s.doPlugins = function() {
 }
 ```
 
-> [!NOTE] Las versiones anteriores de AppMeasurement tenían un código ligeramente diferente `doPlugins()` . Adobe recomienda utilizar el formato anterior como práctica recomendada.
+>[!NOTE] Las versiones anteriores de AppMeasurement tenían un código ligeramente diferente `doPlugins()`. Adobe recomienda utilizar el formato anterior.
