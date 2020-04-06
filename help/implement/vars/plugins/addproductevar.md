@@ -2,49 +2,49 @@
 title: addProductEvar
 description: Agrega eVars de comercialización a la variable products.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: addProductEvar
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `addProductEvar` complemento le permite agregar fácilmente una eVar de comercialización de Adobe Analytics que utilice sintaxis de producto para la variable products sin tener que preocuparse de si el contenido ya existente de la variable products se cambiará, moverá o eliminará. Adobe recomienda utilizar este complemento si desea agregar fácilmente eVars de comercialización de sintaxis de producto a la [`products`](../page-vars/products.md) variable. No es necesario usar el `addProductEvar` complemento si no utiliza eVars de comercialización con sintaxis de producto.
+El complemento `addProductEvar` le permite agregar fácilmente a la variable products una eVar de comercialización de Adobe Analytics que utilice sintaxis de producto sin tener que preocuparse de si el contenido ya existente de la variable products se cambiará, moverá o eliminará. Adobe recomienda utilizar este complemento si desea agregar fácilmente eVars de comercialización que utilicen sintaxis de producto a la variable [`products`](../page-vars/products.md). No es necesario usar el complemento `addProductEvar` si no utiliza eVars de comercialización con sintaxis de producto.
 
-> [!NOTE] Este complemento no reemplaza a las eVars que ya existen en una entrada de producto. Solo anexa los valores que ha configurado con este complemento. Tenga cuidado al anexar eVars que ya existen para ese producto.
+>[!NOTE] Este complemento no reemplaza a las eVars que ya existen en una entrada de producto. Solo anexa los valores que ha configurado con este complemento. Tenga cuidado al anexar eVars que ya existen para ese producto.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar addProductEvar
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -53,15 +53,15 @@ s.addProductEvar=function(en,ev,ap){if("string"===typeof en&&"string"===typeof e
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `addProductEvar` complemento utiliza los siguientes argumentos:
+El complemento `addProductEvar` utiliza los siguientes argumentos:
 
-* **`en`** (requerido, cadena): La eVar que se agregará a la última entrada contenida actualmente en la variable products. Si la variable products está en blanco, el complemento crea una entrada de producto &quot;en blanco&quot; con el valor eVar adjunto al final de la entrada.
-* **`ev`** (requerido, cadena): Valor asignado a la eVar.
-* **`ap`** (opcional, booleano): Si la variable products contiene actualmente más de una entrada de producto, un valor de true (o 1) agrega la eVar a **todas** las entradas de producto.  El valor predeterminado es false (o 0), que agrega la eVar sólo a la **última** entrada contenida en la variable products.
+* **`en`** (obligatorio, cadena): La eVar que se agregará a la última entrada contenida actualmente en la variable products. Si la variable products está en blanco, el complemento crea una entrada de producto “en blanco” con el valor eVar adjunto al final de la entrada.
+* **`ev`** (obligatorio, cadena): Valor asignado a la eVar.
+* **`ap`** (opcional, booleano): Si la variable products contiene actualmente más de una entrada de producto, un valor de true (o 1) agrega la eVar a **todas** las entradas de producto.  El valor predeterminado es false (o 0), lo que agrega la eVar solo a la **última** entrada contenida en la variable products.
 
-El `addProductEvar` complemento no devuelve nada. En su lugar, agrega la eVar (y el valor de eVar) especificada en el argumento `en` y `ev` a la `products` variable.
+El complemento `addProductEvar` no devuelve nada. En su lugar, agrega la eVar especificada en el argumento `en` y `ev` y su valor correspondiente a la variable `products`.
 
 ## Ejemplos
 
