@@ -1,8 +1,8 @@
 ---
 title: Creación o edición de una fuente de datos
 description: Obtenga información sobre cómo crear o editar una fuente de datos.
-translation-type: ht
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -50,7 +50,7 @@ Se admiten las 11 regiones de AWS estándar siguientes (utilizando el algoritmo 
 * us-east-1
 * us-west-1
 * us-west-2
-* ap-south-1
+* ap-South-1
 * ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2
@@ -59,7 +59,7 @@ Se admiten las 11 regiones de AWS estándar siguientes (utilizando el algoritmo 
 * eu-west-1
 * sa-east-1
 
-> [!NOTE] No se admite la región cn-north-1.
+>[!NOTE] No se admite la región cn-north-1.
 
 ### Azure Blob
 
@@ -67,7 +67,7 @@ Las fuentes de datos admiten destinos de Azure Blob. Se necesita un contenedor, 
 
 ![Información de Azure](assets/azure.png)
 
-> [!NOTE] Debe implementar su propio proceso para administrar el espacio en disco en el destino de la fuente. Adobe no elimina ningún dato del servidor.
+>[!NOTE] Debe implementar su propio proceso para administrar el espacio en disco en el destino de la fuente. Adobe no elimina ningún dato del servidor.
 
 ## Definiciones de columnas de datos
 
@@ -77,6 +77,6 @@ Todas las columnas están disponibles, independientemente de si tienen datos. Un
 * **Formato de compresión**: tipo de compresión utilizado. Gzip genera archivos en formato `.tar.gz`. El código postal muestra los archivos en formato `.zip`.
 * **Tipo de paquete**: un solo archivo genera el archivo `hit_data.tsv` en un único archivo potencialmente masivo. Varios archivos paginan los datos en fragmentos de 2 GB (sin comprimir). Si se seleccionan varios archivos y los datos sin comprimir de la ventana de informes ocupan menos de 2 GB, se envía un solo archivo. Adobe recomienda utilizar varios archivos para la mayoría de las fuentes de datos.
 * **Plantillas de columna**: al crear muchas fuentes de datos, Adobe recomienda crear una plantilla de columna. La selección de una plantilla de columna incluye automáticamente las columnas especificadas en la plantilla. Adobe también proporciona varias plantillas de forma predeterminada.
-* **Columnas disponibles**: todas las columnas de datos disponibles en Adobe Analytics. Haga clic en [!UICONTROL Agregar todo] para incluir todas las columnas en una fuente de datos.
-* **Columnas incluidas**: columnas que se incluyen en una fuente de datos. Haga clic en [!UICONTROL Eliminar todo] para eliminar todas las columnas de una fuente de datos.
+* **Columnas disponibles**: todas las columnas de datos disponibles en Adobe Analytics. Click [!UICONTROL Add all] to include all columns in a data feed.
+* **Columnas incluidas**: columnas que se incluyen en una fuente de datos. Click [!UICONTROL Remove all] to remove all columns from a data feed.
 * **Descargar CSV**: descarga un archivo CSV que contiene todas las columnas incluidas.
