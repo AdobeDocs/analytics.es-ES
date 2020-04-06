@@ -1,48 +1,48 @@
 ---
 title: getPageLoadTime
-description: Rastree la cantidad de tiempo que tarda una página en cargarse.
+description: Rastree el tiempo que tarda una página en cargarse.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: getPageLoadTime
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `getPageLoadTime` complemento utiliza el objeto de rendimiento JavaScript para permitirle medir la cantidad de tiempo que una página tarda en cargarse completamente. Adobe recomienda utilizar este complemento si desea medir cuánto tardan las páginas en cargarse.
+El complemento `getPageLoadTime` utiliza el objeto de rendimiento JavaScript para permitirle medir el tiempo que tarda una página en cargarse por completo. Adobe recomienda utilizar este complemento si desea medir cuánto tardan las páginas en cargarse.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar getPageLoadTime
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -57,23 +57,23 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `getPageLoadTime` método no utiliza ningún argumento. Al llamar a este método, no devuelve nada. En su lugar, establece las siguientes variables:
+El método `getPageLoadTime` no utiliza ningún argumento. Al llamar a este método, no devuelve nada. En su lugar, establece las siguientes variables:
 
-* `s._pltPreviousPage`:: La página anterior para poder correlacionar el tiempo de carga con la página anterior
-* `s._pltLoadTime`:: Tiempo en segundos que tardó la página anterior en cargarse
+* `s._pltPreviousPage`: La página anterior para poder correlacionar el tiempo de carga con la página anterior.
+* `s._pltLoadTime`: Tiempo en segundos que tardó la página anterior en cargarse.
 
 El complemento getPageLoadTime crea dos cookies de origen:
 
-* `s_plt`:: Tiempo, en segundos, que tardó la página anterior en cargarse. Caduca al final de la sesión del explorador.
-* `s_pltp` El valor de la `s.pageName` variable tal como se registró en la solicitud de imagen anterior de Adobe Analytics. Caduca al final de la sesión del explorador.
+* `s_plt`: Tiempo, en segundos, que tardó la página anterior en cargarse. Caduca al final de la sesión del explorador.
+* `s_pltp` El valor de la variable `s.pageName` tal como se registró en la solicitud de imagen anterior de Adobe Analytics. Caduca al final de la sesión del explorador.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
-Ejecutando el siguiente código...
+Ejecutar el siguiente código...
 
 ```js
 if(s.pageName) s.getPageLoadTime();
@@ -86,12 +86,12 @@ if(s._pltPreviousPage)
 }
 ```
 
-...hará lo siguiente:
+... hará lo siguiente:
 
-* Ejecute el complemento getPageLoadTime cuando se establezca s.pageName
-* Configure s.prop10 igual al tiempo de carga de la página anterior
-* Configure s.prop11 y s.eVar10 igual al nombre de la página anterior (como se registra en s.pageName)
-* Establezca event100, que sería un evento numérico personalizado, igual al tiempo de carga de la página anterior.   En este caso, el uso de un evento personalizado le permitiría obtener la cantidad total de tiempo para todas las cargas de página de la página anterior (desde todos los visitantes/visitas) y, por lo tanto, utilizar una métrica calculada para obtener el tiempo promedio de carga de página de cada página
+* Ejecute el complemento getPageLoadTime cuando se establezca s.pageName.
+* Establezca s.prop10 en el tiempo de carga de la página anterior.
+* Establezca s.prop11 y s.eVar10 en el nombre de la página anterior (como conste en s.pageName).
+* Establezca event100, que sería un evento numérico personalizado, en el tiempo de carga de la página anterior.   En este caso, el uso de un evento personalizado le permitiría obtener el tiempo total para todas las cargas de página de la página anterior (desde todos los visitantes/visitas) y, por lo tanto, utilizar una métrica calculada para obtener el tiempo promedio que cada página tarda en cargarse.
 
 ## Historial de versiones
 
