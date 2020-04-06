@@ -2,39 +2,39 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # currencyCode
 
-Para los sitios que utilizan el comercio, los ingresos y la moneda son una parte importante de Analytics. Muchos sitios, especialmente los que abarcan varios países, utilizan distintas monedas. Utilice la `currencyCode` variable para asegurarse de que los atributos de ingresos corresponden a la moneda correcta.
+Para los sitios comerciales, los ingresos y la moneda son una parte importante de Analytics. Muchos sitios, especialmente los que abarcan varios países, utilizan distintas monedas. Utilice la variable `currencyCode` para asegurarse de que los atributos de ingresos corresponden a la moneda correcta.
 
-Si no `currencyCode` se define , los valores monetarios definidos por la [`products`](../page-vars/products.md) variable y los eventos de moneda se tratan como si fueran iguales a la moneda del grupo de informes. Consulte Configuración [general de cuenta](/help/admin/admin/general-acct-settings-admin.md) en la guía del usuario de administración para ver la moneda del grupo de informes.
+Si `currencyCode` no está definida, los valores monetarios definidos por la variable [`products`](../page-vars/products.md) y los eventos de moneda se tratan como si fueran iguales a la moneda del grupo de informes. Consulte [Configuración general de cuenta](/help/admin/admin/general-acct-settings-admin.md) en la guía del usuario de administración para ver la moneda del grupo de informes.
 
-Si `currencyCode` se define y coincide con la moneda del grupo de informes, no se aplica ninguna conversión de moneda.
+Si `currencyCode` está definida y coincide con la moneda del grupo de informes, no se aplica ninguna conversión de moneda.
 
 Si `currencyCode` está definida y es diferente a la moneda del grupo de informes, Adobe aplica una conversión de moneda basada en el tipo de cambio del día actual. Adobe se asocia con [XE](https://xe.com) para convertir moneda cada día. Todos los valores almacenados en los servidores de recopilación de datos se almacenan finalmente en la moneda del grupo de informes.
 
-> [!IMPORTANT] Si `currencyCode` contiene un valor no válido, se descarta toda la visita, lo que provoca la pérdida de datos. Asegúrese de que esta variable esté correctamente definida si la utiliza en la implementación.
+>[!IMPORTANT] Si `currencyCode` contiene un valor no válido, se descarta toda la visita, lo que provoca la pérdida de datos. Asegúrese de que esta variable esté correctamente definida si la utiliza en la implementación.
 
 Esta variable no persiste entre visitas. Asegúrese de que esta variable esté definida en todas las páginas que involucren eventos de ingresos o de moneda.
 
 ## Código de moneda en Adobe Experience Platform Launch
 
-Código de moneda es un campo bajo el [!UICONTROL General] acordeón al configurar la extensión de Adobe Analytics.
+Código de moneda es un campo en el acordeón [!UICONTROL General] al configurar la extensión de Adobe Analytics.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Haga clic en la propiedad que desee.
-3. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de Adobe Analytics.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+2. Haga clic en la propiedad deseada.
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. Expanda el [!UICONTROL General] acordeón, que muestra el [!UICONTROL Currency Code] campo.
 
 Puede utilizar un código de moneda preestablecido o un código de moneda personalizado. Si utiliza un código de moneda personalizado, asegúrese de que el código sea válido.
 
-## s.currencyCode en el editor de código personalizado de AppMeasurement e Launch
+## s.currencyCode en el editor de código personalizado de AppMeasurement y Launch
 
-La `s.currencyCode` variable es una cadena que contiene un código en mayúsculas de 3 letras que representa la moneda de la página.
+La variable `s.currencyCode` es una cadena que contiene un código en mayúsculas de 3 letras que representa la moneda de la página.
 
 ```js
 s.currencyCode = "USD";
@@ -48,7 +48,7 @@ Los siguientes códigos de moneda son válidos:
 | `AFA` | Afgani de Afganistán |
 | `ALL` | Leke albanés |
 | `AMD` | Dram armenio |
-| `ANG` | Florín de las aves de corral neerlandesas |
+| `ANG` | Florín antillano neerlandés |
 | `AOA` | Kwanza angolano |
 | `ARS` | Peso argentino |
 | `AUD` | Dólar australiano |
@@ -151,7 +151,7 @@ Los siguientes códigos de moneda son válidos:
 | `MZM` | Metical mozambiqueño |
 | `NAD` | Dólar namibio |
 | `NGN` | Naira nigeriana |
-| `NIO` | Córdoba de oro nicaragüense |
+| `NIO` | Córdoba nicaragüense |
 | `NOK` | Corona noruega |
 | `NPR` | Rupia nepalesa |
 | `NZD` | Dólar neozelandés |
@@ -181,7 +181,7 @@ Los siguientes códigos de moneda son válidos:
 | `SPL` | Luigino de Seborga |
 | `SRD` | Dólar surinamés |
 | `SRG` | Florín surinamés |
-| `STD` | Dobra de Santo Tomé y Príncipe |
+| `STD` | Doblón santotomense |
 | `SVC` | Colón salvadoreño |
 | `SYP` | Libra siria |
 | `SZL` | Lilangeni de Suazilandia |
@@ -204,14 +204,14 @@ Los siguientes códigos de moneda son válidos:
 | `VND` | Dong vietnamita |
 | `VUV` | Vatu vanuatense |
 | `WST` | Tala samoano |
-| `XAF` | Comunauté Financière Africaine Franc B |
+| `XAF` | Franco de la Comunidad Financiera de África (CFA). |
 | `XAG` | Onzas de plata |
 | `XAU` | Onzas de oro |
 | `XCD` | Dólar del Caribe Oriental |
-| `XDR` | Dibujo especial del Fondo Monetario Internacional |
-| `XOF` | Comunauté Financière Africaine Franc B |
+| `XDR` | Giro Especial del Fondo Monetario Internacional |
+| `XOF` | Franco de la Comunidad Financiera de África (CFA). |
 | `XPD` | Onzas de paladio |
-| `XPF` | Comptoirs Français du Pacifique Francs |
+| `XPF` | Francos de Acuerdos financieros Francia-Pacífico |
 | `XPT` | Onzas de platino |
 | `YER` | Rial yemení |
 | `ZAR` | Rand sudafricano |
