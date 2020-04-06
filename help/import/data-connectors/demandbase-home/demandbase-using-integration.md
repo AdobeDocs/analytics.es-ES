@@ -2,8 +2,8 @@
 description: Una vez implementada la integración, puede empezar a utilizar las capacidades adicionales que proporciona.
 title: Uso de la integración
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Una vez implementada la integración, puede empezar a utilizar las capacidades adicionales que proporciona.
 
-> [!NOTE] Puede tardar entre 24 y 48 horas en empezar a ver algunos de los datos de Demandbase en los informes de Adobe Analytics.
+>[!NOTE] Puede tardar entre 24 y 48 horas en empezar a ver algunos de los datos de Demandbase en los informes de Adobe Analytics.
 
 A continuación, se indican algunas acciones que puede realizar para aprovechar esta integración desde Adobe Analytics:
 
