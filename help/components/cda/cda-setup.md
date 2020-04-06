@@ -2,18 +2,18 @@
 title: Configuración de análisis entre dispositivos
 description: Obtenga información sobre cómo configurar Analytics entre dispositivos después de cumplir los requisitos previos.
 translation-type: tm+mt
-source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Configuración de análisis entre dispositivos
 
-> [!NOTE] La documentación de Análisis entre dispositivos está sujeta a cambios a medida que la función se desarrolla. Vuelva regularmente para ver las actualizaciones.
+>[!NOTE] La documentación de Análisis entre dispositivos está sujeta a cambios a medida que la función se desarrolla. Vuelva regularmente para ver las actualizaciones.
 
 Una vez cumplidos todos los requisitos previos, siga los pasos siguientes para habilitar el análisis entre dispositivos. Debe pertenecer a un grupo de administradores de perfil de producto o tener privilegios de administrador en Adobe Analytics para seguir estos pasos.
 
-> [!IMPORTANT] Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte [Análisis entre dispositivos](cda-home.md) para conocer los requisitos previos y las limitaciones.
+>[!IMPORTANT] Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte [Análisis entre dispositivos](cda-home.md) para conocer los requisitos previos y las limitaciones.
 
 ## Elija el grupo de informes entre dispositivos que se habilitará para CDA
 
@@ -42,12 +42,12 @@ Cuando Análisis entre dispositivos está habilitado en un grupo de informes vir
 * Aparece un nuevo icono entre dispositivos junto al nombre del grupo de informes virtuales. Este icono es exclusivo para grupos de informes virtuales entre dispositivos.
 * Hay disponible una nueva dimensión denominada &#39;Estado identificado&#39;. Esta dimensión determina si el gráfico del dispositivo conoce el ID de Experience Cloud de esa visita en ese momento.
 * Hay disponibles nuevas métricas etiquetadas como “Personas” y “Dispositivos únicos”.
-* La métrica &#39;Visitantes únicos&#39; no está disponible, ya que se sustituye por &#39;Personas&#39; y &#39;Dispositivos únicos&#39;.
+* La métrica &#39;Visitantes únicos no está disponible, ya que se sustituye por &#39;Personas&#39; y &#39;Dispositivos únicos&#39;.
 * Al generar segmentos, el contenedor de segmentos “Visitante” se reemplaza por un contenedor “Persona”.
 
 ## Plantilla de espacio de trabajo CDA
 
-Adobe ofrece una plantilla para ver datos de rendimiento vitales entre dispositivos.
+Adobe oferta una plantilla para ver datos de rendimiento vitales entre dispositivos.
 
 1. Vaya a [experience.adobe.com](https://experiencecloud.adobe.com) e inicie sesión con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrículas en la parte superior y, a continuación, haga clic en Analytics.
@@ -55,7 +55,7 @@ Adobe ofrece una plantilla para ver datos de rendimiento vitales entre dispositi
 1. Localice el &quot;Journey IQ: &quot;Análisis entre dispositivos&quot; y, a continuación, haga clic en [!UICONTROL Create].
 1. Si se le solicita, cambie el grupo de informes a uno que admita CDA.
 
-Se crea un proyecto de Analysis Workspace que contiene varios paneles. En la parte superior, se muestra una tabla de contenido e introducción, lo que permite el contexto del informe y la navegación hacia informes individuales. Haga clic en un vínculo dentro de la tabla de contenido o expanda el acordeón de un panel para ver esos informes.
+Se crea un proyecto de Espacio de trabajo de Análisis que contiene varios paneles. En la parte superior, se muestra una tabla de contenido e introducción, lo que permite el contexto del informe y la navegación hacia informes individuales. Haga clic en un vínculo dentro de la tabla de contenido o expanda el acordeón de un panel para vista de dichos informes.
 
 <!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
 
@@ -67,7 +67,7 @@ Se crea un proyecto de Analysis Workspace que contiene varios paneles. En la par
    * Cobertura del Experience Cloud ID: Solo se pueden vincular los visitantes con un ECID. Un porcentaje menor de visitantes que utilizan un ECID se correlaciona con tasas de compresión más bajas.
    * Uso de varios dispositivos: Si los visitantes del sitio no utilizan varios dispositivos, puede ver tasas de compresión más bajas.
    * Granularidad de informes: La compresión por día suele ser menor que la compresión por mes o año. Las posibilidades de que un individuo utilice varios dispositivos se reducen en un solo día en comparación con todo un mes. Segmentar, filtrar o utilizar dimensiones de desglose también puede mostrar una tasa de compresión más baja.
-* **Segmentos** basados en personas: Contiene una lista desplegable de segmentos que le permite ver datos específicos del dispositivo. Este panel alienta la experimentación con segmentos para ver cómo la inclusión o exclusión de tipos de dispositivos afecta a los informes.
+* **Segmentos** basados en personas: Contiene una lista desplegable de segmentos que le permite vista de datos específicos del dispositivo. Este panel alienta la experimentación con segmentos para ver cómo la inclusión o exclusión de tipos de dispositivos afecta a los informes.
 * **Análisis del viaje** entre dispositivos: Proporciona informes de flujo y visitas en el orden previsto en función del tipo de dispositivo.
 * **Atribución** entre dispositivos: Combine las características de Journey IQ y Atribución IQ juntos.
 * **Otros consejos y trucos**: Temas útiles en torno a CDA que le permite aprovechar al máximo su uso.
