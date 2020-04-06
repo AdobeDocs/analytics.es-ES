@@ -5,15 +5,15 @@ subtopic: Visitors
 title: Conectar usuarios entre dispositivos
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Conectar usuarios entre dispositivos
 
-> [!IMPORTANT] Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Análisis entre dispositivos](/help/components/cda/cda-home.md) en la guía del usuario Componentes.
+>[!IMPORTANT] Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Análisis entre dispositivos](/help/components/cda/cda-home.md) en la guía del usuario Componentes.
 
 La identificación de visitantes entre dispositivos ayuda a conectar los visitantes a varios dispositivos. La identificación de visitantes entre dispositivos utiliza la variable `visitorID` para asociar un visitante a varios dispositivos. La variable `visitorID` tiene la prioridad más alta al identificar visitantes únicos.
 
