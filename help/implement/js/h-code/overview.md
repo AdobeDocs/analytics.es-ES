@@ -1,19 +1,19 @@
 ---
 title: Introducción a la implementación de código H de JavaScript
 description: Conozca el flujo de trabajo para implementar el código H en su sitio.
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Introducción a la implementación de código H de JavaScript
 
-> [!IMPORTANT] Esta versión de recopilación de datos ya no es compatible. Utilice [Adobe Experience Platform Launch](../../launch/overview.md) o [AppMeasurement para JavaScript](../overview.md).
+>[!IMPORTANT] Esta versión de recopilación de datos ya no es compatible. Utilice [Adobe Experience Platform Launch](../../launch/overview.md) o [AppMeasurement para JavaScript](../overview.md).
 
 Debe tener acceso a los servidores de alojamiento para implementar correctamente una página con código para recopilar datos. A continuación se muestran los pasos de una implementación básica código H de Analytics.
 
-> [!NOTE] Para seguir estas instrucciones, ya debe tener una copia de `s_code.js`. Adobe ya no ofrece la opción de descargar el código H en el Administrador de códigos.
+>[!NOTE] Para seguir estas instrucciones, ya debe tener una copia de `s_code.js`. Adobe ya no ofrece la opción de descargar el código H en el Administrador de códigos.
 
 1. **Actualizar variables de archivos JS principales**: Edite el archivo `s_code.js` y asegúrese que las siguientes variables están actualizadas:
    * `s_account` contiene el ID del grupo de informes al que desea enviar los datos. Consulte
@@ -26,7 +26,7 @@ Debe tener acceso a los servidores de alojamiento para implementar correctamente
 
 ## Almacenamiento en caché
 
-El archivo JavaScript se almacena en caché en el explorador del visitante cuando se carga por primera vez y, por lo general, solo se descarga una vez por sesión. El archivo no se descarga en cada página, aunque lo usen todas las páginas del sitio. El cálculo promedio indica que, en la mayoría de sitios web, se registran varias vistas de página por sesión por usuario. De este modo, si se transfieren a este archivo los elementos JavaScript que se usan varias veces, se pueden reducir los datos que se descargan de forma general.
+El archivo JavaScript se almacena en caché en el explorador del visitante después de que se cargue por primera vez y, por lo general, no se descarga más de una vez por sesión. El archivo no se descarga en cada página, aunque lo usen todas las páginas del sitio. En la mayoría de los sitios web, los usuarios promedian más de unas pocas vistas de página por sesión, por lo que la transferencia de JavaScript que se utiliza varias veces en este archivo puede resultar en menos datos descargados en general.
 
 ## Compresión de código H
 
