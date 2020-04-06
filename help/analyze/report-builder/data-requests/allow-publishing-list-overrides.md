@@ -1,27 +1,27 @@
 ---
-description: Cuando se programa un informe, se puede seleccionar una lista de publicación para utilizarla en la distribución.
+description: Al programar un informe, puede elegir una lista de publicación para su distribución.
 title: Permitir anulaciones de la lista de publicación
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Permitir anulaciones de la lista de publicación
 
-Cuando se programa un informe, se puede seleccionar una lista de publicación para utilizarla en la distribución.
+Al programar un informe, puede elegir una lista de publicación para su distribución.
 
-Las listas de publicaciones se configuran en las Herramientas de administración de Analytics.
+Las listas de publicación están configuradas en las herramientas de administración de Analytics.
 
-Consulte el [Administrador de la Lista de publicaciones](https://marketing.adobe.com/resources/help/es_ES/reference/publishing_list.html) en la referencia de Analytics.
+Consulte [Administrador](https://marketing.adobe.com/resources/help/es_ES/reference/publishing_list.html) de Listas de publicación en la referencia de Analytics.
 
-Para activar esta función, desplácese a la ventana [!UICONTROL Asistente para solicitudes: Paso 1].
+Para activar esta función, vaya a la [!UICONTROL Request Wizard: Step 1] ventana.
 
-Si activa [!UICONTROL Permitir anulación de la lista de publicación], el grupo de informes asignado a cada destinatario en la lista de publicación sustituye al grupo de informes para esta solicitud. Asimismo, si el libro contiene varios grupos de informes, se utilizará el ID del grupo de informes asociado a la lista de publicación.
+Si se habilita [!UICONTROL Allow Publishing List Override], el grupo de informes asignado a cada destinatario en la lista de publicación reemplaza al grupo de informes para esta solicitud. Además, si el libro contiene varios grupos de informes, se utiliza la ID del grupo de informes asociada a la lista de publicación.
 
-Esta opción no está disponible para los grupos de informes que se seleccionen desde las celdas.
+Esta opción no está disponible para los grupos de informes que se seleccionan de las celdas.
 
-> [!NOTE] Si el informe programado se envía a varias listas de publicación, el informe se ejecuta una vez para cada lista. Los grupos de informes variables se reemplazan por el grupo de informes asignado a la lista de publicación.
+>[!NOTE] Si el informe programado se envía a varias listas de publicación, el informe se ejecuta una vez para cada lista. Los grupos de informes variables se reemplazan por el grupo de informes asignado a la lista de publicación.
 
