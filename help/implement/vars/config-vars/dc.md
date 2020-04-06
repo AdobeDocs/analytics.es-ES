@@ -2,14 +2,14 @@
 title: dc
 description: Variable retirada que permite determinar qué centro de datos utilizar.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # dc
 
-> [!IMPORTANT] Esta variable está retirada. Use [`trackingServer`](trackingserver.md) en su lugar.
+>[!IMPORTANT] Esta variable está retirada. Utilice [`trackingServer`](trackingserver.md) en su lugar.
 
 En las versiones anteriores de Adobe Analytics, Adobe requería que especificara a qué centro de datos quería enviar datos. Si se enviaban visitas al centro de datos incorrecto, se producía una pérdida de datos.
 
