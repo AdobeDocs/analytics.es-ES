@@ -2,7 +2,7 @@
 title: hier
 description: Implementar variables de jerarquía en Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,9 +11,9 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 Las variables de jerarquía son variables personalizadas que permiten ver la estructura de un sitio.
 
-> [!TIP] Esta variable era más común en versiones anteriores de Adobe Analytics. Adobe recomienda usar [eVars](evar.md) y clasificaciones en su lugar.
+>[!TIP] Esta variable era más común en versiones anteriores de Adobe Analytics. Adobe recomienda usar [eVars](evar.md) y clasificaciones en su lugar.
 
-Esta variable es útil para los sitios que tienen más de tres niveles en la estructura del sitio. Por ejemplo: un sitio de medios puede tener 4 niveles en la sección Deportes: `Sports`, `Local Sports`, `Baseball`y `Team name`. Si alguien visita la página de béisbol, tanto deportes como deportes locales y béisbol reflejarán esa visita.
+Esta variable es útil para los sitios que tienen más de tres niveles en la estructura del sitio. Por ejemplo: un sitio de medios puede tener 4 niveles en la sección Deportes: `Sports`, `Local Sports`, `Baseball`y `Team name`. Si alguien visita la página de béisbol, deportes, deportes locales y béisbol, todos los niveles reflejan esa visita.
 
 Adobe admite hasta 5 variables de jerarquía en la implementación. En el momento en que se habilita la jerarquía, elija un delimitador para la variable y el número máximo de niveles para la jerarquía. Por ejemplo, si el delimitador es una coma, la jerarquía tendría un aspecto similar al siguiente:
 
@@ -21,7 +21,7 @@ Adobe admite hasta 5 variables de jerarquía en la implementación. En el moment
 s.hier1 = "Sports,Local Sports,Baseball";
 ```
 
-Asegúrese de que ninguno de los nombres de sección contenga un delimitador. Por ejemplo, si se llama a una de las secciones `Coach Griffin, Jim`, elija un delimitador que no sea una coma. El límite total de variables es de 255 bytes. Los delimitadores pueden constar de varios caracteres, como `||` o `/|\`, que tienen menos probabilidades de aparecer en los valores de las variables.
+Asegúrese de que ninguno de los nombres de sección tenga el delimitador. Por ejemplo, si se llama a una de las secciones `Coach Griffin, Jim`, elija un delimitador que no sea una coma. El límite total de variables es de 255 bytes. Los delimitadores pueden constar de varios caracteres, como `||` o `/|\`, que tienen menos probabilidades de aparecer en los valores de las variables.
 
 ## Ejemplos
 
