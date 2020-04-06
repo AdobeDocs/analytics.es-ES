@@ -1,8 +1,8 @@
 ---
 title: pageURL
 description: Omitir la dirección URL de la página registrada automáticamente en el sitio.
-translation-type: ht
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 AppMeasurement registra automáticamente la dirección URL de la página en cada visita. Si desea omitir la dirección URL de la página registrada automáticamente por AppMeasurement, puede utilizar esta variable. No es necesario configurar esta variable en la mayoría de los casos.
 
-> [!NOTE] Esta variable no es una dimensión disponible en Analysis Workspace. Solo está disponible en Data Warehouse y en Data Feeds. Si desea utilizar la dirección URL de la página como dimensión en Analysis Workspace, considere pasar la variable `pageURL` a una eVar en cada visita.
+>[!NOTE] Esta variable no es una dimensión disponible en Analysis Workspace. Solo está disponible en Data Warehouse y en Data Feeds. Si desea utilizar la dirección URL de la página como dimensión en Analysis Workspace, considere pasar la variable `pageURL` a una eVar en cada visita.
 
 A veces, las direcciones URL tienen más de 255 bytes. AppMeasurement utiliza el parámetro de cadena de consulta de `g` para los primeros 255 bytes de la dirección URL en las solicitudes de imagen. Si una dirección URL tiene más de 255 bytes, el resto de la dirección URL se almacena en el parámetro de cadena de consulta de `-g`. Las cadenas de consulta y protocolo de la dirección URL se incluyen en esta variable.
 
@@ -21,10 +21,10 @@ Launch completa automáticamente la dirección URL de la página. Sin embargo, p
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
-4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
-5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
-6. Busque la sección [!UICONTROL Dirección URL de la página].
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. En [!UICONTROL Actions], haga clic en una [!UICONTROL Adobe Analytics - Set Variables] acción existente o en el icono &#39;+&#39;.
+5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el valor [!UICONTROL Action Type] en [!UICONTROL Set Variables].
+6. Locate the [!UICONTROL Page URL] section.
 
 Puede establecer la dirección URL de la página en cualquier valor de cadena.
 
