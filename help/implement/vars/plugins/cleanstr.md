@@ -1,48 +1,48 @@
 ---
 title: cleanStr
-description: Quitar o reemplazar todos los caracteres innecesarios de una cadena.
+description: Eliminación o sustitución de todos los caracteres innecesarios de una cadena.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: cleanStr
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El complemento elimina o reemplaza todos los caracteres innecesarios de una cadena, incluidos los caracteres de etiqueta HTML, espacios en blanco adicionales, fichas y retornos de línea/carro nuevos. `cleanStr` También reemplaza las comillas simples (`‘` y `’`) izquierda/derecha por comillas simples rectas (`'`). Adobe recomienda utilizar este complemento si desea eliminar caracteres innecesarios de los valores de las variables y la función &quot;Limpiar texto&quot; de Launch no satisface sus necesidades de implementación. Este complemento no es necesario si los datos recopilados no contienen caracteres innecesarios o si la función &quot;Limpiar texto&quot; de Launch es suficiente.
+El complemento `cleanStr` elimina o reemplaza todos los caracteres innecesarios de una cadena, incluidos los caracteres de etiqueta HTML, espacios en blanco adicionales, pestañas y retornos de línea/carro nuevos. It also replaces left/right single quotes (`‘` and `’`) with straight single quotes (`'`). Adobe recomienda utilizar este complemento si desea eliminar caracteres innecesarios de los valores de las variables y la función “Limpiar texto” de Launch no satisface sus necesidades de implementación. Este complemento no es necesario si los datos recopilados no contienen caracteres innecesarios o si la función “Limpiar texto” de Launch es suficiente.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar cleanStr
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,19 +51,19 @@ function cleanStr(str){if("string"===typeof str){str=str.replace(/<\/?[^>]+(>|$)
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `cleanStr` método utiliza los siguientes argumentos:
+El método `cleanStr` utiliza los siguientes argumentos:
 
-* **`str`** (requerido, cadena): El valor que desea limpiar la codificación HTML, los espacios en blanco adicionales, las fichas u otros caracteres innecesarios.
+* **`str`** (obligatorio, cadena): El valor que desea para limpiar la codificación HTML, los espacios en blanco adicionales, las pestañas u otros caracteres innecesarios.
 
-El método devuelve el valor del `str` argumento con todos los caracteres innecesarios eliminados.
+El método recupera el valor del argumento `str` con todos los caracteres innecesarios eliminados.
 
 ## Ejemplos
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
-Suponga lo siguiente (donde los puntos representan espacios y las flechas representan caracteres de tabulación)
+Supongamos lo siguiente (donde los puntos representan espacios y las flechas representan caracteres de tabulación)
 
 ```js
 s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
@@ -75,9 +75,9 @@ Al ejecutar el siguiente código...
 s.eVar1 = cleanStr(s.eVar1)
 ```
 
-...eVar1 se configurará igual a &quot;esto es una cadena de mensajes&quot; (con todos los espacios adicionales y todos los caracteres de tabulación eliminados)
+... eVar1 se configura igual a “esto es una cadena de mensajes” (con todos los espacios adicionales y todos los caracteres de tabulación eliminados).
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
 Si...
 
@@ -85,19 +85,19 @@ Si...
 s.eVar1 = "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
 ```
 
-...y se ejecuta el siguiente código...
+... y se ejecuta el siguiente código...
 
 ```js
 cleanStr(s.eVar1)
 ```
 
-...el valor final de s.eVar1 seguirá siendo:
+... el valor final de s.eVar1 sigue siendo:
 
 ```js
 "»∙∙this∙∙is∙a∙∙»∙messy»string∙∙∙∙"
 ```
 
-La ejecución del complemento por sí sola (sin asignar el valor devuelto a una variable) no &quot;restablece&quot; realmente la variable pasada a través del argumento str.
+La ejecución del complemento por sí sola (sin asignar el valor devuelto a una variable) no “restablece” realmente la variable pasada a través del argumento str.
 
 ## Historial de versiones
 
