@@ -1,8 +1,8 @@
 ---
 title: Solución de problemas de sesión de Adobe Analytics
 description: Obtenga información sobre cómo resolver problemas relacionados con la desconexión de Adobe Analytics.
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -25,7 +25,7 @@ Adobe utiliza un encabezado de autorización cuando realiza solicitudes a Adobe.
 
 Para resolver este problema, Adobe recomienda pedir ayuda al equipo informático de su organización para evitar que un proxy interfiera con el encabezado de autorización.
 
-> [!NOTE] Aunque los miembros de la comunidad de Analytics han encontrado útiles los siguientes vínculos, no son propiedad de Adobe. Tenga en cuenta esta nota cuando visualice su contenido.
+>[!NOTE] Aunque los miembros de la comunidad de Analytics han encontrado útiles los siguientes vínculos, no son propiedad de Adobe. Tenga en cuenta esta nota cuando visualice su contenido.
 
 Encontrará información sobre los proxies de Symantec y sobre los encabezados de autenticación aquí:
 
