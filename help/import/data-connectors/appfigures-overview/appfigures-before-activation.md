@@ -2,8 +2,8 @@
 description: Antes de activar esta integración, revise los siguientes elementos en relación con las implementaciones de Adobe Analytics® y del software de correo electrónico.
 title: Antes de activar esta integración
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -56,9 +56,9 @@ La siguiente tabla describe las variables de Analytics que se activan automátic
 
 ### Variables requeridas {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
-> [!NOTE] Esta integración usa variables específicas para los datos de tiendas de aplicaciones, por lo que no es necesario asignar variables y eventos de comercio personalizados.
+>[!NOTE] Esta integración usa variables específicas para los datos de tiendas de aplicaciones, por lo que no es necesario asignar variables y eventos de comercio personalizados.
 
-| Tipo de variable | Nombre | Método de obtención de datos | Descripción |
+| Tipo de variable | Nombre | Método de población | Descripción |
 |---|---|---|---|
 | eVar | ID de objeto de la tienda de aplicaciones | Importado desde appFigures. | Configure esta eVar con caducidad de visita, asignación más reciente y subrelaciones básicas. |
 | Evento (numérico) | Descargas de la tienda de aplicaciones | Importado desde appFigures. | El número de descargas de aplicaciones móviles. |
