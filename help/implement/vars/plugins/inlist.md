@@ -2,47 +2,47 @@
 title: inList
 description: Compruebe si un valor está contenido en otro valor delimitado por caracteres.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: inList
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El complemento le permite comprobar si ya existe un valor en una cadena delimitada o en un objeto de matriz JavaScript. `inList` Otros complementos dependen del `inList` complemento para funcionar. Este complemento proporciona una clara ventaja sobre el método JavaScript `indexOf()` , en el que no coincide con cadenas parciales. Por ejemplo, si utilizó este complemento para buscar `"event2"`, no coincidirá con una cadena que contenga `"event25"`. Este complemento no es necesario si no necesita comprobar los valores de cadenas o matrices delimitadas o si desea utilizar su propia `indexOf()` lógica.
+El complemento `inList` le permite comprobar si ya existe un valor en una cadena delimitada o en un objeto de matriz JavaScript. Otros complementos dependen del complemento `inList` para funcionar. Este complemento proporciona una clara ventaja sobre el método `indexOf()` de JavaScript, que no comprueba si coincide con cadenas parciales. Por ejemplo, si utilizó este complemento para buscar `"event2"`, no coincidirá con una cadena que contenga `"event25"`. Este complemento no es necesario si no necesita comprobar los valores de cadenas o matrices delimitadas o si desea utilizar su propia lógica `indexOf()`.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
-   * Tipo de acción: Inicializar enList
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
+   * Tipo de acción: Inicializar inList
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,20 +51,20 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `inList` método utiliza los siguientes argumentos:
+El método `inList` utiliza los siguientes argumentos:
 
-* **`lv`** (requerido, cadena o matriz): Una lista delimitada de valores o un objeto de matriz JavaScript para buscar
-* **`vtc`** (requerido, cadena): El valor que se va a buscar
-* **`d`** (opcional, cadena): El delimitador utilizado para separar valores individuales en el `lv` argumento. El valor predeterminado es una coma (`,`) cuando no se establece.
+* **`lv`** (obligatorio, cadena o matriz): Una lista delimitada de valores o un objeto de matriz JavaScript que buscar
+* **`vtc`** (obligatorio, cadena): El valor que se va a buscar
+* **`d`** (opcional, cadena): El delimitador utilizado para separar valores individuales en el argumento `lv`. Si no se configura de forma distinta, el valor predeterminado es una coma (`,`).
 * **`cc`** (opcional, booleano): Si se establece en `true`, se realiza una comprobación que distingue entre mayúsculas y minúsculas. Si se define como `false` o se omite, se realiza una comprobación que no distingue entre mayúsculas y minúsculas. El valor predeterminado es `false`.
 
 Llamar a este método devuelve `true` si encuentra una coincidencia y `false` si no encuentra una coincidencia.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
 Si...
 
@@ -72,15 +72,15 @@ Si...
 s.events="event22,event24";
 ```
 
-...y se ejecuta el siguiente código...
+... y se ejecuta el siguiente código...
 
 ```js
 if(s.inList(s.events,"event22"))
 ```
 
-...la afirmación condicional if será true
+... el enunciado condicional tendrá el valor true
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
 Si...
 
@@ -88,15 +88,15 @@ Si...
 s.events="event22,event24";
 ```
 
-...y se ejecuta el siguiente código...
+... y se ejecuta el siguiente código...
 
 ```js
 if(s.inList(s.events,"event2"))
 ```
 
-...la afirmación condicional if será false porque la llamada inList no realizó una coincidencia exacta entre event2 y cualquiera de los valores delimitados de s.events
+... el enunciado condicional si tendrá un valor false porque la llamada inList no encontró una coincidencia exacta entre event2 y cualquiera de los valores delimitados de s.events
 
-### Ejemplo n.º 3
+### Ejemplo 3
 
 Si...
 
@@ -104,15 +104,15 @@ Si...
 s.events="event22,event24";
 ```
 
-...y se ejecuta el siguiente código...
+... y se ejecuta el siguiente código...
 
 ```js
 if(!s.inList(s.events,"event23"))
 ```
 
-...la afirmación condicional if será verdadera porque la llamada inList no realizó una coincidencia exacta entre event23 y cualquiera de los valores delimitados en s.events (observe el operador &quot;NOT&quot; al principio de la llamada a la variable inList).
+... el enunciado condicional tendrá el valor true porque la llamada inList no encontró una coincidencia exacta entre event23 y cualquiera de los valores delimitados en s.events (observe el operador “NO” al principio de la llamada a la variable inList).
 
-### Ejemplo n.º 4
+### Ejemplo 4
 
 Si...
 
@@ -120,15 +120,15 @@ Si...
 s.events = "event22,event23";
 ```
 
-...y se ejecuta el siguiente código...
+... y se ejecuta el siguiente código...
 
 ```js
 if(s.inList(s.events,"EVenT23","",1))
 ```
 
-...la afirmación condicional if será false.  Aunque este ejemplo no es práctico, demuestra la necesidad de tener cuidado al utilizar el indicador que distingue entre mayúsculas y minúsculas.
+... el enunciado condicional si tendrá un valor false.  Aunque este ejemplo no es práctico, demuestra la necesidad de tener cuidado al utilizar el indicador que distingue entre mayúsculas y minúsculas.
 
-### Ejemplo n.º 5
+### Ejemplo 5
 
 Si...
 
@@ -136,23 +136,23 @@ Si...
 s.linkTrackVars = "events,eVar1";
 ```
 
-...y se ejecuta el siguiente código...
+... y se ejecuta el siguiente código...
 
 ```js
 if(s.inList(s.linkTrackVars,"eVar1","|"))
 ```
 
-...la afirmación condicional if será false.  El valor del argumento d pasado a la llamada (por ejemplo: &quot;|&quot;) supone que los valores individuales de s.linkTrackVars están delimitados por un carácter de barra vertical, mientras que, en realidad, los valores están delimitados por una coma.  En este caso, el complemento intentará hacer una coincidencia entre todo el valor de s.linkTrackVars (por ejemplo: &quot;events,eVar1&quot;) y el valor que se debe buscar (por ejemplo: &quot;eVar1&quot;).
+... el enunciado condicional si tendrá un valor false.  El valor del argumento d pasado a la llamada (es decir, “|”) supone que los valores individuales de s.linkTrackVars están delimitados por un carácter de barra vertical, mientras que en realidad, los valores están delimitados por una coma.  En este caso, el complemento intentará encontrar una coincidencia entre todo el valor de s.linkTrackVars (es decir, “events,eVar1”) y el valor que se debe buscar (es decir, “eVar1”).
 
 ## Historial de versiones
 
 ### v2.1 (26 de septiembre de 2019)
 
-* Se agregó la opción para que el `cc` argumento no sea booleano. Por ejemplo, `1` es un valor válido para la comprobación de mayúsculas y minúsculas.
+* Se ha agregado la opción para que el argumento `cc` no sea booleano. Por ejemplo, `1` es un valor válido para la comprobación de mayúsculas y minúsculas.
 
 ### v2.0 (17 de abril de 2018)
 
-* Versión puntual (recompilada, tamaño de código más pequeño).
+* Versión puntual (compilada de nuevo, con un tamaño de código más pequeño).
 
 ### v1.01 (27 de septiembre de 2017)
 
