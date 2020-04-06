@@ -1,48 +1,48 @@
 ---
 title: pt
-description: Ejecuta una función en una lista de variables.
+description: Ejecute una función en una lista de variables.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: pt
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `pt` complemento ejecuta una función o un método en una lista de variables de Analytics. Por ejemplo, puede ejecutar el [`clearVars`](../functions/clearvars.md) método de forma selectiva en varias variables sin llamar manualmente al método cada vez. Otros complementos dependen de este código para ejecutarse correctamente. Este complemento no es necesario si no necesita ejecutar una función específica en más de una variable de Analytics a la vez o si no utiliza ningún complemento dependiente.
+El complemento `pt` ejecuta una función o un método en una lista de variables de Analytics. Por ejemplo, puede ejecutar el método [`clearVars`](../functions/clearvars.md) de forma selectiva en varias variables sin llamar manualmente al método cada vez. Otros complementos dependen de este código para ejecutarse correctamente. Este complemento no es necesario si no necesita ejecutar una función específica en más de una variable de Analytics a la vez o si no utiliza ningún complemento dependiente.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar pt
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,28 +51,28 @@ Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `pt` método utiliza los siguientes argumentos:
+El método `pt` utiliza los siguientes argumentos:
 
-* **`l`** (requerido, cadena): Una lista de variables con las que se puede ejecutar la función contenida en el `cf` argumento.
-* **`de`** (opcional, cadena): El delimitador que separa la lista de variables del `l` argumento. Valores predeterminados en una coma (`,`).
-* **`cf`** (requerido, cadena): Nombre de la función de llamada de retorno contenida en el objeto AppMeasurement que se va a llamar en relación con cada una de las variables contenidas en el `l` argumento.
-* **`fa`** (opcional, cadena): Si la función del `cf` argumento necesita argumentos adicionales cuando se ejecute, inclúyalos aquí. El valor predeterminado es `undefined`.
+* **`l`** (obligatorio, cadena): Una lista de variables con las que se puede ejecutar la función contenida en el argumento `cf`.
+* **`de`** (opcional, cadena): El delimitador que separa la lista de variables del argumento `l`. El valor predeterminado es una coma (`,`).
+* **`cf`** (obligatorio, cadena): El nombre de la función de llamada de retorno contenida en el objeto AppMeasurement al que se va a llamar en relación con cada una de las variables contenidas en el argumento `l`.
+* **`fa`** (opcional, cadena): Si la función del argumento `cf` necesita argumentos adicionales cuando se ejecute, inclúyalos aquí. El valor predeterminado es `undefined`.
 
-Al llamar a este método se devuelve un valor si la función de llamada de retorno (en el `cf` argumento) devuelve un valor.
+Llamar a este método devuelve un valor si la función de llamada de retorno (en el argumento `cf`) devuelve un valor.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
-El código siguiente forma parte del complemento getQueryParam.  Ejecuta la función de ayuda getParameterValue con cada uno de los pares de clave-valor que se encuentran en la cadena de consulta de la dirección URL (fullQueryString).  En otro caso, para extraer cada par clave-valor, fullQueryString debe estar delimitado y dividido por un carácter &quot;&amp;&quot; de símbolo &amp;. El parámetro parameterKey hace referencia al parámetro de cadena de consulta que el complemento intenta extraer específicamente de la cadena de consulta
+El código siguiente forma parte del complemento getQueryParam.  Ejecuta la función de ayuda getParameterValue con cada uno de los pares clave-valor que se encuentran en la cadena de consulta de la dirección URL (fullQueryString).  Para extraer cada par clave-valor, fullQueryString debe estar delimitado y dividido por un carácter ampersand “&amp;”. El parámetro parameterKey hace referencia al parámetro de cadena de consulta que el complemento intenta extraer específicamente de la cadena de consulta.
 
 ```javascript
 returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
 ```
 
-La línea anterior es un método abreviado para ejecutar código similar a lo siguiente:
+La línea anterior es un método abreviado para ejecutar código similar a esto:
 
 ```js
 var returnValue = "",
@@ -89,12 +89,12 @@ for(var i = 0; i < parametersLength; i++)
 
 ### 2.01 (24 de septiembre de 2019)
 
-* Cambios menores en el código para reducir el tamaño total
+* Cambios menores en el código para reducir el tamaño total.
 
 ### 2.0 (17 de abril de 2018)
 
-* Versión puntual (recompilada, tamaño de código más pequeño).
-* Se agregó compatibilidad con el código H y AppMeasurement.
+* Versión puntual (compilada de nuevo, con un tamaño de código más pequeño).
+* Se ha agregado compatibilidad con el código H y con AppMeasurement.
 
 ### 1.0 (23 de septiembre de 2013)
 
