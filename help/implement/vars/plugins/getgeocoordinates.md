@@ -1,48 +1,48 @@
 ---
 title: getGeoCoordinates
-description: Rastree la geoLocation de un visitante.
+description: Rastree la geolocalización de un visitante.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: getGeoCoordinates
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `getGeoCoordinates` complemento le permite capturar la latitud y la longitud de los dispositivos de los visitantes. Adobe recomienda utilizar este complemento si desea capturar datos de ubicación geográfica en variables de Analytics.
+El complemento `getGeoCoordinates` le permite registrar la latitud y la longitud de los dispositivos de los visitantes. Adobe recomienda utilizar este complemento si desea obtener datos de localización geográfica en variables de Analytics.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar getGeoCoordinates
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -51,21 +51,21 @@ s.getGeoCoordinates=function(){var d=this,b="",a=d.c_r("s_ggc").split("|"),e={ti
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `getGeoCoordinates` método no utiliza ningún argumento. Devuelve uno de los siguientes valores:
+El método `getGeoCoordinates` no utiliza ningún argumento. Devuelve uno de los siguientes valores:
 
-* `"geo coordinates not available"`:: Para dispositivos que no tienen datos de ubicación geográfica disponibles en el momento en que se ejecuta el complemento. Este valor es común en la primera visita individual de la visita, especialmente cuando los visitantes primero necesitan proporcionar consentimiento para rastrear su ubicación.
-* `"error retrieving geo coordinates"`:: Cuando el complemento encuentra algún error al intentar recuperar la ubicación del dispositivo
-* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`:: Donde [LATITUDE]/[LONGITUDE] son la latitud y la longitud, respectivamente
+* `"geo coordinates not available"`: Para dispositivos que no tienen datos de localización geográfica disponibles cuando se ejecuta el complemento. Este valor es habitual en la primera visita, especialmente cuando los visitantes deben consentir por primera vez que se rastree su ubicación.
+* `"error retrieving geo coordinates"`: Cuando el complemento encuentra algún error al intentar recuperar la ubicación del dispositivo.
+* `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Donde [LATITUDE]/[LONGITUDE] representan la latitud y la longitud, respectivamente.
 
-> [!NOTE] Los valores de coordenadas se redondean al cuarto decimal más cercano. Por ejemplo, el valor de `"40.438635333"` se redondea a `"40.4386"` para limitar el número de valores únicos que se van a capturar. Los valores están lo suficientemente cerca como para señalar la ubicación exacta del dispositivo a unos 6 metros.
+>[!NOTE] Los valores de coordenadas se redondean al cuarto decimal más cercano. Por ejemplo, el valor de `"40.438635333"` se redondea a `"40.4386"` para limitar el número de valores únicos registrados. Los valores están lo suficientemente cerca como para señalar la ubicación exacta del dispositivo a unos 6 metros.
 
-Este complemento utiliza una cookie denominada `"s_ggc"` para almacenar las coordenadas entre visitas si es necesario.
+Este complemento utiliza una cookie denominada `"s_ggc"` para almacenar las coordenadas entre cada visita si fuese necesario.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
 El siguiente código...
 
@@ -73,11 +73,11 @@ El siguiente código...
 s.eVar1 = s.getGeoCoordinates();
 ```
 
-...establece eVar1 en uno de los valores de retorno anteriores, según el estado del dispositivo del visitante
+... establece eVar1 en uno de los valores de retorno anteriores, según el estado del dispositivo del visitante.
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
-El siguiente código extrae la latitud y la longitud en sus propias variables denominadas finalLatitude y finalLongitude para su uso en otros códigos o aplicaciones
+El siguiente código extrae la latitud y la longitud en sus propias variables denominadas finalLatitude y finalLongitude para su uso en otros códigos o aplicaciones.
 
 ```js
 var coordinates = s.getGeoCoordinates();
