@@ -1,8 +1,8 @@
 ---
 title: Integrar módulo
 description: El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización.
-translation-type: ht
-source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización. Esta integración ofrece la oportunidad de establecer una conexión de datos bidireccional. Generalmente, el uso del módulo Integrate lo gestiona un socio de Adobe.
 
-> [!NOTE] La solicitud de datos de socios en la implementación puede aumentar los retrasos entre la carga de página y los datos enviados a los servidores de recopilación de datos de Adobe. Si un visitante carga una página nueva antes de que se envíen los datos, esa página no se registra.
+>[!NOTE] La solicitud de datos de socios en la implementación puede aumentar los retrasos entre la carga de página y los datos enviados a los servidores de recopilación de datos de Adobe. Si un visitante carga una página nueva antes de que se envíen los datos, esa página no se registra.
 
 ## Flujo de trabajo del módulo Integrate
 
@@ -30,7 +30,7 @@ Para obtener el código del módulo, es necesario que un usuario tenga acceso al
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
-1. En la navegación superior, haga clic en [!UICONTROL Administración] > [!UICONTROL Administrador de códigos].
+1. En la barra de navegación superior, haga clic en [!UICONTROL Admin] > [!UICONTROL Code Manager].
 1. Descargue la biblioteca de AppMeasurement de JavaScript más reciente.
 1. Una vez descargado, descomprima el archivo y busque `AppMeasurement_Module_Integrate.js`.
 
