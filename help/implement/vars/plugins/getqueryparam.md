@@ -1,43 +1,43 @@
 ---
 title: getQueryParam
-description: Extraiga el valor del parámetro de cadena de consulta de una dirección URL.
+description: Extraiga el valor de un parámetro de cadena de consulta de una dirección URL.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: getQueryParam
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `getQueryParam` complemento le permite extraer el valor de cualquier parámetro de cadena de consulta contenido en una dirección URL. Resulta útil para extraer códigos de campaña, tanto internos como externos, de las direcciones URL de las páginas de aterrizaje. También resulta útil al extraer términos de búsqueda u otros parámetros de cadena de consulta.
+El complemento `getQueryParam` le permite extraer el valor de cualquier parámetro de cadena de consulta contenido en una dirección URL. Resulta útil para extraer códigos de campaña, tanto internos como externos, de las direcciones URL de las páginas de aterrizaje. También resulta útil al extraer términos de búsqueda u otros parámetros de cadena de consulta.
 
-Este complemento proporciona funciones sólidas para analizar direcciones URL complejas, incluidos hashes y direcciones URL que contienen varios parámetros de cadena de consulta. Si solo necesita parámetros de cadena de consulta simples, Adobe recomienda utilizar las funciones de parámetro de URL en Launch o el [`Util.getQueryParam()`](../functions/util-getqueryparam.md) método incluido en AppMeasurement.
+Este complemento proporciona funciones sólidas para analizar direcciones URL complejas, incluidos hashes y direcciones URL que contienen varios parámetros de cadena de consulta. Si solo necesita parámetros de cadena de consulta simples, Adobe recomienda utilizar las funciones de parámetro de URL en Launch o el método [`Util.getQueryParam()`](../functions/util-getqueryparam.md) incluido en AppMeasurement.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
    * Tipo de acción: Inicializar getQueryParam
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
@@ -52,24 +52,24 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `getQueryParam` método utiliza los siguientes argumentos:
+El método `getQueryParam` utiliza los siguientes argumentos:
 
-* **`qsp`** (obligatorio): Lista delimitada por comas de parámetros de cadena de consulta que se buscarán en la dirección URL. No distingue entre mayúsculas y minúsculas.
+* **`qsp`** (obligatorio): Una lista delimitada por comas de parámetros de cadena de consulta que se buscarán en la dirección URL. Sin distinción de mayúsculas y minúsculas.
 * **`de`** (opcional): El delimitador que se usará si coinciden varios parámetros de cadena de consulta. El valor predeterminado es una cadena vacía.
-* **`url`** (opcional): Dirección URL, cadena o variable personalizada desde la que extraer los valores de parámetro de cadena de consulta. El valor predeterminado es `window.location`.
+* **`url`** (opcional): Una dirección URL, cadena o variable personalizada desde la que extraer los valores de parámetro de cadena de consulta. El valor predeterminado es `window.location`.
 
-Al llamar a este método se devuelve un valor según los argumentos anteriores y la dirección URL:
+Llamar a este método devuelve un valor según los argumentos anteriores y la dirección URL:
 
 * Si no se encuentra un parámetro de cadena de consulta coincidente, el método devuelve una cadena vacía.
 * Si se encuentra un parámetro de cadena de consulta coincidente, el método devuelve el valor del parámetro de cadena de consulta.
 * Si se encuentra un parámetro de cadena de consulta coincidente pero el valor está vacío, el método devuelve `true`.
-* Si se encuentran varios parámetros de cadena de consulta coincidentes, el método devuelve una cadena con cada valor de parámetro delimitado por la cadena en el `de` argumento.
+* Si se encuentran varios parámetros de cadena de consulta coincidentes, el método devuelve una cadena con cada valor de parámetro delimitado por la cadena en el argumento `de`.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
 Si la dirección URL actual es la siguiente:
 
@@ -77,13 +77,13 @@ Si la dirección URL actual es la siguiente:
 http://www.abc123.com/?cid=trackingcode1
 ```
 
-El siguiente código establecerá s.campaign como &quot;trackingcode1&quot;:
+El siguiente código establecerá s.campaign en “trackingcode1”:
 
 ```js
 s.campaign=s.getQueryParam('cid');
 ```
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
 Si la dirección URL actual es la siguiente:
 
@@ -91,13 +91,13 @@ Si la dirección URL actual es la siguiente:
 http://www.abc123.com/?cid=trackingcode1&ecid=123456
 ```
 
-El siguiente código establecerá s.campaign como &quot;trackingcode1:123456&quot;:
+El siguiente código establecerá s.campaign en “trackingcode1:123456”:
 
 ```js
 s.campaign=s.getQueryParam('cid,ecid',':');
 ```
 
-### Ejemplo n.º 3
+### Ejemplo 3
 
 Si la dirección URL actual es la siguiente:
 
@@ -105,13 +105,13 @@ Si la dirección URL actual es la siguiente:
 http://www.abc123.com/?cid=trackingcode1&ecid=123456
 ```
 
-El siguiente código establecerá s.campaign como &quot;trackingcode1123456&quot;:
+El siguiente código establecerá s.campaign en “trackingcode1123456”:
 
 ```js
 s.campaign=s.getQueryParam('cid,ecid');
 ```
 
-### Ejemplo n.º 4
+### Ejemplo 4
 
 Si la dirección URL actual es la siguiente:
 
@@ -119,13 +119,13 @@ Si la dirección URL actual es la siguiente:
 http://www.abc123.com/?cid=trackingcode1&ecid=123456#location
 ```
 
-El siguiente código establecerá s.campaign en &quot;123456&quot;:
+El siguiente código establecerá s.campaign en “123456”:
 
 ```js
 s.campaign=s.getQueryParam('ecid');
 ```
 
-### Ejemplo n.º 5
+### Ejemplo 5
 
 Si la dirección URL actual es la siguiente:
 
@@ -133,23 +133,23 @@ Si la dirección URL actual es la siguiente:
 http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
 ```
 
-El siguiente código establecerá s.campaign en &quot;123456&quot;
+El siguiente código establecerá s.campaign en “123456”
 
 ```js
 s.campaign=s.getQueryParam('ecid');
 ```
 
-**Nota:** El complemento reemplaza el carácter hash de la dirección URL de Check por un signo de interrogación si no existe un signo de interrogación.  Si la dirección URL contiene un signo de interrogación que viene antes del carácter hash, el complemento reemplazará el carácter hash de la dirección URL de Check por un símbolo de interrogación;
+**Nota:** El complemento reemplaza el carácter hash de comprobación de la dirección URL por un signo de interrogación si no lo hubiera.  Si la dirección URL contiene un signo de interrogación antes del carácter hash, el complemento reemplazará el carácter hash de comprobación de la dirección URL por un signo ampersand;
 
-### Ejemplo n.º 6
+### Ejemplo 6
 
-Si la dirección URL actual es la siguiente...
+Si la dirección URL actual es la siguiente:
 
 ```js
 http://www.abc123.com/
 ```
 
-...y si la variable s.testURL está configurada de la siguiente manera:
+... y si la variable s.testURL está establecida de la siguiente manera:
 
 ```js
 s.testURL="http://www.abc123.com/?cid=trackingcode1&ecid=123456#location&pos=300";
@@ -161,35 +161,35 @@ El siguiente código no configurará s.campaign en absoluto:
 s.campaign=s.getQueryParam('cid');
 ```
 
-Sin embargo, el siguiente código establecerá s.campaign como &quot;trackingcode1&quot;:
+Sin embargo, el siguiente código establecerá s.campaign como “trackingcode1”:
 
 ```js
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
 
-**Nota:** el tercer parámetro puede ser cualquier cadena o variable que el código utilice para intentar encontrar los parámetros de cadena de consulta en
+**Nota:** El tercer parámetro puede ser cualquier cadena o variable que el código utilice para intentar encontrar los parámetros de cadena de consulta en
 
-El siguiente código establecerá s.eVar2 igual a &quot;123456|trackingcode1|true|300&quot;:
+El siguiente código establecerá s.eVar2 en “123456|trackingcode1|true|300”:
 
 ```js
 s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 ```
 
-* El valor de 123456 se obtiene a partir del parámetro ecid en la variable s.testURL
-* El valor de trackingcode1 proviene del parámetro cid en la variable s.testURL
-* El valor de true proviene de la existencia (pero no del valor) del parámetro de ubicación después del carácter hash en la variable s.testURL
+* El valor de 123456 se obtiene del parámetro ecid en la variable s.testURL
+* El valor de trackingcode1 se obtiene del parámetro cid en la variable s.testURL
+* El valor de true se obtiene de la existencia (pero no del valor) del parámetro de ubicación después del carácter hash en la variable s.testURL
 
-El valor de 300 se obtiene a partir del valor del parámetro pos en la variable s.testURL
+El valor de 300 se obtiene del valor del parámetro pos en la variable s.testURL
 
 ## Historial de versiones
 
 ### 3.3 (24 de septiembre de 2019)
 
-* Se omitió la lógica innecesaria para reducir el tamaño del código
+* Se ha omitido la lógica innecesaria para reducir el tamaño del código
 
 ### 3.2 (15 de mayo de 2018)
 
-* Se han movido `findParameterValue` y `getParameterValue` las funciones a la `getQueryParam` función
+* Se han movido las funciones `findParameterValue` y `getParameterValue` a la función `getQueryParam`
 
 ### 3.1 (10 de mayo de 2018)
 
@@ -197,25 +197,25 @@ El valor de 300 se obtiene a partir del valor del parámetro pos en la variable 
 
 ### 3.0 (16 de abril de 2018)
 
-* Versión puntual (recompilada, tamaño de código más pequeño).
-* Se cambió el nombre de las funciones de ayuda a `findParameterValue` y `getParameterValue` para fines de legibilidad.
-* Se ha eliminado la necesidad de agregar un argumento para encontrar los parámetros contenidos en el hash de URL
+* Versión puntual (compilada de nuevo, con un tamaño de código más pequeño).
+* Se ha cambiado el nombre de las funciones de ayuda a `findParameterValue` y `getParameterValue` con fines de legibilidad.
+* Se ha eliminado la necesidad de agregar un argumento para encontrar los parámetros contenidos en el hash de la dirección URL
 
-### 2,5 (8 de enero de 2016)
+### 2.5 (8 de enero de 2016)
 
-* Compatible con el código H y AppMeasurement (requiere `s.pt` AppMeasurement).
+* Compatible con el código H y con AppMeasurement (requiere `s.pt` con AppMeasurement).
 
 ### 2.4
 
-* Se agregó el `h` parámetro, que permite que el código encuentre los parámetros de cadena de consulta encontrados después del carácter hash (`#`)
+* Se ha agregado el parámetro `h`, que permite que el código encuentre los parámetros de cadena de consulta que se encuentren después del carácter hash (`#`)
 
 ### 2.3
 
-* Se corrigió un problema de regresión en el cual el complemento solo funcionaba cuando el hash estaba presente después del código de seguimiento
+* Se ha corregido un problema de regresión en el que el complemento solo funcionaba cuando el hash aparecía después del código de seguimiento
 
 ### 2.2
 
-* Ahora elimina los caracteres hash (y todo después) del valor devuelto
+* Ahora elimina los caracteres hash (y todo lo que haya a continuación) del valor devuelto
 
 ### 2.1
 
