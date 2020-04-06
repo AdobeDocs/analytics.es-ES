@@ -4,8 +4,8 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: Calcular métricas
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Se describe cómo calcular métricas habituales mediante fuentes de datos.
 
-> [!IMPORTANT] Las visitas normalmente excluidas de Adobe Analytics se incluyen en las fuentes de datos. Se utiliza `exclude_hit > 0` para eliminar visitas excluidas de consultas sobre datos sin procesar. La información con origen de datos también se incluye en las fuentes de datos. Si desea excluir los orígenes de datos, excluya todas las filas con `hit_source = 5,7,8,9`.
+>[!IMPORTANT] Las visitas normalmente excluidas de Adobe Analytics se incluyen en las fuentes de datos. Se utiliza `exclude_hit > 0` para eliminar visitas excluidas de consultas sobre datos sin procesar. La información con origen de datos también se incluye en las fuentes de datos. Si desea excluir los orígenes de datos, excluya todas las filas con `hit_source = 5,7,8,9`.
 
 ## Vistas de páginas
 
@@ -25,7 +25,7 @@ Se describe cómo calcular métricas habituales mediante fuentes de datos.
 1. Concatenar `post_visid_high`, `post_visid_low`, `visit_num` y `visit_start_time_gmt`.
 1. Contar el número único de valores.
 
-> [!NOTE] Las irregularidades de Internet, las irregularidades del sistema o el uso del ID de visitante personalizado no suelen utilizar los mismos valores `visit_num` para las distintas visitas. Se utiliza `visit_start_time_gmt` al contar las visitas para garantizar que el recuento es correcto.
+>[!NOTE] Las irregularidades de Internet, las irregularidades del sistema o el uso del ID de visitante personalizado no suelen utilizar los mismos valores `visit_num` para las distintas visitas. Se utiliza `visit_start_time_gmt` al contar las visitas para garantizar que el recuento es correcto.
 
 ## Visitantes
 
