@@ -2,31 +2,31 @@
 title: getPercentPageViewed
 description: Recupere el porcentaje de la página que vio el visitante.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: getPercentPageViewed
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-The `getPercentPageViewed` plug-in measures a visitor&#39;s scroll activity to see how much of a page they view before moving on to another page. Este complemento no es necesario si las páginas tienen una altura pequeña o no desean medir la actividad de desplazamiento.
+El complemento `getPercentPageViewed` mide la actividad de desplazamiento de un visitante para comprobar cuánto ve de una página antes de pasar a otra. Este complemento no es necesario si las páginas tienen poca altura o si no desea medir la actividad de desplazamiento.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -41,29 +41,29 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `getPercentPageViewed` método utiliza los siguientes argumentos:
+El método `getPercentPageViewed` utiliza los siguientes argumentos:
 
-* **`pid`** (opcional, cadena):  Identificador basado en páginas que se puede correlacionar con los porcentajes proporcionados por las mediciones del complemento.  Valores predeterminados de la `pageName` variable.
-* **`ch`** (opcional, booleano):  Configúrelo en `false` (o `0`) si no desea que el complemento tenga en cuenta los cambios realizados en el tamaño de una página después de su carga inicial. Si se omite, este argumento tiene el valor predeterminado `true`. Adobe recomienda omitir este argumento en la mayoría de los casos.
+* **`pid`** (opcional, cadena): Identificador basado en páginas que usted puede correlacionar con los porcentajes que ofrecen las mediciones del complemento.  El valor predeterminado es la variable `pageName`.
+* **`ch`** (opcional, booleano): Configúrelo en `false` (o `0`) si no desea que el complemento tenga en cuenta los cambios realizados en el tamaño de una página después de su carga inicial. Si se omite, el valor predeterminado de este argumento es `true`. Adobe recomienda omitir este argumento en la mayoría de los casos.
 
 Llamar a este método no devuelve nada; en su lugar, establece las siguientes variables:
 
-* `s._ppvPreviousPage`:: Nombre de la página anterior vista. Las medidas de desplazamiento final de la página actual no estarán disponibles hasta que se cargue una página nueva.
+* `s._ppvPreviousPage`: El nombre de la página anterior que vio el visitante. Las mediciones de desplazamiento finales de la página actual no estarán disponibles hasta que se cargue una página nueva.
 * `s._ppvHighestPercentViewed`: El porcentaje más alto de la página anterior que vio el visitante (en altura). El punto más alejado al que se desplazó el visitante en la página anterior.
-* `s._ppvInitialPercentViewed`: el porcentaje de la página anterior que era visible cuando se cargó la página.
-* `s._ppvHighestPixelsSeen`: el número más elevado de píxeles vistos (en cuanto a altura) al desplazarse hacia abajo el visitante en la página anterior.
-* `s._ppvFoldsSeen`:: El mayor número de &quot;pliegues de página&quot; alcanzado cuando el visitante se desplazó hacia abajo en la página anterior. Esta variable incluye el pliegue &quot;principio de la página&quot;.
-* `s._ppvFoldsAvailable`:: El número total de &quot;pliegues de página&quot; disponibles para desplazarse hacia abajo en la página anterior.
+* `s._ppvInitialPercentViewed`: El porcentaje de la página anterior que era visible cuando se cargó la página.
+* `s._ppvHighestPixelsSeen`: El número más elevado de píxeles vistos (en cuanto a altura) al desplazarse hacia abajo el visitante en la página anterior.
+* `s._ppvFoldsSeen`: El número más elevado de “pliegues de página” alcanzados al desplazarse hacia abajo el visitante en la página anterior. Esta variable incluye el pliegue “principio de página”.
+* `s._ppvFoldsAvailable`: El número total de “pliegues de página” disponibles para desplazarse hacia abajo en la página anterior.
 
 Asigne una o más de estas variables a las eVars para ver los datos de dimensión en los informes.
 
-Este complemento crea una cookie de origen llamada `s_ppv` que contiene los valores anteriores. caduca al final de la sesión del explorador.
+Este complemento crea una cookie de origen llamada `s_ppv` que contiene los valores anteriores. Caduca al terminar la sesión del explorador.
 
 ## Llamadas de ejemplo
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
 El siguiente código...
 
@@ -77,18 +77,18 @@ if(s._ppvPreviousPage)
 ```
 
 * Determina si s.pageName está establecido y, si es así, el código ejecutará la función getPercentPageViewed
-* Cuando se ejecute la función getPercentPageViewed, creará las variables descritas en la sección &quot;Devuelve&quot; anterior
-* Si las variables &quot;Devuelve&quot; se han establecido correctamente:
-   * El código establecerá s.prop1 igual al valor de s._ppvPreviousPage (es decir, el valor anterior de s.pageName o la página anterior)
-   * El código también establecerá s.prop2 en el porcentaje más alto visto de la página anterior y en el porcentaje inicial visto de la página anterior, junto con la cantidad de pliegues a los que llegó el visitante y la cantidad de pliegues disponibles
+* Cuando se ejecuta la función getPercentPageViewed, creará las variables descritas en la sección “Devuelve” anterior
+* Si las variables “Devuelve” se han configurado correctamente:
+   * El código establece s.prop1 en el valor de s._ppvPreviousPage (es decir, el valor anterior de s.pageName o la página anterior)
+   * El código también establece s.prop2 en el mayor porcentaje visto de la página anterior y en el porcentaje inicial visto de la página anterior, junto con la cantidad de pliegues que alcanzó el visitante y el número de pliegues disponibles
 
-**Nota**:  Si toda una página está visible la primera vez que se carga, tanto la dimensión Mayor porcentaje visto como el Porcentaje inicial visto serían iguales a 100, y tanto las carpetas vistas como las carpetas disponibles serían iguales a 1.   Cuando una página entera NO está visible cuando se carga por primera vez pero el visitante nunca termina de desplazarse hacia abajo por la página antes de moverse a la página siguiente, las dimensiones Mayor porcentaje visto y Porcentaje inicial visto serían iguales al mismo valor.
+**Nota**: Si una página es visible por completo la primera vez que se carga, tanto la dimensión de mayor porcentaje visto como la de porcentaje inicial visto tendrán un valor 100, y tanto los pliegues vistos como los pliegues disponibles tendrán un valor 1.   Cuando una página no es visible por completo la primera vez que se carga pero el visitante no termina de desplazarse hacia abajo antes de pasar a la siguiente página, entonces las dimensiones de mayor porcentaje visto y de porcentaje inicial visto tendrán el mismo valor.
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
 Supongamos que s.prop5 se ha reservado para capturar un “tipo de página” resumido en lugar del nombre completo de la página.
 
-El siguiente código determina si se ha configurado s.prop5 y, si es así, almacenará su valor como la &quot;página anterior&quot; para correlacionarse con el porcentaje más alto visto y las dimensiones del porcentaje inicial visto.  El valor se seguirá almacenando en la variable s._ppvPreviousPage pero se puede tratar como si fuera el tipo de página anterior en lugar del nombre de página anterior.
+El siguiente código determina si se ha establecido s.prop5 y, si es así, almacena su valor como “página anterior” para correlacionarlo con las dimensiones de mayor porcentaje visto y de porcentaje inicial visto.  El valor aún se almacenará en la variable s._ppvPreviousPage, pero se puede tratar como si fuera el tipo de página anterior en lugar del nombre de página anterior.
 
 ```js
 if(s.prop5) s.getPercentPageViewed(s.prop5);
@@ -103,13 +103,13 @@ if(s._ppvPreviousPage)
 
 ### v4.0 (7 de octubre de 2019)
 
-* Se agregaron `s._ppvFoldsSeen` y `s._ppvFoldsAvailable` soluciones
+* Se agregaron las soluciones `s._ppvFoldsSeen` y `s._ppvFoldsAvailable`
 
 ### v3.01 (13 de agosto de 2018)
 
-* Se ha corregido un problema en las páginas que tienen varios objetos de AppMeasurement en una página
+* Se ha corregido un problema en las páginas que tienen varios objetos AppMeasurement en una página
 
 ### v3.0 (13 de abril de 2018)
 
-* Versión puntual (recompilada, tamaño de código más pequeño)
-* Ahora, el complemento crea variables que se asignarán a variables de Adobe Analytics en lugar de valores devueltos
+* Versión puntual (compilada de nuevo, con un tamaño de código más pequeño)
+* Ahora, en lugar de valores devueltos, el complemento crea variables que asignar a variables de Adobe Analytics
