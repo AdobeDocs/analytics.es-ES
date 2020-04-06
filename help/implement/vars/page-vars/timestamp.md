@@ -1,8 +1,8 @@
 ---
 title: timestamp
 description: Establecer manualmente la marca de tiempo de la visita.
-translation-type: ht
-source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 La variable `timestamp` establece manualmente la marca de tiempo de la visita en los grupos de informes que tengan habilitada la marca de tiempo.
 
-> [!WARNING] No utilice esta variable si el grupo de informes no está configurado explícitamente para aceptar visitas con marca de tiempo. AppMeasurement establece automáticamente la hora de una visita en los grupos de informes que no admiten visitas con marca de tiempo. Si envía una visita con esta variable a un grupo de informes que no admita marcas de tiempo, los datos se perderán de forma irreversible.
+>[!WARNING] No utilice esta variable si el grupo de informes no está configurado explícitamente para aceptar visitas con marca de tiempo. AppMeasurement establece automáticamente la hora de una visita en los grupos de informes que no admiten visitas con marca de tiempo. Si envía una visita con esta variable a un grupo de informes que no admita marcas de tiempo, los datos se perderán de forma irreversible.
 
 ## Marca de tiempo en Adobe Experience Platform Launch
 
