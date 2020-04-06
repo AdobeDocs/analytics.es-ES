@@ -1,8 +1,8 @@
 ---
 title: list
 description: Variables personalizadas que contienen varios valores en la misma visita.
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Las variables “list” (lista) son variables personalizadas que se pueden util
 
 Asegúrese de registrar la forma en que utiliza cada variable de lista y su lógica en el [documento de diseño de la solución](../../prepare/solution-design.md).
 
-> [!NOTE] Las variables de lista almacenan los últimos 250 valores por visitante. Si hay más de 250 valores únicos para un visitante determinado, los valores más antiguos no se atribuyen a las métricas.
+>[!NOTE] Las variables de lista almacenan los últimos 250 valores por visitante. Si hay más de 250 valores únicos para un visitante determinado, los valores más antiguos no se atribuyen a las métricas.
 
 ## Configure variables de lista en la configuración del grupo de informes
 
@@ -32,7 +32,7 @@ Cada variable de lista es una cadena que contiene valores personalizados especí
 s.list1 = "Example value 1,Example value 2,Example value 3";
 ```
 
-> [!TIP] Si establece valores duplicados en la misma visita, Adobe anula la duplicación de todas las instancias de esos valores. Por ejemplo, si se establece `s.list1 = "Example,Example";`, en los informes se cuenta como una instancia.
+>[!TIP] Si establece valores duplicados en la misma visita, Adobe anula la duplicación de todas las instancias de esos valores. Por ejemplo, si se establece `s.list1 = "Example,Example";`, en los informes se cuenta como una instancia.
 
 ## Comparar props de lista con variables de lista
 
