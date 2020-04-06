@@ -2,47 +2,47 @@
 title: formatTime
 description: Convierta un número de segundos en su equivalente en minutos, horas, etc.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Complemento de Adobe: formatTime
 
-> [!IMPORTANT] Este complemento lo proporciona Adobe Consulting por cortesía para ayudarle a obtener más valor de Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Pueden organizar una reunión con un consultor para obtener ayuda.
+>[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El `formatTime` complemento le permite tomar cualquier cantidad de segundos y presentarlos en un formato agrupado, redondeados a un valor de referencia deseado. Adobe recomienda utilizar este complemento si desea capturar un valor de tiempo en segundos y convertirlo en un formato de bloque (como minutos, días o semanas). Este complemento no es necesario si no desea incluir valores basados en segundos en un formato de redondeo de tiempo.
+El complemento `formatTime` le permite presentar cualquier cifra en segundos en un formato agrupado, redondeada al valor de referencia deseado. Adobe recomienda utilizar este complemento si desea registrar un valor de tiempo en segundos y convertirlo en un formato agrupado (como minutos, días o semanas). Este complemento no es necesario si no desea incluir valores basados en segundos en un formato redondeado de tiempo.
 
-## Instalación del complemento con la extensión Adobe Experience Platform Launch
+## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
-Adobe ofrece una extensión que le permite utilizar los complementos más utilizados.
+Adobe ofrece una extensión que le permite disfrutar de los complementos más utilizados.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. Haga clic en la propiedad que desee.
-1. Vaya a la ficha [!UICONTROL Extensions] y haga clic en el [!UICONTROL Catalog]
-1. Instalación y publicación de la [!UICONTROL Common Analytics Plugins] extensión
-1. Si aún no lo ha hecho, cree una regla con la etiqueta &quot;Inicializar complementos&quot; con la siguiente configuración:
-   * Condición: Ninguno
-   * Evento: Core - Biblioteca cargada (Principio de página)
-1. Agregue una acción a la regla anterior con la siguiente configuración:
-   * Extensión: Complementos comunes de Analytics
-   * Tipo de acción: Initialize formatTime
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+1. Haga clic en la propiedad deseada.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
+   * Condición: Ninguna
+   * Evento: Core – Biblioteca cargada (Principio de página)
+1. Añada una acción a la regla anterior con la siguiente configuración:
+   * Extensión: Common Analytics Plugins
+   * Tipo de acción: Inicializar formatTime
 1. Guarde y publique los cambios en la regla.
 
-## Instalación del complemento con el editor de código personalizado Iniciar
+## Instalación del complemento con el editor de código personalizado de Launch
 
 Si no desea utilizar la extensión del complemento, puede utilizar el editor de código personalizado.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Vaya a la [!UICONTROL Extensions] ficha y, a continuación, haga clic en el [!UICONTROL Configure] botón situado debajo de la extensión de Adobe Analytics.
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
-## Instalación del complemento mediante AppMeasurement
+## Instalación del complemento con AppMeasurement
 
-Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (mediante [`s_gi`](../functions/s-gi.md)). La conservación de los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier problema potencial.
+Copie y pegue el siguiente código en cualquier parte del archivo AppMeasurement después de crear una instancia del objeto de seguimiento de Analytics (con [`s_gi`](../functions/s-gi.md)). Conservar los comentarios y los números de versión del código en la implementación ayuda a Adobe a solucionar cualquier posible problema.
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -54,28 +54,28 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
-## Utilizar el complemento
+## Uso del complemento
 
-El `formatTime` método utiliza los siguientes argumentos:
+El método `formatTime` utiliza los siguientes argumentos:
 
-* **`ns`** (requerido, entero): El número de segundos que convertir o dar formato
-* **`tf`** (opcional, cadena): Tipo de formato en el que se devuelven los segundos; predeterminado en segundos
-   * Establezca en `"d"` si desea la hora en días (redondeada al valor de referencia de 1/4 días más cercano de forma predeterminada)
-   * Establezca en `"h"` si desea la hora en horas (redondeada al valor de referencia de 1/4 horas más cercano de forma predeterminada)
-   * Establezca en `"m"` si desea el tiempo en minutos (redondeado al valor de referencia de 1/2 minutos más cercano de forma predeterminada)
-   * Establezca en `"s"` si desea el tiempo en segundos (redondeado al valor de referencia de 5 segundos más cercano de forma predeterminada)
-* **`bml`** (opcional, número): Duración de los puntos de referencia de redondeo. Valores predeterminados de los puntos de referencia enumerados en el `tf` argumento
+* **`ns`** (obligatorio, entero): El número de segundos que convertir o al que dar formato.
+* **`tf`** (opcional, cadena): Tipo de formato en el que se devuelven los segundos. Formato predeterminado: segundos.
+   * Establézcalo en `"d"` si desea la hora en días (redondeada al valor de referencia de 1/4 días más cercano de forma predeterminada).
+   * Establézcalo en `"h"` si desea la hora en horas (redondeada al valor de referencia de 1/4 horas más cercano de forma predeterminada).
+   * Establézcalo en `"m"` si desea el tiempo en minutos (redondeado al valor de referencia de 1/2 minutos más cercano de forma predeterminada).
+   * Establézcalo en `"s"` si desea el tiempo en segundos (redondeado al valor de referencia de 5 segundos más cercano de forma predeterminada).
+* **`bml`** (opcional, número): Duración de los puntos de referencia de redondeo. Valores predeterminados de los puntos de referencia enumerados en el argumento `tf`
 
-El método devuelve el número de segundos formateados con la unidad especificada en el `tf` argumento. Si el `tf` argumento no está establecido:
+El método recupera el número de segundos formateados con la unidad especificada en el argumento `tf`. Si el argumento `tf` no está establecido:
 
-* Cualquier valor inferior a un minuto se redondea al valor de referencia de 5 segundos más cercano
-* Cualquier cosa entre un minuto y una hora se redondea al punto de referencia de 1/2 minutos más cercano
-* Cualquier cosa entre una hora y un día se redondea al valor de referencia de cuarto de hora más cercano
-* Todo lo bueno que no sea un día se redondea al valor de referencia del día más cercano
+* Cualquier valor inferior a un minuto se redondea al valor de referencia de 5 segundos más cercano.
+* Cualquier valor entre un minuto y una hora se redondea al punto de referencia de medio minuto más cercano.
+* Cualquier valor entre una hora y un día se redondea al valor de referencia un cuarto de hora más cercano.
+* Cualquier valor superior a un día se redondea al valor de referencia del día más próximo.
 
 ## Ejemplos
 
-### Ejemplo n.º 1
+### Ejemplo 1
 
 El siguiente código...
 
@@ -83,11 +83,11 @@ El siguiente código...
 s.eVar1 = s.formatTime(38242);
 ```
 
-...configurará s.eVar1 igual a &quot;10,5 horas&quot;
+... configura s.eVar1 igual a “10,5 horas”
 
-El argumento pasado - 38242 segundos - es igual a 10 horas, 37 minutos y 22 segundos.  Dado que el argumento tf no se establece en esta llamada y el número de segundos pasados es entre una hora y un día, el complemento devolverá el número de segundos convertidos al valor de referencia de trimestre más cercano.
+El argumento pasado (38242 segundos) es igual a 10 horas, 37 minutos y 22 segundos.  Dado que el argumento tf no se establece en esta llamada y el número de segundos pasados es entre una hora y un día, el complemento recupera el número de segundos convertidos con el valor de referencia de trimestre más cercano.
 
-### Ejemplo n.º 2
+### Ejemplo 2
 
 El siguiente código...
 
@@ -95,9 +95,10 @@ El siguiente código...
 s.eVar1 = s.formatTime(38250);
 ```
 
-...configurará s.eVar1 igual a &quot;10,75 horas&quot;El argumento pasado - 38250 segundos - es igual a 10 horas, 37 minutos y 30 segundos.  Si redondea el número de segundos pasados al valor de referencia de trimestre-hora más cercano en este caso, el valor final se establecerá en 10,75 horas
+... configura s.eVar1 igual a “10,75 horas”
+El argumento pasado (38250 segundos) es igual a 10 horas, 37 minutos y 30 segundos.  Si redondea el número de segundos pasados al valor de referencia de trimestre-hora más cercano en este caso, el valor final se establece en 10,75 horas.
 
-### Ejemplo n.º 3
+### Ejemplo 3
 
 El siguiente código...
 
@@ -105,11 +106,11 @@ El siguiente código...
 s.eVar1 = s.formatTime(38242, "m");
 ```
 
-...será s.eVar1 igual a &quot;637,5 minutos&quot;
+... es s.eVar1 igual a “637,5 minutos”
 
-En este caso, el argumento &quot;m&quot; fuerza al complemento a convertir los segundos al punto de referencia de ½ minuto más cercano
+En este caso, el argumento “m” fuerza al complemento a convertir los segundos al punto de referencia de medio minuto más cercano.
 
-### Ejemplo n.º 4
+### Ejemplo 4
 
 El siguiente código...
 
@@ -117,11 +118,11 @@ El siguiente código...
 s.eVar1 = s.formatTime(38242, "m", 20);
 ```
 
-...será s.eVar1 igual a &quot;640 minutos&quot;
+... es s.eVar1 igual a “640 minutos”
 
-El valor del argumento tf (&quot;m&quot;) fuerza al complemento a convertir los segundos en minutos, pero el valor del argumento bml (20) también fuerza al complemento a redondear la conversión de minutos al punto de referencia de 20 minutos más cercano.
+El valor del argumento tf (“m”) fuerza al complemento a convertir los segundos en minutos, pero el valor del argumento bml (20) también fuerza al complemento a redondear la conversión de minutos al punto de referencia de 20 minutos más cercano.
 
-### Ejemplo n.º 5
+### Ejemplo 5
 
 El siguiente código...
 
@@ -129,9 +130,9 @@ El siguiente código...
 s.eVar1 = s.formatTime(125, "s", 2);
 ```
 
-...será s.eVar1 igual a &quot;126 segundos&quot;, que es el valor de referencia de 2 segundos más cercano a 125 segundos
+... es s.eVar1 igual a “126 segundos”, que es el valor de referencia de 2 segundos más cercano a 125 segundos.
 
-### Ejemplo n.º 6
+### Ejemplo 6
 
 El siguiente código...
 
@@ -139,9 +140,9 @@ El siguiente código...
 s.eVar1 = s.formatTime(125, "m", 3);
 ```
 
-...será s.eVar1 igual a &quot;3 minutos&quot;, que es el valor de referencia de 3 minutos más cercano a 125 segundos
+... es s.eVar1 igual a “3 segundos”, que es el valor de referencia de 3 minutos más cercano a 125 segundos.
 
-### Ejemplo n.º 7
+### Ejemplo 7
 
 El siguiente código...
 
@@ -149,13 +150,13 @@ El siguiente código...
 s.eVar1 = s.formatTime(145, "m", .4);
 ```
 
-...s.eVar1 será igual a &quot;2,4 minutos&quot;, que es el punto de referencia de 2/5 minutos más cercano (p. ej. .4 = 2/5) a 145 segundos
+... es.eVar1 será igual a “2,4 minutos”, que es el punto de referencia de 2/5 minutos más cercano (p. ej. .4 = 2/5) a 145 segundos.
 
 ## Historial de versiones
 
 ### 1.1 (21 de mayo de 2018)
 
-* Se agregó el `bml` argumento para permitir una mayor flexibilidad en el redondeo
+* Se agregó el argumento `bml` para permitir una mayor flexibilidad en el redondeo
 
 ### 1.0 (15 de abril de 2018)
 
