@@ -1,35 +1,35 @@
 ---
-description: Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta.
+description: Las reglas de bots permiten eliminar del grupo de informes el tráfico que generan las arañas de Web y los bots conocidos. La eliminación del tráfico de bots puede proporcionar una medición más precisa de la actividad del usuario en el sitio web.
 subtopic: Bot rules
 title: Resumen sobre reglas de Bot
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # Resumen sobre reglas de Bot
 
-Las reglas de bots le permiten eliminar el tráfico del grupo de informes generado por arañas web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta.
+Las reglas de bots le permiten eliminar el tráfico del grupo de informes generado por arañas web y bots conocidos. La eliminación del tráfico de bots puede proporcionar una medición más precisa de la actividad del usuario en el sitio web.
 
-Una vez definidas las reglas de bots, todo el tráfico entrante se compara con las reglas definidas. El tráfico que coincida con alguna de estas reglas no se recogerá en el grupo de informes ni se incluirá en las métricas de tráfico.
+Una vez definidas las reglas de bots, todo el tráfico entrante se compara con las reglas definidas. El tráfico que coincide con cualquiera de estas reglas no se recopila en el grupo de informes y no se incluye en las métricas de tráfico.
 
-Para actualizar o cargar reglas de bots, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**. Seleccione el grupo de informes correcto y, a continuación, vaya a **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Reglas Bot]**.
+Para actualizar o cargar reglas de bots, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**. Seleccione el grupo de informes correcto y, a continuación, vaya a **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
 
-Por lo general, al eliminar el tráfico de bots se reduce el volumen de las métricas de conversión y tráfico. Muchos clientes consideran que eliminar el tráfico de bots provoca tasas de conversión superiores y aumenta otras métricas de uso. Antes de eliminar el tráfico de bots, es necesario ponerse en contacto con los interesados para asegurarse de que realicen los ajustes necesarios en los indicadores de rendimiento clave con relación a este cambio. Si es posible, recomendamos eliminar primero el tráfico de bots de un grupo de informes pequeño para así realizar una estimación del impacto potencial.
+La eliminación del tráfico de bots generalmente reduce el volumen de las métricas de tráfico y conversión. Muchos clientes consideran que la eliminación del tráfico de bots produce un aumento de tasas de conversión y de otras métricas de uso. Antes de eliminar el tráfico de bots, comuníquese con las partes interesadas para asegurarse de que pueden realizar los ajustes necesarios en los indicadores de rendimiento clave como resultado de este cambio. Si es posible, recomendamos eliminar primero el tráfico de bots de un grupo de informes pequeño para así realizar una estimación del impacto potencial.
 
 Los datos del tráfico de bots se almacenan en un repositorio independiente para mostrarlos en los informes Bots y Páginas de bots. Existen dos opciones para activar el filtrado de bots:
 
 | Tipo de regla | Descripción |
 |--- |--- |
-| Reglas de bots estándar IAB | Al seleccionar [!UICONTROL Activar las reglas de filtrado de bots de la IAB], se utiliza la Lista internacional de arañas web y bots de la [IAB](https://www.iab.com) (International Advertising Bureau&#39;s) para eliminar el tráfico de bots. La mayoría de los clientes selecciona esta opción como mínimo. |
+| Reglas de bots estándar IAB | Selecting [!UICONTROL Enable IAB Bot Filtering Rules] uses the [IAB&#39;s](https://www.iab.com) (International Advertising Bureau&#39;s) International Spiders &amp; Bots List to remove bot traffic. La mayoría de los clientes selecciona esta opción como mínimo. |
 | Reglas de bots personalizadas | Puede definir y agregar reglas de bots personalizadas basadas en agentes de usuario, direcciones IP o intervalos de IP. |
 
 ## Reglas de bots estándar IAB
 
-Las reglas de bots estándar IAB se pueden activar marcando la casilla [!UICONTROL Activar reglas de filtrado de bots IAB]. Esta selección eliminará los bots de la Lista internacional de arañas web y bots de la IAB (International Advertising Bureau&#39;s) para eliminar el tráfico de bots. La IAB actualiza esta lista mensualmente.
+Las reglas estándar de bots IAB se pueden activar marcando la casilla de verificación [!UICONTROL Enable IAB Bot Filtering Rules] . Esta selección eliminará los bots de la Lista internacional de arañas web y bots de la IAB (International Advertising Bureau&#39;s) para eliminar el tráfico de bots. La IAB actualiza esta lista mensualmente.
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -39,27 +39,27 @@ Adobe no puede proporcionar la lista detallada de bots de la IAB a los clientes,
 
 >[!Note]: La interfaz de usuario permite definir 500 reglas manualmente. Una vez alcanzado este límite, es necesario gestionar las reglas de forma masiva mediante las opciones Importar archivo y Exportar reglas Bot.
 
-Las reglas de bots personalizadas permiten filtrar el tráfico en función de las condiciones definidas.
+Las reglas de bots personalizadas le permiten filtrar las condiciones basadas en el tráfico que defina.
 
-Las reglas de bots personalizadas se definen usando los tipos de condición siguientes:
+Las reglas de bots personalizadas se definen con los siguientes tipos de condiciones:
 
 * Agente de usuario
 * Dirección IP
 * Rango IP
 
-Para una sola regla se pueden definir varias condiciones. Las diversas condiciones se comparan usando “or”. Por ejemplo, si proporciona un valor para agente de usuario y dirección IP, el tráfico se considera tráfico de bots si se cumple cualquiera de las condiciones.
+Se pueden definir varias condiciones para una sola regla. Las condiciones múltiples se comparan usando &quot;o&quot;. Por ejemplo: si proporciona un valor para el agente de usuario y la dirección IP, el tráfico se considera tráfico bot si se cumple cualquiera de las condiciones.
 
 ### Agente de usuario
 
-Una condición de agente de usuario comprueba el valor de agente de usuario para ver si **[!UICONTROL comienza con]** o **[!UICONTROL contiene]** la cadena especificada. Si se selecciona **[!UICONTROL contiene]**, la subcadena tendrá una coincidencia si se produce en cualquier parte del agente de usuario.
+A User Agent condition checks the user agent value to see if it **[!UICONTROL starts with]** or **[!UICONTROL contains]** the specified string. If **[!UICONTROL contains]** is selected, the substring is matched if it occurs anywhere in the user agent.
 
-Se pueden incluir valores opcionales en la lista **[!UICONTROL no contiene]** para definir valores que el agente de usuario no debe contener para que la coincidencia tenga éxito. Se pueden especificar varios valores incluyendo un valor por línea. Si el agente de usuario cumple con los criterios especificados en la cadena de coincidencia, pero además contiene una cadena en la lista “no contiene”, no se considerará una coincidencia.
+Optional values can be included in the **[!UICONTROL does not contain]** list to define values that the user agent must not contain for a successful match. Se pueden especificar varios valores incluyendo un valor por línea. Si el agente de usuario cumple los criterios especificados en la cadena de coincidencia, pero también contiene una cadena en la lista no contiene, no se considera una coincidencia.
 
-El campo **[!UICONTROL contiene]** está limitado a 100 caracteres. La lista no contiene está limitada a 255 caracteres menos un carácter separador para cada línea nueva. (Esto es igual al número de cadenas - 1. Para especificar 4 cadenas *no contiene* se necesitan 3 caracteres separador). Todas las coincidencias de cadena distinguen entre mayúsculas y minúsculas.
+The **[!UICONTROL contains]** field is limited to 100 characters. La lista no contiene está limitada a 255 caracteres menos un carácter separador para cada nueva línea. (Es igual al número de cadenas - 1. Si especifica 4 *no contiene* cadenas, se requieren 3 caracteres separadores). Todas las coincidencias de cadenas distinguen entre mayúsculas y minúsculas.
 
 ### Dirección IP (incluyendo coincidencias de comodín)
 
-Hace coincidir una dirección IP o varias direcciones en el mismo bloque usando comodines (*). Proporcione los valores numéricos de la dirección IP que desee hacer coincidir. Sustituya * en los valores que desee hacer coincidir usando un comodín. La lista siguiente contiene ejemplos de cadena de coincidencia de dirección IP:
+Coincide con una dirección IP o varias direcciones en el mismo bloque utilizando caracteres comodín (*). Proporcione los valores numéricos de la dirección IP que desea que coincidan. Sustituya * por cualquier valor que desee hacer coincidir utilizando un comodín. La siguiente lista contiene ejemplos de cadena de coincidencia de direcciones IP:
 
 ```
 10.10.10.1
@@ -68,17 +68,17 @@ Hace coincidir una dirección IP o varias direcciones en el mismo bloque usando 
 
 ### Rango de direcciones IP
 
-Proporcione el rango inicial y final de las direcciones IP para buscar coincidencias. Sustituya * en los valores que desee hacer coincidir usando un comodín.
+Proporcione los rangos de inicio y fin de las direcciones IP para que coincidan. Sustituya * por cualquier valor que desee hacer coincidir utilizando un comodín.
 
 ### Definir una regla de bots personalizada
 
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]**, seleccione uno o varios grupos de informes y haga clic en **[!UICONTROL General]** > **[!UICONTROL Reglas Bot]**.
-1. Haga clic en **[!UICONTROL Agregar regla]** y defina una o varias condiciones de coincidencia.
-1. Haga clic en **[!UICONTROL Guardar]**. El cambio puede tardar 30 minutos en implementarse.
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]**, seleccione uno o varios grupos de informes y haga clic en **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**.
+1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
+1. Haga clic en **[!UICONTROL Save]**. El cambio puede tardar 30 minutos en implementarse.
 
 ## Cargar reglas de bots
 
-Para importar reglas de bots de forma masiva, puede cargarse un archivo CSV que defina las reglas.
+Para importar reglas de bots de forma masiva, puede cargar un archivo CSV que defina las reglas.
 
 Cree un archivo CSV con las columnas siguientes en el orden presentado:
 
@@ -88,29 +88,29 @@ Cree un archivo CSV con las columnas siguientes en el orden presentado:
 
 Puede definir tres tipos de reglas de bots:
 
-* Agente de usuario contiene o comienza con
-* Coincidencia de dirección IP única o comodín
-* Coincidencia de rango de IP
+* El agente de usuario contiene o inicios con
+* Coincidencia de comodín o dirección IP única
+* Coincidencia de rango IP
 
-Cada fila del archivo de importación puede contener una sola de las siguientes definiciones de bots:
+Cada fila del archivo de importación puede contener solo una de las siguientes definiciones de bots:
 
-* **Agente de usuario contiene o comienza con**: proporcione una cadena del agente de usuario único en la columna Agent Include. Especifique el tipo de coincidencia que desea estableciendo *contiene* o *comienza con* en el campo Agent Match Rule. En la columna Agent Exclude se puede incluir un valor opcional que defina una o varias cadenas delimitadas por paréntesis (`|`) que el agente no contenga. Las coincidencias de cadena distinguen entre mayúsculas y minúsculas. Las columnas IP Start e IP End deben estar vacías.
+* **Agente de usuario contiene o inicios con**: Proporcione una sola cadena de agente de usuario para que coincida en la columna Agent Include. Especifique el tipo de coincidencia que desea realizar colocando *contiene* o *inicios con* en el campo Agent Match Rule. En la columna Agent Exclude se puede incluir un valor opcional que defina una o varias cadenas delimitadas por paréntesis (`|`) que el agente no contenga. Las coincidencias de cadenas no distinguen entre mayúsculas y minúsculas. Las columnas Inicio IP y Fin IP deben estar vacías.
 
 * **Coincidencia de dirección IP única o comodín**: Para hacer coincidir una dirección IP única (`10.10.10.1`) o una dirección IP comodín (`10.10.*.*`), introduzca el mismo valor en las columnas IP Start e IP End. Match Rule, Agent Include y Agent Exclude deben estar vacías.
 
-* **Coincidencia de rango IP**: defina un intervalo de direcciones IP usando las columnas IP Start e IP End. Se pueden usar comodines para buscar coincidencias de rangos IP, por ejemplo de `10.10.10.*` a `10.10.20.*`. Match Rule, Agent Include y Agent Exclude deben estar vacías.
+* **Coincidencia** de rango IP: Defina un rango de direcciones IP usando las columnas Inicio IP y Fin IP. Se pueden usar comodines para buscar coincidencias de rangos IP, por ejemplo de `10.10.10.*` a `10.10.20.*`. Match Rule, Agent Include y Agent Exclude deben estar vacías.
 
 ### Varias reglas combinadas con OR
 
-Para buscar coincidencias de un bot utilizando una combinación de reglas unidas con OR (por ejemplo, agente de usuario o dirección IP), proporcione un nombre idéntico para todas las reglas que desee combinar en el campo de nombre de bot. No se admiten coincidencias AND.
+Para hacer coincidir un bot utilizando una combinación de reglas unidas con un O (por ejemplo, agente de usuario o dirección IP), proporcione un nombre idéntico para todas las reglas que desee combinar en el campo de nombre del bot. No se admiten coincidencias AND.
 
 ### Sobrescribir todas las reglas con un archivo de carga
 
-Seleccione la casilla **[!UICONTROL Sobrescribir reglas existentes]** para eliminar todas las reglas existentes y sustituirlas por las reglas definidas en el archivo de carga.
+Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all existing rules and replace them with the rules defined in the upload file.
 
 ### Exportar reglas
 
-El botón **[!UICONTROL Exportar archivo de bots cargado]** exporta todas las reglas definidas en la IU en formato CSV.
+The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format.
 
 
 ## Efecto de las reglas de bots en la recopilación de datos {#section_F01A3130E7A04A9993371CF26F6586F2}
@@ -119,14 +119,14 @@ Las reglas de bots se aplican a todos los datos de análisis. Los datos que quit
 
 Las reglas de VISTA se aplican después de las reglas de bots (consulte [Orden de procesamiento).](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
 
-**Procesamiento de visitas intensivas:** si en una visita se registran más de 100 entradas, el informe determinará si el tiempo en segundos asignado a la visita es inferior o igual al número de entradas que contiene. En este caso, debido al costo de las visitas intensivas que requieren un procesamiento prolongado, el informe comienza de nuevo con una nueva lista. Por lo general, las visitas intensivas se deben a ataques de bots y no se consideran eventos de exploración de visitantes corrientes.
+**Procesamiento de visitas de alta visita:** Si en una visita se producen más de 100 visitas, el sistema de informes determina si el tiempo de la visita en segundos es menor o igual al número de visitas en la visita. En esta situación, debido al costo de procesar visitas largas e intensas, el sistema de informes inicio con una nueva visita. Las visitas de mayor cantidad de visitas suelen estar provocadas por ataques de bots y no se consideran exploraciones de visitante normales.
 
-> [!NOTE] Las visitas marcadas como *`bots`* se facturan como [llamadas al servidor.](/help/admin/c-server-call-usage/overage-overview.md)
+>[!NOTE] Las visitas marcadas como *`bots`* se facturan como [llamadas al servidor.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Influencia de la confusión de IP en el filtrado para bots {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
-La lista de bots de la IAB se basa exclusivamente en agente usuario, por lo que el filtrado en función de esa lista no afecta a los ajustes de confusión de IP. Para el filtrado de bots que no son IAB (reglas personalizadas), IP puede formar parte de los criterios de filtrado. Si filtra bots con IP, el filtrado de bots ocurre después de que el último octeto ha sido eliminado si ese ajuste está habilitado, pero antes de las otras opciones de confusión de IP, como la eliminación de la IP completa o la sustitución con algún ID único.
+La lista de bots de IAB se basa únicamente en el agente de usuario, por lo que el filtrado basado en esa lista no se ve afectado por la configuración de confusión de IP. Para el filtrado de bots que no son IAB (reglas personalizadas), la IP puede formar parte de los criterios de filtrado. Si filtra bots mediante IP, el filtrado de bots se produce después de que el último octeto se haya eliminado si esa configuración está habilitada, pero antes de las otras opciones de confusión de IP, como eliminar la IP completa o reemplazarla con algún ID único.
 
-Si la confusión de la IP está habilitada, la exclusión de la IP se produce antes de que la dirección IP se confunda, por lo que los clientes no necesitan cambiar nada cuando habilitan la confusión de la IP.
+Si la confusión de IP está habilitada, la exclusión de IP se produce antes de que la dirección IP se confunda, por lo que los clientes no necesitan cambiar nada cuando habilitan la confusión de IP.
 
-Si se elimina el último octeto, será antes del filtrado de la IP. Como tal, el último octeto se sustituye por un 0 y las reglas de exclusión de la IP se deben actualizar para coincidir con las direcciones de IP que tengan un cero al final. Un * coincidente debe corresponder a un 0.
+Si se elimina el último octeto, esto se realiza antes del filtrado de IP. Como tal, el último octeto se reemplaza por un 0 y las reglas de exclusión de IP deben actualizarse para que coincidan con las direcciones IP con un cero al final. Un * coincidente debe corresponder a un 0.
