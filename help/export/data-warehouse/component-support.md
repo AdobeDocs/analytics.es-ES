@@ -1,8 +1,8 @@
 ---
 title: Compatibilidad con componentes en Data Warehouse
 description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
-translation-type: ht
-source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,7 +31,7 @@ Algunas dimensiones y métricas se pueden usar en Data Warehouse, mientras que o
 
 Algunas dimensiones y métricas no son compatibles con Data Warehouse.
 
-> [!NOTE] Si una dimensión o métrica no se admite en Data Warehouse, tampoco se admiten los segmentos que utilizan estos componentes. Compruebe siempre la compatibilidad del producto al crear o editar un segmento.
+>[!NOTE] Si una dimensión o métrica no se admite en Data Warehouse, tampoco se admiten los segmentos que utilizan estos componentes. Compruebe siempre la compatibilidad del producto al crear o editar un segmento.
 
 ### Dimensiones no admitidas
 
@@ -52,8 +52,8 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
    * Profundidad de acierto
    * Frecuencia de retorno
    * Tiempo previo al evento
-   * Tiempo empleado en la página - Agrupado
-   * Tiempo empleado por visita - General
+   * Tiempo empleado en la página (general)
+   * Tiempo empleado por visita (general)
    * Profundidad de la visita
 * Clasificación de todas las páginas de búsqueda
 * Variables de jerarquía
@@ -62,7 +62,7 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
 * Búsqueda de pago
 * Visitas a una sola página
 * Motivo de omisión de seguimiento
-* Estados Unidos
+* Estados de los EE. UU.
 
 ### Métricas no admitidas
 
