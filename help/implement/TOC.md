@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics Implementation Guide
+user-guide-title: Guía de implementación de Analytics
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
+source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [Variables dinámicas](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
       + Events {#events}
-         + [Información general sobre eventos](vars/page-vars/events/events-overview.md)
+         + [Información general de eventos](vars/page-vars/events/events-overview.md)
          + [Evento de compra](vars/page-vars/events/event-purchase.md)
          + [Serialización de eventos](vars/page-vars/events/event-serialization.md)
       + [hier](vars/page-vars/hier.md)
@@ -77,7 +77,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
    + Funciones y métodos {#functions}
-      + [Información general sobre las funciones](vars/functions/overview.md)
+      + [Información general de funciones](vars/functions/overview.md)
       + [s_gi](vars/functions/s-gi.md)
       + [t](vars/functions/t-method.md)
       + [tl](vars/functions/tl-method.md)
@@ -92,7 +92,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
    + Complementos {#plugins}
-      + [Introducción a los complementos](vars/plugins/impl-plugins.md)
+      + [Información general de complementos](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
       + [apl](vars/plugins/apl.md)
@@ -116,19 +116,19 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [Grupo de números](vars/plugins/numberssuite.md)
+      + [Numbers Suite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
-      + [pt](vars/plugins/pt.md)
+      + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
-   + [Módulo Integrate](vars/integrate.md)
-+ Prepare to implement Adobe Analytics {#prepare}
+   + [Integrar módulo](vars/integrate.md)
++ Preparar la implementación de Adobe Analytics {#prepare}
    + [Creación de una capa de datos](prepare/data-layer.md)
    + [Consideraciones sobre el grupo de informes globales](prepare/global-rs.md)
    + [Modo de implementación](prepare/implementation-modal.md)
    + [Creación de un documento de diseño de solución](prepare/solution-design.md)
 + Implementar Analytics mediante JavaScript {#js}
-   + [Introducción a JavaScript](js/overview.md)
-   + [Implementación de vínculos de exclusión](js/opt-out.md)
+   + [Información general de JavaScript](js/overview.md)
+   + [Implementación de Vínculos de no participación](js/opt-out.md)
    + [Anulaciones de variables](js/overrides.md)
    + [Migrar desde código H](js/migrate-from-hcode.md)
    + Código H {#h-code}
@@ -140,21 +140,21 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [Resolución de problemas del código H](js/h-code/troubleshooting.md)
    + Identificación entre dispositivos heredada {#xdevice-visid}
-      + [Introducción a la conexión de usuarios entre dispositivos](js/xdevice-visid/xdevice-connecting.md)
+      + [Información general de conexión de usuarios entre dispositivos](js/xdevice-visid/xdevice-connecting.md)
       + [Persistencia de la variable](js/xdevice-visid/variable-persistence.md)
       + [Ejemplo de visita](js/xdevice-visid/visit-example.md)
-      + [Preguntas más frecuentes sobre dispositivos cruzados heredados](js/xdevice-visid/xdevice-faq.md)
+      + [Preguntas frecuentes sobre dispositivos cruzados heredados](js/xdevice-visid/xdevice-faq.md)
    + [Solución de problemas de AppMeasurement](js/troubleshooting.md)
-+ Implement Analytics using Adobe Experience Platform Launch {#launch}
++ Implementar Analytics con Adobe Experience Platform Launch {#launch}
    + [Información general sobre Launch](launch/overview.md)
    + [Creación de una propiedad de Analytics](launch/create-analytics-property.md)
-   + [Implementar en un entorno de desarrollo](launch/deploy-dev.md)
-   + [Validar y publicar en prod](launch/validate-publish-prod.md)
+   + [Implementación de en un entorno de desarrollo](launch/deploy-dev.md)
+   + [Validar y publicar para producción](launch/validate-publish-prod.md)
    + [Asignación de objetos de capa de datos a elementos de datos](launch/layer-to-elements.md)
    + [Asignación de elementos de datos de Launch a variables de Analytics](launch/elements-to-variable.md)
 + Implementar Analytics en otras plataformas {#other}
    + [Implementación de Analytics mediante solicitudes de imagen codificadas](other/hardcoded.md)
-   + Implement Analytics using DTM {#dtm}
+   + Implementar Analytics mediante DTM {#dtm}
       + [Descripción general de la implementación de Dynamic Tag Management (DTM)](other/dtm/dtm-implementation-overview.md)
       + [Crear una propiedad web](other/dtm/t-create-web-property.md)
       + [Configurar las opciones de alojamiento](other/dtm/t-configure-hosting.md)
@@ -184,15 +184,15 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [Prueba de reglas no publicadas para el alojamiento de Akamai](other/dtm/c-rules/t-test-rules-akamai.md)
          + [Probar reglas para la Descarga de biblioteca o FTP](other/dtm/c-rules/t-test-rules-ftp.md)
    + [Implementación de Analytics en Ajax](other/ajax.md)
-   + [Implementar Analytics en AMP](other/amp.md)
+   + [Implementación de Analytics en AMP](other/amp.md)
    + [Implementación de Analytics en asistentes digitales](other/digital-assistants.md)
-   + [Implementación de Analytics en Artículos Instantáneos de Facebook](other/fb-instant-articles.md)
-+ [Implementación de Analytics en dispositivos móviles](mobile-device-sdk.md)
+   + [Implementación de Analytics en Artículos instantáneos de Facebook](other/fb-instant-articles.md)
++ [Implementación de Analytics para dispositivos móviles](mobile-device-sdk.md)
 + Casos de uso de implementación {#use-cases}
    + [Seguimiento en diferentes tipos de implementación](use-cases/cross-type-implementation.md)
    + [Seguimiento de correo electrónico externo](use-cases/email-external.md)
-+ Validate your implementation {#validate}
-   + [Depurador heredado de Adobe Experience Cloud](validate/debugger.md)
++ Validación de la implementación {#validate}
+   + [Adobe Experience Cloud Debugger antiguo](validate/debugger.md)
    + [Parámetros de consulta de recopilación de datos](validate/query-parameters.md)
    + [Monitores de paquetes](validate/packet-monitor.md)
    + [Conflictos de hash](validate/hash-collisions.md)
