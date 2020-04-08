@@ -3,7 +3,7 @@ description: Report Builder 5.2 es compatible con las métricas calculadas unifi
 title: Métricas calculadas
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
 
 ---
 
@@ -26,7 +26,7 @@ Para **filtrar** métricas calculadas, haga clic en el icono Filtrar:  ![](asset
 
 Los filtros disponibles incluyen:
 
-![](assets/advanced_filters_(2).png)
+![](assets/advanced_filters.png)
 
 | Nombre del filtro | Descripción |
 |---|---|
