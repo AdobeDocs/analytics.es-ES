@@ -5,12 +5,20 @@ title: Novedades en Analysis Workspace
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
+source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 ---
 
 
 # Novedades en Analysis Workspace
+
+## Abril de 2020
+
+Nueva función lanzada el 16 de abril de 2020.
+
+| Función | Descripción |
+|--- |--- |
+| Generar automáticamente [!UICONTROL Freeform Tables] a partir de un estado en blanco | Anteriormente, no se podían soltar componentes directamente en un proyecto en blanco o en un panel en blanco; primero tenía que agregar una tabla improvisada. Ahora puede soltar componentes directamente en un proyecto o panel en blanco, y automáticamente se creará una tabla improvisada en un formato recomendado. Además, se mejoró la forma en que se gestionan los tipos de componentes mixtos (p. ej., dimensiones y métricas) al soltarlos en blanco [!UICONTROL Freeform Table] juntos. |
 
 ## Marzo de 2020
 
@@ -527,7 +535,7 @@ Nuevas funciones lanzadas el 26 de octubre de 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Se ha añadido event# a los nombres de evento del carril izquierdo </a> </p> </td> 
-   <td colname="col2"> <p>Antes de octubre de 2017, evar# y prop# se anexaban a los nombres de dimensión y se podía buscar en esos números. La misma funcionalidad ahora está disponible para eventos. </p> <p>Ejemplo: "Suscripciones" ahora aparece en el carril izquierdo como "Suscripciones (evento1)". </p> <p>Recuerde: </p> 
+   <td colname="col2"> <p>Antes de octubre de 2017, evar# y prop# se agregaban a los nombres de dimensión y se podía buscar en esos números. La misma funcionalidad ahora está disponible para eventos. </p> <p>Ejemplo: "Suscripciones" ahora aparece en el carril izquierdo como "Suscripciones (evento1)". </p> <p>Recuerde: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">El número de evento no se muestra en la tabla (para mantener los títulos cortos). </li> 
      <li id="li_D742D04470244633900335B7F5A79FD9">Para mantener la coherencia, las props y las eVars tampoco muestran sus números dentro de las tablas. </li> 
