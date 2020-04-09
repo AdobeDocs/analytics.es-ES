@@ -1,8 +1,8 @@
 ---
 title: Guía del usuario de Labs
 description: Vista previa de proyectos prototipo para Adobe Analytics
-translation-type: ht
-source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
+translation-type: tm+mt
+source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
 
 ---
 
@@ -58,7 +58,7 @@ Para iniciar y evaluar un prototipo:
 
 1. Para probar un prototipo diferente o salir del entorno de prototipo, haga clic en el botón **Dejar prototipo** en la parte superior derecha de la pantalla y complete la encuesta breve del prototipo. Cualquier cambio realizado en un proyecto prototipo se pierde al salir del entorno de prototipos.
 
-   ![new feedback box](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![new feedback box](assets/short-survey.png)
 
 1. Haga clic en **Enviar** para volver al portal principal de vistas previas.
 
