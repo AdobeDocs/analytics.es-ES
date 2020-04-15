@@ -1,21 +1,21 @@
 ---
-description: Instrucciones para configurar los informes de valoración de la aplicación móvil.
-title: Guía del gestor de datos de la aplicación móvil de Adobe Analytics
-translation-type: ht
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+description: Instrucciones para utilizar los cuadros de mandos de paneles.
+title: Guía ejecutiva de paneles de Adobe Analytics
+translation-type: tm+mt
+source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
 
 ---
 
 
-# Aplicación móvil de Analytics: Guía de inicio rápido del usuario ejecutivo
+# paneles de Adobe Analytics: guía de inicio rápido del usuario ejecutivo
 
 ## Primeros pasos
 
-La aplicación móvil de Adobe Analytics proporciona datos de Adobe Analytics en cualquier momento y lugar.  La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
+Los paneles de Adobe Analytics ofrecen perspectivas de Adobe Analytics en cualquier momento y lugar.  La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Los Paneles son compatibles con los sistemas operativos iOS y Android.
 
 ## Acerca de esta guía
 
-Esta guía está diseñada para ayudar a los usuarios ejecutivos a leer e interpretar los informes de valoración de la aplicación móvil de Analytics. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
+Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar cuadros de mandos en paneles de Analytics. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
 
 ## Glosario de términos
 
@@ -24,30 +24,30 @@ Esta guía está diseñada para ayudar a los usuarios ejecutivos a leer e interp
 | Consumidor | Ejecutivo que ve métricas clave y datos de Analytics en un dispositivo móvil |
 | Gestor de datos | Experto que busca y distribuye datos de Analytics y que configura los informes de valoración que verá el consumidor |
 | Gestión de datos | Acto de crear o editar un informe de valoración móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
-| Informe de valoración | Vista de la aplicación móvil que contiene uno o más mosaicos |
+| Informe de valoración | Una vista de paneles que contiene uno o varios mosaicos |
 | Mosaico | Representación de una métrica en una vista del informe de valoración |
 | Desglose | Una vista secundaria a la que se puede acceder pulsando un mosaico del informe de valoración. Esta vista ofrece más información sobre la métrica que aparece en el mosaico y, opcionalmente, sobre dimensiones de desglose adicionales. |
-| Intervalo de fecha | El intervalo de fecha principal para la creación de informes de la aplicación móvil |
+| Intervalo de fecha | El intervalo de fechas principal para el sistema de informes de paneles |
 | Intervalo de fecha de comparación | Intervalo de fecha que se compara con el intervalo de fecha principal |
 
-## Configuración de la aplicación en el dispositivo
+## Configurar paneles en el dispositivo
 
-Para utilizar la aplicación de forma eficiente, necesitará que el gestor de datos del informe de valoración le ayude a configurarla. En esta sección se proporciona información para ayudarle a configurar la aplicación con la ayuda de su gestor de datos.
+Para utilizar los paneles de forma eficaz, deberá contar con la ayuda del curador de cuadro de mandos para configurarlos. En esta sección se proporciona información para ayudarle a configurar la aplicación con la ayuda de su gestor de datos.
 
 ### Obtener acceso
 
-Para acceder a los informes de valoración de la aplicación, compruebe que:
+Para acceder a los cuadros de mandos en paneles, asegúrese de que:
 
 * Tiene unas credenciales de inicio de sesión válidas para Adobe Analytics
 * El gestor de datos ha creado correctamente los informes de valoración móviles y los ha compartido con usted
 
-### Descarga e instalación de la aplicación
+### Descargar e instalar paneles
 
 Para descargar e instalar la aplicación, siga los pasos que correspondan al sistema operativo de su dispositivo.
 
 **Para dispositivos iOS:**
 
-1. Haga clic en el siguiente vínculo público (también está disponible en Analytics en **Herramientas** > **Aplicación móvil**):
+1. Click the following public link (It is also available in Analytics under **Tools** > **dashboards**):
 
    [Vínculo de iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -57,13 +57,13 @@ Para descargar e instalar la aplicación, siga los pasos que correspondan al sis
 
 2. En la pantalla, pulse el vínculo **Ver en App Store** para descargar la aplicación Testflight.
 
-3. Después de instalar la aplicación Testflight, busque e instale la aplicación móvil de Adobe Analytics en Testflight como se muestra a continuación:
+3. Después de instalar la aplicación Testflight, busque e instale paneles de Adobe Analytics en Testflight, como se muestra a continuación:
 
    ![Pantalla de Testflight](assets/testflight2.png)
 
 **Para dispositivos Android:**
 
-1. Pulse el siguiente enlace de la Play Store en el dispositivo del usuario (también disponible en Analytics en **Herramientas** > **Aplicación móvil**):
+1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
@@ -76,15 +76,15 @@ Para descargar e instalar la aplicación, siga los pasos que correspondan al sis
 
    ![Vínculo de descarga](assets/playnext.png)
 
-## Uso de la aplicación
+## Usar paneles
 
-Para usar la aplicación:
+Para utilizar paneles:
 
-1. Inicie sesión en la aplicación. La pantalla de inicio de sesión aparecerá al iniciar la aplicación. Siga las indicaciones y use sus credenciales de Adobe Analytics. La aplicación es compatible con Adobe ID y con Enterprise ID/Federated ID.
+1. Inicie sesión en la aplicación. La pantalla de inicio de sesión aparecerá al iniciar paneles. Siga las indicaciones y use sus credenciales de Adobe Analytics. La aplicación es compatible con Adobe ID y con Enterprise ID/Federated ID.
 
    ![Proceso de inicio de sesión](assets/signseq.png)
 
-2. Seleccione una empresa. Después de iniciar sesión en la aplicación, aparecerá la pantalla **Elegir una empresa**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
+2. Seleccione una empresa. After you sign into dashboards, the **Choose a company** screen appears. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece. Pulse el nombre de la empresa asociada con el informe de valoración compartido con usted.
 
 3. A continuación, la lista informes de valoración mostrará todos los informes de valoración que se han compartido con usted. Pulse el informe de valoración que desee ver.
 
@@ -129,7 +129,7 @@ Para usar la aplicación:
 
 8. Escribir comentarios. Para escribir comentarios:
 
-   1. Pulse el icono de usuario en la parte superior derecha de la pantalla de la aplicación.
+   1. Puntee en el icono del usuario en la parte superior derecha de la pantalla paneles.
    2. En la pantalla **Mi cuenta**, pulse la opción **Comentarios**.
    3. Pulse para ver las opciones que existen para dejar comentarios.
    ![Escribir comentarios](assets/feedback.png)
