@@ -1,9 +1,9 @@
 ---
-description: Si selecciona el icono de engranaje junto a una métrica, podrá especificar el tipo de métrica y el modelo de atribución.
+description: 'Más información sobre '
 title: Tipo de métrica y atribución
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 ---
 
@@ -16,7 +16,7 @@ Si selecciona el icono de engranaje junto a una métrica, podrá especificar el 
 * [Modelo de atribución de columnas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
 * [Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018) ](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## Tipo de métrica {#section_34A86FB402F94E988724232283BF18B7}
+## Tipo de métrica
 
 ![](assets/cm_type_alloc.png)
 
@@ -25,7 +25,7 @@ Si selecciona el icono de engranaje junto a una métrica, podrá especificar el 
 | Estándar | Estas métricas son las mismas métricas utilizadas en los informes de [!DNL Analytics] estándares. Si una fórmula consiste en una única métrica estándar, muestra datos idénticos a su contraparte de métricas no calculadas. Las métricas estándar son útiles para crear métricas calculadas específicas de cada elemento de línea individual. Por ejemplo, [Pedidos] / [Visitas] toma pedidos de ese elemento de línea en concreto y lo divide por el número de visitas de ese elemento de línea específico. |
 | Total | Utilice el total del período de sistema de informes en cada elemento de línea. Si una fórmula consiste en una única métrica total, muestra el mismo número total en cada elemento de línea. Las métricas totales son útiles para crear métricas calculadas que se comparan con los datos totales del sitio. Por ejemplo, [Pedidos] / [Visitas totales] muestra la proporción de pedidos en comparación con TODAS las visitas de su sitio, no solo las visitas de una línea en concreto. |
 
-## Modelo de atribución de columnas {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## Modelo de atribución de columnas
 
 >[!IMPORTANT]
 >
@@ -38,70 +38,27 @@ Si selecciona el icono de engranaje junto a una métrica, podrá especificar el 
 
 
 
-## Funcionamiento de la asignación lineal (a partir del 19 de julio de 2018) 
+## Cómo funciona la asignación lineal (a partir del 19 de julio de 2018)
 
-En julio de 2018, Adobe cambió la forma en que se generan los informes de asignación lineal para métricas calculadas. Este cambio afecta a Analysis Workspace, Ad Hoc Analysis, Reports &amp; Analytics, Report Builder, Activity Map y las API de informes. Este cambio afectará principalmente a las eVars y otras dimensiones que tienen persistencia. Tenga en cuenta que estos cambios solo se aplicarán en las métricas calculadas y no tendrán ningún impacto en otros informes con asignación lineal (como el informe Páginas de Reports &amp; Analytics). Otros informes que utilicen la asignación lineal seguirán utilizando el método de asignación lineal existente.
+En julio de 2018, Adobe cambió la forma en que se generan los informes de asignación lineal para métricas calculadas. Este cambio afecta a Analysis Workspace, Ad Hoc Analysis, Reports &amp; Analytics, Report Builder, Activity Map y las API de informes. El cambio afecta principalmente a las eVars y a otras dimensiones que tienen persistencia. Tenga en cuenta que estos cambios solo se aplican a las métricas calculadas y no afectan a otros informes mediante asignación lineal (como el informe Páginas en Informes y análisis). Otros informes que utilicen la asignación lineal seguirán utilizando el método de asignación lineal existente.
 
 El siguiente ejemplo ilustra cómo las métricas calculadas con asignación lineal cambiarán en el sistema de informes:
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Visita individual 1 </th> 
-   <th colname="col3" class="entry"> Visita individual 2 </th> 
-   <th colname="col4" class="entry"> Visita individual 3 </th> 
-   <th colname="col5" class="entry"> Visita individual 4 </th> 
-   <th colname="col6" class="entry"> Visita individual 5 </th> 
-   <th colname="col7" class="entry"> Visita individual 6 </th> 
-   <th colname="col8" class="entry"> Visita individual 7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Datos enviados </p> </td> 
-   <td colname="col2"> PROMOCIÓN A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMOCIÓN A </td> 
-   <td colname="col5"> PROMOCIÓN B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>eVar de último toque </p> </td> 
-   <td colname="col2"> PROMOCIÓN A </td> 
-   <td colname="col3"> PROMOCIÓN A </td> 
-   <td colname="col4"> PROMOCIÓN A </td> 
-   <td colname="col5"> PROMOCIÓN B </td> 
-   <td colname="col6"> PROMOCIÓN B </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>eVar de primer toque </p> </td> 
-   <td colname="col2"> PROMOCIÓN A </td> 
-   <td colname="col3"> PROMOCIÓN A </td> 
-   <td colname="col4"> PROMOCIÓN A </td> 
-   <td colname="col5"> PROMOCIÓN A </td> 
-   <td colname="col6"> PROMOCIÓN A </td> 
-   <td colname="col7"> PROMOCIÓN A </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ejemplo de prop </p> </td> 
-   <td colname="col2"> PROMOCIÓN A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> PROMOCIÓN A </td> 
-   <td colname="col5"> PROMOCIÓN B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> PROMO C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | Visita individual 1 | Visita individual 2 | Visita individual 3 | Visita individual 4 | Visita individual 5 | Visita individual 6 | Visita individual 7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| Datos enviados | PROMOCIÓN A | - | PROMOCIÓN A | PROMOCIÓN B | - | PROMO C | $10 |
+| eVar de último toque | PROMOCIÓN A | PROMOCIÓN A | PROMOCIÓN A | PROMOCIÓN B | PROMOCIÓN B | PROMO C | $10 |
+| eVar de primer toque | PROMOCIÓN A | PROMOCIÓN A | PROMOCIÓN A | PROMOCIÓN A | PROMOCIÓN A | PROMOCIÓN A | $10 |
+| Ejemplo de prop | PROMOCIÓN A | - | PROMOCIÓN A | PROMOCIÓN B | - | PROMO C | $10 |
 
 En este ejemplo, los valores A, B y C se enviaron a una variable en las visitas individuales 1, 3, 4 y 6 antes de que se realizara una compra de 10 $ en la visita individual 7. En la segunda fila, esos valores persisten entre visitas individuales en base a la visita de último toque. La tercera fila ilustra la persistencia de una visita de primer toque. Por último, la última fila ilustra cómo se registrarían los datos de una propiedad que no tenga persistencia.
+
+## Diferencias en el funcionamiento de la asignación lineal en Informes y análisis en comparación con Workspace
+
+Existen algunas diferencias en el funcionamiento de la atribución lineal entre estas dos herramientas:
+
+* En Informes y análisis, la atribución lineal (procesada) siempre se basa en visitas, mientras que en Workspace puede basarse en visitas o visitantes.
+* En Informes y análisis, si no se pasara ningún valor en la primera visita individual de una visita, el valor (inicial) persistiría a partir de la visita anterior. Este NO es el caso en Workspace (Atribución IQ). Si no se pasa ningún valor en la primera visita individual de una visita, entonces &#39;Ninguno&#39; es el valor inicial.
 
 ## Funcionamiento de la asignación lineal antes de julio de 2018
 
