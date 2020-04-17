@@ -2,7 +2,7 @@
 title: Guía del usuario de Labs
 description: Vista previa de proyectos prototipo para Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
+source-git-commit: 5209751a8b771b92f82bab9b170ac76a077e4b87
 
 ---
 
@@ -52,7 +52,7 @@ Para iniciar y evaluar un prototipo:
 
 1. Haga clic en el botón **Enviar comentarios** para proporcionar comentarios en el cuadro de mensaje en cualquier momento mientras trabaja con el prototipo.
 
-   ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
+   ![feedback_box](assets/give_feedback.png)
 
 1. Haga clic en **Enviar** para enviar sus comentarios.
 
