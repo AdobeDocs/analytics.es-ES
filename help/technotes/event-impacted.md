@@ -2,7 +2,7 @@
 title: Analizar datos afectados por eventos
 description: Comprender cómo los datos afectados por un evento contribuyen a la calidad general de los datos.
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -24,6 +24,10 @@ Adobe Analytics oferta una forma sencilla y sólida de centrarse en los datos o 
 ## Comparar un evento con intervalos de fechas anteriores
 
 Si desea obtener más información sobre el impacto que un evento ha tenido en los datos a lo largo del tiempo, puede usar la comparación de fechas en el área de Análisis. Esta función le permite comparar datos día a día, semana a semana o mes a mes para ver cómo se compara con intervalos anteriores. A continuación, puede utilizar esta comparación para determinar en qué medida un evento afecta a las tendencias. Consulte [Comparación de fechas afectadas por un evento con rangos](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) anteriores en la guía del usuario Analizar.
+
+## Corregir los datos de tendencias mediante métricas calculadas
+
+Una vez que haya creado segmentos y utilizado la comparación de fechas, puede combinar ambos conceptos para corregir los datos de tendencias mediante métricas calculadas. Incluya los segmentos dentro de una métrica calculada y luego multiplique los días afectados por el desplazamiento encontrado al comparar fechas. Consulte [Derivar datos afectados por eventos](/help/components/c-calcmetrics/cm-events.md) en la guía del usuario Componentes.
 
 ## Usar un evento de calendario en Informes y análisis
 
