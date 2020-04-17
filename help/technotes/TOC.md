@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics tech notes
+user-guide-title: Notas técnicas de Analytics
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -26,6 +26,7 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
       + [Conversiones](ga-to-aa/reports/conversions-reports.md)
    + [Preguntas frecuentes](ga-to-aa/faq.md)
    + [Procesamiento de diferencias entre plataformas](ga-to-aa/processing-differences.md)
++ [Analizar datos afectados por eventos](event-impacted.md)
 + [Cookies del explorador](cookies.md)
 + [Retención de datos](data-retention.md)
 + [Latencia](latency.md)
@@ -41,6 +42,6 @@ source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
 + [Marcas de hora opcionales](timestamps-optional.md)
 + [Solución de problemas de inicio de sesión](troubleshoot-login.md)
 + [Solución de problemas de cierre de sesión](troubleshoot-sessions.md)
-+ [No especificado, otro y desconocido](unspecified.md)
-+ [Identificación del visitante](visitor-identification.md)
++ [No especificado, otros y desconocido](unspecified.md)
++ [Identificación de visitantes](visitor-identification.md)
 + [Migración de visitantes](visitor-migration.md)
