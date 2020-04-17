@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -42,8 +42,6 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
    + [Guía de transición para Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
 + Métricas calculadas {#calculated-metrics}
    + [Métricas calculadas y calculadas avanzadas (derivadas)](c-calcmetrics/cm-overview.md)
-   + [Preguntas frecuentes](c-calcmetrics/cm-transition.md)
-   + [Vídeotutoriales](c-calcmetrics/cm-videos.md)
    + Flujo de trabajo de las métricas calculadas {#calcmetric-workflow}
       + [Flujo de trabajo de las métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [Buscar métricas](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -66,6 +64,9 @@ source-git-commit: 14a59adc516d81ee29f1d7e95bc546d2818a173b
       + [Compatibilidad de métricas](c-calcmetrics/cm-compatibility.md)
       + [Derechos de las métricas calculadas basados en funciones](c-calcmetrics/cm-role-based-rights.md)
       + [Totales de métricas calculadas](c-calcmetrics/cm-totals.md)
+   + [Obtener datos afectados por eventos](c-calcmetrics/cm-events.md)
+   + [Preguntas frecuentes](c-calcmetrics/cm-transition.md)
+   + [Vídeotutoriales](c-calcmetrics/cm-videos.md)
 + Grupos de informes virtuales {#virtual-report-suites}
    + [Resumen de los grupos de informes virtuales](vrs/vrs-about.md)
    + [Revisión de componentes de grupo de informes virtuales](vrs/vrs-components.md)
