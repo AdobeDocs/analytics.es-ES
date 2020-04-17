@@ -2,16 +2,14 @@
 title: Excluir fechas específicas en la análisis
 description: Sugerencias para excluir fechas o intervalos de fechas si no desea incluirlos en los informes.
 translation-type: tm+mt
-source-git-commit: 2515a3357b5cf3b0d5f49a9c109070c528d7f9d4
+source-git-commit: e2ddfc7fb7ced2d7f480bec3b50cb2657d779646
 
 ---
 
 
 # Excluir fechas específicas en la análisis
 
-A veces, un intervalo de fechas contiene datos que no desea analizar. Por ejemplo, un bot envía una visita anterior que contiene una cantidad incorrecta de ingresos, lo que aumenta drásticamente la métrica. Si el sitio ha experimentado problemas de implementación u otras brechas en los datos, es posible que desee excluirlo del sistema de informes para evitar tomar decisiones sobre los datos parciales.
-
-Puede utilizar un segmento para excluir cualquier intervalo de fechas que no desee incluir en los informes.
+Si tiene datos [afectados por un evento](/help/technotes/event-impacted.md), puede utilizar un segmento para excluir cualquier intervalo de fechas que no desee incluir en los informes. La segmentación de las fechas afectadas por el evento puede ayudar a evitar que su organización tome decisiones sobre los datos parciales.
 
 ## Aísle los días afectados
 
@@ -67,15 +65,3 @@ Puede utilizar el segmento en un grupo [de informes](../../vrs/vrs-about.md) vir
 5. Haga clic **[!UICONTROL Continue]** en en la esquina superior derecha y luego haga clic en **[!UICONTROL Save]**.
 
 ![Segmento aplicado al VRS](../assets/exclude_segment_vrs.png)
-
-## Alternativas en otras herramientas
-
-Si utiliza Informes y análisis, puede utilizar un evento [de](../../t-calendar-event.md) calendario para resaltar los días afectados en cualquier informe de tendencias.
-
->[!NOTE] Este método no se aplica a Análisis Workspace.
-
-1. Vaya a **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
-2. Introduzca el título, el intervalo de fechas y el texto de la nota que desee.
-3. Haga clic en **[!UICONTROL Save]**.
-
-![evento de calendario](../assets/exclude_calendar_event.jpg)
