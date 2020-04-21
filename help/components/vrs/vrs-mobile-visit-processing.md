@@ -2,38 +2,38 @@
 description: Las sesiones según el contexto en los grupos de informes virtuales cambian el modo en que Adobe Analytics calcula las visitas con dispositivos móviles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
 title: Sesiones según el contexto
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 
 ---
 
 
 # Sesiones según el contexto
 
-Las sesiones según el contexto en los grupos de informes virtuales cambian el modo en que Adobe Analytics calcula las visitas con dispositivos móviles. En este artículo se describen las implicaciones de procesamiento que las visitas individuales y eventos de inicio de aplicaciones en segundo plano (todos ellos establecidos por el SDK para móviles) tienen para el modo en que se definen las visitas con dispositivos móviles.
+Las sesiones con contexto en los grupos de informes virtuales cambian la forma en que Adobe Analytics calcula las visitas desde cualquier dispositivo. En este artículo también se describen las implicaciones de procesamiento de las visitas individuales en segundo plano y los eventos de inicio de la aplicación (ambos definidos por el SDK móvil) en la definición de las visitas con dispositivos móviles.
 
-Puede definir una visita del modo que desee sin alterar los datos subyacentes para adaptarse al modo en que sus visitantes interactúan con las aplicaciones móviles.
+Puede definir una visita como desee sin alterar los datos subyacentes para que coincida con la forma en que sus visitantes interactúan con sus experiencias digitales.
 
-## Parámetro URL de perspectiva de cliente  {#section_8B298006362341E3AC16A148422D1F65}
+## Parámetro URL de perspectiva de cliente 
 
-El proceso de recopilación de datos de Adobe Analytics le permite establecer un parámetro de cadena de consulta que especifica la perspectiva del cliente (indicada como parámetro de cadena de consulta “cp”). Este campo especifica el estado de la aplicación digital del usuario final. Esto le ayuda a saber si se generó una visita mientras una aplicación móvil estaba en segundo plano.
+El proceso de recopilación de datos de Adobe Analytics le permite establecer un parámetro de cadena de consulta que especifica la perspectiva del cliente (denominado parámetro de cadena de consulta &quot;cp&quot;). Este campo especifica el estado de la aplicación digital del usuario final. Esto le ayuda a saber si se generó una visita mientras una aplicación móvil estaba en segundo plano.
 
-## Procesamiento de visitas en segundo plano  {#section_D47B3161B7E145B6A32AB06E9AA03FA3}
+## Procesamiento de visitas en segundo plano 
 
-Una visita en segundo plano es un tipo de visita que el SDK para móviles de Adobe versión 4.13.6 o superior envía a Analytics cuando la aplicación realiza una solicitud de seguimiento estando en segundo plano. Algunos ejemplos habituales son:
+Una visita en segundo plano es un tipo de visita que se envía a Analytics desde la versión 4.13.6 y posteriores del SDK de Adobe Mobile cuando la aplicación realiza una solicitud de seguimiento mientras se encuentra en segundo plano. Algunos ejemplos típicos de esto son:
 
-* Datos enviados durante el cruce de un límite geográfico
-* Interacción con una notificación push
+* Datos enviados durante el cruce de una valla geográfica
+* Una interacción de notificación push
 
-Los siguientes ejemplos describen la lógica empleada para determinar cuándo comienza y acaba una visita para cualquier visitante cuando el ajuste “Impedir que las visitas en segundo plano inicien una nueva visita” está o no habilitado para un grupo de informes virtuales.
+Los siguientes ejemplos describen la lógica utilizada para determinar cuándo una visita inicio y finaliza para cualquier visitante cuando la opción &quot;Impedir que las visitas en segundo plano inicien una nueva visita&quot; está o no habilitada para un grupo de informes virtuales.
 
 **Si “Impedir que las visitas en segundo plano inicien una nueva visita” no está habilitado:**
 
-Si esta función no está habilitada para un grupo de informes virtuales, las visitas en segundo plano se tratan como cualquier otra visita, lo que significa que inician nuevas visitas y se comportan igual que las visitas en primer plano. Por ejemplo, si se produce una visita en segundo plano menos de 30 minutos (el tiempo de espera de sesión estándar para un grupo de informes) antes de un grupo de visitas en primer plano, la visita en segundo plano es parte de la sesión.
+Si esta función no está habilitada para un grupo de informes virtuales, las visitas en segundo plano se tratan igual que cualquier otra visita, lo que significa que tienen el inicio de nuevas visitas y actúan igual que las visitas en primer plano. Por ejemplo, si una visita en segundo plano se produce menos de 30 minutos (el tiempo de espera de sesión estándar para un grupo de informes) antes de un conjunto de visitas en primer plano, la visita en segundo plano es parte de la sesión.
 
 ![](assets/nogood1.jpg)
 
-Si la visita en segundo plano se produce más de 30 minutos antes de cualquier visita en primer plano, la visita en segundo plano crea su propia visita y el número de estas sería de dos.
+Si la visita en segundo plano se produce más de 30 minutos antes de cualquier visita en primer plano, la visita en segundo plano crea su propia visita, para un recuento total de visitas de 2.
 
 ![](assets/nogood2.jpg)
 
@@ -45,57 +45,57 @@ Ejemplo 1: Se produce una visita en segundo plano un tiempo (t) antes de una ser
 
 ![](assets/nogoodexample1.jpg)
 
-En este ejemplo, si *t* es mayor que el tiempo de espera de visita configurado del grupo de informes virtuales, la visita en segundo plano se excluye de la visita formada por las visitas en primer plano. Por ejemplo, si el tiempo de espera de visita del grupo de informes virtuales se estableció en 15 minutos y *t* fue 20 minutos, la visita formada por esta serie de visitas (indicadas por el contorno verde) excluiría la visita en segundo plano. Esto significa que cualquier eVar establecida con una caducidad de “visita” en la visita en segundo plano **no** persistiría en la siguiente visita, y que un contenedor de segmentos de visita solo incluiría las visitas en primer plano dentro del contorno verde.
+En este ejemplo, si *t* es bueno al tiempo de espera de visita configurado del grupo de informes virtuales, la visita en segundo plano se excluye de la visita formada por las visitas en primer plano. Por ejemplo: si el tiempo de espera de visita del grupo de informes virtuales se estableció en 15 minutos y *t* fue de 20 minutos, la visita formada por esta serie de visitas (mostrada por el contorno verde) excluiría la visita en segundo plano. Esto significa que cualquier eVar configurada con una caducidad de &quot;visita&quot; en la visita en segundo plano **no persistirá** en la siguiente visita y un contenedor de segmento de visita solo incluirá las visitas en primer plano dentro del contorno verde.
 
 ![](assets/nogoodexample1-2.jpg)
 
-Por el contrario, si *t* es menor que el tiempo de espera de visita configurado del grupo de informes virtuales, la visita en segundo plano se incluye como parte de la visita, como si fuera una visita en primer plano (como se indica con el contorno verde):
+Por el contrario, si *t* es menor que el tiempo de espera de visita configurado del grupo de informes virtuales, la visita en segundo plano se incluye como parte de la visita como si fuera una visita en primer plano (como se muestra en el contorno verde):
 
 ![](assets/nogoodexample1-3.jpg)
 
 Esto significa que:
 
-* Cualquier eVar establecida con una caducidad de “visita” en la visita en segundo plano persiste en su valor en las demás visitas de esta visita.
-* Cualquier valor establecido en la visita en segundo plano se incluye en la evaluación de la lógica del contenedor de segmentos en el nivel de visita.
+* Todas las eVars configuradas con caducidad de &quot;visita&quot; en la visita en segundo plano conservan sus valores en las demás visitas individuales de esta visita.
+* Todos los valores configurados en la visita en segundo plano se incluyen en la evaluación de la lógica de contenedor del segmento de nivel de visita.
 
-En ambos casos, el recuento total de visitas sería de 1.
+En ambos casos, el recuento total de visitas sería 1.
 
 Ejemplo 2: Si se produce una visita en segundo plano después de una serie de visitas en primer plano, el comportamiento es similar.
 
 ![](assets/nogoodexample2.jpg)
 
-Si la visita en segundo plano se produce pasado el tiempo de espera configurado para el grupo de informes virtuales, la visita en segundo plano no es parte de una sesión (el contorno verde):
+Si la visita en segundo plano se produce después del tiempo de espera configurado del grupo de informes virtuales, la visita en segundo plano no forma parte de una sesión (se describe en verde):
 
 ![](assets/nogoodexample2-1.jpg)
 
-Igualmente, si el periodo de tiempo *t* fue inferior al tiempo de espera configurado del grupo de informes virtuales, la visita en segundo plano se incluye en la visita formada por las visitas en primer plano anteriores:
+Del mismo modo, si el período de tiempo *t* era menor que el tiempo de espera configurado del grupo de informes virtuales, la visita en segundo plano se incluye en la visita formada por las visitas en primer plano anteriores:
 
 ![](assets/nogoodexample2-2.jpg)
 
 Esto significa que:
 
-* Cualquier eVar establecida con una caducidad de “visita” en las visitas en primer plano anteriores persiste en su valor en la visita en segundo plano de esta visita.
-* Cualquier valor establecido en la visita en segundo plano se incluye en la evaluación de la lógica del contenedor de segmentos en el nivel de visita.
+* Cualquier eVar establecida con caducidad de &quot;visita&quot; en las visitas en primer plano anteriores persiste en sus valores en la visita en segundo plano de esta visita.
+* Todos los valores configurados en la visita en segundo plano se incluyen en la evaluación de la lógica de contenedor del segmento de nivel de visita.
 
-Como antes, el total de visitas en ambos casos sería de 1.
+Como antes, el recuento total de visitas en ambos casos sería 1.
 
-Ejemplo 3: En algunas circunstancias, una visita en segundo plano puede provocar que lo que eran dos visitas separadas se combinen en una sola. En el siguiente escenario, una visita en segundo plano es precedida y seguida por una serie de visitas en primer plano:
+Ejemplo 3: En algunas circunstancias, una visita en segundo plano puede provocar que lo que eran dos visitas separadas se combinen en una sola. En el siguiente escenario, una visita en segundo plano va precedida y seguida de una serie de visitas en primer plano:
 
 ![](assets/nogoodexample3.jpg)
 
-Si, en este ejemplo, *t1* y *t2* son inferiores al tiempo de espera de visita configurado para el grupo de informes virtuales, todas estas visitas se combinarían en una sola, aunque la suma de *t1* y *t2* exceda el tiempo de espera de visita:
+Si, en este ejemplo, *t1* y *t2* son ambos menores que el tiempo de espera de visita configurado para el grupo de informes virtuales, todas estas visitas se combinarían en una sola visita, incluso si *t1* y *t2* juntos son buenos que el tiempo de espera de visita:
 
 ![](assets/nogoodexample3-1.jpg)
 
-Sin embargo, si *t1* y *t2* son mayores que el tiempo de espera configurado, las visitas se separarían en dos visitas distintas:
+Sin embargo, si *t1* y *t2* son buenos al tiempo de espera configurado para el grupo de informes virtuales, estas visitas se separarían en dos visitas distintas:
 
 ![](assets/nogoodexample3-2.jpg)
 
-Del mismo modo (como en los ejemplos previos), si *t1* y *t2* son menores que el tiempo de espera, la visita en segundo plano se incluiría en la primera visita:
+Del mismo modo (como en nuestros ejemplos anteriores), si *t1* es menor que el tiempo de espera y *t2* es menor que el tiempo de espera, la visita en segundo plano se incluiría en la primera visita:
 
 ![](assets/nogoodexample3-3.jpg)
 
-Si *t1* es mayor y *t2* es menor que el tiempo de espera, la visita en segundo plano se incluiría en la segunda visita:
+Si *t1* es bueno al tiempo de espera y *t2* es menor que el tiempo de espera, la visita en segundo plano se incluirá en la segunda visita:
 
 ![](assets/nogoodexample3-4.jpg)
 
@@ -105,35 +105,35 @@ Ejemplo 4: En escenarios donde se produce una serie de visitas en segundo plano 
 
 Aunque esto no se considere una visita, cualquier eVar establecida que tenga caducidad de visita persiste en su valor en las demás visitas en segundo plano de esta “visita en segundo plano”.
 
-Ejemplo 5: En escenarios donde se producen varias visitas en segundo plano sucesivas, seguidas de una serie de visitas en primer plano, es posible (dependiendo del tiempo de espera configurado) que las visitas en segundo plano mantengan viva una visita más allá del tiempo de espera. Por ejemplo, si la combinación de *t1* y *t2* fuera mayor que el tiempo de espera de visita del grupo de informes virtuales, pero individualmente fueran menores que dicho tiempo de espera, la visita se extendería para incluir ambas visitas en segundo plano:
+Ejemplo 5: En escenarios donde se producen varias visitas en segundo plano sucesivas, seguidas de una serie de visitas en primer plano, es posible (dependiendo del tiempo de espera configurado) que las visitas en segundo plano mantengan viva una visita más allá del tiempo de espera. Por ejemplo, si *t1* y *t2* juntos fueran buenos que el tiempo de espera de visita del grupo de informes virtuales pero individualmente fueran inferiores al tiempo de espera, la visita se extendería para incluir ambas visitas en segundo plano:
 
 ![](assets/nogoodexample5.jpg)
 
-Igualmente, si se produce una serie de visitas en segundo plano antes de una serie de eventos en primer plano, se obtiene un comportamiento similar:
+Del mismo modo, si se produce una serie de visitas en segundo plano antes de una serie de eventos en primer plano, se produce un comportamiento similar:
 
 ![](assets/nogoodexample5-1.jpg)
 
-Las visitas en segundo plano se comportan de este modo para preservar cualquier efecto de atribución de eVars u otras variables establecidas durante las visitas en segundo plano. Esto permite que los eventos de conversión en primer plano posteriores se atribuyan a acciones realizadas cuando una aplicación estaba en segundo plano. También permite a un contenedor de segmentos de visita incluir las visitas en segundo plano que dieron como resultado una sesión en primer plano posterior, lo que resulta útil para medir la efectividad de los mensajes push.
+Las visitas en segundo plano se comportan de este modo para preservar cualquier efecto de atribución de eVars u otras variables establecidas durante las visitas en segundo plano. Esto permite que los eventos de conversión en primer plano posteriores se atribuyan a acciones realizadas mientras una aplicación estaba en segundo plano. También permite que un contenedor de segmentos de visita incluya visitas en segundo plano que resultaron en una sesión en primer plano posterior, lo que resulta útil para medir la eficacia de los mensajes push.
 
-## Comportamiento de la métrica de visitas  {#section_50B82618A39B454493B33B1450CCBD3E}
+## Comportamiento de la métrica de visitas 
 
-El recuento de visitas se basa únicamente en las visitas que incluyen al menos una visita en primer plano. Esto significa que las visitas en segundo plano huérfanas no se cuentan en la métrica.
+El recuento de visitas se basa únicamente en el número de visitas que incluyen al menos una visita en primer plano. Esto significa que las visitas en segundo plano huérfanas o las &quot;visitas en segundo plano&quot; no se contabilizan en la métrica Visita.
 
-## Comportamiento de tiempo pasado por métrica de visitas  {#section_0A149ABB3E034B97BD0B3A7F3EB67383}
+## Comportamiento de tiempo pasado por métrica de visitas 
 
-El tiempo pasado se sigue calculando de un modo análogo a como se hace sin visitas en segundo plano, empleando el tiempo entre visitas. No obstante, si una visita incluye visitas en segundo plano (al producirse lo bastante próximas a visitas en primer plano), dichas visitas se incluyen en el cálculo del tiempo pasado por visita, como si fueran visitas en primer plano.
+El tiempo empleado se sigue calculando de forma análoga a cómo se hace sin visitas en segundo plano usando el tiempo entre visitas individuales. Aunque, si una visita incluye visitas en segundo plano (porque se produjeron lo suficientemente cerca de las visitas en primer plano), dichas visitas se incluyen en el cálculo del tiempo empleado por visita como si fueran visitas en primer plano.
 
-## Configuración del procesamiento de visitas en segundo plano  {#section_C8B1D38C06FF4ABAAFA78CE9550C0F4B}
+## Configuración del procesamiento de visitas en segundo plano 
 
-Como el procesamiento de visitas en segundo plano solo está disponible para grupos de informes virtuales que utilizan Procesamiento de intervalo de tiempo, Adobe Analytics admite dos modos de procesar las visitas en segundo plano para preservar el recuento de visitas en el grupo de informes base que no utiliza Procesamiento de intervalo de tiempo. Para obtener acceso a estos ajustes, vaya a Adobe Analytics Admin Console y a la configuración del grupo de informes base aplicable y, a continuación, diríjase al menú “Administración de móviles” y al submenú “Informes de aplicaciones móviles”.
+Como el procesamiento de visitas en segundo plano solo está disponible para grupos de informes virtuales que utilizan Procesamiento de intervalo de tiempo, Adobe Analytics admite dos modos de procesar las visitas en segundo plano para preservar el recuento de visitas en el grupo de informes base que no utiliza Procesamiento de intervalo de tiempo. Para acceder a esta configuración, vaya a la Consola de administración de Adobe Analytics, vaya a la configuración del grupo de informes base aplicable y, a continuación, vaya al menú &quot;Administración de móviles&quot; y, a continuación, al submenú &quot;Sistema de informes de aplicaciones móviles&quot;.
 
-1. “Procesamiento heredado activado”: esta es la configuración predeterminada para todos los grupos de informes. Si se deja activado el procesamiento heredado, las visitas en segundo plano se procesan como visitas normales en nuestro canal de procesamiento por lo que respecta al grupo de informes base de atribución de tiempo no de informes. Esto significa que cualquier visita en segundo plano que aparezca en el grupo de informes base aumente las visitas como una visita normal. Si no desea que las visitas en segundo plano aparezcan en el grupo de informes base, cambie este ajuste a “Desactivado”.
-1. “Procesamiento heredado desactivado”: cuando el procesamiento heredado de visitas en segundo plano está desactivado, el grupo de informes base ignora las visitas en segundo plano, a las que solo se puede acceder si se configura el uso de Procesamiento de intervalo de tiempo en un grupo de informes virtuales creado en este grupo de informes base. Esto significa que cualquier dato captado por las visitas en segundo plano y enviado a este grupo de informes base solo aparece en los grupos de informes virtuales que tengan habilitado Procesamiento de intervalo de tiempo.
+1. &quot;Procesamiento heredado activado&quot;: Esta es la configuración predeterminada para todos los grupos de informes. Si se deja el procesamiento heredado en, las visitas en segundo plano se procesan como visitas normales en la canalización de procesamiento en lo que se refiere al grupo de informes base de Atribución de tiempo no de informes. Esto significa que cualquier visita en segundo plano que aparezca en el grupo de informes base incrementa las visitas como una visita normal. Si no desea que las visitas en segundo plano aparezcan en el grupo de informes base, cambie esta configuración a &quot;Desactivado&quot;.
+1. &quot;Procesamiento heredado desactivado&quot;: Con el procesamiento heredado de visitas en segundo plano desactivado, el grupo de informes base ignora las visitas en segundo plano enviadas al grupo de informes base y solo se puede acceder a ellas cuando un grupo de informes virtuales creado en este grupo de informes base está configurado para utilizar Procesamiento de intervalo de tiempo. Esto significa que los datos capturados por las visitas en segundo plano enviadas a este grupo de informes base solo aparecen en un grupo de informes virtuales habilitado para Procesamiento de intervalo de tiempo.
 
-   Este ajuste está pensado para los clientes que desean aprovechar el nuevo procesamiento de visitas en segundo plano sin alterar el recuento de visitas en su grupo de informes base.
+   Esta configuración está dirigida a los clientes que deseen aprovechar el nuevo procesamiento de visitas en segundo plano sin alterar el recuento de visitas de su grupo de informes base.
 
-En cualquier caso, las visitas en segundo plano se facturan al mismo coste que cualquiera otra enviada a Analytics.
+En cualquier caso, las visitas en segundo plano se facturan al mismo costo que cualquier otra visita enviada a Analytics.
 
-## Inicio de nuevas visitas tras cada inicio de aplicación  {#section_9DA9A8B9758248A6B311EFBA06AECA80}
+## Inicio de nuevas visitas tras cada inicio de aplicación 
 
-Además del procesamiento de visitas en segundo plano, los grupos de informes virtuales pueden forzar que se inicie una nueva visita cada vez que el SDK para móviles envíe un evento de inicio de aplicación. Cuando este ajuste está habilitado, cada vez que el SDK envía un evento de inicio de aplicación, se fuerza el inicio de una nueva visita, haya alcanzado o no cualquier visita actual su tiempo de espera. La visita que contiene el evento de inicio de aplicación se incluye como primer elemento de la nueva visita, incrementa el recuento de visitas y crea un contenedor de visitas propio para la segmentación.
+Además del procesamiento de visitas en segundo plano, los grupos de informes virtuales pueden forzar una nueva visita a inicio cada vez que el SDK móvil envía un evento de inicio de la aplicación. Con esta configuración habilitada, cada vez que se envía un evento de inicio de aplicación desde el SDK, se fuerza una nueva visita al inicio independientemente de si una visita abierta ha alcanzado su tiempo de espera. La visita que contiene el evento de inicio de la aplicación se incluye como la primera visita en la siguiente visita, incrementa el recuento de visitas y crea un contenedor de visitas distinto para la segmentación.
