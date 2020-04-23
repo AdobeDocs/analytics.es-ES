@@ -2,7 +2,7 @@
 description: 'null'
 title: Creador de perspectivas rápidas
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
 ---
 
@@ -59,7 +59,6 @@ A continuación se incluyen algunos de los términos básicos con los que debe e
 
    * Una tabla improvisada con la dimensión (aquí, Estados de EE.UU.) verticalmente y la métrica (aquí, Visitas) horizontalmente en la parte superior. Consulte esta tabla:
    ![](assets/qibuilder3.png)
-
 
    * Una visualización adjunta, en este caso un gráfico [de barras](/help/analyze/analysis-workspace/visualizations/bar.md). La visualización que se genera se basa en el tipo de datos agregados a la tabla. Para cambiar el tipo de visualización, haga clic en la flecha desplegable situada junto a **[!UICONTROL Bar]**.
 
