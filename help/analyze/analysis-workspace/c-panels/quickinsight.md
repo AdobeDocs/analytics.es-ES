@@ -1,8 +1,8 @@
 ---
-description: 'null'
+description: Quick Insights Builder es una herramienta para nuevos usuarios de Workspace que les guía en la creación de tablas de datos y visualizaciones
 title: Creador de perspectivas rápidas
 translation-type: tm+mt
-source-git-commit: 718de88664e9d27ed5973f5269a324ffbc3b5414
+source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
 
