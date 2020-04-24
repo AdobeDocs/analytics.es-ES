@@ -3,7 +3,7 @@ description: SFTP es un protocolo seguro para la transferencia de datos que gara
 keywords: ftp;sftp
 title: Resumen del Protocolo seguro de transferencia de archivos (SFTP)
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ Las siguientes herramientas de Analytics **no pueden** insertar datos por SFTP:
 
 * Reports &amp; Analytics
 * Ad Hoc Analysis
-* Creador de informes
+* Report Builder
 
 ## Entrega mediante extracción {#section_FA29FAEF02FE40B8B32452146A036F48}
 
