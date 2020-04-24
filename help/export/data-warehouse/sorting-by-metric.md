@@ -2,7 +2,7 @@
 description: Proporciona informes de desgloses clasificados en Data Warehouse, ordenados por el valor de métrica descendente.
 title: Ordenar por métrica
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
