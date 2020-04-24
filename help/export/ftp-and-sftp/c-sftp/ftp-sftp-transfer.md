@@ -3,7 +3,7 @@ description: El grupo de servicios de ingeniería de Adobe puede configurar un p
 keywords: ftp;sftp
 title: Envío de datos de Adobe a una cuenta de FTP externa mediante un SFTP
 uuid: 3edf27f1-b7b5-4bc2-abf9-1489e4397dd3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
