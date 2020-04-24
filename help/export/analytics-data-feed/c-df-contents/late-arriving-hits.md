@@ -1,7 +1,7 @@
 ---
 title: Visitas que llegan tarde
 description: Descubra cómo las fuentes de datos tratan las visitas que llegan tarde.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
