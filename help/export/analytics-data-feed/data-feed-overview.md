@@ -1,5 +1,5 @@
 ---
-description: Los datos recopilados de sitios web, aplicaciones móviles o cargados mediante API de servicio web o fuentes de datos, se procesan y almacenan en el almacén de datos de Adobe. Estos datos del flujo de navegación sin procesar forman el conjunto de datos que utiliza Adobe Analytics.
+description: Los datos que se recopilan de sitios web y aplicaciones móviles, o que se cargan mediante las API del servicio web o fuentes de datos, se procesan y almacenan en el Data Warehouse de Adobe. Estos datos del flujo de navegación sin procesar forman el conjunto de datos que se utilizan en Adobe Analytics.
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Resumen de la fuente de datos de Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
