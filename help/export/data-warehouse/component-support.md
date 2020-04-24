@@ -52,8 +52,8 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
    * Profundidad de acierto
    * Frecuencia de retorno
    * Tiempo previo al evento
-   * Tiempo empleado en la página (general)
-   * Tiempo empleado por visita (general)
+   * Tiempo empleado en la página - Agrupado
+   * Tiempo empleado por visita - General
    * Profundidad de la visita
 * Clasificación de todas las páginas de búsqueda
 * Variables de jerarquía
@@ -62,7 +62,7 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
 * Búsqueda de pago
 * Visitas a una sola página
 * Motivo de omisión de seguimiento
-* Estados de los EE. UU.
+* Estados Unidos
 
 ### Métricas no admitidas
 
