@@ -3,7 +3,7 @@ description: Adobe admite la exportación de solicitudes de Data Warehouse a ser
 keywords: ftp;sftp
 title: Envío de solicitudes de Data Warehouse a los servidores SFTP
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ Para enviar correctamente una solicitud de [!DNL Data Warehouse] a través de SF
 1. Cuando haya obtenido el archivo, inicie sesión en el sitio del FTP con las mismas credenciales que utilizó para la solicitud de [!DNL Data Warehouse].
 1. En el directorio raíz, vaya a la carpeta denominada [!DNL .ssh] (si todavía no existe, créela) y coloque en ella el archivo [!DNL authorized_keys].
 
-1. Vaya al gestor de solicitudes de [!DNL Data Warehouse]. Configure la solicitud según sus preferencias y luego haga clic en **[!UICONTROL Opciones de envío avanzadas]**.
+1. Vaya al gestor de solicitudes de [!DNL Data Warehouse]. Configure la solicitud como desee y haga clic en **[!UICONTROL Advanced Delivery Options]**.
 
 1. En la ventana emergente, haga clic en **[!UICONTROL FTP]** y después especifique el sitio del FTP (incluido el protocolo [!DNL sftp://], de este modo: [!DNL sftp://ftp.omniture.com]) a través del puerto 22.
 
@@ -41,7 +41,7 @@ Para enviar correctamente una solicitud de [!DNL Data Warehouse] a través de SF
 
 1. En el campo Carpeta, escriba el nombre de la carpeta donde quiere colocar el archivo. El nombre de la carpeta es obligatorio.
 1. Escriba el nombre de usuario y la contraseña que usó en el paso 2.
-1. Haga clic en **[!UICONTROL Enviar]**.
+1. Haga clic en **[!UICONTROL Send]**.
 
 El comando PUT de SFTP coloca un archivo temporal con la extensión .part en el directorio especificado. Cuando la carga se termina, la extensión del archivo se cambia por la extensión final. Ahora el archivo ya está listo para su uso.
 
