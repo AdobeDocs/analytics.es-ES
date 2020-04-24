@@ -2,7 +2,7 @@
 description: Preguntas más frecuentes sobre las fuentes de datos
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: Preguntas frecuentes sobre las fuentes de datos
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
