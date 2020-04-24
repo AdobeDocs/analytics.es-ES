@@ -3,7 +3,7 @@ description: Solo es posible conectarse a una cuenta de FTP sin contraseña si s
 keywords: ftp;sftp
 title: Conectarse a Adobe a través de un SFTP sin contraseña
 uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
