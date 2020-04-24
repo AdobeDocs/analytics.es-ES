@@ -50,7 +50,7 @@ Se admiten las 11 regiones de AWS estándar siguientes (utilizando el algoritmo 
 * us-east-1
 * us-west-1
 * us-west-2
-* ap-South-1
+* ap-south-1
 * ap-northeast-2
 * ap-southeast-1
 * ap-southeast-2
