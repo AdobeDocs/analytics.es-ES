@@ -3,7 +3,7 @@ description: Instrucciones para configurar la transferencia segura a través de 
 keywords: ftp;sftp
 title: Conéctese a una cuenta de FTP de Adobe mediante un SFTP
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
