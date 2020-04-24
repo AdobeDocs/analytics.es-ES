@@ -15,18 +15,18 @@ El administrador de solicitudes permite ver, duplicar y volver a priorizar solic
 
 En Almacén de datos, seleccione la **[!UICONTROL Request Manager]** ficha.
 
-Trabajar en esta ficha le permite
+Al trabajar en esta ficha, puede
 
-* Vista las solicitudes de informes recientes por nombre de informe, segmento aplicado, solicitante, fecha de solicitud y estado.
-* Solicitudes de Duplicado. Haga clic **[!UICONTROL Duplicate]** junto a la solicitud.
+* Ver solicitudes de informes recientes por nombre de informe, segmento aplicado, solicitante, fecha y estado de la solicitud.
+* Duplicar solicitudes. Click **[!UICONTROL Duplicate]** next to the request.
 
    >[!NOTE]
    >
    >Esta acción duplica solo la solicitud, no la programación ni los detalles de la entrega.
 
-* Busque informes por nombre de informe o por nombre de inicio de sesión del solicitante.
-* Vuelva a priorizar los informes arrastrándolos y colocándolos en una nueva ubicación dentro de la cola.
-* Para ver cuándo se inició el procesamiento de una solicitud, haga clic en un ID de solicitud programado y examine la ventana emergente que se abre.
+* Buscar informes por nombre de informe o por nombre de inicio de sesión del solicitante.
+* Volver a priorizar los informes al arrastrarlos y colocarlos en una nueva ubicación dentro de la cola.
+* Para ver cuándo comenzó a procesarse una solicitud, haga clic en el ID de una solicitud programada y revise el menú emergente que se abre.
 
 >[!NOTE] Para cancelar una solicitud del Data Warehouse, [siga estos pasos](https://helpx.adobe.com/es/analytics/kb/cancel-data-warehouse-requests.html).
 
