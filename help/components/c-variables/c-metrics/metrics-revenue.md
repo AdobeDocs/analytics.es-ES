@@ -3,7 +3,7 @@ description: Los ingresos se capturan en el evento de compra y se definen como e
 title: Ingresos
 topic: Metrics
 uuid: d0c2c012-42a7-4ff2-8224-6486ab956d98
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
