@@ -3,7 +3,7 @@ description: Agrupa los dispositivos móviles según la longitud máxima admitid
 title: Longitud de la dirección URL del navegador
 topic: Reports
 uuid: 30ab11bf-34be-486f-aab3-0ee9be4e56b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
