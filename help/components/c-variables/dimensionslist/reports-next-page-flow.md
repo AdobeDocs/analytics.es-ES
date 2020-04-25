@@ -3,7 +3,7 @@ description: 'Muestra las vistas de ruta, o la cantidad de veces y porcentajes q
 title: Flujo de página siguiente
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Utilice este informe para:
 <table id="table_A68A0DC384A74DC4895C8B01F760E175"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Producto </th> 
+   <th colname="col1" class="entry"> Product </th> 
    <th colname="col2" class="entry"> Descripción </th> 
   </tr> 
  </thead>
