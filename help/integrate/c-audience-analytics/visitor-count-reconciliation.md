@@ -2,7 +2,7 @@
 description: Adobe Analytics y Adobe Audience Manager cuentan con métricas de visitantes con definiciones similares, pero que no están perfectamente alineadas por distintos motivos.
 title: Diferencias en la contabilización de visitantes
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -65,7 +65,7 @@ Las métricas AAM: Propagación de segmentos en tiempo real y Analytics: Visitan
   <tr> 
    <td colname="col1"> <p>Límite de 150 segmentos </p> </td> 
    <td colname="col2"> <p>No </p> </td> 
-   <td colname="col3"> <p>Sí  - Los recuentos de Analytics pueden variar hasta un 5% debido al límite de integración de 150 segmentos. El mensaje “Alcanzado límite de audiencias” aparecerá en la dimensión Nombre de audiencia si se ha truncado. </p> </td> 
+   <td colname="col3"> <p>Sí: los recuentos de Analytics pueden variar hasta un 5 % debido al límite de integración de 150 segmentos. El mensaje “Alcanzado límite de audiencias” aparecerá en la dimensión Nombre de audiencia si se ha truncado. </p> </td> 
   </tr> 
  </tbody> 
 </table>
