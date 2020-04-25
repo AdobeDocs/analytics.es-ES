@@ -3,7 +3,7 @@ description: Describe cómo definir códigos de moneda de destino para que funci
 title: Compatibilidad con múltiples monedas
 topic: null
 uuid: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
 
 ---
