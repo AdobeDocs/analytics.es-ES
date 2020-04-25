@@ -2,7 +2,7 @@
 description: Los informes de Targets permiten medir el rendimiento del sitio web y llevar un seguimiento del avance hacia los objetivos. Por ejemplo, es posible que desee incrementar la cantidad de visitantes de una región, el ingreso por pedido o la cantidad de visitas provenientes de un referente específico.
 title: Objetivos
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
