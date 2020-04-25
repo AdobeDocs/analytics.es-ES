@@ -3,7 +3,7 @@ description: No todos los segmentos creados en el Generador de segmentos son com
 title: Compatibilidad del segmento con el Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
