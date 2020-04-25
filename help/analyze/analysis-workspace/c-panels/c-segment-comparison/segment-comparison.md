@@ -58,7 +58,7 @@ Una vez que Adobe termina de analizar los dos segmentos deseados, muestra sus re
 
 ### Tamaño y superposición
 
-Ilustra los tamaños comparativos de cada segmento seleccionado y cuánto se superponen entre sí mediante un diagrama de Venn. Puede pasar el ratón por encima de la imagen para ver cuántos visitantes había en cada sección superpuesta o no superpuesta. También puede hacer clic con el botón derecho en la superposición para crear un segmento nuevo y así seguir análisis. Si los dos segmentos son mutuamente excluyentes, no se muestra ninguna superposición entre los dos círculos (normalmente se ve con segmentos que utilizan un contenedor de visita individual).
+Ilustra los tamaños comparativos de cada segmento seleccionado y cuánto se superponen entre sí mediante un diagrama de Venn. Puede situarse sobre la imagen para ver cuántos visitantes estaban en cada sección superpuesta o no superpuesta. También puede hacer clic en la superposición para crear un segmento totalmente nuevo si desea hacer un análisis en mayor profundidad. Si los dos segmentos son mutuamente excluyentes, no se muestra ninguna superposición entre los dos círculos (normalmente se ve con segmentos que utilizan un contenedor de visita individual).
 
 ![Tamaño y superposición](assets/size-overlap.png)
 
