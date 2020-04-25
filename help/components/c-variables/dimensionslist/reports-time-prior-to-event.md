@@ -3,7 +3,7 @@ description: Este informe muestra la cantidad de tiempo que transcurre antes de 
 title: Tiempo previo al evento
 topic: Reports
 uuid: 851d9b6e-9d85-464a-9c40-ce525365ea7d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
