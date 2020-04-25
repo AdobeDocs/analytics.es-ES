@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: Administración de usuarios y productos
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
 
 ---
