@@ -3,7 +3,7 @@ description: Un visitante único se refiere a una persona que ha visitado un sit
 title: Visitantes únicos semanales
 topic: Metrics
 uuid: b732abf9-cad2-4518-9669-30b85b3e1e28
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
