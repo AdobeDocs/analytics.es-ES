@@ -2,7 +2,7 @@
 description: 'null'
 title: Resumen de paneles
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -43,7 +43,7 @@ Recuerde:
 
    ![](assets/dropdown.png)
 
-1. Seleccione una de las opciones desplegables para cambiar los datos en el panel de abajo. (También puede optar por no filtrar ninguno de los datos del panel seleccionando **[!UICONTROL Sin filtro]**).
+1. Seleccione una de las opciones desplegables para cambiar los datos en el panel de abajo. (You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
 1. Por ejemplo, si también quisiera dividir los datos por canal de marketing, podría agregar otra lista desplegable llamada “Canal de marketing”:
 
    ![](assets/mc_dropdown.png)
