@@ -1,7 +1,7 @@
 ---
 title: trackInlineStats
 description: Habilite o deshabilite Activity Map en la implementación.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 ---
