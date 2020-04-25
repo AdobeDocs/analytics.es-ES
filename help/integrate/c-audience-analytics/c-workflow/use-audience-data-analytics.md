@@ -3,7 +3,7 @@ description: 'También puede utilizar las dimensiones Audiencias de AAM en Analy
 solution: Experience Cloud
 title: Utilización de los datos de audiencias en Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
