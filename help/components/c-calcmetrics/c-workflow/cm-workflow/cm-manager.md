@@ -2,7 +2,7 @@
 description: El Administrador de métricas calculadas ofrece numerosas maneras de conservar las métricas, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 title: Administrador de métricas calculadas
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
