@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La variable `transactionID` identifica de forma exclusiva una transacción para que la visita se pueda enlazar a los datos cargados a través de las fuentes de datos. Esta variable es útil si desea utilizar datos de otros canales y vincularlos a datos recopilados con AppMeasurement.
 
->[!NOTE] Asegúrese de que [!UICONTROL Transaction ID Storage] está habilitado en un grupo de informes antes de utilizar esta variable. Consulte [Configuración general de la cuenta](/help/admin/admin/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
+>[!NOTE] Asegúrese de que el [!UICONTROL Almacenamiento de ID de transacción] esté habilitado en un grupo de informes antes de utilizar esta variable. Consulte [Configuración general de la cuenta](/help/admin/admin/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
 
 Cuando se configura `transactionID` en caso de una visita, Adobe toma una “instantánea” de todas las variables de Analytics que estaban establecidas o que persistían en ese momento. Los datos cargados a través de fuentes de datos con el mismo ID de transacción están permanentemente vinculados a esos valores de variables.
 
@@ -23,10 +23,10 @@ Puede establecer el ID de transacción al configurar la extensión de Analytics 
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. En [!UICONTROL Actions], haga clic en una [!UICONTROL Adobe Analytics - Set Variables] acción existente o en el icono &#39;+&#39;.
-5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el valor [!UICONTROL Action Type] en [!UICONTROL Set Variables].
-6. Locate the [!UICONTROL Transaction ID] section.
+3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Acciones], haga clic en una acción existente de [!UICONTROL Adobe Analytics: Establecer variables] o haga clic en el icono “+”.
+5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
+6. Busque la sección [!UICONTROL ID de transacción].
 
 Puede establecer el ID de transacción para cualquier valor de cadena, incluidos los elementos de datos.
 
