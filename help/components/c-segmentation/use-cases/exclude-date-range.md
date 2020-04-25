@@ -15,7 +15,7 @@ Si tiene datos [afectados por un evento](/help/technotes/event-impacted.md), pue
 
 Cree un segmento que aísle el día o intervalo de fechas afectados. Este segmento es útil si solo desea centrarse en los días problemáticos para ver más información sobre su impacto.
 
-1. Para abrir el generador de segmentos, vaya a **[!UICONTROL Components]** > **[!UICONTROL Segments]** y haga clic en **[!UICONTROL Add]**.
+1. Para abrir el generador de segmentos, vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]** y haga clic en **[!UICONTROL Añadir]**.
 2. Arrastre la dimensión &#39;Día&#39; al lienzo de definición y configúrela en el día que desee aislar.
 3. Repita el paso anterior para cada día que desee aislar en el informe.
 
@@ -29,8 +29,8 @@ Adobe recomienda utilizar los componentes de dimensión naranja y no los compone
 
 Cree un segmento que excluya el día o intervalo de fechas afectados. Este segmento es útil si desea excluir los días en los que se produjeron problemas para minimizar el impacto en el sistema de informes general.
 
-1. Para abrir el generador de segmentos, vaya a **[!UICONTROL Components]** > **[!UICONTROL Segments]** y haga clic en **[!UICONTROL Add]**.
-2. En la parte superior derecha del lienzo de definición de segmento, haga clic en **[!UICONTROL Options]** > **[!UICONTROL Exclude]**.
+1. Para abrir el generador de segmentos, vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]** y haga clic en **[!UICONTROL Añadir]**.
+2. En la parte superior derecha del lienzo de definición de segmento, haga clic en **[!UICONTROL Opciones]** > **[!UICONTROL Excluir]**.
 3. Arrastre la dimensión &#39;Día&#39; al lienzo de definición y configúrela en el día que desee eliminar.
 4. Repita el paso anterior para cada día que desee eliminar en el informe.
 
@@ -50,7 +50,7 @@ Puede aplicar tanto el segmento &#39;Días afectados&#39; como el segmento &#39;
 
 Puede aplicar el segmento &#39;Excluir días afectados&#39; a un proyecto de Workspace. Arrastre el segmento de exclusión a la sección del lienzo de Workspace rotulada *Colocar un segmento aquí*.
 
->[!TIP] Incluya una nota alrededor de los datos excluidos en la descripción del panel para ayudar a los que ven el informe. Haga clic con el botón secundario en el título de un panel y, a continuación, haga clic en **[!UICONTROL Edit description]**.
+>[!TIP] Incluya una nota alrededor de los datos excluidos en la descripción del panel para ayudar a los que ven el informe. Haga clic con el botón secundario en el título de un panel y, a continuación, haga clic en **[!UICONTROL Editar descripción]**.
 
 ![Segmento aplicado a un panel](../assets/exclude_segment_panel.jpg)
 
@@ -58,10 +58,10 @@ Puede aplicar el segmento &#39;Excluir días afectados&#39; a un proyecto de Wor
 
 Puede utilizar el segmento en un grupo [de informes](../../vrs/vrs-about.md) virtuales para excluir los datos de forma más cómoda. Esta opción es ideal en el sentido de que no tiene que recordar aplicar el segmento para cada informe que incluya el intervalo de fechas afectado. Si ya utiliza grupos de informes virtuales como fuente principal de datos, puede agregar el segmento a un VRS existente.
 
-1. Vaya a **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
-2. Haga clic en **[!UICONTROL Add]**.
+1. Navigate to **[!UICONTROL Components]** > **[!UICONTROL Virtual report suites]**.
+2. Haga clic en **[!UICONTROL Agregar]**.
 3. Escriba el nombre y la descripción que desee para el grupo de informes virtuales.
-4. Arrastre el segmento de exclusión al área rotulada **[!UICONTROL Add segment]**.
-5. Haga clic **[!UICONTROL Continue]** en en la esquina superior derecha y luego haga clic en **[!UICONTROL Save]**.
+4. Arrastre el segmento de exclusión al área rotulada **[!UICONTROL Añadir segmento]**.
+5. Haga clic en **[!UICONTROL Continuar]** en la esquina superior derecha y luego en **[!UICONTROL Guardar]**.
 
 ![Segmento aplicado al VRS](../assets/exclude_segment_vrs.png)
