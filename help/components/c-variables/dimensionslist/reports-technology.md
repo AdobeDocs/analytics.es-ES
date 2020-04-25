@@ -3,7 +3,7 @@ description: Estos informes muestran información sobre los navegadores, sistema
 title: Tecnología
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ Estos informes muestran información sobre los navegadores, sistemas operativos,
 <table id="table_6B55FDDC4C484766BC3817E06551E753"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Informe </th> 
+   <th colname="col1" class="entry"> Información general de la tienda de aplicaciones </th> 
    <th colname="col2" class="entry"> Descripción </th> 
   </tr> 
  </thead>
