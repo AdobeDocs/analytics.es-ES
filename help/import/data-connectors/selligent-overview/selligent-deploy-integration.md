@@ -2,7 +2,7 @@
 description: Implementar esta integración es un proceso sencillo de tres pasos.
 title: Implementación de la integración
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
