@@ -3,7 +3,7 @@ description: Pasos administrativos para activar Informes del Activity Map en Ana
 title: Informes de Activity Map
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Permite a Analytics recoger actividad del usuario originada desde el Activity Ma
 * Permite la creación de informes en Analytics.
 * Añade nuevos informes en **[!UICONTROL Ver todos los informes]** > **[!UICONTROL Activity Map:]**
 
-   | Informe | Descripción |
+   | Información general de la tienda de aplicaciones | Descripción |
    |---|---|
    | Activity Map  Página | Indica las páginas donde se hizo clic en un vínculo. |
    | Región de Activity Map | Indica todas las regiones de los vínculos recopilados en todo el sitio web. Tenga en cuenta que si una región aparece en varias páginas, la métrica se agregará en todas sus páginas. |
