@@ -2,7 +2,7 @@
 description: En estos breves vídeos (de 8 minutos o menos) se describe cómo optimizar el uso de las herramientas de métricas calculadas.
 title: Vídeotutoriales
 uuid: b6920b20-4c38-4017-bb10-cb187d39fd77
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
