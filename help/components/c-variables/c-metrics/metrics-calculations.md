@@ -3,7 +3,7 @@ description: Las métricas se calculan usando métodos estándar, de asignación
 title: Cálculos de métricas
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ Las métricas se calculan usando métodos estándar, de asignación, de particip
   </tr> 
   <tr> 
    <td colname="col1"> Participación </td> 
-   <td colname="col2"> <p>Asigna crédito total a todos los valores de variable que contribuyen a un evento de éxito en una visita. Este cálculo también se puede aplicar a varias sesiones de visitantes, si se utilizan métricas de participación entre visitas. </p> <p>Consulte  <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Participación</a> para obtener más información. </p> </td> 
+   <td colname="col2"> <p>Asigna crédito total a todos los valores de variable que contribuyen a un evento de éxito en una visita. Este cálculo también se puede aplicar a varias sesiones de visitantes, si se utilizan métricas de participación entre visitas. </p> <p>Consulte <a href="/help/components/c-variables/c-metrics/metrics-participation.md"  > Participación</a> para obtener más información. </p> </td> 
   </tr> 
  </tbody> 
 </table>
