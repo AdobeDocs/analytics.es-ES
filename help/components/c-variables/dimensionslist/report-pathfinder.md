@@ -2,7 +2,7 @@
 description: El objetivo del informe PathFinder es ayudarlo a dividir sus rutas completas en fragmentos, lo que da como resultado patrones precisos que son esenciales para optimizar un sitio.
 title: PathFinder
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
