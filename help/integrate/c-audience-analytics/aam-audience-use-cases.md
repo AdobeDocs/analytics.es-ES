@@ -2,7 +2,7 @@
 description: nulo
 title: Casos de uso de Audience Analytics
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
