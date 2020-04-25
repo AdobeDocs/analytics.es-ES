@@ -3,7 +3,7 @@ description: Unidades totales que se pidieron durante el período de tiempo sele
 title: Unidades
 topic: Metrics
 uuid: a0b3f3e0-5ba2-4c5c-9f7b-5b89b3079dd8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
