@@ -61,6 +61,6 @@ Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a 
 
 1. (Opcional) También puede dirigirse a otros creadores de componentes de Analytics y comprobar que ahora muestren una etiqueta de grupo de informes que indique
 
-   * Dónde se creará un segmento: [Generador de segmentos](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-   * Dónde se creará una métrica calculada: [Creador de métricas calculadas](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
-   * Dónde se generará una alerta: [Generador de alertas](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html).
+   * Dónde se creará un segmento: [Generador de segmentos](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+   * Dónde se creará una métrica calculada: [Creador de métricas calculadas](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html).
+   * Dónde se generará una alerta: [Generador de alertas](https://docs.adobe.com/content/help/es-ES/analytics/components/alerts/alert-builder.html).
