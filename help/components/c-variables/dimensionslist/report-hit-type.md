@@ -2,7 +2,7 @@
 description: La dimensión Tipo de visita indica si una aplicación estaba en primer o segundo plano al recopilarse una visita individual.
 title: Tipo de visita
 uuid: 14a04260-27b2-4f59-b0a5-80387d39e1a9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
