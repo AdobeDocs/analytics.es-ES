@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Definiciones de reglas de clasificación
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -84,7 +84,7 @@ Esta página muestra las reglas de un conjunto de reglas.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>El número de la regla. </p> <p>Consulte  <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Cómo procesar las reglas</a> para obtener más información. </p> </td> 
+   <td colname="col2"> <p>El número de la regla. </p> <p>Consulte <a href="/help/components/c-classifications2/crb/classification-quickstart-rules.md"  > Cómo procesar las reglas</a> para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Seleccionar tipo de regla</span> </td> 
@@ -129,7 +129,7 @@ En la página [!UICONTROL Expresión regular] puede editar las expresiones de es
 | Grupos de coincidencias | Muestra la correspondencia entre una expresión regular y los caracteres de un ID de campaña para poder clasificar una posición en este ID. |
 | Resultados de coincidencias | Muestra los elementos de una cadena que coinciden con la expresión regular. |
 
-Consulte  [Expresiones regulares en las reglas de clasificación](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+Consulte [Expresiones regulares en las reglas de clasificación](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 ## Página Pruebas {#section_EC926F97901C4E65901413F9683AA70A}
 
