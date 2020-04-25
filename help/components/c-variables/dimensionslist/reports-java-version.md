@@ -3,7 +3,7 @@ description: Agrupa los dispositivos móviles según la versión de Java que adm
 title: Versión de JavaScript
 topic: Reports
 uuid: 797ec651-e259-42c3-8008-8a1ad43621a3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
