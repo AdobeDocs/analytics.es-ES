@@ -21,4 +21,4 @@ Para que esta página se rellene correctamente deben cumplirse varios requisitos
 * Al igual que con todas las visitas de seguimiento de vínculos personalizados, la variable [pageName](/help/implement/vars/page-vars/pagename.md) se elimina de la solicitud de imagen para evitar la inflación en la métrica de vistas de página.
 * Este informe puede verse en los formatos de tendencias y clasificación.
 * Este informe puede utilizar un filtro de búsqueda para localizar artículos de línea específicos.
-* Pueden crearse  [desgloses](/help/analyze/reports-analytics/reports-customize/breakdowns.md) con cualquier otra variable.
+* Pueden crearse [desgloses](/help/analyze/reports-analytics/reports-customize/breakdowns.md) con cualquier otra variable.
