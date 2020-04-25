@@ -1,7 +1,7 @@
 ---
 title: Informes de comportamiento en Adobe Analytics
 description: Descubra cómo crear informes de comportamiento en Adobe Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
