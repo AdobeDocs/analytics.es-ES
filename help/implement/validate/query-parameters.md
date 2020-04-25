@@ -1,7 +1,7 @@
 ---
 title: Parámetros de consulta de recopilación de datos
 description: Enumera todos los parámetros de cadena de consulta utilizados en solicitudes de imagen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
