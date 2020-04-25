@@ -3,7 +3,7 @@ description: Permite acceder a un completo conjunto de métricas de Adobe Analyt
 title: Completo conjunto de métricas
 topic: Activity map
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
