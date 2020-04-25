@@ -1,6 +1,6 @@
 ---
 source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
-translation-type: ht
+translation-type: tm+mt
 
 ---
 # Herramientas de grupos de informes enumeradas en Permisos de perfil de producto
