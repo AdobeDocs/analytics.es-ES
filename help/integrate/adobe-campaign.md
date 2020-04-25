@@ -2,7 +2,7 @@
 description: nulo
 title: Informes de Adobe Campaign
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -38,7 +38,7 @@ La integración entre Adobe Campaign Standard y Adobe Analytics agrega el siguie
 <table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Informe </th> 
+   <th colname="col1" class="entry"> Información general de la tienda de aplicaciones </th> 
    <th colname="col2" class="entry"> Definición </th> 
   </tr> 
  </thead>
