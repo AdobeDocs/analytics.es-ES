@@ -17,16 +17,16 @@ Muestra las métricas basadas en si el dispositivo tiene JavaScript habilitado, 
 
 El informe JavaScript corresponde a la columna javascript de los datos sin procesar.
 
-javascript es un campo de nivel de visita, por lo que mantiene el valor de la primera visita individual de la visita. La columna javascript se basa en el primer valor presente en la columna j_jscript (como visit_remitente del reenvío solo persistirá el primer remitente del reenvío de la visita).
+javascript es un campo de nivel de visita, así que conserva el valor de la primera visita. La columna javascript se basa en el primer valor presente en la columna j_jscript (como visit_referrer solo conserva el primer referente de la visita).
 
-j_jscript se rellena desde el parámetro j de la solicitud de imagen de Adobe Analytics.
+j_jscript se rellena a partir del parámetro j de la solicitud de imagen de Adobe Analytics.
 
 Vea el siguiente ejemplo:
 
-| Acción | j_jscript | javascript |
+| Visita individual | j_jscript | javascript |
 |---|---|---|
 | 1 |  | 0 |
 | 2 | 1.6 | 0 |
 | 3 | 1.6 | 0 |
 
-Como resultado, no importa si se ha especificado una versión de javascript en algún momento de la visita; siempre se mostrará como no Javascript porque la primera visita no contenía ningún valor para j_jscript.
+Como resultado, no importa si había una versión de javascript especificada en algún momento de la visita, siempre aparecerá como no perteneciente a JavaScript, ya que la primera visita no contenía ningún valor para j_jscript.
