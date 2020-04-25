@@ -14,9 +14,9 @@ La función de flujo muestra las rutas del cliente en sus sitios web y aplicacio
 
 Le permite:
 
-* Visualizar el viaje del cliente a través del sitio web o la aplicación
-* Analizar hacia dónde van los clientes antes y después de los puntos de comprobación especificados, como entrada, una dimensión específica o salida
-* Crear segmentos mediante la designación de un punto específico en una ruta seleccionada
+* Visualizar el viaje del cliente a lo largo de su sitio web o aplicación
+* Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida
+* Crear segmentos mediante la designación de un punto específico en una ruta elegida
 
 >[!NOTE] Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace y Reports &amp; Analytics/Ad Hoc Analysis, consulte [La segmentación como base para Flujo y Abandonos](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
@@ -24,9 +24,9 @@ Le permite:
 
 ## Flujos interdimensionales {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-Puede mostrar el [flujo entre dimensiones](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por ejemplo, puede combinar páginas y departamentos en un diagrama. En este caso, su flujo puede ir desde la página de inicio, a la página Hombres y luego al departamento Zapatos.
+Puede mostrar el [flujo entre dimensiones](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md). Por ejemplo, puede combinar páginas y departamentos en un diagrama. En este caso, su flujo puede ir desde la página de inicio a la página Hombres y, a continuación, al departamento Zapatos.
 
-Cada columna podría mostrar una dimensión diferente. Arrastre una dimensión y colóquela en una zona de colocación para agregarla al diagrama.
+Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y suéltela en una zona de colocación para añadir esa dimensión al diagrama.
 
 ## Exportación de diagramas de flujo como parte de archivos .CSV de proyecto  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
