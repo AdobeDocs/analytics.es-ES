@@ -3,7 +3,7 @@ description: 'Muestra los dominios que atrajeron a aquellos clientes que repercu
 title: Dominios de referencia
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
