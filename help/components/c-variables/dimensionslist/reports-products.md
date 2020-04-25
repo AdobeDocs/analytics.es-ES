@@ -3,7 +3,7 @@ description: Identifica el modo en el que algunos productos individuales y grupo
 title: Productos
 topic: Reports
 uuid: a081352b-601a-43be-83ad-fa7f69890b49
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ Identifica el modo en el que algunos productos individuales y grupos de producto
 <table id="table_E8F96FC92BF44993B79DD3D6AFABCB60"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Informe </th> 
+   <th colname="col1" class="entry"> Información general de la tienda de aplicaciones </th> 
    <th colname="col2" class="entry"> Descripción </th> 
   </tr> 
  </thead>
