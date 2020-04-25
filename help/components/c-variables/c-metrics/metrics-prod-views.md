@@ -3,7 +3,7 @@ description: Instancia de la vista del producto que se está configurando. Se pr
 title: Vistas del producto
 topic: Metrics
 uuid: a9f2bbcd-e9ba-42d6-90c8-2fd4e6c9775b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
