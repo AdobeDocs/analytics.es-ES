@@ -3,7 +3,7 @@ description: Instrucciones sobre cómo definir un conjunto de criterios que dete
 title: Guardar una búsqueda de grupos de informes
 topic: Admin tools
 uuid: dd83eed6-1374-429c-9fc3-709055698a44
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
