@@ -3,7 +3,7 @@ description: Los informes estándar presentan datos de la actividad del sitio we
 title: Resumen de los informes
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
