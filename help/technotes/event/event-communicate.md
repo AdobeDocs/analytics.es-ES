@@ -13,7 +13,7 @@ Si tiene datos [afectados por un evento](../event-impacted.md), es importante co
 
 ## Comunicación mediante paneles o descripciones de visualización
 
-Si tiene un proyecto de Workspace compartido entre usuarios de su organización, puede comunicar el impacto de un evento a través de paneles o descripciones de visualización. Haga clic con el botón derecho en un panel o en un encabezado de visualización y, a continuación, seleccione **[!UICONTROL Edit description]**.
+Si tiene un proyecto de Workspace compartido entre usuarios de su organización, puede comunicar el impacto de un evento a través de paneles o descripciones de visualización. Haga clic con el botón derecho en un panel o en un encabezado de visualización y, a continuación, seleccione **[!UICONTROL Editar descripción]**.
 
 ![Descripción del panel](../assets/panel_description.png)
 
@@ -27,8 +27,8 @@ También puede comunicar el impacto de un evento mediante visualizaciones de tex
 
 Si utiliza Informes y análisis, puede utilizar un evento [de](/help/components/t-calendar-event.md) calendario para resaltar los días afectados en cualquier informe de tendencias. Este método no se aplica a Análisis Workspace.
 
-1. Vaya a **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**.
+1. Vaya a **[!UICONTROL Componentes]** > eventos **[!UICONTROL de calendario]**.
 2. Introduzca el título, el intervalo de fechas y el texto de la nota que desee.
-3. Haga clic en **[!UICONTROL Save]**.
+3. Haga clic en **[!UICONTROL Guardar]**.
 
 ![evento de calendario](../assets/exclude_calendar_event.png)
