@@ -1,5 +1,5 @@
 ---
-description: Las reglas de clasificación buscan términos no clasificados de forma regular. Si se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. También puede utilizar reglas de clasificación para sobrescribir claves existentes.
+description: Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
 subtopic: Classifications
 title: Reglas de clasificación
 topic: Admin tools
@@ -12,17 +12,17 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Reglas de clasificación
 
-Las reglas de clasificación buscan términos no clasificados de forma regular. Si se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. También puede utilizar reglas de clasificación para sobrescribir claves existentes.
+Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Clasificación del Generador de reglas]**
 
-El Generador de reglas permite crear una *`classification rule set`*, que es una lista de *`classification rules`*. Una regla coincide con los criterios especificados y, a continuación, realiza una acción.
+El Generador de reglas permite crear una *`classification rule set`*, que es una lista de *`classification rules`*. La regla que coincida con los criterios especificados realizará una acción.
 
-Las reglas de clasificación son convenientes para:
+Las reglas de clasificación resultan adecuadas para:
 
-* **Correo electrónico** y anuncios **** en pantalla: Cree reglas de clasificación para agrupar campañas de anuncios en pantalla individuales de modo que pueda obtener información sobre el rendimiento de las campañas de visualización con respecto a las campañas de correo electrónico.
+* **Correo electrónico** y **anuncios en pantalla**: al crear reglas de clasificación pueden agruparse campañas de anuncios en pantalla individuales, y esto permite comprobar los resultados de las campañas de visualización frente a las de correo electrónico.
 
-* **Códigos** de seguimiento: Cree reglas de clasificación para categorizar los valores clave derivados de cadenas en códigos de seguimiento y hacerlos coincidir con los criterios específicos que defina.
+* **Códigos de seguimiento**: con las reglas de clasificación pueden aplicarse categorías a los valores clave derivados de cadenas de códigos de seguimiento, y hacerlos coincidir con los criterios específicos definidos.
 * **Términos de búsqueda**: las  [expresiones regulares](/help/components/c-classifications2/crb/classification-quickstart-rules.md) y los comodines simplifican la clasificación de los términos de búsqueda. Por ejemplo, si un término de búsqueda contiene *`baseball`*, puede establecer una *`Sports League`* clasificación en *`MLB`*.
 
 Por ejemplo, imaginemos el código de seguimiento siguiente para un ID de campaña de correo electrónico:
@@ -39,7 +39,7 @@ Pueden definirse un máximo de tres reglas en un conjunto de reglas para identif
 
 ## Cómo procesar las reglas {#how-rules-are-processed}
 
-Información importante sobre cómo se procesan las reglas de clasificación.
+Información relevante sobre cómo procesar las reglas de clasificación.
 
 <!-- 
 
@@ -47,40 +47,40 @@ about_classification_rules.xml
 
  -->
 
-* [Información importante sobre las reglas](/help/components/c-classifications2/crb/classification-rule-builder.md)
-* [¿Cuándo las reglas no clasifican las claves?](/help/components/c-classifications2/crb/classification-rule-builder.md)
+* [Información relevante sobre las reglas](/help/components/c-classifications2/crb/classification-rule-builder.md)
+* [¿En qué casos las reglas no clasifican claves?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [Acerca de la prioridad de las reglas](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] El [!UICONTROL Rule Builder] no admite clasificaciones numéricas 2.
+>[!NOTE] El [!UICONTROL Generador de reglas] no admite las clasificaciones numéricas 2.
 
-## Información importante sobre las reglas
+## Información relevante sobre las reglas
 
-* Especifique los permisos [de](https://marketing.adobe.com/resources/help/es_ES/reference/groups.html) grupo para las clasificaciones en [!UICONTROL Admin Tools].
+* Especifique [permisos del grupo](https://marketing.adobe.com/resources/help/es_ES/reference/groups.html) para clasificaciones en las [!UICONTROL Herramientas de administración].
 
 * **Expresiones regulares**: La ayuda está disponible en [Expresiones regulares en Reglas de clasificación](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
-* **Grupos** de informes: No puede elegir una clasificación hasta que se seleccione por lo menos un grupo de informes. No puede aplicar el grupo de informes hasta que no haya creado el conjunto de reglas y asignado una variable.
+* **Grupos de informes**: para elegir una clasificación, primero debe seleccionarse como mínimo un grupo de informes. No se podrá aplicar el grupo de informes hasta que se cree el conjunto de reglas y se asigne una variable.
 
-   Cuando pruebe el conjunto de reglas, utilice las claves (la variable que se está clasificando) del informe para ver cómo se verán afectadas por el conjunto de reglas. (The [key](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) is the variable being classified, or the first column in the classification upload table.)
+   Para probar el conjunto de reglas, debe comprobarse el efecto que este ejerce sobre las claves del informe (la variable que se clasifica). (La [clave](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) es la variable que se clasifica, o la primera columna de la tabla de carga de clasificaciones).
 
-* **Prioridad** de regla: Si una clave coincide con varias reglas que establecen la misma clasificación (en la [!UICONTROL Set Classification] columna), se utiliza la última regla que coincida con la clasificación. Consulte [Acerca de la prioridad de las reglas](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+* **Prioridad de las reglas**: si una clave coincide con varias reglas que definen la misma clasificación (en la columna [!UICONTROL Configurar clasificación]), se utilizará la última de estas reglas. Consulte [Acerca de la prioridad de las reglas](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
-* **Límites en el número de reglas**: No existe ningún límite establecido para el número de reglas que puede crear. Sin embargo, un gran número de reglas puede afectar al rendimiento del explorador.
-* **Procesamiento**: Las reglas se procesan a intervalos frecuentes, según el volumen de tráfico relacionado con la clasificación.
+* **Límites en el número de reglas**: no se ha definido ningún límite para el número de reglas que pueden crearse. No obstante, un número de reglas elevado puede afectar al rendimiento del explorador.
+* **Procesamiento**: Las reglas se procesan a intervalos regulares, según el volumen del tráfico relacionado con la clasificación.
 
-   Las reglas activas se procesan cada cuatro horas, y los datos de clasificación suelen examinarse un mes después. Las reglas comprueban automáticamente la existencia de nuevos valores y cargan las clasificaciones mediante el importador.
+   Las reglas activas se procesan cada cuatro horas y los datos de clasificación suelen examinarse de forma mensual. Las reglas comprueban automáticamente la existencia de nuevos valores y cargan las clasificaciones a través del importador.
 
 * **Sobrescritura de las clasificaciones existentes**: consulte [¿En qué casos las reglas no clasifican las claves?](/help/components/c-classifications2/crb/classification-quickstart-rules.md) Si es necesario, puede eliminar las clasificaciones existentes mediante el importador.
 
-## ¿Cuándo las reglas no clasifican las claves?
+## ¿En qué casos las reglas no clasifican claves?
 
-Al activar las reglas, puede sobrescribir las clasificaciones existentes. En las situaciones siguientes, una regla de clasificación no clasifica ninguna  [clave](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) (variable) si:
+Cuando se activan las reglas, pueden sobrescribirse las clasificaciones existentes. En las situaciones siguientes, una regla de clasificación no clasifica ninguna  [clave](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) (variable) si:
 
 * La clave ya se ha clasificado y no se selecciona [Sobrescriba las clasificaciones para](/help/components/c-classifications2/crb/classification-rule-definitions.md).
 
-   Las clasificaciones pueden sobrescribirse al  [ Agregar y activar](/help/components/c-classifications2/crb/classification-quickstart-rules.md) una regla, y al activar una integración de Data Connectors. (En el caso de los conectores de datos, los socios crean las reglas en el Centro de desarrollo y se muestran en la [!UICONTROL Classification Rule Builder]).
+   Las clasificaciones pueden sobrescribirse al  [ Agregar y activar](/help/components/c-classifications2/crb/classification-quickstart-rules.md) una regla, y al activar una integración de Data Connectors. (En el caso de los Data Connectors, las reglas son creadas por socios en el Centro de desarrolladores y se muestran en la [!UICONTROL Clasificación del Generador de reglas]).
 
-* Una clave clasificada no ha aparecido en los datos después de un intervalo de tiempo especificado al sobrescribir una clave, incluso después de habilitar [Sobrescribir clasificaciones](/help/components/c-classifications2/crb/classification-rule-definitions.md).
+* Las claves clasificadas no aparecen en los datos una vez transcurrido el lapso de tiempo especificado al sobrescribir una clave, ni siquiera tras habilitar [Sobrescriba las clasificaciones para](/help/components/c-classifications2/crb/classification-rule-definitions.md).
 * La clave no se clasifica y nunca se transfiere a [!DNL Adobe Analytics] después del lapso de tiempo a partir de un mes antes.
 
    >[!NOTE]
@@ -91,7 +91,7 @@ Al activar las reglas, puede sobrescribir las clasificaciones existentes. En las
 
 ## Expresiones regulares en las reglas de clasificación {#regex-in-classification-rules}
 
-Utilice expresiones regulares para hacer coincidir valores de cadena formateados de forma coherente con una clasificación. Por ejemplo, puede crear una clasificación a partir de caracteres específicos en un código de seguimiento. Puede hacer coincidir determinados caracteres, palabras o patrones de caracteres.
+Las expresiones regulares sirven para hacer coincidir los valores de cadena que tienen un mismo formato con una clasificación. Por ejemplo, puede crear una clasificación a partir de caracteres específicos de un código de seguimiento. Según se considere conveniente, pueden hacerse coincidir patrones de caracteres, palabras o caracteres determinados.
 
 <!-- 
 
@@ -127,23 +127,23 @@ Correlación entre la expresión regular y el ID de campaña:
 
 ![](assets/regex.png)
 
-[!UICONTROL Match Groups]:: Muestra cómo se corresponde la expresión normal con los caracteres de ID de campaña, para poder clasificar una posición en el ID de campaña.
+[!UICONTROL Grupos de coincidencias]: muestra la correspondencia entre la expresión regular y los caracteres del ID de campaña para poder clasificar una posición en este ID.
 
 ![](assets/regex_tracking_code.png)
 
 Este ejemplo indica a la regla que la fecha de la campaña `20140601` se encuentra en el tercer grupo `(.+)`, identificado por `$3`.
 
-**[!UICONTROL Rule Builder]**
+**[!UICONTROL Generador de reglas]**
 
-In the [!UICONTROL Rule Builder], configure the rule as follows:
+En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muestra:
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Hasta |
 |---|---|---|---|
-| Expresión regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Fecha de Campaña | $3 |
+| Expresión regular | &amp;Hat;(.+)\:(.+)\:(.+)$ | Fecha de campaña | $3 |
 
 **Sintaxis**
 
-| Expresión regular | Cadena o resultado de coincidencia | Grupos de coincidencias correspondientes |
+| Expresión regular | Cadena o resultados de coincidencias | Grupos de coincidencias correspondientes |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
 | Creación de la sintaxis | `^` = comienza la línea  () = agrupa los caracteres y permite extraer los coincidentes entre paréntesis.  `(.+)` = captura uno ( . ) carácter y ( + ) más  \ = inicio de una cadena.  `$` = indica que el carácter (o grupo de caracteres) precedente es el último de la línea. |
@@ -152,7 +152,7 @@ Consulte [Expresiones regulares: tabla de referencia](/help/components/c-classif
 
 ## Expresión regular: clasificación de un carácter específico  {#section_5D300C03FA484BADACBFCA983E738ACF}
 
-Una forma de utilizar una expresión normal es clasificar un carácter específico en una cadena de caracteres. Por ejemplo, supongamos que el siguiente código de seguimiento contiene dos caracteres importantes:
+Una de las utilidades de las expresiones regulares es clasificar un carácter específico de una cadena de caracteres. Por ejemplo, imaginemos que el código de seguimiento siguiente contiene dos caracteres importantes:
 
 [!UICONTROL Sample Key]: `4s3234`
 
@@ -161,9 +161,9 @@ Una forma de utilizar una expresión normal es clasificar un carácter específi
 
 ![](assets/regex_char_position.png)
 
-**[!UICONTROL Rule Builder]**
+**[!UICONTROL Generador de reglas]**
 
-In the [!UICONTROL Rule Builder], configure the rule as follows:
+En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muestra:
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Hasta |
 |--- |--- |--- |--- |
@@ -172,7 +172,7 @@ In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 ## Expresiones regulares: hacer coincidir códigos de seguimiento de distinta longitud {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
-Este ejemplo muestra cómo identificar caracteres específicos entre delimitadores de dos puntos cuando tiene códigos de seguimiento de distintas longitudes. Adobe recomienda utilizar una expresión regular para cada código de seguimiento.
+En este ejemplo se muestra cómo identificar caracteres específicos entre delimitadores de dos puntos si se dispone de códigos de seguimiento de distinta longitud. Adobe recomienda utilizar una expresión regular para código de seguimiento.
 
 Claves de muestra:
 
@@ -186,9 +186,9 @@ Claves de muestra:
 
 ![](assets/regex_varying_length.png)
 
-**[!UICONTROL Rule Builder]**
+**[!UICONTROL Generador de reglas]**
 
-In the [!UICONTROL Rule Builder], configure the rule as follows:
+En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muestra:
 
 | Seleccionar tipo de regla | Introducir criterios de coincidencia | Configurar clasificación | Hasta |
 |--- |--- |--- |--- |
@@ -216,7 +216,7 @@ c:d:xoxo
 c:d:yoyo
 ```
 
-Resultados de la coincidencia:
+Resultados de coincidencias:
 
 ```
 a:b:
@@ -230,7 +230,7 @@ En este resultado, `a:b:1313` no indica una coincidencia.
 
 | Expresión | Descripción |
 |---|---|
-| `(?ms)` | Hace que toda la expresión regular coincida con una entrada de varias líneas, permitiendo que el . comodín que coincida con cualquier carácter de nueva línea |
+| `(?ms)` | Hace que toda la expresión regular coincida con una entrada de varias líneas, lo que permite que el comodín coincida con cualquier carácter de línea nueva. |
 | (`?i`) | Hace que toda la expresión regular no distinga mayúsculas de minúsculas. |
 | [`abc`] | Un solo carácter de: a, b o c. |
 | [`^abc`] | Cualquier carácter individual distinto de: a, b o c. |
@@ -261,7 +261,7 @@ Se ofrece un buen recurso para probar la validez de las expresiones regulares en
 
 ## Acerca de la prioridad de las reglas
 
-Si una clave coincide con varias reglas y establece la misma columna de clasificación que se muestra en la columna, se utiliza la última regla. [!UICONTROL Set Classification] Como tal, es posible que desee clasificar el último elemento más importante del conjunto de reglas.
+Si una clave que define la misma columna de clasificación que se muestra en la columna [!UICONTROL Configurar clasificación] coincide con varias reglas, se utilizará la última. En este caso puede resultar interesante clasificar los artículos de mayor relevancia al final del conjunto de reglas.
 
 <!-- 
 
@@ -269,21 +269,21 @@ rule_priority.xml
 
  -->
 
-Si crea varias reglas que no comparten la misma clasificación, el orden de procesamiento no importa.
+Si se crean varias reglas que no comparten clasificación, el orden de procesamiento no es relevante.
 
-Lo que sigue a un ejemplo de regla de término de búsqueda que clasifica los tipos de búsqueda de un atleta:
+A continuación se muestra un ejemplo de regla de término de búsqueda que clasifica los tipos de búsqueda por un atleta:
 
-| Número de regla | Tipo de regla | Buscar coincidencias | Configurar clasificación | Hasta |
+| Número de regla | Tipo de regla | Coincidencias | Configurar clasificación | Hasta |
 |---|---|---|---|---|
 | 1 | Contiene | Cowboys | Tipo de búsqueda | Equipo |
 | 2 | Contiene | Fantasy | Tipo de búsqueda | Fantasy |
-| 3 | Contiene | Romo | Tipo de búsqueda | Reproductor |
+| 3 | Contiene | Romo | Tipo de búsqueda | Jugador |
 
 Si un usuario busca  *`Cowboys fantasy Tony Romo`*, el término *`Player`* se clasifica porque coincide con la última clasificación proporcionada que aparece en la columna Configurar clasificación.
 
-Del mismo modo, supongamos que configura dos reglas en un conjunto para los siguientes términos de búsqueda:
+Del mismo modo, supongamos que se configuran hasta dos reglas en un conjunto para los términos de búsqueda siguientes:
 
-| Número de regla | Tipo de regla | Buscar coincidencias | Configurar clasificación | Hasta |
+| Número de regla | Tipo de regla | Coincidencias | Configurar clasificación | Hasta |
 |---|---|---|---|---|
 | 1 | Contiene | Cowboys | Ciudad | Dallas |
 | 2 | Contiene | Broncos | Ciudad | Denver |
@@ -300,35 +300,35 @@ t_classification_rule.xml
 
 Instrucciones sobre cómo agregar o editar una regla de clasificación.
 
-Añada las reglas haciendo coincidir una condición con una clasificación y especificando la acción.
+Para agregar nuevas reglas, debe establecerse la coincidencia entre una condición y una clasificación. Seguidamente, debe especificarse la acción.
 
 >[!NOTE]
 >
 >En este procedimiento deben aplicarse reglas a uno o varios grupos de informes. El número recomendado de reglas por conjunto de reglas está entre 500 y 1000, aunque no hay límites. Si el número de reglas supera las 100, considere la posibilidad de simplificar el conjunto de reglas mediante  [subclasificaciones](/help/components/c-classifications2/c-sub-classifications.md).
 
 1. [Crear un conjunto de reglas de clasificación](/help/components/c-classifications2/crb/classification-rule-set.md) .
-1. On the rule set page, click **[!UICONTROL Add Rule]**.
+1. En la página del conjunto de reglas, haga clic en **[!UICONTROL Agregar regla]**.
 
    ![](assets/add_rule.png)
 
-1. Next to **[!UICONTROL Report Suites]**, click **[!UICONTROL Add Suites]** to specify one or more report suites to assign to this rule set.
+1. Junto a **[!UICONTROL Grupos de informes]**, haga clic en **[!UICONTROL Agregar grupos]** para especificar uno o varios grupos de informes que quiera asignar a este conjunto de reglas.
 
-   Se muestra la **[!UICONTROL Select Report Suites]** página.
+   Se muestra la página **[!UICONTROL Seleccionar grupos de informes]**.
 
    >[!NOTE]
    Los grupos de informes se muestran en esta página *`only`* cuando se cumplen las siguientes condiciones:        >
 
-   * The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools].
+   * Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
    (Consulte *`Variable`* en [Conjuntos de reglas de clasificación](/help/components/c-classifications2/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
 
-   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set.
+   * Ha seleccionado el grupo de informes en la página **[!UICONTROL Grupos de informes disponibles]**, que se muestra después de hacer clic en [Agregar conjunto de reglas](/help/components/c-classifications2/crb/classification-rule-set.md) para crear el conjunto de reglas.
 
 
 1. Especifique si desea sobrescribir los valores existentes:
 
-   | **Las reglas sobrescriben todos los valores existentes** | (Configuración predeterminada) Sobrescriba siempre las claves de clasificación existentes, incluidas las clasificaciones cargadas mediante el importador (SAINT). |
+   | **Las reglas sobrescriben los valores existentes** | (Configuración predeterminada) Sobrescriba siempre las claves de clasificación existentes, incluidas las clasificaciones cargadas mediante el importador (SAINT). |
    |---|---|
-   | **Las reglas sobrescriben únicamente los valores no configurados** | Rellene únicamente las celdas en blanco (sin definir). Las clasificaciones existentes no se cambiarán. |
+   | **Las reglas solo sobrescriben los valores no establecidos** | Rellene solo las celdas vacías (no establecidas). Las clasificaciones existentes no cambiarán. |
 
 1. [Defina la regla o las reglas](/help/components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529).
 
@@ -341,7 +341,7 @@ Añada las reglas haciendo coincidir una condición con una clasificación y esp
    >Si una clave coincide con varias reglas que definen la misma clasificación (en la columna Configurar clasificación), se utilizará la última de estas reglas. Consulte **Acerca de la prioridad de las reglas** para obtener más información sobre cómo ordenar las reglas.
 
 1. [Pruebe el conjunto de reglas](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
-1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
+1. Tras la prueba, haga clic en **[!UICONTROL Activo]** para validar y activar la regla.
 
    Al activar una regla, se genera y se carga automáticamente el archivo.
 
@@ -355,26 +355,26 @@ t_classifications_test_rule.xml
 
  -->
 
-Instrucciones sobre cómo probar una regla de clasificación o un conjunto de reglas. La ejecución de una prueba comprueba todas las reglas de un conjunto.
+Instrucciones sobre cómo probar un conjunto de reglas o de reglas de clasificación. Al ejecutar una prueba se comprueban todas las reglas de un conjunto.
 
 1. [Crear un conjunto de reglas de clasificación](/help/components/c-classifications2/crb/classification-rule-set.md) .
-1. En el [!UICONTROL Classification Rule Builder], haga clic en el nombre del conjunto de reglas.
+1. En el [!UICONTROL Generador de reglas de clasificación], haga clic en el nombre del conjunto de reglas.
 1. Asegúrese de que el conjunto de reglas esté asociado con un grupo de informes.
-1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
+1. En el editor de reglas, haga clic en **[!UICONTROL Conjunto de reglas de prueba]**.
 
-   ![Resultado](assets/classification_test_rule_set.png)
+   ![Resultado de pasos](assets/classification_test_rule_set.png)
 
-1. Type or paste test keys in the [!UICONTROL Sample Keys] field.
+1. Escriba o pegue claves de prueba en el campo [!UICONTROL Claves de muestra].
 
-   Entre las claves de muestra se incluyen:
+   Entre las claves de muestra se encuentran:
 
    * Códigos de seguimiento
-   * Palabras clave o frases de búsqueda
-   See [Regular Expressions in Classification Rules](/help/components/c-classifications2/crb/classification-quickstart-rules.md) for information about testing regular expressions.
-1. Haga clic en **[!UICONTROL Run Test]**.
+   * Palabras clave o expresiones de búsqueda
+   Consulte [Expresiones regulares en reglas de clasificación](/help/components/c-classifications2/crb/classification-quickstart-rules.md) para obtener información sobre pruebas de expresiones regulares.
+1. Haga clic en **[!UICONTROL Ejecutar prueba]**.
 
-   Rules that match are displayed in the [!UICONTROL Results] table.
-1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
+   Las reglas que coinciden se muestran en la tabla [!UICONTROL Resultados].
+1. (Opcional) Haga clic en **[!UICONTROL Activar]** para activar la regla y sobrescribir las clasificaciones existentes.
 
    Consulte para obtener más información sobre el uso de reglas para sobrescribir clasificaciones existentes.
 
@@ -389,12 +389,12 @@ t_validate_rules.xml
 Instrucciones sobre cómo validar y activar reglas de clasificación.
 
 1. [Cree un conjunto de reglas de clasificación](/help/components/c-classifications2/crb/classification-rule-set.md) y luego [agregue reglas de clasificación](/help/components/c-classifications2/crb/classification-quickstart-rules.md) al conjunto.
-1. On the rule editor, click **[!UICONTROL Activate]**.
+1. En el editor de reglas, haga clic en **[!UICONTROL Activar]**.
 
    ![](assets/overwrite_keys.png)
 
-1. (Opcional) Para sobrescribir las clasificaciones, habilite **[!UICONTROL Overwrite classifications for]***`<selection>`*.
+1. (Opcional) Para sobrescribir clasificaciones, active **[!UICONTROL Sobrescribir clasificaciones de]** *`<selection>`*.
 
-   Esta opción le permite sobrescribir las clasificaciones existentes para las claves afectadas.
+   Esta opción permite sobrescribir las clasificaciones existentes de las claves afectadas.
 
-   Consulte la página [](/help/components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) Reglas para obtener una definición de esta opción.
+   Consulte la [página Reglas](/help/components/c-classifications2/crb/classification-rule-definitions.md#section_4A5BF384EEEE4994B6DC888339833529) para ver una definición de esta opción.
