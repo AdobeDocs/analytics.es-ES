@@ -2,7 +2,7 @@
 description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con el marketing por correo electrónico de Emarsys para crear una herramienta potente para redefinir la medición de éxito y las audiencias de destino con mensajes más relevantes.
 title: Data Connectors de Emarsys para Adobe Analytics
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
