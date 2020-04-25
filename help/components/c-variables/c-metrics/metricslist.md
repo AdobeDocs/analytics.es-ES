@@ -3,7 +3,7 @@ description: Las métricas son la base de los informes, ya que ayudan a ver y a 
 title: Resumen de las métricas
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
