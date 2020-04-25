@@ -3,7 +3,7 @@ description: Un informe de Ad Hoc Analysis. El informe de análisis del sitio mu
 title: Análisis del sitio
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -69,7 +69,7 @@ Haga clic con el botón derecho en un cilindro para editarlo o eliminarlo.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Editar </p> </td> 
+   <td colname="col1"> <p>Editar  </p> </td> 
    <td colname="col2"> <p>Permite agregar o quitar páginas en un cilindro. </p> </td> 
   </tr> 
   <tr> 
