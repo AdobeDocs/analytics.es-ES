@@ -1,6 +1,6 @@
 ---
 title: Clasificaciones en los canales de marketing
-description: Utilice las clasificaciones para categorizar los valores en grupos relacionados y para generar informes a nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede informar sobre el éxito de esa categoría en relación con métricas como Instancias (o pulsaciones).
+description: Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
 translation-type: tm+mt
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
@@ -9,9 +9,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Clasificaciones en los canales de marketing
 
-Utilice las clasificaciones para categorizar los valores en grupos relacionados y para generar informes a nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede informar sobre el éxito de esa categoría en relación con métricas como Instancias (o pulsaciones).
+Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
 
-Las clasificaciones que agregue a este procedimiento se muestran en el [!UICONTROL Marketing Channel Overview] informe como [!UICONTROL Channel Values]. Los valores de canal son valores no clasificados en los detalles del canal.
+Las clasificaciones que agregue a este procedimiento se muestran en el informe [!UICONTROL Resumen de canal de marketing] como [!UICONTROL Valores de canal]. Los valores de canal son valores no clasificados en los detalles del canal.
 
 >[!NOTE] Asegúrese de estar familiarizado con la creación de clasificaciones en [Clasificaciones](/help/components/c-classifications2/c-classifications.md).
 
@@ -23,14 +23,14 @@ Las clasificaciones que agregue a este procedimiento se muestran en el [!UICONTR
 
 | Término | Definición |
 |--- |--- |
-| Clasificaciones de texto | Especifica el tipo de categoría de clasificación que le permite agrupar datos de variables para fines de sistema de informes. |
+| Clasificaciones de texto | Especifica el tipo de categoría de clasificación que permite agrupar los datos de variables para crear informes. |
 | Nombre | El nombre de la clasificación. La clasificación que agregue aparecerá como opción de Desglose de canal en el Administrador de canales de mercadotecnia. |
 | Opciones | El nombre de la clasificación. La clasificación que agregue aparecerá como opción de Desglose de canal en el Administrador de canales de mercadotecnia. |
 
 ## Create Marketing Channels classifications {#create-mktg-channel-classifications}
 
-Crear clasificaciones para [!UICONTROL Marketing Channels].
+Crear clasificaciones para Canales [!UICONTROL de mercadotecnia].
 
-1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Classification]**.
-1. En [!UICONTROL Classifications], haga clic en **[!UICONTROL Add Classification]** (o edite uno existente).
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
+1. En el [!UICONTROL Administrador del grupo de informes], haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de mercadotecnia]** > **[!UICONTROL Clasificación de canal de mercadotecnia]**.
+1. En [!UICONTROL Clasificaciones], haga clic en **[!UICONTROL Agregar clasificación]** (o edite una existente).
