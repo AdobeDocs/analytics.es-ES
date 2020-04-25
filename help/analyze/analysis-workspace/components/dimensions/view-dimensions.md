@@ -10,20 +10,20 @@ source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 # Vista preliminar de dimensiones
 
-Pase el ratón sobre el icono de información (i) situado junto a una dimensión. Muestra los 5 valores principales para dimensiones que no son de tiempo (y 15 para dimensiones de tiempo). Solíamos mantener estos valores estáticos (es decir, los 5 valores elegidos nunca cambiaron).
+Sitúe el ratón encima del icono de información (i) que encontrará junto a una dimensión. Se mostrarán los cinco valores principales correspondientes a las dimensiones que no sean temporales. En el caso de las dimensiones temporales, se mostrarán los 15 valores principales. Anteriormente estos valores solían ser estáticos, es decir, los cinco valores seleccionados no cambiaban nunca.
 
 ![](assets/dimension-preview.png)
 
-Ahora, de forma predeterminada, mostramos valores dinámicos en lugar de estáticos, con la opción de convertirlos en valores estáticos. Otras cosas a tener en cuenta:
+Ahora, y de forma predeterminada, se mostrarán valores dinámicos en lugar de valores estáticos, con la opción de convertirlos en estáticos. Otros aspectos que considerar:
 
-* A medida que se actualizan los datos, las columnas de dimensiones dinámicas se actualizarán para mostrar los elementos de dimensión 5/15 actuales.
-* Una columna de dimensión dinámica que se copia o mueve se convertirá en estática.
-* Al pasar el ratón por encima de una columna de dimensión estática verá un icono de bloqueo que indica que la dimensión es estática.
+* A medida que los datos se actualicen, las columnas de dimensión dinámica se actualizarán para mostrar cinco de los quince elementos de dimensión actuales.
+* Las columnas de dimensión dinámica que se copien o se muevan pasará a ser de dimensión estática.
+* Al pasar el ratón por encima de una columna de dimensión estática, verá un icono de bloqueo que indicará que la dimensión es estática.
 
 ![](assets/dimension_static.png)
 
 ## Mostrar los elementos de la dimensión
 
-Al pasar el ratón sobre una dimensión y hacer clic en la flecha derecha gris situada junto a ella, aparece una lista de los elementos de dimensión. Cualquier lista de elementos de dimensión generalmente muestra los elementos principales de los últimos 30 días.
+Al pasar el ratón por encima de una dimensión y hacer clic en la flecha derecha gris que se muestra al lado, aparece una lista de los elementos de su dimensión. Normalmente, en cualquier lista de elementos de dimensión se muestran los elementos principales de los últimos 30 días.
 
 Si se desplaza hacia abajo hasta la parte inferior de la lista, verá un **[!UICONTROL Show Top Items From Last 6 Months]**. Haga clic en esta opción para ver los elementos principales de la dimensión durante los últimos 180 días.
