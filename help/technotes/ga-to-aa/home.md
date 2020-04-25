@@ -1,7 +1,7 @@
 ---
 title: Transición de una plataforma de análisis de terceros a Adobe Analytics
 description: Aprendizaje de los conceptos clave para obtener informes dirigido a usuarios familiarizados con otras plataformas, como Google Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
