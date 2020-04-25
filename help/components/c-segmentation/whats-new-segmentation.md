@@ -2,7 +2,7 @@
 description: Nuevas funciones en la segmentación con Adobe Analytics.
 title: Novedades de la segmentación con Analytics
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
