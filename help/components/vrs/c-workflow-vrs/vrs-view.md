@@ -4,7 +4,7 @@ keywords: Virtual Report Suite
 title: Visualización de la información del grupo de informes virtuales
 topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
