@@ -16,29 +16,29 @@ Detalles sobre la plantilla Analysis Workspace y los informes en Reports &amp; A
 
 ## Analysis Workspace: Plantilla de motores de búsqueda {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-Esta plantilla permite a cualquier usuario que implemente esta integración del motor de búsqueda acceder a numerosos datos del motor de búsqueda en Analytics. Puede acceder a ella a través de **[!UICONTROL Workspace]** > **[!UICONTROL Templates]** > **[!UICONTROL Advertising]** > **[!UICONTROL Search Engines.]**
+Esta plantilla permite a cualquier usuario que implemente esta integración del motor de búsqueda acceder a numerosos datos del motor de búsqueda en Analytics. Puede acceder a ella desde **[!UICONTROL Workspace]** > **[!UICONTROL Plantillas]** > **[!UICONTROL Publicidad]** > **[!UICONTROL Motores de búsqueda.]**
 
 >[!NOTE]
 >
->La categoría de plantilla de publicidad es visible para todos los clientes, aunque no hayan implementado ninguna cuenta publicitaria. Sin embargo, si intenta abrir la plantilla Motores de búsqueda para una compañía que no se ha aprovisionado, aparecerá un mensaje de error en el que se explicará que aún no ha configurado ninguna cuenta de motor de búsqueda. En este caso, haga clic en **[!UICONTROL Configure Now]**, que le llevará a la pantalla Configuración [de cuenta de](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) publicidad.
+>La categoría de plantilla de publicidad es visible para todos los clientes, aunque no hayan implementado ninguna cuenta publicitaria. Sin embargo, si intenta abrir la plantilla Motores de búsqueda de pago para una empresa que no se ha proporcionado, aparecerá un mensaje de error en el que se explica que todavía no ha configurado ninguna cuenta de motor de búsqueda. En este caso, haga clic en **[!UICONTROL Configurar ahora]**, lo que lo llevará a la pantalla [Configuración de cuenta publicitaria](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
-| Tabla/Visualización | Descripción |
+| Tabla/visualización | Descripción |
 |--- |--- |
-| Tendencias de publicidad | Información general de tendencias diarias para impresiones de AMO, clics de AMO y costo de AMO. |
+| Tendencias publicitarias | Información general de tendencias diarias para Impresiones de AMO, Clics de AMO y Coste de AMO. |
 | Plataformas de publicidad | Gráfico de aros del coste de las dos plataformas principales (Google, Bing). |
-| Total de plataforma de publicidad | Tabla improvisada de las plataformas principales desglosada por Impresiones AMO, Clics en AMO, Costos de AMO, promedio de AMO. Posición media de AMO Puntuación de calidad |
-| Cuentas | Área de costo apilada. |
-| Total de la cuenta | Tabla improvisada de las principales cuentas desglosadas por las métricas asociadas. |
-| Campañas | Coste del gráfico de barras de campaña. |
-| Totales de campaña | Tabla improvisada de las principales campañas desglosadas por las métricas asociadas. |
-| Grupos | Mapa de árbol del costo. |
-| Totales de grupo | Tabla improvisada de los principales grupos de publicidad desglosados por las métricas asociadas. |
-| Anuncios | Gráfico horizontal de impresiones, clics y costes. |
-| Total de publicidad | Tabla improvisada de las principales publicidades desglosadas por las métricas asociadas. |
-| Palabras clave | Diagrama de puntos de impresiones, clics y costo de todas las combinaciones de palabras clave y tipos de coincidencia. |
-| Totales de palabras clave | Tabla improvisada de las principales combinaciones de palabra clave/tipo de coincidencia desglosadas por las métricas asociadas. |
+| Totales de las plataformas de publicidad | Tabla de formato libre de las plataformas principales desglosada por Impresiones de AMO, Clics de AMO, Costes de AMO, Posición media de AMO y Posición media de AMO Puntuación de calidad |
+| Cuentas | Área apilada de costes. |
+| Totales de cuenta | Tabla de formato libre de las cuentas principales desglosada por las métricas asociadas. |
+| Campañas | Gráfico de barras del coste de la campaña. |
+| Totales de campaña | Tabla de formato libre de las campañas principales desglosada por las métricas asociadas. |
+| Grupos | Mapa en árbol del coste. |
+| Totales de grupo | Tabla de formato libre de los grupos publicitarios principales desglosada por las métricas asociadas. |
+| Anuncios | Gráficos de barras horizontales de impresiones, clics y costes. |
+| Totales de anuncios | Tabla de formato libre de los anuncios principales desglosada por las métricas asociadas. |
+| Palabras clave | Gráfico de dispersión de impresiones, clics y costes para todas las combinaciones de tipo palabra clave / coincidencia. |
+| Totales de palabras clave | Tabla de formato libre de las combinaciones de tipo palabra clave / coincidencia principales desglosada por las métricas asociadas. |
 
 ## Reports &amp; Analytics {#section_BB2E75DF909C49EA8D4E92D14D6DFD85}
 
