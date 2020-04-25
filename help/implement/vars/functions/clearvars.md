@@ -9,9 +9,9 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # clearVars
 
-Algunas implementaciones, como en aplicaciones de una sola página, requieren que se envíen varias visitas en la misma carga de página. Utilice el `clearVars()` método para borrar los valores de las variables de modo que no persistan en las visitas posteriores.
+Algunas implementaciones, como en aplicaciones de una sola página, requieren que se envíen varias visitas en la misma carga de página. Utilice el método `clearVars()` para borrar los valores de las variables de modo que no persistan en las visitas posteriores.
 
-Este método no toma ningún argumento y no devuelve ningún valor. Su único propósito es borrar los valores de variables del objeto de instancia. Este método establece los siguientes elementos en `undefined`:
+Este método no toma ningún argumento y no devuelve ningún valor. Su único propósito es borrar los valores de variables del objeto de instancia. Este método establece los siguientes elementos como `undefined`:
 
 * `prop1` - `prop75`
 * `eVar` - `eVar250`
@@ -28,17 +28,17 @@ Este método no toma ningún argumento y no devuelve ningún valor. Su único pr
 
 ## Borrar variables en Adobe Experience Platform Launch
 
-Configure la acción Borrar variables al configurar una regla.
+Establezca la acción Borrar variables al configurar una regla.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. Haga clic en la propiedad que desee.
-3. Vaya a la [!UICONTROL Rules] ficha y, a continuación, haga clic en la regla que desee (o cree una regla).
-4. En [!UICONTROL Actions], haga clic en el icono &#39;+&#39;
-5. Establezca el [!UICONTROL Extension] menú desplegable en Adobe Analytics y el valor [!UICONTROL Action Type] en [!UICONTROL Clear Variables].
+1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
+2. Haga clic en la propiedad deseada.
+3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Acciones], haga clic en el icono “+”.
+5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Borrar variables].
 
-## s.clearVars() en el editor de código personalizado AppMeasurement e Launch
+## s.clearVars() en el editor de código personalizado de AppMeasurement y Launch
 
-Puede llamar al `s.clearVars()` método desde cualquier lugar de la implementación después de crear una instancia de objeto de Analytics.
+Puede llamar al método `s.clearVars()` desde cualquier lugar de la implementación después de crear una instancia de objeto de Analytics.
 
 ```js
 s.clearVars();
