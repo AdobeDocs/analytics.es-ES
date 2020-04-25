@@ -16,9 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Acceso al Generador de alertas
 
-Acceda al Generador de alertas de una de las cuatro maneras siguientes:
+Acceda al Generador de alertas de una de las cuatro formas disponibles:
 
-* Mediante el siguiente método abreviado en Espacio de trabajo de Análisis:
+* Mediante el acceso directo siguiente en Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
 * Accediendo a **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
@@ -35,7 +35,7 @@ La interfaz del Generador de alertas resulta familiar a quienes hayan creado seg
 
 **Nombre de la alerta**
 
-Especifique un nombre para la alerta. El nombre de la alerta puede contener el nombre del umbral del informe o de las métricas.
+Especifique un nombre para la alerta. El nombre de la alerta puede contener el nombre del umbral de informe o de métricas.
 
 **Granularidad de tiempo**
 
@@ -45,7 +45,7 @@ Especifique cuándo desea que se compruebe la métrica: cada hora, cada día, se
 
 **Destinatarios**
 
-Especifique hacia dónde se puede enviar la alerta. Se puede enviar una alerta a un usuario de Analytics, a un grupo de Analytics, a una dirección de correo electrónico sin procesar o a un número de teléfono.
+Especifique hacia dónde se puede enviar la alerta. Se puede enviar una alerta a un usuario de Analytics, un grupo de Analytics o a una dirección de correo electrónico sin procesar o a un número de teléfono.
 
 >[!IMPORTANT]
 >
@@ -66,21 +66,21 @@ Establezca la fecha de caducidad de la alerta.
 * Arrastre y suelte las métricas en el lienzo para añadir activadores.
 
    Si alguno de los componentes (métricas, dimensiones o segmentos) de la alerta no es compatible con el grupo de informes seleccionado, aparecerá un mensaje **“componentes no compatibles”**.
-* Determine el umbral que debe superar la métrica antes de que se establezca una alerta. Puede establecer este valor en un umbral y, a continuación, en una de las siguientes condiciones:
+* Determine el umbral que debe superar la métrica para que se establezca la alerta. Puede ajustar este valor a un umbral y, a continuación, a una de las condiciones siguientes:
 
-   * existe una anomalía
-   * la anomalía es mayor de lo esperado
-   * la anomalía es menor de lo esperado
-   * es superior o igual a
-   * es menor o igual que
-   * cambia por
+   * existe anomalía
+   * anomalía por encima de lo esperado
+   * anomalía por debajo de lo esperado
+   * mayor o igual que
+   * es menor que o igual a
+   * cambia por un
    * Puede establecer el umbral en 90 %, 95 %, 99 %, 99,75 % y 99,9 %.
    Tenga en cuenta que también puede utilizar las métricas calculadas.
 
 *... con estos filtros*
 
-* Arrastre y suelte segmentos o dimensiones para añadir filtros. Por ejemplo, si se agrega un segmento &quot;Solo dispositivos móviles&quot;, la regla solo se activará para dispositivos móviles.
-* Se agregarán filtros adicionales mediante una instrucción AND.
+* Arrastre y suelte los segmentos o dimensiones para añadir filtros. Por ejemplo, si añade un segmento “Solo dispositivos móviles” significará que la regla solamente se activará para los dispositivos móviles.
+* Se añadirán filtros adicionales mediante una declaración AND.
 
 **Agregar una regla**
 
@@ -88,10 +88,10 @@ Puede añadir las reglas AND u OR si hace clic en el icono de engranaje.
 
 ## Vista previa de alertas {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-La previsualización de alerta interactiva muestra con qué frecuencia, aproximadamente, se activará una alerta en función de la experiencia anterior.
+La vista previa de alertas interactiva le muestra con qué frecuencia, aproximada, se activará una alerta en función de las experiencias pasadas.
 
-Por ejemplo, si establece la granularidad de tiempo en diaria, la previsualización puede indicarle que la alerta se habría activado para una métrica determinada x veces durante los últimos 30 o 31 días.
+Por ejemplo, si establece la granularidad de tiempo a diario, en la vista previa podrá ver cuántas veces se habrá activado una alerta para una métrica en particular durante los últimos 30 o 31 días.
 
-Si descubre que se habrían activado demasiadas alertas, puede ajustar el umbral en el Administrador de [alertas](/help/components/c-alerts/alert-manager.md).
+Si observa que se habían activado demasiadas alertas, puede ajustar el umbral en el [Administrador de alertas](/help/components/c-alerts/alert-manager.md).
 
 ![](assets/alert_preview.png)
