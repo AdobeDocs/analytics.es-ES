@@ -1,9 +1,9 @@
 ---
-description: Clasifica las páginas del sitio según la cantidad de tráfico que reciben. Cuando para tomar decisiones de negocios se necesita conocer datos cuantitativos de las páginas, este informe permite obtenerlos, mediante la adición de la métrica correcta.
+description: Clasifica las páginas del sitio según la cantidad de tráfico que reciben. Si su pregunta comercial trata de los datos cuantitativos de las páginas, puede usar este informe para responder esa pregunta, agregando la métrica correcta.
 title: Páginas
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Páginas
 
-Clasifica las páginas del sitio según la cantidad de tráfico que reciben. Cuando para tomar decisiones de negocios se necesita conocer datos cuantitativos de las páginas, este informe permite obtenerlos, mediante la adición de la métrica correcta.
+Clasifica las páginas del sitio según la cantidad de tráfico que reciben. Si su pregunta comercial trata de los datos cuantitativos de las páginas, puede usar este informe para responder esa pregunta, agregando la métrica correcta.
 
 ## Asignación, caducidad y valores especiales {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
@@ -37,10 +37,10 @@ Observe que, en Reports &amp; Analytics, las métricas sobre el informe de las p
   </tr> 
   <tr> 
    <td colname="col1"> Los valores caducan después de </td> 
-   <td colname="col2"> Vista de la página </td> 
-   <td colname="col3"> Vista de la página </td> 
-   <td colname="col4"> Vista de la página </td> 
-   <td colname="col5"> Vista de la página </td> 
+   <td colname="col2"> Page view </td> 
+   <td colname="col3"> Page view </td> 
+   <td colname="col4"> Page view </td> 
+   <td colname="col5"> Page view </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Límites de valores </td> 
