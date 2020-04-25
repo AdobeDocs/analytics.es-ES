@@ -3,7 +3,7 @@ description: En la versión 14, "visitante único" hace referencia a un visitan
 title: Visitantes únicos
 topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
