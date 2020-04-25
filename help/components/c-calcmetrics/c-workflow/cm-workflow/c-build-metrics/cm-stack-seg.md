@@ -2,7 +2,7 @@
 description: Muestra cómo apilar y sustituir segmentos dentro del Creador de métricas calculadas.
 title: Apilar y sustituir segmentos
 uuid: f6d4db9e-d982-4731-b342-7e49dee02035
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
