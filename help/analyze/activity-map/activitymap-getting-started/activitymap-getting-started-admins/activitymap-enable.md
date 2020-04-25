@@ -15,44 +15,44 @@ Explica los pasos que el administrador de Analytics debe llevar a cabo para habi
 
 ## Paso 1. Actualizar el código de AppMeasurement (Javascript) a v1.6 (o posterior) {#section_5D1586289DF2489289B1B6C1C80C300D}
 
-El módulo Mapa de Actividad forma parte del archivo AppMeasurement.js (ubicado en la parte superior del archivo). La biblioteca AppMeasurement cargará el módulo de mapa de Actividad cuando se cree una instancia.
+El módulo Activity Map forma parte del archivo AppMeasurement.js (se encuentra al principio del archivo). La biblioteca AppMeasurement no cargará el módulo Activity Map cuando se creen instancias de este.
 
-Los datos del mapa de Actividad no se pueden recopilar a menos que actualice a esta versión (o posterior) de AppMeasurement.
+Los datos de Activity Map no se pueden recopilar si no actualiza a esta versión (o posterior) de AppMeasurement.
 
-1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Code Manager]** and [implement it](https://marketing.adobe.com/resources/help/es_ES/sc/implement/js_implementation.html).
+1. Descargue el código más reciente de AppMeasurement (AppMeasurement_Javascript-1.6.zip) en **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Administrador de códigos]** e [impleméntelo](https://marketing.adobe.com/resources/help/es_ES/sc/implement/js_implementation.html).
 
-   Hemos incluido un código [de implementación de](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) muestra que le ayuda a visualizar los cambios realizados en el código incluyendo el módulo de mapa de Actividad.
+   Hemos incluido [código de implementación de muestra](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) para facilitar la visualización de los cambios que se han hecho en el código al incluir el módulo Activity Map.
 
 1. Validar la implementación:
 
-   1. Cuando se hace clic en un elemento en el que se puede hacer clic, los datos se almacenan en una cookie llamada s_sq.
-   1. Los datos del mapa de Actividad se pueden ver en la cadena de consulta en la llamada de seguimiento. Por ejemplo:
+   1. Cuando se hace clic en un elemento activo, los datos se guardan en una cookie llamada s_sq.
+   1. Los datos de Activity Map se pueden ver en la cadena de consulta de la llamada de seguimiento. Por ejemplo:
 
       ```
       …&c.&a.&Activity Map.&link=My%20Link&region=My%20Region&page=My%20Page&.Activity Map&.a&.c&...
       ```
 
-1. Break this report down by **[!UICONTROL Activity Map Link by Region]** to see the link/region for that page:  ![](assets/am_breakdown.png){width=&quot;400px&quot;}
+1. Desglose este informe por **[!UICONTROL Vínculo de Activity Map por región]** para ver el vínculo o la región de esa página:  ![](assets/am_breakdown.png){width=&quot;400px&quot;}
 
 ## Paso 2: Habilitar los informes de Activity Map {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
 Primero hay que habilitar los informes de Activity Map en el nivel de grupo de informes.
 
-1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites >[select report suite]> Edit Settings > Activity Map]** > **[!UICONTROL Activity Map Reporting]** .
-1. Activity Map recopila los datos sobre vínculos en informes de Activity Map. For the activation to happen, you must first activate the variables by clicking **[!UICONTROL Enable Activity Map Reports]**.
+1. Inicie sesión en Adobe Analytics y vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador > Grupos de informes > [seleccione un grupo de informes] > Editar configuración > Activity Map]** > **[!UICONTROL  Informes de Activity Map ]** .
+1. Activity Map recopila los datos sobre vínculos en informes de Activity Map. Para que se realice la activación, primero debe activar las variables haciendo clic en **[!UICONTROL Habilitar los informes de Activity Map]**.
 
-   Este paso agrega todas las dimensiones de Analytics que necesita para recopilar datos.
+   En este paso se añaden todas las dimensiones de Analytics que se necesitan para recopilar datos.
 
-1. Después de aproximadamente una hora, compruebe el informe [Página de mapa de](/help/analyze/activity-map/activitymap-reporting-analytics.md)Actividad, que muestra todas las páginas en las que los usuarios hicieron clic en un vínculo.
+1. Cuando pase una hora más o menos, consulte el [informe Página de Activity Map](/help/analyze/activity-map/activitymap-reporting-analytics.md), que muestra todas las páginas donde los usuarios han hecho clic en un vínculo.
 
 ## Paso 3. Añadir usuarios al grupo de acceso de Activity Map {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 
-1. Haga clic en **[!UICONTROL Add Users to Group]**.
+1. Haga clic en **[!UICONTROL Agregar usuarios al grupo]**.
 
    Esto le llevará a la página de administración de grupos de Admin Console.
 
-1. [Añadir usuarios a este grupo](https://marketing.adobe.com/resources/help/es_ES/reference/groups.html) y **[!UICONTROL Save Group]**.
+1. [Añada usuarios a este grupo](https://marketing.adobe.com/resources/help/es_ES/reference/groups.html) y haga clic en **[!UICONTROL Guardar grupo]**.
 
-1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL ActivityMap]** .
+1. De este modo, sus usuarios administradores podrán descargar Activity Map desde **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Herramientas]** > **[!UICONTROL Activity Map]** .
 
 >[!NOTE] Si desea que los usuarios que no son administradores descarguen Activity Map, cree un nuevo grupo de usuarios que proporcione permisos para “Herramientas” e “Instalación heredada de ClickMap”. Este nivel de permiso combinado con el acceso a Activity Map proporciona permisos para descargar y utilizar la herramienta.
