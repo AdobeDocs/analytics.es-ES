@@ -19,12 +19,12 @@ Si utiliza `linkInternalFilters` y `linkExternalFilters` simultáneamente, el v�
 
 ## Vínculos de salida: Rastrear en Adobe Experience Platform Launch
 
-The Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+El campo Rastrear es una lista de filtros separados por comas (generalmente dominios) en el acordeón de [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expanda el [!UICONTROL Link Tracking] acordeón, que muestra el [!UICONTROL Outbound Links - Track] campo.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra el campo [!UICONTROL Seguimiento de vínculos de salida].
 
 Coloque los filtros que desee considerar siempre externos en este campo. Separe varios dominios con una coma sin espacios.
 
