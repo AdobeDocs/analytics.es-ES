@@ -3,7 +3,7 @@ description: Pasos administrativos para activar Informes de AEM Assets en Analyt
 title: Informes de AEM Assets
 topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ Pasos administrativos para activar Informes de AEM Assets en Analytics.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL AEM]** > **[!UICONTROL Informes de AEM Assets]**
 
-Permite que Analytics recopile impresiones y clics en recursos proporcionados por AEM Asset Insights. Esta integración
+Permite que Analytics recopile impresiones y clics en recursos proporcionados por datos de AEM Assets. Esta integración
 
 * Permite la creación de informes en Analytics.
 * Añade nuevas dimensiones a las variables de los recursos en Analysis Workspace y Ad Hoc Analysis: ID del recurso, Origen de recursos e ID del recurso en el que se ha hecho clic.
