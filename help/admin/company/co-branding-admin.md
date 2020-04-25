@@ -3,7 +3,7 @@ description: La página Administrar imagen de promoción conjunta de marca le pe
 title: Promoción conjunta de marca
 topic: Admin tools
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
