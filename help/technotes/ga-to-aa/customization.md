@@ -1,7 +1,7 @@
 ---
 title: Personalización de informes en Adobe Analytics
 description: Descubra cómo personalizar informes en Adobe Analytics
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
