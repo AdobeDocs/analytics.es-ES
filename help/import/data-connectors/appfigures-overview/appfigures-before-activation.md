@@ -58,7 +58,7 @@ La siguiente tabla describe las variables de Analytics que se activan automátic
 
 >[!NOTE] Esta integración usa variables específicas para los datos de tiendas de aplicaciones, por lo que no es necesario asignar variables y eventos de comercio personalizados.
 
-| Tipo de variable | Nombre | Método de población | Descripción |
+| Tipo de variable | Nombre | Método de obtención de datos | Descripción |
 |---|---|---|---|
 | eVar | ID de objeto de la tienda de aplicaciones | Importado desde appFigures. | Configure esta eVar con caducidad de visita, asignación más reciente y subrelaciones básicas. |
 | Evento (numérico) | Descargas de la tienda de aplicaciones | Importado desde appFigures. | El número de descargas de aplicaciones móviles. |
