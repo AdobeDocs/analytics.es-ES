@@ -3,7 +3,7 @@ description: Muestra los promedios de las métricas del grupo de informes de cam
 title: Canal de conversión de campañas
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
