@@ -18,13 +18,13 @@ Aquí puede encontrar unas instrucciones de ayuda para localizar los identificad
 >
 >Google AdWords utiliza dos tipos de cuentas: a) la cuenta MCC (My Client Center) y b) la cuenta Estándar. Para esta integración con Adobe Analytics, **debe iniciar sesión con una cuenta Estándar y no con una MCC**. El motivo es que una cuenta MCC actúa como un “paraguas” que puede acceder a diversas cuentas de AdWords con un solo inicio de sesión, mientras que al iniciar sesión con una cuenta Estándar solo se puede acceder a una cuenta de AdWords por cada inicio de sesión.
 
-Haga clic en el icono Cuenta en la parte superior derecha para vista del número de cuenta de AdWords (ID de cliente).
+En la parte superior, haga clic en el icono Cuenta para ver el número de cuenta de AdWords (identificador de cliente).
 
 ![](assets/google_account.png)
 
 ## Bing  {#section_F1B9C7E997444746936599732CD62665}
 
-Tanto el ID de cuenta como el ID de cliente son obligatorios. Se enumeran en la ficha Cuentas.
+El identificador de cuenta y el identificador de cliente son necesarios. Se indican en la pestaña Cuentas.
 
 >[!NOTE] El número de cuenta no es lo mismo que el identificador de cuenta.
 
