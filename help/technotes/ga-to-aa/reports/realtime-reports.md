@@ -17,9 +17,9 @@ Los informes en tiempo real son una de las pocas características que aún no se
 
 Para llegar a la página de configuración de informes en tiempo real (se requieren permisos de administración):
 
-1. Click [!UICONTROL Reports] in the Adobe Analytics header navigation.
-2. En el menú de la izquierda, haga clic en *[!UICONTROL Site Metrics]* > *[!UICONTROL Real-Time]*.
-3. Si el grupo de informes aún no está habilitado en tiempo real, se muestra un mensaje con un vínculo para configurar el grupo de informes. If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Haga clic en [!UICONTROL Informes] en el encabezado de navegación de Adobe Analytics.
+2. En el menú de la izquierda, haga clic en *[!UICONTROL Métricas del sitio]* > *[!UICONTROL Tiempo real]*.
+3. Si el grupo de informes aún no está habilitado en tiempo real, se muestra un mensaje con un vínculo para configurar el grupo de informes. Si el grupo de informes tiene habilitada la actualización en tiempo real, haga clic en [!UICONTROL Configurar] cerca del título del informe en tiempo real.
 
 Adobe permite que haya hasta tres informes en tiempo real recopilando datos simultáneamente. Cada uno debe configurarse antes de empezar a recopilar datos en tiempo real.
 
@@ -29,13 +29,13 @@ Adobe permite que haya hasta tres informes en tiempo real recopilando datos simu
 
 Las ubicaciones en tiempo real indican dónde se encuentran los visitantes en el momento en que están visitando el sitio. Para configurar uno de los tres informes en tiempo real con el fin de que muestre los datos de ubicación:
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Haga clic en [!UICONTROL Configurar] cerca del título del informe en tiempo real.
 2. En uno de los espacios de informes en tiempo real:
    * Asigne un nombre al informe en tiempo real. Por ejemplo, “Ubicaciones”.
    * Las instancias generalmente se utilizan como la Métrica. Los usuarios o visitantes únicos no están disponibles en los informes en tiempo real en este momento.
    * Para la Dimensión principal, normalmente se utiliza la segmentación geográfica País. También están disponibles las segmentaciones geográficas Región, DMA de EE. UU. y Ciudad.
    * Para las dos dimensiones secundarias, utilice los datos adicionales que desee ver para este tráfico. Las dimensiones secundarias no tienen que ser específicas de la ubicación.
-3. Haga clic en [!UICONTROL Save and View Report].
+3. Haga clic en [!UICONTROL Guardar y Ver informe].
 
 ## Fuentes de tráfico en tiempo real
 
@@ -47,19 +47,19 @@ Las fuentes de tráfico en tiempo real indican en cada momento de dónde provien
    * Las instancias generalmente se utilizan como la Métrica. Los usuarios o visitantes únicos no están disponibles en los informes en tiempo real en este momento.
    * Para la Dimensión principal, normalmente se utiliza el Dominio de referencia. También están disponibles el motor de búsqueda y la palabra clave de búsqueda.
    * Para las dos dimensiones secundarias, utilice los datos adicionales que desee ver para este tráfico. Las dimensiones secundarias no tienen por qué ser específicas de las fuentes de tráfico.
-3. Haga clic en [!UICONTROL Save and View Report].
+3. Haga clic en [!UICONTROL Guardar y Ver informe].
 
 ## Contenido en tiempo real
 
 El contenido en tiempo real indica las páginas que están viendo los visitantes en el momento actual. Para configurar uno de los tres informes en tiempo real para que muestre los datos de contenido:
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Haga clic en [!UICONTROL Configurar] cerca del título del informe en tiempo real.
 2. En uno de los espacios de informes en tiempo real:
    * Asigne un nombre al informe en tiempo real. Por ejemplo, “Contenido”.
    * Las instancias generalmente se utilizan como la Métrica. Los usuarios o visitantes únicos no están disponibles en los informes en tiempo real en este momento.
    * Para la Dimensión principal, se suele utilizar Página. La Sección del sitio y el Servidor también están disponibles si en la implementación se definen estas variables.
    * Para las dos dimensiones secundarias, utilice los datos adicionales que desee ver para este tráfico. Las dimensiones secundarias no tienen por qué ser específicas del contenido.
-3. Haga clic en [!UICONTROL Save and View Report].
+3. Haga clic en [!UICONTROL Guardar y Ver informe].
 
 ## Eventos en tiempo real
 
@@ -71,12 +71,12 @@ Los eventos en tiempo real indican los eventos que están teniendo una mayor fre
 
 Las conversiones en tiempo real presentan los datos de forma diferente entre plataformas. Los objetivos de Google Analytics son similares a las métricas y a los eventos de éxito de Adobe Analytics. La mayoría de las métricas de Adobe Analytics (tanto métricas personalizadas como eventos de éxito como métricas estándar como ingresos) se pueden usar en los informes en tiempo real. Al igual que Google Analytics, se pueden aplicar dimensiones como el nombre del producto, el código de seguimiento y el rendimiento de las campañas en los informes en tiempo real.
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Haga clic en [!UICONTROL Configurar] cerca del título del informe en tiempo real.
 2. En uno de los espacios de informes en tiempo real:
    * Asigne un nombre al informe en tiempo real. Por ejemplo, “Conversiones”.
    * Las instancias generalmente se utilizan como la Métrica. Los usuarios o visitantes únicos no están disponibles en los informes en tiempo real en este momento.
    * Para la dimensión principal, se suele emplear el código de seguimiento. La dimensión Productos también está disponible si su implementación la utiliza.
    * Para las dos dimensiones secundarias, utilice los datos adicionales que desee ver para este tráfico. Las dimensiones secundarias no tienen por qué ser específicas de las conversiones.
-3. Haga clic en [!UICONTROL Save and View Report].
+3. Haga clic en [!UICONTROL Guardar y Ver informe].
 
 >[!NOTE] Si utiliza eventos fuera de Instancias, como Pedidos, asegúrese de que la implementación defina la dimensión y el evento en la misma visita. Si las dimensiones y los eventos no se activan en la misma visita, esos datos están disponibles en Analysis Workspace mediante la latencia de procesamiento estándar, que suele ser de entre treinta y noventa minutos.
