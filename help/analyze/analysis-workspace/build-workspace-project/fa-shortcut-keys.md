@@ -22,7 +22,7 @@ Interacciones de teclado estándar, teclas de acceso directo y comportamientos d
 |---|---|
 | Borrar todo | alt + w |
 | Contraer/Expandir todos los paneles | alt + m |
-| Contraer/expandir panel activo | alt + ctrl + m |
+| Contraer/Expandir panel activo | alt + ctrl + m |
 | Copiar | ctrl (o cmd) + c |
 | Crear una alerta | ctrl (o cmd) + mayús + a |
 | Crear métrica calculada | ctrl (o cmd) + mayús + c |
@@ -51,7 +51,7 @@ Interacciones de teclado estándar, teclas de acceso directo y comportamientos d
 | Guardar proyecto | ctrl (o cmd) + s |
 | Guardar proyecto como | ctrl (o cmd) + mayús + s |
 | Guardar como plantilla | Alt + t |
-| Buscar en el carril izquierdo | ctrl + / |
+| Buscar carril izquierdo | ctrl + / |
 | Enviar archivo ahora | alt + s |
 | Enviar archivo según lo programado | mayús + alt + s |
 | Establecer como página de aterrizaje | ctrl (o cmd) + mayús + l |
