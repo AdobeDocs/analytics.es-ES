@@ -3,7 +3,7 @@ description: Se refiere al tipo de explorador que utiliza el visitante (por ejem
 title: Tipos de explorador
 topic: Reports
 uuid: c755abce-ac24-42b6-b118-a971af7f6a59
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
