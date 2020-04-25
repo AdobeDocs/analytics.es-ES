@@ -3,7 +3,7 @@ description: Muestra información sobre el orden en que se accede a las páginas
 title: Informes  de rutas
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ Muestra información sobre el orden en que se accede a las páginas del sitio We
 
 Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
 
-Informes  de rutas incluyen informes exhaustivos estándar y de análisis avanzado opcionales que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
+Los informes  de rutas incluyen informes exhaustivos estándar y de análisis avanzado opcionales que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
 
 **[!UICONTROL Flujo de página siguiente]** o **[!UICONTROL Flujo de sitio siguiente]**: muestra un gráfico ramificado de dos niveles de una página seleccionada (o sección, departamento, etc.) que el visitante ve tras irse de la página seleccionada. Use este informe para analizar e identificar los pasos que siguen los visitantes con más frecuencia después de ver una página determinada. Puede:
 
@@ -33,7 +33,7 @@ Informes  de rutas incluyen informes exhaustivos estándar y de análisis avanza
 
 **[!UICONTROL Visita en el orden previsto]**: Muestra la bajada de visitas y los índices de conversión entre cada punto de comprobación definido. Los pasos están organizados desde arriba hacia abajo, con las cifras y porcentajes sin procesar a la izquierda, y la conversión y los porcentajes de visitas en el orden previsto a la derecha.
 
-Consulte  [Informe de visitas en el orden previsto](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obtener más información.
+Consulte [Informe de visitas en el orden previsto](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347) para obtener más información.
 
 **[!UICONTROL Longitud de ruta]**: muestra la profundidad con que los visitantes navegan por el sitio (según el porcentaje y el recuento total). Dicho de otro modo, el informe indica la cantidad de páginas en las que entra el visitante promedio antes de retirarse.
 
@@ -42,7 +42,7 @@ Consulte  [Informe de visitas en el orden previsto](/help/analyze/ad-hoc-analysi
 * **[!UICONTROL Resumen de página / Resumen de categoría del sitio]**: indica todo lo que se necesita saber sobre el informe de página. Este informe toma y organiza información específica acerca de una página individual y la presenta en un informe único.
 * **[!UICONTROL Recargas]**: muestra la cantidad de veces que los visitantes recargaron las páginas individuales.
 * **[!UICONTROL Tiempo invertido en la página / Categoría del sitio]**: muestra durante cuánto tiempo los visitantes navegan por páginas individuales del sitio. El tiempo empleado se divide en diez categorías: menos de 15 segundos, entre 15 y 30 segundos, entre 30 y 60 segundos, entre 1 y 3 minutos, entre 3 y 5 minutos, entre 5 y 10 minutos, entre 10 y 15 minutos, entre 20 y 30 minutos y más de 30 minutos.
-* **[!UICONTROL Clics hasta la página]**: Identifica la cantidad de clics que los visitantes hicieron para acceder a cada página del sitio. La profundidad de una página se mide contando la cantidad de páginas vistas antes de ella.
+* **[!UICONTROL Clics hasta la página]**: identifica la cantidad de clics que los visitantes hicieron para acceder a cada página del sitio. La profundidad de una página se mide contando la cantidad de páginas vistas antes de ella.
 
 **[!UICONTROL Entradas y salidas]**: el informe de página [!UICONTROL de entrada] muestra, según el porcentaje y el número total de visitas, qué páginas del sitio son las primeras en ser vistas por un nuevo visitante. Se pueden ver:
 
