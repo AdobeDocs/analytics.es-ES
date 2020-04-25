@@ -3,7 +3,7 @@ description: Las métricas calculadas y calculadas avanzadas (o derivadas) son m
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Métricas calculadas y calculadas avanzadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -38,7 +38,7 @@ A continuación se muestra una comparación de las competencias de las métricas
 | Operadores básicos (sumar, restar, multiplicar, dividir) | Sí | Sí |
 | [Aplicar segmentos](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md) | No | Sí |
 | [Funciones básicas (recuento, valor absoluto, media, etc.)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | No | Sí |
-| [Funciones avanzadas (regresión, si/entonces, unidad tipificada, etc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | No | Sí |
+| [Funciones avanzadas (regresión, si/entonces, unidad tipificada, etc.)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | No | Sí  |
 
 ## Competencias  {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
