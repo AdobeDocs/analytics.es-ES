@@ -3,7 +3,7 @@ description: Muestran información cuantitativa sobre el sitio web, tal como la 
 title: Informes de métricas del sitio
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
-## Informes de las  métricas del sitio {#concept_0639CA16551749A693F49ADED4842CCE}
+## Informes de métricas del sitio {#concept_0639CA16551749A693F49ADED4842CCE}
 
 Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
