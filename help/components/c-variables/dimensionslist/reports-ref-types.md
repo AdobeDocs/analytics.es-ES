@@ -3,7 +3,7 @@ description: Al realizar un seguimiento y registrar los sitios referentes de los
 title: Tipo de referente
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
