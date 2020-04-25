@@ -3,7 +3,7 @@ description: El informe de flujo de sección anterior es similar al de flujo de 
 title: Flujo de sección anterior
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
