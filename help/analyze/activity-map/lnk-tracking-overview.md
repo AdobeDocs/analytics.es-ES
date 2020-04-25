@@ -13,10 +13,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Activity Map realiza un seguimiento de los vínculos con un algoritmo más seguro que:
 
-* Incluye el seguimiento de las regiones de la página para evitar que se confundan los casos en los que el mismo vínculo se muestra en diferentes posiciones de la página;
-* Garantiza la exclusividad de los vínculos, lo que significa que los vínculos distintos no se pueden confundir con uno debido a problemas con LinkID o con diferentes tipos de explorador.
+* Incluye el seguimiento de las regiones de página para evitar que un mismo vínculo se pueda confundir en distintos dispositivos si aparece en posiciones distintas de la página.
+* Garantiza la exclusividad de los vínculos, lo que implica que los vínculos que sean distintos no se puedan confundir por problemas con los ID o entre distintos tipos de explorador.
 
-Para obtener más información sobre el seguimiento de vínculos en el mapa de Actividad, vaya [aquí](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md).
+Para obtener más información sobre el seguimiento de vínculos en Activity Map, entre [aquí](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md).
 
 ## Recopilar datos PII con el seguimiento de vínculos de Activity Map {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
@@ -26,5 +26,5 @@ A continuación se indican algunos casos conocidos en los que pueden recopilarse
 
 * Vínculos `Mailto`. Un vínculo mailto es un tipo de vínculo HTML que activa el cliente de correo predeterminado en el equipo para enviar un mensaje de correo electrónico.
 * Los vínculos de `User ID` pueden aparecer en el encabezado o pie de página de un sitio web una vez que el usuario ha iniciado sesión.
-* En el caso de las instituciones financieras, el número de cuenta puede mostrarse en forma de vínculo. Al hacer clic en él, se recopilará el texto del vínculo.
-* En los sitios web de asistencia sanitaria también es posible que los datos PII se muestren como vínculos. Al hacer clic en ellos, se recopilará el texto del vínculo y, en consecuencia, los datos PII.
+* Para las instituciones financieras, es posible que se muestre como vínculo el número de cuenta. Al hacer clic en dicho vínculo, se recopilará el texto que contenga.
+* Los sitios web de entidades sanitarias también pueden mostrar datos PII como vínculos. Al hacer clic en dichos vínculos, se recopilará el texto que contengan, por lo que se recopilarán datos PII.
