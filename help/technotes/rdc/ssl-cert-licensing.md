@@ -1,7 +1,7 @@
 ---
 title: Licencias de certificados SSL
 description: Procedimientos de certificados para los certificados administrados por el cliente
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
