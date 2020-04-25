@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Introducción a los Canales de mercadotecnia
 
-Los Canales de mercadotecnia se utilizan comúnmente para proporcionar una perspectiva sobre cómo llegan los visitantes al sitio. Puede personalizar las reglas de procesamiento de Marketing Canal en función de los canales que desee rastrear y de cómo desea rastrearlos.
+Los canales de mercadotecnia se utilizan habitualmente para conocer cómo llegan los visitantes al sitio. Se pueden personalizar reglas de procesamiento de canal de mercadotecnia en función de los canales que quiera rastrear y de cómo desea hacerlo.
 
 Los canales de mercadotecnia giran en torno a las métricas de primer y último toque, las cuales son componentes de las métricas de conversión estándar.
 
@@ -17,20 +17,20 @@ Los canales de mercadotecnia giran en torno a las métricas de primer y último 
 
 ![](assets/step1_icon.png) Definir los canales en función de las necesidades empresariales.
 
-La definición de los canales que se utilizan es uno de los componentes más importantes de los Canales de marketing. La definición de los canales puede requerir la colaboración entre varias personas de la organización. Estas son algunas de las preguntas que hay que tener en cuenta:
+La definición de los canales utilizados es una de las partes más importantes de los canales de mercadotecnia. La definición de canales exige la colaboración entre distintos integrantes de su organización. Estas son algunas cuestiones que hay que tener en cuenta:
 
-* ¿Está utilizando una búsqueda paga?
-* ¿Está usando campañas de correo electrónico? ¿Está utilizando varias campañas de correo electrónico que desea rastrear por separado?
-* ¿Tiene afiliados que dirijan el tráfico a su sitio? ¿Hay afiliados que desee rastrear individualmente?
-* ¿Existen campañas externas que resultarían ventajosas para rastrear por separado?
-* ¿Desea acumulado todos los sitios de redes sociales o hay alguno que desee rastrear individualmente?
-* ¿Hay otros canales que puedan afectar a la conversión que desee rastrear?
+* ¿Está usando una búsqueda paga?
+* ¿Está usando campañas de correo electrónico? ¿Está usando varias campañas de correo electrónico y le gustaría hacer un seguimiento por separado?
+* ¿Tiene afiliados que dirijan el tráfico a su sitio? ¿Hay afiliados a los que querría seguir de manera individual?
+* ¿Hay campañas externas que sería mejor seguir por separado?
+* ¿Desea sumar todos los sitios de redes sociales o hay alguno que le gustaría seguir de forma individual?
+* ¿Existen otros canales que podrían afectar a la conversión y que quiera rastrear?
 
 Hay una lista de canales recomendados en  [Preguntas frecuentes y ejemplos](/help/components/c-marketing-channels/c-faq.md). Cree una lista con los canales que desee usar. De este modo, será más fácil activar y definir los canales a la hora de crearlos.
 
-![](assets/step2_icon.png) Añada canales de mercadotecnia en la [!UICONTROL Marketing Channel Manager] página.
+![](assets/step2_icon.png) Añada canales de marketing en la página del [!UICONTROL Administrador de canales de marketing].
 
-After defining what channels to track, you enable them in **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+Después de definir los canales para seguir, los habilita en **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
 
 Consulte [Acerca de los canales y las reglas](/help/components/c-marketing-channels/c-channels.md) para obtener información importante sobre requisitos previos y conceptos.
 
@@ -38,15 +38,15 @@ Consulte [Agregar canales](/help/components/c-marketing-channels/c-channels.md) 
 
 >[!NOTE]
 >
->Si los canales de marketing no se han configurado anteriormente, se muestra la [configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md). Esta configuración proporciona varios canales preconfigurados que puede personalizar. Adobe recomienda utilizar estas reglas como plantilla. Sin embargo, si ya tiene definiciones de canal sólidas, puede omitir la configuración automática.
+>Si los canales de marketing no se han configurado anteriormente, se muestra la [configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md). Esta configuración proporciona varios canales preconfigurados que se pueden personalizar. Adobe recomienda usar estas reglas como plantilla. No obstante, si ya tiene definiciones de canales consolidadas, puede omitir la configuración automática.
 
-![](assets/step3_icon.png) Configure o perfeccione las reglas de cada canal en la [!UICONTROL Marketing Channel Processing Rules] página.
+![](assets/step3_icon.png) Configure o pula las reglas de cada canal en la página [!UICONTROL Reglas de procesamiento de canal de mercadotecnia].
 
-Después de crear canales en la [!UICONTROL Marketing Channel Manager] página, puede configurar las reglas para que los canales puedan recuperar datos e informar sobre ellos.
+Después de crear los canales en la página [!UICONTROL Administrador de canales de mercadotecnia], configure las reglas para que esos canales puedan obtener datos y crear informes.
 
-See [Marketing Channel Processing Rules](/help/components/c-marketing-channels/c-rules.md).
+Consulte [Reglas de procesamiento de canal de marketing](/help/components/c-marketing-channels/c-rules.md).
 
-Si se crearon canales en la configuración automática, se definen las reglas de esos canales. Puede modificarlas para adaptarlas a sus necesidades.
+Si los canales se han creado en la configuración automática, las reglas de los canales ya estarán definidas. Puede modificarlas para adaptarlas a sus necesidades.
 
 ## Configuración automática para Canales de mercadotecnia {#run-auto-setup}
 
@@ -54,37 +54,37 @@ El informe Canal de marketing incluye una página de configuración de una sola 
 
 Cómo se ejecuta la configuración automática para los canales de mercadotecnia.
 
-1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. En el [!UICONTROL Report Suite Manager], seleccione un grupo de informes.
-1. Haga clic **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
+1. En el [!UICONTROL Administrador del grupo de informes], seleccione un grupo de informes.
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de mercadotecnia]** > **[!UICONTROL Administrador de canales de mercadotecnia]**.
 
    ![Resultado](assets/wizard.png)
 
    >[!NOTE]
    >
-   >The [!UICONTROL Marketing Channels: Auto Setup] page displays automatically when you access channel configuration applications in Admin Tools. (Consulte el [administrador de Canales de marketing](/help/components/c-marketing-channels/c-channels.md).) Esta página no se muestra si el grupo de informes contiene uno o más canales de mercadotecnia. No puede volver a acceder a esta página a menos que seleccione otro grupo de informes que no contenga canales de marketing.
+   >La página [!UICONTROL Canales de marketing: configuración automática] se abre automáticamente al acceder a las aplicaciones de configuración de canal en las Herramientas de administración. (Consulte el [administrador de Canales de marketing](/help/components/c-marketing-channels/c-channels.md).) Esta página no indica si el grupo de informes contiene uno o más canales de mercadotecnia. Solo podrá volver a acceder a esta página si selecciona otro grupo de informes que no contenga canales de mercadotecnia.
 
 1. Asegúrese de que los canales que desee crear estén seleccionados.
 
-   Cuando se selecciona, **[!UICONTROL Email]**, **[!UICONTROL Display]** y **[!UICONTROL Affiliate]** son campos obligatorios.
+   Una vez seleccionados, los campos **[!UICONTROL Correo electrónico]**, **[!UICONTROL Visualización]** y **[!UICONTROL Afiliados]** son obligatorios.
 
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes
 
-Cómo utilizar un grupo de informes maestro como plantilla para probar la configuración de su canal de mercadotecnia. Para ahorrar tiempo, puede aplicar esta plantilla a uno o varios grupos de informes de producción en una actualización masiva. Esta tarea se realiza por separado para canales y conjuntos de reglas.
+Cómo se utiliza un grupo de informes principal como plantilla para poner a prueba la configuración de su canal de mercadotecnia. Para ahorrar tiempo, puede aplicar esta plantilla a uno o más grupos de informes de producción en una actualización masiva. Esta tarea se realiza por separado con los canales y los conjuntos de reglas.
 
 >[!NOTE] Aplique los canales a partir de una plantilla antes de aplicar los conjuntos de reglas. Los canales deben ser los mismos en todos los grupos de informes al realizar este procedimiento.
 
 1. Asegúrese de que el informe de canal de mercadotecnia esté habilitado en los grupos de informes seleccionados. El administrador de su cuenta será el encargado de llevar a cabo este paso.
-1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. On the **[!UICONTROL Report Suite Manager]** page, select the template report suite, as well as one or more target report suites.
-1. Haga clic **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
-1. En la **[!UICONTROL Select Master Report Suites]** página, seleccione un grupo de informes de plantilla.
-1. Haga clic en **[!UICONTROL Save All]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
+1. En la página **[!UICONTROL Administrador del grupo de informes]**, seleccione el grupo de informes de plantilla, y uno o más de los grupos de informes de destino.
+1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de mercadotecnia]** > **[!UICONTROL Administrador de canales de mercadotecnia]**.
+1. En la página **[!UICONTROL Seleccionar grupos de informes principales]**, seleccione un grupo de informes de plantilla.
+1. Haga clic en **[!UICONTROL Guardar todos]**.
 1. Aplique las reglas a partir de una plantilla a varios grupos de informes:
-   1. Vuelva a la [!UICONTROL Report Suite Manager] página.
+   1. Vuelva a la página [!UICONTROL Administrador del grupo de informes].
    1. Seleccione el grupo de informes de plantilla y uno o más grupos de informes de destino.
-   1. Haga clic **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
-   1. Haga clic en **[!UICONTROL Save]**. Si el botón Guardar está deshabilitado en este paso, expanda una de las reglas para habilitarlo.
+   1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de mercadotecnia]** > **[!UICONTROL Reglas de procesamiento de canal de mercadotecnia]**.
+   1. Haga clic en **[!UICONTROL Guardar]**. Si el botón Guardar está deshabilitado en este paso, expanda una de las reglas para habilitarlo.
 
