@@ -3,7 +3,7 @@ description: Para comprobar que el reenvío del lado del servidor esté correcta
 solution: Audience Manager
 title: Comprobar la implementación del reenvío del lado del servidor
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
