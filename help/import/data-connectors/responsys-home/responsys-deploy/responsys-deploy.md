@@ -2,7 +2,7 @@
 description: 'null'
 title: Implementación de la integración
 uuid: 5abf6d49-b05b-4e0f-8d9b-bb02d8f1c84a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
