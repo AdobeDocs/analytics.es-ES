@@ -2,7 +2,7 @@
 description: Configurar las opciones globales de comportamiento. Por ejemplo, se puede configurar el guardado automático, las opciones de gráficos y tablas y especificar la fuente y la configuración regional.
 title: Configuración
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
