@@ -34,11 +34,11 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>appFigures</b> </p> </td> 
-   <td colname="col2"> <p>ID del objeto de App Store -&gt; Usuario de App Store </p> <p>ID del objeto de App Store -&gt; Comentario de revisión </p> <p>ID del objeto de App Store -&gt; Título de revisión </p> </td> 
+   <td colname="col2"> <p>App Store Object ID -&gt; App Store User </p> <p>App Store Object ID -&gt; Review Comment </p> <p>App Store Object ID -&gt; Review Title </p> </td> 
    <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Administración de mercadotecnia empresarial de abril</b> </p> </td> 
+   <td colname="col1"> <p><b>Aprimo Enterprise Marketing Management</b> </p> </td> 
    <td colname="col2"> <p>Recipient ID (ID de destinatario) </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
@@ -63,12 +63,12 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="1"> <p><b>Tecnologías de diálogo</b> </p> </td> 
-   <td colname="col2"> <p>Llamador técnico de cuadro de diálogo </p> </td> 
+   <td colname="col1" morerows="1"> <p><b>Dialog Tech</b> </p> </td> 
+   <td colname="col2"> <p>Dialog Tech Caller </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Dialogue Tech Caller -&gt; Ciudad </p> <p>Dialog Tech Caller -&gt; Nombre </p> <p>Llamador técnico de cuadro de diálogo -&gt; Apellido </p> <p>Dialogue Tech Caller -&gt; Estado </p> <p>Dialogue Tech Caller -&gt; Dirección de calle </p> <p>Dialog Tech Caller -&gt; Código postal </p> </td> 
+   <td colname="col2"> <p>Dialog Tech Caller -&gt; City </p> <p>Dialog Tech Caller -&gt; First Name </p> <p>Dialog Tech Caller -&gt; Last Name </p> <p>Dialog Tech Caller -&gt; State </p> <p>Dialog Tech Caller -&gt; Street Address </p> <p>Dialog Tech Caller -&gt; Zip Code </p> </td> 
    <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
@@ -77,8 +77,8 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Señal dinámica</b> </p> </td> 
-   <td colname="col2"> <p>Código de seguimiento -&gt; ID de origen </p> <p>Código de seguimiento -&gt; Nombre del origen </p> <p>Código de seguimiento -&gt; ID de usuario </p> <p>Código de seguimiento -&gt; Nombre de usuario </p> </td> 
+   <td colname="col1"> <p><b>Dynamic Signal</b> </p> </td> 
+   <td colname="col2"> <p>Tracking Code -&gt; Source ID </p> <p>Tracking Code -&gt; Source Name </p> <p>Tracking Code -&gt; User ID </p> <p>Tracking Code -&gt; User Name </p> </td> 
    <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
@@ -92,36 +92,36 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="1"> <p><b>Comandante de Campaña de Emailvision</b> </p> </td> 
+   <td colname="col1" morerows="1"> <p><b>Emailvision Campaign Commander</b> </p> </td> 
    <td colname="col2"> <p>Visitor ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>ID del mensaje -&gt; Nombre de la Lista de correo </p> <p>ID del mensaje -&gt; ID del administrador </p> <p>ID del mensaje -&gt; Nombre del administrador </p> </td> 
+   <td colname="col2"> <p>Message ID -&gt; Mailing List Name </p> <p>Message ID -&gt; Manager ID </p> <p>Message ID -&gt; Manager Name </p> </td> 
    <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Epsilon Harmony</b> </p> </td> 
-   <td colname="col2"> <p>Dirección de correo electrónico </p> <p>Clave del cliente </p> </td> 
+   <td colname="col2"> <p>Dirección de correo electrónico </p> <p>Customer Key </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Destinatario exacto</b> </p> </td> 
+   <td colname="col1"> <p><b>Exact Target</b> </p> </td> 
    <td colname="col2"> <p>Visitor ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>ForeSee (v2.0)</b> </p> </td> 
-   <td colname="col2"> <p>Id. de encuestado de previsión </p> </td> 
+   <td colname="col2"> <p>Foresee Respondent ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>ID del encuestado de previsión -&gt; nombre de variable 1 </p> <p>... </p> <p>ID del encuestado de previsión -&gt; nombre de variable n </p> </td> 
+   <td colname="col2"> <p>Foresee Respondent ID -&gt; variable name 1 </p> <p>... </p> <p>Foresee Respondent ID -&gt; variable name n </p> </td> 
    <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Comentarios de Foresee</b> </p> </td> 
-   <td colname="col2"> <p>Lista de respuesta de ForeSee -&gt; Respuesta </p> <p>Lista de respuesta de ForeSee -&gt; Encuesta &gt; Pregunta &gt; Respuesta </p> </td> 
+   <td colname="col1"> <p><b>Foresee Feedback</b> </p> </td> 
+   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
    <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
@@ -140,7 +140,7 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>optivo Broadmail</b> </p> </td> 
+   <td colname="col1"> <p><b>optivo broadmail</b> </p> </td> 
    <td colname="col2"> <p>Recipient ID (ID de destinatario) </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
@@ -151,31 +151,31 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> <p>ID de cliente </p> </td> 
+   <td colname="col2"> <p>Visitor ID </p> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" morerows="1"> <p><b>Seleccionado</b> </p> </td> 
+   <td colname="col1" morerows="1"> <p><b>Selligent</b> </p> </td> 
    <td colname="col2"> <p>Recipient ID (ID de destinatario) </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Recipient ID (ID de destinatario) -&gt; RecipientField1 </p> <p>ID de Destinatario -&gt; CampoDestinatario2 </p> <p>ID de Destinatario -&gt; CampoDestinatario3 </p> <p>ID de Destinatario -&gt; CampoDestinatario4 </p> <p>ID de Destinatario -&gt; CampoDestinatario5 </p> </td> 
+   <td colname="col2"> <p>Recipient ID (ID de destinatario) -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
    <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Participación de Silverpop</b> </p> </td> 
+   <td colname="col1"> <p><b>Silverpop Engage</b> </p> </td> 
    <td colname="col2"> <p>Visitor ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Participación de Silverpop (v2.0)</b> </p> </td> 
+   <td colname="col1"> <p><b>Silverpop Engage (v2.0)</b> </p> </td> 
    <td colname="col2"> <p>Silverpop ID </p> <p>Dirección de correo electrónico </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>¡Sinergia!360</b> </p> </td> 
-   <td colname="col2"> <p>ID de cliente </p> </td> 
+   <td colname="col1"> <p><b>Synergy!360</b> </p> </td> 
+   <td colname="col2"> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -184,7 +184,7 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Correo electrónico de WhatCounts</b> </p> </td> 
+   <td colname="col1"> <p><b>WhatCounts Email</b> </p> </td> 
    <td colname="col2"> <p>Visitor ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
