@@ -1,7 +1,7 @@
 ---
 title: Código postal del visitante
 description: Muestra el código postal de los clientes con mayor efecto en las métricas de éxito. La información para este informe generalmente se obtiene durante el proceso de compra, cuando se averigua el código postal desde el que esta se realiza. Este informe permite determinar el éxito de una campaña de publicidad localizada en una localidad o ciudad determinada.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
