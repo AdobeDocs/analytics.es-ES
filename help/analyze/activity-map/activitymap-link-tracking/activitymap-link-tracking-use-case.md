@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Los vínculos se pueden diferenciar personalizando bien el ID del vínculo con la variable s_objectID, bien la región, o bien el archivo del módulo Activity Map AppMeasurement.
 
-Por ejemplo: supongamos que tiene varios vínculos &quot;Comprar&quot; identificados por el mapa de Actividad en el mismo ID de vínculo y región:
+Como ejemplo, supongamos que tenemos varios vínculos “Buy” (comprar) identificados en Activity Map con el mismo ID y la misma región de vínculo:
 
 <table id="table_3020E2C0175D455C84E794CF51BE5A93"> 
  <thead> 
@@ -38,17 +38,17 @@ Por ejemplo: supongamos que tiene varios vínculos &quot;Comprar&quot; identific
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Comprar <p> </p> <p> </p> <p>Comprar </p> <p> </p> <p> </p> <p>Comprar </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>panel de recomendaciones <p> </p> <p> </p> <p>panel de recomendaciones </p> <p> </p> <p> </p> <p>panel de recomendaciones </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>Panel de recomendaciones <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-¿Cómo puede personalizar la página web y el etiquetado para diferenciar los valores de estos vínculos? Tiene tres opciones: Puede personalizar el ID del vínculo, la región o el archivo del módulo Activity Map de AppMeasurement.
+¿Cómo se personalizan la página web y las etiquetas para diferenciar los valores de estos vínculos? Hay tres opciones: se puede personalizar el ID del vínculo, la región o el archivo del módulo Activity Map AppMeasurement.
 
 ## Personalizar el ID del vínculo con s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Al crear una ID de objeto única para un vínculo o una ubicación de vínculo en una página, puede mejorar el seguimiento del mapa de Actividad o utilizar el mapa de Actividad para informar sobre un tipo o ubicación de vínculo, en lugar de la dirección URL del vínculo. Haga clic [aquí](https://marketing.adobe.com/resources/help/es_ES/sc/implement/s_objectID.html) para obtener más información sobre la variable s_objectID.
+Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en una página, se puede mejorar el seguimiento de Activity Map, o bien utilizar Activity Map para informar sobre un tipo o una ubicación de vínculo en lugar de la URL del vínculo. Haga clic [aquí](https://marketing.adobe.com/resources/help/es_ES/sc/implement/s_objectID.html) para obtener más información sobre la variable s_objectID.
 
 >[!IMPORTANT]
 >
@@ -78,14 +78,14 @@ Al crear una ID de objeto única para un vínculo o una ubicación de vínculo e
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>panel de recomendaciones </p> <p> </p> <p> </p> <p>panel de recomendaciones </p> <p> </p> <p> </p> <p>panel de recomendaciones </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Personalizar la región {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-Puede personalizar la región asegurándose de que cada vínculo de &quot;compra&quot; tenga su propia región definida. Para ello, agregue un parámetro &quot;id&quot; a uno de los elementos principales de cada etiqueta de anclaje &quot;Buy&quot;.
+Puede personalizar la región asegurándose de que cada vínculo “buy” tenga definida su propia región. Para hacerlo, agregue un parámetro “id” a uno de los elementos primarios de cada etiqueta de anclaje “Buy”.
 
 >[!NOTE] Se pueden usar otros parámetros como identificadores de región aparte de “id”. También puede definir su propio identificador con la variable de JavaScript “s.ActivityMap.regionIDAttribute”.
 
@@ -112,8 +112,8 @@ Puede personalizar la región asegurándose de que cada vínculo de &quot;compra
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Comprar </p> <p> </p> <p> </p> <p>Comprar </p> <p> </p> <p> </p> <p>Comprar </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p>región a <p> </p> <p> </p> <p>región b </p> <p> </p> <p> </p> <p>Región c </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p>Región a <p> </p> <p> </p> <p>Región b </p> <p> </p> <p> </p> <p>Región c </p> </td> 
   </tr> 
  </tbody> 
 </table>
