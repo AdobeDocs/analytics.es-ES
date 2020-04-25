@@ -3,7 +3,7 @@ description: La funcionalidad de los segmentos difiere considerablemente entre l
 title: Derechos de segmentos por función
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
