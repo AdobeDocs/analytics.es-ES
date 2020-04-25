@@ -2,7 +2,7 @@
 description: Está disponible en Analysis Workspace y en el Generador de segmentos.
 title: Visitantes con Experience Cloud ID
 uuid: 47ebd3d6-a921-4e51-ac7a-b8d5fb9565e0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
