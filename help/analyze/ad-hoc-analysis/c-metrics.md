@@ -2,7 +2,7 @@
 description: Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio empleado, fechas, unidades, pedidos, ingresos, etc. Las métricas y los datos asociados se exhiben en las columnas de los informes.
 title: Métricas
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -68,7 +68,7 @@ t_add_metrics_dsc.xml
 
    Le recomendamos que antes especifique métricas predeterminadas en [!UICONTROL Configuración], para no tener que agregar métricas a un informe de forma reiterada.
 
-   Consulte  [Pestaña Clasificación: definiciones](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
+   Consulte [Pestaña Clasificación: definiciones](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
 
 ## Creador de métricas calculadas {#concept_F8E213CE786A43FB93847C5BA883A29C}
 
