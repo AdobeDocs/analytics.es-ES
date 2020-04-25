@@ -51,8 +51,8 @@ Adobe oferta una plantilla para ver datos de rendimiento vitales entre dispositi
 
 1. Vaya a [experience.adobe.com](https://experiencecloud.adobe.com) e inicie sesión con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrículas en la parte superior y, a continuación, haga clic en Analytics.
-1. Haga clic [!UICONTROL Workspace] en en la parte superior y luego en [!UICONTROL Create New Project].
-1. Localice el &quot;Journey IQ: &quot;Análisis entre dispositivos&quot; y, a continuación, haga clic en [!UICONTROL Create].
+1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
+1. Localice el &quot;Journey IQ: Plantilla de Análisis entre dispositivos y, a continuación, haga clic en [!UICONTROL Crear].
 1. Si se le solicita, cambie el grupo de informes a uno que admita CDA.
 
 Se crea un proyecto de Espacio de trabajo de Análisis que contiene varios paneles. En la parte superior, se muestra una tabla de contenido e introducción, lo que permite el contexto del informe y la navegación hacia informes individuales. Haga clic en un vínculo dentro de la tabla de contenido o expanda el acordeón de un panel para vista de dichos informes.
