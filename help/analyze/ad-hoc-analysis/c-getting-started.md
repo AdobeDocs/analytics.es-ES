@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 >[!IImportante]
 >El 6 de agosto de 2018 Adobe anunció su intención de finalizar el servicio de Ad Hoc Analysis. La fecha se hará pública una vez que esté disponible. Para obtener más información, incluidas las versiones de Java compatibles durante este periodo, visite [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace).
 
-Puede realizar análisis instantáneas y avanzadas en la actividad del sitio web. Puede realizar vistas de varios informes simultáneamente y aplicar segmentos en varias dimensiones. Puede analizar los datos desde las perspectivas micro y macro para vista su impacto en las métricas comerciales importantes.
+Puede realizar análisis instantáneos y avanzados sobre la actividad de un sitio web. Se pueden ver varios informes a la vez y aplicar segmentos a lo largo de varias dimensiones. Los datos se pueden analizar desde perspectivas micro y macro para ver cómo repercuten en las métricas de negocio importantes.
 
-Estas funciones le permiten responder preguntas sobre el tráfico del sitio, la demografía del visitante, los ingresos y el movimiento del producto. A continuación, puede filtrar, ordenar y segmentar los datos para encontrar las respuestas a preguntas precisas. Los resultados se devuelven casi instantáneamente, lo que permite analizar rápidamente los efectos de una combinación de factores.
+Estas características permiten responder a preguntas sobre el tráfico del sitio, las zonas demográficas del visitante, los ingresos y el movimiento del producto. Luego puede filtrar, clasificar y segmentar los datos con el fin de encontrar respuestas a preguntas precisas. Los resultados se devuelven prácticamente en forma instantánea, lo que le permite analizar rápidamente los efectos de una combinación de factores.
 
 <table id="table_C9C0444687FC418580F996E1D2ADB61A"> 
  <thead> 
@@ -38,14 +38,14 @@ Estas funciones le permiten responder preguntas sobre el tráfico del sitio, la 
    <td colname="col2"> <p>En la página de inicio, seleccione un grupo de informes y haga clic en <span class="uicontrol">Crear proyecto</span>. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Proyectos y espacios de trabajo</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>4. Abra un informe. </p> </td> 
-   <td colname="col2"> <p>Busque un informe utilizando el menú de informes estándar de Cloud. También puede elegir una plantilla. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Plantillas</a>de informes. </p> </td> 
+   <td colname="col1"> <p>4. Abrir un informe. </p> </td> 
+   <td colname="col2"> <p>Busque un informe con el menú de informes estándar de Cloud. También puede elegir una plantilla. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Plantillas de informe</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>5. Configure el informe. </p> </td> 
-   <td colname="col2"> <p>Configure los informes realizando tareas como: </p> 
+   <td colname="col1"> <p>5. Configurar el informe. </p> </td> 
+   <td colname="col2"> <p>Para configurar el informe deberá realizar diversas tareas: </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
-     <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Crear segmentos para profundizar en los datos </li> 
+     <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Crear segmentos para profundizar en los datos. </li> 
      <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Agregar métricas, dimensiones y segmentos al  <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Generador de tablas</a> </li> 
      <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuración de <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   >intervalos de fechas</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Programar</a> el envío de informes </li> 
@@ -67,15 +67,15 @@ c_sys_reqs.xml
 >[!NOTE] A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si ejecuta Ad Hoc Analysis en Java 7 después de la actualización de mantenimiento de julio de 2018, Adobe no ofrecerá compatibilidad para su implementación de análisis específicos.
 
 * Tarjeta de vídeo compatible con OpenGL 2.0
-* Cookies: Requerido
+* Cookies: obligatorio
 * Sistema operativo: Windows y Mac OS.
 * Macromedia Flash Player: versión 6 o posterior
 * Resolución del monitor: 800 x 600 (se recomienda 1024 x 768)
-* Profundidad de color: 16 bits o bueno
-* JavaScript: Habilitado
-* Versión de Java: Java 1.7 o posterior (consulte la nota anterior)
+* Profundidad de color: 16 bits o superior
+* JavaScript: habilitado
+* Versión de Java:   Java 1.7 o versiones posteriores   (consulte la nota anterior)
 
-   Si no tiene instalada la versión correcta de Java, se instalará automáticamente. Si tiene instalada una versión incompatible de Java, la Análisis ad hoc descargará las actualizaciones y le pedirá que las instale.
+   Si no tiene instalada la versión correcta de Java, se instalará automáticamente. Si tiene instalada una versión incompatible de Java, Ad Hoc Analysis descargará las actualizaciones y le pedirá que las instale.
 
 ## Instrucciones de actualización de Java  {#section_E4C0C6492FF24636A0FF71A59331111D}
 
@@ -85,16 +85,16 @@ Nuestros archivos .jar están firmados con un cifrado seguro de 256 bits con el
 
 Si todavía tiene Java 7 instalado, debe actualizar primero a la versión de mantenimiento de julio de 2018. A continuación se muestra cómo:
 
-* Si puede instalar programas en su equipo:
+* Si puede instalar programas en su ordenador:
 
    1. Vaya a https://www.java.com.
-   1. Haga clic en **[!UICONTROL Free Java Download]**.
-   1. Haga clic en **[!UICONTROL Agree and Start Free Download]**.
+   1. Haga clic en **[!UICONTROL Descarga gratuita de Java]**.
+   1. Haga clic en **[!UICONTROL Aceptar e iniciar descarga gratuita]**.
    1. Instale la última versión de Java específica para su sistema operativo.
 
-* Si **no tiene** permiso para instalar programas en su equipo:
+* Si **no** puede instalar programas en su ordenador:
 
-   1. Trabaje con su departamento de TI para instalar la versión más reciente de Java.
+   1. Consulte con su departamento informático para poder instalar la última versión de Java.
 
 ## Iniciar Ad Hoc Analysis {#concept_B1CE3C1E6D1A4311B9835BEB69812E55}
 
@@ -104,7 +104,7 @@ c_login.xml
 
  -->
 
-Puede iniciar sesión desde [!DNL Experience Cloud] o desde una dirección URL. Si inicia sesión desde Informes y análisis, se iniciará sesión automáticamente. El inicio de sesión con una URL solo es necesario si accede a la URL de análisis ad hoc desde otra ubicación, como un vínculo o un menú Favoritos.
+Puede iniciar sesión desde [!DNL Experience Cloud] o desde una dirección URL. Si inicia sesión desde Reports and Analytics, su sesión ya se habrá iniciado automáticamente. Iniciar sesión con una URL solamente es necesario si accede a la dirección URL de Ad Hoc Analysis desde otra ubicación, por ejemplo, un vínculo o un menú Favoritos.
 
 ## Inicio de sesión desde Experience Cloud {#task_128ED319F3AE49ED886EA3DFA8D0987F}
 
@@ -117,18 +117,18 @@ t_login_suite.xml
  -->
 
 1. En un navegador, vaya a [!DNL marketing.adobe.com].
-1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
-1. Haga clic **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Ad Hoc Analysis]**.
+1. Escriba el nombre de la empresa, el nombre de usuario y la contraseña. A continuación, haga clic en **[!UICONTROL Iniciar sesión]**.
+1. Haga clic en **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Herramientas]** > **[!UICONTROL Ad Hoc Analysis]**.
 
    Si no ve el botón **Iniciar Ad Hoc Analysis** en esta página, asegúrese de que el administrador lo haya agregado al grupo *Usuarios con licencias de Ad Hoc Analysis* en las herramientas de administración.
-1. Haga clic en **[!UICONTROL Launch Ad Hoc Analysis]**.
+1. Haga clic en **[!UICONTROL Iniciar Ad Hoc Analysis]**.
 1. Guarde el archivo [!DNL discover.jnlp] localmente.
 
    Puede ejecutar este archivo que guardó cada vez que desee iniciar Ad Hoc Analysis.
 
 ## Proyectos y espacio de trabajo {#concept_FAE346335B0347A192C6C806C775D72B}
 
-Un proyecto define el conjunto de datos que se importa, incluidos un grupo de informes y un intervalo de fechas. Un proyecto consiste en cualquier número de informes con todas sus métricas, configuraciones, dimensiones y segmentos. Puede iniciar un nuevo proyecto, cargar un proyecto guardado o cargar el proyecto que guarda automáticamente.
+Los proyectos definen el conjunto de datos que se importa, lo que incluye un grupo de informes y un intervalo de fechas. Los proyectos constan de un número indeterminado de informes, junto con todas sus métricas, configuraciones, dimensiones y segmentos. Puede comenzar un proyecto nuevo, cargar un proyecto guardado o cargar el proyecto que guarda automáticamente.
 
 <!-- 
 
@@ -136,13 +136,13 @@ c_projects.xml
 
  -->
 
-Los informes se agrupan en un *espacio de trabajo*. Un proyecto puede contener varios espacios de trabajo y un espacio de trabajo puede contener varios informes. La mejor forma de entender la relación entre estos elementos es verla como una relación anidada:
+Los informes se agrupan en un *espacio de trabajo*. Un proyecto puede contener varios espacios de trabajo, y un espacio de trabajo puede contener varios informes. La mejor forma de entender la relación entre estos artículos es verla como una relación anidada:
 
 ![](assets/project_workspace.png)
 
-Solo puede abrir un proyecto a la vez. Sin embargo, puede abrir varias áreas de trabajo en un proyecto. En cada área de trabajo puede tener varios informes abiertos.
+Se puede abrir solamente un proyecto por vez. Sin embargo, en un proyecto se pueden abrir varios espacios de trabajo. En cada espacio de trabajo, se pueden tener varios informes abiertos.
 
-El intervalo de fechas predeterminado para un nuevo proyecto es [!UICONTROL Last 90 Days].
+El intervalo de fechas predeterminado para un nuevo proyecto es [!UICONTROL Últimos 90 días].
 
 ## Inicio de proyectos {#task_918A4539134E4E62B00486DCB8D3D403}
 
@@ -155,7 +155,7 @@ t_project_start.xml
  -->
 
 1. Inicie sesión.
-1. Open a saved project or click **[!UICONTROL Create Project]**.
+1. Abra un proyecto guardado o haga clic en **[!UICONTROL Crear proyecto]**.
 1. Busque un informe o elija una plantilla.
 
 ## Apertura de espacios de trabajo guardados recientemente {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
@@ -168,9 +168,9 @@ t_recent_workspace.xml
 
  -->
 
-1. Haga clic **[!UICONTROL File]** > **[!UICONTROL Recent Workspace]**.
+1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Espacio de trabajo reciente]**.
 
-   Puede abrir hasta cinco espacios de trabajo recientes. Los espacios de trabajo recientes no están disponibles después de salir de la sesión.
+   Puede abrir un máximo de cinco espacios de trabajo recientes. Estos espacios de trabajo dejan de estar disponibles al cerrar la sesión.
 
 ## Proyectos compartidos {#task_5911780D90164F3A8A677C8BC719750D}
 
@@ -182,14 +182,14 @@ t_share_projects.xml
 
  -->
 
-1. Vaya a **[!UICONTROL File]** > **[!UICONTROL Save As]**.
-1. Seleccione **[!UICONTROL Shared Projects]** en la **[!UICONTROL Save in:]** lista desplegable.
+1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Guardar como]**.
+1. Seleccione **[!UICONTROL Proyectos compartidos]** en el menú desplegable **[!UICONTROL Guardar en:]**. 
 
    ![](assets/shared_projects.png)
 
-1. Click **[!UICONTROL Save]** to save the project.
+1. Haga clic en **[!UICONTROL Guardar]** para guardar el proyecto.
 
-   Los proyectos compartidos se pueden abrir mediante **[!UICONTROL File]** > **[!UICONTROL Open]** > **[!UICONTROL Shared Projects]**.
+   Los proyectos compartidos se pueden abrir a través de **[!UICONTROL Archivo]** > **[!UICONTROL Abrir]** > **[!UICONTROL Proyectos compartidos]**.
 
    >[!NOTE]
    >
@@ -206,8 +206,8 @@ t_rename_workspace.xml
  -->
 
 1. Haga clic con el botón derecho en el nombre del espacio de trabajo.
-1. Elegir **[!UICONTROL Rename Workspace]**.
-1. Type a name, then click **[!UICONTROL OK]**.
+1. Elija **[!UICONTROL Cambiar nombre de espacio de trabajo]**.
+1. Escriba un nombre y haga clic en **[!UICONTROL Aceptar]**.
 
 ## Abrir un proyecto local {#task_1B3EF63A80C74776B24B99D80EAC74AC}
 
@@ -219,12 +219,12 @@ t_open_local_project.xml
 
  -->
 
-1. Haga clic **[!UICONTROL File]** > **[!UICONTROL Open Local Copy]**.
-1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
+1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Abrir copia local]**.
+1. Vaya al archivo local [!DNL .dproj] y, a continuación, haga clic en **[!UICONTROL Abrir]**.
 
 ## Plantillas de informe {#concept_370F674C5B4C45368731AA801C5A45F8}
 
-Las plantillas son puntos de partida para el tipo de análisis que desea realizar. Una plantilla puede ser un lienzo en blanco, como un informe de clasificación o de visitas en el orden previsto. O bien, la plantilla es un informe que inicio con métricas y dimensiones predeterminadas.
+Las plantillas son puntos de partida que se pueden refinar para obtener el análisis deseado. Una plantilla puede ser un lienzo vacío, por ejemplo un informe de clasificación o de visitas en el orden previsto. O puede ser un informe que parte de métricas y dimensiones predeterminadas.
 
 <!-- 
 
@@ -232,22 +232,22 @@ c_templates.xml
 
  -->
 
-You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report.
+Las plantillas se pueden usar al crear un proyecto (**[!UICONTROL Archivo]** > **[!UICONTROL Nuevo proyecto]**) o al agregar un espacio de trabajo o informe.
 
 | Plantilla | Descripción |
 |--- |--- |
-| Clasificación | Proporciona un lienzo en blanco en el que puede crear una tabla. Por ejemplo, los informes de páginas clasifican las páginas del sitio según el tráfico, y la tabla de detalles muestra los porcentajes y las cantidades correspondientes a diversas métricas, por ejemplo, las vistas de páginas y los ingresos. |
-| Tendencias | Permite examinar la tendencia de las conversiones y los eventos en una granularidad de tiempo seleccionada (hora, día, semana, mes, trimestre o año) durante un período de sistema de informes. |
-| Totales | Informe de nivel ejecutivo que muestra las cifras finales. Contiene datos para Ingresos totales, Vistas de página y Pedidos. |
-| Abandono | Permite construir un canal que muestra las tasas de conversión y de visitas en el orden previsto entre puntos de comprobación. Por ejemplo, puede rastrear los puntos de abandono de un visitante durante un proceso de compra. |
-| Flujo | Muestra las rutas más comunes que toman los usuarios en páginas, secciones del sitio y servidores. |
-| Canal de conversión | Muestra los porcentajes de conversión entre eventos de métricas específicos. Puede utilizar este informe para comprender la cantidad de pulsaciones que generan ventas y la cantidad de unidades vendidas. |
-| Análisis del sitio | Herramienta de ruta de sitios tridimensional que muestra cómo se mueven los visitantes por páginas y eventos especificados. |
-| Grupo de enfoque virtual | Realiza una visita al azar desde sus visitas y muestra una gran cantidad de datos sobre la visita. Puede utilizar el informe para crear grupos de enfoque a partir de la población de visitantes. |
+| Clasificación | Presenta un lienzo vacío en el cual se puede construir una tabla. Por ejemplo, los informes de páginas clasifican las páginas del sitio según el tráfico, y la tabla de detalles muestra los porcentajes y las cantidades correspondientes a diversas métricas, por ejemplo, las vistas de páginas y los ingresos. |
+| Tendencias | Permiten examinar las tendencias que siguen las conversiones y los eventos de acuerdo con una granularidad temporal seleccionada (hora, día, semana, mes, trimestre o año) durante un período de informe. |
+| Totales | Un informe de nivel ejecutivo que muestra cifras totales. Contiene datos de totales de ingresos, vistas de página y pedidos. |
+| Abandono | Permite construir un canal a través del sitio web para ver las tasas de conversión y abandono de la secuencia entre determinados puntos de comprobación. Por ejemplo, se puede hacer un seguimiento de dónde los visitantes abandonan la secuencia prevista a lo largo del proceso de compra. |
+| Flujo | Muestra las rutas más comunes que siguen los usuarios entre páginas, secciones del sitio y servidores. |
+| Canal de conversión | Muestra porcentajes de conversión entre determinados eventos de métricas. Estos informes se pueden usar para comprender con cuántas pulsaciones se generan ventas y la cantidad de unidades vendidas. |
+| Análisis del sitio | Una herramienta de seguimiento de ruta tridimensional que muestra cuántos visitantes pasan por determinadas páginas y eventos. |
+| Grupo de enfoque virtual | Selecciona una visita al azar y muestra una gran cantidad de información sobre esa visita. Puede usar el informe para crear grupos de enfoque entre la población de visitantes. |
 
 ## Abrir un informe {#task_0AC455CDA198497AA546622FB05F300D}
 
-Puede abrir un informe o una plantilla al crear un proyecto o desde un proyecto existente. Utilice una plantilla para configurar un informe desde cero.
+Puede abrir un informe o una plantilla en el momento de crear un proyecto o desde un proyecto ya creado. Las plantillas sirven para configurar un informe desde cero.
 
 <!-- 
 
@@ -255,8 +255,8 @@ t_reports_opening.xml
 
  -->
 
-Existen varias formas de abrir un informe:
+Puede abrir un informe de las siguientes maneras:
 
-* En la [!UICONTROL New Report] página, busque un informe o elija una plantilla.
-* Haga clic **[!UICONTROL Reports]** en el menú y, a continuación, seleccione un informe o una plantilla de informe.
-* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** > **`report name`**.
+* En la página [!UICONTROL Nuevo informe], busque un informe o elija una plantilla.
+* En el menú, haga clic en **[!UICONTROL Informes]** y seleccione un informe o una plantilla de informe.
+* Para ejecutar un informe desde una dimensión, haga clic con el botón derecho en el nombre de la dimensión y seleccione **[!UICONTROL Ejecutar informe]** >   **`report name`**.
