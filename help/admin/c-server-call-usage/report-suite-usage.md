@@ -2,7 +2,7 @@
 description: La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
 title: Ver uso del grupo de informes
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -30,7 +30,7 @@ El tablero de Uso del grupo de informes:
 
 | Columna | Definición |
 |--- |--- |
-| Nombre del grupo de informes | Nombre descriptivo del grupo de informes. |
+| Report Suite Nombre | Nombre descriptivo del grupo de informes. |
 | Todas las llamadas (% del total) | Todas las llamadas al servidor en las que se ha incurrido en el periodo de uso actual. |
 | Llamadas primarias (%) | Todas las llamadas al servidor primarias (y su porcentaje del total) en las que se ha incurrido en el periodo de uso actual. |
 | Llamadas secundarias (%) | Todas las llamadas al servidor secundarias (y su porcentaje del total) en las que se ha incurrido en el periodo de uso actual. |
