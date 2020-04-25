@@ -26,7 +26,7 @@ Debe tener acceso a los servidores de alojamiento para implementar correctamente
 
 ## Almacenamiento en caché
 
-El archivo JavaScript se almacena en caché en el explorador del visitante después de que se cargue por primera vez y, por lo general, no se descarga más de una vez por sesión. El archivo no se descarga en cada página, aunque lo usen todas las páginas del sitio. En la mayoría de los sitios web, los usuarios promedian más de unas pocas vistas de página por sesión, por lo que la transferencia de JavaScript que se utiliza varias veces en este archivo puede resultar en menos datos descargados en general.
+El archivo JavaScript se almacena en caché en el explorador del visitante cuando se carga por primera vez y, por lo general, solo se descarga una vez por sesión. El archivo no se descarga en cada página, aunque lo usen todas las páginas del sitio. El cálculo promedio indica que, en la mayoría de sitios web, se registran varias vistas de página por sesión por usuario. De este modo, si se transfieren a este archivo los elementos JavaScript que se usan varias veces, se pueden reducir los datos que se descargan de forma general.
 
 ## Compresión de código H
 
