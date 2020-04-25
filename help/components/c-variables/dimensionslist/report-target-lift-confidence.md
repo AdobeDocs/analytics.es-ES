@@ -2,7 +2,7 @@
 description: Permite evaluar el éxito de las campañas de Adobe Analytics del mismo modo que se ha hecho en Target Classic en el pasado.
 title: Alza y confianza de Target
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
