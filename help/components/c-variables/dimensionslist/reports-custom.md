@@ -3,7 +3,7 @@ description: Los administradores pueden configurar un informe con métricas espe
 title: Personalizado
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
