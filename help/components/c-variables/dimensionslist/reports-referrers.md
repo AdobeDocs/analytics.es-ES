@@ -9,7 +9,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 # Referentes
 
-La dimensión &#39;Remitente del reenvío&#39; muestra la dirección URL de donde provienen los visitantes antes de llegar al sitio. Por ejemplo: si un visitante hace clic en un vínculo desde `example.com/example-page.html` y llega a su sitio, `example.com/example-page.html` es el remitente del reenvío si no se define como parte de su dominio.
+La dimensión &#39;Remitente del reenvío&#39; muestra la dirección URL de donde provienen los visitantes antes de llegar al sitio. For example, if a visitor clicks a link from `example.com/example-page.html` and arrives on your site, `example.com/example-page.html` is the referrer if it is not defined as part of your domain.
 
 Esta dimensión requiere que configure los filtros [URL](/help/admin/admin/internal-url-filter-admin.md)internos del grupo de informes. Si no configura filtros de URL internas, Adobe Analytics considera que todos los dominios son internos del sitio.
 
