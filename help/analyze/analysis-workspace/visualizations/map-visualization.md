@@ -2,7 +2,7 @@
 description: 'null'
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ La visualización de mapas en Analysis Workspace
 
 ## Creación de una visualización de mapas {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. En la lista de visualizaciones, arrastre **[!UICONTROL Mapa]** a un panel de forma libre:
+1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
 
    ![](assets/map-viz1.png)
 
@@ -42,7 +42,7 @@ La visualización de mapas en Analysis Workspace
  </tbody> 
 </table>
 
-1. Haga clic en **[!UICONTROL Generar]**.
+1. Haga clic en **[!UICONTROL Build]**.
 
    Lo recibirá la vista Mundo, con un mapa de burbujas similar a este.
 
