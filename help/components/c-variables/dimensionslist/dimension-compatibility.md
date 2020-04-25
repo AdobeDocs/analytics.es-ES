@@ -1,7 +1,7 @@
 ---
 title: Compatibilidad de dimensiones de Analytics
 description: Referencia para dimensiones e informes de Analytics.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -70,7 +70,7 @@ Recuerde que
 | Dominio de referencia original | referringdomainoriginal |
 | Página | página |
 | Páginas no encontradas | pagesnotfound |
-| Producto | producto |
+| Product | producto |
 | Referente | referente |
 | Tipo de referente | referrertype |
 | Dominio de referencia | referringdomain |
@@ -84,7 +84,7 @@ Recuerde que
 | Palabra clave de búsqueda: natural | searchenginenaturalkeyword |
 | Palabra clave de búsqueda: de pago | searchenginepaidkeyword |
 | Clasificación de todas las páginas de búsqueda | searchenginepagerank |
-| Servidor | servidor |
+| Server | servidor |
 | Visitas a una sola página | singlepagevisits |
 | Sección del sitio | sitesections |
 | Tiempo empleado por visita (granular) | sitetime |
