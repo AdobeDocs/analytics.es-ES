@@ -2,7 +2,7 @@
 description: Cómo migrar cuentas de usuario como Enterprise ID o Federated ID a Admin Console.
 title: Migración de las cuentas de usuario de Analytics para Enterprise ID y Federated ID
 uuid: f90bf78a-5603-4bef-b714-13215301187c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
