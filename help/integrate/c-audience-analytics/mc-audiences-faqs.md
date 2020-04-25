@@ -3,7 +3,7 @@ description: Respuestas a preguntas que podría tener al implementar Audience An
 solution: Experience Cloud
 title: Preguntas frecuentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
@@ -136,11 +136,11 @@ Para saber más sobre este tema, consulte [Preguntas frecuentes sobre el reenví
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>P: ¿Por qué el visitante del segmento tiene un recuento diferente en Audience Manager y Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Consulte  <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Diferencias en la contabilización de visitantes </a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Diferencias en la contabilización de visitantes </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Cuál es la diferencia entre las “audiencias” de AAM y los “segmentos” de Analytics?</b> </p> </td> 
-   <td colname="col2"> <p>Consulte  <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Explicación de los segmentos en Analytics y Audience Manager </a>. </p> <p>Las audiencias de AAM se envían y comparten como componentes de “dimensión” para su uso en Analytics. No aparecerán como segmentos en el Generador de segmentos, por ejemplo, sino como dimensiones con las que se pueden crear segmentos. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Explicación de los segmentos en Analytics y Audience Manager </a>. </p> <p>Las audiencias de AAM se envían y comparten como componentes de “dimensión” para su uso en Analytics. No aparecerán como segmentos en el Generador de segmentos, por ejemplo, sino como dimensiones con las que se pueden crear segmentos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Cuál es la diferencia entre los atributos del cliente y los datos de clientes integrados desde AAM?</b> </p> </td> 
