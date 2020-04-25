@@ -3,7 +3,7 @@ description: Proporciona una lista de métricas y dimensiones compatibles con lo
 title: Métricas y dimensiones en tiempo real compatibles
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -36,8 +36,8 @@ Proporciona una lista de métricas y dimensiones compatibles con los informes en
 * Región de segmentación geográfica
 * Ciudad de segmentación geográfica
 * DMA de EE. UU. de segmentación geográfica
-* Producto
-* Servidor
+* Product
+* Server
 * Sección del sitio
 * Código de seguimiento
 * Vínculo personalizado
