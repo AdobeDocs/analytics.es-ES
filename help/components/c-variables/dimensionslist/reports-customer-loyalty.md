@@ -3,7 +3,7 @@ description: Lealtad del cliente revela los patrones de compra de los clientes.
 title: Lealtad del cliente
 topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
