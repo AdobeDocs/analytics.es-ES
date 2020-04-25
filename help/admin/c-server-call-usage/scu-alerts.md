@@ -2,7 +2,7 @@
 description: Añada o administre alertas de uso de llamadas al servidor. Al configurar una alerta, se aplica a todos los grupos de informes en todas las empresas de inicio de sesión de una empresa de facturación.
 title: Alertas sobre el uso de llamadas al servidor
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -73,6 +73,6 @@ Para administrar alertas:
    | Cambiar nombre | Puede cambiar el nombre de todas las alertas excepto el de las predeterminadas. |
    | Aprobar | Apruebe alertas para hacerlas “oficiales”. |
    | Habilitar/Deshabilitar | Puede habilitar o deshabilitar todas las alertas, incluso las predeterminadas. |
-   | Renovar | Cuando se seleccionan una o varias alertas, estas se pueden renovar. Esto retrasa las fechas de caducidad y las amplía a 1 año a partir del momento en que se hace clic en [!UICONTROL Renovar] sin tener en cuenta la fecha de caducidad original. |
+   | Renovar | When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
    | Exportar a CSV | Consulte [Descargar informe de uso](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
