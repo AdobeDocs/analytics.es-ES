@@ -18,11 +18,11 @@ Aquí se encuentra una lista alfabética de las funciones y sus definiciones.
 
 ## Funciones de tabla en comparación con funciones de fila {#section_8977BE40A47E4ED79EB543A9703A4905}
 
-Una función de tabla es aquella en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es aquella en la que el resultado es diferente para cada fila de la tabla.
+Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
 
 ## Valor absoluto (Fila) {#concept_4CC47884F7CA49D5B84AC898EA596673}
 
-Devuelve el valor absoluto de un número. El valor absoluto de un número es el número con signo positivo.
+Devuelve el valor absoluto de un número. El valor absoluto de un número es el número con un valor positivo.
 
 ```
 ABS(metric)
@@ -30,11 +30,11 @@ ABS(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | La métrica de la cual desee el valor absoluto. |
+| *métrica* | La métrica de la cual desea el valor absoluto. |
 
 ## Máximo de columna {#concept_B25518D717D24F82B65CDE49A153D3A3}
 
-Devuelve el valor más pequeño en un conjunto de elementos de dimensión para una columna de métrica. MAXV realiza una evaluación vertical dentro de una sola columna (métrica) en todos los elementos de dimensión.
+Devuelve el mayor valor en un conjunto de elementos de una dimensión para una columna de métrica. MAXV evalúa de forma vertical dentro de una única columna (métrica) entre elementos de dimensión.
 
 ```
 MAXV(metric)
@@ -42,11 +42,11 @@ MAXV(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | Una métrica que le gustaría haber evaluado. |
+| *métrica* | Una métrica que le gustaría evaluar. |
 
 ## Mínimo de columna {#concept_5B1033F8ACE9485F9AD3CDC0D146391B}
 
-Devuelve el valor más pequeño en un conjunto de elementos de dimensión para una columna de métrica. MINV realiza una evaluación vertical dentro de una sola columna (métrica) en todos los elementos de dimensión.
+Devuelve el menor valor en un conjunto de elementos de una dimensión para una columna de métrica. MINV evalúa de forma vertical dentro de una única columna (métrica) entre elementos de dimensión.
 
 ```
 MINV(metric)
@@ -54,11 +54,11 @@ MINV(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | Una métrica que le gustaría haber evaluado. |
+| *métrica* | Una métrica que le gustaría evaluar. |
 
 ## Suma de columna {#concept_391F04FBC3CC43368CA0C5AACE74D4B1}
 
-Añade todos los valores numéricos de una métrica dentro de una columna (en todos los elementos de una dimensión).
+Suma todos los valores numéricos de una métrica dentro de una columna (entre los elementos de una dimensión).
 
 ```
 SUM(metric)
@@ -66,11 +66,11 @@ SUM(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | La métrica para la cual desea el valor total o la suma. |
+| *métrica* | La métrica de la cual desea el valor total o la suma. |
 
 ## Recuento (Tabla) {#concept_2C6ED2B88AB74481BD130969FB071A41}
 
-Devuelve el número, o recuento, de valores distintos a cero para una métrica dentro de una columna (el número de elementos únicos incluidos dentro de una dimensión).
+Devuelve un número, o recuento, de valores distintos de cero para una métrica dentro de una columna (el número de elementos únicos informados dentro de una dimensión).
 
 ```
 COUNT(metric)
@@ -82,7 +82,7 @@ COUNT(metric)
 
 ## Exponente (Fila) {#concept_17554F9D234449FB8DDEE895816B3FF1}
 
-Returns *e* raised to the power of a given number. The constant *e* equals 2.71828182845904, the base of the natural logarithm. EXP is the inverse of LN, the natural logarithm of a number.
+Devuelve *e* elevado a la potencia de un número determinado. La constante *e* es igual a 2,71828182845904, la base del logaritmo natural. EXP es la inversa de LN, el logaritmo natural de un número.
 
 ```
 EXP(metric)
@@ -90,7 +90,7 @@ EXP(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | The exponent applied to the base *e*. |
+| *métrica* | El exponente aplicado a la base *e*. |
 
 ## Exponenciación {#concept_941578534F1E4583B1BEB067C8113A21}
 
@@ -102,7 +102,7 @@ pow(x,y) = x<sup>y</sup> = x*x*x*… (y veces)
 
 ## Media (Tabla) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
-Devuelve la media aritmética, o promedio, de una métrica en una columna.
+Devuelve la media aritmética, o el promedio, de una métrica en una columna.
 
 ```
 MEAN(metric)
@@ -110,11 +110,11 @@ MEAN(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | La métrica de la cual desee la media. |
+| *métrica* | La métrica de la cual desea la media. |
 
 ## Mediana (Tabla) {#concept_183EC31208524EDB8463D986DE2E895F}
 
-Devuelve la mediana de una métrica en una columna. La mediana es el número situado en el medio de un conjunto de números, es decir, la mitad de los números tienen un valor superior o igual a la mediana, y la otra mitad tienen un valor inferior o igual a esta.
+Devuelve la mediana de una métrica en una columna. La mediana es el número central de un conjunto de números; es decir, la mitad de los valores son mayores o iguales que la mediana y la mitad son menores o iguales que la mediana.
 
 ```
 MEDIAN(metric)
@@ -122,13 +122,13 @@ MEDIAN(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | La métrica de la cual desee la mediana. |
+| *métrica* | La métrica de la cual desea la mediana. |
 
 ## Módulo {#concept_DE0825D7A51643219CB01F59667EA352}
 
-El resto de col1 / col2, utilizando la división euclidiana.
+El resto de la columna 1/columna 2, utilizando la división euclídea.
 
-Devuelve el resto después de dividir x por y.
+Devuelve el resto tras dividir x entre y.
 
 ```
 x = floor(x/y) + modulo(x,y)
@@ -150,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## Percentil (Tabla) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-Devuelve el percentil k-th de los valores de una métrica. Puede utilizar esta función para establecer un umbral de aceptación. Por ejemplo, puede decidir si se examinan los elementos de la dimensión cuyo valor es superior al percentil 90.
+Devuelve el percentil k-ésimo de los valores de una métrica. Puede utilizar esta función para establecer un umbral de aceptación. Por ejemplo, puede decidir si se examinan los elementos de la dimensión cuyo valor es superior al percentil 90.
 
 ```
 PERCENTILE(metric,k)
@@ -170,14 +170,14 @@ PERCENTILE(metric,k)
   </tr> 
   <tr> 
    <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> El valor de percentil en el rango de 0 a 100, ambos incluidos. </td> 
+   <td colname="col2"> El valor en porcentaje dentro del rango de 0 a 100, ambos incluidos. </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Cuartil (Tabla) {#concept_BFD37F0F23A24AD181407142233FA151}
 
-Devuelve el cuartil de los valores de una métrica. Por ejemplo, los cuartiles se pueden usar para encontrar el 25 % de productos que genera más ingresos. MINV, MEDIAN y MAXV devuelven el mismo valor que QUARTILE cuando el cuarto es igual a 0 (cero), 2 y 4, respectivamente.
+Devuelve el cuartil de los valores de una métrica. Por ejemplo, los cuartiles se pueden utilizar para encontrar el primer 25 % de los productos que generan los mayores ingresos. MINV, MEDIAN y MAXV devuelven el mismo valor que QUARTILE cuando el cuartil es igual a 0 (cero), 2 y 4, respectivamente.
 
 ```
 QUARTILE(metric,quart)
@@ -193,20 +193,20 @@ QUARTILE(metric,quart)
  <tbody> 
   <tr> 
    <td colname="col1"> <i>métrica</i> </td> 
-   <td colname="col2"> La métrica de la cual desee el valor de cuartil. </td> 
+   <td colname="col2"> La métrica de la cual desea el valor de cuartil. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cuarto </p> </td> 
-   <td colname="col2"> Indica qué *valor devolver. </td> 
+   <td colname="col2"> Indica qué *valor debe devolver. </td> 
   </tr> 
  </tbody> 
 </table>
 
-*If *quart* = 0, QUARTILE returns the minimum value. Si *quart* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *quart* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *quart* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
+*Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *quart* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *quart* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *quart* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
 
 ## Ronda {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
-Devuelve el entero más próximo a un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe en los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula Round(*Ingresos*) para redondear al dólar más próximo o 569 $. Un sistema de informes de producto de $569.51 será redondeado al dólar más cercano, o $570.
+Devuelve el entero más próximo a un valor determinado. Por ejemplo, si desea evitar los decimales en una moneda de un informe en los ingresos y un producto tiene el valor de 569,34 $, utilice la fórmula Round(*Ingresos*) para redondear al dólar más próximo o 569 $. Un producto de 569,51 $ se redondeará al dólar más cercano o 570 $.
 
 ```
 ROUND(metric)
@@ -214,9 +214,9 @@ ROUND(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *entero* | La métrica que desee redondear. |
+| *número* | La métrica que desee redondear. |
 
-Redondear sin un parámetro de dígitos es lo mismo que redondear con un parámetro de dígitos de 0, lo cual se denomina redondear al entero más próximo. Con un parámetro de dígitos, devuelve este número de dígitos a la derecha del decimal. Si el parámetro de dígitos es negativo, devuelve ceros a la izquierda del decimal.
+Redondear sin un parámetro de dígito es lo mismo que redondear con un parámetro de dígito de 0, es decir, redondear al entero más próximo. Con un parámetro de dígito devuelve ese número de dígitos a la derecha del decimal. Si el dígito es negativo, devuelve ceros a la izquierda del decimal.
 
 ```
 round( 314.15, 0) = 314 
@@ -243,7 +243,7 @@ Suma de las columnas de cada fila.
 
 ## Raíz cuadrada (Fila) {#concept_6460DFA51EC24527A2317970FB76D404}
 
-Devuelve la raíz cuadrada positiva de un número. La raíz cuadrada de un número corresponde al valor de dicho número elevado a la potencia de 1/2.
+Devuelve la raíz cuadrada positiva de un número. La raíz cuadrada de un número es el valor de dicho número elevado a la potencia de 1/2.
 
 ```
 SQRT(metric)
@@ -251,17 +251,17 @@ SQRT(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *entero* | La métrica de la cual desee la raíz cuadrada. |
+| *número* | La métrica de la cual desea la raíz cuadrada. |
 
 ## Desviación estándar (Tabla) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
-Devuelve la desviación estándar, o raíz cuadrada de la varianza, en función de una población de datos de ejemplo.
+Devuelve la desviación estándar, o la raíz cuadrada de la varianza, de una recopilación de datos de muestra.
 
-La ecuación para STDEV es:
+La ecuación de STDEV es:
 
 ![](assets/std_dev.png)
 
-donde x es la media de la muestra (*métrica*) y *n* es el tamaño de la muestra.
+donde x es la media de muestra (*métrica*) y *n* es el tamaño de la muestra.
 
 ```
 STDEV(metric)
@@ -274,7 +274,7 @@ STDEV(metric)
    <td> <b> Descripción</b> </td> 
   </tr> 
   <tr> 
-   <td> <b> <i> métrica</i></b> </td> 
+   <td> <b> <i> métrica</i> </b> </td> 
    <td> <p> La métrica de la cual desee la desviación estándar. </p> </td> 
   </tr> 
  </tbody> 
@@ -282,9 +282,9 @@ STDEV(metric)
 
 ## Varianza (Tabla) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
-Devuelve la varianza en función de una población de datos de ejemplo.
+Devuelve la varianza de una recopilación de datos de muestra.
 
-La ecuación para VARIANCE es:
+La ecuación de VARIANCE es:
 
 ![](assets/variance_eq.png)
 
@@ -296,9 +296,9 @@ VARIANCE(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | La métrica de la cual desee la variación. |
+| *métrica* | La métrica de la cual desea la varianza. |
 
-Para calcular una varianza, observe toda una columna de números. A partir de esa lista de números, calcule primero el promedio. Una vez que tenga el promedio, vaya a través de cada entrada y haga lo siguiente:
+Para calcular una varianza para ver una columna entera de números. A partir de una lista de números, calcule primero el promedio. Cuando tenga el promedio, examine cada entrada y realice lo siguiente:
 
 1. Reste el promedio del número.
 
@@ -306,9 +306,9 @@ Para calcular una varianza, observe toda una columna de números. A partir de es
 
 3. Súmelo al total.
 
-Una vez que haya repetido toda la columna, tendrá un solo total. A continuación, divida ese total por el número de elementos de la columna. Ese número es la varianza de la columna. Es un solo número. Sin embargo, se muestra como una columna de números.
+Cuando repita la operación sobre toda la columna, obtendrá un único total. A continuación, divida el total entre el número de elementos de la columna. El número resultante es la varianza de la columna. Esta es un número único, aunque aparece como una columna de números.
 
-Por ejemplo, supongamos que tiene una columna de tres elementos:
+A modo de ejemplo, suponga que tiene una columna de tres elementos:
 
 1
 
@@ -316,7 +316,7 @@ Por ejemplo, supongamos que tiene una columna de tres elementos:
 
 3
 
-El promedio de esta columna es 2. La varianza de la columna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. En la Análisis ad hoc, este aspecto será el siguiente:
+El promedio de esta columna es 2. La varianza de la columna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. En Ad Hoc Analysis, tendrá el siguiente aspecto:
 
 1 2/3
 
