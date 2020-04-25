@@ -3,7 +3,7 @@ description: Muestra, por porcentajes y por cuenta total, la profundidad de cada
 title: Longitud de ruta
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
