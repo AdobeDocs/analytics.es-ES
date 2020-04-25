@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Resumen de los procesos de curado y del uso compartido
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,24 +18,24 @@ Una depuración le permite limitar los componentes antes de compartir un proyect
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos de proyectos]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Share]**> **[!UICONTROL Curate Project Data]**
 
 ## Depurar datos de proyectos
 
 1. Especifique el permiso para crear y depurar proyectos.
 
-   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarle a un [grupo](https://marketing.adobe.com/resources/help/es_ES/reference/groups.html) con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. ( **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]**).
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/es_ES/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).
 
-1. [Cree y guarde](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) un proyecto y, a continuación, haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos de proyectos]**.
-1. Arrastre los componentes que desea compartir de la pila de componentes arrastrables de la izquierda al campo **[!UICONTROL Componentes depurados]**.
+1. [Cree y guarde](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) un proyecto y, a continuación, haga clic en **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
+1. Drag components you want to share from the draggable component stack on the left to the **[!UICONTROL Curated Components]** field.
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >No es necesario depurar los componentes para compartir un proyecto. Puede compartir un proyecto con todos los componentes predeterminados disponibles o con los componentes seleccionados. Para conservar todos los componentes predeterminados en un proyecto, se recomienda crear una copia de un proyecto (con **[!UICONTROL Guardar como]**) antes de depurar los componentes. Una vez depurados los componentes de un proyecto, los demás componentes ya no están disponibles para ese proyecto.
+   >No es necesario depurar los componentes para compartir un proyecto. Puede compartir un proyecto con todos los componentes predeterminados disponibles o con los componentes seleccionados. To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. Una vez depurados los componentes de un proyecto, los demás componentes ya no están disponibles para ese proyecto.
 
-1. Haga clic en **[!UICONTROL Finalizado]**.
+1. Haga clic en **[!UICONTROL Done]**.
 
 El proyecto que se obtiene se comporta como un proyecto típico en Analysis Workspace, pero solo con los componentes especificados para elegir.
 
@@ -43,7 +43,7 @@ El proyecto que se obtiene se comporta como un proyecto típico en Analysis Work
 
 Al compartir hace que este proyecto esté disponible para otros usuarios de Analysis Workspace de su organización. Cualquier depuración que realice se verá reflejada cuando los demás usuarios utilicen el proyecto.
 
-1. Tras depurar los componentes de un informe, haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Compartir proyecto]**.
+1. After you curate the components of a report, click **[!UICONTROL Share]** > **[!UICONTROL Share Project]**.
 
    ![](assets/share_component.png)
 
@@ -60,7 +60,7 @@ Al compartir hace que este proyecto esté disponible para otros usuarios de Anal
    >
    >Esta configuración no se mantiene, se trata de una acción concreta usada en el momento de compartir.
 
-1. Haga clic en **[!UICONTROL Compartir]**.
+1. Haga clic en **[!UICONTROL Share]**.
 
 <!-- 
 
