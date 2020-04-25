@@ -1,9 +1,9 @@
 ---
 description: Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
-title: Los informes
+title: 'Los informes '
 topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -35,7 +35,7 @@ Los informes  de rutas incluyen informes exhaustivos estándar y de análisis av
 
 ![](assets/fallout_graphic.png)
 
-Consulte  [Informe de visitas en el orden previsto](/help/components/c-variables/dimensionslist/reports-fallout.md).
+Consulte [Informe de visitas en el orden previsto](/help/components/c-variables/dimensionslist/reports-fallout.md).
 
 **[!UICONTROL PathFinder]**: permite dividir las rutas completas en fragmentos, dando como resultado patrones precisos que contribuyen a optimizar su sitio. El asistente de Pathfinder permite especificar los criterios de selección que se utilizan para generar el informe. De este modo, se pueden analizar los fragmentos de la ruta y consultar los que comienzan o finalizan en una página determinada, o incluso los que comienzan en una página y finalizan en otra.
 
