@@ -3,7 +3,7 @@ description: Definiciones de los informes predefinidos disponibles en Reports & 
 title: Descripciones de dimensiones
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
