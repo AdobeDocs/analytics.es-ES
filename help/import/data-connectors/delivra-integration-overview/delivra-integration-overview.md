@@ -2,7 +2,7 @@
 description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con el marketing por correo electrónico de Delivra para crear una herramienta potente para redefinir la medición de éxito y las audiencias de destino con mensajes más relevantes.
 title: Data Connectors de Delivra para Adobe Analytics
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
