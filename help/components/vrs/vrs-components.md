@@ -1,5 +1,5 @@
 ---
-description: Los grupos de informes virtuales se pueden depurar para incluir y excluir componentes en Análisis Workspace.
+description: Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan componentes en Analysis Workspace.
 title: Revisión de componentes de grupo de informes virtuales
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
@@ -10,16 +10,16 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Revisión de componentes de grupo de informes virtuales
 
-Los grupos de informes virtuales se pueden depurar para incluir y excluir componentes en Análisis Workspace.
+Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan componentes en Analysis Workspace.
 
->[!NOTE]Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. Anteriormente, cualquiera podía ver los componentes no depurados haciendo clic en **[!UICONTROL Show all Components]**. The [updated curation experience](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/curate-projects-vrs.html) allows for more fine-grained control over which components are visible.
+>[!NOTE]Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. Anteriormente, cualquiera podía ver los componentes no organizados al hacer clic en **[!UICONTROL Mostrar todos los componentes]**. La [experiencia actualizada de organización](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/curate-projects-vrs.html) permite un control más detallado sobre qué componentes son visibles.
 
 Para habilitar la revisión de componentes,
 
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
-1. Después de definir el **[!UICONTROL Settings]**, haga clic en la **[!UICONTROL Components]** ficha.
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]** > **[!UICONTROL Crear nuevo grupo de informes virtuales]**.
+1. Tras definir la **[!UICONTROL Configuración]**, haga clic en la ficha **[!UICONTROL Componentes]**.
 
-1. Seleccione la casilla de verificación **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
+1. Seleccione la casilla de verificación **[!UICONTROL Habilitar la personalización de componentes del grupo de informes virtuales]**:
 
    ![](assets/vrs-enable.png)
 
@@ -27,12 +27,12 @@ Para habilitar la revisión de componentes,
    >
    >Si la personalización de componentes está habilitada, el grupo de informes virtuales **solo es accesible desde Analysis Workspace** y, por lo tanto, no lo es desde:
 
-   * [!UICONTROL Reports & Analytics]
-   * [!UICONTROL Ad Hoc Analysis]
+   * [!UICONTROL Reports &amp; Analytics]
+   * [!UICONTROL Ad Hoc Analysis ]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * API de informes de Analytics
-   Una vez marcados, puede agregar los componentes que desee incluir en el grupo de informes virtuales arrastrando los componentes aplicables de la columna &quot;componentes excluidos&quot; a la columna &quot;componentes incluidos&quot;. Los componentes que se pueden incluir y excluir son:
+   Una vez comprobado, puede agregar los componentes que desee incluir en el grupo de informes virtuales arrastrando los componentes aplicables de la columna “componentes excluidos” a la columna “componentes incluidos”. Los componentes que se pueden incluir y excluir son los siguientes:
 
    * Dimensiones
    * Métricas
@@ -42,23 +42,23 @@ Para habilitar la revisión de componentes,
    >
    >No es necesario *compartir* componentes depurados (segmentos, métricas calculadas, intervalos de fechas). Siempre serán visibles en Analysis Workspace si se depuran para el grupo de informes virtuales aunque no se hayan compartido.
 
-1. Additionally, you can filter or search the components and add the entire filtered selection to the included column by clicking **[!UICONTROL Add All]**.
+1. Además, puede filtrar o buscar en los componentes y añadir la selección filtrada entera a la columna “incluido” haciendo clic en **[!UICONTROL Añadir todo]**.
 
    ![](assets/vrs-add-all.png)
 
 ## Cambiar el nombre de los componentes {#section_0F7CD9F684FE4765BC00A2AFED56550E}
 
-Puede cambiar los nombres para mostrar de los componentes incluidos específicos del grupo de informes virtuales. Por ejemplo, si desea incluir Nombre de página en el grupo de informes virtuales pero desea cambiarle el nombre por un contexto más móvil, puede cambiarlo a App Screens. El nuevo nombre se muestra en Espacio de trabajo de Análisis cada vez que se utiliza este grupo de informes virtuales.
+Puede cambiar el nombre de los componentes incluidos específicos del grupo de informes virtuales. Por ejemplo, si quiere incluir Nombre de página en el grupo de informes virtuales, pero quiere cambiarle el nombre a otro más apropiado para el contexto móvil, puede cambiarlo a App Screens. El nuevo nombre se muestra en Analysis Workspace cada vez que se utiliza este grupo de informes virtuales.
 
 ![](assets/vrs-rename-component.png)
 
-En Espacio de trabajo de Análisis, haga clic en el icono de información de cualquier componente incluido para mostrar el nombre original del componente cuyo nombre ha cambiado:
+En Analysis Workspace, haga clic en el icono de información de cualquier componente incluido para ver el nombre original del componente cuyo nombre ha cambiado:
 
 ![](assets/vrs-aw-renamed.png)
 
 ## Grupos de componentes  {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
-Utilice grupos de componentes para realizar adiciones masivas de componentes al grupo de informes virtuales. Por ejemplo, si desea importar un conjunto predeterminado de componentes específicos de la análisis de aplicaciones móviles, seleccione el grupo de aplicaciones móviles. Se agrega automáticamente un conjunto correspondiente de dimensiones y métricas (ya se ha cambiado el nombre) al grupo de informes virtuales lista incluida.
+Use grupos de componentes para realizar agregaciones masivas de componentes a su grupo de informes virtuales. Por ejemplo, si desea importar un conjunto predeterminado de componentes específicos del análisis de aplicaciones móviles, seleccione el grupo de aplicaciones móviles. Un conjunto correspondiente de dimensiones y métricas (con el nombre ya cambiado) se añade automáticamente a la lista Incluidos del grupo de informes virtuales.
 
 ![](assets/vrs-comp-grp.png)
 
