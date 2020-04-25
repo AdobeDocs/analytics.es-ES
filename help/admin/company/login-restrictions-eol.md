@@ -1,7 +1,7 @@
 ---
 title: Fin de vida útil para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
 description: Obtenga información sobre la finalización de la vida útil y las implicaciones para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
