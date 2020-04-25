@@ -3,7 +3,7 @@ description: Información general sobre los datos que recopila Adobe Analytics y
 keywords: privacy
 title: Resumen de privacidad
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
