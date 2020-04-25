@@ -2,7 +2,7 @@
 description: Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Adobe Analytics® con el marketing por correo electrónico para crear una completa herramienta que permite redefinir la medición de éxito y las audiencias de destino con mensajes más relevantes.
 title: Data Connectors de Neolane Ozon para Adobe Analytics
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
