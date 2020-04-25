@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics Admin Guide
+user-guide-title: Guía de administración de Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
