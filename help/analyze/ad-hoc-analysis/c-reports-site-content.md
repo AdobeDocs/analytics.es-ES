@@ -1,8 +1,8 @@
 ---
 description: Muestran información sobre las páginas y áreas del sitio más activas y sobre los servidores que más se utilizan.
-title: Informes  de contenido del sitio
+title: Informes de contenido del sitio
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -27,6 +27,6 @@ Muestran información sobre las páginas y áreas del sitio más activas y sobre
 **Vínculos**: Muestra los vínculos donde los visitantes hacen clic en el sitio Web, incluso los vínculos donde se hace clic para abandonar el sitio o los vínculos de descarga.
 
 * **Vínculos de salida**: Muestra los vínculos en los que hizo clic el usuario para abandonar el sitio web. Incluye los vínculos a sitios web de afiliados o socios.
-* **Descargas de archivos**: Muestra los archivos que se descargaron del sitio web. Estos archivos pueden ser cualquier tipo de documento que desee rastrear, incluso manuales para el usuario, presentaciones, archivos de audio o vídeo. Este informe requiere que se instale el código de seguimiento del vínculo en el sitio que esté rastreando. Si desea obtener más información, consulte la *Guía de implementación de Analytics*.
+* **Descargas de archivos**: muestra los archivos que se descargaron del sitio web. Estos archivos pueden ser cualquier tipo de documento que desee rastrear, incluso manuales para el usuario, presentaciones, archivos de audio o vídeo. Este informe requiere que se instale el código de seguimiento del vínculo en el sitio que esté rastreando. Si desea obtener más información, consulte la *Guía de implementación de Analytics*.
 * **[!UICONTROL Vínculos personalizados]**: Muestra los vínculos que los visitantes prefieren en el sitio, y permiten comprender mejor los patrones de navegación dentro del mismo. Por ejemplo, es probable que la página de inicio del sitio tenga un gran número de vínculos que conducen a la misma página. Tal vez haya dos vínculos, uno gráfico y otro de texto, que lleven a la misma página. Este informe muestra el porcentaje de visitantes que utilizó el vínculo gráfico comparado con el que utilizó el de texto. Los vínculos personalizados son específicos de su sitio web. Aquellos vínculos de los que le interese hacer un seguimiento se deberán modificar con etiquetas especiales. Para obtener ayuda, póngase en contacto con [!DNL ClientCare].
 
