@@ -2,7 +2,7 @@
 description: Cambios y mejoras en la opción Deshacer de Analysis Workspace.
 title: Configuración de Deshacer y Rehacer
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Configuración de Deshacer y Rehacer
 
-**[!UICONTROL Workspace]** > **[!UICONTROL Proyecto]** > **[!UICONTROL Deshacer/Rehacer]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Undo/Redo]**
 
-* La opción **[!UICONTROL Rehacer]** (para rehacer tras deshacer) se encuentra en el menú **[!UICONTROL Edición]**.
+* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu.
 
-* Hacer clic en **[!UICONTROL Guardar]** no borra la pila **[!UICONTROL Deshacer]**.
+* Al hacer clic **[!UICONTROL Save]** no se borra la **[!UICONTROL Undo]** pila.
 
-* **[!UICONTROL Nuevo proyecto]** o **[!UICONTROL Abrir proyecto existente]** sí borran la pila **[!UICONTROL Deshacer]**.
+* **[!UICONTROL New Project]** o **[!UICONTROL Open Existing Project]** borrar la **[!UICONTROL Undo]** pila
 
 * Puede deshacer y rehacer los cambios realizados en el conjunto de informes.
 * Se muestra un mensaje deshacer/rehacer cerca del nombre del proyecto para indicar cuándo se está deshaciendo o rehaciendo una acción.
