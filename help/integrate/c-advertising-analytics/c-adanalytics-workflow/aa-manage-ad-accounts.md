@@ -2,7 +2,7 @@
 description: nulo
 title: Administrar las cuentas publicitarias
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
