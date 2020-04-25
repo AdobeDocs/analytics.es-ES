@@ -3,7 +3,7 @@ description: Los segmentos le permiten identificar subconjuntos de visitantes ba
 title: Acerca de los segmentos y los contenedores
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -110,7 +110,7 @@ Los contenedores de visitas individuales incluyen valores basados en el desglose
 
 **Contenedor de grupo lógico**
 
-El contenedor de grupo lógico le permite proporcionar un contenedor separado dentro de las reglas de segmento para filtrar entidades no basadas en jerarquía. Por ejemplo, es posible que necesite proporcionar un contenedor anidado dentro del segmento que filtra en función del visitante. Este tipo de lógica requiere interrumpir la jerarquía (puesto que usted ya tiene un contenedor de visitante de nivel superior) para filtrar únicamente para visitantes seleccionados. Puede hacerse con el contenedor de grupo lógico. Consulte  [Ejemplos de grupos lógicos](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) para obtener más información.
+El contenedor de grupo lógico le permite proporcionar un contenedor separado dentro de las reglas de segmento para filtrar entidades no basadas en jerarquía. Por ejemplo, es posible que necesite proporcionar un contenedor anidado dentro del segmento que filtra en función del visitante. Este tipo de lógica requiere interrumpir la jerarquía (puesto que usted ya tiene un contenedor de visitante de nivel superior) para filtrar únicamente para visitantes seleccionados. Puede hacerse con el contenedor de grupo lógico. Consulte [Ejemplos de grupos lógicos](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) para obtener más información.
 
 ## Anidado de contenedores {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -126,7 +126,7 @@ Puede utilizar el anidado entre contenedores, así como entre las reglas dentro 
 |---|---|
 | Visita individual | Solo eventos |
 | Visita | Contenedor de visita individual, eventos |
-| Visitante | Contenedor de visita, contenedor de visita individual, eventos |
+| Visitante. | Contenedor de visita, contenedor de visita individual, eventos |
 | grupo lógico | Contenedor de visitante, contenedor de visita, contenedor de visita individual |
 
 **Incluir varios contenedores dentro de una sola definición**
@@ -151,7 +151,7 @@ La segmentación secuencial emplea los mismos contenedores básicos, incluidos e
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL Visitantes] constituye el contenedor de orden superior en la segmentación secuencial, con [!UICONTROL visitas] contenidas dentro del contenedor de [!UICONTROL visitantes] y [!UICONTROL visitas individuales] contenidas dentro de los contenedores de [!UICONTROL visitantes] o [!UICONTROL visitas]. Esta  [jerarquía de contenedores](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) debe mantenerse para generar segmentos secuenciales bien ordenados.
+[!UICONTROL Visitantes] constituye el contenedor de orden superior en la segmentación secuencial, con [!UICONTROL visitas] contenidas dentro del contenedor de [!UICONTROL visitantes] y [!UICONTROL visitas individuales] contenidas dentro de los contenedores de [!UICONTROL visitantes] o [!UICONTROL visitas]. Esta [jerarquía de contenedores](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70) debe mantenerse para generar segmentos secuenciales bien ordenados.
 
 **Para generar segmentos secuenciales**, se anidan los contenedores y se une la lógica secuencial usando el operador [!UICONTROL THEN], que requiere que cada contenedor sea verdadero en función de la secuencia del visitante.
 
