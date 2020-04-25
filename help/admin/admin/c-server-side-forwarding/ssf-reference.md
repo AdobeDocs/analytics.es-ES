@@ -2,7 +2,7 @@
 description: Una lista exhaustiva con descripciones de las variables de configuración, los encabezados HTTP y las señales de datos en las llamadas de reenvío del lado del servidor.
 title: Referencia de datos y código del reenvío del lado del servidor
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
