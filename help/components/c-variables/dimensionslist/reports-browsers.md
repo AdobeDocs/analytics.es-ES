@@ -3,7 +3,7 @@ description: Proporciona una lista de versiones de exploradores usados para visi
 title: Explorador
 topic: Reports
 uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
