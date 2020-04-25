@@ -20,13 +20,13 @@ Migre usuarios del sistema de administración de usuarios de Analytics heredado 
 
 **Para migrar usuarios de Analytics:**
 
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Migración de ID de usuario]**.
 
    ![](assets/migration-progress.png)
 
-   La página Migración de ID de usuario tiene dos secciones: Progreso ** de la migración e información *del usuario*.
+   La página Migración de ID de usuario tiene dos secciones: *Progreso de migración* e *Información de usuario*.
 
-   **Progreso de la migración**
+   **Progreso de migración**
 
    <table id="table_F9F1CFF762C745E198CB075A02BA2DDA"> 
    <thead> 
@@ -38,18 +38,18 @@ Migre usuarios del sistema de administración de usuarios de Analytics heredado 
    <tbody> 
    <tr> 
       <td colname="col1"> <p>Migraciones completadas </p> </td> 
-      <td colname="col2"> <p>Los usuarios aceptaron la invitación. </p> </td> 
+      <td colname="col2"> <p>Los usuarios han aceptado la invitación. </p> </td> 
    </tr> 
    <tr> 
-      <td colname="col1"> <p>Inicio de sesión heredado deshabilitado </p> </td> 
-      <td colname="col2"> <p>El inicio de sesión heredado con un ID de compañía está desactivado. Los usuarios ahora accederán a Experience Cloud con su Adobe ID o Enterprise ID. Cuando todos los usuarios hayan llegado a esta fase, habrá completado la migración. </p> <p>En la migración, el inicio de sesión heredado está desactivado. Los usuarios son redirigidos a <span class="filepath"> experiencecloud.adobe.com</span> y deben iniciar sesión con el Adobe ID o Enterprise ID. </p> </td> 
+      <td colname="col1"> <p>Inicio de sesión heredado desactivado </p> </td> 
+      <td colname="col2"> <p>El inicio de sesión heredado que utiliza un ID de empresa se ha desactivado. Ahora, los usuarios accederán a Experience Cloud mediante el Adobe ID o Enterprise ID. Cuando todos los usuarios hayan llegado a esta fase, habrá completado la migración. </p> <p>En la migración, el inicio de sesión heredado está desactivado. Los usuarios son redirigidos a <span class="filepath"> experiencecloud.adobe.com</span> y deben iniciar sesión con el Adobe ID o Enterprise ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
-   **Información del usuario**
+   **Información de usuario**
 
-   Información del usuario describe los usuarios de la organización, separados por el nombre de dominio.
+   Información de usuario muestra a los usuarios de la organización separados por nombre de dominio.
 
    <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
    <thead> 
@@ -61,7 +61,7 @@ Migre usuarios del sistema de administración de usuarios de Analytics heredado 
    <tbody> 
    <tr> 
       <td colname="col1"> <p>Dominio </p> </td> 
-      <td colname="col2"> <p>Los dominios son específicos de los ID de correo electrónico de la base de usuarios actual de Analytics. Un dominio solo lo puede reivindicar una única organización, y son los administradores del sistema los únicos que pueden hacerlo. Para obtener más información, consulte <a href="https://helpx.adobe.com/es/enterprise/help/request-access-to-claimed-domain.html">Solicitar acceso a un dominio reivindicado</a>. </p> </td> 
+      <td colname="col2"> <p>Los dominios son específicos de los ID de correo electrónico de la base de usuarios de Analytics actual. Un dominio solo lo puede reivindicar una única organización, y son los administradores del sistema los únicos que pueden hacerlo. Para obtener más información, consulte <a href="https://helpx.adobe.com/es/enterprise/help/request-access-to-claimed-domain.html">Solicitar acceso a un dominio reivindicado</a>. </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>Dominio reclamado </p> </td> 
@@ -70,10 +70,10 @@ Migre usuarios del sistema de administración de usuarios de Analytics heredado 
    </tbody> 
    </table>
 
-1. Locate the domain containing the user IDs you want to migrate, then, under **[!UICONTROL Requiring Migration]**, click **[!UICONTROL Select Users]**.
-1. On the [!DNL Users] page, select the users you want to migrate, then click **[!UICONTROL Migrate]**.
+1. Busque el dominio que contiene los ID de usuario que desea migrar y a continuación, en **[!UICONTROL Requiere migración]**, haga clic en **[!UICONTROL Seleccionar usuarios]**.
+1. En la página [!DNL Users], seleccione aquellos que desea migrar y, a continuación, haga clic en **[!UICONTROL Migrar]**.
 
-   When you click **[!UICONTROL Migrate]**, users receive an invitation (Migration Initiated) and must accept it. Esta acción mueve el ID de usuario a Migración completada. Entonces puede desactivar su acceso heredado a `[!DNL my.omniture.com].`
+   Al hacer clic en **[!UICONTROL Migrar]**, los usuarios reciben una invitación (migración iniciada) que deben aceptar. Esta acción mueve el ID de usuario a Migración completada. Entonces puede desactivar su acceso heredado a `[!DNL my.omniture.com].`
 
    ![](assets/user-info.png)
 
