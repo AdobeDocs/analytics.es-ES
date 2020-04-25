@@ -2,7 +2,7 @@
 description: 'null'
 title: Solución de problemas de segmentación
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
