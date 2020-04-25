@@ -17,15 +17,15 @@ Después de crear un informe de cohorte, puede depurar sus componentes (dimensio
 
 Ejemplos de lo que puede hacer con el análisis de cohorte:
 
-* Inicie campañas diseñadas para estimular una acción deseada.
-* Cambiar el presupuesto de mercadotecnia en el momento exacto del ciclo de vida del cliente.
-* Reconocer cuándo finalizar una prueba o una oferta para maximizar el valor.
-* Obtenga ideas para pruebas A/B en áreas como precios, rutas de actualización, etc.
-* Vista de un informe de Análisis de cohorte dentro de un informe de Análisis guiada.
+* Iniciar campañas diseñadas para generar una acción deseada.
+* Modificar el presupuesto de mercadotecnia en el momento justo del ciclo de vida del cliente.
+* Reconocer cuándo finalizar una prueba o una oferta, para maximizar el valor.
+* Obtener ideas para pruebas A/B en áreas como precios, ruta de actualización, etc.
+* Ver un informe de análisis de cohorte dentro de un informe de análisis guiado.
 
-La Análisis de cohorte está disponible para todos los clientes de Analytics con derechos de acceso a Espacio de trabajo de Análisis.
+El análisis de cohorte está disponible para todos los clientes de Analytics con derechos de acceso a Analysis Workspace.
 
-[Análisis de cohorte en YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
+[Análisis de cohorte en YouTube](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ La Análisis de cohorte está disponible para todos los clientes de Analytics co
 
 ## Capacidades del análisis de cohorte
 
-En enero de 2019, Adobe lanzó una versión nueva y considerablemente mejorada del análisis de cohorte. Permite un control mucho más preciso sobre las cohortes que se construyen. Estas son las mejoras destacadas:
+En enero de 2019, Adobe lanzó una versión nueva y considerablemente mejorada del análisis de cohorte. Ofrece un control mucho más preciso de las cohortes que genera. Estas son las mejoras destacadas:
 
 ### Tabla de retención
 
@@ -55,13 +55,13 @@ Permite calcular la retención o la pérdida en función de la columna previa, n
 
 ### Tabla de latencia
 
-Mide el tiempo transcurrido antes y después de que se produjo el evento de inclusión. Esta es una excelente herramienta para la análisis previa/posterior. La columna &quot;Incluido&quot; se encuentra en el centro de la tabla y los períodos de tiempo anteriores y posteriores al evento de inclusión se muestran en ambas caras.
+Mide el tiempo transcurrido antes y después de ocurrir el evento de inclusión. Es una excelente herramienta para el análisis previo/posterior. La columna &quot;Incluido&quot; está en el centro de la tabla y a ambos lados se muestran los periodos de tiempo antes y después del evento de inclusión.
 
 ![](assets/cohort-latency.png)
 
 ### Cohorte de dimensión personalizada
 
-Cree cohortes basadas en una dimensión seleccionada y no en cohortes basadas en el tiempo, que son las predeterminadas. Utilice dimensiones como canal de marketing, campaña, producto, página, región o cualquier otra dimensión en Adobe Analytics para mostrar cómo cambia la retención en función de los diferentes valores de estas dimensiones.
+Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es el comportamiento predeterminado. Utilice dimensiones como canal de marketing, campaña, producto, página, región o cualquier otra dimensión de Adobe Analytics para mostrar cómo cambia la retención en función de los distintos valores que adoptan.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
