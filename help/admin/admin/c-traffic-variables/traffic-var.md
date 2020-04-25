@@ -15,4 +15,4 @@ Las variables (o props) de tráfico de perspectiva personalizada permiten correl
 
 Desde la página [!UICONTROL Variables de tráfico], puede activar y desactivar los informes de variables de tráfico, y cambiares el nombre. Si se desactiva el informe de una variable de tráfico, desaparecerá de la interfaz de usuario.
 
-Consulte también [prop](../../../implement/vars/page-vars/prop.md) en la Guía del usuario de implementación.
+Consulte also [prop](../../../implement/vars/page-vars/prop.md) in the Implement user guide.
