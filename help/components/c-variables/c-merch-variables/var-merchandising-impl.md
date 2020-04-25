@@ -3,7 +3,7 @@ description: Describe cómo habilitar e implementar una variable de comercializa
 keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 title: Implementación de una variable de comercialización
 topic: Developer and implementation
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
