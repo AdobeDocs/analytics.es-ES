@@ -10,23 +10,23 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Referencia: funciones avanzadas
 
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en la lista desplegable **[!UICONTROL Funciones]**.
 
 ## Funciones de tabla en comparación con funciones de fila {#section_8977BE40A47E4ED79EB543A9703A4905}
 
-Una función de tabla es aquella en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es aquella en la que el resultado es diferente para cada fila de la tabla.
+Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
 
 ## ¿Qué significa el parámetro Include-Zeros?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
-Indica si se deben incluir ceros en el cálculo. A veces cero significa &quot;nada&quot;, pero a veces es importante.
+Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa &quot;nada&quot;, pero en ocasiones es importante.
 
-Por ejemplo: si tiene una métrica Ingresos y luego agrega una métrica Vistas de página al informe, repentinamente hay más filas para los ingresos que son todas cero. Probablemente no quiera que esto afecte a ningún MEAN, MIN, QUARTILE, etc. cálculos que tiene en la columna de ingresos. En este caso, comprobaría el parámetro include-zeros.
+Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métrica Vistas de página al informe, de repente hay más filas para sus ingresos todas con valor de cero. Probablemente no desea que esto afecte a ningún valor MEAN, MIN, QUARTILE, etc. los cálculos que tiene en la columna de ingresos. En este caso, debería marcar el parámetro para incluir ceros.
 
-Por otro lado, si tiene dos métricas en las que le interesa, puede que no sea justo decir que una tiene una media o un mínimo más altos porque algunas de sus filas eran ceros, por lo que no debería comprobar el parámetro para incluir los ceros.
+Por otra parte, si tiene dos métricas en las que está interesado, puede que no sea justo afirmar que una tiene una media superior o mínima porque algunas de sus filas eran ceros, por lo que no debería marcar el parámetro para incluir ceros.
 
 ## Y {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
-Devuelve el valor de su argumento. Utilice NO para asegurarse de que un valor no es igual a un valor en particular.
+Devuelve el valor de su argumento. Utilice NO para asegurarse de que un valor no es igual a un valor en concreto.
 
 >[!NOTE] 0 (cero) significa Falso y cualquier otro valor es Verdadero.
 
@@ -36,12 +36,12 @@ AND(logical_test1,[logical_test2],...)
 
 | Argumento | Descripción |
 |---|---|
-| *logical_test1* | Obligatorio. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
-| *logical_test2* | Opcional. Condiciones adicionales que desea evaluar como VERDADERO o FALSO |
+| *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO |
 
 ## Número aproximado de elementos distintos (dimensión) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Devuelve el número aproximado de elementos distintos para la dimensión seleccionada. La función utiliza el método HyperLogLog (HLL) para aproximar distintos recuentos.  Está configurada para garantizar que el valor se encuentre en el 5 % del 95 % del valor actual del tiempo.
+Devuelve el número aproximado de elementos distintos de dimensiones para la dimensión seleccionada. Esta función usa el método HyperLogLog (HLL) de números aproximados de elementos distintos.  Está configurada para garantizar que el valor se encuentre en el 5 % del 95 % del valor actual del tiempo.
 
 ```
 Approximate Count Distinct (dimension)
@@ -49,7 +49,7 @@ Approximate Count Distinct (dimension)
 
 | Argumento |  |
 |---|---|
-| *dimensión* | Dimensión para la que desea el recuento de elementos definido aproximado. |
+| *dimensión* | Dimensión de la que se quiere obtener el número aproximado de elementos distintos. |
 
 ## Caso práctico de ejemplo  {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
@@ -65,17 +65,17 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ## Se excedió la cantidad de valores exclusivos  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Al igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a límites [de](https://marketing.adobe.com/resources/help/es_ES/reference/metrics_uniques_high_numbers.html)&quot;valores exclusivos excedidos&quot;. Si se alcanza el límite de &quot;valores exclusivos excedidos&quot; en un mes concreto para una dimensión, el valor se cuenta como 1 elemento de dimensión.
+Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://marketing.adobe.com/resources/help/es_ES/reference/metrics_uniques_high_numbers.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
 ## Comparación de funciones de recuento  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
-Approximate Count Distinct() es una mejora con respecto a las funciones Count() y RowCount() porque la métrica creada puede utilizarse en cualquier informe dimensional para representar un recuento aproximado de elementos para una dimensión independiente. Por ejemplo, un recuento de los ID de cliente utilizados en un informe de tipo de dispositivo móvil.
+La función Approximate Count Distinct() es una mejora de las funciones Count() y RowCount() porque la métrica que se crea puede usarse en cualquier informe dimensional para representar un número aproximado de elementos para una dimensión distinta. Por ejemplo, un recuento de los ID de cliente que se usan en un informe sobre tipos de dispositivos móviles.
 
-Esta función será ligeramente menos precisa que Count() y RowCount() porque utiliza el método HLL, mientras que Count() y RowCount() son recuentos exactos.
+Esta función será ligeramente menos precisa que Count() y RowCount() porque usa el método HLL, mientras que Count() y RowCount() son recuentos exactos.
 
 ## Arcocoseno (Fila) {#concept_1DA3404F3DDE4C6BAF3DBDD655D79C7B}
 
-Devuelve el arco coseno, o la inversa del coseno, de una métrica. El arco coseno es el ángulo cuyo coseno es el número. El ángulo devuelto se indica en radianes en el intervalo de 0 (cero) a pi. Si quiere convertir el resultado de radianes a grados, debe multiplicarlo por 180/pi( ).
+Devuelve el arcocoseno o la inversa del coseno de una métrica. El arcocoseno es el ángulo cuyo coseno es un número. El ángulo devuelto se da en radianes dentro del rango de 0 (cero) a pi. Si desea convertir el resultado de radianes a grados, multiplíquelo por 180/PI( ).
 
 ```
 ACOS(metric)
@@ -83,11 +83,11 @@ ACOS(metric)
 
 | Argumento |  |
 |---|---|
-| *métrica* | El coseno del ángulo que quiera de -1 a 1. |
+| *métrica* | El coseno del ángulo que desee desde -1 a 1. |
 
 ## Arcoseno (Fila) {#concept_90F00DEC46BA47F8A21493647D9668CD}
 
-Devuelve el arco seno, o seno inverso, de un número. El arco seno es el ángulo cuyo seno es el número. El ángulo devuelto se indica en radianes en el intervalo de -pi/2 a pi/2. Para expresar el arco seno en grados, hay que multiplicar el resultado por 180/pi( ).
+Devuelve el arcoseno o la inversa del seno de un número. El arcoseno es el ángulo cuyo seno es un número. El ángulo devuelto se da en radianes dentro del rango de -pi/2 a pi/2. Para expresar el arcoseno en grados, multiplique el resultado por 180/PI( ).
 
 ```
 ASIN(metric) 
@@ -95,11 +95,11 @@ ASIN(metric)
 
 | Argumento |  |
 |---|---|
-| *métrica* | El coseno del ángulo que quiera de -1 a 1. |
+| *métrica* | El coseno del ángulo que desee desde -1 a 1. |
 
 ## Arcotangente (Fila) {#concept_3408520673774A10998E9BD8B909E90C}
 
-Devuelve el arco tangente, o tangente inversa, de un número. El arco tangente es el ángulo cuya tangente es el número. El ángulo devuelto se indica en radianes en el intervalo de -pi/2 a pi/2. Para expresar el arco tangente en grados, hay que multiplicar el resultado por 180/pi( ).
+Devuelve el arcotangente o la inversa de la tangente de un número. El arcotangente es el ángulo cuya tangente es un número. El ángulo devuelto se da en radianes dentro del rango de -pi/2 a pi/2. Para expresar el arcotangente en grados, multiplique el resultado por 180/PI( ).
 
 ```
 ATAN(metric)
@@ -107,7 +107,7 @@ ATAN(metric)
 
 | Argumento |  |
 |---|---|
-| *métrica* | El coseno del ángulo que quiera de -1 a 1. |
+| *métrica* | El coseno del ángulo que desee desde -1 a 1. |
 
 ## Regresión exponencial: Y predicha (Fila) {#concept_25615693312B4A7AB09A2921083502AD}
 
@@ -119,8 +119,8 @@ ESTIMATE.EXP(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
@@ -161,7 +161,7 @@ CEILING(metric)
 
 ## Coseno (Fila) {#concept_DD07AA1FB08145DC89B69D704545FD0A}
 
-Devuelve el coseno del ángulo proporcionado. Si el ángulo se expresa en grados, multiplíquelo por pi( )/180.
+Devuelve el coseno de un ángulo determinado. Si el ángulo es en grados, multiplique el ángulo por PI( )/180.
 
 ```
 COS(metric)
@@ -169,11 +169,11 @@ COS(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | El ángulo en radianes del cual desee el coseno. |
+| *métrica* | El ángulo en radianes del cual desea el coseno. |
 
 ## Raíz cúbica {#concept_BD93EFA45DF7447A8F839E1CA5B5F795}
 
-Devuelve la raíz cúbica positiva de un número. La raíz cúbica de un número corresponde al valor de dicho número elevado a la potencia de 1/3.
+Devuelve la raíz cúbica positiva de un número. La raíz cúbica de un número es el valor de dicho número elevado a la potencia de 1/3.
 
 ```
 CBRT(metric)
@@ -181,13 +181,13 @@ CBRT(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | La métrica de la cual desee la raíz cúbica. |
+| *métrica* | La métrica de la cual desea la raíz cúbica. |
 
 ## Acumulativo {#concept_3D3347797B6344CE88B394C3E39318ED}
 
-Devuelve la suma de x para las últimas N filas (según el orden de la dimensión, mediante valores hash para campos basados en cadenas).
+Devuelve la suma de X para las últimas N filas (según lo solicite la dimensión, utilizando valores hash para los campos basados en cadenas).
 
-Si N &lt;= 0, utiliza todas las filas anteriores. Dado que se ordena por la dimensión, solo es útil en dimensiones que tienen un orden natural, como la fecha o la longitud de ruta.
+Si N &lt;= 0 utiliza todas las filas anteriores. Como se ordena por la dimensión, solo resulta útil en dimensiones que tienen un orden natural como la fecha o la longitud de ruta.
 
 ```
 | Date | Rev  | cumul(0,Rev) | cumul(2,Rev) | 
@@ -200,9 +200,9 @@ Si N &lt;= 0, utiliza todas las filas anteriores. Dado que se ordena por la dime
 
 ## Media acumulada {#concept_ABB650962DC64FD58A79C305282D3E61}
 
-Devuelve el promedio de las últimas N filas.
+Devuelve la media de las últimas N filas.
 
-Si N &lt;= 0, utiliza todas las filas anteriores. Dado que se ordena por la dimensión, solo es útil en dimensiones que tienen un orden natural, como la fecha o la longitud de ruta.
+Si N &lt;= 0 utiliza todas las filas anteriores. Como se ordena por la dimensión, solo resulta útil en dimensiones que tienen un orden natural como la fecha o la longitud de ruta.
 
 >[!NOTE] Esto no funcionará de la forma esperada con métricas de tasa, tales como ingresos o visitantes. Calcula la media de las tasas, en lugar de sumar los ingresos y los visitantes del último N y después dividirlos. En su lugar utilice
 
@@ -224,8 +224,8 @@ CORREL.EXP(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
-| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
+| *metric_X* | Una métrica que le gustaría correlacionar con *metric_Y*. |
+| *metric_Y* | Una métrica que le gustaría correlacionar con *metric_X*. |
 
 ## Regresión exponencial: intersección (Tabla) {#concept_0047206C827841AD936A3BE58EEE1514}
 
@@ -237,8 +237,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Regresión exponencial: pendiente (Tabla) {#concept_230991B0371E44308C52853EFA656F04}
 
@@ -250,8 +250,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Suelo (Fila) {#concept_D368150EC3684077B284EE471463FC31}
 
@@ -283,7 +283,7 @@ COSH(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | El ángulo en radianes del cual desee encontrar el coseno hiperbólico. |
+| *métrica* | El ángulo en radianes del cual desea encontrar el coseno hiperbólico. |
 
 ## Seno hiperbólico (Fila) {#concept_96230731600C45E3A4E823FE155ABA85}
 
@@ -295,7 +295,7 @@ SINH(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | El ángulo en radianes del cual desee encontrar el seno hiperbólico. |
+| *métrica* | El ángulo en radianes del cual desea encontrar el seno hiperbólico. |
 
 ## Tangente hiperbólica (Fila) {#concept_BD249013732F462B9863629D142BCA6A}
 
@@ -311,7 +311,7 @@ TANH(metric)
 
 ## IF (Fila) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
-La función IF devuelve un valor si una condición especificada se evalúa como VERDADERO y otro valor si esa condición se evalúa como FALSO.
+La función IF devuelve un valor si una condición que haya especificada se evalúa como VERDADERO y otro valor si esa condición se evalúa como FALSO.
 
 ```
 IF(logical_test, [value_if_true], [value_if_false])
@@ -319,9 +319,9 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | Argumento | Descripción |
 |---|---|
-| *logical_test* | Obligatorio. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
-| *[value_if_true]* | The value that you want to be returned if the *logical_test* argument evaluates to TRUE. (This argument defaults to 0 if not included.) |
-| *[value_if_false]* | The value that you want to be returned if the *logical_test* argument evaluates to FALSE. (This argument defaults to 0 if not included.) |
+| *logical_test* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
+| *[value_if_true]* | El valor que desea que sea devuelto si el argumento *logical_test* se evalúa como VERDADERO. (Este argumento es 0 de forma predeterminada si no se incluye). |
+| *[value_if_false]* | El valor que desea que sea devuelto si el argumento *logical_test* se evalúa como FALSO. (Este argumento es 0 de forma predeterminada si no se incluye). |
 
 ## Menor que {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
 
@@ -349,7 +349,7 @@ Y = a X + b. Devuelve a.
 
 ## Logaritmo decimal (Fila) {#concept_4C65DF9659164261BE52AA5A95FD6BC1}
 
-Devuelve el logaritmo en base 10 de un número.
+Devuelve el logaritmo decimal de un número.
 
 ```
 LOG10(metric)
@@ -357,7 +357,7 @@ LOG10(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | El número real positivo del que desee el logaritmo en base 10. |
+| *métrica* | El número real positivo del cual desea el logaritmo decimal. |
 
 ## Regresión logarítmica: coeficiente de correlación (Tabla) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
@@ -369,8 +369,8 @@ CORREL.LOG(metric_X,metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
-| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
+| *metric_X* | Una métrica que le gustaría correlacionar con *metric_Y*. |
+| *metric_Y* | Una métrica que le gustaría correlacionar con *metric_X*. |
 
 ## Regresión logarítmica: intersección (Tabla) {#concept_75A3282EDF54417897063DC26D4FA363}
 
@@ -382,8 +382,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Regresión de registro: Y predicha (fila) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
@@ -397,8 +397,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Regresión logarítmica: pendiente (Tabla) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
@@ -410,12 +410,12 @@ SLOPE.LOG(metric_A, metric_B)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_A* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_B* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_A* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_B* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Logaritmo natural {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
-Returns the natural logarithm of a number. Natural logarithms are based on the constant *e* (2.71828182845904). LN is the inverse of the EXP function.
+Devuelve el logaritmo natural de un número. Los logaritmos naturales se basan en la constante *e* (2,71828182845904). El logaritmo natural es la inversa de la función exponencial.
 
 ```
 LN(metric)
@@ -423,7 +423,7 @@ LN(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | El número real positivo del que desee el logaritmo en natural. |
+| *métrica* | El número real positivo del cual desea el logaritmo natural. |
 
 ## NO {#concept_BD954C455A8148A3904A301EC4DC821E}
 
@@ -435,9 +435,9 @@ NOT(logical)
 
 | Argumento | Descripción |
 |---|---|
-| *lógica* | Obligatorio. Un valor o expresión que puede evaluarse como VERDADERO o FALSO. |
+| *lógico* | Requerido. Un valor o expresión que puede evaluarse como VERDADERO o FALSO. |
 
-El uso de NO requiere saber si las expresiones (&lt;, >, =, &lt;>, etc.) devuelve valores 0 o 1.
+Si utiliza NO, es necesario conocer si las expresiones (&lt;, >, =, &lt;> , etc.) devuelven valores 0 o 1.
 
 ## Distinto a {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -455,8 +455,8 @@ OR(logical_test1,[logical_test2],...)
 
 | Argumento | Descripción |
 |---|---|
-| *logical_test1* | Obligatorio. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
-| *logical_test2* | Opcional. Condiciones adicionales que desea evaluar como VERDADERO o FALSO |
+| *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
@@ -478,8 +478,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
-| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
+| *metric_X* | Una métrica que le gustaría correlacionar con *metric_Y*. |
+| *metric_Y* | Una métrica que le gustaría correlacionar con *metric_X*. |
 
 ## Regresión potencial: intersección (Tabla) {#concept_7781C85597D64D578E19B212BDD1764F}
 
@@ -491,8 +491,8 @@ Devuelve la intersección, *b*, entre dos columnas de métricas (*metric_X* y *m
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Regresión potencial: Y predicha (Fila) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
@@ -504,8 +504,8 @@ Calcula los valores [!DNL y] predichos ([!DNL metric_Y]), dados los valores [!DN
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Regresión potencial: pendiente (Tabla) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
@@ -517,8 +517,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Regresión cuadrática: coeficiente de correlación (Tabla) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
@@ -530,8 +530,8 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
-| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
+| *metric_X* | Una métrica que le gustaría correlacionar con *metric_Y*. |
+| *metric_Y* | Una métrica que le gustaría correlacionar con *metric_X*. |
 
 ## Regresión cuadrática: intersección (Tabla) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
@@ -543,8 +543,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Regresión cuadrática: Y predicha (Fila) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
@@ -556,8 +556,8 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_A* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_B* | Una métrica que le gustaría designar como dato dependiente. |
+| *metric_A* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_B* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión cuadrática: pendiente (Tabla) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
@@ -569,8 +569,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Regresión recíproca: coeficiente de correlación (Tabla) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
@@ -582,8 +582,8 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | A metric that you would like to correlate with *metric_Y*. |
-| *metric_Y* | A metric that you would like to correlate with *metric_X*. |
+| *metric_X* | Una métrica que le gustaría correlacionar con *metric_Y*. |
+| *metric_Y* | Una métrica que le gustaría correlacionar con *metric_X*. |
 
 ## Regresión recíproca: intersección (Tabla) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
@@ -595,8 +595,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Regresión recíproca: Y predicha (Fila) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
@@ -608,8 +608,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Regresión recíproca: pendiente (Tabla) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
@@ -621,12 +621,12 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como dato dependiente. |
-| *metric_Y* | Una métrica que le gustaría designar como dato independiente. |
+| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
 
 ## Seno (Fila) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
-Devuelve el seno del ángulo proporcionado. Si el ángulo se expresa en grados, multiplíquelo por pi( )/180.
+Devuelve el seno de un ángulo determinado. Si el ángulo es en grados, multiplique el ángulo por PI( )/180.
 
 ```
 SIN(metric)
@@ -634,7 +634,7 @@ SIN(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | El ángulo en radianes del cual desee el seno. |
+| *métrica* | El ángulo en radianes del cual desea el seno. |
 
 ## Unidad tipificada {#concept_80D2B4CED3D0426896B2412B4FC73BF7}
 
@@ -650,7 +650,7 @@ Aquí, `m` es la cantidad de colas y `n`, los grados de la libertad. Estos deben
 
 `X` es la estadística t-test y es normalmente una fórmula (por ejemplo, zscore) basada en una métrica y se evaluará en cada fila.
 
-El valor devuelto es la probabilidad de ver la estadística de prueba x dados los grados de libertad y el número de colas.
+El valor de retorno es la probabilidad de ver la estadística test x dados los grados de libertad y el número de colas.
 
 **Ejemplos:**
 
@@ -668,7 +668,7 @@ El valor devuelto es la probabilidad de ver la estadística de prueba x dados lo
 
 ## Tangente {#concept_C25E00CB17054263AB0460D9EF94A700}
 
-Devuelve la tangente del ángulo proporcionado. Si el ángulo se expresa en grados, multiplíquelo por pi( )/180.
+Devuelve la tangente de un ángulo determinado. Si el ángulo es en grados, multiplique el ángulo por PI( )/180.
 
 ```
 TAN (metric)
@@ -676,13 +676,13 @@ TAN (metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | El ángulo en radianes del cual desee la tangente. |
+| *métrica* | El ángulo en radianes del cual desea la tangente. |
 
 ## Variable estandarizada (Fila) {#concept_96BEAC79476C49B899DB7E193A5E7ADD}
 
-Devuelve la variable estandarizada, o puntuación normal, según una distribución normal. La variable estandarizada es el número de desviaciones estándar que una observación representa con respecto a la media. Una puntuación Z de 0 (cero) significa que la puntuación es la misma que la media. Una variable estandarizada puede ser positiva o negativa, indicando si está por encima o por debajo de la media y cuántas desviaciones estándar.
+Devuelve la variable estandarizada, o una puntuación normal, basada en una distribución normal. La variable estandarizada es el número de desviaciones estándar a las que se encuentra una observación con respecto a la media. Una variable estandarizada de 0 (cero) significa que la puntuación es la misma que la media. Una variable estandarizada puede ser positiva o negativa, lo cual indica si está por encima o por debajo de la media y a cuantas desviaciones estándar.
 
-La ecuación de la variable estandarizada es:
+La ecuación de variable estandarizada es:
 
 ![](assets/z_score.png)
 
@@ -702,16 +702,16 @@ Puntuación Z(métrica)
  <tbody> 
   <tr> 
    <td colname="col1"> <i>métrica</i> </td> 
-   <td colname="col2"> <p> Devuelve el valor de su primer argumento distinto a cero. </p> </td> 
+   <td colname="col2"> <p> Devuelve el valor del primer argumento distinto a cero. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Prueba Z {#concept_2A4ADD6B3AEB4A2E8465F527FAFC4C23}
 
-Realiza una prueba Z n-personalizada con la puntuación Z de A.
+Realiza una prueba Z con una distribución n con una variable estandarizada de A.
 
-Devuelve la probabilidad de que la fila actual se pueda ver por casualidad en la columna.
+Devuelve la probabilidad de que la fila actual pueda verse por casualidad en la columna.
 
 >[!NOTE] Asume que los valores se distribuyen de forma normal.
 
