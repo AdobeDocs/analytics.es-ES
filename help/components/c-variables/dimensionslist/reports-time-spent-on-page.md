@@ -2,7 +2,7 @@
 description: Muestra la cantidad de tiempo que los visitantes emplearon en la página.
 title: Tiempo invertido en la página
 topic: Reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
