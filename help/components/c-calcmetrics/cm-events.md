@@ -14,14 +14,14 @@ Si los datos [se ven afectados por un evento](/help/technotes/event-impacted.md)
 >[!NOTE] Estos pasos funcionan mejor cuando se comprende el impacto de un evento, tanto desde una perspectiva de segmentación como de comparación de fechas. Asegúrese de seguir [Comparar fechas afectadas por un evento con intervalos](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) anteriores y [Excluir fechas específicas en análisis](../c-segmentation/use-cases/exclude-date-range.md) antes de seguir esta página.
 
 1. Cree dos segmentos para &#39;Días afectados&#39; y &#39;Excluir días afectados&#39;, tal como se describe en [Excluir fechas específicas en la análisis](../c-segmentation/use-cases/exclude-date-range.md).
-2. Vaya a **[!UICONTROL Components]** > **[!UICONTROL Calculated metrics]**.
-3. Haga clic en **[!UICONTROL Add]**.
+2. Vaya a **[!UICONTROL Componentes]** > Métricas **** calculadas.
+3. Haga clic en **[!UICONTROL Agregar]**.
 4. Arrastre los dos segmentos anteriores al lienzo de definición. Cambie el operador entre ellos a un `+` para sumarlos.
 5. Añada la métrica deseada dentro de ambos segmentos. Por ejemplo, puede utilizar la métrica &quot;Visitas&quot;.
 
    ![Generador de segmentos](assets/event_segment_builder.png)
 
-6. Haga clic **[!UICONTROL Add]** en en la parte superior derecha del contenedor &#39;Días afectados&#39; y luego haga clic en **[!UICONTROL Static number]**. Establezca el número estático en el porcentaje que desea desplazar los datos, como se describe en [Comparar fechas afectadas por un evento con intervalos](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)anteriores. En este ejemplo, el desplazamiento es 25 % o 1,25.
+6. Haga clic en **[!UICONTROL Añadir]** en la parte superior derecha del contenedor &#39;Días afectados&#39; y, a continuación, haga clic en Número **** estático. Establezca el número estático en el porcentaje que desea desplazar los datos, como se describe en [Comparar fechas afectadas por un evento con intervalos](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)anteriores. En este ejemplo, el desplazamiento es 25 % o 1,25.
 
    ![Número estático](assets/event_static_number.png)
 
