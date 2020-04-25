@@ -1,7 +1,7 @@
 ---
 description: Esta sección contiene conceptos clave de Adobe Analytics, una breve descripción del concepto y un vínculo a documentación específica con información adicional sobre el tema.
 title: 'Adobe Analytics: conceptos clave'
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,7 +13,7 @@ Esta sección contiene conceptos clave de Adobe Analytics, una breve descripció
 
 ## Herramientas de Analytics {#concept_833EDD4EB056491DA1BC5A3A45FE285B}
 
-| Producto | Descripción | Vínculo de documentación |
+| Product | Descripción | Vínculo de documentación |
 |--- |--- |--- |
 | Analysis Workspace | Solución de navegador para crear proyectos de análisis sólidos y personalizados y democratizar las perspectivas. Ofrece una mayor flexibilidad para los informes que Reports &amp; Analytics. | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html) |
 | Reports &amp; Analytics (anteriormente SiteCatalyst) | Solución de navegador para informes y análisis. Herramienta inicial en el paquete de Analytics. | [Inicio de Reports &amp; Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/reports-analytics/getting-started.translate.html) |
@@ -46,7 +46,7 @@ Haga clic [aquí](https://docs.adobe.com/content/help/es-ES/analytics/technotes/
 
 ## Informes clave
 
-| Informe | Descripción | Vínculo de documentación |
+| Información general de la tienda de aplicaciones | Descripción | Vínculo de documentación |
 |--- |--- |--- |
 | Lista completa de informes y dimensiones | Definición de todos los informes y dimensiones disponibles en Adobe Analytics. | [Dimensiones](https://marketing.adobe.com/resources/help/es_ES/reference/reports_descriptions.html) |
 | Advertising Analytics | Analice todos los datos de búsqueda pagada de Google y Bing uno al lado del otro, dentro de Adobe Analytics. Las dimensiones creadas mediante la integración incluyen la plataforma de publicidad, palabras clave, el tipo de coincidencia, etc. Las métricas creadas son Impresiones de AMO, Clics de AMO, Coste de AMO, Promedio. Posición y promedio media de AMO. | [Advertising Analytics](https://docs.adobe.com/help/es-ES/analytics/integration/advertising-analytics/overview.html) |
