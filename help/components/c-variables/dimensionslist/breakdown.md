@@ -3,7 +3,7 @@ description: Cuando un determinado segmento de un informe que está generando es
 title: Desglosar
 topic: Reports
 uuid: 0f2c8c37-f46e-4d6c-9ac2-eace48e8708f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
