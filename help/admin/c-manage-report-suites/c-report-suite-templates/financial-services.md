@@ -3,7 +3,7 @@ description: Define la configuración común de bancos y otras instituciones que
 title: Servicios financieros
 topic: Admin tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
