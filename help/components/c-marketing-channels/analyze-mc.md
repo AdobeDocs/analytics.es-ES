@@ -1,33 +1,33 @@
 ---
-title: Analizar canales de mercadotecnia
-description: Obtenga información sobre cómo utilizar las dimensiones de los canales de mercadotecnia en Workspace.
+title: Analizar Canales de mercadotecnia
+description: Obtenga información sobre cómo utilizar las dimensiones de Canales de marketing en Workspace.
 translation-type: tm+mt
 source-git-commit: 57f1f7d11c13fb11ea12404e9a98fad955e48d9b
 
 ---
 
 
-# Analizar canales de mercadotecnia
+# Analizar Canales de mercadotecnia
 
-Probablemente quiera saber cuál de los canales de mercadotecnia es el más efectivo y con quién, para que pueda dirigir mejor sus esfuerzos y recibir un mejor retorno en los dólares de mercadotecnia. En Adobe Analytics, las dimensiones y métricas de los canales de marketing en Workspace son una de las herramientas que pueden ayudarle a realizar un seguimiento de la influencia de los distintos canales en sus pedidos, ingresos, etc. y le proporciona perspectivas de canal útiles. Estas son las dimensiones y métricas que puede utilizar relacionadas con los canales de mercadotecnia:
+Probablemente quiera saber cuál de sus canales de mercadotecnia es el más efectivo y con quién, para que pueda realizar un mejor destinatario de sus esfuerzos y recibir un mejor retorno en los dólares de mercadotecnia. En Adobe Analytics, las dimensiones y métricas de Canales de marketing en Workspace son una de las herramientas que pueden ayudarle a realizar un seguimiento de la influencia de diferentes canales en sus pedidos, ingresos, etc. y le proporciona información útil sobre el canal. Estas son las dimensiones y métricas que puede utilizar relacionadas con los Canales de mercadotecnia:
 
 ![](assets/mc-dims.png)
 
 | Dimensión/Métrica | Definición |
 |---|---|
-| Canal de marketing | Ésta es la dimensión Canales de mercadotecnia que recomendamos utilizar. Los modelos de IQ de atribución se pueden aplicar en tiempo de ejecución. La dimensión Canales de mercadotecnia genéricos se comporta de forma idéntica a las dimensiones del Canal de último toque, pero tiene una etiqueta diferente para evitar confusiones al utilizarla con un modelo de atribución diferente. |
+| Canal de marketing | Ésta es la dimensión de Canales de marketing que recomendamos utilizar. Los modelos de IQ de atribución se pueden aplicar en tiempo de ejecución. La dimensión genérica de Canales de marketing se comporta de forma idéntica a las dimensiones de Canal de último toque, pero tiene una etiqueta diferente para evitar confusiones al utilizarla con un modelo de atribución diferente. |
 | Canal de último toque | Dimensión heredada, con modelo de atribución preaplicado e inmodificable. |
 | Canal de primer toque | Dimensión heredada, con modelo de atribución preaplicado e inmodificable. |
-| Instancias de canal de marketing | Esta métrica... |
+| Instancias de Canal de mercadotecnia | Esta métrica... |
 | Nuevos compromisos | Se trata de una métrica heredada que se incrementa únicamente cuando se le ha aplicado una asignación de &quot;primer toque&quot; a un canal. |
 
 ## Análisis básico
 
-Esta tabla improvisada muestra las métricas Pedidos en línea, Ingresos en línea y Tasa de conversión para cada uno de los canales de mercadotecnia:
+Esta tabla improvisada muestra las métricas Pedidos en línea, Ingresos en línea y la Tasa de conversión de cada uno de los Canales de mercadotecnia:
 
 ![](assets/mc-viz1.png)
 
-Aquí puede ver los pedidos en línea e ingresos en línea de cada canal de mercadotecnia en un gráfico circular:
+Aquí puede ver los pedidos en línea e ingresos en línea de cada Canal de mercadotecnia en un gráfico circular:
 
 ![](assets/mc-viz2.png)
 
@@ -35,9 +35,9 @@ Este gráfico de líneas muestra las tendencias de los pedidos en línea de vari
 
 ![](assets/mc-viz3.png)
 
-## Análisis avanzado
+## análisis avanzada
 
-Los detalles de los canales de mercadotecnia se insertan más profundamente en cada canal para mostrar campañas, colocaciones, etc. específicas. Puede desglosar cada canal de mercadotecnia en detalles:
+Los detalles de Canales de marketing se insertan más profundamente en cada canal para mostrar campañas, colocaciones, etc. específicas. Puede desglosar cada Canal de mercadotecnia en detalles:
 
 ![](assets/mc-viz4.png)
 
@@ -51,10 +51,10 @@ Observe cómo la misma métrica (Pedidos en línea) genera resultados diferentes
 
 Aquí hay algunos videos que explican el CI de atribución con más detalle: Lista de reproducción [de IQ de atribución](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR).
 
-## Análisis de marketing entre fichas
+## análisis de mercadotecnia entre fichas
 
-Con el canal de primer toque heredado y el canal de último toque, puede obtener una vista útil de las interacciones de canal:
+Con el Canal de primer toque heredado y el Canal de último toque, puede obtener una vista útil en las interacciones de canal:
 
 ![](assets/mc-viz6.png)
 
-Obtenga más información sobre el análisis de marketing entre fichas en [este vídeo](https://www.youtube.com/watch?v=M3EOdONa-3E).
+Obtenga más información sobre la análisis de marketing entre fichas en [este vídeo](https://www.youtube.com/watch?v=M3EOdONa-3E).
