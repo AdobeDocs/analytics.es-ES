@@ -12,10 +12,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 A cada ID al que desee permitir búsquedas se le asigna un área de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
 
-La cadena del área de nombres se emplea para identificar los campos en los que desea buscar al proporcionar un ID como parte de una solicitud de privacidad de datos. Cuando se envía una solicitud de privacidad de datos, la solicitud incluirá una sección de JSON en la que se especifican los ID de los interesados que se utilizarán para la solicitud. Se pueden incluir varios ID como parte de una sola solicitud para un interesado. El JSON incluye:
+La cadena del área de nombres se emplea para identificar los campos en los que desea buscar al proporcionar un ID como parte de una solicitud de privacidad de datos. Cuando se envía una solicitud de privacidad de datos, la solicitud incluirá una sección de JSON en la que se especifican los ID de los interesados que se utilizarán para la solicitud. Se pueden incluir varios ID como parte de una sola solicitud para un interesado. En el JSON se incluye lo siguiente:
 
 * Un campo “namespace” que contiene la cadena del área de nombres.
-* Un campo &quot;type&quot; que para la mayoría de las solicitudes de Adobe Analytics contiene el valor &quot;analytics&quot;.
+* Un campo “type” que, en la mayoría de las solicitudes de Adobe Analytics, contiene el valor “analytics”.
 * Un campo “value” que contiene el ID que Analytics debería buscar en las variables de área de nombres asociadas de cada uno de sus grupos de informes.
 
 Consulte la [documentación de la API de privacidad de datos de Experience Cloud](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) para obtener más información.
@@ -32,7 +32,7 @@ Antigua cookie de rastreo de Analytics, también conocida como ID de Adobe Analy
 }
 ```
 
-El valor debe especificarse como dos números hexadecimales separados por un guión. Todos los dígitos hexadecimales que son caracteres alfabéticos deben especificarse con mayúsculas. Los valores hexadecimales no deben tener ceros al inicio (observe la diferencia con respecto al mismo valor especificado en el formulario desaprobado, donde se requieren ceros al inicio).
+El valor debe especificarse como dos números hexadecimales separados por una raya. Todos los dígitos hexadecimales que sean caracteres alfabéticos deben especificarse en mayúsculas. Los valores hexadecimales no deben contener ceros a la izquierda (nótese la diferencia respecto a cuando se especificaba el mismo valor en la forma obsoleta, donde los ceros a la izquierda eran necesarios).
 
 También puede utilizar `"namespaceId": 10` en lugar de o además de `"namespace": "AAID"` y es posible que vea otros productos de Adobe usar ese formulario.
 
@@ -48,7 +48,7 @@ También puede utilizar `"namespaceId": 10` en lugar de o además de `"namespace
 
 Forma obsoleta:
 
-El valor debe especificarse como dos números hexadecimales de 16 dígitos o como dos números decimales de 19 dígitos. Los números deben separarse con un guión, un guión bajo o dos puntos. Si alguno de los números no tiene dígitos suficientes, es necesario añadir ceros a la izquierda.
+El valor debe especificarse como dos números hexadecimales de 16 dígitos o como dos números decimales de 19 dígitos. Los números deben separarse con una raya, una raya baja o dos puntos. Si alguno de los números no tiene dígitos suficientes, es necesario añadir ceros a la izquierda.
 
 ## Cookie del servicio de identidad
 
