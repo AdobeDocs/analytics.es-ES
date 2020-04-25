@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: Definir un evento con una variable de datos de contexto
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
