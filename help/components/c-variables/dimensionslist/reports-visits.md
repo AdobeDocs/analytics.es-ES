@@ -3,7 +3,7 @@ description: Muestra la cantidad de visitas realizadas al sitio web durante un p
 title: Visitas
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,19 +21,19 @@ Muestra la cantidad de visitas realizadas al sitio web durante un período deter
 * El inicio de una visita se produce en la primera solicitud de imagen procedente de un visitante nuevo, o después de que la visita del usuario existente haya caducado. Es lo que se identifica como página de entrada.
 * El final de una visita es la última solicitud de imagen antes de que la visita caduque. Es lo que se identifica como página de salida.
 
-   Consulte  [Informes de entradas y salidas](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
+   Consulte [Informes de entradas y salidas](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * Los desgloses por hora se basan en el huso horario del grupo de informes.
 * Este informe no contiene elementos de línea. Solo se puede ver en formato de tendencias.
 * Se puede aplicar una granularidad de hora, día, semana, mes, trimestre y año. Estas configuraciones de granularidad están disponibles en función del intervalo de fechas de los informes.
 
-Consulte  [Métrica de visitas](/help/components/c-variables/c-metrics/metrics-visit.md) para obtener más información sobre el modo en el que Experience Cloud procesa esta métrica.
+Consulte [Métrica de visitas](/help/components/c-variables/c-metrics/metrics-visit.md) para obtener más información sobre el modo en el que Experience Cloud procesa esta métrica.
 
 **Información del informe específica de productos**
 
 <table id="table_3138CA443CAC4F55838216E8B8786EE2"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Producto </th> 
+   <th colname="col1" class="entry"> Product </th> 
    <th colname="col2" class="entry"> Navegación </th> 
   </tr> 
  </thead>
