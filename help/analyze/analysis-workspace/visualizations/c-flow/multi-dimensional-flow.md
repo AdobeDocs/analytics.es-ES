@@ -2,7 +2,7 @@
 description: Un flujo interdimensional le permite examinar las rutas del usuario entre diversas dimensiones.
 title: Flujos interdimensionales
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -20,7 +20,7 @@ Observaremos dos casos de uso: un caso de uso de aplicación y un caso de uso we
 
 ## Caso de uso uno: app {#section_3D31D37B9C9F4134AE46C96291E41294}
 
-La dimensión [!UICONTROL Nombre de la acción] se ha añadido al flujo, donde el principal elemento devuelto es [!UICONTROL ItemAdded]:
+The [!UICONTROL Action Name] dimension was added to the flow, with the top returned item being [!UICONTROL ItemAdded]:
 
 ![](assets/multi-dimensional-flow.png)
 
