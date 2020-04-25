@@ -3,7 +3,7 @@ description: Descripción de los tipos de informes usados en Experience Cloud.
 title: Tipos de informes
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -218,7 +218,7 @@ Haga clic con el botón derecho en un cilindro para editarlo o eliminarlo.
 
 | Opción | Descripción |
 |--- |--- |
-| Editar | Permite agregar o quitar páginas en un cilindro. |
+| Editar  | Permite agregar o quitar páginas en un cilindro. |
 | Eliminar | Permite quitar un cilindro. |
 | Informes | Permite iniciar otro informe desde el cilindro. |
 | Guardar gráfico como | Permite guardar el gráfico como un archivo .jpg o .png. Si cambia los controles del gráfico (ángulo, tamaño del gráfico) antes de guardarlo, estos cambios se mantendrán en la salida. |
