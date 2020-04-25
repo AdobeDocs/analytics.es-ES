@@ -2,7 +2,7 @@
 description: Con el seguimiento se determina cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
 title: 'Seguimiento: Modo manual y modo automático'
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
