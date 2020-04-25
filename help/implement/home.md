@@ -1,7 +1,7 @@
 ---
 title: Implementación de Adobe Analytics
 description: Implemente Adobe Analytics en su sitio, propiedad o aplicación.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
