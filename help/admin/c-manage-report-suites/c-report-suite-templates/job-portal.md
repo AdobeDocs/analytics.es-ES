@@ -3,7 +3,7 @@ description: Define la configuración común de un portal de trabajo o sitio Web
 title: Portal de trabajo
 topic: Admin tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
