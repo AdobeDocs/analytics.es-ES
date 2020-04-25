@@ -4,7 +4,7 @@ keywords: DFA
 title: Reconciliación de discrepancias de métricas
 topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
