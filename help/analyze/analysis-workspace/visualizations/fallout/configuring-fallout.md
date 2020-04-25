@@ -10,13 +10,13 @@ source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
 
 # Configurar una visualización de abandonos
 
-Puede especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional. Normalmente, un punto de contacto es una página del sitio. Sin embargo, los puntos de contacto no se limitan a las páginas. Por ejemplo, puede agregar eventos, como unidades, así como visitantes únicos y visitas de retorno. También puede agregar dimensiones, como una categoría, un tipo de explorador o un término de búsqueda interna.
+Puede especificar los puntos de contacto para crear una secuencia de visitas en el orden previsto multidimensional. Normalmente, un punto de contacto es una página de su sitio web. Sin embargo, los puntos de contacto no están limitados a páginas. Por ejemplo, puede añadir eventos, como unidades, así como visitantes únicos y visitas de retorno. También puede añadir dimensiones, como categoría, tipo de navegador o término de búsqueda interno.
 
-Incluso puede agregar segmentos dentro de un punto de contacto. Por ejemplo, es posible que desee comparar segmentos, como usuarios de iOS y Android. Arrastre los segmentos deseados a la parte superior de la visita en el orden previsto y la información sobre dichos segmentos se agregará al informe de visitas en el orden previsto. Si desea mostrar solo esos segmentos, puede eliminar la línea de base Todas las visitas.
+Incluso puede añadir segmentos dentro de un punto de contacto. Por ejemplo, es posible que desee comparar segmentos como los usuarios de iOS y Android. Arrastre los segmentos deseados sobre las visitas en el orden previsto y la información sobre esos segmentos se añadirá al informe de visitas en el orden previsto. Si desea mostrar únicamente esos segmentos, puede eliminar la línea de base de Todas las visitas.
 
-No hay limitación en el número de pasos que puede agregar o en el número de dimensiones utilizadas.
+No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
 
-Puede realizar rutas en las eVars, incluidas las eVars de comercialización y las [listVars](https://marketing.adobe.com/resources/help/es_ES/sc/implement/listN.html) (variables que pueden tener varios valores por visita, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos de zapatos será camiseta y calcetines, NO camisa.
+Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://marketing.adobe.com/resources/help/es_ES/sc/implement/listN.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
 1. Arrastre una [!UICONTROL Fallout] visualización de la lista desplegable Visualizaciones a una [!UICONTROL Freeform Table].
 
@@ -26,11 +26,11 @@ Puede realizar rutas en las eVars, incluidas las eVars de comercialización y la
 
    Pase el ratón sobre un punto de contacto para ver si las visitas en el orden previsto y otra información sobre ese nivel, como el nombre del punto de contacto o el recuento de visitantes en ese punto y consulte el índice de éxito para ese punto de contacto (además de comparar el índice de éxito con otros puntos de contacto).
 
-   Los números en círculos de la parte gris de la barra muestran la visita en el orden previsto entre puntos de contacto (no la visita en el orden previsto general hasta ese punto). El porcentaje de touchpoint muestra la visita en el orden previsto exitosa desde el paso anterior al paso actual en el informe de visitas en el orden previsto.
+   Los números dentro de un círculo en la parte gris de la barra muestran la visita en el orden previsto entre puntos de contacto (no la visita en el orden previsto total hasta ese punto). El porcentaje de puntos de contacto muestra la visita en orden imprevisto desde el paso anterior al actual en el informe de visita en el orden previsto.
 
-   También puede agregar una sola página al informe de visitas en el orden previsto, en lugar de toda la dimensión. Haga clic en la flecha derecha &quot;>&quot; en la dimensión de página para elegir la página específica que agregar al informe de visitas en el orden previsto.
+   También puede agregar una única página al informe de visitas en el orden previsto, en vez de toda la dimensión. Haga clic en la flecha derecha “>” en la dimensión de página para elegir la página específica que desea agregar al informe de visitas en el orden previsto.
 
-1. Continúe agregando puntos de contacto hasta que se complete la secuencia.
+1. Siga añadiendo puntos de contacto hasta que la secuencia se haya completado.
 
    Puede **combinar varios puntos de contacto** arrastrando uno o varios más a un punto de contacto.
 
@@ -40,19 +40,19 @@ Puede realizar rutas en las eVars, incluidas las eVars de comercialización y la
 
    ![](assets/multiple_obj_touchpoint.png)
 
-1. You can also **constrain individual touchpoints to the next hit** (as opposed to &quot;eventually&quot;) within the path. Debajo de cada punto de contacto, hay un selector con las opciones &quot;Ruta eventual&quot; y &quot;Siguiente visita individual&quot;, como se muestra aquí:
+1. También puede **limitar puntos de contacto individuales a la siguiente visita** (en vez de hacerlo de forma eventual) dentro de la ruta. Debajo de cada punto de contacto, hay un selector con las opciones “Ruta eventual” y “Elemento siguiente”, como se muestra a continuación:
 
    ![](assets/next-hit-eventually.png)
 
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Ruta eventual </p> <p>(Predeterminado) </p> </td> 
-   <td colname="col2"> <p>Se cuentan los Visitantes que "eventualmente" aterrizarán en la página siguiente de la ruta, pero no necesariamente en la siguiente visita. </p> </td> 
+   <td colname="col1"> <p>Ruta eventual </p> <p>(Valor predeterminado) </p> </td> 
+   <td colname="col2"> <p>Se cuentan los visitantes que “eventualmente” se dirijan a la siguiente página de la ruta, pero no necesariamente al siguiente elemento. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Siguiente visita individual </p> </td> 
-   <td colname="col2"> <p>Se cuentan los Visitantes que aterrizarán en la siguiente página de la ruta en la siguiente visita. </p> </td> 
+   <td colname="col1"> <p>Elemento siguiente </p> </td> 
+   <td colname="col2"> <p>Se cuentan los visitantes que se dirijan a la siguiente página de la ruta del elemento que aparece inmediatamente después. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -68,9 +68,9 @@ Al hacer **clic con el botón derecho en un punto de contacto**, se muestran las
 
 | Opción | Descripción |
 |--- |--- |
-| Tendencia del punto de contacto | Consulte los datos de tendencia de un punto de contacto en un gráfico de líneas, con algunos datos de detección de anomalías previamente compilados. |
-| Tendencia del punto de contacto (%) | Tendencia del porcentaje total de visitas en el orden previsto. |
-| Tendencia de todos los puntos de contacto (%) | Alcanza la tendencia de todos los porcentajes de puntos de contacto en las visitas en el orden previsto (excepto &quot;Todas las visitas&quot;, si se incluye) en el mismo gráfico. |
-| Desglosar visitas en el orden previsto en este punto de contacto | Vista qué visitantes hicieron entre dos puntos de contacto (este punto de contacto y el siguiente) si continuaron hasta el siguiente punto de contacto. Esto crea una tabla improvisada que muestra las dimensiones. Puede reemplazar dimensiones y otros elementos de la tabla. |
-| Desglosar visitas en el orden previsto en este punto de contacto | Vista lo que las personas que no llegaron a través del canal hicieron inmediatamente después del paso seleccionado. |
-| Crear segmento a partir de touchpoint | Cree un nuevo segmento a partir del punto de contacto seleccionado. |
+| Tendencia del punto de contacto | Consulte los datos de tendencia para un punto de contacto en un gráfico de líneas en el cual se hayan incorporado previamente algunos datos de detección de anomalías. |
+| Tendencia del punto de contacto (%) | Realiza la tendencia del porcentaje total de visitas en el orden previsto. |
+| Tendencia de todos los puntos de contacto (%) | Realiza la tendencia de todos los porcentajes de puntos de contacto en las visitas en el orden previsto (excepto “Todas las visitas”, si se incluye) en el mismo gráfico. |
+| Desglosar visitas en el orden previsto en este punto de contacto | Vista qué visitantes hicieron entre dos puntos de contacto (este punto de contacto y el siguiente) si continuaron hasta el siguiente punto de contacto. Así se crea una tabla improvisada que muestra sus dimensiones. Puede sustituir las dimensiones y otros elementos de la tabla. |
+| Desglosar visitas en el orden previsto en este punto de contacto | Vea qué han hecho las personas que no han seguido el embudo inmediatamente tras el paso seleccionado. |
+| Crear segmento a partir de touchpoint | Cree un nuevo segmento a partir de un punto de contacto seleccionado. |
