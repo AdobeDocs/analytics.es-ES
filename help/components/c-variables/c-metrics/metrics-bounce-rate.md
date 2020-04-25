@@ -17,8 +17,8 @@ La tasa de salida hacia otro sitio utiliza la métrica  [Devoluciones](/help/com
 
 `Bounces divided by Entries`
 
-La tasa de devoluciones no incluye las visitas en las que se produjeron varias acciones en una sola página. Por ejemplo, una visita con una vista de vídeo en una sola página es un acceso único pero no una devolución.
+La tasa de devolución no incluye visitas en las que se produjeron varias acciones en una sola página. Por ejemplo, una visita en la que se ve un vídeo en una sola página es un acceso único, pero no una devolución.
 
->[!NOTE] Las implementaciones existentes a veces pueden contener una métrica calculada que difiere de la métrica predeterminada de Analytics. Compruebe la definición de la métrica calculada para asegurarse de que no hay diferencias.
+>[!NOTE] Las implementaciones existentes a veces pueden contener una métrica calculada que difiere de la métrica predeterminada de Analytics. Consulte la definición de métrica calculada para asegurarse de que no haya diferencias.
 
-Consulte este artículo [de la base de conocimiento](https://marketing.adobe.com/resources/help/es_ES/home/index.html#kb-analytics-comparing-bounces-and-single-access) para obtener más información.
+Consulte este [artículo de base de conocimientos](https://marketing.adobe.com/resources/help/es_ES/home/index.html#kb-analytics-comparing-bounces-and-single-access) para obtener más información.
