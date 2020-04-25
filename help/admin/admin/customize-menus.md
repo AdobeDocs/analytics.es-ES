@@ -1,5 +1,5 @@
 ---
-description: Esta función le permite personalizar los menús de los informes que ve un usuario en Informes y análisis. Puede mostrar u ocultar informes, así como moverlos a distintas carpetas en todos los usuarios. Esta función es especialmente útil si su organización solo utiliza ciertos informes y no desea saturar el menú de la izquierda con datos no utilizados o irrelevantes.
+description: Esta función permite personalizar los menús de informes que un usuario ve en Reports & Analytics. Se pueden mostrar u ocultar informes y moverlos a distintas carpetas entre todos los usuarios. Esta característica es especialmente útil si la organización solo utiliza informes y no se desea atestar el menú de la izquierda con datos irrelevantes o que no se usan.
 title: Personalización de menús
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
@@ -11,9 +11,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Personalización de menús
 
-Esta función le permite personalizar los menús de los informes que ve un usuario en Informes y análisis. Puede mostrar u ocultar informes, así como moverlos a distintas carpetas en todos los usuarios. Esta función es especialmente útil si su organización solo utiliza ciertos informes y no desea saturar el menú de la izquierda con datos no utilizados o irrelevantes.
+Esta función permite personalizar los menús de informes que un usuario ve en Reports &amp; Analytics. Se pueden mostrar u ocultar informes y moverlos a distintas carpetas entre todos los usuarios. Esta característica es especialmente útil si la organización solo utiliza informes y no se desea atestar el menú de la izquierda con datos irrelevantes o que no se usan.
 
-Los cambios de menú se aplican a todos los usuarios que acceden al grupo de informes. Sin embargo, los usuarios pueden restaurar la configuración predeterminada de un menú mientras utilizan el grupo de informes.
+Los cambios de menú se aplican a todos los usuarios que acceden al grupo de informes. Sin embargo, los usuarios pueden restaurar la configuración predeterminada de un menú al utilizar el grupo de informes.
 
 >[!NOTE] Los cambios que se hagan en la estructura de los menús no afectan ni a Report Builder ni a Ad Hoc Analysis. No obstante, si se cambia el nombre de un informe, este cambio sí se verá reflejado en ambas herramientas.
 
@@ -29,7 +29,7 @@ Los cambios de menú se aplican a todos los usuarios que acceden al grupo de inf
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Nueva carpeta</span> </td> 
-   <td colname="col2"> <p> Añade una nueva carpeta sobre el elemento seleccionado actualmente. Tenga en cuenta que debe agregar al menos un informe a una carpeta antes de que la carpeta esté visible. </p> </td> 
+   <td colname="col2"> <p> Agrega una carpeta nueva arriba del elemento seleccionado. Tenga en cuenta que deberá agregar al menos un informe a una carpeta para que esta sea visible. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Cambiar el nombre</span> </td> 
@@ -41,7 +41,7 @@ Los cambios de menú se aplican a todos los usuarios que acceden al grupo de inf
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Alternar visibilidad</span> </td> 
-   <td colname="col2"> <p> Oculta (muestra) el elemento seleccionado. Los elementos ocultos aparecen con un patrón de línea gris en la página Personalización de menú. </p> </td> 
+   <td colname="col2"> <p> Oculta (o muestra) el elemento seleccionado. Los elementos ocultos aparecen con un patrón de línea gris en la página Personalización del menú. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Eliminar</span> </td> 
