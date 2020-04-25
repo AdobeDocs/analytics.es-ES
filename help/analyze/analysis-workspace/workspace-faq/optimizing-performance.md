@@ -17,8 +17,8 @@ Determinados factores pueden influir en el rendimiento de un proyecto dentro de 
 Los segmentos intrincados pueden tener un impacto significativo en el desempeño del proyecto. Los factores que añaden complejidad a un segmento (en orden descendente de impacto) son:
 
 * Los operadores de “contiene”, “contiene cualquiera de”, “coincide”, “comienza con” o “termina con”
-* Segmentación secuencial, especialmente cuando se utilizan restricciones de dimensión (En/Después)
-* Número de elementos de dimensión únicos dentro de las dimensiones utilizadas en el segmento (por ejemplo: Página = &#39;A&#39; cuando Página tiene 10 elementos únicos será más rápido que Página = &#39;A&#39; cuando Página tiene 100000 elementos únicos)
+* Segmentación secuencial, sobre todo cuando se utilizan restricciones de dimensión (Dentro/Después)
+* Número de elementos de dimensiones únicas dentro de las dimensiones utilizadas en el segmento (por ejemplo, Página = “A” cuando la Página tiene 10 elementos únicos será más rápido que Página = “A” cuando la Página tiene 100000 elementos únicos)
 * Número de dimensiones diferentes utilizadas (por ejemplo, Página = “Inicio” y Página = “Resultados de búsqueda”&#39; será más rápido que eVar 1 = “rojo” y eVar 2 = “azul”&#39;)
 * Muchos operadores O (en lugar de Y)
 * Contenedores anidados que varían en ámbito (por ejemplo, Visita (hit) en el interior de la “Visita” dentro de “Visitante”)
@@ -41,7 +41,7 @@ El intervalo de datos que se solicita en un proyecto influye en el rendimiento d
 
 Siempre que sea posible, no incorpore más datos de los que necesita.
 
-Recuerde que los intervalos de fechas (componentes púrpura) anulan el intervalo de fechas del panel. Como resultado, si utiliza diferentes intervalos de fechas como columnas (por ejemplo, columnas de último mes, de última semana y de ayer), el intervalo de fechas del panel no tiene que abarcar todos los intervalos de fechas de la columna. Simplemente se puede establecer como ayer, ya que los intervalos de datos utilizados en la tabla improvisada anularán el panel. Para obtener más información acerca del trabajo con intervalos de fechas en Analysis Workspace, consulte [este vídeo](https://www.youtube.com/watch?v=ybmv6EBmhn0).
+Recuerde que los intervalos de fechas (componentes morados) anulan el intervalo de fechas del panel. Como resultado, si está utilizando distintos intervalos de fechas como columnas (p. ej., columnas último mes, última semana o ayer), el intervalo de fechas del panel no tiene por qué abarcar todos los intervalos de fechas de las columnas. Puede establecerse simplemente en “ayer”, ya que los intervalos de fechas empleados en la tabla improvisada anularán los del panel. Para obtener más información acerca del trabajo con intervalos de fechas en Analysis Workspace, consulte [este vídeo](https://www.youtube.com/watch?v=ybmv6EBmhn0).
 
 Utilice [opciones de comparación de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) para incorporar los datos de los periodos de tiempo específicos que quiere comparar. Por ejemplo, si necesita mostrar los datos del último mes comparados con los del mismo mes del año pasado, en vez de establecer el panel en los últimos 13 meses de datos, utilice simplemente la opción de comparación de periodos de tiempo para mostrar el rendimiento año tras año.
 
@@ -51,18 +51,18 @@ El número de visualizaciones de gráficos que contiene un proyecto afectará a 
 
 **Práctica recomendada para el número de visualizaciones**
 
-Reduzca el número de visualizaciones del proyecto. El área de trabajo de Análisis está procesando mucho entre bastidores para cada imagen que agregue, de modo que dé prioridad a las imágenes que sean más importantes para el consumidor del informe y, si es necesario, cree un proyecto independiente y más detallado para las visualizaciones de apoyo.
+Reduzca el número de visualizaciones en el proyecto. Analysis Workspace realiza una gran cantidad de procesamiento en segundo plano por cada imagen que agrega, así que dé prioridad a las imágenes más importantes para el consumidor del informe y, si es necesario, incluya las imágenes de apoyo en un proyecto separado, más detallado.
 
 ## Complejidad de las visualizaciones (segmentos, métricas, filtros)
 
-El tipo de visualización agregado (p. ej., abandonos o tabla de forma libre) no tiene demasiada influencia por sí mismo en el rendimiento de un proyecto. Lo que aumentará el tiempo de procesamiento es la complejidad de la visualización. Los factores que agregan complejidad a una visualización incluyen:
+El tipo de visualización agregado (p. ej., abandonos o tabla de forma libre) no tiene demasiada influencia por sí mismo en el rendimiento de un proyecto. Lo que afecta al tiempo de procesamiento es la complejidad de la visualización. Entre los factores que aumentan la complejidad de una visualización están:
 
-* Intervalo de datos solicitado, como se mencionó anteriormente
-* Número de segmentos aplicados; por ejemplo, segmentos utilizados como filas de una tabla improvisada
+* El intervalo de datos solicitado, como se ha mencionado antes.
+* El número de segmentos aplicados; por ejemplo, los segmentos utilizados como columnas de una tabla improvisada.
 * Uso de segmentos intrincados
-* Filas o columnas de elementos estáticos en tablas improvisadas
-* Filtros aplicados a filas en tablas improvisadas
-* Número de métricas incluidas, especialmente métricas calculadas que utilizan segmentos
+* Filas o columnas de elementos manuales en tablas de forma libre
+* Los filtros aplicados a las filas de una tabla improvisada.
+* El número de métricas incluidas, en especial las métricas calculadas que utilizan segmentos.
 
 **Práctica recomendada para la complejidad de la visualización**
 
@@ -76,14 +76,14 @@ Un panel puede contener muchas visualizaciones y, como resultado, el número de 
 
 **Práctica recomendada para el número de paneles**
 
-No intente agregar todo en un proyecto: cree proyectos separados que sirvan a un propósito o a un grupo de personas interesadas específico. Utilice las etiquetas para organizar proyectos en temáticas clave y compartir proyectos relacionados con grupos de interesados.
+No intente agregar todo en un proyecto: cree proyectos separados que sirvan a un propósito o a un grupo de personas interesadas específico. Utilice etiquetas para organizar los proyectos por temas clave y comparta proyectos relacionados con grupos de personas interesadas.
 
-Si desea organizar más proyectos, recuerde que la vinculación [](https://www.youtube.com/watch?v=6IOEewflG2U) directa con el proyecto es una opción. Cree un índice interno de proyectos, de modo que las personas interesadas encuentren más fácilmente lo que necesitan.
+Si desea una mayor organización de los proyectos, recuerde que existe la opción de realizar [vínculos directos](https://www.youtube.com/watch?v=6IOEewflG2U) a su proyecto. Cree un índice interno de proyectos, de modo que las personas interesadas encuentren más fácilmente lo que necesitan.
 
-Si se necesitan muchos paneles en un espacio de trabajo, contraiga los paneles antes de guardarlos y compartirlos. Cuando se carga un proyecto, Análisis Workspace solo cargará contenido para los paneles expandidos. Los paneles contraídos no se cargarán hasta que el usuario los expanda. Este enfoque ayuda de dos maneras:
+Si necesita muchos paneles en un Workspace, contraiga paneles antes de guardar y compartir. Cuando se carga un proyecto, Analysis Workspace solo carga el contenido de los paneles expandidos. Los paneles contraídos no se cargarán hasta que el usuario los expanda. Este enfoque ayuda de dos maneras:
 
-* Los paneles contraídos ahorran tiempo de carga total de un proyecto
-* Los paneles contraídos son una buena manera de organizar los proyectos de una manera lógica para el consumidor del informe
+* Los paneles contraídos reducen el tiempo de carga total de un proyecto.
+* Los paneles contraídos son un gran modo de organizar sus proyectos de un modo lógico para el consumidor del informe.
 
 ## Tamaño del conjunto de informes
 
