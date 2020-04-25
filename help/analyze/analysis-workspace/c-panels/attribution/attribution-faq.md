@@ -15,7 +15,7 @@ El elemento de línea &#39;Ninguno&#39; es un elemento de captación global que 
 
 **¿Por qué a veces veo fechas fuera de la ventana de informes al utilizar modelos de atribución?**
 
-Estas fechas adicionales se deben a la ventana retrospectiva de informes de visitantes. Consulte [Datos que aparecen fuera de la ventana de informes](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html) en la BC de Analytics para obtener más información. Adobe filtrará estas filas extra en una próxima versión.
+Estas fechas adicionales se deben a la ventana retrospectiva de informes de visitantes. Consulte [Datos que aparecen fuera de la ventana de informes](https://helpx.adobe.com/es/analytics/kb/data-appearing-outside-reporting-window.html) en la BC de Analytics para obtener más información. Adobe filtrará estas filas extra en una próxima versión.
 
 **¿Puedo utilizar una ventana retrospectiva personalizada con mis modelos de atribución?**
 
@@ -48,7 +48,7 @@ El panel de atribución admite todas las dimensiones. Las métricas no admitidas
 * Métricas de A4T
 * Métricas de tiempo empleado
 * Devoluciones
-* Tasa de devoluciones
+* Porcentaje de rebote
 * Entradas
 * Salidas
 * Páginas no encontradas
