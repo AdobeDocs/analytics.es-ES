@@ -1,10 +1,10 @@
 ---
-description: 'null'
+description: nulo
 keywords: segmentation;segments
 title: Preguntas frecuentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -30,7 +30,7 @@ Responde preguntas frecuentes sobre las funciones de segmentación, acceso, perm
 * Ahora puede [etiquetar segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) para organizar y buscar más tarde en lugar de utilizar carpetas. Antes, utilizaba las carpetas (en [!DNL Ad Hoc Analysis]) para organizar los segmentos.
 
 * Ahora puede crear [Segmentos secuenciales](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md) fuera de Ad Hoc Analysis.
-* El Contenedor de vista de página se llama ahora Contenedor de visita individual para indicar que el contenedor segmenta todos los tipos de datos, no solo vistas de página. Por ejemplo, si vincula las llamadas de seguimiento, el Contenedor de visita individual incluirá o excluirá las llamadas trackAction desde los SDK móviles. Tenga en cuenta que no se ha modificado la manera de funcionar del contenedor; simplemente se le ha cambiado el nombre.
+* El contenedor de vista de página se llama ahora “contenedor de visita individual” para indicar que el contenedor segmenta todos los tipos de datos, no solo vistas de página. Por ejemplo, si vincula las llamadas de seguimiento, el Contenedor de visita individual incluirá o excluirá las llamadas trackAction desde los SDK móviles. Tenga en cuenta que no se ha modificado la manera de funcionar del contenedor; simplemente se le ha cambiado el nombre.
 
 Consulte la publicación [Mejora de segmentación en Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) en el blog de marketing digital para obtener más detalles.
 
