@@ -1,5 +1,5 @@
 ---
-description: En este documento se describe lo que debe hacer en Adobe Analytics para admitir los derechos de acceso y eliminación de GDPR de los sujetos de datos.
+description: En este documento se describe lo que debe hacer en Adobe Analytics para cumplir los derechos de eliminación y acceso de sus interesados según el RGPD.
 title: Adobe Analytics y el RGPD
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Adobe Analytics y el RGPD
 
-En este documento se describe lo que debe hacer en Adobe Analytics para admitir los derechos de acceso y eliminación de GDPR de los sujetos de datos.
+En este documento se describe lo que debe hacer en Adobe Analytics para cumplir los derechos de eliminación y acceso de sus interesados según el RGPD.
 
 ## Descripción general de Adobe  {#section_E582A1D77583410EBB790BB646854A2C}
 
@@ -26,7 +26,7 @@ Como responsable del tratamiento de datos, determinará qué datos personales Ad
 
 ## Cómo administra Adobe los datos del RGPD {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
-La plataforma de Adobe Cloud (ACP) proporciona una solución integrada que conecta la infraestructura de gestión de datos de su marca con las herramientas de Adobe que utiliza para crear y gestionar experiencias de consumo. Las funciones de gestión de datos de la plataforma de Adobe Cloud permiten vincular directamente la política de gestión de datos con el uso de datos.
+Adobe Cloud Platform (ACP) proporciona una solución integrada que conecta la infraestructura de control de datos de su marca con las herramientas de Adobe que utiliza para crear y gestionar las experiencias de los consumidores. Las funciones de control de datos de Adobe Cloud Platform permiten vincular de forma directa las políticas de control al uso de los datos.
 
 Familiarícese con [cómo administra Adobe Analytics el RGPD](https://www.adobe.com/es/data-analytics-cloud/analytics/general-data-protection-regulation.html), donde se tratan los pasos de preparación para el RGPD y cómo llevar a cabo la integración con la API RGPD de Adobe Experience Cloud.
 
@@ -34,9 +34,9 @@ Familiarícese con [cómo administra Adobe Analytics el RGPD](https://www.adobe.
 
 En Adobe somos conscientes de que usted es quien más familiarizado está con los datos personalizados de sus grupos de informes y, por ello, le damos la oportunidad de definir su configuración y preferencias de control de datos.
 
-Para ello, Adobe Analytics proporciona una interfaz de usuario de control de datos que le permite, como responsable del tratamiento de datos, establecer [etiquetas de privacidad](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) en sus grupos de informes de Analytics y en todas las dimensiones de métricas de dichos grupos. Puede identificar las columnas del conjunto de datos que contienen datos de identificación directa o datos de identificación indirecta, de modo que pueda enviar el acceso y eliminar solicitudes para abordar esos datos. Para cada solicitud, se respetarán las etiquetas definidas en la interfaz de usuario de Administración de datos de Analytics para el identificador específico que corresponda a esa solicitud.
+Para ello, Adobe Analytics proporciona una interfaz de usuario de control de datos que le permite, como responsable del tratamiento de datos, establecer [etiquetas de privacidad](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) en sus grupos de informes de Analytics y en todas las dimensiones de métricas de dichos grupos. Puede identificar las columnas de su conjunto de datos que contengan datos directamente o indirectamente identificables, con lo que podrá presentar sus solicitudes de acceso y eliminación con respecto a esos datos. Para cada solicitud, se respetarán las etiquetas definidas en la interfaz de usuario de control de datos de Analytics del identificador específico con el que se corresponda dicha solicitud.
 
-See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) for more information on how to set the labels.
+Consulte [Etiquetado de datos de grupos de informes](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) para obtener más información sobre cómo configurar las etiquetas.
 
 ## Requisitos previos {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
@@ -45,6 +45,6 @@ See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsui
 * Asigne cualquier grupo de informes de Adobe Analytics que desee configurar para el control de datos a [su organización de Experience Cloud.](https://marketing.adobe.com/resources/help/es_ES/mcloud/report-suite-mapping.html)
 * Establezca una política de retención de datos para cada grupo de informes a fin de poder satisfacer las solicitudes de acceso y eliminación del RGPD.
 
-   > [!NOTE] Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API del RGPD (es decir, el tratamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos en Adobe Analytics. Comuníquese con el administrador de éxito del cliente para establecer el período de retención de datos.
+   > [!NOTE] Adobe Analytics no puede ayudarle con el tratamiento de solicitudes en la API del RGPD (es decir, el tratamiento de las solicitudes de acceso o eliminación que reciba de sus usuarios finales) si no se ha establecido el periodo de retención de datos en Adobe Analytics. Póngase en contacto con su gestor de éxito de los clientes para establecer el periodo de retención de datos.
 
-* Compruebe sus permisos: para utilizar la interfaz de Administración de administración de datos en Adobe Analytics, debe ser administrador de Adobe Analytics.
+* Compruebe sus permisos: para utilizar la interfaz de gestión del control de datos en Adobe Analytics, debe ser administrador de Adobe Analytics.
