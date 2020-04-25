@@ -4,7 +4,7 @@ keywords: DFA
 title: Data Connectors de DFA para Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -89,13 +89,13 @@ La siguiente tabla resume las funciones en cada versión de la integración.
 | Métricas por la noche de clics e impresiones de DFA | Sí | Sí | Sí |
 | Rastreo de clics y visualizaciones | Sí | Sí | Sí |
 | La integración recibe datos en un nivel de Anunciante | No | Sí | Sí |
-| La integración recibe datos en un nivel de Configuración de Floodlight | No | No | Sí |
-| Métricas de coste | No | No | Sí |
-| Métricas de creativo | No | No | Sí |
+| La integración recibe datos en un nivel de Configuración de Floodlight | No | No | Sí  |
+| Métricas de coste | No | No | Sí  |
+| Métricas de creativo | No | No | Sí  |
 | Cadenas de consulta más allá de 2k bytes | No | Sí | Sí |
 | Usa el módulo Integrate para una recopilación de datos óptima de terceros | No | Sí | Sí |
 | Rastreo de tiempos de espera y errores | No | Sí | Sí |
-| Sin necesidad de ID del cliente negociado | No | No | Sí |
+| Sin necesidad de ID del cliente negociado | No | No | Sí  |
 
 ### Acerca de la versión 1.5 {#section-b5a3e967cfa141ea8f740612336181be}
 
