@@ -28,10 +28,10 @@ Por ejemplo, muchas veces los visitantes hacen clic a través de una campaña de
 
 Especifique la caducidad del compromiso del visitante.
 
-1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Expiration]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
+1. En el [!UICONTROL Administrador del grupo de informes], haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Expiración de canal de marketing]**.
 
    ![](assets/mchannel_expiration.png)
 
 1. Configure los campos de caducidad de interacción del visitante.
-1. Haga clic en **[!UICONTROL Save.]**
+1. Haga clic en **[!UICONTROL Guardar.]**
