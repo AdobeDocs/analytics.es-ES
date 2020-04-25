@@ -1,6 +1,6 @@
 ---
 title: Tráfico personalizado
-description: Ver un informe basado en una variable de tráfico personalizada.
+description: Vista de un informe basado en una variable de tráfico personalizada.
 translation-type: tm+mt
 source-git-commit: de2f8c1270aa236b7ea5540a594963f4f6f97d8f
 
@@ -18,4 +18,4 @@ Los informes Tráfico personalizado permiten a las organizaciones crear informes
 * Estos informes pueden verse en los formatos de tendencias y clasificación.
 * Con los filtros de búsqueda pueden buscarse artículos de línea específicos.
 * En estos informes se pueden utilizar las clasificaciones, lo que permite cambiar el nombre de los artículos de línea y consolidarlos.
-* La ubicación de los informes Tráfico personalizado varía en función del valor numérico asignado de la prop. Generalmente se pueden encontrar en [!UICONTROL Traffic] o en la [!UICONTROL Custom Traffic] carpeta).
+* La ubicación de los informes Tráfico personalizado varía en función del valor numérico asignado de la prop. Por lo general, se encuentran en la carpeta [!UICONTROL Tráfico personalizado] o en [!UICONTROL Tráfico].
