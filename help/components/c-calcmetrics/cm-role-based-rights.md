@@ -2,7 +2,7 @@
 description: Los derechos de las métricas calculadas difieren entre los usuarios a nivel de administrador y los usuarios no administradores.
 title: 'Métricas calculadas:  derechos basados en funciones'
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
