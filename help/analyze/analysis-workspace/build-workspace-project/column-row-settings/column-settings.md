@@ -2,7 +2,7 @@
 description: La configuración de columna le permite configurar el formato de la columna, aunque algunas opciones de formato pueden ser condicionales.
 title: Configuración de columna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ La configuración de columna le permite configurar el formato de la columna, aun
 
 ## Configuración de columna {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
-Para acceder a la [!UICONTROL Configuración de columna], arrastre una tabla improvisada al proyecto y, a continuación, haga clic en el icono de engranaje en el encabezado de la columna.
+To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
 
 ![](assets/column_settings.png)
 
