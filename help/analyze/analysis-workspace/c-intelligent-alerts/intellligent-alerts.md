@@ -16,7 +16,7 @@ El sistema Alertas inteligentes permite un control más granular sobre las alert
 
 ## Información general
 
-El nuevo Generador de alertas y el Administrador de alertas en Espacio de trabajo de Análisis reemplazan la funcionalidad de alerta existente en Informes y análisis. Las alertas inteligentes le permiten:
+El nuevo Generador de alertas y el Administrador de alertas en Analysis Workspace sustituyen la funcionalidad de alertas existente en Reports &amp; Analytics. Las alertas inteligentes le permiten:
 
 * Generar alertas en función de anomalías (umbrales del 90 %, 95 %, 99 %, 99,75 % y 99,9 %; cambio de %; por encima/por debajo)
 * Obtener una vista previa de la frecuencia con la que se activará una alerta
