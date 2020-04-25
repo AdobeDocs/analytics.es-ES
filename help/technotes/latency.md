@@ -1,5 +1,5 @@
 ---
-description: La siguiente información puede ayudar a solucionar los problemas de latencia de los grupos de informes en los datos de Analytics.
+description: La siguiente información puede resultar de utilidad para solucionar los problemas de latencia del grupo de informes en los datos de Analytics.
 keywords: missing data;slow
 subtopic: Current data
 title: Disponibilidad y latencia de los datos
@@ -13,45 +13,45 @@ source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
 
 # Latencia y disponibilidad de datos en Adobe Analytics
 
-Generalmente, puede esperar ver los datos completos en los informes dos horas después de que se recopilen los datos. La siguiente información puede ayudar a solucionar los problemas de latencia de los grupos de informes en los datos de Analytics.
+Los datos de todas las aplicaciones suelen aparecer en los informes a las dos horas de la recopilación. La siguiente información puede resultar de utilidad para solucionar los problemas de latencia del grupo de informes en los datos de Analytics.
 
-## Explicación del agrupamiento de datos
+## Descripción del procesamiento por lotes
 
-Cada servidor de recopilación de datos captura y procesa los datos de análisis sin procesar y, a continuación, carga los datos por lotes una vez cada hora para registrarlos. El proceso de transferencia suele durar 30 minutos aproximadamente, por lo que la latencia normal del tráfico que se produce inmediatamente después de completarse un proceso de carga se aproxima a los 90 minutos (60 minutos hasta que se produce la siguiente carga por lotes más 30 minutos para que la transferencia de archivos se cargue y se muestre). Para el tráfico que se produce directamente antes de una carga, la latencia de datos puede ser de hasta 30 minutos (0 minutos hasta que se produzca la siguiente carga por lotes y 30 minutos para la transferencia y visualización de archivos).
+Cada servidor de recopilación de datos captura y procesa los datos de análisis sin procesar y, a continuación, carga los datos por lotes una vez cada hora para registrarlos. El proceso de transferencia suele durar 30 minutos aproximadamente, por lo que la latencia normal del tráfico que se produce inmediatamente después de completarse un proceso de carga se aproxima a los 90 minutos (60 minutos hasta que se produce la siguiente carga por lotes más 30 minutos para que la transferencia de archivos se cargue y se muestre). Respecto al tráfico que se produce justo antes de una carga, la latencia de datos puede reducirse hasta los 30 minutos (0 minutos hasta que se produce la siguiente carga por lotes más 30 minutos para que la transferencia de archivos se muestre).
 
-Si es necesario, el Servicio de atención al cliente de Adobe puede habilitar cargas de datos por lotes de 30 minutos (en lugar de cada hora) para los grupos de informes más utilizados.
+Si se considera necesario, el Servicio de atención al cliente puede habilitar las cargas de datos por lotes cada treinta minutos (en lugar de cada hora) para los grupos de informes más usados.
 
-## Contribuyentes a la latencia
+## Factores que incrementan la latencia
 
-La latencia es un retraso que supera las 2 horas típicas que tardan los servidores de recopilación de datos en procesar los datos por completo. No afecta a la recopilación de datos; los datos se siguen recopilando para una implementación en funcionamiento, independientemente de la latencia de un grupo de informes. Su gravedad (la actualidad de los datos) y duración (el tiempo que se tarda en resolverse) pueden variar considerablemente. Generalmente se limita a un solo grupo de informes.
+La latencia es un retraso que supera el periodo de dos horas que suelen tardan los servidores de recopilación de datos en procesar los datos por completo. No afecta a la recopilación de datos. Los datos se siguen recopilando para permitir la implementación, independientemente de la latencia de un grupo de informes. Su gravedad (la actualidad de los datos) y duración (el tiempo que tarda en resolverse) pueden variar considerablemente. Suele quedar limitada a un único grupo de informes.
 
 La latencia está causada por una de las siguientes categorías generales:
 
-* **Pico de tráfico inesperado:** Este tipo de latencia se produce cuando se envían más datos a un grupo de informes de los que se comprometieron o esperaron en el contrato. Es la causa más común de latencia.
-* **Problemas normales de hardware:** Adobe emplea estrategias de primera categoría para la administración y supervisión de centros de datos, la redundancia de datos y la fiabilidad del hardware. El hardware se actualiza con regularidad y conjuntamente con ventanas de mantenimiento publicadas. El mantenimiento de emergencia de hardware fallido puede requerir una parada necesaria y temporal en el procesamiento de datos (no en la recopilación de datos) a medida que el hardware de reemplazo se pone en línea. Esta parada temporal en el procesamiento puede provocar una latencia marcada.
-* **Datos anormales:** Los patrones de datos no naturales, como las visitas inusualmente largas causadas por un bot o un bot, pueden aumentar temporalmente ciertas cargas de procesamiento que resultan en latencia.
+* **Pico de tráfico inesperado:** Este tipo de latencia se produce cuando un grupo de informes recibe un volumen de datos superior a lo esperado o a lo que se había acordado mediante contrato. Es la causa más común de latencia.
+* **Problemas normales de hardware:** Adobe emplea estrategias de primer nivel en la administración y supervisión del centro de datos, la redundancia de datos y la fiabilidad del hardware. El hardware se actualiza con regularidad y conjuntamente con ventanas de mantenimiento publicadas. La reparación de emergencia del hardware defectuoso puede exigir una parada obligatoria y provisional en el procesamiento de los datos (no en la recopilación) mientras el nuevo hardware se pone en línea. Esta parada temporal en el procesamiento puede provocar una latencia marcada.
+* **Datos anormales:** los patrones de datos no naturales, como las visitas inusualmente largas causadas por un bot o un rastreador, pueden incrementar temporalmente determinadas cargas de procesamiento, provocando una latencia.
 
 ## Funciones que dependen de la latencia
 
-Algunas funciones de Adobe Experience Cloud incluyen una cantidad innata de latencia además del tiempo de procesamiento estándar.
+Algunas funciones de Adobe Experience Cloud tienen una cantidad innata de latencia además del tiempo de procesamiento estándar.
 
-* Analytics para Target (A4T) requiere de 5 a 10 minutos de latencia adicionales para permitir que los datos recopilados de ambas plataformas se almacenen en la misma visita.
-* Los datos con marca de hora requieren tiempo adicional debido a que estos datos se procesan en diferentes servidores. Las visitas con marca de tiempo recibidas en tiempo real o casi en tiempo real pueden tardar hasta 15 minutos. Las visitas recibidas con una marca de fecha y hora de ayer pueden tardar hasta 2 horas. Las visitas más antiguas pueden tardar más tiempo, aumentando cada día hasta un máximo de aproximadamente 24 horas.
+* Analytics for Target (A4T) requiere de cinco a diez minutos adicionales de latencia para que los datos recopilados de ambas plataformas se almacenen en la misma visita.
+* En el caso de los datos con marca de tiempo la duración es mayor debido a que estos datos se procesan en diferentes servidores. Las visitas con marca de tiempo recibidas en tiempo real o casi en tiempo real pueden tardar hasta quince minutos. Las visitas recibidas con una marca de tiempo del día anterior pueden tardar hasta dos horas. Las visitas antiguas pueden tardar más tiempo, aumentando cada día hasta un máximo de aproximadamente veinticuatro horas.
 
-## Formas de mitigar o prevenir la latencia
+## Modos de mitigar o evitar la latencia
 
 Existen varias estrategias para evitar la latencia o reducir el tiempo de recuperación cuando se produce:
 
-* **Notificar a Adobe de los picos de tráfico esperados:** Aunque es imposible anticipar cada pico de tráfico en el sitio, puede haber casos en los que espere recibir un aumento significativo de tráfico. Algunos ejemplos son un período festivo particularmente exitoso o poco después de una gran campaña push. En estos casos, Adobe proporciona un método para que su organización nos informe de los incrementos de tráfico esperados. De este modo podremos asignar recursos de procesamiento adicionales a su grupo de informes. Consulte [Programar un pico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) de tráfico en la guía del usuario de administración para obtener información sobre cómo notificar a Adobe sobre el aumento de tráfico.
-* **Considere la carga de procesamiento al activar nuevas funciones:** Algunas funciones requieren un procesamiento más intensivo que otras. Cuantas más características haya habilitadas en un grupo de informes, más difícil será recuperarse de la latencia. Cuando active características en un grupo de informes, tenga en cuenta que las siguientes características incrementan la cantidad de datos que se deben procesar:
+* **Informar a Adobe de los picos de tráfico esperados:** Aunque es imposible anticipar todos los picos de tráfico en el sitio, puede haber casos en los que se espere un aumento significativo de tráfico. Por ejemplo, en un periodo festivo muy rentable o poco después de una gran campaña. En estos casos, Adobe proporciona un método para que su organización nos informe de los incrementos de tráfico esperados. De este modo podremos asignar recursos de procesamiento adicionales a su grupo de informes. Consulte [Programar un pico de tráfico](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) en la guía del usuario de administración para obtener información sobre las notificaciones a Adobe relativas al aumento de tráfico.
+* **Tenga en cuenta la carga de procesamiento al activar nuevas características:** Algunas necesitan más procesamiento que otras. Cuantas más características haya habilitadas en un grupo de informes, más difícil será recuperarse de la latencia. Cuando active características en un grupo de informes, tenga en cuenta que las siguientes características incrementan la cantidad de datos que se deben procesar:
 
-   * Implementación de más de 20 eventos en la misma página
+   * Implementación de más de veinte eventos en la misma página
    * Reglas de VISTA complejas
-   * Más de 20 valores en la variable de productos
+   * Más de veinte valores en la variable de productos
    * Serialización de eventos
 
-* Enable IAB Bot filtering: [Bot filtering](/help/admin/admin/bot-removal/bot-removal.md) can greatly reduce latency if your report suite is frequented by bots or crawlers. Se recomienda utilizar la lista de bots de la IAB, actualizada y mantenida por la asociación [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un usuario puede personalizar sus propias reglas de bots para complementar las de la IAB.
+* Activar el filtrado para bots de la IAB: [el filtrado para bots](/help/admin/admin/bot-removal/bot-removal.md) puede reducir en gran medida la latencia si el grupo de informes se ve frecuentado por bots o rastreadores. Se recomienda utilizar la lista de bots de la IAB, actualizada y mantenida por la asociación [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un usuario puede personalizar sus propias reglas de bots para complementar las de la IAB.
 
-## Qué hacer con la latencia
+## Indicaciones sobre la latencia
 
-En los casos en los que se produce latencia, tenga la seguridad de que Adobe supervisa de forma proactiva la canalización de procesamiento y hace todo lo posible para devolver el tiempo de procesamiento a la normalidad lo antes posible. Muchos de los problemas de latencia se resuelven en unas horas. Para obtener información sobre un grupo de informes determinado, debe solicitarse a un usuario de asistencia técnica de la organización que averigüe el ID del grupo de informes que está experimentando la latencia y que se ponga en contacto con el Servicio de atención al cliente. El representante de Adobe puede validar la latencia e informará al usuario cuando el problema mejore y se resuelva.
+Es importante señalar que, cuando se produce latencia, Adobe supervisa activamente los canales de procesamiento y hace todo lo posible para restaurar el tiempo de procesamiento a la normalidad lo antes posible. Muchos de los problemas de latencia se resuelven en unas horas. Para obtener información sobre un grupo de informes determinado, debe solicitarse a un usuario de asistencia técnica de la organización que averigüe el ID del grupo de informes que está experimentando la latencia y que se ponga en contacto con el Servicio de atención al cliente. El representante de Adobe puede validar la latencia e informará al usuario cuando el problema mejore y se resuelva.
