@@ -3,7 +3,7 @@ description: Evento en el cual los clientes ven el contenido del carro de compra
 title: Vistas del carro de compras
 topic: Metrics
 uuid: f51213ed-c396-4d6a-8f88-4ea870e5bfed
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
