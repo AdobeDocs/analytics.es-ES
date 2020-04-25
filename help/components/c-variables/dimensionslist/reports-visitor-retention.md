@@ -3,7 +3,7 @@ description: Muestra información sobre la lealtad del cliente. Puede ver la can
 title: Retención de visitantes
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ Muestra información sobre la lealtad del cliente. Puede ver la cantidad de visi
 <table id="table_486948EB47664B90BDF9915314B572B0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Informe </th> 
+   <th colname="col1" class="entry"> Información general de la tienda de aplicaciones </th> 
    <th colname="col2" class="entry"> Descripción </th> 
   </tr> 
  </thead>
