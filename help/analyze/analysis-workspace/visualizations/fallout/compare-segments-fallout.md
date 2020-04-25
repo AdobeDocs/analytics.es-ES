@@ -25,33 +25,33 @@ Puede crear segmentos a partir de un punto de contacto, añadir segmentos como p
 
    ![](assets/segment-from-touchpoint.png)
 
-   Se abre el Generador de segmentos, previamente rellenado con el segmento secuencial precompilado que coincide con el punto de contacto seleccionado:
+   Cuando el Generador de segmentos se abre, ya contiene el segmento secuencial creado previamente que concuerda con el punto de contacto seleccionado:
 
    ![](assets/segment-builder.png)
 
-1. Asigne un título y una descripción al segmento y guárdelo.
+1. Ponga un título y una descripción al segmento y guárdelo.
 
    Ahora puede utilizar este segmento en cualquier informe que desee.
 
 ## Añadir un segmento como punto de contacto {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
-Si desea ver, por ejemplo, la tendencia de los usuarios de EE. UU. y su efecto en las visitas en el orden previsto, simplemente arrastre el segmento de usuarios de EE. UU. a las visitas en el orden previsto:
+Si desea ver, por ejemplo, la tendencia de los usuarios de Estados Unidos y cómo afectan a las visitas en el orden previsto, solo tiene que arrastrar el segmento correspondiente a la visita en el orden previsto:
 
 ![](assets/segment-touchpoint.png)
 
-O bien, puede crear un punto de contacto AND arrastrando el segmento de usuarios de EE. UU. a otro punto de comprobación.
+O puede crear un punto de contacto AND arrastrando el segmento de usuarios de Estados Unidos a otro punto de comprobación.
 
 ## Comparar segmentos en abandonos {#section_E0B761A69B1545908B52E05379277B56}
 
-Puede comparar un número ilimitado de segmentos en la visualización de visitas en el orden previsto.
+Puede comparar una cantidad ilimitada de segmentos en la visualización de visitas en el orden previsto.
 
-1. Seleccione los segmentos que desee comparar desde el carril [!UICONTROL Segments] de la izquierda. En nuestro ejemplo, hemos seleccionado 2 segmentos: Usuarios de EE. UU. y usuarios que no sean de EE. UU.
-1. Arrástrelos a la zona de colocación Segmento en la parte superior.
+1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. En nuestro ejemplo, hemos seleccionado 2 segmentos: usuarios de EE. UU. y usuarios fuera de EE. UU.
+1. Arrástrelos a la zona de colocación de Segmento en la parte superior.
 
    ![](assets/segment-drop.png)
 
-1. Opcional: Puede mantener &quot;Todas las visitas&quot; como contenedor predeterminado o eliminarlo.
+1. Opcional: puede mantener “Todas las visitas” como el contenedor predeterminado o eliminarlo.
 
    ![](assets/seg-compare.png)
 
-1. Ahora puede comparar las visitas en el orden previsto en los dos segmentos, como cuando un segmento supera a otro u otras perspectivas.
+1. Ahora puede comparar las visitas en el orden previsto de los dos segmentos como, por ejemplo, cuando un segmento supera a otro u otra información.
