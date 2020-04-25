@@ -3,7 +3,7 @@ description: 'null'
 title: Visitantes únicos anuales
 topic: Metrics
 uuid: 80015631-b100-4e47-a493-e9c10563f99d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
