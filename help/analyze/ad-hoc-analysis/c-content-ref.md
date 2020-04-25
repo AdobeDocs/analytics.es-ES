@@ -3,7 +3,7 @@ description: Ad Hoc Analysis se integra con el entorno de segmentación Analytic
 title: Generar segmentos
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -60,7 +60,7 @@ En lugar de carpetas (Ad Hoc Analysis), el Administrador de segmentos utiliza [e
 
 Dentro del administrador de segmentos de Ad Hoc Analysis solo puede ver los segmentos que le pertenecen (los segmentos que haya creado) y los segmentos que se han compartido específicamente con usted.
 
-## ¿Qué es el contenedor de visitas? ¿En qué se diferencia de un contenedor de vista de página?  {#section_65BBE60A836C4001938830DDA15DC256}
+## ¿Qué es el contenedor de visitas? ¿En qué se diferencia de un contenedor de vistas de página?  {#section_65BBE60A836C4001938830DDA15DC256}
 
 El contenedor de vista de página se llama ahora “contenedor de visita individual” para indicar que el contenedor segmenta todos los tipos de datos, no solo vistas de página. Por ejemplo, las llamadas de seguimiento de vínculo y las llamadas de [!DNL trackAction] de los SDK móviles se incluyen o excluyen del contenedor de visitas.
 
@@ -91,7 +91,7 @@ Ya que los segmentos funcionan en varios grupos de informes, es posible que dete
 
 Si el segmento se [publicó en Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/t-publish-audience-segment.translate.html), no es posible eliminarlo ni editarlo. Pero sí copiarlo y editar esa versión copiada.
 
-## Más información acerca de lo que ocurre con sus segmentos existentes  {#section_83ACAB256F394DCD8B424D8920BDD853}
+## Más acerca de lo que ocurre con sus segmentos existentes  {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
