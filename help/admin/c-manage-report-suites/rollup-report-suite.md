@@ -20,11 +20,11 @@ Los grupos de informes resumidos acumulan datos de varios grupos de informes sec
 **Grupo de informes resumidos**: se crea en las Herramientas de administración. Recibe la suma de cada métrica al final de cada día.
 
 * Los resúmenes se pueden usar sin cargo adicional y no suponen un aumento de llamadas al servidor.
-* Los resúmenes proporcionan datos totales, pero no registran valores individuales en los informes. Por ejemplo, los valores de eVar1 no se incluyen, pero sí se puede incluir su total acumulado.
+* Los resúmenes proporcionan datos totales, pero no registran valores individuales en los informes. Por ejemplo, los valores de eVar1 no están incluidos, pero sí puede estar incluido su total agregado.
 * La duplicación de datos no se anula si se combinan datos de varios grupos de informes.
 * Los resúmenes se ejecutan todas las noches.
 * Al agregar un grupo de informes a un resumen existente, los datos históricos no se incluyen en el resumen.
-* Todos los grupos de informes secundarios deben tener datos en ellos para que un resumen funcione. Si se incluyen nuevos grupos de informes en un resumen, asegúrese de enviar al menos una vista de página a esos grupos de informes.
+* Todos los grupos de informes secundarios deben contener datos para que el resumen funcione. Si se incluyen nuevos grupos de informes en un resumen, asegúrese de enviar al menos una vista de página a esos grupos de informes.
 * Los grupos de informes resumidos están limitados a un máximo de 40 grupos de informes secundarios.
 * Los grupos de informes resumidos están limitados a un máximo de 100 eventos.
 * Los datos contenidos en los grupos de informes resumidos no admiten desgloses ni segmentos.
@@ -38,9 +38,9 @@ Los grupos de informes resumidos acumulan datos de varios grupos de informes sec
 
 **Cambios de implementación**: los resúmenes no requieren ningún cambio de implementación, mientras que los grupos de informes globales requieren que incluya el ID del grupo de informes global en la implementación.
 
-**Duplicación**: Los grupos de informes globales eliminan la duplicación de visitantes únicos, mientras que los resumidos no. Por ejemplo, si un usuario visita tres dominios de un mismo propietario el mismo día, los grupos de informes resumidos contabilizarían tres visitantes únicos al día. Los grupos de informes globales registrarían un visitante único.
+**Duplicación**: a diferencia de los grupos de informes resumidos, los globales anulan la duplicación de visitantes únicos. Por ejemplo, si un usuario visita tres dominios de un mismo propietario el mismo día, los grupos de informes resumidos contabilizarían tres visitantes únicos al día. Los grupos de informes globales registrarían un único visitante.
 
-**Intervalo** de tiempo: Los resúmenes solo se procesan a medianoche cada noche, mientras que los grupos de informes globales informan de los datos con latencia estándar.
+**Lapso de tiempo**: los grupos de informes resumidos solo se procesan cada medianoche, mientras que los globales registran datos con latencia estándar.
 
 **Espectro**: los grupos de informes resumidos no permiten la comunicación entre grupos de informes. Los grupos de informes globales pueden atribuir crédito a variables de conversión entre grupos de informes y ofrecer rutas entre los distintos grupos de informes.
 
