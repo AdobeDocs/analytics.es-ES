@@ -3,7 +3,7 @@ description: Puede ver y segmentar los datos del tráfico de Adobe Target en un 
 title: Target
 topic: Reports
 uuid: 387dfc37-d799-465c-99e3-2d3980fec183
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
