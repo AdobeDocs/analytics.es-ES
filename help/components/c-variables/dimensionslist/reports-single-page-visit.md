@@ -3,7 +3,7 @@ description: No se debe confundir con la métrica Visitas a una sola página de 
 title: Visita a una sola página
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
