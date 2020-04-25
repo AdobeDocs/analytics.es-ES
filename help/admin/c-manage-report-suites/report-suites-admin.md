@@ -1,5 +1,5 @@
 ---
-description: Los grupos de informes definen los informes completos e independientes de un sitio web concreto, de un conjunto de sitios web o de un subconjunto de páginas web. Normalmente, un grupo de informes es un sitio web, pero puede ser un segmento global en el que haya combinado los números de varios sitios para obtener los totales. Al iniciar sesión en cualquier solución de Adobe Analytics, se selecciona un grupo de informes para usar (excepto cuando se utilizan resúmenes que combinan grupos de informes). Además, un grupo de informes puede ser más pequeño que un sitio Web, si desea ejecutar informes para una parte del sitio. Soluciones de Analytics acumuladas e informan sobre estos almacenes de datos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en que se procesan los datos en un grupo de informes.
+description: Los grupos de informes definen los informes completos e independientes de un sitio web concreto, de un conjunto de sitios web o de un subconjunto de páginas web. Por lo general, un grupo de informes es un sitio web, pero podría ser un segmento global en el cual se han combinado las cifras de varios sitios para obtener valores totales. Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes a utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes). Asimismo, un grupo de informes puede ser de menor tamaño que un sitio web si desea ejecutar informes solo para una parte del sitio. Las soluciones de Analytics reúnen estos almacenes de datos y generan informes a partir de ellos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en la que se procesan los datos en un grupo de informes.
 title: Administrador del grupo de informes
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
@@ -11,15 +11,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Administrador del grupo de informes
 
-Los grupos de informes definen los informes completos e independientes de un sitio web concreto, de un conjunto de sitios web o de un subconjunto de páginas web. Normalmente, un grupo de informes es un sitio web, pero puede ser un segmento global en el que haya combinado los números de varios sitios para obtener los totales. Al iniciar sesión en cualquier solución de Adobe Analytics, se selecciona un grupo de informes para usar (excepto cuando se utilizan resúmenes que combinan grupos de informes). Además, un grupo de informes puede ser más pequeño que un sitio Web, si desea ejecutar informes para una parte del sitio. Soluciones de Analytics acumuladas e informan sobre estos almacenes de datos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en que se procesan los datos en un grupo de informes.
+Los grupos de informes definen los informes completos e independientes de un sitio web concreto, de un conjunto de sitios web o de un subconjunto de páginas web. Por lo general, un grupo de informes es un sitio web, pero podría ser un segmento global en el cual se han combinado las cifras de varios sitios para obtener valores totales. Cuando inicia sesión en cualquier solución de Adobe Analytics, selecciona un grupo de informes a utilizar (excepto cuando utiliza resúmenes que combinan grupos de informes). Asimismo, un grupo de informes puede ser de menor tamaño que un sitio web si desea ejecutar informes solo para una parte del sitio. Las soluciones de Analytics reúnen estos almacenes de datos y generan informes a partir de ellos. El Administrador del grupo de informes de administración permite definir las reglas que rigen la forma en la que se procesan los datos en un grupo de informes.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**
 
->[!NOTE] Los grupos de informes virtuales se administran mediante **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**. Consulte la [documentación del grupo de informes virtuales](/help/components/vrs/vrs-about.md).
+>[!NOTE] Los grupos de informes virtuales se gestionan a través de **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]**. Consulte la [documentación del grupo de informes virtuales](/help/components/vrs/vrs-about.md).
 
 ## Descripciones del Administrador del grupo de informes {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-En la tabla siguiente se describen los elementos de la [!UICONTROL Report Suite Manager] página.
+La tabla siguiente describe los elementos de la página [!UICONTROL Administrador del grupo de informes].
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -39,11 +39,11 @@ En la tabla siguiente se describen los elementos de la [!UICONTROL Report Suite 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Buscar</span> </td> 
-   <td colname="col2"> Permite localizar un grupo de informes específico en la Lista Grupo de informes. La herramienta de búsqueda incluye tanto la búsqueda básica basada en nombres como una página de búsqueda avanzada para las búsquedas más profundas. </td> 
+   <td colname="col2"> Permite localizar un grupo de informes concreto en la Lista de grupo de informes. La herramienta de búsqueda incluye tanto la búsqueda básica basada en nombres como una página de búsqueda avanzada para realizar búsquedas más a fondo. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Grupos</span> </td> 
-   <td colname="col2"> <p>Permite organizar los grupos de informes en grupos personalizados. Puede acceder rápidamente a varios grupos de informes que comparten configuraciones similares o que comúnmente edita juntos. </p> </td> 
+   <td colname="col2"> <p>Permite organizar los grupos de informes en grupos personalizados. Puede acceder rápidamente a varios grupos de informes que compartan configuraciones similares o que habitualmente edite juntos. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Búsquedas guardadas</span> </td> 
@@ -51,7 +51,7 @@ En la tabla siguiente se describen los elementos de la [!UICONTROL Report Suite 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Resúmenes</span> </td> 
-   <td colname="col2"> <p>Un resumen es un grupo de informes único que combina los datos de seguimiento de otros grupos de informes. </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
+   <td colname="col2"> <p>Un resumen es un único grupo de informes que combina los datos de seguimiento de otros grupos de informes. </p> <p>Consulte <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Grupo de informes resumidos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Editar configuración</span> </td> 
