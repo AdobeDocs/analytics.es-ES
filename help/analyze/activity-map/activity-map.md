@@ -12,7 +12,7 @@ source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
 # Preguntas frecuentes sobre Activity Map
 
 >[!Note]
->Descubra cómo Activity Map admite aplicaciones de una sola página (SPA) en nuestra página de [preguntas más frecuentes](/help/analyze/activity-map/activitymap-faq.md) .
+>Descubra cómo Mapa de Actividad admite Aplicaciones de una sola página (SPA) en nuestra página de [preguntas más frecuentes](/help/analyze/activity-map/activitymap-faq.md) .
 
 >[!IMPORTANT]
 >El 16 de enero de 2020, Adobe Analytics empezó a pasar a un nuevo dominio: https://experience.adobe.com/analytics. Debido a este cambio, Activity Map podría dejar de funcionar para algunos clientes en casos específicos. Como ya sabe, Activity Map se inserta en la página del cliente en un iframe (un iframe para la barra de herramientas de Activity Map y un iframe para el panel inferior de Activity Map). Es posible que tenga una directiva de Políticas de seguridad de contenido predeterminada en la página web para &quot;frame-src&quot; que no incluya &quot;.adobe.com&quot;. En este caso, Activity Map dejará de funcionar en una página web de este tipo.
