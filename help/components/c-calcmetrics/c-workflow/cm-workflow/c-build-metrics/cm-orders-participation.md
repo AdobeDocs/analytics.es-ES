@@ -2,7 +2,7 @@
 description: Explica cómo crear una métrica que muestre los canales de marketing asistidos al realizar pedidos. Esto puede adaptarse a cualquier otro evento de éxito o dimensión que resulte de interés.
 title: Métrica de ayudas para pedidos
 uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
