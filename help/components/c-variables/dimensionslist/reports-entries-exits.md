@@ -3,7 +3,7 @@ description: El informe de páginas de entrada muestra, según el porcentaje y e
 title: Entradas y salidas
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
