@@ -2,7 +2,7 @@
 description: En el Administrador de métricas calculadas, puede configurar un flujo de trabajo que incluya la aprobación de métricas en diversos niveles de aplicación y para departamentos o grupos específicos.
 title: Aprobar métricas calculadas
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
