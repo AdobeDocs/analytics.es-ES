@@ -2,7 +2,7 @@
 description: 'null'
 title: API afectadas por la migración
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
