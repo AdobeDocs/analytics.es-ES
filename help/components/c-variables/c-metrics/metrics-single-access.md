@@ -3,7 +3,7 @@ description: Acceso único se define como el número de visitas al sitio que con
 title: Acceso único
 topic: Metrics
 uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
