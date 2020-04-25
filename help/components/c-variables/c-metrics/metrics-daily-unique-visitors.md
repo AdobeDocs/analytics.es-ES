@@ -3,7 +3,7 @@ description: Número de visitantes no duplicados (contabilizados solo una vez) d
 title: Visitantes únicos diarios
 topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
