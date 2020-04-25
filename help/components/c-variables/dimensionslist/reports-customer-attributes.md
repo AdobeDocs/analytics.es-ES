@@ -3,7 +3,7 @@ description: Sección de preguntas más frecuentes de Analytics sobre atributos 
 solution: Experience Cloud,Analytics
 title: Atributos del cliente
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,7 +15,7 @@ Sección de preguntas más frecuentes de Analytics sobre atributos del cliente y
 
 **[!UICONTROL Informes]** > **[!UICONTROL Perfil del visitante]** > **[!UICONTROL Atributos del cliente]**
 
-Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en un origen de datos de atributos del cliente en Experience Cloud. Una vez que los datos se hayan cargado, podrá ejecutar el informe de atributos del cliente en Reports &amp; Analytics.
+Si captura los datos del cliente empresarial en una base de datos de administración de la relación con los clientes (CRM), podrá cargar los datos en una fuente de datos de atributos del cliente en Experience Cloud. Una vez que los datos se hayan cargado, podrá ejecutar el informe de atributos del cliente en Reports &amp; Analytics.
 
 * [Atributos del cliente e informes de métricas en Analytics ](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [Preguntas más frecuentes - Atributos del cliente en Analytics](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
