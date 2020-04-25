@@ -3,7 +3,7 @@ description: Instrucciones que describen cómo se crea un grupo de informes resu
 title: Crear un grupo de informes resumidos
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
