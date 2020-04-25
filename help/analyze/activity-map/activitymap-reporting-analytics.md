@@ -3,7 +3,7 @@ description: Describe cómo definir permisos y las dimensiones que están dispon
 title: Informes de Activity Map en Analytics
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ Puede [personalizar el acceso de los usuarios a las dimensiones](https://marketi
 
 | Dimensión | Descripción |
 |---|---|
-| Página de Activity Map | Muestra las páginas en las que se hizo clic en un vínculo. |
+| Activity Map  Activity Map | Muestra las páginas en las que se hizo clic en un vínculo. |
 | Región de Activity Map | Indica todas las regiones de los vínculos recopilados en todo el sitio web. Tenga en cuenta que si una región aparece en varias páginas, la métrica se agregará en todas sus páginas. |
 | Vínculos de Activity Map | Indica todos los vínculos recopilados en todo el sitio web. |
 | Vínculos y región de Activity Map | Indica todos los vínculos recopilados con la región correspondiente en todo el sitio web. |
