@@ -3,7 +3,7 @@ description: Los archivos de registro ayudan a ver cuándo los usuarios inician 
 title: Registros
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 
 | Elemento | Descripción |
 |---|---|
-| Intervalo de fechas | Especifique un filtro de intervalo de fechas. Puede introducir una fecha manualmente, con el formato AAAA-MM-DD, o hacer clic en el icono del calendario para seleccionar una fecha. |
+| Intervalo de fecha | Especifique un filtro de intervalo de fechas. Puede introducir una fecha manualmente, con el formato AAAA-MM-DD, o hacer clic en el icono del calendario para seleccionar una fecha. |
 | Inicio de sesión | Filtre el registro por nombre de usuario. |
 | IP | Filtre el registro por dirección IP. |
 | Report Suite | Filtre el registro por un ID de grupo de informes específico. |
@@ -45,7 +45,7 @@ Las herramientas que pueden modificar un grupo de informes desde fuera de las [!
 
 | Elemento | Descripción |
 |---|---|
-| Intervalo de fechas | Especifique un filtro de intervalo de fechas. Puede introducir una fecha manualmente, con el formato AAAA-MM-DD, o hacer clic en el icono del calendario para seleccionar una fecha. |
+| Intervalo de fecha | Especifique un filtro de intervalo de fechas. Puede introducir una fecha manualmente, con el formato AAAA-MM-DD, o hacer clic en el icono del calendario para seleccionar una fecha. |
 | Empresa | Filtre el registro por nombre de empresa. |
 | Inicio de sesión | Filtre el registro por nombre de usuario. |
 | IP | Filtre el registro por dirección IP. |
