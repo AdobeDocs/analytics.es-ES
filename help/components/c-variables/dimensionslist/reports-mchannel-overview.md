@@ -3,7 +3,7 @@ description: El informe de descripción general de canal de marketing está dise
 title: Descripción general de canal de marketing
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
