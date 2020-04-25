@@ -16,23 +16,23 @@ Video de YouTube: Tipos [de visualización en Análisis Workspace](https://www.y
 
 | Nombre de visualización | Descripción |
 |---|---|
-| [Área](/help/analyze/analysis-workspace/visualizations/area.md) | como un gráfico de líneas, pero con un área de color debajo de la línea. Utilice un gráfico de área cuando tenga varias métricas y desee visualizar el área expresada por la intersección de dos o más métricas. |
+| [Área](/help/analyze/analysis-workspace/visualizations/area.md) | como un gráfico de líneas, pero con un área de color debajo de la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas. |
 | [Barra](/help/analyze/analysis-workspace/visualizations/bar.md) | Muestra las barras verticales que representan varios valores en una o más métricas. |
 | [Gráfico de viñetas](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos) o cómo se compara con ellos. |
 | [Tabla de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. |
-| [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md) | Al igual que un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. |
+| [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md) | Similar a un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. |
 | [Abandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. |
 | [Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Muestra las rutas de los clientes a través de sus sitios web y aplicaciones. |
 | [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Una tabla improvisada no es simplemente una tabla de datos, sino también una visualización interactiva. |
-| [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un histograma es similar a un gráfico de barras, pero agrupa los números en intervalos (bloques). |
+| [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un histograma es similar a un gráfico de barras, pero agrupa números en rangos (contenedores). |
 | [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Muestra las barras horizontales que representan varios valores en una o más métricas. |
-| [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) | Representa las métricas que utilizan una línea para mostrar cómo cambian los valores en un período de tiempo. Un gráfico de líneas solo se puede utilizar cuando se utiliza el tiempo como dimensión. |
+| [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) | Representa las métricas que utilizan una línea para mostrar cómo cambian los valores en un período de tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión. |
 | [Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permite crear un mapa visual de cualquier métrica (incluidas las métricas calculadas). |
 | [Diagrama de dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los valores de dimensión y hasta tres métricas. |
 | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | En función de la celda seleccionada, esta visualización muestra los totales y los resúmenes. |
 | [Cambio de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | En función de las celdas seleccionadas, esta visualización compara las celdas entre sí. |
-| [Texto](/help/analyze/analysis-workspace/visualizations/text.md) | Permite agregar texto definido por el usuario a su espacio de trabajo. |
-| [Gráfico de rectángulos](/help/analyze/analysis-workspace/visualizations/treemap.md) | Muestra datos jerárquicos (estructurados en árbol) como un conjunto de rectángulos anidados. |
+| [Texto](/help/analyze/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario al Workspace. |
+| [Gráfico de rectángulos](/help/analyze/analysis-workspace/visualizations/treemap.md) | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Permite arrastrar hasta 3 segmentos (desde Componentes) y una métrica para crear un diagrama de Venn. |
 
 ## Panel de visualizaciones {#section_DC07F032FBEF4046A40F7B95C28DA018}
@@ -41,7 +41,7 @@ To display the Visualizations panel, click **[!UICONTROL Visualizations]** in th
 
 ![Resultado ](assets/visualizations.png)
 
-La mayoría de los tipos de visualización (como los gráficos de área, barras, sectores y líneas) le resultarán familiares si utiliza Adobe Analytics. Sin embargo, Análisis Workspace proporciona ajustes de visualización y muchos tipos de visualizaciones únicas o nuevas con funciones interactivas.
+La mayoría de los tipos de visualización (como los gráficos de área, barras, sectores y líneas) le resultarán familiares si utiliza Adobe Analytics. Sin embargo, Analysis Workspace proporciona una configuración de visualización y múltiples tipos de visualización únicos o nuevos con funciones interactivas.
 
 ## Configuración de visualización {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
@@ -49,52 +49,52 @@ Para acceder [!UICONTROL Visualization Settings], arrastre una visualización ha
 
 >[!IMPORTANT]
 >
->La visibilidad de los ajustes de visualización varía en función de la visualización. No todos los ajustes se aplican a todas las visualizaciones. Además, algunos ajustes avanzados **solo** aparecen para visualizaciones específicas, como la configuración del [histograma](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
+>La visibilidad de los ajustes de visualización varía en función de la visualización. No todos los ajustes se aplican a todas las visualizaciones. Además, algunos ajustes avanzados aparecen **solo** para visualizaciones concretas, como [Ajustes de histograma](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477).
 
 ![](assets/visualization_settings.png)
 
 | Configuración | Descripción |
 |--- |--- |
-| Porcentajes | Muestra los valores en porcentajes. |
-| 100 % apilado | Esta configuración en visualizaciones apiladas de áreas o barras apiladas o horizontales convierte el gráfico en una visualización &quot;100% apilada&quot;. Ejemplo: ![](assets/stacked_100_percent.png) |
-| Leyenda visible | Permite ocultar el texto de los detalles del filtro para la visualización Número de resumen/Cambio de resumen. |
-| Límite máximo de elementos | Permite limitar el número de elementos que muestra una visualización. |
-| Eje Y delimitador a cero | Si todos los valores trazados en el gráfico están considerablemente por encima de cero, el gráfico predeterminado hará que la parte inferior del eje Y sea NO CERO. Si marca esta casilla, el eje y se forzará a cero (y redibujará el gráfico). |
+| Porcentajes | Muestra valores en porcentajes. |
+| Apilada al 100 % | Esta configuración en las visualizaciones de áreas apiladas, barras apiladas o barras horizontales apiladas convierte el gráfico en una visualización apilada al 100 %. Ejemplo: ![](assets/stacked_100_percent.png) |
+| Leyenda visible | Le permite ocultar el texto de detalles del filtro para la visualización de Número de resumen/Resumen del cambio. |
+| Límite máximo de elementos | Le permite limitar el número de elementos que se muestran en una visualización. |
+| Eje Y delimitador a cero | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
 | Normalización | Fuerza métricas para igualar proporciones. |
 | Mostrar eje doble | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). |
-| Mostrar anomalías | Mejora los gráficos de líneas y las tablas improvisadas para mostrar las anomalías de los datos. |
+| Mostrar anomalías | Mejora los gráficos de líneas y las tablas improvisadas para mostrar las anomalías de datos. |
 
 ## Icono Crear imagen {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row. Este icono aparecerá cuando pase el ratón sobre la fila de la tabla. Si hace clic en él, Análisis Workspace le indicará que debe realizar una suposición detallada sobre la visualización que mejor se adapta a sus datos. Por ejemplo, si tiene hasta 3 segmentos seleccionados, creará un diagrama de Venn. Para más de 3 segmentos, se creará un gráfico de barras. Para otros tipos de datos, podría crear un gráfico de líneas, etc.
+If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row. Dicho icono aparecerá cuando se sitúe sobre la fila de la tabla. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene hasta tres segmentos seleccionados, se creará un diagrama de Venn. Para más de tres segmentos, se creará un gráfico de barras. Para otros tipos de datos, es posible que se cree un gráfico de líneas, etc.
 
 ![](assets/create-visual.png)
 
 ## Hacer clic con el botón derecho en el menú Visualización/Panel {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
-Se puede acceder a la configuración contextual de un gráfico al hacer clic con el botón derecho junto al encabezado de una visualización o panel. Habrá alguna o todas las siguientes configuraciones disponibles:
+Se puede acceder a la configuración contextual de un gráfico si hace clic con el botón derecho junto al encabezado de una visualización o un panel. Estarán disponibles todos o algunos de los siguientes ajustes:
 
 ![](assets/right-click_menu.png)
 
 | Configuración | Descripción |
 |--- |--- |
-| Insertar visualización/panel copiado | Permite pegar (&quot;insertar&quot;) el elemento copiado en otro lugar del proyecto o en un proyecto completamente diferente. |
-| Copiar visualización/panel | Permite hacer clic con el botón derecho y copiar una visualización o panel. |
-| Visualización de Duplicado/Panel | Realiza un duplicado exacto de la visualización actual, que puede modificar. |
+| Insertar visualización/panel copiado | Le permite pegar (“insertar”) el elemento copiado en otro lugar del proyecto o en otro proyecto diferente. |
+| Copiar visualización/panel | Le permite hacer clic con el botón derecho y copiar una visualización o un panel. |
+| Duplicar visualización/panel | Crea un duplicado exacto de la visualización actual, el cual puede modificar a continuación. |
 | Contraer todos los paneles | Contrae todos los paneles del proyecto. |
 | Contraer todas las visualizaciones del panel | Contrae todas las visualizaciones de este panel de proyecto. |
-| Expandir todos los paneles | Expande todos los paneles del proyecto. |
-| Expandir todas las visualizaciones del panel | Expande todas las visualizaciones de este panel de proyecto. |
-| Editar descripción | Añada (o edite) una descripción de texto para la visualización o el panel. Esta descripción se muestra en Proyecto > Información y configuración del proyecto. |
-| Obtener vínculo del panel | Permite dirigir a alguien a un panel específico dentro de un proyecto. |
-| Obtener vínculo de visualización | Permite copiar y compartir este vínculo para enviar a otros usuarios directamente a esta visualización. Los usuarios deberán iniciar sesión. |
-| Inicio por encima | (Funciona para Flujo, Venn, Histograma) Elimina la configuración de la visualización actual y abre un nuevo panel donde puede volver a configurarla. |
+| Ampliar todos los paneles | Amplía todos los paneles del proyecto. |
+| Ampliar todas las visualizaciones del panel | Amplía todas las visualizaciones de este panel de proyecto. |
+| Editar descripción | Añade (o edita) una descripción de texto del panel/visualización. Esta descripción se muestra en Proyecto > Información y configuración del proyecto. |
+| Obtener vínculo del panel | Le permite dirigir a los usuarios a un panel concreto de un proyecto. |
+| Obtener vínculo de visualización | Le permite copiar y compartir este vínculo para enviar a otros usuarios directamente a esta visualización. Los usuarios deberán iniciar sesión. |
+| Volver a empezar | (Funciona en Flujo, Venn, Histograma) Elimina la configuración de la visualización actual y abre un panel nuevo donde puede volver a configurarla. |
 
 ## Edición de las etiquetas de la leyenda {#section_94F1988CB4B9434BA1D9C6034062C3DE}
 
-Puede cambiar el nombre de las series en las leyendas de visualización (visitas en el orden previsto, área, área apilada, barra, barras apiladas, anillo, histograma, barras horizontales, barras horizontales apiladas, líneas, dispersión y Venn) para que las imágenes sean más consumibles.
+Le permite cambiar el nombre de las series en las leyendas de las visualizaciones (visitas en el orden previsto, área, área apilada, barras, barras apiladas, anillo, histograma, barras horizontales, barras horizontales apiladas, líneas, dispersión y Venn) para contribuir al uso de las imágenes.
 
-La edición de leyendas **no se aplica** a: Visualizaciones de rectángulo, viñeta, cambio o número de resumen, texto, improvisado, histograma, cohorte o flujo.
+La edición de leyendas **no** se aplica a: visualizaciones de rectángulos, viñetas, número o cambio de resumen, texto, Freeform, histograma, cohorte o flujo.
 
 Para editar una etiqueta de leyenda en un gráfico de líneas, por ejemplo:
 
