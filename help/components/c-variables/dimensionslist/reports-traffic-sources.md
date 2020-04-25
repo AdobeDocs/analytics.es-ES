@@ -3,7 +3,7 @@ description: Muestra información sobre los lugares de Internet que conducen el 
 title: Fuentes de tráfico
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ Los informes de este menú se dividen en tres categorías básicas:
 <table id="table_BF03A24CC90741FB98169742F9D1EB91"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Informe </th> 
+   <th colname="col1" class="entry"> Información general de la tienda de aplicaciones </th> 
    <th colname="col2" class="entry"> Descripción </th> 
   </tr> 
  </thead>
@@ -69,7 +69,7 @@ Los informes de este menú se dividen en tres categorías básicas:
   </tr> 
   <tr> 
    <td colname="col1"> Referentes </td> 
-   <td colname="col2"> <p> Muestra el dominio o la dirección URL desde donde los visitantes llegaron al sitio, cómo encontraron el sitio web y la cantidad de visitas al sitio provenientes de esas ubicaciones referentes. </p> <p>Por ejemplo, si un visitante llega al sitio haciendo clic en un vínculo desde el sitio A, y el sitio A no está definido como parte del dominio, entonces el sitio A es el sitio referente. Durante la implementación, un asesor de implementación puede ayudarle a definir los dominios y las direcciones URL que forman parte de su sitio web (también se puede hacer después de la implementación). Todo dominio o dirección URL que no forme parte de esos dominios y esas direcciones URL que se hayan definido se considerarán referentes. </p> <p>Por ejemplo, si una página web A y una página web B se agregan al filtro de dirección URL interno pero no así la página web C, entonces la página web C se considerará un referente. </p> <p>Consulte  <a href="/help/admin/admin/internal-url-filter-admin.md"> Filtros URL internos</a></p>  <p>Nota: Analytics registra los dominios de referencia como correo electrónico cuando los visitantes llegan al sitio haciendo clic en un vínculo enviado por correo electrónico que contiene el protocolo <code> imap://</code> o <span class="filepath"> mail://</span>. </p> <p>Por ejemplo, todas las visitas procedentes de <code> https://mail.yahoo.com</code> no se cuentan como referente de correo electrónico, porque el protocolo es <span class="filepath">https://</span>. Los mensajes de correo electrónico de Outlook se presentarán en los informes en la línea <span class="wintitle">Escritos o marcadores</span>, mientras que todo referente con un protocolo HTTP cuyo dominio sea un motor de búsqueda conocido se presentará en la línea <span class="wintitle">Motor de búsqueda</span>. </p> </td> 
+   <td colname="col2"> <p> Muestra el dominio o la dirección URL desde donde los visitantes llegaron al sitio, cómo encontraron el sitio web y la cantidad de visitas al sitio provenientes de esas ubicaciones referentes. </p> <p>Por ejemplo, si un visitante llega al sitio haciendo clic en un vínculo desde el sitio A, y el sitio A no está definido como parte del dominio, entonces el sitio A es el sitio referente. Durante la implementación, un asesor de implementación puede ayudarle a definir los dominios y las direcciones URL que forman parte de su sitio web (también se puede hacer después de la implementación). Todo dominio o dirección URL que no forme parte de esos dominios y esas direcciones URL que se hayan definido se considerarán referentes. </p> <p>Por ejemplo, si una página web A y una página web B se agregan al filtro de dirección URL interno pero no así la página web C, entonces la página web C se considerará un referente. </p> <p>Consulte <a href="/help/admin/admin/internal-url-filter-admin.md"> Filtros URL internos</a></p>  <p>Nota: Analytics registra los dominios de referencia como correo electrónico cuando los visitantes llegan al sitio haciendo clic en un vínculo enviado por correo electrónico que contiene el protocolo <code> imap://</code> o <span class="filepath"> mail://</span>. </p> <p>Por ejemplo, todas las visitas procedentes de <code> https://mail.yahoo.com</code> no se cuentan como referente de correo electrónico, porque el protocolo es <span class="filepath">https://</span>. Los mensajes de correo electrónico de Outlook se presentarán en los informes en la línea <span class="wintitle">Escritos o marcadores</span>, mientras que todo referente con un protocolo HTTP cuyo dominio sea un motor de búsqueda conocido se presentará en la línea <span class="wintitle">Motor de búsqueda</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Tipos de referente </td> 
