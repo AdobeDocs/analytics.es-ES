@@ -15,12 +15,12 @@ Adobe utiliza diferentes métodos para identificar a los visitantes del sitio. L
 
 ## ID de visitante en Adobe Experience Platform Launch
 
-[!UICONTROL Visitor ID] es un campo bajo el [!UICONTROL Cookies] acordeón al configurar la extensión de Adobe Analytics.
+[!UICONTROL ID de visitante] es un campo en el acordeón de [!UICONTROL Cookies] al configurar la extensión de Adobe Analytics.
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expanda el [!UICONTROL Cookies] acordeón, que muestra el [!UICONTROL Visitor ID] campo.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+4. Expanda el acordeón [!UICONTROL Cookies], que muestra el campo [!UICONTROL ID de visitante].
 
 Asigne este campo al elemento de datos que contenga su ID de visitante personalizada. No establezca este campo como un valor estático.
 
