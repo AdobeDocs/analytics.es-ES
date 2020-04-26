@@ -1,7 +1,7 @@
 ---
 title: Implementación de Adobe Analytics en un entorno de desarrollo
 description: Descubra cómo utilizar Adobe Experience Platform Launch para implementar Adobe Analytics en su entorno de desarrollo.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
