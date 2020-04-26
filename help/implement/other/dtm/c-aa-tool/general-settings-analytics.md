@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: General
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
