@@ -14,7 +14,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Descripción de los campos en Dynamic Tag Management de la configuración de vista de páginas y contenido al implementar Analytics.
 
-**[!UICONTROL  *`Property`*]** > ![Icono](assets/settings_gear.png) de engranaje **[!UICONTROL Edit Tool]** > **[!UICONTROL Page Views & Content]**
+**[!UICONTROL *`Property`*]** > ![Icono de engranaje](assets/settings_gear.png)**[!UICONTROL  Editar herramienta ]** > **[!UICONTROL  Vistas de página y contenido ]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
@@ -26,14 +26,14 @@ Descripción de los campos en Dynamic Tag Management de la configuración de vis
  <tbody>
   <tr>
    <td colname="col1"> Nombre de la página </td>
-   <td colname="col2"> <p>Nombre de cada página del sitio. </p> <p>Consulte <a href="../../../vars/page-vars/pagename.md">pageName</a>. </p> </td>
+   <td colname="col2"> <p>El nombre de cada una de las páginas del sitio. </p> <p>Consulte <a href="../../../vars/page-vars/pagename.md">pageName</a>. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> Anulación de dirección URL de página </td>
+   <td colname="col1"> Anulación de URL de la página </td>
    <td colname="col2"> <p> Anula la dirección URL real de la página. </p> <p>Consulte <a href="../../../vars/page-vars/pageurl.md">pageURL</a>. </p> </td>
   </tr>
   <tr>
-   <td colname="col1"> Canal (Sección del sitio) </td>
+   <td colname="col1"> Canal (sección del sitio) </td>
    <td colname="col2"> <p>Identifica una sección del sitio. </p> <p>Consulte <a href="../../../vars/page-vars/channel.md">canal</a>. </p> </td>
   </tr>
   <tr>
