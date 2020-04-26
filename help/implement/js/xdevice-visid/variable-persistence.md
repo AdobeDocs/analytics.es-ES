@@ -17,7 +17,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 Cuando los perfiles de los visitantes se combinan después de asociarse a la misma variable de ID de visitante, la atribución no cambia en el conjunto de datos históricos.
 
 * Cuando la variable `s.visitorID` se configura y envía en una visita, Adobe comprueba si hay algún otro perfil del visitante con el mismo ID de visitante.
-* Si existe un perfil, a partir de ese momento se utilizará el perfil de visitante que ya está en el sistema y ya no se utilizará el perfil de visitante anterior.
+* Si existe un perfil, a partir de ese momento se utilizará el perfil del visitante que ya está almacenado en el sistema, mientras que el perfil anterior dejará de usarse.
 * Si no se encuentra ningún ID de visitante coincidente, se crea un nuevo perfil.
 
 Cuando un cliente no autenticado llega a su sitio, Adobe Analytics asigna a ese cliente un perfil del visitante. Al crearse el perfil nuevo, finaliza una visita y se inicia otra visita.
@@ -38,7 +38,7 @@ En la primera conexión de datos que contenga un valor `s.visitorID` anteriormen
 
 * Las eVars configuradas para caducar en la visita no se copian en el perfil autenticado. Observe que el valor `car` anterior no se mantiene.
 * Las eVars configuradas para caducar con otras medidas se copiarán en el perfil autenticado. Observe que el valor `apple` se mantiene.
-* Para las eVars que se mantienen, no se registra ninguna métrica Instancia. Esto significa que, al utilizar la identificación de visitantes entre dispositivos, es posible ver informes en los que la métrica Visitas únicas de un valor de eVar es mayor que la métrica Instancia.
+* Para las eVars que se mantienen, no se registra ninguna métrica Instancia. Esto significa que, al usar la identificación de visitantes entre dispositivos, pueden aparecer informes donde la métrica Visitas únicas de un valor eVar sea más grande que la métrica Instancia.
 
 >[!NOTE] Si un usuario es nuevo en el sitio (nunca antes lo ha visitado en este dispositivo) y se autentica en un plazo aproximado de 3 minutos tras su llegada, no se mantiene ningún valor en el perfil autenticado.
 
@@ -50,6 +50,6 @@ El ejemplo siguiente representa cómo se envían los datos a Adobe Analytics cua
 
 Cuando el cliente se autentica, coincide con el perfil “autenticado” anterior: `2947539300`. El perfil usado al principio de esta visita (`5477766334477`) ya no se usa y no se mantienen datos del archivo.
 
-* Los datos de segmentación geográfica se registran en función de la primera visita y no cambian en una sola visita, independientemente del dispositivo utilizado. Esto significa que en una conexión de datos posterior en un dispositivo nuevo, los datos de segmentación geográfica generalmente no se incluyen.
-* Las columnas de tecnología como explorador, sistema operativo y profundidad de color se registran en la primera visita individual de una visita. Como sucede con los valores de segmentación geográfica, no se copian en el perfil identificado.
+* Los datos de segmentación geográfica se registran en función de la primera visita y no cambian para una única visita, independientemente del dispositivo que se use. Esto significa que, en las posteriores conexiones de datos en un dispositivo nuevo, los datos de segmentación geográfica no se suelen incluir.
+* Las columnas de tecnología, como explorador, sistema operativo y profundidad de color, se registran en la primera visita. Como sucede con los valores de segmentación geográfica, no se copian en el perfil identificado.
 * Los canales de Marketing sobrescriben otros canales en una conexión de datos posterior que contiene una primera autenticación para ese dispositivo.
