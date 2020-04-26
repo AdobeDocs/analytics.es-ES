@@ -2,7 +2,7 @@
 description: Mediante el uso de un asistente de “Plug and Play”, los procesos intuitivos paso a paso le guían por los puntos de sincronización del sistema e inicializarán la integración.
 title: Procedimiento de integración y requisitos previos
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
