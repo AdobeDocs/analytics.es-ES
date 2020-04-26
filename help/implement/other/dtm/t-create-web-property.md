@@ -20,7 +20,7 @@ Puede administrar y rastrear estos recursos con DTM. Por ejemplo, supongamos que
 
 Para obtener información general sobre propiedades web y prácticas recomendadas, consulte [Propiedades web](https://marketing.adobe.com/resources/help/es_ES/dtm/web_property.html) en la documentación del producto de Dynamic Tag Management.
 
-1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
+1. Vaya a la página de su empresa y haga clic en **[!UICONTROL Agregar propiedad]**.
 
    ![](assets/dtm-create-web-property.png)
 
@@ -44,12 +44,12 @@ Para obtener información general sobre propiedades web y prácticas recomendada
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Este sitio expande varios dominios </span> </td> 
-    <td colname="col2"> <p>Puede agregar y eliminar dominios si desea que los datos de visitante se mantengan entre dominios. Si se selecciona esta opción, los datos de la visita persisten entre los subdominios. </p> <p>Esta opción le permite especificar cómo desea rastrear el tráfico que se mueve entre los subdominios o dominios asociados. Los vínculos a subdominios se tratan como vínculos salientes. Las visitas a los subdominios se rastrean por separado. </p> </td> 
+    <td colname="col2"> <p>Puede agregar y eliminar dominios si desea que los datos del visitante se mantengan entre los dominios. Si se selecciona esta opción, los datos de la visita persisten entre subdominios. </p> <p>Este ajuste le permite especificar cómo desea rastrear el tráfico entre sus subdominios o dominios asociados. Los vínculos a subdominios se tratan como vínculos de salida. Las visitas a subdominios se rastrean separadamente. </p> </td> 
     </tr> 
     </tbody> 
     </table>
 
-1. (Opcional) Configure [!UICONTROL Advanced Settings].
+1. (Opcional) Configure la [!UICONTROL Configuración avanzada].
 
    <table id="table_6E687FBE6ACC4301BCCD837F4DCBB9C9"> 
     <thead> 
@@ -61,25 +61,25 @@ Para obtener información general sobre propiedades web y prácticas recomendada
     <tbody> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Permitir aprobaciones de reglas múltiples</span> </td> 
-    <td colname="col2"> <p>Permite que se aprueben múltiples reglas para esta propiedad al mismo tiempo. La aprobación predeterminada solo permite la aprobación de una sola regla. </p> </td> 
+    <td colname="col2"> <p>Permite que se aprueben múltiples reglas para esta propiedad al mismo tiempo. La aprobación predeterminada permite aprobar una única regla. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Habilitar publicación selectiva</span> </td> 
-    <td colname="col2"> <p>Especifica si se permite a los usuarios seleccionar qué reglas aprobadas se publican. Ésta es la opción predeterminada. </p> </td> 
+    <td colname="col2"> <p>Especifica si se permite a los usuarios seleccionar qué reglas de aprobación se publican. Se trata de la opción predeterminada. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Nombre de cookie de seguimiento</span> </td> 
-    <td colname="col2"> <p>Anula el nombre de la cookie de seguimiento predeterminado. Puede personalizar el nombre que la administración dinámica de etiquetas utiliza para rastrear el estado de exclusión para recibir otras cookies. </p> </td> 
+    <td colname="col2"> <p>Anula el nombre de la cookie de seguimiento predeterminado. Puede personalizar el nombre que utiliza Dynamic Tag Management para rastrear el estado de exclusión para recibir otras cookies. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Tiempo de espera de etiqueta</span> </td> 
-    <td colname="col2"> <p>Especifica cuánto tiempo espera la administración dinámica de etiquetas a que se active una etiqueta antes de agotar el tiempo de espera y cancelar la solicitud de etiqueta. </p> <p> Debido al funcionamiento de la administración dinámica de etiquetas, no se preocupe de que este número sea elevado. La DTM cuenta con métodos eficaces para garantizar que las etiquetas lentas no afecten a la experiencia del usuario. </p> </td> 
+    <td colname="col2"> <p>Especifica cuánto tiempo espera Dynamic Tag Management a que una etiqueta se active antes de cancelar su solicitud. </p> <p> Debido al modo en que funciona Dynamic Tag Management, no se preocupe si el valor es muy grande. DTM cuenta con métodos eficaces de asegurar que las etiquetas lentas no afecten a la experiencia de usuario. </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> Retraso de anclaje</span> </td> 
-    <td colname="col2"> <p>Especifica cuánto tiempo espera la administración dinámica de etiquetas para que las etiquetas se activen cuando se hace clic en los vínculos antes de pasar a la página siguiente. El valor predeterminado es 100 milisegundos. </p> <p>Un tiempo de espera superior mejora la precisión de seguimiento. Adobe recomienda un tiempo de espera de 500 milisegundos o menos, ya que el usuario no lo percibirá. </p> <p>La administración dinámica de etiquetas esperará hasta el tiempo especificado, pero si la señalización se activa antes, el retraso se acortará. (esto significa que el usuario no siempre tendrá que esperar durante todo el tiempo de espera). </p> </td> 
+    <td colname="col2"> <p>Especifica cuánto tiempo espera Dynamic Tag Management a que las etiquetas se activen cuando se pulsa un vínculo, antes de pasar a la siguiente página. El valor predeterminado es 100 milisegundos. </p> <p>Un tiempo de espera superior mejora la precisión de seguimiento. Adobe recomienda un tiempo de espera de 500 milisegundos o menos, ya que el usuario no lo percibirá. </p> <p>Dynamic Tag Management esperará el tiempo especificado, pero se reducirá el tiempo de espera si la señalización se activa antes de lo previsto (esto significa que el usuario no siempre tendrá que esperar durante todo el tiempo de espera). </p> </td> 
     </tr> 
     </tbody> 
     </table>
 
-1. Haga clic en **[!UICONTROL Create Property]**.
+1. Haga clic en **[!UICONTROL Crear propiedad]**.
