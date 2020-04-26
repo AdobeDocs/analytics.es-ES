@@ -1,7 +1,7 @@
 ---
 title: Seguimiento de correo electrónico externo
 description: Utilice Adobe Analytics para realizar un seguimiento del contenido del correo electrónico.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
