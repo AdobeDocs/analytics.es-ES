@@ -17,15 +17,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 El siguiente ejemplo ilustra el funcionamiento de la identificación de visitantes entre dispositivos mediante una muestra de llamadas al servidor enviadas en una interacción común de clientes.
 
-| Llamada al servidor | Acción | Cookie de ID de Visitante | Variable de ID de Visitante | ID de Visitante efectivo | Número de página de visita | Número de visita |
+| Llamada al servidor | Acción | Cookie de ID de visitante | Variable de ID de visitante | ID de visitante efectiva | Número de página de visita | Número de visita |
 |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Un visitante hace clic en un vínculo de un mensaje de correo electrónico de marketing y visita el sitio desde el equipo doméstico. Este visitante ha visitado su sitio 7 veces más en el pasado. | 1 | - | 1 | 1 | 8 |
-| 2-8 | Visita 7 páginas adicionales del sitio. | 1 | - | 1 | 2-8 | 8 |
-| 9 | Se autentica en el equipo doméstico. | 1 | CID1 | CID1 | 9 <br>(Esta es la primera visita de CID1, de modo que se continúa en el perfil del visitante desde el ID de visitante 1.) | 8 |
+| 1 | Un visitante hace clic en un vínculo de un correo electrónico de marketing y visita su sitio desde el equipo de casa. Este visitante ha visitado su sitio 7 veces más en el pasado. | 1 | - | 1 | 1 | 8 |
+| 2-8 | Visita otras 7 páginas del sitio. | 1 | - | 1 | 2-8 | 8 |
+| 9 | Se autentica en el equipo de casa. | 1 | CID1 | CID1 | 9 <br>(Esta es la primera visita de CID1, de modo que se continúa en el perfil del visitante desde el ID de visitante 1.) | 8 |
 | 10 | Visita 1 página adicional. | 1 | CID1 | CID1 | 10 | 8 |
-| 11 | Abre el sitio desde el ordenador portátil en la oficina. Este visitante no ha visitado el sitio antes de utilizar este dispositivo. | 2 | - | 2 | 1 | 1 |
-| 12 | Se autentica en el portátil. | 2 | CID1 | CID1 | 1 | 9 |
-| 13 | Vistas 1 página adicional. | 2 | CID1 | CID1 | 2 | 9 |
+| 11 | Abre el sitio desde el ordenador portátil de la oficina. El visitante no ha visitado el sitio antes de utilizar este servicio. | 2 | - | 2 | 1 | 1 |
+| 12 | Se autentica en el ordenador portátil. | 2 | CID1 | CID1 | 1 | 9 |
+| 13 | Ve 1 página adicional. | 2 | CID1 | CID1 | 2 | 9 |
 
 ## Recuento de visitas
 
