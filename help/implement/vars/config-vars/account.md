@@ -13,5 +13,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 En versiones anteriores de Adobe Analytics, la variable `account` determinaba el grupo de informes al que desee enviar los datos. Se requiere un ID de grupo de informes para enviar datos a Adobe Analytics.
 
-* If you use Adobe Experience Platform Launch, report suites reside under the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
+* Si utiliza Adobe Experience Platform Launch, los grupos de informes residen en el acordeón de [!UICONTROL Administración de biblioteca] al configurar la extensión de Adobe Analytics.
 * Si utiliza la función [`s_gi()`](../functions/s-gi.md) para crear una instancia de un objeto de seguimiento de Analytics, el ID del grupo de informes ya existe como argumento requerido en la función.
