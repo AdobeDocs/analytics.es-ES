@@ -24,8 +24,8 @@ Períodos de dominio es un campo en el acordeón de [!UICONTROL Cookies] al conf
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expanda el [!UICONTROL Cookies] acordeón, que muestra el [!UICONTROL Domain Periods] campo.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+4. Expanda el acordeón de [!UICONTROL Cookies], que muestra el campo [!UICONTROL Períodos de dominio].
 
 Establezca este campo como `3` solo en los dominios que contengan un punto en su sufijo. De lo contrario, este campo se puede dejar en blanco.
 
