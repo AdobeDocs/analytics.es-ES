@@ -1,7 +1,7 @@
 ---
 title: Solución de problemas de implementación de JavaScript
 description: Obtenga más información sobre problemas comunes y prácticas recomendadas para solucionar problemas de la implementación de JavaScript.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
 
 ---
