@@ -24,12 +24,12 @@ La siguiente tabla compara estos dos métodos:
 
 |  | **Plantilla “adobeanalytics”** | **Plantilla “adobeanalytics_nativeConfig”** |
 |---|---|---|
-| Recuentos de visitante/visita en un grupo de informes existente | Alta inflación | Inflación mínima |
+| Recuentos de visitante/visita en un grupo de informes existente | Alta inflación | Mínima inflación |
 | Usar un grupo de informes independiente | Recomendado | No necesario |
-| visitantes de retorno vs. nuevos | No admitido | Admitida |
-| Servicio de ID de Visitante | No admitido | Admitida |
-| Seguimiento de vídeos y vínculos | Compatibilidad parcial | Aún no se admite |
-| Dificultad de aplicación | Algo difícil | Relativamente fácil |
+| Visitantes nuevos frente a visitantes de retorno | No admitido | Admitido |
+| Servicio de ID de visitante | No admitido | Admitido |
+| Seguimiento de vídeos y vínculos | Compatibilidad parcial | No admitido aún |
+| Dificultad de implementación | Algo difícil | Relativamente fácil |
 | Integraciones de Adobe Experience Cloud | No admitido | Compatibilidad parcial |
 
 Valore los pros y los contras dentro de la organización para determinar qué método desea utilizar. Consulte [ejemplos de AMP](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web) en el repositorio GitHub de Adobe para obtener código de muestra.
@@ -161,7 +161,7 @@ No. El estándar de AMP solo admite activadores para “visible”, “click” 
 
 **¿Cómo puedo diferenciar a los visitantes de AMP de otros en mis datos?**
 
-For all AMP pages, the [!UICONTROL JavaScript Version] dimension collects a value similar to `AMP vX.X`. También puede establecer una dimensión personalizada en “AMP” para poder segmentar a estos visitantes.
+Para todas las páginas de AMP, la dimensión [!UICONTROL Versión de JavaScript] recopila un valor similar a `AMP vX.X`. También puede establecer una dimensión personalizada en “AMP” para poder segmentar a estos visitantes.
 
 **¿En qué se diferencia este método de implementación de los Artículos instantáneos de Facebook?**
 
