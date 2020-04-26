@@ -17,8 +17,8 @@ Puede obtener datos de parámetros de cadena de consulta estableciendo valores e
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Go to the [!UICONTROL Data Elements] tab, then click the desired data element (or create a data element).
-4. Establezca el [!UICONTROL Extension] menú desplegable en [!UICONTROL Core]y el valor [!UICONTROL Data Element Type] en [!UICONTROL Query String Parameter].
+3. Vaya a la pestaña [!UICONTROL Elementos de datos] y, a continuación, haga clic en el elemento de datos deseado (o cree un elemento de datos).
+4. Establezca el menú desplegable [!UICONTROL Extensión] como [!UICONTROL Principal] y el [!UICONTROL Tipo de elemento de datos] como [!UICONTROL Parámetro de cadena de consulta].
 5. Introduzca el parámetro de cadena de consulta en el campo de texto.
 
 El valor del parámetro de cadena de consulta se almacena en el elemento de datos. A continuación, puede hacer referencia al elemento de datos en las reglas para asignar variables de Analytics.
