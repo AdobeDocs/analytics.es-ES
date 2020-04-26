@@ -19,12 +19,12 @@ Si utiliza `linkInternalFilters` y `linkExternalFilters` simultáneamente, el v�
 
 ## Vínculos de salida: No rastrear Adobe Experience Platform Launch
 
-The Never Track field is a comma-separated list of filters (usually domains) under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+El campo No rastrear nunca es una lista de filtros separados por comas (generalmente dominios) bajo el acordeón de [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expanda el [!UICONTROL Link Tracking] acordeón, que muestra el [!UICONTROL Outbound Links - Never Track] campo.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra el campo [!UICONTROL Vínculos de salida: No rastrear].
 
 Coloque filtros que no desee que se rastreen como vínculos de salida en este campo. Separe varios dominios con una coma sin espacios.
 
