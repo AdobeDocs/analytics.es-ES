@@ -14,9 +14,9 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Descripciones de los campos de Dynamic Tag Management de seguimiento de vínculos al implementar Analytics.
 
-**[!UICONTROL  *`Property`*]**  > **[!UICONTROL   ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** > **[!UICONTROL![](assets/settings_gear.png)
 
-Edit Tool]** > **[!UICONTROL Link Tracking]**
+Editar herramienta]** > **[!UICONTROL Seguimiento de vínculos]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
@@ -28,19 +28,19 @@ Edit Tool]** > **[!UICONTROL Link Tracking]**
  <tbody> 
   <tr> 
    <td colname="col1"> Habilitar ClickMap </td>
-   <td colname="col2"> <p>Determina si se recopilan los datos del mapa de clics de visitante. </p> <p>Consulte <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
+   <td colname="col2"> <p>Determina si se recopilarán los datos del mapa de clics de visitantes. </p> <p>Consulte <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Rastrear vínculos de descarga </td>
-   <td colname="col2"> <p>Rastrea vínculos a archivos descargables en el sitio. </p> <p>Consulte <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
+   <td colname="col2"> <p>Rastrea los vínculos a archivos descargables del sitio. </p> <p>See <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Extensiones de descarga </td> 
-   <td colname="col2"> <p>Si su sitio contiene vínculos a archivos con cualquiera de las extensiones enumeradas, las direcciones URL de estos vínculos aparecerán en sistema de informes. </p>Consulte <a href="../../../vars/config-vars/linkdownloadfiletypes.md">linkDownloadFileTypes</a>. </p> </td>
+   <td colname="col2"> <p>Si su sitio contiene vínculos a archivos con cualquiera de las extensiones enumeradas, las direcciones URL de estos vínculos aparecerán en el informe. </p>Consulte <a href="../../../vars/config-vars/linkdownloadfiletypes.md">linkDownloadFileTypes</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> Rastrear vínculos salientes </td>
-   <td colname="col2"> <p>Determina si un vínculo en el que se hizo clic es un vínculo de salida. </p> <p>Consulte <a href="../../../vars/config-vars/trackexternallinks.md">trackExternalLinks</a>. </p> <p><b>Consideraciones para aplicaciones de una sola página:</b> debido al tipo de codificación de algunos sitios web de SPA, es posible que los vínculos internos a una página de la SPA parezcan un vínculo de salida. </p> <p>Puede utilizar uno de los siguientes métodos para rastrear los vínculos de salida de los sitios de la SPA: </p>
+   <td colname="col2"> <p>Determina si un vínculo en el que se hace clic es un vínculo de salida. </p> <p>Consulte <a href="../../../vars/config-vars/trackexternallinks.md">trackExternalLinks</a>. </p> <p><b>Consideraciones para aplicaciones de una sola página:</b> debido al tipo de codificación de algunos sitios web de SPA, es posible que los vínculos internos a una página de la SPA parezcan un vínculo de salida. </p> <p>Puede utilizar uno de los siguientes métodos para rastrear los vínculos de salida de los sitios de la SPA: </p>
     <ul id="ul_A4179633ED0644C3BA5F548A58CA4EC9">
      <li id="li_1959FBF14E42469FA8724B37EB58BC54"> <p>Si no desea rastrear ningún vínculo de salida de su SPA, introduzca una entrada en la sección <span class="wintitle">No rastrear nunca</span>. </p> <p>Por ejemplo: <span class="filepath">https://testsite.com/spa/#</span> </p> <p>Se ignorarán todos los vínculos #. Se rastrearán todos los vínculos de salida a otros hosts, como <span class="filepath">https://www.google.com</span>. </p> </li>
      <li id="li_37DD4D37887243FB928C9C04ACE9D39E"> <p>Si hay algún vínculo que quiera rastrear en su SPA, utilice la sección <span class="wintitle">Rastrear siempre</span>. </p> <p>Por ejemplo, si tiene una página <span class="filepath">spa/#/about</span>, puede poner “about” en la sección <span class="wintitle">Rastrear siempre</span>. </p> <p>La página “about” será el único vínculo de salida que se rastreará. No se rastreará ningún otro vínculo de la página (por ejemplo, <span class="filepath">https://www.google.com</span>). </p> </li>
