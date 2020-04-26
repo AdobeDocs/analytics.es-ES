@@ -25,13 +25,13 @@ Esta página describe de forma general el mejor modo de utilizar Adobe Analytics
 
 ## Información general de la arquitectura de la experiencia digital
 
-![Flujo de trabajo de Digital Assistant](assets/Digital-Assitants.png)
+![Flujo de trabajo de asistentes digitales](assets/Digital-Assitants.png)
 
 La mayoría de los asistentes digitales de hoy en día siguen una arquitectura de alto nivel similar:
 
-1. **Dispositivo**: Hay un dispositivo (como Amazon Echo o un teléfono) con un micrófono que permite al usuario hacer una pregunta.
-1. **Asistente** digital: Ese dispositivo interactúa con el servicio que alimenta al asistente digital. Es donde el habla se convierte en intenciones comprensibles para la máquina y donde se analizan los detalles de la solicitud. Una vez entendida la intención del usuario, el asistente digital la transmite junto con los detalles de la solicitud a la aplicación que se encarga de tramitar dicha solicitud.
-1. **&quot;Aplicación&quot;**: La aplicación puede ser una aplicación en el teléfono o una aplicación de voz. La aplicación es la encargada de responder a la solicitud. Responde al asistente digital, que a su vez responde al usuario.
+1. **Dispositivo:** hay un dispositivo (como un Amazon Echo o un teléfono) con un micrófono que permite al usuario hacer una pregunta.
+1. **Asistente digital:** el dispositivo interactúa con el servicio que alimenta el asistente digital. Es donde el habla se convierte en intenciones comprensibles para la máquina y donde se analizan los detalles de la solicitud. Una vez entendida la intención del usuario, el asistente digital la transmite junto con los detalles de la solicitud a la aplicación que se encarga de tramitar dicha solicitud.
+1. **“Aplicación”:** puede tratarse de una aplicación que hay en el teléfono o de una aplicación de voz. La aplicación es la encargada de responder a la solicitud. Responde al asistente digital, que a su vez responde al usuario.
 
 ## Dónde se implementa Analytics
 
@@ -77,7 +77,7 @@ Cache-Control: no-cache
 
 ## Identificación de usuarios/visitantes
 
-Adobe Analytics utiliza el [servicio de Adobe Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html) para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven un `userID` que puede utilizar para mantener la actividad de distintos usuarios. En la mayoría de los casos, este valor es lo que se puede pasar como identificador único. Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos. En estos casos, Adobe recomienda que se utilice la función hash con el identificador único y se cree un valor de longitud fija mediante un algoritmo hash estándar, como MD5 o Sha1.
+Adobe Analytics utiliza el [servicio de Adobe Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) para enlazar las interacciones a lo largo del tiempo con la misma persona. La mayoría de los asistentes digitales devuelven un `userID` que puede utilizar para mantener la actividad de distintos usuarios. En la mayoría de los casos, este valor es lo que se puede pasar como identificador único. Algunas plataformas devuelven un identificador que supera los 100 caracteres permitidos. En estos casos, Adobe recomienda que se utilice la función hash con el identificador único y se cree un valor de longitud fija mediante un algoritmo hash estándar, como MD5 o Sha1.
 
 El uso del servicio de ID proporciona el mayor valor al asignar un ECID a distintos dispositivos (por ejemplo, web a asistente digital). Si la aplicación es móvil, utilice los SDK de Experience Platform tal cual y envíe el ID de usuario con el método `setCustomerID`. Sin embargo, si su aplicación es un servicio, utilice el ID proporcionado por el servicio de ECID y configúrelo en `setCustomerID`.
 
@@ -97,12 +97,12 @@ Como los asistentes digitales son conversacionales, a menudo incluyen el concept
 
 **Consumidor:** “Las 8:30 de la tarde”.
 
-**** Google: &quot;Suena bien, el conductor estará a las 8:30pm&quot;
+**Google:** “Muy bien, el conductor llegará a las 8:30 de la tarde”.
 
 Las sesiones son importantes para mantener el contexto y ayudar a recopilar más detalles para que el asistente digital sea más natural. Cuando se implementa Analytics en una conversación, hay dos cosas que deben hacerse al comienzo de una nueva sesión:
 
-1. **Póngase en contacto con Audience Manager**: Obtenga los segmentos relevantes de los que forma parte un usuario para poder personalizar la respuesta. (Por ejemplo, esa persona es elegible en este momento para del descuento multicanal).
-2. **Enviar en una nueva sesión o evento** de inicio: Cuando envíe la primera respuesta a Analytics, incluya un evento de inicio. Normalmente puede hacerse estableciendo los datos de contexto `a.LaunchEvent=1`.
+1. **Póngase en contacto con Audience Manager:** obtenga los segmentos relevantes a los que pertenece un usuario para que pueda personalizar la respuesta. (Por ejemplo, esa persona es elegible en este momento para del descuento multicanal).
+2. **Envíe un evento de nueva sesión o de inicio:** cuando envíe la primera respuesta a Analytics, incluya un evento de inicio. Normalmente puede hacerse estableciendo los datos de contexto `a.LaunchEvent=1`.
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
