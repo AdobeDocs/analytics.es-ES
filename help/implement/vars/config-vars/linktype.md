@@ -23,12 +23,12 @@ Establezca el tipo de vínculo al configurar una regla para enviar una señaliza
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
-6. Click the `s.tl()` radio button which reveals the [!UICONTROL Link Type] dropdown.
+3. Vaya a la pestaña [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una regla).
+4. En [!UICONTROL Acciones], haga clic en el icono “+”.
+5. Establezca la lista desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en Enviar señalización.
+6. Haga clic en el botón de radio `s.tl()` que muestra la lista desplegable [!UICONTROL Tipo de vínculo].
 
-Puede establecer este menú desplegable en [!UICONTROL Custom Link], [!UICONTROL Download Link]o [!UICONTROL Exit Link].
+Puede configurar este menú desplegable como [!UICONTROL Vínculo personalizado], [!UICONTROL Vínculo de descarga] o [!UICONTROL Vínculo de salida].
 
 ## s.linkType en el editor de código personalizado de AppMeasurement y Launch
 
