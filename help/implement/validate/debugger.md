@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Esta herramienta de depuración ya no se mantiene. Adobe recomienda usar la extensión [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html) para Chrome.
 
-The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. El uso del depurador permite ver qué datos se envían a Adobe en cualquier página del sitio. Puede utilizar esta información para solucionar problemas o validar la implementación de su organización.
+Las versiones anteriores de [!UICONTROL Debugger] inspeccionan las etiquetas de la mayoría de los servicios de Adobe Experience Cloud. El uso del depurador permite ver qué datos se envían a Adobe en cualquier página del sitio. Puede utilizar esta información para solucionar problemas o validar la implementación de su organización.
 
 ## Instalación de versiones anteriores de Debugger
 
