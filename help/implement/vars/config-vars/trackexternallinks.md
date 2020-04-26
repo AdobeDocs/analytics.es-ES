@@ -15,12 +15,12 @@ Cuando está habilitado, AppMeasurement compara cualquier URL de vínculo en el 
 
 ## Seguimiento de vínculos de salida en Adobe Experience Platform Launch
 
-Track outbound links is a checkbox under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+Rastrear vínculos de salida es una casilla de verificación bajo el acordeón de [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expanda el [!UICONTROL Link Tracking] acordeón, que muestra la [!UICONTROL Track outbound links] casilla de verificación.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra la casilla [!UICONTROL Rastrear vínculos de salida].
 
 Haga clic en la casilla de verificación para habilitar el seguimiento automático de vínculos de salida.
 
