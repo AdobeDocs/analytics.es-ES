@@ -27,8 +27,8 @@ Las variables globales son ideales en los casos en los que desee establecer valo
 
 1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
 1. Haga clic en la propiedad Launch que desee.
-1. Haga clic en la [!UICONTROL Extensions tab], luego haga clic [!UICONTROL Configure] en la extensión Adobe Analytics.
-1. Haga clic en el [!UICONTROL Global variables] acordeón, que muestra la interfaz para asignar variables globales.
+1. Click the [!UICONTROL Extensions tab], then click [!UICONTROL Configure] under the Adobe Analytics extension.
+1. Haga clic en el acordeón Variables  globales, que muestra la interfaz para asignar variables globales.
 
 ### Establecer variables en reglas
 
@@ -36,11 +36,11 @@ Las variables configuradas en las reglas son ideales en los casos en los que no 
 
 1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
 1. Haga clic en la propiedad Launch que desee.
-1. Haga clic en la [!UICONTROL Rules] ficha y, a continuación, haga clic en la regla que desee (o cree una).
-1. Haga clic en el [!UICONTROL Add] botón debajo de [!UICONTROL Actions].
-1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. Haga clic en la ficha [!UICONTROL Reglas] y, a continuación, haga clic en la regla que desee (o cree una).
+1. Haga clic en el botón [!UICONTROL Añadir] en [!UICONTROL Acciones].
+1. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en Establecer variables.
 1. Haga clic en el icono del elemento ![](assets/data-element.png) Datos a la derecha de la variable de Analytics deseada. El documento [de diseño de](../prepare/solution-design.md) soluciones de su organización dicta qué variable de Analytics usar.
-1. Seleccione el elemento de datos deseado en la ventana modal. Haga clic en [!UICONTROL Select].
+1. Seleccione el elemento de datos deseado en la ventana modal. Haga clic en [!UICONTROL Seleccionar].
 1. El nombre del elemento de datos se agrega al campo de texto rodeado de `%` signos. Por ejemplo, si le asignara al elemento de datos el nombre &quot;Nombre de página&quot;, vería la cadena `%Page name%` al asignar un elemento de datos a una variable.
 
 >[!TIP] Puede concatenar elementos de datos en la misma variable. Por ejemplo, si tiene un elemento de datos &quot;Nombre de host&quot; y un elemento de datos &quot;Nombre de ruta&quot;, puede combinar ambos en una sola variable mediante `%Hostname%%Pathname%`.
