@@ -19,15 +19,15 @@ Duración de la cookie es un menú desplegable en el acordeón de [!UICONTROL Co
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expanda el [!UICONTROL Cookies] acordeón, que muestra el [!UICONTROL Cookie Lifetime] menú desplegable.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+4. Expanda el acordeón [!UICONTROL Cookies], que muestra el menú desplegable [!UICONTROL Duración de la cookie].
 
 Este menú desplegable contiene los siguientes valores:
 
 * **Predeterminado**: La cookie caduca pasados 2 años.
 * **Ninguno**: AppMeasurement no establece cookies.
 * **Sesión**: La cookie caduca al final de la sesión del visitante.
-* **Segundos**: La cookie caduca después de que haya transcurrido el número de segundos especificado. For example, setting this dropdown to [!UICONTROL Seconds] and placing `86400` into the custom field forces cookies to expire after exactly 24 hours.
+* **Segundos**: La cookie caduca después de que haya transcurrido el número de segundos especificado. Por ejemplo, si se establece este menú desplegable en [!UICONTROL Segundos] y se coloca `86400` en el campo personalizado, las cookies caducan exactamente después de 24 horas.
 
 ## s.cookieLifetime en el editor de código personalizado de AppMeasurement y Launch
 
