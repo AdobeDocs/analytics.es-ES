@@ -2,7 +2,7 @@
 description: Utilice el asistente de configuración de Adobe Data Connectors para configurar la integración.
 title: Activación de la integración
 uuid: 93c59f8e-3cf5-44c1-9a04-22460af93d5d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
