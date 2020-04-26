@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;rev
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Preguntas frecuentes sobre la herramienta Adobe Analytics
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
