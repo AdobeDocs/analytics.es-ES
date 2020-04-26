@@ -9,15 +9,15 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # sa
 
-El `sa()` método permite cambiar dinámicamente un grupo de informes en cualquier momento de la página. Si desea enviar datos a distintos grupos de informes sin una recarga de página, puede utilizar este método.
+El método `sa()` permite cambiar dinámicamente un grupo de informes en la página en cualquier momento. Si desea enviar datos a distintos grupos de informes sin una recarga de página, puede utilizar este método.
 
 ## Uso del método sa en Adobe Experience Platform Launch
 
-No existe una manera flexible de cambiar el grupo de informes en la interfaz. Puede configurar el grupo de informes en el acordeón [!UICONTROL Library Management] al configurar la extensión de Adobe Analytics. Sin embargo, no puede cambiar ni actualizar el grupo de informes mediante reglas. Si desea actualizar los valores de los grupos de informes una vez configurados, utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
+No existe una manera flexible de cambiar el grupo de informes en la interfaz. Puede configurar el grupo de informes en el acordeón de [!UICONTROL Administración de biblioteca] al configurar la extensión de Adobe Analytics. Sin embargo, no puede cambiar ni actualizar el grupo de informes mediante reglas. Si desea actualizar los valores de los grupos de informes una vez configurados, utilice el editor de código personalizado siguiendo la sintaxis de AppMeasurement.
 
-## s.sa() en el editor de código personalizado AppMeasurement e Launch
+## s.sa() en el editor de código personalizado de AppMeasurement y Launch
 
-Llame al `s.sa()` método para cambiar el grupo de informes de destino. Su único argumento es una cadena que contiene una ID de grupo de informes o varias ID de grupo de informes delimitadas por una coma. Se requiere el argumento de la ID del grupo de informes. No utilice espacios en el argumento de cadena.
+Llame al método `s.sa()` para cambiar el grupo de informes de destino. Su único argumento es una cadena que contiene un ID de grupo de informes o varios ID de grupo de informes delimitadas por una coma. Se requiere el argumento del ID del grupo de informes. No utilice espacios en el argumento de cadena.
 
 ```js
 s.sa("examplersid");
