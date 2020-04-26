@@ -1,7 +1,7 @@
 ---
 title: charSet
 description: La variable charSet determina qué codificación utiliza Adobe para analizar la solicitud de imagen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 ---
