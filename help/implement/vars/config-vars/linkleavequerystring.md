@@ -21,12 +21,12 @@ La activación de `linkLeaveQueryString` se aplica a todas las dimensiones de se
 
 ## Mantener parámetros de URL en Adobe Experience Platform Launch
 
-[!UICONTROL Keep URL Parameters] es una casilla de verificación bajo el [!UICONTROL Link Tracking] acordeón al configurar la extensión de Adobe Analytics.
+[!UICONTROL Mantener parámetros de URL] es una casilla de verificación en el acordeón de [!UICONTROL Seguimiento de vínculos] al configurar la extensión de Adobe Analytics.
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. Expanda el [!UICONTROL Link Tracking] acordeón, que muestra la [!UICONTROL Keep URL Parameters] casilla de verificación.
+3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
+4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra la casilla [!UICONTROL Mantener parámetros de URL].
 
 Marque esta casilla si desea incluir cadenas de consulta en dimensiones de seguimiento de vínculos.
 
