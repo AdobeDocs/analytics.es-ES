@@ -9,7 +9,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # Funciones y métodos
 
-Adobe ofrece varias funciones y métodos que puede utilizar en la implementación. Cuando hace referencia a estas funciones o métodos, realizan tareas comunes con una sola línea de código.
+Adobe oferta varias funciones y métodos que puede utilizar en la implementación. Cuando hace referencia a estas funciones o métodos, realizan tareas comunes con una sola línea de código.
 
 Algunas de estas líneas únicas de código pertenecen a las siguientes categorías:
 
