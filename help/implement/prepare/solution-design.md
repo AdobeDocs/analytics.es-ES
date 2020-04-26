@@ -34,7 +34,7 @@ Al determinar qué datos recopilar, es fácil decir “todo”; sin embargo, est
    * Nombre de variable: “Términos de búsqueda interna”, por ejemplo. Este valor es lo que los analistas verán al trabajar con Analytics.
    * Variable de Analytics asignada: A qué variable predeterminada o personalizada de Analytics elige asignar valores. Las dimensiones normalmente caen dentro de las eVars, mientras que las métricas caen dentro de los eventos.
    * Lógica: Descripción de cómo se establece la variable y qué determina su valor. Por ejemplo: “Solo se configura en páginas de búsqueda interna. Toma el valor del parámetro de cadena de consulta q”.
-   * Cualquier otra nota que desee incluir en relación con la variable
+   * Cualquier otra nota que desee incluir en relación con la variable.
 
 ## Recursos adicionales
 
@@ -46,4 +46,4 @@ También hay varios socios de Adobe que se especializan en ayudar a crear un doc
 
 Implemente las variables en el documento de diseño de la solución.
 
-[Crear una capa](data-layer.md)de datos: Traduzca las variables del documento de diseño a variables JavaScript del sitio.
+[Crear una capa](data-layer.md)de datos: Traduzca las variables de su documento de diseño a las variables JavaScript de su sitio.
