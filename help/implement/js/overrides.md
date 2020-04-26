@@ -1,7 +1,7 @@
 ---
 title: Anulaciones de variables
 description: Las anulaciones de variables permiten cambiar el valor de una variable para un único seguimiento o una sola llamada de seguimiento de vínculos.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
 
 ---
