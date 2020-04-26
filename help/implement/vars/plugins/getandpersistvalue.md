@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. It serves a similar role to the [!UICONTROL Storage duration] feature in Adobe Experience Platform Launch. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. This plug-in is not necessary if Launch&#39;s [!UICONTROL Storage duration] feature is sufficient, or if you do not need to set and persist variables to the same value in subsequent hits. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene estas variables en el lado del servidor.
+El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar a la de [!UICONTROL duración del almacenamiento] en Adobe Experience Platform Launch. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la función de [!UICONTROL duración del almacenamiento] de Launch es suficiente o si no es necesario establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene estas variables en el lado del servidor.
 
 ## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
@@ -19,8 +19,8 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
+1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
 1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
    * Condición: Ninguna
    * Evento: Core – Biblioteca cargada (Principio de página)
@@ -35,8 +35,8 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
-1. Expanda el [!UICONTROL Configure tracking using custom code] acordeón, que muestra el [!UICONTROL Open Editor] botón.
+1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en la extensión de Adobe Analytics.
+1. Expanda [!UICONTROL Configurar seguimiento con el código personalizado], que muestra el botón [!UICONTROL Abrir editor].
 1. Abra el editor de código personalizado y pegue el código del complemento que se proporciona a continuación en la ventana de edición.
 1. Guarde y publique los cambios en la extensión de Analytics.
 
