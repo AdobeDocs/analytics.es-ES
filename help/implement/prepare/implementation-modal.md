@@ -25,13 +25,13 @@ Acceda al modal para crear un grupo de informes siguiendo los pasos siguientes.
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en el icono de 9 cuadrículas en la parte superior y, a continuación, haga clic en [!UICONTROL Adobe Analytics].
-3. Si aún no ha creado un grupo de informes, el modal se muestra automáticamente. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
+3. Si aún no ha creado un grupo de informes, el modal se muestra automáticamente. Si existe un grupo de informes para este proveedor de inicio de sesión, haga clic en el icono Ayuda en la parte superior derecha y, a continuación, haga clic en [!UICONTROL Bienvenido a Adobe Analytics].
 
->[!NOTE] La [!UICONTROL Welcome to Adobe Analytics] opción solo aparece si inicia sesión a través de Adobe Experience Cloud. Si inicia sesión a través de dominios heredados, el modal no está disponible.
+>[!NOTE] La opción [!UICONTROL Bienvenido a Adobe Analytics] solo aparece si inicia sesión a través de Adobe Experience Cloud. Si inicia sesión a través de dominios heredados, el modal no está disponible.
 
 ## Crear un grupo de informes
 
-Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
+Haga clic en el botón [!UICONTROL Iniciar configuración] para iniciar el flujo de trabajo de creación de grupos de informes.
 
 ![Asistente de RS](assets/analytics-implementation-rs-wizard.png)
 
