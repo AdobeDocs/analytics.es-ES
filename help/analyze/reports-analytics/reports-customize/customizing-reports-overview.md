@@ -1,5 +1,5 @@
 ---
-description: Después de ejecutar un informe, puede personalizar el informe para realizar una vista y analizar los datos según sus necesidades. Puede filtrar los datos del informe, cambiar la forma en que se presentan los datos gráficamente, cambiar la granularidad de la fecha, etc.
+description: Después de ejecutar un informe, puede personalizarlo para ver y analizar los datos según sus necesidades. Puede filtrar los datos de informe, cambiar la forma en que se presentan los datos gráficamente, cambiar la granularidad de la fecha, etc.
 title: Resumen de los informes personalizados
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
@@ -11,11 +11,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Resumen de los informes personalizados
 
-Después de ejecutar un informe, puede personalizar el informe para realizar una vista y analizar los datos según sus necesidades. Puede filtrar los datos del informe, cambiar la forma en que se presentan los datos gráficamente, cambiar la granularidad de la fecha, etc.
+Después de ejecutar un informe, puede personalizarlo para ver y analizar los datos según sus necesidades. Puede filtrar los datos de informe, cambiar la forma en que se presentan los datos gráficamente, cambiar la granularidad de la fecha, etc.
 
 ## Crear un informe personalizado {#task_BA6EACA3039C40AEA5605E1D8C76E646}
 
-Instrucciones sobre cómo guardar la configuración actual de un informe como un nuevo informe personalizado para que lo vean todos los usuarios.
+Instrucciones sobre cómo guardar la configuración actual de un informe como un nuevo informe personalizado, para que lo vean todos los usuarios.
 
 <!-- 
 
@@ -23,7 +23,7 @@ t_reports_custom.xml
 
  -->
 
-Solo los administradores pueden crear un informe personalizado. Al crear un informe personalizado, éste se agrega al menú de sistema de informes principal junto al informe en el que se basa.
+Solo los administradores pueden crear un informe personalizado. Cuando crea un informe personalizado, se añade al menú principal de informes, situado al lado del informe en el que se basa.
 
 **Para crear un informe personalizado**
 
@@ -40,7 +40,7 @@ Solo los administradores pueden crear un informe personalizado. Al crear un info
 
 ## Seleccionar una fecha o un intervalo de fecha {#task_9BEF7D4D839A4748B76E8500D1406C34}
 
-Instrucciones sobre cómo elegir los períodos de tiempo para los datos del informe.
+Instrucciones sobre cómo elegir los periodos de tiempo de los datos del informe.
 
 <!-- 
 
@@ -50,9 +50,9 @@ t_reports_select_date.xml
 
 Puede seleccionar días, semanas, meses o años específicos. También puede ejecutar informes de comparación.
 
-Cuando abre un panel con informes breves que tienen diferentes intervalos de fechas, puede elegir un nuevo intervalo de fechas en el calendario. Los cambios se aplican a todos los informes breves del panel.
+Al abrir un tablero con informes breves que tengan distintos intervalos de fecha, puede elegir un nuevo intervalo de fecha en el calendario. Los cambios se aplicarán a todos los informes breves del tablero.
 
-**Para seleccionar un intervalo de fechas**
+**Para seleccionar un intervalo de fecha**
 
 1. Ejecutar un informe.
 1. Haga clic en el icono de calendario de la parte superior derecha.
@@ -60,10 +60,10 @@ Cuando abre un panel con informes breves que tienen diferentes intervalos de fec
 
    Puede:
 
-   * Días de Vista, meses o períodos de año (hasta tres).
-   * Arrastre el cursor por las fechas para seleccionar un intervalo.
-   * Escriba las fechas manualmente.
-   * Haga clic en el nombre de un mes para seleccionar un mes.
+   * Ver los periodos de días, meses o años (hasta tres).
+   * Arrastrar el cursor por las fechas para seleccionar un intervalo.
+   * Escribir fechas de forma manual.
+   * Hacer clic en el nombre de un mes para seleccionar un mes.
    * Haga clic en **[!UICONTROL Select Preset]** para seleccionar una fecha preestablecida.
    * Comparar fechas.
 
@@ -71,7 +71,7 @@ Cuando abre un panel con informes breves que tienen diferentes intervalos de fec
 
 ## Comparar fechas {#task_95155C3700774B709F5FB81AE96B0824}
 
-Instrucciones sobre cómo utilizar el calendario para ejecutar comparaciones de fechas entre informes de clasificación.
+Instrucciones sobre cómo usar el calendario para ejecutar comparaciones de fechas entre informes de clasificación.
 
 <!-- 
 
@@ -79,11 +79,11 @@ t_reports_comparing_dates.xml
 
  -->
 
-No puede comparar fechas entre informes de tendencias.
+No puede comparar las fechas entre los informes de tendencia.
 
 >[!NOTE] Si desea llevar a cabo una comparación por fechas en métricas clave en un panel, puede extraer los datos en el [Report Builder](https://marketing.adobe.com/resources/help/es_ES/arb/) mediante dos solicitudes independientes. A continuación, puede usar fórmulas personalizadas en Excel para analizar la diferencia entre ambos.
 
-Para comparar fechas entre informes de clasificación en Informes y análisis:
+Para comparar fechas entre informes de clasificación en Reports &amp; Analytics:
 
 1. Ejecutar un informe.
 1. Haga clic en el calendario en la parte superior.
@@ -93,7 +93,7 @@ Para comparar fechas entre informes de clasificación en Informes y análisis:
 
 ## Mostrar un porcentaje como gráfico {#task_BC28CA19A4834AF6BFE68B5B5AEFE75D}
 
-Instrucciones sobre cómo especificar si se muestra el porcentaje en una tabla del informe como un gráfico.
+Instrucciones sobre cómo especificar si se quiere mostrar el porcentaje de una tabla de informe como un gráfico.
 
 <!-- 
 
@@ -101,14 +101,14 @@ t_reports_graph_percent.xml
 
  -->
 
-Esta visualización también está disponible en los informes breves de panel.
+Esta visualización también está disponible en informes breves de tableros.
 
 1. Run a report that supports percentages, such as a [!UICONTROL Pages Report].
 1. Haga clic en **[!UICONTROL Percent Shown As: Graph]**.
 
 ## Normalizar datos de informes {#task_8005B55E59BD479DA67BC618FF8BC94A}
 
-Instrucciones sobre cómo normalizar los datos de los informes.
+Instrucciones sobre cómo normalizar datos de informes.
 
 <!-- 
 
@@ -116,9 +116,9 @@ t_reports_normalize.xml
 
  -->
 
-Después de ejecutar un informe con fechas comparadas, o para comparaciones A/B, puede normalizar los datos para mostrar el porcentaje de cambio entre los informes. El conjunto de datos secundario se ajusta para compensar las diferencias en el número de días seleccionados o en los distintos volúmenes de tráfico.
+Después de ejecutar un informe con fechas comparadas, o comparaciones A/B, puede normalizar los datos para mostrar el porcentaje de cambio entre los informes. El conjunto de datos secundarios se ajusta para compensar las diferencias en el número de días seleccionados o en los distintos volúmenes de tráfico.
 
-**Para normalizar los datos del informe**
+**Para normalizar los datos de un informe**
 
 1. Ejecute un informe que sea compatible con las comparaciones de fechas.
 1. Haga clic en **[!UICONTROL Compare Dates]**, luego especifique la comparación de fechas.
@@ -151,7 +151,7 @@ t_reports_compare_suites.xml
 
  -->
 
-Además de la visualización gráfica, la tabla del informe proporciona una comparación de porcentajes. Los siguientes informes se pueden ejecutar con comparaciones:
+Además de la representación gráfica, la tabla del informe proporciona una comparación porcentual. Los siguientes informes se pueden ejecutar con comparaciones:
 
 * Contenido del sitio
 * Mobile
@@ -174,7 +174,7 @@ Además de la visualización gráfica, la tabla del informe proporciona una comp
 
 ## Especificar la granularidad de los informes {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
 
-Instrucciones sobre cómo realizar la vista de los totales de los informes por hora, por día, por semana, por mes, por trimestre o por año.
+Instrucciones sobre cómo ver los totales de un informe: por horas, días, semanas, meses, trimestres o años.
 
 <!-- 
 
@@ -182,7 +182,7 @@ t_reports_granularity.xml
 
  -->
 
-El período de tiempo del informe determina qué opciones de granularidad están disponibles. Por ejemplo, solo puede seleccionar **[!UICONTROL Hourly]** si tiene un intervalo de tiempo de uno o dos días seleccionado. Solo puede seleccionar **[!UICONTROL Yearly]** la granularidad si ha seleccionado más de un año.
+El periodo de tiempo del informe determina qué opciones de granularidad se encuentran disponibles. For example, you can select only **[!UICONTROL Hourly]** if you have a one or two day time frame selected. You can select only **[!UICONTROL Yearly]** granularity if you have more than one year selected.
 
 **Para especificar la granularidad del informe**
 
@@ -191,7 +191,7 @@ El período de tiempo del informe determina qué opciones de granularidad están
 
 ## Ejecutar un informe de día de la semana {#task_67CC818ACC3749839B69BDB2ED9AE6B8}
 
-Instrucciones sobre cómo ejecutar informes en un día específico de la semana, como por ejemplo cada lunes en un intervalo de fechas determinado.
+Instrucciones sobre cómo ejecutar informes en un día específico de la semana (por ejemplo, todos los lunes), en un intervalo de fecha determinado.
 
 <!-- 
 
@@ -199,14 +199,14 @@ t_reports_day_of_week.xml
 
  -->
 
-Esta función solo se aplica a los informes de tendencias filtrados con un intervalo de fechas de semana o día.
+Esta función se aplica solamente a los informes de tendencia filtrados con un intervalo de fechas de semana o día.
 
 1. Ejecute un informe de tendencias en un intervalo de fechas específico.
 1. Haga clic en el **[!UICONTROL Day of Week]** vínculo y, a continuación, haga clic en un día.
 
 ## Botón “Probar en el espacio de trabajo” {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
-Al hacer clic en el **[!UICONTROL Try In Workspace]** botón en la parte superior de un informe, se cargará el mismo informe en Análisis Workspace.
+Clicking the **[!UICONTROL Try In Workspace]** button at the top of a report will load the same report in Analysis Workspace.
 
 <!-- 
 
@@ -214,8 +214,8 @@ try_in_workspace.xml
 
  -->
 
-La mayoría de los informes de Informes y análisis ahora incluyen el botón &quot;Probar en el espacio de trabajo&quot; para permitirle reproducir la vista actual en el espacio de trabajo de Análisis y personalizarla más.
+Ahora, la mayoría de los informes de Reports &amp; Analytics incluyen un botón “Probar en el espacio de trabajo” que le permite reproducir la vista actual en Analysis Workspace para seguir personalizándola.
 
-Actualmente, el botón solo está disponible si el nombre de usuario tiene derechos completos en Espacio de trabajo de Análisis.
+Actualmente, el botón solo está disponible si su nombre de usuario dispone de derechos completos con respecto a Analysis Workspace.
 
-Para obtener más información sobre todas las formas de personalizar el informe, consulte la guía [Análisis de espacio de trabajo](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/) .
+Si desea obtener más información sobre cómo puede personalizar su informe, consulte la guía de [Analysis Workspace](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/).
