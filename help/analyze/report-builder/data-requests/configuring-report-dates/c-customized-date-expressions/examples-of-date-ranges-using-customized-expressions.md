@@ -15,17 +15,17 @@ Ejemplos, notas y notas sobre sintaxis acerca del uso de intervalos de fechas en
 
 En la tabla se asume que la fecha de hoy es Lunes, 10 de noviembre de 2011, utilizando el calendario gregoriano.
 
-| Ejemplo | Intervalo de fechas | Expresión personalizada | Intervalo de fechas del informe |
+| Ejemplo | Intervalo de fecha | Expresión personalizada | Intervalo de fechas del informe |
 |---|---|---|---|
 |  |  | **De** | **Hasta** |  |
 | 1 | Hace dos semanas | cw-2w | cw-1w-1d | 26 de octubre a 1 de noviembre |
 | 2 | Primeros 3 días del quinto mes del año pasado | cy-1y+4m | cy-1y+4m+2d | 1 a 3 de mayo de 2010 |
-| 3 | 1 semana completa, comenzando 4 semanas antes | cw-4w | cw-3w-1d | 12 a 18 de octubre  |
+| 3 | 1 semana completa, comenzando 4 semanas antes | cw-4w | cw-3w-1d | 12 a 18 de octubre |
 | 4 | Última semana del año anterior | cw-53w | cw-52w-1d | de noviembre a 9 de noviembre de 2010 |
 | 5 | 1 mes, comenzando 2 meses antes | cm-2m | cm-1m-1d | 1 a 30 de septiembre |
 | 6 | 12 meses antes en el año anterior | cm-12m | cm-11m-1d | 1 a 30 de noviembre de 2010 |
 
-## Notes on examples {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
+## Notas sobre los ejemplos {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 
 **Ejemplo 1**
 
@@ -35,7 +35,7 @@ Si hoy es lunes 10 de noviembre de 2011, considere la fecha actual y reste una s
 
 Añada cuatro meses al comienzo del año (el mes de enero) para obtener el mes de mayo; añada dos días al primer día del mes para obtener el tercer día del mes.
 
-## Syntax notes {#section_555D6563B2D94FA3BDD801DC0B8C289D}
+## Notas sobre sintaxis {#section_555D6563B2D94FA3BDD801DC0B8C289D}
 
 Las expresiones personalizadas que abarcan la mayoría de intervalos de fechas se pueden crear vinculando dos términos con un operador. Un término es una combinación de un multiplicador entero y una abreviación de período. Un ejemplo de un término es 18d; un ejemplo de operador es +.
 
