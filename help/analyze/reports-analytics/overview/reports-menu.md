@@ -1,5 +1,5 @@
 ---
-description: Información general sobre el menú Informes en Informes y análisis.
+description: Una descripción general del menú Informes en Reports & Analytics.
 title: Menú Informes
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
@@ -10,41 +10,41 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Menú Informes {#reports-menu}
 
-Información general sobre el menú Informes en Informes y análisis.
+Una descripción general del menú Informes en Reports &amp; Analytics.
 
 El menú Informes proporciona:
 
-* Acceso al conjunto completo de informes
-* Posibilidad de establecer informes favoritos para un acceso rápido
-* Informes vistos con frecuencia
+* Acceso al grupo completo de informes
+* Posibilidad de establecer informes favoritos para acceso rápido
+* Informes vistos con mayor frecuencia
 * Búsqueda mejorada
 
 ![](assets/menu-mainnav.png)
 
-Mis favoritos, Vistos con frecuencia e Historial de informes son todos específicos del grupo de informes. Si cambia los grupos de informes, las tres listas cambiarán.
+Mis favoritos, Vistos con mayor frecuencia e Historial de informes son todos específicos del grupo de informes. Si cambia de grupo de informes, cambiarán las tres listas.
 
-Los informes se navegan mediante una vista de columna jerárquica. Haga clic en **[!UICONTROL View All Reports]** o presione la tecla de barra diagonal (/) y, a continuación, presione la tecla de flecha abajo (?) para mostrar y navegar rápidamente por el menú con las teclas de flecha. Pulse la tecla Escape para cerrar el menú sin cambiar el informe actual, o pulse Intro para cargar el informe seleccionado.
+Se puede navegar por los informes con una vista de columna jerárquica. Haga clic en **[!UICONTROL View All Reports]** o presione la tecla de barra diagonal (/) y, a continuación, presione la tecla de flecha abajo (?) para mostrar y navegar rápidamente por el menú con las teclas de flecha. Presione la tecla Escape para cerrar el menú sin cambiar el informe actual; o bien, presione Intro para cargar el informe seleccionado.
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para obtener más información sobre informes individuales, consulte Descripciones [de informes](https://marketing.adobe.com/resources/help/es_ES/reference/reports_descriptions.html).
+Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://marketing.adobe.com/resources/help/es_ES/reference/reports_descriptions.html).
 
 ## Búsqueda de informes {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-El menú Informes proporciona una experiencia de búsqueda mejorada. Haga clic en **[!UICONTROL View All Reports]** o presione la tecla de barra diagonal (/) y, a continuación, comience a escribir para encontrar rápidamente un informe. La búsqueda de informes se ha ampliado para incluir todo en la navegación izquierda de Analytics (Administración, Componentes, etc.).
+El menú Informes proporciona una experiencia de búsqueda mejorada. Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. La búsqueda de informes se ha ampliado para incluir todos los elementos de navegación de la parte izquierda de Analytics (administrador, componentes, etc.).
 
 ![](assets/menu-search.png)
 
-Presione la tecla Tab o la tecla de flecha abajo (?) para navegar por la lista de los informes. Presione la tecla Escape para cerrar la búsqueda sin cambiar el informe actual o pulse Intro para cargar el informe seleccionado.
+Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por la lista de informes. Presione la tecla Escape para cerrar la búsqueda sin cambiar el informe actual; o bien, presione Intro para cargar el informe seleccionado.
 
->[!NOTE] También puede buscar en la lista de informes por propiedad, eVar y número de evento. En la barra de búsqueda, introduzca la propiedad, la eVar o el número de evento.
+>[!NOTE] También puede buscar en la lista de informes por propiedad, eVar y número de evento. En la barra de búsqueda, introduzca la propiedad, eVar o número de evento.
 
 ## Descripción general de navegación {#section_A6A0A369207149BABE504753B48A42D7}
 
 <table id="table_3BA295966BBC4C94ABDC3718D1894698"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Elemento de menú </th> 
+   <th colname="col1" class="entry"> Elemento del menú </th> 
    <th colname="col2" class="entry"> Descripción </th> 
   </tr>
  </thead>
@@ -54,8 +54,8 @@ Presione la tecla Tab o la tecla de flecha abajo (?) para navegar por la lista d
    <td colname="col2"> Al hacer clic en este icono se expande el menú de Experience Cloud para que pueda acceder a otras soluciones de Marketing Cloud. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Alternar menú Informes <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
-   <td colname="col2"> Al hacer clic en este botón, se expande o contrae el menú Informes para que pueda realizar la vista de un informe con todo el ancho de la ventana del explorador. </td> 
+   <td colname="col1">Alternar menú de informes <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col2"> Al hacer clic en este botón, se expande o contrae el menú Informes, de modo que puede ver un informe con la anchura completa de la ventana del explorador. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
@@ -71,19 +71,19 @@ Presione la tecla Tab o la tecla de flecha abajo (?) para navegar por la lista d
   </tr> 
   <tr> 
    <td colname="col1">Barra de búsqueda dentro de <span class="uicontrol">Ver todos los informes</span> </td> 
-   <td colname="col2"> <p> Permite buscar el recurso que necesita. Utiliza la llamada búsqueda "difusa", por lo que no es necesario introducir la redacción exacta que se busca. Los resultados de la búsqueda se muestran en una lista recta por la que puede navegar con las flechas arriba, abajo y lateral. Al presionar <span class="uicontrol">Intro</span> en un resultado de búsqueda, puede ir directamente a ese informe. </p> </td> 
+   <td colname="col2"> <p> Le permite buscar el recurso que necesita. Usa la denominada búsqueda "difusa" de modo que usted no necesitará especificar las palabras exactas que está buscando. Los resultados de búsqueda se muestran en una lista derecha por la que puede navegar con las flechas arriba, abajo y al costado. Al presionar <span class="uicontrol">Intro</span> en un resultado de búsqueda, puede ir directamente a ese informe. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Mis favoritos</span> </td> 
-   <td colname="col2">Puede recuperar fácilmente los informes marcados como <span class="uicontrol">Se marcó como "Favorito"</span> dentro de esta área. Ya sea por usuario o por grupo de informes, muestra diez Favoritos y un vínculo <span class="uicontrol">Más...</span> si tiene más de diez favoritos. <p>Tenga en cuenta que puede cambiar el nombre de los informes pero no de los paneles en Mis favoritos. </p> <p>Los favoritos son similares a los marcadores, pero no están almacenados en una carpeta ni se administran mediante el  <a href="/help/analyze/reports-analytics/bookmarks.md"  > Administrador de marcadores</a> tal como son los marcadores. </p> </td> 
+   <td colname="col2">Puede recuperar fácilmente los informes marcados como <span class="uicontrol">Se marcó como "Favorito"</span> dentro de esta área. Ya sea por usuario o por grupo de informes, muestra diez Favoritos y un vínculo <span class="uicontrol">Más...</span> si tiene más de diez favoritos. <p>Observe que puede cambiar el nombre de los informes pero no los tableros en Mis favoritos. </p> <p>Los favoritos son similares a los marcadores, pero no están almacenados en una carpeta ni se administran mediante el  <a href="/help/analyze/reports-analytics/bookmarks.md"  > Administrador de marcadores</a> tal como son los marcadores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Vistos con mayor frecuencia</span> </td> 
-   <td colname="col2"> Adobe Analytics realiza un seguimiento de los diez informes que se han ejecutado con más frecuencia durante los últimos 90 días y los muestra aquí, ordenados según la frecuencia con la que se ejecutaron. Si no ha estado en este grupo de informes durante más de 90 días, rellena la lista con una lista general de diez informes populares. </td> 
+   <td colname="col2"> Adobe Analytics lleva un registro de los diez informes ejecutados con más frecuencia durante los últimos 90 días y los muestra aquí, ordenados por la frecuencia con que se ejecutaron. Si no estuvo en este grupo de informes por más de 90 días, se completa la lista con una lista general de diez informes populares. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Historial de informes</span> </td> 
-   <td colname="col2"> Aquí encontrará los diez informes o paneles más recientes a los que ha accedido en los últimos 90 días. Puede volver fácilmente a un paso anterior en su análisis o sistema de informes. </td> 
+   <td colname="col2"> Aquí podrá encontrar los diez informes o tableros más recientes a los que accedió en los últimos 90 días. Puede regresar fácilmente a un paso anterior en su análisis o informes. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Descargar</span> </td> 
@@ -103,7 +103,7 @@ Presione la tecla Tab o la tecla de flecha abajo (?) para navegar por la lista d
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Más...</span> </td> 
-   <td colname="col2"> Permite realizar todas o algunas de las siguientes acciones: imprímalo, extraiga datos de él, agregue una alerta, cree un informe personalizado, copie un gráfico, vincule a este informe y abra una nueva ventana. </td> 
+   <td colname="col2"> Le permite realizar algunas o parte de las acciones siguientes: imprimirlo, extraer datos de él, agregarle una alerta, crear un informe personalizado, copiar un gráfico, vincular a este informe y abrir una nueva ventana. </td> 
   </tr> 
   <tr> 
    <td colname="col1">Selector de grupos de informes <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
@@ -118,4 +118,4 @@ Presione la tecla Tab o la tecla de flecha abajo (?) para navegar por la lista d
 
 ## Personalización del menú Todos los informes {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Los administradores pueden cambiar los informes contenidos en el menú Informes. Consulte Personalización [de menús](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/customize-menus.translate.html) en la Ayuda del administrador.
+Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/customize-menus.translate.html) en la Ayuda de Administradores.
