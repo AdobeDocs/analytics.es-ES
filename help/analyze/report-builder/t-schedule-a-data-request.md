@@ -43,12 +43,12 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 | Campo | Descripción |
 |--- |--- |
-| Seleccionar informe | El nombre del libro de trabajo. Para los nuevos informes programados, este campo se rellena con el nombre del libro activo. |
-| Select | Muestra la página Seleccionar informe. Se puede seleccionar un informe del servidor (donde se almacenan todos los libros programados previamente) o del equipo local. Si se selecciona un libro de la unidad local en formato .xls, el sistema convierte el archivo a .xlsx. Como parte de esa conversión, el archivo se abre en Excel y se activa. Si el libro seleccionado para el informe programado tiene el mismo nombre de archivo que el libro abierto actualmente en Excel, el sistema selecciona el archivo local en lugar del archivo cargado anteriormente. Si selecciona un informe desde el repositorio de programación, se creará una copia del libro en el servidor, con su nombre de archivo actualizado con 1. El informe programado recién creado utilizará el libro copiado. |
-| Personalizar | Permite personalizar el formato de fecha. |
-| Hasta | Muestra la Libreta de direcciones de Outlook, si corresponde. |
+| Seleccionar informe | El nombre del libro de trabajo. Para los nuevos informes programados, este campo se completa con el nombre del libro activo. |
+| Select | Muestra la página Seleccionar informe. Se puede seleccionar un informe del servidor (donde se almacenan todos los libros programados previamente) o del equipo local. Si se selecciona un libro de la unidad local en formato .xls, el sistema convierte el archivo a .xlsx. Como parte de la conversión, el archivo se abre en Excel y se activa. Si el libro seleccionado para el informe programado tiene el mismo nombre de archivo que el libro abierto actualmente en Excel, el sistema selecciona el archivo local en lugar del archivo cargado previamente. Si selecciona un informe desde el repositorio de programación, se creará una copia del libro en el servidor, con su nombre de archivo actualizado con 1. El informe programado recién creado utilizará el libro copiado. |
+| Personalizar | Le permite personalizar el formato de fecha. |
+| Hasta | Muestra la libreta de direcciones de Outlook, si corresponde. |
 | Enviar a: Correo electrónico | Destinatario de correo electrónico del libro de trabajo. |
-| Enviar a: Lista de publicación | Muestra una lista de listas de distribución disponibles para esta compañía. |
+| Enviar a: Lista de publicación | Muestra las listas de distribución disponibles para esta empresa. |
 | Power BI | Consulte [Publicar libro en Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md) para obtener más información. |
 | Asunto | Descripción definida por el usuario. |
 | Programación | Permite especificar el momento de envío del libro de trabajo. (Inmediatamente, por hora, diariamente, semanalmente, mensualmente, trimestralmente y anualmente). |
@@ -60,19 +60,19 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Campo | Descripción |
 |--- |--- |
 | Ficha **Programación** |  |
-| Hora de envío | Permite programar el libro de trabajo inmediatamente o para un momento posterior. La hora del día es relativa al huso horario especificado en el equipo. |
-| Patrón de periodicidad | Envía el libro de trabajo en función de sus selecciones. |
+| Hora de envío | Permite programar el libro de trabajo inmediatamente o para un momento posterior. La hora del día se relaciona con la zona horaria especificada en el equipo. |
+| Modelo de periodicidad | Envía el libro de trabajo en función de sus selecciones. |
 | Intervalo de periodicidad | Permite especificar cuándo iniciar y detener la recepción del libro de trabajo.   Si se programa un libro de trabajo el primer día de cualquier período actual (semana, mes, trimestre o año), solo se devuelven datos del primer día. |
 | Ficha **Opciones de archivo** |  |
 | Formato del archivo | Permite seleccionar un formato de envío de Excel 2007 (.xlsx) o 2003 (.xls), .pdf, .csv, .mht, .txt y .xml. |
-| Destino del archivo | Especifica correo electrónico o FTP. Las opciones de la página cambian según la selección. Para FTP, debe asegurarse de que el host esté disponible externamente. |
+| Destino del archivo | Especifica un correo electrónico o FTP. Las opciones de la página dependen de lo que seleccione. Para los datos de FTP, debe comprobar que el host se encuentra disponible de forma externa. |
 | Lista de publicaciones | Si el libro de trabajo programado se envía a varias listas de publicación, el libro se ejecuta una vez para cada lista. Los grupos de informes variables se reemplazan por el grupo de informes asignado a la lista de publicación. |
 | Idioma del contenido del archivo | Especifica el idioma que desea utilizar para la carta de presentación. Puede seleccionar chino (simplificado o tradicional), alemán, francés, japonés, coreano, portugués de Brasil o español. |
 | Ficha **Opciones de publicación** |  |
 | Publicación en Power BI | <ul><li>Publicar libro de trabajo en Power BI</li><li>Publicar todas las solicitudes de Report Builder como conjuntos de datos de Power BI</li><li>Publicar todas las tablas con formato como conjuntos de datos de Power BI</li></ul> |
 | Etiquetar este informe de Power BI como | Detalles de etiquetado |
 
-1. Haga clic en **[!UICONTROL OK]** y luego en **[!UICONTROL Exit]**.
+1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
    Report Builder muestra el libro de trabajo programado en el [Administrador de tareas programadas](/help/analyze/report-builder/r-arb-scheduled-reports.md).
 
