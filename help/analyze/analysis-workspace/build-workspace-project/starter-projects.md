@@ -3,7 +3,7 @@ description: 'null'
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
 
 ---
 
@@ -58,7 +58,11 @@ Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a 
 
 ### Capacitación
 
-* **Tutorial** de capacitación: Esta plantilla estándar le guía por la terminología común y por los pasos para crear su primera análisis en Workspace. Está disponible como plantilla estándar en el modo Nuevo proyecto y reemplaza el proyecto de muestra actual para los usuarios nuevos que no tienen otros proyectos en su lista.
+Estas plantillas estándar le guían a través de la terminología común y de los pasos para crear su primera análisis en Workspace. Están disponibles como plantilla estándar en el modo Nuevo proyecto y sustituyen el proyecto de muestra que existe actualmente para los usuarios nuevos que no tienen otros proyectos en su lista.
+
+* **Tutorial de capacitación - Análisis** de búsqueda interna: El tutorial de búsqueda interna ayuda a comprender qué buscan los visitantes en el sitio web o la aplicación, pero no a encontrar. Analizar este tipo de datos puede resultar en oportunidades de optimización de contenido.
+
+* **Tutorial de capacitación - Análisis** de mercadotecnia: Este tutorial muestra cómo crear una análisis de marketing para los ejecutivos, incluidas las dimensiones y métricas personalizadas que son importantes.
 
 ### Publicidad
 
@@ -118,7 +122,7 @@ Esta plantilla se basa en la métrica Personas, que es una versión deduplicada 
 * Aprender a utilizar la función para apilas segmentos con la métrica Personas.
 * Descubra cómo mejorar la eficacia de la métrica Personas con el uso del Experience Cloud ID en su entorno.
 
-### IQ de viaje: Plantilla de análisis entre dispositivos
+### IQ de viaje: Plantilla de Análisis entre dispositivos
 
 <!-->This content is mirrored in the CDA doc.<-->
 
