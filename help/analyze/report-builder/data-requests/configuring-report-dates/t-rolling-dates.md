@@ -3,7 +3,7 @@ description: Pasos que describen cómo personalizar una fecha móvil para la sol
 title: Fechas móviles
 topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Pasos que describen cómo personalizar una fecha móvil para la solicitud.
 
-1. En el [!UICONTROL Asistente para solicitudes: Paso 1], seleccione **[!UICONTROL Fechas móviles]**.
-1. Haga clic en el vínculo **[!UICONTROL Móvil]** para seleccionar el tipo móvil y, a continuación, utilice los vínculos de fecha para configurar las fechas móviles.
+1. En el [!UICONTROL Request Wizard: Step 1], seleccione **[!UICONTROL Rolling Dates]**.
+1. Click the **[!UICONTROL Rolling]** link to choose the rolling type, then use the date links to configure rolling dates.
 
-   La configuración de las [!UICONTROL fechas móviles] cambia dependiendo de las selecciones realizadas. Por ejemplo, si selecciona [!UICONTROL Móvil semanalmente] Report Builder proporcionará opciones específicas de la semana que se pueden seleccionar como modelo móvil.
+   The settings for [!UICONTROL Rolling Dates] change depending on your selections. For example, when you select [!UICONTROL Rolling Weekly], report builder provides week-specific settings you can select as the rolling pattern.
 
 1. Configure las opciones avanzadas tal y como desee.
