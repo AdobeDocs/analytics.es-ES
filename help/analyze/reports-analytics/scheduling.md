@@ -14,13 +14,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Información sobre cómo programar, descargar y distribuir informes.
 
-Al programar un informe para su envío en una aplicación de Adobe Analytics, puede utilizar las herramientas de programación y distribución para vista de los archivos que se han enviado automáticamente y modificar o finalizar los envíos.
+Al programar un informe para su envío a una aplicación de Adobe Analytics, se pueden utilizar las herramientas de programación y distribución para ver qué archivos se han enviado automáticamente y así modificar o finalizar los envíos.
 
-Debido a las diferencias en los mecanismos y plataformas de procesamiento, los distintos tipos de informes descargables y programados disponibles en Adobe Analytics tienen diferentes limitaciones con respecto al número máximo de filas que pueden procesar en una sola solicitud. Estos son los límites de cada uno:
+Debido a las diferencias en los mecanismos y las plataformas de procesamiento, los varios tipos de informes descargables y programados disponibles en Adobe Analytics tienen diferentes limitaciones con relación al número máximo de filas que pueden procesar en una única solicitud. Estos son los límites de cada uno:
 
-* Word, CSV, Excel, HTML y PDF: El mismo número de filas visibles en el informe. De forma predeterminada, este límite es de 50 filas, pero puede aumentar hasta 200. Los informes de desglose tienen un límite estricto de 50 filas.
-* Extracciones de datos: 50 000 filas
-* Almacén de datos: Sin límite
+* Word, CSV, Excel, HTML y PDF: el mismo número de filas visibles en el informe. De forma predeterminada, este límite es 50 filas, pero se puede aumentar hasta 200. Los informes de desglose tienen un límite estricto de 50 filas.
+* Data Extract: 50 000 filas
+* Data Warehouse: sin límite
 
 Estas limitaciones son para los informes individuales programados y descargados; los tableros se limitan a la cantidad de espacio disponible en un informe breve.
 
@@ -44,18 +44,18 @@ Instrucciones sobre cómo descargar y enviar por correo electrónico informes en
    | Opción | Descripción |
    |--- |--- |
    | Formato | Seleccione PDF o HTML. |
-   | Enviar a | Proporcione una dirección de correo electrónico para recibir el informe. |
+   | Enviar a | Suministrar una dirección de correo electrónico para recibir el informe. |
    | Asunto | Asunto del correo electrónico. |
-   | Programación | Seleccione esta opción para enviar el informe inmediatamente o a un intervalo diferente. |
+   | Programación | Seleccionar para enviar el informe inmediatamente o con un intervalo distinto. |
 
 1. Haga clic en **[!UICONTROL Advanced Delivery Options]** para especificar una programación de envíos.
 
 | Opción | Descripción |
 |--- |--- |
-| Nombre del archivo del informe | Especifica el nombre del informe. El formato predeterminado es `<report name> for <suite> - <report date range>` Para especificar un nombre personalizado, seleccione [!UICONTROL Custom]. |
-| Formato del informe | Permite especificar los formatos PDF, CSV, Excel, HTML, Word o Mobile para envío. Si selecciona CSV, también puede especificar la codificación para CSV:<ul><li>Shift-JIS: codificación de caracteres japoneses.</li><li>EUC-JP: código Unix ampliado, principalmente para japonés, coreano y chino simplificado.</li></ul> |
+| Nombre del archivo del informe | Especifica el nombre del informe. El formato predeterminado es `<report name> for <suite> - <report date range>` To specify a custom name, select [!UICONTROL Custom]. |
+| Formato del informe | Le permite especificar formatos PDF, CSV, Excel, HTML, Word o Móvil para el envío. Si selecciona CSV, también puede especificar la codificación para CSV:<ul><li>Shift-JIS: codificación de caracteres japoneses.</li><li>EUC-JP: código Unix ampliado, principalmente para japonés, coreano y chino simplificado.</li></ul> |
 | Contenido del informe | <ul><li>Número de filas de la tabla: especifica el número de filas que desea que sean visibles en la tabla del informe que está enviando.</li><li>Idioma para el encabezado y pie de página: especifica el idioma del encabezado y el pie de página.</li><li>Comentarios: especifica el texto que aparece al comienzo del informe.</li></ul> |
-| Enviar el archivo de firma digital | Al solicitar un informe como, por ejemplo, uno con marcadores o solicitudes de Data Warehouse, puede solicitar una firma de datos. La firma digital de Adobe no restringe el acceso a la información, pero el propósito del archivo de firma digital (.sig) es verificar la validez del archivo de informes enviado. Con la firma digital, los destinatarios de informes pueden comprobar que el archivo proviene de Adobe y no se ha modificado. |
+| Enviar el archivo de firma digital | Al solicitar un informe como, por ejemplo, uno con marcadores o solicitudes de Data Warehouse, puede solicitar una firma de datos. La firma digital de Adobe no restringe el acceso a la información, pero el propósito del archivo de firma digital (.sig) es verificar la validez del archivo de informes enviado. Si utiliza la firma digital, los destinatarios del informe pueden verificar si el archivo proviene de Adobe y si no ha sido alterado. |
 | Destino del informe | <ul><li>Correo electrónico: permite configurar las direcciones de correo electrónico, la línea de asunto y las notas.</li><li>FTP: permite configurar FTP, incluso el host, el puerto, el directorio, el nombre de usuario y la contraseña.</li></ul> |
 
 1. Haga clic en **[!UICONTROL Scheduling Options]**.
@@ -63,10 +63,10 @@ Instrucciones sobre cómo descargar y enviar por correo electrónico informes en
 | Opción | Descripción |
 |--- |--- |
 | Enviar informe ahora | Envía el informe inmediatamente. |
-| Programar para después | Muestra las opciones para especificar un intervalo de tiempo y las opciones de envío. |
-| Intervalo de tiempo del informe | **Fijo**: evita que la fecha avance con el transcurso del tiempo. **Móvil**: Permite que la fecha avance con el transcurso del tiempo. Algunas consideraciones:<ul><li>Si selecciona Móvil tanto para la fecha de inicio como para la de finalización y selecciona un informe diario del día anterior, recibirá un mensaje de correo electrónico todos los días con el informe del día anterior.</li><li>Si selecciona Fijo para la fecha de inicio y móvil para la fecha de finalización, recibirá un informe del día anterior el primer día . El segundo día recibirá un informe de los dos días anteriores, el tercer día recibirá un informe de los tres días anteriores y así sucesivamente.</li><li>Si selecciona Fijo tanto para la fecha de inicio como para la de finalización, recibirá un informe idéntico para los días precisos que haya especificado.</li><li>No se puede seleccionar una fecha de inicio móvil y una de finalización fija.</li></ul> |
-| Frecuencia de envío | <ul><li>**Por hora**: Envía un mensaje de correo electrónico cada hora, cada dos horas o a cualquier otro intervalo de horas.</li><li>**Diario**: Envía un mensaje de correo electrónico todos los días, cada dos días, cada tres días o a cualquier otro intervalo de días. También puede enviarlo todos los días de la semana.</li><li>**Semanal**: Envía un mensaje de correo electrónico cada semana, cada dos semanas, cada tres semanas o a cualquier otro intervalo de semanas. También puede especificar qué día de la semana se envía.</li><li>**Mensual**: Especifica el intervalo en cantidad de meses y también puede seleccionar el día del mes en que se envía o el día de la semana en una semana específica del mes.</li><li>**Anual**: Especifica el día del año en que se envía el informe o puede enviarlo en un día específico de la semana en cualquier semana del año.</li><li>**Hora del día**: Se aplica a la zona horaria adjunta al grupo de informes seleccionado.</li></ul> |
-| Opciones de finalización de envío | <ul><li>**Sin fin**: No especifica ningún final.</li><li>**Finalizar después de ocurrencias`value`**: Especifica el número de ocurrencias antes de finalizar el envío.</li><li>**Finalizar el**: permite especificar una fecha determinada. Si desea procesar los datos en la misma fecha que los datos del informe, el informe contiene solamente los datos que se han colocado en la base de datos en el momento en que se envía el informe. Debido a que el procesamiento completo de un día puede llevar hasta 24 horas, es posible que no estén disponibles los datos completos al momento de enviar el informe. Para los datos completos, establezca siempre el tiempo de procesamiento durante 24 horas después del final del período de sistema de informes.</li></ul> |
+| Programar después | Muestra las opciones para especificar un intervalo de tiempo y las opciones de envío. |
+| Intervalo de tiempo del informe | **Fijo**: evita que la fecha avance con el transcurso del tiempo. **Móvil**: permite que la fecha avance con el transcurso del tiempo. Algunas consideraciones:<ul><li>Si selecciona Móvil tanto para la fecha de inicio como para la de finalización y selecciona un informe diario del día anterior, recibirá un mensaje de correo electrónico todos los días con el informe del día anterior.</li><li>Si selecciona Fijo para la fecha de inicio y móvil para la fecha de finalización, recibirá un informe del día anterior el primer día . El segundo día recibirá un informe de los dos días anteriores, el tercer día recibirá un informe de los tres días anteriores y así sucesivamente.</li><li>Si selecciona Fijo tanto para la fecha de inicio como para la de finalización, recibirá un informe idéntico para los días precisos que haya especificado.</li><li>No se puede seleccionar una fecha de inicio móvil y una de finalización fija.</li></ul> |
+| Frecuencia de envío | <ul><li>**Por hora**: envía un mensaje de correo electrónico cada hora, cada dos horas o a cualquier otro intervalo de horas.</li><li>**Diario**: envía un mensaje de correo electrónico todos los días, cada dos días, cada tres días o a cualquier otro intervalo de días. También es posible que se lo envíe cada día laborable.</li><li>**Semanal**: envía un mensaje de correo electrónico todas las semanas, cada dos semanas, cada tres semanas o a cualquier otro intervalo de semanas. También se puede especificar qué día de la semana enviarlo.</li><li>**Mensualmente**: especifica el intervalo en cantidad de meses y se puede también seleccionar el día del mes en que ha de enviarse o el día de una determinada semana del mes.</li><li>**Anualmente**: especifica el día del año en que ha de enviarse el informe o bien puede enviarse un día de la semana de cualquier semana del año.</li><li>**Hora del día**: se aplica al huso horario conectado al grupo de informes seleccionado.</li></ul> |
+| Opciones de finalización de envío | <ul><li>**Sin fin**: especifica sin fin.</li><li>**Finalizar después de ocurrencias`value`**: Especifica el número de ocurrencias antes de finalizar el envío.</li><li>**Finalizar el**: permite especificar una fecha determinada. Si desea que los datos se procesen en la misma fecha que los datos del informe, el informe contendrá solamente los datos que se hayan incluido en la base de datos en el momento en el que se envíe el informe. Puesto que el procesamiento completo de un día puede llevar hasta 24 horas, es posible que no estén disponibles los datos completos al tiempo de enviar el informe. Para obtener los datos completos, siempre fije el tiempo de procesamiento en 24 horas después del final del período de informe.</li></ul> |
 
 ## Imprimir un informe {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
@@ -88,17 +88,17 @@ Descargue información detallada sobre un informe concreto en los formatos PDF, 
 
    * **[!UICONTROL PDF]**: especifica que el informe se descargará en formato de Adobe PDF, lo cual le permite compartir el informe con otros usuarios que podrán abrirlo sin importar el sistema informático que estén utilizando. 
    * **[!UICONTROL CSV]**: Especifica que el informe se descargará en formato [!DNL .csv](formato de valores separados por comas).
-   * **[!UICONTROL Excel]**:: Especifica que el informe se descargará en formato de Microsoft Excel, lo cual le permite compartir el informe con otros usuarios que podrán abrirlo en un programa de hoja de cálculo.
-   * **[!UICONTROL Word]**:: Especifica que el informe se descargará en formato de Microsoft Word.
+   * **[!UICONTROL Excel]**: especifica que el informe se descargará en formato de Microsoft Excel, lo cual le permite compartir el informe con otros usuarios que podrán abrirlo en un programa de hojas de cálculo.
+   * **[!UICONTROL Word]**: especifica que el informe se descargará en formato Microsoft Word.
    >[!NOTE]
    >
    >Si utiliza uno de los formatos de exportación sin procesar para descargar un informe y el nombre de la página está en blanco, puede que Adobe Analytics no haya tenido tiempo suficiente para procesar los datos. Descargue el informe más tarde.
 
 ## Administrar informes programados {#task_C17677C543454FF2B06D10EA5652DFBC}
 
-Información sobre la administración de informes programados.
+Información sobre cómo administrar los informes programados.
 
-En la página [!UICONTROL Schedule Reports Manager], puede editar y eliminar envíos de informes recurrentes. Puede crear programas de envíos que envíen los informes por correo electrónico o por FTP a una dirección especificada. Puede configurar estas programaciones para que envíen los informes automáticamente a intervalos especificados durante un período de tiempo o indefinidamente, o para que detengan el envío de un informe recurrente.
+In the [!UICONTROL Schedule Reports Manager], you can edit and delete recurring report deliveries. Puede crear programas de entregas que envíen los informes por correo electrónico o por FTP a una dirección especificada. Puede configurar los programas a fin de que los informes se envíen automáticamente a intervalos especificados por un periodo de tiempo o indefinidamente, o bien para que se detenga el envío de un informe recurrente.
 
 The [!UICONTROL Schedule Report Manager] shows the items that a specific user has created. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados.
 
@@ -106,26 +106,26 @@ The [!UICONTROL Schedule Report Manager] shows the items that a specific user ha
 
 ## Compartir un vínculo a un informe {#task_9711DDE9E140451B8C914EC5513E21EC}
 
-Instrucciones sobre cómo compartir un informe mediante la generación de un vínculo de informe (URL) para enviarlo a otro usuario.
+Instrucciones sobre cómo compartir un informe generando un vínculo de informe (una dirección URL) para enviarlo a otro usuario.
 
-Cuando el destinatario hace clic en el vínculo, el sistema solicita las credenciales de inicio de sesión (nombre de compañía, nombre de usuario y contraseña). Después de iniciar sesión, el destinatario se muestra en el informe generado por el usuario original. Se aplican restricciones de permisos estándar.
+Cuando el destinatario hace clic en el vínculo, el sistema solicita las credenciales de inicio de sesión (nombre de la empresa, nombre de usuario y contraseña). Después de iniciar sesión, el destinatario se muestra en el informe generado por el usuario original. Se aplican restricciones de permiso estándar.
 
-**Para compartir un vínculo de informe**
+**Para compartir un vínculo del informe**
 
 1. Ejecutar un informe.
 1. Haga clic **[!UICONTROL More]** > **[!UICONTROL Link to This Report]**.
 
 ## Cancelación de la suscripción de informes programados {#concept_6B48360F935740B6851BA85D32DEF637}
 
-Puede cancelar la suscripción a los informes programados. Ya no recibirá el informe aunque se vuelva a agregar su nombre de usuario al informe programado.
+Puede cancelar la suscripción de informes programados. Dejará de recibir el informe aunque se vuelva a agregar su nombre de usuario en el informe programado.
 
 >[!IMPORTANT]
 >
 >Para volver a recibir el informe, se debe crear una nueva programación.
 
-Para cancelar la suscripción a un informe programado:
+Para cancelar una suscripción de un informe programado:
 
-1. Muestre el mensaje de correo electrónico con el vínculo al informe del que desea cancelar la suscripción.
+1. Acceda el correo electrónico con el vínculo al informe cuya suscripción desea cancelar.
 
    ![](assets/unsubscribe-email.png)
 
