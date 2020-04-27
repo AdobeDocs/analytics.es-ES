@@ -3,7 +3,7 @@ description: Introducción a los términos de análisis web que se usan más fre
 title: Términos comunes
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,7 +34,7 @@ Introducción a los términos más utilizados de Adobe Analytics.
    <td> <p>Descripciones o características de datos de métricas que se pueden ver y comparar, como el sexo, el mes, la edad, la lealtad, la resolución del monitor, etc. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Informe </p> </td> 
+   <td> <p> Información general de la tienda de aplicaciones </p> </td> 
    <td> <p>La base de la funcionalidad de informes de marketing. Puede ejecutar informes en línea de todos los datos recopilados. </p> <p>Para obtener más información, consulte <a href="/help/analyze/reports-analytics/reports.md">Tipos de informes</a>. </p> </td> 
   </tr> 
   <tr> 
