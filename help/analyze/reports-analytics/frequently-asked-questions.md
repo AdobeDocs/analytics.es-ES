@@ -3,7 +3,7 @@ description: Ofrece respuestas y sugerencias para resolución de problemas a alg
 keywords: Troubleshooting Analytics
 title: Preguntas frecuentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
