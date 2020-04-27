@@ -3,7 +3,7 @@ description: Report Builder utiliza el calendario personalizado de Analytics. El
 title: Calendario personalizado
 topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
