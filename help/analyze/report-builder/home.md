@@ -2,7 +2,7 @@
 title: Ayuda de Report Builder de Adobe
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -42,7 +42,7 @@ El Report Builder de [!DNL Adobe] es un complemento para Microsoft Excel. El Rep
 * [Comunidad de Adobe Analytics](https://helpx.adobe.com/es/marketing-cloud/analytics.html)
 * [Notas de la versión de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/whatsnew/index.html#Current%20Release%20Notes)
 * [Página de inicio de documentación del producto](https://marketing.adobe.com/resources/help/es_ES/home/index.html)
-* [Programador](https://marketing.adobe.com/resources/help/es_ES/home/index.html#Developer)
+* [Desarrollador](https://marketing.adobe.com/resources/help/es_ES/home/index.html#Developer)
 * [Intercambio de ideas](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [Formación y tutoriales de Adobe](https://helpx.adobe.com/es/learning.html?promoid=KAUDK)
 * [Centro de soluciones destacadas](https://www.omniture.com/en/products/online_business_optimization)
