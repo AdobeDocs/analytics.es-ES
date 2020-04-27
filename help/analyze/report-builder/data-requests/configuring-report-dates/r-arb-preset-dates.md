@@ -3,7 +3,7 @@ description: 'Las fechas preestablecidas permiten seleccionar fechas guardadas o
 title: 'Definiciones del Asistente para solicitudes: Fechas preestablecidas'
 topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
