@@ -3,7 +3,7 @@ description: Los objetivos le permiten medir el rendimiento del sitio y llevar u
 title: Objetivos
 topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,9 +23,9 @@ Por ejemplo, puede medir la cantidad de visitantes únicos del sitio Web y utili
 
 ## Descripciones de campos de objetivos  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Objetivos]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
 
-Descripciones de los campos y las opciones de la página [!UICONTROL Agregar y editar destino].
+Descripciones de los campos y las opciones de la [!UICONTROL Add/Edit Target] página.
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 
@@ -72,14 +72,14 @@ t_add_a_target.xml
 
  -->
 
-1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Objetivos]**.
-1. En la página [!UICONTROL Administrador de destinos], haga clic en **[!UICONTROL Agregar nuevo]**.
+1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+1. En la [!UICONTROL Target Manager] página, haga clic en **[!UICONTROL Add New]**.
 1. Configure las opciones que se describen en [Descripciones de campos de objetivos](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
-1. Haga clic en **[!UICONTROL Aceptar]**.
+1. Haga clic en **[!UICONTROL OK]**.
 
 ## Editar un objetivo {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Objetivos]**.
-1. En la columna **[!UICONTROL Administrar]**, haga clic en el icono **[!UICONTROL Editar.]**
+1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
 1. Configure las opciones que se describen en [Descripciones de campos de objetivos](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
-1. Haga clic en **[!UICONTROL Aceptar]**.
+1. Haga clic en **[!UICONTROL OK]**.
