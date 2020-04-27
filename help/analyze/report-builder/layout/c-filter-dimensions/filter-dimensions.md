@@ -3,7 +3,7 @@ description: Es posible filtrar las dimensiones que se añadan a la cuadrícula 
 title: Resumen del filtrado de dimensiones
 topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ El formulario del filtro seleccionado se completa según el elemento y la métri
 
 ## Definir filtro: valores y caracteres especiales {#section_15840216A4044C40974945FAA435AD93}
 
-Información sobre filtros en el panel **[!UICONTROL Filtros más populares]** > **[!UICONTROL Definir filtro]**.
+Información sobre filtros en el panel **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** .
 
 ![](assets/define_filter.png)
 
@@ -85,7 +85,7 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
    <td colname="col1"> <p>Finaliza con </p> </td> 
    <td colname="col02"> <p>Devuelve los resultados que finalizan con el valor especificado. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Devuelve como resultado <span class="term"> wxyz</span> pero no <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Matches <span class="term"> wxyz</span> but not <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avanzado (caracteres especiales) </p> </td> 
@@ -140,7 +140,7 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
   </tr> 
   <tr> 
    <td colname="col1"> | </td> 
-   <td colname="col2"> O bien </td> 
+   <td colname="col2"> O </td> 
    <td colname="col3"> <p>Solo se puede usar en el filtro <span class="term"> Filtro avanzado (caracteres especiales)</span>. </p> </td> 
   </tr> 
  </tbody> 
