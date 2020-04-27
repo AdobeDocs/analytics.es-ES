@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Todos los informes marcados y los informes del tablero ahora se enumeran como dimensiones en el paso 1 del Asistente para solicitudes y pueden importarse como solicitudes de Report Builder.
 
-Cuando selecciona un informe marcado, el Asistente para solicitudes rellena todas las dimensiones y métricas que definen este informe marcado. El intervalo de fechas, la granularidad y el segmento seleccionado también se actualizan en función del marcador seleccionado.
+Cuando selecciona un informe marcado, el Asistente para solicitudes rellena todas las dimensiones y métricas que definen este informe marcado. El intervalo de fechas, la granularidad y el segmento seleccionado también se actualizan según el marcador seleccionado..
 
-Así es como el paso 1 del Asistente para solicitudes muestra un panel y sus informes breves:
+Este es el modo en el que el Paso 1 del Asistente para solicitudes muestra un tablero y sus informes breves:
 
 ![](assets/import_dashboard_reportlet.png)
 
@@ -25,7 +25,7 @@ Al hacer clic **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Retrieve
 
 >[!NOTE] Solo se importan los datos, de modo que si un marcador contiene un gráfico o si el informe breve del tablero consiste únicamente en un gráfico, solo se importarán los datos utilizados para rellenar el gráfico.
 
-Una vez que haya creado una solicitud importando un informe breve de panel (o un marcador), la solicitud se asociará a la dimensión principal del informe breve (o marcador). Como resultado, si edita la solicitud, la vista de árbol ya no selecciona el nodo de vista de árbol del informe breve de panel (o nodo de marcador): selecciona su dimensión principal en su lugar.
+Una vez que haya creado una solicitud mediante la importación de un informe breve del panel (o un marcador), la solicitud quedará asociada a la dimensión primaria del informe breve (o marcador). Como resultado, si edita la solicitud, la vista de árbol ya no selecciona el nodo de vista de árbol del informe breve del tablero (o nodo de marcador): selecciona su dimensión principal en su lugar.
 
 El bookmarklet importado configurará adecuadamente el grupo de informes, el segmento seleccionado, la dimensión y las métricas seleccionadas con los mismos parámetros expuestos en el marcador Reports &amp; Analytics.
 
