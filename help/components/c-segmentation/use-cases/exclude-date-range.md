@@ -2,7 +2,7 @@
 title: Excluir fechas específicas en la análisis
 description: Sugerencias para excluir fechas o intervalos de fechas si no desea incluirlos en los informes.
 translation-type: tm+mt
-source-git-commit: 29f6b302fecd18a9be70c2246c0d1227af82d00f
+source-git-commit: b244a74e2514472e8c3896bed9c5cbdd60abc8ff
 
 ---
 
@@ -48,7 +48,7 @@ Puede aplicar tanto el segmento &#39;Días afectados&#39; como el segmento &#39;
 
 Si no desea mostrar ceros en la tabla o en las visualizaciones (lo que provoca caídas), habilite **[!UICONTROL Interpret zero as no value]** en la configuración de la columna.
 
-![Interpretar cero](../assets/interpret_zero.jpg)
+![Interpretar cero](../assets/interpret_zero.png)
 
 ### Aplicar el segmento de exclusión a un proyecto
 
