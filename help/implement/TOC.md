@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
+source-git-commit: 31efa43043120b68de90e817a7980addbe2ded39
 
 ---
 
@@ -197,3 +197,5 @@ source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
    + [Monitores de paquetes](validate/packet-monitor.md)
    + [Conflictos de hash](validate/hash-collisions.md)
 + [Preguntas frecuentes](faq.md)
++ Uso de datos XDM con Analytics {#aep-edge}
+   + [Uso del SDK web de AEP](aep-edge/xdmoverview.md)
