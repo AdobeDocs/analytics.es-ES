@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
 
 ---
 
@@ -288,6 +288,7 @@ source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
       + [Vistas del carro de compras](c-variables/c-metrics/metrics-cart-views.md)
       + [Cierres de compra](c-variables/c-metrics/metrics-checkouts.md)
       + [Pulsaciones](c-variables/c-metrics/metrics-click-throughs.md)
+      + [Velocidad del contenido](c-variables/c-metrics/metrics-content-velocity.md)
       + [Métricas personalizadas](c-variables/c-metrics/metrics-custom.md)
       + [Visitantes únicos diarios](c-variables/c-metrics/metrics-daily-unique-visitors.md)
       + [Entradas](c-variables/c-metrics/metrics-entries.md)
