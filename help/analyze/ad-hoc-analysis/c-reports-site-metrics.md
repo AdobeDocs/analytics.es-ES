@@ -4,7 +4,7 @@ title: Informes de métricas del sitio
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ Muestran información cuantitativa sobre el sitio web, tal como la cantidad de v
 
 Los informes de métricas son  de tendencias con el tiempo. se les pueden aplicar diversos niveles de granularidad, como “hora” y “día de la semana”. También permiten analizar el tiempo empleado en el sitio, las compras, los ingresos y métricas similares.
 
-En el menú [!UICONTROL Métricas del sitio] se encuentran disponibles los siguientes informes.
+The following Site Metrics reports are available in the [!UICONTROL Site Metrics] menu.
 
 ## Informe de vistas de página {#concept_5331AFB6948547F7B8DF367B49360E6B}
 
@@ -29,7 +29,7 @@ c_reports_pageviews.xml
 
  -->
 
-Es un informe de tendencia que muestra el número de veces que se vieron las páginas del sitio web en un período determinado (hora, día, semana, mes, trimestre o año). Una [!UICONTROL Vista de página] es una solicitud de un documento de una página completa, en vez de un elemento de una página, como, por ejemplo, una imagen o un vídeo. Si un mismo visitante ve 15 páginas durante una visita, se cuentan 15 vistas de página. Si un visitante ve la misma página tres veces durante una visita, se cuentan tres vistas de página. Este informe permite hacer un seguimiento de vistas para cada página del sitio, como así también del total agregado de vistas para todas las páginas del sitio.
+Es un informe de tendencia que muestra el número de veces que se vieron las páginas del sitio web en un período determinado (hora, día, semana, mes, trimestre o año). A [!UICONTROL Page View] is a request for a full page document, rather than an element of a page, such as an image or video. Si un mismo visitante ve 15 páginas durante una visita, se cuentan 15 vistas de página. Si un visitante ve la misma página tres veces durante una visita, se cuentan tres vistas de página. Este informe permite hacer un seguimiento de vistas para cada página del sitio, como así también del total agregado de vistas para todas las páginas del sitio.
 
 ## Informe de visitas {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
@@ -41,7 +41,7 @@ c_reports_visits.xml
 
  -->
 
-En los Reports and Analytics de marketing, puede ejecutar un [!UICONTROL informe de visitas] en una página seleccionada. Ad Hoc Analysis le permite segmentar los datos para ver páginas específicas.
+In marketing reports and analytics, you can run a [!UICONTROL Visits Report] on a selected page. Ad Hoc Analysis le permite segmentar los datos para ver páginas específicas.
 
 ## Informe de visitantes únicos {#concept_39097C54E46C496CBAD537329DB3C84A}
 
@@ -69,7 +69,7 @@ c_reports_visitors.xml
 
  -->
 
-El total que se muestra al final de la tabla es la suma de todas las visitas durante el período especificado y no siempre refleja la cantidad de visitantes únicos. Por ejemplo: si se ejecuta un [!UICONTROL informe de visitantes únicos diarios] con un intervalo de tiempo de varios días, el total puede incluir visitantes repetidos, porque si un mismo visitante regresa en dos días sucesivos, se lo contará por separado en cada visita. Sin embargo, si se ejecuta un [!UICONTROL informe de visitantes únicos mensuales], el valor en la columna Totales reflejará con precisión la cantidad de visitantes únicos que ingresaron durante el mes.
+El total que se muestra al final de la tabla es la suma de todas las visitas durante el período especificado y no siempre refleja la cantidad de visitantes únicos. For example, if you run a [!UICONTROL Daily Unique Visitors Report] with a time frame of several days, the total can include repeat visitors, because the same visitor might return on the next day and be counted again. However, if you run a [!UICONTROL Monthly Unique Visitors Report], the value in the Totals column accurately reflects how many unique visitors came during the month.
 
 ## Informe de tiempo invertido por visita {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
@@ -112,7 +112,7 @@ c_reports_shopping_cart.xml
 
  -->
 
-Puede utilizar el [!UICONTROL Informe de carro de compras] para:
+Puede utilizar la [!UICONTROL Carts Report] opción para:
 
 * Determinar los patrones, las altas y las bajas en la cantidad de carros abiertos en el sitio.
 * Examinar períodos de tiempo específicos, obtener más información sobre las métricas que contribuyeron específicamente a la apertura del carro de compras.
@@ -127,7 +127,7 @@ c_reports_custom_events.xml
 
  -->
 
-Dado que cada grupo de informes de análisis es distinto, este conjunto de informes se utiliza de forma diferente con cada cliente. El informe de [!UICONTROL eventos personalizados] se puede utilizar como contador para indicar la cantidad de veces que se produce un evento. Por ejemplo, si **[!UICONTROL evento1]** se configura para mostrar la cantidad de veces que se descarga un documento, el informe de [!UICONTROL eventos personalizados] para el Evento 1 mostrará la cantidad total de descargas. Es posible tener varios informes de eventos personalizados.
+Dado que cada grupo de informes de análisis es distinto, este conjunto de informes se utiliza de forma diferente con cada cliente. A [!UICONTROL Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. Es posible tener varios informes de eventos personalizados.
 
 ## Informes de conversión {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -159,8 +159,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL Informe de canales de primer o último contacto]**: muestran métricas con datos sobre un canal determinado de primer contacto o último contacto. En dichos informes, puede desglosar los canales y mostrar los detalles de cada uno de ellos. Si ha habilitado AdLens, verá clasificaciones en sus Reports and Analytics de marketing de canal.
+**[!UICONTROL First or Last Touch Channel Report]**: Muestra métricas con datos sobre canales específicos de primer toque o de último toque. En dichos informes, puede desglosar los canales y mostrar los detalles de cada uno de ellos. Si ha habilitado AdLens, verá clasificaciones en sus Reports and Analytics de marketing de canal.
 
-**[!UICONTROL Informes de detalles de canales de primer o último contacto]**: muestran detalles, tales como nombres de página y referentes, tomados de los valores de canal que se configuren en la opción [!UICONTROL Definir el valor del canal en], al configurar las reglas. Los informes de detalles de canal permiten examinar minuciosamente los valores detallados del canal en el informe de resumen.
+**[!UICONTROL First or Last Touch Channel Detail Reports]**:: Muestra detalles, como nombres de página y remitentes del reenvío, tomados de los valores de canal que configure en la [!UICONTROL Set the channel's value to] opción al configurar las reglas. Los informes de detalles de canal permiten examinar minuciosamente los valores detallados del canal en el informe de resumen.
 
-Para obtener información detallada sobre la configuración del canal de marketing en los informes y análisis de marketing, consulte el sistema de [ayuda para canales de marketing](https://marketing.adobe.com/resources/help/es_ES/mchannel/index.html).
+Para obtener información detallada sobre la configuración del canal de marketing en los informes y análisis de marketing, consulte el sistema de [ayuda para canales de marketing](/help/components/c-marketing-channels/analyze-mc.md).
