@@ -4,7 +4,7 @@ title: Sintaxis de
 topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,14 +15,14 @@ Muestra los vínculos preferidos de los visitantes al sitio. Por ejemplo, es pro
 
 Para poder supervisar vínculos específicos deberá modificarlos con etiquetas especiales (consulte [Seguimiento de vínculos](https://docs.adobe.com/content/help/es-ES/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)).
 
-Con el [!UICONTROL Informe Vínculos personalizados] se puede:
+Puede utilizar la [!UICONTROL Custom Links Report] opción para:
 
 * Averiguar qué tipo de vínculos prefieren los visitantes para optimizar el diseño del sitio.
 * Confirmar la necesidad de vínculos redundantes para páginas individuales.
 
 ## Nombres de vínculos de SDK móviles  {#section_70C91FE794104B5FBF289B19CC02EA8E}
 
-Los [SDK móviles](https://marketing.adobe.com/resources/help/es_ES/mobile/home.html) usan vínculos personalizados para realizar el seguimiento de acciones y métricas del ciclo vital. En los grupos de informes que se usan para medir aplicaciones móviles, es posible que vea los siguientes nombres de vínculos establecidos por el SDK:
+Los [SDK móviles](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html) usan vínculos personalizados para realizar el seguimiento de acciones y métricas del ciclo vital. En los grupos de informes que se usan para medir aplicaciones móviles, es posible que vea los siguientes nombres de vínculos establecidos por el SDK:
 
 | ADBINTERNAL:Lifecycle | Enviado por la llamada de ciclo de vida en los SDK 4.x. |
 |---|---|
