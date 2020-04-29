@@ -6,7 +6,7 @@ title: Identificar visitantes únicos
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -37,12 +37,12 @@ Puede implementar un método personalizado para identificar a los visitantes med
 
 La ID de visitante personalizada se puede usar en los sitios en los que tenga un solo método para identificar a los visitantes. Puede servir de ejemplo una ID que se genera cuando un usuario inicia sesión en un sitio web con un nombre de usuario y una contraseña.
 
-Si puede derivar y administrar las [!UICONTROL ID de visitantes] de sus usuarios, puede usar los métodos siguientes para configurar la ID:
+Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of your users, you can use the following methods to set the ID:
 
 | Método | Descripción |
 |---|---|
 | [s.visitorID](../implement/vars/config-vars/visitorid.md) | Si se usa JavaScript en el explorador, o si está usando cualquier otra biblioteca de AppMeasurement, puede configurar la ID del visitante en una variable de recopilación de datos. |
-| Parámetro de cadena de consulta en la solicitud de imagen | Con este método puede pasar la [!UICONTROL ID de visitante] a Adobe mediante el parámetro de [!UICONTROL cadena de consulta vid] en una solicitud de imagen codificada. |
+| Parámetro de cadena de consulta en la solicitud de imagen | Esto le permite pasar [!UICONTROL visitor ID] a Adobe a través del [!UICONTROL vid query string] parámetro en una solicitud de imagen codificada. |
 | API de inserción de datos | En dispositivos que usan protocolos inalámbricos que no aceptan JavaScript, puede enviar una publicación XML que contenga el elemento XML `<visitorid/>` a servidores de recopilación de Adobe desde sus servidores. |
 | Reescritura de direcciones URL y VISTA | Algunas arquitecturas de implementación permiten la reescritura de direcciones URL para mantener el estado de la sesión cuando no se puede configurar una cookie. En estos casos, los servicios de ingeniería de Adobe pueden implementar una regla [!DNL VISTA] para buscar el valor de sesión en la dirección URL de la página y, después, darle formato y colocarla en los valores [!UICONTROL visid]. |
 >[!CAUTION]
@@ -58,7 +58,7 @@ Cuando se envía una solicitud al servidor de recopilación de datos de Adobe, s
 
 Algunos exploradores, como Apple Safari, ya no almacenan cookies configuradas en el encabezado HTTP de los dominios que no coincidan con el dominio del sitio web actual (se trata de una cookie usada en un contexto de terceros o una cookie de terceros). Por ejemplo, si está en `mysite.com` y el servidor de recopilación de datos es `mysite.omtrdc.net`, el explorador puede rechazar la cookie que se devuelve en el encabezado HTTP desde `mysite.omtrdc.net`.
 
-Para evitarlo, muchos clientes han implementado registros CNAME para sus servidores de recopilación de datos como parte de la [implementación de cookies de origen](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-first-party.translate.html). Si se configura la asignación de un registro CNAME a un nombre de host en el dominio del cliente para el servidor de recopilación de datos (por ejemplo, si se asigna `metrics.mysite.com` a `mysite.omtrdc.net`), se almacenará la cookie de ID de visitante porque ahora coinciden los dominios de recopilación de datos y del sitio web. Así aumentan las probabilidades de que se almacene la cookie de ID de visitante, pero se obtiene una cierta sobrecarga porque es necesario configurar los registros CNAME y mantener los certificados SSL para los servidores de recopilación de datos.
+Para evitarlo, muchos clientes han implementado registros CNAME para sus servidores de recopilación de datos como parte de la [implementación de cookies de origen](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-first-party.html). Si se configura la asignación de un registro CNAME a un nombre de host en el dominio del cliente para el servidor de recopilación de datos (por ejemplo, si se asigna `metrics.mysite.com` a `mysite.omtrdc.net`), se almacenará la cookie de ID de visitante porque ahora coinciden los dominios de recopilación de datos y del sitio web. Así aumentan las probabilidades de que se almacene la cookie de ID de visitante, pero se obtiene una cierta sobrecarga porque es necesario configurar los registros CNAME y mantener los certificados SSL para los servidores de recopilación de datos.
 
 ### Cookies en dispositivos móviles {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -68,7 +68,7 @@ A la hora de rastrear dispositivos móviles con cookies, el método de medición
 
 El servicio de ID reemplaza el mecanismo de ID de visitante de Analytics heredado y se requiere para la medición de vídeo de [!UICONTROL Heartbeat], Analytics para Target y las integraciones y los servicios principales futuros de Experience Cloud.
 
-Consulte [Servicio de identidad](https://marketing.adobe.com/resources/help/es_ES/mcvid/) para obtener documentación sobre este servicio.
+Consulte [Servicio de identidad](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) para obtener documentación sobre este servicio.
 
 ## Identificación de dispositivos móviles
 
@@ -76,7 +76,7 @@ La mayoría de los dispositivos móviles aceptan cookies del explorador. Sin emb
 
 Adobe ha identificado varios encabezados de ID de suscriptor HTTP que identifican de forma única a la mayoría de dispositivos móviles. Estos encabezados suelen incluir el número de teléfono del dispositivo (o una versión con hash) u otros identificadores. La mayoría de los dispositivos actuales cuentan con uno o varios encabezados que los identifican de forma exclusiva y que todos los servidores de recopilación de datos de Adobe usan de forma automática como ID de visitante.
 
-En una solicitud de imagen habitual, un “1” en la ruta (`/b/ss/rsid/1`) hace que los servidores de Adobe devuelvan una imagen e intenten configurar una cookie de [!UICONTROL ID de visitante] persistente (`AMCV_` o `s_vi`). Sin embargo, si el dispositivo se reconoce como un dispositivo móvil basado en encabezados HTTP, se pasa un &quot;5&quot; en lugar del &quot;1&quot;, lo que indica que se debe devolver una imagen con formato wbmp, así como que se debe usar nuestra lista de encabezados inalámbricos reconocidos (y no una cookie) para identificar el dispositivo.
+In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). Sin embargo, si el dispositivo se reconoce como un dispositivo móvil basado en encabezados HTTP, se pasa un &quot;5&quot; en lugar del &quot;1&quot;, lo que indica que se debe devolver una imagen con formato wbmp, así como que se debe usar nuestra lista de encabezados inalámbricos reconocidos (y no una cookie) para identificar el dispositivo.
 
 La tabla siguiente muestra el orden de los métodos de ID usados según el valor de tipo de imagen devuelto (&quot;1&quot; o &quot;5&quot;) en la ruta:
 
