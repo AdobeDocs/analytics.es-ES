@@ -5,7 +5,7 @@ title: Administrador de tableros
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -70,7 +70,7 @@ Los pasos describen cómo usar las opciones de administración del tablero compa
 
 Los tableros preexistentes actuales se seguirán ejecutando y aún podrá editarlos, descargarlos y programarlos, pero ya no podrá crear nuevos tableros preexistentes. Se le recomienda encarecidamente que actualice los tableros preexistentes actuales al formato de tablero más reciente.
 
->[!NOTE]Más adelante, considere la posibilidad de usar los [proyectos de Analysis Workspace](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/) y su capacidad para poder descargarlos y programarlos.
+>[!NOTE]Más adelante, considere la posibilidad de usar los [proyectos de Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html) y su capacidad para poder descargarlos y programarlos.
 
 Cuando copia el tablero preexistente, el sistema lo abre para editarlo y ahí puede añadir contenido preexistente o nuevo. Al copiar un tablero preexistente, el original se conserva en la lista de tableros preexistentes.
 
