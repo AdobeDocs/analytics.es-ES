@@ -3,7 +3,7 @@ description: La segmentación de una métrica individual le permite realizar com
 title: Métricas segmentadas
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,11 +28,11 @@ Vamos a ver la primera pregunta: ¿de qué forma se compara el contenido de nave
 
    >[!NOTE]
    >
-   >También puede llevar a cabo esta acción en el [Generador de segmentos](https://marketing.adobe.com/resources/help/es_ES/analytics/segment/seg_build.html), pero hemos simplificado el flujo de trabajo al establecer que las dimensiones estén disponibles en el creador de métricas calculadas.
+   >También puede llevar a cabo esta acción en el [Generador de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), pero hemos simplificado el flujo de trabajo al establecer que las dimensiones estén disponibles en el creador de métricas calculadas.
 
    >[!NOTE]
    >
-   >La opción “Interno” implica que el segmento no esté visible en la lista **[!UICONTROL Segmentos]** del carril de la izquierda. Sin embargo, puede hacerlo público si pasa el ratón por el icono “i”, que se sitúa junto a ella, y hace clic en **[!UICONTROL Hacer público]**.
+   >&quot;Internal&quot; means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. You can however, make it public by hovering over the &quot;i&quot; icon next to it and clicking **[!UICONTROL Make public]**.
 
 1. Si no tiene ningún segmento comparable, cree un segmento que se llame “Visitantes internacionales” en el que “Países” no sea igual a “Alemania”.
 1. Cree y guarde una métrica llamada “Visitantes de Alemania” arrastrando el segmento de Alemania al lienzo Definición y la métrica de Visitantes únicos dentro de este:
@@ -40,11 +40,11 @@ Vamos a ver la primera pregunta: ¿de qué forma se compara el contenido de nave
    ![](assets/german-visitors.png)
 
 1. Repita el paso 3 con el segmento de Visitantes internacionales y la métrica de Visitantes únicos para crear una métrica de Visitantes internacionales.
-1. En Analysis Workspace, arrastre la dimensión **[!UICONTROL Página]** a una tabla de formato libre y, luego, las dos métricas calculadas nuevas en paralelo en la parte superior:
+1. In Analysis Workspace, drag the **[!UICONTROL Page]** Dimension into a Freeform Table and drag the 2 new calculated metrics next to each other to the top:
 
    ![](assets/workspace-pages.png)
 
-1. O también, en [!UICONTROL Reports &amp; Analytics], abra el informe [!UICONTROL Páginas] y haga clic en **[!UICONTROL Mostrar métricas]** y, luego, aplique las nuevas métricas segmentadas de Visitantes de EE. UU. y Visitantes internacionales para ver cómo se compara la exploración del contenido.
+1. Or, in [!UICONTROL Reports & Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
 
    ![](assets/pages-report.png)
 
@@ -65,7 +65,7 @@ Puede introducir otro nivel de consulta al comparar el comportamiento de explora
 
 Si desea ver las principales diferencias entre el comportamiento de exploración de EE. UU. e Internacional de un vistazo, puede crear otra métrica que reste los porcentajes entre sí. Para ello, puede utilizar la función de Contenedor que funciona de forma efectiva como paréntesis rodeando 2 conjuntos de métricas.
 
-1. En el lienzo de [!UICONTROL Definición] haga clic en **[!UICONTROL Agregar]** > **[!UICONTROL Contenedor]**:
+1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** > **[!UICONTROL Container]**:
 
    ![](assets/cm_add_container.png)
 
