@@ -3,7 +3,7 @@ description: Compara la terminología y tareas de los Ad Hoc Analysis con las de
 title: Analysis Workspace comparado con los Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ Compara la terminología y tareas de los Ad Hoc Analysis con las de Analysis Wor
 
 Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al flujo de trabajo del explorador. Aunque parte de la terminología y la funcionalidad se comparten entre ambos productos, en Analysis Workspace se han introducido nuevos términos y enfoques de análisis.
 
-[Aquí](https://marketing.adobe.com/resources/help/es_ES/reference/analytics-product-comparison.html) tiene una comparativa técnica de las características principales y los requisitos del sistema de ambos productos.
+[Aquí](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html) tiene una comparativa técnica de las características principales y los requisitos del sistema de ambos productos.
 
 ## Comparación de terminología clave  {#section_6109406B83B043A18E46D38F130B1D2E}
 
