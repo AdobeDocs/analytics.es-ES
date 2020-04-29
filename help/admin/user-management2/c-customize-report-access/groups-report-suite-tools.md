@@ -6,7 +6,7 @@ title: Personalizar herramientas de grupos de informes
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -15,19 +15,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]**.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 Habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero.
 
-**[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acceso a informes]** > **[!UICONTROL Herramientas del grupo de informes]** > **[!UICONTROL Personalizar]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
 
-La página [!UICONTROL Personalizar herramientas del grupo de informes] concede a los miembros de un grupo acceso a los elementos que siguen.
+La [!UICONTROL Customize Report Suite Tools] página concede a los miembros de un grupo acceso a los siguientes elementos.
 
 ![](assets/report-suite-tools.png)
 
 ## Descripciones de los campos
 
-Las opciones de esta página pertenecen a los grupos de informes seleccionados en la página [!UICONTROL Definir grupos de usuarios].
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | Elemento | Descripción |
 |--- |--- |
@@ -65,8 +65,8 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | [Detección de anomalías](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/anomaly_detection.html) | Concede permiso para acceder a Detección de anomalías, que constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores. |
 | [Informe de canal](https://marketing.adobe.com/resources/help/es_ES/mchannel/index.html) | Concede permiso para informes Canal de marketing, los cuales se encuentran en Informes > Informes de canal de marketing. |
 | [Informe en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Otorga acceso al informe en tiempo real. |
-| [Páginas de bots](/help/admin/admin/bot-removal/bot-rules.md) | Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
-| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
+| [Páginas de bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Las páginas de bots son para informes específicos de Informes y análisis, no para la administración de reglas de bots. Actualmente, no hay permiso para permitir la edición de reglas de bots.** Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
+| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Los bots son para informes específicos de Informes y análisis, no para la administración de reglas de bots. Actualmente, no hay permiso para permitir la edición de reglas de bots.** Los bots permiten eliminar del grupo de informes el tráfico generado por arañas de Web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
 | [Informe del Data Warehouse personalizado](/help/export/data-warehouse/data-warehouse.md) | El Data Warehouse hace referencia a la copia de datos sin procesar para su almacenamiento y para elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Puede solicitar informes para mostrar las relaciones de datos avanzadas que hay entre los datos sin procesar en función de sus propias preguntas. |
 | [Visitas de retorno diario](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Heredado) Informe que muestra el número de visitantes que vieron el sitio web más de una vez en un día determinado. Un día se define como el último período de 24 horas. |
 | [Administrador de fuentes de datos](/help/admin/admin/data-sources.md) | La función Fuentes de datos permite importar datos a Analytics desde fuentes sin conexión. |
