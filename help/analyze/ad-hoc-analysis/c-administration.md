@@ -3,7 +3,7 @@ description: Configuración de usuarios e información acerca del muestreo de da
 title: Administración
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Configuración de usuarios e información acerca del muestreo de datos.
 
-Para obtener ayuda sobre [!DNL Admin Console], consulte la [Documentación de Analytics](https://marketing.adobe.com/resources/help/es_ES/reference/index.html).
+Para obtener ayuda sobre [!DNL Admin Console], consulte la [Documentación de Analytics](https://docs.adobe.com/content/help/es-ES/analytics/landing/home.html).
 
 ## Licencias de usuario {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -37,14 +37,14 @@ t_user_licenses.xml
  -->
 
 1. Inicie sesión en [!DNL Experience Cloud].
-1.  Haga clic en **[!UICONTROL Admin]** > **[!UICONTROL Administración de usuarios]**. 
-1. Haga clic en **[!UICONTROL Editar grupos]**.
+1. Haga clic **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
+1. Haga clic en **[!UICONTROL Edit Groups]**.
 
-   Si su empresa ha adquirido licencias de usuario, aparecerá el grupo [!UICONTROL Usuarios con licencias de Ad Hoc Analysis] en la columna [!UICONTROL Nombre del grupo]. También se muestra el número de licencias disponibles para los inicios de sesión de los usuarios.
+   Si la compañía ha adquirido licencias de usuario, el [!UICONTROL Ad Hoc Analysis License Users] grupo aparece en la [!UICONTROL Group Name] columna. También se muestra el número de licencias disponibles para los inicios de sesión de los usuarios.
 
-1. Haga clic en **[!UICONTROL Editar]**.
-1. En [!UICONTROL Asignar inicios de sesión a usuarios], seleccione los usuarios que desee añadir al grupo y haga clic en **[!UICONTROL Añadir.]**
-1. Haga clic en **[!UICONTROL Guardar grupo]**.
+1. Haga clic en **[!UICONTROL Edit]**.
+1. Under [!UICONTROL Assign User Logins], select the users you want to add to the group, then click **[!UICONTROL Add.]**
+1. Haga clic en **[!UICONTROL Save Group]**.
 
    El sistema de licencias no limita la cantidad de usuarios que se pueden agregar a un grupo. El uso simultáneo del número de licencias compradas es limitado.
 
@@ -58,10 +58,10 @@ t_managing_users.xml
 
  -->
 
-1. Haga clic en **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Administración de usuarios]** y, a continuación, haga clic en **[!UICONTROL Administrar usuarios]**.
-1. Ubique el usuario y haga clic en **[!UICONTROL Finalizar.]** 
+1. Haga clic en **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** y, a continuación, haga clic en **[!UICONTROL Manage Users]**.
+1. Locate the user, then click **[!UICONTROL Terminate.]**
 
-   En la página [!UICONTROL Sesiones activas de Ad Hoc Analysis], aparecen primero los usuarios que han estado más tiempo inactivos.
+   On the [!UICONTROL Active Ad Hoc Analysis Sessions] page, the user who has been idle the longest displays at the top of list.
 
 ## Permisos {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
 
@@ -83,11 +83,11 @@ t_permissions.xml
 
  -->
 
-1. Inicie sesión desde **[!UICONTROL Experience Cloud]**. 
-1. Haga clic en **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Editar grupos]**.
-1. Haga clic en **[!UICONTROL Acceso a todos los informes]**.
-1. En [!UICONTROL Usuarios disponibles], seleccione el usuario y haga clic en **[!UICONTROL Agregar]**. 
-1. Haga clic en **[!UICONTROL Guardar grupo]**.
+1. Inicie sesión en **[!UICONTROL Experience Cloud]**.
+1. Haga clic **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
+1. Haga clic en **[!UICONTROL All Report Access]**.
+1. En [!UICONTROL Available Users], seleccione el usuario y haga clic en **[!UICONTROL Add.]**
+1. Haga clic en **[!UICONTROL Save Group]**.
 
 ## Crear grupos de permisos {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -99,11 +99,11 @@ t_permission_groups.xml
 
  -->
 
-1. Inicie sesión desde **[!UICONTROL Experience Cloud]**. 
-1. Haga clic en **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Editar grupos]**.
+1. Inicie sesión en **[!UICONTROL Experience Cloud]**.
+1. Haga clic **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
 1. Cree un grupo de permisos para usuarios no administrativos que incluya los grupos de informes activados con Ad Hoc Analysis que desea poner a disposición de los usuarios.
 
-   Los grupos de informes disponibles para el usuario se muestran en el menú [!UICONTROL Informe Cloud] al crear un nuevo proyecto.
+   The report suites available to the user are displayed in the [!UICONTROL Report Cloud] menu when you create a new project.
 
 ## Configuración de directivas de proxy en Java {#task_3B03F58519544025B55CF54FACF8F4F5}
 
@@ -117,10 +117,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis usa HTTP para comunicarse con el servidor. y está sujeto a las mismas directivas de proxy que cualquier otro tráfico HTTP.
 
-1. En el [!DNL Windows Control Panel], inicie el [!UICONTROL Panel de control de Java].
-1. En la ficha **[!UICONTROL General]**, haga clic en **[!UICONTROL Configuración de red]**.
-1. Seleccione **[!UICONTROL Usar configuración de navegador]** o configure manualmente las opciones de proxy.
-1. Haga clic en **[!UICONTROL Aceptar]** y vuelva a hacer clic en **[!UICONTROL Aceptar]** en el [!UICONTROL Panel de control de Java].
+1. En la [!DNL Windows Control Panel], inicie la [!UICONTROL Java Control Panel].
+1. En la **[!UICONTROL General]** ficha, haga clic en **[!UICONTROL Network Settings]**.
+1. Seleccione **[!UICONTROL Use browser settings]** o configure manualmente la configuración del proxy.
+1. Haga clic en **[!UICONTROL OK]**, luego haga clic **[!UICONTROL OK]** en la [!UICONTROL Java Control Panel].
 
 ## Cómo se muestran los datos {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
