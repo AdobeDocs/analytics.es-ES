@@ -3,7 +3,7 @@ description: El cuadro de diálogo Administración de datos en Herramientas de a
 title: Consulta o administración de la configuración de control de datos del grupo de informes
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 El cuadro de diálogo Administración de datos en Herramientas de administración proporciona una descripción general de los grupos de informes que se han configurado para el control de datos, si se han asignado a una organización de Experience Cloud y si se ha dispuesto una política de retención de datos para este grupo de informes.
 
 1. Inicie sesión en Adobe Experience Cloud.
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Control de datos]**.
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**.
 
    Verá todos los grupos de informes que forman parte de su empresa de inicio de sesión:
 
@@ -36,7 +36,7 @@ El cuadro de diálogo Administración de datos en Herramientas de administració
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>Asignado</b>: este grupo de informes ya ha sido asignado a la organización Experience Cloud como la empresa de inicio de sesión de Analytics en la que inicia sesión. Solo pueden etiquetarse los grupos de informes que tengan esta configuración. </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Asignar grupo de informes:</b> al hacer clic en este vínculo, podrá <a href="https://marketing.adobe.com/resources/help/es_ES/mcloud/report-suite-mapping.html">asignar un grupo de informes</a> a una organización Experience Cloud. <p>Esto significa que se le redireccionará a la página de administración de asignación de grupos de informes de la organización de Experience Cloud, donde tendrá que encontrar el grupo de informes y asignarlo a la organización apropiada. Una vez que haya completado ese paso, vuelva a esta interfaz de usuario de control de datos. </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>Asignar grupo de informes:</b> al hacer clic en este vínculo, podrá <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html">asignar un grupo de informes</a> a una organización Experience Cloud. <p>Esto significa que se le redireccionará a la página de administración de asignación de grupos de informes de la organización de Experience Cloud, donde tendrá que encontrar el grupo de informes y asignarlo a la organización apropiada. Una vez que haya completado ese paso, vuelva a esta interfaz de usuario de control de datos. </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>Asignado a otra organización:</b> otra organización de Experience Cloud ya ha asignado este grupo de informes a su organización. </li> 
     </ul> </td> 
   </tr> 
