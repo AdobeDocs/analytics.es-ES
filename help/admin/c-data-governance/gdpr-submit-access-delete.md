@@ -3,7 +3,7 @@ description: 'null'
 title: Envío de solicitudes de acceso y eliminación
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ También debería garantizar que sus aplicaciones móviles y sitios web tengan a
 
 ## Gestión del consentimiento de los clientes  {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Usted, como responsable del tratamiento de datos, es el responsable de obtener un consentimiento explícito por parte de sus interesados antes de recopilar datos sobre los mismos (que posiblemente incluyan datos de Adobe Analytics) y de [implementar un mecanismo de desistimiento](https://marketing.adobe.com/resources/help/es_ES/dtm/opt-in.html) en su sitio web. Esto permite que sus interesados queden excluidos de la recopilación de datos futura de Adobe Experience Cloud.
+Usted, como responsable del tratamiento de datos, es el responsable de obtener un consentimiento explícito por parte de sus interesados antes de recopilar datos sobre los mismos (que posiblemente incluyan datos de Adobe Analytics) y de [implementar un mecanismo de desistimiento](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html) en su sitio web. Esto permite que sus interesados queden excluidos de la recopilación de datos futura de Adobe Experience Cloud.
 
 ## Validación de usuarios y sus datos  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
