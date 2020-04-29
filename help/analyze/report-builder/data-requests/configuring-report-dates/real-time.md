@@ -4,7 +4,7 @@ title: Informes en tiempo real
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Puede:
 * Utilice cualquier evento personalizado, evento del carro de comparas o instancia.
 * Vea hasta 20 horas de datos en tiempo real históricos.
 
-Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no dispone de os derechos para ver los ingresos, no podrá ver el informe en tiempo real que incluye los datos de ingresos. No compatible con eVars (métricas de conversión). Los permisos en tiempo real se activan en [Herramientas de administración](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html).
+Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no dispone de os derechos para ver los ingresos, no podrá ver el informe en tiempo real que incluye los datos de ingresos. No compatible con eVars (métricas de conversión). Los permisos en tiempo real se activan en [Herramientas de administración](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
->[!NOTE] no [!UICONTROL Real-Time Reports] son iguales a la función [Incluir datos](https://marketing.adobe.com/resources/help/es_ES/arb/options.html) actuales (Creación de los datos) lanzada anteriormente, que reducía la latencia del sistema de informes estándar al mostrar los datos antes de finalizarlos.
+>[!NOTE] no [!UICONTROL Real-Time Reports] son iguales a la función [Incluir datos](hhttps://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) actuales (Creación de los datos) lanzada anteriormente, que reducía la latencia del sistema de informes estándar al mostrar los datos antes de finalizarlos.
 
