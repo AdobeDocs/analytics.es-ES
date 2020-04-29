@@ -5,7 +5,7 @@ title: Orden de procesamiento
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -34,7 +34,7 @@ Las siguientes tablas indican los datos que suelen estar disponibles antes y des
 | Datos agregados por VISTA | Las reglas de procesamiento se aplican antes de VISTA. |
 | Número de página de visita | En general, las reglas de procesamiento solo tienen en cuenta los datos contenidos en la visita actual. El número de página de visita se compila después de aplicar las reglas de procesamiento. |
 | La dirección URL limpia se agrega como nombre de página si no está definido | Tras aplicar las reglas de procesamiento y de VISTA, la dirección URL limpia se agrega como nombre de página si no se ha definido ninguno. Dado que esto ocurre después de aplicar las reglas de procesamiento, se recomienda agregar una condición para comprobar si el nombre de página está vacío.  Si ejecuta Contenido del sitio > Informe de páginas y observa los valores de https:// de los nombres de página, es probable que el nombre de página esté vacío y se esté utilizando la URL.  Puede configurar una condición para comprobar si un nombre de página está vacío, o para ver si el nombre de página o la URL de la página contiene un determinado valor. A continuación, se puede definir el nombre de página según sea necesario. |
-| Reglas de procesamiento de canal de marketing | Con las reglas de procesamiento pueden prepararse los datos para su procesamiento con las [reglas de procesamiento del canal de marketing](https://marketing.adobe.com/resources/help/es_ES/mchannel/c_rules.html). |
+| Reglas de procesamiento de canal de marketing | Con las reglas de procesamiento pueden prepararse los datos para su procesamiento con las [reglas de procesamiento del canal de marketing](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-rules.html). |
 | Búsqueda GEO | Incluye los valores de Estado del visitante y Código postal del visitante. |
 | Persistencia de eVars | Las eVars incluidas en alguna visita anterior no persisten en cada visita durante el procesamiento de las reglas. Solo están disponibles las eVars definidas en la visita que se está procesando actualmente. |
 
