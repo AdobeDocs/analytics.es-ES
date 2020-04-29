@@ -4,7 +4,7 @@ title: Descargas de archivos
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ Descargas de archivos ayuda a conocer la frecuencia con la que los visitantes de
 
 **Navegación**
 
-**[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Vínculos]** > **[!UICONTROL Descargas de archivos]**
+**[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Links]** > **[!UICONTROL File Downloads]**
 
 Si este informe no está disponible en la ubicación predeterminada, consulte a sus administradores, que pueden haber cambiado la estructura de menú predeterminada para atender mejor a las necesidades específicas de la organización.
 
@@ -33,8 +33,8 @@ Los informes de marketing capturan información sobre los archivos descargados d
 
 1. En el sitio, busque el archivo de JavaScript global. Normalmente se denomina [!DNL s_code.js], pero es posible que se le haya cambiado el nombre. Si se le ha cambiado el nombre, puede buscar en los archivos JavaScript de su sitio el valor *`s.account`*, que forma parte del código JavaScript.
 
-1. En el archivo, localice la variable [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html). Asegúrese de que esté configurada en *true*.
+1. En el archivo, localice la variable [s.trackDownloadLinks](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/trackdownloadlinks.translate.html). Asegúrese de que esté configurada en *true*.
 
-1. Localice la variable [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html). Asegúrese de que todas las extensiones de archivo deseadas estén presentes en la lista. En caso necesario, agregue las extensiones que faltan (por ejemplo, [!DNL .zip], [!DNL .pdf], etc.)
+1. Localice la variable [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/linkdownloadfiletypes.translate.html). Asegúrese de que todas las extensiones de archivo deseadas estén presentes en la lista. En caso necesario, agregue las extensiones que faltan (por ejemplo, [!DNL .zip], [!DNL .pdf], etc.)
 
-Si las variables parecen estar correctamente configuradas, pero el [!UICONTROL informe de descargas de archivos] continúa sin recibir datos, los usuarios de asistencia técnica de la organización deben ponerse en contacto con el Servicio de atención al cliente.
+If these variables appear to be configured correctly, but the [!UICONTROL File Downloads Report] still is not receiving data, your organization&#39;s supported users should contact Customer Care.
