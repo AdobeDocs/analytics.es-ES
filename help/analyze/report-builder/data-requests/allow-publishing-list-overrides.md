@@ -4,7 +4,7 @@ title: Permitir anulaciones de la lista de publicación
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ Cuando se programa un informe, se puede seleccionar una lista de publicación pa
 
 Las listas de publicaciones se configuran en las Herramientas de administración de Analytics.
 
-Consulte el [Administrador de la Lista de publicaciones](https://marketing.adobe.com/resources/help/es_ES/reference/publishing_list.html) en la referencia de Analytics.
+Consulte el [Administrador de la Lista de publicaciones](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html) en la referencia de Analytics.
 
 Para activar esta función, vaya a la [!UICONTROL Request Wizard: Step 1] ventana.
 
