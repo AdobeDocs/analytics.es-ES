@@ -5,7 +5,7 @@ title: Dimensiones disponibles para las reglas de procesamiento
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -38,7 +38,7 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>Variables de datos de contexto </p> </td> 
-   <td colname="col2"> <p>Variables con nombre que se envían con una visita. </p> <p>Nota: Los datos de las variables de datos de contexto se deben copiar en variables de informes para que aparezcan en los informes. Tampoco pueden verse en ninguna interfaz de informes, ni siquiera en las fuentes de datos del flujo de navegación. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiar una variable de datos de contexto en una eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Definir un evento con una variable de datos de contexto </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/es_ES/sc/implement/context_data_variables.html"> Variables de datos de contexto</a> </p> </td> 
+   <td colname="col2"> <p>Variables con nombre que se envían con una visita. </p> <p>Nota: Los datos de las variables de datos de contexto se deben copiar en variables de informes para que aparezcan en los informes. Tampoco pueden verse en ninguna interfaz de informes, ni siquiera en las fuentes de datos del flujo de navegación. </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> Copiar una variable de datos de contexto en una eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> Definir un evento con una variable de datos de contexto </a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> Variables de datos de contexto</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
