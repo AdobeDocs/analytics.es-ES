@@ -5,7 +5,7 @@ title: Crear una propiedad web
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Una propiedad web puede ser cualquier agrupación de uno o más dominios y subdominios incluida en un código incrustado y con una biblioteca de reglas.
 
->[!NOTE] Solo los usuarios con derechos de administrador pueden crear una propiedad. Para obtener más información sobre las funciones, consulte [Crear y administrar grupos en la DTM](https://marketing.adobe.com/resources/help/es_ES/dtm/groups.html) en la documentación del producto de Dynamic Tag Management.
+>[!NOTE] Solo los usuarios con derechos de administrador pueden crear una propiedad. Para obtener más información sobre las funciones, consulte [Crear y administrar grupos en la DTM](https://docs.adobe.com/content/help/en/dtm/using/admin/groups.html) en la documentación del producto de Dynamic Tag Management.
 
 Puede administrar y rastrear estos recursos con DTM. Por ejemplo, supongamos que tiene varios sitios web basados en una plantilla y quiere rastrear los mismos recursos en todos. Puede aplicar una propiedad web a varios dominios.
 
-Para obtener información general sobre propiedades web y prácticas recomendadas, consulte [Propiedades web](https://marketing.adobe.com/resources/help/es_ES/dtm/web_property.html) en la documentación del producto de Dynamic Tag Management.
+Para obtener información general sobre propiedades web y prácticas recomendadas, consulte [Propiedades web](https://docs.adobe.com/content/help/en/dtm/using/admin/web-property.html) en la documentación del producto de Dynamic Tag Management.
 
-1. Vaya a la página de su empresa y haga clic en **[!UICONTROL Agregar propiedad]**.
+1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
 
    ![](assets/dtm-create-web-property.png)
 
@@ -49,7 +49,7 @@ Para obtener información general sobre propiedades web y prácticas recomendada
     </tbody> 
     </table>
 
-1. (Opcional) Configure la [!UICONTROL Configuración avanzada].
+1. (Opcional) Configure [!UICONTROL Advanced Settings].
 
    <table id="table_6E687FBE6ACC4301BCCD837F4DCBB9C9"> 
     <thead> 
@@ -82,4 +82,4 @@ Para obtener información general sobre propiedades web y prácticas recomendada
     </tbody> 
     </table>
 
-1. Haga clic en **[!UICONTROL Crear propiedad]**.
+1. Haga clic en **[!UICONTROL Create Property]**.
