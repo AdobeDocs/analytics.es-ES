@@ -3,7 +3,7 @@ description: Un flujo interdimensional le permite examinar las rutas del usuario
 title: Flujos interdimensionales
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ---
 
@@ -59,5 +59,3 @@ Arrastre la dimensión Nombre de campaña a un nuevo flujo:
 Ahora deseo ver a qué páginas están impulsando el tráfico estas campañas, por lo que arrastro la dimensión Página a la derecha de los resultados de flujo para añadirlos a la visualización:
 
 ![](assets/multi-dimensional-flow9.png)
-
-A continuación, puede desglosar este resultado según otras métricas o dimensiones, como ingresos, visitas, etcétera.
