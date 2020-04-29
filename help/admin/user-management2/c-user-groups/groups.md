@@ -5,7 +5,7 @@ title: Configuración de grupos de usuarios
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]**.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 Descripciones de los elementos de la página Definir grupo de usuarios.
 
-**[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL Agregar un nuevo grupo de usuarios]**
+**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Add New User Group]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -114,7 +114,7 @@ Descripciones de los elementos de la página Definir grupo de usuarios.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Acceso completo, Personalizar, Sin acceso) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Se pueden otorgar permisos a los clientes que tienen contenedores de <span class="keyword">TagManager</span> activos. No disponible para los usuarios nuevos. </p> <p>Adobe recomienda <a href="https://marketing.adobe.com/resources/help/es_ES/dtm/atm_migration.html">Dynamic Tag Management</a> para llevar a cabo las implementaciones. </p> </td> 
+   <td colname="col2"> <p>Se pueden otorgar permisos a los clientes que tienen contenedores de <span class="keyword">TagManager</span> activos. No disponible para los usuarios nuevos. </p> <p>Adobe recomienda <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> para llevar a cabo las implementaciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Asignar inicios de sesión del usuario</b> </td> 
