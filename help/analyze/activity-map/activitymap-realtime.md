@@ -3,7 +3,7 @@ description: El análisis de página en tiempo real (modo Activo) permite obtene
 title: Análisis de páginas en tiempo real (activo)
 topic: Activity map
 translation-type: tm+mt
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 Si desea comprobar en el modo Activo qué elemento se hace clic principalmente:
 
-1. Seleccione el período de tiempo en la línea de tendencia del modo **** activo de la barra de herramientas que desee analizar.
+1. Seleccione el período de tiempo en la línea de tendencia de la barra de herramientas que desee analizar. **[!UICONTROL Live Mode]**
 1. Haga clic en el icono &quot;Ojo&quot; en la barra de herramientas para acceder a la tabla de informes de vínculos.
 1. Ordene la tabla mediante el vínculo.
 
@@ -39,6 +39,6 @@ Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Anal
 * Para el flujo en directo, los informes en tiempo real, las solicitudes de la API y todos los datos actuales para las variables de tráfico, solo se retrasan las visitas con un ID de datos suplementario.
 * Para los datos actuales en las métricas de conversión, los datos finalizados y las fuentes de datos, todas las visitas se retrasan de 5 a 7 minutos más.
 
-Tenga en cuenta que el aumento de la latencia se da después de implementar el [Servicio de identidad](https://marketing.adobe.com/resources/help/es_ES/mcvid/), incluso aunque no haya implementado correctamente esta integración.
+Tenga en cuenta que el aumento de la latencia se da después de implementar el [Servicio de identidad](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html), incluso aunque no haya implementado correctamente esta integración.
 
 Más información [aquí](/help/analyze/activity-map/activitymap-standard-live.md).
