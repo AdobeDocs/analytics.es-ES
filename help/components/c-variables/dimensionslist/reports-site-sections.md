@@ -4,7 +4,7 @@ title: Secciones del sitio
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,21 +13,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Muestra las secciones del sitio más visitadas. Las secciones del sitio pueden incluir grupos de productos, similares a categorías, definidas por el usuario. Por ejemplo, puede tener un grupo de páginas Cámaras, un grupo Equipos, etc. Los datos para el informe de secciones del sitio con conversión se importan desde el informe de secciones del sitio al grupo Tráfico, el cual recibe la información desde la variable de canal en el código de seguimiento. Puede utilizar este informe para identificar el mayor impacto en las estadísticas del sitio correspondiente a los artículos de las diversas secciones del sitio.
 
-* Este informe hace referencia a los datos directamente desde la variable [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) implementada en el sitio web.
+* Este informe hace referencia a los datos directamente desde la variable [s.channel](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/channel.html) implementada en el sitio web.
 * Este informe puede verse tanto en formato de tendencias como de clasificación.
 * Este informe puede utilizar un filtro de búsqueda para localizar artículos de línea específicos.
 * En este informe se puede utilizar la clasificación, lo que permite cambiar el nombre de los elementos de línea y consolidarlos.
 * Las correlaciones se pueden crear con cualquier otra variable de tráfico a través de las Herramientas de administración.
 * Este informe puede utilizar las métricas siguientes:
 
-   * **Vistas de página**: número de veces que la variable [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) o URL se definió (como métrica predeterminada).
+   * **Vistas de página**: número de veces que la variable [pageName](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagename.html) o URL se definió (como métrica predeterminada).
 
    * **Todas las métricas de rutas**: visitas, profundidad promedio de la página, tiempo promedio empleado en la página, entradas, salidas, recargas y acceso único.
    * En función de la configuración de su organización y del grupo de informes, en este informe se pueden activar los visitantes únicos para los períodos diario, semanal, mensual y trimestral.
    * **Todas las métricas de comercio electrónico estándar**: ingresos, pedidos, unidades, carros de compra, vistas del carro de compras, cierres de compra, adiciones al carro de compra y eliminaciones del carro de compra.
    * **Todos los eventos personalizados**: eventos 1-80 y eventos 81-100 si se trabaja con el código H22 o superior.
 
-Todos los eventos de conversión del [!UICONTROL informe de secciones del sitio] utilizan la última asignación. Verá que la conversión está dividida entre las páginas que no contienen eventos de éxito en la implementación. En esto se diferencia del  [informe de páginas](/help/components/c-variables/dimensionslist/reports-pages.md), que usa asignación lineal.
+Todos los eventos de conversión de la última asignación [!UICONTROL Site Sections Report] utilizan. Verá que la conversión está dividida entre las páginas que no contienen eventos de éxito en la implementación. En esto se diferencia del  [informe de páginas](/help/components/c-variables/dimensionslist/reports-pages.md), que usa asignación lineal.
 
 **Información específica de productos**
 
