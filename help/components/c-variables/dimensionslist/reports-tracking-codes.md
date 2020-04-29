@@ -4,7 +4,7 @@ title: Códigos de seguimiento
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,11 +17,11 @@ Evalúa el efecto que los distintos códigos de seguimiento publicitario tienen 
 
 * Este informe hace referencia a los datos directamente desde [s.campaign](/help/implement/vars/page-vars/campaign.md)
 * La variable en la que se basa este informe es una  [variable de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md). Es decir, puede persistir más allá de la vista de página y se puede asociar a métricas dentro de la fecha de caducidad especificada.
-* La métrica predeterminada del informe es Ingresos. Puede cambiar este valor predeterminado en el [!UICONTROL Administrador del grupo de informes] de las [!UICONTROL Herramientas de administración]. (**[!UICONTROL Editar configuración]** > **[!UICONTROL Configuración de informe individual]** > **[!UICONTROL Métricas predeterminadas]**).
+* La métrica predeterminada del informe es Ingresos. Puede cambiar este valor predeterminado en la [!UICONTROL Report Suite Manager] entrada [!UICONTROL Admin Tools]. ( **[!UICONTROL Edit Settings]** > **[!UICONTROL Individual Report Settings]** > **[!UICONTROL Default Metrics]**.)
 
 * Este informe puede verse tanto en formato de tendencias como de clasificación.
 * Este informe puede utilizar un filtro de búsqueda para localizar artículos de línea específicos.
-* Los informes [!UICONTROL Campañas] y [!UICONTROL Elementos creativos] son clasificaciones basadas en este informe y se crean automáticamente con cada grupo de informes.
+* The [!UICONTROL Campaigns] and [!UICONTROL Creative Elements] reports are classifications based on this report, and are automatically created with each report suite.
 
 * En este informe se puede utilizar la clasificación SAINT, lo que permite cambiar el nombre de los elementos de línea y consolidarlos.
 * Este informe puede desglosarse en los siguientes informes (en función de la configuración de la organización y del grupo de informes):
@@ -43,9 +43,9 @@ Evalúa el efecto que los distintos códigos de seguimiento publicitario tienen 
 
 **Propiedades de Reports &amp; Analytics**
 
-* Haga clic en **[!UICONTROL Conversión]** > **[!UICONTROL Campañas]** > **[!UICONTROL Código de seguimiento]** para localizar este informe, a menos que el menú esté personalizado.
+* Haga clic en **[!UICONTROL Conversion]** > **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** para ubicar este informe, a menos que el menú esté personalizado.
 
-* Este informe también puede desglosarse mediante todas las [variables de lista](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html).
+* Este informe también puede desglosarse mediante todas las [variables de lista](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/list-var-admin.html).
 * Las vistas de página, visitas y visitantes únicos están disponibles como métricas.
 * Este informe puede utilizar segmentos.
 
