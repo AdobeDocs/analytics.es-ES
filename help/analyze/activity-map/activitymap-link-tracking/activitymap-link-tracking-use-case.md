@@ -4,7 +4,7 @@ title: Diferenciación entre varios vínculos que hacen referencia al mismo ID y
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -48,7 +48,7 @@ Como ejemplo, supongamos que tenemos varios vínculos “Buy” (comprar) identi
 
 ## Personalizar el ID del vínculo con s_objectID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en una página, se puede mejorar el seguimiento de Activity Map, o bien utilizar Activity Map para informar sobre un tipo o una ubicación de vínculo en lugar de la URL del vínculo. Haga clic [aquí](https://marketing.adobe.com/resources/help/es_ES/sc/implement/s_objectID.html) para obtener más información sobre la variable s_objectID.
+Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en una página, se puede mejorar el seguimiento de Activity Map, o bien utilizar Activity Map para informar sobre un tipo o una ubicación de vínculo en lugar de la URL del vínculo. Haga clic [aquí](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html) para obtener más información sobre la variable s_objectID.
 
 >[!IMPORTANT]
 >
