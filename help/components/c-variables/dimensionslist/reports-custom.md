@@ -4,7 +4,7 @@ title: Personalizado
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ Los informes personalizados pueden aportarle mayor valor como analista. Si ve in
 
 Asimismo, existe la posibilidad de guardar los informes considerados importantes. Estos informes reciben el nombre de marcadores. También puede incluir varios informes en un lienzo para ver rápidamente los informes más importantes. Reciben el nombre de tableros y también son específicos del usuario. La interfaz muestra una barra por encima del gráfico en la que se muestran los marcadores y los tableros.
 
-Consulte [Marcadores](https://marketing.adobe.com/resources/help/es_ES/sc/user/index.html?f=c_bookmarks) y [Tableros e informes breves](https://marketing.adobe.com/resources/help/es_ES/sc/user/index.html?f=c_dashboard) para obtener más información.
+See [Bookmarks Manager](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html) and [Dashboards and Reportlets](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) for more information.
