@@ -3,7 +3,7 @@ description: 'null'
 title: Configurar una visualización de abandonos
 uuid: fc117745-baf3-46fb-873d-9307092cc337
 translation-type: tm+mt
-source-git-commit: 2cd9872ed5052b9569d03a07d5171221b9e0af29
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,7 +16,7 @@ Incluso puede añadir segmentos dentro de un punto de contacto. Por ejemplo, es 
 
 No existe limitación en el número de pasos que puede añadir o el número de dimensiones utilizadas.
 
-Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://marketing.adobe.com/resources/help/es_ES/sc/implement/listN.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
+Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
 1. Arrastre una [!UICONTROL Fallout] visualización de la lista desplegable Visualizaciones a una [!UICONTROL Freeform Table].
 
