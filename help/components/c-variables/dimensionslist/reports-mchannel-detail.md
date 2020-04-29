@@ -2,7 +2,7 @@
 title: 'Detalles del canal de marketing: primer y último toque'
 description: Asigne las métricas de éxito y los ingresos a varios detalles de canales sin tener en cuenta el canal general en el que se encuentran.
 translation-type: tm+mt
-source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ Estos informes ofrecen una perspectiva sobre las palabras clave o las campañas 
 
 * Este informe se ejecuta en reglas definidas en los canales de marketing. Consulte [Canales y reglas](/help/components/c-marketing-channels/c-channels.md).
 
-   De forma específica, el informe usa el elemento **[!UICONTROL Definir el valor del canal en]** de cada regla. Si se cambian estas reglas o la definición del valor del canal, cambiará también el modo de cálculo de los datos del informe. Véanse las [preguntas frecuentes](/help/components/c-marketing-channels/c-faq.md) sobre las reglas de procesamiento del canal de marketing para obtener más información.
+   Específicamente, el informe utiliza la parte **[!UICONTROL Set the channel's value to]** de cada regla. Si se cambian estas reglas o la definición del valor del canal, cambiará también el modo de cálculo de los datos del informe. Véanse las [preguntas frecuentes](/help/components/c-marketing-channels/c-faq.md) sobre las reglas de procesamiento del canal de marketing para obtener más información.
 
 * Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
@@ -32,4 +32,4 @@ Estos informes ofrecen una perspectiva sobre las palabras clave o las campañas 
    * Todas las métricas de comercio electrónico estándar: ingresos, pedidos, unidades, carros de compra, vistas del carro de compras, cierres de compra, adiciones al carro de compra, eliminaciones del carro de compra.
    * Todos los eventos personalizados: eventos 1-80 y eventos 81-100 si se trabaja con el código H22 o superior.
    * Visitas y Visitantes: disponibles en función del grupo de informes y la organización. Para obtener más detalles el usuario debe ponerse en contacto con el Administrador de cuentas.
-   Consulte [Métricas](https://marketing.adobe.com/resources/help/es_ES/mchannel/c_overview_metrics.html) en la ayuda sobre [!UICONTROL canales de marketing].
+   See [Metrics](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) in [!UICONTROL Marketing Channel] Help.
