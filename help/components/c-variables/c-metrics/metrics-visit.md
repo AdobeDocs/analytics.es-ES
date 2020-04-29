@@ -5,7 +5,7 @@ title: Visita
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,9 +34,9 @@ Una visita no es necesariamente lo mismo que una sesión de navegador. Si un vis
 
 Cuando una visita finaliza, caducan y dejan de persistir todas las variables con una caducidad de visita. La métrica de número de visitas será incrementada en la siguiente visita para este visitante.
 
->[!NOTE] Si utiliza Analytics como fuente para Adobe Target, consulte la sección sobre [minimización de recuentos inflados de visitas y visitantes en A4T ](https://marketing.adobe.com/resources/help/es_ES/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) en la [!DNL Target] documentación.
+>[!NOTE] Si utiliza Analytics como fuente para Adobe Target, consulte la sección sobre [minimización de recuentos inflados de visitas y visitantes en A4T ](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) en la [!DNL Target] documentación.
 
-Para obtener más información, consulte [Identificación de visitantes únicos](https://marketing.adobe.com/resources/help/es_ES/sc/implement/visid_overview.html) en la Guía de implementación de Adobe Analytics.
+Para obtener más información, consulte [Identificación de visitantes únicos](https://docs.adobe.com/content/help/es-ES/analytics/technotes/visitor-identification.html) en la Guía de implementación de Adobe Analytics.
 
 **Períodos de tiempo**
 
