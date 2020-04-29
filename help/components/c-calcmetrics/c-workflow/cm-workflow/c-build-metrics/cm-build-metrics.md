@@ -3,7 +3,7 @@ description: El Creador de métricas calculadas proporciona un lienzo en el que 
 title: Crear métricas
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,12 +14,12 @@ El Creador de métricas calculadas proporciona un lienzo en el que arrastrar y s
 
 Existen varias formas de acceder al Creador de métricas calculadas:
 
-* En Analysis Workspace, abra un proyecto y haga clic en **[!UICONTROL + Nuevo]** > **[!UICONTROL Crear métrica]** .
-* En [!DNL Analytics], vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Métricas calculadas]**.
+* En Espacio de trabajo de Análisis, abra un proyecto y haga clic en **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** .
+* En [!DNL Analytics], vaya a **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**.
 
-* Haga clic en **[!UICONTROL + Agregar]**, en la parte superior del [Administrador de métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), o bien
+* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or
 
-* Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**, abra cualquier informe, haga clic en el icono Métricas ![](assets/metrics_icon.png) para subir el riel de Métricas y, por último, haga clic en **[!UICONTROL Agregar]**.
+* Go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open any report and click the Metrics icon  ![](assets/metrics_icon.png) to bring up the Metrics rail, then click **[!UICONTROL Add]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -85,7 +85,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Compatibilidad del producto </span> </td> 
-   <td colname="col3"> <p>La compatibilidad del producto le muestra si la métrica es compatible con los <a href="https://marketing.adobe.com/resources/help/es_ES/reference/data_latency.html"  >Datos actuales</a>, con los Datos completamente procesados o solo con los informes del Canal de marketing (asignación de primer toque). <p>Nota: Datos actuales no es compatible con todas las métricas. Las métricas que contienen segmentos o funciones no son compatibles con los datos actuales. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Más... </a> </p> </p> </td> 
+   <td colname="col3"> <p>La compatibilidad del producto le muestra si la métrica es compatible con los <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  >Datos actuales</a>, con los Datos completamente procesados o solo con los informes del Canal de marketing (asignación de primer toque). <p>Nota: Datos actuales no es compatible con todas las métricas. Las métricas que contienen segmentos o funciones no son compatibles con los datos actuales. <a href="/help/components/c-calcmetrics/cm-compatibility.md"  > Más... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> Agregue </span> </td> 
@@ -102,7 +102,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + Nuevo </span> </td> 
-   <td colname="col3"> <p>Le permite crear un nuevo componente, como un nuevo segmento (que le dirige al <a href="https://marketing.adobe.com/resources/help/es_ES/analytics/segment/index.html?f=seg_build_ui"  >creador de segmentos</a>). </p> </td> 
+   <td colname="col3"> <p>Le permite crear un nuevo componente, como un nuevo segmento (que le dirige al <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >creador de segmentos</a>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Buscar componentes </p> </td> 
@@ -128,7 +128,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de segmentos </p> </td> 
-   <td colname="col3"> <p>(Solo métricas calculadas avanzadas) Como administrador, en esta lista se muestran todos los segmentos creados en su empresa de inicio de sesión. Si es un usuario no administrador, en esta lista se muestran los segmentos que le pertenecen y los que han compartido con usted. <a href="https://marketing.adobe.com/resources/help/es_ES/analytics/segment/seg_build_ui.html"  > Más... </a> </p> </td> 
+   <td colname="col3"> <p>(Solo métricas calculadas avanzadas) Como administrador, en esta lista se muestran todos los segmentos creados en su empresa de inicio de sesión. Si es un usuario no administrador, en esta lista se muestran los segmentos que le pertenecen y los que han compartido con usted. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html"  > Más... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de funciones </p> </td> 
