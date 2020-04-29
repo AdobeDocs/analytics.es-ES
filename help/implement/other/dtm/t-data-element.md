@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Creación de un elemento de datos
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,8 +15,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 Cree un elemento de datos en Dynamic Tag Management.
 
 1. [Cree una propiedad web](/help/implement/other/dtm/t-create-web-property.md), si aún no lo ha hecho.
-1. En la propiedad web, haga clic en **[!UICONTROL Reglas]** > **[!UICONTROL Elementos de datos]**.
-1. Haga clic en **[!UICONTROL Crear nuevo elemento de datos]**.
+1. En la propiedad web, haga clic en **[!UICONTROL Rules]** > **[!UICONTROL Data Elements]**.
+1. Haga clic en **[!UICONTROL Create New Data Element]**.
 1. Complete las opciones y los campos siguientes:
 
    <table id="choicetable_681F7D5B86534FF0B6DB67E117B8E381"> 
@@ -33,7 +33,7 @@ Cree un elemento de datos en Dynamic Tag Management.
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Tipo</strong></td> 
-      <td class="chdesc stentry"> <p> Especifica la ubicación de la cual se extraen los datos, como, por ejemplo, objeto de JS, selector de CSS, cookie, parámetro de URL o script personalizado. </p> <p>Se mostrarán diversas opciones en función del tipo seleccionado. Consulte <a href="https://marketing.adobe.com/resources/help/es_ES/dtm/data_elements.html">Tipos de elementos de datos</a> en Documentación del producto de Dynamic Tag Management para obtener más información y ejemplos. </p> </td> 
+      <td class="chdesc stentry"> <p> Especifica la ubicación de la cual se extraen los datos, como, por ejemplo, objeto de JS, selector de CSS, cookie, parámetro de URL o script personalizado. </p> <p>Se mostrarán diversas opciones en función del tipo seleccionado. Consulte <a href="https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html">Tipos de elementos de datos</a> en Documentación del producto de Dynamic Tag Management para obtener más información y ejemplos. </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>Valor predeterminado</strong></td> 
@@ -54,5 +54,5 @@ Cree un elemento de datos en Dynamic Tag Management.
     </tr> 
    </table>
 
-   Consulte [Elementos de datos](https://marketing.adobe.com/resources/help/es_ES/dtm/data_elements.html) en Documentación del producto de Tag Management de Adobe para obtener más información sobre el uso de los elementos de datos.
-1. Haga clic en **[!UICONTROL Guardar elemento de datos]**.
+   Consulte [Elementos de datos](https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html) en Documentación del producto de Tag Management de Adobe para obtener más información sobre el uso de los elementos de datos.
+1. Haga clic en **[!UICONTROL Save Data Element]**.
