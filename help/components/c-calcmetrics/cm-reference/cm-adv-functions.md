@@ -3,14 +3,14 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 title: 'Referencia: funciones avanzadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Referencia: funciones avanzadas
 
-Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en la lista desplegable **[!UICONTROL Funciones]**.
+Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
 
 ## Funciones de tabla en comparación con funciones de fila {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -65,7 +65,7 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ## Se excedió la cantidad de valores exclusivos  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://marketing.adobe.com/resources/help/es_ES/reference/metrics_uniques_high_numbers.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
+Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
 ## Comparación de funciones de recuento  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
