@@ -3,7 +3,7 @@ description: Está disponible en Analysis Workspace y en el Generador de segment
 title: Visitantes con Experience Cloud ID
 uuid: 47ebd3d6-a921-4e51-ac7a-b8d5fb9565e0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,17 +16,17 @@ Muestra el número de visitantes que tienen un Experience Cloud ID. Puede compre
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que esta métrica se muestra cuando se utiliza el [servicio de identidad](https://marketing.adobe.com/resources/help/es_ES/mcvid/) con el grupo de informes.
+>Tenga en cuenta que esta métrica se muestra cuando se utiliza el [servicio de identidad](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) con el grupo de informes.
 
 ## Depuración de la configuración de Experience Cloud ID {#section_679E62142A3E46548FF8FBDA46568005}
 
-La métrica [!UICONTROL Visitantes con Experience Cloud ID] de Adobe Analytics es muy útil y sirve para ayudar a encontrar y depurar la configuración del [!UICONTROL servicio de identidad]. La métrica es un recuento del número de visitantes en un grupo de informes a los que se les ha asignado un Experience Cloud ID desde el servicio de identidad. Esta métrica puede ser muy útil para diagnosticar por qué es posible que determinadas integraciones de Experience Cloud no compartan tantos visitantes como se esperaba, o bien para identificar áreas del sitio que no tengan aún MCID implementados.
+La métrica [!UICONTROL Visitors with Experience Cloud ID] es una métrica útil en Adobe Analytics que sirve para ayudarle a encontrar y depurar su [!UICONTROL Identity Service]configuración. La métrica es un recuento del número de visitantes en un grupo de informes a los que se les ha asignado un Experience Cloud ID desde el servicio de identidad. Esta métrica puede ser muy útil para diagnosticar por qué es posible que determinadas integraciones de Experience Cloud no compartan tantos visitantes como se esperaba, o bien para identificar áreas del sitio que no tengan aún MCID implementados.
 
-Para utilizar la métrica Visitantes con Experience Cloud ID, simplemente arrástrela a cualquier informe como métrica, como este informe [!UICONTROL Páginas]:
+To use the Visitors with Experience Cloud ID metric, simply drag it in to any report as a metric, such as this [!UICONTROL Pages] report:
 
 ![](assets/metric-mcvid1.png)
 
-En este ejemplo, observe que cada página tiene el mismo número de visitantes únicos y de visitantes con un Experience Cloud ID. Sin embargo, el número total de visitantes únicos es mayor que el número total de visitantes con Experience Cloud ID. Para buscar las páginas que no han configurado el MCID para todos los visitantes, [cree una métrica calculada](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/cm_build_metrics.html) con esta definición:
+En este ejemplo, observe que cada página tiene el mismo número de visitantes únicos y de visitantes con un Experience Cloud ID. Sin embargo, el número total de visitantes únicos es mayor que el número total de visitantes con Experience Cloud ID. Para buscar las páginas que no han configurado el MCID para todos los visitantes, [cree una métrica calculada](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) con esta definición:
 
 ![](assets/metric-mcvid2.png)
 
@@ -38,7 +38,7 @@ Ahora puede ver rápidamente que las páginas “Vistas rápidas de productos”
 
 Una vez que haya identificado las páginas que tienen visitantes sin ECID, podrá enviarlas al equipo de implementación para que puedan solucionar el problema de dichas páginas.
 
-En algunos casos, es posible que observe que un número pequeño de MCID no se ha configurado para algunos visitantes a pesar de que el servicio MCID se implementó en la página. Esto se debe probablemente a una configuración errónea del JavaScript de Analytics o de la configuración de DTM donde la función AppMeasurement se adopta antes de proporcionar un grupo de informes. Para evitar esto, asegúrese de [insertar el código de AppMeasurement principal](https://marketing.adobe.com/resources/help/en_US/sc/implement/dtm/t_appmeasurement-code.html) correctamente.
+En algunos casos, es posible que observe que un número pequeño de MCID no se ha configurado para algunos visitantes a pesar de que el servicio MCID se implementó en la página. Esto se debe probablemente a una configuración errónea del JavaScript de Analytics o de la configuración de DTM donde la función AppMeasurement se adopta antes de proporcionar un grupo de informes. Para evitar esto, asegúrese de [insertar el código de AppMeasurement principal](https://docs.adobe.com/content/help/en/analytics/implementation/other/dtm/analytics-tool/t-appmeasurement-code.html) correctamente.
 
 Tenga en cuenta que cualquier segmento basado en la página “Vistas rápidas de productos” (como se muestra arriba) que comparta con Experience Cloud probablemente tendrá una tasa de coincidencia muy baja con otras soluciones de Experience Cloud. Para comprobar el alcance de MCID de cualquier segmento, puede crear un informe de la siguiente manera:
 
