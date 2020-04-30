@@ -3,7 +3,7 @@ description: Añada o administre alertas de uso de llamadas al servidor. Al conf
 title: Alertas sobre el uso de llamadas al servidor
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,7 +14,7 @@ Al configurar una alerta, se aplica a todos los grupos de informes en todas las 
 
 ## Información general
 
-Se añade una nueva categoría de alertas denominada **[!UICONTROL Alerta de uso de llamadas al servidor]** a la interfaz de usuario de [Administración de alertas](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/intellligent_alerts.html).
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) user interface.
 
 Está previamente completado con **1 alerta predeterminada** que aparece en cualquier empresa de inicio de sesión con acceso a la función Uso de llamadas al servidor. Esta alerta activa una notificación destinada a todos los administradores de la empresa de inicio de sesión si se cumple uno de los siguientes criterios:
 
@@ -26,14 +26,14 @@ Está previamente completado con **1 alerta predeterminada** que aparece en cual
 
 Puede acceder a las alertas de uso de llamadas al servidor de dos formas:
 
-* Haga clic en **[!UICONTROL Administrar alertas]** en la esquina superior derecha de la ficha Uso actual en la pestaña de uso de Grupo de informes o
-* Vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]** en Adobe Analytics.
+* Click **[!UICONTROL Manage Alerts]** in the upper right corner on the Current Usage tab or the Report Suite usage tab, or
+* Vaya a **[!UICONTROL Components]** > **[!UICONTROL Alerts]** en Adobe Analytics.
 
 ## Crear alertas de uso de llamadas al servidor {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
 Para crear alertas adicionales,
 
-1. Haga clic en **[!UICONTROL + Añadir]** y seleccione **[!UICONTROL Alerta de uso de llamadas al servidor]**.
+1. Haga clic **[!UICONTROL + Add]** y seleccione **[!UICONTROL Server Call Usage Alert]**.
 
    ![](assets/server_call_alert.png)
 
@@ -54,7 +54,7 @@ Añada el tipo de llamadas al servidor como métrica y especifique el umbral de 
       * con
 Especifique el umbral y la condición (mayor o igual que, menor o igual que) para el Periodo de uso empleado.
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ## Administrar alertas de uso de llamadas al servidor {#section_8FF98170763C4B5CBEC6DD43F893177A}
 
@@ -67,12 +67,12 @@ Para administrar alertas:
 
    | Acción | Definición |
    |--- |--- |
-   | + Agregue | Acceda al [Generador de alertas](/help/admin/c-server-call-usage/scu-alerts.md) haciendo clic en [!UICONTROL + Añadir]. |
+   | + Agregue | Access the [Alert Builder](/help/admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add]. |
    | Etiqueta | Etiquete alertas para organizarlas y que sea más fácil utilizarlas. |
    | Eliminar | Puede eliminar todas las alertas excepto las predeterminadas. |
    | Cambiar nombre | Puede cambiar el nombre de todas las alertas excepto el de las predeterminadas. |
    | Aprobar | Apruebe alertas para hacerlas “oficiales”. |
    | Habilitar/Deshabilitar | Puede habilitar o deshabilitar todas las alertas, incluso las predeterminadas. |
-   | Renovar | When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
+   | Renovar | Cuando se seleccionan una o varias alertas, estas se pueden renovar. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
    | Exportar a CSV | Consulte [Descargar informe de uso](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
