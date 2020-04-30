@@ -4,7 +4,7 @@ title: Control de rutas
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Grupo de informes basado en el análisis de rutas. Técnicamente, las rutas suponen el paso de un nombre de página a otro (de un valor a otro).
 
-Utilice [Analysis Workspace Flow](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/flow.html) para disponer de opciones más flexibles de control de rutas.
+Utilice [Analysis Workspace Flow](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) para disponer de opciones más flexibles de control de rutas.
 
->[!NOTE] Para habilitar el control de rutas, vaya a **[!UICONTROL Administración > Grupos de informes > Editar configuración > Tráfico > Variables de tráfico]**. Para habilitar el control de rutas en la sección del sitio y en los informes de servidor, póngase en contacto con el Servicio de atención al cliente.
+>[!NOTE] Para habilitar las rutas, vaya a **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**. Para habilitar el control de rutas en la sección del sitio y en los informes de servidor, póngase en contacto con el Servicio de atención al cliente.
 
 Si necesita saber el orden en que se recopilan los valores, deberá habilitar el control de rutas para la variable que recopila dichos valores. El control de rutas está habilitado de forma predeterminada para las páginas. No está habilitado para cualquier propiedad de manera predeterminada porque únicamente es adecuado en determinados casos. Para habilitar el control de rutas en una propiedad, el usuario debe ponerse en contacto con el Servicio de atención al cliente.
 
@@ -27,7 +27,7 @@ Si activa las rutas para la variable  *`s.channel`*, podrá rastrear cómo las v
 
 ![](assets/path_sections.png)
 
-Las rutas estarán entonces disponibles en varios informes de rutas, como [!UICONTROL Flujo de sección de sitio siguiente], cómo los visitantes se desplazan a través de los grupos de páginas o secciones del sitio.
+Pathing is then available in various paths reports, such as [!UICONTROL Next Site Section Flow], which displays how visitors move through page groups, or sections of your site.
 
 ![](assets/paths_report.png)
 
