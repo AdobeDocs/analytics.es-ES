@@ -5,7 +5,7 @@ title: Usar marcas de hora opcionales
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Marcas de hora opcionales es la configuración predeterminada para todos los gru
 
 >[!NOTE] Marcas de hora opcionales es la configuración predeterminada para todos los nuevos grupos de informes generados a partir de una plantilla. Los nuevos grupos de informes copiados de un grupo de informes existente heredarán la configuración del original.
 
-Consulte [Marcas de hora opcionales](https://marketing.adobe.com/resources/help/es_ES/reference/timestamp-optional.html) para obtener información adicional sobre configuración.
+Consulte [Marcas de hora opcionales](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/timestamp-optional.html) para obtener información adicional sobre configuración.
 
 ## Marcas de hora opcionales: Integración de datos con marca de hora y sin marca de hora {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -62,7 +62,7 @@ Los siguientes son las prácticas recomendadas y algunos requisitos y limitacion
 
    Los datos desordenados pueden ser datos que llegan tarde desde una recopilación de datos sin conexión y visitas que llegan tarde, o relojes desincronizados en dispositivos móviles sin conexión. Los datos desordenados pueden afectar negativamente a los informes de cálculos de tiempo (por ejemplo, valores de tiempo invertido), atribuciones (persistencia de eVar), número o recuento de visitas y e informes de rutas.
 
-* No se recomienda utilizar marcas de hora cuando se establece [s.visitorID](https://marketing.adobe.com/resources/help/es_ES/sc/implement/visid_custom.html). Puede producir datos desordenados.
+* No se recomienda utilizar marcas de hora cuando se establece [s.visitorID](https://docs.adobe.com/content/help/es-ES/analytics/technotes/visitor-identification.html). Puede producir datos desordenados.
 
 * Las aplicaciones híbridas compuestas por una aplicación (datos sin conexión con marca de hora) que abre un explorador web (datos activos sin marca de hora) no deben utilizar marcas de hora. Produce informes inexactos acerca de la sesión.
 
