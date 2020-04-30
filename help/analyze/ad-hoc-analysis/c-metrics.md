@@ -3,7 +3,7 @@ description: Las métricas constituyen información cuantitativa sobre la activi
 title: Métricas
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,9 +22,9 @@ Las métricas estándar incluyen:
 * **Conversión**: muestran datos sobre los eventos de éxito en el sitio web. Los eventos de éxito pueden incluir compras, descargas o cualquier otra acción que desee que realicen los usuarios en su sitio web.
 * **Calculadas**: métricas personalizables creadas mediante la combinación de otras métricas. Por ejemplo: puede crear una métrica que para obtener los ingresos netos reste de los ingresos el coste de la palabra clave y el coste de las mercancías. Luego dicho valor se puede dividir por el número total de pedidos para obtener los ingresos netos promedio por pedido.
 
-Consulte las [Definiciones de métricas](https://marketing.adobe.com/resources/help/es_ES/reference/metrics.html) en la *Documentación de Analytics* para obtener información sobre cómo se usan las métricas en [!DNL Experience Cloud].
+Consulte las [Definiciones de métricas](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metricslist.html) en la *Documentación de Analytics* para obtener información sobre cómo se usan las métricas en [!DNL Experience Cloud].
 
-Permite usar la herramienta [!UICONTROL Organizar métricas] para crear nuevas carpetas para las métricas y, a continuación, agrupar métricas de cualquier manera. El organizador permite copiar métricas existentes en las carpetas personalizadas con la función de arrastrar y soltar.
+You can use the [!UICONTROL Organize Metrics] tool to create new folders for your metrics. a continuación, agrupar métricas de cualquier manera. El organizador permite copiar métricas existentes en las carpetas personalizadas con la función de arrastrar y soltar.
 
 Puede crear carpetas, darles un nombre y organizar las métricas en su interior como quiera, pero no puede cambiar las carpetas predeterminadas, salvo las carpetas Favoritos y Métricas calculadas.
 
@@ -38,13 +38,13 @@ t_organize_metrics.xml
 
  -->
 
-1. Dentro del panel de la herramienta [!UICONTROL Medidas], haga clic en **[!UICONTROL Más acciones]**. (  ![](assets/tools_icon.png)
+1. En el panel [!UICONTROL Metrics] de herramientas, haga clic en **[!UICONTROL More Actions]**. ( ![](assets/tools_icon.png)
 
    )
-1. Haga clic en **[!UICONTROL Organizar métricas]**.
-1. Haga clic en **[!UICONTROL Nuevo]** para crear una nueva carpeta.
+1. Haga clic en **[!UICONTROL Organize Metrics]**.
+1. Click **[!UICONTROL New]** to create a folder.
 1. Seleccione métricas de otras carpetas y, a continuación, arrastre la selección a la nueva carpeta.
-1. Haga clic en **[!UICONTROL Aceptar]**.
+1. Haga clic en **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
@@ -60,15 +60,15 @@ t_add_metrics_dsc.xml
 
  -->
 
-1. En el panel de herramientas [!UICONTROL Métricas], ubique la métrica.
+1. In the [!UICONTROL Metrics] tool pane, locate the metric.
 
    Puede ubicarla en el campo de búsqueda o explorando en las carpetas de métricas.
 
-1. Arrastre la métrica a la tabla del informe o al [!UICONTROL Generador de tablas].
+1. Drag the metric to the report table or [!UICONTROL Table Builder].
 
-   Le recomendamos que antes especifique métricas predeterminadas en [!UICONTROL Configuración], para no tener que agregar métricas a un informe de forma reiterada.
+   You may want to specify default metrics in [!UICONTROL Settings] in advance, if you want to reduce the need to repeatedly add metrics to a report.
 
-   Consulte [Pestaña Clasificación: definiciones](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
+   See [Ranked Tab - Definitions](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF).
 
 ## Creador de métricas calculadas {#concept_F8E213CE786A43FB93847C5BA883A29C}
 
@@ -80,11 +80,11 @@ c_calc_metric_builder.xml
 
  -->
 
-Para obtener más información sobre cómo se crean y administran las métricas calculadas, consulte la [Guía de métricas calculadas](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/).
+Para obtener más información sobre cómo se crean y administran las métricas calculadas, consulte la [Guía de métricas calculadas](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/cm-overview.html).
 
 A continuación se muestran los pasos para acceder al Generador de métricas calculadas en Ad Hoc Analysis:
 
-1. En el panel [!UICONTROL Métricas], haga clic en **[!UICONTROL Más opciones]** y, a continuación, en el **[!UICONTROL Creador de métricas calculadas]**.
+1. En el [!UICONTROL Metrics] panel, haga clic en **[!UICONTROL More Options]** y luego en **[!UICONTROL Calculated Metrics Builder]**.
 
    ![](assets/more_options_calc.png)
 
