@@ -3,7 +3,7 @@ description: Adobe Analytics y Adobe Audience Manager cuentan con métricas de v
 title: Diferencias en la contabilización de visitantes
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -23,11 +23,11 @@ Las métricas de visitante son:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Propagación total de segmentos</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Propagación total de segmentos</a> </p> </td> 
    <td colname="col3"> <p>Se trata del número de dispositivos (Experience Cloud ID) que formaban parte de su segmento durante el período retroactivo. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Propagación de segmentos en tiempo real</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM: Propagación de segmentos en tiempo real</a> </p> </td> 
    <td colname="col3"> <p>Se trata del número de dispositivos (Experience Cloud ID) que formaban parte de su segmento y han alcanzado sus propiedades durante el período retroactivo. </p> </td> 
   </tr> 
   <tr> 
