@@ -4,7 +4,7 @@ title: Filtrado de datos de los informes
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -49,7 +49,7 @@ Coincide si el término se encuentra en cualquier punto del elemento de línea. 
 
 **No contiene**
 
-Coincide si el término no se encuentra en cualquier punto del elemento de línea. Puede filtrar “sin especificar”, “ninguno”, “teclado no disponible” y otros [valores especiales](https://marketing.adobe.com/resources/help/es_ES/reference/none-unspecified-unknown-other.html) desde los informes mediante “No contiene”.
+Coincide si el término no se encuentra en cualquier punto del elemento de línea. Puede filtrar “sin especificar”, “ninguno”, “teclado no disponible” y otros [valores especiales](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) desde los informes mediante “No contiene”.
 
 No contiene: `none`
 
