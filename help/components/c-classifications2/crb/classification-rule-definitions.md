@@ -5,7 +5,7 @@ title: Definiciones de reglas de clasificación
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -32,7 +32,7 @@ Esta página muestra las reglas de un conjunto de reglas.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Seleccionar grupos de informes y variables </p> </td> 
-   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Los grupos de informes a los que se aplica el conjunto de reglas. </p> <p><b>Variable</b> </p> <p>Al crear un conjunto de reglas de clasificación solo puede aplicarse una variable. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes. </p> <p>Nota: Solo puede usar las variables a las que tenga acceso en sus grupos de informes. Las variables se mostrarán en el panel <span class="wintitle">Nuevo conjunto de reglas</span> solo después de haber definido como mínimo una clasificación para la variable. </p> <p>Por ejemplo, para que <span class="term"> las páginas</span> estén disponibles como variables para el conjunto de reglas, asegúrese de que el grupo de informes tenga <a href="https://marketing.adobe.com/resources/help/es_ES/reference/traffic_classifications.html"  > las clasificaciones de tráfico</a> implementadas para la <span class="term"> página</span>. </p> <p> El usuario puede crear clasificaciones en variables desde <span class="uicontrol">Administradores</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Clasificaciones de tráfico</span> (o <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Clasificaciones de las conversiones</span>). A continuación, debe seleccionar la variable y hacer clic en <span class="uicontrol">Agregar clasificación</span>. </p> <p>Consulte <a href="https://marketing.adobe.com/resources/help/es_ES/reference/traffic_classification_admin.html"  >Clasificaciones de tráfico</a> y <a href="https://marketing.adobe.com/resources/help/es_ES/reference/conversion_classifications.html"  >Clasificaciones de las conversiones</a> en la ayuda del administrador. </p> </td> 
+   <td colname="col2"> <p><b>Report Suite</b> </p> <p>Los grupos de informes a los que se aplica el conjunto de reglas. </p> <p><b>Variable</b> </p> <p>Al crear un conjunto de reglas de clasificación solo puede aplicarse una variable. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes. </p> <p>Nota: Solo puede usar las variables a las que tenga acceso en sus grupos de informes. Las variables se mostrarán en el panel <span class="wintitle">Nuevo conjunto de reglas</span> solo después de haber definido como mínimo una clasificación para la variable. </p> <p>Por ejemplo, para que <span class="term"> las páginas</span> estén disponibles como variables para el conjunto de reglas, asegúrese de que el grupo de informes tenga <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  > las clasificaciones de tráfico</a> implementadas para la <span class="term"> página</span>. </p> <p> El usuario puede crear clasificaciones en variables desde <span class="uicontrol">Administradores</span> &gt; <span class="uicontrol">Grupos de informes</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Clasificaciones de tráfico</span> (o <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Clasificaciones de las conversiones</span>). A continuación, debe seleccionar la variable y hacer clic en <span class="uicontrol">Agregar clasificación</span>. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >Clasificaciones de tráfico</a> y <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >Clasificaciones de las conversiones</a> en la ayuda del administrador. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activar</span> </p> </td> 
@@ -117,7 +117,7 @@ Esta página muestra las reglas de un conjunto de reglas.
 
 ## Página Expresión regular {#section_C932A5469E774841B2229965A154163C}
 
-En la página [!UICONTROL Expresión regular] puede editar las expresiones de este tipo.
+You can edit regular expressions on the [!UICONTROL Regular Expression] page.
 
 ![](assets/regex_tracking_code.png)
 
@@ -140,5 +140,5 @@ Esta página permite probar las reglas de un conjunto.
 | Elemento | Descripción |
 |---|---|
 | Ejecutar prueba | Para probar el conjunto de reglas, debe comprobarse el efecto que este ejerce sobre las claves del informe. |
-| Filtro | Filtra los valores en el panel [!UICONTROL Resultados]. |
+| Filtro | Filters the values in the [!UICONTROL Results] panel. |
 
