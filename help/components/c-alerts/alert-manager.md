@@ -3,7 +3,7 @@ description: 'null'
 title: Administrador de alertas
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,18 +12,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/alert-manager.png)
 
-El Administrador de alertas (**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**) tiene una estructura muy similar al [Administrador de segmentos](https://marketing.adobe.com/resources/help/es_ES/analytics/segment/seg_manage.html) y al [Administrador de métricas calculadas](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/cm_manager.html), y le permite hacer lo siguiente:
+The Alert Manager ( **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**) is structured very much like the [Segment Manager](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html) and the [Calculated Metric Manager](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html) and allows you to
 
 ![](assets/alert-manager-tasks.png)
 
-* Acceda al Generador de alertas haciendo clic en **[!UICONTROL + Añadir]**.
+* Access the Alert Builder by clicking **[!UICONTROL + Add]**.
 * Etiquetar alertas. Esto permite organizarlas para facilitar su uso.
 * Eliminar alertas.
 * Cambiar el nombre de alertas.
 * Aprobar alertas.
 * Copiar alertas.
 * Habilitar/deshabilitar alertas.
-* **Renovar** una fecha de caducidad para la alerta. Es posible renovar una o más alertas seleccionándolas y haciendo clic en **[!UICONTROL Renovar]**. Esto hace que su fecha de caducidad pase a ser 1 año desde el día en que se hace clic en **[!UICONTROL Renovar]**, fuera cual fuera la fecha de caducidad original.
+* **Renovar** una fecha de caducidad para la alerta. When one or more alerts are selected, they can be renewed by clicking **[!UICONTROL Renew]**.This extends their expiration dates to be 1 year from the day **[!UICONTROL Renew]** was clicked, regardless of their original expiration date.
 * Exportar una alerta a un archivo .CSV.
 * Editar alertas haciendo doble clic en su título.
 * Buscar alertas.
