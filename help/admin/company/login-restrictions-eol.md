@@ -1,21 +1,21 @@
 ---
-title: Fin de vida útil para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
-description: Obtenga información sobre la finalización de la vida útil y las implicaciones para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
+title: Fin de vida útil para [!UICONTROL Aplicar restricciones de inicio de sesión IP]
+description: Obtenga información sobre el tiempo de finalización de la vida útil y las implicaciones para [!UICONTROL Aplicar restricciones de inicio de sesión IP]
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: 940638b77f800b471f1ce4097a8ca6de98d518d3
 
 ---
 
 
-# Fin de vida útil para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
+# Fin de vida útil para [!UICONTROL Enforce IP login restrictions]
 
 La función **[Aplicar restricciones de inicio de sesión con IP](/help/admin/company/security-manager.md)**de Adobe Analytics permite incluir en la lista de direcciones IP específicas permitidas (que se consideran seguras) para aprobar inicios de sesión y el acceso a su entorno de Adobe Analytics. En muchos casos, esta función se utiliza para configurar una dirección IP corporativa como la única dirección IP segura desde la que los usuarios pueden iniciar sesión. Por lo tanto, para utilizar Adobe Analytics, se necesita que los usuarios estén en una oficina corporativa o que inicien sesión en la red a través de una VPN.
 
-Tenemos planeado finalizar la vida útil de esta función en octubre de 2020.
+Estamos planeando finalizar la vida útil de esta función en enero de 2021.
 
 ## ¿Por qué queremos dejar de usar esta función?
 
-Esta función da problemas, en algunos casos, con la migración de inicio de sesión de Experience Cloud o el mismo inicio de sesión de Experience Cloud. Al parecer, se produce un error con los usuarios que utilizan **[!UICONTROL Atributos del cliente]** o la **[!UICONTROL Biblioteca de audiencias]**.
+Esta función da problemas, en algunos casos, con la migración de inicio de sesión de Experience Cloud o el mismo inicio de sesión de Experience Cloud. Se sabe que se produce un error en los clientes que utilizan **[!UICONTROL Customer Attributes]** o **[!UICONTROL Audience Library]**.
 
 Además, si tiene varias soluciones de Experience Cloud, puede eludir este requisito al iniciar sesión en Experience Cloud con una de las otras soluciones, ya que esta función no existe o no se admite fuera de Analytics. Los usuarios también pueden evitar el error con la suplantación de IP.
 
@@ -23,15 +23,15 @@ Por último, Adobe cuenta con una solución alternativa funcional y muy superior
 
 ## ¿Cómo le afecta la eliminación de esta función?
 
-La función **[!UICONTROL Aplicar restricciones de inicio de sesión con IP]** se eliminará en octubre de 2020 para cualquier cliente que la tenga configurada. En ese momento, ya no se aplicará ninguna restricción de inicio de sesión con IP que aún exista. Si todavía necesita restringir el inicio de sesión por dirección IP, debe revisar e implementar la solución recomendada de inicio de sesión único y Federated ID (más información y recursos a continuación).
+Esta función se eliminará en enero de 2021 para cualquier cliente que haya **[!UICONTROL Enforce IP login restrictions]** configurado. En ese momento, ya no se aplicará ninguna restricción de inicio de sesión con IP que aún exista. Si todavía necesita restringir el inicio de sesión por dirección IP, debe revisar e implementar la solución recomendada de inicio de sesión único y Federated ID (más información y recursos a continuación).
 
-Además, la configuración **[!UICONTROL Aplicar restricciones de inicio de sesión IP]** se eliminará de **[!UICONTROLAAdministración > Configuración de la empresa > Administrador de seguridad]** en la interfaz de usuario de Analytics (como se muestra a continuación).
+Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROLAdmin > Company Settings > Security Manager]** in the Analytics UI (as shown below).
 
 ![](assets/sec-manager2.png)
 
 ## ¿Cuáles son sus otras opciones?
 
-Como se ha indicado anteriormente, esta función de Analytics acabará desapareciendo. Para darle tiempo para implementar SSO y Federated ID, hemos retrasado la fecha límite hasta octubre de 2020.
+Como se ha indicado anteriormente, esta función de Analytics acabará desapareciendo. Para darle tiempo para implementar SSO e Federated ID, hemos retrasado la fecha de EOL hasta enero de 2021.
 
 Tanto SSO como Federated ID son soluciones muy superiores a la función de restricción de inicio de sesión IP que tenemos en la actualidad y le proporcionarán más control y seguridad, y otras características. Para obtener información sobre cómo configurar SSO/Federated ID, tenemos disponible la siguiente documentación que podría ayudarle. Le recomendamos que lea a fondo la información y trabaje con su departamento de TI para implementar las nuevas soluciones:
 
