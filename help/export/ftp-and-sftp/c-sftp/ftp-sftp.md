@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: Resumen del Protocolo seguro de transferencia de archivos (SFTP)
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,7 +17,7 @@ SFTP es un protocolo seguro para la transferencia de datos que garantiza que nad
 
 Esto significa que los servidores de Adobe “insertan” el archivo en sus servidores. Es decir, que lo entregan en su extremo.
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) y [la fuente de datos de Analytics](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html) pueden insertar datos mediante un SFTP.
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) y [la fuente de datos de Analytics](https://docs.adobe.com/content/help/es-ES/analytics/export/analytics-data-feed/data-feed-overview.html) pueden insertar datos mediante un SFTP.
 
 Las siguientes herramientas de Analytics **no pueden** insertar datos por SFTP:
 
