@@ -3,7 +3,7 @@ description: Puede ver y analizar las anomalías de datos en contexto, dentro de
 title: Resumen de la Detección de anomalías
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -31,7 +31,7 @@ Algunos ejemplos de anomalías que puede investigar son:
 * Picos en eventos de almacenamiento de vídeo
 * Picos en tasas de bits de vídeo bajas
 
-Tanto la detección de anomalías como el [análisis de contribución](https://marketing.adobe.com/resources/help/es_ES/analytics/contribution/ca_main.html) son flujos de trabajo principales en Analysis Workspace. Puede ejecutar el análisis de contribución para cualquier anomalía diaria e incrustar el resultado en su proyecto de Analysis Workspace.
+Tanto la detección de anomalías como el [análisis de contribución](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) son flujos de trabajo principales en Analysis Workspace. Puede ejecutar el análisis de contribución para cualquier anomalía diaria e incrustar el resultado en su proyecto de Analysis Workspace.
 
 El algoritmo de Detección de anomalías de Analysis Workspace incluye:
 
