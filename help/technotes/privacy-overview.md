@@ -4,7 +4,7 @@ keywords: privacy
 title: Resumen de privacidad
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Analytics recopila los datos siguientes:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe ha habilitado la opción "Protección de IP: habilitada - IP eliminada (x.x.x.x)" de forma predeterminada para todos los clientes con un grupo de informes establecido en EMEA. Con esta configuración, la dirección IP será reemplazada completamente por el valor (x.x.x.x) después de realizar la búsqueda geográfica y ya no estará disponible como punto de datos. <p>El método de sustitución básico no se puede analizar mediante ingeniería inversa para obtener una dirección IP específica. Ni el cliente ni Adobe pueden tener acceso a la dirección IP, ya que se ha convertido en anónima de forma irreversible. Para obtener más información sobre la opción de protección de IP, consulte </p> <p> <a href="https://marketing.adobe.com/resources/help/es_ES/reference/index.html#General_Account_Settings"  >https://marketing.adobe.com/resources/help/es_ES/reference/index.html#General_Account_Settings</a> </p> </td> 
+   <td colname="col2"> Adobe ha habilitado la opción "Protección de IP: habilitada - IP eliminada (x.x.x.x)" de forma predeterminada para todos los clientes con un grupo de informes establecido en EMEA. Con esta configuración, la dirección IP será reemplazada completamente por el valor (x.x.x.x) después de realizar la búsqueda geográfica y ya no estará disponible como punto de datos. <p>El método de sustitución básico no se puede analizar mediante ingeniería inversa para obtener una dirección IP específica. Ni el cliente ni Adobe pueden tener acceso a la dirección IP, ya que se ha convertido en anónima de forma irreversible. Para obtener más información sobre la opción de protección de IP, consulte </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
