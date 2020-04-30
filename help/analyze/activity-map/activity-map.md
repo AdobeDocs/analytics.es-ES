@@ -4,14 +4,14 @@ title: Preguntas frecuentes sobre Activity Map
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: fa9efcba40ae00c22e99f68f5be8f4d5bf32e44c
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # Preguntas frecuentes sobre Activity Map
 
->[!Note]
+>[!NOTE]
 >Descubra cómo Mapa de Actividad admite Aplicaciones de una sola página (SPA) en nuestra página de [preguntas más frecuentes](/help/analyze/activity-map/activitymap-faq.md) .
 
 >[!IMPORTANT]
