@@ -5,7 +5,7 @@ title: Migración de visitantes
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,11 +16,11 @@ La migración de visitantes es un proceso en el que las cookies de ID de visitan
 
 La migración de visitantes permite preservar las cookies de identificación de visitantes al cambiar de dominio de recopilación de datos. Los dominios de recopilación de datos pueden cambiar por las siguientes razones:
 
-* Se cambia de `2o7.net` a `omtrdc.net` ([Recopilación de datos regionales](https://marketing.adobe.com/resources/help/es_ES/whitepapers/rdc/)).
+* Se cambia de `2o7.net` a `omtrdc.net` ([Recopilación de datos regionales](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
 
-* Implementación del [Servicio de ID de visitante de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcvid/) y cambio de un CNAME o dominio de recopilación de datos de origen a `2o7.net` o `omtrdc.net` ([Recopilación de datos regionales](https://marketing.adobe.com/resources/help/es_ES/whitepapers/rdc/))
+* Implementación del [Servicio de ID de visitante de Experience Cloud](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) y cambio de un CNAME o dominio de recopilación de datos de origen a `2o7.net` o `omtrdc.net` ([Recopilación de datos regionales](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html))
 
-* Se cambia de `2o7.net` u `omtrdc.net` a un cname o un servidor de recopilación de datos de origen ([Cookies de origen)](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-first-party.translate.html).
+* Se cambia de `2o7.net` u `omtrdc.net` a un cname o un servidor de recopilación de datos de origen ([Cookies de origen)](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Se cambia de un CNAME a otro (cambio de dominios).
 
