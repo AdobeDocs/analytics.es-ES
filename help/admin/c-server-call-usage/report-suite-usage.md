@@ -3,7 +3,7 @@ description: La ficha Uso del grupo de informes proporciona datos sobre el uso d
 title: Ver uso del grupo de informes
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 La ficha Uso del grupo de informes proporciona datos sobre el uso del servidor para cada grupo de informes en todas las empresas de inicio de sesión asociadas a su empresa de facturación durante el periodo de uso actual.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Uso de llamadas al servidor]** > **[!UICONTROL Uso del grupo de informes]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Server Call Usage]** > **[!UICONTROL Report Suite Usage]**
 
 >[!IMPORTANT]
 >
->Si un grupo de informes no está [vinculado a una organización de Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/report-suite-mapping.html), sus datos de uso no se reflejarán en este panel. También se puede asociar un ID de facturación a varias organizaciones de Experience Cloud; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
+>Si un grupo de informes no está [vinculado a una organización de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html), sus datos de uso no se reflejarán en este panel. También se puede asociar un ID de facturación a varias organizaciones de Experience Cloud; no siempre hay una relación 1:1 entre una organización y un ID de facturación.
 
 El tablero de Uso del grupo de informes:
 
@@ -24,7 +24,7 @@ El tablero de Uso del grupo de informes:
 * Muestra el porcentaje del uso global por categoría de llamadas al servidor.
 * Se actualiza a diario.
 * Se puede descargar.
-* Permite acceder a la interfaz de usuario de **[!UICONTROL Administrar alertas]**.
+* Permite acceder a la **[!UICONTROL Manage Alerts]** interfaz de usuario.
 
 ![](assets/report-suite-usage.png)
 
@@ -43,7 +43,7 @@ El tablero de Uso del grupo de informes:
 Esta opción permite descargar los datos de uso actual y datos de periodos anteriores al periodo de uso actual (hasta enero de 2015). El informe se descarga como archivo .csv.
 
 1. Seleccione al menos un grupo de informes.
-1. Haga clic en **[!UICONTROL Descargar informe]**.
+1. Haga clic en **[!UICONTROL Download Report]**.
 
    ![](assets/download_report.png)
 
@@ -54,7 +54,7 @@ Esta opción permite descargar los datos de uso actual y datos de periodos anter
 | Tipos de llamada incluidos | Especifique cualquier combinación de estas: Todas las llamadas (predeterminado), Primarias, Secundarias, Primarias móviles, Secundarias móviles. |
 | Intervalo de tiempo | Puede elegir el periodo de uso actual o especificar un intervalo personalizado.  Para un intervalo personalizado, especifique el comienzo del intervalo y el final del intervalo. <br>**Nota:**Recuerde que no puede descargar datos de uso anteriores a enero de 2015</br>. |
 
-1. Haga clic en **[!UICONTROL Descargar]**.
+1. Haga clic en **[!UICONTROL Download]**.
 
 A continuación se muestra una captura de pantalla del aspecto del archivo .csv descargado. Incluye una columna para la ID del grupo de informes. La ID del grupo de informes especifica una ID única que solo puede contener caracteres alfanuméricos. Esta ID no se puede cambiar después de crear un grupo de informes.
 
