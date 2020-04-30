@@ -2,7 +2,7 @@
 description: No se puede combinar el Generador de reglas de clasificación con subclasificaciones.
 title: Subclasificaciones y el Generador de reglas
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -37,7 +37,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 >
 >Estos pasos describen cómo se lleva a cabo el caso de uso descrito en [Subclasificaciones y el Generador de reglas](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
-1. Cree clasificaciones y subclasificaciones en el [Administrador de clasificación](https://marketing.adobe.com/resources/help/es_ES/reference/classifications.html).
+1. Cree clasificaciones y subclasificaciones en el [Administrador de clasificación](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html).
 
    Ejemplo:
 
