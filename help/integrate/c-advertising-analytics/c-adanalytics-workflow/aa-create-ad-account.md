@@ -2,7 +2,7 @@
 title: Configurar una cuenta publicitaria
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,14 +15,14 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
 
 ![](assets/aa_accounts.png)
 
-1. En Adobe Analytics, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Cuentas publicitarias]**.
+1. En Adobe Analytics, vaya a **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
 1. (Solo la primera vez que se utilice) Acepte los términos del Contrato de licencia de usuario final.
-1. Haga clic en **[!UICONTROL + Añadir]**.
-1. Se mostrará el cuadro de diálogo [!UICONTROL Nueva cuenta de motor de búsqueda]:
+1. Haga clic en **[!UICONTROL + Add]**.
+1. Se muestra el [!UICONTROL New Search Engine Account] cuadro de diálogo:
 
    ![](assets/aa_new_se_account.png)
 
-1. Siga estas directrices para rellenar **[!UICONTROL Configuración del motor de búsqueda]**:
+1. Llene las **[!UICONTROL Search Engine Settings]** siguientes directrices:
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,8 +54,8 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
     </tbody> 
     </table>
 
-1. En la sección **[!UICONTROL Seguimiento]**, debe proporcionar información sobre cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
-Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimiento]**:
+1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
+Llene las **[!UICONTROL Tracking Settings]** siguientes directrices:
 
    <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
     <thead> 
@@ -80,13 +80,13 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
     </tbody> 
     </table>
 
-1. En la sección **[!UICONTROL Asignación]**, elija qué grupo(s) de informes va a enlazar a la cuenta de este motor de búsqueda. Debe proporcionar un grupo de informes como mínimo para guardar la cuenta publicitaria. Puede asignar diversas cuentas a varios grupos de informes (1:1, 1:Muchos, Muchos:Muchos). Recuerde que los datos que AMO obtiene del motor de búsqueda simplemente se copian a cualquier grupo de informes asignado, de modo que los datos no se dividen.
+1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. Debe proporcionar un grupo de informes como mínimo para guardar la cuenta publicitaria. Puede asignar diversas cuentas a varios grupos de informes (1:1, 1:Muchos, Muchos:Muchos). Recuerde que los datos que AMO obtiene del motor de búsqueda simplemente se copian a cualquier grupo de informes asignado, de modo que los datos no se dividen.
 
    >[!IMPORTANT]
    >
-   >Solo los grupos de informes que se hayan [asignado a una organización de Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html) estarán disponibles para su selección. Si su grupo de informes no se incluye en la lista, consulte [Solucionar problemas de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
+   >Solo los grupos de informes que se hayan [asignado a una organización de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html) estarán disponibles para su selección. Si su grupo de informes no se incluye en la lista, consulte [Solucionar problemas de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
-   Para la **[!UICONTROL configuración de la asignación]**, siga estas directrices:
+   Para las **[!UICONTROL Mapping Settings]** siguientes directrices:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -98,13 +98,13 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Report Suite  Asignación </p> </td> 
-      <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
+      <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. Haga clic en **[!UICONTROL Guardar]**.
-1. Después de guardar, se muestra una lista de advertencias en un mensaje de exención de responsabilidad. Se le pedirá que confirme haber leído y entendido este contrato. Haga clic en la casilla de selección y, después, en **[!UICONTROL Aceptar]**.
+1. Haga clic en **[!UICONTROL Save]**.
+1. Después de guardar, se muestra una lista de advertencias en un mensaje de exención de responsabilidad. Se le pedirá que confirme haber leído y entendido este contrato. Click the checkbox, then click **[!UICONTROL OK]**.
 
    Ahora se le dirigirá a la [IU de administración](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) de cuentas publicitarias, en que se incluirá su cuenta recién creada.
 
