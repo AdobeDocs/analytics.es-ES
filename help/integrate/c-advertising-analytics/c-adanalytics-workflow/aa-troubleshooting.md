@@ -3,7 +3,7 @@ description: nulo
 title: Solucionar problemas de Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## No veo mi grupo de informes en la sección Asignación {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-Está intentando [configurar una cuenta publicitaria nueva](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) y no ve su grupo de informes en la lista desplegable **[!UICONTROL Seleccionar grupo de informes]**. Esto puede ocurrir por dos razones:
+You are trying to [set up a new Advertising Account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) and you do not see your report suite listed in the **[!UICONTROL Select Report Suite]** drop-down list. Esto puede ocurrir por dos razones:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -27,7 +27,7 @@ Está intentando [configurar una cuenta publicitaria nueva](/help/integrate/c-ad
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. El grupo de informes no está asignado a la Experience Cloud Org ID del usuario que ha iniciado sesión. </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >Asignación de grupos de informes a una organización</a> para obtener instrucciones. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html"  >Asignación de grupos de informes a una organización</a> para obtener instrucciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. El grupo de informes no está aprovisionado para los informes de Advertising Analytics. </p> </td> 
