@@ -4,7 +4,7 @@ title: Tasa de devoluciones
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ La tasa de devolución no incluye visitas en las que se produjeron varias accion
 
 >[!NOTE] Las implementaciones existentes a veces pueden contener una métrica calculada que difiere de la métrica predeterminada de Analytics. Consulte la definición de métrica calculada para asegurarse de que no haya diferencias.
 
-Consulte este [artículo de base de conocimientos](https://marketing.adobe.com/resources/help/es_ES/home/index.html#kb-analytics-comparing-bounces-and-single-access) para obtener más información.
+Consulte este [artículo de base de conocimientos](https://helpx.adobe.com/analytics/kb/comparing-bounces-and-single-access.html) para obtener más información.
