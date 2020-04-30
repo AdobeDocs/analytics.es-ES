@@ -3,7 +3,7 @@ description: La métrica Personas es una métrica de realización de informes de
 title: People
 uuid: f67fe072-099d-4ebc-8234-9ede2a632fab
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,4 +14,4 @@ La métrica Personas es una métrica de realización de informes de Adobe Analyt
 
 Proporciona una visión del marketing basada en las personas y le permite medir la actividad de los visitantes en todos sus dispositivos. Piense en ella como una versión deduplicada de Visitantes únicos y podrá utilizar Personas en los análisis en los que antes utilizaba Visitantes únicos.
 
-Puede obtener más información sobre la métrica Personas en la documentación de [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/es_ES/mcdc/mcdc-people.html).
+Puede obtener más información sobre la métrica Personas en la documentación de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html).
