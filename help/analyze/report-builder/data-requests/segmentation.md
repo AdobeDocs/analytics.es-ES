@@ -4,7 +4,7 @@ title: Administración de segmentos
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Report Builder incluye un panel de segmentación en el paso 1 del Asistente para
 >[!NOTE] Para añadir o editar segmentos, la interfaz de segmentos de Report Builder inicia el Creación de segmentos de Analytics en una ventana de Microsoft Internet Explorer. Su sesión de Report Builder permanecerá activa. Otros exploradores que no sean Internet Explorer no son compatibles con esta operación.
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
-1. Se inicia una ventana de Internet Explorer que abre la interfaz del Creador de segmentos de Analytics. Para obtener información acerca de cómo crear segmentos, consulte [https://marketing.adobe.com/resources/help/es_ES/analytics/segment/](https://marketing.adobe.com/resources/help/es_ES/analytics/segment/).
+1. Se inicia una ventana de Internet Explorer que abre la interfaz del Creador de segmentos de Analytics. Para obtener información sobre cómo crear segmentos, consulte [Segmentación](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html)de Analytics.
 1. Una vez que haya definido y guardado el segmento, vuelva al Asistente para solicitudes.
 1. Haga clic en el icono de actualizar para actualizar la lista de segmentos.
 
@@ -39,7 +39,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 
    ![](assets/seg_in_context.png)
 
-   Si desea información acerca de los contenedores, consulte la [Guía de segmentación](https://marketing.adobe.com/resources/help/es_ES/analytics/segment/).
+   Si desea información acerca de los contenedores, consulte la [Guía de segmentación](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html).
 
 1. Se iniciará la interfaz de usuario del creador de segmentos en Internet Explorer. La interfaz de usuario del creador de segmentos se iniciará con el contenedor y el filtro que haya especificado.
 1. Añada un nombre y una descripción al segmento y, a continuación, guárdelo.
