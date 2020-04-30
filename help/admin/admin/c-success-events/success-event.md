@@ -5,7 +5,7 @@ title: Resumen de los eventos de éxito
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -18,9 +18,9 @@ Acceda a la página Eventos de éxito en la configuración del grupo de informes
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
 2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
-3. Vaya a [!UICONTROL Administración] > [!UICONTROL Grupos de informes]
-4. Seleccione el grupo de informes deseado y, a continuación, vaya a [!UICONTROL Editar configuración] > [!UICONTROL Conversión] > Eventos [!UICONTROL de]éxito.
-5. Busque el evento deseado y modifique la lista desplegable Registro [!UICONTROL de Eventos] únicos para [!UICONTROL Registrar una vez por visita] o [!UICONTROL usar ID]de Evento.
+3. Vaya a [!UICONTROL Admin] > [!UICONTROL Report Suites]
+4. Seleccione el grupo de informes deseado y, a continuación, vaya a [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Success Events].
+5. Busque el evento deseado y modifique la [!UICONTROL Unique Event Recording] lista desplegable [!UICONTROL Record Once Per Visit] o [!UICONTROL Use Event ID].
 
 Existen muchas clases de eventos de éxito que varían en función del tipo de sitio web. Algunos ejemplos son:
 
@@ -32,11 +32,11 @@ Existen muchas clases de eventos de éxito que varían en función del tipo de s
 * **Alta tecnología**: descarga de documentos técnicos, RFP, finalización de formularios, solicitudes de asistencia
 * **Automoción**: envío de posible cliente, solicitar presupuesto, descarga de folletos
 
-La variable [s.events](https://marketing.adobe.com/resources/help/es_ES/sc/implement/events.html) define un evento de éxito.
+La variable [s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) define un evento de éxito.
 
 ## Página Eventos de éxito: descripciones {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Eventos de éxito]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
 
 La página Eventos de éxito permite configurar las variables de evento que se utilizan en un sitio. Pueden agregarse hasta 1000 eventos de éxito. Los eventos 81-1000 solo funcionan si se encuentran en código H22 o posterior.
 
