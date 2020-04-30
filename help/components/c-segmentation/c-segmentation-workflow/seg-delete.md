@@ -4,7 +4,7 @@ title: Eliminar segmentos
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,6 +24,6 @@ Cuando elimina un segmento:
 
 ## Editar segmentos eliminados incrustados en Ad Hoc Analysis {#section_976D601DBD2244E38B0A0222E31D2610}
 
-Ahora, Ad Hoc Analysis le permite editar segmentos eliminados incrustados dentro del [Creador de métricas calculadas](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/) y realizar la operación &quot;Guardar como&quot; en el segmento.
+Ahora, Ad Hoc Analysis le permite editar segmentos eliminados incrustados dentro del [Creador de métricas calculadas](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/cm-overview.html) y realizar la operación &quot;Guardar como&quot; en el segmento.
 
 Sin embargo, cualquier otro segmento eliminado que haga referencia al segmento eliminado permanecerá sin cambios.
