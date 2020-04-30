@@ -3,7 +3,7 @@ description: 'null'
 title: Número de resumen y cambio de resumen
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 * Si se selecciona un intervalo de celdas, se compara la primera celda con la última seleccionada en el intervalo.
 * Si se selecciona la columna, se compara el primer valor consigo mismo, lo que da como resultado un cambio de 0.
 * El color verde y rojo del cambio de resumen se puede controlar mediante:
-   * [Polaridad de evento personalizada](https://marketing.adobe.com/resources/help/es_ES/reference/success_event.html).
-   * Opción [Mostrar tendencia ascendente como](https://marketing.adobe.com/resources/help/es_ES/analytics/calcmetrics/cm_build_metrics.html) de una métrica calculada.
+   * [Polaridad de evento personalizada](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html).
+   * Opción [Mostrar tendencia ascendente como](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) de una métrica calculada.
 
 ## Configuración de cambio de resumen {#section_2581AC0107634FB4990AB8347E5897AA}
 
