@@ -4,7 +4,7 @@ title: Bots
 topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,5 +17,5 @@ Los bots se filtran en función del agente de usuario o de la dirección IP. Par
 
 >[!MORELIKETHIS]
 >
->* [Reglas de bots](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)
+>* [Reglas de bots](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-rules/bot-rules.html)
 
