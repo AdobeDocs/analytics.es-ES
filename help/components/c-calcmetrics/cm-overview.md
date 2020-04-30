@@ -4,7 +4,7 @@ keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Métricas calculadas y calculadas avanzadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,10 +15,10 @@ Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas pers
 
 >[!IMPORTANT]
 >
->En julio de 2018, Adobe introdujo [Attribution IQ](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/attribution.html), que revisaba la forma en que se evalúan los modelos de asignación en las métricas calculadas. Como parte de este cambio, las métricas calculadas que usan un modelo de asignación no predeterminado se migraron a los nuevos modelos de atribución mejorados:
+>En julio de 2018, Adobe introdujo [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html), que revisaba la forma en que se evalúan los modelos de asignación en las métricas calculadas. Como parte de este cambio, las métricas calculadas que usan un modelo de asignación no predeterminado se migraron a los nuevos modelos de atribución mejorados:
 >
 >* Los modelos de asignación “Último toque del canal de marketing” y “Primer toque del canal de marketing” se migrarán a los nuevos modelos de atribución “Último toque” y “Primer toque”, respectivamente. Tenga en cuenta que “Canales de marketing” no se ha dejado de utilizar, pues únicamente se han retirado los dos modelos de asignación que aparecen en las métricas calculadas.
->* Además, corregimos el modo en el que se calcula la asignación lineal. Para los clientes que usan métricas calculadas con modelos de asignación “Lineal”, los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. Este cambio en la métricas calculadas se refleja en el [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], API de informes, Report Builder y en Ad Hoc Analysis. Para obtener más información, consulte [Funcionamiento de la asignación lineal a partir del 19 de julio de 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
+>* Además, corregimos el modo en el que se calcula la asignación lineal. Para los clientes que usan métricas calculadas con modelos de asignación “Lineal”, los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. Para obtener más información, consulte [Funcionamiento de la asignación lineal a partir del 19 de julio de 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
 
 
 Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. Como expertos en marketing, gestores de productos y analistas, les permite plantear preguntas acerca de los datos sin tener que cambiar su implementación de [!DNL Analytics] En cada paquete de [!DNL Analytics] están disponibles las siguientes métricas personalizadas:
@@ -44,12 +44,12 @@ A continuación se muestra una comparación de las competencias de las métricas
 
 Puede
 
-* Crear métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
+* Cree métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder][!UICONTROL Anomaly Detection]y [!UICONTROL Contribution Analysis].
 * Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, [sin tener que cambiar la implementación](https://youtu.be/CuQTm9RaUpY). Éstas pueden verse en el historial, ya que se basan en segmentos.
 * Compartir métricas entre grupos de informes. Esto significa que todas las métricas de reciente creación se aplican a todos los grupos de informes en la misma empresa de inicio de sesión.
 * (Solo métricas calculadas avanzadas) Segmentar métricas. Por ejemplo, puede crear una métrica para “Visitantes nuevos”, con un recuento de personas de las cuales sea la primera sesión.
 * (Solo métricas calculadas avanzadas) Incorporar funciones estadísticas para ayudar a describir mejor los datos. Por ejemplo, puede contar el número de elementos de un informe o agregar el número de desviaciones estándar para cada elemento.
-* Utilice las métricas creadas en [!UICONTROL Ad Hoc Analysis] en otras herramientas de [!DNL Analytics] y viceversa.
+* Utilize metrics created in [!UICONTROL Ad Hoc Analysis] in the other [!DNL Analytics] tools and vice versa.
 
    >[!NOTE]
    >
@@ -59,18 +59,18 @@ Puede
 
 Algunas funciones de [!DNL Analytics] permiten utilizar eventos, pero no métricas calculadas:
 
-* [!UICONTROL Canalizaciones] [!UICONTROL en Reports &amp; Analytics]
-* [!UICONTROL Secuelas] en [!UICONTROL Analysis Workspace]
-* [!UICONTROL Análisis de cohortes] en Analysis Workspace
+* [!UICONTROL Funnels] en [!UICONTROL Reports & Analytics]
+* [!UICONTROL Fallout] en [!UICONTROL Analysis Workspace]
+* [!UICONTROL Cohort Analysis] en Análisis Workspace
 * [!UICONTROL Data Warehouse]
-* [!UICONTROL Segmentos]
-* [!UICONTROL Informes en tiempo real]
-* [!UICONTROL Informes de datos actuales]
+* [!UICONTROL Segments]
+* [!UICONTROL Real-Time] de dispositivos móviles
+* [!UICONTROL Current Data] de dispositivos móviles
 * [!DNL Analytics] for [!DNL Target]
 
 ## Herramientas {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-A continuación se describen brevemente las herramientas de [!UICONTROL Métricas calculadas]:
+Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
