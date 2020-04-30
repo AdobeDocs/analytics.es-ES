@@ -3,7 +3,7 @@ title: Actualizaciones de documentación técnica para Adobe Analytics
 description: Actualizaciones notables en el repositorio de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 ---
 
@@ -20,6 +20,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Fecha | Descripción |
 |---|---|
+| 27 de febrero de 2020 | Documentación Añadida para [Adobe Analytics Labs](https://docs.adobe.com/content/help/es-ES/analytics/analyze/tech-previews/overview.html). |
 | 25 de febrero de 2020 | variable [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) Añadida. |
 | 18 de febrero de 2020 | variable [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) Añadida. |
 | 12 de febrero de 2020 | Actualizaciones y reorganización de la documentación de Canales [de](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) marketing. |
