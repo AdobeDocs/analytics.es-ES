@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: Clasificaciones
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 La opción de FTP de las clasificaciones ofrece más flexibilidad a la hora de cargar grandes conjuntos de datos de clasificación, incluida la capacidad de cargar datos en varios grupos de informes, así como cargar conjuntos de datos con más de 50 000 filas.
 
-Consulte las [clasificaciones](https://marketing.adobe.com/resources/help/es_ES/reference/c_working_with_saint.html) si quiere conocer los pasos para descargar datos de clasificación por FTP y para cargar archivos de datos a través de FTP (incluidos los pasos de creación de una cuenta de FTP).
+Consulte las [clasificaciones](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) si quiere conocer los pasos para descargar datos de clasificación por FTP y para cargar archivos de datos a través de FTP (incluidos los pasos de creación de una cuenta de FTP).
 
 La cantidad de tiempo que el sistema necesita para importar estos archivos varía en función de diversos factores. Si un archivo cargado sigue estando en el servidor FTP pasadas seis horas, trabaje con los usuarios de soporte técnico de su compañía para ponerse en contacto con el servicio de atención al cliente de Adobe.
 
