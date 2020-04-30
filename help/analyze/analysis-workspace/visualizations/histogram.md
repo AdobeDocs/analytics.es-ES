@@ -3,7 +3,7 @@ description: Un histograma es un nuevo tipo de visualización en Analysis Worksp
 title: Histograma
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -37,7 +37,9 @@ Para ajustar la configuración de su histograma, haga clic en el icono de Config
 | Iniciando el depósito | Determina por qué contenedor empieza el histograma. La opción predeterminada es “1”. Puede ajustar los números iniciales de 0 hasta el infinito (sin números negativos). |
 | Contenedor de métricas | Le permite aumentar/disminuir el número de rangos de fecha (contenedores). El número máximo de contenedores es 50. |
 | Tamaño del contenedor de métricas | Le permite establecer el tamaño de cada contenedor. Por ejemplo, puede cambiar el tamaño del contenedor de 1 vista de página a 2 vistas de página. |
-| Método de recuento | Elija entre [Visitante](https://marketing.adobe.com/resources/help/es_ES/reference/visitors.html), [Visita](https://marketing.adobe.com/resources/help/es_ES/reference/metrics_visit.html) o [Acierto](https://marketing.adobe.com/resources/help/es_ES/reference/hit.html). Por ejemplo, vistas de página por visita o visitas de página por visitante o visitas de página por cada acierto. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre. |
+| Método de recuento | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). Por ejemplo, vistas de página por visita o visitas de página por visitante o visitas de página por cada acierto. Para visitas, se utiliza “Ocurrencias” como métrica del eje y en una tabla de forma libre. |
+
+<!--Russ or Meike - Check Hit Type link above. -->
 
 **Ejemplos**:
 
@@ -54,4 +56,4 @@ Los segmentos creados previamente que se muestran en la tabla son segmentos inte
 
 ![](assets/prebuilt_segments.png)
 
-Para explorar más formas en las que gestionar las tablas de datos improvisadas y otras visualizaciones, como hacer desgloses de datos, vaya [aquí](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/freeform-analysis-visualizations.html).
+Para explorar más formas en las que gestionar las tablas de datos improvisadas y otras visualizaciones, como hacer desgloses de datos, vaya [aquí](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html).
