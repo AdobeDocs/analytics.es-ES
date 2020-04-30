@@ -5,7 +5,7 @@ title: Resumen de las reglas de procesamiento
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,8 +33,8 @@ En este momento, los administradores tienen **de forma predeterminada** permiso 
 
 1. Si aún no lo ha hecho, [cree un grupo](/help/admin/user-management2/c-user-groups/groups.md) que solo incluya aquellos usuarios que no son administradores y que necesitan autorización para utilizar reglas de procesamiento.
 1. [Agregue los usuarios que no sean administradores a ese grupo](/help/admin/user-management2/c-user-management/t-add-user-to-group.md).
-1. A continuación, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL [nombre del grupo]]** > **[!UICONTROL Editar]** > **[!UICONTROL Acceso a informes]** > **[!UICONTROL Herramientas de grupos de informes]** > **[!UICONTROL Personalizar]** > **[!UICONTROL Administración de grupos de informes]**.
-1. Marque la casilla que está junto a [!UICONTROL Reglas de procesamiento] y haga clic en **[!UICONTROL Aceptar]**.
+1. A continuación, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]** > **[!UICONTROL Edit]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]** > **[!UICONTROL Report Suite Management]**.
+1. Marque la casilla al lado [!UICONTROL Processing Rules] y haga clic en **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
 
@@ -48,7 +48,7 @@ Las variables de datos de contexto son un nuevo tipo de variable y están dispon
 
 ![](assets/evar-context-map.png)
 
-Consulte [Variables de datos de contexto](https://marketing.adobe.com/resources/help/es_ES/sc/implement/context_data_variables.html) en la ayuda de implementación.
+Consulte [Variables de datos de contexto](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) en la ayuda de implementación.
 
 ## Transformar datos de visitas y activar eventos con reglas de procesamiento {#section_8284E72E999244E091CD7FB1A22342B6}
 
