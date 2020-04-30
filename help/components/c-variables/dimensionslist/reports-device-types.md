@@ -4,7 +4,7 @@ title: Tipos de dispositivos
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,5 +21,5 @@ Esta dimensión utiliza datos de dispositivos dinámicos que se actualizan const
 
 Los datos de este informe se rellenan utilizando la cadena agente-usuario.
 
->[!Note]
+>[!NOTE]
 >Solo son retroactivos aquellos cambios realizados en un ID móvil existente. Si el dispositivo es nuevo y no tiene un ID móvil, los únicos datos asociados a dicho dispositivo serán aquellos que se creen a partir de la fecha en la que se añada un ID a la base de datos del mismo.
