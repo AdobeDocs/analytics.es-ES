@@ -5,7 +5,7 @@ title: Acerca de las subclasificaciones
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Adobe Analytics admite modelos de clasificaciones de un solo nivel y de varios niveles. Las jerarquías de clasificación permiten aplicar una clasificación a otra.
 
->[!NOTE] Subclasificación hace referencia a la posibilidad de crear clasificaciones de clasificaciones. Sin embargo, no es lo mismo que la [!UICONTROL Jerarquía de clasificaciones] utilizada para crear informes de [!UICONTROL Jerarquía]. Para obtener más información sobre las jerarquías de clasificación, consulte [Jerarquías de clasificación](classification-hierarchies.md).
+>[!NOTE] Subclasificación hace referencia a la posibilidad de crear clasificaciones de clasificaciones. However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. Para obtener más información sobre las jerarquías de clasificación, consulte [Jerarquías de clasificación](classification-hierarchies.md).
 
 Por ejemplo:
 
@@ -35,7 +35,7 @@ Las clasificaciones de múltiples niveles están formadas por clasificaciones pr
 
 **Clasificaciones principales:** una clasificación principal es toda clasificación que tenga asociada una clasificación secundaria. Una clasificación puede ser clasificación principal y secundaria a la vez. Las clasificaciones principales de nivel superior corresponden a clasificaciones de un solo nivel (Consulte  [Clasificaciones de un solo nivel](/help/components/c-classifications2/c-sub-classifications.md)).
 
-**Clasificaciones secundarias:** una clasificación secundaria es toda clasificación que tenga otra clasificación como su principal en lugar de la variable. Las clasificaciones secundarias ofrecen información adicional sobre su clasificación principal. Por ejemplo, la clasificación [!UICONTROL Campañas] puede tener una clasificación secundaria de Propietario de la campaña. Las clasificaciones [!UICONTROL numéricas] también funcionan como métricas en los informes de clasificación.
+**Clasificaciones secundarias:** una clasificación secundaria es toda clasificación que tenga otra clasificación como su principal en lugar de la variable. Las clasificaciones secundarias ofrecen información adicional sobre su clasificación principal. For example, a [!UICONTROL Campaigns] classification might have a Campaign Owner child classification. [!UICONTROL Numeric] las clasificaciones también funcionan como métricas en los informes de clasificación.
 
 Cada clasificación, ya sea principal o secundaria, constituye una columna de datos en el archivo de datos. Encabezamiento de columna de una clasificación secundaria utilizando el siguiente formato de convención de nombres:
 
@@ -52,9 +52,9 @@ Por ejemplo:
 
 Aunque la plantilla del archivo de una clasificación de múltiples niveles sea más compleja, el poder de estas clasificaciones es que los distintos niveles se pueden cargar como archivos por separado. Esta metodología puede utilizarse para reducir la cantidad de datos que deben cargarse periódicamente (diariamente, semanalmente, etc.) agrupando los datos en niveles de clasificación que cambian con el paso del tiempo en oposición a aquellos que no cambian.
 
->[!NOTE] Si la columna [!UICONTROL Clave] de un archivo de datos está en blanco, Adobe generará automáticamente claves únicas para cada fila de datos. Para evitar que se dañe el archivo al cargar un archivo de datos con datos de clasificación de segundo nivel o de nivel superior, rellene cada fila de la columna [!UICONTROL Clave] con un asterisco (*).
+>[!NOTE] Si la [!UICONTROL Key] columna de un archivo de datos está en blanco, Adobe genera automáticamente claves únicas para cada fila de datos. To avoid possible file corruption when uploading a data file with second-level or higher-level classification data, populate each row of the [!UICONTROL Key] column with an asterisk (*).
 
-Consulte [Problemas comunes de carga de clasificaciones](https://marketing.adobe.com/resources/help/es_ES/home/index.html#kb-common-saint-upload-issues) para obtener ayuda sobre la resolución de problemas.
+Consulte [Problemas comunes de carga de clasificaciones](https://helpx.adobe.com/es/analytics/kb/common-saint-upload-issues.html) para obtener ayuda sobre la resolución de problemas.
 
 ## Ejemplos
 
