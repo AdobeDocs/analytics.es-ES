@@ -4,7 +4,7 @@ title: Categorías de informes
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,7 +24,7 @@ Como ejemplo de un informe de tendencia podemos mencionar el informe de producto
 Un informe de totales es un informe de nivel ejecutivo que muestra cifras totales. Contiene datos de totales de ingresos, vistas de página y pedidos. El informe se puede segmentar y se le pueden agregar métricas adicionales para ver otros datos.
 Flujo muestra las rutas más comunes que siguen los usuarios en las páginas, secciones del sitio y servidores.
 
-Para obtener información sobre el funcionamiento de Flujo en Analysis Workspace, consulte [Recorrido del cliente: Flujo](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/flow.html).
+Para obtener información sobre el funcionamiento de Flujo en Analysis Workspace, consulte [Recorrido del cliente: Flujo](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html).
 
 **Flujo siguiente**
 
@@ -33,4 +33,4 @@ El grupo de informes de flujo de página siguiente contiene tres informes: Flujo
 **Flujo anterior**
 
 Los informes de flujo anterior son similares a los de flujo siguiente, excepto que en lugar de ver hacia dónde fueron los visitantes después de visitar una página, permiten ver dónde se encontraban antes de llegar a ella. Los controles para utilizar los informes son idénticos a los de los informes de flujo siguiente.
-Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Para obtener más información, consulte [Secuelas](https://marketing.adobe.com/resources/help/es_ES/analytics/analysis-workspace/fallout_flow.html) en Analysis Workspace.
+Las visualizaciones de visitas en el orden previsto ofrecen más opciones para crear sus informes de visitas en el orden previsto. Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. Para obtener más información, consulte [Secuelas](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) en Analysis Workspace.
