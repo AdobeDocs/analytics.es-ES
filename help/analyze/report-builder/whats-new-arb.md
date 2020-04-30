@@ -3,7 +3,7 @@ description: Indica la versión actual y las anteriores, y sus funciones.
 title: Novedades de Report Builder
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -44,15 +44,15 @@ Al combinar las capacidades de generación de Report Builder con las caracterís
 
 ## Report Builder 5.3 {#rb-5-3-section}
 
-* [Grupos de informes virtuales](https://marketing.adobe.com/resources/help/es_ES/reference/index.html?f=virtual-report-suites)
-* [Audiencias de Experience Cloud en Analytics](https://marketing.adobe.com/resources/help/en_US/mcloud/mc-audiences-aam.html)
-* [Informes de AEM Assets](https://marketing.adobe.com/resources/help/es_ES/reference/aem-assets-reporting.html)
+* [Grupos de informes virtuales](https://docs.adobe.com/help/es-ES/analytics/components/virtual-report-suites/vrs-about.html)
+* [Audiencias de Experience Cloud en Analytics](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html)
+* [Informes de AEM Assets](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
 
 ## Report Builder 5.2 {#rb-5-2-section}
 
 * **Métricas calculadas** Report Builder 5.2 admite las [Métricas calculadas unificadas](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md) de Adobe Analytics. Entre otras innovaciones, ahora las métricas calculadas tienen un identificador global, de modo que ya no están restringidas a un grupo de informes.
 
-* **Búsqueda mejorada para informes y métricas** Con la adición de más [eVars y eventos](https://marketing.adobe.com/resources/help/es_ES/sc/implement/evars_events.html) a Adobe Analytics, el número de informes y métricas que se ofrecen en Report Builder de Adobe ha aumentado significativamente. Para simplificar la búsqueda, se han agregado un par de barras de búsqueda al Asistente para solicitudes: una para la [búsqueda de informes](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) y otra para buscar [métricas](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
+* **Búsqueda mejorada para informes y métricas** Con la adición de más [eVars y eventos](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) a Adobe Analytics, el número de informes y métricas que se ofrecen en Report Builder de Adobe ha aumentado significativamente. Para simplificar la búsqueda, se han agregado un par de barras de búsqueda al Asistente para solicitudes: una para la [búsqueda de informes](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) y otra para buscar [métricas](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md).
 
-* **Atributos del cliente** Los atributos del cliente se almacenan en un nuevo tipo de elemento denominado VisAttr, que puede configurarse como dimensión o como métrica. Para obtener más información sobre cómo cargar atributos de cliente, consulte la ayuda de [Experience Cloud](https://marketing.adobe.com/resources/help/es_ES/mcloud/attributes.html).
+* **Atributos del cliente** Los atributos del cliente se almacenan en un nuevo tipo de elemento denominado VisAttr, que puede configurarse como dimensión o como métrica. Para obtener más información sobre cómo cargar atributos de cliente, consulte la ayuda de [Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html).
 
