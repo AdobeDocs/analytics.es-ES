@@ -3,7 +3,7 @@ description: Una lista exhaustiva con descripciones de las variables de configur
 title: Referencia de datos y código del reenvío del lado del servidor
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -14,7 +14,7 @@ Una lista exhaustiva con descripciones de las variables de configuración, los e
 
 ## Variables de configuración {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-Los parámetros prefijados con `d_*` identifican pares clave-valor especiales del sistema que emplean nuestros [servidores de recopilación de datos](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/reference/system-components/components-data-collection.translate.html) (DCS). Consulte también [Atributos admitidos para llamadas a la API DCS](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.translate.html).
+Los parámetros prefijados con `d_*` identifican pares clave-valor especiales del sistema que emplean nuestros [servidores de recopilación de datos](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS). Consulte también [Atributos admitidos para llamadas a la API DCS](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Parámetro | Descripción |
 |--- |--- |
@@ -40,7 +40,7 @@ Estos encabezados son campos que contienen información como solicitudes de dato
 
 ## Señales definidas por el cliente {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.translate.html).
+Los parámetros prefijados con `c_` identifican variables definidas por el cliente. Consulte también [Atributos admitidos para llamadas a la API DCS](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html).
 
 | Señal | Descripción |
 |--- |--- |
