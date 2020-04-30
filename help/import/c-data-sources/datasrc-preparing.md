@@ -5,7 +5,7 @@ title: Preparación para el uso de fuentes de datos
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Es importante entender las métricas y las mediciones que se encuentran en las f
 
 Cuando determine la correspondencia entre métricas y eventos para la fuente de datos, cambie los nombres descriptivos de los eventos para que reflejen mejor las métricas asociadas.
 
-Consulte [Eventos de éxito](https://marketing.adobe.com/resources/help/es_ES/reference/success_event.html) en la ayuda de Herramientas de administración.
+Consulte [Eventos de éxito](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html) en la ayuda de Herramientas de administración.
 
 >[!NOTE] Adobe recomienda encarecidamente usar con las fuentes de datos eventos nuevos vacíos, pero en casos excepcionales puede tener sentido usar un evento preexistente.
 
@@ -44,7 +44,7 @@ Después de definir las dimensiones de datos que se tienen que utilizar con una 
 
 Cuando se usan eVars como dimensiones de datos, pueden ser eVars nuevas o preexistentes. Después de seleccionar una eVar para que reciba una dimensión desde la fuente de datos, no olvide ponerle un nombre adecuado.
 
-Consulte [Eventos de éxito](https://marketing.adobe.com/resources/help/es_ES/reference/success_event.html) en la ayuda de Analytics.
+Consulte [Eventos de éxito](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html) en la ayuda de Analytics.
 
 ## Código de seguimiento de campaña {#section_468222796FF449ABAA90D88EB3264CB1}
 
