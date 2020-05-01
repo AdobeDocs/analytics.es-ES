@@ -3,7 +3,7 @@ title: Actualizaciones de documentación técnica para Adobe Analytics
 description: Actualizaciones notables en el repositorio de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
+source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 ---
 
@@ -12,7 +12,8 @@ source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 Actualizaciones de contenido para la documentación de Adobe Analytics establecidas desde enero de 2019.
 
-* Para obtener una lista completa de las nuevas funciones, las notas de administración y las correcciones de errores, consulte las últimas [notas de la versión de Experience Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
+* Para obtener información sobre [!UICONTROL Customer Journey Analytics], vaya [aquí](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html).
+* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
 * Para obtener más información sobre las nuevas funciones, consulte [Nuevas funciones en Análisis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) en la guía del usuario Herramientas.
 * Para obtener más información sobre Adobe Analytics para audio y vídeo, consulte [Medición de audio y vídeo en Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html).
 
@@ -20,13 +21,16 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Fecha | Descripción |
 |---|---|
+| jueves, 28 de abril de 2020 | Documentación Añadida para la métrica Velocidad [de](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) contenido. |
+| 12 de marzo de 2020 | Se han Añadido las actualizaciones de los segmentos de [publicación en Experience Cloud](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segmentation-workflow/seg-publish.html). |
+| 12 de marzo de 2020 | Actualizaciones de latencia de vinculación CDA. |
 | 27 de febrero de 2020 | Documentación Añadida para [Adobe Analytics Labs](https://docs.adobe.com/content/help/es-ES/analytics/analyze/tech-previews/overview.html). |
 | 25 de febrero de 2020 | variable [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) Añadida. |
 | 18 de febrero de 2020 | variable [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) Añadida. |
 | 12 de febrero de 2020 | Actualizaciones y reorganización de la documentación de Canales [de](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) marketing. |
 | 7 de febrero de 2020 | Actualizaciones para la [configuración de análisis](../components/cda/cda-setup.md) cruzados de dispositivos y [preguntas más frecuentes](../components/cda/cda-faq.md) |
 | 4 de febrero de 2020 | Reescritura completa de la guía [del usuario de](../implement/home.md)implementación. |
-| 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada que incluye información sobre el nuevo [Generador de tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 22 de enero de 2020 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 13 de enero de 2020 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
 | 29 de noviembre de 2019 | Sobrescribir a la [Documentación de datos](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de noviembre de 2019 | Tema nuevo sobre el [fin de vida útil para aplicar restricciones de inicio de sesión de IP](https://docs.adobe.com/content/help/es-ES/analytics/admin/company-settings/login-restrictions-eol.html) |
