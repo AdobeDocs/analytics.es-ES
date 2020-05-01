@@ -2,7 +2,7 @@
 title: Excluir fechas específicas en la análisis
 description: Sugerencias para excluir fechas o intervalos de fechas si no desea incluirlos en los informes.
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: e5a4dc54abdaa029381296c013a07fe6f5aa05b2
 
 ---
 
@@ -52,11 +52,11 @@ Si no desea mostrar ceros en la tabla o en las visualizaciones (lo que provoca c
 
 Si no desea mostrar ceros en la tabla o en las visualizaciones (lo que provoca caídas), habilite **[!UICONTROL Interpret zero as no value]** en la configuración de la columna.
 
-![Interpretar cero](../assets/interpret_zero.png)
+![Interpretar cero](assets/interpret_zero.png)
 
 ### Aplicar el segmento de exclusión a un proyecto
 
-Puede aplicar el segmento &#39;Excluir días afectados&#39; a un proyecto de Workspace. Arrastre el segmento de exclusión a la sección Lienzo de Workspace rotulada *Colocar un segmento aquí*.
+Puede aplicar el segmento &#39;Excluir días afectados&#39; a un proyecto de Workspace. Arrastre el segmento de exclusión a la sección del lienzo de Workspace rotulada *Colocar un segmento aquí*.
 
 >[!TIP] Incluya una nota alrededor de los datos excluidos en la descripción del panel para ayudar a los que ven el informe. Haga clic con el botón secundario en el título de un panel y, a continuación, haga clic en **[!UICONTROL Edit description]**.
 
