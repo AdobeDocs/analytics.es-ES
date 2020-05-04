@@ -2,7 +2,7 @@
 description: Quick Insights Builder es una herramienta para nuevos usuarios de Workspace que les guía en la creación de tablas de datos y visualizaciones
 title: Creador de perspectivas rápidas
 translation-type: tm+mt
-source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
+source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 
 ---
 
@@ -35,7 +35,7 @@ A continuación se incluyen algunos de los términos básicos con los que debe e
 | [!UICONTROL Dimension] | Las dimensiones son descripciones o características de los datos de métricas que se pueden ver, desglosar y comparar en un proyecto. Son valores no numéricos y fechas que se desglosan en elementos de dimensión. Por ejemplo, &quot;browser&quot; o &quot;page&quot; son dimensiones. |
 | [!UICONTROL Dimension item] | Los elementos de dimensión son valores individuales para una dimensión. Por ejemplo, los elementos de dimensión para la dimensión del navegador serían &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, etc. |
 | [!UICONTROL Metric] | Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
-| [!UICONTROL Visualization] | Workspace oferta [una serie de visualizaciones](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) para crear representaciones visuales de los datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
+| [!UICONTROL Visualization] | Workspace oferta [una serie de visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para crear representaciones visuales de los datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
 | [!UICONTROL Breakdown] | Un desglose es una manera de desglosar literalmente una dimensión por otras dimensiones. En nuestro ejemplo, puede desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado o puede desglosar Dispositivos móviles por tipos de dispositivos móviles, por regiones, por Campañas internas, etc. |
 | [!UICONTROL Segment] | Los segmentos permiten identificar subconjuntos de visitantes en función de las características o las interacciones con el sitio web. Por ejemplo, puede generar [!UICONTROL Visitor] segmentos basados en atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o según las interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o en función de salidas y entradas: visitantes de Facebook, una página de aterrizaje definida, un dominio de referencia o basados en variables personalizadas: campo de formulario, categorías definidas, ID de cliente. |
 
