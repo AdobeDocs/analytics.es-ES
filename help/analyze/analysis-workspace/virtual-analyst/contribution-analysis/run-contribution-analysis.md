@@ -3,7 +3,7 @@ description: 'null'
 title: Ejecutar análisis de contribución
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -44,7 +44,7 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
 1. Como el análisis de contribución ahora forma parte de Analysis Workspace, puede aprovechar algunas de sus funciones desde el menú secundario de la tabla para que su análisis sea aún más relevante, por ejemplo:
 
    * [Desglosar todos los elementos de la dimensión por otra dimensión.](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [Realizar la tendencia de una fila o más.](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [Realizar la tendencia de una fila o más.](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [Añadir nuevas visualizaciones.](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [Crear alertas.](/help/components/c-alerts/intellligent-alerts.md)
    * [Crear o comparar segmentos.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
