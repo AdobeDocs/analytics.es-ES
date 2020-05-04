@@ -4,7 +4,7 @@ title: Resumen de los informes personalizados
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -218,4 +218,4 @@ Ahora, la mayoría de los informes de Reports &amp; Analytics incluyen un botón
 
 Actualmente, el botón solo está disponible si su nombre de usuario dispone de derechos completos con respecto a Analysis Workspace.
 
-Si desea obtener más información sobre cómo puede personalizar su informe, consulte la guía de [Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/analysis-workspace-features.translate.html).
+Si desea obtener más información sobre cómo puede personalizar su informe, consulte la guía de [Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
