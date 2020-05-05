@@ -1,13 +1,13 @@
 ---
-title: Información general sobre paneles
+title: 'paneles de Adobe Analytics: Información general'
 description: Documentación del producto y autoayuda para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 7c1f35d92bfaccaf4d2bb7e16e93314d739545d3
 
 ---
 
 
-# Información general sobre paneles de Adobe Analytics
+# paneles de Adobe Analytics: Información general
 
 >[!IMPORTANT]
 >
