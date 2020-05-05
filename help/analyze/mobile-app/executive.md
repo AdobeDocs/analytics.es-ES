@@ -2,12 +2,16 @@
 description: Instrucciones para utilizar los cuadros de mandos de paneles.
 title: Guía ejecutiva de paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
 # paneles de Adobe Analytics: guía de inicio rápido del usuario ejecutivo
+
+>[!IMPORTANT]
+>
+>Los paneles de Adobe Analytics no están disponibles y solo están disponibles para pruebas beta entre los clientes invitados. Esta documentación está pensada >sólo para usuarios beta y no representa la funcionalidad completa de la función. Si está interesado en convertirse en un usuario beta para esta función >, póngase en contacto con Ashok Gorrepati (gorrepati@adobe.com).
 
 ## Primeros pasos
 
