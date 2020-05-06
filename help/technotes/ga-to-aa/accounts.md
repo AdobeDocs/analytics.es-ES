@@ -1,6 +1,9 @@
 ---
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '251'
+ht-degree: 86%
 
 ---
 # Cuentas y grupos de informes
@@ -14,4 +17,4 @@ Las organizaciones más grandes suelen tener varios grupos de informes, es decir
 
 Una diferencia clave entre el método de recopilación de datos de Adobe y muchas otras herramientas es que es usted quien especifica a qué grupo o grupos de informes enviar datos dentro de su implementación. Por el contrario, otras herramientas normalmente envían todos los datos a una ubicación de recopilación y luego los filtran a las vistas o perfiles.
 
-Los grupos de informes virtuales también están disponibles en Adobe Analytics, que proporciona una vista filtrada de un grupo de informes sin alterar la recopilación de datos ni los datos históricos. Por ejemplo, puede utilizar un grupo de informes virtual para eliminar el tráfico de bots que no se haya capturado anteriormente, o para excluir los ingresos fraudulentos o periféricos. Consulte [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) en la guía de usuario sobre componentes para obtener más información.
+[!UICONTROL Los grupos de informes virtuales también están disponibles en Adobe Analytics, que proporciona una vista filtrada de un grupo de informes sin alterar la recopilación de datos ni los datos históricos. ] For example, you can use a [!UICONTROL virtual report suite] to eliminate bot traffic not previously caught, or exclude fraudulent/outlier revenue. Consulte [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) en la guía de usuario sobre componentes para obtener más información.
