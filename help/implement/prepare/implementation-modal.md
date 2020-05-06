@@ -2,76 +2,81 @@
 title: Modo de implementación
 description: Obtenga información sobre la experiencia de los usuarios que compran sus productos por primera vez a la hora de poner en marcha la implementación de Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '30'
+ht-degree: 50%
 
 ---
 
 
 # Modo de implementación
 
-<!-- https://activation.adobedtm.com/index.php?redirected=1 -->
+Consulte [Creación de un grupo](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)de informes.
 
-La ventana modal “Bienvenido a Adobe Analytics” proporciona un flujo de trabajo simplificado para crear un grupo de informes. Adobe recomienda utilizar este flujo de trabajo siempre que se necesiten más grupos de informes en su organización.
+<!-- https://activation.adobedtm.com/index.php?redirected=1 
 
-![Captura de pantalla de Modal](assets/implementation-modal.png)
+The 'Welcome to Adobe Analytics' modal window provides a simplified workflow to create a report suite. Adobe recommends using this workflow whenever more report suites are needed in your organization.
 
-## Requisitos previos
+![Modal screenshot](assets/implementation-modal.png)
 
-Su Adobe ID debe tener acceso a Adobe Analytics y a Adobe Experience Platform Launch. Si no tiene acceso a Launch, puede acabar en un bucle de autenticación en el que se le pedirá que compruebe sus credenciales indefinidamente. Póngase en contacto con un administrador del sistema de su organización para obtener acceso a Launch.
+## Prerequisites
 
-## Acceda al modal
+Your Adobe ID must have access to both Adobe Analytics and Adobe Experience Platform Launch. If you do not have access to Launch, you can be placed into an authentication loop where it asks to verify your credentials indefinitely. Talk to a system admin in your organization to obtain access to Launch.
 
-Acceda al modal para crear un grupo de informes siguiendo los pasos siguientes.
+## Access the modal
 
-1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
-2. Haga clic en el icono de 9 cuadrículas en la parte superior y, a continuación, haga clic en [!UICONTROL Adobe Analytics].
-3. Si aún no ha creado un grupo de informes, el modal se muestra automáticamente. Si existe un grupo de informes para este proveedor de inicio de sesión, haga clic en el icono Ayuda en la parte superior derecha y, a continuación, haga clic en [!UICONTROL Bienvenido a Adobe Analytics].
+Access the modal to create a report suite using the following steps.
 
->[!NOTE] La opción [!UICONTROL Bienvenido a Adobe Analytics] solo aparece si inicia sesión a través de Adobe Experience Cloud. Si inicia sesión a través de dominios heredados, el modal no está disponible.
+1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your Adobe ID credentials.
+2. Click the 9-grid icon at the top, then click [!UICONTROL Adobe Analytics].
+3. If you have not yet created a report suite, the modal automatically appears. If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
 
-## Crear un grupo de informes
+>[!NOTE] The [!UICONTROL Welcome to Adobe Analytics] option only appears if you log in through the Adobe Experience Cloud. If you log in through legacy domains, the modal is not available.
 
-Haga clic en el botón [!UICONTROL Iniciar configuración] para iniciar el flujo de trabajo de creación de grupos de informes.
+## Create a report suite
 
-![Asistente de RS](assets/analytics-implementation-rs-wizard.png)
+Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
 
-### Tipo de propiedad
+![RS wizard](assets/analytics-implementation-rs-wizard.png)
 
-El tipo de propiedad ayuda a Adobe a determinar algunos ajustes del servidor en función de dónde se va a implementar Analytics.
+### Property type
 
-* **Sitio web**: Si quiere implementar Adobe Analytics solo para un sitio web.
-* **Aplicación móvil nativa**: Si quiere implementar Adobe Analytics solo para una aplicación móvil.
-* **Ambos**: Si este grupo de informes contiene datos para un sitio web y una aplicación móvil.
+Property type helps Adobe determine some backend settings based on where you intend to implement Analytics.
 
-### Sectores
+* **Website**: If you intend to implement Adobe Analytics just for a website.
+* **Native Mobile App**: If you intend to implement Adobe Analytics just for a mobile app.
+* **Both**: If this report suite contains data for both a website and a mobile app.
 
-Especifique el modelo empresarial principal. Esta configuración ayuda a Adobe a preconfigurar algunos nombres y configuraciones de variables en función de su modelo empresarial principal.
+### Industries
 
-### Capa de datos
+Specify your primary business model. This setting helps Adobe pre-configure some variable names and settings based on your primary business model.
 
-Una [capa de datos](data-layer.md) es un objeto JavaScript que organiza todas las variables utilizadas en la implementación en una sola ubicación útil. Consulte [Capas de datos](data-layer.md) para obtener más información
+### Data layer
 
-### Repositorio de datos
+A [Data layer](data-layer.md) is a JavaScript object that organizes all variables used in your implementation into a single helpful location. See [Data layers](data-layer.md) for more information.
 
-Asigne un nombre reconocible al grupo de informes. El ID del grupo de informes (RSID) se genera automáticamente según el nombre reconocible y el proveedor de inicio de sesión.
+### Data repository
 
-### Zona horaria
+Give your report suite a friendly name. Your report suite ID (RSID) automatically generates based on the friendly name and login company.
 
-Compruebe que Adobe ha detectado la zona horaria correcta para el grupo de informes.
+### Time zone
 
-### Vistas de la página estimadas por día
+Verify that Adobe detected the correct time zone for the report suite.
 
-Calcule el tráfico que recibe su sitio web o aplicación por día. Esta información permite a Adobe asignar la cantidad correcta de recursos de procesamiento a su grupo de informes.
+### Estimated page views per day
 
-### Moneda base
+Estimate how much traffic your website or app gets per day. This information allows Adobe to allocate the correct amount of processing resources to your report suite.
 
-Determine en qué moneda almacena los valores monetarios el grupo de informes.
+### Base currency
 
->[!IMPORTANT] Asegúrese de indicar la moneda correcta, especialmente si tiene requisitos de informes en relación con los ingresos. Es difícil cambiar la moneda base después de que comience la recopilación de datos.
+Determine what currency the report suite stores monetary values in.
 
-## Recursos de implementación
+>[!IMPORTANT] Make sure you state the correct currency, especially if you have reporting requirements around revenue. It is difficult to change base currency after data collection begins.
 
-Una vez creado el grupo de informes, debe elegir una de las dos opciones para continuar con la implementación:
+## Implementation resources
 
-* **Vaya a Adobe Experience Platform Launch**: Le redirige a [launch.adobe.com](https://launch.adobe.com) para configurar la implementación y descargar el código de implementación. Consulte [Implementación con Launch](../launch/overview.md) Adobe recomienda usar Launch en la mayoría de los casos.
-* **Descargar código de implementación**: Proporciona un vínculo directo para descargar archivos JavaScript para una implementación manual de JavaScript. Consulte [AppMeasurement para JavaScript](../js/overview.md).
+After the report suite is created, you have one of two options to proceed with your implementation:
+
+* **Go to Adobe Experience Platform Launch**: Links you to [launch.adobe.com](https://launch.adobe.com) to configure your implementation and download deploy code. See [Implement with Launch](../launch/overview.md). Adobe recommends using Launch in most cases.
+* **Download implementation code**: Provides a direct link to download JavaScript files for a manual JavaScript implementation. See [AppMeasurement for JavaScript](../js/overview.md). -->
