@@ -4,7 +4,10 @@ title: ¿Qué es el análisis de cohorte?
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +32,7 @@ El análisis de cohorte está disponible para todos los clientes de Analytics co
 
 >[!IMPORTANT]
 >
->El análisis de cohorte no admite métricas calculadas.
+>La Análisis de cohorte no admite métricas no segmentables, como métricas calculadas, métricas no enteras o [!UICONTROL Ocurrencias]. En la Análisis de cohorte solo se pueden usar las métricas que se pueden usar en segmentos, y solo se pueden incrementar en 1 cada vez.
 
 ## Capacidades del análisis de cohorte
 
