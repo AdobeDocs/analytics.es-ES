@@ -4,14 +4,17 @@ title: Información general de Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 225bc7022af656db5ad61bac2daf454c89ba1867
+source-git-commit: 20e5273ba5a2c3416f13fd91e18621e5dd0eeac7
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 98%
 
 ---
 
 
 # Información general de Analysis Workspace
 
-Analysis Workspace elimina todas las limitaciones típicas de un único informe de Analytics. Proporciona un lienzo flexible y robusto para la creación de proyectos de análisis personalizados. Arrastre y coloque cualquier número de tablas de datos, visualizaciones y componentes (dimensiones, métricas, segmentos y granularidades de tiempo) en un proyecto. Cree de forma instantánea desgloses y segmentos, cohortes para análisis y alertas, compare segmentos, realice análisis de flujo y visitas en el orden previsto, y revise y programe informes para compartir con cualquier persona de su empresa.
+Analysis Workspace elimina todas las limitaciones típicas de un único informe de Analytics. Proporciona un lienzo flexible y robusto para la creación de proyectos de análisis personalizados. Arrastre y coloque cualquier número de tablas de datos, visualizaciones y componentes (dimensiones, métricas, segmentos y granularidades de tiempo) en un proyecto. Cree de forma instantánea desgloses y segmentos, cohortes para análisis y alertas, compare segmentos, realice análisis de flujo y visitas en el orden previsto, y revise y programe informes para compartir con cualquier persona de su empresa. Las funciones avanzadas incluyen IQ de atribución,
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
@@ -59,7 +62,7 @@ Junto a la [edición de texto enriquecido](/help/analyze/analysis-workspace/visu
    ![](assets/intra-linking1.png)
 
 1. Desplácese al panel o la visualización y haga clic con el botón derecho en el encabezado del panel.
-1. Desplácese hacia abajo y seleccione **[!UICONTROL Get Panel Link]** o **[!UICONTROL Get Visualization Link]**:
+1. Desplácese hacia abajo y seleccione **[!UICONTROL Obtener vínculo del panel]** u **[!UICONTROL Obtener vínculo de visualización]**:
 
    ![](assets/intra-linking2.png)
 
@@ -67,11 +70,11 @@ Junto a la [edición de texto enriquecido](/help/analyze/analysis-workspace/visu
 
 Si tiene paneles o visualizaciones contraídos en el proyecto y hace clic en un vínculo, se ampliará el panel o la visualización para que los usuarios puedan verlo.
 
->[!NOTE] También puede utilizar esta función dentro de la opción de clic con el **[!UICONTROL Edit Description]** botón secundario.
+>[!NOTE] También puede utilizar esta función con la opción **[!UICONTROL Editar descripción]** del menú contextual.
 
 ## Vinculación a otros proyectos
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+Puede vincular usuarios a otros proyectos que puedan resultarles de interés. Para ello, vaya a **[!UICONTROL Compartir]** > **[!UICONTROL Obtener vínculo del proyecto]** e incruste este vínculo en las descripciones de los proyectos, por ejemplo.
 
 ## Visualización dinámica de celdas seleccionadas
 
@@ -89,7 +92,7 @@ Consulte [Administración de fuentes de datos](/help/analyze/analysis-workspace/
 
 ## Visualizaciones de tendencias de celdas seleccionadas
 
-Cree una visualización a partir de celdas seleccionadas (Haga clic con el botón secundario > **[!UICONTROL Trend Selection]**.)
+Cree una visualización a partir de celdas seleccionadas (Haga clic con el botón secundario > **[!UICONTROL Selección de tendencia]**.)
 
 ![](assets/trend-selection.png)
 
@@ -130,7 +133,7 @@ Puede aplicar etiquetas a proyectos y componentes en Analysis Workspace:
 
 ## Acciones de componente
 
-Realice acciones a nivel de componente desde el menú Acciones en la parte superior del carril izquierdo del componente. Select a component and click **[!UICONTROL Actions]** to view the actions.
+Realice acciones a nivel de componente desde el menú Acciones en la parte superior del carril izquierdo del componente. Seleccione un componente y haga clic en **[!UICONTROL Acciones]** para ver las acciones.
 
 | Acción de componente | Descripción |
 |--- |--- |
