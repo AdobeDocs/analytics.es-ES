@@ -2,7 +2,10 @@
 title: Ayuda de componentes de Analytics
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +19,7 @@ Los componentes de Analytics le ayudan a ajustar y potenciar su análisis de dat
 * **Segmentación:** Céntrese en un subconjunto de sus datos.
 * **Métricas calculadas:** Utilice fórmulas sencillas para combinar métricas o funciones avanzadas para análisis estadísticos.
 * **Grupos de informes virtuales:** Cree un silo virtual de datos basado en un grupo de informes. Permite limpiar o segmentar datos para mejorar la experiencia del usuario. Algunas funcionalidades solo se pueden utilizar en grupos de informes virtuales.
+* **Análisis** entre dispositivos: Un tipo especial de grupo de informes virtuales le permite configurar el análisis entre dispositivos.
 * **Alertas:** Reciba notificaciones cada vez que los datos vayan por encima o por debajo de un umbral.
 * **Clasificaciones:** Reorganice y agrupe dimensiones para obtener más información.
 * **Variables:** Una guía de referencia para todas las dimensiones y métricas disponibles en los informes.
