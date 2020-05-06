@@ -2,12 +2,15 @@
 title: PWA para Analytics
 description: Aplicaciones web progresivas para Adobe Analytics
 translation-type: tm+mt
-source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 75%
 
 ---
 
 
-# PWA para Analytics
+# PWAs para Adobe Analytics
 
 En esta página se describe cómo utilizar Adobe Analytics con aplicaciones web progresivas (PWA).
 
@@ -19,11 +22,11 @@ Adobe Analytics funciona igual de bien con los PWA que con los sitios web tradic
 
 ## Obtener los datos de análisis de PWA
 
-Para recopilar y analizar los datos de los PWA de Analytics, no es necesario realizar ningún cambio en la configuración. Analytics proporciona automáticamente las mismas funciones y características que tendría en un sitio web tradicional.
+To collect and analyze your PWA data with [!UICONTROL Analytics], you do not need to  make any configuration changes. [!UICONTROL Analytics proporciona automáticamente las mismas funciones y características que tendría en un sitio web tradicional.]
 
 ## Agregar un seguimiento sin conexión para aumentar la eficacia de los PWA
 
-Puede aumentar la eficacia de su PWA mediante el uso de las [capacidades de seguimiento sin conexión](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/functions/forceoffline.translate.html) de Analytics. De forma predeterminada, esta función está desactivada, pero puede agregar la siguiente propiedad al archivo AppMeasurement.js para activarla: `s.trackOffline=true;`.
+You can increase the effectiveness of your PWA by using Adobe Analytics [offline tracking capabilities](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/functions/forceoffline.translate.html) with it. De forma predeterminada, esta función está desactivada, pero puede agregar la siguiente propiedad al archivo AppMeasurement.js para activarla: `s.trackOffline=true;`.
 
 Por ejemplo, en el siguiente archivo AppMeasurement.js, la propiedad se agrega al final del `CONFIG SECTION`:
 
