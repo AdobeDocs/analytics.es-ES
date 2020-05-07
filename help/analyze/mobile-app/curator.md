@@ -191,6 +191,7 @@ Durante la fase beta y antes de que la aplicación se publique, puede controlar 
    3. Después de instalar la aplicación Testflight, busque e instale los paneles de Adobe Analytics desde Testflight, como se muestra a continuación:
 
       ![Pantalla de Testflight](assets/testflight2.png)
+
    **Para usuarios ejecutivos con Android:**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -206,6 +207,7 @@ Durante la fase beta y antes de que la aplicación se publique, puede controlar 
 
    3. Descargue e instale la aplicación.
 Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics; la aplicación es compatible con Adobe ID y con Enterprise/Federated ID.
+
    ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
 2. Ayudar a los usuarios a acceder al informe de valoración que ha creado. Después de que los usuarios ejecutivos inicien sesión en la aplicación, aparecerá la pantalla **Elegir una empresa**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo. Para ayudarles a acceder al informe de valoración:
@@ -213,6 +215,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
    * Pulse el nombre de la empresa de inicio de sesión o de la organización de Experience Cloud con la que acceder al informe de valoración que ha compartido. A continuación, la lista de informes de valoración muestra todos los informes de valoración que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
    * Ayude al usuario ejecutivo a ordenar esta lista por **Últimas modificaciones**, si procede.
    * Pulse el nombre de un informe de valoración para verlo.
+
    ![Seleccione una empresa](assets/accesscard.png)
 
    Nota: Si el usuario ejecutivo inicia sesión y ve un mensaje que indica que no se ha compartido nada:
@@ -221,6 +224,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
    * Es posible que el informe de valoración no se haya compartido con el usuario ejecutivo
 
       ![No se ha compartido nada](assets/nothing.png)
+
    Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
 3. Explicar al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración compartidos.
@@ -256,6 +260,7 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
    1. Pulse el icono de usuario en la parte superior derecha de la pantalla de la aplicación.
    2. En la pantalla **Mi cuenta**, pulse la opción **Comentarios**.
    3. Pulse para ver las opciones que existen para dejar comentarios.
+
    ![Escribir comentarios](assets/feedback.png)
    ![Opciones de comentarios](assets/feedback_option.png)
 
