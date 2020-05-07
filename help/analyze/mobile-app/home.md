@@ -2,7 +2,7 @@
 title: 'paneles de Adobe Analytics: Información general'
 description: Documentación del producto y autoayuda para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: b3772b96e02f6e3c6fb4f6c4a9f5df04512491e3
+source-git-commit: d4073fcfaabda669d0705e0adf2c911e8029b846
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 46%
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 >[!IMPORTANT]
 >
->Los paneles de Adobe Analytics no están disponibles y solo están disponibles para pruebas beta entre los clientes invitados. Esta documentación está destinada únicamente a los usuarios de la beta y no abarca todas las funcionalidades de la aplicación. Si está interesado en convertirse en un usuario beta para esta función, póngase en contacto con Ashok Gorrepati (gorrepati@adobe.com).
+>Los paneles de Adobe Analytics no están disponibles y solo están disponibles para pruebas beta entre los clientes invitados. Esta documentación está destinada únicamente a los usuarios de la beta y no abarca todas las funcionalidades de la aplicación. Si está interesado en convertirse en un usuario beta para esta función, póngase en contacto con Ashok Gorrepati (gorrepat@adobe.com).
 
 **[!UICONTROL Los paneles]** de Adobe Analytics proporcionan perspectivas en cualquier momento y lugar de Adobe Analytics. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
 
