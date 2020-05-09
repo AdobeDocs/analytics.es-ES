@@ -2,7 +2,10 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 90%
 
 ---
 
@@ -29,6 +32,16 @@ Código de moneda es un campo en el acordeón [!UICONTROL General] al configurar
 2. Haga clic en la propiedad deseada.
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL General], que muestra el campo [!UICONTROL Código de moneda].
+
+Puede utilizar un código de moneda preestablecido o un código de moneda personalizado. Si utiliza un código de moneda personalizado, asegúrese de que el código sea válido.
+
+## Código de moneda en el SDK de Adobe Experience Platform Mobile
+
+El código de moneda se pasa a los SDK de Adobe Experience Platform Mobile a través de variables de datos de contexto en la extensión Adobe Analytics.
+
+1. Configure el código de moneda en una variable de datos de contexto durante `trackState` o `trackAction`.
+2. Cree una regla de procesamiento en la consola de administración de Adobe Analytics para el grupo de informes. Configure la regla para sobrescribir la variable Código de moneda.
+3. Pase el código de moneda a la `products` variable en la llamada a `trackState` o a `trackAction`.
 
 Puede utilizar un código de moneda preestablecido o un código de moneda personalizado. Si utiliza un código de moneda personalizado, asegúrese de que el código sea válido.
 
