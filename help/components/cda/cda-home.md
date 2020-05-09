@@ -2,7 +2,10 @@
 title: Análisis entre dispositivos
 description: El análisis entre dispositivos cambia los datos de estar centrados en el dispositivo a estar centrados en la persona, al unir los datos del dispositivo.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 40d4dae0c54b8a71325846ae7f1c02947f9d36ea
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 90%
 
 ---
 
@@ -56,7 +59,7 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Consulte [Grupos de informes virtuales](../vrs/vrs-about.md) y [Procesamiento de tiempo de los informes](../vrs/vrs-report-time-processing.md) para saber más sobre estas limitaciones.
 * La API 1.4 no es compatible. Los conectores de Power BI y Report Builder dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
 * Si su organización utiliza Private Graph, los nuevos dispositivos tardan hasta 24 horas en vincularse.
-* Los nuevos dispositivos que visiten el sitio pueden tardar hasta dos semanas en ser procesados por Co-op Graph. El nivel de vinculación en CDA para las dos últimas semanas es generalmente inferior al de los intervalos de fechas de más de dos semanas. Adobe planea mejorar el gráfico de cooperación para un gráfico diario actualizado en el futuro.
+* Los nuevos dispositivos que visiten el sitio pueden tardar hasta dos semanas en ser procesados por Co-op Graph. El nivel de vinculación en CDA para las dos últimas semanas es generalmente inferior al de los intervalos de fechas de más de dos semanas.
 * Los datos históricos del grupo de informes virtuales cambian según el reconocimiento y la vinculación de dispositivos de Adobe. Los datos del grupo de informes de origen no cambian.
 
 Una vez que su organización haya cumplido todos los requisitos y haya comprendido las limitaciones, puede empezar a [configurar análisis cruzados de dispositivos](cda-setup.md).
