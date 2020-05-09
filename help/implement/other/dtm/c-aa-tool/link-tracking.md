@@ -5,7 +5,10 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Seguimiento de vínculos
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 354785439a5920d8fc53d566fa9306c74e2504d2
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 96%
 
 ---
 
@@ -14,9 +17,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Descripciones de los campos de Dynamic Tag Management de seguimiento de vínculos al implementar Analytics.
 
-**[!UICONTROL *`Property`*]** > **[!UICONTROL![](assets/settings_gear.png)
-
-Editar herramienta]** > **[!UICONTROL Seguimiento de vínculos]**
+**[!UICONTROL Propiedad]** > ![Icono](assets/settings_gear.png) de engranaje **[!UICONTROL Editar herramienta]** > Seguimiento de **[!UICONTROL vínculos]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
