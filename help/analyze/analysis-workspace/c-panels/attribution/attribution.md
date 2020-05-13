@@ -3,7 +3,10 @@ description: 'null'
 title: Información general del panel de atribución
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+workflow-type: tm+mt
+source-wordcount: '1805'
+ht-degree: 90%
 
 ---
 
@@ -31,12 +34,7 @@ El panel de atribución es una función de [Attribution IQ](../../attribution-iq
 | ![Personalizado](assets/custom.png) | Personalizado | Permite especificar el valor que desea dar a los puntos de primer contacto, los puntos de último contacto y los puntos de contacto intermedios. Los valores especificados se normalizan al 100% incluso si los números introducidos no suman 100. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. En el caso de interacciones con dos puntos de contacto, se omite el parámetro central. Los puntos de primer y último contacto se normalizan al 100% y el crédito se asigna en consecuencia. | Este modelo es perfecto para aquellos que quieren un control total sobre su modelo de atribución y tienen necesidades específicas que otros modelos de atribución no satisfacen. |
 | ![Deterioro de tiempo](assets/time_decay.png) | Declive temporal | Sigue un declive exponencial con un parámetro de semivida personalizado, con un valor predeterminado de 7 días. El valor de cada canal depende de la cantidad de tiempo que transcurra entre el inicio del punto de contacto y la conversión final. La fórmula utilizada para determinar el crédito es `2^(-t/halflife)`, donde `t` es la cantidad de tiempo entre un punto de contacto y una conversión. A continuación, todos los puntos de contacto se normalizan al 100%. | Ideal para equipos que periódicamente ejecutan campañas audiovisuales o que comercializan eventos con una fecha predeterminada. Cuanto más tardía sea la conversión después de un evento de marketing, menor será el crédito. |
 | ![Participación](assets/participation.png) | Participación | Otorga un 100% de crédito a todos los puntos de contacto únicos. El número total de conversiones está incrementado en comparación con otros modelos de atribución. La participación anula la duplicación de los canales vistos varias veces. | Excelente para comprender con qué frecuencia se exponen los clientes a una determinada interacción. Los medios suelen utilizar este modelo para calcular la velocidad de contenido. Los comercios suelen utilizar este modelo para comprender qué partes de sus sitios son esenciales para la conversión. |
-
->[!NOTE] El siguiente modelo de atribución algorítmica está disponible actualmente en [Adobe Analytics Labs](https://docs.adobe.com/content/help/es-ES/analytics/analyze/tech-previews/overview.html) y, finalmente, formará parte de una versión general.
-
-| Icono de la interfaz de usuario | Modelo de atribución | Definición | Uso |
-| --- | --- | --- | --- |
-| ![Algorítmico](assets/algorithmic.png) | [Algorítmico](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.md) | Utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. | Útil para evitar conjeturas o heurística al elegir el modelo de atribución adecuado para su negocio. |
+| ![Algorítmico](assets/algorithmic.png) | [Algorítmico](/help/analyze/analysis-workspace/c-panels/attribution/algorithmic.md) | (Nota: La atribución algorítmica se encuentra actualmente en pruebas limitadas). Utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. | Útil para evitar conjeturas o heurística al elegir el modelo de atribución adecuado para su negocio. |
 
 ## Ventanas retrospectivas
 
@@ -45,6 +43,8 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 * **Ventana retrospectiva de visita:** Revisa hasta el principio de una visita en la que se produjo una conversión. Las ventanas retrospectivas de visitas son estrechas, ya que no miran más allá de la visita. Las ventanas retrospectivas de visitas respetan la definición de visita modificada en los grupos de informes virtuales.
 
 * **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
+
+* **Ventana retroactiva personalizada:** (Nota: La ventana de retrospectiva personalizada está actualmente en pruebas limitadas). Permite expandir la ventana de atribución más allá del intervalo de fechas de sistema de informes hasta un máximo de 90 días. Las ventanas retroactivas personalizadas se evalúan en cada conversión del período de sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de dimensión del 10 al 20 de febrero en el modelo de atribución.
 
 ## Ejemplo
 
