@@ -2,16 +2,15 @@
 title: Uso de datos XDM con Analytics
 description: 'Información general sobre el uso de datos XDM de la plataforma de experiencia en Adobe Analytics '
 translation-type: tm+mt
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+source-git-commit: 3526d9f98b545e5f720a0cb127857e7fd5d5388e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '298'
 ht-degree: 4%
 
 ---
 
 
 # Uso de datos perimetrales de Adobe Experience Platform con Analytics
-
 
 Puede utilizar el SDK [web de](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) Adobe Experience Platform (AEP) para enviar datos a Adobe Analytics. Esto funciona traduciendo el modelo de datos de [experiencia (XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) a un formato utilizado por Analytics.
 
@@ -23,7 +22,7 @@ Analytics recopila datos XDM mediante dos métodos:
 
 ## Asignación automática
 
-La asignación automática se basa en un [esquema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) predeterminado del XDM que rellena automáticamente los objetos JSON que se incluyen en la recopilación de datos típica de Analytics. Las variables [de Analytics que se asignan automáticamente desde el XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) a los grupos de informes configurados no requieren la asistencia del desarrollador para la incorporación.
+[La asignación](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/help/implement/aep-edge/xdm-manual.md) automática depende de un [esquema](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) predeterminado del XDM que rellena automáticamente los objetos JSON que se incluyen en la recopilación de datos típica de Analytics. Las variables [de Analytics que se asignan automáticamente desde el XDM](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) a los grupos de informes configurados no requieren la asistencia del desarrollador para la incorporación.
 
 ## Asignación manual
 
