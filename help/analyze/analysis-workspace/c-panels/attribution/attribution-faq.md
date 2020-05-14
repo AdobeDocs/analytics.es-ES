@@ -2,7 +2,10 @@
 title: Preguntas más frecuentes sobre Attribution
 description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
 translation-type: tm+mt
-source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
+source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 88%
 
 ---
 
@@ -16,10 +19,6 @@ El elemento de línea &#39;Ninguno&#39; es un elemento de captación global que 
 **¿Por qué a veces veo fechas fuera de la ventana de informes al utilizar modelos de atribución?**
 
 Estas fechas adicionales se deben a la ventana retrospectiva de informes de visitantes. Consulte [Datos que aparecen fuera de la ventana de informes](https://helpx.adobe.com/es/analytics/kb/data-appearing-outside-reporting-window.html) en la BC de Analytics para obtener más información. Adobe filtrará estas filas extra en una próxima versión.
-
-**¿Puedo utilizar una ventana retrospectiva personalizada con mis modelos de atribución?**
-
-Actualmente, los modelos de atribución dependen de una ventana retrospectiva de visitante o visita. Cualquiera de estas ventanas retrospectivas se puede ajustar cambiando el intervalo de fechas de los informes (para retrospectiva de visitantes) o utilizando una definición de visita personalizada como parte de los grupos de informes virtuales. Consulte [Procesamiento de tiempo de informes](../../../../components/vrs/vrs-report-time-processing.md) para obtener más información.
 
 **¿Cuándo debo usar una retrospectiva de atribución de visita o de visitante?**
 
