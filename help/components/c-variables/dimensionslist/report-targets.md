@@ -3,7 +3,10 @@ description: Los informes de Targets permiten medir el rendimiento del sitio web
 title: Objetivos
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
 
@@ -16,10 +19,10 @@ Los informes de Targets permiten medir el rendimiento del sitio web y llevar un 
 >
 >Estos informes no deben confundirse con el informe de Adobe [Target](/help/components/c-variables/dimensionslist/reports-tnt.md#topic_EBC899DB84A84780A1B8EE95C6C4CF18).
 
-To access your Targets reports, go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Targets]** > **[!UICONTROL[your target name]]**
+Para acceder a sus informes de Targets, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Informes]** > **[!UICONTROL Targets]** > **[!UICONTROL [nombre del destinatario]]**
 
-Al [crear objetivos](hhttps://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/targets.html), seleccione qué métricas de atributos o eVar desea medir, o bien elija que se mida el sitio completo comparándolo con la métrica seleccionada.
+Al [crear objetivos](/help/analyze/reports-analytics/targets.md), seleccione qué métricas de atributos o eVar desea medir, o bien elija que se mida el sitio completo comparándolo con la métrica seleccionada.
 
 El informe muestra el total acumulado de la métrica que especificó y la diferencia entre ese total y el objetivo que estableció al configurar el informe.
 
-You can also manage your targets under **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+También puede administrar sus objetivos en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Targets]**.
