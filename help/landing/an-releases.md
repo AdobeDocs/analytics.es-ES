@@ -1,24 +1,24 @@
 ---
 description: Explica la nueva estrategia de lanzamiento continuo de funciones para Adobe Analytics
-title: 'Adobe Analytics: estrategia de lanzamiento de funciones'
+title: Versiones de funciones de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 0b00405e9e27a427a85b0f4a0d970671ada4aa67
+source-git-commit: dcca8559c9e730c9e04981d69068786878062561
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '358'
 ht-degree: 4%
 
 ---
 
 
-# Adobe Analytics: estrategia de lanzamiento de funciones
+# Versiones de funciones de Adobe Analytics
 
-Históricamente, las versiones de funciones de Adobe Analytics seguían una programación mensual fija. A partir de abril de 2020, Adobe Analytics pasará a un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funciones.
+Históricamente, las versiones de funciones de Adobe Analytics seguían una programación mensual fija. A partir de abril de 2020, Adobe Analytics pasó a un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funciones.
 
 ## Estrategia de lanzamiento
 
 [!UICONTROL Análisis Workspace] utiliza indicadores de características (también conocidos como &quot;toggles&quot;) para controlar la visibilidad de las nuevas funciones, lo que permite realizar pruebas de escala controladas antes de la versión completa. Esta estrategia de versión incluye las siguientes fases:
 
-* **Versión a producción (RTP)**: El código se libera para su producción, con la visibilidad de las funciones desactivada en el espacio de trabajo de Análisis. **Nota**: En este momento, la función puede estar disponible en la API de Analytics 2.0.
+* **Versión a producción (RTP)**: El código se libera para su producción, con la visibilidad de las funciones desactivada en el espacio de trabajo de Análisis. **Nota**: En RTP, la función puede estar disponible en la API de Analytics 2.0.
 
 * **Prueba** limitada: Una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. La versión se escalará de 0% a 100% de disponibilidad en un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho en una organización reciben la misma experiencia.
 
