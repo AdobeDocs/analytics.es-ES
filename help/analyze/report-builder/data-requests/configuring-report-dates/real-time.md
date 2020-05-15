@@ -4,7 +4,10 @@ title: Informes en tiempo real
 topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+workflow-type: tm+mt
+source-wordcount: '263'
+ht-degree: 92%
 
 ---
 
@@ -24,5 +27,4 @@ Puede:
 
 Permisos de respetos en tiempo real para usuarios y grupos Por ejemplo, si no dispone de os derechos para ver los ingresos, no podrá ver el informe en tiempo real que incluye los datos de ingresos. No compatible con eVars (métricas de conversión). Los permisos en tiempo real se activan en [Herramientas de administración](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html).
 
->[!NOTE] no [!UICONTROL Real-Time Reports] son iguales a la función [Incluir datos](hhttps://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) actuales (Creación de los datos) lanzada anteriormente, que reducía la latencia del sistema de informes estándar al mostrar los datos antes de finalizarlos.
-
+>[!NOTE] [!UICONTROL Los informes en tiempo real] no son lo mismo que la función [Incluir datos actuales](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html) (Actualización de los datos) lanzada previamente, la cual reducía la latencia de los informes estándar al mostrar los datos antes de que finalizara.
