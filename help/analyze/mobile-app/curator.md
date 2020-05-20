@@ -1,47 +1,48 @@
 ---
-description: Instrucciones para configurar los cuadros de mandos de paneles.
-title: Guía del curador de paneles de Adobe Analytics
+description: Instrucciones para configurar los informes de valoración de los paneles.
+title: Guía del gestor de datos para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+workflow-type: tm+mt
+source-wordcount: '2286'
+ht-degree: 98%
 
 ---
 
 
 
-# Guía del curador para paneles de Adobe Analytics
+# Guía del gestor de datos para paneles de Adobe Analytics
 
->[!IMPORTANT]
->
->Los paneles de Adobe Analytics no están disponibles y solo están disponibles para pruebas beta entre los clientes invitados. Esta documentación está pensada >sólo para usuarios beta y no representa la funcionalidad completa de la función. Si está interesado en convertirse en un usuario beta para esta función >, póngase en contacto con Ashok Gorrepati (gorrepati@adobe.com).
+La siguiente información indica a los curadores de datos de Adobe Analytics cómo configurar y presentar paneles para los usuarios ejecutivos.
 
 ## Primeros pasos
 
-Los paneles de Adobe Analytics ofrecen perspectivas de Adobe Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos que se crean y comparten desde la interfaz de usuario de Adobe Analytics para escritorio. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. Los paneles de Analytics son compatibles con los sistemas operativos iOS y Android.
+Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos que se crean y comparten desde la interfaz de usuario de Adobe Analytics para escritorio. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. Los paneles de Analytics son compatibles con los sistemas operativos iOS y Android.
 
-## Acerca de esta guía
+## Más información sobre esta guía
 
-Esta guía está pensada para ayudar a los curadores de datos de Adobe Analytics a configurar cuadros de mandos para sus usuarios ejecutivos en los paneles de Analytics. Los gestores de datos pueden ser administradores de la organización o personas con otras funciones. Son responsables de la configuración de los informes de valoración de la aplicación, lo que permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes. Aunque los usuarios ejecutivos son los usuarios finales de los paneles de Analytics, esta guía ayudará a los administradores de datos a configurar la aplicación de forma eficaz para dichos usuarios.
+Esta guía está diseñada para ayudar a los gestores de datos de Adobe Analytics a configurar informes de valoración para sus usuarios ejecutivos en los paneles de Analytics. Los gestores de datos pueden ser administradores de la organización o personas con otras funciones. Son responsables de la configuración de los informes de valoración de la aplicación, lo que permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes. Aunque los usuarios ejecutivos son los usuarios finales de los paneles de Analytics, esta guía ayudará a los gestores de datos a configurar la aplicación de forma eficaz para estos usuarios.
 
 
 ## Glosario de términos
 
-En la tabla siguiente se describen los términos para comprender la audiencia, las funciones y el funcionamiento de los paneles de Analytics.
+En la siguiente tabla se describen los términos para comprender la audiencia, las funciones y el funcionamiento de los paneles de Analytics.
 
 | Término | Definición |
 |--- |--- |
 | Consumidor | Ejecutivo que ve métricas clave y datos de Analytics en un dispositivo móvil |
 | Gestor de datos | Experto que busca y distribuye datos de Analytics y que configura los informes de valoración que verá el consumidor |
-| Gestión de datos | Acto de crear o editar un cuadro de mandos móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
-| Informe de valoración | Una vista de paneles que contiene uno o varios mosaicos |
+| Gestión de datos | Acto de crear o editar un informe de valoración móvil que contenga métricas, dimensiones y otros componentes relevantes para el cliente |
+| Informe de valoración | Vista de paneles que contiene uno o más mosaicos |
 | Mosaico | Representación de una métrica en una vista del informe de valoración |
-| Desglose | Una vista secundaria a la que se puede acceder pulsando un mosaico del informe de valoración. Esta vista ofrece más información sobre la métrica que aparece en el mosaico y, opcionalmente, sobre dimensiones de desglose adicionales. |
-| Intervalo de fecha | El intervalo de fechas principal para el sistema de informes de paneles |
+| Desglose | Una vista secundaria a la que se puede acceder pulsando un mosaico del informe de valoración. Esta vista ofrece más información sobre la métrica que aparece en el mosaico y, opcionalmente, sobre dimensiones de desglose adicionales |
+| Intervalo de fecha | El intervalo de fecha principal para la creación de informes de los paneles |
 | Intervalo de fecha de comparación | Intervalo de fecha que se compara con el intervalo de fecha principal |
 
  
 ## Creación de un informe de valoración para los usuarios ejecutivos
 
-Un cuadro de mandos muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, como se muestra a continuación:
+Un informe de valoración muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, tal y como se muestra a continuación:
 
 
 ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
@@ -82,7 +83,7 @@ En la pantalla **Proyectos**, en la ficha **Componentes**, haga clic en el botó
 
 **Uso de las herramientas de Analytics**
 
-In Analytics, click the **Tools** menu and select **dashboards**. En la pantalla siguiente, haga clic en el botón **Crear informe de valoración**.
+En Analytics, haga clic en el menú **Herramientas** y seleccione **Paneles**. En la pantalla siguiente, haga clic en el botón **Crear informe de valoración**.
 
 ### Configure el informe de valoración con datos y guárdelo
 
@@ -152,7 +153,7 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 ![Share_Scorecards](assets/new_share.png)
 
 
-Una vez que haya compartido un cuadro de mandos, sus destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el informe de valoración mediante el Generador de informes de valoración, estos se aplicarán automáticamente al informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
+Una vez que haya compartido un informe de valoración, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el informe de valoración mediante el Generador de informes de valoración, estos se aplicarán automáticamente al informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
 
 *Nota: Si agrega nuevos componentes al informe de valoración, es posible que desee volver a compartirlo (marque la opción **Compartir automáticamente componentes incrustados con los destinatarios**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.*
 
@@ -178,7 +179,7 @@ Durante la fase beta y antes de que la aplicación se publique, puede controlar 
 
    **Para usuarios ejecutivos con iOS:**
 
-   1. Click the following public link (it is also available in Analytics under **Tools** > **dashboards**):
+   1. Haga clic en el siguiente vínculo público (también está disponible en Analytics en **Herramientas** > **Paneles**):
 
       [Vínculo de iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
@@ -188,13 +189,12 @@ Durante la fase beta y antes de que la aplicación se publique, puede controlar 
 
    2. En la pantalla, pulse el vínculo **Ver en App Store** para descargar la aplicación Testflight.
 
-   3. Después de instalar la aplicación Testflight, busque e instale los paneles de Adobe Analytics desde Testflight, como se muestra a continuación:
+   3. Después de instalar la aplicación Testflight, busque e instale los paneles de Adobe Analytics en Testflight como se muestra a continuación:
 
       ![Pantalla de Testflight](assets/testflight2.png)
-
    **Para usuarios ejecutivos con Android:**
 
-   1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
+   1. Pulse el siguiente enlace de la Play Store en el dispositivo del usuario (también disponible en Analytics en **Herramientas** > **Paneles**):
       [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
       Después de pulsar el enlace, seleccione “Convertirse en evaluador” en la siguiente pantalla:
@@ -207,7 +207,6 @@ Durante la fase beta y antes de que la aplicación se publique, puede controlar 
 
    3. Descargue e instale la aplicación.
 Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics; la aplicación es compatible con Adobe ID y con Enterprise/Federated ID.
-
    ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
 2. Ayudar a los usuarios a acceder al informe de valoración que ha creado. Después de que los usuarios ejecutivos inicien sesión en la aplicación, aparecerá la pantalla **Elegir una empresa**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo. Para ayudarles a acceder al informe de valoración:
@@ -215,7 +214,6 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
    * Pulse el nombre de la empresa de inicio de sesión o de la organización de Experience Cloud con la que acceder al informe de valoración que ha compartido. A continuación, la lista de informes de valoración muestra todos los informes de valoración que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
    * Ayude al usuario ejecutivo a ordenar esta lista por **Últimas modificaciones**, si procede.
    * Pulse el nombre de un informe de valoración para verlo.
-
    ![Seleccione una empresa](assets/accesscard.png)
 
    Nota: Si el usuario ejecutivo inicia sesión y ve un mensaje que indica que no se ha compartido nada:
@@ -224,7 +222,6 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
    * Es posible que el informe de valoración no se haya compartido con el usuario ejecutivo
 
       ![No se ha compartido nada](assets/nothing.png)
-
    Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
 3. Explicar al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración compartidos.
@@ -260,7 +257,6 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
    1. Pulse el icono de usuario en la parte superior derecha de la pantalla de la aplicación.
    2. En la pantalla **Mi cuenta**, pulse la opción **Comentarios**.
    3. Pulse para ver las opciones que existen para dejar comentarios.
-
    ![Escribir comentarios](assets/feedback.png)
    ![Opciones de comentarios](assets/feedback_option.png)
 
