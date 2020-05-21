@@ -2,9 +2,9 @@
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
+source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
 workflow-type: tm+mt
-source-wordcount: '2323'
+source-wordcount: '2328'
 ht-degree: 82%
 
 ---
@@ -113,6 +113,8 @@ Para implementar la plantilla del informe de valoración:
 
 4. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus cuadros de mando](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) del mismo modo que lo haría en Adobe Analytics Workspace.
 
+   ![Generar segmentos para filtrar](assets/segment_ui.png)
+
 5. Del mismo modo, para eliminar un componente que se aplique a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Clientes móviles**:
 
    ![Remove_components](assets/new_remove.png)
@@ -174,14 +176,14 @@ Para ayudar a los usuarios ejecutivos:
 
    **Para usuarios ejecutivos con iOS:**
 
-   1. Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+   * Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
       [Vínculo de iOS](https://apple.co/2zXq0aN)
    **Para usuarios ejecutivos con Android:**
 
-   1. Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+   * Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
-      [Android](https://bit.ly/2LM38Oo)
+      [Vínculo de Android](https://bit.ly/2LM38Oo)
    Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics; la aplicación es compatible con Adobe ID y con Enterprise/Federated ID.
 
    ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
