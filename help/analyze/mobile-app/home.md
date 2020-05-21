@@ -1,25 +1,26 @@
 ---
 title: 'paneles de Adobe Analytics: Información general'
-description: Documentación del producto y autoayuda para paneles de Adobe Analytics
+description: Documentación del producto e instrucciones para los paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: d4073fcfaabda669d0705e0adf2c911e8029b846
+source-git-commit: 31fa9fc771eb2e8f335c98e97e7e42e0c5c45284
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 46%
+source-wordcount: '224'
+ht-degree: 71%
 
 ---
 
 
 # paneles de Adobe Analytics: Información general
 
->[!IMPORTANT]
->
->Los paneles de Adobe Analytics no están disponibles y solo están disponibles para pruebas beta entre los clientes invitados. Esta documentación está destinada únicamente a los usuarios de la beta y no abarca todas las funcionalidades de la aplicación. Si está interesado en convertirse en un usuario beta para esta función, póngase en contacto con Ashok Gorrepati (gorrepat@adobe.com).
+**[!UICONTROL Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar.]** La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
 
-**[!UICONTROL Los paneles]** de Adobe Analytics proporcionan perspectivas en cualquier momento y lugar de Adobe Analytics. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
+Para obtener más información sobre los [!UICONTROL paneles]de Adobe Analytics, consulte los siguientes recursos:
 
-La siguiente documentación beta está disponible para [!UICONTROL paneles]:
+* [Guía del gestor de datos:](https://docs.adobe.com/content/help/es-ES/analytics/analyze/mobapp/curator.html)[!UICONTROL  Esta guía está diseñada para ayudar a los gestores de datos a configurar informes de valoración en los paneles para sus usuarios ejecutivos]. Los gestores de datos pueden ser administradores de la empresa o personas con otras funciones, y se encargan de configurar los informes de valoración.
 
-* [Guía](https://docs.adobe.com/content/help/es-ES/analytics/analyze/mobapp/curator.html)del curador: Esta guía está pensada para ayudar a los curadores de datos a configurar Scorecards para sus usuarios ejecutivos en [!UICONTROL paneles]. Los curadores pueden ser administradores de organización o personas en otras funciones responsables de la configuración de los cuadros de mando.
+   Para ver un vídeo de descripción general de esta guía, consulte Experiencia [en la aplicación de paneles de](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)Adobe Analytics.
 
-* [Guía](https://docs.adobe.com/content/help/es-ES/analytics/analyze/mobapp/executive.html)de inicio rápido para el usuario ejecutivo: Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar cuadros de mando en [!UICONTROL paneles]. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
+
+* [Guía rápida del usuario ejecutivo](https://docs.adobe.com/content/help/es-ES/analytics/analyze/mobapp/executive.html)[!UICONTROL : Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar los informes de valoración sobre los paneles]. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
+
+   Para ver un vídeo que resalta esta información, consulte Generador de cuadros de mando de paneles de [Adobe Analytics](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be).
