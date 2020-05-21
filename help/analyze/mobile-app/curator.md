@@ -2,10 +2,10 @@
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 98%
+source-wordcount: '2323'
+ht-degree: 82%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 # Guía del gestor de datos para paneles de Adobe Analytics
 
-La siguiente información indica a los curadores de datos de Adobe Analytics cómo configurar y presentar paneles para los usuarios ejecutivos.
+La siguiente información indica a los curadores de datos de Adobe Analytics cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo que muestra esta información, consulte Experiencia [en la aplicación de paneles de](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)Adobe Analytics.
 
 ## Primeros pasos
 
@@ -71,10 +71,6 @@ Puede tener acceso a la plantilla informe de valoración móvil en blanco de una
 
 ![Plantilla del informe de valoración](assets/new_template.png)
 
-
-*Nota: si no ve la plantilla informe de valoración móvil en blanco como se muestra a continuación, quiere decir que aún no se ha activado a su empresa para la versión beta. Póngase en contacto con el encargado de servicio al cliente.*
-
-
 **Agregar un proyecto**
 
 En la pantalla **Proyectos**, en la ficha **Componentes**, haga clic en el botón **Agregar** y seleccione **informe de valoración móvil**.
@@ -105,18 +101,17 @@ Para implementar la plantilla del informe de valoración:
 
    ![Agregar dimensiones](assets/layer_dimensions.png)
 
-   *Nota: también puede agregar una dimensión a todos los mosaicos soltándola en el lienzo del informe de valoración.*
+   También puede agregar una dimensión a todos los mosaicos soltándola en el lienzo Cuadro de mandos.
 
    Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **Título** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
-
 
    Además, si hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Desglose el usuario ejecutivo de la aplicación. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
    ![Breakdown_view](assets/break_view.png)
 
-   *Tenga en cuenta que cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.*
+   Cada dimensión agregada al mosaico se mostrará en una lista desplegable en la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
 
-4. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración.
+4. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus cuadros de mando](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) del mismo modo que lo haría en Adobe Analytics Workspace.
 
 5. Del mismo modo, para eliminar un componente que se aplique a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Clientes móviles**:
 
@@ -155,7 +150,7 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 Una vez que haya compartido un informe de valoración, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el informe de valoración mediante el Generador de informes de valoración, estos se aplicarán automáticamente al informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
 
-*Nota: Si agrega nuevos componentes al informe de valoración, es posible que desee volver a compartirlo (marque la opción **Compartir automáticamente componentes incrustados con los destinatarios**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.*
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
 
 ## Configuración de los usuarios ejecutivos de la aplicación
 
@@ -171,43 +166,23 @@ Para ayudar a los usuarios ejecutivos a acceder en la aplicación a los informes
 * Los usuarios tengan acceso a Analysis Workspace y al grupo de informes en el que se basa el informe de valoración
 * Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Nota: Al compartir los informes de valoración, puede seleccionar la opción **Compartir automáticamente los componentes incrustados con los destinatarios**.
 
-### Ayudar a los usuarios ejecutivos a utilizar la aplicación
+### Ayudar a los usuarios ejecutivos con la aplicación
 
-Durante la fase beta y antes de que la aplicación se publique, puede controlar quién tiene acceso a la aplicación.
+Para ayudar a los usuarios ejecutivos:
 
-1. Ayudar a los usuarios ejecutivos a descargar e instalar la aplicación. Siga los siguientes pasos para ampliar el acceso a los usuarios ejecutivos, en función de si utilizan un dispositivo iOS o Android.
+1. Ayudarles a descargar e instalar la aplicación. Siga los siguientes pasos para ampliar el acceso a los usuarios ejecutivos, en función de si utilizan un dispositivo iOS o Android.
 
    **Para usuarios ejecutivos con iOS:**
 
-   1. Haga clic en el siguiente vínculo público (también está disponible en Analytics en **Herramientas** > **Paneles**):
+   1. Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
-      [Vínculo de iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
-
-      Después de hacer clic en el vínculo, aparecerá la siguiente pantalla de Testflight:
-
-      ![Pantalla de Testflight](assets/testflight1.png)
-
-   2. En la pantalla, pulse el vínculo **Ver en App Store** para descargar la aplicación Testflight.
-
-   3. Después de instalar la aplicación Testflight, busque e instale los paneles de Adobe Analytics en Testflight como se muestra a continuación:
-
-      ![Pantalla de Testflight](assets/testflight2.png)
-
+      [Vínculo de iOS](https://apple.co/2zXq0aN)
    **Para usuarios ejecutivos con Android:**
 
-   1. Pulse el siguiente enlace de la Play Store en el dispositivo del usuario (también disponible en Analytics en **Herramientas** > **Paneles**):
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+   1. Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
-      Después de pulsar el enlace, seleccione “Convertirse en evaluador” en la siguiente pantalla:
-
-      ![Pantalla de la Play Store](assets/play.png)
-
-   2. Pulse el enlace **descargar en Google Play** en la siguiente pantalla:
-
-      ![Vínculo de descarga](assets/playnext.png)
-
-   3. Descargue e instale la aplicación.
-Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics; la aplicación es compatible con Adobe ID y con Enterprise/Federated ID.
+      [Android](https://bit.ly/2LM38Oo)
+   Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics; la aplicación es compatible con Adobe ID y con Enterprise/Federated ID.
 
    ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
@@ -216,19 +191,15 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
    * Pulse el nombre de la empresa de inicio de sesión o de la organización de Experience Cloud con la que acceder al informe de valoración que ha compartido. A continuación, la lista de informes de valoración muestra todos los informes de valoración que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
    * Ayude al usuario ejecutivo a ordenar esta lista por **Últimas modificaciones**, si procede.
    * Pulse el nombre de un informe de valoración para verlo.
-
    ![Seleccione una empresa](assets/accesscard.png)
 
-   Nota: Si el usuario ejecutivo inicia sesión y ve un mensaje que indica que no se ha compartido nada:
+   Si el usuario ejecutivo inicia sesión y ve un mensaje que dice que no se ha compartido nada:
 
    * Es posible que el usuario ejecutivo haya seleccionado una instancia incorrecta de Analytics
    * Es posible que el informe de valoración no se haya compartido con el usuario ejecutivo
-
-      ![No se ha compartido nada](assets/nothing.png)
-
    Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
-3. Explicar al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración compartidos.
+3. Explicar al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de mandos que comparte (el cuadro de mandos siguiente se establece en modo oscuro, que se establece en **Preferencias** , como se explica en un paso posterior):
 
    ![Explicación de los mosaicos](assets/newexplain.png)
 
@@ -247,24 +218,30 @@ Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión e
 
    ![Vista de desglose](assets/sparkline.png)
 
+   * Toque cualquier punto de un minigráfico para ver los datos asociados a ese punto en la línea.
+
+   * Se incluye una tabla para mostrar los datos de las dimensiones agregadas al mosaico. Puntee en la flecha hacia abajo para seleccionar dimensiones. Si no se ha agregado ninguna dimensión al mosaico, la tabla muestra los datos del gráfico.
+
 
 5. Cambiar los intervalos de fecha del informe de valoración:
 
    ![Cambio de fechas](assets/changedate.png)
 
-   *Nota: También puede cambiar los intervalos de fechas del mismo modo en la vista Desglosar que se muestra arriba.*
+   También puede cambiar los intervalos de fechas dentro de la vista Desglosar que se muestra arriba de la misma manera.
 
    Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **COMPARAR CON**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **Listo** en la parte superior derecha de la pantalla. El campo **Intervalos de fecha** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
 6. Para dejar comentarios sobre esta aplicación:
 
-   1. Pulse el icono de usuario en la parte superior derecha de la pantalla de la aplicación.
-   2. En la pantalla **Mi cuenta**, pulse la opción **Comentarios**.
+   1. Toque el icono de configuración en la parte superior derecha de la pantalla de la aplicación.
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. Pulse para ver las opciones que existen para dejar comentarios.
 
-   ![Escribir comentarios](assets/feedback.png)
-   ![Opciones de comentarios](assets/feedback_option.png)
+      ![Pantalla Configuración](assets/settings.png)
 
+7. Para cambiar las preferencias, toque la opción **Preferencias** que se muestra arriba. En las preferencias, puede activar el inicio de sesión biométrico o puede establecer la aplicación para el modo oscuro como se muestra a continuación:
+
+   ![Modo oscuro](assets/darkmode.png)
 
 **Para informar de un error**:
 
