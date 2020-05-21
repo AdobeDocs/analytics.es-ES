@@ -2,9 +2,9 @@
 description: Quick Insights Builder es una herramienta para nuevos usuarios de Workspace que les guía en la creación de tablas de datos y visualizaciones
 title: Creador de perspectivas rápidas
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1050'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** está actualmente en pruebas limitadas y todavía no está disponible para todos los clientes de Adobe Analytics.
+>**[!UICONTROL Quick Insights]** se encuentra actualmente en pruebas limitadas. [Más información...](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] proporciona una guía a los no analistas y a los nuevos usuarios de [!UICONTROL Análisis Workspace] para aprender a responder preguntas comerciales de forma rápida y sencilla. También es una buena herramienta para usuarios avanzados que desean responder a una pregunta simple rápidamente sin tener que crear una tabla ellos mismos.
 
@@ -39,7 +39,7 @@ A continuación se incluyen algunos de los términos básicos con los que debe e
 | [!UICONTROL Elemento de dimensión] | Los elementos de dimensión son valores individuales para una dimensión. Por ejemplo, los elementos de dimensión para la dimensión del navegador serían &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, etc. |
 | [!UICONTROL Métrica] | Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
 | [!UICONTROL Visualización] | Workspace oferta [una serie de visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para crear representaciones visuales de los datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
-| [!UICONTROL Desglosar] | Un desglose es una manera de desglosar literalmente una dimensión por otras dimensiones. En nuestro ejemplo, puede desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado o puede desglosar Dispositivos móviles por tipos de dispositivos móviles, por regiones, por Campañas internas, etc. |
+| [!UICONTROL Desglose de dimensiones] | Un desglose de dimensión es una forma de desglosar literalmente una dimensión por otras dimensiones. En nuestro ejemplo, puede desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado o puede desglosar Dispositivos móviles por tipos de dispositivos móviles, por regiones, por Campañas internas, etc. |
 | [!UICONTROL Segmento] | Los segmentos permiten identificar subconjuntos de visitantes en función de las características o las interacciones con el sitio web. Por ejemplo, puede generar segmentos de [!UICONTROL Visitante] basados en atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o según las interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o en función de salidas y entradas: visitantes de Facebook, una página de aterrizaje definida, un dominio de referencia o basados en variables personalizadas: campo de formulario, categorías definidas, ID de cliente. |
 
 ## Introducción a Quick Insights
@@ -66,7 +66,7 @@ A continuación se incluyen algunos de los términos básicos con los que debe e
    * Una tabla improvisada con la dimensión (aquí, Estados de EE.UU.) verticalmente y la métrica (aquí, Visitas) horizontalmente en la parte superior. Consulte esta tabla:
    ![](assets/qibuilder3.png)
 
-   * Una visualización adjunta, en este caso un gráfico [de barras](/help/analyze/analysis-workspace/visualizations/bar.md). La visualización que se genera se basa en el tipo de datos agregados a la tabla. Puede cambiar el tipo de visualización haciendo clic en la flecha desplegable situada junto a **[!UICONTROL Barra]**.
+   * Una visualización adjunta, en este caso un gráfico [de barras](/help/analyze/analysis-workspace/visualizations/bar.md). La visualización que se genera se basa en el tipo de datos agregados a la tabla. Cualquier dato basado en el tiempo (como [!UICONTROL Visitas] por día/mes) tiene un gráfico de [!UICONTROL líneas] predeterminado. Cualquier dato no basado en el tiempo (como [!UICONTROL Visitas] por [!UICONTROL dispositivo]) tiene el valor predeterminado de un gráfico de [!UICONTROL barras] . Puede cambiar el tipo de visualización haciendo clic en la flecha desplegable situada junto al tipo de visualización.
 
 
 1. (Opcional) Desglose las dimensiones y vea los elementos de dimensión haciendo clic en la flecha > derecha junto a la dimensión.
@@ -94,10 +94,6 @@ En el Generador [!UICONTROL de perspectivas]rápidas aparecerán otras sugerenci
 * **Añadir más segmentos**: Puede agregar hasta dos segmentos más utilizando los operadores Y u O para agregarlos a la tabla. Observe lo que sucede en la tabla cuando agrega Usuarios móviles O Visitantes fieles. Están uno al lado del otro, encima de las métricas. Si agregara Usuarios móviles Y Visitantes fieles, vería los resultados de ambos segmentos juntos y se apilarían uno encima del otro en la tabla.
 
    ![](assets/qibuilder7.png)
-
-## Abrir/cargar un proyecto de perspectivas rápidas
-
-
 
 ## Limitaciones conocidas
 
