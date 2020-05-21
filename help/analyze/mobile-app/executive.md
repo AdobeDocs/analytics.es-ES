@@ -2,10 +2,10 @@
 description: Instrucciones para usar los informes de valoración de los paneles.
 title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 98%
+source-wordcount: '1228'
+ht-degree: 80%
 
 ---
 
@@ -51,36 +51,21 @@ Para acceder a los informes de valoración de los paneles, compruebe que:
 
 Para descargar e instalar la aplicación, siga los pasos que correspondan al sistema operativo de su dispositivo.
 
-**Para dispositivos iOS:**
+**Para usuarios ejecutivos con iOS:**
 
-1. Haga clic en el siguiente vínculo público (también está disponible en Analytics en **Herramientas** > **Paneles**):
+* Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
-   [Vínculo de iOS](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
+   [Vínculo de iOS](https://apple.co/2zXq0aN)
 
-   Después de hacer clic en el vínculo, aparecerá la siguiente pantalla de Testflight:
+**Para usuarios ejecutivos con Android:**
 
-   ![Pantalla de Testflight](assets/testflight1.png)
+* Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
-2. En la pantalla, pulse el vínculo **Ver en App Store** para descargar la aplicación Testflight.
+   [Android](https://bit.ly/2LM38Oo)
 
-3. Después de instalar la aplicación Testflight, busque e instale los paneles de Adobe Analytics en Testflight como se muestra a continuación:
+Una vez descargado e instalado, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics existentes.
 
-   ![Pantalla de Testflight](assets/testflight2.png)
-
-**Para dispositivos Android:**
-
-1. Pulse el siguiente enlace de la Play Store en el dispositivo del usuario (también disponible en Analytics en **Herramientas** > **Paneles**):
-
-
-   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-
-   Después de pulsar el enlace, seleccione “Convertirse en evaluador” en la siguiente pantalla:
-
-   ![Pantalla de la Play Store](assets/play.png)
-
-2. Pulse el enlace **descargar en Google Play** en la siguiente pantalla:
-
-   ![Vínculo de descarga](assets/playnext.png)
+![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
 ## Usar los paneles
 
@@ -94,16 +79,15 @@ Para usar los paneles:
 
 3. A continuación, la lista informes de valoración mostrará todos los informes de valoración que se han compartido con usted. Pulse el informe de valoración que desee ver.
 
-   ![Seleccione una empresa](assets/accesscard.png)
+   ![Seleccione una empresa](assets/nextseq.png)
 
-   *Nota: Si inicia sesión y ve un mensaje que indica que no se ha compartido nada, compruebe lo siguiente con su gestor de datos:*
+   Si inicia sesión y ve un mensaje que indica que no se ha compartido nada, compruebe lo siguiente con su curador:
 
-   * *Puede iniciar sesión en la instancia correcta de Analytics*
-   * *El informe de valoración se ha compartido con usted*
+   Puede iniciar sesión en la instancia de Analytics correctaEl cuadro de mandos se ha compartido con usted
 
-      ![No se ha compartido nada](assets/nothing.png)
+   ![No se ha compartido nada](assets/nothing.png)
 
-4. Examine cómo aparecen los mosaicos en el informe de valoración.
+4. Examine cómo aparecen los mosaicos en el cuadro de mandos (este cuadro de mandos se muestra en modo oscuro).
 
    ![Explicación de los mosaicos](assets/newexplain.png)
 
@@ -125,21 +109,27 @@ Para usar los paneles:
 
    ![Cambio de fechas](assets/changedate.png)
 
-   *Nota: También puede cambiar los intervalos de fechas del mismo modo en la vista Desglosar que se muestra arriba.*
+   También puede cambiar los intervalos de fechas dentro de la vista Desglosar que se muestra arriba de la misma manera.
 
    Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **COMPARAR CON**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **Listo** en la parte superior derecha de la pantalla. El campo **Intervalos de fecha** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
-7. Obtener actualizaciones del informe de valoración. Si un informe de valoración no incluye todas las métricas o desgloses que le interesen, contacte con el equipo de Analytics para actualizar el informe de valoración. Una vez hecho, puede arrastrar el informe de valoración hacia abajo para actualizarlo, lo cual hará que se carguen los datos agregados recientemente.
+7. Para aplicar un filtro de segmento a su cuadro de mandos, toque la lista desplegable de filtros y seleccione un segmento que haya configurado el curador.
 
+   ![Filtro de segmento](assets/segment_filter.png)
 
+8. Obtener actualizaciones del informe de valoración. Si un informe de valoración no incluye todas las métricas o desgloses que le interesen, contacte con el equipo de Analytics para actualizar el informe de valoración. Una vez hecho, puede arrastrar el informe de valoración hacia abajo para actualizarlo, lo cual hará que se carguen los datos agregados recientemente.
 
-8. Escribir comentarios. Para escribir comentarios:
+9. Para dejar comentarios sobre esta aplicación:
 
-   1. Pulse el icono de usuario en la parte superior derecha de la pantalla de los paneles.
-   2. En la pantalla **Mi cuenta**, pulse la opción **Comentarios**.
+   1. Toque el icono de configuración en la parte superior derecha de la pantalla de la aplicación.
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. Pulse para ver las opciones que existen para dejar comentarios.
-   ![Escribir comentarios](assets/feedback.png)
-   ![Opciones de comentarios](assets/feedback_option.png)
+
+      ![Pantalla Configuración](assets/settings.png)
+
+10. Para cambiar las preferencias, toque la opción **Preferencias** que se muestra arriba. En las preferencias, puede activar el inicio de sesión biométrico o puede establecer la aplicación para el modo oscuro como se muestra a continuación:
+
+   ![Modo oscuro](assets/darkmode.png)
 
 
 **Para informar de un error**:
