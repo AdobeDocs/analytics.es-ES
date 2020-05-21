@@ -2,10 +2,10 @@
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
+source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
 workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 82%
+source-wordcount: '2331'
+ht-degree: 78%
 
 ---
 
@@ -13,16 +13,15 @@ ht-degree: 82%
 
 # Guía del gestor de datos para paneles de Adobe Analytics
 
-La siguiente información indica a los curadores de datos de Adobe Analytics cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo que muestra esta información, consulte Experiencia [en la aplicación de paneles de](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)Adobe Analytics.
+La siguiente información indica a los curadores de datos de Adobe Analytics cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo que muestre esta información, consulte Generador de cuadros de mando de paneles de [Adobe Analytics](https://youtu.be/tnnl6hrcP94).
 
 ## Primeros pasos
 
-Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos que se crean y comparten desde la interfaz de usuario de Adobe Analytics para escritorio. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. Los paneles de Analytics son compatibles con los sistemas operativos iOS y Android.
+Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite a los usuarios acceder desde dispositivos móviles a cuadros de mandos intuitivos que se crean y comparten desde la interfaz de usuario de escritorio de Adobe Analytics. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. Los paneles de Analytics son compatibles con los sistemas operativos iOS y Android.
 
 ## Más información sobre esta guía
 
-Esta guía está diseñada para ayudar a los gestores de datos de Adobe Analytics a configurar informes de valoración para sus usuarios ejecutivos en los paneles de Analytics. Los gestores de datos pueden ser administradores de la organización o personas con otras funciones. Son responsables de la configuración de los informes de valoración de la aplicación, lo que permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes. Aunque los usuarios ejecutivos son los usuarios finales de los paneles de Analytics, esta guía ayudará a los gestores de datos a configurar la aplicación de forma eficaz para estos usuarios.
-
+Esta guía está pensada para ayudar a los curadores de datos de Adobe Analytics a configurar Scorecards para sus usuarios ejecutivos en paneles. Los gestores de datos pueden ser administradores de la organización o personas con otras funciones. Son responsables de la configuración de los informes de valoración de la aplicación, lo que permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes. Aunque los usuarios ejecutivos son los usuarios finales de los paneles de Analytics, esta guía ayudará a los gestores de datos a configurar la aplicación de forma eficaz para estos usuarios.
 
 ## Glosario de términos
 
@@ -164,9 +163,9 @@ Para ayudar a los usuarios ejecutivos a acceder en la aplicación a los informes
 
 * El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior
 * Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics
-* Haya creado y compartido correctamente los informes de valoración móviles de los usuarios.
+* Ha creado correctamente los cuadros de mandos móviles para ellos y los ha compartido con ellos
 * Los usuarios tengan acceso a Analysis Workspace y al grupo de informes en el que se basa el informe de valoración
-* Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Nota: Al compartir los informes de valoración, puede seleccionar la opción **Compartir automáticamente los componentes incrustados con los destinatarios**.
+* Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
 
 ### Ayudar a los usuarios ejecutivos con la aplicación
 
@@ -198,19 +197,26 @@ Para ayudar a los usuarios ejecutivos:
    Si el usuario ejecutivo inicia sesión y ve un mensaje que dice que no se ha compartido nada:
 
    * Es posible que el usuario ejecutivo haya seleccionado una instancia incorrecta de Analytics
-   * Es posible que el informe de valoración no se haya compartido con el usuario ejecutivo
-   Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
-3. Explicar al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de mandos que comparte (el cuadro de mandos siguiente se establece en modo oscuro, que se establece en **Preferencias** , como se explica en un paso posterior):
+   * Es posible que el informe de valoración no se haya compartido con el usuario ejecutivo
+
+      ![No se ha compartido nada](assets/nothing.png)
+
+
+   * Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
+
+
+3. Explicar al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de mandos que comparte (el primer cuadro de mandos a continuación se establece en modo oscuro; consulte **Preferencias** a continuación si cree que el usuario ejecutivo prefiere esta opción de visualización):
 
    ![Explicación de los mosaicos](assets/newexplain.png)
 
+   ![Ejemplo de cuadro de mandos](assets/intro_scorecard.png)
 
    Información adicional sobre los mosaicos:
 
    * La granularidad de los minigráficos depende de la longitud del intervalo de fecha:
       * Si se selecciona un día se muestra una tendencia horaria
-      * Si se selecciona más de un día y menos de un año se muestra una tendencia diaria
+      * Más de un día y menos de un año muestran una tendencia diaria
       * Si se selecciona un año o más se muestra una tendencia semanal
    * La fórmula de la variación del valor porcentual es el total de la métrica (intervalo de fecha actual) – el total de la métrica (intervalo de fecha de comparación) / el total de la métrica (intervalo de fecha de comparación).
    * Puede arrastrar la pantalla hacia abajo para actualizar el informe de valoración.
@@ -224,14 +230,13 @@ Para ayudar a los usuarios ejecutivos:
 
    * Se incluye una tabla para mostrar los datos de las dimensiones agregadas al mosaico. Puntee en la flecha hacia abajo para seleccionar dimensiones. Si no se ha agregado ninguna dimensión al mosaico, la tabla muestra los datos del gráfico.
 
-
 5. Cambiar los intervalos de fecha del informe de valoración:
 
    ![Cambio de fechas](assets/changedate.png)
 
-   También puede cambiar los intervalos de fechas dentro de la vista Desglosar que se muestra arriba de la misma manera.
+   * También puede cambiar los intervalos de fechas dentro de la vista Desglosar que se muestra arriba de la misma manera.
 
-   Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **COMPARAR CON**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **Listo** en la parte superior derecha de la pantalla. El campo **Intervalos de fecha** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
+   * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **COMPARAR CON**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **Listo** en la parte superior derecha de la pantalla. El campo **Intervalos de fecha** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
 6. Para dejar comentarios sobre esta aplicación:
 
