@@ -2,7 +2,7 @@
 description: Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos a documentación de apoyo.
 title: Comparación de las API de informes de Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -33,7 +33,7 @@ Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos
    <td colname="col5"> Datos totalmente procesados y finalizados que se utilizan para extraer exportaciones de datos de gran volumen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > Latencia</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/es-ES/analytics/technotes/latency.translate.html"  > Latencia</a> </p> </td> 
    <td colname="col2"> De 30 a 90 minutos </td> 
    <td colname="col3"> * De segundos a 10 minutos </td> 
    <td colname="col4"> De segundos a 10 minutos </td> 
@@ -65,7 +65,7 @@ Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos
    <td colname="col2"> Sí </td> 
    <td colname="col3"> No </td> 
    <td colname="col4"> No </td> 
-   <td colname="col5"> Sí  </td> 
+   <td colname="col5"> Sí </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Admite segmentos</b> </td> 
@@ -93,6 +93,6 @@ Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos
 
 **Ayuda relacionada**
 
-* [Adobe/IO](https://www.adobe.io/): una fuente exhaustiva de documentación técnica y herramientas necesarias para integrar las tecnologías de Adobe en sus aplicaciones.
-* [API de consulta del Data Workbench.](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
+* [Adobe I/O](https://www.adobe.io/): una fuente exhaustiva de documentación técnica y herramientas necesarias para integrar las tecnologías de Adobe en sus aplicaciones.
+* [API de consulta del Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
 
