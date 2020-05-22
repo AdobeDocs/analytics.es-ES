@@ -1,9 +1,9 @@
 ---
 description: Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
-title: Informes  de rutas
+title: Informes de rutas
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
 
-## Informes  de rutas {#concept_CB32E270FB9E4D929C91FDFE428CB224}
+## Informes de rutas {#concept_CB32E270FB9E4D929C91FDFE428CB224}
 
 Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
 
-Los informes  de rutas incluyen informes exhaustivos estándar y de análisis avanzado opcionales que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
+Los informes de rutas incluyen informes exhaustivos estándar y de análisis avanzado opcionales que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
 
 **[!UICONTROL Flujo de página siguiente]** o **[!UICONTROL Flujo de sitio siguiente]**: muestra un gráfico ramificado de dos niveles de una página seleccionada (o sección, departamento, etc.) que el visitante ve tras irse de la página seleccionada. Use este informe para analizar e identificar los pasos que siguen los visitantes con más frecuencia después de ver una página determinada. Puede:
 
@@ -41,7 +41,7 @@ Consulte [Informe de visitas en el orden previsto](/help/analyze/ad-hoc-analysis
 
 * **[!UICONTROL Resumen de página / Resumen de categoría del sitio]**: indica todo lo que se necesita saber sobre el informe de página. Este informe toma y organiza información específica acerca de una página individual y la presenta en un informe único.
 * **[!UICONTROL Recargas]**: muestra la cantidad de veces que los visitantes recargaron las páginas individuales.
-* **[!UICONTROL Tiempo invertido en la página / Categoría del sitio]**: muestra durante cuánto tiempo los visitantes navegan por páginas individuales del sitio. El tiempo empleado se divide en diez categorías: menos de 15 segundos, entre 15 y 30 segundos, entre 30 y 60 segundos, entre 1 y 3 minutos, entre 3 y 5 minutos, entre 5 y 10 minutos, entre 10 y 15 minutos, entre 20 y 30 minutos y más de 30 minutos.
+* **[!UICONTROL Tiempo invertido en la página / Categoría del sitio]**: muestra durante cuánto tiempo los visitantes navegan por páginas individuales del sitio. El tiempo empleado se divide en diez categorías: menos de 15 segundos, entre 15 y 30 segundos, entre 30 y 60 segundos, entre 1 y 3 minutos, entre 3 y 5 minutos, entre 5 y 10 minutos, entre 10 y 15 minutos, entre 15 y 20 minutos, entre 20 y 30 minutos y más de 30 minutos.
 * **[!UICONTROL Clics hasta la página]**: identifica la cantidad de clics que los visitantes hicieron para acceder a cada página del sitio. La profundidad de una página se mide contando la cantidad de páginas vistas antes de ella.
 
 **[!UICONTROL Entradas y salidas]**: el informe de página [!UICONTROL de entrada] muestra, según el porcentaje y el número total de visitas, qué páginas del sitio son las primeras en ser vistas por un nuevo visitante. Se pueden ver:
@@ -83,8 +83,8 @@ t_fallout.xml
 
    También hay otros informes de visitas en el orden previsto en **[!UICONTROL Informes]** > **[!UICONTROL Rutas]**.
 
-1. (Opcional) Si quiere filtrar los datos de acuerdo con un segmento específico, arrastre el segmento al campo [!UICONTROL Colocar segmento aquí.]
-1. Puede arrastrar cualquier artículo de dimensión al campo [!UICONTROL Colocar evento o artículos de dimensión aquí.]
+1. (Opcional) Si quiere filtrar los datos de acuerdo con un segmento específico, arrastre el segmento al campo [!UICONTROL Colocar segmento aquí].
+1. Puede arrastrar cualquier artículo de dimensión al campo [!UICONTROL Colocar evento o artículos de dimensión aquí].
 1. Haga clic en **[!UICONTROL Mostrar visitas en el orden previsto en]** el nivel de la visita o del visitante, en función de si quiere ver las visitas en el orden previsto en una visita o en varias sesiones de visitantes.
 1. Agregue al informe artículos de dimensión, por ejemplo páginas.
 
@@ -99,7 +99,7 @@ t_fallout_assign_pages.xml
  -->
 
 1. Haga clic en **[!UICONTROL Informes]** > **[!UICONTROL Rutas]** > **[!UICONTROL Páginas]** > **[!UICONTROL Visitas en el orden previsto de páginas]**.
-1. En el panel [!UICONTROL Dimensiones], busque las páginas que desea agregar y arrástrelas al campo [!UICONTROL Colocar evento o elementos de dimensión aquí.]
+1. En el panel [!UICONTROL Dimensiones], busque las páginas que desea agregar y arrástrelas al campo [!UICONTROL Colocar evento o elementos de dimensión aquí].
 
 ## Informe de visitas en el orden previsto: descripciones de campos {#reference_74255CC8D6134F349FEBFEC72934C866}
 
@@ -114,7 +114,7 @@ r_dsc_fallout.xml
 | Campo | Descripción |
 |--- |--- |
 | Mostrar visitas en el orden previsto en el nivel de la visita o del visitante | Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. Estas opciones permiten analizar el interés de los visitantes, en el nivel de los visitantes, durante todas las visitas. Los informes de análisis de sitio, de flujo y de visitas en el orden previsto están habilitados para el control de rutas. Si se cambia esta opción, el informe se volverá a ejecutar y los datos se restringirán de acuerdo con la selección. |
-| Éxito total  | Un indicador de éxito total. Refleja el valor tal cual era en el último punto de comprobación de la ruta. |
+| Éxito total | Un indicador de éxito total. Refleja el valor tal cual era en el último punto de comprobación de la ruta. |
 | Éxito total % | Un total acumulado del porcentaje de llegada a un punto de comprobación. |
 | Punto de comprobación % | Porcentaje de éxito entre puntos de comprobación (no es acumulado). |
 | Incluir todas las visitas | Agrega todas las visitas como punto de comprobación inicial. |
