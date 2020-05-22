@@ -1,7 +1,7 @@
 ---
 description: Instrucciones sobre cómo ejecutar Ad Hoc Analysis con Java 11.
 title: Ejecutar Ad Hoc Analysis en Java 11
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
