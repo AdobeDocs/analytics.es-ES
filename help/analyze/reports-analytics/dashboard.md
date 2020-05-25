@@ -4,7 +4,7 @@ subtopic: Dashboards
 title: Paneles e informes breves
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,9 +18,9 @@ Un tablero es una colección de informes en miniatura, llamados informes breves.
 
 Un tablero es una colección de informes en miniatura, llamados *`reportlets`*. Un tablero es más útil cuando contiene informes breves relacionados que le ofrecen información general completa sobre determinados aspectos de su sitio, como métodos de búsqueda, perfiles de visitantes, etc.
 
-Puede agregar la mayoría de los informes de marketing a un panel, incluidos los informes con gran cantidad de gráficos como el [!UICONTROL Fallout Report], [!UICONTROL Conversion Funnel Report]y el [!UICONTROL Pathfinder Report].
+Puede añadir a un tablero la mayoría de los informes de marketing, incluso los informes con gran cantidad de gráficos como, por ejemplo, el [!UICONTROL Informe de visitas en el orden previsto], el [!UICONTROL Informe de canales de conversión] y el [!UICONTROL Informe de Pathfinder].
 
-También puede establecer un tablero como su página de aterrizaje, compartir tableros con otros usuarios y programarlos para su envío. If you do not set a dashboard (or a bookmark) as a landing page, the [!UICONTROL My Recommended Reports] dashboard displays. **[!UICONTROL My Recommended Reports]** La muestra el **[!UICONTROL Key Metrics]** informe más los cinco informes vistos con más frecuencia. Es dinámico y se basa en los informes concretos que visualiza más.
+También puede establecer un tablero como su página de aterrizaje, compartir tableros con otros usuarios y programarlos para su envío. Si no establece un tablero (o un marcador) como página de aterrizaje, aparece el tablero [!UICONTROL Mis informes recomendados]. **[!UICONTROL Mis informes recomendados]** muestra el informe **[!UICONTROL Métricas clave]** además de los cinco informes vistos con más frecuencia. Es dinámico y se basa en los informes concretos que visualiza más.
 
 Debe tener en cuenta que algunos de los informes visualizados con más frecuencia no pueden estar en el tablero, por lo que no aparecerán. Se incluyen:
 
@@ -31,18 +31,18 @@ Debe tener en cuenta que algunos de los informes visualizados con más frecuenci
 * Informes en tiempo real
 * Otros tableros
 
->[!NOTE] El **[!UICONTROL Site Overview]** panel ya no aparece en Informes y análisis. Sin embargo, aún hay un par de circunstancias en las que verá algunos o todos estos informes breves.
+>[!NOTE] El panel **[!UICONTROL Información general de sitio]** ya no aparece en Reports &amp; Analytics. Sin embargo, aún hay un par de circunstancias en las que verá algunos o todos estos informes breves.
 
-* If you have, say, only three frequently viewed reports, Reports &amp; Analytics will take two reports from the Site Overview dashboard to complete the **[!UICONTROL My Recommended Reports]** dashboard.
-* Los grupos de informes completamente nuevos también contarán inicialmente con informes breves de Información general de sitio, hasta que se puedan sustituir por los informes que visualiza con más frecuencia. Aun así, ahora se llamará al panel **[!UICONTROL My Recommended Reports]**.
+* Si, por ejemplo, solo tiene tres informes vistos con frecuencia, Reports &amp; Analytics tomará dos informes del tablero Información general de sitio para completar el tablero **[!UICONTROL Mis informes recomendados]**.
+* Los grupos de informes completamente nuevos también contarán inicialmente con informes breves de Información general de sitio, hasta que se puedan sustituir por los informes que visualiza con más frecuencia. Aun así, el tablero se llamará **[!UICONTROL Mis informes recomendados]**.
 
 Además de los tableros que cree, se incluyen los siguientes tableros empaquetados previamente para cada usuario:
 
-**[!UICONTROL Components]>[!UICONTROL Dashboards]>[!UICONTROL Shared Dashboards]>[!UICONTROL Local Sites]**
+**[!UICONTROL Componentes] > [!UICONTROL Tableros] > [!UICONTROL Tableros compartidos] > [!UICONTROL Sitios locales]**
 
 Este tablero se puede personalizar y permite soltar informes breves en la plantilla proporcionada.
 
-**[!UICONTROL Components]>[!UICONTROL Dashboards]>[!UICONTROL Shared Dashboards]>[!UICONTROL Site Operations Dashboard]**
+**[!UICONTROL Componentes] > [!UICONTROL Tableros] > [!UICONTROL Tableros compartidos] > [!UICONTROL Tablero de operaciones del sitio]**
 
 Este tablero proporciona información general sobre las métricas clave relacionadas con las operaciones del sitio web. Los informes de este tablero incluyen:
 
@@ -53,7 +53,7 @@ Este tablero proporciona información general sobre las métricas clave relacion
 * Informe breve de texto
 * Informe breve de resumen de la empresa
 
-Use the [!UICONTROL Dashboard Manager] to edit and manage dashboards, and enable them for DirectAccess.
+Utilice el [!UICONTROL Administrador de tableros] para editar y administrar tableros, y para activar en ellos DirectAccess.
 
 Consulte [Administración de tableros](/help/analyze/reports-analytics/dashboard-manage.md).
 
@@ -69,24 +69,24 @@ t_dashboard_add.xml
 
 Antes de añadir un informe (como informe breve) a un tablero, defina el diseño del tablero.
 
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. Haga clic en **[!UICONTROL Add Dashboard]**.
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Administrar tableros]**.
+1. Haga clic en **[!UICONTROL Agregar tablero]**.
 1. Escriba un nombre para el tablero.
 1. Haga clic en **[!UICONTROL 3 x 2]** o **[!UICONTROL 2 x 2]** para especificar cuántos informes breves desea que se muestren en la página del tablero.
 1. Configure el diseño de página del tablero:
 
-   * **[!UICONTROL Add Page]**:: Añade una página en blanco al panel, en la que puede arrastrar contenido para crear informes breves.
-   * **[!UICONTROL Paper]**:: Permite especificar un tamaño de papel, como horizontal, vertical y A4.
-   * **[!UICONTROL Find Content]**:: Permite buscar contenido en los menús [!UICONTROL Add Content] y [!UICONTROL Dashboard Contents] .
+   * **[!UICONTROL Agregar página]**: añade una página en blanco al tablero, donde puede arrastrar contenido para crear informes breves.
+   * **[!UICONTROL Papel]**: le permite especificar un tamaño de papel, horizontal, vertical y A4.
+   * **[!UICONTROL Buscar contenido]**: le permite buscar contenido en los menús [!UICONTROL Agregar contenido] y [!UICONTROL Contenido del tablero].
 
 1. Añada el contenido disponible al tablero, arrastrando artículos al lienzo de informes breves.
 
    Consulte [Creación de un informe breve](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) y [Edición de la configuración del tablero](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
-1. Haga clic en **[!UICONTROL Save.]**
+1. Haga clic en **[!UICONTROL Guardar]**.
 
-   Saving a dashboard makes it available in the **[!UICONTROL Dashboard]** menu. The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** > **[!UICONTROL Dashboards]** > **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (Consulte [Administración de tableros](/help/analyze/reports-analytics/dashboard-manage.md).)
+   Guardar un tablero lo convierte en disponible en el menú **[!UICONTROL Tablero]**. El nuevo tablero también se encuentra disponible en el [!UICONTROL Administrador de tableros] (**[!UICONTROL Favoritos]** > **[!UICONTROL Tableros]** > **[!UICONTROL Administrador]**), donde podrá editar, organizar, compartir, programar y archivar tableros y mucho más. (Consulte [Administración de tableros](/help/analyze/reports-analytics/dashboard-manage.md).)
 
-1. (Opcional) Para establecer el panel como su página de aterrizaje, haga clic en **[!UICONTROL More Options]** > **[!UICONTROL Set as Landing Page]**.
+1. (Opcional) Para establecer el tablero como página de aterrizaje, haga clic en **[!UICONTROL Más opciones]** > **[!UICONTROL Establecer como página de aterrizaje]**.
 
 ## Crear un informe breve {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
@@ -99,20 +99,20 @@ t_dashboard_add_report.xml
  -->
 
 1. Ejecutar un informe.
-1. Haga clic en **[!UICONTROL Dashboard.]**
-1. En la [!UICONTROL Add Reportlet] página, asigne un nombre al informe y, a continuación, seleccione un panel de **[!UICONTROL Place in Dashboard]**.
+1. Haga clic en **[!UICONTROL Tablero]**.
+1. En la página [!UICONTROL Añadir informe breve], póngale nombre al informe y, a continuación, seleccione un tablero en **[!UICONTROL Colocar en tablero]**.
 1. (Opcional) Configure el intervalo de fecha.
 
-   * **[!UICONTROL Rolling]**:: Cambia la fecha a medida que pasa el tiempo, según el lapso de tiempo (diario, mensual, etc.). Por ejemplo, si hoy es 17 de enero, podría establecer las fechas del 15 al 16 de enero. Then if you select **[!UICONTROL Rolling]**, on January 27 the reportlet displays data for January 25 - 26.
-   * **[!UICONTROL Fixed]**:: Impide que la fecha avance con el transcurso del tiempo.
+   * **[!UICONTROL Móvil]**: cambia la fecha conforme va pasando el tiempo, según el lapso de tiempo (diario, mensual, etc.). Por ejemplo, si hoy es 17 de enero, podría establecer las fechas del 15 al 16 de enero. Por lo tanto, si selecciona **[!UICONTROL Móvil]**, el día 27 de enero el informe breve mostrará datos correspondientes al 25-26 de enero.
+   * **[!UICONTROL Fijo]**: evita que la fecha avance conforme va pasando el tiempo.
 
 1. (Opcional) Anule la lista de distribución de publicación.
 
-   **[!UICONTROL Publishing List Override]**: Si habilita esta opción, el grupo de informes al que se hace referencia en este informe breve se utilizará siempre cuando se distribuya en una lista de publicaciones. Si desactiva esta opción, el grupo de informes identificado en la lista de publicaciones reemplaza al grupo de informes de este informe breve.
+   **[!UICONTROL Anulación de la lista de publicación]**: si activa esta opción, se utilizará siempre el grupo de informes al que se hace referencia en este informe breve cuando se distribuya en una lista de publicación. Si desactiva esta opción, el grupo de informes identificado en la lista de publicaciones reemplaza al grupo de informes de este informe breve.
 
-1. Haga clic en **[!UICONTROL Create New]**.
+1. Haga clic en **[!UICONTROL Crear nuevo]**.
 
-   The reportlet is added to the **[!UICONTROL Dashboard Contents]** menu in the dashboard editor.
+   El informe breve se añadirá al menú **[!UICONTROL Contenido del tablero]**, en el editor del tablero.
 
 ## Añadir contenido a un tablero {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
@@ -124,10 +124,10 @@ t_dashboard_content.xml
 
  -->
 
-1. Open a dashboard, then click **[!UICONTROL Layout]**.
-1. Click **[!UICONTROL Add Content]**, then drag items to the dashboard.
+1. Abra un tablero y, a continuación, haga clic en **[!UICONTROL Diseño]**.
+1. Haga clic en **[!UICONTROL Agregar contenido]** y, a continuación, arrastre artículos al tablero.
 
-   The [!UICONTROL Add Content] menu displays reportlet content from other dashboards, legacy dashboards, and shared dashboards.
+   El menú [!UICONTROL Agregar contenido] muestra el contenido de los informes breves de otros tableros, tableros preexistentes y tableros compartidos.
 
    >[!NOTE]
    >
@@ -167,7 +167,7 @@ Puede crear los informes breves de Contenido de usuario siguientes siempre que i
 
    Muestra elementos que ya agregó al tablero.
 
-1. Haga clic en **[!UICONTROL Save.]**
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Editar datos de informes breves y tableros {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
@@ -181,22 +181,22 @@ t_dashboard_edit.xml
 
 **Para editar datos de informes breves y tableros**
 
-1. Click **[!UICONTROL Components]** > **[!UICONTROL Dashboards]** > *dashboard name* to open a dashboard.
-1. Haga clic en **[!UICONTROL Layout]**.
+1. Haga clic en **[!UICONTROL Componentes]** > **[!UICONTROL Tableros]** > *nombre del tablero* para abrir un tablero.
+1. Haga clic en **[!UICONTROL Diseño]**.
 
 | Hasta | Haga esto |
 |--- |--- |
 | Cambiar el grupo de informes de un tablero | Haga clic en el menú del encabezado de Experience Cloud y, a continuación, seleccione un grupo de informes. |
-| Cambiar el grupo de informes de un informe breve | In the reportlet, click the report suite name, then select a report suite from the [!UICONTROL Report Suite] menu. |
-| Aplicar un segmento a un tablero | In the Experience Cloud header, click [!UICONTROL Show Segments], then select a segment. |
+| Cambiar el grupo de informes de un informe breve | En el informe breve, haga clic en el nombre del grupo de informes y, a continuación, seleccione un grupo de informes en el menú [!UICONTROL Grupo de informes] |
+| Aplicar un segmento a un tablero | En el encabezado de Experience Cloud, haga clic en [!UICONTROL Mostrar segmentos] y luego seleccione un segmento. |
 | Aplicar un segmento a un informe breve | En el tablero, haga clic en Diseño para editar un tablero.   En el informe breve, haga clic en el nombre del grupo de informes, a continuación, seleccione un valor del campo Segmento y haga clic en Actualizar. |
-| Bloquear un grupo de informes (se evita cambiar el grupo de informes de un informe breve) | In the reportlet, click the report suite name, then enable [!UICONTROL Lock Report Suite]. Haga clic en Actualizar. |
-| Cambiar una fecha de informes |  Para un tablero, haga clic en el calendario. (Todos los informes breves del tablero reflejarán el cambio.)<br>Para un informe breve, haga clic en el vínculo de fecha y, a continuación, configure el calendario. |
-| Poner nombre a un tablero | Open a dashboard, then click  [!UICONTROL More] >  [!UICONTROL Rename]. |
-| Ver un archivo de tablero | Haga clic  [!UICONTROL More] >  [!UICONTROL View Archive]. |
-| Establecer un tablero como página de aterrizaje | In a dashboard, click  [!UICONTROL More] > [!UICONTROL Set As Landing Page]. |
-| Descargar un tablero | In a dashboard, click  [!UICONTROL More] >  Download. |
-| Imprimir un tablero | In a dashboard, click  [!UICONTROL More] >  Print. |
+| Bloquear un grupo de informes (se evita cambiar el grupo de informes de un informe breve) | En el informe breve, haga clic en el nombre del grupo de informes, a continuación, habilite [!UICONTROL Bloquear grupo de informes]. Haga clic en Actualizar. |
+| Cambiar una fecha de informes | Para un tablero, haga clic en el calendario. (Todos los informes breves del tablero reflejarán el cambio.)<br>Para un informe breve, haga clic en el vínculo de fecha y, a continuación, configure el calendario. |
+| Poner nombre a un tablero | Abra un tablero y haga clic en [!UICONTROL Más] > [!UICONTROL Cambiar nombre]. |
+| Ver un archivo de tablero | Haga clic en [!UICONTROL Más] > [!UICONTROL Ver archivo]. |
+| Establecer un tablero como página de aterrizaje | En el tablero, haga clic en [!UICONTROL Más] > [!UICONTROL Establecer como página de aterrizaje]. |
+| Descargar un tablero | En un tablero, haga clic en [!UICONTROL Más] > Descargar. |
+| Imprimir un tablero | En un tablero, haga clic en [!UICONTROL Más] > Imprimir. |
 | Guardar un tablero | En un tablero, haga clic en Guardar como y, a continuación, especifique un nombre. |
 
 ## Promoción conjunta de marca en un tablero {#task_603BDE7700B945699AF5514C2DEB81F7}
@@ -209,10 +209,10 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]**.
-1. En la [!UICONTROL Company Settings] página, haga clic en **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
-1. Haga clic en **[!UICONTROL Enable Co-Branding]**.
-1. Browse to upload the image, then click **[!UICONTROL Save.]**
+1. **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Configuración de la empresa]**.
+1. En la página [!UICONTROL Configuración de empresa], haga clic en **[!UICONTROL Promocionar conjuntamente Adobe Experience Cloud]**.
+1. Haga clic en **[!UICONTROL Habilitar promoción conjunta de marca]**.
+1. Examine para cargar la imagen y, a continuación, haga clic en **[!UICONTROL Guardar]**.
 
    Para obtener mejores resultados al ver la imagen en un explorador, cargue una imagen de 100 px por 30 px. Para obtener mejores resultados en el archivo PDF, cargue una imagen de 417 px por 125 px (300 ppp). Las imágenes de gran tamaño se reducen y se conserva la relación de aspecto.
 
@@ -228,5 +228,5 @@ segments_dashboards.xml
 
 Los segmentos se pueden aplicar en dos niveles: a un tablero entero o a un informe breve específico.
 
-* **Nivel** del informe breve: Haga clic en **[!UICONTROL Layout]**, luego en el grupo de informes del informe breve que desee segmentar. Se muestra una ventana modal que le permite añadir o modificar los segmentos que usa el informe breve.
+* **Informe breve**: haga clic en **[!UICONTROL Diseño]** y, a continuación, en el grupo de informes o en el informe breve que desea segmentar. Se muestra una ventana modal que le permite añadir o modificar los segmentos que usa el informe breve.
 * **Nivel de tablero:** haga clic en el icono del segmento en la parte izquierda del navegador, compruebe los segmentos que desea usar y, a continuación, haga clic en Aplicar. Los segmentos seleccionados anulan y sustituyen cualquier segmento de nivel de informe breve.
