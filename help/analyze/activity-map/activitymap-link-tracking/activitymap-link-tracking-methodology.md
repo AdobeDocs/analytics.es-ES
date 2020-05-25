@@ -3,7 +3,7 @@ description: Esta sección está dirigida a los administradores de Adobe Analyti
 title: Método de seguimiento de vínculos
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
