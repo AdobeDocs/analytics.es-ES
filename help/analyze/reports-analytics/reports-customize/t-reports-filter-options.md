@@ -3,7 +3,7 @@ description: Los filtros le permiten reducir el informe para incluir o excluir e
 title: Filtrado de datos de los informes
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Los filtros le permiten reducir el informe para incluir o excluir elementos de línea que concuerden con un filtro.
 
-## Filtro simple  {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## Filtro simple {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
@@ -49,7 +49,7 @@ Coincide si el término se encuentra en cualquier punto del elemento de línea. 
 
 **No contiene**
 
-Coincide si el término no se encuentra en cualquier punto del elemento de línea. Puede filtrar “sin especificar”, “ninguno”, “teclado no disponible” y otros [valores especiales](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html) desde los informes mediante “No contiene”.
+Coincide si el término no se encuentra en cualquier punto del elemento de línea. Puede filtrar “sin especificar”, “ninguno”, “teclado no disponible” y otros [valores especiales](https://docs.adobe.com/content/help/es-ES/analytics/technotes/unspecified.html) desde los informes mediante “No contiene”.
 
 No contiene: `none`
 
@@ -142,17 +142,17 @@ t_reports_filter_specific.xml
 
  -->
 
-Ciertos informes contienen un filtro que es específico para ese informe. Por ejemplo, un [!UICONTROL Purchase Conversion Funnel Report] informe le permite filtrar por páginas web. A [!UICONTROL Geosegmentation Report] lets you filter by geographical region. Otros informes tienen otros filtros específicos.
+Ciertos informes contienen un filtro que es específico para ese informe. Por ejemplo, un [!UICONTROL Informe de canal de conversión de compra] le permite filtrar por páginas Web. Un [!UICONTROL informe de segmentación geográfica] le permite filtrar por zonas geográficas. Otros informes tienen otros filtros específicos.
 
 Cuando accede a estos filtros, puede ver las métricas del informe para los artículos especificados en la lista.
 
 **Para crear filtros específicos del informe**
 
-1. Genere un informe, como un [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**).
-1. In the report header, click the **[!UICONTROL Filter]** link.
-1. En la [!UICONTROL Filter Selector] página, haga clic en **[!UICONTROL Apply a Filter]** y seleccione un tipo de filtro.
-1. To search for an item, type a character string in the **[!UICONTROL Search]** field.
-1. Haga clic en **[!UICONTROL OK]**.
+1. Genere un informe, por ejemplo un [!UICONTROL Informe de compra] (**[!UICONTROL Métricas del sitio]** > **[!UICONTROL Compras]** > **[!UICONTROL Canal de conversión de compra]**).
+1. En el encabezado del informe, haga clic en el vínculo **[!UICONTROL Filtro]**.
+1. En la página [!UICONTROL Selector de filtro], haga clic en **[!UICONTROL Aplicar un filtro]** y, a continuación, seleccione un tipo de filtro.
+1. Para buscar un artículo, escriba una cadena de caracteres en el campo **[!UICONTROL Buscar]**.
+1. Haga clic en **[!UICONTROL Aceptar]**.
 
 ## Añadir un filtro de correlación {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
@@ -164,13 +164,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-Ciertos informes permiten que se les añadan filtros de correlación personalizados. For example, if you are viewing the [!UICONTROL Pages Report] for a report suite that has Site Sections correlated with a Women&#39;s page, you can create a filter rule that generates a report showing the most popular pages when Site Sections = Women.
+Ciertos informes permiten que se les añadan filtros de correlación personalizados. Por ejemplo, si está viendo el [!UICONTROL informe Páginas] para un grupo de informes que tenga secciones del sitio correlacionadas con una página de Mujer, puede crear un filtro que genere un informe mostrando las páginas más populares dentro de Secciones del sitio = Mujer.
 
 Puede filtrar los datos que se muestran en un informe de correlación usando cualquier correlación disponible. Este ejemplo muestra cómo se agrega un filtro de correlación de motor de búsqueda.
 
 **Para agregar un filtro de correlación**
 
 1. Ejecute un informe que admita correlaciones. (Consulte [Ejecución de un informe de desglose](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
-1. En [!UICONTROL Filter Rule Creator], seleccione una categoría para correlacionarla con un elemento.
-1. Haga clic en **[!UICONTROL OK.]**
+1. En el encabezado del informe, haga clic en el vínculo **[!UICONTROL Filtro de correlación]**.
+1. En [!UICONTROL Creador de reglas de filtro], seleccione una categoría para correlacionar con un elemento.
+1. Haga clic en **[!UICONTROL Aceptar]**.
