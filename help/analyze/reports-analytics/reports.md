@@ -1,9 +1,9 @@
 ---
-description: 'Información sobre los tipos de informe básicos: Tráfico, Conversión y Rutas. '
+description: 'Información sobre los tipos de informe básicos: Tráfico, Conversión y Rutas.'
 title: Tipos de informes
 topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 # Tipos de informes
 
-Información sobre los tipos de informe básicos: Tráfico, Conversión y Rutas. 
+Información sobre los tipos de informe básicos: Tráfico, Conversión y Rutas.
 
 <table id="table_C167C2A2EA4742E9B14DA4F90C6FCEE2"> 
  <thead> 
@@ -27,7 +27,7 @@ Información sobre los tipos de informe básicos: Tráfico, Conversión y Rutas.
   </tr> 
   <tr> 
    <td colname="col1"> Conversión </td> 
-   <td colname="col2"> <p>Muestra información acerca de los indicadores de éxito definidos. Al adquirir las licencias, tiene la opción de definir las métricas que indican o proporcionan una perspectiva adicional sobre las ventas o los envíos de contenido que se han realizado con éxito. Aquí los informes muestran los números para dichas métricas. Entre los ejemplos se incluyen tipos de pagos, costos de envío y cupones utilizados en línea. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html"  >Informes de conversión</a>. </p> </td> 
+   <td colname="col2"> <p>Muestra información acerca de los indicadores de éxito definidos. Al adquirir las licencias, tiene la opción de definir las métricas que indican o proporcionan una perspectiva adicional sobre las ventas o los envíos de contenido que se han realizado con éxito. Aquí los informes muestran los números para dichas métricas. Entre los ejemplos se incluyen tipos de pagos, costos de envío y cupones utilizados en línea. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/variables/dimensions-reports/reports-conversion.html"  >Informes de conversión</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Los informes </td> 
@@ -38,4 +38,4 @@ Información sobre los tipos de informe básicos: Tráfico, Conversión y Rutas.
 
 Consulte [Características de los informes](/help/analyze/reports-analytics/overview/report-overview.md) para obtener información sobre las características de la interfaz.
 
-Consulte [Descripciones de informes](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) en *`Analytics Reference Help`* para obtener descripciones.
+Consulte [Descripciones de informes](https://docs.adobe.com/content/help/es-ES/analytics/components/variables/c-variables.html) en *`Analytics Reference Help`* para obtener descripciones.
