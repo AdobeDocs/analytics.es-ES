@@ -3,7 +3,7 @@ description: Los vínculos se pueden diferenciar personalizando bien el ID del v
 title: Diferenciación entre varios vínculos que hacen referencia al mismo ID y la misma región de vínculo
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -39,7 +39,7 @@ Como ejemplo, supongamos que tenemos varios vínculos “Buy” (comprar) identi
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>Panel de recomendaciones <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation panel <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +78,7 @@ Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p>Product 1 <p> </p> <p> </p> <p>Product 2 </p> <p> </p> <p> </p> <p>Product 3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> <p> </p> <p>Panel de recomendaciones </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> <p> </p> <p>recommendation panel </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,7 +113,7 @@ Puede personalizar la región asegurándose de que cada vínculo “buy” tenga
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
    <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p>Región a <p> </p> <p> </p> <p>Región b </p> <p> </p> <p> </p> <p>Región c </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -124,7 +124,7 @@ Puede personalizar la región asegurándose de que cada vínculo “buy” tenga
 >
 >No se olvide de probar el código modificado para asegurarse de que funciona correctamente. Adobe no se responsabiliza por el comportamiento del código modificado.
 
-A continuación, presentamos un par de ejemplos de funciones de vínculo y región** genéricas** que se pueden incluir (modificadas) en el archivo AppMeasurement.js.
+A continuación, presentamos un par de ejemplos de funciones de vínculo y región **genéricas** que se pueden incluir (modificadas) en el archivo AppMeasurement.js.
 
 ```
 s.ActivityMap.link = function(ele,linkName){ 
