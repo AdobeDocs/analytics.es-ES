@@ -3,7 +3,7 @@ description: Si el complemento del explorador adecuado está instalado, Activity
 title: Inicio de Activity Map
 topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
