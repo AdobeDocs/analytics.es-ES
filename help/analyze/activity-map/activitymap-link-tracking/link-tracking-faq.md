@@ -3,7 +3,7 @@ description: Preguntas frecuentes sobre el seguimiento de vínculos en Activity 
 title: Preguntas frecuentes sobre el seguimiento de vínculos
 topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -45,11 +45,11 @@ A continuación se indican algunos casos conocidos en los que pueden recopilarse
    <td colname="col1"> <b>P: ¿Cómo realiza Activity Map el seguimiento de otros elementos HTML visuales?</b> </td> 
    <td colname="col2"> 
     <ol id="ol_DA3AED165CFF44B08DFB386D4DEE26C5"> 
-     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>A través de la función <code> s.tl() </code></b> <p>Si el clic se produjo a través de una invocación de s.tl, Activity Map también recibirá este evento de clic y determinará si se encontró la variable de cadena linkName. Durante la ejecución de s.tl, el linkName se definirá como ID del vínculo de Activity Map. El elemento donde se hizo clic y que originó la llamada de s.tl() se utilizará para determinar la región. Ejemplo: </p> <p> 
+     <li id="li_E3E3F498F37B4FADAFDA39CCAE41511F"> <b>A través de la<code> s.tl() </code> función</b> <p>Si el clic se produjo a través de una invocación de s.tl, Activity Map también recibirá este evento de clic y determinará si se encontró la variable de cadena linkName. Durante la ejecución de s.tl, el linkName se definirá como ID del vínculo de Activity Map. El elemento donde se hizo clic y que originó la llamada de s.tl() se utilizará para determinar la región. Ejemplo: </p> <p> 
        <code>
          &lt;img&amp;nbsp;onclick="s.tl(true,'o','abc')"&amp;nbsp;src="someimageurl.png"/&gt; 
        </code> </p> </li> 
-     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>A través de la variable <code> s_objectID </code>.</b> <p>Ejemplo: </p> <p> 
+     <li id="li_A93725B810FE408BA5E6B267CF8CEAE5"> <b>A través de la<code> s_objectID </code> variable</b> <p>Ejemplo: </p> <p> 
        <code>
          &lt;img&nbsp;onclick="s_objectID='abc';"&nbsp;src="someimageurl.png"/&gt; &lt;a&nbsp;href="some-url.html"&nbsp;onclick="s_objectID='abc';"&nbsp;&gt;Link&nbsp;Text&nbsp;Here&lt;/a&gt;
        </code> </p> <p>Importante: Tenga en cuenta que es obligatorio el uso de un punto y coma de cierre (;) al usar s_objectID en Activity Map. </p> </li> 
@@ -86,7 +86,6 @@ A continuación se indican algunos casos conocidos en los que pueden recopilarse
    <td colname="col2"> 
     <ol id="ol_CDFDB572F76B4F68A64B66A6B0237547"> 
      <li id="li_99372060646B43EF94C13A9C682CE693">Razón: la etiqueta de anclaje no tiene una href válida 
-       
       <code>
         &lt;a&amp;nbsp;name="innerAnchor"&gt;Section&amp;nbsp;header&lt;/a&gt; 
       </code> </li> 
