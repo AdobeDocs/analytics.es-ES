@@ -4,7 +4,7 @@ subtopic: Get started
 title: Introducción a Reports and Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -56,14 +56,14 @@ Instrucciones sobre cómo iniciar sesión utilizando Experience Cloud.
 
 1. En un equipo con acceso a Internet, abra un explorador.
 1. Vaya a [!DNL https://login.experiencecloud.adobe.com/].
-1. En la [!UICONTROL Sign In] página, haga clic en **[!UICONTROL Single Sign-On]**.
-1. Complete the following information, then click **[!UICONTROL Sign In]**.
+1. En la página [!UICONTROL Inicio de sesión], haga clic en **[!UICONTROL Inicio de sesión único]**.
+1. Rellene la información siguiente y, a continuación, haga clic en **[!UICONTROL Inicio de sesión]**.
 
-   **[!UICONTROL Company]**:: Especifique el ID de compañía.
+   **[!UICONTROL Empresa]**: especifique el ID de la empresa.
 
-   **[!UICONTROL Username]**:: Especifique su ID de cuenta.
+   **[!UICONTROL Nombre de usuario]**: especifique su ID de cuenta.
 
-   **[!UICONTROL Password]**:: Especifique la contraseña de la cuenta.
+   **[!UICONTROL Contraseña]**: especifique la contraseña de su cuenta.
 1. En la página de inicio de Experience Cloud, vaya a **Analytics > Informes**.
 
    Experience Cloud cierra sesión automáticamente tras 30 minutos de inactividad.
@@ -72,11 +72,11 @@ Instrucciones sobre cómo iniciar sesión utilizando Experience Cloud.
 
 Instrucciones sobre cómo generar un informe.
 
-1. Log in to [!UICONTROL Reports & Analytics].
+1. Inicie sesión en [!UICONTROL Reports &amp; Analytics].
 
    Se muestra el menú Informes o un [panel](/help/analyze/reports-analytics/dashboard.md), en caso de que haya configurado uno.
 
-1. Haga clic en **[!UICONTROL Site Content]** > **[!UICONTROL Pages]** (por ejemplo).
+1. Haga clic en **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Páginas]** (por ejemplo).
 
    ![](assets/pages_report.png)
 
@@ -88,9 +88,9 @@ Información sobre la edición de cuentas de usuario, el restablecimiento de con
 
 Puede ver y editar información de contacto, especificar una contraseña, visualizar información de los servicios web y excluir este equipo de la recopilación de datos.
 
-Click the Account icon ![](assets/account.png)at the top right, then click the **[!UICONTROL Account Settings]** (wheel) icon next to your login name.
+Haga clic en el icono Cuenta ![](assets/account.png) en la parte superior derecha y luego haga clic en el icono **[!UICONTROL Configuración de la cuenta]** (rueda) junto al nombre de inicio de sesión.
 
-All users have access to the [!UICONTROL Account Information] page. La información siguiente está disponible para consultarse o editarse:
+Todos los usuarios tienen acceso a la página [!UICONTROL Información de la cuenta]. La información siguiente está disponible para consultarse o editarse:
 
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
@@ -130,7 +130,7 @@ All users have access to the [!UICONTROL Account Information] page. La informaci
 
 Instrucciones sobre cómo cambiar el idioma de la interfaz. Puede ver la interfaz de Reports and Analytics en el idioma que prefiera.
 
-1. Log in to Analytics and select the **[!UICONTROL Reports]** tab.
-1. In the page footer, click the active language in the **[!UICONTROL Language]** menu, then select your preferred language.
+1. Inicie sesión en Analytics y seleccione la pestaña **[!UICONTROL Informes]**.
+1. En el pie de página, haga clic en el idioma activo en el menú **[!UICONTROL Idioma]** y, a continuación, seleccione el idioma que prefiera.
 
-Puede acceder a la documentación y a la página principal desde Adobe Experience Cloud. ( **[!UICONTROL Help]** > **[!UICONTROL Help Home]**.)
+Puede acceder a la documentación y a la página principal desde Adobe Experience Cloud. (**[!UICONTROL Ayuda]** > **[!UICONTROL Página inicial de Ayuda]**.)
