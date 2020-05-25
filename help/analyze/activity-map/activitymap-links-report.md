@@ -3,7 +3,7 @@ description: El informe de vínculos recoge los vínculos encontrados en la pág
 title: Informe de vínculos
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
 
 ---
@@ -37,7 +37,7 @@ En el modo Estándar, el informe “Vínculos en la página” muestra datos sob
   </tr> 
   <tr> 
    <td colname="col1"> ID del vínculo </td> 
-   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">New Link Tracking Methodology</a>) </td> 
+   <td colname="col2">El ID principal del vínculo (para obtener más información sobre cómo se define el ID principal con la <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">Nueva metodología de seguimiento de vínculos</a>) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Clics </td> 
@@ -82,7 +82,7 @@ En el modo Activo, el informe Vínculos en la página muestra datos de tendencia
   </tr> 
   <tr> 
    <td colname="col1"> ID del vínculo </td> 
-   <td colname="col2">El ID principal del vínculo. For more information on how the primary ID is defined by the New <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> Link Tracking Methodology</a>. </td>
+   <td colname="col2">El ID principal del vínculo. Para obtener más información sobre cómo se define el ID principal en el nuevo <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">método de seguimiento de vínculos</a>. </td>
   </tr> 
   <tr> 
    <td colname="col1"> Clics en vínculos </td> 
