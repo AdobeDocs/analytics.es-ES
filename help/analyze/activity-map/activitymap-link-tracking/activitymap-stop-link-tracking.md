@@ -3,7 +3,7 @@ description: Pasos para detener el seguimiento de los vínculos en Activity Map 
 title: Detener el seguimiento de vínculos
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -24,7 +24,6 @@ Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap
   <tr> 
    <td colname="col1"> Activity Map </td> 
    <td colname="col2"> Elimine el siguiente contenido del archivo Appmeasurement.js: 
-     
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
@@ -41,7 +40,7 @@ Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (anteriormente ClickMap de visitantes) </td> 
-   <td colname="col2"> <p>Defina la variable <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> en false (este es el valor predeterminado). La sintaxis es la siguiente: 
+   <td colname="col2"> <p>Defina la variable <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/configuration-variables.translate.html"  >trackInlineStats</a> en false (este es el valor predeterminado). La sintaxis es la siguiente: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
