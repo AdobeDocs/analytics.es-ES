@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -40,7 +40,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `click_context_type` | Ya no se utiliza. Indica si click_context tenía un nombre de página o si estaba vinculado a la URL de la página de forma predeterminada.<br>0: Dirección URL de la página<br>1: Nombre de la página | tinyint sin firmar |
 | `click_sourceid` | Ya no se utiliza. ID numérica para la ubicación dentro de la página del enlace en el que se ha hecho clic. Forma parte de la herramienta heredada Clickmap. | int sin firmar |
 | `click_tag` | Ya no se utiliza. Tipo de elemento HTML en el que se ha hecho clic. | char(10) |
-| `clickmaplink` | Vínculo de mapa de Actividad | varchar(255) |
+| `clickmaplink` | Vínculo de Activity Map | varchar(255) |
 | `clickmaplinkbyregion` | Vínculo de Activity Map por región | varchar(255) |
 | `clickmappage` | Página de Activity Map | varchar(255) |
 | `clickmapregion` | Región de Activity Map | varchar(255) |
@@ -64,7 +64,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `ef_id` | El ef_id utilizado en las integraciones de Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variables personalizadas 1-250. Cada organización utiliza las eVars de forma diferente. El mejor lugar para obtener más información sobre cómo su organización completa las eVars respectivos sería un documento de diseño de soluciones que sea específico de su organización. | varchar(255) |
 | `event_list` | Una lista separada con comas de las ID numéricas que representa los eventos activados en la visita. Incluye los eventos predeterminados y los eventos personalizados 1-1000. Utiliza la búsqueda de event.tsv. | text |
-| `exclude_hit` | Un indicador que señala que la visita no está incluida en la creación de informes. La columna visit_num no aumenta para las visitas excluidas.<br>1: No se usa. Parte de una función limpiada.<br>2: No se usa. Parte de una función limpiada.<br>3: Ya no se utiliza. Exclusión de agente de usuario<br>4: Exclusión basada en la dirección IP<br>5: Falta la información de visitas vitales, como page_url, pagename, page_event o event_list<br>6: JavaScript no procesó correctamente la visita<br>7: Exclusión específica de la cuenta, como en una regla VISTA<br>8: No utilizada. Exclusión alternativa específica de la cuenta.<br>9: No se usa. Parte de una función limpiada.<br>10: Código de moneda no válido<br>11: La visita individual no incluye una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo<br>de informes que no es de marca de hora 12: No se usa. Parte de una función limpiada.<br>13: No se usa. Parte de una función limpiada.<br>14: La visita de Target que no coincide con una visita de Analytics<br>15: No se utiliza actualmente.<br>16: Visita de Advertising Cloud que no coincide con una visita de Analytics | tinyint sin firmar |
+| `exclude_hit` | Un indicador que señala que la visita no está incluida en la creación de informes. La columna visit_num no aumenta para las visitas excluidas.<br>1: No se usa. Parte de una función limpiada.<br>2: No se usa. Parte de una función limpiada.<br>3: Ya no se utiliza. Exclusión de agente de usuario<br>4: Exclusión basada en la dirección IP<br>5: Falta la información de visitas vitales, como page_url, pagename, page_event o event_list<br>6: JavaScript no procesó correctamente la visita<br>7: Exclusión específica de la cuenta, como en una regla VISTA<br>8: No utilizada. Exclusión alternativa específica de la cuenta.<br>9: No se usa. Parte de una función limpiada.<br>10: Código de moneda no válido<br>11: La visita individual no incluye una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo de informes que no es de marca de hora<br>12: No se usa. Parte de una función limpiada.<br>13: No se usa. Parte de una función limpiada.<br>14: La visita de Target que no coincide con una visita de Analytics<br>15: No se utiliza actualmente.<br>16: Visita de Advertising Cloud que no coincide con una visita de Analytics | tinyint sin firmar |
 | `first_hit_page_url` | La primera URL del visitante. | varchar(255) |
 | `first_hit_pagename` | Variable utilizada en la dimensión Página de entrada original. El nombre de la página de entrada original del visitante. | varchar(100) |
 | `first_hit_ref_domain` | Variable utilizada en la dimensión Dominio de referencia original. Se basa en first_hit_referrer. El primer dominio de referencia del visitante. | varchar(100) |
@@ -86,7 +86,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `ip` | Dirección IP basada en la cabecera HTTP de la solicitud de imagen. | char(20) |
 | `ip2` | No se usa. Variable de referencia de backend para los grupos de informes que contienen reglas de VISTA basadas en una dirección IP. | char(20) |
 | `j_jscript` | Versión de JavaScript admitida por el explorador. | char(5) |
-| `java_enabled` | Indicador que señala si Java está habilitado. <br>S: Habilitado <br>N: No habilitado<br>D: Desconocido | char(1) |
+| `java_enabled` | Indicador que señala si Java está habilitado. <br>S: Habilitado <br>N: No habilitado <br>D: Desconocido | char(1) |
 | `javascript` | ID de búsqueda de la versión de JavaScript basado en j_jscript. Utiliza la tabla de búsqueda. | tinyint sin firmar |
 | `language` | ID numérica de idioma. Utiliza la tabla de búsqueda de languages.tsv. | smallint sin firmar |
 | `last_hit_time_gmt` | Marca de tiempo (en Tiempo Unix) de la visita anterior. Se utiliza para calcular la dimensión Días desde la última visita. | int |
@@ -167,7 +167,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `quarterly_visitor` | Un indicador que determina si la visita es un visitante nuevo trimestral. | tinyint sin firmar |
 | `ref_domain` | Se basa en la columna de referentes. El dominio de referencia de la visita. | varchar(100) |
 | `ref_type` | Una ID numérica que representa el tipo de referente de la visita.<br>1: Dentro del sitio<br>2: Otros sitios web <br>3: Motores de búsqueda <br>4: Disco duro <br>5: USENET <br>6: Escritos o marcadores (sin referente) <br>7: Correo electrónico <br>8: Sin JavaScript <br>9: Redes sociales | tinyint sin firmar |
-| `referrer` | URL de la página anterior. Tenga en cuenta que mientras `referrer` utiliza un tipo de datos de varchar(255), `post_referrer` utiliza un tipo de datos de varchar(244). | varchar(255) |
+| `referrer` | URL de la página anterior. Tenga en cuenta que mientras `referrer` utiliza un tipo de datos de varchar(255), `post_referrer` emplea un tipo de datos de varchar(244). | varchar(255) |
 | `resolution` | ID numérico que representa la resolución del monitor. Completa la dimensión Resolución del monitor. Utiliza la tabla de búsqueda de resolution.tsv. | smallint sin firmar |
 | `s_kwcid` | ID de palabra clave utilizado en las integraciones de Adobe Advertising Cloud. | varchar(255) |
 | `s_resolution` | Valor no procesado de resolución de pantalla. Se recopila mediante la función de JavaScript screen.width x screen-height. | char(20) |
@@ -269,7 +269,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `visit_referrer` | El primer referente de la visita. | varchar(255) |
 | `visit_search_engine` | ID numérica del primer motor de búsqueda de la visita. Utiliza la tabla de búsqueda de search_engines.tsv. | smallint sin firmar |
 | `visit_start_page_url` | La primera URL de la visita. | varchar(255) |
-| `visit_start_pagename` | Nombre de la primera página de la visita. | varchar(100) |
+| `visit_start_pagename` | El primer nombre de página de la visita. | varchar(100) |
 | `visit_start_time_gmt` | Marca de tiempo (en Tiempo Unix) de la primera visita. | int |
 | `weekly_visitor` | Indicador que determina si la visita es un visitante nuevo semanal. | tinyint sin firmar |
 | `yearly_visitor` | Indicador que determina si la visita es un visitante nuevo anual. | tinyint sin firmar |
