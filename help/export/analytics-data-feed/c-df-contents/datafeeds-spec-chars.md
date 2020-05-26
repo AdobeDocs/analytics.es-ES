@@ -5,7 +5,7 @@ subtopic: data feeds
 title: Caracteres especiales en las fuentes de datos
 topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -42,7 +42,7 @@ Los siguientes caracteres tienen un significado especial en las columnas que pue
 | `,` | Coma. Representa el final de un valor individual. Separa las cadenas de producto, los ID de evento u otros valores. |
 | `;` | Punto y coma. Representa el final de un valor individual en `product_list`. Separa los campos de una sola cadena de producto. |
 | `=` | Signo igual. Asigna un valor a un evento de `product_list`. |
-| `^` | Acento circunflejo. Elude los caracteres cuando se envían como parte de la recopilación de datos. |
+| `^` | Acento circunflejo. Omite los caracteres cuando se envían como parte de la recopilación de datos. |
 
 Cuando estos valores reservados van precedidos de un acento circunflejo, se envían como parte de la recopilación de datos.
 
