@@ -4,7 +4,7 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: Calcular métricas
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -29,7 +29,7 @@ Se describe cómo calcular métricas habituales mediante fuentes de datos.
 
 ## Visitantes
 
-Todos los métodos que utiliza Adobe para identificar visitantes únicos (ID de visitante personalizado, servicio de ID de Experience Cloud, etc.) se calculan finalmente como un valor en `post_visid_high` y `post_visid_low`. La concatenación de estas dos columnas puede utilizarse como estándar para identificar visitantes únicos independientemente de cómo se identificaron esos visitantes. Si desea saber qué método utilizó Adobe para identificar a un visitante único, utilice la columna `post_visid_type`.
+Todos los métodos que utiliza Adobe para identificar visitantes únicos (ID de visitante personalizado, servicio de Experience Cloud ID, etc.) se calculan finalmente como un valor en `post_visid_high` y `post_visid_low`. La concatenación de estas dos columnas puede utilizarse como estándar para identificar visitantes únicos independientemente de cómo se identificaron esos visitantes. Si desea saber qué método utilizó Adobe para identificar a un visitante único, utilice la columna `post_visid_type`.
 
 1. Concatenar `post_visid_high` y `post_visid_low`.
 2. Contar el número único de valores.
