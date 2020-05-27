@@ -4,7 +4,10 @@ title: Segmentación geográfica
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 Muestra información sobre la ubicación del visitante. Los informes de segmentación geográfica incluyen Países, Regiones, Ciudades, Estados de EE. UU. y la DMA de EE. UU. (área de marketing digital). Los informes de segmentación geográfica están habilitados para todos los clientes.
 
-Todas las métricas disponibles en otros lugares distintos a Reports &amp; Analytics se incluyen automáticamente en los informes Países, Regiones, Ciudades, Estados de EE. UU. y DMA: métricas de conversión y las basadas en visitas, así como las métricas calculadas. Para obtener más información, consulte esta publicación de [blog](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/) de Adobe.
+Todas las métricas disponibles en otros lugares distintos a Reports &amp; Analytics se incluyen automáticamente en los informes Países, Regiones, Ciudades, Estados de EE. UU. y DMA: métricas de conversión y las basadas en visitas, así como las métricas calculadas. Para obtener más información, consulte esta publicación de [blog](https://theblog.adobe.com/introducing-new-metrics-in-geosegmentation-and-more/) de Adobe.
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 
