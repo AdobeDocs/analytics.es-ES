@@ -4,7 +4,10 @@ title: Descripción general de canal de marketing
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 96%
 
 ---
 
@@ -15,13 +18,13 @@ El informe de descripción general de canal de marketing está diseñado para of
 
 ## Propiedades generales {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* Este informe depende únicamente de las [reglas de procesamiento](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) del canal de marketing. Si se modifican estas reglas, el modo en que se calculan los datos de este informe también cambiará.
+* Este informe depende únicamente de las [reglas de procesamiento](/help/components/c-marketing-channels/c-rules.md) del canal de marketing. Si se modifican estas reglas, el modo en que se calculan los datos de este informe también cambiará.
 * El orden de las reglas de procesamiento es crucial para el modo de funcionamiento de los canales de marketing. Cada visita comprueba primero los criterios ubicados en la parte superior de las reglas de procesamiento y luego continúa filtrando hacia abajo.
 * Este informe está compuesto de dos desgloses: los canales en sí y sus detalles de canal. Si hace clic en el botón &#39;+&#39; situado junto a cada canal verá los detalles del canal correspondiente.
 * A cada columna solo se le pueden agregar cuatro métricas. No obstante, se puede utilizar el número de columnas que desee.
 * Al final de la última columna se puede ver una pequeña línea de tendencia. Esta línea de tendencia puede alternar entre métricas activas.
 * Además de los distintos canales recopilados por los métodos estándar, puede utilizar fuentes de datos fuera de línea.
-* Se puede utilizar la [clasificación](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html), lo que permite cambiar el nombre de los elementos de línea y consolidarlos.
+* Se puede utilizar la [clasificación](/help/components/c-classifications2/c-classifications.md), lo que permite cambiar el nombre de los elementos de línea y consolidarlos.
 * En este informe se pueden utilizar las métricas siguientes (en función de la organización y la configuración del grupo de informes):
 
    * **Pulsaciones**: cantidad de veces que se define la variable  *`s.campaign`* se define.
@@ -35,12 +38,12 @@ El informe de descripción general de canal de marketing está diseñado para of
 
 **Versiones 14 y 15**
 
-Para acceder a este informe, vaya a **[!UICONTROL Marketing Channels]** > **[!UICONTROL Channel Overview Report]** (siempre que el menú no esté personalizado).
+Para acceder a este informe, vaya a **[!UICONTROL Canales de marketing]** > **[!UICONTROL Informe de descripción general de canal]** (siempre que el menú no esté personalizado).
 
-La segmentación no está disponible en este informe. En su lugar, utilice los informes [!UICONTROL First- or Last-Touch Channel] o [!UICONTROL First- or Last-Touch Details] .
+La segmentación no está disponible en este informe. En su lugar, utilice el [!UICONTROL Canal de primer toque o último toque] o [!UICONTROL Detalles de primer toque o último toque].
 
 **Ad Hoc Analysis**
 
-Though the [!UICONTROL Marketing Channel Overview Report] is not available, Marketing Channel reports can be accessed with metrics using different allocation. Esto le permite recrear de manera eficiente un informe muy similar.
+Aunque el [!UICONTROL informe de descripción general de canal de marketing] no está disponible, se puede acceder a los informes del canal de marketing mediante métricas utilizando una asignación diferente. Esto le permite recrear de manera eficiente un informe muy similar.
 
 Este informe puede utilizar varios segmentos avanzados.
