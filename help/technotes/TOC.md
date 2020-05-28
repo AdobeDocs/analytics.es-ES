@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Notas técnicas de Analytics
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ---
@@ -28,9 +28,9 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
    + [Procesamiento de diferencias entre plataformas](ga-to-aa/processing-differences.md)
 + Analizar datos afectados por eventos {#event}
    + [Información general sobre el análisis de datos afectados por eventos](event/overview.md)
-   + [Excluir fechas específicas en la análisis](event/segments.md)
+   + [Excluir fechas específicas en el análisis](event/segments.md)
    + [Comparar fechas con intervalos anteriores](event/compare-dates.md)
-   + [Obtener datos afectados por eventos](event/calcmetrics.md)
+   + [Derivar datos afectados por eventos](event/calcmetrics.md)
    + [Comunicar eventos a los usuarios](event/communicate.md)
 + [Cookies del explorador](cookies.md)
 + [Retención de datos](data-retention.md)
