@@ -1,18 +1,20 @@
 ---
 description: 'null'
 title: Resumen de paneles
-uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 87%
 
 ---
 
 
 # Resumen de paneles
 
-Un panel es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono que hay en la parte superior izquierda de Workspace. Los paneles son útiles si desea organizar sus proyectos por periodos de tiempo, unidades de negocio, geografía, etcétera. En Analysis Workspace dispone de estos cuatro tipos de panel: panel en blanco, panel atribución, panel improvisado y panel de comparación de segmentos.
+Un panel es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono que hay en la parte superior izquierda de Workspace. Los paneles son útiles si desea organizar sus proyectos por periodos de tiempo, unidades de negocio, geografía, etcétera. Estos seis tipos de paneles están disponibles en Espacio de trabajo de Análisis: [Panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md)en blanco, panel [Perspectivas](/help/analyze/analysis-workspace/c-panels/quickinsight.md) rápidas (próximamente), panel [](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) Análisis para Destinatario (próximamente), panel [](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)Atribución, panel [improvisado](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)y panel Comparación de [](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)segmentos.
 
-Los paneles en blanco e improvisado son puntos de inicio del análisis, mientras que los de Attribution IQ y comparación de segmentos se prestan a análisis más avanzados. También hemos agregado un botón de panel “+” para que pueda añadir paneles en blanco en cualquier momento.
+Los paneles Perspectivas rápidas, Vacío y Forma libre son lugares buenos para realizar inicios en la análisis, mientras que Analytics para Destinatario, IQ de atribución y Comparación de segmentos se prestan a análisis más avanzados. También hemos agregado un botón de panel “+” para que pueda añadir paneles en blanco en cualquier momento.
 
 El panel inicial predeterminado es el improvisado, pero también puede convertir el [panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
 
@@ -43,7 +45,7 @@ Recuerde:
 
    ![](assets/dropdown.png)
 
-1. Seleccione una de las opciones desplegables para cambiar los datos en el panel de abajo. (You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.)
+1. Seleccione una de las opciones desplegables para cambiar los datos en el panel de abajo. (También puede optar por no filtrar ninguno de los datos del panel seleccionando **[!UICONTROL Sin filtro]**).
 1. Por ejemplo, si también quisiera dividir los datos por canal de marketing, podría agregar otra lista desplegable llamada “Canal de marketing”:
 
    ![](assets/mc_dropdown.png)
