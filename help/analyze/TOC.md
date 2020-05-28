@@ -4,7 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -73,19 +76,20 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [Diagrama de dispersión](analysis-workspace/visualizations/scatterplot.md)
       + [Número de resumen y cambio de resumen](analysis-workspace/visualizations/summary-number-change.md)
       + [Texto](analysis-workspace/visualizations/text.md)
-      + [Gráfico de rectángulos](analysis-workspace/visualizations/treemap.md)
+      + [Mapa de árbol](analysis-workspace/visualizations/treemap.md)
    + Paneles {#panels}
       + [Resumen de paneles](analysis-workspace/c-panels/panels.md)
-      + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
-      + [Creador de perspectivas rápidas](analysis-workspace/c-panels/quickinsight.md)
-      + Atribución {#attribution}
+      + [Panel de Analytics para Destinatario (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + Panel de Attribution {#attribution}
          + [Información general de Attribution](analysis-workspace/c-panels/attribution/attribution.md)
          + [Uso del panel de Attribution](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [Preguntas más frecuentes sobre Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
          + [Atribución algorítmica](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
-      + Comparación de segmentos {#segment-comparison}
-         + [Información general sobre la comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+      + [Panel de perspectivas rápidas](analysis-workspace/c-panels/quickinsight.md)
+      + Segment comparison panel {#segment-comparison}
+         + [Información general del de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Pruebas estadísticas utilizadas en la comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Curar y compartir proyectos {#curate-share}
@@ -98,7 +102,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [Attribution IQ](analysis-workspace/attribution-iq.md)
    + [IQ de segmento](analysis-workspace/segment-iq.md)
    + Analista virtual {#virtual-analyst}
-      + [Visión general de los analistas virtuales](analysis-workspace/virtual-analyst/overview.md)
+      + [Descripción general del analista virtual](analysis-workspace/virtual-analyst/overview.md)
       + Detección de anomalías {#anomaly-detection}
          + [Resumen de la Detección de anomalías](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [Visualización de anomalías en Analysis Workspace](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -108,12 +112,12 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
          + [Resumen de los análisis de contribución](analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
          + [Ejecutar análisis de contribución](analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md)
          + [Técnicas estadísticas utilizadas en los análisis de contribución](analysis-workspace/virtual-analyst/contribution-analysis/statistics-contribution-analysis.md)
-      + Alertas inteligentes{#intelligent-alerts}
+      + Alertas inteligentes {#intelligent-alerts}
          + [Resumen de las alertas inteligentes](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [Generador de alertas](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [Administrador de alertas](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [Alertas inteligentes: Casos de uso](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + Preguntas más frecuentes sobre Workspace {#workspace-faq}
+   + Preguntas frecuentes sobre Workspace {#workspace-faq}
       + [Preguntas frecuentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimizar rendimiento de Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Analysis Workspace comparado con los Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
@@ -329,8 +333,8 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [Resumen de Labs](tech-previews/overview.md)
 + paneles de Adobe Analytics {#mobapp}
    + [paneles de Adobe Analytics: Información general](mobile-app/home.md)
-   + [Guía del curador](mobile-app/curator.md)
-   + [Guía de inicio rápido para el usuario ejecutivo](mobile-app/executive.md)
+   + [Guía del administrador](mobile-app/curator.md)
+   + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
 + Aplicaciones web progresivas {#pwa}
    + [Aplicaciones web progresivas](pwa/pwa.md)
 + API de informes de Analytics {#analytics-reporting-api}
