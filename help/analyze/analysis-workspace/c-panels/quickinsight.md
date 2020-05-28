@@ -1,16 +1,16 @@
 ---
-description: Quick Insights Builder es una herramienta para nuevos usuarios de Workspace que les guía en la creación de tablas de datos y visualizaciones
-title: Creador de perspectivas rápidas
+description: Quick Insights es una herramienta para nuevos usuarios de Workspace que les guía en la creación de tablas de datos y visualizaciones
+title: Panel de perspectivas rápidas
 translation-type: tm+mt
-source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
 
 
-# Creador de perspectivas rápidas
+# Panel de perspectivas rápidas
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ En el Generador [!UICONTROL de perspectivas]rápidas aparecerán otras sugerenci
 
 ## Limitaciones conocidas
 
-Si intenta editar directamente dentro de la tabla, el panel [!UICONTROL Perspectivas] rápidas (la herramienta de relleno de espacios en blanco) no estará sincronizado. Puede restaurarla a la configuración anterior de [!UICONTROL Quick Insights] haciendo clic en **[!UICONTROL Resincronizar generador]** en la parte superior derecha del panel.
+Si intenta editar directamente dentro de la tabla, el panel [!UICONTROL Perspectivas] rápidas no estará sincronizado. Puede restaurarla a la configuración anterior de [!UICONTROL Quick Insights] haciendo clic en **[!UICONTROL Resincronizar generador]** en la parte superior derecha del panel.
 
 ![](assets/qibuilder9.png)
 
