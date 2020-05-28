@@ -2,7 +2,7 @@
 description: 'null'
 title: Resumen de publicación en Power BI
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -36,26 +36,26 @@ Los libros programados son hojas de cálculo de Excel con formato, rellenas con 
 **Publicar libro en Report Builder**
 
 1. En Report Builder, genere y guarde un libro.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Programar]** > **[!UICONTROL Nuevo]**.
 
-1. En el Asistente de programación básico, marque la casilla junto a **[!UICONTROL Publish Workbook to Microsoft Power BI]**.
+1. En el Asistente de programación básico, marque la casilla junto a **[!UICONTROL Publicar libro en Microsoft Power BI]**.
 
    ![](assets/simple-schedule-wizard.png)
 
 1. Especifique su correo electrónico y envíe inmediatamente, o especifique la frecuencia de la programación (cada día, cada hora, etc.).
-1. Haga clic en **[!UICONTROL OK]** para publicar.
-1. A continuación, se le pedirá que inicie sesión en su cuenta Microsoft. Proporcione la credenciales.
+1. Haga clic en **[!UICONTROL Aceptar]** para publicar.
+1. A continuación, se le pedirá que inicie sesión en su cuenta Microsoft. Proporcione las credenciales.
 1. El libro de Report Builder queda programado y se publica en Power BI.
 
    Con cada instancia programada, y después de que el proceso de programación de Report Builder actualice el libro con datos actualizados de Analytics, el libro se vuelve a publicar en Microsoft Power BI.
 
 **Ver datos de un libro de Report Builder en Power BI**
 
-1. In Power BI, double click the workbook under the [!UICONTROL Workbooks] menu.
+1. En Power BI, haga doble clic en el libro dentro del menú [!UICONTROL Libros].
 
    ![](assets/workbooks-power-bi.png)
 
-1. Ahora puede ver los datos del tablero del libro.  ![](assets/view-data-pbi.png)
+1. Ahora puede ver los datos del tablero del libro. ![](assets/view-data-pbi.png)
 
 1. También puede anclar un área de este libro para incluirla en cualquiera de sus tableros de Power BI.
 
@@ -70,12 +70,12 @@ En vez de importar todo el libro, puede importar solo el contenido de todas las 
 **Publicar una tabla con formato en Report Builder**
 
 1. En Report Builder, genere una tabla de datos que incluya una fila de encabezado, seguida por una fila de datos.
-1. Seleccione la tabla y seleccione **[!UICONTROL Format as Table]** en el [!UICONTROL Home] menú. The table gets named by default (Table 1, Table 2, etc.), but you can change the name on the [!UICONTROL Design]menu.
+1. Seleccione la tabla y, a continuación, elija **[!UICONTROL Dar formato como tabla]** en el menú [!UICONTROL Inicio]. La tabla recibe un nombre predeterminado (Table 1, Table 2, etc.), pero puede cambiarlo desde el menú [!UICONTROL Diseño].
 
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Programar]** > **[!UICONTROL Nuevo]**.
 
-1. En el Asistente de programación básico, haga clic en **[!UICONTROL Advanced Scheduling Options]**.
-1. En la [!UICONTROL Scheduling Wizard - Advanced], en la **[!UICONTROL Publishing Options]** ficha, marque la casilla situada junto a **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
+1. En el Asistente de programación básico, haga clic en **[!UICONTROL Opciones de programación avanzadas]**.
+1. En [!UICONTROL Asistente de programación avanzado], en la pestaña **[!UICONTROL Opciones de publicación]**, marque la casilla junto a **[!UICONTROL Publicar todas las tablas con formato como tablas de conjuntos de datos de Power BI]**.
 
    ![](assets/advanced-schedule-wizard2.png)
 
@@ -83,11 +83,11 @@ En vez de importar todo el libro, puede importar solo el contenido de todas las 
 
 **Ver los datos de tabla en Power BI**
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. En Power BI, vaya al menú **[!UICONTROL Espacios de trabajo]** > **[!UICONTROL Conjuntos de datos]**.
 
    ![](assets/datasets-menu.png)
 
-1. Select the dataset that you published and click the [!UICONTROL Create report] icon next to it. Fíjese en que las tablas aparecen como campos.
+1. Seleccione el conjunto de datos que ha publicado y haga clic en el icono [!UICONTROL Crear informe] que hay junto a él. Fíjese en que las tablas aparecen como campos.
 
    ![](assets/formatted-tables.png)
 
@@ -95,7 +95,7 @@ En vez de importar todo el libro, puede importar solo el contenido de todas las 
 
    ![](assets/view-table-dataset.png)
 
-1. From the [!UICONTROL Visualizations] menu, you can select how to visualize a table in Power BI. Por ejemplo, podría presentar los datos como un gráfico de líneas:
+1. En el menú [!UICONTROL Visualizaciones] puede seleccionar cómo se muestra una tabla en Power BI. Por ejemplo, podría presentar los datos como un gráfico de líneas:
 
    ![](assets/bi-line-graph.png)
 
@@ -110,22 +110,22 @@ Puede convertir todas las solicitudes en tablas de conjuntos de datos y crear vi
 >Si el libro contiene más de 100 solicitudes, solo las 100 primeras se publicarán en Power BI. Además, solo se publicarán las 10 000 primeras filas de datos de cada solicitud publicada en Power BI. Por tanto, aunque estas solicitudes se enviarán correctamente siguiendo la programación, el ámbito de publicación en Power BI es limitado.
 
 1. En Report Builder, abra o cree un libro que contenga solicitudes de Report Builder.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Programar]** > **[!UICONTROL Nuevo]**.
 
-1. En el Asistente de programación básico, haga clic en **[!UICONTROL Advanced Scheduling Options]**.
-1. En la [!UICONTROL Scheduling Wizard - Advanced], en la **[!UICONTROL Publishing Options]** ficha, marque la casilla situada junto a **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]**![](assets/advanced-schedule-wizard2.png)
+1. En el Asistente de programación básico, haga clic en **[!UICONTROL Opciones de programación avanzadas]**.
+1. En el [!UICONTROL Asistente de programación avanzado], en la ficha **[!UICONTROL Opciones de publicación]**, marque la casilla junto a **[!UICONTROL Publicar todas las solicitudes de Report Builder como tablas de conjunto de datos de Power BI]** ![](assets/advanced-schedule-wizard2.png)
 
-1. Haga clic en **[!UICONTROL OK]**.
+1. Haga clic en **[!UICONTROL Aceptar]**.
 
 **Ver los datos de solicitud en Power BI**
 
-Cada solicitud programada de Report Builder se publica como una tabla en el conjunto de datos. Each request table is named after the primary dimension in the request and it has a [!UICONTROL Report Suite] and a [!UICONTROL Segments] column.
+Cada solicitud programada de Report Builder se publica como una tabla en el conjunto de datos. Cada tabla de solicitud recibe el nombre de la dimensión principal de la solicitud e incluye una columna [!UICONTROL Grupo de informes] y otra [!UICONTROL Segmentos].
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. En Power BI, vaya al menú **[!UICONTROL Espacios de trabajo]** > **[!UICONTROL Conjuntos de datos]**.
 
-1. Select the request that you published and click the [!UICONTROL Create report] icon next to it.
+1. Seleccione la solicitud que ha publicado y haga clic en el icono [!UICONTROL Crear informe] que hay junto a ella.
 
-   Notice that the requests appear as tables in the [!UICONTROL Fields] menu.
+   Fíjese en que las solicitudes aparecen como tablas en el menú [!UICONTROL Campos].
 
    ![](assets/published-requests.png)
 
@@ -133,7 +133,7 @@ Cada solicitud programada de Report Builder se publica como una tabla en el conj
    >
    >Independientemente de cómo haya configurado el diseño en el libro de la solicitud de Report Builder (diseño dinámico, personalizado, algunas columnas invisibles), Report Builder siempre la publicará con el mismo formato bidimensional con una fila de encabezado: Fecha, Dimensiones, Métricas, Grupos de informes, Segmentos.
 
-1. Also notice that there is an additional table called **[!UICONTROL Legend]**. Si saca una solicitud del contexto de Report Builder, puede ser difícil recordar qué significa. El propósito de la tabla Leyenda es, por ejemplo, mostrarle el nombre de cada solicitud bajo el ID de tabla. También puede añadir otras columnas Leyenda para obtener una visualización completa de la solicitud.
+1. Fíjese también en que hay una tabla adicional llamada **[!UICONTROL Leyenda]**. Si saca una solicitud del contexto de Report Builder, puede ser difícil recordar qué significa. El propósito de la tabla Leyenda es, por ejemplo, mostrarle el nombre de cada solicitud bajo el ID de tabla. También puede añadir otras columnas Leyenda para obtener una visualización completa de la solicitud.
 
    ![](assets/legend-table.png)
 
