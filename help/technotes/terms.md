@@ -1,7 +1,7 @@
 ---
 title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2137572c9c5d08e4a293ea4d285b78a12b37925
 
 ---
@@ -27,7 +27,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
    * Una clasificación predeterminada de la dimensión Código de seguimiento, creada automáticamente para todos los grupos de informes.
    * Adobe Campaign, parte de Adobe Experience Cloud. Puede obtener más información en [Adobe.com](https://www.adobe.com/es/marketing/campaign.html).
 * **Canal:** puede hacer referencia a:
-   * La variable Canal, que rellena la dimensión Secciones del sitio. See [Page variables](/help/implement/vars/page-vars/page-variables.md) in the Implement user guide.
+   * La variable Canal, que rellena la dimensión Secciones del sitio. Consulte [Variables de página](/help/implement/vars/page-vars/page-variables.md) en la guía del usuario sobre implementación.
    * Canales de marketing, un componente que le ayuda a comprender cómo llegan los usuarios al sitio. Consulte [Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) en la guía de usuario sobre componentes.
 * **Clasificación:** función de Adobe Analytics que permite agrupar valores de dimensión. Consulte [Clasificaciones](/help/components/c-classifications2/c-classifications.md) en la guía de usuario sobre componentes.
 * **ClickMap:** ya no se utiliza. Se trata de un complemento heredado para explorador que muestra en qué áreas del sitio se hizo clic con mayor frecuencia. Esta herramienta se sustituyó por Activity Map.
