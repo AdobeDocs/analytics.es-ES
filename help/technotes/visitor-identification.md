@@ -5,7 +5,7 @@ subtopic: Visitors
 title: Identificar visitantes únicos
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -37,16 +37,16 @@ Puede implementar un método personalizado para identificar a los visitantes med
 
 La ID de visitante personalizada se puede usar en los sitios en los que tenga un solo método para identificar a los visitantes. Puede servir de ejemplo una ID que se genera cuando un usuario inicia sesión en un sitio web con un nombre de usuario y una contraseña.
 
-Should you have the ability to derive and manage the [!UICONTROL visitor IDs] of your users, you can use the following methods to set the ID:
+Si puede derivar y administrar las [!UICONTROL ID de visitantes] de sus usuarios, puede usar los métodos siguientes para configurar la ID:
 
 | Método | Descripción |
 |---|---|
 | [s.visitorID](../implement/vars/config-vars/visitorid.md) | Si se usa JavaScript en el explorador, o si está usando cualquier otra biblioteca de AppMeasurement, puede configurar la ID del visitante en una variable de recopilación de datos. |
-| Parámetro de cadena de consulta en la solicitud de imagen | Esto le permite pasar [!UICONTROL visitor ID] a Adobe a través del [!UICONTROL vid query string] parámetro en una solicitud de imagen codificada. |
+| Parámetro de cadena de consulta en la solicitud de imagen | Con este método puede pasar la [!UICONTROL ID de visitante] a Adobe mediante el parámetro de [!UICONTROL cadena de consulta vid] en una solicitud de imagen codificada. |
 | API de inserción de datos | En dispositivos que usan protocolos inalámbricos que no aceptan JavaScript, puede enviar una publicación XML que contenga el elemento XML `<visitorid/>` a servidores de recopilación de Adobe desde sus servidores. |
 | Reescritura de direcciones URL y VISTA | Algunas arquitecturas de implementación permiten la reescritura de direcciones URL para mantener el estado de la sesión cuando no se puede configurar una cookie. En estos casos, los servicios de ingeniería de Adobe pueden implementar una regla [!DNL VISTA] para buscar el valor de sesión en la dirección URL de la página y, después, darle formato y colocarla en los valores [!UICONTROL visid]. |
 >[!CAUTION]
->**Los ID de visitante personalizados deben ser suficientemente granulares y únicos **: Una implementación no válida de los ID de visitante personalizados puede provocar que los datos sean incorrectos y que el rendimiento de los informes sea deficiente. Si el ID de visitante personalizado no es lo suficientemente único o granular, o si se establece incorrectamente en un valor predeterminado común como la cadena “NULL” o “0”, Adobe Analytics verá las visitas de muchos visitantes diferentes como un solo visitante. Esta situación da como resultado datos incorrectos, con recuentos de visitantes demasiado bajos y segmentos que no funcionan correctamente para ese visitante. Un ID de visitante personalizado insuficientemente granular también evita que los datos se propaguen correctamente entre los nodos del clúster de informes de Analytics. En este caso, un nodo se sobrecarga y no puede procesar las solicitudes de informes de manera oportuna. Finalmente, todos los informes del grupo de informes fallarán.<br>Es posible que los ID de visitante personalizados mal implementados no afecten inmediatamente al rendimiento de los informes, ya que Analytics puede con frecuencia gestionar datos desequilibrados durante varios meses. Sin embargo, con el tiempo un valor de ID de visitante personalizado mal implementado puede resultar problemático, ya que requiere que Analytics deshabilite el procesamiento de los grupos de informes afectados.</br><br>Los implementadores deben seguir la guía de que un solo valor de ID de visitante personalizado nunca debe recibir crédito por más del 1% del tráfico del grupo de informes. Aunque la guía del 1% es suficiente para la mayoría de los grupos de informes, el límite real que podría afectar al rendimiento de los informes podría ser inferior al 1% para los grupos de informes más grandes.</br>
+>**Los ID de visitante personalizados deben ser suficientemente granulares y únicos:** Una implementación no válida de los ID de visitante personalizados puede provocar que los datos sean incorrectos y que el rendimiento de los informes sea deficiente. Si el ID de visitante personalizado no es lo suficientemente único o granular, o si se establece incorrectamente en un valor predeterminado común como la cadena “NULL” o “0”, Adobe Analytics verá las visitas de muchos visitantes diferentes como un solo visitante. Esta situación da como resultado datos incorrectos, con recuentos de visitantes demasiado bajos y segmentos que no funcionan correctamente para ese visitante. Un ID de visitante personalizado insuficientemente granular también evita que los datos se propaguen correctamente entre los nodos del clúster de informes de Analytics. En este caso, un nodo se sobrecarga y no puede procesar las solicitudes de informes de manera oportuna. Finalmente, todos los informes del grupo de informes fallarán.<br>Es posible que los ID de visitante personalizados mal implementados no afecten inmediatamente al rendimiento de los informes, ya que Analytics puede con frecuencia gestionar datos desequilibrados durante varios meses. Sin embargo, con el tiempo un valor de ID de visitante personalizado mal implementado puede resultar problemático, ya que requiere que Analytics deshabilite el procesamiento de los grupos de informes afectados.</br><br>Los implementadores deben seguir la guía de que un solo valor de ID de visitante personalizado nunca debe recibir crédito por más del 1% del tráfico del grupo de informes. Aunque la guía del 1% es suficiente para la mayoría de los grupos de informes, el límite real que podría afectar al rendimiento de los informes podría ser inferior al 1% para los grupos de informes más grandes.</br>
 
 ## ID de visitante de Analytics
 
@@ -76,7 +76,7 @@ La mayoría de los dispositivos móviles aceptan cookies del explorador. Sin emb
 
 Adobe ha identificado varios encabezados de ID de suscriptor HTTP que identifican de forma única a la mayoría de dispositivos móviles. Estos encabezados suelen incluir el número de teléfono del dispositivo (o una versión con hash) u otros identificadores. La mayoría de los dispositivos actuales cuentan con uno o varios encabezados que los identifican de forma exclusiva y que todos los servidores de recopilación de datos de Adobe usan de forma automática como ID de visitante.
 
-In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). Sin embargo, si el dispositivo se reconoce como un dispositivo móvil basado en encabezados HTTP, se pasa un &quot;5&quot; en lugar del &quot;1&quot;, lo que indica que se debe devolver una imagen con formato wbmp, así como que se debe usar nuestra lista de encabezados inalámbricos reconocidos (y no una cookie) para identificar el dispositivo.
+En una solicitud de imagen habitual, un “1” en la ruta (`/b/ss/rsid/1`) hace que los servidores de Adobe devuelvan una imagen e intenten configurar una cookie de [!UICONTROL ID de visitante] persistente (`AMCV_` o `s_vi`). Sin embargo, si el dispositivo se reconoce como un dispositivo móvil basado en encabezados HTTP, se pasa un &quot;5&quot; en lugar del &quot;1&quot;, lo que indica que se debe devolver una imagen con formato wbmp, así como que se debe usar nuestra lista de encabezados inalámbricos reconocidos (y no una cookie) para identificar el dispositivo.
 
 La tabla siguiente muestra el orden de los métodos de ID usados según el valor de tipo de imagen devuelto (&quot;1&quot; o &quot;5&quot;) en la ruta:
 
@@ -145,7 +145,7 @@ Los encabezados de la siguiente lista se usan para identificar dispositivos inal
 
 Por ejemplo, &quot;callinglineid&quot; coincidiría con &quot;X-Up-Calling-Line-ID&quot; y &quot;nokia-callinglineid&quot;. El tipo de encabezado nos indica qué esperar en el encabezado. Aquí se indica el orden de prioridad de los encabezados (si hay un encabezado &quot;callinglineid&quot; presente, se usa en lugar de &quot;subno&quot;).
 
-Puede usar los métodos de API [Variables dinámicas](../implement/vars/page-vars/dynamic-variables.md) para extraer valores específicos de un encabezado.
+Puede usar [Variables dinámicas](../implement/vars/page-vars/dynamic-variables.md) para extraer valores específicos de un encabezado.
 
 ## Métodos de ID de reserva
 
@@ -161,4 +161,4 @@ El total de visitas incluye todos los visitantes identificados por la cookie `s_
 
 ### Dirección IP, agente de usuario y dirección IP de puerta de enlace {#section_104819D74C594ECE879144FCC5DEF4BF}
 
-. Si no se pueden configurar las cookies `AMCV_` o `s_vi` y `s_fid`, los visitantes se identifican con una combinación de dirección IP y agente de usuario.
+  Si no se pueden configurar las cookies `AMCV_` o `s_vi` y `s_fid`, los visitantes se identifican con una combinación de dirección IP y agente de usuario.
