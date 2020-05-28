@@ -3,7 +3,7 @@ description: Información general sobre los datos que recopila Adobe Analytics y
 keywords: privacy
 title: Resumen de privacidad
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -89,7 +89,7 @@ Adobe Analytics recopila los datos siguientes:
   </tr> 
   <tr> 
    <td colname="col1"> Europa </td> 
-   <td colname="col2"> Adobe ha habilitado la opción "Protección de IP: habilitada - IP eliminada (x.x.x.x)" de forma predeterminada para todos los clientes con un grupo de informes establecido en EMEA. Con esta configuración, la dirección IP será reemplazada completamente por el valor (x.x.x.x) después de realizar la búsqueda geográfica y ya no estará disponible como punto de datos. <p>El método de sustitución básico no se puede analizar mediante ingeniería inversa para obtener una dirección IP específica. Ni el cliente ni Adobe pueden tener acceso a la dirección IP, ya que se ha convertido en anónima de forma irreversible. Para obtener más información sobre la opción de protección de IP, consulte </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> Adobe ha habilitado la opción "Protección de IP: habilitada - IP eliminada (x.x.x.x)" de forma predeterminada para todos los clientes con un grupo de informes establecido en EMEA. Con esta configuración, la dirección IP será reemplazada completamente por el valor (x.x.x.x) después de realizar la búsqueda geográfica y ya no estará disponible como punto de datos. <p>El método de sustitución básico no se puede analizar mediante ingeniería inversa para obtener una dirección IP específica. Ni el cliente ni Adobe pueden tener acceso a la dirección IP, ya que se ha convertido en anónima de forma irreversible. Para obtener más información sobre la opción de protección de IP, consulte </p> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/landing/home.html#General_Account_Settings"  >https://docs.adobe.com/content/help/es-ES/analytics/landing/home.html#General_Account_Settings</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Global </td> 
@@ -126,7 +126,7 @@ Los siguientes centros de datos de EMEA alojan actualmente datos de Adobe Analyt
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Ámsterdam 1101 EC </p> <p>Países Bajos </p> </td> 
    <td colname="col3"> <p>Instalaciones de ubicación </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>Análisis multicanal </p> <p>Análisis digital </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.es/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 
