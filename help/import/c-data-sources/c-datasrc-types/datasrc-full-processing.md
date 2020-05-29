@@ -5,12 +5,17 @@ title: Procesamiento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+workflow-type: tm+mt
+source-wordcount: '712'
+ht-degree: 93%
 
 ---
 
 
 # Procesamiento completo
+
+>[!NOTE] Adobe recomienda que los clientes utilicen la API de inserción [masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Las fuentes de datos de procesamiento completo quedarán obsoletas en el futuro.
 
 El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
 
@@ -64,7 +69,7 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante `"user@example
   <tr> 
    <td colname="col1"> <p>Events </p> </td> 
    <td colname="col2"> <p>Events </p> </td> 
-   <td colname="col3"> <p>Cadena de eventos. El formato se aplica con la misma sintaxis que la variable <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Por ejemplo: </p> 
+   <td colname="col3"> <p>Cadena de eventos. El formato se aplica con la misma sintaxis que la variable <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a>. </p> <p>Por ejemplo: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
