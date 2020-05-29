@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: f29a9eef7dcdb0568a947521ca32f7aa0c2ce5b7
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 98%
+source-wordcount: '1096'
+ht-degree: 97%
 
 ---
 
@@ -123,6 +123,7 @@ ht-degree: 98%
       + [Analysis Workspace comparado con los Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Limitaciones de Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisitos de administración](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
+      + [Accesibilidad en el área de trabajo de Análisis](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Ayuda del Report Builder de Adobe](report-builder/home.md)
    + [Novedades del Report Builder](report-builder/whats-new-arb.md)
@@ -331,7 +332,7 @@ ht-degree: 98%
    + [Fecha](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Resumen de Labs](tech-previews/overview.md)
-+ paneles de Adobe Analytics {#mobapp}
++ Tableros de Adobe Analytics {#mobapp}
    + [paneles de Adobe Analytics: Información general](mobile-app/home.md)
    + [Guía del administrador](mobile-app/curator.md)
    + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
