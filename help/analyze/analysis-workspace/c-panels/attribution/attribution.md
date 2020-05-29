@@ -1,21 +1,21 @@
 ---
 description: 'null'
-title: Información general del panel de atribución
+title: Información general de Attribution
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: ae3fecc4b76badf82a5b161732e380a46bbba298
+source-git-commit: d880ad666eb42940147a453d8c3f04cdf9c629df
 workflow-type: tm+mt
-source-wordcount: '1805'
-ht-degree: 90%
+source-wordcount: '1809'
+ht-degree: 88%
 
 ---
 
 
-# Información general del panel de atribución
+# Información general de Attribution
 
->[!IMPORTANT] El panel de atribución está disponible para todos los clientes en las SKU de Adobe Analytics Ultimate, Prime, Select y Foundation.
+>[!IMPORTANT] La atribución está disponible para todos los clientes en los SKU de Adobe Analytics Ultimate, Prime, Select y Foundation.
 
-El panel de atribución es una función de [Attribution IQ](../../attribution-iq.md) que permite agregar muchos tipos nuevos de modelos de atribución a tablas de forma libre, visualizaciones y métricas calculadas. Todos los modelos de atribución tienen dos componentes:
+[IQ](../../attribution-iq.md) de atribución es un conjunto de funciones que le permite agregar muchos tipos nuevos de modelos de atribución a tablas improvisadas, visualizaciones y métricas calculadas. Todos los modelos de atribución tienen dos componentes:
 
 * **Modelo de atribución:** El modelo describe la distribución de conversiones a las visitas en un grupo. Por ejemplo, primer contacto o último contacto.
 * **Ventana de retrospectiva de atribución:** Describe qué agrupamientos de visitas se tienen en cuenta para cada modelo. Por ejemplo: visita o visitante.
@@ -44,7 +44,7 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 * **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
 
-* **Ventana retroactiva personalizada:** (Nota: La ventana de retrospectiva personalizada está actualmente en pruebas limitadas). Permite expandir la ventana de atribución más allá del intervalo de fechas de sistema de informes hasta un máximo de 90 días. Las ventanas retroactivas personalizadas se evalúan en cada conversión del período de sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de dimensión del 10 al 20 de febrero en el modelo de atribución.
+* **Ventana retroactiva personalizada:** (Nota: La ventana de retrospectiva personalizada está actualmente en pruebas limitadas.[Más](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)información) Le permite expandir la ventana de atribución más allá del intervalo de fechas de sistema de informes hasta un máximo de 90 días. Las ventanas retroactivas personalizadas se evalúan en cada conversión del período de sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de dimensión del 10 al 20 de febrero en el modelo de atribución.
 
 ## Ejemplo
 
