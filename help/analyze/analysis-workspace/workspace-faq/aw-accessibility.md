@@ -2,9 +2,9 @@
 description: Funciones de soporte de accesibilidad en Análisis Workspace
 title: Accesibilidad en el área de trabajo de Análisis
 translation-type: tm+mt
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '521'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ Obtenga información sobre la compatibilidad con la accesibilidad en [!UICONTROL
 
 La accesibilidad se refiere a hacer que los productos se puedan utilizar para personas con discapacidades visuales, auditivas, motoras y de otro tipo. Algunos ejemplos de funciones de accesibilidad para productos de software son la compatibilidad con lectores de pantalla, equivalentes de texto para gráficos, métodos abreviados de teclado, cambio de colores de visualización a alto contraste, etc.
 
-[!UICONTROL Análisis Workspace] proporciona algunas herramientas que hacen que sea accesible para su uso y herramientas que le ayudan a crear contenido accesible.
+[!UICONTROL Espacio de trabajo] de Análisis proporciona algunas herramientas que lo hacen accesible para su uso, entre las que se incluyen:
 
 ## Navegar por [!UICONTROL Workspace] mediante el teclado
 
@@ -60,7 +60,7 @@ La navegación en [!UICONTROL Análisis Workspace] funciona arriba > abajo e izq
 | Ctrl + Mayús + D | Nuevo intervalo de fechas |
 | Ctrl + Mayús + E | Nuevo segmento |
 | Ctrl + Z | Deshacer |
-| Mantenga pulsada la tecla Mayús (en la zona desplegable de segmentos del panel) | Cree un [filtro](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)desplegable. |
+| Mantenga pulsada la tecla Mayús (en la zona desplegable de segmentos del panel) | Creación de un filtro [desplegable](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### Democratización
 
