@@ -2,21 +2,19 @@
 title: Análisis entre dispositivos
 description: El análisis entre dispositivos cambia los datos de estar centrados en el dispositivo a estar centrados en la persona, al unir los datos del dispositivo.
 translation-type: tm+mt
-source-git-commit: 40d4dae0c54b8a71325846ae7f1c02947f9d36ea
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 90%
+source-wordcount: '965'
+ht-degree: 87%
 
 ---
 
 
 # Análisis entre dispositivos
 
->[!NOTE] La documentación de Análisis entre dispositivos está sujeta a cambios a medida que la función se desarrolla. Vuelva regularmente para ver las actualizaciones.
-
 Análisis entre dispositivos es una función que transforma Analytics de una vista centrada en el dispositivo a una vista centrada en la persona. Esta función utiliza el gráfico colaborativo o el gráfico privado de Adobe Experience Platform Identity Service. para identificar qué dispositivos pertenecen a individuos y coordínelos. Como resultado, los analistas pueden comprender el comportamiento del usuario que cruza navegadores, dispositivos o aplicaciones. Con CDA puede dar respuesta a preguntas como:
 
-* ¿Cuántas personas están interactuando con mi marca? ¿Cuántos y qué tipos de dispositivos utilizan? ¿Cómo se superponen?
+* ¿Cuántas personas interactúan con mi marca? ¿Cuántos y qué tipos de dispositivos utilizan? ¿Cómo se superponen?
 * ¿Con qué frecuencia comienzan una tarea en un dispositivo móvil y luego se trasladan a un ordenador de escritorio para completarla? ¿Los clics de campaña que llegan a un dispositivo llevan a la conversión en otro dispositivo diferente?
 * ¿Cómo cambia mi comprensión de la eficacia de la campaña si tengo en cuenta los recorridos entre dispositivos? ¿Cómo cambia mi análisis de embudo?
 * ¿Cuáles son las rutas más comunes que los usuarios realizan de un dispositivo a otro? ¿En qué punto abandonan? ¿Dónde tienen éxito?
@@ -28,7 +26,7 @@ Consulte [Journey IQ: Página de demostración de análisis entre dispositivos](
 
 ## Requisitos previos
 
-A partir de septiembre de 2019, Análisis entre dispositivos requiere lo siguiente. Trabaje con equipos de su organización y con el administrador de cuentas de Adobe para asegurarse de que cumple todos los requisitos siguientes.
+Análisis entre dispositivos requiere lo siguiente. Trabaje con equipos de su organización y con el administrador de cuentas de Adobe para asegurarse de que cumple todos los requisitos siguientes.
 
 >[!IMPORTANT] Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
 
@@ -37,7 +35,7 @@ A partir de septiembre de 2019, Análisis entre dispositivos requiere lo siguien
    * Se debe firmar un contrato con Adobe que incluya Adobe Analytics Ultimate.
    * Su organización debe utilizar el gráfico colaborativo o el gráfico privado de Adobe Experience Platform Identity Service. Consulte la página [principal](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) en la guía del usuario de Device Co-op.
    * Con un espíritu de colaboración y transparencia, queremos que nuestros clientes sean conscientes de nuestro uso de Microsoft Azure en asociación con Análisis entre dispositivos. Adobe utiliza Azure para almacenar datos de gráficos de dispositivos y realizar conexiones entre dispositivos. De este modo, los datos de Adobe Analytics se pasan de un lado a otro entre el centro de procesamiento de datos de Adobe y las instancias aprovisionadas de Adobe de Microsoft Azure.
-* El análisis entre dispositivos se habilita por grupo de informes. Los grupos de informes que se han habilitado para CDA requieren lo siguiente:
+* El análisis entre dispositivos se habilita por grupo de informes. Los grupos de informes habilitados para CDA requieren lo siguiente:
    * El grupo de informes no puede tener más de 500 millones de visitas al día.
    * Adobe recomienda que un grupo de informes contenga datos entre dispositivos, es decir, datos de varios tipos de dispositivos (web, aplicación, etc.). Algunas organizaciones se refieren a este concepto como un grupo de informes “global”, aunque el CDA no tiene que ser estrictamente global desde una perspectiva geográfica. El análisis entre dispositivos no funciona en todos los grupos de informes ni combina datos de varios grupos de informes.
 * Su implementación debe cumplir los siguientes requisitos:
@@ -52,10 +50,9 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * La configuración no puede producirse en los grupos de informes como se describe en los requisitos previos anteriores.
 * Los grupos de informes de Adobe Analytics no pueden asignarse a más de una organización de IMS. Dado que CDA vincula dispositivos dentro de un grupo de informes determinado, CDA no se puede usar para unir datos en varias organizaciones IMS.
 * Actualmente, CDA no es compatible con Atributos del cliente. Atributos del cliente no se puede usar para crear un grupo de informes virtuales CDA, dentro de segmentos entre dispositivos o para generar informes dentro de un proyecto de Analysis Workspace basado en un grupo de informes virtuales CDA.
-   > [!TIP] Aunque los atributos del cliente no se pueden usar en CDA, ambas funcionalidades dependen de la  función`setCustomerIDs`. Estas dos funcionalidades pueden coincidir en grupos de informes separados (virtuales).
+   > [!TIP] Aunque los atributos del cliente no se pueden usar en CDA, ambas funcionalidades dependen de la  función`setCustomerIDs`. Estas dos funciones pueden coincidir en grupos de informes virtuales independientes.
 * CDA requiere los gráficos colaborativos o privados. Los gráficos de dispositivos de terceros no son compatibles.
 * Los ID de Analytics heredados no son compatibles. Solo se vinculan los visitantes con Experience Cloud ID.
-* El Servicio de atención al cliente aún no admite esta función. El foro [Análisis entre dispositivos](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) se puede utilizar para ofrecer compatibilidad con esta función, que incluye la participación activa y directa de los responsables de productos de Adobe.
 * Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Consulte [Grupos de informes virtuales](../vrs/vrs-about.md) y [Procesamiento de tiempo de los informes](../vrs/vrs-report-time-processing.md) para saber más sobre estas limitaciones.
 * La API 1.4 no es compatible. Los conectores de Power BI y Report Builder dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
 * Si su organización utiliza Private Graph, los nuevos dispositivos tardan hasta 24 horas en vincularse.
