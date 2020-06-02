@@ -2,7 +2,10 @@
 title: Analizar Canales de mercadotecnia
 description: Obtenga información sobre cómo utilizar las dimensiones de Canales de marketing en Workspace.
 translation-type: tm+mt
-source-git-commit: 57f1f7d11c13fb11ea12404e9a98fad955e48d9b
+source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 3%
 
 ---
 
@@ -15,11 +18,11 @@ Probablemente quiera saber cuál de sus canales de mercadotecnia es el más efec
 
 | Dimensión/Métrica | Definición |
 |---|---|
-| Canal de marketing | Ésta es la dimensión de Canales de marketing que recomendamos utilizar. Los modelos de IQ de atribución se pueden aplicar en tiempo de ejecución. La dimensión genérica de Canales de marketing se comporta de forma idéntica a las dimensiones de Canal de último toque, pero tiene una etiqueta diferente para evitar confusiones al utilizarla con un modelo de atribución diferente. |
-| Canal de último toque | Dimensión heredada, con modelo de atribución preaplicado e inmodificable. |
-| Canal de primer toque | Dimensión heredada, con modelo de atribución preaplicado e inmodificable. |
-| Instancias de Canal de mercadotecnia | Esta métrica... |
-| Nuevos compromisos | Se trata de una métrica heredada que se incrementa únicamente cuando se le ha aplicado una asignación de &quot;primer toque&quot; a un canal. |
+| Canal de marketing | Ésta es la dimensión de Canales de mercadotecnia que se recomienda utilizar. Los modelos de IQ de atribución se pueden aplicar en tiempo de ejecución. Esta dimensión se comporta de forma idéntica a la dimensión de Canal de último toque, pero tiene una etiqueta diferente para evitar confusiones al utilizarla con un modelo de atribución diferente. |
+| Canal de último toque | Dimensión heredada, con modelo de atribución de último toque preaplicado e inmodificable. |
+| Canal de primer toque | Dimensión heredada, con modelo de atribución de primer toque preaplicado e inmodificable. |
+| Instancias de Canal de mercadotecnia | Esta métrica mide el número de veces que se definió un canal de marketing en una solicitud de imagen, incluidas las vistas de página estándar y las llamadas de vínculo personalizado. No incluye valores persistentes. |
+| Nuevos compromisos | Esta métrica es similar a Instancias, pero solo se incrementa cuando el canal de marketing de primer toque se define en una solicitud de imagen. |
 
 ## Análisis básico
 
@@ -49,7 +52,7 @@ Puede utilizar IQ [de](https://docs.adobe.com/content/help/en/analytics/analyze/
 
 Observe cómo la misma métrica (Pedidos en línea) genera resultados diferentes al aplicar modelos de atribución diferentes.
 
-Aquí hay algunos videos que explican el CI de atribución con más detalle: Lista de reproducción [de IQ de atribución](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR).
+Aquí hay algunos videos que explican el CI de atribución con más detalle: [Lista de reproducción de IQ de atribución](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR).
 
 ## análisis de mercadotecnia entre fichas
 
