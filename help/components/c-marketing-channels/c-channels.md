@@ -5,7 +5,10 @@ title: Administrar Canales de marketing
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 45c441a558168cb2af70855e848e1eaa26db8daa
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 83%
 
 ---
 
@@ -14,12 +17,28 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Agregue o habilite canales de marketing en el Administrador de canales de marketing. En los grupos de informes que no tengan canales de mercadotecnia, puede crear varios canales, junto con sus reglas, gracias a una configuración automática. Puede editar los canales predefinidos según sus necesidades o crear otros (hasta un total de 25).
 
+La adición de canales a la página [!UICONTROL Canales de mercadotecnia] se realiza independientemente de la creación de reglas en la página [Reglas de procesamiento de canal de mercadotecnia](/help/components/c-marketing-channels/c-rules.md). Al crear las reglas, se asocian a los canales.
+
 Aquí tiene algunas indicaciones para la creación de canales:
 
 * Planifíquelos con tiempo y haga una lista de todos los canales, de modo que todas las visitas se clasifiquen en el canal correcto.
-* Incluya siempre canales para las categorías de visitas [Internas](/help/components/c-marketing-channels/c-faq.md) y [Directas](/help/components/c-marketing-channels/c-faq.md).
+* Include channels for the categories of [Internal](/help/components/c-marketing-channels/c-rules.md) hits and [Direct](/help/components/c-marketing-channels/c-rules.md) hits.
+* Incluya un canal &quot;Otras Campañas&quot;, que se colocará después de los canales pagados y antes de los canales orgánicos.
 
-La adición de canales a la página [!UICONTROL Canales de mercadotecnia] se realiza independientemente de la creación de reglas en la página [Reglas de procesamiento de canal de mercadotecnia](/help/components/c-marketing-channels/c-rules.md). Al crear las reglas, se asocian a los canales.
+
+## Requisitos previos {#prereqs}
+
+En caso necesario, póngase en contacto con el departamento de atención al cliente para obtener ayuda con los requisitos previos:
+
+* En la Consola de administración (Configuración general de cuenta), habilite la opción **[!UICONTROL Nivel de conversión]** (comercio electrónico) para el grupo de informes.
+
+   Consulte [Configuración general de cuenta](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/general-acct-settings-admin.html) en la sección de ayuda de Analytics para obtener más información.
+
+* Configure el acceso a las dimensiones de Marketing Canal.
+
+   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
+
+* Asegúrese de que su administrador de cuentas haya habilitado los **[!UICONTROL Informes de canal]** en el grupo de informes.
 
 ## Agregar canales de marketing {#add-mktg-channels}
 
@@ -47,9 +66,9 @@ Agregue canales de marketing en el Administrador de canales de marketing.
 
    Consulte [Creación de reglas de procesamiento para los canales de marketing](/help/components/c-marketing-channels/c-rules.md).
 
-## Administrador del canal de marketing: definiciones de la interfaz {#mktg-channel-mgr}
+## Aplicar configuración de canal {#mktg-channel-mgr}
 
-Definiciones de los campos de la página [!UICONTROL Administrador del canal de mercadotecnia].
+Hay varias opciones de configuración que se pueden aplicar a cada canal en la página Administrador [!UICONTROL de Canales] de mercadotecnia.
 
 | Campo | Definición |
 |--- |--- |
@@ -58,43 +77,23 @@ Definiciones de los campos de la página [!UICONTROL Administrador del canal de 
 | Anular canal de último toque | Permite sobrescribir un canal de último toque persistente actual con el canal seleccionado. Si selecciona esta casilla, cualquier canal (incluidos el directo y el interno) sobrescribirán el canal que se haya tocado por última vez. Por lo tanto, se atribuirá la conversión a un canal al que, posiblemente, no corresponda el crédito. Por ejemplo, esta opción podría garantizar que el canal directo no reciba el crédito por la conversión si el usuario ha sido adquirido anteriormente mediante el canal Búsqueda natural. |
 | Desglose de canal | Permite desglosar un canal según el valor especificado. You can add possible channel breakdowns (subchannels) when creating [marketing channel classifications](/help/components/c-marketing-channels/classifictions-mchannel.md). |
 | Tipo | Especifica cómo llegó el usuario a su sitio web. Puede seleccionar En línea o Sin conexión. Utilice los canales en línea para los visitantes que llegaron mediante un motor de búsqueda o una campaña de correo electrónico. Los canales sin conexión se aplican a los visitantes que hayan encontrado el sitio mediante cupones de periódicos o anuncios en revistas. Por lo general, los canales sin conexión incluyen datos importados a través de las fuentes de datos de informes. Consulte [Fuentes de datos](https://docs.adobe.com/content/help/es-ES/analytics/import/data-sources/datasrc-home.html). Consulte [ Añadir datos sin conexión](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
-| Color | El color asociado al canal de mercadotecnia. El color representa el canal en el informe Canal de mercadotecnia. |
+| Color | Solo informes y análisis: El color asociado con este canal de marketing. El color representa el canal en el informe Canal de mercadotecnia. |
 
-## Definir canales
+### Prácticas recomendadas sobre anulaciones
 
-Para que los canales y sus datos puedan aparecer en el informe, debe crear los canales y las reglas subyacentes que procesan los datos. También puede crear importes de costos y presupuestos para los canales relacionados, y especificar cuánto tiempo desea que dure el período de compromiso del visitante. Las tareas de configuración de informes se realizan en las Herramientas de administración.
+Se recomienda desactivar la opción de anulación del último contacto para los canales directos e internos, de modo que no puedan tomar crédito de otros canales de último contacto persistentes (o entre sí).
 
-Imagine que el canal es un contenedor de visitas y que las reglas asignan las visitas al contenedor correspondiente.
+![](assets/int-channel2.png)
 
-![](assets/buckets_2.png)
+## Definir reglas de canal
 
-Adobe ofrece varios canales predefinidos durante la  [configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md), que puede editar para adaptarlos a sus necesidades.
+Para que los canales y sus datos puedan aparecer en el informe, debe crear los canales y las reglas subyacentes que procesan los datos. También puede especificar cuánto tiempo desea que dure el período [de compromiso de](/help/components/c-marketing-channels/visitor-engagement.md) visitante.
+
+Adobe proporciona varios canales predefinidos durante una configuración [](/help/components/c-marketing-channels/c-getting-started-mchannel.md) automática que puede editar para adaptarlos a sus necesidades. Además, puede modificar esta configuración y definir reglas personalizadas dentro de las reglas [de procesamiento de](/help/components/c-marketing-channels/c-rules.md)Marketing Canal.
 
 >[!NOTE]
 >
 >Adobe recomienda que configure el informe en un grupo de informes, que puede utilizar como plantilla para realizar pruebas. Puede usar la plantilla para aplicar conjuntos de canales y reglas de forma global a uno o más grupos de informes de producción.
 >
 >Consulte [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
-
-### Requisitos previos {#prereqs}
-
-En caso necesario, póngase en contacto con el departamento de atención al cliente para obtener ayuda con los requisitos previos:
-
-* En la Consola de administración (Configuración general de cuenta), habilite la opción **[!UICONTROL Nivel de conversión]** (comercio electrónico) para el grupo de informes.
-
-   Consulte [Configuración general de cuenta](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/general-acct-settings-admin.html) en la sección de ayuda de Analytics para obtener más información.
-
-* Configure el acceso a las dimensiones de Marketing Canal.
-
-   See [Marketing Channels permissions](/help/components/c-marketing-channels/c-channel-report-access.md).
-
-* Asegúrese de que su administrador de cuentas haya habilitado los **[!UICONTROL Informes de canal]** en el grupo de informes.
-
-### Notas de procesamiento importantes {#important-proc-rules}
-
-* El sistema procesa las reglas en el orden en el que las especifique y, cuando se cumple una regla, se detiene el procesamiento de las demás reglas.
-* Las reglas pueden acceder a las variables que ha establecido VISTA, pero no pueden acceder a los datos que VISTA ha eliminado.
-* Los canales almacenan solamente las métricas de conversión. Las métricas de tráfico no están disponibles.
-* Dos canales de mercadotecnia nunca reciben crédito por el mismo evento (por ejemplo, compras o clics). En este sentido, los canales de mercadotecnia difieren de las eVars (ya que dos eVars pueden recibir crédito por el mismo evento).
-* El informe puede procesar hasta 25 canales al mismo tiempo.
 
