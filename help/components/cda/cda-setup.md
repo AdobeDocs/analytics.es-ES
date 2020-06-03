@@ -2,14 +2,15 @@
 title: Configuración de análisis entre dispositivos
 description: Obtenga información sobre cómo configurar Analytics entre dispositivos después de cumplir los requisitos previos.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '827'
+ht-degree: 63%
 
 ---
 
 
 # Configuración de análisis entre dispositivos
-
->[!NOTE] La documentación de Análisis entre dispositivos está sujeta a cambios a medida que la función se desarrolla. Vuelva regularmente para ver las actualizaciones.
 
 Una vez cumplidos todos los requisitos previos, siga los pasos siguientes para habilitar el análisis entre dispositivos. Debe pertenecer a un grupo de administradores de perfil de producto o tener privilegios de administrador en Adobe Analytics para seguir estos pasos.
 
