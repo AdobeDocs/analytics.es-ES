@@ -2,10 +2,10 @@
 description: Funciones de soporte de accesibilidad en Análisis Workspace
 title: Accesibilidad en el área de trabajo de Análisis
 translation-type: tm+mt
-source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 5%
+source-wordcount: '553'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ La navegación en [!UICONTROL Análisis Workspace] funciona arriba > abajo e izq
 * La `Tab` clave se mueve entre elementos individuales.
 * Aplicamos indicadores de enfoque para que los usuarios de teclado con visión de futuro tengan una clara indicación de qué elemento de interfaz de usuario está seleccionado actualmente. El indicador es un borde azul alrededor del elemento seleccionado.
 
-   ![](assets/focus-indicator.png)
+   ![Indicador de enfoque](assets/focus-indicator.png)
 
 ### Navegación por teclado para interacciones de arrastrar y soltar
 
@@ -75,11 +75,11 @@ La navegación en [!UICONTROL Análisis Workspace] funciona arriba > abajo e izq
 
 ## Compatibilidad con lectores de pantalla y ampliadores de pantalla
 
-Un lector de pantalla recita el texto que aparece en la pantalla del equipo. También lee información no textual, como etiquetas de botones o descripciones de imágenes en la aplicación, proporcionada en etiquetas o atributos de accesibilidad.
+Un lector de pantalla lee el texto que aparece en la pantalla del equipo. También lee información no textual, como etiquetas de botones o descripciones de imágenes en la aplicación, proporcionada en etiquetas o atributos de accesibilidad.
 
 ## Paletas de color y contraste
 
-[!UICONTROL Espacio de trabajo] de Análisis se esfuerza por lograr la compatibilidad con el contraste de color WCAG AA.
+[!UICONTROL Espacio de trabajo] de Análisis se esfuerza por lograr la conformidad con WCAG 2.1 AA, incluidos los requisitos para el contraste de color.
 
 Además, los usuarios pueden establecer su propia paleta de colores preferida para un proyecto en **[!UICONTROL Proyecto]** > Ajustes **[!UICONTROL del]** proyecto > Paleta [de color](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)Proyecto.
 
@@ -89,8 +89,8 @@ Al crear un componente, los campos obligatorios se validan al guardarlos. Si un 
 
 Una vez validado el componente, al pulsar `Save` se cierra el generador.
 
-![](assets/error-validation.png)
+![Validación de errores](assets/error-validation.png)
 
 ## Compatibilidad con las funciones de accesibilidad del sistema operativo
 
-Análisis Workspace admite las funciones de accesibilidad integradas de MS Windows y macOS, como el modo de alto contraste y los lectores de pantalla (Narrador para MS Windows y VoiceOver para macOS).
+Análisis Workspace admite funciones de accesibilidad integradas de MS Windows y macOS, como modo de alto contraste, teclas adhesivas y teclas de filtro/teclas lentas. También proporciona información sobre la interfaz de usuario del sistema operativo para habilitar la interacción con tecnologías de asistencia, incluidos lectores de pantalla como VoiceOver para macOS y NVDA en Windows.
