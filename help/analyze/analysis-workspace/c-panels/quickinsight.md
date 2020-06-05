@@ -2,9 +2,9 @@
 description: Quick Insights es una herramienta para nuevos usuarios de Workspace que les guía en la creación de tablas de datos y visualizaciones
 title: Panel de perspectivas rápidas
 translation-type: tm+mt
-source-git-commit: 04a91d3ba2778336a8f32c99604b32d440e41674
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1047'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** se encuentra actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL El panel de perspectivas]** rápidas se encuentra actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] proporciona una guía a los no analistas y a los nuevos usuarios de [!UICONTROL Análisis Workspace] para aprender a responder preguntas comerciales de forma rápida y sencilla. También es una buena herramienta para usuarios avanzados que desean responder a una pregunta simple rápidamente sin tener que crear una tabla ellos mismos.
 
@@ -64,6 +64,7 @@ A continuación se incluyen algunos de los términos básicos con los que debe e
 1. Cuando haya agregado al menos una dimensión y una métrica, se creará lo siguiente:
 
    * Una tabla improvisada con la dimensión (aquí, Estados de EE.UU.) verticalmente y la métrica (aquí, Visitas) horizontalmente en la parte superior. Consulte esta tabla:
+
    ![](assets/qibuilder3.png)
 
    * Una visualización adjunta, en este caso un gráfico [de barras](/help/analyze/analysis-workspace/visualizations/bar.md). La visualización que se genera se basa en el tipo de datos agregados a la tabla. Cualquier dato basado en el tiempo (como [!UICONTROL Visitas] por día/mes) tiene un gráfico de [!UICONTROL líneas] predeterminado. Cualquier dato no basado en el tiempo (como [!UICONTROL Visitas] por [!UICONTROL dispositivo]) tiene el valor predeterminado de un gráfico de [!UICONTROL barras] . Puede cambiar el tipo de visualización haciendo clic en la flecha desplegable situada junto al tipo de visualización.
