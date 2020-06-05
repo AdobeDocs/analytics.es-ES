@@ -1,22 +1,24 @@
 ---
-description: nulo
+description: Información general sobre el flujo de trabajo de Análisis de publicidad.
 title: Resumen del flujo de trabajo
-uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 75%
 
 ---
 
 
 # Resumen del flujo de trabajo
 
-![](assets/step1_icon.png) Asigne a su organización de Experience Cloud cualquier grupo de informes de Analytics donde quiera ver datos de búsqueda de Google/Bing.
+![](assets/step1_icon.png) Asigne cualquier grupo de informes de Adobe Analytics en el que desee vista de datos de búsqueda de Google/Bing a su organización de Experience Cloud.
 
 Consulte [Asignación de grupos de informes a una organización](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Activación de los informes de Advertising Analytics por grupo de informes](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Activa los informes de Advertising Analytics para grupos de informes activados por Experience Cloud.
+Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.
 
 ![](assets/step3_icon.png) [Configurar una cuenta de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -28,7 +30,7 @@ Nota: Los datos de búsqueda se obtienen de los motores de búsqueda alrededor d
 
 Los informes están disponibles en
 
-* Plantilla “Rendimiento de búsqueda de pago” de Analysis Workspace
+* Analysis Workspace: [!UICONTROL Paid Search Performance] template
 * Reports &amp; Analytics
 * Report Builder
 * API de informes de Analytics
