@@ -2,7 +2,10 @@
 title: Configurar una cuenta publicitaria
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 81%
 
 ---
 
@@ -15,14 +18,14 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
 
 ![](assets/aa_accounts.png)
 
-1. En Adobe Analytics, vaya a **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**.
+1. En Adobe Analytics, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Cuentas publicitarias]**.
 1. (Solo la primera vez que se utilice) Acepte los términos del Contrato de licencia de usuario final.
-1. Haga clic en **[!UICONTROL + Add]**.
-1. Se muestra el [!UICONTROL New Search Engine Account] cuadro de diálogo:
+1. Haga clic en **[!UICONTROL + Añadir]**.
+1. Se mostrará el cuadro de diálogo [!UICONTROL Nueva cuenta de motor de búsqueda]:
 
    ![](assets/aa_new_se_account.png)
 
-1. Llene las **[!UICONTROL Search Engine Settings]** siguientes directrices:
+1. Siga estas directrices para rellenar **[!UICONTROL Configuración del motor de búsqueda]**:
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,39 +57,20 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
     </tbody> 
     </table>
 
-1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
-Llene las **[!UICONTROL Tracking Settings]** siguientes directrices:
+1. En la sección **[!UICONTROL Seguimiento]**, debe proporcionar información sobre cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
+Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimiento]**:
 
-   <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> Configuración </th> 
-      <th colname="col2" class="entry"> Descripción </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>Tipo </p> </td> 
-      <td colname="col2"> 
-        <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> Automático</span>: Permite que el motor de Advertising Cloud decida cómo se adjuntan los parámetros de seguimiento a las plantillas de seguimiento/URL de destino del motor de búsqueda. Este es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado. <p>Importante: Para configurar una cuenta de motor de búsqueda en “Modo automático”, debe llevar a cabo las siguientes acciones: 
-          <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">En la cuenta agregada se añadirá el parámetro y valor “s_kwcid” a las plantillas de seguimiento de la cuenta o a las URL de las páginas de destino. Se insertará al final de la URL. Como resultado, es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL. </li> 
-            <li id="li_A04D4AA31A934392808639E46C86573F">Además, en la URL de destino pueden insertarse palabras clave como parte del valor “s_kwcid”, de modo que, si contienen caracteres especiales o símbolos, confirme que su servidor web los admite (un ejemplo de carácter especial común es “+”, que se utiliza en las palabras clave “Broad Match Modified”). </li> 
-          </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> Manual</span>: Le permite administrar cómo se añaden los parámetros de seguimiento a las plantillas de seguimiento o a las direcciones URL de destino del motor de búsqueda. <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  > Consulte estos ejemplos de seguimiento manual para cada motor de búsqueda</a>. </li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | Configuración | Descripción |
+   |--- |--- |
+   | Tipo | <ul><li>**Automático:** Permite que el motor de Advertising Cloud decida cómo se anexan los parámetros de seguimiento a las plantillas de seguimiento/direcciones URL de destino del motor de búsqueda. Este es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.<br>**Importante:**Para configurar una cuenta de motor de búsqueda en &#39;Modo automático&#39;, usted es responsable de realizar las siguientes acciones:<br>- El parámetro y valor &quot;s_kwcid&quot; se agregarán a las plantillas de seguimiento de cuentas o a las direcciones URL de página de aterrizaje en la cuenta que se agrega. Se insertará al final de la URL. Como resultado, es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL.** Nota:**Obtenga más información sobre si debe agregar este parámetro a la directiva[de seguridad de](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)contenido.<br>- Además, las palabras clave se pueden insertar en la dirección URL de aterrizaje como parte del valor &quot;s_kwcid&quot;, por lo que si contienen caracteres o símbolos especiales, confirme que su servidor Web puede admitir esos caracteres (un ejemplo de caracteres especiales comunes es &quot;+&quot; que se utiliza en palabras clave de &quot;coincidencia amplia modificada&quot;).</li><li>**Manual:** Le permite administrar cómo se agregan los parámetros de seguimiento a las plantillas de seguimiento/direcciones URL de destino del motor de búsqueda. [Consulte estos ejemplos de seguimiento manual para cada motor de búsqueda](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
-1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. Debe proporcionar un grupo de informes como mínimo para guardar la cuenta publicitaria. Puede asignar diversas cuentas a varios grupos de informes (1:1, 1:Muchos, Muchos:Muchos). Recuerde que los datos que AMO obtiene del motor de búsqueda simplemente se copian a cualquier grupo de informes asignado, de modo que los datos no se dividen.
+1. En la sección **[!UICONTROL Asignación]**, elija qué grupo(s) de informes va a enlazar a la cuenta de este motor de búsqueda. Debe proporcionar un grupo de informes como mínimo para guardar la cuenta publicitaria. Puede asignar diversas cuentas a varios grupos de informes (1:1, 1:Muchos, Muchos:Muchos). Recuerde que los datos que AMO obtiene del motor de búsqueda simplemente se copian a cualquier grupo de informes asignado, de modo que los datos no se dividen.
 
    >[!IMPORTANT]
    >
    >Solo los grupos de informes que se hayan [asignado a una organización de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html) estarán disponibles para su selección. Si su grupo de informes no se incluye en la lista, consulte [Solucionar problemas de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md).
 
-   Para las **[!UICONTROL Mapping Settings]** siguientes directrices:
+   Para la **[!UICONTROL configuración de la asignación]**, siga estas directrices:
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -103,8 +87,8 @@ Llene las **[!UICONTROL Tracking Settings]** siguientes directrices:
     </tbody> 
     </table>
 
-1. Haga clic en **[!UICONTROL Save]**.
-1. Después de guardar, se muestra una lista de advertencias en un mensaje de exención de responsabilidad. Se le pedirá que confirme haber leído y entendido este contrato. Click the checkbox, then click **[!UICONTROL OK]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
+1. Después de guardar, se muestra una lista de advertencias en un mensaje de exención de responsabilidad. Se le pedirá que confirme haber leído y entendido este contrato. Haga clic en la casilla de selección y, después, en **[!UICONTROL Aceptar]**.
 
    Ahora se le dirigirá a la [IU de administración](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) de cuentas publicitarias, en que se incluirá su cuenta recién creada.
 
