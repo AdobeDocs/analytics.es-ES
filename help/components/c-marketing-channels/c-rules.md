@@ -2,23 +2,26 @@
 title: Reglas de procesamiento de canales de marketing
 description: Las reglas de procesamiento de canales de mercadotecnia averiguan si la visita de un visitante cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+workflow-type: tm+mt
+source-wordcount: '2048'
+ht-degree: 69%
 
 ---
 
 
 # Reglas de procesamiento de canales de marketing
 
-Las reglas de procesamiento de canales de mercadotecnia averiguan si la visita de un visitante cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
+Las reglas de procesamiento de Canal de mercadotecnia determinan si una visita de visitante cumple los criterios asignados a un canal al procesar cada visita que un visitante realiza en el sitio. Las reglas se procesan en el orden especificado y, cuando se cumple una regla, el sistema deja de procesar las reglas restantes.
 
-Pautas importantes para la creación de reglas:
+![](assets/buckets_2.png)
 
-* Ordene las reglas en el orden en el que desee que se procesen.
-* Al final de la lista, introduzca un captador global como, por ejemplo, Otras. Esta regla identifica el tráfico externo, pero no el interno.
-
-   Consulte [No se ha identificado el canal.](/help/components/c-marketing-channels/c-faq.md)
-
->[!NOTE] A pesar de que estas reglas no afectan a los informes externos a los canales de marketing, sí afectan a la recopilación de datos del canal de marketing. Los datos recopilados con estas reglas son 100 % permanentes y las reglas alteradas tras la colección de datos no son retroactivas. Es muy importante revisar y tener en cuenta todas las circunstancias antes de guardar [!UICONTROL reglas de procesamiento de canales de mercadotecnia] a fin de evitar que los datos se recopilen en los canales equivocados.
+Notas adicionales sobre el procesamiento:
+* Los datos recopilados con estas reglas son 100 % permanentes y las reglas alteradas tras la colección de datos no son retroactivas. Es muy importante revisar y tener en cuenta todas las circunstancias antes de guardar [!UICONTROL reglas de procesamiento de canales de mercadotecnia] a fin de evitar que los datos se recopilen en los canales equivocados.
+* El informe puede procesar hasta 25 canales al mismo tiempo.
+* Las reglas pueden acceder a las variables que ha establecido VISTA, pero no pueden acceder a los datos que VISTA ha eliminado.
+* Dos canales de mercadotecnia nunca reciben crédito por el mismo evento (por ejemplo, compras o clics). En este sentido, los canales de mercadotecnia difieren de las eVars (ya que dos eVars pueden recibir crédito por el mismo evento).
+* Si hay un intervalo de cobertura de las reglas, es posible que vea [No se identificó ningún Canal.](/help/components/c-marketing-channels/c-faq.md)
 
 ## Requisitos previos
 
@@ -32,43 +35,37 @@ Cree reglas de procesamiento de canales de mercadotecnia que averigüen si la vi
 Este procedimiento emplea una regla de correo electrónico como ejemplo. En este ejemplo, se presupone que ha agregado un canal de correo electrónico a su lista de canales de la página Administrador de canales de mercadotecnia.
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
-1. Selección de un grupo de informes.
+2. Selección de un grupo de informes.
 
    Si no se han definido canales en el grupo de informes, se abre la página [!UICONTROL Canales de mercadotecnia: configuración automática].
 
    Consulte  [Ejecución de la configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de mercadotecnia]** > **[!UICONTROL Reglas de procesamiento de canal de mercadotecnia]**.
+3. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de mercadotecnia]** > **[!UICONTROL Reglas de procesamiento de canal de mercadotecnia]**.
 
    ![Resultado](assets/marketing_channel_rules.png)
 
-1. En el menú **[!UICONTROL Agregar nuevo conjunto de reglas]**, seleccione **[!UICONTROL correo electrónico]**.
+4. En el menú **[!UICONTROL Agregar nuevo conjunto de reglas]**, seleccione **[!UICONTROL correo electrónico]**.
 
-   Al hacerlo, no selecciona el canal, sino que selecciona una plantilla que rellena la regla con algunos parámetros necesarios.
+   Al hacerlo, no selecciona el canal, sino que selecciona una plantilla que rellena la regla con algunos parámetros necesarios. Puede modificar esta plantilla según sea necesario.
 
    ![Resultado](assets/example_email.png)
 
-   Utilice lógica booleana (instrucciones de if / then) para configurar una regla. Por ejemplo, en la regla de canal de correo electrónico, proporcione la configuración o la información resaltada en la siguiente instrucción de regla:
+5. Para continuar creando reglas, haga clic en **[!UICONTROL Agregar regla]**.
+6. Para priorizar las reglas, arrástrelas a la posición que corresponda.
+7. Haga clic en **[!UICONTROL Guardar.]**
 
-   `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
+Continúe en esta página para ver las recomendaciones para el orden de reglas de canal, así como ejemplos de más definiciones.
 
-   `"Then identify the channel as **[!UICONTROL Email]**...`
+### Establecer el valor del canal de mercadotecnia
 
-   `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
+**[!UICONTROL Añadir ]**reglaEstablezca el valor del canal]**define la dimensión de detalle del canal de marketing que está disponible para ese canal. Esto le permite desglosar las dimensiones del canal de mercadotecnia y ver información más detallada sobre el canal.
 
-   En este ejemplo, *`<value>`* es el parámetro de cadena de consulta que usa en su campaña de correo electrónico, como *`eml`*.
-1. Para continuar creando reglas, haga clic en **[!UICONTROL Agregar regla]**.
-1. Para priorizar las reglas, arrástrelas a la posición que corresponda.
-1. Haga clic en **[!UICONTROL Guardar.]**
+Se recomienda que el valor del canal se defina con los mismos criterios utilizados para definir el canal mismo. Por ejemplo, si se utiliza el parámetro de cadena de consulta para definir el canal, defina también el parámetro de cadena de consulta como el valor de canal.
 
->[!MORELIKETHIS]
->
->* [Preguntas frecuentes y ejemplos](/help/components/c-marketing-channels/c-faq.md)
+### Criterios de regla
 
-
-## Criterios de regla de Canal de marketing
-
-Esta tabla de referencia define los campos, las opciones y los atributos de visita que puede seleccionar en la página Reglas de procesamiento de canal de mercadotecnia.
+Esta tabla de referencia define los campos, las opciones y los atributos de visita que puede utilizar para definir las reglas de procesamiento de Marketing Canal.
 
 | Término | Definición |
 |--- |--- |
@@ -101,67 +98,79 @@ Esta tabla de referencia define los campos, las opciones y los atributos de visi
 | Motor de búsqueda + Palabras clave | Una concatenación de la palabra clave de búsqueda y el motor de búsqueda que identifica de forma exclusiva el motor de búsqueda. Por ejemplo, si busca la palabra ordenador, el motor de búsqueda y la palabra clave se identifican de este modo: `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**Nota:**n = natural; p = de pago |
 | Definir el valor del canal en | Además de saber qué canal de marketing lleva al visitante a su sitio, puede saber también qué anuncio de banner, palabra clave de búsqueda o campaña de correo electrónico dentro del canal recibe crédito por la actividad del visitante en el sitio. Este identificador es un valor de canal que se almacena junto con el canal. A menudo, este valor es un identificador de campaña integrado en la página de aterrizaje o en la dirección URL de referencia; en otros casos es la combinación del motor de búsqueda y la palabra clave de búsqueda, o bien, la dirección URL de referencia que identifica de forma más correcta al visitante en un canal particular. |
 
-## Canal interno (actualización de sesión)
+## Orden y definiciones de reglas de Canal de marketing {#channel-rules}
 
-El canal interno (con frecuencia denominado “actualización de sesión”) consiste en visitas al sitio donde la dirección URL de referencia coincide con la configuración de los filtros de URL internos en Admin Console, lo que significa que el visitante vino desde dentro del sitio para iniciar la visita.
+Las reglas de Canal se procesan en el orden especificado. Un enfoque recomendado para el pedido de canal es colocar primero los canales pagos o administrados (por ejemplo, búsqueda paga, búsqueda natural, visualización, correo electrónico) para que reciban crédito, seguido de canales orgánicos (por ejemplo, dominios directos, internos y de referencia).
+
+A continuación se muestra el orden recomendado para las reglas de canal, así como las definiciones de ejemplo:
+
+### Búsqueda de pago {#paid-search}
+
+La búsqueda paga es una palabra o frase que se paga a un motor de búsqueda por la ubicación en los resultados de búsqueda. Este canal se define generalmente en función del parámetro de cadena de consulta (consulte el ejemplo de canal de visualización) o de las reglas de detección de búsqueda paga. La decisión depende del detalle del canal de marketing que desee registrar.
+
+#### Detección de búsqueda de pago
+
+Para buscar coincidencias con las reglas de detección de búsqueda paga, el canal de mercadotecnia usa la configuración de la página [!UICONTROL Detección de búsqueda paga]. (**[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL General]** > **[!UICONTROL Detección de búsqueda paga]**). La dirección URL de destino coincide con la regla de detección de búsqueda paga existente para dicho motor de búsqueda.
+
+En la regla de canal de mercadotecnia, la configuración de [!UICONTROL Búsqueda paga] es la siguiente:
+
+![](assets/example_paid_search.png)
+
+Consulte [Detección de búsqueda paga](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) en Administración para obtener más información.
+
+### Búsqueda natural  {#natural-search}
+
+Las búsquedas naturales tienen lugar cuando los visitantes encuentran su sitio web a través de una búsqueda en Internet en la que el motor de búsqueda clasifica su sitio sin que usted haya pagado específicamente para ello.
+
+No hay detección de búsquedas naturales en Analytics. Después de configurar la detección de búsqueda paga, el sistema sabe que, si un referente de búsqueda no es de búsqueda paga, tiene que ser de búsqueda natural. Consulte [Detección de búsqueda paga](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) en Administración para obtener más información.
+
+En la regla de canal de mercadotecnia, la configuración de búsqueda natural es la siguiente:
+
+![](assets/example_natural_search.png)
+
+### Mostrar  {#display}
+
+Esta regla identifica a los visitantes que proceden de anuncios de banners. Se identifica con un parámetro de cadena de consulta en la dirección URL de destino, en este caso  *`Ad_01`*.
+
+![](assets/example_display.png)
+
+### Correo electrónico  {#email}
+
+Esta regla identifica los visitantes que se originan a partir de campañas de correo electrónico. Se identifica con un parámetro de cadena de consulta en la dirección URL de destino, en este caso *`eml`*:
+
+![](assets/example_email.png)
+
+### Afiliados  {#afilliates}
+
+Esta regla identifica visitantes que se originan en un conjunto específico de dominios de referencia. En la regla, se enumeran los dominios de los afiliados de los que desee hacer un seguimiento, de este modo:
+
+![](assets/example_affiliates.png)
+
+### Otras Campañas {#other-campaigns}
+
+Una práctica recomendada es incluir un canal &quot;Otras campañas&quot; siguiendo todas las reglas de canal de pago. Este canal actúa como captador global para el tráfico pago sin categoría.
+
+### Redes sociales  {#social-networks}
+
+Esta regla identifica a los visitantes que se originan en una red social como, por ejemplo, Facebook*. El canal suele denominarse &quot;Social orgánico&quot;. La configuración puede ser así:
+
+![](assets/example_social.png)
+
+### Canal interno (Actualización de sesión){#internal}
+
+Esta regla visitante dónde la dirección URL de referencia coincide con la configuración de Filtros de URL internos en la Consola de administración, lo que significa que el visitante vino desde el sitio para realizar el inicio de la visita. Este canal se denomina con frecuencia Actualización de sesión.
 
 ![](assets/int-channel1.png)
 
-### Prácticas recomendadas sobre anulaciones
+Consulte [Razones para la actualización interna (Actualización de sesión)](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-faq.html) para obtener más información sobre el motivo por el que se produce este canal.
 
-Se recomienda desactivar la opción de anulación del último contacto para los canales directos e internos, de modo que no puedan tomar crédito de otros canales de último contacto persistentes (o entre sí).
+### Directas  {#direct}
 
->[!NOTE]Este documento supone que la actualización directa y de sesión tienen la opción “Anular” desactivada.
+Esta regla identifica a los visitantes que no tienen un dominio de referencia, lo que incluye visitantes que llegan directamente al sitio, como por ejemplo desde un vínculo Favoritos o pegando un vínculo en el explorador. Este canal se denomina con frecuencia Escrito o marcador directo.
 
-![](assets/int-channel2.png)
+![](assets/example_direct.png)
 
-### Periodo de interacción
+### canal Dominios de referencia {#referring-domains}
 
-Los canales de primer y último contacto de un visitante se restablecen tras 30 días de inactividad en ese navegador.
+El canal Dominios de referencia identifica visitantes que tienen un dominio de referencia. Juntos, los canales de dominios Interno, Directo y Referente actúan como captador global para todas las visitas que quedan y que aún no se han clasificado en un canal.
 
->[!NOTE] 30 días es el valor predeterminado y se puede modificar según sea necesario mediante la configuración de la administración.
-
-Si el visitante utiliza el sitio con frecuencia, la ventana de participación se abrirá. Debe estar inactivo durante 30 días para que caduque el periodo y se restablezcan los canales.
-Ejemplo:
-
-* Día 1: el usuario llega al sitio y este aparece en la pantalla. Los canales de primer y último contacto se definirán como “Pantalla”.
-
-* Día 2: el usuario entra al sitio a través de una búsqueda natural. El primer contacto permanece como “Pantalla” y el último contacto se establece como “Búsqueda natural”.
-
-* Día 35: el usuario no ha accedido al sitio en 33 días y regresa usando la pestaña que había abierto en su navegador. Suponiendo que se trate de una ventana de participación de 30 días, la ventana se habría cerrado y las cookies del canal de marketing habrían caducado. El canal de primer contacto y último contacto se restablecerán y se configurarán en Actualización de sesión, ya que el usuario accedió con una URL interna.
-
-### Relación entre primer y último contacto
-
-Para comprender la interacción entre el primer y el último contacto, y confirmar que las anulaciones funcionan según lo esperado, puede extraer un informe de canal de primer contacto, subrelacionado con un informe de canal de último contacto, con la métrica de éxito clave en (ver ejemplo más abajo). En el ejemplo se muestra la interacción entre los canales de primer y último contacto.
-
-![](assets/int-channel3.png)
-
-La intersección en la que el primer contacto es igual que el último contacto se resalta en naranja. Tanto la actualización directa como la actualización de sesión solo obtienen crédito de último contacto si también son el canal de primer contacto, ya que no pueden tomar crédito de otros canales persistentes (filas resaltadas en gris).
-
-### ¿Por qué se produce la actualización de la sesión?
-
-Como sabemos que la actualización de sesión de último contacto solo puede producirse si también fue el primer contacto, los escenarios siguientes explican cómo la actualización de sesión puede ser un canal de primer contacto.
-
-**Escenario 1: tiempo de espera de sesión**
-
-Un visitante llega al sitio web y luego deja la pestaña abierta en el navegador para usarla días más tarde. El periodo de interacción del visitante caduca (o elimina voluntariamente sus cookies) y utiliza la pestaña abierta para volver a visitar el sitio web. Dado que la dirección URL de referencia es un dominio interno, la visita se clasificará como “Actualización de sesión”.
-
-**Escenario 2: no todas las páginas del sitio están etiquetadas**
-
-Un visitante llega a la página A que no está etiquetada y luego se mueve a la página B que está etiquetada. La página A se trataría como el referente interno y la visita se clasificaría como “Actualización de sesión”.
-
-**Escenario 3: redirecciones**
-
-Si no se configura una redirección para pasar datos del referente a la nueva página de llegada, se pierden los datos del referente de entrada real y ahora la página de redirección (probablemente una página interna) aparece como el dominio de referencia. La visita se clasificará como “Actualización de sesión”.
-
-**Escenario 4: tráfico entre dominios**
-
-Un visitante pasa de un dominio que se activa con el grupo A a un segundo dominio que se activa con el grupo B. Si en el grupo B los filtros de URL internos incluyen el primer dominio, la visita en el grupo B se registrará como interna, ya que los canales de marketing la ven como una nueva visita en el segundo grupo. La visita se clasificará como “Actualización de sesión”.
-
-**Escenario 5: largos tiempos de carga de la página de entrada**
-
-Un visitante llega a la página A, que tiene mucho contenido, y el código de Adobe Analytics se encuentra en la parte inferior de la página. Antes de cargar todo el contenido (incluida la solicitud de imagen de Adobe Analytics), el visitante hace clic en la página B. La página B activa su solicitud de imagen de Adobe Analytics. Dado que la solicitud de imagen de la página A nunca se cargó, la segunda página aparece como la primera visita individual en Adobe Analytics, con la página A como referente. La visita se clasificará como “Actualización de sesión”.
-
-**Escenario 6: se eliminan las cookies en el sitio intermedio**
-
-Un visitante ingresa al sitio y luego borra las cookies a mitad de la sesión. Los canales de primer y último contacto se restablecerían y la visita se clasificaría como “Actualización de sesión” (porque el referente sería interno).
