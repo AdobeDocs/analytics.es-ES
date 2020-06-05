@@ -2,9 +2,9 @@
 description: El panel Análisis para Destinatario (A4T) le permite analizar sus actividades y experiencias de Adobe Destinatario en el área de trabajo de Análisis.
 title: Panel de Analytics para Destinatario (A4T)
 translation-type: tm+mt
-source-git-commit: 516557c04acbc7300925ed3d13ac3c087f3ed3de
+source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '613'
 ht-degree: 14%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Analytics para el panel]** Destinatario está actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL El panel de Analytics para Destinatario (A4T)]** está actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 El panel Análisis para Destinatario (A4T) permite analizar las actividades y experiencias de Adobe Destinatario en el área de trabajo de Análisis. También le permite ver el alza y la confianza de hasta 3 métricas de éxito. Para acceder al panel A4T, navegue a un grupo de informes con componentes de A4T activados. A continuación, haga clic en el icono del panel situado en el extremo izquierdo y arrastre el panel Análisis para Destinatario a su proyecto de Espacio de trabajo de Análisis.
 
