@@ -3,14 +3,17 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 title: 'Referencia: funciones avanzadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+workflow-type: tm+mt
+source-wordcount: '2911'
+ht-degree: 99%
 
 ---
 
 
 # Referencia: funciones avanzadas
 
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en la lista desplegable **[!UICONTROL Funciones]**.
 
 ## Funciones de tabla en comparación con funciones de fila {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -119,8 +122,8 @@ ESTIMATE.EXP(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
@@ -237,8 +240,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión exponencial: pendiente (Tabla) {#concept_230991B0371E44308C52853EFA656F04}
 
@@ -250,8 +253,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Suelo (Fila) {#concept_D368150EC3684077B284EE471463FC31}
 
@@ -307,7 +310,7 @@ TANH(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *métrica* | El ángulo en radianes del cual desea encontrar la tangente hiperbólica. |
+| *métrica* | El ángulo en radianes del cual desee encontrar la tangente hiperbólica. |
 
 ## IF (Fila) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -382,8 +385,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión de registro: Y predicha (fila) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
@@ -397,8 +400,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión logarítmica: pendiente (Tabla) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
@@ -410,8 +413,8 @@ SLOPE.LOG(metric_A, metric_B)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_A* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_B* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_A* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_B* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Logaritmo natural {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
@@ -491,8 +494,8 @@ Devuelve la intersección, *b*, entre dos columnas de métricas (*metric_X* y *m
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión potencial: Y predicha (Fila) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
@@ -504,8 +507,8 @@ Calcula los valores [!DNL y] predichos ([!DNL metric_Y]), dados los valores [!DN
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión potencial: pendiente (Tabla) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
@@ -517,8 +520,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión cuadrática: coeficiente de correlación (Tabla) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
@@ -543,8 +546,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión cuadrática: Y predicha (Fila) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
@@ -556,7 +559,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_A* | Una métrica que le gustaría designar como datos dependientes. |
+| *metric_A* | Una métrica que le gustaría designar como datos independientes. |
 | *metric_B* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión cuadrática: pendiente (Tabla) {#concept_0023321DA8E84E6D9BCB06883CA41645}
@@ -569,8 +572,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión recíproca: coeficiente de correlación (Tabla) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
@@ -595,8 +598,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión recíproca: Y predicha (Fila) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
@@ -608,8 +611,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Regresión recíproca: pendiente (Tabla) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
@@ -621,8 +624,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 | Argumento | Descripción |
 |---|---|
-| *metric_X* | Una métrica que le gustaría designar como datos dependientes. |
-| *metric_Y* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_X* | Una métrica que le gustaría designar como datos independientes. |
+| *metric_Y* | Una métrica que le gustaría designar como datos dependientes. |
 
 ## Seno (Fila) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
