@@ -1,165 +1,43 @@
 ---
 description: Requisitos del sistema y comparación de Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse y Data Workbench
 title: Comparación de productos y requisitos de Analytics
-uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 9265fb410b20a764ecc86c56b453b045122fcd05
+workflow-type: tm+mt
+source-wordcount: '689'
+ht-degree: 76%
 
 ---
 
 
-# Comparación de productos y requisitos de Analytics
+# Analytics Comparación de productos y requisitos de 
 
-Requisitos del sistema y comparación de Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse y Data Workbench
+Requisitos del sistema y comparación de Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse y Data Workbench.
 
 Si no sabe qué producto de Adobe Analytics utilizar, consúltelo [aquí](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
-<table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
- <tbody> 
-  <tr> 
-   <td> <b>Nombre del producto y vínculo de ayuda</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Analysis Workspace </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/reports-analytics/getting-started.translate.html"> Reports &amp; Analytics </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/ad-hoc-analysis/adhoc-home.translate.html">Ad Hoc Analysis </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/report-builder/home.translate.html"> Report Builder </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/es-ES/analytics/export/data-warehouse/data-warehouse.translate.html"> Data Warehouse </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Data Workbench </a> </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Método de acceso</b> </td> 
-   <td> Solución de navegador para crear proyectos de análisis sólidos y personalizados y democratizar las perspectivas. </td> 
-   <td> Solución de navegador para el análisis digital. </td> 
-   <td> Herramienta basada en Java para el análisis digital avanzado. </td> 
-   <td> El complemento de Excel le permite crear solicitudes personalizadas de datos de Informes y análisis y visualizarlos en Microsoft Excel. </td> 
-   <td colname="col06"> La solución de navegador que genera informes en formato <span class="filepath">.csv</span>. Puede generar archivos de formato Tableau. </td> 
-   <td colname="col6"> Herramienta de análisis multicanal avanzado, como modelado de atribución personalizado, análisis predictivo y análisis integral de clientes. </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Desgloses de informes</b> </td> 
-   <td> Sin límite </td> 
-   <td> Hasta 2 correlaciones </td> 
-   <td> Sin límite </td> 
-   <td> Hasta 2 correlaciones </td> 
-   <td colname="col06"> Realiza desgloses completamente ampliados, ilimitados y por segmento. </td> 
-   <td colname="col6"> Sin límite </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Comparaciones por segmentos</b> </td> 
-   <td> Sin límite </td> 
-   <td> Hasta 2 segmentos </td> 
-   <td> Sin límite </td> 
-   <td> Sin límite (pila de solicitud de datos) </td> 
-   <td colname="col06"> 1 segmento. Admite varios segmentos (ilimitados). </td> 
-   <td colname="col6"> Sin límite </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Límite de salida de línea</b> </td> 
-   <td> 400 </td> 
-   <td> 200 </td> 
-   <td> 50 000 </td> 
-   <td> 50 000 </td> 
-   <td colname="col06"> Sin límite </td> 
-   <td colname="col6"> Personalizable </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Límites de valores únicos (en informes de propiedades/eVar)</b> </td> 
-   <td> 500K-2MM </td> 
-   <td> 500K-2MM </td> 
-   <td> 500K-2MM </td> 
-   <td> 500K-2MM </td> 
-   <td colname="col06"> Sin límite </td> 
-   <td colname="col6"> Personalizable </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Canal/Rutas</b> </td> 
-   <td> Sí <p> </p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"> Abandono </a> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"> Flujo </a> </p> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/reports.html"> Sí </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html"> Sí </a> </td> 
-   <td> Sí </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Sí </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Análisis avanzado de trayectos de los clientes</b> </td> 
-   <td> Con plan </td> 
-   <td> No </td> 
-   <td> Sí </td> 
-   <td> No </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Sí </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Análisis de cohorte</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html"> Sí </a> </td> 
-   <td> No </td> 
-   <td> No </td> 
-   <td> No </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Sí </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Atribución avanzada</b> </td> 
-   <td> Con límite actualmente: primero/último/lineal </td> 
-   <td> Con límite: primero/último/lineal </td> 
-   <td> Con límite: primero/último/lineal </td> 
-   <td> Con límite: primero/último/lineal </td> 
-   <td colname="col06"> Con límite: primero/último/lineal </td> 
-   <td colname="col6"> Sí </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Opciones de visualización mejorada</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Sí </a> </td> 
-   <td> No </td> 
-   <td> Sí </td> 
-   <td> Sí </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Sí </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Diseño personalizable</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html"> Sí </a> </td> 
-   <td> Sí: <a href="https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html">Tableros </a> </td> 
-   <td> No </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/configure-the-custom-layout.html"> Sí </a> </td> 
-   <td colname="col06"> <p> Se ordenan resultados por desglose o métricas. </p> </td> 
-   <td colname="col6"> Sí </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Revisión de proyecto (se simplifican informes para los no analistas)</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate.html"> Sí </a> </td> 
-   <td> No </td> 
-   <td> No </td> 
-   <td> Sí </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Sí </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Uso compartido de proyecto</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate.html"> Sí</a>; todos/cualquier usuario </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/scheduling.html"> Sí</a>; todos/cualquier usuario </td> 
-   <td> Solo con usuarios de Ad Hoc Analysis </td> 
-   <td> Sí; todos/cualquier usuario </td> 
-   <td colname="col06"> No </td> 
-   <td colname="col6"> Sí </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Entrega programada de informes</b> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/schedule-projects.html"> Sí </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/scheduling.html"> Sí </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-schedule.html"> Sí </a> </td> 
-   <td> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/t-schedule-a-data-request.html"> Sí </a> </td> 
-   <td colname="col06"> Sí </td> 
-   <td colname="col6"> Sí </td> 
-  </tr> 
-  <tr> 
-   <td> <b>Requisitos del sistema</b> </td> 
-   <td> <p>Navegador </p> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/server-side-forwarding/ssf-requirements.html"> Más... </a> </p> </td> 
-   <td> <p>Navegador </p> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/server-side-forwarding/ssf-requirements.html"> Más... </a> </p> </td> 
-   <td> <p>Java </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-getting-started.html"> Más... </a> </p> </td> 
-   <td> <p>Windows, MS Excel </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html"> Más... </a> </p> </td> 
-   <td colname="col06"> Navegador y programa para abrir archivos <span class="filepath">.csv</span> como MS Excel. Puede generar archivos de formato Tableau. </td> 
-   <td colname="col6"> Windows de 64 bits, adaptador de gráficos adecuado para OpenGL 3.2 (<u><a href="https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html">Más…</a></u>) </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| Nombre del producto y vínculo de ayuda | [Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/es-ES/analytics/analyze/reports-analytics/getting-started.html) | [Ad Hoc Analysis ](https://docs.adobe.com/content/help/es-ES/analytics/analyze/ad-hoc-analysis/adhoc-home.translate.html) | [Report Builder](https://docs.adobe.com/content/help/es-ES/analytics/analyze/report-builder/home.translate.html) | [Data Warehouse](https://docs.adobe.com/content/help/es-ES/analytics/export/data-warehouse/data-warehouse.translate.html) | [Data Workbench](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html) |
+|---|---|---|---|---|---|---|
+| **Método de acceso** | Solución de navegador para crear proyectos de análisis sólidos y personalizados y democratizar las perspectivas. | Solución de navegador para el análisis digital. | Herramienta basada en Java para el análisis digital avanzado. | El complemento de Excel le permite crear solicitudes personalizadas de datos de Informes y análisis y visualizarlos en Microsoft Excel. | La solución de navegador que genera informes en formato .csv. Puede generar archivos de formato Tableau. | Herramienta de análisis multicanal avanzado, como modelado de atribución personalizado, análisis predictivo y análisis integral de clientes. |
+| **Desgloses de informes** | Sin límite | Hasta 2 correlaciones | Sin límite | Hasta 2 correlaciones | Realiza desgloses completamente ampliados, ilimitados y por segmento. | Sin límite |
+| **Comparaciones por segmentos** | Sin límite | Hasta 2 segmentos | Sin límite | Sin límite (pila de solicitud de datos) | 1 segmento. Admite varios segmentos (ilimitados). | Sin límite |
+| **Límite de salida de línea** | 400 | 200 | 50 000 | 50 000 | Sin límite | Personalizable |
+| **** Límites de valores únicos (en informes de propiedades/eVar) | 500K-2MM | 500K-2MM | 500K-2MM | 500K-2MM | Sin límite | Personalizable |
+| **Canal/Rutas** | Sí: [Visitas en el orden previsto](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)/[Flujo](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/flow/flow.html) | [Sí](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/reports.html) | [Sí](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html) | Sí | No | Sí |
+| **Análisis avanzado de trayectos de los clientes** | Yes: [Customer Journey Analytics](https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-landing.html) | No | Sí | No | No | Sí |
+| **Análisis de cohorte** | [Sí](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | No | No | No | No | Sí |
+| **Atribución avanzada** | [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution-iq.html) | Con límite: primero/último/lineal | Con límite: primero/último/lineal | Con límite: primero/último/lineal | Con límite: primero/último/lineal | Sí |
+| **Opciones de visualización mejorada** | [Sí](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) | No | Sí | Sí | No | Sí |
+| **Diseño personalizable** | [Sí](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html) | Sí: [Tableros](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/dashboard.html) | No | [Sí](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/configure-the-custom-layout.html) | Se ordenan resultados por desglose o métricas. | Sí |
+| **** Revisión de proyecto (se simplifican informes para los no analistas) | [Sí](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate.html) | No | No | Sí | No | Sí |
+| **Uso compartido de proyecto** | [Sí: todos/todos los usuarios](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate.html) | [Sí: todos/todos los usuarios](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/scheduling.html) | Solo con usuarios de Ad Hoc Analysis | Sí: todos/todos los usuarios | No | Sí |
+| **Envío de informes** programados | [Sí](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/schedule-projects.html) | [Sí](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/scheduling.html) | [Sí](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-schedule.html) | [Sí](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/t-schedule-a-data-request.html) | Sí | Sí |
+| **Requisitos del sistema** | <br>[ExploradorMás...](https://docs.adobe.com/content/help/es-ES/analytics/admin/sys-reqs.html) | <br>[ExploradorMás...](https://docs.adobe.com/content/help/es-ES/analytics/admin/sys-reqs.html) | <br>[JavaMás...](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-getting-started.html) | Windows, MS<br>[ExcelMás...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | Navegador y programa para abrir archivos .csv como MS Excel. Puede generar archivos de formato Tableau. | Windows 64 bit, good graphics adapter for OpenGL 3.2 [More...](https://docs.adobe.com/content/help/en/data-workbench/using/install/c-data-workbench-client-install.html) |
+| **Compatibilidad con grupos de informes virtuales (procesamiento de tiempo de informes)** | Sí | Sí | Sí | Sí | No | Sí? |
+| **Múltiples grupos de informes** | Sí | No | No | No | No | Sí? |
+| **Métricas calculadas** | Sí | Sí | Sí | Sí | Sí | Sí |
+| **Compatibilidad con Canales de marketing** | Sí | Sí | Sí | Sí | ? | ? |
+| **Nivel de granularidad** |  |  |  |  |  |  |
+| **Detección de anomalías** | Sí | No |  |  |  |  |
+| **Análisis de contribución** | Sí | No | No | No | No | Sí |
+| **Tipos de segmentos** |  |  |  |  |  |  |
