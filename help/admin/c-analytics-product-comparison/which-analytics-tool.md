@@ -3,7 +3,10 @@ description: Esta página de ayuda contiene casos de uso recomendados para cada 
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
+workflow-type: tm+mt
+source-wordcount: '1093'
+ht-degree: 98%
 
 ---
 
@@ -21,22 +24,12 @@ Para obtener más información sobre comparativas de producto de Adobe Analytics
 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**debe usarse:
 
 * Por parte de los usuarios principiantes que necesitan acceso a los informes predefinidos que son más fáciles de explorar.
-* Para comprender el alza y la confianza de la actividad de Target (Analytics para Target/A4T).
 * Para acceder a datos en tiempo real en la IU.
 * Para configurar eventos de Calendario.
 * Para configurar Targets.
 * Para ver informes de Bot.
 * Para acceder a exclusivas visualizaciones de vídeo de Espectador recurrente, Momentos de visualización y Abandono de espectadores.
 * Para utilizar las Listas de publicación en informes programados.
-
-La **[interfaz de usuario de Mobile Services](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html)**debe usarse:
-
-* Para obtener una vista aislada de los datos de aplicaciones móviles.
-* Para administrar la implementación del SDK de su aplicación móvil.
-* Para configurar la publicidad móvil, como los mensajes dentro de la aplicación, los mensajes push y la segmentación por ubicación.
-* Para generar visualizaciones más interactivas de datos de aplicaciones (proyección solar).
-* Para visualizar puntos de interés en un mapa.
-* Para métricas de valor de duración.
 
 Los **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**deben usarse:
 
@@ -118,7 +111,7 @@ Las **[API de informes](https://www.adobe.io/apis/experiencecloud/analytics/docs
 
 * **Procesamiento total**: cuando desea usar datos con funciones avanzadas (como visitas, visitantes y segmentos). Son datos resumidos típicos de la interfaz de usuario de Analytics que están disponibles en ~30-90 minutos. Se puede usar mediante el Report Builder.
 * **Tiempo real:** si desea ver unas pocas métricas y dimensiones con segundos de latencia. Son datos resumidos limitados y procesados parcialmente que están disponibles en ~30 segundos. Se incluyen algoritmos únicos de los más populares, ganadores y perdedores. Se puede usar mediante el Report Builder.
-* **[!UICONTROL Live Stream]**:: cuando desee un flujo de datos de Analytics de nivel de visita procesados parcialmente pocos segundos después de la recopilación. Son datos procesados parcialmente que están disponibles en ~30 segundos. Solo está disponible para Analytics Premium. Necesita otra forma de visualizar los datos (normalmente, mediante una participación de los Servicios de ingeniería).
+* **[!UICONTROL Emisión en directo]**: Si desea un flujo de datos de Analytics de nivel de visita procesados parcialmente pocos segundos después de su recopilación. Son datos procesados parcialmente que están disponibles en ~30 segundos. Solo está disponible para Analytics Premium. Necesita otra forma de visualizar los datos (normalmente, mediante una participación de los Servicios de ingeniería).
 
 ## Soluciones personalizadas {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -131,4 +124,4 @@ Los Servicios de ingeniería deben usarse cuando:
 * Tiene varias fuentes de datos.
 * Tiene requisitos de ETL (extracción, transformación y carga) de datos complejos.
 * Desea implementar una personalización de marca.
-* You want to visualize [!UICONTROL Analytics Live Stream].
+* Desea visualizar la [!UICONTROL emisión en directo de Analytics].
