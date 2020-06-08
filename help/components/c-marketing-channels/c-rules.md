@@ -2,7 +2,7 @@
 title: Reglas de procesamiento de canales de marketing
 description: Las reglas de procesamiento de canales de mercadotecnia averiguan si la visita de un visitante cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
 translation-type: tm+mt
-source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 69%
@@ -150,6 +150,8 @@ Esta regla identifica visitantes que se originan en un conjunto específico de d
 
 Una práctica recomendada es incluir un canal &quot;Otras campañas&quot; siguiendo todas las reglas de canal de pago. Este canal actúa como captador global para el tráfico pago sin categoría.
 
+![](assets/other-campaigns.png)
+
 ### Redes sociales  {#social-networks}
 
 Esta regla identifica a los visitantes que se originan en una red social como, por ejemplo, Facebook*. El canal suele denominarse &quot;Social orgánico&quot;. La configuración puede ser así:
@@ -174,3 +176,4 @@ Esta regla identifica a los visitantes que no tienen un dominio de referencia, l
 
 El canal Dominios de referencia identifica visitantes que tienen un dominio de referencia. Juntos, los canales de dominios Interno, Directo y Referente actúan como captador global para todas las visitas que quedan y que aún no se han clasificado en un canal.
 
+![](assets/referring-domains.png)
