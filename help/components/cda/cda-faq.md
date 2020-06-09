@@ -2,10 +2,10 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 72%
+source-wordcount: '1192'
+ht-degree: 71%
 
 ---
 
@@ -50,7 +50,7 @@ En algunas situaciones es posible que varias personas inicien sesión desde el m
 
 **¿Cómo gestiona el gráfico de dispositivos las situaciones en las que una sola persona tiene MUCHOS dispositivos/ECID?**
 
-En algunas situaciones, un usuario individual puede asociarse con un gran número de ECID. Esto puede ocurrir si el usuario utiliza muchos navegadores o aplicaciones, y puede exacerbarse si borra las cookies con frecuencia o utiliza el modo de exploración privado o indirecto del explorador. El gráfico del dispositivo limita el número de ECID que se asocia a un ID de usuario determinado a 200. Si un ID de usuario se asocia con demasiados ECID, el gráfico del dispositivo supone que el ID de usuario no es válido y elimina el clúster asociado a dicho ID de usuario. El ID de usuario queda bloqueado para no quedar recluido en el futuro. El resultado de CDA es que el comportamiento del ID de usuario no se vincula entre dispositivos.
+En algunas situaciones, un usuario individual puede asociarse con un gran número de ECID. Esto puede ocurrir si el usuario utiliza muchos navegadores o aplicaciones, y puede exacerbarse si borra las cookies con frecuencia o utiliza el modo de exploración privado o indirecto del explorador. El gráfico del dispositivo limita el número de ECID que se asocia a un ID de usuario determinado a 200. Si un ID de usuario se asocia con demasiados ECID, el gráfico del dispositivo supone que el ID de usuario no es válido y elimina el clúster asociado a dicho ID de usuario. El ID de usuario se agrega luego a una lista &quot;bloqueada&quot; para evitar que se reintegre en el futuro. El resultado de CDA es que el comportamiento del ID de usuario no se vincula entre dispositivos.
 
 **¿Cuál es la diferencia entre la métrica &#39;Personas&#39; en CDA y la métrica &#39;Visitantes únicos fuera de CDA?**
 
