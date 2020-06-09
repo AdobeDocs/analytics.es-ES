@@ -4,9 +4,11 @@ keywords: Analytics Implementation
 subtopic: Visitors
 title: Identificar visitantes únicos
 topic: Developer and implementation
-uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +21,7 @@ Adobe usa una cookie para realizar el seguimiento de exploradores o dispositivos
 
 Adobe Analytics proporciona varios mecanismos para identificar a los visitantes. En la siguiente tabla se muestran las diferentes maneras de identificar a un visitante en Analytics (en orden de preferencia):
 
-| Orden utilizado | Parámetro de consulta (método de recopilación) | Presente si |
+| Pedido utilizado | Parámetro de consulta (método de recopilación) | Presente cuando |
 |---|---|---|
 | 1 | vid (s.visitorID) | Se establece s.visitorID. |
 | 2 | aid (cookie s_vi) | El visitante tenía una cookie s_vi existente antes de que usted implementara el servicio de ID del visitante o ha configurado un periodo de gracia del ID del visitante. |
@@ -90,7 +92,7 @@ La tabla siguiente muestra el orden de los métodos de ID usados según el valor
  <tbody> 
   <tr> 
    <td colname="col1"> <code> /1/</code> </td> 
-   <td colname="col2"> <p>Valor predeterminado: </p> 
+   <td colname="col2"> <p>Predeterminado: </p> 
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">ID de visitante personalizado </li> 
      <li id="li_0DC8D17828C848BEB614C6E47C090064">Cookie </li> 
@@ -117,7 +119,7 @@ También puede pasar un &quot;1&quot; o un &quot;5&quot; en las solicitudes de i
 
 Por lo general, el método de ID de suscriptor resulta más fiable que las cookies a la hora de identificar usuarios debido a la posible eliminación de cookies, a los problemas de aceptación de estas y a los relacionados con la administración de cookies de puerta de enlace.
 
-Para mejorar los cambios relacionados con la identificación de visitantes, agréguese a la lista blanca del operador que usan los visitantes móviles. Para obtener acceso a la ID de visitante del operador, póngase en contacto con este para agregar el dominio a su lista blanca. Cuando se integre en esta lista, también dispondrá de acceso a los encabezados de ID de suscriptor a los que no podría acceder de ninguna otra manera.
+Puede mejorar los cambios de identificación de un visitante agregándose a la lista &quot;permitida&quot; para el portador que utilizan sus visitantes móviles. Para obtener acceso al ID de visitante del portador, póngase en contacto con el portador para agregar su dominio a su lista &quot;permitida&quot;. Si se encuentra en la lista permitida de un operador, también tiene acceso a los encabezados de ID de suscriptor a los que de otro modo no podrá acceder.
 
 Los encabezados de la siguiente lista se usan para identificar dispositivos inalámbricos. El algoritmo de procesamiento de encabezados se usa para:
 
