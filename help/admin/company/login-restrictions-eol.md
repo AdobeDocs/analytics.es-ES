@@ -1,21 +1,24 @@
 ---
-title: Fin de vida útil para [!UICONTROL Aplicar restricciones de inicio de sesión IP]
-description: Obtenga información sobre el tiempo de finalización de la vida útil y las implicaciones para [!UICONTROL Aplicar restricciones de inicio de sesión IP]
+title: Fin de vida útil para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
+description: Obtenga información sobre la finalización de la vida útil y las implicaciones para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
 translation-type: tm+mt
-source-git-commit: 940638b77f800b471f1ce4097a8ca6de98d518d3
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 85%
 
 ---
 
 
-# Fin de vida útil para [!UICONTROL Enforce IP login restrictions]
+# Fin de vida útil para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
 
-La función **[Aplicar restricciones de inicio de sesión con IP](/help/admin/company/security-manager.md)**de Adobe Analytics permite incluir en la lista de direcciones IP específicas permitidas (que se consideran seguras) para aprobar inicios de sesión y el acceso a su entorno de Adobe Analytics. En muchos casos, esta función se utiliza para configurar una dirección IP corporativa como la única dirección IP segura desde la que los usuarios pueden iniciar sesión. Por lo tanto, para utilizar Adobe Analytics, se necesita que los usuarios estén en una oficina corporativa o que inicien sesión en la red a través de una VPN.
+The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an &quot;allowed&quot; list, so as to allow successful logins and access to your Adobe Analytics environment. En muchos casos, esta función se utiliza para configurar una dirección IP corporativa como la única dirección IP segura desde la que los usuarios pueden iniciar sesión. Por lo tanto, para utilizar Adobe Analytics, se necesita que los usuarios estén en una oficina corporativa o que inicien sesión en la red a través de una VPN.
 
 Estamos planeando finalizar la vida útil de esta función en enero de 2021.
 
 ## ¿Por qué queremos dejar de usar esta función?
 
-Esta función da problemas, en algunos casos, con la migración de inicio de sesión de Experience Cloud o el mismo inicio de sesión de Experience Cloud. Se sabe que se produce un error en los clientes que utilizan **[!UICONTROL Customer Attributes]** o **[!UICONTROL Audience Library]**.
+Esta función da problemas, en algunos casos, con la migración de inicio de sesión de Experience Cloud o el mismo inicio de sesión de Experience Cloud. Al parecer, se produce un error con los usuarios que utilizan **[!UICONTROL Atributos del cliente]** o la **[!UICONTROL Biblioteca de audiencias]**.
 
 Además, si tiene varias soluciones de Experience Cloud, puede eludir este requisito al iniciar sesión en Experience Cloud con una de las otras soluciones, ya que esta función no existe o no se admite fuera de Analytics. Los usuarios también pueden evitar el error con la suplantación de IP.
 
@@ -23,9 +26,9 @@ Por último, Adobe cuenta con una solución alternativa funcional y muy superior
 
 ## ¿Cómo le afecta la eliminación de esta función?
 
-Esta función se eliminará en enero de 2021 para cualquier cliente que haya **[!UICONTROL Enforce IP login restrictions]** configurado. En ese momento, ya no se aplicará ninguna restricción de inicio de sesión con IP que aún exista. Si todavía necesita restringir el inicio de sesión por dirección IP, debe revisar e implementar la solución recomendada de inicio de sesión único y Federated ID (más información y recursos a continuación).
+For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. En ese momento, ya no se aplicará ninguna restricción de inicio de sesión con IP que aún exista. Si todavía necesita restringir el inicio de sesión por dirección IP, debe revisar e implementar la solución recomendada de inicio de sesión único y Federated ID (más información y recursos a continuación).
 
-Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROLAdmin > Company Settings > Security Manager]** in the Analytics UI (as shown below).
+Además, la configuración **[!UICONTROL Aplicar restricciones de inicio de sesión IP]** se eliminará de **[!UICONTROLAAdministración > Configuración de la empresa > Administrador de seguridad]** en la interfaz de usuario de Analytics (como se muestra a continuación).
 
 ![](assets/sec-manager2.png)
 
