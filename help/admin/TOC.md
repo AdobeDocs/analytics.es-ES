@@ -4,7 +4,10 @@ audience: admin
 user-guide-title: Guía de administración de Analytics
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 99%
 
 ---
 
@@ -41,8 +44,8 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
    + [Registros](admin/logs.md)
    + [Canales de marketing](admin/marketing-channels-admin.md)
    + [Personalización de menús](admin/customize-menus.md)
-   + [Accesibilidad a métricas](admin/metric-visibility.md)
-   + [Administración de dispositivos móviles](admin/mobile-management.md)
+   + [Visibilidad de las métricas](admin/metric-visibility.md)
+   + [Administración de aplicaciones](admin/mobile-management.md)
    + Detección de búsqueda de pago {#paid-search-detection}
       + [Resumen de detección de búsqueda de pago](admin/paid-search-detection/paid-search-detection.md)
       + [Configurar la detección de búsqueda pagada](admin/paid-search-detection/t-paid-search-detection.md)
