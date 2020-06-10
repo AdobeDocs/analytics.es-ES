@@ -3,9 +3,9 @@ description: Muestran información sobre el acceso a sitios web desde dispositiv
 title: Informes de dispositivos móviles
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1378'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,7 @@ Muestran información sobre el acceso a sitios web desde dispositivos móviles. 
 
 Muestran información sobre el acceso a sitios web desde dispositivos móviles. Los informes sobre dispositivos móviles mejoran la identificación del visitante recopilando datos sobre los dispositivos móviles utilizados para ver el sitio. Los informes de dispositivos móviles pueden identificar al fabricante y las capacidades del dispositivo, como tamaño de pantalla, vídeo, audio, compatibilidad con cookies y otras métricas. Los informes de dispositivos móviles están disponibles para todos los grupos de informes.
 
-Para mejorar la identificación del visitante para dispositivos móviles, debe estar en la lista del operador (&quot;lista permitida&quot;) para enviar ID de suscriptor a un dominio. (Puede ver el operador en el informe de **[!UICONTROL Perfil del visitante]** > **[!UICONTROL Dominios]**).
+Para mejorar la identificación del visitante para dispositivos móviles, debe estar en la lista del operador (lista de permitidos) para enviar ID de suscriptor a un dominio. (Puede ver el operador en el informe de **[!UICONTROL Perfil del visitante]** > **[!UICONTROL Dominios]**).
 
 >[!NOTE] Para ver informes en un dispositivo móvil, inicie sesión en [Experience Cloud](https://login.experiencecloud.adobe.com).
 
