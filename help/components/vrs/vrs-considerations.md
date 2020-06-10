@@ -5,7 +5,10 @@ title: Grupos de informes virtuales y consideraciones sobre el etiquetado de gru
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '1735'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +55,7 @@ Cada sitio tiene diferentes necesidades de implementación. Algunas dimensiones 
 
 Asegúrese de que el número de dimensiones y métricas únicas se pueda ajustar a un único grupo de informes globales. Si descubre que hay demasiadas dimensiones o métricas únicas, revise cada dimensión dentro de cada implementación. Es probable que haya superposición y dimensiones que no sean cruciales para el éxito del negocio. Considere también utilizar [las clasificaciones](/help/components/c-classifications2/c-classifications.md). Por ejemplo, en lugar de capturar el “Nombre de producto” en eVar5, cree una clasificación de “Nombre de producto” basada en la dimensión “Producto”. Las clasificaciones de un grupo de informes de origen están disponibles automáticamente para todos los grupos de informes virtuales dependientes.
 
->[!TIP] Con la introducción de la [protección](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md), puede cambiar el nombre de una dimensión o métrica determinada por VRS.
+>[!TIP] Con la introducción de la [protección](/help/analyze/analysis-workspace/curate-share/curate.md), puede cambiar el nombre de una dimensión o métrica determinada por VRS.
 
 ### Matices de segmentación
 
