@@ -5,9 +5,9 @@ subtopic: Visitors
 title: Identificar visitantes únicos
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 96%
 
 ---
@@ -119,7 +119,7 @@ También puede pasar un &quot;1&quot; o un &quot;5&quot; en las solicitudes de i
 
 Por lo general, el método de ID de suscriptor resulta más fiable que las cookies a la hora de identificar usuarios debido a la posible eliminación de cookies, a los problemas de aceptación de estas y a los relacionados con la administración de cookies de puerta de enlace.
 
-Puede mejorar los cambios de identificación de un visitante agregándose a la lista &quot;permitida&quot; para el portador que utilizan sus visitantes móviles. Para obtener acceso al ID de visitante del portador, póngase en contacto con el portador para agregar su dominio a su lista &quot;permitida&quot;. Si se encuentra en la lista permitida de un operador, también tiene acceso a los encabezados de ID de suscriptor a los que de otro modo no podrá acceder.
+Puede mejorar los cambios en la identificación de un visitante agregándose a la lista de permitidos para la portadora que utilizan sus visitantes móviles. Para obtener acceso al ID de visitante del portador, póngase en contacto con el portador para agregar su dominio a su lista de permitidos. Si está en la lista de permitidos de un operador, también tiene acceso a los encabezados de ID de suscriptor a los que de otra manera no podría acceder.
 
 Los encabezados de la siguiente lista se usan para identificar dispositivos inalámbricos. El algoritmo de procesamiento de encabezados se usa para:
 
