@@ -5,7 +5,10 @@ title: Referencia sobre el archivo de importación
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +26,7 @@ Para generar una plantilla de importación, utilice el asistente para fuentes de
 
 Para identificar los datos en las diferentes columnas del archivo de fuente de datos se usan encabezados de columna, que pueden ser de tres tipos:
 
-**Fecha** (obligatorio): una marca temporal para cada fila de datos en el archivo.
+**Fecha**: (Requerido) Una marca de hora para cada fila de datos del archivo, en el formato `m/d/yyyy`.
 
 **Variables**: nombres de las variables de informes asignadas a las dimensiones de datos de la fuente de datos.
 
