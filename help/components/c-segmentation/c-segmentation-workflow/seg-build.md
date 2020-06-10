@@ -4,10 +4,10 @@ title: Generar segmentos
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
+source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 92%
+source-wordcount: '2037'
+ht-degree: 90%
 
 ---
 
@@ -74,19 +74,7 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
 
 Los segmentos con intervalos de fechas incorporados siguen operando en Analysis Workspace de forma distinta a como lo hacen en [!UICONTROL Reports &amp; Analytics]. En Workspace, un segmento con un intervalo de fechas integrado anula el intervalo de fechas del panel. Por su parte, en [!UICONTROL Reports &amp; Analytics] se emplea la intersección del intervalo de fechas del informe y el intervalo de fechas integrado del segmento.
 
-**[!UICONTROL Publicar en Experience Cloud (para`<report suite name>`)]**: (No se muestra en pantalla) Esta opción solo aparece si el grupo de informes en el que está guardando este segmento está [habilitado para Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Al publicar un segmento en Experience Cloud, puede utilizarlo para la actividad de marketing en la [!UICONTROL biblioteca de audiencias], en [!DNL Target] y en [!DNL Audience Manager]. Es necesario introducir un título y una descripción de segmento.
-
->[!NOTE] En Analytics, puede editar o eliminar un segmento publicado. Si el segmento se encuentra en uso, aparece un mensaje de advertencia al editar un segmento. No puede eliminar un segmento publicado que Adobe [!DNL Target] esté usando.
-
-![](assets/segment_publish_to_mac_copy.png)
-
->[!IMPORTANT]
->
->Debe limitar la cantidad de audiencias compartidas de Analytics a 20 para evitar retrasos de procesamiento adicionales. Las audiencias compartidas en Experience Cloud desde Analytics no pueden superar los 20 millones de miembros únicos. Además, debido al almacenamiento en caché, los grupos de informes que se eliminan en Analytics tardan 12 horas en desaparecer de Experience Cloud.
-
->[!IMPORTANT]
->
->Una vez que un visitante se califica para la audiencia compartida desde Analytics, deben pasar de 24 a 48 horas antes de que pueda realizarse alguna acción sobre esa información en [!DNL Target], [!DNL Advertising Cloud] y [!DNL Campaign].
+**[!UICONTROL Publicación]** de Experience Cloud: (No se muestra en pantalla) Esta opción solo aparece si el grupo de informes en el que está guardando este segmento está [habilitado para Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md). Al publicar un segmento en Experience Cloud, puede utilizarlo para la actividad de marketing en la [!UICONTROL biblioteca de audiencias], en [!DNL Target] y en [!DNL Audience Manager]. [Obtenga más](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segmentation-workflow/seg-publish.html) información sobre la publicación de Experience Cloud.
 
 ## Generar segmentos {#build-segments}
 
