@@ -5,8 +5,11 @@ subtopic: data feeds
 title: Referencia de columnas de datos
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '3650'
+ht-degree: 99%
 
 ---
 
@@ -256,8 +259,8 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `videoshow` | Programa del vídeo | varchar(255) |
 | `videoshowtype` | Tipo de programa del vídeo | varchar(255) |
 | `videostreamtype` | Tipo de flujo de vídeo | varchar(255) |
-| `visid_high` | Se utiliza en combinación con visid_low para identificar una visita de forma exclusiva. | bigint sin firmar |
-| `visid_low` | Se utiliza en combinación con visid_high para identificar una visita de forma exclusiva. | bigint sin firmar |
+| `visid_high` | Se utiliza en combinación con visid_low para identificar un visitante de forma única. | bigint sin firmar |
+| `visid_low` | Se utiliza en combinación con visid_high para identificar un visitante de forma única. | bigint sin firmar |
 | `visid_new` | Indicador que identifica si la visita contiene una ID de visitante generada recientemente. | char(1) |
 | `visid_timestamp` | Si la ID de visitante se ha generado recientemente, proporciona la marca de tiempo (en Tiempo Unix) del momento en que se generó la ID de visitante. | int |
 | `visid_type` | ID numérica que representa qué método se ha utilizado para identificar al visitante. <br>0: VisitorID personalizado <br>1: IP y reserva del agente de usuario <br>2: Encabezado de suscriptor móvil HTTP <br>3: Valor de la cookie heredada (s_vi) <br>4: Valor de cookie de reserva (s_fid) <br>5: Servicio de identidad | tinyint sin firmar |
