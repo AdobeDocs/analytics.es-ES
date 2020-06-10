@@ -5,7 +5,10 @@ title: Conversión
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +28,8 @@ Cuando se indica un evento Vista, también hay que indicar la dimensión de dato
 | Código de seguimiento | Nombre del código de seguimiento. |
 | Fecha | Utilice este formato de fecha: MM/DD/AAAA/HH/mm/SS (por ejemplo, 01/01/2015/06/00/00) |
 | Categoría | Nombre de la categoría.  Si se indica una categoría, también se debe seleccionar un producto. |
-| Canal | Nombre del canal. |
-| eVarn | Nombre de la eVarn. Los valores válidos para n son los números enteros entre 1 y 75. |
+| Channel | Nombre del canal. |
+| eVarn | Nombre de la eVarn. Los valores válidos para n son los números enteros entre 1 y 250. |
 | Product | Nombre del producto. |
 | Estado | Nombre del estado. |
 | Zip | Nombre del código postal. |
@@ -42,7 +45,7 @@ Cuando se indica un evento Vista, también hay que indicar la dimensión de dato
 | Vistas del carro de compras | Número de vistas del carro de compras. |
 | Cierres de compra | Número de cierres de compra. |
 | Evento n | Cantidad de veces que se produjo el evento n. Los valores válidos para n son los números enteros entre 1 y 100.  Cuando se indica un evento Vista, también hay que indicar la dimensión de datos (eVar) correspondiente. Por ejemplo, si se incluyen las vistas de eVar2, se deberá indicar la eVar2 con un valor. |
-| Vistas de eVarn | Cantidad de veces que se vio la eVar n. Los valores válidos para n son los números enteros entre 1 y 75. |
+| Vistas de eVarn | Cantidad de veces que se vio la eVar n. Los valores válidos para n son los números enteros entre 1 y 250. |
 | Precio | Precio del producto. |
 | Pedidos | Número de pedidos asentados. |
 | Vistas del producto | Número de vistas del producto. |
