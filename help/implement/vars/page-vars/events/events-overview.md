@@ -2,7 +2,10 @@
 title: events
 description: Configure la variable “events” (eventos), que gobierna la mayoría de las métricas del sitio.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 92%
 
 ---
 
@@ -34,13 +37,13 @@ Hay varias funciones disponibles:
 La variable `s.events` es una cadena que contiene una lista de eventos delimitada por comas que se pueden incluir en la visita. No hay límite de bytes para esta variable, por lo que no se trunca. Los valores válidos son los siguientes:
 
 * `event1` - `event1000`: Eventos personalizados, establezca lo que desee. Registre cómo se utiliza cada evento en el [documento de diseño de soluciones](../../../prepare/solution-design.md) de su organización. El número de eventos disponibles depende del contrato de Analytics de su organización. La mayoría de las organizaciones con contratos no incluidos tienen disponibles 1000 eventos personalizados. Contacte con el administrador de cuentas de su organización si no está seguro de cuántos eventos personalizados tiene a su disposición.
-* `purchase`: Aumenta la métrica “Pedidos” en 1 y toma los valores establecidos en la variable `products` para calcular “Unidades” e “Ingresos”. Consulte [Evento de compra](event-purchase.md) para obtener más información.
-* `prodView`: Aumenta la métrica “Vistas del producto”.
-* `scOpen`: Aumenta la métrica “Carros de compras”.
-* `scAdd`: Aumenta la métrica “Adiciones al carro de compras”.
-* `scRemove`: Aumenta la métrica “Eliminaciones del carro de compras”.
-* `scView`: Aumenta la métrica “Vistas del carro de compras”.
-* `scCheckout`: Aumenta la métrica “Compras finalizadas”.
+* `purchase`:: Aumenta la métrica [&#39;Pedidos&#39;](/help/components/metrics/orders.md) en 1 y toma los valores establecidos en la `products` variable para calcular [&#39;Unidades&#39;](/help/components/metrics/units.md) e [&#39;Ingresos&#39;](/help/components/metrics/revenue.md). Consulte [Evento de compra](event-purchase.md) para obtener más información.
+* `prodView`:: Aumenta la métrica [&#39;Vistas](/help/components/metrics/product-views.md) del producto.
+* `scOpen`:: Aumenta la métrica [&#39;Carros de compras&#39;](/help/components/metrics/carts.md) .
+* `scAdd`:: Aumenta la métrica [&#39;Adiciones al carro de compras&#39;](/help/components/metrics/cart-additions.md) .
+* `scRemove`:: Aumenta la métrica [&#39;Eliminaciones del carro de compras&#39;](/help/components/metrics/cart-removals.md) .
+* `scView`:: Aumenta la métrica [&#39;Vistas del carro de compras](/help/components/metrics/cart-views.md) .
+* `scCheckout`:: Aumenta la métrica [&#39;Cierres de compras&#39;](/help/components/metrics/checkouts.md) .
 
 >[!NOTE]: Esta variable distingue entre mayúsculas y minúsculas. Evite utilizar mayúsculas y minúsculas en los valores de eventos para garantizar una recopilación de datos precisa.
 
