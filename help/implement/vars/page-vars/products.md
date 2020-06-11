@@ -2,7 +2,10 @@
 title: products
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 89%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La variable `products` rastrea productos y propiedades vinculados a ellos. Esta variable se configura generalmente en páginas de productos individuales, páginas del carro de compras y páginas de confirmación de compra. Es una variable de varios valores, lo que significa que puede enviar varios productos en la misma visita y Adobe analiza el valor en valores de dimensión independientes.
 
->[!NOTE] Si esta variable se configura en una visita individual sin un evento de carro de compras en la variable [`events`](events/events-overview.md), la métrica “Vistas del producto” se incrementa en 1. Asegúrese de configurar el evento de carro de compras correspondiente en cada visita.
+> [!NOTE] Si esta variable se configura en una visita individual sin un evento de carro de compras en la [`events`](events/events-overview.md) variable, la métrica Vistas [de](/help/components/metrics/product-views.md) productos se incrementa en 1. Asegúrese de establecer el evento del carro de compras correspondiente en cada visita individual con la `products` variable.
 
 ## Productos en Adobe Experience Platform Launch
 
@@ -33,7 +36,7 @@ La variable `s.products` es una cadena que contiene varios campos delimitados po
 * **Cantidad** (opcional): Cuántos de estos productos están en el carro de compras. Este campo solo se aplica a las visitas con el evento de compra.
 * **Precio** (opcional): El precio total del producto como decimal. Si la cantidad es mayor que 1, establezca el precio en el total y no en el precio del producto individual. Alinee la moneda de este valor para que coincida con la variable [`currencyCode`](../config-vars/currencycode.md). No incluya el símbolo de moneda en este campo. Este campo solo se aplica a las visitas con el evento de compra.
 * **Eventos** (opcional): Eventos asociados al producto. Delimite varios eventos con una barra vertical (`|`). Consulte [events](events/events-overview.md) (eventos) para obtener más información.
-* **eVars** (opcional): eVars de comercialización vinculadas al producto. Delimite varias eVars de comercialización con una barra vertical (`|`). Consulte [eVars de comercialización](../../../components/c-variables/c-merch-variables/var-merchandising.md) para obtener más información.
+* **eVars** (opcional): eVars de comercialización vinculadas al producto. Delimite varias eVars de comercialización con una barra vertical (`|`). Consulte [eVars de comercialización](evar-merchandising.md) para obtener más información.
 
 ```js
 // Set a single product using all available fields
@@ -47,7 +50,7 @@ Esta variable admite varios productos en la misma visita. Es útil para un carro
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
->[!IMPORTANT] Elimine todos los puntos y comas, y las tuberías de los nombres de productos, categorías y valores de eVar de comercialización. Si el nombre de un producto incluye una coma, AppMeasurement la analiza como el inicio de un nuevo producto. Este error en el análisis elimina el resto de la cadena de producto, lo que provoca datos incorrectos en dimensiones e informes.
+> [!IMPORTANT] Elimine todos los puntos y comas, y las tuberías de los nombres de productos, categorías y valores de eVar de comercialización. Si el nombre de un producto incluye una coma, AppMeasurement la analiza como el inicio de un nuevo producto. Este error en el análisis elimina el resto de la cadena de producto, lo que provoca datos incorrectos en dimensiones e informes.
 
 ## Ejemplos
 
@@ -61,7 +64,7 @@ s.products = "Example category;Example product";
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = "Example category;Example product,;Example product";
+s.products = "Example category;Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
