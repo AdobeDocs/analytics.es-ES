@@ -2,10 +2,10 @@
 description: Quick Insights es una herramienta para nuevos usuarios de Workspace que les guía en la creación de tablas de datos y visualizaciones
 title: Panel de perspectivas rápidas
 translation-type: tm+mt
-source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
+source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 2%
+source-wordcount: '1066'
+ht-degree: 3%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL El panel de perspectivas]** rápidas se encuentra actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL El panel de perspectivas]** rápidas se encuentra actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] proporciona una guía a los no analistas y a los nuevos usuarios de [!UICONTROL Análisis Workspace] para aprender a responder preguntas comerciales de forma rápida y sencilla. También es una buena herramienta para usuarios avanzados que desean responder a una pregunta simple rápidamente sin tener que crear una tabla ellos mismos.
 
 Al utilizar este espacio de trabajo [!UICONTROL de]Análisis por primera vez, es posible que se pregunte qué visualizaciones serían más útiles, qué dimensiones y métricas podrían facilitar las perspectivas, dónde arrastrar y soltar elementos, dónde crear un segmento, etc.
 
-Para ayudarle con esto, y en función del uso que haga su propia compañía de los componentes de datos en [!UICONTROL Análisis Workspace], [!UICONTROL Quick Insights] aprovecha un algoritmo que le presentará las dimensiones, métricas, segmentos e intervalos de fechas más populares que utilice su compañía.
+Para ayudarle con esto, y en función del uso que haga su propia compañía de los componentes de datos en [!UICONTROL Análisis Workspace], [!UICONTROL Quick Insights] aprovecha un algoritmo que le presentará las dimensiones, métricas, segmentos e intervalos de fechas más populares que utilice su compañía. De hecho, verá dimensiones, métricas y segmentos etiquetados como [!UICONTROL populares] en la lista desplegable, como se muestra a continuación:
+
+![](assets/popular-tag.png)
 
 [!UICONTROL Quick Insights] le ayuda
 
@@ -64,7 +66,6 @@ A continuación se incluyen algunos de los términos básicos con los que debe e
 1. Cuando haya agregado al menos una dimensión y una métrica, se creará lo siguiente:
 
    * Una tabla improvisada con la dimensión (aquí, Estados de EE.UU.) verticalmente y la métrica (aquí, Visitas) horizontalmente en la parte superior. Consulte esta tabla:
-
    ![](assets/qibuilder3.png)
 
    * Una visualización adjunta, en este caso un gráfico [de barras](/help/analyze/analysis-workspace/visualizations/bar.md). La visualización que se genera se basa en el tipo de datos agregados a la tabla. Cualquier dato basado en el tiempo (como [!UICONTROL Visitas] por día/mes) tiene un gráfico de [!UICONTROL líneas] predeterminado. Cualquier dato no basado en el tiempo (como [!UICONTROL Visitas] por [!UICONTROL dispositivo]) tiene el valor predeterminado de un gráfico de [!UICONTROL barras] . Puede cambiar el tipo de visualización haciendo clic en la flecha desplegable situada junto al tipo de visualización.
