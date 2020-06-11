@@ -3,7 +3,10 @@ description: Introducción a Adobe Analytics.
 keywords: Analysis Workspace
 title: Guía de introducción
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 98%
 
 ---
 
@@ -26,9 +29,9 @@ Extraer un informe de clasificación básico con Analysis Workspace. Un informe 
 4. Haga clic en el botón Crear nuevo proyecto.
 5. En la ventana emergente modal, compruebe que está seleccionado “Proyecto en blanco” y, a continuación, haga clic en Crear.
 6. A la izquierda, debería ver una lista de dimensiones, métricas, segmentos e intervalos de fechas. Busque la dimensión Páginas (de color naranja) y arrástrela al lienzo hasta la zona con el texto “Coloque una dimensión aquí”.
-7. Tenga en cuenta que si el grupo de informes tiene datos, se puede ver un informe que muestre las páginas principales de este mes. Analysis Workspace llenó automáticamente el informe con la métrica [Ocurrencias](/help/components/c-variables/c-metrics/metrics-occurrences.md).
+7. Tenga en cuenta que si el grupo de informes tiene datos, se puede ver un informe que muestre las páginas principales de este mes. Analysis Workspace llenó automáticamente el informe con la métrica [Ocurrencias](/help/components/metrics/occurrences.md).
 8. Busque la métrica Visitas (de color verde) y arrástrela **sobre** o **junto** al encabezado de la métrica Ocurrencias (evite colocarla encima de la métrica). Si arrastra la métrica Visitas sobre Ocurrencias, la métrica se reemplaza en los informes. Si arrastra la métrica Visitas junto a Ocurrencias, ambas métricas se mostrarán una al lado de la otra.
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+9. Si desea guardar el proyecto, haga clic en *[!UICONTROL Proyecto] > [!UICONTROL Guardar]* en el menú superior izquierdo.
 
 ## Extraer un informe de tendencias básico en Workspace
 
@@ -44,13 +47,13 @@ Extraer un informe de tendencias básico con Analysis Workspace. Un informe de t
 8. Busque el intervalo de fechas de la semana (de color púrpura) en la lista de componentes de intervalo de fechas de la izquierda. Haga clic en el título del intervalo de fechas para expandir y ver todos los componentes del intervalo de fechas o utilice la barra de búsqueda.
 9. Arrastre el intervalo de fechas de la semana sobre el encabezado del intervalo de fechas del día en el lienzo para reemplazarlo.
 10. Tenga en cuenta que el informe de tendencias ahora se agrega por semana en lugar de por día.
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+11. Si desea guardar el proyecto, haga clic en *[!UICONTROL Proyecto] > [!UICONTROL Guardar]* en el menú superior izquierdo.
 
 ## Experimente con la herramienta
 
 Como Analysis Workspace es una herramienta de generación de informes, no afecta a la recopilación de datos. No hay repercusiones en arrastrar indiscriminadamente componentes a un proyecto para ver qué funciona. Arrastre diferentes combinaciones de dimensiones y métricas al proyecto del espacio de trabajo para ver qué hay disponible.
 
-Si arrastra accidentalmente un componente no válido al proyecto del espacio de trabajo o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+Si arrastra accidentalmente un componente no válido al proyecto del espacio de trabajo o desea volver atrás un paso, pulse ctrl+Z (Windows) o cmd+Z (Mac) para deshacer la última acción realizada. También puede empezar de nuevo haciendo clic en *[!UICONTROL Proyecto] > [!UICONTROL Nuevo]* en el menú superior izquierdo.
 
 ## Resolución de problemas
 
@@ -71,7 +74,7 @@ Si crea correctamente un informe de espacio de trabajo pero no hay datos, puede 
 
 * [Notas de la versión de Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md): Descubra las últimas funciones introducidas en la herramienta.
 * [Analysis Workspace en YouTube](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS): Aprenda a utilizar la mayoría de las funciones de Analysis Workspace mediante esta extensa lista de reproducción.
-* Sugerencias del producto: Las sugerencias del día, junto con vídeos cortos, aparecen ocasionalmente en la esquina inferior derecha de Analysis Workspace. If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
+* Sugerencias del producto: Las sugerencias del día, junto con vídeos cortos, aparecen ocasionalmente en la esquina inferior derecha de Analysis Workspace. Si omite estas sugerencias, siempre se puede acceder a ellas a través de *[!UICONTROL Ayuda] > [!UICONTROL Sugerencias]*.
 * [Comunidad de Analysis Workspace](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): Analice Analysis Workspace con otros usuarios y vote las funcionalidades que desee ver en la herramienta.
 * Publicaciones del blog:
    * [Fortalecer las empresas con un análisis más inteligente](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
