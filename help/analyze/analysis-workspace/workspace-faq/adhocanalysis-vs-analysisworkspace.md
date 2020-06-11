@@ -3,7 +3,10 @@ description: Compara la terminología y tareas de los Ad Hoc Analysis con las de
 title: Analysis Workspace comparado con los Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ Compara la terminología y tareas de los Ad Hoc Analysis con las de Analysis Wor
 
 Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al flujo de trabajo del explorador. Aunque parte de la terminología y la funcionalidad se comparten entre ambos productos, en Analysis Workspace se han introducido nuevos términos y enfoques de análisis.
 
-[Aquí](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html) tiene una comparativa técnica de las características principales y los requisitos del sistema de ambos productos.
+[Aquí](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-overview/analytics-product-comparison.html) tiene una comparativa técnica de las características principales y los requisitos del sistema de ambos productos.
 
 ## Comparación de terminología clave  {#section_6109406B83B043A18E46D38F130B1D2E}
 
@@ -100,7 +103,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution-iq.md"  > Attribution IQ</a> en Analysis Workspace permite agregar muchos tipos nuevos de modelos de atribución a las Tablas improvisadas, Visualizaciones y Métricas calculadas. </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> en Analysis Workspace permite agregar muchos tipos nuevos de modelos de atribución a las Tablas improvisadas, Visualizaciones y Métricas calculadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>No se incluye </p> </td> 
