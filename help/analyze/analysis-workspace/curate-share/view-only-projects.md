@@ -3,9 +3,9 @@ description: Proyectos solo de Vista en Workspace
 keywords: View-only projects
 title: Proyectos de Workspace solo de Vista
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
@@ -23,12 +23,13 @@ Las interacciones desactivadas en un proyecto solo de vista incluyen:
 
 * Barra izquierda oculta
 * Grupo de informes
-* Intervalo de fechas del calendario del panelNota: Si desea otorgar control de calendario a destinatarios, agregue un filtro [desplegable con intervalos](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)de fechas.
+* Intervalo de fechas del calendario del panel. Nota: Si desea otorgar control de calendario a destinatarios, agregue un filtro [desplegable con intervalos](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)de fechas.
 * Filtro improvisado
 * N.º de filas visibles de forma libre
 * Configuración de fila, columna o visualización improvisada
 * Segmentos de panel
 * Menús Editar, Insertar y Componente
+* Sugerencias del espacio de trabajo
 
 ## Interacciones habilitadas
 
