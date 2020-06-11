@@ -2,7 +2,10 @@
 title: Crear un informe básico en Analysis Workspace
 description: Información sobre la creación de un informe básico en Analysis Workspace en un formato dirigido a usuarios familiarizados con herramientas de terceros, como Google Analytics.
 translation-type: tm+mt
-source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +39,7 @@ Cree un informe de todas las páginas (similar al de Google Analytics) arrastran
 1. Haga clic en el botón Crear nuevo proyecto.
 1. En la ventana emergente modal, compruebe que está seleccionado “Proyecto en blanco” y, a continuación, haga clic en Crear.
 1. A la izquierda se muestra una lista de dimensiones, métricas, segmentos e intervalos de fechas. Busque la dimensión Páginas (de color naranja) y arrástrela al lienzo denominado “Coloque una dimensión aquí”.
-1. Se puede ver un informe que muestra las páginas más visitadas del mes actual. Analysis Workspace rellena automáticamente el informe con la métrica [Ocurrencias](/help/components/c-variables/c-metrics/metrics-occurrences.md).
+1. Se puede ver un informe que muestra las páginas más visitadas del mes actual. Analysis Workspace rellena automáticamente el informe con la métrica [Ocurrencias](/help/components/metrics/occurrences.md).
 1. Una tabla de Google Analytics suele contener entre siete y ocho métricas. Busque la métrica Tasa de salida hacia otro sitio (de color verde) y arrástrela junto al encabezado de la métrica Ocurrencias. Si arrastra la métrica Tasa de salida hacia otro sitio junto a Ocurrencias, ambas métricas se muestran una al lado de la otra.
 1. Muchas métricas se pueden colocar en paralelo, arrastrándolas junto a los encabezados de las métricas incluidas previamente. Consulte [las métricas de uso común](common-metrics.md) para obtener información sobre el acceso a las métricas empleadas normalmente en Google Analytics.
 
