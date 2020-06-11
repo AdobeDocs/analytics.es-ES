@@ -2,7 +2,10 @@
 description: Lista de limitaciones conocidas en Adobe Analysis Workspace y componentes relacionados
 title: Limitaciones conocidas en Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 100%
 
 ---
 
@@ -17,32 +20,32 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 * La creación de métricas a partir de una selección se desactiva cuando los segmentos se utilizan como filas de una tabla. Además, la creación de una métrica a partir de una selección no debe aplicarse a columnas alineadas con la fecha.
 * El formato condicional de las filas de desglose no puede utilizar intervalos personalizados.
 * Las filas totales de la tabla no pueden incluir tendencias cuando se calculan los totales sumando la configuración de valores de fila (generalmente se utiliza con elementos de fila estáticos).
-* [!UICONTROL Contribution Analysis] puede ejecutarse con la [!UICONTROL daily] granularidad _solamente_. It cannot be run against [!UICONTROL hourly], [!UICONTROL weekly], etc., data.
+* [!UICONTROL El análisis de contribución] se puede ejecutar _solo_ con la granularidad [!UICONTROL diaria]. No se puede ejecutar con datos [!UICONTROL por hora], [!UICONTROL semanales], etc.
 
 ## Visualizaciones
 
-* Visualizations that leverage segmentation, such as [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort], and [!UICONTROL Histogram], cannot accept calculated metrics as inputs.
-* [!UICONTROL Flow]:: Dimensiones de entrada y salida, por ejemplo: [!UICONTROL Entry page], no se puede usar en Flujo.
-* [!UICONTROL Cohort]:: Los no enteros no se pueden usar como criterios de cohorte.
+* Las visualizaciones que aprovechan la segmentación, como [!UICONTROL Abandonos], [!UICONTROL Flujos], [!UICONTROL Cohorte] e [!UICONTROL Histograma], no pueden aceptar las métricas calculadas como entradas.
+* [!UICONTROL Flujo]: Las dimensiones de entrada y salida, por ejemplo: [!UICONTROL página de entrada], no se pueden usar en Flujos.
+* [!UICONTROL Cohorte]: Los números no enteros no se pueden usar como criterios de cohorte.
 
 ## Paneles
 
-* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.
+* Comparación de segmentos: El segmento [!UICONTROL Todos los demás] no se crea si se utiliza una plantilla de segmento en la zona de colocación inicial.
 
 ## Componentes > Segmentos
 
-* Certain metrics and dimensions are not segmentable, such as [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], etc.
-* Certain components and operators are unavailable if a segment is created from Workspace (as opposed to being created from [!UICONTROL Components > Segments]). Por ejemplo, Dirección IP.
+* Ciertas métricas y dimensiones no se pueden segmentar, como [!UICONTROL Ocurrencias], [!UICONTROL Visitantes únicos], etc.
+* Determinados componentes y operadores no están disponibles si se crea un segmento desde Workspace (en lugar de hacerlo desde [!UICONTROL Componentes > Segmentos]). Por ejemplo, Dirección IP.
 
 ## Componentes > Métricas calculadas
 
 * Las métricas calculadas no se pueden usar en determinadas visualizaciones. Consulte “Visualizaciones”.
 * Las métricas calculadas no se pueden usar en el panel de [!UICONTROL Attribution], ya que las métricas calculadas pueden incluir modelos de atribución independientes.
-* Certain components and operators are unavailable if a calculated metric is created from Workspace (as opposed to being created from [!UICONTROL Components > Segments]). Por ejemplo: [!UICONTROL IP Address].
+* Determinados componentes y operadores no están disponibles si se crea una métrica calculada desde Workspace (en lugar de hacerlo desde [!UICONTROL Componentes > Segmentos]). Por ejemplo, [!UICONTROL Dirección IP].
 
 ## Componentes > Intervalos de fechas
 
-* Los intervalos de fechas personalizados no son compatibles [!UICONTROL This day last year], [!UICONTROL This day last month]etc.
+* Los intervalos de fechas personalizados no admiten [!UICONTROL Este día del año pasado], [!UICONTROL Este día del mes pasado], etc.
 
 ## Componentes > Grupos de informes virtuales
 
@@ -50,8 +53,8 @@ Esta es una lista de limitaciones conocidas en Analysis Workspace y sus componen
 
 ## Componentes > Configuración de informes
 
-* Some of the settings on the [!UICONTROL Report Settings] page do not apply. Espacio de trabajo de Análisis solo utiliza los [!UICONTROL Language/Currency/Encoding] ajustes de la parte inferior: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], y [!UICONTROL CSV Separator Character].
+* Algunas de las opciones de la página [!UICONTROL Configuración de informes] no se aplican. Analysis Workspace solo utiliza la configuración de [!UICONTROL Idioma, moneda y codificación] de la parte inferior: [!UICONTROL Separador de miles], [!UICONTROL Codificación de informes programados] y [!UICONTROL Carácter separador de CSV].
 
 ## Attribution IQ
 
-* A subset of metrics is not supported in [!UICONTROL Attribution IQ]. Para obtener una lista completa, consulte las preguntas más frecuentes sobre [Attribution IQ](/help/analyze/analysis-workspace/c-panels/attribution/attribution-faq.md).
+* Un subconjunto de métricas no se admite en [!UICONTROL Attribution IQ]. Para obtener una lista completa, consulte las preguntas más frecuentes sobre [Attribution IQ](../attribution/faq.md).
