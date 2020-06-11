@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 68bdfc581751f81e02725446bc98a84a22bdadd0
+source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1101'
 ht-degree: 97%
 
 ---
@@ -295,12 +295,14 @@ ht-degree: 97%
    + [Paneles e informes breves](reports-analytics/dashboard.md)
    + [Administrador de tableros](reports-analytics/dashboard-manage.md)
    + [Extracción de datos](reports-analytics/data-extract.md)
+   + [Informes de canal](reports-analytics/funnels.md)
    + [Métricas](reports-analytics/metrics.md)
    + [Objetivos](reports-analytics/targets.md)
    + [Alertas](reports-analytics/alerts.md)
    + [Eventos de calendario](reports-analytics/t-calendar-event.md)
    + [Solicitudes de Data Warehouse](reports-analytics/data-warehouse.md)
    + [Preguntas frecuentes](reports-analytics/frequently-asked-questions.md)
+   + [Resolución de problemas](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
    + Conversor de proyectos de Ad Hoc Analysis {#aha-project-converter}
       + [Resumen del conversor de proyectos de Ad Hoc Analysis](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
