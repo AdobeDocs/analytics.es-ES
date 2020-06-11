@@ -3,17 +3,17 @@ description: Uso compartido de proyectos y funciones de proyectos en Workspace
 keywords: Analysis Workspace sharing
 title: Compartir proyectos de Workspace
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 8%
+source-wordcount: '658'
+ht-degree: 9%
 
 ---
 
 
 # Compartir proyectos de Workspace
 
-El uso compartido hace que un proyecto esté disponible para otros usuarios de Espacio de trabajo de Análisis de su organización. Cualquier depuración que haya realizado se verá reflejada cuando los destinatarios abran el proyecto.
+El uso compartido hace que un proyecto esté disponible para otros usuarios de Espacio de trabajo de Análisis de su organización. Cualquier [depuración](curate.md) que haya aplicado se verá reflejada cuando los destinatarios abran el proyecto.
 
 ## Funciones de proyecto
 
@@ -28,15 +28,15 @@ Puede agregar destinatarios a una de las tres funciones del proyecto. Las funcio
 | Se puede duplicar | Los destinatarios pueden Guardar como y tienen acceso al panel izquierdo. Las interacciones son ilimitadas.<br>Esta función resulta útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo utilizar el espacio de trabajo de Análisis, pero no desea que se modifique el proyecto guardado. |
 | Se puede ver | Los Destinatarios no pueden guardar como y no tienen acceso al carril izquierdo. Las interacciones también son limitadas.<br>Esta función resulta útil si desea compartir un proyecto con usuarios que estén menos familiarizados con la estructura de datos de su organización, el espacio de trabajo de Análisis o Adobe Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro.<br>Obtenga más información sobre la experiencia [del proyecto](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Can vista. |
 
-**No se ha asignado ninguna función**
+### No se ha asignado ninguna función
 
 Si a un destinatario no se le asigna una función y recibe un vínculo al proyecto ([!UICONTROL Compartir] > [!UICONTROL Obtener vínculo]de proyecto), se colocará en la función [!UICONTROL &quot;vista posible&quot;] de forma predeterminada.
 
-**Múltiples funciones asignadas**
+### Múltiples funciones asignadas
 
 Si un destinatario se coloca en varios roles, siempre tendrá el control más alto. Esto puede ocurrir si se agrega un usuario como individuo y como parte de un grupo. Por ejemplo, si se proporcionan las funciones Puede editar y [!UICONTROL &quot;Puede vista&quot;] , el usuario 1 tendrá el control [!UICONTROL &quot;Puede editar&quot;] del proyecto.
 
-**Administradores y funciones**
+### Administradores y funciones
 
 Los administradores ubicados en una función [!UICONTROL&quot;Puede duplicado&quot;] o [!UICONTROL &quot;Puede vista&quot;] recibirán esas experiencias limitadas cuando abran un proyecto. Si lo desea, un administrador puede aumentar su función a [!UICONTROL &quot;Puede editar&quot;] en cualquier momento mediante [!UICONTROL Componentes] > [!UICONTROL Proyectos].
 
@@ -75,9 +75,4 @@ Si se seleccionan varios proyectos para compartirlos, se agregarán destinatario
 * Con el proyecto A y B seleccionado, los usuarios 4 y 7 se agregan a las listas de destinatario. La nueva lista de destinatario para cada proyecto ahora es:
    * Proyecto A: 1, 2, 3, 4, 7
    * Proyecto B: 4, 5, 6, 7
-
    ![](assets/mult-proj-sharing.png)
-
-## Programar proyectos
-
-También puede programar proyectos desde el menú [!UICONTROL Compartir] , a [!UICONTROL Enviar archivo ahora] o a [!UICONTROL Enviar archivo según lo programado]. El formato del archivo enviado puede ser PDF o CSV. Obtenga más información sobre la programación [del](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)proyecto.
