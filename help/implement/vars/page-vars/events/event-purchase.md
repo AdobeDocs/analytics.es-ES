@@ -2,7 +2,10 @@
 title: Evento de compra
 description: Utilice el evento de compra para recopilar datos de las métricas “Pedidos”, “Unidades” e “Ingresos”.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +19,8 @@ Al configurar un evento de compra, este afecta a las siguientes métricas:
 * La métrica “Pedidos” se incrementa en 1
 * La métrica “Unidades” aumenta por el número de productos en la variable `products`
 * La métrica “Ingresos” aumenta por la suma de los parámetros de precio en la variable `products`
+
+>[!NOTE] Los ingresos no se multiplican por el campo de cantidad. For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. Por ejemplo,`s.products="Womens;Socks;5;22.50"`.
 
 ## Configurar el evento de compra en Adobe Experience Platform Launch
 
