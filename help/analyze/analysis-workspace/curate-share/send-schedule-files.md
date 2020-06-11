@@ -1,18 +1,21 @@
 ---
 description: Puede compartir y revisar proyectos, así como enviar archivos de proyecto (en los formatos PDF o CSV) inmediatamente o siguiendo una planificación.
-title: Uso compartido y programación de archivos de proyecto
+title: Menú Compartir
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 96%
 
 ---
 
 
-# Uso compartido y programación de archivos de proyecto
+# Menú Compartir
 
 Puede compartir y revisar proyectos, así como enviar archivos de proyecto (en los formatos PDF o CSV) inmediatamente o siguiendo una planificación.
 
-**[!UICONTROL Workplace]** > **[!UICONTROL Share]**
+**[!UICONTROL Workplace]** > **[!UICONTROL Compartir]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
@@ -24,7 +27,7 @@ Puede compartir y revisar proyectos, así como enviar archivos de proyecto (en l
  <tbody> 
   <tr> 
    <td colname="col1"> Compartir proyecto </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > Más información</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > Más información</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Obtener vínculo del proyecto </td> 
