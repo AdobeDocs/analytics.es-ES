@@ -2,7 +2,10 @@
 title: Informes de conversión en Adobe Analytics
 description: Obtenga información sobre el uso de los informes de conversión en Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ La visualización de abandonos no se limita solo a la dimensión Páginas. Cualq
 
 Los informes de comercio electrónico los suelen utilizar los sitios en los que se venden productos o servicios, para medir los pedidos y los ingresos que generan los artículos. Esta característica está disponible en Adobe Analytics y se conoce como Informes de productos.
 
-Tanto los informes de comercio electrónico de Google Analytics como los informes de productos de Adobe Analytics necesitan cambios de implementación personalizados para su uso. Consulte la dimensión [Productos](/help/components/c-variables/dimensionslist/reports-products.md) en la guía de usuario de componentes para obtener más información.
+Tanto los informes de comercio electrónico de Google Analytics como los informes de productos de Adobe Analytics necesitan cambios de implementación personalizados para su uso. Consulte la dimensión [Productos](/help/components/dimensions/product.md) en la guía de usuario de componentes para obtener más información.
 
 ## Informes de embudo multicanal
 
