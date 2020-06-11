@@ -3,7 +3,10 @@ description: La configuración de columna le permite configurar el formato de la
 title: Configuración de columna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +17,7 @@ La configuración de columna le permite configurar el formato de la columna, aun
 
 ## Configuración de columna {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
-To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
+Para acceder a la [!UICONTROL Configuración de columna], arrastre una tabla improvisada al proyecto y, a continuación, haga clic en el icono de engranaje en el encabezado de la columna.
 
 ![](assets/column_settings.png)
 
@@ -46,6 +49,19 @@ El formato condicional aplica formato que puede definir a los límites superior,
 | Generación automática | Genera automáticamente límites para el formato condicional. El límite superior es el valor máximo de esta columna. El límite inferior es el valor más bajo y el punto medio es la media entre los límites superior e inferior. |
 | Personalizado | Puede asignar de forma manual los valores de los campos Superior, Punto medio y Límite inferior para el formato condicional. Esto le proporciona la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
 | Vista previa de celdas de tabla | Muestra una vista previa del aspecto de cada una de las celdas con las opciones de formato seleccionadas actualmente aplicadas. |
+
+## Uso de modelos de atribución no predeterminados
+
+Análisis Workspace admite [atribución](../../attribution/overview.md) para casi cualquier métrica.
+
+1. Haga clic en el icono Configuración (engranaje) en una columna de Tabla improvisada.
+
+   ![Casilla de verificación Atribución](assets/attribution-checkbox.png)
+
+2. En **[!UICONTROL Configuración de datos]**, active **[!UICONTROL Utilizar modelo de atribución no predeterminado]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+
+   ![Seleccionar modelo de atribución](assets/attribution-select.png)
+
 
 >[!MORELIKETHIS]
 >
