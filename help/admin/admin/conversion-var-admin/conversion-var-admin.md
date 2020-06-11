@@ -5,7 +5,10 @@ title: Variables de conversión (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '1579'
+ht-degree: 90%
 
 ---
 
@@ -88,7 +91,7 @@ Descripciones de los campos utilizados al [editar variables de conversión](/hel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento de enlace de comercialización</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Si la comercialización está configurada como <span class="uicontrol">Sintaxis de variables de conversión</span>, los eventos seleccionados relacionarán el valor eVar con un producto. </p> <p>Para utilizar un evento de enlace, establezca <span class="uicontrol">Asignación en Más reciente</span>. Si la <span class="uicontrol">Asignación es el Valor original</span>, el primer enlace de producto de la eVar se mantendrá hasta que caduque la eVar. </p> </td> 
+   <td colname="col2"> <p>Si la comercialización está configurada como <span class="uicontrol">Sintaxis de variables de conversión</span>, los eventos seleccionados relacionarán el valor eVar con un producto. </p> <p>Para utilizar un evento de enlace, establezca <span class="uicontrol">Asignación en Más reciente</span>. Si la <span class="uicontrol">Asignación es el Valor original</span>, el primer enlace de producto de la eVar se mantendrá hasta que caduque la eVar. Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. Solo puede seleccionar eventos si también se selecciona la opción "Sintaxis de la variable de conversión".</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +105,7 @@ Hay dos maneras de que una eVar caduque:
 * Puede configurar la eVar para que caduque después de un período de tiempo o evento especificados.
 * Puede forzar la caducidad de una eVar restableciéndola, lo que resulta útil al cambiar el propósito de una variable.
 
-Por ejemplo, si cambia la caducidad de una eVar de 30 a 90 días, los valores de la eVar recopilados seguirán persistiendo durante el nuevo conjunto de caducidad (en este caso, 90 días). El sistema simplemente observa la configuración de caducidad actual y la última marca de tiempo establecida del valor de eVar recopilada para determinar la caducidad. Solo la **[!UICONTROL Reset]** opción caduca los valores y lo hace inmediatamente.
+Por ejemplo, si cambia la caducidad de una eVar de 30 a 90 días, los valores de la eVar recopilados seguirán persistiendo durante el nuevo conjunto de caducidad (en este caso, 90 días). El sistema simplemente observa la configuración de caducidad actual y la última marca de tiempo establecida del valor de eVar recopilada para determinar la caducidad. Solo la opción **[!UICONTROL Restablecer]** caduca los valores y lo hace inmediatamente.
 
 Otro ejemplo: Si se utiliza una eVar en mayo para reflejar promociones internas y caduca después de 21 días, y en junio se utiliza para capturar palabras clave de búsqueda interna, entonces el 1 de junio debe forzar la caducidad o restablecer la variable. Al hacerlo, no se incluyen los valores de la promoción interna en los informes de junio.
 
