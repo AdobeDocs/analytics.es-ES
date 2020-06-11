@@ -6,7 +6,10 @@ title: Personalizar herramientas de grupos de informes
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1162'
+ht-degree: 91%
 
 ---
 
@@ -15,19 +18,19 @@ source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
 
 >[!IMPORTANT]
 >
->La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]**.
 
 Habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero.
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
+**[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acceso a informes]** > **[!UICONTROL Herramientas del grupo de informes]** > **[!UICONTROL Personalizar]**
 
-La [!UICONTROL Customize Report Suite Tools] página concede a los miembros de un grupo acceso a los siguientes elementos.
+La página [!UICONTROL Personalizar herramientas del grupo de informes] concede a los miembros de un grupo acceso a los elementos que siguen.
 
 ![](assets/report-suite-tools.png)
 
 ## Descripciones de los campos
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
+Las opciones de esta página pertenecen a los grupos de informes seleccionados en la página [!UICONTROL Definir grupos de usuarios].
 
 | Elemento | Descripción |
 |--- |--- |
@@ -68,13 +71,13 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [Páginas de bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Las páginas de bots son para informes específicos de Informes y análisis, no para la administración de reglas de bots. Actualmente, no hay permiso para permitir la edición de reglas de bots.** Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
 | [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Los bots son para informes específicos de Informes y análisis, no para la administración de reglas de bots. Actualmente, no hay permiso para permitir la edición de reglas de bots.** Los bots permiten eliminar del grupo de informes el tráfico generado por arañas de Web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
 | [Informe del Data Warehouse personalizado](/help/export/data-warehouse/data-warehouse.md) | El Data Warehouse hace referencia a la copia de datos sin procesar para su almacenamiento y para elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Puede solicitar informes para mostrar las relaciones de datos avanzadas que hay entre los datos sin procesar en función de sus propias preguntas. |
-| [Visitas de retorno diario](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (Heredado) Informe que muestra el número de visitantes que vieron el sitio web más de una vez en un día determinado. Un día se define como el último período de 24 horas. |
+| Visitas de retorno diario | (Heredado) Informe que muestra el número de visitantes que vieron el sitio web más de una vez en un día determinado. Un día se define como el último período de 24 horas. |
 | [Administrador de fuentes de datos](/help/admin/admin/data-sources.md) | La función Fuentes de datos permite importar datos a Analytics desde fuentes sin conexión. |
 | [Excluir por dirección IP](/help/admin/admin/exclude-ip.md) | Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las actividades de sitio web internas, las pruebas del sitio y el uso por parte de los empleados, de los informes. |
 | ClickMap heredado | Otorga acceso al menú para la herramienta de superposición heredada ClickMap. |
 | Instalación heredada de ClickMap | Otorga derechos de instalación para la herramienta heredada de ClickMap. |
-| [Visitas de retorno](/help/components/c-variables/dimensionslist/reports-return-visits.md) | Informe que muestra el número de visitas en las que el número de visitas es mayor que 1. El informe de visitas de retorno incluye visitantes sin cookies. |
-| [Importador/Exportador de clasificaciones](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) y [Generador de reglas](https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidado en clasificaciones (ver más adelante). |
+| Visitas de retorno | Informe que muestra el número de visitas en las que el número de visitas es mayor que 1. El informe de visitas de retorno incluye visitantes sin cookies. |
+| [Importador/Exportador de clasificaciones](https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/classifications-importer/c-working-with-saint.html) y [Generador de reglas](https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | Consolidado en clasificaciones (ver más adelante). |
 | Administrador de fuentes de datos | Concede derechos a la Fuente de datos de Analytics. |
 | Clasificaciones | Combina los siguientes permisos: “Clasificaciones de tráfico”, “Clasificaciones de vídeo”, “Clasificaciones de conversión”, “Jerarquías de clasificación”, “Administrador de clasificaciones” e “Importador/Exportador de clasificaciones y Generador de reglas”.  Nota: Con este permiso, los usuarios pueden editar las clasificaciones de todos los grupos de informes, no solo los seleccionados. |
 | [Análisis de contribución](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Concede permisos para utilizar los análisis de contribución en Analysis Workspace. |
