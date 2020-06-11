@@ -4,7 +4,7 @@ title: Información general de Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 32%
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 Analysis Workspace elimina todas las limitaciones típicas de un único informe de Analytics. Proporciona un lienzo flexible y robusto para la creación de proyectos de análisis personalizados. Arrastre y coloque cualquier número de tablas de datos, visualizaciones y componentes (dimensiones, métricas, segmentos y granularidades de tiempo) en un proyecto. Cree de forma instantánea desgloses y segmentos, cohortes para análisis y alertas, compare segmentos, realice análisis de flujo y visitas en el orden previsto, y revise y programe informes para compartir con cualquier persona de su empresa.
 
-Esta página contiene instrucciones básicas para comenzar. Una vez dominados los conceptos básicos, puede pasar a las funciones avanzadas de Workspace. Incluyen IQ [](/help/analyze/analysis-workspace/attribution-iq.md)de atribución, Detección [de](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)anomalías, Análisis [de](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)contribución, IQ [de](/help/analyze/analysis-workspace/segment-iq.md)segmento y Alertas [](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)inteligentes.
+Esta página contiene instrucciones básicas para comenzar. Una vez dominados los conceptos básicos, puede pasar a las funciones avanzadas de Workspace. Incluyen IQ [](/help/analyze/analysis-workspace/attribution/overview.md)de atribución, Detección [de](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)anomalías, Análisis [de](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)contribución, IQ [de](/help/analyze/analysis-workspace/segment-iq.md)segmento y Alertas [](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)inteligentes.
 
 A continuación se muestra un vídeo de descripción general de Workspace:
 
