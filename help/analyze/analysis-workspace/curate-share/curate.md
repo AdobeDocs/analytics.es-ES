@@ -3,10 +3,10 @@ description: La depuración permite limitar los componentes antes de compartir u
 keywords: Analysis Workspace curation
 title: Depurar proyectos de Workspace
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 39%
+source-wordcount: '491'
+ht-degree: 36%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 39%
 La depuración permite limitar los componentes (dimensiones, métricas, segmentos e intervalos de fechas) antes de compartir un proyecto. Cuando un destinatario abre el proyecto, verá un conjunto limitado de componentes que ha seleccionado para ellos. La depuración es un paso opcional pero recomendado antes de compartir un proyecto.
 
 >[!NOTE]
-> Los perfiles de productos son el mecanismo principal que controla los componentes que puede ver un usuario. Se administran mediante Admin Console. La depuración es un filtro secundario.
+> Los perfiles de productos son el mecanismo principal que controla los componentes que puede ver un usuario. Se administran mediante la Consola de administración de Adobe Experience Cloud. La depuración es un filtro secundario.
 
 ## Aplicar depuración de proyecto
 
@@ -26,13 +26,15 @@ Los componentes que se utilizan en el proyecto se añadirán automáticamente.
 1. (Opcional) Para agregar más componentes, arrastre los componentes que desee compartir desde el carril izquierdo al campo [!UICONTROL Depurar componentes] .
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
+La depuración también se puede aplicar desde el menú [!UICONTROL Compartir] haciendo clic en **[!UICONTROL Depurar y Compartir]**. Esta opción selecciona automáticamente el proyecto en los componentes que se utilizan en el proyecto. Puede agregar componentes adicionales siguiendo los pasos anteriores.
+
 ![](assets/curation-field.png)
+
+## vista de proyecto depurada
 
 Cuando un destinatario abre un proyecto depurado, solo verá el conjunto depurado de componentes que haya definido:
 
 ![](assets/curate-project.png)
-
-La depuración también se puede aplicar desde el menú [!UICONTROL Compartir] haciendo clic en **[!UICONTROL Depurar y Compartir]**. Esta opción selecciona automáticamente el proyecto en los componentes que se utilizan en el proyecto. Puede agregar componentes adicionales siguiendo los pasos anteriores.
 
 ## Eliminar revisión del proyecto
 
@@ -48,15 +50,15 @@ Para aplicar la revisión a nivel de grupo de informes, de modo que se aplique a
 >[!NOTE]
 > La depuración de grupos de informes virtuales siempre se aplica antes de la depuración de proyectos. Esto significa que, aunque el proyecto depurado incluya determinados componentes, se filtrarán si los grupos de informes virtuales depurados no los incluyen.
 
-### Mostrar todos los componentes
+## Mostrar todos los componentes, opción
 
 En un proyecto seleccionado o VRS, el destinatario tendrá la opción de **[!UICONTROL Mostrar todos los]** componentes en el carril izquierdo. [!UICONTROL Mostrar todo] revela diferentes conjuntos de componentes, según:
 
-* nivel de permisos del usuario (administrador o no administrador)
-* rol de proyecto (propietario/editor o no)
-* tipo de curación aplicada
+* Nivel de permiso del usuario (administrador o no administrador)
+* Función del proyecto (propietario/editor o no)
+* Tipo de curación aplicada (VRS o proyecto)
 
-| Tipo de depuración | Administradores | Propietarios de proyecto que no son administradores | No administradores |
+| Tipo de depuración | Administradores | Propietario del proyecto no administrador o función de edición | duplicado no administrador o función de vista |
 |---|---|---|---|
 | Grupos de informes virtuales depurados | Todos los componentes de grupos de informes virtuales no depurados | Componentes de grupos de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función | Componentes de grupos de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función |
 | Proyecto depurado | Todos los componentes de proyecto no depurados | Todos los componentes de proyecto no depurados | Componentes de proyecto no depurados que pertenecen a esta función o que se compartieron con esta función |
