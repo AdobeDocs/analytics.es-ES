@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -80,11 +80,7 @@ ht-degree: 97%
    + Paneles {#panels}
       + [Resumen de paneles](analysis-workspace/c-panels/panels.md)
       + [Panel de Analytics para Destinatario (A4T)](analysis-workspace/c-panels/a4t-panel.md)
-      + Panel de Attribution {#attribution}
-         + [Información general de Attribution](analysis-workspace/c-panels/attribution/attribution.md)
-         + [Uso del panel de Attribution](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [Preguntas más frecuentes sobre Attribution](analysis-workspace/c-panels/attribution/attribution-faq.md)
-         + [Atribución algorítmica](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [Panel de Attribution](analysis-workspace/c-panels/attribution.md)
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panel de perspectivas rápidas](analysis-workspace/c-panels/quickinsight.md)
@@ -100,7 +96,11 @@ ht-degree: 97%
       + [Uso compartido y programación de archivos de proyecto](analysis-workspace/curate-share/send-schedule-files.md)
       + [Envío de archivo: Programar un proyecto para su entrega](analysis-workspace/curate-share/t-schedule-report.md)
       + [Administrador de programación de informes](analysis-workspace/curate-share/schedule-projects.md)
-   + [Attribution IQ](analysis-workspace/attribution-iq.md)
+   + Attribution IQ {#attribution}
+      + [Información general de Attribution](analysis-workspace/attribution/overview.md)
+      + [Modelos de atribución y ventanas retroactivas](analysis-workspace/attribution/models.md)
+      + [Atribución algorítmica](analysis-workspace/attribution/algorithmic.md)
+      + [Preguntas más frecuentes](analysis-workspace/attribution/faq.md)
    + [IQ de segmento](analysis-workspace/segment-iq.md)
    + Analista virtual {#virtual-analyst}
       + [Descripción general del analista virtual](analysis-workspace/virtual-analyst/overview.md)
