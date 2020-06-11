@@ -2,7 +2,7 @@
 title: Personalización de informes en Adobe Analytics
 description: Descubra cómo personalizar informes en Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 78%
@@ -68,7 +68,7 @@ Para crear una medida calculada:
 4. Una vez que la métrica calculada contenga la fórmula deseada, haga clic en Guardar para volver al espacio de trabajo.
 5. Arrastre la métrica calculada recién definida al espacio de trabajo.
 
-   Obtenga más información sobre las [métricas calculadas](/help/components/c-variables/c-metrics/calculated-metric.md) en la Guía del usuario de componentes.
+   Obtenga más información sobre las [métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) en la Guía del usuario de componentes.
 
 ## Alertas personalizadas
 
