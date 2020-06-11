@@ -2,7 +2,10 @@
 title: visitorID
 description: Utilice un ID de visitante personalizado.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 71%
 
 ---
 
@@ -33,3 +36,5 @@ La variable `s.visitorID` es una cadena que contiene un identificador único per
 ```js
 s.visitorID = "abc123";
 ```
+
+>[!CAUTION] Una implementación no válida de los ID de visitante personalizados puede generar datos incorrectos y un rendimiento de sistema de informes deficiente. Si esta variable contiene un valor predeterminado (como `"0"` o `"NULL"`), Adobe trata estas visitas como si fueran el mismo visitante. Esta situación da como resultado datos incorrectos, con recuentos de visitantes bajos y segmentos de nivel de visitante que no funcionan según lo esperado. Los ID de visitante personalizados implementados incorrectamente también introducen una carga pesada en los servidores de procesamiento, lo que aumenta la [latencia](/help/technotes/latency.md) y disminuye el rendimiento del informe.
