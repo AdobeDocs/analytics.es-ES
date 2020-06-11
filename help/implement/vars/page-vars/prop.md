@@ -2,18 +2,23 @@
 title: prop
 description: Variables personalizadas que puede utilizar en su implementación.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 73%
 
 ---
 
 
 # prop
 
-Las propiedades son variables personalizadas que se pueden utilizar como desee.
+*Esta página de ayuda describe cómo implementar propiedades. Para obtener información sobre cómo funcionan las props como dimensiones, consulte[prop](/help/components/dimensions/prop.md)en la guía del usuario Componentes.*
 
->[!TIP] Adobe recomienda utilizar eVars en la mayoría de los casos. En versiones anteriores de Adobe Analytics, las props y las eVars tenían ventajas y desventajas entre sí. Sin embargo, Adobe ha mejorado las eVars y ahora sirven para todos los casos prácticos de las props. Consulte [eVars](evar.md) para ver una comparación de características entre estos dos tipos de variables personalizadas.
+Las propiedades son variables personalizadas que se pueden utilizar como desee. No persisten más allá de la visita que se establece.
 
-Si su organización utiliza propiedades, asegúrese de registrar su uso y lógica en el [documento de diseño de la solución](../../prepare/solution-design.md).
+> [!TIP][ Adobe recomienda utilizar eVars en la mayoría de los casos. ](evar.md) En versiones anteriores de Adobe Analytics, las props y las eVars tenían ventajas y desventajas entre sí. Sin embargo, Adobe ha mejorado las eVars y ahora sirven para todos los casos prácticos de las props.
+
+Si tiene un documento [de diseño de](/help/implement/prepare/solution-design.md)soluciones, puede asignar estas dimensiones personalizadas a valores específicos de su organización. El número de propiedades disponibles depende del contrato con Adobe. Hay disponibles hasta 75 props si su contrato con Adobe lo admite.
 
 ## Propiedades en Adobe Experience Platform Launch
 
@@ -26,7 +31,7 @@ Puede establecer propiedades durante la configuración de la extensión de Analy
 5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
 6. Busque la sección [!UICONTROL Props].
 
-Puede seleccionar una propiedad para establecer un valor o elemento de datos. También puede copiar el valor de otra variable de Analytics.
+Puede establecer una prop en un valor o un elemento de datos. También puede copiar el valor de otra variable de Analytics.
 
 ## “s.prop1 - s.prop75” en el editor de código personalizado de AppMeasurement y Launch
 
@@ -44,7 +49,7 @@ Las props de lista son una configuración aplicada a las propiedades que permite
 
 Habilite props de lista en la configuración del grupo de informes. Consulte [Variables de tráfico](/help/admin/admin/c-traffic-variables/traffic-var.md) en la guía de administración. Asegúrese de que el delimitador deseado está configurado correctamente. Adobe no proporciona un delimitador predeterminado.
 
->[!TIP] Los delimitadores comunes que se utilizan en las implementaciones son una coma (`,`), dos puntos (`:`), un punto y coma (`;`) o una barra vertical (`|`). Puede utilizar el delimitador que se adapte mejor a la implementación.
+> [!TIP] Los delimitadores comunes que se utilizan en las implementaciones son una coma (`,`), dos puntos (`:`), un punto y coma (`;`) o una barra vertical (`|`). Puede utilizar el delimitador que se adapte mejor a la implementación.
 
 ### Configurar props de lista
 
@@ -55,6 +60,6 @@ Una vez configuradas las props de lista en la configuración del grupo de inform
 s.prop1 = "value1,value2,value3";
 ```
 
->[!IMPORTANT] Las props de lista siguen estando sujetas a la longitud máxima de 100 bytes. No es raro que las props de lista alcancen este límite, por lo que se truncan, ya que pueden contener varios valores. Utilice abreviaciones o valores abreviados si prevé que se pueda alcanzar este límite de 100 bytes.
+> [!IMPORTANT] Las props de lista siguen estando sujetas a la longitud máxima de 100 bytes. No es raro que las props de lista alcancen este límite, por lo que se truncan, ya que pueden contener varios valores. Utilice abreviaciones o valores abreviados si prevé que se pueda alcanzar este límite de 100 bytes.
 
 Si establece el mismo valor más de una vez en una propiedad de lista, se anula la duplicación en sistema de informes. Espacio de trabajo de Análisis cuenta el número de visitas en las que se ve un valor y no el número de veces que existe un valor en los datos.
