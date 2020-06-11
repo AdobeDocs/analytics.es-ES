@@ -2,7 +2,10 @@
 title: Informes de adquisición en Adobe Analytics
 description: Información sobre la creación de informes basados en adquisiciones, usando Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 100%
 
 ---
 
@@ -53,9 +56,9 @@ Los informes de fuente y medio muestran los dominios que condujeron el tráfico 
 
 Consulte las siguientes páginas en la Guía del usuario de componentes para obtener más información sobre sus dimensiones:
 
-* [Dominio de referencia](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [Tipo de referente](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [Palabra clave de búsqueda](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [Dominio de referencia](/help/components/dimensions/referring-domain.md)
+* [Tipo de referente](/help/components/dimensions/referrer-type.md)
+* [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md)
 
 ## Todo el tráfico: referencias
 
@@ -65,7 +68,7 @@ Consulte las siguientes páginas en la Guía del usuario de componentes para obt
 1. En el menú de componentes, localice la dimensión **Dominio de referencia** o **Página de entrada** y arrástrela al área grande de la tabla de forma libre denominada “Colocar una dimensión aquí”.
 2. Arrastre las métricas deseadas al espacio de trabajo junto con la métrica **Ocurrencias** creada automáticamente. Consulte la [Guía de traducción de métricas](common-metrics.md) para saber cómo obtener cada métrica.
 
-Consulte la dimensión [Dominio de referencia](/help/components/c-variables/dimensionslist/reports-referring-domains.md) en la guía del usuario sobre Componentes para obtener más información.
+Consulte la dimensión [Dominio de referencia](/help/components/dimensions/referring-domain.md) en la guía del usuario sobre Componentes para obtener más información.
 
 ## Informes de Google Ads e informes de Search Console
 
