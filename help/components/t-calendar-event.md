@@ -4,7 +4,7 @@ title: Eventos de calendario
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 739368320e73d3b441151ce7e912fe74d3f8308b
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
@@ -33,13 +33,12 @@ Para los informes con tendencias en el paso del tiempo, puede utilizar esta herr
    1. Haga clic en **[!UICONTROL Insertar en escritorio de usuarios]**.
    1. Haga clic en **[!UICONTROL Marcar todos]** o marque la casilla junto al nombre del usuario.
    1. Haga clic en **[!UICONTROL Guardar]**.
-
    Esto hace que los Eventos de calendario sean mucho más útiles. Los analistas ahora disponen de la capacidad para forzar una superposición en los informes de sus usuarios para proporcionar más contexto.
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Eventos de calendario]**.
 1. En los **[!UICONTROL Eventos de calendario compartido]**, especifique una de estas opciones:
 
-       | **Copiar para mí** | Añade una copia a su lista de eventos, con el mismo nombre del evento original. Sin embargo, no puede ver ninguna actualización/cambio realizado por el propietario del evento. |
-       |---|---|
-       | **Informar** | Permite ver los cambios y actualizaciones realizadas por el propietario del evento. |
-       | **Anular uso compartido** | Elimina el evento de su lista de eventos compartidos. |
-   
+   | **Cópieme** | Añade una copia a su lista de eventos, utilizando el mismo nombre que el original. Sin embargo, no puede ver ninguna actualización/cambio realizado por el propietario del evento. |
+   |---|---|
+   | **En informe** | Le permite ver los cambios/actualizaciones realizados por el propietario del evento. |
+   | **Dejar de compartir** | Elimina este evento de su lista de eventos compartidos. |
+
