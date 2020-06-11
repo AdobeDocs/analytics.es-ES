@@ -2,21 +2,28 @@
 description: 'null'
 title: Resumen de paneles
 translation-type: tm+mt
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 87%
+source-wordcount: '481'
+ht-degree: 83%
 
 ---
 
 
 # Resumen de paneles
 
-Un panel es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono que hay en la parte superior izquierda de Workspace. Los paneles son útiles si desea organizar sus proyectos por periodos de tiempo, unidades de negocio, geografía, etcétera. Estos seis tipos de paneles están disponibles en Espacio de trabajo de Análisis: [Panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md)en blanco, panel [Perspectivas](/help/analyze/analysis-workspace/c-panels/quickinsight.md) rápidas (próximamente), panel [](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) Análisis para Destinatario (próximamente), panel [](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)Atribución, panel [improvisado](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)y panel Comparación de [](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)segmentos.
+Un panel es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono que hay en la parte superior izquierda de Workspace. Los paneles son útiles si desea organizar sus proyectos por periodos de tiempo, unidades de negocio, geografía, etcétera. Estos seis tipos de paneles están disponibles en Espacio de trabajo de Análisis:
 
-Los paneles Perspectivas rápidas, Vacío y Forma libre son lugares buenos para realizar inicios en la análisis, mientras que Analytics para Destinatario, IQ de atribución y Comparación de segmentos se prestan a análisis más avanzados. También hemos agregado un botón de panel “+” para que pueda añadir paneles en blanco en cualquier momento.
+* [Panel en blanco](blank-panel.md)
+* [Panel de perspectivas rápidas](quickinsight.md)
+* [Panel](a4t-panel.md) de Analytics para Destinatario (próximamente)
+* [Panel de Attribution](attribution.md)
+* [Panel de forma libre](freeform-panel.md)
+* [panel de comparación de segmentos](c-segment-comparison/segment-comparison.md)
 
-El panel inicial predeterminado es el improvisado, pero también puede convertir el [panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
+Los paneles Perspectivas rápidas, Vacío y Forma libre son lugares buenos para realizar inicios en la análisis, mientras que Analytics para Destinatario, IQ de atribución y Comparación de segmentos se prestan a análisis más avanzados. Hay un `"+"` botón disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
+
+The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
 
 ## Filtros desplegables en los paneles  {#section_D2828EEDD52944528E87F470EAB581CF}
 
