@@ -2,7 +2,10 @@
 title: Guía de traducción de métricas comúnmente empleadas en otras plataformas
 description: Obtenga información sobre la extracción de datos de métricas en muchos informes comunes utilizando una terminología más habitual para los usuarios de Google Analytics.
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +20,7 @@ Para añadir varias métricas a una tabla de forma libre en el espacio de trabaj
 
 ## Métricas de adquisición
 
-Los **Usuarios** son aproximadamente iguales a los **Visitantes únicos** en Workspace. Consulte la métrica [Visitantes únicos](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) en la guía del usuario de Componentes para obtener más información.
+Los **Usuarios** son aproximadamente iguales a los **Visitantes únicos** en Workspace. Consulte la métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) en la guía del usuario de Componentes para obtener más información.
 
 Los **Nuevos usuarios** se pueden obtener de la siguiente manera:
 
@@ -26,13 +29,13 @@ Los **Nuevos usuarios** se pueden obtener de la siguiente manera:
 
    ![Visitas por primera vez](../assets/first_time_visits.png)
 
-Las **Sesiones** son aproximadamente iguales a las **Visitas** en Analysis Workspace. Consulte la métrica [Visitas](/help/components/c-variables/c-metrics/metrics-visit.md) en la guía del usuario Componentes para obtener más información.
+Las **Sesiones** son aproximadamente iguales a las **Visitas** en Analysis Workspace. Consulte la métrica [Visitas](/help/components/metrics/visits.md) en la guía del usuario Componentes para obtener más información.
 
 ![Métricas de adquisición](../assets/acquisition_metrics.png)
 
 ## Métricas de comportamiento
 
-La **Tasa de devoluciones** se puede utilizar fácilmente como métrica en Analysis Workspace. Consulte la métrica [Tasa de devoluciones](/help/components/c-variables/c-metrics/metrics-bounce-rate.md) en la guía del usuario de componentes para obtener más información.
+La **Tasa de devoluciones** se puede utilizar fácilmente como métrica en Analysis Workspace. Consulte la métrica [Tasa de devoluciones](/help/components/metrics/bounce-rate.md) en la guía del usuario de componentes para obtener más información.
 
 **Páginas/sesión** es una métrica calculada. Puede obtenerse de la siguiente manera:
 
@@ -48,9 +51,9 @@ La **Tasa de devoluciones** se puede utilizar fácilmente como métrica en Analy
 7. Haga clic en Guardar para volver al espacio de trabajo.
 8. Arrastre la métrica calculada recién definida al espacio de trabajo.
 
-   Obtenga más información sobre las [métricas calculadas](/help/components/c-variables/c-metrics/calculated-metric.md) en la Guía del usuario de componentes.
+   Obtenga más información sobre las [métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) en la Guía del usuario de componentes.
 
-El **Promedio de duración de la sesión** es aproximadamente igual al **Tiempo empleado por visita (segundos)**. En la guía de usuario de componentes se encuentra más información sobre las métricas de [Tiempo empleado](/help/components/c-variables/c-metrics/metrics-time-spent.md).
+El **Promedio de duración de la sesión** es aproximadamente igual al **Tiempo empleado por visita (segundos)**. Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
 
 ## Métricas de conversión
 
