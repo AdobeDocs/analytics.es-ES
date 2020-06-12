@@ -3,7 +3,7 @@ description: Adobe Audience Manager (AAM) es una potente plataforma de administr
 solution: Experience Cloud
 title: Resumen de Audience Analytics
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -45,6 +45,6 @@ Asegúrese de que se cumplen los siguientes requisitos previos:
 * Es administrador de Audience Manager.
 * Utiliza Identity Service 1.5 o posterior.
 * Los grupos de informes de Adobe Analytics y AAM se [asignan a la misma organización de Experience Cloud](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html).
-* Utiliza el [reenvío de servidor](/help/admin/admin/c-server-side-forwarding/ssf.md) y tiene implementado el [módulo Gestión de público](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (sin código DIL): AppMeasurement 1.5 o posterior.
+* Utiliza el [reenvío de servidor](/help/admin/admin/c-server-side-forwarding/ssf.md) y tiene implementado el [módulo Gestión de público](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (sin código DIL): AppMeasurement 1.5 o posterior.
 
 Estos requisitos previos se describen en el [flujo de trabajo de Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).
