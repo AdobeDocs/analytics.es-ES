@@ -2,7 +2,7 @@
 description: Preguntas más frecuentes acerca de características, funcionalidades y problemas relativos al reenvío del lado del servidor.
 title: Preguntas frecuentes acerca del reenvío del lado del servidor
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
