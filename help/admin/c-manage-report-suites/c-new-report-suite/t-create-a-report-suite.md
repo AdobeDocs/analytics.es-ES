@@ -3,7 +3,7 @@ description: Pasos que describen cómo se crea un grupo de informes y cómo se c
 title: Crear un grupo de informes
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
