@@ -2,7 +2,7 @@
 description: En esta página se enumeran todas las variables de socio en Data Connectors (anteriormente conocido como Genesis) que podrían contener datos directa o indirectamente identificables de sus interesados.
 title: Privacidad de datos y Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -121,7 +121,7 @@ Si utiliza una integración de cualquiera de los conectores siguientes, simpleme
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Foresee Feedback</b> </p> </td> 
-   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey &gt; Question &gt; Response </p> </td> 
+   <td colname="col2"> <p>ForeSee Response List -&gt; Response </p> <p>ForeSee Response List -&gt; Survey -&gt; Question -&gt; Response </p> </td> 
    <td colname="col4"> <p>Clasificaciones </p> </td> 
   </tr> 
   <tr> 
