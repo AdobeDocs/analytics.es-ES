@@ -3,7 +3,7 @@ description: Los grupos de informes definen los informes completos e independien
 title: Administrador del grupo de informes
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
