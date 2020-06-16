@@ -2,7 +2,7 @@
 description: A cada ID al que desee permitir búsquedas se le asigna un área de nombres, que es una cadena personalizada que identifica ese ID en cualquier variable en la que se utiliza en todos los grupos de informes.
 title: Espacios de nombres
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,7 +18,7 @@ La cadena del área de nombres se emplea para identificar los campos en los que 
 * Un campo “type” que, en la mayoría de las solicitudes de Adobe Analytics, contiene el valor “analytics”.
 * Un campo “value” que contiene el ID que Analytics debería buscar en las variables de área de nombres asociadas de cada uno de sus grupos de informes.
 
-Consulte la [documentación de la API de privacidad de datos de Experience Cloud](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) para obtener más información.
+Consulte la [documentación de la API de privacidad de datos de Experience Cloud](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) para obtener más información.
 
 ## ID de cookie
 
