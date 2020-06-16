@@ -2,7 +2,7 @@
 description: 'null'
 title: Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -41,8 +41,8 @@ Para configurar este tipo de informes, asigne la nueva variable contextual a una
 1. Utilice reglas de procesamiento para asignar la variable contextual al elemento prop.
 
    1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** y seleccione un grupo de informes.
-   1. Haga clic en **[!UICONTROL Editar grupo de informes]** > **[!UICONTROL General]** > **[!UICONTROL Reglas de procesamiento]** .
-   1. Haga clic en **[!UICONTROL Agregar regla.]**
+   1. Haga clic en **[!UICONTROL Editar grupo de informes]** > **[!UICONTROL General]** > **[!UICONTROL Reglas de procesamiento]**.
+   1. Haga clic en **[!UICONTROL Agregar regla]**.
    1. En **[!UICONTROL Ejecutar siempre]**, sobrescriba el valor del elemento prop que ha activado por la variable de contexto “cm.ssf(Context Data)”.
    1. Haga clic en **[!UICONTROL Guardar]**.
 
