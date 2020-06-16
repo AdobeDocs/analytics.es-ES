@@ -2,7 +2,7 @@
 description: 'null'
 title: Ejemplo de etiquetado
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -42,8 +42,8 @@ Si envío una solicitud de acceso, el archivo de resumen contendrá los valores 
 | user=Mary | false | contenedor | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | contenedor | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
 | user=Mary | true | dispositivo | no presente | 77, 88 | no presente | N, P | U, W |
-| user=Mary  AAID=66 | true | contenedor | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
-| user=Mary  AAID=66 | true | dispositivo | no presente | 66, 77, 88 | no presente | N, P | U, W, Z |
+| user=Mary AAID=66 | true | contenedor | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
+| user=Mary AAID=66 | true | dispositivo | no presente | 66, 77, 88 | no presente | N, P | U, W, Z |
 | xyz=X | false | dispositivo | no presente | 55, 77 | no presente | M, R | X |
 | xyz=X | true | dispositivo | no presente | 55, 77 | no presente | M, P, R | W, X |
 
