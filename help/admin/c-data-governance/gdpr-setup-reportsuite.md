@@ -2,7 +2,7 @@
 description: Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identidad, confidencialidad y control de datos a cada variable de un grupo de informes determinado. Asegúrese de familiarizarse primero con las etiquetas y sus definiciones.
 title: Etiquetado de datos de grupos de informes
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,7 +18,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
 **Ejemplo**: Usted, como responsable del tratamiento de datos, pretende recopilar direcciones de correo electrónico e ID de cookie de los interesados para tratar sus solicitudes de privacidad de datos. Estos ID de cookie se almacenan en un grupo de informes en Adobe Analytics. Si desea crear una etiqueta para direcciones de correo electrónico e ID de cookie, debe usar el marco de etiquetado y aplicación del uso de los datos (DULE) de Adobe Cloud Platform en Analytics.
 
-1. En Analytics, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Control de datos]** > **[!UICONTROL (seleccione el grupo de informes)]** ![](assets/privacy_rs_settings.png)
+1. En Analytics, vaya a **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
 
 1. Seleccione el grupo de variables que desea etiquetar.
 
@@ -37,7 +37,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
    ![](assets/info.png)
 
-1. Para seleccionar una o más variables, haga clic en sus casillas de verificación y, después, seleccione el icono **[!UICONTROL Editar]** (a la derecha) para editar una o más variables.
+1. Para seleccionar una o más variables, haga clic en sus casillas de verificación y, después, seleccione el icono **[!UICONTROL Edit]** (a la derecha) para editar una o más variables.
 
    ![](assets/edit.png)
 
@@ -57,7 +57,7 @@ Al etiquetar los datos de los grupos de informes, se asignan etiquetas de identi
 
    ![](assets/privacy_labels.png)
 
-1. Haga clic en **[!UICONTROL Aplicar]** una vez haya completado todo el etiquetado.
+1. Haga clic en **[!UICONTROL Apply]** una vez haya completado todo el etiquetado.
 
 ## Copia de etiquetas en grupos de informes {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
@@ -65,11 +65,11 @@ Si desea aplicar la misma configuración de DULE/Privacidad de datos más de un 
 
 1. Seleccione el grupo de variables (dimensiones estándar, dimensiones de conversión, etc.) que contenga la variable que desea copiar. Tenga en cuenta que solo puede copiar las etiquetas para un grupo de variables a la vez.
 1. Seleccione algunas o todas las variables de este grupo.
-1. Haga clic en **[!UICONTROL Copiar etiquetas en los grupos de informes]** en la parte superior derecha del cuadro de diálogo Control de datos.
+1. Haga clic en **[!UICONTROL Copy Labels to Report Suite(s)]** en la parte superior derecha del cuadro de diálogo Administración de datos.
 
    ![](assets/apply_as_template.png)
 
-1. Haga clic en **[!UICONTROL Seleccionar todo]** para copiar las etiquetas para las variables seleccionadas en todos los grupos de informes o seleccione el grupo de informes individual en que desea copiar las etiquetas.
+1. Haga clic en **[!UICONTROL Select All]** para copiar las etiquetas para las variables seleccionadas en todos los grupos de informes o seleccione el grupo de informes individual en que desea copiar las etiquetas.
 
    >[!IMPORTANT]
    >
@@ -87,5 +87,5 @@ Si desea aplicar la misma configuración de DULE/Privacidad de datos más de un 
    >
    >Siempre debe comprobar los grupos de informes de destino para garantizar que las etiquetas se copian correctamente. Esto resulta especialmente importante en el caso de variables que tienen etiquetas de ID o DEL.
 
-1. Haga clic en **[!UICONTROL Aplicar]**.
+1. Haga clic en **[!UICONTROL Apply]**.
 
