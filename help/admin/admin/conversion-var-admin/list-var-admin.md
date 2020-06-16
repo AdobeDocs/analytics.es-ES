@@ -1,7 +1,7 @@
 ---
 title: Variables de lista
-description: Cree y configure variables de lista para utilizarlas en sistema de informes.
-translation-type: tm+mt
+description: Cree y configure variables de lista para usar en sistema de informes.
+translation-type: ht
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
@@ -9,13 +9,13 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 # Variables de lista
 
-Cree y configure variables de lista para utilizarlas en sistema de informes. Defina aquí sus valores de delimitador, caducidad, asignación y máximo.
+Cree y configure variables de lista para usar en sistema de informes. Defina aquí sus valores de delimitador, caducidad, asignación y máximo.
 
-Puede acceder a la configuración en la Consola de administración:
+Puede acceder a la configuración en Admin Console:
 
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]**
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Grupos de informes]**.
 2. Seleccione el grupo de informes.
-3. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Lista de variables]** .
+3. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Conversión]** > **[!UICONTROL Lista de variables]**.
 
 * **Nombre**: Cada valor delimitado puede contener un máximo de 255 caracteres (o menos si se utilizan caracteres multibyte). Esta es la longitud máxima de cada elemento.
 * **Delimitador de valores**: carácter utilizado para separar valores en una variable de lista. Normalmente son caracteres como comas, dos puntos, barras verticales o algún otro similar.
