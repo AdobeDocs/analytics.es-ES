@@ -3,7 +3,7 @@ description: El reenvío del lado del servidor se diseñó para los clientes que
 solution: Audience Manager
 title: Resumen del reenvío del lado del servidor
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -30,12 +30,12 @@ Para comprender la posición de su organización en cuanto a la implementación 
 
 ## ![imagen step1_icon.png](assets/step1_icon.png) Verificar implementación del servicio ECID
 
-Compruebe si el servicio Experience Cloud ID (ECID) está implementado. Para ello, consulte la [solicitud de seguimiento de Analytics](https://docs.adobe.com/content/help/en/id-service/using/implementation/test-verify.html).
+Compruebe si el servicio Experience Cloud ID (ECID) está implementado. Para ello, consulte la [solicitud de seguimiento de Analytics](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/test-verify.html).
 
 En la pestaña Solicitud, compruebe que haya un valor establecido para ECID. Esto indica que el Servicio de identidad está implementado correctamente, un requisito previo para el reenvío de lado del servidor.
 
 * Si ve un valor para ECID, siga con el paso 2.
-* Si no ve un valor para ECID, [implemente el Servicio de identidad](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) antes de seguir con el paso 2.
+* Si no ve un valor para ECID, [implemente el Servicio de identidad](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/implementation-guides.html) antes de seguir con el paso 2.
 
 ## ![imagen step2_icon.png](assets/step2_icon.png) Verificar la versión de implementación de reenvío del lado del servidor
 
@@ -49,9 +49,9 @@ En la pestaña “Respuesta”, compruebe que la respuesta contenga datos de Aud
 
    * **Clientes de AAM con DIL**: se deben realizar los dos pasos siguientes en un breve tiempo:
 
-      1. Elimine el código DIL e instale el código de página [Módulo Gestión de público](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
+      1. Elimine el código DIL e instale el código de página [Módulo Gestión de público](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html).
       1. Habilite el reenvío del lado del servidor en la interfaz de Administración de Analytics como se describe en el paso 3. Habilitar este ajuste antes de eliminar el código DIL duplica datos y crea llamadas de servidor facturables adicionales a Audience Manager.
-   * **Nuevos clientes de AAM**: instale el código de página [Módulo Gestión de público](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
+   * **Nuevos clientes de AAM**: instale el código de página [Módulo Gestión de público](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) y siga con el paso 3. No se enviarán datos a Audience Manager hasta que se active el reenvío del lado del servidor en el paso 3.
 
 
 ## ![imagen step3_icon.png](assets/step3_icon.png) Verificación de la implementación de reenvío de lado del servidor del grupo de informes
