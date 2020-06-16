@@ -2,7 +2,7 @@
 description: 'null'
 title: Prácticas recomendadas de etiquetado
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -28,7 +28,7 @@ Aunque su empresa recopile muchos ID distintos en sus datos de Analytics, puede 
 * Algunos ID pueden corresponder a varias personas y puede no querer arriesgarse a devolver información sobre una persona a otra distinta con ese mismo ID. Por ejemplo, aunque pueda verificar que el nombre de una persona es Juan Pérez, es posible que no desee devolver todos los datos sobre todos los usuarios llamados Juan Pérez de su sistema.
 * Otro ejemplo es un ID de dispositivo, como el ID de cookie de Analytics. Si el ID se origina en una aplicación de un teléfono móvil, puede decidir que todas las interacciones que utilicen ese ID deban estar disponibles para el propietario del teléfono móvil. No obstante, si se produce en un dispositivo compartido, como un ordenador doméstico o uno de una biblioteca o un cibercafé, puede determinar que no le es posible distinguir entre los usuarios del dispositivo en cuestión y que existe demasiado riesgo de devolver datos de un usuario distinto como para permitir el uso de este tipo de ID.
 
-## Prácticas recomendadas para los ID admitidos por Analytics  {#section_B6481505FF1949498D4B4B35B780D050}
+## Prácticas recomendadas para los ID admitidos por Analytics {#section_B6481505FF1949498D4B4B35B780D050}
 
 Utilice esta tabla para determinar los tipos de ID que usará para enviar solicitudes de privacidad de datos a Analytics. Una vez que conozca esta información, le resultará más fácil determinar qué otras etiquetas debería utilizar para sus variables.
 
@@ -43,7 +43,7 @@ Utilice esta tabla para determinar los tipos de ID que usará para enviar solici
   <tr> 
    <td colname="col1"> <p>ID de cookie </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-privacy.html">Cookie de Analytics (heredada)</a> </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-privacy.html">Cookie de Analytics (heredada)</a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://docs.adobe.com/content/help/es-ES/id-service/using/home.html"> Cookie de servicio de identidad </a> (ECID), anteriormente conocido como Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>Estas cookies identifican un dispositivo o, más concretamente, un navegador para el usuario de un dispositivo. En el caso de un dispositivo compartido en el que se utilicen unas credenciales de inicio de sesión comunes, este ID podría aplicarse a todos los usuarios del dispositivo. Adobe ha creado <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">código JavaScript unificado</a> que puede colocar en su sitio web a fin de recopilar estas cookies si desea permitir que se utilicen para las solicitudes de privacidad de datos. </p> <p>Los usuarios del SDK para móviles de Adobe Analytics también tienen un Experience Cloud ID (ECID). Hay llamadas a la API dentro del SDK para leer este ID, por lo que puede mejorar su aplicación, de modo que los recopile para fines de solicitudes de privacidad de datos. </p> <p>Muchas empresas consideran que los ID de cookies de navegadores son ID de dispositivos compartidos. En consecuencia, tras consultarlo con sus equipos jurídicos, podrían optar por no permitir usarlos como ID aceptables para las solicitudes de privacidad de datos, pueden decidir devolver únicamente una cantidad de datos muy limitada cuando se utilicen dichos ID o bien pueden aceptarlos únicamente para eliminar solicitudes. </p> <p>Estas cookies tienen una etiqueta ID-DEVICE que no se puede cambiar (así como etiquetas I2 y DEL-DEVICE). La configuración predeterminada de Adobe Analytics solo devolverá información genérica sobre el dispositivo, como su tipo, el sistema operativo, el navegador, etc., además de la hora y las fechas en las que se visitara su sitio web usando estos ID. Sin embargo, si opta por admitir estos ID para las solicitudes de privacidad de datos, como se explica abajo, puede añadir o eliminar etiquetas ACC-ALL para configurar el conjunto de campos exacto que desea que se devuelva en el caso de una solicitud de acceso de privacidad de datos. </p> <p>En especial si el grupo de informes corresponde a una aplicación móvil, y esta requiere credenciales de inicio de sesión, puede decidir que el Experience Cloud ID del dispositivo corresponde a un usuario específico y, por lo tanto, deseará etiquetar más de esos campos con la etiqueta ACC-ALL, incluidos los nombres de las páginas visitadas, los productos vistos, etc. </p> <p>Nota: Si especifica la opción “expandIds” en su solicitud de privacidad de datos, entonces las solicitudes siempre incluirán los ID de cookie, además de cualquier otro ID que especifique. Consulte <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">Expansión de ID</a> para obtener más información. En estos casos, las visitas que solo tienen un ID de cookie, pero no otro ID, solo devolverán los datos etiquetados ACC-ALL como parte de la solicitud de acceso. </p> </td> 
@@ -82,7 +82,7 @@ Las etiquetas de eliminación DEL-DEVICE y DEL-PERSON deben usarse con moderaci�
 
    Por ejemplo, si cuenta con tres visitas que contienen el valor “foo” en eVar7, pero solo una de ellas contiene también un ID en una variable distinta que coincide con una eliminación, entonces el valor “foo” de dicha visita se modificará por uno como “Privacidad de datos-123456789”, mientras que en las otras dos visitas permanecerá sin cambios. Un informe que incluye el número de valores únicos para eVar7 ahora mostrará un valor único más que antes. Un informe que incluye los valores principales para los eVar puede incluir “foo” con solo dos instancias (en lugar de las tres anteriores), y el nuevo valor aparecerá también como instancia única.
 
-## Prácticas recomendadas para establecer etiquetas de acceso  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Prácticas recomendadas para establecer etiquetas de acceso {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
 Aunque muy pocos campos tendrán alguna de las otras etiquetas, será habitual que un gran número de campos presenten etiquetas ACC. Las etiquetas de acceso adecuadas dependerán de los ID que utilice para las solicitudes de privacidad de datos.
 
