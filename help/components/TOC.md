@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 8a6c84b386d794e8929f4f9e0810a908a13387b8
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 71%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 71%
    + [canal de primer toque](dimensions/first-touch-channel.md)
    + [Detalles del canal de primer toque](dimensions/first-touch-detail.md)
    + [Profundidad de acierto](dimensions/hit-depth.md)
+   + [Tipo de visita](dimensions/hit-type.md)
    + [Hora del día](dimensions/hour-of-day.md)
    + [Hora](dimensions/hour.md)
    + [Habilitado para Java](dimensions/java-enabled.md)
@@ -66,7 +67,7 @@ ht-degree: 71%
    + [Sistemas operativos](dimensions/operating-systems.md)
    + [Dominio de referencia original](dimensions/original-referring-domain.md)
    + [URL de la página](dimensions/page-url.md)
-   + [Página](dimensions/page.md)
+   + [Activity Map](dimensions/page.md)
    + [Páginas no encontradas](dimensions/pages-not-found.md)
    + [Búsqueda paga](dimensions/paid-search.md)
    + [Compatibilidad con cookies persistentes](dimensions/persistent-cookie-support.md)
