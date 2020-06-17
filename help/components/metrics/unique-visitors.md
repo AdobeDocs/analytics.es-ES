@@ -2,7 +2,7 @@
 title: Visitantes únicos
 description: Número de individuos (o dispositivos) únicos.
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -18,9 +18,9 @@ Si utiliza análisis [](../cda/cda-home.md)entre dispositivos, se cambiará el n
 
 ## visitantes únicos diarios, semanales, mensuales, trimestrales y anuales
 
-Informes y análisis proporciona opciones para visitantes únicos diarios, semanales, mensuales, trimestrales y anuales. En lugar de contar un solo visitante único para todo el período de tiempo, los visitantes únicos se contabilizan en función de la métrica seleccionada. Por ejemplo: desea ver los visitantes únicos diarios del sitio. Si un visitante llega a su sitio por la mañana y de nuevo por la noche, se cuenta como un único visitante diario único. Si un visitante llega a su sitio el lunes y nuevamente el martes, se cuenta como dos visitantes únicos diarios.
+Informes y Analytics proporciona opciones para visitantes únicos diarios, semanales, mensuales, trimestrales y anuales. En lugar de contar un solo visitante único para todo el período de tiempo, los visitantes únicos se contabilizan en función de la métrica seleccionada. Por ejemplo: desea ver los visitantes únicos diarios del sitio. Si un visitante llega a su sitio por la mañana y de nuevo por la noche, se cuenta como un único visitante diario único. Si un visitante llega a su sitio el lunes y nuevamente el martes, se cuenta como dos visitantes únicos diarios.
 
-Espacio de trabajo de Análisis trata visitantes únicos en función de la granularidad del informe. Por ejemplo, si utiliza la dimensión [Día](../dimensions/day.md) , verá visitantes únicos diarios para cada valor de dimensión. Sin embargo, para el total del informe, se anula la duplicación de visitantes únicos para el intervalo de fechas de la tabla improvisada.
+El Analysis Workspace trata los visitantes únicos en función de la granularidad del informe. Por ejemplo, si utiliza la dimensión [Día](../dimensions/day.md) , verá visitantes únicos diarios para cada valor de dimensión. Sin embargo, para el total del informe, se anula la duplicación de visitantes únicos para el intervalo de fechas de la tabla improvisada.
 
 ## Cómo se calcula esta métrica
 
@@ -45,7 +45,7 @@ Los identificadores de visitante únicos generalmente se almacenan en una cookie
 * La misma persona que explora el sitio en diferentes dispositivos. Se cuenta un visitante único por dispositivo. Puede utilizar el análisis [entre](../cda/cda-home.md) dispositivos para combinar visitantes mediante la métrica [Personas](people.md) .
 * Abre una sesión de navegación privada (como la ficha Incognito de Chrome).
 
-Un nuevo visitante único **no* se cuenta, siempre y cuando se mantenga el identificador de cookie:
+Un nuevo visitante único *no se cuenta* , siempre y cuando se mantenga el identificador de cookie:
 
 * Cierra el explorador durante un período prolongado
 * Actualiza el explorador a la versión más reciente
