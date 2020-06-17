@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '443'
 ht-degree: 92%
 
 ---
@@ -60,6 +60,7 @@ ht-degree: 92%
       + [contextData](vars/page-vars/contextdata.md)
       + [Variables dinámicas](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
+      + [eVar (comercialización)](vars/page-vars/evar-merchandising.md)
       + Events {#events}
          + [Información general de eventos](vars/page-vars/events/events-overview.md)
          + [Evento de compra](vars/page-vars/events/event-purchase.md)
@@ -154,7 +155,7 @@ ht-degree: 92%
    + [Implementación de en un entorno de desarrollo](launch/deploy-dev.md)
    + [Validar y publicar para producción](launch/validate-publish-prod.md)
    + [Asignación de objetos de capa de datos a elementos de datos](launch/layer-to-elements.md)
-   + [Asignación de elementos de datos de Launch a variables de Analytics](launch/elements-to-variable.md)
+   + [Asignar elementos de datos de Launch a variables de Analytics](launch/elements-to-variable.md)
 + Implementar Analytics en otras plataformas {#other}
    + [Implementación de Analytics mediante solicitudes de imagen codificadas](other/hardcoded.md)
    + Implementar Analytics mediante DTM {#dtm}
