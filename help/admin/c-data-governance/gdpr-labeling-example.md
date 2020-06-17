@@ -20,7 +20,7 @@ Suponga que dispone de los siguientes datos de visita:
 
 | Etiquetas | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nombre de la variable **<br>**(área de nombres)** | **MyProp1 **<br>**(usuario)** | **ID del visitante **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
+| **Nombre de la variable**<br>**(área de nombres)** | **MyProp1**<br>**(usuario)** | **ID del visitante**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
 | Datos de visita | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -36,7 +36,7 @@ Si envío una solicitud de acceso, el archivo de resumen contendrá los valores 
 
 | Valores de API | Valores de API | Tipo de archivo devuelto | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> |
 |--- |--- |--- |---|---|---|---|---|
-| **Espacio de nombres/ ID** | **expandIDs** |  | **MyProp1** | **Visitor ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **Espacio de nombres/ID** | **expandIDs** | | **MyProp1** | **Visitor ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | dispositivo | Variable no presente | 77 | Variable no presente | M, P | X, W |
 | AAID=77 | true | dispositivo | Variable no presente | 77 | Variable no presente | M, P | X, W |
 | user=Mary | false | contenedor | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
