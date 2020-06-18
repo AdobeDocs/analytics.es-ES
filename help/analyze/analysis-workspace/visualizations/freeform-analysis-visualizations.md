@@ -2,7 +2,7 @@
 description: Obtenga información sobre las visualizaciones y los ajustes de visualización en Analysis Workspace.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
@@ -12,32 +12,32 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 Workspace oferta una serie de visualizaciones que le permiten generar representaciones visuales de sus datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. Cada visualización tiene su propia configuración que puede administrar. Haga clic en el nombre de la visualización para obtener información más detallada.
 
-Video de YouTube: Tipos [de visualización en Análisis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+Vídeo de YouTube: [tipos de visualización en Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
-| Nombre de visualización | Descripción |
+| Nombre de la visualización | Descripción |
 |---|---|
-| [Área](/help/analyze/analysis-workspace/visualizations/area.md) | como un gráfico de líneas, pero con un área de color debajo de la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas. |
-| [Barra](/help/analyze/analysis-workspace/visualizations/bar.md) | Muestra las barras verticales que representan varios valores en una o más métricas. |
-| [Gráfico de viñetas](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos) o cómo se compara con ellos. |
+| [Área](/help/analyze/analysis-workspace/visualizations/area.md) | es similar a un gráfico de líneas, pero incluye una zona coloreada bajo la línea. Utilice un gráfico de áreas cuando tenga varias métricas y desee visualizar el área a la que hace referencia la intersección de dos o más métricas. |
+| [Barra](/help/analyze/analysis-workspace/visualizations/bar.md) | Muestra las barras verticales que representan los distintos valores de una o varias métricas. |
+| [Gráfico de viñetas](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Muestra cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos). |
 | [Tabla de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Una *`cohort`* es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte es útil, por ejemplo, cuando desea saber cómo se involucra una cohorte con una marca. Puede identificar fácilmente los cambios en tendencias y responder en consecuencia. |
 | [Anillo](/help/analyze/analysis-workspace/visualizations/donut.md) | Similar a un gráfico circular, esta visualización muestra los datos como partes o segmentos de un todo. |
 | [Abandono](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | Los informes de visitas en el orden previsto muestran dónde abandonaron los visitantes y continuaron en una secuencia de páginas predefinidas. |
-| [Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Muestra las rutas de los clientes a través de sus sitios web y aplicaciones. |
-| [Tabla de forma libre](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Una tabla improvisada no es simplemente una tabla de datos, sino también una visualización interactiva. |
+| [Flujo](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Muestra las rutas del cliente en sus sitios web y aplicaciones. |
+| [Tabla improvisada](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | Una tabla improvisada no es solamente una tabla de datos, sino también una visualización interactiva. |
 | [Histograma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Un histograma es similar a un gráfico de barras, pero agrupa números en rangos (contenedores). |
-| [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Muestra las barras horizontales que representan varios valores en una o más métricas. |
-| [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) | Representa las métricas que utilizan una línea para mostrar cómo cambian los valores en un período de tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión. |
+| [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
+| [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión. |
 | [Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permite crear un mapa visual de cualquier métrica (incluidas las métricas calculadas). |
 | [Diagrama de dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los valores de dimensión y hasta tres métricas. |
 | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | En función de la celda seleccionada, esta visualización muestra los totales y los resúmenes. |
 | [Cambio de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | En función de las celdas seleccionadas, esta visualización compara las celdas entre sí. |
 | [Texto](/help/analyze/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario al Workspace. |
 | [Gráfico de rectángulos](/help/analyze/analysis-workspace/visualizations/treemap.md) | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Permite arrastrar hasta 3 segmentos (desde Componentes) y una métrica para crear un diagrama de Venn. |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Le permite arrastrar hasta tres segmentos (de Componentes) y una métrica para generar un diagrama de Venn. |
 
 ## Panel de visualizaciones {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-To display the Visualizations panel, click **[!UICONTROL Visualizations]** in the side panel.
+Para mostrar el Panel de visualizaciones, haga clic en **[!UICONTROL Visualizations]** en el panel lateral.
 
 ![Resultado ](assets/visualizations.png)
 
@@ -45,7 +45,7 @@ La mayoría de los tipos de visualización (como los gráficos de área, barras,
 
 ## Configuración de visualización {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-Para acceder [!UICONTROL Visualization Settings], arrastre una visualización hasta el [!UICONTROL Freeform Panel]icono de engranaje y, a continuación, haga clic en el icono de [!UICONTROL Visualization Settings] engranaje.
+Para acceder a [!UICONTROL Visualization Settings], arrastre una visualización hasta el [!UICONTROL Freeform Panel] y, a continuación, haga clic en el icono de engranaje [!UICONTROL Visualization Settings].
 
 >[!IMPORTANT]
 >
@@ -66,7 +66,7 @@ Para acceder [!UICONTROL Visualization Settings], arrastre una visualización ha
 
 ## Icono Crear imagen {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row. Dicho icono aparecerá cuando se sitúe sobre la fila de la tabla. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene hasta tres segmentos seleccionados, se creará un diagrama de Venn. Para más de tres segmentos, se creará un gráfico de barras. Para otros tipos de datos, es posible que se cree un gráfico de líneas, etc.
+Si no está seguro de qué visualización escoger, haga clic en el icono **[!UICONTROL Create Visual]** en cualquier fila de la tabla. Dicho icono aparecerá cuando se sitúe sobre la fila de la tabla. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene hasta tres segmentos seleccionados, se creará un diagrama de Venn. Para más de tres segmentos, se creará un gráfico de barras. Para otros tipos de datos, es posible que se cree un gráfico de líneas, etc.
 
 ![](assets/create-visual.png)
 
@@ -94,7 +94,7 @@ Se puede acceder a la configuración contextual de un gráfico si hace clic con 
 
 Le permite cambiar el nombre de las series en las leyendas de las visualizaciones (visitas en el orden previsto, área, área apilada, barras, barras apiladas, anillo, histograma, barras horizontales, barras horizontales apiladas, líneas, dispersión y Venn) para contribuir al uso de las imágenes.
 
-La edición de leyendas **no** se aplica a: visualizaciones de rectángulos, viñetas, número o cambio de resumen, texto, Freeform, histograma, cohorte o flujo.
+La edición de leyendas **no** se aplica a: visualizaciones de rectángulos, viñetas, número o cambio de resumen, texto, improvisación, histograma, cohorte o flujo.
 
 Para editar una etiqueta de leyenda en un gráfico de líneas, por ejemplo:
 
