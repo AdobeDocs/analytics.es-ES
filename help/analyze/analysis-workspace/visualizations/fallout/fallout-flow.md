@@ -2,7 +2,7 @@
 description: 'null'
 title: Resumen de abandonos
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -15,7 +15,7 @@ Las visualizaciones de visitas en el orden previsto ofrecen más opciones para c
 Las visualizaciones de visitas en el orden previsto le permiten:
 
 * Realizar comparaciones paralelas de dos segmentos distintos en el mismo informe
-* Arrastrar, soltar y reorganizar pasos de embudo (puntos de contacto)
+* Arrastrar, soltar y reorganizar pasos de embudo (puntos de contacto).
 * Mezclar valores de distintas dimensiones y métricas
 * Crear un informe de visitas en el orden previsto multidimensional
 * Identificar a qué lugar van los clientes inmediatamente tras la visita en el orden previsto
@@ -28,7 +28,7 @@ La visualización de visitas en el orden previsto es útil para analizar:
 
 * Las tasas de conversión a través de procesos específicos en el sitio (tales como un proceso de registro o de compra).
 * Flujos de tráfico generales, con un alcance más amplio: entre las personas que visitaron la página principal, este flujo muestra cuántas fueron de allí a realizar una búsqueda y cuántas continuaron para ver un elemento específico.
-* Correlaciones entre los eventos del sitio. Las correlaciones muestran el porcentaje de personas que leyeron la política de confidencialidad y procedieron a realizar la compra de un producto.
+* Correlaciones entre los eventos del sitio. Las correlaciones muestran el porcentaje de personas que leyeron la política de privacidad y procedieron a realizar la compra de un producto.
 
 [Visualización de abandonos en YouTube](https://www.youtube.com/watch?v=VcrfHSyIoj8&amp;index=52&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:15)
 
