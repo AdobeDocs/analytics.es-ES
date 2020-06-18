@@ -2,7 +2,7 @@
 description: La detección de anomalías de Analysis Workspace utiliza una serie de técnicas estadísticas avanzadas para determinar si una observación debe considerarse como anómala o no.
 title: Técnicas estadísticas utilizadas en la detección de anomalías
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -63,7 +63,7 @@ Los plazos de aprendizaje de las tendencias horarias dependen de un plazo de ret
 
 ## Detección de anomalías para granularidades semanales y mensuales {#section_5D421576BFBC4B24A58DFCC0A6407545}
 
-Las tendencias semanales y mensuales no muestran las mismas tendencias semanales o diarias que las granularidades por días u horas, por tanto, se utiliza un algoritmo independiente. Para semanal y mensual, se utiliza un método de detección de casos aparte de dos pasos conocido como la prueba de Desviación estudentizada extrema generalizada (GESD). Esta prueba considera el número máximo de anomalías esperadas combinadas con el método de diagramas de cajas ajustado (un método no paramétrico para la detección de casos aparte) para determinar el número máximo de casos aparte. Los dos pasos son:
+Las tendencias semanales y mensuales no muestran las mismas tendencias semanales o diarias que las granularidades por días u horas, por tanto, se utiliza un algoritmo independiente. Para semanal y mensual, se utiliza un método de detección de casos aparte de dos pasos conocido como la prueba de Desviación estudentizada extrema generalizada (GESD). Esta prueba considera el número máximo de anomalías esperadas combinadas con el método de diagramas de cajas ajustado (un método no paramétrico para la detección de casos aparte) para determinar el número máximo de periféricos. Los dos pasos son:
 
 1. Función de diagrama de cajas ajustado: esta función determina el número máximo de anomalías sobre los datos de entrada.
 1. Función GESD: se aplica a los datos de entrada con el resultado del paso 1.
