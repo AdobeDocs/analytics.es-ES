@@ -2,7 +2,7 @@
 description: 'null'
 title: Segmentos
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -16,7 +16,7 @@ El carril del segmento en el menú Componentes muestra los segmentos así como l
 
 ![](assets/segment_icons.png)
 
-[Uso de segmentos en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46)
+[Uso de segmentos en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=QlUCdQDnni4) (6:46)
 
 ## Crear segmentos {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -37,7 +37,7 @@ Tenga en cuenta que:
 Puede convertir estos segmentos en públicos (globales) siguiendo estos pasos:
 
 1. Sitúese sobre el segmento de la zona de colocación y haga clic en el icono “i”.
-1. In the information panel that displays, click **[!UICONTROL Make public]**.
+1. En el panel de información que aparece, haga clic en **[!UICONTROL Make public]**.
 
    ![](assets/segment-info.png)
 
