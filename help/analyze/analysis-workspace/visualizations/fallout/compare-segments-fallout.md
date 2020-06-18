@@ -3,7 +3,7 @@ description: Puede crear segmentos a partir de un punto de contacto, añadir seg
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: Aplicación de segmentos en el análisis de abandonos
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -45,7 +45,7 @@ O puede crear un punto de contacto AND arrastrando el segmento de usuarios de Es
 
 Puede comparar una cantidad ilimitada de segmentos en la visualización de visitas en el orden previsto.
 
-1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. En nuestro ejemplo, hemos seleccionado 2 segmentos: usuarios de EE. UU. y usuarios fuera de EE. UU.
+1. Seleccione los segmentos que quiera comparar en el carril [!UICONTROL Segments] de la izquierda. En nuestro ejemplo, hemos seleccionado 2 segmentos: usuarios de EE. UU. y usuarios fuera de EE. UU.
 1. Arrástrelos a la zona de colocación de Segmento en la parte superior.
 
    ![](assets/segment-drop.png)
