@@ -1,7 +1,7 @@
 ---
 title: Varios grupos de informes en Workspace
 description: Descubra cómo y por qué crear proyectos en Workspace con varios grupos de informes
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
@@ -25,10 +25,10 @@ Puede aplicar un grupo de informes a todos los paneles a la vez haciendo clic co
 
 ## Panel activo
 
-Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a &quot;panel inactivo&quot;. Puede reconocer el panel activo por el borde azul claro que lo rodea. Al hacer clic dentro de un panel, este se convierte en el panel activo.
+Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a &quot;panel inactivo&quot;. Puede reconocer el panel activo por el borde celeste que lo rodea. Al hacer clic dentro de un panel, este se convierte en el panel activo.
 
 >[!IMPORTANT]
->Puede arrastrar y soltar en cualquier panel que esté en el mismo grupo de informes que el panel activo. Al arrastrarlo a un panel inactivo del mismo grupo de informes, el panel se activará.
+>Puede arrastrar y soltar en cualquier panel que esté en el mismo grupo de informes del panel activo. Al arrastrarlo a un panel inactivo del mismo grupo de informes, el panel se activará.
 
 | Tarea | Panel activo | Panel inactivo |
 |---|---|---|
@@ -46,18 +46,18 @@ Con esta función, presentamos el concepto de &quot;panel activo&quot; frente a 
 
 
    >[!NOTE]
-   >En ocasiones, se muestra una pancarta al cargar un proyecto (o al cambiar a un grupo de informes) en el que no todos los componentes incluidos en el proyecto están incluidos en el grupo de informes. Se enumerarán los componentes que faltan. Siga [estas instrucciones](/help/admin/admin-console/permissions/product-profile.md) y establezca permisos para las métricas y dimensiones requeridas.
+   >En ocasiones, aparece un banner al cargar un proyecto (o al cambiar a un grupo de informes) en el que no todos los componentes del proyecto están incluidos en el grupo de informes. Se enumerarán los componentes que faltan. Siga [estas instrucciones](/help/admin/admin-console/permissions/product-profile.md) y establezca permisos para las métricas y dimensiones requeridas.
 
    ![](assets/incompat-rs.png)
 
    Tiene 3 opciones para hacer frente a esta incompatibilidad:
-   * Habilitar las dimensiones o métricas requeridas
+   * Habilitar las dimensiones o métricas requeridas.
    * Cambiar el grupo de informes.
    * Continuar con algunos componentes faltantes. Esto implica que no habrá datos para esos componentes ni para visualizaciones en blanco.
 
 1. Cambie el panel a otro grupo de informes y observe cómo se actualizan la etiqueta del componente (grupo de informes activo actualmente) y los componentes enumerados en función del nuevo grupo de informes.
 
-1. Use a keyboard shortcut (`shift` while dragging) to turn an inactive panel to an active panel.
+1. Use un acceso directo del teclado (`shift` mientras arrastra) para convertir un panel inactivo en un panel activo.
 
 1. (Opcional) También puede dirigirse a otros creadores de componentes de Analytics y comprobar que ahora muestren una etiqueta de grupo de informes que indique
 
