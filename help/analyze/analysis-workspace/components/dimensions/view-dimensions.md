@@ -2,7 +2,7 @@
 description: 'null'
 title: Vista preliminar de dimensiones
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 ---
@@ -17,7 +17,7 @@ Sitúe el ratón encima del icono de información (i) que encontrará junto a un
 Ahora, y de forma predeterminada, se mostrarán valores dinámicos en lugar de valores estáticos, con la opción de convertirlos en estáticos. Otros aspectos que considerar:
 
 * A medida que los datos se actualicen, las columnas de dimensión dinámica se actualizarán para mostrar cinco de los quince elementos de dimensión actuales.
-* Las columnas de dimensión dinámica que se copien o se muevan pasará a ser de dimensión estática.
+* Las columnas de dimensión dinámica que se copien o se muevan pasarán a ser de dimensión estática.
 * Al pasar el ratón por encima de una columna de dimensión estática, verá un icono de bloqueo que indicará que la dimensión es estática.
 
 ![](assets/dimension_static.png)
