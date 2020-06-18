@@ -2,7 +2,7 @@
 title: Información general del panel de comparación de segmentos
 description: Aprenda a utilizar el panel de comparación de segmentos, que forma parte de IQ de segmento en Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -19,7 +19,7 @@ El panel Comparación de segmentos es una parte de la herramienta de [IQ de segm
 1. En la barra de navegación superior, haga clic en Workspace.
 1. Haga clic en el botón Crear nuevo proyecto.
 1. En la ventana emergente modal, compruebe que está seleccionado “Proyecto en blanco” y, a continuación, haga clic en Crear.
-1. Haga clic en el botón Paneles de la izquierda y, a continuación, arrastre el panel Comparación de segmentos por encima o por debajo del panel de tabla de forma libre creado automáticamente.
+1. Haga clic en el botón Paneles de la izquierda y, a continuación, arrastre el panel Comparación de segmentos por encima o por debajo del panel de tabla improvisada creado automáticamente.
 
    ![Comparar panel](assets/seg-compare-panel.png)
 
@@ -27,11 +27,11 @@ El panel Comparación de segmentos es una parte de la herramienta de [IQ de segm
 
    ![Comparar audiencias](assets/compare-audiences.png)
 
-   After you drag a segment into the panel, Analytics automatically creates an [!UICONTROL 'Everyone Else'] segment that includes everyone NOT in the segment you chose. Se trata de un segmento que se utiliza con frecuencia en el panel de comparación, pero puede eliminarlo y comparar otro segmento de su elección.
+   Después de arrastrar un segmento al panel, Analytics crea automáticamente un segmento [!UICONTROL 'Everyone Else'] que incluye a todos los que NO están en el segmento que ha elegido. Se trata de un segmento que se utiliza con frecuencia en el panel de comparación, pero puede eliminarlo y comparar otro segmento de su elección.
 
    ![Todos los demás](assets/everyone-else.png)
 
-1. Once you have determined which two segments to compare, click [!UICONTROL Build].
+1. Una vez que haya determinado qué dos segmentos comparar, haga clic en [!UICONTROL Build].
 
    Esta acción inicia un proceso backend que busca diferencias estadísticas entre los dos segmentos seleccionados y todas las dimensiones, métricas y otros segmentos. Una barra de progreso en la parte superior del panel indica el tiempo restante hasta que se analizan todas las métricas y dimensiones. Las métricas, dimensiones y segmentos utilizados con más frecuencia tienen prioridad para ejecutarse primero, de modo que los resultados más relevantes se devuelvan de manera oportuna.
 
@@ -39,12 +39,12 @@ El panel Comparación de segmentos es una parte de la herramienta de [IQ de segm
 
 A veces se desea excluir algunas dimensiones, métricas o segmentos de las comparaciones de segmentos. Por ejemplo, desea comparar el segmento “Usuarios móviles de EE. UU.” con “Usuarios móviles alemanes”. Incluir dimensiones relacionadas con la geografía no tendría sentido, ya que estos segmentos ya implican esas diferencias.
 
-1. After the desired two segments are in the panel, click [!UICONTROL 'Show Advanced Options'].
-1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
+1. Una vez que los dos segmentos deseados estén en el panel, haga clic en [!UICONTROL 'Show Advanced Options'].
+1. Arrastre y suelte los componentes que desea excluir en cualquier sitio del panel [!UICONTROL Excluded Components].
 
    ![Componentes excluidos](assets/excluded-components.png)
 
-Click [!UICONTROL 'Set as default'] to automatically exclude your current components in all future segment comparisons. Si desea editar componentes excluidos, haga clic en un tipo de componente y, a continuación, haga clic en la “X” situada junto a un componente para volver a incluirlos en el análisis. Haga clic en “Borrar todo” para volver a incluir todos los componentes en la comparación de segmentos.
+Haga clic en [!UICONTROL 'Set as default'] para excluir automáticamente los componentes actuales en todas las comparaciones de segmentos futuras. Si desea editar componentes excluidos, haga clic en un tipo de componente y, a continuación, haga clic en la “X” situada junto a un componente para volver a incluirlos en el análisis. Haga clic en “Borrar todo” para volver a incluir todos los componentes en la comparación de segmentos.
 
 ![Dimensiones excluidas](assets/excluded-dimensions.png)
 
@@ -70,9 +70,9 @@ A la derecha de la visualización Tamaño y superposición, se muestra el recuen
 
 ### Métricas principales
 
-Muestra las métricas más significativas estadísticamente entre los dos segmentos. Cada fila de dicha tabla representa una métrica diferenciadora, ordenada según lo diferente que sea de cada segmento. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
+Muestra las métricas más significativas estadísticamente entre los dos segmentos. Cada fila de dicha tabla representa una métrica diferenciadora, ordenada según lo diferente que sea de cada segmento. Una puntuación de diferencia de 1 significa que tiene relevancia estadística, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
 
-Esta visualización es similar a las tablas de forma libre en Analysis Workspace. Si desea realizar un análisis más profundo de una métrica específica, pase el ratón sobre un elemento de línea y haga clic en “Crear imagen”. Se crea una nueva tabla para analizar esa métrica específica. Si una métrica no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarla.
+Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea realizar un análisis más profundo de una métrica específica, pase el ratón sobre un elemento de línea y haga clic en “Crear imagen”. Se crea una nueva tabla para analizar esa métrica específica. Si una métrica no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarla.
 
 >[!NOTE] Las métricas que se agreguen a esta tabla una vez finalizada la comparación de segmentos no reciben una puntuación de diferencia.
 
@@ -86,9 +86,9 @@ A la derecha de la tabla de métricas se encuentra la visualización vinculada. 
 
 ### Dimensiones principales
 
-Muestra los valores de dimensión más significativos estadísticamente en todas las dimensiones. Cada fila muestra el porcentaje de cada segmento con este valor de dimensión. Por ejemplo, esta tabla podría revelar que el 100% de los visitantes del segmento A tenían el elemento de dimensión “Tipo de explorador: Google”, mientras que solo el 19,6% del “segmento B” tenía este elemento de dimensión. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
+Muestra los valores de dimensión más significativos estadísticamente en todas las dimensiones. Cada fila muestra el porcentaje de cada segmento con este valor de dimensión. Por ejemplo, esta tabla podría revelar que el 100% de los visitantes del segmento A tenían el elemento de dimensión “Tipo de explorador: Google”, mientras que solo el 19,6% del “segmento B” tenía este elemento de dimensión. Una puntuación de diferencia de 1 significa que tiene relevancia estadística, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
 
-Esta visualización es similar a las tablas de forma libre en Analysis Workspace. Si desea realizar un análisis más profundo de un valor de dimensión específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese valor de dimensión específico. Si un valor de dimensión es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
+Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea realizar un análisis más profundo de un valor de dimensión específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese valor de dimensión específico. Si un valor de dimensión es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
 
 >[!NOTE] Los valores de dimensión que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
 
@@ -102,9 +102,9 @@ A la derecha de la tabla de dimensiones se encuentra la visualización de gráfi
 
 ### Segmentos principales
 
-Muestra qué otros segmentos (que no sean los dos seleccionados para la comparación) tienen una superposición estadísticamente significativa. Por ejemplo: esta tabla puede mostrar que un tercer segmento, “Visitantes repetidos”, se superpone con el segmento A pero no con el segmento B. Una puntuación de diferencia de 1 significa que es estadísticamente significativa, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
+Muestra qué otros segmentos (que no sean los dos seleccionados para la comparación) tienen una superposición estadísticamente significativa. Por ejemplo: esta tabla puede mostrar que un tercer segmento, “Visitantes repetidos”, se superpone con el segmento A pero no con el segmento B. Una puntuación de diferencia de 1 significa que tiene relevancia estadística, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
 
-Esta visualización es similar a las tablas de forma libre en Analysis Workspace. Si desea realizar un análisis más profundo de un segmento específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese segmento específico. Si un segmento no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
+Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea realizar un análisis más profundo de un segmento específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese segmento específico. Si un segmento no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
 
 >[!NOTE] Los segmentos que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
 
