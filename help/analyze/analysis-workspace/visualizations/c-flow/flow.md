@@ -2,7 +2,7 @@
 description: 'null'
 title: Resumen de flujos
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -14,7 +14,7 @@ La función de flujo muestra las rutas del cliente en sus sitios web y aplicacio
 
 Le permite:
 
-* Visualizar el viaje del cliente a lo largo de su sitio web o aplicación
+* Visualizar el recorrido del cliente a lo largo de su sitio web o aplicación
 * Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida
 * Crear segmentos mediante la designación de un punto específico en una ruta elegida
 
@@ -28,6 +28,6 @@ Puede mostrar el [flujo entre dimensiones](/help/analyze/analysis-workspace/visu
 
 Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y suéltela en una zona de colocación para añadir esa dimensión al diagrama.
 
-## Exportación de diagramas de flujo como parte de archivos .CSV de proyecto  {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## Exportación de diagramas de flujo como parte de archivos .CSV de proyecto {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Flow diagrams are part of a project&#39;s .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Esto le permite analizar los resultados del flujo en Microsoft Excel (visualizados como una tabla) o en otra herramienta.
+Los diagramas de flujo son parte del archivo .CSV de un proyecto que puede crear accediendo a **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Esto le permite analizar los resultados del flujo en Microsoft Excel (visualizados como una tabla) o en otra herramienta.
