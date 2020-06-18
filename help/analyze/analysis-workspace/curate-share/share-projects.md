@@ -3,30 +3,30 @@ description: Uso compartido de proyectos y funciones de proyectos en Workspace
 keywords: Analysis Workspace sharing
 title: Compartir proyectos de Workspace
 translation-type: tm+mt
-source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
+source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 9%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
 
 
 # Compartir proyectos de Workspace
 
-El uso compartido hace que un proyecto esté disponible para otros usuarios de Espacio de trabajo de Análisis de su organización. Cualquier [depuración](curate.md) que haya aplicado se verá reflejada cuando los destinatarios abran el proyecto.
+El uso compartido hace que un proyecto esté disponible para otros usuarios Analysis Workspace de su organización. Cualquier [depuración](curate.md) que haya aplicado se verá reflejada cuando los destinatarios abran el proyecto.
 
 ## Funciones de proyecto
 
-Puede agregar destinatarios a una de las tres funciones del proyecto. Las funciones de proyecto están vinculadas al usuario y al ID de proyecto específico.
-
->[!NOTE]
-> Las funciones de proyecto son independientes de los permisos de usuario administrados en la consola de administración de Experience Cloud.
+Puede agregar destinatarios a una de las tres funciones del proyecto. Las funciones de proyecto están vinculadas al usuario y al ID de proyecto específico. Las funciones de proyecto son independientes de los permisos de usuario administrados en la consola [de administración de](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html)Experience Cloud.
 
 | Función | Control de proyecto |
 |---|---|
 | Se puede editar | Los destinatarios pueden Guardar cambios en un proyecto y en una funcionalidad como copropietarios.<br>Esta función es útil si desea colaborar con compañeros en un proyecto. |
-| Se puede duplicar | Los destinatarios pueden Guardar como y tienen acceso al panel izquierdo. Las interacciones son ilimitadas.<br>Esta función resulta útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo utilizar el espacio de trabajo de Análisis, pero no desea que se modifique el proyecto guardado. |
-| Se puede ver | Los Destinatarios no pueden guardar como y no tienen acceso al carril izquierdo. Las interacciones también son limitadas.<br>Esta función resulta útil si desea compartir un proyecto con usuarios que estén menos familiarizados con la estructura de datos de su organización, el espacio de trabajo de Análisis o Adobe Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro.<br>Obtenga más información sobre la experiencia [del proyecto](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Can vista. |
+| Se puede duplicar | Los destinatarios pueden Guardar como y tienen acceso al panel izquierdo. Las interacciones son ilimitadas.<br>Esta función es útil si desea compartir un proyecto con usuarios que comprendan los datos de su organización y cómo usar Analysis Workspace, pero no desea que se modifique el proyecto guardado. |
+| Se puede ver | Los Destinatarios no pueden guardar como y no tienen acceso al carril izquierdo. Las interacciones también son limitadas.<br>Esta función resulta útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, con el Analysis Workspace o con Adobe Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro.<br>Obtenga más información sobre la experiencia [del proyecto](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Can vista. |
+
+>[!IMPORTANT]
+> Los destinatarios del proyecto agregados antes del 18 de junio de 2020 se han migrado a una función de proyecto. Los usuarios administradores migraron a la función Pueden editar y los usuarios no administradores migraron a la función Pueden vista. Estas funciones proporcionan la misma experiencia de proyecto que antes.
 
 ### No se ha asignado ninguna función
 
