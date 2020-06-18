@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Crear intervalos de fechas
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ El siguiente intervalo de fechas personalizado muestra un intervalo de fechas pa
 
 ![](assets/date-range-two-months-ago.png)
 
-The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
+El intervalo de fechas personalizado se muestra en la parte superior del panel de componente [!UICONTROL Date Range] del proyecto:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
@@ -42,7 +42,7 @@ Por ejemplo, puede crear un intervalo de fechas que especifica una ventana móvi
 
 ![](assets/create_date_range.png)
 
-Utilice  *`rolling daily`*.
+Utilice *`rolling daily`*.
 
 * La configuración de inicio sería *`current day minus 14 days`*.
 
