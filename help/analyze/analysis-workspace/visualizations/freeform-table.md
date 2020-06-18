@@ -1,7 +1,7 @@
 ---
 title: Tabla improvisada
 description: Obtenga información sobre las tablas improvisadas y el generador de tablas improvisadas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ce06a5ca2caeb266c729947c76e93c611502e6d9
 
 ---
@@ -25,14 +25,14 @@ Puede personalizar la tabla de varias formas:
 
 ## Generador de tablas improvisadas
 
-Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas improvisadas. Con el Generador de tablas improvisadas, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas más complejas. Data will not update on-the-fly, it will update once you click **[!UICONTROL Build]**.
+Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas improvisadas. Con el Generador de tablas improvisadas, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas más complejas. Los datos no se actualizarán sobre la marcha, sino una vez que haga clic en **[!UICONTROL Build]**.
 
 El Generador de tablas es una opción que ahorra tiempo cuando tiene una pregunta compleja que hacer sobre los datos y tiene una idea de qué tabla desea crear para responder a su pregunta. Otras ventajas del generador de tablas incluyen la capacidad de:
 
 * Organizar la tabla en el formato que necesite, sin tener que esperar a que se procese cada acción.
 * Realizar rápidamente hasta 4 niveles de desgloses.
 * Definir la configuración de Fila y Desglose para cada fila de tabla y columna de dimensión.
-* **[!UICONTROL Breakdown by Position]** de forma predeterminada, para cada nivel de la tabla (en las tablas improvisadas tradicionales, el valor predeterminado es **[!UICONTROL Breakdown by Item]**).
+* De forma predeterminada, **[!UICONTROL Breakdown by Position]** para cada nivel de la tabla (en las tablas improvisadas tradicionales, el valor predeterminado es **[!UICONTROL Breakdown by Item]**).
 * Ordenar manualmente filas estáticas en la tabla. Por ejemplo, si desea que las filas de métricas aparezcan en un orden determinado.
 * Previsualizar el formato de la tabla antes de procesar datos reales.
 
@@ -43,5 +43,5 @@ Observe cómo funciona el Generador de tablas improvisadas [aquí](https://youtu
 Los datos de una tabla improvisada se pueden copiar desde Analysis Workspace de varias formas:
 
 * Haga clic con el botón derecho en el encabezado de tabla y seleccione **[!UICONTROL Copy to Clipboard]**. Esto exportará la tabla completa (visible).
-* Highlight specific cells in the table, right-click and select **[!UICONTROL Copy to Clipboard]**, or use the Ctrl + C hotkey.
+* Resalte celdas específicas en la tabla, haga clic con el botón secundario y seleccione **[!UICONTROL Copy to Clipboard]** o utilice la tecla de acceso directo Ctrl + C.
 * **[!UICONTROL Project > Download CSV]**. Esto exportará todas las tablas visibles del proyecto en formato CSV.
