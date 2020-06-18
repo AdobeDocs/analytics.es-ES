@@ -2,7 +2,7 @@
 description: La comparación de fechas de Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre, mes tras mes, etc.
 title: Comparación de fechas
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ La comparación de fechas de Analysis Workspace le permite tomar cualquier colum
 El análisis requiere contexto, y este lo proporciona a menudo un periodo de tiempo previo. Por ejemplo, la pregunta “¿En qué medida nos va mejor/peor que en este mismo momento del año pasado?” es fundamental para comprender su negocio. Las comparaciones de fechas incluyen automáticamente una columna “diferencia” que muestra el porcentaje de cambio en comparación con un periodo de tiempo concreto.
 
 1. Cree una tabla improvisada con cualquier dimensión y métrica que quiera comprobar a lo largo de un periodo de tiempo.
-1. Haga clic con el botón derecho en una fila de tabla y seleccione **[!UICONTROL Compare Time Periods]**.
+1. Haga clic con el botón derecho en una fila de la tabla y seleccione **[!UICONTROL Compare Time Periods]**.
 
    ![](assets/compare-time.png)
 
@@ -35,7 +35,7 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
    >[!NOTE]
    >
-   >Al seleccionar un número personalizado de días, por ejemplo, del 7 de octubre al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL Prior 14 days before this date range]**, y **[!UICONTROL Select range]**.
+   >Al seleccionar una cantidad personalizada de días, por ejemplo, del 7 de octubre al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL Prior 14 days before this date range]** y **[!UICONTROL Select range]**.
 
 1. La comparación resultante tiene este aspecto:
 
@@ -47,13 +47,13 @@ El análisis requiere contexto, y este lo proporciona a menudo un periodo de tie
 
    ![](assets/compare-time-barchart.png)
 
-   Note that in order to show the percentage change in the bar chart, you have to have the [!UICONTROL Percentages] setting checked in the [!UICONTROL Visualization Settings].
+   Fíjese en que, para mostrar el cambio porcentual en el gráfico de barras, debe tener marcado el ajuste [!UICONTROL Percentages] en la [!UICONTROL Visualization Settings].
 
 ## Agregar una columna Periodo de tiempo para comparar {#section_93CC2B4F48504125BEC104046A32EB93}
 
 Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que permite agregar un periodo diferente al periodo en que está establecido el calendario. Esta es otra manera de comparar fechas.
 
-1. Haga clic con el botón derecho en una columna de la tabla y seleccione **[!UICONTROL Add Time Period Column]**![](assets/add-time-period-column.png)
+1. Haga clic con el botón derecho en una columna de la tabla y seleccione **[!UICONTROL Add Time Period Column]** ![](assets/add-time-period-column.png)
 
 1. Dependiendo de cómo haya establecido el intervalo de fechas de la tabla, dispone de estas opciones para la comparación:
 
@@ -65,7 +65,7 @@ Ahora puede agregar un periodo de tiempo a cada columna en una tabla, lo que per
 
    >[!NOTE]
    >
-   >Al seleccionar un número personalizado de días, por ejemplo, del 7 de octubre al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL Prior 14 days before this date range]**, y **[!UICONTROL Select range]**.
+   >Al seleccionar una cantidad personalizada de días, por ejemplo, del 7 de octubre al 20 de octubre (un intervalo de 14 días), solo obtendrá dos opciones: **[!UICONTROL Prior 14 days before this date range]** y **[!UICONTROL Select range]**.
 
 1. El periodo de tiempo se insertará en la parte superior de la columna seleccionada:
 
