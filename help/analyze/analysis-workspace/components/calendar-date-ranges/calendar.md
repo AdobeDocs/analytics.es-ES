@@ -2,7 +2,7 @@
 description: En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
 title: Resumen de calendario e intervalos de fechas
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 # Resumen de calendario e intervalos de fechas
 
-En el calendario se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
+En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
 
 Las selecciones de calendario se aplican a nivel de panel, pero tiene la opción de aplicarlas a todos los paneles. Al hacer clic en un intervalo de fechas en Workspace, la interfaz muestra el mes natural actual y el mes natural anterior. Puede ajustar estos dos calendarios haciendo clic en las flechas derecha e izquierda de cada esquina superior respectiva.
 
 ![Calendario](assets/aw_calendar.png)
 
-El primer clic en un calendario inicio una selección de intervalo de fechas. El segundo clic completa una selección de intervalo de fechas, que se resalta. Si la `Shift` tecla se mantiene pulsada (o se utiliza el clic derecho), se anexa al rango seleccionado actualmente.
+El primer clic en un calendario inicia una selección de intervalo de fechas. El segundo clic completa una selección de intervalo de fechas, que se resalta. Si la tecla `Shift` se mantiene pulsada (o se utiliza el clic derecho), se anexa al rango seleccionado actualmente.
 
 También puede arrastrar fechas (y dimensiones temporales) a un proyecto de Workspace. Se pueden seleccionar fechas, semanas, meses o años concretos, o bien fechas móviles.
 
