@@ -3,10 +3,10 @@ description: Uso compartido de proyectos y funciones de proyectos en Workspace
 keywords: Analysis Workspace sharing
 title: Compartir proyectos de Workspace
 translation-type: tm+mt
-source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
+source-git-commit: 17c963fa6a0fc24d2e3ab45500922ea17ad42240
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 10%
+source-wordcount: '719'
+ht-degree: 9%
 
 ---
 
@@ -26,19 +26,19 @@ Puede agregar destinatarios a una de las tres funciones del proyecto. Las funcio
 | Se puede ver | Los Destinatarios no pueden guardar como y no tienen acceso al carril izquierdo. Las interacciones también son limitadas.<br>Esta función resulta útil si desea compartir un proyecto con usuarios menos familiarizados con la estructura de datos de su organización, con el Analysis Workspace o con Adobe Analytics en general. Sin embargo, aún desea que consuman datos y perspectivas en un entorno seguro.<br>Obtenga más información sobre la experiencia [del proyecto](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)Can vista. |
 
 >[!IMPORTANT]
-> Los destinatarios del proyecto agregados antes del 18 de junio de 2020 se han migrado a una función de proyecto. Los usuarios administradores migraron a la función Pueden editar y los usuarios no administradores migraron a la función Pueden vista. Estas funciones proporcionan la misma experiencia de proyecto que antes.
+> Los destinatarios del proyecto agregados antes del 18 de junio de 2020 se han migrado a una función de proyecto. Los usuarios administradores migraron a la función **[!UICONTROL Pueden editar]** y los usuarios no administradores migraron a la función **[!UICONTROL Pueden duplicado]** . Estas funciones proporcionan la misma experiencia de proyecto que antes. Además, todos los grupos (incluido &quot;Todos&quot;) migraron a la función **[!UICONTROL Puede duplicado]** .
 
 ### No se ha asignado ninguna función
 
-Si a un destinatario no se le asigna una función y recibe un vínculo al proyecto ([!UICONTROL Compartir] > [!UICONTROL Obtener vínculo]de proyecto), se colocará en la función [!UICONTROL &quot;vista posible&quot;] de forma predeterminada.
+Si a un destinatario no se le asigna una función y recibe un vínculo al proyecto (**[!UICONTROL Compartir]>[!UICONTROL Obtener vínculo]** de proyecto), se colocará en la función de vista **** posible de forma predeterminada.
 
 ### Múltiples funciones asignadas
 
-Si un destinatario se coloca en varios roles, siempre tendrá el control más alto. Esto puede ocurrir si se agrega un usuario como individuo y como parte de un grupo. Por ejemplo, si se proporcionan las funciones Puede editar y [!UICONTROL &quot;Puede vista&quot;] , el usuario 1 tendrá el control [!UICONTROL &quot;Puede editar&quot;] del proyecto.
+Si un destinatario se coloca en varios roles, siempre tendrá el control más alto. Esto puede ocurrir si se agrega un usuario como individuo y como parte de un grupo. Por ejemplo, si se da al usuario 1 las funciones Puede editar y **[!UICONTROL Puede vista]** , tendrán el control **[!UICONTROL Puede editar]** el proyecto.
 
 ### Administradores y funciones
 
-Los administradores ubicados en una función [!UICONTROL&quot;Puede duplicado&quot;] o [!UICONTROL &quot;Puede vista&quot;] recibirán esas experiencias limitadas cuando abran un proyecto. Si lo desea, un administrador puede aumentar su función a [!UICONTROL &quot;Puede editar&quot;] en cualquier momento mediante [!UICONTROL Componentes] > [!UICONTROL Proyectos].
+Los administradores ubicados en una función **[!UICONTROL Puede duplicado]** o **[!UICONTROL Puede vista]** recibirán esas experiencias limitadas cuando abran un proyecto. Si lo desea, un administrador puede aumentar su función en **[!UICONTROL Puede editar]** en cualquier momento mediante **[!UICONTROL Componentes]>[!UICONTROL Proyectos]**.
 
 ## Añadir destinatarios a un proyecto compartido
 
@@ -66,7 +66,7 @@ Todos los usuarios pueden compartir proyectos con grupos, que son una colección
 
 ## Compartir proyectos en el administrador de proyectos
 
-Los proyectos también se pueden compartir desde [!UICONTROL Componentes] > [!UICONTROL Proyectos]. Un solo proyecto se puede compartir siguiendo los mismos pasos descritos anteriormente.
+Los proyectos también se pueden compartir desde **[!UICONTROL Componentes]>[!UICONTROL Proyectos]**. Un solo proyecto se puede compartir siguiendo los mismos pasos descritos anteriormente.
 
 Si se seleccionan varios proyectos para compartirlos, se agregarán destinatarios a la lista de destinatarios existente para cada proyecto. Por ejemplo:
 
