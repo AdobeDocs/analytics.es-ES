@@ -2,10 +2,10 @@
 description: El panel Analytics para Destinatario (A4T) permite analizar las actividades y experiencias de Adobe Target en Analysis Workspace.
 title: Panel Analytics para Destinatario (A4T)
 translation-type: tm+mt
-source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
+source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 16%
+source-wordcount: '855'
+ht-degree: 15%
 
 ---
 
@@ -61,8 +61,9 @@ Como con cualquier panel de Analysis Workspace, puede continuar con la análisis
 | Pregunta | Respuesta |
 |---|---|
 | ¿Qué tipos de actividad se admiten en A4T? | [Obtenga más](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) información sobre los tipos de actividad admitidos. |
-| ¿Se admiten las métricas calculadas en el sistema de informes de A4T? | No. [Obtenga más](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) información sobre por qué no se admiten las métricas calculadas. |
+| ¿Se admiten las métricas calculadas en los cálculos de alza y confianza? | No. [Obtenga más](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) información sobre por qué las métricas calculadas no son compatibles con el alza y la confianza. Sin embargo, las métricas calculadas pueden utilizarse en sistemas de informes de A4T fuera de estas métricas. |
 | ¿Por qué los visitantes únicos varían entre Destinatario y Analytics? | [Obtenga más](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) información sobre las variaciones de visitantes únicos entre productos. |
 | Cuando se aplica un segmento de visita para una actividad de Destinatario específica en mi análisis, ¿por qué se devuelven experiencias no relacionadas? | La dimensión de A4T es una variable de lista, lo que significa que puede contener muchas actividades (y experiencias) a la vez. [Más información](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| ¿La métrica de confianza representa los pedidos extremos o aplica una corrección de Bonferroni para varias ofertas? | No. [Obtenga más](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) información sobre cómo Analytics calcula la confianza. |
 
 Para obtener más información sobre Analytics para el sistema de informes de Destinatario, visite el sistema de informes de [A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
