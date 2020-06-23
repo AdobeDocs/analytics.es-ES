@@ -1,7 +1,7 @@
 ---
 title: trackDownloadLinks
 description: Habilite o deshabilite el seguimiento automático de vínculos para los vínculos de descarga.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # trackDownLoadLinks
 
-Adobe offers the ability to track download links without manually setting the [`tl()`](../functions/tl-method.md) method for each download link. Active esta variable si desea utilizar el seguimiento automático de vínculos para los vínculos de descarga.
+Adobe ofrece la posibilidad de rastrear los vínculos de descarga sin configurar manualmente el método [`tl()`](../functions/tl-method.md) para cada vínculo de descarga. Active esta variable si desea utilizar el seguimiento automático de vínculos para los vínculos de descarga.
 
 Cuando está habilitado, AppMeasurement compara cualquier URL de vínculo donde se haga clic con los valores de [`linkDownloadFileTypes`](linkdownloadfiletypes.md). Si hay una coincidencia, se activa automáticamente una llamada de seguimiento de vínculos de descarga.
 
@@ -26,7 +26,7 @@ Haga clic en la casilla de verificación para habilitar el seguimiento automáti
 
 ## s.trackDownloadLinks en el editor de código personalizado de AppMeasurement y Launch
 
-El `s.trackDownloadLinks` es un booleano que habilita o deshabilita el seguimiento automático de vínculos de descarga. If you do not want to track download links, or would prefer to manually call the `tl()` method to track downloads, set this variable to `false`.
+El `s.trackDownloadLinks` es un booleano que habilita o deshabilita el seguimiento automático de vínculos de descarga. Si no desea rastrear los vínculos de descarga o prefiere llamar manualmente al método `tl()` para rastrear las descargas, establezca esta variable como `false`.
 
 ```js
 s.trackDownloadLinks = true;
