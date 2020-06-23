@@ -3,7 +3,7 @@ description: Describe un flujo de trabajo sugerido para los segmentos creados co
 title: Resumen del flujo de trabajo de segmentación
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
