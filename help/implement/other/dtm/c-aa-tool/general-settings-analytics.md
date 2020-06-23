@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: General
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 Descripciones de los campos de la configuración general de DTM para la implementación de Adobe Analytics.
 
-**[!UICONTROL &lt;Propiedad>]** > ![](assets/settings_gear.png) **[!UICONTROL Herramienta de edición]** > **[!UICONTROL General]**
+**[!UICONTROL &lt;Propiedad>]** > ![](assets/settings_gear.png)**[!UICONTROL Herramienta de edición]** > **[!UICONTROL General]**
 
 <table id="table_DD8DA303698041D296DD5DB080AF7971"> 
  <thead> 
@@ -52,7 +52,7 @@ Descripciones de los campos de la configuración general de DTM para la implemen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Servidor de seguimiento de SSL </p> </td> 
-   <td colname="col2"> <p>Dominio en el cual se escriben la solicitud de imagen y la cookie. Se utiliza para páginas seguras. Si no se define, los datos SSL se dirigen a <span class="term">trackingServer</span>.  </p> </td> 
+   <td colname="col2"> <p>Dominio en el cual se escriben la solicitud de imagen y la cookie. Se utiliza para páginas seguras. Si no se define, los datos SSL se dirigen a <span class="term">trackingServer</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Centro de datos </p> </td> 
