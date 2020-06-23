@@ -4,7 +4,7 @@ subtopic: Classifications
 title: Plantilla de clasificación
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -24,7 +24,7 @@ Opcional. Antes de importar las clasificaciones a informes de marketing, existe 
 |---|---|
 | Seleccionar grupo de informes | Seleccione el grupo de informes que se usará en la plantilla. El grupo de informes y el conjunto de datos deben coincidir. |
 | Conjunto de datos a clasificar | Seleccione el tipo de datos del archivo de datos. El menú incluye todos los informes de los grupos de informes que se han configurado para las clasificaciones. |
-| Exportación numérica 2 | Puede importar al sistema clasificaciones numéricas 2 mediante el importador. Las clasificaciones numéricas 2 son variables útiles que puede cambiar con el tiempo para distintos elementos, tales como los valores de costo y presupuesto del informe [!UICONTROL Canal de mercadotecnia]. Consulte [Clasificaciones numéricas 2](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) para obtener información sobre cómo cargar datos a través de las clasificaciones numéricas 2. |
+| Exportación numérica 2 | Puede importar al sistema clasificaciones numéricas 2 mediante el importador. Las clasificaciones numéricas 2 son variables útiles que puede cambiar con el tiempo para distintos elementos, tales como los valores de costo y presupuesto del informe [!UICONTROL Canal de marketing]. Consulte [Clasificaciones numéricas 2](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) para obtener información sobre cómo cargar datos a través de las clasificaciones numéricas 2. |
 | Codificación | Seleccione la codificación de caracteres del archivo de datos. El formato de codificación predeterminado es UTF-8. |
 | Descargar | Descarga el archivo de plantilla. |
 
