@@ -1,7 +1,7 @@
 ---
 title: Creación de una capa de datos
 description: Descubra qué es una capa de datos en su implementación de Analytics y cómo se puede utilizar para asignar variables en Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -170,4 +170,4 @@ Las capas de datos se generan en el servidor, que hacen referencia a los mismos 
 
 ## Pasos siguientes
 
-[Asignar objetos de capa de datos a elementos](../launch/layer-to-elements.md)de datos: Utilice la capa de datos del sitio en Adobe Experience Platform Launch.
+[Asignar objetos de capa de datos a elementos de datos](../launch/layer-to-elements.md): utilice la capa de datos del sitio en Adobe Experience Platform Launch.
