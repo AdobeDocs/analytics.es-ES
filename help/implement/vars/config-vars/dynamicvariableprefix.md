@@ -1,7 +1,7 @@
 ---
 title: dynamicVariablePrefix
 description: Permite personalizar la cadena que identifica las variables dinámicas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03a4c0d5e080219a7fd96dff33ce122669351ac3
 
 ---
