@@ -1,7 +1,7 @@
 ---
 title: trackingServerSecure
 description: Determinar la ubicación a la que se envían las solicitudes de imagen en páginas HTTPS.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
