@@ -1,7 +1,7 @@
 ---
 title: zip
 description: Rellene manualmente la dimensión “Código postal” si la configuración del grupo de informes lo permite.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
