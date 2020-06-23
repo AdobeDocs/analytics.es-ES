@@ -1,7 +1,7 @@
 ---
 title: cleanStr
 description: Eliminación o sustitución de todos los caracteres innecesarios de una cadena.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El complemento `cleanStr` elimina o reemplaza todos los caracteres innecesarios de una cadena, incluidos los caracteres de etiqueta HTML, espacios en blanco adicionales, pestañas y retornos de línea/carro nuevos. It also replaces left/right single quotes (`‘` and `’`) with straight single quotes (`'`). Adobe recomienda utilizar este complemento si desea eliminar caracteres innecesarios de los valores de las variables y la función “Limpiar texto” de Launch no satisface sus necesidades de implementación. Este complemento no es necesario si los datos recopilados no contienen caracteres innecesarios o si la función “Limpiar texto” de Launch es suficiente.
+El complemento `cleanStr` elimina o reemplaza todos los caracteres innecesarios de una cadena, incluidos los caracteres de etiqueta HTML, espacios en blanco adicionales, pestañas y retornos de línea/carro nuevos. También reemplaza las comillas simples (`‘` y `’`) con las rectas (`'`). Adobe recomienda utilizar este complemento si desea eliminar caracteres innecesarios de los valores de las variables y la función “Limpiar texto” de Launch no satisface sus necesidades de implementación. Este complemento no es necesario si los datos recopilados no contienen caracteres innecesarios o si la función “Limpiar texto” de Launch es suficiente.
 
 ## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
@@ -20,7 +20,7 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
 1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
    * Condición: Ninguna
    * Evento: Core – Biblioteca cargada (Principio de página)
