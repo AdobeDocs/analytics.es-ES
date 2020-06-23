@@ -3,10 +3,10 @@ description: Seleccione Mostrar avanzadas para acceder a estas funciones en la l
 title: 'Referencia: funciones avanzadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
 workflow-type: tm+mt
 source-wordcount: '2911'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en 
 
 Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
 
-## ¿Qué significa el parámetro Include-Zeros?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## ¿Qué significa el parámetro Include-Zeros? {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa &quot;nada&quot;, pero en ocasiones es importante.
 
@@ -40,11 +40,11 @@ AND(logical_test1,[logical_test2],...)
 | Argumento | Descripción |
 |---|---|
 | *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
-| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
 
 ## Número aproximado de elementos distintos (dimensión) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-Devuelve el número aproximado de elementos distintos de dimensiones para la dimensión seleccionada. Esta función usa el método HyperLogLog (HLL) de números aproximados de elementos distintos.  Está configurada para garantizar que el valor se encuentre en el 5 % del 95 % del valor actual del tiempo.
+Devuelve el número aproximado de elementos distintos de dimensiones para la dimensión seleccionada. Esta función usa el método HyperLogLog (HLL) de números aproximados de elementos distintos. Está configurada para garantizar que el valor se encuentre en el 5 % del 95 % del valor actual del tiempo.
 
 ```
 Approximate Count Distinct (dimension)
@@ -54,7 +54,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimensión* | Dimensión de la que se quiere obtener el número aproximado de elementos distintos. |
 
-## Caso práctico de ejemplo  {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Caso práctico de ejemplo {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 El número aproximado de elementos distintos (eVar del ID del cliente) es un caso práctico común para esta función.
 
@@ -66,11 +66,11 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ![](assets/approx-customers.png)
 
-## Se excedió la cantidad de valores exclusivos  {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Se excedió la cantidad de valores exclusivos {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
+Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://docs.adobe.com/content/help/es-ES/analytics/technotes/low-traffic.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
-## Comparación de funciones de recuento  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparación de funciones de recuento {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 La función Approximate Count Distinct() es una mejora de las funciones Count() y RowCount() porque la métrica que se crea puede usarse en cualquier informe dimensional para representar un número aproximado de elementos para una dimensión distinta. Por ejemplo, un recuento de los ID de cliente que se usan en un informe sobre tipos de dispositivos móviles.
 
@@ -245,7 +245,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## Regresión exponencial: pendiente (Tabla) {#concept_230991B0371E44308C52853EFA656F04}
 
-Devuelve la pendiente, *a*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para.
+Devuelve la pendiente, *a*, entre dos columnas de métricas (*metric_X* y *metric_Y*) para
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -459,7 +459,7 @@ OR(logical_test1,[logical_test2],...)
 | Argumento | Descripción |
 |---|---|
 | *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
-| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
