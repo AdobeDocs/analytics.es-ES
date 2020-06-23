@@ -1,7 +1,7 @@
 ---
 title: offlineThrottleDelay
 description: Establece la frecuencia de visitas cuando un dispositivo vuelve a conectarse.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
 
 ---
