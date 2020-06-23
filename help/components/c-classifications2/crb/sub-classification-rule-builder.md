@@ -1,7 +1,7 @@
 ---
 description: No se puede combinar el Generador de reglas de clasificación con subclasificaciones.
 title: Subclasificaciones y el Generador de reglas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Puede combinar el Generador de reglas de clasificación con subclasificaciones si se asegura de que cada subclasificación tiene un valor principal.
 
-La combinación del Generador de reglas de clasificación con subclasificaciones puede simplificar la administración de la clasificación y reducir el número de reglas necesarias. Puede ser conveniente hacer esto si el código de seguimiento está formado por códigos que desea clasificar de forma independiente.
+Combinar el Generador de reglas de clasificaciones con subclasificaciones puede simplificar la administración de clasificaciones y reducir el número de reglas necesarias. Puede ser conveniente hacer esto si el código de seguimiento está formado por códigos que desea clasificar de forma independiente.
 
 Consulte [Subclasificaciones](/help/components/c-classifications2/c-sub-classifications.md) para obtener información conceptual sobre las subclasificaciones.
 
@@ -25,7 +25,7 @@ Las jerarquías de clasificación permiten aplicar una clasificación a otra (ll
 
 ![](assets/sub_class_table.png)
 
-Una vez preparada esta estructura, puede usar el  [Generador de reglas de clasificaciones](/help/components/c-classifications2/crb/classification-rule-builder.md) para cargar archivos pequeños que solo actualicen las tablas de búsqueda (las tablas verde y roja de la imagen anterior). A continuación, puede usar el Generador de reglas para mantener actualizada la tabla de la clasificación principal.
+Una vez preparada esta estructura, puede usar el [Generador de reglas de clasificaciones](/help/components/c-classifications2/crb/classification-rule-builder.md) para cargar archivos pequeños que solo actualicen las tablas de búsqueda (las tablas verde y roja de la imagen anterior). A continuación, puede usar el Generador de reglas para mantener actualizada la tabla de la clasificación principal.
 
 En la siguiente tarea, se describe cómo hacerlo.
 
@@ -37,7 +37,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 >
 >Estos pasos describen cómo se lleva a cabo el caso de uso descrito en [Subclasificaciones y el Generador de reglas](/help/components/c-classifications2/crb/sub-classification-rule-builder.md).
 
-1. Cree clasificaciones y subclasificaciones en el [Administrador de clasificación](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html).
+1. Cree clasificaciones y subclasificaciones en el [Administrador de clasificación](https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/c-classifications.html).
 
    Ejemplo:
 
@@ -45,7 +45,7 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
 1. En el [Generador de reglas de clasificación](/help/components/c-classifications2/crb/classification-rule-builder.md), clasifique la clave de subclasificación del código de seguimiento original.
 
-   Para hacerlo, se usa una expresión regular. En este ejemplo, la regla para rellenar el  *`Broad Campaign code`* utilizaría esta expresión regular:
+   Para hacerlo, se usa una expresión regular. En este ejemplo, la regla para rellenar el *`Broad Campaign code`* utilizaría esta expresión regular:
 
    | `#` | Tipo de regla | Coincidencias | Configurar clasificación | Hasta |
    |---|---|---|---|---|
@@ -69,6 +69,6 @@ Ejemplo paso por paso que describe cómo cargar subclasificaciones mediante el G
 
 1. Para realizar el mantenimiento de las tablas de búsqueda, cargue un archivo pequeño (como se muestra arriba).
 
-   Por ejemplo, cargaría este archivo cuando se introdujera un nuevo *`Broad Campaign code`*. Este archivo se aplicaría a los valores clasificados previamente. Del mismo modo, si crea una nueva subclasificación (por ejemplo,  *`Creative Theme`* como subclasificación de *`Creative code`*), solo se carga el archivo de subclasificación, en lugar de todo el archivo de clasificación.
+   Por ejemplo, cargaría este archivo cuando se introdujera un nuevo *`Broad Campaign code`*. Este archivo se aplicaría a los valores clasificados previamente. Del mismo modo, si crea una nueva subclasificación (por ejemplo, *`Creative Theme`* como subclasificación de *`Creative code`*), solo se carga el archivo de subclasificación, en lugar de todo el archivo de clasificación.
 
    Por lo que respecta a los informes, estas subclasificaciones funcionan exactamente igual que las clasificaciones de nivel superior. De este modo, se reduce la carga administrativa necesaria para usarlas.-->
