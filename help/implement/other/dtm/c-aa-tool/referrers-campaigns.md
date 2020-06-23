@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Referentes y campañas
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
@@ -26,7 +26,7 @@ Descripciones de los campos de [!UICONTROL Dynamic Tag Management] para opcion
  <tbody>
   <tr>
    <td colname="col1"> Anulación de referente </td>
-   <td colname="col2"> <p>Anula el valor configurado en la variable La variable <span class="varname"> s.referrer</span>, que suele completar el referente configurado en el explorador. </p> <p>Consulte <a href="../../../vars/page-vars/referrer.md">referente</a>. </p> </td>
+   <td colname="col2"> <p>Anula el valor configurado en la variable La variable <span class="varname">s.referrer</span>, que suele completar el referente configurado en el explorador. </p> <p>Consulte <a href="../../../vars/page-vars/referrer.md">referente</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Campaign </td>
