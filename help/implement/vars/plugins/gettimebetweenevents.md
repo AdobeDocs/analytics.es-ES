@@ -1,7 +1,7 @@
 ---
 title: getTimeBetweenEvents
 description: Mida el tiempo entre dos eventos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -20,7 +20,7 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
 1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
    * Condición: Ninguna
    * Evento: Core – Biblioteca cargada (Principio de página)
@@ -95,7 +95,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, 
 
 ... está configurado para comportarse de la siguiente manera:
 
-* El temporizador se iniciará cuando s.events contenga event1.
+* El temporizador se iniciará cuando s.events contenga event1
 * El temporizador se reiniciará cada vez que s.events contenga event1
 * El temporizador se detendrá cuando s.events contenga event2
 * El temporizador se restablecerá (es decir, pasará a 0 segundos) cada vez que s.events contenga event2
@@ -113,7 +113,7 @@ s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "
 
 ... está configurado para comportarse de la siguiente manera:
 
-* El temporizador se iniciará cuando s.events contenga event1.
+* El temporizador se iniciará cuando s.events contenga event1
 * El temporizador NO se reiniciará cada vez que s.events contenga event1, sino que el temporizador original seguirá ejecutándose
 * El temporizador NO se detendrá cuando s.events contenga event2, pero el complemento registrará la hora desde que se registró la configuración de event1 original
 * El temporizador se almacena en una cookie llamada “s_20”
