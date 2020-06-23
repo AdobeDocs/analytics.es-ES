@@ -1,7 +1,7 @@
 ---
 title: linkDownloadFileTypes
 description: Determine las extensiones de archivo que se rastrean automáticamente como vínculos de descarga.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkDownloadFileTypes
 
-When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clicks on a link, AppMeasurement checks the URL of the link for filetype extensions. Si la dirección URL del vínculo contiene un tipo de archivo que se encuentra en `linkDownloadFileTypes`, se envía automáticamente una solicitud de imagen del vínculo de descarga.
+Cuando [`trackDownloadLinks`](trackdownloadlinks.md) se habilita y un visitante hace clic en un vínculo, AppMeasurement comprueba la dirección URL del vínculo para ver si hay extensiones de tipo de archivo. Si la dirección URL del vínculo contiene un tipo de archivo que se encuentra en `linkDownloadFileTypes`, se envía automáticamente una solicitud de imagen del vínculo de descarga.
 
 Utilice `linkDownloadFileTypes` para personalizar las extensiones de archivo que desea contar como vínculos de descarga.
 
@@ -21,7 +21,7 @@ Utilice `linkDownloadFileTypes` para personalizar las extensiones de archivo que
 > * Vínculos que utilizan JavaScript, como `javascript:openLink()`
 >
 > 
-For these download types, you can manually call the [`tl()`](../functions/tl-method.md) method.
+Para estos tipos de descarga, puede llamar manualmente al método [`tl()`](../functions/tl-method.md).
 
 Si un vínculo en el que se hizo clic coincide con los criterios de vínculo de salida y de descarga, el tipo de vínculo de descarga tiene prioridad.
 
@@ -34,7 +34,7 @@ Extensiones de descarga es una lista de extensiones de archivo con un campo para
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón de [!UICONTROL Seguimiento de vínculos], que muestra el campo [!UICONTROL Extensiones de descarga].
 
-Agregue extensiones de archivo a la lista introduciendo texto en el campo y haciendo clic en [!UICONTROL Agregar]. Elimine las extensiones de archivo de la lista haciendo clic en el icono &#39;X&#39; correspondiente.
+Agregue extensiones de archivo a la lista introduciendo texto en el campo y haciendo clic en [!UICONTROL Agregar]. Elimine las extensiones de archivo de la lista haciendo clic en su icono &#39;X’ correspondiente.
 
 ## s.linkDownloadFileTypes en el editor de código personalizado de AppMeasurement y Launch
 
