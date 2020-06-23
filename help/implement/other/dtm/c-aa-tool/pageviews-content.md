@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;page views;content;page name;page url override;
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Vistas de página y contenido
 uuid: 6d019304-5892-475b-9887-00f86983f859
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
