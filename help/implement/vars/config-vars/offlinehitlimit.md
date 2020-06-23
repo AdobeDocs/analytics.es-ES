@@ -1,7 +1,7 @@
 ---
 title: offlineHitLimit
 description: Determinar el número máximo de visitas en cola para el seguimiento sin conexión.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 El seguimiento sin conexión es una forma opcional de recopilar datos en Adobe Analytics. Si un visitante se desconecta de Internet pero continúa explorando el sitio, las visitas se almacenan en una cola sin conexión hasta que el dispositivo se vuelva a conectar a Internet. El seguimiento sin conexión se utiliza principalmente para aplicaciones móviles.
 
-La variable `offlineHitLimit` coloca un límite en el número de visitas que almacena el dispositivo localmente. This variable only works if [`trackOffline`](trackoffline.md) is enabled.
+La variable `offlineHitLimit` coloca un límite en el número de visitas que almacena el dispositivo localmente. Esta variable solo funciona si [`trackOffline`](trackoffline.md) está habilitada.
 
 ## Límite de visitas sin conexión en Adobe Experience Platform Launch
 
