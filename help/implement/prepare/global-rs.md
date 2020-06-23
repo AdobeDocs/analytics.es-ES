@@ -1,7 +1,7 @@
 ---
 title: Grupos de informes globales en Adobe Analytics
 description: Comprender las ventajas y los requisitos para utilizar un grupo de informes globales
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
