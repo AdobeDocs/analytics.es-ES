@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountMatch
 description: La variable dynamicAccountMatch determina el valor que se debe ver en las cuentas dinámicas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
