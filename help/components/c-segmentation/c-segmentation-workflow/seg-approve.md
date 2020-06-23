@@ -3,7 +3,7 @@ description: En el Administrador de segmentos, puede establecer un flujo de trab
 title: Aprobar segmentos
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
