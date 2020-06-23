@@ -2,7 +2,7 @@
 title: Información general sobre variables, funciones, métodos y complementos
 description: Descubra qué variables puede incluir en los datos que envía a Adobe para mejorar los informes.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -26,7 +26,7 @@ Las bibliotecas de AppMeasurement publicadas por Adobe Analytics siguen un orden
 
 1. Si su sitio utiliza una capa de datos, asegúrese de que todas las variables aplicables se rellenen primero. Consulte las [Capas de datos](../prepare/data-layer.md) para obtener más información.
 2. Utilice la capa de datos para rellenar variables de Analytics. Si utiliza Launch, esta tarea se realiza fácilmente mediante el uso de elementos de datos y, a continuación, asignando el elemento de datos a una variable. Consulte [Elementos de datos](https://docs.adobe.com/content/help/es-ES/launch/using/reference/manage-resources/data-elements.html) en la guía de usuario de Launch.
-3. Llame a la función de seguimiento. Most AppMeasurement libraries use the `t()` method, however some mobile SDK&#39;s use `track()`. Cuando se llama a la función de seguimiento, todas las variables admitidas definidas en el objeto de Analytics se envían a Adobe en forma de solicitud de imagen.
+3. Llame a la función de seguimiento. La mayoría de las bibliotecas de AppMeasurement utilizan el método `t()`, aunque algunos SDK móviles utilizan `track()`. Cuando se llama a la función de seguimiento, todas las variables admitidas definidas en el objeto de Analytics se envían a Adobe en forma de solicitud de imagen.
 
 ## Caracteres no permitidos
 
