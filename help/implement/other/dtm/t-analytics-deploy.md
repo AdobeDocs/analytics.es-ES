@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Implementar Adobe Analytics manualmente (heredado)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
