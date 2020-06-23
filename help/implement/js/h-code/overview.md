@@ -1,7 +1,7 @@
 ---
 title: Introducción a la implementación de código H de JavaScript
 description: Conozca el flujo de trabajo para implementar el código H en su sitio.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
