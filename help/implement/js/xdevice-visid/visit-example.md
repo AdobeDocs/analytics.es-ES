@@ -5,7 +5,7 @@ subtopic: Visitors
 title: Ejemplo de identificación de visitantes entre dispositivos
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
