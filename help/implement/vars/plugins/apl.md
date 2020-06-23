@@ -1,7 +1,7 @@
 ---
 title: apl (appendToList)
 description: Anexe valores a variables que admitan varios valores.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-The `apl` plug-in allows you to safely add new values to list-delimited variables, such as [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md), and others.
+El complemento `apl` le permite agregar de forma segura nuevos valores a variables delimitadas por listas, como [`events`](../page-vars/events/events-overview.md), [`linkTrackVars`](../config-vars/linktrackvars.md), [`list`](../page-vars/list.md) y otras.
 
 * Si el valor que desea agregar no aparece en la variable, el código agrega el valor al final de la cadena.
 * Si el valor que desea agregar ya aparece en la variable, este complemento no cambia el valor. Esta función permite que la implementación no incluya valores duplicados.
@@ -26,7 +26,7 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
 1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
    * Condición: Ninguna
    * Evento: Core – Biblioteca cargada (Principio de página)
