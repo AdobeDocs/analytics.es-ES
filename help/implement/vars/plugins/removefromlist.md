@@ -1,7 +1,7 @@
 ---
 title: rfl
 description: Elimine un valor específico de una cadena delimitada por caracteres.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-The `rfl` plug-in allows you to &quot;safely&quot; remove values from delimited strings, such as [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md), and others. Este complemento es útil si desea eliminar valores específicos de una cadena delimitada sin preocuparse por los delimitadores. Otros complementos dependen de este código para ejecutarse correctamente. Este complemento no es necesario si no necesita ejecutar una función específica en más de una variable de Analytics a la vez o si no utiliza ningún complemento dependiente.
+El complemento `rfl` le permite eliminar “con seguridad” valores de cadenas delimitadas, como [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md) y otros. Este complemento es útil si desea eliminar valores específicos de una cadena delimitada sin preocuparse por los delimitadores. Otros complementos dependen de este código para ejecutarse correctamente. Este complemento no es necesario si no necesita ejecutar una función específica en más de una variable de Analytics a la vez o si no utiliza ningún complemento dependiente.
 
 El complemento utiliza la lógica siguiente:
 
@@ -25,7 +25,7 @@ Adobe ofrece una extensión que le permite disfrutar de los complementos más ut
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en la propiedad deseada.
 1. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Catálogo].
-1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins]
+1. Instalación y publicación de la extensión [!UICONTROL Common Analytics Plugins].
 1. Si aún no lo ha hecho, cree una regla con la etiqueta “Inicializar complementos” con la siguiente configuración:
    * Condición: Ninguna
    * Evento: Core – Biblioteca cargada (Principio de página)
@@ -60,7 +60,7 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 
 El método `rfl` utiliza los siguientes argumentos:
 
-* **`lv`** (obligatorio, cadena): Una variable (o cadena) que contiene una lista de valores delimitados
+* **`lv`** (obligatorio, cadena): Una variable (o cadena) que contiene una lista de valores delimitados.
 * **`vr`** (obligatorio, cadena): El valor que desea eliminar del argumento `lv`. Adobe recomienda no eliminar varios valores durante una sola llamada `rfl`.
 * **`d1`** (opcional, cadena): El delimitador que utiliza el argumento `lv`. El valor predeterminado es una coma (`,`).
 * **`d2`** (opcional, cadena): El delimitador que desea que utilice la cadena de retorno. El valor predeterminado es el mismo que el argumento `d1`.
@@ -110,7 +110,7 @@ s.events = s.rfl(s.events,"event26");
 s.events = "event22,event24,event25";
 ```
 
-En este ejemplo, la llamada rfl no realizó cambios en s.events porque s.events no contenía “event26”
+En este ejemplo, la llamada rfl no realizó cambios en s.events porque s.events no contenía “event26”.
 
 ### Ejemplo 3
 
@@ -132,7 +132,7 @@ s.events = s.rfl(s.events);
 s.events = "";
 ```
 
-Si el argumento lv o el argumento vr están en blanco en una llamada s.rfl, el complemento no devolverá nada
+Si el argumento lv o el argumento vr están en blanco en una llamada s.rfl, el complemento no devolverá nada.
 
 ### Ejemplo 4
 
@@ -401,7 +401,7 @@ De nuevo, tenga en cuenta que el complemento solo devuelve un valor; realmente n
 
 ### 2.01 (17 de septiembre de 2019)
 
-* Corrección de errores menores para el valor de delimitador predeterminado
+* Corrección de errores menores para el valor de delimitador predeterminado.
 
 ### 2.0 (16 de abril de 2018)
 
