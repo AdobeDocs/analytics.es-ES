@@ -1,7 +1,7 @@
 ---
 title: Implementación con Artículos instantáneos de Facebook
 description: Implementar Adobe Analytics en páginas de Artículos instantáneos de Facebook.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
