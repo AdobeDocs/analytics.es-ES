@@ -1,7 +1,7 @@
 ---
 title: abort
 description: La variable abort es un booleano que evita que se envíe una visita a los servidores de recopilación de datos de Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
