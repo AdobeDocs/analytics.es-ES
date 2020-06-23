@@ -1,7 +1,7 @@
 ---
 title: linkLeaveQueryString
 description: Permite la conservación de cadenas de consulta en dimensiones de seguimiento de vínculos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkLeaveQueryString
 
-AppMeasurement elimina las cadenas de consulta de las direcciones URL de seguimiento de vínculos de forma predeterminada. Use the `linkLeaveQueryString` variable to preserve query strings in link tracking dimensions.
+AppMeasurement elimina las cadenas de consulta de las direcciones URL de seguimiento de vínculos de forma predeterminada. Utilice la variable `linkLeaveQueryString` para conservar las cadenas de consulta en las dimensiones de seguimiento de vínculos.
 
 Para algunos vínculos de salida y de descarga, la parte importante de la dirección URL puede estar en la cadena de consulta. Por ejemplo, un vínculo de descarga como `https://example.com/download.asp?filename=myfile.exe` contiene información importante sobre el vínculo en la cadena de consulta.
 
