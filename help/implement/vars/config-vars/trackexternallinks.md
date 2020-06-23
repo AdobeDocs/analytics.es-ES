@@ -1,7 +1,7 @@
 ---
 title: trackExternalLinks
 description: Habilite o deshabilite el seguimiento automático de vínculos de salida.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 94218548dc4e3efd57df95c992003e94640e4330
 
 # trackExternalLinks
 
-Adobe offers the ability to track outbound links without manually setting the [`tl()`](../functions/tl-method.md) method for each exit link. Active esta variable si desea utilizar el seguimiento automático de vínculos para los vínculos de salida.
+Adobe ofrece la capacidad de rastrear vínculos salientes sin configurar manualmente el método [`tl()`](../functions/tl-method.md) para cada vínculo de salida. Active esta variable si desea utilizar el seguimiento automático de vínculos para los vínculos de salida.
 
 Cuando está habilitado, AppMeasurement compara cualquier URL de vínculo en el que se haga clic con los valores en [`linkInternalFilters`](linkinternalfilters.md) y [`linkExternalFilters`](linkexternalfilters.md). Si hay una coincidencia, se activa automáticamente una llamada de seguimiento de vínculos de salida.
 
@@ -26,7 +26,7 @@ Haga clic en la casilla de verificación para habilitar el seguimiento automáti
 
 ## s.trackExternalLinks en el editor de código personalizado de AppMeasurement y Launch
 
-El `s.trackExternalLinks` es un booleano que habilita o deshabilita el seguimiento automático de vínculos de salida. If you do not want to track outbound links, or would prefer to manually call the `tl()` method to track exit links, set this variable to `false`.
+El `s.trackExternalLinks` es un booleano que habilita o deshabilita el seguimiento automático de vínculos de salida. Si no desea rastrear los vínculos de salida o prefiere llamar manualmente al método `tl()` para rastrear los vínculos de salida, debe establecer esta variable como `false`.
 
 ```js
 s.trackExternalLinks = true;
