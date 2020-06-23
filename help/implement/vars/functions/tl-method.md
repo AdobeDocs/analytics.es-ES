@@ -1,7 +1,7 @@
 ---
 title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -99,13 +99,13 @@ Envíe una llamada de seguimiento de vínculos básica directamente dentro de un
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
 ```
 
-Utilice JavaScript para realizar una llamada de seguimiento de vínculos básica usando argumentos de método:
+Utilice JavaScript para hacer una llamada de seguimiento de vínculos básica con argumentos de método:
 
 ```JavaScript
 s.tl(true,"o","Example link");
 ```
 
-Utilice JavaScript para realizar la misma llamada básica de seguimiento de vínculos usando variables independientes:
+Utilice JavaScript para hacer la misma llamada básica de seguimiento de vínculos con variables independientes:
 
 ```js
 s.linkType = "o";
