@@ -3,8 +3,11 @@ description: Información sobre las tres formas de iniciar sesión en Report Bui
 title: Inicio de sesión en Report Builder
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -47,5 +50,7 @@ El inicio de sesión de Experience Cloud permite utilizar su Enterprise ID (corr
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE] El inicio de sesión de Experience Cloud se basa en una sesión y un token, que caduca a los 30 días.
+>[!NOTE]
+>
+>El inicio de sesión de Experience Cloud se basa en una sesión y un token, que caduca a los 30 días.
 
