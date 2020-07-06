@@ -6,7 +6,7 @@ title: Referencia de columnas de datos
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '3650'
 ht-degree: 99%
@@ -18,11 +18,15 @@ ht-degree: 99%
 
 Utilice esta página para conocer los datos contenidos en cada columna. La mayoría de las implementaciones no utilizan cada columna, por lo que se puede hacer referencia a esta página al determinar qué columnas incluir en una exportación de fuente de datos.
 
->[!IMPORTANT] Para cualquier columna determinada (por ejemplo, una que se defina como de 255 caracteres), una fuente de datos puede enviar caracteres adicionales debido a la adición de valores de escape de caracteres en una cadena. Tenga en cuenta estos caracteres adicionales potenciales si su implementación envía con regularidad valores que exceden los límites de caracteres.
+>[!IMPORTANT]
+>
+>Para cualquier columna determinada (por ejemplo, una que se defina como de 255 caracteres), una fuente de datos puede enviar caracteres adicionales debido a la adición de valores de escape de caracteres en una cadena. Tenga en cuenta estos caracteres adicionales potenciales si su implementación envía con regularidad valores que exceden los límites de caracteres.
 
 ## Columnas, descripciones y tipos de datos
 
->[!NOTE]La mayoría de las columnas contienen una columna similar con el prefijo `post_`. Las columnas de publicación muestran valores después de la lógica del lado del servidor, las reglas de procesamiento y las reglas de VISTA. Adobe recomienda usar columnas de publicación en la mayoría de los casos. Consulte [Preguntas frecuentes sobre fuentes de datos](../df-faq.md) para obtener más información.
+>[!NOTE]
+>
+>La mayoría de las columnas contienen una columna similar con el prefijo `post_`. Las columnas de publicación muestran valores después de la lógica del lado del servidor, las reglas de procesamiento y las reglas de VISTA. Adobe recomienda usar columnas de publicación en la mayoría de los casos. Consulte [Preguntas frecuentes sobre fuentes de datos](../df-faq.md) para obtener más información.
 
 | Nombre de la columna | Descripción de la columna | Tipo de datos |
 | --- | --- | --- |
