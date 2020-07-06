@@ -1,8 +1,11 @@
 ---
 title: Asignación de elementos de datos de Launch a variables de Analytics
 description: Asigne elementos de datos a variables de Analytics para que pueda utilizarlos como dimensiones en Analysis Workspace.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +46,9 @@ Las variables configuradas en las reglas son ideales cuando no desea que se conf
 1. Seleccione el elemento de datos deseado en la ventana modal. Haga clic en [!UICONTROL Seleccionar].
 1. El nombre del elemento de datos se agrega al campo de texto rodeado de símbolos `%`. Por ejemplo, si le asignara al elemento de datos el nombre &quot;Nombre de página&quot;, vería la cadena `%Page name%` al asignar un elemento de datos a una variable.
 
->[!TIP] Puede concatenar elementos de datos en la misma variable. Por ejemplo, si tiene un elemento de datos &quot;Nombre de host&quot; y un elemento de datos &quot;Nombre de ruta&quot;, puede combinar ambos en una sola variable mediante `%Hostname%%Pathname%`.
+>[!TIP]
+>
+>Puede concatenar elementos de datos en la misma variable. Por ejemplo, si tiene un elemento de datos &quot;Nombre de host&quot; y un elemento de datos &quot;Nombre de ruta&quot;, puede combinar ambos en una sola variable mediante `%Hostname%%Pathname%`.
 
 ## Pasos siguientes
 
