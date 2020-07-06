@@ -4,7 +4,10 @@ title: Personalización de menús
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Esta función permite personalizar los menús de informes que un usuario ve en R
 
 Los cambios de menú se aplican a todos los usuarios que acceden al grupo de informes. Sin embargo, los usuarios pueden restaurar la configuración predeterminada de un menú al utilizar el grupo de informes.
 
->[!NOTE] Los cambios que se hagan en la estructura de los menús no afectan ni a Report Builder ni a Ad Hoc Analysis. No obstante, si se cambia el nombre de un informe, este cambio sí se verá reflejado en ambas herramientas.
+>[!NOTE]
+>
+>Los cambios que se hagan en la estructura de los menús no afectan ni a Report Builder ni a Ad Hoc Analysis. No obstante, si se cambia el nombre de un informe, este cambio sí se verá reflejado en ambas herramientas.
 
 ## Descripciones de la personalización de menús {#section_B0D224DACB914A378902A4E0E1234889}
 
