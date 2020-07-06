@@ -5,7 +5,7 @@ title: Grupos de informes virtuales y consideraciones sobre el etiquetado de gru
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -55,7 +55,9 @@ Cada sitio tiene diferentes necesidades de implementación. Algunas dimensiones 
 
 Asegúrese de que el número de dimensiones y métricas únicas se pueda ajustar a un único grupo de informes globales. Si descubre que hay demasiadas dimensiones o métricas únicas, revise cada dimensión dentro de cada implementación. Es probable que haya superposición y dimensiones que no sean cruciales para el éxito del negocio. Considere también utilizar [las clasificaciones](/help/components/c-classifications2/c-classifications.md). Por ejemplo, en lugar de capturar el “Nombre de producto” en eVar5, cree una clasificación de “Nombre de producto” basada en la dimensión “Producto”. Las clasificaciones de un grupo de informes de origen están disponibles automáticamente para todos los grupos de informes virtuales dependientes.
 
->[!TIP] Con la introducción de la [protección](/help/analyze/analysis-workspace/curate-share/curate.md), puede cambiar el nombre de una dimensión o métrica determinada por VRS.
+>[!TIP]
+>
+>Con la introducción de la [protección](/help/analyze/analysis-workspace/curate-share/curate.md), puede cambiar el nombre de una dimensión o métrica determinada por VRS.
 
 ### Matices de segmentación
 
@@ -85,7 +87,9 @@ Por ejemplo, solo se permite un DCM de Google por grupo de informes. Muchas empr
 
 Las fuentes de datos de resumen le permiten importar métricas agregadas a nivel de grupo de informes a Adobe Analytics. Debido a que las cargas de fuentes de datos de resumen contienen métricas agregadas, no se pueden segmentar. Dado que el VRS funciona mediante la segmentación, todos los datos importados mediante fuentes de datos de resumen no están disponibles en los grupos de informes virtuales. Las fuentes de datos de resumen solo están visibles en el grupo de informes de origen.
 
->[!TIP] Las fuentes de datos de procesamiento completo admiten la segmentación y pueden utilizarse en grupos de informes virtuales.
+>[!TIP]
+>
+>Las fuentes de datos de procesamiento completo admiten la segmentación y pueden utilizarse en grupos de informes virtuales.
 
 ## Pasos a seguir si ha decidido utilizar VRS
 
