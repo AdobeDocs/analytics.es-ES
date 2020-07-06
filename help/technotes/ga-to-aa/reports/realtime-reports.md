@@ -2,7 +2,10 @@
 title: Informes en tiempo real en Adobe Analytics
 description: Aprenda a extraer informes en tiempo real en Adobe Analytics, dirigidos a usuarios que están más familiarizados con Google Analytics.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '979'
+ht-degree: 100%
 
 ---
 
@@ -65,7 +68,9 @@ El contenido en tiempo real indica las páginas que están viendo los visitantes
 
 Los eventos en tiempo real indican los eventos que están teniendo una mayor frecuencia en el sitio. En Google Analytics, un evento captura el número de veces que se ha producido una acción concreta (normalmente, una acción que no está relacionada con una vista de página). Los eventos de GA se envían con una categoría, una etiqueta y una acción. En Adobe Analytics, los eventos personalizados son métricas a las que se asignan nombres descriptivos en Admin Console y que se pueden analizar junto con cualquier dimensión. Si busca una dimensión en Adobe Analytics similar a los eventos de Google Analytics, puede aplicar la dimensión Vínculo personalizado, que a menudo se utiliza como captador global para recopilar datos que no están relacionados con las vistas de página (además de los Vínculos de salida, para Salidas y Vínculos de descarga, para Descargas).
 
->[!NOTE] Cuando se utilizan eventos personalizados en informes en tiempo real, el valor de dimensión debe definirse en la misma visita que el evento personalizado. Por ejemplo, si se visualiza un evento personalizado del tipo “Registros” para la dimensión “Dominio de referencia”, no se devuelve ningún dato sin una implementación adicional. Dado que el dominio de referencia solo aparece en la primera visita y que un evento personalizado suele aparecer más adelante durante esa visita, los datos no se pueden asociar en los informes en tiempo real. Estos datos están disponibles con Analysis Workspace mediante la latencia de procesamiento estándar, que suele ser de entre treinta y noventa minutos.
+>[!NOTE]
+>
+>Cuando se utilizan eventos personalizados en informes en tiempo real, el valor de dimensión debe definirse en la misma visita que el evento personalizado. Por ejemplo, si se visualiza un evento personalizado del tipo “Registros” para la dimensión “Dominio de referencia”, no se devuelve ningún dato sin una implementación adicional. Dado que el dominio de referencia solo aparece en la primera visita y que un evento personalizado suele aparecer más adelante durante esa visita, los datos no se pueden asociar en los informes en tiempo real. Estos datos están disponibles con Analysis Workspace mediante la latencia de procesamiento estándar, que suele ser de entre treinta y noventa minutos.
 
 ## Conversiones en tiempo real
 
@@ -79,4 +84,6 @@ Las conversiones en tiempo real presentan los datos de forma diferente entre pla
    * Para las dos dimensiones secundarias, utilice los datos adicionales que desee ver para este tráfico. Las dimensiones secundarias no tienen por qué ser específicas de las conversiones.
 3. Haga clic en [!UICONTROL Guardar y Ver informe].
 
->[!NOTE] Si utiliza eventos fuera de Instancias, como Pedidos, asegúrese de que la implementación defina la dimensión y el evento en la misma visita. Si las dimensiones y los eventos no se activan en la misma visita, esos datos están disponibles en Analysis Workspace mediante la latencia de procesamiento estándar, que suele ser de entre treinta y noventa minutos.
+>[!NOTE]
+>
+>Si utiliza eventos fuera de Instancias, como Pedidos, asegúrese de que la implementación defina la dimensión y el evento en la misma visita. Si las dimensiones y los eventos no se activan en la misma visita, esos datos están disponibles en Analysis Workspace mediante la latencia de procesamiento estándar, que suele ser de entre treinta y noventa minutos.
