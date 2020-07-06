@@ -1,8 +1,11 @@
 ---
 title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '584'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,9 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 El argumento del objeto de vinculación determina si el explorador espera hasta 500 ms antes de salir de la página. Si una solicitud de imagen se envía antes de 500 ms, la página se desplaza inmediatamente al vínculo donde se hizo clic.
 
->[!NOTE] AppMeasurement habilita automáticamente la variable [`useBeacon`](../config-vars/usebeacon.md) para los vínculos de salida, por lo que este argumento ya no se necesita en los exploradores modernos. Este argumento se usaba con mayor frecuencia en versiones anteriores de AppMeasurement.
+>[!NOTE]
+>
+>AppMeasurement habilita automáticamente la variable [`useBeacon`](../config-vars/usebeacon.md) para los vínculos de salida, por lo que este argumento ya no se necesita en los exploradores modernos. Este argumento se usaba con mayor frecuencia en versiones anteriores de AppMeasurement.
 
 * `this`: Esperar hasta 500 ms para que AppMeasurement tenga tiempo de enviar una solicitud de imagen. Valor predeterminado.
 * `true`: No esperar.
