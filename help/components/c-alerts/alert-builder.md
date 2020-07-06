@@ -3,7 +3,10 @@ description: 'null'
 title: Generador de alertas
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,9 @@ Especifique un nombre para la alerta. El nombre de la alerta puede contener el n
 
 Especifique cuándo desea que se compruebe la métrica: cada hora, cada día, semanalmente o mensualmente.
 
->[!NOTE] La granularidad mensual no es compatible con los grupos de informes con un calendario personalizado en el Generador de alertas.
+>[!NOTE]
+>
+>La granularidad mensual no es compatible con los grupos de informes con un calendario personalizado en el Generador de alertas.
 
 **Destinatarios**
 
