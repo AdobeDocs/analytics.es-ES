@@ -2,10 +2,10 @@
 title: Análisis entre dispositivos
 description: El análisis entre dispositivos cambia los datos de estar centrados en el dispositivo a estar centrados en la persona, al unir los datos del dispositivo.
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -26,20 +26,22 @@ Consulte [Journey IQ: Página de demostración de análisis entre dispositivos](
 
 ## Requisitos previos
 
-Análisis entre dispositivos requiere lo siguiente. Trabaje con equipos de su organización y con el administrador de cuentas de Adobe para asegurarse de que cumple todos los requisitos siguientes.
+El Analytics entre dispositivos requiere lo siguiente. Trabaje con equipos de su organización y con el administrador de cuentas de Adobe para asegurarse de que cumple todos los requisitos siguientes.
 
->[!IMPORTANT] Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
+>[!IMPORTANT]
+>
+>Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
 
 * Los datos de su organización deben residir en el centro de datos del Noroeste del Pacífico de Adobe. Está previsto prestar apoyo a los centros de datos de otras regiones del mundo.
 * Contacte con el administrador de cuentas de su organización para establecer estos puntos clave:
    * Se debe firmar un contrato con Adobe que incluya Adobe Analytics Ultimate.
-   * Su organización debe utilizar el gráfico colaborativo o el gráfico privado de Adobe Experience Platform Identity Service. Consulte la página [principal](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) en la guía del usuario de Device Co-op.
-   * Con un espíritu de colaboración y transparencia, queremos que nuestros clientes sean conscientes de nuestro uso de Microsoft Azure en asociación con Análisis entre dispositivos. Adobe utiliza Azure para almacenar datos de gráficos de dispositivos y realizar conexiones entre dispositivos. De este modo, los datos de Adobe Analytics se pasan de un lado a otro entre el centro de procesamiento de datos de Adobe y las instancias aprovisionadas de Adobe de Microsoft Azure.
+   * Su organización debe utilizar el gráfico colaborativo o el gráfico privado de Adobe Experience Platform Identity Service. Consulte la página [principal](https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html) en la guía del usuario de Device Co-op.
+   * Con un espíritu de colaboración y transparencia, queremos que nuestros clientes sean conscientes de nuestro uso de Microsoft Azure en asociación con Análisis entre dispositivos. Adobe utiliza Azure para almacenar datos de gráficos de dispositivos y vincular dispositivos. De este modo, los datos de Adobe Analytics se pasan de un lado a otro entre el centro de procesamiento de datos de Adobe y las instancias proporcionadas por Adobe en Microsoft Azure.
 * El análisis entre dispositivos se habilita por grupo de informes. Los grupos de informes habilitados para CDA requieren lo siguiente:
    * El grupo de informes no puede tener más de 500 millones de visitas al día.
    * Adobe recomienda que un grupo de informes contenga datos entre dispositivos, es decir, datos de varios tipos de dispositivos (web, aplicación, etc.). Algunas organizaciones se refieren a este concepto como un grupo de informes “global”, aunque el CDA no tiene que ser estrictamente global desde una perspectiva geográfica. El análisis entre dispositivos no funciona en todos los grupos de informes ni combina datos de varios grupos de informes.
 * Su implementación debe cumplir los siguientes requisitos:
-   * Se debe implementar la versión más reciente del servicio Experience Cloud ID. Consulte la página [principal](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) en la guía del usuario del servicio de Experience Cloud ID. Es probable que la mayoría de las implementaciones que utilizan Adobe Experience Platform Launch ya hayan implementado ECID.
+   * Se debe implementar la versión más reciente del servicio Experience Cloud ID. Consulte la [página principal](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) en la guía del usuario del servicio de Experience Cloud ID. Es probable que la mayoría de las implementaciones que utilizan Adobe Experience Platform Launch ya hayan implementado ECID.
    * Llame a la función `setCustomerIDs` cada vez que se pueda identificar a un individuo, como cuando un usuario inicia sesión o abre un correo electrónico. Este requisito se aplica a todas las plataformas, incluidas las aplicaciones móviles, si se utilizan. Consulte [setCustomerIDs](https://docs.adobe.com/content/help/es-ES/id-service/using/id-service-api/methods/setcustomerids.html) en la guía del usuario del servicio de Experience Cloud ID.
 
 ## Limitaciones
@@ -50,13 +52,13 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * La configuración no puede producirse en los grupos de informes como se describe en los requisitos previos anteriores.
 * Los grupos de informes de Adobe Analytics no pueden asignarse a más de una organización de IMS. Dado que CDA vincula dispositivos dentro de un grupo de informes determinado, CDA no se puede usar para unir datos en varias organizaciones IMS.
 * Actualmente, CDA no es compatible con Atributos del cliente. Atributos del cliente no se puede usar para crear un grupo de informes virtuales CDA, dentro de segmentos entre dispositivos o para generar informes dentro de un proyecto de Analysis Workspace basado en un grupo de informes virtuales CDA.
-   > [!TIP] Aunque los atributos del cliente no se pueden usar en CDA, ambas funcionalidades dependen de la  función`setCustomerIDs`. Estas dos funciones pueden coincidir en grupos de informes virtuales independientes.
+   > [!TIP] Aunque los atributos del cliente no se pueden usar en CDA, ambas funcionalidades dependen de la función `setCustomerIDs`. Estas dos funciones pueden coincidir en grupos de informes virtuales independientes.
 * CDA requiere los gráficos colaborativos o privados. Los gráficos de dispositivos de terceros no son compatibles.
 * Los ID de Analytics heredados no son compatibles. Solo se vinculan los visitantes con Experience Cloud ID.
 * Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Consulte [Grupos de informes virtuales](../vrs/vrs-about.md) y [Procesamiento de tiempo de los informes](../vrs/vrs-report-time-processing.md) para saber más sobre estas limitaciones.
 * La API 1.4 no es compatible. Los conectores de Power BI y Report Builder dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
 * Si su organización utiliza Private Graph, los nuevos dispositivos tardan hasta 24 horas en vincularse.
-* Los nuevos dispositivos que visiten el sitio pueden tardar hasta dos semanas en ser procesados por Co-op Graph. El nivel de vinculación en CDA para las dos últimas semanas es generalmente inferior al de los intervalos de fechas de más de dos semanas.
+* Los nuevos dispositivos que visiten el sitio pueden tardar hasta dos semanas en procesarse mediante el gráfico de colaboración. El nivel de vinculación en CDA para las dos últimas semanas es generalmente inferior al de los intervalos de fechas de más de dos semanas.
 * Los datos históricos del grupo de informes virtuales cambian según el reconocimiento y la vinculación de dispositivos de Adobe. Los datos del grupo de informes de origen no cambian.
 
 Una vez que su organización haya cumplido todos los requisitos y haya comprendido las limitaciones, puede empezar a [configurar análisis cruzados de dispositivos](cda-setup.md).
