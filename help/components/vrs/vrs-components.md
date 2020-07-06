@@ -3,7 +3,7 @@ description: Los grupos de informes virtuales se pueden revisar para que incluya
 title: Revisión de componentes de grupo de informes virtuales
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan componentes en Analysis Workspace.
 
->[!NOTE]Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. Anteriormente, cualquiera podía ver los componentes no organizados al hacer clic en **[!UICONTROL Mostrar todos los componentes]**. La [experiencia actualizada de organización](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permite un control más detallado sobre qué componentes son visibles.
+>[!NOTE]
+>
+>Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. Anteriormente, cualquiera podía ver los componentes no organizados al hacer clic en **[!UICONTROL Mostrar todos los componentes]**. La [experiencia actualizada de organización](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permite un control más detallado sobre qué componentes son visibles.
 
 Para habilitar la revisión de componentes,
 
@@ -35,14 +37,12 @@ Para habilitar la revisión de componentes,
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * API de informes de Analytics
-
    Una vez comprobado, puede agregar los componentes que desee incluir en el grupo de informes virtuales arrastrando los componentes aplicables de la columna “componentes excluidos” a la columna “componentes incluidos”. Los componentes que se pueden incluir y excluir son los siguientes:
 
    * Dimensiones
    * Métricas
    * Segmentos
    * Intervalos de fechas
-
    >[!NOTE]
    >
    >No es necesario *compartir* componentes depurados (segmentos, métricas calculadas, intervalos de fechas). Siempre serán visibles en Analysis Workspace si se depuran para el grupo de informes virtuales aunque no se hayan compartido.
