@@ -1,8 +1,11 @@
 ---
 description: Importe datos de seguimiento de aplicaciones de terceros en Analytics.
 title: Introducción a Data Connectors de Analytics
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +80,9 @@ Para implementar correctamente los segmentos de remarketing se deben cumplir las
    * Compras: evento `purchase`
    * Vistas del producto: evento `prodView`
 
->[!NOTE] Si el producto se define sin un evento asociado, el evento prodView se activa automáticamente.
+>[!NOTE]
+>
+>Si el producto se define sin un evento asociado, el evento prodView se activa automáticamente.
 Si no se cumplen los requisitos anteriores, no se informa correctamente de los segmentos de remarketing correspondientes.
 
 [!UICONTROL Abandonos del carro de compras]: se activa después de que el usuario añada un producto al carro de compras:
@@ -104,4 +109,6 @@ s.events="purchase";
 | No se reciben los archivos del segmento de remarketing. | Si no recibe sus archivos, haga que uno de los usuarios con asistencia de su empresa se ponga en contacto con ClientCare para investigar la causa de los informes que no se reciben correctamente. |
 
 
->[!IMPORTANT] Es habitual que los consultores también configuren una solicitud de Data Warehouse como un informe diario programado, además de su integración de Data Connectors estándar con el archivo del segmento de remarketing. Esta solicitud de Data Warehouse incluye variables de Data Connectors, así como variables que no sean de este tipo, y se puede programar solo en base a la solicitud específica de su empresa. Para evitar confusiones durante la resolución de problemas, especifique si el archivo en cuestión es el archivo del segmento de remarketing real o bien una solicitud de Data Warehouse que contiene variables que no sean de Genesis.
+>[!IMPORTANT]
+>
+>Es habitual que los consultores también configuren una solicitud de Data Warehouse como un informe diario programado, además de su integración de Data Connectors estándar con el archivo del segmento de remarketing. Esta solicitud de Data Warehouse incluye variables de Data Connectors, así como variables que no sean de este tipo, y se puede programar solo en base a la solicitud específica de su empresa. Para evitar confusiones durante la resolución de problemas, especifique si el archivo en cuestión es el archivo del segmento de remarketing real o bien una solicitud de Data Warehouse que contiene variables que no sean de Genesis.
