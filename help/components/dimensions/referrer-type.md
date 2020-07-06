@@ -2,7 +2,7 @@
 title: Tipo de referente
 description: El tipo de remitente del reenvío, dependiendo de la procedencia del visitante.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -33,7 +33,9 @@ Los valores de dimensión incluyen el tipo de remitente del reenvío de la visit
 
 La siguiente lista hace referencia a la tabla de búsqueda &#39;Redes sociales&#39; que utiliza Adobe. Adobe proporciona esta lista como cortesía a los clientes de Adobe Analytics. Si desea recomendar que Adobe agregue un dominio a esta lista, pida a un delegado de asistencia técnica de su organización que se ponga en contacto con el Servicio de atención al cliente.
 
->[!NOTE] Esta lista es diferente a la lista predeterminada de las redes sociales en las reglas [de procesamiento de canal de](../c-marketing-channels/c-rules.md)marketing.
+>[!NOTE]
+>
+>Esta lista es diferente a la lista predeterminada de las redes sociales en las reglas [de procesamiento de canal de](../c-marketing-channels/c-rules.md)marketing.
 
 * `12seconds.tv`
 * `t.163.com`
