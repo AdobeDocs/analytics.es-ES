@@ -2,7 +2,7 @@
 title: Profundidad de color
 description: Profundidad de color del dispositivo.
 translation-type: tm+mt
-source-git-commit: a8dc233e962a49674a30ff3c9f0b5d0d45b09f24
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -22,4 +22,6 @@ Esta dimensión hace referencia a una tabla de búsqueda, traduciendo el valor d
 
 Los valores de dimensión incluyen el número de colores admitidos por el dispositivo. Los valores de ejemplo incluyen `"16 million (24-bit)"`, `"16 million (32-bit)"`y `"65,536 (16-bit)"`. Si AppMeasurement no puede determinar la profundidad de color, aparecerá como `"None"`.
 
-> [!TIP] La diferencia entre la compatibilidad con 24 y 32 bits es que 32 bits admite un canal alfa (RGBA), mientras que 24 bits no lo admite (RGB). Consulte [Profundidad](https://en.wikipedia.org/wiki/Color_depth) de color en Wikipedia para obtener más información sobre este concepto.
+>[!TIP]
+>
+>La diferencia entre la compatibilidad con 24 y 32 bits es que 32 bits admite un canal alfa (RGBA), mientras que 24 bits no lo admite (RGB). Consulte [Profundidad](https://en.wikipedia.org/wiki/Color_depth) de color en Wikipedia para obtener más información sobre este concepto.
