@@ -2,7 +2,7 @@
 title: Palabra clave de búsqueda
 description: La palabra clave de búsqueda que el visitante utilizó para llegar al sitio.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 La dimensión &#39;Palabra clave de búsqueda&#39; informa las palabras clave de búsqueda que los visitantes utilizan para llegar al sitio.
 
->[!IMPORTANT] La mayoría de los motores de búsqueda ya no pasan la palabra clave de búsqueda debido al aumento de las prácticas de privacidad. Visitas en las que Adobe reconoce un motor de búsqueda pero le falta un grupo de palabras clave en el valor de dimensión `"Keyword unavailable"`.
+>[!IMPORTANT]
+>
+>La mayoría de los motores de búsqueda ya no pasan la palabra clave de búsqueda debido al aumento de las prácticas de privacidad. Visitas en las que Adobe reconoce un motor de búsqueda pero le falta un grupo de palabras clave en el valor de dimensión `"Keyword unavailable"`.
 
 Un remitente del reenvío debe cumplir los dos requisitos siguientes para clasificarse como palabra clave de búsqueda:
 
