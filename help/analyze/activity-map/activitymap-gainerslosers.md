@@ -4,7 +4,10 @@ title: Superposiciones personalizables
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +50,9 @@ Las superposiciones de burbujas se muestran cuando selecciona en la barra de her
 
 ![](assets/bubble_overlay.png)
 
->[!NOTE] Las superposiciones de burbujas en submenús solo se ven cuando se muestra el submenú:
+>[!NOTE]
+>
+>Las superposiciones de burbujas en submenús solo se ven cuando se muestra el submenú:
 >
 >![](assets/bubbles_submenu.png)>
 
