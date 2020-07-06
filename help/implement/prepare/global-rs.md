@@ -1,8 +1,11 @@
 ---
 title: Grupos de informes globales en Adobe Analytics
 description: Comprender las ventajas y los requisitos para utilizar un grupo de informes globales
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,9 @@ Adobe recomienda implementar un grupo de informes globales en la mayoría de los
 * **Atribución más precisa entre marcas:** si una visita comienza en un sitio y luego hace clic en otro antes de activar un evento de éxito, la atribución se recopila con precisión. Por ejemplo: un visitante hace clic en un vínculo de búsqueda pagada y accede al sitio A. Luego hace clic en un vínculo al sitio B, para después realizar una compra. Un grupo de informes globales atribuye correctamente la compra a la búsqueda pagada.
 * **Implementación simplificada:** dado que todas las marcas y sitios envían datos al mismo grupo de informes, las implementaciones de cada sitio se alinean. Este control obligatorio garantiza que una dimensión o métrica específica se guarde en la misma eVar o en el mismo evento. Esta simplificación beneficia a administradores, probadores, propietarios de administración de etiquetas y analistas.
 
->[!NOTE] Coordinar la implementación de un grupo de informes globales no es tarea fácil. Adobe recomienda trabajar con un consultor para reducir las complicaciones y los problemas que puedan surgir.
+>[!NOTE]
+>
+>Coordinar la implementación de un grupo de informes globales no es tarea fácil. Adobe recomienda trabajar con un consultor para reducir las complicaciones y los problemas que puedan surgir.
 
 ## Inicio de una nueva implementación con un grupo de informes global
 
