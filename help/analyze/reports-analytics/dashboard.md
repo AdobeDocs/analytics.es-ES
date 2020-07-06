@@ -4,8 +4,11 @@ subtopic: Dashboards
 title: Paneles e informes breves
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ Debe tener en cuenta que algunos de los informes visualizados con más frecuenci
 * Informes en tiempo real
 * Otros tableros
 
->[!NOTE] El panel **[!UICONTROL Información general de sitio]** ya no aparece en Reports &amp; Analytics. Sin embargo, aún hay un par de circunstancias en las que verá algunos o todos estos informes breves.
+>[!NOTE]
+>
+>El panel **[!UICONTROL Información general de sitio]** ya no aparece en Reports &amp; Analytics. Sin embargo, aún hay un par de circunstancias en las que verá algunos o todos estos informes breves.
 
 * Si, por ejemplo, solo tiene tres informes vistos con frecuencia, Reports &amp; Analytics tomará dos informes del tablero Información general de sitio para completar el tablero **[!UICONTROL Mis informes recomendados]**.
 * Los grupos de informes completamente nuevos también contarán inicialmente con informes breves de Información general de sitio, hasta que se puedan sustituir por los informes que visualiza con más frecuencia. Aun así, el tablero se llamará **[!UICONTROL Mis informes recomendados]**.
@@ -144,6 +149,7 @@ t_dashboard_content.xml
    * Resumen de los grupos de informe: muestra una métrica seleccionada y los valores totales, altos y bajos de un grupo de informes.
    * Resumen de uso: muestra datos sobre el acceso a la interfaz por parte de las personas de su organización. Este informe breve puede mostrar datos por acceso de nombre de usuario, acceso al informe o acceso al grupo de informes.
 Puede crear los informes breves de Contenido de usuario siguientes siempre que indique las direcciones URL. Si la dirección URL de una imagen o de otro recurso no comienza con https://, los usuarios de Internet Explorer podrían recibir una advertencia en cuanto al contenido mixto. Puede desactivar la advertencia de contenido mixto en la configuración de seguridad del explorador.
+
    *Contenido de usuario:*
 
    * Informe externo: le permite añadir un informe externo en los formatos .xml y .csv.
@@ -151,6 +157,7 @@ Puede crear los informes breves de Contenido de usuario siguientes siempre que i
    * Imagen: permite crear un tablero a partir de la dirección de URL de una imagen. Si la dirección URL utiliza el protocolo HTTP, Internet Explorer envía una advertencia de contenido mixto. Si se utiliza una dirección URL con HTTPS, se elimina la advertencia. El resto de protocolos emiten el error `Specified URL could not be retrieved`.
    * RSS: le permite añadir una fuente Web RSS. Debe ser HTTP o HTTPS. En caso contrario, verá un error `Specified URL could not be retrieved`.
    * Texto: le permite utilizar código XHTML para crear sus propios datos. Utilice HTTP o HTTPS en la dirección URL. Las imágenes utilizadas en el contenido de informe breve de texto que tengan el protocolo HTTP hacen que los usuarios de IE reciban una advertencia en cuanto al contenido mixto. Las imágenes incluidas haciendo uso de otros protocolos no se muestran en el informe breve.
+
    **Mis tableros**
 
    Enumera los tableros actualizados desde los que puede mover contenido al tablero nuevo.
