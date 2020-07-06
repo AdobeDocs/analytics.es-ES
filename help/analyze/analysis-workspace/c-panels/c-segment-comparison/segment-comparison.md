@@ -2,8 +2,11 @@
 title: Información general del panel de comparación de segmentos
 description: Aprenda a utilizar el panel de comparación de segmentos, que forma parte de IQ de segmento en Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1137'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +30,11 @@ El panel Comparación de segmentos es una parte de la herramienta de [IQ de segm
 
    ![Comparar audiencias](assets/compare-audiences.png)
 
-   Después de arrastrar un segmento al panel, Analytics crea automáticamente un segmento [!UICONTROL 'Everyone Else'] que incluye a todos los que NO están en el segmento que ha elegido. Se trata de un segmento que se utiliza con frecuencia en el panel de comparación, pero puede eliminarlo y comparar otro segmento de su elección.
+   Después de arrastrar un segmento al panel, Analytics crea automáticamente un segmento [!UICONTROL “Todos los demás”] que incluye a todos los que NO están en el segmento que ha elegido. Se trata de un segmento que se utiliza con frecuencia en el panel de comparación, pero puede eliminarlo y comparar otro segmento de su elección.
 
    ![Todos los demás](assets/everyone-else.png)
 
-1. Una vez que haya determinado qué dos segmentos comparar, haga clic en [!UICONTROL Build].
+1. Una vez que haya determinado qué dos segmentos comparar, haga clic en [!UICONTROL Generar].
 
    Esta acción inicia un proceso backend que busca diferencias estadísticas entre los dos segmentos seleccionados y todas las dimensiones, métricas y otros segmentos. Una barra de progreso en la parte superior del panel indica el tiempo restante hasta que se analizan todas las métricas y dimensiones. Las métricas, dimensiones y segmentos utilizados con más frecuencia tienen prioridad para ejecutarse primero, de modo que los resultados más relevantes se devuelvan de manera oportuna.
 
@@ -39,12 +42,12 @@ El panel Comparación de segmentos es una parte de la herramienta de [IQ de segm
 
 A veces se desea excluir algunas dimensiones, métricas o segmentos de las comparaciones de segmentos. Por ejemplo, desea comparar el segmento “Usuarios móviles de EE. UU.” con “Usuarios móviles alemanes”. Incluir dimensiones relacionadas con la geografía no tendría sentido, ya que estos segmentos ya implican esas diferencias.
 
-1. Una vez que los dos segmentos deseados estén en el panel, haga clic en [!UICONTROL 'Show Advanced Options'].
-1. Arrastre y suelte los componentes que desea excluir en cualquier sitio del panel [!UICONTROL Excluded Components].
+1. Una vez que los dos segmentos deseados estén en el panel, haga clic en [!UICONTROL “Mostrar opciones avanzadas”].
+1. Arrastre y suelte los componentes que desea excluir en cualquier sitio del panel [!UICONTROL Componentes excluidos].
 
    ![Componentes excluidos](assets/excluded-components.png)
 
-Haga clic en [!UICONTROL 'Set as default'] para excluir automáticamente los componentes actuales en todas las comparaciones de segmentos futuras. Si desea editar componentes excluidos, haga clic en un tipo de componente y, a continuación, haga clic en la “X” situada junto a un componente para volver a incluirlos en el análisis. Haga clic en “Borrar todo” para volver a incluir todos los componentes en la comparación de segmentos.
+Haga clic en [!UICONTROL Establecer como predeterminado] para excluir automáticamente los componentes actuales en todas las comparaciones de segmentos futuras. Si desea editar componentes excluidos, haga clic en un tipo de componente y, a continuación, haga clic en la “X” situada junto a un componente para volver a incluirlos en el análisis. Haga clic en “Borrar todo” para volver a incluir todos los componentes en la comparación de segmentos.
 
 ![Dimensiones excluidas](assets/excluded-dimensions.png)
 
@@ -74,7 +77,9 @@ Muestra las métricas más significativas estadísticamente entre los dos segmen
 
 Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea realizar un análisis más profundo de una métrica específica, pase el ratón sobre un elemento de línea y haga clic en “Crear imagen”. Se crea una nueva tabla para analizar esa métrica específica. Si una métrica no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarla.
 
->[!NOTE] Las métricas que se agreguen a esta tabla una vez finalizada la comparación de segmentos no reciben una puntuación de diferencia.
+>[!NOTE]
+>
+>Las métricas que se agreguen a esta tabla una vez finalizada la comparación de segmentos no reciben una puntuación de diferencia.
 
 ![Métricas principales](assets/top-metrics.png)
 
@@ -90,7 +95,9 @@ Muestra los valores de dimensión más significativos estadísticamente en todas
 
 Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea realizar un análisis más profundo de un valor de dimensión específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese valor de dimensión específico. Si un valor de dimensión es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
 
->[!NOTE] Los valores de dimensión que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
+>[!NOTE]
+>
+>Los valores de dimensión que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
 
 ![Dimensiones principales](assets/top-dimension-item1.png)
 
@@ -106,7 +113,9 @@ Muestra qué otros segmentos (que no sean los dos seleccionados para la comparac
 
 Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea realizar un análisis más profundo de un segmento específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese segmento específico. Si un segmento no es relevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
 
->[!NOTE] Los segmentos que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
+>[!NOTE]
+>
+>Los segmentos que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
 
 ![Segmentos principales](assets/top-segments.png)
 
