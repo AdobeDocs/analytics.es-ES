@@ -1,8 +1,11 @@
 ---
 title: linkDownloadFileTypes
 description: Determine las extensiones de archivo que se rastrean automáticamente como vínculos de descarga.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 100%
 
 ---
 
@@ -13,12 +16,15 @@ Cuando [`trackDownloadLinks`](trackdownloadlinks.md) se habilita y un visitante 
 
 Utilice `linkDownloadFileTypes` para personalizar las extensiones de archivo que desea contar como vínculos de descarga.
 
->[!NOTE] Solo se realiza un seguimiento automático de los clics reales. Los siguientes tipos de vínculos no se rastrean automáticamente:
+>[!NOTE]
+>
+>Solo se realiza un seguimiento automático de los clics reales. Los siguientes tipos de vínculos no se rastrean automáticamente:
 >
 > * Descargas de archivos que se inician automáticamente al cargarse una página
 > * Descargas que se desencadenan tras un redireccionamiento
 > * Haga clic con el botón derecho y seleccione “Guardar destino como...”
 > * Vínculos que utilizan JavaScript, como `javascript:openLink()`
+
 >
 > 
 Para estos tipos de descarga, puede llamar manualmente al método [`tl()`](../functions/tl-method.md).
