@@ -1,8 +1,11 @@
 ---
 title: Implementación de Analytics para dispositivos móviles
 description: Determine qué biblioteca móvil de AppMeasurement utilizar.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: ea8eefbf35bfec52ed794a886b5e67f63c121ce9
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +16,7 @@ Para implementar Analytics para dispositivos móviles, consulte los siguientes r
 
 ## SDK para móviles de Experience Platform
 
-* [Repositorio de SDK](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation/blob/master/resources/frequently-asked-questions/current-sdk-versions.md)
+* [Repositorio de SDK](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation)
 * [Documentación](https://aep-sdks.gitbook.io/docs/)
 
 ## SDK para móviles versión 4
