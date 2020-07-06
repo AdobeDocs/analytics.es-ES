@@ -1,8 +1,11 @@
 ---
 title: s_gi()
 description: Cree y rastree instancias de AppMeasurement.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ El campo de texto de la variable global permite establecer un objeto de seguimie
 
 Llame a la función `s_gi()` para crear una instancia de un objeto de seguimiento. Su único argumento contiene una cadena delimitada por comas de ID de grupos de informes. Se requiere el argumento del ID del grupo de informes.
 
->[!TIP] Adobe recomienda usar la variable `s` como objeto de seguimiento. Adobe utiliza `s` en su documentación, ejemplos de implementación y complementos. Sin embargo, puede utilizar cualquier variable siempre y cuando sea coherente en el sitio.
+>[!TIP]
+>
+>Adobe recomienda usar la variable `s` como objeto de seguimiento. Adobe utiliza `s` en su documentación, ejemplos de implementación y complementos. Sin embargo, puede utilizar cualquier variable siempre y cuando sea coherente en el sitio.
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -36,7 +41,9 @@ var s = s_gi("examplersid");
 var s = s_gi("examplersid1,examplersid2");
 ```
 
->[!CAUTION] Las siguientes secciones y ejemplos contienen temas de implementación complejos. Pruebe exhaustivamente la implementación y rastree las personalizaciones importantes en el [documento de diseño de soluciones ](../../prepare/solution-design.md)de su organización.
+>[!CAUTION]
+>
+>Las siguientes secciones y ejemplos contienen temas de implementación complejos. Pruebe exhaustivamente la implementación y rastree las personalizaciones importantes en el [documento de diseño de soluciones ](../../prepare/solution-design.md)de su organización.
 
 ## Administrar varias implementaciones con diferentes objetos de seguimiento
 
