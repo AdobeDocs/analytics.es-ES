@@ -3,8 +3,11 @@ description: El reenvío del lado del servidor se diseñó para los clientes que
 solution: Audience Manager
 title: Resumen del reenvío del lado del servidor
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '850'
+ht-degree: 100%
 
 ---
 
@@ -66,5 +69,7 @@ Vaya a **Analytics** > **Administración** > **Grupos de informes** > (seleccion
 * **Deshabilitada**: no tiene activado el nuevo reenvío del lado del servidor. Lea el contenido de la página y habilite esta función.
 * **Habilitada**: ya está aprovisionado para el nuevo reenvío del lado del servidor. También puede configurar esta integración de Audience Analytics.
 
->[!NOTE] No aparecerán datos en otras soluciones de Experience Cloud, como [Audience Manager](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/aam-home.html) o [Audiencias](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html), hasta que haya completado los 3 pasos. Una vez que termine, la configuración tardará varias horas en tener efecto.
+>[!NOTE]
+>
+>No aparecerán datos en otras soluciones de Experience Cloud, como [Audience Manager](https://docs.adobe.com/content/help/es-ES/audience-manager/user-guide/aam-home.html) o [Audiencias](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html), hasta que haya completado los 3 pasos. Una vez que termine, la configuración tardará varias horas en tener efecto.
 
