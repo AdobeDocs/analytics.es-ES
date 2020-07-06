@@ -4,7 +4,10 @@ title: Bloquear/desbloquear libros
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,11 @@ Puede proteger todas las solicitudes en un libro contra las solicitudes para añ
 
 Como analista, bloquear un libro le permite proteger sus solicitudes de libros contra la manipulación por parte de otros usuarios dentro de su organización. Al mismo tiempo, estos usuarios aún pueden actualizar las solicitudes del libro.
 
-To protect a workbook against editing, click **[!UICONTROL Locked]** on the Report Builder toolbar ( ![](assets/locked_icon.png)
+Para proteger un libro contra la edición, haga clic en **[!UICONTROL Bloqueado]** en la barra de herramientas de Report Builder ( ![](assets/locked_icon.png)
 
 ).
 
-To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_icon.png)
+Para desproteger un libro, haga clic en **[!UICONTROL Desbloqueado]** ( ![](assets/unlocked_icon.png)
 
 ).
 
@@ -28,7 +31,9 @@ Puede desbloquear un libro bloqueado si cuenta con uno de los siguientes permiso
 * Es administrador o
 * Es la persona que ha bloqueado el libro en primer lugar. En este caso, no tiene que ser administrador.
 
->[!NOTE] No puede añadir una solicitud a un libro protegido a menos que tenga los permisos para desbloquear el libro.
+>[!NOTE]
+>
+>No puede añadir una solicitud a un libro protegido a menos que tenga los permisos para desbloquear el libro.
 
 Cuando un libro está bloqueado contra la edición de solicitudes,
 
@@ -39,7 +44,7 @@ Cuando un libro está bloqueado contra la edición de solicitudes,
 * Los usuarios pueden actualizar las solicitudes de forma individual o como parte de un grupo.
 * Si la solicitud utiliza valores de entrada de las celdas (intervalo de fechas, segmento, filtros), los usuarios pueden cambiar estos valores en las celdas y, por tanto, editar de forma indirecta las solicitudes actualizándolas.
 
-If you try to edit a protected workbook (through the context menu, or **[!UICONTROL Request Manager]**, or **[!UICONTROL Edit Multiple Requests]**), you may or may not be allowed to do so:
+Si intenta editar un libro protegido (con el menú contextual o el **[!UICONTROL Administrador de solicitudes]** o **[!UICONTROL Editar múltiples solicitudes]**), puede que se le permita o no hacerlo:
 
 * Si no tiene los permisos para desbloquear la solicitud, aparecerá este mensaje:
 
