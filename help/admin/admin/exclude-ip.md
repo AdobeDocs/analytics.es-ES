@@ -3,8 +3,11 @@ description: Se pueden excluir datos de las direcciones IP específicas, por eje
 title: Excluir por dirección IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Se pueden excluir datos de las direcciones IP específicas, por ejemplo, las act
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Excluir por dirección IP]**
 
->[!NOTE] Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://docs.adobe.com/content/help/es-ES/analytics/technotes/terms.html).
+>[!NOTE]
+>
+>Las visitas excluidas por dirección IP se facturan como [llamadas al servidor](https://docs.adobe.com/content/help/es-ES/analytics/technotes/terms.html).
 
 ## Excluir por cookie {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -27,7 +32,9 @@ Esta función permite al usuario y a sus compañeros visitar el sitio sin distor
 |--- |--- |
 | [!UICONTROL Agregar CNAME] | Genera un vínculo de no participación con el que puede excluirse un dominio. Para obtener ayuda, póngase en contacto con los usuarios de asistencia técnica de la empresa. <br>Puede excluirse el tráfico para que no quede registrado en los grupos de informes desde la página de exclusión de la empresa, donde puede especificarse la exclusión del explorador de la medición. <br>Si la implementación utiliza cookies de terceros, la página de exclusión estará [aquí](https://democorp.112.2o7.net/optout.html?locale=es_ES&amp;popup=true). |
 
->[!NOTE] La exclusión por equipo solo funcionará si:
+>[!NOTE]
+>
+>La exclusión por equipo solo funcionará si:
 >
 > * Se accede al sitio web desde la misma estación de trabajo.
 > * Se habilitan las cookies en el explorador en uso.
