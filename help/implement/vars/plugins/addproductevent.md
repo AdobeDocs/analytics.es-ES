@@ -1,15 +1,20 @@
 ---
 title: addProductEvent
 description: Agrega eventos personalizados a la variable products y events.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 100%
 
 ---
 
 
 # Complemento de Adobe: addProductEvent
 
->[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `addProductEvent` agrega un evento numérico o de divisa a la variable [`products`](../page-vars/products.md). Adobe recomienda utilizar este complemento si desea agregar un evento numérico o de divisa a la variable `products` sin tener que preocuparse por el formato de la cadena de producto. Este complemento no es necesario si no se utilizan eventos numéricos o de divisa en la variable `products`.
 
@@ -124,7 +129,9 @@ s.addProductEvent("event35", "15", 1);
 
 El código anterior también establece la variable `s.events` en `"purchase,event2,event33,event34,event35"`
 
->[!NOTE] El segundo argumento de la llamada puede ser un entero **o** una cadena que represente un número/número entero
+>[!NOTE]
+>
+>El segundo argumento de la llamada puede ser un entero **o** una cadena que represente un número/número entero
 
 ### Ejemplo 5
 
