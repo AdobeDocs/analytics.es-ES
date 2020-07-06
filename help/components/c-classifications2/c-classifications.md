@@ -5,7 +5,10 @@ title: Acerca de las clasificaciones
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '752'
+ht-degree: 100%
 
 ---
 
@@ -16,19 +19,21 @@ Las clasificaciones permiten aplicar categorías a los datos de variables de Ana
 
 Vídeo con información general sobre las [Clasificaciones de Analytics](https://video.tv.adobe.com/v/16853/?captions=spa).
 
-**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > *`<Traffic or Conversion>`*
+**[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > *`<Traffic or Conversion>`*
 
 Con las clasificaciones se establece una relación entre la variable y los metadatos relacionados con ella. Por lo general, las clasificaciones se usan en campañas. Para resumir los datos que se recopilan a través de la información de las variables (eVars, props y eventos), pueden aplicarse metadatos a los valores recopilados en las variables.
 
 ![Información sobre los pasos](assets/sub_class_create.png)
 
-Una vez clasificado, los informes que pueden generarse con la variable clave pueden hacerlo también con los atributos asociados. For example, you can classify [!UICONTROL Product IDs] with additional product attributes, such as product name, color, size, description, and SKU. Si se aumentan los datos de informes y análisis con atributos adicionales, podrán generarse informes más profundos y complejos.
+Una vez clasificado, los informes que pueden generarse con la variable clave pueden hacerlo también con los atributos asociados. Por ejemplo, los [!UICONTROL ID de producto] pueden clasificarse con atributos de producto adicionales, como el nombre, el color, el tamaño, la descripción y la SKU del producto. Si se aumentan los datos de informes y análisis con atributos adicionales, podrán generarse informes más profundos y complejos.
 
 >[!IMPORTANT]
 >
 >Se ha eliminado de la base de código la posibilidad de importar clasificaciones numéricas 2 y fechas activadas. Este cambio entra en vigor con el lanzamiento de mantenimiento de junio de 2019. Si tiene columnas numéricas o con fecha habilitada en el archivo de importación, esas celdas serán omitidas sin aviso y cualquier otra información de ese archivo se importará como de costumbre. Las clasificaciones existentes se pueden exportar a través del flujo de trabajo de clasificación estándar y seguirán estando disponibles en los informes.
 
->[!NOTE]En la versión de mantenimiento de Analytics del 10 de mayo de 2018, Adobe empezó a limitar la funcionalidad de las clasificaciones numéricas y habilitadas por fecha. Estos tipos de clasificaciones se eliminaron de las interfaces del Administrador y del Importador de clasificaciones. No es posible añadir nuevas clasificaciones numéricas y habilitadas por fecha. Las clasificaciones existentes se podrán seguir administrando (cargado y eliminado) a través del flujo de trabajo de clasificación estándar y permanecerán disponibles en los informes.
+>[!NOTE]
+>
+>En la versión de mantenimiento de Analytics del 10 de mayo de 2018, Adobe empezó a limitar la funcionalidad de las clasificaciones numéricas y habilitadas por fecha. Estos tipos de clasificaciones se eliminaron de las interfaces del Administrador y del Importador de clasificaciones. No es posible añadir nuevas clasificaciones numéricas y habilitadas por fecha. Las clasificaciones existentes se podrán seguir administrando (cargado y eliminado) a través del flujo de trabajo de clasificación estándar y permanecerán disponibles en los informes.
 
 Una vez creadas las clasificaciones, pueden aprovecharse los nuevos atributos de datos en otros análisis e informes de Adobe Analytics.
 
@@ -38,7 +43,7 @@ Supongamos que, en lugar de ver las campañas tan solo por el código de seguimi
 
 Informes y análisis incluye clasificaciones predefinidas para la variable de código de seguimiento, lo que permite obtener informes basados en clasificaciones, denominados Elementos creativos y Campañas. Para el resto de variables de tráfico y conversión, las clasificaciones deben configurarse manualmente.
 
-Consulte [Clasificaciones de tráfico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) y [Clasificaciones de las conversiones](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
+Consulte [Clasificaciones de tráfico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) y [Clasificaciones de las conversiones](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
 En la tabla siguiente se describen los distintos tipos de clasificaciones disponibles y los tipos de variables que admiten. Consulte la información de  [Estructura general de archivos](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) antes de cargar archivos de datos.
 
