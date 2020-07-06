@@ -2,7 +2,7 @@
 title: Tiempo empleado
 description: Una página agregada de dimensiones y métricas de tiempo empleado.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 93%
@@ -39,7 +39,9 @@ Los productos de Adobe Analytics ofrecen varias métricas y dimensiones de [!UIC
 
 Adobe Analytics utiliza valores explícitos (incluidos eventos de vínculo y vistas de vídeo) para calcular la métrica [!UICONTROL Tiempo empleado].
 
->[!NOTE] Sin eventos de vínculo como las [!UICONTROL vistas de vídeo] o los [!UICONTROL vínculos de salida], no se puede saber el tiempo empleado en la última visita individual de una visita. Por motivos similares, las [!UICONTROL visitas de devolución] (las visitas con una sola visita individual) no tienen asociado un valor de “Tiempo empleado”.
+>[!NOTE]
+>
+>Sin eventos de vínculo como las [!UICONTROL vistas de vídeo] o los [!UICONTROL vínculos de salida], no se puede saber el tiempo empleado en la última visita individual de una visita. Por motivos similares, las [!UICONTROL visitas de devolución] (las visitas con una sola visita individual) no tienen asociado un valor de “Tiempo empleado”.
 
 El **numerador** en todos los cálculos de tiempo empleado es “Segundos totales empleados”.
 
