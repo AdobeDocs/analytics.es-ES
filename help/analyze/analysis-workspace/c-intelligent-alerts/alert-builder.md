@@ -3,7 +3,10 @@ description: 'null'
 title: Generador de alertas
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ Acceda al Generador de alertas de una de las cuatro formas disponibles:
 * Mediante el acceso directo siguiente en Analysis Workspace:
 
    `ctrl (or cmd) + shift + a`
-* Accediendo a **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* Desde un informe de Informes y análisis, vaya a **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
+* En **[!UICONTROL Workspace]** > **[!UICONTROL Componentes]** > **[!UICONTROL Alerta nueva]**.
+* Seleccione uno o más elementos de línea de la tabla improvisada, haga clic con el botón secundario y elija **[!UICONTROL Crear alerta a partir de la selección]**.
+* Desde un informe de Reports &amp; Analytics, vaya a **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**.
 
 ## Generar alertas
 
@@ -41,7 +44,9 @@ Especifique un nombre para la alerta. El nombre de la alerta puede contener el n
 
 Especifique cuándo desea que se compruebe la métrica: cada hora, cada día, semanalmente o mensualmente.
 
->[!NOTE] La granularidad mensual no es compatible con los grupos de informes con un calendario personalizado en el Generador de alertas.
+>[!NOTE]
+>
+>La granularidad mensual no es compatible con los grupos de informes con un calendario personalizado en el Generador de alertas.
 
 **Destinatarios**
 
@@ -75,6 +80,7 @@ Establezca la fecha de caducidad de la alerta.
    * es menor que o igual a
    * cambia por un
    * Puede establecer el umbral en 90 %, 95 %, 99 %, 99,75 % y 99,9 %.
+
    Tenga en cuenta que también puede utilizar las métricas calculadas.
 
 *... con estos filtros*
