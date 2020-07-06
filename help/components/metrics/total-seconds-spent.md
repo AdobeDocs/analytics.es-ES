@@ -2,7 +2,7 @@
 title: Segundos totales empleados
 description: El número total agregado de segundos empleados en el valor de la dimensión.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 9%
@@ -26,6 +26,8 @@ Esta métrica utiliza los siguientes pasos para medir el cálculo:
 
 Las variables persistentes, como [las eVars](../dimensions/evar.md), se contabilizan como segundos totales empleados. Las variables de tráfico, como [props](../dimensions/prop.md), incluyen los segundos empleados en las llamadas de seguimiento de vínculos subsiguientes.
 
->[!TIP] El tiempo empleado no se mide para la última visita individual de la visita, ya que no hay solicitudes de imagen subsiguientes para medir el tiempo transcurrido. Este concepto también se aplica a las visitas que consisten en una sola visita (una devolución).
+>[!TIP]
+>
+>El tiempo empleado no se mide para la última visita individual de la visita, ya que no hay solicitudes de imagen subsiguientes para medir el tiempo transcurrido. Este concepto también se aplica a las visitas que consisten en una sola visita (una devolución).
 
 Consulte [Información general](time-spent.md) sobre el tiempo empleado para obtener información más general sobre el tiempo empleado.
