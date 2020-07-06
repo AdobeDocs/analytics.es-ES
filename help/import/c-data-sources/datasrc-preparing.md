@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Preparación para el uso de fuentes de datos
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Cuando determine la correspondencia entre métricas y eventos para la fuente de 
 
 Consulte [Eventos de éxito](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html) en la ayuda de Herramientas de administración.
 
->[!NOTE] Adobe recomienda encarecidamente usar con las fuentes de datos eventos nuevos vacíos, pero en casos excepcionales puede tener sentido usar un evento preexistente.
+>[!NOTE]
+>
+>Adobe recomienda encarecidamente usar con las fuentes de datos eventos nuevos vacíos, pero en casos excepcionales puede tener sentido usar un evento preexistente.
 
 ## Identificar las dimensiones de datos {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -38,7 +43,9 @@ Por ejemplo, si una métrica de fuentes de datos mide la cantidad de impresiones
 
 Las métricas se pueden definir con varias dimensiones de datos, pero entonces deben proveer un valor o una combinación de valores pertinentes a cada dimensión de datos asociada. Por ejemplo, si importa una métrica de ventas sin conexión y la asocia con las dimensiones de datos de *`Product`* y *`Partner`*, la métrica de ventas sin conexión tiene que ser pertinente para cada combinación de producto y socio (por ejemplo, ingresos totales).
 
->[!NOTE] Es posible importar métricas totales que no se puedan desglosar por ninguna dimensión de datos.
+>[!NOTE]
+>
+>Es posible importar métricas totales que no se puedan desglosar por ninguna dimensión de datos.
 
 Después de definir las dimensiones de datos que se tienen que utilizar con una fuente de datos, asigne los datos de las dimensiones a una variable para integrarlos en los informes de marketing. Utilice informes estándar (por ejemplo, producto, código de seguimiento, palabra clave de búsqueda) o variables de tráfico de conversiones (eVars).
 
