@@ -2,19 +2,19 @@
 title: eVar
 description: Variables personalizadas que puede utilizar en su implementación.
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 68%
+ht-degree: 86%
 
 ---
 
 
 # eVar
 
-*Esta página de ayuda describe cómo implementar eVars. Para obtener información sobre cómo funcionan las eVars como dimensiones, consulte[eVars](/help/components/dimensions/evar.md)en la guía del usuario Componentes.*
+*Esta página de ayuda describe cómo implementar eVars. Para obtener información sobre cómo funcionan las eVars como dimensiones, consulte [eVars](/help/components/dimensions/evar.md) en la guía del usuario de Componentes.*
 
-Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un documento [de diseño de](/help/implement/prepare/solution-design.md)solución, la mayoría de las dimensiones específicas de su organización terminan como eVars. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Puede personalizar su caducidad y asignación en Variables [de](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversión en Configuración de grupos de informes.
+Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como eVars. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
 El número de eVars disponibles depende del contrato con Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo admite.
 
@@ -57,4 +57,6 @@ s.eVar1 = "+12.49";
 
 Si se especifican más de dos decimales, el contador de eVar redondea a dos decimales. Un contador de eVar no puede contener números negativos.
 
-> [!IMPORTANT] Primero debe configurar las eVars en &#39;Contador&#39; en la Consola de administración antes de utilizar las eVars de contador. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
+>[!IMPORTANT]
+>
+>Primero debe configurar las eVars en &#39;Contador&#39; en Admin Console antes de usar las eVars de contador. Consulte [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la guía de administración.
