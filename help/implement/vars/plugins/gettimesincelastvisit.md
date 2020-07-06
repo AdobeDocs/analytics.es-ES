@@ -1,15 +1,20 @@
 ---
 title: getTimeSinceLastVisit
 description: Mida el tiempo transcurrido entre dos visitas.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 100%
 
 ---
 
 
 # Complemento de Adobe: getTimeSinceLastVisit
 
->[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `getTimeSinceLastVisit` le permite rastrear cuánto tiempo ha tardado un visitante en regresar a su sitio después de su última visita.
 
@@ -66,7 +71,9 @@ El método `getTimeSinceLastVisit` no utiliza ningún argumento. Devuelve el tie
 * Un valor mayor que un día se redondea a la referencia del día más próximo. Por ejemplo, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`.
 * Si es la primera visita de un visitante o si el tiempo transcurrido supera los dos años, el valor se establece en `"New Visitor"`.
 
->[!NOTE] Este complemento solo devuelve un valor en la primera visita.
+>[!NOTE]
+>
+>Este complemento solo devuelve un valor en la primera visita.
 
 Este complemento crea una cookie de origen denominada `"s_tslv"` establecida en una marca de tiempo Unix de la hora actual. La cookie caduca tras dos años de inactividad.
 
