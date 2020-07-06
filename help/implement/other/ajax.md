@@ -2,7 +2,10 @@
 title: Implementación con AJAX
 description: Obtenga más información sobre cómo implementar Adobe Analytics en un sitio mediante AJAX.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -24,13 +27,17 @@ Dado que las páginas que utilizan AJAX generalmente no se recargan, hay varias 
 * Si la respuesta es **sí**, considere la posibilidad de utilizar una llamada de seguimiento de vista de página (`s.t()`).
 * Si la respuesta es **no**, considere rastrear esa interacción usando una llamada de seguimiento de vínculos (`s.tl()`).
 
->[!NOTE] No es necesario registrar todas las interacciones o clics. Tenga en cuenta qué acciones son más importantes de rastrear y envíe datos a Adobe en consecuencia.
+>[!NOTE]
+>
+>No es necesario registrar todas las interacciones o clics. Tenga en cuenta qué acciones son más importantes de rastrear y envíe datos a Adobe en consecuencia.
 
 ## Borrado de variables en cada página
 
 Los valores de las variables persisten en las páginas que utilizan AJAX, ya que la página no se vuelve a cargar. Por lo tanto, se requiere un ajuste especial para borrar los valores de las variables de modo que no persistan incorrectamente entre las visitas. Adobe ofrece la función [`clearVars`](../vars/functions/clearvars.md) para borrar fácilmente los valores de las variables. Asegúrese de utilizar esta función después de enviar cada visita a Adobe y antes de establecer los valores de las variables para la siguiente visita.
 
->[!TIP] La función `clearVars()` no está disponible en el código H. Si no ha actualizado a AppMeasurement, establezca cada valor de variable de Analytics en una cadena vacía.
+>[!TIP]
+>
+>La función `clearVars()` no está disponible en el código H. Si no ha actualizado a AppMeasurement, establezca cada valor de variable de Analytics en una cadena vacía.
 
 ## Ejemplos
 
