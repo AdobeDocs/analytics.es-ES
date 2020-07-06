@@ -2,7 +2,7 @@
 title: Tiempo invertido en la página
 description: Cantidad de tiempo que un visitante emplea en la página.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 13%
@@ -20,7 +20,9 @@ La dimensión &#39;Tiempo empleado en la página&#39; registra la cantidad de ti
 
 Esta dimensión es valiosa cuando desea comprender cuánto tiempo interactúan los visitantes con una métrica determinada del sitio.
 
->[!TIP] El tiempo empleado no se mide para la última visita individual de la visita, ya que no hay solicitudes de imagen subsiguientes para medir el tiempo transcurrido. Este concepto también se aplica a las visitas que consisten en una sola visita (una devolución).
+>[!TIP]
+>
+>El tiempo empleado no se mide para la última visita individual de la visita, ya que no hay solicitudes de imagen subsiguientes para medir el tiempo transcurrido. Este concepto también se aplica a las visitas que consisten en una sola visita (una devolución).
 
 Esta dimensión se basa en visitas individuales, lo que significa que el valor es diferente para cada visita. Compare esta dimensión con el [Tiempo empleado por visita](time-spent-per-visit.md), que es una dimensión basada en visitas. Un tiempo empleado mayor significa que un visitante permaneció más tiempo en una página (visita individual).
 
