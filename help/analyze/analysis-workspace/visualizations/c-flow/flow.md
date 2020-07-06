@@ -2,8 +2,11 @@
 description: 'null'
 title: Resumen de flujos
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ Le permite:
 * Analizar a qué lugares van los clientes antes y después de los puntos de comprobación especificados, como la entrada, una dimensión específica o la salida
 * Crear segmentos mediante la designación de un punto específico en una ruta elegida
 
->[!NOTE] Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace y Reports &amp; Analytics/Ad Hoc Analysis, consulte [La segmentación como base para Flujo y Abandonos](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>[!NOTE]
+>
+>Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace y Reports &amp; Analytics/Ad Hoc Analysis, consulte [La segmentación como base para Flujo y Abandonos](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 [Visualización de flujo en YouTube](https://www.youtube.com/watch?v=3R1HTM7y_RM&amp;index=55&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:56)
 
@@ -30,4 +35,4 @@ Cada columna puede mostrar una dimensión distinta. Arrastre una dimensión y su
 
 ## Exportación de diagramas de flujo como parte de archivos .CSV de proyecto {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Los diagramas de flujo son parte del archivo .CSV de un proyecto que puede crear accediendo a **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. Esto le permite analizar los resultados del flujo en Microsoft Excel (visualizados como una tabla) o en otra herramienta.
+Los diagramas de flujo son parte del archivo .CSV de un proyecto que puede crear en **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar CSV]**. Esto le permite analizar los resultados del flujo en Microsoft Excel (visualizados como una tabla) o en otra herramienta.
