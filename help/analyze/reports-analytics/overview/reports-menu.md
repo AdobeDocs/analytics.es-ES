@@ -3,7 +3,10 @@ description: Una descripción general del menú Informes en Reports & Analytics.
 title: Menú Informes
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
@@ -23,21 +26,23 @@ El menú Informes proporciona:
 
 Mis favoritos, Vistos con mayor frecuencia e Historial de informes son todos específicos del grupo de informes. Si cambia de grupo de informes, cambiarán las tres listas.
 
-Se puede navegar por los informes con una vista de columna jerárquica. Haga clic en **[!UICONTROL View All Reports]** o presione la tecla de barra diagonal (/) y, a continuación, presione la tecla de flecha abajo (?) para mostrar y navegar rápidamente por el menú con las teclas de flecha. Presione la tecla Escape para cerrar el menú sin cambiar el informe actual; o bien, presione Intro para cargar el informe seleccionado.
+Se puede navegar por los informes con una vista de columna jerárquica. Haga clic en **[!UICONTROL Ver todos los informes]** o presione la tecla de barra diagonal (/) y, a continuación, presione la tecla de flecha abajo (↓) para visualizar rápidamente y navegar por el menú con las teclas de flecha. Presione la tecla Escape para cerrar el menú sin cambiar el informe actual; o bien, presione Intro para cargar el informe seleccionado.
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html).
+Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://docs.adobe.com/content/help/es-ES/analytics/components/variables/c-variables.html).
 
 ## Búsqueda de informes {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-El menú Informes proporciona una experiencia de búsqueda mejorada. Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. La búsqueda de informes se ha ampliado para incluir todos los elementos de navegación de la parte izquierda de Analytics (administrador, componentes, etc.).
+El menú Informes proporciona una experiencia de búsqueda mejorada. Haga clic en **[!UICONTROL Ver todos los informes]** o presione la tecla de barra diagonal (/) y, a continuación, comience a escribir para encontrar rápidamente un informe. La búsqueda de informes se ha ampliado para incluir todos los elementos de navegación de la parte izquierda de Analytics (administrador, componentes, etc.).
 
 ![](assets/menu-search.png)
 
 Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por la lista de informes. Presione la tecla Escape para cerrar la búsqueda sin cambiar el informe actual; o bien, presione Intro para cargar el informe seleccionado.
 
->[!NOTE] También puede buscar en la lista de informes por propiedad, eVar y número de evento. En la barra de búsqueda, introduzca la propiedad, eVar o número de evento.
+>[!NOTE]
+>
+> También puede buscar en la lista de informes por propiedad, eVar y número de evento. En la barra de búsqueda, introduzca la propiedad, eVar o número de evento.
 
 ## Descripción general de navegación {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -118,4 +123,4 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
 
 ## Personalización del menú Todos los informes {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html) en la Ayuda de Administradores.
+Los administradores pueden cambiar los informes que incluye el menú Informes. Consulte [Personalización de menús](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/customize-menus.html) en la Ayuda de Administradores.
