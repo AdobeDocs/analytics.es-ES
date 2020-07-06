@@ -1,19 +1,26 @@
 ---
 title: addProductEvar
 description: Agrega eVars de comercialización a la variable products.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 100%
 
 ---
 
 
 # Complemento de Adobe: addProductEvar
 
->[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `addProductEvar` le permite agregar fácilmente a la variable products una eVar de comercialización de Adobe Analytics que utilice sintaxis de producto sin tener que preocuparse de si el contenido ya existente de la variable products se cambiará, moverá o eliminará. Adobe recomienda utilizar este complemento si desea agregar fácilmente eVars de comercialización que utilicen sintaxis de producto a la variable [`products`](../page-vars/products.md). No es necesario usar el complemento `addProductEvar` si no utiliza eVars de comercialización con sintaxis de producto.
 
->[!NOTE] Este complemento no reemplaza a las eVars que ya existen en una entrada de producto. Solo anexa los valores que ha configurado con este complemento. Tenga cuidado al anexar eVars que ya existen para ese producto.
+>[!NOTE]
+>
+>Este complemento no reemplaza a las eVars que ya existen en una entrada de producto. Solo anexa los valores que ha configurado con este complemento. Tenga cuidado al anexar eVars que ya existen para ese producto.
 
 ## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
