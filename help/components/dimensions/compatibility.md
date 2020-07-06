@@ -2,7 +2,7 @@
 title: Compatibilidad de dimensiones de Analytics
 description: Referencia para dimensiones e informes de Analytics.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -12,11 +12,15 @@ ht-degree: 92%
 
 # Compatibilidad de dimensiones de Analytics
 
-Esta página lista dimensiones admitidas en sus respectivas capacidades de Analytics.
+Esta página lista dimensiones admitidas en sus respectivas funciones de Analytics.
 
->[!NOTE] En esta lista se omiten los nombres, las clasificaciones y los atributos de visitante de las variables personalizadas. Estos valores de dimensión son específicos de grupos de informes individuales.
+>[!NOTE]
+>
+>En esta lista se omiten los nombres, las clasificaciones y los atributos de visitante de las variables personalizadas. Estos valores de dimensión son específicos de grupos de informes individuales.
 
->[!NOTE] Hay algunas superposiciones en las que las herramientas de Analytics utilizan términos diferentes para dimensiones similares. Por ejemplo, Informes y análisis utiliza `browserwidth` mientras que Espacio de trabajo de Análisis utiliza `browserwidthbucketed`.
+>[!NOTE]
+>
+>Hay algunas superposiciones en las que las herramientas de Analytics utilizan términos diferentes para dimensiones similares. Por ejemplo, Informes y Analytics utiliza `browserwidth` mientras el Analysis Workspace utiliza `browserwidthbucketed`.
 
 ## Dimensiones compatibles con Reports &amp; Analytics y con Analysis Workspace
 
@@ -35,7 +39,7 @@ Esta página lista dimensiones admitidas en sus respectivas capacidades de Analy
 | Lealtad del cliente | `customerloyalty` |
 | Variables de conversión personalizadas | `evar1`, `evar2`, etc. |
 | Variables de perspectiva personalizadas | `prop1`, `prop2`, etc. |
-| Sintaxis de | `customlink` |
+| Vínculo personalizado | `customlink` |
 | Días antes de la primera compra | `daysbeforefirstpurchase` |
 | Días desde la última compra | `dayssincelastpurchase` |
 | Dominio | `filtereddomain` |
@@ -43,12 +47,12 @@ Esta página lista dimensiones admitidas en sus respectivas capacidades de Analy
 | Página de entrada | `entrypage` |
 | Original de página de entrada | `entrypageoriginal` |
 | Vínculo de salida | `exitlink` |
-| Canal de primer toque | `firsttouchchannel` |
-| Detalles de canal de primer toque | `firsttouchchanneldetail` |
+| Canal de primer contacto | `firsttouchchannel` |
+| Detalles de canal de primer contacto | `firsttouchchanneldetail` |
 | Habilitado para Java | `javaenabled` |
 | Idioma | `language` |
-| Canal de último toque | `lasttouchchannel` |
-| Detalles de canal de último toque | `lasttouchchanneldetail` |
+| Canal de último contacto | `lasttouchchannel` |
+| Detalles de canal de último contacto | `lasttouchchanneldetail` |
 | Variables de lista | `listvariables` |
 | Canal de marketing | `marketingchannel` |
 | Compatibilidad con el audio del dispositivo móvil | `mobileaudiosupport` |
@@ -110,7 +114,7 @@ Esta página lista dimensiones admitidas en sus respectivas capacidades de Analy
 | Día de la semana | `dayofweek` |
 | Día de la semana | `timepartdayofweek` |
 | Día del año | `timepartdayofyear` |
-| Días transcurridos desde la última visita  | `dayssincelastvisit` |
+| Días transcurridos desde la última visita | `dayssincelastvisit` |
 | Perspectivas personalizadas de entrada | `entryprops` |
 | Variables de lista de entrada | `entrylistvariables` |
 | Servidor de entrada | `entryserver` |
@@ -302,7 +306,7 @@ Esta página lista dimensiones admitidas en sus respectivas capacidades de Analy
 | Vínculo de Activity Map por región | `clickmaplinkbyregion` |
 | Región de Activity Map | `clickmapregion` |
 | Vínculo de Activity Map | `clickmaplink` |
-| Página de  Página | `clickmappage` |
+| Página de Activity Map | `clickmappage` |
 
 ### Integración de Nielsen
 
@@ -327,7 +331,7 @@ For more information on how to implement this integration, see the [Nielsen Exte
 | ID de cliente Nielsen de entrada | `entrynielsenclientid` |
 | ID de cliente Nielsen de salida | `exitnielsenclientid` |
 
-### Adobe Experience Manager  (AEM)
+### Adobe Experience Manager (AEM)
 
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
