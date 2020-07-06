@@ -2,7 +2,7 @@
 description: Aquí puede encontrar unas instrucciones de ayuda para localizar los identificadores de las cuentas de Google y Bing.
 title: Localización de los ID de su cuenta
 translation-type: tm+mt
-source-git-commit: fae9d036f33029b7b8553cb71441997fc4e83354
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 65%
@@ -32,6 +32,8 @@ En la parte superior, haga clic en el icono Cuenta para ver el número de cuenta
 
 El identificador de cuenta y el identificador de cliente son necesarios. Se indican en la pestaña Cuentas.
 
->[!NOTE] El número de cuenta no es lo mismo que el identificador de cuenta.
+>[!NOTE]
+>
+>El número de cuenta no es lo mismo que el identificador de cuenta.
 
 ![](assets/bing_id.png)
