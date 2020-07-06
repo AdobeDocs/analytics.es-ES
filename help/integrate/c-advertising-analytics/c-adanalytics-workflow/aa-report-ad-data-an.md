@@ -3,7 +3,10 @@ description: Detalles sobre la plantilla Analysis Workspace y los informes en Re
 title: Informar sobre datos publicitarios en Adobe Analytics
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Detalles sobre la plantilla Analysis Workspace y los informes en Reports &amp; Analytics y Report Builder.
 
->[!NOTE] Los datos del motor de búsqueda suelen tardar un mínimo de 24 horas en propagarse a los informes de Analytics. Tenga en cuenta también que los informes de Analytics no devolverán datos de la granularidad por hora, ya que los datos de AMO no admiten esta característica.
+>[!NOTE]
+>
+>Los datos del motor de búsqueda suelen tardar un mínimo de 24 horas en propagarse a los informes de Analytics. Tenga en cuenta también que los informes de Analytics no devolverán datos de la granularidad por hora, ya que los datos de AMO no admiten esta característica.
 
 ## Analysis Workspace: Plantilla de motores de búsqueda {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
