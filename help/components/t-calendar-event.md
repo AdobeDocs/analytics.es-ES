@@ -4,7 +4,7 @@ title: Eventos de calendario
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: 739368320e73d3b441151ce7e912fe74d3f8308b
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
@@ -16,9 +16,11 @@ ht-degree: 100%
 
 Pasos para añadir eventos de calendario y gestionar eventos compartidos.
 
->[!NOTE] Para garantizar el rendimiento óptimo de los informes, los últimos 20 eventos de calendario se mostrarán en gráficos de tendencias y tiempo extra.
+>[!NOTE]
+>
+>Para garantizar el rendimiento óptimo de los informes, los últimos 20 eventos de calendario se mostrarán en gráficos de tendencias y tiempo extra.
 
-Para los informes con tendencias en el paso del tiempo, puede utilizar esta herramienta para mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, el ingreso o alguna otra métrica. El proceso de configurar un evento de calendario implica darle un nombre al evento, configurar las fechas, añadir notas y configurar un icono.. Por ejemplo, si usa Social, puede crear un evento de calendario para mostrar que había una correlación entre un aumento en el tráfico del sitio y la mención de un producto por parte de una personalidad destacada a través de Twitter.
+Para los informes con tendencias en el paso del tiempo, puede utilizar esta herramienta para mostrar gráficamente los eventos y ver si las campañas u otros eventos han afectado al tráfico del sitio, el ingreso o alguna otra métrica. El proceso de configurar un evento de calendario implica darle un nombre al evento, configurar las fechas, añadir notas y configurar un icono. Por ejemplo, si usa Social, puede crear un evento de calendario para mostrar que había una correlación entre un aumento en el tráfico del sitio y la mención de un producto por parte de una personalidad destacada a través de Twitter.
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Eventos de calendario]**.
 1. Haga clic en **[!UICONTROL Agregar nuevo]**.
@@ -33,7 +35,6 @@ Para los informes con tendencias en el paso del tiempo, puede utilizar esta herr
    1. Haga clic en **[!UICONTROL Insertar en escritorio de usuarios]**.
    1. Haga clic en **[!UICONTROL Marcar todos]** o marque la casilla junto al nombre del usuario.
    1. Haga clic en **[!UICONTROL Guardar]**.
-
    Esto hace que los Eventos de calendario sean mucho más útiles. Los analistas ahora disponen de la capacidad para forzar una superposición en los informes de sus usuarios para proporcionar más contexto.
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Eventos de calendario]**.
 1. En los **[!UICONTROL Eventos de calendario compartido]**, especifique una de estas opciones:
