@@ -1,8 +1,11 @@
 ---
 title: Ayuda de administración de Analytics
 description: Ayuda de administración para administradores de Adobe Analytics, incluida la administración de usuarios y productos en Admin Console, la configuración de grupos de informes, variables, clasificaciones y recopilación de datos.
-translation-type: ht
-source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
+translation-type: tm+mt
+source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +19,7 @@ Esta ayuda está destinada a administradores de Adobe Analytics. Incluye ayuda s
 Por el momento, Adobe Analytics tiene dos áreas para administradores:
 
 * Adobe Admin Console: Utilice esta área para proporcionar las herramientas de Experience Cloud y administrar permisos de usuario. Se encuentra en [adminconsole.adobe.com](https://adminconsole.adobe.com).
-* Admin Console de Analytics: Utilice esta área para el grupo de informes y la administración de variables. Se puede acceder a ella haciendo clic en Admin en el encabezado superior de Adobe Analytics.
+* Admin Console de Analytics: Utilice esta área para el grupo de informes y la administración de variables. It can be accessed by clicking [!UICONTROL Admin] in the top header of Adobe Analytics.
 
 Esta guía describe:
 
