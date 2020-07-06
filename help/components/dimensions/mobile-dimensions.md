@@ -2,7 +2,7 @@
 title: Dimensiones móviles
 description: Dimensiones basadas en la cadena de usuario-agente del dispositivo.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -18,11 +18,13 @@ Las dimensiones móviles proporcionan una visión detallada de las propiedades d
 
 ## Rellenar estas dimensiones con datos
 
-Estas dimensiones hacen referencia a reglas de búsqueda internas de Adobe. El valor de búsqueda se basa en el encabezado `User-Agent` HTTP enviado con la visita. Adobe se asocia con [DeviceAtlas](https://deviceatlas.com/) para mantener búsquedas entre agentes de usuario y dimensiones móviles. Si utiliza una biblioteca de AppMeasurement (por ejemplo, a través de Adobe Experience Platform Launch), todas las dimensiones móviles funcionan de forma predeterminada.
+Estas dimensiones hacen referencia a reglas de búsqueda internas de Adobe. El valor de búsqueda se basa en el encabezado `User-Agent` HTTP enviado con la visita. Adobe se asocia con [DeviceAtlas](https://deviceatlas.com/) para mantener búsquedas entre agentes de usuario y dimensiones móviles. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), todas las dimensiones móviles funcionarán de forma predeterminada.
 
 ## Descripciones de dimensiones móviles
 
->[!NOTE] Los valores de dimensión etiquetados `"None"` son dispositivos no móviles. Si desea un informe que solo incluya dispositivos móviles, arrastre la dimensión &quot;Dispositivo móvil&quot; al área de segmentos del lienzo del espacio de trabajo.
+>[!NOTE]
+>
+>Los valores de dimensión etiquetados `"None"` son dispositivos no móviles. Si desea un informe que solo incluya dispositivos móviles, arrastre la dimensión &quot;Dispositivo móvil&quot; al área de segmentos del lienzo del espacio de trabajo.
 
 * **Compatibilidad** con audio móvil: Determina los formatos de archivo que puede reproducir el dispositivo. Los valores de ejemplo incluyen `"MP3"`, `"AAC"`y `"MIDI Monophonic"`. Los valores de esta dimensión no se excluyen mutuamente; una sola visita puede atribuirse a varios valores de dimensión.
 * **Portadora** móvil: Si el agente de usuario contiene un dispositivo específico de portadora, el portador es un valor de dimensión. Los valores de ejemplo incluyen `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`y `"Verizon"`.
