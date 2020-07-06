@@ -2,8 +2,11 @@
 description: En esta página se enumeran todas las variables de socio en Data Connectors (anteriormente conocido como Genesis) que podrían contener datos directa o indirectamente identificables de sus interesados.
 title: Privacidad de datos y Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '436'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Esta información le permite identificar todos los datos directa o indirectament
 
 Si utiliza una integración de cualquiera de los conectores siguientes, simplemente puede comprobar qué clasificaciones/variables asociadas en su integración podrían contener datos directa o indirectamente identificables.
 
->[!NOTE] Esta información se proporciona para ayudarle a identificar las variables que se deben [etiquetar](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), pero es usted como responsable del tratamiento de datos el que debe aplicar las etiquetas adecuadas o llevar a cabo otras acciones pertinentes para preparar correctamente [el cumplimiento de la privacidad de datos](/help/admin/c-data-governance/an-gdpr-overview.md) (actualizar clasificaciones, etc.).
+>[!NOTE]
+>
+>Esta información se proporciona para ayudarle a identificar las variables que se deben [etiquetar](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), pero es usted como responsable del tratamiento de datos el que debe aplicar las etiquetas adecuadas o llevar a cabo otras acciones pertinentes para preparar correctamente [el cumplimiento de la privacidad de datos](/help/admin/c-data-governance/an-gdpr-overview.md) (actualizar clasificaciones, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
