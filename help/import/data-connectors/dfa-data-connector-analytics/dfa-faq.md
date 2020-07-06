@@ -5,7 +5,10 @@ title: Preguntas frecuentes
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Si ya han transcurrido más de 3 días y aún no ha recibido el correo electrón
 
 Por ejemplo, imaginemos que existe una integración en el Grupo de informes A con el ID del Anunciante Z al que se asigna un CSID. Si posteriormente se configura otra integración en el Grupo de informes B con el Anunciante Z, esta integración más nueva NO se reasignará al CSID. Esto requeriría un ticket de Google. Por otro lado, tomemos el ejemplo de una integración en el Grupo de informes A, con el ID del Anunciante Z, y luego otra integración en el Grupo de informes A, se configura el Anunciante Z. Solamente la primera integración recibirá datos para la integración. No obstante, en este caso, la primera integración se puede desactivar y los datos fluirán a la segunda integración.
 
->[!NOTE] Los CSID no se usan en la versión 2.0 de la integración y por lo tanto no se aplica el proceso de negociación de CSID.
+>[!NOTE]
+>
+>Los CSID no se usan en la versión 2.0 de la integración y por lo tanto no se aplica el proceso de negociación de CSID.
 
 ## Estoy usando la versión 2.0 de la integración y las métricas de coste no están apareciendo para mis anuncios de DFA. ¿A qué podría deberse? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
