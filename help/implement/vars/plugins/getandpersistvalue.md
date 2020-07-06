@@ -1,15 +1,20 @@
 ---
 title: getAndPersistValue
 description: Almacene un valor que pueda utilizarse posteriormente en cualquier momento.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '927'
+ht-degree: 100%
 
 ---
 
 
 # Complemento de Adobe: getAndPersistValue
 
->[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `getAndPersistValue` le permite almacenar un valor en una cookie que se puede utilizar más adelante durante una visita. Cumple una función similar a la de [!UICONTROL duración del almacenamiento] en Adobe Experience Platform Launch. Adobe recomienda utilizar este complemento si desea mantener automáticamente una variable de Analytics con el mismo valor en las visitas posteriores después de configurar la variable. Este complemento no es necesario si la función de [!UICONTROL duración del almacenamiento] de Launch es suficiente o si no es necesario establecer y mantener variables con el mismo valor en las visitas posteriores. La persistencia integrada de eVars no requiere el uso de este complemento, ya que Adobe mantiene estas variables en el lado del servidor.
 
