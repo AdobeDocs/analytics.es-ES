@@ -4,7 +4,10 @@ title: Detección de anomalías
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ Algunos ejemplos de anomalías que puede investigar son:
 * Picos en los eventos de almacenamiento de vídeo
 * Picos en tasas de bits de vídeo bajas
 
->[!NOTE] La detección de anomalías está disponible únicamente cuando selecciona la granularidad de día.
+>[!NOTE]
+>
+>La detección de anomalías está disponible únicamente cuando selecciona la granularidad de día.
 
 <p class="head"> <b>Métricas de detección de anomalías</b> </p>
 
