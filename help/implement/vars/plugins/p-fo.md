@@ -1,15 +1,20 @@
 ---
 title: p_fo (Page First Only)
 description: Asegure que determinadas rutinas se activen solo una vez por página.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '621'
+ht-degree: 100%
 
 ---
 
 
 # Complemento de Adobe: p_fo (Page First Only)
 
->[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `p_fo` es una utilidad que comprueba la existencia de un objeto JavaScript específico. Si el objeto no existe, el complemento crea el objeto y lo devuelve `true`. Si el objeto JavaScript ya existe en la página, devuelve `false`. Este complemento es útil para ejecutar código solo una vez en una página. Otros complementos dependen de este código para funcionar. Este complemento no es necesario si no le preocupa la cantidad de veces que se ejecuta el código en una página o si no utiliza ningún complemento dependiente.
 
