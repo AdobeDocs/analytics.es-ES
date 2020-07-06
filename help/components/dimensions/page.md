@@ -2,7 +2,7 @@
 title: Página
 description: Nombre de la página.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -24,4 +24,6 @@ Esta dimensión recupera datos de la cadena [`pageName` de](/help/implement/vali
 
 Los valores de dimensión incluyen los nombres de las páginas del sitio. Su organización determina qué valores de dimensión específicos desea utilizar. Algunas organizaciones utilizan directamente `document.title`, mientras que otras formulan una ruta de exploración personalizada. Sea cual sea el método que utilice, asegúrese de que sea coherente y de que lo grabe en un documento [de diseño de](/help/implement/prepare/solution-design.md)solución.
 
->[!NOTE] En Informes y análisis, las métricas de conversión utilizan la atribución lineal para esta dimensión. For example, revenue is split between all pages viewed in a visit before a `purchase` event. Análisis Workspace utiliza la última atribución de forma predeterminada, con la opción de utilizar cualquier modelo de atribución.
+>[!NOTE]
+>
+>En Informes y Analytics, las métricas de conversión utilizan la atribución lineal para esta dimensión. For example, revenue is split between all pages viewed in a visit before a `purchase` event. Analysis Workspace utiliza la última atribución de forma predeterminada, con la opción de utilizar cualquier modelo de atribución.
