@@ -2,8 +2,11 @@
 description: 'null'
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1383'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +17,7 @@ Puede elegir crear un proyecto a partir de:
 
 * **Proyecto en blanco (predeterminado)**: para obtener instrucciones, consulte [Creación de un proyecto de Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md).
 * **Plantilla estándar**: estas plantillas son creadas por Adobe y se envían con el producto.
-* **Plantilla personalizada**: estas plantillas pueden ser creadas, compartidas o eliminadas por usuarios con derechos de administrador o por usuarios que no sean administradores, siempre que se les haya otorgado el permiso [!UICONTROL Analysis Workspace: Save as Template] en Admin Console. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-console/permissions/product-profile.html)
+* **Plantilla** personalizada: Estas plantillas las pueden crear, compartir o eliminar usuarios con derechos de administrador o usuarios que no sean administradores, siempre que se les haya concedido el [!UICONTROL Analysis Workspace: Guardar como plantilla] en Admin Console. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -23,7 +26,7 @@ Puede elegir crear un proyecto a partir de:
 Los usuarios que tengan derechos de administrador pueden convertir cualquier proyecto que creen en una plantilla personalizada. A continuación se muestra cómo:
 
 1. Abra el proyecto.
-1. Vaya a **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
+1. Vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Guardar como plantilla]**.
 
    ![](assets/save_project_template.png)
 
@@ -31,7 +34,7 @@ Los usuarios que tengan derechos de administrador pueden convertir cualquier pro
 
    >[!NOTE]
    >
-   >De forma predeterminada, las plantillas de proyecto son visibles para todos los miembros de su organización. Puede ordenarlas mediante etiquetas. (Vaya a **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** para editar etiquetas y descripciones).
+   >De forma predeterminada, las plantillas de proyecto son visibles para todos los miembros de su organización. Puede ordenarlas mediante etiquetas. (Vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Información y configuración del proyecto]** para editar las etiquetas y las descripciones).
 
 ### Acciones que se pueden llevar a cabo en las plantillas personalizadas
 
@@ -110,7 +113,9 @@ Estas plantillas estándar le guían a través de la terminología común y de l
 
 ### Personas
 
->[!NOTE] La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/es-ES/device-co-op/using/data/people.html).
+>[!NOTE]
+>
+>La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/es-ES/device-co-op/using/data/people.html).
 
 Esta plantilla se basa en la métrica Personas que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. Esta plantilla le permite hacer lo siguiente:
 
@@ -129,14 +134,14 @@ Esta plantilla se basa en la métrica Personas que es una versión deduplicada d
 Esta plantilla le permite ver datos de rendimiento vitales entre dispositivos. Solo está disponible para clientes que tienen acceso al [análisis entre dispositivos](https://docs.adobe.com/content/help/es-ES/analytics/components/cda/cda-home.html) (CDA).
 
 * **Nota especial para los miembros del gráfico de cooperación**: muestra qué parte del grupo de informes contiene visitantes en regiones donde se admite el gráfico de cooperación y en regiones donde no se admite.
-* **Identificación de los usuarios**: muestra la frecuencia con la que se identifican los visitantes del sitio mediante métodos basados en análisis entre dispositivos.
-* **Medición del tamaño de la audiencia**: muestra una comparación de &#39;Dispositivos únicos&#39; comparados con &#39;Personas&#39;. La proporción de estos dos números se conoce como &#39;compresión entre dispositivos&#39;, una métrica calculada visible en este panel. Esta métrica de compresión depende de una amplia gama de factores:
+* **Identificación de los usuarios**: muestra la frecuencia con la que se identifican los visitantes del sitio mediante métodos basados en el análisis entre dispositivos.
+* **Medición del tamaño de la audiencia**: muestra una comparación de &#39;Dispositivos únicos&#39; con &#39;Personas&#39;. La proporción de estos dos números se conoce como &#39;compresión entre dispositivos&#39;, una métrica calculada visible en este panel. Esta métrica de compresión depende de una amplia gama de factores:
    * **Uso del gráfico de colaboración o del gráfico privado**: en términos generales, las organizaciones que utilizan la colaboración entre dispositivos tienden a ver mejores tasas de compresión que las organizaciones que utilizan el gráfico privado.
    * **Velocidad de inicio de sesión**: cuantos más usuarios inicien sesión en el sitio, más podrá Adobe identificar y unir a los visitantes entre dispositivos. Los sitios con una tasa de inicio de sesión baja también tienen tasas de compresión bajas.
    * **Cobertura de Experience Cloud ID**: solo se pueden vincular los visitantes con un ECID. Un porcentaje menor de visitantes que utilizan un ECID se correlaciona con tasas de compresión más bajas.
    * **Uso de varios dispositivos**: si los visitantes del sitio no utilizan varios dispositivos, puede ver tasas de compresión más bajas.
    * **Granularidad de informes**: la compresión por día suele ser menor que la compresión por mes o año. Las posibilidades de que un individuo utilice varios dispositivos se reducen en un solo día en comparación con todo un mes. Segmentar, filtrar o utilizar dimensiones de desglose también puede mostrar una tasa de compresión más baja.
-* **Segmentos basados en personas**: contiene una lista desplegable de segmentos que le permite vista de datos específicos del dispositivo. Este panel alienta la experimentación con segmentos para ver cómo la inclusión o exclusión de tipos de dispositivos afecta a los informes.
-* **Análisis del recorrido entre dispositivos**: proporciona informes de flujo y de visitas en el orden previsto en función del tipo de dispositivo.
-* **Atribución entre dispositivos**: combinar las características de Journey IQ y Attribution IQ juntos.
-* **Otros consejos y trucos**: temas útiles en torno a CDA que le permite aprovechar al máximo su uso.
+* **Segmentos basados en personas**: contiene una lista desplegable de segmentos que le permite ver datos específicos del dispositivo. Este panel promueve la experimentación con segmentos para ver cómo la inclusión o la exclusión de tipos de dispositivos afectan los informes.
+* **Análisis del viaje entre dispositivos**: proporciona informes de flujo y visitas en el orden previsto en función del tipo de dispositivo.
+* **Atribución entre dispositivos**: combine las características de Journey IQ y Attribution IQ.
+* **Otros consejos y trucos**: temas útiles en torno a CDA que le permite aprovecharlo al máximo.
