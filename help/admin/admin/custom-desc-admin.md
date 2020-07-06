@@ -4,7 +4,10 @@ title: Descripciones personalizadas de informe
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Puede proporcionar descripciones personalizadas de informe para eVars, propiedad
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL *variable *]**
 
->[!NOTE] En la actualidad, está disponible la adición de descripciones para las clasificaciones más tradicionales, pero no para las clasificaciones móviles.
+>[!NOTE]
+>
+>En la actualidad, está disponible la adición de descripciones para las clasificaciones más tradicionales, pero no para las clasificaciones móviles.
 
 ![](assets/report_descriptions.png)
 
