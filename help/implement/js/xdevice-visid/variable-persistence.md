@@ -4,15 +4,20 @@ keywords: Analytics Implementation
 title: Atribución y persistencia
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 100%
 
 ---
 
 
 # Atribución y persistencia
 
->[!IMPORTANT] Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Análisis entre dispositivos](/help/components/cda/cda-home.md) en la guía del usuario Componentes.
+>[!IMPORTANT]
+>
+>Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Análisis entre dispositivos](/help/components/cda/cda-home.md) en la guía del usuario Componentes.
 
 Cuando los perfiles de los visitantes se combinan después de asociarse a la misma variable de ID de visitante, la atribución no cambia en el conjunto de datos históricos.
 
@@ -40,7 +45,9 @@ En la primera conexión de datos que contenga un valor `s.visitorID` anteriormen
 * Las eVars configuradas para caducar con otras medidas se copiarán en el perfil autenticado. Observe que el valor `apple` se mantiene.
 * Para las eVars que se mantienen, no se registra ninguna métrica Instancia. Esto significa que, al usar la identificación de visitantes entre dispositivos, pueden aparecer informes donde la métrica Visitas únicas de un valor eVar sea más grande que la métrica Instancia.
 
->[!NOTE] Si un usuario es nuevo en el sitio (nunca antes lo ha visitado en este dispositivo) y se autentica en un plazo aproximado de 3 minutos tras su llegada, no se mantiene ningún valor en el perfil autenticado.
+>[!NOTE]
+>
+>Si un usuario es nuevo en el sitio (nunca antes lo ha visitado en este dispositivo) y se autentica en un plazo aproximado de 3 minutos tras su llegada, no se mantiene ningún valor en el perfil autenticado.
 
 ## Ejemplo 2
 
