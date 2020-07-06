@@ -3,7 +3,7 @@ description: Un histograma es un nuevo tipo de visualización en Analysis Worksp
 title: Histograma
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 97%
@@ -25,7 +25,9 @@ Para crear un histograma:
 
 ![](assets/histogram.png)
 
->[!NOTE] Los histogramas únicamente admiten métricas estándar, pero no métricas calculadas.
+>[!NOTE]
+>
+>Los histogramas únicamente admiten métricas estándar, pero no métricas calculadas.
 
 Aquí hemos utilizado la métrica Vistas de página por Visitantes únicos. El primer contenedor (izquierda) corresponde a 1 vista de página por visitante único, el segundo bloque a dos vistas de página, etcétera.
 
