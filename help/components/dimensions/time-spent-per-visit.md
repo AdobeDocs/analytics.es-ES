@@ -2,7 +2,7 @@
 title: Tiempo empleado por visita
 description: Cantidad total de tiempo que tardó la visita.
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -22,7 +22,9 @@ Las dimensiones &#39;Tiempo empleado por visita&#39; registran la cantidad de ti
 
 Estas dimensiones son valiosas cuando desea comprender cuánto tiempo interactúan los visitantes con el sitio en general.
 
->[!TIP] El tiempo empleado requiere al menos dos visitas en una visita para medir el tiempo. Las visitas que consisten en una sola visita no aparecen en esta dimensión.
+>[!TIP]
+>
+>El tiempo empleado requiere al menos dos visitas en una visita para medir el tiempo. Las visitas que consisten en una sola visita no aparecen en esta dimensión.
 
 Esta dimensión se basa en visitas, lo que significa que el valor se aplica a cada visita individual dentro de la visita y no cambia. Compare esta dimensión con el [Tiempo empleado en la página](time-spent-on-page.md), que es una dimensión basada en visitas individuales.
 
@@ -37,6 +39,6 @@ Estas dimensiones funcionan de forma predeterminada para todas las implementacio
 Existen varias dimensiones para el tiempo empleado por visita:
 
 * **Tiempo empleado por visita - agrupado**: La cantidad de tiempo se agota. Los valores de dimensión varían de `"Less than 1 minute"` a `"More than 15 hours"`. Las visitas no suelen durar más de 12 horas; sin embargo, las visitas pueden superar las 12 horas si se utilizan visitas con marca de hora o fuentes de datos.
-* **Tiempo empleado por visita (granular**: Cada número de segundos es un valor de dimensión único. Esta dimensión no está disponible en Informes y análisis ni en el Almacén de datos.
+* **Tiempo empleado por visita (granular**: Cada número de segundos es un valor de dimensión único. Esta dimensión no está disponible en Informes y Analytics ni en Data warehouse.
 
 Consulte [Información general](../metrics/time-spent.md) sobre el tiempo empleado para obtener información más general sobre el tiempo empleado.
