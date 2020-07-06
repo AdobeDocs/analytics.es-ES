@@ -2,8 +2,11 @@
 description: 'null'
 title: Resumen de publicación en Power BI
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 100%
 
 ---
 
@@ -55,13 +58,15 @@ Los libros programados son hojas de cálculo de Excel con formato, rellenas con 
 
    ![](assets/workbooks-power-bi.png)
 
-1. Ahora puede ver los datos del tablero del libro. ![](assets/view-data-pbi.png)
+1. Ahora puede ver los datos del tablero del libro.  ![](assets/view-data-pbi.png)
 
 1. También puede anclar un área de este libro para incluirla en cualquiera de sus tableros de Power BI.
 
 ## Publicar todas las tablas con formato de un libro como tablas de conjuntos de datos de Power BI {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE] Si el libro contiene una macro, la opción “Publicar todas las tablas con formato de un libro como tablas de conjuntos de datos de Power BI” queda deshabilitada.
+>[!NOTE]
+>
+>Si el libro contiene una macro, la opción “Publicar todas las tablas con formato de un libro como tablas de conjuntos de datos de Power BI” queda deshabilitada.
 
 En vez de importar todo el libro, puede importar solo el contenido de todas las tablas con formato dentro del libro.
 
