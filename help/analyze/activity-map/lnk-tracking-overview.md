@@ -3,8 +3,11 @@ description: 'Activity Map realiza un seguimiento de los vínculos con un algori
 title: Potente seguimiento de vínculos
 topic: Activity map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Para obtener más información sobre el seguimiento de vínculos en Activity Map
 
 ## Recopilar datos PII con el seguimiento de vínculos de Activity Map {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
->[!CAUTION] Si activa el seguimiento de Activity Map, es posible que recopile información de identificación personal (PII). Dicha información se puede utilizar, tanto por sí sola como con otros datos, para identificar o localizar a una persona única, para ponerse en contacto con ella o para identificar a una persona en contexto.
+>[!CAUTION]
+>
+>Si activa el seguimiento de Activity Map, es posible que recopile información de identificación personal (PII). Dicha información se puede utilizar, tanto por sí sola como con otros datos, para identificar o localizar a una persona única, para ponerse en contacto con ella o para identificar a una persona en contexto.
 
 A continuación se indican algunos casos conocidos en los que pueden recopilarse datos PII con el seguimiento de Activity Map:
 
