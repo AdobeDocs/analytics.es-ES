@@ -3,7 +3,10 @@ description: 'null'
 title: Limitaciones y especificaciones
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Restricciones de publicación de Power BI {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE] Estas restricciones se aplican únicamente a la opción “Publicar solicitudes de Report Builder como tablas de conjuntos de datos de Power BI”.
+>[!NOTE]
+>
+> Estas restricciones se aplican únicamente a la opción “Publicar solicitudes de Report Builder como tablas de conjuntos de datos de Power BI”.
 
 * Se puede exportar a Power BI un máximo de 100 solicitudes de Report Builder por cada libro.
 * El proceso de programación detendrá las solicitudes de exportación al alcanzar la 101.ª solicitud.
@@ -20,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Editar una solicitud de Report Builder después de publicar en Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE] Esta especificación se aplica a las opciones “Publicar todas las solicitudes de Report Builder como tablas de conjunto de datos de Power BI” y “Publicar todas las tablas con formato en el libro como tablas de conjuntos de datos de Power BI”.
+>[!NOTE]
+>
+> Esta especificación se aplica a las opciones “Publicar todas las solicitudes de Report Builder como tablas de conjunto de datos de Power BI” y “Publicar todas las tablas con formato en el libro como tablas de conjuntos de datos de Power BI”.
 
 Editar una solicitud de Report Builder tras su publicación en Power BI puede causar problemas.
 
@@ -62,5 +69,5 @@ Tenga en cuenta que
 
 * La etiqueta no puede ser una combinación de letras y números que pueda confundirse con una dirección de fila o columna. Por ejemplo, no puede haber una etiqueta A100 porque es una dirección de celda en un libro.
 * Los siguientes caracteres no son válidos en las etiquetas: &quot;#&quot;, &quot;@&quot;, &quot;!&quot;, &quot;$&quot;, &quot;^&quot;, &quot;&amp;&quot;, &quot;*&quot;, &quot;`&quot;, &quot;~&quot;, &quot; &quot;. Se reemplazarán por caracteres de guion bajo.
-* Si introduce un nombre no válido, aparece un mensaje de error que le sugiere un nombre generado automáticamente. If you click **[!UICONTROL Yes]**, this name will be used. Si hace clic en **[!UICONTROL No]**, la interfaz de usuario del Asistente avanzado le permitirá introducir uno nuevo.
+* Si introduce un nombre no válido, aparece un mensaje de error que le sugiere un nombre generado automáticamente. Si hace clic en **[!UICONTROL Sí]**, se utilizará dicho nombre. Si hace clic en **[!UICONTROL No]**, la interfaz de usuario del Asistente avanzado le permitirá introducir uno nuevo.
 
