@@ -3,8 +3,11 @@ description: Los segmentos secuenciales se crean mediante el operador THEN, en l
 title: Generar segmentos secuenciales
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3842'
+ht-degree: 100%
 
 ---
 
@@ -244,7 +247,9 @@ Cree un segmento de secuencia simple arrastrando dos contenedores de [!UICONTROL
 Los contenedores de grupo lógico son necesarios para agrupar condiciones en un único punto de comprobación secuencial de segmento. El contenedor de grupo lógico especial solo está disponible en la segmentación secuencial, para garantizar que sus condiciones se cumplen después de cualquier punto de comprobación secuencial anterior y antes de cualquier punto de comprobación secuencial siguiente. Las condiciones dentro del propio punto de comprobación del grupo lógico pueden cumplirse en cualquier orden. Por otro lado, los contenedores no secuenciales (visita individual, visita, visitante) no requieren que se cumplan sus condiciones dentro de la secuencia global, lo que produce resultados poco intuitivos si se utilizan con un operador THEN.
 El contenedor de [!UICONTROL grupo lógico] fue diseñado para tratar *varios puntos de comprobación como un grupo*, *sin ningún orden* entre los puntos de comprobación agrupados. En otras palabras, no nos importa el orden de los puntos de comprobación dentro de ese grupo. Por ejemplo, no puede anidar un contenedor de [!UICONTROL visitante] dentro de un contenedor de [!UICONTROL visitante]. Sin embargo, puede anidar un contenedor de [!UICONTROL grupo lógico] dentro de un contenedor de [!UICONTROL visitante] con puntos de comprobación de niveles de [!UICONTROL visita] y [!UICONTROL visita individual] específicos.
 
->[!NOTE] Un [!UICONTROL grupo lógico] solo puede definirse en un segmento secuencial, lo cual significa que el operador [!UICONTROL THEN] se utiliza dentro de la expresión.
+>[!NOTE]
+>
+>Un [!UICONTROL grupo lógico] solo puede definirse en un segmento secuencial, lo cual significa que el operador [!UICONTROL THEN] se utiliza dentro de la expresión.
 
 | Jerarquía de contenedores | Ilustración | Definición |
 |---|---|---|
