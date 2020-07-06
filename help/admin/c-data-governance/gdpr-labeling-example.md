@@ -2,8 +2,11 @@
 description: 'null'
 title: Ejemplo de etiquetado
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ Suponga que dispone de los siguientes datos de visita:
 
 | Etiquetas | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **Nombre de la variable**<br>**(área de nombres)** | **MyProp1**<br>**(usuario)** | **ID del visitante**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **Nombre de la variable **<br>**(área de nombres)** | **MyProp1 **<br>**(usuario)** | **ID del visitante **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | Datos de visita | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -36,7 +39,7 @@ Si envío una solicitud de acceso, el archivo de resumen contendrá los valores 
 
 | Valores de API | Valores de API | Tipo de archivo devuelto | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> | Datos en el archivo de acceso de resumen<br> |
 |--- |--- |--- |---|---|---|---|---|
-| **Espacio de nombres/ID** | **expandIDs** | | **MyProp1** | **Visitor ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
+| **Espacio de nombres/ ID** | **expandIDs** |  | **MyProp1** | **Visitor ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | dispositivo | Variable no presente | 77 | Variable no presente | M, P | X, W |
 | AAID=77 | true | dispositivo | Variable no presente | 77 | Variable no presente | M, P | X, W |
 | user=Mary | false | contenedor | Mary | 77, 88, 99 | A, B, C | M, N, O | X, Y, Z |
@@ -65,7 +68,9 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Solo se ven afectadas las celdas de las filas que contienen AAID = 77 y una etiqueta DEL-DEVICE.
+>[!NOTE]
+>
+>Solo se ven afectadas las celdas de las filas que contienen AAID = 77 y una etiqueta DEL-DEVICE.
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -79,7 +84,9 @@ Con una solicitud de eliminación que utiliza valores de API en la primera fila 
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] Solo se ven afectadas las celdas de las filas que contienen user=Mary y una etiqueta DEL-PERSON. Además, en la práctica, la variable que contiene A_ID probablemente sería una prop o eVar y su valor de sustitución sería una cadena que empiece por “Privacidad-”, seguida por un número aleatorio (GUID), en lugar de sustituir el valor numérico con un valor numérico aleatorio diferente.
+>[!NOTE]
+>
+>Solo se ven afectadas las celdas de las filas que contienen user=Mary y una etiqueta DEL-PERSON. Además, en la práctica, la variable que contiene A_ID probablemente sería una prop o eVar y su valor de sustitución sería una cadena que empiece por “Privacidad-”, seguida por un número aleatorio (GUID), en lugar de sustituir el valor numérico con un valor numérico aleatorio diferente.
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
