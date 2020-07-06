@@ -5,7 +5,10 @@ title: Pruebas estadísticas utilizadas en la comparación de segmentos
 topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 100%
 
 ---
 
@@ -24,4 +27,6 @@ En la tabla de métricas principales, la herramienta Comparación de segmentos u
 
 Para calcular la puntuación de diferencia en las tablas de elementos de dimensión principales y diferencia de segmentos principales, se utiliza un algoritmo de diferencia de riesgo relativo (parecido al cociente de riesgo, aunque con una diferencia en lugar de un cociente). La diferencia de riesgo se calcula restando las incidencias acumulativas de un elemento de dimensión (o de superposición con un segmento de la tabla de segmentos) de un segmento seleccionado del otro. Una puntuación de diferencia alta (cercana a 1) significa que el elemento de dimensión particular o el segmento terciario fue muy relevante en uno de los segmentos seleccionados y no en el otro.
 
->[!NOTE] En las tres tablas, la estadística de diferencia está basada en una muestra de visitantes adecuada para que el proceso vaya tan rápido como sea posible sin perder la precisión estadística. Mientras que la puntuación de diferencia está basada en una muestra, los resultados presentados en la tabla no son muestras. Para garantizar la relevancia estadística, cada prueba estadística se basa en un algoritmo de asignación dinámica de modo que incluso el segmento más pequeño contiene un tamaño de muestra que ofrece un margen de error inferior al 3 %. Si un segmento contiene muy pocos visitantes (menos de 1 000), se utilizan todos los datos disponibles y no se realiza una muestra al calcular la puntuación de diferencia.
+>[!NOTE]
+>
+>En las tres tablas, la estadística de diferencia está basada en una muestra de visitantes adecuada para que el proceso vaya tan rápido como sea posible sin perder la precisión estadística. Mientras que la puntuación de diferencia está basada en una muestra, los resultados presentados en la tabla no son muestras. Para garantizar la relevancia estadística, cada prueba estadística se basa en un algoritmo de asignación dinámica de modo que incluso el segmento más pequeño contiene un tamaño de muestra que ofrece un margen de error inferior al 3 %. Si un segmento contiene muy pocos visitantes (menos de 1 000), se utilizan todos los datos disponibles y no se realiza una muestra al calcular la puntuación de diferencia.
