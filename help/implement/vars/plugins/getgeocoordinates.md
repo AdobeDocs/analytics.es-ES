@@ -1,15 +1,20 @@
 ---
 title: getGeoCoordinates
 description: Rastree la geolocalización de un visitante.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 100%
 
 ---
 
 
 # Complemento de Adobe: getGeoCoordinates
 
->[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `getGeoCoordinates` le permite registrar la latitud y la longitud de los dispositivos de los visitantes. Adobe recomienda utilizar este complemento si desea obtener datos de localización geográfica en variables de Analytics.
 
@@ -59,7 +64,9 @@ El método `getGeoCoordinates` no utiliza ningún argumento. Devuelve uno de los
 * `"error retrieving geo coordinates"`: Cuando el complemento encuentra algún error al intentar recuperar la ubicación del dispositivo.
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`: Donde [LATITUDE]/[LONGITUDE] representan la latitud y la longitud, respectivamente.
 
->[!NOTE] Los valores de coordenadas se redondean al cuarto decimal más cercano. Por ejemplo, el valor de `"40.438635333"` se redondea a `"40.4386"` para limitar el número de valores únicos registrados. Los valores están lo suficientemente cerca como para señalar la ubicación exacta del dispositivo a unos 6 metros.
+>[!NOTE]
+>
+>Los valores de coordenadas se redondean al cuarto decimal más cercano. Por ejemplo, el valor de `"40.438635333"` se redondea a `"40.4386"` para limitar el número de valores únicos registrados. Los valores están lo suficientemente cerca como para señalar la ubicación exacta del dispositivo a unos 6 metros.
 
 Este complemento utiliza una cookie denominada `"s_ggc"` para almacenar las coordenadas entre cada visita si fuese necesario.
 
