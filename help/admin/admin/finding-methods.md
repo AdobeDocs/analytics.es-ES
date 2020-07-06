@@ -4,7 +4,10 @@ title: Métodos de búsqueda
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 100%
 
 ---
 
@@ -52,5 +55,7 @@ La página Métodos de localización identifica la manera en que los diversos in
  </tbody> 
 </table>
 
->[!NOTE] Todos los métodos de búsqueda caducan al finalizar la visita. Si elige que caduque después de un evento distinto (por ejemplo, con el cierre de compra del carro), el método de búsqueda caducará cuando se produzca el cierre de compra, durante la visita. Si no se produce el cierre de compra durante la visita, el método de búsqueda caducará cuando la visita finalice.
+>[!NOTE]
+>
+>Todos los métodos de búsqueda caducan al finalizar la visita. Si elige que caduque después de un evento distinto (por ejemplo, con el cierre de compra del carro), el método de búsqueda caducará cuando se produzca el cierre de compra, durante la visita. Si no se produce el cierre de compra durante la visita, el método de búsqueda caducará cuando la visita finalice.
 
