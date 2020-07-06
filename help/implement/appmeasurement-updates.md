@@ -3,7 +3,10 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +105,9 @@ Esta versión garantiza el envío correcto de las cookies de la biblioteca de [!
 
 Fecha de versión: **24 de mayo de 2018**
 
->[!NOTE] En el caso de los clientes que utilicen el servicio de [!DNL Experience Cloud] ID, se necesita la API de visitantes 3.0 o una versión posterior. Adobe recomienda actualizar a la última versión de la API de visitantes cada vez que se actualicen las bibliotecas de código asociadas ( [!DNL at.js], etc.) [!DNL AppMeasurement.js].
+>[!NOTE]
+>
+>En el caso de los clientes que utilicen el servicio de [!DNL Experience Cloud] ID, se necesita la API de visitantes 3.0 o una versión posterior. Adobe recomienda actualizar a la última versión de la API de visitantes cada vez que se actualicen las bibliotecas de código asociadas ([!DNL at.js], etc.).[!DNL AppMeasurement.js]
 
 * Se ha actualizado [!DNL AppMeasurement] para utilizar la interfaz de Visitante actualizada para solicitar los ID. (AN-151483)
 * Se ha solucionado un problema que causaba que la cookie de seguimiento seguía escribiéndose tras desactivar el seguimiento de enlaces. (AN-156332)
@@ -216,7 +221,9 @@ Actualizado: **18 de agosto de 2016**
 * [!DNL AppMeasurement] actualizado que permite leer y escribir cookies AMCV. (AN-127098)
 * Inclusión de la API de Visitante 1.7.0.
 
->[!NOTE] También puede consultar las notas siguientes de la versión 1.6.3 de [!DNL JavaScript], que incluyen requisitos actualizados para el servicio de Experience Cloud ID.
+>[!NOTE]
+>
+>También puede consultar las notas siguientes de la versión 1.6.3 de [!DNL JavaScript], que incluyen requisitos actualizados para el servicio de Experience Cloud ID.
 
 ## Versión 1.6.3
 
@@ -224,7 +231,9 @@ Actualizado: **4 de agosto de 2016**
 
 * Se ha corregido un problema en el que [!DNL AppMeasurement] finalizaba de forma prematura las conexiones de solicitud. (AN-126448)
 
->[!IMPORTANT]La versión 1.6.0 del servicio de [!DNL Experience Cloud] ID *requiere* [!DNL AppMeasurement] compatible con la versión 1.6.3 o superiores de [!DNL JavaScript]. Si desea actualizar el servicio de Experience Cloud ID a la versión 1.6.0, compruebe que está utilizando la versión de código 1.6.3 o superior de [!DNL AppMeasurement].
+>[!IMPORTANT]
+>
+>La versión 1.6.0 del servicio de [!DNL Experience Cloud] ID *requiere* [!DNL AppMeasurement] compatible con la versión 1.6.3 o superiores de [!DNL JavaScript]. Si desea actualizar el servicio de Experience Cloud ID a la versión 1.6.0, compruebe que está utilizando la versión de código 1.6.3 o superior de [!DNL AppMeasurement].
 
 ## Versión 1.6.2
 
@@ -293,7 +302,9 @@ Fecha de versión: **21 de mayo de 2015**
 * Inclusión de la API de visitante 1.4.
 * Se ha actualizado el módulo AudienceManagement para que utilice DIL versión 6.0.
 
->[!NOTE] **Problema conocido**: En las integraciones del módulo API de visitante/[!DNL AppMeasurement] de [!DNL Audience Manager], hay dos solicitudes de iFrame de publicación de destino realizadas en IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` y `//fast.<subdomain>.demdex.net/dest4.html`. El comportamiento correcto, tal como se ha observado en otros exploradores, es cargar únicamente `//fast.<subdomain>.demdex.net/dest5.html`.
+>[!NOTE]
+>
+>**Problema conocido**: En las integraciones del módulo API de visitante/[!DNL AppMeasurement] de [!DNL Audience Manager], hay dos solicitudes de iFrame de publicación de destino realizadas en IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` y `//fast.<subdomain>.demdex.net/dest4.html`. El comportamiento correcto, tal como se ha observado en otros exploradores, es cargar únicamente `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## Versión 1.4.4
 
@@ -349,7 +360,9 @@ Fecha de versión: **21 de agosto de 2014**
 * Adición del módulo **[!UICONTROL AudienceManagement]** en el zip de descarga.
 * Se ha agregado compatibilidad con eVars (76 - 250) y eventos (101-1000) adicionales.
 
->[!NOTE] El código H no admite los eventos y eVars adicionales.
+>[!NOTE]
+>
+>El código H no admite los eventos y eVars adicionales.
 
 ## Versión 1.3.2
 
