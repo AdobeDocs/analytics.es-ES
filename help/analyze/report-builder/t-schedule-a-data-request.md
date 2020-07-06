@@ -4,7 +4,10 @@ title: Programar una solicitud de datos
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,15 @@ Puede programar libros de trabajo, especificar opciones de entrega avanzadas, de
 
 Por ejemplo, los libros de trabajo se pueden programar para enviarse inmediatamente o en una programación recurrente, así como especificar el formato de archivo en [!DNL Advanced Delivery Options]. No es posible cargar archivos de libros de trabajo que superen los 5 MB.
 
-Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (Consulte [Programación y distribución de informes](/help/analyze/reports-analytics/scheduling.md) en la ayuda de Reports &amp; Analytics).
+Además, después de crear una programación de libro de trabajo en Report Builder, puede visualizarse y editarse en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**. (Consulte [Programación y distribución de informes](/help/analyze/reports-analytics/scheduling.md) en la ayuda de Reports &amp; Analytics).
 
->[!NOTE] Para poder programar un libro de trabajo, debe disponer de Excel 2007 o tener el paquete de compatibilidad instalado. Puede tener un máximo de 10 libros programados por cada licencia de Report Builder. Sin embargo, puede aumentar este número si resta de otras licencias. Para ello, vaya a **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**. Un libro que se ha programado (o cargado a la Biblioteca de libros) y no se ha tocado (actualizado, reemplazado) en más de 28 meses se eliminará.
+>[!NOTE]
+>
+>Para poder programar un libro de trabajo, debe disponer de Excel 2007 o tener el paquete de compatibilidad instalado. Puede tener un máximo de 10 libros programados por cada licencia de Report Builder. Sin embargo, puede aumentar este número si resta de otras licencias. Para hacerlo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Informes de Report Builder]**. Un libro que se ha programado (o cargado a la Biblioteca de libros) y no se ha tocado (actualizado, reemplazado) en más de 28 meses se eliminará.
 
->[!NOTE] La “Hora de envío”/“Hora del día” introducida por el usuario especifica la hora en que el libro debe comenzar a procesarse, no la hora en que se enviará. El momento real en el que se enviará el libro se basa principalmente en el tiempo que tarda en procesarse (los libros de trabajo grandes y complejos tardan más en procesarse que los libros más simples). Por ejemplo, si un libro tarda 15 minutos en procesarse, la hora de entrega real será al menos 15 minutos después de la hora de entrega u hora del día especificadas originalmente.
+>[!NOTE]
+>
+>La “Hora de envío”/“Hora del día” introducida por el usuario especifica la hora en que el libro debe comenzar a procesarse, no la hora en que se enviará. El momento real en el que se enviará el libro se basa principalmente en el tiempo que tarda en procesarse (los libros de trabajo grandes y complejos tardan más en procesarse que los libros más simples). Por ejemplo, si un libro tarda 15 minutos en procesarse, la hora de entrega real será al menos 15 minutos después de la hora de entrega u hora del día especificadas originalmente.
 >Además, hay otros factores que pueden aumentar aún más el retraso antes de que se envíe el libro de trabajo:
 >
 > * **La ejecución de muchas programaciones diferentes del mismo tipo al mismo tiempo** puede sobrecargar el sistema. El sistema de programación solo permite que se ejecuten simultáneamente algunos libros de trabajo (5-10) de cualquier tipo, por lo que cuando se programen más de 5-10 a la vez, algunos tendrán que esperar en la línea para que otros libros terminen antes de que puedan empezar a procesarse. Este problema se puede mitigar programando los libros de trabajo de una empresa en horas escalonadas durante el día o la hora, en lugar de hacerlo simultáneamente.
@@ -31,15 +38,15 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 ## Programar un libro
 
 1. Genere y guarde un libro de trabajo.
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
+1. En la barra de herramientas de Report Builder, haga clic en **[!UICONTROL Programar]**.
 
-   The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks.
-1. En la **[!UICONTROL Scheduled Reports]** ficha, haga clic en **[!UICONTROL New]**.
+   La ficha [!UICONTROL Informes programados] resume todas las tareas que se han creado, así como el número de tareas restantes.
+1. En la ficha **[!UICONTROL Informes programados]**, haga clic en **[!UICONTROL Nuevo]**.
 1. El Asistente de programación básico muestra:
 
    ![](assets/simple-schedule-wizard.png)
 
-1. En el [!UICONTROL Basic Scheduling Wizard], configure las siguientes opciones:
+1. En el [!UICONTROL Asistente de programación básico], configure las siguientes opciones:
 
 | Campo | Descripción |
 |--- |--- |
@@ -55,7 +62,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 ## Opciones de envío avanzadas
 
-1. Haga clic **[!UICONTROL Advanced Delivery Options]** para configurar las opciones de archivo y publicación:
+1. Haga clic en **[!UICONTROL Opciones de envío avanzadas]** para configurar las opciones de archivo y publicación:
 
 | Campo | Descripción |
 |--- |--- |
@@ -72,7 +79,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | Publicación en Power BI | <ul><li>Publicar libro de trabajo en Power BI</li><li>Publicar todas las solicitudes de Report Builder como conjuntos de datos de Power BI</li><li>Publicar todas las tablas con formato como conjuntos de datos de Power BI</li></ul> |
 | Etiquetar este informe de Power BI como | Detalles de etiquetado |
 
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
+1. Haga clic en **[!UICONTROL Aceptar]** y, a continuación, en **[!UICONTROL Salir]**.
 
    Report Builder muestra el libro de trabajo programado en el [Administrador de tareas programadas](/help/analyze/report-builder/r-arb-scheduled-reports.md).
 
