@@ -2,7 +2,7 @@
 title: Configurar una cuenta publicitaria
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 81%
@@ -81,7 +81,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Report Suite  Asignación </p> </td> 
+      <td colname="col1"> <p>Asignación de grupos de informes </p> </td> 
       <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
       </tr> 
     </tbody> 
@@ -92,5 +92,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
 
    Ahora se le dirigirá a la [IU de administración](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md) de cuentas publicitarias, en que se incluirá su cuenta recién creada.
 
->[!NOTE] Los datos del motor de búsqueda suelen tardar un mínimo de 24 horas en propagarse a los informes de Analytics.
+>[!NOTE]
+>
+>Los datos del motor de búsqueda suelen tardar un mínimo de 24 horas en propagarse a los informes de Analytics.
 
