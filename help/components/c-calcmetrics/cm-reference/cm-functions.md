@@ -2,8 +2,11 @@
 description: El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
 title: 'Referencia: funciones básicas'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ El Creador de métricas calculadas permite aplicar funciones estadísticas y mat
 
 Aquí se encuentra una lista alfabética de las funciones y sus definiciones.
 
->[!NOTE] Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [!DNL MAXV(metrics)] también permite [!DNL MAXV(PageViews + Visits).]
+>[!NOTE]
+>
+>Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [!DNL MAXV(metrics)] también permite [!DNL MAXV(PageViews + Visits).]
 
 ## Funciones de tabla en comparación con funciones de fila {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -214,7 +219,7 @@ ROUND(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *número* | La métrica que desee redondear. |
+| *entero* | La métrica que desee redondear. |
 
 Redondear sin un parámetro de dígito es lo mismo que redondear con un parámetro de dígito de 0, es decir, redondear al entero más próximo. Con un parámetro de dígito devuelve ese número de dígitos a la derecha del decimal. Si el dígito es negativo, devuelve ceros a la izquierda del decimal.
 
@@ -251,7 +256,7 @@ SQRT(metric)
 
 | Argumento | Descripción |
 |---|---|
-| *número* | La métrica de la cual desea la raíz cuadrada. |
+| *entero* | La métrica de la cual desea la raíz cuadrada. |
 
 ## Desviación estándar (Tabla) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
 
