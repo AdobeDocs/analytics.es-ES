@@ -5,7 +5,10 @@ title: Usar marcas de hora opcionales
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ Marcas de hora opcionales es la configuración predeterminada para todos los gru
 * Envíe datos con marca de hora de una aplicación móvil a un grupo de informes globales.
 * Actualice las aplicaciones para usar marcas de hora sin tener que crear un nuevo grupo de informes.
 
->[!NOTE] Marcas de hora opcionales es la configuración predeterminada para todos los nuevos grupos de informes generados a partir de una plantilla. Los nuevos grupos de informes copiados de un grupo de informes existente heredarán la configuración del original.
+>[!NOTE]
+>
+>Marcas de hora opcionales es la configuración predeterminada para todos los nuevos grupos de informes generados a partir de una plantilla. Los nuevos grupos de informes copiados de un grupo de informes existente heredarán la configuración del original.
 
 Consulte [Marcas de hora opcionales](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/timestamp-optional.html) para obtener información adicional sobre configuración.
 
@@ -52,7 +57,9 @@ Marcas de hora opcionales permite integrar varios grupos de informes, y crear in
 
 La combinación de datos en un grupo de informes global se puede realizar de varias maneras, incluido el etiquetado de grupos múltiples, las reglas de Vista y archivos por lotes importados de orígenes sin conexión.
 
->[!IMPORTANT] Planifique cuidadosamente el diseño de cada conjunto de datos componente para que la combinación tenga sentido en un grupo de informes global.
+>[!IMPORTANT]
+>
+>Planifique cuidadosamente el diseño de cada conjunto de datos componente para que la combinación tenga sentido en un grupo de informes global.
 
 ## Prácticas recomendadas para el uso de marcas de hora {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -62,7 +69,7 @@ Los siguientes son las prácticas recomendadas y algunos requisitos y limitacion
 
    Los datos desordenados pueden ser datos que llegan tarde desde una recopilación de datos sin conexión y visitas que llegan tarde, o relojes desincronizados en dispositivos móviles sin conexión. Los datos desordenados pueden afectar negativamente a los informes de cálculos de tiempo (por ejemplo, valores de tiempo invertido), atribuciones (persistencia de eVar), número o recuento de visitas y e informes de rutas.
 
-* No se recomienda utilizar marcas de hora cuando se establece [s.visitorID](https://docs.adobe.com/content/help/es-ES/analytics/technotes/visitor-identification.html). Puede producir datos desordenados.
+* No se recomienda utilizar marcas de hora cuando se establece [s.visitorID](https://docs.adobe.com/content/help/es-ES/analytics/components/metrics/unique-visitors.translate.html). Puede producir datos desordenados.
 
 * Las aplicaciones híbridas compuestas por una aplicación (datos sin conexión con marca de hora) que abre un explorador web (datos activos sin marca de hora) no deben utilizar marcas de hora. Produce informes inexactos acerca de la sesión.
 
