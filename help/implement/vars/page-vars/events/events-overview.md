@@ -2,7 +2,7 @@
 title: events
 description: Configure la variable “events” (eventos), que gobierna la mayoría de las métricas del sitio.
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 92%
@@ -45,7 +45,9 @@ La variable `s.events` es una cadena que contiene una lista de eventos delimitad
 * `scView`:: Aumenta la métrica [&#39;Vistas del carro de compras](/help/components/metrics/cart-views.md) .
 * `scCheckout`:: Aumenta la métrica [&#39;Cierres de compras&#39;](/help/components/metrics/checkouts.md) .
 
->[!NOTE]: Esta variable distingue entre mayúsculas y minúsculas. Evite utilizar mayúsculas y minúsculas en los valores de eventos para garantizar una recopilación de datos precisa.
+>[!NOTE]
+>
+>: Esta variable distingue entre mayúsculas y minúsculas. Evite utilizar mayúsculas y minúsculas en los valores de eventos para garantizar una recopilación de datos precisa.
 
 ```js
 // Set the events variable to a single value
@@ -67,7 +69,9 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
->[!NOTE] Los eventos de contador no admiten valores decimales o de moneda. Utilice eventos monetarios para moneda o eventos numéricos para valores decimales.
+>[!NOTE]
+>
+>Los eventos de contador no admiten valores decimales o de moneda. Utilice eventos monetarios para moneda o eventos numéricos para valores decimales.
 
 ### Usar eventos de moneda
 
@@ -84,7 +88,9 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
->[!NOTE] Si establece un valor de moneda tanto en la variable `events` como en la variable `products`, se utiliza el valor de moneda en `events`. Evite establecer valores monetarios en las variables `events` y `products`.
+>[!NOTE]
+>
+> Si establece un valor de moneda tanto en la variable `events` como en la variable `products`, se utiliza el valor de moneda en `events`. Evite establecer valores monetarios en las variables `events` y `products`.
 
 ### Usar eventos numéricos
 
@@ -99,4 +105,6 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
->[!NOTE] Si establece un valor numérico tanto en la variable `events` como en la variable `products`, se utiliza el valor numérico en `events`. Evite establecer valores numéricos en las variables `events` y `products`.
+>[!NOTE]
+>
+> Si establece un valor numérico tanto en la variable `events` como en la variable `products`, se utiliza el valor numérico en `events`. Evite establecer valores numéricos en las variables `events` y `products`.
