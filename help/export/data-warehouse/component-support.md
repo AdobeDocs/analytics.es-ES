@@ -2,7 +2,10 @@
 title: Compatibilidad con componentes en Data Warehouse
 description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ Algunas dimensiones y métricas se pueden usar en Data Warehouse, mientras que o
 
 Algunas dimensiones y métricas no son compatibles con Data Warehouse.
 
->[!NOTE] Si una dimensión o métrica no se admite en Data Warehouse, tampoco se admiten los segmentos que utilizan estos componentes. Compruebe siempre la compatibilidad del producto al crear o editar un segmento.
+>[!NOTE]
+>
+>Si una dimensión o métrica no se admite en Data Warehouse, tampoco se admiten los segmentos que utilizan estos componentes. Compruebe siempre la compatibilidad del producto al crear o editar un segmento.
 
 ### Dimensiones no admitidas
 
