@@ -2,10 +2,10 @@
 title: products
 description: Enviar datos sobre qué productos se muestran o están en el carro de compras.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 89%
 
 La variable `products` rastrea productos y propiedades vinculados a ellos. Esta variable se configura generalmente en páginas de productos individuales, páginas del carro de compras y páginas de confirmación de compra. Es una variable de varios valores, lo que significa que puede enviar varios productos en la misma visita y Adobe analiza el valor en valores de dimensión independientes.
 
-> [!NOTE] Si esta variable se configura en una visita individual sin un evento de carro de compras en la [`events`](events/events-overview.md) variable, la métrica Vistas [de](/help/components/metrics/product-views.md) productos se incrementa en 1. Asegúrese de establecer el evento del carro de compras correspondiente en cada visita individual con la `products` variable.
+>[!NOTE]
+>
+>If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Asegúrese de establecer el evento del carro de compras correspondiente en cada visita individual con la `products` variable.
 
 ## Productos en Adobe Experience Platform Launch
 
@@ -50,7 +52,9 @@ Esta variable admite varios productos en la misma visita. Es útil para un carro
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] Elimine todos los puntos y comas, y las tuberías de los nombres de productos, categorías y valores de eVar de comercialización. Si el nombre de un producto incluye una coma, AppMeasurement la analiza como el inicio de un nuevo producto. Este error en el análisis elimina el resto de la cadena de producto, lo que provoca datos incorrectos en dimensiones e informes.
+>[!IMPORTANT]
+>
+>Elimine todos los puntos y comas, las barras de los nombres de productos y las categorías, y los valores de eVar de comercialización. Si el nombre de un producto incluye una coma, AppMeasurement la analiza como el inicio de un nuevo producto. Este error en el análisis elimina el resto de la cadena de producto, lo que provoca datos incorrectos en dimensiones e informes.
 
 ## Ejemplos
 
