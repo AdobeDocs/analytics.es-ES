@@ -5,15 +5,20 @@ subtopic: Visitors
 title: Ejemplo de identificación de visitantes entre dispositivos
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 100%
 
 ---
 
 
 # Ejemplo de identificación de visitantes entre dispositivos
 
->[!IMPORTANT] Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Análisis entre dispositivos](/help/components/cda/cda-home.md) en la guía del usuario Componentes.
+>[!IMPORTANT]
+>
+>Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Análisis entre dispositivos](/help/components/cda/cda-home.md) en la guía del usuario Componentes.
 
 El siguiente ejemplo ilustra el funcionamiento de la identificación de visitantes entre dispositivos mediante una muestra de llamadas al servidor enviadas en una interacción común de clientes.
 
