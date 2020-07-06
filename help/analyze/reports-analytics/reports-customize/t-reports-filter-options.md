@@ -3,8 +3,11 @@ description: Los filtros le permiten reducir el informe para incluir o excluir e
 title: Filtrado de datos de los informes
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +48,9 @@ Los filtros avanzados le permiten controlar el ámbito de su búsqueda a través
 
 Coincide si el término se encuentra en cualquier punto del elemento de línea. Opera igual que un filtro simple.
 
->[!NOTE] No se pueden utilizar espacios en los filtros, ya que los espacios son delimitadores en las búsquedas
+>[!NOTE]
+>
+>No se pueden utilizar espacios en los filtros, ya que los espacios son delimitadores en las búsquedas
 
 **No contiene**
 
