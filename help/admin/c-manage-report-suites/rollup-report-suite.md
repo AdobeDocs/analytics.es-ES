@@ -3,8 +3,11 @@ description: Los grupos de informes resumidos acumulan datos de varios grupos de
 title: Grupos de informes globales y resumidos
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ Los grupos de informes resumidos acumulan datos de varios grupos de informes sec
 
 **Llamadas secundarias al servidor**: los resúmenes no realizan llamadas adicionales al servidor más allá de lo que recopila un solo grupo de informes. Si su organización utiliza el etiquetado de grupos múltiples, se realizan llamadas secundarias al servidor para cada grupo de informes adicional incluido en una solicitud de imagen.
 
->[!TIP] Si solo utiliza un grupo de informes globales con [grupos de informes virtuales](../../components/vrs/vrs-considerations.md), no se necesitan llamadas secundarias al servidor.
+>[!TIP]
+>
+>Si solo utiliza un grupo de informes globales con [grupos de informes virtuales](../../components/vrs/vrs-considerations.md), no se necesitan llamadas secundarias al servidor.
 
 **Cambios de implementación**: los resúmenes no requieren ningún cambio de implementación, mientras que los grupos de informes globales requieren que incluya el ID del grupo de informes global en la implementación.
 
