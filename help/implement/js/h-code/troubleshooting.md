@@ -1,8 +1,11 @@
 ---
 title: Solución de problemas de implementaciones de código H
 description: Descubra algunos problemas comunes con las implementaciones de JavaScript heredadas.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ A continuación se indican los pasos para la resolución de problemas específic
 
 ## Incluir código de Analytics en la etiqueta Head
 
->[!NOTE] Aunque las implementaciones de código H requieren que se haga referencia al código en la etiqueta `<body>`, otras implementaciones (como el uso de Adobe Experience Platform Launch) requieren que se haga referencia al código en la etiqueta `<head>`.
+>[!NOTE]
+>
+> Aunque las implementaciones de código H requieren que se haga referencia al código en la etiqueta `<body>`, otras implementaciones (como el uso de Adobe Experience Platform Launch) requieren que se haga referencia al código en la etiqueta `<head>`.
 
 El código de Analytics crea una imagen de 1x1 píxeles invisible. Anteriormente, una práctica común de implementación era colocar la referencia a `s_code.js` en la etiqueta `<head>`. Colocar el código aquí evitaba que la imagen afectara al diseño de la página de alguna manera. Esto se ejecuta antes, lo que optimiza el recuento de las vistas de página para cargas de página parciales.
 
@@ -21,4 +26,6 @@ Sin embargo, algunos elementos del código requieren que el objeto `<body>` est�
 
 El código de Analytics se puede colocar en cualquier lugar dentro de la etiqueta `<body>` de una página HTML. Adobe recomienda colocar el código de Analytics lo más cerca posible de la parte superior de la etiqueta `<body>`. Asegúrese de que todas las variables de página se establecen después de que se cargue el archivo `s_code.js`.
 
->[!TIP] Si desea integrar Adobe Analytics con Adobe Target, el archivo de inclusión JavaScript debe colocarse en la parte inferior de la página.
+>[!TIP]
+>
+>Si desea integrar Adobe Analytics con Adobe Target, el archivo de inclusión JavaScript debe colocarse en la parte inferior de la página.
