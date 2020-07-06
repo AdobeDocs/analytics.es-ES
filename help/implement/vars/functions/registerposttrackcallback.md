@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: Cree funciones de llamada de retorno después de enviar una visita a Adobe.
 translation-type: tm+mt
-source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 95%
@@ -14,11 +14,15 @@ ht-degree: 95%
 
 La variable `registerPostTrackCallback` permite a su organización conectar una función de JavaScript inmediatamente después de que una visita se envíe correctamente a Adobe. Si falla una llamada de seguimiento, esta función no se ejecuta. Puede utilizar esta variable para enviar los datos recopilados por AppMeasurement a un socio o a una infraestructura interna, o para limpiar los valores de las variables en aplicaciones de una sola página.
 
->[!IMPORTANT] No llame ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la variable `registerPostTrackCallback`. Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
+>[!IMPORTANT]
+>
+> No llame ninguna llamada de seguimiento como [`t()`](t-method.md) o [`tl()`](tl-method.md) dentro de la variable `registerPostTrackCallback`. Las funciones de seguimiento en esta variable provocan un bucle infinito de solicitudes de imagen.
 
 Cada vez que llama a la variable `registerPostTrackCallback`, vincula esa función para que se ejecute de forma inmediata después de que se envíe correctamente una solicitud de imagen. Evite registrar la misma función varias veces en la misma carga de página.
 
->[!NOTE] No se garantiza el tiempo y el orden de las funciones activadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
+>[!NOTE]
+>
+> No se garantiza el tiempo y el orden de las funciones activadas entre [`registerPreTrackCallback`](registerpretrackcallback.md) y `registerPostTrackCallback`. Evite las dependencias entre estas dos funciones.
 
 ## Registro de devoluciones de llamada posterior al seguimiento en Adobe Experience Platform Launch
 
