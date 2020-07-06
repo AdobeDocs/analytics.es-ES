@@ -1,8 +1,8 @@
 ---
 title: Informes
-description: Dimensiones y métricas que utiliza Informes y análisis para cada informe.
+description: Dimensiones y métricas que utiliza Informes y Analytics para cada informe.
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -12,11 +12,13 @@ ht-degree: 1%
 
 # Informes
 
-Cada informe de Informes y análisis utiliza una dimensión dedicada y una métrica predeterminada. Puede cambiar la métrica en cada informe y agregar desgloses si lo desea. Las siguientes listas proporcionan qué dimensión se utiliza en cada informe.
+Cada informe de Informes y Analytics utiliza una dimensión dedicada y una métrica predeterminada. Puede cambiar la métrica en cada informe y agregar desgloses si lo desea. Las siguientes listas proporcionan qué dimensión se utiliza en cada informe.
 
-> [!NOTE] El menú de informes puede tener un aspecto diferente en función de las personalizaciones que haya realizado un administrador en su organización. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>El menú de informes puede tener un aspecto diferente en función de las personalizaciones que haya realizado un administrador en su organización. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
 
-## Informes de
+## Métricas del sitio
 
 Contiene informes que suelen generar tendencias mediante un intervalo de fechas. También contiene informes únicos, como los informes recomendados y los informes en tiempo real.
 
@@ -35,7 +37,7 @@ Contiene informes que suelen generar tendencias mediante un intervalo de fechas.
 * Tiempo empleado por visita: Utiliza la dimensión [Tiempo empleado por visita - Agrupado](/help/components/dimensions/time-spent-per-visit.md) .
 * Tiempo previo al evento: Utiliza la dimensión [Tiempo previo al evento](/help/components/dimensions/time-prior-to-event.md) .
 * Compras: Contiene informes sobre métricas basadas en compras.
-   * Canal de conversión de compra: Informe de [visitas](/help/components/metrics/visits.md), [carros](/help/components/metrics/carts.md), [pedidos](/help/components/metrics/orders.md), [ingresos](/help/components/metrics/revenue.md)y [unidades](/help/components/metrics/units.md) en un informe de canal. Se logra una visualización similar en Análisis Workspace mediante la visualización [Visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+   * Canal de conversión de compra: Informe de [visitas](/help/components/metrics/visits.md), [carros](/help/components/metrics/carts.md), [pedidos](/help/components/metrics/orders.md), [ingresos](/help/components/metrics/revenue.md)y [unidades](/help/components/metrics/units.md) en un informe de canal. Se logra una visualización similar en Analysis Workspace mediante la visualización [Visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
    * Ingresos: Tendencia de la métrica [Ingresos](/help/components/metrics/revenue.md) con el paso del tiempo.
    * Pedidos: Tendencia de la métrica [Pedidos](/help/components/metrics/orders.md) con el paso del tiempo.
    * Unidades: Tendencia de las [unidades](/help/components/metrics/units.md) de métrica a lo largo del tiempo.
@@ -82,17 +84,17 @@ Contiene informes sobre informes móviles heredados. Estos informes basan sus da
 * Compatibilidad con vídeo: Utiliza la dimensión de compatibilidad [con vídeo](/help/components/dimensions/mobile-dimensions.md) móvil.
 * Sistema operativo (desaprobado): Utiliza la dimensión Sistema operativo [móvil (obsoleto)](/help/components/dimensions/mobile-dimensions.md) .
 
-## Informes
+## Rutas
 
 Contiene informes que le permiten ver los datos de rutas de los visitantes.
 
-* Flujo de página siguiente: Utiliza un informe de flujo en el valor de dimensión de página superior. Las vistas de ruta son similares a [las instancias](/help/components/metrics/instances.md). Puede cambiar el valor de dimensión del informe. Un informe similar en Análisis Workspace está disponible mediante una visualización [de flujo](../analysis-workspace/visualizations/c-flow/flow.md).
+* Flujo de página siguiente: Utiliza un informe de flujo en el valor de dimensión de página superior. Las vistas de ruta son similares a [las instancias](/help/components/metrics/instances.md). Puede cambiar el valor de dimensión del informe. Un informe similar en Analysis Workspace está disponible mediante una visualización [de flujo](../analysis-workspace/visualizations/c-flow/flow.md).
 * Página siguiente: Toma el valor de dimensión de página principal y muestra las páginas siguientes a las que se dirigieron los visitantes.
-* Flujo de página anterior: Utiliza un informe de flujo en el valor de dimensión de página principal Un informe similar en Espacio de trabajo de Análisis está disponible mediante una visualización [de flujo](../analysis-workspace/visualizations/c-flow/flow.md).
+* Flujo de página anterior: Utiliza un informe de flujo en el valor de dimensión de página principal Un informe similar en Analysis Workspace está disponible mediante una visualización [de flujo](../analysis-workspace/visualizations/c-flow/flow.md).
 * Página anterior: Toma el valor de dimensión de página superior y muestra los visitantes de páginas anteriores.
-* Visitas en el orden previsto: Permite seleccionar valores de dimensión de página en pasos y muestra la proporción de personas que siguieron y no siguieron esa ruta. Un informe similar en Análisis Workspace está disponible mediante una visualización [de visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Rutas completas: Muestra rutas individuales como valores de dimensión. Retirada en Análisis Workspace; utilice la visualización [Flujo](../analysis-workspace/visualizations/c-flow/flow.md) en su lugar.
-* PathFinder: Proporciona varios tipos de informes que permiten analizar las rutas (retiradas en el área de trabajo de Análisis).
+* Visitas en el orden previsto: Permite seleccionar valores de dimensión de página en pasos y muestra la proporción de personas que siguieron y no siguieron esa ruta. Un informe similar en Analysis Workspace está disponible mediante una visualización [de visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Rutas completas: Muestra rutas individuales como valores de dimensión. Retirada en Analysis Workspace; utilice la visualización [Flujo](../analysis-workspace/visualizations/c-flow/flow.md) en su lugar.
+* PathFinder: Proporciona varios tipos de informes que permiten analizar las rutas (retiradas en Analysis Workspace).
 * Longitud de ruta: Utiliza la dimensión de profundidad [de la](/help/components/dimensions/visit-depth.md) visita.
 * Análisis de página
    * Resumen de página: Toma el valor de dimensión de página superior y muestra una vista de tendencias. También muestra los puntos de entrada, las páginas anteriores, los puntos de salida y las páginas siguientes para ese valor de dimensión de página principal.
@@ -105,7 +107,9 @@ Contiene informes que le permiten ver los datos de rutas de los visitantes.
    * Visitas a una sola página: Utiliza la dimensión [Página](/help/components/dimensions/page.md) con el segmento &#39;Visitas a una sola página&#39; proporcionado por Adobe aplicado.
    * Páginas de salida: Utiliza la dimensión [Páginas](/help/components/dimensions/exit-dimensions.md) de salida.
 
-> [!NOTE] En esta carpeta pueden aparecer otros informes. Son otras dimensiones, como las props, en las que tiene habilitadas [las](../../admin/admin/c-traffic-variables/traffic-var.md) rutas en la configuración del grupo de informes.
+>[!NOTE]
+>
+>En esta carpeta pueden aparecer otros informes. Son otras dimensiones, como las props, en las que tiene habilitadas [las](../../admin/admin/c-traffic-variables/traffic-var.md) rutas en la configuración del grupo de informes.
 
 ## Fuentes de tráfico
 
@@ -127,16 +131,16 @@ Contiene un informe que proporciona una perspectiva de dónde provienen los visi
 
 Contiene informes principalmente alrededor de la dimensión de código [de](/help/components/dimensions/tracking-code.md) seguimiento.
 
-* Canal de conversión de Campañas: Informa de pulsaciones, [cierres](/help/components/metrics/checkouts.md)de compra, [pedidos](/help/components/metrics/orders.md)e [ingresos](/help/components/metrics/revenue.md) en un informe de canal. La métrica Pulsaciones es similar a la métrica [Instancias](/help/components/metrics/instances.md) en el contexto de la dimensión Código [de](/help/components/dimensions/tracking-code.md) seguimiento. Se logra una visualización similar en Análisis Workspace mediante la visualización [Visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Canal de conversión de Campañas: Informa de pulsaciones, [cierres](/help/components/metrics/checkouts.md)de compra, [pedidos](/help/components/metrics/orders.md)e [ingresos](/help/components/metrics/revenue.md) en un informe de canal. La métrica Pulsaciones es similar a la métrica [Instancias](/help/components/metrics/instances.md) en el contexto de la dimensión Código [de](/help/components/dimensions/tracking-code.md) seguimiento. Se logra una visualización similar en Analysis Workspace mediante la visualización [Visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * Código de seguimiento: Utiliza la dimensión de código [de](/help/components/dimensions/tracking-code.md) seguimiento.
 
 ## Productos
 
 Contiene informes principalmente alrededor de la dimensión [Producto](/help/components/dimensions/product.md) .
 
-* Canal de conversión de productos: Informes vistas [](/help/components/metrics/product-views.md)del producto, adiciones [al](/help/components/metrics/cart-additions.md)carro de compras, cierres de [compra](/help/components/metrics/checkouts.md), [pedidos](/help/components/metrics/orders.md), [unidades](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) e ingresosen un informe de canal. Se logra una visualización similar en Análisis Workspace mediante la visualización [Visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Canal de conversión de productos: Informes vistas [](/help/components/metrics/product-views.md)del producto, adiciones [al](/help/components/metrics/cart-additions.md)carro de compras, cierres de [compra](/help/components/metrics/checkouts.md), [pedidos](/help/components/metrics/orders.md), [unidades](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) e ingresosen un informe de canal. Se logra una visualización similar en Analysis Workspace mediante la visualización [Visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * Productos: Utiliza la dimensión [Productos](/help/components/dimensions/product.md) .
-* Venta cruzada: Muestra los productos comúnmente vendidos juntos (retirados en Análisis Workspace).
+* Venta cruzada: Muestra los productos comúnmente vendidos juntos (retirados en Analysis Workspace).
 * Categorías: Utiliza la dimensión de [Categoría](/help/components/dimensions/category.md) .
 
 ## Retención de visitantes
@@ -167,9 +171,9 @@ Contiene informes sobre quién visita el sitio.
    * Estados Unidos: Utiliza la dimensión Estados [](/help/components/dimensions/us-states.md) estadounidenses.
    * DMA de EE. UU.: Utiliza la dimensión DMA [de](/help/components/dimensions/us-dma.md) EE.UU.
 * Idiomas: Utiliza la dimensión [Idioma](/help/components/dimensions/language.md) .
-* Husos horarios: Utiliza la dimensión de zona horaria (retirada en Espacio de trabajo de Análisis). Los valores de dimensión son el desplazamiento GMT de la visita.
+* Husos horarios: Utiliza la dimensión de zona horaria (se retira en Analysis Workspace). Los valores de dimensión son el desplazamiento GMT de la visita.
 * Dominio: Utiliza la dimensión [Dominio](/help/components/dimensions/domain.md) .
-* Dominio de nivel superior: Utiliza la dimensión de dominio de nivel superior (retirada en Espacio de trabajo de Análisis). Agrupa la dimensión de [dominios](/help/components/dimensions/domain.md) en categorías de nivel superior, generalmente por país del dominio.
+* Dominio de nivel superior: Utiliza la dimensión de dominio de nivel superior (se retira en Analysis Workspace). Agrupa la dimensión de [dominios](/help/components/dimensions/domain.md) en categorías de nivel superior, generalmente por país del dominio.
 * Tecnología: Carpeta que contiene informes sobre lo que el visitante utilizó para acceder al sitio.
    * Exploradores: Utiliza la dimensión [Exploradores](/help/components/dimensions/browser.md) .
    * Tipo de explorador: Utiliza la dimensión de tipo [de](/help/components/dimensions/browser-type.md) navegador.
@@ -180,12 +184,12 @@ Contiene informes sobre quién visita el sitio.
    * Profundidad de color del monitor: Utiliza la dimensión [Profundidad](/help/components/dimensions/color-depth.md) de color.
    * Resolución del monitor: Utiliza la dimensión de resolución [del](/help/components/dimensions/monitor-resolution.md) monitor.
    * Java: Utiliza la dimensión habilitada [para](/help/components/dimensions/java-enabled.md) Java.
-   * JavaScript: Utiliza la dimensión habilitada para JavaScript (retirada en Espacio de trabajo de Análisis). Los valores de dimensión son &#39;Habilitado&#39;, &#39;Deshabilitado&#39; o &#39;Desconocido&#39;, según si el explorador tiene JavaScript habilitado.
-   * Versión de JavaScript: utiliza la dimensión de versión de JavaScript (se retira en Espacio de trabajo de Análisis). Los valores de dimensión muestran la versión de JavaScript que utiliza el explorador.
+   * JavaScript: Utiliza la dimensión habilitada para JavaScript (retirada en Analysis Workspace). Los valores de dimensión son &#39;Habilitado&#39;, &#39;Deshabilitado&#39; o &#39;Desconocido&#39;, según si el explorador tiene JavaScript habilitado.
+   * Versión de JavaScript: utiliza la dimensión de versión de JavaScript (se retira en Analysis Workspace). Los valores de dimensión muestran la versión de JavaScript que utiliza el explorador.
    * Cookies: Utiliza la dimensión de compatibilidad [con](/help/components/dimensions/cookie-support.md) cookies.
    * Tipos de conexión: Utiliza la dimensión [de tipo](/help/components/dimensions/connection-type.md) de conexión.
    * Operador de telefonía móvil: Utiliza la dimensión [Portadora](/help/components/dimensions/mobile-dimensions.md) móvil.
-* Estado del Visitante: Utiliza la dimensión Estado (retirada en Espacio de trabajo de Análisis). Los valores de dimensión proceden de la [`state`](../../implement/vars/page-vars/state.md) variable.
+* Estado del Visitante: Utiliza la dimensión Estado (jubilado en Analysis Workspace). Los valores de dimensión proceden de la [`state`](../../implement/vars/page-vars/state.md) variable.
 * Código postal del Visitante: Utiliza la dimensión [Código](/help/components/dimensions/zip-code.md) postal.
 
 ## Conversión personalizada
@@ -200,7 +204,7 @@ Contiene informes específicos de la implementación. Los informes de tráfico p
 
 Contiene informes que involucran canales [de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-* Informe de descripción general de Canal: Informe personalizado específico de Informes y análisis. Utiliza canales de marketing como valores de dimensión, con métricas que utilizan atribución de primer o último toque.
+* Informe de descripción general de Canal: Informe personalizado específico de Informes y Analytics. Utiliza canales de marketing como valores de dimensión, con métricas que utilizan atribución de primer o último toque.
 * canal de primer toque: Utiliza la dimensión de canal [de](/help/components/dimensions/first-touch-channel.md) primer toque.
 * Detalles del canal de primer toque: Utiliza la dimensión de detalles [del canal de](/help/components/dimensions/first-touch-detail.md) primer toque.
 * canal de último toque: Utiliza la dimensión de canal [de](/help/components/dimensions/last-touch-channel.md) último toque.
@@ -208,14 +212,16 @@ Contiene informes que involucran canales [de marketing](/help/components/c-marke
 
 ## Marcadores
 
-Contiene los informes que ha marcado. Consulte [Marcadores](bookmarks.md) para obtener más información.
+Contiene los informes que ha marcado. See [Bookmarks](bookmarks.md) for more information.
 
 ## Tableros
 
-Contiene paneles que ha creado. Consulte [Paneles](dashboard.md) para obtener más información.
+Contiene paneles que ha creado. See [Dashboards](dashboard.md) for more information.
 
 ## Objetivos 
 
-Contiene destinatarios que ha creado. Consulte [Destinatarios](targets.md) para obtener más información.
+Contiene destinatarios que ha creado. See [Targets](targets.md) for more information.
 
-> [!NOTE] Si no encuentra el informe en esta página de ayuda, es posible que el administrador haya cambiado el nombre de las carpetas o las haya ajustado. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>Si no encuentra el informe en esta página de ayuda, es posible que el administrador haya cambiado el nombre de las carpetas o las haya ajustado. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
