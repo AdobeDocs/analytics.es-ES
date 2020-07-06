@@ -1,21 +1,28 @@
 ---
 title: Vínculos de no participación
 description: Obtenga información sobre cómo crear e implementar Vínculos de no participación para los visitantes del sitio.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 100%
 
 ---
 
 
 # Implementación de Vínculos de no participación
 
->[!IMPORTANT] Adobe recomienda utilizar el servicio de inclusión, especialmente para las organizaciones relacionadas con las regulaciones del RGPD. Consulte [Introducción al servicio de inclusión](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/opt-in-service/optin-overview.html) en la guía del usuario del servicio de Experience Cloud ID.
+>[!IMPORTANT]
+>
+>Adobe recomienda utilizar el servicio de inclusión, especialmente para las organizaciones relacionadas con las regulaciones del RGPD. Consulte [Introducción al servicio de inclusión](https://docs.adobe.com/content/help/es-ES/id-service/using/implementation/opt-in-service/optin-overview.html) en la guía del usuario del servicio de Experience Cloud ID.
 
 Algunos visitantes del sitio Web prefieren no incluir su información de navegación en el conjunto de datos. Adobe permite especificar a los visitantes de un sitio web que así lo consideren que no desean que su información se recopile. Se admiten todos los tipos de implementación; su organización es responsable de su propia política de privacidad y de cumplir con los términos firmados.
 
 Cuando un visitante llega a una URL de exclusión, se le solicita que instale una cookie de exclusión. Si un usuario decide no rastrearse y se establece una cookie de exclusión, su archivo JavaScript continúa enviando datos a los servidores de Adobe. Sin embargo, esos datos no se procesan ni se incluyen en los informes.
 
->[!TIP] Adobe también ofrece la configuración de privacidad por grupo de informes. Consulte [Configuración de privacidad](../../admin/admin/privacy-settings.md) en la guía del usuario del administrador.
+>[!TIP]
+>
+>Adobe también ofrece la configuración de privacidad por grupo de informes. Consulte [Configuración de privacidad](../../admin/admin/privacy-settings.md) en la guía del usuario del administrador.
 
 ## URL de exclusión
 
@@ -73,7 +80,9 @@ Cambiar automáticamente el idioma de la página de exclusión incluyendo el par
 
 Por ejemplo, `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` carga la página de exclusión en coreano.
 
->[!TIP] El valor de la cadena de consulta `en_US` no es obligatorio, ya que la página se carga en inglés de forma predeterminada.
+>[!TIP]
+>
+>El valor de la cadena de consulta `en_US` no es obligatorio, ya que la página se carga en inglés de forma predeterminada.
 
 ### Ventana emergente
 
@@ -81,7 +90,9 @@ Agrega un botón “Cerrar ventana” a la página, lo que permite que la págin
 
 Por ejemplo, `https://example.sc.omtrdc.net/optout.html?popup=1` carga la página de exclusión con el botón “Cerrar ventana”.
 
->[!NOTE] Históricamente, este parámetro de cadena de consulta forzó la aparición de una ventana emergente. Sin embargo, la mayoría de los exploradores modernos le dan control sobre las ventanas emergentes al usuario final.
+>[!NOTE]
+>
+>Históricamente, este parámetro de cadena de consulta forzó la aparición de una ventana emergente. Sin embargo, la mayoría de los exploradores modernos le dan control sobre las ventanas emergentes al usuario final.
 
 ### Opción de exclusión de un solo clic
 
