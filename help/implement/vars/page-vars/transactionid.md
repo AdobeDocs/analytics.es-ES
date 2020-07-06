@@ -1,8 +1,11 @@
 ---
 title: transactionID
 description: Utilice esta variable para vincular datos en línea y sin conexión.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 La variable `transactionID` identifica de forma exclusiva una transacción para que la visita se pueda enlazar a los datos cargados a través de las fuentes de datos. Esta variable es útil si desea utilizar datos de otros canales y vincularlos a datos recopilados con AppMeasurement.
 
->[!NOTE] Asegúrese de que el [!UICONTROL Almacenamiento de ID de transacción] esté habilitado en un grupo de informes antes de utilizar esta variable. Consulte [Configuración general de la cuenta](/help/admin/admin/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
+>[!NOTE]
+>
+>Asegúrese de que el [!UICONTROL Almacenamiento de ID de transacción] esté habilitado en un grupo de informes antes de utilizar esta variable. Consulte [Configuración general de la cuenta](/help/admin/admin/general-acct-settings-admin.md) en la Guía de administración para obtener más información.
 
 Cuando se configura `transactionID` en caso de una visita, Adobe toma una “instantánea” de todas las variables de Analytics que estaban establecidas o que persistían en ese momento. Los datos cargados a través de fuentes de datos con el mismo ID de transacción están permanentemente vinculados a esos valores de variables.
 
@@ -44,4 +49,6 @@ Si tiene más de un ID de transacción para una visita, puede delimitar cada uno
 s.transactionID = "ABC123,XYZ456";
 ```
 
->[!NOTE] Si integra varios canales sin conexión mediante esta variable, asegúrese de que los distintos canales no se superponen con los ID de transacción. Por ejemplo, si tiene un valor de ID de transacción de centro de llamadas de `1234` y un valor de ID de transacción de cliente potencial de `1234`, pueden entrar en conflicto y provocar resultados inesperados. Compruebe que los ID de transacción tengan formatos únicos del canal sin conexión y diferéncielos si fuera preciso. Por ejemplo, establezca el ID de transacción del centro de llamadas en `call_1234` y el ID de transacción de cliente potencial en `lead_1234` en las fuentes de datos y AppMeasurement.
+>[!NOTE]
+>
+>Si integra varios canales sin conexión mediante esta variable, asegúrese de que los distintos canales no se superponen con los ID de transacción. Por ejemplo, si tiene un valor de ID de transacción de centro de llamadas de `1234` y un valor de ID de transacción de cliente potencial de `1234`, pueden entrar en conflicto y provocar resultados inesperados. Compruebe que los ID de transacción tengan formatos únicos del canal sin conexión y diferéncielos si fuera preciso. Por ejemplo, establezca el ID de transacción del centro de llamadas en `call_1234` y el ID de transacción de cliente potencial en `lead_1234` en las fuentes de datos y AppMeasurement.
