@@ -3,7 +3,10 @@ description: Introducción a Ad Hoc Analysis.
 title: Introducción
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1384'
+ht-degree: 100%
 
 ---
 
@@ -64,7 +67,9 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE] A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si ejecuta Ad Hoc Analysis en Java 7 después de la actualización de mantenimiento de julio de 2018, Adobe no ofrecerá compatibilidad para su implementación de análisis específicos.
+>[!NOTE]
+>
+>A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si ejecuta Ad Hoc Analysis en Java 7 después de la actualización de mantenimiento de julio de 2018, Adobe no ofrecerá compatibilidad para su implementación de análisis específicos.
 
 * Tarjeta de vídeo compatible con OpenGL 2.0
 * Cookies: obligatorio
@@ -88,8 +93,8 @@ Si todavía tiene Java 7 instalado, debe actualizar primero a la versión de man
 * Si puede instalar programas en su ordenador:
 
    1. Vaya a https://www.java.com.
-   1. Haga clic en **[!UICONTROL Free Java Download]**.
-   1. Haga clic en **[!UICONTROL Agree and Start Free Download]**.
+   1. Haga clic en **[!UICONTROL Descarga gratuita de Java]**.
+   1. Haga clic en **[!UICONTROL Aceptar e iniciar descarga gratuita]**.
    1. Instale la última versión de Java específica para su sistema operativo.
 
 * Si **no** puede instalar programas en su ordenador:
@@ -117,11 +122,11 @@ t_login_suite.xml
  -->
 
 1. En un navegador, vaya a [!DNL marketing.adobe.com].
-1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
-1. Haga clic **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Ad Hoc Analysis]**.
+1. Escriba el nombre de la empresa, el nombre de usuario y la contraseña. A continuación, haga clic en **[!UICONTROL Iniciar sesión]**.
+1. Haga clic en **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Herramientas]** > **[!UICONTROL Ad Hoc Analysis]**.
 
    Si no ve el botón **Iniciar Ad Hoc Analysis** en esta página, asegúrese de que el administrador lo haya agregado al grupo *Usuarios con licencias de Ad Hoc Analysis* en las herramientas de administración.
-1. Haga clic en **[!UICONTROL Launch Ad Hoc Analysis]**.
+1. Haga clic en **[!UICONTROL Iniciar Ad Hoc Analysis]**.
 1. Guarde el archivo [!DNL discover.jnlp] localmente.
 
    Puede ejecutar este archivo que guardó cada vez que desee iniciar Ad Hoc Analysis.
@@ -142,7 +147,7 @@ Los informes se agrupan en un *espacio de trabajo*. Un proyecto puede contener v
 
 Se puede abrir solamente un proyecto por vez. Sin embargo, en un proyecto se pueden abrir varios espacios de trabajo. En cada espacio de trabajo, se pueden tener varios informes abiertos.
 
-The default date range for a new project is [!UICONTROL Last 90 Days].
+El intervalo de fechas predeterminado para un nuevo proyecto es [!UICONTROL Últimos 90 días].
 
 ## Inicio de proyectos {#task_918A4539134E4E62B00486DCB8D3D403}
 
@@ -155,7 +160,7 @@ t_project_start.xml
  -->
 
 1. Inicie sesión.
-1. Open a saved project or click **[!UICONTROL Create Project]**.
+1. Abra un proyecto guardado o haga clic en **[!UICONTROL Crear proyecto]**.
 1. Busque un informe o elija una plantilla.
 
 ## Apertura de espacios de trabajo guardados recientemente {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
@@ -168,7 +173,7 @@ t_recent_workspace.xml
 
  -->
 
-1. Haga clic **[!UICONTROL File]** > **[!UICONTROL Recent Workspace]**.
+1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Espacio de trabajo reciente]**.
 
    Puede abrir un máximo de cinco espacios de trabajo recientes. Estos espacios de trabajo dejan de estar disponibles al cerrar la sesión.
 
@@ -182,14 +187,14 @@ t_share_projects.xml
 
  -->
 
-1. Vaya a **[!UICONTROL File]** > **[!UICONTROL Save As]**.
-1. Seleccione **[!UICONTROL Shared Projects]** en la **[!UICONTROL Save in:]** lista desplegable.
+1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Guardar como]**.
+1. Seleccione **[!UICONTROL Proyectos compartidos]** en el menú desplegable **[!UICONTROL Guardar en:]**. 
 
    ![](assets/shared_projects.png)
 
-1. Click **[!UICONTROL Save]** to save the project.
+1. Haga clic en **[!UICONTROL Guardar]** para guardar el proyecto.
 
-   Los proyectos compartidos se pueden abrir mediante **[!UICONTROL File]** > **[!UICONTROL Open]** > **[!UICONTROL Shared Projects]**.
+   Los proyectos compartidos se pueden abrir a través de **[!UICONTROL Archivo]** > **[!UICONTROL Abrir]** > **[!UICONTROL Proyectos compartidos]**.
 
    >[!NOTE]
    >
@@ -206,8 +211,8 @@ t_rename_workspace.xml
  -->
 
 1. Haga clic con el botón derecho en el nombre del espacio de trabajo.
-1. Elegir **[!UICONTROL Rename Workspace]**.
-1. Type a name, then click **[!UICONTROL OK]**.
+1. Elija **[!UICONTROL Cambiar nombre de espacio de trabajo]**.
+1. Escriba un nombre y haga clic en **[!UICONTROL Aceptar]**.
 
 ## Abrir un proyecto local {#task_1B3EF63A80C74776B24B99D80EAC74AC}
 
@@ -219,8 +224,8 @@ t_open_local_project.xml
 
  -->
 
-1. Haga clic **[!UICONTROL File]** > **[!UICONTROL Open Local Copy]**.
-1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
+1. Haga clic en **[!UICONTROL Archivo]** > **[!UICONTROL Abrir copia local]**.
+1. Vaya al archivo local [!DNL .dproj] y, a continuación, haga clic en **[!UICONTROL Abrir]**.
 
 ## Plantillas de informe {#concept_370F674C5B4C45368731AA801C5A45F8}
 
@@ -232,7 +237,7 @@ c_templates.xml
 
  -->
 
-You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report.
+Las plantillas se pueden usar al crear un proyecto (**[!UICONTROL Archivo]** > **[!UICONTROL Nuevo proyecto]**) o al agregar un espacio de trabajo o informe.
 
 | Plantilla | Descripción |
 |--- |--- |
@@ -257,6 +262,6 @@ t_reports_opening.xml
 
 Puede abrir un informe de las siguientes maneras:
 
-* On the [!UICONTROL New Report] page, search for a report or choose a template.
-* Click **[!UICONTROL Reports]** from the menu, then select a report or report template.
-* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** > **`report name`**.
+* En la página [!UICONTROL Nuevo informe], busque un informe o elija una plantilla.
+* En el menú, haga clic en **[!UICONTROL Informes]** y seleccione un informe o una plantilla de informe.
+* Para ejecutar un informe desde una dimensión, haga clic con el botón derecho en el nombre de la dimensión y seleccione **[!UICONTROL Ejecutar informe]** >   **`report name`**.
