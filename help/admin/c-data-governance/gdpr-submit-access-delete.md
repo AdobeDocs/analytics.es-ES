@@ -2,8 +2,11 @@
 description: 'null'
 title: Envío de solicitudes de acceso y eliminación
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1302'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ Cada archivo combina los datos de todos sus grupos de informes y se eliminan aut
 
 Puede enviar y eliminar solicitudes de acceso a la privacidad de datos a través de nuestro [portal de interfaz de usuario de privacidad de datos](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) o a través de nuestra [API de privacidad de datos.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
->[!NOTE] La API de privacidad de datos admite los envíos en lotes para varios usuarios en una única solicitud. El limite admitido actual es de 1000 usuarios independientes (pueden tener múltiples ID por usuario) en un único archivo JSON de solicitud.
+>[!NOTE]
+>
+>La API de privacidad de datos admite los envíos en lotes para varios usuarios en una única solicitud. El limite admitido actual es de 1000 usuarios independientes (pueden tener múltiples ID por usuario) en un único archivo JSON de solicitud.
 
 ## Ejemplos de solicitudes de JSON {#sample-json-request}
 
