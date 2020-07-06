@@ -1,8 +1,11 @@
 ---
 title: linkType
 description: Utilice la variable linkType para determinar a qué dimensión de seguimiento de vínculos pertenece la visita.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,9 @@ La variable `s.linkType` es una cadena que acepta uno de los tres valores de un 
 * `d`: Vínculos de descarga
 * `e`: Vínculos de salida
 
->[!TIP] Esta variable es el segundo parámetro del método `tl()` y no suele ser necesario configurarla como variable independiente. Sin embargo, puede utilizar la variable `linkType` si no desea establecer valores como argumentos en el método `tl()`.
+>[!TIP]
+>
+>Esta variable es el segundo parámetro del método `tl()` y no suele ser necesario configurarla como variable independiente. Sin embargo, puede utilizar la variable `linkType` si no desea establecer valores como argumentos en el método `tl()`.
 
 ```js
 s.linkType = "e";
