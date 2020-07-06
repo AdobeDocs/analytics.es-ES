@@ -2,8 +2,11 @@
 description: 'null'
 title: Etiquetas de privacidad de datos para variables de Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3641'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ La implementación de privacidad de datos de Adobe Analytics admite las siguient
 
 ## Etiquetas DULE {#section_B2E78130957647338495EF37DE21D6BC}
 
->[!NOTE] El marco de etiquetado y aplicación del uso de los datos (Data Usage Labeling &amp; Enforcement, DULE) se ha diseñado para proporcionar una manera uniforme de recopilar, comunicar y usar metadatos de los datos de todas las soluciones, servicios y plataformas de Adobe en Adobe Experience Cloud. Los metadatos ayudan a los responsables del tratamiento de datos a indicar qué datos son información personal, cuáles son datos confidenciales y qué restricciones contractuales están asociadas a los datos. En esta versión inicial, Analytics expone únicamente las etiquetas DULE que son relevantes para la privacidad de datos. A medida que otros productos de Adobe implementan la compatibilidad con las etiquetas DULE, las futuras versiones introducirán etiquetas de datos confidenciales adicionales, así como etiquetas contractuales, las cuales ayudarán a garantizar que los datos compartidos entre productos se utilizan únicamente de las formas permisibles según la ley.
+>[!NOTE]
+>
+>El marco de etiquetado y aplicación del uso de los datos (Data Usage Labeling &amp; Enforcement, DULE) se ha diseñado para proporcionar una manera uniforme de recopilar, comunicar y usar metadatos de los datos de todas las soluciones, servicios y plataformas de Adobe en Adobe Experience Cloud. Los metadatos ayudan a los responsables del tratamiento de datos a indicar qué datos son información personal, cuáles son datos confidenciales y qué restricciones contractuales están asociadas a los datos. En esta versión inicial, Analytics expone únicamente las etiquetas DULE que son relevantes para la privacidad de datos. A medida que otros productos de Adobe implementan la compatibilidad con las etiquetas DULE, las futuras versiones introducirán etiquetas de datos confidenciales adicionales, así como etiquetas contractuales, las cuales ayudarán a garantizar que los datos compartidos entre productos se utilizan únicamente de las formas permisibles según la ley.
 
 ## Etiquetas de datos de identidad (DULE) {#identity-data-labels}
 
@@ -208,8 +213,8 @@ Cuando etiquete una variable como ID-DEVICE o ID-PERSON, se le solicitará que p
 
 Si ha asignado una etiqueta de ID anteriormente a otras variables de cualquier grupo de informes de su empresa de inicio de sesión, puede seleccionar una de estas áreas de nombres existentes. Debe volver a utilizar el área de nombres si esta variable contiene el mismo tipo de ID que otras variables que ya están etiquetadas con esta área de nombres y desea realizar búsquedas en todos ellos al enviar una solicitud.
 
-1. Haga clic en **[!UICONTROL Select Namespace]** y seleccione una de las áreas de nombres existentes.
-1. Haga clic en **[!UICONTROL Apply]**.
+1. Haga clic en **[!UICONTROL Seleccionar área de nombres]** y seleccione una de las áreas de nombres existentes.
+1. Haga clic en **[!UICONTROL Aplicar]**.
 
 ![](assets/namespace.png)
 
@@ -217,12 +222,12 @@ Si ha asignado una etiqueta de ID anteriormente a otras variables de cualquier g
 
 También puede definir una nueva área de nombres. Le recomendamos que las cadenas de área de nombres se limiten a caracteres alfanuméricos, además de los caracteres de guion bajo, guión y espacio. Se convertirán a todo en minúsculas.
 
-1. Haga clic en **[!UICONTROL Select Namespace]** y escriba el título del área de nombres.
+1. Haga clic en **[!UICONTROL Seleccionar área de nombres]** y escriba el título del área de nombres.
 
    ![](assets/namespace2.png)
 
-1. Pulse **[!UICONTROL Enter]** para añadir esta área de nombres. El botón Aplicar únicamente se activará en este momento.
-1. Haga clic en **[!UICONTROL Apply]**.
+1. Pulse **[!UICONTROL Intro]** para añadir este área de nombres. El botón Aplicar únicamente se activará en este momento.
+1. Haga clic en **[!UICONTROL Aplicar]**.
 
 La cadena que especifique como el área de nombres es la misma cadena que debería utilizar al enviar solicitudes mediante la API de privacidad de datos como el valor del parámetro “namespace”. La solicitud entonces hará que Adobe Analytics busque todas las variables en todos sus grupos de informes que compartan esta área de nombres en busca del ID que haya especificado en la solicitud.
 
@@ -240,7 +245,9 @@ El uso de la misma área de nombres para distintas variables es aceptable dentro
 
 Otro ejemplo: puede tener un CRM ID que en ocasiones se envía a través de eVar1 y en ocasiones se envía a través de prop7. También cuenta con una regla de procesamiento que copia el valor del eVar1, si existe, en el eVar3. De lo contrario, copia el valor de prop7 en el eVar3. En estos supuestos, eVar3 siempre contendrá el CRM ID si se conoce, de modo que solo eVar3 requiere una etiqueta ID-PERSON.
 
->[!CAUTION] Las áreas de nombres &quot;visitorId&quot; y &quot;customVisitorId&quot; están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
+>[!CAUTION]
+>
+>Las áreas de nombres &quot;visitorId&quot; y &quot;customVisitorId&quot; están reservadas para identificar la cookie de seguimiento heredada de Analytics y el ID de visitante de cliente de Analytics. No utilice estas áreas de nombres para variables de conversión o tráfico personalizado.
 
 ## Tipos de variables y las etiquetas de privacidad de datos/DULE que admiten {#section_CE7C3EDE1344466A98BC45E394B40762}
 
