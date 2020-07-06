@@ -4,7 +4,10 @@ title: Invocar la funcionalidad de Report Builder desde las funciones de Microso
 topic: Report builder
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +18,9 @@ Esta capacidad integra aún más el uso de Report Builder dentro del flujo de tr
 
 Por ejemplo, es posible que desee actualizar automáticamente las solicitudes de Report Builder cuyo filtro de entrada se basa en datos recuperados en Excel a partir de otras fuentes. Ahora puede hacerlo mediante la función de la cadena RefreshRequestsInCellsRange(..) . Todas las llamadas son asíncronas. Se devuelven inmediatamente y no esperan que se ejecute completamente una llamada.
 
->[!NOTE] Debe tener Report Builder 5.0 (o posterior) instalado para poder usar esta funcionalidad.
+>[!NOTE]
+>
+>Debe tener Report Builder 5.0 (o posterior) instalado para poder usar esta funcionalidad.
 
 A continuación encontrará una tabla con la lista de funciones expuestas:
 
@@ -29,7 +34,7 @@ A continuación encontrará una tabla con la lista de funciones expuestas:
 | string AsyncRefreshWorksheetAltTextParam(); | Actualiza todas las solicitudes de Report Builder presentes en el libro concreto que se pasó por el Texto alternativo de MS Form Control. |
 | string GetLastRunStatus() | Devuelve una cadena que describe el estado de la última ejecución. |
 
-Para acceder a estas funciones dentro del creador de informes, vaya a [!UICONTROL Formulas] > [!UICONTROL Insert Function]. Al final de la lista de categorías, encontrará Adobe.ReportBuilder.Bridge:
+Para acceder a estas funciones dentro de Report Builder, vaya a [!UICONTROL Fórmulas] > [!UICONTROL Insertar función]. Al final de la lista de categorías, encontrará Adobe.ReportBuilder.Bridge:
 
 ![](assets/arb_functions.png)
 
@@ -48,7 +53,7 @@ quiere decir que &quot;Si el valor de la celda P5 es un texto o está en blanco,
 Ahora puede asignar una macro a un control creado y este control puede ser una función que actualice una solicitud de libro. Por ejemplo, la función AsyncRefreshActiveWorksheet actualizará todas las solicitudes de un libro. En ocasiones, sin embargo, es posible que solo quiera actualizar ciertas solicitudes en lugar de todas.
 
 1. Establezca el parámetro de macro.
-1. Haga clic con el botón derecho en el control y seleccione **[!UICONTROL Assign Macro]**.
+1. Haga clic con el botón derecho en el control y seleccione **[!UICONTROL Asignar macro]**.
 1. Introduzca el nombre de función de Report Builder (sin parámetros ni paréntesis).
 
 ![](assets/assign_macro.png)
@@ -60,16 +65,16 @@ Las dos funciones que toman un parámetro pueden utilizarse con formato de contr
 * AsyncRefreshRange(string rangeAddressInA1Format)
 * AsyncRefreshWorksheet(string worksheetName)
 
-1. Haga clic con el botón derecho en el control y seleccione **[!UICONTROL Format Control]**.
+1. Haga clic con el botón derecho del ratón en el control y seleccione **[!UICONTROL Formato de control]**.
 
    ![](assets/format_control.png)
 
-1. Click the [!UICONTROL Alt Text] tab.
+1. Haga clic en la ficha [!UICONTROL Texto alternativo].
 
    ![](assets/alt_text.png)
 
-1. Under [!UICONTROL Alternative text], enter the cell range that you want refreshed.
-1. Abra la lista de los parámetros del creador de informes en [!UICONTROL Formulas] > [!UICONTROL Insert Function]> [!UICONTROL Adobe.ReportBuilder.Bridge].
+1. En [!UICONTROL Texto alternativo], introduzca el rango de celdas que desee actualizar.
+1. Abra la lista de parámetros de Report Builder en [!UICONTROL Fórmulas] > [!UICONTROL Insertar función] > [!UICONTROL Adobe.ReportBuilder.Bridge].
 
-1. Pick one of the two functions that end with AltTextParam and click **[!UICONTROL OK]**.
+1. Elija una de las dos opciones que acaban con AltTextParam y haga clic en **[!UICONTROL Aceptar]**.
 
