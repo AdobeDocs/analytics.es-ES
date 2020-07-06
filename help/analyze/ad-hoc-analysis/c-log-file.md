@@ -4,7 +4,10 @@ title: Archivo de registro
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
@@ -20,5 +23,7 @@ Para guardar y ver rápidamente un archivo de registro puede hacer lo siguiente:
 1. Haga clic en el logotipo de **[!UICONTROL Ad Hoc Analysis]**.
 1. Haga clic en **[!UICONTROL Guardar archivo de registro]**.
 
->[!NOTE] El registro guardado mediante este procedimiento es para la sesión actual.
+>[!NOTE]
+>
+>El registro guardado mediante este procedimiento es para la sesión actual.
 
