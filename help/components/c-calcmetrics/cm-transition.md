@@ -3,7 +3,10 @@ description: Es posible que estos cambios en la forma en la que las métricas ca
 title: Preguntas frecuentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2148'
+ht-degree: 100%
 
 ---
 
@@ -75,9 +78,13 @@ Solo podía ver un número de métricas calculadas con el mismo nombre (pero cre
 
 Considere la posibilidad de consolidar métricas calculadas con nombres y definiciones similares pero tenga cuidado a la hora de hacerlo. Puede marcar el grupo de informes de una métrica calculada en el Administrador de métricas calculadas para comprobar su grupo de informes original. También puede comprobar las definiciones de las métricas cuando elimine posibles duplicados para asegurarse de que está consolidando correctamente las métricas.
 
->[!NOTE] A pesar de que las métricas calculadas ya no están ligadas a un grupo de informes específico y pueden utilizarse en cualquier grupo de informes que sea visible para la empresa de inicio de sesión, el grupo de informes en el que se ha creado o guardado por última vez la métrica calculada aún será visible en el Administrador de métricas calculadas.
+>[!NOTE]
+>
+>A pesar de que las métricas calculadas ya no están ligadas a un grupo de informes específico y pueden utilizarse en cualquier grupo de informes que sea visible para la empresa de inicio de sesión, el grupo de informes en el que se ha creado o guardado por última vez la métrica calculada aún será visible en el Administrador de métricas calculadas.
 
->[!NOTE] Aunque elimine una métrica calculada, cualquier informe de panel o marcador que haga referencia a esa métrica seguirá funcionando.
+>[!NOTE]
+>
+>Aunque elimine una métrica calculada, cualquier informe de panel o marcador que haga referencia a esa métrica seguirá funcionando.
 
 ## ¿Qué ha sucedido con mis Métricas calculadas globales? {#section_7351D4C7361F4ABAA1B43F8E89AAD211}
 
@@ -89,7 +96,9 @@ Las métricas calculadas globales ahora son propiedad del primer usuario Adminis
 
 Nada. Sin embargo, el nuevo propietario Administrador debería tener cuidado al modificar o eliminar estas métricas calculadas porque se pueden utilizar en diversos informes con marcadores y paneles.
 
->[!NOTE] Aunque elimine una métrica calculada, cualquier informe de panel o marcador que haga referencia a esa métrica seguirá funcionando.
+>[!NOTE]
+>
+>Aunque elimine una métrica calculada, cualquier informe de panel o marcador que haga referencia a esa métrica seguirá funcionando.
 
 ## ¿Qué les ha sucedido a las Métricas calculadas globales que se compartieron entre Empresas de inicio de sesión? {#section_59E5CD948ED643AE9AD3D2E4277647F8}
 
@@ -101,7 +110,9 @@ Las métricas calculadas globales no ya no pueden compartirse entre empresas de 
 * De forma predeterminada, estarán configuradas como “compartido con todos”.
 * Serán copias independientes de todas las demás empresas de inicio de sesión.
 
->[!NOTE] Si la métrica calculada se ha utilizado en un marcador, tablero, alerta o informe programado, la edición de la nueva copia NO afectará la antigua métrica calculada conservada.
+>[!NOTE]
+>
+>Si la métrica calculada se ha utilizado en un marcador, tablero, alerta o informe programado, la edición de la nueva copia NO afectará la antigua métrica calculada conservada.
 
 ## ¿Qué les ha sucedido a las Métricas calculadas con una clasificación de Numérico o Numérico2? {#section_71AFE6C4A7CD4AA19AB3A9D3C41D115B}
 
