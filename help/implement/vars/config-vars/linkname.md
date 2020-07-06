@@ -1,8 +1,11 @@
 ---
 title: linkName
 description: Configure el nombre de la visita del vínculo personalizado.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ Puede definir el campo de nombre del vínculo al configurar una regla para envia
 
 La variable `s.linkName` es una cadena que determina el valor de dimensión de los vínculos personalizados, de descarga o de salida (según lo que sea [`s.linkType`](linktype.md)). Puede contener hasta 100 bytes.
 
->[!TIP] Esta variable es el tercer parámetro del método `tl()` y no suele ser necesario configurarla como variable independiente. Sin embargo, puede utilizar la variable `linkName` si no desea establecer valores como argumentos en el método `tl()`.
+>[!TIP]
+>
+>Esta variable es el tercer parámetro del método `tl()` y no suele ser necesario configurarla como variable independiente. Sin embargo, puede utilizar la variable `linkName` si no desea establecer valores como argumentos en el método `tl()`.
 
 ```js
 s.linkName = "Example custom link";
