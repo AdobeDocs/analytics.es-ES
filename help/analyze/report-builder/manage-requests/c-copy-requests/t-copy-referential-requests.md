@@ -4,7 +4,10 @@ title: Copiar solicitudes de referencia
 topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 100%
 
 ---
 
@@ -17,20 +20,22 @@ Para propagar o copiar y pegar las solicitudes de referencia en la hoja de cálc
 
 También se pueden crear solicitudes que hagan referencia a filtros de entrada desde solicitudes en diferentes hojas de cálculo, pero no en diferentes libros. Por ejemplo, una solicitud de la Hoja 2 puede utilizar un grupo de informes de una celda determinada de la Hoja 1 y un intervalo de fechas de una celda de una solicitud en la Hoja 2. La nueva salida se puede situar en cualquier hoja o en una nueva hoja del mismo libro. Cuando se pega una solicitud relativa, si un filtro de entrada reside en una hoja de cálculo distinta de la hoja en la que se sitúa el resultado de la solicitud copiada, el filtro se pega como filtro absoluto.
 
->[!NOTE] No se puede generar la misma solicitud en varias hojas de cálculo. Asimismo, el sistema no puede pegar algunas solicitudes copiadas en libros nuevos porque las solicitudes contienen filtros de entrada de otras hojas de cálculo. Los filtros de entrada incluyen grupos de informes de celdas, intervalos de fechas de celdas, filtros de celdas y otros parámetros relacionados.
+>[!NOTE]
+>
+>No se puede generar la misma solicitud en varias hojas de cálculo. Asimismo, el sistema no puede pegar algunas solicitudes copiadas en libros nuevos porque las solicitudes contienen filtros de entrada de otras hojas de cálculo. Los filtros de entrada incluyen grupos de informes de celdas, intervalos de fechas de celdas, filtros de celdas y otros parámetros relacionados.
 
 **Para copiar solicitudes de referencia**
 
 1. Seleccione las celdas que contengan las solicitudes que desee copiar, incluyendo la celda de entrada o las que hacen referencia a la celda.
-1. Right-click within the highlighted cells and select **[!UICONTROL Copy Requests]** from the shortcut menu.
+1. Haga clic con el botón derecho en las celdas resaltadas y seleccione **[!UICONTROL Copiar solicitudes]** en el menú contextual.
 
    Tras seleccionar el área donde están ubicadas las solicitudes y las celdas de entrada, el sistema resalta las celdas que tienen estos elementos.
 1. Seleccione una celda o un rango de celdas contiguas para rellenarlas con las solicitudes pegadas.
 
    Asegúrese de que la celda o el rango de celdas seleccionado no contenga otros datos o solicitudes.
-1. Right-click the single cell or the top left-most cell in the range of cells and select **[!UICONTROL Paste Requests]**.
+1. Haga clic con el botón derecho en la celda o en la celda superior izquierda del rango de celdas y seleccione **[!UICONTROL Pegar solicitudes]**.
 
-   When pasting requests that include an input cell, the options under [!UICONTROL Paste Requests] include:
+   Al pegar las solicitudes que incluyen una celda de entrada, entre las opciones de [!UICONTROL Pegar solicitudes] se encuentran:
 
    **Utilizar celda de entrada absoluta:** Pega una copia de la solicitud o solicitudes y el formato asociado con las celdas seleccionadas en la zona de pegado que se seleccione. La celda de entrada (a la que se hace referencia en una de las solicitudes originales) no se pega. En su lugar, la celda de entrada permanece en la misma posición que antes.
 
