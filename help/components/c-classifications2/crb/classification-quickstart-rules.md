@@ -4,8 +4,11 @@ subtopic: Classifications
 title: Reglas de clasificación
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2018'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +54,9 @@ about_classification_rules.xml
 * [¿En qué casos las reglas no clasifican claves?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [Acerca de la prioridad de las reglas](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] El [!UICONTROL Generador de reglas] no admite las clasificaciones numéricas 2.
+>[!NOTE]
+>
+>El [!UICONTROL Generador de reglas] no admite las clasificaciones numéricas 2.
 
 ## Información relevante sobre las reglas
 
@@ -105,11 +110,15 @@ regex_classification_rules.xml
 * [Expresiones regulares: ejemplo de &quot;No contiene&quot; ](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [Expresiones regulares: tabla de referencia](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE] Como práctica recomendada, las expresiones regulares funcionan mejor con los códigos de seguimiento con delimitadores.
+>[!NOTE]
+>
+>Como práctica recomendada, las expresiones regulares funcionan mejor con los códigos de seguimiento con delimitadores.
 
 ## Expresión regular: ejemplo de código de seguimiento {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE] Si el código de seguimiento tiene codificación URL, el Generador de reglas **no** lo clasificará.
+>[!NOTE]
+>
+>Si el código de seguimiento tiene codificación URL, el Generador de reglas **no** lo clasificará.
 
 En este ejemplo, imaginemos que debe clasificarse el ID de campaña siguiente:
 
@@ -370,6 +379,7 @@ Instrucciones sobre cómo probar un conjunto de reglas o de reglas de clasificac
 
    * Códigos de seguimiento
    * Palabras clave o expresiones de búsqueda
+
    Consulte [Expresiones regulares en reglas de clasificación](/help/components/c-classifications2/crb/classification-quickstart-rules.md) para obtener información sobre pruebas de expresiones regulares.
 1. Haga clic en **[!UICONTROL Ejecutar prueba]**.
 
