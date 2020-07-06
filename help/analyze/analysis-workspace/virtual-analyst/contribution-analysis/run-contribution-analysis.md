@@ -3,7 +3,7 @@ description: 'null'
 title: Ejecutar análisis de contribución
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
@@ -52,7 +52,9 @@ Hay dos formas de invocar el análisis de contribución en un proyecto:
    * [Crear alertas.](/help/components/c-alerts/intellligent-alerts.md)
    * [Crear o comparar segmentos.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
->[!NOTE] La anomalía analizada se resalta con un punto azul en el análisis de contribución y en los proyectos de alerta inteligente vinculados con ella. Esto proporciona una indicación más clara de la anomalía que se está analizando.
+>[!NOTE]
+>
+>La anomalía analizada se resalta con un punto azul en el análisis de contribución y en los proyectos de alerta inteligente vinculados con ella. Esto proporciona una indicación más clara de la anomalía que se está analizando.
 
 ## Excluir dimensiones del análisis de contribución {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
