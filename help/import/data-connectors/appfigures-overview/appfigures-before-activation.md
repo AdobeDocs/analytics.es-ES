@@ -3,7 +3,10 @@ description: Antes de activar esta integración, revise los siguientes elementos
 title: Antes de activar esta integración
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,9 @@ La siguiente tabla describe las variables de Analytics que se activan automátic
 
 ### Variables requeridas {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE] Esta integración usa variables específicas para los datos de tiendas de aplicaciones, por lo que no es necesario asignar variables y eventos de comercio personalizados.
+>[!NOTE]
+>
+>Esta integración usa variables específicas para los datos de tiendas de aplicaciones, por lo que no es necesario asignar variables y eventos de comercio personalizados.
 
 | Tipo de variable | Nombre | Método de obtención de datos | Descripción |
 |---|---|---|---|
