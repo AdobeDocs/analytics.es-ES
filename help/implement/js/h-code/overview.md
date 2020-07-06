@@ -1,25 +1,33 @@
 ---
 title: Introducción a la implementación de código H de JavaScript
 description: Conozca el flujo de trabajo para implementar el código H en su sitio.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
 
 # Introducción a la implementación de código H de JavaScript
 
->[!IMPORTANT] Esta versión de recopilación de datos ya no es compatible. Utilice [Adobe Experience Platform Launch](../../launch/overview.md) o [AppMeasurement para JavaScript](../overview.md).
+>[!IMPORTANT]
+>
+>Esta versión de recopilación de datos ya no es compatible. Utilice [Adobe Experience Platform Launch](../../launch/overview.md) o [AppMeasurement para JavaScript](../overview.md).
 
 Debe tener acceso a los servidores de alojamiento para implementar correctamente una página con código para recopilar datos. A continuación se muestran los pasos de una implementación básica código H de Analytics.
 
->[!NOTE] Para seguir estas instrucciones, ya debe tener una copia de `s_code.js`. Adobe ya no ofrece la opción de descargar el código H en el Administrador de códigos.
+>[!NOTE]
+>
+> Para seguir estas instrucciones, ya debe tener una copia de `s_code.js`. Adobe ya no ofrece la opción de descargar el código H en el Administrador de códigos.
 
 1. **Actualizar variables de archivos JS principales**: Edite el archivo `s_code.js` y asegúrese que las siguientes variables están actualizadas:
    * `s_account` contiene el ID del grupo de informes al que desea enviar los datos. Consulte
    * `s.trackingServer` contiene la ubicación en la que se almacenan las cookies. Consulte [trackingServer](../../vars/config-vars/trackingserver.md).
 2. **Aloje el archivo`s_code.js`en el sitio**: Este archivo suele alojarse con otras secuencias de comandos del servidor web.
 3. **Haga referencia a`s_code.js`en todas las páginas**: Asegúrese de que todas las páginas individuales llamen al archivo principal de JavaScript y hágalo dentro de la etiqueta HTML `<body>` (no la etiqueta `<head>`).
+
    > [!TIP] El código H requiere que se llame al script `s_code.js` dentro de la etiqueta `<body>`. Esto es diferente a otros métodos de implementación, la mayoría de los cuales requieren que las referencias de secuencia de comandos estén en la etiqueta `<head>`.
 4. **Defina las variables específicas de la página en cada página**: Cada página debe tener variables individuales definidas, como el nombre de la página o las eVars. Las variables individuales generalmente se definen con una etiqueta `<script>` en línea en cada página.
 5. **Use Debugger para verificar la recopilación de datos**: Descargue e instale [Experience Cloud Debugger](../../validate/debugger.md) para asegurarse de que los datos se envían a Adobe y de que las variables de página se definen correctamente.
