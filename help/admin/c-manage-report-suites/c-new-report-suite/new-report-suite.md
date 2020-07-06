@@ -3,8 +3,11 @@ description: Puede crear un nuevo grupo de informes seleccionando como modelo un
 title: Descargar la configuración del grupo de informes
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ Puede crear un nuevo grupo de informes seleccionando como modelo una plantilla p
 
 Descripción de los elementos utilizados al [crear un grupo de informes](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md).
 
->[!NOTE] La [Documentación del grupo de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-create.md) le muestra cómo crear grupos de informes virtuales.
+>[!NOTE]
+>
+>La [Documentación del grupo de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-create.md) le muestra cómo crear grupos de informes virtuales.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
