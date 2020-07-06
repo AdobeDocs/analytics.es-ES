@@ -3,8 +3,11 @@ description: Métodos para optimizar el servicio de Report Builder y lista de me
 title: Solución de problemas y prácticas recomendadas para Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1371'
+ht-degree: 100%
 
 ---
 
@@ -96,29 +99,31 @@ Programar solicitudes más grandes y más complejas por la mañana temprano para
 
 Todos los informes programados tienen un tiempo de espera de cuatro horas. El sistema intenta programar tres veces más, pero posiblemente se producirá un fallo. (Generalmente, cuanto más grandes sean los conjuntos de datos más tardarán en ejecutarse). Esto puede comprobarse en los informes de [!DNL Analytics] y en Report Builder:
 
-* [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
+* [!DNL Analytics]: **[!UICONTROL Favoritos]** > **[!UICONTROL Informes programados]**
 
-* Report Builder: haga clic en **[!UICONTROL Management]** en la pestaña [!UICONTROL Add-ins]de Excel.
+* Report Builder: haga clic en **[!UICONTROL Administración]**, en la ficha [!UICONTROL Complementos] de Excel.
 
 ## Descripciones de los mensajes de error {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
 Lista de mensajes de error que se pueden producir ocasionalmente al utilizar Report Builder.
 
->[!NOTE] A continuación se incluye únicamente una selección de los mensajes de error y no una lista exhaustiva. Para obtener más información sobre la resolución de errores, póngase en contacto con su administrador.
+>[!NOTE]
+>
+>A continuación se incluye únicamente una selección de los mensajes de error y no una lista exhaustiva. Para obtener más información sobre la resolución de errores, póngase en contacto con su administrador.
 
 **Esta función solo se puede aplicar en un libro abierto.**
 
 Este mensaje aparece si no hay libros (documentos de hoja de cálculo) abiertos en Excel y se hace clic en uno de los iconos de la barra de herramientas de Report Builder. Asimismo, la barra de herramientas se deshabilitará hasta que se abra una hoja de cálculo. Sin embargo, se puede hacer clic en el icono de ayuda en línea mientras la barra de herramientas esté activada sin que se produzca este error.
 
-**Primero debe salir del [!UICONTROL Request Wizard] antes de activar el [!UICONTROL Request Manager].**
+**En primer lugar, debe salir del[!UICONTROL Asistente para solicitudes]antes activar el[!UICONTROL Administrador de solicitudes].**
 
-Aunque el [!UICONTROL Request Manager] y el [!UICONTROL Request Wizard] están vinculados funcionalmente, no es posible trabajar con el [!UICONTROL Request Manager] antes de completar o cancelar las acciones realizadas en [!UICONTROL Request Wizard].
+A pesar de que el [!UICONTROL Administrador de solicitudes] y el [!UICONTROL Asistente para solicitudes] están vinculados funcionalmente, no es posible comenzar a trabajar con el [!UICONTROL administrador] antes de completar o cancelar las operaciones llevadas a cabo en el [!UICONTROL asistente].
 
 **No hay solicitudes asociadas a este rango.**
 
-Este mensaje de error se produce si se hace clic en el botón [!UICONTROL From Sheet] del [!UICONTROL Request Manager]cuando una celda de la hoja de cálculo no contiene solicitudes.
+Este mensaje de error se produce si se hace clic en el botón [!UICONTROL Desde hoja] del [!UICONTROL Administrador de solicitudes] cuando una celda de la hoja de cálculo no contiene solicitudes.
 
-Para identificar qué celdas de la hoja de cálculo contienen solicitudes, haga clic en solicitudes individuales que estén incluidas en la tabla del [!UICONTROL Request Manager]. Si una solicitud está asociada con celdas, las celdas aparecerán resaltadas cuando la solicitud se seleccione en la tabla.
+Para identificar qué celdas de la hoja de cálculo contienen solicitudes, haga clic en solicitudes individuales que estén incluidas en la tabla del [!UICONTROL Administrador de solicitudes]. Si una solicitud está asociada con celdas, las celdas aparecerán resaltadas cuando la solicitud se seleccione en la tabla.
 
 **El rango seleccionado no es válido. Seleccione otro rango.**
 
@@ -128,12 +133,12 @@ Si desea eliminar celdas, es importante localizar las que contengan solicitudes 
 
 **Salga de la celda de Excel seleccionada antes de utilizar esta función.**
 
-Si se encuentra en *modo de edición* en una celda de Excel y hace clic en uno de los iconos de Report Builder, se generará este mensaje de error. Estar en modo de edición en una celda de Excel significa que la celda está seleccionada y que el cursor aparece dentro de la celda. También se está en modo de edición en una celda de Excel cuando se escribe directamente en la barra de [!UICONTROL Formula] o en el [!UICONTROL Name Box] en la parte superior de Excel.
+Si se encuentra en *modo de edición* en una celda de Excel y hace clic en uno de los iconos de Report Builder, se generará este mensaje de error. Estar en modo de edición en una celda de Excel significa que la celda está seleccionada y que el cursor aparece dentro de la celda. También se está en modo de edición en una celda de Excel cuando se escribe directamente en la barra de [!UICONTROL fórmulas] o en el [!UICONTROL cuadro de nombre] en la parte superior de Excel.
 
 **El rango seleccionado se cruza con el rango de otra solicitud. Cambie su selección.**
 
 Este error aparecerá si ya ha asignado un conjunto de celdas a la hoja de cálculo.
 
-Un modo de determinar qué celdas están asignadas antes de añadir nuevas solicitudes, consiste en cerrar el [!UICONTROL Request Wizard] y abrir el [!UICONTROL Request Manager]. A continuación, seleccione uno a uno los elementos incluidos en la tabla de resumen de la solicitud. Siempre que seleccione una solicitud de la lista, las celdas que contengan asignaciones de la solicitud en la hoja de cálculo se resaltarán.
+Un modo de determinar qué celdas están asignadas antes de añadir nuevas solicitudes, consiste en cerrar el [!UICONTROL Asistente para solicitudes] y abrir el [!UICONTROL Administrador de solicitudes]. A continuación, seleccione uno a uno los elementos incluidos en la tabla de resumen de la solicitud. Siempre que seleccione una solicitud de la lista, las celdas que contengan asignaciones de la solicitud en la hoja de cálculo se resaltarán.
 
 Este es un motivo por el que se debe considerar la posibilidad de marcar las celdas con resaltado, información de columna o fila o un estilo de formato antes de asignar varias celdas a diversas áreas.
