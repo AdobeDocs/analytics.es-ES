@@ -2,10 +2,10 @@
 title: Preguntas más frecuentes sobre Attribution
 description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 78%
+source-wordcount: '757'
+ht-degree: 76%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 78%
 
 **¿Cuál es el elemento de línea “Ninguno” al utilizar Attribution?**
 
-El elemento de línea &#39;Ninguno&#39; es un elemento de captación global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retroactiva. Intente incluir un intervalo de tiempo más largo en la ventana de informes.
+El elemento de línea “Ninguno” es un captador global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retrospectiva. Para reducir el número de conversiones atribuidas al elemento de línea &#39;Ninguno&#39;, intente utilizar una ventana de retrospectiva personalizada con un período de retroactividad más largo.
 
 **¿Por qué a veces veo fechas fuera de la ventana de informes al utilizar modelos de atribución?**
 
-Estas fechas adicionales se deben a la ventana retrospectiva de informes de visitantes. Consulte [Datos que aparecen fuera de la ventana de informes](https://helpx.adobe.com/es/analytics/kb/data-appearing-outside-reporting-window.html) en la BC de Analytics para obtener más información. Adobe filtrará estas filas extra en una próxima versión.
+Estas fechas adicionales se deben a la ventana retrospectiva de informes de visitantes. Consulte [Datos que aparecen fuera de la ventana de informes](https://helpx.adobe.com/es/analytics/kb/data-appearing-outside-reporting-window.html) en la BC de Analytics para obtener más información.
 
-**¿Cuándo debo usar una retrospectiva de atribución de visita o de visitante?**
+**¿Cuándo debo usar una retrospectiva de atribución personalizada, visitante o visita?**
 
-La elección de la retrospectiva de atribución depende de su caso de uso. Si las conversiones suelen tardar más de una sola visita, se recomienda una retrospectiva del visitante. La creación de un grupo de informes virtuales con una definición de visita más larga también es una posible solución.
+La elección de la retrospectiva de atribución depende de su caso de uso. Si las conversiones suelen tardar más de una sola visita, se recomienda un retrospectivo personalizado o de visitante. Para ciclos de conversión más largos, las ventanas de retrospectiva personalizadas son mejores ya que son el único tipo que puede extraer datos antes de la ventana de sistema de informes
 
 **¿Cómo se comparan las props y las eVars al utilizar la atribución?**
 
