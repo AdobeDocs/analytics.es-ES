@@ -2,8 +2,11 @@
 description: El nuevo sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
 title: Resumen de las alertas inteligentes
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -25,19 +28,21 @@ El nuevo Generador de alertas y el Administrador de alertas en Analysis Workspac
 
 Hay cuatro formas en las que puede acceder al Generador de alertas:
 
-* Ir directamente al Generador de alertas: **[!UICONTROL Components]** > **[!UICONTROL Alerts]**
+* Ir directamente al Generador de alertas: **[!UICONTROL Componentes]** > **[!UICONTROL Alertas]**
 * Usar el acceso directo de teclado en Workspace: `Ctrl + Shift + A` (Windows) o `Cmd + Shift + A` (Mac)
-* Seleccionar uno o más elementos de línea de la tabla improvisada, hacer clic con el botón secundario y seleccionar **[!UICONTROL Create Alert from Selection]**. Se abre el Generador de alertas y se rellenan previamente las métricas y los filtros adecuados aplicados desde la tabla. A continuación, puede editar la alerta si fuera necesario.
+* Seleccionar uno o más elementos de línea de la tabla improvisada, hacer clic con el botón secundario y seleccionar **[!UICONTROL Crear alerta a partir de la selección]**. Se abre el Generador de alertas y se rellenan previamente las métricas y los filtros adecuados aplicados desde la tabla. A continuación, puede editar la alerta si fuera necesario.
 
    ![Crear alertas a partir de la selección](assets/create-alert-from-selection.png)
 
-* Desde un informe de Reports &amp; Analytics, acceda a **[!UICONTROL More]** > **[!UICONTROL Add Alert]** . Esto abre el Generador de alertas y rellena previamente las métricas y filtros adecuados aplicados desde el informe. A continuación, puede editar la alerta si fuera necesario.
+* Desde un informe de Reports &amp; Analytics, vaya a **[!UICONTROL Más]** > **[!UICONTROL Agregar alerta]**. Esto abre el Generador de alertas y rellena previamente las métricas y filtros adecuados aplicados desde el informe. A continuación, puede editar la alerta si fuera necesario.
 
    ![Agregar alerta](assets/add-alert.png)
 
 Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 desviaciones estándar y 99 % = 3 desviaciones estándar. En función de la granularidad de tiempo que seleccione, se emplean [distintos modelos](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) para calcular cuánto se aleja (cuántas desviaciones estándar tiene) cada punto de datos respecto a la norma. Si establece un umbral más bajo (por ejemplo, 90%), obtendrá más anomalías que con otro más alto (99,75%).
 
->[!IMPORTANT] El uso de datos con fecha y hora para crear alertas puede hacer que se activen incorrectamente. Adobe recomienda utilizar datos sin marca de hora para las alertas inteligentes.
+>[!IMPORTANT]
+>
+>El uso de datos con fecha y hora para crear alertas puede hacer que se activen incorrectamente. Adobe recomienda utilizar datos sin marca de hora para las alertas inteligentes.
 
 ## Retrospectiva de anomalías para alertas
 
