@@ -5,7 +5,10 @@ title: Administrador de tableros
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 100%
 
 ---
 
@@ -22,13 +25,13 @@ Utilice el administrador de paneles para copiar, compartir, archivar y programar
 
 Utilice el administrador de paneles para copiar, compartir, archivar y programar tableros para su envío.
 
-Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
+Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Tableros]**.
 
 | Elemento | Descripción |
 |--- |--- |
 | Compartido | Indica si el tablero se está compartiendo. |
 | Programado | Permite programar el tablero para su envío. |
-| Ver archivo | Esta funcionalidad ya no está disponible. |
+| Ver archivo | Esta funcionalidad ya no se encuentra disponible. |
 | Insertar en escritorio de usuarios | Permite compartir un tablero. |
 | Administrar | Permite editar, copiar y eliminar un tablero. |
 
@@ -36,8 +39,8 @@ Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTR
 
 Los pasos describen cómo usar las opciones de administración del tablero compartido.
 
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Dashboards]**.
-1. Under [!UICONTROL Shared Dashboards], locate the shared dashboard (or legacy dashboard) you want to manage and choose one or more of the following options:
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Tableros]**.
+1. En [!UICONTROL Tableros compartidos], localice el tablero compartido (o tablero preexistente) que desee administrar y elija una o más de las siguientes opciones:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
  <thead class="chhead sthead"> 
@@ -46,7 +49,7 @@ Los pasos describen cómo usar las opciones de administración del tablero compa
  </thead> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Ver archivo</strong></td> 
-  <td class="chdesc stentry"> Esta funcionalidad ya no está disponible. </td> 
+  <td class="chdesc stentry"> Esta funcionalidad ya no se encuentra disponible. </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>Dashboard Player</strong></td> 
@@ -70,16 +73,20 @@ Los pasos describen cómo usar las opciones de administración del tablero compa
 
 Los tableros preexistentes actuales se seguirán ejecutando y aún podrá editarlos, descargarlos y programarlos, pero ya no podrá crear nuevos tableros preexistentes. Se le recomienda encarecidamente que actualice los tableros preexistentes actuales al formato de tablero más reciente.
 
->[!NOTE]Más adelante, considere la posibilidad de usar los [proyectos de Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) y su capacidad para poder descargarlos y programarlos.
+>[!NOTE]
+>
+>Más adelante, considere la posibilidad de usar los [proyectos de Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html) y su capacidad para poder descargarlos y programarlos.
 
 Cuando copia el tablero preexistente, el sistema lo abre para editarlo y ahí puede añadir contenido preexistente o nuevo. Al copiar un tablero preexistente, el original se conserva en la lista de tableros preexistentes.
 
->[!NOTE] Añadir contenido heredado a un panel crea un panel basado en la funcionalidad de panel más reciente. Sin embargo, el informe breve preexistente podría contener datos que estuvieran basados en la plataforma de datos anterior.
+>[!NOTE]
+>
+>Añadir contenido heredado a un panel crea un panel basado en la funcionalidad de panel más reciente. Sin embargo, el informe breve preexistente podría contener datos que estuvieran basados en la plataforma de datos anterior.
 
 **Para migrar un tablero preexistente de la versión 14.x a**
 
-1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Manage Dashboards]**.
-1. En la [!UICONTROL Manage] columna, en [!UICONTROL Legacy Dashboards], haga clic en **[!UICONTROL Copy to New Dashboard]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Administrar tableros]**.
+1. En la columna [!UICONTROL Administrar], en [!UICONTROL Tableros preexistentes], haga clic en **[!UICONTROL Copiar a nuevo tablero]**.
 
    El tablero copiado se abre en el editor de diseño de tablero.
 
@@ -87,34 +94,36 @@ Cuando copia el tablero preexistente, el sistema lo abre para editarlo y ahí pu
 
 ## Compartir un tablero
 
-Instrucciones sobre cómo un administrador puede compartir un tablero con varios usuarios (o insertarlo en sus escritorios). When you push dashboards to users, the dashboards become available in user&#39;s [!UICONTROL Shared Dashboards] menu.
+Instrucciones sobre cómo un administrador puede compartir un tablero con varios usuarios (o insertarlo en sus escritorios). Al insertar los tableros en el escritorio de los usuarios, esos tableros pasan a estar disponibles en el menú [!UICONTROL Tableros compartidos] del usuario.
 
-1. En el [!UICONTROL Dashboard Manager], localice el panel y, a continuación, habilite **[!UICONTROL Shared]**.
-1. Haga clic **[!UICONTROL Push To Users]**.  ![](assets/push.png)
+1. En el [!UICONTROL Administrador de tableros], busque el tablero y, a continuación, active **[!UICONTROL Compartido]**.
+1. Haga clic en **[!UICONTROL Insertar en escritorio de usuarios]**.  ![](assets/push.png)
 
-1. En la [!UICONTROL Push Dashboard] página, seleccione los usuarios de destinatario o haga clic en **[!UICONTROL Check All]**.
-1. Haga clic en **[!UICONTROL Save]**.
+1. En la página [!UICONTROL Insertar tablero], seleccione los usuarios objetivo o haga clic en **[!UICONTROL Marcar todos]**.
+1. Haga clic en **[!UICONTROL Guardar]**.
 
-If shared users of your dashboard cannot see changes you made in the dashboard, check your Dashboard Manager to see if the users have chosen the **[!UICONTROL Copy Me]** option. Si lo han hecho, no pueden ver actualizaciones ni cambios realizados por usted. To see all the changes/updates, shared users need to select the **[!UICONTROL On Menu]** option in the Dashboard Manager.
+Si los usuarios compartidos de su tablero no pueden ver los cambios realizados en el tablero, controle el Administrador de tableros para ver si los usuarios han elegido la opción **[!UICONTROL Cópieme]**. Si lo han hecho, no pueden ver actualizaciones ni cambios realizados por usted. Para ver todos los cambios y todas las actualizaciones, los usuarios compartidos deben seleccionar la opción **[!UICONTROL En el menú]** en el Administrador de tableros.
 
 ## Programar un tablero para su envío
 
-In the [!UICONTROL Dashboard Manager], you can see whether a dashboard is scheduled for delivery, and edit the schedule. Las opciones de envío de tableros son idénticas a las opciones de envío de informes.
+En el [!UICONTROL Administrador de tableros], puede ver si un tablero está programado para su envío y editar la programación. Las opciones de envío de tableros son idénticas a las opciones de envío de informes.
 
 1. Abra un tablero.
-1. Haga clic **[!UICONTROL More]** > **[!UICONTROL Send]**.
+1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Enviar]**.
 
    Consulte [Programación y distribución](/help/analyze/reports-analytics/scheduling.md) para obtener más información.
 
 ## Archivar un tablero
 
->[!NOTE] Esta funcionalidad ya no estará disponible en enero de 2020.
+>[!NOTE]
+>
+>Esta funcionalidad ya no estará disponible en enero de 2020.
 
 Instrucciones sobre cómo archivar cualquier tablero enviado como archivo PDF. El sistema almacena el archivo archivado durante dos años o hasta que llegue al límite máximo de 4 GB de informes archivados, lo que suceda primero.
 
 1. Abra un tablero.
-1. Haga clic **[!UICONTROL More]** > **[!UICONTROL Send]**.
-1. En el [!UICONTROL Email Report] grupo, habilite **[!UICONTROL Archive]**.
-1. Specify delivery options, then click **[!UICONTROL Send]**.
+1. Haga clic en **[!UICONTROL Más]** > **[!UICONTROL Enviar]**.
+1. En el grupo [!UICONTROL Enviar informe por correo electrónico], active **[!UICONTROL Archivar]**.
+1. Especifique las opciones de envío y, a continuación, haga clic en **[!UICONTROL Enviar]**.
 
-   Puede ver los tableros archivados en el administrador de tableros. También puede abrir un panel y hacer clic en **[!UICONTROL More]** > **[!UICONTROL View Archive]**.
+   Puede ver los tableros archivados en el administrador de tableros. También puede abrir un tablero y hacer clic en **[!UICONTROL Más]** > **[!UICONTROL Ver archivo]**.
