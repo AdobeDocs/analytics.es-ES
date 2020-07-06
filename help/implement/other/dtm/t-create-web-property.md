@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Crear una propiedad web
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Una propiedad web puede ser cualquier agrupación de uno o más dominios y subdominios incluida en un código incrustado y con una biblioteca de reglas.
 
->[!NOTE] Solo los usuarios con derechos de administrador pueden crear una propiedad. Para obtener más información sobre las funciones, consulte [Crear y administrar grupos en la DTM](https://docs.adobe.com/content/help/es-ES/dtm/using/admin/groups.html) en la documentación del producto de Dynamic Tag Management.
+>[!NOTE]
+>
+>Solo los usuarios con derechos de administrador pueden crear una propiedad. Para obtener más información sobre las funciones, consulte [Crear y administrar grupos en la DTM](https://docs.adobe.com/content/help/es-ES/dtm/using/admin/groups.html) en la documentación del producto de Dynamic Tag Management.
 
 Puede administrar y rastrear estos recursos con DTM. Por ejemplo, supongamos que tiene varios sitios web basados en una plantilla y quiere rastrear los mismos recursos en todos. Puede aplicar una propiedad web a varios dominios.
 
