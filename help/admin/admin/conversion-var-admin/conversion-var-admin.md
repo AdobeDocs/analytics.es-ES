@@ -5,10 +5,10 @@ title: Variables de conversión (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1579'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,9 @@ El mejor uso de las eVars es para medir causa y efecto, como:
 
 Si se desea realizar la medición de tráfico o las rutas, se recomienda utilizar variables de tráfico.
 
->[!NOTE] Se puede guardar un solo valor único en una eVar de una solicitud de imagen. Si quiere que haya varios valores en un valor eVar, le recomendamos que implemente [Variables de lista](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html).
+>[!NOTE]
+>
+>Se puede guardar un solo valor único en una eVar de una solicitud de imagen. Si quiere que haya varios valores en un valor eVar, le recomendamos que implemente [Variables de lista](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html).
 
 ## Variables de conversión - Descripciones {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -87,7 +89,7 @@ Descripciones de los campos utilizados al [editar variables de conversión](/hel
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Comercialización</span> </p> <p>(solo eVar) </p> </td> 
-   <td colname="col2"> <p>Las variables de comercialización pueden seguir una de dos sintaxis: </p> <p> <b>Sintaxis de productos</b>:</span> Asocia el valor de la eVar a un producto. Nota: Si la sintaxis de los productos se selecciona, la sección de Evento de enlace de comercialización se desactiva y no se puede seleccionar para la edición. Para esta sintaxis, los eventos de enlace no son aplicables. </p> </p> <p> <b>Sintaxis de variables de conversión</b>:</span> Asocia la eVar a un producto solamente si ocurre un evento de enlace. En este caso, usted selecciona los eventos que actúan como eventos de enlace. </p> <p>Si cambia este valor sin actualizar adecuadamente el código JavaScript, se perderán datos. Consulte <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html">Variables de comercialización</a>. </p> </td> 
+   <td colname="col2"> <p>Las variables de comercialización pueden seguir una de dos sintaxis: </p> <p> <b>Sintaxis de productos</b>:</span> Asocia el valor de la eVar a un producto. Nota: Si la sintaxis de los productos se selecciona, la sección de Evento de enlace de comercialización se desactiva y no se puede seleccionar para la edición. Para esta sintaxis, los eventos de enlace no son aplicables. </p> </p> <p> <b>Sintaxis de variables de conversión</b>:</span> Asocia la eVar a un producto solamente si ocurre un evento de enlace. En este caso, usted selecciona los eventos que actúan como eventos de enlace. </p> <p>Si cambia este valor sin actualizar adecuadamente el código JavaScript, se perderán datos. Consulte <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/variables/merchandising-variables/var-merchandising.html">Variables de comercialización</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> Evento de enlace de comercialización</span> </p> <p>(solo eVar) </p> </td> 
@@ -103,11 +105,11 @@ Las `eVars` caducan después del período de tiempo que especifique. Cuando la e
 Hay dos maneras de que una eVar caduque:
 
 * Puede configurar la eVar para que caduque después de un período de tiempo o evento especificados.
-* Puede forzar la caducidad de una eVar restableciéndola, lo que resulta útil al cambiar el propósito de una variable.
+* Puede forzar la caducidad de una eVar al restablecerla, lo que resulta útil cuando se cambia el propósito de una variable.
 
-Por ejemplo, si cambia la caducidad de una eVar de 30 a 90 días, los valores de la eVar recopilados seguirán persistiendo durante el nuevo conjunto de caducidad (en este caso, 90 días). El sistema simplemente observa la configuración de caducidad actual y la última marca de tiempo establecida del valor de eVar recopilada para determinar la caducidad. Solo la opción **[!UICONTROL Restablecer]** caduca los valores y lo hace inmediatamente.
+Por ejemplo, si cambia la caducidad de una eVar de 30 a 90 días, los valores de la eVar recopilados persistirán durante el nuevo conjunto de caducidad (en este caso, 90 días). El sistema simplemente observa la configuración de caducidad actual y la última marca de tiempo establecida del valor de eVar obtenido para determinar la caducidad. Solo la opción **[!UICONTROL Restablecer]** caduca los valores y lo hace de inmediato.
 
-Otro ejemplo: Si se utiliza una eVar en mayo para reflejar promociones internas y caduca después de 21 días, y en junio se utiliza para capturar palabras clave de búsqueda interna, entonces el 1 de junio debe forzar la caducidad o restablecer la variable. Al hacerlo, no se incluyen los valores de la promoción interna en los informes de junio.
+Otro ejemplo: si se usa una eVar en mayo para reflejar promociones internas y caduca después de 21 días, y en junio se usa para capturar palabras clave de búsqueda interna, el 1 de junio, debe forzar la caducidad o restablecer la variable. Al hacerlo, no se incluyen los valores de la promoción interna en los informes de junio.
 
 **Distinción entre mayúsculas y minúsculas**
 
