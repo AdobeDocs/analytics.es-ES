@@ -5,7 +5,7 @@ title: Procesamiento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 93%
@@ -15,7 +15,9 @@ ht-degree: 93%
 
 # Procesamiento completo
 
->[!NOTE] Adobe recomienda que los clientes utilicen la API de inserción [masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Las fuentes de datos de procesamiento completo quedarán obsoletas en el futuro.
+>[!NOTE]
+>
+>Adobe recomienda que los clientes utilicen la API de inserción [masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Las fuentes de datos de procesamiento completo quedarán obsoletas en el futuro.
 
 El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
 
