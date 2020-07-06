@@ -4,8 +4,11 @@ subtopic: Schedule
 title: Programación y distribución del informe
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1661'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Debido a las diferencias en los mecanismos y las plataformas de procesamiento, l
 
 Estas limitaciones son para los informes individuales programados y descargados; los tableros se limitan a la cantidad de espacio disponible en un informe breve.
 
->[!NOTE] La “Hora de envío”/“Hora del día” introducida por el usuario especifica la hora en que el informe debe comenzar a procesarse, no la hora en que se enviará. El tiempo real en que el informe se enviará se basa principalmente en el tiempo que tarda en procesar (los informes complejos y grandes tardan más en procesarse que los más simples). Por ejemplo: si un informe tarda 15 minutos en procesarse, el tiempo de entrega real será al menos 15 minutos después del “Tiempo de entrega” /“Hora del día” especificado originalmente.
+>[!NOTE]
+>
+>La “Hora de envío”/“Hora del día” introducida por el usuario especifica la hora en que el informe debe comenzar a procesarse, no la hora en que se enviará. El tiempo real en que el informe se enviará se basa principalmente en el tiempo que tarda en procesar (los informes complejos y grandes tardan más en procesarse que los más simples). Por ejemplo: si un informe tarda 15 minutos en procesarse, el tiempo de entrega real será al menos 15 minutos después del “Tiempo de entrega” /“Hora del día” especificado originalmente.
 >Además, hay otros factores que pueden aumentar aún más la demora antes de que se presente el informe:
 >
 > * **Ejecución de varias programaciones diferentes del mismo tipo al mismo tiempo** (por ejemplo, muchos paneles, etc.) puede sobrecargar el sistema. El sistema de programación solo permite ejecutar al mismo tiempo unos pocos informes (5-10) de cualquier tipo, por lo que cuando se programen más de 5-10 al mismo tiempo, algunos tendrán que esperar a que otros informes finalicen antes de que puedan comenzar a procesarse. Este problema se puede mitigar programando los informes de una empresa en horas escalonadas durante el día o la hora, en lugar de hacerlo simultáneamente.
@@ -90,6 +95,7 @@ Descargue información detallada sobre un informe concreto en los formatos PDF, 
    * **[!UICONTROL CSV]**: especifica que el informe se descargará en formato [!DNL .csv] (formato de valores separados por comas).
    * **[!UICONTROL Excel]**: especifica que el informe se descargará en formato de Microsoft Excel, lo cual le permite compartir el informe con otros usuarios que podrán abrirlo en un programa de hojas de cálculo.
    * **[!UICONTROL Word]**: especifica que el informe se descargará en formato Microsoft Word.
+
    >[!NOTE]
    >
    >Si utiliza uno de los formatos de exportación sin procesar para descargar un informe y el nombre de la página está en blanco, puede que Adobe Analytics no haya tenido tiempo suficiente para procesar los datos. Descargue el informe más tarde.
