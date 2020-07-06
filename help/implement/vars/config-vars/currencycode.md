@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 90%
@@ -20,7 +20,9 @@ Si `currencyCode` está definida y coincide con la moneda del grupo de informes,
 
 Si `currencyCode` está definida y es diferente a la moneda del grupo de informes, Adobe aplica una conversión de moneda basada en el tipo de cambio del día actual. Adobe se asocia con [XE](https://xe.com) para convertir moneda cada día. Todos los valores almacenados en los servidores de recopilación de datos se almacenan finalmente en la moneda del grupo de informes.
 
->[!IMPORTANT] Si `currencyCode` contiene un valor no válido, se descarta toda la visita, lo que provoca la pérdida de datos. Asegúrese de que esta variable esté correctamente definida si la utiliza en la implementación.
+>[!IMPORTANT]
+>
+>Si `currencyCode` contiene un valor no válido, se descarta toda la visita, lo que provoca la pérdida de datos. Asegúrese de que esta variable esté correctamente definida si la utiliza en la implementación.
 
 Esta variable no persiste entre visitas. Asegúrese de que esta variable esté definida en todas las páginas que involucren eventos de ingresos o de moneda.
 
@@ -37,7 +39,7 @@ Puede utilizar un código de moneda preestablecido o un código de moneda person
 
 ## Código de moneda en el SDK de Adobe Experience Platform Mobile
 
-El código de moneda se pasa a los SDK de Adobe Experience Platform Mobile a través de variables de datos de contexto en la extensión Adobe Analytics.
+El código de moneda se pasa a los SDK de Adobe Experience Platform Mobile a través de variables de datos de contexto en la extensión Analytics de Adobe.
 
 1. Configure el código de moneda en una variable de datos de contexto durante `trackState` o `trackAction`.
 2. Cree una regla de procesamiento en la consola de administración de Adobe Analytics para el grupo de informes. Configure la regla para sobrescribir la variable Código de moneda.
