@@ -4,7 +4,10 @@ title: Importación de informes marcados e informes del panel
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -19,11 +22,15 @@ Este es el modo en el que el Paso 1 del Asistente para solicitudes muestra un ta
 
 ![](assets/import_dashboard_reportlet.png)
 
-Al hacer clic **[!UICONTROL Retrieve your Dashboards]** o **[!UICONTROL Retrieve your Bookmarks]**, los datos de panel o marcador existentes se recuperan y se pegan en la hoja de cálculo.
+Al hacer clic en **[!UICONTROL Recuperar los tableros]** o **[!UICONTROL Recuperar los marcadores]**, se recuperan los datos de los tableros y/o los marcadores y se pegan en la hoja de cálculo.
 
->[!NOTE] En Report Builder, la lista de paneles y marcadores disponibles está limitada al usuario, pero también a los que se aplican al grupo de informes que ha seleccionado en el paso 1 del asistente. Por el contrario, en los informes y análisis de marketing obtiene acceso a todos los marcadores y tableros que le son accesibles, independientemente de qué grupos de informes utilicen dichos tableros y marcadores.
+>[!NOTE]
+>
+>En Report Builder, la lista de paneles y marcadores disponibles está limitada al usuario, pero también a los que se aplican al grupo de informes que ha seleccionado en el paso 1 del asistente. Por el contrario, en los informes y análisis de marketing obtiene acceso a todos los marcadores y tableros que le son accesibles, independientemente de qué grupos de informes utilicen dichos tableros y marcadores.
 
->[!NOTE] Solo se importan los datos, de modo que si un marcador contiene un gráfico o si el informe breve del tablero consiste únicamente en un gráfico, solo se importarán los datos utilizados para rellenar el gráfico.
+>[!NOTE]
+>
+>Solo se importan los datos, de modo que si un marcador contiene un gráfico o si el informe breve del tablero consiste únicamente en un gráfico, solo se importarán los datos utilizados para rellenar el gráfico.
 
 Una vez que haya creado una solicitud mediante la importación de un informe breve del panel (o un marcador), la solicitud quedará asociada a la dimensión primaria del informe breve (o marcador). Como resultado, si edita la solicitud, la vista de árbol ya no selecciona el nodo de vista de árbol del informe breve del tablero (o nodo de marcador): selecciona su dimensión principal en su lugar.
 
