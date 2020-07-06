@@ -3,7 +3,10 @@ description: Report Builder 5.2 es compatible con las métricas calculadas unifi
 title: Métricas calculadas
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Report Builder 5.2 es compatible con las métricas calculadas unificadas de Adobe Analytics. Entre otras innovaciones, ahora las métricas calculadas tienen un identificador global, de modo que ya no están restringidas a un grupo de informes.
 
->[!NOTE] Los libros de trabajo existentes pueden apuntar a solicitudes con identificadores de métricas antiguas. Al usar Report Builder 5.2, dichos identificadores de métricas antiguas se convertirán en identificadores globales nuevos. Si comparte el libro de trabajo con un usuario de Report Builder 5.1 u otra anterior, dicho usuario no podrá consultar las métricas calculadas.
+>[!NOTE]
+>
+>Los libros de trabajo existentes pueden apuntar a solicitudes con identificadores de métricas antiguas. Al usar Report Builder 5.2, dichos identificadores de métricas antiguas se convertirán en identificadores globales nuevos. Si comparte el libro de trabajo con un usuario de Report Builder 5.1 u otra anterior, dicho usuario no podrá consultar las métricas calculadas.
 
 Para obtener más información acerca de cómo crear y administrar métricas calculadas con los nuevos Creador de métricas calculadas y Administrador, consulte la guía [Métricas calculadas](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/cm-overview.html).
 
@@ -40,7 +45,7 @@ Los filtros disponibles incluyen:
 
 ## Aplicar métricas calculadas {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
-After you have selected the filters, click **[!UICONTROL Apply]** to apply them to your request. Las métricas seleccionadas se agregarán al diseño del informe.
+Cuando haya seleccionado los filtros, haga clic en **[!UICONTROL Aplicar]** para aplicarlos en la solicitud. Las métricas seleccionadas se agregarán al diseño del informe.
 
 ![](assets/filtering_for_metric.png)
 
