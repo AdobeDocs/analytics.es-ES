@@ -3,10 +3,10 @@ description: Muestran información sobre el acceso a sitios web desde dispositiv
 title: Informes de dispositivos móviles
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1378'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,11 @@ Muestran información sobre el acceso a sitios web desde dispositivos móviles. 
 
 Muestran información sobre el acceso a sitios web desde dispositivos móviles. Los informes sobre dispositivos móviles mejoran la identificación del visitante recopilando datos sobre los dispositivos móviles utilizados para ver el sitio. Los informes de dispositivos móviles pueden identificar al fabricante y las capacidades del dispositivo, como tamaño de pantalla, vídeo, audio, compatibilidad con cookies y otras métricas. Los informes de dispositivos móviles están disponibles para todos los grupos de informes.
 
-Para mejorar la identificación del visitante para dispositivos móviles, debe estar en la lista del operador (lista de permitidos) para enviar ID de suscriptor a un dominio. (Puede ver el operador en el informe de **[!UICONTROL Perfil del visitante]** > **[!UICONTROL Dominios]**).
+Para mejorar la identificación del visitante para dispositivos móviles, debe estar en la lista (lista de permitidos) del operador para enviar ID de suscriptor a un dominio. (Puede ver el operador en el informe de **[!UICONTROL Perfil del visitante]** > **[!UICONTROL Dominios]**).
 
->[!NOTE] Para ver informes en un dispositivo móvil, inicie sesión en [Experience Cloud](https://login.experiencecloud.adobe.com).
+>[!NOTE]
+>
+>Para ver informes en un dispositivo móvil, inicie sesión en [Experience Cloud](https://login.experiencecloud.adobe.com).
 
 Para obtener más información acerca del seguimiento móvil, consulte el sitio [Análisis móviles](https://www.adobe.com/es/experience-cloud/topics/mobile-analytics.html).
 
@@ -34,7 +36,7 @@ Para obtener más información acerca del seguimiento móvil, consulte el sitio 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Dispositivos  Información general de la tienda de aplicaciones </p> </td> 
+   <td colname="col1"> <p>Informe de dispositivos </p> </td> 
    <td colname="col2"> <p>Muestra la cantidad de visitantes que ingresaron al sitio mediante dispositivos móviles, por ejemplo, con sistema operativo iOS o Android. Este informe puede ayudarle a comprender el impacto de las campañas dirigidas a dispositivos móviles, para tenerlo en cuenta en los planes. </p> <p>Puede utilizar este informe para: </p> 
     <ul id="ul_76899F0390C64BF7BC8B3763E5E77CE9"> 
      <li id="li_0DB05A8459634EE59833540F67773298"> Desarrollar estrategias dirigidas a los usuarios de dispositivos móviles </li> 
@@ -43,7 +45,7 @@ Para obtener más información acerca del seguimiento móvil, consulte el sitio 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Fabricante  Información general de la tienda de aplicaciones </p> </td> 
+   <td colname="col1"> <p>Informe de fabricantes </p> </td> 
    <td colname="col2"> <p>Agrupa las visitas al sitio con dispositivos móviles según el fabricante. El informe muestra el tipo de fabricante, la cantidad de vistas para cada fabricante y los porcentajes correspondientes. </p> </td> 
   </tr> 
   <tr> 
@@ -80,7 +82,7 @@ Para obtener más información acerca del seguimiento móvil, consulte el sitio 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Informes de DRM </p> </td> 
-   <td colname="col2"> <p>Agrupan los dispositivos móviles según el tipo de administración de derechos digitales (DRM) que admiten. Los grupos de DRM incluyen  <span class="term">Bloqueo de reenvío</span>, <span class="term">Envío combinado</span>, <span class="term">Envío separado</span> y <span class="term">Desconocido</span>. </p> </td> 
+   <td colname="col2"> <p>Agrupan los dispositivos móviles según el tipo de administración de derechos digitales (DRM) que admiten. DRM groups include <span class="term"> Forward Lock</span>, <span class="term"> Combined Delivery</span>, <span class="term"> Separate Delivery</span>, and <span class="term"> Unknown</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Informe de protocolos de red </p> </td> 
@@ -112,11 +114,11 @@ Para obtener más información acerca del seguimiento móvil, consulte el sitio 
   </tr> 
   <tr> 
    <td colname="col1"> Informe de PTT </td> 
-   <td colname="col2"> <p>Agrupa los dispositivos móviles en función de si el dispositivo admite la función de pulsar y hablar (PTT). El informe también incluye un grupo  Grupo <span class="term">desconocido</span> para los dispositivos en los que no se puede determinar la compatibilidad con PTT. </p> </td> 
+   <td colname="col2"> <p>Agrupa los dispositivos móviles en función de si el dispositivo admite la función de pulsar y hablar (PTT). The report also includes an <span class="term"> Unknown</span> group for those devices where PTT support cannot be determined. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Informe de compatibilidad con Decoration Mail </td> 
-   <td colname="col2"> <p>Agrupa los dispositivos móviles en función de si admiten DecoMail, que permite al usuario decorar los mensajes con gráficos y animaciones. El informe también incluye un grupo  Grupo <span class="term"> desconocido</span> para los dispositivos en los que no se puede determinar la compatibilidad con Decoration Mail. </p> </td> 
+   <td colname="col2"> <p>Agrupa los dispositivos móviles en función de si admiten DecoMail, que permite al usuario decorar los mensajes con gráficos y animaciones. The report also includes an <span class="term"> Unknown</span> group for those devices where Decoration Mail support cannot be determined. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Servicios de información  Información general de la tienda de aplicaciones </td> 
