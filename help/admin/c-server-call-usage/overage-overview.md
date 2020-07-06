@@ -2,8 +2,11 @@
 description: 'null'
 title: Información general sobre Uso de llamadas al servidor
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1038'
+ht-degree: 100%
 
 ---
 
@@ -82,7 +85,9 @@ Este es un breve manual sobre terminología esencial para Uso de llamadas al ser
 
 El permiso de Uso de llamadas al servidor se concede, de forma automática, a los administradores de Analytics. Permite a los usuarios ver el tablero y crear alertas de llamadas al servidor. Los administradores pueden elegir conceder este permiso a los no administradores.
 
->[!NOTE] Su empresa puede elegir qué empresas de inicio de sesión tienen acceso a Uso de llamadas al servidor.
+>[!NOTE]
+>
+>Su empresa puede elegir qué empresas de inicio de sesión tienen acceso a Uso de llamadas al servidor.
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
