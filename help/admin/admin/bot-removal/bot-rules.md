@@ -4,8 +4,11 @@ subtopic: Bot rules
 title: Resumen sobre reglas de Bot
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1351'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +40,9 @@ Adobe no puede proporcionar la lista detallada de bots de la IAB a los clientes,
 
 ## Reglas de bots personalizadas
 
->[!NOTE]: La interfaz de usuario permite definir 500 reglas manualmente. Una vez alcanzado este límite, es necesario gestionar las reglas de forma masiva mediante las opciones Importar archivo y Exportar reglas Bot.
+>[!NOTE]
+>
+>: La interfaz de usuario permite definir 500 reglas manualmente. Una vez alcanzado este límite, es necesario gestionar las reglas de forma masiva mediante las opciones Importar archivo y Exportar reglas Bot.
 
 Las reglas de bots personalizadas permiten filtrar el tráfico en función de las condiciones definidas.
 
@@ -121,7 +126,9 @@ Las reglas de VISTA se aplican después de las reglas de bots (consulte [Orden d
 
 **Procesamiento de visitas intensivas:** si en una visita se registran más de 100 entradas, el informe determinará si el tiempo en segundos asignado a la visita es inferior o igual al número de entradas que contiene. En este caso, debido al costo de las visitas intensivas que requieren un procesamiento prolongado, el informe comienza de nuevo con una nueva lista. Por lo general, las visitas intensivas se deben a ataques de bots y no se consideran eventos de exploración de visitantes corrientes.
 
->[!NOTE] Las visitas marcadas como *`bots`* se facturan como [llamadas al servidor.](/help/admin/c-server-call-usage/overage-overview.md)
+>[!NOTE]
+>
+>Las visitas marcadas como *`bots`* se facturan como [llamadas al servidor.](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Influencia de la confusión de IP en el filtrado para bots {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
