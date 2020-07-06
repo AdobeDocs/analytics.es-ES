@@ -4,7 +4,7 @@ title: Canal de conversión
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
@@ -32,5 +32,7 @@ Este informe también se puede personalizar para poder agregar eventos de conver
 
 La tabla del informe muestra estadísticas de ventas promedio por pulsación y unidades promedio vendidas por pulsación. A estos informes, se les pueden agregar métricas y eventos personalizados de otros grupos de informes. Aunque estos canales tienen muchos parecidos, se basan en variables y eventos diferentes. Estos informes se pueden usar para ver qué porcentajes y tendencias generales de los usuarios activan eventos específicos que se determinen. Permiten ver los lugares en los que los usuarios no siguen la ruta de eventos esperada, lo cual permite comprender ese punto en particular dentro del proceso de conversión.
 
->[!NOTE] El número de instancias en el contexto de estos informes es igual al número total de visitas donde se ha definido una eVar o evento.
+>[!NOTE]
+>
+>El número de instancias en el contexto de estos informes es igual al número total de visitas donde se ha definido una eVar o evento.
 
