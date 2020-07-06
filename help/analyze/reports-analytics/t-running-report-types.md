@@ -3,8 +3,11 @@ description: Pasos para ejecutar los distintos tipos de informes.
 title: Ejecutar diferentes tipos de informes
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 100%
 
 ---
 
@@ -148,7 +151,9 @@ Consulte las nuevas funciones de [Detección de anomalías y Análisis de contri
 
 **[!UICONTROL Informes]** > **[!UICONTROL Métricas del sitio]** > **[!UICONTROL Detección de anomalías]** .
 
->[!NOTE] También puede ejecutar la Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>[!NOTE]
+>
+>También puede ejecutar la Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 Si desea más información sobre la configuración de la detección de anomalías, consulte la [Guía de referencia](https://docs.adobe.com/content/help/es-ES/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
