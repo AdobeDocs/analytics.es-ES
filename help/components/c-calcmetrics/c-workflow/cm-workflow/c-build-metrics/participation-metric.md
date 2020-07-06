@@ -3,7 +3,10 @@ description: Gracias al Creador de métricas calculadas, todo el mundo puede cre
 title: Métrica de participación
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Veamos un caso de uso sencillo. Usted es el propietario de cierto contenido y quiere averiguar las páginas que han contribuido (es decir, participado) a obtener visitas que contenían un registro por correo electrónico. A continuación se muestra cómo:
 
->[!NOTE] Anteriormente, este procedimiento se realizaba mediante Herramientas de administración. Aún puede habilitar métricas de participación en Herramientas de administración, pero solo para los eventos personalizados 1-100.
+>[!NOTE]
+>
+>Anteriormente, este procedimiento se realizaba mediante Herramientas de administración. Aún puede habilitar métricas de participación en Herramientas de administración, pero solo para los eventos personalizados 1-100.
 
 Veamos un caso de uso sencillo. Usted es el propietario de cierto contenido y quiere averiguar las páginas que han contribuido a obtener visitas que contenían un registro por correo electrónico. A continuación se muestra cómo:
 
