@@ -2,15 +2,20 @@
 description: 'null'
 title: Prácticas recomendadas de etiquetado
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2689'
+ht-degree: 100%
 
 ---
 
 
 # Prácticas recomendadas de etiquetado
 
->[!NOTE] Recuerde que el etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
+>[!NOTE]
+>
+>Recuerde que el etiquetado debe revisarse cada vez que se crea un nuevo grupo de informes o cuando se activa una nueva variable dentro de un grupo de informes existente. También es posible que necesite revisar el etiquetado cuando se activen nuevas integraciones de la solución, ya que pueden exponer nuevas variables que pueden requerir etiquetado. Una reimplementación de sus aplicaciones móviles o sitios web puede cambiar la forma en la que se utilizan las variables existentes, las cuales también pueden necesitar la actualización de las etiquetas.
 
 ## ID directamente e indirectamente identificables {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -66,7 +71,9 @@ Utilice esta tabla para determinar los tipos de ID que usará para enviar solici
 
 ## Prácticas recomendadas para establecer etiquetas de eliminación {#section_08166C99B48E49218392FAC18922C10E}
 
->[!NOTE] Las props nunca distinguen entre mayúsculas y minúsculas. Las eVars tampoco distinguen entre mayúsculas y minúsculas, pero pueden configurarse con la ayuda del servicio de atención al cliente de Adobe para que realicen esta distinción. Si tiene una eVar que distingue entre mayúsculas y minúsculas y que contiene un ID, es su responsabilidad usar la combinación correcta de mayúsculas y minúsculas a la hora de enviar una solicitud de privacidad de datos, de modo que la combinación empleada en la solicitud coincida con la utilizada en las visitas que contengan esos ID.
+>[!NOTE]
+>
+>Las props nunca distinguen entre mayúsculas y minúsculas. Las eVars tampoco distinguen entre mayúsculas y minúsculas, pero pueden configurarse con la ayuda del servicio de atención al cliente de Adobe para que realicen esta distinción. Si tiene una eVar que distingue entre mayúsculas y minúsculas y que contiene un ID, es su responsabilidad usar la combinación correcta de mayúsculas y minúsculas a la hora de enviar una solicitud de privacidad de datos, de modo que la combinación empleada en la solicitud coincida con la utilizada en las visitas que contengan esos ID.
 
 Las etiquetas de eliminación DEL-DEVICE y DEL-PERSON deben usarse con moderación. Cuando se aplican a una variable que no contiene un ID que se usaba como parte de la solicitud de privacidad de datos, los recuentos (las métricas) de los informes históricos de Analytics casi siempre cambiarán.
 
