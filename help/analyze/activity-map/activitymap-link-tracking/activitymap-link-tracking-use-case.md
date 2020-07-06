@@ -3,8 +3,11 @@ description: Los vínculos se pueden diferenciar personalizando bien el ID del v
 title: Diferenciación entre varios vínculos que hacen referencia al mismo ID y la misma región de vínculo
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 100%
 
 ---
 
@@ -87,7 +90,9 @@ Si crea un ID de objeto único para un vínculo o una ubicación de vínculo en 
 
 Puede personalizar la región asegurándose de que cada vínculo “buy” tenga definida su propia región. Para hacerlo, agregue un parámetro “id” a uno de los elementos primarios de cada etiqueta de anclaje “Buy”.
 
->[!NOTE] Se pueden usar otros parámetros como identificadores de región aparte de “id”. También puede definir su propio identificador con la variable de JavaScript “s.ActivityMap.regionIDAttribute”.
+>[!NOTE]
+>
+> Se pueden usar otros parámetros como identificadores de región aparte de “id”. También puede definir su propio identificador con la variable de JavaScript “s.ActivityMap.regionIDAttribute”.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
