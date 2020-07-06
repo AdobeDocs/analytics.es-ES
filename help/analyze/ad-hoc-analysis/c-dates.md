@@ -3,7 +3,10 @@ description: En el calendario, se pueden indicar fechas e intervalos de fechas o
 title: Fechas e intervalos de fechas
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ Al seleccionar un rango de fecha cuando cree un proyecto, si usa Preconfigurado 
 
 ![](assets/daterange.jpeg)
 
->[!NOTE] Si necesita ayuda para ejecutar informes preexistentes, comuníquese con su administrador de cuenta.
+>[!NOTE]
+>
+>Si necesita ayuda para ejecutar informes preexistentes, comuníquese con su administrador de cuenta.
 
 ## Fracciones de datos preexistentes {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +46,7 @@ c_legacy_data.xml
 1. [Cree](/help/analyze/ad-hoc-analysis/c-getting-started.md) o abra un proyecto.
 1. Abra el [calendario](/help/analyze/ad-hoc-analysis/c-dates.md) y, a continuación, seleccione **[!UICONTROL Trimestre]** o **[!UICONTROL Año]**.
 
->[!NOTE] Las fracciones de datos históricos están dentro de una restricción trimestral y anual. No se pueden ver datos que sobrepasen los límites entre las fracciones preexistentes y la nueva plataforma de procesamiento. Intervalos de fechas que abarcan ambos resultados en un error. Asimismo, solo se aplican los intervalos de fecha al calendario gregoriano, no al calendario personalizado.
+>[!NOTE]
+>
+> Las fracciones de datos históricos están dentro de una restricción trimestral y anual. No se pueden ver datos que sobrepasen los límites entre las fracciones preexistentes y la nueva plataforma de procesamiento. Intervalos de fechas que abarcan ambos resultados en un error. Asimismo, solo se aplican los intervalos de fecha al calendario gregoriano, no al calendario personalizado.
 
