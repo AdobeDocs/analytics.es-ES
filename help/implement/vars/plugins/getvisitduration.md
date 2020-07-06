@@ -1,15 +1,20 @@
 ---
 title: getVisitDuration
 description: Rastree cuánto tiempo ha pasado un visitante en el sitio hasta el momento.
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 100%
 
 ---
 
 
 # Complemento de Adobe: getVisitDuration
 
->[!IMPORTANT] Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
+>[!IMPORTANT]
+>
+>Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
 El complemento `getVisitDuration` rastrea el tiempo en minutos que el visitante ha pasado en el sitio hasta ese momento. Adobe recomienda utilizar este complemento si desea rastrear el tiempo acumulado en el sitio hasta ese momento o para rastrear el tiempo que tarda en realizar una actividad. Este complemento no rastrea el tiempo entre eventos; si desea esta funcionalidad, utilice el complemento [`getTimeBetweenEvents`](gettimebetweenevents.md).
 
