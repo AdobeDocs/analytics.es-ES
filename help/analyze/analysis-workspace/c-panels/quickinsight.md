@@ -1,33 +1,29 @@
 ---
 description: Quick Insights es una herramienta para nuevos usuarios de Workspace que les guía en la creación de tablas de datos y visualizaciones
-title: Panel de perspectivas rápidas
+title: Panel de información rápida
 translation-type: tm+mt
-source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
+source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 3%
+source-wordcount: '1048'
+ht-degree: 5%
 
 ---
 
 
-# Panel de perspectivas rápidas
+# Panel de información rápida
 
->[!IMPORTANT]
->
->**[!UICONTROL El panel de perspectivas]** rápidas se encuentra actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html)
+[!UICONTROL Quick Insights] proporciona una guía a los no analistas y a los nuevos usuarios de [!UICONTROL Analysis Workspace] para aprender a responder preguntas comerciales de forma rápida y sencilla. También es una buena herramienta para usuarios avanzados que desean responder a una pregunta simple rápidamente sin tener que crear una tabla ellos mismos.
 
-[!UICONTROL Quick Insights] proporciona una guía a los no analistas y a los nuevos usuarios de [!UICONTROL Análisis Workspace] para aprender a responder preguntas comerciales de forma rápida y sencilla. También es una buena herramienta para usuarios avanzados que desean responder a una pregunta simple rápidamente sin tener que crear una tabla ellos mismos.
+Al utilizar este [!UICONTROL Analysis Workspace]por primera vez, es posible que se pregunte qué visualizaciones serían más útiles, qué dimensiones y métricas podrían facilitar las perspectivas, dónde arrastrar y soltar elementos, dónde crear un segmento, etc.
 
-Al utilizar este espacio de trabajo [!UICONTROL de]Análisis por primera vez, es posible que se pregunte qué visualizaciones serían más útiles, qué dimensiones y métricas podrían facilitar las perspectivas, dónde arrastrar y soltar elementos, dónde crear un segmento, etc.
-
-Para ayudarle con esto, y en función del uso que haga su propia compañía de los componentes de datos en [!UICONTROL Análisis Workspace], [!UICONTROL Quick Insights] aprovecha un algoritmo que le presentará las dimensiones, métricas, segmentos e intervalos de fechas más populares que utilice su compañía. De hecho, verá dimensiones, métricas y segmentos etiquetados como [!UICONTROL populares] en la lista desplegable, como se muestra a continuación:
+Para ayudarle con esto, y en función del uso que haga su propia compañía de los componentes de datos en el [!UICONTROL Analysis Workspace], [!UICONTROL Quick Insights] aprovecha un algoritmo que le presentará las dimensiones, métricas, segmentos e intervalos de fechas más populares que utilice su compañía. De hecho, verá dimensiones, métricas y segmentos etiquetados como [!UICONTROL populares] en la lista desplegable, como se muestra a continuación:
 
 ![](assets/popular-tag.png)
 
 [!UICONTROL Quick Insights] le ayuda
 
-* Cree correctamente una tabla de datos y una visualización adjunta en [!UICONTROL Análisis Workspace].
-* Conozca la terminología y el vocabulario de los componentes básicos y las piezas de [!UICONTROL Análisis Workspace].
+* Cree correctamente una tabla de datos y una visualización adjunta en el [!UICONTROL Analysis Workspace].
+* Conozca la terminología y el vocabulario para componentes básicos y piezas de [!UICONTROL Analysis Workspace].
 * Realice desgloses simples de dimensiones, agregue varias métricas o compare segmentos fácilmente dentro de una tabla [!UICONTROL improvisada].
 * Cambie o pruebe varios tipos de visualización para encontrar la herramienta de búsqueda para su análisis de forma rápida e intuitiva.
 
@@ -40,7 +36,7 @@ A continuación se incluyen algunos de los términos básicos con los que debe e
 | [!UICONTROL Dimensión] | Las dimensiones son descripciones o características de los datos de métricas que se pueden ver, desglosar y comparar en un proyecto. Son valores no numéricos y fechas que se desglosan en elementos de dimensión. Por ejemplo, &quot;browser&quot; o &quot;page&quot; son dimensiones. |
 | [!UICONTROL Elemento de dimensión] | Los elementos de dimensión son valores individuales para una dimensión. Por ejemplo, los elementos de dimensión para la dimensión del navegador serían &quot;Chrome&quot;, &quot;Firefox&quot;, &quot;Edge&quot;, etc. |
 | [!UICONTROL Métrica] | Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc. |
-| [!UICONTROL Visualización] | Workspace oferta [una serie de visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) para crear representaciones visuales de los datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. |
+| [!UICONTROL Visualización] | Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to build visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. |
 | [!UICONTROL Desglose de dimensiones] | Un desglose de dimensión es una forma de desglosar literalmente una dimensión por otras dimensiones. En nuestro ejemplo, puede desglosar los estados de EE. UU. por dispositivos móviles para obtener las visitas de los dispositivos móviles por estado o puede desglosar Dispositivos móviles por tipos de dispositivos móviles, por regiones, por Campañas internas, etc. |
 | [!UICONTROL Segmento] | Los segmentos permiten identificar subconjuntos de visitantes en función de las características o las interacciones con el sitio web. Por ejemplo, puede generar segmentos de [!UICONTROL Visitante] basados en atributos: tipo de explorador, dispositivo, número de visitas, país, sexo o según las interacciones: campañas, búsqueda de palabras clave, motor de búsqueda o en función de salidas y entradas: visitantes de Facebook, una página de aterrizaje definida, un dominio de referencia o basados en variables personalizadas: campo de formulario, categorías definidas, ID de cliente. |
 
@@ -66,6 +62,7 @@ A continuación se incluyen algunos de los términos básicos con los que debe e
 1. Cuando haya agregado al menos una dimensión y una métrica, se creará lo siguiente:
 
    * Una tabla improvisada con la dimensión (aquí, Estados de EE.UU.) verticalmente y la métrica (aquí, Visitas) horizontalmente en la parte superior. Consulte esta tabla:
+
    ![](assets/qibuilder3.png)
 
    * Una visualización adjunta, en este caso un gráfico [de barras](/help/analyze/analysis-workspace/visualizations/bar.md). La visualización que se genera se basa en el tipo de datos agregados a la tabla. Cualquier dato basado en el tiempo (como [!UICONTROL Visitas] por día/mes) tiene un gráfico de [!UICONTROL líneas] predeterminado. Cualquier dato no basado en el tiempo (como [!UICONTROL Visitas] por [!UICONTROL dispositivo]) tiene el valor predeterminado de un gráfico de [!UICONTROL barras] . Puede cambiar el tipo de visualización haciendo clic en la flecha desplegable situada junto al tipo de visualización.
