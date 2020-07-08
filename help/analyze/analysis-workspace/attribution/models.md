@@ -2,10 +2,10 @@
 title: Modelos de atribución y ventanas retroactivas
 description: Cómo los diferentes tipos de atribución dividen el crédito entre los valores de dimensión.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 92%
+source-wordcount: '1483'
+ht-degree: 93%
 
 ---
 
@@ -42,10 +42,6 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 * **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. El retrospectivo de Visitante tiene en cuenta todos los valores desde el comienzo del mes del intervalo de fechas del informe. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
 
 * **Ventana retroactiva personalizada:** Permite expandir la ventana de atribución más allá del intervalo de fechas de sistema de informes hasta un máximo de 90 días. Las ventanas retroactivas personalizadas se evalúan en cada conversión del período de sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de dimensión del 10 al 20 de febrero en el modelo de atribución.
-
->[!NOTE]
->
->**[!UICONTROL Las ventanas]** retroactivas personalizadas están actualmente en pruebas limitadas. Consulte las versiones [de funciones de](/help/landing/an-releases.md) Adobe Analytics para obtener más información.
 
 ## Ejemplo
 
