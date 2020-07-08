@@ -6,10 +6,10 @@ title: Referencia de columnas de datos
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
 workflow-type: tm+mt
-source-wordcount: '3650'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 98%
 
 ---
 
@@ -267,7 +267,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `visid_low` | Se utiliza en combinación con visid_high para identificar un visitante de forma única. | bigint sin firmar |
 | `visid_new` | Indicador que identifica si la visita contiene una ID de visitante generada recientemente. | char(1) |
 | `visid_timestamp` | Si la ID de visitante se ha generado recientemente, proporciona la marca de tiempo (en Tiempo Unix) del momento en que se generó la ID de visitante. | int |
-| `visid_type` | ID numérica que representa qué método se ha utilizado para identificar al visitante. <br>0: VisitorID personalizado <br>1: IP y reserva del agente de usuario <br>2: Encabezado de suscriptor móvil HTTP <br>3: Valor de la cookie heredada (s_vi) <br>4: Valor de cookie de reserva (s_fid) <br>5: Servicio de identidad | tinyint sin firmar |
+| `visid_type` | No para uso externo; utilizado internamente por Adobe para procesar optimizaciones. ID numérico que representa el método utilizado para identificar el visitante.<br>0: VisitorID personalizado o Desconocido/no aplicable<br>1: IP y reserva del agente de usuario <br>2: Encabezado de suscriptor móvil HTTP <br>3: Valor de cookie heredado (s_vi) <br>4: Valor de cookie de reserva (s_fid) <br>5: Servicio de identidad | tinyint sin firmar |
 | `visit_keywords` | Variable utilizada en la dimensión Palabra clave de búsqueda. Esta columna utiliza un límite de caracteres no estándar para dar cabida a la lógica back-end utilizada por Adobe. | varchar(244) |
 | `visit_num` | Variable utilizada en la dimensión Número de visitas. Empieza en 1 y aumenta cada vez que se inicia una nueva visita por visitante. | int sin firmar |
 | `visit_page_num` | Variable utilizada en la dimensión Profundidad de visita. Aumenta de uno en uno con cada visita que genera el usuario. Restablece cada visita. | int sin firmar |
