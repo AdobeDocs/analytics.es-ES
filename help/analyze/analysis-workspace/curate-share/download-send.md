@@ -3,7 +3,10 @@ description: Puede descargar proyectos guardados y sin guardar en los formatos P
 title: Descarga de archivos PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
+source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 61%
 
 ---
 
@@ -22,16 +25,17 @@ Recuerde:
 * Sabemos que si tiene proyectos de Workspace muy largos, los archivos PDF se exportan como una página gigante en lugar de como un documento paginado. Estamos trabajando en una mejora en la exportación de PDF de Workspace que permitirá la paginación.
 
 1. Cree o abra un proyecto.
-1. Haga clic **[!UICONTROL Project]** > **[!UICONTROL Download CSV (or Download PDF).]**
+1. Haga clic en **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar CSV (o Descargar PDF).]**
 
-A partir del 11 de abril de 2019, se han aplicado varios cambios en las **[!CSV descargas]** (y en **[!CCopiar al Portapapeles]**) desde Analysis Workspace para eliminar el formato de los datos exportados.
-* El separador de miles ya no se incluye. (The decimal separator will continue to be included, and will adhere to the format defined under **[!UICONTROL Components > Report Settings > Thousands Separator]**).
+On April 11, 2019, several changes were made to **[!UICONTROL CSV downloads]** (and **[!UICONTROL Copy to Clipboard]**) from Analysis Workspace to remove formatting from exported data.
+* The  **[!UICONTROL Thousands Separator]** is no longer included. (Se seguirá incluyendo el separador decimal y se respetará el formato definido dentro de **[!UICONTROL Componentes > Configuración de informes > Separador de miles]**).
 * No se muestran símbolos de moneda.
 * No se muestran símbolos de porcentaje.
 * Los porcentajes están en forma decimal. Por ejemplo, el 75% se representa como 0,75.
 * El tiempo se muestra en segundos.
 * Las tablas de cohorte solo muestran valores sin procesar y se eliminan los porcentajes.
 * Si un número no es válido, se mostrará una celda vacía.
+* No se aplica redondeo (incluso si se especifica en la métrica calculada): se muestran los valores sin procesar.
 
 >[!Nota:]
 >
