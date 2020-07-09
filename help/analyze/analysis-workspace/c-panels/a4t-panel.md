@@ -2,7 +2,7 @@
 description: El panel Analytics para Destinatario (A4T) permite analizar las actividades y experiencias de Adobe Target en Analysis Workspace.
 title: Panel Analytics para Destinatario (A4T)
 translation-type: tm+mt
-source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
+source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 14%
@@ -26,7 +26,7 @@ Puede configurar el panel A4T con esta configuración de entrada:
 | Métricas de éxito | Seleccione hasta 3 eventos de éxito estándar (no calculados) en la lista desplegable o arrastre y suelte las métricas desde el carril izquierdo. Cada métrica tendrá una tabla y una visualización dedicadas en el panel procesado. |
 | Intervalo de fechas del calendario | Esto se rellenará automáticamente en función del intervalo de fechas de Actividad desde el Adobe Target. Puede cambiarlo si es necesario. |
 
-![Generador de paneles](assets/a4t-panel-builder.png)
+![Generador de paneles](assets/a4t-panel-builder2.png)
 
 ## Salida de panel {#Output}
 
