@@ -2,9 +2,9 @@
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
+source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2307'
 ht-degree: 78%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 78%
 
 # Guía del gestor de datos para paneles de Adobe Analytics
 
-La siguiente información indica a los curadores de datos de Adobe Analytics cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo que muestre esta información, consulte Generador de cuadros de mando de paneles de [Adobe Analytics](https://youtu.be/tnnl6hrcP94).
+La siguiente información instruye a los curadores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo que muestra esta información, consulte Generador de cuadros de mando de paneles de [Adobe Analytics](https://youtu.be/tnnl6hrcP94).
 
 ## Primeros pasos
 
@@ -142,12 +142,10 @@ Para compartir el informe de valoración con un usuario ejecutivo:
    * Proporcione una descripción del informe de valoración
    * Añada las etiquetas relevantes
    * Especificación de los destinatarios del informe de valoración
-   * Seleccione la opción **Compartir componentes incrustados con los destinatarios** para asegurarse de que el usuario ejecutivo tenga acceso a todos los componentes del informe de valoración.
 
 3. Haga clic en **Compartir**.
 
 ![Share_Scorecards](assets/new_share.png)
-
 
 Una vez que haya compartido un informe de valoración, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el informe de valoración mediante el Generador de informes de valoración, estos se aplicarán automáticamente al informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
 
@@ -192,6 +190,7 @@ Para ayudar a los usuarios ejecutivos:
    * Pulse el nombre de la empresa de inicio de sesión o de la organización de Experience Cloud con la que acceder al informe de valoración que ha compartido. A continuación, la lista de informes de valoración muestra todos los informes de valoración que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
    * Ayude al usuario ejecutivo a ordenar esta lista por **Últimas modificaciones**, si procede.
    * Pulse el nombre de un informe de valoración para verlo.
+
    ![Seleccione una empresa](assets/accesscard.png)
 
    Si el usuario ejecutivo inicia sesión y ve un mensaje que dice que no se ha compartido nada:
