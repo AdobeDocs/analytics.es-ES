@@ -3,12 +3,19 @@ description: 'null'
 title: Data Connectors de Selligent para Adobe Analytics
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '897'
+ht-degree: 98%
 
 ---
 
 
 # Data Connectors de Selligent para Adobe Analytics {#selligent-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>La tecnología del conector de datos de Adobe estará al final de su vida útil desde mediados hasta finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integración incluye las siguientes ventajas clave:
 
