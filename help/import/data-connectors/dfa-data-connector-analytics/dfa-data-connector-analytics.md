@@ -5,12 +5,19 @@ title: Data Connectors de DFA para Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1731'
+ht-degree: 99%
 
 ---
 
 
 # Data Connectors de DFA para Adobe Analytics {#dfa-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>La tecnología del conector de datos de Adobe estará al final de su vida útil desde mediados hasta finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 En un mercado en línea actual que se caracteriza por ser cada vez más complejo y competitivo, los anunciantes y las agencias en línea deben mejorar continuamente sus conocimientos acerca del entorno de marketing en línea y su retorno en gastos de publicidad. Aunque los anunciantes, las agencias, y los publicistas poseen herramientas individuales para ayudarles a lograr estos objetivos, agregar datos manualmente desde sistemas de datos y procesos diferentes puede dañar gravemente la eficacia de las campañas de marketing en línea, dando como resultado un rendimiento de la campaña menos que óptimo, discrepancias de datos y confusión.
 
@@ -89,13 +96,13 @@ La siguiente tabla resume las funciones en cada versión de la integración.
 | Métricas por la noche de clics e impresiones de DFA | Sí | Sí | Sí |
 | Rastreo de clics y visualizaciones | Sí | Sí | Sí |
 | La integración recibe datos en un nivel de Anunciante | No | Sí | Sí |
-| La integración recibe datos en un nivel de Configuración de Floodlight | No | No | Sí  |
-| Métricas de coste | No | No | Sí  |
-| Métricas de creativo | No | No | Sí  |
+| La integración recibe datos en un nivel de Configuración de Floodlight | No | No | Sí |
+| Métricas de coste | No | No | Sí |
+| Métricas de creativo | No | No | Sí |
 | Cadenas de consulta más allá de 2k bytes | No | Sí | Sí |
 | Usa el módulo Integrate para una recopilación de datos óptima de terceros | No | Sí | Sí |
 | Rastreo de tiempos de espera y errores | No | Sí | Sí |
-| Sin necesidad de ID del cliente negociado | No | No | Sí  |
+| Sin necesidad de ID del cliente negociado | No | No | Sí |
 
 ### Acerca de la versión 1.5 {#section-b5a3e967cfa141ea8f740612336181be}
 
