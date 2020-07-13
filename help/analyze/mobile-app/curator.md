@@ -2,9 +2,9 @@
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
+source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2301'
 ht-degree: 78%
 
 ---
@@ -149,7 +149,7 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 Una vez que haya compartido un informe de valoración, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el informe de valoración mediante el Generador de informes de valoración, estos se aplicarán automáticamente al informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
 ## Configuración de los usuarios ejecutivos de la aplicación
 
@@ -163,7 +163,7 @@ Para ayudar a los usuarios ejecutivos a acceder en la aplicación a los informes
 * Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics
 * Ha creado correctamente los cuadros de mandos móviles para ellos y los ha compartido con ellos
 * Los usuarios tengan acceso a Analysis Workspace y al grupo de informes en el que se basa el informe de valoración
-* Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
 ### Ayudar a los usuarios ejecutivos con la aplicación
 
