@@ -2,10 +2,10 @@
 description: Obtenga información sobre cuándo y por qué los conectores de datos de Analytics finalizarán el ciclo de vida.
 title: Anuncio previo de fin de vida útil para los conectores de datos de Analytics
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 7a6337efdbf08d31f2e2c632b57c781d0b566828
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 28%
+source-wordcount: '267'
+ht-degree: 26%
 
 ---
 
@@ -24,6 +24,6 @@ La fecha oficial de finalización de la vida útil todavía está por determinar
 
 ## ¿Cómo le afecta la eliminación de esta función?
 
-Si es un socio de Adobe, tendrá la oportunidad de indicarnos si va a migrar o a interrumpir la integración.
+Si es un socio de Adobe, tendrá la oportunidad de indicarnos si va a migrar o a interrumpir la integración. Encontrará más información sobre la migración de su integración a nuestro nuevo programa de Adobe Exchange [aquí](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools) en nuestra documentación.
 
 Si es cliente de Data Connector y desea solicitar la migración de la integración que utiliza, debe enrutar todas las solicitudes directamente al socio de integración. El envío de una solicitud a Adobe a través del Servicio de atención al cliente no tendrá el mismo efecto deseado.
