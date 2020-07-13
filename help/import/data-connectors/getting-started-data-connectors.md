@@ -2,10 +2,10 @@
 description: Importe datos de seguimiento de aplicaciones de terceros en Analytics.
 title: Introducción a Data Connectors de Analytics
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '977'
+ht-degree: 98%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 Adobe proporciona a las organizaciones información práctica en tiempo real con respecto a las estrategias digitales y a las iniciativas de marketing. Data Connectors permite importar datos de seguimiento de aplicaciones de terceros en Analytics, de modo que puede recopilar y usar datos desde una ubicación central. Si usa uno de los productos asociados, puede crear una integración que importa los datos de la aplicación a los informes de marketing. Una vez realizada la integración, puede generar informes que incluyan datos de su aplicación.
 
 Por ejemplo, una integración de correo electrónico que desee utilizar un socio de correo electrónico para distribuir una campaña por correo electrónico. Cuando los visitantes llegan a su página web, usted quiere saber quiénes han llegado hasta ella en respuesta a su campaña por correo electrónico. Data Connectors integra los datos de su socio de correo electrónico en los informes de marketing para que pueda determinar esta información para medir la eficacia de su campaña por correo electrónico.
+
+>[!IMPORTANT]
+>
+>La tecnología del conector de datos de Adobe estará al final de su vida útil desde mediados hasta finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Requisitos del sistema**
 
