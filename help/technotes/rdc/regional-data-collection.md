@@ -1,8 +1,11 @@
 ---
 title: Recopilación de datos regionales
 description: Información sobre la recopilación de datos regionales
-translation-type: ht
-source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
+translation-type: tm+mt
+source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 94%
 
 ---
 
@@ -11,13 +14,17 @@ source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 
 Adobe Experience Cloud utiliza la recopilación de datos regionales (RDC) para que las interacciones entre los usuarios finales y Adobe Experience Cloud se produzcan lo más cerca posible de los usuarios finales. Esto mejora el rendimiento de su sitio y de la aplicación y garantiza que los datos se recopilen lo más rápidamente posible para optimizar la experiencia del usuario final. Una vez que los datos de sus propiedades digitales se recopilan a nivel regional en un centro de recopilación de datos (DCC, Data Collection Center), estos se envían a través de una conexión segura a un centro de procesamiento de datos (DPC, Data Processing Center), donde se procesan y se ponen a disposición de los productos en Adobe Experience Cloud.
 
+>[!IMPORTANT]
+>
+>El paquete de Añada de RDC de China (Optimización del rendimiento de China) es un complemento con cargo a Adobe Analytics. Póngase en contacto con su representante de ventas de Adobe para obtener más información.
+
 Actualmente, la recopilación de datos regionales incluye las siguientes ubicaciones (sujetas a cambios):
 
 ## Recopilación de datos HTTP y de terceros
 
 | Tipo de RDC | Centros de recopilación de datos |
 |---------------------|-------------------|
-| Valor predeterminado | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
+| Predeterminado | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
 
 Nota: La recopilación de datos de terceros se produce si su solicitud de imagen de Analytics se envía a los puntos de conexión `2o7.net` u `omtdrc.net`. Puede determinarlo si ve alguno de estos puntos de conexión en la dirección URL de sus solicitudes.
 
