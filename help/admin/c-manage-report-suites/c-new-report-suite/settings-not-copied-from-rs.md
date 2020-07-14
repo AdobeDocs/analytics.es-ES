@@ -3,8 +3,11 @@ description: Si ha copiado la configuración de un grupo de informes existente, 
 title: Configuración que no se copia desde un grupo de informes de origen
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
@@ -55,15 +58,6 @@ Las siguientes configuraciones no se copian de la plantilla o los grupos de info
      <li id="li_E352211ABD3245EC8C06313221BA4B36"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Grupos de informes</span>. A continuación, seleccione un grupo de informe. </li> 
      <li id="li_B19C4112D57D4D329A0774EBB345473B">Haga clic en <span class="uicontrol">Editar configuración</span> &gt; <span class="uicontrol">Tráfico</span> &gt; <span class="uicontrol">Variables de tráfico</span>. </li> 
      <li id="li_B1CED2EC85FE4A8EB7D95076040B35E1">Marque la casilla y seleccione la configuración en <span class="uicontrol">Informes de rutas</span>. </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Administrador de eventos únicos </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_4A303E54A155471DA2B91A9504A3EB75"> 
-     <li id="li_A09C8947BD2B4F40ABA039DA9BBA629A"><span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol">Administración</span> &gt; <span class="uicontrol">Grupos de informes</span>. A continuación, seleccione un grupo de informe. </li> 
-     <li id="li_052D8FF2347141F0A50FBCFDC37DB957">Haga clic en <span class="uicontrol">Editar configuración</span> &gt; <span class="uicontrol">Conversión</span> &gt; <span class="uicontrol">Eventos de éxito</span>. </li> 
-     <li id="li_F224713229D74D9BB5BEEE30BF2C7343">Marque la casilla y seleccione la configuración en <span class="uicontrol">Registro de eventos únicos</span>. </li> 
     </ol> </td> 
   </tr> 
   <tr> 
