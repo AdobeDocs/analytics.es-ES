@@ -2,10 +2,10 @@
 title: contextData
 description: Las variables de datos de contexto permiten definir variables personalizadas en cada página que puedan leer las reglas de procesamiento.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 44ee19e468b9455c8c510421e507dd3f091fbc88
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 88%
 
 ---
 
@@ -35,9 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## Usar reglas de procesamiento para rellenar variables de análisis
 
->[!IMPORTANT]
->
->Las variables de datos de contexto se descartan después de ejecutar las reglas de procesamiento. Si no tiene reglas de procesamiento activas que coloquen valores en variables, esos datos se pierden de forma permanente.
+>[!IMPORTANT] Las variables de datos de contexto se descartan después de ejecutar las reglas de procesamiento. Si no tiene reglas de procesamiento activas que coloquen valores en variables, esos datos se pierden de forma permanente.
 
 1. Actualice la implementación para establecer los nombres y valores de las variables de datos de contexto.
 2. Inicie sesión en Adobe Analytics y vaya a Administración > Grupos de informes.
@@ -55,4 +53,19 @@ Incluya la variable de datos de contexto como una propiedad de `contextData` en 
 s.contextData["example_variable"] = "Example value";
 s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
+```
+
+## Incrementar eventos mediante variables de datos de contexto
+
+Al crear reglas de procesamiento, puede asignar variables de datos de contexto a eventos.
+
+* Si una variable de datos de contexto contiene cualquier tipo de texto, el evento se incrementa en uno.
+* Si una variable de datos de contexto contiene un entero, el evento aumenta en esa cantidad de entero.
+
+```js
+// Assigning this context data variable to an event increments it by one
+s.contextData["example_text"] = "Text value";
+
+// Assigning this context data variable to an event increments it by four
+s.contextData["example_number"] = "4";
 ```
