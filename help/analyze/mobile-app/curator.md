@@ -2,7 +2,7 @@
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
+source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 78%
@@ -145,7 +145,7 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 3. Haga clic en **Compartir**.
 
-![Share_Scorecards](assets/new_share.png)
+![Share_Scorecards](assets/new_share2.png)
 
 Una vez que haya compartido un informe de valoración, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el informe de valoración mediante el Generador de informes de valoración, estos se aplicarán automáticamente al informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
 
