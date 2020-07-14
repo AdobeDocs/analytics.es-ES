@@ -1,15 +1,20 @@
 ---
 title: charSet
 description: La variable charSet determina qué codificación utiliza Adobe para analizar la solicitud de imagen.
-translation-type: ht
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+translation-type: tm+mt
+source-git-commit: 70410af433f540764b71bd29a81ff9d8210cb95c
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 60%
 
 ---
 
 
 # charSet
 
-Adobe utiliza la variable charSet para convertir datos entrantes en UTF-8 para almacenamiento y generación de informes de Analytics. Si su sitio utiliza un charSet que no sea UTF-8, esta variable permite que Adobe codifique los datos correctamente. Esta variable se puede configurar página por página si el sitio utiliza diferentes codificaciones en diferentes páginas.
+Adobe utiliza la variable charSet para convertir datos entrantes en UTF-8 para almacenamiento y generación de informes de Analytics. La mayoría de los sitios no necesitan establecer esta variable.
+
+Configure esta variable solo si ve valores incorrectos ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) en los informes. Puede configurar esta variable página por página si el sitio utiliza diferentes codificaciones en diferentes páginas.
 
 ## Conjunto de caracteres en Adobe Experience Platform Launch
 
@@ -20,11 +25,11 @@ Conjunto de caracteres es un campo del acordeón [!UICONTROL General] al configu
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL General], que muestra el campo [!UICONTROL Conjunto de caracteres].
 
-Puede utilizar un conjunto de caracteres preestablecido o un conjunto de caracteres personalizado. Este valor debe coincidir con la codificación de caracteres del sitio. La mayoría de los sitios utilizan `UTF-8`.
+Puede utilizar un conjunto de caracteres preestablecido o un conjunto de caracteres personalizado. Evite cambiar el valor de `UTF-8` a menos que vea valores distorsionados en los informes.
 
 ## s.charSet en el editor de código personalizado de AppMeasurement y Launch
 
-La variable `charSet` es una cadena. Establezca esta variable con el mismo valor que la etiqueta HTML `<meta charset="">` del sitio.
+La variable `charSet` es una cadena. Si tiene valores ilegibles en Adobe Analytics, establezca esta variable en el mismo valor que la etiqueta `<meta charset="">` HTML del sitio.
 
 ```js
 s.charSet = "UTF-8";
