@@ -4,10 +4,10 @@ title: Generar segmentos secuenciales
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3b587a04ec2c0e358fde386ed5e1be4f9b77a881
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 100%
+source-wordcount: '3857'
+ht-degree: 98%
 
 ---
 
@@ -262,9 +262,9 @@ Los grupos lógicos pueden resultar intimidantes. Aquí tiene algunas prácticas
 Si desea agrupar puntos de comprobación secuenciales, su “contenedor” es un grupo lógico. Sin embargo, si estos puntos de comprobación secuenciales deben producirse en el ámbito de una sola visita o visita individual, se requiere un contenedor de visita individual o de visita. (Por supuesto, &#39;visita individual&#39; no tiene sentido para un grupo de puntos de comprobación secuenciales, cuando una visita no puede acreditar más de un punto de comprobación).
 
 **¿Simplifican los grupos lógicos la creación de segmentos secuenciales?**
-Sí. Supongamos que está intentando responder a esta pregunta: **¿El visitante vio la página B, la página C o la página D después de la página A?**
+Sí. Supongamos que intenta identificar este segmento de visitantes: **Visitantes que vieron la página A y luego vieron cada una de las páginas de B, C y D**
 
-Puede generar este segmento sin un contenedor de grupo lógico, pero es complejo y laborioso:
+Puede generar este segmento sin un contenedor de grupo lógico, pero es complejo y laborioso. Debe especificar cada secuencia de páginas que el visitante podría vista:
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
