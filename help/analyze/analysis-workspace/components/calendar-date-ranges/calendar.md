@@ -2,8 +2,11 @@
 description: En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
 title: Resumen de calendario e intervalos de fechas
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: ht
-source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
+translation-type: tm+mt
+source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
+workflow-type: tm+mt
+source-wordcount: '383'
+ht-degree: 84%
 
 ---
 
@@ -25,7 +28,7 @@ También puede arrastrar fechas (y dimensiones temporales) a un proyecto de Work
 | Configuración | Descripción |
 |--- |--- |
 | Días seleccionados | Días/semanas/meses/años seleccionados. |
-| Usar fechas móviles | Las fechas móviles le permiten generar un informe dinámico que observa un periodo de tiempo anterior o posterior basándose en el momento en el que ejecuta el informe. Por ejemplo, si desea un informe sobre todos los pedidos realizados el “último mes” (basándose en el campo Fecha de creación) y se ejecuta dicho informe en diciembre, verá los pedidos realizados en noviembre. Si ejecutara ese mismo informe en enero, vería los pedidos realizados en diciembre.  Vista previa de fecha: indica qué periodo de tiempo incluye el calendario móvil.  Inicio: puede elegir entre el día, la semana, el mes, el trimestre o el año actuales.  Fin: puede elegir entre el día, la semana, el mes, el trimestre o el año actuales.  Por ejemplo, consulte [este enlace](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
-| Intervalo de fecha | Le permite seleccionar un rango de fechas preestablecido. La opción predeterminada es los últimos 30 días. |
+| Usar fechas móviles | Las fechas móviles le permiten generar un informe dinámico que observa un periodo de tiempo anterior o posterior basándose en el momento en el que ejecuta el informe. Por ejemplo, si desea un informe sobre todos los pedidos realizados el “último mes” (basándose en el campo Fecha de creación) y se ejecuta dicho informe en diciembre, verá los pedidos realizados en noviembre. Si ejecutara ese mismo informe en enero, vería los pedidos realizados en diciembre.<ul><li>**[!UICONTROL Previsualización]** de fecha: Indica el período de tiempo que abarca el calendario móvil.</li><li>**[!UICONTROL Inicio]**: Puede elegir entre el día actual, la semana actual, el mes actual, el trimestre actual y el año actual.</li><li>**[!UICONTROL Fin]**: Puede elegir entre el día actual, la semana actual, el mes actual, el trimestre actual y el año actual.</li></ul>Por ejemplo, consulte [este enlace](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
+| Intervalo de fecha | Le permite seleccionar un rango de fechas preestablecido. La opción predeterminada es los últimos 30 días. **[!UICONTROL Esta semana/mes/trimestre/año (excluido hoy)]** le permite elegir entre intervalos de fechas que no incluyen datos de día parcial a partir de hoy. |
 | Aplicar a todos los paneles | No solo le permite cambiar el intervalo de fechas seleccionado para el panel actual, sino también para todos los demás paneles dentro del proyecto. |
 | Aplicar | Aplica el rango de fechas únicamente a este panel. |
