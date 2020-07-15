@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 96%
+source-wordcount: '1098'
+ht-degree: 98%
 
 ---
 
@@ -79,11 +79,11 @@ ht-degree: 96%
       + [Mapa de árbol](analysis-workspace/visualizations/treemap.md)
    + Paneles {#panels}
       + [Resumen de paneles](analysis-workspace/c-panels/panels.md)
-      + [Panel de Analytics para Destinatario (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [Panel Analytics para Destinatario (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Panel de Attribution](analysis-workspace/c-panels/attribution.md)
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
-      + [Panel de perspectivas rápidas](analysis-workspace/c-panels/quickinsight.md)
+      + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
       + Segment comparison panel {#segment-comparison}
          + [Información general del de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
@@ -91,7 +91,7 @@ ht-degree: 96%
    + Curar y compartir proyectos {#curate-share}
       + [Depurar proyectos de Workspace](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos de Workspace](analysis-workspace/curate-share/share-projects.md)
-      + [Proyectos de Workspace solo de Vista](analysis-workspace/curate-share/view-only-projects.md)
+      + [Proyectos de Workspace solo de vista](analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Uso compartido y programación de archivos de proyecto](analysis-workspace/curate-share/send-schedule-files.md)
       + [Envío de archivo: Programar un proyecto para su entrega](analysis-workspace/curate-share/t-schedule-report.md)
@@ -124,7 +124,7 @@ ht-degree: 96%
       + [Analysis Workspace comparado con los Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Limitaciones de Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisitos de administración](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [Accesibilidad en el área de trabajo de Análisis](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Accesibilidad en Analysis Workspace](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Ayuda del Report Builder de Adobe](report-builder/home.md)
    + [Novedades del Report Builder](report-builder/whats-new-arb.md)
@@ -300,7 +300,6 @@ ht-degree: 96%
    + [Objetivos](reports-analytics/targets.md)
    + [Alertas](reports-analytics/alerts.md)
    + [Eventos de calendario](reports-analytics/t-calendar-event.md)
-   + [Solicitudes de Data Warehouse](reports-analytics/data-warehouse.md)
    + [Preguntas frecuentes](reports-analytics/frequently-asked-questions.md)
    + [Resolución de problemas](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
