@@ -2,10 +2,10 @@
 description: El panel Analytics para Destinatario (A4T) permite analizar las actividades y experiencias de Adobe Target en Analysis Workspace.
 title: Panel Analytics para Destinatario (A4T)
 translation-type: tm+mt
-source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
+source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 14%
+source-wordcount: '912'
+ht-degree: 13%
 
 ---
 
@@ -48,7 +48,7 @@ Cada tabla improvisada muestra las siguientes columnas de métricas:
 | Alza (inferior) | Representa la peor elevación que una experiencia de variante podría tener sobre el control. |
 | Alza (media) | Representa la elevación media que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %. Esto es &quot;Alza&quot; en Informes y Analytics. |
 | Alza (superior) | Representa la mejor elevación que una experiencia de variante podría tener sobre el control. |
-| Confianza | La prueba T de los estudiantes calcula el nivel de confianza, lo que indica la probabilidad de que los resultados se dupliquen si la prueba se ejecuta de nuevo. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar si es necesario en Configuración de columna. <br>**Nota:**La confianza es una &quot;métrica bloqueada&quot; para las experiencias de Destinatario; no se puede desglosar ni utilizar con otras dimensiones. |
+| Confianza | La prueba T de los estudiantes calcula el nivel de confianza, lo que indica la probabilidad de que los resultados se dupliquen si la prueba se ejecuta de nuevo. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar si es necesario en Configuración de columna. <br>**Nota:**Confianza es una &quot;métrica bloqueada&quot; de las experiencias de Destinatario; no se puede desglosar ni utilizar con otras dimensiones. |
 
 Como con cualquier panel de Analysis Workspace, puede continuar con la análisis agregando tablas y [visualizaciones](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) adicionales que le ayudarán a analizar sus actividades de Adobe Target.
 
@@ -61,5 +61,7 @@ Como con cualquier panel de Analysis Workspace, puede continuar con la análisis
 | ¿Por qué los visitantes únicos varían entre Destinatario y Analytics? | [Obtenga más](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) información sobre las variaciones de visitantes únicos entre productos. |
 | Cuando se aplica un segmento de visita para una actividad de Destinatario específica en mi análisis, ¿por qué se devuelven experiencias no relacionadas? | La dimensión de A4T es una variable de lista, lo que significa que puede contener muchas actividades (y experiencias) a la vez. [Más información](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | ¿La métrica de confianza representa los pedidos extremos o aplica una corrección de Bonferroni para varias ofertas? | No. [Obtenga más](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) información sobre cómo Analytics calcula la confianza. |
+| ¿Pueden utilizarse métricas de alza y confianza con otras dimensiones o desgloses? | El alza y la confianza son &quot;métricas bloqueadas&quot; a la dimensión Experiencias de Destinatario porque requieren un control y una variante para calcularlas a través de. Como tales, no pueden desglosarse ni utilizarse con otras dimensiones. |
+| ¿Cuándo se vuelven a calcular el alza y la confianza? | El alza y la confianza se vuelven a calcular cada vez que se ejecuta (o se vuelve a ejecutar) el panel, el intervalo de fechas del panel cambia o se aplica un segmento al panel o la tabla. |
 
 Para obtener más información sobre Analytics para el sistema de informes de Destinatario, visite el sistema de informes de [A4T](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
