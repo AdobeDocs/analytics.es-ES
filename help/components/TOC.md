@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 71%
+source-wordcount: '632'
+ht-degree: 74%
 
 ---
 
@@ -205,9 +205,13 @@ ht-degree: 71%
       + [Administrar grupos de informes virtuales](vrs/c-workflow-vrs/vrs-manage.md)
       + [Visualización de la información del grupo de informes virtuales](vrs/c-workflow-vrs/vrs-view.md)
 + Análisis entre dispositivos {#cda}
-   + [Información general de análisis entre dispositivos](cda/cda-home.md)
-   + [Configuración de análisis entre dispositivos](cda/cda-setup.md)
-   + [Preguntas más frecuentes sobre análisis entre dispositivos](cda/cda-faq.md)
+   + [Información general de análisis entre dispositivos](cda/overview.md)
+   + [Vinculación basada en el campo](cda/field-based-stitching.md)
+   + [Gráfico de dispositivos](cda/device-graph.md)
+   + [Configuración de Analytics entre dispositivos](cda/setup.md)
+   + [Cómo se reproduce el trabajo](cda/replay.md)
+   + [Plantilla de CDA Workspace](cda/workspace-template.md)
+   + [Preguntas más frecuentes sobre análisis entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
    + [Alertas inteligentes](c-alerts/intellligent-alerts.md)
    + [Generador de alertas](c-alerts/alert-builder.md)
@@ -247,11 +251,11 @@ ht-degree: 71%
    + [Configurar informes en tiempo real](c-real-time-reporting/t-realtime-admin.md)
    + [Métricas y dimensiones en tiempo real compatibles](c-real-time-reporting/realtime-metrics.md)
 + Canales de marketing {#marketing-channels}
-   + [Introducción a los Canales de mercadotecnia](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Introducción a los canales de marketing](c-marketing-channels/c-getting-started-mchannel.md)
    + [Administrar Canales de marketing](c-marketing-channels/c-channels.md)
    + [Reglas de procesamiento de canales de marketing](c-marketing-channels/c-rules.md)
    + [Clasificaciones en los canales de marketing](c-marketing-channels/classifictions-mchannel.md)
    + [Caducidad de la participación del visitante](c-marketing-channels/visitor-engagement.md)
-   + [Analizar Canales de mercadotecnia](c-marketing-channels/analyze-mc.md)
-   + [Permisos de Canales de marketing](c-marketing-channels/c-channel-report-access.md)
-   + [Preguntas más frecuentes y ejemplos de Canales de marketing](c-marketing-channels/c-faq.md)
+   + [Analizar canales de marketing](c-marketing-channels/analyze-mc.md)
+   + [Permisos de canales de marketing](c-marketing-channels/c-channel-report-access.md)
+   + [Preguntas más frecuentes y ejemplos de canales de marketing](c-marketing-channels/c-faq.md)
