@@ -2,7 +2,7 @@
 title: Visitantes únicos
 description: Número de individuos (o dispositivos) únicos.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 La métrica &quot;visitantes únicos&quot; muestra el número de ID de visitante para el valor de dimensión. Es una de las métricas más comunes utilizadas al determinar el tráfico, ya que proporciona una visión general de alto nivel de la popularidad de un valor de dimensión. Por ejemplo: un visitante puede llegar a su sitio todos los días durante un mes, pero todavía cuenta como un único visitante.
 
-Si utiliza análisis [](../cda/cda-home.md)entre dispositivos, se cambiará el nombre de esta métrica a &quot;Dispositivos únicos&quot;.
+Si utiliza análisis [](../cda/overview.md)entre dispositivos, se cambiará el nombre de esta métrica a &quot;Dispositivos únicos&quot;.
 
 ## visitantes únicos diarios, semanales, mensuales, trimestrales y anuales
 
@@ -44,7 +44,7 @@ Los identificadores de visitante únicos generalmente se almacenan en una cookie
 
 * Borra su caché en cualquier momento
 * Abre un explorador diferente en el mismo equipo. Se cuenta un visitante único por explorador.
-* La misma persona que explora el sitio en diferentes dispositivos. Se cuenta un visitante único por dispositivo. Puede utilizar el análisis [entre](../cda/cda-home.md) dispositivos para combinar visitantes mediante la métrica [Personas](people.md) .
+* La misma persona que explora el sitio en diferentes dispositivos. Se cuenta un visitante único por dispositivo. Puede utilizar el análisis [entre](../cda/overview.md) dispositivos para combinar visitantes mediante la métrica [Personas](people.md) .
 * Abre una sesión de navegación privada (como la ficha Incognito de Chrome).
 
 Un nuevo visitante único *no se cuenta* , siempre y cuando se mantenga el identificador de cookie:
