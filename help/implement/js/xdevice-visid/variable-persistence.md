@@ -5,7 +5,7 @@ title: Atribución y persistencia
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Análisis entre dispositivos](/help/components/cda/cda-home.md) en la guía del usuario Componentes.
+>Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Análisis entre dispositivos](/help/components/cda/overview.md) en la guía del usuario Componentes.
 
 Cuando los perfiles de los visitantes se combinan después de asociarse a la misma variable de ID de visitante, la atribución no cambia en el conjunto de datos históricos.
 
