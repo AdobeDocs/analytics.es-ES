@@ -2,9 +2,9 @@
 description: Importe datos de seguimiento de aplicaciones de terceros en Analytics.
 title: Introducción a Data Connectors de Analytics
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '976'
 ht-degree: 98%
 
 ---
@@ -18,7 +18,7 @@ Por ejemplo, una integración de correo electrónico que desee utilizar un socio
 
 >[!IMPORTANT]
 >
->La tecnología del conector de datos de Adobe estará al final de su vida útil desde mediados hasta finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
+>Finalizaremos la vida útil de la tecnología del conector de datos de Adobe a mediados y finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Requisitos del sistema**
 
