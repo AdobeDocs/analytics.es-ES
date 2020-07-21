@@ -1,0 +1,95 @@
+---
+title: Preguntas más frecuentes sobre análisis entre dispositivos
+description: Preguntas más frecuentes sobre el análisis entre dispositivos
+translation-type: tm+mt
+source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+workflow-type: tm+mt
+source-wordcount: '1301'
+ht-degree: 52%
+
+---
+
+
+# Preguntas frecuentes
+
+## ¿Cómo puedo usar CDA para ver cómo la gente se mueve de un tipo de dispositivo a otro?
+
+Puede utilizar una visualización de flujo con la dimensión Tipo de dispositivo móvil.
+
+1. Inicie sesión en Adobe Analytics y cree un nuevo proyecto de Workspace en blanco.
+2. Haga clic en la pestaña Visualizaciones de la izquierda y arrastre una visualización de Flujo al lienzo de la derecha.
+3. Haga clic en la pestaña Componentes de la izquierda y arrastre la dimensión &#39;Tipo de dispositivo móvil&#39; a la ubicación central denominada &#39;Dimensión o elemento&#39;.
+4. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
+
+## ¿Puedo ver cómo se mueven las personas entre distintas experiencias de usuario (p. ej., navegador de escritorio vs. navegador móvil vs. aplicación móvil)?
+
+El uso del tipo de dispositivo móvil, como se ilustra más arriba, permite ver cómo se mueven las personas entre los tipos de dispositivos móviles y los tipos de dispositivos de escritorio. Sin embargo, es posible que desee distinguir los navegadores de escritorio de los navegadores móviles. Una manera de hacerlo es crear una eVar que registre si la experiencia se produjo en un navegador de escritorio, un navegador móvil o una aplicación móvil. A continuación, cree un diagrama de flujo como se ha descrito anteriormente, utilizando la eVar de “experiencia” en lugar de la dimensión Tipo de dispositivo móvil. Esto proporciona una vista ligeramente diferente del comportamiento entre dispositivos.
+
+## ¿Hasta dónde llega la CDA a los visitantes?
+
+Adobe mantiene los datos de identificación de dispositivos durante aproximadamente 30 días. Si al principio no se identifica un dispositivo, pero éste se identifica más tarde en un plazo de 30 días, el CDA vuelve atrás y vuelve a señalar que pertenece a una persona identificada hasta 30 días antes. Si parte del comportamiento no identificado de un usuario queda fuera de la ventana retrospectiva de 30 días, esa porción del viaje del usuario no está vinculada.
+
+* **Si se utiliza un gráfico** de dispositivo, Adobe mantiene las asignaciones de dispositivos en el gráfico de cooperación y el gráfico privado durante aproximadamente 6 meses. Un ECID que no tenga actividad durante más de seis meses se elimina del gráfico. Los datos ya enlazados en CDA no se ven afectados, pero las visitas posteriores para ese ECID se tratan como una persona nueva.
+
+## ¿Cómo gestiona CDA las visitas con marca de hora?
+
+Adobe trata las visitas con marca de hora como si se hubieran recibido en el momento de la marca de hora, no cuando Adobe recibió la visita. Las visitas con marca de hora anteriores a 1 mes nunca se vinculan, ya que están fuera del rango que Adobe utiliza para la vinculación.
+
+## ¿En qué se diferencia CDA del ID de visitante personalizado?
+
+Using a custom visitor ID is a legacy method to [connect users across devices](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con una ID de visitante personalizada, se utiliza la [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable para establecer explícitamente la ID que se utiliza para la lógica del visitante. La `visitorID` variable anula los ID basados en cookies que estén presentes.
+
+Los ID de visitante personalizadas tienen varios efectos secundarios no deseados que la CDA supera o minimiza. For example, the custom visitor ID methodology has no [replay](replay.md) capabilities. Si un usuario se autentica en mitad de una visita, la primera parte de la visita se asocia con un ID de visitante diferente al de la última parte de la visita. Los ID de visitante independientes producen inflación de visitas y visitantes. CDA repite los datos históricos de modo que las visitas no autenticadas pertenecen a la persona correcta.
+
+## ¿Puedo actualizar de ID de visitante personalizado a CDA?
+
+Los clientes que ya utilizan el ID de Visitante personalizado pueden actualizar a CDA sin ningún cambio de implementación. La `visitorID` variable sigue utilizándose en el grupo de informes de origen. Sin embargo, CDA ignora la `visitorID` variable en el grupo de informes virtuales si un usuario se autentica.
+
+## ¿Cómo gestiona el gráfico del dispositivo los dispositivos compartidos?
+
+En algunas situaciones es posible que varias personas inicien sesión desde el mismo dispositivo. Algunos ejemplos son un dispositivo compartido en casa, un equipo compartido en una biblioteca o un quiosco en un punto de venta minorista.
+
+* **Si se utiliza un gráfico** de dispositivo, la capacidad de gestionar dispositivos compartidos es limitada. El gráfico de dispositivos utiliza un algoritmo para determinar la propiedad de un &quot;clúster&quot; y puede cambiar cada vez que se publica dicho clúster. Los usuarios del dispositivo compartido están sujetos al clúster al que pertenecen.
+* **Si utiliza la vinculación** basada en campos, la propiedad o eVar que elija para identificar a los usuarios que iniciaron sesión sobrescribirá otros identificadores. Los dispositivos compartidos se consideran personas independientes, incluso si se originan en el mismo dispositivo.
+
+## ¿Cómo gestiona CDA situaciones en las que una sola persona tiene MUCHOS dispositivos/ECID?
+
+En algunas situaciones, un usuario individual puede asociarse con un gran número de ECID. Esto puede ocurrir si el usuario utiliza muchos navegadores o aplicaciones, y puede exacerbarse si borra las cookies con frecuencia o utiliza el modo de exploración privado o indirecto del explorador.
+
+* **Si se utiliza un gráfico** de dispositivo, CDA limita el número de ECID que se vincula a un ID de usuario determinado a 50. Si un ID de usuario se asocia con demasiados ECID, el gráfico del dispositivo supone que el ID de usuario no es válido y elimina el clúster asociado a dicho ID de usuario. A continuación, se agrega el ID de usuario a una lista de bloqueados para evitar que se agregue a cualquier clúster en el futuro. El resultado de sistema de informes es que el ID de usuario no se vincula entre dispositivos.
+* **Si se utiliza la vinculación** basada en campos, el número de dispositivos es irrelevante en favor de la prop/eVar que se elija para ayudar a identificar a los usuarios que iniciaron sesión. Un solo usuario puede pertenecer a cualquier número de dispositivos sin afectar a la capacidad de CDA para unir dispositivos.
+
+## ¿Cuál es la diferencia entre la métrica Personas en CDA y la métrica Visitantes únicos fuera de CDA?
+
+The [People](/help/components/metrics/people.md) metric is similar to the [Unique Visitors](/help/components/metrics/unique-visitors.md) metric in that it reports on the number of unique individuals. Sin embargo, cuando se utiliza el análisis entre dispositivos, se combinan visitantes únicos cuando, de lo contrario, se registran como dos visitantes únicos independientes fuera de CDA. La métrica &#39;Personas&#39; reemplaza la métrica &#39;Visitantes únicos&#39; cuando Analytics entre dispositivos está habilitado.
+
+## ¿Cuál es la diferencia entre la métrica &#39;Dispositivos únicos&#39; en CDA y la métrica &#39;Visitantes únicos fuera de CDA?
+
+Estas dos métricas son aproximadamente equivalentes entre sí.
+
+## ¿Puedo incluir métricas de CDA usando la API 2.0?
+
+Sí. Analysis Workspace utiliza la API 2.0 para solicitar datos de los servidores de Adobe, y puede realizar llamadas a la API de vista que Adobe utiliza para crear sus propios informes:
+
+1. Durante la sesión iniciada en Analysis Workspace, vaya a [!UICONTROL Ayuda] > [!UICONTROL Habilitar depurador].
+2. Haga clic en el icono de depuración en el panel deseado y, a continuación, seleccione la visualización y la hora deseadas de la solicitud.
+3. Busque la solicitud JSON, que puede utilizar en su llamada de API a Adobe.
+
+## Los análisis entre dispositivos pueden unir visitantes únicos. ¿Puede unir visitas?
+
+Sí. Si un individuo envía visitas desde dos dispositivos distintos dentro del tiempo de espera de visita del grupo de informes virtuales (30 minutos de forma predeterminada), se vinculan a la misma visita.
+
+## ¿Cuál es el ID de visitante definitivo que utiliza CDA? ¿Puedo exportarlo desde Adobe Analytics?
+
+* **Si se utiliza un gráfico** de dispositivo, el identificador principal es un ID personalizado basado en su clúster.
+* **Si se utiliza la vinculación** basada en campos, el identificador principal es un ID personalizado basado en la prop/eVar elegida.
+
+Adobe calcula ambos identificadores en el momento en que se ejecuta el informe, también conocidos como procesamiento [de tiempo de](../vrs/vrs-report-time-processing.md)informe. La naturaleza del procesamiento de tiempo de los informes significa que no es compatible con la Data warehouse, las fuentes de datos u otras funciones de exportación que Adobe oferta.
+
+## ¿Cómo puedo pasar del gráfico del dispositivo a la costura basada en campo o viceversa?
+
+Si desea cambiar los métodos de identificación de CDA, comuníquese con el administrador de cuentas de su organización. El Administrador de cuentas puede aprovisionar el grupo de informes según el método que desee para identificar a las personas. *Se pierden los datos vinculados históricos del método anterior.*
+
+## ¿Cómo gestiona Adobe los límites únicos de una eVar utilizada en la vinculación basada en campos?
+
+CDA extrae los valores de dimensión de eVar antes de optimizarlos para el sistema de informes. No es necesario preocuparse por los límites únicos para los fines de CDA. Sin embargo, si ha intentado utilizar esa propiedad o eVar en un proyecto de Workspace, aún puede ver el valor de dimensión [(Poco tráfico)](/help/technotes/low-traffic.md) .
