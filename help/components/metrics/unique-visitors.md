@@ -2,7 +2,7 @@
 title: Visitantes únicos
 description: Número de individuos (o dispositivos) únicos.
 translation-type: tm+mt
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -12,7 +12,7 @@ ht-degree: 10%
 
 # Visitantes únicos
 
-La métrica &quot;visitantes únicos&quot; muestra el número de ID de visitante para el valor de dimensión. Es una de las métricas más comunes utilizadas al determinar el tráfico, ya que proporciona una visión general de alto nivel de la popularidad de un valor de dimensión. Por ejemplo: un visitante puede llegar a su sitio todos los días durante un mes, pero todavía cuenta como un único visitante.
+La métrica &quot;visitantes únicos&quot; muestra el número de ID de visitante para el elemento de dimensión. Es una de las métricas más comunes utilizadas al determinar el tráfico, ya que proporciona una visión general de alto nivel de la popularidad de un elemento de dimensión. Por ejemplo: un visitante puede llegar a su sitio todos los días durante un mes, pero todavía cuenta como un único visitante.
 
 Si utiliza análisis [](../cda/overview.md)entre dispositivos, se cambiará el nombre de esta métrica a &quot;Dispositivos únicos&quot;.
 
@@ -20,11 +20,11 @@ Si utiliza análisis [](../cda/overview.md)entre dispositivos, se cambiará el n
 
 Informes y Analytics proporciona opciones para visitantes únicos diarios, semanales, mensuales, trimestrales y anuales. En lugar de contar un solo visitante único para todo el período de tiempo, los visitantes únicos se contabilizan en función de la métrica seleccionada. Por ejemplo: desea ver los visitantes únicos diarios del sitio. Si un visitante llega a su sitio por la mañana y de nuevo por la noche, se cuenta como un único visitante diario único. Si un visitante llega a su sitio el lunes y nuevamente el martes, se cuenta como dos visitantes únicos diarios.
 
-El Analysis Workspace trata los visitantes únicos en función de la granularidad del informe. Por ejemplo, si utiliza la dimensión [Día](../dimensions/day.md) , verá visitantes únicos diarios para cada valor de dimensión. Sin embargo, para el total del informe, se anula la duplicación de visitantes únicos para el intervalo de fechas de la tabla improvisada.
+El Analysis Workspace trata los visitantes únicos en función de la granularidad del informe. Por ejemplo, si utiliza la dimensión [Día](../dimensions/day.md) , verá visitantes únicos diarios para cada elemento de dimensión. Sin embargo, para el total del informe, se anula la duplicación de visitantes únicos para el intervalo de fechas de la tabla improvisada.
 
 ## Cómo se calcula esta métrica
 
-Esta métrica cuenta el número de ID de visitante únicos para un valor de dimensión determinado. Utiliza múltiples mecanismos avanzados para identificar visitantes únicos, ya que existen varias maneras de identificarlos. En el siguiente cuadro se lista la manera en que se identifica un visitante, junto con su prioridad. Algunas visitas pueden tener varios métodos de identificación de visitantes; en estos casos se utiliza el método de mayor prioridad.
+Esta métrica cuenta el número de ID de visitante únicos para un elemento de dimensión determinado. Utiliza múltiples mecanismos avanzados para identificar visitantes únicos, ya que existen varias maneras de identificarlos. En el siguiente cuadro se lista la manera en que se identifica un visitante, junto con su prioridad. Algunas visitas pueden tener varios métodos de identificación de visitantes; en estos casos se utiliza el método de mayor prioridad.
 
 | Pedido utilizado | Parámetro de consulta (método de recopilación) | Presente cuando |
 | --- | --- | --- |
