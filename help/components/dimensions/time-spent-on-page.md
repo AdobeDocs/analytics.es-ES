@@ -2,7 +2,7 @@
 title: Tiempo invertido en la página
 description: Cantidad de tiempo que un visitante emplea en la página.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 13%
@@ -32,11 +32,11 @@ Esta dimensión se basa en visitas individuales, lo que significa que el valor e
 
 Esta dimensión funciona de forma predeterminada para todas las implementaciones. Si un grupo de informes contiene datos, esta dimensión funciona.
 
-## Valores de dimensión
+## Elementos de dimensión
 
 Existen varias dimensiones para el tiempo empleado en la página:
 
-* **Tiempo empleado en la página - agrupado**: La cantidad de tiempo se agota. Los valores de dimensión varían de `"Less than 15 seconds"` a `"More than 30 minutes"`. El tiempo entre vistas de página no suele durar más de 30 minutos; sin embargo, el tiempo entre vistas de página puede superar los 30 minutos si se utilizan visitas con marca de hora o fuentes de datos.
-* **Tiempo empleado en la página: granular**: Cada número de segundos es un valor de dimensión único.
+* **Tiempo empleado en la página - agrupado**: La cantidad de tiempo se agota. Los elementos de dimensión varían de `"Less than 15 seconds"` a `"More than 30 minutes"`. El tiempo entre vistas de página no suele durar más de 30 minutos; sin embargo, el tiempo entre vistas de página puede superar los 30 minutos si se utilizan visitas con marca de hora o fuentes de datos.
+* **Tiempo empleado en la página: granular**: Cada número de segundos es un elemento de dimensión único.
 
 Consulte [Información general](../metrics/time-spent.md) sobre el tiempo empleado para obtener información más general sobre el tiempo empleado.
