@@ -2,7 +2,7 @@
 title: Vínculo de descarga
 description: Nombre del vínculo de descarga.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 15%
@@ -28,6 +28,6 @@ Si desea enviar datos a esta dimensión mediante AppMeasurement:
 * Set the [`linkType`](/help/implement/vars/config-vars/linktype.md) variable to `"d"`.
 * Enviar una solicitud [`tl()`](/help/implement/vars/functions/tl-method.md) de imagen.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Dado que esta variable se basa en una cadena personalizada en la implementación, su organización determina cuáles son los valores de dimensión. Adobe recomienda agrupar los vínculos en categorías significativas en función de sus necesidades de sistema de informes.
+Dado que esta variable se basa en una cadena personalizada en la implementación, su organización determina cuáles son los elementos de dimensión. Adobe recomienda agrupar los vínculos en categorías significativas en función de sus necesidades de sistema de informes.
