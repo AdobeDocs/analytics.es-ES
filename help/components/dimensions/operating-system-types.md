@@ -2,7 +2,7 @@
 title: Tipos de sistemas operativos
 description: El sistema operativo independientemente de la versión.
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -18,6 +18,6 @@ La dimensión &#39;Tipos de sistema operativo&#39; muestra el sistema operativo 
 
 Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El valor de búsqueda se basa en el encabezado `User-Agent` HTTP de las solicitudes de imagen. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen el tipo de sistema operativo utilizado. Algunos ejemplos son `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`y `"Apple iOS"`.
+Los elementos de dimensión incluyen el tipo de sistemas operativos utilizados. Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
