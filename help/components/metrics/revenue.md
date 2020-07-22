@@ -2,7 +2,7 @@
 title: Ingresos
 description: El importe monetario de los productos comprados dentro de todos los pedidos.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Ingresos
 
-La métrica &#39;Ingresos&#39; muestra la cantidad monetaria de productos comprados dentro de todos los pedidos. Esta métrica es vital para los sitios de comercio electrónico a la hora de medir la conversión. Puede combinar esta métrica con cualquier dimensión para ver qué valores de dimensión contribuyeron a los ingresos. Por ejemplo: puede ver las campañas principales (usando la dimensión Código [de](../dimensions/tracking-code.md) seguimiento) o los términos de búsqueda interna principales (usando una [eVar](../dimensions/evar.md)).
+La métrica &#39;Ingresos&#39; muestra la cantidad monetaria de productos comprados dentro de todos los pedidos. Esta métrica es vital para los sitios de comercio electrónico a la hora de medir la conversión. Puede combinar esta métrica con cualquier dimensión para ver qué elementos de dimensión contribuyeron a los ingresos. Por ejemplo: puede ver las campañas principales (usando la dimensión Código [de](../dimensions/tracking-code.md) seguimiento) o los términos de búsqueda interna principales (usando una [eVar](../dimensions/evar.md)).
 
 ## Cómo se calcula esta métrica
 
