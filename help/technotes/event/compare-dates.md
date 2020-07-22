@@ -2,7 +2,10 @@
 title: Comparar fechas afectadas por un evento con intervalos anteriores
 description: Obtenga información sobre el impacto de un evento, como un problema de implementación o una interrupción del servicio, comparándolo con las tendencias anteriores.
 translation-type: tm+mt
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +18,9 @@ Si tiene datos [afectados por un evento](overview.md), puede observar las tenden
 
 Cree un intervalo de fechas que abarque el evento para empezar a explorar el impacto de ese evento.
 
-1. Vaya a **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**.
-2. Haga clic en **[!UICONTROL Add]**.
-3. Seleccione el intervalo de fechas en el que se produjo el evento. Haga clic en **[!UICONTROL Save]**.
+1. Vaya a **[!UICONTROL Componentes]** > Intervalos **** de fechas.
+2. Haga clic en **[!UICONTROL Agregar]**.
+3. Seleccione el intervalo de fechas en el que se produjo el evento. Haga clic en **[!UICONTROL Guardar]**.
 
    ![Generador de intervalos de fechas](assets/date_range_builder.png)
 
@@ -29,7 +32,7 @@ Puede comparar cualquier métrica entre el intervalo de fechas del evento con in
 
    ![Métrica de intervalo de fechas](assets/date_range_metric.png)
 
-2. Haga clic con el botón secundario en el intervalo de fechas y, a continuación, haga clic en **[!UICONTROL Add time period column]** > **[!UICONTROL Custom date range to this date range]**.
+2. Haga clic con el botón secundario en el intervalo de fechas y, a continuación, haga clic en **[!UICONTROL Añadir la columna]** del período de tiempo > Intervalo de fechas **[!UICONTROL personalizado a este intervalo]** de fechas.
    * Para una comparación semana tras semana, seleccione el intervalo del evento menos 7 días. Asegúrese de que los días de la semana entre el evento y este intervalo de fechas están alineados.
    * Para realizar una comparación mes tras mes, seleccione el intervalo del evento del mes pasado. También puede seleccionar el intervalo del evento menos 28 días si desea alinear los días de la semana.
    * Para una comparación año tras año, seleccione el rango del evento del año pasado.
@@ -39,13 +42,13 @@ Puede comparar cualquier métrica entre el intervalo de fechas del evento con in
 
 ## Calcular las diferencias porcentuales entre el evento y rangos anteriores similares
 
-Compare los valores de dimensión entre el intervalo de fechas de un evento y intervalos de fechas anteriores similares mediante una visualización de tabla improvisada. Estos pasos ilustran un ejemplo semanal que puede seguir.
+Compare elementos de dimensión entre el intervalo de fechas de un evento y intervalos de fechas anteriores similares mediante una visualización de tabla improvisada. Estos pasos ilustran un ejemplo semanal que puede seguir.
 
 1. Abra un proyecto de Workspace y agregue una dimensión **que** no sea de tiempo a la tabla improvisada. Por ejemplo, puede utilizar la dimensión &#39;Tipo de dispositivo móvil&#39;. Aplique el intervalo de fechas creado recientemente apilado en una métrica, como &quot;Ocurrencias&quot;:
 
    ![Tipo de dispositivo móvil por intervalo de fechas afectado](assets/mobile_device_type.png)
 
-2. Haga clic con el botón secundario en el intervalo de fechas y, a continuación, haga clic en **[!UICONTROL Compare time periods]** > **[!UICONTROL Custom date range to this date range]**. Seleccione el intervalo del evento menos 7 días. Asegúrese de que los días de la semana entre el evento y este intervalo de fechas están alineados.
+2. Haga clic con el botón secundario en el intervalo de fechas y, a continuación, haga clic en **[!UICONTROL Comparar períodos]** de tiempo > Intervalo de fechas **[!UICONTROL personalizado con este intervalo]** de fechas. Seleccione el intervalo del evento menos 7 días. Asegúrese de que los días de la semana entre el evento y este intervalo de fechas están alineados.
 
    ![Menú Comparar período de tiempo](assets/compare_time_custom.png)
 
@@ -68,6 +71,6 @@ Si desea analizar más a fondo los cambios porcentuales anteriores, puede conver
 
    ![Segmentos del generador de tablas](assets/table_builder_segments.png)
 
-4. Haga clic en **[!UICONTROL Build]**. En la tabla resultante, puede realizar la vista de los intervalos afectados en comparación con la semana, el mes y el año anteriores en todos los segmentos deseados.
+4. Haga clic en **[!UICONTROL Crear]**. En la tabla resultante, puede realizar la vista de los intervalos afectados en comparación con la semana, el mes y el año anteriores en todos los segmentos deseados.
 
    ![Tabla finalizada](assets/table_builder_finished.png)
