@@ -2,7 +2,7 @@
 title: Informes de audiencia en Adobe Analytics
 description: Obtenga información sobre cómo crear informes basados en audiencias mediante Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 97%
@@ -185,6 +185,6 @@ Los informes de prueba comparativa permiten ver cómo se compara la información
 El informe de flujo está disponible en ambas plataformas. Para crear un informe de flujo:
 
 1. Haga clic en el icono de visualizaciones de la izquierda y arrastre una visualización de flujo al espacio de trabajo sobre la tabla de forma libre
-2. Busque la dimensión **Páginas** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los valores de dimensión aparecen en color amarillo.
+2. Busque la dimensión **Páginas** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los elementos de dimensión son de color amarillo.
 3. Busque el valor de página deseado para comenzar y arrástrelo al espacio etiquetado como “Dimensión o elemento” en el centro
 4. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
