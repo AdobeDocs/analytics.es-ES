@@ -2,10 +2,10 @@
 title: Informes de conversión en Adobe Analytics
 description: Obtenga información sobre el uso de los informes de conversión en Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ En Analysis Workspace, estos datos se pueden ver mediante la Visualización de a
 
 1. Haga clic en el icono de visualizaciones de la izquierda y arrastre una visualización de abandonos al espacio de trabajo sobre la tabla de forma libre
 2. Haga clic en el icono de componentes de la izquierda y, a continuación, busque la dimensión **Páginas**.
-3. Haga clic en el icono de flecha junto a la dimensión Páginas para mostrar los valores de la página. Los valores de dimensión aparecen en color amarillo.
+3. Haga clic en el icono de flecha junto a la dimensión Páginas para mostrar los valores de la página. Los elementos de dimensión son de color amarillo.
 4. Busque la página que servirá como primer punto de contacto y arrástrela al espacio denominado “Agregar punto de contacto” en la visualización.
 5. Continúe añadiendo los puntos de contacto deseados arrastrando los valores de página a la visualización.
 
