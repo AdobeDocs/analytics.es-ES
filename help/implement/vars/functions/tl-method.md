@@ -2,10 +2,10 @@
 title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ s.tl(true,"e");
 
 ### Nombre de la vinculación
 
-El argumento del nombre de la vinculación es una cadena que determina el valor de la dimensión de seguimiento del vínculo. Es lo mismo que configurar la variable [`linkName`](../config-vars/linkname.md).
+El argumento del nombre del vínculo es una cadena que determina el elemento de dimensión de seguimiento del vínculo. Es lo mismo que configurar la variable [`linkName`](../config-vars/linkname.md).
 
 ```js
 s.tl(true,"d","Example download link");
