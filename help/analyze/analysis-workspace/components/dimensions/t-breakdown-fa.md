@@ -5,10 +5,10 @@ title: Desglose de dimensiones
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 69%
+ht-degree: 63%
 
 ---
 
@@ -22,9 +22,9 @@ Desglose los datos ilimitadamente para sus necesidades específicas; genere cons
 1. [Cree un proyecto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) con una tabla de datos.
 1. En la tabla de datos, haga clic con el botón secundario en un elemento de línea y seleccione **[!UICONTROL Desglosar]** > *`<item>`*.
 
-   ![Resultado ](assets/fa_data_table_actions.png)
+   ![Resultado](assets/fa_data_table_actions.png)
 
-   Puede desglosar métricas por valores de dimensión o segmentos de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
+   Puede desglosar las métricas por elementos de dimensión o segmentos de audiencia en los períodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
 
    >[!NOTE] El número de desgloses de la tabla está limitado a 200 desgloses. Este límite aumentará para la exportación de desgloses.
 
