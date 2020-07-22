@@ -3,10 +3,10 @@ description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8ce13270a254af140e38b981e9edd9b5e122cdf9
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -345,7 +345,7 @@ Nuevas funciones y mejoras publicadas el 12 de abril de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  >Nueva configuración de filas</a> </p> </td> 
-   <td colname="col2"> <p>La nueva configuración <span class="uicontrol">Calcular porcentaje por fila</span> obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto resulta particularmente útil en los porcentajes de tendencias, como averiguar cómo se comporta una dimensión en comparación con el resto a lo largo del tiempo. Se activa de forma predeterminada al hacer clic en el icono <span class="uicontrol">Visualizar</span>. </p> </td> 
+   <td colname="col2"> <p>La nueva configuración <span class="uicontrol">Calcular porcentaje por fila</span> obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto resulta especialmente útil para los porcentajes de tendencias, como por ejemplo la tendencia de cómo un elemento de dimensión realiza ferias con respecto al resto con el tiempo. Se activa de forma predeterminada al hacer clic en el icono <span class="uicontrol">Visualizar</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Configuración de la visualización “Apilada al 100 %”</a> </p> </td> 
@@ -515,7 +515,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cambios en Ninguno/No especificado </p> </td> 
-   <td colname="col2"> <p>Se ha cambiado el modo en que Ninguno/No especificado funciona en Analysis Workspace, de modo que sea coherente con Reports &amp; Analytics, el Generador de segmentos y el menú de valores de dimensión en Analysis Workspace. </p> <p>Esto significa que el valor aparecerá como “No especificado” en vez de como “Ninguno” en la mayoría de los proyectos de Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Se ha cambiado el modo en que Ninguno/No especificado funciona en el Analysis Workspace para que sea coherente con Informes y Analytics, el Generador de segmentos y el menú de elementos de dimensión en Analysis Workspace. </p> <p>Esto significa que el valor aparecerá como “No especificado” en vez de como “Ninguno” en la mayoría de los proyectos de Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
