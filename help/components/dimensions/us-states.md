@@ -2,7 +2,7 @@
 title: Estados de EE.UU.
 description: El estado del visitante en Estados Unidos.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -22,9 +22,9 @@ Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El 
 >
 >Si su organización sigue estrictas normas de privacidad en las que [confundir la dirección](/help/admin/admin/general-acct-settings-admin.md) IP no es suficiente, puede solicitar que se deshabiliten los datos de geolocalización por completo. Póngase en contacto con el Servicio de atención al cliente con la ID del grupo de informes y solicite desactivar &quot;Geografía&quot; para el grupo de informes.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen regiones y el país en el que reside la región. Los valores de ejemplo incluyen `"California"`, `"Texas"`o `"Virginia"`. El valor de dimensión `"Unspecified"` incluye todo el tráfico internacional fuera de los Estados Unidos.
+Los elementos de dimensión incluyen regiones y el país en el que reside la región. Los valores de ejemplo incluyen `"California"`, `"Texas"`o `"Virginia"`. El elemento de dimensión `"Unspecified"` incluye todo el tráfico internacional fuera de los Estados Unidos.
 
 ## Diferencias entre la ubicación real y la notificada
 
