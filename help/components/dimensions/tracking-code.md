@@ -2,7 +2,7 @@
 title: Código de seguimiento
 description: Nombre del código de seguimiento o campaña.
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -18,6 +18,6 @@ La dimensión &#39;Código de seguimiento&#39; lista los nombres de los códigos
 
 Esta dimensión recupera datos de la cadena [`v0` de](/help/implement/validate/query-parameters.md) consulta en solicitudes de imagen. AppMeasurement recopila estos datos mediante la [`campaign`](/help/implement/vars/page-vars/campaign.md) variable.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen los nombres de los códigos de seguimiento en el sitio. Su organización determina qué valores de dimensión específicos desea utilizar.
+Los elementos de dimensión incluyen los nombres de los códigos de seguimiento en el sitio. Su organización determina qué elementos de dimensión específicos desea utilizar.
