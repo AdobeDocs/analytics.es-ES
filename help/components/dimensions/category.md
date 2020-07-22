@@ -2,7 +2,7 @@
 title: Categoría
 description: La categoría del producto de la visita.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -18,9 +18,9 @@ La dimensión &#39;Categoría&#39; informa la categoría del producto de la visi
 
 Esta dimensión hace referencia a la primera parte de la cadena en la [`products`](/help/implement/vars/page-vars/products.md) variable. Todo lo anterior al primer punto y coma (`;`) rellena esta dimensión.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Dado que esta variable se basa en una cadena personalizada en la implementación, su organización determina cuáles son los valores de dimensión. Adobe recomienda agrupar productos individuales en categorías significativas, utilizando las dimensiones &quot;Producto&quot; y &quot;Categoría&quot;.
+Dado que esta variable se basa en una cadena personalizada en la implementación, su organización determina cuáles son los elementos de dimensión. Adobe recomienda agrupar productos individuales en categorías significativas, utilizando las dimensiones &quot;Producto&quot; y &quot;Categoría&quot;.
 
 >[!TIP]
 >
