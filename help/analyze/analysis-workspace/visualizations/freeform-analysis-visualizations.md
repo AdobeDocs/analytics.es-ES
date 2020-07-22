@@ -2,8 +2,11 @@
 description: Obtenga información sobre las visualizaciones y los ajustes de visualización en Analysis Workspace.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
-translation-type: ht
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +31,7 @@ Vídeo de YouTube: [tipos de visualización en Analysis Workspace](https://www.y
 | [Barra horizontal](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Muestra las barras horizontales que representan los distintos valores de una o varias métricas. |
 | [Líneas](/help/analyze/analysis-workspace/visualizations/line.md) | Representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión. |
 | [Mapa](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permite crear un mapa visual de cualquier métrica (incluidas las métricas calculadas). |
-| [Diagrama de dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los valores de dimensión y hasta tres métricas. |
+| [Diagrama de dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
 | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | En función de la celda seleccionada, esta visualización muestra los totales y los resúmenes. |
 | [Cambio de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | En función de las celdas seleccionadas, esta visualización compara las celdas entre sí. |
 | [Texto](/help/analyze/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario al Workspace. |
@@ -37,7 +40,7 @@ Vídeo de YouTube: [tipos de visualización en Analysis Workspace](https://www.y
 
 ## Panel de visualizaciones {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-Para mostrar el Panel de visualizaciones, haga clic en **[!UICONTROL Visualizations]** en el panel lateral.
+Para mostrar el Panel de visualizaciones, haga clic en **[!UICONTROL Visualizaciones]** en el panel lateral.
 
 ![Resultado ](assets/visualizations.png)
 
@@ -45,7 +48,7 @@ La mayoría de los tipos de visualización (como los gráficos de área, barras,
 
 ## Configuración de visualización {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-Para acceder a [!UICONTROL Visualization Settings], arrastre una visualización hasta el [!UICONTROL Freeform Panel] y, a continuación, haga clic en el icono de engranaje [!UICONTROL Visualization Settings].
+Para acceder a la [!UICONTROL configuración de visualización], arrastre una visualización al [!UICONTROL panel improvisado] y haga clic en el icono de engranaje de [!UICONTROL Configuración de visualización].
 
 >[!IMPORTANT]
 >
@@ -66,7 +69,7 @@ Para acceder a [!UICONTROL Visualization Settings], arrastre una visualización 
 
 ## Icono Crear imagen {#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-Si no está seguro de qué visualización escoger, haga clic en el icono **[!UICONTROL Create Visual]** en cualquier fila de la tabla. Dicho icono aparecerá cuando se sitúe sobre la fila de la tabla. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene hasta tres segmentos seleccionados, se creará un diagrama de Venn. Para más de tres segmentos, se creará un gráfico de barras. Para otros tipos de datos, es posible que se cree un gráfico de líneas, etc.
+Si no está seguro de qué visualización escoger, haga clic en el icono **[!UICONTROL Crear visualización]** en cualquier fila de la tabla. Dicho icono aparecerá cuando se sitúe sobre la fila de la tabla. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene hasta tres segmentos seleccionados, se creará un diagrama de Venn. Para más de tres segmentos, se creará un gráfico de barras. Para otros tipos de datos, es posible que se cree un gráfico de líneas, etc.
 
 ![](assets/create-visual.png)
 
@@ -99,11 +102,11 @@ La edición de leyendas **no** se aplica a: visualizaciones de rectángulos, vi�
 Para editar una etiqueta de leyenda en un gráfico de líneas, por ejemplo:
 
 1. Haga clic con el botón derecho en una de las etiquetas de leyenda.
-1. Haga clic en **[!UICONTROL Edit Label]**.
+1. Haga clic en **[!UICONTROL Editar etiqueta]**.
 
    ![](assets/edit-label.png)
 
 1. Introduzca el nuevo texto de etiqueta.
-1. Pulse **[!UICONTROL Enter]** para guardar.
+1. Pulse **[!UICONTROL Intro]** para guardar.
 
 Aquí tiene un [vínculo que dirige a un vídeo](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sobre este tema.
