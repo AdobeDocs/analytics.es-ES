@@ -2,17 +2,17 @@
 title: linkName
 description: Configure el nombre de la visita del vínculo personalizado.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 
 # linkName
 
-Utilice la variable `linkName` para determinar el valor de dimensión de los vínculos personalizados, de descarga o de salida al ejecutar el siguiente método [`tl()`](../functions/tl-method.md).
+Use the `linkName` variable to determine the dimension item of custom links, download links, or exit links when running the next [`tl()`](../functions/tl-method.md) method.
 
 Si esta variable está en blanco, AppMeasurement vuelve a la variable [`linkURL`](linkurl.md).
 
@@ -29,7 +29,7 @@ Puede definir el campo de nombre del vínculo al configurar una regla para envia
 
 ## s.linkName en el editor de código personalizado de AppMeasurement y Launch
 
-La variable `s.linkName` es una cadena que determina el valor de dimensión de los vínculos personalizados, de descarga o de salida (según lo que sea [`s.linkType`](linktype.md)). Puede contener hasta 100 bytes.
+The `s.linkName` variable is a string that determines the dimension item for custom links, download links, or exit links (depending on what [`s.linkType`](linktype.md) is). Puede contener hasta 100 bytes.
 
 >[!TIP]
 >
