@@ -2,7 +2,7 @@
 title: Compatibilidad de dimensiones de Analytics
 description: Referencia para dimensiones e informes de Analytics.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -16,7 +16,7 @@ Esta página lista dimensiones admitidas en sus respectivas funciones de Analyti
 
 >[!NOTE]
 >
->En esta lista se omiten los nombres, las clasificaciones y los atributos de visitante de las variables personalizadas. Estos valores de dimensión son específicos de grupos de informes individuales.
+>En esta lista se omiten los nombres, las clasificaciones y los atributos de visitante de las variables personalizadas. Estos elementos de dimensión son específicos de grupos de informes individuales.
 
 >[!NOTE]
 >
