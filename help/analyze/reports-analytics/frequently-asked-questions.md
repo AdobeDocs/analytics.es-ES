@@ -3,8 +3,11 @@ description: Ofrece respuestas y sugerencias para resolución de problemas a alg
 keywords: Troubleshooting Analytics
 title: Preguntas frecuentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 94%
 
 ---
 
@@ -43,7 +46,7 @@ Los dispositivos de Apple informan de su versión de firmware en la cadena del a
 
 **¿Por qué los totales en la parte inferior de mi informe no coinciden al sumar los valores?**
 
-Los valores de dimensión suelen aplicarse en varios lugares; por ejemplo: visitas que se extienden durante la medianoche o múltiples productos que pertenecen a un único pedido. El valor de dimensión se registra en todos los elementos de línea aplicables, pero se deduplica en el total del informe. Consulte [Comparar la suma de elementos de línea para informar del total](https://helpx.adobe.com/es/analytics/kb/sum-line-items-different-from-total.html) en la base de conocimientos de Analytics para obtener más información.
+Los elementos de dimensión suelen aplicarse en varios lugares; por ejemplo: visitas que abarcan la medianoche o múltiples productos que pertenecen a un único pedido. El elemento de dimensión se registra en todos los elementos de línea aplicables, pero se anula la duplicación en el total del informe. Consulte [Comparar la suma de elementos de línea para informar del total](https://helpx.adobe.com/es/analytics/kb/sum-line-items-different-from-total.html) en la base de conocimientos de Analytics para obtener más información.
 
 **¿Cómo excluyo datos de direcciones de una IP específica en mi grupo de informes?**
 
