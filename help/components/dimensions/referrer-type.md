@@ -2,7 +2,7 @@
 title: Tipo de referente
 description: El tipo de remitente del reenvío, dependiendo de la procedencia del visitante.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # Tipo de referente
 
-Los informes de dimensión &#39;tipo de Remitente del reenvío&#39; a través de los cuales los visitantes de canales genéricos hicieron clic para llegar al sitio. Adobe mantiene las reglas para cada valor de dimensión, a diferencia de los canales [de](marketing-channel.md)marketing, donde su organización mantiene reglas para cada canal.
+Los informes de dimensión &#39;tipo de Remitente del reenvío&#39; a través de los cuales los visitantes de canales genéricos hicieron clic para llegar al sitio. Adobe mantiene las reglas para cada elemento de dimensión, a diferencia de los canales [de](marketing-channel.md)marketing, donde su organización mantiene reglas para cada canal.
 
 ## Rellenar esta dimensión con datos
 
 Esta dimensión hace referencia a varias tablas de búsqueda internas de Adobe. Cada valor se basa en el [remitente del reenvío](referrer.md) de la visita, que depende de los filtros [de URL](/help/admin/admin/internal-url-filter-admin.md)internos. Asegúrese de que la dimensión de remitente del reenvío y los filtros de URL internos están correctamente configurados.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen el tipo de remitente del reenvío de la visita. Los valores específicos incluyen lo siguiente:
+Los elementos de dimensión incluyen el tipo de remitente del reenvío de la visita. Los valores específicos incluyen lo siguiente:
 
 * **Escritos o marcadores**: No existen datos de remitente del reenvío para la visita.
 * **Motores** de búsqueda: El remitente del reenvío proviene de un motor de búsqueda reconocido que incluye una cadena de consulta de palabra clave.
@@ -195,9 +195,9 @@ La siguiente lista hace referencia a la tabla de búsqueda &#39;Redes sociales&#
 * `zooomr.com`
 * `zhihu.com`
 
-### Motores de búsqueda en el valor de dimensión &#39;Otros sitios web&#39;
+### Motores de búsqueda en el elemento de dimensión &#39;Otros sitios web&#39;
 
 Cuando vista dominios específicos en la dimensión &#39;tipo de Remitente del reenvío&#39;, puede haber dominios que se esperarían en &#39;Motores de búsqueda&#39; enumerados en &#39;Otros sitios web&#39;. Por ejemplo: puede ver `'google.com'` en &#39;Otros sitios web&#39;.
 
-* **Dominios de motor de búsqueda en el valor** de dimensión &#39;Motores de búsqueda&#39;: El remitente del reenvío cumplió todos los criterios para clasificar como motor de búsqueda por parte de Adobe. El dominio de referencia es un motor de búsqueda válido ** y la dirección URL de referencia contiene un parámetro de cadena de consulta de palabra clave.
-* **Dominios de motor de búsqueda en el valor** de dimensión &#39;Otros sitios web&#39;: La dirección URL de referencia no cumplía todos los criterios para clasificarse como motor de búsqueda. Algunos ejemplos comunes incluyen subdominios dedicados a otras funciones además de la búsqueda. Por ejemplo: `mail.google.com` `autos.yahoo.com` o no son motores de búsqueda, pero residen en un dominio de nivel superior comúnmente asociado con la búsqueda. Estos subdominios no incluyen una cadena de consulta de palabras clave, por lo que se incluyen en &#39;Otros sitios web&#39; en lugar de en &#39;Motores de búsqueda&#39;.
+* **Dominios de motor de búsqueda en el elemento** de dimensión &#39;Motores de búsqueda&#39;: El remitente del reenvío cumplió todos los criterios para clasificar como motor de búsqueda por parte de Adobe. El dominio de referencia es un motor de búsqueda válido ** y la dirección URL de referencia contiene un parámetro de cadena de consulta de palabra clave.
+* **Dominios de motor de búsqueda en el elemento** de dimensión &#39;Otros sitios web&#39;: La dirección URL de referencia no cumplía todos los criterios para clasificarse como motor de búsqueda. Algunos ejemplos comunes incluyen subdominios dedicados a otras funciones además de la búsqueda. Por ejemplo: `mail.google.com` `autos.yahoo.com` o no son motores de búsqueda, pero residen en un dominio de nivel superior comúnmente asociado con la búsqueda. Estos subdominios no incluyen una cadena de consulta de palabras clave, por lo que se incluyen en &#39;Otros sitios web&#39; en lugar de en &#39;Motores de búsqueda&#39;.
