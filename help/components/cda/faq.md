@@ -2,7 +2,7 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 52%
@@ -92,4 +92,4 @@ Si desea cambiar los métodos de identificación de CDA, comuníquese con el adm
 
 ## ¿Cómo gestiona Adobe los límites únicos de una eVar utilizada en la vinculación basada en campos?
 
-CDA extrae los valores de dimensión de eVar antes de optimizarlos para el sistema de informes. No es necesario preocuparse por los límites únicos para los fines de CDA. Sin embargo, si ha intentado utilizar esa propiedad o eVar en un proyecto de Workspace, aún puede ver el valor de dimensión [(Poco tráfico)](/help/technotes/low-traffic.md) .
+CDA extrae elementos de dimensión eVar antes de optimizarlos para sistema de informes. No es necesario preocuparse por los límites únicos para los fines de CDA. Sin embargo, si ha intentado utilizar esa propiedad o eVar en un proyecto de Workspace, aún puede ver el elemento de dimensión [(Poco tráfico)](/help/technotes/low-traffic.md) .
