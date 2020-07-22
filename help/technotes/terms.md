@@ -2,10 +2,10 @@
 title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '2458'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Canal:** puede hacer referencia a:
    * La variable Canal, que rellena la dimensión Secciones del sitio. Consulte [Variables de página](/help/implement/vars/page-vars/page-variables.md) en la guía del usuario sobre implementación.
    * Canales de marketing, un componente que le ayuda a comprender cómo llegan los usuarios al sitio. Consulte [Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) en la guía de usuario sobre componentes.
-* **Clasificación:** función de Adobe Analytics que permite agrupar valores de dimensión. Consulte [Clasificaciones](/help/components/c-classifications2/c-classifications.md) en la guía de usuario sobre componentes.
+* **Clasificación:** Función de Adobe Analytics que permite agrupar elementos de dimensión. Consulte [Clasificaciones](/help/components/c-classifications2/c-classifications.md) en la guía de usuario sobre componentes.
 * **ClickMap:** ya no se utiliza. Se trata de un complemento heredado para explorador que muestra en qué áreas del sitio se hizo clic con mayor frecuencia. Esta herramienta se sustituyó por Activity Map.
 * **Fuente de datos del flujo de navegación:** consulte Fuente de datos
 * **Cohorte:** grupo de personas que comparten características comunes durante un período de tiempo determinado. Consulte [¿Qué es el análisis de cohorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)en la guía de usuario sobre análisis.
@@ -75,7 +75,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Métrica:** un tipo de componente que contiene datos cuantitativos. Los valores de las métricas generalmente contienen números, como Vistas de página, Visitas e Ingresos. Su homólogo suele ser una dimensión.
 * **Etiquetado de grupos múltiples:** la práctica de enviar la misma visita a varios grupos de informes. Con la introducción de los grupos de informes virtuales, esta práctica ya no es necesaria. La mayoría de los procesos de etiquetado de grupos múltiples se centran en un grupo de informes global.
 * **Normalización:** forma de organizar una visualización que recoge todas las métricas e iguala sus proporciones, lo que permite una comparación más sencilla de las tendencias.
-* **Ocurrencias:** un tipo de métrica que muestra el número de visitas para el que se configuró o durante el cual persistió un valor de dimensión. Consulte la métrica [Ocurrencias](/help/components/metrics/occurrences.md) en la guía del usuario Componentes.
+* **Ocurrencias:** Tipo de métrica que muestra cuántas visitas al elemento de dimensión se configuró o se mantuvo. Consulte la métrica [Ocurrencias](/help/components/metrics/occurrences.md) en la guía del usuario Componentes.
 * **Omniture:** ya no se usa como término. Era la organización propietaria de Adobe Analytics antes de ser adquirida por Adobe en 2009.
 * **Rutas:** Consulte Flujo.
 * **Vista de página:** tipo de visita que incrementa las vistas de página. Consulte la métrica vistas [de](/help/components/metrics/page-views.md) página en la guía del usuario Componentes. Consulte también Visita.
