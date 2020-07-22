@@ -1,8 +1,11 @@
 ---
 description: Varios informes de Adobe Analytics pueden mostrar No especificado, Otro o Desconocido según el informe específico que se visualice. En general, este elemento de línea indica que la variable no se definió o que no estuvo disponible.
 title: No especificado, Otro y Desconocido en los informes
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +20,7 @@ Varios informes de Adobe Analytics pueden mostrar “No especificado”, “Otro
 
 * **Un evento se activa sin una variable de conversión:** por ejemplo, un usuario visita su sitio y realiza un compra sin ningún valor eVar1. Si ve los pedidos mediante la dimensión eVar1, comprobará que no hay ningún valor al que atribuir este pedido. Por lo tanto, se atribuye automáticamente al estado “No especificado”.
 * **Datos no clasificados en los informes de clasificación:** cuando se ven los datos de clasificación, cualquier valor que no tenga datos asociados con esa clasificación en concreto vuelve al estado “No especificado”. Para resolver este problema, clasifique el valor de la variable principal.
-* **Informes de desglose en los que solo se activó una variable:** cuando se aplica un desglose a una variable, se debe contabilizar cada instancia de dicha variable. Si no se vio la segunda variable o si persistió desde una visita anterior, el valor de la dimensión será “No especificado”.
+* **Informes de desglose en los que solo se activó una variable:** cuando se aplica un desglose a una variable, se debe contabilizar cada instancia de dicha variable. Si no se vio la segunda variable o si persistió desde una visita anterior, el elemento de dimensión será &quot;No especificado&quot;.
 * **Visitas que no son de móviles en los informes de dispositivos móviles:** todas las visitas que no sean de dispositivos móviles se muestran en los informes móviles como “No especificado” (“No móvil” en Reports and Analytics).
 
 ## “Otro” en un informe
