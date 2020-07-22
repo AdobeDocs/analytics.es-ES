@@ -2,7 +2,7 @@
 title: Altura del explorador - agrupada
 description: Altura de la ventana del explorador en píxeles.
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -28,6 +28,6 @@ Esta dimensión recupera datos de la cadena [`bh` de](/help/implement/validate/q
 
 Adobe mantiene la altura del explorador durante una visita. Si la altura del explorador se ajusta a mitad de la visita, el ajuste no se registra.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen todas las alturas recopiladas del navegador, clasificadas en grupos de 100 píxeles. Por ejemplo, si la altura del explorador de una visita es `720`, se agrupa en el valor de dimensión `700 to 799`.
+Los elementos de dimensión incluyen todas las alturas recopiladas del navegador, clasificadas en grupos de 100 píxeles. Por ejemplo, si la altura del navegador de una visita es `720`, se agrupa en el elemento de dimensión `700 to 799`.
