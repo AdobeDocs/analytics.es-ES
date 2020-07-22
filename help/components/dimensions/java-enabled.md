@@ -2,7 +2,7 @@
 title: Habilitado para Java
 description: Determina si Java está habilitado en el explorador.
 translation-type: tm+mt
-source-git-commit: 226c54b782651ea8c6f4b7bb8030a1513c440a1d
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 1%
@@ -18,9 +18,9 @@ La dimensión &#39;Java habilitado&#39; determina si el explorador en ese moment
 
 Esta dimensión recupera datos de la cadena [`v` de](/help/implement/validate/query-parameters.md) consulta en solicitudes de imagen. AppMeasurement recopila estos datos detectando si Java está habilitado en el explorador. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de `v` consulta que contiene &quot;Y&quot; o &quot;N&quot; si desea utilizar esta dimensión.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen &quot;Habilitado&quot;, &quot;Deshabilitado&quot; y &quot;Desconocido&quot;.
+Los elementos de dimensión incluyen &quot;Habilitado&quot;, &quot;Deshabilitado&quot; y &quot;Desconocido&quot;.
 
 * **Habilitado**: Java está habilitado en el explorador. La cadena de `v` consulta contenía el valor &quot;Y&quot;.
 * **Deshabilitado**: Java está deshabilitado en el explorador o no admite Java. La cadena de `v` consulta contenía el valor &quot;N&quot;.
