@@ -1,8 +1,8 @@
 ---
 title: Información general de Attribution
-description: Concepto de atribución de crédito de un evento de éxito a varios valores de dimensión.
+description: El concepto de atribuir crédito de un evento de éxito a varios elementos de dimensión.
 translation-type: tm+mt
-source-git-commit: 53f5c4273a7621f3b447e36b19010a797e4ddffe
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 52%
@@ -12,7 +12,7 @@ ht-degree: 52%
 
 # Información general de Attribution
 
-La atribución permite a los analistas personalizar la forma en que los valores de dimensión obtienen crédito por los eventos de éxito. Por ejemplo:
+La atribución permite a los analistas personalizar la forma en que los elementos de dimensión obtienen crédito por los eventos de éxito. Por ejemplo:
 
 1. Un visitante a su sitio hace clic en un vínculo de búsqueda paga a una de las páginas de productos. Agregue el producto al carro de compras, pero no lo compre.
 2. Al día siguiente, verá una publicación en los medios sociales de uno de sus amigos, haga clic en el vínculo y, a continuación, complete la compra.
@@ -29,7 +29,7 @@ Adobe Analytics mejora la atribución al permitir lo siguiente:
 
 * Definir la atribución más allá del contenido multimedia de pago: cualquier dimensión, métrica, canal o evento puede aplicarse a modelos (por ejemplo, búsqueda interna), no solo a campañas de marketing.
 * Utilizar la comparación de modelos de atribución sin límites: compare dinámicamente todos los modelos que desee.
-* Evitar cambios de implementación: con el procesamiento de tiempo de informes y las sesiones con reconocimiento de contexto, el contexto del viaje del cliente puede generarse y aplicarse en el tiempo de ejecución.
+* Evitar cambios de implementación: con el procesamiento de tiempo de informes y las sesiones con reconocimiento de contexto, el contexto del recorrido del cliente puede generarse y aplicarse en el tiempo de ejecución.
 * Construir la sesión más adecuada para su situación de atribución.
 * Desglosar la atribución por segmentos: compare fácilmente el rendimiento de sus canales de marketing en cualquier segmento importante (por ejemplo, clientes nuevos frente a repetidos, producto X frente a producto Y, nivel de fidelidad o CLV).
 * Inspeccionar análisis de canales cruzados y de múltiples contactos mediante Diagramas de Venn e Histogramas, y resultados de atribución de tendencias.
