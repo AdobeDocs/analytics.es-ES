@@ -2,10 +2,10 @@
 title: Informes de adquisición en Adobe Analytics
 description: Información sobre la creación de informes basados en adquisiciones, usando Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -112,7 +112,7 @@ El informe Flujo de usuarios muestra los datos de rutas en el contexto de los vi
 
 1. Haga clic en el icono de visualizaciones de la izquierda y arrastre una visualización de flujo al espacio de trabajo sobre la tabla de forma libre
 2. Haga clic en el icono Componentes, a la izquierda y, a continuación, arrastre el segmento **Visitas desde medios sociales** a la pequeña área que se encuentra justo encima de la visualización de flujo denominada “Colocar un segmento aquí”.
-3. Busque la dimensión **Páginas** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los valores de dimensión aparecen en color amarillo.
+3. Busque la dimensión **Páginas** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los elementos de dimensión son de color amarillo.
 4. Busque el valor de página deseado para comenzar y arrástrelo al espacio etiquetado como “Dimensión o elemento” en el centro
 5. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
