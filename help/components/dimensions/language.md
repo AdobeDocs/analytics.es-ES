@@ -2,7 +2,7 @@
 title: Idioma
 description: La configuración de idioma preferida en el explorador.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
@@ -22,6 +22,6 @@ La dimensión &#39;Idioma&#39; muestra los idiomas principales en los que los vi
 
 Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El valor de búsqueda se basa en el encabezado `Accept-Language` HTTP de las solicitudes de imagen. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen nombres descriptivos de los idiomas preferidos de los visitantes. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. Si una solicitud de imagen no contiene un idioma válido en el encabezado HTTP, el valor de dimensión es `"None"`.
+Los elementos de dimensión incluyen nombres descriptivos de los idiomas preferidos de los visitantes. Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. Si una solicitud de imagen no contiene un idioma válido en el encabezado HTTP, el elemento de dimensión es `"None"`.
