@@ -2,7 +2,7 @@
 title: Dominio de referencia
 description: Dominio general en el que se encontraba un visitante antes de hacer clic en el sitio.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Dominio de referencia
 
-La dimensión &#39;Dominio de referencia&#39; informa los dominios en los que los visitantes hacen clic para llegar al sitio. Esta dimensión es útil para comprender qué sitios de terceros generan la mayor cantidad de tráfico en el suyo. Debe existir un vínculo en el sitio externo y un visitante debe hacer clic en él para que se muestre el valor de dimensión.
+La dimensión &#39;Dominio de referencia&#39; informa los dominios en los que los visitantes hacen clic para llegar al sitio. Esta dimensión es útil para comprender qué sitios de terceros generan la mayor cantidad de tráfico en el suyo. Debe existir un vínculo en el sitio externo y un visitante debe hacer clic en él para que se muestre el elemento de dimensión.
 
 >[!IMPORTANT]
 >
@@ -27,6 +27,6 @@ Esta dimensión requiere configuración en la interfaz de Analytics y datos en s
 
 Adobe persiste en el dominio de referencia de una visita. Si un visitante sale y hace clic a través de un vínculo en un dominio diferente en una sola visita, el nuevo valor se actualiza y persiste durante el resto de la visita. Si solo desea ver el valor original, consulte Dominio [de referencia](original-referring-domain.md)original.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen los dominios en los que los visitantes hacen clic hasta el sitio. Si una visita no tiene datos de remitente del reenvío (establecidos o persistentes), se agrupa bajo el valor de dimensión `"Typed/Bookmarked"`. Este valor de dimensión significa que no hubo ningún valor de remitente del reenvío, como si el visitante escribiera manualmente la dirección del explorador en la barra de direcciones o hiciera clic en un marcador.
+Los elementos de dimensión incluyen los dominios en los que los visitantes hacen clic hasta el sitio. Si una visita no tiene datos de remitente del reenvío (establecidos o persistentes), se agrupa en el elemento de dimensión `"Typed/Bookmarked"`. Este elemento de dimensión significa que no había ningún valor de remitente del reenvío, como si el visitante escribiera manualmente la dirección del explorador en la barra de direcciones o hiciera clic en un marcador.
