@@ -2,7 +2,7 @@
 title: Lealtad del cliente
 description: Categorías basadas en el número de compras anteriores realizadas por un visitante.
 translation-type: tm+mt
-source-git-commit: a8dc233e962a49674a30ff3c9f0b5d0d45b09f24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -18,13 +18,13 @@ La dimensión &quot;Lealtad del cliente&quot; informa la cantidad de visitantes 
 
 Adobe rellena automáticamente esta dimensión en función del [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) evento de la implementación. Si implementa el `purchase` evento en el sitio, esta dimensión siempre funciona.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen lo siguiente:
+Los elementos de dimensión incluyen lo siguiente:
 
 * **No es cliente**: En el momento de la visita, el visitante nunca había realizado una compra antes.
 * **Clientes** nuevos: En el momento de la visita, el visitante realizó una sola compra antes.
 * **Clientes** de retorno: En el momento de la visita, el visitante realizó dos compras antes.
 * **Clientes** fieles: En el momento de la visita, el visitante realizó tres o más compras antes.
 
-Cuando un visitante realiza una compra (activa el `purchase` evento), esa visita y todas las visitas posteriores pasan al siguiente &quot;bloque&quot;. Por ejemplo: si un visitante compra un producto de su sitio por primera vez, pasa de &quot;No es cliente&quot; a &quot;Nuevos clientes&quot;, con el pedido atribuido a &quot;Nuevos clientes&quot;. El valor de dimensión &quot;Not a customer&quot; no puede tener pedidos atribuidos a él.
+Cuando un visitante realiza una compra (activa el `purchase` evento), esa visita y todas las visitas posteriores pasan al siguiente &quot;bloque&quot;. Por ejemplo: si un visitante compra un producto de su sitio por primera vez, pasa de &quot;No es cliente&quot; a &quot;Nuevos clientes&quot;, con el pedido atribuido a &quot;Nuevos clientes&quot;. El elemento de dimensión &quot;No es cliente&quot; no puede tener pedidos atribuidos a él.
