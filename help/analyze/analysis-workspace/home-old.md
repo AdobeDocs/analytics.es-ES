@@ -3,7 +3,7 @@ description: Introducción a Adobe Analytics.
 keywords: Analysis Workspace
 title: Guía de introducción
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 98%
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 # Analysis Workspace
 
-Analysis Workspace es una de las principales herramientas de Adobe para tomar decisiones procesables basadas en datos para su organización. La visualización más común, la tabla de forma libre, permite crear fácilmente informes personalizados con dimensiones, métricas, segmentos e intervalos de fechas.
+Analysis Workspace es una de las principales herramientas de Adobe para tomar decisiones procesables basadas en datos para su organización. La visualización más común, la tabla improvisada, permite crear fácilmente informes personalizados con dimensiones, métricas, segmentos e intervalos de fechas.
 
 ## Requisitos previos
 
@@ -21,7 +21,7 @@ Analysis Workspace es una de las principales herramientas de Adobe para tomar de
 
 ## Extraer un informe de clasificación básico en Workspace
 
-Extraer un informe de clasificación básico con Analysis Workspace. Un informe de clasificación muestra una vista total agregada de cada valor de dimensión, empezando por los valores más altos. Estos tipos de informes son útiles para ver qué componentes del sitio son los más efectivos, como por ejemplo qué páginas obtienen la mayor cantidad de tráfico o qué productos se venden más.
+Extraer un informe de clasificación básico con Analysis Workspace. Un informe de clasificación muestra una vista total agregada de cada elemento de dimensión, mostrando primero los valores más altos. Estos tipos de informes son útiles para ver qué componentes del sitio son los más efectivos, como por ejemplo qué páginas obtienen la mayor cantidad de tráfico o qué productos se venden más.
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
@@ -77,11 +77,11 @@ Si crea correctamente un informe de espacio de trabajo pero no hay datos, puede 
 * Sugerencias del producto: Las sugerencias del día, junto con vídeos cortos, aparecen ocasionalmente en la esquina inferior derecha de Analysis Workspace. Si omite estas sugerencias, siempre se puede acceder a ellas a través de *[!UICONTROL Ayuda] > [!UICONTROL Sugerencias]*.
 * [Comunidad de Analysis Workspace](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace): Analice Analysis Workspace con otros usuarios y vote las funcionalidades que desee ver en la herramienta.
 * Publicaciones del blog:
-   * [Fortalecer las empresas con un análisis más inteligente](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-   * [Las nuevas funciones en Adobe Analytics logran que la información valiosa sea más accesible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
-   * [5 consejos para optimizar su productividad con Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)
-   * [Perspectivas más rápidas con Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)
-   * [Por qué debería utilizar Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
+   * [Empowering Organizations with Smarter Analysis](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/) (Fortalecer las empresas con un análisis más inteligente)
+   * [New Adobe Analytics Capabilities Make Powerful Insights More Accessible](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/) (Las nuevas funciones en Adobe Analytics logran que la información valiosa sea más accesible)
+   * [5 Tips to Maximize Your Productivity with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/) (5 consejos para optimizar su productividad con Analysis Workspace)
+   * [Faster Insights with Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/) (Perspectivas más rápidas con Analysis Workspace)
+   * [Why You Should Be Using Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/) (Por qué debería utilizar Analysis Workspace)
 
 ## Pasos siguientes
 
@@ -90,15 +90,15 @@ Hay muchas formas diferentes de comprender mejor Analysis Workspace. A continuac
 ### Para usuarios finales que buscan ampliar sus conocimientos sobre cómo utilizar Analysis Workspace
 
 * [Detalles de la IU de Workspace](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md): Ahora que ha creado un informe básico, familiarícese con el resto de la interfaz.
-* [Visualizaciones en Workspace](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): Las tablas de forma libre son simplemente un tipo de visualización en Analysis Workspace. Aprenda a utilizar otras visualizaciones, como gráficos de líneas, gráficos de barras y mapas geográficos.
+* [Visualizaciones en Workspace](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): Las tablas improvisada son simplemente un tipo de visualización en Analysis Workspace. Aprenda a utilizar otras visualizaciones, como gráficos de líneas, gráficos de barras y mapas geográficos.
 * [Dimensiones en Workspace](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md): Obtenga más información sobre las dimensiones y cómo utilizarlas en algo más que en los informes de clasificación.
-* [Métricas en Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md): Obtenga más información sobre las métricas y cómo utilizarlas en otras partes de tablas de forma libre.
+* [Métricas en Workspace](/help/analyze/analysis-workspace/components/apply-create-metrics.md): Obtenga más información sobre las métricas y cómo utilizarlas en otras partes de tablas improvisada.
 * [Introducción a la segmentación](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md): Obtenga información sobre los segmentos y extraiga un informe básico con un segmento.
 * [Intervalos de fechas en Workspace](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md): Obtenga información sobre las fechas relativas y móviles y utilícelas en proyectos de Workspace.
 * Uso compartido de proyectos en Workspace: Muestre a sus compañeros el impresionante proyecto de Workspace que ha creado.
 * [Paneles (avanzados) en Workspace](/help/analyze/analysis-workspace/c-panels/panels.md): Utilice funciones avanzadas en Workspace, como Atribución y Comparación de segmentos.
 
-### Para analistas y administradores que buscan mejorar la calidad del espacio de trabajo en su organización
+### Para analistas y administradores que buscan mejorar la calidad de Workspace en su organización
 
 * [Permisos de Analysis Workspace](https://docs.adobe.com/content/help/es-ES/core-services/interface/manage-users-and-products/admin-getting-started.html): Asigne permisos de usuario a Workspace mediante Adobe Admin Console.
 * [Plantillas en Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md): Cree plantillas para que sus compañeros puedan empezar con un espacio de proyecto adaptado a sus necesidades.
