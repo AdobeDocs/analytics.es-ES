@@ -2,7 +2,7 @@
 title: Búsqueda paga
 description: Distingue las métricas de la búsqueda paga y la búsqueda natural.
 translation-type: tm+mt
-source-git-commit: d71edc74644907b47bfb6492e7a6c47c06d5984f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -18,6 +18,6 @@ La dimensión &#39;Búsqueda paga&#39; permite mirar cualquier métrica y compar
 
 El único requisito para que esta dimensión funcione correctamente es tener la detección [de búsqueda](/help/admin/admin/paid-search-detection/paid-search-detection.md) paga configurada correctamente en la configuración del grupo de informes. Si la detección de búsqueda paga está configurada correctamente y un grupo de informes tiene datos, esta dimensión siempre funciona.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen dos valores estáticos: `"Natural"` y `"Paid"`. Si una visita coincide con los criterios de un motor de búsqueda y también con la detección de búsqueda paga, pertenece al valor de la `"Paid"` dimensión. Si una visita coincide con los criterios de un motor de búsqueda y *no coincide con* la detección de búsqueda paga, pertenece al valor de la `"Natural"` dimensión.
+Los elementos de dimensión incluyen dos valores estáticos: `"Natural"` y `"Paid"`. Si una visita coincide con los criterios de un motor de búsqueda y también con la detección de búsqueda paga, pertenece al elemento de `"Paid"` dimensión. Si una visita coincide con los criterios de un motor de búsqueda y *no coincide con* la detección de búsqueda paga, pertenece al elemento de `"Natural"` dimensión.
