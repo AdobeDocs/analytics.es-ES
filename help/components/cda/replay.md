@@ -2,7 +2,7 @@
 title: Cómo se reproduce el trabajo
 description: Comprender el concepto de "reproducción" en Analytics entre dispositivos
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Tan pronto como se recopila una visita, CDA intenta vincularla a dispositivos co
 *Datos tal como aparecen el día en que se recopilan:*
 
 | Marca de tiempo | ECID | eVar1 o CustomerID | Explicación de la visita | Métrica Personas (acumulativa) mediante Device Graph | Métrica Personas (acumulativa) mediante la vinculación basada en campos |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob en su equipo de escritorio, sin autenticar | `1` (246) | `1` (246) |
 | `2` | `246` | `Bob` | Bob inicia sesión en su escritorio | `1` (246) | `2` (246 y Bob) |
 | `3` | `3579` | - | Bob en su dispositivo móvil, sin autenticar | `2` (246 y 3579) | `3` (246, Bob y 3579) |
@@ -56,7 +56,7 @@ Aproximadamente una vez por semana, CDA vuelve a calcular los datos históricos 
 *Los mismos datos después de la reproducción:*
 
 | Marca de tiempo | ECID | eVar1 o CustomerID | Explicación de la visita | Métrica Personas (acumulativa) mediante Device Graph | Métrica Personas (acumulativa) mediante la vinculación basada en campos |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob en su equipo de escritorio, sin autenticar | `1` (Cluster1) | `1` (Bob) |
 | `2` | `246` | `Bob` | Bob inicia sesión en su escritorio | `1` (Cluster1) | `1` (Bob) |
 | `3` | `3579` | - | Bob en su dispositivo móvil, sin autenticar | `1` (Cluster1) | `1` (Bob) |
