@@ -2,7 +2,7 @@
 title: Código postal
 description: Código postal del visitante.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -27,6 +27,6 @@ La opción  Zip de Configuración [de cuenta](/help/admin/admin/general-acct-set
 >
 >La configuración del grupo de informes es vital si desea tener un control total sobre cómo completar esta dimensión.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen el código postal del visitante.
+Los elementos de dimensión incluyen el código postal del visitante.
