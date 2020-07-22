@@ -2,7 +2,7 @@
 title: Dimensiones móviles
 description: Dimensiones basadas en la cadena de usuario-agente del dispositivo.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -24,17 +24,17 @@ Estas dimensiones hacen referencia a reglas de búsqueda internas de Adobe. El v
 
 >[!NOTE]
 >
->Los valores de dimensión etiquetados `"None"` son dispositivos no móviles. Si desea un informe que solo incluya dispositivos móviles, arrastre la dimensión &quot;Dispositivo móvil&quot; al área de segmentos del lienzo del espacio de trabajo.
+>Los elementos de dimensión etiquetados `"None"` son dispositivos no móviles. Si desea un informe que solo incluya dispositivos móviles, arrastre la dimensión &quot;Dispositivo móvil&quot; al área de segmentos del lienzo del espacio de trabajo.
 
-* **Compatibilidad** con audio móvil: Determina los formatos de archivo que puede reproducir el dispositivo. Los valores de ejemplo incluyen `"MP3"`, `"AAC"`y `"MIDI Monophonic"`. Los valores de esta dimensión no se excluyen mutuamente; una sola visita puede atribuirse a varios valores de dimensión.
-* **Portadora** móvil: Si el agente de usuario contiene un dispositivo específico de portadora, el portador es un valor de dimensión. Los valores de ejemplo incluyen `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`y `"Verizon"`.
+* **Compatibilidad** con audio móvil: Determina los formatos de archivo que puede reproducir el dispositivo. Los valores de ejemplo incluyen `"MP3"`, `"AAC"`y `"MIDI Monophonic"`. Los valores de esta dimensión no se excluyen mutuamente; una sola visita puede atribuirse a varios elementos de dimensión.
+* **Portadora** móvil: Si el agente de usuario contiene un dispositivo específico de portadora, el portador es un elemento de dimensión. Los valores de ejemplo incluyen `"Reliance Jio"`, `"Airtel"`, `"Vodafone"`y `"Verizon"`.
 * **Profundidad** de color móvil: Profundidad de color del dispositivo móvil, en bits.
-* **Compatibilidad** con cookies móviles: Determina si el dispositivo móvil admite cookies. Este informe no indica si el explorador acepta cookies. Los valores de dimensión incluyen `"Supported"`, `"Not supported"`y `"Unknown"`.
+* **Compatibilidad** con cookies móviles: Determina si el dispositivo móvil admite cookies. Este informe no indica si el explorador acepta cookies. Los elementos de dimensión incluyen `"Supported"`, `"Not supported"`y `"Unknown"`.
 * **Dispositivo** móvil: El dispositivo móvil que utiliza el visitante.
-* **Número** de dispositivo móvil: Determina si el dispositivo móvil transmite su número. Los valores de dimensión incluyen `"Supported"`, `"Not supported"`y `"Unknown"`.
+* **Número** de dispositivo móvil: Determina si el dispositivo móvil transmite su número. Los elementos de dimensión incluyen `"Supported"`, `"Not supported"`y `"Unknown"`.
 * **Tipo** de dispositivo móvil: Tipo de dispositivo móvil. Los valores de ejemplo incluyen `"Mobile phone"`, `"Tablet"`, `"Media player"`y `"Gaming console"`.
 * **DRM** móvil: Tipo de DRM que admite el dispositivo móvil. Los valores de ejemplo incluyen `"DRM OMA forward"`, `"DRM OMA combined delivery"`y `"DRM OMA separate delivery"`.
-* **Compatibilidad** con imágenes móviles: Tipos de imágenes que admite un dispositivo móvil. Los valores de ejemplo incluyen `"PNG"`, `"JPEG"`y `"GIF 87"`. Los valores de esta dimensión no se excluyen mutuamente; una sola visita puede atribuirse a varios valores de dimensión.
+* **Compatibilidad** con imágenes móviles: Tipos de imágenes que admite un dispositivo móvil. Los valores de ejemplo incluyen `"PNG"`, `"JPEG"`y `"GIF 87"`. Los valores de esta dimensión no se excluyen mutuamente; una sola visita puede atribuirse a varios elementos de dimensión.
 * **servicios informativos** móviles: Tipos de servicios de noticias compatibles con el dispositivo. Los dispositivos recientes no suelen notificar esta información.
 * **VM** Java móvil: Versiones de Java que admite el dispositivo.
 * **Decoración** de correo móvil: Determina si el dispositivo es compatible con Decomail, una función que en otros tiempos era popular en dispositivos japoneses.
@@ -48,7 +48,7 @@ Estas dimensiones hacen referencia a reglas de búsqueda internas de Adobe. El v
 * **Altura** de la pantalla del dispositivo móvil: Altura de la pantalla, en píxeles. Tenga en cuenta que los iPhones siempre informan `"480"` debido a la incapacidad para determinar la versión del dispositivo iPhone. Consulte la sección siguiente sobre cómo determinar la versión del dispositivo iPhone.
 * **Tamaño** de la pantalla del dispositivo móvil: Dimensiones completas del dispositivo móvil en píxeles. El tamaño de pantalla del informe no indica la orientación del dispositivo. Independientemente de la orientación de pantalla, cada dispositivo tiene una resolución de pantalla fija en el informe. Este tamaño se basa en la búsqueda que determina la orientación más probable. You can see sizes such as `"768x1024"` and `"1024x768"` in the same report with each size representing one or more different devices.
 * **Ancho** de la pantalla del dispositivo móvil: Ancho de la pantalla, en píxeles.
-* **Compatibilidad** con vídeo móvil: Los formatos y códecs de archivo de vídeo compatibles con el dispositivo móvil. Existen varios valores de dimensión para diferentes códecs de archivos MP4 y 3GPP. Los valores de esta dimensión no se excluyen mutuamente; una sola visita puede atribuirse a varios valores de dimensión.
+* **Compatibilidad** con vídeo móvil: Los formatos y códecs de archivo de vídeo compatibles con el dispositivo móvil. Existen varios elementos de dimensión para diferentes códecs de archivos MP4 y 3GPP. Los valores de esta dimensión no se excluyen mutuamente; una sola visita puede atribuirse a varios elementos de dimensión.
 
 ## Separación de iPhone por modelo o versión
 
