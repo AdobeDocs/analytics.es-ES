@@ -2,7 +2,7 @@
 title: Tiempo empleado por visita
 description: Cantidad total de tiempo que tardó la visita.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -34,11 +34,11 @@ Esta dimensión está relacionada con el tiempo [promedio invertido en el sitio]
 
 Estas dimensiones funcionan de forma predeterminada para todas las implementaciones. Si un grupo de informes contiene datos, estas dimensiones funcionan.
 
-## Valores de dimensión
+## Elementos de dimensión
 
 Existen varias dimensiones para el tiempo empleado por visita:
 
-* **Tiempo empleado por visita - agrupado**: La cantidad de tiempo se agota. Los valores de dimensión varían de `"Less than 1 minute"` a `"More than 15 hours"`. Las visitas no suelen durar más de 12 horas; sin embargo, las visitas pueden superar las 12 horas si se utilizan visitas con marca de hora o fuentes de datos.
-* **Tiempo empleado por visita (granular**: Cada número de segundos es un valor de dimensión único. Esta dimensión no está disponible en Informes y Analytics ni en Data warehouse.
+* **Tiempo empleado por visita - agrupado**: La cantidad de tiempo se agota. Los elementos de dimensión varían de `"Less than 1 minute"` a `"More than 15 hours"`. Las visitas no suelen durar más de 12 horas; sin embargo, las visitas pueden superar las 12 horas si se utilizan visitas con marca de hora o fuentes de datos.
+* **Tiempo empleado por visita (granular**: Cada número de segundos es un elemento de dimensión único. Esta dimensión no está disponible en Informes y Analytics ni en Data warehouse.
 
 Consulte [Información general](../metrics/time-spent.md) sobre el tiempo empleado para obtener información más general sobre el tiempo empleado.
