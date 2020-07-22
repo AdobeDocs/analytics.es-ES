@@ -2,7 +2,10 @@
 title: Informes de comportamiento en Adobe Analytics
 description: Descubra cómo crear informes de comportamiento en Adobe Analytics
 translation-type: tm+mt
-source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +21,7 @@ En esta página se da por hecho que el usuario tiene conocimientos básicos sobr
 El informe de flujo de comportamiento se puede volver a crear con la visualización Flujo.
 
 1. Haga clic en el icono de visualizaciones de la izquierda y arrastre una visualización de flujo al espacio de trabajo sobre la tabla de forma libre
-2. Busque la dimensión **Página** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los valores de dimensión aparecen en color amarillo.
+2. Busque la dimensión **Página** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los elementos de dimensión son de color amarillo.
 3. Busque el valor de página deseado para comenzar y arrástrelo al espacio etiquetado como “Dimensión o elemento” en el centro
 4. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
