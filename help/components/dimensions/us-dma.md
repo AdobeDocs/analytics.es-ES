@@ -2,7 +2,7 @@
 title: Área de mercado designada (DMA) de EE.UU.
 description: Área de mercado designada de la visita.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
@@ -22,9 +22,9 @@ Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El 
 >
 >Si su organización sigue estrictas normas de privacidad en las que [confundir la dirección](/help/admin/admin/general-acct-settings-admin.md) IP no es suficiente, puede solicitar que se deshabiliten los datos de geolocalización por completo. Póngase en contacto con el Servicio de atención al cliente con la ID del grupo de informes y solicite desactivar &quot;Geografía&quot; para el grupo de informes.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen el código DMA y DMA del visitante. El código de 3 dígitos no es un código postal, sino el código DMA de Nielsen. Los valores de ejemplo incluyen `"Dallas-Ft. Worth (623)"`, `"New York (501)"`o `"Los Angeles (803)"`. El valor de dimensión `"No Metro (0)"` incluye todo el tráfico internacional fuera de los Estados Unidos.
+Los elementos de dimensión incluyen el código DMA y DMA del visitante. El código de 3 dígitos no es un código postal, sino el código DMA de Nielsen. Los valores de ejemplo incluyen `"Dallas-Ft. Worth (623)"`, `"New York (501)"`o `"Los Angeles (803)"`. El elemento de dimensión `"No Metro (0)"` incluye todo el tráfico internacional fuera de los Estados Unidos.
 
 ## Diferencias entre la ubicación real y la notificada
 
