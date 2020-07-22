@@ -2,7 +2,7 @@
 title: canal de primer toque
 description: El primer canal de mercadotecnia dentro de la caducidad del compromiso del visitante.
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -22,12 +22,12 @@ Cada visita enviada a los servidores de recopilación de datos de Adobe se ejecu
 
 Si desea establecer esta dimensión en un valor específico, se requieren los siguientes pasos:
 
-* Defina el valor de dimensión deseado como un canal en el administrador de canales de marketing, en Configuración del grupo de informes.
+* Defina el elemento de dimensión deseado como un canal en el Administrador de canales de marketing en Configuración del grupo de informes.
 * Establezca una regla de procesamiento de Marketing canal que contenga los criterios deseados para la visita.
 * La visita del visitante a su sitio debe coincidir con los criterios descritos en la regla de procesamiento de canal de mercadotecnia __ y debe ser el primer valor de canal de mercadotecnia que lo haga en el período de compromiso del visitante.
 
 Si una visita posterior coincide con criterios de un canal de marketing diferente, esta dimensión no se sobrescribe con el nuevo canal de marketing.
 
-## Valores de dimensión
+## Elementos de dimensión
 
-Los valores de dimensión incluyen cualquier nombre de canal en el administrador de Marketing canal. De forma predeterminada, los valores incluyen `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`y `"Referring domains"`. Puede agregar o eliminar canales en el administrador de canales de marketing, que afectan a los valores de esta dimensión.
+Los elementos de dimensión incluyen cualquier nombre de canal en el administrador de Marketing canal. De forma predeterminada, los valores incluyen `"Paid search"`, `"Natural search"`, `"Display"`, `"Email"`, `"Affiliate"`, `"Direct"`, `"Internal"`, `"Social networks"`y `"Referring domains"`. Puede agregar o eliminar canales en el administrador de canales de marketing, que afectan a los valores de esta dimensión.
