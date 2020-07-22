@@ -2,58 +2,24 @@
 description: La configuración de filas varía en función del componente que haya arrastrado a la tabla.
 title: Configuración de filas
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: ht
-source-git-commit: 5c2f2d098398927d8379f2eb9ea69ca9acbfd726
+translation-type: tm+mt
+source-git-commit: a9dc84cbfcbdffc427155b1d4d44c94d7fa50a64
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 17%
 
 ---
 
 
 # Configuración de filas
 
-La configuración de filas varía en función del componente que haya arrastrado a la tabla.
-
-También puede utilizar [acciones del botón secundario en una tabla](/help/analyze/analysis-workspace/visualizations/freeform-table.md) para administrar las filas seleccionadas.
-
-Para obtener acceso a la configuración de fila de tabla, haga clic en el icono Configuración junto a una dimensión, segmento, métrica, periodo de tiempo o desglose dentro de cada uno de estos elementos:
+La configuración de filas varía en función del componente que haya arrastrado a la tabla. Para obtener acceso a la configuración de fila de tabla, haga clic en el icono Configuración junto a una dimensión, segmento, métrica, periodo de tiempo o desglose dentro de cada uno de estos elementos:
 
 ![](assets/row-settings.png)
 
-<table id="table_7ACE6413DB1F40349ED2860020F92E55"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Configuración de fila </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > Comparaciones de fechas</a> </p> </td> 
-   <td colname="col2"> <p><b>Alinee fechas de cada columna para que todas empiecen en la misma fila. </b> </p> <p>Cuando alinea las fechas, por ejemplo, en una comparación mes a mes entre octubre y septiembre de 2016, la columna de la izquierda comenzará el 1 de octubre y la de la derecha, el 1 de septiembre: </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>Deshabilitado de forma predeterminada. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Porcentajes </p> </td> 
-   <td colname="col2"> <p><b>Calcular porcentajes por fila</b> </p> <p>Obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto es muy útil en los porcentajes de tendencias. Se activa de forma predeterminada al usar el icono <span class="uicontrol">Visualizar</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Totales de columna </p> </td> 
-   <td colname="col2"> <p>Esta configuración solo se muestra con las <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  > filas manuales (estáticas)</a> (cuando ha seleccionado un conjunto finito de elementos), no con las filas dinámicas (cuando suelta una dimensión que muestra todos los elementos). <p>Nota: Para las filas manuales de <i>métricas</i>, la configuración está deshabilitada porque no tiene sentido sumar métricas aparte de las filas actuales de una tabla. </p> </p> <p><b>Calcular los totales sumando los valores actuales de cada columna (habilitado de forma predeterminada):</b> </p> <p>Esta opción solo calcula las filas actuales de la tabla (cálculo del lado del cliente). </p> <p><b>Calcular los totales basados en todas las filas para cada métrica (deshabilitado de forma predeterminada):</b> </p> <p>Esta opción incluye todos los elementos de dimensión para dicha dimensión, incluso los que no aparecen en la lista (cálculo del lado del servidor). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Desgloses </p> </td> 
-   <td colname="col2"> <p><b>Desglose por posición:</b> </p> <p>Puede hacer desgloses según una ubicación fija en una tabla improvisada. Por ejemplo, puede especificar que se desglosen siempre las primeras siete filas. </p> <p>(Anteriormente, la lista de valores en el desglose estaba “bloqueada”. Esto llevaba a una situación en la que, por ejemplo, si realizaba un desglose de <span class="term">Fecha</span> por <span class="term">Página</span>, obtenía una lista de las 50 primeras páginas para el intervalo de fechas seleccionado. Si se guardaba ese informe y se ejecutaba un mes después, era probable que las 50 primeras páginas hubieran cambiado. No obstante, Analysis Workspace utilizaría los resultados del desglose original y devolvería las mismas páginas, pero con el mes en curso como intervalo de fechas.) </p> <p>Para realizar desgloses basados en una ubicación fija: </p> 
-    <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
-     <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">Desglose algunas de las filas de su tabla. </li> 
-     <li id="li_C5610437D3714CCEB9F3C771864B4336">Haga clic en el icono de configuración (engranaje) junto a la fila que quiere en una posición fija. </li> 
-     <li id="li_675E429DC3B94201978166F9408D30B1">Active la casilla junto a <span class="uicontrol">Desglose por posición</span>. </li> 
-     <li id="li_E8A417D0D6D1438CAE825843BA0A7060">Cambie el criterio de ordenación o el intervalo de fechas y verá que ahora los desgloses están vinculados a la posición de la fila, no a las filas en sí. </li> 
-    </ol> <p>Deshabilitado de forma predeterminada. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-| Configuración de fila | Descripción |
+| Configuración | Descripción |
 |--- |--- |
-| Comparaciones de fechas | Alinee fechas de cada columna para que todas empiecen en la misma fila.   Cuando alinea las fechas, por ejemplo, en una comparación mes a mes entre octubre y septiembre de 2016, la columna de la izquierda comenzará el 1 de octubre y la de la derecha, el 1 de septiembre.<br>Deshabilitado de forma predeterminada. |
-| Porcentajes | Calcular porcentajes por fila obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto es muy útil en los porcentajes de tendencias.<br>Habilitado de forma predeterminada al utilizar el icono Visualizar. |
-| Totales de columna | Esta configuración solo se muestra con las [ filas manuales (estáticas)](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) (cuando ha seleccionado un conjunto finito de elementos), no con las filas dinámicas (cuando suelta una dimensión que muestra todos los elementos).<ul><li>**[!UICONTROL Show sum of current rows as the total]** - esto muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total **no eliminará** las métricas de duplicado, como visitas o visitantes.</li><li>**[!UICONTROL Show Grand Total]**: muestra una suma del lado del servidor, lo que significa que el total eliminará la duplicación de métricas como visitas o visitantes.</li></ul> |
-| Desgloses | **[!UICONTROL Breakdown by position]**: puede realizar desgloses según una ubicación fija en una tabla improvisada. Por ejemplo, puede especificar que se desglosen siempre las primeras siete filas.<br>(Anteriormente, la lista de valores en el desglose estaba “bloqueada”. Esto llevaba a una situación en la que, por ejemplo, si realizaba un desglose de Fecha por Página, obtenía una lista de las 50 primeras páginas para el intervalo de fechas seleccionado. Si se guardaba ese informe y se ejecutaba un mes después, era probable que las 50 primeras páginas hubieran cambiado. No obstante, Analysis Workspace utilizaría los resultados del desglose original y devolvería las mismas páginas, pero con el mes en curso como intervalo de fechas.)<br>Para realizar desgloses basados en una ubicación fija: 1. Desglose algunas de las filas de su tabla. 2. Haga clic en el icono de Configuración (engranaje) junto a la fila que quiere en una posición fija. 3. Active la casilla junto a Desglose por posición. 4. Cambie el criterio de ordenación o el intervalo de fechas y verá que ahora los desgloses están vinculados a la posición de la fila, no a las filas en sí.<br>Deshabilitado de forma predeterminada. |
+| Alinear fechas | Esta es una configuración de nivel de tabla que alinea las fechas de cada columna con todos los inicios de la misma fila. La alineación de fechas está habilitada de forma predeterminada cuando se utiliza una dimensión de tiempo en las filas de la tabla y se aplican diferentes intervalos de fechas en las columnas. Por ejemplo, en una tabla diaria con octubre y septiembre aplicados a las columnas, la columna izquierda inicio con el 1 de octubre y la columna derecha inicio con el 1 de septiembre. |
+| Desglose por posición | De forma predeterminada, esta configuración está deshabilitada y los desgloses se corrigen a elementos de fila estáticos. Por ejemplo: supongamos que desglosa los 3 elementos de dimensión de página principales (página principal, resultados de búsqueda, cierre de compra) por Canal de mercadotecnia. Luego, abandona el proyecto y regresa dos semanas después. Al volver a abrir el proyecto, las 3 páginas principales han cambiado, y ahora la página principal, los resultados de búsqueda y el cierre de compra son las 4 o 6 páginas principales. De forma predeterminada, los desgloses de Marketing Canal seguirán apareciendo en Página principal, Resultados de búsqueda y Cierre de compra, aunque ahora se encuentren en las filas 4-6. <br> Por el contrario, **Desglosar por posición** siempre desglosará los 3 elementos principales, independientemente de lo que sean. En referencia a nuestro ejemplo, cuando vuelva a abrir el proyecto, los desgloses de Canal de mercadotecnia se vincularán a las 3 páginas más visitadas de la tabla, no a la página principal, los resultados de búsqueda y el cierre de compra, que ahora están en las filas 4-6. |
+| Porcentajes | **Calcular porcentajes por columna** es la configuración predeterminada; los porcentajes visibles en una columna se calculan en función del total de la columna. <br>**Calcular porcentajes por fila **fuerza a la tabla improvisada a calcular los porcentajes de celda en la fila en lugar de en la columna, con el Total general como denominador. Esto es muy útil en los porcentajes de tendencias. Esta configuración está habilitada de forma predeterminada al utilizar el icono Visualizar. |
+| Totales de columna | Esta configuración solo está disponible para filas [](manual-vs-dynamic-rows.md)estáticas. <br> **Mostrar como la suma de las filas** actuales muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total *no eliminará* las métricas de duplicado como visitas o visitantes. <br> **Mostrar el total** general muestra una suma del lado del servidor, lo que significa que el total anulará el duplicado de las métricas. |
