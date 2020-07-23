@@ -3,10 +3,10 @@ description: Compara la terminología y tareas de los Ad Hoc Analysis con las de
 title: Analysis Workspace comparado con los Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 87%
 
 ---
 
@@ -19,25 +19,25 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
 
 [Aquí](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-overview/analytics-product-comparison.html) tiene una comparativa técnica de las características principales y los requisitos del sistema de ambos productos.
 
-## Comparación de terminología clave  {#section_6109406B83B043A18E46D38F130B1D2E}
+## Comparación de terminología clave {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
 | Proyecto | Workspace o proyecto |
 | Workspace | Panel |
-| Información general de la tienda de aplicaciones | Tabla de forma libre |
+| Información general de la tienda de aplicaciones | Tabla improvisada |
 | Gráficos | Visualización |
 | Jerarquía: Proyecto > Workspace > Informes | Jerarquía: Proyecto > Paneles > Tablas |
 | Plantillas de informes Jerárquicas, De tendencia, Totales | Visualización de tabla improvisada |
 | Plantilla de flujo | Visualización de flujo |
 | Abandono | Visualización de visitas en el orden previsto |
 
-## Comparación de tareas clave  {#section_F31446F1DFA742D794A30D713E223440}
+## Comparación de tareas clave {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Ad Hoc Analysis  Tarea </th> 
+   <th colname="col1" class="entry"> Ad Hoc Analysis Tarea </th> 
    <th colname="col2" class="entry"> Tarea de Analysis Workspace </th> 
   </tr>
  </thead>
@@ -56,6 +56,10 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > Vídeo: Uso de segmentos en Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > Vídeo: Aplicación de segmentos a un panel</a> </p> </td> 
   </tr> 
   <tr> 
+   <td colname="col1"> <p>Crear segmentos temporales ("ad-hoc") </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. Además, se pueden añadir filtros desplegables en la zona de colocación del panel para crear muchos segmentos temporales a la vez, lo que permite interacciones de proyecto controladas. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vídeo: Segmentos específicos en Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vídeo: filtros desplegables en el Analysis Workspace</a> </p> </td> 
+  </tr> 
+  <tr> 
    <td colname="col1"> <p>Elegir intervalos y granularidades de fechas </p> </td> 
    <td colname="col2"> <p>Los intervalos y granularidades de fechas están disponibles en el menú de componente Tiempo y se pueden utilizar de tres maneras: </p> 
     <ol id="ol_8B57C8A840694A879B22B809C58E7482"> 
@@ -65,17 +69,13 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
     </ol> <p><a href="https://www.youtube.com/watch?v=ybmv6EBmhn0"  > Vídeo: Trabajo con fechas en Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=L4FSrxr3SDA"  > Vídeo: Intervalos de fechas personalizados</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Crear segmentos internos (“específicos”) </p> </td> 
-   <td colname="col2"> <p>Puede <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >crear segmentos instantáneos internos (“específicos”)</a> en Analysis Workspace arrastrando elementos de dimensión a la zona de colocación de segmentos en la parte superior del panel. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vídeo: Segmentos específicos en Analysis Workspace</a> </p> </td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> <p>Utilizar visitas en el orden previsto y embudos de conversión </p> </td> 
    <td colname="col2"> <p>Las <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  >visualizaciones de visitas en el orden previsto</a> están disponibles en Analysis Workspace en el menú de componente Visualización. De forma similar a los Ad Hoc Analysis: </p> 
     <ol id="ol_625FF45AED4E403DBEE1A906282E8531"> 
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Las visitas en el orden previsto pueden abarcar una visita o visitante, y puede incluirse “Todas las visitas” de manera opcional. Las visitas en el orden previsto se pueden clasificar rápidamente en tendencias mediante el menú que se abre al hacer clic con el botón derecho. </li> 
      <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Los elementos dimensionales pueden conectarse mediante un operador O (como en los grupos) y el embudo puede utilizar eventos. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">Los pasos siguientes de las visitas en el orden imprevisto y en el orden previsto también se pueden representar mediante el menú que se abre al hacer clic con el botón derecho. </li> 
-    </ol> <p>Además, las visitas en el orden previsto permiten en Analysis Workspace el uso de  <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensiones mixtas</a> dentro de los pasos, una mejora respecto a los Ad Hoc Analysis. Las dimensiones mixtas dentro de los pasos se gestionan mediante un operador Y. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Vídeo: Visitas en el orden previsto y embudos</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Vídeo: Uso de múltiples dimensiones en Visitas en el orden previsto</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Vídeo: Comparación de segmentos en Visitas en el orden previsto</a> </p> </td> 
+    </ol> <p>Además, las visitas en el orden previsto permiten en Analysis Workspace el uso de <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensiones mixtas</a> dentro de los pasos, una mejora respecto a los Ad Hoc Analysis. Las dimensiones mixtas dentro de los pasos se gestionan mediante un operador Y. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Vídeo: Visitas en el orden previsto y embudos</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Vídeo: Uso de múltiples dimensiones en Visitas en el orden previsto</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Vídeo: Comparación de segmentos en Visitas en el orden previsto</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Examinar el flujo (rutas) </p> </td> 
@@ -83,15 +83,12 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Un flujo puede abarcar una visita o visitante. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Las estadísticas clave se muestran como porcentajes de vistas de ruta. </li> 
-    </ul> <p>Además, Flujo permite el uso de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensiones mixtas</a> y la capacidad de hacer clic con el botón derecho y crear un segmento, una mejora sobre los Ad Hoc Analysis. </p> <p>En este momento, los flujos de Analysis Workspace <b>no pueden</b>: </p> 
-    <ul id="ul_2696A9DCB86E427DB5267BE2793693FF"> 
-     <li id="li_384141A577BB4A94899C3E36714225EE">Apagar instancias repetidas. </li> 
-     <li id="li_CC451BFB9FFC4C68AE28A7462B339460">Permitir a los usuarios elegir un evento de éxito. </li> 
+    </ul> <p>Además, Flujo permite el uso de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensiones mixtas</a> y la capacidad de hacer clic con el botón derecho y crear un segmento, una mejora sobre los Ad Hoc Analysis. </p> <p>Actualmente, Flujo en Analysis Workspace <b>no permite</b> a los usuarios elegir un evento de éxito. </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Vídeo: Descripción general de la visualización de flujo</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Vídeo: Flujo multidimensional</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Vídeo: Creación de segmentos a partir de flujos</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Realizar desgloses infinitos </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace le permite profundizar infinitos niveles dentro del explorador. Se pueden mezclar segmentos y dimensiones. Es posible desglosar al mismo tiempo varios elementos de dimensión haciendo una selección múltiple y, a continuación, arrastrando a una dimensión desglosada </p> <p><a href="https://www.youtube.com/watch?v=3mQ2HN7-lIc"  > Vídeo: Desgloses mejorados</a> </p> </td> 
+   <td colname="col2"> <p>Analysis Workspace le permite profundizar infinitos niveles dentro del explorador. Se pueden mezclar segmentos y dimensiones. Es posible desglosar al mismo tiempo varios elementos de dimensión haciendo una selección múltiple y, a continuación, arrastrando a una dimensión desglosada. </p> <p><a href="https://www.youtube.com/watch?v=3mQ2HN7-lIc"  > Vídeo: Desgloses mejorados</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Realizar rápidamente la tendencia de datos </p> </td> 
@@ -99,20 +96,12 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seleccionar grupos de informes </p> </td> 
-   <td colname="col2"> <p>Como en los Ad Hoc Analysis, en un proyecto de Workspace se puede seleccionar un único grupo de informes. Sin embargo, está prevista la gestión de múltiples grupos de informes. </p> </td> 
+   <td colname="col2"> <p>Se pueden agregar varios grupos de informes a un solo proyecto en Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Vídeo: Varios grupos de informes en Workspace</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> en Analysis Workspace permite agregar muchos tipos nuevos de modelos de atribución a las Tablas improvisadas, Visualizaciones y Métricas calculadas. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>No se incluye </p> </td> 
-   <td colname="col2"> <p>Añada intervalos de fechas a los segmentos. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>No se incluye </p> </td> 
-   <td colname="col2"> <p>Utilice la secuencia “Solo antes/Solo después” en los segmentos. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> en Analysis Workspace permite agregar muchos tipos nuevos de modelos de atribución a las Tablas improvisadas, Visualizaciones y Métricas calculadas. Incluye más de 10 modelos algorítmicos y basados en reglas. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vídeo: IQ de atribución en tablas improvisadas</a> </p> </td> 
+  </tr>  
  </tbody> 
 </table>
 
