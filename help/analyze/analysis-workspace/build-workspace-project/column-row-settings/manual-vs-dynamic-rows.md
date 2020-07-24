@@ -2,9 +2,9 @@
 title: Elementos de dimensión dinámicos vs. estáticos
 description: Cómo interactuar con elementos de dimensión dinámicos y estáticos en tablas.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,4 @@ Los elementos de dimensión de diferentes dimensiones se pueden agregar a la mis
 Las filas dinámicas y estáticas se comportan de forma diferente en la fila total improvisada. De forma predeterminada:
 
 * Las filas dinámicas se suman a las métricas de servidor y de duplicado, como visitas o visitantes
-* Las filas estáticas se suman en el lado del cliente y **no eliminan** las métricas de duplicado.
-
-[Obtenga más información sobre las opciones totales](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) de Workspace para filas dinámicas y estáticas.
+* Las filas estáticas se suman en el lado del cliente y **no eliminan** las métricas de duplicado. Para calcular el total de filas en el servidor, cambie la configuración Fila a **Mostrar total** general. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
