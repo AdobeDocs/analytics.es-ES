@@ -1,10 +1,10 @@
 ---
-title: Elementos de dimensión dinámicos vs. estáticos
+title: Elementos de dimensión dinámicos vs. estáticos en tablas improvisadas
 description: Cómo interactuar con elementos de dimensión dinámicos y estáticos en tablas.
 translation-type: tm+mt
-source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '483'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ Por ejemplo, cuando arrastra la dimensión Tipo de explorador a la tabla, los el
 
 Los elementos de dimensión dinámica tienen la opción de filtro de fila y **no tienen** iconos de bloqueo y X.
 
+![](assets/dynamic-items.png)
+
 ## Elementos de dimensión estáticos
 
 Los elementos de dimensión estáticos no cambian con el tiempo; son componentes fijos que siempre se devuelven en una tabla improvisada. Los elementos de dimensión estáticos son preferibles cuando se desea analizar siempre el mismo elemento, ya sean campañas específicas o días específicos de la semana.
@@ -37,9 +39,13 @@ Por ejemplo, cuando arrastra elementos específicos del tipo de navegador como M
 
 Los elementos de dimensión estáticos **no tienen** la opción de filtro de fila. En su lugar, los iconos Bloquear y X están presentes en cada elemento. Haga clic en el icono X para eliminar ese elemento de dimensión de la tabla.
 
+![](assets/static-items.png)
+
 ## Elementos de dimensión mixtos
 
 Los elementos de dimensión de diferentes dimensiones se pueden agregar a la misma tabla. En estos casos, el encabezado de fila indica &quot;Dimensiones mixtas&quot;. Estos elementos de dimensión son estáticos. Por ejemplo, si agrega elementos de dimensión específicos desde la dimensión Tipo de navegador y otros elementos de dimensión desde la dimensión Explorador.
+
+![](assets/mixed-dimensions.png)
 
 ## Filas totales improvisadas
 
