@@ -2,12 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Guía de implementación de Analytics
+user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -155,7 +156,7 @@ ht-degree: 92%
    + [Implementación de en un entorno de desarrollo](launch/deploy-dev.md)
    + [Validar y publicar para producción](launch/validate-publish-prod.md)
    + [Asignación de objetos de capa de datos a elementos de datos](launch/layer-to-elements.md)
-   + [Asignar elementos de datos de Launch a variables de Analytics](launch/elements-to-variable.md)
+   + [Asignación de elementos de datos de Launch a variables de Analytics](launch/elements-to-variable.md)
 + Implementar Analytics en otras plataformas {#other}
    + [Implementación de Analytics mediante solicitudes de imagen codificadas](other/hardcoded.md)
    + Implementar Analytics mediante DTM {#dtm}
