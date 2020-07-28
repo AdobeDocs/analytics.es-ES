@@ -2,8 +2,11 @@
 description: Variables para informes de privacidad en Privacidad de datos.
 title: Variables de informes de privacidad
 topic: Admin tools
-translation-type: ht
-source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
@@ -35,14 +38,14 @@ Estas variables de informes de privacidad proporcionan un marco fácil de usar p
 Puede habilitar las variables de informes de privacidad mediante una nueva configuración de privacidad disponible en Admin Console de Analytics.
 
 Cada grupo de informes se puede configurar de esta forma:
-1. En Reports &amp; Analytics, haga clic en **[!UICONTROL Admin > Report Suites]**.
-1. Seleccione los grupos de informes donde recolecta datos de medios y haga clic en **[!UICONTROL Edit Settings > Privacy Management]**.
+1. En Reports &amp; Analytics, haga clic en **[!UICONTROL Administración > Grupos de informes]**.
+1. Seleccione los grupos de informes donde desee recopilar los datos de medios y haga clic en **[!UICONTROL Editar configuración > Gestión de la privacidad]**.
 
    ![](assets/rsm-privacy-select.png)
 
-1. Haga clic en el botón **[!UICONTROL Enable Data Privacy Reports]**.
+1. Haga clic en el botón **[!UICONTROL Activar informes de privacidad de datos.]**
 
-   > [!NOTE] Una vez estas variables estén activadas, no se pueden desactivar.
+   >[!NOTE] Una vez estas variables estén activadas, no se pueden desactivar.
 
    ![](assets/rsm-privacy-enable.png)
 
