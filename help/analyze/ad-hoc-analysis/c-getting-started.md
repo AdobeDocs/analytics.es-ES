@@ -3,10 +3,10 @@ description: Introducción a Ad Hoc Analysis.
 title: Introducción
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 100%
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -93,8 +93,8 @@ Si todavía tiene Java 7 instalado, debe actualizar primero a la versión de man
 * Si puede instalar programas en su ordenador:
 
    1. Vaya a https://www.java.com.
-   1. Haga clic en **[!UICONTROL Descarga gratuita de Java]**.
-   1. Haga clic en **[!UICONTROL Aceptar e iniciar descarga gratuita]**.
+   1. Click **[!UICONTROL Java Download]**.
+   1. Click **[!UICONTROL Agree and Start Download]**.
    1. Instale la última versión de Java específica para su sistema operativo.
 
 * Si **no** puede instalar programas en su ordenador:
