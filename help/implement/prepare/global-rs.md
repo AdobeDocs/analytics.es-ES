@@ -2,7 +2,7 @@
 title: Grupos de informes globales en Adobe Analytics
 description: Comprender las ventajas y los requisitos para utilizar un grupo de informes globales
 translation-type: tm+mt
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Utilice las siguientes directrices generales para comprender el proceso de imple
 1. Cree el grupo de informes globales en Adobe Analytics. Consulte [Creación de un grupo de informes](../../admin/admin-console/create-report-suite.md) en la guía del usuario de administración para obtener más información.
 2. Trabaje con los equipos de su organización responsables de cada dominio. Muchos equipos incluyen requisitos de informes específicos de su área de negocio.
 3. Registre y agregue todos estos requisitos en un [documento de diseño de solución](solution-design.md). Si los equipos tienen requisitos similares para una dimensión, pueden utilizar la misma variable personalizada. Por ejemplo: si el sitio A y el sitio B exigen una dimensión de ruta de exploración, las implementaciones para ambos sitios pueden enviar esos datos a través de eVar1.
-   > [!IMPORTANT] Asegúrese de que cualquier variable personalizada dada se utilice de manera similar en los distintos dominios. No utilice la misma eVar o evento para distintos fines en cada sitio.
+   >[!IMPORTANT] Asegúrese de que cualquier variable personalizada dada se utilice de manera similar en los distintos dominios. No utilice la misma eVar o evento para distintos fines en cada sitio.
 4. Asegúrese de que cada dominio tenga una capa de datos para simplificar la recopilación de datos. Los datos se pueden recopilar sin una capa de datos, pero la fiabilidad y la longevidad de la implementación disminuyen, especialmente a medida que el sitio se rediseña con el tiempo.
 5. Utilice Adobe Experience Platform Launch para implementar Analytics. Es probable que distintos sitios requieran diferentes elementos de datos. Utilice reglas específicas de cada dominio para asegurarse de que cada elemento de datos se rellena correctamente y, a continuación, asigne esos elementos de datos a sus eVars y eventos respectivos. Consulte [Información general de Launch](https://docs.adobe.com/content/help/es-ES/launch/using/overview.html) en la guía del usuario de Adobe Experience Platform Launch.
 6. Incluya el [servicio de Adobe Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) y utilice la función [appendVisitorIDsTo](https://docs.adobe.com/content/help/es-ES/id-service/using/id-service-api/methods/appendvisitorid.html). Esta función combina datos de visitantes cuando los usuarios hacen clic de un dominio a otro.
