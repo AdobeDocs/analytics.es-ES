@@ -1,8 +1,11 @@
 ---
 title: Variables de lista
 description: Cree y configure variables de lista para usar en sistema de informes.
-translation-type: ht
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+translation-type: tm+mt
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ Puede acceder a la configuración en Admin Console:
 * **Nombre**: Cada valor delimitado puede contener un máximo de 255 caracteres (o menos si se utilizan caracteres multibyte). Esta es la longitud máxima de cada elemento.
 * **Delimitador de valores**: carácter utilizado para separar valores en una variable de lista. Normalmente son caracteres como comas, dos puntos, barras verticales o algún otro similar.
 
-   > [!NOTE] Los caracteres de bytes múltiples no se admiten como delimitadores en variables de lista. El delimitador debe ser de un solo byte.
+   >[!NOTE] Los caracteres de bytes múltiples no se admiten como delimitadores en variables de lista. El delimitador debe ser de un solo byte.
 
 * **Caducidad**: similar a la caducidad de eVar, determina la cantidad de tiempo que puede transcurrir entre la variable de lista y el evento de conversión para que se relacionen.
    * **A nivel de vista de página o visita**: Los eventos de éxito más allá de la vista de página o la visita no se vincularán con ningún valor que haya dentro de la variable de lista.
