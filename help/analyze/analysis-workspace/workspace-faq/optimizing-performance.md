@@ -3,7 +3,7 @@ description: 'null'
 title: Optimizar rendimiento de Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
@@ -30,11 +30,11 @@ Los segmentos intrincados pueden tener un impacto significativo en el desempeño
 
 Aunque algunos de los factores de complejidad no se pueden prevenir, piense en opciones para reducir la complejidad de sus segmentos. En general, cuanto más específico pueda ser con sus criterios de segmento, mejor. Por ejemplo:
 
-* Con los contenedores, el uso de un solo contenedor en la parte superior del segmento será más rápido que una serie de contenedores anidados.
-* Con los operadores, “es igual a” será más rápido que “contiene” y “es igual a cualquiera de” será más rápido que “contiene cualquiera de”.
-* Con muchos criterios, los operadores Y serán más rápidos que varios operadores O. Además, busque oportunidades para reducir muchas condiciones “O” en una sola condición “es igual a cualquiera de”.
+* Con los contenedores, el uso de un solo contenedor en la parte superior del segmento será más rápido que una serie de contenedores anidados
+* Con los operadores, “es igual a” será más rápido que “contiene” y “es igual a cualquiera de” será más rápido que “contiene cualquiera de”
+* Con muchos criterios, los operadores Y serán más rápidos que varios operadores O. Además, busque oportunidades para reducir muchas condiciones “O” en una sola condición “es igual a cualquiera de”
 
-Además, [las clasificaciones](/help/components/c-classifications2/c-classifications.md) puede ayudar a consolidar muchos valores en grupos concisos a partir de los cuales crear segmentos. La segmentación en grupos de clasificación proporciona beneficios de rendimiento sobre los segmentos con muchas condiciones “O”, o criterios “contiene”.
+Además, [las clasificaciones](/help/components/classifications/c-classifications.md) pueden ayudar a consolidar muchos valores en grupos concisos a partir de los cuales crear segmentos. La segmentación en grupos de clasificación proporciona beneficios de rendimiento sobre los segmentos con muchas condiciones “O”, o criterios “contiene”.
 
 ## Intervalo de datos solicitado
 
@@ -58,12 +58,12 @@ Reduzca el número de visualizaciones en el proyecto. Analysis Workspace realiza
 
 ## Complejidad de las visualizaciones (segmentos, métricas, filtros)
 
-El tipo de visualización agregado (p. ej., abandonos o tabla de forma libre) no tiene demasiada influencia por sí mismo en el rendimiento de un proyecto. Lo que afecta al tiempo de procesamiento es la complejidad de la visualización. Entre los factores que aumentan la complejidad de una visualización están:
+El tipo de visualización agregado (p. ej., abandonos o tabla improvisada) no tiene demasiada influencia por sí mismo en el rendimiento de un proyecto. Lo que afecta al tiempo de procesamiento es la complejidad de la visualización. Entre los factores que aumentan la complejidad de una visualización están:
 
 * El intervalo de datos solicitado, como se ha mencionado antes.
 * El número de segmentos aplicados; por ejemplo, los segmentos utilizados como columnas de una tabla improvisada.
 * Uso de segmentos intrincados
-* Filas o columnas de elementos manuales en tablas de forma libre
+* Filas o columnas de elementos manuales en tablas improvisada
 * Los filtros aplicados a las filas de una tabla improvisada.
 * El número de métricas incluidas, en especial las métricas calculadas que utilizan segmentos.
 
