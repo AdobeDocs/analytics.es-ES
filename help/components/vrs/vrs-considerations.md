@@ -5,7 +5,7 @@ title: Grupos de informes virtuales y consideraciones sobre el etiquetado de gru
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -53,7 +53,7 @@ Los grupos de informes virtuales no tienen conjuntos de dimensiones y métricas 
 
 Cada sitio tiene diferentes necesidades de implementación. Algunas dimensiones y eventos se pueden compartir entre dos sitios. Por ejemplo, un registro por correo electrónico puede utilizar el mismo evento en varios sitios web, lo que activa el mismo evento personalizado. Otras dimensiones pueden ser específicas de un sitio. Por ejemplo: solo uno de los sitios tiene la capacidad de que el usuario cambie su imagen de perfil. Este evento personalizado solo se implementa en el sitio web que lo admita.
 
-Asegúrese de que el número de dimensiones y métricas únicas se pueda ajustar a un único grupo de informes globales. Si descubre que hay demasiadas dimensiones o métricas únicas, revise cada dimensión dentro de cada implementación. Es probable que haya superposición y dimensiones que no sean cruciales para el éxito del negocio. Considere también utilizar [las clasificaciones](/help/components/c-classifications2/c-classifications.md). Por ejemplo, en lugar de capturar el “Nombre de producto” en eVar5, cree una clasificación de “Nombre de producto” basada en la dimensión “Producto”. Las clasificaciones de un grupo de informes de origen están disponibles automáticamente para todos los grupos de informes virtuales dependientes.
+Asegúrese de que el número de dimensiones y métricas únicas se pueda ajustar a un único grupo de informes globales. Si descubre que hay demasiadas dimensiones o métricas únicas, revise cada dimensión dentro de cada implementación. Es probable que haya superposición y dimensiones que no sean cruciales para el éxito del negocio. Considere también utilizar [las clasificaciones](/help/components/classifications/c-classifications.md). Por ejemplo, en lugar de capturar el “Nombre de producto” en eVar5, cree una clasificación de “Nombre de producto” basada en la dimensión “Producto”. Las clasificaciones de un grupo de informes de origen están disponibles automáticamente para todos los grupos de informes virtuales dependientes.
 
 >[!TIP]
 >
