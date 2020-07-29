@@ -2,7 +2,7 @@
 title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 95%
@@ -32,13 +32,13 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Canal:** puede hacer referencia a:
    * La variable Canal, que rellena la dimensión Secciones del sitio. Consulte [Variables de página](/help/implement/vars/page-vars/page-variables.md) en la guía del usuario sobre implementación.
    * Canales de marketing, un componente que le ayuda a comprender cómo llegan los usuarios al sitio. Consulte [Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) en la guía de usuario sobre componentes.
-* **Clasificación:** Función de Adobe Analytics que permite agrupar elementos de dimensión. Consulte [Clasificaciones](/help/components/c-classifications2/c-classifications.md) en la guía de usuario sobre componentes.
+* **Clasificación:** Función de Adobe Analytics que permite agrupar elementos de dimensión. Consulte [Clasificaciones](/help/components/classifications/c-classifications.md) en la guía de usuario sobre componentes.
 * **ClickMap:** ya no se utiliza. Se trata de un complemento heredado para explorador que muestra en qué áreas del sitio se hizo clic con mayor frecuencia. Esta herramienta se sustituyó por Activity Map.
 * **Fuente de datos del flujo de navegación:** consulte Fuente de datos
 * **Cohorte:** grupo de personas que comparten características comunes durante un período de tiempo determinado. Consulte [¿Qué es el análisis de cohorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)en la guía de usuario sobre análisis.
 * **Servidor de recopilación:** Consulte Servidor de recopilación de datos.
 * **Variables de datos de contexto:** variables temporales utilizadas únicamente en las reglas de procesamiento. Los valores de las variables de datos de contexto se pierden de forma irreversible si una regla de procesamiento no los copia en una variable de conversión o de tráfico. Consulte [Variables de datos de contexto](../implement/vars/page-vars/contextdata.md) en la guía de usuario sobre implementación.
-* **Variable de conversión:** También se conocen como eVars. Almacena un valor personalizado y conserva el valor de la variable hasta que caduque. Consulte la dimensión [eVar](/help/components/dimensions/evar.md) en la guía del usuario Componentes.
+* **Variable de conversión:** También se conocen como eVars. Almacena un valor personalizado y conserva el valor de la variable hasta que caduque. Consulte la dimensión de [eVar](/help/components/dimensions/evar.md) en la guía del usuario Componentes.
 * **Correlación:** ya no se utiliza como término; se ha sustituido por los desgloses de dimensión. En las versiones anteriores de Adobe Analytics, las correlaciones permitían desglosar variables de tráfico. Consulte [Desglosar dimensiones](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) en la guía del usuario sobre análisis.
 * **Datos actuales:** una opción disponible en algunos informes que permite incluir datos recopilados recientemente que aún no se han procesado por completo. Consulte [Datos actuales](/help/analyze/reports-analytics/current-data.md) en la guía de usuario sobre análisis.
 * **Vínculo personalizado:** tipo de visita que contiene datos de vista que no son de página. Consulte la [función s.tl()](../implement/vars/functions/tl-method.md) en la guía de usuario sobre implementación. Consulte también Visita.
