@@ -6,10 +6,10 @@ title: Personalizar herramientas de grupos de informes
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | [Resumen de la cuenta](/help/admin/admin/general-acct-settings-admin.md) | Concede permiso para editar configuración de la cuenta para un grupo de informes. |
 | [Filtros de dirección URL](/help/admin/admin/internal-url-filter-admin.md) | Concede permiso para acceder a los filtros de URL internos en los grupos de informes. Los filtros de URL internos se utilizan para determinar qué referentes (o páginas de referentes) son internos del sitio. |
 | [Calendario personalizado](/help/admin/admin/custom-calendar.md) | Otorga permiso para editar el calendario personalizado. |
-| [Búsqueda de pago](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) | La detección de búsqueda de pago diferencia entre búsquedas pagadas y naturales en los informes Motores de búsqueda y Palabras clave de búsqueda. |
+| [Búsqueda de pago](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) | La detección de búsqueda de pago diferencia entre búsquedas pagadas y naturales en los informes Motores de búsqueda y Palabras clave de búsqueda. |
 | [Personalización de menús](/help/admin/admin/customize-menus.md) | Personalice los menús de los informes que ve un usuario en Reports &amp; Analytics. |
 | [Configuración de informes en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Permisos para configurar análisis de informes en tiempo real. |
 | [Configuración de vídeo](/help/admin/admin/video-management.md) | Permisos para designar un conjunto de variables de conversión personalizadas (eVars) y de eventos personalizados para utilizarlos para hacer rastreos y generar informes en vídeo. |
@@ -54,13 +54,13 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | [Variables de tráfico](/help/admin/admin/c-traffic-variables/traffic-var.md) | Permiso para correlacionar datos personalizados con eventos concretos relacionados con el tráfico. |
 | [Clasificaciones de tráfico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) | Consolidado en clasificaciones (en Herramientas e informes). |
 | [Canales](/help/components/c-marketing-channels/analyze-mc.md) | Otorga permiso para acceder a las opciones de Canales de marketing en Administrador del grupo de informes > Editar configuración > Canales de marketing. |
-| [Costos](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/analyze-mc.html) | Habilita el permiso para acceder a Canales de marketing > Costos de canal de mercadotecnia, en el Administrador de grupos de informes. |
+| [Costos](https://docs.adobe.com/content/help/es-ES/analytics/components/marketing-channels/analyze-mc.html) | Habilita el permiso para acceder a Canales de marketing > Costos de canal de mercadotecnia, en el Administrador de grupos de informes. |
 | [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | La variable de conversión de perspectiva personalizada (o eVar) se coloca en el código de Adobe en las páginas web del sitio seleccionadas. Su principal función es segmentar las métricas de éxito de conversión en los informes de marketing personalizados. |
 | [Métodos de búsqueda](/help/admin/admin/finding-methods.md) | Le permite identificar cómo reciben crédito distintos informes de métodos de búsqueda para los eventos de éxito de conversión en el sitio. |
 | [Clasificaciones de conversión](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Consolidado en clasificaciones (en Herramientas e informes). |
 | [Visitante único](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Otorga permiso para especificar la variable de visitante único. |
 | [Eventos de éxito](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html) | Acciones que se pueden rastrear, como visualizaciones de productos, cierres de compra y adquisiciones. |
-| [Jerarquías de clasificación](/help/components/c-classifications2/classification-hierarchies.md) | Consolidado en clasificaciones (en Herramientas e informes). |
+| [Jerarquías de clasificación](/help/components/classifications/classification-hierarchies.md) | Consolidado en clasificaciones (en Herramientas e informes). |
 | [Variables de lista ](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html) | También se conoce como List Var. Similar a cómo funcionan las props de lista, las variables de lista permiten incluir varios valores dentro de la misma solicitud de imagen. |
 | [Medidas predeterminadas](/help/admin/admin/default-metrics.md) | Reports &amp; Analytics muestra un conjunto predeterminado de métricas en todos los informes de conversión, a menos que algún usuario seleccione un conjunto personalizado de métricas. Las medidas seleccionadas se muestran a todos los usuarios del grupo de informes asociado. |
 | [Reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Concede acceso a las reglas de procesamiento, lo que simplifica la recopilación de datos y gestiona el contenido al enviarlo a los informes. |
@@ -68,8 +68,8 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | [Detección de anomalías](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Concede permiso para acceder a Detección de anomalías, que constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores. |
 | [Informe de canal](/help/components/c-marketing-channels/analyze-mc.md) | Concede permiso para informes Canal de marketing, los cuales se encuentran en Informes > Informes de canal de marketing. |
 | [Informe en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Otorga acceso al informe en tiempo real. |
-| [Páginas de bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Las páginas de bots son para informes específicos de Informes y análisis, no para la administración de reglas de bots. Actualmente, no hay permiso para permitir la edición de reglas de bots.** Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
-| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Los bots son para informes específicos de Informes y análisis, no para la administración de reglas de bots. Actualmente, no hay permiso para permitir la edición de reglas de bots.** Los bots permiten eliminar del grupo de informes el tráfico generado por arañas de Web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
+| [Páginas de bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Las páginas de bots son para informes específicos de Informes y Analytics, no para la administración de reglas de bots. Actualmente, no hay permiso para permitir la edición de reglas de bots.** Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
+| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Los bots son para informes específicos de Informes y Analytics, no para la administración de reglas de bots. Actualmente, no hay permiso para permitir la edición de reglas de bots.** Los bots permiten eliminar del grupo de informes el tráfico generado por arañas de Web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
 | [Informe del Data Warehouse personalizado](/help/export/data-warehouse/data-warehouse.md) | El Data Warehouse hace referencia a la copia de datos sin procesar para su almacenamiento y para elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Puede solicitar informes para mostrar las relaciones de datos avanzadas que hay entre los datos sin procesar en función de sus propias preguntas. |
 | Visitas de retorno diario | (Heredado) Informe que muestra el número de visitantes que vieron el sitio web más de una vez en un día determinado. Un día se define como el último período de 24 horas. |
 | [Administrador de fuentes de datos](/help/admin/admin/data-sources.md) | La función Fuentes de datos permite importar datos a Analytics desde fuentes sin conexión. |
@@ -82,6 +82,6 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | Clasificaciones | Combina los siguientes permisos: “Clasificaciones de tráfico”, “Clasificaciones de vídeo”, “Clasificaciones de conversión”, “Jerarquías de clasificación”, “Administrador de clasificaciones” e “Importador/Exportador de clasificaciones y Generador de reglas”.  Nota: Con este permiso, los usuarios pueden editar las clasificaciones de todos los grupos de informes, no solo los seleccionados. |
 | [Análisis de contribución](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | Concede permisos para utilizar los análisis de contribución en Analysis Workspace. |
 | **Elementos de tablero** |  |
-| La configuración de Elementos de panel le permite acceder a [informes breves](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) en Reports &amp; Analytics:, Mis informes recomendados, Informe breve de resumen de la empresa, Imagen, Informe breve de KPI/medición, Totales de grupos de informes, Texto, Informe breve, Informe breve de resumen de uso y Recursos web |  |
+| La configuración de Elementos de panel le permite acceder a [informes breves](https://docs.adobe.com/content/help/es-ES/analytics/admin/server-call-usage/server-call-usage-dashboard.html) en Reports &amp; Analytics:, Mis informes recomendados, Informe breve de resumen de la empresa, Imagen, Informe breve de KPI/medición, Totales de grupos de informes, Texto, Informe breve, Informe breve de resumen de uso y Recursos web |  |
 | **Otro** |  |
 | Social | Controla el acceso al menú Administración social en el Administrador de grupos de informes. |
