@@ -2,10 +2,10 @@
 title: eVar
 description: Dimensión personalizada que se puede utilizar en sistema de informes.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 72%
+source-wordcount: '788'
+ht-degree: 67%
 
 ---
 
@@ -16,17 +16,19 @@ ht-degree: 72%
 
 Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como eVars. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
-El número de eVars disponibles depende del contrato con Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo admite.
+El número de eVars disponibles depende del contrato de Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo admite.
+
+Las eVars no distinguen entre mayúsculas y minúsculas. Si envía el mismo valor en casos diferentes (por ejemplo, `"DOG"` y `"Dog"`), el Analysis Workspace los agrupa en el mismo elemento de dimensión. Se utiliza el caso del primer valor visto al comienzo del mes de sistema de informes. Data warehouse muestra el primer valor encontrado durante el período de solicitud.
 
 ## Rellenar eVars con datos
 
-Cada eVar recopila datos de la cadena [`v1` - `v250` de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de `v1` consulta recopila datos para eVar1, mientras que el parámetro de cadena de `v222` consulta recopila datos para eVar222.
+Cada eVar recopila datos de la cadena [`v1` - `v250` consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de `v1` consulta recopila datos para eVar1, mientras que el parámetro de cadena de `v222` consulta recopila datos para eVar222.
 
 AppMeasurement, que compila variables JavaScript en una solicitud de imagen para la recopilación de datos, utiliza las variables `eVar1` - `eVar250`. Consulte [eVar](/help/implement/vars/page-vars/evar.md) en la Guía del usuario de implementación para ver las directrices de implementación.
 
-## Elementos de dimensión
+## Elementos de Dimension
 
-Dado que las eVars contienen cadenas personalizadas en la implementación, su organización determina qué son los elementos de dimensión para cada eVar. Asegúrese de registrar el propósito de cada eVar y los elementos de dimensión típicos en un documento [de diseño de](/help/implement/prepare/solution-design.md)solución.
+Dado que las eVars contienen cadenas personalizadas en la implementación, su organización determina qué son los elementos de dimensión para cada eVar. Asegúrese de registrar el propósito de cada eVar y elementos de dimensión típicos en un documento [de diseño de](/help/implement/prepare/solution-design.md)solución.
 
 ## Cómo funcionan las eVars
 
