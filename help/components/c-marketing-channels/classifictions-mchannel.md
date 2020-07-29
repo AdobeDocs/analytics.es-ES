@@ -2,7 +2,7 @@
 title: Clasificaciones en los canales de marketing
 description: Las clasificaciones sirven para categorizar los valores en grupos relacionados y para crear informes del nivel de grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda paga en una categoría, como Tarjetas de vídeo. A continuación, puede crear informes sobre los resultados de esa categoría en relación con métricas como Instancias (o pulsaciones).
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -18,7 +18,7 @@ Las clasificaciones que agregue a este procedimiento se muestran en el informe [
 
 >[!NOTE]
 >
->Asegúrese de estar familiarizado con la creación de clasificaciones en [Clasificaciones](/help/components/c-classifications2/c-classifications.md).
+>Asegúrese de estar familiarizado con la creación de clasificaciones en [Clasificaciones](/help/components/classifications/c-classifications.md).
 
 >[!IMPORTANT]
 >
