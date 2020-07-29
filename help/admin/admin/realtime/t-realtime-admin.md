@@ -4,7 +4,10 @@ title: Configuración de informes en tiempo real
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,7 @@ Configurar informes en tiempo real en Reports &amp; Analytics consiste en selecc
 
 1. Seleccione el grupo de informes para el que quiere habilitar los informes en tiempo real.
 
-   Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]** > **[!UICONTROL Real-Time]** y seleccione el grupo de informes en la lista desplegable de la parte superior:
+   Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Informes]** > **[!UICONTROL Ver todos los informes > Métricas del sitio]** > **[!UICONTROL Tiempo real]** y seleccione el grupo de informes en la lista desplegable de la parte superior:
 
    ![](assets/report_suite_selector.png)
 
@@ -25,11 +28,11 @@ Configurar informes en tiempo real en Reports &amp; Analytics consiste en selecc
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. Haga clic en **[!UICONTROL Configure]** (icono de engranaje) para ejecutar el [!UICONTROL Report Suite Manager].
+1. Haga clic en **[!UICONTROL Configurar]** (icono del engranaje) para ejecutar el [!UICONTROL Administrador del grupo de informes].
 
-   (También disponible en **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Real-Time]**).
+   (También disponible en **[!UICONTROL Analytics]** > **[!UICONTROL Administración > Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Tiempo real]**).
 
-1. Encienda la **[!UICONTROL Enable Real-Time]** configuración.
+1. Active la configuración **[!UICONTROL Activar Tiempo real]**.
 1. Configure la recopilación de datos en tiempo real para hasta tres informes, con una métrica y tres dimensiones o clasificaciones por informe.
 
    ![](assets/real_time_admin.png)
@@ -44,7 +47,7 @@ Configurar informes en tiempo real en Reports &amp; Analytics consiste en selecc
    >
    >Actualmente no se pueden duplicar dimensiones para un solo informe en tiempo real, aunque se seleccione una clasificación distinta para cada dimensión.
 
-   Para obtener más información sobre las clasificaciones, consulte [Acerca de las clasificaciones](/help/components/c-classifications2/c-classifications.md).
+   Para obtener más información sobre las clasificaciones, consulte [Acerca de las clasificaciones](/help/components/classifications/c-classifications.md).
 
    >[!NOTE]
    >
@@ -52,8 +55,8 @@ Configurar informes en tiempo real en Reports &amp; Analytics consiste en selecc
 
    ![](assets/warning_dimensions.png)
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
+1. Haga clic en **[!UICONTROL Guardar]** o en **[!UICONTROL Guardar y ver informe]**.
 
-   Después de esta configuración inicial del informe los datos pueden tardar hasta 20 minutos en ser transferidos. A partir de ese momento los datos estarán disponibles inmediatamente. Para obtener más información sobre la visualización de informes en tiempo real, consulte [Ejecución de un informe en tiempo real](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html).
+   Después de esta configuración inicial del informe los datos pueden tardar hasta 20 minutos en ser transferidos. A partir de ese momento los datos estarán disponibles inmediatamente. Para obtener más información sobre la visualización de informes en tiempo real, consulte [Ejecución de un informe en tiempo real](https://docs.adobe.com/content/help/es-ES/analytics/analyze/reports-analytics/t-running-report-types.html).
 
 1. De manera predeterminada todos los usuarios tienen acceso a los informes en tiempo real.
