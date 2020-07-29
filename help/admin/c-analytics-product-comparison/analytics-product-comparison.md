@@ -2,10 +2,10 @@
 description: Requisitos del sistema y comparación de Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse y Data Workbench
 title: Comparación de productos y requisitos de Analytics
 translation-type: tm+mt
-source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
+source-git-commit: 0885a42ccf79565d2ad55cf84e346926f2328f77
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 55%
+source-wordcount: '672'
+ht-degree: 54%
 
 ---
 
@@ -26,9 +26,9 @@ Si no sabe qué producto de Adobe Analytics utilizar, consúltelo [aquí](/help/
 | **Límite de fila visible (antes de la paginación)** | 400 | 200 | 50000 | Sin límite | Sin límite | Sin límite | 50000 |
 | **Varios grupos de informes** | [Sí](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | Sí, con limitaciones | Sí | No | Sí | No | Sí |
 | **Número de desgloses** | Sin límite | Hasta 2 | Hasta 2 | Sin límite | Sin límite | Sin límite | Sin límite, ejecutar en varias consultas |
-| &quot;**Segmentación** <br>[Más información](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | Sí | Sí | Sí | Sí, con [limitaciones](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | Sí | No | Sí |
+| **Segmentación** <br>[Más información](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | Sí | Sí | Sí | Sí, con [limitaciones](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | Sí | No | Sí |
 | **Métricas** calculadas <br>[Más información](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/cm-overview.html) | Sí, con [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | Sí | Sí | No | Sí | No | Sí, con [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
-| **Canales** de marketing <br>[Más información](https://docs.adobe.com/content/help/es-ES/analytics/components/marketing-channels/c-getting-started-mchannel.html) | Sí | Sí | Sí | Sí | Sí | Sí - va_finder, va_close | Sí |
+| **Canales** de marketing <br>[Más información](https://docs.adobe.com/content/help/es-ES/analytics/components/marketing-channels/c-getting-started-mchannel.html) | Sí | Sí | Sí | Sí | Sí | Sí: [va_finder, va_close](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html) | Sí |
 | **análisis de cohorte** | [Sí](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | No | No | No | Sí | No | No |
 | **Atribución** | Sí, con [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | Limitado | Limitado | No | Sí | No | Sí, con [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
 | **Funciones** de analista virtual <br>[Más información](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | Sí | No | No | No | No | No | Sí |
