@@ -3,11 +3,11 @@ description: Las métricas son la base de los informes, ya que ayudan a ver y a 
 title: Métricas
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '370'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Las métricas y los datos asociados se exhiben en las columnas de los informes. 
 
 Las [métricas calculadas](/help/components/c-calcmetrics/cm-overview.md) se crean combinando métricas.
 
-Para obtener una lista completa de las métricas, consulte Información general [sobre](/help/components/metrics/overview.md) métricas en la guía del usuario Componentes.
+Para obtener una lista completa de las métricas, consulte [Información general sobre métricas](/help/components/metrics/overview.md) en la guía del usuario de componentes.
 
 ## Seleccionar métricas de informe predeterminadas
 
