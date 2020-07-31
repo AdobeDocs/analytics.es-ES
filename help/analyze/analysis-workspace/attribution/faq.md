@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 71%
+ht-degree: 95%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 71%
 
 **¿Cuál es el elemento de línea “Ninguno” al utilizar Attribution?**
 
-El elemento de línea “Ninguno” es un captador global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retrospectiva. Para reducir el número de conversiones atribuidas al elemento de línea &#39;Ninguno&#39;, intente utilizar una ventana de retrospectiva personalizada con un período de retroactividad más largo.
+El elemento de línea “Ninguno” es un captador global que representa todas las conversiones que se produjeron sin ningún punto de contacto dentro de la ventana retrospectiva. Para reducir el número de conversiones atribuidas al elemento de línea “Ninguno”, intente utilizar una ventana retrospectiva personalizada con un periodo de retrospectividad más largo.
 
 **¿Por qué a veces veo fechas fuera de la ventana de informes al utilizar modelos de atribución?**
 
 Estas fechas adicionales se deben a la ventana retrospectiva de informes de visitantes. Consulte [Datos que aparecen fuera de la ventana de informes](https://helpx.adobe.com/es/analytics/kb/data-appearing-outside-reporting-window.html) en la BC de Analytics para obtener más información.
 
-**¿Cuándo debo usar una retrospectiva de atribución personalizada, visitante o visita?**
+**¿Cuándo debo usar una retrospectiva de atribución de visita, de visitante o personalizada?**
 
-La elección de la retrospectiva de atribución depende de su caso de uso. Si las conversiones suelen tardar más de una sola visita, se recomienda un retrospectivo personalizado o de visitante. Para ciclos de conversión más largos, las ventanas de retrospectiva personalizadas son mejores ya que son el único tipo que puede extraer datos antes de la ventana de sistema de informes
+La elección de la retrospectiva de atribución depende de su caso de uso. Si las conversiones suelen tardar más de una sola visita, se recomienda una retrospectiva del visitante o personalizada. Para ciclos de conversión más largos, las ventanas de retrospectiva personalizadas son mejores ya que son el único tipo que puede extraer datos anteriores a los establecidos en la ventana para la creación de informes
 
 **¿Cómo se comparan las props y las eVars al utilizar la atribución?**
 
@@ -67,9 +67,9 @@ Sí, la mayoría de las fuentes de datos son compatibles. La atribución no es c
 
 Las dimensiones de metadatos, como el tipo de coincidencia y la palabra clave, se pueden usar con la atribución. Sin embargo, las métricas (como impresiones, coste, clics, posición promedio y puntuación de calidad promedio) utilizan fuentes de datos de resumen y, por lo tanto, son incompatibles.
 
-**¿Cómo funciona la atribución con los canales de mercadotecnia?**
+**¿Cómo funciona la atribución con los canales de marketing?**
 
-Cuando se introdujeron los canales de marketing por primera vez, solo incluyeron dimensiones de primer y último contacto. Ya no se necesitan dimensiones explícitas de primer/último toque con la versión actual de atribución. Adobe proporciona dimensiones genéricas de &#39;Canal de mercadotecnia&#39; y &#39;Detalle de Canal de mercadotecnia&#39; para que pueda utilizarlas con el modelo de atribución deseado. Estas dimensiones genéricas se comportan de forma idéntica a las dimensiones de Canal de último toque, pero tienen una etiqueta diferente para evitar confusiones al usar canales de marketing con un modelo de atribución diferente.
+Cuando se introdujeron los canales de marketing por primera vez, solo incluyeron dimensiones de primer y último contacto. Ya no se necesitan dimensiones explícitas de primer/último contacto con la versión actual de atribución. Adobe proporciona dimensiones genéricas de “Canal de marketing” y “Detalle del canal de marketing” para que pueda utilizarlas con el modelo de atribución deseado. Estas dimensiones genéricas se comportan de forma idéntica a las dimensiones del canal de último contacto, pero tienen una etiqueta diferente para evitar confusiones al usar canales de marketing con un modelo de atribución diferente.
 
 Dado que las dimensiones del canal de marketing dependen de una definición de visita tradicional (según lo definen sus reglas de procesamiento), su definición de visita no se puede cambiar mediante grupos de informes virtuales.
 
