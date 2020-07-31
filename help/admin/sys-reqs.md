@@ -1,33 +1,33 @@
 ---
 title: Requisitos del sistema
 description: Requisitos del sistema para utilizar Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '111'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 
 # Requisitos del sistema
 
-Lista los requisitos del sistema para utilizar varias soluciones de productos en Adobe Analytics.
+Muestra los requisitos del sistema para utilizar varias soluciones de productos en Adobe Analytics.
 
-## Requisitos del sistema para soluciones basadas en navegador
+## Requisitos del sistema para soluciones basadas en explorador
 
-La mayoría de las soluciones de Analytics de Adobe, incluido el Analysis Workspace, se basan en el navegador. Por lo tanto, el requisito más importante para utilizar Adobe Analytics es un navegador web moderno. Adobe admite la última versión estable de estos navegadores:
+La mayoría de las soluciones de Adobe Analytics, incluido Analysis Workspace, se basan en el explorador. Por lo tanto, el requisito más importante para utilizar Adobe Analytics es un explorador web moderno. Adobe es compatible con la última versión de estos navegadores:
 
 * Microsoft Edge
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
 
->[!NOTE] Adobe finalizó la compatibilidad con Microsoft Internet Explorer 11 en Adobe Analytics el 13 de noviembre de 2018.
+>[!NOTE] Adobe Analytics dejó de ser compatible con Internet Explorer 11 el 13 de noviembre de 2018.
 
-## Requisitos del sistema para soluciones que no son de explorador
+## Requisitos del sistema para soluciones no basadas en un explorador
 
-Consulte la página de soluciones vinculadas para conocer los requisitos del sistema de esa solución.
+Consulte la página de soluciones vinculadas para conocer los requisitos del sistema de cada solución.
 
 * [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
 * [Ad Hoc Analysis ](/help/analyze/ad-hoc-analysis/c-getting-started.md)
