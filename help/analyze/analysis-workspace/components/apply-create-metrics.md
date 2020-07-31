@@ -2,11 +2,11 @@
 description: Hay dos modos de utilizar métricas en Analysis Workspace.
 title: Métricas
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ Si quiere comparar rápida y fácilmente un modelo de atribución con otro, haga
 
 ![Comparar atribución](assets/compare-attribution.png)
 
-Este método abreviado le permite comparar rápida y fácilmente un modelo de atribución con otro sin arrastrarlo y configurarlo dos veces.
+Este método abreviado permite comparar rápida y fácilmente un modelo de atribución con otro sin tener que arrastrar una métrica y configurarla dos veces.
