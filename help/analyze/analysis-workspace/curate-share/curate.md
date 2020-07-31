@@ -2,9 +2,9 @@
 description: Una depuración le permite limitar los componentes antes de compartir un proyecto.
 keywords: Analysis Workspace curation
 title: Depurar proyectos de Workspace
-translation-type: ht
-source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -39,6 +39,7 @@ Cuando un destinatario abre un proyecto depurado, solo verá el conjunto depurad
 ## Eliminar depuración del proyecto
 
 Para eliminar la depuración del proyecto y restaurar el conjunto completo de componentes en el carril izquierdo:
+
 1. Haga clic en **[!UICONTROL Compartir]** > **[!UICONTROL Depurar datos del proyecto]**.
 1. Haga clic en **[!UICONTROL Eliminar depuración]**.
 1. Haga clic en **[!UICONTROL Finalizado]**.
