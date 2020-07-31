@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,7 @@ Nuevas funciones lanzadas el 18 de junio de 2020.
 | Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Panel en blanco actualizado | El panel en blanco ahora incluye paneles y visualizaciones, lo que le ofrece una forma más fluida de elegir el flujo de trabajo de análisis que mejor se adapte a sus necesidades. |
 | Panel de perspectivas rápidas (25 de junio de 2020) | Quick Insights proporciona una guía a los no analistas y a los nuevos usuarios de Analysis Workspace para aprender a responder preguntas comerciales de forma rápida y sencilla. [Más información...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| Panel Analytics para Destinatario en Workspace (25 de junio de 2020) | El panel Analytics for Target (A4T) le permite analizar con confianza las actividades y experiencias de Adobe Target en Analysis Workspace. [Más información...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| Panel Analytics for Target en Workspace (25 de junio de 2020) | El panel Analytics for Target (A4T) le permite analizar con confianza las actividades y experiencias de Adobe Target en Analysis Workspace. [Más información...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Página Acerca de Workspace | La página Acerca de Workspace proporciona información sobre el entorno de su Analysis Workspace, sobre los administradores de Adobe Analytics (si necesita asistencia técnica) y una forma de proporcionar comentarios integrada al producto. Se encuentra en Workspace > Ayuda > Acerca de Workspace. |
 
 ## Mayo 2020
@@ -52,7 +52,7 @@ Nueva función lanzada el 16 de abril de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Automatically build [!UICONTROL Freeform Tables] from a blank state | Anteriormente, no se podían soltar componentes directamente en un proyecto o panel en blanco; primero tenía que agregar una tabla improvisada. Ahora puede soltar componentes directamente en un proyecto o panel en blanco, y automáticamente se creará una tabla improvisada en un formato recomendado. Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
+| Crear automáticamente [!UICONTROL tablas improvisadas] a partir de un estado en blanco | Anteriormente, no se podían soltar componentes directamente en un proyecto o panel en blanco; primero tenía que agregar una tabla improvisada. Ahora puede soltar componentes directamente en un proyecto o panel en blanco, y automáticamente se creará una tabla improvisada en un formato recomendado. Además, se mejoró la forma en que se gestionan los tipos de componentes mixtos (p. ej., dimensiones y métricas) al soltarlos juntos en una [!UICONTROL tabla improvisada] en blanco. |
 
 ## Marzo de 2020
 
@@ -84,7 +84,7 @@ Nueva función lanzada el 16 de enero de 2020.
 
 ## Octubre de 2019
 
-Mejoras publicadas el jueves, 10 de octubre de 2019.
+Mejoras publicadas el 10 de octubre de 2019.
 
 | Mejora | Descripción |
 |--- |--- |
@@ -94,7 +94,7 @@ Mejoras publicadas el jueves, 10 de octubre de 2019.
 
 ## Agosto de 2019
 
-Mejoras publicadas el jueves, 8 de agosto de 2019.
+Mejoras publicadas el 8 de agosto de 2019.
 
 | Mejora | Descripción |
 |--- |--- |
@@ -102,7 +102,7 @@ Mejoras publicadas el jueves, 8 de agosto de 2019.
 
 ## Julio de 2019
 
-Mejoras publicadas el jueves, 18 de julio de 2019.
+Mejoras publicadas el 18 de julio de 2019.
 
 | Mejora | Descripción |
 |--- |--- |
@@ -112,7 +112,7 @@ Mejoras publicadas el jueves, 18 de julio de 2019.
 
 ## Junio de 2019
 
-Mejoras publicadas el jueves, 13 de junio de 2019.
+Mejoras publicadas el 13 de junio de 2019.
 
 | Mejora | Descripción |
 |--- |--- |
@@ -883,7 +883,7 @@ Nueva función lanzada el 19 de enero de 2017:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >Compartir automáticamente componentes de proyectos</a> </p> </td> 
-   <td colname="col2"> <p>Ahora tiene la opción de compartir automáticamente los componentes del proyecto (segmentos, métricas calculadas e intervalos de fecha) con todos los destinatarios. Después de compartirse, estos componentes aparecerán en el menú desplegable de componentes de Workspace del destinatario. </p> </td> 
+   <td colname="col2"> <p>Ahora tiene la opción de compartir automáticamente los componentes del proyecto (segmentos, métricas calculadas e intervalos de fecha) con todos los destinatarios. Después de compartirlos, estos componentes aparecerán en el menú desplegable de componentes de Workspace del destinatario. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Visualización de visitas en el orden previsto en formato CSV </p> </td> 
@@ -1143,7 +1143,7 @@ Se ha añadido el botón **[!UICONTROL Agregar nuevo segmento]** a la ubicación
 
 Esta mejora es útil si prefiere crear segmentos directamente cuando trabaja en un proyecto en lugar de usar el panel [!UICONTROL Segmento] para ello.
 
-## Formato condicional  {#section_5775B505D83041408B8C3EAEC5D7C32B}
+## Formato condicional {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
 En la Configuración de columna, puede aplicar el formato condicional a los datos de la celda.
 
@@ -1183,7 +1183,7 @@ En el panel [!UICONTROL Dimensiones], puede colocar el cursor sobre el icono de 
 
 ![](assets/dimension-preview.png)
 
-## Leyenda visible  {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Leyenda visible {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 En la [!UICONTROL Configuración de visualización], la opción **[!UICONTROL Leyenda visible]** muestra u oculta la leyenda de la visualización.
 
