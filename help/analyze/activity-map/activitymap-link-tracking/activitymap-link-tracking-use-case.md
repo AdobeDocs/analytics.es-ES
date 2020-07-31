@@ -3,9 +3,9 @@ description: Los vínculos se pueden diferenciar personalizando bien el ID del v
 title: Diferenciación entre varios vínculos que hacen referencia al mismo ID y la misma región de vínculo
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
@@ -92,7 +92,7 @@ Puede personalizar la región asegurándose de que cada vínculo “buy” tenga
 
 >[!NOTE]
 >
-> Se pueden usar otros parámetros como identificadores de región aparte de “id”. También puede definir su propio identificador con la variable de JavaScript “s.ActivityMap.regionIDAttribute”.
+>Se pueden usar otros parámetros como identificadores de región aparte de “id”. También puede definir su propio identificador con la variable de JavaScript “s.ActivityMap.regionIDAttribute”.
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
