@@ -3,11 +3,11 @@ description: Cómo añadir, editar, aplicar y filtrar los segmentos de Adobe Ana
 title: Administración de segmentos
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Report Builder incluye un panel de segmentación en el paso 1 del Asistente para
 >Para añadir o editar segmentos, la interfaz de segmentos de Report Builder inicia el Creación de segmentos de Analytics en una ventana de Microsoft Internet Explorer. Su sesión de Report Builder permanecerá activa. Otros exploradores que no sean Internet Explorer no son compatibles con esta operación.
 
 1. En el panel de segmento del paso 1 del Asistente para solicitudes, haga clic en **[!UICONTROL Añadir]**.
-1. Se inicia una ventana de Internet Explorer que abre la interfaz del Creador de segmentos de Analytics. Para obtener información sobre cómo generar segmentos, consulte la segmentación [de](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html)Analytics.
+1. Se inicia una ventana de Internet Explorer que abre la interfaz del Creador de segmentos de Analytics. Para obtener información sobre cómo crear segmentos, consulte la [segmentación de Analytics](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html).
 1. Una vez que haya definido y guardado el segmento, vuelva al Asistente para solicitudes.
 1. Haga clic en el icono de actualizar para actualizar la lista de segmentos.
 
@@ -53,7 +53,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 
 ## Buscar y aplicar segmentos {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Cualquier segmento que se haya creado en Reports &amp; Analytics, Ad Hoc Analysis, Report Builder o el Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar ( ![](assets/refresh_icon.png).
+Cualquier segmento que se haya creado en Reports &amp; Analytics, Ad Hoc Analysis, Report Builder o el Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar (![](assets/refresh_icon.png)).
 
 Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye segmentos secuenciales.
 
@@ -75,7 +75,7 @@ Los filtros disponibles incluyen:
 
 | Nombre del filtro | Descripción |
 |---|---|
-| Etiquetas | Le permite filtrar segmentos con determinadas . Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
+| Etiquetas | Le permite filtrar segmentos con determinadas etiquetas. Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
 | Propietarios | Le permite filtrar segmentos por el propietario. Tenga en cuenta que los filtros de Propietario utilizan el operador OR. Si marca dos propietarios, el panel de la derecha muestra los segmentos que son propiedad de **uno** de los propietarios. |
 | Otros filtros > Solo el *nombre del grupo de informes* | Si aplica el filtro “Solo el *nombre del grupo de informes*” en el Creador de segmentos, en [!DNL marketing reports & analytics] y, a continuación, muestra el Filtro avanzado en [!DNL report builder], el Filtro avanzado solo mostrará las métricas calculadas correspondientes al informe seleccionado. |
 | Otros filtros > Míos | Muestra todos los segmentos de su propiedad. |
