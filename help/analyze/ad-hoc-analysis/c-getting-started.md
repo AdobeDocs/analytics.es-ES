@@ -38,7 +38,7 @@ Estas características permiten responder a preguntas sobre el tráfico del siti
   </tr> 
   <tr> 
    <td colname="col1"> <p>3. Crear un proyecto. </p> </td> 
-   <td colname="col2"> <p>En la página de inicio, seleccione un grupo de informes y haga clic en <span class="uicontrol">Crear proyecto</span>. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   > Proyectos y espacios de trabajo</a>. </p> </td> 
+   <td colname="col2"> <p>En la página de inicio, seleccione un grupo de informes y haga clic en <span class="uicontrol">Crear proyecto</span>. </p> <p>Consulte <a href="/help/analyze/ad-hoc-analysis/c-getting-started.md"   >Proyectos y espacios de trabajo</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4. Abrir un informe. </p> </td> 
@@ -49,7 +49,7 @@ Estas características permiten responder a preguntas sobre el tráfico del siti
    <td colname="col2"> <p>Para configurar el informe deberá realizar diversas tareas: </p> 
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> Crear segmentos para profundizar en los datos. </li> 
-     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Agregar métricas, dimensiones y segmentos al  <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Generador de tablas</a> </li> 
+     <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> Agregar métricas, dimensiones y segmentos al <a href="/help/analyze/ad-hoc-analysis/c-tablebuilder.md"   > Generador de tablas</a> </li> 
      <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuración de <a href="/help/analyze/ad-hoc-analysis/c-dates.md"   >intervalos de fechas</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="/help/analyze/ad-hoc-analysis/c-schedule.md"   > Programar</a> el envío de informes </li> 
     </ul> <p>Busque en este sistema de ayuda para encontrar la ayuda que necesita. </p> </td> 
@@ -78,11 +78,11 @@ c_sys_reqs.xml
 * Resolución del monitor: 800 x 600 (se recomienda 1024 x 768)
 * Profundidad de color: 16 bits o superior
 * JavaScript: habilitado
-* Versión de Java:   Java 1.7 o versiones posteriores   (consulte la nota anterior)
+* Versión de Java: Java 1.7 o versiones posteriores (consulte la nota anterior)
 
    Si no tiene instalada la versión correcta de Java, se instalará automáticamente. Si tiene instalada una versión incompatible de Java, Ad Hoc Analysis descargará las actualizaciones y le pedirá que las instale.
 
-## Instrucciones de actualización de Java  {#section_E4C0C6492FF24636A0FF71A59331111D}
+## Instrucciones de actualización de Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
 A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si ejecuta Ad Hoc Analysis en Java 7 después de la actualización de mantenimiento de julio de 2018, Adobe no ofrecerá compatibilidad para su implementación de análisis específicos.
 
@@ -188,7 +188,7 @@ t_share_projects.xml
  -->
 
 1. Vaya a **[!UICONTROL Archivo]** > **[!UICONTROL Guardar como]**.
-1. Seleccione **[!UICONTROL Proyectos compartidos]** en el menú desplegable **[!UICONTROL Guardar en:]**. 
+1. Seleccione **[!UICONTROL Proyectos compartidos]** en el menú desplegable **[!UICONTROL Guardar en:]**.
 
    ![](assets/shared_projects.png)
 
@@ -264,4 +264,4 @@ Puede abrir un informe de las siguientes maneras:
 
 * En la página [!UICONTROL Nuevo informe], busque un informe o elija una plantilla.
 * En el menú, haga clic en **[!UICONTROL Informes]** y seleccione un informe o una plantilla de informe.
-* Para ejecutar un informe desde una dimensión, haga clic con el botón derecho en el nombre de la dimensión y seleccione **[!UICONTROL Ejecutar informe]** >   **`report name`**.
+* Para ejecutar un informe desde una dimensión, haga clic con el botón derecho en el nombre de la dimensión y seleccione **[!UICONTROL Ejecutar informe]** > **`report name`**.
