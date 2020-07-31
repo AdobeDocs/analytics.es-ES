@@ -1,11 +1,11 @@
 ---
 title: Crear un grupo de informes
 description: Cree un contenedor básico para la recopilación de datos en Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 Asigne el mismo nombre a este grupo de informes, excepto con el sufijo “- DEV” al final. Dado que este grupo de informes solo recibirá tráfico interno, el tamaño estimado puede ser el más pequeño.
 1. Haga clic en Siguiente para terminar de crear el grupo de informes dev.
 
-Para obtener más información sobre los pasos de esta ventana modal, consulte [Implementación modal](/help/implement/prepare/implementation-modal.md) en la Guía del usuario de implementación.
+Para obtener más información sobre los pasos de esta ventana modal, consulte [Implementación modal](/help/implement/prepare/implementation-modal.md) en la Guía del usuario de implementación.
 
 ## Resolución de problemas
 
