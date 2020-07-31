@@ -3,9 +3,9 @@ description: Instrucciones sobre cómo configurar eventos de éxito.
 title: Configurar eventos de éxito
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0df5a32a0cb0e38692e973f26b39e7a846225b12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
 ht-degree: 100%
 
