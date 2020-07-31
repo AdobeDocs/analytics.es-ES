@@ -1,19 +1,19 @@
 ---
-description: Al habilitar la administración de aplicaciones, se activan las variables de soluciones móviles que capturan el ciclo de vida y otras métricas de las aplicaciones móviles.
+description: Al habilitar la administración de aplicaciones se activan las variables de soluciones móviles, que capturan el ciclo de vida y otras métricas de aplicaciones móviles.
 title: Administración de aplicaciones
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Administración de aplicaciones
 
-Al habilitar la administración de aplicaciones, se activan las variables de soluciones móviles que capturan el ciclo de vida y otras métricas de las aplicaciones móviles.
+Al habilitar la administración de aplicaciones se activan las variables de soluciones móviles, que capturan el ciclo de vida y otras métricas de aplicaciones móviles.
 
 Esta integración entre Adobe Analytics y Mobile Services:
 
@@ -25,7 +25,7 @@ Esta integración entre Adobe Analytics y Mobile Services:
 * Añade nuevas dimensiones de Adobe Mobile.
 * Sincroniza datos con Analytics cada 15 minutos.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > Grupos **** de informes > **[!UICONTROL Editar configuración]** > Administración **[!UICONTROL de]** aplicaciones > Sistema de informes **** de aplicaciones.
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Administración de aplicaciones]** > **[!UICONTROL Informes de aplicaciones]**.
 
 ## Paso 1. Habilitar Informes de aplicaciones {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -37,7 +37,7 @@ Habilite los Informes de aplicaciones 3.0 para medir las siguientes métricas:
 * **Valor de duración:** comprenda cómo acumulan valor los usuarios a lo largo del tiempo mediante los KPI de la aplicación (p. ej., adquisiciones, vistas de anuncios, vídeos completos, compartido en medios sociales y cargas de fotografías).
 * **Eventos cronometrados:** cantidad de tiempo que transcurre (en la aplicación y en tiempo total) entre las acciones clave de la aplicación (como el tiempo transcurrido hasta la primera compra).
 
-## Paso 2: Activar el seguimiento de ubicación {#section_2CCBD205191C4CA3B7B71A6F11FF97EC}
+## Paso 2. Activar el seguimiento de ubicación {#section_2CCBD205191C4CA3B7B71A6F11FF97EC}
 
 Activar el seguimiento de ubicación le permite:
 
@@ -50,9 +50,9 @@ Activar el seguimiento de ubicación le permite:
 Habilitar las visitas en segundo plano (las generadas cuando la aplicación está en segundo plano) significa que estas se tratan como visitas en primer plano normales. Ahora aparecen en los informes regulares, lo que también afecta a la atribución. Esta configuración solo suele ser deseable para mantener la coherencia con implementaciones anteriores.
 
 Lo recomendable es “incluir las visitas en segundo plano” en un [grupos de informes virtuales](/help/components/vrs/vrs-about.md). Esto le permite ver las visitas, pero no afecta negativamente a su recuento y al de visitantes.
-Mobile classifications are enabled after you enable **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]**.
+Las clasificaciones móviles se habilitan cuando se activa la opción **[!UICONTROL Administración de aplicaciones]** > **[!UICONTROL Informes de aplicaciones]**.
 
-Las clasificaciones sirven para categorizar los valores en grupos y realizar informes sobre el nivel del grupo. Por ejemplo, puede clasificar todas las campañas de Búsqueda pagada en una categoría como “términos de música pop” e informar sobre el éxito de esa categoría respecto a métricas como Instancias (o pulsaciones) y la conversión en eventos exitosos.
+Las clasificaciones sirven para clasificar los valores en grupos e informar a nivel del grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda pagada en una categoría como términos de música pop e informar sobre el éxito de esa categoría en relación a métricas como Instancias (clics o pulsaciones) y la conversión a eventos de éxito.
 
 | Clasificación de | Definición |
 |--- |--- |
