@@ -1,23 +1,23 @@
 ---
 description: Instrucciones para usar los informes de valoración de los paneles.
 title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1287'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 
 # Paneles de Adobe Analytics: guía de inicio rápido del usuario ejecutivo
 
-La siguiente información proporciona a los usuarios ejecutivos información sobre las prácticas recomendadas para usar y ver paneles de Adobe Analytics. Para ver un vídeo que muestra esta información, consulte Experiencia [en la aplicación de paneles de](https://youtu.be/QXqQ_PkArbA)Adobe Analytics.
+La siguiente información proporciona a los usuarios ejecutivos información sobre las prácticas recomendadas para utilizar y ver paneles de Adobe Analytics. Para ver un vídeo que muestra esta información, consulte [Experiencia en la aplicación sobre paneles de Adobe Analytics](https://youtu.be/QXqQ_PkArbA).
 
 
 ## Primeros pasos
 
-Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Los paneles son compatibles con los sistemas operativos iOS y Android.
+Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar.  La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Los paneles son compatibles con los sistemas operativos iOS y Android.
 
 ## Más información sobre esta guía
 
@@ -33,7 +33,7 @@ Esta guía está diseñada para ayudar a los usuarios ejecutivos a leer e interp
 | Informe de valoración | Vista de paneles que contiene uno o más mosaicos |
 | Mosaico | Representación de una métrica en una vista del informe de valoración |
 | Desglose | Una vista secundaria a la que se puede acceder pulsando un mosaico del informe de valoración. Esta vista ofrece más información sobre la métrica que aparece en el mosaico y, opcionalmente, sobre dimensiones de desglose adicionales |
-| Intervalo de fecha | El intervalo de fecha principal para la creación de informes de los paneles |
+| Intervalo de fechas | El intervalo de fecha principal para la creación de informes de los paneles |
 | Intervalo de fecha de comparación | Intervalo de fecha que se compara con el intervalo de fecha principal |
 
 ## Configuración de los paneles en el dispositivo
@@ -53,17 +53,17 @@ Para descargar e instalar la aplicación, siga los pasos que correspondan al sis
 
 **Para usuarios ejecutivos con iOS:**
 
-Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **Paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 [Vínculo de iOS](https://apple.co/2zXq0aN)
 
 **Para usuarios ejecutivos con Android:**
 
-Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **Paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 [Vínculo de Android](https://bit.ly/2LM38Oo)
 
-Una vez descargado e instalado, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics existentes.
+Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics.
 
 ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
@@ -81,13 +81,14 @@ Para usar los paneles:
 
    ![Seleccione una empresa](assets/nextseq.png)
 
-   Si inicia sesión y ve un mensaje que indica que no se ha compartido nada, compruebe lo siguiente con su curador:
+   Si inicia sesión y ve un mensaje que indica que no se ha compartido nada, compruebe lo siguiente con su gestor de datos:
 
    * Puede iniciar sesión en la instancia correcta de Analytics
    * El informe de valoración se ha compartido con usted
+
    ![No se ha compartido nada](assets/nothing.png)
 
-4. Examine cómo aparecen los mosaicos en el cuadro de mandos (el primer cuadro de mandos se muestra en modo oscuro; consulte **Preferencias** para obtener más información).
+4. Examine cómo aparecen los mosaicos en el informe de valoración (el primer informe de valoración se muestra en modo oscuro; consulte **Preferencias** para obtener más información).
 
    ![Explicación de los mosaicos](assets/newexplain.png)
 
@@ -96,16 +97,17 @@ Para usar los paneles:
    * La granularidad de los minigráficos depende de la longitud del intervalo de fecha:
 
       * Si se selecciona un día se muestra una tendencia horaria
-      * Más de un día y menos de un año muestran una tendencia diaria
+      * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria
       * Si se selecciona un año o más se muestra una tendencia semanal
    * La fórmula de la variación del valor porcentual es el total de la métrica (intervalo de fecha actual) – el total de la métrica (intervalo de fecha de comparación) / el total de la métrica (intervalo de fecha de comparación).
 
    * Puede arrastrar la pantalla hacia abajo para actualizar el informe de valoración.
-   El ejemplo siguiente Cuadro de mandos se muestra en modo normal:
 
-   ![Ejemplo de cuadro de mandos](assets/intro_scorecard.png)
+   El siguiente informe de valoración de ejemplo se muestra en modo normal:
 
-5. Toque un mosaico para ver cómo funciona un desglose detallado del mosaico.
+   ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
+
+5. Pulse un mosaico para ver el funcionamiento de un desglose detallado del mosaico.
 
    ![Vista de desglose](assets/sparkline.png)
 
@@ -114,11 +116,11 @@ Para usar los paneles:
 
    ![Cambio de fechas](assets/changedate.png)
 
-   * También puede cambiar los intervalos de fechas dentro de la vista Desglosar que se muestra arriba de la misma manera.
+   * También puede cambiar los intervalos de fechas del mismo modo en la vista Desglosar que se muestra arriba.
 
    * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **COMPARAR CON**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **Listo** en la parte superior derecha de la pantalla. El campo **Intervalos de fecha** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
-7. Para aplicar un filtro de segmento a su cuadro de mandos, toque la lista desplegable de filtros y seleccione un segmento que haya configurado el curador. [Los Filtros](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la aplicación funcionan del mismo modo que en Analytics Workspace.
+7. Para aplicar un filtro de segmento a su informe de valoración, pulse la lista desplegable de filtros y seleccione un segmento que haya configurado el depurador. Los [filtros](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) de la aplicación funcionan del mismo modo que en el espacio de trabajo de Analytics.
 
    ![Filtro de segmento](assets/segment_filter.png)
 
@@ -126,13 +128,13 @@ Para usar los paneles:
 
 9. Para dejar comentarios sobre esta aplicación:
 
-   1. Toque el icono de configuración en la parte superior derecha de la pantalla de la aplicación.
-   2. On the **Settings** screen, tap the **Feedback** option.
+   1. Pulse el icono de configuración en la parte superior derecha de la pantalla de la aplicación.
+   2. En la pantalla **Configuración**, pulse la opción **Comentarios**.
    3. Pulse para ver las opciones que existen para dejar comentarios.
 
       ![Pantalla Configuración](assets/settings.png)
 
-10. Para cambiar las preferencias, toque la opción **Preferencias** que se muestra arriba. En las preferencias, puede activar el inicio de sesión biométrico o puede establecer la aplicación para el modo oscuro como se muestra a continuación:
+10. Para cambiar las preferencias, pulse la opción **Preferencias** que se muestra arriba. En las preferencias, puede activar el inicio de sesión biométrico o puede establecer el modo oscuro de la aplicación, tal y como se muestra a continuación:
 
    ![Modo oscuro](assets/darkmode.png)
 
