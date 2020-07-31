@@ -2,11 +2,11 @@
 description: La configuración de columna le permite configurar el formato de la columna, aunque algunas opciones de formato pueden ser condicionales.
 title: Configuración de columna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,13 +52,13 @@ El formato condicional aplica formato que puede definir a los límites superior,
 
 ## Uso de modelos de atribución no predeterminados
 
-Análisis Workspace admite [atribución](../../attribution/overview.md) para casi cualquier métrica.
+Analysis Workspace admite la [atribución](../../attribution/overview.md) en casi cualquier métrica.
 
 1. Haga clic en el icono Configuración (engranaje) en una columna de Tabla improvisada.
 
-   ![Casilla de verificación Atribución](assets/attribution-checkbox.png)
+   ![Casilla de verificación de atribución](assets/attribution-checkbox.png)
 
-2. En **[!UICONTROL Configuración de datos]**, active **[!UICONTROL Utilizar modelo de atribución no predeterminado]**. For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+2. En **[!UICONTROL Configuración de datos]**, active **[!UICONTROL Utilizar modelo de atribución no predeterminado]**. Para obtener más información sobre los diferentes modelos de atribución, consulte [Modelos de atribución](../../attribution/models.md).
 
    ![Seleccionar modelo de atribución](assets/attribution-select.png)
 
