@@ -2,7 +2,7 @@
 description: Requisitos del sistema y comparación de Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse y Data Workbench
 title: Comparación de productos y requisitos de Analytics
 translation-type: tm+mt
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+source-git-commit: f3fa1cfd718339e58764bf4b39b07ccf2eae12c3
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -17,7 +17,7 @@ Esta página contiene una comparación de varios productos de Adobe Analytics: A
 Si no sabe qué producto de Adobe Analytics utilizar, consúltelo [aquí](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
 
 | Nombre del producto y vínculo de ayuda | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html) | [Archivo de fuentes de datos](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|---|---|---|---|---|---|---|---|
 | **Método de acceso** | [Explorador](/help/admin/sys-reqs.md) | [Explorador](/help/admin/sys-reqs.md) | [MS Excel para Windows](/help/analyze/report-builder/setup/system-requirements.md) | Realice la configuración a través del explorador. [Más información](/help/admin/sys-reqs.md) | [Windows de 64 bits](https://docs.adobe.com/content/help/es-ES/data-workbench/using/install/c-data-workbench-client-install.html) | Realice la configuración a través del explorador. [Más información](/help/export/analytics-data-feed/data-feed-overview.md) | Herramientas de API de RESTful. Inicie sesión con las credenciales de E/S de Adobe. [Más información](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **Granularidad de datos** | Agregado | Agregado | Agregado | Agregado | Visita | Visita | Agregado |
 | **Experience Cloud ID (ECID) disponible** | No | No | No | Sí | Sí | Sí | No |
