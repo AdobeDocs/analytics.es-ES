@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [Mapa de árbol](analysis-workspace/visualizations/treemap.md)
    + Paneles {#panels}
       + [Resumen de paneles](analysis-workspace/c-panels/panels.md)
-      + [Panel Analytics para Destinatario (A4T)](analysis-workspace/c-panels/a4t-panel.md)
+      + [Panel de Analytics for Target (A4T)](analysis-workspace/c-panels/a4t-panel.md)
       + [Panel de Attribution](analysis-workspace/c-panels/attribution.md)
       + [Panel en blanco](analysis-workspace/c-panels/blank-panel.md)
       + [Panel de forma libre](analysis-workspace/c-panels/freeform-panel.md)
       + [Panel de información rápida](analysis-workspace/c-panels/quickinsight.md)
-      + Segment comparison panel {#segment-comparison}
+      + Panel de comparación de segmentos {#segment-comparison}
          + [Información general del de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [Casos de uso de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Pruebas estadísticas utilizadas en la comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -337,7 +337,7 @@ ht-degree: 98%
 + Labs {#tech-previews}
    + [Resumen de Labs](tech-previews/overview.md)
 + Tableros de Adobe Analytics {#mobapp}
-   + [paneles de Adobe Analytics: Información general](mobile-app/home.md)
+   + [Paneles de Adobe Analytics: Información general](mobile-app/home.md)
    + [Guía del administrador](mobile-app/curator.md)
    + [Guía de inicio rápida para el usuario ejecutivo](mobile-app/executive.md)
 + Aplicaciones web progresivas {#pwa}
