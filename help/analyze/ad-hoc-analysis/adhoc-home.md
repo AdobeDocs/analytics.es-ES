@@ -3,6 +3,9 @@ description: Introducción a Ad Hoc Analysis
 title: Resumen de Ad Hoc Analysis
 translation-type: ht
 source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+workflow-type: ht
+source-wordcount: '176'
+ht-degree: 100%
 
 ---
 
