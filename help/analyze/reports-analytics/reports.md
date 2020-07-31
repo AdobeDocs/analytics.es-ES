@@ -1,196 +1,196 @@
 ---
 title: Informes
-description: Dimensiones y métricas que utiliza Informes y Analytics para cada informe.
+description: Dimensiones y métricas que utiliza Reports & Analytics para cada informe.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1863'
-ht-degree: 1%
+ht-degree: 88%
 
 ---
 
 
 # Informes
 
-Cada informe de Informes y Analytics utiliza una dimensión dedicada y una métrica predeterminada. Puede cambiar la métrica en cada informe y agregar desgloses si lo desea. Las siguientes listas proporcionan qué dimensión se utiliza en cada informe.
+Cada informe de Reports &amp; Analytics utiliza una dimensión dedicada y una métrica predeterminada. Puede cambiar la métrica en cada informe y agregar desgloses si lo desea. Las siguientes listas indican qué dimensión se utiliza en cada informe.
 
 >[!NOTE]
 >
->El menú de informes puede tener un aspecto diferente en función de las personalizaciones que haya realizado un administrador en su organización. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>El menú de informes puede tener un aspecto diferente en función de las personalizaciones que haya realizado un administrador en su organización. Consulte [Personalización de menús](/help/admin/admin/customize-menus.md) en la guía de usuario de administración.
 
 ## Métricas del sitio
 
 Contiene informes que suelen generar tendencias mediante un intervalo de fechas. También contiene informes únicos, como los informes recomendados y los informes en tiempo real.
 
-* Mis informes recomendados: Crea un panel que contiene varios informes breves para obtener perspectivas inmediatas.
-* Métricas clave: Informe que permite realizar una tendencia de hasta cinco métricas a la vez. De forma predeterminada, [muestra tendencias de vistas](/help/components/metrics/page-views.md)de página, [visitas](/help/components/metrics/visits.md)y visitantes [](/help/components/metrics/unique-visitors.md) únicos.
-* vistas de página: Tendencia de la métrica de vistas [de](/help/components/metrics/page-views.md) página con el paso del tiempo.
-* Visitas: Tendencia de la métrica [Visitas](/help/components/metrics/visits.md) con el paso del tiempo.
-* Visitantes: Tendencia de varias métricas de visitantes [](/help/components/metrics/unique-visitors.md) únicos con el paso del tiempo.
-   * visitantes únicos: Cuenta visitantes sólo una vez para todo el intervalo de fechas seleccionado.
-   * visitantes únicos por hora: Cuenta los visitantes varias veces si se visitan durante distintas horas del intervalo de fechas seleccionado.
-   * visitantes únicos diarios: Cuenta los visitantes varias veces si se visitan durante diferentes días del intervalo de fechas seleccionado.
-   * visitantes únicos semanales: Cuenta los visitantes varias veces si se visitan durante distintas semanas del intervalo de fechas seleccionado.
-   * visitantes únicos mensuales: Cuenta los visitantes varias veces si se visitan durante diferentes meses del intervalo de fechas seleccionado.
-   * visitantes únicos trimestrales: Cuenta visitantes varias veces si se visitan durante distintos trimestres del intervalo de fechas seleccionado. Los trimestres son de enero a marzo, de abril a junio, de julio a septiembre y de octubre a diciembre.
-   * visitantes únicos anuales: Cuenta los visitantes varias veces si se visitan durante distintos años del intervalo de fechas seleccionado.
-* Tiempo empleado por visita: Utiliza la dimensión [Tiempo empleado por visita - Agrupado](/help/components/dimensions/time-spent-per-visit.md) .
-* Tiempo previo al evento: Utiliza la dimensión [Tiempo previo al evento](/help/components/dimensions/time-prior-to-event.md) .
+* Mis informes recomendados: Crea un panel que contiene varios informes breves para obtener datos inmediatamente.
+* Métricas clave: Informe que permite realizar una tendencia de hasta cinco métricas a la vez. Puede obtener las tendencias de [Vistas de página](/help/components/metrics/page-views.md), [Visitas](/help/components/metrics/visits.md) y [Visitantes únicos](/help/components/metrics/unique-visitors.md).
+* Vistas de página: Obtiene la tendencia de la métrica [Vistas de página](/help/components/metrics/page-views.md) a lo largo del tiempo.
+* Visitas: Obtiene la tendencia de la métrica [Visitas](/help/components/metrics/visits.md) a lo largo del tiempo.
+* Visitantes: Obtiene la tendencia de varias métricas de [visitantes únicos](/help/components/metrics/unique-visitors.md) a lo largo del tiempo.
+   * Visitantes únicos: Cuenta visitantes solo una vez para todo el intervalo de fechas seleccionado.
+   * Visitantes únicos por hora: Cuenta los visitantes varias veces si visitan durante distintas horas del intervalo de fechas seleccionado.
+   * Visitantes únicos diarios: Cuenta los visitantes varias veces si visitan durante diferentes días del intervalo de fechas seleccionado.
+   * Visitantes únicos semanales: Cuenta los visitantes varias veces si visitan durante distintas semanas del intervalo de fechas seleccionado.
+   * Visitantes únicos mensuales: Cuenta los visitantes varias veces si visitan durante diferentes meses del intervalo de fechas seleccionado.
+   * Visitantes únicos trimestrales: Cuenta visitantes varias veces si visitan durante distintos trimestres del intervalo de fechas seleccionado. Los trimestres son de enero a marzo, de abril a junio, de julio a septiembre y de octubre a diciembre.
+   * Visitantes únicos anuales: Cuenta los visitantes varias veces si visitan durante distintos años del intervalo de fechas seleccionado.
+* Tiempo empleado por visita: Utiliza la dimensión [Tiempo empleado por visita: Agrupado](/help/components/dimensions/time-spent-per-visit.md).
+* Tiempo previo al evento: Utiliza la dimensión [Tiempo previo al evento](/help/components/dimensions/time-prior-to-event.md).
 * Compras: Contiene informes sobre métricas basadas en compras.
-   * Canal de conversión de compra: Informe de [visitas](/help/components/metrics/visits.md), [carros](/help/components/metrics/carts.md), [pedidos](/help/components/metrics/orders.md), [ingresos](/help/components/metrics/revenue.md)y [unidades](/help/components/metrics/units.md) en un informe de canal. Se logra una visualización similar en Analysis Workspace mediante la visualización [Visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-   * Ingresos: Tendencia de la métrica [Ingresos](/help/components/metrics/revenue.md) con el paso del tiempo.
-   * Pedidos: Tendencia de la métrica [Pedidos](/help/components/metrics/orders.md) con el paso del tiempo.
-   * Unidades: Tendencia de las [unidades](/help/components/metrics/units.md) de métrica a lo largo del tiempo.
+   * Canal de conversión de compra: Informe de [Visitas](/help/components/metrics/visits.md), [Carros de compras](/help/components/metrics/carts.md), [Pedidos](/help/components/metrics/orders.md), [Ingresos](/help/components/metrics/revenue.md) y [Unidades](/help/components/metrics/units.md) en un informe de canal. Se logra una visualización similar en Analysis Workspace mediante la [Visualización de abandonos](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+   * Ingresos: Obtiene la tendencia de la métrica [Ingresos](/help/components/metrics/revenue.md) a lo largo del tiempo.
+   * Pedidos: Obtiene la tendencia de la métrica [Pedidos](/help/components/metrics/orders.md) a lo largo del tiempo.
+   * Unidades: Obtiene la tendencia de [Unidades](/help/components/metrics/units.md) a lo largo del tiempo.
 * Carro de compras: Contiene informes sobre las métricas del carro de compras.
-   * Canal de conversión del carro de compras: Informes [Instancias](/help/components/metrics/instances.md), [Carros](/help/components/metrics/carts.md), [Cierres de compra](/help/components/metrics/checkouts.md), [Pedidos](/help/components/metrics/orders.md)e [Ingresos](/help/components/metrics/revenue.md) en un informe de canal.
-   * Carros de compras: Tendencia de la métrica [Carros](/help/components/metrics/carts.md) de compras con el paso del tiempo.
-   * vistas del carro de compras: Tendencia de las vistas [del](/help/components/metrics/cart-views.md) carro de compras con el paso del tiempo.
-   * Adiciones al carro de compras: Tendencia de las adiciones [al](/help/components/metrics/cart-additions.md) carro de compras con el paso del tiempo.
-   * Eliminaciones del carro de compras: Enumera las tendencias de las eliminaciones [del](/help/components/metrics/cart-removals.md) carro de compras con el paso del tiempo.
-   * Cierres de compras: Tendencia de las métricas [Cierres de compras](/help/components/metrics/checkouts.md) con el paso del tiempo.
-* eventos personalizados: Contiene todos los informes relacionados con [Eventos](/help/components/metrics/custom-events.md) personalizados específicos de la implementación.
+   * Canal de conversión del carro de compras: Crea un informe de canal de las métricas [Instancias](/help/components/metrics/instances.md), [Carros de compras](/help/components/metrics/carts.md), [Cierres de compra](/help/components/metrics/checkouts.md), [Pedidos](/help/components/metrics/orders.md) e [Ingresos](/help/components/metrics/revenue.md).
+   * Carros de compras: Obtiene la tendencia de la métrica [Carros de compras](/help/components/metrics/carts.md) a lo largo del tiempo.
+   * Vistas del carro de compras: Obtiene la tendencia de la métrica [Vistas del carro de compras](/help/components/metrics/cart-views.md) a lo largo del tiempo.
+   * Añadidos al carro de compras: Obtiene la tendencia de la métrica [Añadidos al carro de compras](/help/components/metrics/cart-additions.md) a lo largo del tiempo.
+   * Eliminaciones del carro de compras: Obtiene la tendencia de la métrica [Eliminaciones del carro de compras](/help/components/metrics/cart-removals.md) a lo largo del tiempo.
+   * Cierres de compras: Obtiene la tendencia de la métrica [Cierres de compras](/help/components/metrics/checkouts.md) a lo largo del tiempo.
+* Eventos personalizados: Contiene todos los informes relacionados con [Eventos](/help/components/metrics/custom-events.md) personalizados específicos de su implementación.
 * Bots: Muestra informes relacionados con bots.
-   * Bots: Muestra los bots que más frecuentan el sitio. See [Bot rules](../../admin/admin/bot-removal/bot-rules.md) in the Admin user guide.
+   * Bots: Muestra los bots que más frecuentan el sitio. Consulte [Reglas de bots](../../admin/admin/bot-removal/bot-rules.md) en la guía de usuario de administración.
    * Páginas de bots: Muestra las páginas más visitadas por los bots.
-* Tiempo real: Muestra determinadas dimensiones y métricas en segundos después de la recopilación de datos. See [Real-time reports](/help/components/c-real-time-reporting/realtime.md) for more information.
+* Tiempo real: Muestra determinadas dimensiones y métricas segundos después de su recopilación de datos. Consulte [Informes en tiempo real](/help/components/c-real-time-reporting/realtime.md) para obtener más información.
 
 ## Contenido del sitio
 
-Contiene informes en torno a dimensiones que generalmente muestran el contenido del sitio. Puede aplicar clasificaciones a algunos de estos informes. Aplicar clasificaciones significa que un informe se convierte en un menú que contiene el informe de origen y los informes de clasificación.
+Contiene informes sobre dimensiones que generalmente muestran el contenido del sitio. Puede aplicar clasificaciones a algunos de estos informes. Aplicar clasificaciones significa que un informe se convierte en un menú que contiene el informe de origen y los informes de clasificación.
 
-* Páginas: Utiliza la dimensión [Página](/help/components/dimensions/page.md) .
-* Sección del sitio: Utiliza la dimensión de sección [](/help/components/dimensions/site-section.md) Sitio.
-* Servidores: Utiliza la dimensión [Servidor](/help/components/dimensions/server.md) .
+* Páginas: Utiliza la dimensión [Página](/help/components/dimensions/page.md).
+* Sección del sitio: Utiliza la dimensión [Sección del sitio](/help/components/dimensions/site-section.md).
+* Servidores: Utiliza la dimensión [Servidor](/help/components/dimensions/server.md).
 * Vínculos: Contiene informes que utilizan el seguimiento de vínculos.
-   * Vínculos de salida: Utiliza la dimensión [Vínculo](/help/components/dimensions/exit-link.md) de salida.
-   * Descargas de archivos: Utiliza la dimensión [Descargar vínculo](/help/components/dimensions/download-link.md) .
-   * Vínculos personalizados: Utiliza la dimensión Vínculo [](/help/components/dimensions/custom-link.md) personalizado.
-   * Páginas no encontradas: Utiliza la dimensión [Páginas no encontradas](/help/components/dimensions/pages-not-found.md) .
+   * Vínculos de salida: Utiliza la dimensión [Vínculo de salida](/help/components/dimensions/exit-link.md).
+   * Descargas de archivos: Utiliza la dimensión [Vínculo de descarga](/help/components/dimensions/download-link.md).
+   * Vínculos personalizados: Utiliza la dimensión [Vínculo personalizado](/help/components/dimensions/custom-link.md).
+   * Páginas no encontradas: Utiliza la dimensión [Páginas no encontradas](/help/components/dimensions/pages-not-found.md).
 
 ## Mobile
 
-Contiene informes sobre informes móviles heredados. Estos informes basan sus datos en la cadena del agente de usuario. Para sus informes respectivos, utilizan varias dimensiones [](/help/components/dimensions/mobile-dimensions.md) móviles.
+Contiene informes sobre informes móviles heredados. Estos informes basan sus datos en la cadena del agente de usuario. Para sus informes respectivos, utilizan varias [dimensiones móviles](/help/components/dimensions/mobile-dimensions.md).
 
-* Dispositivos: Utiliza la dimensión de dispositivo [](/help/components/dimensions/mobile-dimensions.md) móvil.
-* Tipo de dispositivo: Utiliza la dimensión de tipo [de dispositivo](/help/components/dimensions/mobile-dimensions.md) móvil.
-* Fabricante: Utiliza la dimensión de fabricante [de](/help/components/dimensions/mobile-dimensions.md) Mobile.
-* Tamaño de la pantalla: Utiliza la dimensión de tamaño [de la pantalla](/help/components/dimensions/mobile-dimensions.md) Móvil.
-* Altura de la pantalla: Utiliza la dimensión de altura [de la pantalla](/help/components/dimensions/mobile-dimensions.md) Móvil.
-* Ancho de la pantalla: Utiliza la dimensión de anchura [de pantalla](/help/components/dimensions/mobile-dimensions.md) móvil.
-* Compatibilidad con cookies: Utiliza la dimensión de compatibilidad con [cookies](/help/components/dimensions/mobile-dimensions.md) móviles.
-* Compatibilidad con imágenes: Utiliza la dimensión de compatibilidad con [imágenes](/help/components/dimensions/mobile-dimensions.md) móviles.
-* Profundidad de color: Utiliza la dimensión Profundidad [de color de](/help/components/dimensions/mobile-dimensions.md) Mobile.
-* Compatibilidad con audio: Utiliza la dimensión de compatibilidad con [audio de](/help/components/dimensions/mobile-dimensions.md) Mobile.
-* Compatibilidad con vídeo: Utiliza la dimensión de compatibilidad [con vídeo](/help/components/dimensions/mobile-dimensions.md) móvil.
-* Sistema operativo (desaprobado): Utiliza la dimensión Sistema operativo [móvil (obsoleto)](/help/components/dimensions/mobile-dimensions.md) .
+* Dispositivos: Utiliza la dimensión [Dispositivo móvil](/help/components/dimensions/mobile-dimensions.md).
+* Tipo de dispositivo: Utiliza la dimensión [Tipo de dispositivo móvil](/help/components/dimensions/mobile-dimensions.md).
+* Fabricante: Utiliza la dimensión [Fabricante del dispositivo móvil](/help/components/dimensions/mobile-dimensions.md).
+* Tamaño de la pantalla: Utiliza la dimensión [Tamaño de la pantalla del dispositivo móvil](/help/components/dimensions/mobile-dimensions.md).
+* Altura de la pantalla: Utiliza la dimensión [Altura de la pantalla del dispositivo móvil](/help/components/dimensions/mobile-dimensions.md).
+* Anchura de la pantalla: Utiliza la dimensión [Anchura de la pantalla del dispositivo móvil](/help/components/dimensions/mobile-dimensions.md).
+* Compatibilidad con cookies: Utiliza la dimensión [Compatibilidad con cookies móviles](/help/components/dimensions/mobile-dimensions.md).
+* Compatibilidad con imágenes: Utiliza la dimensión [Compatibilidad con imágenes móviles](/help/components/dimensions/mobile-dimensions.md).
+* Profundidad de color: Utiliza la dimensión [Profundidad de color del dispositivo móvil](/help/components/dimensions/mobile-dimensions.md).
+* Compatibilidad con audio: Utiliza la dimensión [Compatibilidad con audio del dispositivo móvil](/help/components/dimensions/mobile-dimensions.md).
+* Compatibilidad con vídeo: Utiliza la dimensión [Compatibilidad con vídeo del dispositivo móvil](/help/components/dimensions/mobile-dimensions.md).
+* Sistema operativo (obsoleto): Utiliza la dimensión [Sistema operativo del dispositivo móvil (obsoleto)](/help/components/dimensions/mobile-dimensions.md).
 
 ## Rutas
 
 Contiene informes que le permiten ver los datos de rutas de los visitantes.
 
-* Flujo de página siguiente: Utiliza un informe de flujo en el elemento de dimensión de página principal. Las vistas de ruta son similares a [las instancias](/help/components/metrics/instances.md). Puede cambiar el elemento de dimensión del informe. Un informe similar en Analysis Workspace está disponible mediante una visualización [de flujo](../analysis-workspace/visualizations/c-flow/flow.md).
+* Flujo de página siguiente: Utiliza un informe de flujo en el elemento de dimensión de página principal. Las vistas de ruta son similares a las [instancias](/help/components/metrics/instances.md). Puede cambiar el elemento de dimensión del informe. Un informe similar en Analysis Workspace está disponible mediante una [visualización de flujo](../analysis-workspace/visualizations/c-flow/flow.md).
 * Página siguiente: Toma el elemento de dimensión de página principal y muestra las páginas siguientes a las que fueron los visitantes.
-* Flujo de página anterior: Utiliza un informe de flujo en el elemento de dimensión de página principal Un informe similar en Analysis Workspace está disponible mediante una visualización [de flujo](../analysis-workspace/visualizations/c-flow/flow.md).
+* Previous page flow: Uses a flow report on the top page dimension item A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
 * Página anterior: Toma el elemento de dimensión de página principal y muestra los visitantes de páginas anteriores.
-* Visitas en el orden previsto: Permite seleccionar elementos de dimensión de página en los pasos y muestra la proporción de personas que siguieron y no siguieron esa ruta. Un informe similar en Analysis Workspace está disponible mediante una visualización [de visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Rutas completas: Muestra rutas individuales como elementos de dimensión. Retirada en Analysis Workspace; utilice la visualización [Flujo](../analysis-workspace/visualizations/c-flow/flow.md) en su lugar.
-* PathFinder: Proporciona varios tipos de informes que permiten analizar las rutas (retiradas en Analysis Workspace).
-* Longitud de ruta: Utiliza la dimensión de profundidad [de la](/help/components/dimensions/visit-depth.md) visita.
+* Visitas en el orden previsto: Permite seleccionar elementos de dimensión de página en los pasos y muestra la proporción de personas que siguieron y no siguieron esa ruta. Un informe similar en Analysis Workspace está disponible mediante una [visualización de abandonos](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Rutas completas: Muestra rutas individuales como elementos de dimensión. Se ha eliminado en Analysis Workspace; utilice la [Visualización de flujo](../analysis-workspace/visualizations/c-flow/flow.md) en su lugar.
+* PathFinder: Proporciona varios tipos de informes que permiten analizar las rutas (se ha eliminado en Analysis Workspace).
+* Longitud de ruta: Utiliza la dimensión de [profundidad de la visita](/help/components/dimensions/visit-depth.md).
 * Análisis de página
    * Resumen de página: Toma el elemento de dimensión de página principal y muestra una vista de tendencias. También muestra los puntos de entrada, las páginas anteriores, los puntos de salida y las páginas siguientes para ese elemento de dimensión de página principal.
-   * Recargas: Utiliza la dimensión [Página](/help/components/dimensions/page.md) con la métrica [Recargas](/help/components/metrics/reloads.md) .
-   * Tiempo empleado en la página: Utiliza la dimensión [Tiempo empleado en la página - agrupado](/help/components/dimensions/time-spent-on-page.md) .
+   * Recargas: Utiliza la dimensión [Página](/help/components/dimensions/page.md) con la métrica [Recargas](/help/components/metrics/reloads.md).
+   * Tiempo empleado en la página: Utiliza la dimensión [Tiempo empleado en la página: agrupado](/help/components/dimensions/time-spent-on-page.md).
    * Clics hasta la página: Toma el elemento de dimensión de página principal y muestra la cantidad de clics que se necesitaron para llegar a esa página en una visita determinada.
 * Entradas y salidas
-   * Páginas de entrada: Utiliza la dimensión [Páginas](/help/components/dimensions/entry-dimensions.md) de entrada.
-   * Páginas de entrada originales: Utiliza la dimensión original [de la página](/help/components/dimensions/entry-dimensions.md) Entrada.
-   * Visitas a una sola página: Utiliza la dimensión [Página](/help/components/dimensions/page.md) con el segmento &#39;Visitas a una sola página&#39; proporcionado por Adobe aplicado.
-   * Páginas de salida: Utiliza la dimensión [Páginas](/help/components/dimensions/exit-dimensions.md) de salida.
+   * Páginas de entrada: Utiliza la dimensión [Páginas de entrada](/help/components/dimensions/entry-dimensions.md).
+   * Páginas de entrada originales: Utiliza la dimensión [Página de entrada original](/help/components/dimensions/entry-dimensions.md).
+   * Visitas a una sola página: Utiliza la dimensión [Página](/help/components/dimensions/page.md) con el segmento “Visitas a una sola página” de Adobe aplicado.
+   * Páginas de salida: Utiliza la dimensión [Páginas de salida](/help/components/dimensions/exit-dimensions.md).
 
 >[!NOTE]
 >
->En esta carpeta pueden aparecer otros informes. Son otras dimensiones, como las props, en las que tiene habilitadas [las](../../admin/admin/c-traffic-variables/traffic-var.md) rutas en la configuración del grupo de informes.
+>En esta carpeta pueden aparecer otros informes. Son otras dimensiones, como las propiedades (props), en las que tiene [habilitadas las rutas](../../admin/admin/c-traffic-variables/traffic-var.md) en la configuración del grupo de informes.
 
 ## Fuentes de tráfico
 
-Contiene un informe que proporciona una perspectiva de dónde provienen los visitantes antes de llegar al sitio. Estos informes no funcionan correctamente a menos que establezca correctamente los filtros [de URL](../../admin/admin/internal-url-filter-admin.md) internas en la configuración del grupo de informes.
+Contiene un informe que proporciona una perspectiva de desde dónde proceden los visitantes antes de llegar al sitio. Estos informes no funcionarán de forma adecuada a menos que establezca correctamente los [filtros de URL internas](../../admin/admin/internal-url-filter-admin.md) en la configuración del grupo de informes.
 
-* Palabras clave de búsqueda: todas: Utiliza la dimensión de palabra clave [de](/help/components/dimensions/search-keyword.md) búsqueda.
-* Palabras clave de búsqueda: paga: Utiliza la dimensión Palabra clave de [búsqueda: paga](/help/components/dimensions/search-keyword.md) .
-* Palabras clave de búsqueda: natural: Utiliza la palabra clave [Buscar: dimensión natural](/help/components/dimensions/search-keyword.md)
-* Motores de búsqueda: todos: Utiliza la dimensión [Motor](/help/components/dimensions/search-engine.md) de búsqueda.
-* Motores de búsqueda: pago: Utiliza la dimensión Motor [de búsqueda - pago](/help/components/dimensions/search-engine.md) .
-* Motores de búsqueda: natural: Utiliza la dimensión natural [del motor de](/help/components/dimensions/search-engine.md) búsqueda.
-* Clasificación de todas las páginas de búsqueda: Utiliza la dimensión Clasificación [de página de búsqueda](/help/components/dimensions/all-search-page-rank.md) Todas.
-* Dominios de referencia: Utiliza la dimensión de dominio [de](/help/components/dimensions/referring-domain.md) referencia
-* Dominios de referencia originales: Utiliza la dimensión de dominio [de referencia](/help/components/dimensions/original-referring-domain.md) original
-* Remitentes del reenvío: Utiliza la dimensión de [Remitente del reenvío](/help/components/dimensions/referrer.md) .
-* Tipos de Remitente del reenvío: Utiliza la dimensión de tipo [de](/help/components/dimensions/referrer-type.md) Remitente del reenvío.
+* Palabras clave de búsqueda - todas: Utiliza la dimensión [Palabra clave de búsqueda](/help/components/dimensions/search-keyword.md).
+* Palabras clave de búsqueda - de pago: Utiliza la dimensión [Palabra clave de búsqueda: de pago](/help/components/dimensions/search-keyword.md).
+* Palabras clave de búsqueda - natural: Utiliza la dimensión [Palabra clave de búsqueda: natural](/help/components/dimensions/search-keyword.md)
+* Motores de búsqueda - todos: Utiliza la dimensión [Motor de búsqueda](/help/components/dimensions/search-engine.md).
+* Motores de búsqueda - de pago: Utiliza la dimensión [Motor de búsqueda: de pago](/help/components/dimensions/search-engine.md).
+* Motores de búsqueda - natural: Utiliza la dimensión [Motor de búsqueda: natural](/help/components/dimensions/search-engine.md).
+* Clasificación de todas las páginas de búsqueda: Utiliza la dimensión [Todas las clasificaciones de páginas de búsqueda](/help/components/dimensions/all-search-page-rank.md).
+* Dominios de referencia: Utiliza la dimensión [Dominio de referencia](/help/components/dimensions/referring-domain.md)
+* Dominios de referencia originales: Utiliza la dimensión [Dominio de referencia original](/help/components/dimensions/original-referring-domain.md)
+* Remitentes del reenvío: Utiliza la dimensión [Remitente del reenvío](/help/components/dimensions/referrer.md).
+* Tipos de remitente del reenvío: Utiliza la dimensión [Tipo de remitente del reenvío](/help/components/dimensions/referrer-type.md).
 
 ## Campañas
 
-Contiene informes principalmente alrededor de la dimensión de código [de](/help/components/dimensions/tracking-code.md) seguimiento.
+Contiene informes principalmente alrededor de la dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md).
 
-* Canal de conversión de Campañas: Informa de pulsaciones, [cierres](/help/components/metrics/checkouts.md)de compra, [pedidos](/help/components/metrics/orders.md)e [ingresos](/help/components/metrics/revenue.md) en un informe de canal. La métrica Pulsaciones es similar a la métrica [Instancias](/help/components/metrics/instances.md) en el contexto de la dimensión Código [de](/help/components/dimensions/tracking-code.md) seguimiento. Se logra una visualización similar en Analysis Workspace mediante la visualización [Visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Código de seguimiento: Utiliza la dimensión de código [de](/help/components/dimensions/tracking-code.md) seguimiento.
+* Canal de conversión de Campañas: Informa de clics, [cierres de compra](/help/components/metrics/checkouts.md), [pedidos](/help/components/metrics/orders.md) e [ingresos](/help/components/metrics/revenue.md) en un informe de canal. La métrica de clics es similar a la métrica [Instancias](/help/components/metrics/instances.md) en el contexto de la dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). Se logra una visualización similar en Analysis Workspace mediante la [Visualización de abandonos](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Código de seguimiento: Utiliza la dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md).
 
 ## Productos
 
-Contiene informes principalmente alrededor de la dimensión [Producto](/help/components/dimensions/product.md) .
+Contiene informes principalmente sobre la dimensión [Producto](/help/components/dimensions/product.md).
 
-* Canal de conversión de productos: Informes vistas [](/help/components/metrics/product-views.md)del producto, adiciones [al](/help/components/metrics/cart-additions.md)carro de compras, cierres de [compra](/help/components/metrics/checkouts.md), [pedidos](/help/components/metrics/orders.md), [unidades](/help/components/metrics/units.md)[](/help/components/metrics/revenue.md) e ingresosen un informe de canal. Se logra una visualización similar en Analysis Workspace mediante la visualización [Visitas en el orden previsto](../analysis-workspace/visualizations/fallout/fallout-flow.md).
-* Productos: Utiliza la dimensión [Productos](/help/components/dimensions/product.md) .
-* Venta cruzada: Muestra los productos comúnmente vendidos juntos (retirados en Analysis Workspace).
-* Categorías: Utiliza la dimensión de [Categoría](/help/components/dimensions/category.md) .
+* Canal de conversión de productos: Crea informes sobre [Vistas del producto](/help/components/metrics/product-views.md), [Adiciones al carro de compras](/help/components/metrics/cart-additions.md), [Cierres de compras](/help/components/metrics/checkouts.md), [Pedidos](/help/components/metrics/orders.md), [Unidades](/help/components/metrics/units.md) e [Ingresos](/help/components/metrics/revenue.md) en un informe de canal. Se logra una visualización similar en Analysis Workspace mediante la [Visualización de abandonos](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Productos: Utiliza la dimensión [Productos](/help/components/dimensions/product.md).
+* Venta cruzada: Muestra los productos comúnmente vendidos juntos (se ha eliminado en Analysis Workspace).
+* Categorías: Utiliza la dimensión [Categoría](/help/components/dimensions/category.md).
 
 ## Retención de visitantes
 
 Contiene informes sobre visitantes que regresan al sitio.
 
-* Frecuencia de retorno: Utiliza la dimensión [Frecuencia](/help/components/dimensions/return-frequency.md) de retorno.
-* Visitas de retorno: Tendencia de la métrica [Visitas](/help/components/metrics/visits.md) con el paso del tiempo con el segmento &#39;Visitas de retorno&#39; proporcionado por Adobe aplicado.
-* Número de visita: Utiliza la dimensión de número [de](/help/components/dimensions/visit-number.md) visita.
+* Frecuencia de retorno: Utiliza la dimensión [Frecuencia de retorno](/help/components/dimensions/return-frequency.md).
+* Visitas de retorno: Obtiene la tendencia de la métrica [Visitas](/help/components/metrics/visits.md) a lo largo del tiempo con el segmento “Visitas recurrentes” de Adobe aplicado.
+* Número de visita: Utiliza la dimensión [Número de visita](/help/components/dimensions/visit-number.md).
 * Ciclo de ventas: Carpeta para informes relacionados con las compras.
-   * Lealtad del cliente: Utiliza la dimensión de lealtad [del](/help/components/dimensions/customer-loyalty.md) cliente.
-   * Días antes de la primera compra: Utiliza la dimensión [Días antes de la primera compra](/help/components/dimensions/days-before-first-purchase.md) .
-   * Días transcurridos desde la última compra: Utiliza la dimensión [Días desde la última compra](/help/components/dimensions/days-since-last-purchase.md) .
-   * Clientes únicos diarios: Enumera los visitantes [únicos](/help/components/metrics/unique-visitors.md) diarios con el paso del tiempo con el segmento &quot;compradores&quot; proporcionado por Adobe aplicado.
-   * Clientes únicos semanales: Tendencia de visitantes [únicos](/help/components/metrics/unique-visitors.md) semanales con el paso del tiempo con el segmento &#39;compradores&#39; proporcionado por Adobe aplicado.
-   * Clientes únicos mensuales: Tendencia de visitantes [únicos](/help/components/metrics/unique-visitors.md) mensuales a lo largo del tiempo con el segmento de &#39;compradores&#39; proporcionado por Adobe aplicado.
-   * Clientes únicos trimestrales: Tendencias de visitantes [únicos](/help/components/metrics/unique-visitors.md) trimestrales con el paso del tiempo con el segmento &#39;compradores&#39; proporcionado por Adobe aplicado. Los trimestres son de enero a marzo, de abril a junio, de julio a septiembre y de octubre a diciembre.
-   * Clientes únicos anuales: Tendencia de visitantes [únicos](/help/components/metrics/unique-visitors.md) anuales con el paso del tiempo con el segmento &#39;compradores&#39; proporcionado por Adobe aplicado.
+   * Lealtad del cliente: Utiliza la dimensión [Lealtad del cliente](/help/components/dimensions/customer-loyalty.md).
+   * Días antes de la primera compra: Utiliza la dimensión [Días antes de la primera compra](/help/components/dimensions/days-before-first-purchase.md).
+   * Días desde la última compra: Utiliza la dimensión [Días desde la última compra](/help/components/dimensions/days-since-last-purchase.md).
+   * Clientes únicos diarios: Obtiene la tendencia de [Visitantes únicos diarios](/help/components/metrics/unique-visitors.md) a lo largo del tiempo con el segmento “Compradores” de Adobe aplicado.
+   * Clientes únicos semanales: Obtiene la tendencia de [Visitantes únicos semanales](/help/components/metrics/unique-visitors.md) a lo largo del tiempo con el segmento “Compradores” de Adobe aplicado.
+   * Clientes únicos mensuales: Obtiene la tendencia de [Visitantes únicos mensuales](/help/components/metrics/unique-visitors.md) a lo largo del tiempo con el segmento “Compradores” de Adobe aplicado.
+   * Clientes únicos trimestrales: Obtiene la tendencia de [Visitantes únicos trimestrales](/help/components/metrics/unique-visitors.md) a lo largo del tiempo con el segmento “Compradores” de Adobe aplicado. Los trimestres son de enero a marzo, de abril a junio, de julio a septiembre y de octubre a diciembre.
+   * Clientes únicos anuales: Obtiene la tendencia de [Visitantes únicos anuales](/help/components/metrics/unique-visitors.md) a lo largo del tiempo con el segmento “Compradores” de Adobe aplicado.
 
 ## Perfil del visitante
 
 Contiene informes sobre quién visita el sitio.
 
 * Segmentación geográfica: Informes sobre de dónde provienen las visitas al sitio en todo el mundo.
-   * Países: Utiliza la dimensión [Países](/help/components/dimensions/countries.md) .
-   * Región: Utiliza la dimensión [Regiones](/help/components/dimensions/regions.md) .
-   * Ciudades: Utiliza la dimensión [Ciudades](/help/components/dimensions/cities.md) .
-   * Estados Unidos: Utiliza la dimensión Estados [](/help/components/dimensions/us-states.md) estadounidenses.
-   * DMA de EE. UU.: Utiliza la dimensión DMA [de](/help/components/dimensions/us-dma.md) EE.UU.
-* Idiomas: Utiliza la dimensión [Idioma](/help/components/dimensions/language.md) .
-* Husos horarios: Utiliza la dimensión de zona horaria (se retira en Analysis Workspace). Los elementos de dimensión son el desplazamiento GMT de la visita.
-* Dominio: Utiliza la dimensión [Dominio](/help/components/dimensions/domain.md) .
-* Dominio de nivel superior: Utiliza la dimensión de dominio de nivel superior (se retira en Analysis Workspace). Agrupa la dimensión de [dominios](/help/components/dimensions/domain.md) en categorías de nivel superior, generalmente por país del dominio.
+   * Países: Utiliza la dimensión [Países](/help/components/dimensions/countries.md).
+   * Región: Utiliza la dimensión [Regiones](/help/components/dimensions/regions.md).
+   * Ciudades: Utiliza la dimensión [Ciudades](/help/components/dimensions/cities.md).
+   * Estados Unidos: Utiliza la dimensión [Estados estadounidenses](/help/components/dimensions/us-states.md).
+   * DMA de EE. UU.: Utiliza la dimensión [DMA de EE. UU.](/help/components/dimensions/us-dma.md)
+* Idiomas: Utiliza la dimensión [Idioma](/help/components/dimensions/language.md).
+* Husos horarios: Utiliza la dimensión de zona horaria (se ha eliminado en Analysis Workspace). Los elementos de Dimension son el desplazamiento GMT de la visita.
+* Dominio: Utiliza la dimensión [Dominio](/help/components/dimensions/domain.md).
+* Dominio de nivel superior: Utiliza la dimensión de dominio de nivel superior (se ha eliminado en Analysis Workspace). Agrupa la dimensión [Dominios](/help/components/dimensions/domain.md) en categorías de nivel superior, generalmente por país del dominio.
 * Tecnología: Carpeta que contiene informes sobre lo que el visitante utilizó para acceder al sitio.
-   * Exploradores: Utiliza la dimensión [Exploradores](/help/components/dimensions/browser.md) .
-   * Tipo de explorador: Utiliza la dimensión de tipo [de](/help/components/dimensions/browser-type.md) navegador.
-   * Ancho del explorador: Utiliza la dimensión de anchura del [explorador agrupada](/help/components/dimensions/browser-width.md) .
-   * Altura del explorador: Utiliza la dimensión de altura del [explorador agrupada](/help/components/dimensions/browser-height.md) .
-   * Sistema operativo: Utiliza la dimensión [Sistemas](/help/components/dimensions/operating-systems.md) operativos.
-   * Tipo de sistema operativo: Utiliza la dimensión Tipos [de sistemas](/help/components/dimensions/operating-system-types.md) operativos.
-   * Profundidad de color del monitor: Utiliza la dimensión [Profundidad](/help/components/dimensions/color-depth.md) de color.
-   * Resolución del monitor: Utiliza la dimensión de resolución [del](/help/components/dimensions/monitor-resolution.md) monitor.
-   * Java: Utiliza la dimensión habilitada [para](/help/components/dimensions/java-enabled.md) Java.
-   * JavaScript: Utiliza la dimensión habilitada para JavaScript (retirada en Analysis Workspace). Los elementos de dimensión son &#39;Habilitado&#39;, &#39;Deshabilitado&#39; o &#39;Desconocido&#39;, según si el explorador tiene JavaScript habilitado.
-   * Versión de JavaScript: utiliza la dimensión de versión de JavaScript (se retira en Analysis Workspace). Los elementos de dimensión muestran la versión de JavaScript que utiliza el explorador.
-   * Cookies: Utiliza la dimensión de compatibilidad [con](/help/components/dimensions/cookie-support.md) cookies.
-   * Tipos de conexión: Utiliza la dimensión [de tipo](/help/components/dimensions/connection-type.md) de conexión.
-   * Operador de telefonía móvil: Utiliza la dimensión [Portadora](/help/components/dimensions/mobile-dimensions.md) móvil.
-* Estado del Visitante: Utiliza la dimensión Estado (jubilado en Analysis Workspace). Los elementos de dimensión se originan en la [`state`](../../implement/vars/page-vars/state.md) variable.
-* Código postal del Visitante: Utiliza la dimensión [Código](/help/components/dimensions/zip-code.md) postal.
+   * Exploradores: Utiliza la dimensión [Exploradores](/help/components/dimensions/browser.md).
+   * Tipo de explorador: Utiliza la dimensión [Tipo de navegador](/help/components/dimensions/browser-type.md).
+   * Anchura del explorador: Utiliza la dimensión [Anchura del explorador: agrupado](/help/components/dimensions/browser-width.md).
+   * Altura del explorador: Utiliza la dimensión [Altura del explorador: agrupado](/help/components/dimensions/browser-height.md).
+   * Sistema operativo: Utiliza la dimensión [Sistemas operativos](/help/components/dimensions/operating-systems.md).
+   * Tipo de sistema operativo: Utiliza la dimensión [Tipos de sistemas operativos](/help/components/dimensions/operating-system-types.md).
+   * Profundidad de color del monitor: Utiliza la dimensión [Profundidad de color](/help/components/dimensions/color-depth.md).
+   * Resolución del monitor: Utiliza la dimensión [Resolución del monitor](/help/components/dimensions/monitor-resolution.md).
+   * Java: Utiliza la dimensión [Java habilitado](/help/components/dimensions/java-enabled.md).
+   * JavaScript: Utiliza la dimensión JavaScript habilitado (se ha eliminado en Analysis Workspace). Los elementos de Dimension son &#39;Habilitado&#39;, &#39;Deshabilitado&#39; o &#39;Desconocido&#39;, según si el explorador tiene JavaScript habilitado.
+   * Versión de JavaScript: utiliza la dimensión Versión de JavaScript (se ha eliminado en Analysis Workspace). Los elementos de Dimension muestran la versión de JavaScript que utiliza el explorador.
+   * Cookies: Utiliza la dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md).
+   * Tipos de conexión: Utiliza la dimensión [Tipo de conexión](/help/components/dimensions/connection-type.md).
+   * Operador de telefonía móvil: Utiliza la dimensión [Operador de telefonía móvil](/help/components/dimensions/mobile-dimensions.md).
+* Estado del visitante: Utiliza la dimensión Estado (se ha eliminado en Analysis Workspace). Dimension items originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
+* Código postal del visitante: Utiliza la dimensión [Código postal](/help/components/dimensions/zip-code.md).
 
 ## Conversión personalizada
 
@@ -202,26 +202,26 @@ Contiene informes específicos de la implementación. Los informes de tráfico p
 
 ## Canales de marketing
 
-Contiene informes que involucran canales [de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+Contiene informes que involucran [Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-* Informe de descripción general de Canal: Informe personalizado específico de Informes y Analytics. Utiliza canales de marketing como elementos de dimensión, con métricas que utilizan atribución de primer o último toque.
-* canal de primer toque: Utiliza la dimensión de canal [de](/help/components/dimensions/first-touch-channel.md) primer toque.
-* Detalles del canal de primer toque: Utiliza la dimensión de detalles [del canal de](/help/components/dimensions/first-touch-detail.md) primer toque.
-* canal de último toque: Utiliza la dimensión de canal [de](/help/components/dimensions/last-touch-channel.md) último toque.
-* Detalles del canal de último toque: Utiliza la dimensión de detalle [del canal de](/help/components/dimensions/last-touch-detail.md) último toque.
+* Informe de descripción general de canal: Informe personalizado específico de Reports &amp; Analytics. Utiliza canales de marketing como elementos de dimensión, con métricas que utilizan atribución de primer o último toque.
+* Canal de primer contacto: Utiliza la dimensión [Canal de primer contacto](/help/components/dimensions/first-touch-channel.md).
+* Detalles del canal de primer contacto: Utiliza la dimensión [Detalles del canal de primer contacto](/help/components/dimensions/first-touch-detail.md).
+* Canal de último contacto: Utiliza la dimensión [Canal de último contacto](/help/components/dimensions/last-touch-channel.md).
+* Detalles del canal de último contacto: Utiliza la dimensión [Detalle del canal de último contacto](/help/components/dimensions/last-touch-detail.md).
 
 ## Marcadores
 
-Contiene los informes que ha marcado. See [Bookmarks](bookmarks.md) for more information.
+Contiene los informes que ha marcado. Consulte [Marcadores](bookmarks.md) para obtener más información.
 
 ## Tableros
 
-Contiene paneles que ha creado. See [Dashboards](dashboard.md) for more information.
+Contiene los paneles que ha creado. Consulte [Paneles](dashboard.md) para obtener más información.
 
-## Objetivos 
+## Objetivos
 
-Contiene destinatarios que ha creado. See [Targets](targets.md) for more information.
+Contiene los destinatarios que ha creado. Consulte [Destinatarios](targets.md) para obtener más información.
 
 >[!NOTE]
 >
->Si no encuentra el informe en esta página de ayuda, es posible que el administrador haya cambiado el nombre de las carpetas o las haya ajustado. See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>Si no encuentra el informe en esta página de ayuda, es posible que el administrador haya cambiado el nombre de las carpetas o las haya ajustado. Consulte [Personalización de menús](/help/admin/admin/customize-menus.md) en la guía de usuario de administración.
