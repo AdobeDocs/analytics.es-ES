@@ -4,9 +4,9 @@ subtopic: Bot rules
 title: Resumen sobre reglas de Bot
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Cree un archivo CSV con las columnas siguientes en el orden presentado:
 
 | Columna 1 | Columna 2 | Columna 3 | Columna 4 | Columna 5 |
 |--- |--- |---|---|---|
-| Nombre de Bot | IP Start | IP End | Regla Agent Match <br>(contiene o empeza con)</br> | Agent Exclude<br>(límite de 255 caracteres)</br> |
+| Nombre de Bot | IP Start | IP End | Regla Agent Match <br>(contiene o empieza con)</br> | Agent Exclude<br>(límite de 255 caracteres)</br> |
 
 Puede definir tres tipos de reglas de bots:
 
