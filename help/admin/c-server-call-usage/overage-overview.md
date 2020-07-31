@@ -2,9 +2,9 @@
 description: 'null'
 title: Información general sobre Uso de llamadas al servidor
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1038'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Las principales ventajas de Uso de llamadas al servidor son las siguientes:
 * **Visibilidad** del consumo de llamadas al servidor y los datos de asignación, incluyendo consumo móvil con respecto al límite contractual de uso de llamadas al servidor.
 * **Alertas** para avisarle del riesgo o de la presencia de un cargo adicional para que pueda tomar las medidas oportunas.
 
-Anteriormente, aunque podía acceder a los datos mensuales de consumo de llamadas al servidor en **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Facturación]**, estos solo se actualizaban 6 días después del cierre de la facturación para ese mes. Además, los datos no incluían el consumo móvil. Esta función también sustituirá el actual informe **[!UICONTROL Información de facturación]** en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]** .
+Anteriormente, aunque podía acceder a los datos mensuales de consumo de llamadas al servidor en **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Facturación]**, estos solo se actualizaban 6 días después del cierre de la facturación para ese mes. Además, los datos no incluían el consumo móvil. Esta función también sustituirá el actual informe **[!UICONTROL Información de facturación]** en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**.
 
 ## Requisitos previos {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
