@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 'Creación de un proyecto: Resumen'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ La lista de proyectos de Workspace contiene la siguiente información:
 
 | Configuración | Descripción |
 |---|---|
-| Proyecto  Nombre | Nombre proporcionado al proyecto. Puede hacer doble clic en el nombre para editarlo. |
+| Proyecto Nombre | Nombre proporcionado al proyecto. Puede hacer doble clic en el nombre para editarlo. |
 | Creado por | Nombre del propietario del proyecto. |
 | Última modificación | Fecha de la última modificación del proyecto. |
 | Etiquetas | Enumera cualquier etiqueta aplicada a un proyecto para una ordenación por categorías más sencilla. También puede etiquetar proyectos mientras los guarda. Puede ver las etiquetas de un proyecto en la página de aterrizaje de Workspace, en la columna [!UICONTROL Etiquetas]. |
