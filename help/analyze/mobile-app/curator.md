@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 78%
 
 # Guía del gestor de datos para paneles de Adobe Analytics
 
-La siguiente información instruye a los curadores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo que muestra esta información, consulte Generador de cuadros de mando de paneles de [Adobe Analytics](https://youtu.be/tnnl6hrcP94).
+La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo donde se muestra esta información, consulte [Generador de informes de valoración de paneles de Adobe Analytics](https://youtu.be/tnnl6hrcP94).
 
 ## Primeros pasos
 
-Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite a los usuarios acceder desde dispositivos móviles a cuadros de mandos intuitivos que se crean y comparten desde la interfaz de usuario de escritorio de Adobe Analytics. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. Los paneles de Analytics son compatibles con los sistemas operativos iOS y Android.
+Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos que se crean y comparten desde la interfaz de usuario de Adobe Analytics para escritorio. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. Puede adaptar los informes de valoración en función de cuáles sean los datos más importantes para usted. Los paneles de Analytics son compatibles con los sistemas operativos iOS y Android.
 
 ## Más información sobre esta guía
 
-Esta guía está pensada para ayudar a los curadores de datos de Adobe Analytics a configurar Scorecards para sus usuarios ejecutivos en paneles. Los gestores de datos pueden ser administradores de la organización o personas con otras funciones. Son responsables de la configuración de los informes de valoración de la aplicación, lo que permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes. Aunque los usuarios ejecutivos son los usuarios finales de los paneles de Analytics, esta guía ayudará a los gestores de datos a configurar la aplicación de forma eficaz para estos usuarios.
+Esta guía está diseñada para ayudar a los gestores de datos de Adobe Analytics a configurar informes de valoración para sus usuarios ejecutivos en los paneles. Los gestores de datos pueden ser administradores de la organización o personas con otras funciones. Son responsables de la configuración de los informes de valoración de la aplicación, lo que permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes. Aunque los usuarios ejecutivos son los usuarios finales de los paneles de Analytics, esta guía ayudará a los gestores de datos a configurar la aplicación de forma eficaz para estos usuarios.
 
 ## Glosario de términos
 
@@ -35,7 +35,7 @@ En la siguiente tabla se describen los términos para comprender la audiencia, l
 | Informe de valoración | Vista de paneles que contiene uno o más mosaicos |
 | Mosaico | Representación de una métrica en una vista del informe de valoración |
 | Desglose | Una vista secundaria a la que se puede acceder pulsando un mosaico del informe de valoración. Esta vista ofrece más información sobre la métrica que aparece en el mosaico y, opcionalmente, sobre dimensiones de desglose adicionales |
-| Intervalo de fecha | El intervalo de fecha principal para la creación de informes de los paneles |
+| Intervalo de fechas | El intervalo de fecha principal para la creación de informes de los paneles |
 | Intervalo de fecha de comparación | Intervalo de fecha que se compara con el intervalo de fecha principal |
 
  
@@ -100,7 +100,7 @@ Para implementar la plantilla del informe de valoración:
 
    ![Agregar dimensiones](assets/layer_dimensions.png)
 
-   También puede agregar una dimensión a todos los mosaicos soltándola en el lienzo Cuadro de mandos.
+   También puede agregar una dimensión a todos los mosaicos soltándola en el lienzo del informe de valoración.
 
    Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **Título** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
 
@@ -108,9 +108,9 @@ Para implementar la plantilla del informe de valoración:
 
    ![Breakdown_view](assets/break_view.png)
 
-   Cada dimensión agregada al mosaico se mostrará en una lista desplegable en la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
+   Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
 
-4. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus cuadros de mando](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) del mismo modo que lo haría en Adobe Analytics Workspace.
+4. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus informes de valoración](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) del mismo modo que lo haría en Adobe Analytics Workspace.
 
    ![Generar segmentos para filtrar](assets/segment_ui.png)
 
@@ -161,24 +161,24 @@ Para ayudar a los usuarios ejecutivos a acceder en la aplicación a los informes
 
 * El requisito mínimo del sistema operativo móvil de sus dispositivos sea iOS versión 10 o posterior, o Android versión 4.4 (KitKat) o posterior
 * Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics
-* Ha creado correctamente los cuadros de mandos móviles para ellos y los ha compartido con ellos
+* Haya creado y compartido correctamente los informes de valoración móviles de los usuarios
 * Los usuarios tengan acceso a Analysis Workspace y al grupo de informes en el que se basa el informe de valoración
 * Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
-### Ayudar a los usuarios ejecutivos con la aplicación
+### Ayudar a los usuarios ejecutivos de la aplicación
 
 Para ayudar a los usuarios ejecutivos:
 
-1. Ayudarles a descargar e instalar la aplicación. Siga los siguientes pasos para ampliar el acceso a los usuarios ejecutivos, en función de si utilizan un dispositivo iOS o Android.
+1. Ayúdeles a descargar e instalar la aplicación. Siga los siguientes pasos para ampliar el acceso a los usuarios ejecutivos, en función de si utilizan un dispositivo iOS o Android.
 
    **Para usuarios ejecutivos con iOS:**
 
-   * Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+   * Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **Paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
       [Vínculo de iOS](https://apple.co/2zXq0aN)
    **Para usuarios ejecutivos con Android:**
 
-   * Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+   * Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **Paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
       [Vínculo de Android](https://bit.ly/2LM38Oo)
    Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics; la aplicación es compatible con Adobe ID y con Enterprise/Federated ID.
@@ -193,7 +193,7 @@ Para ayudar a los usuarios ejecutivos:
 
    ![Seleccione una empresa](assets/accesscard.png)
 
-   Si el usuario ejecutivo inicia sesión y ve un mensaje que dice que no se ha compartido nada:
+   Si el usuario ejecutivo inicia sesión y ve un mensaje que indica que no se ha compartido nada:
 
    * Es posible que el usuario ejecutivo haya seleccionado una instancia incorrecta de Analytics
 
@@ -205,17 +205,17 @@ Para ayudar a los usuarios ejecutivos:
    * Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
 
-3. Explicar al usuario ejecutivo cómo aparecen los mosaicos en los cuadros de mandos que comparte (el primer cuadro de mandos a continuación se establece en modo oscuro; consulte **Preferencias** a continuación si cree que el usuario ejecutivo prefiere esta opción de visualización):
+3. Explique al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración que comparte (el primer informe de valoración a continuación se establece en modo oscuro; consulte **Preferencias** si cree que el usuario ejecutivo prefiere esta opción de visualización):
 
    ![Explicación de los mosaicos](assets/newexplain.png)
 
-   ![Ejemplo de cuadro de mandos](assets/intro_scorecard.png)
+   ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
 
    Información adicional sobre los mosaicos:
 
    * La granularidad de los minigráficos depende de la longitud del intervalo de fecha:
       * Si se selecciona un día se muestra una tendencia horaria
-      * Más de un día y menos de un año muestran una tendencia diaria
+      * Si se selecciona más de un día y menos de un año, se muestra una tendencia diaria
       * Si se selecciona un año o más se muestra una tendencia semanal
    * La fórmula de la variación del valor porcentual es el total de la métrica (intervalo de fecha actual) – el total de la métrica (intervalo de fecha de comparación) / el total de la métrica (intervalo de fecha de comparación).
    * Puede arrastrar la pantalla hacia abajo para actualizar el informe de valoración.
@@ -225,27 +225,27 @@ Para ayudar a los usuarios ejecutivos:
 
    ![Vista de desglose](assets/sparkline.png)
 
-   * Toque cualquier punto de un minigráfico para ver los datos asociados a ese punto en la línea.
+   * Pulse cualquier punto de un minigráfico para ver los datos asociados a ese punto en la línea.
 
-   * Se incluye una tabla para mostrar los datos de las dimensiones agregadas al mosaico. Puntee en la flecha hacia abajo para seleccionar dimensiones. Si no se ha agregado ninguna dimensión al mosaico, la tabla muestra los datos del gráfico.
+   * Se incluye una tabla para mostrar los datos de las dimensiones agregadas al mosaico. Pulse en la flecha hacia abajo para seleccionar dimensiones. Si no se ha agregado ninguna dimensión al mosaico, la tabla muestra los datos del gráfico.
 
 5. Cambiar los intervalos de fecha del informe de valoración:
 
    ![Cambio de fechas](assets/changedate.png)
 
-   * También puede cambiar los intervalos de fechas dentro de la vista Desglosar que se muestra arriba de la misma manera.
+   * También puede cambiar los intervalos de fechas del mismo modo en la vista Desglosar que se muestra arriba.
 
    * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **COMPARAR CON**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **Listo** en la parte superior derecha de la pantalla. El campo **Intervalos de fecha** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
 6. Para dejar comentarios sobre esta aplicación:
 
-   1. Toque el icono de configuración en la parte superior derecha de la pantalla de la aplicación.
-   2. On the **Settings** screen, tap the **Feedback** option.
+   1. Pulse el icono de configuración en la parte superior derecha de la pantalla de la aplicación.
+   2. En la pantalla **Configuración**, pulse la opción **Comentarios**.
    3. Pulse para ver las opciones que existen para dejar comentarios.
 
       ![Pantalla Configuración](assets/settings.png)
 
-7. Para cambiar las preferencias, toque la opción **Preferencias** que se muestra arriba. En las preferencias, puede activar el inicio de sesión biométrico o puede establecer la aplicación para el modo oscuro como se muestra a continuación:
+7. Para cambiar las preferencias, pulse la opción **Preferencias** que se muestra arriba. En las preferencias, puede activar el inicio de sesión biométrico o puede establecer el modo oscuro de la aplicación, tal y como se muestra a continuación:
 
    ![Modo oscuro](assets/darkmode.png)
 
