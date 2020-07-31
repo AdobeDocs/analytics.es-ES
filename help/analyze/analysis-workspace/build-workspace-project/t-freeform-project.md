@@ -1,18 +1,21 @@
 ---
-description: Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel de forma libre.
+description: Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel improvisada.
 keywords: Analysis Workspace
 title: Creación de un proyecto de Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+workflow-type: ht
+source-wordcount: '765'
+ht-degree: 100%
 
 ---
 
 
 # Creación de un proyecto de Workspace
 
-Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel de forma libre.
+Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel improvisada.
 
 Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz de Analysis Workspace y verá cómo se crea un proyecto. Para casos de uso específicos, consulte [Casos de uso de Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
 
@@ -20,9 +23,9 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
 1. Especifique el permiso del usuario para crear y depurar proyectos.
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [Grupos](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-groups/groups.html)).
+   Antes de crear o depurar un proyecto de Analysis Workspace, los administradores deben agregarlo a usted a un grupo con el permiso **[!UICONTROL Crear/Depurar proyectos en Analysis Workspace]** habilitado, o al grupo de usuarios **[!UICONTROL Acceso a todos los informes]**. (**[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > [Grupos](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-groups/groups.html)).
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
+1. En [!DNL Experience Cloud], haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -30,7 +33,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
    ![](assets/analysis-app-search.png)
 
-1. Haga clic en **[!UICONTROL Create New Project]**.
+1. Haga clic en **[!UICONTROL Crear nuevo proyecto]**.
 
    Puede elegir crear un proyecto a partir de
 
@@ -40,10 +43,11 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. Para crear un proyecto a partir de un proyecto en blanco, haga clic en **[!UICONTROL Proyecto en blanco]**.
 
-   * A continuación, haga clic en **[!UICONTROL Create]**, o bien
-   * Simplemente haga clic en **[!UICONTROL Enter]**.
+   * A continuación, haga clic en **[!UICONTROL Crear]**, o bien
+   * pulse **[!UICONTROL Intro]**.
+
    Aparece un proyecto en blanco, que muestra un panel improvisado y una visualización de tabla de datos.
 
    ![](assets/fa_project_new.png)
@@ -75,7 +79,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
  </tbody> 
 </table>
 
-1. Guarde el proyecto. Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
+1. Guarde el proyecto. Asigne un nombre al proyecto, proporcione una descripción (es opcional, pero resulta útil) y etiquete el proyecto (opcional). A continuación, haga clic en **[!UICONTROL Guardar proyecto]**.
 
    ![](assets/save_project.png)
 
@@ -113,7 +117,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Se pueden arrastrar solamente en el nivel de panel, pero puede crear segmentos en línea en la tabla de datos. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > Casos de uso de Analysis Workspace</a> para obtener más información. </p> </td> 
+   <td colname="col2"> <p>Se pueden arrastrar solamente en el nivel de panel, pero puede crear segmentos en línea en la tabla de datos. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Casos de uso de Analysis Workspace</a> para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de fechas y granularidades (violeta) </td> 
@@ -124,7 +128,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
 
 **[Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts, donuts, data tables, [cohort](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) tables, Venn diagrams, and so on. Puede arrastrar y colocar varias visualizaciones en su proyecto.
+El panel [!UICONTROL Visualizaciones] incluye gráficos, diagramas circulares, tablas de datos, tablas de [cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md), diagramas Venn y otros elementos estándar de Analytics. Puede arrastrar y colocar varias visualizaciones en su proyecto.
 
 ![Resultado ](assets/visualizations.png)
 
@@ -132,7 +136,7 @@ The [!UICONTROL Visualizations] panel provides standard Analytics graphs, charts
 
 1. Paso
 
-## Use el menú que se abre al hacer clic con el botón derecho para personalizar sus datos.{#concept_8117C300F21843B99F4E1B9AB7B11B6F}
+## Use el menú que se abre al hacer clic con el botón derecho para personalizar sus datos. {#concept_8117C300F21843B99F4E1B9AB7B11B6F}
 
 El menú del botón secundario le permite realizar las siguientes acciones, según en qué celda de una tabla haga clic con el botón secundario.
 
@@ -197,7 +201,7 @@ El menú del botón secundario le permite realizar las siguientes acciones, seg�
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Mostrar solamente las filas seleccionadas. </td> 
+   <td colname="col1"> Mostrar solamente las filas seleccionadas </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
