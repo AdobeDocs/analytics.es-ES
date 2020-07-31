@@ -1,9 +1,9 @@
 ---
 source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '650'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Herramientas de grupos de informes enumeradas en Permisos de perfil de producto
