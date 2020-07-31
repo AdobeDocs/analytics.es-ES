@@ -3,9 +3,9 @@ description: El reenvío del lado del servidor se diseñó para los clientes que
 solution: Audience Manager
 title: Resumen del reenvío del lado del servidor
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '850'
 ht-degree: 100%
 
