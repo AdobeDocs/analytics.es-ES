@@ -97,7 +97,7 @@ Esta visualización es similar a las tablas improvisada en Analysis Workspace. S
 
 >[!NOTE]
 >
->Los elementos de dimensión agregados a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
+>Los elementos de Dimension agregados a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
 
 ![Dimensiones principales](assets/top-dimension-item1.png)
 
