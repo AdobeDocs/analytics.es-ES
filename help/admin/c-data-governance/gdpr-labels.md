@@ -2,9 +2,9 @@
 description: 'null'
 title: Etiquetas de privacidad de datos para variables de Analytics
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3641'
 ht-degree: 100%
 
