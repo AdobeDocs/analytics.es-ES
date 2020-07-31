@@ -2,8 +2,11 @@
 description: 'null'
 title: Preguntas frecuentes del Conversor de proyectos
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '908'
+ht-degree: 100%
 
 ---
 
@@ -41,7 +44,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col1"> <p><b>P: ¿Cómo se convierte la configuración de la tabla?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A645A004FB094A1593439A6607FE9A6B"> 
-     <li id="li_033CA771F08A4BC3B0BC52CDCCA03FF4"><b>Número de filas mostradas</b>: Workspace está configurado para mostrar solo 10 filas (personalizable hasta 400 filas a la vez) mientras que Ad Hoc mostrará hasta 50 000 filas por página. Observe que los datos siguen en Workspace, pero configurados de forma predeterminada en 10 filas.  </li> 
+     <li id="li_033CA771F08A4BC3B0BC52CDCCA03FF4"><b>Número de filas mostradas</b>: Workspace está configurado para mostrar solo 10 filas (personalizable hasta 400 filas a la vez) mientras que Ad Hoc mostrará hasta 50 000 filas por página. Observe que los datos siguen en Workspace, pero configurados de forma predeterminada en 10 filas. </li> 
      <li id="li_A8B8890149334032A56D8D1C0F8691EA"><b>Búsqueda avanzada:</b> las opciones de búsqueda múltiple simultánea no son compatibles, pero una sola opción de búsqueda (como <span class="wintitle">Todas las palabras</span>, <span class="wintitle">La frase exacta</span>, <span class="wintitle">Cualquier palabra</span> o <span class="wintitle">Ninguna de las palabras</span>) se convertirá a Analysis Workspace. </li> 
     </ul> </td> 
   </tr> 
@@ -50,9 +53,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>R: Recuerde que los gráficos y diagramas se denominan “visualizaciones” en Workspace. </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>Configuración</b>: los ajustes de visualización “Cantidad de elementos” o “Cantidad de barras” no son compatibles con Workspace. </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Gráfico circular</b>: exportado como visualización de <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/donut.html"  >Donut</a>. Esta visualización en Workspace está limitada a 19 secciones. </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Gráfico de burbujas</b>: exportado como visualización de<a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  > Diagrama de puntos</a>. De forma predeterminada, el diagrama de puntos dibuja la primera métrica en el eje x y la segunda en el eje y. Si solo hay una métrica, el gráfico de burbujas se convertirá en visualizaciones de Línea. </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histograma</b>: admite una lógica de bloques diferente en Workspace frente a Ad Hoc Analysis. Así, se convierte en una visualización de <a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/bar.html"  >barras</a>. </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>Gráfico circular</b>: exportado como visualización de <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/donut.html"  >Donut</a>. Esta visualización en Workspace está limitada a 19 secciones. </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>Gráfico de burbujas</b>: exportado como visualización de<a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  > Diagrama de puntos</a>. De forma predeterminada, el diagrama de puntos dibuja la primera métrica en el eje x y la segunda en el eje y. Si solo hay una métrica, el gráfico de burbujas se convertirá en visualizaciones de Línea. </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>Histograma</b>: admite una lógica de bloques diferente en Workspace frente a Ad Hoc Analysis. Así, se convierte en una visualización de <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/bar.html"  >barras</a>. </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Diagrama de puntos</b>: en proyectos exportados en Analysis Workspace, el eje y se establece como primera columna, el eje x como segunda y el diámetro como tercera. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Tablas de visitas en el orden previsto</b>: para mostrar las tablas de abandono o continuación, haga clic con el botón derecho en el punto de comprobación y seleccione una opción de desglose. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Intervalos de fechas de nivel de informe de visitas en el orden previsto</b>: no se han aplicado los intervalos de fechas de informe personalizado a las visualizaciones de visitas en el orden previsto. </li> 
