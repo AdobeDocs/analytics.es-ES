@@ -24,7 +24,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
 | Proyecto | Workspace o proyecto |
-| Workspace | Panel |
+| Espacio de trabajo | Panel |
 | Información general de la tienda de aplicaciones | Tabla improvisada |
 | Gráficos | Visualización |
 | Jerarquía: Proyecto > Workspace > Informes | Jerarquía: Proyecto > Paneles > Tablas |
@@ -100,7 +100,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> en Analysis Workspace permite agregar muchos tipos nuevos de modelos de atribución a las Tablas improvisadas, Visualizaciones y Métricas calculadas. Incluye más de 10 modelos algorítmicos y basados en reglas. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vídeo: IQ de atribución en tablas improvisadas</a> </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> en Analysis Workspace permite agregar muchos tipos nuevos de modelos de atribución a las Tablas improvisadas, Visualizaciones y Métricas calculadas. Incluye más de 10 modelos algorítmicos y basados en reglas. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vídeo: Attribution IQ en tablas improvisadas</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
