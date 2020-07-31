@@ -2,9 +2,9 @@
 description: Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace.
 title: Resumen de la Detección de anomalías
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
