@@ -3,9 +3,9 @@ description: Se pueden excluir datos de las direcciones IP específicas, por eje
 title: Excluir por dirección IP
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Una dirección IP es una dirección de Internet. Todos los usuarios de Internet 
 
 Mediante las direcciones IP, se contabilizan las vistas de página y se identifican los visitantes de página únicos. Si se excluyen de la contabilización algunas direcciones IP, se puede evitar que Adobe realice un seguimiento de los visitantes frecuentes. Esta función permite al usuario y a sus compañeros visitar el sitio sin distorsionar los datos del tráfico. Pueden excluirse hasta 50 direcciones IP diferentes.
 
-Pueden utilizarse indicadores comodín (*) para excluir un intervalo de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
+Pueden utilizarse indicadores comodín (*) para excluir un intervalo de direcciones. Por ejemplo, `[!DNL 0.0.*.0]` excluiría todas las direcciones IP entre `[!DNL 0.0.0.0]` y `[!DNL 0.0.255.0]`. Puede excluir hasta 50 direcciones IP diferentes.
 
 ## Excluir por servidor de seguridad {#section_3E7BFB71ADD941D39F923DB9557AD9CD}
 
