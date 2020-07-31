@@ -2,9 +2,9 @@
 description: 'null'
 title: Resumen de flujos
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
