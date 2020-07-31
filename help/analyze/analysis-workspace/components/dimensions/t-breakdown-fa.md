@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 63%
+ht-degree: 93%
 
 ---
 
@@ -34,6 +34,6 @@ Desglose los datos ilimitadamente para sus necesidades específicas; genere cons
 
 ## Aplicar modelos de atribución a desgloses
 
-Cualquier desglose dentro de una tabla también puede tener aplicado cualquier modelo de atribución. Este modelo de atribución puede ser el mismo o diferente de la columna principal. Por ejemplo: puede analizar los pedidos lineales en la dimensión de Canales de marketing pero aplicar los pedidos con forma de U a los códigos de seguimiento específicos dentro de un Canal. To edit the attribution model applied to a breakdown, hover over the breakdown model and click **[!UICONTROL Edit]**:
+Cualquier desglose dentro de una tabla también puede tener aplicado cualquier modelo de atribución. Este modelo de atribución puede ser el mismo o diferente de la columna principal. Por ejemplo, puede analizar Pedidos lineales en su dimensión de Canales de marketing pero aplicar Pedidos en forma de U a los códigos de seguimiento específicos dentro de un Canal. Para editar el modelo de atribución aplicado a un desglose, simplemente sitúe el ratón encima del modelo de desglose y haga clic en **[!UICONTROL Editar]**:
 
-![Configuración de desglose](assets/breakdown_settings.png)
+![Configuración del desglose](assets/breakdown_settings.png)
