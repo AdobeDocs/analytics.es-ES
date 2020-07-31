@@ -2,9 +2,9 @@
 description: 'null'
 title: Prácticas recomendadas de etiquetado
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2689'
 ht-degree: 100%
 
