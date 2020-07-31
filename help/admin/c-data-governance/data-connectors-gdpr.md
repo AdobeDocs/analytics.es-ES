@@ -2,9 +2,9 @@
 description: En esta página se enumeran todas las variables de socio en Data Connectors (anteriormente conocido como Genesis) que podrían contener datos directa o indirectamente identificables de sus interesados.
 title: Privacidad de datos y Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
 
