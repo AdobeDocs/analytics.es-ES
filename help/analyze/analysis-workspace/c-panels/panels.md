@@ -1,31 +1,31 @@
 ---
 description: 'null'
 title: Resumen de paneles
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 
 # Resumen de paneles
 
-Un panel es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono que hay en la parte superior izquierda de Workspace. Los paneles son útiles si desea organizar sus proyectos por periodos de tiempo, unidades de negocio, geografía, etcétera. Estos seis tipos de paneles están disponibles en Espacio de trabajo de Análisis:
+Un panel es una colección de tablas y visualizaciones. Puede acceder a los paneles desde el icono que hay en la parte superior izquierda de Workspace. Los paneles son útiles si desea organizar sus proyectos por periodos de tiempo, unidades de negocio, geografía, etcétera. Hay disponibles seis tipos de paneles en Analysis Workspace:
 
 * [Panel en blanco](blank-panel.md)
-* [Panel de perspectivas rápidas](quickinsight.md)
-* [Panel](a4t-panel.md) de Analytics para Destinatario (próximamente)
+* [Panel de información rápida](quickinsight.md)
+* [Panel de Analytics for Target](a4t-panel.md) (próximamente)
 * [Panel de Attribution](attribution.md)
 * [Panel de forma libre](freeform-panel.md)
 * [panel de comparación de segmentos](c-segment-comparison/segment-comparison.md)
 
-Los paneles Perspectivas rápidas, Vacío y Forma libre son lugares buenos para realizar inicios en la análisis, mientras que Analytics para Destinatario, IQ de atribución y Comparación de segmentos se prestan a análisis más avanzados. Hay un `"+"` botón disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
+Los paneles Quick Insights, Vacío e Improvisado son lugares ideales para dar sus primeros pasos en el mundo de los análisis, mientras que Analytics for Target, Attribution IQ y Comparación de segmentos están pensados para análisis más avanzados. Hay un botón `"+"` disponible en los proyectos para que pueda agregar paneles en blanco en cualquier momento.
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+El panel inicial predeterminado es el improvisado, pero también puede convertir el [panel en blanco](/help/analyze/analysis-workspace/c-panels/blank-panel.md) en el panel predeterminado.
 
-## Filtros desplegables en los paneles  {#section_D2828EEDD52944528E87F470EAB581CF}
+## Filtros desplegables en los paneles {#section_D2828EEDD52944528E87F470EAB581CF}
 
 La zona de colocación del panel tiene capacidades de filtrado desplegables. Estos filtros le permiten interactuar con los datos del proyecto de manera controlada, de modo que pueda realizar análisis en profundidad, simplificar los proyectos y compartir perspectivas con otros.
 
@@ -48,7 +48,7 @@ Recuerde:
 
    ![](assets/create_dropdown.png)
 
-   De este modo, los componentes se convierten en una lista desplegable, no en un segmento. (También puede agregar segmentos; para ello, no mantenga pulsada la tecla ).
+   De este modo, los componentes se convierten en una lista desplegable, no en un segmento. (También puede agregar segmentos; para ello, no mantenga pulsada la tecla).
 
    ![](assets/dropdown.png)
 
