@@ -2,11 +2,11 @@
 description: Una descripción general del menú Informes en Reports & Analytics.
 title: Menú Informes
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Se puede navegar por los informes con una vista de columna jerárquica. Haga cli
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://docs.adobe.com/content/help/es-ES/analytics/components/variables/c-variables.html).
+Para conocer los detalles sobre los informes individuales, consulte [Descripciones de informes](https://docs.adobe.com/content/help/es-ES/analytics/components/dimensions/overview.html).
 
 ## Búsqueda de informes {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -42,7 +42,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
 
 >[!NOTE]
 >
-> También puede buscar en la lista de informes por propiedad, eVar y número de evento. En la barra de búsqueda, introduzca la propiedad, eVar o número de evento.
+>También puede buscar en la lista de informes por propiedad, eVar y número de evento. En la barra de búsqueda, introduzca la propiedad, eVar o número de evento.
 
 ## Descripción general de navegación {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -64,7 +64,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Segmentos <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">Muestra el carril de segmento que le permite agregar o administrar segmentos. También puede acceder a las interfaces de <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >Generador de segmentos</a> y <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Administrador de segmentos</a> desde el carril del segmento. </td> 
+   <td colname="col2">Muestra el carril de segmento que le permite agregar o administrar segmentos. También puede acceder a las interfaces de <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >Generador de segmentos</a> y <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >Administrador de segmentos</a> desde el carril del segmento. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Métricas <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -80,7 +80,7 @@ Presione la tecla de tabulador o la tecla de flecha abajo (↓) para navegar por
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">Mis favoritos</span> </td> 
-   <td colname="col2">Puede recuperar fácilmente los informes marcados como <span class="uicontrol">Se marcó como "Favorito"</span> dentro de esta área. Ya sea por usuario o por grupo de informes, muestra diez Favoritos y un vínculo <span class="uicontrol">Más...</span> si tiene más de diez favoritos. <p>Observe que puede cambiar el nombre de los informes pero no los tableros en Mis favoritos. </p> <p>Los favoritos son similares a los marcadores, pero no están almacenados en una carpeta ni se administran mediante el  <a href="/help/analyze/reports-analytics/bookmarks.md"  > Administrador de marcadores</a> tal como son los marcadores. </p> </td> 
+   <td colname="col2">Puede recuperar fácilmente los informes marcados como <span class="uicontrol">Se marcó como "Favorito"</span> dentro de esta área. Ya sea por usuario o por grupo de informes, muestra diez Favoritos y un vínculo <span class="uicontrol">Más...</span> si tiene más de diez favoritos. <p>Observe que puede cambiar el nombre de los informes pero no los tableros en Mis favoritos. </p> <p>Los favoritos son similares a los marcadores, pero no están almacenados en una carpeta ni se administran mediante el <a href="/help/analyze/reports-analytics/bookmarks.md"  > Administrador de marcadores</a> tal como son los marcadores. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> Vistos con mayor frecuencia</span> </td> 
