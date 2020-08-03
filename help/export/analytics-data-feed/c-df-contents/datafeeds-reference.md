@@ -6,7 +6,7 @@ title: Referencia de columnas de datos
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
+source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
 ht-degree: 96%
@@ -84,7 +84,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `geo_region` | Nombre del estado o región del que provino la visita basado en la dirección IP. Adobe se asocia con Digital Envoy para hacer coincidir las direcciones IP con los estados o regiones. | char(32) |
 | `geo_zip` | El código postal del que provino la visita basado en la dirección IP. Adobe se asocia con Digital Envoy para hacer coincidir las direcciones IP con los códigos postales. | varchar(16) |
 | `hier1 - hier5` | Se utiliza por variables de jerarquía. Contiene una lista delimitada de valores. El delimitador se selecciona en virtud de la configuración del grupo de informes. | varchar(255) |
-| `hit_source` | Indica la fuente de la que provino la visita. Se facturan los valores de Hit_sources 0, 1, 2 y 6. <br>1: Solicitud de imagen estándar sin marca de hora <br>2: Solicitud de imagen estándar con marca de hora <br>3: Carga del origen de datos activo con marcas de hora <br>4: No utilizado <br>5: Carga genérica de fuentes de datos <br>6: Carga completa del origen de datos de procesamiento <br>7: Carga del origen de datos TransactionID <br>8: Ya no se utiliza; Versiones anteriores de fuentes de datos de Adobe Advertising Cloud <br>9: Ya no se utiliza; Métricas de resumen de Adobe Social <br>10: Reenvío de Audience Manager de servidor utilizado | tinyint sin firmar |
+| `hit_source` | Indica la fuente de la que provino la visita. Se facturan las fuentes de visitas 1, 2 y 6. <br>1: Solicitud de imagen estándar sin marca de hora <br>2: Solicitud de imagen estándar con marca de hora <br>3: Carga del origen de datos activo con marcas de hora <br>4: No utilizado <br>5: Carga genérica de fuentes de datos <br>6: Carga completa del origen de datos de procesamiento <br>7: Carga del origen de datos TransactionID <br>8: Ya no se utiliza; Versiones anteriores de fuentes de datos de Adobe Advertising Cloud <br>9: Ya no se utiliza; Métricas de resumen de Adobe Social <br>10: Reenvío de Audience Manager de servidor utilizado | tinyint sin firmar |
 | `hit_time_gmt` | La marca de tiempo de los servidores de recopilación de datos de visitas de Adobe que recibieron la visita, basada en la hora Unix. | int |
 | `hitid_high` | Se utiliza en combinación con hitid_low para identificar una visita de forma exclusiva. | bigint sin firmar |
 | `hitid_low` | Se utiliza en combinación con hitid_high para identificar una visita de forma exclusiva. | bigint sin firmar |
