@@ -6,10 +6,10 @@ title: Referencia de columnas de datos
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 97%
+source-wordcount: '3674'
+ht-degree: 96%
 
 ---
 
@@ -84,7 +84,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `geo_region` | Nombre del estado o región del que provino la visita basado en la dirección IP. Adobe se asocia con Digital Envoy para hacer coincidir las direcciones IP con los estados o regiones. | char(32) |
 | `geo_zip` | El código postal del que provino la visita basado en la dirección IP. Adobe se asocia con Digital Envoy para hacer coincidir las direcciones IP con los códigos postales. | varchar(16) |
 | `hier1 - hier5` | Se utiliza por variables de jerarquía. Contiene una lista delimitada de valores. El delimitador se selecciona en virtud de la configuración del grupo de informes. | varchar(255) |
-| `hit_source` | Indica la fuente de la que provino la visita. <br>1: Solicitud de imagen estándar sin marca de tiempo <br>2: Solicitud de imagen estándar con marca de tiempo <br>3: Carga del origen de datos activo con marcas de tiempo<br>4: No utilizado <br>5: Carga genérica del origen de datos <br>6: Carga completa del origen de datos de procesamiento <br>7: Carga del origen de datos TransactionID <br>8: Ya no se utiliza; Versiones anteriores de los orígenes de datos de Adobe Advertising Cloud <br>9: Ya no se utiliza; Métricas de resumen de Adobe Social <br>10: Reenvío de Audience Manager de servidor utilizado | tinyint sin firmar |
+| `hit_source` | Indica la fuente de la que provino la visita. Se facturan los valores de Hit_sources 0, 1, 2 y 6. <br>1: Solicitud de imagen estándar sin marca de hora <br>2: Solicitud de imagen estándar con marca de hora <br>3: Carga del origen de datos activo con marcas de hora <br>4: No utilizado <br>5: Carga genérica de fuentes de datos <br>6: Carga completa del origen de datos de procesamiento <br>7: Carga del origen de datos TransactionID <br>8: Ya no se utiliza; Versiones anteriores de fuentes de datos de Adobe Advertising Cloud <br>9: Ya no se utiliza; Métricas de resumen de Adobe Social <br>10: Reenvío de Audience Manager de servidor utilizado | tinyint sin firmar |
 | `hit_time_gmt` | La marca de tiempo de los servidores de recopilación de datos de visitas de Adobe que recibieron la visita, basada en la hora Unix. | int |
 | `hitid_high` | Se utiliza en combinación con hitid_low para identificar una visita de forma exclusiva. | bigint sin firmar |
 | `hitid_low` | Se utiliza en combinación con hitid_high para identificar una visita de forma exclusiva. | bigint sin firmar |
@@ -267,7 +267,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `visid_low` | Se utiliza en combinación con visid_high para identificar un visitante de forma única. | bigint sin firmar |
 | `visid_new` | Indicador que identifica si la visita contiene una ID de visitante generada recientemente. | char(1) |
 | `visid_timestamp` | Si la ID de visitante se ha generado recientemente, proporciona la marca de tiempo (en Tiempo Unix) del momento en que se generó la ID de visitante. | int |
-| `visid_type` | No para uso externo; utilizado internamente por Adobe para procesar optimizaciones. ID numérico que representa el método utilizado para identificar el visitante.<br>0: VisitorID personalizado o Desconocido/no aplicable<br>1: IP y reserva del agente de usuario <br>2: Encabezado de suscriptor móvil HTTP <br>3: Valor de cookie heredado (s_vi) <br>4: Valor de cookie de reserva (s_fid) <br>5: Servicio de identidad | tinyint sin firmar |
+| `visid_type` | No para uso externo; utilizado internamente por Adobe para las optimizaciones de procesamiento. ID numérico que representa el método utilizado para identificar el visitante.<br>0: VisitorID personalizado o Desconocido/no aplicable<br>1: IP y reserva del agente de usuario <br>2: Encabezado de suscriptor móvil HTTP <br>3: Valor de cookie heredado (s_vi) <br>4: Valor de cookie de reserva (s_fid) <br>5: Servicio de identidad | tinyint sin firmar |
 | `visit_keywords` | Variable utilizada en la dimensión Palabra clave de búsqueda. Esta columna utiliza un límite de caracteres no estándar para dar cabida a la lógica back-end utilizada por Adobe. | varchar(244) |
 | `visit_num` | Variable utilizada en la dimensión Número de visitas. Empieza en 1 y aumenta cada vez que se inicia una nueva visita por visitante. | int sin firmar |
 | `visit_page_num` | Variable utilizada en la dimensión Profundidad de visita. Aumenta de uno en uno con cada visita que genera el usuario. Restablece cada visita. | int sin firmar |
