@@ -2,9 +2,9 @@
 description: Con el seguimiento se determina cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
 title: 'Seguimiento: Modo manual y modo automático'
 translation-type: tm+mt
-source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '594'
 ht-degree: 90%
 
 ---
@@ -31,7 +31,7 @@ Tenga en cuenta que para configurar una cuenta de motor de búsqueda en “Modo 
 >
 >Obtenga más información sobre si debe agregar el `s_kwcid` parámetro a la directiva [de seguridad](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)de contenido.
 
-## Modo de seguimiento manual  {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## Modo de seguimiento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
 En el modo manual, debe especificar cómo el proceso de integración de datos de Advertising Analytics debe tratar los datos del motor de búsqueda.
 
@@ -101,7 +101,7 @@ Ejemplos de códigos de seguimiento en diversos formatos de sufijos finales de U
 **{lpurl}**
 
 ```
-{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}`
+{lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
 **`{lpurl}`con parámetro de URL adicional **
@@ -111,10 +111,10 @@ Ejemplos de códigos de seguimiento en diversos formatos de sufijos finales de U
 s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**Terceros (DoubleClick) `{unescapedlpurl}**
+**Terceros (DoubleClick)`{unescapedlpurl}`**
 
-```https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
-
+```
+https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={unescapedlpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
 **Terceros (DoubleClick)`{lpurl}`**
