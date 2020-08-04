@@ -1,10 +1,10 @@
 ---
 description: 'null'
 title: Resumen de paneles
-translation-type: ht
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: ht
-source-wordcount: '481'
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Un panel es una colección de tablas y visualizaciones. Puede acceder a los pane
 
 * [Panel en blanco](blank-panel.md)
 * [Panel de información rápida](quickinsight.md)
-* [Panel de Analytics for Target](a4t-panel.md) (próximamente)
+* [Panel de Analytics for Target](a4t-panel.md)
 * [Panel de Attribution](attribution.md)
 * [Panel de forma libre](freeform-panel.md)
 * [panel de comparación de segmentos](c-segment-comparison/segment-comparison.md)
