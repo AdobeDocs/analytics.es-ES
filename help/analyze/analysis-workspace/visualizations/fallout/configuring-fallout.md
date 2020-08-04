@@ -2,8 +2,11 @@
 description: 'null'
 title: Configurar una visualización de abandonos
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ No existe limitación en el número de pasos que puede añadir o el número de d
 
 Puede crear rutas para los eVars, incluidos los eVars de comercialización y [listVars](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html) (variables que pueden tener múltiples valores por acción, como productos, listVars, eVars de comercialización y propiedades de lista). Por ejemplo, supongamos que alguien está mirando zapatos y camisetas en una página y en la siguiente mira camisetas y calcetines. El siguiente informe de flujo de productos desde zapatos será camiseta y calcetines, NO camiseta.
 
-1. Arrastre una visualización [!UICONTROL Fallout] de la lista desplegable Visualizaciones a una [!UICONTROL Freeform Table].
+1. Arrastre una visualización de [!UICONTROL visitas en el orden previsto] de la lista desplegable Visualizaciones a una [!UICONTROL tabla improvisada].
 
-1. Arrastre la dimensión Página en la tabla improvisada y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Add TouchPoint]** como el primer punto de contacto.
+1. Arrastre la dimensión Página en la tabla improvisada y, desde allí, arrastre una página (en este caso, Home - JJEsquire) al campo **[!UICONTROL Agregar punto de contacto]** como el primer punto de contacto.
 
    ![](assets/fallout1.png)
 
@@ -47,7 +50,7 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 <table id="table_A91D99D9364B41929CC5A5BC907E8985"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Ruta eventual </p> <p>(Valor predeterminado) </p> </td> 
+   <td colname="col1"> <p>Ruta eventual </p> <p>(Predeterminado) </p> </td> 
    <td colname="col2"> <p>Se cuentan los visitantes que “eventualmente” se dirijan a la siguiente página de la ruta, pero no necesariamente al siguiente elemento. </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +65,6 @@ Puede crear rutas para los eVars, incluidos los eVars de comercialización y [li
 | Configuración | Descripción |
 |--- |--- |
 | Contenedor de visitas en el orden previsto <ul><li>Visita</li><li>Visitante.</li></ul> | Permite alternar entre visitas y visitantes para analizar las rutas seguidas por los visitantes. La opción predeterminada es Visitante.  Estos ajustes le permiten comprender el compromiso del visitante a nivel de visitante (a lo largo de visitas) o restringir el análisis a una única visita. |
-| Mostrar &quot;Todos los visitantes&quot; como primer punto de contacto | Puede deseleccionar esta opción si no desea que “Todos los visitantes” sea el primer punto de contacto. |
 
 Al hacer **clic con el botón derecho en un punto de contacto**, se muestran las siguientes opciones:
 
