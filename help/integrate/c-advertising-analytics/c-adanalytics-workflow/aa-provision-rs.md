@@ -3,7 +3,7 @@ description: nulo
 title: Activación de un grupo de informes para Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
@@ -23,7 +23,9 @@ Para poder consultar los datos de búsqueda de Advertising Analytics en Analytic
 
    ![Creación de informes](assets/aa_reporting.png)
 
-   >[!IMPORTANT] El ID de AMO hace referencia a la variable de Adobe Advertising Cloud en que se van a insertar los datos de búsqueda.
+   >[!IMPORTANT]
+   >
+   >El ID de AMO hace referencia a la variable de Adobe Advertising Cloud en que se van a insertar los datos de búsqueda.
 
 1. Establezca las variables de asignación y caducidad que desea que utilice la variable de ID de AMO. Las variables de conversión (eVars) permiten que Adobe Analytics atribuya eventos de éxito a valores específicos de variables. En ocasiones, las variables encuentran más de un valor antes de visitar un evento de éxito. Para estos casos, la asignación determina qué valor de variable recibe crédito por el evento.
 
