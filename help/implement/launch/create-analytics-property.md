@@ -2,10 +2,10 @@
 title: Creación de una propiedad de Analytics en Launch
 description: Cree un espacio para personalizar el modo en que se recopilan los datos con Adobe Experience Platform Launch.
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
@@ -36,18 +36,21 @@ Las propiedades son contenedores generales que se utilizan para administrar etiq
 Los elementos de datos son referencias a partes específicas del sitio para recopilar valores de variables.
 
 1. Vaya a [launch.adobe.com](https://launch.adobe.com) e inicie sesión si se le solicita.
-2. Haga clic en la propiedad de Launch que desee implementar en el sitio.
-3. Haga clic en la pestaña Elementos de datos y, a continuación, haga clic en Crear nuevo elemento de datos.
-4. Asigne al elemento de datos la siguiente configuración:
+1. Haga clic en la propiedad de Launch que desee implementar en el sitio.
+1. Haga clic en la pestaña Elementos de datos y, a continuación, haga clic en Crear nuevo elemento de datos.
+1. Asigne al elemento de datos la siguiente configuración:
+
    * Nombre: Nombre de la página
    * Extensión: Core
    * Tipo de elemento de datos: Variable JavaScript
    * Ruta a la variable: `window.document.title`
 
-      >[!NOTE] Nota: Este es un valor de ejemplo para ayudarle a empezar. Si su organización define un valor más adecuado para el nombre de la página, como un valor de capa de datos, puede utilizarlo aquí.
+      >[!NOTE]
+      >
+      >Éste es un valor de ejemplo para ayudarle a empezar. Si su organización define un valor más adecuado para el nombre de la página, como un valor de capa de datos, puede utilizarlo aquí.
    * Se ha seleccionado la opción Borrar texto
    * Duración: Vista de página
-5. Haga clic en Guardar.
+1. Haga clic en Guardar.
 
 ## Creación de reglas para Adobe Analytics
 
