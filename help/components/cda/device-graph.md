@@ -2,7 +2,7 @@
 title: Gráfico de dispositivos
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante el gráfico del dispositivo.
 translation-type: tm+mt
-source-git-commit: eb2bee26dd58dcff13b4ddf41c6f6ab337d8d374
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 41%
@@ -12,7 +12,7 @@ ht-degree: 41%
 
 # Gráfico de dispositivos
 
-Analytics entre dispositivos proporciona dos métodos distintos para unir datos. Este método utiliza el gráfico de cooperación de servicio de identidad de Adobe Experience Platform o el gráfico privado para unir los datos. CDA se comunica regularmente con el gráfico del dispositivo para vincular dispositivos.
+Analytics entre dispositivos proporciona dos métodos distintos para unir datos. Este método utiliza Adobe Experience Platform Identity Service Co-op Graph o Private Graph para unir datos. CDA se comunica regularmente con el gráfico del dispositivo para vincular dispositivos.
 
 ## Diferencias entre gráficos de cooperación y gráficos privados
 
@@ -23,9 +23,11 @@ Adobe oferta dos tipos de gráficos de dispositivos como parte del servicio de I
 
 ## Requisitos previos específicos del gráfico de dispositivos
 
-Si desea implementar Analytics entre dispositivos mediante el método de gráfico de dispositivos, se requiere lo siguiente. Trabaje con equipos de su organización y con el administrador de cuentas de Adobe para asegurarse de que cumple todos los requisitos siguientes.
+Si desea implementar Análisis entre dispositivos mediante el método de gráfico de dispositivos, es necesario lo siguiente. Trabaje con equipos de su organización y con el administrador de cuentas de Adobe para asegurarse de que cumple todos los requisitos siguientes.
 
->[!IMPORTANT] Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
+>[!IMPORTANT]
+>
+>Si no se cumplen todos los requisitos previos, es posible que no se pueda habilitar el análisis entre dispositivos o que se obtengan resultados deficientes al vincular datos.
 
 * Todos los requisitos previos enumerados en la página [de](overview.md)información general.
 * Su organización debe utilizar el gráfico colaborativo o el gráfico privado de Adobe Experience Platform Identity Service. Consulte la página [principal](https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html) en la guía del usuario de Device Co-op.
