@@ -3,7 +3,7 @@ description: 'null'
 title: Ver uso de llamadas al servidor actual
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -28,7 +28,9 @@ El tablero de Uso actual:
 
 * Compara el uso de su periodo actual con el del año pasado (línea azul). Obviamente, la línea azul solo aparecerá si su empresa tiene datos de uso de llamadas al servidor del año anterior.
 
-   >[!NOTE] Si desea ver el uso de un período de tiempo anterior, debe ir a la pestaña [Uso del grupo de informes](/help/admin/c-server-call-usage/report-suite-usage.md) y descargar los datos de uso de un período anterior.
+   >[!NOTE]
+   >
+   >Si desea ver el uso de un período de tiempo anterior, debe ir a la pestaña [Uso del grupo de informes](/help/admin/c-server-call-usage/report-suite-usage.md) y descargar los datos de uso de un período anterior.
 
 * Muestra el porcentaje de llamadas utilizado (en porcentajes y datos sin procesar) y el porcentaje del periodo de uso empleado (en porcentajes y datos sin procesar).
 * De forma predeterminada, se actualiza a diario, con una latencia de procesamiento de 5 días.
