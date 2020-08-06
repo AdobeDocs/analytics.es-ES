@@ -1,9 +1,9 @@
 ---
 title: Requisitos del sistema
 description: Requisitos del sistema para utilizar Adobe Analytics.
-translation-type: ht
-source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 100%
 
@@ -23,7 +23,9 @@ La mayoría de las soluciones de Adobe Analytics, incluido Analysis Workspace, s
 * Mozilla Firefox
 * Apple Safari
 
->[!NOTE] Adobe Analytics dejó de ser compatible con Internet Explorer 11 el 13 de noviembre de 2018.
+>[!NOTE]
+>
+>Adobe Analytics dejó de ser compatible con Internet Explorer 11 el 13 de noviembre de 2018.
 
 ## Requisitos del sistema para soluciones no basadas en un explorador
 
