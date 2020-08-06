@@ -5,7 +5,7 @@ title: Desglose de dimensiones
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 93%
@@ -26,7 +26,9 @@ Desglose los datos ilimitadamente para sus necesidades específicas; genere cons
 
    Puede desglosar las métricas por elementos de dimensión o segmentos de audiencia en los períodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
 
-   >[!NOTE] El número de desgloses de la tabla está limitado a 200 desgloses. Este límite aumentará para la exportación de desgloses.
+   >[!NOTE]
+   >
+   >El número de desgloses de la tabla está limitado a 200 desgloses. Este límite aumentará para la exportación de desgloses.
 
 [Dimensiones en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:54)
 
