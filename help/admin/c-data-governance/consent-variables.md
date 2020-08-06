@@ -3,7 +3,7 @@ description: Variables para informes de privacidad en Privacidad de datos.
 title: Variables de informes de privacidad
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
@@ -45,7 +45,9 @@ Cada grupo de informes se puede configurar de esta forma:
 
 1. Haga clic en el botón **[!UICONTROL Activar informes de privacidad de datos.]**
 
-   >[!NOTE] Una vez estas variables estén activadas, no se pueden desactivar.
+   >[!NOTE]
+   >
+   >Una vez estas variables estén activadas, no se pueden desactivar.
 
    ![](assets/rsm-privacy-enable.png)
 
