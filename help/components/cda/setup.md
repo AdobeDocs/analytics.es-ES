@@ -1,8 +1,8 @@
 ---
-title: Configuración de Analytics entre dispositivos
+title: Configuración de análisis entre dispositivos
 description: Configure un grupo de informes virtuales para habilitar CDA.
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 91%
@@ -10,11 +10,13 @@ ht-degree: 91%
 ---
 
 
-# Configuración de Analytics entre dispositivos
+# Configuración de análisis entre dispositivos
 
 Una vez cumplidos todos los requisitos previos, siga los pasos siguientes para habilitar el análisis entre dispositivos. Debe pertenecer a un grupo de administradores de perfil de producto o tener privilegios de administrador en Adobe Analytics para seguir estos pasos.
 
->[!IMPORTANT] Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte la página [de](overview.md) información general y el método de identificación deseado (vinculación[basada en](field-based-stitching.md) campo o gráfico [de](device-graph.md)dispositivo, respectivamente) para conocer los requisitos previos y las limitaciones.
+>[!IMPORTANT]
+>
+>Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte la página [de](overview.md) información general y el método de identificación deseado (vinculación[basada en](field-based-stitching.md) campo o gráfico [de](device-graph.md)dispositivo, respectivamente) para conocer los requisitos previos y las limitaciones.
 
 ## Elija el grupo de informes entre dispositivos que se habilitará para CDA
 
