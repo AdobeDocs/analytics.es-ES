@@ -1,28 +1,60 @@
 ---
-description: Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega.
+description: Envíe un proyecto de Analysis Workspace por correo electrónico o programe su envío.
 keywords: Analysis Workspace
-title: 'Envío de archivo: Programar un proyecto para su entrega'
+title: Proyectos programados
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 04b5c7af0ac0052d059bea86cae13aa7fb05fff3
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 8%
 
 ---
 
 
-# Envío de archivo: Programar un proyecto para su entrega
+# Proyectos programados
 
-Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega.
+En el menú **** Compartir espacio de trabajo, puede enviar proyectos de Analysis Workspace por correo electrónico a destinatarios seleccionados. Los archivos se pueden enviar en formato CSV o PDF.
 
-1. [Cree un proyecto de Analysis Workspace](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) y guárdelo.
-1. Haga clic **[!UICONTROL Share]** > **[!UICONTROL Send File On Schedule]**.
+## Enviar archivo ahora
 
-   ![Resultado](assets/send-file.png)
+Para enviar un archivo inmediatamente a los destinatarios por correo electrónico:
 
-1. On the [!UICONTROL Send File] page, specify the file type (CSV or PDF).
+1. Click **Share > Send File Now**.
+1. Especifique el tipo de archivo (CSV o PDF).
+1. (Opcional) Añada una descripción que se incluirá en el correo electrónico para explicar el archivo que se va a recibir.
+1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
+1. Haga clic en **Enviar ahora**.
+1. (Opcional) Haga clic en **Mostrar opciones** de programación para especificar una programación de envíos.
 
-   ![Resultado](assets/send-file-pop-up.png)
+## Enviar archivo según lo programado
 
-1. Add recipients email addresses or names, the click **[!UICONTROL Send Now]**.
-1. (Opcional) Haga clic en **[!UICONTROL Show Scheduling Options]** para especificar una programación de envíos y, a continuación, haga clic en **[!UICONTROL Send on Schedule]**.
-1. Manage scheduled projects in **[!UICONTROL Components]** > [Scheduled Projects](/help/analyze/analysis-workspace/curate-share/schedule-projects.md).
+Para enviar un archivo de forma periódica a los destinatarios por correo electrónico:
+
+1. Click **Share > Send File on Schedule**.
+1. Especifique el tipo de archivo (CSV o PDF).
+1. (Opcional) Añada una descripción que se incluirá en el correo electrónico para explicar el archivo que se va a recibir.
+1. Añadir destinatarios o grupos. También se pueden introducir direcciones de correo electrónico.
+1. Especifique el rango en el que debe entregarse la programación mediante la modificación de Inicio en y Finalización en las entradas. La fecha de finalización debe ser de un año a partir del día en que se crea o modifica la programación.
+1. Especifique la frecuencia de envío. Cada frecuencia permite diferentes personalizaciones.
+1. Haga clic en **Enviar según lo programado**.
+
+## Administrador de proyectos programados
+
+Los proyectos programados de Analysis Workspace se pueden administrar en **Analytics > Componentes > Proyectos** programados.
+
+En el Administrador de proyectos programados, puede editar y eliminar programaciones de proyectos recurrentes. Busque una programación en la barra de búsqueda o utilizando las opciones de filtro en el carril izquierdo. Puede filtrar por etiqueta, programaciones aprobadas, propietarios y más.
+
+Las siguientes son acciones comunes en el administrador de proyectos programados:
+
+| Acción | Descripción |
+|---|---|
+| **Editar programación** | Haga clic en el título de la programación para actualizar su configuración de envío. |
+| **Eliminar programación** | Seleccione el proyecto programado en la lista y, a continuación, haga clic en Eliminar en el menú. Esto eliminará la programación seleccionada para el proyecto; el proyecto en sí no se eliminará. |
+| **Añadir etiquetas** | Seleccione el proyecto programado en la lista y, a continuación, elija &quot;Etiqueta&quot; o &quot;Aprobar&quot; para organizar las programaciones y facilitar su búsqueda. |
+| **Programas fallidos de vista** | Vaya al carril izquierdo > Otros filtros > Error al ver las programaciones con errores. |
+| **Programaciones caducadas de vista** | Vaya al carril izquierdo > Otros filtros > Caducado para ver las programaciones que han caducado. Haga clic en el título de la programación para configurar una nueva programación de entrega. |
+| **ID de programa de vista** | Vaya a las opciones de columna en la parte superior derecha y agregue la columna ID de programación a la tabla. El ID programado suele ser útil para la depuración. |
+
+El Administrador de programación de proyectos muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados. La propiedad programada del proyecto se puede **transferir** a un nuevo usuario en **Administración > Usuarios y recursos de Analytics > Transferir recursos**.
