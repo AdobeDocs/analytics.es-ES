@@ -2,10 +2,10 @@
 description: Puede descargar proyectos guardados y sin guardar en los formatos PDF y CSV.
 title: Descarga de archivos PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-translation-type: ht
-source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
-workflow-type: ht
-source-wordcount: '363'
+translation-type: tm+mt
+source-git-commit: 3660806bc25b2a234c4f694cf5e661f4e23d5cac
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,6 @@ El 11 de abril de 2019, se aplicaron varios cambios en las **[!UICONTROL descar
 * Si un número no es válido, se mostrará una celda vacía.
 * No se aplica redondeo (incluso si se especifica en la métrica calculada): se muestran los valores sin procesar.
 
->[!Nota:]
+>[!NOTE]
 >
-> Los valores numéricos que utilizan una coma como separador decimal seguirán citados en el CSV exportado.
+>Los valores numéricos que utilizan una coma como separador decimal seguirán citados en el CSV exportado.
