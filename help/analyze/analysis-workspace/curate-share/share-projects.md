@@ -2,11 +2,11 @@
 description: Uso compartido de proyectos y funciones de proyectos en Workspace
 keywords: Analysis Workspace sharing
 title: Compartir proyectos de Workspace
-translation-type: ht
-source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Puede agregar destinatarios a una de las tres funciones del proyecto. Las funcio
 
 ### No se ha asignado ninguna función (destinatarios de vínculo del proyecto)
 
-Si a un destinatario no se le asigna una función y recibe un vínculo al proyecto (**[!UICONTROL Compartir]>[!UICONTROL Obtener vínculo de proyecto]**), se le asignará una función de forma predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]** y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**.
+If a recipient is not assigned a role and receives a [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project (**[!UICONTROL Share]>[!UICONTROL Get project link]**), they will be placed into a role by default. Los administradores reciben la función **[!UICONTROL Puede editar]** y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**.
 
 ### Múltiples funciones asignadas
 
@@ -66,7 +66,7 @@ Todos los usuarios pueden compartir proyectos con grupos, que son una recopilaci
 
 ## Compartir un vínculo a un proyecto {#Links}
 
-Puede obtener un vínculo a un proyecto en **[!UICONTROL Compartir]>[!UICONTROL Obtener vínculo del proyecto]**. Cuando se hace clic, se requiere que los destinatarios inicien sesión antes de aterrizar en el proyecto. Si el destinatario no se ha colocado en una función, recibirá una función predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]** y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**.
+Puede obtener un vínculo a un proyecto en **[!UICONTROL Compartir]>[!UICONTROL Obtener vínculo del proyecto]**. Cuando se hace clic, se requiere que los destinatarios inicien sesión antes de aterrizar en el proyecto. Si el destinatario no se ha colocado en una función, recibirá una función predeterminada. Los administradores reciben la función **[!UICONTROL Puede editar]** y los usuarios no administradores reciben la función **[!UICONTROL Puede duplicar]**. [Obtenga más](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) información sobre la creación de vínculos compartibles a proyectos de Workspace.
 
 ## Compartir proyectos en el administrador de proyectos {#Manager}
 
