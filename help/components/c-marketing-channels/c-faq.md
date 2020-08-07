@@ -2,10 +2,10 @@
 title: Preguntas más frecuentes sobre los Canales de mercadotecnia
 description: Preguntas más frecuentes sobre los canales de mercadotecnia.
 translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
 workflow-type: tm+mt
-source-wordcount: '1348'
-ht-degree: 49%
+source-wordcount: '1465'
+ht-degree: 52%
 
 ---
 
@@ -75,7 +75,7 @@ Este tipo de regla sirve de captador global para asegurar que el tráfico de los
 
 ## Razones para la actualización interna de la sesión {#internal}
 
-La actualización de la sesión de último toque solo se puede producir si también fue el primer toque (consulte &quot;Relación entre el primer y el último toque&quot; más arriba). Los escenarios siguientes explican cómo la actualización de la sesión podría ser un canal de primer toque.
+El último toque interno (Actualización de sesión) solo puede producirse si también fue el primer toque (consulte &quot;Relación entre primer y último toque&quot; más arriba). Los escenarios siguientes explican cómo la actualización de la sesión podría ser un canal de primer toque.
 
 * **Tiempo de espera** de sesión: Un visitante llega al sitio web y luego deja la ficha abierta en su explorador para usarla más adelante. El periodo de interacción del visitante caduca (o elimina voluntariamente sus cookies) y utiliza la pestaña abierta para volver a visitar el sitio web. Dado que la dirección URL de referencia es un dominio interno, la visita se clasificará como “Actualización de sesión”.
 
@@ -85,9 +85,15 @@ La actualización de la sesión de último toque solo se puede producir si tambi
 
 * **Tráfico** entre dominios: Un visitante pasa de un dominio que se activa a Suite A a un segundo dominio que se activa a Suite B. Si en la Suite B los filtros de URL internos incluyen el primer dominio, la visita en la Suite B se registrará como interna, ya que los Canales de mercadotecnia la verán como una nueva visita en el segundo grupo. La visita se clasificará como “Actualización de sesión”.
 
-( **Long entry-page load times**: A visitor lands on Page A which is heavy on content, and the Adobe Analytics code is located at the bottom of the page. Antes de cargar todo el contenido (incluida la solicitud de imagen de Adobe Analytics), el visitante hace clic en la página B. La página B activa su solicitud de imagen de Adobe Analytics. Dado que la solicitud de imagen de la página A nunca se cargó, la segunda página aparece como la primera visita individual en Adobe Analytics, con la página A como referente. La visita se clasificará como “Actualización de sesión”.
+* **Tiempos** de carga largos de la página de entrada: Un visitante aterriza en la página A, que tiene mucho contenido, y el código de Adobe Analytics se encuentra en la parte inferior de la página. Antes de cargar todo el contenido (incluida la solicitud de imagen de Adobe Analytics), el visitante hace clic en la página B. La página B activa su solicitud de imagen de Adobe Analytics. Dado que la solicitud de imagen de la página A nunca se cargó, la segunda página aparece como la primera visita individual en Adobe Analytics, con la página A como referente. La visita se clasificará como “Actualización de sesión”.
 
 * **Borrado de cookies en el sitio** intermedio: Un visitante llega al sitio y a mitad de la sesión borra sus cookies. Los canales de primer y último contacto se restablecerían y la visita se clasificaría como “Actualización de sesión” (porque el referente sería interno).
+
+A continuación se muestra un ejemplo de la configuración interna (actualización de sesión) como canales de primer y último toque:
+
+* Día 1: el usuario llega al sitio y este aparece en la pantalla. Los canales de primer y último contacto se definirán como “Pantalla”.
+* Día 2: el usuario entra al sitio a través de una búsqueda natural. El primer contacto permanece como “Pantalla” y el último contacto se establece como “Búsqueda natural”.
+* Día 35: el usuario no ha accedido al sitio en 33 días y regresa usando la pestaña que había abierto en su navegador. Suponiendo que se trate de una ventana de participación de 30 días, la ventana se habría cerrado y las cookies del canal de marketing habrían caducado. El canal de primer contacto y último contacto se restablecerán y se configurarán en Actualización de sesión, ya que el usuario accedió con una URL interna.
 
 ## ¿Por qué algunos canales no cambian después de modificar las reglas de procesamiento de Marketing canal?
 
