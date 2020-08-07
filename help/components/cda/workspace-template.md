@@ -1,11 +1,11 @@
 ---
 title: Plantilla de CDA Workspace
-description: Describe cada campo de la plantilla CDA dentro de Analysis Workspace.
+description: Describe cada campo de la plantilla CDA de Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe ofrece una plantilla para ver datos de rendimiento vitales entre dispositi
 
 Se crea un proyecto de Analysis Workspace que contiene varios paneles. En la parte superior, se muestra una tabla de contenido e introducción, lo que permite el contexto del informe y la navegación hacia informes individuales. Haga clic en un vínculo dentro de la tabla de contenido o expanda el acordeón de un panel para ver dichos informes.
 
-<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
+<!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **Nota especial para los miembros del Gráfico de cooperación**: muestra qué parte del grupo de informes contiene visitantes en regiones donde se admite el gráfico de cooperación y en regiones donde no se admite.
 * **Identificación de los usuarios**: muestra la frecuencia con la que se identifican los visitantes del sitio mediante métodos basados en el análisis entre dispositivos.
