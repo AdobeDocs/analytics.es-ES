@@ -3,9 +3,9 @@ description: Pasos para añadir eventos de calendario y gestionar eventos compar
 title: Eventos de calendario
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
@@ -35,6 +35,7 @@ Para los informes con tendencias en el paso del tiempo, puede utilizar esta herr
    1. Haga clic en **[!UICONTROL Insertar en escritorio de usuarios]**.
    1. Haga clic en **[!UICONTROL Marcar todos]** o marque la casilla junto al nombre del usuario.
    1. Haga clic en **[!UICONTROL Guardar]**.
+
    Esto hace que los Eventos de calendario sean mucho más útiles. Los analistas ahora disponen de la capacidad para forzar una superposición en los informes de sus usuarios para proporcionar más contexto.
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Eventos de calendario]**.
 1. En los **[!UICONTROL Eventos de calendario compartido]**, especifique una de estas opciones:
