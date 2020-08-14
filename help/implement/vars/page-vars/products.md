@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
 
 # products
 
-La variable `products` rastrea productos y propiedades vinculados a ellos. Esta variable se configura generalmente en páginas de productos individuales, páginas del carro de compras y páginas de confirmación de compra. Es una variable de varios valores, lo que significa que puede enviar varios productos en la misma visita y Adobe analiza el valor en elementos de dimensión independientes.
+La variable `products` rastrea productos y propiedades vinculados a ellos. Esta variable se configura generalmente en páginas de productos individuales, páginas del carro de compras y páginas de confirmación de compra. Es una variable de varios valores, lo que significa que puede enviar varios productos en la misma visita y el Adobe analiza el valor en elementos de dimensión independientes.
 
 >[!NOTE]
 >
->If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. Asegúrese de establecer el evento del carro de compras correspondiente en cada visita individual con la `products` variable.
+>Si esta variable se configura en una visita individual sin un evento de carro de compras en la variable [`events`](events/events-overview.md), la métrica [“Vistas del producto”](/help/components/metrics/product-views.md) se incrementa en 1. Asegúrese de establecer el evento del carro de compras correspondiente en cada visita individual con la variable `products`.
 
 ## Productos en Adobe Experience Platform Launch
 
