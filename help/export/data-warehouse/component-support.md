@@ -1,9 +1,9 @@
 ---
 title: Compatibilidad con componentes en Data Warehouse
 description: Descubra qué dimensiones y métricas adicionales están disponibles en Data Warehouse y qué otras no se admiten.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
 * Algunas dimensiones basadas en rutas, entre ellas:
    * Todas las dimensiones de entrada, excepto Página de entrada
    * Todas las dimensiones de salida, excepto Página de salida y Vínculo de salida
-   * Profundidad de acierto
+   * Profundidad de visita
    * Frecuencia de retorno
    * Tiempo previo al evento
    * Tiempo empleado en la página - Agrupado
@@ -65,9 +65,9 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
 * Tipo de visita
 * Páginas no encontradas (disponibles como dimensión; no compatibles con la segmentación)
 * Búsqueda de pago
-* Visitas a una sola página
-* Motivo de omisión de seguimiento
-* Estados Unidos
+* Visitas de página única
+* Motivo de exclusión de seguimiento
+* Estados estadounidenses
 
 ### Métricas no admitidas
 
@@ -77,4 +77,4 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
    * Salidas
    * Recargas
    * Acceso único
-   * Métricas “Tiempo empleado”
+   * Métricas de “tiempo empleado”
