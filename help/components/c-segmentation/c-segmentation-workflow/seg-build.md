@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
 workflow-type: tm+mt
 source-wordcount: '2051'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Existen varias formas de acceder al Generador de segmentos:
 * **[!UICONTROL Ad Hoc Analysis]**: [Generar segmentos en Ad Hoc Analysis](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments).
 * **[!UICONTROL Report Builder]**: [Añadir o editar segmentos en Report Builder](https://docs.adobe.com/content/help/es-ES/analytics/analyze/report-builder/data-requests/segmentation.html).
 
-## Criterios del generador {#section_F61C4268A5974C788629399ADE1E6E7C}
+## Criterios del Creador{#section_F61C4268A5974C788629399ADE1E6E7C}
 
 Puede agregar definiciones y contenedores de reglas para definir los segmentos.
 
@@ -40,12 +40,12 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
    * **[!UICONTROL + Agregar contenedor]**: le permite agregar un contenedor nuevo (bajo el contenedor de nivel superior) a la definición del segmento.
    * **[!UICONTROL Excluir]**: permite definir el segmento excluyendo una o más dimensiones, segmentos o métricas.
 
-1. **[!UICONTROL Dimensiones]**: Los componentes se arrastran y se sueltan desde la lista Dimensiones (barra lateral naranja).
-1. **[!UICONTROL Operador]**: Puede comparar y restringir valores usando operadores seleccionados.
+1. **[!UICONTROL Dimension]**: Los componentes se arrastran y se sueltan desde la lista Dimension (barra lateral naranja).
+1. **[!UICONTROL Operador]**: Puede comparar y restringir valores utilizando una selección de operadores.
 1. **[!UICONTROL Valor]**: Valor introducido o seleccionado para la dimensión, el segmento o la métrica.
-1. **[!UICONTROL Modelos]** de atribución: Disponible sólo para dimensiones, estos modelos determinan para qué valores de una dimensión se segmenta. Los modelos de dimensión son especialmente útiles en la segmentación secuencial.
+1. **[!UICONTROL Modelos de atribución]**: Disponible solo para dimensiones, estos modelos determinan qué valores de una dimensión se segmentan. Los modelos de dimensión son especialmente útiles en la segmentación secuencial.
 
-   * **[!UICONTROL Repetir]** (predeterminado): Incluye instancias y valores persistentes para la dimensión.
+   * **[!UICONTROL Repetido]** (por defecto): Incluye instancias y valores persistentes para la dimensión.
    * **[!UICONTROL Instancia]**: Incluye instancias para la dimensión.
    * **[!UICONTROL Instancia no repetida]**: Incluye instancias únicas (no repetitivas) para la dimensión. Este es el modelo aplicado en Flujo cuando se excluyen instancias repetidas.
 
@@ -53,25 +53,25 @@ Puede agregar definiciones y contenedores de reglas para definir los segmentos.
 
    **Ejemplo: Segmento de visita individual donde eVar1 = A**
 
-   | Ejemplo | A | A | A (persistente) | B | A | C |
+   | Ejemplo | A | A | A (persistió) | B | A | C |
    |---|---|---|---|---|---|---|
-   | Repetir | X | X | X | - | X | - |
+   | Repetido | X | X | X | - | X | - |
    | Instancia | X | X | - | - | X | - |
-   | Instancia no repetitiva | X | - | - | - | X | - |
+   | Instancia no repetida | X | - | - | - | X | - |
 1. **[!UICONTROL And/Or/Then]**: Asigna los operadores [!UICONTROL AND/OR/THEN] entre contenedores o reglas. El operador THEN le permite [definir segmentos secuenciales](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL Métrica]**: Métrica arrastrada y soltada a partir de la lista Métricas.
 1. Operador de **[!UICONTROL comparación]**: Puede comparar y restringir valores utilizando una selección de operadores.
 1. **[!UICONTROL Valor]**: Valor introducido o seleccionado para la dimensión, el segmento o la métrica.
 1. **[!UICONTROL X]**: Le permite eliminar esta parte de una definición de segmento.
 1. **[!UICONTROL Publicación]** de Experience Cloud: La publicación de un segmento de Adobe Analytics en el Experience Cloud le permite utilizarlo para la actividad de marketing en [!DNL Audience Manager] y en otros canales de activación. [Más información...](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Biblioteca]** de Audiencias: Los servicios de audiencia de Adobe administran la traducción de datos de visitante en segmentación de audiencias. De este modo, la creación y gestión de audiencias es similar a la creación y uso de segmentos, con la capacidad añadida de compartir segmentos de audiencia en Experience Cloud. [Más información...](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL Biblioteca]** de audiencias: Los servicios de audiencia de Adobe administran la traducción de datos de visitante en segmentación de audiencias. De este modo, la creación y gestión de audiencias es similar a la creación y uso de segmentos, con la capacidad añadida de compartir segmentos de audiencia en Experience Cloud. [Más información...](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Buscar]**: Permite buscar la lista de dimensiones, segmentos o métricas.
 1. **[!UICONTROL Dimensiones]**: (Lista) Haga clic en el encabezado para ampliarlo.
 1. **[!UICONTROL Métricas]**: Haga clic en el encabezado para ampliarlo.
 1. **[!UICONTROL Segmentos]**: Haga clic en el encabezado para ampliarlo.
 1. **[!UICONTROL Selector]** de grupos de informes: Permite seleccionar el grupo de informes en el que se guardará este segmento. Puede seguir utilizando el segmento en todos los grupos de informes.
 1. **[!UICONTROL Previsualización de segmento]**: Le permite previsualizar las métricas clave para comprobar si tiene un segmento válido y ver su amplitud. Representa el desglose del conjunto de datos que verá si aplica este segmento. Muestra tres círculos concéntricos y una lista para indicar el número y el porcentaje de coincidencias de [!UICONTROL visitas individuales], [!UICONTROL visitas] y [!UICONTROL visitantes] de un segmento comparado con un conjunto de datos. Esta tabla se actualiza inmediatamente después de crear o cambiar la definición del segmento.
-1. **[!UICONTROL Compatibilidad de producto]**: Proporciona una lista de los productos de Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) con los que es compatible el segmento que ha creado. La mayoría de los segmentos son compatibles con todos los productos. Sin embargo, no todos los operadores y dimensiones son compatibles con todos los productos de Analytics, en especial [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Esta tabla se actualiza inmediatamente después de cambiar la definición del segmento.
+1. **[!UICONTROL Compatibilidad de producto]**: Proporciona una lista de los productos de Adobe Analytics (Analysis Workspace, [!UICONTROL Reports &amp; Analytics], Ad Hoc Analysis, Data Warehouse) con los que es compatible el segmento que ha creado. La mayoría de los segmentos son compatibles con todos los productos. Sin embargo, no todos los operadores y dimensiones son compatibles con todos los productos de Analytics, en especial  [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). Esta tabla se actualiza inmediatamente después de cambiar la definición del segmento.
 1. **[!UICONTROL Guardar]** o **[!UICONTROL Cancelar]**: Guarda o cancela el segmento. Después de hacer clic en **[!UICONTROL Guardar]**, se le redirigirá al Administrador de segmentos, donde podrá administrar el segmento en cuestión.
 
 Los segmentos con intervalos de fechas incorporados siguen operando en Analysis Workspace de forma distinta a como lo hacen en [!UICONTROL Reports &amp; Analytics]. En Workspace, un segmento con un intervalo de fechas integrado anula el intervalo de fechas del panel. Por su parte, en [!UICONTROL Reports &amp; Analytics] se emplea la intersección del intervalo de fechas del informe y el intervalo de fechas integrado del segmento.
@@ -109,7 +109,7 @@ Puede [generar un marco de contenedores](/help/components/c-segmentation/seg-ove
 1. Arrastre una dimensión, segmento o evento desde el panel izquierdo al contenedor.
 1. Siga agregando nuevos contenedores desde el botón **[!UICONTROL Opciones]** > **[!UICONTROL Agregar contenedor]** del nivel superior situado en la parte superior de la definición, o agregue contenedores desde dentro de un contenedor para anidar la lógica.
 
-   **O**
+   **OR**
 
    Seleccione una o más reglas y luego haga clic en **[!UICONTROL Opciones]** > **[!UICONTROL Agregar contenedor de selección]**. Esto convierte su selección en un contenedor separado.
 
@@ -125,7 +125,7 @@ Usted crea un contenedor de visita y, dentro del mismo, agrega el intervalo temp
 
 ## Apilar segmentos {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
-El apilamiento de segmentos funciona mediante la combinación de criterios en cada segmento utilizando un operador “y”, y luego aplicando los criterios combinados. Esto se puede hacer directamente en un proyecto de Workspace o en el generador de segmentos.
+El apilamiento de segmentos funciona mediante la combinación de criterios en cada segmento utilizando un operador “and”, y luego aplicando los criterios combinados. Esto se puede hacer directamente en un proyecto de Workspace o en el generador de segmentos.
 
 Por ejemplo, el apilamiento de los segmentos &quot;usuarios de teléfono móvil&quot; y &quot;geografía de Estados Unidos&quot; devolverá datos relativos únicamente a los usuarios de teléfono móvil en los Estados Unidos.
 
@@ -157,11 +157,11 @@ Si utiliza el apilamiento de segmentos, puede reducir el número de segmentos a 
 
    Resultado de los pasos
 
-## Segment templates {#concept_5098446CC78D441E93B8E4D1D1EA6558}
+## Plantillas de segmentos {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Las plantillas de segmento se proporcionan para casos de uso de segmentación comunes, como &quot;Visitas por primera vez&quot; o &quot;Visitas desde dispositivos móviles&quot;. Están disponibles en proyectos de Workspace y en el generador de segmentos como componentes básicos para nuevos segmentos.
+Las plantillas de segmentos se proporcionan para casos de uso de segmentación comunes, como “Visitas por primera vez” o “Visitas desde dispositivos móviles”. Están disponibles en proyectos de Workspace y en el generador de segmentos como componentes básicos para nuevos segmentos.
 
-Las plantillas se identifican con el logotipo &quot;A&quot; de Adobe. A continuación se muestra una muestra de las plantillas:
+Las plantillas se identifican con el logotipo “A” de Adobe. A continuación puede consultar una muestra de las plantillas:
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -200,7 +200,7 @@ Las plantillas se identifican con el logotipo &quot;A&quot; de Adobe. A continua
    <td colname="col2">Ver datos de los visitantes que han visitado por lo menos una vez. En la definición de segmento, el contenedor es Visita. La regla es: <p>Número de visitas es mayor que 1. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visitas a una sola página </td> 
+   <td colname="col1"> Visitas de página única </td> 
    <td colname="col2"> Ver datos de las visitas en las que se ve el valor de una sola página, aunque se envíen varias vistas de página durante esa visita. En el segmento se incluyen las visitas a una sola página con eventos de vínculo de salida. En la definición de segmento, el contenedor es Visita. La regla es: <p>Visitas de página única es igual a 1. </p> </td> 
   </tr> 
   <tr> 
