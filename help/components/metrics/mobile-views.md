@@ -1,19 +1,19 @@
 ---
-title: vistas móviles
+title: Vistas con dispositivos móviles
 description: Métrica eliminada; ya no se utiliza.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# vistas móviles
+# Vistas con dispositivos móviles
 
 >[!IMPORTANT]
 >
->Esta métrica se retiró del mercado en septiembre de 2017. No devuelve datos.
+>Esta métrica se eliminó en septiembre de 2017. No devuelve datos.
 
-Si desea una métrica que mida el tráfico desde dispositivos móviles, Adobe recomienda usar el segmento &#39;Visitas desde dispositivos móviles&#39; en un proyecto o métrica calculada.
+Si desea una métrica que mida el tráfico desde dispositivos móviles, Adobe recomienda usar el segmento “Visitas desde dispositivos móviles” en un proyecto o métrica calculada.
