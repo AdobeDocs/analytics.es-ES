@@ -1,11 +1,11 @@
 ---
 title: linkInternalFilters
 description: Utilice la variable linkInternalFilters para ayudar al seguimiento automático de vínculos de salida.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 95%
 
 AppMeasurement ofrece la capacidad de rastrear automáticamente los vínculos que redirigen fuera del sitio. Si [`trackExternalLinks`](trackexternallinks.md) está habilitada, se envía una solicitud de imagen a Adobe justo cuando un visitante hace clic en un vínculo para abandonar el sitio. Las variables [`linkExternalFilters`](linkexternalfilters.md) y `linkInternalFilters` determinan qué vínculos se consideran internos/externos.
 
-Si esta variable contiene un valor, el seguimiento automático de vínculos de salida se comporta como una lista de bloqueados. Si un clic en un vínculo no coincide con ningún valor `linkInternalFilters`, se considera un vínculo de salida. La dirección URL completa se examina con esta variable. Si [`linkLeaveQueryString`](linkleavequerystring.md) está habilitada, también se examina la cadena de consulta.
+Si esta variable contiene un valor, el seguimiento automático de vínculos de salida se comporta de una manera similar a una lista de elementos bloqueados. Si un clic en un vínculo no coincide con ningún valor `linkInternalFilters`, se considera un vínculo de salida. La dirección URL completa se examina con esta variable. Si [`linkLeaveQueryString`](linkleavequerystring.md) está habilitada, también se examina la cadena de consulta.
 
 Si utiliza `linkInternalFilters` y `linkExternalFilters` simultáneamente, el vínculo en el que se hizo clic debe coincidir con `linkExternalFilters` **y no** con `linkInternalFilters` para considerarse como un vínculo de salida. Si un vínculo en el que se hizo clic coincide con los criterios de vínculo de salida y de descarga, el tipo de vínculo de descarga tiene prioridad.
 
