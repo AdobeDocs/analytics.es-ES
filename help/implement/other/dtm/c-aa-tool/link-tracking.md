@@ -4,11 +4,11 @@ keywords: Dynamic Tag Management;link tracking;enable clickmap;track download li
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Seguimiento de vínculos
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 354785439a5920d8fc53d566fa9306c74e2504d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Descripciones de los campos de Dynamic Tag Management de seguimiento de vínculos al implementar Analytics.
 
-**[!UICONTROL Propiedad]** > ![Icono](assets/settings_gear.png) de engranaje **[!UICONTROL Editar herramienta]** > Seguimiento de **[!UICONTROL vínculos]**
+**[!UICONTROL Propiedad]** > ![Icono de configuración](assets/settings_gear.png) **[!UICONTROL Editar herramienta]** > **[!UICONTROL Seguimiento de vínculos]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
@@ -29,11 +29,11 @@ Descripciones de los campos de Dynamic Tag Management de seguimiento de vínculo
  <tbody> 
   <tr> 
    <td colname="col1"> Habilitar ClickMap </td>
-   <td colname="col2"> <p>Determina si se recopilarán los datos del mapa de clics de visitantes. </p> <p>Consulte <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
+   <td colname="col2"> <p>Determina si se recopilarán los datos del mapa de clics de visitantes. </p> <p>Consulte  <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Rastrear vínculos de descarga </td>
-   <td colname="col2"> <p>Rastrea los vínculos a archivos descargables del sitio. </p> <p>See <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
+   <td colname="col2"> <p>Rastrea los vínculos a archivos descargables del sitio. </p> <p>Consulte <a href="../../../vars/config-vars/trackdownloadlinks.md">trackDownloadLinks</a>.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Extensiones de descarga </td> 
