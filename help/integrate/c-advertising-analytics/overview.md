@@ -2,9 +2,9 @@
 description: nulo
 title: Resumen de Advertising Analytics
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Advertising Analytics le permite consultar todos los datos de búsqueda de pago 
 >
 >El 31 de marzo de 2019, Microsoft Bing absorbió Yahoo Gemini. Como resultado, la opción de cuenta publicitaria de Yahoo Gemini ya no está disponible.
 
-Al unir los datos de estos motores de búsqueda en Adobe Analytics, puede analizarlos mediante la potencia de Analysis Workspace. Una nueva plantilla denominada [Rendimiento de búsqueda de pago](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) de Workspace facilita este análisis.
+Al unir los datos de estos motores de búsqueda en Adobe Analytics, puede analizarlos mediante la potencia de Analysis Workspace. Una nueva plantilla denominada  [Rendimiento de búsqueda de pago](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) de Workspace facilita este análisis.
 
 ![](assets/aa_aw.png)
 
