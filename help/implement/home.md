@@ -3,6 +3,9 @@ title: Implementación de Adobe Analytics
 description: Implemente Adobe Analytics en su sitio, propiedad o aplicación.
 translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+workflow-type: ht
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ El código JavaScript envía una solicitud de imagen a los servidores de recopil
 5. Los servidores de Adobe almacenan los datos recopilados en un *grupo de informes*.
 6. Los datos de grupos de informes rellenan los informes a los que se puede tener acceso en un explorador web.
 
-   La ejecución de código JavaScript ocurre rápidamente y no afecta visiblemente a los tiempos de carga de una página. Este método permite contabilizar páginas que se mostraron cuando un visitante hizo clic en **[!UICONTROL Reload]** o **[!UICONTROL Back]** para alcanzar una página, porque el JavaScript se ejecuta incluso cuando se recupera la página de la memoria caché.
+   La ejecución de código JavaScript ocurre rápidamente y no afecta visiblemente a los tiempos de carga de una página. Este método permite contabilizar páginas que se mostraron cuando un visitante hizo clic en **[!UICONTROL Recarga]** o **[!UICONTROL Atrás]** para alcanzar una página, porque el JavaScript se ejecuta incluso cuando se recupera la página de la memoria caché.
 
 Adobe Analytics requiere código en el sitio web, la aplicación móvil u otra aplicación para enviar datos a los servidores de recopilación de datos. Hay varios métodos para implementar este código, según la plataforma y las necesidades de la organización.
 
