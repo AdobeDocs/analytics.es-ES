@@ -1,8 +1,11 @@
 ---
 title: Adobe Analytics y cookies de explorador
 description: Descubra el modo en que Adobe Analytics gestiona las cookies de un explorador.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
+workflow-type: ht
+source-wordcount: '2286'
+ht-degree: 100%
 
 ---
 
