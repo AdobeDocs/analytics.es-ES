@@ -1,11 +1,11 @@
 ---
 title: Tiempo empleado
 description: Una página agregada de dimensiones y métricas de tiempo empleado.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1577'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ Los productos de Adobe Analytics ofrecen varias métricas y dimensiones de [!UIC
 | Métrica | Definición | Disponible en |
 |---|---|---|
 | [!UICONTROL Segundos totales empleados] | Representa el tiempo total durante el cual los visitantes interactúan con un elemento de dimensión específico. Incluye la instancia de un valor y persistencia en todas las visitas individuales posteriores. En el caso de las props, el tiempo empleado también se cuenta en los eventos de vínculo siguientes. | Analysis Workspace, Reports &amp; Analytics, Report Builder (llamado “tiempo total empleado”), Data Warehouse, Ad Hoc Analysis |
-| [!UICONTROL Tiempo empleado por visita] (segundos) | *Segundos totales empleados (devoluciones)*<br>representa el tiempo medio durante el cual los visitantes interactúan con un elemento de dimensión específico durante cada visita. | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
+| [!UICONTROL Tiempo empleado por visita] (segundos) | *Segundos totales empleados (devoluciones)*<br> representa el tiempo medio durante el cual los visitantes interactúan con un elemento de dimensión específico durante cada visita. | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
 | [!UICONTROL Tiempo empleado por visitante] (segundos) | *Segundos totales empleados (visitantes únicos)*<br> representa el tiempo medio durante el cual los visitantes interactúan con un elemento de dimensión específico a lo largo de la duración de la visita (la duración de su cookie). | Analysis Workspace, Reports &amp; Analytics, Ad Hoc Analysis |
 | [!UICONTROL Tiempo promedio empleado en el sitio] (segundos) | Representa el tiempo total durante el cual los visitantes interactúan con un elemento de dimensión específico, por secuencia con un elemento de dimensión. No se limita al promedio del “sitio”, como su nombre sugiere. Consulte la sección “Cómo se calcula el tiempo empleado” para obtener más información sobre las secuencias.<br>**Nota:** Es muy probable que, en el nivel de elemento de dimensión, esta métrica difiera del “Tiempo empleado por visita” debido a diferencias en el denominador del cálculo. | Analysis Workspace, Reports &amp; Analytics (se muestra en minutos), Report Builder (se muestra en minutos), Ad Hoc Analysis |
 | [!UICONTROL Tiempo promedio empleado en la página] | Métrica obsoleta.<br> En su lugar, se recomienda el uso de “Tiempo promedio empleado en el sitio” si se necesita el tiempo promedio para un elemento de dimensión. | Report Builder (cuando hay una dimensión en la solicitud) |
 | [!UICONTROL Duración total de la sesión], también conocida como [!UICONTROL Duración de la sesión anterior] | Solo SDK de aplicaciones móviles. <br>Se determina para la sesión anterior la próxima vez que se inicia la aplicación. Esta métrica se calcula en segundos y no cuenta cuando la aplicación se encuentra en segundo plano, solo cuando está en uso. Es una métrica de nivel de sesión.<br>Por ejemplo: instalamos la aplicación ABC, la iniciamos, la utilizamos durante 2 minutos y la cerramos. No se envía ningún dato acerca de la duración de la sesión. La próxima vez que la iniciemos, el valor de [!UICONTROL Duración total de la sesión] se establecerá en 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, interfaz de usuario de Mobile Services |
-| [!UICONTROL Longitud promedio de la sesión] (móvil)  | *Duración total de la sesión (inicios y primeros arranques)*<br>solo SDK de la aplicación móvil. Es una métrica de nivel de sesión. | Report Builder, interfaz de usuario de Mobile Services, Ad Hoc Analysis |
+| [!UICONTROL Longitud promedio de la sesión] (móvil)  | *Duración total de la sesión (inicios y primeros arranques)*<br> solo SDK de la aplicación móvil. Es una métrica de nivel de sesión. | Report Builder, interfaz de usuario de Mobile Services, Ad Hoc Analysis |
 
 ## Dimensiones de “Tiempo empleado”
 
@@ -88,17 +88,17 @@ Respuesta: La diferencia es el denominador de la métrica:
 
 Como resultado, ambas métricas pueden arrojar resultados similares en el nivel de visita, pero distintos en el de visita individual.
 
-**T5: ¿Por qué el desglose de totales con Tiempo[!UICONTROL promedio invertido en el sitio]no coincide con el elemento de línea principal?**
+**P5: ¿Por qué el desglose de totales con[!UICONTROL Tiempo promedio invertido en el sitio]no coincide con el elemento de línea principal?**
 
-A: Debido a que el tiempo [!UICONTROL promedio invertido en el sitio] depende de secuencias no interrumpidas de una dimensión y el informe interno no depende del informe externo al calcular estas ejecuciones.
+R: Debido a que el [!UICONTROL tiempo promedio invertido en el sitio] depende de secuencias no interrumpidas de una dimensión y el informe interno no depende del informe externo al calcular estas ejecuciones.
 
-Por ejemplo, considere la siguiente visita.
+Por ejemplo, usemos esta visita:
 
 | visita# | 1 | 2 | 3 |
 |---|---|---|---|
 | **Segundos empleados** | 30 | 100 | 10 |
 | **Nombre de la página** | Página principal | Product | Página principal |
-| **date** | Enero 1 | Enero 1 | Enero 1 |
+| **date** | 1 de enero | 1 de enero | 1 de enero |
 
 Al calcular el tiempo de espera para la página principal sería (30+10)/2=20, pero desglosar ese valor por día daría (30+10)/1=40, ya que el día tiene una sola ejecución no interrumpida del 1 de enero.
 
@@ -113,9 +113,9 @@ Supongamos que el siguiente conjunto de llamadas de servidor es para un único v
 | **Tiempo de visita transcurrido (en segundos)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Segundos empleados** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo de visita** | Página | Vínculo | Página | Página | Página | Página | Página |
-| **Nombre de la página** | Página principal | - | Product | Página principal | Página principal  (recarga) | Carro de compras | Confirmación del pedido |
+| **Nombre de la página** | Página principal | - | Product | Página principal | Página principal   (recarga) | Carro de compras | Confirmación del pedido |
 |  |  |  |  |  |  |  |  |
-| **prop1** | A  (configurado) | A (propagarse hacia delante) | sin configurar | B (configurado) | B (configurado) | A(configurado) | C  (configurado) |
+| **prop1** | A   (configurado) | A (propagarse hacia delante) | sin configurar | B (configurado) | B (configurado) | A(configurado) | C   (configurado) |
 | **Segundos empleados por prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
 |  |  |  |  |  |  |  |  |
 | **eVar1** | Rojo (configurado) | Rojo (conservado) | (caducado) | Azul (configurado) | Azul (configurado) | Azul (conservado) | Rojo (configurado) |
