@@ -1,11 +1,11 @@
 ---
 title: eVar
 description: Variables personalizadas que puede utilizar en su implementación.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 86%
 
 *Esta página de ayuda describe cómo implementar eVars. Para obtener información sobre cómo funcionan las eVars como dimensiones, consulte [eVars](/help/components/dimensions/evar.md) en la guía del usuario de Componentes.*
 
-Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como eVars. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como eVars. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Puede personalizar su caducidad y asignación en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes.
 
-El número de eVars disponibles depende del contrato con Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo admite.
+El número de eVars disponibles depende del contrato con Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo permite.
 
 ## Configurar eVars en la configuración del grupo de informes
 
@@ -33,7 +33,7 @@ Puede establecer eVars al configurar la extensión de Analytics (variables globa
 5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
 6. Busque la sección [!UICONTROL eVars].
 
-Puede establecer una eVar en un valor o un elemento de datos. También puede copiar el valor de otra variable de Analytics.
+Puede establecer una eVar en un valor o en un elemento de datos. También puede copiar el valor de otra variable de Analytics.
 
 ## s.eVar1 - s.eVar250 en el editor de código personalizado de AppMeasurement y Launch
 
