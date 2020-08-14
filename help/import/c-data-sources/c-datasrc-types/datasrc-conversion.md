@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Conversión
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 El sistema de fuentes de datos admite las siguientes dimensiones y métricas para los tipos de datos que se procesan como conversiones.
 
-## Conversión Dimensiones y métricas {#section_FA1731B232B246DABEDF5A5D84159084}
+## Conversión  Dimensiones y métricas {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Cuando se indica un evento Vista, también hay que indicar la dimensión de datos (eVar) correspondiente. Por ejemplo, si se incluyen las vistas de eVar2, se deberá indicar la eVar2 con un valor. La cantidad de eventos personalizados y vistas de eVar que admite un grupo de informes depende del contrato y varía según la empresa.
 
@@ -28,7 +28,7 @@ Cuando se indica un evento Vista, también hay que indicar la dimensión de dato
 | Código de seguimiento | Nombre del código de seguimiento. |
 | Fecha | Utilice este formato de fecha: MM/DD/AAAA/HH/mm/SS (por ejemplo, 01/01/2015/06/00/00) |
 | Categoría | Nombre de la categoría.  Si se indica una categoría, también se debe seleccionar un producto. |
-| Channel | Nombre del canal. |
+| Canal | Nombre del canal. |
 | eVarn | Nombre de la eVarn. Los valores válidos para n son los números enteros entre 1 y 250. |
 | Product | Nombre del producto. |
 | Estado | Nombre del estado. |
