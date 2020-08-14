@@ -1,41 +1,41 @@
 ---
 title: Tipo de referente
-description: El tipo de remitente del reenvío, dependiendo de la procedencia del visitante.
+description: El tipo de remitente del reenvío, según la procedencia del visitante.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 0%
+ht-degree: 80%
 
 ---
 
 
 # Tipo de referente
 
-Los informes de dimensión &#39;tipo de Remitente del reenvío&#39; a través de los cuales los visitantes de canales genéricos hicieron clic para llegar al sitio. Adobe mantiene las reglas para cada elemento de dimensión, a diferencia de los canales [de](marketing-channel.md)marketing, donde su organización mantiene reglas para cada canal.
+La dimensión “tipo de Remitente del reenvío” indica en qué canales genéricos hicieron clic los visitantes para llegar a su sitio. Adobe maintains the rules for each dimension item, unlike [Marketing channels](marketing-channel.md), where your organization maintains rules for each channel.
 
-## Rellenar esta dimensión con datos
+## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a varias tablas de búsqueda internas de Adobe. Cada valor se basa en el [remitente del reenvío](referrer.md) de la visita, que depende de los filtros [de URL](/help/admin/admin/internal-url-filter-admin.md)internos. Asegúrese de que la dimensión de remitente del reenvío y los filtros de URL internos están correctamente configurados.
+Esta dimensión hace referencia a varias tablas de búsqueda internas de Adobe. Cada valor se basa en el [remitente del reenvío](referrer.md) de la visita, que depende de los [filtros de URL internos](/help/admin/admin/internal-url-filter-admin.md). Asegúrese de que la dimensión de remitente del reenvío y los filtros de URL internos están correctamente configurados.
 
-## Elementos de dimensión
+## Elementos de Dimension
 
-Los elementos de dimensión incluyen el tipo de remitente del reenvío de la visita. Los valores específicos incluyen lo siguiente:
+Los elementos de Dimension incluyen el tipo de remitente del reenvío de la visita. Los valores específicos incluyen los siguientes:
 
-* **Escritos o marcadores**: No existen datos de remitente del reenvío para la visita.
-* **Motores** de búsqueda: El remitente del reenvío proviene de un motor de búsqueda reconocido que incluye una cadena de consulta de palabra clave.
-* **Redes sociales:**: Los datos de Remitente del reenvío pertenecían a una red social reconocida por Adobe.
-* **Otros sitios** web: Los datos de Remitente del reenvío no pertenecían a un motor de búsqueda o a una red social que Adobe reconozca.
+* **Escritos o marcados**: No existen datos de remitente del reenvío para la visita.
+* **Motores de búsqueda**: El remitente del reenvío proviene de un motor de búsqueda reconocido que incluye una cadena de consulta de palabra clave.
+* **Redes sociales:** Los datos de Remitente del reenvío pertenecían a una red social reconocida por Adobe.
+* **Otros sitios web**: Los datos del Remitente del reenvío no pertenecían a un motor de búsqueda o a una red social que Adobe reconozca.
 * **Disco duro**: El Remitente del reenvío se originó a partir de una copia local de una página web en el disco duro del visitante.
-* **Correo electrónico**: Remitente del reenvío originado desde una dirección URL con un protocolo de `imap://` o `mail://`. No incluye los servicios de correo electrónico en línea, ya que suelen utilizar `https://` protocolo.
+* **Correo electrónico**: Remitente del reenvío originado desde una dirección URL con un protocolo de `imap://` o `mail://`. No incluye los servicios de correo electrónico en línea, ya que suelen utilizar el protocolo `https://`.
 
 ### Redes sociales
 
-La siguiente lista hace referencia a la tabla de búsqueda &#39;Redes sociales&#39; que utiliza Adobe. Adobe proporciona esta lista como cortesía a los clientes de Adobe Analytics. Si desea recomendar que Adobe agregue un dominio a esta lista, pida a un delegado de asistencia técnica de su organización que se ponga en contacto con el Servicio de atención al cliente.
+La siguiente lista hace referencia a la tabla de búsqueda “Redes sociales” que utiliza Adobe. Adobe proporciona esta lista como cortesía a los clientes de Adobe Analytics. Si desea recomendar que Adobe agregue un dominio a esta lista, pida a un delegado de asistencia técnica de su organización que se ponga en contacto con el Servicio de atención al cliente.
 
 >[!NOTE]
 >
->Esta lista es diferente a la lista predeterminada de las redes sociales en las reglas [de procesamiento de canal de](../c-marketing-channels/c-rules.md)marketing.
+>Esta lista es diferente a la lista predeterminada de las redes sociales en las [reglas de procesamiento de canal de marketing](../c-marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `t.163.com`
@@ -197,7 +197,7 @@ La siguiente lista hace referencia a la tabla de búsqueda &#39;Redes sociales&#
 
 ### Motores de búsqueda en el elemento de dimensión &#39;Otros sitios web&#39;
 
-Cuando vista dominios específicos en la dimensión &#39;tipo de Remitente del reenvío&#39;, puede haber dominios que se esperarían en &#39;Motores de búsqueda&#39; enumerados en &#39;Otros sitios web&#39;. Por ejemplo: puede ver `'google.com'` en &#39;Otros sitios web&#39;.
+Cuando vea dominios específicos en la dimensión “tipo de Remitente del reenvío”, puede haber dominios que deberían aparecer en “Motores de búsqueda” enumerados en “Otros sitios web”. Por ejemplo: puede ver `'google.com'` en “Otros sitios web”.
 
-* **Dominios de motor de búsqueda en el elemento** de dimensión &#39;Motores de búsqueda&#39;: El remitente del reenvío cumplió todos los criterios para clasificar como motor de búsqueda por parte de Adobe. El dominio de referencia es un motor de búsqueda válido ** y la dirección URL de referencia contiene un parámetro de cadena de consulta de palabra clave.
-* **Dominios de motor de búsqueda en el elemento** de dimensión &#39;Otros sitios web&#39;: La dirección URL de referencia no cumplía todos los criterios para clasificarse como motor de búsqueda. Algunos ejemplos comunes incluyen subdominios dedicados a otras funciones además de la búsqueda. Por ejemplo: `mail.google.com` `autos.yahoo.com` o no son motores de búsqueda, pero residen en un dominio de nivel superior comúnmente asociado con la búsqueda. Estos subdominios no incluyen una cadena de consulta de palabras clave, por lo que se incluyen en &#39;Otros sitios web&#39; en lugar de en &#39;Motores de búsqueda&#39;.
+* **Dominios de motor de búsqueda en el elemento** de dimensión &#39;Motores de búsqueda&#39;: El remitente del reenvío cumplió todos los criterios para clasificar como motor de búsqueda por Adobe. El dominio de referencia es un motor de búsqueda válido *y* la dirección URL de referencia contiene un parámetro de cadena de consulta de palabra clave.
+* **Dominios de motor de búsqueda en el elemento** de dimensión &#39;Otros sitios web&#39;: La dirección URL de referencia no cumplía todos los criterios para clasificarse como motor de búsqueda. Algunos ejemplos comunes incluyen subdominios dedicados a otras funcionalidades además de la búsqueda. Por ejemplo: `mail.google.com` o `autos.yahoo.com` no son motores de búsqueda, pero residen en un dominio de nivel superior comúnmente asociado con la búsqueda. Estos subdominios no incluyen una cadena de consulta de palabras clave, por lo que se incluyen en “Otros sitios web” en lugar de en “Motores de búsqueda”.
