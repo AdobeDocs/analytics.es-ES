@@ -4,9 +4,9 @@ subtopic: Data sources
 title: Preparación para el uso de fuentes de datos
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ Pasos que puede seguir como preparación para utilizar fuentes de datos
 * [ID de transacción](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [Identificar un intervalo de fechas válido para la fuente de datos](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## Identificar las métricas y ponerles nombre {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## Identificar las métricas y ponerles nombre  {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 Es importante entender las métricas y las mediciones que se encuentran en las fuentes de datos, como *`Off-line Sales Revenue by Product`*, *`Returns by Product`* o *`Ad Impressions by Campaign`*. Esos son los nombres que se pueden asociar con las métricas de informes (eventos, propiedades y eVars).
 
@@ -37,11 +37,11 @@ Consulte [Eventos de éxito](https://docs.adobe.com/content/help/es-ES/analytics
 
 ## Identificar las dimensiones de datos {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
-Los datos (informes) por los que se quieran desglosar las métricas importadas por medio de fuentes de datos se deben identificar y recopilar. Estos datos se conocen como *`data dimensions`*.
+Los datos (informes) por los que se quieran desglosar las métricas importadas por medio de fuentes de datos se deben identificar y recopilar. Estos datos se conocen como  *`data dimensions`*.
 
 Por ejemplo, si una métrica de fuentes de datos mide la cantidad de impresiones de anuncios, es probable que se use como dimensión de datos el código de seguimiento de la campaña. Si lo que se miden son las ventas sin conexión, tal vez se podría usar como dimensión de datos el código de producto o el SKU.
 
-Las métricas se pueden definir con varias dimensiones de datos, pero entonces deben proveer un valor o una combinación de valores pertinentes a cada dimensión de datos asociada. Por ejemplo, si importa una métrica de ventas sin conexión y la asocia con las dimensiones de datos de *`Product`* y *`Partner`*, la métrica de ventas sin conexión tiene que ser pertinente para cada combinación de producto y socio (por ejemplo, ingresos totales).
+Las métricas se pueden definir con varias dimensiones de datos, pero entonces deben proveer un valor o una combinación de valores pertinentes a cada dimensión de datos asociada. Por ejemplo, si importa una métrica de ventas sin conexión y la asocia con las dimensiones de datos  de *`Product`* y *`Partner`*, la métrica de ventas sin conexión tiene que ser pertinente para cada combinación de producto y socio (por ejemplo, ingresos totales).
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Si no importa las métricas de fuentes de datos con un valor de eVar asociado, n
 
 La ID de transacción se usa para conectar los eventos que se producen con conexión con los que se producen sin conexión.
 
-## Identificar un intervalo de fechas válido para la fuente de datos {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## Identificar un intervalo de fechas válido para la fuente de datos  {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 Después de definir las métricas de la fuente de datos (eventos personalizados) y las dimensiones de datos (eVars), revise el intervalo de fechas de la fuente de datos que quiera importar. No se pueden importar fuentes de datos cuyo intervalo de fechas exceda el período de los datos ya existentes en los informes.
 
