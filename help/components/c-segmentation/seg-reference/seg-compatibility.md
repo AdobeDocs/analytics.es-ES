@@ -3,11 +3,11 @@ description: No todos los segmentos creados en el Generador de segmentos son com
 title: Compatibilidad del segmento con el Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
    <td> No admitido </td> 
   </tr> 
   <tr> 
-   <td> <b>Y y O pueden combinarse sin ningún límite</b> </td> 
+   <td> <b>AND y OR pueden combinarse sin ningún límite</b> </td> 
    <td> Admitido </td> 
    <td> Algunas limitaciones. Consulte *nota* la tabla siguiente. </td> 
   </tr> 
@@ -71,7 +71,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
      <li>Entrada (todas las dimensiones que contienen Entrada, excepto Página de entrada) </li> 
      <li>Salida (todas las dimensiones que contienen Salida, excepto Vínculo de salida y Página de salida) </li> 
      <li>Jerarquía (todas las dimensiones que comienzan con Jerarquía) </li> 
-     <li>Profundidad de acierto </li> 
+     <li>Profundidad de visita </li> 
      <li>Tipo de visita </li> 
      <li>Hora del día </li> 
      <li>Mes del año </li> 
@@ -79,12 +79,12 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
      <li>Búsqueda de pago </li> 
      <li>Trimestre del año </li> 
      <li>Frecuencia de retorno </li> 
-     <li>Visitas a una sola página </li> 
+     <li>Visitas de página única </li> 
      <li>Tiempo previo al evento </li> 
      <li>Tiempo empleado en la página - Agrupado </li> 
      <li>Tiempo empleado por visita - General </li> 
-     <li>Motivo de omisión de seguimiento </li> 
-     <li>Estados Unidos </li> 
+     <li>Motivo de exclusión de seguimiento </li> 
+     <li>Estados estadounidenses </li> 
      <li>Día de la semana/Fin de semana </li> 
     </ul> </td> 
   </tr> 
@@ -94,7 +94,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
    <td> Admitido </td> 
   </tr>
   <tr>
-    <td><b>Operadores 'Es igual a cualquiera de' y 'No es igual a ninguno de'</b></td>
+    <td><b>Operadores “Es igual a cualquiera de” y “No es igual a ninguno de”</b></td>
     <td>Admitido</td>
     <td>No admitido</td>
   </tr>
