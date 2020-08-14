@@ -1,18 +1,18 @@
 ---
 title: Campañas
-description: Página de desambición.
+description: Página de desambiguación.
 translation-type: tm+mt
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '37'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 
 # Campañas
 
-La dimensión &#39;Campañas puede hacer referencia a:
+La dimensión “Campañas” puede hacer referencia a:
 
-* Una [clasificación](../classifications/c-classifications.md) creada automáticamente en algunos grupos de informes. Se basa en la dimensión de código [de](tracking-code.md) seguimiento.
-* La dimensión [de código](tracking-code.md) de seguimiento, que utiliza la variable de implementación de [campaña](/help/implement/vars/page-vars/campaign.md) .
+* Una [clasificación](../classifications/c-classifications.md) creada automáticamente en algunos grupos de informes. Se basa en la dimensión de [código de seguimiento](tracking-code.md).
+* La dimensión [código de seguimiento](tracking-code.md), que utiliza la variable de implementación de [campaña](/help/implement/vars/page-vars/campaign.md).
