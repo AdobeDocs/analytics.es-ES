@@ -1,0 +1,52 @@
+---
+description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como y guardar como plantilla.
+title: Guardar proyectos
+translation-type: tm+mt
+source-git-commit: a70f2c6c8aecae9a8a4e22e460dd2b8e6b885db9
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 4%
+
+---
+
+# Guardar proyectos
+
+Para guardar los cambios en un proyecto, vaya al menú **[!UICONTROL Proyecto]** de Workspace. Además, Adobe guarda automáticamente los proyectos en determinados casos.
+
+## Guardar opciones de proyecto {#Save}
+
+Hay diferentes acciones de guardado que puede realizar en el menú **[!UICONTROL Proyecto]** , según cómo desee acceder a su análisis en el futuro.
+
+| Acción | Descripción |
+|---|---| 
+| **[!UICONTROL Guardar]** | Guarde los cambios realizados en el proyecto. Si se comparte el proyecto, destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre, una descripción (opcional) y etiquetas de adición (opcional). |
+| **[!UICONTROL Guardar como]** | Cree un duplicado del proyecto. El proyecto original no se verá afectado. |
+| **[!UICONTROL Guardar como plantilla]** | Guarde el proyecto como una plantilla [](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) personalizada que esté disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
+
+![](assets/save-project.png)
+
+## Guardar automáticamente {#Autosave}
+
+Los proyectos existentes, es decir, los que se han guardado al menos una vez antes, se guardan automáticamente cada dos minutos en el equipo local. Los nuevos proyectos que nunca se han guardado no se guardan automáticamente.
+
+Hay algunos escenarios que pueden alejar a un proyecto de los cambios no guardados, lo que resulta en diferentes acciones disponibles.
+
+### Abrir otro proyecto de Workspace
+
+Adobe proporciona la opción de guardar antes de salir de la página. Después de abandonar un proyecto existente, se elimina la copia local guardada automáticamente.
+
+![](assets/existing-save.png)
+
+### Desplazarse o cerrar una ficha
+
+El explorador advierte que se perderán los cambios no guardados. Puede elegir entre salir o cancelar.
+
+![](assets/browser-image.png)
+
+### El explorador se bloquea o se agota el tiempo de espera de la sesión
+
+Para los proyectos **existentes** , al volver a Workspace, el usuario verá un modo de recuperación **de** proyecto. Si selecciona &quot;Sí&quot;, se restaurará el proyecto a partir de la copia local guardada automáticamente. &quot;No&quot; elimina la copia local guardada automáticamente y abre la última versión guardada por el usuario del proyecto.
+
+![](assets/project-recovery.png)
+
+Para **nuevos** proyectos que nunca se han guardado, los cambios sin guardar no se pueden recuperar.
