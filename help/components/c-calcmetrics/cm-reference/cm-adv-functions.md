@@ -2,9 +2,9 @@
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 title: 'Referencia: funciones avanzadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en 
 
 Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
 
-## ¿Qué significa el parámetro Include-Zeros? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## ¿Qué significa el parámetro Include-Zeros?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa &quot;nada&quot;, pero en ocasiones es importante.
 
@@ -27,9 +27,9 @@ Por ejemplo, si tiene una métrica Ingresos y, a continuación, agrega una métr
 
 Por otra parte, si tiene dos métricas en las que está interesado, puede que no sea justo afirmar que una tiene una media superior o mínima porque algunas de sus filas eran ceros, por lo que no debería marcar el parámetro para incluir ceros.
 
-## Y {#concept_E14513FE464F4491AD0D4130D4EE621C}
+## AND {#concept_E14513FE464F4491AD0D4130D4EE621C}
 
-Devuelve el valor de su argumento. Utilice NO para asegurarse de que un valor no es igual a un valor en concreto.
+Devuelve el valor de su argumento. Utilice NOT para asegurarse de que un valor no es igual a un valor en concreto.
 
 >[!NOTE]
 >
@@ -41,8 +41,8 @@ AND(logical_test1,[logical_test2],...)
 
 | Argumento | Descripción |
 |---|---|
-| *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
-| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
+| *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como TRUE o FALSE. |
 
 ## Número aproximado de elementos distintos (dimensión) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
@@ -56,7 +56,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimensión* | Dimensión de la que se quiere obtener el número aproximado de elementos distintos. |
 
-### Caso práctico de ejemplo {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Caso práctico de ejemplo  {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 El número aproximado de elementos distintos (eVar del ID del cliente) es un caso práctico común para esta función.
 
@@ -68,11 +68,11 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ![](assets/approx-customers.png)
 
-### Se excedió la cantidad de valores exclusivos {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Se excedió la cantidad de valores exclusivos  {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://docs.adobe.com/content/help/es-ES/analytics/technotes/low-traffic.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
-### Comparación de funciones de recuento {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparación de funciones de recuento  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 La función Approximate Count Distinct() es una mejora de las funciones Count() y RowCount() porque la métrica que se crea puede usarse en cualquier informe dimensional para representar un número aproximado de elementos para una dimensión distinta. Por ejemplo, un recuento de los ID de cliente que se usan en un informe sobre tipos de dispositivos móviles.
 
@@ -318,7 +318,7 @@ TANH(metric)
 
 ## IF (Fila) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
-La función IF devuelve un valor si una condición que haya especificada se evalúa como VERDADERO y otro valor si esa condición se evalúa como FALSO.
+La función IF devuelve un valor si una condición que haya especificada se evalúa como TRUE y otro valor si esa condición se evalúa como FALSE.
 
 ```
 IF(logical_test, [value_if_true], [value_if_false])
@@ -326,9 +326,9 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | Argumento | Descripción |
 |---|---|
-| *logical_test* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
-| *[value_if_true]* | El valor que desea que sea devuelto si el argumento *logical_test* se evalúa como VERDADERO. (Este argumento es 0 de forma predeterminada si no se incluye). |
-| *[value_if_false]* | El valor que desea que sea devuelto si el argumento *logical_test* se evalúa como FALSO. (Este argumento es 0 de forma predeterminada si no se incluye). |
+| *logical_test* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
+| *[value_if_true]* | El valor que desea que sea devuelto si el argumento *logical_test* se evalúa como TRUE. (Este argumento es 0 de forma predeterminada si no se incluye). |
+| *[value_if_false]* | El valor que desea que sea devuelto si el argumento *logical_test* se evalúa como FALSE. (Este argumento es 0 de forma predeterminada si no se incluye). |
 
 ## Menor que {#concept_A4A85C0FDF944AACAD4B8B55699D1B11}
 
@@ -432,7 +432,7 @@ LN(metric)
 |---|---|
 | *métrica* | El número real positivo del cual desea el logaritmo natural. |
 
-## NO {#concept_BD954C455A8148A3904A301EC4DC821E}
+## NOT {#concept_BD954C455A8148A3904A301EC4DC821E}
 
 Devuelve 1 si el número es 0 o devuelve 0 si es otro número.
 
@@ -442,9 +442,9 @@ NOT(logical)
 
 | Argumento | Descripción |
 |---|---|
-| *lógico* | Requerido. Un valor o expresión que puede evaluarse como VERDADERO o FALSO. |
+| *lógico* | Requerido. Un valor o expresión que puede evaluarse como TRUE o FALSE. |
 
-Si utiliza NO, es necesario conocer si las expresiones (&lt;, >, =, &lt;> , etc.) devuelven valores 0 o 1.
+Si utiliza NOT, es necesario conocer si las expresiones (&lt;, >, =, &lt;> , etc.) devuelven valores 0 o 1.
 
 ## Distinto a {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -452,7 +452,7 @@ Devuelve todos los elementos que no contienen la coincidencia exacta del valor i
 
 ## O (Fila) {#concept_AF81A33A376C4849A4C14F3A380639D2}
 
-Devuelve TRUE si algún argumento es VERDADERO o devuelve FALSE si todos los argumentos son FALSOS.
+Devuelve TRUE si algún argumento es TRUE o devuelve FALSE si todos los argumentos son FALSE.
 
 >[!NOTE]
 >
@@ -464,8 +464,8 @@ OR(logical_test1,[logical_test2],...)
 
 | Argumento | Descripción |
 |---|---|
-| *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como VERDADERO o FALSO. |
-| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como VERDADERO o FALSO. |
+| *prueba_lógica1* | Requerido. Cualquier valor o expresión que pueda evaluarse como TRUE o FALSE. |
+| *prueba_lógica2* | Opcional. Condiciones adicionales que desee evaluar como TRUE o FALSE. |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
 
