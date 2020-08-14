@@ -1,38 +1,38 @@
 ---
-description: Explica la nueva estrategia de lanzamiento continuo de funciones para Adobe Analytics
-title: Versiones de funciones de Adobe Analytics
-translation-type: tm+mt
+description: Explica la nueva estrategia de lanzamiento continuo de funcionalidades para Adobe Analytics
+title: Versiones de funcionalidades de Adobe Analytics
+translation-type: ht
 source-git-commit: dcca8559c9e730c9e04981d69068786878062561
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# Versiones de funciones de Adobe Analytics
+# Versiones de funcionalidades de Adobe Analytics
 
-Históricamente, las versiones de funciones de Adobe Analytics seguían una programación mensual fija. A partir de abril de 2020, Adobe Analytics pasó a un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funciones.
+Históricamente, las versiones de funcionalidades de Adobe Analytics seguían un calendario mensual fijo. Desde abril de 2020, Adobe Analytics se trasladó a un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades.
 
 ## Estrategia de lanzamiento
 
-[!UICONTROL Análisis Workspace] utiliza indicadores de características (también conocidos como &quot;toggles&quot;) para controlar la visibilidad de las nuevas funciones, lo que permite realizar pruebas de escala controladas antes de la versión completa. Esta estrategia de versión incluye las siguientes fases:
+[!UICONTROL Analysis Workspace] utiliza indicadores de funcionalidades (también conocidos como “alternadores”) para controlar la visibilidad de las nuevas funcionalidades, lo que permite realizar pruebas de escala controladas antes del lanzamiento final. Esta estrategia de versión incluye las siguientes fases:
 
-* **Versión a producción (RTP)**: El código se libera para su producción, con la visibilidad de las funciones desactivada en el espacio de trabajo de Análisis. **Nota**: En RTP, la función puede estar disponible en la API de Analytics 2.0.
+* **Versión para producción (RTP)**: El código se libera para su producción, con la visibilidad de las funcionalidades desactivada en Analysis Workspace. **Nota**: En RTP, la función puede estar disponible en la API de Analytics 2.0.
 
-* **Prueba** limitada: Una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. La versión se escalará de 0% a 100% de disponibilidad en un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho en una organización reciben la misma experiencia.
+* **Prueba limitada**: Una versión por fases comienza con las pruebas realizadas por los usuarios internos de Adobe. La versión se escalará de 0% a 100% de disponibilidad en un par de meses. La implementación por fases se produce en el nivel de organización de Experience Cloud, por lo que todos los usuarios con derecho de una organización reciben la misma experiencia.
 
-* **Disponibilidad general (GA)**: La función está disponible para el 100 % de las organizaciones con licencia de Experience Cloud y la versión de las funciones se ha completado.
+* **Disponibilidad general (GA)**: La funcionalidad está disponible para el 100% de las organizaciones de Experience Cloud y la versión de la funcionalidad está completa.
 
-Con cada versión de función, la línea de tiempo desde RTP hasta GA puede variar. El objetivo es reducir el número de versiones, de modo que en los 2 meses posteriores al inicio de la versión (RTP), una función sea GA.
+Con cada versión de la funcionalidad, los plazos desde la fase de producción hasta su disponibilidad general pueden variar. El objetivo es reducir el número de versiones, de modo que en los 2 meses posteriores al comienzo de la producción, la funcionalidad esté disponible de forma general.
 
 ## Beneficios
 
-Las versiones por fases permiten a Adobe escalar mejor el proceso de implementación de software y garantizar que las funciones se endurezcan completamente antes de la disponibilidad general. También permite que las funciones se publiquen tan pronto como estén disponibles, en lugar de seguir una ventana de versión mensual fija.
+Las versiones por fases permiten a Adobe escalar mejor el proceso de implementación de software y garantizar que las funcionalidades se desarrollen completamente antes de estar disponibles de forma general. También permite que las funcionalidades se publiquen tan pronto como estén disponibles, en lugar de seguir una tiempo de versión mensual fijo.
 
 ## Preguntas frecuentes
 
 | Pregunta | Respuesta |
 |---|---|
-| ¿Puedo solicitar acceso anticipado a una función? | No. No se concederá el acceso anticipado.<br>Si desea probar conceptos iniciales de Analytics, le recomendamos que pruebe [Adobe Analytics Labs](https://docs.adobe.com/content/help/es-ES/analytics/analyze/tech-previews/overview.html) para proporcionar comentarios sobre nuestras innovaciones líderes en el sector. |
-| ¿Esta estrategia de lanzamiento afecta mi acceso a las funciones? | No. Una vez que una función haya llegado a GA, tendrá acceso a la función si se incluye en el paquete de Analytics.<br>Puede vista de los detalles del paquete de Analytics en [!UICONTROL Administración] > Configuración [!UICONTROL de] Compañía > Niveles [de acceso a](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/feature-access-levels.html)funciones. |
+| ¿Puedo solicitar acceso anticipado a una funcionalidad? | No. No se puede solicitar el acceso anticipado.<br>Si desea probar las versiones iniciales de Analytics, le recomendamos que pruebe [Adobe Analytics Labs](https://docs.adobe.com/content/help/es-ES/analytics/analyze/tech-previews/overview.html) para proporcionar comentarios sobre las innovaciones líderes del sector. |
+| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en [!UICONTROL Administración] > [!UICONTROL Configuración de compañía] > [Niveles de acceso a funcionalidades](https://docs.adobe.com/content/help/es-ES/analytics/admin/company-settings/feature-access-levels.html). |
