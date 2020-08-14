@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -200,7 +200,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `socialownedpropertypropertyvsapp` | Ya no se utiliza. Propiedad social frente a aplicación | varchar(255) |
 | `state` | Variable de estado. | varchar(50) |
 | `stats_server` | No es de uso. Servidor interno de Adobe que ha procesado la visita. | char(30) |
-| `t_time_info` | Hora local del visitante. El formato es el siguiente: M/D/AAAA HH:MM:SS Mes (0-11, 0=enero) Desplazamiento de zona horaria (en minutos) | varchar(100) |
+| `t_time_info` | Hora local del visitante. El formato es el siguiente:  M/D/AAAA HH:MM:SS Mes (0-11, 0=enero) Desplazamiento de zona horaria (en minutos) | varchar(100) |
 | `tnt` | Se utiliza en las integraciones de Adobe Target. | text |
 | `tnt_action` | Se utiliza en las integraciones de Adobe Target. | text |
 | `tnt_post_vista` | Ya no se utiliza. Se usa post_tnt en su lugar. | text |
@@ -263,11 +263,11 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `videoshow` | Programa del vídeo | varchar(255) |
 | `videoshowtype` | Tipo de programa del vídeo | varchar(255) |
 | `videostreamtype` | Tipo de flujo de vídeo | varchar(255) |
-| `visid_high` | Se utiliza en combinación con visid_low para identificar un visitante de forma única. | bigint sin firmar |
-| `visid_low` | Se utiliza en combinación con visid_high para identificar un visitante de forma única. | bigint sin firmar |
+| `visid_high` | Se utiliza en combinación con visid_low para identificar un visitante de forma exclusiva. | bigint sin firmar |
+| `visid_low` | Se utiliza en combinación con visid_high para identificar un visitante de forma exclusiva. | bigint sin firmar |
 | `visid_new` | Indicador que identifica si la visita contiene una ID de visitante generada recientemente. | char(1) |
 | `visid_timestamp` | Si la ID de visitante se ha generado recientemente, proporciona la marca de tiempo (en Tiempo Unix) del momento en que se generó la ID de visitante. | int |
-| `visid_type` | No para uso externo; utilizado internamente por Adobe para las optimizaciones de procesamiento. ID numérico que representa el método utilizado para identificar el visitante.<br>0: VisitorID personalizado o Desconocido/no aplicable<br>1: IP y reserva del agente de usuario <br>2: Encabezado de suscriptor móvil HTTP <br>3: Valor de cookie heredado (s_vi) <br>4: Valor de cookie de reserva (s_fid) <br>5: Servicio de identidad | tinyint sin firmar |
+| `visid_type` | No para uso externo; Adobe lo utiliza internamente para procesar optimizaciones. ID numérica que representa el método utilizado para identificar al visitante.<br>0: VisitorID personalizado o desconocido/no aplicable<br>1: IP y reserva del agente de usuario <br>2: Encabezado de suscriptor móvil HTTP <br>3: Valor de la cookie heredada (s_vi) <br>4: Valor de cookie de reserva (s_fid) <br>5: Servicio de identidad | tinyint sin firmar |
 | `visit_keywords` | Variable utilizada en la dimensión Palabra clave de búsqueda. Esta columna utiliza un límite de caracteres no estándar para dar cabida a la lógica back-end utilizada por Adobe. | varchar(244) |
 | `visit_num` | Variable utilizada en la dimensión Número de visitas. Empieza en 1 y aumenta cada vez que se inicia una nueva visita por visitante. | int sin firmar |
 | `visit_page_num` | Variable utilizada en la dimensión Profundidad de visita. Aumenta de uno en uno con cada visita que genera el usuario. Restablece cada visita. | int sin firmar |
