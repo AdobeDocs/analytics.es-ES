@@ -2,9 +2,9 @@
 description: Gracias al Creador de métricas calculadas, todo el mundo puede crear una métrica de participación.
 title: Métrica de participación
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
