@@ -1,17 +1,17 @@
 ---
 title: People
 description: Número de individuos únicos, normalmente con varios dispositivos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
 # People
 
-La métrica &#39;Personas&#39; cuenta el número de personas o grupos de dispositivos, según Device Graph de Adobe. Es una representación más precisa del número de visitantes [](unique-visitors.md)únicos.
+La métrica “Personas” cuenta el número de usuarios o grupos de dispositivos, según del gráfico de dispositivos de Adobe. Es una representación más precisa del número de [visitantes únicos](unique-visitors.md).
 
-See the [People metric](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html) in the Device Co-op user guide.
+Consulte la [métrica Personas](https://docs.adobe.com/content/help/es-ES/device-co-op/using/data/people.html) en la guía del usuario de Device Co-op.
