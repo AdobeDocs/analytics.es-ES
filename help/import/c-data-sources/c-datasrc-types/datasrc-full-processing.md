@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Procesamiento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Adobe recomienda que los clientes utilicen la API de inserción [masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Las fuentes de datos de procesamiento completo quedarán obsoletas en el futuro.
+>Adobe recomienda que los clientes utilicen la [API de inserción masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Las fuentes de datos de procesamiento completo quedarán obsoletas en el futuro.
 
 El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
 
@@ -66,7 +66,7 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante `"user@example
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i> (es decir, &lt;eVar2&gt;…&lt;/eVar2&gt;) </p> </td> 
-   <td colname="col3"> <p>Nombre de la eVar de conversión. Se pueden usar hasta 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Puede indicar el nombre de la eVar (eVar12) o un nombre descriptivo ("Campaña publicitaria 3"). </p> </td> 
+   <td colname="col3"> <p>Nombre de la eVar de conversión. Se pueden usar hasta 75 eVars (  <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Puede indicar el nombre de la eVar (eVar12) o un nombre descriptivo ("Campaña publicitaria 3"). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Events </p> </td> 
@@ -79,7 +79,7 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante `"user@example
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i> (es decir, &lt;hier2&gt;…&lt;/hier2&gt;) </p> </td> 
-   <td colname="col3"> <p>Nombre de la jerarquía. Se pueden usar hasta cinco jerarquías ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Puede indicar el nombre predeterminado de la jerarquía (<span class="varname">hier2</span>) o un nombre descriptivo (<span class="term">Barcelona </span>). </p> </td> 
+   <td colname="col3"> <p>Nombre de la jerarquía. Se pueden usar hasta cinco jerarquías (  <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Puede indicar el nombre predeterminado de la jerarquía (<span class="varname">hier2</span>) o un nombre descriptivo (<span class="term">Barcelona </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -124,7 +124,7 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante `"user@example
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i> (es decir, &lt;prop2&gt;…&lt;/prop2&gt;) </p> </td> 
-   <td colname="col3"> <p>Cadena de número de propiedad (por ejemplo, <span class="term"> Sección de deportes </span>). </p> </td> 
+   <td colname="col3"> <p>Cadena de número de propiedad (por ejemplo,  <span class="term"> Sección de deportes </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -174,7 +174,7 @@ En la tabla siguiente se muestran las variables de tráfico que se llenan autom�
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>Conjunto de caracteres admitido para el sitio web. Por ejemplo: UTF-8, ISO-8859-1, etc. </p> <p>Consulte el documento técnico <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Conjunto de caracteres de byte múltiple</a> (internacionalización) para obtener una lista exhaustiva. </p> </td> 
+   <td colname="col2"> <p>Conjunto de caracteres admitido para el sitio web. Por ejemplo: UTF-8, ISO-8859-1, etc. </p> <p>Consulte el documento técnico <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >Conjunto de caracteres de byte múltiple</a> (internacionalización) para obtener una lista exhaustiva. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
