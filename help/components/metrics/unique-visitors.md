@@ -1,42 +1,42 @@
 ---
 title: Visitantes únicos
-description: Número de individuos (o dispositivos) únicos.
+description: Número de personas únicas (o dispositivos).
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 10%
+ht-degree: 87%
 
 ---
 
 
 # Visitantes únicos
 
-La métrica &quot;visitantes únicos&quot; muestra el número de ID de visitante para el elemento de dimensión. Es una de las métricas más comunes utilizadas al determinar el tráfico, ya que proporciona una visión general de alto nivel de la popularidad de un elemento de dimensión. Por ejemplo: un visitante puede llegar a su sitio todos los días durante un mes, pero todavía cuenta como un único visitante.
+La métrica &quot;visitantes únicos&quot; muestra el número de ID de visitante para el elemento de dimensión. Es una de las métricas más comunes utilizadas al determinar el tráfico, ya que proporciona una visión general de alto nivel de la popularidad de un elemento de dimensión. Por ejemplo: un visitante puede llegar a su sitio todos los días durante un mes, pero contará como un único visitante.
 
-Si utiliza análisis [](../cda/overview.md)entre dispositivos, se cambiará el nombre de esta métrica a &quot;Dispositivos únicos&quot;.
+Si utiliza [análisis entre dispositivos](../cda/overview.md), se cambiará el nombre de esta métrica a “Dispositivos únicos”.
 
-## visitantes únicos diarios, semanales, mensuales, trimestrales y anuales
+## Visitantes únicos diarios, semanales, mensuales, trimestrales y anuales
 
-Informes y Analytics proporciona opciones para visitantes únicos diarios, semanales, mensuales, trimestrales y anuales. En lugar de contar un solo visitante único para todo el período de tiempo, los visitantes únicos se contabilizan en función de la métrica seleccionada. Por ejemplo: desea ver los visitantes únicos diarios del sitio. Si un visitante llega a su sitio por la mañana y de nuevo por la noche, se cuenta como un único visitante diario único. Si un visitante llega a su sitio el lunes y nuevamente el martes, se cuenta como dos visitantes únicos diarios.
+Reports &amp; Analytics proporciona opciones para visitantes únicos diarios, semanales, mensuales, trimestrales y anuales. En lugar de contar un solo visitante único para todo el periodo de tiempo, los visitantes únicos se contabilizan en función de la métrica seleccionada. Por ejemplo, desea ver los visitantes únicos diarios del sitio. Si un visitante llega a su sitio por la mañana y de nuevo por la noche, se cuenta como un único visitante diario. Si un visitante llega a su sitio el lunes y nuevamente el martes, se cuenta como dos visitantes únicos diarios.
 
-El Analysis Workspace trata los visitantes únicos en función de la granularidad del informe. Por ejemplo, si utiliza la dimensión [Día](../dimensions/day.md) , verá visitantes únicos diarios para cada elemento de dimensión. Sin embargo, para el total del informe, se anula la duplicación de visitantes únicos para el intervalo de fechas de la tabla improvisada.
+Analysis Workspace trata los visitantes únicos en función de la granularidad del informe. For example, if you use the [Day](../dimensions/day.md) dimension, you&#39;ll see daily unique visitors for each dimension item. Sin embargo, de cara al total del informe, se anula la duplicación de visitantes únicos para el intervalo de fechas de la tabla de forma libre.
 
-## Cómo se calcula esta métrica
+## Cálculo de esta métrica
 
-Esta métrica cuenta el número de ID de visitante únicos para un elemento de dimensión determinado. Utiliza múltiples mecanismos avanzados para identificar visitantes únicos, ya que existen varias maneras de identificarlos. En el siguiente cuadro se lista la manera en que se identifica un visitante, junto con su prioridad. Algunas visitas pueden tener varios métodos de identificación de visitantes; en estos casos se utiliza el método de mayor prioridad.
+Esta métrica cuenta el número de ID de visitante únicos para un elemento de dimensión determinado. Utiliza varios mecanismos avanzados para identificar visitantes únicos, ya que existen diferentes maneras de identificarlos. En el siguiente cuadro se enumera las formas en las que se identifica a un visitante, junto a su prioridad. Algunas visitas pueden tener varios métodos de identificación; en estos casos se utiliza el método de mayor prioridad.
 
 | Pedido utilizado | Parámetro de consulta (método de recopilación) | Presente cuando |
 | --- | --- | --- |
-| 1 | `vid` | Se establece la [`visitorID`](/help/implement/vars/config-vars/visitorid.md) variable. |
-| 2 | `aid` | Visitante tiene una [`s_vi`](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html) cookie existente. Se configura en implementaciones sin o antes de implementar el servicio de ID de Visitante. |
-| 3 | `mid` | Visitante tiene una [`s_ecid`](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html) cookie existente. Se configura en implementaciones que utilizan el servicio [de identidad de](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html)Adobe Experience Cloud. |
-| 4 | `fid` | Visitante tiene una [`s_fid`](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html) cookie existente, o si `aid` y `mid` no se pudo configurar por ningún motivo. |
-| 5 | Dirección IP, agente de usuario y dirección IP de puerta de enlace | Último recurso para identificar un visitante único si el explorador del visitante no acepta cookies. |
+| 1 | `vid` | Se establece la variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md). |
+| 2 | `aid` | El visitante tiene una cookie de [`s_vi`](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html). Se configura en implementaciones sin implementar el servicio de ID de visitante o antes de hacerlo. |
+| 3 | `mid` | El visitante tiene una cookie de [`s_ecid`](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html). Se configura en implementaciones que utilizan el [Servicio de identidad de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html). |
+| 4 | `fid` | El visitante tiene una cookie [`s_fid`](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html), o si `aid` y `mid` no se pueden configurar por algún motivo. |
+| 5 | Dirección IP, agente de usuario y dirección IP de puerta de enlace | El último recurso para identificar un visitante único si el explorador del visitante no acepta cookies. |
 
 >[!NOTE]
 >
->Cada ID de visitante de Analytics está vinculado a un perfil en los servidores de Adobe. Estos perfiles de visitante se eliminan después de al menos 13 meses de inactividad, independientemente de la caducidad de cualquier cookie de ID de visitante.
+>Cada ID de visitante de Analytics está vinculado a un perfil en los servidores de Adobe. Estos perfiles de visitante se eliminan después de 13 meses de inactividad, sin importar las expiraciones de las cookies de ID de visitantes.
 
 ## Comportamiento que afecta al recuento de visitantes único
 
@@ -44,10 +44,10 @@ Los identificadores de visitante únicos generalmente se almacenan en una cookie
 
 * Borra su caché en cualquier momento
 * Abre un explorador diferente en el mismo equipo. Se cuenta un visitante único por explorador.
-* La misma persona que explora el sitio en diferentes dispositivos. Se cuenta un visitante único por dispositivo. Puede utilizar el análisis [entre](../cda/overview.md) dispositivos para combinar visitantes mediante la métrica [Personas](people.md) .
-* Abre una sesión de navegación privada (como la ficha Incognito de Chrome).
+* La misma persona que explora el sitio en diferentes dispositivos. Se cuenta un visitante único por dispositivo. Puede utilizar el [análisis entre dispositivos](../cda/overview.md) para combinar visitantes mediante la métrica [Personas](people.md).
+* Abre una sesión de navegación privada (como una pestaña de incógnito de Chrome).
 
-Un nuevo visitante único *no se cuenta* , siempre y cuando se mantenga el identificador de cookie:
+Un nuevo visitante único *no se cuenta*, siempre y cuando se mantenga el identificador de la cookie:
 
-* Cierra el explorador durante un período prolongado
+* Cierra el explorador durante un periodo prolongado
 * Actualiza el explorador a la versión más reciente
