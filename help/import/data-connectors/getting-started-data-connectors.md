@@ -18,7 +18,7 @@ Por ejemplo, una integración de correo electrónico que desee utilizar un socio
 
 >[!IMPORTANT]
 >
->Finalizaremos la vida útil de la tecnología del conector de datos de Adobe a mediados y finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
+>Terminaremos su vida útil con la tecnología del conector de datos de Adobe a mediados y finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Requisitos del sistema**
 
