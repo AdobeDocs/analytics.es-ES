@@ -1,11 +1,11 @@
 ---
 title: Configurar una cuenta publicitaria
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: proporcione el identificador de la cuenta de Google. </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: proporcione el identificador de la cuenta de Bing y el identificador de cliente de Bing. </li> 
-        </ul> <p>Consulte <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar el identificador de cuenta</a> para obtener información sobre estos identificadores. </p> <p>Cuando haya iniciado sesión correctamente, en el campo Autenticador de OAuth se mostrará la palabra 
+        </ul> <p>Consulte  <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar el identificador de cuenta</a> para obtener información sobre estos identificadores. </p> <p>Cuando haya iniciado sesión correctamente, en el campo Autenticador de OAuth se mostrará la palabra 
         <systemoutput>
           Recuperado
         </systemoutput>. </p> </td> 
@@ -62,7 +62,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
 
    | Configuración | Descripción |
    |--- |--- |
-   | Tipo | <ul><li>**Automático:** Permite que el motor de Advertising Cloud decida cómo se anexan los parámetros de seguimiento a las plantillas de seguimiento/direcciones URL de destino del motor de búsqueda. Este es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.<br>**Importante:**Para configurar una cuenta de motor de búsqueda en &#39;Modo automático&#39;, usted es responsable de realizar las siguientes acciones:<br>- El parámetro y valor &quot;s_kwcid&quot; se agregarán a las plantillas de seguimiento de cuentas o a las direcciones URL de página de aterrizaje en la cuenta que se agrega. Se insertará al final de la URL. Como resultado, es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL.** Nota:**Obtenga más información sobre si debe agregar este parámetro a la directiva[de seguridad de](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)contenido.<br>- Además, las palabras clave se pueden insertar en la dirección URL de aterrizaje como parte del valor &quot;s_kwcid&quot;, por lo que si contienen caracteres o símbolos especiales, confirme que su servidor Web puede admitir esos caracteres (un ejemplo de caracteres especiales comunes es &quot;+&quot; que se utiliza en palabras clave de &quot;coincidencia amplia modificada&quot;).</li><li>**Manual:** Le permite administrar cómo se agregan los parámetros de seguimiento a las plantillas de seguimiento/direcciones URL de destino del motor de búsqueda. [Consulte estos ejemplos de seguimiento manual para cada motor de búsqueda](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
+   | Tipo | <ul><li>**Automático:** Permite que el motor de Advertising Cloud decida cómo se adjuntan los parámetros de seguimiento a las plantillas de seguimiento/URL de destino del motor de búsqueda. Este es el enfoque más sencillo, pero es posible que no genere el conjunto de datos mejor integrado.<br>**Importante:** Para configurar una cuenta de motor de búsqueda en “Modo automático”, usted es responsable de realizar las siguientes acciones:<br> El parámetro y valor “s_kwcid” se agregará a las plantillas de seguimiento de cuentas o a las direcciones URL de página de aterrizaje en la cuenta que se agrega. Se insertará al final de la URL. Como resultado, es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL. **Nota:** Obtenga más información sobre si debe agregar este parámetro a la [política de seguridad de contenido](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/csp.html).<br>Además, en la URL de destino pueden insertarse palabras clave como parte del valor “s_kwcid”, de modo que, si contienen caracteres especiales o símbolos, confirme que su servidor web los admite (un ejemplo de carácter especial común es “+”, que se utiliza en las palabras clave “Broad Match Modified”).</li><li>**Manual:** Le permite administrar cómo se añaden los parámetros de seguimiento a las plantillas de seguimiento o a las direcciones URL de destino del motor de búsqueda. [Consulte estos ejemplos de seguimiento manual para cada motor de búsqueda](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md).</li></ul> |
 
 1. En la sección **[!UICONTROL Asignación]**, elija qué grupo(s) de informes va a enlazar a la cuenta de este motor de búsqueda. Debe proporcionar un grupo de informes como mínimo para guardar la cuenta publicitaria. Puede asignar diversas cuentas a varios grupos de informes (1:1, 1:Muchos, Muchos:Muchos). Recuerde que los datos que AMO obtiene del motor de búsqueda simplemente se copian a cualquier grupo de informes asignado, de modo que los datos no se dividen.
 
