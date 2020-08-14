@@ -1,26 +1,26 @@
 ---
 title: prop
 description: Variables personalizadas que puede utilizar en su implementación.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
 # prop
 
-*Esta página de ayuda describe cómo implementar propiedades. For information on how props work as a dimension, see[prop](/help/components/dimensions/prop.md)in the Components user guide.*
+*Esta página de ayuda describe cómo implementar props (propiedades). Para obtener información sobre cómo funcionan las props como dimensiones, consulte [prop](/help/components/dimensions/prop.md) en la guía del usuario de componentes.*
 
-Las propiedades son variables personalizadas que se pueden utilizar como desee. No persisten más allá de la visita que se establece.
+Las propiedades son variables personalizadas que se pueden utilizar como desee. No se mantienen más allá de la visita en la que están configuradas.
 
 >[!TIP]
 >
->Adobe recommends using [eVars](evar.md) in most cases. En versiones anteriores de Adobe Analytics, las props y las eVars tenían ventajas y desventajas entre sí. Sin embargo, Adobe ha mejorado las eVars y ahora sirven para todos los casos prácticos de las props.
+>Adobe recomienda utilizar [eVars](evar.md) en la mayoría de los casos. En versiones anteriores de Adobe Analytics, las props y las eVars tenían ventajas y desventajas entre sí. Sin embargo, Adobe ha mejorado las eVars y ahora sirven para todos los casos prácticos de las props.
 
-Si tiene un documento [de diseño de](/help/implement/prepare/solution-design.md)soluciones, puede asignar estas dimensiones personalizadas a valores específicos de su organización. El número de propiedades disponibles depende del contrato con Adobe. Hay disponibles hasta 75 props si su contrato con Adobe lo admite.
+Si tiene un [documento de diseño de soluciones](/help/implement/prepare/solution-design.md), puede asignar estas dimensiones personalizadas a valores específicos de su organización. El número de propiedades disponibles depende del contrato con Adobe. Hay disponibles hasta 75 props si su contrato con Adobe lo admite.
 
 ## Propiedades en Adobe Experience Platform Launch
 
@@ -33,7 +33,7 @@ Puede establecer propiedades durante la configuración de la extensión de Analy
 5. Establezca el menú desplegable [!UICONTROL Extensión] en Adobe Analytics y el [!UICONTROL tipo de acción] en [!UICONTROL Establecer variables].
 6. Busque la sección [!UICONTROL Props].
 
-Puede establecer una prop en un valor o un elemento de datos. También puede copiar el valor de otra variable de Analytics.
+Puede establecer una propiedad a un valor o a un elemento de datos. También puede copiar el valor de otra variable de Analytics.
 
 ## “s.prop1 - s.prop75” en el editor de código personalizado de AppMeasurement y Launch
 
