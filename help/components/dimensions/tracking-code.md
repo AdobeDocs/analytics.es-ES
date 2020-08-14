@@ -5,18 +5,18 @@ translation-type: tm+mt
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 1%
+ht-degree: 17%
 
 ---
 
 
 # Código de seguimiento
 
-La dimensión &#39;Código de seguimiento&#39; lista los nombres de los códigos de seguimiento en el sitio. Esta dimensión se recopila generalmente mediante parámetros de cadena de consulta. Puede colocar vínculos con diferentes valores de parámetros de cadena de consulta en diferentes lugares de Internet. Esta dimensión informa qué vínculos fueron los más exitosos en conducir el tráfico al sitio.
+La dimensión “Código de seguimiento” muestra los nombres de los códigos de seguimiento en el sitio. Esta dimensión se recopila generalmente mediante parámetros de cadena de consulta. Puede colocar vínculos con diferentes valores de parámetros de cadena de consulta en diferentes lugares de Internet. Esta dimensión indica qué vínculos fueron los más exitosos a la hora de conducir el tráfico al sitio.
 
-## Rellenar esta dimensión con datos
+## Rellene esta dimensión con datos
 
-Esta dimensión recupera datos de la cadena [`v0` de](/help/implement/validate/query-parameters.md) consulta en solicitudes de imagen. AppMeasurement recopila estos datos mediante la [`campaign`](/help/implement/vars/page-vars/campaign.md) variable.
+Esta dimensión recupera datos de la [`v0`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable [`campaign`](/help/implement/vars/page-vars/campaign.md).
 
 ## Elementos de Dimension
 
@@ -26,7 +26,7 @@ Los elementos de Dimension incluyen los nombres de los códigos de seguimiento e
 
 Algunos usuarios que configuran reglas de procesamiento de canal de mercadotecnia configuran una regla que toma todos los valores utilizados en la dimensión Código de seguimiento. A pesar de ser una práctica excelente, son diferentes debido a las diferencias inherentes de procesamiento y arquitectura. La siguiente lista explica por qué estas dos dimensiones, aunque parecidas de un vistazo, no se pueden comparar entre sí.
 
-* **canales anteriores en reglas** de procesamiento: Las reglas de procesamiento de los canales de mercadotecnia que se encuentran más arriba en la lista pueden impedir que las visitas se atribuyan a su canal de mercadotecnia de códigos de seguimiento. Por ejemplo:
+* **Canales anteriores en reglas** de procesamiento: Las reglas de procesamiento de los canales de mercadotecnia que se encuentran más arriba en la lista pueden impedir que las visitas se atribuyan a su canal de mercadotecnia de códigos de seguimiento. Por ejemplo:
 
    1. Tiene &#39;Redes sociales&#39; configuradas como la primera regla y &#39;Códigos de seguimiento&#39; como la segunda.
    2. Un usuario publica un vínculo a su sitio que contiene un código de seguimiento en un sitio de medios sociales y varios de sus amigos hacen clic en ese vínculo a su sitio.
