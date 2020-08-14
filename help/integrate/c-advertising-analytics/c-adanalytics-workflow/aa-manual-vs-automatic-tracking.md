@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Como consecuencia, cuando seleccione el modo automático, antes de poder guardar
 
 Tenga en cuenta que para configurar una cuenta de motor de búsqueda en “Modo automático”, debe llevar a cabo las siguientes acciones:
 
-* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. Se insertará al final de la URL. Es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL. **Usted es responsable de garantizar que los parámetros de URL añadidos se conserven correctamente en la página de destino final.**
-* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. Si contienen caracteres especiales o símbolos, confirme que su servidor web los admite. Ejemplo: un carácter especial común es “+”, que se utiliza en las palabras clave “Broad Match Modified”.
+* En la cuenta agregada se añadirá el parámetro y valor “`s_kwcid`” a las plantillas de seguimiento de la cuenta o a las URL de las páginas de aterrizaje. Se insertará al final de la URL. Es posible que deba llevar a cabo acciones adicionales si su servidor web requiere un determinado par clave-valor al final de la URL o bien una actualización que permita cualquier nuevo par clave-valor en la URL. **Usted es responsable de garantizar que los parámetros de URL añadidos se conserven correctamente en la página de destino final.**
+* Además, es posible insertar palabras clave en la URL de destino como parte del valor `s_kwcid` Si contienen caracteres especiales o símbolos, confirme que su servidor web los admite. Ejemplo: un carácter especial común es “+”, que se utiliza en las palabras clave “Broad Match Modified”.
 
 >[!IMPORTANT]
 >
->Obtenga más información sobre si debe agregar el `s_kwcid` parámetro a la directiva [de seguridad](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)de contenido.
+>Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/csp.html).
 
-## Modo de seguimiento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## Modo de seguimiento manual  {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
 En el modo manual, debe especificar cómo el proceso de integración de datos de Advertising Analytics debe tratar los datos del motor de búsqueda.
 
@@ -60,7 +60,7 @@ Ejemplos de códigos de seguimiento en varios formatos de plantilla de seguimien
 {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**`{lpurl}`con parámetro de URL adicional **
+**`{lpurl}`con parámetro de URL adicional**
 
 ```
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
@@ -104,7 +104,7 @@ Ejemplos de códigos de seguimiento en diversos formatos de sufijos finales de U
 {lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**`{lpurl}`con parámetro de URL adicional **
+**`{lpurl}`con parámetro de URL adicional**
 
 ```
 {lpurl}?campaign=PPC&
