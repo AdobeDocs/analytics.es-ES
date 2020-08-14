@@ -1,36 +1,36 @@
 ---
 title: Visitantes con Experience Cloud ID
-description: El número de visitantes únicos que utilizan el servicio de ID de Adobe Experience Cloud.
+description: El número de visitantes únicos que utilizan el servicio de Adobe Experience Cloud ID.
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 19%
+ht-degree: 95%
 
 ---
 
 
 # Visitantes con Experience Cloud ID
 
-La métrica &quot;Visitantes con ID de Experience Cloud&quot; muestra el número de visitantes únicos identificados por Adobe mediante el servicio [de ID de](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html)Experience Cloud. Esta dimensión es útil para comparar con la métrica visitantes [](unique-visitors.md) únicos a fin de asegurarse de que la mayoría de los visitantes del sitio utiliza el servicio de ID. Si una gran parte de los visitantes no utiliza las cookies del servicio de ID, puede indicar un problema en la implementación.
+La métrica “Visitantes con Experience Cloud ID” muestra el número de visitantes únicos identificados por Adobe mediante el servicio de [Experience Cloud ID](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html). Esta dimensión es útil para compararla con la métrica [visitantes únicos](unique-visitors.md) a fin de asegurarse de que la mayoría de los visitantes del sitio utiliza el servicio de ID. Si una gran parte de los visitantes no utiliza las cookies del servicio de ID, puede indicar un problema en la implementación.
 
 >[!NOTE]
 >
->Esta métrica es especialmente importante para la depuración si utiliza varios servicios de Experience Cloud, como Adobe Target o Adobe Audience Manager. Los segmentos compartidos entre productos Experience Cloud no incluyen visitantes sin un ID de Experience Cloud.
+>Esta métrica es especialmente importante para la depuración si utiliza varios servicios de Experience Cloud, como Adobe Target o Adobe Audience Manager. Los segmentos compartidos entre productos de Experience Cloud no incluyen visitantes sin un Experience Cloud ID.
 
-## Cómo se calcula esta métrica
+## Cálculo de esta métrica
 
-Esta métrica se basa en la métrica visitantes [](unique-visitors.md) únicos, excepto que solo incluye personas identificadas mediante la cadena de `mid` consulta (en función de la [`s_ecid`](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html) cookie).
+Esta métrica se basa en la métrica [visitantes únicos](unique-visitors.md), excepto que solo incluye personas identificadas mediante la `mid`cadena de consulta (basada en la cookie [`s_ecid`](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-analytics.html)).
 
-## Depurar la configuración del ID de Experience Cloud
+## Depuración de la configuración de Experience Cloud ID
 
-La métrica &#39;Visitantes con ID de Experience Cloud&#39; puede resultar útil para solucionar problemas de integraciones de Experience Cloud o identificar áreas del sitio que no tienen implementado el servicio de ID.
+La métrica “Visitantes con Experience Cloud ID” puede resultar útil para solucionar problemas de integraciones de Experience Cloud o identificar áreas del sitio que no tienen implementado el servicio de ID.
 
-Arrastre los &quot;Visitantes con ID de Experience Cloud&quot; en paralelo con los visitantes únicos para compararlos:
+Arrastre los “Visitantes con Experience Cloud ID” en paralelo con los visitantes únicos para compararlos:
 
 ![Comparación única de visitantes](assets/metric-mcvid1.png)
 
-En este ejemplo, observe que cada página tiene el mismo número de &quot;Visitantes únicos&quot; que &quot;Visitantes con ID de Experience Cloud&quot;. Sin embargo, el número total de visitantes únicos es mayor que el número total de visitantes con Experience Cloud ID. Puede crear una métrica [](../c-calcmetrics/cm-overview.md) calculada para averiguar qué páginas no están configurando el servicio de ID. Puede utilizar la siguiente definición:
+En este ejemplo, observe que cada página tiene el mismo número de visitantes únicos y de visitantes con un Experience Cloud ID. Sin embargo, el número total de visitantes únicos es mayor que el número total de visitantes con Experience Cloud ID. Puede crear una [métrica calculada](../c-calcmetrics/cm-overview.md) para averiguar qué páginas no están configurando el servicio de ID. Puede utilizar la siguiente definición:
 
 ![Definición de métrica calculada](assets/metric-mcvid2.png)
 
@@ -38,4 +38,4 @@ Al añadir la métrica calculada al informe, puede ordenar el informe Páginas d
 
 ![Páginas sin servicio de ID](assets/metric-mcvid3.png)
 
-Tenga en cuenta que el elemento de dimensión &quot;Vistas rápidas del producto&quot; no se implementa correctamente con Identity Service. Puede trabajar con los equipos adecuados dentro de su organización para actualizar estas páginas lo antes posible. Puede crear un informe similar con cualquier tipo de dimensión, como el tipo [de](../dimensions/browser-type.md)explorador, la sección [](../dimensions/site-section.md)del sitio o cualquier [eVar](../dimensions/evar.md).
+Tenga en cuenta que el elemento de dimensión &quot;Vistas rápidas del producto&quot; no se implementa correctamente con Identity Service. Puede trabajar con los equipos adecuados dentro de su organización para actualizar estas páginas lo antes posible. Puede crear un informe similar con cualquier tipo de dimensión, como el [tipo de explorador](../dimensions/browser-type.md), la [sección del sitio](../dimensions/site-section.md) o cualquier [eVar](../dimensions/evar.md).
