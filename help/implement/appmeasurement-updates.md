@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '2123'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Fecha de versión: **21 de febrero de 2020**
 
 Fecha de versión: **13 de febrero de 2020**
 
-* AppMeasurement ahora puede obligar a las cookies a incluir el atributo Secure configurando la [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) variable. El requisito de esta variable es que todo el sitio web del cliente se ofrezca de forma segura (HTTPS). (AN-204604)
+* AppMeasurement ahora puede obligar a las cookies a incluir el atributo Secure configurando la variable [`writeSecureCookies`](vars/config-vars/writesecurecookies.md). El requisito de esta variable es que todo el sitio web del cliente se ofrezca de forma segura (HTTPS). (AN-204604)
 
 ## Versión 2.17.0
 
@@ -325,7 +325,7 @@ Fecha de versión: **16 de abril de 2015**
 Fecha de versión: **19 de febrero de 2015**
 
 * Se ha sistematizado todo el tratamiento de las llamadas de seguimiento demoradas con lo cual se han corregido los problemas con las variables de copia de seguridad durante la demora, por ejemplo, el objeto en el que se ha hecho clic.
-* Se ha cambiado la opción a no hacer seguimiento automático del referente tras la primera llamada de seguimiento, de modo que las llamadas segunda, tercera, etc. (por lo general seguimiento de vínculos) no contarán al referente doble si se ha configurado manualmente *`s.referrer`* se ha establecido manualmente antes de la primera llamada de seguimiento.
+* Se ha cambiado la opción a no hacer seguimiento automático del referente tras la primera llamada de seguimiento, de modo que las llamadas segunda, tercera, etc. (por lo general seguimiento de vínculos) no contarán al referente doble si se ha configurado manualmente  *`s.referrer`* se ha establecido manualmente antes de la primera llamada de seguimiento.
 * Se ha actualizado el zip de distribución para incluir la API de visitante 1.3.5.
 
 ## Versión 1.4.2
