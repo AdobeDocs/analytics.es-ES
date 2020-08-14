@@ -26,7 +26,7 @@ Cuando Adobe reconoce un prefijo de variable dinámica, copia automáticamente l
 
 ## Variables dinámicas en Adobe Experience Platform Launch
 
-Puede utilizar variables dinámicas en cualquier campo de dimensión que acepte una cadena. Los elementos de dimensión generalmente se configuran al configurar la extensión de Analytics (variables globales) o en reglas.
+Puede utilizar variables dinámicas en cualquier campo de dimensión que acepte una cadena. Los elementos de Dimension suelen configurarse durante la configuración de la extensión de Analytics (variables globales) o en reglas.
 
 1. Inicie sesión en [launch.adobe.com](https://launch.adobe.com) con sus credenciales de Adobe ID.
 2. Haga clic en la propiedad deseada.
