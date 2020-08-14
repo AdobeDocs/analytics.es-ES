@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
@@ -14,21 +14,21 @@ ht-degree: 67%
 
 *Esta página de ayuda describe cómo funcionan las eVars como dimensiones. Para obtener información sobre cómo implementar eVars, consulte[eVars](/help/implement/vars/page-vars/evar.md)en la guía de implementación de usuario.*
 
-Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como eVars. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+Las eVars son variables personalizadas que se pueden utilizar como desee. Si tiene un [documento de diseño de solución](/help/implement/prepare/solution-design.md), la mayoría de las dimensiones específicas de su organización terminan como eVars. De forma predeterminada, las eVars persisten más allá de la visita en la que están configuradas. Puede personalizar su caducidad y asignación en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes.
 
-El número de eVars disponibles depende del contrato de Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo admite.
+El número de eVars disponibles depende del contrato con Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo permite.
 
-Las eVars no distinguen entre mayúsculas y minúsculas. Si envía el mismo valor en casos diferentes (por ejemplo, `"DOG"` y `"Dog"`), el Analysis Workspace los agrupa en el mismo elemento de dimensión. Se utiliza el caso del primer valor visto al comienzo del mes de sistema de informes. Data warehouse muestra el primer valor encontrado durante el período de solicitud.
+Las eVars no distinguen entre mayúsculas y minúsculas. Si envía el mismo valor en casos diferentes (por ejemplo, `"DOG"` y `"Dog"`), Analysis Workspace los agrupa en el mismo elemento de dimensión. Se utiliza el caso del primer valor visto al comienzo del mes de sistema de informes. Data Warehouse muestra el primer valor encontrado durante el período de solicitud.
 
-## Rellenar eVars con datos
+## Propagar eVars con datos
 
-Cada eVar recopila datos de la cadena [`v1` - `v250` consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de `v1` consulta recopila datos para eVar1, mientras que el parámetro de cadena de `v222` consulta recopila datos para eVar222.
+Cada eVar recopila datos de la cadena de consulta [`v1` - `v250` ](/help/implement/validate/query-parameters.md) en solicitudes de imagen. Por ejemplo, el parámetro de cadena de consulta `v1` recopila datos para eVar1, mientras que el parámetro de cadena de consulta `v222` recopila datos para eVar222.
 
 AppMeasurement, que compila variables JavaScript en una solicitud de imagen para la recopilación de datos, utiliza las variables `eVar1` - `eVar250`. Consulte [eVar](/help/implement/vars/page-vars/evar.md) en la Guía del usuario de implementación para ver las directrices de implementación.
 
 ## Elementos de Dimension
 
-Dado que las eVars contienen cadenas personalizadas en la implementación, su organización determina qué son los elementos de dimensión para cada eVar. Asegúrese de registrar el propósito de cada eVar y elementos de dimensión típicos en un documento [de diseño de](/help/implement/prepare/solution-design.md)solución.
+Dado que las eVars contienen cadenas personalizadas en la implementación, su organización determina qué son los elementos de dimensión para cada eVar. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## Cómo funcionan las eVars
 
@@ -84,7 +84,7 @@ Dado que la asignación y la caducidad determinan qué valores persisten, son vi
 * De forma predeterminada, una eVar utiliza la última asignación. Los valores nuevos sobrescriben los valores persistentes.
 * De forma predeterminada, una eVar utiliza una caducidad de visita. Una vez que finaliza una visita, los valores dejan de copiarse de fila en fila en la columna `post_evar`.
 
-You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+Puede cambiar la asignación y caducidad de la eVar en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes.
 
 ## Valor de las eVars sobre las props
 
@@ -94,4 +94,4 @@ Adobe recomienda utilizar eVars en la mayoría de los casos, admitidas a través
 * De forma predeterminada, las props no persisten más allá de la visita que están configuradas. Las eVars tienen una fecha de caducidad personalizada, lo que permite determinar cuándo una eVar deja de obtener crédito por un evento subsiguiente. Sin embargo, si utiliza el procesamiento [del tiempo de los informes](/help/components/vrs/vrs-report-time-processing.md), tanto las propiedades como las eVars pueden usar un modelo de atribución personalizado.
 * Adobe admite hasta 250 eVars y solo 75 props.
 
-Consulte [prop](prop.md) para obtener más comparaciones entre props y eVars.
+Consulte [prop](prop.md) para obtener más comparaciones entre eVars y props.
