@@ -3,6 +3,9 @@ title: Funciones y métodos
 description: Descubra cómo puede utilizar las funciones y los métodos que Adobe ofrece en su implementación.
 translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+workflow-type: ht
+source-wordcount: '142'
+ht-degree: 100%
 
 ---
 
