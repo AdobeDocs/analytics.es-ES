@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 52%
+ht-degree: 59%
 
 ---
 
@@ -16,7 +16,7 @@ Preguntas más frecuentes sobre los canales de mercadotecnia.
 
 ## Mis códigos de seguimiento no siguen un patrón, y tengo miles que deben especificarse para mi canal de Afiliados.
 
-* Utilice el proceso de eliminación. Si los canales Correo electrónico y Afiliados utilizan el mismo parámetro de cadena de consulta pero solamente tiene unos cuantos códigos de seguimiento de correo electrónico, puede especificar los códigos de seguimiento de correo electrónico en un conjunto de reglas que definan el correo electrónico. Luego, clasifique todos los demás códigos de seguimiento con *`affiliates.`*
+* Utilice el proceso de eliminación. Si los canales Correo electrónico y Afiliados utilizan el mismo parámetro de cadena de consulta pero solamente tiene unos cuantos códigos de seguimiento de correo electrónico, puede especificar los códigos de seguimiento de correo electrónico en un conjunto de reglas que definan el correo electrónico. Luego, clasifique todos los demás códigos de seguimiento con  *`affiliates.`*
 * En su sistema de correo electrónico, agregue un parámetro de cadena de consulta a todas las direcciones URL de páginas de aterrizaje, como *`&ch=eml`*. Cree un conjunto de reglas que detecte si el parámetro de consulta ch es igual a *`eml`*. Si no contiene *`eml`*, entonces es un afiliado.
 
 ## Los dominios de referencia contienen más datos de los que esperaba.
@@ -31,7 +31,7 @@ Preguntas más frecuentes sobre los canales de mercadotecnia.
 
 ## ¿Por qué se atribuye todo mi tráfico de último toque a un dominio interno?
 
-* Hay una regla que concuerda con el tráfico interno. Recuerde que estas reglas se procesan con cada visita que el visitante haga al sitio, y no solo con la primera visita. Si tiene alguna regla similar a *`Page URL exists`* sin ningún otro criterio, con cada visita sucesiva a su sitio web, se encuentran coincidencias con ese canal, porque siempre existe una URL de página.
+* Hay una regla que concuerda con el tráfico interno. Recuerde que estas reglas se procesan con cada visita que el visitante haga al sitio, y no solo con la primera visita. Si tiene alguna regla similar a  *`Page URL exists`* sin ningún otro criterio, con cada visita sucesiva a su sitio web, se encuentran coincidencias con ese canal, porque siempre existe una URL de página.
 
 ## ¿Cómo se depura el tráfico que se muestra en Ningún Canal identificado en el informe?
 
@@ -55,13 +55,13 @@ Por último, cree el canal *Otros* para que capture las visitas restantes, tal c
 
 ## Relación entre primer y último contacto
 
-Para comprender la interacción entre las dimensiones de primer y último toque heredadas y confirmar que las sobrescrituras funcionan según lo esperado, puede extraer un informe de canal de primer toque, subrelacionado con un informe de canal de último toque, con la métrica de éxito clave agregada en (ver ejemplo más abajo). En el ejemplo se muestra la interacción entre los canales de primer y último contacto.
+Para comprender la interacción entre las primeras y últimas dimensiones de contacto, y confirmar que las anulaciones funcionan según lo esperado, puede extraer un informe de canal de primer contacto, subrelacionado con un informe de canal de último contacto, con la métrica de éxito clave en (ver ejemplo más abajo). En el ejemplo se muestra la interacción entre los canales de primer y último contacto.
 
 ![](assets/int-channel3.png)
 
-La intersección donde el primer toque es igual que el último toque es la diagonal de la tabla. Tanto la actualización directa como la actualización de sesión solo obtienen crédito de último toque si también son canales de primer toque, ya que no pueden tomar crédito de otros canales persistentes (filas resaltadas).
+La intersección donde el primer contacto es igual que el último es la diagonal de la tabla. Tanto la actualización directa como la actualización de sesión solo obtienen crédito de último contacto si también son el canal de primer contacto, ya que no pueden tomar crédito de otros canales persistentes (filas resaltadas).
 
-## Razones por las que no se identificó ningún Canal {#no-channel-identified}
+## Razones por las que no se identificó ningún canal {#no-channel-identified}
 
 Cuando las reglas no capturan datos o si las reglas no se han configurado correctamente, el informe muestra los datos en la fila [!UICONTROL No se ha identificado el canal] del informe. Por ejemplo, puede crear un conjunto de reglas denominado *Otro* al final del orden de procesamiento, que también identifique el tráfico interno.
 
@@ -73,9 +73,9 @@ Este tipo de regla sirve de captador global para asegurar que el tráfico de los
 >
 >Debería haber todavía algún tráfico de canal que podría caer en la categoría Ningún canal identificado. Por ejemplo: un visitante viene al sitio, crea un marcador de una página y en la misma visita, vuelve a la página a través del marcador. Debido a que esta no es la primera página de la visita, irá al canal Directo o al canal Otros porque no hay dominio de referencia.
 
-## Razones para la actualización interna de la sesión {#internal}
+## Razones para la actualización interna (actualización de la sesión) {#internal}
 
-El último toque interno (Actualización de sesión) solo puede producirse si también fue el primer toque (consulte &quot;Relación entre primer y último toque&quot; más arriba). Los escenarios siguientes explican cómo la actualización de la sesión podría ser un canal de primer toque.
+El último toque interno (Actualización de sesión) solo puede producirse si también fue el primer toque (consulte &quot;Relación entre primer y último toque&quot; más arriba). Las siguientes situaciones explican cómo la actualización de la sesión podría ser un canal de primer contacto.
 
 * **Tiempo de espera** de sesión: Un visitante llega al sitio web y luego deja la ficha abierta en su explorador para usarla más adelante. El periodo de interacción del visitante caduca (o elimina voluntariamente sus cookies) y utiliza la pestaña abierta para volver a visitar el sitio web. Dado que la dirección URL de referencia es un dominio interno, la visita se clasificará como “Actualización de sesión”.
 
