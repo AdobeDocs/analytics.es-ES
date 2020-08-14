@@ -1,11 +1,11 @@
 ---
 title: Transición de una plataforma de análisis de terceros a Adobe Analytics
 description: Aprendizaje de los conceptos clave para obtener informes dirigido a usuarios familiarizados con otras plataformas, como Google Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ En Adobe Analytics, hay dos formas principales de extraer informes básicos desp
 * **Reports &amp; Analytics** es el método histórico para extraer informes básicos. El menú de la izquierda proporciona una lista de informes prefabricados y permite al usuario navegar hasta el informe que desee y obtener datos. Los segmentos y las métricas proporcionan un grado de personalización aún mayor. Es posible que este diseño le resulte familiar a los usuarios que tengan experiencia con los informes de Google Analytics.
 * **Analysis Workspace** es el método que se recomienda actualmente para extraer la mayoría de los informes. El menú de la izquierda permite al usuario arrastrar y soltar componentes para crear su propio informe. Permite un mayor grado de flexibilidad, por lo que se adapta perfectamente a sus necesidades específicas en materia de informes. Es posible que los usuarios con experiencia en la creación de tableros e informes personalizados de Google Analytics estén familiarizados con este diseño.
 
-Most reports can be created in both [!UICONTROL Reports &amp; Analytics] and [!UICONTROL Analysis Workspace]. Sin embargo, algunos informes solo se pueden extraer mediante una plataforma en concreto. In most cases, Adobe recommends using [!UICONTROL Analysis Workspace], unless a specific feature is only available in [!UICONTROL Reports &amp; Analytics].
+La mayoría de los informes se pueden crear tanto en [!UICONTROL Reports &amp; Analytics] como en [!UICONTROL Analysis Workspace]. Sin embargo, algunos informes solo se pueden extraer mediante una plataforma en concreto. En la mayoría de los casos, Adobe recomienda utilizar [!UICONTROL Analysis Workspace] a menos que una función específica solo esté disponible en [!UICONTROL Reports &amp; Analytics].
 
 ## Ruta de aprendizaje recomendada
 
@@ -29,7 +29,7 @@ Adobe recomienda empezar con los conceptos más básicos sobre la obtención de 
 
 * [Crear un informe básico en Analysis Workspace para usuarios de GA](reports/create-report.md)
 
-Once you are familiar with components in [!UICONTROL Analysis Workspace], you can learn how to recreate most reports using the right components.
+Una vez que conozca los componentes de [!UICONTROL Analysis Workspace], puede aprender a recrear la mayoría de los informes con los componentes adecuados.
 
 * [Creación de informes en tiempo real en Adobe Analytics](reports/realtime-reports.md)
 * [Creación de informes de audiencia en Adobe Analytics](reports/audience-reports.md)
