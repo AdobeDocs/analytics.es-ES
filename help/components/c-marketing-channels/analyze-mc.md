@@ -1,36 +1,36 @@
 ---
-title: Analizar Canales de mercadotecnia
+title: Analizar Canales de marketing
 description: Obtenga información sobre cómo utilizar las dimensiones de Canales de marketing en Workspace.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
-# Analizar Canales de mercadotecnia
+# Analizar Canales de marketing
 
-Probablemente quiera saber cuál de sus canales de mercadotecnia es el más efectivo y con quién, para que pueda realizar un mejor destinatario de sus esfuerzos y recibir un mejor retorno en los dólares de mercadotecnia. En Adobe Analytics, las dimensiones y métricas de Canales de marketing en Workspace son una de las herramientas que pueden ayudarle a realizar un seguimiento de la influencia de diferentes canales en sus pedidos, ingresos, etc. y le proporciona información útil sobre el canal. Estas son las dimensiones y métricas que puede utilizar relacionadas con los Canales de mercadotecnia:
+Quizá quiera saber cuál de sus canales de marketing es el más efectivo y con quién, para que pueda dirigir mejor sus esfuerzos y recibir un mejor retorno de la inversión de marketing. En Adobe Analytics, las dimensiones y métricas de los Canales de marketing en Workspace son una de las herramientas que pueden ayudarle a realizar un seguimiento de la influencia de diferentes canales en sus pedidos, ingresos, etc. y le proporciona información útil sobre el canal. Estas son las dimensiones y métricas que puede usar relacionadas con los Canales de marketing:
 
 ![](assets/mc-dims.png)
 
 | Dimensión/Métrica | Definición |
 |---|---|
-| Canal de marketing | Ésta es la dimensión de Canales de mercadotecnia que se recomienda utilizar. Los modelos de IQ de atribución se pueden aplicar en tiempo de ejecución. Esta dimensión se comporta de forma idéntica a la dimensión de Canal de último toque, pero tiene una etiqueta diferente para evitar confusiones al utilizarla con un modelo de atribución diferente. |
-| Canal de último toque | Dimensión heredada, con modelo de atribución de último toque preaplicado e inmodificable. |
-| Canal de primer toque | Dimensión heredada, con modelo de atribución de primer toque preaplicado e inmodificable. |
-| Instancias de Canal de mercadotecnia | Esta métrica mide el número de veces que se definió un canal de marketing en una solicitud de imagen, incluidas las vistas de página estándar y las llamadas de vínculo personalizado. No incluye valores persistentes. |
-| Nuevos compromisos | Esta métrica es similar a Instancias, pero solo se incrementa cuando el canal de marketing de primer toque se define en una solicitud de imagen. |
+| Canal de marketing | Esta es la dimensión de Canales de marketing que se recomienda utilizar. Los modelos de Attribution IQ se pueden aplicar en tiempo de ejecución. Esta dimensión se comporta de forma idéntica a la dimensión del canal de último contacto, pero tiene una etiqueta diferente para evitar confusiones al usarla con un modelo de atribución distinto. |
+| Canal de último contacto | Dimensión heredada, con modelo de atribución de último contacto preaplicado e inmodificable. |
+| Canal de primer contacto | Dimensión heredada, con modelo de atribución de primer contacto preaplicado e inmodificable. |
+| Instancias de Canal de marketing | Esta métrica mide el número de veces que se definió un canal de marketing en una solicitud de imagen, incluidas las vistas de página estándar y las llamadas de vínculo personalizado. No incluye valores persistentes. |
+| Nuevos compromisos | Esta métrica es similar a Instancias, pero solo se incrementa cuando el canal de marketing de primer contacto se define en una solicitud de imagen. |
 
 ## Análisis básico
 
-Esta tabla improvisada muestra las métricas Pedidos en línea, Ingresos en línea y la Tasa de conversión de cada uno de los Canales de mercadotecnia:
+Esta tabla improvisada muestra las métricas Pedidos en línea, Ingresos en línea y la Tasa de conversión de cada uno de los Canales de marketing:
 
 ![](assets/mc-viz1.png)
 
-Aquí puede ver los pedidos en línea e ingresos en línea de cada Canal de mercadotecnia en un gráfico circular:
+Aquí puede ver los pedidos en línea e ingresos en línea de cada Canal de marketing en un gráfico circular:
 
 ![](assets/mc-viz2.png)
 
@@ -38,25 +38,25 @@ Este gráfico de líneas muestra las tendencias de los pedidos en línea de vari
 
 ![](assets/mc-viz3.png)
 
-## análisis avanzada
+## Análisis avanzado
 
-Los detalles de Canales de marketing se insertan más profundamente en cada canal para mostrar campañas, colocaciones, etc. específicas. Puede desglosar cada Canal de mercadotecnia en detalles:
+Los detalles de Canales de marketing se insertan más profundamente en cada canal para mostrar campañas, colocaciones, etc. específicas. Puede desglosar cada Canal de marketing en detalles:
 
 ![](assets/mc-viz4.png)
 
 ## Aplicar modelos de atribución
 
-Puede utilizar IQ [de](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) atribución para aplicar distintos modelos de atribución instantáneamente:
+Puede utilizar [Attribution IQ](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) para aplicar distintos modelos de atribución de manera instantánea:
 
 ![](assets/mc-viz5.png)
 
 Observe cómo la misma métrica (Pedidos en línea) genera resultados diferentes al aplicar modelos de atribución diferentes.
 
-Aquí hay algunos videos que explican el CI de atribución con más detalle: [Lista de reproducción de IQ de atribución](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR).
+Aquí hay algunos videos que explican el Attribution IQ con más detalle: [lista de reproducción de Attribution IQ](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR).
 
-## análisis de mercadotecnia entre fichas
+## Análisis de marketing entre fichas
 
-Con el Canal de primer toque heredado y el Canal de último toque, puede obtener una vista útil en las interacciones de canal:
+Con el Canal de primer contacto heredado y el Canal de último contacto, puede obtener una vista útil en las interacciones de canal:
 
 ![](assets/mc-viz6.png)
 
