@@ -2,8 +2,11 @@
 description: El Creador de métricas calculadas proporciona un lienzo en el que arrastrar y soltar dimensiones, métricas, segmentos y funciones para crear métricas personalizadas basadas en lógica de jerarquía de contenedor, reglas y operadores. Esta herramienta de desarrollo integrada le permite crear y guardar métricas calculadas simples o métricas calculadas avanzadas complejas.
 title: Crear métricas
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +63,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
       <li id="li_A8815F2D8D284874AD701A7B103D82A3">Etiquetas basadas en <b>nombres de equipos</b>, como Marketing social o Marketing móvil. </li> 
       <li id="li_A51A4515A541488E9D90296A955E9F4F">Etiquetas de <b>proyectos</b> (etiquetas de análisis), como análisis de páginas de entrada. </li> 
       <li id="li_B4605470A7094026AC168420B64BBCC3">Etiquetas de <b>categorías</b>: para hombres, geografía. </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B">Etiquetas de <b>flujo de trabajo</b>: pendiente de aprobación, conservado para (una unidad empresarial específica). </li> 
+      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>Etiquetas de flujo de trabajo: pendiente de aprobación, conservado para (una unidad empresarial específica).</b> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -102,7 +105,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + Nuevo </span> </td> 
-   <td colname="col3"> <p>Le permite crear un nuevo componente, como un nuevo segmento (que le dirige al <a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >creador de segmentos</a>). </p> </td> 
+   <td colname="col3"> <p>Le permite crear un nuevo componente, como un nuevo segmento (que le dirige al <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >creador de segmentos</a>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Buscar componentes </p> </td> 
