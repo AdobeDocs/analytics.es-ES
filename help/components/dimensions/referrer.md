@@ -2,10 +2,10 @@
 title: Referente
 description: Dirección URL en la que se encontraba un visitante antes de hacer clic para ir al sitio.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 51%
+source-wordcount: '438'
+ht-degree: 49%
 
 ---
 
@@ -29,7 +29,7 @@ Esta dimensión se debe configurar en la interfaz de Analytics y necesita datos 
 
 ## Elementos de Dimension
 
-Los elementos de Dimension incluyen direcciones URL que los visitantes pulsan en el sitio. If a hit does not have any referrer data, it groups under the dimension item `"Typed/Bookmarked"`. Este elemento de dimensión significa que no había ningún valor de remitente del reenvío, como si el visitante escribiera manualmente la dirección del explorador en la barra de direcciones o hiciera clic en un marcador.
+Los elementos de Dimension incluyen direcciones URL que los visitantes pulsan en el sitio. If a hit does not have any referrer data, it groups under the dimension item `"Typed/Bookmarked"`. Este elemento de dimensión significa que no había ningún valor de remitente del reenvío, como si el visitante escribiera manualmente la dirección del explorador en la barra de direcciones o hiciera clic en un marcador. El elemento `"Typed/Bookmarked"` de dimensión también aparece para redirecciones que no admiten Analytics. Consulte [Redirecciones y alias](/help/technotes/redirects.md) en la guía del usuario de Technotes.
 
 ### Elementos de Dimension que contienen `googleusercontent.com`
 
