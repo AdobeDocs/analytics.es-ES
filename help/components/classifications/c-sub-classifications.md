@@ -5,7 +5,7 @@ title: Acerca de las subclasificaciones
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 100%
@@ -32,13 +32,13 @@ Cada clasificación de este modelo es independiente y corresponde a un nuevo sub
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-Para obtener más información sobre el archivo de datos, consulte [Archivos de datos de clasificación](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
+Para obtener más información sobre el archivo de datos, consulte  [Archivos de datos de clasificación](/help/components/classifications/importer/c-saint-data-files.md).
 
 Las clasificaciones de múltiples niveles están formadas por clasificaciones principales y secundarias. Por ejemplo:
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Clasificaciones principales:** una clasificación principal es toda clasificación que tenga asociada una clasificación secundaria. Una clasificación puede ser clasificación principal y secundaria a la vez. Las clasificaciones principales de nivel superior corresponden a clasificaciones de un solo nivel (Consulte [Clasificaciones de un solo nivel](/help/components/classifications/c-sub-classifications.md)).
+**Clasificaciones principales:** una clasificación principal es toda clasificación que tenga asociada una clasificación secundaria. Una clasificación puede ser clasificación principal y secundaria a la vez. Las clasificaciones principales de nivel superior corresponden a clasificaciones de un solo nivel (Consulte  [Clasificaciones de un solo nivel](/help/components/classifications/c-sub-classifications.md)).
 
 **Clasificaciones secundarias:** una clasificación secundaria es toda clasificación que tenga otra clasificación como su principal en lugar de la variable. Las clasificaciones secundarias ofrecen información adicional sobre su clasificación principal. Por ejemplo, la clasificación [!UICONTROL Campañas] puede tener una clasificación secundaria de Propietario de la campaña. Las clasificaciones [!UICONTROL numéricas] también funcionan como métricas en los informes de clasificación.
 
@@ -46,7 +46,7 @@ Cada clasificación, ya sea principal o secundaria, constituye una columna de da
 
 `<parent_name>^<child_name>`
 
-Para obtener más información sobre el formato del archivo de datos, consulte [Archivos de datos de clasificación](/help/components/classifications/c-classifications-importer/c-saint-data-files.md).
+Para obtener más información sobre el formato del archivo de datos, consulte [Archivos de datos de clasificación](/help/components/classifications/importer/c-saint-data-files.md).
 
 Por ejemplo:
 
@@ -80,7 +80,7 @@ Al cargar los archivos de datos correspondientes a esta clasificación de produc
 | 410390014 | Polo-SS | Polo para hombre, Manga corta (L, 03) | M | L | 03 | Jaspeado |
 | 410390015 | Polo-LS | Polo para mujer, Manga larga (S,23) | F | S | 23 | Agua |
 
-### Clasificación del producto - Múltiples archivos (Archivo 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### Clasificación del producto - Múltiples archivos (Archivo 1)  {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | CLAVE | NOMBRE DEL PRODUCTO | DETALLES DEL PRODUCTO | SEXO | TAMAÑO | CÓDIGO |
 |---|---|---|---|---|---|
@@ -88,7 +88,7 @@ Al cargar los archivos de datos correspondientes a esta clasificación de produc
 | 410390014 | Polo-SS | Polo para hombre, Manga corta (L, 03) | M | L | 03 |
 | 410390015 | Polo-LS | Polo para mujer, Manga larga (S,23) | F | S | 23 |
 
-### Clasificación del producto - Múltiples archivos (Archivo 2) {#section_19ED95C33B174A9687E81714568D56A3}
+### Clasificación del producto - Múltiples archivos (Archivo 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 
 | CLAVE | CÓDIGO | CODE&amp;Hat;COLOR |
 |---|---|---|
