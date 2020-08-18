@@ -4,7 +4,7 @@ keywords: Troubleshooting Analytics
 title: Preguntas frecuentes
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 94%
@@ -46,7 +46,7 @@ Los dispositivos de Apple informan de su versión de firmware en la cadena del a
 
 **¿Por qué los totales en la parte inferior de mi informe no coinciden al sumar los valores?**
 
-Los elementos de dimensión suelen aplicarse en varios lugares; por ejemplo: visitas que abarcan la medianoche o múltiples productos que pertenecen a un único pedido. El elemento de dimensión se registra en todos los elementos de línea aplicables, pero se anula la duplicación en el total del informe. Consulte [Comparar la suma de elementos de línea para informar del total](https://helpx.adobe.com/es/analytics/kb/sum-line-items-different-from-total.html) en la base de conocimientos de Analytics para obtener más información.
+Los elementos de Dimension suelen aplicarse en varios lugares; por ejemplo: visitas que abarcan la medianoche o múltiples productos que pertenecen a un único pedido. El elemento de dimensión se registra en todos los elementos de línea aplicables, pero se anula la duplicación en el total del informe. Consulte [Comparar la suma de elementos de línea para informar del total](https://helpx.adobe.com/es/analytics/kb/sum-line-items-different-from-total.html) en la base de conocimientos de Analytics para obtener más información.
 
 **¿Cómo excluyo datos de direcciones de una IP específica en mi grupo de informes?**
 
@@ -58,8 +58,8 @@ No se puede eliminar un grupo de informes. Sin embargo, se puede ocultar un grup
 
 **Al utilizar la segmentación, ¿qué contenedor debo utilizar? ¿Vista de página, visita o visitante?**
 
-Según la amplitud con la que desee capturar los datos, utilizará un contenedor de segmentos u otro. Los contenedores de vista de página solo generan visitas que coinciden con los criterios del segmento, lo cual resulta útil para filtrar partes irrelevantes de las visitas. Los contenedores de visita reúnen todas las visitas de una visita individual en la que una o más visitas cumplieron los criterios del segmento, lo cual resulta útil para ver las sesiones en general. Los contenedores de visitante proporcionan todas las visitas individuales en las que una visita cumplió los criterios del segmento, lo cual resulta útil para ver a los usuarios. Como analista, debe determinar qué contenedor de segmentos le conviene utilizar. Consulte [Información general de segmentación](/help/components/c-segmentation/seg-overview.md) en la guía del usuario Componentes para obtener más información.
+Según la amplitud con la que desee capturar los datos, utilizará un contenedor de segmentos u otro. Los contenedores de vista de página solo generan visitas que coinciden con los criterios del segmento, lo cual resulta útil para filtrar partes irrelevantes de las visitas. Los contenedores de visita reúnen todas las visitas de una visita individual en la que una o más visitas cumplieron los criterios del segmento, lo cual resulta útil para ver las sesiones en general. Los contenedores de visitante proporcionan todas las visitas individuales en las que una visita cumplió los criterios del segmento, lo cual resulta útil para ver a los usuarios. Como analista, debe determinar qué contenedor de segmentos le conviene utilizar. Consulte [Información general de segmentación](/help/components/segmentation/seg-overview.md) en la guía del usuario Componentes para obtener más información.
 
 **¿Por qué no se muestra mi segmento en Data Warehouse?**
 
-La plataforma no está optimizada para manejar algunos tipos de datos, como las rutas, debido a la arquitectura de procesamiento única de Data Warehouse. Consulte [Compatibilidad de segmentos de Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md) en la guía del usuario Componentes para obtener más información.
+La plataforma no está optimizada para manejar algunos tipos de datos, como las rutas, debido a la arquitectura de procesamiento única de Data Warehouse. Consulte [Compatibilidad de segmentos de Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md) en la guía del usuario Componentes para obtener más información.
