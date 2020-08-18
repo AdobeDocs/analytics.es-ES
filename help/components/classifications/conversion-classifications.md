@@ -5,7 +5,7 @@ title: Clasificaciones de conversión
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Las clasificaciones sirven para clasificar los valores en grupos e informar a ni
 
 Las clasificaciones de conversión permiten clasificar variables de conversión. Una vez clasificado, cualquier informe que se pueda generar con los datos clave también se puede generar con las propiedades de datos asociadas.
 
-Después de activar las clasificaciones, utilice el [Importador de clasificaciones](/help/components/classifications/c-classifications-importer/c-working-with-saint.md) para asignar valores determinados a la clasificación adecuada.
+Después de activar las clasificaciones, utilice el [Importador de clasificaciones](/help/components/classifications/importer/c-working-with-saint.md) para asignar valores determinados a la clasificación adecuada.
 
 ## Descripciones de clasificaciones de conversión {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
