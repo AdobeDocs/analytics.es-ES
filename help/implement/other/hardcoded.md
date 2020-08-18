@@ -1,11 +1,11 @@
 ---
 title: Implementación con solicitudes de imagen codificadas
 description: Implemente Adobe Analytics con una etiqueta de imagen HTML (solicitud de imagen codificada)
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 66%
 
 ---
 
@@ -29,26 +29,44 @@ A continuación se muestra un ejemplo de solicitud de imagen codificada mediante
 ```
 
 * `https://` designa el protocolo. Haga coincidir el protocolo utilizado en la solicitud de imagen con el protocolo que utiliza el resto del sitio.
-* `example.sc.omtrdc.net` es el valor contenido en la variable `trackingServer`.
+* `example.sc.omtrdc.net` es el valor contenido en la variable [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
 * `/b/ss/` se incluye en todas las solicitudes de imagen. Forma parte de la estructura de archivos de las imágenes almacenadas en los servidores de recopilación de datos de Adobe.
 * `examplersid` es el ID del grupo de informes al que desea enviar los datos.
 * `/1/` es el origen de la visita. Consulte `hit_source` en [Referencia de columna Datos](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) en la Guía del usuario de exportación. Controla el orden que utilizan las cookies y otros métodos para identificar a los visitantes.
 * Todo lo que hay después del delimitador de cadena de consulta (`?`) son los datos que desea incluir en los informes. Consulte [Parámetros de consulta de recopilación de datos](../validate/query-parameters.md) para ver la lista completa de parámetros que puede incluir en una solicitud de imagen.
 
+## Solicitudes de imagen codificadas en Microsoft Outlook
+
+Dado que la mayoría de los mensajes de correo electrónico están basados en HTML, es posible rastrear los mensajes abiertos y enviar esos datos a Adobe Analytics. Si su organización opta por utilizar este método, tenga en cuenta lo siguiente:
+
+* Cada procesamiento de correo electrónico puede incrementar una llamada al servidor facturable.
+* Solo se realiza el seguimiento de los clientes de correo electrónico que admiten HTML y permiten imágenes. Algunos clientes de correo electrónico, como Microsoft Outlook, bloquean las imágenes externas de forma predeterminada. Estos correos electrónicos no se rastrean hasta que el destinatario opta por descargar imágenes externas.
+
+Para componer un correo electrónico de Outlook que incluya una solicitud de imagen:
+
+1. Abra un editor HTML. Si no hay un editor HTML disponible, también funciona un editor de texto sin formato.
+2. En un nuevo archivo HTML, inserte una `<img>` etiqueta de solicitud de imagen codificada en una `<body>` etiqueta .
+3. Guarde el archivo HTML.
+4. Abra Microsoft Outlook y redacte un correo electrónico.
+5. Vaya a la ficha Insertar y haga clic en **Adjuntar archivo**. Seleccione el archivo HTML de solicitud de imagen.
+6. Haga clic en el menú emergente situado junto a Insertar y seleccione **Insertar como texto**. Si hace clic en el botón Insertar sin el menú emergente, el archivo HTML se convierte en un archivo adjunto, que no funciona.
+
+El correo electrónico no parece cambiar, ya que la solicitud de imagen es un píxel transparente de 1x1. Si desea ver la solicitud de imagen con fines de prueba, modifique el archivo HTML para incluir un borde, texto adicional u otro contenido.
+
 ## Preguntas más frecuentes
 
 Descubra las preguntas más comunes sobre el uso solicitudes de imagen codificadas.
 
-**¿Distinguen entre mayúsculas y minúsculas los parámetros de cadena de consulta?**
+### ¿Distinguen entre mayúsculas y minúsculas los parámetros de cadena de consulta?
 
 Sí. Asegúrese de que los parámetros de cadena de consulta coincidan exactamente o de que no se registren. Por ejemplo, `pagename` no es un parámetro de cadena de consulta válido, mientras que `pageName` lo es.
 
-**¿Puedo incluir espacios en la cadena de consulta?**
+### ¿Puedo incluir espacios en la cadena de consulta?
 
 Los valores de cada uno de los parámetros de cadena de consulta se codifican con URL. La codificación de URL convierte los caracteres que normalmente no son válidos en las direcciones URL en caracteres válidos. Por ejemplo, un carácter de espacio se convierte en `%20`. Asegúrese de que cualquier carácter que no sea alfanumérico tenga codificación de dirección URL. La URL de Adobe descodifica automáticamente los valores cuando las solicitudes de imagen llegan a los servidores de recopilación de datos.
 
 Consulte [Referencia de codificación de URL HTML](https://www.w3schools.com/tags/ref_urlencode.asp) en W3Schools para obtener más información sobre cómo funciona la codificación de URL.
 
-**¿Cuál es el número máximo de caracteres que puede tener un solo valor?**
+### ¿Cuál es el número máximo de caracteres que puede tener un solo valor?
 
 Cada variable tiene una longitud máxima diferente. La mayoría de las variables de tráfico tienen hasta 100 bytes, mientras que la mayoría de las variables de conversión tienen hasta 255 bytes. Cuando una solicitud de imagen llega a los servidores de recopilación de datos, Adobe trunca automáticamente estos valores a su longitud máxima.
