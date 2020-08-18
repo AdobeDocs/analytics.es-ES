@@ -2,10 +2,10 @@
 title: Estados estadounidenses
 description: El estado de Estados Unidos del que procede el visitante.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 91%
+source-wordcount: '368'
+ht-degree: 79%
 
 ---
 
@@ -25,6 +25,8 @@ Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El 
 ## Elementos de Dimension
 
 Los elementos de Dimension incluyen regiones y el país en el que reside la región. Los valores de ejemplo incluyen `"California"`, `"Texas"` o `"Virginia"`. The dimension item `"Unspecified"` includes all international traffic outside of the United States.
+
+Esta dimensión puede incluir `"AOL"`, un proveedor de servicio de acceso telefónico a Internet. A los suscriptores de este servicio se les asigna un punto de acceso. Los usuarios de AOL utilizan la dirección IP de este punto de acceso. Dado que esta dimensión se basa en la dirección IP, se utiliza la geolocalización del punto de acceso en lugar de la ubicación real del visitante.
 
 ## Diferencias entre la ubicación real y la notificada
 
