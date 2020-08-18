@@ -1,19 +1,16 @@
 ---
-description: Las clasificaciones permiten aplicar categorías a los datos de variables de Analytics para mostrarlos de distintos modos cuando se generan los informes.
-subtopic: Classifications
-title: Acerca de las clasificaciones
-topic: Admin tools
-uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
+title: Información general sobre las clasificaciones
+description: Personalice la agrupación de elementos de dimensión.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 100%
+source-wordcount: '605'
+ht-degree: 98%
 
 ---
 
 
-# Acerca de las clasificaciones
+# Información general sobre las clasificaciones
 
 Las clasificaciones permiten aplicar categorías a los datos de variables de Analytics para mostrarlos de distintos modos cuando se generan los informes.
 
@@ -27,17 +24,9 @@ Con las clasificaciones se establece una relación entre la variable y los metad
 
 Una vez clasificado, los informes que pueden generarse con la variable clave pueden hacerlo también con los atributos asociados. Por ejemplo, los [!UICONTROL ID de producto] pueden clasificarse con atributos de producto adicionales, como el nombre, el color, el tamaño, la descripción y la SKU del producto. Si se aumentan los datos de informes y análisis con atributos adicionales, podrán generarse informes más profundos y complejos.
 
->[!IMPORTANT]
->
->Se ha eliminado de la base de código la posibilidad de importar clasificaciones numéricas 2 y fechas activadas. Este cambio entra en vigor con el lanzamiento de mantenimiento de junio de 2019. Si tiene columnas numéricas o con fecha habilitada en el archivo de importación, esas celdas serán omitidas sin aviso y cualquier otra información de ese archivo se importará como de costumbre. Las clasificaciones existentes se pueden exportar a través del flujo de trabajo de clasificación estándar y seguirán estando disponibles en los informes.
-
->[!NOTE]
->
->En la versión de mantenimiento de Analytics del 10 de mayo de 2018, Adobe empezó a limitar la funcionalidad de las clasificaciones numéricas y habilitadas por fecha. Estos tipos de clasificaciones se eliminaron de las interfaces del Administrador y del Importador de clasificaciones. No es posible añadir nuevas clasificaciones numéricas y habilitadas por fecha. Las clasificaciones existentes se podrán seguir administrando (cargado y eliminado) a través del flujo de trabajo de clasificación estándar y permanecerán disponibles en los informes.
-
 Una vez creadas las clasificaciones, pueden aprovecharse los nuevos atributos de datos en otros análisis e informes de Adobe Analytics.
 
-**Ejemplo de códigos de seguimiento**
+## Ejemplo de códigos de seguimiento
 
 Supongamos que, en lugar de ver las campañas tan solo por el código de seguimiento, deseamos ver sus resultados por Motor de búsqueda, Palabra clave y Canal de campaña. En lugar de dedicar variables de conversión a cada uno de estos elementos, se crean tres clasificaciones de la variable de campaña para representar a Motor de búsqueda, Palabra clave y Canal de campaña. Esta estrategia permite ver los eventos de éxito del sitio por las cuatro variables, sin necesidad de etiquetado adicional.
 
