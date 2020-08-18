@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Ejecutar un informe de análisis de cohorte
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-translation-type: ht
-source-git-commit: 79849c574909543d74e2935e493008927700585d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Cree una cohorte y ejecute un informe de [!UICONTROL análisis de cohorte] en An
 
    Seleccione celdas (contiguas o no) y haga clic con el botón secundario en > **[!UICONTROL Crear segmento a partir de la selección]**.
 
-1. En el [Generador de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md), continúe editando el segmento y luego haga clic en **[!UICONTROL Guardar]**.
+1. En el [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md), continúe editando el segmento y luego haga clic en **[!UICONTROL Guardar]**.
 
    El segmento guardado está disponible para usar en el panel [!UICONTROL Segmento] en [!UICONTROL Analysis Workspace].
 1. Especifique un nombre y guarde su proyecto de cohorte.
