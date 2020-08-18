@@ -2,10 +2,10 @@
 title: Dominio de referencia
 description: Dominio general en el que se encontraba un visitante antes de hacer clic en el sitio.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 56%
+source-wordcount: '492'
+ht-degree: 53%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe persiste en el dominio de referencia de una visita. Si un visitante sale y
 
 ## Elementos de Dimension
 
-Los elementos de Dimension incluyen los dominios en los que los visitantes hacen clic hasta el sitio. If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"Typed/Bookmarked"`. Este elemento de dimensión significa que no había ningún valor de remitente del reenvío, como si el visitante escribiera manualmente la dirección del explorador en la barra de direcciones o hiciera clic en un marcador.
+Los elementos de Dimension incluyen los dominios en los que los visitantes hacen clic hasta el sitio. If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"Typed/Bookmarked"`. Este elemento de dimensión significa que no había ningún valor de remitente del reenvío, como si el visitante escribiera manualmente la dirección del explorador en la barra de direcciones o hiciera clic en un marcador. El elemento `"Typed/Bookmarked"` de dimensión también aparece para redirecciones que no admiten Analytics. Consulte [Redirecciones y alias](/help/technotes/redirects.md) en la guía del usuario de Technotes.
 
 ### Elementos de Dimension que contienen `googleusercontent.com`
 
