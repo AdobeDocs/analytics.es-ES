@@ -1,22 +1,22 @@
 ---
-description: Varios informes de Adobe Analytics pueden mostrar No especificado, Otro o Desconocido según el informe específico que se visualice. En general, este elemento de línea indica que la variable no se definió o que no estuvo disponible.
-title: No especificado, Otro y Desconocido en los informes
+description: Varios informes de Adobe Analytics pueden mostrar No especificado, Ninguno, Otro o Desconocido, según el informe específico visualizado. En general, este elemento de línea indica que la variable no se definió o que no estuvo disponible.
+title: No especificado, Ninguno, Otro y Desconocido en sistema de informes
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: fc54cb27f365015b6c7716d68bfc4cbe80b40b8b
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 96%
+source-wordcount: '515'
+ht-degree: 87%
 
 ---
 
 
-# “No especificado”, “Otro” y “Desconocido” en los informes
+# &quot;No especificado&quot;, &quot;Ninguno&quot;, &quot;Otro&quot; y &quot;Desconocido&quot; en sistema de informes
 
 Varios informes de Adobe Analytics pueden mostrar “No especificado”, “Otro” o “Desconocido” según el informe específico que se visualice. En general, este elemento de línea indica que la variable no se definió o que no estuvo disponible. La siguiente es una lista completa de cómo cada informe puede tener alguno de estos elementos de línea.
 
-## “No especificado” en un informe
+## &quot;No especificado&quot; (o &quot;Ninguno&quot;) en sistema de informes
 
-“No especificado” es un elemento de línea bastante común en los informes.
+“No especificado” es un elemento de línea bastante común en los informes. También se le conoce con frecuencia como &quot;Ninguno&quot;.
 
 * **Un evento se activa sin una variable de conversión:** por ejemplo, un usuario visita su sitio y realiza un compra sin ningún valor eVar1. Si ve los pedidos mediante la dimensión eVar1, comprobará que no hay ningún valor al que atribuir este pedido. Por lo tanto, se atribuye automáticamente al estado “No especificado”.
 * **Datos no clasificados en los informes de clasificación:** cuando se ven los datos de clasificación, cualquier valor que no tenga datos asociados con esa clasificación en concreto vuelve al estado “No especificado”. Para resolver este problema, clasifique el valor de la variable principal.
