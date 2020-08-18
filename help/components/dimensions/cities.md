@@ -2,10 +2,10 @@
 title: Ciudades
 description: Ciudad en la que se originó la visita.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 96%
+source-wordcount: '358'
+ht-degree: 80%
 
 ---
 
@@ -25,6 +25,8 @@ Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El 
 ## Elementos de Dimension
 
 Los elementos Dimension incluyen ciudades de todo el mundo. Los valores de ejemplo incluyen `"New York (New York, United States)"`, `"Bangalore (Karnataka, India)"` o `"London (London, United Kingdom)"`.
+
+Algunos elementos de dimensión pueden incluir `"AOL"`, un proveedor de servicio de acceso telefónico a Internet. A los suscriptores de este servicio se les asigna un punto de acceso basado en el país donde se establece su número de cuenta. Los usuarios de AOL utilizan la dirección IP de este punto de acceso. Dado que esta dimensión se basa en la dirección IP, se utiliza la geolocalización del punto de acceso en lugar de la ubicación real del visitante.
 
 ## Diferencias entre la ubicación real y la notificada
 
