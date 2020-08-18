@@ -2,7 +2,7 @@
 title: Informes de adquisición en Adobe Analytics
 description: Información sobre la creación de informes basados en adquisiciones, usando Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 99%
@@ -80,7 +80,7 @@ Esta característica de análisis de publicidad debe estar configurada para que 
 
 Los informes de Actividad social proporcionan información similar a la de su correspondiente informe de Comportamiento, excepto en el contexto de las redes sociales. Estos datos están disponibles en Analysis Workspace, al combinar una dimensión con un segmento.
 
-A veces, los visitantes llegan al sitio a través de diversos canales en la misma sesión. Por ejemplo: un visitante hace clic en una página de medios sociales y unos minutos más tarde utiliza un motor de búsqueda para llegar a su sitio. En estos casos, los dominios no sociales pueden aparecer en este informe. Para excluir los dominios no sociales, ordene el informe por visitas o cree una copia del segmento para que se base en las visitas individuales. Consulte la dimensión [Contenedores de segmentación](/help/components/c-segmentation/seg-overview.md) en la Guía de usuario para obtener más información.
+A veces, los visitantes llegan al sitio a través de diversos canales en la misma sesión. Por ejemplo: un visitante hace clic en una página de medios sociales y unos minutos más tarde utiliza un motor de búsqueda para llegar a su sitio. En estos casos, los dominios no sociales pueden aparecer en este informe. Para excluir los dominios no sociales, ordene el informe por visitas o cree una copia del segmento para que se base en las visitas individuales. Consulte la dimensión [Contenedores de segmentación](/help/components/segmentation/seg-overview.md) en la Guía de usuario para obtener más información.
 
 ### Social: referencias de red
 
@@ -112,7 +112,7 @@ El informe Flujo de usuarios muestra los datos de rutas en el contexto de los vi
 
 1. Haga clic en el icono de visualizaciones de la izquierda y arrastre una visualización de flujo al espacio de trabajo sobre la tabla de forma libre
 2. Haga clic en el icono Componentes, a la izquierda y, a continuación, arrastre el segmento **Visitas desde medios sociales** a la pequeña área que se encuentra justo encima de la visualización de flujo denominada “Colocar un segmento aquí”.
-3. Busque la dimensión **Páginas** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los elementos de dimensión son de color amarillo.
+3. Busque la dimensión **Páginas** y, a continuación, haga clic en el icono de flecha para mostrar los valores de la página. Los elementos Dimension son de color amarillo.
 4. Busque el valor de página deseado para comenzar y arrástrelo al espacio etiquetado como “Dimensión o elemento” en el centro
 5. Este informe de flujo es interactivo. Haga clic en cualquiera de los valores para expandir los flujos a páginas posteriores o anteriores. Utilice el menú que aparece al hacer clic con el botón derecho para expandir o contraer columnas. También se pueden utilizar distintas dimensiones dentro del mismo informe de flujo.
 
