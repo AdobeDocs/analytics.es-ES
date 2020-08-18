@@ -2,7 +2,7 @@
 description: Requisitos del sistema y comparación de Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, Data Warehouse y Data Workbench
 title: Comparación de productos y requisitos de Analytics
 translation-type: tm+mt
-source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
+source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -28,7 +28,7 @@ Si no sabe qué producto de Adobe Analytics utilizar, consúltelo [aquí](/help/
 | **Límite de fila visible (antes de la paginación)** | 400 | 200 | 50000 | Sin límite | Sin límite | Sin límite | 50000 |
 | **Varios grupos de informes** | [Sí](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sí, con limitaciones | Sí | No | Sí | No | Sí |
 | **Número de desgloses** | Sin límite | Hasta 2 | Hasta 2 | Sin límite | Sin límite | Sin límite | Sin límite, ejecutar en varias consultas |
-| **Segmentación** <br> [Más información](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) | Sí | Sí | Sí | Sí, con [limitaciones](/help/components/c-segmentation/seg-reference/seg-compatibility.md) | Sí | No | Sí |
+| **Segmentación** <br> [Más información](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sí | Sí | Sí | Sí, con [limitaciones](/help/components/segmentation/seg-reference/seg-compatibility.md) | Sí | No | Sí |
 | **Métricas calculadas** <br> [Más información](/help/components/c-calcmetrics/cm-overview.md) | Sí, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | Sí | Sí | No | Sí | No | Sí, con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canales de marketing** <br> [Más información](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sí | Sí | Sí | Sí | Sí | Sí: [va_finder, va_close](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sí |
 | **Análisis de cohorte** | [Sí](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | No | No | No | Sí | No | No |
@@ -37,5 +37,5 @@ Si no sabe qué producto de Adobe Analytics utilizar, consúltelo [aquí](/help/
 | **Depuración** <br> [Más información](/help/analyze/analysis-workspace/curate-share/curate.md) | Sí - Proyecto y VRS | No | No | No | No | No | Sí: solo VRS |
 | **Uso compartido de proyectos** <br> [Más información](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sí, con funciones de proyecto | Sí | Sí | No | Sí | No | No |
 | **Envío programado** | Sí | Sí | Sí | Sí | No | Sí | No |
-| **Destinos de envío** | Correo electrónico | Correo electrónico | Correo electrónico, FTP, SFTP, [publicar en Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Correo electrónico, FTP. Póngase en contacto con el Servicio de atención al cliente para obtener asistencia técnica de destino adicional, incluidos SFTP, Azure Blob y Amazon S3 | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
+| **Destinos de envío** | Correo electrónico  | Correo electrónico  | Correo electrónico, FTP, SFTP, [publicar en Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | Correo electrónico, FTP. Póngase en contacto con el Servicio de atención al cliente para obtener asistencia técnica de destino adicional, incluidos SFTP, Azure Blob y Amazon S3 | - | FTP, SFTP, Azure Blob, Amazon S3 | - |
 | **Procesamiento de tiempo del informe VRS** <br> [Más información](/help/components/vrs/vrs-report-time-processing.md) | Sí | No | No | No | No | No | Sí |
