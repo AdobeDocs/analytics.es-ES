@@ -1,0 +1,192 @@
+---
+title: IP y dominios utilizados en el Adobe Experience Cloud
+description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
+translation-type: tm+mt
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+workflow-type: tm+mt
+source-wordcount: '526'
+ht-degree: 12%
+
+---
+
+
+# IP y dominios utilizados en el Adobe Experience Cloud
+
+Algunas configuraciones de cortafuegos bloquean direcciones IP que se originan en servidores de recopilación de datos de Adobe o servidores responsables de acceder a los datos. La siguiente lista de bloques de direcciones IP cubre las direcciones conocidas actualmente involucradas en el Adobe Experience Cloud. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización.
+
+>[!IMPORTANT]
+>
+>Aunque Adobe hace todo lo posible para mantener este documento actualizado, no puede garantizar que la lista de intervalos de IP permanezca igual. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP del Adobe o un proveedor de servicio de Internet deja de funcionar.
+
+## Permitir dominios de tecnología dependientes
+
+Adobe Analytics utiliza los siguientes hosts para mejorar el rendimiento y la experiencia del producto. Adobe recomienda agregar estos dominios a la lista de permitidos del cortafuegos para una experiencia óptima con Adobe Analytics.
+
+| Tecnología | Dominio |
+| --- | --- |
+| Dominio de Adobe Analytics | `adobe.com` |
+| Dominio heredado de Adobe Analytics | `omniture.com` |
+| Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
+| Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
+| Gainsight | `esp.aptrinsic.com` |
+| LaunchDarkly | `app.launchdarkly.com` |
+| Almacenamiento de blob de Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
+| CDN de Microsoft Azure | `aauicdnva7.azureedge.net` |
+
+## Todos los bloques de direcciones IP de Adobe
+
+La siguiente tabla abarca todas las direcciones IP públicas de Adobe Experience Cloud que son propiedad de Adobe. Estos intervalos incluyen servidores de recopilación de datos estándar y servidores de recopilación de datos regionales para Adobe Analytics. No incluyen hosts de AWS individuales.
+
+Muchos de los servicios y capacidades del Adobe comparten bloques e intervalos de IP, aunque algunos tienen su propio espacio dedicado. Los bloques que utilizan una sola solución están indicados como tales.
+
+| Bloque IP (Notación CIDR) | Notas |
+| --- | --- |
+| `62.210.161.0/24` | Específico para Adobe Campaign |
+| `63.140.32.0/19` |  |
+| `66.117.16.0/20` |  |
+| `66.235.128.0/19` |  |
+| `67.226.212.0/23` | Específico para Adobe Advertising Cloud |
+| `103.202.219.0/24` | Específico para Adobe Advertising Cloud |
+| `130.248.0.0/16` |  |
+| `172.82.192.0/18` |  |
+| `185.34.188.0/22` |  |
+| `185.148.48.0/24` | Específico para Adobe Advertising Cloud |
+| `192.243.224.0/19` |  |
+| `198.98.22.0/23` | Específico para Adobe Advertising Cloud |
+| `205.219.231.0/24` |  |
+| `208.67.40.0/22` |  |
+| `208.77.136.0/22` |  |
+| `208.91.168.0/21` | Específico para Adobe Advertising Cloud |
+
+## Bloques de direcciones IP de FTP y recopilación de datos
+
+Si su organización prefiere permitir intervalos de direcciones IP específicos, puede utilizar la siguiente tabla. Todos los rangos de esta sección se incluyen en la tabla anterior.
+
+| Ubicación | Intervalo IP (Notación CIDR) | Notas |
+| --- | --- | --- |
+| Ámsterdam | `66.117.28.0/23` |  |
+| Dallas | `205.219.231.0/24` |  |
+| Dallas | `66.235.152.0/22` |  |
+| Dallas | `66.235.140.0/22` |  |
+| Dallas | `63.140.32.0/21` |  |
+| Dallas | `172.82.208.0/22` |  |
+| Hong Kong RAE de China | `66.117.24.0/22` |  |
+| Londres | `66.235.156.0/24` |  |
+| Londres | `66.235.148.0/23` |  |
+| Londres | `66.117.16.0/23` | Específico para Adobe Campaign |
+| Londres | `63.140.40.0/22` |  |
+| Londres | `208.67.41.0/24` |  |
+| Londres | `192.243.254.0/23` |  |
+| Londres | `192.243.244.0/22` |  |
+| Londres | `185.34.188.0/23` |  |
+| Londres | `130.248.152.0/21` |  |
+| Londres | `172.82.224.0/21` |  |
+| Londres | `172.82.232.0/21` |  |
+| Oregón | `192.243.240.0/22` |  |
+| Oregón | `192.243.232.0/21` |  |
+| Oregón | `192.243.224.0/21` |  |
+| Oregón | `130.248.160.0/21` |  |
+| Oregón | `130.248.148.0/22` |  |
+| Oregón | `172.82.192.0/21` |  |
+| Oregón | `172.82.216.0/21` |  |
+| París | `62.210.161.0/24` | Específico para Adobe Campaign |
+| París | `66.117.18.0/23` | Específico para Adobe Campaign |
+| París | `208.67.40.0/24` |  |
+| Singapur | `66.235.150.0/24` |  |
+| Singapur | `66.235.130.0/23` |  |
+| Singapur | `63.140.44.0/22` |  |
+| Singapur | `208.67.43.0/24` |  |
+| Singapur | `172.82.240.0/22` |  |
+| Singapur | `172.82.246.0/23` |  |
+| Singapur | `172.82.248.0/21` |  |
+| San Jose | `66.117.20.0/24` |  |
+| San Jose | `66.235.132.0/22` |  |
+| San Jose | `130.248.128.0/22` |  |
+| San Jose | `192.243.248.0/23` |  |
+| San Jose | `172.82.200.0/22` |  |
+| San Jose | `66.235.136.0/22` |  |
+| San Jose | `208.91.175.0/24` |  |
+| San Jose | `208.91.174.0/24` |  |
+| San Jose | `208.91.169.0/24` |  |
+| Sídney | `216.104.216.0/23` |  |
+| Tokio | `66.235.159.0/24` |  |
+| Tokio | `66.117.21.0/24` |  |
+| Tokio | `63.140.52.0/24` |  |
+| Tokio | `63.140.50.0/23` |  |
+| Virginia | `66.235.144.0/22` |  |
+| Virginia | `208.77.138.0/23` |  |
+| Virginia | `208.77.136.0/23` |  |
+| Virginia | `192.243.250.0/23` |  |
+| Virginia | `130.248.144.0/22` |  |
+| Virginia | `172.82.204.0/22` |  |
+| Virginia | `172.82.212.0/22` |  |
+| Virginia | Consulte Hosts de AWS |  |
+
+## Hosts de AWS
+
+Algunas funciones de Adobe utilizan los servicios Web de Amazon para recopilar datos. La siguiente tabla incluye hosts de AWS reservados para Adobe. Estos hosts **no están** incluidos en el rango de bloques acumulado anterior.
+
+| Ubicación | Host |
+| --- | --- |
+| Australia | `13.238.77.77` |
+| Australia | `52.62.21.192` |
+| Australia | `54.66.152.159` |
+| Francia | `15.188.154.177` |
+| Francia | `15.236.175.233` |
+| Francia | `15.236.9.100` |
+| India | `13.232.177.101` |
+| India | `13.235.4.163` |
+| India | `3.6.119.69` |
+| Irlanda | `52.17.94.37` |
+| Irlanda | `52.49.253.16` |
+| Irlanda | `52.51.63.15` |
+| Londres | `172.82.228.19` |
+| Oregón | `52.42.60.49` |
+| Oregón | `54.212.169.56` |
+| Oregón | `54.214.170.191` |
+| Singapur | `13.228.34.224` |
+| Singapur | `18.136.20.161` |
+| Singapur | `52.74.162.152` |
+| Tokio | `13.112.72.86` |
+| Tokio | `18.178.74.225` |
+| Tokio | `18.179.88.228` |
+| Virginia | `34.234.106.101` |
+| Virginia | `52.22.231.198` |
+| Virginia | `54.157.65.136` |
+| Virginia | `107.23.142.4` |
+| Virginia | `34.192.14.184` |
+| Virginia | `34.192.146.173` |
+| Virginia | `34.192.229.76` |
+| Virginia | `34.196.183.216` |
+| Virginia | `34.196.219.120` |
+| Virginia | `34.196.54.55` |
+| Virginia | `34.197.179.21` |
+| Virginia | `34.197.45.49` |
+| Virginia | `34.197.93.163` |
+| Virginia | `34.198.80.27` |
+| Virginia | `34.199.102.192` |
+| Virginia | `34.199.46.40` |
+| Virginia | `34.199.99.62` |
+| Virginia | `34.200.67.35` |
+| Virginia | `34.204.146.235` |
+| Virginia | `34.204.164.1` |
+| Virginia | `34.204.27.249` |
+| Virginia | `34.205.224.111` |
+| Virginia | `34.206.69.71` |
+| Virginia | `52.193.88.44` |
+| Virginia | `52.200.108.250` |
+| Virginia | `52.200.171.156` |
+| Virginia | `52.201.49.195` |
+| Virginia | `52.205.244.105` |
+| Virginia | `52.207.161.156` |
+| Virginia | `52.22.148.55` |
+| Virginia | `52.4.155.255` |
+| Virginia | `52.72.182.205` |
+| Virginia | `52.72.185.111` |
+| Virginia | `54.152.218.194` |
+| Virginia | `54.173.37.66` |
+| Virginia | `54.173.69.38` |
+| Virginia | `54.236.180.248` |
+| Virginia | `54.236.71.218` |
+| Virginia | `54.80.103.29` |
+| Virginia | `54.88.180.124` |
