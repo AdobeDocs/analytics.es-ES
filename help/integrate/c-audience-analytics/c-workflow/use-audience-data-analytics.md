@@ -3,8 +3,11 @@ description: 'También puede utilizar las dimensiones Audiencias de AAM en Analy
 solution: Experience Cloud
 title: Utilización de los datos de audiencias en Analytics
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
 
@@ -69,7 +72,7 @@ Las [visualizaciones de Venn](https://docs.adobe.com/content/help/es-ES/analytic
 
 ## Generador de segmentos {#section_2AA81852A1404AB894472CA8959461B6}
 
-Puede incorporar las dimensiones Audiencias al [Generador de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) de Analytics junto con la información de comportamiento que Analytics recopila.
+Puede incorporar las dimensiones Audiencias al [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) de Analytics junto con la información de comportamiento que Analytics recopila.
 
 1. Vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Segmentos]**.
 1. Haga clic en **[!UICONTROL Agregar]** para crear un segmento nuevo.
