@@ -5,10 +5,10 @@ user-guide-title: Guía de componentes de Analytics
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 98%
+source-wordcount: '617'
+ht-degree: 97%
 
 ---
 
@@ -141,31 +141,31 @@ ht-degree: 98%
    + [Visitantes con Experience Cloud ID](metrics/visitors-with-ecid.md)
    + [Visitas](metrics/visits.md)
 + Segmentación {#segmentation}
-   + [Segmentación de Analytics](c-segmentation/seg-home.md)
-   + [Acerca de los segmentos y los contenedores](c-segmentation/seg-overview.md)
-   + [Funciones de segmentación en Analysis Workspace](c-segmentation/segmentation-in-analysis-workspace.md)
+   + [Segmentación de Analytics](segmentation/seg-home.md)
+   + [Acerca de los segmentos y los contenedores](segmentation/seg-overview.md)
+   + [Funciones de segmentación en Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
    + Flujo de trabajo de segmentación {#segmentation-workflow}
-      + [Resumen del flujo de trabajo de segmentación](c-segmentation/c-segmentation-workflow/seg-workflow.md)
-      + [Planificar segmentos](c-segmentation/c-segmentation-workflow/seg-plan.md)
-      + [Generar segmentos](c-segmentation/c-segmentation-workflow/seg-build.md)
-      + [Generar segmentos secuenciales](c-segmentation/c-segmentation-workflow/seg-sequential-build.md)
-      + [Etiquetar segmentos](c-segmentation/c-segmentation-workflow/seg-tag.md)
-      + [Aprobar segmentos](c-segmentation/c-segmentation-workflow/seg-approve.md)
-      + [Compartir segmentos](c-segmentation/c-segmentation-workflow/t-seg-share.md)
-      + [Publicación de segmentos en Experience Cloud](c-segmentation/c-segmentation-workflow/seg-publish.md)
-      + [Seleccionar y aplicar segmentos](c-segmentation/c-segmentation-workflow/t-seg-apply.md)
-      + [Filtrar segmentos](c-segmentation/c-segmentation-workflow/t-seg-filter.md)
-      + [Marcar segmentos como favoritos](c-segmentation/c-segmentation-workflow/t-seg-favorite.md)
-      + [Eliminar segmentos](c-segmentation/c-segmentation-workflow/seg-delete.md)
-      + [Administración de segmentos](c-segmentation/c-segmentation-workflow/seg-manage.md)
+      + [Resumen del flujo de trabajo de segmentación](segmentation/segmentation-workflow/seg-workflow.md)
+      + [Planificar segmentos](segmentation/segmentation-workflow/seg-plan.md)
+      + [Generar segmentos](segmentation/segmentation-workflow/seg-build.md)
+      + [Generar segmentos secuenciales](segmentation/segmentation-workflow/seg-sequential-build.md)
+      + [Etiquetar segmentos](segmentation/segmentation-workflow/seg-tag.md)
+      + [Aprobar segmentos](segmentation/segmentation-workflow/seg-approve.md)
+      + [Compartir segmentos](segmentation/segmentation-workflow/t-seg-share.md)
+      + [Publicación de segmentos en Experience Cloud](segmentation/segmentation-workflow/seg-publish.md)
+      + [Seleccionar y aplicar segmentos](segmentation/segmentation-workflow/t-seg-apply.md)
+      + [Filtrar segmentos](segmentation/segmentation-workflow/t-seg-filter.md)
+      + [Marcar segmentos como favoritos](segmentation/segmentation-workflow/t-seg-favorite.md)
+      + [Eliminar segmentos](segmentation/segmentation-workflow/seg-delete.md)
+      + [Administración de segmentos](segmentation/segmentation-workflow/seg-manage.md)
    + Referencia de segmentos {#segment-reference}
-      + [Operadores de comparación para segmentos](c-segmentation/seg-reference/seg-operators.md)
-      + [Compatibilidad del segmento con el Data Warehouse](c-segmentation/seg-reference/seg-compatibility.md)
-      + [Derechos de segmentos por función](c-segmentation/seg-reference/seg-rights.md)
-      + [Resolución de problemas](c-segmentation/seg-reference/c-troubleshooting.md)
-   + [Preguntas frecuentes](c-segmentation/seg-transition.md)
-   + [Novedades de la segmentación con Analytics](c-segmentation/whats-new-segmentation.md)
-   + [Guía de transición para Ad Hoc Analysis](c-segmentation/seg-transition-ad-hoc.md)
+      + [Operadores de comparación para segmentos](segmentation/seg-reference/seg-operators.md)
+      + [Compatibilidad del segmento con el Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
+      + [Derechos de segmentos por función](segmentation/seg-reference/seg-rights.md)
+      + [Resolución de problemas](segmentation/seg-reference/c-troubleshooting.md)
+   + [Preguntas frecuentes](segmentation/seg-transition.md)
+   + [Prácticas recomendadas](segmentation/best-practices.md)
+   + [Guía de transición para Ad Hoc Analysis](segmentation/seg-transition-ad-hoc.md)
 + Métricas calculadas {#calculated-metrics}
    + [Métricas calculadas y calculadas avanzadas (derivadas)](c-calcmetrics/cm-overview.md)
    + [Preguntas frecuentes](c-calcmetrics/cm-transition.md)
@@ -224,28 +224,24 @@ ht-degree: 98%
    + [Clasificaciones de conversión](classifications/conversion-classifications.md)
    + [Clasificaciones de tráfico](classifications/traffic-classifications.md)
    + [Jerarquías de clasificación](classifications/classification-hierarchies.md)
-   + Importador de clasificaciones (cargar) {#classifications-importer}
-      + [Resumen del importador de clasificaciones](classifications/c-classifications-importer/c-working-with-saint.md)
-      + [Archivos de datos de clasificación](classifications/c-classifications-importer/c-saint-data-files.md)
-      + [Eliminar datos de clasificación](classifications/c-classifications-importer/t-delete-classification-data.md)
-      + [Aplicar secuencias de escape a los datos de clasificación](classifications/c-classifications-importer/t-classifications-escape-data.md)
-      + [Claves no clasificadas](classifications/c-classifications-importer/nonclassified-keys.md)
-      + [Plantilla de clasificación](classifications/c-classifications-importer/c-download-saint-data.md)
-      + [Importación del explorador y FTP](classifications/c-classifications-importer/import-file.md)
-      + [Importación del explorador](classifications/c-classifications-importer/browser-import.md)
-      + [Importación de FTP](classifications/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
+   + Classifications importer {#classifications-importer}
+      + [Resumen del importador de clasificaciones](classifications/importer/c-working-with-saint.md)
+      + [Archivos de datos de clasificación](classifications/importer/c-saint-data-files.md)
+      + [Eliminar datos de clasificación](classifications/importer/t-delete-classification-data.md)
+      + [Aplicar secuencias de escape a los datos de clasificación](classifications/importer/t-classifications-escape-data.md)
+      + [Claves no clasificadas](classifications/importer/nonclassified-keys.md)
+      + [Plantilla de clasificación](classifications/importer/c-download-saint-data.md)
+      + [Importación del explorador y FTP](classifications/importer/import-file.md)
+      + [Importación del explorador](classifications/importer/browser-import.md)
+      + [Importación de FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+      + [Tiempo de procesamiento](classifications/importer/processing-time.md)
+      + [Resolución de problemas](classifications/importer/troubleshooting.md)
    + Clasificación del Generador de reglas {#classifications-rulebuilder}
       + [Flujo de trabajo del generador de reglas de clasificación](classifications/crb/classification-rule-builder.md)
       + [Conjuntos de reglas de clasificación](classifications/crb/classification-rule-set.md)
       + [Reglas de clasificación](classifications/crb/classification-quickstart-rules.md)
       + [Definiciones de reglas de clasificación](classifications/crb/classification-rule-definitions.md)
       + [Subclasificaciones y el Generador de reglas](classifications/crb/sub-classification-rule-builder.md)
-   + Clasificaciones numéricas 2 {#numeric2-classification}
-      + [Resumen de clasificaciones numéricas 2](classifications/c-numeric-2/c-numeric-2-classifications.md)
-      + [Crear clasificaciones numéricas 2](classifications/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [Importar clasificaciones numéricas 2](classifications/c-numeric-2/c-import-numeric-2-classifications.md)
-      + [Ejemplos](classifications/c-numeric-2/c-examples.md)
-   + [Clasificaciones de resolución de errores](classifications/c-classifications-troubleshooting.md)
 + [Eventos de calendario](t-calendar-event.md)
 + Informes en tiempo real {#real-time-reporting}
    + [Resumen de informes en tiempo real](c-real-time-reporting/realtime.md)
