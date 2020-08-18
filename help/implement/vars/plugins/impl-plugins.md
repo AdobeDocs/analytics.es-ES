@@ -1,11 +1,11 @@
 ---
 title: Información general de complementos
 description: Pegue código en el sitio para incorporar nuevas funciones.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
@@ -31,10 +31,14 @@ Cada organización tiene diferentes necesidades de implementación, por lo que p
    * Las implementaciones que utilizan `AppMeasurement.js` suelen inicializar el objeto de seguimiento en la parte superior del archivo JavaScript.
 2. Segundo, incluya el código del complemento.
    * La extensión “Complementos comunes de Analytics” tiene una configuración de acción en la que puede inicializar complementos.
-   * Si no desea utilizar el complemento, puede pegar el código del complemento en el editor de código personalizado al configurar la extensión de Analytics.
+   * Si no desea utilizar la extensión, puede pegar código de complemento en el editor de código personalizado al configurar la extensión de Analytics.
    * Si la implementación no utiliza Launch, puede pegar el código del complemento en `AppMeasurement.js`, en cualquier lugar después de crear la instancia del objeto de seguimiento.
 3. Tercero, llame al complemento.
    * Todas las implementaciones, tanto dentro como fuera de Launch, utilizan JavaScript para llamar a los complementos. Llame al complemento con el formato documentado en la página de dicho complemento.
 4. Valide la implementación y publíquelo.
 
 Muchas organizaciones llaman a complementos con la función [`doPlugins`](../functions/doplugins.md). Aunque esta función no es obligatoria, Adobe considera que es recomendable utilizarla. AppMeasurement llama a esta función justo antes de compilar y enviar una solicitud de imagen, lo cual es ideal ya que varios complementos dependen de otras variables de Analytics.
+
+## Utilizar complementos con objetos de seguimiento no estándar
+
+Los complementos no funcionan de forma predeterminada con objetos de seguimiento que no sean `s`. Sin embargo, puede modificar el código del complemento para que quepa el objeto de seguimiento personalizado. Dentro de un complemento determinado, reemplace todas las referencias a con `s` el objeto de seguimiento deseado.
