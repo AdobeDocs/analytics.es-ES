@@ -2,10 +2,10 @@
 title: Ocurrencias
 description: Número de visitas configurado o en las que persiste una variable.
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 73%
+source-wordcount: '153'
+ht-degree: 67%
 
 ---
 
@@ -16,7 +16,7 @@ La métrica “Ocurrencias” muestra el número de visitas configurado o en las
 
 ## Cálculo de esta métrica
 
-De todas las visitas individuales de un grupo de informes, incluya las visitas en las que se haya definido o mantenido un elemento de dimensión. Algunas dimensiones, como las [eVars](../dimensions/evar.md), persisten más allá de la visita en la que están configuradas. Las métricas como [Vistas de página](page-views.md) y [Ocurrencias](occurrences.md) cuentan tanto los valores iniciales como los persistentes.
+De todas las visitas individuales de un grupo de informes, incluya las visitas en las que se haya definido o mantenido un elemento de dimensión. Algunas dimensiones, como las [eVars](../dimensions/evar.md), persisten más allá de la visita en la que están configuradas. Esta métrica cuenta tanto los valores iniciales como los persistentes.
 
 ## Comparar con métricas similares
 
