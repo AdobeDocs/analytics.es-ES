@@ -5,7 +5,7 @@ title: Grupos de informes virtuales y consideraciones sobre el etiquetado de gru
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -97,7 +97,7 @@ Si opta por eliminar llamadas secundarias al servidor en favor de los grupos de 
 
 1. Cree grupos de informes virtuales de modo que coincidan con los datos en los grupos de informes secundarios. Segmente en una dimensión personalizada que distinga los sitios entre sí.
    * Si migra desde una implementación con etiquetado de grupos múltiples que ya existe, compare los segmentos del grupo de informes virtuales con los grupos de informes secundarios existentes. Antes de mover usuarios al grupo de informes virtuales, debe asegurarse de que los datos sean comparables.
-   * Se recomienda utilizar el [apilamiento de segmentos](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) para poder editar un segmento en una ubicación y aplicarlo a todos los grupos de informes virtuales dependientes.
+   * Se recomienda utilizar el [apilamiento de segmentos](/help/components/segmentation/segmentation-workflow/seg-build.md) para poder editar un segmento en una ubicación y aplicarlo a todos los grupos de informes virtuales dependientes.
    * Utilice contenedores de visita si desea que los grupos de informes virtuales sean más excluyentes de manera mutua.
 2. Después de confirmar que los grupos de informes virtuales están correctamente configurados, elimine los ID del grupo de informes secundario de la implementación. Para eliminar los grupos de informes secundarios:
    * En Adobe Experience Platform Launch, haga clic en la “x” junto a los grupos de informes que ya no desee utilizar.
