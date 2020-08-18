@@ -1,8 +1,11 @@
 ---
 title: Solución de problemas de implementación de JavaScript
 description: Obtenga más información sobre problemas comunes y prácticas recomendadas para solucionar problemas de la implementación de JavaScript.
-translation-type: ht
-source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
+translation-type: tm+mt
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 73%
 
 ---
 
@@ -78,3 +81,30 @@ s.pageName = "        Home Page";
 ```
 
 Estos dos valores de variable se consideran independientes en Adobe Analytics. Sin embargo, el espacio en blanco se elimina automáticamente con fines de visualización. El resultado es un informe que muestra dos elementos de línea &quot;Página principal&quot; aparentemente idénticos. Compruebe que los valores de las variables no contengan espacios en blanco antes o después del valor deseado.
+
+## Solicitudes de imagen truncadas
+
+Las implementaciones que rellenan muchas variables con valores largos a veces se pueden ejecutar en solicitudes de imagen truncadas. Algunos exploradores más antiguos, como Internet Explorer, imponen un límite de 2083 caracteres en las direcciones URL de solicitudes de imagen. Si su organización se enfrenta a solicitudes de imagen muy largas, pruebe lo siguiente:
+
+* **Utilice el servicio** de ID de Experience Cloud: Las bibliotecas de AppMeasurement 1.4.1 y posteriores envían automáticamente solicitudes de imagen mediante el POST HTTP si son demasiado largas. Los datos enviados mediante este método no se truncan independientemente de la longitud. Consulte Servicio [de ID de](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) Adobe Experience Cloud para obtener más información.
+* **Usar reglas** de procesamiento: [Las reglas](/help/admin/admin/c-processing-rules/processing-rules.md) de procesamiento pueden copiar valores de una variable a otra. Este método evita que se establezca el mismo valor en varias variables. Por ejemplo:
+
+   Ejecutar siempre:<br>
+Sobrescribir el valor de prop1 con eVar1<br>Sobrescribir el valor de eVar2 con eVar1<br>Sobrescribir el valor de prop2 con eVar1<br>
+
+   A continuación, configure eVar1 en la implementación:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   ```
+
+* **Usar variables** dinámicas: Si la implementación rellena muchas variables con el mismo valor, puede utilizar variables [](/help/implement/vars/page-vars/dynamic-variables.md) dinámicas para acortar la dirección URL de la solicitud:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   s.eVar2 = "D=v1";
+   s.prop1 = "D=v1";
+   s.prop2 = "D=v1";
+   ```
+
+* **Usar clasificaciones**: Si los nombres de producto o de página son inusualmente largos, puede utilizar un valor o código de identificación y, a continuación, utilizar [las clasificaciones](/help/components/classifications/c-classifications.md) para mostrar un nombre más sencillo.
