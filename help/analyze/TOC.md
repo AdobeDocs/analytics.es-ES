@@ -5,9 +5,9 @@ user-guide-title: Guía de herramientas de Analytics
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: a70f2c6c8aecae9a8a4e22e460dd2b8e6b885db9
+source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1108'
 ht-degree: 99%
 
 ---
@@ -242,6 +242,7 @@ ht-degree: 99%
       + [Solución de problemas de integración de Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Paquetes de contenido de Adobe Analytics para Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Solución de problemas y prácticas recomendadas para el Report Builder](report-builder/troubleshoot.md)
+   + [macros de Visual Basic](report-builder/vba.md)
 + Activity Map {#activity-map}
    + [Preguntas frecuentes sobre Activity Map](activity-map/activity-map.md)
    + Introducción {#getting-started}
