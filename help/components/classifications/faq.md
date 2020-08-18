@@ -2,9 +2,9 @@
 title: Preguntas más frecuentes sobre las clasificaciones
 description: Preguntas más frecuentes sobre el uso de las clasificaciones.
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,24 @@ Los archivos de clasificación cargados con un valor clave o un valor de clasifi
 
 * **Solicitar una regla** de VISTA: Un consultor de servicios de ingeniería configura una regla del lado del servidor por usted con un costo adicional. Póngase en contacto con el administrador de cuentas de su organización para solicitar una regla de VISTA.
 
-## ¿Puedo usar el cargador para clasificar los elementos de dimensión que aún no existen?
+## ¿Puedo usar el importador de clasificaciones para clasificar los elementos de dimensión que aún no existen?
 
 Sí, *sin embargo, al hacerlo se cuenta cada elemento de dimensión como una llamada al servidor facturable.*
 
 * Los artículos de Dimension que ya existen no incurren en ningún costo adicional.
 * El uso del generador de reglas de clasificación no clasifica elementos inexistentes y, por lo tanto, no incurre en ningún costo adicional.
+
+## ¿Cómo clasifico los valores que contienen caracteres especiales?
+
+Normalmente no se recomienda el uso de caracteres especiales como comas o comillas de doble en el sistema de informes. Sin embargo, en algunos casos su uso es necesario. Si los valores de sistema de informes contienen los caracteres que elija clasificar, siga estos pasos:
+
+1. Inicie sesión en Adobe Analytics y, a continuación, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Importador]** de clasificaciones.
+2. Click the **[!UICONTROL Browser export]** tab.
+3. Configure los ajustes de exportación y asegúrese de que la opción &#39;Salida de cotización&#39; NO está seleccionada.
+4. Haga clic en **[!UICONTROL Exportar archivo]** y abra el archivo descargado en un editor de hojas de cálculo.
+5. En la línea 1, busque la celda C1, que contiene el valor `v:2.0`. Cambie el valor `v:2.1` y aplique las clasificaciones deseadas al libro.
+6. Cargue el archivo como lo haría con cualquier otra clasificación.
+
+## ¿Qué son las clasificaciones numéricas 2?
+
+Las clasificaciones numéricas 2 permiten clasificar los elementos de dimensión como métricas basadas en el tiempo. Se retiraron de la interfaz de usuario de Analytics en julio de 2019.
