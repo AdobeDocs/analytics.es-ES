@@ -2,7 +2,7 @@
 title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 98%
@@ -95,8 +95,8 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **s_code.js:** nombre del archivo JavaScript utilizado en versiones históricas de Adobe Analytics. El nombre actual del archivo JavaScript utilizado es AppMeasurement.js.
 * **Satellite:** ya no se usa como término. Se trata del antiguo nombre de la Dynamic Tag Management.
 * **Llamada secundaria al servidor:** nombre alternativo para solicitudes de imagen o visitas que se utiliza principalmente en el contexto del etiquetado y la facturación de grupos múltiples. Cuando se envía la misma visita a varios grupos de informes, todos los grupos de informes menos el primero que recibe la visita se consideran llamadas secundarias al servidor. Consulte también Llamadas primarias al servidor.
-* **Segmento:** le permite centrarse en un subconjunto específico de los datos. Consulte [Segmentación](/help/components/c-segmentation/seg-overview.md) en la guía del usuario sobre componentes.
-* **Contenedor de segmento:** parte de un segmento que determina la cantidad de datos que se va a incluir. Los contenedores pueden basarse en la vista de página, la visita o el visitante. Consulte [Segmentación](/help/components/c-segmentation/seg-overview.md) en la guía del usuario sobre componentes.
+* **Segmento:** le permite centrarse en un subconjunto específico de los datos. Consulte [Segmentación](/help/components/segmentation/seg-overview.md) en la guía del usuario sobre componentes.
+* **Contenedor de segmento:** parte de un segmento que determina la cantidad de datos que se va a incluir. Los contenedores pueden basarse en la vista de página, la visita o el visitante. Consulte [Segmentación](/help/components/segmentation/seg-overview.md) en la guía del usuario sobre componentes.
 * **Serialización:** Consulte Serialización de eventos.
 * **Llamada al servidor:** nombre alternativo para una solicitud de imagen o una visita que se utiliza principalmente en el contexto de la facturación.
 * **Acceso único:** visita en la que una dimensión tenía tan solo un valor único individual. La visita individual puede tener varias visitas, siempre y cuando no haya varios valores únicos. Consulte la métrica [Acceso único](/help/components/metrics/single-access.md) en la guía del usuario Componentes. Consulte también Devolución.
