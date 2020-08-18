@@ -3,7 +3,7 @@ title: Actualizaciones de documentación técnica para Adobe Analytics
 description: Actualizaciones importantes en el repositorio de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: de7783174d55c03ac73140e8ab05005284788459
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 97%
@@ -26,7 +26,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 |---|---|
 | 21 de julio de 2020 | Principales actualizaciones y revisiones de Análisis [entre dispositivos](/help/components/cda/overview.md). Se añadió la vinculación [basada en campos](/help/components/cda/field-based-stitching.md). |
 | 28 de abril de 2020 | Documentación añadida para la métrica [Velocidad de contenido](/help/components/metrics/content-velocity.md). |
-| 12 de marzo de 2020 | Actualizaciones añadidas a los [segmentos de Publish en Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md). |
+| 12 de marzo de 2020 | Actualizaciones añadidas a los [segmentos de Publish en Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 de marzo de 2020 | Actualizaciones a la latencia de vinculación CDA. |
 | 27 de febrero de 2020 | Documentación añadida para [Adobe Analytics Labs](https://docs.adobe.com/content/help/es-ES/analytics/analyze/tech-previews/overview.html). |
 | 25 de febrero de 2020 | Variable [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) añadida. |
