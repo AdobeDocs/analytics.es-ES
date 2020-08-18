@@ -3,10 +3,10 @@ description: Introducción a Ad Hoc Analysis.
 title: Introducción
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 99%
+source-wordcount: '1330'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si ejecuta Ad Hoc Analysis en Java 7 después de la actualización de mantenimiento de julio de 2018, Adobe no ofrecerá compatibilidad para su implementación de análisis específicos.
+>Desde julio de 2018, Ad Hoc Analysis solo admite Java 8 o versiones posteriores. Adobe no admite la ejecución de Ad Hoc Analysis en Java 7 o versiones posteriores.
 
 * Tarjeta de vídeo compatible con OpenGL 2.0
 * Cookies: obligatorio
@@ -84,9 +84,7 @@ c_sys_reqs.xml
 
 ## Instrucciones de actualización de Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-A partir de julio de 2018, Ad Hoc Analysis solo admitirá Java 8 o versiones posteriores. Si ejecuta Ad Hoc Analysis en Java 7 después de la actualización de mantenimiento de julio de 2018, Adobe no ofrecerá compatibilidad para su implementación de análisis específicos.
-
-Nuestros archivos .jar están firmados con un cifrado seguro de 256 bits con el que las versiones de Java anteriores a la 1.7.0_76 no son compatibles. Este certificado de 256 bits nos permite ofrecerle una mayor seguridad.
+Los archivos .jar de Adobe están firmados con un cifrado de 256 bits seguro que no es compatible con versiones de Java inferiores a 1.7.0_76. Este certificado de 256 bits nos permite ofrecerle una mayor seguridad.
 
 Si todavía tiene Java 7 instalado, debe actualizar primero a la versión de mantenimiento de julio de 2018. A continuación se muestra cómo:
 
