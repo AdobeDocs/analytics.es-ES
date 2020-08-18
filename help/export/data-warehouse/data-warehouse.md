@@ -3,9 +3,9 @@ description: El Data Warehouse hace referencia a la copia de datos de Analytics 
 title: Resumen de Data Warehouse
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ En esta tabla se describen los campos y las opciones de la ficha [!UICONTROL Sol
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Segmentos disponibles</span> </td> 
-   <td colname="col2"> <p>Permite seleccionar la parte de la población de visitantes que debe examinarse y generar segmentos complejos. Puede cargar segmentos preconfigurados, crear nuevos segmentos y almacenar componentes de segmentos en una biblioteca para utilizarlos al crear segmentos adicionales. </p> <p>Ahora puede apilar segmentos. Cuando se seleccionan varios segmentos, el área de vista previa, el administrador de solicitudes y el mensaje emergente de los detalles de la solicitud muestran una lista de nombres separados por comas (por ejemplo, Segment1, Segment2). </p> <p>Si desea obtener más información, consulte la <a href="/help/components/c-segmentation/seg-home.md">Guía de segmentación de </a>. </p> <p>Nota: No se pueden incluir simultáneamente un filtro y un desglose en el mismo segmento, en el mismo informe del Data Warehouse. Al hacerlo, se producirá un error. </p> </td> 
+   <td colname="col2"> <p>Permite seleccionar la parte de la población de visitantes que debe examinarse y generar segmentos complejos. Puede cargar segmentos preconfigurados, crear nuevos segmentos y almacenar componentes de segmentos en una biblioteca para utilizarlos al crear segmentos adicionales. </p> <p>Ahora puede apilar segmentos. Cuando se seleccionan varios segmentos, el área de vista previa, el administrador de solicitudes y el mensaje emergente de los detalles de la solicitud muestran una lista de nombres separados por comas (por ejemplo, Segment1, Segment2). </p> <p>Si desea obtener más información, consulte la <a href="/help/components/segmentation/seg-home.md">Guía de segmentación de </a>. </p> <p>Nota: No se pueden incluir simultáneamente un filtro y un desglose en el mismo segmento, en el mismo informe del Data Warehouse. Al hacerlo, se producirá un error. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Desgloses</span> </td> 
