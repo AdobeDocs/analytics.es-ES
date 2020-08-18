@@ -3,7 +3,7 @@ title: Información general sobre variables, funciones, métodos y complementos
 description: Descubra qué variables puede incluir en los datos que envía a Adobe para mejorar los informes.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 97%
@@ -40,4 +40,4 @@ Las variables de JavaScript nunca permiten los siguientes caracteres y cadenas.
 * Nueva línea (`0x0A`)
 * Etiquetas HTML (por ejemplo, `<b></b>` o `&#153`)
 
-Algunas variables tienen limitaciones o requisitos de sintaxis adicionales. Por ejemplo, la variable `products` utiliza punto y coma y comas para delimitar productos y categorías independientes.
+Algunas variables tienen limitaciones o requisitos de sintaxis adicionales. Por ejemplo, la variable [`products`](page-vars/products.md) utiliza punto y coma y comas para delimitar productos y categorías independientes.
