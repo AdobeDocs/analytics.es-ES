@@ -3,49 +3,54 @@ description: Utilice la visualización de líneas para representar conjuntos de 
 title: Líneas
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 34db4e99589827fd41f642788e3409834b96d78a
+source-git-commit: 3ace7c4fc42e578b621433860ae3f0dba6be06fd
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 16%
+source-wordcount: '376'
+ht-degree: 12%
 
 ---
 
 
 # Líneas
 
-Esta visualización representa las métricas con una línea para mostrar cómo cambian los valores con el paso del tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
+La visualización Línea representa las métricas que utilizan una línea para mostrar cómo cambian los valores en un período de tiempo. Un gráfico de líneas solo se puede usar cuando se utiliza el tiempo como dimensión.
 
-## Configuración de visualización
+![Visualización de líneas](assets/line-viz.png)
 
 >[!IMPORTANT]
 >
-> Algunos ajustes de visualización de línea, como Mostrar línea de tendencia, están actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html).
+>Algunos ajustes de visualización de línea, como [!UICONTROL Mostrar línea de tendencia], están actualmente en pruebas limitadas. [Más información](/help/landing/an-releases.md)
 
-Haga clic en el icono de engranaje en la parte superior derecha de la visualización Línea para acceder a la configuración [**de**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html#section_D3BB5042A92245D8BF6BCF072C66624B) Visualización disponible. La configuración se clasifica en:
+Haga clic en el icono de engranaje en la parte superior derecha de la visualización Línea para acceder a la configuración [**de**](freeform-analysis-visualizations.md) Visualización disponible. La configuración se clasifica en:
 
-* General: configuración común en los tipos de visualización
-* Eje: configuración que afectará al eje x o y de la visualización de líneas
-* Superposiciones: opciones para agregar contexto adicional a la serie que se muestra en la visualización de líneas.
+* **General**: Configuración común en los tipos de visualización
+* **Eje**: Configuración que afecta al eje x o y de la visualización de líneas
+* **Superposiciones**: Opciones para agregar contexto adicional a la serie que se muestra en la visualización de línea.
 
-### Cambiar la granularidad
+![Configuración de visualización](assets/viz-settings-modal.png)
 
-Un menú desplegable de granularidad en la [configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) le permite cambiar una visualización de tendencias (p. ej., una línea o una barra) de diaria a semanal, mensual, etc. La granularidad también se actualiza en la tabla del origen de datos.
+## Cambiar la granularidad
 
-### Mostrar mínimo o máximo
+Un menú desplegable de granularidad en la [configuración de visualización](freeform-analysis-visualizations.md) le permite cambiar una visualización de tendencias (p. ej., una línea o una barra) de diaria a semanal, mensual, etc. La granularidad también se actualiza en la tabla del origen de datos.
 
-En Configuración de **visualización > Superposiciones > Mostrar mínimo/máximo**, puede superponer una etiqueta de valor mínimo y máximo para resaltar rápidamente los picos y las bajas de una métrica.
+## Mostrar mínimo o máximo
 
-### Mostrar superposición de línea de tendencia
+En Configuración **[!UICONTROL de]** visualización > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar mín/máx]**, puede superponer una etiqueta de valor mínimo y máximo para resaltar rápidamente los picos y las bajas de una métrica.
 
-En Configuración de **visualización > Superposiciones > Mostrar línea de tendencia**, puede elegir agregar una línea de tendencia de regresión a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
+![Mostrar mín./máx.](assets/min-max-labels.png)
+
+## Mostrar superposición de línea de tendencia
+
+En Configuración **[!UICONTROL de]** visualización > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar línea de tendencia]**, puede elegir agregar una línea de tendencia de regresión a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
+
+![Línea de tendencia lineal](assets/show-linear-trendline.png)
 
 Todos los modelos se ajustan con los mínimos cuadrados normales:
 
 | Modelo | Descripción |
 |---|---|
-| Lineal | Crea una línea recta de mejor ajuste para conjuntos de datos lineales simples y resulta útil cuando los datos aumentan o disminuyen a una velocidad constante. Ecuación: y = a + b * x |
-| Logarítmico | Crea una línea curva que se adapta mejor y resulta útil cuando la velocidad de cambio de los datos aumenta o disminuye rápidamente y luego se alza. Una línea de tendencia logarítmica puede utilizar valores negativos y positivos. Ecuación: y = a + b * log(x) |
-| Exponencial | Crea una línea curva y resulta útil cuando los datos suben o disminuyen a tasas de crecimiento constantes. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: y = a +<sup>eb * x |
-| Alimentación | Crea una línea curva y resulta útil para conjuntos de datos que comparan mediciones que aumentan a una velocidad específica. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: y = a *<sup>xb |
-| cuadrático | Busca el mejor ajuste para un conjunto de datos con forma de parábola (cóncava arriba o abajo). Ecuación: y = a + b * x + c * x<sup>2 |
-| Polinomial | Resulta útil cuando el conjunto de datos fluctúa, como analizar las ganancias y pérdidas en un conjunto de datos grande. Ecuación: y = a + b * x + ... + k *<sup>xorder |
+| Lineal | Crea una línea recta de mejor ajuste para conjuntos de datos lineales simples y resulta útil cuando los datos aumentan o disminuyen a una velocidad constante. Ecuación: `y = a + b * x` |
+| Logarítmico | Crea una línea curva que se adapta mejor y resulta útil cuando la velocidad de cambio de los datos aumenta o disminuye rápidamente y luego se alza. Una línea de tendencia logarítmica puede utilizar valores negativos y positivos. Ecuación: `y = a + b * log(x)` |
+| Exponencial | Crea una línea curva y resulta útil cuando los datos suben o disminuyen a tasas de crecimiento constantes. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a + e^(b * x)` |
+| Alimentación | Crea una línea curva y resulta útil para conjuntos de datos que comparan mediciones que aumentan a una velocidad específica. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a * x^b` |
+| cuadrático | Busca el mejor ajuste para un conjunto de datos con forma de parábola (cóncava arriba o abajo). Ecuación: `y = a + b * x + c * x^2` |
