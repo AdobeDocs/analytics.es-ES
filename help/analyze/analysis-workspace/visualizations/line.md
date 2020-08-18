@@ -3,10 +3,10 @@ description: Utilice la visualización de líneas para representar conjuntos de 
 title: Líneas
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 78ed02b7bb7a4dc042c837817d36fc8ce30dce79
+source-git-commit: 34db4e99589827fd41f642788e3409834b96d78a
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 17%
+source-wordcount: '446'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ Esta visualización representa las métricas con una línea para mostrar cómo c
 
 >[!IMPORTANT]
 >
-> Algunos ajustes de visualización de línea, como Añadir línea de tendencia, están actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html).
+> Algunos ajustes de visualización de línea, como Mostrar línea de tendencia, están actualmente en pruebas limitadas. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html).
 
 Haga clic en el icono de engranaje en la parte superior derecha de la visualización Línea para acceder a la configuración [**de**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html#section_D3BB5042A92245D8BF6BCF072C66624B) Visualización disponible. La configuración se clasifica en:
 
@@ -29,11 +29,15 @@ Haga clic en el icono de engranaje en la parte superior derecha de la visualizac
 
 ### Cambiar la granularidad
 
-Un menú desplegable de granularidad en la [configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) le permite cambiar una visualización de tendencias (p. ej., una línea o una barra) de diaria a semanal, mensual, etc.
+Un menú desplegable de granularidad en la [configuración de visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B) le permite cambiar una visualización de tendencias (p. ej., una línea o una barra) de diaria a semanal, mensual, etc. La granularidad también se actualiza en la tabla del origen de datos.
 
-### Añadir una superposición de línea de tendencia
+### Mostrar mínimo o máximo
 
-En Configuración de **visualización > Superposiciones > Añadir línea de tendencia**, puede elegir agregar una línea de tendencia de regresión a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
+En Configuración de **visualización > Superposiciones > Mostrar mínimo/máximo**, puede superponer una etiqueta de valor mínimo y máximo para resaltar rápidamente los picos y las bajas de una métrica.
+
+### Mostrar superposición de línea de tendencia
+
+En Configuración de **visualización > Superposiciones > Mostrar línea de tendencia**, puede elegir agregar una línea de tendencia de regresión a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
 
 Todos los modelos se ajustan con los mínimos cuadrados normales:
 
