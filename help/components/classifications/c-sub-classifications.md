@@ -5,10 +5,10 @@ title: Acerca de las subclasificaciones
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Analytics admite los modelos de clasificaciones de un solo nivel y de vari
 
 >[!NOTE]
 >
->Subclasificación hace referencia a la posibilidad de crear clasificaciones de clasificaciones. Sin embargo, no es lo mismo que la [!UICONTROL Jerarquía de clasificaciones] utilizada para crear informes de [!UICONTROL Jerarquía]. Para obtener más información sobre las jerarquías de clasificación, consulte [Jerarquías de clasificación](classification-hierarchies.md).
+>Subclasificación hace referencia a la posibilidad de crear clasificaciones de clasificaciones. Sin embargo, no es lo mismo que la [!UICONTROL Jerarquía de clasificaciones] utilizada para crear informes de [!UICONTROL Jerarquía]. Para obtener más información sobre las jerarquías de clasificación, consulte [Jerarquías de clasificación](/help/admin/admin/conversion-var-admin/classification-hierarchies.md).
 
 Por ejemplo:
 
@@ -38,7 +38,7 @@ Las clasificaciones de múltiples niveles están formadas por clasificaciones pr
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**Clasificaciones principales:** una clasificación principal es toda clasificación que tenga asociada una clasificación secundaria. Una clasificación puede ser clasificación principal y secundaria a la vez. Las clasificaciones principales de nivel superior corresponden a clasificaciones de un solo nivel (Consulte  [Clasificaciones de un solo nivel](/help/components/classifications/c-sub-classifications.md)).
+**Clasificaciones principales:** una clasificación principal es toda clasificación que tenga asociada una clasificación secundaria. Una clasificación puede ser clasificación principal y secundaria a la vez. Las clasificaciones principales de nivel superior corresponden a clasificaciones de un solo nivel.
 
 **Clasificaciones secundarias:** una clasificación secundaria es toda clasificación que tenga otra clasificación como su principal en lugar de la variable. Las clasificaciones secundarias ofrecen información adicional sobre su clasificación principal. Por ejemplo, la clasificación [!UICONTROL Campañas] puede tener una clasificación secundaria de Propietario de la campaña. Las clasificaciones [!UICONTROL numéricas] también funcionan como métricas en los informes de clasificación.
 
@@ -50,7 +50,7 @@ Para obtener más información sobre el formato del archivo de datos, consulte [
 
 Por ejemplo:
 
-| CLAVE | PROPIEDAD 1 | Propiedad 1&amp;Hat;Propiedad 1-1 | Propiedad 1&amp;Hat;Propiedad 1-2 | Propiedad 2 |
+| CLAVE | PROPIEDAD 1 | Propiedad 1^Propiedad 1-1 | Propiedad 1^Propiedad 1-2 | Propiedad 2 |
 |---|---|---|---|---|
 | 123 | ABC | Verde | Pequeño | A12B |
 | 456 | DEF | Rojo | Grande | C3D4 |
@@ -61,20 +61,19 @@ Aunque la plantilla del archivo de una clasificación de múltiples niveles sea 
 >
 >Si la columna [!UICONTROL Clave] de un archivo de datos está en blanco, Adobe generará automáticamente claves únicas para cada fila de datos. Para evitar que se dañe el archivo al cargar un archivo de datos con datos de clasificación de segundo nivel o de nivel superior, rellene cada fila de la columna [!UICONTROL Clave] con un asterisco (*).
 
-Consulte [Problemas comunes de carga de clasificaciones](https://helpx.adobe.com/es/analytics/kb/common-saint-upload-issues.html) para obtener ayuda sobre la resolución de problemas.
-
 ## Ejemplos
 
 ![](assets/sample-product-classifications.png)
 
 >[!NOTE]
- Los datos de clasificación del producto están limitados a atributos de datos relacionados directamente con el producto (no se limitan en función de cómo se aplican categorías a los productos ni de cómo se venden en el sitio web). Los elementos de datos (como las categorías de venta, los nodos del explorador del sitio o los artículos de venta) no se consideran datos de clasificación del producto. Estos elementos se capturan en las variables de conversión de los informes.
+>
+> Los datos de clasificación del producto están limitados a atributos de datos relacionados directamente con el producto (no se limitan en función de cómo se aplican categorías a los productos ni de cómo se venden en el sitio web). Los elementos de datos (como las categorías de venta, los nodos del explorador del sitio o los artículos de venta) no se consideran datos de clasificación del producto. Estos elementos se capturan en las variables de conversión de los informes.
 
-Al cargar los archivos de datos correspondientes a esta clasificación de productos, puede cargar los datos de clasificación como un solo archivo o como varios archivos (ver más adelante). Si se separan el código de color en el archivo 1 y el nombre del color en el archivo 2, los datos del nombre del color (que ocupan pocas filas) solo deberán actualizarse cuando se creen nuevos códigos de color. Esto elimina el campo del nombre del color (CODE&amp;Hat;COLOR) del archivo 1, que se ha actualizado con mayor frecuencia, y por lo tanto reduce el tamaño del archivo y la complejidad al generar el archivo de datos.
+Al cargar los archivos de datos correspondientes a esta clasificación de productos, puede cargar los datos de clasificación como un solo archivo o como varios archivos (ver más adelante). Si se separan el código de color en el archivo 1 y el nombre del color en el archivo 2, los datos del nombre del color (que ocupan pocas filas) solo deberán actualizarse cuando se creen nuevos códigos de color. Esto elimina el campo del nombre del color (CÓDIGO^COLOR) del archivo 1, que se ha actualizado con mayor frecuencia, y por lo tanto reduce el tamaño del archivo y la complejidad al generar el archivo de datos.
 
 ### Clasificación del producto - Un archivo {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
-| CLAVE | NOMBRE DEL PRODUCTO | DETALLES DEL PRODUCTO | SEXO | TAMAÑO | CÓDIGO | CODE&amp;Hat;COLOR |
+| CLAVE | NOMBRE DEL PRODUCTO | DETALLES DEL PRODUCTO | SEXO | TAMAÑO | CÓDIGO | CÓDIGO^COLOR |
 |---|---|---|---|---|---|---|
 | 410390013 | Polo-SS | Polo para hombre, Manga corta (M, 01) | M | M | 01 | Piedra |
 | 410390014 | Polo-SS | Polo para hombre, Manga corta (L, 03) | M | L | 03 | Jaspeado |
@@ -90,7 +89,7 @@ Al cargar los archivos de datos correspondientes a esta clasificación de produc
 
 ### Clasificación del producto - Múltiples archivos (Archivo 2)  {#section_19ED95C33B174A9687E81714568D56A3}
 
-| CLAVE | CÓDIGO | CODE&amp;Hat;COLOR |
+| CLAVE | CÓDIGO | CÓDIGO^COLOR |
 |---|---|---|
 | * | 01 | Piedra |
 | * | 03 | Jaspeado |
