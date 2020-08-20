@@ -4,10 +4,10 @@ title: Publicación de segmentos en Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 627a2b8b35db1bdf08b650de8708c04f2d5718d6
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -132,6 +132,6 @@ En AAM, la lista de visitantes con ECID para un segmento determinado se evalúa 
 ## Ver el segmento en [!DNL Adobe Target]
 
 La casilla de verificación [!UICONTROL Publicar este segmento en Experience Cloud] durante el proceso de creación de segmentos en Adobe Analytics permite que el segmento esté disponible en la biblioteca de audiencias personalizada de Adobe Target. Un segmento creado en Analytics o Audience Manager puede utilizarse para actividades en Target. Por ejemplo, puede crear actividades de campaña basadas en métricas de conversión de Analytics y segmentos de audiencias creados en Analytics.
-], haga clic en [!UICONTROL Audiencias].
-1. En la página [!UICONTROL Audiencias], busque la audiencia procedente de [!DNL Experience Cloud]. Estas audiencias están disponibles para su uso en actividades [!DNL Target].
 
+1. Click [!UICONTROL Audiences].
+1. En la página [!UICONTROL Audiencias], busque la audiencia procedente de [!DNL Experience Cloud]. Estas audiencias están disponibles para su uso en actividades [!DNL Target].
