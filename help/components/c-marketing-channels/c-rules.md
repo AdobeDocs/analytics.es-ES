@@ -1,11 +1,11 @@
 ---
 title: Reglas de procesamiento de canales de marketing
 description: Las reglas de procesamiento de canales de marketing averiguan si el visitante que entra cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
-translation-type: ht
-source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+workflow-type: tm+mt
 source-wordcount: '2048'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ Continúe en esta página para ver las recomendaciones del orden de reglas del c
 
 ### Establecer el valor del canal de marketing
 
-**[!UICONTROL Añadir regla ]**Establezca el valor del canal]** define la dimensión de detalle del canal de marketing que está disponible para ese canal. Esto le permite desglosar las dimensiones del canal de marketing y conocer sus datos más en detalle.
+**[!UICONTROL Añadir regla]** **Establezca el valor** del canal para definir la dimensión de detalle del canal de marketing que está disponible para ese canal. Esto le permite desglosar las dimensiones del canal de marketing y conocer sus datos más en detalle.
 
 Se recomienda que el valor del canal se defina con los mismos criterios utilizados para definir el canal en sí mismo. Por ejemplo, si se utiliza el parámetro de cadena de consulta para definir el canal, establezca también el parámetro de cadena de consulta como el valor de canal.
 
