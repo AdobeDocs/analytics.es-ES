@@ -1,11 +1,11 @@
 ---
 description: Esta sección contiene conceptos clave de Adobe Analytics, una breve descripción del concepto y un vínculo a documentación específica con información adicional sobre el tema.
 title: 'Adobe Analytics: conceptos clave'
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+workflow-type: tm+mt
 source-wordcount: '2385'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ Haga clic [aquí](https://docs.adobe.com/content/help/es-ES/analytics/technotes/
 | Análisis de cohorte | Una cohorte es un grupo de personas que comparten características en común durante un periodo especificado. El análisis de cohorte ayuda a analizar la retención y la pérdida de los usuarios. | [Análisis de cohorte](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) |
 | Informes del recorrido del cliente | Muestra información sobre la ruta que siguen los usuarios a través del sitio o la aplicación. En este análisis se pueden usar props, eVars y eventos en Analysis Workspace. | [Abandonos de Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[Flujo de Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[Rutas de Reports &amp; Analytics](https://docs.adobe.com/content/help/es-ES/analytics/components/variables/dimensions-reports/reports-paths.html) |
 | Canales de marketing | Informes que le ayudan a descubrir qué canales externos atraen a usuarios a su sitio y cuáles son los más efectivos en la generación de conversión. Se proporcionan las vistas de atribución de primer y último toque. Este es el informe de fuente de tráfico externo preferida de Adobe Analytics (en lugar de las fuentes de Campañas o Tráfico) ya que ofrece la vista más completa tanto de los canales orgánicos como de pago. | [Canales de marketing](https://docs.adobe.com/content/help/es-ES/analytics/components/marketing-channels/c-getting-started-mchannel.html) |
-| Mobile | Muestra información acerca de los sitios web a los que se accede desde un dispositivo móvil o tableta. | Informes de dispositivos móviles | (https://docs.adobe.com/content/help/es-ES/analytics/components/variables/dimensions-reports/reports-mobile.html) |
+| Mobile | Muestra información acerca de los sitios web a los que se accede desde un dispositivo móvil o tableta. | [Informe móvil](https://docs.adobe.com/content/help/es-ES/analytics/components/variables/dimensions-reports/reports-mobile.html) |
 | Aplicación móvil | Muestra información de uso básica relacionada con sus aplicaciones móviles. Estos informes están disponibles una vez que su SDK haya sido implementado y la generación de informes esté activada.  Además, Adobe Mobile Services ha creado una interfaz de aplicación móvil independiente que proporciona datos de aplicación más completos, lo cual le permite comprender y mejorar la implicación del usuario con sus aplicaciones.  Acceda a la interfaz [aquí](https://mobilemarketing.adobe.com). | [Adobe Mobile Services](https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html) | Productos | Identifica el modo en el que algunos productos individuales y grupos de productos (categorías) contribuyen a las distintas métricas de conversión, como Ingresos o Cierres de compra. | [Informes de productos](https://docs.adobe.com/content/help/es-ES/analytics/components/variables/dimensions-reports/reports-products.html) |
 | Comparación de segmentos | Detecta las diferencias más significativas estadísticamente entre segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso. | [Comparación de segmentos](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) |
 | Informes de contenido del sitio | Muestran información sobre las páginas y áreas del sitio más activas y sobre los servidores que más se utilizan. | [Informes de contenido del sitio](https://docs.adobe.com/content/help/es-ES/analytics/components/variables/dimensions-reports/reports-site-content.html) |
