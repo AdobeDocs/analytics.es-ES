@@ -5,7 +5,10 @@ title: Orden de procesamiento
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ Las siguientes tablas indican los datos que suelen estar disponibles antes y des
 |--- |--- |
 | Búsqueda de variables dinámicas | Las variables se rellenan dinámicamente extrayendo información de los encabezados HTTP u otras variables. Por ejemplo, `s.eVar5="D=c1"` introducirá el valor de prop1 en eVar5. |
 | AppMeasurement | Las funciones y los complementos utilizados en AppMeasurement se ejecutan en el explorador o en la aplicación cliente. |
-| Dynamic Tag Management | Las reglas definidas en la herramienta Dynamic Tag Management se ejecutan tal como están definidas. |
+| Gestión de etiquetas | Las reglas definidas en Inicio de Adobe o Administración dinámica de etiquetas se ejecutan tal como están definidas. |
 | Reglas de bots | [Las reglas de bots](/help/admin/admin/bot-removal/bot-rules.md) permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. |
 
 ## Después de las reglas de procesamiento
@@ -40,6 +43,6 @@ Las siguientes tablas indican los datos que suelen estar disponibles antes y des
 
 ## Aplicación de las reglas de procesamiento al copiar visitas usando VISTA {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-Si tiene una regla de VISTA configurada para copiar visitas a otro grupo de informes, las visitas se envían aunque haya reglas de procesamiento definidas en el otro grupo de informes.
+Si tiene una regla de VISTA configurada para copiar visitas a otro grupo de informes, las visitas se envían a través de cualquier regla de procesamiento definida en el otro grupo de informes.
 
 Si tiene reglas de procesamiento definidas en el grupo de informes original, pueden aplicarse o no en función de cómo configuraron la regla de VISTA los servicios de ingeniería. Para averiguarlo, puede preguntarle a su especialista en implementaciones si la regla de VISTA copia los valores “pre” o “post” en el grupo de informes original. Si se copia un valor “pre”, las reglas de procesamiento definidas en el grupo de informes original no se aplican. Si se copia el valor “post”, las reglas de procesamiento se aplican antes de que se copie la visita.
