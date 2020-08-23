@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: Mida el tiempo en que sucede una acción específica.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '822'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,9 @@ El complemento `getTimeParting` le permite registrar en qué momento se produce 
 
 Analysis Workspace ofrece dimensiones innovadoras similares con un formato ligeramente diferente al de este complemento. Consulte [las dimensiones de partición de tiempo](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md) en la guía del usuario de Analyze si desea más información. Algunas organizaciones consideran que las innovadoras dimensiones de Analysis Workspace son suficientes.
 
->[IMPORTANTE] La versión 4.0 o posterior de este complemento es considerablemente diferente a las versiones anteriores. Adobe recomienda encarecidamente implementar este complemento “desde cero”. El código que hace referencia al complemento en las versiones anteriores a la 4.0 no es compatible con la versión actual de este complemento.
+>[!IMPORTANT]
+>
+>La versión 4.0 o posterior de este complemento es considerablemente diferente a la versión anterior. Adobe recomienda encarecidamente implementar este complemento “desde cero”. El código que hace referencia al complemento en las versiones anteriores a la 4.0 no es compatible con la versión actual de este complemento.
 
 ## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
