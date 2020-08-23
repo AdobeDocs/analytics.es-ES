@@ -2,10 +2,10 @@
 title: Profundidad promedio de la página
 description: Cantidad promedio de páginas en las que existe la dimensión.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 59%
+source-wordcount: '369'
+ht-degree: 55%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 59%
 
 La métrica &#39;Profundidad de página promedio&#39; muestra hasta dónde se encuentra el elemento de dimensión en una visita determinada. Por ejemplo: la página de inicio generalmente muestra una profundidad de página promedio menor que la página de confirmación de compra, que normalmente tendrá mayor profundidad en una visita. Esta métrica es útil cuando desea comprender cuántas páginas de un elemento de dimensión determinado se sitúan en promedio. Puede utilizar esta información para optimizar determinadas páginas hacia visitantes nuevos si la página tiene una profundidad promedio baja.
 
->[SUGERENCIA] Utilice esta métrica junto con otra métrica (como [Visitas](visits.md)) para obtener mejores datos. Si utiliza esta métrica por sí misma, obtendrá elementos de dimensión que contengan profundidades de página de anomalías, lo que generalmente no es valioso.
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Si utiliza esta métrica por sí misma, obtendrá elementos de dimensión que contengan profundidades de página de anomalías, lo que generalmente no es valioso.
 
 ## Cálculo de esta métrica
 
