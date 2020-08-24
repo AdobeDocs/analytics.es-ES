@@ -3,9 +3,9 @@ description: Los grupos de informes virtuales se pueden revisar para que incluya
 title: Revisión de componentes de grupo de informes virtuales
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 4c5dd32b51693d2c0eccd4365cae1ac5a29e6d34
+source-git-commit: 780d1d70c1bef907ef3dc1a942eaf399c9d3ba48
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '422'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan 
 
 >[!NOTE]
 >
->Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. Anteriormente, cualquiera podía ver los componentes no organizados al hacer clic en **[!UICONTROL Mostrar todos los componentes]**. La [experiencia actualizada de organización](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) permite un control más detallado sobre qué componentes son visibles.
+>Se han realizado cambios en los componentes que los administradores y no administradores pueden ver en los proyectos depurados de Workspace y en los grupos de informes virtuales depurados. Anteriormente, cualquiera podía ver los componentes no organizados al hacer clic en **[!UICONTROL Mostrar todos los componentes]**. La [experiencia actualizada de organización](/help/analyze/analysis-workspace/curate-share/curate.md) permite un control más detallado sobre qué componentes son visibles.
 
 Para habilitar la revisión de componentes,
 
