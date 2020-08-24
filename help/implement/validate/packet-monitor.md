@@ -3,10 +3,10 @@ title: Analizadores de paquetes
 description: Los analizadores de paquetes permiten ver los datos que se envían desde la implementación a los servidores de recopilación de datos de Adobe.
 keywords: packet sniffer, http status, 200, 302, charles
 translation-type: tm+mt
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
+source-git-commit: b359582fe8ab6ee04bb478825d9989d850390f96
 workflow-type: tm+mt
 source-wordcount: '659'
-ht-degree: 60%
+ht-degree: 58%
 
 ---
 
@@ -33,8 +33,8 @@ Aunque Adobe no proporciona un monitor de paquetes oficial, hay una amplia varie
 | Firefox | Internet Explorer | Chrome | Programas independientes |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin) (visor de etiquetas) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (visor de etiquetas) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Herramientas para desarrolladores Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
-| [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
+| [HttpFox](https://addons.thunderbird.net/en-us/firefox/addon/httpfox/) |  | [Herramientas para desarrolladores Chrome](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data-for-ff-quantum/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
@@ -50,7 +50,7 @@ Cuando AppMeasurement envía datos a los servidores de recopilación de datos de
 * **302 ENCONTRADOS**: Existen dos razones posibles para recibir esta respuesta:
    * Primera solicitud de imagen de un visitante: Se produce una redirección si un usuario visita el sitio por primera vez. Esta redirección es para obtener una cookie de visitante. No afecta a la recopilación de datos.
    * Integración entre Comscore y Adobe: Si su organización utiliza una integración de Comscore/Analytics, cada solicitud de imagen siempre resulta en una respuesta 302.
-* **404 NO ENCONTRADO**: Esta respuesta significa que no se encontró la solicitud de imagen y que los datos no se envían a los servidores de recopilación de datos de Adobe. Esta respuesta también es posible cuando las solicitudes de imagen codificadas no tienen el formato correcto. Trabaje con el individuo o equipo que implementó Analytics para resolver este problema.
+* **404 NO ENCONTRADO**: Esta respuesta significa que no se encontró la solicitud de imagen y que los datos no se envían a los servidores de recopilación de datos de Adobe. Esta respuesta también es posible cuando las solicitudes de imagen codificadas no tienen el formato correcto. Póngase en contacto con el individuo o equipo que implementó Analytics para resolver este problema.
 
 ## NS_BINDING_ABORTED en códigos de respuesta
 
