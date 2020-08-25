@@ -2,10 +2,10 @@
 description: 'null'
 title: Resumen de publicación en Power BI
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1058'
+translation-type: tm+mt
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
@@ -20,12 +20,6 @@ Anteriormente, el analista programaba el envío de libros de Report Builder medi
 Al combinar las capacidades de generación de Report Builder con las características de visualización de Power BI, la información se hace más accesible para todos los miembros de la organización. Power BI también le permite integrar Adobe Analytics con otras fuentes de datos (p. ej., puntos de venta, CRM) para descubrir datos, asociaciones y oportunidades únicas relativas a los clientes.
 
 ![](assets/aaplusbi.png)
-
-La integración con Report Builder de Adobe le permite
-
-* [Publicar en Power BI libros programados de Report Builder](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [Publicar todas las tablas con formato de un libro como tablas de conjuntos de datos de Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [Publicar todas las solicitudes de Report Builder como tablas de conjuntos de datos de Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## Requisitos del sistema {#section_0B71092D853446F38FA36447DAC0D32B}
 
