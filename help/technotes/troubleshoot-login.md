@@ -2,10 +2,10 @@
 title: Solución de problemas de inicio de sesión en Adobe Analytics
 description: Pasos a seguir cuando no se puede iniciar sesión en Adobe Analytics.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 3%
+source-wordcount: '609'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Solución de problemas con el inicio de sesión en Adobe Analytics mediante el E
 
 ## ID de Analytics heredado
 
-En ocasiones, un usuario de su organización recibe el siguiente mensaje de error cuando inicia sesión:
+Un usuario de su organización puede recibir el siguiente error cuando intenta iniciar sesión:
 
 *Como medida de seguridad, esta cuenta se ha bloqueado debido a demasiados intentos fallidos de iniciar sesión.*
 
@@ -53,6 +53,14 @@ Si la eliminación de las cookies o la caché del navegador no resuelve el probl
 ## Inicio de sesión único
 
 Póngase en contacto con un administrador de su organización para resolver problemas de inicio de sesión único.
+
+## Inicios de sesión caducados
+
+Un usuario de su organización puede recibir el siguiente error cuando intenta iniciar sesión:
+
+*Error: Este inicio de sesión ha caducado.*
+
+Este error funciona según lo previsto. Adobe Analytics proporciona a los administradores la capacidad de establecer un intervalo de fechas en el que una cuenta de usuario sea válida. Si la fecha actual reside fuera del intervalo de fechas válido para la cuenta, no podrá iniciar sesión. Póngase en contacto con un administrador de Analytics de su organización para ampliar el intervalo de fechas válido del inicio de sesión. El Servicio de atención al cliente de Adobe no está autorizado para cambiar los intervalos de fechas de inicio de sesión válidos para las cuentas de usuario.
 
 ## Otros problemas de inicio de sesión
 
