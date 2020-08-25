@@ -2,9 +2,9 @@
 description: Esta sección contiene conceptos clave de Adobe Analytics, una breve descripción del concepto y un vínculo a documentación específica con información adicional sobre el tema.
 title: 'Adobe Analytics: conceptos clave'
 translation-type: tm+mt
-source-git-commit: 68826433e028825fc43c948d32456416b9d2a13e
+source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1863'
 ht-degree: 98%
 
 ---
@@ -45,7 +45,7 @@ Haga clic [aquí](/help/technotes/terms.md) para ver un glosario ampliado de té
 | Segmentos | La capacidad de crear, gestionar, compartir y aplicar segmentos de audiencia eficaces y centrados a sus informes de Analytics. Los segmentos se comparten entre los productos de Analytics y se pueden compartir en Experience Cloud. | [Segmentación](/help/components/segmentation/seg-home.md) |
 | Hora (intervalos de fechas) | Posibilidad de filtrar la fecha a cualquier periodo de tiempo y crear intervalos de fechas personalizados que se puedan reutilizar en el análisis. | [Intervalos de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | Visualizaciones | Imágenes enriquecidas que pueden ayudar a dar vida a los datos en sus proyectos. | [Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| Revisión | Capacidad para limitar los componentes accesibles en un proyecto o grupo de informes virtuales. | [Conservación de VRS](/help/components/vrs/vrs-components.md) <br> [Curación del proyecto](/help/analyze/analysis-workspace/curate-share/curate.md) <br> [Comparación](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) |
+| Revisión | Capacidad para limitar los componentes accesibles en un proyecto o grupo de informes virtuales. | [Conservación de VRS](/help/components/vrs/vrs-components.md) <br> [Curación del proyecto](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## Informes clave
 
