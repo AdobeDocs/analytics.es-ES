@@ -3,10 +3,10 @@ description: 'null'
 title: Limitaciones y especificaciones
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 98%
 
 ---
 
@@ -36,27 +36,28 @@ Editar una solicitud de Report Builder tras su publicación en Power BI puede ca
    **Este es un ejemplo de cómo se produce un error de visualización:**
 
    1. En Report Builder, cree un libro con una solicitud, empleando para ello la dimensión Página y la métrica Vistas de página.
-   1. [Programe esta solicitud](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) para que se publique en Power BI.
-   1. En Power BI, cree una visualización para Página y Vistas de páginas.
-   1. Ahora, edite el libro eliminando Vistas de páginas de la solicitud.
-   1. Edite la programación del libro actualizado y vuelva a publicar la solicitud en Power BI.
-   1. Una vez que el nuevo libro se envíe a Power BI
+   2. Programe esta solicitud para publicarla en Power BI.
+   3. En Power BI, cree una visualización para Página y Vistas de páginas.
+   4. Ahora, edite el libro eliminando Vistas de páginas de la solicitud.
+   5. Edite la programación del libro actualizado y vuelva a publicar la solicitud en Power BI.
+   6. Una vez que el nuevo libro se envíe a Power BI
 
       1. Compruebe que se ha sobrescrito el conjunto de datos existentes, creado durante la primera publicación.
-      1. Compruebe que la tabla page_1 está adecuadamente actualizada con las columnas Página y Visitas.
-      1. Compruebe que hay errores en visualización, ya que hace referencia a la columna Vistas de página que ya no está presente en la tabla page_1.
+      2. Compruebe que la tabla page_1 está adecuadamente actualizada con las columnas Página y Visitas.
+      3. Compruebe que hay errores en visualización, ya que hace referencia a la columna Vistas de página que ya no está presente en la tabla page_1.
+
    **Este es un ejemplo de cómo NO se produce un error de visualización**:
 
    1. En Report Builder, cree un libro con una solicitud, empleando para ello la dimensión Página y la métrica Vistas de página.
-   1. [Programe esta solicitud](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section) para que se publique en Power BI.
-   1. En Power BI, cree una visualización para Página y Vistas de páginas.
-   1. Ahora, edite el libro en Report Builder agregando la métrica Visitas y conservando Página y Vistas de página.
-   1. Edite la programación del libro actualizado y vuelva a publicar la solicitud en Power BI.
-   1. Una vez que el nuevo libro se envíe a Power BI
+   2. Programe esta solicitud para que se publique en Power BI.
+   3. En Power BI, cree una visualización para Página y Vistas de páginas.
+   4. Ahora, edite el libro en Report Builder agregando la métrica Visitas y conservando Página y Vistas de página.
+   5. Edite la programación del libro actualizado y vuelva a publicar la solicitud en Power BI.
+   6. Una vez que el nuevo libro se envíe a Power BI
 
       1. Compruebe que se ha sobrescrito el conjunto de datos existentes, creado durante la primera publicación.
-      1. Compruebe que la tabla page_1 está adecuadamente actualizada con las columnas Página, Vistas de página y Visitas.
-      1. Compruebe que la visualización sigue funcionando correctamente, ya que hace referencia a dos columnas que siguen presentes en la tabla page_1.
+      2. Compruebe que la tabla page_1 está adecuadamente actualizada con las columnas Página, Vistas de página y Visitas.
+      3. Compruebe que la visualización sigue funcionando correctamente, ya que hace referencia a dos columnas que siguen presentes en la tabla page_1.
 
 
 * **Caso 2**: ancla una sección de su libro a un tablero de Power BI y, más adelante, elimina del libro dicha sección (por ejemplo, un gráfico o una tabla). De este modo se produce un error de visualización.
