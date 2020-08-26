@@ -3,9 +3,9 @@ description: Puede descargar datos de Analysis Workspace copiándolos o en forma
 title: Descarga de archivos PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: ab5d2be12100306410486fea31bacc6ee9756738
+source-git-commit: d432fd5386c89b3db82d39b0c21603d96bcf13b9
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1028'
 ht-degree: 7%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # Descarga de archivos PDF o CSV desde Workspace
 
-Existen varias formas de exportar datos desde Analysis Workspace en función del conjunto de datos que desee analizar fuera de la herramienta y de quién necesite recibir la información. Los datos exportados pueden tener la forma de datos copiados, archivos CSV o archivos PDF. Normalmente, se prefiere un PDF si desea incluir visualizaciones en el archivo, mientras que un CSV (o datos copiados) es preferible si simplemente desea datos de texto sin formato.
+Existen varias maneras de exportar datos desde Analysis Workspace, según el conjunto de datos que desee analizar fuera de la herramienta y quién necesite recibir la información. Los datos exportados pueden tener la forma de datos copiados, archivos CSV o archivos PDF. Normalmente, se prefiere un PDF si desea incluir visualizaciones en el archivo, mientras que un CSV (o datos copiados) es preferible si simplemente desea datos de texto sin formato.
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,9 @@ Existen varias formas de exportar datos desde Analysis Workspace en función del
 
 ## Descargar proyecto como CSV o PDF {#download-project}
 
-Para descargar un proyecto completo, vaya a Proyecto > **Descargar como PDF (o como CSV)**. El archivo descargado contendrá todas las tablas y visualizaciones mostradas (visibles) en el proyecto. Normalmente se prefiere un PDF si desea incluir visualizaciones en el archivo, mientras que un CSV se prefiere si simplemente desea datos de texto sin formato.
+Para descargar un proyecto completo, vaya a **[!UICONTROL Proyecto > Descargar como PDF (o como CSV)]**. El archivo descargado contiene todas las tablas y visualizaciones mostradas (visibles) en el proyecto. Normalmente se prefiere un PDF si desea incluir visualizaciones en el archivo, mientras que un CSV se prefiere si simplemente desea datos de texto sin formato.
+
+![](assets/download-project.png)
 
 Para las descargas de proyectos, tenga en cuenta:
 
@@ -32,20 +34,24 @@ Para las descargas de proyectos, tenga en cuenta:
 
 ## Copiar datos en el portapapeles (tecla de acceso directo: Ctrl+C) {#copy-data}
 
-Al hacer clic con el botón secundario del mouse (ratón) > Copiar en el portapapeles, las opciones le permiten copiar datos rápidamente desde Workspace y pegarlos en cualquier parte.
+La opción **[!UICONTROL Copiar al portapapeles]** , que se muestra al hacer clic con el botón derecho, le permite copiar datos de Workspace y pegarlos en cualquier parte.
 
 * Si desea que se copie la tabla mostrada, haga clic con el botón derecho en el encabezado de la tabla y elija **Copiar datos mostrados en el portapapeles**.
 * Si desea copiar un subconjunto de datos, realice una selección en la tabla y, a continuación, haga clic con el botón secundario > **Copiar selección en el portapapeles**.
 
-Además, la tecla de acceso directo **Ctrl+C** copiará su selección en el portapapeles. Una vez copiado, puede ir a otra herramienta y pegar la información (o pulsar Ctrl+V).
+Además, la tecla de acceso directo `Ctrl+C` copia la selección en el portapapeles. Una vez copiado, puede ir a otra herramienta y pegar la información (o la visita `Ctrl+V`).
+
+![](assets/copy-selection.png)
 
 ## Descargue los datos como CSV {#download-data}
 
-Haga clic con el botón derecho > Descargar como CSV las opciones le permiten descargar una tabla de datos o la fuente de datos de cualquier visualización como CSV.
+La opción **[!UICONTROL Descargar datos como CSV]** con el botón secundario del mouse permite descargar una tabla de datos o la fuente de datos de cualquier visualización como CSV.
 
-* En el encabezado de cualquier tabla, haga clic con el botón derecho > **Descargar los datos mostrados como CSV**. Esto descargará los datos mostrados en la tabla como un CSV.
-* Si se realiza una selección en la tabla, la opción dirá **Descargar selección como CSV**. Sólo la selección se descargará con esta opción, en oposición a la tabla mostrada completa.
-* Desde el encabezado de cualquier visualización, haga clic con el botón derecho > **Descargar datos como CSV**. Esto descargará la tabla de fuente de datos para una visualización como CSV. Nota: la visualización Mapa no admite esta opción.
+* En el encabezado de cualquier tabla, haga clic con el botón secundario en **[!UICONTROL Descargar los datos mostrados como CSV]**. Esto descarga los datos mostrados en la tabla como un CSV.
+* Si se realiza una selección en la tabla, la opción dirá **[!UICONTROL Descargar selección como CSV]**. Solo la selección se descarga con esta opción, en oposición a la tabla mostrada completa.
+* En el encabezado de cualquier visualización, haga clic con el botón secundario en **[!UICONTROL Descargar datos como CSV]**. Esto descarga la tabla de fuente de datos para una visualización como un CSV. Nota: la visualización Mapa no admite esta opción.
+
+![](assets/download-data-viz.png)
 
 ## Download items as CSV {#download-items}
 
@@ -57,23 +63,29 @@ Si desea analizar más de las 400 filas de datos visibles en una tabla, haga cli
 
 Puede realizar varias tareas dentro del proyecto e incluso desplazarse a un nuevo proyecto de Workspace en la misma ficha mientras la descarga está en curso. La descarga se detendrá si abre una nueva ficha del explorador. La descarga se cancelará si deja Workspace completamente o cierra la ficha del explorador.
 
+![](assets/download-items.png)
+
 ### Archivo de elementos descargados
 
 Las funciones de la tabla se aplicarán al archivo descargado de la siguiente manera:
 
-* Todos los segmentos del panel se aplicarán como filtros.
-* Los desgloses **por encima** de la dimensión seleccionada en la tabla se aplicarán como filtros por encima de cada columna.
-* Se eliminarán los desgloses **por debajo** de la dimensión seleccionada en la tabla.
+* Todos los segmentos del panel se aplican como filtros.
+* Los desgloses **por encima** de la dimensión seleccionada en la tabla se aplican como filtros por encima de cada columna.
+* Se eliminan los desgloses **por debajo** de la dimensión seleccionada en la tabla.
 
-En el ejemplo anterior, los elementos de página se descargarán con el segmento del panel (Nuevos clientes Visitantes) y los componentes anteriores (Canal de mercadotecnia = Correo electrónico) aplicados como filtros, y los componentes siguientes (Tipo de dispositivo móvil) se eliminarán del CSV descargado.
+En el ejemplo anterior, los elementos de página se descargan con el segmento del panel (Clientes de nuevos Visitantes) y los componentes anteriores (Canal de marketing = Correo electrónico) aplicados como filtros, y los componentes siguientes (Tipo de dispositivo móvil) se eliminan del CSV descargado.
+
+![](assets/downloaded-file.png)
 
 ### Descargar notificaciones
 
-A medida que se descarga el archivo, verá una notificación informativa con el progreso. En cualquier momento, puede cancelar la descarga haciendo clic en &quot;Cancelar descarga&quot;. Al cerrar el brindis no **se cancelará** la descarga.
+A medida que se descarga el archivo, verá una notificación informativa con el progreso. En cualquier momento, puede cancelar la descarga haciendo clic en **[!UICONTROL Cancelar descarga]**. Al cerrar el brindis no **se cancelará** la descarga.
 
 Una vez que el archivo se complete, verá una notificación de finalización y el archivo se descargará en su explorador.
 
 Si solicita más de una descarga a la vez, recibirá una notificación de que cada descarga adicional se colocará en la cola hasta que se complete la descarga anterior.
+
+![](assets/toast.png)
 
 ## Preguntas más frecuentes {#faq}
 
@@ -81,5 +93,5 @@ Si solicita más de una descarga a la vez, recibirá una notificación de que ca
 | --- | --- |
 | ¿Por qué el PDF descargado es una página? | Workspace no pagina los archivos PDF descargados en este momento. |
 | ¿Puedo exportar más de 50.000 elementos con la opción &quot;Descargar elementos como CSV&quot;? | Aunque cada descarga puede contener hasta 50.000 elementos de dimensión, puede cambiar el tipo de tabla para recuperar elementos de cola más largos o aplicar un filtro para descargar elementos más específicos. |
-| ¿Qué hace &quot;Copiar visualización&quot;? | La visualización de copia no es una opción de exportación. Permite copiar una visualización o un panel de un lugar de Workspace a otro. Por ejemplo, de un panel a otro en el mismo proyecto o de un proyecto a otro. [Vea el video](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
+| ¿Qué hace la visualización **[!UICONTROL Copiar]** ? | **[!UICONTROL La visualización]** de copia no es una opción de exportación. Permite copiar una visualización o un panel de un lugar de Workspace a otro. Por ejemplo, de un panel a otro en el mismo proyecto o de un proyecto a otro. [Vea el video](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
 
