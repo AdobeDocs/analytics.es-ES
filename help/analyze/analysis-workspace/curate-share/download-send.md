@@ -3,7 +3,7 @@ description: Puede descargar datos de Analysis Workspace copiándolos o en forma
 title: Descarga de archivos PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: d432fd5386c89b3db82d39b0c21603d96bcf13b9
+source-git-commit: c06298eef53896fa542baf1061c4ae4658cbddd2
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 7%
@@ -55,7 +55,7 @@ La opción **[!UICONTROL Descargar datos como CSV]** con el botón secundario de
 
 ## Download items as CSV {#download-items}
 
-Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en el encabezado de tabla o en cualquier fila y seleccione **Descargar elementos como CSV (nombre del Dimension)**. Esta opción exportará hasta 50.000 elementos de dimensión para la dimensión seleccionada (según el orden de tabla), con filtros y segmentos aplicados. Si elige esta opción desde la parte superior de la tabla, se exportará la primera dimensión de la tabla. Aunque no se aplican límites en la tabla improvisada, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
+Si desea analizar más de las 400 filas de datos visibles en una tabla, haga clic con el botón derecho en el encabezado de tabla o en cualquier fila y seleccione **Descargar elementos como CSV (nombre del Dimension)**. Esta opción exportará hasta 50.000 elementos de dimensión (según la clasificación de tabla) para la dimensión seleccionada, con filtros y segmentos aplicados. Si elige esta opción desde la parte superior de la tabla, se exportará la primera dimensión de la tabla. Aunque no se aplican límites en la tabla improvisada, se recomienda utilizar la opción Descargar elementos en tablas con menos de 20 columnas para garantizar un rendimiento óptimo.
 
 >[!TIP]
 >
