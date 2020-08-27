@@ -3,7 +3,7 @@ description: Utilice las visualizaciones Número de resumen y Cambio para mostra
 title: Número de resumen y cambio de resumen
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: cffcceae49fe51558aab0044281156e2c2d1027d
+source-git-commit: 0a3c4a6839d0c6ee2d8a98394ed38c433ea811d1
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 52%
@@ -21,6 +21,8 @@ Utilice la visualización Número de resumen para resaltar un gran número que e
 * Si se selecciona una única celda, se muestra el resumen de esta.
 * Si se selecciona más de una celda, se muestra la primera celda seleccionada.
 * Si se selecciona la columna, se usa el valor de la primera celda de la columna.
+
+![](assets/summary-number.png)
 
 Haga clic en el engranaje de configuración **de** Visualización situado en la parte superior derecha para configurar la configuración de Número de resumen:
 
@@ -43,6 +45,8 @@ Esta visualización se comporta de las siguientes maneras:
 * Si se seleccionan más de dos celdas, solo se tienen en cuenta las dos primeras para la comparación.
 * Si se selecciona un intervalo de celdas, se compara la primera celda con la última seleccionada en el intervalo.
 * Si se selecciona la columna, se compara el primer valor consigo mismo, lo que da como resultado un cambio de 0.
+
+![](assets/summary-change.png)
 
 Haga clic en el engranaje de configuración **de** Visualización situado en la parte superior derecha para configurar los ajustes de Cambio de resumen:
 
