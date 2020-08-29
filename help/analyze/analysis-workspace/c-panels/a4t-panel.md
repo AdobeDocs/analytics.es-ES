@@ -2,7 +2,7 @@
 description: El panel Analytics for Target (A4T) le permite analizar las actividades y experiencias de Adobe Target en Analysis Workspace.
 title: Panel de Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
+source-git-commit: 3d9bfabba6752f85173814c0e18d485122f7aa76
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 87%
@@ -44,11 +44,11 @@ Cada tabla improvisada muestra las siguientes columnas de métricas:
 | Métricas de normalización | Visitantes únicos, Visitas o Impresiones de actividad. |
 | Métrica de éxito | La métrica seleccionada en el generador |
 | Tasa de conversión | Métrica de éxito/métrica de normalización |
-| Alza | Compara la tasa de conversión de cada experiencia con la experiencia de control.<br>**Nota:**El alza es una &quot;métrica bloqueada&quot; de las experiencias de Destinatario; no se puede desglosar ni utilizar con otras dimensiones. |
+| Alza | Compara la tasa de conversión de cada experiencia con la experiencia de control.<br>**Nota:** El alza es una &quot;métrica bloqueada&quot; de las experiencias de Destinatario; no se puede desglosar ni utilizar con otras dimensiones. |
 | Alza (inferior) | Representa la peor elevación que una experiencia de variante podría tener sobre el control. |
 | Alza (media) | Representa la elevación media que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %. Esto es “Alza” en Reports &amp; Analytics. |
 | Alza (superior) | Representa la mejor elevación que una experiencia de variante podría tener sobre el control. |
-| Confianza | La prueba T-test para estudiantes calcula el nivel de confianza, que indica la probabilidad de que los resultados se dupliquen si se vuelve a ejecutar la prueba. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar, si es necesario, desde Configuración de columna. <br>**Nota:**Confianza es una &quot;métrica bloqueada&quot; de las experiencias de Destinatario; no se puede desglosar ni utilizar con otras dimensiones. |
+| Confianza | La prueba T-test para estudiantes calcula el nivel de confianza, que indica la probabilidad de que los resultados se dupliquen si se vuelve a ejecutar la prueba. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar, si es necesario, desde Configuración de columna. <br>**Nota:** Confianza es una &quot;métrica bloqueada&quot; de las experiencias de Destinatario; no se puede desglosar ni utilizar con otras dimensiones. |
 
 Como con cualquier panel de Analysis Workspace, puede continuar con el análisis agregando tablas y [visualizaciones](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) adicionales que le ayudarán a analizar sus actividades de Adobe Target.
 
