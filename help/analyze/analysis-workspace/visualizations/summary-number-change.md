@@ -3,10 +3,10 @@ description: Utilice las visualizaciones Número de resumen y Cambio para mostra
 title: Número de resumen y cambio de resumen
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 0a3c4a6839d0c6ee2d8a98394ed38c433ea811d1
+source-git-commit: f3f1fdda35552d23767cc9bd64d47c4b99a5900b
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 52%
+source-wordcount: '462'
+ht-degree: 47%
 
 ---
 
@@ -22,7 +22,15 @@ Utilice la visualización Número de resumen para resaltar un gran número que e
 * Si se selecciona más de una celda, se muestra la primera celda seleccionada.
 * Si se selecciona la columna, se usa el valor de la primera celda de la columna.
 
-![](assets/summary-number.png)
+Haga clic en el engranaje de configuración **de** Visualización situado en la parte superior derecha para configurar la configuración de Número de resumen:
+
+| Configuración | Definición |
+|--- |--- |
+| Porcentajes | Mostrar porcentajes en lugar de números sin procesar. |
+| Leyenda visible | Muestre información sobre la métrica mostrada. |
+| Valor abreviado | Elija abreviar los valores y mostrar hasta 3 decimales. |
+| Valor de resumen por | Elija mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
+
 
 Haga clic en el engranaje de configuración **de** Visualización situado en la parte superior derecha para configurar la configuración de Número de resumen:
 
@@ -32,6 +40,7 @@ Haga clic en el engranaje de configuración **de** Visualización situado en la 
 | Leyenda visible | Muestre información sobre la métrica mostrada. |
 | Valor abreviado | Elija abreviar los valores y mostrar hasta 3 decimales. |
 | Valor de resumen por | Elija mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
+
 
 ## Visualización Cambio de resumen {#summary-change}
 
@@ -46,7 +55,9 @@ Esta visualización se comporta de las siguientes maneras:
 * Si se selecciona un intervalo de celdas, se compara la primera celda con la última seleccionada en el intervalo.
 * Si se selecciona la columna, se compara el primer valor consigo mismo, lo que da como resultado un cambio de 0.
 
+
 ![](assets/summary-change.png)
+
 
 Haga clic en el engranaje de configuración **de** Visualización situado en la parte superior derecha para configurar los ajustes de Cambio de resumen:
 
