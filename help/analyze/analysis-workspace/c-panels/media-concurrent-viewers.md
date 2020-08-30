@@ -1,16 +1,16 @@
 ---
-title: Panel Visores simultáneos
-description: Cómo utilizar e interpretar el panel Visores simultáneos en Analysis Workspace.
+title: Panel de visores simultáneos de medios
+description: Cómo utilizar e interpretar el panel Visores simultáneos de medios en Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 807c5e31b376799f4494ecc24cebfd9498c39e63
+source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '993'
 ht-degree: 9%
 
 ---
 
 
-# Panel Visores simultáneos
+# Panel de visores simultáneos de medios
 
 >[!IMPORTANT]
 >
