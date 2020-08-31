@@ -2,10 +2,10 @@
 title: Panel de visores simultáneos de medios
 description: Cómo utilizar e interpretar el panel Visores simultáneos de medios en Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
+source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 9%
+source-wordcount: '1002'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Esta función se está implementando de forma gradual para los clientes de Media Analytics.
+>Esta función está en Prueba limitada para clientes de análisis de medios. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html)
 
 Los clientes de Media Analytics pueden analizar los visores simultáneos para comprender dónde se produjo el pico de concurrencia o dónde se produjeron los descensos y proporcionar una valiosa perspectiva de la calidad del contenido y la participación del visor, así como para ayudar a solucionar problemas o a planificar el volumen o la escala.
 
