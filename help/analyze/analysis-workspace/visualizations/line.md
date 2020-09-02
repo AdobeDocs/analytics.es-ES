@@ -3,7 +3,7 @@ description: Utilice la visualización de líneas para representar conjuntos de 
 title: Líneas
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 5bb2fc217cb7da3696a7c55ef8d193a93c18c2d8
+source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 12%
@@ -48,7 +48,7 @@ En Configuración **[!UICONTROL de]** visualización > **[!UICONTROL Superposici
 Todos los modelos se ajustan con los mínimos cuadrados normales:
 
 | Modelo | Descripción |
-|---|---|
+| --- | --- |
 | Lineal | Crea una línea recta de mejor ajuste para conjuntos de datos lineales simples y resulta útil cuando los datos aumentan o disminuyen a una velocidad constante. Ecuación: `y = a + b * x` |
 | Logarítmica | Crea una línea curva que se adapta mejor y resulta útil cuando la velocidad de cambio de los datos aumenta o disminuye rápidamente y luego se alza. Una línea de tendencia logarítmica puede utilizar valores negativos y positivos. Ecuación: `y = a + b * log(x)` |
 | Exponencial | Crea una línea curva y resulta útil cuando los datos suben o disminuyen a tasas de crecimiento constantes. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a + e^(b * x)` |
