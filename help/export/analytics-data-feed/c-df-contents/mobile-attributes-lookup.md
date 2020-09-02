@@ -2,10 +2,10 @@
 title: Búsqueda de atributos móviles
 description: Archivo de búsqueda de atributos móviles.
 translation-type: tm+mt
-source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
+source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 0%
 Los atributos móviles muestran las propiedades del dispositivo móvil en la visita. Este archivo aparece cuando:
 
 * Las búsquedas dinámicas están habilitadas. Un delegado de asistencia técnica de su organización puede ponerse en contacto con el Servicio de atención al cliente con el ID de fuente deseado para habilitar las búsquedas dinámicas.
-* Se incluye la `mobile_id` columna.
-* Se excluye la `user_agent` columna. Esta exclusión es obligatoria debido a los acuerdos de licencia con DeviceAtlas.
+* Se incluye la columna `mobile_id`.
+* Se excluye la columna `user_agent`. Esta exclusión es obligatoria debido a los acuerdos de licencia con DeviceAtlas.
 
-Descargue `mobile_attributes_headers.tsv`o haga referencia a la lista aquí:
+Descargue [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv) o consulte la lista aquí:
 
 * `mobile_id`
 * `Manufacturer`
