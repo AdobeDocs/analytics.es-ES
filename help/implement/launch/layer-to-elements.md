@@ -1,8 +1,11 @@
 ---
 title: Asignación de objetos de capa de datos a elementos de datos
 description: Configure Launch para que se lea desde la capa de datos.
-translation-type: ht
-source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 100%
 
 ---
 
@@ -21,15 +24,15 @@ Una vez que la organización haya establecido e implementado una capa de datos e
 
 1. Vaya a [Adobe Experience Platform Launch](https://launch.adobe.com) e inicie sesión si se le solicita.
 1. Haga clic en la propiedad de Launch.
-1. Haga clic en la pestaña [!UICONTROL Elementos de datos] y, a continuación, haga clic en [!UICONTROL Agregar elemento de datos].
+1. Haga clic en la pestaña **[!UICONTROL Elementos de datos]** y, a continuación, haga clic en **[!UICONTROL Agregar elemento de datos]**.
 
    ![crear elemento de datos](assets/createelement.png)
 
 1. Escriba un nombre para el elemento de datos. Puede ser una etiqueta simple que corresponde a una variable de JavaScript en la capa de datos que desee rastrear.
-1. En el menú desplegable de [!UICONTROL Extensión], seleccione [!UICONTROL Principal].
-1. En el menú desplegable [!UICONTROL Tipo de elemento de datos], seleccione [!UICONTROL Variable JavaScript]. Aparece un campo de texto a la derecha que le permite introducir la variable JavaScript para asignarla a este elemento de datos.
+1. En el menú desplegable de **[!UICONTROL Extensión]**, seleccione **[!UICONTROL Principal]**.
+1. En el menú desplegable **[!UICONTROL Tipo de elemento de datos]**, seleccione **[!UICONTROL Variable JavaScript]**. Aparece un campo de texto a la derecha que le permite introducir la variable JavaScript para asignarla a este elemento de datos.
 1. Introduzca la variable de JavaScript que desee, normalmente dentro de la capa de datos. Por ejemplo, si la capa de datos de su organización coincide estrechamente con la práctica recomendada de Adobe, podría ser un valor de `digitalData.page.pageInfo.pageName`. Puede utilizar la consola del explorador para validar la sintaxis y los valores de las variables de JavaScript.
-1. Haga clic en [!UICONTROL Guardar].
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ## Pasos siguientes
 
