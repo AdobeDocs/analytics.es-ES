@@ -2,10 +2,10 @@
 product: analytics
 audience: end-user
 user-guide-title: Guía de herramientas de Analytics
-user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
+user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Builder, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
+source-git-commit: ad91f03a510f0d3d796502df77718c3bbd063f99
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 98%
@@ -94,7 +94,7 @@ ht-degree: 98%
    + Curar y compartir proyectos {#curate-share}
       + [Depurar proyectos de Workspace](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos de Workspace](analysis-workspace/curate-share/share-projects.md)
-      + [Creación de vínculos compartibles](analysis-workspace/curate-share/shareable-links.md)
+      + [Creación de vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de Workspace solo de vista](analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Uso compartido y programación de archivos de proyecto](analysis-workspace/curate-share/send-schedule-files.md)
