@@ -1,11 +1,11 @@
 ---
 title: purchaseID
 description: Anule la duplicación de visitas en función de un identificador de compra único.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,12 @@ Esta variable puede almacenar un máximo de 20 bytes. Los valores superiores a 2
 s.purchaseID = "ABC123";
 ```
 
->[!NOTE]
+Si utiliza la capa `digitalData` [de](../../prepare/data-layer.md)datos:
+
+```js
+s.purchaseID = digitalData.transaction.transactionID;
+```
+
+>[!CAUTION]
 >
->No utilice una función aleatoria para generar un ID de compra. Adobe recomienda utilizar una [capa de datos](../../prepare/data-layer.md) para almacenar un ID de compra determinado.
+>No utilice una función aleatoria para generar un ID de compra.
