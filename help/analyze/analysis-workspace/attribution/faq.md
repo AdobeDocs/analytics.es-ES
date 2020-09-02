@@ -2,9 +2,9 @@
 title: Preguntas más frecuentes sobre Attribution
 description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: c206095b8024db0e31586abdf9639fba3401ce3f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '760'
 ht-degree: 95%
 
 ---
@@ -40,6 +40,7 @@ Los modelos de atribución están disponibles fuera de los grupos de informes vi
 
 El panel de atribución admite todas las dimensiones. Las métricas no admitidas incluyen:
 
+* Todas las métricas calculadas
 * Visitantes únicos
 * Visitas
 * Ocurrencias
