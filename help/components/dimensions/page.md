@@ -2,10 +2,10 @@
 title: Página
 description: Nombre de la página.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 88%
+source-wordcount: '212'
+ht-degree: 71%
 
 ---
 
@@ -18,7 +18,9 @@ Esta dimensión está relacionada con las dimensiones [Sección del sitio ](site
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recupera datos de la [`pageName`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable `pageName`. Si la variable `pageName` no está definida, vuelve a utilizar la dirección URL de la página.
+Esta dimensión recupera datos de la cadena [`pageName` de](/help/implement/validate/query-parameters.md) consulta en las llamadas de vista de [página (`t()`)](/help/implement/vars/functions/t-method.md). [Las llamadas de seguimiento de vínculos (`tl()`)](/help/implement/vars/functions/tl-method.md) siempre eliminan esta dimensión, incluso si existe la cadena de `pageName` consulta.
+
+AppMeasurement recopila estos datos mediante la variable [`pageName`](/help/implement/vars/page-vars/pagename.md). If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
 ## Elementos de Dimension
 
