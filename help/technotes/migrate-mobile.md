@@ -2,9 +2,9 @@
 description: Descubra cómo migrar las reglas de procesamiento de Mobile Services a Adobe Analytics
 title: Migración de reglas de procesamiento de Mobile Services a Adobe Analytics
 translation-type: tm+mt
-source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
+source-git-commit: c2610bf25c960039ca8638cecbd05f3a8b28376f
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '700'
 ht-degree: 18%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 18%
 Con la próxima (aún no anunciada) puesta en marcha de la funcionalidad de Adobe Mobile Services, este documento le proporciona instrucciones sobre cómo migrar cualquier regla de procesamiento adicional (más allá de las métricas del ciclo vital) que haya creado en la interfaz de usuario de Mobile Services a Adobe Analytics.
 
 Las reglas de procesamiento se utilizan para mover valores desde variables de datos de contexto a props y eVars. Por ejemplo, puede colocar el valor de una variable de datos de contexto &quot;término de búsqueda&quot; en el valor de un eVar de variable de comercio y sobrescribir ese valor en cada visita. Sin reglas de procesamiento, las variables de datos de contexto no tienen sentido y no rellenan ningún informe en Analytics.
+
+Este documento también aborda el sistema de informes de uso móvil en Analysis Workspace y analiza la viabilidad de migrar otras funciones de Mobile Services.
 
 ## Migrar reglas de procesamiento
 
