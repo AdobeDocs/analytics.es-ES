@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Dimensiones disponibles para las reglas de procesamiento
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '743'
+ht-degree: 86%
 
 ---
 
@@ -88,11 +91,11 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nombre de la página </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Nota: Una vista de página se cuenta en todas las visitas individuales donde no está vacío el nombre de la página. Cuando se realiza el seguimiento de un vínculo, el servidor de recopilación de datos elimina de la visita individual el nombre de página de modo que no se cuentan las vistas de esa página. Si vuelve a insertar un nombre de página en estas celdas con reglas de procesamiento, se cuenta una vista de página. Se recomienda asegurarse de que ese nombre de página ya esté establecido antes de modificar el nombre de la página. </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>Nota:  Las llamadas de seguimiento de vínculos eliminan la <code>pageName</code> variable antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de nombre de página mediante reglas de procesamiento, la visita se considera una vista de página en lugar de una llamada de seguimiento de vínculo. Adobe recomienda comprobar si el nombre de la página ya está establecido antes de modificarlo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>URL de la página </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> o la dirección URL de la página actual si <code> s.pageURL</code> no se especifica. </td> 
+   <td colname="col2"> <code> s.pageURL</code> o la dirección URL de la página actual si <code> s.pageURL</code> no se especifica. <p>Nota:  Las llamadas de seguimiento de vínculos eliminan la <code>pageURL</code> variable antes de alcanzar las reglas de procesamiento. Si vuelve a insertar un valor de URL de página mediante reglas de procesamiento, la visita se considera una vista de página en lugar de una llamada de seguimiento de vínculo. Adobe recomienda comprobar que la dirección URL de la página ya está establecida antes de modificarla. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Parámetro de cadena de consulta </p> </td> 
