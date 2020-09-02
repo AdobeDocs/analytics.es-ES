@@ -2,9 +2,9 @@
 description: Descubra cómo migrar las reglas de procesamiento de Mobile Services a Adobe Analytics
 title: Migración de reglas de procesamiento de Mobile Services a Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 67c8880e125ca31aa96ecea56a7ef0b85bc3abba
+source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '680'
 ht-degree: 18%
 
 ---
@@ -47,6 +47,10 @@ Además de las métricas y dimensiones móviles (si el grupo de informes está h
 * Rendimiento: ¿Qué rendimiento tiene la aplicación y dónde tienen problemas los usuarios?
 * Retención: ¿Quiénes son mis usuarios más fieles y qué hacen?
 * Recorridos: ¿Cuáles son los patrones de uso más destacados de mi aplicación?
+
+Este es un extracto de la plantilla Uso de aplicaciones móviles:
+
+![Uso de aplicaciones móviles](assets/mobile-app-usage.png)
 
 Para acceder a las plantillas:
 
