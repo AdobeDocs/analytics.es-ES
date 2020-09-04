@@ -1,10 +1,10 @@
 ---
 title: Configurar una cuenta publicitaria
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '851'
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -45,14 +45,11 @@ Los administradores también pueden [conceder acceso a los usuarios que no son a
       </tr> 
       <tr> 
       <td colname="col1"> <p>Autenticador de OAuth </p> </td> 
-      <td colname="col2"> <p>Nota: OAuth es un estándar abierto para la delegación de acceso, usado por lo general como una manera de conceder a los sitios web o a las aplicaciones acceso a su información en otros sitios web, pero sin proporcionarles las contraseñas. </p> <p>Nota: Observará que se le dirige a una dirección URL de terceros (efrontier.com). Adobe utiliza efrontier como base del proceso de autenticación de OAuth para los tres motores de búsqueda. </p> <p>Nota: Si utiliza Internet Explorer 11 (o una versión anterior), no podrá recuperar correctamente el autenticador de OAuth para ninguno de los tres motores de búsqueda. En su lugar, utilice otros navegadores web. </p> <p>Al hacer clic en <span class="uicontrol">Recuperar autenticador</span>, se inicia el proceso de autenticación de OAuth2. Esto significa que se le pedirá que utilice sus credenciales para iniciar sesión en la cuenta de búsqueda de Google/Bing. En función del motor de búsqueda que haya elegido, el proceso es ligeramente diferente: </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: proporcione el identificador de la cuenta de Google. </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: proporcione el identificador de la cuenta de Bing y el identificador de cliente de Bing. </li> 
-        </ul> <p>Consulte  <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar el identificador de cuenta</a> para obtener información sobre estos identificadores. </p> <p>Cuando haya iniciado sesión correctamente, en el campo Autenticador de OAuth se mostrará la palabra 
-        <systemoutput>
-          Recuperado
-        </systemoutput>. </p> </td> 
+      <td colname="col2"> <p>Nota: OAuth es un estándar abierto para la delegación de acceso, usado por lo general como una manera de conceder a los sitios web o a las aplicaciones acceso a su información en otros sitios web, pero sin proporcionarles las contraseñas. </p> <p>Nota: Observará que se le dirige a una dirección URL de terceros (efrontier.com). Adobe utiliza efrontier como base del proceso de autenticación de OAuth para los tres motores de búsqueda. </p> <p>Nota: Si utiliza Internet Explorer 11 (o una versión anterior), no podrá recuperar correctamente el autenticador de OAuth para ninguno de los tres motores de búsqueda. En su lugar, utilice otros navegadores web. </p> <p>Al hacer clic en <span class="uicontrol">Recuperar autenticador</span>, se inicia el proceso de autenticación de OAuth2. Esto significa que se le pedirá que utilice sus credenciales para iniciar sesión en la cuenta de búsqueda de Google/Bing. En función del motor de búsqueda que haya elegido, el proceso es ligeramente diferente: </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google AdWords: proporcione el identificador de la cuenta de Google. </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: proporcione el identificador de la cuenta de Bing y el identificador de cliente de Bing. </li> 
+       </ul> <p>Consulte <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Localizar el identificador de cuenta</a> para obtener información sobre estos identificadores. </p> <p>Cuando haya iniciado sesión correctamente, en el campo Autenticador de OAuth se mostrará la palabra <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -81,7 +78,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Asignación de grupos de informes </p> </td> 
+      <td colname="col1"> <p>Report Suite  Asignación </p> </td> 
       <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
       </tr> 
     </tbody> 
