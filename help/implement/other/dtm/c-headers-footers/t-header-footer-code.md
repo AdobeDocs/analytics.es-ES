@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: Adición de código de Encabezado y Pie de página
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Dynamic Tag Management crea códigos incrustados de ensayo y producción que pue
 
    ![](assets/dtm-embed.png)
 
-   Coloque el código tan cerca de la etiqueta [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] como sea posible. Este fragmento de código debería colocarse en todas las páginas del sitio de producción activo.
+   Coloque el código tan cerca de la etiqueta `<head>` como sea posible. Este fragmento de código debería colocarse en todas las páginas del sitio de producción activo.
 
    >[!NOTE]
    >
