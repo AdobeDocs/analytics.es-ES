@@ -4,7 +4,10 @@ title: Informes de Activity Map
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -13,12 +16,12 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Pasos administrativos para activar Informes del Activity Map en Analytics.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map Reporting]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **`<select report suite>`** > **[!UICONTROL Editar configuración]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Informes de Activity Map]**
 
 Permite a Analytics recoger actividad del usuario originada desde el Activity Map (anteriormente, ClickMap). Esta integración
 
 * Permite la creación de informes en Analytics.
-* Añade nuevos informes en **[!UICONTROL View All Reports]** > **[!UICONTROL Activity Map:]**
+* Añade nuevos informes en **[!UICONTROL Ver todos los informes]** > **[!UICONTROL Activity Map:]**
 
    | Información general de la tienda de aplicaciones | Descripción |
    |---|---|
