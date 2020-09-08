@@ -4,7 +4,10 @@ title: Registros
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 97%
 
 ---
 
@@ -25,13 +28,54 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 
 | Elemento | Descripción |
 |---|---|
-| Intervalo de fecha | Especifique un filtro de intervalo de fechas. Puede introducir una fecha manualmente, con el formato AAAA-MM-DD, o hacer clic en el icono del calendario para seleccionar una fecha. |
+| Intervalo de fechas | Especifique un filtro de intervalo de fechas. Puede introducir una fecha manualmente, con el formato AAAA-MM-DD, o hacer clic en el icono del calendario para seleccionar una fecha. |
 | Inicio de sesión | Filtre el registro por nombre de usuario. |
 | IP | Filtre el registro por dirección IP. |
 | Report Suite | Filtre el registro por un ID de grupo de informes específico. |
-| Tipo de evento | Filtre el registro por tipo de evento. Seleccione un tipo de evento de la lista desplegable. |
+| Tipo de evento | Filtre el registro por tipo de evento. Seleccione un tipo de evento de la lista desplegable. Consulte la lista completa de tipos de evento a continuación. |
 | Evento | Filtre el registro por una palabra o frase de la descripción del evento. |
 | Descargar informe | Exporta el contenido del [!UICONTROL registro de uso y acceso] a un archivo delimitado por tabulaciones. |
+
+### Tipos de eventos
+
+| Tipo de evento | Descripción |
+| --- |--- |
+| Ninguna categoría |  |
+| Falló el inicio de sesión |  |
+| Inicio de sesión exitoso |  |
+| Acción del administrador |  |
+| Cambio en la configuración de seguridad |  |
+| Informe visto |  |
+| Informe descargado |  |
+| Alerta enviada |  |
+| Acción del usuario |  |
+| Herramienta vista |  |
+| Acción de Omniture |  |
+| Recuperación de contraseña |  |
+| Marcadores |  |
+| Tableros |  |
+| Alertas |  |
+| Eventos de calendario |  |
+| Objetivos |  |
+| Configuración de informes |  |
+| Informes programados |  |
+| Excluir por dirección IP |  |
+| Nombrar páginas |  |
+| Clasificaciones |  |
+| Fuentes de datos |  |
+| Proyecto de espacio de trabajo |  |
+| Segmento |  |
+| Métrica calculada |  |
+| Intervalo de fechas |  |
+| Grupo de informes virtuales |  |
+| Análisis de contribución |  |
+| Solicitud de bloque de datos de Excel |  |
+| Error en el inicio de sesión de Excel |  |
+| Inicio de sesión exitoso en Excel |  |
+| Error en el inicio de sesión de Mobile |  |
+| Inicio de sesión exitoso en Mobile |  |
+| Método API |  |
+
 
 ## Registro de cambios del grupo de informes {#section_3864966639414BBEA871F4D0352F56B6}
 
@@ -45,7 +89,7 @@ Las herramientas que pueden modificar un grupo de informes desde fuera de las [!
 
 | Elemento | Descripción |
 |---|---|
-| Intervalo de fecha | Especifique un filtro de intervalo de fechas. Puede introducir una fecha manualmente, con el formato AAAA-MM-DD, o hacer clic en el icono del calendario para seleccionar una fecha. |
+| Intervalo de fechas | Especifique un filtro de intervalo de fechas. Puede introducir una fecha manualmente, con el formato AAAA-MM-DD, o hacer clic en el icono del calendario para seleccionar una fecha. |
 | Empresa | Filtre el registro por nombre de empresa. |
 | Inicio de sesión | Filtre el registro por nombre de usuario. |
 | IP | Filtre el registro por dirección IP. |
