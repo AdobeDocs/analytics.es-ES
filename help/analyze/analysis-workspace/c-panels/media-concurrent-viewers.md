@@ -2,10 +2,10 @@
 title: Panel de visores simultáneos de medios
 description: Cómo utilizar e interpretar el panel Visores simultáneos de medios en Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
+source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 10%
+source-wordcount: '1068'
+ht-degree: 9%
 
 ---
 
@@ -77,6 +77,7 @@ No hay una tabla improvisada disponible en esta vista.  Para realizar la vista d
 | ¿Puedo ejecutar la detección de anomalías? | No.  La detección de anomalías no está disponible para este panel. |
 | ¿Por qué utilizar visitantes únicos en lugar de sesiones activas? | El uso de visitantes únicos permite eliminar los picos no deseados en los límites del programa (donde las sesiones finalizan y comienzan al mismo tiempo). |
 | ¿Qué significa tener visores simultáneos con una granularidad mayor que el minuto? | Con una granularidad de más de un minuto, los visores simultáneos son la suma de visores simultáneos únicos para todos los minutos dentro de ese intervalo de tiempo.  Por ejemplo, en la granularidad de nivel de hora, los visores concurrentes es la suma de los visores concurrentes únicos para todos los minutos dentro de la hora. |
-| ¿Qué sucede si deseo ver más de un día en la granularidad de nivel de minuto? | Para acceder a los datos en granularidad de nivel de minuto durante un mes como máximo, puede utilizar la API de Sistema de informes de Analytics (2.0 o 1.4). Para obtener más información sobre las API de Analytics, consulte la Guía [del usuario de informes de API de](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)Analytics. |
+| ¿Qué sucede si deseo ver más de un día en la granularidad de nivel de minuto? | Para acceder a los datos en granularidad de nivel de minuto durante un mes como máximo, puede utilizar las API de Analytics 2.0. Para obtener más información, consulte API [de Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html). |
+| ¿Muestra el panel del área de trabajo la misma información que el informe Visores simultáneos? | No.  En Analysis Workspace, los visores simultáneos se definen como el número de visitantes únicos que visualizan el flujo de medios en un momento determinado, independientemente del número de sesiones.<br></br>Esto es diferente al sistema de informes del visor simultáneo en la sección Informes, que utiliza Sesiones activas simultáneos.  El uso de cuentas de visitantes únicas para eliminar picos no deseados en los límites del programa, donde las sesiones finalizan y comienzan al mismo tiempo. |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
