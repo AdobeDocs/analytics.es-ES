@@ -5,9 +5,9 @@ title: Proyectos programados
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 04b5c7af0ac0052d059bea86cae13aa7fb05fff3
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '468'
 ht-degree: 8%
 
 ---
@@ -28,6 +28,8 @@ Para enviar un archivo inmediatamente a los destinatarios por correo electrónic
 1. Haga clic en **Enviar ahora**.
 1. (Opcional) Haga clic en **Mostrar opciones** de programación para especificar una programación de envíos.
 
+![Enviar archivo ahora](assets/send-file-now.png)
+
 ## Enviar archivo según lo programado
 
 Para enviar un archivo de forma periódica a los destinatarios por correo electrónico:
@@ -40,11 +42,15 @@ Para enviar un archivo de forma periódica a los destinatarios por correo electr
 1. Especifique la frecuencia de envío. Cada frecuencia permite diferentes personalizaciones.
 1. Haga clic en **Enviar según lo programado**.
 
+![](assets/send-on-schedule.png)
+
 ## Administrador de proyectos programados
 
 Los proyectos programados de Analysis Workspace se pueden administrar en **Analytics > Componentes > Proyectos** programados.
 
 En el Administrador de proyectos programados, puede editar y eliminar programaciones de proyectos recurrentes. Busque una programación en la barra de búsqueda o utilizando las opciones de filtro en el carril izquierdo. Puede filtrar por etiqueta, programaciones aprobadas, propietarios y más.
+
+![](assets/scheduled-project-manager.png)
 
 Las siguientes son acciones comunes en el administrador de proyectos programados:
 
