@@ -1,11 +1,11 @@
 ---
 title: Creación o edición de una fuente de datos
 description: Obtenga información sobre cómo crear o editar una fuente de datos.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8454f64604afaea03af8bb4d7cefc3cbab889ec6
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 
@@ -48,8 +48,9 @@ Puede enviar fuentes directamente a los bloques de Amazon S3. Requiere un nombre
 
 ![Información de S3](assets/dest-s3.jpg)
 
-Se admiten las 11 regiones de AWS estándar siguientes (utilizando el algoritmo de firma adecuado cuando sea necesario):
+Se admiten las 16 regiones de AWS estándar siguientes (utilizando el algoritmo de firma adecuado cuando sea necesario):
 
+* us-east-2
 * us-east-1
 * us-west-1
 * us-west-2
@@ -58,8 +59,12 @@ Se admiten las 11 regiones de AWS estándar siguientes (utilizando el algoritmo 
 * ap-southeast-1
 * ap-southeast-2
 * ap-northeast-1
+* ca-central-1
 * eu-central-1
 * eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-norte-1
 * sa-east-1
 
 >[!NOTE]
