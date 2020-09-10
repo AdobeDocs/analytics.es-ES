@@ -3,10 +3,10 @@ title: Notas de la versión de AppMeasurement para JavaScript
 description: Recopilación de notas de versiones de AppMeasurement para JavaScript.
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 100%
+source-wordcount: '2142'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,12 @@ Recopilación de notas de versiones de [!DNL AppMeasurement] para JavaScript.
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 Puede descargar la versión más reciente de AppMeasurement en el [Administrador de códigos](/help/admin/admin/code-manager-admin.md).
+
+## Versión 2.22.0
+
+Fecha de versión: **4 de agosto de 2020**
+
+* Se corrigió el remitente del reenvío que falta cuando no se envió la primera visita debido a las preferencias de exclusión del usuario.
 
 ## Versión 2.21.0
 
