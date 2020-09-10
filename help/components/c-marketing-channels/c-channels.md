@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: Administrar Canales de marketing
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '789'
+translation-type: tm+mt
+source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -28,17 +28,9 @@ Aquí tiene algunas indicaciones para la creación de canales:
 
 ## Requisitos previos {#prereqs}
 
-En caso necesario, póngase en contacto con el departamento de atención al cliente para obtener ayuda con los requisitos previos:
-
-* En la Consola de administración (Configuración general de cuenta), habilite la opción **[!UICONTROL Nivel de conversión]** (comercio electrónico) para el grupo de informes.
-
-   Consulte [Configuración general de cuenta](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/general-acct-settings-admin.html) en la sección de ayuda de Analytics para obtener más información.
-
 * Configure el acceso a las dimensiones del canal de marketing.
 
    Consulte los [permisos de los canales de marketing](/help/components/c-marketing-channels/c-channel-report-access.md).
-
-* Asegúrese de que su administrador de cuentas haya habilitado los **[!UICONTROL Informes de canal]** en el grupo de informes.
 
 ## Agregar canales de marketing {#add-mktg-channels}
 
@@ -53,7 +45,7 @@ Agregue canales de marketing en el Administrador de canales de marketing.
 
    Si selecciona varios grupos de informes, debe seleccionar una plantilla que copie la configuración de la plantilla a los grupos de informes seleccionados.
 
-   Consulte  [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Consulte [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 1. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Administrador de canales de marketing]**.
 
@@ -97,5 +89,5 @@ Adobe proporciona varios canales predefinidos durante una [configuración autom�
 >
 >Adobe recomienda que configure el informe en un grupo de informes, que puede utilizar como plantilla para realizar pruebas. Puede usar la plantilla para aplicar conjuntos de canales y reglas de forma global a uno o más grupos de informes de producción.
 >
->Consulte  [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+>Consulte [Aplicación de la configuración de un grupo de informes de plantilla a varios grupos de informes](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
