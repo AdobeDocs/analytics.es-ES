@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: General
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: 0d699a50a764d9ea76771118c7cc083fb46cefe9
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 Descripciones de los campos de la configuración general de DTM para la implementación de Adobe Analytics.
 
-**[!UICONTROL &lt;Propiedad>]** > ![](assets/settings_gear.png)**[!UICONTROL Herramienta de edición]** > **[!UICONTROL General]**
+**[!UICONTROL *`Property`*]** > ![](assets/settings_gear.png) **[!UICONTROL Editar herramienta]** > **[!UICONTROL General]**
 
 <table id="table_DD8DA303698041D296DD5DB080AF7971"> 
  <thead> 
