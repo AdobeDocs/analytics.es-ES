@@ -3,7 +3,7 @@ description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
 source-wordcount: '7820'
 ht-degree: 98%
@@ -19,7 +19,7 @@ Nueva función lanzada el 16 de julio de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Nuevos ajustes preestablecidos de intervalo de fechas | Se Añadieron 4 nuevos intervalos de fechas: ([!UICONTROL Esta semana/mes/trimestre/año (excluido hoy)]). Esto le permite elegir entre intervalos de fechas que no incluyen datos de día parcial de hoy. |
+| Nuevos ajustes preestablecidos de intervalo de fechas | Se añadieron 4 nuevos intervalos de fechas: ([!UICONTROL Esta semana/mes/trimestre/año (excluido hoy)]). Esto le permite elegir entre intervalos de fechas que no incluyen datos de día parcial de hoy. |
 
 ## Junio de 2020
 
@@ -515,7 +515,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cambios en Ninguno/No especificado </p> </td> 
-   <td colname="col2"> <p>Se ha cambiado el modo en que Ninguno/No especificado funciona en el Analysis Workspace para que sea coherente con Informes y Analytics, el Generador de segmentos y el menú de elementos de dimensión en Analysis Workspace. </p> <p>Esto significa que el valor aparecerá como “No especificado” en vez de como “Ninguno” en la mayoría de los proyectos de Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Se ha cambiado el modo en que Ninguno/No especificado funciona en Analysis Workspace para que sea coherente con Informes y análisis, el Generador de segmentos y el menú de elementos de dimensión en Analysis Workspace. </p> <p>Esto significa que el valor aparecerá como “No especificado” en vez de como “Ninguno” en la mayoría de los proyectos de Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -736,7 +736,7 @@ Nuevas funciones lanzadas el 20 de julio de 2017.
    <td colname="col2"> <p>Antes, si iniciaba sesión con las credenciales de Experience Cloud y navegaba a Analytics, no podía utilizar la función <span class="ignoretag"> <span class="uicontrol">Compartir</span> &gt; <span class="uicontrol">Obtener vínculo del proyecto</span></span>. Este problema está resuelto. Para que esta opción esté disponible, aún es necesario haber guardado el proyecto. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >Filtro “Proyectos caducados” en el Administrador de proyectos programados</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >Filtro “Proyectos caducados” en el Administrador de proyectos programados</a></b> </p> </td> 
    <td colname="col2"> <p>Ahora es posible filtrar para ver los proyectos caducados en el Administrador de proyectos programados. Entonces se puede decidir si los proyectos se reinician o se eliminan. </p> </td> 
   </tr> 
  </tbody> 
