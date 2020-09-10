@@ -3,10 +3,10 @@ description: Las métricas calculadas y calculadas avanzadas (o derivadas) son m
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: Métricas calculadas y calculadas avanzadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
-source-wordcount: '783'
+translation-type: tm+mt
+source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+workflow-type: tm+mt
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -15,14 +15,6 @@ ht-degree: 100%
 # Métricas calculadas y calculadas avanzadas (derivadas)
 
 Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que puede crear a partir de métricas existentes.
-
->[!IMPORTANT]
->
->En julio de 2018, Adobe introdujo [Attribution IQ](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/attribution/models.html), que revisaba la forma en que se evalúan los modelos de asignación en las métricas calculadas. Como parte de este cambio, las métricas calculadas que usan un modelo de asignación no predeterminado se migraron a los nuevos modelos de atribución mejorados:
->
->* Los modelos de asignación “Último contacto del canal de marketing” y “Primer contacto del canal de marketing” se migrarán a los nuevos modelos de atribución “Último contacto” y “Primer contacto”, respectivamente. Tenga en cuenta que “Canales de marketing” no se ha dejado de utilizar, pues únicamente se han retirado los dos modelos de asignación que aparecen en las métricas calculadas.
->* Además, corregimos el modo en el que se calcula la asignación lineal. Para los clientes que usan métricas calculadas con modelos de asignación “Lineal”, los informes pueden cambiar ligeramente para reflejar el nuevo modelo de atribución corregido. Este cambio en la métricas calculadas se refleja en el [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], API de informes, Report Builder y en Ad Hoc Analysis. Para obtener más información, consulte [Funcionamiento de la asignación lineal a partir del 19 de julio de 2018](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1).
-
 
 Nuestras herramientas de métricas calculadas ofrecen una forma muy flexible de crear, administrar y ajustar métricas. Como expertos en marketing, gestores de productos y analistas, les permite plantear preguntas acerca de los datos sin tener que cambiar su implementación de [!DNL Analytics] En cada paquete de [!DNL Analytics] están disponibles las siguientes métricas personalizadas:
 
