@@ -3,10 +3,10 @@ description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
+source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
-source-wordcount: '7820'
-ht-degree: 98%
+source-wordcount: '7821'
+ht-degree: 97%
 
 ---
 
@@ -1135,9 +1135,9 @@ El nuevo segmento se muestra en el grupo [!UICONTROL Segmentos] del panel [!UICO
 
 *`Save As`* también está disponible para el [!UICONTROL Generador de métricas calculadas] y el [!UICONTROL Generador de intervalo de fechas].
 
-## Botón Agregar nuevo segmento {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## Agregar nuevo segmento
 
-Se ha añadido el botón **[!UICONTROL Agregar nuevo segmento]** a la ubicación en la que arrastra y suelta segmentos en un proyecto.
+Se ha agregado la zona de colocación **[!UICONTROL Colocar un segmento aquí]** para que pueda arrastrar y soltar segmentos en un proyecto.
 
 ![](assets/add-new-segment.png)
 
