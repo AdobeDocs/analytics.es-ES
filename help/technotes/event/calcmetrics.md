@@ -2,21 +2,25 @@
 title: Derivar datos afectados por eventos
 description: Utilice las métricas calculadas para corregir los datos de tendencias afectados por un evento.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 8e193de6dbb51cb640218a0c7b1b501d4f1eaa27
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 4%
+source-wordcount: '328'
+ht-degree: 3%
 
 ---
 
 
 # Derivar datos afectados por eventos
 
-Si los datos [se ven afectados por un evento](overview.md), puede utilizar métricas calculadas para derivar valores de tendencias durante el evento. Por ejemplo, si tuvo un evento que causó una caída del 25 % en los datos, puede utilizarlo como multiplicador en una métrica calculada.
+Si tiene datos [afectados por un evento](overview.md), puede utilizar métricas calculadas para derivar valores estimados durante el evento. Por ejemplo, si tuvo un evento que causó una caída del 25 % en los datos, puede utilizarlo como multiplicador en una métrica calculada.
+
+Estos pasos funcionan mejor cuando se comprende el impacto de un evento, tanto desde una perspectiva de segmentación como de comparación de fechas. Asegúrese de seguir [Comparar fechas afectadas por un evento con intervalos](compare-dates.md) anteriores y [Excluir fechas específicas en análisis](segments.md) antes de seguir esta página.
 
 >[!NOTE]
 >
->Estos pasos funcionan mejor cuando se comprende el impacto de un evento, tanto desde una perspectiva de segmentación como de comparación de fechas. Asegúrese de seguir [Comparar fechas afectadas por un evento con intervalos](compare-dates.md) anteriores y [Excluir fechas específicas en análisis](segments.md) antes de seguir esta página.
+>Este enfoque es una estimación basada en un conjunto específico de entradas e intervalos de fechas. No será una solución integral para todos los casos de uso o segmentos de datos. Además, este método requiere que el intervalo de fechas afectado tenga al menos 1 visita desde la que realizar el cálculo.
+
+Para crear una métrica calculada estimada para el período de tiempo afectado:
 
 1. Cree dos segmentos para &#39;Días afectados&#39; y &#39;Excluir días afectados&#39;, tal como se describe en [Excluir fechas específicas en la análisis](segments.md).
 2. Vaya a **[!UICONTROL Componentes]** > Métricas **** calculadas.
