@@ -4,10 +4,10 @@ title: Registros
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 3603722ee3cbaf64b6d7bc0cbfa4af176f85a87a
+source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 97%
+source-wordcount: '613'
+ht-degree: 72%
 
 ---
 
@@ -40,41 +40,41 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 
 | Tipo de evento | Descripción |
 | --- |--- |
-| Ninguna categoría |  |
-| Falló el inicio de sesión |  |
-| Inicio de sesión exitoso |  |
-| Acción del administrador |  |
-| Cambio en la configuración de seguridad |  |
-| Informe visto |  |
-| Informe descargado |  |
-| Alerta enviada |  |
-| Acción del usuario |  |
-| Herramienta vista |  |
-| Acción de Omniture |  |
-| Recuperación de contraseña |  |
-| Marcadores |  |
-| Tableros |  |
-| Alertas |  |
-| Eventos de calendario |  |
-| Objetivos |  |
-| Configuración de informes |  |
-| Informes programados |  |
-| Excluir por dirección IP |  |
-| Nombrar páginas |  |
-| Clasificaciones |  |
-| Fuentes de datos |  |
-| Proyecto de espacio de trabajo |  |
-| Segmento |  |
-| Métrica calculada |  |
-| Intervalo de fechas |  |
-| Grupo de informes virtuales |  |
-| Análisis de contribución |  |
+| Ninguna categoría | Podría ser cualquier tipo de evento. |
+| Falló el inicio de sesión | Error en el proceso de inicio de sesión del usuario. |
+| Inicio de sesión exitoso | El usuario ha iniciado sesión correctamente. |
+| Acción del administrador | Se produjo una acción de administración, como editar un grupo de informes, cambiar la configuración de compañía, crear un usuario, etc. |
+| Cambio en la configuración de seguridad | Se cambió la configuración de seguridad. |
+| Informe visto | Se visualizó un informe de Informes y análisis. |
+| Informe descargado | Se descargó un informe de Informes y análisis. |
+| Alerta enviada | Se envió una alerta. |
+| Acción del usuario | Se editó la información del usuario. |
+| Herramienta vista | Se visualizó una herramienta. |
+| Acción de Omniture | Adobe realizó una acción. |
+| Recuperación de contraseña | Se recuperó una contraseña. |
+| Marcadores | Se administró un marcador. |
+| Tableros | Se administró un panel. |
+| Alertas | Se administró una alerta. |
+| Eventos de calendario | Se administró un evento de calendario. |
+| Objetivos | Se administró un destinatario. |
+| Configuración de informes | Se administró una configuración de informe. |
+| Informes programados | Se administró un informe programado. |
+| Excluir por dirección IP | Se cambió la configuración de IP. |
+| Nombrar páginas | Obsoleto. |
+| Clasificaciones | Se administró una clasificación. |
+| Fuentes de datos | Se administró una fuente de datos. |
+| Proyecto de espacio de trabajo | Se ha visualizado o editado un proyecto de Workspace. |
+| Segmento | Se creó o editó un segmento. |
+| Métrica calculada | Se creó o editó una métrica calculada. |
+| Intervalo de fechas | Se creó o editó un intervalo de fechas. |
+| Grupo de informes virtuales | Se creó o editó un grupo de informes virtuales. |
+| Análisis de contribución | Se ejecutó un trabajo de análisis de contribución. |
 | Solicitud de bloque de datos de Excel |  |
 | Error en el inicio de sesión de Excel |  |
 | Inicio de sesión exitoso en Excel |  |
 | Error en el inicio de sesión de Mobile |  |
 | Inicio de sesión exitoso en Mobile |  |
-| Método API |  |
+| Método API | Se realizó una llamada de API. |
 
 
 ## Registro de cambios del grupo de informes {#section_3864966639414BBEA871F4D0352F56B6}
