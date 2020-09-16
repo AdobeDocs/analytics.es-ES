@@ -4,7 +4,7 @@ title: Registros
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
+source-git-commit: fff1fb97f9224b7e68f85b24ac440083503df54f
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 72%
@@ -39,7 +39,7 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 ### Tipos de eventos
 
 | Tipo de evento | Descripción |
-| --- |--- |
+| --- | --- |
 | Ninguna categoría | Podría ser cualquier tipo de evento. |
 | Falló el inicio de sesión | Error en el proceso de inicio de sesión del usuario. |
 | Inicio de sesión exitoso | El usuario ha iniciado sesión correctamente. |
