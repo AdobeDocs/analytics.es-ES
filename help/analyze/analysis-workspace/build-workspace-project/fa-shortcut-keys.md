@@ -5,10 +5,10 @@ title: Teclas de acceso directo (métodos abreviados) disponibles en Analysis Wo
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: bbc137a8914afeba02af326fb3bb9b92c0f16eb3
+source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 77%
+source-wordcount: '285'
+ht-degree: 58%
 
 ---
 
@@ -17,14 +17,16 @@ ht-degree: 77%
 
 Las teclas de acceso directo (métodos abreviados de teclado) están disponibles en Analysis Workspace para una navegación, análisis y democratización sin problemas.
 
-Nota: `CTRL` = Windows y `command` = Mac
+Nota:
+* `Ctrl` = Windows y `Command` = Mac
+* `Alt` = Windows y `Option` = Mac
 
 ## Acciones de navegación
 
 | Acción | Acceso directo |
 |---|---|
-| Crear nuevo proyecto | ctrl (o cmd) + mayús + p |
-| Abrir proyecto existente | ctrl (o cmd) + o |
+| Crear nuevo proyecto | ctrl + mayús + p |
+| Abrir proyecto existente | ctrl + o |
 | Ir al panel Paneles | alt + mayús + 1 |
 | Ir al panel Visualizaciones | alt + mayús + 2 |
 | Ir al panel Componentes | alt + mayús + 3 |
@@ -33,22 +35,22 @@ Nota: `CTRL` = Windows y `command` = Mac
 | Mover al panel siguiente | alt + tecla derecha |
 | Mover al panel anterior | alt + tecla izquierda |
 
-## Acciones de Análisis
+## Acciones de análisis
 
 | Acción | Acceso directo |
 |---|---|
 | Buscar carril izquierdo | ctrl + / |
-| Crear una alerta | ctrl (o cmd) + mayús + a |
-| Crear métrica calculada | ctrl (o cmd) + mayús + c |
-| Crear un intervalo de fechas | ctrl (o cmd) + mayús + d |
-| Creación de segmentos | ctrl (o cmd) + mayús + e |
+| Crear una alerta | ctrl + mayús + a |
+| Crear métrica calculada | ctrl + mayús + c |
+| Crear un intervalo de fechas | ctrl + mayús + d |
+| Creación de segmentos | ctrl + mayús + e |
 | Borrar todo | alt + w |
-| Copy | ctrl (o cmd) + c |
-| Rehacer | ctrl (o cmd) + mayús + z |
-| Deshacer | ctrl (o cmd) + z |
+| Copy | ctrl + c |
+| Rehacer | ctrl + mayús + z |
+| Deshacer | ctrl + z |
 | Actualizar componentes | alt + mayús + r |
 | Actualizar proyecto | alt + r |
-| Establecer como página de aterrizaje | ctrl (o cmd) + mayús + l |
+| Establecer como página de aterrizaje | ctrl + mayús + l |
 
 ## Añadir paneles y acciones de visualización
 
@@ -69,13 +71,13 @@ Nota: `CTRL` = Windows y `command` = Mac
 
 | Acción | Acceso directo |
 |---|---|
-| Guardar proyecto | ctrl (o cmd) + s |
-| Guardar proyecto como | ctrl (o cmd) + mayús + s |
+| Guardar proyecto | ctrl + s |
+| Guardar proyecto como | ctrl + mayús + s |
 | Guardar como plantilla | Alt + t |
-| Descargar como CSV | ctrl (o cmd) + mayús + v |
-| Descargar como PDF | ctrl (o cmd) + mayús + b |
-| Depurar datos de proyectos | ctrl (o cmd) + mayús + g |
-| Compartir proyecto | ctrl (o cmd) + g |
+| Descargar como CSV | ctrl + mayús + v |
+| Descargar como PDF | ctrl + mayús + b |
+| Depurar datos de proyectos | ctrl + mayús + g |
+| Compartir proyecto | ctrl + g |
 | Obtener vínculo del proyecto | alt + l |
 | Enviar archivo ahora | alt + s |
 | Enviar archivo según lo programado | mayús + alt + s |
