@@ -3,15 +3,19 @@ description: En el calendario, se pueden indicar fechas e intervalos de fechas o
 title: Fechas e intervalos de fechas
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 97%
 
 ---
 
 
 # Fechas e intervalos de fechas
+
+>[!IMPORTANT]
+>
+>Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
 
 En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos. Se pueden realizar selecciones de calendario en los niveles de proyecto, espacio de trabajo e informe. El intervalo de fechas del proyecto se toma como fecha predeterminada. Sin embargo, el intervalo de fechas del espacio de trabajo tiene prioridad sobre el intervalo de fechas del proyecto. Asimismo, el intervalo de fechas del informe tiene prioridad sobre la configuración de fechas de los espacios de trabajo y los proyectos. No se puede seleccionar un intervalo de fechas que exceda el intervalo de disponibilidad de datos.
 
