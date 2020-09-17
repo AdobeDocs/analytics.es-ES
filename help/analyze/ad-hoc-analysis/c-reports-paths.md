@@ -3,13 +3,20 @@ description: Muestra información sobre el orden en que se accede a las páginas
 title: Informes de rutas
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 99%
 
 ---
 
 
 # Informes de rutas
+
+>[!IMPORTANT]
+>
+>Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
 
 Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
 
@@ -17,7 +24,7 @@ Muestra información sobre el orden en que se accede a las páginas del sitio We
 
 Muestra información sobre el orden en que se accede a las páginas del sitio Web. Puede recopilar información sobre los lugares a los que va un visitante antes y después de visitar una página del sitio.
 
-Los informes de rutas incluyen informes exhaustivos estándar y de análisis avanzado opcionales que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
+Los informes análisis avanzado opcionales que revelan el flujo de navegación de las páginas vistas. Se pueden ver las rutas completas, las rutas más largas y las rutas más populares; explicar el flujo de página, las visitas en el orden previsto y las bajas de manera gráfica; mostrar patrones nuevos y cambiantes en el tiempo; y analizar las rutas de entrada y salida.
 
 **[!UICONTROL Flujo de página siguiente]** o **[!UICONTROL Flujo de sitio siguiente]**: muestra un gráfico ramificado de dos niveles de una página seleccionada (o sección, departamento, etc.) que el visitante ve tras irse de la página seleccionada. Use este informe para analizar e identificar los pasos que siguen los visitantes con más frecuencia después de ver una página determinada. Puede:
 
@@ -67,7 +74,7 @@ Este informe resulta útil para examinar:
 
 * Las tasas de conversión a través de procesos específicos en el sitio (tales como un proceso de registro o de compra).
 * Flujos de tráfico generales, con un alcance más amplio: entre las personas que visitaron la página principal, este flujo muestra cuántas fueron de allí a realizar una búsqueda y cuántas continuaron para ver un elemento específico.
-* Correlaciones entre los eventos del sitio. Las correlaciones muestran el porcentaje de personas que leyeron la política de confidencialidad y procedieron a realizar la compra de un producto.
+* Correlaciones entre los eventos del sitio. Las correlaciones muestran el porcentaje de personas que leyeron la política de privacidad y procedieron a realizar la compra de un producto.
 
 ## Ejecutar un informe de visitas en el orden previsto {#task_3594E8BE55964C1C8B0BEC8DEABF82D3}
 
