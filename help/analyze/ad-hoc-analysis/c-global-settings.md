@@ -3,9 +3,9 @@ description: Configurar las opciones globales de comportamiento. Por ejemplo, se
 title: Configuración
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '612'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
+>El Adobe está llevando a Ad Hoc Analysis al final de su vida útil el 1 de marzo de 2021. [Más información](https://adobe.ly/discoverworkspace)
 
 Configurar las opciones globales de comportamiento. Por ejemplo, se puede configurar el guardado automático, las opciones de gráficos y tablas y especificar la fuente y la configuración regional.
 
