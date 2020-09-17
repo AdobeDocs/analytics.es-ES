@@ -4,12 +4,19 @@ title: Tipos de informes
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1730'
+ht-degree: 99%
 
 ---
 
 
 # Tipos de informes
+
+>[!IMPORTANT]
+>
+>Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
 
 Descripción de los tipos de informes usados en Experience Cloud.
 
@@ -218,7 +225,7 @@ Haga clic con el botón derecho en un cilindro para editarlo o eliminarlo.
 
 | Opción | Descripción |
 |--- |--- |
-| Editar  | Permite agregar o quitar páginas en un cilindro. |
+| Editar | Permite agregar o quitar páginas en un cilindro. |
 | Eliminar | Permite quitar un cilindro. |
 | Informes | Permite iniciar otro informe desde el cilindro. |
 | Guardar gráfico como | Permite guardar el gráfico como un archivo .jpg o .png. Si cambia los controles del gráfico (ángulo, tamaño del gráfico) antes de guardarlo, estos cambios se mantendrán en la salida. |
