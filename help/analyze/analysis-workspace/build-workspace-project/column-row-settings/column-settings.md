@@ -3,9 +3,9 @@ description: La configuración de columna le permite configurar el formato de la
 title: Configuración de columna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: dd14c576a6c447026c2389a864afce16e6bdc77d
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '720'
 ht-degree: 92%
 
 ---
@@ -25,6 +25,10 @@ Puede editar la configuración **de varias columnas a la vez**. Basta con selecc
 
 | Elemento | Descripción |
 | --- | --- |
+| **Celdas con totales** |  |
+| Mostrar totales | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. Refleja cualquier filtro de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno]. |
+| Mostrar el total | Este total representa todas las visitas recopiladas, a veces denominadas &quot;total del grupo de informes&quot;. Cuando se aplica un segmento en el nivel de panel o en la tabla improvisada, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| **Celdas de la tabla** |  |
 | Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
 | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila dividido por el total de visualizaciones de la página para la columna.  Nota: Se pueden mostrar porcentajes superiores al 100 % para mejorar la precisión. También se ha he incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. |
 | Anomalías | Determina si se ha ejecutado una detección de anomalías en los valores de esta columna. |
@@ -44,9 +48,9 @@ El formato condicional aplica formato que puede definir a los límites superior,
 | Elemento | Descripción |
 | --- | --- |
 | Formato condicional | Aplica los colores siguientes a las celdas, en función de los valores de los datos: <ul><li>Verde: valores altos</li><li>Amarillo: valores medios</li><li>Rojo: valores bajos</li></ul> <br> Sustituir una dimensión en la tabla restablece los límites de formato condicional. Cuando se sustituye una métrica se vuelven a calcular los límites de dicha columna (donde las métricas se encuentran en el eje X y las dimensiones se encuentran en el eje Y). |
-| Usar límites porcentuales | Cambie el intervalo de límite para que esté basado en porcentajes en lugar de en valores absolutos. Esto sirve para métricas que solo se basan en porcentajes (como el porcentaje de rebote), así como para métricas que tienen un recuento y un porcentaje (como las vistas de la página). |
+| Usar límites porcentuales | Cambie el rango de límite en función de los porcentajes, no en función de los valores absolutos. Esto sirve para métricas que solo se basan en porcentajes (como el porcentaje de rebote), así como para métricas que tienen un recuento y un porcentaje (como las vistas de la página). |
 | Generación automática | Calcule automáticamente los límites superior/medio/inferior en función de los datos. El límite superior es el valor máximo de esta columna. El límite inferior es el valor más bajo y el punto medio es la media entre los límites superior e inferior. |
-| Personalizado | Asigne manualmente los límites superior/medio/inferior. Esto le proporciona la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
+| Personalizado | Asigne los límites superior/medio/inferior en forma manual. Esto le proporciona la flexibilidad para determinar si el valor de una columna es bueno, medio o malo. |
 
 ## Uso de modelos de atribución no predeterminados {#attribution}
 
