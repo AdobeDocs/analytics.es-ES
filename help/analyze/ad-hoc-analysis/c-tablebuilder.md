@@ -3,9 +3,9 @@ description: El Generador de tablas permite crear informes con cualquier configu
 title: Generador de tablas
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
+>El Adobe está llevando a Ad Hoc Analysis al final de su vida útil el 1 de marzo de 2021. [Más información](https://adobe.ly/discoverworkspace)
 
 El Generador de tablas permite crear informes con cualquier configuración de métricas, dimensiones y segmentos. Por ejemplo, puede agregar varias métricas al Generador de tablas y aplicar segmentos a todas ellas a la vez. Puede aplicar artículos de los paneles de herramientas como filas o desgloses, o como columnas, y girar la tabla para verla de otro modo. Después de crear la tabla, puede interactuar directamente con la tabla de datos resultantes, para profundizar el análisis. Tenga presente que al generar una tabla de datos desde el Generador de tablas se ejecuta una consulta y se crea una nueva tabla de datos.
 
