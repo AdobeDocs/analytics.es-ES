@@ -4,10 +4,10 @@ title: Dimensiones
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 96%
+source-wordcount: '284'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
+>El Adobe está llevando a Ad Hoc Analysis al final de su vida útil el 1 de marzo de 2021. [Más información](https://adobe.ly/discoverworkspace)
 
 Las dimensiones son descripciones o características de datos de métricas que se pueden visualizar, desglosar y comparar en un informe. Son valores no numéricos y fechas que muestran una correlación, subrelación o clasificación de la métrica original del informe.
 
