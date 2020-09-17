@@ -3,12 +3,19 @@ description: Información sobre las diversas acciones que se pueden realizar en 
 title: Configurar informes ya creados
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 98%
 
 ---
 
 
 # Configurar informes ya creados
+
+>[!IMPORTANT]
+>
+>Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
 
 Información sobre las diversas acciones que se pueden realizar en un informe, por ejemplo configurar gráficos, crear desgloses y extraer datos.
 
