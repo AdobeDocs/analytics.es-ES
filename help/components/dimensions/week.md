@@ -2,10 +2,10 @@
 title: Semana
 description: La semana en la que se produjo la métrica.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 58%
+source-wordcount: '141'
+ht-degree: 42%
 
 ---
 
@@ -20,4 +20,6 @@ Esta dimensión funciona de forma predeterminada para todas las implementaciones
 
 ## Elementos de Dimension
 
-Los elementos de Dimension incluyen la fecha (mes, día y año) del primer día de la semana.
+En Analysis Workspace, los elementos de dimensión incluyen la fecha (mes, día y año) del primer día de la semana.
+
+En Data Warehouse, los elementos de dimensión incluyen semanas numeradas en función del intervalo de fechas de la solicitud. Por ejemplo, la primera semana completa es `"Week 1"`. Si una solicitud incluye una semana parcial, los datos se agrupan en el elemento de dimensión `"Week 0"`.
