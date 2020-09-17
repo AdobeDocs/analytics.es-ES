@@ -3,12 +3,19 @@ description: 'El tiempo es una dimensión de generación de informes útil para 
 title: Fecha
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 97%
 
 ---
 
 
 # Fecha
+
+>[!IMPORTANT]
+>
+>Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
 
 El tiempo es una dimensión de generación de informes útil para analizar tendencias a lo largo de horas, días, semanas e intervalos de fechas. Por ejemplo, un informe de productos muestra los ingresos obtenidos de cierto producto durante un intervalo de fechas seleccionado. Se puede agregar una dimensión Día para ver la tendencia a lo largo de cada día del período del informe. Las opciones de granularidad temporal son: hora, día, semana, mes, trimestre y año. Los ajustes predefinidos de intervalo de fechas incluyen, por ejemplo: Hoy, Ayer y Últimos 7 días.
 
