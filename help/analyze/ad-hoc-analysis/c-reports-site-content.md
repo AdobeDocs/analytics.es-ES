@@ -3,16 +3,23 @@ description: Muestran información sobre las páginas y áreas del sitio más ac
 title: Informes de contenido del sitio
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 97%
 
 ---
 
 
 # Informes de contenido del sitio
 
+>[!IMPORTANT]
+>
+>Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
+
 Muestran información sobre las páginas y áreas del sitio más activas y sobre los servidores que más se utilizan.
 
-## Informes  de contenido del sitio {#concept_6FD804C43698437A88E1E8A19821851E}
+## Informes de contenido del sitio {#concept_6FD804C43698437A88E1E8A19821851E}
 
 Muestran información sobre las páginas y áreas del sitio más activas y sobre los servidores que más se utilizan.
 
