@@ -3,10 +3,10 @@ description: Preguntas más frecuentes sobre las fuentes de datos
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: Preguntas frecuentes sobre las fuentes de datos
 translation-type: tm+mt
-source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 86%
+source-wordcount: '318'
+ht-degree: 66%
 
 ---
 
@@ -30,3 +30,9 @@ Si ve diferentes variaciones de mayúsculas y minúsculas del mismo valor entre 
 ## ¿Las reglas de bots de la consola de administración se filtran en las fuentes de datos?
 
 Las fuentes de datos no incluyen bots filtrados por las reglas [de bots de la consola](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)de administración.
+
+## ¿Por qué veo varios `000` valores en la columna de fuente de datos `event_list` o `post_event_list` ?
+
+Algunos editores de hojas de cálculo, especialmente Microsoft Excel, redondean automáticamente números muy grandes. La `event_list` columna contiene muchos números delimitados por comas, lo que a veces hace que Excel la trate como un gran número. Se redondean los últimos dígitos a `000`.
+
+Adobe recomienda no abrir automáticamente `hit_data.tsv` archivos en Microsoft Excel. En su lugar, utilice el cuadro de diálogo Importar datos de Excel y asegúrese de que todos los campos se tratan como texto.
