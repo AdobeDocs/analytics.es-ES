@@ -4,12 +4,19 @@ title: Resumen de los informes
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '995'
+ht-degree: 98%
 
 ---
 
 
 # Resumen de los informes
+
+>[!IMPORTANT]
+>
+>Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
 
 Los informes estándar presentan datos de la actividad del sitio web y de los visitantes, patrones de tráfico, datos de los sitios referentes, campañas de publicidad, retención de visitantes, datos de productos, etc. Se pueden ejecutar informes y luego acceder a herramientas para configurar segmentos, métricas y comparaciones de informes.
 
@@ -33,7 +40,7 @@ Si usa Reports and Analytics de marketing, los tipos de informes y menús le res
 
 **Informes de resumen**
 
-Includes reports such as the [!UICONTROL Totals Report], which shows data designed for quick overviews. Están destinados a los ejecutivos que desean obtener una rápida visión general de los datos.
+Incluyen informes, como el de [!UICONTROL totales], que muestran datos que ayudan a obtener una visión general rápida. Están destinados a los ejecutivos que desean obtener una rápida visión general de los datos.
 
 **Informes de conversión**
 
@@ -58,7 +65,7 @@ c_reports_campaigns.xml
 
  -->
 
-Estos informes normalmente se personalizan y son por tanto distintos para cada analista. Consulte la ayuda [de la Consola de](https://helpx.adobe.com/es/enterprise/using/admin-console.html) administración para obtener más información.
+Estos informes normalmente se personalizan y son por tanto distintos para cada analista. See the [Admin Console help](https://helpx.adobe.com/es/enterprise/using/admin-console.html) for more information.
 
 ## Cálculos estadísticos {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,12 +81,12 @@ Se pueden añadir cálculos estadísticos predeterminados adicionales para infor
 
 **Para abrir los cálculos estadísticos para informes de clasificación:**
 
-1. Select **[!UICONTROL Tools]** > **[!UICONTROL Ranked]** from the menu.
+1. Seleccione **[!UICONTROL Herramientas]** > **[!UICONTROL Clasificado]** del menú.
 
-1. Select **[!UICONTROL Settings]**.
-1. Select **[!UICONTROL Default Statistics]**.
+1. Seleccione **[!UICONTROL Configuración]**.
+1. Seleccione **[!UICONTROL Estadísticas predeterminadas]**.
 
-**[!UICONTROL Ignore zeros in statistical calculations]**. Seleccione esta opción para ignorar los ceros y garantizar que añadir otra métrica no cambiará los promedios ya calculados. Todas las estadísticas se ven afectadas por esta configuración (aunque a Suma no le afecta).
+**[!UICONTROL Ignore los ceros en los cálculos estadísticos]**. Seleccione esta opción para ignorar los ceros y garantizar que añadir otra métrica no cambiará los promedios ya calculados. Todas las estadísticas se ven afectadas por esta configuración (aunque a Suma no le afecta).
 
 | Cálculo | Descripción |
 |--- |--- |
@@ -141,7 +148,7 @@ c_overlay_calculations.xml
 
  -->
 
-In a report that identifies data over a period of time, the **[!UICONTROL Statistics]** button lets you select calculations that will display as overlays across the report time line.
+En un informe que identifica datos a lo largo de un periodo de tiempo, el botón **[!UICONTROL Estadísticas]** le permite seleccionar cálculos que se mostrarán como superposiciones en la línea de tiempo del informe.
 
 ![](assets/overlay_calculations.png)
 
@@ -149,7 +156,7 @@ Además de los  [Cálculos estadísticos](/help/analyze/ad-hoc-analysis/c-overvi
 
 ## Administrador de grupos {#concept_E1433974A61144858E87334C006982B2}
 
-Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. Los grupos se pueden editar desde el menú principal o desde el informe. Categories that you have created in marketing reports and analytics also appear in the [!UICONTROL Checkpoint Selector] list.
+En el informe de [!UICONTROL visitas en el orden previsto] y [!UICONTROL análisis del sitio], en vez de usar una sola página, puede agrupar varias páginas y usarlas como categorías de ubicación de partida, intermedia o de destino. Los grupos se pueden editar desde el menú principal o desde el informe. Las categorías creadas en los Reports and Analytics de marketing también aparecen en la lista [!UICONTROL Selector de punto de comprobación].
 
 <!-- 
 
@@ -157,4 +164,4 @@ c_groups.xml
 
  -->
 
-Haga clic **[!UICONTROL Tools]** > **[!UICONTROL Group Manager]**.
+Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de grupos]**.
