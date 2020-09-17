@@ -3,15 +3,19 @@ description: Compara la terminología y tareas de los Ad Hoc Analysis con las de
 title: Analysis Workspace comparado con los Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
+source-git-commit: 0c934b0e1d6c1e862094737ad7ac504574c0c0d2
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 87%
+source-wordcount: '930'
+ht-degree: 86%
 
 ---
 
 
 # Analysis Workspace comparado con los Ad Hoc Analysis
+
+>[!IMPORTANT]
+>
+>Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
 
 Compara la terminología y tareas de los Ad Hoc Analysis con las de Analysis Workspace.
 
@@ -26,7 +30,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
 | Proyecto | Workspace o proyecto |
 | Espacio de trabajo | Panel |
 | Información general de la tienda de aplicaciones | Tabla improvisada |
-| Gráficos | Visualización |
+| Gráfico/Gráfico | Visualización |
 | Jerarquía: Proyecto > Workspace > Informes | Jerarquía: Proyecto > Paneles > Tablas |
 | Plantillas de informes Jerárquicas, De tendencia, Totales | Visualización de tabla improvisada |
 | Plantilla de flujo | Visualización de flujo |
@@ -57,7 +61,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Crear segmentos temporales ("ad-hoc") </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. Además, se pueden añadir filtros desplegables en la zona de colocación del panel para crear muchos segmentos temporales a la vez, lo que permite interacciones de proyecto controladas. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vídeo: Segmentos específicos en Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vídeo: filtros desplegables en el Analysis Workspace</a> </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. Además, se pueden añadir filtros desplegables en la zona de colocación del panel para crear muchos segmentos temporales a la vez, lo que permite interacciones de proyecto controladas. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vídeo: Segmentos específicos en Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vídeo: Filtros desplegables en Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Elegir intervalos y granularidades de fechas </p> </td> 
