@@ -3,12 +3,19 @@ description: Configurar las opciones globales de comportamiento. Por ejemplo, se
 title: Configuración
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
 
 # Configuración
+
+>[!IMPORTANT]
+>
+>Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
 
 Configurar las opciones globales de comportamiento. Por ejemplo, se puede configurar el guardado automático, las opciones de gráficos y tablas y especificar la fuente y la configuración regional.
 
@@ -16,7 +23,7 @@ Configurar las opciones globales de comportamiento. Por ejemplo, se puede config
 
 Configurar las opciones globales de comportamiento. Por ejemplo, se puede configurar el guardado automático, las opciones de gráficos y tablas y especificar la fuente y la configuración regional.
 
-Haga clic en **[!UICONTROL Tools]** > **[!UICONTROL Settings]** para acceder a [!UICONTROL Global Settings].
+Haga clic en **[!UICONTROL Herramientas]** > **[!UICONTROL Configuración]** para acceder a la [!UICONTROL Configuración global].
 
 ## Pestaña Configuración general: definiciones {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
