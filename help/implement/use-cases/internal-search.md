@@ -2,7 +2,7 @@
 title: Capture los términos de búsqueda interna
 description: Utilice una variable personalizada para capturar los términos de búsqueda interna.
 translation-type: tm+mt
-source-git-commit: 091e4b859addc1780d94d90c8b59748277890241
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Follow [Map Launch data elements to Analytics variables](../launch/elements-to-v
 
 Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). Una vez que haya confirmado que funciona en su entorno de desarrollo, puede [Validar una implementación de desarrollo y publicar en producción](../launch/validate-publish-prod.md).
 
-## Sistema de informes en Workspace.
+## Sistema de informes en Workspace
 
 Asigne tiempo a la implementación para recopilar datos y, a continuación, puede realizar inicios con la dimensión en Analysis Workspace.
 
