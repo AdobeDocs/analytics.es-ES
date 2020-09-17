@@ -4,9 +4,9 @@ title: Administrador de programación
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 98%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobe está moviendo Ad Hoc Analysis al estado de fin de vida el 1 de marzo de 2021. [Más información...](https://adobe.ly/discoverworkspace).
+>El Adobe está llevando a Ad Hoc Analysis al final de su vida útil el 1 de marzo de 2021. [Más información](https://adobe.ly/discoverworkspace)
 
 La programación de envío de los informes se puede personalizar. Por ejemplo, detener el envío de informes en un momento determinado o indicar la cantidad de veces que se desea enviar un informe. Cuando se crea una programación nueva, esta usa el intervalo de fechas definido en el informe. Por ejemplo, si crea un informe para los últimos 90 días y lo programa de modo que se ejecute en forma diaria, cada día recibirá un informe de los últimos 90 días. Si crea un informe con un intervalo de fechas estático del calendario, verá el mismo informe cada vez que se envíe.
 
