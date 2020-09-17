@@ -5,7 +5,7 @@ title: Teclas de acceso directo (métodos abreviados) disponibles en Analysis Wo
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 58%
@@ -24,7 +24,7 @@ Nota:
 ## Acciones de navegación
 
 | Acción | Acceso directo |
-|---|---|
+| --- | --- |
 | Crear nuevo proyecto | ctrl + mayús + p |
 | Abrir proyecto existente | ctrl + o |
 | Ir al panel Paneles | alt + mayús + 1 |
@@ -38,7 +38,7 @@ Nota:
 ## Acciones de análisis
 
 | Acción | Acceso directo |
-|---|---|
+| --- | --- |
 | Buscar carril izquierdo | ctrl + / |
 | Crear una alerta | ctrl + mayús + a |
 | Crear métrica calculada | ctrl + mayús + c |
@@ -55,7 +55,7 @@ Nota:
 ## Añadir paneles y acciones de visualización
 
 | Acción | Acceso directo |
-|---|---|
+| ---|---|
 | Nuevo panel de Analytics para Destinatario | alt + g |
 | Nuevo panel Atribución | alt + e |
 | Nuevo panel en blanco | alt + b |
@@ -70,7 +70,7 @@ Nota:
 ## Acciones de democratización
 
 | Acción | Acceso directo |
-|---|---|
+| --- | --- |
 | Guardar proyecto | ctrl + s |
 | Guardar proyecto como | ctrl + mayús + s |
 | Guardar como plantilla | Alt + t |
