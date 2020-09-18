@@ -1,11 +1,11 @@
 ---
 title: linkInternalFilters
 description: Utilice la variable linkInternalFilters para ayudar al seguimiento automático de vínculos de salida.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,8 @@ AppMeasurement ofrece la capacidad de rastrear automáticamente los vínculos qu
 Si esta variable contiene un valor, el seguimiento automático de vínculos de salida se comporta de una manera similar a una lista de elementos bloqueados. Si un clic en un vínculo no coincide con ningún valor `linkInternalFilters`, se considera un vínculo de salida. La dirección URL completa se examina con esta variable. Si [`linkLeaveQueryString`](linkleavequerystring.md) está habilitada, también se examina la cadena de consulta.
 
 Si utiliza `linkInternalFilters` y `linkExternalFilters` simultáneamente, el vínculo en el que se hizo clic debe coincidir con `linkExternalFilters` **y no** con `linkInternalFilters` para considerarse como un vínculo de salida. Si un vínculo en el que se hizo clic coincide con los criterios de vínculo de salida y de descarga, el tipo de vínculo de descarga tiene prioridad.
+
+El mapa de actividad utiliza esta variable para determinar qué vínculos son internos al sitio. Adobe recomienda configurar esta variable para implementaciones que utilicen el mapa de Actividad.
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ Coloque filtros que no desee que se rastreen como vínculos de salida en este ca
 La variable `s.linkInternalFilters` es una cadena que contiene filtros (como dominios) que el usuario considera internos al sitio. Separe varios filtros con una coma sin espacios.
 
 ```js
-s.linkInternalFilters = "example.com,example.net,example.org";
+s.linkInternalFilters = "example.com,example.net";
 ```
 
 Considere el siguiente ejemplo de implementación como si estuviera en `adobe.com`:
@@ -50,5 +52,5 @@ Considere el siguiente ejemplo de implementación como si estuviera en `adobe.co
 </script>
 
 <!-- The following link is an exit link because it does not match the anything under linkInternalFilters -->
-<a href = "example.com">Example link 2</a>
+<a href = "example.org">Example link 2</a>
 ```
