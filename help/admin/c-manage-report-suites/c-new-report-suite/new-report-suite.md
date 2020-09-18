@@ -3,11 +3,11 @@ description: Puede crear un nuevo grupo de informes seleccionando como modelo un
 title: Descargar la configuración del grupo de informes
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -48,7 +48,7 @@ Descripción de los elementos utilizados al [crear un grupo de informes](/help/a
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Página predeterminada</span> </td> 
-   <td colname="col2"> <p>Reduce las repeticiones del valor <span class="wintitle">Página predeterminada</span> en las direcciones URL que encuentra (opcional). Si el informe <span class="wintitle">Páginas más populares</span> contiene direcciones URL en vez de nombres de páginas, esta opción evita que se registren varias URL para la misma página web. </p> <p>Por ejemplo, las direcciones URL <span class="filepath">http://misitio.com</span> y <span class="filepath">http://misitio.com/index.html</span> suelen corresponder a la misma página. Puede quitar los nombres de archivo prescindibles para que ambas URL aparezcan como <span class="filepath">http://misitio.com</span> en los informes. </p> <p>Si no se define este valor, Analytics quitará automáticamente los siguientes nombres de archivo de las direcciones URL: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> y <span class="filepath">home.asp</span>. </p> <p>Para desactivar la depuración de nombres de archivos, especifique un valor de Página predeterminada que no aparezca nunca en las URL. </p> </td> 
+   <td colname="col2"> <p>Reduce las repeticiones del valor <span class="wintitle">Página predeterminada</span> en las direcciones URL que encuentra (opcional). Si el informe <span class="wintitle">Páginas más populares</span> contiene direcciones URL en vez de nombres de páginas, esta opción evita que se registren varias URL para la misma página web. </p> <p>For example, the URLs<span class="filepath"> https://example.com</span> and <span class="filepath"> https://example.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://example.com</span> in your reports. </p> <p>Si no se define este valor, Analytics quitará automáticamente los siguientes nombres de archivo de las direcciones URL: <span class="filepath">index.htm</span>, <span class="filepath">index.html</span>, <span class="filepath">index.cgi</span>, <span class="filepath">index.asp</span>, <span class="filepath">default.htm</span>, <span class="filepath">default.html</span>, <span class="filepath">default.cgi</span>, <span class="filepath">default.asp</span>, <span class="filepath">home.htm</span>, <span class="filepath">home.html</span>, <span class="filepath">home.cgi</span> y <span class="filepath">home.asp</span>. </p> <p>Para desactivar la depuración de nombres de archivos, especifique un valor de Página predeterminada que no aparezca nunca en las URL. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Fecha de lanzamiento </p> </td> 
