@@ -6,10 +6,10 @@ title: Referencia de columnas de datos
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '3674'
-ht-degree: 98%
+source-wordcount: '3667'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `ef_id` | El ef_id utilizado en las integraciones de Adobe Advertising Cloud. | varchar(255) |
 | `evar1 - evar250` | Variables personalizadas 1-250. Cada organización utiliza las eVars de forma diferente. El mejor lugar para obtener más información sobre cómo su organización completa las eVars respectivos sería un documento de diseño de soluciones que sea específico de su organización. | varchar(255) |
 | `event_list` | Una lista separada con comas de las ID numéricas que representa los eventos activados en la visita. Incluye los eventos predeterminados y los eventos personalizados 1-1000. Utiliza la búsqueda de event.tsv. | text |
-| `exclude_hit` | Un indicador que señala que la visita no está incluida en la creación de informes. La columna visit_num no aumenta para las visitas excluidas.<br>1: No se usa. Parte de una función limpiada.<br>2: No se usa. Parte de una función limpiada.<br>3: Ya no se utiliza. Exclusión de agente de usuario<br>4: Exclusión basada en la dirección IP<br>5: Falta la información de visitas vitales, como page_url, pagename, page_event o event_list<br>6: JavaScript no procesó correctamente la visita<br>7: Exclusión específica de la cuenta, como en una regla VISTA<br>8: No utilizada. Exclusión alternativa específica de la cuenta.<br>9: No se usa. Parte de una función limpiada.<br>10: Código de moneda no válido<br>11: La visita individual no incluye una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo de informes que no es de marca de hora<br>12: No se usa. Parte de una función limpiada.<br>13: No se usa. Parte de una función limpiada.<br>14: La visita de Target que no coincide con una visita de Analytics<br>15: No se utiliza actualmente.<br>16: Visita de Advertising Cloud que no coincide con una visita de Analytics | tinyint sin firmar |
+| `exclude_hit` | Un indicador que señala que la visita no está incluida en la creación de informes. La columna visit_num no aumenta para las visitas excluidas.<br>1: No se usa. Parte de una función limpiada.<br>2: No se usa. Parte de una función limpiada.<br>3: Ya no se utiliza. User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as `page_url`, `pagename`, `page_event`, or `event_list`<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. Exclusión alternativa específica de la cuenta.<br>9: No se usa. Parte de una función limpiada.<br>10: Código de moneda no válido<br>11: La visita individual no incluye una marca de tiempo en un grupo de informes solo de marca de tiempo o una visita que contiene una marca de tiempo en un grupo de informes que no es de marca de hora<br>12: No se usa. Parte de una función limpiada.<br>13: No se usa. Parte de una función limpiada.<br>14: La visita de Target que no coincide con una visita de Analytics<br>15: No se utiliza actualmente.<br>16: Visita de Advertising Cloud que no coincide con una visita de Analytics | tinyint sin firmar |
 | `first_hit_page_url` | La primera URL del visitante. | varchar(255) |
 | `first_hit_pagename` | Variable utilizada en la dimensión Página de entrada original. El nombre de la página de entrada original del visitante. | varchar(100) |
 | `first_hit_ref_domain` | Variable utilizada en la dimensión Dominio de referencia original. Se basa en first_hit_referrer. El primer dominio de referencia del visitante. | varchar(100) |
