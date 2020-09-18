@@ -4,10 +4,10 @@ title: Personalizar calendario
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Opciones de calendario aparte del modelo gregoriano. Las opciones incluyen los m
 
 >[!CAUTION]
 >
->Al modificar el calendario se cambia la forma en que se procesan los datos (es decir, la definición de los visitantes únicos por semana y por mes). Al cambiar la definición de semanas y meses de un calendario no se modifican los datos históricos.
+>Al modificar el calendario se cambia la forma en que se procesan los datos (es decir, la definición de los visitantes únicos por semana y por mes). Al cambiar la definición de semanas y meses de un calendario no se modifican los datos históricos. Esta configuración también afecta a los segmentos en función de intervalos de fechas.
 
 El calendario se puede usar para definir el primer día de la semana y del año, y permite elegir un estilo de calendario comercial distinto. Los formatos de calendario se utilizan por distintos motivos, entre los que se incluyen la comparación de ventas y estandarización de la previsión, el análisis del costo en plantilla o la regulación del recuento de inventario físico. Por ejemplo, el sector minorista utiliza el calendario contable 4-5-4 para las temporadas de venta específicas de dicho sector. A continuación se describe cada formato de calendario.
 
