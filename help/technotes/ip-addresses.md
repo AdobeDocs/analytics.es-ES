@@ -2,10 +2,10 @@
 title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 translation-type: tm+mt
-source-git-commit: 4faa557120f937eb240e6d12ab0e2fc0ae7372ab
+source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 14%
+source-wordcount: '386'
+ht-degree: 15%
 
 ---
 
@@ -80,7 +80,7 @@ Si su organización prefiere permitir intervalos de direcciones IP específicos,
 | Oregón | `130.248.148.0/22` |
 | Oregón | `172.82.192.0/21` |
 | Oregón | `172.82.216.0/21` |
-| Paris | `208.67.40.0/24` |
+| París | `208.67.40.0/24` |
 | Singapur | `66.235.150.0/24` |
 | Singapur | `66.235.130.0/23` |
 | Singapur | `63.140.44.0/22` |
@@ -101,7 +101,7 @@ Si su organización prefiere permitir intervalos de direcciones IP específicos,
 | Tokio | `66.235.159.0/24` |
 | Tokio | `66.117.21.0/24` |
 | Tokio | `63.140.52.0/24` |
-| sexión | `63.140.50.0/23` |
+| Tokio | `63.140.50.0/23` |
 | Virginia | `66.235.144.0/22` |
 | Virginia | `208.77.138.0/23` |
 | Virginia | `208.77.136.0/23` |
@@ -129,7 +129,6 @@ Adobe Analytics utiliza Amazon Web Services como parte de su proceso de recopila
 | Irlanda | `52.17.94.37` |
 | Irlanda | `52.49.253.16` |
 | Irlanda | `52.51.63.15` |
-| Londres | `172.82.228.19` |
 | Oregón | `52.42.60.49` |
 | Oregón | `54.212.169.56` |
 | Oregón | `54.214.170.191` |
@@ -137,45 +136,11 @@ Adobe Analytics utiliza Amazon Web Services como parte de su proceso de recopila
 | Singapur | `18.136.20.161` |
 | Singapur | `52.74.162.152` |
 | Tokio | `13.112.72.86` |
-| Tokio | `18.178.74.225` |
-| sexión | `18.179.88.228` |
+| sexión | `18.178.74.225` |
+| Tokio | `18.179.88.228` |
+| Virginia | `3.220.129.153` |
+| Virginia | `18.211.197.67` |
+| Virginia | `34.228.124.176` |
 | Virginia | `34.234.106.101` |
 | Virginia | `52.22.231.198` |
 | Virginia | `54.157.65.136` |
-| Virginia | `107.23.142.4` |
-| Virginia | `34.192.14.184` |
-| Virginia | `34.192.146.173` |
-| Virginia | `34.192.229.76` |
-| Virginia | `34.196.183.216` |
-| Virginia | `34.196.219.120` |
-| Virginia | `34.196.54.55` |
-| Virginia | `34.197.179.21` |
-| Virginia | `34.197.45.49` |
-| Virginia | `34.197.93.163` |
-| Virginia | `34.198.80.27` |
-| Virginia | `34.199.102.192` |
-| Virginia | `34.199.46.40` |
-| Virginia | `34.199.99.62` |
-| Virginia | `34.200.67.35` |
-| Virginia | `34.204.146.235` |
-| Virginia | `34.204.164.1` |
-| Virginia | `34.204.27.249` |
-| Virginia | `34.205.224.111` |
-| Virginia | `34.206.69.71` |
-| Virginia | `52.193.88.44` |
-| Virginia | `52.200.108.250` |
-| Virginia | `52.200.171.156` |
-| Virginia | `52.201.49.195` |
-| Virginia | `52.205.244.105` |
-| Virginia | `52.207.161.156` |
-| Virginia | `52.22.148.55` |
-| Virginia | `52.4.155.255` |
-| Virginia | `52.72.182.205` |
-| Virginia | `52.72.185.111` |
-| Virginia | `54.152.218.194` |
-| Virginia | `54.173.37.66` |
-| Virginia | `54.173.69.38` |
-| Virginia | `54.236.180.248` |
-| Virginia | `54.236.71.218` |
-| Virginia | `54.80.103.29` |
-| Virginia | `54.88.180.124` |
