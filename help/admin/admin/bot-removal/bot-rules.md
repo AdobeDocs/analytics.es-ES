@@ -4,11 +4,11 @@ subtopic: Bot rules
 title: Resumen sobre reglas de Bot
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1351'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1356'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Los datos del tráfico de bots se almacenan en un repositorio independiente para
 
 ## Reglas de bots estándar IAB
 
-Las reglas de bots estándar IAB se pueden activar marcando la casilla [!UICONTROL Activar reglas de filtrado de bots IAB]. Esta selección eliminará los bots de la Lista internacional de arañas web y bots de la IAB (International Advertising Bureau&#39;s) para eliminar el tráfico de bots. La IAB actualiza esta lista mensualmente.
+Las reglas de bots estándar IAB se pueden activar marcando la casilla [!UICONTROL Activar reglas de filtrado de bots IAB]. Esta selección eliminará los bots de la Lista internacional de arañas web y bots de la IAB (International Advertising Bureau&#39;s) para eliminar el tráfico de bots. Adobe actualiza esta lista de la IAB mensualmente.
 
 ![](assets/bot-iab-checkbox.png)
 
