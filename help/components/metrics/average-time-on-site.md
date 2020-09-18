@@ -2,10 +2,10 @@
 title: Promedio de tiempo en el sitio
 description: Cantidad promedio de tiempo que un elemento de dimensión dado existió entre visitas individuales.
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 63%
+source-wordcount: '538'
+ht-degree: 60%
 
 ---
 
@@ -45,6 +45,10 @@ If you want average time on site for the dimension item `Product page A`, first 
 La cantidad total de tiempo empleado de `Product page A` es `00:03:10`. Esta visita tuvo dos secuencias; la primera secuencia para los dos valores consecutivos y la segunda antes del cierre de compra. La última visita individual de la visita no es una secuencia, ya que no hay una marca de hora de finalización.
 
 El tiempo promedio de `Product page A` en el sitio es `00:01:35`.
+
+>[!NOTE]
+>
+>Esta métrica muestra un valor de `"Invalid"` si el elemento de dimensión contiene solo visitas que fueron las últimas en una visita. Esta métrica requiere una visita posterior para rastrear el tiempo empleado.
 
 ## Tiempo promedio empleado en el sitio (segundos)
 
