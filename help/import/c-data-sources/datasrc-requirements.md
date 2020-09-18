@@ -4,8 +4,11 @@ subtopic: Data sources
 title: Requisitos y límites de carga
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -92,8 +95,8 @@ Si se envía un archivo UTF-8 o ISO-8859-1 y el grupo de informes no está confi
 * Los informes más útiles para ver datos de registro web son los informes de tráfico como, por ejemplo, el de vistas de páginas.
 * Los nombres de las páginas se muestran como direcciones URL completas, incluida la parte de consulta.
 * Cada solicitud de archivo individual se muestra como una vista de página independiente; esto incluye las hojas de estilo y los archivos de imagen.
-* Si se añade información a la URL, puede ocurrir que los archivos se registren como páginas separadas. Por ejemplo, los informes de marketing registran las siguientes direcciones URL como dos páginas separadas:
+* Si se añade información a la URL, puede ocurrir que los archivos se registren como páginas separadas. Por ejemplo, Adobe registra las siguientes direcciones URL como dos páginas independientes:
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+`/jokes/misc/snail_joke.html?userid=98765`
