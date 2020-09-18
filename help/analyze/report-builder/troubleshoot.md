@@ -4,10 +4,10 @@ title: Solución de problemas y prácticas recomendadas para Report Builder
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 86%
+source-wordcount: '1399'
+ht-degree: 81%
 
 ---
 
@@ -86,3 +86,4 @@ Lista de mensajes de error que se pueden producir ocasionalmente al utilizar Rep
    3. Eliminar `calcChain.xml`.
    4. Vuelva a comprimir el contenido y cambie la extensión de archivo a `.xlsx`.
    5. Abra el libro en Excel y actualice todas las solicitudes de Report Builder.
+* **Es posible que se hayan eliminado** las celdas de Excel asociadas con los filtros de entrada o el rango de salida: El Report Builder utiliza los nombres de Excel para adjuntar solicitudes de datos a las celdas. Si elimina los nombres de Excel del Administrador de nombres, verá este error. Las solicitudes no se pueden recuperar si se eliminan los nombres de Excel. Si el libro estaba programado, puede descargar una copia del Administrador de programación o abrir copias enviadas anteriormente del libro.
