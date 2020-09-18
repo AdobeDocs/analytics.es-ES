@@ -2,10 +2,10 @@
 title: Solución de problemas del importador de clasificaciones
 description: Problemas comunes de carga al usar el importador de clasificaciones.
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 14%
+source-wordcount: '855'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ Los problemas más comunes al cargar datos de clasificación en Adobe.
 
 Las clasificaciones requieren un tipo de archivo y un formato específicos para cargar correctamente. Si se guardan indebidamente, aparecerá un error y las filas no se procesarán. El error devuelto es frecuentemente *&quot;La primera columna debe ser la clave&quot;*, pero puede ser cualquier número de errores. Asegúrese de comprobar lo siguiente:
 
-* **Carga de una hoja de cálculo (.xlsx) en lugar de un archivo**.tab o .txt: El importador de clasificaciones no sabe cómo manejar archivos .xls o .xlsx. En el cuadro de diálogo &#39;Guardar como&#39; de Excel, defina el tipo correcto Guardar como:
+* **Carga de una hoja de cálculo (.xlsx) en lugar de un archivo**.tab o .txt: Puede obtener el mensaje de error *&quot;La primera columna debe ser la clave&quot;* al cargar los archivos de clasificación en un formato incorrecto. El importador de clasificaciones no sabe cómo manejar archivos .xls o .xlsx. En el cuadro de diálogo &#39;Guardar como&#39; de Excel, defina el tipo correcto Guardar como:
    * En Windows, utilice el formato de archivo `Text (Tab delimited) (*.txt)`
    * En Mac, utilice el formato de archivo `Windows Formatted Text`.
 * **Cambiar la extensión de nombre de archivo después de guardarla como un libro**: Si se intenta cambiar directamente el nombre de una extensión de archivo, se generará un libro no válido. Utilice solamente la función Guardar como de Excel o edite las clasificaciones en un editor de texto como Bloc de notas++.
@@ -38,6 +38,7 @@ Si carga un archivo con un formato incorrecto, el cargador intentará importar t
 * **Las subclasificaciones existen y están configuradas** incorrectamente: Si existen subclasificaciones, compruebe lo siguiente:
    * Todos los valores de las subclasificaciones deben tener un valor de clasificación principal.
    * No puede haber dos subclasificaciones que hagan referencia al mismo valor de clasificación principal.
+* **Coincidencia** de columna: Puede obtener el mensaje de error *&quot;La clave en línea tiene demasiadas columnas&quot;* si hay un número no válido de columnas en una fila determinada. Por ejemplo: tiene 3 columnas en la carga de la clasificación y la variable solo tiene una clasificación. Valide el archivo de carga para asegurarse de que el número de columnas no es bueno al número de clasificaciones configuradas para esa variable.
 
 ## Solución de problemas de importación de FTP
 
