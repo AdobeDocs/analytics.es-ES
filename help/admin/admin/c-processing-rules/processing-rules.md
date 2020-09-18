@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Resumen de las reglas de procesamiento
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 87%
 
 ---
 
@@ -40,11 +43,11 @@ En este momento, los administradores tienen **de forma predeterminada** permiso 
 
 >[!IMPORTANT]
 >
->Como las reglas de procesamiento afectan permanentemente a los datos de Analytics, recomendamos encarecidamente que los administradores de reglas de procesamiento reciban formación para certificación en Adobe Analytics, y estén familiarizados con todas las fuentes de datos para los grupos de informes (sitios web estándar, sitios móviles, aplicaciones móviles, API de inserción de datos, etc.). El conocimiento de las variables de datos de contexto y las variables estándar completadas en diversas plataformas ayudará a impedir la eliminación o modificación accidentales de los datos.
+>Dado que las reglas de procesamiento afectan permanentemente a los datos de Analytics, Adobe recomienda enfáticamente que los administradores de reglas de procesamiento reciban formación de certificación en Adobe Analytics y estén familiarizados con todas las fuentes de datos de sus grupos de informes (sitios web estándar, sitios móviles, aplicaciones móviles, API de inserción de datos, etc.). El conocimiento de las variables de datos de contexto y las variables estándar completadas en diversas plataformas ayudará a impedir la eliminación o modificación accidentales de los datos.
 
 ## Simplificar la recopilación de datos con datos de contexto {#section_09EEA03612D24C15839631AA9E9668D8}
 
-Las variables de datos de contexto son un nuevo tipo de variable y están disponibles solamente para las reglas de procesamiento. Para utilizar variables de datos de contexto, su implementación envía los pares de datos clave/valor, y se utilizan reglas de procesamiento para capturar estos valores en variables estándar de Analytics. Esto evita a los programadores tener que entender exactamente qué propiedad o eVar debería contener cada valor.
+Las variables de datos de contexto son un tipo de variable que solo está disponible para las reglas de procesamiento. Para utilizar variables de datos de contexto, su implementación envía los pares de datos clave/valor, y se utilizan reglas de procesamiento para capturar estos valores en variables estándar de Analytics. Esto evita a los programadores tener que entender exactamente qué propiedad o eVar debería contener cada valor.
 
 ![](assets/evar-context-map.png)
 
