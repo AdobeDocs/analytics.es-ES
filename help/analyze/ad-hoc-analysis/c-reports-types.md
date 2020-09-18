@@ -4,7 +4,7 @@ title: Tipos de informes
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -125,7 +125,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-Por ejemplo, si se tienen datos específicos en diferentes servidores, o los mismos datos duplicados en servidores separados, el informe muestra la trayectoria que siguieron los usuarios. Esto también se aplica a los dominios dentro del sitio web. Se puede ver cuántos usuarios fueron de `https://www.mysite.com` a `https://info.mysite.com` o `https://sales.mysite.com`.
+Por ejemplo, si se tienen datos específicos en diferentes servidores, o los mismos datos duplicados en servidores separados, el informe muestra la trayectoria que siguieron los usuarios. Esto también se aplica a los dominios dentro del sitio web. Se puede ver cuántos usuarios fueron de `https://www.example.com` a `https://info.example.com` o `https://sales.example.com`.
 
 ## Flujo de sección siguiente {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -176,7 +176,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-Por ejemplo, si se tienen datos específicos en diferentes servidores, o los mismos datos duplicados en servidores separados, el informe muestra la trayectoria que siguieron los usuarios. Esto también se aplica a los dominios dentro del sitio web. Se puede ver cuántos usuarios fueron de `www.mysite.com` a `info.mysite.com` o `sales.mysite.com`.
+Por ejemplo, si se tienen datos específicos en diferentes servidores, o los mismos datos duplicados en servidores separados, el informe muestra la trayectoria que siguieron los usuarios. Esto también se aplica a los dominios dentro del sitio web. Se puede ver cuántos usuarios fueron de `www.example.com` a `info.example.com` o `sales.example.com`.
 
 ## Informes de canal de conversión {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
