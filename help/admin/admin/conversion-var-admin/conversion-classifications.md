@@ -2,10 +2,10 @@
 description: Las clasificaciones sirven para clasificar los valores en grupos e informar a nivel del grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda pagada en una categoría como términos de música pop e informar sobre el éxito de esa categoría en relación a métricas como Instancias (pulsaciones) y la conversión a eventos de éxito.
 title: Clasificaciones de conversión
 translation-type: tm+mt
-source-git-commit: de7dd41bba6907d6af7a59dc385ca6a185d503ae
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,10 @@ Las clasificaciones sirven para clasificar los valores en grupos e informar a ni
 Las clasificaciones de conversión permiten clasificar variables de conversión. Una vez clasificado, cualquier informe que se pueda generar con los datos clave también se puede generar con las propiedades de datos asociadas.
 
 Después de activar las clasificaciones, utilice el [Importador de clasificaciones](/help/components/classifications/importer/c-working-with-saint.md) para asignar valores determinados a la clasificación adecuada.
+
+>[!WARNING]
+>
+>Cambiar el nombre de una clasificación puede causar problemas con las reglas existentes creadas en el creador [de reglas](/help/components/classifications/crb/classification-rule-builder.md)de clasificación. Si cambia el nombre de una clasificación que tiene reglas de clasificación, asegúrese de corregir cada regla para que señale a la clasificación con el nombre cambiado.
 
 ## Descripciones de clasificaciones de conversión
 
