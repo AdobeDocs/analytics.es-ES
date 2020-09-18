@@ -4,20 +4,20 @@ subtopic: Data sources
 title: Procesamiento completo
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 97%
 
 ---
 
 
 # Procesamiento completo
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Adobe recomienda que los clientes utilicen la [API de inserción masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Las fuentes de datos de procesamiento completo quedarán obsoletas en el futuro.
+>Adobe recomienda que los clientes utilicen la [API de inserción masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Adobe planea degenerar las fuentes de datos de procesamiento completo en el futuro.
 
 El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
 
@@ -114,12 +114,12 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante `"user@example
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Dirección URL de la página (por ejemplo, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>Dirección URL de la página (por ejemplo, <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>informe de productos </p> </td> 
    <td colname="col2"> <p>informe de productos </p> </td> 
-   <td colname="col3"> <p>Lista de productos (por ejemplo, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>Lista de productos (por ejemplo, <code> "Sports;Ball;1;5.95"</code>). Puede contener un valor máximo de 4096 bytes por fila.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
