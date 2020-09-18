@@ -3,11 +3,11 @@ description: El administrador de solicitudes permite ver, duplicar y volver a pr
 title: Administrar solicitudes de Data Warehouse
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 80%
 
 ---
 
@@ -31,7 +31,6 @@ Al trabajar en esta ficha, puede
 * Volver a priorizar los informes al arrastrarlos y colocarlos en una nueva ubicación dentro de la cola.
 * Para ver cuándo comenzó a procesarse una solicitud, haga clic en el ID de una solicitud programada y revise el menú emergente que se abre.
 
->[!NOTE]
->
->Para cancelar una solicitud del Data Warehouse, [siga estos pasos](https://helpx.adobe.com/es/analytics/kb/cancel-data-warehouse-requests.html).
+Haga clic en un trabajo para ver las solicitudes individuales de dicho trabajo.
 
+* Tarifa limitada: Su organización tiene demasiadas solicitudes de Data Warehouse en ejecución. La solicitud se pone en pausa hasta que se completen otras solicitudes de datos.
