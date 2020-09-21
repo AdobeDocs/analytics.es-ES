@@ -7,8 +7,8 @@ uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -116,7 +116,7 @@ Descripciones de los elementos de la página Definir grupo de usuarios.
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (Acceso completo, Personalizar, Sin acceso) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>Se pueden otorgar permisos a los clientes que tienen contenedores de <span class="keyword">TagManager</span> activos. No disponible para los usuarios nuevos. </p> <p>Adobe recomienda <a href="https://docs.adobe.com/content/help/en/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> para llevar a cabo las implementaciones. </p> </td> 
+   <td colname="col2"> <p>Se pueden otorgar permisos a los clientes que tienen contenedores de <span class="keyword">TagManager</span> activos. No disponible para los usuarios nuevos. </p> <p>Adobe recomienda <a href="https://docs.adobe.com/content/help/es-ES/dtm/using/migration/atm-migration.html">Dynamic Tag Management</a> para llevar a cabo las implementaciones. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>Asignar inicios de sesión del usuario</b> </td> 
