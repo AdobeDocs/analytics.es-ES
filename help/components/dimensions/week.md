@@ -4,8 +4,8 @@ description: La semana en la que se produjo la métrica.
 translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 42%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ La dimensión “Semana” indica la semana en que se produjo una métrica deter
 
 Esta dimensión funciona de forma predeterminada para todas las implementaciones. Si un grupo de informes contiene datos, esta dimensión funciona.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
 En Analysis Workspace, los elementos de dimensión incluyen la fecha (mes, día y año) del primer día de la semana.
 
