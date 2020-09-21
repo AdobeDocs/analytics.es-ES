@@ -4,11 +4,11 @@ keywords: event
 title: Resumen de los eventos de éxito
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
