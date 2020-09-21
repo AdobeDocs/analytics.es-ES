@@ -3,6 +3,9 @@ title: Varios grupos de informes en Workspace
 description: Descubra cómo y por qué crear proyectos en Workspace con varios grupos de informes
 translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
+workflow-type: ht
+source-wordcount: '527'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +22,7 @@ Esta capacidad es útil si desea, por ejemplo,
 
 ## Aplicar grupo de informes a todos los paneles
 
-Puede aplicar un grupo de informes a todos los paneles a la vez haciendo clic con el botón secundario en el encabezado de cualquier panel y seleccionando **[!UICONTROL Apply Report Suite to All Panels]**.
+Puede aplicar un grupo de informes a todos los paneles a la vez haciendo clic con el botón derecho en el encabezado de cualquier panel y seleccionando **[!UICONTROL Aplicar grupo de informes a todos los paneles]**.
 
 ![](assets/apply-rs-all-panels.png)
 
