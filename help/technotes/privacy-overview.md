@@ -5,6 +5,9 @@ title: Resumen de privacidad
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '843'
+ht-degree: 100%
 
 ---
 
