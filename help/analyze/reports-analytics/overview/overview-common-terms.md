@@ -3,8 +3,11 @@ description: Introducción a los términos de análisis web que se usan más fre
 title: Términos comunes
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '722'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,7 @@ Introducción a los términos más utilizados de Adobe Analytics.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Report Suite </p> </td> 
+   <td colname="col1"> <p> Grupo de informes </p> </td> 
    <td colname="col2"> <p>El grupo de informes define los informes completos e independientes de un sitio Web, un conjunto de sitios Web o un subconjunto de sitios Web que se haya seleccionado. Por lo general, un grupo de informes es un sitio Web, pero podría ser un segmento global en el cual haya combinado las cifras de varios sitios para obtener valores totales. Asimismo, un grupo de informes puede ser de menor tamaño que un sitio web, si desea ejecutar informes de una porción del sitio. </p> <p>Por ejemplo, si los usuarios que inician sesión y los que no inician sesión usan el sitio de forma diferente, y el encargado de estudiar los informes de cada grupo no es la misma persona, puede clasificar los grupos de informes en función de las páginas que requieran autenticación y las que no la requieran. </p> <p>Al iniciar sesión, selecciona el grupo de informes que va a utilizar (excepto cuando utiliza resúmenes que combinan varios grupos de informes). </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +46,7 @@ Introducción a los términos más utilizados de Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p>Visita </p> </td> 
-   <td> <p>Secuencia de visitas de la página efectuadas en una sesión. La visita termina únicamente después de 30 minutos de inactividad o de 12 horas de actividad continua. (Esta métrica de tiempo es el estándar en la industria para el análisis web.) Las visitas se rastrean mediante cookies. Una visita comienza cuando un visitante accede a una página. En ocasiones, la visita recibe el nombre de  <span class="term"> sesión</span>, pero no es una sesión del explorador. Dirigirse a un sitio diferente, cerrar el explorador o incluso reiniciar el equipo no termina una visita. </p> <p> Si se supera el tiempo de inactividad mientras un visitante está leyendo una página, la visita se cerrará y se procesará. Se inicia una nueva visita cuando el visitante llega a otra página. </p> <p>Si la fecha cambia durante la visita, como cuando se visita un sitio a medianoche, la visita se atribuye al día en que se inició la misma. </p> </td> 
+   <td> <p>Secuencia de visitas de la página efectuadas en una sesión. La visita termina únicamente después de 30 minutos de inactividad o de 12 horas de actividad continua. (Esta métrica de tiempo es el estándar en la industria para el análisis web.) Las visitas se rastrean mediante cookies. Una visita comienza cuando un visitante accede a una página. En ocasiones, la visita recibe el nombre de <span class="term"> sesión</span>, pero no es una sesión del explorador. Dirigirse a un sitio diferente, cerrar el explorador o incluso reiniciar el equipo no termina una visita. </p> <p> Si se supera el tiempo de inactividad mientras un visitante está leyendo una página, la visita se cerrará y se procesará. Se inicia una nueva visita cuando el visitante llega a otra página. </p> <p>Si la fecha cambia durante la visita, como cuando se visita un sitio a medianoche, la visita se atribuye al día en que se inició la misma. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> Visitante único </p> </td> 
@@ -63,7 +66,7 @@ Introducción a los términos más utilizados de Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p>Canal </p> </td> 
-   <td> <p> Secciones o categorías definidas de su sitio. Los sitios web que tienen dos categorías principales, como  <span class="term"> clima</span> y noticias <span class="term"></span>, tienen dos canales. Puede agrupar las estadísticas de todas las vistas de páginas que se producen en cualquier canal de su sitio. </p> </td> 
+   <td> <p> Secciones o categorías definidas de su sitio. Los sitios web que tienen dos categorías principales, como <span class="term">clima</span> y <span class="term">noticias</span>, tienen dos canales. Puede agrupar las estadísticas de todas las vistas de páginas que se producen en cualquier canal de su sitio. </p> </td> 
   </tr> 
  </tbody> 
 </table>
