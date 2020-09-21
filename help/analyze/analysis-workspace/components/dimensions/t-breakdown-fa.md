@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Desglose de dimensiones
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Desglose los datos ilimitadamente para sus necesidades específicas; genere cons
 
    ![Resultado](assets/fa_data_table_actions.png)
 
-   Puede desglosar las métricas por elementos de dimensión o segmentos de audiencia en los períodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
+   Puede desglosar métricas por elementos de dimensión o segmentos de audiencia entre periodos de tiempo seleccionados. También puede continuar desglosando hasta un nivel más granular.
 
    >[!NOTE]
    >
