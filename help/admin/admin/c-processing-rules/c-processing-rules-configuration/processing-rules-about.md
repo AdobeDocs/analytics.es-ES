@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Funcionamiento de las reglas de procesamiento
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
