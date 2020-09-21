@@ -20,4 +20,4 @@ Esta métrica cuenta todas las llamadas de seguimiento de vínculos ([`tl()`](/h
 
 ## Comparar con métricas similares
 
-* **Eventos de página vs.[Vistas de página](page-views.md)**: Los eventos de página cuentan el número de llamadas de seguimiento de vínculos (`tl()`) y excluyen las llamadas de seguimiento de vista de páginas (`t()`). Vistas de página es lo contrario; cuenta el número de llamadas de seguimiento de vista de página y excluye los vínculos.
+* **Eventos de página vs. [Vistas de página](page-views.md)**: Los eventos de página cuentan el número de llamadas de seguimiento de vínculos (`tl()`) y excluyen las llamadas de seguimiento de vista de páginas (`t()`). Vistas de página es lo contrario; cuenta el número de llamadas de seguimiento de vista de página y excluye los vínculos.
