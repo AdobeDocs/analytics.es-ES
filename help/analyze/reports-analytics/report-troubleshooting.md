@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # Prácticas recomendadas y resolución de problemas de la creación de informes
 
-*Esta página de ayuda se refiere a las prácticas recomendadas de Reports &amp; Analytics. Para obtener más información sobre Analysis Workspace, consulte [Optimización del rendimiento de Analysis Workspace](../analysis-workspace/workspace-faq/optimizing-performance.md).  Para Data Warehouse, consulte [Prácticas recomendadas sobre Data Warehouse](/help/export/data-warehouse/data-warehouse-bp.md).*
+*Esta página de ayuda se refiere a las prácticas recomendadas de Reports &amp; Analytics. Para obtener más información sobre Analysis Workspace, consulte [Optimización del rendimiento de Analysis Workspace](../analysis-workspace/workspace-faq/optimizing-performance.md). Para Data Warehouse, consulte [Prácticas recomendadas sobre Data Warehouse](/help/export/data-warehouse/data-warehouse-bp.md).*
 
 Adobe Analytics proporciona una interfaz de informes flexible que le permite generar una variedad de informes complejos. Mientras que la mayoría de los informes se generan muy rápidamente, puede encontrar informes que agoten el tiempo de espera o no se generen correctamente. Esta página explica los factores que afectan a la velocidad de generación de informes. Comprender esta información es útil para estructurar informes para que se generen correctamente.
 
