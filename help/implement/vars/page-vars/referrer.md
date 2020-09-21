@@ -4,8 +4,8 @@ description: Omisión del referente registrado automáticamente para una visita.
 translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
