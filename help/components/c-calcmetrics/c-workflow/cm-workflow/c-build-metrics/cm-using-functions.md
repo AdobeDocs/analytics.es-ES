@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Las funciones le permiten filtrar y clasificar sus datos, y realizar análisis estadísticos.
 
-Para obtener una lista de todas las funciones, consulte   [Funciones básicas](/help/components/c-calcmetrics/cm-reference/cm-functions.md) y [Funciones avanzadas](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
+Para obtener una lista de todas las funciones, consulte [Funciones básicas](/help/components/c-calcmetrics/cm-reference/cm-functions.md) y [Funciones avanzadas](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md).
 
 >[!NOTE]
 >
