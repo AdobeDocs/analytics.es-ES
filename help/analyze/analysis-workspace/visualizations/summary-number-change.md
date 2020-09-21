@@ -1,12 +1,12 @@
 ---
-description: Utilice las visualizaciones Número de resumen y Cambio para mostrar puntos de datos importantes en un proyecto.
+description: Utilice las visualizaciones Número y cambio de resumen para mostrar puntos de datos importantes en un proyecto.
 title: Número de resumen y cambio de resumen
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
 source-git-commit: f3f1fdda35552d23767cc9bd64d47c4b99a5900b
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 47%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,36 +15,36 @@ ht-degree: 47%
 
 ## Visualización Número de resumen {#summary-number}
 
-Utilice la visualización Número de resumen para resaltar un gran número que es importante en un proyecto. Esta visualización se comporta de las siguientes maneras:
+Utilice la visualización Número de resumen para resaltar un número elevado que es importante en un proyecto. Esta visualización se comporta de las siguientes maneras:
 
 * Selecciona el total de la columna en caso de que no se haya seleccionado ninguna celda.
 * Si se selecciona una única celda, se muestra el resumen de esta.
 * Si se selecciona más de una celda, se muestra la primera celda seleccionada.
 * Si se selecciona la columna, se usa el valor de la primera celda de la columna.
 
-Haga clic en el engranaje de configuración **de** Visualización situado en la parte superior derecha para configurar la configuración de Número de resumen:
+Haga clic en el icono de engranaje de **Configuración de la visualización** situado en la parte superior derecha para configurar la configuración de Número de resumen:
 
 | Configuración | Definición |
 |--- |--- |
-| Porcentajes | Mostrar porcentajes en lugar de números sin procesar. |
-| Leyenda visible | Muestre información sobre la métrica mostrada. |
-| Valor abreviado | Elija abreviar los valores y mostrar hasta 3 decimales. |
-| Valor de resumen por | Elija mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
+| Porcentajes | Muestra porcentajes en lugar de números en bruto. |
+| Leyenda visible | Muestra información sobre la métrica mostrada. |
+| Valor abreviado | Elige abreviar los valores y mostrar hasta 3 decimales. |
+| Valor de resumen por | Elige mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
 
 
-Haga clic en el engranaje de configuración **de** Visualización situado en la parte superior derecha para configurar la configuración de Número de resumen:
+Haga clic en el icono de engranaje de **Configuración de la visualización** situado en la parte superior derecha para configurar la configuración de Número de resumen:
 
 | Configuración | Definición |
 |--- |--- |
-| Porcentajes | Mostrar porcentajes en lugar de números sin procesar. |
-| Leyenda visible | Muestre información sobre la métrica mostrada. |
-| Valor abreviado | Elija abreviar los valores y mostrar hasta 3 decimales. |
-| Valor de resumen por | Elija mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
+| Porcentajes | Muestra porcentajes en lugar de números en bruto. |
+| Leyenda visible | Muestra información sobre la métrica mostrada. |
+| Valor abreviado | Elige abreviar los valores y mostrar hasta 3 decimales. |
+| Valor de resumen por | Elige mostrar el máximo, el mínimo, la media, la mediana o la suma para una selección de datos. |
 
 
 ## Visualización Cambio de resumen {#summary-change}
 
-Utilice la visualización Cambio de resumen para mostrar el delta (cambio) entre dos números. El color verde y rojo del cambio de resumen se puede controlar mediante la polaridad [de evento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html) personalizada o mediante la opción [Mostrar tendencia ascendente como](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) de una métrica calculada.
+Utilice la visualización Cambio de resumen para mostrar el delta (cambio) entre dos números. El color verde y rojo del Cambio de resumen se puede controlar mediante la [polaridad de evento personalizado](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html) o mediante la opción [Mostrar tendencia ascendente como](https://docs.adobe.com/content/help/es-ES/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html) de una métrica calculada.
 
 Esta visualización se comporta de las siguientes maneras:
 
@@ -59,11 +59,11 @@ Esta visualización se comporta de las siguientes maneras:
 ![](assets/summary-change.png)
 
 
-Haga clic en el engranaje de configuración **de** Visualización situado en la parte superior derecha para configurar los ajustes de Cambio de resumen:
+Haga clic en el icono de engranaje de **Configuración de la visualización** situado en la parte superior derecha para configurar la configuración de Cambio de resumen:
 
 | Configuración | Definición |
 |--- |--- |
-| Porcentajes | Mostrar porcentajes en lugar de números sin procesar. |
-| Leyenda visible | Muestre información sobre la métrica mostrada. |
+| Porcentajes | Muestra porcentajes en lugar de números en bruto. |
+| Leyenda visible | Muestra información sobre la métrica mostrada. |
 | Mostrar cambio de porcentaje | Muestra el cambio porcentual entre los 2 números. |
-| Mostrar diferencia sin procesar | Muestra la diferencia en bruto entre los 2 números. También puede abreviar valores y mostrar hasta 3 decimales con esta opción. |
+| Mostrar diferencia en bruto | Muestra la diferencia en bruto entre los 2 números. También puede abreviar valores y mostrar hasta 3 decimales con esta opción. |
