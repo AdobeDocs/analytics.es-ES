@@ -68,8 +68,8 @@ Establezca la fecha de caducidad de la alerta.
    * anomalía por encima de lo esperado
    * anomalía por debajo de lo esperado
    * la anomalía supera
-   * es mayor que o igual a
-   * es menor que o igual a
+   * mayor o igual que
+   * menor o igual que
    * cambia por un
 
 * “La anomalía supera” es una nueva condición que va más allá de los umbrales (estáticos) existentes. Utiliza los algoritmos de Detección de anomalías para definir de forma dinámica el activador. Puede establecer el umbral en 90 %, 95 %, 99 %, 99,75 % y 99,9 %.
