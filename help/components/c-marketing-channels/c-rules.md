@@ -39,7 +39,7 @@ Este procedimiento emplea una regla de correo electrónico como ejemplo. En este
 
    Si no se han definido canales en el grupo de informes, se abre la página [!UICONTROL Canales de marketing: configuración automática].
 
-   Consulte  [Ejecución de la configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Consulte [Ejecución de la configuración automática](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 3. Haga clic en **[!UICONTROL Editar configuración]** > **[!UICONTROL Canales de marketing]** > **[!UICONTROL Reglas de procesamiento de canal de marketing]**.
 
@@ -74,12 +74,12 @@ Esta tabla de referencia define los campos, opciones y atributos de visita que p
 | ID de AMO | El código de seguimiento principal utilizado por las integraciones de Advertising Cloud y Advertising Analytics. Cuando se habilita una de estas integraciones, puede usar el prefijo del código de seguimiento para identificar canales específicos de Advertising Cloud. Utilice “AMO ID” para comenzar con “AL” para la búsqueda, “AC” para la visualización o “AO” para Social. Cuando se utiliza el ID de AMO en los canales de marketing, las métricas de clics, costes e impresiones se pueden atribuir al canal correcto (cuando no se configuren, estas métricas irán a Directas o a Ninguna). |
 | AMO ED ID | Código de seguimiento secundario utilizado por Advertising Cloud. El propósito principal de este código de seguimiento es servir como clave para enviar datos de vuelta a Ad Cloud. Sin embargo, también se puede utilizar para identificar Mostrar clics respecto a Mostrar vistas si desea verlas como dos canales de marketing independientes. Esto se puede hacer configurando que la lógica del canal de marketing para “AMO EF ID” termine con “:d” para las visualizaciones de pulsaciones o que “AMO EF ID” termine con “:i” para Mostrar vistas. Si no desea dividir Mostrar en dos canales, utilice la dimensión de ID de AMO en su lugar. |
 | Variables de conversión | Contiene eVars que se han habilitado para este grupo de informes y se aplica solamente cuando las variables se definen mediante el código de Adobe en la página.  Consulte la Guía de implementación . |
-| Existe | Se ofrecen varias opciones, entre ellas:<ul><li>**No existe**: indica que el atributo de visita no existe en la solicitud. Por ejemplo, en un dominio referente, si el usuario escribe una dirección URL o hace clic en un marcador, el atributo de dominio referente no existe.</li><li>**Está vacío**: indica que existe un atributo de visita que, generalmente, es un parámetro de eVar o de cadena de consulta, pero que no hay ningún valor asociado al atributo de visita.</li><li>**No contiene**: permite especificar, por ejemplo, que un dominio referente no contiene un valor específico (a diferencia de la opción  &quot;Contiene&quot;.)</li></ul> |
+| Existe | Se ofrecen varias opciones, entre ellas:<ul><li>**No existe**: indica que el atributo de visita no existe en la solicitud. Por ejemplo, en un dominio referente, si el usuario escribe una dirección URL o hace clic en un marcador, el atributo de dominio referente no existe.</li><li>**Está vacío**: indica que existe un atributo de visita que, generalmente, es un parámetro de eVar o de cadena de consulta, pero que no hay ningún valor asociado al atributo de visita.</li><li>**No contiene**: permite especificar, por ejemplo, que un dominio referente no contiene un valor específico (a diferencia de la opción &quot;Contiene&quot;.)</li></ul> |
 | Identificar el canal como | Asocia la regla con un canal de marketing que haya agregado a la página Administrador de canales de marketing.  Consulte Agregar canales de marketing . |
 | Concuerda con las reglas de detección de búsqueda paga | Búsqueda paga detectada por Adobe. Las búsquedas pagas se dan cuando las empresas pagan una tarifa al motor de búsqueda para que las incluyan en las listas de su sitio. Por lo general, la búsqueda paga aparece en la parte superior o en el lado derecho de los resultados de búsqueda. |
 | Concuerda con las reglas de detección de búsqueda natural | Búsqueda no paga detectada por los informes de Adobe. |
 | El referente concuerda con los filtros de dirección URL internos | Visita cuya dirección URL de página coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. |
-| El referente no concuerda con los filtros de dirección URL internos | La dirección URL de referencia no coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. Puede utilizar esta configuración con   URL de página y Existe para definir una regla de captador global y evitar que las visitas se dirijan a la sección del informe No se ha identificado el canal. |
+| El referente no concuerda con los filtros de dirección URL internos | La dirección URL de referencia no coincide con un filtro de dirección de URL interno, tal como se define en el grupo de informes de las Herramientas de administración. Puede utilizar esta configuración con URL de página y Existe para definir una regla de captador global y evitar que las visitas se dirijan a la sección del informe No se ha identificado el canal. |
 | Hacer caso omiso de visitas que coincidan con los filtros de direcciones de URL internas | (Para los referentes) Realiza un seguimiento, solamente, de las visitas que provienen de sitios de referencia externos. Por lo general, se deja sin activar, salvo que desee incluir el tráfico interno. |
 | Es la primera página de la visita | Primera página de una visita detectada por los informes de Adobe. |
 | Página | El nombre de una página web del sitio que está etiquetada con la señalización web de Adobe. Este valor equivale a  s.pageName . Algunos ejemplos son `Home Page` y `About Us`. |
@@ -118,7 +118,7 @@ En la regla de canal de marketing, la configuración de [!UICONTROL Búsqueda pa
 
 Consulte [Detección de búsqueda paga](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) en Administración para obtener más información.
 
-### Búsqueda natural  {#natural-search}
+### Búsqueda natural {#natural-search}
 
 Las búsquedas naturales tienen lugar cuando los visitantes encuentran su sitio web a través de una búsqueda en Internet en la que el motor de búsqueda clasifica su sitio sin que usted haya pagado específicamente para ello.
 
@@ -128,19 +128,19 @@ En la regla de canal de marketing, la configuración de búsqueda natural es la 
 
 ![](assets/example_natural_search.png)
 
-### Mostrar  {#display}
+### Mostrar {#display}
 
-Esta regla identifica a los visitantes que proceden de anuncios de banners. Se identifica con un parámetro de cadena de consulta en la dirección URL de destino, en este caso  *`Ad_01`*.
+Esta regla identifica a los visitantes que proceden de anuncios de banners. Se identifica con un parámetro de cadena de consulta en la dirección URL de destino, en este caso *`Ad_01`*.
 
 ![](assets/example_display.png)
 
-### Correo electrónico  {#email}
+### Correo electrónico {#email}
 
 Esta regla identifica a los visitantes que proceden de campañas de correo electrónico. Se identifica con un parámetro de cadena de consulta en la dirección URL de destino, en este caso *`eml`*:
 
 ![](assets/example_email.png)
 
-### Afiliados  {#afilliates}
+### Afiliados {#afilliates}
 
 Esta regla identifica a los visitantes que proceden de un conjunto específico de dominios de referencia. En la regla, se enumeran los dominios de los afiliados de los que desee hacer un seguimiento, de este modo:
 
@@ -152,13 +152,13 @@ Una práctica recomendada es incluir un canal “Otras campañas” siguiendo to
 
 ![](assets/other-campaigns.png)
 
-### Redes sociales  {#social-networks}
+### Redes sociales {#social-networks}
 
 Esta regla identifica a los visitantes que se originan en una red social como, por ejemplo, Facebook*. El canal suele denominarse “Social orgánico”. La configuración puede ser así:
 
 ![](assets/example_social.png)
 
-### Canal interno (Actualización de sesión){#internal}
+### Canal interno (Actualización de sesión) {#internal}
 
 Esta regla identifica visitantes donde la dirección URL de referencia coincide con la configuración de filtros de URL internos en Admin Console, lo que significa que el visitante vino desde el sitio para comenzar la visita. Este canal se denomina con frecuencia Actualización de sesión.
 
@@ -166,7 +166,7 @@ Esta regla identifica visitantes donde la dirección URL de referencia coincide 
 
 Consulte [Razones para la actualización interna (Actualización de sesión)](https://docs.adobe.com/content/help/es-ES/analytics/components/marketing-channels/c-faq.html) si quiere obtener más información sobre el motivo por el que se produce este canal.
 
-### Directas  {#direct}
+### Directas {#direct}
 
 Esta regla identifica a visitantes que no tienen dominio de referencia, lo que incluye a los visitantes que llegan a su sitio directamente como, por ejemplo, con un vínculo de Favoritos, o que han pegado el vínculo en el navegador. Este canal se denomina con frecuencia “Directamente escrito/Añadido como marcador”.
 
