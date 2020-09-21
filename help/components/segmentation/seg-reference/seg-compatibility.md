@@ -3,9 +3,9 @@ description: No todos los segmentos creados en el Generador de segmentos son com
 title: Compatibilidad del segmento con el Data Warehouse
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
     <ul> 
      <li>Dirección IP </li> 
      <li>URL de la página </li> 
-     <li>Visitor ID </li> 
+     <li>ID de visitante </li> 
      <li>ID de visitante de Experience Cloud </li> 
     </ul> <p><b>No</b> es posible utilizar las dimensiones siguientes en los segmentos del Data Warehouse: </p> 
     <ul> 
@@ -71,7 +71,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
      <li>Entrada (todas las dimensiones que contienen Entrada, excepto Página de entrada) </li> 
      <li>Salida (todas las dimensiones que contienen Salida, excepto Vínculo de salida y Página de salida) </li> 
      <li>Jerarquía (todas las dimensiones que comienzan con Jerarquía) </li> 
-     <li>Profundidad de visita </li> 
+     <li>Profundidad de la visita </li> 
      <li>Tipo de visita </li> 
      <li>Hora Día </li> 
      <li>Mes del año </li> 
