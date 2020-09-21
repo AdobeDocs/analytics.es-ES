@@ -3,8 +3,11 @@ description: Muestra tráfico de páginas web y clasifica las vistas de página 
 title: Resumen de informes en tiempo real
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '566'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ Los informes en tiempo real muestran tráfico de páginas web y clasifican las v
 
 >[!NOTE]
 >
->El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte  [Configuración de informes en tiempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
+>El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL Métricas del sitio]** > **[!UICONTROL Tiempo real]**
 
@@ -45,7 +48,7 @@ Tenga en cuenta que no se admiten las métricas de conversión (eVar), ya que no
 
 La configuración y visualización de informes en tiempo real está restringida a administradores o cualquier otro usuario de los grupos de permisos &quot;Acceso a todos los informes&quot; e &quot;Informes avanzados&quot;. Sin embargo, Tiempo real respeta los permisos. Por ejemplo, si no dispone de permisos para ver ingresos, no podrá ver un informe en tiempo real que incluya datos de ingresos.
 
-## Latencia de datos como resultado de la configuración de A4T  {#section_806CE36354FC4C539A0DED9266A5C704}
+## Latencia de datos como resultado de la configuración de A4T {#section_806CE36354FC4C539A0DED9266A5C704}
 
 Tras activar la integración de A4T en Adobe [!DNL Target], experimentará otros 5-10 minutos de latencia en Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y [!DNL Target] en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
 
