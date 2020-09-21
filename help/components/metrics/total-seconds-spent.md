@@ -1,20 +1,20 @@
 ---
 title: Segundos totales empleados
-description: El número total agregado de segundos empleados en el elemento de dimensión.
-translation-type: tm+mt
+description: El número total agregado de segundos empleados en el elemento de la dimensión.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 
 # Segundos totales empleados
 
-La métrica &#39;Segundos totales empleados&#39; muestra la cantidad agregada de segundos que un visitante ha invertido en un elemento de dimensión determinado. Esta métrica es útil cuando desea la cantidad de tiempo sin procesar en un elemento de dimensión determinado y no los promedios como la oferta de otras métricas de tiempo empleado.
+La métrica “Segundos totales empleados” muestra la cantidad agregada de segundos que un visitante ha invertido en un elemento de dimensión determinado. Esta métrica es útil cuando desea la cantidad de tiempo sin procesar en un elemento de dimensión determinado y no los promedios como los que ofrecen otras métricas de tiempo empleado.
 
-En el Creador de informes, esta métrica se denomina “Tiempo total empleado”.
+En Report Builder, esta métrica se denomina “Tiempo total empleado”.
 
 ## Cálculo de esta métrica
 
