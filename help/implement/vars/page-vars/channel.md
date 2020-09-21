@@ -4,8 +4,8 @@ description: Rellene la dimensión “Secciones del sitio”.
 translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
