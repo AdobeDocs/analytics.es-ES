@@ -1,18 +1,18 @@
 ---
 title: Modo de implementación
 description: Obtenga información sobre la experiencia de los usuarios que compran sus productos por primera vez a la hora de poner en marcha la implementación de Adobe Analytics.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '30'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 
 # Modo de implementación
 
-Consulte [Creación de un grupo](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)de informes.
+Consulte [Crear un grupo de informes](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-console/create-report-suite.html).
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
