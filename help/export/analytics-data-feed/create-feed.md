@@ -44,7 +44,7 @@ La compatibilidad con SFTP para fuentes de datos está disponible. Se necesita u
 
 ### S3
 
-Puede enviar fuentes directamente a los bloques de Amazon S3. Requiere un nombre de bloque, un ID de clave de acceso y una clave secreta. Consulte los [requisitos de nomenclatura de bloque de Amazon S3](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) en los documentos de Amazon S3 para obtener más información.
+Puede enviar fuentes directamente a los bloques de Amazon S3. Requiere un nombre de bloque, un ID de clave de acceso y una clave secreta. Consulte los [requisitos de nomenclatura de bloque de Amazon S3](https://docs.aws.amazon.com/es_es/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html) en los documentos de Amazon S3 para obtener más información.
 
 ![Información de S3](assets/dest-s3.jpg)
 
