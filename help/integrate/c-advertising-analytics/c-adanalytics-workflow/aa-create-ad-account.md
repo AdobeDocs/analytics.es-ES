@@ -4,8 +4,8 @@ uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -78,7 +78,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Report Suite  Asignación </p> </td> 
+      <td colname="col1"> <p>Asignación de grupos de informes </p> </td> 
       <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
       </tr> 
     </tbody> 
