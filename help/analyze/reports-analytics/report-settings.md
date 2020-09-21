@@ -3,8 +3,11 @@ description: Configuración que define cómo aparecen todos los informes y la in
 title: Configuración de visualización de informes y navegación
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1468'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ Configuración que define cómo aparecen todos los informes y la información qu
 
 ## Configuración de visualización de informes y navegación {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Configuración de informes]**
 
 | Elemento | Descripción |
 |--- |--- |
@@ -38,7 +41,7 @@ Configuración que define cómo aparecen todos los informes y la información qu
 | Habilitar la aceleración de redes para un rendimiento de informes mejorado | Acelera el envío de datos a su ubicación, optimizando la ruta entre la infraestructura de Adobe y su entorno. |
 | Habilitar la aceleración regional para una experiencia de usuario más rápida en China | El Acelerador regional utiliza dominios acelerados específicos de la región para ofrecer una experiencia de usuario más rápida dentro de una región específica. Actualmente, la aceleración regional solo es compatible en China. La activación de esta función para usuarios que no estén ubicados en China hará que la experiencia sea más lenta. Después de habilitar la aceleración regional debe iniciar sesión de nuevo para que la configuración sea efectiva. Si desea deshabilitar el Acelerador regional, desactive esta casilla de verificación. |
 | **Idioma/Moneda/Codificación** |  |
-| Separador de miles | Seleccione un separador para cada  miles (decimal o coma). Según el país, se utiliza el punto o la coma para separar los miles. (Este separador se aplica a todos los números del sistema, no solo a la moneda.) |
+| Separador de miles | Seleccione un separador para cada miles (decimal o coma). Según el país, se utiliza el punto o la coma para separar los miles. (Este separador se aplica a todos los números del sistema, no solo a la moneda.) |
 | Utilice la moneda predeterminada del grupo de informes | Especifica si se utiliza la moneda predeterminada del grupo de informes. |
 | Moneda | La moneda a la que quiere convertir sus datos. Cuando se selecciona un valor en esta configuración, la selección no afecta a los datos almacenados en la base de datos, pero se muestra como un valor convertido basado en la tasa de conversión de moneda del día actual. Cuando no se han configurado las opciones de moneda (cuando son las predeterminadas), no se realiza ninguna conversión de moneda, y todos los valores se almacenan y se muestran en dólares estadounidenses (USD). Para convertir la moneda cuando se procesen los datos (antes de mostrarlos), póngase en contacto con su Administrador de cuentas. |
 | Codificación de informe programado | Shift-JIS para la codificación de caracteres japoneses. EUC-JP para código Unix ampliado, principalmente para japonés, coreano y chino simplificado. |
@@ -61,7 +64,7 @@ Si está acostumbrado al menú predeterminado, la tabla siguiente le facilita en
 |  | Métricas clave | Métricas > Métricas clave |
 |  | Vistas de páginas | Métricas > Vistas de páginas |
 |  | Visitas | Métricas > Visitas |
-|  | Visitantes | Métricas  > Visitantes |
+|  | Visitantes | Métricas > Visitantes |
 |  | Tiempo empleado por visita | Métricas > Tiempo empleado por visita |
 |  | Tiempo previo al evento | Métricas > Tiempo previo al evento |
 |  | Compras | Métricas > Compras |
@@ -136,10 +139,10 @@ Si está acostumbrado al menú predeterminado, la tabla siguiente le facilita en
 | **Encuesta** |  | Audiencia > Survey |
 | **Canales de marketing** |  |  |
 |  | Informe de descripción general de canal | Fuentes de tráfico > Canales de marketing > Informe de descripción general de canal |
-|  | Canal de primer toque | Fuentes de tráfico > Canales de marketing > Canal de primer toque |
-|  | Detalles de canal de primer toque | Fuentes de tráfico > Canales de marketing > Detalles de canal de primer toque |
-|  | Canal de último toque | Fuentes de tráfico > Canales de marketing > Canal de último toque |
-|  | Detalles de canal de último toque | Fuentes de tráfico > Canales de marketing > Detalles de canal de último toque |
+|  | Canal de primer contacto | Fuentes de tráfico > Canales de marketing > Canal de primer toque |
+|  | Detalles de canal de primer contacto | Fuentes de tráfico > Canales de marketing > Detalles de canal de primer toque |
+|  | Canal de último contacto | Fuentes de tráfico > Canales de marketing > Canal de último toque |
+|  | Detalles de canal de último contacto | Fuentes de tráfico > Canales de marketing > Detalles de canal de último toque |
 | **Aplicación móvil** |  |  |
 |  | Información general de aplicación móvil | Contenido > Aplicación móvil > Información general de aplicación móvil |
 |  | Informes de ciclo de vida | Contenido > Aplicación móvil > Informes de ciclo de vida |
