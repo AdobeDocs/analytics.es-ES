@@ -1,11 +1,11 @@
 ---
 title: Profundidad de color
 description: Profundidad de color del dispositivo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ La dimensión “Profundidad de color” indica cuántos colores admite el dispo
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a una tabla de búsqueda, que traduce el valor de bits a un formato más legible. Recopila datos de la [`c` cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement utiliza la variable `screen.colorDepth` para rellenar la cadena de consulta de solicitud de imagen. Si utiliza AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de consulta `c` en cada visita individual con un valor de bits válido.
+Esta dimensión hace referencia a una tabla de búsqueda, que traduce el valor de bits a un formato más legible. Recopila datos de la [`c` cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement utiliza la variable `screen.colorDepth` para rellenar la cadena de consulta de solicitud de imagen. Si utiliza AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de consulta `c` en cada visita individual con un valor de bits válido.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Los elementos de Dimension incluyen el número de colores admitidos por el dispositivo. Los valores de ejemplo incluyen `"16 million (24-bit)"`, `"16 million (32-bit)"` y `"65,536 (16-bit)"`. Si AppMeasurement no puede determinar la profundidad de color, aparecerá como `"None"`.
+Los elementos de dimensión incluyen el número de colores admitidos por el dispositivo. Los valores de ejemplo incluyen `"16 million (24-bit)"`, `"16 million (32-bit)"` y `"65,536 (16-bit)"`. Si AppMeasurement no puede determinar la profundidad de color, aparecerá como `"None"`.
 
 >[!TIP]
 >
