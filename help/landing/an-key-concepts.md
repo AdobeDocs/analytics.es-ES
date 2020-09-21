@@ -4,8 +4,8 @@ title: 'Adobe Analytics: conceptos clave'
 translation-type: tm+mt
 source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,14 +45,14 @@ Haga clic [aquí](/help/technotes/terms.md) para ver un glosario ampliado de té
 | Segmentos | La capacidad de crear, gestionar, compartir y aplicar segmentos de audiencia eficaces y centrados a sus informes de Analytics. Los segmentos se comparten entre los productos de Analytics y se pueden compartir en Experience Cloud. | [Segmentación](/help/components/segmentation/seg-home.md) |
 | Hora (intervalos de fechas) | Posibilidad de filtrar la fecha a cualquier periodo de tiempo y crear intervalos de fechas personalizados que se puedan reutilizar en el análisis. | [Intervalos de fechas](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | Visualizaciones | Imágenes enriquecidas que pueden ayudar a dar vida a los datos en sus proyectos. | [Visualizaciones](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| Revisión | Capacidad para limitar los componentes accesibles en un proyecto o grupo de informes virtuales. | [Conservación de VRS](/help/components/vrs/vrs-components.md) <br> [Curación del proyecto](/help/analyze/analysis-workspace/curate-share/curate.md) |
+| Gestión de datos | Capacidad para limitar los componentes accesibles en un proyecto o grupo de informes virtuales. | [Conservación de VRS](/help/components/vrs/vrs-components.md) <br> [Curación del proyecto](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## Informes clave
 
 | Información general de la tienda de aplicaciones | Descripción | Vínculo de documentación |
 | --- | --- | --- |
 | Lista completa de informes y dimensiones | Definición de todos los informes y dimensiones disponibles en Adobe Analytics. | [Dimensiones](/help/components/dimensions/overview.md) |
-| Advertising Analytics | Analice todos los datos de búsqueda pagada de Google y Bing uno al lado del otro, dentro de Adobe Analytics. Las dimensiones creadas mediante la integración incluyen la plataforma de publicidad, palabras clave, el tipo de coincidencia, etc. Las métricas creadas son Impresiones de AMO, Clics de AMO, Coste de AMO, Promedio. Posición y promedio media de AMO. | [Advertising Analytics](/help/integrate/c-advertising-analytics/overview.md) |
+| Advertising Analytics | Analice todos los datos de búsqueda pagada de Google y Bing uno al lado del otro, dentro de Adobe Analytics. Las dimensiones creadas mediante la integración incluyen la plataforma de publicidad, palabras clave, el tipo de coincidencia, etc. Las métricas creadas son Impresiones de AMO, Clics de AMO, Coste de AMO, Promedio. Puntuación de calidad de posición y promedio. | [Advertising Analytics](/help/integrate/c-advertising-analytics/overview.md) |
 | Audience Analytics | Enriquezca las visitas de Analytics de entrada con la pertenencia de un usuario a la audiencia en AAM. Puede incorporar datos de audiencia de AAM, como información demográfica (p. ej., sexo o nivel de ingresos), información psicográfica (p. ej., intereses y aficiones), datos CRM o datos de impresión publicitaria a cualquier flujo de trabajo de Analytics. Las dimensiones creadas mediante esta integración son ID de audiencia y Nombre de audiencia. | [Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
 | Attribution IQ | Permite comprender de qué manera ocurre la interacción significativa a lo largo del recorrido del cliente, identificando con inteligencia los puntos de inflexión que llevan a resultados de destino y optimizando, con eficacia, las iniciativas de marketing. Los modelos incluyen caída primera, última, lineal, de participación, en forma de J, en forma de J invertida, en forma de U, de mismo contacto, personalizada y de tiempo. | [Attribution IQ](/help/analyze/analysis-workspace/c-panels/attribution.md) |
 | Detección de anomalías | Un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores. AD está activada de forma predeterminada para todas las visualizaciones de tendencias en Analysis Workspace. | [Detección de anomalías](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) |
