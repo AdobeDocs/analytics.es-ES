@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Reglas de clasificación
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2018'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Las reglas de clasificación resultan adecuadas para:
 * **Correo electrónico** y **anuncios en pantalla**: al crear reglas de clasificación pueden agruparse campañas de anuncios en pantalla individuales, y esto permite comprobar los resultados de las campañas de visualización frente a las de correo electrónico.
 
 * **Códigos de seguimiento**: con las reglas de clasificación pueden aplicarse categorías a los valores clave derivados de cadenas de códigos de seguimiento, y hacerlos coincidir con los criterios específicos definidos.
-* **Términos de búsqueda**: las  [expresiones regulares](/help/components/classifications/crb/classification-quickstart-rules.md) y los comodines simplifican la clasificación de los términos de búsqueda. Por ejemplo, si un término de búsqueda contiene *`baseball`*, puede establecer una *`Sports League`* clasificación en *`MLB`*.
+* **Términos de búsqueda**: las [expresiones regulares](/help/components/classifications/crb/classification-quickstart-rules.md) y los comodines simplifican la clasificación de los términos de búsqueda. Por ejemplo, si un término de búsqueda contiene *`baseball`*, puede establecer una *`Sports League`* clasificación en *`MLB`*.
 
 Por ejemplo, imaginemos el código de seguimiento siguiente para un ID de campaña de correo electrónico:
 
@@ -79,11 +79,11 @@ about_classification_rules.xml
 
 ## ¿En qué casos las reglas no clasifican claves?
 
-Cuando se activan las reglas, pueden sobrescribirse las clasificaciones existentes. En las situaciones siguientes, una regla de clasificación no clasifica ninguna  [clave](/help/components/classifications/importer/c-saint-data-files.md) (variable) si:
+Cuando se activan las reglas, pueden sobrescribirse las clasificaciones existentes. En las situaciones siguientes, una regla de clasificación no clasifica ninguna [clave](/help/components/classifications/importer/c-saint-data-files.md) (variable) si:
 
 * La clave ya se ha clasificado y no se selecciona [Sobrescriba las clasificaciones para](/help/components/classifications/crb/classification-rule-definitions.md).
 
-   Las clasificaciones pueden sobrescribirse al  [ Agregar y activar](/help/components/classifications/crb/classification-quickstart-rules.md) una regla, y al activar una integración de Data Connectors. (En el caso de los Data Connectors, las reglas son creadas por socios en el Centro de desarrolladores y se muestran en la [!UICONTROL Clasificación del Generador de reglas]).
+   Las clasificaciones pueden sobrescribirse al [ Agregar y activar](/help/components/classifications/crb/classification-quickstart-rules.md) una regla, y al activar una integración de Data Connectors. (En el caso de los Data Connectors, las reglas son creadas por socios en el Centro de desarrolladores y se muestran en la [!UICONTROL Clasificación del Generador de reglas]).
 
 * Las claves clasificadas no aparecen en los datos una vez transcurrido el lapso de tiempo especificado al sobrescribir una clave, ni siquiera tras habilitar [Sobrescriba las clasificaciones para](/help/components/classifications/crb/classification-rule-definitions.md).
 * La clave no se clasifica y nunca se transfiere a [!DNL Adobe Analytics] después del lapso de tiempo a partir de un mes antes.
@@ -159,7 +159,7 @@ En el [!UICONTROL Generador de reglas], la regla debe configurarse como se muest
 
 Consulte [Expresiones regulares: tabla de referencia](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716) para obtener más información sobre el significado de los caracteres de las expresiones regulares.
 
-## Expresión regular: clasificación de un carácter específico  {#section_5D300C03FA484BADACBFCA983E738ACF}
+## Expresión regular: clasificación de un carácter específico {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 Una de las utilidades de las expresiones regulares es clasificar un carácter específico de una cadena de caracteres. Por ejemplo, imaginemos que el código de seguimiento siguiente contiene dos caracteres importantes:
 
@@ -288,7 +288,7 @@ A continuación se muestra un ejemplo de regla de término de búsqueda que clas
 | 2 | Contiene | Fantasy | Tipo de búsqueda | Fantasy |
 | 3 | Contiene | Romo | Tipo de búsqueda | Jugador |
 
-Si un usuario busca  *`Cowboys fantasy Tony Romo`*, el término *`Player`* se clasifica porque coincide con la última clasificación proporcionada que aparece en la columna Configurar clasificación.
+Si un usuario busca *`Cowboys fantasy Tony Romo`*, el término *`Player`* se clasifica porque coincide con la última clasificación proporcionada que aparece en la columna Configurar clasificación.
 
 Del mismo modo, supongamos que se configuran hasta dos reglas en un conjunto para los términos de búsqueda siguientes:
 
@@ -297,7 +297,7 @@ Del mismo modo, supongamos que se configuran hasta dos reglas en un conjunto par
 | 1 | Contiene | Cowboys | Ciudad | Dallas |
 | 2 | Contiene | Broncos | Ciudad | Denver |
 
-Un usuario busca  *`Cowboys vs. Broncos`*. Si el Generador de reglas encuentra un conflicto en la coincidencia de reglas, se aplicará a la búsqueda la clasificación de la segunda regla (Denver).
+Un usuario busca *`Cowboys vs. Broncos`*. Si el Generador de reglas encuentra un conflicto en la coincidencia de reglas, se aplicará a la búsqueda la clasificación de la segunda regla (Denver).
 
 ## Agregar una regla de clasificación a un conjunto de reglas {#add-classification-to-rule-set}
 
@@ -313,7 +313,7 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
 
 >[!NOTE]
 >
->En este procedimiento deben aplicarse reglas a uno o varios grupos de informes. El número recomendado de reglas por conjunto de reglas está entre 500 y 1000, aunque no hay límites. Si el número de reglas supera las 100, considere la posibilidad de simplificar el conjunto de reglas mediante  [subclasificaciones](/help/components/classifications/c-sub-classifications.md).
+>En este procedimiento deben aplicarse reglas a uno o varios grupos de informes. El número recomendado de reglas por conjunto de reglas está entre 500 y 1000, aunque no hay límites. Si el número de reglas supera las 100, considere la posibilidad de simplificar el conjunto de reglas mediante [subclasificaciones](/help/components/classifications/c-sub-classifications.md).
 
 1. [Crear un conjunto de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) .
 1. En la página del conjunto de reglas, haga clic en **[!UICONTROL Agregar regla]**.
