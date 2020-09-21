@@ -155,7 +155,7 @@ Fecha de la versión: **18 de enero de 2018**
 
 * Abandono del soporte para las versiones 6 a 9 de Internet Explorer
 * Inclusión de la API de visitantes 3.0.0
-* Inclusión de DIL 7.00 
+* Inclusión de DIL 7.00
 
 ## Versión 2.6.0
 
@@ -331,7 +331,7 @@ Fecha de versión: **16 de abril de 2015**
 Fecha de versión: **19 de febrero de 2015**
 
 * Se ha sistematizado todo el tratamiento de las llamadas de seguimiento demoradas con lo cual se han corregido los problemas con las variables de copia de seguridad durante la demora, por ejemplo, el objeto en el que se ha hecho clic.
-* Se ha cambiado la opción a no hacer seguimiento automático del referente tras la primera llamada de seguimiento, de modo que las llamadas segunda, tercera, etc. (por lo general seguimiento de vínculos) no contarán al referente doble si se ha configurado manualmente  *`s.referrer`* se ha establecido manualmente antes de la primera llamada de seguimiento.
+* Se ha cambiado la opción a no hacer seguimiento automático del referente tras la primera llamada de seguimiento, de modo que las llamadas segunda, tercera, etc. (por lo general seguimiento de vínculos) no contarán al referente doble si se ha configurado manualmente *`s.referrer`* se ha establecido manualmente antes de la primera llamada de seguimiento.
 * Se ha actualizado el zip de distribución para incluir la API de visitante 1.3.5.
 
 ## Versión 1.4.2
