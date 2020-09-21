@@ -3,8 +3,11 @@ description: Introducción a las características de un informe; incluye la barr
 title: Características de los informes
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '328'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Introducción a las características de un informe; incluye la barra de herramientas, el calendario y la tabla de detalles.
 
-This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
+Este ejemplo muestra un [!UICONTROL Informe de páginas]. Las opciones de configuración pueden variar, dependiendo del informe que ejecute. Por ejemplo, en vez de seleccionar Tendencias o Clasificación en un informe [!UICONTROL Contenido del sitio], puede especificar la granularidad y el nombre de página de un informe [!UICONTROL Métricas de sitio].
 
 ## Ejemplo de informe de páginas {#section_288CC85536684C2DB184141358481EF0}
 
-Un ejemplo de un informe de páginas ( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**).
+Un ejemplo de informe de páginas (**[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Informes de páginas]** > **[!UICONTROL Páginas]**).
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
