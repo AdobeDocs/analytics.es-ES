@@ -4,6 +4,9 @@ title: Explicación de los segmentos en Analytics y Audience Manager
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '741'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,7 @@ Para obtener más información, consulte [Datos de población de característica
 
 Un segmento de Analytics es un mecanismo de filtrado para los datos de sus informes. El filtrado puede producirse en el nivel del visitante o de la visita, y no solo estrictamente en el nivel del visitante, como sucede en Audience Manager. Hay varios factores importantes a considerar al comparar un segmento de Analytics con uno de Audience Manager:
 
-* Los segmentos de Analytics operan sobre un conjunto de datos distinto de los de Audience Manager. Durante la recopilación de datos, Analytics aplica a estos muchos pasos de posprocesado que no están disponibles en Audience Manager. Estos pasos pueden incluir la persistencia de eVar, reglas de procesamiento, búsquedas (geolocalización, dispositivo móvil), VISTA y muchos otros. Audience Manager recibe los datos preprocesados mediante reenvío de servidor (o DIL).
+* Los segmentos de Analytics operan sobre un conjunto de datos distinto de los de Audience Manager. Durante la recopilación de datos, Analytics aplica a estos muchos pasos de posprocesado que no están disponibles en Audience Manager. Estos pasos pueden incluir la persistencia de eVar, reglas de procesamiento, búsquedas (geolocalización, dispositivo móvil), VISTA y muchos otros. Audience Manager recibe los datos preprocesados mediante reenvío de lado del servidor (o DIL).
 
    Se producen discrepancias de datos comunes al comparar segmentos basados en dimensiones que nunca caducan en Analytics con la misma dimensión en Audience Manager. Por ejemplo, listVars o eVars de comercialización que nunca caducan.
 
