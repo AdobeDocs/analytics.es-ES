@@ -4,6 +4,9 @@ keywords: Analysis Workspace;Synchronize visualization with data source
 title: Administración de fuentes de datos
 translation-type: ht
 source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+workflow-type: ht
+source-wordcount: '562'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ Al administrar una fuente de datos, puede mostrar la fuente de datos o bloquear 
 
 1. [Cree un proyecto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) con una tabla de datos y [una visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. En la tabla de datos, seleccione las celdas (fuente de datos) que desee asociar con la visualización.
-1. En la visualización, haga clic en el punto al lado del título para que aparezca el cuadro de diálogo **[!UICONTROL Data Source]**. Seleccione **[!UICONTROL Show Data Source]** o **[!UICONTROL Lock Selection]**.
+1. En la visualización, haga clic en el punto al lado del título para que aparezca el cuadro de diálogo **[!UICONTROL Fuente de datos]**. Seleccione **[!UICONTROL Mostrar fuente de datos]** o **[!UICONTROL Bloquear selección]**.
 
    ![](assets/manage-data-source.png)
 
