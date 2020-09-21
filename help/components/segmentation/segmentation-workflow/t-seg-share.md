@@ -3,9 +3,9 @@ description: En función de sus permisos, puede compartir segmentos con toda su 
 title: Compartir segmentos
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '276'
 ht-degree: 100%
 
