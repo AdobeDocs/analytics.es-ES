@@ -8,8 +8,8 @@ breadcrumb-url: /docs/analytics/implementation/home.html
 translation-type: tm+mt
 source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 99%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Complementos  {#plugins}
+   + Complementos {#plugins}
       + [Información general de complementos](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
