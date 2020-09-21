@@ -5,8 +5,11 @@ subtopic: Current data
 title: Disponibilidad y latencia de los datos
 topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
+workflow-type: ht
+source-wordcount: '803'
+ht-degree: 100%
 
 ---
 
