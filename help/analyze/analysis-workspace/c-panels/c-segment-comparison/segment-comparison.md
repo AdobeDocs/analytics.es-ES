@@ -2,11 +2,11 @@
 title: Información general del panel de comparación de segmentos
 description: Aprenda a utilizar el panel de comparación de segmentos, que forma parte de IQ de segmento en Analysis Workspace.
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1137'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -93,17 +93,17 @@ A la derecha de la tabla de métricas se encuentra la visualización vinculada. 
 
 Muestra los elementos de dimensión más significativos estadísticamente en todas las dimensiones. Cada fila muestra el porcentaje de cada segmento con este elemento de dimensión. Por ejemplo, esta tabla podría revelar que el 100% de los visitantes del segmento A tenían el elemento de dimensión “Tipo de explorador: Google”, mientras que solo el 19,6% del “segmento B” tenía este elemento de dimensión. Una puntuación de diferencia de 1 significa que tiene relevancia estadística, mientras que una puntuación de diferencia de 0 significa que no tiene relevancia estadística.
 
-Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea una análisis más profunda en un elemento de dimensión específico, pase el ratón sobre un elemento de línea y haga clic en &#39;Crear elemento visual&#39;. Se crea una nueva tabla para analizar ese elemento de dimensión específico. Si un elemento de dimensión es irrelevante para la análisis, pase el ratón sobre el elemento de línea y haga clic en la &#39;X&#39; para eliminarlo.
+Esta visualización es similar a las tablas improvisada en Analysis Workspace. Si desea realizar un análisis más profundo de un elemento de dimensión específico, pase el ratón sobre un elemento de línea y haga clic en “Crear elemento visual”. Se crea una nueva tabla para analizar ese elemento de dimensión específico. Si un elemento de dimensión es irrelevante para el análisis, pase el ratón sobre el elemento de línea y haga clic en la “X” para eliminarlo.
 
 >[!NOTE]
 >
->Los elementos de Dimension agregados a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
+>Los elementos de dimensión que se agreguen a esta tabla después de que la comparación de segmentos haya finalizado no reciben una puntuación de diferencia.
 
 ![Dimensiones principales](assets/top-dimension-item1.png)
 
 ### Elementos de dimensión por segmento
 
-A la derecha de la tabla de dimensiones se encuentra la visualización de gráfico de barras vinculada. Muestra todos los elementos de dimensión mostrados en un gráfico de barras. Al hacer clic en un elemento de línea en la tabla de la izquierda, se actualiza la visualización de la derecha.
+A la derecha de la tabla de dimensiones se encuentra la visualización de gráfico de barras vinculada. En ella aparecen todos los elementos de dimensión en un gráfico de barras. Al hacer clic en un elemento de línea en la tabla de la izquierda, se actualiza la visualización de la derecha.
 
 ![Gráfico de barras de dimensiones principales](assets/top-dimension-item.png)
 
