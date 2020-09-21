@@ -1,11 +1,11 @@
 ---
 title: Ciudades
 description: Ciudad en la que se originó la visita.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El 
 >
 >Si su organización sigue estrictas normas de privacidad en las que [ofuscar la dirección IP](/help/admin/admin/general-acct-settings-admin.md) no es suficiente, puede solicitar que se deshabiliten los datos de geolocalización por completo. Póngase en contacto con el Servicio de atención al cliente con el ID del grupo de informes y solicite desactivar “Geografía” para el grupo de informes.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Los elementos Dimension incluyen ciudades de todo el mundo. Los valores de ejemplo incluyen `"New York (New York, United States)"`, `"Bangalore (Karnataka, India)"` o `"London (London, United Kingdom)"`.
+Los elementos de dimensión incluyen ciudades de todo el mundo. Los valores de ejemplo incluyen `"New York (New York, United States)"`, `"Bangalore (Karnataka, India)"` o `"London (London, United Kingdom)"`.
 
 Algunos elementos de dimensión pueden incluir `"AOL"`, un proveedor de servicio de acceso telefónico a Internet. A los suscriptores de este servicio se les asigna un punto de acceso basado en el país donde se establece su número de cuenta. Los usuarios de AOL utilizan la dirección IP de este punto de acceso. Dado que esta dimensión se basa en la dirección IP, se utiliza la geolocalización del punto de acceso en lugar de la ubicación real del visitante.
 
