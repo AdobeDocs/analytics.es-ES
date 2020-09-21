@@ -7,8 +7,8 @@ uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +69,7 @@ Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contra
    <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Server </p> </td> 
+   <td colname="col1"> <p>Servidor </p> </td> 
    <td colname="col2"> <p> <code> s.server </code> </p> </td> 
   </tr> 
  </tbody> 
