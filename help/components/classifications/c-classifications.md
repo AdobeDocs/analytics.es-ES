@@ -1,16 +1,16 @@
 ---
-title: Información general sobre las clasificaciones
-description: Personalice la agrupación de elementos de dimensión.
-translation-type: tm+mt
+title: Resumen general de las clasificaciones
+description: Personalice la agrupación de los elementos de dimensión.
+translation-type: ht
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Información general sobre las clasificaciones
+# Resumen general de las clasificaciones
 
 Las clasificaciones permiten aplicar categorías a los datos de variables de Analytics para mostrarlos de distintos modos cuando se generan los informes.
 
@@ -34,7 +34,7 @@ Informes y análisis incluye clasificaciones predefinidas para la variable de c�
 
 Consulte [Clasificaciones de tráfico](/help/admin/admin/c-traffic-variables/traffic-classifications.md) y [Clasificaciones de las conversiones](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html).
 
-En la tabla siguiente se describen los distintos tipos de clasificaciones disponibles y los tipos de variables que admiten. Consulte la información de   [Estructura general de archivos](/help/components/classifications/importer/c-saint-data-files.md) antes de cargar archivos de datos.
+En la tabla siguiente se describen los distintos tipos de clasificaciones disponibles y los tipos de variables que admiten. Consulte la información de [Estructura general de archivos](/help/components/classifications/importer/c-saint-data-files.md) antes de cargar archivos de datos.
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
