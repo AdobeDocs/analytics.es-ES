@@ -4,8 +4,11 @@ subtopic: Data sources
 title: ID de visitante
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '230'
+ht-degree: 100%
 
 ---
 
