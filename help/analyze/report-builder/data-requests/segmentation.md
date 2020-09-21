@@ -76,7 +76,7 @@ Los filtros disponibles incluyen:
 | Nombre del filtro | Descripción |
 |---|---|
 | Etiquetas | Le permite filtrar segmentos con determinadas etiquetas. Tenga en cuenta que los filtros de etiqueta utilizan el operador AND. Si marca dos etiquetas, el panel derecho muestra los segmentos etiquetados con **ambas** etiquetas. |
-| Propietarios | Le permite filtrar segmentos por el propietario. Tenga en cuenta que los filtros de Propietario utilizan el operador OR. Si marca dos propietarios, el panel de la derecha muestra los segmentos que son propiedad de **uno** de los propietarios. |
+| Propietarios | Le permite filtrar segmentos por propietario. Tenga en cuenta que los filtros de Propietario utilizan el operador OR. Si marca dos propietarios, el panel de la derecha muestra los segmentos que son propiedad de **uno** de los propietarios. |
 | Otros filtros > Solo el *nombre del grupo de informes* | Si aplica el filtro “Solo el *nombre del grupo de informes*” en el Creador de segmentos, en [!DNL marketing reports & analytics] y, a continuación, muestra el Filtro avanzado en [!DNL report builder], el Filtro avanzado solo mostrará las métricas calculadas correspondientes al informe seleccionado. |
 | Otros filtros > Míos | Muestra todos los segmentos de su propiedad. |
 | Otros filtros > Compartidos conmigo | Muestra todos los segmentos que se han compartido con usted. |
