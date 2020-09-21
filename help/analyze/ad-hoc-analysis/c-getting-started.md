@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
 source-wordcount: '1306'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -85,15 +85,15 @@ c_sys_reqs.xml
 
 ## Instrucciones de actualización de Java {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-Los archivos .jar de Adobe están firmados con un cifrado de 256 bits seguro que no es compatible con versiones de Java inferiores a 1.7.0_76. Este certificado de 256 bits nos permite ofrecerle una mayor seguridad.
+Los archivos .jar de Adobe están firmados con un cifrado seguro de 256 bits con el que las versiones de Java anteriores a la 1.7.0_76 no son compatibles. Este certificado de 256 bits nos permite ofrecerle una mayor seguridad.
 
 Si todavía tiene Java 7 instalado, debe actualizar primero a la versión de mantenimiento de julio de 2018. A continuación se muestra cómo:
 
 * Si puede instalar programas en su ordenador:
 
    1. Vaya a https://www.java.com.
-   1. Click **[!UICONTROL Java Download]**.
-   1. Click **[!UICONTROL Agree and Start Download]**.
+   1. Haga clic en **[!UICONTROL Descarga de Java]**.
+   1. Haga clic en **[!UICONTROL Aceptar e iniciar descarga]**.
    1. Instale la última versión de Java específica para su sistema operativo.
 
 * Si **no** puede instalar programas en su ordenador:
