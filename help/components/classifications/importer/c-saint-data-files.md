@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Archivos de datos de clasificación
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1771'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
 * Las clasificaciones no pueden tener un valor de 0 (cero).
 * Adobe recomienda limitar a 30 el número de columnas de importación y exportación.
 * Los archivos actualizados deben usar la codificación de caracteres UTF-8 sin BOM.
-* En una celda se pueden incrustar caracteres especiales, como por ejemplo tabulaciones, líneas nuevas y comillas, siempre que el formato de archivo especificado sea v2.1 y que en la celda se hayan usado convenientemente   [secuencias de escape](/help/components/classifications/importer/t-classifications-escape-data.md). Los caracteres especiales incluyen:
+* En una celda se pueden incrustar caracteres especiales, como por ejemplo tabulaciones, líneas nuevas y comillas, siempre que el formato de archivo especificado sea v2.1 y que en la celda se hayan usado convenientemente [secuencias de escape](/help/components/classifications/importer/t-classifications-escape-data.md). Los caracteres especiales incluyen:
 
    ```
    \t     tab character 
@@ -76,11 +76,11 @@ Los archivos de datos deben cumplir las siguientes reglas estructurales:
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Solicita que Adobe genere automáticamente un identificador único para este elemento. </p> <p>En el contexto de campaña, este valor de control ordena a Adobe que asigne un identificador a cada elemento creativo. Consulte <a href="/help/components/classifications/importer/c-saint-data-files.md"  > Clave </a>. </p> </td> 
+   <td colname="col2"> <p>Solicita que Adobe genere automáticamente un identificador único para este elemento. </p> <p>En el contexto de campaña, este valor de control ordena a Adobe que asigne un identificador a cada elemento creativo. Consulte <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Clave</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
-   <td colname="col2"> <p>Designa que la columna de datos representa el rango de fechas asociado con el elemento. Consulte <a href="/help/components/classifications/importer/c-saint-data-files.md"  > Fecha </a>. </p> </td> 
+   <td colname="col2"> <p>Designa que la columna de datos representa el rango de fechas asociado con el elemento. Consulte <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Fecha</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Campo vacío </p> </td> 
