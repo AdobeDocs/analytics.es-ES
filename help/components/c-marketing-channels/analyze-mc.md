@@ -46,7 +46,7 @@ Los detalles de Canales de marketing se insertan más profundamente en cada cana
 
 ## Aplicar modelos de atribución
 
-Puede utilizar [Attribution IQ](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html) para aplicar distintos modelos de atribución de manera instantánea:
+Puede utilizar [Attribution IQ](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/panels/attribution.html) para aplicar distintos modelos de atribución de manera instantánea:
 
 ![](assets/mc-viz5.png)
 
