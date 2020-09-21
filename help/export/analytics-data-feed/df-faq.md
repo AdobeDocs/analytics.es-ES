@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 66%
+ht-degree: 77%
 
 ---
 
@@ -27,9 +27,9 @@ En Adobe Analytics, la mayoría de las variables se consideran sin distinción d
 
 Si ve diferentes variaciones de mayúsculas y minúsculas del mismo valor entre columnas no posteriores y posteriores (por ejemplo, “nieve” en la columna previa y “Nieve” en la columna posterior), la implementación utiliza valores en mayúsculas y minúsculas en todo el sitio. Se pasó anteriormente por la variación de la distinción de mayúsculas y minúsculas en la columna posterior y se almacena en la cookie virtual, o se procesó aproximadamente en el mismo momento para el grupo de informes.
 
-## ¿Las reglas de bots de la consola de administración se filtran en las fuentes de datos?
+## ¿Las reglas de bots de la Admin Console filtran bots incluidos en las fuentes de datos?
 
-Las fuentes de datos no incluyen bots filtrados por las reglas [de bots de la consola](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)de administración.
+Las fuentes de datos no incluyen bots filtrados por las [reglas de bots de la Admin Console](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/bot-removal/bot-removal.html).
 
 ## ¿Por qué veo varios `000` valores en la columna de fuente de datos `event_list` o `post_event_list` ?
 
