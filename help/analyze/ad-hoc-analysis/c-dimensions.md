@@ -43,7 +43,7 @@ Las dimensiones se pueden ordenar según las siguientes categorías:
 | Categoría de la dimensión | Descripción |
 |--- |--- |
 | Tráfico | Incluye artículos del navegador, campañas Target, ubicación geográfica, vínculos personalizados, propiedades de tráfico personalizadas, dominios, descargas, referentes, dominios de referencia, etc. |
-| Conversión | Incluye campañas, categorías, eVars personalizadas, productos, códigos de seguimiento, etc.  |
+| Conversión | Incluye campañas, categorías, eVars personalizadas, productos, códigos de seguimiento, etc. |
 | Propriétés | Incluye propiedades de tráfico personalizadas, por ejemplo páginas de entrada y salida. |
 | Evars | Incluye eVars que se usan como métricas de éxito en la colección de datos. |
 | Jerarquía | Incluye variables de jerarquización que se usan para determinar la ubicación de una página dentro de la jerarquía del sitio. |
