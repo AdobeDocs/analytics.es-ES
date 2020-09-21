@@ -1,11 +1,11 @@
 ---
 title: Tiempo previo al evento
 description: Cantidad de tiempo entre la métrica y la primera visita individual de la visita.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ La dimensión “Tiempo previo al evento” indica la cantidad de tiempo que tra
 
 Aunque técnicamente esta dimensión funciona de forma predeterminada para todas las implementaciones, funciona mejor con eventos personalizados y de compra. Adobe recomienda implementar eventos personalizados en el sitio. Si implementa eventos personalizados, no se requiere una implementación adicional para esta dimensión.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Dimension items include time-based buckets ranging from `"Less than 1 minute"` to `"More than 15 hours"`. For example, if it took a visitor 23 minutes from their first hit to a purchase, it would belong under the `"10 to 30 minutes"` dimension item.
+Los elementos de dimensión incluyen bloques basados en tiempo que van desde `"Less than 1 minute"` hasta `"More than 15 hours"`. Por ejemplo, si un visitante tardase 23 minutos desde su primera visita hasta que realiza una compra, pertenecería al elemento de dimensión `"10 to 30 minutes"`.
