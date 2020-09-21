@@ -3,9 +3,9 @@ description: En el Administrador de segmentos, el etiquetado de segmentos le per
 title: Etiquetar segmentos
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Todos los usuarios pueden crear etiquetas para los segmentos y aplicar una o má
 * Etiquetas basadas en **nombres de equipos**, como Marketing social o Marketing móvil.
 * Etiquetas de **proyectos** (etiquetas de análisis), como análisis de páginas de entrada.
 * Etiquetas de **categorías**: para hombres, geografía.
-* **Etiquetas de flujo de trabajo: pendiente de aprobación, conservado para (una unidad empresarial específica).**
+* Etiquetas de **flujo de trabajo**: pendiente de aprobación, conservado para (una unidad empresarial específica).
 
 1. En el Administrador de segmentos, marque la casilla que aparece junto al segmento que desea etiquetar. Aparecerá la barra de herramientas para la administración de segmentos:
 
