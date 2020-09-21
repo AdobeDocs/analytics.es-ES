@@ -3,11 +3,11 @@ description: Los segmentos secuenciales se crean mediante el operador THEN, en l
 title: Generar segmentos secuenciales
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3857'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Al crear un segmento en el cual se ha definido “Incluir a todos”, el segment
 | Coincide | A entonces B<br>A entonces (en una visita diferente) B<br>A entonces D, que entonces B |
 | No coincide | B entonces A |
 
-## Solo Antes de la Secuencia y Solo Después de la Secuencia  {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## Solo Antes de la Secuencia y Solo Después de la Secuencia {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 Las opciones **[!UICONTROL Solo Antes de la Secuencia]** y **[!UICONTROL Solo Después de la Secuencia]** filtran el segmento a un subconjunto de datos anterior o posterior a la secuencia especificada.
 
@@ -179,11 +179,11 @@ Las reglas de segmentos incluyen todos los datos a menos que se excluyan especí
 
 Por ejemplo:
 
-* **Exclusión de páginas**. Use una regla de segmento para eliminar una página específica (como la  *`Home Page`*) de un informe, cree una regla de visita individual en la que página sea igual a &quot;Página de inicio&quot; y luego exclúyala. Esta regla incluye automáticamente todos los valores excepto la página de inicio.
+* **Exclusión de páginas**. Use una regla de segmento para eliminar una página específica (como la *`Home Page`*) de un informe, cree una regla de visita individual en la que página sea igual a &quot;Página de inicio&quot; y luego exclúyala. Esta regla incluye automáticamente todos los valores excepto la página de inicio.
 * **Exclusión de dominios de referencia**. Use una regla que incluya solo los dominios de referencia de Google.com y excluya todos los demás.
 * **Identificación de los no compradores**. Identifique el momento en que los pedidos son superiores a cero y luego excluya al [!UICONTROL visitante].
 
-El operador [!UICONTROL Exclude] puede emplearse para identificar una secuencia en la que las visitas o visitas individuales específicas no son efectuadas por el visitante. La [!UICONTROL exclusión de puntos de comprobación] también puede incluirse dentro de un  [grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+El operador [!UICONTROL Exclude] puede emplearse para identificar una secuencia en la que las visitas o visitas individuales específicas no son efectuadas por el visitante. La [!UICONTROL exclusión de puntos de comprobación] también puede incluirse dentro de un [grupo lógico](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
 ### Exclusión entre puntos de comprobación
 
@@ -264,7 +264,7 @@ Si desea agrupar puntos de comprobación secuenciales, su “contenedor” es un
 **¿Simplifican los grupos lógicos la creación de segmentos secuenciales?**
 Sí. Supongamos que intenta identificar este segmento de visitantes: **Visitantes que vieron la página A y luego vieron cada una de las páginas de B, C y D**
 
-Puede generar este segmento sin un contenedor de grupo lógico, pero es complejo y laborioso. Debe especificar cada secuencia de páginas que el visitante podría vista:
+Puede generar este segmento sin un contenedor de grupo lógico, pero es complejo y laborioso. Debe especificar cada secuencia de páginas que el visitante podría ver:
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
