@@ -5,22 +5,22 @@ translation-type: tm+mt
 source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 15%
+ht-degree: 87%
 
 ---
 
 
 # IP y dominios utilizados por Adobe Analytics
 
-Algunas configuraciones de cortafuegos bloquean direcciones IP que se originan en servidores de recopilación de datos de Adobe o servidores responsables de acceder a los datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización.
+La configuración de algunos cortafuegos bloquea las direcciones IP que se originan de los servidores de recopilación de datos de Adobe o de los servidores responsables de acceder a datos. Puede utilizar esta lista de intervalos para modificar la configuración del cortafuegos de su organización y permitir el acceso y enviar datos desde su organización.
 
 >[!IMPORTANT]
 >
->Aunque Adobe hace todo lo posible para mantener este documento actualizado, no puede garantizar que la lista de intervalos de IP permanezca igual. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP del Adobe o un proveedor de servicio de Internet deja de funcionar.
+>A pesar del esfuerzo que realiza por mantener actualizado este documento, Adobe no puede garantizar que la lista de intervalos de IP sea la misma. Los posibles cambios incluyen el crecimiento y la expansión del negocio, un registro de Internet requiere cambios en el espacio de direcciones IP del Adobe o un proveedor de servicio de Internet deja de funcionar.
 
 ## Permitir dominios de tecnología dependientes
 
-Adobe Analytics utiliza los siguientes hosts para mejorar el rendimiento y la experiencia del producto. Adobe recomienda agregar estos dominios a la lista de permitidos del cortafuegos para una experiencia óptima con Adobe Analytics.
+Adobe Analytics utiliza los siguientes hosts para mejorar el rendimiento y la experiencia del producto. Adobe recomienda añadir estos dominios a la lista de permitidos del cortafuegos para una experiencia óptima con Adobe Analytics.
 
 | Tecnología | Dominio |
 | --- | --- |
@@ -30,7 +30,7 @@ Adobe Analytics utiliza los siguientes hosts para mejorar el rendimiento y la ex
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
 | Gainsight | `esp.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
-| Almacenamiento de blob de Microsoft Azure | `awaascicdprodva7.blob.core.windows.net` |
+| Almacenamiento de Microsoft Azure Blob | `awaascicdprodva7.blob.core.windows.net` |
 | CDN de Microsoft Azure | `aauicdnva7.azureedge.net` |
 
 ## Todos los bloques de direcciones IP de Adobe Analytics
@@ -52,7 +52,7 @@ La siguiente tabla abarca todos los servidores de recopilación de datos estánd
 
 ## Bloques de direcciones IP de FTP y recopilación de datos
 
-Si su organización prefiere permitir intervalos de direcciones IP específicos, puede utilizar la siguiente tabla. Todos los rangos de esta sección se incluyen en la tabla anterior.
+Si su organización prefiere permitir intervalos específicos de direcciones IP, puede utilizar la siguiente tabla. Todos los intervalos de esta sección se incluyen en la tabla anterior.
 
 | Ubicación | Intervalo IP (Notación CIDR) |
 | --- | --- |
@@ -62,7 +62,7 @@ Si su organización prefiere permitir intervalos de direcciones IP específicos,
 | Dallas | `66.235.140.0/22` |
 | Dallas | `63.140.32.0/21` |
 | Dallas | `172.82.208.0/22` |
-| Hong Kong RAE de China | `66.117.24.0/22` |
+| RAE de Hong Kong de China | `66.117.24.0/22` |
 | Londres | `66.235.156.0/24` |
 | Londres | `66.235.148.0/23` |
 | Londres | `63.140.40.0/22` |
@@ -109,11 +109,11 @@ Si su organización prefiere permitir intervalos de direcciones IP específicos,
 | Virginia | `130.248.144.0/22` |
 | Virginia | `172.82.204.0/22` |
 | Virginia | `172.82.212.0/22` |
-| Virginia | Consulte Hosts de AWS |
+| Virginia | Consulte los hosts de AWS |
 
 ## Hosts de AWS
 
-Adobe Analytics utiliza Amazon Web Services como parte de su proceso de recopilación de datos. La siguiente tabla incluye hosts de AWS reservados para Adobe. Estos hosts **no están** incluidos en el rango de bloques acumulado anterior.
+Adobe Analytics utiliza Amazon Web Services como parte de su proceso de recopilación de datos. La siguiente tabla incluye hosts de AWS reservados para Adobe. Estos hosts **no** están incluidos en el intervalo de bloques acumulado anterior.
 
 | Ubicación | Host |
 | --- | --- |
@@ -136,7 +136,7 @@ Adobe Analytics utiliza Amazon Web Services como parte de su proceso de recopila
 | Singapur | `18.136.20.161` |
 | Singapur | `52.74.162.152` |
 | Tokio | `13.112.72.86` |
-| sexión | `18.178.74.225` |
+| Tokio | `18.178.74.225` |
 | Tokio | `18.179.88.228` |
 | Virginia | `3.220.129.153` |
 | Virginia | `18.211.197.67` |
