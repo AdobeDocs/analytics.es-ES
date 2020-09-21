@@ -4,11 +4,11 @@ subtopic: Data sources
 title: Integraci처n de transacciones y clientes
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Estas integraciones asocian los datos correspondientes a actividades sin conexi�
 
 El ID de transacci처n se puede activar y desactivar desde la interfaz de usuario, sin necesidad de recurrir al servicio de atenci처n al cliente:
 
-Go to **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > Select report suite > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL General Account Settings]**.
+Vaya a **[!UICONTROL Administraci처n]** > **[!UICONTROL Grupos de informes]** > Seleccionar grupo de informes > **[!UICONTROL Editar configuraci처n]** > **[!UICONTROL General]** > **[!UICONTROL Configuraci처n general de cuenta]**.
 
 <!-- 
 
