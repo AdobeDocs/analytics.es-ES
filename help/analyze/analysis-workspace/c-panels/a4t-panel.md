@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
 workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ Cada tabla improvisada muestra las siguientes columnas de métricas:
 | Métricas de normalización | Visitantes únicos, Visitas o Impresiones de actividad. |
 | Métrica de éxito | La métrica seleccionada en el generador |
 | Tasa de conversión | Métrica de éxito/métrica de normalización |
-| Alza | Compara la tasa de conversión de cada experiencia con la experiencia de control.<br>**Nota:** El alza es una &quot;métrica bloqueada&quot; de las experiencias de Destinatario; no se puede desglosar ni utilizar con otras dimensiones. |
+| Alza | Compara la tasa de conversión de cada experiencia con la experiencia de control.<br>**Nota:** El alza es una “métrica bloqueada” de las experiencias de Target, no se puede desglosar ni utilizar con otras dimensiones. |
 | Alza (inferior) | Representa la peor elevación que una experiencia de variante podría tener sobre el control. |
 | Alza (media) | Representa la elevación media que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %. Esto es “Alza” en Reports &amp; Analytics. |
 | Alza (superior) | Representa la mejor elevación que una experiencia de variante podría tener sobre el control. |
-| Confianza | La prueba T-test para estudiantes calcula el nivel de confianza, que indica la probabilidad de que los resultados se dupliquen si se vuelve a ejecutar la prueba. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar, si es necesario, desde Configuración de columna. <br>**Nota:** Confianza es una &quot;métrica bloqueada&quot; de las experiencias de Destinatario; no se puede desglosar ni utilizar con otras dimensiones. |
+| Confianza | La prueba T-test para estudiantes calcula el nivel de confianza, que indica la probabilidad de que los resultados se dupliquen si se vuelve a ejecutar la prueba. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar, si es necesario, desde Configuración de columna. <br>**Nota:** La confianza es una “métrica bloqueada” para las experiencias de Target; no se puede desglosar ni utilizar con otras dimensiones. |
 
 Como con cualquier panel de Analysis Workspace, puede continuar con el análisis agregando tablas y [visualizaciones](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) adicionales que le ayudarán a analizar sus actividades de Adobe Target.
 
@@ -61,7 +61,7 @@ Como con cualquier panel de Analysis Workspace, puede continuar con el análisis
 | ¿Por qué los visitantes únicos varían entre Target y Analytics? | [Obtenga más información](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sobre las variaciones de visitantes únicos entre productos. |
 | Cuando se aplica un segmento de visita para una actividad de Target específica en mi análisis, ¿por qué se devuelven experiencias no relacionadas? | La dimensión de A4T es una variable de lista, lo que significa que puede contener muchas actividades (y experiencias) a la vez. [Más información](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | ¿La métrica de confianza representa los pedidos extremos o aplica una corrección de Bonferroni para varias ofertas? | No. [Obtenga más información](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre cómo Analytics calcula la confianza. |
-| ¿Pueden utilizarse métricas de alza y confianza con otras dimensiones o desgloses? | El alza y la confianza son &quot;métricas bloqueadas&quot; a la dimensión Experiencias de Destinatario porque requieren un control y una variante para calcularlas a través de. Como tales, no pueden desglosarse ni utilizarse con otras dimensiones. |
+| ¿Pueden utilizarse métricas de alza y confianza con otras dimensiones o desgloses? | El alza y la confianza son “métricas bloqueadas” a la dimensión de experiencias de Target, porque requieren un control y una variante para calcularlas. De este modo, no pueden desglosarse ni utilizarse con otras dimensiones. |
 | ¿Cuándo se vuelven a calcular el alza y la confianza? | El alza y la confianza se vuelven a calcular cada vez que se ejecuta (o se vuelve a ejecutar) el panel, el intervalo de fechas del panel cambia o se aplica un segmento al panel o la tabla. |
 
 Para obtener más información sobre la creación de informes en Analytics for Target, consulte [Creación de informes de A4T](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/reporting.html)
