@@ -1,11 +1,11 @@
 ---
 title: Profundidad de la visita
 description: Número de visitas individuales en la visita.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ La dimensión “Profundidad de la visita” indica hasta dónde llega una visit
 
 Esta dimensión funciona de forma predeterminada para todas las implementaciones. Si un grupo de informes contiene datos, esta dimensión funciona.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Dimension items include the string `"Hit Depth"` followed by a number representing the number of hits into the visit. The dimension item of `"Hit Depth 1"` represents the first hit of the visit, while the dimension item `"Hit Depth 8"` represents the 8th hit of the visit.
+Los elementos de dimensión incluyen la cadena `"Hit Depth"` seguida de un número que representa el número de visitas individuales en la visita. El elemento de dimensión `"Hit Depth 1"` representa la primera visita individual de la visita, mientras que el elemento de dimensión `"Hit Depth 8"` representa la octava visita individual de la visita.
 
 ## Comparación con la profundidad de la visita
 
-La profundidad de la visita individual cuenta todos los tipos de visitas individuales, incluso vistas de página y las visitas de seguimiento de vínculos. Visit depth only increments for page view hits, _and_ the [Page](page.md) dimension item is not the same as the value on the previous page. La profundidad de la visita también es una dimensión basada en visitas, lo que significa que es el mismo valor para todas las visitas individuales de la visita. La siguiente tabla describe una visita de ejemplo y cómo considera la profundidad de la visita individual + la profundidad de la visita:
+La profundidad de la visita individual cuenta todos los tipos de visitas individuales, incluso vistas de página y las visitas de seguimiento de vínculos. La profundidad de la visita solo aumenta para las visitas individuales de vista de página _y_ el elemento de la dimensión [Página](page.md) no es el mismo que el valor de la página anterior. La profundidad de la visita también es una dimensión basada en visitas, lo que significa que es el mismo valor para todas las visitas individuales de la visita. La siguiente tabla describe una visita de ejemplo y cómo considera la profundidad de la visita individual + la profundidad de la visita:
 
 | Secuencia de páginas | Profundidad de la visita | ¿Cuenta la profundidad de la visita? | Profundidad de la visita |
 | --- | --- | --- | --- |
