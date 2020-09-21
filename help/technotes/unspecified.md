@@ -1,26 +1,26 @@
 ---
-description: Varios informes de Adobe Analytics pueden mostrar No especificado, Ninguno, Otro o Desconocido, según el informe específico visualizado. En general, este elemento de línea indica que la variable no se definió o que no estuvo disponible.
-title: No especificado, Ninguno, Otro y Desconocido en sistema de informes
-translation-type: tm+mt
+description: Varios informes de Adobe Analytics pueden mostrar No especificado, Ninguno, Otro o Desconocido según el informe específico que se visualice. En general, este elemento de línea indica que la variable no se definió o que no estuvo disponible.
+title: No especificado, Ninguno, Otro y Desconocido en los informes
+translation-type: ht
 source-git-commit: fc54cb27f365015b6c7716d68bfc4cbe80b40b8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
-# &quot;No especificado&quot;, &quot;Ninguno&quot;, &quot;Otro&quot; y &quot;Desconocido&quot; en sistema de informes
+# “No especificado”, “Ninguno”, “Otro” y “Desconocido” en los informes
 
 Varios informes de Adobe Analytics pueden mostrar “No especificado”, “Otro” o “Desconocido” según el informe específico que se visualice. En general, este elemento de línea indica que la variable no se definió o que no estuvo disponible. La siguiente es una lista completa de cómo cada informe puede tener alguno de estos elementos de línea.
 
-## &quot;No especificado&quot; (o &quot;Ninguno&quot;) en sistema de informes
+## “No especificado” (o “Ninguno”) en los informes
 
-“No especificado” es un elemento de línea bastante común en los informes. También se le conoce con frecuencia como &quot;Ninguno&quot;.
+“No especificado” es un elemento de línea bastante común en los informes. También se refiere a él con frecuencia como “Ninguno”.
 
 * **Un evento se activa sin una variable de conversión:** por ejemplo, un usuario visita su sitio y realiza un compra sin ningún valor eVar1. Si ve los pedidos mediante la dimensión eVar1, comprobará que no hay ningún valor al que atribuir este pedido. Por lo tanto, se atribuye automáticamente al estado “No especificado”.
 * **Datos no clasificados en los informes de clasificación:** cuando se ven los datos de clasificación, cualquier valor que no tenga datos asociados con esa clasificación en concreto vuelve al estado “No especificado”. Para resolver este problema, clasifique el valor de la variable principal.
-* **Informes de desglose en los que solo se activó una variable:** cuando se aplica un desglose a una variable, se debe contabilizar cada instancia de dicha variable. Si no se vio la segunda variable o si persistió desde una visita anterior, el elemento de dimensión será &quot;No especificado&quot;.
+* **Informes de desglose en los que solo se activó una variable:** cuando se aplica un desglose a una variable, se debe contabilizar cada instancia de dicha variable. Si no se vio la segunda variable o si persistió desde una visita anterior, el elemento de la dimensión será “No especificado”.
 * **Visitas que no son de móviles en los informes de dispositivos móviles:** todas las visitas que no sean de dispositivos móviles se muestran en los informes móviles como “No especificado” (“No móvil” en Reports and Analytics).
 
 ## “Otro” en un informe
