@@ -1,11 +1,11 @@
 ---
 title: Días transcurridos desde la última visita
 description: Número de días entre la visita actual y la última vez que la visitaron.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -24,6 +24,6 @@ Los usuarios noveles no se incluyen en esta dimensión.
 
 Esta dimensión funciona de forma predeterminada para todas las implementaciones. Si un grupo de informes contiene datos, esta dimensión funciona.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Los elementos de Dimension incluyen el número de días entre la última visita de un visitante y la visita actual. Each number of days is a separate dimension item, with `"Same day"` occurring where a visitor&#39;s last visit and the current hit happened on the same day.
+Los elementos de dimensión incluyen el número de días entre la última visita de un visitante y la visita actual. Cada número de días es un elemento de dimensión independiente, con `"Same day"` que se produce cuando la última visita de un visitante y la visita actual se produjeron el mismo día.
