@@ -6,6 +6,9 @@ title: Cookies
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+workflow-type: ht
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
 
@@ -25,12 +28,12 @@ Descripciones de los campos de la configuración global de cookies que se utiliz
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Visitor ID </td> 
-   <td colname="col2"> <p>Valor no repetido que representa a un cliente en ambos sistemas (conectado a Internet y sin conexión). </p> </td> 
+   <td colname="col1"> ID de visitante </td> 
+   <td colname="col2"> <p>Valor no repetido que representa a un cliente en ambos sistemas (en línea y sin conexión). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Espacio de nombres de visitantes </td> 
-   <td colname="col2"> <p>Variable que identifica el dominio con el cual se definen las cookies. </p> </td>
+   <td colname="col1"> Área de nombres del visitante </td> 
+   <td colname="col2"> <p>Variable para identificar el dominio con el que se configuran las cookies. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> Períodos del dominio </td> 
@@ -45,8 +48,8 @@ Descripciones de los campos de la configuración global de cookies que se utiliz
    <td colname="col2"> <p>Valor no repetido que representa una transacción en línea que dio lugar a una actividad sin conexión. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Vida de la cookie </td> 
-   <td colname="col2"> <p>Determina la duración de una cookie. </p> </td> 
+   <td colname="col1"> Duración de la cookie </td> 
+   <td colname="col2"> <p>Determina la vida útil de una cookie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
