@@ -51,7 +51,7 @@ Los usuarios que tengan derechos de administrador pueden convertir cualquier pro
 
 ## Plantillas estándar
 
-Al abrir un Workspace por primera vez, las plantillas aparecen en el panel izquierdo. Las plantillas de Analysis Workspace cubren casos de uso comunes. Están agrupadas por la vertical a la que pertenecen y se rellenan con distintas dimensiones, segmentos, métricas y visualizaciones, según el grupo de informes que haya seleccionado.
+Al abrir un espacio de trabajo por primera vez, las plantillas aparecen en el panel izquierdo. Las plantillas de Analysis Workspace cubren casos de uso comunes. Están agrupadas por la vertical a la que pertenecen y se rellenan con distintas dimensiones, segmentos, métricas y visualizaciones, según el grupo de informes que haya seleccionado.
 
 Puede utilizar estas plantillas rellenadas previamente tal cual, o puede adaptarlas a sus necesidades (mediante la adición o sustitución de métricas o visualizaciones, por ejemplo) y guardarlas con un nuevo nombre.
 
@@ -137,7 +137,7 @@ Esta plantilla le permite ver datos de rendimiento vitales entre dispositivos. S
 
 * **Nota especial para los miembros del gráfico de cooperación**: muestra qué parte del grupo de informes contiene visitantes en regiones donde se admite el gráfico de cooperación y en regiones donde no se admite.
 * **Identificación de los usuarios**: muestra la frecuencia con la que se identifican los visitantes del sitio mediante métodos basados en el análisis entre dispositivos.
-* **Medición del tamaño de la audiencia**: muestra una comparación de &#39;Dispositivos únicos&#39; con &#39;Personas&#39;. La proporción de estos dos números se conoce como &#39;compresión entre dispositivos&#39;, una métrica calculada visible en este panel. Esta métrica de compresión depende de una amplia gama de factores:
+* **Medición del tamaño de la audiencia**: muestra una comparación de &#39;Dispositivos únicos&#39; con &#39;Personas&#39;. La proporción de estos dos números se conoce como &#39;compresión entre dispositivos&#39;, una métrica calculada visible en este panel. Esta métrica de compresión depende de varios factores:
    * **Uso del gráfico de colaboración o del gráfico privado**: en términos generales, las organizaciones que utilizan la colaboración entre dispositivos tienden a ver mejores tasas de compresión que las organizaciones que utilizan el gráfico privado.
    * **Velocidad de inicio de sesión**: cuantos más usuarios inicien sesión en el sitio, más podrá Adobe identificar y unir a los visitantes entre dispositivos. Los sitios con una tasa de inicio de sesión baja también tienen tasas de compresión bajas.
    * **Cobertura de Experience Cloud ID**: solo se pueden vincular los visitantes con un ECID. Un porcentaje menor de visitantes que utilizan un ECID se correlaciona con tasas de compresión más bajas.
