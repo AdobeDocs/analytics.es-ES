@@ -1,11 +1,11 @@
 ---
 description: Importe datos de seguimiento de aplicaciones de terceros en Analytics.
 title: Introducción a Data Connectors de Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '976'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Por ejemplo, una integración de correo electrónico que desee utilizar un socio
 
 >[!IMPORTANT]
 >
->Terminaremos su vida útil con la tecnología del conector de datos de Adobe a mediados y finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
+>La vida útil de la tecnología de Adobe Data Connector finalizará de mediados a finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 **Requisitos del sistema**
 
@@ -86,8 +86,7 @@ Para implementar correctamente los segmentos de remarketing se deben cumplir las
 
 >[!NOTE]
 >
->Si el producto se define sin un evento asociado, el evento prodView se activa automáticamente.
-Si no se cumplen los requisitos anteriores, no se informa correctamente de los segmentos de remarketing correspondientes.
+>Si el producto se define sin un evento asociado, el evento prodView se activa automáticamente. Si no se cumplen los requisitos anteriores, no se informa correctamente de los segmentos de remarketing correspondientes.
 
 [!UICONTROL Abandonos del carro de compras]: se activa después de que el usuario añada un producto al carro de compras:
 
