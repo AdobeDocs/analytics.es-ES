@@ -1,8 +1,11 @@
 ---
 title: Seguimiento de correo electrónico externo
 description: Utilice Adobe Analytics para realizar un seguimiento del contenido del correo electrónico.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '736'
+ht-degree: 100%
 
 ---
 
@@ -34,6 +37,7 @@ Hay que seguir varios pasos en orden para mostrar correctamente los datos de an�
    * sc_cid=A1123A321 > &quot;A&quot; marca una campaña afiliada
    * sc_cid=EM033007 > &quot;EM&quot; marca una campaña de correo electrónico
    * sc_cid=GG987123 > &quot;GG&quot; significa Google y es una campaña de búsqueda de pago
+
    Póngase en contacto con Adobe [!DNL Customer Care] para obtener más información sobre cómo configurar y usar códigos de seguimiento.
 
 1. Agregue parámetros de cadena de consulta a los vínculos de correo electrónico HTML.
