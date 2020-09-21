@@ -17,7 +17,7 @@ ht-degree: 100%
 
 El sistema de fuentes de datos admite las siguientes dimensiones y métricas para los tipos de datos que se procesan como conversiones.
 
-## Conversión  Dimensiones y métricas {#section_FA1731B232B246DABEDF5A5D84159084}
+## Conversión Dimensiones y métricas {#section_FA1731B232B246DABEDF5A5D84159084}
 
 Cuando se indica un evento Vista, también hay que indicar la dimensión de datos (eVar) correspondiente. Por ejemplo, si se incluyen las vistas de eVar2, se deberá indicar la eVar2 con un valor. La cantidad de eventos personalizados y vistas de eVar que admite un grupo de informes depende del contrato y varía según la empresa.
 
