@@ -1,11 +1,11 @@
 ---
 description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como y guardar como plantilla.
 title: Guardar proyectos
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a70f2c6c8aecae9a8a4e22e460dd2b8e6b885db9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ Para guardar los cambios en un proyecto, vaya al menú **[!UICONTROL Proyecto]**
 
 ## Guardar opciones de proyecto {#Save}
 
-Hay diferentes acciones de guardado que puede realizar en el menú **[!UICONTROL Proyecto]** , según cómo desee acceder a su análisis en el futuro.
+Hay diferentes acciones de guardado que puede realizar en el menú **[!UICONTROL Proyecto]**, según cómo desee acceder a su análisis en el futuro.
 
 | Acción | Descripción |
 |---|---| 
-| **[!UICONTROL Guardar]** | Guarde los cambios realizados en el proyecto. Si se comparte el proyecto, destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre, una descripción (opcional) y etiquetas de adición (opcional). |
+| **[!UICONTROL Guardar]** | Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre, una descripción (opcional) y que añada etiquetas (opcional). |
 | **[!UICONTROL Guardar como]** | Cree un duplicado del proyecto. El proyecto original no se verá afectado. |
-| **[!UICONTROL Guardar como plantilla]** | Guarde el proyecto como una plantilla [](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) personalizada que esté disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
+| **[!UICONTROL Guardar como plantilla]** | Guarde el proyecto como una [plantilla personalizada](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) que esté disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
 
 ![](assets/save-project.png)
 
@@ -29,7 +29,7 @@ Hay diferentes acciones de guardado que puede realizar en el menú **[!UICONTROL
 
 Los proyectos existentes, es decir, los que se han guardado al menos una vez antes, se guardan automáticamente cada dos minutos en el equipo local. Los nuevos proyectos que nunca se han guardado no se guardan automáticamente.
 
-Hay algunos escenarios que pueden alejar a un proyecto de los cambios no guardados, lo que resulta en diferentes acciones disponibles.
+Hay algunas opciones, como las siguientes, que pueden evitar dejar cambios no guardados en un proyecto.
 
 ### Abrir otro proyecto de Workspace
 
@@ -37,7 +37,7 @@ Adobe proporciona la opción de guardar antes de salir de la página. Después d
 
 ![](assets/existing-save.png)
 
-### Desplazarse o cerrar una ficha
+### Salir o cerrar una pestaña
 
 El explorador advierte que se perderán los cambios no guardados. Puede elegir entre salir o cancelar.
 
@@ -45,7 +45,7 @@ El explorador advierte que se perderán los cambios no guardados. Puede elegir e
 
 ### El explorador se bloquea o se agota el tiempo de espera de la sesión
 
-Para los proyectos **existentes** , al volver a Workspace, el usuario verá un modo de recuperación **de** proyecto. Si selecciona &quot;Sí&quot;, se restaurará el proyecto a partir de la copia local guardada automáticamente. &quot;No&quot; elimina la copia local guardada automáticamente y abre la última versión guardada por el usuario del proyecto.
+Para los proyectos **existentes**, al volver a Workspace, el usuario verá un modo de **recuperación del proyecto**. Si selecciona “Sí”, se restaurará el proyecto a partir de la copia local guardada automáticamente. “No” elimina la copia local guardada automáticamente y abre la última versión guardada por el usuario del proyecto.
 
 ![](assets/project-recovery.png)
 
