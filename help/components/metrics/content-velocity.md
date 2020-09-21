@@ -1,18 +1,18 @@
 ---
 title: Velocidad del contenido
 description: La velocidad de contenido mide el impacto del contenido en el contenido descendente.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
 
 # Velocidad del contenido
 
-&#39;Velocidad de contenido&#39; es una plantilla de métrica calculada que ayuda a medir el impacto de una dimensión en el contenido de flujo descendente. Utiliza la fórmula `Page views (Visit participation) divided by Visits`.
+“Velocidad del contenido” es una plantilla de métrica calculada que le ayuda a medir el impacto de una dimensión en contenido descendente. Utiliza la fórmula `Page views (Visit participation) divided by Visits`.
 
 ![](assets/cont-velo-1.png)
 
