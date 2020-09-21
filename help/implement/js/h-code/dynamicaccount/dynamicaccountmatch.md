@@ -45,4 +45,4 @@ s.dynamicAccountMatch =  location.hostname + location.pathname + location.search
 ## Notas adicionales
 
 * Las páginas guardadas en una unidad de disco duro no tienen diferentes variables `location` definidas (por ejemplo, `location.host` está en blanco). Asegúrese de que `s_account` contiene un grupo de informes predeterminado.
-* Cuando se traduce una página con un motor de traducción web, como Google, la selección de cuentas dinámicas no funciona como está previsto. Para un seguimiento más preciso, rellene el lado del servidor de la variable  `s_account`.
+* Cuando se traduce una página con un motor de traducción web, como Google, la selección de cuentas dinámicas no funciona como está previsto. Para un seguimiento más preciso, rellene el lado del servidor de la variable `s_account`.
