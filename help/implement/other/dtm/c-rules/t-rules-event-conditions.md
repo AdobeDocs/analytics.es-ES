@@ -6,6 +6,9 @@ title: Crear condiciones para reglas basadas en eventos
 uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
