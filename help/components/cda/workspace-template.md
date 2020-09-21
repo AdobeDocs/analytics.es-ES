@@ -1,11 +1,11 @@
 ---
 title: Plantilla de CDA Workspace
 description: Describe cada campo de la plantilla CDA de Analysis Workspace.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '441'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe ofrece una plantilla para ver datos de rendimiento vitales entre dispositivos.
 
-1. Vaya a [experience.adobe.com](https://experiencecloud.adobe.com) e inicie sesión con sus credenciales de Adobe ID.
+1. Vaya a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) e inicie sesión con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrículas en la parte superior y, a continuación, haga clic en Analytics.
 1. Haga clic en [!UICONTROL Workspace] en la parte superior y, a continuación, en [!UICONTROL “Crear nuevo proyecto”].
 1. Localice la plantilla &quot;Journey IQ: análisis entre dispositivos&quot; y, a continuación, haga clic en [!UICONTROL Crear].
