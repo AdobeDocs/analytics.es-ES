@@ -1,11 +1,11 @@
 ---
 title: Búsqueda de atributos móviles
-description: Archivo de búsqueda de atributos móviles.
+description: Archivo de búsqueda para atributos móviles.
 translation-type: tm+mt
 source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
