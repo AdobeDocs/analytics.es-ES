@@ -1,11 +1,11 @@
 ---
 title: Detalles de canal de primer contacto
 description: Detalles del primer canal de marketing dentro de la caducidad de la participación del visitante.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ Si desea establecer esta dimensión en un valor específico, se requieren los si
 
 Si una visita posterior coincide con criterios de un canal de marketing diferente, esta dimensión no se sobrescribe con el nuevo canal de marketing.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Los elementos del Dimension dependen de la lista desplegable de valores del canal. Por ejemplo, si establece el valor del canal en &#39;Dirección URL de la página&#39;, los elementos de dimensión incluyen direcciones URL de la página en el sitio. Si establece el valor del canal en Dominio de referencia, los elementos de dimensión incluyen los dominios en los que se hizo clic el visitante para llegar al sitio. Esta dimensión agrega todos los elementos de dimensión detallados, independientemente del canal en el que se encuentren.
+Los elementos de dimensión dependen de la lista desplegable de valores de canal. Por ejemplo, si establece el valor del canal en “Dirección URL de la página”, los elementos de dimensión incluyen las direcciones URL de la página en el sitio. Si establece el valor del canal en Dominio de referencia, los elementos de dimensión incluyen los dominios en los que ha hecho clic el visitante para llegar al sitio. Esta dimensión agrega todos los elementos de dimensión de detalle, independientemente del canal en el que se encuentren.
 
 Adobe recomienda configurar los valores de canal relacionados con el canal de marketing para obtener más información sobre los detalles del canal.
