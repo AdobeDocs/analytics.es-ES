@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: Consejos y sugerencias de reglas de procesamiento
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '490'
+ht-degree: 100%
 
 ---
 
