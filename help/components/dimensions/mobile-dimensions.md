@@ -1,11 +1,11 @@
 ---
 title: Dimensiones móviles
 description: Dimensiones basadas en la cadena de usuario-agente del dispositivo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Estas dimensiones hacen referencia a reglas de búsqueda internas de Adobe. El v
 
 >[!NOTE]
 >
->Dimension items labeled `"None"` are non-mobile devices. Si desea un informe que solo incluya dispositivos móviles, arrastre la dimensión “Dispositivo móvil” al área de segmentos del lienzo del espacio de trabajo.
+>Los elementos de dimensión etiquetados como `"None"` son dispositivos no móviles. Si desea un informe que solo incluya dispositivos móviles, arrastre la dimensión “Dispositivo móvil” al área de segmentos del lienzo del espacio de trabajo.
 
 * **Compatibilidad con audio móvil**: Determina los formatos de archivo que puede reproducir el dispositivo. Los valores de ejemplo incluyen `"MP3"`, `"AAC"` y `"MIDI Monophonic"`. Los valores de esta dimensión no se excluyen mutuamente; una sola visita puede atribuirse a varios elementos de dimensión.
-* **Portadora** móvil: Si el agente de usuario contiene un dispositivo específico de portadora, el portador es un elemento de dimensión. Los valores de ejemplo incluyen `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` y `"Verizon"`.
+* **Operador de telefonía móvil**: Si el agente de usuario contiene un dispositivo específico de un operador de telefonía móvil, el operador es un elemento de dimensión. Los valores de ejemplo incluyen `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` y `"Verizon"`.
 * **Profundidad de color del dispositivo móvil**: Profundidad de color del dispositivo en bits.
-* **Compatibilidad con cookies móviles**: Determina si el dispositivo móvil admite cookies. Este informe no indica si el explorador acepta cookies. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
+* **Compatibilidad con cookies móviles**: Determina si el dispositivo móvil admite cookies. Este informe no indica si el explorador acepta cookies. Los elementos de dimensión incluyen `"Supported"`, `"Not supported"` y `"Unknown"`.
 * **Dispositivo móvil**: El dispositivo móvil que utiliza el visitante.
-* **Número de dispositivo móvil**: Determina si el dispositivo móvil transmite su número. Dimension items include `"Supported"`, `"Not supported"`, and `"Unknown"`.
+* **Número de dispositivo móvil**: Determina si el dispositivo móvil transmite su número. Los elementos de dimensión incluyen `"Supported"`, `"Not supported"` y `"Unknown"`.
 * **Tipo de dispositivo móvil**: Tipo de dispositivo móvil. Los valores de ejemplo incluyen `"Mobile phone"`, `"Tablet"`, `"Media player"` y `"Gaming console"`.
 * **DRM móvil**: Tipo de DRM que admite el dispositivo móvil. Los valores de ejemplo incluyen `"DRM OMA forward"`, `"DRM OMA combined delivery"` y `"DRM OMA separate delivery"`.
 * **Compatibilidad con la imagen del dispositivo móvil**: Tipos de imágenes que admite un dispositivo móvil. Los valores de ejemplo incluyen `"PNG"`, `"JPEG"` y `"GIF 87"`. Los valores de esta dimensión no se excluyen mutuamente; una sola visita puede atribuirse a varios elementos de dimensión.
