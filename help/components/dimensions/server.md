@@ -1,16 +1,16 @@
 ---
-title: Server
+title: Servidor
 description: El nombre del servidor.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
-# Server
+# Servidor
 
 La dimensión “Servidor” generalmente indica el nombre de host del sitio. Para los grupos de informes que combinan varios dominios o subdominios, esta dimensión es valiosa para ver qué dominios o subdominios funcionan mejor.
 
@@ -18,8 +18,8 @@ Esta dimensión está relacionada con las dimensiones de la sección [Página](p
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recupera datos de la [`server`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable [`server`](/help/implement/vars/page-vars/server.md).
+Esta dimensión recupera datos de la [`server`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable [`server`](/help/implement/vars/page-vars/server.md).
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Los elementos de Dimension incluyen servidores en el sitio. Su organización determina qué elementos de dimensión específicos desea utilizar. Algunas organizaciones utilizan `window.location.hostname`, mientras que otras formulan valores personalizados. Sea cual sea el método que utilice, asegúrese de que sea coherente y de que lo grabe en un [documento de diseño de solución](/help/implement/prepare/solution-design.md).
+Los elementos de dimensión incluyen los servidores del sitio. Su organización determina qué elementos de dimensión específicos desea utilizar. Algunas organizaciones utilizan `window.location.hostname`, mientras que otras formulan valores personalizados. Sea cual sea el método que utilice, asegúrese de que sea coherente y de que lo grabe en un [documento de diseño de solución](/help/implement/prepare/solution-design.md).
