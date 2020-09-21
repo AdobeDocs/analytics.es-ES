@@ -54,7 +54,7 @@ Algunas dimensiones y métricas no son compatibles con Data Warehouse.
 * Algunas dimensiones basadas en rutas, entre ellas:
    * Todas las dimensiones de entrada, excepto Página de entrada
    * Todas las dimensiones de salida, excepto Página de salida y Vínculo de salida
-   * Profundidad de visita
+   * Profundidad de la visita
    * Frecuencia de retorno
    * Tiempo previo al evento
    * Tiempo empleado en la página - Agrupado
