@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Eventos personalizados
 
-*Esta página de ayuda describe cómo funcionan los eventos personalizados como una métrica. Para obtener información sobre cómo funcionan los eventos personalizados como una variable de implementación, consulte[Información general sobre Eventos](/help/implement/vars/page-vars/events/events-overview.md)en la Guía del usuario de implementación.*
+*Esta página de ayuda describe cómo funcionan los eventos personalizados como una métrica. Para obtener información sobre cómo funcionan los eventos personalizados como una variable de implementación, consulte [Información general sobre Eventos](/help/implement/vars/page-vars/events/events-overview.md) en la Guía del usuario de implementación.*
 
 Las métricas de evento personalizadas muestran el número de visitas en las que se configuró un evento personalizado determinado en una solicitud de imagen. Estas métricas son vitales para muchas implementaciones, ya que proporcionan una perspectiva de los eventos específicos de cada organización.
 
