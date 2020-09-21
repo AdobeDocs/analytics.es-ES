@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 46%
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ La dimensión “Promedio de vistas de página por visita” muestra cuántas vi
 
 >[!TIP]
 >
->Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Si utiliza esta métrica por sí misma, obtendrá elementos de dimensión que contengan vistas de página de anomalías por visita, lo que generalmente no es valioso.
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. Si utiliza esta métrica por sí misma, obtendrá elementos de dimensión que contengan vistas de página de anomalías por visita, lo que generalmente no es muy útil.
 
 ## Cálculo de esta métrica
 
@@ -24,4 +24,4 @@ Esta métrica se calcula mediante la fórmula [`Page views`](page-views.md)` div
 
 ## Porcentajes superiores al 100%
 
-Esta métrica contiene con frecuencia porcentajes superiores al 100%. El denominador es el promedio de vistas de página por visita de toda la dimensión y el numerador es el promedio de vistas de página por visita del elemento de dimensión. Si el promedio de vistas de página por visita de toda la dimensión es menor que el promedio de vistas de página por visita de un elemento de dimensión determinado, verá porcentajes por encima del 100%. Al ordenar los informes de clasificación por esta métrica, se muestran los valores promedio de vistas de página por visita de la anomalía, lo cual generalmente no es muy útil. Adobe recomienda ordenar según otra métrica, como [Visitas](visits.md), en los informes de clasificación.
+Esta métrica contiene con frecuencia porcentajes superiores al 100%. El denominador es el promedio de vistas de página por visita de toda la dimensión, y el numerador es el promedio de vistas de página por visita del elemento de dimensión. Si el promedio de vistas de página por visita de toda la dimensión es menor que el promedio de vistas de página por visita de un elemento de dimensión determinado, verá porcentajes por encima del 100%. Al ordenar los informes de clasificación por esta métrica, se muestran los valores promedio de vistas de página por visita de la anomalía, lo cual generalmente no es muy útil. Adobe recomienda ordenar según otra métrica, como [Visitas](visits.md), en los informes de clasificación.
