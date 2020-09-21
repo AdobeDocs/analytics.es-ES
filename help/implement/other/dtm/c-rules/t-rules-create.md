@@ -6,6 +6,9 @@ title: Crear nueva regla
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: ht
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+workflow-type: ht
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -24,5 +27,6 @@ Instrucciones que describen cómo crear reglas en Dynamic Tag Management.
    * **Regla basada en eventos:** [Crear condiciones para reglas basadas en eventos](/help/implement/other/dtm/c-rules/t-rules-event-conditions.md)
    * **Regla de carga de página:** [Crear condiciones para reglas de carga de página](/help/implement/other/dtm/c-rules/t-rules-page-conditions.md)
    * **Regla de llamada directa:** [Crear condiciones para reglas de llamada directa](/help/implement/other/dtm/c-rules/t-rules-direct-conditions.md)
+
    El campo de categoría es solo para propósitos organizativos y no es necesario. Para eliminar las categorías, puede hacer clic en el icono X de la categoría.
 1. [Configurar acciones para que la condición active](/help/implement/other/dtm/c-rules/t-rules-actions.md).
