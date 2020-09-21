@@ -1,11 +1,11 @@
 ---
 title: Implementación con solicitudes de imagen codificadas
 description: Implemente Adobe Analytics con una etiqueta de imagen HTML (solicitud de imagen codificada)
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -37,18 +37,18 @@ A continuación se muestra un ejemplo de solicitud de imagen codificada mediante
 
 ## Solicitudes de imagen codificadas en Microsoft Outlook
 
-Dado que la mayoría de los mensajes de correo electrónico están basados en HTML, es posible rastrear los mensajes abiertos y enviar esos datos a Adobe Analytics. Si su organización opta por utilizar este método, tenga en cuenta lo siguiente:
+Dado que la mayoría de los mensajes de correo electrónico están basados en HTML, es posible rastrear los mensajes abiertos y enviar esos datos a Adobe Analytics. Si su organización decide utilizar este método, tenga en cuenta lo siguiente:
 
 * Cada procesamiento de correo electrónico puede incrementar una llamada al servidor facturable.
-* Solo se realiza el seguimiento de los clientes de correo electrónico que admiten HTML y permiten imágenes. Algunos clientes de correo electrónico, como Microsoft Outlook, bloquean las imágenes externas de forma predeterminada. Estos correos electrónicos no se rastrean hasta que el destinatario opta por descargar imágenes externas.
+* Solo se realiza el seguimiento de los clientes de correo electrónico que admiten HTML y permiten imágenes. Algunos clientes de correo electrónico, como Microsoft Outlook, bloquean las imágenes externas de forma predeterminada. Estos correos electrónicos no se rastrean hasta que el destinatario decide descargar las imágenes externas.
 
 Para componer un correo electrónico de Outlook que incluya una solicitud de imagen:
 
 1. Abra un editor HTML. Si no hay un editor HTML disponible, también funciona un editor de texto sin formato.
-2. En un nuevo archivo HTML, inserte una `<img>` etiqueta de solicitud de imagen codificada en una `<body>` etiqueta .
+2. En un nuevo archivo HTML, inserte una etiqueta `<img>` de solicitud de imagen codificada en una etiqueta `<body>`.
 3. Guarde el archivo HTML.
 4. Abra Microsoft Outlook y redacte un correo electrónico.
-5. Vaya a la ficha Insertar y haga clic en **Adjuntar archivo**. Seleccione el archivo HTML de solicitud de imagen.
+5. Vaya a la pestaña Insertar y haga clic en **Adjuntar archivo**. Seleccione el archivo HTML de solicitud de imagen.
 6. Haga clic en el menú emergente situado junto a Insertar y seleccione **Insertar como texto**. Si hace clic en el botón Insertar sin el menú emergente, el archivo HTML se convierte en un archivo adjunto, que no funciona.
 
 El correo electrónico no parece cambiar, ya que la solicitud de imagen es un píxel transparente de 1x1. Si desea ver la solicitud de imagen con fines de prueba, modifique el archivo HTML para incluir un borde, texto adicional u otro contenido.
