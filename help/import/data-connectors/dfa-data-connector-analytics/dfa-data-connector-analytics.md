@@ -4,11 +4,11 @@ keywords: DFA
 title: Data Connectors de DFA para Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1731'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->La tecnología del conector de datos de Adobe estará al final de su vida útil desde mediados hasta finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
+>La vida útil de la tecnología de Adobe Data Connector finalizará de mediados a finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 En un mercado en línea actual que se caracteriza por ser cada vez más complejo y competitivo, los anunciantes y las agencias en línea deben mejorar continuamente sus conocimientos acerca del entorno de marketing en línea y su retorno en gastos de publicidad. Aunque los anunciantes, las agencias, y los publicistas poseen herramientas individuales para ayudarles a lograr estos objetivos, agregar datos manualmente desde sistemas de datos y procesos diferentes puede dañar gravemente la eficacia de las campañas de marketing en línea, dando como resultado un rendimiento de la campaña menos que óptimo, discrepancias de datos y confusión.
 
