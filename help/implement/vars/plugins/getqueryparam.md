@@ -210,18 +210,18 @@ El valor de 300 se obtiene del valor del parámetro pos en la variable s.testURL
 
 * Compatible con el código H y con AppMeasurement (requiere `s.pt` con AppMeasurement).
 
-### 2.4
+### 2,4
 
 * Se ha agregado el parámetro `h`, que permite que el código encuentre los parámetros de cadena de consulta que se encuentren después del carácter hash (`#`)
 
-### 2.3
+### 2,3
 
 * Se ha corregido un problema de regresión en el que el complemento solo funcionaba cuando el hash aparecía después del código de seguimiento
 
-### 2.2
+### 2,2
 
 * Ahora elimina los caracteres hash (y todo lo que haya a continuación) del valor devuelto
 
-### 2.1
+### 2,1
 
 * Compatible con código H.10
