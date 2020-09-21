@@ -24,7 +24,7 @@ Los productos de Adobe Analytics ofrecen varias métricas y dimensiones de [!UIC
 | [!UICONTROL Tiempo promedio empleado en el sitio] (segundos) | Representa el tiempo total durante el cual los visitantes interactúan con un elemento de dimensión específico, por secuencia con un elemento de dimensión. No se limita al promedio del “sitio”, como su nombre sugiere. Consulte la sección “Cómo se calcula el tiempo empleado” para obtener más información sobre las secuencias.<br>**Nota:** Es muy probable que, en el nivel de elemento de dimensión, esta métrica difiera del “Tiempo empleado por visita” debido a diferencias en el denominador del cálculo. | Analysis Workspace, Reports &amp; Analytics (se muestra en minutos), Report Builder (se muestra en minutos), Ad Hoc Analysis |
 | [!UICONTROL Tiempo promedio empleado en la página] | Métrica obsoleta.<br> En su lugar, se recomienda el uso de “Tiempo promedio empleado en el sitio” si se necesita el tiempo promedio para un elemento de dimensión. | Report Builder (cuando hay una dimensión en la solicitud) |
 | [!UICONTROL Duración total de la sesión], también conocida como [!UICONTROL Duración de la sesión anterior] | Solo SDK de aplicaciones móviles. <br>Se determina para la sesión anterior la próxima vez que se inicia la aplicación. Esta métrica se calcula en segundos y no cuenta cuando la aplicación se encuentra en segundo plano, solo cuando está en uso. Es una métrica de nivel de sesión.<br>Por ejemplo: instalamos la aplicación ABC, la iniciamos, la utilizamos durante 2 minutos y la cerramos. No se envía ningún dato acerca de la duración de la sesión. La próxima vez que la iniciemos, el valor de [!UICONTROL Duración total de la sesión] se establecerá en 120. | Analysis Workspace, Reports &amp; Analytics, Report Builder, interfaz de usuario de Mobile Services |
-| [!UICONTROL Longitud promedio de la sesión] (móvil)  | *Duración total de la sesión (inicios y primeros arranques)*<br> solo SDK de la aplicación móvil. Es una métrica de nivel de sesión. | Report Builder, interfaz de usuario de Mobile Services, Ad Hoc Analysis |
+| [!UICONTROL Longitud promedio de la sesión] (móvil) | *Duración total de la sesión (inicios y primeros arranques)*<br> solo SDK de la aplicación móvil. Es una métrica de nivel de sesión. | Report Builder, interfaz de usuario de Mobile Services, Ad Hoc Analysis |
 
 ## Dimensiones de “Tiempo empleado”
 
@@ -113,9 +113,9 @@ Supongamos que el siguiente conjunto de llamadas de servidor es para un único v
 | **Tiempo de visita transcurrido (en segundos)** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **Segundos empleados** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **Tipo de visita** | Página | Vínculo | Página | Página | Página | Página | Página |
-| **Nombre de la página** | Página principal | - | Product | Página principal | Página principal   (recarga) | Carro de compras | Confirmación del pedido |
+| **Nombre de la página** | Página principal | - | Product | Página principal | Página principal (recarga) | Carro de compras | Confirmación del pedido |
 |  |  |  |  |  |  |  |  |
-| **prop1** | A   (configurado) | A (propagarse hacia delante) | sin configurar | B (configurado) | B (configurado) | A(configurado) | C   (configurado) |
+| **prop1** | A (configurado) | A (propagarse hacia delante) | sin configurar | B (configurado) | B (configurado) | A(configurado) | C (configurado) |
 | **Segundos empleados por prop1** | 30 | 50 | - | 10 | 40 | 60 | - |
 |  |  |  |  |  |  |  |  |
 | **eVar1** | Rojo (configurado) | Rojo (conservado) | (caducado) | Azul (configurado) | Azul (configurado) | Azul (conservado) | Rojo (configurado) |
