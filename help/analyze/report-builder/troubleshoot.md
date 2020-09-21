@@ -6,8 +6,8 @@ uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
 source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -58,7 +58,7 @@ Los siguientes factores pueden aumentar la complejidad de la solicitud y dar com
    | Granularidad | Agregado | Por hora<ul><li>Diario</li><li>Semanal</li><li>Mensual</li><li>Trimestral</li><li>Anual</li></ul> |
    | Número de entradas | Conjunto de datos pequeño | Conjunto de datos grande |
 
-* **Tiempo** de programación: Programación escalonada durante un período de 24 horas (ver tabla a continuación). Programar marcadores, tableros y libros de Report Builder existentes con muy poca diferencia horaria puede causar retrasos. Programar solicitudes más grandes y más complejas por la mañana temprano para permitir que las extracciones manuales y la actualización se produzcan a lo largo del día.
+* **Horas de programación**: Escalonar la programación en un periodo de 24 horas (ver la siguiente tabla). Programar marcadores, tableros y libros de Report Builder existentes con muy poca diferencia horaria puede causar retrasos. Programar solicitudes más grandes y más complejas por la mañana temprano para permitir que las extracciones manuales y la actualización se produzcan a lo largo del día.
 
    | Hora de programación | 1 a. m. - 2 a. m. | 2 a. m. - 7 a. m. | 7 a. m. - 6 p. m. | 6 p. m. - Medianoche |
    |--- |--- |--- |--- |--- |
