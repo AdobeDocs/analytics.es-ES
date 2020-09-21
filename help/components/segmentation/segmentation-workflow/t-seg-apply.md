@@ -3,9 +3,9 @@ description: Cómo aplicar uno o más segmentos a un informe desde el carril del
 title: Seleccionar y aplicar segmentos
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Cómo aplicar uno o más segmentos a un informe desde el carril del segmento.
 
    >[!NOTE]
    >
-   >Puede aplicar más de un segmento a un informe (lo que se conoce como apilamiento de segmentos). Cuando se aplican varios segmentos, los criterios de cada uno de ellos se combinan utilizando un operador &quot;y&quot;, y se aplican a continuación. Puede apilar segmentos sin límite.
+   >Puede aplicar más de un segmento a un informe (lo que se conoce como apilamiento de segmentos). Cuando se aplican varios segmentos, los criterios de cada uno de ellos se combinan utilizando un operador &quot;and&quot;, y se aplican a continuación. Puede apilar segmentos sin límite.
 
    >[!NOTE]
    >
