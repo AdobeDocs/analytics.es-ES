@@ -91,15 +91,15 @@ Este código evita que el mismo valor se pase a s.eVar2 más de una vez seguidas
 
 ## Historial de versiones
 
-### 2.01
+### 2,01
 
 * Se ha corregido un problema con la escritura de cookies.
 
-### 2.0
+### 2,0
 
 * Versión puntual (compilada de nuevo, con un tamaño de código más pequeño).
 
-### 1.1
+### 1,1
 
 * Se ha agregado la opción de elegir minutos o días para la caducidad mediante el parámetro `t`.
 * Se ha corregido el ámbito de la variable `k` utilizada para restringirla solo al complemento. Este cambio evita posibles interferencias con otro código de la página.
