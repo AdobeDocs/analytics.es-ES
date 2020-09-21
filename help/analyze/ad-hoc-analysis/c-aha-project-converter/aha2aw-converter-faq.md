@@ -3,10 +3,10 @@ description: 'null'
 title: Preguntas frecuentes del Conversor de proyectos
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 98%
+source-wordcount: '933'
+ht-degree: 93%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>Diagrama de puntos</b>: en proyectos exportados en Analysis Workspace, el eje y se establece como primera columna, el eje x como segunda y el diámetro como tercera. </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>Tablas de visitas en el orden previsto</b>: para mostrar las tablas de abandono o continuación, haga clic con el botón derecho en el punto de comprobación y seleccione una opción de desglose. </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>Intervalos de fechas de nivel de informe de visitas en el orden previsto</b>: no se han aplicado los intervalos de fechas de informe personalizado a las visualizaciones de visitas en el orden previsto. </li> 
-     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Informe de flujo</b>: el flujo se moverá a un panel separado para conservar la segmentación y los intervalos de fechas. </li> 
+     <li id="li_1FF5B3FD9E424E7190AF03FD4DD9D654"><b>Informe de flujo</b>: el flujo se moverá a un panel separado para conservar la segmentación y los intervalos de fechas. Las instancias de repetición se pueden incluir o excluir en Configuración de flujo. </li> 
      <li id="li_BE8F8F6EC2EA49E18EF52539BC1700E0"><b>Canal de conversión</b>: se convertirá en una tabla de formato libre porque no es compatible con Analysis Workspace. La visualización de visitas en el orden previsto es una sustitución recomendada para el canal de conversión, pero se comportará de forma ligeramente diferente. </li> 
     </ul> </td> 
   </tr> 
@@ -74,14 +74,14 @@ ht-degree: 98%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">Los segmentos son internos en el proyecto convertido (no son públicos). Puede elegir hacerlos públicos, como se muestra a continuación: <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Los segmentos del nivel de espacio de trabajo de Ad Hoc Analysis se aplican al nivel de proyecto/espacio de trabajo en Workspace. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Los segmentos del nivel de informe de Ad Hoc Analysis se aplican al nivel de columna de tabla en Workspace. </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Los segmentos de tabla de Ad Hoc Analysis se aplican al nivel de columna en Workspace. </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Los segmentos de tabla de Ad Hoc Analysis se aplican en el nivel de columna de tabla en Workspace. </li> 
     </ul> <p>Puede editar segmentos en el <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html"  >Generador de segmentos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Cómo se convierten los intervalos de fechas?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Los intervalos de fechas de “Último día X” en Ad Hoc Analysis <i>excluyen</i> hoy, mientras que Analysis Workspace <i>sí lo incluye</i>. Así, es posible que los intervalos de fechas como “últimos 90 días” no coincidan exactamente entre herramientas. Utilice intervalos de fechas personalizados para recuperar el mismo periodo de tiempo en Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Los intervalos de fechas de “Último día X” en Ad Hoc Analysis <i>excluyen</i> hoy, mientras que Analysis Workspace <i>sí lo incluye</i>. Por lo tanto, es posible que los intervalos de fechas como 'Últimos 90 días' no coincidan exactamente entre las herramientas. En su lugar, aplique los intervalos de 'Últimos X <b>días </b> completos' en Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">El intervalo de fechas del nivel de espacio de trabajo de Ad Hoc Analysis se aplica al nivel de proyecto/espacio de trabajo en Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">El intervalo de fechas del nivel de informe de Ad Hoc Analysis se aplica al nivel de columna de tabla en Workspace. </li> 
     </ul> <p>Puede editar sus intervalos de fechas personalizados en <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Componentes</span> &gt; <span class="uicontrol">Intervalos de fechas</span>. </p> </td> 
