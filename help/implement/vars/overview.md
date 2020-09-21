@@ -2,11 +2,11 @@
 title: Información general sobre variables, funciones, métodos y complementos
 description: Descubra qué variables puede incluir en los datos que envía a Adobe para mejorar los informes.
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
