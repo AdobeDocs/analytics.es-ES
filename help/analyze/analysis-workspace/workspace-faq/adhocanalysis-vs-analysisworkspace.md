@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
@@ -60,8 +60,8 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
     </ol> <p><a href="https://www.youtube.com/watch?v=QlUCdQDnni4"  > Vídeo: Uso de segmentos en Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=YjaRlJoQqRA"  > Vídeo: Aplicación de segmentos a un panel</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Crear segmentos temporales ("ad-hoc") </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. Además, se pueden añadir filtros desplegables en la zona de colocación del panel para crear muchos segmentos temporales a la vez, lo que permite interacciones de proyecto controladas. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vídeo: Segmentos específicos en Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vídeo: Filtros desplegables en Analysis Workspace</a> </p> </td> 
+   <td colname="col1"> <p>Crear segmentos temporales (“específicos”) </p> </td> 
+   <td colname="col2"> <p>Puede <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >crear segmentos instantáneos temporales (“específicos”)</a> en Analysis Workspace arrastrando elementos de dimensión a la zona de colocación de segmentos en la parte superior del panel. Además, se pueden añadir filtros desplegables en la zona de colocación del panel para crear muchos segmentos temporales a la vez, lo que permite interacciones de proyecto controladas. </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > Vídeo: Segmentos específicos en Analysis Workspace</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > Vídeo: Filtros desplegables en Analysis Workspace</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Elegir intervalos y granularidades de fechas </p> </td> 
@@ -77,9 +77,9 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
    <td colname="col2"> <p>Las <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  >visualizaciones de visitas en el orden previsto</a> están disponibles en Analysis Workspace en el menú de componente Visualización. De forma similar a los Ad Hoc Analysis: </p> 
     <ol id="ol_625FF45AED4E403DBEE1A906282E8531"> 
      <li id="li_7B6C5F2682774641B82D2021786AE5C4">Las visitas en el orden previsto pueden abarcar una visita o visitante, y puede incluirse “Todas las visitas” de manera opcional. Las visitas en el orden previsto se pueden clasificar rápidamente en tendencias mediante el menú que se abre al hacer clic con el botón derecho. </li> 
-     <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Los elementos dimensionales pueden conectarse mediante un operador O (como en los grupos) y el embudo puede utilizar eventos. </li> 
+     <li id="li_CFBDDAB8E96A445DB0624640AEB25994">Los elementos dimensionales pueden conectarse mediante un operador OR (como en los grupos) y el embudo puede utilizar eventos. </li> 
      <li id="li_6638E6A62C744A27B2C066E5F9EC62C0">Los pasos siguientes de las visitas en el orden imprevisto y en el orden previsto también se pueden representar mediante el menú que se abre al hacer clic con el botón derecho. </li> 
-    </ol> <p>Además, las visitas en el orden previsto permiten en Analysis Workspace el uso de <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensiones mixtas</a> dentro de los pasos, una mejora respecto a los Ad Hoc Analysis. Las dimensiones mixtas dentro de los pasos se gestionan mediante un operador Y. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Vídeo: Visitas en el orden previsto y embudos</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Vídeo: Uso de múltiples dimensiones en Visitas en el orden previsto</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Vídeo: Comparación de segmentos en Visitas en el orden previsto</a> </p> </td> 
+    </ol> <p>Además, las visitas en el orden previsto permiten en Analysis Workspace el uso de <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md"  > dimensiones mixtas</a> dentro de los pasos, una mejora respecto a los Ad Hoc Analysis. Las dimensiones mixtas dentro de los pasos se gestionan mediante un operador AND. </p> <p><a href="https://www.youtube.com/watch?v=VcrfHSyIoj8"  > Vídeo: Visitas en el orden previsto y embudos</a> </p> <p><a href="https://www.youtube.com/watch?v=EeLV366pQag"  > Vídeo: Uso de múltiples dimensiones en Visitas en el orden previsto</a> </p> <p><a href="https://www.youtube.com/watch?v=H-oT3QZlyZQ"  > Vídeo: Comparación de segmentos en Visitas en el orden previsto</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Examinar el flujo (rutas) </p> </td> 
@@ -87,7 +87,7 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">Un flujo puede abarcar una visita o visitante. </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">Las estadísticas clave se muestran como porcentajes de vistas de ruta. </li> 
-    </ul> <p>Además, Flujo permite el uso de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensiones mixtas</a> y la capacidad de hacer clic con el botón derecho y crear un segmento, una mejora sobre los Ad Hoc Analysis. </p> <p>Actualmente, Flujo en Analysis Workspace <b>no permite</b> a los usuarios elegir un evento de éxito. </li> 
+    </ul> <p>Además, Flujo permite el uso de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > dimensiones mixtas</a> y la capacidad de hacer clic con el botón derecho y crear un segmento, una mejora sobre los Ad Hoc Analysis. </p> <p>Actualmente, Flujo en Analysis Workspace <b>no</b> permite a los usuarios elegir un evento de éxito. </li> 
     </ul> <p><a href="https://www.youtube.com/watch?v=3R1HTM7y_RM"  > Vídeo: Descripción general de la visualización de flujo</a> </p> <p><a href="https://www.youtube.com/watch?v=m1Wa6inC1rQ"  > Vídeo: Flujo multidimensional</a> </p> <p><a href="https://www.youtube.com/watch?v=XrJoNQy6RaQ"  > Vídeo: Creación de segmentos a partir de flujos</a> </p> </td> 
   </tr> 
   <tr> 
@@ -100,11 +100,11 @@ Analysis Workspace aporta mucha de la funcionalidad de los Ad Hoc Analysis al fl
   </tr> 
   <tr> 
    <td colname="col1"> <p>Seleccionar grupos de informes </p> </td> 
-   <td colname="col2"> <p>Se pueden agregar varios grupos de informes a un solo proyecto en Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Vídeo: Varios grupos de informes en Workspace</a> </p></td> 
+   <td colname="col2"> <p>Se pueden añadir varios grupos de informes a un solo proyecto en Analysis Workspace.  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > Vídeo: Varios grupos de informes en Workspace</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attribution IQ </p> </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> en Analysis Workspace permite agregar muchos tipos nuevos de modelos de atribución a las Tablas improvisadas, Visualizaciones y Métricas calculadas. Incluye más de 10 modelos algorítmicos y basados en reglas. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vídeo: Attribution IQ en tablas improvisadas</a> </p> </td> 
+   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/attribution/overview.md"  > Attribution IQ</a> en Analysis Workspace permite agregar muchos tipos nuevos de modelos de atribución a las Tablas improvisadas, Visualizaciones y Métricas calculadas. Incluye más de 10 modelos algorítmicos y basados en reglas. </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > Vídeo: Attribution IQ en tablas de forma libre</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
