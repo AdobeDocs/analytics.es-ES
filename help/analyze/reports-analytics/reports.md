@@ -1,11 +1,11 @@
 ---
 title: Informes
 description: Dimensiones y métricas que utiliza Reports & Analytics para cada informe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -88,19 +88,19 @@ Contiene informes sobre informes móviles heredados. Estos informes basan sus da
 
 Contiene informes que le permiten ver los datos de rutas de los visitantes.
 
-* Flujo de página siguiente: Utiliza un informe de flujo en el elemento de dimensión de página principal. Las vistas de ruta son similares a las [instancias](/help/components/metrics/instances.md). Puede cambiar el elemento de dimensión del informe. Un informe similar en Analysis Workspace está disponible mediante una [visualización de flujo](../analysis-workspace/visualizations/c-flow/flow.md).
-* Página siguiente: Toma el elemento de dimensión de página principal y muestra las páginas siguientes a las que fueron los visitantes.
-* Previous page flow: Uses a flow report on the top page dimension item A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
-* Página anterior: Toma el elemento de dimensión de página principal y muestra los visitantes de páginas anteriores.
-* Visitas en el orden previsto: Permite seleccionar elementos de dimensión de página en los pasos y muestra la proporción de personas que siguieron y no siguieron esa ruta. Un informe similar en Analysis Workspace está disponible mediante una [visualización de abandonos](../analysis-workspace/visualizations/fallout/fallout-flow.md).
+* Flujo de página siguiente: Utiliza un informe de flujo en el elemento de dimensión de página superior. Las vistas de ruta son similares a las [instancias](/help/components/metrics/instances.md). Puede cambiar el elemento de dimensión del informe. Un informe similar en Analysis Workspace está disponible mediante una [visualización de flujo](../analysis-workspace/visualizations/c-flow/flow.md).
+* Página siguiente: Toma el elemento de dimensión de página principal y muestra las páginas siguientes a las que se dirigieron los visitantes.
+* Flujo de página anterior: Utiliza un informe de flujo en el elemento de dimensión de la página principal Un informe similar en Analysis Workspace está disponible mediante una [visualización de flujo](../analysis-workspace/visualizations/c-flow/flow.md).
+* Página anterior: Toma el elemento de dimensión de la página principal y muestra las páginas de las que proceden los visitantes.
+* Abandonos: Permite seleccionar elementos de dimensión de página por pasos y muestra la proporción de personas que siguieron esa ruta y las que la abandonaron. Un informe similar en Analysis Workspace está disponible mediante una [visualización de abandonos](../analysis-workspace/visualizations/fallout/fallout-flow.md).
 * Rutas completas: Muestra rutas individuales como elementos de dimensión. Se ha eliminado en Analysis Workspace; utilice la [Visualización de flujo](../analysis-workspace/visualizations/c-flow/flow.md) en su lugar.
 * PathFinder: Proporciona varios tipos de informes que permiten analizar las rutas (se ha eliminado en Analysis Workspace).
 * Longitud de ruta: Utiliza la dimensión de [profundidad de la visita](/help/components/dimensions/visit-depth.md).
 * Análisis de página
-   * Resumen de página: Toma el elemento de dimensión de página principal y muestra una vista de tendencias. También muestra los puntos de entrada, las páginas anteriores, los puntos de salida y las páginas siguientes para ese elemento de dimensión de página principal.
+   * Resumen de página: Toma el elemento de dimensión de página superior y muestra una vista de tendencias. También muestra los puntos de entrada, las páginas anteriores, los puntos de salida y las páginas siguientes para ese elemento de dimensión de página principal.
    * Recargas: Utiliza la dimensión [Página](/help/components/dimensions/page.md) con la métrica [Recargas](/help/components/metrics/reloads.md).
    * Tiempo empleado en la página: Utiliza la dimensión [Tiempo empleado en la página: agrupado](/help/components/dimensions/time-spent-on-page.md).
-   * Clics hasta la página: Toma el elemento de dimensión de página principal y muestra la cantidad de clics que se necesitaron para llegar a esa página en una visita determinada.
+   * Clics hasta la página: Toma el elemento de dimensión de página principal y muestra el número de clics que se necesitaron para llegar a esa página en una visita determinada.
 * Entradas y salidas
    * Páginas de entrada: Utiliza la dimensión [Páginas de entrada](/help/components/dimensions/entry-dimensions.md).
    * Páginas de entrada originales: Utiliza la dimensión [Página de entrada original](/help/components/dimensions/entry-dimensions.md).
@@ -171,7 +171,7 @@ Contiene informes sobre quién visita el sitio.
    * Estados Unidos: Utiliza la dimensión [Estados estadounidenses](/help/components/dimensions/us-states.md).
    * DMA de EE. UU.: Utiliza la dimensión [DMA de EE. UU.](/help/components/dimensions/us-dma.md)
 * Idiomas: Utiliza la dimensión [Idioma](/help/components/dimensions/language.md).
-* Husos horarios: Utiliza la dimensión de zona horaria (se ha eliminado en Analysis Workspace). Los elementos de Dimension son el desplazamiento GMT de la visita.
+* Husos horarios: Utiliza la dimensión de zona horaria (se ha eliminado en Analysis Workspace). Los elementos de dimensión son el desajuste GMT de la visita.
 * Dominio: Utiliza la dimensión [Dominio](/help/components/dimensions/domain.md).
 * Dominio de nivel superior: Utiliza la dimensión de dominio de nivel superior (se ha eliminado en Analysis Workspace). Agrupa la dimensión [Dominios](/help/components/dimensions/domain.md) en categorías de nivel superior, generalmente por país del dominio.
 * Tecnología: Carpeta que contiene informes sobre lo que el visitante utilizó para acceder al sitio.
@@ -184,12 +184,12 @@ Contiene informes sobre quién visita el sitio.
    * Profundidad de color del monitor: Utiliza la dimensión [Profundidad de color](/help/components/dimensions/color-depth.md).
    * Resolución del monitor: Utiliza la dimensión [Resolución del monitor](/help/components/dimensions/monitor-resolution.md).
    * Java: Utiliza la dimensión [Java habilitado](/help/components/dimensions/java-enabled.md).
-   * JavaScript: Utiliza la dimensión JavaScript habilitado (se ha eliminado en Analysis Workspace). Los elementos de Dimension son &#39;Habilitado&#39;, &#39;Deshabilitado&#39; o &#39;Desconocido&#39;, según si el explorador tiene JavaScript habilitado.
-   * Versión de JavaScript: utiliza la dimensión Versión de JavaScript (se ha eliminado en Analysis Workspace). Los elementos de Dimension muestran la versión de JavaScript que utiliza el explorador.
+   * JavaScript: Utiliza la dimensión JavaScript habilitado (se ha eliminado en Analysis Workspace). Los elementos de dimensión son “Habilitado”, “Deshabilitado” o “Desconocido”, según si el explorador tiene JavaScript habilitado.
+   * Versión de JavaScript: utiliza la dimensión Versión de JavaScript (se ha eliminado en Analysis Workspace). Los elementos de dimensión muestran la versión de JavaScript que utiliza el explorador.
    * Cookies: Utiliza la dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md).
    * Tipos de conexión: Utiliza la dimensión [Tipo de conexión](/help/components/dimensions/connection-type.md).
    * Operador de telefonía móvil: Utiliza la dimensión [Operador de telefonía móvil](/help/components/dimensions/mobile-dimensions.md).
-* Estado del visitante: Utiliza la dimensión Estado (se ha eliminado en Analysis Workspace). Dimension items originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
+* Estado del visitante: Utiliza la dimensión Estado (se ha eliminado en Analysis Workspace). Los elementos de dimensión proceden de la variable [`state`](../../implement/vars/page-vars/state.md).
 * Código postal del visitante: Utiliza la dimensión [Código postal](/help/components/dimensions/zip-code.md).
 
 ## Conversión personalizada
@@ -204,7 +204,7 @@ Contiene informes específicos de la implementación. Los informes de tráfico p
 
 Contiene informes que involucran [Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-* Informe de descripción general de canal: Informe personalizado específico de Reports &amp; Analytics. Utiliza canales de marketing como elementos de dimensión, con métricas que utilizan atribución de primer o último toque.
+* Informe de descripción general de canal: Informe personalizado específico de Reports &amp; Analytics. Utiliza canales de marketing como elementos de dimensión, con métricas que utilizan atribución de primer o último contacto.
 * Canal de primer contacto: Utiliza la dimensión [Canal de primer contacto](/help/components/dimensions/first-touch-channel.md).
 * Detalles del canal de primer contacto: Utiliza la dimensión [Detalles del canal de primer contacto](/help/components/dimensions/first-touch-detail.md).
 * Canal de último contacto: Utiliza la dimensión [Canal de último contacto](/help/components/dimensions/last-touch-channel.md).
