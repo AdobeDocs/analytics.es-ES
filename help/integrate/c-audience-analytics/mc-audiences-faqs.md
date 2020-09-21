@@ -5,6 +5,9 @@ title: Preguntas frecuentes
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1098'
+ht-degree: 100%
 
 ---
 
@@ -113,7 +116,7 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
  </tbody> 
 </table>
 
-## Preguntas más frecuentes acerca del reenvío de servidor (SSF) {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## Preguntas más frecuentes acerca del reenvío de lado del servidor (SSF) {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
@@ -128,7 +131,7 @@ Respuestas a preguntas que podría tener al implementar Audience Analytics.
  </tbody> 
 </table>
 
-Para saber más sobre este tema, consulte [Preguntas frecuentes sobre el reenvío de servidor](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+Para saber más sobre este tema, consulte [Preguntas frecuentes sobre el reenvío de lado del servidor](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
 
 ## Preguntas más frecuentes generales {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
