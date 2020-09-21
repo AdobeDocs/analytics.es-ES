@@ -1,9 +1,9 @@
 ---
 title: Adobe Experience Cloud Debugger antiguo
 description: Instale una versión anterior de Adobe Experience Cloud Debugger. Este depurador inspecciona las etiquetas de Analytics, Target, Advertising Cloud, Identity Service, DTM y Launch.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
