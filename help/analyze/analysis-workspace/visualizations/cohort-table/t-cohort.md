@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Ejecutar un informe de análisis de cohorte
 topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '950'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Cree una cohorte y ejecute un informe de [!UICONTROL análisis de cohorte] en An
 
 | Elemento | Descripción |
 |--- |--- |
-| **[!UICONTROL Criterios de inclusión]** | Puede aplicar hasta 10 segmentos de inclusión y hasta 3 métricas de inclusión. La métrica indica qué factores colocan a un usuario en una cohorte determinada. Por ejemplo, si la métrica de inclusión es Órdenes, solo se incluirán en la cohorte inicial aquellos usuarios que hayan realizado una orden durante el intervalo de tiempo del análisis de cohorte.<br>El operador predeterminado entre métricas es Y, aunque se puede cambiar a O. Además, se puede añadir filtrado numérico a estas métricas. Por ejemplo: &quot;Visitas >= 1&quot;.</br> |
+| **[!UICONTROL Criterios de inclusión]** | Puede aplicar hasta 10 segmentos de inclusión y hasta 3 métricas de inclusión. La métrica indica qué factores colocan a un usuario en una cohorte determinada. Por ejemplo, si la métrica de inclusión es Órdenes, solo se incluirán en la cohorte inicial aquellos usuarios que hayan realizado una orden durante el intervalo de tiempo del análisis de cohorte.<br>El operador predeterminado entre métricas es AND, aunque se puede cambiar a OR. Además, se puede añadir filtrado numérico a estas métricas. Por ejemplo: &quot;Visitas >= 1&quot;.</br> |
 | **[!UICONTROL Criterios de regreso]** | Puede aplicar hasta 10 segmentos de regreso y hasta 3 métricas de regreso. La métrica indica si se ha retenido al usuario (retención) o no (pérdida). Por ejemplo, si la métrica de regreso es Vistas de vídeo, solo se representarán como retenidos aquellos usuarios que hayan visto vídeos durante periodos de tiempo siguientes (después del periodo en el que se agregaron a una cohorte). Otra métrica que cuantifica la retención es Visitas. |
 | **[!UICONTROL Granularidad]** | La granularidad de tiempo de Día, Semana, Mes, Trimestre o Año. |
 | **[!UICONTROL Tipo]** | **[!UICONTROL Retención]**: una cohorte de retención mide en qué medida las cohortes de visitantes regresan a su propiedad a lo largo del tiempo. Esta es la cohorte estándar que siempre hemos tenido y que indica un comportamiento de regreso y repetición por parte del usuario. Una cohorte de [!UICONTROL retención] se indica con el color verde en la tabla.<br>**[!UICONTROL Pérdida ]**: una cohorte de pérdida (también conocida como “desgaste” o “abandono”) mide cómo las cohortes de visitantes se alejan de su propiedad a lo largo del tiempo. Pérdida = 1 - Retención.[!UICONTROL La pérdida] es una buena medida de la permanencia y una oportunidad, ya que muestra con qué frecuencia no regresan los clientes. Puede utilizar la pérdida para analizar e identificar áreas en las que centrarse: ¿qué segmentos de cohorte deben recibir más atención? Una cohorte de [!UICONTROL pérdida] se indica con el color rojo en la tabla (como los abandonos en una visualización de **[!UICONTROL  Flujo ]**).</br> |
