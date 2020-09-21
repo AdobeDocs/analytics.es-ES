@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
 workflow-type: tm+mt
 source-wordcount: '612'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 96%
    + [Frecuencia de retorno](dimensions/return-frequency.md)
    + [Motor de búsqueda](dimensions/search-engine.md)
    + [Palabra clave de búsqueda](dimensions/search-keyword.md)
-   + [Server](dimensions/server.md)
+   + [Servidor](dimensions/server.md)
    + [Visitas de página única](dimensions/single-page-visits.md)
    + [Sección del sitio](dimensions/site-section.md)
    + [Tiempo previo al evento](dimensions/time-prior-to-event.md)
@@ -209,9 +209,9 @@ ht-degree: 96%
 + Análisis entre dispositivos {#cda}
    + [Información general de análisis entre dispositivos](cda/overview.md)
    + [Vinculación basada en el campo](cda/field-based-stitching.md)
-   + [Gráfico de dispositivos](cda/device-graph.md)
+   + [Gráfico del dispositivo](cda/device-graph.md)
    + [Configuración de análisis entre dispositivos](cda/setup.md)
-   + [Cómo se reproduce el trabajo](cda/replay.md)
+   + [Cómo funcionan las reproducciones](cda/replay.md)
    + [Plantilla de CDA Workspace](cda/workspace-template.md)
    + [Preguntas más frecuentes sobre análisis entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
@@ -220,8 +220,8 @@ ht-degree: 96%
    + [Administrador de alertas](c-alerts/alert-manager.md)
    + [Alertas inteligentes: Casos de uso](c-alerts/alerts-use-cases.md)
 + Clasificaciones {#classifications}
-   + [Información general sobre las clasificaciones](classifications/c-classifications.md)
-   + Classifications importer {#classifications-importer}
+   + [Resumen general de las clasificaciones](classifications/c-classifications.md)
+   + Importador de clasificaciones {#classifications-importer}
       + [Resumen del importador de clasificaciones](classifications/importer/c-working-with-saint.md)
       + [Archivos de datos de clasificación](classifications/importer/c-saint-data-files.md)
       + [Eliminar datos de clasificación](classifications/importer/t-delete-classification-data.md)
