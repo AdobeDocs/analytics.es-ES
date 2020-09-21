@@ -8,8 +8,8 @@ breadcrumb-url: /docs/analytics/analyze/home.html
 translation-type: tm+mt
 source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 98%
    + Curar y compartir proyectos {#curate-share}
       + [Depurar proyectos de Workspace](analysis-workspace/curate-share/curate.md)
       + [Compartir proyectos de Workspace](analysis-workspace/curate-share/share-projects.md)
-      + [Creación de vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
+      + [Crear vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
       + [Proyectos de Workspace solo de vista](analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](analysis-workspace/curate-share/download-send.md)
       + [Uso compartido y programación de archivos de proyecto](analysis-workspace/curate-share/send-schedule-files.md)
@@ -241,7 +241,7 @@ ht-degree: 98%
       + [Prácticas recomendadas](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Solución de problemas de integración de Power BI](report-builder/c-publish-power-bi/troubleshooting.md)
       + [Paquetes de contenido de Adobe Analytics para Power BI](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [macros de Visual Basic](report-builder/vba.md)
+   + [Macros de Visual Basic](report-builder/vba.md)
    + [Solución de problemas del Report Builder](report-builder/troubleshoot.md)
    + [Preguntas más frecuentes sobre Report Builder](report-builder/faq.md)
 + Activity Map {#activity-map}
