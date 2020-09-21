@@ -4,8 +4,11 @@ keywords: Virtual Report Suite
 title: Crear un grupo de informes virtuales
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '360'
+ht-degree: 100%
 
 ---
 
@@ -18,8 +21,8 @@ Antes de empezar a crear grupos de informes virtuales, hay que tener algunos asp
 * Los grupos de informes virtuales no se pueden compartir. El uso compartido se realiza mediante grupos/permisos.
 * En el Administrador de grupos de informes virtuales solo puede ver sus propios grupos. Debe hacer clic en “Mostrar todos” para ver los de otros usuarios.
 
-1. Vaya a **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**.
-1. Haga clic en **[!UICONTROL Add +]**.
+1. Vaya a **[!UICONTROL Componentes]** > **[!UICONTROL Grupos de informes virtuales]**.
+1. Haga clic en **[!UICONTROL Agregar +]**.
 
    ![](assets/new_vrs.png)
 
@@ -59,7 +62,7 @@ Antes de empezar a crear grupos de informes virtuales, hay que tener algunos asp
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos </td> 
-   <td colname="col2"> <p>Solo tiene que añadir un segmento o <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segmentation-workflow/seg-build.html"  >apilar otros</a>. </p> <p> <p>Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción Y. No es posible cambiarlo a una instrucción OR. </p> </p> <p>Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. </p> </td> 
+   <td colname="col2"> <p>Solo tiene que añadir un segmento o <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/segmentation-workflow/seg-build.html"  >apilar otros</a>. </p> <p> <p>Nota: Al apilar dos segmentos, se unen de manera predeterminada con una instrucción AND. No es posible cambiarlo a una instrucción OR. </p> </p> <p>Si intenta eliminar o modificar un segmento que se utilice en un grupo de informes virtuales, se muestra un error. </p> </td> 
   </tr> 
  </tbody> 
 </table>
