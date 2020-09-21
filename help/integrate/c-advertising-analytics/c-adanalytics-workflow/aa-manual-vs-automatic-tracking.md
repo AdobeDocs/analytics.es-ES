@@ -1,9 +1,9 @@
 ---
 description: Con el seguimiento se determina cómo la implementación de Adobe Analytics realiza un seguimiento de los datos del motor de búsqueda. Este paso es necesario para incrementar adecuadamente los datos de Adobe Analytics con los datos del motor de búsqueda.
 title: 'Seguimiento: Modo manual y modo automático'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Tenga en cuenta que para configurar una cuenta de motor de búsqueda en “Modo 
 >
 >Obtenga más información sobre si debe agregar el parámetro `s_kwcid` a la [directiva de seguridad de contenido](https://docs.adobe.com/content/help/es-ES/id-service/using/reference/csp.html).
 
-## Modo de seguimiento manual  {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
+## Modo de seguimiento manual {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
 En el modo manual, debe especificar cómo el proceso de integración de datos de Advertising Analytics debe tratar los datos del motor de búsqueda.
 
