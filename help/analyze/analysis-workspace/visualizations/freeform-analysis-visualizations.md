@@ -2,11 +2,11 @@
 description: Obtenga información sobre las visualizaciones y los ajustes de visualización en Analysis Workspace.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Vídeo de YouTube: [tipos de visualización en Analysis Workspace](https://www.y
 | [Diagrama de dispersión](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Muestra la relación entre los elementos de dimensión y hasta tres métricas. |
 | [Número de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | En función de la celda seleccionada, esta visualización muestra los totales y los resúmenes. |
 | [Cambio de resumen](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | En función de las celdas seleccionadas, esta visualización compara las celdas entre sí. |
-| [Texto](/help/analyze/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario al Workspace. |
+| [Texto](/help/analyze/analysis-workspace/visualizations/text.md) | Le permite agregar texto definido por el usuario al espacio de trabajo. |
 | [Gráfico de rectángulos](/help/analyze/analysis-workspace/visualizations/treemap.md) | Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados. |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | Le permite arrastrar hasta tres segmentos (de Componentes) y una métrica para generar un diagrama de Venn. |
 
