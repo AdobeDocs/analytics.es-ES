@@ -5,8 +5,8 @@ short-title: Analytics documentation updates
 translation-type: tm+mt
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 
 | Fecha | Descripción |
 |---|---|
-| 21 de julio de 2020 | Principales actualizaciones y revisiones de Análisis [entre dispositivos](/help/components/cda/overview.md). Se añadió la vinculación [basada en campos](/help/components/cda/field-based-stitching.md). |
+| 21 de julio de 2020 | Principales actualizaciones y revisiones de [Análisis entre dispositivos](/help/components/cda/overview.md). Se añadió [Vinculación basada en el campo](/help/components/cda/field-based-stitching.md). |
 | 28 de abril de 2020 | Documentación añadida para la métrica [Velocidad de contenido](/help/components/metrics/content-velocity.md). |
 | 12 de marzo de 2020 | Actualizaciones añadidas a los [segmentos de Publish en Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 de marzo de 2020 | Actualizaciones a la latencia de vinculación CDA. |
