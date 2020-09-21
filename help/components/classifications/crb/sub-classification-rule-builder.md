@@ -1,9 +1,9 @@
 ---
 description: No se puede combinar el Generador de reglas de clasificación con subclasificaciones.
 title: Subclasificaciones y el Generador de reglas
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
