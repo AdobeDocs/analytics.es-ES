@@ -5,8 +5,8 @@ uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
 source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
