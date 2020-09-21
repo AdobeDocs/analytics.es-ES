@@ -4,8 +4,11 @@ keywords: Virtual Report Suite
 title: Flujo de trabajo del grupo de informes virtuales
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ Los grupos de informes virtuales se crean en el Administrador de grupos de infor
 
 Una vez creado, el grupo de informes virtuales se trata como un grupo de informes base en toda la interfaz de usuario y, por lo general, lo admiten las funciones más habituales. Por ejemplo, los grupos de informes virtuales aparecen en los selectores de grupos de informes y se pueden seleccionar individualmente como cualquier otro grupo de informes.
 
-Haga clic en el icono de información junto al nombre del grupo de informes para  [ver información sobre él](/help/components/vrs/c-workflow-vrs/vrs-view.md).
+Haga clic en el icono de información junto al nombre del grupo de informes para [ver información sobre él](/help/components/vrs/c-workflow-vrs/vrs-view.md).
 
 ![](assets/step3_icon.png) Configure los [permisos de grupo](/help/components/vrs/c-workflow-vrs/vrs-create.md) para él.
 
