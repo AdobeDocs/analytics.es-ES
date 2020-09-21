@@ -29,7 +29,7 @@ Descripciones de los campos de Dynamic Tag Management de seguimiento de vínculo
  <tbody> 
   <tr> 
    <td colname="col1"> Habilitar ClickMap </td>
-   <td colname="col2"> <p>Determina si se recopilarán los datos del mapa de clics de visitantes. </p> <p>Consulte  <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
+   <td colname="col2"> <p>Determina si se recopilarán los datos del mapa de clics de visitantes. </p> <p>Consulte <a href="../../../vars/config-vars/trackinlinestats.md">trackInlinestats</a>. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> Rastrear vínculos de descarga </td>
