@@ -4,8 +4,8 @@ description: La URL de la página.
 translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,6 +32,6 @@ Adobe recomienda configurar una eVar en la cadena concatenada `window.location.h
 
 Si desea que la eVar coincida exactamente con la dimensión “URL de página” en Data Warehouse, puede utilizar [variables dinámicas](/help/implement/vars/page-vars/dynamic-variables.md) y establecer la eVar en `D=g` en cada visita.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Los elementos de Dimension incluyen las direcciones URL de las páginas del sitio.
+Los elementos de dimensión incluyen las direcciones URL de las páginas del sitio.
