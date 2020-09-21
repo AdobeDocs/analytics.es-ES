@@ -66,7 +66,7 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante `"user@example
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i> (es decir, &lt;eVar2&gt;…&lt;/eVar2&gt;) </p> </td> 
-   <td colname="col3"> <p>Nombre de la eVar de conversión. Se pueden usar hasta 75 eVars (  <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Puede indicar el nombre de la eVar (eVar12) o un nombre descriptivo ("Campaña publicitaria 3"). </p> </td> 
+   <td colname="col3"> <p>Nombre de la eVar de conversión. Se pueden usar hasta 75 eVars ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>Puede indicar el nombre de la eVar (eVar12) o un nombre descriptivo ("Campaña publicitaria 3"). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Events </p> </td> 
@@ -79,7 +79,7 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante `"user@example
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i> (es decir, &lt;hier2&gt;…&lt;/hier2&gt;) </p> </td> 
-   <td colname="col3"> <p>Nombre de la jerarquía. Se pueden usar hasta cinco jerarquías (  <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Puede indicar el nombre predeterminado de la jerarquía (<span class="varname">hier2</span>) o un nombre descriptivo (<span class="term">Barcelona </span>). </p> </td> 
+   <td colname="col3"> <p>Nombre de la jerarquía. Se pueden usar hasta cinco jerarquías ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>Puede indicar el nombre predeterminado de la jerarquía (<span class="varname">hier2</span>) o un nombre descriptivo (<span class="term">Barcelona </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -117,14 +117,14 @@ Pongamos como ejemplo que un usuario que tiene el ID de visitante `"user@example
    <td colname="col3"> <p>Dirección URL de la página (por ejemplo, <code>https://www.example.com/index.html)</code>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>informe de productos </p> </td> 
-   <td colname="col2"> <p>informe de productos </p> </td> 
+   <td colname="col1"> <p>products </p> </td> 
+   <td colname="col2"> <p>products </p> </td> 
    <td colname="col3"> <p>Lista de productos (por ejemplo, <code> "Sports;Ball;1;5.95"</code>). Puede contener un valor máximo de 4096 bytes por fila.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i> (es decir, &lt;prop2&gt;…&lt;/prop2&gt;) </p> </td> 
-   <td colname="col3"> <p>Cadena de número de propiedad (por ejemplo,  <span class="term"> Sección de deportes </span>). </p> </td> 
+   <td colname="col3"> <p>Cadena de número de propiedad (por ejemplo, <span class="term"> Sección de deportes </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
