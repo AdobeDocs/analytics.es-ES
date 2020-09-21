@@ -5,6 +5,9 @@ topic: Admin tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '107'
+ht-degree: 100%
 
 ---
 
