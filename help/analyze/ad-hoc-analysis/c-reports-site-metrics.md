@@ -6,8 +6,8 @@ uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
 source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Muestran información cuantitativa sobre el sitio web, tal como la cantidad de v
 
 Muestran información cuantitativa sobre el sitio web, tal como la cantidad de veces que los visitantes miraron determinadas páginas, la cantidad de compras totales realizadas desde páginas específicas, el momento de ingreso de los visitantes y datos cuantitativos similares. Cada uno de estos informes es una métrica que se puede incluir en otros informes basados en elementos.
 
-Los informes de métricas son  de tendencias con el tiempo. se les pueden aplicar diversos niveles de granularidad, como “hora” y “día de la semana”. También permiten analizar el tiempo empleado en el sitio, las compras, los ingresos y métricas similares.
+Los informes de métricas son de tendencias con el tiempo. se les pueden aplicar diversos niveles de granularidad, como “hora” y “día de la semana”. También permiten analizar el tiempo empleado en el sitio, las compras, los ingresos y métricas similares.
 
 En el menú [!UICONTROL Métricas del sitio] se encuentran disponibles los siguientes informes.
 
@@ -40,7 +40,7 @@ Es un informe de tendencia que muestra el número de veces que se vieron las pá
 
 ## Informe de visitas {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
-Muestra la cantidad de visitas realizadas al sitio web durante un período determinado. Una *visita* es una secuencia de vistas de páginas. La visita comienza cuando el visitante carga una página y termina después de 30 minutos de inactividad. Una visita puede durar varias horas, en tanto el visitante cargue por lo menos una página antes de que expire el plazo de inactividad. Una visita no es necesariamente lo mismo que una sesión de navegador. Si un visitante cierra el navegador, lo vuelve a abrir y regresa al sitio cinco minutos después, se reconoce como continuación de la visita original. Esto también significa que si un visitante se queda mirando una página durante 35 minutos, la visita se cierra y se procesa; si luego hace clic y abre otra página, se considerará que es el comienzo de otra visita. El seguimiento de las visitas se realiza mediante cookies. Las visitas se terminan después de 12 horas de actividad continua.
+Muestra la cantidad de visitas realizadas al sitio web durante un período determinado. Una *visita* es una secuencia de vistas de páginas. La visita comienza cuando el visitante carga una página y termina después de 30 minutos de inactividad. Una visita puede durar varias horas, en tanto el visitante cargue por lo menos una página antes de que expire el plazo de inactividad. Una visita no es necesariamente lo mismo que una sesión de navegador. Si un visitante cierra el navegador, lo vuelve a abrir y regresa al sitio cinco minutos después, se reconoce como continuación de la visita original. Esto también significa que si un visitante se queda mirando una página durante 35 minutos, la visita se cierra y se procesa; si luego hace clic y abre otra página, se considerará que es el comienzo de otra visita. Las visitas se rastrean mediante cookies. Las visitas se terminan después de 12 horas de actividad continua.
 
 <!-- 
 
