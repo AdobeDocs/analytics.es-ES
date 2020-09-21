@@ -1,24 +1,24 @@
 ---
 title: Promedio de tiempo en el sitio
-description: Cantidad promedio de tiempo que un elemento de dimensión dado existió entre visitas individuales.
+description: Cantidad promedio de tiempo que un elemento de dimensión en concreto existió entre visitas.
 translation-type: tm+mt
 source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 60%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Promedio de tiempo en el sitio
 
-La métrica &#39;Tiempo promedio en el sitio&#39; muestra la cantidad de tiempo que transcurrió entre las visitas para un elemento de dimensión determinado. Esta métrica es útil cuando desea ver el tiempo promedio empleado para elementos de dimensión específicos. También puede analizar la tendencia de esta métrica con el paso del tiempo para ver cómo cambia el tiempo empleado en general. Esta métrica se muestra con el formato `HH:MM:SS`.
+La métrica “Promedio de tiempo en el sitio” muestra la cantidad de tiempo que transcurrió entre visitas individuales para un elemento de dimensión determinado. Esta métrica es útil cuando desea ver el tiempo promedio empleado para elementos de dimensión específicos. También puede analizar la tendencia de esta métrica con el paso del tiempo para ver cómo cambia el tiempo empleado en general. Esta métrica se muestra con el formato `HH:MM:SS`.
 
 Esta métrica está relacionada con la dimensión [Tiempo empleado por visita](../dimensions/time-spent-per-visit.md).
 
 ## Cálculo de esta métrica
 
-Para un elemento de dimensión determinado, tome la marca de tiempo de cada visita individual donde exista ese elemento de dimensión. Compare esta visita individual con la marca de tiempo de la siguiente en la visita general. Si la visita individual no tiene una visita posterior, no la incluya en esta métrica. De todo el tiempo empleado para el elemento de dimensión, divida todos por el número de &quot;secuencias&quot; para ese elemento de dimensión. Una &quot;secuencia&quot; es donde un elemento de dimensión es el mismo para una o varias visitas individuales consecutivas. Este número resultante es la métrica que se muestra en los informes.
+Para un elemento de dimensión determinado, tome la marca de tiempo de cada visita individual donde exista ese elemento de dimensión. Compare esta visita individual con la marca de tiempo de la siguiente en la visita general. Si la visita individual no tiene una visita posterior, no la incluya en esta métrica. De todo el tiempo empleado para el elemento de dimensión, divida todos por el número de “secuencias” para ese elemento de dimensión. Una secuencia es la coincidencia de un elemento de dimensión para una o varias visitas individuales consecutivas. Este número resultante es la métrica que se muestra en los informes.
 
 Por ejemplo:
 
@@ -35,7 +35,7 @@ Por ejemplo:
 | `12:25:40` | `Product page A` |
 
 
-If you want average time on site for the dimension item `Product page A`, first take the amount of time lapsed between hits for that dimension:
+Si desea ver el tiempo promedio en el sitio para el elemento de dimensión `Product page A`, primero debe usar la cantidad de tiempo transcurrido entre las visitas individuales para esa dimensión:
 
 * **12:04:20 - 12:05:30** = 1 minuto y 10 segundos
 * **12:05:30 - 12:07:00** = 1 minuto y 30 segundos
@@ -65,7 +65,7 @@ La métrica “Promedio de tiempo en el sitio” utiliza secuencias no interrump
 | `12:02:10` | `Home` | `Foxes` |
 | `12:02:20` | `(None; exit link click)` | `(None; exit link click)` |
 
-Calculating average time on site for the dimension item `Home` would use the following calculation:
+Para calcular el tiempo promedio en el sitio para el elemento de la dimensión `Home` se utilizaría el siguiente cálculo:
 
 ```text
 (30 + 10) / 2 = 20 seconds average time on site
@@ -81,6 +81,6 @@ Dado que había una única secuencia en la dimensión de desglose, se utiliza un
 
 ## Porcentajes superiores al 100%
 
-Esta métrica contiene con frecuencia porcentajes superiores al 100%. El denominador es el tiempo promedio de toda la dimensión en el sitio y el numerador es el tiempo promedio del elemento de dimensión en el sitio. Si el tiempo promedio en el sitio de toda la dimensión es menor que el tiempo promedio en el sitio de un elemento de dimensión determinado, verá porcentajes superiores al 100%. Al ordenar los informes de clasificación por esta métrica, se muestra el tiempo promedio de anomalías en los valores del sitio, lo cual generalmente no es muy útil. Adobe recomienda ordenar según otra métrica, como [Visitas](visits.md), en los informes de clasificación.
+Esta métrica contiene con frecuencia porcentajes superiores al 100%. El denominador es el tiempo promedio de toda la dimensión en el sitio y el numerador es el tiempo promedio del elemento de la dimensión en el sitio. Si el tiempo promedio en el sitio de toda la dimensión es menor que el tiempo promedio en el sitio de un elemento de dimensión determinado, verá porcentajes superiores al 100%. Al ordenar los informes de clasificación por esta métrica, se muestra el tiempo promedio de anomalías en los valores del sitio, lo cual generalmente no es muy útil. Adobe recomienda ordenar según otra métrica, como [Visitas](visits.md), en los informes de clasificación.
 
 Consulte [Información general sobre el tiempo empleado](time-spent.md) para saber más detalles sobre el tiempo invertido.
