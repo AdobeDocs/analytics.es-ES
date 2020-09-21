@@ -1,5 +1,5 @@
 ---
-title: state
+title: Estado
 description: Rellene el “Informe de estado del visitante” en Reports and Analytics.
 translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
