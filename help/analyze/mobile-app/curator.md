@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -149,7 +149,7 @@ Para compartir el informe de valoración con un usuario ejecutivo:
 
 Una vez que haya compartido un informe de valoración, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el informe de valoración mediante el Generador de informes de valoración, estos se aplicarán automáticamente al informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
+Si agrega nuevos componentes al informe de valoración, es posible que desee volver a compartirlo (marque la opción **Compartir componentes incrustados**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.
 
 ## Configuración de los usuarios ejecutivos de la aplicación
 
@@ -163,7 +163,7 @@ Para ayudar a los usuarios ejecutivos a acceder en la aplicación a los informes
 * Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics
 * Haya creado y compartido correctamente los informes de valoración móviles de los usuarios
 * Los usuarios tengan acceso a Analysis Workspace y al grupo de informes en el que se basa el informe de valoración
-* Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Note that you can select an option when sharing your Scorecards to **Share embedded components**.
+* Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Tenga en cuenta que, al compartir los informes de valoración, puede seleccionar la opción **Compartir los componentes incrustados**.
 
 ### Ayudar a los usuarios ejecutivos de la aplicación
 
