@@ -1,11 +1,11 @@
 ---
 title: Países
 description: El país desde donde se originó la visita.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ Esta dimensión hace referencia a las reglas de búsqueda internas de Adobe. El 
 >
 >Si su organización sigue estrictas normas de privacidad en las que [ofuscar la dirección IP](/help/admin/admin/general-acct-settings-admin.md) no es suficiente, puede solicitar que se deshabiliten los datos de geolocalización por completo. Póngase en contacto con el Servicio de atención al cliente con el ID del grupo de informes y solicite desactivar “Geografía” para el grupo de informes.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Entre los temas de Dimension figuran países de todo el mundo. Los valores de ejemplo incluyen `"United States"`, `"United Kingdom"` o `"India"`.
+Los elementos de dimensión incluyen países de todo el mundo. Los valores de ejemplo incluyen `"United States"`, `"United Kingdom"` o `"India"`.
 
 ## Diferencias entre la ubicación real y la notificada
 
