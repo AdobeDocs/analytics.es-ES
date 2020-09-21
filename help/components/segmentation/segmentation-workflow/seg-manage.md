@@ -3,9 +3,9 @@ description: El Administrador de segmentos ofrece numerosas maneras de conservar
 title: Administración de segmentos
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '512'
 ht-degree: 100%
 
