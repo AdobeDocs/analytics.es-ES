@@ -1,11 +1,11 @@
 ---
 title: Trimestre
 description: El trimestre en el que se produjo la métrica.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '99'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ La dimensión “Trimestre” indica el trimestre en el que se produjo una métr
 
 Esta dimensión funciona de forma predeterminada para todas las implementaciones. Si un grupo de informes contiene datos, esta dimensión funciona.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Los elementos Dimension incluyen el trimestre y año de 3 meses de una fecha determinada.
+Los elementos de dimensión incluyen el trimestre y el año de una fecha determinada.
