@@ -1,11 +1,11 @@
 ---
 title: Tipo de conexión
-description: Cómo se conecta el visitante a internet.
-translation-type: tm+mt
+description: Conexión del visitante a Internet.
+translation-type: ht
 source-git-commit: 3fcaee113f2c15bfc5a1ce0a7cd31a456ba98929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '14'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
