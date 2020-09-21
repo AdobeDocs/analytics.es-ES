@@ -3,8 +3,11 @@ description: Report Builder de Adobe incluye ahora una configuración de permiso
 title: Permisos de acceso del usuario para dimensiones y métricas
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ Siga estas instrucciones para **cada uno** de los libros de Report Builder que m
 
 1. Abra el libro.
 1. Actualice todas las solicitudes.
-1. If you get prompted with a User Access Permission error, click **[!UICONTROL Open CSV File]** to get access to the list of restricted permissions errors.
+1. Si le aparece un error de permisos de acceso de usuario, haga clic en **[!UICONTROL Abrir archivo CSV]** para obtener acceso a la lista de errores de permisos restringidos.
 1. Cree un archivo “AllRestrictedPermissionErrors.xlsx” y copie/pegue la lista de errores de permisos restringidos del archivo CSV en este archivo.
 1. Cierre el libro de Report Builder.
 
