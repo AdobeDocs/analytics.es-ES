@@ -18,7 +18,7 @@ A continuación se indican los pasos para la resolución de problemas específic
 
 >[!NOTE]
 >
-> Aunque las implementaciones de código H requieren que se haga referencia al código en la etiqueta `<body>`, otras implementaciones (como el uso de Adobe Experience Platform Launch) requieren que se haga referencia al código en la etiqueta `<head>`.
+>Aunque las implementaciones de código H requieren que se haga referencia al código en la etiqueta `<body>`, otras implementaciones (como el uso de Adobe Experience Platform Launch) requieren que se haga referencia al código en la etiqueta `<head>`.
 
 El código de Analytics crea una imagen de 1x1 píxeles invisible. Anteriormente, una práctica común de implementación era colocar la referencia a `s_code.js` en la etiqueta `<head>`. Colocar el código aquí evitaba que la imagen afectara al diseño de la página de alguna manera. Esto se ejecuta antes, lo que optimiza el recuento de las vistas de página para cargas de página parciales.
 
