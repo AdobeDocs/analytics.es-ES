@@ -37,7 +37,7 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `D` | [`dynamicVariablePrefix`](../vars/config-vars/dynamicvariableprefix.md) | Indica lo que se debe utilizar para variables dinámicas. |
 | `ev` | [`events`](../vars/page-vars/events/events-overview.md) | Abreviatura de la cadena de consulta `events`. |
 | `events` | [`events`](../vars/page-vars/events/events-overview.md) | Lista de eventos de la página separados por comas. Utilizado por la mayoría de las [métricas](/help/components/metrics/overview.md). |
-| `g` | [`pageURL`](../vars/page-vars/pageurl.md) | Dirección URL actual de la página, hasta 255 bytes. Se utiliza en la dimensión [Página](/help/components/dimensions/page-url.md). |
+| `g` | [`pageURL`](../vars/page-vars/pageurl.md) | Dirección URL actual de la página, hasta 255 bytes. Se utiliza en la dimensión [URL de la página](/help/components/dimensions/page-url.md). |
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | Las direcciones URL superiores a 255 bytes se dividen. Los primeros 255 bytes aparecen en el parámetro `g` y todos los bytes restantes aparecen en el parámetro `-g`. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Abreviatura de la cadena de consulta `pageName`. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Abreviatura de la cadena de consulta `pageType`. |
