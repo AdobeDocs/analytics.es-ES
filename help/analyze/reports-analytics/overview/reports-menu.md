@@ -2,9 +2,9 @@
 description: Una descripción general del menú Informes en Reports & Analytics.
 title: Menú Informes
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
 ht-degree: 100%
 
