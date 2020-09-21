@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
       + [Resumen del contenido de la fuente de datos](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcular métricas](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [Referencia de columnas de datos](analytics-data-feed/c-df-contents/datafeeds-reference.md)
-      + [Búsqueda de evento de página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
+      + [Búsqueda de eventos de página](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [Búsqueda de atributos móviles](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [Caracteres especiales](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [Visitas que llegan tarde](analytics-data-feed/c-df-contents/late-arriving-hits.md)
