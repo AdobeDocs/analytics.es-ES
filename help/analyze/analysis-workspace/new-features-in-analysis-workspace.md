@@ -5,8 +5,8 @@ title: Novedades en Analysis Workspace
 translation-type: tm+mt
 source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
-source-wordcount: '7821'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,13 +27,13 @@ Nuevas funciones lanzadas el 18 de junio de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Attribution IQ: Atribución algorítmica | El modelo de atribución algorítmica de Analysis Workspace utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. Disponible para los clientes de Adobe Analytics Ultimate. [Más información...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| Attribution IQ: Ventanas retroactivas personalizadas | Ahora puede configurar cualquier modelo de atribución en Attribution IQ para incluir puntos de contacto desde 90 días antes del período de creación de informes. Esto generalmente aumenta la precisión de atribución de eventos que se producen al principio del período de la creación de informes teniendo en cuenta las interacciones que se produjeron en el mes o meses anteriores. Disponible para los clientes de Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete y Ultimate. [Más información...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| Attribution IQ: Atribución algorítmica | El modelo de atribución algorítmica de Analysis Workspace utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. Disponible para los clientes de Adobe Analytics Ultimate. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| Attribution IQ: Ventanas retroactivas personalizadas | Ahora puede configurar cualquier modelo de atribución en Attribution IQ para incluir puntos de contacto desde 90 días antes del período de creación de informes. Esto generalmente aumenta la precisión de atribución de eventos que se producen al principio del período de la creación de informes teniendo en cuenta las interacciones que se produjeron en el mes o meses anteriores. Disponible para los clientes de Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete y Ultimate. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | Funciones de proyecto para proyectos compartidos de Workspace | Al compartir un proyecto de Workspace, ahora puede colocar destinatarios en una de las tres funciones de proyecto, según la experiencia del proyecto que desee que tengan: Editar, Duplicado y Vista. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Proyectos de Workspace solo de vista | Los proyectos de Workspace se pueden compartir con los usuarios solo como Puede ver. Cuando un destinatario de Vista abre el proyecto compartido, recibe una experiencia de proyecto más restrictiva sin carril izquierdo e interacciones limitadas. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Panel en blanco actualizado | El panel en blanco ahora incluye paneles y visualizaciones, lo que le ofrece una forma más fluida de elegir el flujo de trabajo de análisis que mejor se adapte a sus necesidades. |
-| Panel de perspectivas rápidas (25 de junio de 2020) | Quick Insights proporciona una guía a los no analistas y a los nuevos usuarios de Analysis Workspace para aprender a responder preguntas comerciales de forma rápida y sencilla. [Más información...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| Panel de información rápida (25 de junio de 2020) | Quick Insights proporciona una guía a los no analistas y a los nuevos usuarios de Analysis Workspace para aprender a responder preguntas comerciales de forma rápida y sencilla. [Más información...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Panel Analytics for Target en Workspace (25 de junio de 2020) | El panel Analytics for Target (A4T) le permite analizar con confianza las actividades y experiencias de Adobe Target en Analysis Workspace. [Más información...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | Página Acerca de Workspace | La página Acerca de Workspace proporciona información sobre el entorno de su Analysis Workspace, sobre los administradores de Adobe Analytics (si necesita asistencia técnica) y una forma de proporcionar comentarios integrada al producto. Se encuentra en Workspace > Ayuda > Acerca de Workspace. |
 
@@ -345,7 +345,7 @@ Nuevas funciones y mejoras publicadas el 12 de abril de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  >Nueva configuración de filas</a> </p> </td> 
-   <td colname="col2"> <p>La nueva configuración <span class="uicontrol">Calcular porcentaje por fila</span> obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto resulta especialmente útil para los porcentajes de tendencias, como por ejemplo la tendencia de cómo un elemento de dimensión realiza ferias con respecto al resto con el tiempo. Se activa de forma predeterminada al hacer clic en el icono <span class="uicontrol">Visualizar</span>. </p> </td> 
+   <td colname="col2"> <p>La nueva configuración <span class="uicontrol">Calcular porcentaje por fila</span> obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto resulta particularmente útil en los porcentajes de tendencias, como averiguar cómo se comporta un elemento de dimensión en comparación con el resto a lo largo del tiempo. Se activa de forma predeterminada al hacer clic en el icono <span class="uicontrol">Visualizar</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Configuración de la visualización “Apilada al 100 %”</a> </p> </td> 
@@ -440,7 +440,7 @@ Nueva función y mejoras publicadas el 8 de febrero de 2018.
    <td colname="col2"> <p>Ahora, el calendario del Workspace mostrará de forma predeterminada el mes actual y el anterior, en vez de mostrar el mes actual y el siguiente. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Mejora al seleccionar los colores o mantener el puntero sobre ellos en las tablas del Workspace </p> </td> 
+   <td colname="col1"> <p>Mejora al seleccionar los colores o mantener el puntero sobre ellos en las tablas del espacio de trabajo </p> </td> 
    <td colname="col2"> <p>La diferencia de colores al mantener el puntero sobre una celda de una tabla improvisada en comparación con el hecho de hacer clic en una celda ahora es más clara. </p> </td> 
   </tr> 
  </tbody> 
@@ -515,7 +515,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cambios en Ninguno/No especificado </p> </td> 
-   <td colname="col2"> <p>Se ha cambiado el modo en que Ninguno/No especificado funciona en Analysis Workspace para que sea coherente con Informes y análisis, el Generador de segmentos y el menú de elementos de dimensión en Analysis Workspace. </p> <p>Esto significa que el valor aparecerá como “No especificado” en vez de como “Ninguno” en la mayoría de los proyectos de Analysis Workspace. </p> </td> 
+   <td colname="col2"> <p>Se ha cambiado el modo en que Ninguno/No especificado funciona en Analysis Workspace, de modo que sea coherente con Reports &amp; Analytics, el Generador de segmentos y el menú de elementos de dimensión en Analysis Workspace. </p> <p>Esto significa que el valor aparecerá como “No especificado” en vez de como “Ninguno” en la mayoría de los proyectos de Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -815,8 +815,8 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
    <td colname="col1"> <p>Nuevas <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > teclas de acceso directo </a></b> </p> </td> 
    <td colname="col2"> <p>Se han añadido las siguientes teclas de acceso directo: </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
-     <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + mayús + 1 = ir al panel Paneles </li> 
-     <li id="li_1B7E7C1115A84DB8A1BC07EA1C3AB15F">alt + mayús + 2 = ir al panel Visualizaciones </li> 
+     <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + mayús + 1 = ir al panel Paneles. </li> 
+     <li id="li_1B7E7C1115A84DB8A1BC07EA1C3AB15F">alt + mayús + 2 = ir al panel Visualizaciones. </li> 
      <li id="li_1BDB09DDEEDC4E7DB0D1C08A4E02A613">alt + mayús + 3 = ir al panel Componentes. </li> 
     </ul> </td> 
   </tr> 
@@ -1008,7 +1008,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
 Nuevas funciones lanzadas el 16 de junio de 2016:
 
 * [Nuevo permiso de grupo](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-groups/groups.html) que permite que los administradores permitan o denieguen el acceso a la pestaña **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** a los usuarios. Desde el 16 de junio de 2016, todos los usuarios tienen acceso a esta pestaña. Para denegar el acceso, solo tiene que eliminar usuarios del grupo Acceso a Analysis Workspace.
-* El [El panel Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) detecta las diferencias más significativas estadísticamente entre dos segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso.
+* La variable [El panel Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) detecta las diferencias más significativas estadísticamente entre dos segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso.
 * [Estructura del Nuevo menú de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) que reorganiza el menú de la parte superior y lo hace más extensible. Por ejemplo, para crear un **Panel de cohorte nuevo** ahora tiene que crear un Panel en blanco y arrastrarlo hasta una visualización de Tabla de cohorte.
 * [Nuevo carril izquierdo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): paneles, visualizaciones, componentes.
 * Un nuevo tipo de [Visualización Venn](/help/analyze/analysis-workspace/visualizations/venn.md) le permite arrastrar hasta tres segmentos y una métrica y construir un diagrama de Venn.
@@ -1047,7 +1047,7 @@ Nuevas funciones lanzadas el 21 de abril de 2016:
 
 ## Enero de 2016
 
-Nuevas funciones lanzadas el 21 de enero de 2016.
+Nuevas funciones lanzadas el 21 de enero de 2016:
 
 * [Deshacer acciones](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
 * [Vincular a este proyecto](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
