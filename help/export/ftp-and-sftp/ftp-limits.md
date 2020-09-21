@@ -3,8 +3,11 @@ description: Todas las cuentas de FTP de Adobe tienen un límite de almacenamien
 keywords: ftp;sftp
 title: Límites de FTP y retención de datos
 uuid: deb807c9-e988-4587-b518-881857cad1cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19de1233201bfeba88014209f5d288db67787f83
+workflow-type: ht
+source-wordcount: '80'
+ht-degree: 100%
 
 ---
 
