@@ -36,7 +36,7 @@ Para habilitar la revisión de componentes,
    * [!UICONTROL Ad Hoc Analysis ]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
-   * [!UICONTROL Puoi usare dimensioni quali canale di marketing, campagna, prodotto, pagina, regione, o qualsiasi altra dimensione in Adobe Analytics per mostrare in che modo la fidelizzazione cambia, in base a valori diversi di tali dimensioni.]
+   * [!UICONTROL Activity Map]
    * API de informes de Analytics
 
    Una vez comprobado, puede agregar los componentes que desee incluir en el grupo de informes virtuales arrastrando los componentes aplicables de la columna “componentes excluidos” a la columna “componentes incluidos”. Los componentes que se pueden incluir y excluir son los siguientes:
@@ -64,12 +64,12 @@ En Analysis Workspace, haga clic en el icono de información de cualquier compon
 
 ![](assets/vrs-aw-renamed.png)
 
-## Grupos de componentes   {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## Grupos de componentes {#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 Use grupos de componentes para realizar agregaciones masivas de componentes a su grupo de informes virtuales. Por ejemplo, si desea importar un conjunto predeterminado de componentes específicos del análisis de aplicaciones móviles, seleccione el grupo de aplicaciones móviles. Un conjunto correspondiente de dimensiones y métricas (con el nombre ya cambiado) se añade automáticamente a la lista Incluidos del grupo de informes virtuales.
 
 ![](assets/vrs-comp-grp.png)
 
-## Comportamiento de Workspace   {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Comportamiento de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 Para obtener más información sobre la organización en Analysis Workspace, consulte [Organizar y compartir un proyecto](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate.html).
