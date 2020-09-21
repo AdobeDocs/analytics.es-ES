@@ -4,6 +4,9 @@ title: Consulta o administración de la configuración de control de datos del g
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '555'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 El cuadro de diálogo Administración de datos en Herramientas de administración proporciona una descripción general de los grupos de informes que se han configurado para el control de datos, si se han asignado a una organización de Experience Cloud y si se ha dispuesto una política de retención de datos para este grupo de informes.
 
 1. Inicie sesión en Adobe Experience Cloud.
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**.
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Control de datos]**.
 
    Verá todos los grupos de informes que forman parte de su empresa de inicio de sesión:
 
