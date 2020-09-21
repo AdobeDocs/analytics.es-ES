@@ -2,11 +2,11 @@
 description: 'null'
 title: 'Solicitudes de datos: Paso 1 del Asistente para solicitudes'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ En el formulario Asistente para solicitudes: Paso 1, se selecciona el grupo y el
 
 ## Resolución de problemas
 
-A veces, el asistente para solicitudes aparece fuera de la pantalla, especialmente para los usuarios que se desplazan entre configuraciones del monitor. Por ejemplo, se utiliza una estación de acoplamiento en el trabajo y la pantalla del portátil en casa. Si vuelve a hacer clic en &#39;Crear&#39; mientras ya está abierto un asistente para solicitudes, aparece el siguiente error:
+A veces, el asistente para solicitudes aparece fuera de la pantalla, especialmente para los usuarios que se desplazan entre configuraciones del monitor. Por ejemplo, se utiliza una estación de acoplamiento en el trabajo y la pantalla del portátil en casa. Si vuelve a hacer clic en “Crear” mientras ya está abierto el asistente para solicitudes, aparece el siguiente error:
 
-&quot;Primero debe completar el proceso del asistente para solicitudes antes de iniciar uno nuevo.&quot;
+“Primero debe completar el proceso del asistente para solicitudes antes de iniciar uno nuevo”.
 
 Si vuelve a mostrar el asistente para solicitudes en pantalla, se resuelve este problema.
 
