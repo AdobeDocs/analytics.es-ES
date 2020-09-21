@@ -3,8 +3,11 @@ description: En el modo Estándar, exporte los datos de Analytics de Activity Ma
 title: Exportación a archivo CSV
 topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ee5489798f8c82c563b49b6c96acd1e63a0aa920
+workflow-type: ht
+source-wordcount: '237'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: ee5489798f8c82c563b49b6c96acd1e63a0aa920
 
 En el modo Estándar, exporte los datos de Analytics de Activity Map a un archivo de valores separados por comas (CSV).
 
-Como usuario, es posible que tenga que combinar los datos sobre clics en vínculos con otras fuentes de datos o realizar otros análisis (en Excel, por ejemplo). La exportación a CSV permite disponer de todos los datos de Activity Map relacionados con una página determinada en un formato fácil de usar. Permite guardar los datos de análisis generados para una página en un archivo CSV sin formato y, de este modo, exportar los datos de Page Report, [Page Flow Report](/help/analyze/activity-map/activitymap-page-flow.md), and [Links on Page](/help/analyze/activity-map/activitymap-links-report.md) data. Luego puede verlos como hoja de cálculo o archivo de texto, así como importarlos desde otro sistema.
+Como usuario, es posible que tenga que combinar los datos sobre clics en vínculos con otras fuentes de datos o realizar otros análisis (en Excel, por ejemplo). La exportación a CSV permite disponer de todos los datos de Activity Map relacionados con una página determinada en un formato fácil de usar. Permite guardar los datos de análisis generados para una página en un archivo CSV sin formato y, de este modo, exportar los datos de Informe de página, [Informe de flujo de página](/help/analyze/activity-map/activitymap-page-flow.md) y [Vínculos en la página](/help/analyze/activity-map/activitymap-links-report.md). Luego puede verlos como hoja de cálculo o archivo de texto, así como importarlos desde otro sistema.
 
 Haga clic en el icono Exportar que hay en la barra de herramientas de Activity Map.
 
