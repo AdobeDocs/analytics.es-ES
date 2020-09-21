@@ -2,11 +2,11 @@
 description: Esta página de ayuda contiene casos de uso recomendados para cada herramienta de Adobe Analytics. Las herramientas deben considerarse en el orden en que aparecen en la lista. Si una herramienta específica no se adapta a sus necesidades, continúe con la siguiente herramienta.
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -99,9 +99,9 @@ El **[Report Builder](/help/analyze/report-builder/home.md)** debe usarse:
 * Para acceder a datos más granulares de los que están disponibles en la interfaz de usuario (vista de tabla no normalizada).
 * Para descargar datos en un formato adecuado para una entrada de tabla dinámica.
 * Si el cliente desea introducir datos de Adobe en una herramienta de visualización de datos de terceros (resumidos ligeramente y que no sean de nivel de visita).
-* Para acceder a todos los elementos de dimensión únicos si se encuentra en &quot;Poco tráfico&quot; en Adobe Analytics
+* Para acceder a todos los elementos de dimensión únicos si aparece “Poco tráfico” en Adobe Analytics.
 
-Se debe usar la **[Fuente de datos de Analytics:](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** 
+Se debe usar la **[Fuente de datos de Analytics:](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**
 
 * Para usar la fuente de datos más granular disponible (ID de visitante, visita).
 * Si el cliente desea almacenar los datos de Adobe en una base de datos del lado del cliente, con el nivel más granular que podemos enviar.
