@@ -330,7 +330,7 @@ El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de vari
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eventos y dimensiones de la solución </p> </td> 
-   <td colname="col2"> <p>Vínculo de Activity Map </p> <p>Página de Activity Map </p> </td> 
+   <td colname="col2"> <p>Vínculo de Activity Map, </p> <p>Página de Activity Map </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Las variables pueden contener parámetros de URL, que podrían incluir datos directa o indirectamente identificables. Si su implementación no recopila datos directa o indirectamente identificables en estas variables, estos no necesitan etiquetas de identidad o eliminación. </p> <p>Tenga en cuenta que la eliminación borra los parámetros de URL, pero conserva la URL de base. </p> </td> 
   </tr> 
@@ -351,7 +351,7 @@ El etiquetado de privacidad de datos/DULE afecta a cuatro clases amplias de vari
    <td colname="col4"> <p>No es posible eliminar la etiqueta DEL, pero puede cambiarla por DEL-DEVICE o DEL-PERSON, o ambas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Acción de ClickMap (heredada) </p> <p>Contexto de ClickMap (heredada) </p> <p>Activity Map, </p> <p>URL de la página, </p> <p>URL de la página de la entrada original </p> <p>Referente, </p> <p>URL de la página del inicio de la visita </p> </td> 
+   <td colname="col2"> <p>Acción de ClickMap (heredada), </p> <p>Contexto de ClickMap (heredada), </p> <p>Activity Map, </p> <p>URL de la página, </p> <p>URL de la página de la entrada original, </p> <p>Referente, </p> <p>URL de la página del inicio de la visita </p> </td> 
    <td colname="col3"> <p>None/I1/I2 </p> <p>None/DEL-DEVICE/DEL-PERSON </p> </td> 
    <td colname="col4"> <p>Las variables pueden contener parámetros de URL, que podrían incluir datos directa o indirectamente identificables. Si su implementación no recopila datos directa o indirectamente identificables en estas variables, estos no necesitan etiquetas de identidad o eliminación. </p> <p>Tenga en cuenta que la eliminación borra los parámetros de URL, pero conserva la URL de base. </p> </td> 
   </tr> 
@@ -381,7 +381,7 @@ En la tabla siguiente se describe cómo se &quot;eliminan&quot; las distintas va
    <td colname="col2"> <p>El valor existente se reemplaza con uno nuevo con la forma “G-7588FCD8642718EC50”, donde los 18 dígitos hexadecimales después del prefijo “G-” son los primeros 18 dígitos de un número pseudoaleatorio con cifrado de 128 bits. Todos los comentarios que se aplican a la eliminación de tráfico y las variables de comercio se aplican aquí también. </p> <p>El ID de compra es un ID de transacción cuyo propósito principal es garantizar que una compra no se cargue por duplicado, como cuando alguien actualiza la página de confirmación de compra. El propio ID puede asociar la compra a una fila de su propia base de datos en que se haya registrado la compra. En la mayoría de los casos no es necesario eliminar este ID, de modo que no se elimina de forma predeterminada. Si sigue pudiendo vincular la compra a un usuario después de la solicitud de eliminación amparada en la privacidad de datos de sus propios datos, es posible que tenga que eliminar este campo, de modo que los datos de Analytics para este visitante no se puedan vincular al comprador. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visitor ID </p> </td> 
+   <td colname="col1"> <p>ID de visitante </p> </td> 
    <td colname="col2"> <p>El valor es un entero de 128 bits y se reemplaza con un valor pseudoaleatorio con cifrado de 128 bits. </p> </td> 
   </tr> 
   <tr> 
@@ -389,7 +389,7 @@ En la tabla siguiente se describe cómo se &quot;eliminan&quot; las distintas va
    <td colname="col2"> <p>El valor se borra (establecido como cadena vacía o 0, según el tipo de variable). </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>• Acción de ClickMap (heredada) </p> <p>• Contexto de ClickMap (heredado) </p> <p>• Activity Map </p> <p>• URL de la página </p> <p>• URL de la página de la entrada original </p> <p>• Referente </p> <p>• URL de la página del inicio de la visita </p> </td> 
+   <td colname="col1"> <p>• Acción de ClickMap (heredada) </p> <p>• Contexto de ClickMap (heredado) </p> <p>• Página </p> <p>• URL de la página </p> <p>• URL de la página de la entrada original </p> <p>• Referente </p> <p>• URL de la página del inicio de la visita </p> </td> 
    <td colname="col2"> <p>Los parámetros de URL se borran o eliminan. Si el valor no parece una URL, se borra (se establece en la cadena vacía). </p> </td> 
   </tr> 
   <tr> 
@@ -436,7 +436,7 @@ En esta sección se pretende aclarar la información sobre las variables de Anal
    <td colname="col2"> <p> Especifica el nombre del grupo de informes de Analytics que contiene los datos. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visitor ID </p> <p>MCID/ECID </p> </td> 
+   <td colname="col1"> <p>ID de visitante </p> <p>MCID/ECID </p> </td> 
    <td colname="col2"> <p> Estas etiquetas tienen una etiqueta DEL-DEVICE, pero no se puede añadir la etiqueta DEL-PERSON. Si especifica <a href="/help/admin/c-data-governance/gdpr-id-expansion.md"> Expansión de ID</a> con cada solicitud, estos ID se eliminarán automáticamente para todas las solicitudes de eliminación, incluso las que utilizan un ID-PERSON. </p> <p>Si no utiliza la expansión de ID, pero desea que estos ID de cookie se anonimicen en las visitas que contengan un ID coincidente en una prop o eVar, puede solucionar esta limitación de etiquetado mediante el etiquetado de la prop o eVar con una etiqueta ID-DEVICE, incluso si realmente identifica a una persona (todas las etiquetas DEL-PERSON también necesitarán cambiarse a etiquetas DEL-DEVICE). En este caso, dado que solo algunas instancias del ID del visitante o del ECID se están anonimizando, los recuentos de visitantes únicos cambiarán en los informes del historial. </p> </td> 
   </tr> 
   <tr> 
