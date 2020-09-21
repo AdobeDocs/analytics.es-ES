@@ -1,11 +1,11 @@
 ---
 title: Año
 description: Año en el que se produjo la métrica.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '84'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -18,6 +18,6 @@ La dimensión “Año” informa el año en que se produjo una métrica determin
 
 Esta dimensión funciona de forma predeterminada para todas las implementaciones. Si un grupo de informes contiene datos, esta dimensión funciona.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Las partidas de Dimension incluyen un año determinado, con las fechas incluidas entre paréntesis.
+Los elementos de dimensión incluyen un año determinado, con las fechas incluidas entre paréntesis.
