@@ -1,11 +1,11 @@
 ---
 title: Visitas
 description: Secuencia de visitas de la página efectuadas en una sesión.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -52,6 +52,6 @@ Puede cambiar el tiempo necesario para la definición de una visita a un interva
 
 Una visita se contabiliza por cada periodo de tiempo involucrado. Por ejemplo, si tiene un visitante que empieza a navegar por el sitio el lunes a las 23:45 y envía su última solicitud de imagen el martes a las 00:10, en el informe aparecerá una visita atribuida tanto al lunes como al martes. Sin embargo, se deduplica la métrica de visitas totales y se muestra una sola visita para el intervalo de fechas del proyecto.
 
-## Visitas en una dimensión versus visitas totales
+## Visitas en una dimensión o visitas totales
 
-Las visitas en el contexto de una dimensión (por ejemplo, [Marketing canal](../dimensions/marketing-channel.md)) muestran el número de visitas que contenían un elemento de dimensión en particular en cualquier momento. Existen varios elementos de dimensión con frecuencia en distintas visitas individuales en la misma visita. Normalmente no tiene sentido intentar sumar visitas que informan sobre elementos de dimensión.
+Las visitas en el contexto de una dimensión (por ejemplo, [Canal de marketing](../dimensions/marketing-channel.md)) muestran el número de visitas que contenían un elemento de dimensión en particular en cualquier momento. Con frecuencia existen varios elementos de dimensión en distintas visitas individuales en la misma visita. Normalmente no tiene sentido intentar sumar visitas que informan sobre elementos de dimensión.
