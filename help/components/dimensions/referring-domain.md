@@ -1,11 +1,11 @@
 ---
 title: Dominio de referencia
 description: Dominio general en el que se encontraba un visitante antes de hacer clic en el sitio.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ La dimensión “Dominio de referencia” indica los dominios en los que los vis
 >
 >Debe configurar los [filtros URL internos](/help/admin/admin/internal-url-filter-admin.md) del grupo de informes para utilizar esta dimensión. Si no se configuran los filtros de URL internos, puede incluir dominios internos o evitar que aparezcan dominios externos.
 
-El mismo informe puede mostrar diferentes resultados entre Analysis Workspace y Data Warehouse. Analysis Workspace informa del dominio de referencia de cada página individual, excluyendo los valores que coinciden con los filtros de URL internos. Data Warehouse informa únicamente del primer dominio de referencia de la visita e ignora los filtros de URL internos.
+El mismo informe puede mostrar diferentes resultados entre Analysis Workspace y Data Warehouse. Analysis Workspace informa del dominio de referencia de cada página individual, excluyendo los valores que coinciden con los filtros de URL internos. Data Warehouse informa solamente del primer dominio de referencia de la visita e ignora los filtros de URL internos.
 
 ## Rellene esta dimensión con datos
 
@@ -29,13 +29,13 @@ Esta dimensión se debe configurar en la interfaz de Analytics y necesita datos 
 
 Adobe persiste en el dominio de referencia de una visita. Si un visitante sale y hace clic a través de un vínculo en un dominio diferente en una sola visita, el nuevo valor se actualiza y persiste durante el resto de la visita. Si solo desea ver el valor original, consulte [Dominio de referencia original](original-referring-domain.md).
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Los elementos de Dimension incluyen los dominios en los que los visitantes hacen clic hasta el sitio. If a hit does not have any referrer data (either set or persisted), it groups under the dimension item `"Typed/Bookmarked"`. Este elemento de dimensión significa que no había ningún valor de remitente del reenvío, como si el visitante escribiera manualmente la dirección del explorador en la barra de direcciones o hiciera clic en un marcador. El elemento `"Typed/Bookmarked"` de dimensión también aparece para redirecciones que no admiten Analytics. Consulte [Redirecciones y alias](/help/technotes/redirects.md) en la guía del usuario de Technotes.
+Los elementos de dimensión incluyen los dominios en los que los visitantes hacen clic para llegar a su sitio. Si una visita no tiene datos de remitente del reenvío (establecidos o persistentes), se agrupa bajo el elemento de dimensión `"Typed/Bookmarked"`. Este elemento de dimensión significa que no hubo ningún valor de remitente del reenvío, como si el visitante escribiera manualmente la dirección del explorador en la barra de direcciones o hiciera clic en un marcador. El elemento de dimensión `"Typed/Bookmarked"` también aparece para redirecciones que no admiten Analytics. Consulte [Redirecciones y alias](/help/technotes/redirects.md) en la guía del usuario de Technotes.
 
-### Elementos de Dimension que contienen `googleusercontent.com`
+### Elementos de dimensión que contienen `googleusercontent.com`
 
 Los usuarios pueden ver elementos de dimensión con el dominio `googleusercontent.com`.
 
-* **Páginas** en caché: Las arañas de Google rastrean constantemente la web y almacenan copias de páginas en caso de que se desconecten. Estas páginas en caché están disponibles al lado de la mayoría de los resultados de búsqueda haciendo clic en el vínculo &quot;En caché&quot;. Cuando un usuario hace clic en este vínculo y vista el contenido que Google almacena en caché, `googleusercontent.com` es el elemento de dimensión.
+* **Páginas en caché**: Las arañas de Google rastrean constantemente la web y almacenan copias de páginas en caso de que se desconecten. Estas páginas en caché están disponibles junto a la mayoría de los resultados de búsqueda haciendo clic en el vínculo “En caché”. Cuando un usuario hace clic en este vínculo y visualiza el contenido que Google almacena en caché, `googleusercontent.com` es el elemento de dimensión.
 * **Páginas traducidas**: Google ofrece un servicio de traducción robusto y conveniente. Al ver un sitio que utiliza este servicio, se origina desde `googleusercontent.com`. Este elemento de dimensión aparece si el usuario hace clic en un vínculo para volver al contenido original.
