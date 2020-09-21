@@ -30,7 +30,7 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 | Intervalo de fechas | Especifique un filtro de intervalo de fechas. Puede introducir una fecha manualmente, con el formato AAAA-MM-DD, o hacer clic en el icono del calendario para seleccionar una fecha. |
 | Inicio de sesión | Filtre el registro por nombre de usuario. |
 | IP | Filtre el registro por dirección IP. |
-| Report Suite | Filtre el registro por un ID de grupo de informes específico. |
+| Grupo de informes | Filtre el registro por un ID de grupo de informes específico. |
 | Tipo de evento | Filtre el registro por tipo de evento. Seleccione un tipo de evento de la lista desplegable. Consulte la lista completa de tipos de evento a continuación. |
 | Evento | Filtre el registro por una palabra o frase de la descripción del evento. |
 | Descargar informe | Exporta el contenido del [!UICONTROL registro de uso y acceso] a un archivo delimitado por tabulaciones. |
