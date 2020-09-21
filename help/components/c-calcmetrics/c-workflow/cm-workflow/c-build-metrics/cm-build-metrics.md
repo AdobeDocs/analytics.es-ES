@@ -2,9 +2,9 @@
 description: El Creador de métricas calculadas proporciona un lienzo en el que arrastrar y soltar dimensiones, métricas, segmentos y funciones para crear métricas personalizadas basadas en lógica de jerarquía de contenedor, reglas y operadores. Esta herramienta de desarrollo integrada le permite crear y guardar métricas calculadas simples o métricas calculadas avanzadas complejas.
 title: Crear métricas
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
       <li id="li_A8815F2D8D284874AD701A7B103D82A3">Etiquetas basadas en <b>nombres de equipos</b>, como Marketing social o Marketing móvil. </li> 
       <li id="li_A51A4515A541488E9D90296A955E9F4F">Etiquetas de <b>proyectos</b> (etiquetas de análisis), como análisis de páginas de entrada. </li> 
       <li id="li_B4605470A7094026AC168420B64BBCC3">Etiquetas de <b>categorías</b>: para hombres, geografía. </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>Etiquetas de flujo de trabajo: pendiente de aprobación, conservado para (una unidad empresarial específica).</b> </li> 
+      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B">Etiquetas de <b>flujo de trabajo</b>: pendiente de aprobación, conservado para (una unidad empresarial específica). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -135,7 +135,7 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Lista de funciones </p> </td> 
-   <td colname="col3"> <p>(Solo métricas calculadas avanzadas) Las funciones se dividen en dos listas: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  > Básicas </a> (utilizadas con más frecuencia) y <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  > Avanzadas </a>. </p> </td> 
+   <td colname="col3"> <p>(Solo métricas calculadas avanzadas) Las funciones se dividen en dos listas: <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >Básicas</a> (utilizadas con más frecuencia) y <a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >Avanzadas</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Selector de grupos de informes </p> </td> 
