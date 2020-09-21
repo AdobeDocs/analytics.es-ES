@@ -4,11 +4,11 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: Calcular métricas
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Las visitas deben agruparse primero por visita individual y luego, ordenarse seg
 1. Concatenar `post_visid_high`, `post_visid_low`, `visit_num` y `visit_start_time_gmt`.
 2. Ordene la información por este valor concatenado y, a continuación, aplique una clasificación secundaria por `visit_page_num`.
 3. Si una visita no es la última en una visita individual, reste el valor `post_cust_hit_time` del valor `post_cust_hit_time` de la visita subsiguiente.
-4. Este número es la cantidad de tiempo empleado (en segundos) para la visita. Se pueden aplicar filtros para centrarse en elementos o eventos de dimensión.
+4. Este número es la cantidad de tiempo empleado (en segundos) para la visita. Los filtros se pueden aplicar para centrarse en los elementos o eventos de dimensión.
 
 ## Pedidos, unidades e ingresos
 
