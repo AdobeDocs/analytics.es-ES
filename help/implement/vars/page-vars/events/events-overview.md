@@ -1,20 +1,20 @@
 ---
 title: events
 description: Configure la variable “events” (eventos), que gobierna la mayoría de las métricas del sitio.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # events
 
-Las dimensiones y las métricas son componentes fundamentales para los informes. La variable `events` es responsable de la recopilación de datos de muchas métricas del sitio. Los eventos suelen incrementar [las métricas](/help/components/metrics/overview.md) en los informes.
+Las dimensiones y las métricas son componentes fundamentales para los informes. La variable `events` es responsable de la recopilación de datos de muchas métricas del sitio. Los eventos suelen incrementar las [métricas](/help/components/metrics/overview.md) en los informes.
 
-Antes de implementar eventos, asegúrese de crearlos y configurarlos en eventos [de](/help/admin/admin/c-success-events/success-event.md) éxito en la configuración del grupo de informes. Si planea utilizar eventos personalizados en las visitas de seguimiento de vínculos, asegúrese de que [`linkTrackVars`](../../config-vars/linktrackvars.md) y [`linkTrackEvents`](../../config-vars/linktrackevents.md) están correctamente configurados.
+Antes de implementar eventos, asegúrese de crearlos y configurarlos en [Eventos de éxito](/help/admin/admin/c-success-events/success-event.md) en la configuración del grupo de informes. Si planea utilizar eventos personalizados en las visitas de seguimiento de vínculos, asegúrese de que [`linkTrackVars`](../../config-vars/linktrackvars.md) y [`linkTrackEvents`](../../config-vars/linktrackevents.md) están correctamente configurados.
 
 ## Eventos en Adobe Experience Platform Launch
 
@@ -79,7 +79,7 @@ s.events = "event1=2,event2";
 
 Puede cambiar un evento personalizado para utilizar moneda en lugar de enteros. Los eventos de moneda hacen la conversión automática a la moneda del grupo de informes si esta y la variable `currencyCode` no coinciden. Son útiles para calcular los costes de envío, los descuentos o los reembolsos. Puede configurar eventos de moneda en la variable `products` si desea atribuir el evento únicamente a ese producto.
 
-Antes de implementar eventos de moneda, asegúrese de establecer el evento deseado en &quot;Moneda&quot; en eventos [de](/help/admin/admin/c-success-events/success-event.md) éxito en la configuración del grupo de informes.
+Antes de implementar eventos de moneda, asegúrese de establecer el evento deseado en “Moneda” en [Eventos de éxito](/help/admin/admin/c-success-events/success-event.md) en la configuración del grupo de informes.
 
 ```js
 // Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
@@ -94,13 +94,13 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 >[!NOTE]
 >
-> Si establece un valor de moneda tanto en la variable `events` como en la variable `products`, se utiliza el valor de moneda en `events`. Evite establecer valores monetarios en las variables `events` y `products`.
+>Si establece un valor de moneda tanto en la variable `events` como en la variable `products`, se utiliza el valor de moneda en `events`. Evite establecer valores monetarios en las variables `events` y `products`.
 
 ### Usar eventos numéricos
 
 Puede cambiar un evento personalizado para aceptar valores decimales en lugar de enteros. Los eventos numéricos se comportan de manera similar a los eventos de moneda, excepto que no utilizan la conversión monetaria. Puede establecer eventos numéricos en la variable `products` si desea atribuir el evento únicamente a ese producto.
 
-Antes de implementar eventos numéricos, asegúrese de establecer el evento deseado en &#39;Numérico&#39; en eventos [de](/help/admin/admin/c-success-events/success-event.md) éxito en la configuración del grupo de informes.
+Antes de implementar eventos numéricos, asegúrese de establecer el evento deseado en “Numérico” en [Eventos de éxito](/help/admin/admin/c-success-events/success-event.md) en la configuración del grupo de informes.
 
 ```js
 // Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
@@ -113,4 +113,4 @@ s.products = "Example category;Example product;1;0;event1=4.5";
 
 >[!NOTE]
 >
-> Si establece un valor numérico tanto en la variable `events` como en la variable `products`, se utiliza el valor numérico en `events`. Evite establecer valores numéricos en las variables `events` y `products`.
+>Si establece un valor numérico tanto en la variable `events` como en la variable `products`, se utiliza el valor numérico en `events`. Evite establecer valores numéricos en las variables `events` y `products`.
