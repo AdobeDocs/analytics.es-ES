@@ -1,9 +1,9 @@
 ---
 title: Introducción a la implementación de código H de JavaScript
 description: Conozca el flujo de trabajo para implementar el código H en su sitio.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Debe tener acceso a los servidores de alojamiento para implementar correctamente
 
 >[!NOTE]
 >
-> Para seguir estas instrucciones, ya debe tener una copia de `s_code.js`. Adobe ya no ofrece la opción de descargar el código H en el Administrador de códigos.
+>Para seguir estas instrucciones, ya debe tener una copia de `s_code.js`. Adobe ya no ofrece la opción de descargar el código H en el Administrador de códigos.
 
 1. **Actualizar variables de archivos JS principales**: Edite el archivo `s_code.js` y asegúrese que las siguientes variables están actualizadas:
    * `s_account` contiene el ID del grupo de informes al que desea enviar los datos. Consulte
@@ -30,7 +30,7 @@ Debe tener acceso a los servidores de alojamiento para implementar correctamente
 
    >[!TIP]
    >
-   > El código H requiere que se llame al script `s_code.js` dentro de la etiqueta `<body>`. Esto es diferente a otros métodos de implementación, la mayoría de los cuales requieren que las referencias de secuencia de comandos estén en la etiqueta `<head>`.
+   >El código H requiere que se llame al script `s_code.js` dentro de la etiqueta `<body>`. Esto es diferente a otros métodos de implementación, la mayoría de los cuales requieren que las referencias de secuencia de comandos estén en la etiqueta `<head>`.
 1. **Defina las variables específicas de la página en cada página**: Cada página debe tener variables individuales definidas, como el nombre de la página o las eVars. Las variables individuales generalmente se definen con una etiqueta `<script>` en línea en cada página.
 1. **Use Debugger para verificar la recopilación de datos**: Descargue e instale [Experience Cloud Debugger](../../validate/debugger.md) para asegurarse de que los datos se envían a Adobe y de que las variables de página se definen correctamente.
 
