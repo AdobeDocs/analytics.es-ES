@@ -1,11 +1,11 @@
 ---
 title: Pedidos
 description: Número de compras realizadas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '91'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
