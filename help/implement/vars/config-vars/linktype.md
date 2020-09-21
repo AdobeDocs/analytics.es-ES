@@ -37,7 +37,7 @@ Puede configurar este menú desplegable como [!UICONTROL Vínculo personalizado]
 
 La variable `s.linkType` es una cadena que acepta uno de los tres valores de un solo carácter: `o`, `d` o `e`. Si se llama un método `tl()` sin un tipo de vínculo, el valor predeterminado es Vínculo personalizado.
 
-* `o` - Vínculos personalizados
+* `o`: Vínculos personalizados
 * `d`: Vínculos de descarga
 * `e`: Vínculos de salida
 
