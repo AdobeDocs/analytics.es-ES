@@ -23,7 +23,7 @@ Una propiedad web puede ser cualquier agrupación de uno o más dominios y subdo
 
 Puede administrar y rastrear estos recursos con DTM. Por ejemplo, supongamos que tiene varios sitios web basados en una plantilla y quiere rastrear los mismos recursos en todos. Puede aplicar una propiedad web a varios dominios.
 
-Para obtener información general sobre propiedades web y prácticas recomendadas, consulte  [Propiedades web](https://docs.adobe.com/content/help/es-ES/dtm/using/admin/web-property.html) en la documentación del producto de Dynamic Tag Management.
+Para obtener información general sobre propiedades web y prácticas recomendadas, consulte [Propiedades web](https://docs.adobe.com/content/help/es-ES/dtm/using/admin/web-property.html) en la documentación del producto de Dynamic Tag Management.
 
 1. Vaya a la página de su empresa y haga clic en **[!UICONTROL Agregar propiedad]**.
 
