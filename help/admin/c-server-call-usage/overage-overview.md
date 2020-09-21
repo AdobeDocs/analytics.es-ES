@@ -92,7 +92,7 @@ El permiso de Uso de llamadas al servidor se concede, de forma automática, a lo
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Nombre de permiso </th> 
+   <th colname="col1" class="entry"> Nombre del permiso </th> 
    <th colname="col3" class="entry"> Conceder permiso si ha iniciado sesión en Adobe Analytics (inicio de sesión heredado) </th> 
    <th colname="col4" class="entry"> Conceder permiso si ha iniciado sesión en Adobe Experience Cloud </th> 
   </tr> 
