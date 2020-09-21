@@ -77,7 +77,7 @@ Establezca la fecha de caducidad de la alerta.
    * anomalía por encima de lo esperado
    * anomalía por debajo de lo esperado
    * mayor o igual que
-   * es menor que o igual a
+   * menor o igual que
    * cambia por un
    * Puede establecer el umbral en 90 %, 95 %, 99 %, 99,75 % y 99,9 %.
 
