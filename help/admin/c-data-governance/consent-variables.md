@@ -2,9 +2,9 @@
 description: Variables para informes de privacidad en Privacidad de datos.
 title: Variables de informes de privacidad
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Cada grupo de informes se puede configurar de esta forma:
 
 Se han predefinido tres variables de datos de contexto para que funcionen con las variables reservadas de administración de informes de privacidad.  Depende de cada ingeniero de implementación determinar cómo administrar y mantener la configuración de estas variables.
 
-Consulte [Variables de datos de contexto](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) para obtener instrucciones generales sobre cómo implementar variables de datos de contexto.
+Consulte [Variables de datos de contexto](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/contextdata.html) para obtener instrucciones generales sobre cómo implementar variables de datos de contexto.
 
 ### SSF
 
