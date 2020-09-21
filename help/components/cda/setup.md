@@ -1,11 +1,11 @@
 ---
 title: Configuración de análisis entre dispositivos
 description: Configure un grupo de informes virtuales para habilitar CDA.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Una vez cumplidos todos los requisitos previos, siga los pasos siguientes para h
 
 >[!IMPORTANT]
 >
->Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte la página [de](overview.md) información general y el método de identificación deseado (vinculación[basada en](field-based-stitching.md) campo o gráfico [de](device-graph.md)dispositivo, respectivamente) para conocer los requisitos previos y las limitaciones.
+>Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte la [página de información general](overview.md) y el método de vinculación deseado ([vinculación basada en el campo](field-based-stitching.md) o [gráfico del dispositivo](device-graph.md), respectivamente) para conocer los requisitos previos y las limitaciones.
 
 ## Elija el grupo de informes entre dispositivos que se habilitará para CDA
 
@@ -26,7 +26,7 @@ Cuando su organización está aprovisionada para utilizar CDA, usted elige qué 
 
 Los administradores con acceso para crear grupos de informes virtuales pueden crear grupos de informes virtuales CDA de la siguiente manera:
 
-1. Vaya a [experience.adobe.com](https://experiencecloud.adobe.com) e inicie sesión con sus credenciales de Adobe ID.
+1. Vaya a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) e inicie sesión con sus credenciales de Adobe ID.
 2. Haga clic en el icono de 9 cuadrículas en la parte superior y, a continuación, haga clic en Analytics.
 3. Pase el ratón sobre los componentes en la parte superior y, a continuación, haga clic en Grupos de informes virtuales.
 4. Haga clic en Agregar.
