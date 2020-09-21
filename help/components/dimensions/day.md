@@ -1,20 +1,20 @@
 ---
 title: Día
-description: El día en que se produjo la métrica.
-translation-type: tm+mt
+description: El día en el que se produjo la métrica.
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '109'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Día
 
-La dimensión &#39;Día&#39; informa el día en que se produjo una métrica determinada. El primer elemento de dimensión es el primer día del intervalo de fechas y el último elemento de dimensión es el último día del intervalo de fechas. Esta dimensión es vital para los informes de tendencias, ya que le permite ver las métricas a lo largo del tiempo.
+La dimensión “Día” indica el día en el que se produjo una métrica determinada. El primer elemento de dimensión es el primer día del intervalo de fechas y el último elemento de dimensión es el último día del intervalo de fechas. Esta dimensión es vital para los informes de tendencias, ya que le permite ver las métricas a lo largo del tiempo.
 
-## Rellenar esta dimensión con datos
+## Rellene esta dimensión con datos
 
 Esta dimensión funciona de forma predeterminada para todas las implementaciones. Si un grupo de informes contiene datos, esta dimensión funciona.
 
