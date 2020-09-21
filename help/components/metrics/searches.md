@@ -1,18 +1,18 @@
 ---
 title: Búsquedas
 description: El número de veces que una visita coincidió con los criterios de búsqueda externa.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
 # Búsquedas
 
-La métrica “Búsquedas” muestra el número de visitas que coinciden con la detección de búsquedas externas de Adobe. Esta métrica es útil cuando desea ver los elementos de dimensión que no son de búsqueda y ver cómo contribuyeron al tráfico del motor de búsqueda.
+La métrica “Búsquedas” muestra el número de visitas que coinciden con la detección de búsquedas externas de Adobe. Esta métrica es útil cuando desea ver los elementos de dimensión que no son de búsqueda y ver cómo han contribuido al tráfico del motor de búsqueda.
 
 ## Cálculo de esta métrica
 
