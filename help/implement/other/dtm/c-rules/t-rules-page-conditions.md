@@ -6,6 +6,9 @@ title: Creación de condiciones para reglas de carga de página
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
 translation-type: ht
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+workflow-type: ht
+source-wordcount: '93'
+ht-degree: 100%
 
 ---
 
