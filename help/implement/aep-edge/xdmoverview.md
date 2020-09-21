@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Uso de datos perimetrales de Adobe Experience Platform Edge con Analytics
 
-Puede utilizar el SDK [web de](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) Adobe Experience Platform (AEP) para enviar datos a Adobe Analytics. Esto funciona traduciendo el [Experience Data Model (XDM)](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html) a un formato utilizado por Analytics.
+Puede utilizar el [SDK web de Adobe Experience Platform (AEP)](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) para enviar datos a Adobe Analytics. Esto funciona traduciendo el [Experience Data Model (XDM)](https://docs.adobe.com/content/help/es-ES/experience-platform/xdm/home.html) a un formato utilizado por Analytics.
 
 Analytics recopila datos de XDM mediante dos métodos:
 
