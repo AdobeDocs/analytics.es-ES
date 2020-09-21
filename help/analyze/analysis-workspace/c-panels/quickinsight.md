@@ -90,7 +90,7 @@ En el [!UICONTROL Generador de Quick Insights], aparecerán otras sugerencias ú
 
    ![](assets/qibuilder6.png)
 
-* **Añadir más segmentos**: Puede agregar hasta dos segmentos más utilizando los operadores AND (Y) u OR (O) para agregarlos a la tabla. Observe lo que sucede en la tabla cuando agrega Usuarios móviles O Visitantes fieles. Están uno al lado del otro, encima de las métricas. Si agregara Usuarios móviles Y Visitantes fieles, vería los resultados de ambos segmentos juntos y se apilarían uno encima del otro en la tabla.
+* **Añadir más segmentos**: Puede agregar hasta dos segmentos más utilizando los operadores AND (Y) u OR (O) para agregarlos a la tabla. Observe lo que sucede en la tabla cuando agrega Usuarios móviles OR Visitantes fieles. Están uno al lado del otro, encima de las métricas. Si agregara Usuarios móviles AND Visitantes fieles, vería los resultados de ambos segmentos juntos y se apilarían uno encima del otro en la tabla.
 
    ![](assets/qibuilder7.png)
 
