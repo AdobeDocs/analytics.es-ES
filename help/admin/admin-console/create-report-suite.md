@@ -26,7 +26,7 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 >
 >También existe una forma de crear un grupo de informes en Adobe Analytics con el administrador heredado. Adobe recomienda utilizar el asistente para la configuración de grupos de informes que se describe aquí.
 
-1. Inicie sesión en [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
+1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
 1. Debería ver automáticamente una ventana modal con &#39;Bienvenido a Adobe Analytics&#39;. Si no lo hace, haga clic en el icono de ayuda en la esquina superior derecha y, a continuación, seleccione &#39;Bienvenido a Adobe Analytics&#39;.
 1. En la ventana modal, haga clic en Iniciar configuración.
