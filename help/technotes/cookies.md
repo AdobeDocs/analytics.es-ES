@@ -141,7 +141,7 @@ Para medir el impacto en los informes y las pruebas, es importante saber qué ti
 
 ## ¿Qué exploradores utilizan más los visitantes?
 
-Si le interesa conocer más sobre los exploradores utilizados por los visitantes, puede utilizar la [Dimensión de explorador](https://docs.adobe.com/content/help/es-ES/analytics/components/variables/dimensions-reports/reports-browsers.html) de Analytics para determinar qué exploradores se utilizan más en sus sitios. También puede utilizar las dimensiones de Analytics para ver qué exploradores se utilizan más según las regiones geográficas. Para obtener más información, consulte la [Segmentación geográfica](https://docs.adobe.com/content/help/es-ES/analytics/components/variables/dimensions-reports/reports-geosegmentation.html).
+Si le interesa conocer más sobre los exploradores utilizados por los visitantes, puede utilizar la [Dimensión de explorador](https://docs.adobe.com/content/help/es-ES/analytics/components/dimensions/browser.html) de Analytics para determinar qué exploradores se utilizan más en sus sitios. También puede utilizar las dimensiones de Analytics para ver qué exploradores se utilizan más según las regiones geográficas. Para obtener más información, consulte la [Segmentación geográfica](https://docs.adobe.com/content/help/es-ES/analytics/components/dimensions/countries.html).
 
 Según [statcounter](https://gs.statcounter.com/browser-market-share/all), a finales de 2019 la cuota de mercado mundial para cada explorador era la siguiente:
 
