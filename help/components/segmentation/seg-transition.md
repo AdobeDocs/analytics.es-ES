@@ -1,5 +1,5 @@
 ---
-description: nulo
+description: 'null'
 title: Preguntas frecuentes
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
@@ -7,14 +7,14 @@ translation-type: tm+mt
 source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Preguntas frecuentes
 
-Responde preguntas frecuentes sobre las funciones de segmentación, acceso, permisos, recomendaciones y administración de segmentos heredados.
+Responde preguntas frecuentes sobre las funciones de segmentación, acceso, permisos, prácticas recomendadas y administración de segmentos heredados.
 
 ## Funciones {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -22,7 +22,7 @@ Responde preguntas frecuentes sobre las funciones de segmentación, acceso, perm
 
    * [Compare segmentos](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html).
    * Utilice [segmentos como dimensiones](https://docs.adobe.com/content/help/es-ES/core-services/interface/audiences/audience-library.html) en una comparación.
-   * Utilice segmentos en el [análisis de visitas en el orden previsto](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
+   * Utilice segmentos en el [análisis de visitas en el orden previsto](https://docs.adobe.com/help/es-ES/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html).
 
 * Puede aplicar [varios segmentos a un informe o un proyecto](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 * Los segmentos son universales para todos los grupos de informes.
@@ -62,7 +62,7 @@ Acceda al Administrador de segmentos de una de las siguientes maneras:
 
 **¿Dónde está ahora la lista desplegable de segmentos heredados?**
 
-La lista desplegable de segmentos de Reports &amp; Analytics se ha sustituido por una interfaz de  [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con muchas más funciones que le permite crear segmentos &quot;universales&quot; utilizables en los grupos de informes y en las soluciones de Adobe Analytics. Para ver una lista de segmentos existentes, haga clic en el icono Segmentos ![](assets/segment_icon.png)
+La lista desplegable de segmentos de Reports &amp; Analytics se ha sustituido por una interfaz de [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con muchas más funciones que le permite crear segmentos &quot;universales&quot; utilizables en los grupos de informes y en las soluciones de Adobe Analytics. Para ver una lista de segmentos existentes, haga clic en el icono Segmentos ![](assets/segment_icon.png)
 
 en la navegación izquierda, y se mostrará el carril de segmentos.
 
@@ -112,7 +112,7 @@ Ahora que los segmentos funcionan en múltiples grupos de informes, es posible q
 * Revise los segmentos que tiene.
 * Añádalos a la biblioteca de segmentos cuando sea pertinente.
 * Apruebe los segmentos canónicos.
-* Etiquete los segmentos siguiendo las  [prácticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+* Etiquete los segmentos siguiendo las [prácticas recomendadas](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Administración de segmentos heredados {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
@@ -120,7 +120,7 @@ Ahora que los segmentos funcionan en múltiples grupos de informes, es posible q
 
 Sus segmentos existentes seguirán funcionando como siempre. Todos los informes a los que se hayan aplicado dichos segmentos funcionarán correctamente. [Más...](/help/components/segmentation/seg-transition.md)
 
-La mayoría de los segmentos de grupo y predefinidos antiguos se migrarán como  plantillas de segmentos al Generador de segmentos. Las plantillas de segmentos se utilizan para generar rápidamente segmentos personalizados con audiencias comunes. Las plantillas de segmentos no pueden aplicarse a un informe directamente, pero pueden guardarse de manera muy sencilla en un segmento personalizado.
+La mayoría de los segmentos de grupo y predefinidos antiguos se migrarán como plantillas de segmentos al Generador de segmentos. Las plantillas de segmentos se utilizan para generar rápidamente segmentos personalizados con audiencias comunes. Las plantillas de segmentos no pueden aplicarse a un informe directamente, pero pueden guardarse de manera muy sencilla en un segmento personalizado.
 
 Las plantillas de segmentos están marcadas con un icono especial en el Generador de segmentos:
 
@@ -128,7 +128,7 @@ Las plantillas de segmentos están marcadas con un icono especial en el Generado
 
 **¿Qué ha pasado con mis carpetas de segmentos existentes?**
 
-En lugar de utilizar carpetas (Ad Hoc Analysis), el Administrador de segmentos emplea  . Los nombres de sus carpetas se convierten automáticamente en etiquetas, que se aplican a los segmentos respectivos.
+En lugar de utilizar carpetas (Ad Hoc Analysis), el Administrador de segmentos emplea . Los nombres de sus carpetas se convierten automáticamente en etiquetas, que se aplican a los segmentos respectivos.
 
 **¿Qué ha pasado con los informes programados que tienen segmentos aplicados?**
 
@@ -176,7 +176,7 @@ Los informes existentes que tengan estos segmentos aplicados seguirán funcionan
 * Visitas con más de 5 visitas previas*
 * Visitas provenientes de Facebook*
 
-La mayoría de estos segmentos (excepto los marcados con un asterisco *) se migrarán como  plantillas de segmentos al Generador de segmentos. Además, se han agregado varias plantillas de segmentos nuevas.
+La mayoría de estos segmentos (excepto los marcados con un asterisco *) se migrarán como plantillas de segmentos al Generador de segmentos. Además, se han agregado varias plantillas de segmentos nuevas.
 
 Los informes existentes que tengan estos segmentos aplicados seguirán funcionando correctamente.
 
@@ -329,7 +329,7 @@ La siguiente tabla contiene una lista de dimensiones que se renombraron en el Ge
  </tbody> 
 </table>
 
-## Cambios en las dimensiones basadas en cadenas que tienen valores conocidos  {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## Cambios en las dimensiones basadas en cadenas que tienen valores conocidos {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 Las dimensiones basadas en cadenas que tienen un conjunto de valores conocidos se cambiaron a tipos enumerados. Al crear un segmento utilizando estas dimensiones, la lista se rellena previamente con todos los valores conocidos y solo se admite el operador &quot;es igual a&quot;. Esto le permite segmentar rápidamente los valores exactos que estaba buscando sin seleccionar valores no intencionados al utilizar coincidencias menos restrictivas.
 
@@ -351,7 +351,7 @@ Las siguientes dimensiones se cambiaron a listas enumeradas:
 | longitud del marcador móvil | Habilitado para Java | búsqueda de pago |
 | longitud de dirección URL móvil | idioma |  |
 
-## Cambios en las dimensiones basadas en enteros que tienen valores conocidos  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Cambios en las dimensiones basadas en enteros que tienen valores conocidos {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado &quot;- Agrupado&quot; tras el nombre de la dimensión. La siguiente pantalla demuestra cómo se segmentan estas dimensiones utilizando la interfaz antigua y nueva del generador de segmentos:
 
