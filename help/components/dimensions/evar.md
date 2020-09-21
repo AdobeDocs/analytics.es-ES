@@ -1,11 +1,11 @@
 ---
 title: eVar
 description: Dimensión personalizada que se puede utilizar en sistema de informes.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '788'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Las eVars son variables personalizadas que se pueden utilizar como desee. Si tie
 
 El número de eVars disponibles depende del contrato con Adobe. Hay disponibles hasta 250 eVars si su contrato con Adobe lo permite.
 
-Las eVars no distinguen entre mayúsculas y minúsculas. Si envía el mismo valor en casos diferentes (por ejemplo, `"DOG"` y `"Dog"`), Analysis Workspace los agrupa en el mismo elemento de dimensión. Se utiliza el caso del primer valor visto al comienzo del mes de sistema de informes. Data Warehouse muestra el primer valor encontrado durante el período de solicitud.
+Las eVars no hacen distinción entre mayúsculas y minúsculas. Si envía el mismo valor en casos diferentes (por ejemplo, `"DOG"` y `"Dog"`), Analysis Workspace los agrupa en el mismo elemento de dimensión. Se utiliza el caso del primer valor visto al comienzo del mes de creación de informes. Data Warehouse muestra el primer valor que se encuentra durante el período de solicitud.
 
 ## Propagar eVars con datos
 
@@ -26,9 +26,9 @@ Cada eVar recopila datos de la cadena de consulta [`v1` - `v250` ](/help/impleme
 
 AppMeasurement, que compila variables JavaScript en una solicitud de imagen para la recopilación de datos, utiliza las variables `eVar1` - `eVar250`. Consulte [eVar](/help/implement/vars/page-vars/evar.md) en la Guía del usuario de implementación para ver las directrices de implementación.
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Dado que las eVars contienen cadenas personalizadas en la implementación, su organización determina qué son los elementos de dimensión para cada eVar. Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+Dado que las eVars contienen cadenas personalizadas en la implementación, su organización determina cuáles son los elementos de dimensión para cada eVar. Asegúrese de registrar el propósito de cada eVar y los elementos de dimensión típicos en un [documento de diseño de solución](/help/implement/prepare/solution-design.md).
 
 ## Cómo funcionan las eVars
 
