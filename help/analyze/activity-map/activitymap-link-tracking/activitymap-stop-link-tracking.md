@@ -5,6 +5,9 @@ topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '74'
+ht-degree: 100%
 
 ---
 
@@ -40,7 +43,7 @@ Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (anteriormente ClickMap de visitantes) </td> 
-   <td colname="col2"> <p>Defina la variable <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/configuration-variables.translate.html"  >trackInlineStats</a> en false (este es el valor predeterminado). La sintaxis es la siguiente: 
+   <td colname="col2"> <p>Defina la variable <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> en false (este es el valor predeterminado). La sintaxis es la siguiente: 
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
