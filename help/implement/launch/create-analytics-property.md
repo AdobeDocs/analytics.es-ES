@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -47,7 +47,7 @@ Los elementos de datos son referencias a partes específicas del sitio para reco
 
       >[!NOTE]
       >
-      >Éste es un valor de ejemplo para ayudarle a empezar. Si su organización define un valor más adecuado para el nombre de la página, como un valor de capa de datos, puede utilizarlo aquí.
+      >Este es un valor de ejemplo para ayudarle a empezar. Si su organización define un valor más adecuado para el nombre de la página, como un valor de capa de datos, puede utilizarlo aquí.
    * Se ha seleccionado la opción Borrar texto
    * Duración: Vista de página
 1. Haga clic en **[!UICONTROL Guardar]**.
