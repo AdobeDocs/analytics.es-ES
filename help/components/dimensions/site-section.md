@@ -1,11 +1,11 @@
 ---
 title: Sección del sitio
 description: Nombre de la sección del sitio.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,8 +18,8 @@ Esta dimensión está relacionada con las dimensiones [Página](page.md) y [Serv
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recupera datos de la [`ch`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable [`channel`](/help/implement/vars/page-vars/channel.md).
+Esta dimensión recupera datos de la [`ch`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable [`channel`](/help/implement/vars/page-vars/channel.md).
 
-## Elementos de Dimension
+## Elementos de dimensión
 
-Los elementos de Dimension incluyen los nombres de las secciones del sitio. Su organización determina qué elementos de dimensión específicos desea utilizar. Sea cual sea el método que utilice, asegúrese de que sea coherente y de que lo grabe en un [documento de diseño de solución](/help/implement/prepare/solution-design.md).
+Los elementos de dimensión incluyen los nombres de las secciones del sitio. Su organización determina qué elementos de dimensión específicos desea utilizar. Sea cual sea el método que utilice, asegúrese de que sea coherente y de que lo grabe en un [documento de diseño de solución](/help/implement/prepare/solution-design.md).
