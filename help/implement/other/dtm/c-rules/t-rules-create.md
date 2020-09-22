@@ -1,12 +1,12 @@
 ---
 description: Instrucciones que describen cómo crear reglas en Dynamic Tag Management.
 keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Crear nueva regla
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
 
