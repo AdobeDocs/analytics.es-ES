@@ -1,12 +1,12 @@
 ---
 description: Cree reglas que determinen en qué páginas debe activarse una regla.
 keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Creación de condiciones para reglas de carga de página
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 100%
 
