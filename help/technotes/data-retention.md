@@ -1,10 +1,10 @@
 ---
 title: Política de retención de datos
 description: Una política de retención de datos determina el tiempo que Adobe almacena los datos.
-translation-type: ht
-source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
-workflow-type: ht
-source-wordcount: '591'
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '557'
 ht-degree: 100%
 
 ---
