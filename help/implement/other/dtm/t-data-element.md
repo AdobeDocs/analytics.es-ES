@@ -1,12 +1,12 @@
 ---
 description: Cree un elemento de datos en Dynamic Tag Management.
 keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Creación de un elemento de datos
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
 
