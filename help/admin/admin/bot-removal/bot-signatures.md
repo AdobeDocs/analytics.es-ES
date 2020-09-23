@@ -2,9 +2,9 @@
 title: Firmas comunes de bots
 description: Reconocer los identificadores comunes de los bots.
 translation-type: tm+mt
-source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
+source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Los usuarios modernos tienen monitores de resolución mucho más altos que en a�
 
 ## Distinción entre país y zona horaria
 
-Habrá una discordancia entre el país de origen y el huso horario. Por ejemplo, una ubicación de Estados Unidos pero con una zona horaria GMT.
+Observaría una discordancia entre el país de origen y el huso horario. Por ejemplo, la ubicación puede ser Estados Unidos, pero la zona horaria podría ser GMT.
 
 ![](assets/bots-country-time-zone.png)
 
