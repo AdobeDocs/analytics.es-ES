@@ -5,7 +5,7 @@ user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # [!DNL Analytics] Guía de componentes {#components}
 
-+ [Ayuda de componentes de Analytics](home.md)
++ [Guía de componentes de Analytics](home.md)
 + Dimensiones {#dimensions}
    + [Información general de dimensiones](dimensions/overview.md)
    + [Compatibilidad de dimensiones](dimensions/compatibility.md)
