@@ -1,16 +1,16 @@
 ---
-title: Ayuda de integración de Analytics
-description: nulo
-translation-type: ht
-source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
-workflow-type: ht
-source-wordcount: '154'
+title: Integración de Analytics
+description: 'null'
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '152'
 ht-degree: 100%
 
 ---
 
 
-# Guía de integración de Analytics
+# Analytics de CRM
 
 ![Banner](../../assets/doc_banner_integrate.png)
 
