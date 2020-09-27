@@ -5,7 +5,7 @@ user-guide-title: Notas técnicas de Analytics
 breadcrumb-title: Tech Notes
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 89%
@@ -13,9 +13,9 @@ ht-degree: 89%
 ---
 
 
-# Documentación de Analytics {#technotes}
+# Notas técnicas de Analytics {#technotes}
 
-+ [Ayuda de notas técnicas de Analytics](home.md)
++ [Notas técnicas de Analytics](home.md)
 + Adobe Analytics para usuarios de Google Analytics {#ga-to-aa}
    + [Ayuda de Adobe Analytics para usuarios de Google Analytics](ga-to-aa/home.md)
    + [Cuentas y grupos de informes](ga-to-aa/accounts.md)
