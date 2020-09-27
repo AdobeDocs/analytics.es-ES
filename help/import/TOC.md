@@ -5,7 +5,7 @@ user-guide-title: Guía de importación de Analytics
 breadcrumb-title: Import Guide
 user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Guía de importación de Analytics {#import}
 
-+ [Ayuda de importación de Analytics](home.md)
++ [Guía de importación de Analytics](home.md)
 + Fuentes de datos {#data-sources}
    + [Resumen de fuentes de datos](c-data-sources/datasrc-home.md)
    + [Funcionamiento de las fuentes de datos](c-data-sources/datasrc-how-data-sources-works.md)
