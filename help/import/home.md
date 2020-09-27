@@ -1,11 +1,11 @@
 ---
-title: Ayuda de importación de Analytics
-description: Ayuda de importación de Analytics
-translation-type: ht
-source-git-commit: ebdf5ed1ca2b83b94284f1d8013a2b0c6b717714
-workflow-type: ht
-source-wordcount: '113'
-ht-degree: 100%
+title: Guía de importación de Analytics
+description: En esta guía se explica cómo obtener datos en Analytics mediante fuentes de datos, API de inserción de datos y Conectores de datos.
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '128'
+ht-degree: 85%
 
 ---
 
