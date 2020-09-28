@@ -2,9 +2,9 @@
 description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 translation-type: tm+mt
-source-git-commit: 0a29fa005c7b86a399ab39f0b499d22b6f86e373
+source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '761'
 ht-degree: 16%
 
 ---
@@ -74,7 +74,7 @@ Los filtros desplegables también se pueden utilizar para consolidar muchos proy
 
 ![](assets/create-dropdown.png)
 
-1. Para crear un filtro desplegable con elementos [!UICONTROL de]Dimension, como valores dentro de la dimensión [!UICONTROL de Canal] de marketing, haga clic en la flecha derecha junto a la dimensión en el carril izquierdo. Esto mostrará todos los elementos disponibles. Seleccione uno o varios elementos de componente en el carril izquierdo y suéltelos en la zona desplegable del panel **mientras mantiene pulsada la tecla** Mayús. Esto convertirá los componentes en un filtro desplegable, en lugar de en un solo segmento.
+1. Para crear un filtro desplegable con elementos [!UICONTROL de]Dimension, como valores dentro de la dimensión de Canal [!UICONTROL de] marketing, haga clic en el icono de flecha derecha junto a la dimensión en el carril izquierdo. Esto mostrará todos los elementos disponibles. Seleccione uno o varios elementos de componente en el carril izquierdo y suéltelos en la zona desplegable del panel **mientras mantiene pulsada la tecla** Mayús. Esto convertirá los componentes en un filtro desplegable, en lugar de en un solo segmento.
 1. Para crear un filtro desplegable con otro componente, como métricas, segmentos o intervalos de fechas, seleccione un tipo de componente en el carril izquierdo y colóquelo en la zona desplegable del panel **mientras mantiene pulsada la tecla** Mayús.
 1. Seleccione una de las opciones de la lista desplegable para cambiar los datos en el panel. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
