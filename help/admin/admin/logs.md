@@ -3,9 +3,9 @@ description: Los archivos de registro ayudan a ver cuándo los usuarios inician 
 title: Registros
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: ebcd348dd952c24b5a5eaadb46ec3a521aba2e98
+source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 72%
 
 ---
@@ -68,11 +68,6 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 | Intervalo de fechas | Se creó o editó un intervalo de fechas. |
 | Grupo de informes virtuales | Se creó o editó un grupo de informes virtuales. |
 | Análisis de contribución | Se ejecutó un trabajo de análisis de contribución. |
-| Solicitud de bloque de datos de Excel |  |
-| Error en el inicio de sesión de Excel |  |
-| Inicio de sesión exitoso en Excel |  |
-| Error en el inicio de sesión de Mobile |  |
-| Inicio de sesión exitoso en Mobile |  |
 | Método API | Se realizó una llamada de API. |
 
 
