@@ -3,10 +3,10 @@ description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '7790'
+ht-degree: 99%
 
 ---
 
@@ -989,9 +989,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->Se ha agregado un botón “Acciones” en el carril de navegación izquierdo que incluye estas acciones: Etiquetar, Favorito, Aprobar, <b>Compartir (nuevo)</b> y <b>Eliminar (nuevo)</b>. </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">Se ha agregado un filtro a la barra de búsqueda que permite filtrar por etiquetas, favoritos, elementos aprobados y componentes. </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Se ha agregado un icono de vista previa a filas manuales (no a filas dinámicas que enumeran elementos de dimensión) que permite obtener una vista previa de segmentos, métricas e intervalos de fechas. </li> 
-     <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->Se ha actualizado el vínculo de YouTube para tutoriales de Analysis Workspace: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>. </li> 
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">Se ha agregado un icono de vista previa a filas manuales (no a filas dinámicas que enumeran elementos de dimensión) que permite obtener una vista previa de segmentos, métricas e intervalos de fechas. </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->Para las visualizaciones, hemos agregado una opción al menú contextual del botón secundario denominada <span class="uicontrol">Comenzar de nuevo</span> (funcionará para Flujo, Venn e Histograma), que elimina la configuración para la visualización actual y abre un nuevo panel donde puede volver a configurarla. </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">Una nueva configuración de visualización denominada “Leyenda visible” permite ocultar el texto de detalles de filtro para la visualización Número de resumen/Cambio de resumen. </li> 
