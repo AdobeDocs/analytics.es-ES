@@ -1,17 +1,17 @@
 ---
 description: Una depuración le permite limitar los componentes antes de compartir un proyecto.
 keywords: Analysis Workspace curation
-title: Depurar proyectos de Workspace
-translation-type: ht
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+title: Depurar proyectos
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
 
-# Depurar proyectos de Workspace
+# Depurar proyectos
 
 La depuración permite limitar los componentes (dimensiones, métricas, segmentos e intervalos de fechas) antes de compartir un proyecto. Cuando un destinatario abre el proyecto, verá un conjunto limitado de componentes que ha seleccionado para ellos. La depuración es un paso opcional pero recomendado antes de compartir un proyecto.
 
