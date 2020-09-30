@@ -3,10 +3,10 @@ description: 'null'
 title: Resumen del conversor de proyectos de Ad Hoc Analysis
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 62abc14883f678771d9b192efc4192f58f97a64b
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 93%
+source-wordcount: '82'
+ht-degree: 52%
 
 ---
 
@@ -17,19 +17,12 @@ ht-degree: 93%
 >
 >El Adobe está llevando a Ad Hoc Analysis al final de su vida útil el 1 de marzo de 2021. [Más información](https://adobe.ly/discoverworkspace)
 
-El Conversor de proyectos de Ad Hoc Analysis puede convertir sin problemas todos sus proyectos Ad Hoc a Analysis Workspace.
+The Ad Hoc Analysis Project Converter seamlessly converts your Ad Hoc Analysis projects to [Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html). Los proyectos se pueden convertir de uno en uno o de forma masiva.
 
-* [¿Por qué debería convertir proyectos?](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md#section_173A6297E20641D0B68B7AF199557CA6)
 * [Conversión de proyectos de Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md#topic_5A55F73488704C5D8E42CDD04B5984DE)
 * [Ver proyectos convertidos en Analysis Workspace](/help/analyze/ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
 * [Preguntas frecuentes del Conversor de proyectos](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)
 
-## ¿Por qué debería convertir proyectos? {#section_173A6297E20641D0B68B7AF199557CA6}
 
-La conversión de proyectos tiene ventajas considerables:
 
-* Convierte sus proyectos a nuestra puntera herramienta de informes de análisis, [Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html), que se mejora de forma constante con nuevas visualizaciones y otras funciones altamente reconocidas.
-* Podrá aprovechar todas las increíbles funciones de Analysis Workspace que se enumeran aquí: [Qué herramienta de análisis debo utilizar](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-overview/which-analytics-tool.html).
-* Puede hacer conversiones masivas de sus proyectos sin tener que reconstruirlos manualmente en Analysis Workspace.
-* Aunque Ad Hoc Analysis ha sido una herramienta muy útil durante muchos años, ahora está en modo de mantenimiento y no se le están añadiendo nuevas funciones.
 
