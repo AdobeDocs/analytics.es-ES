@@ -4,11 +4,11 @@ subtopic: Classifications
 title: Flujo de trabajo del generador de reglas de clasificación
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -52,4 +52,4 @@ Instrucciones avanzadas relacionadas con la implementación de reglas de clasifi
 
 **Blog**: Para obtener más información sobre esta característica, consulte el Blog de Digital Marketing - [Clasificaciones basadas en reglas](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Vídeo**: Visite [YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) para ver el vídeo [!UICONTROL Resumen general de las clasificaciones].
+**Vídeo**: Vista del vídeo Información general [de](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) clasificaciones.
