@@ -2,10 +2,10 @@
 description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 translation-type: tm+mt
-source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 16%
+source-wordcount: '766'
+ht-degree: 15%
 
 ---
 
@@ -78,4 +78,4 @@ Los filtros desplegables también se pueden utilizar para consolidar muchos proy
 1. Para crear un filtro desplegable con otro componente, como métricas, segmentos o intervalos de fechas, seleccione un tipo de componente en el carril izquierdo y colóquelo en la zona desplegable del panel **mientras mantiene pulsada la tecla** Mayús.
 1. Seleccione una de las opciones de la lista desplegable para cambiar los datos en el panel. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
-[Vea el vídeo](https://www.youtube.com/watch?v=vpJywtsFVPI) para obtener más información sobre cómo agregar filtros desplegables al proyecto.
+[Vea el vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) para obtener más información sobre cómo agregar filtros desplegables al proyecto.
