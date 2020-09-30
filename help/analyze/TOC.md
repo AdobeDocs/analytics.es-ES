@@ -5,10 +5,10 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -92,13 +92,13 @@ ht-degree: 98%
          + [Casos de uso de comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Pruebas estadísticas utilizadas en la comparación de segmentos](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Curar y compartir proyectos {#curate-share}
-      + [Depurar proyectos de Workspace](analysis-workspace/curate-share/curate.md)
-      + [Compartir proyectos de Workspace](analysis-workspace/curate-share/share-projects.md)
+      + [Menú Compartir](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Depurar proyectos](analysis-workspace/curate-share/curate.md)
+      + [Compartir proyectos](analysis-workspace/curate-share/share-projects.md)
       + [Crear vínculos que se pueden compartir](analysis-workspace/curate-share/shareable-links.md)
-      + [Proyectos de Workspace solo de vista](analysis-workspace/curate-share/view-only-projects.md)
+      + [Proyectos solo de vista](analysis-workspace/curate-share/view-only-projects.md)
       + [Descarga de archivos PDF o CSV](analysis-workspace/curate-share/download-send.md)
-      + [Uso compartido y programación de archivos de proyecto](analysis-workspace/curate-share/send-schedule-files.md)
-      + [Envío de archivo: Programar un proyecto para su entrega](analysis-workspace/curate-share/t-schedule-report.md)
+      + [Programar proyectos](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [Información general de Attribution](analysis-workspace/attribution/overview.md)
       + [Modelos de atribución y ventanas retroactivas](analysis-workspace/attribution/models.md)
