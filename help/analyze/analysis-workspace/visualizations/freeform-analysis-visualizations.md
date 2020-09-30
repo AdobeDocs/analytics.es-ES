@@ -2,11 +2,11 @@
 description: Obtenga información sobre las visualizaciones y los ajustes de visualización en Analysis Workspace.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '1069'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '1058'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Workspace oferta una serie de visualizaciones que le permiten generar representaciones visuales de sus datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. Cada visualización tiene su propia configuración que puede administrar. Haga clic en el nombre de la visualización para obtener información más detallada.
 
-Vídeo de YouTube: [tipos de visualización en Analysis Workspace](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | Nombre de la visualización | Descripción |
 |---|---|
@@ -109,4 +109,4 @@ Para editar una etiqueta de leyenda en un gráfico de líneas, por ejemplo:
 1. Introduzca el nuevo texto de etiqueta.
 1. Pulse **[!UICONTROL Intro]** para guardar.
 
-Aquí tiene un [vínculo que dirige a un vídeo](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) sobre este tema.
+Aquí tiene un [vínculo que dirige a un vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html) sobre este tema.
