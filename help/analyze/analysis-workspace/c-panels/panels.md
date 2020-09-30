@@ -2,10 +2,10 @@
 description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 15%
+source-wordcount: '803'
+ht-degree: 14%
 
 ---
 
@@ -33,6 +33,8 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 ## Grupo de informes del panel {#report-suite}
 
 Las tablas y visualizaciones de un panel derivan datos del grupo [!UICONTROL de] informes seleccionado en la parte superior derecha del panel. El grupo de informes también determina qué componentes están disponibles en el carril izquierdo. Dentro de un proyecto, puede utilizar uno o [varios grupos](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) de informes en función de los casos de uso de la análisis.
+
+La lista de los grupos de informes se ordena según la relevancia, que Adobe define en función de la frecuencia y la frecuencia con que el usuario actual ha utilizado el grupo y la frecuencia con que se utiliza dentro de la organización.
 
 ![](assets/panel-report-suite.png)
 
@@ -72,10 +74,11 @@ Los filtros desplegables también se pueden utilizar para consolidar muchos proy
 
 **Crear y utilizar filtros desplegables:**
 
-![](assets/create-dropdown.png)
-
 1. Para crear un filtro desplegable con elementos [!UICONTROL de]Dimension, como valores dentro de la dimensión de Canal [!UICONTROL de] marketing, haga clic en el icono de flecha derecha junto a la dimensión en el carril izquierdo. Esto mostrará todos los elementos disponibles. Seleccione uno o varios elementos de componente en el carril izquierdo y suéltelos en la zona desplegable del panel **mientras mantiene pulsada la tecla** Mayús. Esto convertirá los componentes en un filtro desplegable, en lugar de en un solo segmento.
 1. Para crear un filtro desplegable con otro componente, como métricas, segmentos o intervalos de fechas, seleccione un tipo de componente en el carril izquierdo y colóquelo en la zona desplegable del panel **mientras mantiene pulsada la tecla** Mayús.
 1. Seleccione una de las opciones de la lista desplegable para cambiar los datos en el panel. You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
+![](assets/create-dropdown.png)
+
 [Vea el vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) para obtener más información sobre cómo agregar filtros desplegables al proyecto.
+
