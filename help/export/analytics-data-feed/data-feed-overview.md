@@ -3,11 +3,11 @@ description: Los datos que se recopilan de sitios web y aplicaciones móviles, o
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Resumen de la fuente de datos de Analytics
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 98%
 
 ---
 
@@ -68,4 +68,4 @@ Una vez que haya comprendido el flujo de trabajo básico de la obtención de fue
 
 Navegación de vídeo en la interfaz de fuente de datos:
 
->[!VIDEO](https://www.youtube.com/watch?v=m_fb--gNtR4)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
