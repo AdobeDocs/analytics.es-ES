@@ -1,12 +1,11 @@
 ---
-description: Gestione proyectos programados de Analysis Workspace.
+description: Gestione proyectos programados de Analysis Workspace
 keywords: Analysis Workspace
 title: Administrador de proyectos programados
-topic: Reports and analytics
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 100%
 
