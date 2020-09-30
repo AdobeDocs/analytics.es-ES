@@ -1,17 +1,17 @@
 ---
 description: Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega.
 keywords: Analysis Workspace
-title: Proyectos programados
+title: Programar proyectos
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '468'
+ht-degree: 99%
 
 ---
 
 
-# Proyectos programados
+# Programar proyectos
 
 En el **menú Compartir** de Workspace, puede enviar proyectos de Analysis Workspace por correo electrónico a destinatarios seleccionados. Los archivos se pueden enviar en formato CSV o PDF.
 
