@@ -2,10 +2,10 @@
 description: Esta sección contiene conceptos clave de Adobe Analytics, una breve descripción del concepto y un vínculo a documentación específica con información adicional sobre el tema.
 title: 'Adobe Analytics: conceptos clave'
 translation-type: tm+mt
-source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1864'
+ht-degree: 97%
 
 ---
 
@@ -113,5 +113,5 @@ Haga clic [aquí](/help/technotes/terms.md) para ver un glosario ampliado de té
 | DTM y Adobe Launch | Consulte Herramientas de Analytics. |  |
 | VISTA | Permite aplicar lógica del lado del servidor para alterar o segmentar datos a medida que se recopilan. | [Reglas de VISTA](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | Reglas de procesamiento | Posibilidad de establecer, modificar y copiar variables en la interfaz de usuario de Analytics para modificar los datos recopilados. | [Reglas de procesamiento](/help/admin/admin/c-processing-rules/processing-rules.md) |
-| Opciones de depuración | Hay varios depuradores y detectores de paquetes disponibles para ayudarle a validar la implementación, incluido el depurador de Adobe Experience Cloud. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=es) |
+| Opciones de depuración | Existen varios depuradores y husmeadores de paquetes disponibles para ayudar a validar la implementación, incluido el depurador de Adobe Experience Cloud. | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=es) |
 | API de inserción de datos | La API de inserción de datos proporciona un mecanismo para la recopilación y el envío de datos del lado del servidor a los servidores de Experience Cloud. En lugar de utilizar señalizaciones JavaScript en cada página web para transmitir datos de visitantes a los servidores de Experience Cloud, la recopilación de datos del lado del servidor recopila datos basados únicamente en solicitudes del navegador web y respuestas del servidor web. | [Pasos para implementar la API de inserción de datos de Adobe Analytics mediante POST](https://helpx.adobe.com/es/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
