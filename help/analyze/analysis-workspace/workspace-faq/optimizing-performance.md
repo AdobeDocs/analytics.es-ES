@@ -3,10 +3,10 @@ description: 'null'
 title: Optimizar rendimiento de Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 85%
+source-wordcount: '1313'
+ht-degree: 84%
 
 ---
 
@@ -42,13 +42,13 @@ El intervalo de datos que se solicita en un proyecto influye en el rendimiento d
 
 **Prácticas recomendadas para intervalos de fechas**
 
-Siempre que sea posible, no incorpore más datos de los que necesita. Reduzca el calendario del panel a las fechas relevantes para la análisis o utilice componentes de intervalo de fechas (componentes púrpura) en las tablas improvisadas. Los intervalos de fechas utilizados en una tabla anulan el intervalo de fechas del panel. Por ejemplo, puede agregar el mes pasado, la semana pasada y ayer a las columnas de la tabla para solicitar esos intervalos de datos específicos. Para obtener más información acerca del trabajo con intervalos de fechas en Analysis Workspace, consulte [este vídeo](https://www.youtube.com/watch?v=MIkT6FZ5gKk).
+Siempre que sea posible, no incorpore más datos de los que necesita. Reduzca el calendario del panel a las fechas relevantes para la análisis o utilice componentes de intervalo de fechas (componentes púrpura) en las tablas improvisadas. Los intervalos de fechas utilizados en una tabla anulan el intervalo de fechas del panel. Por ejemplo, puede agregar el mes pasado, la semana pasada y ayer a las columnas de la tabla para solicitar esos intervalos de datos específicos. Para obtener más información acerca del trabajo con intervalos de fechas en Analysis Workspace, consulte [este vídeo](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html).
 
 Minimice el número de comparaciones año tras año utilizadas en el proyecto. Cuando se calcula una comparación año tras año, se analizan los 13 meses completos de datos entre los meses de interés. Esto tiene el mismo impacto que cambiar el intervalo de fechas del panel a los últimos 13 meses.
 
 ## Número de visualizaciones
 
-El número de visualizaciones contenidas en un proyecto afectará a la respuesta general del Analysis Workspace. Esto se debe a que cada visualización, ya sea una tabla o un gráfico, tiene una fuente de datos que debe solicitarse.
+El número de visualizaciones contenidas en un proyecto afectará a la respuesta general de Analysis Workspace. Esto se debe a que cada visualización, ya sea una tabla o un gráfico, tiene una fuente de datos que debe solicitarse.
 
 **Práctica recomendada para el número de visualizaciones**
 
@@ -79,7 +79,7 @@ Un panel puede contener muchas visualizaciones y, como resultado, el número de 
 
 No intente agregar todo en un proyecto: cree proyectos separados que sirvan a un propósito o a un grupo de personas interesadas específico. Utilice etiquetas para organizar los proyectos por temas clave y comparta proyectos relacionados con grupos de personas interesadas.
 
-Si desea una mayor organización de los proyectos, recuerde que existe la opción de realizar [vínculos directos](https://www.youtube.com/watch?v=6IOEewflG2U) a su proyecto. Cree un índice interno de proyectos, de modo que las personas interesadas encuentren más fácilmente lo que necesitan.
+Si desea una mayor organización de los proyectos, recuerde que existe la opción de realizar [vínculos directos](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html) a su proyecto. Cree un índice interno de proyectos, de modo que las personas interesadas encuentren más fácilmente lo que necesitan.
 
 Si se necesitan muchos paneles en un proyecto, contraiga los paneles antes de guardarlos y compartirlos. Cuando se carga un proyecto, Analysis Workspace solo carga el contenido de los paneles expandidos. Los paneles contraídos no se cargarán hasta que el usuario los expanda. Este enfoque ayuda de dos maneras:
 
