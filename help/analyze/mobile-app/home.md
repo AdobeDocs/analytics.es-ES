@@ -1,10 +1,10 @@
 ---
 title: 'Paneles de Adobe Analytics: Información general'
 description: Documentación del producto e instrucciones para los paneles de Adobe Analytics
-translation-type: ht
-source-git-commit: a905f74dc3d809bbe1542d7547c75ee64c710fb9
-workflow-type: ht
-source-wordcount: '224'
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ Para obtener más información sobre [!UICONTROL paneles] de Adobe Analytics, co
 
 * [Guía del gestor de datos:](https://docs.adobe.com/content/help/es-ES/analytics/analyze/mobapp/curator.html) Esta guía está diseñada para ayudar a los gestores de datos a configurar informes de valoración en los [!UICONTROL paneles] para sus usuarios ejecutivos. Los gestores de datos pueden ser administradores de la empresa o personas con otras funciones, y se encargan de configurar los informes de valoración.
 
-   Para ver un vídeo de información general sobre esta guía, consulte [Generador de informes de valoración de paneles de Adobe Analytics](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be).
+   Para ver un vídeo de información general sobre esta guía, consulte [Generador de informes de valoración de paneles de Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html).
 
 
 * [Guía rápida del usuario ejecutivo](https://docs.adobe.com/content/help/es-ES/analytics/analyze/mobapp/executive.html): Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar los informes de valoración sobre los [!UICONTROL paneles]. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
 
-   Para ver un vídeo que resalta esta información, consulte [Experiencia en la aplicación de Adobe Analytics](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be).
+   Para ver un vídeo que resalta esta información, consulte [Experiencia en la aplicación de Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html).
