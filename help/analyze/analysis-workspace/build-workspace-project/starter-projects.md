@@ -3,10 +3,10 @@ description: 'null'
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 100%
+source-wordcount: '1389'
+ht-degree: 93%
 
 ---
 
@@ -55,7 +55,7 @@ Al abrir un espacio de trabajo por primera vez, las plantillas aparecen en el pa
 
 Puede utilizar estas plantillas rellenadas previamente tal cual, o puede adaptarlas a sus necesidades (mediante la adición o sustitución de métricas o visualizaciones, por ejemplo) y guardarlas con un nuevo nombre.
 
-[Plantillas estándar en Analysis Workspace en YouTube](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6) (2:46)
+Este es un tutorial de vídeo sobre plantillas [estándar en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a responder.
 
@@ -65,7 +65,7 @@ Estas plantillas estándar le guían a través de la terminología común y de l
 
 * **Tutorial de capacitación - Análisis de búsqueda interna**: el tutorial de búsqueda interna ayuda a comprender qué buscan los visitantes en el sitio web o la aplicación, pero no qué encuentran. Analizar este tipo de datos puede brindar oportunidades de optimización de contenido.
 
-* **Tutorial de capacitación - Análisis de marketing**: este tutorial muestra cómo crear un análisis de marketing para los ejecutivos, incluidas las dimensiones y métricas personalizadas que son importantes.
+* **Tutorial de capacitación - Análisis** de mercadotecnia: Este tutorial muestra cómo crear una análisis de marketing para los ejecutivos, incluidas las dimensiones y métricas personalizadas que son importantes.
 
 ### Publicidad
 
@@ -77,9 +77,9 @@ Estas plantillas estándar le guían a través de la terminología común y de l
 
 ### Comercio
 
-* **Magento: Marketing and Commerce**: Esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo introductorio, consulte:
+* **Magento: Marketing y comercio**: Esta plantilla desglosa la conversión de comercio electrónico por atribución de canales de marketing, así como también proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo introductorio, consulte:
 
->[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### Medios
 
