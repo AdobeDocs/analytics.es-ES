@@ -3,15 +3,15 @@ description: Puede descargar datos de Analysis Workspace copiándolos o en forma
 title: Descarga de archivos PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Descarga de archivos PDF o CSV desde Workspace
+# Descarga de archivos PDF o CSV
 
 Existen varias maneras de exportar datos desde Analysis Workspace, según el conjunto de datos que desee analizar fuera de la herramienta y quién necesite recibir la información. Los datos exportados pueden tener la forma de datos copiados, archivos CSV o archivos PDF. Normalmente, se prefiere un PDF si desea incluir visualizaciones en el archivo, mientras que un CSV (o datos copiados) es preferible si simplemente desea datos de texto sin formato.
 
@@ -23,7 +23,7 @@ Para descargar un proyecto completo, vaya a **[!UICONTROL Proyecto > Descargar c
 
 Para las descargas de proyectos, tenga en cuenta:
 
-* El proyecto se puede guardar o no guardar cuando se solicita una descarga del proyecto. Sin embargo, solo se pueden [programar](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)los proyectos guardados.
+* El proyecto se puede guardar o no guardar cuando se solicita una descarga del proyecto. Sin embargo, solo se pueden [programar](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)los proyectos guardados.
 * Los archivos PDF descargados en el navegador pueden tardar varios minutos en exportarse, ya que el proyecto se vuelve a ejecutar en servidores de Adobe antes de procesarse en formato PDF. Se recomienda no abandonar el proyecto hasta que el PDF se descargue en el explorador. Sin embargo, puede seguir realizando cambios en el proyecto mientras espera. Si un PDF tarda más de 5 minutos en procesarse, se le pedirá que lo envíe por correo electrónico.
 * Las descargas de PDF se representan como una sola página sin ninguna paginación aplicada.
 * Cuando se procesa un proyecto en PDF, se procesa lo que hay en la página. Si un proyecto tiene paneles y visualizaciones de tamaño personalizado, deberá cambiarlos a tamaño automático (mediante el botón que hay en la esquina superior derecha) para que no se trunque el contenido.
