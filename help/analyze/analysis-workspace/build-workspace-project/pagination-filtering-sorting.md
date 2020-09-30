@@ -3,16 +3,19 @@ description: 'null'
 title: Paginación, filtrado y ordenación de tablas
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 81%
 
 ---
 
 
 # Paginación, filtrado y ordenación de tablas
 
-Vea este vídeo en YouTube para obtener una descripción general:
+Para obtener información general, consulte este tutorial de vídeo:
 
-[Paginación, filtrado y ordenación de tablas en Analysis Workspace](https://www.youtube.com/watch?v=2zxpRPCGspg)
+[Paginación, filtrado y ordenación de tablas en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## Opciones de filtrado avanzadas {#section_36E92E31442B4EBCB052073590C1F025}
 
