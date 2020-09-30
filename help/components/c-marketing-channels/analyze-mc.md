@@ -1,11 +1,11 @@
 ---
 title: Analizar Canales de marketing
 description: Obtenga información sobre cómo utilizar las dimensiones de Canales de marketing en Workspace.
-translation-type: ht
-source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 94%
 
 ---
 
@@ -52,12 +52,10 @@ Puede utilizar [Attribution IQ](https://docs.adobe.com/content/help/es-ES/analyt
 
 Observe cómo la misma métrica (Pedidos en línea) genera resultados diferentes al aplicar modelos de atribución diferentes.
 
-Aquí hay algunos videos que explican el Attribution IQ con más detalle: [lista de reproducción de Attribution IQ](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR).
-
 ## Análisis de marketing entre fichas
 
 Con el Canal de primer contacto heredado y el Canal de último contacto, puede obtener una vista útil en las interacciones de canal:
 
 ![](assets/mc-viz6.png)
 
-Obtenga más información sobre la análisis de marketing entre fichas en [este vídeo](https://www.youtube.com/watch?v=M3EOdONa-3E).
+Obtenga más información sobre la análisis de marketing entre fichas en este vídeo: [Uso de la Análisis entre fichas para explorar la atribución básica de marketing en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
