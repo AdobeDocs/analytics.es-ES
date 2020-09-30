@@ -2,11 +2,11 @@
 description: Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace.
 title: Resumen de la Detección de anomalías
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 90%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 Puede ver y analizar las anomalías de datos en contexto, dentro de Analysis Workspace.
 
-[Detección de anomalías en YouTube](https://www.youtube.com/watch?v=krXyQCjXoeU&amp;index=63&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
+[Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) de vídeo de detección de anomalías (4:53)
 
-[Análisis de contribución en YouTube](https://www.youtube.com/watch?v=MbpeJIADtGk&amp;index=64&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
+[Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) de vídeo de Análisis de contribución (3:20)
 
 >[!IMPORTANT]
 >
