@@ -3,11 +3,11 @@ description: El Administrador de segmentos ofrece numerosas maneras de conservar
 title: Administración de segmentos
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '507'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ El Administrador de segmentos de Analytics le muestra todos los segmentos que po
 
 ## Vídeo explicativo {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-En este [vídeo de YouTube de Adobe Analytics](https://www.youtube.com/watch?v=CdfOq98PTrg&amp;index=6&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) se proporciona una breve descripción sobre cómo utilizar el administrador de segmentos.
+En este [vídeo de de Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) se proporciona una breve descripción sobre cómo utilizar el administrador de segmentos.
 
 ## Interfaz de usuario del Administrador de segmentos {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
