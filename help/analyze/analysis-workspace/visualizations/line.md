@@ -3,10 +3,10 @@ description: Utilizar la visualización de líneas para representar conjuntos de
 title: Líneas
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
+source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 79%
+source-wordcount: '524'
+ht-degree: 64%
 
 ---
 
@@ -37,7 +37,7 @@ En **[!UICONTROL Configuración de la visualización]** > **[!UICONTROL Superpos
 
 ## Mostrar superposición de la línea de tendencia
 
-En **[!UICONTROL Configuración de la visualización]** > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar línea de tendencia]**, puede elegir añadir una línea de tendencia de regresión a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
+Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression or moving average trendline to your line series. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
 
 >[!TIP]
 >
@@ -45,7 +45,7 @@ En **[!UICONTROL Configuración de la visualización]** > **[!UICONTROL Superpos
 
 ![Línea de tendencia lineal](assets/show-linear-trendline.png)
 
-Todos los modelos se ajustan con los mínimos cuadrados normales:
+Todas las líneas de tendencia del modelo de regresión se ajustan con los mínimos cuadrados ordinarios:
 
 | Modelo | Descripción |
 | --- | --- |
@@ -54,3 +54,4 @@ Todos los modelos se ajustan con los mínimos cuadrados normales:
 | Exponencial | Crea una línea curva y resulta útil cuando los datos suben o bajan a tasas de crecimiento constantes. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a + e^(b * x)` |
 | Power | Crea una línea curva y resulta útil para conjuntos de datos que comparan mediciones que aumentan a una velocidad específica. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a * x^b` |
 | Valores cuadráticos | Busca el mejor ajuste para un conjunto de datos con forma de parábola (cóncava arriba o abajo). Ecuación: `y = a + b * x + c * x^2` |
+| Promedio móvil | Crea una línea de tendencia suave basada en un conjunto de promedios. Algunos ejemplos son: promedio móvil de 7 días o promedio móvil de 4 semanas. También conocido como promedio móvil, un promedio móvil calcula el promedio de un rango anterior, lo utiliza como punto de datos de línea de tendencia y luego se mueve al período siguiente para repetirse. La entrada &#39;Períodos&#39; define el intervalo para calcular el promedio entre |
