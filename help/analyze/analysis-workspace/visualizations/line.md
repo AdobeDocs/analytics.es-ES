@@ -3,10 +3,10 @@ description: Utilizar la visualización de líneas para representar conjuntos de
 title: Líneas
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: c607489f14057be10a5582b8e6d9e07d7f075b6f
+source-git-commit: ac3a859a7ee54eb772b7cd947f3cdaad861b1078
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 64%
+source-wordcount: '511'
+ht-degree: 65%
 
 ---
 
@@ -41,7 +41,7 @@ Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!
 
 >[!TIP]
 >
->Recomendamos que las líneas de tendencia se apliquen a los datos que no incluyan datos actuales (parciales) o futuras, ya que éstas distorsionarán la línea de tendencia. Sin embargo, si necesita incluir fechas futuras, elimine ceros de los datos para evitar el sesgo de esos días. Para ello, vaya a la tabla del origen de datos de la visualización y elija la columna de métrica. A continuación, vaya a Configuración [!UICONTROL de] columna y marque **[!UICONTROL Interpretar cero como ningún valor]**).
+>Se recomienda que las líneas de tendencia se apliquen a los datos que no incluyan fechas actuales (datos parciales) o futuras, ya que éstas distorsionarán la línea de tendencia. Sin embargo, si necesita incluir fechas futuras, elimine ceros de los datos para evitar el sesgo de esos días. Para ello, vaya a la tabla de origen de datos de la visualización, elija la columna de métrica y, a continuación, active Configuración **[!UICONTROL de]** columna > **[!UICONTROL Interpretar cero como ningún valor]**.
 
 ![Línea de tendencia lineal](assets/show-linear-trendline.png)
 
@@ -54,4 +54,4 @@ Todas las líneas de tendencia del modelo de regresión se ajustan con los míni
 | Exponencial | Crea una línea curva y resulta útil cuando los datos suben o bajan a tasas de crecimiento constantes. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a + e^(b * x)` |
 | Power | Crea una línea curva y resulta útil para conjuntos de datos que comparan mediciones que aumentan a una velocidad específica. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a * x^b` |
 | Valores cuadráticos | Busca el mejor ajuste para un conjunto de datos con forma de parábola (cóncava arriba o abajo). Ecuación: `y = a + b * x + c * x^2` |
-| Promedio móvil | Crea una línea de tendencia suave basada en un conjunto de promedios. Algunos ejemplos son: promedio móvil de 7 días o promedio móvil de 4 semanas. También conocido como promedio móvil, un promedio móvil calcula el promedio de un rango anterior, lo utiliza como punto de datos de línea de tendencia y luego se mueve al período siguiente para repetirse. La entrada &#39;Períodos&#39; define el intervalo para calcular el promedio entre |
+| Promedio móvil | Crea una línea de tendencia suave basada en un conjunto de promedios. También conocido como promedio móvil, un promedio móvil utiliza un número específico de puntos de datos (determinado por la selección de &#39;Períodos&#39;), los promedia y utiliza el promedio como punto en la línea. Algunos ejemplos son: promedio móvil de 7 días o promedio móvil de 4 semanas. |
