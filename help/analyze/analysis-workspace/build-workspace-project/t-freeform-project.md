@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Creación de un proyecto de Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel improvisada.
 
-Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz de Analysis Workspace y verá cómo se crea un proyecto. Para casos de uso específicos, consulte [Casos de uso de Analysis Workspace](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md).
+Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz de Analysis Workspace y verá cómo se crea un proyecto.
 
 ## Crear un proyecto
 
@@ -117,7 +117,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Se pueden arrastrar solamente en el nivel de panel, pero puede crear segmentos en línea en la tabla de datos. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Casos de uso de Analysis Workspace</a> para obtener más información. </p> </td> 
+   <td colname="col2"> <p>Se pueden arrastrar solamente en el nivel de panel, pero puede crear segmentos en línea en la tabla de datos. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segments </a> for more information. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de fechas y granularidades (violeta) </td> 
