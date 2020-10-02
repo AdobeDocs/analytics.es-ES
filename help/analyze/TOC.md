@@ -5,9 +5,9 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 translation-type: tm+mt
-source-git-commit: b4c435bee3cca701301b380adaf92e346b0a93e5
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1086'
 ht-degree: 97%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 97%
    + [Novedades en Analysis Workspace](analysis-workspace/new-features-in-analysis-workspace.md)
    + Creación de proyectos de Workspace {#build-workspace-project}
       + [Creación de un proyecto: Resumen](analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [Creación de un proyecto de Workspace](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [Guardar proyectos](analysis-workspace/build-workspace-project/save-projects.md)
       + [Plantillas](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Varios grupos de informes en Workspace](analysis-workspace/build-workspace-project/multiple-report-suites.md)
