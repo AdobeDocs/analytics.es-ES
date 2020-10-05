@@ -3,10 +3,10 @@ description: 'null'
 title: Optimizar rendimiento de Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 8ac408613d9aae1745cc6b876ef2a4c252f0665d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 84%
+source-wordcount: '1381'
+ht-degree: 80%
 
 ---
 
@@ -61,7 +61,7 @@ El tipo de visualización agregado (p. ej., abandonos o tabla improvisada) no ti
 * El intervalo de datos solicitado, como se ha mencionado antes.
 * El número de segmentos aplicados; por ejemplo, los segmentos utilizados como columnas de una tabla improvisada.
 * Uso de segmentos intrincados
-* [Filas o columnas de elementos manuales en tablas improvisada](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)
+* [Filas o columnas de elementos manuales en tablas improvisada](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
 * Los filtros aplicados a las filas de una tabla improvisada.
 * El número de métricas incluidas, en especial las métricas calculadas que utilizan segmentos.
 
@@ -99,10 +99,10 @@ El número de usuarios que accede a Analysis Workspace o a proyectos específico
 Puede encontrar errores al interactuar con Analysis Workspace. Los errores pueden producirse por varios motivos. Los que se enumeran a continuación son los más comunes.
 
 | Mensaje de error | ¿Por qué ocurre esto? |
-|---|---|
-| `The report suite is experiencing unusually heavy reporting. Please try again later.` | Su organización está intentando ejecutar demasiadas solicitudes simultáneas en un grupo de informes específico. Los factores que contribuyen a este error son las solicitudes de API, los proyectos programados, los informes programados, las alertas programadas y los usuarios simultáneos que realizan solicitudes de informes. Le recomendamos que las solicitudes y programaciones del grupo de informes se extiendan de manera más uniforme durante todo el día. |
-| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe está experimentando un problema que debe resolverse. Le recomendamos que envíe el código de error mediante una solicitud del Servicio de atención al cliente. |
-| `The request is too complex.` | La solicitud de informe es demasiado grande y no se puede ejecutar. Los contribuyentes a este error son los tiempos de espera debido al tamaño de la solicitud, demasiados elementos coincidentes en un segmento o filtro de búsqueda, demasiadas métricas incluidas, combinaciones incompatibles de dimensiones y métricas, etc. Le recomendamos que simplifique la solicitud. |
-| `One of the segments or the search in this visualization contains a text search that returned too many results.` | Se recomienda reducir los criterios de texto de búsqueda y volver a intentar la solicitud. |
-| `This dimension does not currently support non-default attribution models.` | Se recomienda reemplazar la dimensión de la tabla por una que sea compatible con [Attribution IQ](../attribution/overview.md). |
-| `Your request failed as a result of too many columns or pre-configured rows.` | Se recomienda eliminar algunas de las columnas o filas, o bien dividirlas en visualizaciones independientes. |
+| --- | --- |
+| [!UICONTROL Está grupo de informes está experimentando una creación de informes inusualmente alta. Inténtelo de nuevo más tarde.] | Su organización está intentando ejecutar demasiadas solicitudes simultáneas en un grupo de informes específico. Los factores que contribuyen a este error son las solicitudes de API, los proyectos programados, los informes programados, las alertas programadas y los usuarios simultáneos que realizan solicitudes de informes. Le recomendamos que las solicitudes y programaciones del grupo de informes se extiendan de manera más uniforme durante todo el día. |
+| [!UICONTROL Se ha producido un error del sistema. Registre una solicitud del Servicio de atención al cliente en Ayuda > Enviar ticket de asistencia técnica e incluya su código de error.] | Adobe está experimentando un problema que debe resolverse. Le recomendamos que envíe el código de error mediante una solicitud del Servicio de atención al cliente. |
+| [!UICONTROL La solicitud es demasiado compleja.] | La solicitud de informe es demasiado grande y no se puede ejecutar. Los contribuyentes a este error son los tiempos de espera debido al tamaño de la solicitud, demasiados elementos coincidentes en un segmento o filtro de búsqueda, demasiadas métricas incluidas, combinaciones incompatibles de dimensiones y métricas, etc. Le recomendamos que simplifique la solicitud. |
+| [!UICONTROL Uno de los segmentos o la búsqueda en esta visualización contiene una búsqueda de texto que arrojó demasiados resultados.] | Se recomienda reducir los criterios de texto de búsqueda y volver a intentar la solicitud. |
+| [!UICONTROL Actualmente, esta dimensión no admite modelos de atribución no predeterminados.] | Se recomienda reemplazar la dimensión de la tabla por una que sea compatible con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
+| [!UICONTROL Su solicitud falló como resultado de demasiadas columnas o filas preconfiguradas.] | Se recomienda eliminar algunas de las columnas o filas, o bien dividirlas en visualizaciones independientes. |
