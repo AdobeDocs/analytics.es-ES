@@ -1,18 +1,18 @@
 ---
 description: Explica la nueva estrategia de lanzamiento continuo de funcionalidades para Adobe Analytics
 title: Versiones de funcionalidades de Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Versiones de funcionalidades de Adobe Analytics
 
-Históricamente, las versiones de funcionalidades de Adobe Analytics seguían un calendario mensual fijo. A partir de abril de 2020, Adobe Analytics se trasladó a un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funciones.
+Históricamente, las versiones de funcionalidades de Adobe Analytics seguían un calendario mensual fijo. Desde abril de 2020, Adobe Analytics se trasladó a un modelo de envío continuo que permite un enfoque más escalable y gradual de la implementación de funcionalidades.
 
 ## Estrategia de lanzamiento
 
@@ -28,7 +28,7 @@ Con cada versión de la funcionalidad, los plazos desde la fase de producción h
 
 ## Indicadores de características
 
-Los indicadores de características se utilizan para controlar la visibilidad de las nuevas funciones durante la versión. Adobe recomienda añadir app.launchdarkly.com a la [lista de permitidos](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) del cortafuegos para disfrutar de una experiencia óptima durante la versión. Poco después de que se llegue a GA, se elimina la bandera.
+Los indicadores de características se utilizan para controlar la visibilidad de las nuevas funciones durante el lanzamiento. Adobe recomienda añadir app.launchdarkly.com a la [lista de permitidos](https://docs.adobe.com/content/help/es-ES/analytics/technotes/ip-addresses.html) del cortafuegos para disfrutar de una experiencia óptima durante el lanzamiento. Poco después de que se llegue a GA, se elimina el indicador.
 
 Puede realizar la vista de los indicadores de funciones activas en cualquier momento en **Ayuda > Acerca de Workspace > Indicadores** de funciones activas.
 
