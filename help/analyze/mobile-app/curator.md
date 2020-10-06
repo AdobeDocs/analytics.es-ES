@@ -2,7 +2,7 @@
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
+source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
 workflow-type: tm+mt
 source-wordcount: '2376'
 ht-degree: 94%
@@ -11,10 +11,6 @@ ht-degree: 94%
 
 
 # Guía del gestor de datos para paneles de Adobe Analytics
-
->[!IMPORTANT]
->
->A partir de octubre de 2020, Adobe está implementando gradualmente una serie de mejoras para optimizar el rendimiento de la aplicación &quot;Adobe Analytics paneles&quot;. Estas mejoras se centran en el almacenamiento en caché de datos históricos de Analytics que se utilizan para rellenar cuadros de mandos con fechas (excluido el día actual). Estos datos se almacenarán en caché durante un máximo de 24 horas en una cuenta segura de almacenamiento público en la nube de Microsoft Azure. Comuníquese con el CSM si desea exclusión estas funciones de mejora de rendimiento.
 
 La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo que muestra esta información, consulte el vídeo del Generador de cuadros de mando de paneles de Adobe Analytics:
 
@@ -263,3 +259,7 @@ Pulse la opción y elija una subcategoría para la sugerencia. En el formulario 
 **Para hacer una pregunta**:
 
 Pulse la opción y escriba su dirección de correo electrónico en el campo superior y su pregunta en el campo inferior. Al mensaje se adjunta automáticamente una captura de pantalla, pero puede eliminarla si lo desea tocando la **X** de la imagen adjunta. También tiene la opción de grabar la pantalla, agregar más capturas de pantalla o adjuntar archivos. Para enviar la pregunta, pulse el icono del avión de papel en la parte superior derecha del formulario.
+
+>[!IMPORTANT]
+>
+>A partir de octubre de 2020, Adobe está implementando gradualmente una serie de mejoras para optimizar el rendimiento de la aplicación &quot;Adobe Analytics paneles&quot;. Estas mejoras se centran en el almacenamiento en caché de datos históricos de Analytics que se utilizan para rellenar cuadros de mandos con fechas (excluido el día actual). Estos datos se almacenarán en caché durante un máximo de 24 horas en una cuenta segura de almacenamiento público en la nube de Microsoft Azure. Comuníquese con el CSM si desea exclusión estas funciones de mejora de rendimiento.
