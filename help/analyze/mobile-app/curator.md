@@ -2,18 +2,23 @@
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 541c6c02a961b9a328539d719f3e0ecdb6642260
+source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 100%
+source-wordcount: '2376'
+ht-degree: 94%
 
 ---
 
 
-
 # Guía del gestor de datos para paneles de Adobe Analytics
 
-La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo donde se muestra esta información, consulte [Generador de informes de valoración de paneles de Adobe Analytics](https://youtu.be/tnnl6hrcP94).
+>[!IMPORTANT]
+>
+>A partir de octubre de 2020, Adobe está implementando gradualmente una serie de mejoras para optimizar el rendimiento de la aplicación &quot;Adobe Analytics paneles&quot;. Estas mejoras se centran en el almacenamiento en caché de datos históricos de Analytics que se utilizan para rellenar cuadros de mandos con fechas (excluido el día actual). Estos datos se almacenarán en caché durante un máximo de 24 horas en una cuenta segura de almacenamiento público en la nube de Microsoft Azure. Comuníquese con el CSM si desea exclusión estas funciones de mejora de rendimiento.
+
+La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo que muestra esta información, consulte el vídeo del Generador de cuadros de mando de paneles de Adobe Analytics:
+
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Primeros pasos
 
@@ -38,25 +43,20 @@ En la siguiente tabla se describen los términos para comprender la audiencia, l
 | Intervalo de fechas | El intervalo de fecha principal para la creación de informes de los paneles |
 | Intervalo de fecha de comparación | Intervalo de fecha que se compara con el intervalo de fecha principal |
 
- 
 ## Creación de un informe de valoración para los usuarios ejecutivos
 
 Un informe de valoración muestra visualizaciones de datos clave para los usuarios ejecutivos en un diseño en mosaico, tal y como se muestra a continuación:
 
-
 ![Ejemplo de informe de valoración](assets/intro_scorecard.png)
-
 
 Como gestor, puede utilizar el Generador de informes de valoración para configurar los mosaicos que aparecerán en el informe de valoración de su consumidor. También puede configurar cómo se pueden ajustar las vistas detalladas o los desgloses cuando se pulsen los mosaicos. La interfaz del Generador de informes de valoración se muestra a continuación:
 
 ![Generador de informes de valoración](assets/scorecard_builder.png)
 
-
 Para crear un informe de valoración, deberá hacer lo siguiente:
 
 1. Seleccione la plantilla informe de valoración móvil en blanco.
 2. Configure el informe de valoración con datos y guárdelo.
-
 
 ### Selección de la plantilla informe de valoración móvil en blanco
 
@@ -151,7 +151,7 @@ Una vez que haya compartido un informe de valoración, los destinatarios podrán
 
 Si agrega nuevos componentes al informe de valoración, es posible que desee volver a compartirlo (marque la opción **Compartir componentes incrustados**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.
 
-## Configuración de los usuarios ejecutivos de la aplicación
+## Configuración de usuarios ejecutivos con la aplicación
 
 En algunos casos, puede que los usuarios ejecutivos necesiten asistencia adicional para acceder a la aplicación y utilizarla. Esta sección presenta información que le ayudará a proporcionar esa asistencia.
 
@@ -205,7 +205,7 @@ Para ayudar a los usuarios ejecutivos:
    * Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
 
-3. Explique al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración que comparte (el primer informe de valoración a continuación se establece en modo oscuro; consulte **Preferencias** si cree que el usuario ejecutivo prefiere esta opción de visualización):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
 
    ![Explicación de los mosaicos](assets/newexplain.png)
 
