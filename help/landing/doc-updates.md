@@ -2,11 +2,11 @@
 title: Actualizaciones de documentación técnica para Adobe Analytics
 description: Actualizaciones importantes en el repositorio de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '397'
+ht-degree: 100%
 
 ---
 
@@ -35,10 +35,10 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 7 de febrero de 2020 | Actualizaciones para la [configuración de análisis](/help/components/cda/setup.md) de dispositivos cruzados y [preguntas frecuentes](/help/components/cda/faq.md). |
 | 4 de febrero de 2020 | Reescritura completa de la [guía del usuario de implementación](/help/implement/home.md). |
 | 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada con información sobre el nuevo [Generador de tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
-| 13 de enero de 2020 | Se añadieron [Adobe Analytics y las cookies de explorador](/help/technotes/cookies.md) |
+| 13 de enero de 2020 | Se añadieron [Adobe Analytics y las cookies de explorador](/help/technotes/cookies.md). |
 | 29 de noviembre de 2019 | Sobrescribir a la [Documentación de datos](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de noviembre de 2019 | Tema nuevo sobre el [fin de vida útil para aplicar restricciones de inicio de sesión de IP](/help/admin/company/login-restrictions-eol.md). |
-| 21 de noviembre de 2019 | Nuevo conjunto de documentación para [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html). |
+| 21 de noviembre de 2019 | Nuevo conjunto de documentación para [Customer Journey Analytics](https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-landing.html). |
 | 28 de septiembre de 2019 | Nuevos artículos sobre [variables de configuración para la implementación de Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 12 de septiembre de 2019 | Nueva documentación para [Journey IQ: Análisis entre dispositivos](/help/components/cda/overview.md). |
 | 28 de agosto de 2019 | Nuevo artículo sobre [aplicaciones web progresivas (PWA) para Analytics](/help/analyze/pwa/pwa.md) |
