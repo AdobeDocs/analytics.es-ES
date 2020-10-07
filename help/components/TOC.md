@@ -5,10 +5,10 @@ user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 99%
+source-wordcount: '622'
+ht-degree: 98%
 
 ---
 
@@ -214,6 +214,7 @@ ht-degree: 99%
    + [Configuración de análisis entre dispositivos](cda/setup.md)
    + [Cómo funcionan las reproducciones](cda/replay.md)
    + [Plantilla de CDA Workspace](cda/workspace-template.md)
+   + [Limitar un VRS a determinadas fechas](cda/limit-vrs-date.md)
    + [Preguntas más frecuentes sobre análisis entre dispositivos](cda/faq.md)
 + Alertas {#alerts}
    + [Alertas inteligentes](c-alerts/intellligent-alerts.md)
