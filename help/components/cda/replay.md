@@ -1,20 +1,20 @@
 ---
-title: Cómo se reproduce el trabajo
-description: Comprender el concepto de "reproducción" en Analytics entre dispositivos
+title: Cómo funcionan las reproducciones
+description: Comprender el concepto de "repetición" en Análisis entre dispositivos
 translation-type: tm+mt
-source-git-commit: 2230fa2c48358346d1d449f2db335ff75c6b1631
+source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 1%
+source-wordcount: '625'
+ht-degree: 2%
 
 ---
 
 
-# Cómo se reproduce el trabajo
+# Cómo funcionan las reproducciones
 
 Analytics entre dispositivos realiza dos pasadas de datos en un grupo de informes virtuales:
 
-* **Cosificación** en vivo: CDA intenta unir cada visita a medida que entra. Los nuevos dispositivos netos en el grupo de informes que nunca han iniciado sesión no suelen vincularse a este nivel. Los dispositivos ya reconocidos se vinculan inmediatamente.
+* **Cosificación** en vivo: CDA intenta unir cada visita a medida que entra. Los nuevos dispositivos netos del grupo de informes que nunca han iniciado sesión no suelen vincularse a este nivel. Los dispositivos ya reconocidos se vinculan inmediatamente.
 * **Reproducir**: Aproximadamente una vez a la semana, CDA &quot;reproduce&quot; datos basados en identificadores únicos que ha aprendido. En esta etapa se vinculan nuevos dispositivos al grupo de informes.
 
 ## Tabla de ejemplo
