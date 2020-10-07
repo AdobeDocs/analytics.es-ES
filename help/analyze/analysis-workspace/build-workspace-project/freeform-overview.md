@@ -5,7 +5,7 @@ title: 'Creación de un proyecto: Resumen'
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 86%
@@ -33,7 +33,7 @@ La lista de proyectos de Workspace contiene la siguiente información:
 
 | Elemento | Descripción |
 |---|---|
-| [Crear nuevo proyecto](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | Haga clic en este vínculo para iniciar un proyecto nuevo desde cero. |
+| [Crear nuevo proyecto](/help/analyze/analysis-workspace/home.md) | Haga clic en este vínculo para iniciar un proyecto nuevo desde cero. |
 | Administrar proyectos | Al hacer clic en este vínculo, accederá al administrador de componentes de proyectos ( **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Proyectos]**), que muestra todos sus proyectos y le permite etiquetar, compartir, eliminar, cambiar el nombre, aprobar, copiar y exportar proyectos a CSV. |
 | Establecer como página de aterrizaje | Convierte esta página en su página de aterrizaje de Workspace. |
 | Ver tutoriales | Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
