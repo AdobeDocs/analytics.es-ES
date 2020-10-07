@@ -4,10 +4,10 @@ title: Información general de Analysis Workspace
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 14%
+source-wordcount: '525'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ Analysis Workspace es una herramienta de navegador flexible que le permite crear
 
 Si sólo tiene unos minutos, vea esta breve descripción general para ver qué es posible.
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Iniciar sesión en Adobe Analytics {#login}
 
@@ -46,7 +46,7 @@ En el proyecto de Workspace, se accede a **paneles, tablas, visualizaciones y co
 
 ### Componentes
 
-**Los componentes** son dimensiones, métricas, segmentos o intervalos de fechas, todos los cuales se pueden combinar en una tabla **** improvisada para responder en inicio a las preguntas comerciales. Asegúrese de familiarizarse con cada tipo [de](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) componente antes de sumergirse en su análisis. Una vez dominada la terminología de los componentes, puede empezar a arrastrar y soltar para [crear la análisis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) en una tabla **** improvisada.
+**Los componentes** son dimensiones, métricas, segmentos o intervalos de fechas, todos los cuales se pueden combinar en una tabla **** improvisada para responder en inicio a las preguntas comerciales. Asegúrese de familiarizarse con cada tipo [de](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) componente antes de sumergirse en su análisis. Una vez dominada la terminología de los componentes, puede empezar a arrastrar y soltar para [crear la análisis](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) en una tabla **** improvisada.
 
 ![](assets/build-components.png)
 
