@@ -1,11 +1,11 @@
 ---
 description: Importe datos de seguimiento de aplicaciones de terceros en Analytics.
 title: Introducción a Data Connectors de Analytics
-translation-type: ht
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
-workflow-type: ht
-source-wordcount: '976'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
+workflow-type: tm+mt
+source-wordcount: '975'
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,9 @@ Para implementar correctamente los segmentos de remarketing se deben cumplir las
 
 >[!NOTE]
 >
->Si el producto se define sin un evento asociado, el evento prodView se activa automáticamente. Si no se cumplen los requisitos anteriores, no se informa correctamente de los segmentos de remarketing correspondientes.
+>If the product is defined without an associated event, the `prodView` event automatically fires.
+>
+>Si no se cumplen los requisitos anteriores, no se informa correctamente de los segmentos de remarketing correspondientes.
 
 [!UICONTROL Abandonos del carro de compras]: se activa después de que el usuario añada un producto al carro de compras:
 
