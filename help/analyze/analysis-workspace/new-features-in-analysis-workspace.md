@@ -3,9 +3,9 @@ description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7786'
 ht-degree: 99%
 
 ---
@@ -414,8 +414,7 @@ Nueva función y mejoras publicadas el 8 de febrero de 2018.
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > Plantillas personalizadas de Workspace </a> </p> </td> 
    <td colname="col2"> <p>Ahora puede crear sus propias plantillas de Workspace y guardarlas para que otros usuarios de su organización puedan empezar a trabajar con los datos pertinentes para ellos. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Nuevo modo para iniciar los proyectos </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>Al hacer clic en “nuevo proyecto”, se abre una pantalla nueva que le ofrece la posibilidad de empezar con </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">un proyecto en blanco, </li> 
@@ -498,7 +497,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
    <td colname="col2"> <p>La visualización Mapa, introducida en octubre de 2017, puede representarse ahora en PDF. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Intravínculos relativos</a> al guardar como/copiar un proyecto </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Intravínculos relativos</a> al guardar como/copiar un proyecto </p> </td> 
    <td colname="col2"> <p>Anteriormente, cuando se copiaba un proyecto o se utilizaba “Guardar como”, todos los intravínculos guardados apuntaban al proyecto original, y no al copiado. </p> <p>Ahora, los intravínculos son relativos al proyecto en el que residen después de la operación de copiar o guardar como. </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +567,7 @@ Nuevas funciones lanzadas el 26 de octubre de 2017.
    <td colname="col2"> <p>Ahora, cuando hay visualizaciones conectadas a una tabla improvisada o de conjuntos, el punto superior izquierdo (Configuración de fuentes de datos) muestra dichas visualizaciones. Al pasar el ratón por encima, se resalta la visualización vinculada y, al hacer clic en ella, se abre. </p> <p>Además, la casilla “Mostrar/ocultar tabla de datos” permite elegir si quiere ver o no esta tabla. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Se ha añadido event# a los nombres de evento del carril izquierdo </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Se ha añadido event# a los nombres de evento del carril izquierdo </a> </p> </td> 
    <td colname="col2"> <p>Antes de octubre de 2017, se añadieron evar# y prop# a los nombres de dimensión y se podía buscar en esos números. Ahora esta misma funcionalidad está disponible para los eventos. </p> <p>Ejemplo: ahora, “Suscripciones” figura en el carril izquierdo como “Suscripciones (evento1)”. </p> <p>Recuerde: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">El número de evento no aparece en la tabla (para abreviar los títulos). </li> 
@@ -576,7 +575,7 @@ Nuevas funciones lanzadas el 26 de octubre de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Dimensiones integradas, ordenadas en un orden lógico de forma predeterminada </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Dimensiones integradas, ordenadas en un orden lógico de forma predeterminada </a> </p> </td> 
    <td colname="col2"> <p>El criterio de ordenación predeterminado de algunas dimensiones integradas se ha actualizado en estos casos: </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">Cuando se arrastran a una tabla improvisada. </li> 
@@ -677,7 +676,7 @@ Nuevas funciones lanzadas el 17 de agosto de 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > Etiquetado de un proyecto mientras se guarda </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > Etiquetado de un proyecto mientras se guarda </a> </p> </td> 
    <td colname="col2"> <p>Ahora puede agregar etiquetas a un proyecto mientras lo guarda. </p> </td> 
   </tr> 
   <tr> 
