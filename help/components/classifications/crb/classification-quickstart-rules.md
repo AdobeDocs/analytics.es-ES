@@ -4,9 +4,9 @@ subtopic: Classifications
 title: Reglas de clasificación
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+workflow-type: tm+mt
 source-wordcount: '2018'
 ht-degree: 100%
 
@@ -327,10 +327,13 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
    >[!NOTE]
    >
    >Los grupos de informes se muestran en esta página *`only`* cuando se cumplen las siguientes condiciones:
-
-   * Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
-   (Consulte *`Variable`* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
-
+   >
+   >* Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
+      >
+      >   
+      (Consulte *`Variable`* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
+      >
+      >
    * Ha seleccionado el grupo de informes en la página **[!UICONTROL Grupos de informes disponibles]**, que se muestra después de hacer clic en [Agregar conjunto de reglas](/help/components/classifications/crb/classification-rule-set.md) para crear el conjunto de reglas.
 
 
