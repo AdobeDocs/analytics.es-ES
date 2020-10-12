@@ -325,7 +325,8 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
    Se muestra la página **[!UICONTROL Seleccionar grupos de informes]**.
 
    >[!NOTE]
-   Los grupos de informes se muestran en esta página *`only`* cuando se cumplen las siguientes condiciones:
+   >
+   >Los grupos de informes se muestran en esta página *`only`* cuando se cumplen las siguientes condiciones:
 
    * Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
    (Consulte *`Variable`* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
