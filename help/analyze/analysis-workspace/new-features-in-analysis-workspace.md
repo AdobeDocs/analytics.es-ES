@@ -3,22 +3,48 @@ description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 60bc50752c307aa83c11885380e0962243025373
 workflow-type: tm+mt
-source-wordcount: '7786'
-ht-degree: 99%
+source-wordcount: '8103'
+ht-degree: 98%
 
 ---
 
 
 # Novedades en Analysis Workspace
 
+Para acceder a las Notas de la versión de Adobe Experience Cloud en su conjunto, vaya [aquí](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
+
+## octubre de 2020
+
+Nuevas funciones lanzadas en octubre de 2020.
+
+| Función | Descripción |
+| --- | --- |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL El promedio móvil se ha agregado a la configuración de línea de tendencia de visualización de línea.]** Un promedio móvil utiliza una cantidad determinada de puntos de datos (definida por una selección de **[!UICONTROL Periodos]**), los promedia y utiliza el promedio como punto en la línea. |
+| [Página de ayuda de rendimiento](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | La página de ayuda de rendimiento de Analysis Workspace muestra los diferentes factores que afectan el rendimiento del proyecto y los vínculos a sugerencias para la optimización. |
+
+## Septiembre de 2020
+
+Nuevas funciones lanzadas en septiembre de 2020.
+
+| Función | Descripción |
+| --- | --- |
+| [descargar 50.000 elementos para una sola dimensión](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Ahora puede descargar 50.000 elementos para una sola dimensión en una tabla improvisada, con segmentos y filtros aplicados. Esto le permite acceder a más de 400 filas de datos fuera de Analysis Workspace. |
+| [Mejoras en la visualización de líneas](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de Línea. Esto puede resultar especialmente útil cuando las visualizaciones de Línea son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |
+| Nuevos intervalos de fechas | Se agregaron 5 nuevos intervalos de fechas para que pueda elegir entre intervalos de fechas que no incluyan datos de día parciales de hoy: Últimos 7 días completos, Últimos 14 días completos, Últimos 30 días completos, Últimos 60 días completos, Últimos 90 días completos |
+
+
+## Agosto de 2020
+
+No se lanzaron nuevas funciones en agosto de 2020.
+
 ## Julio de 2020
 
 Nueva función lanzada el 16 de julio de 2020.
 
 | Función | Descripción |
-|--- |--- |
+| --- | --- |
 | Nuevos ajustes preestablecidos de intervalo de fechas | Se añadieron 4 nuevos intervalos de fechas: ([!UICONTROL Esta semana/mes/trimestre/año (excluido hoy)]). Esto le permite elegir entre intervalos de fechas que no incluyen datos de día parcial de hoy. |
 
 ## Junio de 2020
@@ -115,7 +141,7 @@ Mejoras publicadas el 18 de julio de 2019.
 Mejoras publicadas el 13 de junio de 2019.
 
 | Mejora | Descripción |
-|--- |--- |
+| --- |--- |
 | Nuevos filtros predeterminados | Se han agregado nuevos filtros predeterminados a la búsqueda del carril izquierdo. Además de los filtros actuales (Dimensiones, Métricas, Aprobado, etc.), se han añadido nuevos filtros como Métricas calculadas, Atributos del cliente, eVars, Props, Vídeo, etc. para facilitar la búsqueda de los componentes que necesita. |
 
 ## Mayo de 2019
@@ -207,6 +233,7 @@ Nuevas funciones y mejoras publicadas el 13 de septiembre de 2018.
   </tr> 
  </tbody> 
 </table>
+
 ## Agosto de 2018
 
 Nuevas funciones y mejoras publicadas el 9 de agosto de 2018.
