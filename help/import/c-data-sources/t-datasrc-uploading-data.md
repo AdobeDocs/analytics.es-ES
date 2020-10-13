@@ -4,18 +4,16 @@ subtopic: Data sources
 title: Cargar un archivo de fuente de datos
 topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fb2a63432275c4ab621df263035400051ff6bb32
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 87%
 
 ---
 
 
 # Cargar un archivo de fuente de datos
-
-Pasos que describen cómo cargar un archivo de fuente de datos.
 
 Después de preparar un archivo de fuente de datos, debe enviarlo al sistema de fuentes de datos para que lo procese. Adobe mantiene varios servidores FTP donde se pueden cargar archivos de fuente de datos. Tenga en cuenta lo siguiente en relación con estos servidores FTP:
 
@@ -34,6 +32,7 @@ Después de preparar un archivo de fuente de datos, debe enviarlo al sistema de 
    El archivo [!DNL .fin] debe tener el mismo nombre que el archivo de fuente de datos, a excepción de la extensión de archivo. Adobe solamente colocará el archivo de fuente de datos en la cola de procesamiento cuando se cargue el archivo [!DNL .fin].
 
    No cargue el archivo hasta que se acaben de cargar todos los archivos de fuente de datos. Si no espera, puede que las fuentes de datos intenten procesar un archivo incompleto.
+1. Una vez cargado el archivo .fin, es importante que cierre la sesión del sitio FTP de fuentes de datos. El motivo es que Analytics utiliza eventos de cierre de sesión como activador para indicar que los archivos están listos para procesarse.
 1. Durante el procesamiento del archivo de fuente de datos, observe si aparece algún mensaje del sistema.
 
    Si durante el procesamiento del archivo se producen errores, el Administrador de fuentes de datos mostrará un mensaje relacionado.
