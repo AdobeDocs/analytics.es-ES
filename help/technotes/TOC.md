@@ -2,13 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Notas técnicas de Analytics
-breadcrumb-title: Tech Notes
-user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
+breadcrumb-title: Notas técnicas
+user-guide-description: Una base de conocimientos que contiene artículos útiles que no pertenecen a una herramienta o componente de análisis específico.
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 89%
+source-wordcount: '180'
+ht-degree: 90%
 
 ---
 
