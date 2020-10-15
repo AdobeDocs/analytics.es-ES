@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Guía de exportación de Analytics
-breadcrumb-title: Export Guide
-user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
+breadcrumb-title: Guía de exportación
+user-guide-description: Utilice las fuentes de datos para recibir una exportación diaria o por hora de datos sin procesar. Utilice Data Warehouse para recuperar un extracto de datos en una hoja de cálculo.
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '289'
 ht-degree: 98%
 
 ---
