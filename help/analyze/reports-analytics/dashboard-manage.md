@@ -4,10 +4,10 @@ subtopic: Dashboards
 title: Administrador de tableros
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '807'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -20,10 +20,6 @@ Utilice el administrador de paneles para copiar, compartir, archivar y programar
 >[!IMPORTANT]
 >
 >La práctica recomendada al utilizar el administrador de paneles es no tener más de 300 paneles para un solo usuario. Además, tenga en cuenta que el administrador carga todos los paneles compartidos a continuación, por lo que debe ser prudente al compartir los paneles.
-
-## Administrador de tableros
-
-Utilice el administrador de paneles para copiar, compartir, archivar y programar tableros para su envío.
 
 Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Tableros]**.
 
