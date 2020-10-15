@@ -4,20 +4,16 @@ subtopic: Classifications
 title: Conjuntos de reglas de clasificación
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-translation-type: ht
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: ht
-source-wordcount: '442'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
 
 
 # Conjuntos de reglas de clasificación
-
-Un conjunto de reglas es un grupo de reglas de clasificación para una variable específica. La variable se aplica al conjunto de reglas. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes.
-
-## Conjuntos de reglas de clasificación
 
 Un conjunto de reglas es un grupo de reglas de clasificación para una variable específica. La variable se aplica al conjunto de reglas. Si se desea crear varios conjuntos de reglas para una variable, debe aplicarse cada uno de estos conjuntos a varios grupos de informes.
 
