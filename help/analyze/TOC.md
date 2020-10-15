@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Guía de herramientas de Analytics
-breadcrumb-title: Tools Guide
-user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
-translation-type: ht
+breadcrumb-title: Guía de herramientas
+user-guide-description: Proporciona instrucciones sobre procedimientos para Analysis Workspace, la herramienta de análisis y visualización más importante para Analytics, así como herramientas como Report Builder y Activity Map.
+translation-type: tm+mt
 source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
-workflow-type: ht
-source-wordcount: '1086'
+workflow-type: tm+mt
+source-wordcount: '1112'
 ht-degree: 100%
 
 ---
