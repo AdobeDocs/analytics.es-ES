@@ -3,7 +3,7 @@ description: Factores que afectan al rendimiento y las optimizaciones del espaci
 title: Optimización y factores de rendimiento de Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 93eb4f4c8f2990c8a4485f75ef5c13a00a28f19d
+source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 24%
@@ -11,7 +11,7 @@ ht-degree: 24%
 ---
 
 
-# Optimizar rendimiento de Analysis Workspace
+# Optimize [!UICONTROL Analysis Workspace performance]
 
 Varios factores pueden influir en el rendimiento de un proyecto dentro de Analysis Workspace. Es importante saber cuáles son esos colaboradores antes de que se cree un proyecto para que se pueda planificar y construir el proyecto de la manera más óptima. Esta página incluye una lista de factores que afectarán al rendimiento y las optimizaciones que puede realizar para garantizar un rendimiento máximo en Analysis Workspace.
 
@@ -19,9 +19,10 @@ Varios factores pueden influir en el rendimiento de un proyecto dentro de Analys
 >
 >La página Rendimiento de Analysis Workspace está en versión limitada. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/landing/an-releases.html)
 
-## Ayuda > Rendimiento en Analysis Workspace
+## [!UICONTROL Ayuda] > [!UICONTROL Rendimiento] en Analysis Workspace
 
-En **[!UICONTROL Analysis Workspace > Ayuda > Rendimiento]**, puede ver los factores que afectan al rendimiento del proyecto, incluidos los factores de red, explorador y proyecto. Para obtener los resultados más precisos, permita que el proyecto se cargue completamente antes de abrir la página Rendimiento.
+En **Analysis Workspace > [!UICONTROL Ayuda] > [!UICONTROL Rendimiento]**, puede ver factores que afectan al rendimiento del proyecto, incluidos factores de red, explorador y proyecto. Para obtener los resultados más precisos, permita que el proyecto se cargue completamente antes de abrir la página Rendimiento.
+
 * La columna Proyecto actual muestra los resultados del proyecto actual y el entorno del usuario.
 * La columna Directriz muestra el umbral recomendado por el Adobe para cada factor.
 
@@ -35,7 +36,7 @@ Además, puede **descargar como CSV** el contenido de rendimiento para compartir
 
 ## Factores de red
 
-Ayuda > Los factores de red de rendimiento incluyen:
+[!UICONTROL Los factores de red Ayuda] > [!UICONTROL Rendimiento] incluyen:
 
 | Factor | Definición | Influido por | Optimización |
 | --- | --- | --- | --- |
@@ -45,7 +46,7 @@ Ayuda > Los factores de red de rendimiento incluyen:
 
 ## Factores del explorador
 
-Ayuda > Los factores del navegador de rendimiento incluyen:
+[!UICONTROL Los factores de ayuda] > [!UICONTROL Rendimiento] del explorador incluyen:
 
 | Factor | Definición | Influido por | Optimización |
 | --- | --- | --- | --- |
@@ -56,7 +57,7 @@ Ayuda > Los factores del navegador de rendimiento incluyen:
 
 ## Factores de proyecto
 
-La Ayuda > Factores del proyecto de rendimiento incluyen:
+[!UICONTROL Los factores de ayuda] > [!UICONTROL Rendimiento] del proyecto incluyen:
 
 | Factor | Definición | Optimización |
 | --- | --- | --- |
@@ -88,5 +89,5 @@ Puede encontrar errores al interactuar con Analysis Workspace que también influ
 | [!UICONTROL Se ha producido un error del sistema. Registre una solicitud del Servicio de atención al cliente en Ayuda > Enviar ticket de asistencia técnica e incluya su código de error.] | Adobe está experimentando un problema que debe resolverse. | Envíe el código de error al Servicio de atención al cliente. |
 | [!UICONTROL La solicitud es demasiado compleja.] | La solicitud de informe es demasiado grande y no se puede ejecutar. Los contribuyentes a este error son los tiempos de espera debido al tamaño de la solicitud, demasiados elementos coincidentes en un segmento o filtro de búsqueda, demasiadas métricas incluidas, combinaciones incompatibles de dimensiones y métricas, etc. | Simplifique la solicitud eliminando algunas columnas o filas de la tabla, o considere la posibilidad de dividir la tabla en solicitudes independientes. |
 | [!UICONTROL Uno de los segmentos o la búsqueda en esta visualización contiene una búsqueda de texto que arrojó demasiados resultados.] | Los criterios del segmento o el filtro del informe son demasiado amplios. | Reduzca los criterios de texto de búsqueda y vuelva a intentar la solicitud. |
-| [!UICONTROL Actualmente, esta dimensión no admite modelos de atribución no predeterminados.] | No se admite la atribución no predeterminada para la dimensión que está utilizando. | Replace the dimension in your table with one that is compatible with [Attribution IQ](../attribution/overview.md). |
+| [!UICONTROL Actualmente, esta dimensión no admite modelos de atribución no predeterminados.] | No se admite la atribución no predeterminada para la dimensión que está utilizando. | Replace the dimension in your table with one that is compatible with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL Su solicitud falló como resultado de demasiadas columnas o filas preconfiguradas.] | La tabla tiene demasiadas celdas improvisadas (fila * columnas). | Elimine columnas o filas de la tabla, o bien considere la posibilidad de dividir la tabla en solicitudes independientes. |
