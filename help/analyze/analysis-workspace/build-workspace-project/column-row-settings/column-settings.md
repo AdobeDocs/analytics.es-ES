@@ -3,7 +3,7 @@ description: La configuración de columna le permite configurar el formato de la
 title: Configuración de columna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 92%
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 [!UICONTROL La Configuración] de columna permite configurar el formato de columna, algunos de los cuales pueden ser condicionales.
 
-## Editar configuración [!UICONTROL de columna] {#column-settings}
+## Editar configuración [!UICONTROL de columna] {#edit-column-settings}
 
 Para acceder a la [!UICONTROL Configuración de columna], arrastre una tabla improvisada al proyecto y, a continuación, haga clic en el icono de engranaje en el encabezado de la columna.
 
