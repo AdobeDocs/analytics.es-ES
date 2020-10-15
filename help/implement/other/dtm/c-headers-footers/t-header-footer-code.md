@@ -5,7 +5,7 @@ title: Adición de código de Encabezado y Pie de página
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Dynamic Tag Management crea códigos incrustados de ensayo y producción que pue
 
 1. Copie el código del pie de página de producción y colóquelo en la sección [!DNL BODY] del sitio HTML.
 
-   Coloque el código tan cerca de la etiqueta [!DNL </body>] como sea posible.
+   Coloque el código tan cerca de la etiqueta `</body>` como sea posible.
 1. Copie el código de Encabezado y de Pie de página de ensayo y, a continuación, repita los pasos anteriores en el sitio de ensayo.
 
    >[!NOTE]
