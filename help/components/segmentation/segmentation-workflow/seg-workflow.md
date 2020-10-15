@@ -3,20 +3,16 @@ description: Describe un flujo de trabajo sugerido para los segmentos creados co
 title: Resumen del flujo de trabajo de segmentación
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '268'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
 
 
 # Resumen del flujo de trabajo de segmentación
-
-Describe un flujo de trabajo sugerido para los segmentos creados con el Generador de segmentos y administrados con el Administrador de segmentos.
-
-## Resumen del flujo de trabajo de segmentación
 
 Describe un flujo de trabajo sugerido para los segmentos creados con el Generador de segmentos y administrados con el Administrador de segmentos.
 
