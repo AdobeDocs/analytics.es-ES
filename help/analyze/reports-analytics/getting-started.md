@@ -4,10 +4,10 @@ subtopic: Get started
 title: Introducción a Reports and Analytics
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '725'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '702'
 ht-degree: 100%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 100%
 # Introducción a Reports &amp; Analytics
 
 Antes de usar Reports &amp; Analytics, es necesario que comprenda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
-
-## Introducción a Reports &amp; Analytics
-
-Antes de usar Reports and Analytics, es necesario que entienda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
 
 Los informes ofrecen perspectivas de sus canales tradicionales basados en web y de los canales emergentes como móvil, vídeo y redes sociales. A continuación, mostramos algunos ejemplos de informes de marketing:
 
