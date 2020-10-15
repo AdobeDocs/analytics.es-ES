@@ -1,9 +1,9 @@
 ---
 title: Crear un grupo de informes
 description: Cree un contenedor básico para la recopilación de datos en Adobe Analytics.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 
 [Guía de administración de Adobe Analytics](first-admin-guide.md): Asegúrese de que un administrador de nivel de sistema le haya concedido acceso a Adobe Analytics a través de la Admin Console de Experience Cloud
 
-## Crear un grupo de informes
+## Crear un grupo de informes {#create-report-suite}
 
 >[!NOTE]
 >
