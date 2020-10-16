@@ -1,8 +1,8 @@
 ---
-source-git-commit: 78d9346ec82d802136cbaf2bfed31b6d25af207e
+source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '643'
 ht-degree: 72%
 
 ---
@@ -56,4 +56,4 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a func
 
 Los desarrolladores son similares a los usuarios, pero se les concede la capacidad de usar la API de Experience Cloud en Adobe I/O. Consulte [Administrar desarrolladores](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en la guía de usuario de Enterprise para obtener más información. Si se concede a un usuario acceso de desarrollador para cualquier perfil, puede acceder a la consola de desarrollador (console.adobe.io) y editar las integraciones de Adobe Analytics. Las llamadas y respuestas de la API de Analytics autorizadas para el usuario dependerán de los permisos de red de todos los perfiles en los que dicho usuario tenga acceso de desarrollador.
 
-Por ejemplo, con los permisos de Analysis Workspace Access, todas las métricas, todas las dimensiones y un grupo de informes, ese usuario podría realizar llamadas de API exitosas al extremo /sistema de informes para cualquier informe dentro de ese grupo. Con la detección de anomalías agregada, los informes podrían incluir respuestas más completas, agregando los datos de anomalías. Como regla general, si un perfil concede acceso a un escenario dentro de la interfaz de Adobe Analytics, Developer Access en ese mismo perfil habilitaría las llamadas y respuestas de API correspondientes.
+Por ejemplo, con permisos de perfil que incluyen todas las métricas, todas las dimensiones y un grupo de informes, un miembro de Developer Access del perfil puede hacer que las llamadas de API sean relevantes para cualquier componente dentro del grupo relevante. Con la detección de anomalías agregada, los informes podrían incluir respuestas más completas, agregando los datos de anomalías. Como regla general, si un perfil concede acceso a un escenario dentro de la interfaz de Adobe Analytics, Developer Access en un perfil definido de forma similar habilitaría las llamadas y respuestas de API correspondientes.
