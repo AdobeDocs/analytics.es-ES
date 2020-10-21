@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Desglose de dimensiones
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ Desglose los datos ilimitadamente para sus necesidades específicas; genere cons
    >
    >El número de desgloses de la tabla está limitado a 200 desgloses. Este límite aumentará para la exportación de desgloses.
 
-[Añadir Dimension y métricas al proyecto en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
+[Añadir Dimensión y métricas al proyecto en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
-[Trabajo con Dimension en una tabla](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) improvisada (15:35)
+[Trabajo con Dimensiones en una tabla improvisada](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
 ## Aplicar modelos de atribución a desgloses
 
