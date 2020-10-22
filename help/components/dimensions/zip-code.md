@@ -1,11 +1,11 @@
 ---
 title: Código postal
 description: Código postal del visitante.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 78%
 
 ---
 
@@ -30,3 +30,95 @@ La opción [!UICONTROL Código postal] de [Configuración general de cuenta](/he
 ## Elementos de dimensión
 
 Los elementos de dimensión incluyen el código postal del visitante.
+
+## ¿En qué países puede informar en Adobe Analytics?
+
+* Islas Aland
+* Albania
+* Argelia
+* Argentina
+* Armenia
+* Austria
+* Australia
+* Bangladesh
+* Barbados
+* Bélgica
+* Brasil
+* Bulgaria
+* Canadá
+* Chile
+* China
+* Colombia
+* Costa Rica
+* Croacia
+* República Checa
+* Dinamarca
+* Ecuador
+* Egipto
+* Estonia
+* Finlandia
+* Francia
+* Georgia
+* Alemania
+* Gibraltar
+* Grecia
+* Granada
+* Guatemala
+* RAE de Hong Kong de China
+* Hungría
+* India
+* Indonesia
+* Irlanda
+* Israel
+* Italia
+* Japón
+* Jordania
+* Kazajistán
+* Kirguistán
+* Letonia
+* Líbano
+* Lituania
+* Luxemburgo
+* Malasia
+* Malta
+* Mauricio
+* México
+* Marruecos
+* Mozambique
+* Nepal
+* Países Bajos
+* Nueva Zelanda
+* Noruega
+* Pakistán
+* Panamá
+* Perú
+* Filipinas
+* Polonia
+* Portugal
+* Puerto Rico
+* Qatar
+* Rumanía
+* Federación Rusa
+* Arabia Saudita
+* Senegal
+* Serbia
+* Singapur
+* Eslovenia
+* Sudáfrica
+* Corea del Sur
+* España
+* Sri Lanka
+* Suecia
+* Suiza
+* Región de Taiwán
+* Tailandia
+* Túnez
+* Turquía
+* Ucrania
+* Emiratos Árabes Unidos
+* Reino Unido
+* Estados Unidos
+* Uruguay
+* Uzbekistán
+* Venezuela
+* Vietnam
