@@ -2,10 +2,10 @@
 title: trackingServerSecure
 description: Determinar la ubicación a la que se envían las solicitudes de imagen en páginas HTTPS.
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 96%
 
 ---
 
@@ -41,4 +41,4 @@ El usuario que configura inicialmente la implementación de cookies de origen ta
 s.trackingServerSecure = "data.example.com";
 ```
 
-Los registros CNAME normalmente apuntan a un subdominio en `ssl.d1.sc.omtrdc.net`.
+CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.omtrdc.net` or `2o7.net`.
