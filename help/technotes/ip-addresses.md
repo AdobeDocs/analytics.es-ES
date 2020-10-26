@@ -2,7 +2,7 @@
 title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 translation-type: tm+mt
-source-git-commit: a7955e7f6fd92fff7188711d8aef9526ebf3700f
+source-git-commit: 891bc69f924b95cfe0bba2797319b59e1874dfd1
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 86%
@@ -120,30 +120,30 @@ Adobe Analytics utiliza Amazon Web Services como parte de su proceso de recopila
 | Australia | `13.238.77.77` |
 | Australia | `52.62.21.192` |
 | Australia | `54.66.152.159` |
-| Francia | `15.188.154.177` |
-| Francia | `15.236.175.233` |
-| Francia | `15.236.9.100` |
+| Francia | `15.237.76.117` |
+| Francia | `15.237.136.106` |
+| Francia | `35.181.18.61` |
 | India | `13.232.177.101` |
 | India | `13.235.4.163` |
 | India | `3.6.119.69` |
 | Irlanda | `52.17.94.37` |
 | Irlanda | `52.49.253.16` |
 | Irlanda | `52.51.63.15` |
-| Oregón | `52.42.60.49` |
-| Oregón | `54.212.169.56` |
-| Oregón | `54.214.170.191` |
+| Oregón | `44.233.255.254` |
+| Oregón | `44.237.54.118` |
+| Oregón | `44.238.157.95` |
 | Singapur | `13.228.34.224` |
 | Singapur | `18.136.20.161` |
 | Singapur | `52.74.162.152` |
 | Tokio | `13.112.72.86` |
 | Tokio | `18.178.74.225` |
 | Tokio | `18.179.88.228` |
-| Virginia | `3.220.129.153` |
-| Virginia | `18.211.197.67` |
-| Virginia | `34.228.124.176` |
-| Virginia | `34.234.106.101` |
-| Virginia | `52.22.231.198` |
-| Virginia | `54.157.65.136` |
 | Virginia | `3.213.168.181` |
 | Virginia | `3.219.249.186` |
+| Virginia | `3.220.129.153` |
+| Virginia | `18.206.109.10` |
+| Virginia | `18.211.197.67` |
 | Virginia | `34.227.41.189` |
+| Virginia | `34.228.124.176` |
+| Virginia | `54.90.190.103` |
+| Virginia | `54.174.149.161` |
