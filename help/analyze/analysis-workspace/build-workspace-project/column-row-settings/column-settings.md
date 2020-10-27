@@ -2,20 +2,20 @@
 description: La configuración de columna le permite configurar el formato de la columna, aunque algunas opciones de formato pueden ser condicionales.
 title: Configuración de columna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '720'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 # [!UICONTROL Configuración de columna]
 
-[!UICONTROL La Configuración] de columna permite configurar el formato de columna, algunos de los cuales pueden ser condicionales.
+[!UICONTROL La configuración de columna] le permite configurar el formato de la columna, aunque algunas opciones de formato pueden ser condicionales.
 
-## Editar configuración [!UICONTROL de columna] {#edit-column-settings}
+## Editar [!UICONTROL configuración de columna] {#edit-column-settings}
 
 Para acceder a la [!UICONTROL Configuración de columna], arrastre una tabla improvisada al proyecto y, a continuación, haga clic en el icono de engranaje en el encabezado de la columna.
 
@@ -26,8 +26,8 @@ Puede editar la configuración **de varias columnas a la vez**. Basta con selecc
 | Elemento | Descripción |
 | --- | --- |
 | **Celdas con totales** |  |
-| Mostrar totales | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. Refleja cualquier filtro de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno]. |
-| Mostrar el total | Este total representa todas las visitas recopiladas, a veces denominadas &quot;total del grupo de informes&quot;. Cuando se aplica un segmento en el nivel de panel o en la tabla improvisada, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento. Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| Mostrar totales | Este total suele ser igual o un subconjunto del [!UICONTROL Total general]. Refleja cualquier filtro de tabla aplicado en la tabla de forma libre, incluida la opción [!UICONTROL Incluir ninguno]. |
+| Mostrar el total | Este total representa todas las visitas recopiladas, a veces denominadas “total del grupo de informes”. Cuando se aplica un segmento en el nivel de panel o en la tabla improvisada, este total se ajusta para reflejar todas las visitas que coinciden con los criterios del segmento. El total general no es compatible con tablas o desgloses con [filas estáticas](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
 | **Celdas de la tabla** |  |
 | Número | Determina si una celda muestra u oculta el valor numérico de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor numérico es el número de visualizaciones de la página para el elemento de fila. |
 | Porcentaje | Determina si una celda muestra u oculta el valor porcentual de la métrica. Por ejemplo, si la métrica es Visualizaciones de la página, el valor porcentual es el número de visualizaciones de la página para el elemento de fila dividido por el total de visualizaciones de la página para la columna.  Nota: Se pueden mostrar porcentajes superiores al 100 % para mejorar la precisión. También se ha he incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. |
