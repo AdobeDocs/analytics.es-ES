@@ -1,11 +1,11 @@
 ---
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ Sí. Analysis Workspace utiliza la API 2.0 para solicitar datos de los servidore
 2. Haga clic en el icono de depuración en el panel deseado y, a continuación, seleccione la visualización y la hora deseadas de la solicitud.
 3. Busque la solicitud JSON, que puede utilizar en su llamada de API a Adobe.
 
-## Los análisis entre dispositivos pueden unir visitantes únicos. ¿Puede unir visitas?
+## Los análisis entre dispositivos pueden unir visitantes únicos. ¿Puede unir las visitas?
 
 Sí. Si un individuo envía visitas desde dos dispositivos distintos dentro del tiempo de espera de visita del grupo de informes virtuales (30 minutos de forma predeterminada), se vinculan a la misma visita.
 
