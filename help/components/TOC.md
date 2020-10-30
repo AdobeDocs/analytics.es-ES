@@ -5,10 +5,10 @@ user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Ayude a organizar los datos usando componentes como segmentos, métricas calculadas, grupos de informes virtuales y alertas.
 translation-type: tm+mt
-source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
+source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 100%
+source-wordcount: '643'
+ht-degree: 99%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 100%
    + [Canal de último contacto](dimensions/last-touch-channel.md)
    + [Detalles de canal de último contacto](dimensions/last-touch-detail.md)
    + [Canal de marketing](dimensions/marketing-channel.md)
+   + [Detalles del canal de marketing](dimensions/marketing-detail.md)
    + [Minuto](dimensions/minute.md)
    + [Dimensiones móviles](dimensions/mobile-dimensions.md)
    + [Resolución del monitor](dimensions/monitor-resolution.md)
