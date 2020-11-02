@@ -5,9 +5,9 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Proporciona instrucciones sobre procedimientos para Analysis Workspace, la herramienta de análisis y visualización más importante para Analytics, así como herramientas como Report Builder y Activity Map.
 translation-type: tm+mt
-source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+source-git-commit: 6b191170130018fd9c3555f4470962c702e52cd7
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1114'
 ht-degree: 100%
 
 ---
@@ -123,6 +123,7 @@ ht-degree: 100%
    + Preguntas frecuentes sobre Workspace {#workspace-faq}
       + [Preguntas frecuentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimizar rendimiento de Analysis Workspace](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [Mensajes de error](analysis-workspace/workspace-faq/error-messages.md)
       + [Analysis Workspace comparado con los Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Limitaciones de Analysis Workspace](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Requisitos de administración](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
