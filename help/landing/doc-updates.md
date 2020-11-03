@@ -2,9 +2,9 @@
 title: Actualizaciones de documentación técnica para Adobe Analytics
 description: Actualizaciones importantes en el repositorio de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 12 de febrero de 2020 | Actualizaciones y reorganización de la documentación de [Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md). |
 | 7 de febrero de 2020 | Actualizaciones para la [configuración de análisis](/help/components/cda/setup.md) de dispositivos cruzados y [preguntas frecuentes](/help/components/cda/faq.md). |
 | 4 de febrero de 2020 | Reescritura completa de la [guía del usuario de implementación](/help/implement/home.md). |
-| 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada con información sobre el nuevo [Generador de tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
+| 22 de enero de 2020 | Se ha actualizado la página Tabla improvisada con información sobre el nuevo [Generador de tablas improvisadas](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md). |
 | 13 de enero de 2020 | Se añadieron [Adobe Analytics y las cookies de explorador](/help/technotes/cookies.md). |
 | 29 de noviembre de 2019 | Sobrescribir a la [Documentación de datos](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de noviembre de 2019 | Tema nuevo sobre el [fin de vida útil para aplicar restricciones de inicio de sesión de IP](/help/admin/company/login-restrictions-eol.md). |
