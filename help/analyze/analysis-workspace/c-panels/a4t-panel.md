@@ -2,10 +2,10 @@
 description: El panel Analytics for Target (A4T) le permite analizar las actividades y experiencias de Adobe Target en Analysis Workspace.
 title: Panel de Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
+source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 100%
+source-wordcount: '1022'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Puede configurar el panel de A4T con esta configuración de entrada:
 
 | Configuración | Descripción |
 |---|---|
-| Actividad de Target | Seleccione una lista de Actividades de Target o arrastre y suelte una actividad desde el carril izquierdo.<br>**Nota:** La lista se rellena con los últimos 6 meses de actividades que han tenido al menos 1 visita. Si no ve una actividad en la lista, puede haberse producido hace más de 6 meses. Todavía se puede añadir desde el carril izquierdo, que tiene un periodo retrospectivo que incluye hasta 18 meses. |
+| Actividad de Target | Seleccione una lista de Actividades de Target o arrastre y suelte una actividad desde el carril izquierdo. Nota: La lista se rellena con los últimos 6 meses de actividades que han tenido al menos 1 visita. Si no ve una actividad en la lista, puede haberse producido hace más de 6 meses. Todavía se puede añadir desde el carril izquierdo, que tiene un periodo retrospectivo que incluye hasta 18 meses. |
 | Experiencia de control | Seleccione la experiencia de control. Puede cambiarla, si es necesario, desde la lista desplegable. |
 | Métrica de normalización | Elija entre Visitantes únicos, Visitas o Impresiones de actividad. Se recomiendan visitantes únicos para la mayoría de los casos de uso de análisis. Esta métrica (también denominada metodología de contabilización) se convierte en el denominador del cálculo del alza. También afecta a la manera en que se agregan los datos antes de que se calcule la confianza. |
 | Métricas de éxito | Seleccione hasta 3 eventos de éxito estándar (no calculados) en la lista desplegable o arrastre y suelte las métricas desde el carril izquierdo. Cada métrica tendrá una tabla y una visualización dedicadas en el panel procesado. |
@@ -44,11 +44,11 @@ Cada tabla improvisada muestra las siguientes columnas de métricas:
 | Métricas de normalización | Visitantes únicos, Visitas o Impresiones de actividad. |
 | Métrica de éxito | La métrica seleccionada en el generador |
 | Tasa de conversión | Métrica de éxito/métrica de normalización |
-| Alza | Compara la tasa de conversión de cada experiencia con la experiencia de control.<br>**Nota:** El alza es una “métrica bloqueada” de las experiencias de Target, no se puede desglosar ni utilizar con otras dimensiones. |
-| Alza (inferior) | Representa la peor elevación que una experiencia de variante podría tener sobre el control. |
-| Alza (media) | Representa la elevación media que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %. Esto es “Alza” en Reports &amp; Analytics. |
-| Alza (superior) | Representa la mejor elevación que una experiencia de variante podría tener sobre el control. |
-| Confianza | La prueba T-test para estudiantes calcula el nivel de confianza, que indica la probabilidad de que los resultados se dupliquen si se vuelve a ejecutar la prueba. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar, si es necesario, desde Configuración de columna. <br>**Nota:** La confianza es una “métrica bloqueada” para las experiencias de Target; no se puede desglosar ni utilizar con otras dimensiones. |
+| Alza | Compara la tasa de conversión de cada experiencia con la experiencia de control. Nota: El alza es una “métrica bloqueada” de las experiencias de Target, no se puede desglosar ni utilizar con otras dimensiones. |
+| Alza (inferior) | Representa el peor alza que una experiencia de variante podría tener sobre el control, con un intervalo de confianza del 95 %.<br>Cálculo: (x/y ± 1,96 std_err(x,y)) / (x_control/y_control ∓ 1,96 std_err(x_control,y_control)). Aquí std_err(x,y) es sqrt(xx/y - (x/y)^2), donde xx indica la suma de cuadrados. |
+| Alza (media) | Representa la elevación media que una experiencia de variante podría tener sobre el control con un intervalo de confianza del 95 %. Esto es “Alza” en Reports &amp; Analytics.<br>Cálculo: (x/y)/(x_control/y_control) - 1 |
+| Alza (superior) | Representa el mejor alza que una experiencia de variante podría tener sobre el control, con un intervalo de confianza del 95 %.<br>Cálculo: consulte Alza (inferior). |
+| Confianza | La prueba T-test para estudiantes calcula el nivel de confianza, que indica la probabilidad de que los resultados se dupliquen si se vuelve a ejecutar la prueba. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar, si es necesario, desde Configuración de columna. Nota: La confianza es una “métrica bloqueada” para las experiencias de Target; no se puede desglosar ni utilizar con otras dimensiones.<br>Cálculo: Aplique una prueba T de 2 colas con y+y_control-2 grados de libertad para encontrar el valor p, tanto si x/y es igual a x_control/y_control. Calcule el valor t, donde stderr es sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control). Devolver 1-p como la confianza de que son diferentes. |
 
 Como con cualquier panel de Analysis Workspace, puede continuar con el análisis agregando tablas y [visualizaciones](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) adicionales que le ayudarán a analizar sus actividades de Adobe Target.
 
