@@ -2,9 +2,9 @@
 title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
 translation-type: tm+mt
-source-git-commit: 6258154ab299d6f01ffcab866a5f9677778025da
+source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 86%
 
 ---
@@ -120,6 +120,8 @@ Adobe Analytics utiliza Amazon Web Services como parte de su proceso de recopila
 | Australia | `13.238.77.77` |
 | Australia | `52.62.21.192` |
 | Australia | `54.66.152.159` |
+| China | `52.81.111.133` |
+| China | `140.179.22.22` |
 | Francia | `15.237.76.117` |
 | Francia | `15.237.136.106` |
 | Francia | `35.181.18.61` |
