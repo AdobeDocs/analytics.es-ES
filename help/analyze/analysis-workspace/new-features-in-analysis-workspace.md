@@ -2,11 +2,11 @@
 description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
-translation-type: ht
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
-workflow-type: ht
-source-wordcount: '8103'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '8106'
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ Nueva función lanzada el 16 de enero de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| [Generador de tablas improvisadas](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | Con el Creador de tablas improvisada, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas comerciales más complejas. Los datos no se actualizarán inmediatamente. En su lugar, las actualizaciones se producen después de hacer clic en **[!UICONTROL Generar]**, lo que le ahorra tiempo una vez que sepa qué tabla desea crear. Además, esta función ofrece:<ul><li>**Vista previa**: Puede obtener una vista previa del formato de una tabla antes de dedicar su tiempo a procesar datos reales.</li><li>**Configuración de desglose y filas flexibles**: Puede definir los niveles de fila y desglose para cada fila de dimensión. Anteriormente, Workspace imponía valores predeterminados que no se podían cambiar hasta que se devolvían los datos.</li><li>**Desglose por posición**: Puede definir filas de dimensión para que siempre _se desglosen por posición_ en lugar de _por elemento específico_ (valor predeterminado).</li><li>**Ordenación manual de filas estáticas**: Puede ordenar manualmente las filas estáticas para que las filas de la tabla se muestren exactamente como las necesita. Anteriormente, las filas estáticas solo se podían ordenar por una columna de métrica o alfabéticamente.</li></ul> |
+| [Generador de tablas improvisadas](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | Con el Creador de tablas improvisada, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas comerciales más complejas. Los datos no se actualizarán inmediatamente. En su lugar, las actualizaciones se producen después de hacer clic en **[!UICONTROL Generar]**, lo que le ahorra tiempo una vez que sepa qué tabla desea crear. Además, esta función ofrece:<ul><li>**Vista previa**: Puede obtener una vista previa del formato de una tabla antes de dedicar su tiempo a procesar datos reales.</li><li>**Configuración de desglose y filas flexibles**: Puede definir los niveles de fila y desglose para cada fila de dimensión. Anteriormente, Workspace imponía valores predeterminados que no se podían cambiar hasta que se devolvían los datos.</li><li>**Desglose por posición**: Puede definir filas de dimensión para que siempre _se desglosen por posición_ en lugar de _por elemento específico_ (valor predeterminado).</li><li>**Ordenación manual de filas estáticas**: Puede ordenar manualmente las filas estáticas para que las filas de la tabla se muestren exactamente como las necesita. Anteriormente, las filas estáticas solo se podían ordenar por una columna de métrica o alfabéticamente.</li></ul> |
 
 ## Octubre de 2019
 
@@ -113,7 +113,7 @@ Mejoras publicadas el 10 de octubre de 2019.
 
 | Mejora | Descripción |
 |--- |--- |
-| Actualizar a totales de tabla improvisada | Las tablas improvisadas ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Obtenga más información](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>Además, se han agregado las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a la **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
+| Actualizar a totales de tabla improvisada | Las tablas improvisadas ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Obtenga más información](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>Además, se han agregado las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a la **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
 | Opción para eliminar No especificado/Ninguno | Se ha añadido la funcionalidad de eliminar “No especificado (Ninguno)” con facilidad a los filtros de informe. |
 | Obsolescencia de los componentes de granularidad morados | Los componentes de hora de granularidad morados (Minuto, Hora, Día, Semana, Mes, Trimestre, Año) han quedado obsoletos. Los componentes de hora morados siempre se han comportado exactamente como sus equivalentes de dimensión naranjas, por lo que este cambio simplificará la experiencia. No es necesario realizar **ninguna acción** si ha utilizado uno de los componentes de tiempo morados en el pasado.<br/>Con este cambio, se ha cambiado de nombre la sección morada **[!UICONTROL Hora]** a **[!UICONTROL Intervalos de fecha]**. |
 
@@ -366,11 +366,11 @@ Nuevas funciones y mejoras publicadas el 12 de abril de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Configuración Justificar el texto del encabezado activada de forma predeterminada </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Configuración Justificar el texto del encabezado activada de forma predeterminada </a> </p> </td> 
    <td colname="col2"> <p>Ahora, la configuración de columna <span class="uicontrol"> Justificar el texto del encabezado </span> está activada de forma predeterminada en las tablas improvisadas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Nueva configuración de filas</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Nueva configuración de filas</a> </p> </td> 
    <td colname="col2"> <p>La nueva configuración <span class="uicontrol"> Calcular porcentaje por fila </span> obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto resulta particularmente útil en los porcentajes de tendencias, como averiguar cómo se comporta un elemento de dimensión en comparación con el resto a lo largo del tiempo. Se activa de forma predeterminada al hacer clic en el icono <span class="uicontrol"> Visualizar </span>. </p> </td> 
   </tr> 
   <tr> 
@@ -397,7 +397,7 @@ Nuevas funciones y mejoras publicadas el 8 de marzo de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Justificación del texto del encabezado </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Justificación del texto del encabezado </a> </p> </td> 
    <td colname="col2"> <p>Ahora puede justificar el texto del encabezado en las tablas improvisadas para que los encabezados sean más legibles y las tablas se puedan compartir con mayor facilidad. Hemos añadido una opción en la configuración de columna llamada “Justificar el texto del encabezado”. Esto resulta muy útil en el procesamiento de archivos .pdf y en las métricas con nombres largos. </p> </td> 
   </tr> 
   <tr> 
@@ -453,11 +453,11 @@ Nueva función y mejoras publicadas el 8 de febrero de 2018.
    <td colname="col2"> <p>Hemos agregado la opción “Copiar en el portapapeles” al hacer clic con el botón derecho para que pueda copiar celdas o tablas de forma sistemática. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Mejora en los porcentajes de las columnas </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Mejora en los porcentajes de las columnas </a> </p> </td> 
    <td colname="col2"> <p>El “porcentaje del total” mostrado en las columnas antes tenía como límite el 100 %, aunque determinadas situaciones supusieran valores superiores al 100 % del total (por ejemplo, en el caso de los promedios). </p> <p>Ahora se muestran porcentajes superiores al 100 % para ofrecer una mayor precisión. También hemos incrementado el límite superior hasta el 1000 % para garantizar que la anchura de las columnas se pueda ampliar. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Posibilidad de usar el formato condicional en los desgloses </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > Posibilidad de usar el formato condicional en los desgloses </a> </p> </td> 
    <td colname="col2"> <p>Ahora, la aplicación de formato condicional (colores, etc.) en tablas improvisada está activada automáticamente en los desgloses, a menos que los límites “Personalizados” estén seleccionados. </p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Más <a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  > opciones de filtrado </a> de elementos de dimensión en tablas improvisadas </p> </td> 
+   <td colname="col1"> <p>Más <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  > opciones de filtrado </a> de elementos de dimensión en tablas improvisadas </p> </td> 
    <td colname="col2"> <p>Se han añadido estas opciones de filtrado (avanzadas) para elementos de dimensión (además de las opciones existentes “contiene” y “no contiene”): </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">Contiene todos los términos </li> 
@@ -515,7 +515,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
    <td colname="col2"> <p>Al cambiar el tamaño de la columna más a la izquierda, Workspace mantiene ahora la relación de anchura del resto de las columnas (no ajusta únicamente el ancho de la columna de la derecha). Este cambio acelera la creación de tablas tanto para análisis como para uso compartido. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Visualización de <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 400 filas </a> en una tabla </p> </td> 
+   <td colname="col1"> <p>Visualización de <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 400 filas </a> en una tabla </p> </td> 
    <td colname="col2"> <p>Ahora se pueden mostrar 400 filas en una tabla (frente a las 200 anteriores) para permitir tendencias de 365 días. </p> </td> 
   </tr> 
   <tr> 
@@ -655,7 +655,7 @@ Nuevas funciones lanzadas el 21 de septiembre de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Administrar varias columnas a la vez en tablas de formas libres </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Administrar varias columnas a la vez en tablas de formas libres </a> </p> </td> 
    <td colname="col2"> <p>Ahora, se puede cambiar la configuración de varias columnas a la vez. Basta con seleccionar varias columnas y hacer clic en el icono de configuración de cualquiera de ellas. Los cambios realizados se aplicarán a todas las columnas que tengan celdas seleccionadas. </p> </td> 
   </tr> 
   <tr> 
@@ -814,7 +814,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > Casilla de verificación Usar límites porcentuales </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > Casilla de verificación Usar límites porcentuales </a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> Se ha añadido una casilla para indicar techos porcentuales, especialmente para métricas basadas en porcentajes (aunque también funciona para métricas no porcentuales). </li> 
@@ -866,7 +866,7 @@ Nuevas funciones lanzadas el 20 de abril de 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mejoras en la opción Deshacer/Rehacer </p> </td> 
-   <td colname="col2"> <p>En estas listas se muestran las acciones que puede y las que no puede <a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  > deshacer y rehacer en Analysis Workspace </a>. </p> </td> 
+   <td colname="col2"> <p>En estas listas se muestran las acciones que puede y las que no puede deshacer y rehacer en Analysis Workspace </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,7 +884,7 @@ Nueva función lanzada el 16 de febrero de 2017:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > Desglose por posición </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Desglose por posición </a> </p> </td> 
    <td colname="col2"> <p>Permite el desglose por posición de tabla. Ejemplo: “Siempre quiero desglosadas las 7 filas superiores de una tabla improvisada”. Ahora, cuando crea una tabla improvisada hay una casilla que le permite habilitar “Desglose por posición”. Esta opción está desactivada de manera predeterminada. </p> <p>Anteriormente, la lista de valores en el desglose estaba “bloqueada”. Esto llevaba a una situación en la que, por ejemplo, si realizaba un desglose de <span class="wintitle"> Fecha </span> por <span class="wintitle"> Página </span>, obtenía una lista de las 50 primeras páginas para el intervalo de fechas seleccionado. </p> <p>Si se guardaba ese informe y se ejecutaba un mes después, era probable que las 50 primeras páginas hubieran cambiado. No obstante, Analysis Workspace “confiaba” en los resultados del desglose original y devolvía las mismas páginas, pero con el mes en curso como intervalo de fechas. </p> </td> 
   </tr> 
  </tbody> 
@@ -1037,7 +1037,7 @@ Nuevas funciones lanzadas el 16 de junio de 2016:
 * Un nuevo tipo de [Visualización Venn](/help/analyze/analysis-workspace/visualizations/venn.md) le permite arrastrar hasta tres segmentos y una métrica y construir un diagrama de Venn.
 * El gráfico de líneas [Selección de tendencias](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) de una tabla jerárquica ahora está vinculado.
 * [Icono “Crear imagen”](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): al hacer clic en el botón aparece una suposición inteligente sobre su siguiente acción (gráfico de barras, Venn...).
-* La funcionalidad [Filas manuales](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) se ha ampliado.
+* La funcionalidad [Filas manuales](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) se ha ampliado.
 * Nueva zona de colocación [Añadir segmento](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 * Actualizaciones menores:
 
