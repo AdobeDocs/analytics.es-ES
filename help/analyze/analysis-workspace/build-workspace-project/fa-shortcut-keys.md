@@ -1,21 +1,19 @@
 ---
 description: Interacciones de teclado estándar, teclas de acceso directo y comportamientos de apuntar y hacer clic disponibles en Analysis Workspace.
 keywords: Analysis Workspace
-title: Teclas de acceso directo (métodos abreviados) en Analysis Workspace
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: Teclas de acceso directo (métodos abreviados)
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 82%
+source-wordcount: '282'
+ht-degree: 74%
 
 ---
 
 
-# Teclas de acceso directo (métodos abreviados) en Analysis Workspace
+# Teclas de acceso directo (métodos abreviados)
 
-Las teclas de acceso directo (métodos abreviados de teclado) están disponibles en Analysis Workspace para una navegación, análisis y democratización sin problemas.
+Las teclas de acceso directo (métodos abreviados de teclado) están disponibles en Analysis Workspace para una navegación fluida, análisis, adición de paneles y visualizaciones, y democratización (uso compartido).
 
 Nota:
 * `Ctrl` = Windows y `Command` = Mac
