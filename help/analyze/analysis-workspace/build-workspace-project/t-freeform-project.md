@@ -5,7 +5,7 @@ title: Creación de un proyecto de Workspace
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 99%
@@ -73,7 +73,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
    <td colname="col2"> <p>Elementos que puede arrastrar a las áreas de panel o proyecto de la interfaz. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >Panel improvisado</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  >Panel improvisado</a> </td> 
    <td colname="col2"> <p>El lienzo o Workspace con que interactúa en Analysis Workspace. </p> </td> 
   </tr> 
  </tbody> 
