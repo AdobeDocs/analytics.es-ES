@@ -2,18 +2,18 @@
 description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8106'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Novedades en Analysis Workspace
 
-Para acceder a las Notas de la versión de Adobe Experience Cloud en su conjunto, vaya [aquí](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html).
+Para acceder a las Notas de la versión de Adobe Experience Cloud en su conjunto, vaya [aquí](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es-ES).
 
 ## Octubre de 2020
 
@@ -21,8 +21,8 @@ Nuevas funciones lanzadas en octubre de 2020
 
 | Función | Descripción |
 | --- | --- |
-| Visualización de líneas: [opción de línea de tendencia promedio móvil](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL El promedio móvil]** se ha agregado a la configuración de línea de tendencia de visualización de línea. Un promedio móvil utiliza una cantidad determinada de puntos de datos (definida por una selección de **[!UICONTROL Periodos]**), los promedia y utiliza el promedio como punto en la línea. |
-| [Página de ayuda de rendimiento](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | La página de ayuda de rendimiento de Analysis Workspace muestra los diferentes factores que afectan el rendimiento del proyecto y los vínculos a sugerencias para la optimización. |
+| Visualización de líneas: [opción de línea de tendencia promedio móvil](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=es-ES) | **[!UICONTROL El promedio móvil]** se ha agregado a la configuración de línea de tendencia de visualización de línea. Un promedio móvil utiliza una cantidad determinada de puntos de datos (definida por una selección de **[!UICONTROL Periodos]**), los promedia y utiliza el promedio como punto en la línea. |
+| [Página de ayuda de rendimiento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=es-ES) | La página de ayuda de rendimiento de Analysis Workspace muestra los diferentes factores que afectan el rendimiento del proyecto y los vínculos a sugerencias para la optimización. |
 
 ## Septiembre de 2020
 
@@ -30,8 +30,8 @@ Nuevas funciones lanzadas en septiembre de 2020
 
 | Función | Descripción |
 | --- | --- |
-| [Descargar 50.000 elementos para una sola dimensión](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | Ahora puede descargar 50.000 elementos para una sola dimensión en una tabla improvisada, con segmentos y filtros aplicados. Esto le permite acceder a más de 400 filas de datos fuera de Analysis Workspace. |
-| [Mejoras en la visualización de Línea](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de Línea. Esto puede resultar especialmente útil cuando las visualizaciones de Línea son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |
+| [Descargar 50.000 elementos para una sola dimensión](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es-ES#download-items) | Ahora puede descargar 50.000 elementos para una sola dimensión en una tabla improvisada, con segmentos y filtros aplicados. Esto le permite acceder a más de 400 filas de datos fuera de Analysis Workspace. |
+| [Mejoras en la visualización de Línea](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=es-ES) | <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de Línea. Esto puede resultar especialmente útil cuando las visualizaciones de Línea son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |
 | Intervalos de fechas nuevos | Añadimos 5 nuevos intervalos de fechas para que pueda elegir entre intervalos de fechas que no incluyan datos de día parciales de hoy: últimos 7 días completos, últimos 14 días completos, últimos 30 días completos, últimos 60 días completos, últimos 90 días completos. |
 
 ## Agosto de 2020
@@ -52,11 +52,11 @@ Nuevas funciones lanzadas el 18 de junio de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Attribution IQ: Atribución algorítmica | El modelo de atribución algorítmica de Analysis Workspace utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. Disponible para los clientes de Adobe Analytics Ultimate. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| Attribution IQ: Ventanas retroactivas personalizadas | Ahora puede configurar cualquier modelo de atribución en Attribution IQ para incluir puntos de contacto desde 90 días antes del período de creación de informes. Esto generalmente aumenta la precisión de atribución de eventos que se producen al principio del período de la creación de informes teniendo en cuenta las interacciones que se produjeron en el mes o meses anteriores. Disponible para los clientes de Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete y Ultimate. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
-| Funciones de proyecto para proyectos compartidos de Workspace | Al compartir un proyecto de Workspace, ahora puede colocar destinatarios en una de las tres funciones de proyecto, según la experiencia del proyecto que desee que tengan: Editar, Duplicado y Vista. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| Proyectos de Workspace solo de vista | Los proyectos de Workspace se pueden compartir con los usuarios solo como Puede ver. Cuando un destinatario de Vista abre el proyecto compartido, recibe una experiencia de proyecto más restrictiva sin carril izquierdo e interacciones limitadas. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Attribution IQ: Atribución algorítmica | El modelo de atribución algorítmica de Analysis Workspace utiliza técnicas estadísticas para determinar dinámicamente la asignación óptima de crédito para la métrica seleccionada. Disponible para los clientes de Adobe Analytics Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=es-ES) |
+| Attribution IQ: Ventanas retroactivas personalizadas | Ahora puede configurar cualquier modelo de atribución en Attribution IQ para incluir puntos de contacto desde 90 días antes del período de creación de informes. Esto generalmente aumenta la precisión de atribución de eventos que se producen al principio del período de la creación de informes teniendo en cuenta las interacciones que se produjeron en el mes o meses anteriores. Disponible para los clientes de Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete y Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es-ES#ventanas-retrospectivas) |
+| Funciones de proyecto para proyectos compartidos de Workspace | Al compartir un proyecto de Workspace, ahora puede colocar destinatarios en una de las tres funciones de proyecto, según la experiencia del proyecto que desee que tengan: Editar, Duplicado y Vista. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es-ES) |
+| Proyectos de Workspace solo de vista | Los proyectos de Workspace se pueden compartir con los usuarios solo como Puede ver. Cuando un destinatario de Vista abre el proyecto compartido, recibe una experiencia de proyecto más restrictiva sin carril izquierdo e interacciones limitadas. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=es-ES) |
+| Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es-ES) |
 | Panel en blanco actualizado | El panel en blanco ahora incluye paneles y visualizaciones, lo que le ofrece una forma más fluida de elegir el flujo de trabajo de análisis que mejor se adapte a sus necesidades. |
 | Panel de Quick Insights (25 de junio de 2020) | Quick Insights proporciona una guía a los no analistas y a los nuevos usuarios de Analysis Workspace para aprender a responder preguntas comerciales de forma rápida y sencilla. [Más información...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Panel Analytics for Target en Workspace (25 de junio de 2020) | El panel Analytics for Target (A4T) le permite analizar con confianza las actividades y experiencias de Adobe Target en Analysis Workspace. [Más información...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -69,7 +69,7 @@ Nuevas funciones lanzadas el 21 de mayo de 2020.
 | Función | Descripción |
 |--- |--- |
 | Crear automáticamente tablas improvisadas a partir de un estado en blanco | Anteriormente, no se podían soltar componentes directamente en un proyecto o panel en blanco; primero tenía que agregar una tabla improvisada. Ahora puede soltar componentes directamente en un proyecto o panel en blanco, y automáticamente se creará una tabla improvisada en un formato recomendado. Además, se mejoró la forma en que se gestionan los tipos de componentes mixtos (como dimensiones y métricas) al soltarlos juntos en una tabla improvisada en blanco. |
-| Mejoras de accesibilidad | El equipo de Adobe Analytics ha realizado varias mejoras de accesibilidad en Analysis Workspace, incluida la navegación mejorada con el teclado, el contraste de color y la compatibilidad con lectores de pantalla. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| Mejoras de accesibilidad | El equipo de Adobe Analytics ha realizado varias mejoras de accesibilidad en Analysis Workspace, incluida la navegación mejorada con el teclado, el contraste de color y la compatibilidad con lectores de pantalla. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=es-ES) |
 
 ## Abril de 2020
 
@@ -85,7 +85,7 @@ Nuevas funciones lanzadas el 12 de marzo de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Compatibilidad con varios grupos de informes en Workspace | Ahora puede incluir datos de varios grupos de informes en un único proyecto de para verlo en paralelo. [Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| Compatibilidad con varios grupos de informes en Workspace | Ahora puede incluir datos de varios grupos de informes en un único proyecto de para verlo en paralelo. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=es-ES) |
 | Plantilla del tutorial de formación | Esta plantilla estándar nueva le explica la terminología común y los pasos para crear su primer análisis en Workspace. Está disponible como plantilla estándar en el modo Nuevo proyecto y reemplaza el proyecto de muestra actual para los usuarios nuevos que no tienen otros proyectos en su lista. [Más información...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## Febrero de 2020
@@ -94,8 +94,8 @@ Nuevas funciones lanzadas el 20 de febrero de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| Nueva plantilla de Workspace para organizaciones que utilizan el análisis entre dispositivos | Esta plantilla muestra la eficacia del CDA para unir visitas y enseña las métricas y dimensiones exclusivas del CDA. Se necesita un grupo de informes que utilice CDA. Consulte [Configuración de análisis entre dispositivos](https://docs.adobe.com/content/help/es-ES/analytics/components/cda/cda-setup.html) para obtener más información. |
-| Nuevas teclas de acceso directo en Workspace | <ul><li>Contraer/Expandir todos los paneles: `alt + m`</li><li>Contraer/Expandir panel activo: `alt + ctrl + m`</li><li>Buscar carril izquierdo: `ctrl + /`</li><li>Mover al panel siguiente: `alt + Right Key`</li><li>Mover al panel anterior: `alt + Left Key`</li></ul>[Más información...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| Nueva plantilla de Workspace para organizaciones que utilizan el análisis entre dispositivos | Esta plantilla muestra la eficacia del CDA para unir visitas y enseña las métricas y dimensiones exclusivas del CDA. Se necesita un grupo de informes que utilice CDA. Consulte [Configuración de análisis entre dispositivos](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html?lang=es-ES) para obtener más información. |
+| Nuevas teclas de acceso directo en Workspace | <ul><li>Contraer/Expandir todos los paneles: `alt + m`</li><li>Contraer/Expandir panel activo: `alt + ctrl + m`</li><li>Buscar carril izquierdo: `ctrl + /`</li><li>Mover al panel siguiente: `alt + Right Key`</li><li>Mover al panel anterior: `alt + Left Key`</li></ul>[Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=es-ES) |
 | Otras mejoras de Workspace | <ul><li>Cuando se coloque un panel o una visualización en Workspace, el carril izquierdo cambiará automáticamente a componentes para lograr un flujo de trabajo más fluido.</li><li>Ahora se pueden llevar a cabo acciones en los componentes de plantilla (por ejemplo, etiquetado, marcado como favoritos y aprobado).</li><li>Las listas filtradas de métricas y segmentos ofrecen el botón + para agregar un nuevo componente si no encuentra lo que necesita.</li></ul> |
 | Depurador de Workspace | El Debugger de Workspace se ha agregado al menú Ayuda, lo que le ofrece una forma sencilla de habilitarlo para depurar solicitudes de Workspace. [Más información...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -105,7 +105,7 @@ Nueva función lanzada el 16 de enero de 2020.
 
 | Función | Descripción |
 |--- |--- |
-| [Generador de tablas improvisadas](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | Con el Creador de tablas improvisada, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas comerciales más complejas. Los datos no se actualizarán inmediatamente. En su lugar, las actualizaciones se producen después de hacer clic en **[!UICONTROL Generar]**, lo que le ahorra tiempo una vez que sepa qué tabla desea crear. Además, esta función ofrece:<ul><li>**Vista previa**: Puede obtener una vista previa del formato de una tabla antes de dedicar su tiempo a procesar datos reales.</li><li>**Configuración de desglose y filas flexibles**: Puede definir los niveles de fila y desglose para cada fila de dimensión. Anteriormente, Workspace imponía valores predeterminados que no se podían cambiar hasta que se devolvían los datos.</li><li>**Desglose por posición**: Puede definir filas de dimensión para que siempre _se desglosen por posición_ en lugar de _por elemento específico_ (valor predeterminado).</li><li>**Ordenación manual de filas estáticas**: Puede ordenar manualmente las filas estáticas para que las filas de la tabla se muestren exactamente como las necesita. Anteriormente, las filas estáticas solo se podían ordenar por una columna de métrica o alfabéticamente.</li></ul> |
+| [Generador de tablas improvisadas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=es-ES) | Con el Creador de tablas improvisada, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas comerciales más complejas. Los datos no se actualizarán inmediatamente. En su lugar, las actualizaciones se producen después de hacer clic en **[!UICONTROL Generar]**, lo que le ahorra tiempo una vez que sepa qué tabla desea crear. Además, esta función ofrece:<ul><li>**Vista previa**: Puede obtener una vista previa del formato de una tabla antes de dedicar su tiempo a procesar datos reales.</li><li>**Configuración de desglose y filas flexibles**: Puede definir los niveles de fila y desglose para cada fila de dimensión. Anteriormente, Workspace imponía valores predeterminados que no se podían cambiar hasta que se devolvían los datos.</li><li>**Desglose por posición**: Puede definir filas de dimensión para que siempre _se desglosen por posición_ en lugar de _por elemento específico_ (valor predeterminado).</li><li>**Ordenación manual de filas estáticas**: Puede ordenar manualmente las filas estáticas para que las filas de la tabla se muestren exactamente como las necesita. Anteriormente, las filas estáticas solo se podían ordenar por una columna de métrica o alfabéticamente.</li></ul> |
 
 ## Octubre de 2019
 
@@ -113,7 +113,7 @@ Mejoras publicadas el 10 de octubre de 2019.
 
 | Mejora | Descripción |
 |--- |--- |
-| Actualizar a totales de tabla improvisada | Las tablas improvisadas ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Obtenga más información](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>Además, se han agregado las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a la **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
+| Actualizar a totales de tabla improvisada | Las tablas improvisadas ahora incluyen dos totales, un **[!UICONTROL Total de tabla]** y un **[!UICONTROL Total general]**. La fila Total de la tabla cuenta los [filtros de informe](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=es-ES) aplicados. Anteriormente, solo la segmentación afectaba a los totales. [Obtenga más información](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=es-ES)<br/>Además, se han agregado las opciones **[!UICONTROL Mostrar totales]** y **[!UICONTROL Mostrar total general]** a la **[!UICONTROL Configuración de columna]**.<br/>Con este cambio a los totales de forma libre, se actualizarán las visualizaciones dependientes (por ejemplo, las visualizaciones de **[!UICONTROL Número de resumen]** vinculadas), así como los datos CSV y PDF exportados. |
 | Opción para eliminar No especificado/Ninguno | Se ha añadido la funcionalidad de eliminar “No especificado (Ninguno)” con facilidad a los filtros de informe. |
 | Obsolescencia de los componentes de granularidad morados | Los componentes de hora de granularidad morados (Minuto, Hora, Día, Semana, Mes, Trimestre, Año) han quedado obsoletos. Los componentes de hora morados siempre se han comportado exactamente como sus equivalentes de dimensión naranjas, por lo que este cambio simplificará la experiencia. No es necesario realizar **ninguna acción** si ha utilizado uno de los componentes de tiempo morados en el pasado.<br/>Con este cambio, se ha cambiado de nombre la sección morada **[!UICONTROL Hora]** a **[!UICONTROL Intervalos de fecha]**. |
 
@@ -131,9 +131,9 @@ Mejoras publicadas el 18 de julio de 2019.
 
 | Mejora | Descripción |
 |--- |--- |
-| Mejoras de análisis de cohorte | Se han añadido [nuevas configuraciones de análisis de cohorte](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html): <ul><li>Mostrar sólo porcentaje</li><li>Redondear el porcentaje al entero más cercano</li><li>Mostrar una fila porcentual promedia</li></ul> |
+| Mejoras de análisis de cohorte | Se han añadido [nuevas configuraciones de análisis de cohorte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html?lang=es-ES): <ul><li>Mostrar sólo porcentaje</li><li>Redondear el porcentaje al entero más cercano</li><li>Mostrar una fila porcentual promedia</li></ul> |
 | Mostrar elementos de los últimos 18 meses | En el carril izquierdo, los usuarios tienen la opción de _Mostrar elementos de los últimos 18 meses_. Anteriormente, el período retroactivo era de 6 meses como máximo. Esto facilita la comparación con páginas o campañas del último año, hasta hace 18 meses. |
-| Nueva plantilla de Analysis Workspace | Hemos añadido una nueva plantilla denominada [&quot;Magento: Marketing y comercio&quot;](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) para Analysis Workspace. Está diseñada específicamente para los clientes de comercio electrónico de Magento, pero cualquier minorista puede utilizarla para obtener una información sin precedentes sobre sus actividades comerciales. |
+| Nueva plantilla de Analysis Workspace | Hemos añadido una nueva plantilla denominada [“Magento: Marketing y comercio”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es-ES) para Analysis Workspace. Está diseñada específicamente para los clientes de comercio electrónico de Magento, pero cualquier minorista puede utilizarla para obtener una información sin precedentes sobre sus actividades comerciales. |
 
 ## Junio de 2019
 
@@ -228,7 +228,7 @@ Nuevas funciones y mejoras publicadas el 13 de septiembre de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Nueva plantilla: Consumo de audio</b> </p> </td> 
-   <td colname="col2"> <p>Consulte <a href="https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-reports/media-workspace-templates.html"  > Audio Analytics </a>. </p> </td> 
+   <td colname="col2"> <p>Consulte <a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html?lang=es-ES"  >Audio Analytics</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -371,7 +371,7 @@ Nuevas funciones y mejoras publicadas el 12 de abril de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Nueva configuración de filas</a> </p> </td> 
-   <td colname="col2"> <p>La nueva configuración <span class="uicontrol"> Calcular porcentaje por fila </span> obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto resulta particularmente útil en los porcentajes de tendencias, como averiguar cómo se comporta un elemento de dimensión en comparación con el resto a lo largo del tiempo. Se activa de forma predeterminada al hacer clic en el icono <span class="uicontrol"> Visualizar </span>. </p> </td> 
+   <td colname="col2"> <p>La nueva configuración <span class="uicontrol"> Calcular porcentaje por fila </span> obliga a la tabla improvisada a calcular los porcentajes de las celdas en la fila en lugar de en la columna. Esto resulta particularmente útil en los porcentajes de tendencias, como averiguar cómo se comporta un elemento de dimensión en comparación con el resto a lo largo del tiempo. Se activa de forma predeterminada al hacer clic en el icono <span class="uicontrol">Visualizar</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  > Configuración de la visualización “Apilada al 100 %”</a> </p> </td> 
@@ -527,7 +527,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
    <td colname="col2"> <p>Anteriormente, cuando se copiaba un proyecto o se utilizaba “Guardar como”, todos los intravínculos guardados apuntaban al proyecto original, y no al copiado. </p> <p>Ahora, los intravínculos son relativos al proyecto en el que residen después de la operación de copiar o guardar como. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Análisis de contribución: <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > notificación de tokens </a> </p> </td> 
+   <td colname="col1"> <p>Análisis de contribución: <a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=es-ES"  > notificación de tokens </a> </p> </td> 
    <td colname="col2"> <p>Si su empresa tiene un número limitado de tokens de Análisis de contribución, la interfaz de Analysis Workspace muestra ahora una notificación cada vez que consume un token. De este modo, sabe cuántos tokens le quedan.  </p> <p>(Usuarios administradores: es posible restringir quién puede utilizar estos tokens mediante la edición de los permisos de grupo. El permiso se denomina “Detección de anomalías y análisis de contribución” en <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Administración de usuarios </span> &gt; <span class="uicontrol"> Editar grupos </span> &gt; <span class="uicontrol"> Editar el acceso a todos los informes </span> &gt; <span class="uicontrol"> Personalizar las herramientas del grupo de informes </span> &gt; <span class="uicontrol"> Herramientas e informes</span>).  </p> </td> 
   </tr> 
   <tr> 
@@ -758,7 +758,7 @@ Nuevas funciones lanzadas el 20 de julio de 2017.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>“Obtener vínculo del proyecto” para los inicios de sesión de Experience Cloud</b> </p> </td> 
-   <td colname="col2"> <p>Antes, si iniciaba sesión con las credenciales de Experience Cloud y navegaba a Analytics, no podía utilizar la función <span class="ignoretag"> <span class="uicontrol"> Compartir </span> &gt; <span class="uicontrol"> Obtener vínculo del proyecto </span></span>. Este problema está resuelto. Para que esta opción esté disponible, aún es necesario haber guardado el proyecto. </p> </td> 
+   <td colname="col2"> <p>Antes, si iniciaba sesión con las credenciales de Experience Cloud y navegaba a Analytics, no podía utilizar la función <span class="ignoretag"> <span class="uicontrol"> Compartir </span> &gt; <span class="uicontrol"> Obtener vínculo del proyecto</span></span>. Este problema está resuelto. Para que esta opción esté disponible, aún es necesario haber guardado el proyecto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Filtro “Proyectos caducados” en el Administrador de proyectos programados </a></b> </p> </td> 
@@ -780,7 +780,7 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > Mejoras en la visita en el orden previsto </a></b> </td> 
+   <td colname="col1"> Mejoras en <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  > la visita en el orden previsto </a></b> </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">Sin límite de segmentos para la comparación. </li> 
@@ -791,14 +791,14 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  > <b> Mejoras de flujo </b> </a> </td> 
+   <td colname="col1"> Mejoras de <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b> flujo </b> </a> </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">Se ha añadido una nueva configuración de visualización denominada <span class="wintitle"> Inhabilitar el truncado de etiquetas </span> (valor predeterminado = sin marcar). </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > Cambios en el calendario </a></b> </td> 
+   <td colname="col1"> Cambios en <b><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > el calendario </a></b> </td> 
    <td colname="col2"> Se han realizado cambios en el calendario para adaptarlo al calendario de Reports &amp; Analytics: 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">Con el primer clic se inicia la selección de un intervalo de fechas. A continuación, resalte el intervalo en cualquier dirección y vuelva a hacer clic para determinar el final del intervalo de fechas. Si se mantiene pulsada la tecla Mayús (o se hace clic con el botón derecho) mientras se hace clic en la primera fecha, se adjuntará al intervalo. </li> 
@@ -821,14 +821,14 @@ Nuevas funciones lanzadas el 8 de junio de 2017.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Mejoras en el Administrador de componentes</b> </p> </td> 
+   <td colname="col1"> <p>Mejoras en el <b>Administrador de componentes</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_BB22F84ABFB04685A9752AD4BDE6E60A"> 
      <li id="li_B3D460C15C454911A9D7254F50815355">Se han añadido fechas de caducidad a las alertas y a los proyectos programados. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/components/c-alerts/alert-manager.md"  > Mejoras en el Administrador de alertas </a> </b> </p> </td> 
+   <td colname="col1"> <p>Mejoras en el <b><a href="/help/components/c-alerts/alert-manager.md"  > Administrador de alertas </a> </b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">Se ha añadido la posibilidad de habilitar/deshabilitar alertas. </li> 
@@ -862,11 +862,11 @@ Nuevas funciones lanzadas el 20 de abril de 2017.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > Plantilla Personas </a> </p> </td> 
-   <td colname="col2"> <p>Nota: La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de la <a href="https://docs.adobe.com/content/help/es-ES/device-co-op/using/data/people.html"  > cooperación entre dispositivos de Adobe Experience Cloud </a>. </p> <p>La plantilla está basada en la métrica Personas que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. </p> </td> 
+   <td colname="col2"> <p>Nota: La plantilla Personas y su métrica asociada Personas solo se pueden usar como parte de la <a href="https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=es-ES"  >cooperación entre dispositivos de Adobe Experience Cloud</a>. </p> <p>La plantilla está basada en la métrica Personas que es una versión deduplicada de la métrica Visitantes únicos. La métrica Personas proporciona una medida de la frecuencia con la que los consumidores que usan varios dispositivos interactúan con la marca. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mejoras en la opción Deshacer/Rehacer </p> </td> 
-   <td colname="col2"> <p>En estas listas se muestran las acciones que puede y las que no puede deshacer y rehacer en Analysis Workspace </a>. </p> </td> 
+   <td colname="col2"> <p>En estas listas se muestran las acciones que puede y las que no puede deshacer y rehacer en Analysis Workspace</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -885,7 +885,7 @@ Nueva función lanzada el 16 de febrero de 2017:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > Desglose por posición </a> </p> </td> 
-   <td colname="col2"> <p>Permite el desglose por posición de tabla. Ejemplo: “Siempre quiero desglosadas las 7 filas superiores de una tabla improvisada”. Ahora, cuando crea una tabla improvisada hay una casilla que le permite habilitar “Desglose por posición”. Esta opción está desactivada de manera predeterminada. </p> <p>Anteriormente, la lista de valores en el desglose estaba “bloqueada”. Esto llevaba a una situación en la que, por ejemplo, si realizaba un desglose de <span class="wintitle"> Fecha </span> por <span class="wintitle"> Página </span>, obtenía una lista de las 50 primeras páginas para el intervalo de fechas seleccionado. </p> <p>Si se guardaba ese informe y se ejecutaba un mes después, era probable que las 50 primeras páginas hubieran cambiado. No obstante, Analysis Workspace “confiaba” en los resultados del desglose original y devolvía las mismas páginas, pero con el mes en curso como intervalo de fechas. </p> </td> 
+   <td colname="col2"> <p>Permite el desglose por posición de tabla. Ejemplo: “Siempre quiero desglosadas las 7 filas superiores de una tabla improvisada”. Ahora, cuando crea una tabla improvisada hay una casilla que le permite habilitar “Desglose por posición”. Esta opción está desactivada de manera predeterminada. </p> <p>Anteriormente, la lista de valores en el desglose estaba “bloqueada”. Esto llevaba a una situación en la que, por ejemplo, si realizaba un desglose de <span class="wintitle">Fecha</span> por <span class="wintitle">Página</span>, obtenía una lista de las 50 primeras páginas para el intervalo de fechas seleccionado. </p> <p>Si se guardaba ese informe y se ejecutaba un mes después, era probable que las 50 primeras páginas hubieran cambiado. No obstante, Analysis Workspace “confiaba” en los resultados del desglose original y devolvía las mismas páginas, pero con el mes en curso como intervalo de fechas. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1030,7 +1030,7 @@ Nuevas funciones lanzadas el 20 de octubre de 2016:
 
 Nuevas funciones lanzadas el 16 de junio de 2016:
 
-* [Nuevo permiso de grupo](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-groups/groups.html) que permite que los administradores permitan o denieguen el acceso a la pestaña **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** a los usuarios. Desde el 16 de junio de 2016, todos los usuarios tienen acceso a esta pestaña. Para denegar el acceso, solo tiene que eliminar usuarios del grupo Acceso a Analysis Workspace.
+* [Nuevo permiso de grupo](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=es-ES) que permite que los administradores permitan o denieguen el acceso a la pestaña **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** a los usuarios. Desde el 16 de junio de 2016, todos los usuarios tienen acceso a esta pestaña. Para denegar el acceso, solo tiene que eliminar usuarios del grupo Acceso a Analysis Workspace.
 * La variable [El panel Comparación de segmentos](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) detecta las diferencias más significativas estadísticamente entre dos segmentos a través de un análisis automatizado de cada métrica y dimensión a la cual tenga acceso.
 * [Estructura del Nuevo menú de proyectos](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) que reorganiza el menú de la parte superior y lo hace más extensible. Por ejemplo, para crear un **Panel de cohorte nuevo** ahora tiene que crear un Panel en blanco y arrastrarlo hasta una visualización de Tabla de cohorte.
 * [Nuevo carril izquierdo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): paneles, visualizaciones, componentes.
@@ -1059,7 +1059,7 @@ Nuevas funciones lanzadas el 21 de abril de 2016:
  <tbody> 
   <tr> 
    <td colname="col1"> Enviar archivo </td> 
-   <td colname="col2"> <p>Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega. Consulte <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Enviar archivo: programar un proyecto para su entrega </a>. </p> </td> 
+   <td colname="col2"> <p>Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega. Consulte <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >Enviar archivo: programar un proyecto para su entrega</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Descargar PDF </td> 
