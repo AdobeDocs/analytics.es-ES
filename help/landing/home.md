@@ -1,11 +1,11 @@
 ---
 title: Guías de documentación técnica de Adobe Analytics
 description: Guías y recursos para usuarios de Analytics
-translation-type: ht
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 13fefcf8f743d1890044e2ac6b5864846d2c8cb7
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ Le damos la bienvenida a la página de inicio y a la documentación técnica de 
 
 [![Integración](assets/integrate_50px.png)](/help/integrate/home.md) [Guía de integración](/help/integrate/home.md): configure integraciones con otras soluciones de Adobe Experience Cloud, como Audience Manager, Advertising Cloud o Target.
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html) [Guía de Media Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html): Implementación de Analytics en fuentes de audio o vídeo. Incluye el SDK de medios y la API de recopilación de medios.
+[![Guía](assets/media_50px.png)](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html)de análisis de medios de[flujo continuo de análisis](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html) de medios de flujo continuo: Implementar Adobe Analytics para medios de flujo continuo. Incluye el SDK de medios y la API de recopilación de medios.
 
 [![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html) [Guías de Data Workbench](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html): obtenga información sobre las capacidades de múltiples canales, potentes y altamente flexibles de [!UICONTROL Data Workbench]. Incluye las guías de [!UICONTROL Cliente de Data Workbench], Instalación, [!UICONTROL Configuración de conjuntos de datos] y más.
 
