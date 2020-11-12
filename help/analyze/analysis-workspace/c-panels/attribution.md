@@ -1,11 +1,11 @@
 ---
 title: Panel de Attribution
 description: Utilizar e interpretar el panel de atribución en Analysis Workspace.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e1cfaea079f69daeec639c6d43ef4fa442cfaa97
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 72%
 
 ---
 
@@ -34,9 +34,9 @@ El panel Atribución es una forma sencilla de generar un análisis comparando va
 ## Visualizaciones de atribución
 
 * **Métrica total**: El número total de conversiones que tienen lugar durante el periodo establecido por la ventana de creación de informes. Estas son las conversiones que se atribuyen a través de la dimensión seleccionada.
-* **Gráfico de barras comparativo de la atribución de métricas**: Compara visualmente las conversiones atribuidas en cada uno de los elementos de dimensión de la dimensión seleccionada. Cada color de barra representa un modelo de atribución distinto.
-* **Tabla improvisada de atribución de métricas**: Muestra los mismos datos que el gráfico de barras, representados como una tabla. Al seleccionar distintas columnas o filas en esta tabla, se filtra el gráfico de barras, así como varias de las demás visualizaciones del panel. Esta tabla actúa de manera similar a cualquier otra tabla improvisada en Workspace, lo que le permite agregar componentes como métricas, segmentos o desgloses.
-* **Gráfico de superposición de dimensiones**: Diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con la que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando un visitante estuvo expuesto a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla improvisada, se actualizará la visualización para reflejar su selección.
-* **Puntos de contacto de marketing por recorrido**: Un histograma que indica el número de puntos de contacto que un visitante tuvo en la ventana retrospectiva. Esto resulta útil para ver qué impacto tuvo la atribución de múltiples contactos para su conjunto de datos. Si casi todos los visitantes tienen un solo punto de contacto, es probable que distintos modelos de atribución muestren datos similares.
-* **Detalles de rendimiento del canal de marketing:** Permite comparar visualmente hasta tres modelos de atribución mediante un diagrama de puntos.
-* **Flujo del canal de marketing:** Permite ver en qué canales hay interacción con más frecuencia y en qué orden a lo largo del recorrido de un visitante.
+* **Barra** de comparación de atributos: Compara visualmente las conversiones atribuidas en cada uno de los elementos de dimensión de la dimensión seleccionada. Cada color de barra representa un modelo de atribución distinto.
+* **Tabla** de comparación de atribución: Muestra los mismos datos que el gráfico de barras, representado como una tabla. Al seleccionar distintas columnas o filas en esta tabla, se filtra el gráfico de barras, así como varias de las demás visualizaciones del panel. Esta tabla actúa de manera similar a cualquier otra tabla improvisada en Workspace, lo que le permite agregar componentes como métricas, segmentos o desgloses.
+* **Diagrama** superpuesto: Diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando un visitante estuvo expuesto a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla improvisada, se actualizará la visualización para reflejar su selección.
+* **Detalle** de rendimiento: Permite comparar hasta tres modelos de atribución visualmente mediante un diagrama de puntos.
+* **Rendimiento** de tendencias: Muestra la tendencia de las conversiones atribuidas para el elemento de dimensión principal. Si se seleccionan otras filas en la Tabla improvisada, se actualizará la visualización para reflejar su selección.
+* **Flujo**: Permite ver con qué canales se interactúan con mayor frecuencia y en qué orden durante el viaje de un visitante.
