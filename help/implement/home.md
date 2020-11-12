@@ -1,11 +1,11 @@
 ---
 title: Implementación de Adobe Analytics
 description: Implemente Adobe Analytics en su sitio, propiedad o aplicación.
-translation-type: ht
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
-workflow-type: ht
-source-wordcount: '382'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 34ccd89d0ac4223af87b36a48e778fb678d5cd59
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,7 @@ Adobe Analytics requiere código en el sitio web, la aplicación móvil u otra a
 
 ## Artículos de implementación de Analytics clave
 
+* [Se encarga de una implementación de Adobe Analytics existente](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
 * [Creación de una propiedad en Experience Platform Launch](launch/create-analytics-property.md)
 * [Actualizaciones de AppMeasurement](appmeasurement-updates.md)
