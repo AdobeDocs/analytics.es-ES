@@ -2,22 +2,22 @@
 title: Panel de Attribution
 description: Utilizar e interpretar el panel de atribución en Analysis Workspace.
 translation-type: tm+mt
-source-git-commit: e1cfaea079f69daeec639c6d43ef4fa442cfaa97
+source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 72%
+ht-degree: 66%
 
 ---
 
 
 # Panel de Attribution
 
-El panel Atribución es una forma sencilla de generar un análisis comparando varios modelos de atribución. Es una funcionalidad de [Attribution IQ](../attribution/overview.md) que le proporciona un espacio de trabajo dedicado para usar y comparar modelos de atribución.
+The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. Es una funcionalidad de [Attribution IQ](../attribution/overview.md) que le proporciona un espacio de trabajo dedicado para usar y comparar modelos de atribución.
 
 ## Creación de un panel de atribución
 
 1. Haga clic en el icono de panel situado en la izquierdo.
-1. Arrastre el panel Atribución adentro de su Proyecto de Analysis Workspace.
+1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
 
    ![Nuevo panel de atribución](assets/Attribution_Panel_1.png)
 
@@ -40,3 +40,4 @@ El panel Atribución es una forma sencilla de generar un análisis comparando va
 * **Detalle** de rendimiento: Permite comparar hasta tres modelos de atribución visualmente mediante un diagrama de puntos.
 * **Rendimiento** de tendencias: Muestra la tendencia de las conversiones atribuidas para el elemento de dimensión principal. Si se seleccionan otras filas en la Tabla improvisada, se actualizará la visualización para reflejar su selección.
 * **Flujo**: Permite ver con qué canales se interactúan con mayor frecuencia y en qué orden durante el viaje de un visitante.
+
