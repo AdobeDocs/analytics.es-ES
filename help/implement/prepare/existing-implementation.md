@@ -2,7 +2,7 @@
 title: Se encarga de una implementación de Adobe Analytics existente
 description: Instrucciones para administradores que son nuevos en una implementación de Adobe Analytics existente.
 translation-type: tm+mt
-source-git-commit: c95ff254d2df8373776a2ce261a5786045169181
+source-git-commit: d3b05bddef89d7525c21f9f4686707daa27bc669
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ¿Está asumiendo el control de una implementación de Adobe Analytics del propietario técnico anterior? Nuestro libro de estrategias de implementación heredada le ayudará a asumir el cargo de nuevo propietario técnico de una implementación existente. En la hoja de cálculo descargable, le guiaremos por las actividades de descubrimiento, auditoría y documentación que debe realizar en sus primeras 10 semanas de trabajo a medida que se hace cargo de una implementación existente.
 
-Descargue el libro de estrategias de implementación [heredada](assets/adobe_analytics_inherited_implementation_playbook.xlsx).
+**Descargue el libro de estrategias de implementación [heredada](assets/adobe_analytics_inherited_implementation_playbook.xlsx).**
 
 ![Libro de estrategias](assets/inherited-impl-playbook.png)
 
