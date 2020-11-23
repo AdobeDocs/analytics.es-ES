@@ -1,11 +1,11 @@
 ---
 description: Funciones de soporte de accesibilidad en Analysis Workspace
 title: Accesibilidad en Analysis Workspace
-translation-type: ht
-source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 82%
 
 ---
 
@@ -22,11 +22,20 @@ La accesibilidad se refiere a hacer que personas con discapacidades visuales, au
 
 La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a abajo e izquierda a derecha. Los siguientes elementos de navegación facilitan la accesibilidad:
 
-* La tecla `F6` habilita los métodos abreviados de referencia
-* La tecla `Tab` permite moverse entre elementos individuales.
+* La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes dentro de Workspace. En el carril izquierdo, `Tab` también permite pasar de una opción arrastrable a la siguiente.
+* El `left/right arrows` desplazamiento entre elementos individuales después de `Tab` resaltarlo.
+* El `F6` navegador se desplaza al primer panel del proyecto y se desplaza entre las visualizaciones de dicho panel. A continuación, pasa al siguiente panel del proyecto y se repite.
 * Aplicamos indicadores de enfoque para que los usuarios de este tipo de teclados tengan una clara indicación de qué elemento de la interfaz de usuario está seleccionado actualmente. El indicador es un borde azul alrededor del elemento seleccionado.
 
    ![Indicador de enfoque](assets/focus-indicator.png)
+
+### Navegación por teclado para la barra de menús
+
+1. Tabulador hasta que llegue a la barra de menús.
+1. Utilice las teclas de flecha izquierda/derecha para desplazarse al menú que desee.
+1. Pulse `Enter` para seleccionar el menú y mostrar sus opciones.
+1. Utilice las teclas de flecha arriba/abajo para desplazarse a la opción de menú que desee.
+1. Pulse `Enter` para seleccionar la opción.
 
 ### Navegación por teclado para interacciones de arrastrar y soltar
 
