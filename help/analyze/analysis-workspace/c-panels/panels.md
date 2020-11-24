@@ -2,7 +2,7 @@
 description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
 translation-type: tm+mt
-source-git-commit: c9ceebef6afc60551304ed703050757269d8cb30
+source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 11%
@@ -84,7 +84,11 @@ Para crear filtros desplegables:
 
 ## Menú contextual {#right-click}
 
-Para obtener más funcionalidad, haga clic con el botón derecho en el encabezado del panel. Están disponibles los siguientes ajustes:
+Para obtener más funcionalidad, haga clic con el botón derecho en el encabezado del panel.
+
+![](assets/right-click-menu.png)
+
+Están disponibles los siguientes ajustes:
 
 | Configuración | Descripción |
 | --- | --- |
