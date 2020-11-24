@@ -3,9 +3,9 @@ description: Representar visualmente los datos con visualizaciones.
 keywords: Analysis Workspace
 title: Resumen de las visualizaciones
 translation-type: tm+mt
-source-git-commit: 71cf46157917c77a815b8474bc635c01d6d13a25
+source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1089'
 ht-degree: 42%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 42%
 
 Workspace oferta una serie de visualizaciones que le permiten generar representaciones visuales de sus datos, como gráficos de barras, gráficos circulares, histogramas, gráficos de líneas, mapas, gráficos de dispersión, etc. La mayoría de los tipos de visualización le resultarán familiares si utiliza Adobe Analytics. Sin embargo, Analysis Workspace proporciona una configuración de visualización y múltiples tipos de visualización únicos o nuevos con funciones interactivas.
 
-Puede acceder a las visualizaciones desde el icono superior izquierdo de Workspace, un panel [en](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)blanco o a través del menú que aparece al hacer clic con el botón derecho en el flujo de trabajo. Los siguientes tipos de visualización están disponibles en Analysis Workspace:
+Puede acceder a las visualizaciones desde el icono superior izquierdo de Workspace, un panel [en](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)blanco o a través del menú que aparece al hacer clic con el botón derecho en el flujo de trabajo.
+
+![](assets/viz-rail.png)
+
+Los siguientes tipos de visualización están disponibles en Analysis Workspace:
 
 | Nombre de la visualización | Descripción |
 | --- | --- |
@@ -40,20 +44,22 @@ Puede acceder a las visualizaciones desde el icono superior izquierdo de Workspa
 
 ## Configuración {#settings}
 
-Cada visualización tiene su propia configuración que puede administrar. Para acceder a Configuración [!UICONTROL de]visualización, haga clic en el icono de engranaje Configuración [!UICONTROL de] visualización. Algunas configuraciones incluyen:
+Cada visualización tiene su propia configuración que puede administrar. Para acceder a Configuración [!UICONTROL de]visualización, haga clic en el icono de engranaje Configuración [!UICONTROL de] visualización.
+
+![](assets/settings.png)
 
 | Configuración | Descripción |
 | --- | --- |
 | Tipo de visualización | Cambie el tipo de imagen que se utiliza para representar los datos. |
-| Granularidad | Para las visualizaciones de tendencias, puede cambiar la granularidad horaria (día, semana, mes, etc.) de este menú desplegable. Este cambio también se aplicará a la tabla del origen de datos. |
+| Granularidad | Para las visualizaciones de tendencias, puede cambiar la granularidad de tiempo (día, semana, mes, etc.) de este menú desplegable. Este cambio también se aplica a la tabla del origen de datos. |
 | Porcentajes | Muestra valores en porcentajes. |
-| Apilada al 100 % | Esta configuración en visualizaciones apiladas de áreas, barras apiladas u barras horizontales convierte el gráfico en una visualización &quot;100% apilada&quot;. Ejemplo: ![](assets/stacked_100_percent.png) |
+| Apilada al 100 % | Esta configuración en visualizaciones apiladas de áreas, barras apiladas u barras horizontales convierte el gráfico en una visualización &quot;100% apilada&quot;. Ejemplo: ![Apilado 100%](assets/stacked_100_percent.png) |
 | Leyenda visible | Permite ocultar el texto de leyenda detallado para la visualización Número de resumen/Cambio de resumen. |
 | Límite máximo de elementos | Le permite limitar el número de elementos que se muestran en una visualización. |
 | Eje Y delimitador a cero | Si todos los valores marcados en el gráfico están considerablemente por encima de cero, el gráfico mostrará el valor base del eje Y distinto a cero. Si marca esta casilla, el eje Y se forzará a ser cero (y se redibujará el gráfico). |
 | Normalización | Fuerza métricas para igualar proporciones. Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
 | Mostrar eje doble | Solo es aplicable si cuenta con dos métricas: puede tener un eje Y a la izquierda (para una métrica) y a la derecha (para otra métrica). Esto resulta útil cuando las métricas trazadas son de magnitudes muy diferentes. |
-| Mostrar anomalías | Mejora los gráficos de líneas y las tablas improvisadas al mostrar la definición de anomalías. La detección de anomalías en visualizaciones de línea incluye un valor esperado (línea discontinua) y un rango esperado (banda sombreada). |
+| Mostrar anomalías | Mejora los gráficos de líneas y las tablas improvisadas al mostrar la detección de anomalías. La detección de anomalías en visualizaciones de línea incluye un valor esperado (línea discontinua) y un rango esperado (banda sombreada). |
 
 ## Leyenda {#legend}
 
@@ -77,7 +83,7 @@ Aquí tiene un [vínculo que dirige a un vídeo](https://docs.adobe.com/content/
 
 Para una visualización, puede hacer clic con el botón derecho en el encabezado de visualización para obtener más funcionalidad. La configuración variará según la visualización. Algunos de los ajustes disponibles son:
 
-![](assets/right-click_menu.png)
+![](assets/right-click.png)
 
 | Configuración | Descripción |
 | --- | --- |
@@ -94,4 +100,4 @@ Para una visualización, puede hacer clic con el botón derecho en el encabezado
 
 If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). Ésta es la forma más rápida de agregar una visualización. Si hace clic en él, Analysis Workspace le dirá qué visualización sería la más adecuada para sus datos. Por ejemplo, si tiene 1 fila seleccionada, creará un gráfico de líneas de tendencias. Si tiene 3 filas de segmentos seleccionadas, creará un diagrama de Venn.
 
-![](assets/create-visual.png)
+![](assets/quick-viz.png)
