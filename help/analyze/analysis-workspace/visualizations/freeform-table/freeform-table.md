@@ -2,10 +2,10 @@
 title: Tabla improvisada
 description: Las tablas improvisadas son la base de la análisis de datos en Workspace
 translation-type: tm+mt
-source-git-commit: ae04b10edb35f15e552527948b5b7d57c175f562
+source-git-commit: b91d3c732a0683f63c46dbefb4092d296c569e9d
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 59%
+source-wordcount: '861'
+ht-degree: 50%
 
 ---
 
@@ -20,16 +20,9 @@ La forma más rápida de crear una tabla es soltar componentes directamente en u
 
 ## Generador de tablas improvisado
 
-Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas improvisadas. Con el Generador de tablas improvisadas, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas más complejas. Los datos no se actualizarán sobre la marcha, sino una vez que haga clic en **[!UICONTROL Generar]**. Vea el tutorial [Generador de tablas](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace.html)improvisado.
+Si prefiere primero agregar varios componentes a la tabla y luego procesar los datos, puede habilitar el Generador de tablas improvisadas. Con el Generador de tablas improvisadas, puede arrastrar y soltar varias dimensiones, desgloses, métricas y segmentos para crear tablas que respondan a preguntas más complejas. Los datos no se actualizarán sobre la marcha, sino una vez que haga clic en **[!UICONTROL Generar]**.
 
-El Generador de tablas es una opción que ahorra tiempo cuando tiene una pregunta compleja que hacer sobre los datos y tiene una idea de qué tabla desea crear para responder a su pregunta. Otras ventajas del generador de tablas incluyen la capacidad de:
-
-* Organizar la tabla en el formato que necesite, sin tener que esperar a que se procese cada acción.
-* Realizar rápidamente hasta 4 niveles de desgloses.
-* Definir la configuración de Fila y Desglose para cada fila de tabla y columna de dimensión.
-* **[!UICONTROL Desglose por posición]** para cada nivel de la tabla de forma predeterminada (en las tablas improvisadas tradicionales, el valor predeterminado es **[!UICONTROL Desglosar por elemento]**).
-* Ordenar manualmente filas estáticas en la tabla. Por ejemplo, si desea que las filas de métricas aparezcan en un orden determinado.
-* Previsualizar el formato de la tabla antes de procesar datos reales.
+![](assets/table-builder.png)
 
 ## Interacciones de tabla
 
@@ -48,10 +41,36 @@ Puede interactuar con una tabla improvisada y personalizarla de diversas formas:
 
 ## Exportar datos de tabla improvisada
 
-Los datos de una tabla improvisada se pueden copiar desde Analysis Workspace de varias formas:
+Los datos de una tabla improvisada se pueden copiar de Analysis Workspace de varias formas:
+
+* Haga clic con el botón derecho > **[!UICONTROL Copiar datos en el portapapeles]** para exportar los datos de la tabla mostrada. Si se realiza una selección de tabla, esta opción dirá **[!UICONTROL Copiar selección al portapapeles]**. La tecla de acceso directo **Ctrl+C** también copia los datos seleccionados.
+* Al hacer clic con el botón derecho > **[!UICONTROL Descargar datos como CSV]** , se descargan los datos de la tabla mostrados como un CSV. Si se selecciona una tabla, esta opción dirá **[!UICONTROL Descargar selección como CSV]**.
+* Haga clic con el botón derecho > **[!UICONTROL Proyecto > Descargar elementos como CSV]** para exportar hasta 50.000 elementos de dimensión para la dimensión seleccionada.
+
+## Interacciones de tabla
+
+Puede interactuar con una tabla improvisada y personalizarla de diversas formas:
+
+* **Filas**
+   * Puede visualizar más filas en una sola pantalla ajustando la [densidad de vista](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) del proyecto.
+   * Cada fila de dimensión puede mostrar hasta 400 filas antes de que se produzca la paginación. Haga clic en el número junto a &quot;Filas&quot; para mostrar más filas en una página. Navegue a otra página utilizando la flecha de página en el encabezado.
+   * Las filas se pueden desglosar en componentes adicionales. Para desglosar muchas filas a la vez solo tiene que seleccionar varias filas y arrastrar el siguiente componente sobre las filas seleccionadas. Obtenga más información sobre los [desgloses](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.html).
+   * Las filas se pueden [filtrar](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=es-ES) para mostrar un conjunto reducido de elementos. Hay opciones de configuración adicionales disponibles en [Configuración de fila](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.html).
+
+* **Columnas**
+   * Los componentes se pueden apilar en columnas para crear métricas segmentadas, análisis entre fichas, etcétera.
+   * La vista de cada columna se ajusta en la [configuración de columna](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html).
+   * Hay varias acciones disponibles a través del [menú accesible mediante el botón secundario](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html). El menú proporciona diferentes acciones en función de si se hace clic en el encabezado de tabla, en las filas o en las columnas.
+
+## Exportar datos de tabla improvisada
+
+
+Obtenga más información sobre todas las opciones [de](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) exportación de datos para Analysis Workspace.
 
 * Haga clic con el botón derecho > **[!UICONTROL Copiar datos en el portapapeles]** para exportar los datos de la tabla mostrada. Si se realiza una selección de tabla, esta opción dirá **[!UICONTROL Copiar selección al portapapeles]**. La tecla de acceso directo **Ctrl+C** también copia los datos seleccionados.
 * Al hacer clic con el botón derecho > **[!UICONTROL Descargar datos como CSV]** , se descargan los datos de la tabla mostrados como un CSV. Si se selecciona una tabla, esta opción dirá **[!UICONTROL Descargar selección como CSV]**.
 * Haga clic con el botón derecho > **[!UICONTROL Proyecto > Descargar elementos como CSV]** para exportar hasta 50.000 elementos de dimensión para la dimensión seleccionada.
 
 Obtenga más información sobre todas las opciones [de](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) exportación de datos para Analysis Workspace.
+
+![](assets/export-options.png)
