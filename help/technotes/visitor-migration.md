@@ -5,7 +5,10 @@ title: Migración de visitantes
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +19,11 @@ La migración de visitantes es un proceso en el que las cookies de ID de visitan
 
 La migración de visitantes permite preservar las cookies de identificación de visitantes al cambiar de dominio de recopilación de datos. Los dominios de recopilación de datos pueden cambiar por las siguientes razones:
 
-* Se cambia de `2o7.net` a `omtrdc.net` ([Recopilación de datos regionales](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html)).
+* Se cambia de `2o7.net` a `adobedc.net` ([Recopilación de datos regionales](https://docs.adobe.com/content/help/es-ES/analytics/technotes/rdc/regional-data-collection.html)).
 
-* Implementación del [Servicio de ID de visitante de Experience Cloud](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) y cambio de un CNAME o dominio de recopilación de datos de origen a `2o7.net` o `omtrdc.net` ([Recopilación de datos regionales](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html))
+* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/es-ES/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net1`, `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://docs.adobe.com/content/help/es-ES/analytics/technotes/rdc/regional-data-collection.html))
 
-* Se cambia de `2o7.net` u `omtrdc.net` a un cname o un servidor de recopilación de datos de origen ([Cookies de origen)](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-first-party.html).
+* Se cambia de `2o7.net` u `adobedc.net` a un cname o un servidor de recopilación de datos de origen ([Cookies de origen)](https://docs.adobe.com/content/help/es-ES/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * Se cambia de un CNAME a otro (cambio de dominios).
 
@@ -48,7 +51,7 @@ La tabla siguiente resume las tareas necesarias para la migración de visitantes
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Más de 6 horas después del cambio de configuración</b>: Actualice las variables <code> s.trackingServer</code> y <code> s.trackingServerSecure</code> en su código JavaScript de Analytics para utilizar los nuevos servidores de recopilación de datos. </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inmediatamente después de actualizar su código de Analytics</b>: Pruebe el sitio para comprobar que se esté redireccionando al dominio anterior de recopilación de datos. </p> </td> 
