@@ -1,9 +1,9 @@
 ---
 title: Implementación con Artículos instantáneos de Facebook
 description: Implementar Adobe Analytics en páginas de Artículos instantáneos de Facebook.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ El HTML de muestra se puede usar para capturar estadísticas de los artículos i
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
       var s_account = "examplersid";
-      var s_trackingServer = "example.sc.omtrdc.net";
+      var s_trackingServer = "example.sc.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
 
