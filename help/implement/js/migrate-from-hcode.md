@@ -1,9 +1,9 @@
 ---
 title: Migrar a AppMeasurement para JavaScript
 description: Determine lo que necesita para migrar la implementación fuera del código H.
-translation-type: ht
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Los siguientes cambios importantes están presentes en AppMeasurement en compara
 Los siguientes pasos describen un flujo de trabajo de migración habitual.
 
 1. **Descargue el nuevo archivo de AppMeasurement**: Para acceder al nuevo archivo, inicie sesión en Adobe Analytics y, a continuación, vaya a Administración > Administrador de códigos. El archivo comprimido descargado contiene un archivo `AppMeasurement.js` minimizado, junto con los módulos Media e Integrate.
-1. **Copie las personalizaciones de`s_code.js`a`AppMeasurement.js`**: Mueva todo el código antes de la sección `DO NOT ALTER ANYTHING BELOW THIS LINE` en `s_code.js` al principio de `AppMeasurement.js`.
+1. **Copie las personalizaciones de `s_code.js` a`AppMeasurement.js`**: Mueva todo el código antes de la sección `DO NOT ALTER ANYTHING BELOW THIS LINE` en `s_code.js` al principio de `AppMeasurement.js`.
 1. **Actualizar todos los complementos**: Compruebe que está utilizando la versión más reciente de cada complemento enumerado en el archivo `s_code.js`. Esto incluye los módulos Media e Integrate.
 1. **Implementar el archivo AppMeasurement.js**: Cargue el archivo `AppMeasurement.js` en el servidor web.
 1. **Actualizar referencias de secuencias de comandos para que dirijan a`AppMeasurement.js`**: Compruebe que todas las páginas hagan referencia a `AppMeasurement.js` en lugar de `s_code.js`.
@@ -62,7 +62,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.omtrdc.net";
+s.trackingServer="example.sc.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
