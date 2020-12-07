@@ -1,9 +1,9 @@
 ---
 title: Vínculos de no participación
 description: Obtenga información sobre cómo crear e implementar Vínculos de no participación para los visitantes del sitio.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ La página de exclusión de su organización depende del valor de la variable [`
 
 Una vez encontrado el dominio `trackingServer` de la implementación, anexe la ruta `/optout.html` al final. Por ejemplo:
 
-* Cookies de terceros: `https://example.sc.omtrdc.net/optout.html`
+* Cookies de terceros: `https://example.sc.adobedc.net/optout.html`
 * Cookies de origen: `https://stats.example.com/optout.html`
 
 ## Parámetros de cadena de consulta de exclusión
@@ -78,7 +78,7 @@ Cambiar automáticamente el idioma de la página de exclusión incluyendo el par
 * sk_SK (eslovaco)
 * es_ES (español)
 
-Por ejemplo, `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` carga la página de exclusión en coreano.
+Por ejemplo, `https://example.sc.adobedc.net/optout.html?locale=ko_KR` carga la página de exclusión en coreano.
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ Por ejemplo, `https://example.sc.omtrdc.net/optout.html?locale=ko_KR` carga la p
 
 Agrega un botón “Cerrar ventana” a la página, lo que permite que la página de exclusión se convierta en una ventana emergente. Utilice el parámetro de cadena de consulta `popup` y asígnele un valor de `1`.
 
-Por ejemplo, `https://example.sc.omtrdc.net/optout.html?popup=1` carga la página de exclusión con el botón “Cerrar ventana”.
+Por ejemplo, `https://example.sc.adobedc.net/optout.html?popup=1` carga la página de exclusión con el botón “Cerrar ventana”.
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ Por ejemplo, `https://example.sc.omtrdc.net/optout.html?popup=1` carga la págin
 
 Permite al usuario desactivar inmediatamente el seguimiento. Agregue los dos parámetros de cadena de consulta `opt_out` y `confirm_change`, dando a cada uno un valor de `1`.
 
-Por ejemplo, `https://example.sc.omtrdc.net/optout.html?opt_out=1&confirm_change=1` instala inmediatamente la cookie de exclusión en la página del visitante.
+Por ejemplo, `https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1` instala inmediatamente la cookie de exclusión en la página del visitante.
 
 ### Opción de inclusión de un solo clic
 
 Permite que el usuario vuelva a realizar el seguimiento inmediatamente eliminando la cookie de exclusión. Agregue los dos parámetros de cadena de consulta `opt_in` y `confirm_change`, dando a cada uno un valor de `1`.
 
-Por ejemplo, `https://example.sc.omtrdc.net/optout.html?opt_in=1&confirm_change=1` elimina inmediatamente la cookie de exclusión del visitante.
+Por ejemplo, `https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1` elimina inmediatamente la cookie de exclusión del visitante.
