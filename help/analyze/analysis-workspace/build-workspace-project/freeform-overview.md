@@ -5,7 +5,7 @@ title: Información general sobre Proyectos
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 87cd6c3ceb404361be163845899015a43ec0fb14
+source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 27%
@@ -44,6 +44,8 @@ La lista de proyectos de Workspace contiene la siguiente información:
 
 Dentro de un proyecto, el menú proporciona opciones para administrar el proyecto, agregar componentes, buscar ayuda, etc. También se puede acceder a cada opción de menú mediante [métodos abreviados](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)de teclado.
 
+![](assets/menu.png)
+
 | Elemento de menú | Descripción |
 |---|---|
 | Proyecto  | Incluye acciones comunes para la administración de proyectos, incluidas las plantillas [Nueva, Abrir, Guardar, Guardar como y](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)Guardar como. También puede actualizar todo el proyecto para recuperar los datos y las definiciones más recientes haciendo clic en Actualizar proyecto. [Las opciones de descarga de CSV y PDF](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) le permiten exportar datos desde Workspace. [Info y configuración](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) del proyecto oferta muchas opciones para administrar el proyecto. |
@@ -81,6 +83,8 @@ También puede acceder a las visualizaciones y los paneles desde el panel [en bl
 
 Los componentes (Dimension, Métricas, Segmentos e Intervalos de fechas) del carril izquierdo se relacionan con el grupo de informes del panel activo. El panel activo tendrá un borde azul alrededor y el grupo de informes activo se mostrará en la parte superior del carril del componente.
 
+![](assets/left-rail.png)
+
 ## Lienzo del proyecto {#canvas}
 
 El lienzo del proyecto es donde se reúnen paneles, tablas, visualizaciones y componentes para crear la análisis. Un proyecto puede contener muchos paneles y cada uno de ellos puede contener muchas tablas y visualizaciones.
@@ -89,11 +93,15 @@ Los paneles son útiles cuando desea organizar sus proyectos según períodos de
 
 Según el punto de partida que elija para sus proyectos, para empezar tendrá una tabla [improvisada o un panel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) [](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) en blanco en el lienzo. La forma más rápida de analizar los inicios es seleccionar uno o varios componentes y simplemente arrastrarlos y colocarlos en el lienzo del proyecto. Se mostrará automáticamente una tabla de datos. [Obtenga más](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) información sobre las distintas opciones para crear una tabla o aproveche nuestro tutorial [de](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) formación para obtener más información sobre cómo crear su primer proyecto.
 
+![](assets/canvas.png)
+
 ## Gestor de proyecto {#manager}
 
 Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. El Administrador de proyectos muestra los elementos que ha creado un usuario específico. La propiedad del proyecto se puede transferir a un nuevo usuario en Administración > Usuarios y recursos de Analytics > Transferir recursos.
 
 En el Administrador de proyectos, puede agregar, etiquetar, compartir, duplicado/copiar, etc. Busque un proyecto en la barra de búsqueda o utilizando las opciones de filtro del carril izquierdo. Puede filtrar por etiqueta, propietarios, tipo de proyecto y más.
+
+![](assets/project-manager.png)
 
 Las siguientes son acciones comunes en el administrador de proyectos y se pueden realizar en uno o varios proyectos a la vez:
 
