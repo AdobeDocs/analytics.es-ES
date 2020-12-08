@@ -1,16 +1,12 @@
 ---
-source-git-commit: 373d58b67e943b90b39c33d61a9c816bab6e727e
+source-git-commit: 770f2dd79099fdb83006d457bc2888dc5a09114f
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '517'
-ht-degree: 85%
+source-wordcount: '435'
+ht-degree: 100%
 
 ---
 # Artículo sobre colaboración
-
-| EXL-PR | EXL | Vista previa | Activar | Publicadas | Ayuda |
-|--- |--- |--- |--- |--- |--- |
-| [![Estado de compilación](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_pr-exl/lastBuild/) | [![Estado de compilación](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_exl/lastBuild/lastBuild) | [URL de previsualización](https://experienceleague.corp.adobe.com/docs/analytics/analyze/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Dirección URL en directo](https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=en) | [Guía de creación](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Agradecemos las contribuciones de nuestra comunidad, así como de los empleados de Adobe que no forman parte de los equipos de documentación.
 
