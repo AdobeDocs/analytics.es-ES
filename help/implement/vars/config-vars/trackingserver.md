@@ -2,10 +2,10 @@
 title: trackingServer
 description: Determinar la ubicación en la que se envían las solicitudes de imagen.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 91%
+source-wordcount: '398'
+ht-degree: 90%
 
 ---
 
@@ -27,15 +27,11 @@ Servidor de seguimiento es un campo del acordeón [!UICONTROL General] al config
 3. Vaya a la pestaña [!UICONTROL Extensiones] y, a continuación, haga clic en el botón [!UICONTROL Configurar] en Adobe Analytics.
 4. Expanda el acordeón [!UICONTROL General], que muestra el campo [!UICONTROL Servidor de seguimiento].
 
-Si este campo se deja en blanco, el valor predeterminado es `[rsid]sc.adobedc.net`.
+Si este campo se deja en blanco, el valor predeterminado es `[rsid].data.adobedc.net`.
 
 ## s.trackingServer en el editor de código personalizado de AppMeasurement y Launch
 
 La variable `s.trackingServer` es una cadena que contiene la ubicación para enviar datos.
-
->[!TIP]
->
->Algunas implementaciones dirigen los datos a `2o7.net`. Aunque este dominio de recopilación de datos es válido, no utiliza la recopilación de datos regionales. Las implementaciones que utilizan `2o7.net` sufren tiempos de respuesta de solicitudes de imagen ligeramente más altos.
 
 ## Determinar el valor de trackingServer
 
@@ -65,7 +61,7 @@ s.trackingServer = "example.data.adobedc.net";
 
 Elija un subdominio exclusivo de su organización, que es poco probable que elija otra organización que utilice Adobe Analytics.  Se recomienda la Área de nombres de visitante asignada a su organización.  Asegúrese de que todas las implementaciones de su organización utilicen el mismo servidor de seguimiento. Puede resultar útil mantener esta información en un [documento de diseño de solución](../../prepare/solution-design.md).
 
-Es posible que su organización ya esté utilizando un servidor de seguimiento de terceros en los `sc.adobedc.net` dominios o `2o7.net` .  Estos se utilizaban principalmente en versiones anteriores de Adobe Analytics y siguen siendo válidos.
+Es posible que su organización ya esté utilizando un servidor de seguimiento de terceros en los `sc.omtrdc.net` dominios o `2o7.net` .  Estos se utilizaban principalmente en versiones anteriores de Adobe Analytics y siguen siendo válidos.
 
 >[!NOTE]
 >
