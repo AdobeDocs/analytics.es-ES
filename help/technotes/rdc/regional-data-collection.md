@@ -2,10 +2,10 @@
 title: Recopilación de datos regionales
 description: Información sobre la recopilación de datos regionales
 translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
+source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 77%
+source-wordcount: '475'
+ht-degree: 57%
 
 ---
 
@@ -24,9 +24,11 @@ Actualmente, la recopilación de datos regionales incluye las siguientes ubicaci
 
 | Tipo de RDC | Centros de recopilación de datos |
 |---------------------|-------------------|
-| Predeterminado | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney |
+| Predeterminado | Oregón, Virginia, Irlanda, París, Mumbai, Singapur, Tokio, Sydney, China* |
 
 Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. Puede determinarlo si ve alguno de estos puntos de conexión en la dirección URL de sus solicitudes.
+
+*China RDC requiere el paquete de Añado para China. Consulte la nota &#39;Importante&#39; anterior.
 
 ## Recopilación propia de datos HTTPS
 
@@ -36,8 +38,19 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 | Solo para América del Norte y América del Sur | Oregón, Virginia |
 | Solo Europa | Irlanda, París |
 | Solo Asia-Pacífico | Mumbai, Singapur, Tokio, Sydney |
+| Solo en China* | Pekín |
 
-Nota: Experience Edge Global ofrece el mejor rendimiento para los usuarios finales.  Si desea utilizar un tipo de RDC alternativo, póngase en contacto con el servicio de atención al cliente de Adobe para obtener ayuda.
+*China RDC requiere el paquete de Añado para China. Consulte la nota &#39;Importante&#39; anterior.
+
+Nota: Experience Edge Global ofrece el mejor rendimiento para los usuarios finales.  Si desea utilizar un tipo de RDC alternativo, póngase en contacto con el Servicio de atención al cliente de Adobe para obtener ayuda.
+
+## Ventajas de la recopilación de datos regionales
+
+| Ventaja | Descripción |
+| --- | --- |
+| Rendimiento | Con RDC, sus visitantes se conectarán al DCC más cercano. Esto proporciona el tiempo de respuesta más rápido, lo que resulta en un seguimiento más preciso y tiempos de carga más rápidos. |
+| Redundancia | En caso de interrupción en la comunicación con un DCC, la recopilación de datos se enruta automáticamente al siguiente DCC más cercano, lo que garantiza la continuidad del servicio. |
+| Redundancia | En caso de interrupción de la comunicación entre el DCC y su DPC, la infraestructura RDC de Adobe guarda los datos localmente y luego los reenvía al DPC cuando se restauran las comunicaciones. |
 
 ## Funcionamiento de la recopilación de datos regionales (RDC)
 
