@@ -2,9 +2,9 @@
 title: Migrar a AppMeasurement para JavaScript
 description: Determine lo que necesita para migrar la implementación fuera del código H.
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ Los siguientes cambios importantes están presentes en AppMeasurement en compara
 * El código H de nivel de página existente es compatible con AppMeasurement.
 * La biblioteca proporciona utilidades nativas para obtener parámetros de consulta, leer y escribir cookies y realizar un seguimiento de vínculos avanzado.
 * La biblioteca no admite variables de configuración de cuentas dinámicas (incluidas `dynamicAccountSelection`, `dynamicAccountMatch` y `dynamicAccountList`).
-* No se admite el módulo Survey.
 
 Los siguientes pasos describen un flujo de trabajo de migración habitual.
 
@@ -62,7 +61,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.adobedc.net";
+s.trackingServer="example.data.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
