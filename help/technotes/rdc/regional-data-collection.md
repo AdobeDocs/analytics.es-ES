@@ -2,10 +2,10 @@
 title: Recopilación de datos regionales
 description: Información sobre la recopilación de datos regionales
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 82%
+source-wordcount: '362'
+ht-degree: 77%
 
 ---
 
@@ -46,18 +46,3 @@ En la siguiente lista se describe el proceso de recopilación de datos que Adobe
 1. El DNS resuelve automáticamente la recopilación del nombre del host a la dirección IP del centro de recopilación de datos más cercano al visitante.
 1. El visitante envía los datos a esa ubicación.
 1. Los datos se reenvían inmediatamente a través de una conexión segura a un centro de procesamiento de datos, donde se procesan y se ponen a disposición de los productos en Adobe Experience Cloud.
-
-## Ventajas de la recopilación de datos regionales
-
-| Ventaja | Descripción |
-|---------|-----------|
-| Rendimiento | Con RDC, los visitantes se conectarán al centro de recopilación de datos (DCC) más cercano. Esto significa que los tiempos de respuesta en su página se reducirán (cuanto menores sean, mejor), lo que dará como resultado un seguimiento más preciso y tiempos de carga más rápidos. |
-| Redundancia | En caso de que se interrumpa la comunicación con un DCC, la recopilación de datos se envía automáticamente al DCC más cercano, lo que garantiza la continuidad del servicio. |
-| Redundancia | En caso de que se interrumpa la comunicación entre el centro de recogida de datos y el centro de procesamiento de datos, la infraestructura de recopilación de datos regionales de Adobe guarda los datos localmente y los reenvía al centro de procesamiento de datos cuando se restauran las comunicaciones. |
-
-## Historial de revisiones de documentación
-
-| Actualización | Descripción |
-|--------|---------|
-| 4 de febrero de 2020 | Actualización de ubicaciones de RDC |
-| 20 de febrero de 2019 | Reescritura completa. Se ha agregado información de red RDC. |
