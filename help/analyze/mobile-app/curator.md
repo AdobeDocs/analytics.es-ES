@@ -2,10 +2,10 @@
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
 workflow-type: tm+mt
-source-wordcount: '2376'
-ht-degree: 94%
+source-wordcount: '2380'
+ht-degree: 83%
 
 ---
 
@@ -51,40 +51,40 @@ Como gestor, puede utilizar el Generador de informes de valoración para configu
 
 Para crear un informe de valoración, deberá hacer lo siguiente:
 
-1. Seleccione la plantilla informe de valoración móvil en blanco.
+1. Access the [!UICONTROL Blank Mobile Scorecard] template.
 2. Configure el informe de valoración con datos y guárdelo.
 
-### Selección de la plantilla informe de valoración móvil en blanco
+### Access the [!UICONTROL Blank Mobile Scorecard] template
 
-Puede tener acceso a la plantilla informe de valoración móvil en blanco de una de las siguientes formas:
+You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
 
 **Creación de un nuevo proyecto**
 
-1. Abra Adobe Analytics y haga clic en la ficha **Espacio de trabajo**.
-2. Haga clic en el botón **Crear nuevo proyecto** y seleccione la plantilla de proyecto **informe de valoración móvil en blanco**.
-3. Haga clic en el botón **Crear**.
+1. Abra Adobe Analytics y haga clic en la ficha **[!UICONTROL Espacio de trabajo]**.
+2. Haga clic en el botón **[!UICONTROL Crear nuevo proyecto]** y seleccione la plantilla de proyecto **[!UICONTROL informe de valoración móvil en blanco]**.
+3. Haga clic en el botón **[!UICONTROL Crear]**.
 
 ![Plantilla del informe de valoración](assets/new_template.png)
 
 **Agregar un proyecto**
 
-En la pantalla **Proyectos**, en la ficha **Componentes**, haga clic en el botón **Agregar** y seleccione **informe de valoración móvil**.
+En la pantalla **[!UICONTROL Proyectos]**, en la ficha **[!UICONTROL Componentes]**, haga clic en el botón **[!UICONTROL Agregar]** y seleccione **[!UICONTROL informe de valoración móvil]**.
 
 ![Agregar proyectos](assets/add_project.png)
 
-**Uso de las herramientas de Analytics**
+**Usar [!DNL Analytics] herramientas**
 
-En Analytics, haga clic en el menú **Herramientas** y seleccione **Paneles**. En la pantalla siguiente, haga clic en el botón **Crear informe de valoración**.
+In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
 
 ### Configure el informe de valoración con datos y guárdelo
 
 Para implementar la plantilla del informe de valoración:
 
-1. En **Propiedades** (en el carril derecho), especifique el **grupo de informes de proyecto** cuyos datos quiera utilizar.
+1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
 
    ![Selección del grupo de informes](assets/properties_save.png)
 
-2. Para agregar un nuevo mosaico al informe de valoración, arrastre una métrica desde el panel izquierdo y suéltela en la zona **Arrastrar y soltar métricas aquí**. También puede insertar una métrica entre dos mosaicos del mismo modo.
+2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. También puede insertar una métrica entre dos mosaicos del mismo modo.
 
    ![Agregar mosaicos](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Para implementar la plantilla del informe de valoración:
    *Desde cada mosaico puede acceder a una vista detallada que muestra información adicional sobre la métrica, como los elementos principales de una lista de dimensiones relacionadas.*
 
 
-3. Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico. Por ejemplo, puede agregar dimensiones pertinentes (como **Región DMA** en este ejemplo) a la métrica **Visitantes únicos** arrastrándolas y soltándolas en el mosaico; las dimensiones que agregue aparecerán en la sección de desglose de las **Propiedades** específicas del mosaico. Puede agregar varias dimensiones a cada mosaico.
+3. Para agregar una dimensión relacionada a una métrica, arrastre una dimensión desde el panel izquierdo y suéltela en un mosaico. For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. Puede agregar varias dimensiones a cada mosaico.
 
    ![Agregar dimensiones](assets/layer_dimensions.png)
 
    También puede agregar una dimensión a todos los mosaicos soltándola en el lienzo del informe de valoración.
 
-   Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **Título** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
+   Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
 
    Además, si hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Desglose el usuario ejecutivo de la aplicación. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
@@ -106,21 +106,21 @@ Para implementar la plantilla del informe de valoración:
 
    Cada dimensión agregada al mosaico se mostrará en una lista desplegable de la vista detallada de la aplicación. El usuario ejecutivo puede elegir entre las opciones que se muestran en la lista desplegable.
 
-4. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus informes de valoración](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) del mismo modo que lo haría en Adobe Analytics Workspace.
+4. Para aplicar segmentos a mosaicos individuales, arrastre un segmento desde el panel izquierdo y suéltelo directamente sobre el mosaico. Si desea aplicar el segmento a todos los mosaicos del informe de valoración, suelte el mosaico encima del informe de valoración. O bien, también puede aplicar segmentos seleccionando segmentos en el menú de filtro debajo de los intervalos de fechas. Puede [configurar y aplicar filtros para sus informes de valoración](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) del mismo modo que lo haría en Adobe Analytics Workspace.
 
    ![Generar segmentos para filtrar](assets/segment_ui.png)
 
-5. Del mismo modo, para eliminar un componente que se aplique a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Clientes móviles**:
+5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
 
    ![Remove_components](assets/new_remove.png)
 
-6. En **Propiedades** del informe de valoración, también puede especificar de forma opcional lo siguiente:
+6. En **[!UICONTROL Propiedades]** del informe de valoración, también puede especificar de forma opcional lo siguiente:
 
-   * Un **intervalo de fecha predeterminado**. Los intervalos que especifique aquí serán los mismos que se aplicarán cuando el usuario ejecutivo acceda por primera vez al informe de valoración en su aplicación.
+   * A **[!UICONTROL Default date range]**. Los intervalos que especifique aquí serán los mismos que se aplicarán cuando el usuario ejecutivo acceda por primera vez al informe de valoración en su aplicación.
 
-   * Un **intervalo de fecha de comparación**
+   * A **[!UICONTROL Comparison date range]**
 
-   * Cualquier **segmento** que se aplique a todo el informe de valoración
+   * Cualquier **[!UICONTROL segmento]** que se aplique a todo el informe de valoración
 
 7. Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
@@ -130,22 +130,22 @@ Para implementar la plantilla del informe de valoración:
 
 Para compartir el informe de valoración con un usuario ejecutivo:
 
-1. Haga clic en el menú **Compartir** y seleccione **Compartir informe de valoración**.
+1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
 
-2. En el formulario **Compartir**, rellene los campos de la siguiente manera:
+2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
 
    * Proporcione el nombre al informe de valoración
    * Proporcione una descripción del informe de valoración
    * Añada las etiquetas relevantes
    * Especificación de los destinatarios del informe de valoración
 
-3. Haga clic en **Compartir**.
+3. Haga clic en **[!UICONTROL Compartir]**.
 
 ![Share_Scorecards](assets/new_share.png)
 
 Una vez que haya compartido un informe de valoración, los destinatarios podrán acceder a él en sus paneles de Analytics. Si realiza cambios posteriores en el informe de valoración mediante el Generador de informes de valoración, estos se aplicarán automáticamente al informe compartido. Los usuarios ejecutivos verán los cambios después de actualizar el informe de valoración en su aplicación.
 
-Si agrega nuevos componentes al informe de valoración, es posible que desee volver a compartirlo (marque la opción **Compartir componentes incrustados**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.
+Si agrega nuevos componentes al informe de valoración, es posible que desee volver a compartirlo (marque la opción **[!UICONTROL Compartir componentes incrustados]**) para asegurarse de que los usuarios ejecutivos tengan acceso a estos cambios.
 
 ## Configuración de usuarios ejecutivos con la aplicación
 
@@ -159,7 +159,7 @@ Para ayudar a los usuarios ejecutivos a acceder en la aplicación a los informes
 * Tengan unas credenciales de inicio de sesión válidas para Adobe Analytics
 * Haya creado y compartido correctamente los informes de valoración móviles de los usuarios
 * Los usuarios tengan acceso a Analysis Workspace y al grupo de informes en el que se basa el informe de valoración
-* Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Tenga en cuenta que, al compartir los informes de valoración, puede seleccionar la opción **Compartir los componentes incrustados**.
+* Los usuarios tengan acceso a los componentes que se incluyen en el informe de valoración. Tenga en cuenta que, al compartir los informes de valoración, puede seleccionar la opción **[!UICONTROL Compartir los componentes incrustados]**.
 
 ### Ayudar a los usuarios ejecutivos de la aplicación
 
@@ -169,22 +169,22 @@ Para ayudar a los usuarios ejecutivos:
 
    **Para usuarios ejecutivos con iOS:**
 
-   * Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **Paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Vínculo de iOS](https://apple.co/2zXq0aN)
    **Para usuarios ejecutivos con Android:**
 
-   * Haga clic en el siguiente vínculo (también está disponible en Analytics en **Herramientas** > **Paneles**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Vínculo de Android](https://bit.ly/2LM38Oo)
    Una vez descargada e instalada, los usuarios ejecutivos pueden iniciar sesión en la aplicación con sus credenciales de Adobe Analytics; la aplicación es compatible con Adobe ID y con Enterprise/Federated ID.
 
    ![Pantalla de bienvenida de la aplicación](assets/welcome.png)
 
-2. Ayudar a los usuarios a acceder al informe de valoración que ha creado. Después de que los usuarios ejecutivos inicien sesión en la aplicación, aparecerá la pantalla **Elegir una empresa**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo. Para ayudarles a acceder al informe de valoración:
+2. Ayudar a los usuarios a acceder al informe de valoración que ha creado. Después de que los usuarios ejecutivos inicien sesión en la aplicación, aparecerá la pantalla **[!UICONTROL Elegir una empresa]**. En esta pantalla se muestran las empresas de inicio de sesión a las que pertenece el usuario ejecutivo. Para ayudarles a acceder al informe de valoración:
 
    * Pulse el nombre de la empresa de inicio de sesión o de la organización de Experience Cloud con la que acceder al informe de valoración que ha compartido. A continuación, la lista de informes de valoración muestra todos los informes de valoración que se han compartido con el usuario ejecutivo y a los que este tiene acceso a través de las credenciales de la empresa.
-   * Ayude al usuario ejecutivo a ordenar esta lista por **Últimas modificaciones**, si procede.
+   * Ayude al usuario ejecutivo a ordenar esta lista por **[!UICONTROL Últimas modificaciones]**, si procede.
    * Pulse el nombre de un informe de valoración para verlo.
 
    ![Seleccione una empresa](assets/accesscard.png)
@@ -201,7 +201,7 @@ Para ayudar a los usuarios ejecutivos:
    * Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
 
    ![Explicación de los mosaicos](assets/newexplain.png)
 
@@ -231,17 +231,17 @@ Para ayudar a los usuarios ejecutivos:
 
    * También puede cambiar los intervalos de fechas del mismo modo en la vista Desglosar que se muestra arriba.
 
-   * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **COMPARAR CON**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **Listo** en la parte superior derecha de la pantalla. El campo **Intervalos de fecha** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
+   * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **[!UICONTROL COMPARAR CON]**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **[!UICONTROL Listo]** en la parte superior derecha de la pantalla. El campo **[!UICONTROL Intervalos de fecha]** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
 6. Para dejar comentarios sobre esta aplicación:
 
    1. Pulse el icono de configuración en la parte superior derecha de la pantalla de la aplicación.
-   2. En la pantalla **Configuración**, pulse la opción **Comentarios**.
+   2. En la pantalla **[!UICONTROL Configuración]**, pulse la opción **[!UICONTROL Comentarios]**.
    3. Pulse para ver las opciones que existen para dejar comentarios.
 
       ![Pantalla Configuración](assets/settings.png)
 
-7. Para cambiar las preferencias, pulse la opción **Preferencias** que se muestra arriba. En las preferencias, puede activar el inicio de sesión biométrico o puede establecer el modo oscuro de la aplicación, tal y como se muestra a continuación:
+7. Para cambiar las preferencias, pulse la opción **[!UICONTROL Preferencias]** que se muestra arriba. En las preferencias, puede activar el inicio de sesión biométrico o puede establecer el modo oscuro de la aplicación, tal y como se muestra a continuación:
 
    ![Modo oscuro](assets/darkmode.png)
 
