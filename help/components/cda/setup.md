@@ -2,10 +2,10 @@
 title: Configuración de análisis entre dispositivos
 description: Configure un grupo de informes virtuales para habilitar CDA.
 translation-type: tm+mt
-source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
+source-git-commit: da4f4d843e02865c006df2190d19a85306dbf2d0
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 91%
+source-wordcount: '477'
+ht-degree: 68%
 
 ---
 
@@ -18,9 +18,16 @@ Una vez cumplidos todos los requisitos previos, siga los pasos siguientes para h
 >
 >Todos los requisitos previos deben cumplirse antes de seguir estos pasos. Si no se cumplen todos los requisitos previos, la función no estará disponible o no funcionará. Consulte la [página de información general](overview.md) y el método de vinculación deseado ([vinculación basada en el campo](field-based-stitching.md) o [gráfico del dispositivo](device-graph.md), respectivamente) para conocer los requisitos previos y las limitaciones.
 
-## Elija el grupo de informes entre dispositivos que se habilitará para CDA
+## Póngase en contacto con el administrador de éxito del cliente para que le aprovisione CDA en el grupo de informes entre dispositivos
 
-Cuando su organización está aprovisionada para utilizar CDA, usted elige qué grupo de informes utilizar. Esta opción se puede comunicar a través del administrador de cuentas de Adobe. A continuación, Adobe habilita el grupo de informes elegido para el procesamiento de CDA.
+CDA se aprovisiona en el grupo de informes entre dispositivos mediante ingeniería de Adobes. Póngase en contacto con el administrador de éxito del cliente con la siguiente información:
+
+* Su ID de organización de Adobe Experience Cloud (una cadena alfanumérica que termina con @AdobeOrg)
+* La ID del grupo de informes para el grupo de informes entre dispositivos que desea habilitar con CDA
+* Qué método de CDA desea utilizar (costura basada en campo, gráfico privado de Adobe o gráfico de cooperación de Adobes)
+* Si desea utilizar la vinculación basada en campos, la propiedad o el eVar que contiene el ID de usuario
+
+Una vez que haya proporcionado esta información al CSM, trabajarán con el departamento de ingeniería de Adobe para habilitar el grupo de informes elegido para el procesamiento de CDA.
 
 ## Crear un grupo de informes virtuales entre dispositivos para ver la vista entre dispositivos
 
@@ -43,7 +50,7 @@ Los administradores con acceso para crear grupos de informes virtuales pueden cr
 Cuando Análisis entre dispositivos está habilitado en un grupo de informes virtuales, tenga en cuenta los siguientes cambios:
 
 * Aparece un nuevo icono entre dispositivos junto al nombre del grupo de informes virtuales. Este icono es exclusivo para grupos de informes virtuales entre dispositivos.
-* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. Esta dimensión determina si el gráfico del dispositivo conoce el Experience Cloud ID de esa visita en ese momento.
-* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
-* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
+* Hay disponible una nueva dimensión con la etiqueta [Estado identificado](../dimensions/identified-state.md). Esta dimensión determina si el gráfico del dispositivo conoce el Experience Cloud ID de esa visita en ese momento.
+* Hay disponibles nuevas métricas etiquetadas [Personas](../metrics/people.md) y [Dispositivos únicos](../metrics/unique-devices.md).
+* La métrica [Visitantes únicos](../metrics/unique-visitors.md) no está disponible, ya que se sustituye por &#39;Personas&#39; y &#39;Dispositivos únicos&#39;.
 * Al generar segmentos, el contenedor de segmentos “Visitante” se reemplaza por un contenedor “Persona”.
