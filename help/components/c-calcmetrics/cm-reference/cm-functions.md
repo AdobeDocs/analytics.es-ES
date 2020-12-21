@@ -2,11 +2,11 @@
 description: El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
 title: 'Referencia: funciones básicas'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1056'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ Aquí se encuentra una lista alfabética de las funciones y sus definiciones.
 
 >[!NOTE]
 >
->Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [!DNL MAXV(metrics)] también permite [!DNL MAXV(PageViews + Visits).]
+>Cuando [!DNL metric] se identifica como un argumento en una función, también se permiten otras expresiones de métricas. Por ejemplo, [!DNL MAXV(metrics)] también permite [!DNL MAXV(PageViews + Visits)].
 
 ## Funciones de tabla en comparación con funciones de fila {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -101,9 +101,9 @@ EXP(metric)
 
 Operador de potencia
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (y veces)
-</pre>
+```
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+```
 
 ## Media (Tabla) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
@@ -161,24 +161,10 @@ Devuelve el percentil k-ésimo de los valores de una métrica. Puede utilizar es
 PERCENTILE(metric,k)
 ```
 
-<table id="table_35CD840ACFB44CD9979881DB8823CC53"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argumento </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>métrica</i> </td> 
-   <td colname="col2"> La columna de métrica que define la posición relativa. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> El valor en porcentaje dentro del rango de 0 a 100, ambos incluidos. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argumento | Descripción |
+| --- | --- |
+| *métrica* | La columna de métrica que define la posición relativa. |
+| *k* | El valor en porcentaje dentro del rango de 0 a 100, ambos incluidos. |
 
 ## Cuartil (Tabla) {#concept_BFD37F0F23A24AD181407142233FA151}
 
@@ -188,24 +174,10 @@ Devuelve el cuartil de los valores de una métrica. Por ejemplo, los cuartiles s
 QUARTILE(metric,quart)
 ```
 
-<table id="table_64EA3DAAE77541439D59FAF0353F83A2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Argumento </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>métrica</i> </td> 
-   <td colname="col2"> La métrica de la cual desea el valor de cuartil. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>cuarto </p> </td> 
-   <td colname="col2"> Indica qué *valor debe devolver. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argumento | Descripción |
+| --- | --- |
+| *métrica* | La métrica de la cual desea el valor de cuartil. |
+| *cuarto* | Indica qué *valor debe devolver. |
 
 *Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *quart* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *quart* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *quart* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
 
@@ -224,9 +196,9 @@ ROUND(metric)
 Redondear sin un parámetro de dígito es lo mismo que redondear con un parámetro de dígito de 0, es decir, redondear al entero más próximo. Con un parámetro de dígito devuelve ese número de dígitos a la derecha del decimal. Si el dígito es negativo, devuelve ceros a la izquierda del decimal.
 
 ```
-round( 314.15, 0) = 314 
-round( 314.15, 1) = 314.1 
-round( 314.15, -1) = 310 
+round( 314.15, 0) = 314
+round( 314.15, 1) = 314.1
+round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
@@ -255,7 +227,7 @@ SQRT(metric)
 ```
 
 | Argumento | Descripción |
-|---|---|
+| --- | --- |
 | *entero* | La métrica de la cual desea la raíz cuadrada. |
 
 ## Desviación estándar (Tabla) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
@@ -266,24 +238,15 @@ La ecuación de STDEV es:
 
 ![](assets/std_dev.png)
 
-donde x es la media de muestra (*métrica*) y *n* es el tamaño de la muestra.
+Donde *x* es el valor de cada muestra (*métrica*), *x̄* es la media de población y *n* es el tamaño de población.
 
 ```
 STDEV(metric)
 ```
 
-<table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
- <tbody> 
-  <tr> 
-   <td> <b> Argumento</b> </td> 
-   <td> <b> Descripción</b> </td> 
-  </tr> 
-  <tr> 
-   <td> <b> <i> métrica</i> </b> </td> 
-   <td> <p> La métrica de la cual desee la desviación estándar. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Argumento | Descripción |
+| --- | --- |
+| *métrica* | La métrica de la cual desee la desviación estándar. |
 
 ## Varianza (Tabla) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -293,23 +256,21 @@ La ecuación de VARIANCE es:
 
 ![](assets/variance_eq.png)
 
-donde x es la media de la muestra, MEAN(*métrica*) y *n* es el tamaño de la muestra.
+Donde *x* es el valor de cada muestra (*métrica*), *x̄* es la media de población y *n* es el tamaño de población.
 
 ```
 VARIANCE(metric)
 ```
 
 | Argumento | Descripción |
-|---|---|
+| --- | --- |
 | *métrica* | La métrica de la cual desea la varianza. |
 
 Para calcular una varianza para ver una columna entera de números. A partir de una lista de números, calcule primero el promedio. Cuando tenga el promedio, examine cada entrada y realice lo siguiente:
 
 1. Reste el promedio del número.
-
-2. Multiplique el resultado por sí mismo.
-
-3. Súmelo al total.
+1. Multiplique el resultado por sí mismo.
+1. Súmelo al total.
 
 Cuando repita la operación sobre toda la columna, obtendrá un único total. A continuación, divida el total entre el número de elementos de la columna. El número resultante es la varianza de la columna. Esta es un número único, aunque aparece como una columna de números.
 
@@ -321,10 +282,4 @@ A modo de ejemplo, suponga que tiene una columna de tres elementos:
 
 3
 
-El promedio de esta columna es 2. La varianza de la columna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3. En Ad Hoc Analysis, tendrá el siguiente aspecto:
-
-1 2/3
-
-2 2/3
-
-3 2/3
+El promedio de esta columna es 2. La varianza de la columna será ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3.
