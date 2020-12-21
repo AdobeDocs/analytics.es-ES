@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Mida el tiempo en que sucede una acción específica.
 translation-type: tm+mt
-source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '828'
+ht-degree: 82%
 
 ---
 
@@ -23,6 +23,10 @@ Analysis Workspace ofrece dimensiones innovadoras similares con un formato liger
 >[!IMPORTANT]
 >
 >La versión 4.0 o posterior de este complemento es considerablemente diferente a la versión anterior. Adobe recomienda encarecidamente implementar este complemento “desde cero”. El código que hace referencia al complemento en las versiones anteriores a la 4.0 no es compatible con la versión actual de este complemento.
+
+>[!IMPORTANT]
+>
+>Las versiones anteriores de este complemento no se adaptaban a todos los años en el futuro. Si utiliza una versión anterior de este complemento, Adobe recomienda encarecidamente actualizar a la versión más reciente para evitar errores de JavaScript y pérdida de datos. Si no es posible actualizar este complemento, asegúrese de que la variable `s._tpdst` del código del complemento contenga los años correspondientes en el futuro. Esta variable no está presente o no es necesaria en la última versión del complemento.
 
 ## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
@@ -105,11 +109,11 @@ Si el cliente está en el país africano Ghana:
 s.eVarX = getTimeParting();
 ```
 
-Ghana está dentro del huso horario UTC/GMT.  Este ejemplo muestra que en tales circunstancias no es necesario ningún argumento de complemento.
+Ghana está dentro del huso horario UTC/GMT. Este ejemplo muestra que no es necesario ningún argumento de complemento para UTC/GMT.
 
 ### Contabilidad para exploradores de Internet Explorer
 
-Utilice el siguiente ejemplo si desea excluir los datos de partición de tiempo de los visitantes de Internet Explorer (ya que el valor devuelto por los exploradores IE solo puede estar en la hora local del visitante)
+Utilice el siguiente ejemplo si desea excluir los datos de partición de tiempo de los Visitantes de Internet Explorer. El valor devuelto por los exploradores IE solo se encuentra en la hora local del visitante.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,39 +122,21 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Resultados de las llamadas
 
-Si un visitante de Denver, Colorado visita un sitio el 31 de agosto de 2020 a las 9:15,
-
-Ejecutar el siguiente código...
+Consideremos un escenario donde un visitante de Denver Colorado visita un sitio el 31 de agosto de 2020 a las 9:15 AM.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 PM"
+
+s.eVar11 = getTimeParting("America/Nome");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=6:15 AM"
+
+s.eVar12 = getTimeParting("Asia/Calcutta");
+// Returns the string value "year=2020 | month=August | date=31 | day=Friday | time=8:45 PM"
+
+s.eVar13 = getTimeParting("Australia/Sydney");
+// Returns the string value "year=2020 | month=September | date=1 | day=Saturday | time=1:15 AM"
 ```
-
-... establecería s.eVar10 en “año=2020 | mes=agosto | fecha=31 | día=viernes | hora=6:15 PM”
-
-Mientras que el siguiente código...
-
-```js
-s.eVar10 = getTimeParting("America/Nome");
-```
-
-...establecería s.eVar10 en “año=2020 | mes=agosto | fecha=31 | día=viernes | hora=6:15 AM”
-
-El siguiente código...
-
-```js
-s.eVar10 = getTimeParting("Asia/Calcutta");
-```
-
-...establecería s.eVar10 en “año=2020 | mes=agosto | fecha=31 | día=viernes | hora=8:45 PM”
-
-Y el siguiente código...
-
-```js
-s.eVar10 = getTimeParting("Australia/Sydney");
-```
-
-...establecería s.eVar10 en “año=2020 | mes=septiembre | fecha=1 | día=sábado | hora=1:15 AM”
 
 ## Historial de versiones
 
