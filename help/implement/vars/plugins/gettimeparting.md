@@ -2,10 +2,10 @@
 title: getTimeParting
 description: Mida el tiempo en que sucede una acción específica.
 translation-type: tm+mt
-source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
+source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 82%
+source-wordcount: '814'
+ht-degree: 84%
 
 ---
 
@@ -23,10 +23,6 @@ Analysis Workspace ofrece dimensiones innovadoras similares con un formato liger
 >[!IMPORTANT]
 >
 >La versión 4.0 o posterior de este complemento es considerablemente diferente a la versión anterior. Adobe recomienda encarecidamente implementar este complemento “desde cero”. El código que hace referencia al complemento en las versiones anteriores a la 4.0 no es compatible con la versión actual de este complemento.
-
->[!IMPORTANT]
->
->Las versiones anteriores de este complemento no se adaptaban a todos los años en el futuro. Si utiliza una versión anterior de este complemento, Adobe recomienda encarecidamente actualizar a la versión más reciente para evitar errores de JavaScript y pérdida de datos. Si no es posible actualizar este complemento, asegúrese de que la variable `s._tpdst` del código del complemento contenga los años correspondientes en el futuro. Esta variable no está presente o no es necesaria en la última versión del complemento.
 
 ## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
@@ -157,6 +153,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 * Versión puntual (compilada de nuevo, con un tamaño de código más pequeño)
 * Se ha eliminado la necesidad del parámetro `tpDST`, ya que las fechas de inicio y finalización del horario de verano ahora se detectan automáticamente
+
+>[!CAUTION]
+>
+>Las versiones anteriores de este complemento no se adaptaban a todos los años en el futuro. Si utiliza una versión anterior de este complemento, Adobe recomienda encarecidamente actualizar a la versión más reciente para evitar errores de JavaScript y pérdida de datos. Si no es posible actualizar este complemento, asegúrese de que la variable `s._tpdst` del código del complemento contenga los años correspondientes en el futuro.
 
 ### 4.0 (22 de agosto de 2016)
 
