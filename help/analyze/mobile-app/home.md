@@ -1,26 +1,26 @@
 ---
 title: 'Paneles de Adobe Analytics: Información general'
 description: Documentación del producto e instrucciones para los paneles de Adobe Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3612800349243ed4ce7a137a6c2eaf12e5abb4a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics [!UICONTROL dashboards] - Overview
+# [!UICONTROL Paneles] de Adobe Analytics : Información general
 
-**Los paneles de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. ** La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
+Los **[!UICONTROL paneles]** de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
 
 Para obtener más información sobre [!UICONTROL paneles] de Adobe Analytics, consulte los siguientes recursos:
 
 * [Guía del gestor de datos:](/help/analyze/mobile-app/curator.md) Esta guía está diseñada para ayudar a los gestores de datos a configurar informes de valoración en los [!UICONTROL paneles] para sus usuarios ejecutivos. Los gestores de datos pueden ser administradores de la empresa o personas con otras funciones, y se encargan de configurar los informes de valoración.
 
-   Para ver un vídeo de información general sobre esta guía, consulte [Generador de informes de valoración de paneles de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html).
+   Para ver un vídeo de información general sobre esta guía, consulte [Generador de informes de valoración de paneles de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=es).
 
 
 * [Guía rápida del usuario ejecutivo](/help/analyze/mobile-app/executive.md): Esta guía está pensada para ayudar a los usuarios ejecutivos a leer e interpretar los informes de valoración sobre los [!UICONTROL paneles]. La aplicación permite a los usuarios ejecutivos ver de forma rápida y sencilla en sus propios dispositivo móviles un amplio conjunto de datos de resumen importantes.
 
-   Para ver un vídeo que resalta esta información, consulte [Experiencia en la aplicación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html).
+   Para ver un vídeo que resalta esta información, consulte [Experiencia en la aplicación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html?lang=es).
