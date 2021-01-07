@@ -1,11 +1,11 @@
 ---
 title: Preguntas más frecuentes sobre las clasificaciones
 description: Preguntas más frecuentes sobre el uso de las clasificaciones.
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '344'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Los archivos de clasificación cargados con un valor clave o un valor de clasifi
 
 * **Usar reglas de procesamiento**: Puede modificar los elementos de dimensión entre la recopilación de datos y su almacenamiento en un grupo de informes. Cree la siguiente regla de procesamiento:
 
-   *Si la[dimensión]es igual a`0`, sobrescriba el valor de la[dimensión]con el valor personalizado`Zero`.*
+   *Si la [dimensión] es igual a `0`, sobrescriba el valor de la [dimensión] con el valor personalizado `Zero`.*
 
 * **Solicitar una regla VISTA**: Un consultor de servicios de ingeniería configura una regla del lado del servidor para usted con un coste adicional. Póngase en contacto con el administrador de cuentas de su organización para solicitar una regla VISTA.
 
@@ -35,7 +35,7 @@ Sí, *sin embargo, al hacerlo se cuenta cada elemento de dimensión como una lla
 
 ## ¿Cómo clasifico los valores que contienen caracteres especiales?
 
-Normalmente no se recomienda el uso de caracteres especiales, como comas o comillas dobles, en la creación de informes. Sin embargo, en algunos casos su uso es necesario. Si los valores de la creación de informes contienen los caracteres que elija clasificar, siga estos pasos:
+Normalmente no se recomienda utilizar caracteres especiales como comas o comillas de doble en el sistema de informes. Sin embargo, en algunos casos su uso es necesario. Si los valores de sistema de informes contienen los caracteres que elija clasificar, siga estos pasos:
 
 1. Inicie sesión en Adobe Analytics y, a continuación, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Importador de clasificaciones]**.
 2. Haga clic en la pestaña **[!UICONTROL Exportación del explorador.]**
@@ -46,4 +46,4 @@ Normalmente no se recomienda el uso de caracteres especiales, como comas o comil
 
 ## ¿Qué son las clasificaciones numéricas 2?
 
-Las clasificaciones numéricas 2 permiten clasificar los elementos de dimensión como métricas basadas en el tiempo. Se retiraron de la interfaz de usuario de Analytics en julio de 2019.
+Las clasificaciones numéricas 2 permiten clasificar los elementos de dimensión como métricas basadas en el tiempo. Fueron retirados de la interfaz de usuario de Adobe Analytics en julio de 2019.
