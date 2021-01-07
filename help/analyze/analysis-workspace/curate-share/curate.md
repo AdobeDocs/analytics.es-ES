@@ -1,17 +1,17 @@
 ---
 description: Una depuración le permite limitar los componentes antes de compartir un proyecto.
 keywords: Analysis Workspace curation
-title: Depurar proyectos
+title: 'Depurar proyectos de '
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Depurar proyectos
+# Depurar proyectos de 
 
 La depuración permite limitar los componentes (dimensiones, métricas, segmentos e intervalos de fechas) antes de compartir un proyecto. Cuando un destinatario abre el proyecto, verá un conjunto limitado de componentes que ha seleccionado para ellos. La depuración es un paso opcional pero recomendado antes de compartir un proyecto.
 
@@ -58,8 +58,11 @@ En un proyecto depurado o VRS, el destinatario tendrá la opción de **[!UICONTR
 * Nivel de permiso del usuario (administrador o no administrador)
 * Función del proyecto (propietario/editor o no)
 * Tipo de depuración aplicada (VRS o proyecto)
+* Componentes propiedad del usuario o compartidos con él. Los componentes propios o compartidos incluyen segmentos, métricas calculadas e intervalos de fechas. No incluyen componentes implementados como eVars, props y eventos personalizados.
 
-| Tipo de depuración | Administradores | Propietario del proyecto no administrador o función de edición | Duplicado no administrador o función de vista |
+Nota: Las funciones de vista que no son de administración no tienen acceso al carril izquierdo de un proyecto, por lo que se han omitido de la tabla siguiente.
+
+| Tipo de depuración | Administradores | Propietario del proyecto no administrador o función de edición | Función de duplicado no administrador |
 |---|---|---|---|
 | Grupos de informes virtuales depurados | Todos los componentes de grupos de informes virtuales no depurados | Componentes de grupos de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función | Componentes de grupos de informes virtuales no depurados que pertenecen a esta función o que se compartieron con esta función |
 | Proyecto depurado | Todos los componentes de proyecto no depurados | Todos los componentes de proyecto no depurados | Componentes de proyecto no depurados que pertenecen a esta función o que se compartieron con esta función |
