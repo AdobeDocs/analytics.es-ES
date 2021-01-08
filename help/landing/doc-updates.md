@@ -2,11 +2,11 @@
 title: Actualizaciones de documentación técnica para Adobe Analytics
 description: Actualizaciones importantes en el repositorio de documentación de Adobe Analytics.
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 93%
 
 ---
 
@@ -20,10 +20,11 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 * Para obtener más información sobre las nuevas funciones, consulte [Nuevas funciones en Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) en la guía del usuario de Herramientas.
 * Para obtener más información sobre Adobe Analytics para audio y vídeo, consulte [Medición de audio y vídeo en Analytics](https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html).
 
-## Detalles de la actualización
+## Detalles de actualización principales
 
 | Fecha | Descripción |
 |---|---|
+| Noviembre de 2020 | Nuevos documentos de revisión de la implementación: <ul><li>[Revisión de la implementación completa](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[Revisión de la implementación centrada](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
 | 21 de julio de 2020 | Principales actualizaciones y revisiones de [Análisis entre dispositivos](/help/components/cda/overview.md). Se añadió [Vinculación basada en el campo](/help/components/cda/field-based-stitching.md). |
 | 28 de abril de 2020 | Documentación añadida para la métrica [Velocidad de contenido](/help/components/metrics/content-velocity.md). |
 | 12 de marzo de 2020 | Actualizaciones añadidas a los [segmentos de Publish en Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
@@ -38,7 +39,7 @@ Actualizaciones de contenido para la documentación de Adobe Analytics estableci
 | 13 de enero de 2020 | Se añadieron [Adobe Analytics y las cookies de explorador](/help/technotes/cookies.md). |
 | 29 de noviembre de 2019 | Sobrescribir a la [Documentación de datos](/help/export/analytics-data-feed/data-feed-overview.md). |
 | 25 de noviembre de 2019 | Tema nuevo sobre el [fin de vida útil para aplicar restricciones de inicio de sesión de IP](/help/admin/company/login-restrictions-eol.md). |
-| 21 de noviembre de 2019 | Nuevo conjunto de documentación para [Customer Journey Analytics](https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-landing.html). |
+| 21 de noviembre de 2019 | Nuevo conjunto de documentación para [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html). |
 | 28 de septiembre de 2019 | Nuevos artículos sobre [variables de configuración para la implementación de Javascript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 12 de septiembre de 2019 | Nueva documentación para [Journey IQ: Análisis entre dispositivos](/help/components/cda/overview.md). |
 | 28 de agosto de 2019 | Nuevo artículo sobre [aplicaciones web progresivas (PWA) para Analytics](/help/analyze/pwa/pwa.md) |
