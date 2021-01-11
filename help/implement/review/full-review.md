@@ -2,9 +2,9 @@
 title: Revisión completa
 description: Revise la implementación cada 6 meses para garantizar una alineación continua con los KPI y las necesidades del negocio.
 translation-type: tm+mt
-source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
+source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Reúnete con el propietario del negocio y/o los analistas para revisar las cambi
 
 Revise brevemente todas sus métricas y variables, en orden de importancia para el negocio, para asegurarse de que los datos se recopilan correctamente. Inicio con las métricas y variables más cruciales: las asociadas con los [5 KPI principales](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). Para ello:
 
-* Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configure alertas inteligentes para cada una de ellas) para asegurarse de que obtiene los datos que espera y los datos son correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar por qué.
+* Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configure [alertas inteligentes](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace) para cada una) para asegurarse de que obtiene los datos que espera y los datos son correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar por qué.
 * Vuelva a ejecutar el [Panel de mantenimiento de Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) para supervisar las tendencias generales de las métricas y variables.
 
 No permita que la implementación se llene de métricas y variables que no necesita. Deshabilite las métricas o variables que la empresa ya no necesita ni utiliza. Puede que desee eliminarlos o reutilizarlos más adelante.
