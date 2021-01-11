@@ -2,11 +2,11 @@
 description: El Creador de métricas calculadas permite aplicar funciones estadísticas y matemáticas para generar métricas calculadas avanzadas.
 title: 'Referencia: funciones básicas'
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -179,7 +179,7 @@ QUARTILE(metric,quart)
 | *métrica* | La métrica de la cual desea el valor de cuartil. |
 | *cuarto* | Indica qué *valor debe devolver. |
 
-*Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *quart* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *quart* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *quart* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
+*Si *cuarto* = 0, QUARTILE devuelve el valor mínimo. Si *cuarto* = 1, QUARTILE muestra el primer cuartil (porcentaje 25). Si *cuarto* = 2, QUARTILE muestra el primer cuartil (porcentaje 50). Si *cuarto* = 3, QUARTILE muestra el primer cuartil (porcentaje 75). Si *cuarto* = 4, QUARTILE devuelve el valor máximo.
 
 ## Ronda {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
@@ -238,7 +238,7 @@ La ecuación de STDEV es:
 
 ![](assets/std_dev.png)
 
-Donde *x* es el valor de cada muestra (*métrica*), *x̄* es la media de población y *n* es el tamaño de población.
+Donde *x* es el valor de cada muestra (*métrica*), *x̄* es la media de la población y *n* es el tamaño de la población.
 
 ```
 STDEV(metric)
@@ -256,7 +256,7 @@ La ecuación de VARIANCE es:
 
 ![](assets/variance_eq.png)
 
-Donde *x* es el valor de cada muestra (*métrica*), *x̄* es la media de población y *n* es el tamaño de población.
+Donde *x* es el valor de cada muestra (*métrica*), *x̄* es la media de la población y *n* es el tamaño de la población.
 
 ```
 VARIANCE(metric)
