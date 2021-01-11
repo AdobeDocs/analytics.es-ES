@@ -2,9 +2,9 @@
 title: Revisión completa
 description: Revise la implementación cada 6 meses para garantizar una alineación continua con los KPI y las necesidades del negocio.
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Reúnete con el propietario del negocio y/o los analistas para revisar las cambi
 
 ## 2. Asegúrese de que las métricas y variables siguen funcionando correctamente.
 
-Revise brevemente todas sus métricas y variables, en orden de importancia para el negocio, para asegurarse de que los datos se recopilan correctamente. Inicio con las métricas y variables más cruciales: las asociadas con los 5 KPI principales. Para ello:
+Revise brevemente todas sus métricas y variables, en orden de importancia para el negocio, para asegurarse de que los datos se recopilan correctamente. Inicio con las métricas y variables más cruciales: las asociadas con los [5 KPI principales](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review). Para ello:
 
 * Cree paneles para ver las vistas de tendencias mensuales de sus métricas y variables (o configure alertas inteligentes para cada una de ellas) para asegurarse de que obtiene los datos que espera y los datos son correctos. Si encuentra alguna discrepancia, examine la capa de datos, las reglas del administrador de etiquetas y las reglas de procesamiento para averiguar por qué.
 * Vuelva a ejecutar el [Panel de mantenimiento de Analytics](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252) para supervisar las tendencias generales de las métricas y variables.
