@@ -3,9 +3,9 @@ description: Esta integración de correo electrónico de Adobe® Data Connectors
 title: Data Connectors de DreamMail para Adobe Analytics
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '805'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->La tecnología del conector de datos de Adobe estará al final de su vida útil desde mediados hasta finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
+>El 1 de agosto de 2021 terminaremos de usar la tecnología del conector de datos de Adobe. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integración de correo electrónico de Adobe® Data Connectors™ combina la información de comportamiento de Analytics® con el marketing por correo electrónico para crear una herramienta potente para redefinir la medición de éxito y las audiencias de destino con mensajes más relevantes.
 
@@ -51,7 +51,7 @@ Antes de iniciar la integración de Data Connectors para , complete los siguient
 
 * **Representante autorizado:** tenga en cuenta que la activación de esta integración puede provocar que su empresa incurra en gastos de acuerdo con el contrato de servicio con Adobe, Inc. o con el contrato de servicio con uno de los socios de confianza de Adobe, según corresponda. Al activar esta integración, usted declara por la presente que es un representante autorizado de su empresa y, como tal, su empresa se compromete a pagar las tarifas, si las hubiere, establecidas en el contrato de servicio descrito anteriormente.
 * **Data Warehouse™:** esta integración requiere que Data Warehouse esté habilitado para generar segmentos de remarketing. Si no ha habilitado Data Warehouse, póngase en contacto con Adobe para obtener más información.
-* **[!DNL ~Partner~]:** la integración requiere que recopilemos y almacenemos una dirección de correo electrónico dentro de una variable de Analytics (eVar). El “[!DNL ~Partner~]” está asociado con el comportamiento de los visitantes que siguen el flujo en el sitio (abandonos del carro de compras, compras, etc.) que se incorpora al sistema de[!DNL ~Partner~]y se puede aprovechar para fines de remarketing. Como parte del proceso de configuración, debe identificar una eVar para este fin cuando el asistente lo solicite.
+* **[!DNL ~Partner~]:** la integración requiere que recopilemos y almacenemos una dirección de correo electrónico dentro de una variable de Analytics (eVar). El “[!DNL ~Partner~]” está asociado con el comportamiento de los visitantes que siguen el flujo en el sitio (abandonos del carro de compras, compras, etc.) que se incorpora al sistema de [!DNL ~Partner~] y se puede aprovechar para fines de remarketing. Como parte del proceso de configuración, debe identificar una eVar para este fin cuando el asistente lo solicite.
 * **Seguimiento externo:** si actualmente no realiza las prácticas recomendadas de habilitar el seguimiento externo para cada campaña de correo electrónico que envía, debe hacerlo para garantizar una integración sin problemas. Consulte la sección [!DNL ~Partner~] más abajo para obtener más información.
 * **Respeto de la privacidad:** debe comprender que, al habilitar el seguimiento de ID de visitante o destinatario, esta función puede rastrear información personal de los visitantes del sitio. Esto tiene implicaciones para la privacidad que requieren la implementación de los procedimientos apropiados por parte de su organización, como por ejemplo, notificar a los visitantes del sitio y obtener su consentimiento.
 
