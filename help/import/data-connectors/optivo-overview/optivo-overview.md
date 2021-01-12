@@ -3,9 +3,9 @@ description: Esta integración combina la potencia del sistema de comentarios in
 title: optivo® broadmail Data Connector para Adobe Analytics
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1084'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->La tecnología del conector de datos de Adobe estará al final de su vida útil desde mediados hasta finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
+>El 1 de agosto de 2021 terminaremos de usar la tecnología del conector de datos de Adobe. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 Esta integración combina la potencia del sistema de comentarios integrado del software de marketing por correo electrónico y los informes de comportamiento de Adobe Analytics para crear oportunidades de optimización y análisis para su organización.
 
