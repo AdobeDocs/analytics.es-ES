@@ -2,9 +2,9 @@
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 translation-type: tm+mt
-source-git-commit: 5eb3aba2032118036808edbdab5f411b5f327949
+source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 22%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 Durante más de una década, Adobe Analytics se ha propuesto ofrecer la mejor solución de análisis de marketing y web para satisfacer las necesidades de los clientes. A medida que evolucionan las necesidades tecnológicas y empresariales, nos esforzamos por ofrecer y cumplir los más altos estándares de manera continua.  Desafortunadamente, las API que alimentan esta integración ya no cumplen con esos estándares y no son sostenibles en la infraestructura tecnológica moderna de Adobe Analytics.
 
-A partir del 1 de agosto de 2021, Adobe tiene la intención de interrumpir las integraciones de Conectores de datos. El fin de vida es parte del ciclo de vida de cualquier producto de tecnología y el Adobe pretende hacer que la transición sea lo más fluida posible para nuestros clientes y socios. Muchas de estas integraciones están disponibles a través de Adobe Exchange y pueden seguir utilizándose.
+**A partir del 1 de agosto de 2021**, Adobe tiene la intención de interrumpir las integraciones de Conectores de datos. El fin de vida es parte del ciclo de vida de cualquier producto de tecnología y el Adobe tiene como objetivo lograr que la transición sea lo más fluida posible para nuestros clientes y socios. Muchas de estas integraciones están disponibles a través de Adobe Exchange y pueden seguir utilizándose.
 
 ## ¿Por qué queremos dejar de usar esta función?
 
@@ -41,7 +41,7 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | Appgures | Migración a Adobe Exchange |
 | Appsee | Disponible en Adobe Exchange |
 | AppsFlyer | Migración a Adobe Exchange |
-| Compromiso de marketing empresarial de abril |
+| Compromiso de marketing empresarial de abril | Desaprobar |
 | Apteligent | Disponible en Exchange |
 | BlueHornet eMarketing Suite | Desaprobar |
 | Rama | Migración a Exchange |
