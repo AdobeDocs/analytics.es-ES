@@ -4,11 +4,11 @@ keywords: DFA
 title: Data Connectors de DFA para Adobe Analytics
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: ht
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
-workflow-type: ht
-source-wordcount: '1731'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+workflow-type: tm+mt
+source-wordcount: '1729'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La vida útil de la tecnología de Adobe Data Connector finalizará de mediados a finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
+>El 1 de agosto de 2021 terminaremos de usar la tecnología del conector de datos de Adobe. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 En un mercado en línea actual que se caracteriza por ser cada vez más complejo y competitivo, los anunciantes y las agencias en línea deben mejorar continuamente sus conocimientos acerca del entorno de marketing en línea y su retorno en gastos de publicidad. Aunque los anunciantes, las agencias, y los publicistas poseen herramientas individuales para ayudarles a lograr estos objetivos, agregar datos manualmente desde sistemas de datos y procesos diferentes puede dañar gravemente la eficacia de las campañas de marketing en línea, dando como resultado un rendimiento de la campaña menos que óptimo, discrepancias de datos y confusión.
 
@@ -118,7 +118,7 @@ Al pasar de la Versión 1.0 de la integración a 1.5 hay un cambio de JavaScript
 
 Una función importante del nuevo código JavaScript es que no se necesita ningún cambio de implementación entre la versión 1.5 y la versión 2.0.
 
-### Acerca de la versión 2.0 {#section-afd56de0c56c4489bb5ddc5798d6709a}
+### Acerca de la versión 2.0  {#section-afd56de0c56c4489bb5ddc5798d6709a}
 
 La última versión de la integración DFA incorpora datos para una Configuración de Floodlight completa en la integración. Antes de la versión 2.0, las integraciones individuales estaban ligadas a un solo Anunciante de DFA. Con este cambio las métricas de Clics, Impresiones y Costes para la Configuración de Floodlight completa se incluirán en el grupo de informes integrado. También es posible rastrear visualizaciones entre sitios, cuando los dos sitios se encuentren en la misma Configuración de Floodlight.
 
@@ -128,7 +128,7 @@ Se espera que los tiempos de espera disminuyan con la integración 2.0, puesto q
 
 Si una Configuración de Floodlight es una configuración compartida en DFA, la actualización de la versión 1. 5 a 2.0 hace que los datos de conversión para todos los anunciantes compartidos dentro de la Configuración de Floodlight se incluyan en el grupo de informes.
 
-### Actualización a la versión 2.0 {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
+### Actualización a la versión 2.0  {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
 La siguiente tabla describe los propietarios para migración a versiones más nuevas de la integración:
 
