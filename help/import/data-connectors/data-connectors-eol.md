@@ -2,9 +2,9 @@
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 translation-type: tm+mt
-source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
+source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '528'
 ht-degree: 25%
 
 ---
@@ -61,7 +61,7 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | Demandbase CA | Desaprobar |
 | Demandbase v3 | Desaprobar |
 | DialogTech | Desaprobar |
-| DoubleClick para anunciantes (DFA) | En desuso (Más información aquí&#x200B;**Vínculo a PÁGINA EOL de DFA**) |
+| DoubleClick para anunciantes (DFA) | Desaprobar |
 | SUEÑO | Desaprobar |
 | DREAMmail 2.0 | Desaprobar |
 | Señal dinámica (Vora digital) | Migración a Exchange |
