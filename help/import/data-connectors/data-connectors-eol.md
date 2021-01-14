@@ -2,10 +2,10 @@
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 translation-type: tm+mt
-source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
+source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 22%
+source-wordcount: '536'
+ht-degree: 25%
 
 ---
 
@@ -34,68 +34,68 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 
 | Socio | Estado |
 | --- | --- |
-| Acxiom | Disponible en Adobe Exchange |
-| Adform | Disponible en Adobe Exchange |
+| Acxiom | Desaprobar |
+| Adform | Desaprobar |
 | Ajustar | Migración a Adobe Exchange |
 | Adobe Campaign | Migración a Adobe Exchange |
 | Appgures | Migración a Adobe Exchange |
-| Appsee | Disponible en Adobe Exchange |
+| Appsee | Desaprobar |
 | AppsFlyer | Migración a Adobe Exchange |
 | Compromiso de marketing empresarial de abril | Desaprobar |
-| Apteligent | Disponible en Exchange |
+| Apteligent | Desaprobar |
 | BlueHornet eMarketing Suite | Desaprobar |
 | Rama | Migración a Exchange |
-| BrightEdge 2.0 | Disponible en Exchange |
+| BrightEdge 2.0 | Desaprobar |
 | Bronto Software | Desaprobar |
 | CheetahMail de Experian | Migración a Exchange |
-| ClickTale | Disponible en Exchange |
+| ClickTale | Desaprobar |
 | Clicktale CA | Desaprobar |
-| Conductor 2.0 | Disponible en Exchange |
-| ContactLab 2.0 (Conector de envío de contacto) | Disponible en Exchange |
-| Coradiant TrueSight | Disponible en Exchange |
-| Inteligencia de Visitante D&amp;B | Disponible en Exchange |
+| Conductor 2.0 | Desaprobar |
+| ContactLab 2.0 (Conector de envío de contacto) | Desaprobar |
+| Coradiant TrueSight | Desaprobar |
+| Inteligencia de Visitante D&amp;B | Desaprobar |
 | Datran Media | Desaprobar |
-| Perspectiva de decibelios | Disponible en Exchange |
-| Decipher | Disponible en Exchange |
+| Perspectiva de decibelios | Desaprobar |
+| Decipher | Desaprobar |
 | Delivra | Desaprobar |
-| Demandbase CA | Disponible en Exchange |
+| Demandbase CA | Desaprobar |
 | Demandbase v3 | Desaprobar |
-| DialogTech | Disponible en Exchange |
+| DialogTech | Desaprobar |
 | DoubleClick para anunciantes (DFA) | En desuso (Más información aquí&#x200B;**Vínculo a PÁGINA EOL de DFA**) |
 | SUEÑO | Desaprobar |
 | DREAMmail 2.0 | Desaprobar |
 | Señal dinámica (Vora digital) | Migración a Exchange |
 | eDialog Precision Central | Desaprobar |
 | eC-messenger | Desaprobar |
-| Emailvision Campaign Commander | Disponible en Exchange |
+| Emailvision Campaign Commander | Desaprobar |
 | emarsys xpress | Desaprobar |
 | Epsilon Harmony | Migración a Exchange |
-| TodosSocial para Adobe Analytics | Disponible en Exchange |
+| TodosSocial para Adobe Analytics | Desaprobar |
 | Fiksu | Desaprobar |
 | Foresee (v2.0) | Desaprobar |
-| Foresee Feedback | Disponible en Exchange |
-| Gigya | Disponible en Exchange |
+| Foresee Feedback | Desaprobar |
+| Gigya | Desaprobar |
 | hibris | Desaprobar |
 | Análisis de comentarios de Kampyle (ahora Medallia) (1.1) | Desaprobar |
 | Listrak | Migración a Exchange |
 | Lyris HQ | Desaprobar |
-| MaritzCX (V 2.0) | Disponible en Exchange |
-| Merkel | Disponible en Exchange |
+| MaritzCX (V 2.0) | Desaprobar |
+| Merkel | Desaprobar |
 | Integración oficial de Oracle Eloqua | Desaprobar |
 | optivo Broadmail (Episerver) | Migración a Exchange |
 | Qualtrics v2 | Migración a Exchange |
 | Responsys 2.0 | Desaprobar |
-| Selligent | Disponible en Exchange |
-| seoClarity 2.0 | Disponible en Exchange |
+| Selligent | Desaprobar |
+| seoClarity 2.0 | Desaprobar |
 | Silverpop Engage (v2.0) | Desaprobar |
-| Sizmek | Disponible en Exchange |
-| SpotEffects | Disponible en Exchange |
+| Sizmek | Desaprobar |
+| SpotEffects | Desaprobar |
 | StrongMail Systems, Inc | Desaprobar |
 | ¡Sinergía!360 | Desaprobar |
 | ThinData EMS | Desaprobar |
-| TUNE | Disponible en Exchange |
+| TUNE | Desaprobar |
 | Urban Airship | Desaprobar |
-| Herramienta de Encuesta UserZoom | Disponible en Exchange |
-| WhatCounts Email | Disponible en Exchange |
+| Herramienta de Encuesta UserZoom | Desaprobar |
+| WhatCounts Email | Desaprobar |
 | wywy | Desaprobar |
-| Yesmail Enterprise | Disponible en Exchange |
+| Yesmail Enterprise | Desaprobar |
