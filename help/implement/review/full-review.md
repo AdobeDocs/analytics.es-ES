@@ -4,8 +4,8 @@ description: Revise la implementación cada 6 meses para garantizar una alineaci
 translation-type: tm+mt
 source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '407'
+ht-degree: 83%
 
 ---
 
