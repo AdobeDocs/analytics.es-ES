@@ -2,9 +2,9 @@
 description: La sincronización de visualizaciones le permite controlar qué tabla de datos o fuente de datos corresponde con una visualización.
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: Administración de fuentes de datos
-translation-type: ht
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
+workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ La sincronización de visualizaciones le permite controlar qué tabla de datos o
 
 Al administrar una fuente de datos, puede mostrar la fuente de datos o bloquear la selección. Esta configuración determina cómo cambia (o no) la visualización al introducir nuevos datos.
 
-1. [Cree un proyecto](//help/analyze/analysis-workspace/home.md) con una tabla de datos y [una visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
+1. [Cree un proyecto](/help/analyze/analysis-workspace/home.md) con una tabla de datos y [una visualización](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md).
 1. En la tabla de datos, seleccione las celdas (fuente de datos) que desee asociar con la visualización.
 1. En la visualización, haga clic en el punto al lado del título para que aparezca el cuadro de diálogo **[!UICONTROL Fuente de datos]**. Seleccione **[!UICONTROL Mostrar fuente de datos]** o **[!UICONTROL Bloquear selección]**.
 
