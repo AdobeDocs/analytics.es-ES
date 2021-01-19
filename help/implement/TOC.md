@@ -4,11 +4,11 @@ audience: all
 user-guide-title: Guía de implementación de Analytics
 breadcrumb-title: Guía de implementación
 user-guide-description: 'Personalice los datos que se recopilan para obtener más información de Adobe Analytics. '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 94%
    + [Consideraciones sobre el grupo de informes globales](prepare/global-rs.md)
    + [Modo de implementación](prepare/implementation-modal.md)
    + [Creación de un documento de diseño de solución](prepare/solution-design.md)
-   + [Se encarga de una implementación de Adobe Analytics existente](prepare/existing-implementation.md)
+   + [Ocuparse de una implementación de Adobe Analytics existente](prepare/existing-implementation.md)
 + Implementar Analytics mediante JavaScript {#js}
    + [Información general de JavaScript](js/overview.md)
    + [Implementación de Vínculos de no participación](js/opt-out.md)
@@ -203,10 +203,10 @@ ht-degree: 94%
    + [Monitores de paquetes](validate/packet-monitor.md)
    + [Conflictos de hash](validate/hash-collisions.md)
 + [Preguntas frecuentes](faq.md)
-+ Revise su implementación {#review}
++ Revisión de la implementación {#review}
    + [Revisión centrada (después de cada lanzamiento de sitio web)](review/focused-review.md)
    + [Revisión completa (cada 6 meses)](review/full-review.md)
-   + [Definir los 5 KPI principales](review/define-kpis.md)
+   + [Definición de los 5 KPI principales](review/define-kpis.md)
 + Uso de datos XDM con Analytics {#aep-edge}
    + [Uso del SDK web de AEP](aep-edge/xdmoverview.md)
    + [Asignación manual de datos XDM a Analytics](aep-edge/xdm-manual.md)
