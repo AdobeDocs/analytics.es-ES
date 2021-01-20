@@ -5,11 +5,11 @@ subtopic: Visitors
 title: Conectar usuarios entre dispositivos
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -33,4 +33,4 @@ Una vez que el cliente inicia sesión desde cada dispositivo, todos están vincu
 El uso de su propio ID de visitante personalizado le proporciona más control sobre cómo se identifican los visitantes, pero viene con sus limitaciones.
 
 * **La deduplicación de visitantes no es retroactiva**: Si un visitante accede al sitio por primera vez y luego se autentica, se cuentan dos visitantes únicos. Un visitante único cuenta para el ID de Analytics genérico generado automáticamente y otro cuenta para el ID de visitante personalizado cuando inicia sesión. Esta duplicación de visitantes únicos está presente cada vez que un visitante utiliza un nuevo dispositivo o borra sus cookies.
-* **Incompatibilidad con el servicio Experience Cloud ID**: Desde la introducción de la identificación de visitantes entre dispositivos, Adobe ha publicado formas más potentes y fiables de rastrear a los visitantes entre dispositivos. Estos nuevos métodos de identificación no son compatibles con la anulación de ID de visitante personalizada. Si planea utilizar el servicio de ID, el análisis entre dispositivos (CDA) o la cooperación entre dispositivos, Adobe recomienda encarecidamente no utilizar la variable `visitorID`.
+* **Incompatibilidad con el servicio Experience Cloud ID**: Desde la introducción de la identificación de visitantes entre dispositivos, Adobe ha publicado formas más potentes y fiables de rastrear a los visitantes entre dispositivos. Estos nuevos métodos de identificación no son compatibles con la anulación de ID de visitante personalizada. Si planea utilizar el servicio de ID, el análisis entre dispositivos (CDA) o la cooperación entre dispositivos, Adobe recomienda enfáticamente que no utilice la variable `visitorID`.
