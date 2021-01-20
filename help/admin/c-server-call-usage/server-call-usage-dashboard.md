@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Cómo vista el uso actual de llamadas al servidor en Adobe Analytics.
 title: Ver uso de llamadas al servidor actual
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ El tablero de Uso actual:
 ![](assets/server_call_dashboard.png)
 
 | Término de interfaz de usuario | Definición |
-|---|---|
+| --- | --- |
 | Uso del periodo actual (verde) | El periodo actual se basa en el [periodo de uso](/help/admin/c-server-call-usage/overage-overview.md). |
 | Uso del periodo anterior (azul) | El periodo anterior se define como el periodo de uso actual menos 1 año. |
 | Límite de uso (rojo) | Su límite de uso contractual para este periodo de uso. |
