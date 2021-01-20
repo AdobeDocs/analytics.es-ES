@@ -2,7 +2,7 @@
 title: Cómo funcionan las reproducciones
 description: Comprender el concepto de "repetición" en Análisis entre dispositivos
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 2%
@@ -12,14 +12,14 @@ ht-degree: 2%
 
 # Cómo funcionan las reproducciones
 
-Analytics entre dispositivos realiza dos pasadas de datos en un grupo de informes virtuales:
+Análisis entre dispositivos realiza dos pasadas de datos en un grupo de informes virtuales:
 
 * **Cosificación** en vivo: CDA intenta unir cada visita a medida que entra. Los nuevos dispositivos netos del grupo de informes que nunca han iniciado sesión no suelen vincularse a este nivel. Los dispositivos ya reconocidos se vinculan inmediatamente.
 * **Reproducir**: Aproximadamente una vez a la semana, CDA &quot;reproduce&quot; datos basados en identificadores únicos que ha aprendido. En esta etapa se vinculan nuevos dispositivos al grupo de informes.
 
 ## Tabla de ejemplo
 
-Las siguientes tablas ilustran cómo los métodos CDA ([Colisión](field-based-stitching.md) basada en campo y Gráfico [de](device-graph.md)dispositivo) calculan el número de personas únicas:
+Las siguientes tablas ilustran cómo los métodos CDA ([Colisión basada en campo](field-based-stitching.md) y [Gráfico de dispositivos](device-graph.md)) calculan el número de personas únicas:
 
 ### Coherencia en vivo
 
@@ -40,14 +40,14 @@ Tan pronto como se recopila una visita, CDA intenta vincularla a dispositivos co
 
 Tanto las visitas autenticadas como las no autenticadas en los nuevos dispositivos se cuentan como personas independientes (temporalmente).
 
-* **Si se utiliza el gráfico del dispositivo,** las visitas no autenticadas en dispositivos reconocidos se vinculan en directo una vez que el gráfico del dispositivo publica un clúster. La publicación de clústeres tarda entre tres horas y dos semanas.
+* **Si se utiliza el gráfico del dispositivo, las visitas** no autenticadas en dispositivos reconocidos se vinculan en directo una vez que el gráfico del dispositivo publica un clúster. La publicación de clústeres tarda entre tres horas y dos semanas.
 
    También se agrega una tercera persona acumulativa cuando se publica un clúster. Esta tercera persona representa el propio clúster, además de los dispositivos individuales. Esta tercera &quot;persona&quot; permanece hasta que se reproduzcan los datos.
 
    La atribución no funciona en todos los dispositivos hasta que se publica un clúster, e incluso entonces solo se vinculan en directo a partir de ese momento. En el ejemplo anterior, ninguna de las visitas se ha vinculado aún entre dispositivos. La atribución entre dispositivos en las visitas individuales existentes no funciona hasta después de la reedición de la vinculación.
-* **Si se utiliza la vinculación basada en campos,** las visitas no autenticadas en dispositivos reconocidos se vinculan en directo a partir de ese momento.
+* **Si se utiliza la vinculación basada en campos, las visitas** no autenticadas en dispositivos reconocidos se vinculan en directo a partir de ese momento.
 
-   La atribución funciona tan pronto como la variable personalizada de identificación se vincula a un dispositivo. En el ejemplo anterior, todas las visitas individuales excepto las visitas individuales 1 y 3 están vinculadas en directo (todas usan el `Bob` identificador). La atribución funciona en las visitas individuales 1 y 3 después de la reproducción.
+   La atribución funciona tan pronto como la variable personalizada de identificación se vincula a un dispositivo. En el ejemplo anterior, todas las visitas individuales excepto las visitas individuales 1 y 3 están vinculadas en directo (todas utilizan el identificador `Bob`). La atribución funciona en las visitas individuales 1 y 3 después de la reproducción.
 
 ### Reproducir la vinculación
 
@@ -69,5 +69,5 @@ Aproximadamente una vez por semana, CDA vuelve a calcular los datos históricos 
 ## Volver a poner
 
 * **Si se utiliza Device Graph,** los datos se vinculan cuando se publica un clúster (normalmente de 3 a 2 semanas).
-* **Si se utiliza la vinculación basada en campo,** los datos de menos de una semana de antigüedad vinculan inmediatamente a dispositivos conocidos, pero no enlazan inmediatamente dispositivos nuevos o no reconocidos.
+* **Si se utiliza la vinculación basada en campo,** los datos de menos de una semana de antigüedad vinculan inmediatamente a dispositivos conocidos, pero no se acoplan inmediatamente a dispositivos nuevos o no reconocidos.
 * Los datos se reproducen una vez por semana y cambian los datos históricos en el grupo de informes virtuales en función de los dispositivos que ha aprendido a identificar.
