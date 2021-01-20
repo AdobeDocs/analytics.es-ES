@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Muestra ejemplos de cómo etiquetar datos para datos de visitas, solicitudes de acceso y solicitudes de eliminación
 title: Ejemplo de etiquetado
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: b3e8f77bfa7c48fc82e5ebd5bbe66511ea82c9f4
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 100%
+source-wordcount: '815'
+ht-degree: 98%
 
 ---
 
