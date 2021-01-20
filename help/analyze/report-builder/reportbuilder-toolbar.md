@@ -4,9 +4,9 @@ title: Barra de herramientas de Report Builder
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: e1c9f4e1b534b8cc1ebc22ee8e856ec437f74840
+source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Tras instalar Report Builder e iniciar Excel, haga clic en **[!UICONTROL Complem
 
 ![](assets/report_builder_toolbar.png)
 
-**Inicio de sesión:** muestra el formulario de [!UICONTROL Inicio] para que pueda iniciar sesión con sus credenciales o como un usuario distinto. También muestra su nombre de empresa tras el inicio de sesión. Consulte [Inicio de sesión en el Report Builder](/help/analyze/report-builder/setup/login.md).
+**Inicio de sesión:** muestra el formulario de [!UICONTROL Inicio] para que pueda iniciar sesión con sus credenciales o como un usuario distinto. También muestra su nombre de empresa tras el inicio de sesión. Consulte [Inicio de sesión en Report Builder](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md).
 
 **Crear:** inicia el [!UICONTROL Asistente para solicitudes]. Si no ha iniciado la sesión, se le indicará que lo haga. Consulte [Solicitudes de datos](/help/analyze/report-builder/data-requests/data-requests.md).
 
