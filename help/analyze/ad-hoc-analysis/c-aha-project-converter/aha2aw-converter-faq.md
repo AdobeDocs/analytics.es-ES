@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Preguntas frecuentes sobre el convertidor de proyectos de Ad Hoc Analysis a Analysis Workspace
 title: Preguntas frecuentes del Conversor de proyectos
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->El Adobe está llevando a Ad Hoc Analysis al final de su vida útil el 1 de marzo de 2021. [Más información](https://adobe.ly/discoverworkspace)
+>Adobe Ad Hoc Analysis quedará obsoleto el 1 de marzo de 2021. [Más información](https://adobe.ly/discoverworkspace)
 
 ## Preguntas frecuentes del Conversor de proyectos {#topic_8231595303AD403E9322645A63632D57}
 
@@ -81,7 +81,7 @@ ht-degree: 0%
    <td colname="col1"> <p><b>P: ¿Cómo se convierten los intervalos de fechas?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Los intervalos de fechas de “Último día X” en Ad Hoc Analysis <i>excluyen</i> hoy, mientras que Analysis Workspace <i>sí lo incluye</i>. Por lo tanto, es posible que los intervalos de fechas como 'Últimos 90 días' no coincidan exactamente entre las herramientas. En su lugar, aplique los intervalos de 'Últimos X <b>días </b> completos' en Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Los intervalos de fechas de “Último día X” en Ad Hoc Analysis <i>excluyen</i> hoy, mientras que Analysis Workspace <i>sí lo incluye</i>. Por lo tanto, es posible que los intervalos de fechas como 'Últimos 90 días' no coincidan exactamente entre las herramientas. En su lugar, aplique los rangos 'Últimos X <b>días completos </b>' en Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">El intervalo de fechas del nivel de espacio de trabajo de Ad Hoc Analysis se aplica al nivel de proyecto/espacio de trabajo en Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">El intervalo de fechas del nivel de informe de Ad Hoc Analysis se aplica al nivel de columna de tabla en Workspace. </li> 
     </ul> <p>Puede editar sus intervalos de fechas personalizados en <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Componentes</span> &gt; <span class="uicontrol">Intervalos de fechas</span>. </p> </td> 
