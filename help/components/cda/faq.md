@@ -2,10 +2,10 @@
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ En algunas situaciones, un usuario individual puede asociarse con un gran númer
 
 ## ¿Cuál es la diferencia entre la métrica Personas en CDA y la métrica Visitantes únicos fuera de CDA?
 
-La métrica [Personas](/help/components/metrics/people.md) es similar a la métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) en el sentido de que informa sobre la cantidad de individuos únicos. Sin embargo, cuando se utiliza el análisis entre dispositivos, se combinan visitantes únicos cuando, de lo contrario, se registran como dos visitantes únicos independientes fuera de CDA. La métrica &#39;Personas&#39; reemplaza la métrica &#39;Visitantes únicos&#39; cuando Analytics entre dispositivos está habilitado.
+La métrica [Personas](/help/components/metrics/people.md) es similar a la métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) en el sentido de que informa sobre la cantidad de individuos únicos. Sin embargo, cuando se utiliza el análisis entre dispositivos, se combinan visitantes únicos cuando, de lo contrario, se registran como dos visitantes únicos independientes fuera de CDA. La métrica &#39;Personas&#39; reemplaza la métrica &#39;Visitantes únicos cuando está habilitado Análisis entre dispositivos. Hay disponible una nueva métrica, [Dispositivos únicos](/help/components/metrics/unique-devices.md), que es aproximadamente igual a Visitantes únicos fuera de Análisis entre dispositivos.
 
 ## ¿Cuál es la diferencia entre la métrica &#39;Dispositivos únicos&#39; en CDA y la métrica &#39;Visitantes únicos fuera de CDA?
 
