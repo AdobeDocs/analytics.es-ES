@@ -1,16 +1,17 @@
 ---
-description: 'null'
-title: API afectadas por la migración
+description: API de listas afectadas por la migración de usuarios
+title: API afectadas por la migración de usuarios
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 92%
 
 ---
 
 
-# API afectadas por la migración {#apis-affected-by-the-migration}
-
-## API afectadas por la migración {#topic-8d34296a67d74b1081c3f7e8f650f3ce}
+# API afectadas por la migración de usuarios{#apis-affected-by-the-migration}
 
 Adobe está migrando todas las empresas de inicio de sesión de Analytics desde [!DNL my.omniture.com] a la autenticación mediante Adobe Experience Cloud. Una vez que la empresa empiece la migración, no se admitirá la creación ni la administración programática de usuarios con los métodos `GetLoginKey` y los permisos específicos de Analytics disponibles mediante las versiones 1.3 y 1.4 de la API de administración de Analytics. Estas acciones ahora se activarán en Experience Cloud mediante [!DNL adobe.io].
 
