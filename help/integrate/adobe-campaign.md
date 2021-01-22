@@ -1,12 +1,11 @@
 ---
-description: nulo
-title: Informes de Adobe Campaign
-uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
+description: Obtenga información sobre cómo activar Adobe Campaign sistema de informes en Adobe Analytics
+title: ¿Cómo se integra Adobe Campaign Sistema de informes en Adobe Analytics?
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 95%
 
 ---
 
@@ -38,20 +37,9 @@ Para ver datos de campaña en Analytics, primero debe habilitar la creación de 
 
 La integración entre Adobe Campaign Standard y Adobe Analytics agrega el siguiente informe en **[!UICONTROL Analytics]** > **[!UICONTROL Informes]**
 
-<table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Información general de la tienda de aplicaciones </th> 
-   <th colname="col2" class="entry"> Definición </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>ID de entrega ejecutada de Adobe Campaign </p> </td> 
-   <td colname="col2"> <p>Muestra datos importados desde Adobe Campaign acerca de correos electrónicos enviados desde Adobe Campaign. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Información general de la tienda de aplicaciones | Definición |
+|--- |--- |
+| ID de entrega ejecutada de Adobe Campaign | Muestra datos importados desde Adobe Campaign acerca de correos electrónicos enviados desde Adobe Campaign. |
 
 ## Paso 3. Use clasificaciones de Adobe Campaign {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
