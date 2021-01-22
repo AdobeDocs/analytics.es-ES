@@ -1,12 +1,11 @@
 ---
-description: Preguntas frecuentes sobre el convertidor de proyectos de Ad Hoc Analysis a Analysis Workspace
-title: Preguntas frecuentes del Conversor de proyectos
-uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
+description: Preguntas más frecuentes sobre el conversor de proyectos de Ad Hoc Analysis a Analysis Workspace
+title: Preguntas más frecuentes sobre Ad Hoc Analysis-to-Analysis Workspace Project Converter
 translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 94%
+source-wordcount: '951'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 94%
 ## Problemas de conversión habituales {#section_39C922A58B2E49C9877B363042801361}
 
 | Problema | Descripción |
-|--- |--- |
+| --- | --- |
 | Granularidad de minutos con desgloses o en columnas | Cuando la granularidad de minutos tiene desgloses aplicados o si la granularidad de minutos está presente en las columnas, el proyecto no se puede convertir a Analysis Workspace.  Una solución consiste en eliminar el desglose por granularidad de minutos, quitarlo de las columnas y, a continuación, convertir el proyecto. Después, puede aplicar desgloses en granularidad de minutos en Analysis Workspace. |
 | Métrica calculada interna utilizada junto con un segmento de columna | Si utiliza una métrica calculada interna junto con un segmento de columna, el proyecto no se puede convertir a Analysis Workspace. Para solucionar este problema, elimine las métricas calculadas internas del proyecto antes de la conversión y, a continuación, vuelva a agregarlas en Analysis Workspace. |
 
