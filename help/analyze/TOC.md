@@ -5,9 +5,9 @@ user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Proporciona instrucciones sobre procedimientos para Analysis Workspace, la herramienta de análisis y visualización más importante para Analytics, así como herramientas como Report Builder y Activity Map.
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 100%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 100%
       + Tabla de cohorte {#cohort-table}
          + [¿Qué es el análisis de cohorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar un informe de análisis de cohorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Casos de uso de análisis de cohorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + Casos de uso de [análisis de cohorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abandono {#fallout}
          + [Resumen de abandonos](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar una visualización de abandonos](analysis-workspace/visualizations/fallout/configuring-fallout.md)
@@ -135,7 +135,6 @@ ht-degree: 100%
       + [Instalación del Report Builder](report-builder/setup/t-install-arb.md)
       + [Actualizar el Report Builder](report-builder/setup/upgrade-arb.md)
       + [Inicio de sesión en el Report Builder](report-builder/setup/login.md)
-      + [Iniciar sesión en el Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [Desinstalación del Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [Invocar la funcionalidad del Report Builder desde las funciones de Microsoft Excel](report-builder/setup/invoke-arb-excel-function.md)
    + [Barra de herramientas del Report Builder](report-builder/reportbuilder-toolbar.md)
