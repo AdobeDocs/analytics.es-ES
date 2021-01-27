@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 87%
 
 ---
 
@@ -34,16 +34,10 @@ No puede establecer ningún argumento opcional en Launch.
 Llame al método `s.tl()` cuando desee enviar una llamada de seguimiento a Adobe.
 
 ```js
-s.tl();
-```
-
-Opcionalmente, este método acepta varios argumentos:
-
-```js
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### Objeto de vinculación
+### Objeto Link (requerido)
 
 El argumento del objeto de vinculación determina si el explorador espera hasta 500 ms antes de salir de la página. Si una solicitud de imagen se envía antes de 500 ms, la página se desplaza inmediatamente al vínculo donde se hizo clic.
 
@@ -55,37 +49,42 @@ El argumento del objeto de vinculación determina si el explorador espera hasta 
 * `true`: No esperar.
 
 ```JavaScript
-// Include a 500ms delay
-s.tl(this);
+// Include a 500ms delay with an exit link
+s.tl(this,"e","Example exit link");
 
-// Do not include a 500ms delay
-s.tl(true);
+// Do not include a 500ms delay with an exit link
+s.tl(true,"e","Example exit link");
 ```
 
-### Tipo de vínculo
+### Tipo de vínculo (obligatorio)
 
-El argumento del tipo de vinculación es una cadena de una sola letra que determina el tipo de llamada de seguimiento de vínculos. Es lo mismo que configurar la variable [`linkType`](../config-vars/linktype.md).
+El argumento de tipo de vínculo es una cadena de un solo carácter que determina el tipo de llamada de seguimiento de vínculos. Existen tres valores válidos.
+
+* `o`:: El vínculo es un vínculo  [personalizado](/help/components/dimensions/custom-link.md).
+* `d`:: El vínculo es un vínculo  [de descarga](/help/components/dimensions/download-link.md).
+* `e`:: El vínculo es un vínculo  [de salida](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
-s.tl(true,"o");
+s.tl(true,"o","Example custom link");
 
 // Send a download link
-s.tl(true,"d");
+s.tl(true,"d","Example download link");
 
 // Send an exit link
-s.tl(true,"e");
+s.tl(true,"e","Example exit link");
 ```
 
-### Nombre de la vinculación
+### Nombre del vínculo (recomendado)
 
-El argumento del nombre de la vinculación es una cadena que determina el elemento de la dimensión de seguimiento del vínculo. Es lo mismo que configurar la variable [`linkName`](../config-vars/linkname.md).
+El argumento del nombre de la vinculación es una cadena que determina el elemento de la dimensión de seguimiento del vínculo. Al utilizar las dimensiones [Vínculo personalizado](/help/components/dimensions/custom-link.md), [Vínculo de descarga](/help/components/dimensions/download-link.md) o [Vínculo de salida](/help/components/dimensions/exit-link.md) en sistema de informes, esta cadena contiene el elemento de dimensión. Si no se establece este argumento, se utiliza la variable [linkURL](../config-vars/linkurl.md).
 
 ```js
-s.tl(true,"d","Example download link");
+// When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
+s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### Anulaciones de variables
+### Anulaciones de variables (opcional)
 
 Permite cambiar los valores de las variables para una sola llamada. Consulte las [anulaciones de variables](../../js/overrides.md) para obtener más información.
 
@@ -108,14 +107,6 @@ Utilice JavaScript para hacer una llamada de seguimiento de vínculos básica co
 
 ```JavaScript
 s.tl(true,"o","Example link");
-```
-
-Utilice JavaScript para hacer la misma llamada básica de seguimiento de vínculos con variables independientes:
-
-```js
-s.linkType = "o";
-s.linkName = "Example link";
-s.tl();
 ```
 
 ### Realizar llamadas de seguimiento de vínculos dentro de una función personalizada
