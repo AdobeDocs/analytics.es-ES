@@ -1,8 +1,11 @@
 ---
 title: linkURL
 description: Omitir la URL del vínculo generado automáticamente que AppMeasurement utiliza en las llamadas de seguimiento de vínculos.
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 86%
 
 ---
 
@@ -23,4 +26,4 @@ La variable `s.linkURL` es una cadena que contiene la dirección URL del explora
 s.linkURL = "https://example.com";
 ```
 
-Si la variable [`linkName`](linkname.md) no está configurada para una llamada de seguimiento de vínculos, se utiliza la variable `linkURL` en su lugar.
+Si no se establece el tercer argumento del método [tl()](../functions/tl-method.md), se utiliza la variable `linkURL` en su lugar.
