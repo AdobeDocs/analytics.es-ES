@@ -1,11 +1,11 @@
 ---
 title: Vínculo de salida
 description: Nombre del vínculo de salida.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '152'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 80%
 
 ---
 
@@ -16,13 +16,9 @@ La dimensión “Vínculo de salida” indica los nombres de los vínculos de sa
 
 ## Rellene esta dimensión con datos
 
-Esta dimensión recopila datos de la [`pev2`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen para visitas individuales que también tienen la cadena de consulta `pe` con el valor de `lnk_e`. Si la cadena de consulta `pe` tiene un valor diferente en la visita, esta dimensión no recopila datos.
+Esta dimensión recopila datos de la [`pev2` cadena de consulta ](/help/implement/validate/query-parameters.md) en solicitudes de imagen para visitas individuales que también tienen la cadena de consulta `pe` con el valor de `lnk_e`. Si la cadena de consulta `pe` tiene un valor diferente en la visita, esta dimensión no recopila datos.
 
-Si desea enviar datos a esta dimensión mediante AppMeasurement:
-
-* Rellene la variable [`linkName`](/help/implement/vars/config-vars/linkname.md) con el valor deseado.
-* Configure la variable [`linkType`](/help/implement/vars/config-vars/linktype.md) como `"e"`.
-* Envíe una solicitud de imagen [`tl()`](/help/implement/vars/functions/tl-method.md).
+Si desea enviar datos a esta dimensión mediante AppMeasurement, envíe una solicitud de imagen [`tl()`](/help/implement/vars/functions/tl-method.md) con un argumento de tipo de vínculo `"e"`. Rellene el argumento del nombre del vínculo con el valor deseado.
 
 ## Elementos de dimensión
 
