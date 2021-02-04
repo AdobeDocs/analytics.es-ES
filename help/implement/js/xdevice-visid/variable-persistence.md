@@ -4,11 +4,11 @@ keywords: Analytics Implementation
 title: Atribución y persistencia
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Análisis entre dispositivos](/help/components/cda/overview.md) en la guía del usuario Componentes.
+>Ya no se recomienda este método de identificación de visitantes entre dispositivos. Consulte [Cross-Device Analytics](/help/components/cda/overview.md) en la guía del usuario Componentes.
 
 Cuando los perfiles de los visitantes se combinan después de asociarse a la misma variable de ID de visitante, la atribución no cambia en el conjunto de datos históricos.
 
