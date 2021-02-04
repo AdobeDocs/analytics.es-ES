@@ -1,11 +1,11 @@
 ---
 description: Pasos administrativos para activar Informes de AEM Assets en Analytics.
-title: Cómo informar sobre AEM Assets en Adobe Analytics
-translation-type: tm+mt
+title: Creación de informes sobre AEM Assets en Adobe Analytics
+translation-type: ht
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
