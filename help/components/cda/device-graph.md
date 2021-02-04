@@ -1,18 +1,18 @@
 ---
 title: Gráfico del dispositivo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante el gráfico del dispositivo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # Gráfico del dispositivo
 
-Análisis entre dispositivos proporciona dos métodos distintos para unir datos. Este método utiliza el gráfico de cooperación o el gráfico privado de Adobe Experience Platform Identity Service para vincular los datos. CDA se comunica regularmente con el gráfico del dispositivo para vincular dispositivos.
+Cross-Device Analytics proporciona dos métodos distintos para unir datos. Este método utiliza el gráfico de cooperación o el gráfico privado de Adobe Experience Platform Identity Service para vincular los datos. CDA se comunica regularmente con el gráfico del dispositivo para vincular dispositivos.
 
 ## Diferencias entre gráficos de cooperación y gráficos privados
 
