@@ -1,11 +1,11 @@
 ---
 title: Grupos de informes globales en Adobe Analytics
 description: Comprender las ventajas y los requisitos para utilizar un grupo de informes globales
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '878'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Un grupo de informes globales es un grupo de informes que recopila datos de todo
 Adobe recomienda implementar un grupo de informes globales en la mayoría de los casos.
 
 * **Datos agregados:** los grupos de informes globales le permiten ver los KPI y los eventos de éxito en los sitios que posee. Los grupos de informes virtuales y de segmentación se pueden utilizar para ver datos específicos del sitio.
-* **Compatibilidad con Análisis entre dispositivos:** CDA requiere un grupo de informes que recopile datos de varios lugares, como su sitio web y su aplicación móvil. Los dispositivos independientes pueden unir los datos si se implementan correctamente. Consulte [Análisis entre dispositivos](../../components/cda/overview.md) en la guía del usuario Componentes para obtener más información.
+* **Compatibilidad con Cross-Device Analytics:** CDA necesita un grupo de informes que recopile datos de varios lugares, como su sitio web y su aplicación móvil. Los dispositivos independientes pueden unir los datos si se implementan correctamente. Consulte [Cross-Device Analytics](../../components/cda/overview.md) en la guía del usuario de componentes para obtener más información.
 * **No se necesita más de un grupo de informes:** todos los datos se pueden recopilar en un solo grupo de informes, por lo que es menos probable que un programador envíe datos por error al grupo de informes equivocado.
 * **No es necesario realizar resúmenes:** los resúmenes son una característica bastante antigua que agrega datos de grupos de informes individuales diariamente. Los resúmenes no anulan la duplicación de datos de visitas o visitantes, lo que puede provocar un aumento de las cifras. Consulte [Resúmenes](../../admin/c-manage-report-suites/rollup-report-suite.md) en la guía del usuario de administración para obtener más información.
 * **Ahorre tiempo:** los proyectos, las clasificaciones, los segmentos y las métricas calculadas de Workspace están vinculados al mismo grupo de informes globales. Los administradores invierten menos tiempo en administrar estos componentes y el control de datos.
