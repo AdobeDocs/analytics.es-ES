@@ -1,12 +1,12 @@
 ---
-description: Flujo de trabajo de Ad Hoc Analysis Project Converter
+description: Flujo de trabajo del convertidor de proyectos de Ad Hoc Analysis
 title: Convertir sus proyectos en Ad Hoc Analysis
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >
 >Adobe Ad Hoc Analysis quedará obsoleto el 1 de marzo de 2021. [Más información](https://adobe.ly/discoverworkspace)
 
-## Conversión de sus proyectos {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## Conversión de proyectos {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 Antes de convertir sus proyectos, recuerde lo siguiente:
 
