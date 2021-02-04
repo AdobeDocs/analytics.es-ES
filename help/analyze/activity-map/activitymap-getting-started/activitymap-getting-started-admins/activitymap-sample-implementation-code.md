@@ -1,12 +1,12 @@
 ---
 description: Ejemplo de cómo se combinan la biblioteca AppMeasurement y el módulo Activity Map en el código de implementación de Adobe Analytics
-title: Código de implementación del Activity Map de muestra de vista
+title: Ver código de implementación de Activity Map de muestra
 topic: Activity map
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '51'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
