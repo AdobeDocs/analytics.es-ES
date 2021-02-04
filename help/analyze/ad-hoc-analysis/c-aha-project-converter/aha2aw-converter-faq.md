@@ -1,11 +1,11 @@
 ---
 description: Preguntas más frecuentes sobre el conversor de proyectos de Ad Hoc Analysis a Analysis Workspace
-title: Preguntas más frecuentes sobre Ad Hoc Analysis-to-Analysis Workspace Project Converter
-translation-type: tm+mt
+title: Preguntas más frecuentes sobre el conversor de proyectos de Ad Hoc Analysis-to-Analysis Workspace
+translation-type: ht
 source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -73,14 +73,14 @@ ht-degree: 92%
      <li id="li_CF9C3D235A664B15B21D9F89DC5EF7D3">Los segmentos son internos en el proyecto convertido (no son públicos). Puede elegir hacerlos públicos, como se muestra a continuación: <p><img placement="inline"  src="assets/internal_segment.png" id="image_5942392F18E845A5B41C3DED59374E89" width="300px" /> </p> </li> 
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Los segmentos del nivel de espacio de trabajo de Ad Hoc Analysis se aplican al nivel de proyecto/espacio de trabajo en Workspace. </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Los segmentos del nivel de informe de Ad Hoc Analysis se aplican al nivel de columna de tabla en Workspace. </li> 
-     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Los segmentos de tabla de Ad Hoc Analysis se aplican en el nivel de columna de tabla en Workspace. </li> 
+     <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Los segmentos de tabla de Ad Hoc Analysis se aplican al nivel de columna de tabla en Workspace. </li> 
     </ul> <p>Puede editar segmentos en el <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html"  >Generador de segmentos</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Cómo se convierten los intervalos de fechas?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Los intervalos de fechas de “Último día X” en Ad Hoc Analysis <i>excluyen</i> hoy, mientras que Analysis Workspace <i>sí lo incluye</i>. Por lo tanto, es posible que los intervalos de fechas como 'Últimos 90 días' no coincidan exactamente entre las herramientas. En su lugar, aplique los rangos 'Últimos X <b>días completos </b>' en Analysis Workspace. </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Los intervalos de fechas de “Último día X” en Ad Hoc Analysis <i>excluyen</i> hoy, mientras que Analysis Workspace <i>sí lo incluye</i>. Así, es posible que los intervalos de fechas como “últimos 90 días” no coincidan exactamente entre herramientas. En su lugar, aplique los intervalos 'Últimos X <b>días completos</b> en Analysis Workspace. </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">El intervalo de fechas del nivel de espacio de trabajo de Ad Hoc Analysis se aplica al nivel de proyecto/espacio de trabajo en Workspace. </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">El intervalo de fechas del nivel de informe de Ad Hoc Analysis se aplica al nivel de columna de tabla en Workspace. </li> 
     </ul> <p>Puede editar sus intervalos de fechas personalizados en <span class="uicontrol">Analytics</span> &gt; <span class="uicontrol">Componentes</span> &gt; <span class="uicontrol">Intervalos de fechas</span>. </p> </td> 
