@@ -2,11 +2,11 @@
 description: Comprenda los ID capturados en los datos de Analytics y decida los que utilizará para las solicitudes de privacidad de datos.
 title: Prácticas recomendadas de etiquetado
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2706'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Las etiquetas de eliminación DEL-DEVICE y DEL-PERSON deben usarse con moderaci�
 
    Por ejemplo, si cuenta con tres visitas que contienen el valor “foo” en eVar7, pero solo una de ellas contiene también un ID en una variable distinta que coincide con una eliminación, entonces el valor “foo” de dicha visita se modificará por uno como “Privacidad de datos-123456789”, mientras que en las otras dos visitas permanecerá sin cambios. Un informe que incluye el número de valores únicos para eVar7 ahora mostrará un valor único más que antes. Un informe que incluye los valores principales para los eVar puede incluir “foo” con solo dos instancias (en lugar de las tres anteriores), y el nuevo valor aparecerá también como instancia única.
 
-## Prácticas recomendadas para establecer etiquetas de acceso  {#section_AC7E216F81C141FCA6A62F8836E06EE7}
+## Prácticas recomendadas para establecer etiquetas de acceso {#section_AC7E216F81C141FCA6A62F8836E06EE7}
 
 Aunque muy pocos campos tendrán alguna de las otras etiquetas, será habitual que un gran número de campos presenten etiquetas ACC. Las etiquetas de acceso adecuadas dependerán de los ID que utilice para las solicitudes de privacidad de datos.
 
