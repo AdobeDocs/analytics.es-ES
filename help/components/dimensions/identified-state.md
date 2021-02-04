@@ -1,26 +1,26 @@
 ---
 title: Estado identificado
 description: Un indicador que determina el reconocimiento por el gráfico del dispositivo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 12%
+ht-degree: 100%
 
 ---
 
 
 # Estado identificado
 
-La dimensión &#39;Estado identificado&#39; es específica de los [grupos de informes virtuales de Analytics para varios dispositivos](../cda/overview.md). Informa si el gráfico del dispositivo reconoce la ID del Experience Cloud en el momento de ejecutar el informe. Esta dimensión es útil para comprender cuán bien se comprimen los datos o puntos CDA.
+La dimensión Estado identificado es específica de los grupos de informes virtuales de [Cross-Device Analytics](../cda/overview.md). Informa si el gráfico del dispositivo reconoce el Experience Cloud ID en el momento de ejecutar el informe. Esta dimensión es útil para comprender cómo comprime datos o vincula datos CDA.
 
 ## Rellene esta dimensión con datos
 
-Siempre que tenga [Análisis entre dispositivos](../cda/overview.md) configurado para un grupo de informes virtuales, esta dimensión funciona de forma predeterminada.
+Siempre que tenga [Cross-Device Analytics](../cda/overview.md) configurado para un grupo de informes virtual, esta dimensión funciona de forma predeterminada.
 
 ## Elementos de dimensión
 
 Los elementos de dimensión incluyen `"Identified"` y `"Unidentified"`.
 
-* **`"Identified"`**:: El gráfico del dispositivo reconoce el ID del Experience Cloud vinculado a la visita.
-* **`"Unidentified"`**:: El gráfico del dispositivo no reconoce el ID de Experience Cloud o la visita no tiene un ID de Experience Cloud.
+* **`"Identified"`**: el gráfico del dispositivo reconoce el Experience Cloud ID vinculado a la visita.
+* **`"Unidentified"`**: el gráfico del dispositivo no reconoce el Experience Cloud ID o la visita no tiene un Experience Cloud ID.
