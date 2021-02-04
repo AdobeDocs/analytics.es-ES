@@ -1,11 +1,11 @@
 ---
 title: Preguntas más frecuentes sobre Attribution
 description: Obtenga respuestas a preguntas más frecuentes sobre Attribution.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 14ec79335ff0b37e3072a0a1b04b0727100cad76
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -18,27 +18,27 @@ El elemento de línea “Ninguno” es un captador global que representa todas l
 
 ## ¿Por qué a veces veo fechas fuera de la ventana de informes al utilizar modelos de atribución?
 
-Algunas métricas basadas en visitas, como [Entradas](/help/components/metrics/entries.md) o [Tasa de devoluciones](/help/components/metrics/bounce-rate.md), pueden atribuir datos a un período antes del intervalo de fechas de inicio de la ventana de sistema de informes. Esta situación se debe a que los modelos de atribución utilizan una ventana retrospectiva, que determina hasta qué punto la atribución retroactiva debería dar crédito por las métricas. El escenario más común es cuando las visitas abarcan la medianoche. Por ejemplo:
+Algunas métricas basadas en visitas, como [Entradas](/help/components/metrics/entries.md) o [Tasa de salida hacia otro sitio](/help/components/metrics/bounce-rate.md), pueden atribuir datos a un período antes del intervalo de fechas de inicio de la ventana de creación de informes. Esta situación se debe a que los modelos de atribución utilizan una ventana retrospectiva, que determina hasta qué punto la atribución retroactiva debería dar crédito por las métricas. El escenario más común es cuando las visitas se extienden más allá de la medianoche. Por ejemplo:
 
-1. Un usuario visita su página de inicio a las 11:55 pm del 7 de septiembre.
-1. Visitan varias páginas, la última de las cuales ocurrió a las 12:05 AM del 8 de septiembre.
-1. Una semana después, se ejecuta un informe de tendencias diario con el intervalo de fechas 8 de septiembre a 14 de septiembre.
+1. Un usuario visita su página principal a las 11:55 p.m. del 7 de septiembre.
+1. Visitan varias páginas, la última de las cuales ocurrió a las 12:05 a.m. del 8 de septiembre.
+1. Una semana después, se ejecuta un informe de tendencias diario con el intervalo de fechas del 8 de septiembre al 14 de septiembre.
 
-Las métricas basadas en visitas individuales, como [vistas de página](/help/components/metrics/page-views.md), producirían el resultado esperado; los datos fueron tendencia todos los días del 8 de septiembre al 14 de septiembre. Sin embargo, las métricas basadas en visitas también mostrarían la visita anterior el 7 de septiembre. La entrada atribuida a la visita se produjo el 7 de septiembre y la ventana retroactiva de forma predeterminada es del 1 de septiembre al 31 de septiembre.
+Las métricas basadas en visitas, como [Vistas de página](/help/components/metrics/page-views.md), producirían el resultado esperado; los datos fueron tendencia todos los días del 8 de septiembre al 14 de septiembre. Sin embargo, las métricas basadas en visitas también mostrarían la visita anterior del 7 de septiembre. La entrada atribuida a la visita se produjo el 7 de septiembre y la ventana retroactiva predeterminada es del 1 de septiembre al 31 de septiembre.
 
-La tasa de devoluciones siempre muestra 0 % el 7 de septiembre en este ejemplo. Esta métrica se define como `Bounces divided by Entries`, una métrica basada en visitas dividida por una métrica basada en visitas. Las devoluciones consisten en una sola solicitud de imagen, por lo que no pueden abarcar varios días. Cualquier devolución del 7 de septiembre se produjo fuera de la ventana de sistema de informes, lo que provoca la tasa de devoluciones del 0 % garantizada para ese día. Otras métricas basadas en visitas individuales también mostrarían 0 para el 7 de septiembre en este informe, ya que esas visitas no están dentro de la ventana de sistema de informes.
+La tasa de salida hacia otro sitio siempre muestra 0% el 7 de septiembre en este ejemplo. Esta métrica se define como `Bounces divided by Entries`, que es una métrica basada en visitas dividida por una métrica basada en visitas. Las salidas consisten en una sola solicitud de imagen, por lo que no pueden abarcar varios días. Cualquier salida producida el 7 de septiembre se produjo fuera de la ventana de creación de informes, lo que provoca la tasa de salida hacia otro sitio del 0% garantizada para ese día. Otras métricas basadas en visitas también mostrarían 0 para el 7 de septiembre en este informe, ya que esas visitas no se incluyen en la ventana de creación de informes.
 
-Consideremos otro ejemplo similar. La única diferencia entre el ejemplo siguiente y el ejemplo anterior son las fechas:
+Veamos otro ejemplo similar. La única diferencia entre el ejemplo siguiente y el ejemplo anterior son las fechas:
 
-1. Un usuario visita su página de inicio a las 11:55 pm del 31 de agosto.
-1. Visitan varias páginas, la última de las cuales ocurrió a las 12:05 AM del 1 de septiembre.
+1. Un usuario visita su página principal a las 11:55 p.m. del 31 de agosto.
+1. Visitan varias páginas, la última de las cuales ocurrió a las 12:05 a.m. del 1 de septiembre.
 1. Una semana después, se ejecuta un informe de tendencias diario con el intervalo de fechas del 1 de septiembre al 7 de septiembre.
 
-En este ejemplo, las entradas y la tasa de devoluciones no mostraban datos del 31 de agosto. Tanto la ventana retroactiva como la ventana de sistema de informes inicio el 1 de septiembre, por lo que los datos no se pueden atribuir a partir del 31 de agosto.
+En este ejemplo, las entradas y la tasa de salida hacia otro sitio no mostraban datos del 31 de agosto. Tanto la ventana retroactiva como la ventana de creación de informes comienzan el 1 de septiembre, por lo que los datos no se pueden atribuir a partir del 31 de agosto.
 
 ## ¿Cuándo debo usar una retrospectiva de atribución de visita, de visitante o personalizada?
 
-La elección de la retrospectiva de atribución depende de su caso de uso. Si las conversiones suelen tardar más de una sola visita, se recomienda una retrospectiva del visitante o personalizada. Para ciclos de conversión más largos, las ventanas de retrospectiva personalizadas son mejores ya que son el único tipo que puede extraer datos anteriores a los establecidos en la ventana para la creación de informes
+La elección de la retrospectiva de atribución depende de su caso de uso. Si las conversiones suelen tardar más de una sola visita, se recomienda una retrospectiva del visitante o personalizada. Para ciclos de conversión más largos, las ventanas de retrospectiva personalizadas son mejores ya que son el único tipo que puede extraer datos anteriores a los establecidos en la ventana para la creación de informes.
 
 ## ¿Cómo se comparan las props y las eVars al utilizar la atribución?
 
@@ -94,7 +94,7 @@ Dado que las dimensiones del canal de marketing dependen de una definición de v
 
 Algunas dimensiones en Analytics pueden contener varios valores en una sola visita. Algunos ejemplos comunes son las variables de lista y la variable Products.
 
-Cuando la atribución se aplica a visitas con varios valores, todos los valores de la misma visita obtienen el mismo crédito. Dado que muchos valores pueden recibir este crédito, el total del informe puede ser diferente a la suma de cada elemento de línea individual. El total del informe se anula la duplicación, mientras que cada elemento de dimensión individual recibe el crédito adecuado.
+Cuando la atribución se aplica a visitas con varios valores, todos los valores de la misma visita obtienen el mismo crédito. Dado que muchos valores pueden recibir este crédito, el total del informe puede ser diferente a la suma de cada elemento de línea individual. El total del informe se deduplica, mientras que cada elemento de dimensión individual obtiene el crédito adecuado.
 
 ## ¿Cómo funciona la atribución con la segmentación?
 
@@ -106,4 +106,4 @@ Por ejemplo, si crea un VRS y le aplica un segmento “Display Hits”, puede ve
 
 >[!NOTE]
 >
->Si un segmento suprime las visitas que contengan la métrica, esas instancias de métrica no se atribuirán a ninguna dimensión. Sin embargo, un filtro de informe similar simplemente ocultará algunos elementos de dimensión, sin ningún impacto en las métricas procesadas según el modelo de atribución. Como resultado, un segmento puede devolver valores más bajos que un filtro con una definición comparable.
+>Si un segmento suprime las visitas que contengan la métrica, esas instancias de métrica no se atribuirán a ninguna dimensión. Sin embargo, un filtro de informe similar simplemente ocultará algunos elementos de dimensión, sin ningún impacto en las métricas procesadas por el modelo de atribución. Como resultado, un segmento puede devolver valores más bajos que un filtro con una definición comparable.
