@@ -1,11 +1,11 @@
 ---
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1319'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ En algunas situaciones, un usuario individual puede asociarse con un gran númer
 
 ## ¿Cuál es la diferencia entre la métrica Personas en CDA y la métrica Visitantes únicos fuera de CDA?
 
-La métrica [Personas](/help/components/metrics/people.md) es similar a la métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) en el sentido de que informa sobre la cantidad de individuos únicos. Sin embargo, cuando se utiliza el análisis entre dispositivos, se combinan visitantes únicos cuando, de lo contrario, se registran como dos visitantes únicos independientes fuera de CDA. La métrica &#39;Personas&#39; reemplaza la métrica &#39;Visitantes únicos cuando está habilitado Análisis entre dispositivos. Hay disponible una nueva métrica, [Dispositivos únicos](/help/components/metrics/unique-devices.md), que es aproximadamente igual a Visitantes únicos fuera de Análisis entre dispositivos.
+La métrica [Personas](/help/components/metrics/people.md) es similar a la métrica [Visitantes únicos](/help/components/metrics/unique-visitors.md) en el sentido de que informa sobre la cantidad de individuos únicos. Sin embargo, cuando se utiliza el análisis entre dispositivos, se combinan visitantes únicos cuando, de lo contrario, se registran como dos visitantes únicos independientes fuera de CDA. La métrica &#39;Personas&#39; reemplaza la métrica &#39;Visitantes únicos&#39; cuando Analytics entre dispositivos está habilitado. Hay disponible una nueva métrica, [Dispositivos únicos](/help/components/metrics/unique-devices.md), que es aproximadamente igual a Visitantes únicos fuera de Analytics entre dispositivos.
 
 ## ¿Cuál es la diferencia entre la métrica &#39;Dispositivos únicos&#39; en CDA y la métrica &#39;Visitantes únicos fuera de CDA?
 
@@ -75,7 +75,7 @@ Sí. Analysis Workspace utiliza la API 2.0 para solicitar datos de los servidore
 2. Haga clic en el icono de depuración en el panel deseado y, a continuación, seleccione la visualización y la hora deseadas de la solicitud.
 3. Busque la solicitud JSON, que puede utilizar en su llamada de API a Adobe.
 
-## Los análisis entre dispositivos pueden unir visitantes únicos. ¿Puede unir las visitas?
+## Los análisis entre dispositivos pueden unir visitantes únicos. ¿Puede unir visitas?
 
 Sí. Si un individuo envía visitas desde dos dispositivos distintos dentro del tiempo de espera de visita del grupo de informes virtuales (30 minutos de forma predeterminada), se vinculan a la misma visita.
 
