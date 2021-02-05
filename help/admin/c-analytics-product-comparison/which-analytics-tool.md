@@ -3,10 +3,10 @@ description: Esta página de ayuda contiene casos de uso recomendados para cada 
 title: ¿Qué herramienta de Adobe Analytics debo usar?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 97%
+source-wordcount: '1186'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ Los **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** deben us
 
 >[!IMPORTANT]
 >
->El Adobe está llevando a Ad Hoc Analysis al final de su vida útil el 1 de marzo de 2021. [Más información](https://adobe.ly/discoverworkspace)
+>Adobe Ad Hoc Analysis quedará obsoleto el 1 de marzo de 2021. [Más información](https://adobe.ly/discoverworkspace)
 
 * Para organizar por fichas el trabajo de los proyectos.
 * Para usar el informe de Análisis del sitio (informe de rutas en 3D).
@@ -68,13 +68,17 @@ Las **[Fuentes de datos](/help/import/c-data-sources/datasrc-home.md)** deben u
    * ID de transacción: cargas de datos que conectan un extremo en línea a datos sin conexión y que asocian por completo los datos importados a una instantánea de visitante capturada en línea (por ejemplo, pedidos completados en línea y devueltos sin conexión).
    * Procesamiento completo: fuentes de datos con marca de tiempo, procesadas como si fueran visitas recopiladas por servidores de Adobe (es decir, los datos se insertan directamente en el recorrido del visitante).
 
-Los **[Data Connectors ](https://www.adobeexchange.com/experiencecloud.html)(anteriormente, Génesis)** deben usarse:
+Los **[Conectores de datos](https://www.adobeexchange.com/experiencecloud.html)** deben usarse:
 
 * Al interactuar con un proveedor ajeno que dispone de una conexión compatible con Adobe Analytics. Los Data Connectors suelen incorporar a Adobe Analytics datos en el nivel de resumen de manera permanente, automática y recurrente.
 
 La **[API de inserción de datos](/help/import/c-data-insertion-api/c-data-insertion-api.md)** debe usarse:
 
 * Cuando sea necesario cargar datos en Adobe Analytics y no sea posible utilizar Adobe AppMeasurement o el código del SDK móvil.
+
+**[API de inserción de datos en lotes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+
+* Tanto la API de inserción de datos como la API de inserción masiva de datos son métodos para enviar datos de recopilación de servidor a Adobe Analytics. Las llamadas a la API de inserción de datos se realizan de un evento a la vez. La API de inserción masiva de datos acepta archivos con formato CSV que contienen datos de evento, un evento por fila. Si está trabajando en una nueva implementación de la colección del lado del servidor, le recomendamos utilizar la API de inserción masiva de datos.
 
 **[Los atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html)** deben usarse:
 
@@ -86,7 +90,7 @@ La **[API de inserción de datos](/help/import/c-data-insertion-api/c-data-inser
 * Si quiere incorporar datos de audiencia de Adobe Audience Manager (AAM), como información demográfica (p. ej., sexo o nivel de ingresos), información psicográfica (p. ej., intereses y aficiones), datos CRM o datos de impresión publicitaria a cualquier flujo de trabajo de Analytics.
 * Si desea que los datos CRM cargados estén basados en el tiempo, ya que esta integración envía nueva información a Analytics visita tras visita.
 
-## Exportación de datos desde Adobe Analytics {#section_901C06ABF2014E92B2952906723DF235}
+## Exportación de datos desde Adobe Analytics  {#section_901C06ABF2014E92B2952906723DF235}
 
 El **[Report Builder](/help/analyze/report-builder/home.md)** debe usarse:
 
