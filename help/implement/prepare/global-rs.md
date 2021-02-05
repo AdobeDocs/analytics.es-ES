@@ -1,9 +1,9 @@
 ---
 title: Grupos de informes globales en Adobe Analytics
 description: Comprender las ventajas y los requisitos para utilizar un grupo de informes globales
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Adobe recomienda implementar un grupo de informes globales en la mayoría de los
 
 Utilice las siguientes directrices generales para comprender el proceso de implementación de un grupo de informes globales.
 
-1. Cree el grupo de informes globales en Adobe Analytics. Consulte [Creación de un grupo de informes](../../admin/admin-console/create-report-suite.md) en la guía del usuario de administración para obtener más información.
+1. Cree el grupo de informes globales en Adobe Analytics. Consulte [Creación de un grupo de informes](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) en la guía del usuario de administración para obtener más información.
 1. Trabaje con los equipos de su organización responsables de cada dominio. Muchos equipos incluyen requisitos de informes específicos de su área de negocio.
 1. Registre y agregue todos estos requisitos en un [documento de diseño de solución](solution-design.md). Si los equipos tienen requisitos similares para una dimensión, pueden utilizar la misma variable personalizada. Por ejemplo: si el sitio A y el sitio B exigen una dimensión de ruta de exploración, las implementaciones para ambos sitios pueden enviar esos datos a través de eVar1.
 
