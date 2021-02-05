@@ -1,23 +1,29 @@
 ---
-description: Pasos que describen cómo se crea un grupo de informes y cómo se copia la configuración de uno existente en otro nuevo.
+description: Cree un contenedor básico para la recopilación de datos en Adobe Analytics
 title: Crear un grupo de informes
 topic: Admin tools
-uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 8ddd49ad894547d888efc513983e615d138ed13c
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 87%
+source-wordcount: '375'
+ht-degree: 77%
 
 ---
 
 
 # Crear un grupo de informes
 
-Pasos que describen cómo se crea un grupo de informes y cómo se copia la configuración de uno existente en otro nuevo.
+Un grupo de informes es un silo de datos que Adobe Analytics utiliza para extraer informes. Una organización puede tener muchos grupos de informes, cada uno con diferentes conjuntos de datos. Aunque en el pasado era importante mantener grupos de informes separados, tener un único grupo de informes se ha vuelto más ventajoso. La introducción de [grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) y procesamiento de tiempo de informes permite a los administradores crear sus propios subconjuntos de datos, lo que permite la flexibilidad para obtener datos globales y específicos del sitio.
+
+Este artículo está diseñado para administradores de nivel de sistema o administradores de análisis para prepararse para la recopilación de datos.
+
+## Requisitos previos
+
+[Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md): Asegúrese de que un administrador de nivel de sistema le ha concedido acceso a Adobe Analytics a través del Admin Console del Experience Cloud.
+
+## Crear un grupo de informes {#create-report-suite}
 
 1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]**.
-1. Selección de un grupo de informes.
 1. Haga clic en **[!UICONTROL Crear nuevo]** > **[!UICONTROL Grupo de informes]**.
 1. Para copiar la configuración de un grupo de informes, seleccione en la lista de plantillas un plantilla predefinida o un grupo de informes existente para usar como [plantilla.](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
 
@@ -29,3 +35,17 @@ Pasos que describen cómo se crea un grupo de informes y cómo se copia la confi
 1. Haga clic en **[!UICONTROL Crear grupo de informes]**.
 
 Una ID de grupo de informes tiene una longitud máxima de 40 bytes. Un nombre práctico del grupo de informes tiene una longitud máxima de 255 bytes.
+
+## Resolución de problemas
+
+**Tras iniciar sesión en Experience Cloud, el icono de Analytics aparece sombreado.**
+
+Esto significa que no se han concedido a su cuenta los permisos correctos para Analytics. Colabore con un administrador de nivel de sistema de su organización para asegurarse de que cuenta con un perfil con los permisos adecuados para acceder a Adobe Analytics.
+
+**Después de iniciar sesión en Adobe Analytics, falta la ventana emergente de &#39;Bienvenido a Adobe Analytics&#39; y la lista desplegable.**
+
+Asegúrese de haber iniciado sesión a través de Experience Cloud, y no a través de my.omniture.com. Los usuarios que inician sesión a través de my.omniture.com no tienen disponible el asistente para la configuración de grupos de informes.
+
+## Pasos siguientes
+
+[Cree y configure una propiedad para Adobe Analytics en Launch](/help/implement/launch/create-analytics-property.md): Crear un área para administrar la implementación de Analytics
