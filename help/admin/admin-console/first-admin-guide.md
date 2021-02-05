@@ -1,9 +1,9 @@
 ---
 title: Guía de administración inicial de Adobe Analytics
 description: Obtenga información sobre cómo empezar con Adobe Analytics, los tipos de funciones generales y el inicio de sesión en la interfaz de usuario.
-translation-type: ht
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 
@@ -58,6 +58,6 @@ El acceso de administrador de productos para Experience Platform Launch es casi 
 
 ## Pasos siguientes
 
-[Crear un grupo de informes](create-report-suite.md): Haga que el administrador de Analytics inicie sesión en la herramienta y cree un grupo de informes para la recopilación de datos
+[Crear un grupo de informes](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md): Haga que el administrador de Analytics inicie sesión en la herramienta y cree un grupo de informes para la recopilación de datos
 
 [Crear una propiedad en Experience Platform Launch](/help/implement/launch/create-analytics-property.md): Haga que el administrador de Experience Platform Launch inicie sesión en la herramienta y cree una propiedad para implementarla en el sitio
