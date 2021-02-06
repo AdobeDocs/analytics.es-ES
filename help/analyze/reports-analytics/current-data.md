@@ -4,11 +4,11 @@ subtopic: Current Data
 title: Datos actuales
 topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '564'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Datos actuales está habilitado de forma predeterminada en todos los informes co
 
 * Utilice Analysis Workspace, que usa datos completamente procesados.
 * Haga clic en “No” en la configuración del informe de datos actual para utilizar solamente los datos completamente procesados.
-* Elimine el elemento de permiso “Datos actuales” de un perfil de producto en Admin Console para evitar que los usuarios que no son administradores vean esta opción. Consulte los [elementos de permiso de herramientas de Analytics](/help/admin/admin-console/permissions/analytics-tools.md) en la guía del usuario de administración para obtener más información.
+* Elimine el elemento de permiso “Datos actuales” de un perfil de producto en Admin Console para evitar que los usuarios que no son administradores vean esta opción. Consulte [Permisos de perfil de productos para las herramientas de Analytics](/help/admin/admin-console/permissions/analytics-tools.md) en la guía del usuario de administración para obtener más información.
 
 Los datos actuales no se pueden utilizar actualmente con segmentos, clasificaciones, desgloses, rutas y algunas métricas. debido a la disponibilidad de los datos con prioridad, Si se utiliza una de estas características, los datos actuales aparecen como “No” en el informe y se muestra un aviso amarillo que explica por qué no se encuentran disponibles los datos actuales.
 
