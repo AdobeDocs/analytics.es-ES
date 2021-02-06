@@ -1,9 +1,12 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '558'
+ht-degree: 98%
 
 ---
-# Elementos de permiso de herramientas de Analytics
+# Permisos de perfil de productos para las herramientas de Analytics
 
 Los elementos de permiso de las herramientas de Analytics conceden acceso a las funciones de Adobe Analytics. Los elementos de permiso de las herramientas de Analytics no se aplican a un grupo de informes, sino a Adobe Analytics en su conjunto.
 
