@@ -3,7 +3,7 @@ description: Los grupos de informes virtuales se pueden revisar para que incluya
 title: Revisión de componentes de grupo de informes virtuales
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 780d1d70c1bef907ef3dc1a942eaf399c9d3ba48
+source-git-commit: 07aa9068e4500d11a80d1e340912b249156fd3b9
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 100%
@@ -31,13 +31,14 @@ Para habilitar la revisión de componentes,
    >[!NOTE]
    >
    >Si la personalización de componentes está habilitada, el grupo de informes virtuales **solo es accesible desde Analysis Workspace** y, por lo tanto, no lo es desde:
+   >
+   >* [!UICONTROL Reports &amp; Analytics]
+   >* [!UICONTROL Ad Hoc Analysis ]
+   >* [!UICONTROL Data Warehouse]
+   >* [!UICONTROL Report Builder]
+   >* [!UICONTROL Activity Map]
+   >* API de informes de Analytics
 
-   * [!UICONTROL Reports &amp; Analytics]
-   * [!UICONTROL Ad Hoc Analysis ]
-   * [!UICONTROL Data Warehouse]
-   * [!UICONTROL Report Builder]
-   * [!UICONTROL Activity Map]
-   * API de informes de Analytics
 
    Una vez comprobado, puede agregar los componentes que desee incluir en el grupo de informes virtuales arrastrando los componentes aplicables de la columna “componentes excluidos” a la columna “componentes incluidos”. Los componentes que se pueden incluir y excluir son los siguientes:
 
@@ -70,6 +71,6 @@ Use grupos de componentes para realizar agregaciones masivas de componentes a su
 
 ![](assets/vrs-comp-grp.png)
 
-## Comportamiento de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Comportamiento de Workspace  {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 Para obtener más información sobre la organización en Analysis Workspace, consulte [Organizar y compartir un proyecto](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate.html).
