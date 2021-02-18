@@ -1,11 +1,11 @@
 ---
 title: tl
 description: Envíe una llamada de seguimiento de vínculos a Adobe.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Llame al método `s.tl()` cuando desee enviar una llamada de seguimiento a Adobe
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### Objeto Link (requerido)
+### Objeto de vinculación (obligatorio)
 
 El argumento del objeto de vinculación determina si el explorador espera hasta 500 ms antes de salir de la página. Si una solicitud de imagen se envía antes de 500 ms, la página se desplaza inmediatamente al vínculo donde se hizo clic.
 
@@ -58,11 +58,11 @@ s.tl(true,"e","Example exit link");
 
 ### Tipo de vínculo (obligatorio)
 
-El argumento de tipo de vínculo es una cadena de un solo carácter que determina el tipo de llamada de seguimiento de vínculos. Existen tres valores válidos.
+El argumento del tipo de vínculo es una cadena de un solo carácter que determina el tipo de llamada de seguimiento de vínculos. Existen tres valores válidos.
 
-* `o`:: El vínculo es un vínculo  [personalizado](/help/components/dimensions/custom-link.md).
-* `d`:: El vínculo es un vínculo  [de descarga](/help/components/dimensions/download-link.md).
-* `e`:: El vínculo es un vínculo  [de salida](/help/components/dimensions/exit-link.md).
+* `o`: el vínculo es un [vínculo personalizado](/help/components/dimensions/custom-link.md).
+* `d`: el vínculo es un [vínculo de descarga](/help/components/dimensions/download-link.md).
+* `e`: el vínculo es un [vínculo de salida](/help/components/dimensions/exit-link.md).
 
 ```js
 // Send a custom link
@@ -77,7 +77,7 @@ s.tl(true,"e","Example exit link");
 
 ### Nombre del vínculo (recomendado)
 
-El argumento del nombre de la vinculación es una cadena que determina el elemento de la dimensión de seguimiento del vínculo. Al utilizar las dimensiones [Vínculo personalizado](/help/components/dimensions/custom-link.md), [Vínculo de descarga](/help/components/dimensions/download-link.md) o [Vínculo de salida](/help/components/dimensions/exit-link.md) en sistema de informes, esta cadena contiene el elemento de dimensión. Si no se establece este argumento, se utiliza la variable [linkURL](../config-vars/linkurl.md).
+El argumento del nombre de la vinculación es una cadena que determina el elemento de la dimensión de seguimiento del vínculo. Al utilizar las dimensiones [Vínculo personalizado](/help/components/dimensions/custom-link.md), [Vínculo de descarga](/help/components/dimensions/download-link.md) o [Vínculo de salida](/help/components/dimensions/exit-link.md) en la creación de informes, esta cadena contiene el elemento de dimensión. Si no se establece este argumento, se utiliza la variable [linkURL](../config-vars/linkurl.md).
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
