@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ Para obtener más información sobre comparativas de producto de Adobe Analytics
 * Para configurar eventos de Calendario.
 * Para configurar Targets.
 * Para ver informes de Bot.
-* Para acceder a visualizaciones de vídeo únicas de Partición de días de vídeo y Descarga del visor.
+* Para acceder a visualizaciones de vídeo únicas de Video Daypart y Viewer Drop-off.
 * Para utilizar las Listas de publicación en informes programados.
 
 El **[Data Workbench](https://docs.adobe.com/content/help/es-ES/data-workbench/using/home.html)** debe usarse:
@@ -59,7 +59,7 @@ Las **[Fuentes de datos](/help/import/c-data-sources/datasrc-home.md)** deben u
    * ID de transacción: cargas de datos que conectan un extremo en línea a datos sin conexión y que asocian por completo los datos importados a una instantánea de visitante capturada en línea (por ejemplo, pedidos completados en línea y devueltos sin conexión).
    * Procesamiento completo: fuentes de datos con marca de tiempo, procesadas como si fueran visitas recopiladas por servidores de Adobe (es decir, los datos se insertan directamente en el recorrido del visitante).
 
-Los **[Conectores de datos](https://www.adobeexchange.com/experiencecloud.html)** deben usarse:
+Los **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** deben usarse:
 
 * Al interactuar con un proveedor ajeno que dispone de una conexión compatible con Adobe Analytics. Los Data Connectors suelen incorporar a Adobe Analytics datos en el nivel de resumen de manera permanente, automática y recurrente.
 
@@ -69,7 +69,7 @@ La **[API de inserción de datos](/help/import/c-data-insertion-api/c-data-inser
 
 **[API de inserción de datos en lotes](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* Tanto la API de inserción de datos como la API de inserción masiva de datos son métodos para enviar datos de recopilación de servidor a Adobe Analytics. Las llamadas a la API de inserción de datos se realizan de un evento a la vez. La API de inserción masiva de datos acepta archivos con formato CSV que contienen datos de evento, un evento por fila. Si está trabajando en una nueva implementación de la colección del lado del servidor, le recomendamos utilizar la API de inserción masiva de datos.
+* Tanto la API de inserción de datos como la API de inserción masiva de datos son métodos para enviar datos de colección del lado del servidor a Adobe Analytics. Las llamadas a la API de inserción de datos se realizan a razón de un evento a la vez. La API de inserción masiva de datos acepta archivos con formato CSV que contienen datos de evento, un evento por fila. Si está trabajando en una nueva implementación de la colección del lado del servidor, le recomendamos utilizar la API de inserción masiva de datos.
 
 **[Los atributos del cliente](https://docs.adobe.com/content/help/es-ES/core-services/interface/customer-attributes/attributes.html)** deben usarse:
 
