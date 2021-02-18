@@ -1,36 +1,36 @@
 ---
 title: websiteBot
-description: Identifique de forma dinámica los bots mediante el movimiento del ratón.
-translation-type: tm+mt
+description: Identifique de forma dinámica los bots moviendo el ratón.
+translation-type: ht
 source-git-commit: 7c130a1b79c9ab1b60773f51f1679249bfa338be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
-# Adobe: websiteBot
+# Complemento de Adobe: websiteBot
 
 >[!IMPORTANT]
 >
 >Adobe Consulting proporciona este complemento por cortesía para ayudarle a sacar el máximo partido a Adobe Analytics. El Servicio de atención al cliente de Adobe no ofrece asistencia técnica con este complemento, incluida la instalación o solución de problemas. Si necesita ayuda con este complemento, póngase en contacto con el administrador de cuentas de su organización. Ellos podrán organizar una reunión con un consultor para ayudarle.
 
-El complemento `websiteBot` permite identificar dinámicamente si los visitantes de escritorio son bots. Puede utilizar estos datos para aumentar la buena precisión en todos los tipos de sistemas de informes, lo que le proporciona una mejor manera de medir el tráfico legítimo del sitio.
+El plug-in `websiteBot` permite identificar de forma dinámica si los visitantes de escritorio son bots. Puede utilizar estos datos para aumentar la precisión en todos los tipos de creación de informes, lo que le permite medir mejor el tráfico legítimo del sitio.
 
-Este complemento realiza dos comprobaciones:
+Este plug-in realiza dos comprobaciones:
 
-* En primer lugar, determina si el dispositivo es de escritorio o móvil mediante la variable `navigator.UserAgent`. Los dispositivos móviles se omiten.
+* En primer lugar, determina si el dispositivo es de escritorio o de dispositivo móvil mediante la variable `navigator.UserAgent`. Los dispositivos móviles se ignoran.
 * Si es un dispositivo de escritorio, agrega un detector de evento para el movimiento del ratón.
 
-Si el agente de usuario está en un escritorio y no se detecta ningún movimiento del ratón, el complemento establece la variable `websiteBot` en `true`. Si el agente de usuario es un dispositivo móvil, o si se detecta movimiento del ratón, el complemento establece la variable `websiteBot` en `false`.
+Si el agente de usuario está en un escritorio y no se detecta ningún movimiento de ratón, el plug-in establece la variable `websiteBot` en `true`. Si el agente de usuario es un dispositivo móvil, o si se detecta movimiento de ratón, el plug-in establece la variable `websiteBot` en `false`.
 
 ## Requisitos previos
 
-Adobe recomienda lo siguiente antes de utilizar este complemento:
+Adobe recomienda lo siguiente antes de utilizar este plug-in:
 
-* **Configuración** de eVar: Configure un eVar en  [Variables de ](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) conversión en la configuración del grupo de informes. Establezca la caducidad en **&quot;Visitante&quot;** y la asignación en **&quot;Valor original (primero)&quot;**.
-* **Recopilar agente de usuario en una variable** independiente: Recopile la cadena del agente de usuario en una variable independiente para monitorear la eficacia de este complemento. Establezca un eVar en `navigator.UserAgent` en cada visita para recopilar estos datos.
+* **Configuración de eVar**: configure un eVar en [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) en la configuración del grupo de informes. Establezca la caducidad en **Visitante** y la asignación en **Valor original (primero)**.
+* **Recopilar agente de usuario en una variable independiente**: recopile la cadena del agente de usuario en una variable independiente para supervisar la eficacia de este plug-in. Establezca un eVar en `navigator.UserAgent` en cada visita para recopilar estos datos.
 
 ## Instalación del complemento con el editor de código personalizado de Launch
 
@@ -54,7 +54,7 @@ websiteBot=true;if(!/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|bla
 
 ## Uso del complemento
 
-La variable `websiteBot` es booleana. Devuelve `true` si el complemento detecta un bot; de lo contrario, devuelve `false`.
+La variable `websiteBot` es booleana. Devuelve `true` si el plug-in detecta un bot; de lo contrario, devuelve `false`.
 
 ## Ejemplos
 
