@@ -1,9 +1,9 @@
 ---
 title: Parámetros de consulta de recopilación de datos
 description: Enumera todos los parámetros de cadena de consulta utilizados en solicitudes de imagen.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `c` | Ninguna | Calidad de color (en bits). Se utiliza en la dimensión [Profundidad de color](/help/components/dimensions/color-depth.md). |
 | `c.` | [`contextData`](../vars/page-vars/contextdata.md) | Indica el inicio de las variables de datos de contexto. Nunca contiene un valor. |
 | `.c` | [`contextData`](../vars/page-vars/contextdata.md) | Indica el final de las variables de datos de contexto. Nunca contiene un valor. |
-| `c1` - `c75` | [`prop1` -  `prop75`](../vars/page-vars/prop.md) | [Props](/help/components/dimensions/prop.md) o variables de tráfico personalizadas. |
+| `c1` - `c75` | [`prop1` - `prop75`](../vars/page-vars/prop.md) | [Props](/help/components/dimensions/prop.md) o variables de tráfico personalizadas. |
 | `cc` | [`currencyCode`](../vars/config-vars/currencycode.md) | El tipo de moneda usado en la visita. |
 | `cdp` | [`cookieDomainPeriods`](../vars/config-vars/cookiedomainperiods.md) | Número de puntos de un dominio. Se utiliza para ayudar a almacenar las cookies correctamente. |
 | `ce` | [`charSet`](../vars/config-vars/charset.md) | La codificación de caracteres de la solicitud de imagen. |
@@ -41,11 +41,11 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | Las direcciones URL superiores a 255 bytes se dividen. Los primeros 255 bytes aparecen en el parámetro `g` y todos los bytes restantes aparecen en el parámetro `-g`. |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | Abreviatura de la cadena de consulta `pageName`. |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | Abreviatura de la cadena de consulta `pageType`. |
-| `h1` -  `h5` | [`hier1` -  `hier5`](../vars/page-vars/hier.md) | Dimensiones de jerarquía. |
+| `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | Dimensiones de jerarquía. |
 | `hp` | Ninguna | Ya no se utiliza. En versiones anteriores de Adobe Analytics, se determinó si la dirección URL actual era la página principal del explorador. |
 | `j` | Ninguna | Versión de JavaScript instalada en el explorador. |
 | `k` | Ninguna | Utilizada en la dimensión [Compatibilidad con cookies](/help/components/dimensions/cookie-support.md). |
-| `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | Variables de lista. |
+| `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | Variables de lista. |
 | `mid` | Ninguna | ID de visitante de Experience Cloud. |
 | `ndh` | Ninguna | Marca que indica si la solicitud de imagen se originó en AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Ayuda a determinar dónde se configuran las cookies. |
@@ -74,7 +74,7 @@ En la tabla siguiente se muestran todos los parámetros de cadena de consulta qu
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | Marca de hora personalizada establecida con la visita. Se suele usar para el seguimiento sin conexión. |
 | `v` | Ninguna | Se utiliza en la dimensión [Java Enabled](/help/components/dimensions/java-enabled.md). |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimensión [Código de seguimiento](/help/components/dimensions/tracking-code.md). |
-| `v1` -  `v250` | [`evar1` -  `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) o dimensiones de conversión personalizadas. |
+| `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVars](/help/components/dimensions/evar.md) o dimensiones de conversión personalizadas. |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | Variable de ID de visitante. |
 | `vmk` | `vmk` | Ya no se utiliza. Clave de migración de Visitante, que ayudó a migrar las implementaciones de cookies de terceros a cookies de origen. |
 | `vvp` | `variableProvider` | Se utiliza en Data Connectors. |
