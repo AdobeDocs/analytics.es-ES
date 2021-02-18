@@ -1,11 +1,11 @@
 ---
 title: Vínculo personalizado
 description: Nombre del vínculo personalizado.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ La dimensión “Vínculo personalizado” indica los nombres de los vínculos p
 
 Esta dimensión recopila datos de la [`pev2` cadena de consulta ](/help/implement/validate/query-parameters.md) en solicitudes de imagen para visitas individuales que también tienen la cadena de consulta `pe` con el valor de `lnk_o`. Si la cadena de consulta `pe` tiene un valor diferente en la visita, esta dimensión no recopila datos.
 
-Si desea enviar datos a esta dimensión mediante AppMeasurement, envíe una solicitud de imagen [`tl()`](/help/implement/vars/functions/tl-method.md) con un argumento de tipo de vínculo `"o"`. Rellene el argumento del nombre del vínculo con el valor deseado.
+Si desea enviar datos a esta dimensión mediante AppMeasurement, envíe una solicitud de imagen [`tl()`](/help/implement/vars/functions/tl-method.md) con un argumento de tipo de vínculo de `"o"`. Rellene el argumento del nombre del vínculo con el valor deseado.
 
 ## Elementos de dimensión
 
