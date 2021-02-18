@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guía de herramientas de Analytics
 breadcrumb-title: Guía de herramientas
 user-guide-description: Proporciona instrucciones sobre procedimientos para Analysis Workspace, la herramienta de análisis y visualización más importante para Analytics, así como herramientas como Report Builder y Activity Map.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1099'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
       + Tabla de cohorte {#cohort-table}
          + [¿Qué es el análisis de cohorte?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurar un informe de análisis de cohorte](analysis-workspace/visualizations/cohort-table/t-cohort.md)
-         + [Casos de uso de análisis de cohorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
+         + Casos de uso de [análisis de cohorte](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abandono {#fallout}
          + [Resumen de abandonos](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurar una visualización de abandonos](analysis-workspace/visualizations/fallout/configuring-fallout.md)
