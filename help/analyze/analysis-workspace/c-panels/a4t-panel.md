@@ -2,10 +2,10 @@
 description: El panel Analytics for Target (A4T) le permite analizar las actividades y experiencias de Adobe Target en Analysis Workspace.
 title: Panel de Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
+source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 86%
+source-wordcount: '1072'
+ht-degree: 82%
 
 ---
 
@@ -50,7 +50,7 @@ Cada tabla improvisada muestra las siguientes columnas de métricas:
 | Alza (superior) | Representa el mejor alza que una experiencia de variante podría tener sobre el control, con un intervalo de confianza del 95 %.<br>Cálculo: consulte Alza (inferior). |
 | Confianza | La prueba T-test para estudiantes calcula el nivel de confianza, que indica la probabilidad de que los resultados se dupliquen si se vuelve a ejecutar la prueba. Se ha aplicado a la métrica un rango de formato condicional fijo del 75%/85%/95%. Este formato se puede personalizar, si es necesario, desde Configuración de columna. Nota: La confianza es una “métrica bloqueada” para las experiencias de Target; no se puede desglosar ni utilizar con otras dimensiones.<br>Cálculo: Aplique una prueba T de 2 colas con y+y_control-2 grados de libertad para encontrar el valor p, tanto si x/y es igual a x_control/y_control. Calcule el valor t, donde stderr es sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control). Devolver 1-p como la confianza de que son diferentes. |
 
-Como con cualquier panel de Analysis Workspace, puede continuar con el análisis agregando tablas y [visualizaciones](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) adicionales que le ayudarán a analizar sus actividades de Adobe Target.
+Como con cualquier panel de Analysis Workspace, puede continuar con el análisis agregando tablas y [visualizaciones](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) adicionales que le ayudarán a analizar sus actividades de Adobe Target. También puede aplicar un segmento en el nivel de panel o en la tabla improvisada. Tenga en cuenta que si lo agrega dentro de la tabla improvisada, debe superponerlo en toda la tabla para conservar los cálculos de alza y confianza. Los segmentos de nivel de columna no son compatibles en este momento.
 
 ## Preguntas frecuentes {#FAQ}
 
@@ -59,8 +59,8 @@ Como con cualquier panel de Analysis Workspace, puede continuar con el análisis
 | ¿Qué tipos de actividad se admiten en A4T? | [Obtenga más información](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) sobre los tipos de actividad admitidos. |
 | ¿Se admiten las métricas calculadas en los cálculos de alza y confianza? | No. [Obtenga más información](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre por qué las métricas calculadas no son compatibles con el alza y la confianza. Sin embargo, las métricas calculadas pueden utilizarse en sistemas de informes de A4T fuera de estas métricas. |
 | ¿Por qué los visitantes únicos varían entre Target y Analytics? | [Obtenga más información](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) sobre las variaciones de visitantes únicos entre productos. |
-| Cuando se aplica un segmento de visita para una actividad de Target específica en mi análisis, ¿por qué se devuelven experiencias no relacionadas? | La dimensión de A4T es una variable de lista, lo que significa que puede contener muchas actividades (y experiencias) a la vez. [Más información](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| ¿La métrica de confianza representa los pedidos extremos o aplica una corrección de Bonferroni para varias ofertas? | No. [Obtenga más información](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre cómo Analytics calcula la confianza. |
+| Cuando se aplica un segmento de visita para una actividad de Target específica en mi análisis, ¿por qué se devuelven experiencias no relacionadas? | La dimensión de A4T es una variable de lista, lo que significa que puede contener muchas actividades (y experiencias) a la vez. [Más información](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| ¿La métrica de confianza representa los pedidos extremos o aplica una corrección de Bonferroni para varias ofertas? | No. [Obtenga más información](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre cómo Analytics calcula la confianza. |
 | ¿Pueden utilizarse métricas de alza y confianza con otras dimensiones o desgloses? | El alza y la confianza son “métricas bloqueadas” a la dimensión de experiencias de Target, porque requieren un control y una variante para calcularlas. De este modo, no pueden desglosarse ni utilizarse con otras dimensiones. |
 | ¿Cuándo se vuelven a calcular el alza y la confianza? | El alza y la confianza se vuelven a calcular cada vez que se ejecuta (o se vuelve a ejecutar) el panel, el intervalo de fechas del panel cambia o se aplica un segmento al panel o la tabla. |
 
