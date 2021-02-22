@@ -2,10 +2,10 @@
 description: El panel Analytics for Target (A4T) le permite analizar las actividades y experiencias de Adobe Target en Analysis Workspace.
 title: Panel de Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
+source-git-commit: 6f86a45ae745df86f1f6fc924d995437b9992484
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 82%
+source-wordcount: '1103'
+ht-degree: 78%
 
 ---
 
@@ -62,6 +62,6 @@ Como con cualquier panel de Analysis Workspace, puede continuar con el análisis
 | Cuando se aplica un segmento de visita para una actividad de Target específica en mi análisis, ¿por qué se devuelven experiencias no relacionadas? | La dimensión de A4T es una variable de lista, lo que significa que puede contener muchas actividades (y experiencias) a la vez. [Más información](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | ¿La métrica de confianza representa los pedidos extremos o aplica una corrección de Bonferroni para varias ofertas? | No. [Obtenga más información](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) sobre cómo Analytics calcula la confianza. |
 | ¿Pueden utilizarse métricas de alza y confianza con otras dimensiones o desgloses? | El alza y la confianza son “métricas bloqueadas” a la dimensión de experiencias de Target, porque requieren un control y una variante para calcularlas. De este modo, no pueden desglosarse ni utilizarse con otras dimensiones. |
-| ¿Cuándo se vuelven a calcular el alza y la confianza? | El alza y la confianza se vuelven a calcular cada vez que se ejecuta (o se vuelve a ejecutar) el panel, el intervalo de fechas del panel cambia o se aplica un segmento al panel o la tabla. |
+| ¿Cuándo se vuelven a calcular el alza y la confianza? | El alza y la confianza se vuelven a calcular cada vez que se ejecuta el panel (o se vuelve a ejecutar), el intervalo de fechas del panel cambia o se aplica un segmento al panel o la tabla. Al aplicar un filtro de segmento a la tabla improvisada, debe aplicarse en todas las columnas o el alza y la confianza no se actualizará correctamente. Los segmentos de nivel de columna no son compatibles en este momento. |
 
 Para obtener más información sobre la creación de informes en Analytics for Target, consulte [Creación de informes de A4T](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/reporting.html)
