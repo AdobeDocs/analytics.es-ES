@@ -1,9 +1,11 @@
 ---
-description: La detección de anomalías de Analysis Workspace utiliza una serie de técnicas estadísticas avanzadas para determinar si una observación debe considerarse como anómala o no.
+description: Las inconsistencias de datos pueden causar grandes problemas. Aprenda a identificar anomalías estadísticas con técnicas de detección de anomalías a partir del Adobe. Empiece hoy mismo.
 title: Técnicas estadísticas utilizadas en la detección de anomalías
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 97%
 
 ---
 
