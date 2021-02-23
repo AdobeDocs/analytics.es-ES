@@ -1,9 +1,9 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '649'
-ht-degree: 98%
+source-wordcount: '647'
+ht-degree: 97%
 
 ---
 # Permisos de perfil de productos para las herramientas de grupos de informes
@@ -62,4 +62,4 @@ Utilice esta página para comprender cada elemento de permisos en Herramientas d
 | Informe breve de resumen de uso | No se usa. |
 | Recursos Web | No se usa. |
 | Social | No se usa. |
-| API de reparación de datos | Otorga acceso a la API de reparación de datos (versión futura) |
+| API de reparación de datos | Otorga acceso a la API de reparación de datos |
