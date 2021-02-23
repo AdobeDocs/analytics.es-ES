@@ -2,9 +2,9 @@
 title: 'Permisos de Adobe Analytics: tablas de resumen'
 description: Tablas que resumen los permisos de Adobe Analytics disponibles en Admin Console.
 translation-type: tm+mt
-source-git-commit: 5c300548b9677c7ffe21fa66b4b7c9859179ff8e
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1255'
 ht-degree: 94%
 
 ---
@@ -25,7 +25,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Costos | x |  |  |  | Concede acceso a Canales de marketing > Costes de canal de marketing, en el Administrador de grupos de informes. |
 | Calendario personalizado | x |  |  |  | Otorga acceso a General > Personalizar calendario en el Administrador de grupos de informes. |
 | Administrador de fuentes de datos | x |  |  |  | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. |
-| API de reparación de datos | x |  |  |  | Nuevo (en versión beta): otorga acceso a la API de reparación de datos |
+| API de reparación de datos | x |  |  |  | Otorga acceso a la API de reparación de datos |
 | Administrador de fuentes de datos | x |  |  |  | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
 | Medidas predeterminadas | x |  |  |  | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
 | Excluir por dirección IP | x |  |  |  | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
