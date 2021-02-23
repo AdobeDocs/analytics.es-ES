@@ -1,18 +1,18 @@
 ---
-title: Información general del Report Builder
-description: Utilice un complemento para traer datos de Adobe Analytics directamente a Microsoft Excel.
+title: Report Builder para Adobe Analytics
+description: Utilice Report Builder para traer datos de Adobe Analytics directamente a Microsoft Excel. Descubra cómo la instalación y el uso de Report Builder pueden impulsar su negocio.
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 68%
+source-wordcount: '134'
+ht-degree: 61%
 
 ---
 
 
-# Información general del Report Builder
+# ¿Qué es Report Builder?
 
-El Report Builder de  es un complemento para Microsoft Excel. Permite generar solicitudes personalizadas a partir de datos de sistema de informes y análisis, que se pueden insertar en hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos.
+El Creador de informes de Adobe es un complemento para Microsoft Excel. Permite generar solicitudes personalizadas a partir de datos de sistema de informes y análisis, que se pueden insertar en hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos.
 
 ## Temas de ayuda populares
 
