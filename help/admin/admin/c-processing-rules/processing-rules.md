@@ -5,7 +5,7 @@ title: Resumen de las reglas de procesamiento
 topic: Herramientas de administración
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
+source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
@@ -62,4 +62,4 @@ Las reglas de procesamiento pueden supervisar los valores entrantes para transfo
 
 Una vez que las variables de datos de contexto se definen en la implementación, se deben copiar en variables como las eVars para poder utilizarse en los informes.
 
-Consulte [Copia de una variable de datos de contexto en un eVar](processing-rules-examples/processing-rules-copy-context-data.md) y [Configuración de un evento mediante una variable de datos de contexto](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md) para obtener más información.
+Consulte [Copia de una variable de datos de contexto en un eVar](processing-rules-examples/processing-rules-copy-context-data.md) y [Configuración de un evento mediante una variable de datos de contexto](processing-rules-examples/processing-rules-copy-context-data-event.md) para obtener más información.
