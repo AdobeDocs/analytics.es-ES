@@ -1,9 +1,9 @@
 ---
 title: Tiempo empleado por visita
 description: Cantidad de tiempo empleado por visita para el elemento de la dimensión.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dc5c51f68ab22bd4f1368aa0656c66ee53d99103
+workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Esta métrica no está disponible en Data Warehouse debido a que su arquitectura
 
 ## Cálculo de esta métrica
 
-Esta métrica utiliza la fórmula [`Total seconds spent`](total-seconds-spent.md) `divided by` ([`Visits`](visits.md) `minus` [`Bounces`](bounces.md)).
+Esta métrica utiliza la fórmula [`[Total seconds spent]`](total-seconds-spent.md) `divided by (`[`[Visits]`](visits.md) `minus` [`[Bounces]`](bounces.md)`)`.
 
 ## Comparación con el Promedio de tiempo en el sitio
 
