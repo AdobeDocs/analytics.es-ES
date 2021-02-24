@@ -2,13 +2,13 @@
 description: Las reglas de procesamiento simplifican la recopilación de datos y administran el contenido a medida que se envía a los informes.
 subtopic: Processing rules
 title: Resumen de las reglas de procesamiento
-topic: Admin tools
+topic: Herramientas de administración
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 80%
+source-wordcount: '396'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,7 @@ Las reglas de procesamiento simplifican la recopilación de datos y administran 
 
 ## Permisos de reglas de procesamiento {#section_8A4846688050453784DAE4D89355169A}
 
-Administrators have rights to use processing rules **by default**. Además, pueden conceder este mismo derecho a los demás usuarios desde la interfaz de las Herramientas de administración. Para obtener instrucciones, consulte []
+Los administradores tienen derechos para usar reglas de procesamiento **de forma predeterminada**. Además, pueden conceder este mismo derecho a los demás usuarios desde la interfaz de las Herramientas de administración. Para obtener instrucciones, consulte []
 
 ![](assets/processing-rules.png)
 
@@ -40,16 +40,26 @@ Administrators have rights to use processing rules **by default**. Además, pued
 
 Las variables de datos de contexto son un tipo de variable que solo está disponible para las reglas de procesamiento. Para utilizar variables de datos de contexto, su implementación envía los pares de datos clave/valor, y se utilizan reglas de procesamiento para capturar estos valores en variables estándar de Analytics. Esto evita a los programadores tener que entender exactamente qué propiedad o eVar debería contener cada valor.
 
-![](assets/evar-context-map.png)
+```js
+s.contextData['author'] = "Robert Munch";
+s.contextData['section'] = "Books";
+s.contextData['genre'] = "Youth";
+```
 
-Consulte [Variables de datos de contexto](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/contextdata.html) en la ayuda de implementación.
+Una vez configurado el código, puede definir reglas de procesamiento para asignar valores a las variables. Por ejemplo:
 
-## Transformar datos de visitas y activar eventos con reglas de procesamiento {#section_8284E72E999244E091CD7FB1A22342B6}
+1. Asignar `author` a `eVar2`
+2. Asignar `section` a `prop1` y `eVar3`
+3. Si `author` y `section` existen, establezca `event5`
+
+Consulte [contextData](/help/implement/vars/page-vars/contextdata.md) en la guía del usuario de Implementación para obtener más información.
+
+## Transformar datos de visitas y activar eventos con reglas de procesamiento  {#section_8284E72E999244E091CD7FB1A22342B6}
 
 Las reglas de procesamiento pueden supervisar los valores entrantes para transformar errores tipográficos comunes y definir eventos según los datos de los informes. Las props se pueden copiar en eVars, los valores se pueden concatenar para los informes y se pueden definir eventos.
 
-## Uso de variables de datos de contexto en informes {#section_BD098BC503024A0B8703596628071134}
+## Uso de variables de datos de contexto en informes  {#section_BD098BC503024A0B8703596628071134}
 
 Una vez que las variables de datos de contexto se definen en la implementación, se deben copiar en variables como las eVars para poder utilizarse en los informes.
 
-Para obtener más información, vaya a [aquí](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) y [aquí](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md).
+Consulte [Copia de una variable de datos de contexto en un eVar](processing-rules-examples/processing-rules-copy-context-data.md) y [Configuración de un evento mediante una variable de datos de contexto](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md) para obtener más información.
