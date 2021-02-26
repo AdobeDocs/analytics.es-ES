@@ -1,12 +1,12 @@
 ---
 description: Describe un flujo de trabajo sugerido para los segmentos creados con el Generador de segmentos y administrados con el Administrador de segmentos.
 title: Resumen del flujo de trabajo de segmentación
-topic: Segments
+topic: Segmentos
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Consulte [Generación de segmentos secuenciales](/help/components/segmentation/s
 
 ![](assets/step3_icon.png) [ Etiquetar segmentos](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
-Etiquete segmentos para que sea más fácil organizar y compartir. El etiquetado sustituye las jerarquías de carpetas en los análisis específicos. Consulte cómo planificar y asignar etiquetas para la organización y las búsquedas simples y avanzadas.
+Etiquete segmentos para que sea más fácil organizar y compartir. Consulte cómo planificar y asignar etiquetas para la organización y las búsquedas simples y avanzadas.
 
 ![](assets/step4_icon.png) [ Aprobar segmentos](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 
