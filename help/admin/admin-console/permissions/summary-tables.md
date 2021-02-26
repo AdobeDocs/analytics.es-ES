@@ -2,21 +2,21 @@
 title: 'Permisos de Adobe Analytics: tablas de resumen'
 description: Tablas que resumen los permisos de Adobe Analytics disponibles en Admin Console.
 translation-type: tm+mt
-source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 94%
+source-wordcount: '1243'
+ht-degree: 98%
 
 ---
 
 
 # Permisos de Adobe Analytics: tablas de resumen
 
-Utilice las siguientes tablas de resumen para identificar los permisos de Adobe Analytics en el Admin Console, por grupos lógicos.
+Utilice las siguientes tablas de resumen para identificar los permisos de Adobe Analytics en Admin Console, por grupos lógicos.
 
 ## Herramientas de grupos de informes
 
-| Herramienta Grupo de informes | Administración | controles de acceso | Características solo de informes | Obsoleto | Descripción |
+| Herramienta de grupo de informes | Administración | Controles de acceso | Características solo de informes | Obsoleto | Descripción |
 | --- | --- | --- | --- | --- | --- |
 | Resumen de la cuenta | x |  |  |  | Otorga acceso a General > Configuración general de la cuenta en el Administrador de grupos de informes. |
 | Canales | x |  |  |  | Otorga acceso a los Canales de marketing, incluido el Administrador de canales de marketing, las Reglas de procesamiento de canal de marketing y la Caducidad de canal de marketing en el Administrador de grupos de informes. |
@@ -24,7 +24,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Variables de conversión | x |  |  |  | Otorga acceso a Conversión > Variables de conversión en el Administrador de grupos de informes. |
 | Costos | x |  |  |  | Concede acceso a Canales de marketing > Costes de canal de marketing, en el Administrador de grupos de informes. |
 | Calendario personalizado | x |  |  |  | Otorga acceso a General > Personalizar calendario en el Administrador de grupos de informes. |
-| Administrador de fuentes de datos | x |  |  |  | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. |
+| Administrador de feeds de datos | x |  |  |  | Otorga acceso a Administración > Feeds de datos en la navegación superior de Analytics.  |
 | API de reparación de datos | x |  |  |  | Otorga acceso a la API de reparación de datos |
 | Administrador de fuentes de datos | x |  |  |  | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
 | Medidas predeterminadas | x |  |  |  | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
@@ -72,7 +72,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 
 ## Herramientas de Analytics
 
-| Herramienta Analytics | Administración | controles de acceso | Características solo de informes | Obsoleto | Descripción |
+| Herramienta Analytics | Administración | Controles de acceso | Características solo de informes | Obsoleto | Descripción |
 | --- | --- | --- | --- | --- | --- |
 | Administrador de códigos | x |  |  |  | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en Adobe Experience Platform Launch. |
 | Administrador de códigos - Servicios Web | x |  |  |  | Otorga acceso al Administrador de códigos mediante la API 1.4. |
@@ -88,12 +88,12 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Asistencia | x |  |  |  | Otorga acceso a Administración > Configuraciones de la empresa > Información de asistencia. |
 | Administración del tráfico | x |  |  |  | Concede acceso a Administración > Administración de tráfico. |
 | Servicios Web | x |  |  |  | Otorga acceso a Administración > Configuraciones de la empresa > Servicios Web. |
-| Página de |  | x |  |  | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
-| Usuarios con licencias para Ad Hoc Analysis |  | x |  |  | Habilita el botón de descarga en Herramientas > Ad Hoc Analysis y permite al usuario autenticarse con la herramienta. [Más información](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Activity Map |  | x |  |  | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
+| Usuarios con licencias para Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis ha llegado al final de su vida útil. [Más información](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Acceso a Analysis Workspace |  | x |  |  | Disponen de acceso a Analysis Workspace. Los usuarios deben pertenecer a este grupo (opción preferida) o a Acceso a Reports &amp; Analytics para utilizar Adobe Analytics. |
 | Analysis Workspace: Guardar como plantilla |  | x |  |  | Otorga acceso a Proyecto > Guardar como plantilla en Analysis Workspace. |
 | Creación de métricas calculadas |  | x |  |  | Concede la capacidad de crear métricas calculadas en todas las capacidades de Analytics. |
-| Acceso a Labs |  | x |  |  | Otorga acceso a los laboratorios. |
+| Acceso a Labs |  | x |  |  | Otorga acceso a Labs. |
 | Report Builder |  | x |  |  | Habilita el botón de descarga en Herramientas > Report Builder, y permite al usuario autenticarse dentro de Microsoft Excel. |
 | Creación de segmentos |  | x |  |  | Concede la capacidad de crear y compartir segmentos en todas las funciones de Analytics. |
 | Publicación de segmentos |  | x |  |  | Concede la capacidad de convertir un segmento en una audiencia de Experience Cloud al crear o editar un segmento. |
