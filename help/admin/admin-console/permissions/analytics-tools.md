@@ -1,9 +1,9 @@
 ---
 source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '559'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 # Permisos de perfil de productos para las herramientas de Analytics
@@ -30,7 +30,7 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 | Preferencias | No se usa. |
 | Ocultar grupos de informes | Concede acceso a Administración > Configuración de la empresa > Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
 | Usuarios de licencias de Excel | No se usa. |
-| Página de | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
+| Activity Map | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
 | Datos actuales | Habilita la opción para ver los datos actuales en los informes de Reports &amp; Analytics. |
 | Usuarios con licencias para Ad Hoc Analysis | Habilita el botón de descarga en Herramientas > Ad Hoc Analysis y permite al usuario autenticarse con la herramienta. Consulte [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace). |
 | Administrador de aplicaciones móviles | No se usa. |
@@ -39,7 +39,7 @@ Los elementos de permiso de las herramientas de Analytics conceden acceso a las 
 | Acceso a Analysis Workspace | Disponen de acceso a Analysis Workspace. Los usuarios deben pertenecer a este grupo (opción preferida) o a Acceso a Reports &amp; Analytics para utilizar Adobe Analytics. |
 | Acceso a Reports &amp; Analytics | Concede acceso a Reports &amp; Analytics. Los usuarios deben pertenecer a este grupo o a Acceso a Analysis Workspace (opción preferida) para utilizar Adobe Analytics. |
 | Analysis Workspace: Guardar como plantilla | Otorga acceso a Proyecto > Guardar como plantilla en Analysis Workspace. |
-| Acceso a Labs | Brinde a los usuarios acceso a Labs y a los prototipos dentro de Labs. |
+| Acceso a Labs | Conceda a los usuarios acceso a Labs y a los prototipos dentro de Labs. |
 | Creación de métricas calculadas | Concede la capacidad de crear métricas calculadas en todas las capacidades de Analytics. |
 | Creación de segmentos | Concede la capacidad de crear y compartir segmentos en todas las funciones de Analytics. |
 | Administración de Advertising Analytics | No se usa. |
