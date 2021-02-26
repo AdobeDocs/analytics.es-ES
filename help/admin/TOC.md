@@ -5,10 +5,10 @@ user-guide-title: Guía de administración de Analytics
 breadcrumb-title: Guía de administración
 user-guide-description: Obtenga información sobre la administración de usuarios y productos en Experience Cloud Admin Console, la configuración de grupos de informes y mucho más.
 translation-type: tm+mt
-source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 96%
+source-wordcount: '727'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 96%
    + [Excluir por dirección IP](admin/exclude-ip.md)
    + [Métodos de búsqueda](admin/finding-methods.md)
    + [Configuración general de la cuenta](admin/general-acct-settings-admin.md)
-   + [Administración de grupos](admin/group.md)
    + [Filtros URL internos](admin/internal-url-filter-admin.md)
    + [Registros](admin/logs.md)
    + [Canales de marketing](admin/marketing-channels-admin.md)
@@ -112,8 +111,8 @@ ht-degree: 96%
    + [Analytics en Adobe Admin Console](admin-console/home.md)
    + Permisos {#permissions}
       + [Permisos de Analytics en Admin Console](admin-console/permissions/summary-tables.md)
-      + [Perfiles de producto para Adobe Analytics](admin-console/permissions/product-profile.md)
-      + [Permisos de perfil de productos para las herramientas de grupos de informes](admin-console/permissions/report-suite-tools.md)
+      + [Perfiles de productos para Adobe Analytics](admin-console/permissions/product-profile.md)
+      + [Permisos de perfil de productos para las herramientas de grupo de informes](admin-console/permissions/report-suite-tools.md)
       + [Permisos de perfil de productos para las herramientas de Analytics](admin-console/permissions/analytics-tools.md)
    + [Guía de administración inicial de Adobe Analytics](admin-console/first-admin-guide.md)
 + Configuración de la empresa {#company-settings}
@@ -164,7 +163,6 @@ ht-degree: 96%
          + [Migración de las cuentas de usuario de Analytics para Enterprise ID y Federated ID](user-management2/user-migration/migrate-enterprise.md)
          + [Desactivación de inicios de sesión heredados](user-management2/user-migration/t-disable-legacy-login.md)
          + [API afectadas por la migración](user-management2/user-migration/developer.md)
-      + [Administrar usuarios de Ad Hoc Analysis](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + Grupos de usuarios {#user-groups}
       + [Agregar un grupo de usuarios](user-management2/c-user-groups/t-user-group.md)
       + [Configuración de grupos de usuarios](user-management2/c-user-groups/groups.md)
