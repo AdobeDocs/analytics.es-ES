@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ El **[Report Builder](/help/analyze/report-builder/home.md)** debe usarse:
 * Si las opciones de diseño personalizadas del Workspace son limitadas (el Report Builder permite realizar cualquier personalización dentro de los límites de Excel).
 * Para vincular de forma temporal entradas de usuario o fuentes de datos sin conexión (impresiones, costo) con los datos de Adobe. Una solución más permanente para vincular datos son las Fuentes de datos (consulte Importación de datos en Analytics).
 * Para combinar datos de diferentes informes dimensionales (por ejemplo, un informe de impresiones de promociones unido a un informe de clic a conversión de promociones).
-* Combinar datos de diferentes grupos de informes, ya sea sumando datos o mostrándolos en la misma tabla en paralelo.
+* Combinar datos de diferentes grupos de informes, ya sea sumándolos o mostrándolos en la misma tabla uno al lado del otro.
 * Si desea usar la automatización mediante la programación (XLSX, XLSM, CSV, PDF, TXT, XML, MHT).
 
 **[El Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** debe usarse para:
