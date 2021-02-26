@@ -1,14 +1,14 @@
 ---
 description: Habilite permisos de usuario para elementos generales (facturación, registros, etc.), administración de la empresa, herramientas, acceso a servicios web, Report Builder e integración de Data Connectors.
-keywords: groups;permissions
+keywords: grupos;permisos
 subtopic: Users and groups
 title: Personalizar permisos para las herramientas de Analytics
-topic: Admin tools
+topic: Herramientas de administración
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '673'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,6 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | [Ocultar grupos de informes](/help/admin/company/c-hide-report-suites.md) | Concede permiso para ocultar grupos de informes en la interfaz de usuario de Adobe Analytics. |
 | **Herramientas** | Estas opciones otorgan acceso a las herramientas de Analytics (interfaces y aplicaciones), así como a funciones avanzadas, como segmentación y métricas calculadas. |
 | [Datos actuales](https://docs.adobe.com/content/help/es-ES/analytics/analyze/reports-analytics/current-data.html) | Concede permiso para usar la función Datos actuales en la generación de informes. |
-| Usuarios con licencias para [Ad Hoc Analysis](https://docs.adobe.com/content/help/es-ES/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | Otorga permiso para acceder a [!UICONTROL Ad Hoc Analysis]. |
 | Acceso a Servicio Web | Permite a los usuarios que no son administradores acceder a Servicios Web. Genera credenciales para Servicios Web. |
 | [Report Builder](https://docs.adobe.com/content/help/es-ES/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Otorga a los miembros de este grupo acceso a licencias para el [!UICONTROL Report Builder]. |
 | Acceso a [Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/home.html) | Concede a los usuarios acceso a Analysis Workspace, la interfaz de generación de informes recomendada para [!DNL Adobe Analytics]. |
