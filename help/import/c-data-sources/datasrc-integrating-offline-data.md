@@ -2,13 +2,13 @@
 description: Las fuentes de datos ofrecen otros dos modos de integrar eventos sin conexión en sus datos en línea.
 subtopic: Data sources
 title: Integración de transacciones y clientes
-topic: Developer and implementation
+topic: Desarrollador e implementación
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: ht
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 84%
 
 ---
 
@@ -64,8 +64,6 @@ Para registrar el estado de un visitante en determinado momento se usan ID de tr
 
 Cuando el cliente se desconecta, a menudo se convierte en un cliente anónimo.
 
-Los eventos del ID de transacción no se incluyen en las métricas de participación de visitas (las que se muestran en los informes de marketing), sino que se incluyen en las métricas de participación de visitantes (solo disponibles en los análisis específicos).
-
-Esto se debe a que los datos del ID de transacción no están asociados a una visita (porque el evento sin conexión no suele formar parte del evento sin conexión), sino al visitante.
+Los eventos de ID de transacción no se incluyen en las métricas de participación de visitas (las que se muestran en los informes de marketing). Esto se debe a que los datos de ID de transacción no están asociados con una visita (porque el evento sin conexión no suele formar parte del evento en línea), pero sí con el visitante.
 
 Consulte [ID de transacción](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
