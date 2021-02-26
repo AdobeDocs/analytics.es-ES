@@ -5,9 +5,9 @@ user-guide-title: Guía de exportación de Analytics
 breadcrumb-title: Guía de exportación
 user-guide-description: Utilice las fuentes de datos para recibir una exportación diaria o por hora de datos sin procesar. Utilice Data Warehouse para recuperar un extracto de datos en una hoja de cálculo.
 translation-type: tm+mt
-source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '278'
 ht-degree: 98%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 98%
       + [Fuentes de datos](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [Archivo de fuentes de datos](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-      + [Informes entregados por Ad Hoc Analysis](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Informes entregados por Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Informes entregados por el Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [Participación de los servicios de ingeniería en FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
