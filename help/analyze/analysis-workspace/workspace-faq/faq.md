@@ -1,10 +1,10 @@
 ---
 description: Preguntas frecuentes sobre Workspace
 title: Preguntas frecuentes y resolución de problemas de Workspace
-translation-type: ht
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
-workflow-type: ht
-source-wordcount: '541'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 100%
 | ¿Analysis Workspace cambia los informes preconfigurados en Adobe Analytics? | No. Como es un entorno separado, no se producen cambios en sus informes existentes o preconfigurados en Adobe Analytics. Puede seguir empleando los informes estándar tanto de Reports &amp; Analytics como del Report Builder mediante Analysis Workspace. |
 | ¿Puedo usar Analysis Workspace para el Data Warehouse? | No se recomienda Analysis Workspace para exportación masiva de datos. Es un espacio de trabajo de visualización que crea proyectos de análisis con estilo de tablero. |
 | ¿Cómo puedo optimizar el rendimiento de Analysis Workspace? | Consulte [Optimización del rendimiento](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md). |
-| ¿En qué se parecen y diferencian las capacidades de Analysis Workspace y los Ad Hoc Analysis? | Consulte [Analysis Workspace comparado con los Ad Hoc Analysis](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md). |
 
 ## Resolución de problemas
 
