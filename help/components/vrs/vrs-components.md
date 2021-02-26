@@ -2,10 +2,10 @@
 description: Los grupos de informes virtuales se pueden revisar para que incluyan y excluyan componentes en Analysis Workspace.
 title: Revisión de componentes de grupo de informes virtuales
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: ht
-source-git-commit: 07aa9068e4500d11a80d1e340912b249156fd3b9
-workflow-type: ht
-source-wordcount: '422'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,6 @@ Para habilitar la revisión de componentes,
    >Si la personalización de componentes está habilitada, el grupo de informes virtuales **solo es accesible desde Analysis Workspace** y, por lo tanto, no lo es desde:
    >
    >* [!UICONTROL Reports &amp; Analytics]
-   >* [!UICONTROL Ad Hoc Analysis ]
    >* [!UICONTROL Data Warehouse]
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
@@ -71,6 +70,6 @@ Use grupos de componentes para realizar agregaciones masivas de componentes a su
 
 ![](assets/vrs-comp-grp.png)
 
-## Comportamiento de Workspace {#section_6C32F8B642804C0097FCB14E21028D4A}
+## Comportamiento de Workspace  {#section_6C32F8B642804C0097FCB14E21028D4A}
 
 Para obtener más información sobre la organización en Analysis Workspace, consulte [Organizar y compartir un proyecto](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/curate-share/curate.html).
