@@ -3,10 +3,10 @@ description: 'null'
 title: Resumen de flujos
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 93%
+source-wordcount: '204'
+ht-degree: 84%
 
 ---
 
@@ -23,9 +23,9 @@ Le permite:
 
 >[!NOTE]
 >
->Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace y Reports &amp; Analytics/Ad Hoc Analysis, consulte [La segmentación como base para Flujo y Abandonos](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+>Para obtener información sobre cómo pueden diferir los resultados de aplicar segmentos a Flujo entre Analysis Workspace e Informes y análisis, consulte [Segmentación como base para Flujo y Visitas en el orden previsto](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
-[Tutorial](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)de vídeo de visualización de flujo (4:56)
+[Tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html?lang=es-ES) de vídeo de visualización de flujo (4:56)
 
 ## Flujos interdimensionales {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
