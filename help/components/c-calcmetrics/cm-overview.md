@@ -1,13 +1,13 @@
 ---
 description: Las métricas calculadas y calculadas avanzadas (o derivadas) son métricas personalizadas que puede crear a partir de métricas existentes.
-keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
+keywords: Métricas calculadas, métricas derivadas y métricas calculadas avanzadas
 title: Métricas calculadas y calculadas avanzadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 
@@ -39,16 +39,11 @@ A continuación se muestra una comparación de las competencias de las métricas
 
 Puede
 
-* Crear métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Ad Hoc Analysis], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
+* Cree métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Informes y análisis], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
 * Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, [sin tener que cambiar la implementación](https://youtu.be/CuQTm9RaUpY). Éstas pueden verse en el historial, ya que se basan en segmentos.
 * Compartir métricas entre grupos de informes. Esto significa que todas las métricas de reciente creación se aplican a todos los grupos de informes en la misma empresa de inicio de sesión.
 * (Solo métricas calculadas avanzadas) Segmentar métricas. Por ejemplo, puede crear una métrica para “Visitantes nuevos”, con un recuento de personas de las cuales sea la primera sesión.
 * (Solo métricas calculadas avanzadas) Incorporar funciones estadísticas para ayudar a describir mejor los datos. Por ejemplo, puede contar el número de elementos de un informe o agregar el número de desviaciones estándar para cada elemento.
-* Utilice las métricas creadas en [!UICONTROL Ad Hoc Analysis] en otras herramientas de [!DNL Analytics] y viceversa.
-
-   >[!NOTE]
-   >
-   >Puede seguir creando métricas en Ad Hoc Analysis. Su interfaz de usuario del creador de métricas calculadas ahora es similar al nuevo creador de métricas.
 
 ## Limitaciones {#section_CB878B02451541D68A68B508D4DBD19A}
 
