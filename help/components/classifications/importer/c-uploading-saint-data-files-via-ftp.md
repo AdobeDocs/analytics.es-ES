@@ -2,13 +2,13 @@
 description: Instrucciones sobre cómo cargar archivos de datos a través de FTP.
 subtopic: Classifications
 title: Importación de FTP
-topic: Admin tools
+topic: Herramientas de administración
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 96%
+source-wordcount: '723'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ Después de realizar una carga inicial en un grupo de informes (de un informe o 
 
 Cada nuevo valor clave que cargue se restará a los únicos de esa variable para el mes.
 
-Si ha superado las únicas del mes, no verá los datos de clasificación correspondientes a los valores únicos superados en los informes. Puede ver esas clasificaciones en el almacén de datos o el Ad Hoc Analysis.
+Si ha superado las únicas del mes, no verá los datos de clasificación correspondientes a los valores únicos superados en los informes. Puede ver esas clasificaciones en Data Warehouse.
 
 >[!NOTE]
 >
