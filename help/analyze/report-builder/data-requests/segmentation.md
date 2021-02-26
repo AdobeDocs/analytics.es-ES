@@ -1,12 +1,12 @@
 ---
 description: Cómo añadir, editar, aplicar y filtrar los segmentos de Adobe Analytics en Report Builder.
 title: Administración de segmentos
-topic: Report builder
+topic: Creador de informes
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '919'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '918'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 
    ![](assets/seg_in_context.png)
 
-   Si desea información acerca de los contenedores, consulte la [Guía de segmentación](https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html).
+   Si desea información acerca de los contenedores, consulte la [Guía de segmentación](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html).
 
 1. Se iniciará la interfaz de usuario del creador de segmentos en Internet Explorer. La interfaz de usuario del creador de segmentos se iniciará con el contenedor y el filtro que haya especificado.
 1. Añada un nombre y una descripción al segmento y, a continuación, guárdelo.
@@ -53,7 +53,7 @@ Es posible que tenga combinaciones específicas de dimensiones de informe que de
 
 ## Buscar y aplicar segmentos {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-Cualquier segmento que se haya creado en Reports &amp; Analytics, Ad Hoc Analysis, Report Builder o el Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar (![](assets/refresh_icon.png)).
+Cualquier segmento que se haya creado en Reports &amp; Analytics, Report Builder o el Data Warehouse aparecerá en esta lista de segmentos. Para actualizar la lista, haga clic en el icono Actualizar (![](assets/refresh_icon.png)).
 
 Puede aplicar uno o varios segmentos a una solicitud determinada. Esto incluye segmentos secuenciales.
 
@@ -102,7 +102,7 @@ Añadir un control de segmento le permite conmutar segmentos dentro de un libro 
 
    ![](assets/seg_control2.png)
 
-## Actualizar la lista de segmentos {#section_22E4A86789444B4A998532396B476EFB}
+## Actualizar la lista de segmentos  {#section_22E4A86789444B4A998532396B476EFB}
 
 Siempre que añada un segmento nuevo o edite un segmento existente, debería hacer clic en el icono Actualizar (![](assets/refresh_icon.png)) para actualizar la lista almacenada en caché de segmentos.
 
