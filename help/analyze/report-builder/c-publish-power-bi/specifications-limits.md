@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Limitaciones al usar Report Builder y Microsoft Power BI.
 title: Limitaciones y especificaciones
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 98%
+source-wordcount: '624'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ Editar una solicitud de Report Builder tras su publicación en Power BI puede ca
    **Este es un ejemplo de cómo se produce un error de visualización:**
 
    1. En Report Builder, cree un libro con una solicitud, empleando para ello la dimensión Página y la métrica Vistas de página.
-   2. Programe esta solicitud para publicarla en Power BI.
+   2. Programe esta solicitud para que se publique en Power BI.
    3. En Power BI, cree una visualización para Página y Vistas de páginas.
    4. Ahora, edite el libro eliminando Vistas de páginas de la solicitud.
    5. Edite la programación del libro actualizado y vuelva a publicar la solicitud en Power BI.
