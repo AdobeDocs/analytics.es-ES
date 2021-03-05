@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Implemente la integración de ContactLab para utilizarla en Adobe Analytics.
 title: Implementación de la integración
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 97%
 
 ---
 
