@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Casos de uso para alertas inteligentes.
 title: 'Alertas inteligentes: Casos de uso'
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +25,7 @@ Update screenshots for better readability.
 
 ## Crear una alerta a partir de una selección de tabla {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting **[!UICONTROL Create Alert from Selection]**.
+En las tablas improvisadas, ahora puede crear alertas en contexto si hace clic con el botón derecho en una fila de la tabla y selecciona **[!UICONTROL Crear alerta a partir de la selección]**.
 
 ![](assets/alert_selection.png)
 
