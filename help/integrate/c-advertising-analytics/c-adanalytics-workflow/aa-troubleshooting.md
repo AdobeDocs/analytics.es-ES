@@ -1,9 +1,12 @@
 ---
-description: nulo
+description: Solucionar problemas y solucionar problemas relacionados con Advertising Analytics.
 title: Solucionar problemas de Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ## No veo mi grupo de informes en la sección Asignación {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-You are trying to [set up a new Advertising Account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) and you do not see your report suite listed in the **[!UICONTROL Select Report Suite]** drop-down list. Esto puede ocurrir por dos razones:
+Está intentando [configurar una cuenta publicitaria nueva](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) y no ve su grupo de informes en la lista desplegable **[!UICONTROL Seleccionar grupo de informes]**. Esto puede ocurrir por dos razones:
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
