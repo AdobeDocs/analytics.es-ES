@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Utilice el análisis de contribución para identificar anomalías estadísticas y correlaciones en los datos.
 title: Resumen de los análisis de contribución
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: ht
-source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: ht
-source-wordcount: '1146'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 99%
 
 ---
 
