@@ -1,14 +1,14 @@
 ---
-description: nulo
+description: Preguntas más frecuentes sobre el conector de datos DFA.
 keywords: DFA
 title: Preguntas frecuentes
-topic: Data connectors
+topic: Data Connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 99%
 
 ---
 
@@ -31,11 +31,11 @@ Por ejemplo, imaginemos que existe una integración en el Grupo de informes A co
 >
 >Los CSID no se usan en la versión 2.0 de la integración y por lo tanto no se aplica el proceso de negociación de CSID.
 
-## Estoy usando la versión 2.0 de la integración y las métricas de coste no están apareciendo para mis anuncios de DFA. ¿A qué podría deberse? {#section-805748111bbe4bbf918d6dbbb2641fff}
+## Estoy usando la versión 2.0 de la integración y las métricas de coste no están apareciendo para mis anuncios de DFA. ¿A qué podría deberse?  {#section-805748111bbe4bbf918d6dbbb2641fff}
 
 Las métricas de coste deben activarse desde el DFA de Google, y proporcionarse en la interfaz de DFA, así como también activarse en el asistente de Data Connectors. Lo primero que debe verificar es si ha asignado un evento de Analytics para Coste de medios de DFA y ha proporcionado un código de moneda. Si ha asignado el evento de Coste de medios y finaliza y guarda el asistente, el indicador omnitureCostData de DFA se activará en la API de DFA. Esto indicará a Google que las métricas deberían enviarse en el archivo por la noche. Puede comprobar nuevamente mediante la interfaz DFA que omnitureCostData está habilitado al mirar las propiedades en el Floodlight integrado. Finalmente, después de comprobar estos dos lugares, asegúrese de que los anuncios que forman parte del Floodlight integrado especifiquen estructuras de costes y datos de costes. Si no se proporcionan los datos de costes en la interfaz DFA, no aparecerán en Analytics.
 
-## ¿Por qué ciertos anuncios no muestran Impresiones o visualizaciones de DFA pero sí muestran clics y proporción de clics? {#section-39b2eeeefd7f43d1a373df0b987bacef}
+## ¿Por qué ciertos anuncios no muestran Impresiones o visualizaciones de DFA pero sí muestran clics y proporción de clics?  {#section-39b2eeeefd7f43d1a373df0b987bacef}
 
 Existen algunos anuncios que solo registran datos de clics, denominadas rastreadores de clics. Este tipo de anuncios no devuelven los datos de la última impresión cuando se realizó la consulta al servidor de Floodlight. Para verificar si un anuncio determinado es un rastreador de clics o si es un anuncio de clics solamente, póngase en contacto con su agencia de DFA o con su representante de Soporte técnico de Google.
 
