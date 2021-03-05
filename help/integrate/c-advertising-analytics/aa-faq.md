@@ -1,9 +1,12 @@
 ---
-description: nulo
+description: Preguntas más frecuentes sobre Advertising Analytics.
 title: Preguntas frecuentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '1411'
+ht-degree: 99%
 
 ---
 
@@ -108,7 +111,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>R: El ID de AMO registrará las métricas del motor de búsqueda: las impresiones, los costes, los clics, la posición media y la puntuación de calidad media. Si no hay clics, pero hay impresiones, los datos de impresión, posición y calidad se enviarán a Analytics. Normalmente, si no hay clics, tampoco hay costes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>P: ¿En qué nivel se capturan estos datos? <b>¿Una visita? ¿En el de la visita?</b> </p> </td> 
+   <td colname="col1"> <p>P: ¿En qué nivel se capturan estos datos? <b>¿Una visita? Visita individual?</b> </p> </td> 
    <td colname="col2"> <p>R: Las métricas del motor de búsqueda se capturan en el nivel de la visita y se conectan al ID de AMO, junto con sus clasificaciones. Son datos del nivel de resumen, y no están relacionados con los visitantes ni sus sesiones. Por este motivo, las métricas del motor de búsqueda solo se pueden usar en segmentos que estén dentro del ámbito del nivel de visita y se basan en el ID de AMO, o sus clasificaciones. </p> <p>El ID de AMO también se captura en la página de aterrizaje, en la visita de la página (que lo conecta al visitante y a su sesión), y se conserva en el sitio web para obtener crédito para otras métricas de Analytics hasta que caduque o un nuevo ID de AMO lo sobrescriba. Está totalmente incorporado al conjunto de datos como cualquier otro elemento eVar. </p> </td> 
   </tr> 
   <tr> 
@@ -126,7 +129,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Seguimiento automático frente al manual {#section_7437C4698A6D482EB7ED94A948390119}
+## Seguimiento automático frente al manual  {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
