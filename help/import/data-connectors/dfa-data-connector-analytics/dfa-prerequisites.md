@@ -1,11 +1,14 @@
 ---
-description: 'null'
+description: Requisitos previos para utilizar el conector de datos DFA con Adobe Analytics.
 keywords: DFA
 title: Requisitos previos
-topic: Data connectors
+topic: Data Connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 97%
 
 ---
 
