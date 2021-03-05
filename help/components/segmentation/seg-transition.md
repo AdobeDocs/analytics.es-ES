@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Preguntas más frecuentes sobre la segmentación.
 title: Preguntas frecuentes
 topic: Segmentos
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2078'
 ht-degree: 97%
 
 ---
@@ -29,7 +29,7 @@ Responde preguntas frecuentes sobre las funciones de segmentación, acceso, perm
 * El [Generador de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) simplifica la creación de segmentos.
 * El nuevo [Administrador de segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) le permite configurar [flujos de trabajo](/help/components/segmentation/segmentation-workflow/seg-workflow.md) con funciones de uso compartido, etiquetado, verificación y aprobación de segmentos.
 * Ahora puede [etiquetar segmentos](/help/components/segmentation/segmentation-workflow/seg-workflow.md) para organizar y buscar más tarde en lugar de utilizar carpetas.
-* Puede crear [segmentos secuenciales](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+* Puede crear [Segmentos secuenciales](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 * El contenedor de vista de página se llama ahora “contenedor de visita individual” para indicar que el contenedor segmenta todos los tipos de datos, no solo vistas de página. Por ejemplo, si vincula las llamadas de seguimiento, el Contenedor de visita individual incluirá o excluirá las llamadas trackAction desde los SDK móviles. Tenga en cuenta que no se ha modificado la manera de funcionar del contenedor; simplemente se le ha cambiado el nombre.
 
 Consulte la publicación [Mejora de segmentación en Adobe Analytics](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/) en el blog de marketing digital para obtener más detalles.
@@ -90,7 +90,7 @@ Sí, todos los segmentos se pueden administrar en el Administrador de segmentos.
 
 Los administradores pueden ver todos los segmentos incluidos en las interfaces de usuario de Analysis Workspace y [!DNL Reports & Analytics].
 
-Report Builder solo muestra los segmentos creados por usted o los segmentos que se han compartido específicamente con usted.
+Report Builder solo muestra los segmentos creados por usted o los segmentos que han sido compartidos específicamente con usted.
 
 **¿Por qué no puedo eliminar este segmento?**
 
@@ -138,7 +138,7 @@ Tiene un marcador que hace referencia al segmento para el grupo de informes main
 
 **¿Qué les sucede a los segmentos del Data Warehouse?**
 
-Todos los segmentos del Data Warehouse seguirán funcionando en el Data Warehouse. La mayoría de los segmentos de Data Warehouse también funcionarán en otros componentes, como Analysis Workspace e Informes y análisis.
+Todos los segmentos del Data Warehouse seguirán funcionando en el Data Warehouse. La mayoría de los segmentos del Data Warehouse también seguirán funcionando en otros componentes, como Analysis Workspace e Reports &amp; Analytics.
 
 Puede crear o editar segmentos nuevos del Almacén de datos en el Generador/Data Warehouse. El mecanismo de compatibilidad del producto en el Generador de segmentos determina automáticamente si un segmento es compatible con el Data Warehouse.
 
