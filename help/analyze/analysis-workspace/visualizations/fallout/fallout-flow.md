@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: Utilice la visualización de abandonos en un proyecto de Workspace.
 title: Resumen de abandonos
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 84%
+source-wordcount: '502'
+ht-degree: 83%
 
 ---
 
@@ -33,11 +33,11 @@ La visualización de visitas en el orden previsto es útil para analizar:
 * Flujos de tráfico generales, con un alcance más amplio: entre las personas que visitaron la página principal, este flujo muestra cuántas fueron de allí a realizar una búsqueda y cuántas continuaron para ver un elemento específico.
 * Correlaciones entre los eventos del sitio. Las correlaciones muestran el porcentaje de personas que leyeron la política de privacidad y procedieron a realizar la compra de un producto.
 
-[Tutorial](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=es-ES)  de vídeo de visualización de visitas en el orden previsto (4:15)
+[Tutorial de vídeo de Visualización de abandonos](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=es-ES)  (4:15)
 
 ## La segmentación como base para Flujo y Abandonos {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Los segmentos aplicados a los paneles de Workspace funcionan de forma ligeramente distinta a los segmentos aplicados a los informes de visitas en el orden previsto y flujos en Informes y análisis. La mayoría de las veces ofrecen los mismos resultados. La diferencia principal es que Informes y análisis aplica el segmento en cada paso de la secuencia. Esto puede producir resultados ligeramente distintos.
+Los segmentos aplicados a los paneles de Workspace funcionan de forma ligeramente diferente a los segmentos aplicados a los informes de visitas en el orden previsto y flujos en Reports &amp; Analytics. La mayoría de las veces ofrecen los mismos resultados. La diferencia principal es que Reports &amp; Analytics aplica el segmento en cada paso de la secuencia. Esto puede producir resultados ligeramente distintos.
 
 Veamos un ejemplo de visitas en el orden previsto con dos pasos:
 
@@ -47,13 +47,13 @@ Si a continuación aplica un segmento en el nivel de panel de Workspace, el segm
 
 ![](assets/fallout_seg.png)
 
-Por el contrario, cuando Informes y análisis calcula el segmento, el segmento se combina de este modo:
+Por el contrario, cuando Reports &amp; Analytics calcula el segmento, este se combina de esta manera:
 
 ![](assets/fallout_segments3.png)
 
-Informes y análisis combina el segmento con cada paso. Cuando los contenedores se encuentran en el mismo nivel que las visitas en el orden previsto (p. ej., el nivel de visita o de visitante), el resultado es una coincidencia con el número de visitas o visitantes.
+Reports &amp; Analytics combina el segmento con cada paso. Cuando los contenedores se encuentran en el mismo nivel que las visitas en el orden previsto (p. ej., el nivel de visita o de visitante), el resultado es una coincidencia con el número de visitas o visitantes.
 
-Sin embargo, si el segmento aplicado al panel es menor que el nivel de las visitas en el orden previsto (p. ej., el nivel de visita individual), muestra resultados diferentes por el modo en que el informe lo combina. Para reiterar, en la mayoría de los casos, los números de Analysis Workspace coinciden con los de Informes y análisis. **No** coincidirán únicamente si se cumplen todas las condiciones siguientes:
+Sin embargo, si el segmento aplicado al panel es menor que el nivel de las visitas en el orden previsto (p. ej., el nivel de visita individual), muestra resultados diferentes por el modo en que el informe lo combina. Para reiterar, en la mayoría de los casos, los números de Analysis Workspace coinciden con los de Reports &amp; Analytics. **No** coincidirán únicamente si se cumplen todas las condiciones siguientes:
 
 * El segmento no está en el mismo nivel que los abandonos.
 * El segmento incluye una variable por la que el visitante/visita puede adoptar distintos valores durante una visita/visitante.
