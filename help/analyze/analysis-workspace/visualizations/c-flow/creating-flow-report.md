@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Utilice la visualización de flujo en un proyecto de Workspace.
 title: Configuración de una visualización de flujo
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 97%
 
 ---
 
@@ -32,12 +35,12 @@ El diagrama de flujo es interactivo. Pase el ratón por encima del diagrama para
 
 Las rutas del diagrama son proporcionales. Las rutas con más actividad se muestran más gruesas.
 
-Cuando hace clic en un nodo en el diagrama, se muestran los detalles de dicho nodo. Por ejemplo, si hace clic en **[!UICONTROL Search Results]** en la zona superior derecha, el diagrama se amplía y muestra más detalles sobre el nodo de resultados. Haga clic de nuevo en un nodo para contraerlo.
+Cuando hace clic en un nodo en el diagrama, se muestran los detalles de dicho nodo. Por ejemplo, si hace clic en **[!UICONTROL Resultado de la búsqueda]** en la zona superior derecha, el diagrama se amplía y muestra más detalles sobre el nodo de resultados. Haga clic de nuevo en un nodo para contraerlo.
 
 ![](assets/flow3.jpg)
 
-De forma predeterminada, el diagrama muestra los cinco flujos principales. Si hace clic en el nodo **[!UICONTROL More]** en la zona inferior del diagrama, el diagrama se amplía para mostrar cinco flujos más. Siga haciendo clic en **[!UICONTROL More]** para ampliar hasta que no queden flujos adicionales que mostrar.
+De forma predeterminada, el diagrama muestra los cinco flujos principales. Si hace clic en el nodo **[!UICONTROL Más]** en la zona inferior del diagrama, el diagrama se amplía para mostrar cinco flujos más. Siga haciendo clic en **[!UICONTROL Más]** para ampliar hasta que no queden flujos adicionales que mostrar.
 
 No existe limitación a la exploración dentro de un diagrama de flujo.
 
-También puede exportar y seguir analizando el diagrama de flujo como parte del archivo .CSV de un proyecto. Para ello, vaya a **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**.
+También puede exportar y seguir analizando el diagrama de flujo como parte del archivo .CSV de un proyecto. Para ello, vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Descargar CSV]**.
