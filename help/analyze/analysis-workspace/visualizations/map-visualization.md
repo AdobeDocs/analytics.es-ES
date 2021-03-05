@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: Utilice la visualización de mapas en un proyecto de Workspace.
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +25,7 @@ La visualización de mapas en Analysis Workspace
 
 ## Creación de una visualización de mapas {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
+1. En la lista de visualizaciones, arrastre **[!UICONTROL Mapa]** a un panel de forma libre:
 
    ![](assets/map-viz1.png)
 
@@ -37,12 +40,12 @@ La visualización de mapas en Analysis Workspace
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Dimensión geográfica</b> </p> </td> 
-   <td colname="col2"> <p>Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en País, Región y Ciudad. Tenga en cuenta que no se desciende al nivel del código postal. </p> <p>Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. </p> </td> 
+   <td colname="col2"> <p>Esta opción representa los datos de segmentación geográfica según la ubicación de los visitantes, en función de su dirección IP. Estos datos se transforman en País, Región y Ciudad. Tenga en cuenta que no se desciende al nivel del código postal ni DMA. </p> <p>Casi todos los grupos de informes tienen habilitada esta dimensión. Si no es así en su caso, póngase en contacto con el Servicio de atención al cliente de Adobe para habilitar los informes geográficos. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-1. Haga clic en **[!UICONTROL Build]**.
+1. Haga clic en **[!UICONTROL Generar]**.
 
    Lo recibirá la vista Mundo, con un mapa de burbujas similar a este.
 
