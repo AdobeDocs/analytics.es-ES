@@ -1,11 +1,11 @@
 ---
 title: Implementación con AMP
 description: Implementar Adobe Analytics en páginas de AMP.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Dado que Adobe Analytics utiliza una biblioteca JavaScript para compilar y envia
 
 ## Determinar qué método de implementación de Adobe Analytics en páginas que utilizan AMP
 
-Adobe ha creado dos métodos para implementar Adobe Analytics en páginas que utilizan AMP. Ambos utilizan la etiqueta HTML `<amp-analytics>`. Consulte [amp-analytics tag](https://amp.dev/documentation/components/amp-analytics) en la documentación de AMP para obtener más información.
+Adobe ha creado dos métodos para implementar Adobe Analytics en páginas que utilizan AMP. Ambos utilizan la etiqueta HTML `<amp-analytics>`. Consulte la [etiqueta amp-analytics](https://amp.dev/es/documentation/components/amp-analytics) en la documentación de AMP para obtener más información.
 
 * **Utilice la `"adobeanalytics"` plantilla de seguimiento**: Construya la solicitud de Analytics directamente en la página
 * **Utilice la `"analytics_nativeConfig"` plantilla de seguimiento**: Utilice un iframe que contenga el mismo código de AppMeasurement que implementa en el sitio normal
