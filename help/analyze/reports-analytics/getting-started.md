@@ -1,20 +1,20 @@
 ---
 description: Antes de usar Reports and Analytics, es necesario que entienda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
 title: Introducción a Reports and Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Introducción a Informes y análisis
+# Introducción a Reports &amp; Analytics
 
 Antes de usar Reports &amp; Analytics, es necesario que comprenda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
 
-Los informes ofrecen perspectivas de sus canales tradicionales basados en web y de los canales emergentes como móvil, vídeo y redes sociales. A continuación, mostramos algunos ejemplos de informes de 
+Los informes ofrecen perspectivas de sus canales tradicionales basados en web y de los canales emergentes como móvil, vídeo y redes sociales. A continuación, mostramos algunos ejemplos de informes de
 
 * La cantidad de personas que visitan el sitio
 * La cantidad de esos visitantes que son únicos (se cuentan solo una vez)
@@ -91,7 +91,7 @@ Todos los usuarios tienen acceso a la página [!UICONTROL Información de la cue
 | Tipo de información | Definición |
 | --- | --- |
 | Contacto | Especifique la siguiente información personal de su cuenta:<ul><li>Nombre (obligatorio)</li><li>Apellidos (obligatorio)</li><li>Título</li><li>Dirección de correo electrónico (obligatoria)</li><li>N.º de teléfono</li></ul> |
-| Inicio de sesión | Muestra el nombre de usuario de la cuenta y le permite cambiar la contraseña de la cuenta. Vea también: [Cómo restablecer la contraseña de la cuenta de Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en). |
+| Inicio de sesión | Muestra el nombre de usuario de la cuenta y le permite cambiar la contraseña de la cuenta. Vea también: [Cómo restablecer la contraseña de la cuenta de Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=es). |
 | Servicio web | Muestra el nombre de usuario de los servicios web y el secreto compartido asociado a esta cuenta. Utilice estas credenciales cuando acceda a Experience Cloud a través de las API de servicios web. Si desea más información, consulte Developer Connection. **Nota:** Esta información se muestra únicamente si la cuenta está autorizada como usuario de servicios Web. |
 | Excluir este equipo | Aplica una cookie al equipo actual para excluirlo de la recopilación de datos. Resulta útil si no desea que sus actividades en línea afecten a los recuentos de Vista de páginas y Visitantes de su dominio. **Nota:** Para usar esta función, su navegador debe tener habilitadas las cookies. Si elimina las cookies de su equipo, debe restablecer la cookie de exclusión. |
 
