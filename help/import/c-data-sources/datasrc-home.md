@@ -1,14 +1,11 @@
 ---
 description: Las fuentes de datos de Adobe Analytics le permiten importar manualmente datos sin conexión o en línea adicionales para incluirlos en informes.
-subtopic: Data sources
-title: Resumen de fuentes de datos
-topic: Developer and implementation
-uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '248'
-ht-degree: 100%
+title: ¿Qué son las fuentes de datos y cómo me benefician?
+translation-type: tm+mt
+source-git-commit: a653fe3ad1056d5a40217d1481e8d2c5c7f849b2
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 90%
 
 ---
 
@@ -39,4 +36,4 @@ Se pueden usar fuentes de datos para comprender mejor los datos preclic, al impo
 >
 >Para que las fuentes de datos de ID de transacción conecten datos sin conexión con eventos en línea, el Servicio de atención al cliente debe activar el registro de ID de transacción. Consulte el [registro de ID de transacción](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C) para obtener más información.
 
-Después de la importación, la mayor parte de los datos de las fuentes estará disponible en toda la Digital Marketing Suite.
+Después de la importación, la mayoría de los datos de las fuentes de datos están disponibles en Adobe Experience Cloud.
