@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
 source-wordcount: '1243'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Variables de conversión | x |  |  |  | Otorga acceso a Conversión > Variables de conversión en el Administrador de grupos de informes. |
 | Costos | x |  |  |  | Concede acceso a Canales de marketing > Costes de canal de marketing, en el Administrador de grupos de informes. |
 | Calendario personalizado | x |  |  |  | Otorga acceso a General > Personalizar calendario en el Administrador de grupos de informes. |
-| Administrador de feeds de datos | x |  |  |  | Otorga acceso a Administración > Feeds de datos en la navegación superior de Analytics.  |
+| Administrador de feeds de datos | x |  |  |  | Otorga acceso a Administración > Feeds de datos en la navegación superior de Analytics. |
 | API de reparación de datos | x |  |  |  | Otorga acceso a la API de reparación de datos |
 | Administrador de fuentes de datos | x |  |  |  | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
 | Medidas predeterminadas | x |  |  |  | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
