@@ -1,43 +1,74 @@
 ---
-description: Los grupos de informes resumidos acumulan datos de varios grupos de informes secundarios y los muestran en un conjunto de datos resumido.
-title: Grupos de informes globales y resumidos
+description: Descripción de los tipos de grupos de informes y comparación de los grupos de informes globales y los grupos de informes resumidos.
+title: Enfoques de los grupos de informes
+topic: Herramientas de administración
+uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+source-git-commit: 9bc2e0425fa99efb32561ad1f80605e078eb7650
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 98%
+source-wordcount: '975'
+ht-degree: 27%
 
 ---
 
 
-# Grupos de informes globales y resumidos
+# Enfoques de los grupos de informes
 
-Los grupos de informes resumidos acumulan datos de varios grupos de informes secundarios y los muestran en un conjunto de datos resumido. Proporcionan un lugar conveniente para ver los totales resumidos, como vistas de página, ingresos u otras dimensiones básicas. Los resúmenes se utilizan frecuentemente porque no requieren ninguna implementación adicional.
+<!-- change filename since page name changed? -->
 
-## Definiciones de los tipos de grupos de informes
+Puede configurar los grupos de informes como *grupos de informes globales* o *grupos de informes resumidos*.
 
-**Grupo de informes globales**: la implementación se modifica para enviar solicitudes de imagen de varios dominios a un único grupo de informes globales. Si las visitas también se envían a grupos de informes individuales, esta práctica se denomina etiquetado de grupos múltiples.
+## Grupos de informes globales
 
-**Grupo de informes resumidos**: se crea en las Herramientas de administración. Recibe la suma de cada métrica al final de cada día.
+Un grupo de informes globales recopila datos de todos los dominios y aplicaciones que posee su organización. Requiere implementación para enviar todas las solicitudes de imagen a un único grupo de informes.
 
-* Los resúmenes se pueden usar sin cargo adicional y no suponen un aumento de llamadas al servidor.
-* Los resúmenes proporcionan datos totales, pero no registran valores individuales en los informes. Por ejemplo, los valores de eVar1 no están incluidos, pero sí puede estar incluido su total agregado.
-* La duplicación de datos no se anula si se combinan datos de varios grupos de informes.
-* Los resúmenes se ejecutan todas las noches.
-* Al agregar un grupo de informes a un resumen existente, los datos históricos no se incluyen en el resumen.
-* Todos los grupos de informes secundarios deben contener datos para que el resumen funcione. Si se incluyen nuevos grupos de informes en un resumen, asegúrese de enviar al menos una vista de página a esos grupos de informes.
-* Los grupos de informes resumidos están limitados a un máximo de 40 grupos de informes secundarios.
-* Los grupos de informes resumidos están limitados a un máximo de 100 eventos.
-* Los datos contenidos en los grupos de informes resumidos no admiten desgloses ni segmentos.
+Adobe recomienda implementar un grupo de informes globales en la mayoría de los casos. Consulte &quot;[Consideraciones del grupo de informes globales](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/global-rs.html)&quot; para conocer las ventajas de implementar un grupo de informes globales.
+
+Puede proporcionar subconjuntos de los datos del grupo de informes globales de su empresa a distintos usuarios finales mediante los enfoques *etiquetado de grupos múltiples* y *grupo de informes virtuales*:
+
+* **Etiquetado de grupos múltiples**: El etiquetado de grupos múltiples le permite enviar solicitudes de imagen no solo a un grupo de informes globales, sino también a grupos de informes secundarios individuales. La duplicación de los datos del informe global se anula en todos los grupos de informes.
+
+   Por ejemplo, podría recopilar todos los datos de un grupo de informes globales y también configurar grupos de informes secundarios según la marca, la región u otro diferenciador. Los diferentes equipos de su empresa podrían entonces centrarse en los datos de los grupos de informes que les interesen.
+
+   Para utilizar el etiquetado de grupos múltiples, implemente grupos de informes secundarios y un grupo de informes globales que incluya todos los datos de los grupos secundarios. El código de seguimiento de sus páginas web y aplicaciones incluirá el ID del grupo de informes (RSID) para el grupo de informes globales y también los RSID para los grupos de informes secundarios aplicables.<!-- Wording/be more specific? And include any links? -->
+
+   Se realiza una llamada al servidor independiente a cada grupo de informes en la solicitud de imagen. Las llamadas a los grupos de informes secundarios son llamadas secundarias.
+
+* **Grupo de informes virtuales**: Un grupo de informes  [virtuales ](/help/components/vrs/vrs-about.md) es una consulta sobre segmentos específicos recopilados en un grupo de informes globales y disponibles para grupos específicos de usuarios. Los grupos de informes virtuales le permiten depurar elementos de informes para distintos usuarios finales sin utilizar el etiquetado de grupos múltiples, evitando así llamadas secundarias al servidor.
+
+   Para utilizar grupos de informes virtuales, implemente un grupo de informes globales y luego analice los datos para crear grupos de informes virtuales con segmentos específicos aplicados y con permisos de grupo específicos. Puede crear grupos de informes virtuales en el Administrador de grupos de informes virtuales ([!UICONTROL Componentes] > [!UICONTROL Grupos de informes virtuales]). Consulte &quot;[Flujo de trabajo del grupo de informes virtuales](/help/components/vrs/c-workflow-vrs/vrs-workflow.md)&quot; para obtener más información.
+
+El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltiples suele ser una práctica recomendada, pero los grupos de informes virtuales tienen algunas limitaciones. Consulte &quot;[Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples](/help/components/vrs/vrs-considerations.md)&quot; para determinar qué enfoque de grupo de informes es la mejor opción para sus necesidades comerciales. Para obtener una comparación detallada de los grupos de informes virtuales y la funcionalidad de etiquetado de grupos múltiples, consulte &quot;[Grupos de informes virtuales vs. Etiquetado multigrupo](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot;.
+
+## Informes de resumen
+
+>[!NOTE]
+>
+>[!DNL Reports & Analytics] es la única herramienta que admite informes resumidos y Adobe ya no recomienda el uso de resúmenes. Considere la posibilidad de utilizar un grupo de informes globales con etiquetado de grupos múltiples o grupos de informes virtuales.
+
+Un informe de resumen es una simple agregación de datos de varios grupos de informes, sin deduplicación ni desglose de datos o segmentos. Los resúmenes no requieren la implementación de código. Para utilizar informes resumidos, [implemente grupos de informes secundarios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) y luego [combínelos en un informe resumido](/help/admin/c-manage-report-suites/t-rollups.md) mediante [!UICONTROL Herramientas de administración].
+
+Los informes resumidos son gratuitos: los grupos de informes secundarios realizan sus propias llamadas al servidor, pero el resumen no realiza llamadas adicionales. Los resúmenes son una característica heredada y tienen muchas limitaciones.
+
+### Limitaciones de los informes resumidos {#limitations-rollups}
+
+* Los resúmenes proporcionan datos totales, pero no registran valores individuales en los informes. Por ejemplo, los valores de eVar1 no se incluyen, pero sí se puede incluir su total agregado.
+* La duplicación de datos no se anula cuando el resumen combina datos de varios grupos de informes.
+* Los resúmenes se ejecutan todas las noches a medianoche.
+* Cuando se agrega un grupo de informes a un resumen existente, los datos históricos no se incluyen en el resumen.
+* Todos los grupos de informes secundarios deben contener datos para que un resumen funcione. Si se incluyen nuevos grupos de informes en un resumen, asegúrese de enviar al menos una vista de página a cada uno de esos grupos de informes.
+* Los grupos de informes resumidos pueden incluir un máximo de 40 grupos de informes secundarios.
+* Los grupos de informes resumidos pueden incluir un máximo de 100 eventos.
+* Los datos contenidos en grupos de informes resumidos no admiten desgloses ni segmentos.
 * El informe de páginas se reemplaza por el informe de sitios más populares, que trata sobre las métricas en el nivel de grupo secundario.
 
-## Grupos de informes globales y resumidos
+## Comparación de las funciones del grupo de informes globales y del informe resumido
 
 **Llamadas secundarias al servidor**: los resúmenes no realizan llamadas adicionales al servidor más allá de lo que recopila un solo grupo de informes. Si su organización utiliza el etiquetado de grupos múltiples, se realizan llamadas secundarias al servidor para cada grupo de informes adicional incluido en una solicitud de imagen.
 
 >[!TIP]
 >
->Si solo utiliza un grupo de informes globales con [grupos de informes virtuales](../../components/vrs/vrs-considerations.md), no se necesitan llamadas secundarias al servidor.
+>Si solo utiliza un grupo de informes globales con [grupos de informes virtuales](/help/components/vrs/vrs-considerations.md), no se necesitan llamadas secundarias al servidor.
 
 **Cambios de implementación**: los resúmenes no requieren ningún cambio de implementación, mientras que los grupos de informes globales requieren que incluya el ID del grupo de informes global en la implementación.
 
@@ -45,7 +76,7 @@ Los grupos de informes resumidos acumulan datos de varios grupos de informes sec
 
 **Lapso de tiempo**: los grupos de informes resumidos solo se procesan cada medianoche, mientras que los globales registran datos con latencia estándar.
 
-**Espectro**: los grupos de informes resumidos no permiten la comunicación entre grupos de informes. Los grupos de informes globales pueden atribuir crédito a variables de conversión entre grupos de informes y ofrecer rutas entre los distintos grupos de informes.
+**Espectro**: los grupos de informes resumidos no permiten la comunicación entre grupos de informes. Los grupos de informes globales pueden atribuir crédito a variables de conversión entre grupos de informes y proporcionar rutas entre los distintos grupos de informes.
 
 **Datos históricos**: los grupos de informes resumidos pueden acumular datos históricos, mientras que los globales solo registran datos a partir del momento en que se implementan.
 
