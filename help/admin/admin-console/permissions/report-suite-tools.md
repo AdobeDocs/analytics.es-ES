@@ -1,12 +1,12 @@
 ---
 source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '647'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-# Permisos de perfil de productos para las herramientas de grupos de informes
+# Permisos de perfil de productos para las herramientas de grupo de informes
 
 Utilice esta página para comprender cada elemento de permisos en Herramientas de grupos de informes.
 
@@ -42,7 +42,7 @@ Utilice esta página para comprender cada elemento de permisos en Herramientas d
 | Informe en tiempo real | Otorga acceso a Métricas del sitio > Tiempo real en Reports &amp; Analytics. Utilice el elemento de permiso &#39;Configuración de informes en tiempo real&#39; para otorgar acceso a la configuración de este informe. |
 | Páginas de bots | Otorga acceso al informe Métricas del sitio > Bots > Páginas de bots en Reports &amp; Analytics. |
 | Bots | Concede acceso a Métricas del sitio > Bots > Informe de bots en Reports &amp; Analytics. |
-| Administrador de fuentes de datos | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. |
+| Administrador de feeds de datos | Otorga acceso a Administración > Feeds de datos en la navegación superior de Analytics. |
 | Informe del Data Warehouse personalizado | Otorga acceso a Herramientas > Data Warehouse en la navegación superior de Analytics. |
 | Visitas de retorno diario | Otorga acceso a Retención de visitantes > Visitas de retorno diario en Reports &amp; Analytics. |
 | Administrador de fuentes de datos | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
