@@ -1,95 +1,38 @@
 ---
 description: Descripción de los campos para el Administrador de tareas programadas.
 title: Administrador de tareas programadas
-topic: Report builder
+topic: Creador de informes
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 9edb2224b711cb41552488c8d73cbce1a9577a61
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 97%
 
 ---
 
 
 # Administrador de tareas programadas
 
-Descripción de los campos para el Administrador de tareas programadas.
-
 El Administrador de tareas programadas le permite ver una lista de los informes programados existentes, así como sus destinatarios, detalles de la programación y formato de los archivos. También le permite reactivar libros programados que no se ejecutaron debido a algún error.
 
-<table id="table_21B07A0B5F1D4435A4E882E45A7A6B6E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Campo </th> 
-   <th colname="col2" class="entry"> Descripción </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Ficha <b>Informes programados</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nombre del informe </p> </td> 
-   <td colname="col2"> <p>Indica el nombre de la tarea programada. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Correo electrónico/FTP </p> </td> 
-   <td colname="col2"> <p>Dirección de correo electrónico o FTP del destinatario. </p> <p>Nota: Si el correo electrónico está seleccionado, los informes que tengan un tamaño mayor que 1 MB se adjuntan directamente al correo electrónico como un archivo .zip. Esta función no se puede desactivar y ayuda a que el tamaño de archivo siempre sea reducido. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Opciones de publicación </p> </td> 
-   <td colname="col2"> <p>Esta columna indicará Power BI si alguna de las <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  > opciones de publicación de Power BI</a> está seleccionada. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Programa </p> </td> 
-   <td colname="col2"> <p>Tipo de envío programado. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Formato del archivo </p> </td> 
-   <td colname="col2"> <p> Formato de envío del informe como, por ejemplo, Excel, PDF, HTML, etc. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Reactivar </p> </td> 
-   <td colname="col2"> <p>Cuando un libro programado no puede ejecutarse, Report Builder intenta ejecutar el libro dos veces más cada quince minutos. Tras tres intentos fallidos, Report Builder desactiva la programación y muestra el botón <span class="wintitle">Reactivar</span>. Cuando se reactiva un libro, el envío programado se reinicia desde el momento en que se desactivó. </p> <p>Por ejemplo, si un libro programado se desactivó hace 14 días y se ha reactivado hoy, se ejecuta por cada día que falte y se enviará 14 veces. Si no desea que el libro se envíe los días que faltan, puede eliminar el libro programado y posteriormente crear un nuevo libro utilizando los mismos parámetros de programación. </p> <p> <p>Nota: No se debe reactivar un libro a no ser que se conozcan los motivos por el que el sistema lo desactivó. Una solución al problema consiste en descargar un libro desactivado y actualizarlo en el cliente. Si no aparecen errores, debería poder reactivarlo. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Enviado por última vez </p> </td> 
-   <td colname="col2"> <p>La fecha y la hora en que se envió el informe por última vez. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ficha <b>Destinatario</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Correo electrónico del destinatario </p> </td> 
-   <td colname="col2"> Destinatario de correo electrónico del informe. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Informes </p> </td> 
-   <td colname="col2"> El informe o informes enviados a cada destinatario. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ficha <b>Historial de informes</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nombre del archivo </p> </td> 
-   <td colname="col2"> Indica el nombre de la tarea programada. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Fecha </p> </td> 
-   <td colname="col2"> La fecha y la hora en que se envió el informe por última vez. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Estado </p> </td> 
-   <td colname="col2"> El estado indica si el informe está Enviado o No enviado. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Correo electrónico/FTP </p> </td> 
-   <td colname="col2"> La dirección de correo electrónico o FTP del destinatario del informe. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Formato del archivo </p> </td> 
-   <td colname="col2"> Formato de envío del informe como, por ejemplo, Excel, PDF, HTML, etc. </td> 
-  </tr> 
- </tbody> 
-</table>
+| Campo | Descripción |
+| --- | --- |
+| Ficha **Informes programados** |  |
+| Nombre del informe | Indica el nombre de la tarea programada. |
+| Correo electrónico/FTP | Dirección de correo electrónico o FTP del destinatario. **Nota:** Si el correo electrónico está seleccionado, los informes que tengan un tamaño mayor que 1 MB se adjuntan directamente al correo electrónico como un archivo .zip. Esta función no se puede desactivar y ayuda a que el tamaño de archivo siempre sea reducido. |
+| Opciones de publicación | Esta columna indicará Power BI si alguna de las [opciones de publicación de Power BI](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html) está seleccionada. |
+| Programación | Tipo de envío programado. |
+| Formato del archivo | Formato de envío del informe como, por ejemplo, Excel, PDF, HTML, etc. |
+| Reactivar | Cuando un libro programado no puede ejecutarse, Report Builder intenta ejecutar el libro dos veces más cada quince minutos. Tras tres intentos fallidos, Report Builder desactiva la programación y muestra el botón Reactivar. Cuando se reactiva un libro, el envío programado se reinicia desde el momento en que se desactivó.  Por ejemplo, si un libro programado se desactivó hace 14 días y se ha reactivado hoy, se ejecuta por cada día que falte y se enviará 14 veces. Si no desea que el libro se envíe los días que faltan, puede eliminar el libro programado y posteriormente crear un nuevo libro utilizando los mismos parámetros de programación.   Nota: No se debe reactivar un libro a no ser que se conozcan los motivos por el que el sistema lo desactivó. Una solución al problema consiste en descargar un libro desactivado y actualizarlo en el cliente. Si no aparecen errores, debería poder reactivarlo. |
+| Enviado por última vez | La fecha y la hora en que se envió el informe por última vez. |
+| Ficha **Destinatario** |  |
+| Correo electrónico del destinatario | Destinatario de correo electrónico del informe. |
+| Informes | El informe o informes enviados a cada destinatario. |
+| Ficha **Historial de informes** |  |
+| Nombre del archivo | Indica el nombre de la tarea programada. |
+| Fecha | La fecha y la hora en que se envió el informe por última vez. |
+| Estado | El estado indica si el informe está Enviado o No enviado. |
+| Correo electrónico/FTP | La dirección de correo electrónico o FTP del destinatario del informe. |
+| Formato del archivo | Formato de envío del informe como, por ejemplo, Excel, PDF, HTML, etc. |
+
