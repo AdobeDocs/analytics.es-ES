@@ -1,11 +1,11 @@
 ---
-description: Las inconsistencias de datos pueden causar grandes problemas. Aprenda a identificar anomalías estadísticas con técnicas de detección de anomalías a partir del Adobe. Empiece hoy mismo.
+description: La incoherencia de los datos puede causar grandes problemas. Aprenda a identificar anomalías estadísticas con técnicas de detección de anomalías de Adobe. Empiece hoy mismo.
 title: Técnicas estadísticas utilizadas en la detección de anomalías
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ En función de la granularidad de fecha utilizada en el informe, se utilizan 3 t
 
 Para los informes de granularidad diaria, el algoritmo considera distintos factores importantes para ofrecer los resultados más precisos posibles. En primer lugar, el algoritmo determina qué tipo de modelo se aplica en función de los datos disponibles que seleccionamos entre uno de los dos casos: un modelo basado en series temporales o un modelo de detección de externos (llamado filtrado funcional).
 
-El modelo de selección de series temporales se basa en las siguientes combinaciones por tipo de error, tendencia o temporada (ETS) como se describe en [Hyndman et al. (2008)](https://www.springer.com/us/book/9783540719168). En concreto, el algoritmo prueba las siguientes combinaciones:
+El modelo de selección de series temporales se basa en las siguientes combinaciones por tipo de error, tendencia o temporada (ETS) como se describe en [Hyndman et al. (2008)](https://www.springer.com/es/book/9783540719168). En concreto, el algoritmo prueba las siguientes combinaciones:
 
 1. ANA (error acumulativo, sin tendencia, temporada acumulativa)
 1. AAA (error acumulativo, tendencia acumulativa, temporada acumulativa)
