@@ -1,16 +1,16 @@
 ---
 title: 'Métrica Vistas de página explicada | Adobe Analytics '
-description: Conozca cómo se ha desarrollado la métrica de vistas de página en Adobe Analytics y también comprenda la diferencia entre las vistas de página y las visitas.
-translation-type: tm+mt
+description: Conozca cómo se ha desarrollado la métrica de vistas de página en Adobe Analytics, y descubra la diferencia entre las vistas de página y las visitas.
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Información sobre Vistas de página con Adobe Analytics
+# Obtenga información acerca de Vistas de página con Adobe Analytics
 
 La métrica “Vistas de página” muestra el número de veces que un elemento de dimensión determinado se estableció o persistió en una página. Es una de las métricas más comunes y básicas de los informes.
 
