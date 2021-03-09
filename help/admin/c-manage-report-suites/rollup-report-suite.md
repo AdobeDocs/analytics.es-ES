@@ -1,12 +1,10 @@
 ---
 description: Los grupos de informes resumidos acumulan datos de varios grupos de informes secundarios y los muestran en un conjunto de datos resumido.
 title: Grupos de informes globales y resumidos
-topic: Herramientas de administración
-uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 98%
 
 ---
@@ -53,6 +51,6 @@ Los grupos de informes resumidos acumulan datos de varios grupos de informes sec
 
 **Informes**: los grupos de informes globales ofrecen datos de todas las dimensiones, mientras que los resumidos ofrecen datos acumulados sobre los informes principales.
 
-**Productos compatibles**: los grupos de informes resumidos solo se pueden usar en Reports &amp; Analytics. No son compatibles con Analysis Workspace o Data Warehouse. Los grupos de informes globales se pueden utilizar en todos los productos.
+**Productos compatibles**: los grupos de informes resumidos solo se pueden usar en Reports &amp; Analytics. No son compatibles con Analysis Workspace ni Data Warehouse. Los grupos de informes globales se pueden utilizar en todos los productos.
 
 **Número de grupos de informes agregados**: los grupos de informes resumidos solo admiten un máximo de 40 grupos de informes secundarios. Los grupos de informes globales se pueden implementar en cualquier dominio o aplicación de su propiedad.
