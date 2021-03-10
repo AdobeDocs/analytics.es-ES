@@ -5,10 +5,10 @@ user-guide-title: Guía de importación de Analytics
 breadcrumb-title: Guía de importación
 user-guide-description: 'Incluya datos en Analytics desde fuentes externas, ya sea de forma masiva o en tiempo real. '
 translation-type: tm+mt
-source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
+source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 97%
+source-wordcount: '529'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 + [API de inserción de datos](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [Introducción a Data Connectors de Analytics](data-connectors/getting-started-data-connectors.md)
-   + [Fin de vida útil para los conectores de datos de Analytics](data-connectors/data-connectors-eol.md)
+   + [Finalización del servicio de Data Connectors de Analytics](data-connectors/data-connectors-eol.md)
    + Data Connectors de appFigures para Adobe Analytics {#appfigures}
       + [Información general de appFigures](data-connectors/appfigures-overview/appfigures-overview.md)
       + [Antes de activar esta integración](data-connectors/appfigures-overview/appfigures-before-activation.md)
@@ -71,6 +71,7 @@ ht-degree: 97%
       + [Dimensiones estándar de Demandbase](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Dimensiones personalizadas de Demandbase](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Data Connectors de DFA para Adobe Analytics {#dfa}
+      + [Información sobre el fin de vida útil de la integración de DFA](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Data Connectors de DFA para Adobe Analytics](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [Requisitos previos](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [Funciones de integración](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
@@ -129,4 +130,4 @@ ht-degree: 97%
       + [Integración de Silverpop](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Código de complemento de Analytics](data-connectors/silverpop-overview/silverpop-analytics-code.md)
 + Importar casos de uso {#use-cases}
-   + [Importar métricas de búsqueda paga con fuentes de datos](use-cases/paid-search-metrics.md)
+   + [Importar métricas de búsqueda de pago mediante fuentes de datos](use-cases/paid-search-metrics.md)
