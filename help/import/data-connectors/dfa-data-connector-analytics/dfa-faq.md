@@ -5,10 +5,10 @@ title: Preguntas frecuentes
 topic: Data Connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
@@ -47,6 +47,6 @@ En primer lugar, compruebe que el anuncio en cuestión tenga una dirección URL 
 
 En segundo lugar, compruebe que dispone de una integración que funciona siguiendo los pasos que se indican en [Confirmar una integración DFA correcta](../dfa-data-connector-analytics/dfa-integration.md). Si ve que hay código de seguimiento DFA que viene con la visita de Adobe en la página de aterrizaje, debería ver que ese clic viene en el informe de campañas DFA. Si no ve que esto suceda, verifique que los grupos de informes coincidan entre la variable de la página de aterrizaje *`s.account`* y el grupo de informes que se está viendo en Reports &amp; Analytics. Si coinciden, consulte los códigos de seguimiento en el informe de eVar de visualización que tengan un formato similar a DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX.
 
-Indican errores de la regla DFA VISTA para resumir los datos sin procesar de DFA. Este problema se puede remediar al abrir un ticket de soporte técnico con su Representante de cuentas de Adobe.
+Indican errores de la regla DFA VISTA para resumir los datos sin procesar de DFA. Este problema se puede solucionar abriendo un ticket de asistencia a través de su representante de cuentas de Adobe.
 
 Si ninguna de las soluciones anteriores explica el problema, consulte [Reconciliación de discrepancias de métricas](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md) para explorar otras posibilidades.
