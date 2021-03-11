@@ -1,11 +1,11 @@
 ---
 title: Vinculación basada en el campo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante la vinculación basada en el campo.
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,8 @@ Si tiene intención de implementar el análisis entre dispositivos mediante la v
 ## Limitaciones específicas de la vinculación basada en el campo
 
 * La vinculación basada en el campo funciona mejor en los grupos de informes que tienen una alta tasa de identificación del usuario. Si el grupo de informes tiene una tasa baja de identificación o inicio de sesión, considere la posibilidad de utilizar el [gráfico de cooperación](device-graph.md).
+* Aunque las props y las eVars tienen reglas para la administración de caracteres en mayúsculas y minúsculas con fines de creación de informes, la vinculación basada en el campo no transforma la propiedad o el eVar que se usa para la vinculación de ninguna manera. La vinculación basada en el campo utiliza el valor del campo especificado, ya que existe después de las reglas de VISTA y después de las reglas de procesamiento. Por ejemplo, si a veces la palabra &quot;Bob&quot; aparece en el prop/eVar y a veces aparece la palabra &quot;BOB&quot;, se tratarán como dos personas independientes.
 
 ## Pasos siguientes
 
-Una vez que su organización haya cumplido todos los requisitos y haya comprendido las limitaciones, puede empezar a [configurar análisis cruzados de dispositivos](setup.md).
+Una vez que su organización cumpla todos los requisitos y comprenda las limitaciones, puede iniciar [Configuración de análisis entre dispositivos](setup.md).
