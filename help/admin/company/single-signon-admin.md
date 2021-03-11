@@ -1,10 +1,11 @@
 ---
 description: El inicio de sesión único de Adobe Experience Cloud se implementa desde Admin Console.
 title: Inicio de sesión único
-topic: Admin tools
-uuid: 4f20dcfa-d148-42ec-9399-1c8d1720333e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: ae73165513fd8ba27fcf32d58e7f114bb43a5136
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 83%
 
 ---
 
@@ -13,4 +14,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 El inicio de sesión único de Adobe Experience Cloud se implementa desde Admin Console.
 
-Si necesita ayuda, consulte la [Guía del usuario para la administración](https://helpx.adobe.com/es/enterprise/managing/user-guide.html).
+Si necesita ayuda, consulte la [Guía del usuario para la administración](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html).
