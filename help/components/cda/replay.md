@@ -1,11 +1,11 @@
 ---
 title: Cómo funcionan las reproducciones
 description: Comprensión del concepto "reproducción" en Cross-Device Analytics
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 92%
 
 ---
 
@@ -51,23 +51,22 @@ Tanto las visitas no autenticadas como las autenticadas en los nuevos dispositiv
 
 ### Reproducción de la vinculación
 
-Aproximadamente, una vez a la semana, CDA vuelve a calcular los datos históricos en función de los dispositivos que ahora reconoce. Si un dispositivo envía inicialmente datos sin autenticarse y, luego, inicia sesión, CDA vincula esas visitas sin autenticar con la persona correcta. La siguiente tabla representa los mismos datos que arriba, pero muestra números diferentes basados en la reproducción de los datos.
+La reproducción se produce diaria o semanalmente, en función de cómo haya solicitado que se configure el CDA. Durante la reproducción, CDA intenta restablecer los datos históricos dentro de una ventana retrospectiva definida:
+
+* La reproducción diaria utiliza una ventana retrospectiva de 1 día
+* La reproducción semanal utiliza una ventana retrospectiva de 7 días.
+
+Si un dispositivo envía inicialmente datos sin autenticarse y, luego, inicia sesión, CDA vincula esas visitas sin autenticar con la persona correcta. La siguiente tabla representa los mismos datos que arriba, pero muestra números diferentes basados en la reproducción de los datos.
 
 *Los mismos datos después de la reproducción:*
 
 | Marca de tiempo | ECID | eVar1 o CustomerID | Explicación de la visita | Métrica de personas (acumulativa) mediante el gráfico de dispositivo | Métrica de personas (acumulativa) mediante vinculación basada en campos |
 | --- | --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob con su equipo de escritorio, sin autenticar | `1` (Cluster1) | `1` |
-| `2` | `246` | `Bob` | Bob inicia sesión en su equipo de escritorio | `1` (Cluster1) | `1` |
-| `3` | `3579` | - | Bob con su dispositivo móvil, sin autenticar | `1` (Cluster1) | `1` |
-| `4` | `3579` | `Bob` | Bob inicia sesión en su dispositivo móvil | `1` (Cluster1) | `1` |
-| `5` | `246` | - | Bob vuelve a visitar el sitio con su equipo de escritorio, sin autenticarse | `1` (Cluster1) | `1` |
-| `6` | `246` | `Bob` | Bob inicia sesión de nuevo con su equipo de escritorio | `1` (Cluster1) | `1` |
-| `7` | `3579` | - | Bob vuelve a acceder al sitio con su dispositivo móvil | `1` (Cluster1) | `1` |
-| `8` | `3579` | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `1` (Cluster1) | `1` |
-
-## Volver a poner
-
-* **Si se utiliza el gráfico de dispositivo**, los datos se vinculan cuando se publica un grupo (por lo general, de 3 horas a 2 semanas).
-* **Si se utiliza la vinculación basada en campos,** los datos de menos de una semana de antigüedad vinculan inmediatamente dispositivos conocidos, pero no vinculan inmediatamente dispositivos nuevos o no reconocidos.
-* Los datos se reproducen una vez a la semana y cambian los datos históricos en el grupo de informes virtual en función de los dispositivos que ha aprendido a identificar.
+| `2` | `246` | `Bob` | Bob inicia sesión en su equipo de escritorio | `1` (Cluster1) | `1` (Bob) |
+| `3` | `3579` | - | Bob con su dispositivo móvil, sin autenticar | `1` (Cluster1) | `1` (Bob) |
+| `4` | `3579` | `Bob` | Bob inicia sesión en su dispositivo móvil | `1` (Cluster1) | `1` (Bob) |
+| `5` | `246` | - | Bob vuelve a visitar el sitio con su equipo de escritorio, sin autenticarse | `1` (Cluster1) | `1` (Bob) |
+| `6` | `246` | `Bob` | Bob inicia sesión de nuevo con su equipo de escritorio | `1` (Cluster1) | `1` (Bob) |
+| `7` | `3579` | - | Bob vuelve a acceder al sitio con su dispositivo móvil | `1` (Cluster1) | `1` (Bob) |
+| `8` | `3579` | `Bob` | Bob inicia sesión a través de un dispositivo móvil | `1` (Cluster1) | `1` (Bob) |
