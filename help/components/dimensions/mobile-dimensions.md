@@ -1,24 +1,25 @@
 ---
 title: Dimensiones móviles
-description: Dimensiones basadas en la cadena de usuario-agente del dispositivo.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+description: Dimension basados en la dirección IP del dispositivo.
+translation-type: tm+mt
+source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+workflow-type: tm+mt
+source-wordcount: '882'
+ht-degree: 96%
 
 ---
 
 
 # Dimensiones móviles
 
-*Esta página hace referencia a las propiedades de los dispositivos móviles que tienen acceso al sitio web. Si desea realizar un seguimiento de los dispositivos en una aplicación móvil, consulte[Implementación de Analytics para dispositivos móviles](/help/implement/mobile-device-sdk.md)en la Guía del usuario de implementación.*
+*Esta página hace referencia a las propiedades de los dispositivos móviles que tienen acceso al sitio web. Si desea realizar un seguimiento de los dispositivos en una aplicación móvil, consulte [Implementación de Analytics para dispositivos móviles](/help/implement/mobile-device-sdk.md) en la Guía del usuario de implementación.*
 
 Las dimensiones móviles proporcionan una visión detallada de las propiedades de los dispositivos móviles que visitan el sitio. Puede utilizar estas dimensiones para comprender las funciones que admite un dispositivo móvil.
 
 ## Rellene estas dimensiones con datos
 
-Estas dimensiones hacen referencia a reglas de búsqueda internas de Adobe. El valor de búsqueda se basa en el encabezado HTTP `User-Agent` enviado con la visita. Adobe se asocia con [DeviceAtlas](https://deviceatlas.com/) para mantener búsquedas entre agentes de usuario y dimensiones móviles. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), todas las dimensiones móviles funcionarán de forma predeterminada.
+Estas dimensiones hacen referencia a reglas de búsqueda internas de Adobe. [!UICONTROL Las ] búsquedas de operadores de telefonía móvil están determinadas por la dirección IP, utilizando los datos que obtenemos de NetAcuity (un producto de elemento digital).
+Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), todas las dimensiones móviles funcionarán de forma predeterminada.
 
 ## Descripciones de dimensiones móviles
 
