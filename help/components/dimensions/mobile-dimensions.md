@@ -2,10 +2,10 @@
 title: Dimensiones móviles
 description: Dimension basados en la dirección IP del dispositivo.
 translation-type: tm+mt
-source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 96%
+source-wordcount: '891'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ Las dimensiones móviles proporcionan una visión detallada de las propiedades d
 
 ## Rellene estas dimensiones con datos
 
-Estas dimensiones hacen referencia a reglas de búsqueda internas de Adobe. [!UICONTROL Las ] búsquedas de operadores de telefonía móvil están determinadas por la dirección IP, utilizando los datos que obtenemos de NetAcuity (un producto de elemento digital).
+Estas dimensiones hacen referencia a reglas de búsqueda internas del Adobe. [!UICONTROL Las ] búsquedas de operadores de telefonía móvil están determinadas por la dirección IP, utilizando los datos que obtenemos de NetAcuity (un producto de elementos digitales).
 Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), todas las dimensiones móviles funcionarán de forma predeterminada.
 
 ## Descripciones de dimensiones móviles
@@ -28,7 +28,7 @@ Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experie
 >Los elementos de dimensión etiquetados como `"None"` son dispositivos no móviles. Si desea un informe que solo incluya dispositivos móviles, arrastre la dimensión “Dispositivo móvil” al área de segmentos del lienzo del espacio de trabajo.
 
 * **Compatibilidad con audio móvil**: Determina los formatos de archivo que puede reproducir el dispositivo. Los valores de ejemplo incluyen `"MP3"`, `"AAC"` y `"MIDI Monophonic"`. Los valores de esta dimensión no se excluyen mutuamente; una sola visita puede atribuirse a varios elementos de dimensión.
-* **Operador de telefonía móvil**: Si el agente de usuario contiene un dispositivo específico de un operador de telefonía móvil, el operador es un elemento de dimensión. Los valores de ejemplo incluyen `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` y `"Verizon"`.
+* **Operador de telefonía** móvil: Los valores de esta dimensión se rellenan buscando datos de terceros (elementos digitales) basados en las direcciones IP capturadas por Analytics. Los valores de ejemplo incluyen `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` y `"Verizon"`.
 * **Profundidad de color del dispositivo móvil**: Profundidad de color del dispositivo en bits.
 * **Compatibilidad con cookies móviles**: Determina si el dispositivo móvil admite cookies. Este informe no indica si el explorador acepta cookies. Los elementos de dimensión incluyen `"Supported"`, `"Not supported"` y `"Unknown"`.
 * **Dispositivo móvil**: El dispositivo móvil que utiliza el visitante.
