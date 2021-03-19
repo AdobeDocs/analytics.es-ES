@@ -2,11 +2,11 @@
 description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
-translation-type: ht
-source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
-workflow-type: ht
-source-wordcount: '8204'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+workflow-type: tm+mt
+source-wordcount: '8206'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Para acceder a las Notas de la versión de Adobe Experience Cloud en su conjunto
 
 | Función | Fecha objetivo | Descripción |
 | --- | --- | --- |
-| Selección de componentes | 4 de febrero de 2021 | El componente de la zona desplegable/de colocación que se encuentra en Quick Insights se ha añadido a todas las zonas de colocación de Workspace. Esta mejora le permite elegir de una lista desplegable de componentes compatibles o continuar utilizando el espacio como zona de colocación. |
+| Selección de componentes | 4 de febrero de 2021 | El componente de zona desplegable/desplegable que se encuentra en [!UICONTROL Quick Insights] se agregará a todas las zonas de colocación en [!UICONTROL Workspace]. Esta mejora le permite elegir de una lista desplegable de componentes compatibles o continuar utilizando el espacio como zona de colocación. |
 
 
 ## Enero de 2021
@@ -27,13 +27,13 @@ Para acceder a las Notas de la versión de Adobe Experience Cloud en su conjunto
 | Función | Fecha objetivo | Descripción |
 | --- | --- | --- |
 | URL de imagen | 14 de enero de 2021 | Puede añadir imágenes a proyectos de Workspace haciendo referencia a una URL de imagen pública. |
-| Administrador combinado de origen y configuración para visualizaciones | 14 de enero de 2021 | El administrador de fuentes de datos (punto) y el administrador de configuración (engranaje) para visualizaciones se han combinado en una sola ventana emergente, de modo que puede administrar fácilmente el origen y la configuración desde la misma ubicación. |
+| Administrador combinado de origen y configuración para visualizaciones | 14 de enero de 2021 | El administrador de [!UICONTROL fuentes de datos] (punto) y el administrador de configuración (engranaje) de las visualizaciones se han combinado en una sola ventana, de modo que pueda administrar fácilmente la fuente y la configuración desde la misma ubicación. |
 
 ## Octubre de 2020
 
 | Función | Descripción |
 | --- | --- |
-| Visualización de líneas: [opción de línea de tendencia promedio móvil](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=es-ES) | **[!UICONTROL El promedio móvil]** se ha agregado a la configuración de línea de tendencia de visualización de línea. Un promedio móvil utiliza una cantidad determinada de puntos de datos (definida por una selección de **[!UICONTROL Periodos]**), los promedia y utiliza el promedio como punto en la línea. |
+| Visualización de líneas: [opción de línea de tendencia promedio móvil](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=es-ES) | **[!UICONTROL El promedio móvil]**[!UICONTROL se ha agregado a la configuración de línea de tendencia de visualización de línea. ] Un promedio móvil utiliza una cantidad determinada de puntos de datos (definida por una selección de **[!UICONTROL Periodos]**), los promedia y utiliza el promedio como punto en la línea. |
 | [Página de ayuda de rendimiento](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=es-ES) | La página de ayuda de rendimiento de Analysis Workspace muestra los diferentes factores que afectan el rendimiento del proyecto y los vínculos a sugerencias para la optimización. |
 
 ## Septiembre de 2020
@@ -41,7 +41,7 @@ Para acceder a las Notas de la versión de Adobe Experience Cloud en su conjunto
 | Función | Descripción |
 | --- | --- |
 | [Descargar 50.000 elementos para una sola dimensión](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=es-ES#download-items) | Ahora puede descargar 50.000 elementos para una sola dimensión en una tabla improvisada, con segmentos y filtros aplicados. Esto le permite acceder a más de 400 filas de datos fuera de Analysis Workspace. |
-| [Mejoras en la visualización de Línea](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=es-ES) | <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de Línea. Esto puede resultar especialmente útil cuando las visualizaciones de Línea son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |
+| [Mejoras en la visualización de Línea](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>Puede mostrar u ocultar el eje X y el eje Y de cualquier visualización de [!UICONTROL Línea]. Esto puede resultar especialmente útil cuando las visualizaciones de [!UICONTROL Línea] son más compactas.</li><li>Puede superponer una etiqueta de valor mínimo y máximo en cualquier visualización de Línea para resaltar rápidamente los picos y los valores de una métrica.</li><li>Puede superponer distintas líneas de tendencia de regresión en cualquier visualización de Línea para ver con mayor facilidad la tendencia en los datos. Las opciones incluyen [!UICONTROL Lineal], [!UICONTROL Logarítmico], [!UICONTROL Exponencial], [!UICONTROL Potencia] y [!UICONTROL Cuadrático].</li></ul> |
 | Intervalos de fechas nuevos | Añadimos 5 nuevos intervalos de fechas para que pueda elegir entre intervalos de fechas que no incluyan datos de día parciales de hoy: últimos 7 días completos, últimos 14 días completos, últimos 30 días completos, últimos 60 días completos, últimos 90 días completos. |
 
 ## Agosto de 2020
@@ -66,7 +66,7 @@ Nuevas funciones lanzadas el 18 de junio de 2020.
 | Attribution IQ: Ventanas retroactivas personalizadas | Ahora puede configurar cualquier modelo de atribución en Attribution IQ para incluir puntos de contacto desde 90 días antes del período de creación de informes. Esto generalmente aumenta la precisión de atribución de eventos que se producen al principio del período de la creación de informes teniendo en cuenta las interacciones que se produjeron en el mes o meses anteriores. Disponible para los clientes de Adobe Analytics Foundation, Select, Prime, Premium, Premium Attribution, Premium Complete y Ultimate. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=es-ES#ventanas-retrospectivas) |
 | Funciones de proyecto para proyectos compartidos de Workspace | Al compartir un proyecto de Workspace, ahora puede colocar destinatarios en una de las tres funciones de proyecto, según la experiencia del proyecto que desee que tengan: Editar, Duplicado y Vista. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es-ES) |
 | Proyectos de Workspace solo de vista | Los proyectos de Workspace se pueden compartir con los usuarios solo como Puede ver. Cuando un destinatario de Vista abre el proyecto compartido, recibe una experiencia de proyecto más restrictiva sin carril izquierdo e interacciones limitadas. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=es-ES) |
-| Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=es-ES) |
+| Capacidad para editar proyectos de Workspace de forma conjunta | Los destinatarios añadidos a la función Puede editar pueden guardar un proyecto que se haya compartido con ellos. Esto se extiende tanto a los administradores como a los no administradores. [Más información...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | Panel en blanco actualizado | El panel en blanco ahora incluye paneles y visualizaciones, lo que le ofrece una forma más fluida de elegir el flujo de trabajo de análisis que mejor se adapte a sus necesidades. |
 | Panel de Quick Insights (25 de junio de 2020) | Quick Insights proporciona una guía a los no analistas y a los nuevos usuarios de Analysis Workspace para aprender a responder preguntas comerciales de forma rápida y sencilla. [Más información...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Panel Analytics for Target en Workspace (25 de junio de 2020) | El panel Analytics for Target (A4T) le permite analizar con confianza las actividades y experiencias de Adobe Target en Analysis Workspace. [Más información...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -1176,7 +1176,7 @@ Se ha agregado la zona de colocación **[!UICONTROL Colocar un segmento aquí]**
 
 Esta mejora es útil si prefiere crear segmentos directamente cuando trabaja en un proyecto en lugar de usar el panel [!UICONTROL Segmento] para ello.
 
-## Formato condicional {#section_5775B505D83041408B8C3EAEC5D7C32B}
+## Formato condicional  {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
 En la Configuración de columna, puede aplicar el formato condicional a los datos de la celda.
 
@@ -1210,13 +1210,13 @@ En la Configuración de columna, puede aplicar el formato condicional a los dato
  </tbody> 
 </table>
 
-## Vista previa de dimensión {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Vista previa de dimensión  {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 En el panel [!UICONTROL Dimensiones], puede colocar el cursor sobre el icono de información situado junto a una dimensión y obtener la vista previa de las cinco principales.
 
 ![](assets/dimension-preview.png)
 
-## Leyenda visible {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Leyenda visible  {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 En la [!UICONTROL Configuración de visualización], la opción **[!UICONTROL Leyenda visible]** muestra u oculta la leyenda de la visualización.
 
@@ -1234,11 +1234,11 @@ Dependiendo de los números de los gráficos de línea y de área, la parte infe
 
 ![](assets/anchor_Y_axis.png)
 
-## Nombre del proyecto en el título de la ficha {#section_497C61A030984BCCA2CEA553312C3226}
+## Nombre del proyecto en el título de la ficha  {#section_497C61A030984BCCA2CEA553312C3226}
 
 Al guardar un proyecto, el título de la ficha del navegador se mostrará como “`<Project Name>` - Analysis Workspace”. Esta mejora resulta útil si abre varios proyectos en varias fichas del navegador.
 
-## Transferir propiedad del proyecto {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Transferir propiedad del proyecto  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Los administradores pueden transferir proyectos de [!UICONTROL Analysis Workspace] de un usuario a otro.
 
