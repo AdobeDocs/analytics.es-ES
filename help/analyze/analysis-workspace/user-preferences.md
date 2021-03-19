@@ -2,10 +2,10 @@
 title: Cómo establecer las preferencias de usuario en Analysis Workspace
 description: null
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 17%
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,7 @@ Las preferencias generales se aplican a la experiencia de Adobe Analytics en el 
 
 ## Preferencias de proyecto
 
-Las preferencias de proyecto se aplican a nuevos proyectos y paneles creados en Analysis Workspace. Las preferencias también se pueden administrar por proyecto en Workspace > Proyecto > Información y configuración del proyecto.
+Las preferencias de proyecto se aplican a nuevos proyectos y paneles creados en Analysis Workspace. Las preferencias también se pueden administrar por proyecto en [!UICONTROL Workspace] > [!UICONTROL Proyecto] > [!UICONTROL Info y configuración del proyecto].
 
 | Sección | Preferencia | Opciones |
 | --- | --- | --- |
