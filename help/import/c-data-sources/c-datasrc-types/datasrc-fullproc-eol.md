@@ -1,11 +1,11 @@
 ---
-title: null
-description: null
+title: Fin de vida útil para fuentes de datos de procesamiento completo
+description: Razones para finalizar la vida útil y comparaciones entre la API de inserción de datos en lote y las fuentes de datos de procesamiento completo.
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 14%
+source-wordcount: '732'
+ht-degree: 13%
 
 ---
 
