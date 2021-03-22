@@ -1,11 +1,11 @@
 ---
 title: getQueryParam
 description: Extraiga el valor de un parámetro de cadena de consulta de una dirección URL.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 03c3a954c40d17f11f4f80ee3a378fd43948cc5c
+workflow-type: tm+mt
+source-wordcount: '896'
+ht-degree: 98%
 
 ---
 
@@ -49,11 +49,8 @@ Si no desea utilizar la extensión del complemento, puede utilizar el editor de 
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getQueryParam v3.3 (Requires pt plug-in) */
-s.getQueryParam=function(qsp,de,url){var g=this,e="",k=function(b,de){de=de.split("?").join("&");de=de.split("#").join("&");var d=de.indexOf("&"),url="";b&&(-1<d||de.indexOf("=")>d)&&(d=de.substring(d+1),url=g.pt(d,"&","gpval",b));return url};qsp=qsp.split(",");var l=qsp.length;g.gpval=function(de,b){if(de){var d=de.split("="),url=d[0];d=d[1]?d[1]:!0;if(b.toLowerCase() ==url.toLowerCase())return"boolean"===typeof d?d:this.unescape(d)}return""};de=de?de:"";url=(url?url:g.pageURL?g.pageURL: location.href)+"";if((4<de.length||-1<de.indexOf("="))&&url&&4>url.length){var b=de;de=url;url=b}for(var h=0;h<l;h++)b=k(qsp[h],url) ,"string"===typeof b?(b=-1<b.indexOf("#")?b.substring(0,b.indexOf("#")):b,e+=e?de+b:b):e=""===e?b:e+(de+b);return e};
-
-/* Adobe Consulting Plugin: pt v2.01 */ 
-s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var e,c=0;c<de;c++)if(e=this[cf](l[c],fa))return e}};
+/* Adobe Consulting Plugin: getQueryParam v4.0 */
+function getQueryParam(b,c,d){function h(b,a){a=a.split("?").join("&");a=a.split("#").join("&");var c=a.indexOf("&");if(b&&(-1<c||a.indexOf("=")>c)){c=a.substring(c+1);c=c.split("&");for(var d=0,k=c.length;d<k;d++){var f=c[d].split("="),e=f[1];if(f[0].toLowerCase()===b.toLowerCase())return decodeURIComponent(e||!0)}}}if("-v"===b)return{plugin:"getQueryParam",version:"4.0"};var a=function(){if("undefined"!==typeof window.s_c_il)for(var a=0,b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof a&&(a.contextData.getQueryParam="4.0");if(b){c=c||"";d=(d||"undefined"!==typeof a&&a.pageURL||location.href)+"";(4<c.length||-1<c.indexOf("="))&&d&&4>d.length&&(a=c,c=d,d=a);a="";for(var g=b.split(","),l=g.length,e=0;e<l;e++)b=h(g[e],d),"string"===typeof b?(b=-1<b.indexOf("#")?b.substring(0,b.indexOf("#")):b,a+=a?c+b:b):a=""===a?b:a+(c+b);return a}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -187,6 +184,11 @@ s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 El valor de 300 se obtiene del valor del parámetro pos en la variable s.testURL
 
 ## Historial de versiones
+
+### 4.0 (19 de marzo de 2021)
+
+* Se ha añadido el número de versión como datos de contexto.
+* Se han eliminado las dependencias del complemento `pt`.
 
 ### 3.3 (24 de septiembre de 2019)
 
