@@ -1,11 +1,11 @@
 ---
 title: Cómo establecer las preferencias de usuario en Analysis Workspace
-description: null
+description: Puede establecer referencias de páginas de aterrizaje y proyectos en una ubicación central.
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 18%
+source-wordcount: '220'
+ht-degree: 17%
 
 ---
 
