@@ -3,11 +3,11 @@ description: Los segmentos le permiten identificar subconjuntos de visitantes ba
 title: Acerca de los segmentos y los contenedores
 topic: Segmentos
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3700'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Los segmentos le permiten identificar subconjuntos de visitantes basándose en s
 
 Los segmentos se basan en una jerarquía de niveles de [!UICONTROL visitante], [!UICONTROL visita] y [!UICONTROL visita individual] usando un modelo de contenedor anidado. Los contenedores anidados le permiten definir los atributos y las acciones del visitante basándose en las reglas entre los contenedores y dentro de ellos. Los segmentos de Analytics pueden generarse, aprobarse, compartirse, guardarse y ejecutarse en varios productos y capacidades en [!DNL Adobe Experience Cloud]. Los segmentos pueden generarse a partir de un informe, integrarse en un informe de panel o marcarse como favoritos para acceder rápidamente a ellos.
 
-Puede generar y guardar segmentos en el Generador de segmentos o generar segmentos a partir de un informe de visitas en el orden previsto (en  Analysis Workspace). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos pueden utilizarse juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
+Puede generar y guardar segmentos en el Generador de segmentos, o bien crearlos a partir de un informe de visitas en el orden previsto (en  Analysis Workspace). También puede utilizar y ampliar segmentos pregenerados basados en reglas específicas entre contenedores anidados, lo que le permite filtrar los resultados y aplicarlos a informes. Además, los segmentos pueden utilizarse juntos como [segmentos apilados](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
 ## Segmentos {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -60,7 +60,7 @@ Un segmento secuencial filtra conjuntos de datos en función de las acciones del
 
 ## Vídeo explicativo {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-Este vídeo ofrece una breve descripción general de los contenedores de segmento y de cómo utilizarlos: [Contenedores de segmentos en Adobe Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+En este vídeo se proporciona una breve descripción sobre qué son los contenedores de segmento y cómo se utilizan: [Contenedores de segmento en Adobe Analytics](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## Acerca de los contenedores {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
