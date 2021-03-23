@@ -2,9 +2,9 @@
 description: El procesamiento de intervalo de tiempo es una configuración de los grupos de informes virtuales que permite procesar los datos de una forma retroactiva y no destructiva.
 title: Procesamiento de tiempo de los informes
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1423'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Además, Procesamiento de intervalo de tiempo solo procesa los datos que se prod
 
 A continuación se ofrece una lista de métricas y dimensiones que en este momento no son compatibles con Procesamiento de intervalo de tiempo:
 
-* **Analytics para Target:** Actualmente no es compatible. Está prevista la compatibilidad futura.
+* **Analytics for Target:** Actualmente no es compatible. Está prevista la compatibilidad futura.
 * **Métricas y dimensiones reservadas de Analytics para Advertising Cloud:** Actualmente no es compatible. Está prevista la compatibilidad futura.
 * **Métrica de acceso único:** No es compatible de forma permanente.
 * **Variables de lista:** Actualmente no es compatible. Está prevista la compatibilidad futura.
