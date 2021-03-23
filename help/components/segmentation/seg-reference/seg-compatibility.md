@@ -3,11 +3,11 @@ description: No todos los segmentos creados en el Generador de segmentos son com
 title: Compatibilidad del segmento con el Data Warehouse
 topic: Segmentos
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace, Informes y análisis </th> 
+   <th> Analysis Workspace, Reports &amp; Analytics </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,7 +47,7 @@ No todos los segmentos creados en el Generador de segmentos son compatibles con 
   </tr> 
   <tr> 
    <td> <b>Dimensiones</b> </td> 
-   <td>Arrastre y suelte una dimensión en las <span class="uicontrol">Definiciones</span> del Generador de segmentos para conocer la compatibilidad del producto. Por ejemplo, estas dimensiones solo se admiten en Analysis Workspace, Informes y análisis: 
+   <td>Arrastre y suelte una dimensión en las <span class="uicontrol">Definiciones</span> del Generador de segmentos para conocer la compatibilidad del producto. Por ejemplo, estas dimensiones solo son compatibles con Analysis Workspace, Reports &amp; Analytics: 
     <ul> 
      <li>Servidor de entrada </li> 
      <li>Categoría de entrada </li> 
