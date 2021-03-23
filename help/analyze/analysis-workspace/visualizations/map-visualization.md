@@ -2,11 +2,11 @@
 description: Utilice la visualización de mapas en un proyecto de Workspace.
 title: Mapa
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
