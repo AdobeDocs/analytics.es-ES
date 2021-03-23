@@ -1,12 +1,12 @@
 ---
-description: Utilizar alertas en Analysis Workspace.
+description: Utilice alertas en Analysis Workspace.
 title: Generador de alertas
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
