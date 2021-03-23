@@ -3,9 +3,9 @@ description: Enumera una serie de consideraciones que debe tener en cuenta antes
 title: Eliminar segmentos
 topic: Segmentos
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
 ht-degree: 100%
 
