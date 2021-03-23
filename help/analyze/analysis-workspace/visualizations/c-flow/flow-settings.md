@@ -2,11 +2,11 @@
 description: Utilice la visualización de flujo en un proyecto de Workspace.
 title: Configuración de flujo
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
