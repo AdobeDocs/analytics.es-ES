@@ -1,12 +1,12 @@
 ---
-description: Utilice la visualización de abandonos en un proyecto de Workspace.
+description: Utilice la visualización de visitas en orden previsto de un proyecto de Workspace.
 title: Resumen de abandonos
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ La visualización de visitas en el orden previsto es útil para analizar:
 * Flujos de tráfico generales, con un alcance más amplio: entre las personas que visitaron la página principal, este flujo muestra cuántas fueron de allí a realizar una búsqueda y cuántas continuaron para ver un elemento específico.
 * Correlaciones entre los eventos del sitio. Las correlaciones muestran el porcentaje de personas que leyeron la política de privacidad y procedieron a realizar la compra de un producto.
 
-[Tutorial de vídeo de Visualización de abandonos](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html?lang=es-ES)  (4:15)
+[Tutorial de vídeo de visualización de visitas en orden previsto](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## La segmentación como base para Flujo y Abandonos {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-Los segmentos aplicados a los paneles de Workspace funcionan de forma ligeramente diferente a los segmentos aplicados a los informes de visitas en el orden previsto y flujos en Reports &amp; Analytics. La mayoría de las veces ofrecen los mismos resultados. La diferencia principal es que Reports &amp; Analytics aplica el segmento en cada paso de la secuencia. Esto puede producir resultados ligeramente distintos.
+Los segmentos aplicados a los paneles de Workspace funcionan de un modo ligeramente distinto a los aplicados a los informes de visitas en orden previsto y flujo en Reports &amp; Analytics. La mayoría de las veces ofrecen los mismos resultados. La principal diferencia radica en que Reports &amp; Analytics aplica el segmento en cada paso de la secuencia. Esto puede producir resultados ligeramente distintos.
 
 Veamos un ejemplo de visitas en el orden previsto con dos pasos:
 
