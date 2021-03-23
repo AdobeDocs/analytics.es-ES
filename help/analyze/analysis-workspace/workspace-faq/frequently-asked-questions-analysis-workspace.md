@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: Requisitos de administración
 topic: Reports and Analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 26620ed59941721d65bdf57d0971a6e02eb01648
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '148'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
