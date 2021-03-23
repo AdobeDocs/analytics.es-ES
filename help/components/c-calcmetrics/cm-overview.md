@@ -3,11 +3,11 @@ description: Las métricas calculadas y calculadas avanzadas (o derivadas) son m
 keywords: Métricas calculadas, métricas derivadas y métricas calculadas avanzadas
 title: Métricas calculadas y calculadas avanzadas (derivadas)
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ A continuación se muestra una comparación de las competencias de las métricas
 
 Puede
 
-* Cree métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Informes y análisis], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
+* Cree métricas en [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución].
 * Crear métricas segmentadas que se derivan del tiempo de ejecución de un informe, [sin tener que cambiar la implementación](https://youtu.be/CuQTm9RaUpY). Éstas pueden verse en el historial, ya que se basan en segmentos.
 * Compartir métricas entre grupos de informes. Esto significa que todas las métricas de reciente creación se aplican a todos los grupos de informes en la misma empresa de inicio de sesión.
 * (Solo métricas calculadas avanzadas) Segmentar métricas. Por ejemplo, puede crear una métrica para “Visitantes nuevos”, con un recuento de personas de las cuales sea la primera sesión.
@@ -56,7 +56,7 @@ Algunas funciones de [!DNL Analytics] permiten utilizar eventos, pero no métric
 * [!UICONTROL Segmentos]
 * [!UICONTROL Informes en tiempo real]
 * [!UICONTROL Informes de datos actuales]
-* [!DNL Analytics] para [!DNL Target]
+* [!DNL Analytics] for [!DNL Target]
 
 ## Herramientas {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
