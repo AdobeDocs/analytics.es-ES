@@ -2,11 +2,11 @@
 description: Los grupos de informes virtuales segmentan los datos de Adobe Analytics de modo que pueda controlar el acceso a cada segmento.
 title: Resumen de los grupos de informes virtuales
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Los grupos de informes virtuales ayudan a:
 * Una visualización de datos de un solo cliente (en el futuro)
 * La capacidad para crear grupos de informes virtuales ilimitados con los que segmentar datos
 
-## Limitaciones de los grupos de informes virtuales  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## Limitaciones de los grupos de informes virtuales {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 Los grupos de informes virtuales tienen las siguientes limitaciones :
 
@@ -51,7 +51,7 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 * Informe en tiempo real
 * Los ajustes y los nombres de variables no se pueden personalizar como en un grupo de informes completo
 
-## Grupos de informes virtuales o etiquetado multigrupo  {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Grupos de informes virtuales o etiquetado multigrupo {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | Función | Grupo de informes virtuales | Etiquetado multigrupo |
 |--- |--- |--- |
