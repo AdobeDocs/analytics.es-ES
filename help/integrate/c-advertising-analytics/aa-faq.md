@@ -1,12 +1,12 @@
 ---
-description: Preguntas más frecuentes sobre Advertising Analytics.
+description: Preguntas frecuentes sobre Advertising Analytics.
 title: Preguntas frecuentes
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## Seguimiento automático frente al manual  {#section_7437C4698A6D482EB7ED94A948390119}
+## Seguimiento automático frente al manual {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
@@ -141,7 +141,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>P: Al configurar la cuenta de Advertising, se indica que el uso de <b>Seguimiento automático</b> puede tener consecuencias imprevistas. ¿Qué tipos de consecuencias se pueden producir? </p> </td> 
-   <td colname="col2"> <p>A: 
+   <td colname="col2"> <p>R: 
      <ul id="ul_59EFF4A2ECE947EBBDB6A9FF6D072FE0"> 
       <li id="li_8731E4B7D6ED4F0996B3630A35D5BAC4">El modo automático intentará añadir los parámetros de la dirección URL al final de las plantillas de seguimiento o de las direcciones URL de destino en el formato correcto. <b>Sin embargo, usted es responsable de garantizar que los parámetros de la dirección URL añadidos se conserven correctamente en la página de aterrizaje final. </b> </li> 
       <li id="li_1202FE1FC88342378A60E8FE65E5426B">El modo automático puede insertar palabras clave en la dirección URL de aterrizaje, pero es posible que el servidor web no admita palabras clave con caracteres especiales. </li> 
