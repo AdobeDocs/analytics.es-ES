@@ -1,11 +1,11 @@
 ---
-title: Cómo configurar una cuenta publicitaria en Advertising Analytics
-description: Permite crear nuevas cuentas publicitarias y asignar varias cuentas a varios grupos de informes.
-translation-type: tm+mt
+title: Configuración de una cuenta de publicidad en Advertising Analytics
+description: Permite crear nuevas cuentas de publicidad y asignar varias cuentas a varios grupos de informes.
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Siga estas directrices para rellenar **[!UICONTROL Configuración del seguimient
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Asignación de grupos de informes </p> </td> 
-      <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
+      <td colname="col2"> <p>La asignación de grupos de informes determina el grupo de informes que se enlaza a la cuenta de este motor de búsqueda. En otras palabras, determina a qué grupo(s) de informes se envían los datos del motor de búsqueda. </p> <p>Si su grupo de informes no se incluye en la lista, puede <a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html"  >asignar el grupo de informes a una organización de Experience Cloud</a> mediante esta herramienta. </p> </td> 
       </tr> 
     </tbody> 
     </table>
