@@ -1,12 +1,12 @@
 ---
-description: Uso del Creador de informes con Microsoft Power BI.
+description: Use Report Builder con Microsoft Power BI.
 title: Resumen de publicación en Power BI
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
