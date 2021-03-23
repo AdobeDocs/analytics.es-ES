@@ -2,11 +2,11 @@
 description: Utilice la visualización de barras horizontales en un proyecto de Workspace.
 title: Barras horizontales y barras horizontales apiladas
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '70'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Esta visualización muestra las barras horizontales que representan los distinto
 
 ![](assets/horizontal_bar.png)
 
-## Barras horizontales apiladas  {#section_50C08E9E20A94024A6553BC352ADB597}
+## Barras horizontales apiladas {#section_50C08E9E20A94024A6553BC352ADB597}
 
 Esta visualización es similar al [!UICONTROL gráfico de barras horizontales], pero las barras de series aparecen apiladas.
 
