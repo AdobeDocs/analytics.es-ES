@@ -4,11 +4,11 @@ subtopic: Classifications
 title: Importación de FTP
 topic: Herramientas de administración
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Después de realizar una carga inicial en un grupo de informes (de un informe o 
 
 Cada nuevo valor clave que cargue se restará a los únicos de esa variable para el mes.
 
-Si ha superado las únicas del mes, no verá los datos de clasificación correspondientes a los valores únicos superados en los informes. Puede ver esas clasificaciones en Data Warehouse.
+Si ha superado las únicas del mes, no verá los datos de clasificación correspondientes a los valores únicos superados en los informes. Puede ver dichas clasificaciones en Data Warehouse.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 Instrucciones sobre cómo utilizar una cuenta de FTP para importar clasificaciones en Adobe Analytics.
 
-Para obtener más información acerca de cómo crear una cuenta de FTP, consulte  [Crear una cuenta de FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+Para obtener más información acerca de cómo crear una cuenta de FTP, consulte [Crear una cuenta de FTP](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
 
 1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Importador de clasificaciones]**.
 1. Haga clic en **[!UICONTROL Importar archivo]** y, a continuación, seleccione **[!UICONTROL Importar FTP]**.
@@ -98,4 +98,4 @@ Una vez creadas, puede editar o eliminar las cuentas de FTP haciendo clic en el 
 
 >[!NOTE]
 >
->Las notificaciones no se envían si una importación no introduce cambios en una clasificación. Un mensaje de correo electrónico solo se envía si es correcto y resulta en cambios en una clasificación.
+>Las notificaciones no se envían si una importación no introduce cambios en una clasificación. Un correo electrónico solo se envía si se hace correctamente y provoca cambios en una clasificación.
