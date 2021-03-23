@@ -5,14 +5,14 @@ translation-type: tm+mt
 source-git-commit: 9edb2224b711cb41552488c8d73cbce1a9577a61
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # ¿Qué es Report Builder?
 
-El Report Builder de Adobe es un complemento para Microsoft Excel. Permite crear solicitudes personalizadas a partir de datos de Adobe Analytics, que se pueden insertar en hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos.
+El Report Builder de Adobe es un complemento para Microsoft Excel. Le permite generar solicitudes personalizadas a partir de datos de Adobe Analytics, que se pueden insertar en sus hojas de cálculo de Excel. Las solicitudes pueden hacer referencia de forma dinámica a las celdas de las hojas de cálculo y es posible actualizar y personalizar el modo en el que Report Builder presenta los datos.
 
 ## Temas de ayuda populares
 
