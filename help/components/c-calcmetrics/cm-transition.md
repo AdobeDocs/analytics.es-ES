@@ -2,11 +2,11 @@
 description: Es posible que estos cambios en la forma en la que las métricas calculadas funcionan en Analytics le sorprendan.
 title: Preguntas frecuentes
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2055'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Las métricas calculadas globales no ya no pueden compartirse entre empresas de 
 
 (Ahora, las métricas calculadas con una clasificación de Numérico o Numérico2 seguirán siendo visibles en [!UICONTROL Reports &amp; Analytics], [!UICONTROL Report Builder] y las API). Sin embargo, no serán compatibles con ningún informe al que se haya aplicado un segmento.
 
-Además, las métricas calculadas con una clasificación Numérica o Numérica2 no serán compatibles con los siguientes componentes: [!UICONTROL Informes de Analysis Workspace], [!UICONTROL Tiempo real], [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución]. Cuando cree u edite una métrica calculada con una clasificación de Numérico o Numérico2, verá una advertencia de compatibilidad indicando que la métrica calculada no es compatible con ciertas áreas del producto.
+Además, las métricas calculadas con una clasificación de Numérica o Numérica2 no son compatibles con los siguientes componentes: [!UICONTROL Analysis Workspace], [!UICONTROL Informes] en tiempo real, [!UICONTROL Detección de anomalías] y [!UICONTROL Análisis de contribución]. Cuando cree u edite una métrica calculada con una clasificación de Numérico o Numérico2, verá una advertencia de compatibilidad indicando que la métrica calculada no es compatible con ciertas áreas del producto.
 
 **Qué debe hacer**
 
