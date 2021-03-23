@@ -1,13 +1,13 @@
 ---
-description: Preguntas más frecuentes sobre la segmentación.
+description: Preguntas frecuentes sobre la segmentación.
 title: Preguntas frecuentes
 topic: Segmentos
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2078'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ Sí, todos los segmentos se pueden administrar en el Administrador de segmentos.
 
 Los administradores pueden ver todos los segmentos incluidos en las interfaces de usuario de Analysis Workspace y [!DNL Reports & Analytics].
 
-Report Builder solo muestra los segmentos creados por usted o los segmentos que han sido compartidos específicamente con usted.
+Report Builder solo muestra los segmentos que ha creado usted o los segmentos que se han compartido específicamente con usted.
 
 **¿Por qué no puedo eliminar este segmento?**
 
@@ -138,7 +138,7 @@ Tiene un marcador que hace referencia al segmento para el grupo de informes main
 
 **¿Qué les sucede a los segmentos del Data Warehouse?**
 
-Todos los segmentos del Data Warehouse seguirán funcionando en el Data Warehouse. La mayoría de los segmentos del Data Warehouse también seguirán funcionando en otros componentes, como Analysis Workspace e Reports &amp; Analytics.
+Todos los segmentos del Data Warehouse seguirán funcionando en el Data Warehouse. La mayoría de los segmentos de Data Warehouse también seguirán funcionando en otros componentes, como Analysis Workspace y Reports &amp; Analytics.
 
 Puede crear o editar segmentos nuevos del Almacén de datos en el Generador/Data Warehouse. El mecanismo de compatibilidad del producto en el Generador de segmentos determina automáticamente si un segmento es compatible con el Data Warehouse.
 
@@ -337,7 +337,7 @@ Las siguientes dimensiones se cambiaron a listas enumeradas:
 | longitud del marcador móvil | Habilitado para Java | búsqueda de pago |
 | longitud de dirección URL móvil | idioma |  |
 
-## Cambios en las dimensiones basadas en enteros que tienen valores conocidos  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Cambios en las dimensiones basadas en enteros que tienen valores conocidos {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado &quot;- Agrupado&quot; tras el nombre de la dimensión. La siguiente pantalla demuestra cómo se segmentan estas dimensiones utilizando la interfaz antigua y nueva del generador de segmentos:
 
