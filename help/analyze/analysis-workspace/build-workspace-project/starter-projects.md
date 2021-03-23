@@ -1,12 +1,12 @@
 ---
-description: Cree proyectos de espacio de trabajo basados en plantillas estándar o personalizadas.
+description: Cree proyectos de Workspace basados en plantillas estándar o personalizadas.
 title: Plantillas
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1397'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Los usuarios que tengan derechos de administrador pueden convertir cualquier pro
 
 | Acción | Descripción |
 |--- |--- |
-| Editar  plantilla | Permite que el administrador edite la plantilla cambiando la fuente de datos, los componentes, las visualizaciones, los intervalos de fechas, etc.  Para editar una plantilla personalizada, puede:<ul><li>Buscar la lista de plantillas personalizadas en Analysis Workspace, seleccionar una y hacer clic en Editar plantilla.</li><li>En Analytics, ir a Componentes > Proyectos y filtrar por Plantillas. Acto seguido, puede hacer clic en el nombre de la plantilla que quiera editar.</li></ul>**Nota:** Tras editar una plantilla, y según la situación, tiene dos opciones: Guardar o Guardar como. A continuación se indican las diferencias entre ambas opciones.<ul><li>**Guardar:** actualiza la plantilla personalizada para todos los usuarios. Cuando otra persona cree un proyecto a partir de esta plantilla personalizada, verá los cambios que ha hecho usted.</li><li>**Guardar como:** crea una copia de la plantilla personalizada con sus cambios. (Sabrá que está en el modo de edición cuando el elemento de menú Compartir > Compartir proyecto esté desactivado).</li></ul> |
+| Editar plantilla | Permite que el administrador edite la plantilla cambiando la fuente de datos, los componentes, las visualizaciones, los intervalos de fechas, etc.  Para editar una plantilla personalizada, puede:<ul><li>Buscar la lista de plantillas personalizadas en Analysis Workspace, seleccionar una y hacer clic en Editar plantilla.</li><li>En Analytics, ir a Componentes > Proyectos y filtrar por Plantillas. Acto seguido, puede hacer clic en el nombre de la plantilla que quiera editar.</li></ul>**Nota:** Tras editar una plantilla, y según la situación, tiene dos opciones: Guardar o Guardar como. A continuación se indican las diferencias entre ambas opciones.<ul><li>**Guardar:** actualiza la plantilla personalizada para todos los usuarios. Cuando otra persona cree un proyecto a partir de esta plantilla personalizada, verá los cambios que ha hecho usted.</li><li>**Guardar como:** crea una copia de la plantilla personalizada con sus cambios. (Sabrá que está en el modo de edición cuando el elemento de menú Compartir > Compartir proyecto esté desactivado).</li></ul> |
 | Buscar en plantillas | En el cuadro de diálogo Plantillas personalizadas, haga clic en Buscar plantillas. |
 | Ordenar plantillas | Puede ordenar las plantillas alfabéticamente, por su relevancia o por la fecha de creación.  En el cuadro de diálogo Plantillas personalizadas, haga clic en Ordenar. |
 | Aplicar etiquetas a una plantilla | Abra la plantilla y vaya a Proyecto > Información y configuración del proyecto. Haga clic en Añadir etiquetas. |
@@ -55,7 +55,7 @@ Al abrir un Workspace por primera vez, las plantillas aparecen en el panel izqui
 
 Puede utilizar estas plantillas rellenadas previamente tal cual, o puede adaptarlas a sus necesidades (mediante la adición o sustitución de métricas o visualizaciones, por ejemplo) y guardarlas con un nuevo nombre.
 
-Este es un tutorial de vídeo sobre plantillas [estándar en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
+Este es un tutorial de vídeo sobre plantillas [estándar en Analysis Workspace](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html) (2:46)
 
 Estas son las plantillas disponibles y las preguntas que cada plantilla ayuda a responder.
 
@@ -79,7 +79,7 @@ Estas plantillas estándar le guían a través de la terminología común y de l
 
 * **Magento - Marketing and Commerce**: esta plantilla desglosa la conversión del comercio electrónico según la atribución del canal de marketing. También proporciona perspectivas por palabra clave de búsqueda, página de aterrizaje, ubicación geográfica y mucho más. Para ver un vídeo introductorio, consulte:
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### Medios
 
