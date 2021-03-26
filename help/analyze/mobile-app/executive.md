@@ -1,9 +1,9 @@
 ---
 description: Instrucciones para usar los informes de valoración de los paneles.
 title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
-translation-type: ht
-source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2a1d3234444dbacb9cb68d85bd00527b2609d1c7
+workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 100%
 
@@ -59,7 +59,7 @@ Haga clic en el siguiente vínculo (también está disponible en Analytics en **
 
 **Para usuarios ejecutivos con Android:**
 
-Haga clic en el siguiente vínculo (también está disponible en Analytics en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**), y siga las indicaciones para descargar, instalar y abrir la aplicación:
+Haga clic en el siguiente vínculo (también está disponible en Analytics en **[!UICONTROL Herramientas]** > **[!UICONTROL Paneles de Analytics (aplicación móvil)]**) y siga las indicaciones para descargar, instalar y abrir la aplicación:
 
 [Vínculo de Android](https://bit.ly/2LM38Oo)
 
