@@ -1,11 +1,11 @@
 ---
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
-translation-type: ht
-source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
-workflow-type: ht
-source-wordcount: '2380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ea1915fa48a2da55684b7aa9f81fbe0c7d91171b
+workflow-type: tm+mt
+source-wordcount: '2399'
+ht-degree: 87%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 La siguiente información enseña a los depuradores de datos de Adobe Analytics sobre cómo configurar y presentar paneles para los usuarios ejecutivos. Para ver un vídeo donde se muestra esta información, consulte el vídeo del Generador de informes de valoración de paneles de Adobe Analytics:
 
->[!VIDEO](https://video.tv.adobe.com/v/34544?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## Primeros pasos
 
@@ -72,9 +72,9 @@ En la pantalla **[!UICONTROL Proyectos]**, en la ficha **[!UICONTROL Componentes
 
 ![Agregar proyectos](assets/add_project.png)
 
-**Usar [!DNL Analytics] herramientas**
+**O**
 
-En [!DNL Analytics], haga clic en el menú **[!UICONTROL Herramientas]** y seleccione **[!UICONTROL Paneles de Analytics (aplicación móvil)]**. En la pantalla siguiente, haga clic en el botón **[!UICONTROL Crear nuevo informe de valoración]**.
+En el menú **[!UICONTROL Herramientas]**, seleccione **[!UICONTROL Paneles de Analytics (aplicación móvil)]**. En la pantalla siguiente, haga clic en el botón **[!UICONTROL Crear nuevo informe de valoración]**.
 
 ### Configure el informe de valoración con datos y guárdelo
 
@@ -96,9 +96,9 @@ Para implementar la plantilla del informe de valoración:
 
    ![Agregar dimensiones](assets/layer_dimensions.png)
 
-   También puede agregar una dimensión a todos los mosaicos soltándola en el lienzo del informe de valoración.
-
    Al hacer clic en un mosaico en el Generador de informes de valoración, el carril derecho muestra las propiedades y características asociadas con dicho mosaico. En este carril puede dar un nuevo **[!UICONTROL Título]** al mosaico o, si lo desea, configurarlo especificando componentes en lugar de tener que arrastrarlos y soltarlos desde el carril izquierdo.
+
+   ![Título Propiedades](assets/properties_tile.png)
 
    Además, si hace clic en un mosaico, una ventana emergente dinámica le mostrará cómo verá la vista Desglose el usuario ejecutivo de la aplicación. Si no se ha aplicado ninguna dimensión al mosaico, la dimensión de desglose será **hora** o **días**, según el intervalo de fecha predeterminado.
 
@@ -110,19 +110,31 @@ Para implementar la plantilla del informe de valoración:
 
    ![Generar segmentos para filtrar](assets/segment_ui.png)
 
-5. Del mismo modo, para quitar un componente que se aplica a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en la **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación en el segmento **[!DNL Mobile Customers]**:
+5. Del mismo modo, para eliminar un componente que se aplique a todo el informe de valoración, haga clic en cualquier lugar del informe de valoración fuera de los mosaicos y, a continuación, elimínelo haciendo clic en **x** que aparece al pasar el ratón sobre el componente, como se muestra a continuación para el segmento **Visitas por primera vez**:
 
    ![Remove_components](assets/new_remove.png)
 
-6. En **[!UICONTROL Propiedades]** del informe de valoración, también puede especificar de forma opcional lo siguiente:
+6. Agregue y elimine combinaciones de intervalos de fechas que se puedan seleccionar en el informe de valoración seleccionando la lista desplegable de intervalos de fechas.
 
-   * Un **[!UICONTROL intervalo de fecha predeterminado]**. Los intervalos que especifique aquí serán los mismos que se aplicarán cuando el usuario ejecutivo acceda por primera vez al informe de valoración en su aplicación.
+   ![Nueva tarjeta de puntuación](assets/new_score_card.png)
 
-   * Un **[!UICONTROL intervalo de fecha de comparación]**
+   Cada nuevo informe de valoración comienza con 6 combinaciones de intervalos de fechas que se centran en los datos de hoy y ayer. Puede eliminar intervalos de fechas innecesarios haciendo clic en la x o puede editar cada combinación de intervalos de fechas haciendo clic en el lápiz.
 
-   * Cualquier **[!UICONTROL segmento]** que se aplique a todo el informe de valoración
+   ![Nueva tarjeta de puntuación2](assets/new_score_card2.png)
 
-7. Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
+   Para crear o cambiar una fecha principal, utilice la lista desplegable para seleccionar entre intervalos de fechas disponibles o arrastre y suelte un componente de fecha del carril derecho en la zona de colocación.
+
+   ![Nueva tarjeta de puntuación3](assets/new_score_card3.png)
+
+   Para crear una fecha de comparación, puede seleccionar entre cómodos preconjuntos para comparaciones de tiempo comunes en el menú desplegable. También puede arrastrar y soltar un componente de fecha desde el carril derecho.
+
+   ![Nueva tarjeta de puntuación4](assets/new_score_card4.png)
+
+   Si el intervalo de fechas que desea aún no se ha creado, puede crear uno nuevo haciendo clic en el icono de calendario.
+
+   ![Nueva tarjeta de puntuación4](assets/new_score_card5.png)
+
+7. Esto le llevará al generador de intervalos de fechas, donde puede crear y guardar un nuevo componente de intervalo de fechas. Para asignar un nombre al informe de valoración, haga clic en el área de nombres de la parte superior izquierda de la pantalla y escriba el nuevo nombre.
 
    ![Naming_Scorecards](assets/new_name.png)
 
@@ -201,7 +213,7 @@ Para ayudar a los usuarios ejecutivos:
    * Compruebe que el usuario ejecutivo puede iniciar sesión en la instancia correcta de Analytics y que se ha compartido el informe de valoración.
 
 
-3. Explique al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración que comparte (el primer informe de valoración a continuación se establece en modo oscuro; consulte **[!UICONTROL Preferencias]** a continuación si cree que el usuario ejecutivo prefiere esta opción de visualización):
+3. Explique al usuario ejecutivo cómo aparecen los mosaicos en los informes de valoración que comparte (el primer informe de valoración a continuación se establece en modo oscuro); consulte **[!UICONTROL Preferencias]** a continuación si cree que el usuario ejecutivo prefiere esta opción de visualización):
 
    ![Explicación de los mosaicos](assets/newexplain.png)
 
@@ -225,13 +237,9 @@ Para ayudar a los usuarios ejecutivos:
 
    * Se incluye una tabla para mostrar los datos de las dimensiones agregadas al mosaico. Pulse en la flecha hacia abajo para seleccionar dimensiones. Si no se ha agregado ninguna dimensión al mosaico, la tabla muestra los datos del gráfico.
 
-5. Cambiar los intervalos de fecha del informe de valoración:
+5. Para cambiar los intervalos de fechas del informe de valoración, pulse el encabezado Fecha y seleccione la combinación de intervalo de fechas principal y de comparación que desee ver.
 
    ![Cambio de fechas](assets/changedate.png)
-
-   * También puede cambiar los intervalos de fechas del mismo modo en la vista Desglosar que se muestra arriba.
-
-   * Según el intervalo que pulse (**Día**, **Semana**, **Mes** o **Año**), verá dos opciones para los intervalos de fechas: o el intervalo de tiempo actual o el inmediatamente anterior. Pulse una de estas dos opciones para seleccionar el primer rango. En la lista **[!UICONTROL COMPARAR CON]**, pulse una de las opciones que se muestran para comparar los datos de este periodo de tiempo con el primer intervalo de fecha seleccionado. Pulse **[!UICONTROL Listo]** en la parte superior derecha de la pantalla. El campo **[!UICONTROL Intervalos de fecha]** y los mosaicos del informe de valoración se actualizarán con los nuevos datos de comparación de los nuevos rangos seleccionados.
 
 6. Para dejar comentarios sobre esta aplicación:
 
