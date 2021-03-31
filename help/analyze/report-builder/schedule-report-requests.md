@@ -1,10 +1,14 @@
 ---
 description: Puede programar solicitudes de informe, especificar opciones de entrega avanzadas, definir destinatarios y ver el historial de programación. Las opciones de envío avanzadas permiten configurar informes que se desean enviar a una hora concreta o a intervalos. También se puede especificar el formato de archivo en el que se desea enviar el informe.
 title: Programar solicitudes de informes
-topic: Report builder
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 95%
 
 ---
 
