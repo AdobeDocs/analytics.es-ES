@@ -2,7 +2,7 @@
 title: Reglas de procesamiento de canales de marketing
 description: Las reglas de procesamiento de canales de marketing averiguan si el visitante que entra cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
 translation-type: tm+mt
-source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
 source-wordcount: '2138'
 ht-degree: 90%
@@ -43,11 +43,11 @@ Cree reglas de procesamiento de canales de marketing que averigüen si la visita
 
    ![Resultado](assets/marketing_channel_rules.png)
 
-4. Si desea agregar una nueva regla, selecciónela en el menú **[!UICONTROL Añadir nuevo conjunto]** de reglas. Si selecciona un canal, se le proporcionará una plantilla de regla y, si selecciona Personalizado, inicio de una tabla en blanco. Ambas opciones permiten modificar el conjunto de reglas según sea necesario.
+4. Si desea agregar una regla nueva, seleccione en el menú **[!UICONTROL Agregar nuevo conjunto de reglas]**. Si selecciona un canal, recibirá una plantilla de regla y, si selecciona Personalizado, comenzará desde una pizarra en blanco. Ambas opciones permiten modificar el conjunto de reglas según sea necesario.
 
    ![Resultado](assets/example_email.png)
 
-5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
+5. Para continuar creando reglas, haga clic en **[!UICONTROL Agregar nueva regla de conjunto de reglas]**.
 6. Para priorizar las reglas, arrástrelas a la posición que corresponda.
 7. Haga clic en **[!UICONTROL Guardar]**.
 
@@ -55,7 +55,7 @@ Continúe en esta página para ver las recomendaciones del orden de reglas del c
 
 ### Establecer el valor del canal de marketing
 
-**[!UICONTROL Definir el valor]** del canal define la dimensión de detalle del canal de marketing que está disponible para ese canal. Esto le permite desglosar las dimensiones del canal de marketing y conocer sus datos más en detalle.
+**[!UICONTROL Definir el]** valor del canal define la dimensión de detalle del canal de marketing que está disponible para ese canal. Esto le permite desglosar las dimensiones del canal de marketing y conocer sus datos más en detalle.
 
 Se recomienda que el valor del canal se defina con los mismos criterios utilizados para definir el canal en sí mismo. Por ejemplo, si se utiliza el parámetro de cadena de consulta para definir el canal, establezca también el parámetro de cadena de consulta como el valor de canal.
 
@@ -65,7 +65,7 @@ Esta tabla de referencia define los campos, opciones y atributos de visita que p
 
 >[!NOTE]
 >
->Cualquier campo de texto que defina, como parámetro de cadena de consulta o listas de valores con los que hacer coincidir, se evalúan como valores que no distinguen entre **mayúsculas y minúsculas** . Por ejemplo, si tiene una regla en la que el parámetro de cadena de consulta cmp = abc123, todas las versiones de &#39;cmp&#39; y &#39;abc123&#39; coincidirán con la regla. No es necesario realizar listas de varias versiones en mayúsculas y minúsculas de estos valores.
+>Cualquier campo de texto que defina, como parámetro de cadena de consulta o lista de valores con los que coincida, se evalúan como valores **sin distinción de mayúsculas y minúsculas**. Por ejemplo, si tiene una regla en la que el parámetro de cadena de consulta cmp = abc123, todas las versiones de &quot;cmp&quot; y &quot;abc123&quot; coincidirán con la regla. No es necesario enumerar varias versiones de mayúsculas y minúsculas de estos valores.
 
 | Término | Definición |
 |--- |--- |
@@ -88,7 +88,7 @@ Esta tabla de referencia define los campos, opciones y atributos de visita que p
 | Dominio raíz de página (TLD+1) | El dominio raíz de la página donde aterriza el visitante como, por ejemplo, ejemplo.es . |
 | URL de la página | La dirección URL de una página web de su sitio. |
 | Dominio de referencia | El dominio del que salieron los visitantes antes de visitar su sitio web, por ejemplo, los referentes de `abcsite.com` frente a `xyzsite.com`. |
-| Parámetro de cadena de consulta | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then &#39;page&#39; and &#39;cat&#39; are both query string parameters. (Consulte `https://en.wikipedia.org/wiki/Query_string`.)  Puede especificar solamente un parámetro de cadena de consulta por cada conjunto de reglas. Para agregar más parámetros de cadena de consulta, utilice `ANY` como operador y luego agregue nuevos parámetros de cadena de consulta a la regla. Los parámetros de cadena de consulta se evalúan sin distinción de mayúsculas y minúsculas; por ejemplo, &#39;cat&#39; y &#39;CAT&#39; se evaluarán del mismo modo. |
+| Parámetro de cadena de consulta | Si la dirección URL de una página de su sitio web es `https://example.com/?page=12345&cat=1`, &quot;page&quot; y &quot;cat&quot; son parámetros de cadena de consulta. (Consulte `https://en.wikipedia.org/wiki/Query_string`.)  Puede especificar solamente un parámetro de cadena de consulta por cada conjunto de reglas. Para agregar más parámetros de cadena de consulta, utilice `ANY` como operador y luego agregue nuevos parámetros de cadena de consulta a la regla. Los parámetros de cadena de consulta se evalúan sin distinción de mayúsculas y minúsculas; por ejemplo, &quot;cat&quot; y &quot;CAT&quot; se evaluarán del mismo modo. |
 | Referente | Ubicación de la página web (dirección URL completa) en la que se encontraban los visitantes antes de entrar en el sitio. El referente existe fuera del dominio que haya definido. |
 | Dominio y ruta de referencia | Una concatenación del dominio de referencia y la ruta URL. Algunos ejemplos son: `www.example.com/products/id/12345` o `ad.example.com/foo` |
 | Parámetro de referencia | Un parámetro de cadena de consulta de la dirección URL de referencia. Por ejemplo, si los visitantes provienen de `example.com/?page=12345&cat=1`, pag y cat son los parámetros de referencia. |
@@ -122,25 +122,25 @@ Consulte [Detección de búsqueda paga](https://docs.adobe.com/content/help/es-E
 
 Las búsquedas naturales tienen lugar cuando los visitantes encuentran su sitio web a través de una búsqueda en Internet en la que el motor de búsqueda clasifica su sitio sin que usted haya pagado específicamente para ello.
 
-No hay detección de búsquedas naturales en Analytics. Después de configurar la detección de búsqueda paga, el sistema sabe que, si un referente de búsqueda no es de búsqueda paga, tiene que ser de búsqueda natural. Consulte [Detección de búsqueda paga](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) en Administración para obtener más información.
+No hay detección de búsquedas naturales en Analytics. Después de configurar la detección de búsqueda paga, el sistema sabe que, si un referente de búsqueda no es de búsqueda paga, tiene que ser de búsqueda natural. Consulte [Detección de búsqueda paga](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) en Administración para obtener más información.
 
 En la regla de canal de marketing, la configuración de búsqueda natural es la siguiente:
 
 ![](assets/example_natural_search.png)
 
-### Mostrar {#display}
+### Mostrar  {#display}
 
 Esta regla identifica a los visitantes que proceden de anuncios de banners. Se identifica con un parámetro de cadena de consulta en la dirección URL de destino, en este caso *`Ad_01`*. El parámetro de cadena de consulta y los valores que busca se evalúan como valores que no distinguen entre mayúsculas y minúsculas.
 
 ![](assets/example_display.png)
 
-### Correo electrónico {#email}
+### Correo electrónico  {#email}
 
 Esta regla identifica a los visitantes que proceden de campañas de correo electrónico. Se identifica con un parámetro de cadena de consulta en la dirección URL de destino, en este caso *`eml`*:
 
 ![](assets/example_email.png)
 
-### Afiliados {#afilliates}
+### Afiliados  {#afilliates}
 
 Esta regla identifica a los visitantes que proceden de un conjunto específico de dominios de referencia. En la regla, se enumeran los dominios de los afiliados de los que desee hacer un seguimiento, de este modo:
 
@@ -152,7 +152,7 @@ Una práctica recomendada es incluir un canal “Otras campañas” siguiendo to
 
 ![](assets/other-campaigns.png)
 
-### Redes sociales {#social-networks}
+### Redes sociales  {#social-networks}
 
 Esta regla identifica a los visitantes que se originan en una red social como, por ejemplo, Facebook;. El canal suele denominarse “Social orgánico”. La configuración puede ser así:
 
@@ -166,7 +166,7 @@ Esta regla identifica visitantes donde la dirección URL de referencia coincide 
 
 Consulte [Razones para la actualización interna (Actualización de sesión)](https://docs.adobe.com/content/help/es-ES/analytics/components/marketing-channels/c-faq.html#internal) si quiere obtener más información sobre el motivo por el que se produce este canal.
 
-### Directas {#direct}
+### Directas  {#direct}
 
 Esta regla identifica a visitantes que no tienen dominio de referencia, lo que incluye a los visitantes que llegan a su sitio directamente como, por ejemplo, con un vínculo de Favoritos, o que han pegado el vínculo en el navegador. Este canal se denomina con frecuencia “Directamente escrito/Añadido como marcador”.
 
