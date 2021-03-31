@@ -1,13 +1,14 @@
 ---
 description: Pasos para ejecutar los distintos tipos de informes.
 title: Ejecutar diferentes tipos de informes
-topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '2358'
-ht-degree: 100%
+feature: Conceptos básicos de Reports & Analytics
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '2364'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +96,7 @@ Consulte el nuevo panel de [Análisis de visitas en el orden previsto](https://d
 
 Los informes de flujo de página muestran el orden en el que los visitantes acceden a las páginas y navegan a través del sitio. Este informe ayuda a dar respuesta
 
-Consulte la nueva [Visualización de flujo](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) en Analysis Workspace.
+Consulte la nueva [Visualización de flujo](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) en Analysis Workspace.
 
 Ejecute un informe de [Rutas](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/flow/flow.html).
 
@@ -153,7 +154,7 @@ Consulte las nuevas funciones de [Detección de anomalías y Análisis de contri
 
 >[!NOTE]
 >
->También puede ejecutar la Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>También puede ejecutar la Detección de anomalías desde proyectos de Analysis Workspace. [Más...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 Si desea más información sobre la configuración de la detección de anomalías, consulte la [Guía de referencia](https://docs.adobe.com/content/help/es-ES/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection).
 
@@ -182,7 +183,7 @@ La detección de anomalías muestra dos tipos de gráficos: un gráfico de resum
         <li id="li_4090357A0D214BC7B1C3DE0615875554">Si el límite inferior y el valor esperado son el mismo, el porcentaje de desviación es -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">De lo contrario, el porcentaje de desviación es ((valor de límite inferior - valor actual) / (valor actual - valor de límite inferior)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">Al hacer clic en <span class="uicontrol">Mostrar segmentos</span>, aparece el carril del segmento que permite aplicar segmentos a un informe de detección de anomalías. <a href="https://docs.adobe.com/content/help/es-ES/analytics/components/segmentation/seg-home.html"  > Más información</a> sobre segmentación. </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">Al hacer clic en <span class="uicontrol">Mostrar segmentos</span>, aparece el carril del segmento que permite aplicar segmentos a un informe de detección de anomalías. <a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  > Más información</a> sobre segmentación. </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">Al hacer clic en <span class="uicontrol">Editar métricas</span>, puede seleccionar y deseleccionar métricas para las cuales desea detectar anomalías. </li> 
      </ul> </p> </td> 
   </tr> 
