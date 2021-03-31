@@ -2,11 +2,13 @@
 description: La configuración de filas varía en función del componente que haya arrastrado a la tabla.
 title: Configuración de filas
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
+feature: Tablas improvisadas
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '395'
+ht-degree: 99%
 
 ---
 
