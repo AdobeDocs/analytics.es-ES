@@ -1,16 +1,18 @@
 ---
 title: Journey IQ
 description: Descubra las funciones que componen Journey IQ, un conjunto de funciones que forman parte de Adobe Analytics.
-translation-type: ht
-source-git-commit: 4a987a16be74e3a990294664179778fd2e9fcea7
-workflow-type: ht
-source-wordcount: '177'
-ht-degree: 100%
+feature: Herramientas de IA
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 97%
 
 ---
 
 
-# Journey IQ
+# IQ de recorrido
 
 Journey IQ es un conjunto de funciones que proporcionan visualizaciones y configuraciones fáciles de usar y totalmente personalizables para comprender mejor la experiencia del cliente. Permite medir cada punto de contacto en el recorrido del cliente, incluso a través de los canales. Utilice estas funciones para comprender mejor dónde volver a atraer a los clientes, mantenerlos fieles y personalizar sus experiencias a lo largo del recorrido.
 
