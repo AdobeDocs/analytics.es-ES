@@ -1,10 +1,14 @@
 ---
 description: Se puede copiar una hoja de cálculo completa de un libro de origen en una hoja de cálculo de uno o varios libros de destino.
 title: Copiar solicitudes y hojas de cálculo entre libros
-topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '351'
+ht-degree: 99%
 
 ---
 
@@ -14,8 +18,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 Se puede copiar una hoja de cálculo completa de un libro de origen en una hoja de cálculo de uno o varios libros de destino.
 
 Para ello, debe tener al menos dos libros abiertos en la misma instancia de Excel: el primer libro de origen contiene la hoja de cálculo con solicitudes asignadas a celdas, mientras que el resto de libros adicionales constituyen el destino. En los libros de destino debe Inicie sesión en el mismo grupo de informes que el libro de origen; de lo contrario, no podrá pegar hojas de cálculo que contengan solicitudes.
-1. Haga clic con el botón derecho en la hoja de cálculo del libro de origen y seleccione **[!UICONTROL Copy Worksheet w/Requests]**.
-1. En el libro de destino, haga clic con el botón derecho en la hoja de cálculo y seleccione **[!UICONTROL Paste Worksheet w/Requests]**.
+1. Haga clic con el botón derecho en la hoja de cálculo del libro de origen y seleccione **[!UICONTROL Copiar hoja de cálculo con solicitudes]**.
+1. En el libro de destino, haga clic con el botón derecho en la hoja de cálculo y seleccione **[!UICONTROL Pegar hoja de cálculo con solicitudes]**.
 
    La misma instancia de Excel significa que un único proceso de Excel ([!DNL excel.exe]) se ejecuta en el equipo al mismo tiempo. Si se inician dos instancias de Excel y se intenta copiar una hoja de cálculo de un libro de la primera instancia de Excel en un libro en la segunda instancia, la opción para pegar una hoja de cálculo no estará presente en el menú contextual de Report Builder de la segunda instancia de Excel.
 
