@@ -1,10 +1,14 @@
 ---
 description: Descargue y edite libros compartidos.
 title: Descargar un libro
-topic: Report builder
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 96%
 
 ---
 
@@ -13,13 +17,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Descargue y edite libros compartidos.
 
-1. In Excel, click **[!UICONTROL Share]**.
-1. En **[!UICONTROL Uploaded Workbooks]**, seleccione el libro y haga clic en **[!UICONTROL Download]**.
+1. En Excel, haga clic en **[!UICONTROL Compartir]**.
+1. En **[!UICONTROL Libros cargados]**, seleccione el libro y haga clic en **[!UICONTROL Descargar]**.
 1. Guarde el archivo.
+
 >Las siguientes opciones solo están disponibles para los propietarios de un libro:
 >
 >* **Editar:** descarga y abre un libro para su edición. Si desea cargar un libro que haya descargado para su edición, debe hacerlo manualmente.
 >* **Eliminar**: permite eliminar un libro que haya cargado. Debe ser el propietario del libro para poder eliminarlo.
+
 >
 
 
