@@ -1,13 +1,14 @@
 ---
 description: Permite aplicar un filtro de varios segmentos en Activity Map.
 title: Segmentación de clientes
-topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
+feature: Activity Map
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 98%
 
 ---
 
