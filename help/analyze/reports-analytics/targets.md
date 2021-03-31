@@ -1,10 +1,14 @@
 ---
 description: Los objetivos le permiten medir el rendimiento del sitio y llevar un control del avance hacia los objetivos. Por ejemplo, es posible que desee incrementar la cantidad de visitantes de una región, el ingreso por pedido o la cantidad de visitas provenientes de un referente específico.
-title: Objetivos
-topic: Reports and analytics
+title: 'Objetivos '
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
+feature: Conceptos básicos de Reports & Analytics
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '608'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +25,11 @@ Al crear objetivos, seleccione qué métricas de atributos o eVar desea medir o 
 
 Por ejemplo, puede medir la cantidad de visitantes únicos del sitio Web y utilizar esto como objetivo. En ese caso, elija todo el sitio Web. Sin embargo, si el objetivo es la cantidad de visitantes únicos del sitio Web provenientes de Chicago, puede especificar esa eVar en lugar de ver todo el sitio.
 
-## Descripciones de campos de objetivos  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## Descripciones de campos de objetivos   {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Objetivos]**.
 
-Descripciones de los campos y las opciones de la [!UICONTROL Add/Edit Target] página.
+Descripciones de los campos y las opciones de la página [!UICONTROL Agregar y editar destino].
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 
@@ -36,7 +40,7 @@ Descripciones de los campos y las opciones de la [!UICONTROL Add/Edit Target] p�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Nombre de objetivo </td> 
+   <td colname="col1"> Target Nombre </td> 
    <td colname="col2">Asigne un nombre al objetivo. El nombre se mostrará en la página <span class="wintitle">Administrador de destinos</span>. </td> 
   </tr> 
   <tr> 
@@ -72,14 +76,14 @@ t_add_a_target.xml
 
  -->
 
-1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. En la [!UICONTROL Target Manager] página, haga clic en **[!UICONTROL Add New]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Objetivos]**.
+1. En la página [!UICONTROL Administrador de destinos], haga clic en **[!UICONTROL Agregar nuevo]**.
 1. Configure las opciones que se describen en [Descripciones de campos de objetivos](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
-1. Haga clic en **[!UICONTROL OK]**.
+1. Haga clic en **[!UICONTROL Aceptar]**.
 
 ## Editar un objetivo {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. Haga clic **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Objetivos]**.
+1. En la columna **[!UICONTROL Administrar]**, haga clic en el icono **[!UICONTROL Editar.]**
 1. Configure las opciones que se describen en [Descripciones de campos de objetivos](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD).
-1. Haga clic en **[!UICONTROL OK]**.
+1. Haga clic en **[!UICONTROL Aceptar]**.
