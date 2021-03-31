@@ -2,10 +2,12 @@
 description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
+feature: Conceptos básicos de Workspace
+role: Profesional empresarial, Administrador
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '8206'
+source-wordcount: '8211'
 ht-degree: 99%
 
 ---
@@ -143,7 +145,7 @@ Mejoras publicadas el 18 de julio de 2019.
 |--- |--- |
 | Mejoras de análisis de cohorte | Se han añadido [nuevas configuraciones de análisis de cohorte](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html?lang=es-ES): <ul><li>Mostrar sólo porcentaje</li><li>Redondear el porcentaje al entero más cercano</li><li>Mostrar una fila porcentual promedia</li></ul> |
 | Mostrar elementos de los últimos 18 meses | En el carril izquierdo, los usuarios tienen la opción de _Mostrar elementos de los últimos 18 meses_. Anteriormente, el período retroactivo era de 6 meses como máximo. Esto facilita la comparación con páginas o campañas del último año, hasta hace 18 meses. |
-| Nueva plantilla de Analysis Workspace | Hemos añadido una nueva plantilla denominada [“Magento: Marketing y comercio”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es-ES) para Analysis Workspace. Está diseñada específicamente para los clientes de comercio electrónico de Magento, pero cualquier minorista puede utilizarla para obtener una información sin precedentes sobre sus actividades comerciales. |
+| Nueva plantilla de Analysis Workspace | Hemos añadido una nueva plantilla denominada [“Magento: Marketing y comercio”](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=es-ES) para Analysis Workspace. Está diseñada específicamente para los clientes de comercio electrónico de Magento, pero cualquier minorista puede utilizarla para obtener una información única sobre sus actividades comerciales. |
 
 ## Junio de 2019
 
