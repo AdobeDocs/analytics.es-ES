@@ -1,10 +1,11 @@
 ---
 description: El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
-title: Procesamiento completo para fuentes de datos
+title: Procesamiento completo
+topic: Desarrollador e implementación
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '727'
 ht-degree: 98%
 
 ---
