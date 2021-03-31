@@ -1,10 +1,14 @@
 ---
 description: Esta sección está dirigida a los administradores de Adobe Analytics. Explora los nuevos parámetros de seguimiento de vínculos. Explica cómo garantizan la exclusividad y coherencia de los vínculos en distintos exploradores y dispositivos, y de qué modo facilitar el cambio de posición de los vínculos en una página.
 title: Método de seguimiento de vínculos
-topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+feature: Activity Map
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +34,9 @@ Si el HTML tiene un s_objectid, el ID principal predeterminado pasará a ser s_o
 * Alttext (texto alternativo)
 * Título
 * Src (origen)
-* Action (acción)
+* Acción
 
-## Utilización de Innertext y de Acción de vínculo (URL) {#section_70C3573E22274522A8CC035BF18EC468}
+## Utilización de Innertext y de Acción de vínculo (URL)  {#section_70C3573E22274522A8CC035BF18EC468}
 
 Acción de vínculo es la acción que efectúa la página web cuando se hace clic en el vínculo. Normalmente es la URL que se visita tras hacer clic en el vínculo. Al usar Acción de vínculo, pueden surgir los problemas siguientes:
 
