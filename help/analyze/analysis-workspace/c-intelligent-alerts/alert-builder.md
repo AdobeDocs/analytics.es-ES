@@ -2,11 +2,13 @@
 description: Obtenga alertas cuando los componentes del proyecto alcancen ciertos umbrales.
 title: Generador de alertas
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+feature: Herramientas de IA
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 98%
 
 ---
 
