@@ -1,9 +1,14 @@
 ---
 title: Casos de uso de comparación de segmentos
 description: Descubra casos de uso reales sobre cómo la utilización del panel de comparación de segmentos para obtener información sobre la estrategia de marketing.
-keywords: Segment IQ
+keywords: IQ de segmento
+feature: Paneles
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 99%
 
 ---
 
