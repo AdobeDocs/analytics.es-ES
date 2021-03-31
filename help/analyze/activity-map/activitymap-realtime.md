@@ -1,9 +1,13 @@
 ---
 description: El análisis de página en tiempo real (modo Activo) permite obtener resultados con una granularidad por minutos en tiempo real.
 title: Análisis de páginas en tiempo real (activo)
-topic: Activity map
+feature: Activity Map
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 71%
 
 ---
 
@@ -12,7 +16,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 El análisis de página en tiempo real (modo Activo) permite obtener resultados con una granularidad por minutos en tiempo real.
 
-El mapa de Actividad ahora muestra datos analíticos en incrementos de 1 minuto a 15 minutos para monitorear la popularidad del vínculo en base a las microtendencias de las páginas seleccionadas. Esto es especialmente importante para las empresas editoriales a la hora de realizar un seguimiento y responder al aumento o la reducción del interés por las historias, así como para supervisar el flujo del tráfico en tiempo real.
+Ahora, el Activity Map muestra datos analíticos en incrementos de 1 a 15 minutos para supervisar la popularidad de los vínculos en función de las microtendencias de determinadas páginas. Esto es especialmente importante para las empresas editoriales a la hora de realizar un seguimiento y responder al aumento o la reducción del interés por las historias, así como para supervisar el flujo del tráfico en tiempo real.
 
 Como propietario del contenido del sitio, una de sus responsabilidades es saber cuándo promocionar y eliminar contenido para que la experiencia sea relevante constantemente. Los datos en tiempo real son el fundamento de esta responsabilidad. Si sabe cuáles son los vínculos y el contenido que lideran las tendencias en cada momento, puede actuar rápidamente y con seguridad para mantener a los lectores y clientes interesados en su marca.
 
@@ -24,15 +28,15 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
  -->
 
-Si desea comprobar en el modo Activo qué elemento se hace clic principalmente:
+Si desea comprobar en qué elemento se hace clic principalmente en el modo Activo:
 
-1. Seleccione el período de tiempo en la línea de tendencia de la barra de herramientas que desee analizar. **[!UICONTROL Live Mode]**
-1. Haga clic en el icono &quot;Ojo&quot; en la barra de herramientas para acceder a la tabla de informes de vínculos.
-1. Ordene la tabla mediante el vínculo.
+1. Seleccione el período de tiempo en la línea de tendencia **[!UICONTROL Live Mode]** de la barra de herramientas que desee analizar.
+1. Haga clic en el icono &quot;Ojo&quot; de la barra de herramientas para acceder a la Tabla de informes de vínculos.
+1. Ordene la tabla mediante el vínculo .
 
 ## Latencia de datos como resultado de la configuración de A4T
 
-After the [A4T integration](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t.html) is enabled in Adobe Target, you will experience an additional 5-10 minutes of latency in Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y Target en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
+Una vez que la [integración de A4T](https://docs.adobe.com/content/help/es-ES/target/using/integrate/a4t/a4t.html) esté habilitada en Adobe Target, experimentará otros 5-10 minutos de latencia en Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y Target en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
 
 Este aumento se ve reflejado en todos los servicios y herramientas de Adobe Analytics, incluido el flujo en directo y los informes en tiempo real, y se aplica a estos escenarios:
 
