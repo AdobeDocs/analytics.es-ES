@@ -1,10 +1,14 @@
 ---
 description: Es posible filtrar las dimensiones que se añadan a la cuadrícula Rótulos de fila. Los filtros limitan los datos devueltos por las solicitudes y se pueden aplicar desde los diseños personalizados y de tabla dinámica. Cuando se configura el filtro de dimensiones desde el diseño de tabla dinámica, se puede especificar además el número de entradas de la celda.
 title: Resumen del filtrado de dimensiones
-topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +21,7 @@ El formulario del filtro seleccionado se completa según el elemento y la métri
 
 ## Definir filtro: valores y caracteres especiales {#section_15840216A4044C40974945FAA435AD93}
 
-Información sobre filtros en el panel **[!UICONTROL Most Popular Filter]** > **[!UICONTROL Define Filter]** .
+Información sobre filtros en el panel **[!UICONTROL Filtros más populares]** > **[!UICONTROL Definir filtro]**.
 
 ![](assets/define_filter.png)
 
@@ -85,7 +89,7 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
    <td colname="col1"> <p>Finaliza con </p> </td> 
    <td colname="col02"> <p>Devuelve los resultados que finalizan con el valor especificado. </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Matches <span class="term"> wxyz</span> but not <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Coincide con <span class="term"> wxyz</span> pero no con <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Avanzado (caracteres especiales) </p> </td> 
@@ -114,7 +118,7 @@ Las tablas que aparecen a continuación contienen ejemplos e información sobre 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> " " </td> 
+   <td colname="col1"> " </td> 
    <td colname="col2"> Es igual a </td> 
    <td colname="col3"> <p>No es necesario anteponer un carácter de escape si no se combina con otras comillas. Por ejemplo, <span class="term">Pantalla de 17"</span> no es una frase. </p> </td> 
   </tr> 
