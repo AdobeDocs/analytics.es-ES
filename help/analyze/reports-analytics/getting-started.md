@@ -1,11 +1,13 @@
 ---
 description: Antes de usar Reports and Analytics, es necesario que entienda estas tareas básicas de inicio de sesión y configuración, y que sepa cómo acceder a la información de la cuenta.
 title: Introducción a Reports and Analytics
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '701'
-ht-degree: 100%
+feature: Conceptos básicos de Reports & Analytics
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '707'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +19,7 @@ Antes de usar Reports &amp; Analytics, es necesario que comprenda estas tareas b
 Los informes ofrecen perspectivas de sus canales tradicionales basados en web y de los canales emergentes como móvil, vídeo y redes sociales. A continuación, mostramos algunos ejemplos de informes de
 
 * La cantidad de personas que visitan el sitio
-* La cantidad de esos visitantes que son únicos (se cuentan solo una vez)
+* La cantidad de los visitantes únicos (se cuentan solo una vez)
 * La forma en la que llegaron al sitio (si siguieron un vínculo o llegaron directamente)
 * Las palabras clave utilizadas por los visitantes para buscar el contenido del sitio
 * El tiempo que los visitantes permanecieron en una página determinada o en todo el sitio
