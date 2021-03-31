@@ -1,10 +1,14 @@
 ---
 description: Ejemplos, notas y notas sobre sintaxis acerca del uso de intervalos de fechas en expresiones personalizadas.
 title: Ejemplos de intervalos de fechas utilizando expresiones personalizadas
-topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +19,7 @@ Ejemplos, notas y notas sobre sintaxis acerca del uso de intervalos de fechas en
 
 En la tabla se asume que la fecha de hoy es Lunes, 10 de noviembre de 2011, utilizando el calendario gregoriano.
 
-| Ejemplo | Intervalo de fecha | Expresión personalizada | Intervalo de fechas del informe |
+| Ejemplo | Intervalo de fechas | Expresión personalizada | Intervalo de fechas del informe |
 |---|---|---|---|
 |  |  | **De** | **Hasta** |  |
 | 1 | Hace dos semanas | cw-2w | cw-1w-1d | 26 de octubre a 1 de noviembre |
