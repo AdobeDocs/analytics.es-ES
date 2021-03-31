@@ -2,11 +2,12 @@
 description: El primer paso al crear una solicitud en Report Builder.
 title: 'Solicitudes de datos: Paso 1 del Asistente para solicitudes'
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 97%
+source-wordcount: '423'
+ht-degree: 96%
 
 ---
 
