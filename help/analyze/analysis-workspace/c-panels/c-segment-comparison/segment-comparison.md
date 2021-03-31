@@ -1,12 +1,14 @@
 ---
 title: Información general del panel de comparación de segmentos
 description: Aprenda a utilizar el panel de comparación de segmentos, que forma parte de IQ de segmento en Analysis Workspace.
-keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '1137'
-ht-degree: 100%
+keywords: Analysis Workspace;IQ de segmento
+feature: Paneles
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1145'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +69,7 @@ Ilustra los tamaños comparativos de cada segmento seleccionado y cuánto se sup
 
 ### Resúmenes de población
 
-A la derecha de la visualización Tamaño y superposición, se muestra el recuento total de visitantes únicos en cada segmento y superposición.
+A la derecha de la visualización Tamaño y superposición, se muestra la cantidad de visitantes únicos total en cada segmento y superposición.
 
 ![Resúmenes de población](assets/population_summaries.png)
 
