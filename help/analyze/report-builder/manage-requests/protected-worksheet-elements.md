@@ -1,10 +1,14 @@
 ---
 description: Si protege la hoja de cálculo (mediante el bloqueo de celdas), no se podrán crear, editar ni actualizar solicitudes. Quite toda protección de la hoja de cálculo antes de utilizar el administrador de solicitudes.
 title: Elementos de hojas de cálculo protegidas
-topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 97%
 
 ---
 
