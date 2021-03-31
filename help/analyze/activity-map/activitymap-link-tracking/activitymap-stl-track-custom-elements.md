@@ -1,23 +1,24 @@
 ---
 title: Uso del método tl() con el Activity Map
-description: Puede utilizar el método tl() para realizar el seguimiento de elementos personalizados y configurar la representación de superposiciones para el contenido dinámico.
-topic: Activity Map
+description: Puede utilizar el método tl() para rastrear elementos personalizados y configurar la representación de superposiciones en el contenido dinámico.
+feature: Activity Map
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 65cb0a49ef74156f0b8adf4a11c6fec6394d306f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 43%
 
 ---
 
 
-# Usar el método `tl()` con el Activity Map
+# Uso del método `tl()` con el Activity Map
 
 El método `tl()` se puede usar para hacer un seguimiento de elementos personalizados y configurar la representación de las superposiciones en el contenido dinámico.
 
 ## Seguimiento de elementos personalizados
 
-Al usar [`tl()` el método](/help/implement/vars/functions/tl-method.md) en el módulo AppMeasurement de Activity Map se puede realizar un seguimiento de cualquier objeto en el que se haga clic, incluso objetos que no sean etiquetas de anclaje ni elementos de imagen. Mediante `tl()`, puede rastrear cualquier elemento personalizado que no resulte en una carga de página.
+Al usar [`tl()` el método](/help/implement/vars/functions/tl-method.md) en el módulo AppMeasurement de Activity Map se puede realizar un seguimiento de cualquier objeto en el que se haga clic, incluso objetos que no sean etiquetas de anclaje ni elementos de imagen. Con `tl()`, puede rastrear cualquier elemento personalizado que no resulte en una carga de página.
 
 En el método `tl()`, el parámetro `linkName` que se usa actualmente para identificar los vínculos de salida, los vínculos personalizados, etc. ahora se utiliza también para identificar el ID del vínculo que corresponde a la variable de Activity Map.
 
@@ -25,7 +26,7 @@ En el método `tl()`, el parámetro `linkName` que se usa actualmente para ident
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-En otras palabras, si utiliza `tl()` para rastrear los elementos personalizados, la ID del vínculo se extrae del valor pasado como el tercer parámetro (nombre del vínculo) en el método `tl()`. No se extrae del algoritmo de seguimiento estándar de vínculos que se utiliza para el [seguimiento predeterminado](activitymap-link-tracking-methodology.md) en Activity Map.
+En otras palabras, si utiliza `tl()` para hacer un seguimiento de los elementos personalizados, el ID del vínculo se extrae del valor pasado como tercer parámetro (Nombre del vínculo) en el método `tl()`. No se extrae del algoritmo de seguimiento estándar de vínculos que se utiliza para el [seguimiento predeterminado](activitymap-link-tracking-methodology.md) en Activity Map.
 
 ## Representación de superposiciones en el contenido dinámico
 
@@ -48,7 +49,7 @@ Cuando no se llama directamente a el método `tl()` desde el evento en el que se
 </script>
 ```
 
-La mejor manera para que el Activity Map superponga vínculos de contenido dinámico es tener una función `ActivityMap.link` personalizada configurada para llamar a la misma función cuyo valor devuelto se pasa a `tl()`. Por ejemplo:
+La mejor manera para que el Activity Map superponga vínculos de contenido dinámico es tener configurada una función `ActivityMap.link` personalizada para llamar a la misma función cuyo valor devuelto se pase a `tl()`. Por ejemplo:
 
 ```js
 var originalLinkFunction = s.ActivityMap.link;
@@ -67,8 +68,8 @@ s.ActivityMap.link = function(element,linkName)
 <button type="button" onclick="s.tl(this,'o',makeLinkName(this)">Add To Cart</button>
 ```
 
-Aquí, hemos anulado la función `ActivityMap.link` para hacer una de las tres cosas cuando se llama:
+En este caso, se ha anulado la función `ActivityMap.link` para realizar una de las tres cosas cuando se llama a :
 
-1. Si se pasa `linkName`, `tl()` lo llamó, sólo tiene que devolver lo que `tl()` pasó como `linkName`.
-2. Cuando el Activity Map llama en tiempo de sistema de informes, nunca se pasa un `linkName` y, por lo tanto, llama a `makeLinkName()` con el elemento link. Este es el paso crucial: la llamada `makeLinkName(element)` debe ser el mismo que el tercer argumento de la llamada `tl()` en la etiqueta `<button>`. Esto significa que cuando se llama a `tl()`, rastreamos la cadena devuelta por `makeLinkName()`. Cuando el Activity Map informa de los vínculos de la página, utiliza la misma llamada para crear un vínculo.
-3. La solución definitiva es devolver el valor devuelto original de la función predeterminada de vínculo de Activity Map. Mantener esta referencia para llamar en el caso predeterminado sólo le ayuda a tener que sobrescribir o escribir código personalizado para `makeLinkName()` y a no tener que obtener un valor de devolución de vínculo para todos los vínculos de la página.
+1. Si se pasa `linkName`, esto lo llamó `tl()`, por lo que solo debe devolver lo que `tl()` pasó como `linkName`.
+2. Cuando el Activity Map lo llama en el momento de generar el informe, nunca se pasa un `linkName` y, por lo tanto, llama a `makeLinkName()` con el elemento del vínculo. Este es el paso clave: la llamada `makeLinkName(element)` debe ser el mismo que el tercer argumento de la llamada `tl()` en la etiqueta `<button>`. Esto significa que cuando se llama a `tl()`, realizamos un seguimiento de la cadena devuelta por `makeLinkName()`. Cuando el Activity Map informa de los vínculos de la página, utiliza la misma llamada para crear un vínculo.
+3. La solución definitiva es devolver el valor devuelto original de la función predeterminada de vínculo de Activity Map. Mantener esta referencia alrededor de para llamar en el caso predeterminado solo le ayuda a sobrescribir o escribir código personalizado para `makeLinkName()` y a no tener que presentar un valor devuelto de vínculo para todos los vínculos de la página.
