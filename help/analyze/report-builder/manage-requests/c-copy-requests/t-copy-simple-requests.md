@@ -1,10 +1,14 @@
 ---
 description: Se puede copiar una solicitud simple en vez de una solicitud de referencia. Una solicitud simple no contiene referencias a otra solicitud ni al contenido de una celda.
 title: Copiar solicitudes simples
-topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 99%
 
 ---
 
@@ -18,11 +22,11 @@ Una [solicitud de referencia](/help/analyze/report-builder/manage-requests/c-cop
 1. Haga clic con el botón derecho en una de las celdas donde se asigna la solicitud, o bien seleccione una región de celdas que contenga solicitudes.
 
    Sea coherente a la hora de seleccionar una celda desde la que copiar en el grupo de celdas que incluye la solicitud. La opción preferida es la celda superior y situada más a la izquierda del conjunto de celdas que incluye la solicitud, y trabajar de izquierda a derecha. Esto sucede porque la hoja de cálculo de Excel contiene cientos de columnas y miles de filas disponibles para la expansión hacia la derecha y hacia abajo. Si decide iniciar una copia de solicitud desde la celda inferior o situada más a la derecha en un conjunto de celdas asociadas con una solicitud, el sistema no permitirá pegar la solicitud si las celdas que se van a pegar sobrepasan el borde superior o izquierdo de la hoja de cálculo.
-1. Select **[!UICONTROL Copy Request]**.
+1. Seleccione **[!UICONTROL Copiar solicitud]**.
 1. En otra parte de la hoja de cálculo, haga clic con el botón derecho en una celda vacía (una celda que no contenga solicitudes).
 
-   Para evitar que se pierdan o se dañen las solicitudes creadas, no se permite pegar celdas que contengan solicitudes en celdas asignadas actualmente a solicitudes. If you copy or cut cells containing requests, the shortcut menu does not make the [!UICONTROL Paste Requests] option available when right clicking on cells (or the set of cells) containing requests. Se debe seleccionar una celda distinta como destino de la operación de pegado para que las solicitudes no se superpongan. Esto es así tanto si se selecciona una sola celda con una solicitud para pegar, como si se selecciona una región de celdas que contenga solicitudes.
-1. Haga clic en **[!UICONTROL Paste Request]**.
+   Para evitar que se pierdan o se dañen las solicitudes creadas, no se permite pegar celdas que contengan solicitudes en celdas asignadas actualmente a solicitudes. Si se copian o se cortan celdas que contengan solicitudes, la opción [!UICONTROL Pegar solicitudes] del menú contextual queda desactivada al hacer clic con el botón derecho en las celdas (o conjunto de celdas) que contengan solicitudes. Se debe seleccionar una celda distinta como destino de la operación de pegado para que las solicitudes no se superpongan. Esto es así tanto si se selecciona una sola celda con una solicitud para pegar, como si se selecciona una región de celdas que contenga solicitudes.
+1. Haga clic en **[!UICONTROL Pegar solicitud]**.
 
    Una copia de la solicitud original se sitúa en la(s) celda(s), en una posición (o posiciones) relativa a la solicitud original.
 
