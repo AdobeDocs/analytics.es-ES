@@ -1,10 +1,14 @@
 ---
 description: El modo sin conexión devuelve datos de marcador de posición para acelerar el proceso de creación y edición de solicitudes.
 title: Modo sin conexión para crear y editar solicitudes
-topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 98%
 
 ---
 
@@ -17,13 +21,13 @@ Cuando crea o edita una nueva solicitud, se realizan llamadas de la API de infor
 
 Para activar el modo sin conexión:
 
-1. Click **[!UICONTROL Options]** in the Report Builder menu.
+1. Haga clic en **[!UICONTROL Opciones]** en el menú de Report Builder.
 
    ![](assets/offline_mode.png)
 
-1. Marque la casilla de verificación situada junto a **[!UICONTROL Turn on offline mode for creating and editing requests]**.
-1. In the **[!UICONTROL Display Metric Data as]** field, enter the placeholder data that you want returned in your request. Por ejemplo, introduzca &quot;1&quot;.
-1. Haga clic en **[!UICONTROL OK]**.
+1. Active la casilla junto a **[!UICONTROL Activar el modo fuera de línea para la creación y edición de solicitudes]**.
+1. En el campo **[!UICONTROL Mostrar los datos de métrica como]**, introduzca los datos del marcador de posición que desee que se devuelvan en su solicitud. Por ejemplo, introduzca &quot;1&quot;.
+1. Haga clic en **[!UICONTROL Aceptar]**.
 1. Ahora cree y ejecute su solicitud (en modo sin conexión) mediante el Asistente para solicitudes.
 1. Su solicitud con &quot;1&quot; como datos de marcador de posición tendrán un aspecto como este:
 
@@ -31,5 +35,5 @@ Para activar el modo sin conexión:
 
    >[!IMPORTANT]
    >
-   >Asegúrese de desactivar el modo sin conexión antes de ejecutar sus solicitudes con datos reales. To do so, just go back to **[!UICONTROL Options]** and remove the checkmark.
+   >Asegúrese de desactivar el modo sin conexión antes de ejecutar sus solicitudes con datos reales. Para ello, simplemente vuelva a **[!UICONTROL Opciones]** y elimine la marca de activación.
 
