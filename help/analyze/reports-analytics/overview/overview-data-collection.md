@@ -2,13 +2,14 @@
 description: Obtenga más información sobre cómo se recopilan los datos para Adobe Analytics.
 subtopic: Get started
 title: Información sobre la recopilación de datos
-topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+feature: Conceptos básicos de Reports & Analytics
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 96%
 
 ---
 
