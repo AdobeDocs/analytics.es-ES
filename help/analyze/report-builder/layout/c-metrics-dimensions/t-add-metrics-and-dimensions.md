@@ -1,13 +1,14 @@
 ---
 description: Pasos para agregar métricas y dimensiones a una solicitud.
 title: Agregar métricas y dimensiones
-topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+feature: Report Builder
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '520'
+ht-degree: 99%
 
 ---
 
