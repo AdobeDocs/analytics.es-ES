@@ -1,10 +1,12 @@
 ---
 title: Guía del usuario de Labs
 description: Vista previa de proyectos prototipo para Adobe Analytics
-translation-type: ht
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
-workflow-type: ht
-source-wordcount: '434'
+feature: Labs
+role: Administrador
+translation-type: tm+mt
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+workflow-type: tm+mt
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
