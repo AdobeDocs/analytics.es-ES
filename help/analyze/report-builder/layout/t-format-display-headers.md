@@ -1,10 +1,14 @@
 ---
 description: Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados de fila y columna. El vínculo Opciones de formato está disponible para los tipos de diseño personalizado y de tabla dinámica.
 title: Dar formato a los encabezados
-topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 99%
 
 ---
 
@@ -13,11 +17,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados de fila y columna. El vínculo Opciones de formato está disponible para los tipos de diseño personalizado y de tabla dinámica.
 
-1. Cree una solicitud en el [!UICONTROL Request Wizard: Step 1].
-1. Haga clic en **[!UICONTROL Next]**.
-1. On the [!UICONTROL Request Wizard: Step 2] form, add dimensions and metrics data to the request, as desired.
-1. Haga clic en **[!UICONTROL Format Options]**.
-1. Configure the [!UICONTROL Display] options:
+1. Cree una solicitud en el [!UICONTROL Asistente para solicitudes: Paso 1].
+1. Haga clic en **[!UICONTROL Siguiente]**.
+1. En el formulario [!UICONTROL Asistente para solicitudes: Paso 2], añada los datos de dimensiones y métricas a la solicitud.
+1. Haga clic en **[!UICONTROL Opciones de formato]**.
+1. Configure las opciones de [!UICONTROL visualización:]
 
    | Elemento | Descripción |
    |--- |--- |
@@ -26,7 +30,7 @@ Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados
    | Segmento | Muestra el parámetro de segmento. |
    | Actualización de los datos | Muestra los parámetros de la actualización de datos. Por ejemplo:    Actualización de los datos: Vistas de página (hace 1,5 horas), Salidas (hace 30 minutos)  Consulte [Opciones](/help/analyze/report-builder/options.md) para obtener información sobre el procesamiento de datos actual. |
 
-   Regarding display order, if the [!UICONTROL Row Label] grid (on Step 2) contains an item, it is displayed first in the request. If not, the system uses the first item present in the [!UICONTROL Column Label] grid. If no row or column items exist, the first item in the [!UICONTROL Metrics] grid is displayed.
+   Respecto al orden de visualización, si la cuadrícula [!UICONTROL Rótulo de fila] (en el Paso 2) contiene un elemento, éste se muestra en primer lugar en la solicitud. De lo contrario, el sistema utiliza el primer elemento presente en la cuadrícula [!UICONTROL Rótulo de columna]. Si no existen filas ni columnas, se muestra el primer elemento de la cuadrícula [!UICONTROL Métrica].
 
    **Mostrar encabezados de columna y fila:** Añade una fila y una columna para mostrar estos elementos.
 
@@ -40,6 +44,6 @@ Se puede asignar un nombre al informe y configurar cómo mostrar los encabezados
 
    **Realizar contorno automático:** transforma los datos devueltos por Report Builder de una vista de lista a una vista de árbol.
 
-   **Asignar nombre a esta solicitud:** Permite escribir un nombre definido por el usuario para la solicitud, o usar el nombre predeterminado seleccionado en el Paso 1. Este nombre aparece como el [!UICONTROL Report] nombre en la [!UICONTROL Request Manager]. See [Name a Request](/help/analyze/report-builder/layout/name-a-request.md).
+   **Asignar nombre a esta solicitud:** Permite escribir un nombre definido por el usuario para la solicitud, o usar el nombre predeterminado seleccionado en el Paso 1. Este nombre aparece como nombre de [!UICONTROL Informe] en el [!UICONTROL Administrador de solicitudes]. Consulte [Especificar el nombre de una solicitud](/help/analyze/report-builder/layout/name-a-request.md).
 
-1. Haga clic en **[!UICONTROL OK]**.
+1. Haga clic en **[!UICONTROL Aceptar]**.
