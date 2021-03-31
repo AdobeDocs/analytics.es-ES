@@ -1,12 +1,13 @@
 ---
 title: Prácticas recomendadas y resolución de problemas de la creación de informes
 description: Prácticas recomendadas y sugerencias de resolución de problemas de la creación de informes.
-keywords: best practices;failure;timeout;troubleshooting;slow
-translation-type: ht
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+keywords: prácticas recomendadas; error; tiempo de ejecución; solución de problemas; lento
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 99%
 
 ---
 
