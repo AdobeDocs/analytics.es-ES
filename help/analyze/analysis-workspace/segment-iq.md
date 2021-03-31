@@ -1,12 +1,14 @@
 ---
 title: Resumen de IQ de segmentos
 description: Descubra qué es IQ de segmentos de Adobe Analytics y cómo puede ayudar a su organización.
-keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+keywords: Analysis Workspace;IQ de segmento
+feature: Herramientas de IA
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 96%
 
 ---
 
