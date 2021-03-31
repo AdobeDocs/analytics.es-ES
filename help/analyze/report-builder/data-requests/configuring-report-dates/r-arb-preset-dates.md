@@ -1,10 +1,14 @@
 ---
 description: 'Las fechas preestablecidas permiten seleccionar fechas guardadas o utilizadas con frecuencia. En el Asistente para solicitudes: Paso 1, seleccione Fechas preestablecidas. Estas son las definiciones de campo para fechas preestablecidas en Report Builder.'
 title: 'Definiciones del Asistente para solicitudes: Fechas preestablecidas'
-topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 98%
 
 ---
 
