@@ -1,11 +1,13 @@
 ---
 description: Cálculo de totales de Workspace.
 title: Totales de Workspace
+feature: Tablas improvisadas
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 97%
+source-wordcount: '519'
+ht-degree: 99%
 
 ---
 
@@ -25,9 +27,9 @@ En **[!UICONTROL Configuración de columna]** hay opciones para **[!UICONTROL Mo
 
 ![](assets/column-settings-total.png)
 
-## Configuración total de fila estática {#static-row-total}
+## Configuración total de fila estática  {#static-row-total}
 
-Los totales de [filas estáticas](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) se comportan de forma diferente y se controlan desde **[!UICONTROL Configuración de fila]**.
+Los totales de [filas estáticas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=es-ES) se comportan de forma diferente y se controlan desde **[!UICONTROL Configuración de fila]**.
 
 * **[!UICONTROL Mostrar la suma de las filas actuales como el total]**: muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total **no** eliminará las métricas duplicadas como visitas o visitantes.
 * **[!UICONTROL Mostrar total general]**: muestra una suma del lado del servidor, lo que significa que el total eliminará la duplicación de métricas como visitas o visitantes.
