@@ -2,12 +2,13 @@
 description: Desglose de dimensiones y elementos de dimensión en Analysis Workspace.
 keywords: Analysis Workspace
 title: Desglose de dimensiones
-topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: ht
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
-workflow-type: ht
-source-wordcount: '226'
+feature: Conceptos básicos de Workspace
+role: Profesional empresarial, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
