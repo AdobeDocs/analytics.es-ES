@@ -1,11 +1,13 @@
 ---
 title: Atribución algorítmica
 description: Detalles sobre el modelo de atribución algorítmica.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+feature: Atribución
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 98%
 
 ---
 
