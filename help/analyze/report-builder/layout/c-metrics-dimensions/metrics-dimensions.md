@@ -1,13 +1,14 @@
 ---
 description: En el paso 2 del Asistente para solicitudes se pueden añadir métricas y dimensiones para definir el diseño de Analytics para los datos en la solicitud. La lista de métricas y dimensiones de Report Builder es similar al diseño de menú mostrado en Reports and Analytics.
 title: Resumen de métricas y dimensiones
-topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+feature: Report Builder
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
