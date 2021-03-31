@@ -1,13 +1,14 @@
 ---
 description: El proceso de instalación varía en función del explorador que se use.
 title: Instalación de los complementos del explorador de Activity Map
-topic: Activity map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
-translation-type: ht
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
-workflow-type: ht
-source-wordcount: '399'
-ht-degree: 100%
+feature: Activity Map
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 99%
 
 ---
 
