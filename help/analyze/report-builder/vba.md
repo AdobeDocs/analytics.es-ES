@@ -1,11 +1,13 @@
 ---
 title: Macros de Visual Basic en Report Builder
 description: Expanda la funcionalidad de los libros y Report Builder de Excel mediante VBA.
-translation-type: ht
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: ht
-source-wordcount: '196'
-ht-degree: 100%
+feature: Report Builder
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 98%
 
 ---
 
