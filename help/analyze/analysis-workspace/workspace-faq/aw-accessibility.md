@@ -1,11 +1,13 @@
 ---
 description: Funciones de soporte de accesibilidad en Analysis Workspace
 title: Accesibilidad en Analysis Workspace
+feature: Conceptos básicos de Workspace
+role: Profesional empresarial, Administrador
 translation-type: tm+mt
-source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 82%
+source-wordcount: '666'
+ht-degree: 83%
 
 ---
 
@@ -22,19 +24,19 @@ La accesibilidad se refiere a hacer que personas con discapacidades visuales, au
 
 La navegación en el [!UICONTROL Analysis Workspace] funciona desde arriba a abajo e izquierda a derecha. Los siguientes elementos de navegación facilitan la accesibilidad:
 
-* La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes dentro de Workspace. En el carril izquierdo, `Tab` también permite pasar de una opción arrastrable a la siguiente.
-* El `left/right arrows` desplazamiento entre elementos individuales después de `Tab` resaltarlo.
-* El `F6` navegador se desplaza al primer panel del proyecto y se desplaza entre las visualizaciones de dicho panel. A continuación, pasa al siguiente panel del proyecto y se repite.
+* La tecla `Tab` habilita los métodos abreviados de referencia, moviéndose entre secciones más grandes dentro de Workspace. En el carril izquierdo, `Tab` también le permite pasar de una opción arrastrable a la siguiente.
+* El movimiento `left/right arrows` entre elementos individuales después de que `Tab` lo haya resaltado.
+* El `F6` se desplaza al primer panel del proyecto y se desplaza entre las visualizaciones de ese panel. A continuación, se desplaza al panel siguiente del proyecto y se repite.
 * Aplicamos indicadores de enfoque para que los usuarios de este tipo de teclados tengan una clara indicación de qué elemento de la interfaz de usuario está seleccionado actualmente. El indicador es un borde azul alrededor del elemento seleccionado.
 
    ![Indicador de enfoque](assets/focus-indicator.png)
 
 ### Navegación por teclado para la barra de menús
 
-1. Tabulador hasta que llegue a la barra de menús.
-1. Utilice las teclas de flecha izquierda/derecha para desplazarse al menú que desee.
+1. Tabulador hasta que haya llegado a la barra de menús.
+1. Utilice las teclas de flecha izquierda/derecha para desplazarse hasta el menú que desee.
 1. Pulse `Enter` para seleccionar el menú y mostrar sus opciones.
-1. Utilice las teclas de flecha arriba/abajo para desplazarse a la opción de menú que desee.
+1. Utilice las teclas de flecha arriba/abajo para ir a la opción de menú que desee.
 1. Pulse `Enter` para seleccionar la opción.
 
 ### Navegación por teclado para interacciones de arrastrar y soltar
