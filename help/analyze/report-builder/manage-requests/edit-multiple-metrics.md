@@ -2,8 +2,12 @@
 description: La función Editar métricas en varias solicitudes permite agregar, eliminar o reemplazar métricas fácilmente en una solicitud preexistente o en un grupo de solicitudes.
 title: Editar métricas en varias solicitudes
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 99%
 
 ---
 
@@ -17,14 +21,14 @@ La función Editar métricas en varias solicitudes permite agregar, eliminar o r
 Tenga en cuenta que
 
 * Solo pueden agregarse métricas a solicitudes de diseño de tabla dinámica. Si alguna de las solicitudes seleccionadas es un diseño personalizado, no es posible agregar métricas. El motivo es que Report Builder no sabe en qué parte de la hoja de cálculo colocar la nueva métrica, ya que el diseño es personalizado.
-* Accordingly, if you have selected only Custom Layout requests, the **[!UICONTROL Add Metric/s]** option is not available.
+* Por lo tanto, si únicamente ha seleccionado solicitudes de diseño personalizado, la opción **[!UICONTROL Agregación de métricas]** no está disponible.
 * La agregación de métricas aumenta el tamaño de una solicitud y puede provocar que se solape con otra. Asegúrese de que su solicitud tenga espacio suficiente alrededor para permitir la agregación de métricas.
 * Si la métrica agregada ya está presente en una de las solicitudes seleccionadas, no se agregará a esa solicitud.
 
 Para agregar una o más métricas:
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (O bien, haga clic en **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** para seleccionar el grupo de solicitudes que desea modificar).
-1. Seleccione **[!UICONTROL Add Metric(s)]**y seleccione las métricas que desee agregar.
+1. Seleccione una o más solicitudes en Excel y haga clic con el botón derecho para seleccionar **[!UICONTROL Editar métricas]**. También puede hacer clic en **[!UICONTROL Administrar]** > **[!UICONTROL Editar varios]** > `<choose metric>` > **[!UICONTROL Editar grupo]** para seleccionar el grupo de solicitudes que quiere modificar.
+1. Seleccione **[!UICONTROL Agregar métricas]** y elija las que le interesan.
 
    ![](assets/add_metric.png)
 
@@ -45,9 +49,9 @@ Tenga en cuenta que
 
 Para reemplazar una métrica:
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (O bien, haga clic en **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** para seleccionar el grupo de solicitudes que desea modificar).
+1. Seleccione una o más solicitudes en Excel y haga clic con el botón derecho para seleccionar **[!UICONTROL Editar métricas]**. También puede hacer clic en **[!UICONTROL Administrar]** > **[!UICONTROL Editar varios]** > **`<choose metric>`** > **[!UICONTROL Editar grupo]** para seleccionar el grupo de solicitudes que quiere modificar.
 
-1. Select **[!UICONTROL Replace Metric]**.
+1. Seleccione **[!UICONTROL Reemplazar métrica]**.
 
    ![](assets/replace_metric.png)
 
@@ -65,9 +69,9 @@ Tenga en cuenta que
 
 Para eliminar métricas:
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (O bien, haga clic en **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > **`<choose metric>`** > **[!UICONTROL Edit Group]** para seleccionar el grupo de solicitudes que desea modificar).
+1. Seleccione una o más solicitudes en Excel y haga clic con el botón derecho para seleccionar **[!UICONTROL Editar métricas]**. También puede hacer clic en **[!UICONTROL Administrar]** > **[!UICONTROL Editar varios]** > **`<choose metric>`** > **[!UICONTROL Editar grupo]** para seleccionar el grupo de solicitudes que quiere modificar.
 
-1. Select **[!UICONTROL Remove Metric(s)]**.
+1. Seleccione **[!UICONTROL Eliminar métricas]**.
 
    ![](assets/remove_metric.png)
 
