@@ -1,11 +1,13 @@
 ---
 description: Un panel es una colección de tablas y visualizaciones
 title: Resumen de paneles
-translation-type: ht
-source-git-commit: 272c50040a009d2b69885924e7b1f402636e8889
-workflow-type: ht
-source-wordcount: '1004'
-ht-degree: 100%
+feature: Paneles
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1008'
+ht-degree: 99%
 
 ---
 
