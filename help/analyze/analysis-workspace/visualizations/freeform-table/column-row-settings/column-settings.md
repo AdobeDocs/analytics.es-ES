@@ -2,11 +2,13 @@
 description: La configuración de columna le permite configurar el formato de la columna, aunque algunas opciones de formato pueden ser condicionales.
 title: Configuración de columna
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
+feature: Tablas improvisadas
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: f2c6cda9743094cf198b4449b9163e3004d9e151
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 100%
+source-wordcount: '725'
+ht-degree: 99%
 
 ---
 
