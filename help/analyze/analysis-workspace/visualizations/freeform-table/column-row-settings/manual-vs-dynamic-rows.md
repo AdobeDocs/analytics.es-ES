@@ -1,11 +1,13 @@
 ---
 title: Elementos de dimensión dinámicos o estáticos en tablas improvisadas
 description: Interacción con elementos de dimensión dinámicos y estáticos en tablas.
+feature: Tablas improvisadas
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 97%
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
@@ -52,4 +54,4 @@ Los elementos de dimensión de diferentes dimensiones se pueden agregar a la mis
 Las filas dinámicas y estáticas se comportan de forma diferente en la fila total improvisada. De forma predeterminada:
 
 * Las filas dinámicas se suman a las métricas del lado del servidor y a las duplicadas, como visitas o visitantes
-* Las filas estáticas se suman al lado del cliente y **no** eliminan las métricas duplicadas. Para calcular el total de filas del lado del servidor, cambie la configuración fila a **Mostrar total general**. [Más información](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* Las filas estáticas se suman al lado del cliente y **no** eliminan las métricas duplicadas. Para calcular el total de filas del lado del servidor, cambie la configuración fila a **Mostrar total general**. [Más información](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
