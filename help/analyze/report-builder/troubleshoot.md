@@ -1,13 +1,14 @@
 ---
 description: Métodos para optimizar el servicio de Report Builder y lista de mensajes de error que pueden producirse ocasionalmente.
 title: Solución de problemas y prácticas recomendadas para Report Builder
-topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1404'
+ht-degree: 82%
 
 ---
 
@@ -43,10 +44,10 @@ Report Builder requiere autenticación para crear solicitudes de datos a partir 
 
 Los siguientes factores pueden aumentar la complejidad de la solicitud y dar como resultado un procesamiento más lento.
 
-* **Factores que pueden ralentizar los envíos**: Se programaron demasiados marcadores, paneles y libros de Report Builder en pocas horas. También considere que se programaron demasiados libros de Report Builder aproximadamente al mismo tiempo. Si esto sucede, la cola API del informe se pone como pendiente.
-* **Factores que ralentizan el tiempo de ejecución del libro**:: Aumento significativo en las clasificaciones o aumento del intervalo de fechas de la solicitud con el paso del tiempo.
-* **Causas que dan como resultado un error** en el envío del libro: Fórmulas complejas de Excel en un libro, especialmente aquéllas que implican fecha y hora.
-* **Celdas que devuelven 0 (sin valores)**: Un apóstrofo o una comilla simple en el nombre de la hoja de Excel hará que el creador de informes no devuelva valores. (Se trata de una limitación de Microsoft Excel).
+* **Factores que pueden ralentizar los envíos**: Se programaron demasiados marcadores, tableros y libros de Report Builder en un plazo de pocas horas. Tenga en cuenta también que se programaron demasiados libros de Report Builder alrededor de la misma hora. Si esto sucede, la cola API del informe se pone como pendiente.
+* **Factores que ralentizan el tiempo de ejecución del libro**: Aumento significativo de las clasificaciones o aumento del intervalo de fechas de solicitud a lo largo del tiempo.
+* **Causas que producen un error** en la entrega del libro: Fórmulas complejas de Excel, especialmente aquellas que implican fecha y hora.
+* **Celdas que devuelven 0 (sin valores)**: Un apóstrofo o una comilla simple en el nombre de la hoja de Excel provocará que Report Builder no devuelva valores. (Se trata de una limitación de Microsoft Excel).
 * **Rendimiento de solicitud individual**: La velocidad de procesamiento puede verse afectada por las siguientes configuraciones:
 
    | Configuración | Rendimiento más rápido | Rendimiento más lento |
@@ -75,15 +76,15 @@ Lista de mensajes de error que se pueden producir ocasionalmente al utilizar Rep
 >A continuación se incluye únicamente una selección de los mensajes de error y no una lista exhaustiva. Para obtener más información sobre la resolución de errores, póngase en contacto con su administrador.
 
 * **Esta función solo se puede aplicar en un libro abierto.**: Este mensaje aparece si no hay libros (documentos de hoja de cálculo) abiertos en Excel y se hace clic en uno de los iconos de la barra de herramientas de Report Builder. Asimismo, la barra de herramientas se deshabilitará hasta que se abra una hoja de cálculo. Sin embargo, se puede hacer clic en el icono de ayuda en línea mientras la barra de herramientas esté activada sin que se produzca este error.
-* **En primer lugar, debe salir del[!UICONTROL Asistente para solicitudes]antes activar el[!UICONTROL Administrador de solicitudes].**: A pesar de que el [!UICONTROL Administrador de solicitudes] y el [!UICONTROL Asistente para solicitudes] están vinculados funcionalmente, no es posible comenzar a trabajar con el [!UICONTROL administrador] antes de completar o cancelar las operaciones llevadas a cabo en el [!UICONTROL asistente].
+* **En primer lugar, debe salir del [!UICONTROL Asistente para solicitudes] antes activar el [!UICONTROL Administrador de solicitudes].**: A pesar de que el [!UICONTROL Administrador de solicitudes] y el [!UICONTROL Asistente para solicitudes] están vinculados funcionalmente, no es posible comenzar a trabajar con el [!UICONTROL administrador] antes de completar o cancelar las operaciones llevadas a cabo en el [!UICONTROL asistente].
 * **No hay solicitudes asociadas a este rango.**: Este mensaje de error se produce si se hace clic en el botón [!UICONTROL Desde hoja] del [!UICONTROL Administrador de solicitudes] cuando una celda de la hoja de cálculo no contiene solicitudes. Para identificar qué celdas de la hoja de cálculo contienen solicitudes, haga clic en solicitudes individuales que estén incluidas en la tabla del [!UICONTROL Administrador de solicitudes]. Si una solicitud está asociada con celdas, las celdas aparecerán resaltadas cuando la solicitud se seleccione en la tabla.
 * **El rango seleccionado no es válido. Seleccione otro rango.**: Si una celda de la hoja de cálculo se selecciona y ya tiene una solicitud asignada, se producirá este error. Elimine la solicitud asignada a las celdas o seleccione otro intervalo de celdas para asignar. Si desea eliminar celdas, es importante localizar las que contengan solicitudes y eliminar la solicitud antes de eliminar las celdas (eliminando filas o columnas).
 * **Salga de la celda de Excel seleccionada antes de utilizar esta función.**: Si se encuentra en *modo de edición* en una celda de Excel y hace clic en uno de los iconos de Report Builder, se generará este mensaje de error. Estar en modo de edición en una celda de Excel significa que la celda está seleccionada y que el cursor aparece dentro de la celda. También se está en modo de edición en una celda de Excel cuando se escribe directamente en la barra de [!UICONTROL fórmulas] o en el [!UICONTROL cuadro de nombre] en la parte superior de Excel.
 * **El rango seleccionado se cruza con el rango de otra solicitud. Cambie su selección.**: Este error aparecerá si ya ha asignado un conjunto de celdas a la hoja de cálculo.
-* **Reparaciones al libro (Registros eliminados: Fórmula de /xl/calcChain.xml)**: A veces, las fórmulas de un libro se dañan al guardar o transferir. Cuando se abre el archivo, Excel intenta ejecutar estas fórmulas y falla. Puede resolver este problema eliminando `calcChain.xml` de la hoja de cálculo y obligando a Excel a actualizar los cálculos de la fórmula.
+* **Repara el libro (Registros eliminados: Fórmula de la /xl/calcChain.xml parte)**: A veces, las fórmulas de un libro se dañan al guardar o transferir. Cuando se abre el archivo, Excel intenta ejecutar estas fórmulas y falla. Para resolver este problema, elimine `calcChain.xml` de la hoja de cálculo y Excel deberá actualizar los cálculos de la fórmula.
    1. Cambie el nombre de la extensión de archivo del libro de `.xlsx` a `.zip`.
-   2. Descomprima el contenido y abra la `/xl/` carpeta.
+   2. Descomprima el contenido y abra la carpeta `/xl/` .
    3. Eliminar `calcChain.xml`.
    4. Vuelva a comprimir el contenido y cambie la extensión de archivo a `.xlsx`.
-   5. Abra el libro en Excel y actualice todas las solicitudes de Report Builder.
-* **Es posible que se hayan eliminado** las celdas de Excel asociadas con los filtros de entrada o el rango de salida: El Report Builder utiliza los nombres de Excel para adjuntar solicitudes de datos a las celdas. Si elimina los nombres de Excel del Administrador de nombres, verá este error. Las solicitudes no se pueden recuperar si se eliminan los nombres de Excel. Si el libro estaba programado, puede descargar una copia del Administrador de programación o abrir copias enviadas anteriormente del libro.
+   5. Abra el libro en Excel y actualice todas las solicitudes del Report Builder.
+* **Las celdas de Excel asociadas con los filtros de entrada o el rango de salida pueden haberse eliminado**: El Report Builder utiliza los nombres de Excel para adjuntar solicitudes de datos a las celdas. Si elimina Nombres de Excel del Administrador de nombres, verá este error. Las solicitudes no se pueden recuperar si se eliminan los nombres de Excel. Si el libro estaba programado, puede descargar una copia del Administrador de programación o abrir copias enviadas anteriormente del libro.
