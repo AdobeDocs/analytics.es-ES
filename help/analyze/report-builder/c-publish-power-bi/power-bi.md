@@ -2,11 +2,13 @@
 description: Use Report Builder con Microsoft Power BI.
 title: Resumen de publicación en Power BI
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '1026'
-ht-degree: 100%
+feature: Report Builder
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1031'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +19,7 @@ Microsoft Power BI es un conjunto de tableros de análisis empresarial para anal
 
 Anteriormente, el analista programaba el envío de libros de Report Builder mediante correo electrónico (o ftp). Ahora, las personas que usted determine pueden emplear sus cuentas de Power BI para obtener acceso a datos precisos y actualizados de su empresa mediante un entorno basado en web, disponible desde distintas plataformas y dispositivos.
 
-Al combinar las capacidades de generación de Report Builder con las características de visualización de Power BI, la información se hace más accesible para todos los miembros de la organización. Power BI también le permite integrar Adobe Analytics con otras fuentes de datos (p. ej., puntos de venta, CRM) para descubrir datos, asociaciones y oportunidades únicas relativas a los clientes.
+Al combinar las capacidades de generación de Report Builder con las características de visualización de Power BI, la información se hace más accesible para todos los miembros de la organización. Power BI también le permite integrar Adobe Analytics con otras fuentes de datos (p. ej., puntos de venta, CRM) para descubrir datos, asociaciones y oportunidades relativos a los clientes únicos.
 
 ![](assets/aaplusbi.png)
 
