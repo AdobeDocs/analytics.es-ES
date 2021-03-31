@@ -1,13 +1,14 @@
 ---
 description: Los filtros le permiten reducir el informe para incluir o excluir elementos de línea que concuerden con un filtro.
 title: Filtrado de datos de los informes
-topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
+feature: Conceptos básicos de Reports & Analytics
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 99%
 
 ---
 
