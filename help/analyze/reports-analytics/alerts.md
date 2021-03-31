@@ -2,12 +2,13 @@
 description: Utilizar alertas en Reports & Analytics.
 subtopic: Alerts
 title: Alertas
-topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
+feature: Alertas
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '889'
 ht-degree: 99%
 
 ---
@@ -82,7 +83,7 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>Alertas de visitantes únicos basadas en el tiempo (Diario, Semanal, Mensual, etc. Visitantes únicos) </p> <p> </p> </td> 
    <td colname="col2"> <p>Cree alertas para los informes de visitantes únicos por horas, diarios, semanales y mensuales. </p> </td> 
-   <td colname="col3"> <p>En el nuevo Administrador de alertas, ya no serán compatibles algunas de las alertas de Visitantes únicos basadas en el tiempo. Por ejemplo, donde anteriormente podía establecer una alerta semanal para los Visitantes únicos diarios, ahora puede establecer una alerta diaria, semanal, etc. sobre la métrica Visitantes únicos en adelante. (Analysis Workspace admite la métrica Visitantes únicos, pero no las métricas de Visitantes únicos diarios/semanales/mensuales/etc.) </p> <p> </p> </td> 
+   <td colname="col3"> <p>En el nuevo Administrador de alertas, ya no serán compatibles algunas de las alertas de Visitantes únicos basadas en el tiempo. Por ejemplo, donde anteriormente podía establecer una alerta semanal para los Visitantes únicos diarios, ahora puede establecer una alerta diaria, semanal, etc. sobre la métrica Visitantes únicos en adelante. (Analysis Workspace admite la métrica Visitantes únicos, pero no las métricas de Visitantes únicos métricas de visitantes únicos). </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Buscar </p> </td> 
