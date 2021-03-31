@@ -2,11 +2,13 @@
 description: Puede depurar, compartir y programar proyectos PDF/CSV para destinatarios de su organización.
 title: Menú Compartir
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: ht
-source-git-commit: 63efd2f046ac43640a9dd0fe2b3ee9fa3f182a8f
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+feature: Depurar y compartir
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 98%
 
 ---
 
