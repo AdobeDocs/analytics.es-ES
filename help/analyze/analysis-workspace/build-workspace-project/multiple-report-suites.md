@@ -1,16 +1,18 @@
 ---
-title: Varios grupos de informes
+title: Múltiples grupos de informes
 description: Descubra cómo y por qué crear proyectos en Workspace con varios grupos de informes
+feature: Conceptos básicos de Workspace
+role: Profesional empresarial, Administrador
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 98%
+source-wordcount: '528'
+ht-degree: 100%
 
 ---
 
 
-# Varios grupos de informes
+# Múltiples grupos de informes
 
 Ahora puede crear proyectos en Analysis Workspace con datos de más de un grupo de informes. Los grupos de informes ahora se eligen en el panel, por lo que puede elegir un grupo de informes diferente para cada panel dentro del mismo proyecto de Workspace.
 
