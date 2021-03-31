@@ -1,13 +1,14 @@
 ---
 description: Pasos para detener el seguimiento de los vínculos en Activity Map o en ClickMap preexistente.
 title: Detener el seguimiento de vínculos
-topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '74'
-ht-degree: 100%
+feature: Activity Map
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 96%
 
 ---
 
