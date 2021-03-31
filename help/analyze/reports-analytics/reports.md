@@ -1,11 +1,13 @@
 ---
 title: Informes
 description: Dimensiones y métricas que utiliza Reports & Analytics para cada informe.
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '1863'
-ht-degree: 100%
+feature: Informes & Aspectos básicos de Analytics
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1869'
+ht-degree: 99%
 
 ---
 
