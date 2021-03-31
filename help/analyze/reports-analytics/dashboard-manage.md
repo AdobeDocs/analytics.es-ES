@@ -2,13 +2,14 @@
 description: Utilice el administrador de paneles para copiar, compartir, archivar y programar tableros para su envío.
 subtopic: Dashboards
 title: Administrador de tableros
-topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
+feature: Informes
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '796'
+ht-degree: 99%
 
 ---
 
