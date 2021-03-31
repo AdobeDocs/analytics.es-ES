@@ -1,14 +1,15 @@
 ---
 description: Cada una de las tablas de comparación principales muestra una puntuación diferente que se calcula mediante varias pruebas estadísticas, dependiendo de la comparación que se realice; no obstante, independientemente de la prueba que se utilice, la puntuación de diferencia se muestra como un valor entre 0 y 1.
-keywords: Analysis Workspace;Segment IQ
+keywords: Analysis Workspace;IQ de segmento
 title: Pruebas estadísticas utilizadas en la comparación de segmentos
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
