@@ -1,10 +1,14 @@
 ---
 description: Los controles interactivos le permiten editar segmentos e intervalos de fechas de una o más solicitudes directamente desde la hoja de cálculo. Esto le proporciona una mayor flexibilidad cuando actualiza las solicitudes de Report Builder.
 title: Controles interactivos
-topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +27,7 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 >Debe tener Report Builder 5.0 instalado para que funcionen los controles interactivos. >
 >* Si ejecuta Microsoft Excel en Windows pero ejecuta una versión anterior de Report Builder, o si no lo tiene instalado: puede cambiar el valor en el control interactivo pero no se actualizará en la solicitud asociada, ni se actualizarán los parámetros asociados a la solicitud.
 >* Si ejecuta Excel en Mac y cambia el valor en el control provocará que se muestre el siguiente mensaje: “No se encuentra la macro &#39;Adobe.ReportBuilder.Bridge.FormControlClick.Event’”.
+
 >
 
 
@@ -33,8 +38,8 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 
 ## Implementar el control de intervalo de fechas interactivo {#section_39B228F2D2C44985863D31424C953280}
 
-1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report.
-1. Al lado de la **[!UICONTROL Commonly Used Dates]** lista desplegable, haga clic en el **[!UICONTROL Control Settings]** icono:
+1. En el paso 1 del Asistente para solicitudes, seleccione, por ejemplo, el informe **[!UICONTROL Página]**.
+1. Junto al menú desplegable de **[!UICONTROL Fechas más utilizadas]**, haga clic en el icono **[!UICONTROL Configuración de controles]**:
 
    ![](assets/date_range_control.png)
 
@@ -47,16 +52,16 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
    * Si esta opción está activada, se actualizan todas las solicitudes que utilizan este control.
    * Si no está activada, los parámetros de solicitud asociados se actualizan, pero la solicitud no se actualiza.
 
-1. Haga clic en **[!UICONTROL OK]**. Aparece el control en la ubicación de la celda que haya especificado:
+1. Haga clic en **[!UICONTROL Aceptar]**. Aparece el control en la ubicación de la celda que haya especificado:
 
    ![](assets/date_range_control_interactive.png)
 
 1. Ahora puede cambiar el intervalo de fechas y la solicitud se actualizará con ese intervalo de fechas.
 1. También puede copiar la solicitud y hacer clic con el botón derecho para utilizar una de las dos opciones de Pegar solicitud:
 
-   * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. Esto significa que la solicitud copiada señalará al mismo control de fecha interactivo que la solicitud original.
+   * **[!UICONTROL Pegar solicitud]** > **[!UICONTROL Utilizar celda de entrada absoluta]**. Esto significa que la solicitud copiada señalará al mismo control de fecha interactivo que la solicitud original.
 
-   * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. Esto significa que la solicitud copiada señalará a su propio control.
+   * **[!UICONTROL Pegar solicitud]** > **[!UICONTROL Utilizar celda de entrada relativa]**. Esto significa que la solicitud copiada señalará a su propio control.
 
       >[!NOTE]
       >
@@ -66,7 +71,7 @@ Los controles interactivos se crearon en respuesta al flujo de trabajo común do
 
 Implementar el control de segmento interactivo es similar a implementar el control de intervalo de fechas.
 
-1. In Step 1 of the Request Wizard, next to the **[!UICONTROL Segment]** drop-down list, select the Segment Control Settings icon:
+1. En el paso 1 del Asistente para solicitudes, junto a la lista desplegable de **[!UICONTROL Segmento]**, seleccione el icono de Configuración de controles del segmento:
 
    ![](assets/segment_interactive_1.png)
 
