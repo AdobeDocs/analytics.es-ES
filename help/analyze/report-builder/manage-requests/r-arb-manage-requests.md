@@ -1,13 +1,14 @@
 ---
 description: Descripción de los campos para administrar solicitudes en Report Builder.
 title: 'Administrar solicitudes: definiciones'
-topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +50,7 @@ El [!UICONTROL Administrador de solicitudes] se muestra al hacer clic en **[!UIC
    <td colname="col2"> <p>Muestra el nombre del grupo de informes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Intervalo de fecha </p> </td> 
+   <td colname="col1"> <p>Intervalo de fechas </p> </td> 
    <td colname="col2"> <p>Muestra el intervalo de fecha especificado del informe. </p> </td> 
   </tr> 
   <tr> 
