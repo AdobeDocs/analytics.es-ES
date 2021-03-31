@@ -2,8 +2,13 @@
 description: Puede ver anomalías en una tabla o un gráfico de líneas.
 title: Visualización de anomalías en Analysis Workspace
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
+feature: Herramientas de IA
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +42,7 @@ Si cuenta con múltiples métricas en el gráfico de líneas, solo se muestran l
 
 El intervalo de confianza de detección de anomalías no escala automáticamente el eje Y de una visualización para conseguir que el gráfico sea más legible.
 
-Tiene la opción de permitir que el intervalo de confianza escale el gráfico. Haga clic en el icono Configuración (engranaje) y marque **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**.
+Tiene la opción de permitir que el intervalo de confianza escale el gráfico. Solo tiene que hacer clic en el icono de Configuración (engranaje) y marcar **[!UICONTROL Permitir que Detección de anomalías escale el eje Y]**.
 
 ![](assets/scale-y-axis.png)
 
