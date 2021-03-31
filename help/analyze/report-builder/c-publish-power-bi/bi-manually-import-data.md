@@ -2,8 +2,13 @@
 description: Si quiere importar manualmente datos de Analytics en Power BI, siga las siguientes instrucciones.
 title: Importar manualmente datos en Power BI
 uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Report Builder
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 96%
 
 ---
 
