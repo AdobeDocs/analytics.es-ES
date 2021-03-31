@@ -1,13 +1,14 @@
 ---
 description: Introducción a los términos de análisis web que se usan más frecuentemente en los informes de marketing.
 title: Términos comunes
-topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+feature: Informes,Reports and Analytics
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +51,7 @@ Introducción a los términos más utilizados de Adobe Analytics.
   </tr> 
   <tr> 
    <td> <p> Visitante único </p> </td> 
-   <td> <p>Los informes de visitante único indican la cantidad de personas distintas que visitaron el sitio durante un tiempo especificado. Hay seis informes de visitante único: </p> 
+   <td> <p>Los informes de visitante único indican la cantidad de personas distintas que visitaron el sitio durante un tiempo especificado. Hay seis informes de visitantes únicos: </p> 
     <ul id="ul_863B8DE8B9E74DE4A93C2C2931EEFB6D"> 
      <li id="li_21C835B71EF64B4DA821B674416C8B85">Por hora </li> 
      <li id="li_36A498AE7D7A455C8DEB3AA0F025B597">Diario </li> 
@@ -58,7 +59,7 @@ Introducción a los términos más utilizados de Adobe Analytics.
      <li id="li_09263F6B1E114A8DB477793B560A0417">Mensual </li> 
      <li id="li_A0B2CA3D44564045B02B55AF6E392F76">Trimestral </li> 
      <li id="li_296BC5B02921460690F35128B1192800">Anual </li> 
-    </ul> <p>Aunque una persona utilice el sitio varias veces y vea varias páginas durante un periodo de tiempo especificado, el informe Visitantes únicos registra a la persona como un único visitante. </p> <p> <b>Anulación de duplicación de visitantes</b>: la recopilación de datos anula la duplicación de visitantes basándose en el título del informe, independientemente de la selección del calendario. Por ejemplo, un visitante que visita en cuatro días distintos dentro de una semana de informe se cuenta como uno en el <span class="wintitle">Informe Visitante único semanal</span>. En un <span class="wintitle">Informe Visitante único diario</span> que abarca esa semana, el mismo visitante se contará cuatro veces. </p> </td> 
+    </ul> <p>Aunque una persona utilice el sitio varias veces y vea varias páginas durante un periodo de tiempo especificado, el Informe de visitantes únicos registra a la persona como un visitante único. </p> <p> <b>Anulación de duplicación de visitantes</b>: la recopilación de datos anula la duplicación de visitantes basándose en el título del informe, independientemente de la selección del calendario. Por ejemplo, un visitante que visita en cuatro días distintos dentro de una semana de informe se cuenta como uno en el <span class="wintitle">Informe de visitantes únicos semanales</span>. En un <span class="wintitle">Informe de visitantes únicos diarios</span> que abarca esa semana, el mismo visitante se contará cuatro veces. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Eventos de conversión (éxito) </p> </td> 
