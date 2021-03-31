@@ -1,11 +1,13 @@
 ---
 title: Modelos de atribución y ventanas retroactivas
-description: Cómo los diferentes tipos de atribución dividen el crédito entre elementos de dimensión.
+description: Los diferentes tipos de atribución dividen el crédito entre los elementos de dimensión.
+feature: Atribución
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 1da5f5d0d82f8a84c28df3ed635502cbee1fd2db
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 95%
+source-wordcount: '1488'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +31,7 @@ El concepto de atribución en Adobe Analytics requiere dos componentes:
 | ![Forma de J](assets/j_shaped.png) | Forma de J | Otorga un 60% de crédito a la última interacción, un 20% de crédito a la primera interacción y divide el 20% restante en cualquier punto de contacto intermedio. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. Para las conversiones con dos puntos de contacto, se otorga un 75% de crédito a la última interacción y un 25% de crédito a la primera. | Este modelo es ideal para aquellos que dan prioridad a los buscadores y cerradores, pero que quieren centrarse en cerrar interacciones. La atribución de Forma de J la suelen utilizar equipos que adoptan un enfoque más equilibrado y desean dar más crédito a canales que cerraron una conversión. |
 | ![Forma J inversa](assets/inverse_j.png) | J inversa | Otorga un 60% de crédito al primer contacto, un 20% al último contacto y divide el 20% restante en cualquier punto de contacto intermedio. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. Para las conversiones con dos puntos de contacto, se otorga un 75% de crédito a la primera interacción y un 25% de crédito a la última. | Este modelo es ideal para aquellos que dan prioridad a los buscadores y cerradores, pero que desean centrarse en encontrar interacciones. La atribución de J inversa la suelen utilizar equipos que adoptan un enfoque más balanceado y desean dar más crédito a canales que iniciaron una conversión. |
 | ![Personalizado](assets/custom.png) | Personalizado | Permite especificar el valor que desea dar a los puntos de primer contacto, los puntos de último contacto y los puntos de contacto intermedios. Los valores especificados se normalizan al 100% incluso si los números introducidos no suman 100. Para las conversiones con un solo punto de contacto, se otorga un 100% de crédito. En el caso de interacciones con dos puntos de contacto, se omite el parámetro central. Los puntos de primer y último contacto se normalizan al 100% y el crédito se asigna en consecuencia. | Este modelo es perfecto para aquellos que quieren un control total sobre su modelo de atribución y tienen necesidades específicas que otros modelos de atribución no satisfacen. |
-| ![Deterioro de tiempo](assets/time_decay.png) | Declive temporal | Sigue una decadencia exponencial con un parámetro de semivida personalizado, donde el valor predeterminado es 7 días. El valor de cada canal depende de la cantidad de tiempo que transcurra entre el inicio del punto de contacto y la conversión final. La fórmula utilizada para determinar el crédito es `2^(-t/halflife)`, donde `t` es la cantidad de tiempo entre un punto de contacto y una conversión. A continuación, todos los puntos de contacto se normalizan al 100%. | Bueno para equipos que periódicamente ejecutan anuncios en vídeo o que comercializan con eventos con una fecha predeterminada. Cuanto más tardía sea la conversión después de un evento de marketing, menor será el crédito. |
+| ![Deterioro de tiempo](assets/time_decay.png) | Declive temporal | Sigue un declive exponencial con un parámetro de semivida personalizado, donde el valor predeterminado es de 7 días. El valor de cada canal depende de la cantidad de tiempo que transcurra entre el inicio del punto de contacto y la conversión final. La fórmula utilizada para determinar el crédito es `2^(-t/halflife)`, donde `t` es la cantidad de tiempo entre un punto de contacto y una conversión. A continuación, todos los puntos de contacto se normalizan al 100%. | Bueno para equipos que periódicamente ejecutan anuncios de vídeo o que comercializan eventos con una fecha predeterminada. Cuanto más tardía sea la conversión después de un evento de marketing, menor será el crédito. |
 | ![Participación](assets/participation.png) | Participación | Otorga un 100% de crédito a todos los puntos de contacto únicos. El número total de conversiones está incrementado en comparación con otros modelos de atribución. La participación anula la duplicación de los canales vistos varias veces. | Excelente para comprender con qué frecuencia los clientes están expuestos a una interacción determinada. Los medios suelen utilizar este modelo para calcular la velocidad de contenido. Los comercios suelen utilizar este modelo para comprender qué partes de sus sitios son esenciales para la conversión. |
 | ![Algorítmico](assets/algorithmic.png) | [Algorítmico](algorithmic.md) | Utiliza técnicas estadísticas para determinar de manera dinámica la asignación óptima de crédito para la métrica seleccionada. | Es útil para evitar conjeturas o tareas de ensayo y error al elegir el modelo de atribución adecuado para su negocio. |
 
@@ -41,7 +43,7 @@ Una ventana retrospectiva es la cantidad de tiempo que una conversión debe devo
 
 * **Ventana retrospectiva de visitantes:** Busca todas las visitas hasta el primer día del mes del intervalo de fechas actual. Las ventanas retrospectivas de visitantes son amplias, ya que pueden abarcar muchas visitas. La ventana retrospectiva de visitantes tiene en cuenta todos los valores desde el comienzo del mes del intervalo de fechas del informe. Por ejemplo, si el intervalo de fechas del informe es del 15 de septiembre al 30 de septiembre, el intervalo de fechas de retrospectiva de visitante sería del 1 de septiembre al 30 de septiembre.
 
-* **Ventana retroactiva personalizada:** Permite expandir la ventana de atribución más allá del intervalo de fechas de sistema de informes, hasta un máximo de 90 días. Las ventanas retrospectivas personalizadas se evalúan en cada conversión del periodo del sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de la dimensión del 10 al 20 de febrero en el modelo de atribución.
+* **Ventana retrospectiva personalizada:** permite expandir la ventana de atribución más allá del intervalo de fechas del informe, hasta un máximo de 90 días. Las ventanas retrospectivas personalizadas se evalúan en cada conversión del periodo del sistema de informes. Por ejemplo, para una conversión que se produce el 20 de febrero, una ventana retrospectiva de 10 días evaluaría todos los puntos de contacto de la dimensión del 10 al 20 de febrero en el modelo de atribución.
 
 ## Ejemplo
 
