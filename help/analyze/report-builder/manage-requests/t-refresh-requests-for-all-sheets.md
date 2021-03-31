@@ -1,10 +1,14 @@
 ---
 description: Las solicitudes se pueden actualizar para todas las hojas o para varias solicitudes.
 title: Actualizar las solicitudes de todas las hojas
-topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +21,7 @@ Para poder actualizar todas las solicitudes, debe tener acceso a todos los grupo
 
 Cuando se actualizan varias solicitudes, el sistema recopila y prioriza las solicitudes en función de si una solicitud es original o dependiente. El sistema muestra mensajes sobre el progreso de la actualización. El proceso de actualización puede durar varios minutos, dependiendo de la cantidad de datos que se esté solicitando.
 
-1. Haga clic en **[!UICONTROL Manage]**.
-1. Activar **[!UICONTROL All Sheets]**.
-1. Haga clic en **[!UICONTROL Refresh]**.
-1. Specify a date reference, then click **[!UICONTROL OK]**.
+1. Haga clic en **[!UICONTROL Administrar]**.
+1. Active **[!UICONTROL Todas las hojas]**.
+1. Haga clic en **[!UICONTROL Actualizar]**.
+1. Especifique un intervalo de fechas y luego haga clic en **[!UICONTROL Aceptar]**.
