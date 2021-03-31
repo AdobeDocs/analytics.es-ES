@@ -1,10 +1,14 @@
 ---
 description: Describe cómo crear informes de ruta con filtros predefinidos.
 title: Filtrado de informes de ruta añadiendo solicitudes dependientes
-topic: Report builder
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 98%
 
 ---
 
@@ -13,9 +17,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Describe cómo crear informes de ruta con filtros predefinidos.
 
-Informes y análisis de marketing oferta algunos informes independientes que son informes de rutas principales con filtros predefinidos, como [!UICONTROL Next] informes y [!UICONTROL Previous Site Section] entradas, [!UICONTROL Exit Site Section] informes y [!UICONTROL Single Site Section] informes.
+Reports &amp; Analytics de marketing ofrece algunos informes independientes que son informes de ruta principal con filtros predefinidos, como por ejemplo [!UICONTROL Sección del sitio siguiente] y [!UICONTROL Sección del sitio anterior], Sección del sitio de entrada y [!UICONTROL Sección del sitio de salida], o [!UICONTROL Sección única del sitio].
 
-Report Builder does not offer these as standalone reports, but you can create them through the **[!UICONTROL Add dependent request]** > **[!UICONTROL Path]** context menus. Están disponibles los siguientes informes:
+Report Builder no ofrece estos informes independientes, pero puede crearlos en los menús contextuales **[!UICONTROL Añadir solicitud dependiente]** > **[!UICONTROL Ruta]**. Están disponibles los siguientes informes:
 
 * Ruta > Página Visitas
 * Ruta > Ruta de entrada
@@ -27,12 +31,12 @@ Report Builder does not offer these as standalone reports, but you can create th
 * Ruta > Ruta de entrada > Como página de entrada
 * Ruta > Ruta de salida > Como página de salida
 
-1. Seleccione varias filas de una solicitud existente y haga clic con el botón secundario **[!UICONTROL Add Dependent Request]** > **[!UICONTROL Path]**.
+1. Seleccione múltiples filas de una solicitud existente, a continuación, haga clic con el botón derecho en **[!UICONTROL Añadir una solicitud dependiente]** > **[!UICONTROL Ruta]**.
 
-   (Note that you have to select at least 3 rows if you want to see the **[!UICONTROL Page Fallout]** menu item.)
+   (Tenga en cuenta que debe seleccionar al menos 3 filas si desea ver el elemento de menú **[!UICONTROL Visitas en el orden previsto de la página]**).
 
    ![](assets/dependen_request.png)
 
-1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
+1. Seleccione el filtro predefinido, por ejemplo **[!UICONTROL Página anterior]**.
 
    Aparece el Asistente para solicitudes con la métrica Página anterior ya seleccionada. 1. Siga perfeccionando la solicitud en el Asistente para solicitudes y genere su solicitud.
