@@ -2,13 +2,14 @@
 description: La opción Incluir datos actuales de Reports & Analytics le permite ver los datos de Analytics más recientes, con frecuencia antes incluso de que dichos datos se hayan completado y procesado totalmente. Datos actuales muestra la mayoría de las métricas en cuestión de minutos y proporciona datos procesables que facilitan una toma de decisiones rápida.
 subtopic: Current Data
 title: Datos actuales
-topic: Reports
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
+feature: Conceptos básicos de Reports & Analytics
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 97%
+source-wordcount: '572'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +26,7 @@ Datos actuales está habilitado de forma predeterminada en todos los informes co
 
 * Utilice Analysis Workspace, que usa datos completamente procesados.
 * Haga clic en “No” en la configuración del informe de datos actual para utilizar solamente los datos completamente procesados.
-* Elimine el elemento de permiso “Datos actuales” de un perfil de producto en Admin Console para evitar que los usuarios que no son administradores vean esta opción. Consulte [Permisos de perfil de productos para las herramientas de Analytics](/help/admin/admin-console/permissions/analytics-tools.md) en la guía del usuario de administración para obtener más información.
+* Elimine el elemento de permiso “Datos actuales” de un perfil de producto en Admin Console para evitar que los usuarios que no son administradores vean esta opción. Consulte [Permisos de perfil de producto para herramientas de Analytics](/help/admin/admin-console/permissions/analytics-tools.md) en la guía de usuario de administración para obtener más información.
 
 Los datos actuales no se pueden utilizar actualmente con segmentos, clasificaciones, desgloses, rutas y algunas métricas. debido a la disponibilidad de los datos con prioridad, Si se utiliza una de estas características, los datos actuales aparecen como “No” en el informe y se muestra un aviso amarillo que explica por qué no se encuentran disponibles los datos actuales.
 
