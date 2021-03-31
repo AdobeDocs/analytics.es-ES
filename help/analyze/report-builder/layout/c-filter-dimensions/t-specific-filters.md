@@ -1,13 +1,14 @@
 ---
 description: Filtros que aplican términos de dimensión específicos.
 title: Filtros específicos
-topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 91%
+source-wordcount: '321'
+ht-degree: 90%
 
 ---
 
@@ -36,6 +37,6 @@ Se puede buscar en elementos de dimensión específicos mediante la creación de
    * **Desde la lista:** permite seleccionar datos desde una lista en la que se puede añadir información.
 1. Si activa **[!UICONTROL Desde la lista]**, seleccione cualquier elemento disponible de la lista, o bien haga clic en **[!UICONTROL Añadir]**.
 
-   When you click **[!UICONTROL Add]**, the [!UICONTROL Select From List] form displays a list of available dimension items for the current request date range, limited to the first 10,000 items. Se puede buscar entre estos elementos o hacer clic en **[!UICONTROL Más...]**, con lo que muestra el [!UICONTROL formulario de búsqueda] para crear una búsqueda más detallada de dimensiones.
+   Al hacer clic en **[!UICONTROL Agregar]**, el formulario [!UICONTROL Seleccionar de la lista] muestra una lista de elementos de dimensión disponibles para el intervalo de fechas de la solicitud actual, limitado a los primeros 10.000 elementos. Se puede buscar entre estos elementos o hacer clic en **[!UICONTROL Más...]**, con lo que muestra el [!UICONTROL formulario de búsqueda] para crear una búsqueda más detallada de dimensiones.
 1. En [!UICONTROL Seleccionar desde lista], haga clic en **[!UICONTROL Aceptar]**.
 1. En el formulario [!UICONTROL Seleccionar página], guarde el filtro específico si lo desea y, a continuación, haga clic en **[!UICONTROL Aceptar]**.
