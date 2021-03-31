@@ -1,10 +1,14 @@
 ---
 description: Utilice desgloses cuando quiera obtener más información sobre la relación que tiene un segmento o artículo de un informe con otros informes. Generalmente, esto se denomina “desglosar” un informe mediante otro informe.
 title: Desgloses
-topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
+feature: Conceptos básicos de Reports & Analytics
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '299'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +21,7 @@ Un ejemplo es el desglose de un informe de tráfico personalizado llamado Grupo 
 
 Si desglosa un informe por  *`Referrer Type`*, es posible que vea un punto de datos para *`Inside Your Site`*. Este valor indica una página de referente que se encuentra en la lista de filtros URL internos. Consulte [Filtros URL internos](/help/admin/admin/internal-url-filter-admin.md) en la referencia del administrador.
 
-Puede desglosar cualquier variable de Analytics (eVar o propiedad) mediante cualquier otra variable. The **[!UICONTROL Breakdown By]** menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
+Puede desglosar cualquier variable de Analytics (eVar o propiedad) mediante cualquier otra variable. El menú **[!UICONTROL Desglosar por]** de la tabla de informes es igual que el menú estándar de informes de Analytics, para mantener la coherencia.
 
 ## Ejecutar un informe de desglose {#task_F685624830E64C829C8BE6435A107F69}
 
@@ -29,11 +33,11 @@ t_reports_breakdown.xml
 
  -->
 
-1. Abra el informe, como **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**.
-1. In the report table, click the **[!UICONTROL Breakdown By]** icon.
+1.  Abra un informe, como **[!UICONTROL Análisis]** > **[!UICONTROL Informes]** > **[!UICONTROL Contenido del sitio]** > **[!UICONTROL Páginas]**.
+1. En la tabla del informe, haga clic en el icono **[!UICONTROL Desglosar por]**.
 
-   If the **[!UICONTROL Breakdown By]** icon is not visible, the feature is either not available or not enabled.
+   Si no está visible el icono **[!UICONTROL Desglosar por]**, la función no está disponible o no está habilitada.
 
    ![](assets/breakdown.png)
 
-   The **[!UICONTROL Breakdown By]** menu displays all available breakdown options available for the current report.
+   El menú **[!UICONTROL Desglosar por]** muestra todas las opciones de desglose disponibles para el informe actual.
