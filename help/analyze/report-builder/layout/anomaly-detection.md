@@ -1,13 +1,14 @@
 ---
 description: La detección de anomalías usa el modelado estadístico para buscar automáticamente tendencias inesperadas en sus datos. El modelo analiza las métricas y determina un límite inferior, límite superior y rango esperado de valores. Cuando hay un pico o una caída inesperados, el sistema le alerta en el informe.
 title: Detección de anomalías
-topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+feature: Report Builder
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 99%
 
 ---
 
