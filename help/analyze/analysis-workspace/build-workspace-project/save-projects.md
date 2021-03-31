@@ -1,10 +1,12 @@
 ---
 description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como y guardar como plantilla.
 title: Guardar proyectos
-translation-type: ht
-source-git-commit: a70f2c6c8aecae9a8a4e22e460dd2b8e6b885db9
-workflow-type: ht
-source-wordcount: '313'
+feature: Conceptos básicos de Workspace
+role: Profesional empresarial, Administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '318'
 ht-degree: 100%
 
 ---
