@@ -1,13 +1,14 @@
 ---
 description: La ficha Detalles de página muestra el informe de página en forma de tabla y el informe de flujo de página como una pajarita (o mariposa).
 title: Detalles de página
-topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '245'
-ht-degree: 100%
+feature: Activity Map
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '250'
+ht-degree: 98%
 
 ---
 
