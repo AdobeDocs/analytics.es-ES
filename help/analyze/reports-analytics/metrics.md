@@ -1,13 +1,14 @@
 ---
 description: Las métricas son la base de los informes, ya que ayudan a ver y a comprender las relaciones que hay entre los datos y permiten las comparaciones paralelas de diferentes conjuntos de datos relacionados con el sitio Web. Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc.
 title: Métricas
-topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
+feature: Conceptos básicos de Reports & Analytics
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 98%
 
 ---
 
