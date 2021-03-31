@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: Borre los valores de las variables del objeto de seguimiento.
+description: Borra los valores siguientes del objeto de instancia. Esta función elimina los elementos (los establece como “undefined”).
 translation-type: tm+mt
-source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 95%
+source-wordcount: '168'
+ht-degree: 100%
 
 ---
 
