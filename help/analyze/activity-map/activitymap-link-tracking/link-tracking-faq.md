@@ -1,13 +1,14 @@
 ---
 description: Preguntas frecuentes sobre el seguimiento de vínculos en Activity Map.
 title: Preguntas frecuentes sobre el seguimiento de vínculos
-topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+feature: Activity Map
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 99%
 
 ---
 
