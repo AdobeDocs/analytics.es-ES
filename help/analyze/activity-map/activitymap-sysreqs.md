@@ -1,13 +1,14 @@
 ---
 description: Activity Map es compatible con los siguientes exploradores web.
 title: Sistemas compatibles y requisitos
-topic: Activity map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
+feature: Activity Map
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 60%
+source-wordcount: '116'
+ht-degree: 59%
 
 ---
 
@@ -16,11 +17,11 @@ ht-degree: 60%
 
 Activity Map es compatible con los siguientes exploradores web.
 
-| Exploradores compatibles | Versión |
+| Exploradores admitidos | Versión |
 |--- |--- |
 | Internet Explorer | Última versión |
 | Firefox | Última versión |
-| Chrome | Última versión. Nota:  El complemento Activity Map Chrome es un complemento de &quot;modo desarrollador&quot; solo en este momento. Al iniciar este complemento, recibirá un mensaje que le anima a desactivar las extensiones del modo de desarrollador. Este mensaje se mostrará cada vez que se inicie el complemento. |
+| Chrome | Última versión. Nota:  El complemento Activity Map Chrome es un complemento de &quot;modo de desarrollador&quot; solo en este momento. Al iniciar este complemento, verá un mensaje que le anima a desactivar las extensiones del modo de desarrollador. Este mensaje se muestra cada vez que se inicie el complemento. |
 
 >[!NOTE]
 >
