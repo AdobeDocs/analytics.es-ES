@@ -1,11 +1,13 @@
 ---
 description: Instrucciones para usar los informes de valoración de los paneles.
 title: Guía del usuario ejecutivo sobre paneles de Adobe Analytics
+feature: Tableros de Analytics
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 2a1d3234444dbacb9cb68d85bd00527b2609d1c7
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 99%
 
 ---
 
