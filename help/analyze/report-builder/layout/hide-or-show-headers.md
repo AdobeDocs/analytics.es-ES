@@ -1,10 +1,14 @@
 ---
 description: Este procedimiento describe cómo se pueden ocultar o mostrar los encabezados.
 title: Ocultar o mostrar encabezados
-topic: Report builder
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
+feature: Report Builder
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 93%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Este procedimiento describe cómo se pueden ocultar o mostrar los encabezados.
 
-Haga clic **[!UICONTROL Hide/Show]** en la salida [!UICONTROL Pivot Layout] o [!UICONTROL Custom Layout] del [!UICONTROL Request Wizard: Step 2] formulario.
+Haga clic en **[!UICONTROL Ocultar/Mostrar]** en el [!UICONTROL diseño de tabla dinámica] o [!UICONTROL diseño personalizado] en el formulario del [!UICONTROL Asistente para solicitudes: Paso 2].
 
 ![](assets/hide_show_header.png)
 
