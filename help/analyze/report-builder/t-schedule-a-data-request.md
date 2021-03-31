@@ -1,13 +1,14 @@
 ---
 description: Los informes se pueden programar para enviarlos de acuerdo al formato de archivo y la hora que se definan.
 title: Programar una solicitud de datos
-topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1025'
-ht-degree: 100%
+feature: Report Builder
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1030'
+ht-degree: 99%
 
 ---
 
