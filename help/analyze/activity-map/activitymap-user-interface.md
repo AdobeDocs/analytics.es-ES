@@ -1,10 +1,14 @@
 ---
 description: 'La interfaz de usuario de Activity Map consta de dos partes '
 title: Interfaz de usuario de Activity Map
-topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
+feature: Activity Map
+role: Profesional empresarial, administrador
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 98%
 
 ---
 
