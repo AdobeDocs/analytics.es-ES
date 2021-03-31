@@ -1,10 +1,14 @@
 ---
 description: Pasos que describen cómo instalar Report Builder.
 title: Instalación de Report Builder
-topic: Report builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
-translation-type: ht
-source-git-commit: 67864f04effbc5cb41c14b9651da9144312148d9
+feature: Report Builder
+role: Profesional empresarial, administrador
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
