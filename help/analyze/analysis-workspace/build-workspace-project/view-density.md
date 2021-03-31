@@ -1,8 +1,13 @@
 ---
 description: Aprenda a ajustar la densidad de la vista.
 title: Ver densidad
+feature: Conceptos básicos de Workspace
+role: Profesional empresarial, Administrador
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 100%
 
 ---
 
@@ -12,14 +17,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 Ajustar la densidad de la visualización le permite ver más datos en la pantalla al reducir el margen vertical del carril izquierdo, las tablas de forma libre y las tablas de cohorte.
 Dispone de tres opciones al cambiar la densidad de visualización mediante botones de opción:
 
-- **[!UICONTROL Compact]**:: Esta es la versión con la vista más condensada.
-- **[!UICONTROL Comfortable]**:: Esto deja un poco más de relleno que la versión compacta.
-- **[!UICONTROL Expanded]** (predeterminado): Esta es la vista a la que está acostumbrado en Workspace.
+- **[!UICONTROL Compacta]**: Esta es la versión con la vista más condensada.
+- **[!UICONTROL Cómoda]**: Deja algo más de espacio que la versión Compacta.
+- **[!UICONTROL Expandida]** (predeterminada): Esta es la vista habitual de Workspace.
 
 ![](assets/view-density.png)
 
 Para establecer la densidad de la visualización:
 
-1. En Workspace, vaya a **[!UICONTROL Projects]** > **[!UICONTROL Project Info and Settings]**.
+1. En Workspace, vaya a **[!UICONTROL Proyectos]** > **[!UICONTROL Info y configuración del proyecto]**.
 
-1. Select among the 3 options outlined above and click **[!UICONTROL Save]**.
+1. Seleccione entre las 3 opciones indicadas y haga clic en **[!UICONTROL Guardar]**.
