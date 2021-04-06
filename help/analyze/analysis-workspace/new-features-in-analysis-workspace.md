@@ -4,18 +4,26 @@ keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
 feature: Conceptos básicos de Workspace
 role: Profesional empresarial, Administrador
+exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8211'
-ht-degree: 99%
+source-wordcount: '8326'
+ht-degree: 98%
 
 ---
-
 
 # Novedades en Analysis Workspace
 
 Para acceder a las Notas de la versión de Adobe Experience Cloud en su conjunto, vaya [aquí](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=es-ES).
+
+## Marzo de 2021
+
+| Función | Fecha objetivo | Descripción |
+| --- | --- | --- |
+| [!UICONTROL Componentes]  > Preferencias  [!UICONTROL de usuario] | 25 de marzo de 2021 | La página [!UICONTROL Componentes] > [!UICONTROL Preferencias de usuario] permite administrar la configuración de [!UICONTROL Analysis Workspace] y sus componentes relacionados para el usuario. [!UICONTROL Las ] preferencias de usuario se aplican a todos los proyectos y paneles nuevos. <br>**Nota:** Las siguientes opciones de configuración se han trasladado a la página  [!UICONTROL Preferencias de ] usuario:<ul><li>Configuración de informes: Separador de miles (ahora llamado _Formato de número_)</li><li>Configuración de informes: Separador CSV</li><li>Proyectos de Workspace: Ayuda > Habilitar sugerencias</li><li>Proyectos de Workspace: Panel en blanco _Iniciar nuevos proyectos con esta opción de panel_</li></ul> |
+| [!UICONTROL Predicción del contenedor inteligente del histograma] | 25 de marzo de 2021 | [!UICONTROL La ] predicción del contenedor inteligente del histograma ayuda con los histogramas de métricas de alta cardinalidad al identificar automáticamente la anchura y el número adecuados de bloques para la propagación de los datos. Para las métricas de baja cardinalidad, la visualización se comporta del mismo modo que antes. |
+
 
 ## Febrero de 2021
 
