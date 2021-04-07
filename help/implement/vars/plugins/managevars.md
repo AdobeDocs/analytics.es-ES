@@ -1,11 +1,11 @@
 ---
 title: manageVars
 description: Modifique los valores de más de una variable de Analytics a la vez.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a2dc1b265c92468722ebc2e3656db55d63547c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '697'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
