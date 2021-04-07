@@ -1,11 +1,11 @@
 ---
 title: Configuración de análisis entre dispositivos
 description: Configure un grupo de informes virtuales para habilitar CDA.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '507'
+ht-degree: 100%
 
 ---
 
