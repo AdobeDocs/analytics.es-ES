@@ -1,11 +1,11 @@
 ---
 title: getTimeBetweenEvents
 description: Mida el tiempo entre dos eventos.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8c6f4bbc72f7edfd966d698b8e4678e5eaa739e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ El método `getTimeBetweenEvents` utiliza los siguientes argumentos:
 
    >[!TIP]
    >
-   > Si establece este argumento en `false`, se recomienda encarecidamente que configure el siguiente argumento `rte`.
+   >Si establece este argumento en `false`, se recomienda encarecidamente que configure el siguiente argumento `rte`.
 * **`cn`** (opcional, cadena): El nombre de la cookie en la que se almacena la hora del primer evento. El valor predeterminado es `"s_tbe"`.
 * **`etd`** (opcional, entero): El tiempo de caducidad de la cookie en días. Configúrelo en `0` para que caduque al terminar la sesión del explorador. Si no se configura de forma distinta, el valor predeterminado es 1 día.
 * **`fmt`** (opcional, cadena): El formato del tiempo en el que se devuelve el número de segundos (el valor predeterminado es nada)
