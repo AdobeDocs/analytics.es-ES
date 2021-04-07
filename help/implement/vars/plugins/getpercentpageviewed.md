@@ -1,11 +1,11 @@
 ---
 title: getPercentPageViewed
 description: Recupere el porcentaje de la página que vio el visitante.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f11ad012756b5d42b1b53483c8688e30b4b79c83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
