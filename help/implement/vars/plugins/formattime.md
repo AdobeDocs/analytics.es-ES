@@ -1,11 +1,11 @@
 ---
 title: formatTime
 description: Convierta un número de segundos en su equivalente en minutos, horas, etc.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56b21b6acb948c478d7b2a29c3e8375a8fe77ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '824'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
