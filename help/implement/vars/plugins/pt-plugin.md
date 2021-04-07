@@ -1,11 +1,11 @@
 ---
 title: pt
 description: Ejecute una función en una lista de variables.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ for(var i = 0; i < parametersLength; i++)
 ### 2.0 (17 de abril de 2018)
 
 * Versión puntual (compilada de nuevo, con un tamaño de código más pequeño).
-* Se ha agregado compatibilidad con el código H y con AppMeasurement.
+* Se ha agregado soporte para el código H y con AppMeasurement.
 
 ### 1.0 (23 de septiembre de 2013)
 
