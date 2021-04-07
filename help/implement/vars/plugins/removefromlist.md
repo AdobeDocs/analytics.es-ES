@@ -1,11 +1,11 @@
 ---
 title: rfl
 description: Elimine un valor específico de una cadena delimitada por caracteres.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4c23f3cf764834636c1cdcefb2903efc9c90be7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1054'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -378,7 +378,7 @@ s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-Los tres últimos argumentos (por ejemplo “,“,“,“,false) al final de esta llamada s.rfl no son necesarios, pero tampoco pasa nada porque estén ahí ya que coinciden con la configuración predeterminada.
+Los tres últimos argumentos (por ejemplo &quot;,&quot;,&quot;,&quot;,false) al final de esta llamada s.rfl no son necesarios, pero tampoco pasa nada porque estén ahí ya que coinciden con la configuración predeterminada.
 
 ### Ejemplo 15
 
