@@ -1,11 +1,11 @@
 ---
 title: getQueryParam
 description: Extraiga el valor de un parámetro de cadena de consulta de una dirección URL.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03c3a954c40d17f11f4f80ee3a378fd43948cc5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ El valor de 300 se obtiene del valor del parámetro pos en la variable s.testURL
 ### 4.0 (19 de marzo de 2021)
 
 * Se ha añadido el número de versión como datos de contexto.
-* Se han eliminado las dependencias del complemento `pt`.
+* Se han eliminado las dependencias del plug-in `pt`.
 
 ### 3.3 (24 de septiembre de 2019)
 
