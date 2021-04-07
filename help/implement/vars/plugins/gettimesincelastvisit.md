@@ -1,11 +1,11 @@
 ---
 title: getTimeSinceLastVisit
 description: Mida el tiempo transcurrido entre dos visitas.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e7ebe21413d6a56dac2c95dbdaf73efde3991e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
