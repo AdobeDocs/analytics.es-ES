@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: Mida el tiempo en que sucede una acción específica.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Analysis Workspace ofrece dimensiones innovadoras similares con un formato liger
 
 >[!IMPORTANT]
 >
->La versión 4.0 o posterior de este complemento es considerablemente diferente a las versiones anteriores. Adobe recomienda encarecidamente implementar este complemento “desde cero”. El código que hace referencia al complemento en las versiones anteriores a la 4.0 no es compatible con la versión actual de este complemento.
+>La versión 4.0 o posterior de este plug-in es considerablemente diferente a las versiones anteriores. Adobe recomienda encarecidamente implementar este complemento “desde cero”. El código que hace referencia al complemento en las versiones anteriores a la 4.0 no es compatible con la versión actual de este complemento.
 
 ## Instalación del complemento con la extensión de Adobe Experience Platform Launch
 
@@ -105,11 +105,11 @@ Si el cliente está en el país africano Ghana:
 s.eVarX = getTimeParting();
 ```
 
-Ghana está dentro del huso horario UTC/GMT. Este ejemplo muestra que no es necesario ningún argumento de complemento para UTC/GMT.
+Ghana está dentro del huso horario UTC/GMT. Este ejemplo muestra que no es necesario ningún argumento de plug-in para UTC/GMT.
 
 ### Contabilidad para exploradores de Internet Explorer
 
-Utilice el siguiente ejemplo si desea excluir los datos de partición de tiempo de los visitantes de Internet Explorer. El valor devuelto por los exploradores IE solo se encuentra en la hora local del visitante.
+Utilice el siguiente ejemplo si desea excluir los datos de partición de tiempo de los visitantes de Internet Explorer. El valor que devuelven los exploradores IE solo están en la hora local del visitante.
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,7 +118,7 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### Resultados de las llamadas
 
-Considere un escenario en el que un visitante de Denver Colorado visite un sitio el 31 de agosto de 2020 a las 9:15 AM.
+Supongamos que un visitante de Denver (Colorado) visita un sitio el 31 de agosto de 2020 a las 09:15 h.
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
@@ -160,7 +160,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->Las versiones anteriores de este complemento no se adaptaron a todos los años en el futuro. Si utiliza una versión anterior de este complemento, Adobe recomienda encarecidamente actualizar a la versión más reciente para evitar errores de JavaScript y pérdida de datos. Si no es posible actualizar este complemento, asegúrese de que la variable `s._tpdst` del código del complemento contenga los años correspondientes en el futuro.
+>Las versiones anteriores de este plug-in no se adaptaron a todos los años en el futuro. Si utiliza una versión anterior de este plug-in, Adobe recomienda encarecidamente actualizar a la versión más reciente para evitar errores de JavaScript y pérdida de datos. Si no es posible actualizar este plug-in, asegúrese de que la variable `s._tpdst` del código del plug-in contenga los años correspondientes en el futuro.
 
 ### 4.0 (22 de agosto de 2016)
 
