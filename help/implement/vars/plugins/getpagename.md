@@ -1,11 +1,11 @@
 ---
 title: getPageName
 description: Cree un nombre de página fácil de leer a partir de la ruta del sitio web actual.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 063da38c105072944a46ec0ab31930623b7974c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
