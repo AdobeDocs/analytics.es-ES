@@ -1,11 +1,11 @@
 ---
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ El uso del tipo de dispositivo móvil, como se ilustra más arriba, permite ver 
 
 La vinculación entre dispositivos de CDA se produce en dos procesos simultáneos.
 
-* El primer proceso se denomina &quot;vinculación activa&quot;, que se produce cuando los datos se transfieren a Adobe Analytics. Durante la vinculación activa, CDA hace lo mejor que puede para reafirmar los datos a nivel de persona. Sin embargo, si la persona es desconocida en el momento de la vinculación activa, CDA vuelve al ID de visitante para representar a la persona.
+* El primer proceso se denomina vinculación activa y se produce cuando los datos se transfieren a Adobe Analytics. Durante la vinculación activa, CDA hace todo lo posible para reiterar los datos con respecto a la persona. Sin embargo, si la persona es desconocida en el momento de la vinculación activa, CDA vuelve al ID de visitante para representar a la persona.
 
-* El segundo proceso se llama &quot;repetición&quot;. Durante la reproducción, CDA retrocede en el tiempo y repite los datos históricos, cuando es posible, dentro de una ventana retrospectiva especificada. Esta ventana retrospectiva es de 1 día o 7 días, según la configuración del CDA que haya solicitado. Durante la reproducción, CDA intenta repetir las visitas en las que la persona era anteriormente desconocida.
+* El segundo proceso se llama repetición. Durante la reproducción, CDA retrocede en el tiempo y reitera los datos históricos, cuando es posible, en un período de tiempo retrospectivo especificado. Este periodo oscila de 1 a 7 días, según cómo haya solicitado que se configure CDA. Durante la reproducción, CDA intenta reiterar las visitas en las que la persona era anteriormente desconocida.
 
 * **Si se utiliza un gráfico del dispositivo**, Adobe mantiene las asignaciones de dispositivos en el gráfico de cooperación y el gráfico privado durante aproximadamente 6 meses. Un ECID que no tenga actividad durante más de seis meses se elimina del gráfico. Los datos ya enlazados en CDA no se ven afectados, pero las visitas posteriores para ese ECID se tratan como una persona nueva.
 
