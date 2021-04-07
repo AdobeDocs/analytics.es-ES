@@ -1,11 +1,11 @@
 ---
 title: cleanStr
 description: Eliminación o sustitución de todos los caracteres innecesarios de una cadena.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '529'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
