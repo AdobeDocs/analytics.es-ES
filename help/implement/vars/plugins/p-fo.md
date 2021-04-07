@@ -1,11 +1,11 @@
 ---
 title: p_fo (Page First Only)
 description: Asegure que determinadas rutinas se activen solo una vez por página.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
