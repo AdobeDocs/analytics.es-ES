@@ -1,11 +1,11 @@
 ---
 title: getTimeToComplete
 description: Mida el tiempo que se tarda en completar una tarea.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 37a3a44053260d9cdb2a3797e07f6d34592abc1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
