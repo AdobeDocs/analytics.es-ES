@@ -1,11 +1,11 @@
 ---
 title: Vinculación basada en el campo
 description: Comprenda los requisitos previos y las limitaciones de la vinculación de datos mediante la vinculación basada en el campo.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: beed7ffcc39b9b2628b1487b5e2eac42fa3a94d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ Si tiene intención de implementar el análisis entre dispositivos mediante la v
 
 ## Limitaciones específicas de la vinculación basada en el campo
 
-* La vinculación basada en el campo funciona mejor en los grupos de informes que tienen una alta tasa de identificación/autenticación de usuarios.
-* Aunque las props y las eVars tienen reglas para la administración de caracteres en mayúsculas y minúsculas con fines de creación de informes, la vinculación basada en el campo no transforma la propiedad o el eVar que se usa para la vinculación de ninguna manera. La vinculación basada en el campo utiliza el valor del campo especificado, ya que existe después de las reglas de VISTA y después de las reglas de procesamiento. El proceso de vinculación distingue entre mayúsculas y minúsculas. Por ejemplo, si a veces la palabra &quot;Bob&quot; aparece en el prop/eVar y a veces aparece la palabra &quot;BOB&quot;, el proceso de vinculación los tratará como dos personas separadas.
-* Dado que la vinculación basada en el campo distingue entre mayúsculas y minúsculas, Adobe recomienda revisar cualquier regla de VISTA o regla de procesamiento que se aplique a la propiedad o al eVar que se esté utilizando para la vinculación basada en el campo. Deben revisarse para garantizar que ninguna de estas reglas introduzca nuevos formularios del mismo ID. Por ejemplo, debe asegurarse de que ninguna VISTA o regla de procesamiento introduce minúsculas en la prop o el eVar solo en una parte de las visitas.
-* La vinculación basada en el campo no admite el uso de más de una prop o eVar con fines de vinculación. Por ejemplo, si eVar12 contiene el ID de inicio de sesión y eVar20 contiene el ID de correo electrónico, debe elegir uno de ellos.
-* La vinculación basada en el campo no combina ni concatena campos (por ejemplo, eVar10 + prop5).
-* La prop o el eVar deben contener un solo tipo de ID. Por ejemplo, la prop o el eVar no deben contener una combinación de ID de inicio de sesión e ID de correo electrónico.
-* Si se producen varias visitas con la misma marca de tiempo para el mismo visitante, pero con valores diferentes en la propiedad de vinculación o el eVar, CDA elegirá en función del orden alfabético. Por lo tanto, si el visitante A tiene dos visitas con la misma marca de tiempo y una de las visitas especifica Bob y la otra especifica Ann, CDA elegirá Ann.
+* La vinculación basada en campos funciona mejor en los grupos de informes que tienen una alta tasa de identificación/autenticación de usuarios.
+* Aunque las props y eVars tienen reglas para la administración de caracteres en mayúsculas y minúsculas destinadas a la creación de informes, la vinculación basada en el campo no transforma la prop o eVar que se usa para la vinculación de ninguna manera. La vinculación basada en campos utiliza el valor del campo especificado, ya que existe después de las reglas de VISTA y después de las reglas de procesamiento. El proceso de vinculación distingue entre mayúsculas y minúsculas. Por ejemplo, si en el campo unas veces aparece la palabra &quot;Bob&quot; y otras la palabra &quot;BOB&quot;, estas se tratarán como dos personas independientes en el proceso de vinculación.
+* Dado que la vinculación basada en campos distingue entre mayúsculas y minúsculas, Adobe recomienda revisar las reglas de VISTA o de procesamiento que se apliquen a la prop o eVar que se esté utilizando para la vinculación basada en campos. Deben revisarse para garantizar que ninguna de estas reglas introduzca nuevos formularios del mismo ID. Por ejemplo, debe asegurarse de que ninguna regla de VISTA o de procesamiento introduce minúsculas en la prop o eVar solo en una parte de las visitas.
+* La vinculación basada en campos no admite el uso de más de una prop o eVar con fines de vinculación. Por ejemplo, si eVar12 contiene el ID de inicio de sesión y eVar20 contiene el ID de correo electrónico, debe elegir uno de ellos.
+* La vinculación basada en campos no combina ni concatena campos (por ejemplo, eVar10 + prop5).
+* La prop o eVar deben contener un solo tipo de ID. Por ejemplo, la prop o eVar no debe contener una combinación de ID de inicio de sesión e ID de correo electrónico.
+* Si se producen varias visitas con la misma marca de tiempo para el mismo visitante, pero con valores diferentes en la eVar o prop de vinculación, CDA elegirá en función del orden alfabético. Por lo tanto, si el visitante A tiene dos visitas con la misma marca de tiempo y una de las visitas especifica Bob y la otra especifica Ann, CDA elegirá Ann.
 
 
 ## Pasos siguientes
 
-Una vez que su organización cumpla todos los requisitos y comprenda las limitaciones, puede iniciar [Configuración de análisis entre dispositivos](setup.md).
+Una vez que su organización haya cumplido todos los requisitos y haya comprendido las limitaciones, puede empezar a [configurar Cross-Device Analytics](setup.md).
