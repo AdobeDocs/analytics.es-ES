@@ -1,9 +1,9 @@
 ---
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Fin de vida útil de Adobe Data Connectors
 
-Durante más de una década, Adobe Analytics se ha propuesto ofrecer la mejor solución de análisis de marketing y web para satisfacer las necesidades de los clientes. A medida que evolucionan las necesidades tecnológicas y empresariales, nos esforzamos por seguir ofreciendo y cumpliendo los más altos estándares. Desafortunadamente, las API que alimentan esta integración ya no cumplen con esos estándares y no son válidas en la moderna infraestructura tecnológica de Adobe Analytics.
+Durante más de una década, Adobe Analytics se ha propuesto ofrecer la mejor solución de análisis de marketing y web para satisfacer las necesidades de los clientes. A medida que evolucionan las necesidades tecnológicas y empresariales, nos esforzamos por seguir ofreciendo y cumpliendo los más altos estándares.  Desafortunadamente, las API que alimentan esta integración ya no cumplen con esos estándares y no son válidas en la moderna infraestructura tecnológica de Adobe Analytics.
 
 **A partir del 1 de agosto de 2021**, Adobe tiene la intención de interrumpir las integraciones de Data Connectors. El fin de vida forma parte del ciclo de vida de cualquier producto tecnológico y el objetivo de Adobe es lograr que la transición sea lo más fluida posible para nuestros clientes y socios. Muchas de estas integraciones están disponibles a través de Adobe Exchange y pueden seguir utilizándose.
 
