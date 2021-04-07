@@ -1,11 +1,11 @@
 ---
 title: inList
 description: Compruebe si un valor está contenido en otro valor delimitado por caracteres.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27d151abe9bdf52c6eabdc3e9c785a99d08f971e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
