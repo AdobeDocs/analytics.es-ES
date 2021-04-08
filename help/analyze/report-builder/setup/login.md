@@ -3,21 +3,21 @@ description: Obtenga información sobre cómo iniciar sesión en Report Builder 
 title: Inicio de sesión en el Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 29eb20e5af815779aa3af5b7205e410b7165818b
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 48%
+source-wordcount: '211'
+ht-degree: 49%
 
 ---
-
 
 # Inicio de sesión en Report Builder
 
 >[!IMPORTANT]
 >
->La versión 5.6.47 y posteriores del Report Builder solo son compatibles con el inicio de sesión del Experience Cloud y no admiten inicios de sesión heredados, como el inicio de sesión único de Site Catalyst o el inicio de sesión estándar. Para el 30 de abril de 2021, todos los usuarios del Report Builder deben actualizar el complemento del Report Builder a la versión 5.6.47 o posterior, lo que incluye una actualización crítica del proceso de inicio de sesión.
+>La versión 5.6.47 y posteriores del Report Builder solo son compatibles con el inicio de sesión del Experience Cloud y no admiten inicios de sesión heredados, como el inicio de sesión único de Site Catalyst o el inicio de sesión estándar. **Para el 22 de julio de 2021, todos los usuarios del Report Builder deben actualizar el complemento del Report Builder a la versión 5.6.47 o posterior, lo que incluye una actualización crítica del proceso de inicio de sesión.**
 
 Para iniciar sesión en el Report Builder, utilice su cuenta de inicio de sesión del Experience Cloud.
 
@@ -43,4 +43,3 @@ Para iniciar sesión en el Report Builder
    * Haga doble clic en una solicitud en Excel.
 
 1. Rellene los campos de la página [!UICONTROL Inicio de sesión] y, a continuación, haga clic en **[!UICONTROL Aceptar]**.
-
