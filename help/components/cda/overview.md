@@ -1,14 +1,14 @@
 ---
 title: Análisis entre dispositivos
 description: Cambie los datos de centrados en el dispositivo a centrados en la persona mediante la vinculación de los datos del dispositivo.
-translation-type: ht
-source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
-workflow-type: ht
-source-wordcount: '667'
-ht-degree: 100%
+exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
+translation-type: tm+mt
+source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 86%
 
 ---
-
 
 # Análisis entre dispositivos
 
@@ -45,8 +45,9 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * CDA solo está disponible a través de Analysis Workspace.
 * El análisis entre dispositivos no funciona en todos los grupos de informes ni combina datos de varios grupos de informes.
 * Los grupos de informes de Adobe Analytics no pueden asignarse a más de una organización de IMS. Dado que CDA vincula dispositivos dentro de un grupo de informes determinado, CDA no se puede usar para unir datos en varias organizaciones IMS.
-* Actualmente, CDA no es compatible con Atributos del cliente. Estas dos funciones pueden coincidir en grupos de informes virtuales independientes que hacen referencia al mismo grupo de informes de origen.
+* Private Graph aprovecha las mismas sincronizaciones de ID que las utilizadas por la capacidad [Atributos del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes) ubicada en Experience Cloud y Adobe Analytics. Sin embargo, los grupos de informes virtuales de CDA (basados en gráficos privados o en la vinculación basada en campos) no son compatibles con el resto de la funcionalidad Atributos del cliente. Es decir, las dimensiones basadas en Atributos del cliente no están disponibles para su uso en los grupos de informes virtuales CDA.
 * En la actualidad, CDA no es compatible con A4T.
 * Análisis entre dispositivos utiliza un grupo de informes virtuales y un procesamiento de tiempo de informes, que tienen sus propias limitaciones. Consulte [Grupos de informes virtuales](../vrs/vrs-about.md) y [Procesamiento de tiempo de los informes](../vrs/vrs-report-time-processing.md) para saber más sobre estas limitaciones.
 * La API 1.4 no es compatible. Los conectores de Power BI y Report Builder dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
 * Los datos históricos del grupo de informes virtuales cambian según el reconocimiento y la vinculación de dispositivos de Adobe. Los datos del grupo de informes de origen no cambian.
+* La monitorización activa del proceso de vinculación de CDA por Adobe se limita solo a los grupos de informes de producción.
