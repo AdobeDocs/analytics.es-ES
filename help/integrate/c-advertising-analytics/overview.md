@@ -1,18 +1,18 @@
 ---
 description: Descubra todo lo que puede hacer con Advertising Analytics en esta guía detallada, incluidos los permisos requeridos, y las dimensiones y métricas disponibles.
 title: Guía de Advertising Analytics
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '1282'
-ht-degree: 100%
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
+translation-type: tm+mt
+source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 96%
 
 ---
 
-
 # Guía de Advertising Analytics
 
-Advertising Analytics le permite consultar todos los datos de búsqueda de pago de Google y Bing alineados en Adobe Analytics. Anteriormente, cualquier dato de Google AdWords/DFA o Microsoft Bing Ads tenía que visualizarse en Adobe Media Optimizer (AMO) o en Google/Bing. Ahora, obtendrá los datos siguientes en Adobe Analytics: impresiones, clics, costes, puntuación de calidad y posición media directamente de los motores de búsqueda, así como instancias de ID de AMO (instancias de clic).
+Advertising Analytics le permite consultar todos los datos de búsqueda de pago de Google y Bing alineados en Adobe Analytics. Anteriormente, cualquier dato de Google AdWords/DFA o Microsoft Bing Ads tenía que visualizarse en Adobe Media Optimizer (AMO) o en Google/Bing. Ahora obtendrá los siguientes datos en Adobe Analytics: Impresiones, clics, costes directamente desde los motores de búsqueda, así como instancias de AMO ID (instancias de clic). La puntuación de calidad y las posiciones medias ya no se recopilarán, ya que Google ha eliminado la segmentación de estas métricas en septiembre de 2019.
 
 >[!NOTE]
 >
@@ -117,5 +117,3 @@ Advertising Analytics añade las siguientes dimensiones y métricas a Analysis W
 | Impresiones de AMO | El número de impresiones de un anuncio según la información del motor de búsqueda. |
 | Clics de AMO | El número de clics en anuncios según la información del motor de búsqueda. |
 | Coste de AMO | El coste pagado por cada palabra clave o anuncio según la información del motor de búsqueda. |
-| Posición media | Una métrica calculada que refleja la posición media de los anuncios según la información del motor de búsqueda. |
-| Promedio de Puntuación de calidad | Una métrica calculada que refleja la puntuación de calidad media según la información del motor de búsqueda. |
