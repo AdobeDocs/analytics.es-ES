@@ -1,14 +1,14 @@
 ---
 title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
-translation-type: ht
-source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
-workflow-type: ht
-source-wordcount: '1377'
-ht-degree: 100%
+exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
+translation-type: tm+mt
+source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+workflow-type: tm+mt
+source-wordcount: '1480'
+ht-degree: 93%
 
 ---
-
 
 # Preguntas frecuentes
 
@@ -97,3 +97,11 @@ Si desea cambiar los métodos de identificación de CDA, póngase en contacto co
 ## ¿Cómo gestiona Adobe los límites únicos para un eVar utilizado en la vinculación basada en el campo?
 
 CDA extrae los elementos de dimensión de eVar antes de optimizarlos para la creación de informes. No es necesario preocuparse por los límites únicos para el propósito de CDA. Sin embargo, si ha intentado utilizar esa propiedad o eVar en un proyecto de Workspace, todavía puede ver el elemento de dimensión [(poco tráfico)](/help/technotes/low-traffic.md).
+
+## ¿Cuántos de los grupos de informes de mi empresa se pueden habilitar para CDA?
+
+Se pueden habilitar varios grupos de informes, pero cada grupo de informes adicional aumentará el tiempo de aprovisionamiento general si se solicitan varios grupos de informes a la vez. CDA no combina grupos de informes. Cada grupo de informes habilitado para CDA debe ser de varios dispositivos (con datos de varias superficies, como la web de escritorio, la web móvil, la aplicación móvil, etc.)
+
+## Si mi Experience Cloud org (también conocida como IMS org) tiene varias compañías en diferentes regiones, ¿puedo habilitar CDA para todas ellas?
+
+No. Para la misma organización, solo una región puede tener CDA habilitado.
