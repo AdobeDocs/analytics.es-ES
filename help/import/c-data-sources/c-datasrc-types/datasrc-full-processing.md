@@ -2,20 +2,20 @@
 description: El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
 title: Procesamiento completo
 topic: Desarrollador e implementación
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '726'
+ht-degree: 97%
 
 ---
-
 
 # Procesamiento completo
 
 >[!IMPORTANT]
 >
->Adobe recomienda que los clientes utilicen la [API de inserción masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Adobe tiene planificado retirar las fuentes de datos de procesamiento completo en el futuro. [Más información](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe recomienda que los clientes utilicen la [API de inserción masiva de datos (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) en lugar de las fuentes de datos de procesamiento completo. Adobe planea dejar de utilizar las fuentes de datos de procesamiento completo el 31 de julio de 2021. [Más información](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 El sistema de fuentes de datos admite las siguientes variables al procesar datos como una llamada a servidor estándar (Genérico > Procesamiento completo).
 
@@ -256,4 +256,3 @@ En la tabla siguiente se muestran las variables de tráfico que se llenan autom�
   </tr> 
  </tbody> 
 </table>
-
