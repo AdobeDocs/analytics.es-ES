@@ -1,14 +1,14 @@
 ---
 description: Descubra cuándo y por qué los conectores de datos de Analytics finalizarán su vida útil.
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
-translation-type: ht
-source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: ht
-source-wordcount: '531'
+exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
+translation-type: tm+mt
+source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
+workflow-type: tm+mt
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
-
 
 # Fin de vida útil de Adobe Data Connectors
 
@@ -81,7 +81,7 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | Lyris HQ | Desaprobación |
 | MaritzCX (V 2.0) | Desaprobación |
 | Merkle | Desaprobación |
-| Integración oficial de Oracle Eloqua | Desaprobación |
+| Integración oficial de Oracle Eloqua | Migración a Exchange |
 | optivo broadmail (Episerver) | Migración a Exchange |
 | Qualtrics v2 | Migración a Exchange |
 | Responsys 2.0 | Desaprobación |
