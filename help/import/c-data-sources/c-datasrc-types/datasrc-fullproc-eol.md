@@ -3,7 +3,7 @@ title: Fin de vida útil para fuentes de datos de procesamiento completo
 description: Razones para finalizar la vida útil y comparaciones entre la API de inserción de datos en lote y las fuentes de datos de procesamiento completo.
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
+source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
 workflow-type: tm+mt
 source-wordcount: '1208'
 ht-degree: 32%
@@ -65,8 +65,8 @@ Para obtener más información, consulte la siguiente comparación de los valore
 | linkName | linkName | Nombre del vínculo. |
 | linkType | linkType | Tipo de vínculo. Los valores admitidos son: `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | HREF del vínculo. |
-| listn Por ejemplo, list2. | No admitido | Una lista delimitada de valores que se pasan a una variable y se incluyen en los informes como elementos de línea individuales. |
-| marketingCloudVisitorID | No admitido | Marketing Cloud ID. Consulte [Identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) y Servicio de ID de visitante de Marketing Cloud. |
+| listn Por ejemplo, list2. | No admitido | Una lista delimitada de valores que se pasan a una variable y se incluyen en los informes como elementos de línea individuales |
+| marketingCloudVisitorID | No admitido | Marketing Cloud ID. Consulte [Identificación de visitante](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api) y Servicio de ID de visitante de Marketing Cloud |
 | No admitido | charSet | Conjunto de caracteres admitido para el sitio web. Por ejemplo: UTF-8, ISO-8859-1, etc. |
 | No admitido | clickAction | Identificador de objeto correspondiente al mapa de clics del visitante (oid) |
 | No admitido | clickActionType | Tipo de identificador de objeto correspondiente al mapa de clics del visitante (oidt) |
@@ -76,7 +76,7 @@ Para obtener más información, consulte la siguiente comparación de los valore
 | No admitido | clickTag | Nombre de etiqueta de objetos correspondiente al mapa de clics del visitante (ot) |
 | No admitido | scXmlVer | Número de versión de la solicitud XML de los informes de marketing (por ejemplo, 1.0). |
 | No admitido | timezone | Diferencia entre la zona horaria del visitante y GMT, en horas (por ejemplo, -8). |
-| pageName | pageName | Nombre de la página. |
+| pageName | pageName | Nombre de la página |
 | pageType | pageType | Tipo de página (por ejemplo, &quot;Página de error&quot;). |
 | pageURL | pageURL | Dirección URL de la página (por ejemplo, https://www.example.com/index.html). |
 | plugins | plugins | Lista separada por punto y coma de los nombres de los complementos del navegador. |
