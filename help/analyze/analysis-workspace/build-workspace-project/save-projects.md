@@ -1,20 +1,20 @@
 ---
-description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como y guardar como plantilla.
+description: Obtenga información sobre las distintas opciones de guardado, como guardar automáticamente, guardar como, guardar como plantilla y abrir versiones anteriores.
 title: Guardar proyectos
 feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
+source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 67%
+ht-degree: 53%
 
 ---
 
 # Guardar proyectos
 
-Para guardar los cambios en un proyecto, vaya al menú **[!UICONTROL Proyecto]** de Workspace. Además, Adobe guarda automáticamente los proyectos en determinados casos.
+Para guardar los cambios en un proyecto, vaya al menú **[!UICONTROL Proyecto]** de Workspace. Workspace también guarda automáticamente proyectos en determinados casos.
 
 ## Guardar opciones de proyecto {#Save}
 
@@ -22,8 +22,8 @@ Hay diferentes acciones de guardado que puede realizar en el menú **[!UICONTROL
 
 | Acción | Descripción |
 |---|---| 
-| **[!UICONTROL Guardar]** | Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre, una descripción (opcional) y que añada etiquetas (opcional). |
-| **[!UICONTROL Guardar con notas]** | Antes de guardar el proyecto, agregue notas sobre los cambios realizados en el proyecto. Las notas se almacenan con la versión del proyecto y están disponibles para todos los editores en Proyecto > Abrir versión anterior. |
+| **[!UICONTROL Guardar]** | Guardar cambios en el proyecto. Si se comparte el proyecto, los destinatarios del proyecto también verán los cambios. Cuando guarde el proyecto por primera vez, se le pedirá que indique un nombre, una descripción (opcional) y que añada etiquetas (opcionales). |
+| **[!UICONTROL Guardar con notas]** | Antes de guardar el proyecto, agregue notas sobre los cambios realizados en el proyecto. Las notas se almacenan con la versión del proyecto y están disponibles para todos los editores en [!UICONTROL Proyecto] > [!UICONTROL Abrir versión anterior]. |
 | **[!UICONTROL Guardar como]** | Cree un duplicado del proyecto. El proyecto original no se verá afectado. |
 | **[!UICONTROL Guardar como plantilla]** | Guarde el proyecto como una [plantilla personalizada](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) que esté disponible para su organización en **[!UICONTROL Proyecto > Nuevo]** |
 
@@ -49,7 +49,7 @@ El explorador advierte que se perderán los cambios no guardados. Puede elegir e
 
 ### El explorador se bloquea o se agota el tiempo de espera de la sesión
 
-Para los proyectos **existentes**, al volver a Workspace, el usuario verá un modo de **recuperación del proyecto**. Si selecciona “Sí”, se restaurará el proyecto a partir de la copia local guardada automáticamente. “No” elimina la copia local guardada automáticamente y abre la última versión guardada por el usuario del proyecto.
+Para los **proyectos existentes**, al volver a Workspace, verá un modal **Recuperación del proyecto**. Al seleccionar &quot;Sí&quot;, se restaura el proyecto de la copia local guardada automáticamente. “No” elimina la copia local guardada automáticamente y abre la última versión guardada por el usuario del proyecto.
 
 ![](assets/project-recovery.png)
 
