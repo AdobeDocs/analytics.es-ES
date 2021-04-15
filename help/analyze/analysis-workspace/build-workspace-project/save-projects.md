@@ -5,10 +5,10 @@ feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
+source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 68%
+source-wordcount: '465'
+ht-degree: 67%
 
 ---
 
@@ -57,9 +57,14 @@ Para **nuevos** proyectos que nunca se han guardado, los cambios sin guardar no 
 
 ## Abrir la versión anterior {#previous-version}
 
+>[!NOTE]
+>
+>Las versiones anteriores del proyecto están actualmente en versión limitada.
+
 Para abrir una versión anterior de un proyecto:
 
-1. Vaya a Proyecto > Abrir la versión anterior
-1. Revise la lista de versiones anteriores disponibles. Se proporcionan la marca de tiempo y el editor, además de las notas si se añadieron al guardar el editor. Las versiones sin notas se almacenan durante 90 días; las versiones con notas se almacenan durante 1 año.
-1. Seleccione una versión anterior y haga clic en Cargar.
-1. La versión anterior se cargará con una notificación. La versión anterior no pasará a ser la versión guardada actual del proyecto hasta que no haga clic en Guardar. Si se aleja de la versión cargada, al volver, verá la última versión guardada del proyecto.
+1. Vaya a **[!UICONTROL Proyecto]** > **[!UICONTROL Abrir versión anterior]**
+1. Revise la lista de versiones anteriores disponibles.
+    Se muestran las   Marcas de hora y el Editor, además de los   Notesisi se añadieron cuando el   Editor guardó. Las versiones sin notas se almacenan durante 90 días; las versiones con notas se almacenan durante 1 año.
+1. Seleccione una versión anterior y haga clic en **[!UICONTROL Load]**.
+A continuación, la versión anterior se carga con una notificación. La versión anterior no se convierte en la versión guardada actual del proyecto hasta que no haga clic en **[!UICONTROL Guardar]**. Si se aleja de la versión cargada, al volver, verá la última versión guardada del proyecto.
