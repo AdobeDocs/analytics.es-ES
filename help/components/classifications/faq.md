@@ -1,14 +1,14 @@
 ---
 title: Preguntas más frecuentes sobre las clasificaciones
 description: Preguntas más frecuentes sobre el uso de las clasificaciones.
-translation-type: ht
-source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
+translation-type: tm+mt
+source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 92%
 
 ---
-
 
 # Preguntas más frecuentes sobre las clasificaciones
 
@@ -34,6 +34,8 @@ Sí, *sin embargo, al hacerlo se cuenta cada elemento de dimensión como una lla
 * El uso del generador de reglas de clasificación no clasifica elementos inexistentes y, por lo tanto, no incurre en ningún coste adicional.
 
 ## ¿Cómo clasifico los valores que contienen caracteres especiales?
+
+No se admite el uso de espacios en blanco iniciales y finales en los datos de clasificación y visitas, ya que Adobe Analytics truncará los caracteres en blanco de estos datos.
 
 Por lo general, no se recomienda el uso de caracteres especiales, como, por ejemplo, comas o comillas dobles, en la creación de informes. Sin embargo, en algunos casos su uso es necesario. Si los valores de la creación de informes contienen estos caracteres y decide clasificarlos, siga los pasos siguientes:
 
