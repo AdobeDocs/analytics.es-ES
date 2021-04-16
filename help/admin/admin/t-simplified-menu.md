@@ -1,16 +1,16 @@
 ---
 description: Pasos para implementar el menú de informes simplificado en Reports and Analytics.
 title: Menú de informes simplificado
-topic: Admin tools
+feature: Herramientas de administración
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
+exl-id: fa383f68-9858-4d85-972a-a375b24da61a
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '178'
 ht-degree: 100%
 
 ---
-
 
 # Menú de informes simplificado
 
