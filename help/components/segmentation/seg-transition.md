@@ -1,16 +1,16 @@
 ---
 description: Preguntas frecuentes sobre la segmentación.
 title: Preguntas frecuentes
-topic: Segmentos
+feature: Segmentos
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
+exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 100%
 
 ---
-
 
 # Preguntas frecuentes
 
@@ -337,7 +337,7 @@ Las siguientes dimensiones se cambiaron a listas enumeradas:
 | longitud del marcador móvil | Habilitado para Java | búsqueda de pago |
 | longitud de dirección URL móvil | idioma |  |
 
-## Cambios en las dimensiones basadas en enteros que tienen valores conocidos {#section_84A8AAD0344148AD9F9211D3EB271903}
+## Cambios en las dimensiones basadas en enteros que tienen valores conocidos  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 Las dimensiones basadas en enteros (como el ancho del explorador) con un conjunto de valores conocidos se dividieron en varios intervalos para que pueda definir rápidamente segmentos para un intervalo específico. A estas listas enumeradas se les ha agregado &quot;- Agrupado&quot; tras el nombre de la dimensión. La siguiente pantalla demuestra cómo se segmentan estas dimensiones utilizando la interfaz antigua y nueva del generador de segmentos:
 
