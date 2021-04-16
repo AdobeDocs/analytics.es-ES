@@ -2,16 +2,16 @@
 description: Los ID de visitante se pueden importar seleccionando la categoría Genéricas (ID de transacción).
 subtopic: Data sources
 title: ID de visitante
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # ID de visitante
 
@@ -23,7 +23,7 @@ Consulte [Integrar datos sin conexión](/help/import/c-data-sources/datasrc-inte
 
 | Nombre de columna | Descripción |
 |--- |--- |
-| ID de visitante | (Obligatorio) Valor no repetido que representa a un cliente en ambos sistemas (conectado a Internet y sin conexión). |
+| ID de visitante | (Obligatorio) Valor único que representa a un cliente en ambos sistemas (conectado a Internet y sin conexión). |
 | Fecha | Utilice este formato de fecha: MM/DD/AAAA/hh/mm/ss (por ejemplo, 07/14/2017/06/00/00). |
 | Código de seguimiento | Nombre del código de seguimiento. |
 | Categoría | Nombre de la categoría.  Si se indica una categoría, también se debe seleccionar un producto. |
