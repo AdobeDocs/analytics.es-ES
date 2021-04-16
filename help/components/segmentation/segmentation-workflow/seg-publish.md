@@ -1,16 +1,16 @@
 ---
 description: Le permite utilizar el segmento para actividades de marketing en la biblioteca de audiencias, Target y Audience Manager.
 title: Publicación de segmentos en Experience Cloud
-topic: Segments
+feature: Segmentos
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
+exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1346'
 ht-degree: 99%
 
 ---
-
 
 # Publicación de segmentos en Experience Cloud
 
@@ -51,7 +51,7 @@ También hemos aumentado el número máximo de segmentos de Adobe Analytics edit
 
 ## Publicación de segmentos en el [!UICONTROL Generador de segmentos]
 
-1. Vaya a **[!UICONTROL Analytics > Workspace > Componentes > Segmentos]> +**
+1. Vaya a **[!UICONTROL Analytics > Workspace > Componentes > Segmentos] > +**
 1. Cree un segmento en el [!UICONTROL Generador de segmentos].
 1. Proporcione un título y una descripción para el segmento; de lo contrario, no podrá guardarlo.
 1. Consulte **[!UICONTROL Publicar este segmento en Experience Cloud (para *grupo de informes*)]**.
@@ -133,5 +133,5 @@ En AAM, la lista de visitantes con ECID para un segmento determinado se evalúa 
 
 La casilla de verificación [!UICONTROL Publicar este segmento en Experience Cloud] durante el proceso de creación de segmentos en Adobe Analytics permite que el segmento esté disponible en la biblioteca de audiencias personalizada de Adobe Target. Un segmento creado en Analytics o Audience Manager puede utilizarse para actividades en Target. Por ejemplo, puede crear actividades de campaña basadas en métricas de conversión de Analytics y segmentos de audiencias creados en Analytics.
 
-1. Click [!UICONTROL Audiences].
+1. Haga clic en [!UICONTROL Audiencias].
 1. En la página [!UICONTROL Audiencias], busque la audiencia procedente de [!DNL Experience Cloud]. Estas audiencias están disponibles para su uso en actividades [!DNL Target].
