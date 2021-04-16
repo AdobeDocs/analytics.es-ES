@@ -1,17 +1,17 @@
 ---
 description: Se describe cómo calcular métricas habituales mediante fuentes de datos.
-keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
+keywords: Fuente de datos;trabajo;métricas;columna previa;columna posterior;bots;filtro de fechas;cadena de eventos;común;fórmulas
 title: Calcular métricas
-topic: Reports and analytics
+feature: Conceptos básicos de Reports & Analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
-
 
 # Uso de fuentes de datos para calcular métricas comunes
 
@@ -36,7 +36,7 @@ Se describe cómo calcular métricas habituales mediante fuentes de datos.
 
 ## Visitantes
 
-Todos los métodos que utiliza Adobe para identificar visitantes únicos (ID de visitante personalizado, servicio de Experience Cloud ID, etc.) se calculan finalmente como un valor en `post_visid_high` y `post_visid_low`. La concatenación de estas dos columnas puede utilizarse como estándar para identificar visitantes únicos independientemente de cómo se identificaron esos visitantes. Si desea saber qué método utilizó Adobe para identificar a un visitante único, utilice la columna `post_visid_type`.
+Todos los métodos que utiliza Adobe para identificar visitantes únicos (ID de visitante personalizado, servicio de Experience Cloud ID, etc.) se calculan finalmente como un valor en `post_visid_high` y `post_visid_low`. La concatenación de estas dos columnas puede utilizarse como estándar para identificar visitantes únicos independientemente de cómo se identificaron esos visitantes únicos. Si desea saber qué método utilizó Adobe para identificar a un visitante único, utilice la columna `post_visid_type`.
 
 1. Concatenar `post_visid_high` y `post_visid_low`.
 2. Contar el número único de valores.
