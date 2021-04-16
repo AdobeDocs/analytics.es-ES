@@ -1,16 +1,16 @@
 ---
 description: El Data Warehouse hace referencia a la copia de datos de Analytics para almacenarlos y elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Puede solicitar informes para mostrar las relaciones de datos avanzadas que hay entre los datos sin procesar en función de sus propias preguntas. Los informes del almacén de datos se envían por correo electrónico o mediante FTP y pueden tardar hasta 72 horas en procesarse. El tiempo de procesamiento dependerá de la complejidad de la consulta y de la cantidad de datos solicitados.
 title: Resumen de Data Warehouse
-topic: Data warehouse
+feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '723'
+exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
-
 
 # Resumen de Data Warehouse
 
@@ -77,4 +77,3 @@ En esta tabla se describen los campos y las opciones de la ficha [!UICONTROL Sol
   </tr> 
  </tbody> 
 </table>
-
