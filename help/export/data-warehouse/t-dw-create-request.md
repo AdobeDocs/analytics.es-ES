@@ -1,16 +1,16 @@
 ---
 description: Instrucciones sobre cómo crear una solicitud de Data Warehouse.
 title: Crear una solicitud de Data Warehouse
-topic: Data warehouse
+feature: Data Warehouse
 uuid: 7789fbb6-44a4-4cc5-9874-c63db4a6d74d
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '55'
+exl-id: c38de0da-feea-4f01-8e2f-8409367afb45
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '57'
 ht-degree: 100%
 
 ---
-
 
 # Crear una solicitud de Data Warehouse
 
