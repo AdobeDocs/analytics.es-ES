@@ -2,16 +2,16 @@
 description: El sistema de fuentes de datos admite las siguientes dimensiones y métricas para los tipos de datos que se procesan como conversiones.
 subtopic: Data sources
 title: Conversión
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: ht
+exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 
 ---
-
 
 # Conversión
 
