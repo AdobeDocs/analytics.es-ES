@@ -2,16 +2,16 @@
 description: Casos habituales de uso de reglas de procesamiento.
 subtopic: Processing rules
 title: Ejemplos de reglas de procesamiento
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 804190bd-30f0-4001-9569-6352e20bb00b
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '97'
+exl-id: 914a0d31-d256-456e-a44a-008490e86a23
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '99'
 ht-degree: 100%
 
 ---
-
 
 # Ejemplos de reglas de procesamiento
 
