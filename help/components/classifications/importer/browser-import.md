@@ -2,16 +2,16 @@
 description: Los datos de clasificación pueden importarse (cargarse) a través del explorador web. Este método restringe la carga de datos de clasificación a un solo grupo de informes.
 subtopic: Classifications
 title: Importación del explorador
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '305'
+exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
-
 
 # Importación del explorador
 
@@ -71,4 +71,3 @@ t_upload_a_saint_data_file_via_web_browser.xml
 1. Observe la ventana de estado para ver los mensajes de procesamiento.
 1. (Condicional) Si activó **[!UICONTROL Descargar automáticamente el archivo de clasificación cuando se haya completado la carga]**, indique dónde desea almacenar el archivo resultante cuando termine el procesamiento.
 >Si la importación es correcta, se muestran inmediatamente los cambios correspondientes en una exportación. Pese a ello, los cambios de datos en los informes pueden tardar hasta cuatro horas si utiliza una importación mediante explorador y hasta 24 horas si utiliza una importación mediante FTP.
-
