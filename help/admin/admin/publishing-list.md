@@ -1,16 +1,16 @@
 ---
 description: Las listas de publicaciones facilitan el envío de diversos informes específicos a distintos grupos de la organización sin necesidad de crear varios informes programados independientes. Las listas de publicaciones resultan útiles si se dispone de grupos de informes que son específicos de una ubicación y se desea proporcionar a cada respectivo departamento una copia de un tablero concreto. Estas listas también se pueden usar para enviar datos a muchas personas sin necesidad de introducir una por una las direcciones de correo electrónico, en caso de trabajar con un único grupo de informes.
 title: Listas de publicaciones
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
+exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
 translation-type: tm+mt
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
-
 
 # Listas de publicaciones
 
