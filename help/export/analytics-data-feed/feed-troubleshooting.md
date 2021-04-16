@@ -1,16 +1,16 @@
 ---
 description: Esta sección contiene información sobre los problemas más frecuentes.
-keywords: Data Feed;troubleshooting
+keywords: Fuente de datos;solución de problemas
 title: Solución de problemas de fuentes de datos
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '938'
-ht-degree: 100%
+exl-id: 58531afe-5e0e-49b6-9c9f-9c857be8dc75
+translation-type: tm+mt
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
+workflow-type: tm+mt
+source-wordcount: '1026'
+ht-degree: 91%
 
 ---
-
 
 # Solución de problemas de fuentes de datos
 
@@ -28,7 +28,7 @@ En ese caso, puede hacer lo siguiente:
 * Cambiar las fechas si es posible
 * Cambiar el grupo de informes si es posible
 
-## Configuración de BucketOwnerFullControl para las fuentes de datos de Amazon S3 {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Configuración de BucketOwnerFullControl para las fuentes de datos de Amazon S3  {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
 El caso de uso más habitual de Amazon S3 es que el propietario de la cuenta de los servicios web de Amazon (AWS) crea un bucket, a continuación crea un usuario que tiene permiso para crear objetos en ese bucket y, finalmente, proporciona credenciales para ese usuario. En este caso, los objetos de un usuario pertenecen a la misma cuenta y el propietario de la cuenta tiene implícitamente un control total del objeto (leer, eliminar, etc.). Funciona de un modo similar a la entrega por FTP.
 
@@ -54,7 +54,7 @@ Cuando se realice la transición de STD a DST (cambio de hora estacional), el cl
 
 Cuando se realice la transición de DST a STD, el cliente recibirá 24 archivos. Sin embargo, la hora de transición en realidad incluirá datos correspondientes a dos horas. Por ejemplo, si la transición se produce a las 2 de la madrugada, el archivo de la 1 se retrasará una hora, pero incluirá datos de dos horas. Incluirá datos entre la 1 DST y las 2 STD (que habrían sido las 3 DST). El siguiente archivo empezará a las 2 STD.
 
-## Sin datos durante un período de tiempo {#section_72510794694D42A9A75C966B812AEB0F}
+## Sin datos durante un período de tiempo  {#section_72510794694D42A9A75C966B812AEB0F}
 
 Si quiere, puede configurar una fuente de datos para que envíe un archivo de manifiesto si no se recopilan datos durante un período concreto. Si activa esta opción, recibirá un archivo de manifiesto de aspecto parecido al siguiente:
 
@@ -65,10 +65,16 @@ Datafeed-Manifest-Version: 1.0
  Total-Records: 0
 ```
 
-## No se muestra información de dominio en los informes de dominio {#section_B7508D65370442C7A314EAED711A2C75}
+## No se muestra información de dominio en los informes de dominio  {#section_B7508D65370442C7A314EAED711A2C75}
 
 Algunos operadores de telefonía móvil (como T-Mobile y O1) ya no proporcionan información de dominio cuando se realiza una búsqueda de DNS inversa. Por lo tanto, los datos no se muestran en los informes de dominio.
 
 ## Información general del procesamiento de datos {#section_6346328F8D8848A7B81474229481D404}
 
 Antes de procesar datos por hora o por día, las fuentes de datos esperan hasta que todas las visitas que han supuesto recopilación de datos dentro del marco de tiempo (un día o una hora) se han registrado en el almacén de datos. A continuación, las fuentes de datos recopilan los datos con marcas de tiempo incluidas dentro del marco de tiempo, las comprimen y las envían por FTP. En el caso de las fuentes por hora, los archivos se suelen registrar en el almacén de datos dentro de los 15-30 minutos posteriores a la hora, pero no hay un período de tiempo definido. Si no ha habido datos con marcas de tiempo incluidas en el marco de tiempo, el proceso vuelve a intentarlo con el siguiente marco de tiempo. El proceso actual de fuente de datos utiliza el campo `date_time` para determinar las visitas que corresponden a la hora. Este campo está basado en la zona horaria del grupo de informes.
+
+## Formatos de fuente de datos &quot;por hora&quot; frente a &quot;diarios&quot;
+
+Para los datos con más de 7 días de antigüedad, los archivos &quot;por hora&quot; de un día se combinan en un solo archivo &quot;Diario&quot;.
+
+Ejemplo: Se crea una nueva fuente de datos el 9 de marzo de 2021 y los datos del 1 de enero de 2021 al 9 de marzo se entregan como &quot;por hora&quot;. Sin embargo, los archivos &quot;Por hora&quot; anteriores al 2 de marzo de 2021 se combinan en un solo archivo &quot;Diario&quot;. Puede extraer archivos &quot;por hora&quot; solo de datos que tengan menos de 7 días desde la fecha de creación. En este caso, del 2 de marzo al 9 de marzo.
