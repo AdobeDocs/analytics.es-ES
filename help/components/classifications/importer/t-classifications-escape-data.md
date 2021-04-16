@@ -2,16 +2,16 @@
 description: Pasos que describen cómo aplicar secuencias de escape a los datos de clasificación del archivo de clasificación.
 subtopic: Classifications
 title: Aplicar secuencias de escape a los datos de clasificación
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
+exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # Aplicar secuencias de escape a los datos de clasificación
 
