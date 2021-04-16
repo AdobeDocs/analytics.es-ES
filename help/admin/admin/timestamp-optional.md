@@ -1,16 +1,16 @@
 ---
 description: Combine tanto los datos con marcas de hora como los datos sin marcas de hora en un grupo de informes único.
 title: Marcas de hora opcionales
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '319'
+exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
-
 
 # Marcas de hora opcionales
 
@@ -51,4 +51,3 @@ Marcas de hora opcionales, permite hacer lo siguiente:
 >[!NOTE]
 >
 >Si un grupo de informes está establecido en **Marcas de hora opcionales**, póngase en contacto con el servicio de atención al cliente de Adobe para cambiar esta o cualquier otra opción de configuración.
-
