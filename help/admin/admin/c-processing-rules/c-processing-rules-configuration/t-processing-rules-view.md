@@ -2,16 +2,16 @@
 description: Las reglas de procesamiento activas se muestran en la administración.
 subtopic: Processing rules
 title: Ver las reglas de procesamiento activas
-topic: Admin tools
+feature: Herramientas de administración
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
-translation-type: ht
-source-git-commit: 6b26343ed3ac806f0550d481622d67446799c58c
-workflow-type: ht
-source-wordcount: '51'
+exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '53'
 ht-degree: 100%
 
 ---
-
 
 # Ver las reglas de procesamiento activas
 
