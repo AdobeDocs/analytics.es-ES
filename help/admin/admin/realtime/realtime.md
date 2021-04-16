@@ -1,16 +1,16 @@
 ---
 description: Muestra tráfico de páginas web y clasifica las vistas de página en tiempo real. Proporciona datos procesables en los que fundamentar sus decisiones comerciales.
 title: Informes en tiempo real
-topic: Reports
+topic-fix: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
+exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
 
 ---
-
 
 # Informes en tiempo real
 
@@ -18,7 +18,7 @@ Muestra tráfico de páginas web y clasifica las vistas de página en tiempo rea
 
 >[!NOTE]
 >
->El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte  [Configuración de informes en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md).
+>El informe en tiempo real no requiere implementación ni etiquetado adicionales. Utiliza la implementación existente de Adobe Analytics. Para configurar informes en tiempo real, consulte [Configuración de informes en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md).
 
 **[!UICONTROL Métricas del sitio]** > **[!UICONTROL Tiempo real]**
 
@@ -48,7 +48,7 @@ Tenga en cuenta que no se admiten las métricas de conversión (eVar), ya que no
 
 La configuración y visualización de informes en tiempo real está restringida a administradores o cualquier otro usuario de los grupos de permisos &quot;Acceso a todos los informes&quot; e &quot;Informes avanzados&quot;. Sin embargo, Tiempo real respeta los permisos. Por ejemplo, si no dispone de permisos para ver ingresos, no podrá ver un informe en tiempo real que incluya datos de ingresos.
 
-## Latencia de datos como resultado de la configuración de A4T  {#section_806CE36354FC4C539A0DED9266A5C704}
+## Latencia de datos como resultado de la configuración de A4T {#section_806CE36354FC4C539A0DED9266A5C704}
 
 Tras activar la integración de A4T en Adobe Target, experimentará otros 5-10 minutos de latencia en Adobe Analytics. Este aumento de la latencia permite almacenar los datos de Analytics y Target en la misma visita, lo que le permite desplegar las pruebas por página y por sección de sitio.
 
