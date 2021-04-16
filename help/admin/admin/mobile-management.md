@@ -1,15 +1,15 @@
 ---
 description: Al habilitar la administración de aplicaciones se activan las variables de soluciones móviles, que capturan el ciclo de vida y otras métricas de aplicaciones móviles.
 title: Administración de aplicaciones
-topic: Admin tools
-translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: ht
-source-wordcount: '623'
+feature: Herramientas de administración
+exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '625'
 ht-degree: 100%
 
 ---
-
 
 # Administración de aplicaciones
 
@@ -81,4 +81,3 @@ Las clasificaciones sirven para clasificar los valores en grupos e informar a ni
 | Mensaje en la aplicación en línea |  |
 | Insertar inclusión |  |
 | ID de carga útil |  |
-
