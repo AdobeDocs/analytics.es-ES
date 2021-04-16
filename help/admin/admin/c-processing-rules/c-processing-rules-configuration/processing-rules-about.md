@@ -2,16 +2,16 @@
 description: Las reglas de procesamiento permiten realizar cambios en los datos según ciertas condiciones definidas. Cuando los atributos o los valores coinciden con las condiciones definidas, se pueden definir y eliminar valores, y definir eventos.
 subtopic: Processing rules
 title: Funcionamiento de las reglas de procesamiento
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '690'
+exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '692'
 ht-degree: 100%
 
 ---
-
 
 # Funcionamiento de las reglas de procesamiento
 
@@ -102,7 +102,7 @@ Puede crear una regla sin condiciones para ejecutar siempre las acciones definid
 
 No se buscan valores automáticamente en las variables antes de que ocurran las acciones. Por ejemplo, Prop1 contiene el valor &quot;algo&quot;, y eVar1 está vacía. Si define Prop1 de modo que sea igual a eVar1, ambos valores estarán vacíos. Si es necesario evitar que esto ocurra, agregue una condición para comprobar si existe un valor.
 
-## Acciones de las reglas de procesamiento {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## Acciones de las reglas de procesamiento  {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 Las acciones definen y eliminan variables de página, o activan eventos. Las acciones también pueden concatenar valores para que aparezcan en un informe.
 
