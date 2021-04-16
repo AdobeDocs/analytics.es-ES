@@ -2,13 +2,16 @@
 description: 'El ID de organización es necesario para completar el asistente de integración. Para encontrar este ID debe hacer lo siguiente:'
 subtopic: Qualtrics
 title: Búsqueda del ID de organización de Qualtrics
-topic: Data connectors
+feature: Data Connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
+exl-id: 52078b10-0067-468f-9ec6-05ca91aeb8fd
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 100%
 
 ---
-
 
 # Búsqueda del ID de organización de Qualtrics {#looking-up-your-qualtrics-organization-id}
 
@@ -26,4 +29,3 @@ El ID de organización es necesario para completar el asistente de integración.
 1. Busque y guarde el **[!UICONTROL ID de organización]** en la sección **[!UICONTROL Usuario]**.
 
    ![](assets/qualtrics-org-id-3.png)
-
