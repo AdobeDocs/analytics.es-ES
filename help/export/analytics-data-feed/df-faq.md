@@ -1,15 +1,15 @@
 ---
 description: Preguntas más frecuentes sobre las fuentes de datos
-keywords: Data Feed;job;pre column;post column;case sensitivity
+keywords: Fuente de datos;trabajo;columna previa;columna posterior;distinción entre mayúsculas y minúsculas
 title: Preguntas frecuentes sobre las fuentes de datos
+exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+source-wordcount: '420'
+ht-degree: 58%
 
 ---
-
 
 # Preguntas frecuentes sobre las fuentes de datos
 
@@ -31,8 +31,14 @@ Si ve diferentes variaciones de mayúsculas y minúsculas del mismo valor entre 
 
 Las fuentes de datos no incluyen bots filtrados por las [reglas de bots de la Admin Console](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/bot-removal/bot-removal.html).
 
-## ¿Por qué veo varios `000` valores en la columna de fuente de datos `event_list` o `post_event_list` ?
+## ¿Por qué veo varios valores `000` en la columna de fuente de datos `event_list` o `post_event_list`?
 
-Algunos editores de hojas de cálculo, especialmente Microsoft Excel, redondean automáticamente números muy grandes. La `event_list` columna contiene muchos números delimitados por comas, lo que a veces hace que Excel la trate como un gran número. Se redondean los últimos dígitos a `000`.
+Algunos editores de hojas de cálculo, especialmente Microsoft Excel, redondean automáticamente números muy grandes. La columna `event_list` contiene muchos números delimitados por comas, lo que a veces hace que Excel la trate como un número elevado. Se redondean los últimos dígitos a `000`.
 
-Adobe recomienda no abrir automáticamente `hit_data.tsv` archivos en Microsoft Excel. En su lugar, utilice el cuadro de diálogo Importar datos de Excel y asegúrese de que todos los campos se tratan como texto.
+Adobe recomienda no abrir automáticamente los archivos `hit_data.tsv` en Microsoft Excel. En su lugar, utilice el cuadro de diálogo Importar datos de Excel y asegúrese de que todos los campos se tratan como texto.
+
+## ¿Por qué no puedo extraer archivos &quot;por hora&quot; de datos que tengan más de 7 días?
+
+Para los datos con más de 7 días de antigüedad, los archivos &quot;por hora&quot; de un día se combinan en un solo archivo &quot;Diario&quot;.
+
+Ejemplo: Se crea una nueva fuente de datos el 9 de marzo de 2021 y los datos del 1 de enero de 2021 al 9 de marzo se entregan como &quot;por hora&quot;. Sin embargo, los archivos &quot;Por hora&quot; anteriores al 2 de marzo de 2021 se combinan en un solo archivo &quot;Diario&quot;. Puede extraer archivos &quot;por hora&quot; solo de datos que tengan menos de 7 días desde la fecha de creación. En este caso, del 2 de marzo al 9 de marzo.
