@@ -2,13 +2,13 @@
 description: Ejemplos de cómo usar tablas de datos, segmentos e ideas de casos de uso para Analysis Workspace.
 keywords: Analysis Workspace
 title: Casos de uso de Analysis Workspace
-topic: Reports and analytics
+feature: Conceptos básicos de Reports & Analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 99%
 
 ---
 
