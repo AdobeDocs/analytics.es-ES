@@ -2,13 +2,16 @@
 description: Las reglas de procesamiento se pueden restaurar desde el historial.
 subtopic: Processing rules
 title: Restaurar reglas de procesamiento
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 4ee8afca-8bcc-42b9-8f20-31db11c71c81
+exl-id: e1c220a7-1c4a-4c55-9eeb-c0e3bed8a3c6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '62'
+ht-degree: 100%
 
 ---
-
 
 # Restaurar reglas de procesamiento
 
