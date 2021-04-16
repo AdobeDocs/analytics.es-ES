@@ -2,13 +2,16 @@
 description: Administre los usuarios, grupos y productos de Analytics en Admin Console.
 subtopic: Users and groups
 title: Administración de usuarios y productos
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 100%
 
 ---
-
 
 # Administración de usuarios y productos
 
@@ -30,7 +33,7 @@ Administre los usuarios, grupos y productos de Analytics en Admin Console.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Migración de los ID de usuario de Analytics a Admin Console </p> </td> 
-   <td colname="col2"> <p> Adobe va a ayudar a los administradores de Analytics a migrar los ID de usuario a Adobe Admin Console. Este proceso se realiza en oleadas. Cuando llegue la hora de migrar a los usuarios, Adobe notificará a los administradores de Analytics mediante un correo electrónico con instrucciones. En ese momento, habrá disponible en la administración de usuarios de Analytics una <a href="https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">herramienta de migración</a> para simplificar la tarea. </p> <p>Importante: El día de la migración de los usuarios, los grupos de permisos anteriores se copiarán automáticamente en Admin Console. Ya no podrá invitar a nuevos usuarios ni crear grupos nuevos en las herramientas de administración de Analytics. Revise las preguntas más frecuentes y la ayuda de <a href="https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Migración de usuarios de Analytics a Admin Console</a> para obtener información acerca de cómo prepararse para la migración y las funciones administrativas que se ven afectadas. </p> </td> 
+   <td colname="col2"> <p> Adobe va a ayudar a los administradores de Analytics a migrar los ID de usuario a Adobe Admin Console. Este proceso se realiza en oleadas. Cuando llegue la hora de migrar a los usuarios, Adobe notificará a los administradores de Analytics mediante un correo electrónico con instrucciones. En ese momento, habrá disponible en la administración de usuarios de Analytics una <a href="https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">herramienta de migración</a> para simplificar la tarea. </p> <p>Importante: El día de la migración de los usuarios, los grupos de permisos anteriores se copiarán automáticamente en Admin Console. Ya no podrá invitar a nuevos usuarios ni crear grupos nuevos en las herramientas de administración de Analytics. Revise las preguntas más frecuentes y la ayuda de <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Migración de usuarios de Analytics a Admin Console</a> para obtener información acerca de cómo prepararse para la migración y las funciones administrativas que se ven afectadas. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inicio de Admin Console </p> </td> 
@@ -125,4 +128,3 @@ La tabla siguiente describe los elementos de la pestaña [!UICONTROL Usuarios] d
   </tr> 
  </tbody> 
 </table>
-
