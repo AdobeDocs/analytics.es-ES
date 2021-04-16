@@ -1,16 +1,16 @@
 ---
 description: Los filtros de URL internos identifican los referentes que se consideran internos del sitio. Ayudan a los informes de fuentes de tráfico a rellenar los datos y son útiles para filtrar el tráfico interno.
 title: Filtros URL internos
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-translation-type: ht
-source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
-workflow-type: ht
-source-wordcount: '214'
+exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # Filtros URL internos
 
