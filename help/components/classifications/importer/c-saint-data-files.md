@@ -2,12 +2,12 @@
 description: El importador permite realizar cargas masivas de datos de clasificaciones a los informes de análisis, mediante un archivo. Para que las cargas de datos sean correctas, es necesario usar un formato de archivo específico en la importación.
 subtopic: Classifications
 title: Archivos de datos de clasificación
-topic: Admin tools
+feature: Herramientas de administración
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-translation-type: ht
-source-git-commit: af41b67c4fb1bb3cfe363be5619d382399cf5bca
-workflow-type: ht
-source-wordcount: '1771'
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1773'
 ht-degree: 100%
 
 ---
@@ -203,5 +203,5 @@ Para clasificar campañas basadas en intervalos de fechas:
 
 ## Clasificaciones de resolución de errores
 
-* [Problemas comunes de la carga](https://helpx.adobe.com/es/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
+* [Problemas comunes de la carga](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): Artículo de la base de conocimiento que describe los problemas que surgen de los formatos de archivo y del contenido de archivo incorrectos.
 
