@@ -1,13 +1,16 @@
 ---
 description: Define la configuración común de un portal de trabajo o sitio Web de búsqueda de empleo.
 title: Portal de trabajo
-topic: Admin tools
+feature: Herramientas de administración
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
+exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
-
 
 # Portal de trabajo
 
@@ -39,8 +42,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
-| Visitas | Contador (sin subrelaciones) | N/A |
-| Vistas de páginas | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos | Contador (sin subrelaciones) | N/A |
-
+| Visitas | Contador (sin subrelaciones) | N/D |
+| Vistas de páginas | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos diarios | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos | Contador (sin subrelaciones) | N/D |
