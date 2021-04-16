@@ -1,18 +1,18 @@
 ---
 description: Habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero.
-keywords: groups;permissions
+keywords: grupos;permisos
 subtopic: Users and groups
 title: Personalizar herramientas de grupos de informes
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
+exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1166'
 ht-degree: 93%
 
 ---
-
 
 # Personalizar herramientas de grupos de informes
 
@@ -58,18 +58,18 @@ Las opciones de esta página pertenecen a los grupos de informes seleccionados e
 | [Variables de conversión](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | La variable de conversión de perspectiva personalizada (o eVar) se coloca en el código de Adobe en las páginas web del sitio seleccionadas. Su principal función es segmentar las métricas de éxito de conversión en los informes de marketing personalizados. |
 | [Métodos de búsqueda](/help/admin/admin/finding-methods.md) | Le permite identificar cómo reciben crédito distintos informes de métodos de búsqueda para los eventos de éxito de conversión en el sitio. |
 | [Clasificaciones de conversión](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | Consolidado en clasificaciones (en Herramientas e informes). |
-| [Visitante único](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Otorga permiso para especificar la variable de visitante único. |
-| [Eventos de éxito](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/success-events/success-event.html) | Acciones que se pueden rastrear, como visualizaciones de productos, cierres de compra y adquisiciones. |
+| [Visitante único](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | Otorga permiso para especificar la variable única de visitante. |
+| [Eventos de éxito](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) | Acciones que se pueden rastrear, como visualizaciones de productos, cierres de compra y adquisiciones. |
 | [Jerarquías de clasificación](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | Consolidado en clasificaciones (en Herramientas e informes). |
 | [Variables de lista ](https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html) | También se conoce como List Var. Similar a cómo funcionan las props de lista, las variables de lista permiten incluir varios valores dentro de la misma solicitud de imagen. |
 | [Medidas predeterminadas](/help/admin/admin/default-metrics.md) | Reports &amp; Analytics muestra un conjunto predeterminado de métricas en todos los informes de conversión, a menos que algún usuario seleccione un conjunto personalizado de métricas. Las medidas seleccionadas se muestran a todos los usuarios del grupo de informes asociado. |
-| [Reglas de procesamiento](https://docs.adobe.com/content/help/es-ES/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Concede acceso a las reglas de procesamiento, lo que simplifica la recopilación de datos y gestiona el contenido al enviarlo a los informes. |
+| [Reglas de procesamiento](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html) | Concede acceso a las reglas de procesamiento, lo que simplifica la recopilación de datos y gestiona el contenido al enviarlo a los informes. |
 | **Herramientas e informes** |  |
 | [Detección de anomalías](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | Concede permiso para acceder a Detección de anomalías, que constituye un método estadístico para determinar el cambio experimentado en una métrica determinada respecto a los datos anteriores. |
 | [Informe de canal](/help/components/c-marketing-channels/analyze-mc.md) | Concede permiso para informes Canal de marketing, los cuales se encuentran en Informes > Informes de canal de marketing. |
 | [Informe en tiempo real](/help/admin/admin/realtime/t-realtime-admin.md) | Otorga acceso al informe en tiempo real. |
-| [Páginas de bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Las páginas de bots son para informes específicos de Informes y análisis, no para la administración de reglas de bots. Actualmente, no hay permiso para permitir la edición de reglas de bots.** Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
-| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Los bots son para informes específicos de Informes y análisis, no para la administración de reglas de bots. Actualmente, no hay permiso para permitir la edición de reglas de bots.** Los bots permiten eliminar del grupo de informes el tráfico generado por arañas de Web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
+| [Páginas de bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Las páginas de bots están destinadas a informes y análisis específicos, no a la administración de reglas de bots. Actualmente, no hay permisos para permitir la edición de reglas de bots.** Las reglas de bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
+| [Bots](/help/admin/admin/bot-removal/bot-rules.md) | **Nota: Los bots están destinados a informes específicos de Reports &amp; Analytics, no a la administración de reglas de bots. Actualmente, no hay permisos para permitir la edición de reglas de bots.** Los bots permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. Al eliminar el tráfico de bots, la medición de la actividad de los usuarios en el sitio web es más exacta. |
 | [Informe del Data Warehouse personalizado](/help/export/data-warehouse/data-warehouse.md) | El Data Warehouse hace referencia a la copia de datos sin procesar para su almacenamiento y para elaborar informes personalizados, que se pueden ejecutar filtrando los datos. Puede solicitar informes para mostrar las relaciones de datos avanzadas que hay entre los datos sin procesar en función de sus propias preguntas. |
 | Visitas de retorno diario | (Heredado) Informe que muestra el número de visitantes que vieron el sitio web más de una vez en un día determinado. Un día se define como el último período de 24 horas. |
 | [Administrador de fuentes de datos](/help/admin/admin/data-sources.md) | La función Fuentes de datos permite importar datos a Analytics desde fuentes sin conexión. |
