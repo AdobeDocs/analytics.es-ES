@@ -1,16 +1,16 @@
 ---
 description: Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados).
 title: Filtrar segmentos
-topic: Segments
+feature: Segmentos
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '154'
+exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
-
 
 # Filtrar segmentos
 
@@ -34,4 +34,3 @@ El uso de filtros hace mucho más sencilla la búsqueda de segmentos en el carri
    | Otros filtros > Favoritos | Muestra todos los segmentos que ha marcado como [Favoritos](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
    | Otros filtros > Aprobados | Muestra todos los segmentos oficialmente [aprobados](/help/components/segmentation/segmentation-workflow/seg-approve.md). |
    | Buscar segmentos | Le permite buscar segmentos por nombre. |
-
