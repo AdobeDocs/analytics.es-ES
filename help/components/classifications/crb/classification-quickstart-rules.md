@@ -2,12 +2,12 @@
 description: Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
 subtopic: Classifications
 title: Reglas de clasificación
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2020'
 ht-degree: 100%
 
 ---
@@ -294,7 +294,7 @@ Del mismo modo, supongamos que se configuran hasta dos reglas en un conjunto par
 
 | Número de regla | Tipo de regla | Coincidencias | Configurar clasificación | Hasta |
 |---|---|---|---|---|
-| 1 | Contiene | Cowboys | Ciudad | Dallas |
+| 3 | Contiene | Cowboys | Ciudad | Dallas |
 | 2 | Contiene | Broncos | Ciudad | Denver |
 
 Un usuario busca *`Cowboys vs. Broncos`*. Si el Generador de reglas encuentra un conflicto en la coincidencia de reglas, se aplicará a la búsqueda la clasificación de la segunda regla (Denver).
@@ -329,10 +329,12 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
    >Los grupos de informes se muestran en esta página *`only`* cuando se cumplen las siguientes condiciones:
    >
    >* Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
-   >
-   >   (Consulte *`Variable`* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
-   >
-   >* Ha seleccionado el grupo de informes en la página **[!UICONTROL Grupos de informes disponibles]**, que se muestra después de hacer clic en [Agregar conjunto de reglas](/help/components/classifications/crb/classification-rule-set.md) para crear el conjunto de reglas.
+      >
+      >   
+      (Consulte *`Variable`* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
+      >
+      >
+   * Ha seleccionado el grupo de informes en la página **[!UICONTROL Grupos de informes disponibles]**, que se muestra después de hacer clic en [Agregar conjunto de reglas](/help/components/classifications/crb/classification-rule-set.md) para crear el conjunto de reglas.
 
 
 1. Especifique si desea sobrescribir los valores existentes:
