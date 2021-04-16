@@ -1,19 +1,22 @@
 ---
 description: Proporciona una lista de métricas y dimensiones compatibles con los informes en tiempo real. Las clasificaciones también son compatibles, en caso de que las haya definido.
 title: Métricas y dimensiones en tiempo real compatibles
-topic: Reports
+topic-fix: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
+exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
-
 
 # Métricas y dimensiones en tiempo real compatibles
 
 Proporciona una lista de métricas y dimensiones compatibles con los informes en tiempo real. Las clasificaciones también son compatibles, en caso de que las haya definido.
 
-## Métricas compatibles  {#section_514ED8B382494C47BFC0657894D1AF94}
+## Métricas compatibles {#section_514ED8B382494C47BFC0657894D1AF94}
 
 * Ingresos
 * Pedidos
@@ -37,11 +40,10 @@ Proporciona una lista de métricas y dimensiones compatibles con los informes en
 * Ciudad de segmentación geográfica
 * DMA de EE. UU. de segmentación geográfica
 * Product
-* Server
+* Servidor
 * Sección del sitio
 * Código de seguimiento
 * Vínculo personalizado
 * Descarga de archivos
 * Vínculo de salida
 * Variables de Insight personalizadas (propiedades) 1-75 (si se habilita en el grupo de informes)
-
