@@ -2,16 +2,16 @@
 description: Instrucciones sobre cómo agregar un grupo de usuarios.
 subtopic: Users and groups
 title: Agregar un grupo de usuarios
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '178'
+exl-id: a954c88a-7e68-4a2a-a231-c957257ae433
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
-
 
 # Agregar un grupo de usuarios
 
