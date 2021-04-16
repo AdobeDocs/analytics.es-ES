@@ -2,13 +2,16 @@
 description: Implementar esta integración es un proceso sencillo que requiere las siguientes acciones.
 subtopic: Qualtrics
 title: Implementación de la integración
-topic: Data connectors
+feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
+exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 98%
 
 ---
-
 
 # Implementación de la integración {#deploying-the-integration}
 
@@ -33,7 +36,8 @@ Para activar la integración, debe completar el asistente de integración de Qua
 |  Lista de respuestas de Qualtrics | Seleccione una variable de lista disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del administrador de grupos de informes).  |
 |---|---|
 |  ID de respuesta de Qualtrics | Seleccione una eVar o prop disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del administrador de grupos de informes).  |
-|  Servidor de seguimiento | Proporcione la configuración del servidor de seguimiento (dominio) que se utiliza para rastrear datos de Adobe Analytics. Utilice el servidor de seguimiento de `trackingServerSecure` si difiere de la configuración estándar del servidor de seguimiento.  |
+|  Servidor de seguimiento | Proporcione la configuración del servidor de seguimiento (dominio) que se utiliza para rastrear datos de Adobe Analytics. Use la variable 
+`trackingServerSecure` servidor de seguimiento si difiere de la configuración estándar del servidor de seguimiento.  |
 |  Envíos de encuesta de Qualtrics | Seleccione un evento disponible en su grupo de informes (es posible que deba habilitar un nuevo evento desde el administrador de grupos de informes).  |
 
 1. **Paso 3 del asistente**: no se necesita nada, solo información.
@@ -61,6 +65,7 @@ Después de completar el asistente de integración, debe activar la integración
 1. Seleccione la configuración de Adobe Analytics y, a continuación, haga clic en **[!UICONTROL Guardar]**. Si no hay configuraciones disponibles, es probable que aún no haya completado el asistente de integración de Adobe.
    1. La casilla de verificación **[!UICONTROL Incluir respuestas parciales]** se puede utilizar para indicar que desea capturar datos en Adobe Analytics después de completar cada pantalla parcial de la encuesta. Si no se selecciona, los datos se transfieren únicamente para las encuestas completadas.
    1. La casilla de verificación **[!UICONTROL Enviar marca de hora con señalización]** solo se debe utilizar cuando se integre con un grupo de informes configurado para recibir datos con marca de hora (algo poco común).
+
    ![](assets/integration_config.png)
 
 ## Verificación de la integración {#verifying-the-integration}
@@ -82,5 +87,3 @@ Una vez completados todos los pasos de implementación, puede validar que la int
    >Estos datos deberían aparecer en un plazo de 24 a 48 horas tras la implementación, suponiendo que la encuesta integrada reciba respuestas de forma activa.
 
    ![](assets/verify-2.png) ![](assets/verify-3.png)
-
-
