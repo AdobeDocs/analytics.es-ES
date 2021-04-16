@@ -3,16 +3,16 @@ description: Habilite permisos de usuario para elementos generales (facturación
 keywords: grupos;permisos
 subtopic: Users and groups
 title: Personalizar permisos para las herramientas de Analytics
-topic: Herramientas de administración
+feature: Herramientas de administración
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
+exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 
 ---
-
 
 # Personalizar permisos para las herramientas de Analytics
 
