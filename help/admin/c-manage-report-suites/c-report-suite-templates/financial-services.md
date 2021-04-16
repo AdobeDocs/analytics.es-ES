@@ -1,13 +1,16 @@
 ---
 description: Define la configuración común de bancos y otras instituciones que proporcionan acceso a servicios en línea.
 title: Servicios financieros
-topic: Admin tools
+feature: Herramientas de administración
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
+exl-id: 2ab435e2-3fc7-46f9-aee9-961f6730f3e8
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
-
 
 # Servicios financieros
 
@@ -39,8 +42,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
-| Visitas | Contador (sin subrelaciones) | N/A |
-| Vistas de páginas | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos | Contador (sin subrelaciones) | N/A |
-
+| Visitas | Contador (sin subrelaciones) | N/D |
+| Vistas de páginas | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos diarios | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos | Contador (sin subrelaciones) | N/D |
