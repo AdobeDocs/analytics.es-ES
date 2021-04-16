@@ -1,13 +1,16 @@
 ---
 description: Define la configuración común de un sitio Web que proporciona información acerca de servicios y productos que normalmente se venden mediante un compromiso ulterior.
 title: Generación de posibles clientes
-topic: Admin tools
+feature: Herramientas de administración
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
+exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
-
 
 # Generación de posibles clientes
 
@@ -39,8 +42,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
-| Visitas | Contador (sin subrelaciones) | N/A |
-| Vistas de páginas | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos | Contador (sin subrelaciones) | N/A |
-
+| Visitas | Contador (sin subrelaciones) | N/D |
+| Vistas de páginas | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos diarios | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos | Contador (sin subrelaciones) | N/D |
