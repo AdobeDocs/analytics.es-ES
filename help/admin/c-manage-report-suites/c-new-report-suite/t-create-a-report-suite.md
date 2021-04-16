@@ -1,25 +1,25 @@
 ---
 description: Cree un contenedor básico para la recopilación de datos en Adobe Analytics
 title: Crear un grupo de informes
-topic: Admin tools
+feature: Herramientas de administración
+exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 translation-type: tm+mt
-source-git-commit: 8ddd49ad894547d888efc513983e615d138ed13c
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 77%
 
 ---
 
-
 # Crear un grupo de informes
 
-Un grupo de informes es un silo de datos que Adobe Analytics utiliza para extraer informes. Una organización puede tener muchos grupos de informes, cada uno con diferentes conjuntos de datos. Aunque en el pasado era importante mantener grupos de informes separados, tener un único grupo de informes se ha vuelto más ventajoso. La introducción de [grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) y procesamiento de tiempo de informes permite a los administradores crear sus propios subconjuntos de datos, lo que permite la flexibilidad para obtener datos globales y específicos del sitio.
+Un grupo de informes es un silo de datos que Adobe Analytics utiliza para extraer informes. Una organización puede tener muchos grupos de informes, cada uno con diferentes conjuntos de datos. Aunque en el pasado era importante mantener grupos de informes separados, tener un único grupo de informes se ha vuelto más ventajoso. La introducción de [grupos de informes virtuales](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites) y el procesamiento del tiempo de los informes permite a los administradores crear sus propios subconjuntos de datos, lo que permite la flexibilidad para obtener datos globales y específicos del sitio.
 
 Este artículo está diseñado para administradores de nivel de sistema o administradores de análisis para prepararse para la recopilación de datos.
 
 ## Requisitos previos
 
-[Adobe Analytics First Admin Guide](/help/admin/admin-console/first-admin-guide.md): Asegúrese de que un administrador de nivel de sistema le ha concedido acceso a Adobe Analytics a través del Admin Console del Experience Cloud.
+[Guía](/help/admin/admin-console/first-admin-guide.md) de administración inicial de Adobe Analytics: Asegúrese de que un administrador de nivel de sistema le haya concedido acceso a Adobe Analytics a través del Admin Console del Experience Cloud.
 
 ## Crear un grupo de informes {#create-report-suite}
 
@@ -34,7 +34,7 @@ Este artículo está diseñado para administradores de nivel de sistema o admini
 1. Complete los campos descritos en [Nuevo grupo de informes.](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
 1. Haga clic en **[!UICONTROL Crear grupo de informes]**.
 
-Una ID de grupo de informes tiene una longitud máxima de 40 bytes. Un nombre práctico del grupo de informes tiene una longitud máxima de 255 bytes.
+Una ID de grupo de informes tiene una longitud máxima de 40 bytes. Un nombre descriptivo del grupo de informes tiene una longitud máxima de 255 bytes.
 
 ## Resolución de problemas
 
