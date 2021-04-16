@@ -1,16 +1,16 @@
 ---
 description: Permite que los usuarios de nivel de administración vean y gestionen informes programados en toda la organización.
 title: Cola de informes programados
-topic: Reports
+topic-fix: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
+exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 
 ---
-
 
 # Cola de informes programados
 
@@ -35,7 +35,7 @@ En la ficha **[!UICONTROL Lista de informes]**, puede **[!UICONTROL mostrar todo
 
 ![](assets/show_all_scheduled_reports.png)
 
-## Funciones de filtro avanzado {#section_206A52A85DE84947AAB3AD082FBF6275}
+## Funciones de filtro avanzado  {#section_206A52A85DE84947AAB3AD082FBF6275}
 
 Por ejemplo, si desea filtrar todos los informes que están programados cada hora, especifique **[!UICONTROL Frecuencia igual a cada hora]** en el filtro **[!UICONTROL Avanzado]** y haga clic en **[!UICONTROL Aplicar]**:
 
