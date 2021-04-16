@@ -1,16 +1,16 @@
 ---
 description: Proporciona una lista de métricas y dimensiones compatibles con los informes en tiempo real. Las clasificaciones también son compatibles, en caso de que las haya definido.
 title: Métricas y dimensiones en tiempo real compatibles
-topic: Reports
+topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # Métricas y dimensiones en tiempo real compatibles
 
@@ -29,7 +29,7 @@ Proporciona una lista de métricas y dimensiones compatibles con los informes en
 * Instancias
 * Eventos personalizados 1-100 (si se habilita en el grupo de informes)
 
-## Dimensiones admitidas {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
+## Dimensiones admitidas  {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
 * Página
 * Palabra clave de búsqueda
@@ -47,4 +47,3 @@ Proporciona una lista de métricas y dimensiones compatibles con los informes en
 * Descarga de archivos
 * Vínculo de salida
 * Variables de Insight personalizadas (propiedades) 1-75 (si se habilita en el grupo de informes)
-
