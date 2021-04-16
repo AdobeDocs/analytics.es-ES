@@ -1,18 +1,18 @@
 ---
 description: Personalice el acceso de usuarios a nivel granular con eVars, informes de tráfico, informes de soluciones e informes de rutas.
-keywords: groups;permissions
+keywords: grupos;permisos
 subtopic: Users and groups
 title: Personalizar permisos para dimensiones
-topic: Admin tools
+feature: Herramientas de administración
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
+exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '516'
 ht-degree: 98%
 
 ---
-
 
 # Personalizar permisos para dimensiones
 
@@ -43,7 +43,7 @@ Conozca la información que sigue sobre la categoría de permisos Dimensión.
 * Se han migrado automáticamente a las nuevas categorías todas las dimensiones y métricas actuales dentro de grupos personalizados. Si un grupo existente tiene métricas habilitadas, se le asignarán todas las dimensiones que puedan recibir permisos por primera vez (eVars y según el contenido) y métricas de forma predeterminada.
 * Permisos del Importador de clasificaciones (anteriormente, SAINT): el acceso a las clasificaciones viene determinado por el acceso a la [variable](https://docs.adobe.com/content/help/es-ES/analytics/components/classifications/c-classifications.html) en la cual se basa la clasificación.
 
-Para obtener más información, consulte Cambios [en los permisos](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/permissions-changes.html)de usuarios y grupos.
+Para obtener más información, consulte [Cambios en los permisos de usuario y grupo](https://docs.adobe.com/content/help/es-ES/analytics/admin/user-product-management/user-management/permissions-changes.html).
 
 **Personalizar dimensiones**
 
@@ -63,14 +63,14 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/evar.html"> Propriétés </a> </p> </td> 
-   <td colname="col2"> <p>Las props son variables de tráfico personalizadas. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/evar.html">Props de tráfico y eVars de conversión</a> en Implementación de Analytics. </p> </td> 
+   <td colname="col2"> <p>Las props son variables de tráfico personalizadas. </p> <p>Consulte <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">Props de tráfico y eVars de conversión</a> en Implementación de Analytics. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html"> Jerarquía </a> </p> </td> 
    <td colname="col2"> <p> La variable de jerarquía (hierN) determina la ubicación de una página en la jerarquía del sitio o en la estructura de páginas. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> Similar a cómo funcionan las props de lista, las variables de lista permiten incluir varios valores dentro de la misma solicitud de imagen. </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ Los elementos que siguen son dimensiones para las cuales se pueden asignar permi
    <td colname="col2"> <p>Esta integración de partners ya no está activa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/es-ES/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>Esta integración de partners ya no está activa. </p> </td> 
   </tr> 
   <tr> 
