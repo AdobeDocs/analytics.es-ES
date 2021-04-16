@@ -1,13 +1,16 @@
 ---
 description: Proporciona la configuración común de un sitio web que ofrece artículos y vídeos de soporte para productos.
 title: Medios de soporte técnico
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
+exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '181'
+ht-degree: 100%
 
 ---
-
 
 # Medios de soporte técnico
 
@@ -39,8 +42,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
-| Visitas | Contador (sin subrelaciones) | N/A |
-| Vistas de páginas | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos | Contador (sin subrelaciones) | N/A |
-
+| Visitas | Contador (sin subrelaciones) | N/D |
+| Vistas de páginas | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos diarios | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos | Contador (sin subrelaciones) | N/D |
