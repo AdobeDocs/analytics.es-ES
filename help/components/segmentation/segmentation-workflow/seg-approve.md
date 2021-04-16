@@ -1,16 +1,16 @@
 ---
 description: En el Administrador de segmentos, puede establecer un flujo de trabajo que incluya la aprobación de segmentos para varios niveles de aplicación, para departamentos específicos o para grupos, y coherente con las políticas de creación de informes.
 title: Aprobar segmentos
-topic: Segments
+feature: Segmentos
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
+exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '125'
 ht-degree: 100%
 
 ---
-
 
 # Aprobar segmentos
 
@@ -27,4 +27,3 @@ Así es como se marca un segmento como aprobado:
    ![](assets/seg_approved.png)
 
 1. También puede desaprobar un segmento aprobado haciendo clic en **[!UICONTROL Desaprobar]**.
-
