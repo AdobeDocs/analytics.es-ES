@@ -2,16 +2,16 @@
 description: Información sobre requisitos para el grupo de informes antes de utilizar fuentes de datos.
 subtopic: Data sources
 title: Requisitos y límites de carga
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
+exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 98%
 
 ---
-
 
 # Requisitos y límites de carga
 
@@ -29,9 +29,9 @@ En las secciones siguientes se indican restricciones que rigen para las fuentes 
 
 * Cada cuenta FTP está limitada a un máximo de 50 MB para el total de datos de todos los archivos. Si el tamaño de datos supera los 50 MB, el procesamiento se detendrá y no se reanudará hasta que el total sea menor que 50 MB.
 
-## Fechas {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
+## Fechas  {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
-* Por cada día del calendario, solamente se pueden cargar datos para 90 fechas distintas. Si supera este límite, la carga fallará y se mostrará un mensaje de error para indicar que ha excedido el número máximo de días.
+* Por cada día del calendario, solamente se pueden cargar datos para 90 fechas distintas. Si supera este límite, la carga fallará y se mostrará un mensaje de error para indicar que ha excedido el número máximo de días únicos.
 * Solo pueden importarse datos con fechas actuales o pasadas. No intente usar fechas futuras en las fuentes de datos.
 * Para habilitar las funciones gráficas del informe, todas las filas deben tener indicada una fecha. Si una fila no incluye fecha, el sistema de fuentes de datos generará un error y rechazará el archivo. El formato de fecha y hora depende del tipo de fuente de datos:
 
@@ -90,12 +90,12 @@ Si se envía un archivo UTF-8 o ISO-8859-1 y el grupo de informes no está confi
 * El error se detectará durante la conversión y aparecerá un mensaje similar a “Se encontró un carácter incorrecto en el archivo en la posición 18 mientras se realizaba la conversión de UTF-8 a ISO-8859-1”.
 * El archivo se procesará sin errores, pero en el informe aparecerán datos ilegibles.
 
-## Carga de archivos de registro web {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## Carga de archivos de registro web  {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * Los informes más útiles para ver datos de registro web son los informes de tráfico como, por ejemplo, el de vistas de páginas.
 * Los nombres de las páginas se muestran como direcciones URL completas, incluida la parte de consulta.
 * Cada solicitud de archivo individual se muestra como una vista de página independiente; esto incluye las hojas de estilo y los archivos de imagen.
-* Si se añade información a la URL, puede ocurrir que los archivos se registren como páginas separadas. Por ejemplo, Adobe registra las siguientes direcciones URL como dos páginas independientes:
+* Si se añade información a la URL, puede ocurrir que los archivos se registren como páginas separadas. Por ejemplo, Adobe registra las siguientes direcciones URL como dos páginas separadas:
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
