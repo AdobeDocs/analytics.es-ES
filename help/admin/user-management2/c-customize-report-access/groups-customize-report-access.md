@@ -3,16 +3,16 @@ description: Personalice los permisos de grupo a las herramientas de Analytics, 
 keywords: grupos;permisos
 subtopic: Users and groups
 title: 'Personalizar el acceso a los informes: Resumen'
-topic: Herramientas de administración
+feature: Herramientas de administración
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
+exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 96%
 
 ---
-
 
 # Personalizar el acceso a los informes: Resumen
 
@@ -42,7 +42,7 @@ Por ejemplo, puede crear un grupo con acceso a varias herramientas de Analytics 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Acceso de administrador y grupos predefinidos </p> </td> 
-   <td colname="col2"> <p> Los grupos predefinidos ya no son obligatorios para los administradores. Los administradores ahora tienen acceso a todos los elementos (herramientas, métricas, dimensiones), así como al acceso al servicio Web, al Report Builder y al Activity Map. </p> <p>El objetivo de los grupos es conceder acceso a los usuarios que no son administradores, o restringirlo. </p> </td> 
+   <td colname="col2"> <p> Los grupos predefinidos ya no son obligatorios para los administradores. Los administradores ahora tienen acceso a todos los elementos (herramientas, métricas y dimensiones), así como acceso a servicio web, Report Builder y Activity Map. </p> <p>El objetivo de los grupos es conceder acceso a los usuarios que no son administradores, o restringirlo. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Grupos personalizados </p> </td> 
@@ -102,4 +102,3 @@ Por ejemplo, puede crear un grupo con acceso a varias herramientas de Analytics 
   </tr> 
  </tbody> 
 </table>
-
