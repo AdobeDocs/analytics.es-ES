@@ -1,16 +1,16 @@
 ---
 description: Descripción de los tipos de grupos de informes y comparación de los grupos de informes globales y los grupos de informes resumidos.
 title: Enfoques de los grupos de informes
-topic: Herramientas de administración
+feature: Herramientas de administración
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
+exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 translation-type: tm+mt
-source-git-commit: 9bc2e0425fa99efb32561ad1f80605e078eb7650
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '975'
 ht-degree: 27%
 
 ---
-
 
 # Enfoques de los grupos de informes
 
@@ -44,7 +44,7 @@ El uso de grupos de informes virtuales en lugar del etiquetado de grupos múltip
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] es la única herramienta que admite informes resumidos y Adobe ya no recomienda el uso de resúmenes. Considere la posibilidad de utilizar un grupo de informes globales con etiquetado de grupos múltiples o grupos de informes virtuales.
+>[!DNL Reports & Analytics] es la única herramienta que admite informes de resumen y Adobe ya no recomienda el uso de resúmenes. Considere la posibilidad de utilizar un grupo de informes globales con etiquetado de grupos múltiples o grupos de informes virtuales.
 
 Un informe de resumen es una simple agregación de datos de varios grupos de informes, sin deduplicación ni desglose de datos o segmentos. Los resúmenes no requieren la implementación de código. Para utilizar informes resumidos, [implemente grupos de informes secundarios](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) y luego [combínelos en un informe resumido](/help/admin/c-manage-report-suites/t-rollups.md) mediante [!UICONTROL Herramientas de administración].
 
@@ -72,7 +72,7 @@ Los informes resumidos son gratuitos: los grupos de informes secundarios realiza
 
 **Cambios de implementación**: los resúmenes no requieren ningún cambio de implementación, mientras que los grupos de informes globales requieren que incluya el ID del grupo de informes global en la implementación.
 
-**Duplicación**: a diferencia de los grupos de informes resumidos, los globales anulan la duplicación de visitantes únicos. Por ejemplo, si un usuario visita tres dominios de un mismo propietario el mismo día, los grupos de informes resumidos contabilizarían tres visitantes únicos al día. Los grupos de informes globales registrarían un único visitante.
+**Duplicación**: a diferencia de los grupos de informes resumidos, los globales anulan la duplicación de visitantes únicos. Por ejemplo, si un usuario visita tres dominios de un mismo propietario el mismo día, los grupos de informes resumidos contabilizarían tres visitantes únicos diarios. Los grupos de informes globales registrarían un único visitante.
 
 **Lapso de tiempo**: los grupos de informes resumidos solo se procesan cada medianoche, mientras que los globales registran datos con latencia estándar.
 
@@ -82,6 +82,6 @@ Los informes resumidos son gratuitos: los grupos de informes secundarios realiza
 
 **Informes**: los grupos de informes globales ofrecen datos de todas las dimensiones, mientras que los resumidos ofrecen datos acumulados sobre los informes principales.
 
-**Productos compatibles**: los grupos de informes resumidos solo se pueden usar en Reports &amp; Analytics. No son compatibles con Analysis Workspace ni Data Warehouse. Los grupos de informes globales se pueden utilizar en todos los productos.
+**Productos compatibles**: los grupos de informes resumidos solo se pueden usar en Reports &amp; Analytics. No son compatibles con Analysis Workspace ni con la Data Warehouse. Los grupos de informes globales se pueden utilizar en todos los productos.
 
 **Número de grupos de informes agregados**: los grupos de informes resumidos solo admiten un máximo de 40 grupos de informes secundarios. Los grupos de informes globales se pueden implementar en cualquier dominio o aplicación de su propiedad.
