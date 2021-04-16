@@ -2,16 +2,16 @@
 description: Definiciones de los elementos de la interfaz en las páginas del Generador de reglas de clasificación.
 subtopic: Classifications
 title: Definiciones de reglas de clasificación
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '880'
 ht-degree: 98%
 
 ---
-
 
 # Definiciones de reglas de clasificación
 
@@ -144,4 +144,3 @@ Esta página permite probar las reglas de un conjunto.
 |---|---|
 | Ejecutar prueba | Para probar el conjunto de reglas, debe comprobarse el efecto que este ejerce sobre las claves del informe. |
 | Filtro | Filtra los valores en el panel [!UICONTROL Resultados]. |
-
