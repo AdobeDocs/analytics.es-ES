@@ -2,13 +2,16 @@
 description: Instrucciones que describen cómo añadir una cuenta de usuario.
 subtopic: Users and groups
 title: Agregar una cuenta de usuario
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
+exl-id: b81f175d-5684-4eb4-b63b-9ee889fe76f1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 100%
 
 ---
-
 
 # Agregar una cuenta de usuario
 
