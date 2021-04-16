@@ -2,16 +2,16 @@
 description: Instrucciones sobre cómo asignar grupos de usuarios a un grupo de informes.
 subtopic: Users and groups
 title: Asignar grupos de usuarios a un grupo de informes
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '198'
+exl-id: 8e2a36b8-4693-4bb2-9993-8887fd7c906d
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '200'
 ht-degree: 100%
 
 ---
-
 
 # Asignar grupos de usuarios a un grupo de informes
 
