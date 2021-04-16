@@ -2,16 +2,16 @@
 description: Las clasificaciones de tráfico permiten clasificar variables de tráfico (props). Las clasificaciones de tráfico solo pueden usar clasificaciones de texto.
 subtopic: Classifications
 title: Clasificaciones de tráfico
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
-translation-type: ht
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
-source-wordcount: '192'
+exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '194'
 ht-degree: 100%
 
 ---
-
 
 # Clasificaciones de tráfico
 
