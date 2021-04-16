@@ -1,13 +1,16 @@
 ---
 description: Configura distintas variables comunes y eventos de éxito de un sitio Web.
 title: Plantilla predeterminada
-topic: Admin tools
+feature: Herramientas de administración
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
+exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
-
 
 # Plantilla predeterminada
 
@@ -46,8 +49,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
-| Visitas | Contador (sin subrelaciones) | N/A |
-| Vistas de páginas | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos | Contador (sin subrelaciones) | N/A |
-
+| Visitas | Contador (sin subrelaciones) | N/D |
+| Vistas de páginas | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos diarios | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos | Contador (sin subrelaciones) | N/D |
