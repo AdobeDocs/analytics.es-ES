@@ -3,16 +3,16 @@ description: Datos de tabla que describen las columnas de las fuentes de datos.
 keywords: Fuentes de datos, columnas
 subtopic: data feeds
 title: Referencia de columnas de datos
-topic: Reports and Analytics
+feature: Conceptos básicos de Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: e1492147-6e7f-4921-b509-898e7efda596
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '3396'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # Referencia de columnas de datos
 
@@ -169,7 +169,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `prev_page` | No se usa. Identificador propio de Adobe de la página anterior. | int sin firmar |
 | `product_list` | Lista de productos tal como se transmite mediante la variable [`products`](/help/implement/vars/page-vars/products.md). Los productos están delimitados por comas, mientras que las propiedades de los productos individuales están delimitadas por punto y coma. | text |
 | `product_merchandising` | No se usa. Utilice `product_list` en su lugar. | text |
-| `prop1` - `prop75` | Variables de tráfico personalizadas 1-75. Se utiliza en dimensiones [Prop](/help/components/dimensions/prop.md). | varchar(100) |
+| `prop1` -  `prop75` | Variables de tráfico personalizadas 1-75. Se utiliza en dimensiones [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | `purchaseid` | Identificador único de una compra, tal y como se establece mediante la variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Lo utiliza la columna `duplicate_purchase`. | char(20) |
 | `quarterly_visitor` | Un indicador que determina si la visita es un visitante nuevo trimestral. | tinyint sin firmar |
 | `ref_domain` | Se basa en la columna de referentes. El dominio de referencia de la visita. Se utiliza en la dimensión [Dominio de referencia](/help/components/dimensions/referring-domain.md). | varchar(100) |
