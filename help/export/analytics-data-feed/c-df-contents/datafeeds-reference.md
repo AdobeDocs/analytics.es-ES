@@ -7,9 +7,9 @@ feature: Conceptos básicos de Reports & Analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3405'
 ht-degree: 99%
 
 ---
@@ -157,7 +157,7 @@ Utilice esta página para conocer los datos contenidos en cada columna. La mayor
 | `page_event_var2` | Solo se utiliza en las solicitudes de imagen de seguimiento de vínculos. El nombre personalizado (si se especifica) del vínculo. | varchar(100) |
 | `page_event_var3` | Ya no se utiliza. Contenía los datos de los módulos Survey y Media. Completaba los informes de vídeo heredados en las versiones anteriores de Adobe Analytics. | text |
 | `page_type` | Se utilizaba para completar la dimensión [Páginas no encontradas](/help/components/dimensions/pages-not-found.md) y se usaba exclusivamente para las páginas 404. Esta variable debe estar vacía o debe contener el valor `ErrorPage`. | char(20) |
-| `page_url` | La URL de la visita. Se ha eliminado de las solicitudes de imagen de seguimiento de vínculos. | varchar(255) |
+| `page_url` | La URL de la visita. En su variante posterior (post_page_url), el valor se elimina para las solicitudes de imagen de seguimiento de vínculos. | varchar(255) |
 | `pagename` | Se utiliza para completar la dimensión [Página](/help/components/dimensions/page.md). Si la variable [`pagename`](/help/implement/vars/page-vars/pagename.md) está vacía, Analytics utiliza `page_url` en su lugar. | varchar(100) |
 | `paid_search` | Un indicador que se establece si la visita coincide con la detección de búsquedas de pago. | tinyint sin firmar |
 | `partner_plugins` | No se usa. Parte de una función limpiada. | varchar(255) |
