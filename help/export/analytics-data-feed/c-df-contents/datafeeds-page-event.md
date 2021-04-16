@@ -1,17 +1,17 @@
 ---
 description: La tabla de búsqueda para determinar el tipo de visita basándose en el valor de page_event.
-keywords: Data Feed;page;event;page_event;post_page_event
+keywords: Fuente de datos;página;evento;page_event;post_page_event
 title: Búsqueda de eventos de página
-topic: Reports and analytics
+feature: Conceptos básicos de Reports & Analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '197'
-ht-degree: 100%
+exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 94%
 
 ---
-
 
 # Búsqueda de eventos de página
 
