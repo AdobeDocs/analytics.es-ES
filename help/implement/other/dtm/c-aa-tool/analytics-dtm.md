@@ -1,17 +1,17 @@
 ---
 description: Implemente Adobe Analytics mediante el uso de Dynamic Tag Management. Para ello, debe crear la herramienta Adobe Analytics y configurar el código de página de forma automática o manual. Para la mayoría de los usuarios, se recomienda seguir el método automático.
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
+keywords: Implementación de Analytics, método de implementación, Dynamic Tag Management, dtm, herramienta de análisis, propiedad, tipo de herramienta, nombre de herramienta, método de configuración, analytics premium, evars, eventos
 title: Agregar la herramienta Adobe Analytics
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '750'
+exl-id: 3f5e13f6-19d1-46b9-9011-6010b455007e
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '771'
 ht-degree: 100%
 
 ---
-
 
 # Agregar la herramienta Adobe Analytics
 
