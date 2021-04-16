@@ -1,22 +1,22 @@
 ---
 description: Una utilidad de publicación es un contenedor que permite incrustar informes de marketing (marcadores y tableros) en una página web. Los miembros de la organización que no dispongan de acceso a los informes de marketing también podrán ver los datos relevantes.
 title: Widget de publicaciones
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
+exl-id: 97ec07d8-29ad-4ef3-9227-bfdc14a59b97
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '584'
 ht-degree: 100%
 
 ---
-
 
 # Widget de publicaciones
 
 Una utilidad de publicación es un contenedor que permite incrustar informes de Analytics (marcadores y paneles) en una página web. Los miembros de la organización que no dispongan de acceso a los informes de Analytics también podrán ver los datos relevantes.
 
-Por ejemplo, se puede disponer un tablero donde los ejecutivos de la empresa puedan ver el número de visitantes de la página, de visitantes de página únicos, etcétera.
+Por ejemplo, se puede disponer un tablero donde los ejecutivos de la empresa puedan ver el número de visitantes de la página, de visitantes de página única, etcétera.
 
 >[!CAUTION]
 >
