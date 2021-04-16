@@ -1,16 +1,16 @@
 ---
 description: El administrador de solicitudes permite ver, duplicar y volver a priorizar solicitudes.
 title: Administrar solicitudes de Data Warehouse
-topic: Data warehouse
+feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
+exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '157'
+ht-degree: 80%
 
 ---
-
 
 # Administrar solicitudes de Data Warehouse
 
@@ -31,6 +31,6 @@ Al trabajar en esta ficha, puede
 * Volver a priorizar los informes al arrastrarlos y colocarlos en una nueva ubicación dentro de la cola.
 * Para ver cuándo comenzó a procesarse una solicitud, haga clic en el ID de una solicitud programada y revise el menú emergente que se abre.
 
-Haga clic en un trabajo para ver las solicitudes individuales de dicho trabajo.
+Haga clic en un trabajo para ver solicitudes individuales para ese trabajo.
 
-* Tarifa limitada: Su organización tiene demasiadas solicitudes de Data Warehouse en ejecución. La solicitud se pone en pausa hasta que se completen otras solicitudes de datos.
+* Tasa limitada: Su organización tiene demasiadas solicitudes de Data Warehouse en ejecución. La solicitud se detiene hasta que se completen otras solicitudes de datos.
