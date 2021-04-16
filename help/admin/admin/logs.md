@@ -1,15 +1,15 @@
 ---
 description: Los archivos de registro ayudan a ver cuándo los usuarios inician la sesión, su uso, los accesos, los grupos de informes y los cambios del administrador.
 title: Registros
-topic: Admin tools
+feature: Herramientas de administración
+exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 translation-type: tm+mt
-source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
-
 
 # Registros
 
@@ -31,7 +31,7 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 | Inicio de sesión | Filtre el registro por nombre de usuario. |
 | IP | Filtre el registro por dirección IP. |
 | Grupo de informes | Filtre el registro por un ID de grupo de informes específico. |
-| Tipo de evento | Filtre el registro por tipo de evento. Seleccione un tipo de evento de la lista desplegable. Consulte la lista completa de tipos de evento a continuación. |
+| Tipo de evento | Filtre el registro por tipo de evento. Seleccione un tipo de evento de la lista desplegable. Consulte la lista completa de tipos de eventos a continuación. |
 | Evento | Filtre el registro por una palabra o frase de la descripción del evento. |
 | Descargar informe | Exporta el contenido del [!UICONTROL registro de uso y acceso] a un archivo delimitado por tabulaciones. |
 
@@ -39,26 +39,26 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 
 | Tipo de evento | Descripción |
 | --- | --- |
-| Ninguna categoría | Podría ser cualquier tipo de evento. |
+| Ninguna categoría | Puede ser cualquier tipo de evento. |
 | Falló el inicio de sesión | Error en el proceso de inicio de sesión del usuario. |
 | Inicio de sesión exitoso | El usuario ha iniciado sesión correctamente. |
-| Acción del administrador | Se produjo una acción de administración, como editar un grupo de informes, cambiar la configuración de compañía, crear un usuario, etc. |
-| Cambio en la configuración de seguridad | Se cambió la configuración de seguridad. |
-| Informe visto | Se visualizó un informe de Informes y análisis. |
-| Informe descargado | Se descargó un informe de Informes y análisis. |
+| Acción del administrador | Se ha producido una acción de administrador, como editar un grupo de informes, cambiar la configuración de la empresa, crear un usuario, etc. |
+| Cambio en la configuración de seguridad | Se ha cambiado una configuración de seguridad. |
+| Informe visto | Se visualizó un informe de Reports &amp; Analytics. |
+| Informe descargado | Se descargó un informe de Reports &amp; Analytics. |
 | Alerta enviada | Se envió una alerta. |
 | Acción del usuario | Se editó la información del usuario. |
-| Herramienta vista | Se visualizó una herramienta. |
+| Herramienta vista | Se ha visto una herramienta. |
 | Acción de Omniture | Adobe realizó una acción. |
 | Recuperación de contraseña | Se recuperó una contraseña. |
 | Marcadores | Se administró un marcador. |
-| Tableros | Se administró un panel. |
+| Tableros | Se administró un tablero. |
 | Alertas | Se administró una alerta. |
 | Eventos de calendario | Se administró un evento de calendario. |
-| Objetivos | Se administró un destinatario. |
+| Objetivos | Se administró un objetivo. |
 | Configuración de informes | Se administró una configuración de informe. |
 | Informes programados | Se administró un informe programado. |
-| Excluir por dirección IP | Se cambió la configuración de IP. |
+| Excluir por dirección IP | Se ha cambiado la configuración de la IP. |
 | Nombrar páginas | Obsoleto. |
 | Clasificaciones | Se administró una clasificación. |
 | Fuentes de datos | Se administró una fuente de datos. |
@@ -71,7 +71,7 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 | Método API | Se realizó una llamada de API. |
 
 
-## Registro de cambios del grupo de informes {#section_3864966639414BBEA871F4D0352F56B6}
+## Registro de cambios del grupo de informes  {#section_3864966639414BBEA871F4D0352F56B6}
 
 El registro de cambios del grupo de informes muestra los cambios realizados en los grupos de informes fuera de la administración.
 
@@ -89,4 +89,3 @@ Las herramientas que pueden modificar un grupo de informes desde fuera de las [!
 | IP | Filtre el registro por dirección IP. |
 | Evento | Filtre el registro por una palabra o frase de la descripción del evento. |
 | Descargar informe | Exporta el contenido del [!UICONTROL registro de uso y acceso] a un archivo delimitado por tabulaciones. |
-
