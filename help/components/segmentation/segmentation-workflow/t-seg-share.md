@@ -1,16 +1,16 @@
 ---
 description: En función de sus permisos, puede compartir segmentos con toda su organización, con grupos o con usuarios individuales.
 title: Compartir segmentos
-topic: Segments
+feature: Segmentos
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '276'
+exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '277'
 ht-degree: 100%
 
 ---
-
 
 # Compartir segmentos
 
