@@ -1,16 +1,16 @@
 ---
 description: El Administrador de segmentos ofrece numerosas maneras de conservar los segmentos, como compartir, filtrar, etiquetar, aprobar, copiar, eliminar y marcar como favoritos.
 title: Administración de segmentos
-topic: Segmentos
+feature: Segmentos
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
-
 
 # Administración de segmentos
 
