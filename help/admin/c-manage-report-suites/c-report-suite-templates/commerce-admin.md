@@ -1,13 +1,16 @@
 ---
 description: Define la configuración común de un sitio Web de comercio electrónico.
 title: Comercio
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
+exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
-
 
 # Comercio
 
@@ -43,8 +46,7 @@ La tabla siguiente contiene una lista de los eventos de comercio estándar. La c
 | Cierres de compra | Contador | `scCheckout` |
 | Adiciones al carro de compras | Contador | `scAdd` |
 | Eliminaciones del carro de compras | Contador | `scRemove` |
-| Visitas | Contador (sin subrelaciones) | N/A |
-| Vistas de páginas | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos diarios | Contador (sin subrelaciones) | N/A |
-| Visitantes únicos | Contador (sin subrelaciones) | N/A |
-
+| Visitas | Contador (sin subrelaciones) | N/D |
+| Vistas de páginas | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos diarios | Contador (sin subrelaciones) | N/D |
+| Visitantes únicos | Contador (sin subrelaciones) | N/D |
