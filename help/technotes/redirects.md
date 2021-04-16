@@ -1,15 +1,18 @@
 ---
 description: Las redirecciones llevan al navegador a una nueva ubicación sin interacción del usuario. Se ejecutan en el navegador web (redirección del lado del cliente) o el servidor web (redirección del lado del servidor).
-keywords: Analytics Implementation
+keywords: Implementación de Analytics
 subtopic: Redirects
 title: Redirecciones y alias
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
+exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1125'
+ht-degree: 100%
 
 ---
-
 
 # Redirecciones y alias
 
@@ -31,18 +34,18 @@ Aunque solo existen dos tipos de redirecciones, pueden implementarse de muchas m
 
 Imagine la siguiente situación hipotética en la que el usuario no se topa con ninguna redirección:
 
-1. User points his or her browser to `www.google.com`, and types, &quot;discount airline tickets&quot; into the search field, and then clicks the **[!UICONTROL Search]** button.
+1. El usuario dirige el navegador a `www.google.com`, escribe “billetes avión descuento” en el campo de búsqueda y luego hace clic en el botón **[!UICONTROL Buscar]**.
 1. El navegador muestra los resultados de la búsqueda, entre los que se encuentra su sitio, [!DNL https://www.example.com/]. Después de mostrar los resultados de la búsqueda, la barra de direcciones del explorador muestra los términos de búsqueda que el usuario ingresó en el campo de búsqueda (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Observe que los términos de búsqueda se incluyen en los parámetros de la cadena de consulta de la dirección URL que están después de `https://www.google.com/search?`.
 1. El usuario hace clic en el vínculo de su sitio hipotético, [!DNL https://www.example.com/]. Cuando el usuario hace clic en este vínculo y aterriza en el sitio web de [!DNL example.com], [!DNL Analytics] utiliza JavaScript para recopilar la dirección URL de referencia (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) así como la dirección URL actual (`https://www.example.com/`).
-1. [!DNL Analytics] informa de la información recopilada durante esta interacción en varios informes, como [!UICONTROL Referring Domains], [!UICONTROL Search Engines]y [!DNL Search Keywords].
+1. [!DNL Analytics] registra la información recopilada durante la interacción en distintos informes, como [!UICONTROL Dominios de referencia], [!UICONTROL Motores de búsqueda] y [!DNL Search Keywords].
 
 ## Ejemplo: navegación con redirecciones {#section_921DDD32932847848C4A901ACEF06248}
 
 Las redirecciones pueden hacer que el navegador borre la verdadera dirección URL de referencia. Imagine la siguiente situación:
 
-1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button.
+1. El usuario dirige el navegador a `https://www.google.com`, y luego escribe *billetes avión descuento* en el campo de búsqueda y hace clic en el botón **[!UICONTROL Buscar]**.
 1. La barra de direcciones de la ventana del explorador muestra los términos de búsqueda que el usuario escribió en el campo de búsqueda `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Observe que los términos de búsqueda se incluyen en los parámetros de la cadena de consulta de la dirección URL que están después de `https://www.google.com/search?`. El navegador también muestra una página que contiene los resultados de la búsqueda, entre los que se incluye un vínculo a uno de sus nombres de dominio: [!DNL https://www.flytohawaiiforfree.com/]. Este dominio *mnemónico* está configurado para redireccionar al usuario a `https://www.example.com/`.
-1. El usuario hace clic en el vínculo `https://www.flytohawaiiforfree.com/` y el servidor lo redirecciona a su sitio principal, `https://www.example.com`. Cuando se produce la redirección, se pierden datos importantes para la recopilación de datos de [!DNL Analytics] porque el explorador borra la dirección URL de referencia. Por lo tanto, se pierde la información de búsqueda original utilizada en los [!DNL Analytics] informes (por ejemplo, [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords]).
+1. El usuario hace clic en el vínculo `https://www.flytohawaiiforfree.com/` y el servidor lo redirecciona a su sitio principal, `https://www.example.com`. Cuando se produce la redirección, se pierden datos importantes para la recopilación de datos de [!DNL Analytics] porque el explorador borra la dirección URL de referencia. Por ello, se pierde la información de la búsqueda original que se usa en los informes de [!DNL Analytics] (por ejemplo: [!UICONTROL Dominios de referencia], [!UICONTROL Motores de búsqueda] y [!UICONTROL Palabras clave de búsqueda]).
 
 ## Implementar redirecciones {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
