@@ -2,16 +2,16 @@
 description: La variable de conversión de perspectiva personalizada (o eVar) se coloca en el código de Adobe en las páginas web del sitio seleccionadas. Su principal función es segmentar las métricas de éxito de conversión en los informes de marketing personalizados. Una eVar puede basarse en visitas y funcionar de modo similar a las cookies. Los valores pasados a las variables eVar siguen al usuario durante un período de tiempo predeterminado.
 keywords: eVar
 title: Variables de conversión (eVar)
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1579'
+exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1582'
 ht-degree: 100%
 
 ---
-
 
 # Variables de conversión (eVars)
 
