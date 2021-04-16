@@ -1,16 +1,16 @@
 ---
 description: El Generador de segmentos proporciona un lienzo al que arrastrar y en el que soltar las dimensiones de métricas, los segmentos y los eventos para segmentar a los visitantes en función de la lógica, las reglas y los operadores de la jerarquía de contenedor. Esta herramienta de desarrollo integrado le permite generar y guardar segmentos simples o complejos que identifican atributos y acciones de visitantes en visitas y visitas individuales de páginas.
 title: Generar segmentos
-topic: Segmentos
+feature: Segmentos
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '2040'
 ht-degree: 100%
 
 ---
-
 
 # Generador de segmentos
 
@@ -244,4 +244,3 @@ Las plantillas se identifican con el logotipo “A” de Adobe. A continuación 
   </tr> 
  </tbody> 
 </table>
-
