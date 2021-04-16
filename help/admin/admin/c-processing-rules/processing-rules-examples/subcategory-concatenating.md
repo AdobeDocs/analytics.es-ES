@@ -2,16 +2,16 @@
 description: Puede utilizar la opción de concatenación para rellenar valores combinando otros valores.
 subtopic: Processing rules
 title: Agregar una subcategoría concatenando la categoría y el nombre de página
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '66'
+exl-id: 463280e0-e5d4-4cf9-9c30-fd699a378848
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '68'
 ht-degree: 100%
 
 ---
-
 
 # Agregar una subcategoría concatenando la categoría y el nombre de página
 
@@ -39,4 +39,3 @@ Puede utilizar la opción de concatenación para rellenar valores combinando otr
 Por ejemplo:
 
 ![](assets/add-subcategory-using-concat.png)
-
