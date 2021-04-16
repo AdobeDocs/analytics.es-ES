@@ -1,16 +1,16 @@
 ---
 description: Describe las consecuencias de cambiar un tipo de evento una vez que los datos se han recopilado.
 title: Información sobre el cambio de tipo de evento
-topic: Admin tools
+feature: Herramientas de administración
 uuid: c184dd8e-7818-42ff-a960-dd91215383d8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '43'
+exl-id: 6972431a-bb42-4b7f-b02b-ceef0ff56271
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '45'
 ht-degree: 100%
 
 ---
-
 
 # Información sobre el cambio de tipo de evento
 
