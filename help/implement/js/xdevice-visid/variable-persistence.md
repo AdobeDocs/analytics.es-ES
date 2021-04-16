@@ -1,17 +1,17 @@
 ---
 description: Cuando los perfiles de los visitantes se combinan después de asociarse a la misma variable de ID de visitante, la atribución no cambia en el conjunto de datos históricos.
-keywords: Analytics Implementation
+keywords: Implementación de Analytics
 title: Atribución y persistencia
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '542'
+exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '544'
 ht-degree: 100%
 
 ---
-
 
 # Atribución y persistencia
 
