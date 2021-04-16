@@ -2,13 +2,16 @@
 description: Administrar usuarios y grupos en la página Administración de usuarios le permite administrar los usuarios y grupos y controlar el acceso a los informes, las herramientas y los grupos de informes.
 subtopic: Users and groups
 title: Resumen de administración de usuarios
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
+exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 100%
 
 ---
-
 
 # Resumen de administración de usuarios
 
@@ -46,7 +49,7 @@ Administrar usuarios y grupos en la página Administración de usuarios le permi
 | [!UICONTROL Nombre] | El nombre del usuario. |
 | [!UICONTROL Apellidos] | Los apellidos del usuario. |
 | [!UICONTROL Título] | El puesto que ocupa el usuario (opcional). |
-| [!UICONTROL Nº de teléfono] | El número de teléfono del trabajo del usuario (opcional). |
+| [!UICONTROL N.º de teléfono] | El número de teléfono del trabajo del usuario (opcional). |
 | [!UICONTROL Dirección de correo electrónico] | La dirección de correo electrónico del trabajo del usuario. |
 
 **Tableros predeterminados**
@@ -92,4 +95,3 @@ Crea un tablero predeterminado para un grupo de informes especificado.
 | [!UICONTROL Mensaje personalizado] | Agrega contenido adicional al mensaje de bienvenida. El campo de mensaje predeterminado admite HTML, pero no se pueden incluir anexos. |
 | [!UICONTROL Vista previa del mensaje] | Muestra el correo electrónico de bienvenida en una ventana separada del explorador. |
 | [!UICONTROL Definir como mensaje de bienvenida predeterminado] | Modifica el mensaje de bienvenida predeterminado para incluir el contenido personalizado que se ha especificado en el panel Mensaje personalizado. |
-
