@@ -2,12 +2,12 @@
 description: Cree un proyecto y añada componentes (dimensiones, métricas, segmentos e intervalos de fechas) al panel improvisada.
 keywords: Analysis Workspace
 title: Creación de un proyecto de Workspace
-topic: Reports and analytics
+feature: Conceptos básicos de Reports & Analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '756'
 ht-degree: 99%
 
 ---
@@ -117,7 +117,7 @@ Gracias a este artículo, podrá familiarizarse con los elementos de la interfaz
   </tr> 
   <tr> 
    <td colname="col1"> Segmentos (azul) </td> 
-   <td colname="col2"> <p>Se pueden arrastrar solamente en el nivel de panel, pero puede crear segmentos en línea en la tabla de datos. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segments </a> for more information. </p> </td> 
+   <td colname="col2"> <p>Se pueden arrastrar solamente en el nivel de panel, pero puede crear segmentos en línea en la tabla de datos. </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>Consulte <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > Segmentos </a> para obtener más información. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intervalos de fechas y granularidades (violeta) </td> 
