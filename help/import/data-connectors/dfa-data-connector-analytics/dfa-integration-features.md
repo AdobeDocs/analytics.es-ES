@@ -2,16 +2,16 @@
 description: 'Una vez activada, la integración Data Connectors DFA proporciona las siguientes métricas para sus informes de Adobe Analytics '
 keywords: DFA
 title: Funciones de integración
-topic: Data connectors
+feature: Data Connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
+exl-id: a0eb2196-5f6a-4dbb-98b0-c96c30601bc5
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
-
 
 # Funciones de integración {#integration-features}
 
@@ -63,4 +63,3 @@ Si **[!UICONTROL SearchCenter]** > **[!UICONTROL Anulación de duplicación de D
 >[!NOTE]
 >
 >Si SearchCenter > Anulación de duplicación de DFA está habilitada y el parámetro de cadena de consulta de SearchCenter está establecido, la visita no se considera para procesamiento de DFA. Esto significa que el parámetro de cadena de consulta de SearchCenter debería ser diferente al parámetro de clics en DFA, y ningún anuncio de visualización debería establecer el parámetro de cadena de consulta de SearchCenter.
-
