@@ -1,16 +1,16 @@
 ---
 description: Instrucciones sobre cómo configurar eventos de éxito.
 title: Configurar eventos de éxito
-topic: Admin tools
+feature: Herramientas de administración
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
-source-wordcount: '201'
+exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
-
 
 # Configurar eventos de éxito
 
@@ -44,4 +44,3 @@ Instrucciones sobre cómo configurar eventos de éxito.
    >Puede habilitar la participación de hasta un máximo de 100 eventos personalizados. Una vez superada esa cifra, puede crear métricas de participación en el creador [Métricas calculadas](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md).
 
 1. Haga clic en **[!UICONTROL Guardar]**.
-
