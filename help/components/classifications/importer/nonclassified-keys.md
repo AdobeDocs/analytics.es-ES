@@ -2,16 +2,16 @@
 description: Las claves no clasificadas se agrupan en informes de clasificación como un solo artículo de línea etiquetado como Ninguno. Puede resultar útil cambiar el nombre de Ninguno por otro más descriptivo.
 subtopic: Classifications
 title: Claves no clasificadas
-topic: Admin tools
+feature: Herramientas de administración
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '252'
+exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '254'
 ht-degree: 100%
 
 ---
-
 
 # Claves no clasificadas
 
