@@ -1,13 +1,13 @@
 ---
 description: Si está habituado a trabajar con el Generador de segmentos en Ad Hoc Analysis, esta lista de preguntas más frecuentes le explica qué sucede con los segmentos y las carpetas existentes y qué acciones debe realizar.
-keywords: segmentation;segments
+keywords: htsegmentación,segmentos
 title: Guía de transición para Ad Hoc Analysis
-topic: Segments
+feature: Segmentos
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '829'
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '832'
 ht-degree: 100%
 
 ---
@@ -31,55 +31,55 @@ La mayoría de los anteriores segmentos predefinidos y de grupo se migrarán com
 
 Las plantillas de segmentos están marcadas con un icono especial en el Generador de segmentos.
 
-## ¿Qué ha pasado con mis carpetas de segmentos existentes? {#section_FB04DCF775694E69B761DCA53F301C30}
+## ¿Qué ha pasado con mis carpetas de segmentos existentes?  {#section_FB04DCF775694E69B761DCA53F301C30}
 
 En lugar de carpetas de Análisis específicos, el Administrador de segmentos utiliza etiquetas. Los nombres de sus carpetas se convierten automáticamente en etiquetas, que se aplican a los segmentos respectivos.
 
-## ¿Qué ha pasado con los informes programados que tienen segmentos aplicados? {#section_81D1B215533C46E99E17BAE7A3376FDF}
+## ¿Qué ha pasado con los informes programados que tienen segmentos aplicados?  {#section_81D1B215533C46E99E17BAE7A3376FDF}
 
 Los informes programados siguen ejecutándose correctamente con los segmentos que haya definido.
 
 Si elimina un segmento, los informes programados y los paneles a los que se haya aplicado siguen funcionando normalmente, es decir, el informe o panel siguen utilizando el segmento eliminado.
 
-## ¿Qué es el contenedor de visitas? ¿En qué se diferencia de un contenedor de vistas de página? {#section_65BBE60A836C4001938830DDA15DC256}
+## ¿Qué es el contenedor de visitas? ¿En qué se diferencia de un contenedor de vistas de página?  {#section_65BBE60A836C4001938830DDA15DC256}
 
 El contenedor de vista de página se llama ahora “contenedor de visita individual” para indicar que el contenedor segmenta todos los tipos de datos, no solo vistas de página. Por ejemplo, si vincula las llamadas de seguimiento, el Contenedor de visita individual incluirá o excluirá las llamadas trackAction desde los SDK móviles.
 
 Tenga en cuenta que no se ha modificado la manera de funcionar del contenedor; simplemente se le ha cambiado el nombre.
 
-## ¿Qué derechos y privilegios necesito para utilizar, crear y administrar segmentos? {#section_648DFA3A882146C485A84ED014EEC707}
+## ¿Qué derechos y privilegios necesito para utilizar, crear y administrar segmentos?  {#section_648DFA3A882146C485A84ED014EEC707}
 
 Todos los usuarios pueden crear y editar segmentos personales. Estos segmentos se pueden compartir directamente con cualquier otro usuario de Analytics. Los usuarios de Ad Hoc Analysis pueden ver los segmentos que cada uno creó y los compartidos directamente con el usuario.
 
 En la consola web de Segmentación unificada, los administradores pueden editar cualquier segmento, y compartir segmentos con grupos y con todas las personas de la organización.
 
-## ¿Puedo ver todos los segmentos de mi compañía? {#section_AC2D328C7410419E80C7C17971CD95B3}
+## ¿Puedo ver todos los segmentos de mi compañía?  {#section_AC2D328C7410419E80C7C17971CD95B3}
 
 Se muestran todos los segmentos de análisis específicos que tiene y los segmentos que han sido compartidos específicamente con usted.
 
-## ¿Puedo administrar todos los segmentos de análisis en el Administrador de segmentos? {#section_AF5EDD72C74A4739BD40C4AF125CE489}
+## ¿Puedo administrar todos los segmentos de análisis en el Administrador de segmentos?  {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
 Los análisis específicos solo muestran segmentos creados por usted o los segmentos que han sido compartidos específicamente con usted. Para análisis específicos solamente, puede utilizar el Administrador de segmentos (Organizar segmentos) para administrar segmentos de análisis específicos. Utilice el Administrador de segmentos en Segmentación unificada para administrar todos los segmentos de Analytics.
 
-## ¿Qué debería hacer con los segmentos duplicados que tienen el mismo nombre pero que pueden tener definiciones distintas? {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
+## ¿Qué debería hacer con los segmentos duplicados que tienen el mismo nombre pero que pueden tener definiciones distintas?  {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
 Ahora que los segmentos funcionan en múltiples grupos de informes, es posible que descubra que tiene múltiples segmentos con el mismo nombre. Le recomendamos que siga uno de los procedimientos siguientes
 
 * Cambie el nombre de los segmentos que tienen el mismo nombre pero tienen definiciones distintas, o
 * Elimine los segmentos que ya no son necesarios.
 
-## ¿Cómo recomienda Adobe que limpie los segmentos? {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## ¿Cómo recomienda Adobe que limpie los segmentos?  {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * Etiquete todos los segmentos con la etiqueta heredada.
 * Revise los segmentos que tiene.
 * Añádalos a la biblioteca de segmentos cuando sea pertinente.
 * Apruebe los segmentos canónicos.
 
-## ¿Por qué no puedo eliminar un segmento? {#section_0FEB6711031A4ABCA915CDA745ECF38D}
+## ¿Por qué no puedo eliminar un segmento?  {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
 Si el segmento se publicó en Experience Cloud, no puede ni eliminarlo ni editarlo. Pero sí copiarlo y editar esa versión copiada.
 
-## Más acerca de lo que ocurre con sus segmentos existentes {#section_83ACAB256F394DCD8B424D8920BDD853}
+## Más acerca de lo que ocurre con sus segmentos existentes  {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
