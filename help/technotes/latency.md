@@ -1,18 +1,18 @@
 ---
 description: La siguiente información puede resultar de utilidad para solucionar los problemas de latencia del grupo de informes en los datos de Analytics.
-keywords: missing data;slow
+keywords: datos que faltan;lento
 subtopic: Current data
 title: Disponibilidad y latencia de los datos
-topic: Reports
+topic-fix: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
-translation-type: ht
-source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
-workflow-type: ht
-source-wordcount: '803'
-ht-degree: 100%
+exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '806'
+ht-degree: 99%
 
 ---
-
 
 # Latencia y disponibilidad de datos en Adobe Analytics
 
