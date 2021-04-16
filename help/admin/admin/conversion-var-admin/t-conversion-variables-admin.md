@@ -1,16 +1,16 @@
 ---
 description: Instrucciones que describen cómo se agregan o editan variables de conversión.
 title: Editar variables de conversión
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '107'
+exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '109'
 ht-degree: 100%
 
 ---
-
 
 # Editar variables de conversión
 
