@@ -1,16 +1,16 @@
 ---
 description: Adobe necesita que se informe por adelantado en caso de nuevas configuraciones de cuentas, picos de tráfico e incrementos de tráfico. El hardware debe asignarse por adelantado para minimizar la latencia y las posibles consecuencias adversas en el sistema general.
 title: Tiempo de espera necesario para aumentos de tráfico
-topic: Admin tools
+feature: Herramientas de administración
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
+exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 translation-type: tm+mt
-source-git-commit: a114bef4679da24d4fd6323a55c9ccf52ac772ed
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 100%
 
 ---
-
 
 # Tiempo de espera necesario para aumentos de tráfico
 
@@ -36,7 +36,7 @@ Respete las siguientes normas para determinar la antelación del envío de alert
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> Hasta 1.000.000 </td>
+   <td colname="col1"> Hasta 1,000,000 </td>
    <td colname="col2"> No existe tiempo de espera necesario </td>
    <td colname="col3"> No existe tiempo de espera necesario </td>
   </tr>
