@@ -2,16 +2,16 @@
 description: Para utilizar de forma eficaz las reglas de procesamiento, es esencial comprender cuándo se aplican durante la recopilación de datos.
 subtopic: Processing rules
 title: Orden de procesamiento
-topic: Admin tools
+feature: Herramientas de administración
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
+exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 translation-type: tm+mt
-source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '507'
+ht-degree: 91%
 
 ---
-
 
 # Orden de procesamiento
 
@@ -27,7 +27,7 @@ Las siguientes tablas indican los datos que suelen estar disponibles antes y des
 |--- |--- |
 | Búsqueda de variables dinámicas | Las variables se rellenan dinámicamente extrayendo información de los encabezados HTTP u otras variables. Por ejemplo, `s.eVar5="D=c1"` introducirá el valor de prop1 en eVar5. |
 | AppMeasurement | Las funciones y los complementos usados en AppMeasurement se ejecutan en el navegador o en la aplicación cliente. |
-| Gestión de etiquetas | Las reglas definidas en Inicio de Adobe o Administración dinámica de etiquetas se ejecutan tal como están definidas. |
+| Gestión de etiquetas | Las reglas definidas en Adobe Launch o Dynamic Tag Management se ejecutan tal como están definidas. |
 | Reglas de bots | [Las reglas de bots](/help/admin/admin/bot-removal/bot-rules.md) permiten eliminar de un grupo de informes el tráfico generado por arañas de web y bots conocidos. |
 
 ## Después de las reglas de procesamiento
