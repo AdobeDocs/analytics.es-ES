@@ -1,15 +1,15 @@
 ---
 description: Variables para informes de privacidad en Privacidad de datos.
 title: Variables de informes de privacidad
-topic: Admin tools
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
-source-wordcount: '433'
+feature: Herramientas de administración
+exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
-
 
 # Variables de informes de privacidad
 
