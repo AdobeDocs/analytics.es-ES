@@ -1,16 +1,16 @@
 ---
 description: El Generador de segmentos le permite comparar y restringir valores utilizando los operadores seleccionados.
 title: Operadores de comparación para segmentos
-topic: Segments
+feature: Segmentos
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '1021'
+exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # Operadores de comparación para segmentos
 
@@ -49,10 +49,9 @@ El único carácter comodín admitido es el asterisco: *. Si necesita buscar *, 
 | es mayor que | Devuelve elementos cuyo recuento numérico sea mayor que el valor introducido. |
 | es mayor o igual que | Devuelve elementos cuyo recuento numérico sea mayor o igual que el valor introducido. |
 | **Recuento distinto** | Puede segmentar un recuento distinto de elementos dentro de una dimensión. Por ejemplo: “Visitantes que vieron más de 5 productos diferentes” o “Visitas donde se vieron más de 5 páginas diferentes”. |
-| es igual que | Devuelve elementos de dimensión cuyo recuento único es igual al valor introducido. |
-| no es igual | Devuelve elementos de dimensión cuyo recuento único no es igual al valor introducido. |
-| es mayor que | Devuelve elementos de dimensión cuyo recuento único sea mayor que el valor introducido. |
-| es menor que | Devuelve elementos de dimensión cuyo recuento único sea menor que el valor introducido. |
-| es mayor o igual que | Devuelve elementos de dimensión cuyo recuento único sea mayor o igual que el valor introducido. |
-| es menor o igual que | Devuelve elementos de dimensión cuyo recuento único sea menor o igual que el valor introducido. |
-
+| es igual que | Devuelve elementos de dimensión cuya cantidad única es igual al valor introducido. |
+| no es igual | Devuelve elementos de dimensión cuya cantidad única no es igual al valor introducido. |
+| es mayor que | Devuelve elementos de dimensión cuya cantidad única sea mayor que el valor introducido. |
+| es menor que | Devuelve elementos de dimensión cuya cantidad única sea menor que el valor introducido. |
+| es mayor o igual que | Devuelve elementos de dimensión cuya cantidad única sea mayor o igual que el valor introducido. |
+| es menor o igual que | Devuelve elementos de dimensión cuya cantidad única sea menor o igual que el valor introducido. |
