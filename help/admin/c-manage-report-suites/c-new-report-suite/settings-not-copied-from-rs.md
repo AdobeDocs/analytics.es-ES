@@ -1,16 +1,16 @@
 ---
 description: Si ha copiado la configuración de un grupo de informes existente, un mensaje del sistema identificará las opciones que no se copian al nuevo grupo de informes.
 title: Configuración que no se copia desde un grupo de informes de origen
-topic: Admin tools
+feature: Herramientas de administración
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: ht
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
-workflow-type: ht
-source-wordcount: '207'
+exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # Configuración que no se copia desde un grupo de informes de origen
 
@@ -70,4 +70,3 @@ Las siguientes configuraciones no se copian de la plantilla o los grupos de info
   </tr> 
  </tbody> 
 </table>
-
