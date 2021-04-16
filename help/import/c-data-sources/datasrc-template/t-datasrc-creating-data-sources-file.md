@@ -2,16 +2,16 @@
 description: El archivo de plantilla de importaciones está diseñado para proporcionarle los conceptos básicos de importación.
 subtopic: Data sources
 title: Generación de plantillas de archivo de importación
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: c2717936-a011-4224-8a9e-94753abbcb33
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
 ---
-
 
 # Generación de plantillas de archivo de importación
 
@@ -45,4 +45,3 @@ Consulte [Referencia sobre el archivo de importación](/help/import/c-data-sourc
 1. Cuando se haya creado la plantilla, copie los datos en las columnas que correspondan, teniendo presente respetar el formato de datos necesario para cada columna de datos.
 
    Resultado (1). Guarde el archivo de fuente de datos, según la convención de asignación de nombres que haya elegido. Adobe recomienda usar una convención de asignación de nombres uniforme para todos los archivos de fuente de datos. Utilice una extensión común, como .txt o .tsv (o no use ninguna extensión).
-
