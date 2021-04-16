@@ -2,16 +2,16 @@
 description: Descubra cómo especificar la caducidad de la interacción del visitante en los Canales de marketing.
 subtopic: Marketing channels
 title: Caducidad del canal de marketing
-topic: Reports and analytics
+feature: Conceptos básicos de Reports & Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
-translation-type: ht
-source-git-commit: 46dae8ee28b202578f5ad0c2446b1fd63e5144cc
-workflow-type: ht
-source-wordcount: '338'
-ht-degree: 100%
+exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 99%
 
 ---
-
 
 # Caducidad del canal de marketing
 
@@ -48,4 +48,3 @@ Especificar la caducidad de la participación del visitante.
 
 3. Configurar los campos de caducidad de la participación del visitante.
 4. Haga clic en **[!UICONTROL Guardar]**.
-
