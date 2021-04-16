@@ -2,13 +2,16 @@
 description: Puede que en ciertas ocasiones algunas métricas no presenten una diferencia aceptable al comparar métricas de Adobe Analytics con métricas de DFA. A continuación, se encuentra una lista de definiciones de métricas y motivos posibles de las variaciones.
 keywords: DFA
 title: Reconciliación de discrepancias de métricas
-topic: Data connectors
+feature: Data Connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
+exl-id: bfe0f9cb-1bbc-40f9-b996-0002d5143889
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1270'
+ht-degree: 100%
 
 ---
-
 
 # Reconciliación de discrepancias de métricas {#reconciling-metric-discrepancies}
 
@@ -40,7 +43,7 @@ Una muestra de datos de nuestros clientes de Analytics 15 beta mostró que menos
 
 Esta discrepancia puede dar como resultado una gran diferencia en los datos recopilados por Analytics y DFA.
 
-### ¿Por qué las impresiones notificadas en DFA podrían ser más altas que las impresiones notificadas en Adobe Analytics? {#section-db0ad070a65a4985bcc589b2d0d30b90}
+### ¿Por qué las impresiones notificadas en DFA podrían ser más altas que las impresiones notificadas en Adobe Analytics?  {#section-db0ad070a65a4985bcc589b2d0d30b90}
 
 * DFA envía datos a los servidores de recopilación de datos de Adobe en un lote por la noche, de modo que los datos de impresión en Analytics pueden estar hasta 2 días atrasados con respecto a los informes de DFA.
 * Adobe usa clasificaciones de SAINT para clasificar códigos de seguimiento de DFA importados en varios niveles de agregaciones (nombre de la campaña, nombre de la ubicación, nombre del anuncio, etc.). Si aparece alguna discrepancia al ejecutar un informe de clasificación, realice una sola prueba para ver si las clasificaciones aún no están a la par de las métricas importadas:
@@ -50,7 +53,7 @@ Esta discrepancia puede dar como resultado una gran diferencia en los datos reco
    * En este informe, tome nota de todo código de seguimiento de DFA sin clasificar con el formato `DFA:XXXXX:XXXXX`.
    * Si existen muchos de estos códigos de seguimiento, investigue el proceso de clasificación de SAINT por la noche.
 
-### ¿Por qué podrían los clics de DFA ser superiores a la proporción de clics de Adobe Analytics? {#section-2fce4608ed044bdc9cf812cb719d5d35}
+### ¿Por qué podrían los clics de DFA ser superiores a la proporción de clics de Adobe Analytics?  {#section-2fce4608ed044bdc9cf812cb719d5d35}
 
 * DFA registra un clic antes de que el visitante aterrice en el sitio web del cliente. Analytics registra la proporción de clics después de que la página de aterrizaje cargue y ejecute la señalización JavaScript de Adobe. Habitualmente, las discrepancias ocurren porque el visitante no está llegando a la página de aterrizaje después de que DFA registre un clic o se esté visitando el temporizador `s.maxDelay`.
 * Asegúrese de que todas las ubicaciones y todos los creativos en la Configuración de Floodlight incluyan clickThroughParam en la dirección URL de la página de aterrizaje (por ejemplo, “`?CID=1`”). Al no establecer este parámetro, JavaScript de Adobe Analytics no detectará la proporción de clics que ocurren después de la primera visita.
@@ -62,12 +65,12 @@ Esta discrepancia puede dar como resultado una gran diferencia en los datos reco
 * Analytics intenta identificar y eliminar los clics duplicados de modo que se cuentan una sola vez por campaña por visita. DFA cuenta visitantes que hacen clic en “Atrás” y pasan por el redireccionamiento de publicidad varias veces como clics de ACM adicionales, mientras que Analytics no los cuenta como clics.
 * Las etiquetas Floodlight de DFA no dependen de que JavaScript esté habilitado, mientras que Analytics sí lo hace. Debido a esto, podrían existir algunos casos en los que DFA registre una visita cuando Analytics no lo hace. Para identificar si esto podría ser un problema, use el informe de JavaScript de Analytics en el menú Perfil del visitante.
 
-### ¿Por qué podrían las actividades posteriores a la impresión de DFA ser más altas que las visualizaciones de Adobe Analytics? {#section-5daa91039c404df48b6a3447c20406f7}
+### ¿Por qué podrían las actividades posteriores a la impresión de DFA ser más altas que las visualizaciones de Adobe Analytics?  {#section-5daa91039c404df48b6a3447c20406f7}
 
 * Analytics intenta identificar y eliminar los clics duplicados de modo que se cuentan una sola vez por campaña por visita. DFA cuenta visitantes que hacen clic en “Atrás” y pasan por el redireccionamiento de publicidad varias veces como clics de ACM adicionales, mientras que Analytics no los cuenta como clics.
 * Las etiquetas Floodlight de DFA no dependen de que JavaScript esté deshabilitado, mientras que Analytics sí lo hace. Debido a esto, podrían existir algunos casos en los que DFA registre una visita cuando Analytics no lo hace.
 * DFA cuenta las actividades posteriores a la impresión al usar etiquetas de Floodlight, que se pueden colocar en el sitio web del cliente. Analytics cuenta las visualizaciones después de que se ejecuta la señalización JavaScript (solicitud de imagen). La ubicación de código en la página web puede determinar si una carga de página anulada se cuenta como actividad posterior a la impresión o una visualización.
 
-### ¿Qué sucede si las discrepancias están muy lejos del rango aceptable y los posibles motivos anteriores no son pertinentes? {#section-ca50eb75dd5d4d0396f4668b44d7547c}
+### ¿Qué sucede si las discrepancias están muy lejos del rango aceptable y los posibles motivos anteriores no son pertinentes?  {#section-ca50eb75dd5d4d0396f4668b44d7547c}
 
 Consulte con su Consultor de integración o Adobe Client Care, para documentar las discrepancias e informar de ellas al equipo de ingeniería de Data Connectors. Para acelerar su solicitud, tenga entre 2 y 3 días de datos comparando las métricas en cuestión (en un nivel de código de campaña). En su solicitud, identifique todas las acciones que ya ha realizado para reconciliar la discrepancia.
