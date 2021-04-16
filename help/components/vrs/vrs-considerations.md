@@ -1,17 +1,17 @@
 ---
 description: Los grupos de informes virtuales y el etiquetado de grupos múltiples tienen diferentes ventajas. Aprenda cuál es la mejor opción para su organización.
-keywords: Virtual Report Suite,VRS
+keywords: Grupo de informes virtuales,VRS
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
-topic: Adobe Analytics
+feature: Configuración del grupo de informes
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
+exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1735'
-ht-degree: 100%
+source-wordcount: '1742'
+ht-degree: 99%
 
 ---
-
 
 # Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
 
