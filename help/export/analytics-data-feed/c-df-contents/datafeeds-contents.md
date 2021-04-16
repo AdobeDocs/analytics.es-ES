@@ -7,7 +7,7 @@ feature: Conceptos básicos de Reports & Analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 05c85e0eee25a04be154d8bcae9b133791667d75
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 98%
@@ -116,7 +116,7 @@ Cuando se extrae, cada archivo de datos contiene un único `hit_data.tsv` que co
 
 Una vez recopilados los datos durante una hora, recibirá un único archivo de datos comprimido y un archivo de manifiesto. El nombre del archivo de datos es:
 
-`[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 Cuando se extrae, el archivo de datos contiene un solo archivo `hit_data.tsv` con todos los datos de esa hora, así como archivos de búsqueda de las columnas requeridas.
 
@@ -124,7 +124,7 @@ Cuando se extrae, el archivo de datos contiene un solo archivo `hit_data.tsv` co
 
 Una vez recopilados los datos durante una hora, recibirá uno o más archivos de datos comprimidos y un archivo de manifiesto. El nombre del archivo de datos es:
 
-`[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 Cuando se extrae, cada archivo de datos contiene un único `hit_data.tsv` que incluye aproximadamente 2 GB de datos sin comprimir, así como archivos de búsqueda para cualquier columna requerida.
 
