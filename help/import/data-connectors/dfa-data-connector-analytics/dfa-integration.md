@@ -2,16 +2,16 @@
 description: 'Configurar la integración de DFA implica las siguientes tareas '
 keywords: DFA
 title: Integración de DFA
-topic: Data connectors
+feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
+exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2601'
 ht-degree: 100%
 
 ---
-
 
 # Integración de DFA {#dfa-integration}
 
