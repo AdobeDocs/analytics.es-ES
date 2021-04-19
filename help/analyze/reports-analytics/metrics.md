@@ -2,16 +2,16 @@
 description: Las métricas son la base de los informes, ya que ayudan a ver y a comprender las relaciones que hay entre los datos y permiten las comparaciones paralelas de diferentes conjuntos de datos relacionados con el sitio Web. Las métricas constituyen información cuantitativa sobre la actividad del visitante, tales como vistas, pulsaciones, recargas, tiempo promedio invertido, unidades, pedidos, ingresos, etc.
 title: Métricas
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: Conceptos básicos de Reports & Analytics
-role: Profesional empresarial, administrador
+feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+role: Business Practitioner, Administrator
+exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 98%
 
 ---
-
 
 # Métricas
 
@@ -47,4 +47,3 @@ t_metrics_set_default.xml
 * Si se desplaza de un informe a otro, persistirán las métricas que se muestren en el informe que haya visto más recientemente. Para mostrar las métricas predeterminadas en ese nuevo informe, haga clic en la lista desplegable [!UICONTROL Agregar métricas] y, luego, haga clic en [!UICONTROL Mostrar valores predeterminados].
 
 * Al hacer clic en [!UICONTROL Borrar valores predeterminados], se eliminan las métricas predeterminadas de ese informe y se revierten a las métricas predeterminadas originales de ese informe ([!UICONTROL Vistas de la página] para las props y las opciones que haya establecido en las Herramientas de administración para las eVars).
-
