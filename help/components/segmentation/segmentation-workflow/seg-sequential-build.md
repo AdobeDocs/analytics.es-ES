@@ -1,11 +1,11 @@
 ---
 description: Los segmentos secuenciales se crean mediante el operador THEN, en lugar de AND u OR. THEN implica que se produce un criterio de segmento, seguido por otro. De forma predeterminada, un segmento secuencial identifica a todos los datos coincidentes y muestra el filtro “Incluir a todos”. Los segmentos secuenciales pueden filtrarse adicionalmente a un subconjunto de visitas coincidentes mediante las opciones “Solo antes de la secuencia” y “Solo después de la secuencia”.
 title: Generar segmentos secuenciales
-feature: Segmentos
+feature: Segmentación
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
 source-wordcount: '3858'
 ht-degree: 100%
