@@ -2,16 +2,16 @@
 description: Las subrelaciones completas están activadas en todos los informes de conversión, para poder desglosar cualquier eVar por otra eVar. El menú Desglosar por de la tabla de informes es igual que el menú estándar de informes de Analytics, para mantener la coherencia.
 title: Subrelaciones
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Conceptos básicos de Reports & Analytics
-role: Profesional empresarial, administrador
+feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+role: Business Practitioner, Administrator
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 98%
 
 ---
-
 
 # Subrelaciones
 
@@ -56,4 +56,3 @@ Fundamentalmente, las subrelaciones siguen estos pasos para rellenar su informe:
 * Aíslan las solicitudes de imágenes que contienen los eventos de éxito que visualiza en el informe.
 * Devuelven los valores persistentes de cada variable de conversión usada en la subrelación.
 * Organizan los valores en función del orden de subrelación. Si una variable no tiene un valor persistente (como si nunca se hubiera definido una eVar o esta hubiera caducado), se clasificará como “Ninguno”.
-
