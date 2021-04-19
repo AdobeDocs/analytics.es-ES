@@ -2,16 +2,16 @@
 description: Las extracciones de datos permiten elegir los parámetros que se verán en los ejes X e Y del informe, además del elemento por el cual se filtra el informe.
 subtopic: Schedule
 title: Extracción de datos
-feature: Conceptos básicos de Reports & Analytics
-role: Profesional empresarial, administrador
+feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+role: Business Practitioner, Administrator
+exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 95%
+source-wordcount: '141'
+ht-degree: 96%
 
 ---
-
 
 # Extracción de datos
 
