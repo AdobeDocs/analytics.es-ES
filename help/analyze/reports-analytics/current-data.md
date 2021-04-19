@@ -3,16 +3,16 @@ description: La opción Incluir datos actuales de Reports & Analytics le permite
 subtopic: Current Data
 title: Datos actuales
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Conceptos básicos de Reports & Analytics
-role: Profesional empresarial, administrador
+feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+role: Business Practitioner, Administrator
+exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '571'
 ht-degree: 96%
 
 ---
-
 
 # Datos actuales
 
