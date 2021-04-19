@@ -1,11 +1,15 @@
 ---
-source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
-workflow-type: ht
-translation-type: ht
-source-wordcount: '647'
-ht-degree: 100%
+title: Permisos de perfil de productos para las herramientas de grupo de informes
+description: Comprenda cada elemento de permiso en Herramientas de grupos de informes.
+exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
+translation-type: tm+mt
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 98%
 
 ---
+
 # Permisos de perfil de productos para las herramientas de grupo de informes
 
 Utilice esta página para comprender cada elemento de permisos en Herramientas de grupos de informes.
@@ -30,7 +34,7 @@ Utilice esta página para comprender cada elemento de permisos en Herramientas d
 | Costos | Concede acceso a Canales de marketing > Costes de canal de marketing, en el Administrador de grupos de informes. |
 | Variables de conversión | Otorga acceso a Conversión > Variables de conversión en el Administrador de grupos de informes. |
 | Métodos de búsqueda | Otorga acceso a Conversión > Métodos de búsqueda en el Administrador de grupos de informes. |
-| Visitante único | Otorga acceso a Conversión > Variable de visitante único. No suele usarse en implementaciones modernas. |
+| Visitante único | Otorga acceso a Conversión > Variable única de visitante. No suele usarse en implementaciones modernas. |
 | Eventos de éxito | Otorga acceso a Conversión > Eventos de éxito en el Administrador de grupos de informes. |
 | Variables de lista | Otorga acceso a Conversión > Variables de lista en el Administrador de grupos de informes. |
 | Medidas predeterminadas | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
