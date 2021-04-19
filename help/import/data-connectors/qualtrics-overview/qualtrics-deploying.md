@@ -33,12 +33,11 @@ Para activar la integración, debe completar el asistente de integración de Qua
    | Token de Adobe SiteCatalyst | [Generación del token de Qualtrics de Adobe Analytics](../qualtrics-overview/qualtrics-token.md) |
 
 1. **Paso 2 del asistente: asignaciones de variables**
-|  Lista de respuestas de Qualtrics | Seleccione una variable de lista disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del administrador de grupos de informes).  |
-|---|---|
-|  ID de respuesta de Qualtrics | Seleccione una eVar o prop disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del administrador de grupos de informes).  |
-|  Servidor de seguimiento | Proporcione la configuración del servidor de seguimiento (dominio) que se utiliza para rastrear datos de Adobe Analytics. Use la variable 
-`trackingServerSecure` servidor de seguimiento si difiere de la configuración estándar del servidor de seguimiento.  |
-|  Envíos de encuesta de Qualtrics | Seleccione un evento disponible en su grupo de informes (es posible que deba habilitar un nuevo evento desde el administrador de grupos de informes).  |
+   |  Lista de respuestas de Qualtrics | Seleccione una variable de lista disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del administrador de grupos de informes).  |
+   |---|---|
+   |  ID de respuesta de Qualtrics | Seleccione una eVar o prop disponible en el grupo de informes. (Es posible que necesite habilitar una nueva listVar dentro del administrador de grupos de informes).  |
+   |  Servidor de seguimiento | Proporcione la configuración del servidor de seguimiento (dominio) que se utiliza para rastrear datos de Adobe Analytics. Use la variable `trackingServerSecure` servidor de seguimiento si difiere de la configuración estándar del servidor de seguimiento.  |
+   |  Envíos de encuesta de Qualtrics | Seleccione un evento disponible en su grupo de informes (es posible que deba habilitar un nuevo evento desde el administrador de grupos de informes).  |
 
 1. **Paso 3 del asistente**: no se necesita nada, solo información.
 
