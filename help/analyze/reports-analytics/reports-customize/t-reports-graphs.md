@@ -2,16 +2,16 @@
 description: Instrucciones sobre cómo personalizar el gráfico de modo que resulte lo más práctico posible para la audiencia objetivo.
 title: Cambiar gráficos de informes
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Conceptos básicos de Reports & Analytics
-role: Profesional empresarial, administrador
+feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+role: Business Practitioner, Administrator
+exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '597'
+ht-degree: 99%
 
 ---
-
 
 # Cambiar gráficos de informes
 
@@ -68,4 +68,3 @@ El tipo de gráficos disponibles depende del tipo de informe que ejecute. Por ej
    **[!UICONTROL Burbujas]**: el gráfico de burbujas muestra una visualización de burbujas de las métricas que se seleccionan relacionadas entre sí. La ubicación de las burbujas muestra las relaciones entre las métricas en los ejes horizontal y vertical, aunque el tamaño de las burbujas representa la métrica de informe más importante. Los gráficos de burbujas le permiten visualizar información en dos dimensiones, para que pueda identificar qué artículos son periféricos.
 
    ![](assets/graph_bubble.png)
-
