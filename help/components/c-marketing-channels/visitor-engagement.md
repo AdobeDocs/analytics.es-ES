@@ -2,7 +2,7 @@
 description: Descubra cómo especificar la caducidad de la interacción del visitante en los Canales de marketing.
 subtopic: Marketing channels
 title: Caducidad del canal de marketing
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt

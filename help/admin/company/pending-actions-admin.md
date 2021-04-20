@@ -1,7 +1,7 @@
 ---
 description: La página Administrar acciones pendientes permite ver una lista de las acciones pendientes del entorno de Analytics. Una acción pendiente es un cambio en el sistema que requiere la aprobación de Adobe para implementarse.
 title: Acciones pendientes
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 exl-id: c1526937-99c8-4647-b7e0-da0ebb0c1116
 translation-type: tm+mt

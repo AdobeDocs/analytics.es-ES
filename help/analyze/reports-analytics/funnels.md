@@ -2,7 +2,7 @@
 description: Normalmente, los índices de conversión miden la conversión entre los eventos iniciales y finales y los hitos o puntos de un proceso de conversión. Después de que usted codifique los eventos de éxito en el sitio, el informe creará los índices existentes entre esos eventos de éxito y los mostrará en un informe de canal de conversión.
 title: Canal de conversión
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 8c1c1bc1-0e45-43d7-9581-bd070e2b687e
 translation-type: tm+mt

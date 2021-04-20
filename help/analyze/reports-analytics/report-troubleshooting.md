@@ -2,7 +2,7 @@
 title: Prácticas recomendadas y resolución de problemas de la creación de informes
 description: Prácticas recomendadas y sugerencias de resolución de problemas de la creación de informes.
 keywords: prácticas recomendadas; error; tiempo de ejecución; solución de problemas; lento
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

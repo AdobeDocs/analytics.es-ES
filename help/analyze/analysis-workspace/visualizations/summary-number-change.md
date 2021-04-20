@@ -2,8 +2,8 @@
 description: Utilice las visualizaciones Número y cambio de resumen para mostrar puntos de datos importantes en un proyecto.
 title: Número de resumen y cambio de resumen
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: Visualizaciones
-role: Profesional empresarial, administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Aprenda a crear vínculos que se pueden compartir a proyectos o visualizaciones
 keywords: Uso compartido en Analysis Workspace
 title: Crear vínculos que se pueden compartir
-feature: Depurar y compartir
-role: Profesional empresarial, administrador
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

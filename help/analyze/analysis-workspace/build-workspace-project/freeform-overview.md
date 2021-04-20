@@ -3,8 +3,8 @@ description: Obtenga información sobre los conceptos básicos de un proyecto de
 keywords: Analysis Workspace
 title: Información general sobre Proyectos
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-feature: Conceptos básicos de Workspace
-role: Profesional empresarial, Administrador
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

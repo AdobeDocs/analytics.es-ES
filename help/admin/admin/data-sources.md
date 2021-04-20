@@ -1,7 +1,7 @@
 ---
 description: La función Fuentes de datos permite importar datos a Analytics desde fuentes sin conexión. Una vez importados, estos datos se pueden tratar y gestionar de forma similar a los datos recopilados de forma nativa.
 title: Fuentes de datos
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Instrucciones que describen cómo configurar la detección de búsqueda de pago.
 title: Configurar la detección de búsqueda pagada
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 translation-type: tm+mt

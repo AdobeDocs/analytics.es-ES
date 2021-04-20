@@ -2,7 +2,7 @@
 title: Solución de problemas de la recopilación de datos del Activity Map
 description: Determinar por qué no se pueden ver los datos del Activity Map en las solicitudes de imagen
 feature: Activity Map
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

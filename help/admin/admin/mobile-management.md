@@ -1,7 +1,7 @@
 ---
 description: Al habilitar la administración de aplicaciones se activan las variables de soluciones móviles, que capturan el ciclo de vida y otras métricas de aplicaciones móviles.
 title: Administración de aplicaciones
-feature: Herramientas de administración
+feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

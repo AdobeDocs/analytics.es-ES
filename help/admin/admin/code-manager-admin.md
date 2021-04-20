@@ -1,7 +1,7 @@
 ---
 description: El administrador de códigos le permite descargar códigos de recopilación de datos para plataformas web y móviles.
 title: Administrador de códigos
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
 translation-type: tm+mt

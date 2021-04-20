@@ -2,7 +2,7 @@
 description: Las reglas de procesamiento simplifican la recopilación de datos y administran el contenido a medida que se envía a los informes.
 subtopic: Processing rules
 title: Resumen de las reglas de procesamiento
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt

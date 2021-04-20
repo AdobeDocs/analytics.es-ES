@@ -3,7 +3,7 @@ description: La opción Incluir datos actuales de Reports & Analytics le permite
 subtopic: Current Data
 title: Datos actuales
 uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
 translation-type: tm+mt

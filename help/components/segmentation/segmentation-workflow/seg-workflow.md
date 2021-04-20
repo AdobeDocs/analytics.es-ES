@@ -1,7 +1,7 @@
 ---
 description: Describe un flujo de trabajo sugerido para los segmentos creados con el Generador de segmentos y administrados con el Administrador de segmentos.
 title: Resumen del flujo de trabajo de segmentación
-feature: Segmentación
+feature: Segmentation
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 translation-type: tm+mt

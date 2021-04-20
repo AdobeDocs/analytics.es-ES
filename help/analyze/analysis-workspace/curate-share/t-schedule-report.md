@@ -2,8 +2,8 @@
 description: Envíe un proyecto de Analysis Workspace por correo electrónico o programe su entrega.
 keywords: Analysis Workspace
 title: Programar proyectos
-feature: Depurar y compartir
-role: Profesional empresarial, administrador
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

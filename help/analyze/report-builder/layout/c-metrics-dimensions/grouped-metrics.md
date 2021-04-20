@@ -3,7 +3,7 @@ description: Ahora puede combinar estos dos tipos de métricas en la misma solic
 title: Combinación de las métricas de tráfico y comercio en la misma solicitud
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

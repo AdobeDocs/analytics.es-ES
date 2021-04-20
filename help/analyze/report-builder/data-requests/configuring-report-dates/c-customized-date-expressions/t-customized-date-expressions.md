@@ -3,7 +3,7 @@ description: Se puede especificar un intervalo de fechas complejo mediante la cr
 title: Resumen de expresiones de fechas personalizadas
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

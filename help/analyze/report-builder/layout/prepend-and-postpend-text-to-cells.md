@@ -3,7 +3,7 @@ description: En las solicitudes de tabla dinámica y diseño personalizado, es p
 title: Anteponer y posponer texto en celdas
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

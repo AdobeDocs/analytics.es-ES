@@ -2,8 +2,8 @@
 description: Pasos para añadir eventos de calendario y gestionar eventos compartidos.
 title: Eventos de calendario
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
-feature: Calendario
-role: Profesional empresarial, administrador
+feature: Calendar
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

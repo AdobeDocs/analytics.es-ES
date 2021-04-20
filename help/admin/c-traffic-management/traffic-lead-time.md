@@ -1,7 +1,7 @@
 ---
 description: Adobe necesita que se informe por adelantado en caso de nuevas configuraciones de cuentas, picos de tráfico e incrementos de tráfico. El hardware debe asignarse por adelantado para minimizar la latencia y las posibles consecuencias adversas en el sistema general.
 title: Tiempo de espera necesario para aumentos de tráfico
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 translation-type: tm+mt

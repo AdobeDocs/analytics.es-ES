@@ -3,7 +3,7 @@ description: Tras crear informes con solicitudes insertadas, se puede aplicar fo
 title: Especificar un formato condicional
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

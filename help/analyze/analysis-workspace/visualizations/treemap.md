@@ -2,8 +2,8 @@
 description: Muestra datos de forma jerárquica (con estructura de árbol) como un conjunto de rectángulos anidados.
 title: Gráfico de rectángulos
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
-feature: Visualizaciones
-role: Profesional empresarial, administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

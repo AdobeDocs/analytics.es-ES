@@ -1,7 +1,7 @@
 ---
 description: La página Facturación permite acceder a la información de facturación, que contiene los detalles de tráfico correspondientes a cada grupo de informes. Solo los administradores autorizados tienen acceso a esta página.
 title: Facturación
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 translation-type: tm+mt

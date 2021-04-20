@@ -2,8 +2,8 @@
 description: Utilice la visualización de visitas en orden previsto de un proyecto de Workspace.
 title: Resumen de abandonos
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-feature: Visualizaciones
-role: Profesional empresarial, administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

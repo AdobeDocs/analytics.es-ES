@@ -3,7 +3,7 @@ description: Use Report Builder con Microsoft Power BI.
 title: Resumen de publicación en Power BI
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

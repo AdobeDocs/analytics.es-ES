@@ -2,7 +2,7 @@
 description: Pasos que describen cómo copiar reglas de procesamiento de un grupo de informes y cómo sustituirlas o anexarlas a otro grupo de informes.
 subtopic: Processing rules
 title: Copiar reglas de procesamiento en otro grupo de informes
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 translation-type: tm+mt

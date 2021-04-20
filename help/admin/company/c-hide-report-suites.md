@@ -2,7 +2,7 @@
 description: Le permite ocultar grupos de informes en la interfaz de usuario de Adobe Analytics.
 keywords: eliminar grupo de informes
 title: Ocultar grupos de informes
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
 translation-type: tm+mt

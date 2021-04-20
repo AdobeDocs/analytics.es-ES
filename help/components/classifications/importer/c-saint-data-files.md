@@ -2,7 +2,7 @@
 description: El importador permite realizar cargas masivas de datos de clasificaciones a los informes de análisis, mediante un archivo. Para que las cargas de datos sean correctas, es necesario usar un formato de archivo específico en la importación.
 subtopic: Classifications
 title: Archivos de datos de clasificación
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

@@ -2,8 +2,8 @@
 description: Factores que afectan el rendimiento y las optimizaciones de Workspace que puede hacer
 title: Optimización y factores de rendimiento de Analysis Workspace
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Conceptos básicos de Workspace
-role: Profesional empresarial, Administrador
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

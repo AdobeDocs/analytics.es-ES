@@ -3,7 +3,7 @@ description: Explica cómo extraer activos publicados en Report Builder a Power 
 title: Extraer activos publicados a Power BI Desktop
 uuid: ef47d5c7-31e0-44fc-a792-bc9d12bb089e
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

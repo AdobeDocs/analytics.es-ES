@@ -3,7 +3,7 @@ description: Muestra el tráfico de la página web y clasifica las vistas de la 
 title: Informes en tiempo real
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

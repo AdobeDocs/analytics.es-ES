@@ -1,8 +1,8 @@
 ---
 description: El panel Analytics for Target (A4T) le permite analizar las actividades y experiencias de Adobe Target en Analysis Workspace.
 title: Panel de Analytics for Target (A4T)
-feature: Paneles
-role: Profesional empresarial, administrador
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

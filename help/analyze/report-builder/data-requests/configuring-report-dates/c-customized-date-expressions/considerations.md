@@ -3,7 +3,7 @@ description: 'Dos consideraciones importantes al utilizar la expresión personal
 title: Consideraciones de fecha personalizadas
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

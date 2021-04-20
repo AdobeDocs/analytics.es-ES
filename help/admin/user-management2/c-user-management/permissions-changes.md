@@ -3,7 +3,7 @@ description: Contenido de permisos heredados
 keywords: grupos;permisos
 subtopic: Users and groups
 title: Cambios en los permisos de usuarios y grupos
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

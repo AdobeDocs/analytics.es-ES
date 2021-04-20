@@ -3,8 +3,8 @@ description: Puede crear segmentos a partir de un punto de contacto, añadir seg
 keywords: abandonos y segmentación, segmentos en el análisis de abandonos, comparar segmentos de abandonos
 title: Aplicación de segmentos en el análisis de abandonos
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: Visualizaciones
-role: Profesional empresarial, administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

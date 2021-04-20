@@ -3,7 +3,7 @@ description: Obtenga más información sobre cómo se recopilan los datos para A
 subtopic: Get started
 title: Información sobre la recopilación de datos
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 34a7be55-519a-4e04-95a3-99b0f6e04b3e
 translation-type: tm+mt

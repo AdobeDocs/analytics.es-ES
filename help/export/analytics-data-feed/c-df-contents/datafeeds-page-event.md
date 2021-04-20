@@ -2,7 +2,7 @@
 description: La tabla de búsqueda para determinar el tipo de visita basándose en el valor de page_event.
 keywords: Fuente de datos;página;evento;page_event;post_page_event
 title: Búsqueda de eventos de página
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt

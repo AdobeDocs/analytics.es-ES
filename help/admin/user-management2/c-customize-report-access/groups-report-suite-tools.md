@@ -3,7 +3,7 @@ description: Habilite permisos de usuario para Acceso a la API, Administración 
 keywords: grupos;permisos
 subtopic: Users and groups
 title: Personalizar herramientas de grupos de informes
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 translation-type: tm+mt

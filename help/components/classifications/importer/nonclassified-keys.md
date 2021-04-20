@@ -2,7 +2,7 @@
 description: Las claves no clasificadas se agrupan en informes de clasificación como un solo artículo de línea etiquetado como Ninguno. Puede resultar útil cambiar el nombre de Ninguno por otro más descriptivo.
 subtopic: Classifications
 title: Claves no clasificadas
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 translation-type: tm+mt

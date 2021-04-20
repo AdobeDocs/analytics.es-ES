@@ -2,7 +2,7 @@
 description: Instrucciones sobre cómo enviar un mensaje de correo electrónico a todos los usuarios de una empresa.
 subtopic: Users and groups
 title: Usuarios de correo electrónico
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 exl-id: 4f3abfa1-d652-4cda-b68f-a21fff4f62c4
 translation-type: tm+mt

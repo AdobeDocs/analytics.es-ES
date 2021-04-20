@@ -3,7 +3,7 @@ description: Se puede copiar una solicitud simple en vez de una solicitud de ref
 title: Copiar solicitudes simples
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

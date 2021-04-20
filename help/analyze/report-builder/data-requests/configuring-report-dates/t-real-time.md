@@ -3,7 +3,7 @@ description: Los pasos describen cómo configurar las fechas de solicitud en tie
 title: Configuración de una solicitud en tiempo real
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

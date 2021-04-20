@@ -3,7 +3,7 @@ description: Las solicitudes enumeradas en el Administrador de solicitudes se pu
 title: Orden ascendente o descendente
 uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

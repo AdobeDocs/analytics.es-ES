@@ -2,7 +2,7 @@
 description: Si está habituado a trabajar con el Generador de segmentos en Ad Hoc Analysis, esta lista de preguntas más frecuentes le explica qué sucede con los segmentos y las carpetas existentes y qué acciones debe realizar.
 keywords: htsegmentación,segmentos
 title: Guía de transición para Ad Hoc Analysis
-feature: Segmentación
+feature: Segmentation
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

@@ -2,7 +2,7 @@
 description: Administrar usuarios y grupos en la página Administración de usuarios le permite administrar los usuarios y grupos y controlar el acceso a los informes, las herramientas y los grupos de informes.
 subtopic: Users and groups
 title: Resumen de administración de usuarios
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt

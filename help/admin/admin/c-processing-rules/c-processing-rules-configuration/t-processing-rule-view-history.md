@@ -2,7 +2,7 @@
 description: Los cambios sufridos por las reglas de procesamiento se pueden ver en el historial.
 subtopic: Processing rules
 title: Ver el historial de reglas de procesamiento
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: Adobe Analytics le permite generar, administrar, compartir y aplicar a sus informes poderosos segmentos centrados en la audiencia utilizando capacidades de Analytics, Adobe Experience Cloud, Adobe Target y otros productos integrados de Adobe.
 keywords: segmentación;segmentos
 title: Segmentación de Analytics
-feature: Segmentación
+feature: Segmentation
 uuid: 845c1743-1264-4090-bccc-78830477f52e
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
 translation-type: tm+mt

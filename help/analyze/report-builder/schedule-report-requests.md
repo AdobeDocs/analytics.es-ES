@@ -3,7 +3,7 @@ description: Puede programar solicitudes de informe, especificar opciones de ent
 title: Programar solicitudes de informes
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: Combine tanto los datos con marcas de hora como los datos sin marcas de hora en un grupo de informes único.
 title: Marcas de hora opcionales
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 translation-type: tm+mt

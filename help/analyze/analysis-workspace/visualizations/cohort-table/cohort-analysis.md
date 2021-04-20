@@ -1,8 +1,8 @@
 ---
 title: ¿Qué es el ánálisis de cohortes y cómo funciona?
 description: Explore en detalle los datos de su audiencia y desglóselos en grupos relacionados mediante el análisis de cohortes. Obtenga información sobre el análisis de cohorte en Analysis Workspace.
-feature: Visualizaciones
-role: Profesional empresarial, administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

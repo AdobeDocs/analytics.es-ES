@@ -2,7 +2,7 @@
 description: Puede copiar el valor de una eVar en una propiedad para permitir las rutas.
 subtopic: Processing rules
 title: Determinar una ruta copiando un valor eVar en una propiedad
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 exl-id: 23c978b9-a159-4364-9214-561a255d23e4
 translation-type: tm+mt

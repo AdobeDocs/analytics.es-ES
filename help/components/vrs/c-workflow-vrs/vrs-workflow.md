@@ -2,7 +2,7 @@
 description: Información general sobre los pasos necesarios para planificar la implementación de grupos de informes virtuales.
 keywords: Grupo de informes virtuales
 title: Flujo de trabajo del grupo de informes virtuales
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 translation-type: tm+mt

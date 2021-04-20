@@ -3,7 +3,7 @@ description: Si está editando un libro y desea crear espacio para nuevas solici
 title: Eliminar asignaciones de salida
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

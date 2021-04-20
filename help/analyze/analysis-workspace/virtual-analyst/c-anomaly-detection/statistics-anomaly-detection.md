@@ -1,8 +1,8 @@
 ---
 description: La incoherencia de los datos puede causar grandes problemas. Aprenda a identificar anomalías estadísticas con técnicas de detección de anomalías de Adobe. Empiece hoy mismo.
 title: Técnicas estadísticas utilizadas en la detección de anomalías
-feature: Herramientas de IA
-role: Profesional empresarial, administrador
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

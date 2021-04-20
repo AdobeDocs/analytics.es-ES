@@ -2,7 +2,7 @@
 description: Instrucciones sobre cómo asignar grupos de usuarios a un grupo de informes.
 subtopic: Users and groups
 title: Asignar grupos de usuarios a un grupo de informes
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 exl-id: 8e2a36b8-4693-4bb2-9993-8887fd7c906d
 translation-type: tm+mt

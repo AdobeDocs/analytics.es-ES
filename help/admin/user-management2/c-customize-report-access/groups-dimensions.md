@@ -3,7 +3,7 @@ description: Personalice el acceso de usuarios a nivel granular con eVars, infor
 keywords: grupos;permisos
 subtopic: Users and groups
 title: Personalizar permisos para dimensiones
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt

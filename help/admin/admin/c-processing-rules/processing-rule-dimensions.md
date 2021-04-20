@@ -2,7 +2,7 @@
 description: Las dimensiones que pueden leerse y escribirse (a menos que se indique lo contrario) con reglas de procesamiento.
 subtopic: Processing rules
 title: Dimensiones disponibles para las reglas de procesamiento
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt

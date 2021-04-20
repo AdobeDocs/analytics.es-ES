@@ -1,7 +1,7 @@
 ---
 description: Define la configuración común de un sitio Web que proporciona información acerca de servicios y productos que normalmente se venden mediante un compromiso ulterior.
 title: Generación de posibles clientes
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt

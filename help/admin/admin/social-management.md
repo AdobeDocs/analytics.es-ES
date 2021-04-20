@@ -1,7 +1,7 @@
 ---
 description: Si Adobe Social está habilitado, esta opción le permite clasificar variables de Social.
 title: Administración social
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: d5159048-d7bc-4321-9753-9b4d733e529f
 exl-id: eeb42b17-57a6-4743-b699-ce060c454555
 translation-type: tm+mt

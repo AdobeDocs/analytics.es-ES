@@ -1,7 +1,7 @@
 ---
 description: La página Administrar imagen de promoción conjunta de marca le permite mostrar el logotipo de su empresa en los informes descargados.
 title: Promoción conjunta de marca
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
 exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
 translation-type: tm+mt

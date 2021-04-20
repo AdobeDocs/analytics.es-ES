@@ -1,7 +1,7 @@
 ---
 description: En el Administrador de segmentos, el etiquetado de segmentos le permite organizarlos.
 title: Etiquetar segmentos
-feature: Segmentación
+feature: Segmentation
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
 translation-type: tm+mt

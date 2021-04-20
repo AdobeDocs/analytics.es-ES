@@ -3,7 +3,7 @@ description: Se puede asignar un nombre al informe y configurar cómo mostrar lo
 title: Dar formato a los encabezados
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

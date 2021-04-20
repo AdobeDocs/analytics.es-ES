@@ -1,7 +1,7 @@
 ---
 description: Proporciona la configuración común de un sitio web que ofrece artículos y vídeos de soporte para productos.
 title: Medios de soporte técnico
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 6072f14c-a67d-470c-b977-c18e26e901db
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
 translation-type: tm+mt

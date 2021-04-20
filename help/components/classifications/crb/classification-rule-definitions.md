@@ -2,7 +2,7 @@
 description: Definiciones de los elementos de la interfaz en las páginas del Generador de reglas de clasificación.
 subtopic: Classifications
 title: Definiciones de reglas de clasificación
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt

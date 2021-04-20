@@ -2,8 +2,8 @@
 description: Le permite ver cómo se compara un valor que le interese con otros rangos de rendimiento (objetivos).
 title: Gráfico de viñetas
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
-feature: Visualizaciones
-role: Profesional empresarial, administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

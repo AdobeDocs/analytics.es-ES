@@ -2,7 +2,7 @@
 description: Opcional. Antes de importar las clasificaciones a informes de marketing, existe la posibilidad de descargar una plantilla para facilitar la creación del archivo de datos de clasificación. El archivo de datos utiliza las clasificaciones especificadas como encabezados de columna y, a continuación, organiza el conjunto de datos de informes con los encabezados de clasificación adecuados.
 subtopic: Classifications
 title: Plantilla de clasificación
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

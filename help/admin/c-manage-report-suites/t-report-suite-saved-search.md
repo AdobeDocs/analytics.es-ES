@@ -1,7 +1,7 @@
 ---
 description: Instrucciones sobre cómo definir un conjunto de criterios que determine los miembros de una búsqueda de grupos de informes.
 title: Guardar una búsqueda de grupos de informes
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: dd83eed6-1374-429c-9fc3-709055698a44
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
 translation-type: tm+mt

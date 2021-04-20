@@ -1,8 +1,8 @@
 ---
 description: Instrucciones para configurar los informes de valoración de los paneles.
 title: Guía del gestor de datos para paneles de Adobe Analytics
-feature: Tableros de Analytics
-role: Profesional empresarial, administrador
+feature: Analytics Dashboards
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

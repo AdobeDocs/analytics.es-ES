@@ -3,7 +3,7 @@ description: En el paso 2 del Asistente para solicitudes se pueden añadir métr
 title: Resumen de métricas y dimensiones
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

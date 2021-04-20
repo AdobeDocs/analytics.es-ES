@@ -2,7 +2,7 @@
 description: Los eventos se pueden definir según los valores de la página o determinados valores de una variable.
 subtopic: Processing rules
 title: Definir el evento de vistas de producto desde la página de información general del producto
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
 exl-id: 63e139e1-d325-4650-9d2a-19ab3f91818e
 translation-type: tm+mt

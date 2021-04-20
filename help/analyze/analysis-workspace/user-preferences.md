@@ -1,7 +1,7 @@
 ---
 title: Establecimiento de las preferencias de usuario en Analysis Workspace
 description: Puede establecer preferencias generales y de proyecto para los usuarios.
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 translation-type: tm+mt

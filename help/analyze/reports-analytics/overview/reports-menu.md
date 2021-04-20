@@ -2,7 +2,7 @@
 description: Una descripción general del menú Informes en Reports & Analytics.
 title: Menú Informes
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 translation-type: tm+mt

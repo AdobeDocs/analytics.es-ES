@@ -2,7 +2,7 @@
 description: Utilice desgloses cuando quiera obtener más información sobre la relación que tiene un segmento o artículo de un informe con otros informes. Generalmente, esto se denomina “desglosar” un informe mediante otro informe.
 title: Desgloses
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 translation-type: tm+mt

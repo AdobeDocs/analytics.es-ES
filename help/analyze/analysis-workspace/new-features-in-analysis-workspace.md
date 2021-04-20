@@ -2,7 +2,7 @@
 description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
-feature: Conceptos básicos de Workspace
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt

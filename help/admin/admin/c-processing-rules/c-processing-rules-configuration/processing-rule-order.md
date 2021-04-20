@@ -2,7 +2,7 @@
 description: Para utilizar de forma eficaz las reglas de procesamiento, es esencial comprender cuándo se aplican durante la recopilación de datos.
 subtopic: Processing rules
 title: Orden de procesamiento
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 translation-type: tm+mt

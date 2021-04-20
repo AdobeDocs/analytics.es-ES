@@ -2,7 +2,7 @@
 description: Los grupos de informes virtuales y el etiquetado de grupos múltiples tienen diferentes ventajas. Aprenda cuál es la mejor opción para su organización.
 keywords: Grupo de informes virtuales,VRS
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
-feature: Configuración del grupo de informes
+feature: Report Suite Settings
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt

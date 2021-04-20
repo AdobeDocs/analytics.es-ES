@@ -2,7 +2,7 @@
 description: Después de ejecutar un informe, puede personalizarlo para ver y analizar los datos según sus necesidades. Puede filtrar los datos de informe, cambiar la forma en que se presentan los datos gráficamente, cambiar la granularidad de la fecha, etc.
 title: Resumen de los informes personalizados
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 translation-type: tm+mt

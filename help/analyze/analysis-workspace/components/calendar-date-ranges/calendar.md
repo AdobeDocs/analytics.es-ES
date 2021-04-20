@@ -2,8 +2,8 @@
 description: En el calendario, se pueden indicar fechas e intervalos de fechas o seleccionar ajustes preestablecidos.
 title: Resumen de calendario e intervalos de fechas
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Conceptos básicos de Workspace
-role: Profesional empresarial, Administrador
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

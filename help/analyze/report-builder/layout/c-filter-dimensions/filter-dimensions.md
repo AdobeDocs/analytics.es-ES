@@ -3,7 +3,7 @@ description: Es posible filtrar las dimensiones que se añadan a la cuadrícula 
 title: Resumen del filtrado de dimensiones
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

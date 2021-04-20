@@ -2,7 +2,7 @@
 description: Los objetivos le permiten medir el rendimiento del sitio y llevar un control del avance hacia los objetivos. Por ejemplo, es posible que desee incrementar la cantidad de visitantes de una región, el ingreso por pedido o la cantidad de visitas provenientes de un referente específico.
 title: 'Objetivos '
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt

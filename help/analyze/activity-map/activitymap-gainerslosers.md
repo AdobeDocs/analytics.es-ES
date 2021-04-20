@@ -3,7 +3,7 @@ description: Las superposiciones permiten configurar la visualización de datos 
 title: Superposiciones personalizables
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

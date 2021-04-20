@@ -2,7 +2,7 @@
 description: Los datos de clasificación pueden importarse (cargarse) a través del explorador web. Este método restringe la carga de datos de clasificación a un solo grupo de informes.
 subtopic: Classifications
 title: Importación del explorador
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 translation-type: tm+mt

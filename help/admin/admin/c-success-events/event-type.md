@@ -1,7 +1,7 @@
 ---
 description: Describe las consecuencias de cambiar un tipo de evento una vez que los datos se han recopilado.
 title: Información sobre el cambio de tipo de evento
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: c184dd8e-7818-42ff-a960-dd91215383d8
 exl-id: 6972431a-bb42-4b7f-b02b-ceef0ff56271
 translation-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: La detección de búsqueda de pago diferencia entre búsquedas pagadas y naturales en los informes Motores de búsqueda y Palabras clave de búsqueda. Se puede especificar los motores de búsqueda en los que se utilizan publicidades pagadas y definir una cadena de caracteres que se encuentre en la URL de una visita procedente de una publicidad pagada.
 title: Detección de búsqueda de pago
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
 translation-type: tm+mt

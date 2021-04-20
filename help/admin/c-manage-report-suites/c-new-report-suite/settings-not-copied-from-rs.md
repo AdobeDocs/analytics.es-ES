@@ -1,7 +1,7 @@
 ---
 description: Si ha copiado la configuración de un grupo de informes existente, un mensaje del sistema identificará las opciones que no se copian al nuevo grupo de informes.
 title: Configuración que no se copia desde un grupo de informes de origen
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 translation-type: tm+mt

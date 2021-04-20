@@ -1,7 +1,7 @@
 ---
 description: Puede proporcionar descripciones personalizadas de informe para eVars, propiedades, clasificaciones y eventos. Todos los usuarios finales pueden ver las descripciones.
 title: Descripciones personalizadas de informe
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 translation-type: tm+mt

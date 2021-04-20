@@ -1,7 +1,7 @@
 ---
 description: Puede crear un nuevo grupo de informes seleccionando como modelo una plantilla predefinida o utilizando uno de los grupos de informes existentes.
 title: Descargar la configuración del grupo de informes
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt

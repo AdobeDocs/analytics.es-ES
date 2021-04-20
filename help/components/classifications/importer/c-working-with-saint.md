@@ -2,7 +2,7 @@
 description: Utilice el importador para cargar clasificaciones en Adobe Analytics. También puede exportar los datos para actualizarlos antes de importarlos.
 subtopic: Classifications
 title: Resumen del importador de clasificaciones
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 translation-type: tm+mt

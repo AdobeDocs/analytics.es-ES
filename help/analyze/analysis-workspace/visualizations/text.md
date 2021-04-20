@@ -2,8 +2,8 @@
 description: Le permite agregar texto definido por el usuario a Workspace.
 title: Texto
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-feature: Visualizaciones
-role: Profesional empresarial, administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

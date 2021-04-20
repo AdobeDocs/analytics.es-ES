@@ -2,7 +2,7 @@
 description: Haga clic en el icono i (Información) junto al nombre del grupo de informes para obtener información sobre él.
 keywords: Grupo de informes virtuales
 title: Visualización de la información del grupo de informes virtuales
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt

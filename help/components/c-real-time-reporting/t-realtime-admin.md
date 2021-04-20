@@ -1,7 +1,7 @@
 ---
 description: Pasos administrativos para configurar informes en tiempo real.
 title: Configurar informes en tiempo real
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
 translation-type: tm+mt

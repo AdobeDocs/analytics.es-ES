@@ -1,7 +1,7 @@
 ---
 description: Filtre por etiquetas, propietarios y otros filtros (Mostrar todo, Míos, Compartidos conmigo, Favoritos y Aprobados).
 title: Filtrar segmentos
-feature: Segmentación
+feature: Segmentation
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 translation-type: tm+mt

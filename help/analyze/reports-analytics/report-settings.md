@@ -2,7 +2,7 @@
 description: Configuración que define cómo aparecen todos los informes y la información que asigna las opciones de menú predeterminadas a su ubicación en el menú simplificado.
 title: Configuración de visualización de informes y navegación
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

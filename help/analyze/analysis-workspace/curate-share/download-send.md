@@ -2,8 +2,8 @@
 description: Puede descargar datos de Analysis Workspace copiándolos o en los formatos PDF y CSV.
 title: Descarga de archivos PDF o CSV
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-feature: Depurar y compartir
-role: Profesional empresarial, administrador
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

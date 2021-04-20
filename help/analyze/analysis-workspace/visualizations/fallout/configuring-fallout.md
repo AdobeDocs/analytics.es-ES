@@ -2,8 +2,8 @@
 description: Configurar una visualización de abandonos.
 title: Configurar una visualización de abandonos
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: Visualizaciones
-role: Profesional empresarial, administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

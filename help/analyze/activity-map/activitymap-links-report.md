@@ -3,7 +3,7 @@ description: El informe de vínculos recoge los vínculos encontrados en la pág
 title: Informe de vínculos
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 feature: Activity Map
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: Un histograma es un nuevo tipo de visualización en Analysis Workspace.
 title: Histograma
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-feature: Visualizaciones
-role: Profesional empresarial, administrador
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

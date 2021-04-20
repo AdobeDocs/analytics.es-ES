@@ -3,7 +3,7 @@ description: Información sobre los caracteres especiales que se utilizan en la 
 keywords: Fuente de datos;trabajo;caracteres especiales;hit_data;variables de varios valores;events_list;products_list;mvvars
 subtopic: data feeds
 title: Caracteres especiales en las fuentes de datos
-feature: Conceptos básicos de Reports & Analytics y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 translation-type: tm+mt

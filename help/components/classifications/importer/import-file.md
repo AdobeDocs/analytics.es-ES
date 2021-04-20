@@ -2,7 +2,7 @@
 description: Una vez copiados los datos adecuados en el archivo de plantilla de clasificaciones, puede procederse a la importación (carga) en los servidores de recopilación de datos de Adobe.
 subtopic: Classifications
 title: Importación del explorador y FTP
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 exl-id: 3b5eb6b4-42a2-4cf7-864b-33a5a7766255
 translation-type: tm+mt

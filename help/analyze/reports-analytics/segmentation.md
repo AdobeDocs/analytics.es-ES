@@ -2,7 +2,7 @@
 description: Los segmentos son subconjuntos de datos o datos filtrados mediante reglas que se han creado. Los segmentos se basan en visitas individuales, visitas y visitantes.
 title: Segmentación de Analytics
 uuid: c8837cad-af30-43b8-8e3c-36bf6adb58d6
-feature: Conceptos básicos de Reports & Analytics
+feature: Reports & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 021cd591-4e87-4351-bfee-9e3cc79a6a45
 translation-type: tm+mt

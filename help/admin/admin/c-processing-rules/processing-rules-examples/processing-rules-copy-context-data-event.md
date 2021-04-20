@@ -2,7 +2,7 @@
 description: Las reglas de procesamiento pueden activar eventos basados en variables de datos de contexto.
 subtopic: Processing rules
 title: Definir un evento con una variable de datos de contexto
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
 translation-type: tm+mt

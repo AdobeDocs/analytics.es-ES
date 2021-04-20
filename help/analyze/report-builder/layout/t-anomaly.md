@@ -3,7 +3,7 @@ description: Los pasos describen cómo crear una solicitud de detección de anom
 title: Configuración de una solicitud de detección de anomalías
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
-role: Profesional empresarial, administrador
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

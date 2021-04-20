@@ -1,7 +1,7 @@
 ---
 title: Informes
 description: Dimensiones y métricas que utiliza Reports & Analytics para cada informe.
-feature: Informes Conceptos básicos y conceptos básicos de Analytics
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 translation-type: tm+mt

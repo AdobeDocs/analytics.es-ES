@@ -2,7 +2,7 @@
 description: Instrucciones sobre cómo agregar un grupo de usuarios.
 subtopic: Users and groups
 title: Agregar un grupo de usuarios
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 exl-id: a954c88a-7e68-4a2a-a231-c957257ae433
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: Las reglas de procesamiento se definen en los grupos de informes.
 subtopic: Processing rules
 title: Crear reglas de procesamiento
-feature: Herramientas de administración
+feature: Admin Tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
 translation-type: tm+mt
