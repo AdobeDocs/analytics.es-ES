@@ -2,13 +2,13 @@
 description: Utilice desgloses cuando quiera obtener más información sobre la relación que tiene un segmento o artículo de un informe con otros informes. Generalmente, esto se denomina “desglosar” un informe mediante otro informe.
 title: Desgloses
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '296'
 ht-degree: 98%
 
 ---
