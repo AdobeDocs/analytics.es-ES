@@ -2,14 +2,14 @@
 description: Se describe cómo calcular métricas habituales mediante fuentes de datos.
 keywords: Fuente de datos;trabajo;métricas;columna previa;columna posterior;bots;filtro de fechas;cadena de eventos;común;fórmulas
 title: Calcular métricas
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Conceptos básicos de Reports & Analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 95%
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
 
