@@ -1,27 +1,28 @@
 ---
 title: Uso de AppMeasurement con iframes
-description: Acceda a las variables de Adobe Analytics dentro de un iframe o una página principal mientras se encuentra en un iframe.
+description: Acceda a variables de Adobe Analytics dentro de un iframe o de una página principal mientras se encuentra en un iframe.
+exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 translation-type: tm+mt
-source-git-commit: 355985a6baa1a1112e75446012be72f5c0a1d0c2
+source-git-commit: 40bf2bbb522a94a678d0da1a645d83a5121c93d0
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 6%
 
 ---
 
-
 # Uso de AppMeasurement con iframes
 
-Puede hacer referencia a las variables de AppMeasurement desde los iframes secundario y principal. Es necesario definir todas las variables en la misma ubicación donde existe la biblioteca AppMeasurement. Los siguientes ejemplos explican cómo configurar los métodos y las variables de AppMeasurement básicas dentro y fuera de un iframe.
+Puede hacer referencia a variables de AppMeasurement desde iframes secundarios y superiores. Es necesario definir todas las variables en la misma ubicación donde existe la biblioteca AppMeasurement. En los siguientes ejemplos se explica cómo configurar variables y métodos básicos de AppMeasurement dentro y fuera de un iframe.
 
-Si utiliza Adobe Experience Platform Launch, asegúrese de que el objeto tracker sea accesible globalmente. Consulte Información general [sobre la extensión de](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) Adobe Analytics en la guía del usuario Launch.
+Si utiliza Adobe Experience Platform Launch, asegúrese de que el objeto de seguimiento es accesible globalmente. Consulte [Descripción general de la extensión de Adobe Analytics](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html) en la guía del usuario de Launch.
 
->!![CAUTION]
-Evite incluir bibliotecas de AppMeasurement tanto en una página principal como en un iframe. Al hacerlo, se presentan riesgos de enviar varias solicitudes de imagen, inflar informes y aumentar las llamadas al servidor facturables.
+>[!CAUTION]
+>
+>Evite incluir bibliotecas de AppMeasurement tanto en una página principal como en un iframe. Al hacerlo, se corre el riesgo de enviar varias solicitudes de imagen, inflar informes y aumentar las llamadas facturables al servidor.
 
 ## Acceso a AppMeasurement que reside en un iframe
 
-Puede acceder a las variables de AppMeasurement a través del objeto iframe. En estos ejemplos se establece [pageName](../vars/page-vars/pagename.md) y se llama al método [](../vars/functions/t-method.md) t() de dos formas diferentes de hacer referencia al objeto iframe.
+Puede acceder a las variables de AppMeasurement a través del objeto iframe . En estos ejemplos se establece [pageName](../vars/page-vars/pagename.md) y se llama al método [t()](../vars/functions/t-method.md) de dos formas diferentes de hacer referencia al objeto iframe.
 
 ```js
 // Reference AppMeasurement code that resides within an iframe and send an image request
@@ -35,7 +36,7 @@ window.frames[0].contentWindow.s.t();
 
 ## Acceso a AppMeasurement desde dentro de un iframe
 
-Puede acceder a las variables de AppMeasurement en una página principal desde dentro de un iframe. En este ejemplo se establece [pageName](../vars/page-vars/pagename.md) y se llama al método [](../vars/functions/t-method.md) t() mediante la [`parent`](https://www.w3schools.com/jsref/prop_win_parent.asp) propiedad .
+Puede acceder a las variables de AppMeasurement en una página principal desde un iframe. En este ejemplo se establece [pageName](../vars/page-vars/pagename.md) y se llama al método [t()](../vars/functions/t-method.md) mediante la propiedad [`parent`](https://www.w3schools.com/jsref/prop_win_parent.asp).
 
 ```js
 // Reference AppMeasurement code on a parent page from within an iframe and send an image request
@@ -43,9 +44,9 @@ parent.s.pageName = "Page Name on Hosted Window";
 parent.s.t();
 ```
 
-## Uso `postMessage` y evento de oyentes
+## Usar `postMessage` y oyentes de eventos
 
-De forma alternativa, puede utilizar los oyentes `postMessage` y eventos para establecer variables. Este método no requiere una referencia directa a un iframe.
+Como alternativa, puede utilizar `postMessage` y detectores de eventos para establecer variables. Este método no requiere una referencia directa a un iframe.
 
 ```js
 // Place this code in your parent window
@@ -63,7 +64,7 @@ window.top.postMessage("Example page view call","https://example.com");
 
 ## Limitaciones
 
-* Al igual que con otros códigos JavaScript, los iframes sólo pueden comunicarse cuando coinciden dominios y protocolos. Estos ejemplos no funcionan si el contenido de iframe reside en un dominio diferente al dominio principal.
-* Si AppMeasurement reside en un iframe, la [`referrer`](../vars/page-vars/referrer.md) variable se establece en la dirección URL principal, no en la dirección URL de referencia real. Puede configurar manualmente la `referrer` variable para resolver este problema.
-* El depurador [de](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html) Adobe Experience Cloud no reconoce las solicitudes de imagen activadas dentro de iframes.
-* Activity Map no muestra el mapa de calor sobre los vínculos en los que se hace clic dentro de los iframes. El iframe completo se resalta en su lugar.
+* Al igual que con otros códigos JavaScript, los iframes solo pueden comunicarse cuando los dominios y el protocolo coinciden. Estos ejemplos no funcionan si el contenido del iframe reside en un dominio diferente al dominio principal.
+* Si AppMeasurement reside en un iframe, la variable [`referrer`](../vars/page-vars/referrer.md) se establece en la dirección URL principal, no en la dirección URL de referencia real. Puede configurar manualmente la variable `referrer` para resolver este problema.
+* El [depurador de Adobe Experience Cloud](https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html) no reconoce solicitudes de imagen activadas dentro de iframes.
+* Activity Map no muestra el mapa de calor sobre los vínculos en los que se hace clic dentro de los iframes. Todo el iframe se resalta en su lugar.
