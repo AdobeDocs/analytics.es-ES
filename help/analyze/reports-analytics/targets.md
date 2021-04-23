@@ -6,10 +6,10 @@ feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: 3926f1e451c8d100387745a125bb82b2e850de01
+source-git-commit: 274348296f2215389377ec94ff4d39b1769e81cc
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 88%
+ht-degree: 86%
 
 ---
 
@@ -34,7 +34,7 @@ Descripciones de los campos y las opciones de la página [!UICONTROL Agregar y e
 | [!UICONTROL Seleccionar elemento] | Muestra el formulario de selección del atributo o eVar seleccionado, para que pueda realizar una búsqueda [!UICONTROL Avanzada] de elementos relacionados. Por ejemplo, si selecciona la eVar [!UICONTROL Países], la lista de elementos le permite especificar el país. Si selecciona la eVar [!UICONTROL Productos], la lista de elementos le permite especificar el producto. Las variables de perspectiva personalizada también se encuentran enumeradas en el menú. Si tiene configurada una variable de perspectiva personalizada para medir los rangos de edades, la lista de elementos mostrará dichos rangos, como por ejemplo: 18-24, 25-35, etc. |
 | [!UICONTROL Métrica] | Permite aplicar el objetivo a una métrica. Este menú muestra solamente las métricas que se aplican a la eVar determinada. Por ejemplo, si selecciona la métrica [!UICONTROL Productos] como la eVar, no se le aplicará una métrica del tipo [!UICONTROL Salida de página]. La métrica [!UICONTROL Salida de página] se puede aplicar a una eVar de página web. |
 | [!UICONTROL Periodo] | Permite definir las opciones [!UICONTROL Intervalo de fechas] y [!UICONTROL Granularidad] del objetivo. Según las especificaciones de intervalo de fecha, algunas opciones de granularidad no se aplican. Al escribir los valores de las métricas, escriba un valor para cada    configuración de granularidad. Por ejemplo, si el intervalo de fecha es el mes de febrero y la selección de granularidad es semanal, escriba un valor para cada semana del mes de febrero. [!UICONTROL Los informes de objetivo se muestran para cada configuración de granularidad.] |
-| [!UICONTROL Valores] | Permite especificar los valores objetivo del período de tiempo y de la métrica seleccionada. Este valor equivale a las cifras objetivo que intenta alcanzar. Por ejemplo, si el objetivo se basa en los ingresos y aspira a 10 000 $ de ingresos en un mes, ingrese 10000 en el campo de valor del mes. |
+| [!UICONTROL Valores] | Permite especificar los valores objetivo del período de tiempo y de la métrica seleccionada. Estos valores son los números de objetivo a los que intenta llegar. Por ejemplo, si el objetivo se basa en los ingresos y aspira a 10 000 $ de ingresos en un mes, ingrese 10000 en el campo de valor del mes. |
 
 ## Añadir un [!UICONTROL Target] {#task_94915391E26E4F808F2538AA92BC7E71}
 
