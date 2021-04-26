@@ -3,10 +3,10 @@ title: Análisis entre dispositivos
 description: Cambie los datos de centrados en el dispositivo a centrados en la persona mediante la vinculación de los datos del dispositivo.
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 translation-type: tm+mt
-source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
+source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 86%
+source-wordcount: '751'
+ht-degree: 85%
 
 ---
 
@@ -51,3 +51,4 @@ El análisis entre dispositivos es una característica innovadora y sólida, per
 * La API 1.4 no es compatible. Los conectores de Power BI y Report Builder dependen de la API 1.4 y, por lo tanto, no son compatibles con CDA.
 * Los datos históricos del grupo de informes virtuales cambian según el reconocimiento y la vinculación de dispositivos de Adobe. Los datos del grupo de informes de origen no cambian.
 * La monitorización activa del proceso de vinculación de CDA por Adobe se limita solo a los grupos de informes de producción.
+* Actualmente, CDA no es compatible con la [API de reparación de datos](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) de Adobe Analytics
