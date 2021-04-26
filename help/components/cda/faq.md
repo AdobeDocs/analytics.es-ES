@@ -3,10 +3,10 @@ title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 93%
+source-wordcount: '1605'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 ## ¿Cómo puedo usar CDA para ver cómo la gente se mueve de un tipo de dispositivo a otro?
 
-Puede utilizar una visualización de flujo con la dimensión Tipo de dispositivo móvil.
+Puede utilizar una visualización [!UICONTROL Flujo] con la dimensión Tipo de dispositivo móvil .
 
 1. Inicie sesión en Adobe Analytics y cree un nuevo proyecto de Workspace en blanco.
 2. Haga clic en la pestaña Visualizaciones de la izquierda y arrastre una visualización de Flujo al lienzo de la derecha.
@@ -105,3 +105,9 @@ Se pueden habilitar varios grupos de informes, pero cada grupo de informes adici
 ## Si mi Experience Cloud org (también conocida como IMS org) tiene varias compañías en diferentes regiones, ¿puedo habilitar CDA para todas ellas?
 
 No. Para la misma organización, solo una región puede tener CDA habilitado.
+
+## ¿Cuáles son las ventajas y desventajas de una repetición de 7 días en lugar de una reproducción de 1 día?
+
+La ventaja de la ventana retrospectiva de reproducción de 7 días es que CDA puede retroceder más en el tiempo para intentar asociar eventos anteriormente anónimos con alguna persona que más tarde inició sesión en esos 7 días. Las desventajas de la ventana retrospectiva de 7 días son 1) la reproducción solo se ejecuta una vez por semana, y 2) los últimos 7 días están sujetos a cambios.
+
+Las ventajas de utilizar la ventana retrospectiva de reproducción de 1 día son 1) la reproducción se ejecuta todos los días y 2) solo ayer está sujeto a cambios. La desventaja de la ventana retrospectiva de 1 día es que CDA solo puede retroceder 1 día para intentar asociar eventos anteriormente anónimos con una persona que inició sesión ayer.
