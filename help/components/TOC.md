@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guía de componentes de Analytics
 breadcrumb-title: Guía de componentes
 user-guide-description: Ayude a organizar los datos usando componentes como segmentos, métricas calculadas, grupos de informes virtuales y alertas.
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '637'
+translation-type: tm+mt
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
@@ -170,7 +170,6 @@ ht-degree: 100%
    + [Prácticas recomendadas](segmentation/best-practices.md)
 + Métricas calculadas {#calculated-metrics}
    + [Métricas calculadas y calculadas avanzadas (derivadas)](c-calcmetrics/cm-overview.md)
-   + [Preguntas frecuentes](c-calcmetrics/cm-transition.md)
    + [Vídeotutoriales](c-calcmetrics/cm-videos.md)
    + Flujo de trabajo de las métricas calculadas {#calcmetric-workflow}
       + [Flujo de trabajo de las métricas calculadas](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
