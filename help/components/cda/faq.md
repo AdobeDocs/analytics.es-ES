@@ -3,10 +3,10 @@ title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 85%
+source-wordcount: '1672'
+ht-degree: 81%
 
 ---
 
@@ -111,3 +111,7 @@ No. Para la misma organización, solo una región puede tener CDA habilitado.
 La ventaja de la ventana retrospectiva de reproducción de 7 días es que CDA puede retroceder más en el tiempo para intentar asociar eventos anteriormente anónimos con alguna persona que más tarde inició sesión en esos 7 días. Las desventajas de la ventana retrospectiva de 7 días son 1) la reproducción solo se ejecuta una vez por semana, y 2) los últimos 7 días están sujetos a cambios.
 
 Las ventajas de utilizar la ventana retrospectiva de reproducción de 1 día son 1) la reproducción se ejecuta todos los días y 2) solo ayer está sujeto a cambios. La desventaja de la ventana retrospectiva de 1 día es que CDA solo puede retroceder 1 día para intentar asociar eventos anteriormente anónimos con una persona que inició sesión ayer.
+
+## ¿Qué sucede con los datos vinculados dentro de mi grupo de informes virtuales CDA si mi empresa decide reducir la categoría a partir de Analytics Ultimate?
+
+Si un cliente rebaja de Ultimate, ya no tendrá acceso a los datos enlazados. Se eliminarán todos los datos enlazados anteriormente. Esto significa que los grupos de informes virtuales de CDA ahora no reflejarán la vinculación entre dispositivos. Los datos serán similares al grupo de informes no enlazado original.
