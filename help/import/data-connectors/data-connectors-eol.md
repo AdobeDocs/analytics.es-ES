@@ -3,10 +3,10 @@ description: Descubra cuándo y por qué los conectores de datos de Analytics fi
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
+source-git-commit: 9c8c201d4bb57f3594ca907c20e5985746b423f0
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 82%
 
 ---
 
@@ -30,6 +30,12 @@ Todas las compañías que proporcionaban una integración tenían la opción de 
 
 Para obtener más información o asistencia, póngase en contacto con el Servicio de atención al cliente de Adobe.
 
+## Excepción: Adobe Campaign Classic
+
+La excepción ONE a la fecha del 1 de agosto de 2021 es la integración de Adobe Campaign Classic. Esta integración quedará obsoleta oficialmente el 1 de marzo de 2022.
+
+El 1 de agosto de 2021, Adobe Campaign Classic se eliminará de la interfaz de usuario de Data Connectors junto con todas las demás integraciones; sin embargo, las integraciones de Campaign existentes seguirán recopilando y pasando datos a Adobe Analytics hasta el 1 de marzo de 2022. El 1 de marzo de 2022, la integración dejará de recopilar y pasar datos a Adobe Analytics. Adobe Campaign está creando una nueva integración en el intercambio de Adobes para reemplazar la integración actual de Data Connectors. Adobe Campaign prevé finalizar esta nueva integración a tiempo para que los clientes puedan migrar a la nueva integración antes de la fecha de desaprobación de marzo de 2022.
+
 ## Estado del socio de Data Connector
 
 | Socio | Estado |
@@ -37,7 +43,7 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | Acxiom | Desaprobación |
 | Adform | Desaprobación |
 | Ajustar | Migración a Adobe Exchange |
-| Adobe Campaign | Migración a Adobe Exchange |
+| Adobe Campaign | Migración a Adobe Exchange (véase la nota anterior) |
 | Appfigures | Migración a Adobe Exchange |
 | Appsee | Desaprobación |
 | AppsFlyer | Migración a Adobe Exchange |
