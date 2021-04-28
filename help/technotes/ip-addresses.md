@@ -1,14 +1,14 @@
 ---
 title: IP y dominios utilizados por Adobe Analytics
 description: Si el cortafuegos de su organización bloquea las direcciones IP que se originan en Adobe, utilice esta lista para actualizar la configuración del cortafuegos.
+exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 translation-type: tm+mt
-source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
+source-git-commit: 8986b30ca08224e2b992e8ed238e74e40e9a7b41
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 86%
 
 ---
-
 
 # IP y dominios utilizados por Adobe Analytics
 
@@ -33,7 +33,7 @@ Adobe Analytics utiliza los siguientes hosts para mejorar el rendimiento y la ex
 | Almacenamiento de Microsoft Azure Blob | `awaascicdprodva7.blob.core.windows.net` |
 | CDN de Microsoft Azure | `aauicdnva7.azureedge.net` |
 
-## Todos los bloques de direcciones IP de Adobe Analytics
+## Todos los bloques de direcciones IP de recopilación de datos de Adobe Analytics
 
 La siguiente tabla abarca todos los servidores de recopilación de datos estándar y los servidores de recopilación de datos regionales para Adobe Analytics. No incluyen hosts de AWS individuales.
 
@@ -89,14 +89,14 @@ Si su organización prefiere permitir intervalos específicos de direcciones IP,
 | Singapur | `172.82.246.0/23` |
 | Singapur | `172.82.248.0/21` |
 | San Jose | `66.117.20.0/24` |
-| San Jose | `66.235.132.0/22` |
-| San Jose | `130.248.128.0/22` |
-| San Jose | `192.243.248.0/23` |
-| San Jose | `172.82.200.0/22` |
-| San Jose | `66.235.136.0/22` |
-| San Jose | `208.91.175.0/24` |
-| San Jose | `208.91.174.0/24` |
-| San Jose | `208.91.169.0/24` |
+| San José | `66.235.132.0/22` |
+| San José | `130.248.128.0/22` |
+| San José | `192.243.248.0/23` |
+| San José | `172.82.200.0/22` |
+| San José | `66.235.136.0/22` |
+| San José | `208.91.175.0/24` |
+| San José | `208.91.174.0/24` |
+| San José | `208.91.169.0/24` |
 | Sídney | `216.104.216.0/23` |
 | Tokio | `66.235.159.0/24` |
 | Tokio | `66.117.21.0/24` |
@@ -113,7 +113,7 @@ Si su organización prefiere permitir intervalos específicos de direcciones IP,
 
 ## Hosts de AWS
 
-Adobe Analytics utiliza Amazon Web Services como parte de su proceso de recopilación de datos. La siguiente tabla incluye hosts de AWS reservados para Adobe. Estos hosts **no** están incluidos en el intervalo de bloques acumulado anterior.
+Adobe Analytics utiliza los servicios web de Amazon como parte de su proceso de recopilación de datos. La siguiente tabla incluye hosts de AWS reservados para Adobe. Estos hosts **no** están incluidos en el intervalo de bloques acumulado anterior.
 
 | Ubicación | Host |
 | --- | --- |
