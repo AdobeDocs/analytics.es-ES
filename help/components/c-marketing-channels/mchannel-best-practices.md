@@ -2,7 +2,7 @@
 title: Prácticas recomendadas para implementar Canales de marketing de Adobe Analytics
 description: Prácticas recomendadas actualizadas para usar canales de marketing con Attribution IQ y Customer Journey Analytics
 translation-type: tm+mt
-source-git-commit: 5422a051be1c55f394cf3f7fc5bb4f8822a7fb90
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# Usar la Attribution IQ con canales de marketing: prácticas recomendadas
+# Attribution IQ con canales de marketing: prácticas recomendadas
 
 [Los ](/help/components/c-marketing-channels/c-getting-started-mchannel.md) canales de marketing son una valiosa y potente función de Adobe Analytics. Las directrices actuales relativas a la implementación del canal de marketing se formularon en un momento en que no existía ni [Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) ni [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=es#cja-usecases).
 
@@ -38,6 +38,6 @@ Los modelos de atribución personalizados utilizados con la dimensión Canal de 
 
 Si establece el periodo de compromiso del visitante como mínimo en &quot;1 día&quot;, se minimiza la probabilidad de que persistan los valores. Debido a que los modelos de atribución personalizados (AIQ) permiten ventanas retroactivas flexibles, recomendamos configurar el valor mínimo para minimizar el impacto de esta configuración.
 
-## Práctica recomendada n.º 5: Las reglas de procesamiento de los canales de marketing solo existen para los canales habilitados
+## Práctica recomendada n.º 5: Las reglas de procesamiento de los canales de marketing solo deben existir para los canales habilitados
 
 Asegúrese de eliminar las reglas de procesamiento de canal de mercadotecnia de los canales desactivados. Las reglas solo deben existir para los canales de marketing que están marcados como habilitados.
