@@ -3,14 +3,18 @@ title: Reglas de procesamiento de canales de marketing
 description: Las reglas de procesamiento de canales de marketing averiguan si el visitante que entra cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 89%
+source-wordcount: '2169'
+ht-degree: 88%
 
 ---
 
 # Reglas de procesamiento de canales de marketing
+
+>[!NOTE]
+>
+>Para maximizar la eficacia de los canales de marketing para Attribution IQ y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Las reglas de procesamiento de canales de marketing averiguan si el visitante que entra cumple los criterios asignados a un canal al procesar cada entrada del visitante en su sitio. Las reglas se procesan en el orden en el que las especifique y, cuando se cumple una regla, se detiene el procesamiento de las demás.
 
