@@ -1,14 +1,14 @@
 ---
 title: Reglas de procesamiento de canales de marketing
 description: Las reglas de procesamiento de canales de marketing averiguan si el visitante que entra cumple los criterios asignados a un canal. Las reglas procesan cada visita que realizan los usuarios a su sitio web. Cuando una regla no cumple los criterios de un canal, o si las reglas no están configuradas correctamente, el sistema asigna la visita a No se ha identificado el canal.
+exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 90%
+source-wordcount: '2149'
+ht-degree: 89%
 
 ---
-
 
 # Reglas de procesamiento de canales de marketing
 
@@ -17,7 +17,8 @@ Las reglas de procesamiento de canales de marketing averiguan si el visitante qu
 ![](assets/buckets_2.png)
 
 Notas adicionales sobre el procesamiento:
-* Los datos recopilados con estas reglas son 100 % permanentes y las reglas alteradas tras la colección de datos no son retroactivas. Es muy importante revisar y tener en cuenta todas las circunstancias antes de guardar [!UICONTROL reglas de procesamiento de canales de marketing] a fin de evitar que los datos se recopilen en los canales equivocados.
+
+* Los datos recopilados con estas reglas son 100 % permanentes y las reglas alteradas tras la colección de datos no son retroactivas. Le recomendamos encarecidamente que revise y tenga en cuenta todas las circunstancias antes de guardar [!UICONTROL Reglas de procesamiento de canal de marketing] para evitar que los datos se recopilen en los canales incorrectos.
 * El informe puede procesar hasta 25 canales al mismo tiempo.
 * Las reglas pueden acceder a las variables que ha establecido VISTA, pero no pueden acceder a los datos que VISTA ha eliminado.
 * Dos canales de marketing nunca reciben crédito por el mismo evento (por ejemplo, compras o clics). En este sentido, los canales de marketing difieren de las eVars (ya que dos eVars pueden recibir crédito por el mismo evento).
@@ -27,6 +28,7 @@ Notas adicionales sobre el procesamiento:
 
 * Consulte la información conceptual de [Introducción a los Canales de marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 * Cree uno o más canales para poder asignarles reglas. Consulte [Agregar canales de marketing.](/help/components/c-marketing-channels/c-channels.md)
+* Revise las prácticas recomendadas para utilizar [!UICONTROL Canales de marketing] con [!UICONTROL Attribution IQ].
 
 ## Creación de reglas de procesamiento para los canales de marketing
 
