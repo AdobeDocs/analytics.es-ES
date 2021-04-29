@@ -1,16 +1,20 @@
 ---
 title: Introducción a los canales de marketing
 description: Obtenga información sobre el flujo de trabajo de Canales de marketing, la configuración automática y cómo aplicar la configuración del grupo de informes de plantilla a varios grupos de informes.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '794'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+workflow-type: tm+mt
+source-wordcount: '814'
+ht-degree: 97%
 
 ---
 
 
 # Introducción a los canales de marketing
+
+>[!NOTE]
+>
+>Para maximizar la eficacia de los canales de marketing para Attribution IQ y Customer Journey Analytics, hemos publicado algunas [prácticas recomendadas revisadas](/help/components/c-marketing-channels/mchannel-best-practices.md).
 
 Los canales de marketing se utilizan habitualmente para saber cómo llegan los visitantes al sitio. Se pueden personalizar reglas de procesamiento de canal de marketing en función de los canales que quiera rastrear y de cómo desea hacerlo.
 
