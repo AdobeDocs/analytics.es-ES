@@ -1,14 +1,14 @@
 ---
 title: Analizar Canales de marketing
 description: Obtenga información sobre cómo utilizar las dimensiones de Canales de marketing en Workspace.
+exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 94%
+source-wordcount: '394'
+ht-degree: 85%
 
 ---
-
 
 # Analizar Canales de marketing
 
@@ -17,12 +17,12 @@ Quizá quiera saber cuál de sus canales de marketing es el más efectivo y con 
 ![](assets/mc-dims.png)
 
 | Dimensión/Métrica | Definición |
-|---|---|
+| --- | --- |
 | Canal de marketing | Esta es la dimensión de Canales de marketing que se recomienda utilizar. Los modelos de Attribution IQ se pueden aplicar en tiempo de ejecución. Esta dimensión se comporta de forma idéntica a la dimensión del canal de último contacto, pero tiene una etiqueta diferente para evitar confusiones al usarla con un modelo de atribución distinto. |
 | Canal de último contacto | Dimensión heredada, con modelo de atribución de último contacto preaplicado e inmodificable. |
 | Canal de primer contacto | Dimensión heredada, con modelo de atribución de primer contacto preaplicado e inmodificable. |
 | Instancias de Canal de marketing | Esta métrica mide el número de veces que se definió un canal de marketing en una solicitud de imagen, incluidas las vistas de página estándar y las llamadas de vínculo personalizado. No incluye valores persistentes. |
-| Nuevos compromisos | Esta métrica es similar a Instancias, pero solo se incrementa cuando el canal de marketing de primer contacto se define en una solicitud de imagen. |
+| Nuevos compromisos | Esta métrica es similar a Instancias, pero solo se incrementa cuando el canal de marketing de primer toque se define en una solicitud de imagen. |
 
 ## Análisis básico
 
@@ -54,8 +54,8 @@ Observe cómo la misma métrica (Pedidos en línea) genera resultados diferentes
 
 ## Análisis de marketing entre fichas
 
-Con el Canal de primer contacto heredado y el Canal de último contacto, puede obtener una vista útil en las interacciones de canal:
+Con el Canal de primer toque heredado y el Canal de último toque, puede obtener una vista útil de las interacciones de canal:
 
 ![](assets/mc-viz6.png)
 
-Obtenga más información sobre la análisis de marketing entre fichas en este vídeo: [Uso de la Análisis entre fichas para explorar la atribución básica de marketing en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
+Obtenga más información sobre el análisis de marketing entre pestañas en este vídeo: [Uso del análisis entre pestañas para explorar la atribución de marketing básica en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html).
