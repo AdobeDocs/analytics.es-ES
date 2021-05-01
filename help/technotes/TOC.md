@@ -5,10 +5,10 @@ user-guide-title: Notas técnicas de Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Una base de conocimientos que contiene artículos útiles que no pertenecen a una herramienta o componente de análisis específico.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 90%
+source-wordcount: '190'
+ht-degree: 86%
 
 ---
 
@@ -38,13 +38,15 @@ ht-degree: 90%
    + [Comparar fechas con intervalos anteriores](event/compare-dates.md)
    + [Derivar datos afectados por eventos](event/calcmetrics.md)
    + [Comunicar eventos a los usuarios](event/communicate.md)
-+ [Cookies del explorador](cookies.md)
++ [Cookies] {#cookies}
+   + [Cookies del explorador](cookies/cookies.md)
+   + [Opciones para mitigar el efecto de las limitaciones de cookies del explorador](cookies/cookieless.md)
 + [Retención de datos](data-retention.md)
 + [Excluir datos](exclude-data.md)
 + [IP y dominios utilizados por Adobe Analytics](ip-addresses.md)
 + [Latencia](latency.md)
 + [Valor de poco tráfico](low-traffic.md)
-+ [Migración de reglas de procesamiento de Mobile Services a Adobe Analytics](migrate-mobile.md)
++ [Migración de las reglas de procesamiento de Mobile Services a Adobe Analytics](migrate-mobile.md)
 + [Compatibilidad con múltiples monedas](multicurrency.md)
 + [Resumen de privacidad](privacy-overview.md)
 + [Redirecciones y alias](redirects.md)
