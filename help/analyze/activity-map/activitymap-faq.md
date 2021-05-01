@@ -4,14 +4,14 @@ title: Preguntas frecuentes sobre Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: Business Practitioner, Administrator
+exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 25%
+source-wordcount: '655'
+ht-degree: 19%
 
 ---
-
 
 # Preguntas frecuentes sobre Activity Map
 
@@ -20,6 +20,15 @@ Preguntas frecuentes sobre la instalación, configuración y utilización de las
 ## ¿Todos los clientes de Analytics tienen acceso a la página de habilitación de Activity Map de las herramientas de administración?
 
 Las organizaciones con un contrato para Adobe Analytics Standard, Premium y Ultimate tienen acceso a Activity Map.
+
+## ¿Cómo es compatible Activity Map con las aplicaciones de una sola página (SPA)?
+
+Cada pocos segundos, el Activity Map analiza la página web en busca de cambios en la página. Activity Map encuentra contenido nuevo en la página sin necesidad de cargar una página nueva, pero este contenido nuevo siempre se atribuye al primer nombre de página que se encuentra cuando se carga la página.
+
+* El Activity Map comprueba si la visibilidad de los vínculos de los que conoce ha cambiado. Si se encuentra un cambio en la visibilidad, la columna Vínculos en la página Presente de la tabla para ese vínculo se actualiza con [!UICONTROL Mostrado] o [!UICONTROL Oculto].
+
+* Cuando la interacción del usuario crea contenido nuevo, cualquier elemento nuevo que AppMeasurement encuentre como vínculo se agregará a la tabla [!UICONTROL Vínculos en la página]. El Activity Map envía una nueva solicitud de datos que incluye estos nuevos vínculos. Los nuevos vínculos deben aparecer en la tabla [!UICONTROL Vínculos en la página] cuando la interfaz de usuario gestione la solicitud de datos.
+
 
 ## ¿Proporciona el Activity Map datos sobre &quot;vistas&quot;?
 
