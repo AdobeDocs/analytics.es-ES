@@ -3,10 +3,10 @@ title: Preguntas más frecuentes sobre análisis entre dispositivos
 description: Preguntas más frecuentes sobre el análisis entre dispositivos
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
+source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 81%
+source-wordcount: '1674'
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ Adobe calcula ambos identificadores en el momento de ejecutar el informe, tambi�
 
 ## ¿Cómo puedo pasar del gráfico del dispositivo a la vinculación basada en el campo o viceversa?
 
-Si desea cambiar los métodos de identificación de CDA, póngase en contacto con el administrador de cuentas de su organización. El administrador de cuentas puede aprovisionar al grupo de informes según el método que desee para identificar a las personas. *Se pierden los datos históricos vinculados del método anterior.*
+El cambio del gráfico del dispositivo a la vinculación basada en el campo o viceversa se puede solicitar a través del Servicio de atención al cliente. Sin embargo, hacer este cambio puede tardar un par de semanas o más en completarse y se pierden *datos históricos vinculados del método anterior.*
 
 ## ¿Cómo gestiona Adobe los límites únicos para un eVar utilizado en la vinculación basada en el campo?
 
