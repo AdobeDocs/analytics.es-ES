@@ -1,30 +1,30 @@
 ---
 description: Cuando un informe contiene una gran cantidad de valores únicos, una funcionalidad incluida en Adobe permite asegurar que los valores más importantes aparezcan en el informe.
 title: Valor de poco tráfico en Adobe Analytics
-feature: Metrics
+feature: Métricas
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 482dcc04b7d68c6a555d318d8493c309e5899ae1
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 94%
+source-wordcount: '485'
+ht-degree: 79%
 
 ---
 
 # Valor de poco tráfico en Adobe Analytics
 
-Cuando un informe contiene una gran cantidad de valores únicos, una funcionalidad incluida en Adobe permite asegurar que los valores más importantes aparezcan en el informe. Los valores de variables únicas recopilados después de aproximadamente 500 000 valores existentes se enumeran con un elemento de línea titulado **(Poco tráfico)**.
+Cuando un informe tiene muchos valores únicos, Adobe proporciona funcionalidad para garantizar que los valores más importantes aparezcan en el informe. Los valores de variables únicas recopilados después de aproximadamente 500 000 valores existentes se enumeran con un elemento de línea titulado **(Poco tráfico)**.
 
 ## Funcionamiento de poco tráfico
 
 * La creación de informes no se ve afectada si la variable no alcanza los 500 000 valores únicos en un mes determinado.
 * Cuando una variable alcanza el primer umbral de 500 000, los datos comienzan a agruparse en bloques de poco tráfico. Todos los valores que superan este umbral se rigen por la siguiente lógica:
    * Si un valor ya figura en los informes, agréguelo como de costumbre.
-   * Si un valor todavía no está en los informes, compruebe si ese valor se ha visto más de unas diez veces en la fecha actual. En caso afirmativo, agregue este valor al sistema de informes. Si no se ha contabilizado más de diez veces aproximadamente, déjelo clasificado como poco tráfico.
+   * Si un valor aún no está en los informes, los umbrales de &quot;valores numéricos vistos&quot; dependen de las configuraciones del servidor. No constituyen &quot;10&quot; o &quot;100&quot; veces precisas.
 * Si un grupo de informes alcanza más de 1 000 000 de valores únicos, se aplica un filtrado más intenso:
    * Si un valor ya figura en los informes, agréguelo como de costumbre.
-   * Si un valor todavía no está en los informes, compruebe si se ha visto más de unas cien veces en la fecha actual. En caso afirmativo, agregue este valor al sistema de informes. En caso negativo, déjelo clasificado como poco tráfico.
+   * Si un valor aún no está en los informes, los umbrales de &quot;valores numéricos vistos&quot; dependen de las configuraciones del servidor. No constituyen &quot;10&quot; o &quot;100&quot; veces precisas.
 
 >[!NOTE]
 >
