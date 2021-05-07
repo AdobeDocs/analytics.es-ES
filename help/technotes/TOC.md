@@ -5,10 +5,10 @@ user-guide-title: Notas técnicas de Analytics
 breadcrumb-title: Notas técnicas
 user-guide-description: Una base de conocimientos que contiene artículos útiles que no pertenecen a una herramienta o componente de análisis específico.
 translation-type: tm+mt
-source-git-commit: ebed6c96d82a5a93e53e015f1e89431d2d8abae4
+source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 86%
+source-wordcount: '193'
+ht-degree: 84%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 86%
    + [Comparar fechas con intervalos anteriores](event/compare-dates.md)
    + [Derivar datos afectados por eventos](event/calcmetrics.md)
    + [Comunicar eventos a los usuarios](event/communicate.md)
+   + [Suavizado de datos inteligente](event/intelligent-data-smoothing.md)
 + Cookies {#cookies}
    + [Cookies del explorador](cookies/cookies.md)
    + [Opciones para mitigar el efecto de las limitaciones de cookies del explorador](cookies/cookieless.md)
