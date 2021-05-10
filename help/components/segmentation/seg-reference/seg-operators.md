@@ -1,30 +1,29 @@
 ---
 description: El Generador de segmentos le permite comparar y restringir valores utilizando los operadores seleccionados.
 title: Operadores de comparación para segmentos
-feature: Segmentation
+feature: Segmentación
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 99%
 
 ---
 
 # Operadores de comparación para segmentos
 
-El Generador de segmentos le permite comparar y restringir valores utilizando los operadores seleccionados.
-
-Existen tres categorías de operadores: Estándar, Data Warehouse y Recuento específico.
+El Generador de segmentos le permite comparar y restringir valores utilizando los operadores seleccionados. Existen tres categorías de operadores: Estándar, Data Warehouse y Recuento específico.
 
 El único carácter comodín admitido es el asterisco: *. Si necesita buscar *, puede especificarlo con una barra invertida.
 
 **Ejemplo**: Imaginemos que tiene una página denominada “Mi excelente producto”. La regla de segmento &quot;El nombre de página coincide con Mi*producto&quot; coincidirá con el nombre de página anterior. Sin embargo, la regla &quot;El nombre de página coincide con Mi\\*producto&quot; coincide únicamente con el nombre de página &quot;Mi*producto&quot;.
 
+## Operadores estándar
+
 | Operador | La dimensión, segmento o evento de métrica seleccionado... |
 |--- |--- |
-| **Estándar** |  |
 | es igual que | Devuelve elementos que coinciden exactamente con un valor numérico o de cadena. Nota: Si utiliza caracteres comodín, utilice el operador &quot;coincidencias&quot;. |
 | no es igual | Devuelve todos los elementos que no contienen la coincidencia exacta del valor introducido.  Nota: Si utiliza caracteres comodín, utilice el operador &quot;no coincide con&quot;. |
 | es igual a cualquiera | Devuelve elementos que coinciden exactamente con cualquier valor del campo de entrada (hasta 500 elementos). Por ejemplo, si se introduce “Resultados de búsqueda, Página principal” con este operador, coincidirá con “Resultados de búsqueda” y “Página principal”, y se contará como 2 elementos. El campo de entrada para este operador está delimitado por comas. |
@@ -43,12 +42,22 @@ El único carácter comodín admitido es el asterisco: *. Si necesita buscar *, 
 | no coincide | Devuelve todos los elementos que no contienen la coincidencia exacta del valor introducido. Nota: Utilice este operador al utilizar características de comodín (globalización). |
 | existe | Devuelve el número de elementos que existen. Por ejemplo, si evalúa la dimensión de páginas no encontradas con el operador &quot;existe&quot;, se devuelve el número de páginas con error que existen. |
 | no existe | Devuelve todos los elementos que no existen. Por ejemplo, si evalúa la dimensión de páginas no encontradas con el operador &quot;no existe&quot;, se devuelve el número de páginas donde no existió esta página con error. |
-| **Data Warehouse** |  |
+
+## operadores de Data Warehouse
+
+| Operador | La dimensión, segmento o evento de métrica seleccionado... |
+| --- | --- |
 | es menor que | Devuelve elementos cuyo recuento numérico sea menor que el valor introducido. |
 | es menor o igual que | Devuelve elementos cuyo recuento numérico sea menor o igual que el valor introducido. |
 | es mayor que | Devuelve elementos cuyo recuento numérico sea mayor que el valor introducido. |
 | es mayor o igual que | Devuelve elementos cuyo recuento numérico sea mayor o igual que el valor introducido. |
-| **Recuento distinto** | Puede segmentar un recuento distinto de elementos dentro de una dimensión. Por ejemplo: “Visitantes que vieron más de 5 productos diferentes” o “Visitas donde se vieron más de 5 páginas diferentes”. |
+
+## Operadores de recuento distinto
+
+Puede segmentar un recuento distinto de elementos dentro de una dimensión. Por ejemplo: “Visitantes que vieron más de 5 productos diferentes” o “Visitas donde se vieron más de 5 páginas diferentes”.
+
+| Operador | La dimensión, segmento o evento de métrica seleccionado... |
+| --- | --- |
 | es igual que | Devuelve elementos de dimensión cuya cantidad única es igual al valor introducido. |
 | no es igual | Devuelve elementos de dimensión cuya cantidad única no es igual al valor introducido. |
 | es mayor que | Devuelve elementos de dimensión cuya cantidad única sea mayor que el valor introducido. |
