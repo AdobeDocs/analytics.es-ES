@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 45%
+source-wordcount: '513'
+ht-degree: 43%
 
 ---
 
@@ -43,10 +43,14 @@ Si se produce un evento de clic en un elemento, este tiene que pasar algunas com
 * ¿Es `BUTTON`?
 
 Si la respuesta a alguna de estas preguntas es Sí, el elemento se trata como vínculo y se le realiza un seguimiento.
- 
-Importante: AppMeasurement no considera las etiquetas Button con el atributo type=&quot;button&quot; como vínculos. Considere la posibilidad de quitar type=&quot;button&quot; de las etiquetas Button y agregar en su lugar role=&quot;button&quot; o submit=&quot;button&quot;.
- 
-Importante: AppMeasurement considera que una etiqueta de anclaje con un &quot;href&quot; que empiece por &quot;#&quot; es una ubicación de destino interna, no un vínculo (ya que no abandona la página). De forma predeterminada, Activity Map no realiza el seguimiento de estas ubicaciones de destino internas. Rastrea únicamente los vínculos que conducen al usuario a una nueva página.
+
+>[!IMPORTANT]
+>
+>AppMeasurement no considera las etiquetas Button con el atributo type=&quot;button&quot; como vínculos. Considere la posibilidad de quitar type=&quot;button&quot; de las etiquetas Button y agregar en su lugar role=&quot;button&quot; o submit=&quot;button&quot;.
+
+>[!IMPORTANT]
+>
+>AppMeasurement considera una etiqueta de anclaje con un &quot;href&quot; que comienza con &quot;#&quot; una ubicación de destino interna, no un vínculo (ya que no abandona la página). De forma predeterminada, Activity Map no realiza el seguimiento de estas ubicaciones de destino internas. Rastrea únicamente los vínculos que conducen al usuario a una nueva página.
 
 ## ¿Cómo realiza Activity Map el seguimiento de otros elementos HTML visuales?
 
@@ -55,7 +59,6 @@ a. Mediante la función `s.tl()`.
 Si el clic se produjo a través de una invocación `s.tl()` , el Activity Map también recibirá este evento de clic y determinará si se encontró una variable de cadena `linkName`. Durante la ejecución de `s.tl()`, linkName se establecerá como ID de vínculo del Activity Map. El elemento en el que se hizo clic y que originó la llamada `s.tl()` se utilizará para determinar la región. Ejemplo:
 
 ```
-    
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
@@ -70,7 +73,9 @@ b. Mediante la variable `s_objectID` . Ejemplo:
     
     &quot;
 
-Importante:  Tenga en cuenta que se requiere un punto y coma de cierre (;) al usar `s_objectID` en el Activity Map.
+>[!IMPORTANT]
+>
+>Se requiere un punto y coma de cierre (;) al utilizar `s_objectID` en el Activity Map.
 
 ## ¿Pueden dar ejemplos de vínculos de los que se realizará un seguimiento?
 
