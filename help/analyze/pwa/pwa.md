@@ -4,10 +4,10 @@ description: Aplicaciones web progresivas para Adobe Analytics
 role: Business Practitioner, Administrator
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 3f3a9b7f81ce671a94b7fe71c3ef7e4ae206b875
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 78%
+source-wordcount: '277'
+ht-degree: 82%
 
 ---
 
@@ -46,8 +46,6 @@ s.linkTrackEvents="None"
 s.trackOffline=true
 *** 
 ```
-
-Para obtener más información sobre la edición del archivo AppMeasurement.js, consulte [Insertar código principal de AppMeasurement](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md).
 
 Para obtener más información sobre la configuración del archivo AppMeasurement.js, consulte [Información general sobre las variables de configuración](/help/implement/vars/config-vars/configuration-variables.md) y las páginas específicas de las variables individuales en el mismo subcapítulo.
 
