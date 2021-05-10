@@ -1,23 +1,23 @@
 ---
-description: Explica las mejoras en el reenvío del lado del servidor que fueron solicitadas por la normativa de conformidad de cookies de la UE.
+description: Explica las mejoras en el reenvío del lado del servidor que se han debido a la normativa de cumplimiento de cookies de la UE.
 title: Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 91%
+source-wordcount: '539'
+ht-degree: 90%
 
 ---
 
-
 # Cumplimiento de la privacidad en línea y del RGPD y reenvío del lado del servidor
 
-Esta sección explica las mejoras en el reenvío del lado del servidor que fueron solicitadas por la [normativa de conformidad con cookies de la UE](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), que entró en vigor el 30 de septiembre de 2017.
+En esta sección se explican las mejoras en el reenvío del lado del servidor que se debieron a la [normativa de cumplimiento de cookies de la UE](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm), que entró en vigor el 30 de septiembre de 2017.
 
 El reenvío del lado del servidor se utiliza para compartir en tiempo real datos de Adobe Analytics con otras soluciones de [!DNL Experience Cloud Solutions], como Audience Manager. Cuando está habilitado, el reenvío del lado del servidor también permite a Analytics enviar datos automáticamente a otras soluciones de Experience Cloud. Asimismo, también permite a estas soluciones enviar datos automáticamente a Analytics durante el proceso de recopilación de datos.
 
-Anteriormente, el reenvío del lado del servidor no tenía una manera de delinear entre el consentimiento y los eventos/visitas previas al consentimiento. Desde el 1 de noviembre de 2018, usted, como responsable del tratamiento de datos (cliente de Adobe Analytics), tiene la opción de restringir datos preconsentidos a Adobe Analytics e impedir que se reenvíen a AAM. Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que dichas visitas se envíen a AAM hasta haber recibido el consentimiento.
+Anteriormente, el reenvío del lado del servidor no tenía una forma de delimitar entre eventos/visitas de consentimiento y previos al consentimiento. Desde el 1 de noviembre de 2018, usted, como responsable del tratamiento de datos (cliente de Adobe Analytics), tiene la opción de restringir datos preconsentidos a Adobe Analytics e impedir que se reenvíen a AAM. Una nueva variable de contexto de implementación le permite marcar las visitas en las que no se recibió consentimiento. Cuando esta variable está establecida, impide que dichas visitas se envíen a AAM hasta haber recibido el consentimiento.
 
 Si esta nueva variable contextual, `cm.ssf=1`, existe en una visita, esta se marca y no se incluye en el reenvío del lado del servidor a AAM. Por el contrario, si esta cadena no aparece en una visita, se reenvía a AAM.
 
@@ -30,7 +30,6 @@ Siga los pasos indicados en función del método de implementación.
 | Método de implementación | Pasos |
 |--- |--- |
 | Adobe Experience Platform Launch | Si tiene instalada la extensión Adobe Analytics, agregue la siguiente definición de variable de datos de contexto al editor de código personalizado dentro de la configuración de acción de una regla: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> Nota:  Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing segmentado. Establezca la variable `contextdata` en *0* para los clientes que consientan el marketing segmentado. |
-| DTM | Agregue la definición de la variable de datos contextuales al editor de código de página personalizado: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota: Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing dirigido. Establezca la variable de datos contextuales en 0 para los clientes que sí consientan el marketing dirigido. |
 | AppMeasurement | Agregue la definición de la variable de datos contextuales al archivo AppMeasurement.js:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota: Defina la variable de datos contextuales y establézcala en 1 si un cliente no da su consentimiento para el marketing dirigido. Establezca la variable de datos contextuales en 0 para los clientes que sí consientan el marketing dirigido. |
 
 ## Elaboración de informes (opcional) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
@@ -48,4 +47,3 @@ Para configurar este tipo de informes, asigne la nueva variable contextual a una
    1. Haga clic en **[!UICONTROL Agregar regla]**.
    1. En **[!UICONTROL Ejecutar siempre]**, sobrescriba el valor del elemento prop que ha activado por la variable de contexto “cm.ssf(Context Data)”.
    1. Haga clic en **[!UICONTROL Guardar]**.
-
