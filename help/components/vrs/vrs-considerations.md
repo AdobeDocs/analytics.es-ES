@@ -2,13 +2,13 @@
 description: Los grupos de informes virtuales y el etiquetado de grupos múltiples tienen diferentes ventajas. Aprenda cuál es la mejor opción para su organización.
 keywords: Grupo de informes virtuales,VRS
 title: Grupos de informes virtuales y consideraciones sobre el etiquetado de grupos múltiples
-feature: Report Suite Settings
+feature: Configuración del grupo de informes
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1712'
 ht-degree: 99%
 
 ---
@@ -101,7 +101,6 @@ Si opta por eliminar llamadas secundarias al servidor en favor de los grupos de 
    * Utilice contenedores de visita si desea que los grupos de informes virtuales sean más excluyentes de manera mutua.
 2. Después de confirmar que los grupos de informes virtuales están correctamente configurados, elimine los ID del grupo de informes secundario de la implementación. Para eliminar los grupos de informes secundarios:
    * En Adobe Experience Platform Launch, haga clic en la “x” junto a los grupos de informes que ya no desee utilizar.
-   * En DTM, ubique la propiedad y la herramienta de Analytics. En los campos ID de cuenta de producción e ID de cuenta provisional, elimine los ID de los grupos de informes que ya no desee utilizar.
    * En implementaciones de JavaScript antiguas, ubique la variable `s.account` y elimine todos los ID de los grupos de informes que ya no desee usar.
    * En todos los casos, deje solo el ID del grupo de informes global/principal para recopilar datos para sus sitios y aplicaciones.
    * Vaya a Administración > Grupos de informes y oculte los grupos de informes secundarios que ya no se utilicen.
