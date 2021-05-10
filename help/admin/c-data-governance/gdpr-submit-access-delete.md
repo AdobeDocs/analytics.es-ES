@@ -2,19 +2,16 @@
 description: Cómo enviar solicitudes de acceso y eliminación de datos en Adobe Analytics.
 title: Envío de solicitudes de acceso y eliminación
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
-translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
-source-wordcount: '1312'
-ht-degree: 100%
+exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '1307'
+ht-degree: 97%
 
 ---
 
-
 # Envío de solicitudes de acceso y eliminación
-
-
-## Información general {#section_BD70882995894C1CA19C205C49FEC23C}
 
 Si sus clientes (consumidores o interesados) desean saber qué datos almacena sobre ellos o deciden que desean que estos se eliminen de sus propiedades de Analytics, usted como responsable del tratamiento de datos debe encargarse de tratar dichas solicitudes. El responsable del tratamiento de datos determina cómo interactuará la organización con los interesados (por ejemplo, mediante un portal de usuario para ellos) y gestiona las interacciones con cada interesado. El responsable del tratamiento de datos también se encarga de cerrar el proceso con el interesado cuando se satisfaga la solicitud. Dicho de otro modo, Adobe Experience Cloud, como encargado del tratamiento de datos, no aceptará solicitudes directamente de interesados ni les devolverá datos directamente. Adobe recibirá solicitudes suyas y únicamente le devolverá datos a usted, el responsable del tratamiento de datos.
 
@@ -22,9 +19,9 @@ También debería garantizar que sus aplicaciones móviles y sitios web tengan a
 
 ## Gestión del consentimiento de los clientes {#section_3012015E7E8942519FB9279CF7057EAB}
 
-Usted, como responsable del tratamiento de datos, es el responsable de obtener un consentimiento explícito por parte de sus interesados antes de recopilar datos sobre los mismos (que posiblemente incluyan datos de Adobe Analytics) y de [implementar un mecanismo de desistimiento](https://docs.adobe.com/content/help/es-ES/dtm/using/tools/opt-in.html) en su sitio web. Esto permite que sus interesados queden excluidos de la recopilación de datos futura de Adobe Experience Cloud.
+Usted, como responsable del tratamiento de datos, es el responsable de obtener un consentimiento explícito por parte de sus interesados antes de recopilar datos sobre los mismos (que posiblemente incluyan datos de Adobe Analytics) y de implementar un [mecanismo de exclusión](https://www.adobe.com/es/privacy/opt-out.html#customeruse) en su sitio web. Esto permite que sus interesados queden excluidos de la recopilación de datos futura de Adobe Experience Cloud.
 
-## Validación de usuarios y sus datos {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## Validación de usuarios y sus datos  {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 Usted, como responsable del tratamiento de datos, se encarga de verificar que el interesado sea quien dice ser y que tenga derechos sobre los datos que solicita. Además, es su responsabilidad garantizar que se devuelvan los datos correctos al interesado y que no reciba por accidente datos de otros interesados.
 
@@ -32,7 +29,7 @@ Para ello, debe revisar los datos que devuelva Adobe Analytics como parte de una
 
 Cada archivo combina los datos de todos sus grupos de informes y se eliminan automáticamente las copias adicionales de las visitas replicadas. Puede decidir cuál de estos archivos quiere devolver al interesado. O puede extraer algunos de estos datos y combinarlos con datos de otros sistemas antes de devolvérselos al interesado.
 
-## Envío de solicitudes {#submit-requests}
+## Envío de solicitudes  {#submit-requests}
 
 Puede enviar y eliminar solicitudes de acceso a la privacidad de datos a través de nuestro [portal de interfaz de usuario de privacidad de datos](https://docs.adobe.com/content/help/es-ES/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) o a través de nuestra [API de privacidad de datos.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
@@ -40,7 +37,7 @@ Puede enviar y eliminar solicitudes de acceso a la privacidad de datos a través
 >
 >La API de privacidad de datos admite los envíos en lotes para varios usuarios en una única solicitud. El limite admitido actual es de 1000 usuarios independientes (pueden tener múltiples ID por usuario) en un único archivo JSON de solicitud.
 
-## Ejemplos de solicitudes de JSON {#sample-json-request}
+## Ejemplos de solicitudes de JSON  {#sample-json-request}
 
 A continuación tiene un JSON que podría enviarse mediante la API o la interfaz de privacidad de datos con el fin de solicitar el procesamiento de privacidad de datos para tres usuarios.
 
@@ -115,7 +112,7 @@ Tenga en cuenta que
 * Los campos “descripción” se ignoran.
 * Los campos “clave” pueden contener cualquier valor que desee. Si tiene un ID interno que utiliza para realizar el seguimiento de las solicitudes de privacidad de datos, puede introducir ese valor aquí para facilitar las solicitudes de coincidencia en el sistema de Adobe con los de sus propios sistemas.
 
-## Detalles de respuesta {#section_93F554F65DBB48A18B75EB5784056C96}
+## Detalles de respuesta  {#section_93F554F65DBB48A18B75EB5784056C96}
 
 Esta sección incluye detalles acerca de las respuestas de acceso y eliminación.
 
