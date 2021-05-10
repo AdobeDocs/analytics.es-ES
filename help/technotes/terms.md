@@ -1,14 +1,14 @@
 ---
 title: Términos utilizados en Adobe Analytics
 description: Glosario de Adobe Analytics que define los términos usados de forma frecuente
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '2458'
+exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '2433'
 ht-degree: 100%
 
 ---
-
 
 # Términos utilizados en Adobe Analytics
 
@@ -50,7 +50,6 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Fuentes de datos:** permiten a un usuario cargar los datos de un archivo a Adobe Analytics. Normalmente, el archivo se extrae de un sitio FTP. Consulte [Fuentes de datos](/help/import/c-data-sources/datasrc-home.md) en la guía de usuario sobre importación.
 * **Data Warehouse:** característica de Adobe Analytics que permite solicitar informes de mayor tamaño. Consulte [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) en la guía de usuario sobre exportación.
 * **Dimensión:** un tipo de componente que contiene valores variables, como texto. Algunos ejemplos son Nombre de página, Código de seguimiento o Dominio de referencia. Su homólogo suele ser una métrica.
-* **Dynamic Tag Management:** la anterior solución de administración de etiquetas de Adobe. Consulte [Información general sobre la implementación de DTM](/help/implement/other/dtm/dtm-implementation-overview.md) en la guía de usuario sobre implementación. Adobe recomienda usar Adobe Experience Platform Launch en su lugar.
 * **Serialización de eventos:** un proceso de aplicación de medidas para evitar la recopilación de eventos duplicados. Consulte [Serialización de eventos](../implement/vars/page-vars/events/event-serialization.md) en la guía de usuario sobre implementación.
 * **eVar:** Consulte Variable de conversión.
 * **Evento:** Consulte Evento de éxito.
@@ -107,7 +106,7 @@ Este glosario le ayudará a comprender el contexto de muchos de los términos qu
 * **Usuario admitido:** consulte Delegado de asistencia al cliente.
 * **Variable de tráfico:** Conocida coloquialmente como prop. Almacena un valor personalizado para una sola visita. Las versiones anteriores de Adobe Analytics daban a las props un valor único, pero las mejoras realizadas en la plataforma hacen que las variables de tráfico personalizadas sean prácticamente innecesarias. Adobe recomienda utilizar variables de conversión personalizadas (eVars) en la mayoría de los casos. Consulte la dimensión [Prop](/help/components/dimensions/prop.md) en la guía del usuario Componentes.
 * **Informe de tendencias:** formato de informe que generalmente muestra varios intervalos de fecha con una métrica. Este tipo de informe permite ver el rendimiento de una métrica a lo largo del tiempo. Consulte también Informe de clasificación.
-* **Visitante único**: representa el número de individuos únicos que visitaron el sitio. Un único visitante puede tener varias visitas. Consulte la métrica de [Visitantes únicos](/help/components/metrics/unique-visitors.md) en la guía del usuario Componentes.
+* **Visitante único**: representa el número de individuos únicos que visitaron el sitio. Un visitante único puede tener varias visitas. Consulte la métrica de [Visitantes únicos](/help/components/metrics/unique-visitors.md) en la guía del usuario Componentes.
 * **Grupo de informes virtual:** contenedor virtual de datos que hace referencia a un grupo de informes estándar y que permite refinar los datos. Los datos no se envían a un grupo de informes virtual; en su lugar, se envían a un grupo de informes estándar y se genera un grupo de informes virtual a partir de los datos recopilados. Consulte [Grupos de informes virtuales](/help/components/vrs/vrs-about.md) en la guía de usuario sobre componentes.
 * **Visita individual:** representa el número de sesiones únicas que se han producido en el sitio. Consulte la métrica [Visitas](/help/components/metrics/visits.md) en la guía del usuario Componentes.
 * **Regla VISTA:** lógica personalizada que crea Adobe a petición de un cliente para copiar, analizar o filtrar datos en el lado del servidor. Las reglas VISTA suelen implicar un desembolso adicional. Consulte también Reglas de procesamiento.
