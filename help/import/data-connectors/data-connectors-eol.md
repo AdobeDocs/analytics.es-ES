@@ -3,10 +3,10 @@ description: Descubra cuándo y por qué los conectores de datos de Analytics fi
 title: Anuncio previo al fin de vida útil para los conectores de datos de Analytics
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 82%
+source-wordcount: '648'
+ht-degree: 81%
 
 ---
 
@@ -82,7 +82,7 @@ Para obtener más información o asistencia, póngase en contacto con el Servici
 | MaritzCX (V 2.0) | Desaprobación |
 | Merkle | Desaprobación |
 | Integración oficial de Oracle Eloqua | Migración a Exchange |
-| optivo broadmail (Episerver) | Migración a Exchange |
+| optivo broadmail (Episerver) | Desaprobación |
 | Qualtrics v2 | Migración a Exchange |
 | Responsys 2.0 | Desaprobación |
 | Selligent | Desaprobación |
