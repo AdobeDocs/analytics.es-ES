@@ -18,8 +18,9 @@ ht-degree: 100%
 Las teclas de acceso directo (métodos abreviados de teclado) están disponibles en Analysis Workspace para ofrecer navegación, análisis, adición y visualización de paneles sin problemas, y democratización (uso compartido).
 
 Nota:
-* `Ctrl` = Windows y `Command` = Mac
-* `Alt` = Windows y `Option` = Mac
+
+* `Ctrl` = Windows y `Comando` = Mac
+* `Alt` = Windows y `Opción` = Mac
 
 ## Acciones de navegación
 
@@ -50,7 +51,7 @@ Nota:
 | Deshacer | Ctrl+Z |
 | Actualizar componentes | Alt+Mayús+R |
 | Actualizar proyecto | Alt+R |
-| Establecer como página de aterrizaje | Ctrl+Mayús+l |
+| Definir como página principal | Ctrl+Mayús+L |
 
 ## Añadir paneles y acciones de visualización
 
