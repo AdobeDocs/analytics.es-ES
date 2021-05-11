@@ -2,13 +2,13 @@
 description: Las reglas de clasificación buscan términos no clasificados de forma periódica. Cuando se encuentra una coincidencia de regla, las reglas agregan los términos automáticamente a las tablas de datos de clasificación. Las reglas de clasificación también permiten sobrescribir las claves existentes.
 subtopic: Classifications
 title: Reglas de clasificación
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
 workflow-type: tm+mt
-source-wordcount: '2020'
-ht-degree: 100%
+source-wordcount: '2030'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Las reglas de clasificación buscan términos no clasificados de forma periódic
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Clasificación del Generador de reglas]**
 
-El Generador de reglas permite crear una *`classification rule set`*, que es una lista de *`classification rules`*. La regla que coincida con los criterios especificados realizará una acción.
+El Generador de reglas permite crear un *conjunto de reglas de clasificación*, que es una lista de *reglas de clasificación*. La regla que coincida con los criterios especificados realizará una acción.
 
 Las reglas de clasificación resultan adecuadas para:
 
@@ -266,7 +266,7 @@ En este resultado, `a:b:1313` no indica una coincidencia.
 | `a{3,}` | 3 o más de a. |
 | `a{3,6}` | Entre 3 y 6 de a. |
 
-Se ofrece un buen recurso para probar la validez de las expresiones regulares en https://rubular.com/.
+Un buen recurso para probar la validez de las expresiones regulares es [https://rubular.com/](https://rubular.com/).
 
 ## Acerca de la prioridad de las reglas
 
@@ -294,7 +294,7 @@ Del mismo modo, supongamos que se configuran hasta dos reglas en un conjunto par
 
 | Número de regla | Tipo de regla | Coincidencias | Configurar clasificación | Hasta |
 |---|---|---|---|---|
-| 3 | Contiene | Cowboys | Ciudad | Dallas |
+| 1 | Contiene | Cowboys | Ciudad | Dallas |
 | 2 | Contiene | Broncos | Ciudad | Denver |
 
 Un usuario busca *`Cowboys vs. Broncos`*. Si el Generador de reglas encuentra un conflicto en la coincidencia de reglas, se aplicará a la búsqueda la clasificación de la segunda regla (Denver).
@@ -326,13 +326,15 @@ Para agregar nuevas reglas, debe establecerse la coincidencia entre una condici�
 
    >[!NOTE]
    >
-   >Los grupos de informes se muestran en esta página *`only`* cuando se cumplen las siguientes condiciones:
+   >Los grupos de informes se muestran en esta página *solo* cuando se cumplen las siguientes condiciones:
    >
    >* Los grupos de informes tienen como mínimo una clasificación definida para la variable en [!UICONTROL Herramientas de administración].
-   >
-   >   (Consulte *`Variable`* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
-   >
-   >* Ha seleccionado el grupo de informes en la página **[!UICONTROL Grupos de informes disponibles]**, que se muestra después de hacer clic en [Agregar conjunto de reglas](/help/components/classifications/crb/classification-rule-set.md) para crear el conjunto de reglas.
+      >
+      >   
+      (Consulte *Variable* en [Conjuntos de reglas de clasificación](/help/components/classifications/crb/classification-rule-set.md) para obtener una explicación sobre este requisito previo).
+      >
+      >
+   * Ha seleccionado el grupo de informes en la página **[!UICONTROL Grupos de informes disponibles]**, que se muestra después de hacer clic en [Agregar conjunto de reglas](/help/components/classifications/crb/classification-rule-set.md) para crear el conjunto de reglas.
 
 
 1. Especifique si desea sobrescribir los valores existentes:
@@ -405,7 +407,7 @@ Instrucciones sobre cómo validar y activar reglas de clasificación.
 
    ![](assets/overwrite_keys.png)
 
-1. (Opcional) Para sobrescribir clasificaciones, active **[!UICONTROL Sobrescriba las clasificaciones para]** *`<selection>`*.
+1. (Opcional) Para sobrescribir clasificaciones, habilite **[!UICONTROL Sobrescribir clasificaciones para]** &lt;*selección*>.
 
    Esta opción permite sobrescribir las clasificaciones existentes de las claves afectadas.
 
