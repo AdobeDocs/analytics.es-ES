@@ -2,14 +2,13 @@
 description: Los grupos de informes virtuales segmentan los datos de Adobe Analytics de modo que pueda controlar el acceso a cada segmento.
 title: Resumen de los grupos de informes virtuales
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '789'
-ht-degree: 100%
+exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
+source-git-commit: fb5de8ad4eee3e9017ab547823a7fa9132fa2457
+workflow-type: tm+mt
+source-wordcount: '790'
+ht-degree: 89%
 
 ---
-
 
 # Resumen de los grupos de informes virtuales
 
@@ -45,15 +44,15 @@ Los grupos de informes virtuales ayudan a:
 
 Los grupos de informes virtuales tienen las siguientes limitaciones :
 
-* Cualquier limitación de los segmentos se aplica a los grupos de informes virtuales
+* Cualquier limitación de segmentos también se aplica a los grupos de informes virtuales
 
-   Un grupo de informes virtuales no es más que un segmento aplicado a un grupo de informes. Como cada grupo de informes cuenta con su propio Data Warehouse y sus fuentes de datos, el uso de varios grupos de informes presenta algunas ventajas que los segmentos no ofrecen.
+   Un grupo de informes virtuales no es más que un segmento aplicado a un grupo de informes. Dado que cada grupo de informes tiene su propia Data Warehouse y su propia fuente de datos, el uso de varios grupos de informes ofrece algunas ventajas que los segmentos no proporcionan.
 * Informe en tiempo real
-* Los ajustes y los nombres de variables no se pueden personalizar como en un grupo de informes completo
+* La configuración y los nombres de variables no se pueden personalizar como en un grupo de informes completo
 
-## Grupos de informes virtuales o etiquetado multigrupo {#section_317E4D21CCD74BC38166D2F57D214F78}
+## Grupos de informes virtuales o etiquetado de grupos múltiples {#section_317E4D21CCD74BC38166D2F57D214F78}
 
-| Función | Grupo de informes virtuales | Etiquetado multigrupo |
+| Función | Grupo de informes virtuales | Etiquetado de grupos múltiples |
 |--- |--- |--- |
 | Ofrece informe en tiempo real o de datos actuales | No | Sí |
 | Funciona en todas las herramientas de Analytics (Analysis Workspace, Report Builder, etc.) | Sí. **Nota:** Solo puede editar e identificar los grupos de informes virtuales en Reports &amp; Analytics. Sin embargo, puede seleccionarlos en los menús desplegables del propio grupo de informes en las otras herramientas. | Sí |
@@ -62,8 +61,8 @@ Los grupos de informes virtuales tienen las siguientes limitaciones :
 | Se puede añadir individualmente a los grupos de permisos | Sí | Sí |
 | Se pueden utilizar funciones de administrador para modificar opciones de configuración individuales en este grupo de informes (Administración > Grupos de informes) | No (la configuración se hereda de un grupo superior) | Sí |
 
-## Combinación de grupos de informes virtuales y etiquetado multigrupo {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## Combinación de grupos de informes virtuales y etiquetado de grupos múltiples {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
-En algunos casos es conveniente utilizar tanto los grupos de informes virtuales como el etiquetado multigrupo.
+En algunos casos, el uso de grupos de informes virtuales y el etiquetado de grupos múltiples ofrece ventajas.
 
 Por ejemplo, una tienda minorista podría utilizar un grupo de informes para cada marca y, luego, grupos de informes virtuales para cada marca con el fin de dividir los datos por región. Igualmente, una organización deportiva podría utilizar un grupo de informes para cada equipo y, luego, grupos de informes virtuales para diferenciar entre los aficionados residentes en la región del equipo y todos los demás.
