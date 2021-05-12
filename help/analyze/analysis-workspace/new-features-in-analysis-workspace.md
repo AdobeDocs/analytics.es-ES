@@ -2,11 +2,10 @@
 description: Nuevas funciones de Analysis Workspace.
 keywords: Analysis Workspace
 title: Novedades en Analysis Workspace
-feature: Workspace Basics
+feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-translation-type: tm+mt
-source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
+source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
 workflow-type: tm+mt
 source-wordcount: '8323'
 ht-degree: 99%
@@ -24,13 +23,11 @@ Para acceder a las Notas de la versión de Adobe Experience Cloud en su conjunto
 | [!UICONTROL Componentes]  > Preferencias  [!UICONTROL de usuario] | 25 de marzo de 2021 | La página [!UICONTROL Componentes] > [!UICONTROL Preferencias de usuario] permite administrar la configuración de [!UICONTROL Analysis Workspace] y sus componentes relacionados para el usuario. Las [!UICONTROL Preferencias de usuario] se aplican a todos los proyectos y paneles nuevos. <br>**Nota:** Los siguientes ajustes de configuración se han trasladado a la página [!UICONTROL Preferencias de usuario]:<ul><li>Configuración de informes: Separador de miles (ahora llamado _Formato de número_)</li><li>Configuración de informes: Separador CSV</li><li>Proyectos de Workspace: Ayuda > Habilitar sugerencias</li><li>Proyectos de Workspace: Panel en blanco _Iniciar nuevos proyectos con esta opción de panel_</li></ul> |
 | [!UICONTROL Predicción del contenedor inteligente del histograma] | 25 de marzo de 2021 | [!UICONTROL La predicción del contenedor inteligente del histograma] ayuda con los histogramas de métricas de alta cardinalidad al identificar automáticamente la anchura y el número adecuado de bloques para la propagación de los datos. Para las métricas de baja cardinalidad, la visualización se comporta del mismo modo que antes. |
 
-
 ## Febrero de 2021
 
 | Función | Fecha objetivo | Descripción |
 | --- | --- | --- |
 | Selección de componentes | 4 de febrero de 2021 | El componente de la zona desplegable/de colocación que se encuentra en [!UICONTROL Acceso rápido a información] se añadirá a todas las zonas de colocación de [!UICONTROL Workspace]. Esta mejora le permite elegir de una lista desplegable de componentes compatibles o continuar utilizando el espacio como zona de colocación. |
-
 
 ## Enero de 2021
 
@@ -1186,7 +1183,7 @@ Se ha agregado la zona de colocación **[!UICONTROL Colocar un segmento aquí]**
 
 Esta mejora es útil si prefiere crear segmentos directamente cuando trabaja en un proyecto en lugar de usar el panel [!UICONTROL Segmento] para ello.
 
-## Formato condicional  {#section_5775B505D83041408B8C3EAEC5D7C32B}
+## Formato condicional {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
 En la Configuración de columna, puede aplicar el formato condicional a los datos de la celda.
 
@@ -1220,13 +1217,13 @@ En la Configuración de columna, puede aplicar el formato condicional a los dato
  </tbody> 
 </table>
 
-## Vista previa de dimensión  {#section_F519EBF889B244E8B25BB6BA2833325A}
+## Vista previa de dimensión {#section_F519EBF889B244E8B25BB6BA2833325A}
 
 En el panel [!UICONTROL Dimensiones], puede colocar el cursor sobre el icono de información situado junto a una dimensión y obtener la vista previa de las cinco principales.
 
 ![](assets/dimension-preview.png)
 
-## Leyenda visible  {#section_28D10D86CAE343AB838808C1DD2E7983}
+## Leyenda visible {#section_28D10D86CAE343AB838808C1DD2E7983}
 
 En la [!UICONTROL Configuración de visualización], la opción **[!UICONTROL Leyenda visible]** muestra u oculta la leyenda de la visualización.
 
@@ -1244,11 +1241,11 @@ Dependiendo de los números de los gráficos de línea y de área, la parte infe
 
 ![](assets/anchor_Y_axis.png)
 
-## Nombre del proyecto en el título de la ficha  {#section_497C61A030984BCCA2CEA553312C3226}
+## Nombre del proyecto en el título de la ficha {#section_497C61A030984BCCA2CEA553312C3226}
 
 Al guardar un proyecto, el título de la ficha del navegador se mostrará como “`<Project Name>` - Analysis Workspace”. Esta mejora resulta útil si abre varios proyectos en varias fichas del navegador.
 
-## Transferir propiedad del proyecto  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## Transferir propiedad del proyecto {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 Los administradores pueden transferir proyectos de [!UICONTROL Analysis Workspace] de un usuario a otro.
 
