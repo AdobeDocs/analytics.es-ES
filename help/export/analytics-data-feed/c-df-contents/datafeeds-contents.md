@@ -6,8 +6,7 @@ title: Resumen del contenido de la fuente de datos
 feature: Conceptos básicos de Reports & Analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 98%
@@ -18,7 +17,7 @@ ht-degree: 98%
 
 En esta sección se describen los archivos que se encuentran en una entrega de fuentes de datos.
 
-## Archivo de manifiesto
+## Archivo de manifiesto {#feed-manifest}
 
 El archivo de manifiesto contiene los siguientes detalles sobre cada archivo que forma parte del conjunto de datos cargados:
 
