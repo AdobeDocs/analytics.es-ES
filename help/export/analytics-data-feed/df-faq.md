@@ -3,11 +3,10 @@ description: Preguntas más frecuentes sobre las fuentes de datos
 keywords: Fuente de datos;trabajo;columna previa;columna posterior;distinción entre mayúsculas y minúsculas
 title: Preguntas frecuentes sobre las fuentes de datos
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 50%
+source-wordcount: '1324'
+ht-degree: 49%
 
 ---
 
@@ -70,17 +69,6 @@ En determinadas zonas horarias, la hora cambia dos veces al año debido a las de
 Cuando se realice la transición de STD a DST, el cliente solo recibirá 23 archivos. Se omite la hora omitida en la transición a DST. Por ejemplo, si la transición se produce a las 2 de la madrugada, se obtiene un archivo para la 1 y un archivo para las 3. No hay archivo de 2 porque, a las 2 STD, se convierte en 3 DST.
 
 Cuando se realiza la transición de DST a STD, el cliente obtiene 24 archivos. Sin embargo, la hora de transición incluye datos correspondientes a dos horas. Por ejemplo, si la transición se produce a las 2 de la madrugada, el archivo de la 1 se retrasa una hora, pero contiene datos de dos horas. Contiene datos entre la 1 DST y las 2 STD (que habrían sido las 3 DST). El siguiente archivo comienza a las 2 STD.
-
-## ¿Recibiré archivos de manifiesto cuando no se recopilen datos? {#section_72510794694D42A9A75C966B812AEB0F}
-
-Si quiere, puede configurar una fuente de datos para que envíe un archivo de manifiesto si no se recopilan datos durante un período concreto. Si activa esta opción, recibirá un archivo de manifiesto de aspecto parecido al siguiente:
-
-```text
-Datafeed-Manifest-Version: 1.0
- Lookup-Files: 0
- Data-Files: 0
- Total-Records: 0
-```
 
 ## ¿Cómo gestiona Analytics los errores de transferencia de FTP? {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
