@@ -5,10 +5,10 @@ title: Preguntas frecuentes sobre VRS
 feature: Conceptos básicos de Reports & Analytics
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
-source-git-commit: 3f8c9d0309c7d4c023e0c936e0a713b24e1482f6
+source-git-commit: c93cd1b14cd6b8e803c4e06209153c8e69af077a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 78%
+source-wordcount: '965'
+ht-degree: 75%
 
 ---
 
@@ -25,4 +25,4 @@ Sugerencias y prácticas recomendadas para los nuevos usuarios de los grupos de 
 |  He marcado “comenzar nueva visita al inicio”. ¿Por qué sigo viendo que hay muchas más visitas que inicios? | Cuando se activa la opción “comenzar nueva visita al inicio”, se sigue aplicando el tiempo de espera. Por tanto, si un usuario utiliza la aplicación durante 10 minutos y deja pasar un minuto entre cada acción, se generará una nueva visita al inicio y otras nueve más, creadas al superarse el tiempo de espera de visita. Para que el número de inicios y de visitas sea lo más parecido posible al utilizar la opción “comenzar nueva visita al inicio”, se debe establecer un tiempo de espera mayor que el tiempo de espera de sesión definido en el SDK. |
 | Establezco “comenzar nueva visita al inicio” y configuro un tiempo de espera mayor que el del SDK. ¿Por qué el número de inicios sigue siendo mucho menor que el de visitas? | Si el tiempo de espera es mayor que el valor establecido en el SDK, es muy probable que la aplicación esté enviando visitas individuales cuando está en segundo plano, y que dichas visitas individuales se estén registrando como visitas nuevas. Compruébelo utilizando la dimensión Tipo de visita en el grupo de informes principal para ver si se producen visitas individuales en segundo plano.<br>**Nota**: Las visitas en primer y segundo plano solo se diferencian en la versión 4.13.6 o superior del SDK. Si su versión es anterior, todas las visitas individuales se mostrarán como visitas en primer plano. Si su versión del SDK es la correcta, habilite el ajuste “Impedir que las visitas en segundo plano inicien una nueva visita”.    Nota: Si deshabilita el procesamiento heredado de las visitas individuales en segundo plano en Admin Console, estas no aparecerán en el grupo de informes principal, pero sí en el grupo de informes virtuales. |
 |  ¿Qué versión del SDK necesito para poder realizar el seguimiento de las visitas individuales en segundo plano? | Necesita la versión 4.13.6 o superior del SDK. |
-| ¿Cómo encuentro el ID de un grupo de informes virtuales? | En la [API del grupo de informes virtuales](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md). |
+| ¿Cómo encuentro el ID de un grupo de informes virtuales? | <ul><li>Al abrir un proyecto de Workspace, hacer clic en el Selector de grupos de informes y buscar el nombre de un grupo de informes virtuales en el cuadro de búsqueda. El ID aparece debajo del nombre en los resultados de búsqueda:<br>![](assets/vrs-id.png)</li><li> O, mediante programación, en la [API del grupo de informes virtuales](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md).</li></ul> |
