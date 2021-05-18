@@ -1,14 +1,13 @@
 ---
 title: Integrar módulo
 description: El módulo Integrate permite a los socios de Adobe integrar sus esfuerzos de recopilación de datos con su organización.
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '878'
-ht-degree: 100%
+exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '880'
+ht-degree: 98%
 
 ---
-
 
 # Integrar módulo
 
@@ -35,7 +34,7 @@ Para obtener el código del módulo, es necesario que un usuario tenga acceso al
 
 1. Inicie sesión en [experiencecloud.adobe.com](https://experiencecloud.adobe.com) con sus credenciales de Adobe ID.
 1. Haga clic en el icono de 9 cuadrados en la esquina superior derecha y, a continuación, haga clic en el logotipo de Analytics.
-1. En la navegación superior, haga clic en [!UICONTROL Administración] > [!UICONTROL Administrador de códigos].
+1. En la barra de navegación superior, haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administrador de códigos]**.
 1. Descargue la biblioteca de AppMeasurement de JavaScript más reciente.
 1. Una vez descargado, descomprima el archivo y busque `AppMeasurement_Module_Integrate.js`.
 
