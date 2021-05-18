@@ -3,14 +3,13 @@ description: Información sobre cómo programar, descargar y distribuir informes
 subtopic: Schedule
 title: Programación y distribución del informe
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports & Analytics Basics,Reports and analytics
+feature: Conceptos básicos de Reports & Analytics, Reports and Analytics
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1669'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +108,7 @@ En el [!UICONTROL Administrador de programación de informes], puede editar y el
 
 El [!UICONTROL Administrador de programación de informes] muestra los artículos que ha creado un usuario en particular. Si la cuenta del usuario está desactivada en la aplicación, se detienen todos los envíos programados.
 
-1. Para acceder al administrador, haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Informes programados]**.
+1. Para acceder al administrador, haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Informes programados]**.
 
 ## Compartir un vínculo a un informe {#task_9711DDE9E140451B8C914EC5513E21EC}
 
