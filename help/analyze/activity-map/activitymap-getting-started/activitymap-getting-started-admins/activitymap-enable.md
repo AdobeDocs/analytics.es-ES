@@ -4,14 +4,13 @@ title: Habilitar Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 93%
+source-wordcount: '407'
+ht-degree: 89%
 
 ---
-
 
 # Habilitar Activity Map {#enable-activity-map}
 
@@ -23,7 +22,7 @@ El módulo Activity Map forma parte del archivo AppMeasurement.js (se encuentra 
 
 Los datos de Activity Map no se pueden recopilar si no actualiza a esta versión (o posterior) de AppMeasurement.
 
-1. Descargue el código más reciente de AppMeasurement (AppMeasurement_Javascript-1.6.zip) en **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Administrador de códigos]** e [impleméntelo](https://docs.adobe.com/content/help/es-ES/analytics/implementation/js/overview.html).
+1. Descargue el código más reciente de AppMeasurement (AppMeasurement_Javascript-1.6.zip) en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administrador de códigos]** e [impleméntelo](https://docs.adobe.com/content/help/es-ES/analytics/implementation/js/overview.html).
 
    Hemos incluido [código de implementación de muestra](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md) para facilitar la visualización de los cambios que se han hecho en el código al incluir el módulo Activity Map.
 
@@ -38,7 +37,7 @@ Los datos de Activity Map no se pueden recopilar si no actualiza a esta versión
 
 1. Desglose este informe por **[!UICONTROL Vínculo de Activity Map por región]** para ver el vínculo o la región de esa página:  ![](assets/am_breakdown.png){width=&quot;400px&quot;}
 
-## Paso 2: Habilitar los informes de Activity Map {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
+## Paso 2. Habilitar los informes de Activity Map {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
 Primero hay que habilitar los informes de Activity Map en el nivel de grupo de informes.
 
