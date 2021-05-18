@@ -2,14 +2,13 @@
 description: Pasos en los que se describe cómo asignar elementos de cuenta de usuario (tableros, métricas calculadas, eventos de calendario, alertas, marcadores, segmentos, proyectos de Analysis Workspace y proyectos programados) de la cuenta de un usuario a la de otro.
 subtopic: Users and groups
 title: Transferir elementos de cuenta de usuario
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 86%
+source-wordcount: '217'
+ht-degree: 75%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]**.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Una vez que se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]**.
 
 Pasos en los que se describe cómo asignar elementos de cuenta de usuario (tableros, métricas calculadas, eventos de calendario, alertas, marcadores, segmentos, proyectos de Analysis Workspace y proyectos programados) de la cuenta de un usuario a la de otro.
 
-1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]**.
 1. Haga clic en **[!UICONTROL Editar usuarios]**.
 1. Busque el usuario desde el que desea transferir recursos y seleccione la casilla de verificación situada junto a la fila de este usuario.
 1. Seleccione **[!UICONTROL Transferir recursos]** en la barra de acciones de la parte superior.
