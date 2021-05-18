@@ -4,14 +4,13 @@ title: Informes de Activity Map en Analytics
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 95%
 
 ---
-
 
 # Informes de Activity Map en Analytics
 
@@ -22,7 +21,7 @@ Describe cómo definir permisos y las dimensiones que están disponibles en Anal
 Para que los usuarios puedan informar sobre las dimensiones de Activity Map, es necesario que usted, como administrador, realice las acciones siguientes:
 
 * [Agregar usuarios al grupo de acceso de Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md).
-* Agregar los grupos de informes que desea que tengan acceso a este grupo. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acceso a Activity Map]** > **[!UICONTROL Editar]**.
+* Agregar los grupos de informes que desea que tengan acceso a este grupo. Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]** > **[!UICONTROL Acceso de Activity Map]** > **[!UICONTROL Editar]**.
 * Personalice el acceso de los usuarios a las dimensiones. Consulte la siguiente sección.
 
 ## Dimensiones de Activity Map de Analytics {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
@@ -41,4 +40,3 @@ Puede [personalizar el acceso de los usuarios a las dimensiones](https://docs.ad
 * En Reports &amp; Analytics, vaya a **[!UICONTROL Ver todos los informes]** > **[!UICONTROL Activity Map]**.
 
 * Para mirar un vínculo y una región de una página determinada, solo hay que crear un desglose desde la página de Activity Map en cuestión en Vínculos y región de Activity Map.
-
