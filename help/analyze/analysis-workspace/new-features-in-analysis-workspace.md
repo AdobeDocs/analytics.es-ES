@@ -5,9 +5,9 @@ title: Novedades en Analysis Workspace
 feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '8323'
+source-wordcount: '8329'
 ht-degree: 99%
 
 ---
@@ -435,7 +435,7 @@ Nuevas funciones y mejoras publicadas el 8 de marzo de 2018.
    <td colname="col2"> <p>En las plantillas personalizadas recién publicadas: </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">Hemos añadido un icono de plantilla en la parte superior del proyecto (cerca del título) para ayudar a diferenciar el modo de edición de plantilla del hecho de usar una plantilla como punto de partida para un proyecto. </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Hemos permitido que los usuarios que no son administradores puedan crear (guardar como) y editar plantillas de proyecto del Workspace, siempre que se les haya concedido el permiso Crear/presentar proyectos en Analysis Workspace. (<span class="ignoretag"> <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Administración de usuarios </span> &gt; <span class="uicontrol"> Grupos </span> &gt; <span class="uicontrol"> Editar acceso a todos los informes </span> &gt; <span class="uicontrol"> Personalizar herramientas de Analytics </span> &gt; <span class="uicontrol"> Crear/presentar proyectos en Analysis Workspace </span></span>). </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">Hemos permitido que los usuarios que no son administradores puedan crear (guardar como) y editar plantillas de proyecto del Workspace, siempre que se les haya concedido el permiso Crear/presentar proyectos en Analysis Workspace. ( <span class="ignoretag"> <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Todos los administradores </span> &gt; <span class="uicontrol"> Administración de usuarios </span> &gt; <span class="uicontrol"> Grupos </span> &gt; <span class="uicontrol"> Editar acceso a todos los informes </span> &gt; <span class="uicontrol"> Personalizar herramientas de Analytics </span> &gt; <span class="uicontrol"> 3/&gt; Crear/presentar proyectos en Analysis Workspace </span> </span>). </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ Nuevas funciones y mejoras publicadas el 18 de enero de 2018.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Análisis de contribución: <a href="https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  > notificación de tokens </a> </p> </td> 
-   <td colname="col2"> <p>Si su empresa tiene un número limitado de tokens de Análisis de contribución, la interfaz de Analysis Workspace muestra ahora una notificación cada vez que consume un token. De este modo, sabe cuántos tokens le quedan.  </p> <p>(Usuarios administradores: es posible restringir quién puede utilizar estos tokens mediante la edición de los permisos de grupo. El permiso se denomina “Detección de anomalías y análisis de contribución” en <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Administración de usuarios </span> &gt; <span class="uicontrol"> Editar grupos </span> &gt; <span class="uicontrol"> Editar el acceso a todos los informes </span> &gt; <span class="uicontrol"> Personalizar las herramientas del grupo de informes </span> &gt; <span class="uicontrol"> Herramientas e informes</span>).  </p> </td> 
+   <td colname="col2"> <p>Si su empresa tiene un número limitado de tokens de Análisis de contribución, la interfaz de Analysis Workspace muestra ahora una notificación cada vez que consume un token. De este modo, sabe cuántos tokens le quedan.  </p> <p>(Usuarios administradores: es posible restringir quién puede utilizar estos tokens mediante la edición de los permisos de grupo. El permiso se denomina "Detección de anomalías y análisis de contribución" en <span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol"> Administración </span> &gt; <span class="uicontrol"> Todos los administradores </span> &gt; <span class="uicontrol"> Administración de usuarios </span> <span class="uicontrol"> Editar grupos </span> &gt; <span class="uicontrol"> Editar acceso a todos los informes </span> &gt; <span class="uicontrol"> Personalizar herramientas de grupos de informes </span> &gt; <span class="uicontrol"> Herramientas e informes </span>. )  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Archivos CSV con caracteres multibyte </p> </td> 
@@ -1249,4 +1249,4 @@ Al guardar un proyecto, el título de la ficha del navegador se mostrará como �
 
 Los administradores pueden transferir proyectos de [!UICONTROL Analysis Workspace] de un usuario a otro.
 
-Para transferir proyectos, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Transferir]**.
+Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Transferir]** para transferir proyectos.
