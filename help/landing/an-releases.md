@@ -1,14 +1,13 @@
 ---
 description: Explica la nueva estrategia de lanzamiento continuo de funcionalidades para Adobe Analytics
 title: Versiones de funcionalidades de Adobe Analytics
-translation-type: ht
-source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
-
 
 # Versiones de funcionalidades de Adobe Analytics
 
@@ -41,4 +40,4 @@ Las versiones por fases permiten a Adobe escalar mejor el proceso de implementac
 | Pregunta | Respuesta |
 |---|---|
 | ¿Puedo solicitar acceso anticipado a una funcionalidad? | No. No se puede solicitar el acceso anticipado.<br>Si desea probar las versiones iniciales de Analytics, le recomendamos que pruebe [Adobe Analytics Labs](https://docs.adobe.com/content/help/es-ES/analytics/analyze/tech-previews/overview.html) para proporcionar comentarios sobre las innovaciones líderes del sector. |
-| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en [!UICONTROL Administración] > [!UICONTROL Configuración de compañía] > [Niveles de acceso a funcionalidades](https://docs.adobe.com/content/help/es-ES/analytics/admin/company-settings/feature-access-levels.html). |
+| ¿Esta estrategia de lanzamiento afecta mi acceso a las funcionalidades? | No. Una vez que una funcionalidad haya llegado a su fase de disponibilidad general, tendrá acceso a ella si está incluida en su paquete de Analytics.<br>Puede ver los detalles del paquete de Analytics en  [!UICONTROL Administración]  >  [!UICONTROL Todos los administradores]  > Configuración de la  [!UICONTROL empresa]  > Niveles  [de acceso de las funciones](https://docs.adobe.com/content/help/es-ES/analytics/admin/company-settings/feature-access-levels.html). |
