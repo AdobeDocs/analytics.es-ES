@@ -5,11 +5,10 @@ title: Integración de DFA
 feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '2601'
-ht-degree: 100%
+source-wordcount: '2602'
+ht-degree: 99%
 
 ---
 
@@ -23,8 +22,8 @@ Complete los pasos de la integración de Data Connectors DFA.
 
 Las páginas de configuración proporcionan información general sobre la integración, junto con vínculos útiles para obtener más información. Existen tarifas de Adobe como DoubleClick asociadas con esta integración. Póngase en contacto con los Representantes de ventas correspondientes para ambas organizaciones y asegúrese de comprender la estructura de tarifas.
 
-1. Inicie sesión en [!DNL Adobe Analytics].
-1. Haga clic en **[!UICONTROL Administradores]** > **[!UICONTROL Data Connectors]**.
+1. Iniciar sesión en [!DNL Adobe Analytics].
+1. Haga clic en **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Conectores de datos]**.
 
    ![](assets/data_connectors.png)
 
