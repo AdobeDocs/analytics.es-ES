@@ -1,16 +1,15 @@
 ---
 title: Panel de Attribution
 description: Utilizar e interpretar el panel de atribución en Analysis Workspace.
-feature: Attribution
+feature: Atribución
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
+source-git-commit: e3005892edd0854f76956a500ca3a8927d0b31b1
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 65%
+source-wordcount: '442'
+ht-degree: 52%
 
 ---
-
 
 # Panel de Attribution
 
@@ -40,6 +39,5 @@ El panel [!UICONTROL Atribución] es una forma sencilla de generar un análisis 
 * **Tabla** de comparación de atribución: Muestra los mismos datos que el gráfico de barras, representados como una tabla. Al seleccionar distintas columnas o filas en esta tabla, se filtra el gráfico de barras, así como varias de las demás visualizaciones del panel. Esta tabla actúa de manera similar a cualquier otra tabla improvisada en Workspace, lo que le permite agregar componentes como métricas, segmentos o desgloses.
 * **Diagrama** de superposición: Diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con la que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando un visitante estuvo expuesto a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla improvisada, se actualizará la visualización para reflejar su selección.
 * **Detalles** de rendimiento: Permite comparar visualmente hasta tres modelos de atribución mediante un diagrama de puntos.
-* **Rendimiento** de tendencias: Muestra la tendencia de las conversiones atribuidas para el elemento de dimensión principal. Si se seleccionan otras filas en la Tabla improvisada, se actualizará la visualización para reflejar su selección.
+* **Rendimiento** de tendencias: De forma predeterminada, muestra la tendencia del rendimiento de conversión por modelo de atribución para la primera dimensión enumerada en la tabla improvisada adyacente. Puede seleccionar diferentes filas de dimensión en la tabla improvisada para mostrar la tendencia de las dimensiones seleccionadas (como Ingresos totales para cada modelo de atribución de Campañas sociales y Búsqueda paga). Como alternativa, puede seleccionar celdas en las columnas para cualquier combinación de métrica y tipo de atribución en la tabla improvisada para ver el rendimiento de tendencias por valor de dimensión para los modelos de atribución especificados (como Ingresos totales por canal de marketing mediante la atribución Último toque y Primer toque).
 * **Flujo**: Permite ver en qué canales hay interacción con más frecuencia y en qué orden a través del recorrido de un visitante.
-
