@@ -3,14 +3,13 @@ description: Utilice el administrador de paneles para copiar, compartir, archiva
 subtopic: Dashboards
 title: Administrador de tableros
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports & Analytics Basics
+feature: Conceptos básicos de Reports & Analytics
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 99%
+source-wordcount: '799'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +21,7 @@ Utilice el administrador de paneles para copiar, compartir, archivar y programar
 >
 >La práctica recomendada al utilizar el administrador de paneles es no tener más de 300 paneles para un solo usuario. Además, tenga en cuenta que el administrador carga todos los paneles compartidos a continuación, por lo que debe ser prudente al compartir los paneles.
 
-Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Tableros]**.
+Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Tableros]**.
 
 | Elemento | Descripción |
 |--- |--- |
@@ -36,7 +35,7 @@ Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UIC
 
 Los pasos describen cómo usar las opciones de administración del tablero compartido.
 
-1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Tableros]**.
+1. Vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Paneles]**.
 1. En [!UICONTROL Tableros compartidos], localice el tablero compartido (o tablero preexistente) que desee administrar y elija una o más de las siguientes opciones:
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
