@@ -1,14 +1,13 @@
 ---
 title: 'Permisos de Adobe Analytics: tablas de resumen'
 description: Tablas que resumen los permisos de Adobe Analytics disponibles en Admin Console.
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 100%
+source-wordcount: '1271'
+ht-degree: 86%
 
 ---
-
 
 # Permisos de Adobe Analytics: tablas de resumen
 
@@ -24,9 +23,9 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Variables de conversión | x |  |  |  | Otorga acceso a Conversión > Variables de conversión en el Administrador de grupos de informes. |
 | Costos | x |  |  |  | Concede acceso a Canales de marketing > Costes de canal de marketing, en el Administrador de grupos de informes. |
 | Calendario personalizado | x |  |  |  | Otorga acceso a General > Personalizar calendario en el Administrador de grupos de informes. |
-| Administrador de feeds de datos | x |  |  |  | Otorga acceso a Administración > Feeds de datos en la navegación superior de Analytics. |
+| Administrador de feeds de datos | x |  |  |  | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. |
 | API de reparación de datos | x |  |  |  | Otorga acceso a la API de reparación de datos |
-| Administrador de fuentes de datos | x |  |  |  | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
+| Administrador de fuentes de datos | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
 | Medidas predeterminadas | x |  |  |  | Otorga acceso a Configuración de grupos de informes individuales > Métricas predeterminadas en el Administrador de grupos de informes. |
 | Excluir por dirección IP | x |  |  |  | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
 | Métodos de búsqueda | x |  |  |  | Otorga acceso a Conversión > Métodos de búsqueda en el Administrador de grupos de informes. |
@@ -38,7 +37,7 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Administración de conjuntos de informes | x |  |  |  | Otorga acceso al Administrador de grupos de informes, pero no permite ningún cambio. |
 | Eventos de éxito | x |  |  |  | Otorga acceso a Conversión > Eventos de éxito en el Administrador de grupos de informes. |
 | Variables de tráfico | x |  |  |  | Otorga acceso a Tráfico > Variables de tráfico en el Administrador de grupos de informes. |
-| Visitante único | x |  |  |  | Otorga acceso a Conversión > Variable de visitante único. No suele usarse en implementaciones modernas. |
+| Visitante único | x |  |  |  | Otorga acceso a Conversión > Variable única de visitante. No suele usarse en implementaciones modernas. |
 | Filtros de dirección URL | x |  |  |  | Otorga acceso a General > Filtros URL internos en el Administrador de grupos de informes. |
 | Detección de anomalías |  | x |  |  | Otorga acceso a la Detección de anomalías en Analysis Workspace. |
 | Análisis de contribución |  | x |  |  | Otorga acceso al menú que aparece al hacer clic con el botón derecho en &#39;Ejecutar análisis de contribución&#39; en Analysis Workspace. |
@@ -74,20 +73,20 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 
 | Herramienta Analytics | Administración | Controles de acceso | Características solo de informes | Obsoleto | Descripción |
 | --- | --- | --- | --- | --- | --- |
-| Administrador de códigos | x |  |  |  | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en Adobe Experience Platform Launch. |
+| Administrador de códigos | x |  |  |  | Se ha mantenido para propósitos heredados. Otorga acceso a Administración > Todos los administradores > Administrador de códigos. En la mayoría de los casos, utilice las bibliotecas incluidas en Adobe Experience Platform Launch. |
 | Administrador de códigos - Servicios Web | x |  |  |  | Otorga acceso al Administrador de códigos mediante la API 1.4. |
-| Ocultar grupos de informes | x |  |  |  | Concede acceso a Administración > Configuración de la empresa > Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
-| Integraciones (crear) | x |  |  |  | Otorga acceso a Administración > Data Connectors y permite al usuario crear conectores de datos. |
-| Integraciones (eliminar) | x |  |  |  | Otorga acceso a Administración > Data Connectors y permite al usuario eliminar conectores de datos. |
-| Integraciones (actualizar) | x |  |  |  | Otorga acceso a Administración > Data Connectors y permite al usuario modificar las configuraciones de conectores existentes. |
-| Registros | x |  |  |  | Otorga acceso a Administración > Registros. |
+| Ocultar grupos de informes | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Ocultar grupos de informes. Otorga la capacidad de ocultar cualquier grupo de informes de la organización, independientemente del acceso a su grupo de informes. |
+| Integraciones (crear) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Conectores de datos y permite al usuario crear conectores de datos. |
+| Integraciones (eliminar) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Conectores de datos y permite al usuario eliminar los conectores de datos. |
+| Integraciones (actualizar) | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Conectores de datos y permite al usuario modificar las configuraciones de conector existentes. |
+| Registros | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Registros. |
 | Registros - Servicios Web | x |  |  |  | Otorga acceso a los registros de extracción a través de la API 1.4. |
-| Acciones pendientes | x |  |  |  | Otorga acceso a Administración > Configuraciones de la empresa > Acciones pendientes. |
-| Seguridad | x |  |  |  | Otorga acceso a Administración > Configuraciones de la empresa > Administrador de seguridad. |
+| Acciones pendientes | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Acciones pendientes. |
+| Seguridad | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Administrador de seguridad. |
 | Uso de llamadas al servidor | x |  |  |  | Otorga acceso a Administración > Uso de llamadas al servidor. |
-| Asistencia | x |  |  |  | Otorga acceso a Administración > Configuraciones de la empresa > Información de asistencia. |
-| Administración del tráfico | x |  |  |  | Concede acceso a Administración > Administración de tráfico. |
-| Servicios Web | x |  |  |  | Otorga acceso a Administración > Configuraciones de la empresa > Servicios Web. |
+| Asistencia | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Información de asistencia. |
+| Administración del tráfico | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Administración del tráfico. |
+| Servicios Web | x |  |  |  | Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Servicios Web. |
 | Activity Map |  | x |  |  | Otorga acceso a Herramientas > Activity Map. Permite al usuario utilizar la extensión Activity Map. |
 | Usuarios con licencias para Ad Hoc Analysis |  | x |  |  | Ad Hoc Analysis ha llegado al final de su vida útil. [Más información](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Acceso a Analysis Workspace |  | x |  |  | Disponen de acceso a Analysis Workspace. Los usuarios deben pertenecer a este grupo (opción preferida) o a Acceso a Reports &amp; Analytics para utilizar Adobe Analytics. |
@@ -101,10 +100,10 @@ Utilice las siguientes tablas de resumen para identificar los permisos de Adobe 
 | Datos actuales |  |  | x |  | Habilita la opción para ver los datos actuales en los informes de Reports &amp; Analytics. |
 | Acceso a Reports &amp; Analytics |  |  | x |  | Concede acceso a Reports &amp; Analytics. Los usuarios deben pertenecer a este grupo o a Acceso a Analysis Workspace (opción preferida) para utilizar Adobe Analytics. |
 | Administración de Advertising Analytics |  |  |  | x | No se usa. |
-| Promoción conjunta de marca |  |  |  | x | Ya no se utiliza. Concede acceso a Administración > Configuración de empresa > Promoción conjunta de marca. |
+| Promoción conjunta de marca |  |  |  | x | Ya no se utiliza. Otorga acceso a Administración > Todos los administradores > Configuración de la empresa > Promoción conjunta de marca. |
 | Usuarios de licencias de Excel |  |  |  | x | No se usa. |
 | Administrador de aplicaciones móviles |  |  |  | x | No se usa. |
-| Administración de permisos |  |  |  | x | Ya no se utiliza. Otorga acceso a la interfaz de administración de usuarios heredada en Administración > Administración de usuarios. |
+| Administración de permisos |  |  |  | x | Ya no se utiliza. Otorga acceso a la interfaz de administración de usuarios heredada en Administración > Todos los administradores > Administración de usuarios. |
 | Permisos (lectura) - Servicios Web |  |  |  | x | Ya no se utiliza. Permite al usuario ver permisos de Analytics heredados mediante la API de administración. Utilice Adobe Admin Console en su lugar. |
 | Permisos (escritura) - Servicios Web |  |  |  | x | Ya no se utiliza. Permite al usuario editar permisos de Analytics heredados mediante la API de administración. Utilice Adobe Admin Console en su lugar. |
 | Preferencias |  |  |  | x | No se usa. |
