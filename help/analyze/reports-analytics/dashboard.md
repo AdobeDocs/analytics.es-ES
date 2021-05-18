@@ -4,14 +4,13 @@ subtopic: Dashboards
 title: Paneles e informes breves
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 99%
+source-wordcount: '1827'
+ht-degree: 98%
 
 ---
-
 
 # Paneles e informes breves
 
@@ -43,11 +42,11 @@ Debe tener en cuenta que algunos de los informes visualizados con más frecuenci
 
 Además de los tableros que cree, se incluyen los siguientes tableros empaquetados previamente para cada usuario:
 
-**[!UICONTROL Componentes] > [!UICONTROL Tableros] > [!UICONTROL Tableros compartidos] > [!UICONTROL Sitios locales]**
+**[!UICONTROL Componentes]  >  [!UICONTROL Todos los componentes]  >  [!UICONTROL Tableros]  > Tableros  [!UICONTROL compartidos]  >  [!UICONTROL Sitios locales]**
 
 Este tablero se puede personalizar y permite soltar informes breves en la plantilla proporcionada.
 
-**[!UICONTROL Componentes] > [!UICONTROL Tableros] > [!UICONTROL Tableros compartidos] > [!UICONTROL Tablero de operaciones del sitio]**
+**[!UICONTROL Componentes]  >  [!UICONTROL Todos los componentes]  >  [!UICONTROL Tableros]  > Tableros  [!UICONTROL compartidos]  > Tablero de operaciones del  [!UICONTROL sitio]**
 
 Este tablero proporciona información general sobre las métricas clave relacionadas con las operaciones del sitio web. Los informes de este tablero incluyen:
 
@@ -91,7 +90,7 @@ Antes de añadir un informe (como informe breve) a un tablero, defina el diseño
 
    Guardar un tablero lo convierte en disponible en el menú **[!UICONTROL Tablero]**. El nuevo tablero también se encuentra disponible en el [!UICONTROL Administrador de tableros] (**[!UICONTROL Favoritos]** > **[!UICONTROL Tableros]** > **[!UICONTROL Administrador]**), donde podrá editar, organizar, compartir, programar y archivar tableros y mucho más. (Consulte [Administración de tableros](/help/analyze/reports-analytics/dashboard-manage.md).)
 
-1. (Opcional) Para establecer el tablero como página de aterrizaje, haga clic en **[!UICONTROL Más opciones]** > **[!UICONTROL Establecer como página de aterrizaje]**.
+1. (Opcional) Para establecer el tablero como página principal, haga clic en **[!UICONTROL Más opciones]** > **[!UICONTROL Definir como página principal]**.
 
 ## Crear un informe breve {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
@@ -188,7 +187,7 @@ t_dashboard_edit.xml
 
 **Para editar datos de informes breves y tableros**
 
-1. Haga clic en **[!UICONTROL Componentes]** > **[!UICONTROL Tableros]** > *nombre del tablero* para abrir un tablero.
+1. Haga clic en **[!UICONTROL Componentes]** > **[!UICONTROL Todos los componentes]** > **[!UICONTROL Tableros]** > *nombre del tablero* para abrir un tablero.
 1. Haga clic en **[!UICONTROL Diseño]**.
 
 | Hasta | Haga esto |
@@ -201,7 +200,7 @@ t_dashboard_edit.xml
 | Cambiar una fecha de informes | Para un tablero, haga clic en el calendario. (Todos los informes breves del tablero reflejarán el cambio.)<br>Para un informe breve, haga clic en el vínculo de fecha y, a continuación, configure el calendario. |
 | Poner nombre a un tablero | Abra un tablero y haga clic en [!UICONTROL Más] > [!UICONTROL Cambiar nombre]. |
 | Ver un archivo de tablero | Haga clic en [!UICONTROL Más] > [!UICONTROL Ver archivo]. |
-| Establecer un tablero como página de aterrizaje | En el tablero, haga clic en [!UICONTROL Más] > [!UICONTROL Establecer como página de aterrizaje]. |
+| Establecer un tablero como página de aterrizaje | En el tablero, haga clic en [!UICONTROL Más] > [!UICONTROL Definir como página principal]. |
 | Descargar un tablero | En un tablero, haga clic en [!UICONTROL Más] > Descargar. |
 | Imprimir un tablero | En un tablero, haga clic en [!UICONTROL Más] > Imprimir. |
 | Guardar un tablero | En un tablero, haga clic en Guardar como y, a continuación, especifique un nombre. |
@@ -216,7 +215,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Configuración de la empresa]**.
+1. **[!UICONTROL Analytics]**  >  **[!UICONTROL Administración]**  >  **[!UICONTROL Todos los administradores]**  > Configuración de la  **[!UICONTROL empresa]**.
 1. En la página [!UICONTROL Configuración de empresa], haga clic en **[!UICONTROL Promocionar conjuntamente Adobe Experience Cloud]**.
 1. Haga clic en **[!UICONTROL Habilitar promoción conjunta de marca]**.
 1. Examine para cargar la imagen y, a continuación, haga clic en **[!UICONTROL Guardar]**.
