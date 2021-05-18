@@ -4,10 +4,10 @@ description: Utilizar e interpretar el panel de atribución en Analysis Workspac
 feature: Atribución
 role: Business Practitioner, Administrator
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: e3005892edd0854f76956a500ca3a8927d0b31b1
+source-git-commit: c38e20a7f9a295609181cc9435489ac86cda0852
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 52%
+ht-degree: 47%
 
 ---
 
@@ -36,7 +36,7 @@ El panel [!UICONTROL Atribución] es una forma sencilla de generar un análisis 
 
 * **Métrica total**: El número total de conversiones que tienen lugar durante el periodo establecido por la ventana de creación de informes. Estas son las conversiones que se atribuyen a través de la dimensión seleccionada.
 * **Barra de comparación de atribución**: Compara visualmente las conversiones atribuidas en cada uno de los elementos de dimensión de la dimensión seleccionada. Cada color de barra representa un modelo de atribución distinto.
-* **Tabla** de comparación de atribución: Muestra los mismos datos que el gráfico de barras, representados como una tabla. Al seleccionar distintas columnas o filas en esta tabla, se filtra el gráfico de barras, así como varias de las demás visualizaciones del panel. Esta tabla actúa de manera similar a cualquier otra tabla improvisada en Workspace, lo que le permite agregar componentes como métricas, segmentos o desgloses.
+* **Tabla** de comparación de atribución: Muestra los mismos datos que el gráfico de barras, representados como una tabla. Al seleccionar distintas columnas o filas en esta tabla, se filtra el gráfico de barras, así como varias de las demás visualizaciones del panel. Esta tabla actúa de forma similar a cualquier otra tabla improvisada en Workspace, lo que le permite agregar componentes como métricas, segmentos o desgloses.
 * **Diagrama** de superposición: Diagrama de Venn que muestra los tres elementos de dimensión principales y la frecuencia con la que participan conjuntamente en una conversión. Por ejemplo, el tamaño de la superposición de burbujas indica con qué frecuencia ocurrieron las conversiones cuando un visitante estuvo expuesto a ambos elementos de dimensión. Si se seleccionan otras filas en la Tabla improvisada, se actualizará la visualización para reflejar su selección.
 * **Detalles** de rendimiento: Permite comparar visualmente hasta tres modelos de atribución mediante un diagrama de puntos.
 * **Rendimiento** de tendencias: De forma predeterminada, muestra la tendencia del rendimiento de conversión por modelo de atribución para la primera dimensión enumerada en la tabla improvisada adyacente. Puede seleccionar diferentes filas de dimensión en la tabla improvisada para mostrar la tendencia de las dimensiones seleccionadas (como Ingresos totales para cada modelo de atribución de Campañas sociales y Búsqueda paga). Como alternativa, puede seleccionar celdas en las columnas para cualquier combinación de métrica y tipo de atribución en la tabla improvisada para ver el rendimiento de tendencias por valor de dimensión para los modelos de atribución especificados (como Ingresos totales por canal de marketing mediante la atribución Último toque y Primer toque).
