@@ -5,11 +5,10 @@ title: Integración de transacciones y clientes
 topic-fix: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 84%
+source-wordcount: '315'
+ht-degree: 79%
 
 ---
 
@@ -39,7 +38,7 @@ Vaya a **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > 
 
  -->
 
-Para comprobar si el registro de ID de transacción está activado, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Fuentes de datos]**.
+Para ver si el registro de ID de transacción está habilitado, vaya a **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Fuentes de datos]**.
 
 ![](assets/transaction-ID-recording-active.png)
 
