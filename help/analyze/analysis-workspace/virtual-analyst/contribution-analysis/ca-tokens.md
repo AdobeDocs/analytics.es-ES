@@ -5,8 +5,7 @@ uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 feature: Herramientas de IA
 role: Business Practitioner, Administrator
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-translation-type: tm+mt
-source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 91%
@@ -54,7 +53,7 @@ El número de ejecuciones por empresa está limitado por los tokens mensuales, q
 | ¿Se aplican tokens al análisis de contribución en Reports &amp; Analytics? | No. El análisis de contribución ya no se ofrece en Reports &amp; Analytics a partir de abril de 2018. |
 | Si mi empresa se queda sin tokens y deseamos ejecutar más análisis de contribución, ¿qué podemos hacer? | Puede actualizar a otro producto de Adobe Analytics, por ejemplo, de Standard (2 tokens/mes) a Ultimate (20 tokens/mes). No consiste simplemente en comprar más tokens: es preciso actualizar el tipo de paquete existente. |
 | ¿Cómo se restringe el acceso a Análisis de contribución? | De forma predeterminada, solo los administradores tienen acceso para ejecutar los análisis de contribución. Sin embargo, los administradores pueden conceder acceso a otros usuarios creando un grupo de permisos en [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html). Conceda permiso para usar los análisis de contribución solamente a los usuarios que tengan una razón legítima para usarlos y que sepa que no harán un uso indebido de este permiso. El permiso se denomina [!UICONTROL Análisis de contribución] en [!UICONTROL Herramientas del grupo de informes]. [Más información](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
-| ¿Cómo puedo saber de cuántos tokens al mes dispone mi empresa y qué cantidad hemos usado en el mes actual? | Vaya a [!UICONTROL Administración] > [!UICONTROL Todos los administradores] >[!UICONTROL Inicio Configuración de la empresa] >[!UICONTROL Ver niveles de acceso de las funciones]. Buscar en<ul><li>Análisis de contribución: número de tokens de uso mensual</li><li>Análisis de contribución: número de tokens de uso que se han utilizado este mes</li></ul> |
+| ¿Cómo puedo saber de cuántos tokens al mes dispone mi empresa y qué cantidad hemos usado en el mes actual? | Vaya a [!UICONTROL Administración] > [!UICONTROL Todos los administradores] >[!UICONTROL Inicio de configuración de la empresa] >[!UICONTROL Ver niveles de acceso de las funciones]. Buscar en<ul><li>Análisis de contribución: número de tokens de uso mensual</li><li>Análisis de contribución: número de tokens de uso que se han utilizado este mes</li></ul> |
 
 ## Derechos de Detección de anomalías y Análisis de contribución {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
