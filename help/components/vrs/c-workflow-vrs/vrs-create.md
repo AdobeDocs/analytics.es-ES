@@ -5,11 +5,10 @@ title: Crear un grupo de informes virtuales
 feature: Conceptos básicos de Reports & Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 99%
+source-wordcount: '368'
+ht-degree: 96%
 
 ---
 
@@ -50,7 +49,7 @@ Antes de empezar a crear grupos de informes virtuales, hay que tener algunos asp
   </tr> 
   <tr> 
    <td colname="col1"> Grupos </td> 
-   <td colname="col2"> <p>Seleccione los grupos de permisos a los que quiera tener acceso en este VRS. (También puede administrar permisos de grupos en <span class="ignoretag"><span class="uicontrol"> Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Grupos</span></span>). </p> </td> 
+   <td colname="col2"> <p>Seleccione los grupos de permisos a los que quiera tener acceso en este VRS. (También puede administrar permisos de grupo desde <span class="ignoretag"><span class="uicontrol"> Administración</span> &gt; <span class="uicontrol"> Todos los administradores </span> &gt; <span class="uicontrol"> Administración de usuarios</span> &gt; <span class="uicontrol"> Grupos</span></span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Grupo de informes superior </td> 
