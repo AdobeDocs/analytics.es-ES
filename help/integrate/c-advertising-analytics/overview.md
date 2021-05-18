@@ -2,11 +2,10 @@
 description: Descubra todo lo que puede hacer con Advertising Analytics en esta guía detallada, incluidos los permisos requeridos, y las dimensiones y métricas disponibles.
 title: Guía de Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-translation-type: tm+mt
-source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 96%
+source-wordcount: '1263'
+ht-degree: 93%
 
 ---
 
@@ -57,13 +56,13 @@ Analytics cuenta con dos permisos que se conceden automáticamente a los adminis
   <tr> 
    <td colname="col1"> <p>Administración de Advertising Analytics </p> </td> 
    <td colname="col2"> <p>Permite a los usuarios configurar/editar/visualizar las cuentas de búsqueda publicitarias. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Grupos</span> &gt; <span class="uicontrol">Editar acceso a todos los informes</span> &gt; <span class="uicontrol">Personalizar herramientas de Analytics</span> &gt; <span class="uicontrol">Administración de Advertising Analytics</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Administración</span>  &gt;  <span class="uicontrol"> Todos los administradores  </span>  &gt; Administración de  <span class="uicontrol"> usuarios</span>  &gt;  <span class="uicontrol"> Grupos</span>  &gt;  <span class="uicontrol"> Editar acceso a todos los informes</span>  &gt;  <span class="uicontrol"> Personalizar herramientas de Analytics</span>  &gt;  <span class="uicontrol"> Administración de Advertising Analytics</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Inicio de sesión en adminconsole.adobe.com</span> &gt; <span class="uicontrol">Productos</span> &gt; <span class="uicontrol">Perfil del producto</span> &gt; <span class="uicontrol">Pestaña Permisos</span> &gt; <span class="uicontrol">Herramientas de Analytics</span> &gt; <span class="uicontrol">Administración de Advertising Analytics</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configuración de Advertising Analytics </p> </td> 
    <td colname="col2"> <p>Permite a los usuarios configurar los grupos de informes que se van a aprovisionar para Advertising Analytics. </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Administración</span> &gt; <span class="uicontrol">Administración de usuarios</span> &gt; <span class="uicontrol">Grupos</span> &gt; <span class="uicontrol">Editar acceso a todos los informes</span> &gt; <span class="uicontrol">Personalizar herramientas de grupos de informes</span> &gt; <span class="uicontrol">Configuración de Advertising Analytics</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> Administración</span>  &gt;  <span class="uicontrol"> Todos los administradores  </span>  &gt; Administración de  <span class="uicontrol"> usuarios</span>  &gt;  <span class="uicontrol"> Grupos</span>  &gt;  <span class="uicontrol"> Editar acceso a todos los informes</span>  &gt;  <span class="uicontrol"> Personalizar herramientas de grupos de informes</span>  &gt;  <span class="uicontrol"> Configuración de Advertising Analytics</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol"> Inicio de sesión en adminconsole.adobe.com</span> &gt; <span class="uicontrol">Productos</span> &gt; <span class="uicontrol">Perfil del producto</span> &gt; <span class="uicontrol">Pestaña Permisos</span> &gt; <span class="uicontrol">Herramientas de grupos de informes</span> &gt; <span class="uicontrol">Configuración de Advertising Analytics</span></span> </td> 
   </tr> 
  </tbody> 
