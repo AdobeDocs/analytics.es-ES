@@ -1,18 +1,17 @@
 ---
 title: Fin de vida útil para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
 description: Obtenga información sobre la finalización de la vida útil y las implicaciones para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
-translation-type: tm+mt
-source-git-commit: 649a33253f7520b4d8e210043ceedd6345a49be7
+exl-id: 67d822ee-005b-46cf-80b4-a5aa4412d746
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '546'
 ht-degree: 80%
 
 ---
 
-
 # Fin de vida útil para [!UICONTROL Aplicar restricciones de inicio de sesión con IP]
 
-The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)** feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. En muchos casos, esta función se utiliza para configurar una dirección IP corporativa como la única dirección IP segura desde la que los usuarios pueden iniciar sesión. Por lo tanto, para utilizar Adobe Analytics, se necesita que los usuarios estén en una oficina corporativa o que inicien sesión en la red a través de una VPN.
+La función **[Aplicar restricciones de inicio de sesión con IP](/help/admin/company/security-manager.md)** de Adobe Analytics permite agregar direcciones IP específicas (que se consideran seguras) a una lista de permitidos, de modo que se puedan iniciar sesión con éxito y acceder a su entorno de Adobe Analytics. En muchos casos, esta función se utiliza para configurar una dirección IP corporativa como la única dirección IP segura desde la que los usuarios pueden iniciar sesión. Por lo tanto, para utilizar Adobe Analytics, se necesita que los usuarios estén en una oficina corporativa o que inicien sesión en la red a través de una VPN.
 
 Estamos planeando finalizar la vida útil de esta función en enero de 2021.
 
@@ -26,15 +25,15 @@ Por último, Adobe cuenta con una solución alternativa funcional y muy superior
 
 ## ¿Cómo le afecta la eliminación de esta función?
 
-For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. En ese momento, ya no se aplicará ninguna restricción de inicio de sesión con IP que aún exista. Si todavía necesita restringir el inicio de sesión por dirección IP, debe revisar e implementar la solución recomendada de inicio de sesión único y Federated ID (más información y recursos a continuación).
+Para cualquier cliente que tenga **[!UICONTROL Aplicar restricciones de inicio de sesión con IP]** configurado, esta función se eliminará en enero de 2021. En ese momento, ya no se aplicará ninguna restricción de inicio de sesión con IP que aún exista. Si todavía necesita restringir el inicio de sesión por dirección IP, debe revisar e implementar la solución recomendada de inicio de sesión único y Federated ID (más información y recursos a continuación).
 
-Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROL Admin]>[!UICONTROL Company Settings]>[!UICONTROL Security Manager]** in the Analytics UI (as shown below).
+Además, la configuración **[!UICONTROL Aplicar restricciones de inicio de sesión IP]** se eliminará de **[!UICONTROL Administración] > [!UICONTROL Todos los administradores] > [!UICONTROL Configuración de la empresa] > [!UICONTROL Administrador de seguridad]** en la interfaz de usuario de Analytics (como se muestra a continuación).
 
 ![](assets/sec-manager2.png)
 
 ## ¿Cuáles son sus otras opciones?
 
-Como se ha indicado anteriormente, esta función de Analytics acabará desapareciendo. Para darle tiempo para implementar SSO e Federated ID, hemos retrasado la fecha de EOL hasta enero de 2021.
+Como se ha indicado anteriormente, esta función de Analytics acabará desapareciendo. Para darle tiempo para implementar SSO y Federated ID, hemos retrasado la fecha de fin de servicio hasta enero de 2021.
 
 Tanto SSO como Federated ID son soluciones muy superiores a la función de restricción de inicio de sesión IP que tenemos en la actualidad y le proporcionarán más control y seguridad, y otras características. Para obtener información sobre cómo configurar SSO/Federated ID, tenemos disponible la siguiente documentación que podría ayudarle. Le recomendamos que lea a fondo la información y trabaje con su departamento de TI para implementar las nuevas soluciones:
 
