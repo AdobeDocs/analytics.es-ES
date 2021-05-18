@@ -4,14 +4,13 @@ title: Programar una solicitud de datos
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 99%
+source-wordcount: '1029'
+ht-degree: 98%
 
 ---
-
 
 # Programar libros de trabajo
 
@@ -23,7 +22,7 @@ Además, después de crear una programación de libro de trabajo en Report Build
 
 >[!NOTE]
 >
->Para poder programar un libro de trabajo, debe disponer de Excel 2007 o tener el paquete de compatibilidad instalado. Puede tener un máximo de 10 libros programados por cada licencia de Report Builder. Sin embargo, puede aumentar este número si resta de otras licencias. Para hacerlo, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Informes de Report Builder]**. Un libro que se ha programado (o cargado a la Biblioteca de libros) y no se ha tocado (actualizado, reemplazado) en más de 28 meses se eliminará.
+>Para poder programar un libro de trabajo, debe disponer de Excel 2007 o tener el paquete de compatibilidad instalado. Puede tener un máximo de 10 libros programados por cada licencia de Report Builder. Sin embargo, puede aumentar este número si resta de otras licencias. Para ello, vaya a **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Configuración de la empresa]** > **[!UICONTROL Informes de Report Builder]**. Un libro que se ha programado (o cargado a la Biblioteca de libros) y no se ha tocado (actualizado, reemplazado) en más de 28 meses se eliminará.
 
 >[!NOTE]
 >
@@ -83,4 +82,3 @@ Además, después de crear una programación de libro de trabajo en Report Build
 1. Haga clic en **[!UICONTROL Aceptar]** y, a continuación, en **[!UICONTROL Salir]**.
 
    Report Builder muestra el libro de trabajo programado en el [Administrador de tareas programadas](/help/analyze/report-builder/r-arb-scheduled-reports.md).
-
