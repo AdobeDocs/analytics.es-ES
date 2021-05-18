@@ -3,14 +3,13 @@ description: Configuración que define cómo aparecen todos los informes y la in
 title: Configuración de visualización de informes y navegación
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1470'
 ht-degree: 99%
 
 ---
-
 
 # Configuración de visualización de informes y navegación
 
@@ -18,7 +17,7 @@ Configuración que define cómo aparecen todos los informes y la información qu
 
 ## Configuración de visualización de informes y navegación {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Componentes]** > **[!UICONTROL Configuración de informes]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL Componentes]**  >  **[!UICONTROL Todos los componentes]**  > Configuración  **[!UICONTROL de informes]**
 
 | Elemento | Descripción |
 |--- |--- |
@@ -149,4 +148,3 @@ Si está acostumbrado al menú predeterminado, la tabla siguiente le facilita en
 | **Informes personalizados** |  |  |
 |  | Los informes personalizados solo se muestran si tiene alguno configurado. | Informes personalizados |
 |  |  |  |
-
