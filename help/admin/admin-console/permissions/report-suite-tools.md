@@ -2,11 +2,10 @@
 title: Permisos de perfil de productos para las herramientas de grupo de informes
 description: Comprenda cada elemento de permiso en Herramientas de grupos de informes.
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 98%
+source-wordcount: '664'
+ht-degree: 96%
 
 ---
 
@@ -49,7 +48,7 @@ Utilice esta página para comprender cada elemento de permisos en Herramientas d
 | Administrador de feeds de datos | Otorga acceso a Administración > Feeds de datos en la navegación superior de Analytics. |
 | Informe del Data Warehouse personalizado | Otorga acceso a Herramientas > Data Warehouse en la navegación superior de Analytics. |
 | Visitas de retorno diario | Otorga acceso a Retención de visitantes > Visitas de retorno diario en Reports &amp; Analytics. |
-| Administrador de fuentes de datos | Otorga acceso a Administración > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
+| Administrador de fuentes de datos | Otorga acceso a Administración > Todos los administradores > Fuentes de datos en la navegación superior de Analytics. Requiere el elemento de permiso &#39;Administración de grupos de informes&#39;. |
 | Excluir por dirección IP | Otorga acceso a Administración > Excluir por dirección IP en la navegación superior de Analytics. |
 | Últimos 100 visitantes | No se usa. |
 | ClickMap heredado | No se usa. En su lugar, utilice Activity Map en Herramientas de Analytics. |
