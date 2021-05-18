@@ -1,14 +1,13 @@
 ---
 description: Importe datos de seguimiento de aplicaciones de terceros en Analytics.
 title: Introducción a Data Connectors de Analytics
-translation-type: ht
-source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
-workflow-type: ht
-source-wordcount: '973'
-ht-degree: 100%
+exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '975'
+ht-degree: 99%
 
 ---
-
 
 # Descripción general de Data Connectors
 
@@ -48,7 +47,7 @@ Antes de configurar la integración de Data Connectors para su producto, haga lo
 Debe tener una cuenta actual para acceder a la página de aterrizaje de [!UICONTROL Data Connectors] (consola). También es aconsejable que esté familiarizado con Adobe Analytics.
 
 1. Inicie sesión en Adobe Experience Cloud.
-1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administrador]** > **[!UICONTROL Data Connectors]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Conectores de datos]**.
 1. Haga clic en **[!UICONTROL Agregar nuevo]**.
 1. Siga los pasos de la interfaz **[!UICONTROL Añadir integración]**.
 
