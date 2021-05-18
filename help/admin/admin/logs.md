@@ -1,13 +1,12 @@
 ---
 description: Los archivos de registro ayudan a ver cuándo los usuarios inician la sesión, su uso, los accesos, los grupos de informes y los cambios del administrador.
 title: Registros
-feature: Admin Tools
+feature: Herramientas de administración
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 72%
+source-wordcount: '601'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 72%
 
 Los archivos de registro ayudan a ver cuándo los usuarios inician la sesión, su uso, los accesos, los grupos de informes y los cambios del administrador.
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Registros]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL Administración]**  >  **[!UICONTROL Todos los administradores]**  >  **[!UICONTROL Registros]**
 
 ## Registro de administración {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -71,7 +70,7 @@ El [!UICONTROL registro de uso y acceso] permite evaluar el uso de los informes 
 | Método API | Se realizó una llamada de API. |
 
 
-## Registro de cambios del grupo de informes  {#section_3864966639414BBEA871F4D0352F56B6}
+## Registro de cambios del grupo de informes {#section_3864966639414BBEA871F4D0352F56B6}
 
 El registro de cambios del grupo de informes muestra los cambios realizados en los grupos de informes fuera de la administración.
 
