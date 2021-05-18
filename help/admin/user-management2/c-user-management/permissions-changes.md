@@ -3,13 +3,12 @@ description: Contenido de permisos heredados
 keywords: grupos;permisos
 subtopic: Users and groups
 title: Cambios en los permisos de usuarios y grupos
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 97%
+source-wordcount: '1566'
+ht-degree: 96%
 
 ---
 
@@ -18,9 +17,9 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->La administración de usuarios y productos se ha trasladado al [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]**.
+>La administración de usuarios y productos se ha trasladado al [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Una vez que se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]**.
 
-## ¿Qué ha cambiado? {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
+## ¿Qué ha cambiado?  {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
 **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]** > **[!UICONTROL Grupos]**
 
