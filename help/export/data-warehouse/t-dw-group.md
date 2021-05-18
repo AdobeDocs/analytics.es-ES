@@ -4,11 +4,10 @@ title: Añadir un grupo de usuarios de Data Warehouse
 feature: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '209'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Instrucciones sobre cómo los administradores pueden activar el acceso a los informes de Data Warehouse para un grupo de usuarios.
 
-1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]**.
 1. Haga clic en **[!UICONTROL Editar grupos]**.
 1. Haga clic en **[!UICONTROL Agregar nuevo grupo de usuarios]**.
 1. En la sección **[!UICONTROL Definir grupo de usuarios]**, escriba un nombre en el campo Nombre del grupo. Proporcione la información de grupo siguiente:
