@@ -1,15 +1,14 @@
 ---
-description: Implemente el conector de datos de Kampyle en Adobe Analytics.
+description: Implemente el conector de datos Kampyle en Adobe Analytics.
 title: Implementación de la integración
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
-translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '450'
 ht-degree: 46%
 
 ---
-
 
 # Implementación de la integración {#deploying-the-integration}
 
@@ -20,17 +19,17 @@ La implementación de esta integración consiste en completar el asistente de in
 Para activar la integración, complete el asistente de configuración en la interfaz de Data Connectors.
 
 1. Inicie sesión en Adobe Experience Cloud.
-1. Vaya a **[!UICONTROL Data Connectors]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Conectores de datos]**.
 1. Inicie el asistente de integración de Kampyle.
 1. Seleccione el grupo de informes deseado y proporcione un nombre para la integración.
 1. Configure las opciones siguientes:
    1. **[!UICONTROL Dirección]** de correo electrónico: La dirección de correo electrónico del contacto principal.
    1. **[!UICONTROL Descripción]**  (opcional): Descripción de esta configuración de integración.
    1. **[!UICONTROL Clave de Kampyle]**: Busque esta clave en la aplicación Kampyle en  **[!UICONTROL Formulario]**  de comentarios > Personalización  **[!UICONTROL del formulario de comentarios]**.
-   1. **[!UICONTROL Servidor]** de seguimiento: El valor del servidor de seguimiento que utiliza para realizar el seguimiento de los datos de Adobe Analytics.
+   1. **[!UICONTROL Servidor]** de seguimiento: El valor del servidor de seguimiento que utiliza para rastrear datos de Adobe Analytics.
    1. **[!UICONTROL Servidor de seguimiento seguro]**: Si su servidor de seguimiento es diferente para el tráfico seguro/https, proporcione esta configuración aquí.
 1. Configure las siguientes opciones de **[!UICONTROL Asignaciones de variables]**:
-   1. **[!UICONTROL ID de comentarios de Kampyle]**: Seleccione una variable eVar disponible en el grupo de informes
+   1. **[!UICONTROL ID de comentarios de Kampyle]**: Seleccione una variable de eVar disponible en el grupo de informes
    1. **[!UICONTROL Grado]** de comentarios: Seleccione un evento de éxito disponible (escriba &quot;contador&quot;) en el grupo de informes.
    1. **[!UICONTROL Elementos]** de comentarios: Seleccione un evento de éxito disponible (escriba &quot;contador&quot;) en el grupo de informes.
    1. **[!UICONTROL Comentarios con categoría]**: Seleccione un evento de éxito disponible (escriba &quot;contador&quot;) en el grupo de informes.
@@ -80,4 +79,4 @@ Vea sus informes de comentarios de Kampyle con Adobe Analytics navegando hasta l
 >
 >Los datos de los informes deberían aparecer en un plazo de 24 a 48 horas después de la implementación, suponiendo que los formularios de comentarios integrados reciban los envíos de manera activa.
 
-![Datos de informes de Adobe](assets/adobe_reporting_data.png)
+![datos de informes de Adobe](assets/adobe_reporting_data.png)
