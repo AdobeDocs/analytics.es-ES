@@ -3,14 +3,13 @@ description: Habilite permisos de usuario para Acceso a la API, Administración 
 keywords: grupos;permisos
 subtopic: Users and groups
 title: Personalizar herramientas de grupos de informes
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 93%
+source-wordcount: '1167'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]**.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Una vez que se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]**.
 
 Habilite permisos de usuario para Acceso a la API, Administración de grupos de informes, Herramientas e informes, y Elementos de tablero.
 
