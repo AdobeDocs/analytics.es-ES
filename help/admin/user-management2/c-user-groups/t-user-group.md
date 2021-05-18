@@ -2,14 +2,13 @@
 description: Instrucciones sobre cómo agregar un grupo de usuarios.
 subtopic: Users and groups
 title: Agregar un grupo de usuarios
-feature: Admin Tools
+feature: Herramientas de administración
 uuid: 01b662df-040d-48e6-a5c1-6ce65341bf79
 exl-id: a954c88a-7e68-4a2a-a231-c957257ae433
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '183'
+ht-degree: 86%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Cuando se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Herramientas de administración]** > **[!UICONTROL Administración de usuarios]**.
+>La administración de usuarios y productos se va a trasladar a [Admin Console](https://helpx.adobe.com/es/enterprise/using/admin-console.html). Adobe le avisará cuando deba migrar a sus usuarios. Una vez que se hayan migrado todos los clientes, se retirará el contenido de ayuda de **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]**.
 
 Instrucciones sobre cómo agregar un grupo de usuarios.
 
-1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Administración de usuarios]**.
+1. Haga clic en **[!UICONTROL Analytics]** > **[!UICONTROL Administración]** > **[!UICONTROL Todos los administradores]** > **[!UICONTROL Administración de usuarios]**.
 1. Haga clic en **[!UICONTROL Agregar un nuevo grupo de usuarios]** y rellene luego los campos y las opciones que se describen en [Definir grupos de usuarios](/help/admin/user-management2/c-user-groups/groups.md).
 
    Vínculos rápidos:
