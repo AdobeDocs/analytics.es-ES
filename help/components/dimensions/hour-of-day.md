@@ -1,14 +1,14 @@
 ---
 title: Hora del día
 description: La hora numérica del día, independientemente de qué día.
+exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '356'
 ht-degree: 100%
 
 ---
-
 
 # Hora del día
 
