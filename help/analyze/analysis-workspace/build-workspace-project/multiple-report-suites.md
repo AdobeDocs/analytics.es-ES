@@ -1,16 +1,16 @@
 ---
 title: Múltiples grupos de informes
 description: Descubra cómo y por qué crear proyectos en Workspace con varios grupos de informes
-feature: Workspace Basics
+feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '528'
+exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '525'
 ht-degree: 100%
 
 ---
-
 
 # Múltiples grupos de informes
 
