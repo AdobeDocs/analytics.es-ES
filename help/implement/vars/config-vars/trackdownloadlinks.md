@@ -1,11 +1,14 @@
 ---
 title: trackDownloadLinks
 description: Habilite o deshabilite el seguimiento automático de vínculos para los vínculos de descarga.
+exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
-
 
 # trackDownLoadLinks
 
