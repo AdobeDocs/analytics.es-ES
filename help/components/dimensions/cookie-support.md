@@ -1,14 +1,14 @@
 ---
 title: Compatibilidad con cookies
 description: Determina si el explorador admite cookies.
+exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '187'
 ht-degree: 100%
 
 ---
-
 
 # Compatibilidad con cookies
 
