@@ -1,14 +1,14 @@
 ---
 title: getTimeToComplete
 description: Mida el tiempo que se tarda en completar una tarea.
+exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 translation-type: ht
-source-git-commit: 37a3a44053260d9cdb2a3797e07f6d34592abc1f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '762'
 ht-degree: 100%
 
 ---
-
 
 # Complemento de Adobe: getTimeToComplete
 
