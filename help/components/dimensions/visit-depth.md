@@ -1,14 +1,14 @@
 ---
 title: Profundidad de la visita
 description: Dimensión basada en visitas que indica la profundidad de la visita.
+exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # Profundidad de la visita
 
