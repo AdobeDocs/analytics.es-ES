@@ -1,14 +1,14 @@
 ---
 title: purchaseID
 description: Anule la duplicación de visitas en función de un identificador de compra único.
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # purchaseID
 
@@ -32,7 +32,7 @@ Esta variable puede almacenar un máximo de 20 bytes. Los valores superiores a 2
 s.purchaseID = "ABC123";
 ```
 
-Si utiliza la capa `digitalData` [de](../../prepare/data-layer.md)datos:
+Si utiliza la `digitalData` [capa de datos](../../prepare/data-layer.md):
 
 ```js
 s.purchaseID = digitalData.transaction.transactionID;
