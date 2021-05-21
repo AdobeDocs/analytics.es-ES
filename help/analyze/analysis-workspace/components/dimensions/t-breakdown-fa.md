@@ -3,16 +3,16 @@ description: Desglose de dimensiones y elementos de dimensión en Analysis Works
 keywords: Analysis Workspace
 title: Desglose de dimensiones
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-feature: Workspace Basics
+feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '233'
+exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # Desglose de dimensiones
 
@@ -33,7 +33,7 @@ Desglose los datos ilimitadamente para sus necesidades específicas; genere cons
 
 [Añadir Dimensión y métricas al proyecto en Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
-[Trabajo con Dimensiones en una tabla improvisada](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
+[Trabajo con Dimensiones en una tabla improvisada](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
 ## Aplicar modelos de atribución a desgloses
 
