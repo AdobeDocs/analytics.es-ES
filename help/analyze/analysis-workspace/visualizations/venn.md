@@ -2,16 +2,16 @@
 description: La visualización Venn le permite arrastrar hasta tres segmentos (de Componentes) y una métrica para generar un diagrama de Venn.
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
-feature: Visualizations
+feature: Visualizaciones
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 97%
+exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '105'
+ht-degree: 100%
 
 ---
-
 
 # Venn
 
@@ -28,4 +28,3 @@ Para transformar un diagrama de Venn en una tabla improvisada, haga clic en el p
 Para normalizar el diagrama de Venn (obtener su tamaño), vaya al icono de su Configuración de visualización y seleccione **[!UICONTROL Normalización]**.
 
 ![](assets/normalization.png)
-
