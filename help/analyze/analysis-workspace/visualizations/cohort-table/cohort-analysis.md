@@ -1,16 +1,16 @@
 ---
 title: ¿Qué es el ánálisis de cohortes y cómo funciona?
 description: Explore en detalle los datos de su audiencia y desglóselos en grupos relacionados mediante el análisis de cohortes. Obtenga información sobre el análisis de cohorte en Analysis Workspace.
-feature: Visualizations
+feature: Visualizaciones
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 99%
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '493'
+ht-degree: 100%
 
 ---
-
 
 # Obtenga información acerca de los [!UICONTROL análisis de cohortes] en Adobe Analytics
 
@@ -72,4 +72,3 @@ Cree cohortes basadas en una dimensión seleccionada y no en el tiempo, que es e
 ![](assets/cohort-customizable-cohort-row.png)
 
 Para obtener instrucciones sobre cómo se configura y ejecuta un informe de cohorte, visite [Configurar un informe de análisis de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md).
-
