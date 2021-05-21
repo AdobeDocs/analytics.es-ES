@@ -1,14 +1,14 @@
 ---
 title: Preguntas frecuentes
 description: Conozca las respuestas a las preguntas más frecuentes sobre el cambio desde una plataforma de terceros a Adobe.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '403'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
-
 
 # Preguntas frecuentes
 
@@ -20,7 +20,7 @@ Si su organización insiste en tener datos históricos transferidos a Adobe, pó
 
 Adobe no recomienda la portabilidad de datos históricos, ya que se trata de un proceso complejo y con un coste elevado para su organización. También es complicado trasladar la identificación del visitante a Adobe, ya que la información del visitante se almacena en diferentes cookies y formatos entre plataformas.
 
-**Estoy acostumbrado a un menú desplegable de segmentación en muchos de mis informes. ¿Cómo puedo recrear esta situación en[!UICONTROL Analysis Workspace]?**
+**Estoy acostumbrado a un menú desplegable de segmentación en muchos de mis informes. ¿Cómo puedo recrear esta situación en [!UICONTROL Analysis Workspace]?**
 
 Los filtros desplegables son una funcionalidad flexible y práctica de [!UICONTROL Analysis Workspace] que permite desglosar una segmentación. En un proyecto de Workspace:
 
@@ -29,6 +29,6 @@ Los filtros desplegables son una funcionalidad flexible y práctica de [!UICONTR
 
 Los usuarios que accedan a este proyecto de [!UICONTROL Workspace] pueden utilizar el desplegable para aplicar segmentos y otros componentes al proyecto. Consulte [Información general sobre paneles](/help/analyze/analysis-workspace/c-panels/panels.md) en la guía de herramientas de Adobe Analytics para obtener más información.
 
-**Estoy acostumbrado a hacer clic en un elemento de dimensión para ver una exploración en profundidad. ¿Cómo puedo replicar ese sencillo flujo de trabajo en Analysis Workspace?**
+**Estoy acostumbrado a hacer clic en un elemento de dimensión para ver la navegación por jerarquía. ¿Cómo puedo replicar ese sencillo flujo de trabajo en Analysis Workspace?**
 
-Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. Puede acceder a él haciendo clic con el botón derecho en lugar de hacer clic con el botón izquierdo. Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. Puede aplicar el mismo desglose a varios elementos de dimensión mediante ctrl+clic (Windows) o cmd+clic (Mac) en cada valor.
+Los valores de dimensión en [!UICONTROL Analysis Workspace] también tienen un flujo de trabajo de desglose sencillo. Puede acceder a él haciendo clic con el botón derecho en lugar de hacer clic con el botón izquierdo. Haga clic con el botón derecho en un elemento de dimensión, haga clic en **[!UICONTROL Desglose] y seleccione el componente deseado. Puede aplicar el mismo desglose a varios elementos de dimensión pulsando Ctrl+clic (Windows) o Cmd+clic (Mac) en cada valor.
