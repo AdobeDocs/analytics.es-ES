@@ -2,14 +2,14 @@
 description: Configure un grupo de informes asignado a Experience Cloud para utilizarlo en Advertising Analytics.
 title: Activación de un grupo de informes para Advertising Analytics
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
+exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '283'
 ht-degree: 100%
 
 ---
-
 
 # Activación de un grupo de informes para Advertising Analytics
 
@@ -36,4 +36,3 @@ Para poder consultar los datos de búsqueda de Advertising Analytics en Analytic
    | Caduca después | Le permite especificar un período de tiempo o un evento tras el cual caduca el valor de la eVar (es decir, ya no recibe crédito por los eventos de éxito).  Si se da un evento de éxito después de que caduque la eVar, el valor Ninguno recibe crédito por el evento (no había ninguna eVar activa). |
 
 1. Haga clic en **[!UICONTROL Activar informes de Advertising Analytics]** (primera vez) o en **[!UICONTROL Actualizar informes de Advertising Analytics]** (veces subsiguientes). Ahora, su grupo de informes está listo para recibir datos de búsqueda de Advertising Analytics. No está listo para [crear cuentas publicitarias](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md).
-
