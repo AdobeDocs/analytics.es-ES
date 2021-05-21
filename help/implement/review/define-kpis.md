@@ -1,43 +1,43 @@
 ---
-title: Definir los 5 KPI principales
-description: Asegúrese de que los indicadores de rendimiento clave y las métricas y dimensiones asociadas se alinean estrechamente con las necesidades comerciales.
-translation-type: tm+mt
-source-git-commit: 145b31d01b7ec52ae3c65035774a5be54abbc51a
-workflow-type: tm+mt
+title: Definición de los 5 KPI principales
+description: Asegúrese de que los indicadores de rendimiento clave y las métricas y dimensiones asociadas se alinean con precisión con las necesidades de su empresa.
+exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
+# Definición de los 5 KPI principales
 
-# Definir los 5 KPI principales
+No puede medir todo, y su implementación de Adobe Analytics será la mejor si prioriza la medición de lo más importante para la empresa. Trabaje con los líderes de su empresa para definir los indicadores clave de rendimiento (KPI) que tienen un mayor impacto en su negocio. A continuación, concentre sus esfuerzos en las métricas y variables que admiten estos KPI.
 
-Simplemente no puede medir todo y su implementación de Adobe Analytics será la más exitosa si da prioridad a la medición de lo que es más importante para el negocio. Trabaje con los líderes empresariales para definir los indicadores de rendimiento clave (KPI) que tienen mayor impacto en su negocio. A continuación, concentre sus esfuerzos en las métricas y variables que admiten dichos KPI.
+## 1. Comprenda sus objetivos empresariales
 
-## 1. Comprender los objetivos comerciales
+Comience por comprender los objetivos empresariales, de modo que pueda elegir los 5 KPI más importantes para la empresa. Estos KPI pueden ser métricas como, por ejemplo, ingresos, o métricas calculadas, como ingresos por visita, y las métricas también pueden tener variables. NO copie KPI aleatorios de otras empresas o estándares del sector; probablemente no se ajusten a SUS objetivos comerciales.
 
-Inicio mediante la comprensión de los objetivos comerciales, para que pueda elegir los 5 KPI más importantes para la empresa. Estos KPI pueden ser métricas como ingresos, métricas calculadas como ingresos por visita y métricas que también pueden tener variables. NO copie KPI aleatorios de otras compañías o estándares del sector, probablemente no se ajusten a sus objetivos comerciales.
+## 2. Formule una pregunta crucial
 
-## 2. Haga la pregunta crucial
+Pregúntese a usted mismo: si su CEO estuviera atrapado en una isla y usted pudiera decirle solo 5 cosas acerca de la salud de la empresa, ¿cuáles serían esas cosas? Si usted le dijera que el tiempo promedio empleado en una página era 1:30, eso no ayudaría en absoluto. Sin embargo, si le dijera que los ingresos promedios por visita fue de 2 dólares y que tenía 2 millones de visitas, eso le daría una verdadera indicación del éxito de la empresa.
 
-Pregúntese a sí mismo: Si mi CEO estuviera atascado en una isla y pudieras decirle sólo 5 cosas sobre la salud de los negocios, ¿cuáles serían esas cosas? Si le dijeras que el tiempo promedio que pasaba en una página era 1:30, eso no la ayudaría en absoluto. Sin embargo, si usted le dijo que el ingreso promedio por visita fue de $2.00 y usted tuvo 2 millones de visitas, eso le dará una verdadera indicación del éxito del negocio.
-
-## 3. Recuerde qué son los KPI y cuáles no
+## 3. Recuerde cuáles son los KPI y cuáles no
 
 ![](assets/kpis.png)
 
-## 4. Definir los KPI
+## 4. Defina los KPI
 
-Rellene su propio gráfico, similar a este:
+Complete su propio gráfico, similar a este:
 
-| Objetivo comercial | Métricas y dimensiones |
+| Objetivo empresarial | Métricas y dimensiones |
 | --- | --- |
 | Aumentar las ventas a través de canales digitales | Ingresos por visita |
-| Aumentar la conciencia de la marca | Visitantes |
-| Impulse relaciones más profundas y duraderas con los clientes | Inicios de sesión, clics |
-| Conversión del sitio | Clics de llamada a acción / Total de vistas de página |
-| Participación en el sitio | Vistas de página por visitante único, tiempo promedio de visitante en el sitio |
+| Aumentar la imagen de marca | Visitantes |
+| Dirigir relaciones de cliente más profundas y duraderas | Inicios de sesión, clics |
+| Conversión de sitio | Clics en CTA/Vistas de página totales |
+| Participación del sitio | Vistas de página por visitante único, Tiempo en el sitio de visitante promedio |
 
-## 5. Revisar los KPI con regularidad
+## 5. Revise los KPI regularmente
 
-Actualice los KPI al menos cada 6 meses. Recuerde que las necesidades del negocio cambiarán con frecuencia.
+Actualice los KPI al menos cada 6 meses. Recuerde que las necesidades de la empresa cambian con frecuencia.
