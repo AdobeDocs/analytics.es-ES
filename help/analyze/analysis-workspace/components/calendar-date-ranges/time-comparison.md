@@ -2,16 +2,16 @@
 description: La comparación de fechas de Analysis Workspace le permite tomar cualquier columna que contenga un intervalo de fechas y crear una comparación de fechas comunes, por ejemplo, año tras año, trimestre tras trimestre, mes tras mes, etc.
 title: Comparación de fechas
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Workspace Basics
+feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '643'
+exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '640'
 ht-degree: 100%
 
 ---
-
 
 # Comparación de fechas
 
@@ -101,4 +101,3 @@ Ejemplo: Cuando elija alinear las fechas, si realiza una comparación mes tras m
 <p>See Jonny Moon's email from November 3. </p>
 
  -->
-
