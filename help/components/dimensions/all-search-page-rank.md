@@ -1,14 +1,14 @@
 ---
 title: Clasificación de todas las páginas de búsqueda
 description: Determinar en qué página de un motor de búsqueda hizo clic un visitante en el sitio.
+exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
 ---
-
 
 # Clasificación de todas las páginas de búsqueda
 
