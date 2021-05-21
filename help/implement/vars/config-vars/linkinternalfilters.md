@@ -1,14 +1,14 @@
 ---
 title: linkInternalFilters
 description: Utilice la variable linkInternalFilters para ayudar al seguimiento automático de vínculos de salida.
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
-
 
 # linkInternalFilters
 
@@ -18,7 +18,7 @@ Si esta variable contiene un valor, el seguimiento automático de vínculos de s
 
 Si utiliza `linkInternalFilters` y `linkExternalFilters` simultáneamente, el vínculo en el que se hizo clic debe coincidir con `linkExternalFilters` **y no** con `linkInternalFilters` para considerarse como un vínculo de salida. Si un vínculo en el que se hizo clic coincide con los criterios de vínculo de salida y de descarga, el tipo de vínculo de descarga tiene prioridad.
 
-El mapa de actividad utiliza esta variable para determinar qué vínculos son internos al sitio. Adobe recomienda configurar esta variable para implementaciones que utilicen el mapa de Actividad.
+Activity Map utiliza esta variable para determinar qué vínculos son internos del sitio. Adobe recomienda configurar esta variable para implementaciones que utilizan Activity Map.
 
 >[!NOTE]
 >
