@@ -1,14 +1,14 @@
 ---
 title: Instancias
 description: El número de visitas que se configuró una variable (y no persistió).
+exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '129'
 ht-degree: 100%
 
 ---
-
 
 # Instancias
 
