@@ -1,16 +1,16 @@
 ---
 description: Cálculo de totales de Workspace.
 title: Totales de Workspace
-feature: Freeform Tables
+feature: Tablas improvisadas
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 99%
+exl-id: 883c3e44-4139-46a1-a261-e11841312465
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '516'
+ht-degree: 100%
 
 ---
-
 
 # Totales de Workspace
 
@@ -27,9 +27,9 @@ En **[!UICONTROL Configuración de columna]** hay opciones para **[!UICONTROL Mo
 
 ![](assets/column-settings-total.png)
 
-## Configuración total de fila estática  {#static-row-total}
+## Configuración total de fila estática {#static-row-total}
 
-Los totales de [filas estáticas](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=es-ES) se comportan de forma diferente y se controlan desde **[!UICONTROL Configuración de fila]**.
+Los totales de [filas estáticas](https://docs.adobe.com/content/help/es-ES/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html) se comportan de forma diferente y se controlan desde **[!UICONTROL Configuración de fila]**.
 
 * **[!UICONTROL Mostrar la suma de las filas actuales como el total]**: muestra una suma del lado del cliente de las filas de la tabla, lo que significa que el total **no** eliminará las métricas duplicadas como visitas o visitantes.
 * **[!UICONTROL Mostrar total general]**: muestra una suma del lado del servidor, lo que significa que el total eliminará la duplicación de métricas como visitas o visitantes.
@@ -45,4 +45,3 @@ Los totales de [filas estáticas](https://experienceleague.adobe.com/docs/analyt
 | Cuando se aplican filtros de tabla personalizados a una tabla de forma libre, ¿tienen en cuenta todas mis métricas calculadas y el formato condicional para el filtro? | Actualmente no. **[!UICONTROL Incluir No especificado (Ninguno)]** se contabilizará, pero los filtros de tabla personalizados no afectarán a lo siguiente:<ul><li>El rango máximo/mínimo de columna que utiliza el formato condicional comprobará todos los datos.</li><li>Métricas calculadas que aprovechan los tipos de métricas **[!UICONTROL Total general]**.</li><li>Métricas calculadas con funciones que calculan en filas de una tabla improvisada, por ejemplo: Suma de columna, Máximo de columna, Mínimo de columna, Recuento, Media, Mediana, Percentil, Cuartil, Recuento de filas, Desviación estándar, Variación, Acumulativo, Promedio Acumulado, Variantes de regresión, Puntuación T, Prueba T, Puntuación Z, Prueba Z.</li></ul> |
 | En Métricas calculadas, ¿qué refleja el tipo de métrica **[!UICONTROL Total general]**? | **[!UICONTROL Total general]** sigue haciendo referencia al **[!UICONTROL Total general]** y no refleja los filtros aplicados a una tabla o al **[!UICONTROL Total de tabla]**. |
 | ¿Qué total se muestra cuando los datos se copian y pegan desde una tabla improvisada o se descargan mediante CSV? | La fila total reflejará únicamente el **[!UICONTROL Total de tabla]** y respetará la configuración de la columna **[!UICONTROL Mostrar totales]**. |
-
