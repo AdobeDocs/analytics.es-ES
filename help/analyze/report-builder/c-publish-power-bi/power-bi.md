@@ -4,14 +4,14 @@ title: Resumen de publicación en Power BI
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 99%
+exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1028'
+ht-degree: 100%
 
 ---
-
 
 # Resumen de publicación en Power BI
 
@@ -137,4 +137,3 @@ Cada solicitud programada de Report Builder se publica como una tabla en el conj
 1. Fíjese también en que hay una tabla adicional llamada **[!UICONTROL Leyenda]**. Si saca una solicitud del contexto de Report Builder, puede ser difícil recordar qué significa. El propósito de la tabla Leyenda es, por ejemplo, mostrarle el nombre de cada solicitud bajo el ID de tabla. También puede añadir otras columnas Leyenda para obtener una visualización completa de la solicitud.
 
    ![](assets/legend-table.png)
-
