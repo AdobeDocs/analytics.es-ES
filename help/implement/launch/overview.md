@@ -1,14 +1,14 @@
 ---
 title: Introducción a la implementación con Launch
 description: Obtenga información sobre cómo implementar Adobe Analytics mediante Adobe Experience Platform Launch
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 translation-type: ht
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # Introducción a la implementación con Launch
 
