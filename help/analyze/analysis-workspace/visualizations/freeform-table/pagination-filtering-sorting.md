@@ -2,16 +2,16 @@
 description: Vídeo sobre paginación, filtrado y ordenación.
 title: Paginación, filtrado y ordenación de tablas
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-feature: Freeform Tables
+feature: Tablas improvisadas
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 97%
+exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '98'
+ht-degree: 100%
 
 ---
-
 
 # Paginación, filtrado y ordenación de tablas
 
@@ -36,4 +36,3 @@ Al hacer clic en el icono de filtro y, luego, en Mostrar avanzado junto a una di
 * Finaliza con
 
 ![](assets/advanced-filter.png)
-
