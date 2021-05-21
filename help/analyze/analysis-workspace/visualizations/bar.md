@@ -2,16 +2,16 @@
 description: Utilice la visualización de barras en un proyecto de Workspace.
 title: Barra y barra apilada
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: Visualizations
+feature: Visualizaciones
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '92'
-ht-degree: 96%
+exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '89'
+ht-degree: 100%
 
 ---
-
 
 # Barra y barra apilada
 
@@ -32,4 +32,3 @@ Esta visualización es similar a un gráfico de barras, pero con las barras de s
 Una nueva configuración en las visualizaciones de barras apiladas convierte el gráfico en una visualización apilada al 100 %:
 
 ![](assets/stacked_100_percent.png)
-
