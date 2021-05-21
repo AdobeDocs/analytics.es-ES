@@ -1,14 +1,14 @@
 ---
 title: Vínculos de no participación
 description: Obtenga información sobre cómo crear e implementar Vínculos de no participación para los visitantes del sitio.
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
 ---
-
 
 # Implementación de Vínculos de no participación
 
