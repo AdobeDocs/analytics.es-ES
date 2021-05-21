@@ -4,14 +4,14 @@ title: Comparación de las API de informes de Analytics
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
-workflow-type: tm+mt
-source-wordcount: '284'
+exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '283'
 ht-degree: 100%
 
 ---
-
 
 # Comparación de las API de informes de Analytics
 
@@ -19,7 +19,7 @@ Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos
 
 >[!NOTE]
 >
->En cuanto a latencia, Analytics para Target (A4T) combina datos de Analytics y Target en la misma visita para generar así informes integrados. Dado que las llamadas de Analytics y Target se producen en momentos diferentes, las visitas se almacenan antes de procesarse para poder recopilar datos de las dos soluciones. Este proceso añade **de 7 a 10 minutos más** de latencia a todos los puntos de comprobación.
+>En cuanto a latencia, Analytics for Target (A4T) combina datos de Analytics y Target en la misma visita para generar así informes integrados. Dado que las llamadas de Analytics y Target se producen en momentos diferentes, las visitas se almacenan antes de procesarse para poder recopilar datos de las dos soluciones. Este proceso añade **de 7 a 10 minutos más** de latencia a todos los puntos de comprobación.
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -95,4 +95,3 @@ Una tabla comparativa de las API de informes de Analytics. Se incluyen vínculos
 
 * [Adobe/IO](https://www.adobe.io/): una fuente exhaustiva de documentación técnica y herramientas necesarias para integrar las tecnologías de Adobe en sus aplicaciones.
 * [API de consulta del Data Workbench](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
-
