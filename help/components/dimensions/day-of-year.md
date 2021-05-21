@@ -1,14 +1,14 @@
 ---
 title: Día del año
 description: El día numérico del año, independientemente de qué año.
+exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '108'
 ht-degree: 100%
 
 ---
-
 
 # Día del año
 
