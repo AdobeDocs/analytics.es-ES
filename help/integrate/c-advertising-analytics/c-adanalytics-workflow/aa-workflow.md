@@ -1,24 +1,24 @@
 ---
-description: Información general sobre el flujo de trabajo de Análisis de publicidad.
+description: Descripción general del flujo de trabajo de Advertising Analytics.
 title: Resumen del flujo de trabajo
-translation-type: tm+mt
-source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
-workflow-type: tm+mt
+exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '164'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-
 # Resumen del flujo de trabajo
 
-![](assets/step1_icon.png) Asigne cualquier grupo de informes de Adobe Analytics en el que desee vista de datos de búsqueda de Google/Bing a su organización de Experience Cloud.
+![](assets/step1_icon.png) Asigne a su organización de Experience Cloud cualquier grupo de informes de Adobe Analytics donde quiera ver datos de búsqueda de Google/Bing.
 
 Consulte [Asignación de grupos de informes a una organización](https://docs.adobe.com/content/help/es-ES/core-services/interface/about-core-services/report-suite-mapping.html).
 
 ![](assets/step2_icon.png) [Activación de los informes de Advertising Analytics por grupo de informes](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.
+Activa los informes de [!UICONTROL Advertising Analytics] para grupos de informes activados por Experience Cloud.
 
 ![](assets/step3_icon.png) [Configurar una cuenta de Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -30,7 +30,7 @@ Nota: Los datos de búsqueda se obtienen de los motores de búsqueda alrededor d
 
 Los informes están disponibles en
 
-* Analysis Workspace: [!UICONTROL Paid Search Performance] template
+* Analysis Workspace: Plantilla [!UICONTROL Rendimiento de búsqueda de pago]
 * Reports &amp; Analytics
 * Report Builder
 * API de informes de Analytics
