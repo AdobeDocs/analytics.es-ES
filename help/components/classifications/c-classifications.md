@@ -1,20 +1,20 @@
 ---
 title: Resumen general de las clasificaciones
 description: Personalice la agrupación de los elementos de dimensión.
+exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 translation-type: ht
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
 
-
 # Resumen general de las clasificaciones
 
 Las clasificaciones permiten aplicar categorías a los datos de variables de Analytics para mostrarlos de distintos modos cuando se generan los informes.
 
-Vídeo con información general sobre las [Clasificaciones de Analytics](https://video.tv.adobe.com/v/16853/?captions=spa).
+Vídeo con información general sobre las [Clasificaciones de Analytics](https://video.tv.adobe.com/v/16853/).
 
 **[!UICONTROL Administración]** > **[!UICONTROL Grupos de informes]** > **[!UICONTROL Editar configuración]** > *`<Traffic or Conversion>`*
 
@@ -62,4 +62,3 @@ En la tabla siguiente se describen los distintos tipos de clasificaciones dispon
   </tr> 
  </tbody> 
 </table>
-
