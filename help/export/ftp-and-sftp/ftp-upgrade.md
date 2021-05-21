@@ -3,11 +3,14 @@ description: Las actualizaciones de los servidores FTP de Adobe pueden introduci
 keywords: ftp;sftp
 title: Actualización de servidores FTP de Adobe
 uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: 442b2d5d-735c-4ece-a456-3a0ac5909c8c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
-
 
 # Actualización de servidores FTP de Adobe
 
