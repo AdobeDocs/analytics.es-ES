@@ -2,14 +2,14 @@
 description: El Creador de métricas calculadas proporciona un lienzo en el que arrastrar y soltar dimensiones, métricas, segmentos y funciones para crear métricas personalizadas basadas en lógica de jerarquía de contenedor, reglas y operadores. Esta herramienta de desarrollo integrada le permite crear y guardar métricas calculadas simples o métricas calculadas avanzadas complejas.
 title: Crear métricas
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
+exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '968'
 ht-degree: 100%
 
 ---
-
 
 # Crear métricas
 
@@ -143,4 +143,3 @@ Existen varias formas de acceder al Creador de métricas calculadas:
   </tr> 
  </tbody> 
 </table>
-
