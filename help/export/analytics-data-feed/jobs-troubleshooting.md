@@ -1,13 +1,16 @@
 ---
 description: Si se produce un error, se notifica en la columna Estado del trabajo.
-keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
+keywords: Fuente de datos;trabajo;resolución de problemas;error;ftp;chdir;conexión;inicio de sesión;put
 title: Solución de problemas de los trabajos
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: c082bc95-cdae-448b-86b5-695660fb2352
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '464'
+ht-degree: 100%
 
 ---
-
 
 # Solución de problemas de los trabajos
 
