@@ -2,14 +2,14 @@
 description: Administre cuentas en Advertising Analytics.
 title: Administrar las cuentas publicitarias
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
+exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
 ---
-
 
 # Administrar las cuentas publicitarias
 
@@ -79,4 +79,3 @@ Para acceder a la IU de administración, vaya a **[!UICONTROL Administración]**
   </tr> 
  </tbody> 
 </table>
-
