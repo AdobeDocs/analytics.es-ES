@@ -1,14 +1,14 @@
 ---
 title: Compatibilidad de dimensiones de Analytics
 description: Referencia para dimensiones e informes de Analytics.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # Compatibilidad de dimensiones de Analytics
 
@@ -16,17 +16,17 @@ Esta página enumera las dimensiones admitidas en sus respectivas funciones de A
 
 >[!NOTE]
 >
->En esta lista se omiten los nombres de las variables personalizadas, clasificaciones y atributos de visitantes. Estos elementos de dimensión son específicos de grupos de informes individuales.
+>En esta lista se omiten los nombres de las variables personalizadas, clasificaciones y atributos de visitantes. Estos elementos de dimensión son específicos de cada grupo de informes.
 
 >[!NOTE]
 >
->Hay algunas superposiciones en las que las herramientas de Analytics utilizan términos diferentes para dimensiones similares. Por ejemplo, Informes y Analytics utiliza `browserwidth` mientras que Analysis Workspace utiliza `browserwidthbucketed`.
+>Hay algunas superposiciones en las que las herramientas de Analytics utilizan términos diferentes para dimensiones similares. Por ejemplo, Reports &amp; Analytics utiliza `browserwidth` mientras que Analysis Workspace utiliza `browserwidthbucketed`.
 
 ## Dimensiones compatibles con Reports &amp; Analytics y con Analysis Workspace
 
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |---|---|
-| Analytics para Target | `targetraw` |
+| Analytics for Target | `targetraw` |
 | ID de audiencias | `mcaudiences` |
 | Explorador | `browser` |
 | Tipo de navegador | `browsertype` |
@@ -38,7 +38,7 @@ Esta página enumera las dimensiones admitidas en sus respectivas funciones de A
 | Países | `geocountry` |
 | Lealtad del cliente | `customerloyalty` |
 | Variables de conversión personalizadas | `evar1`, `evar2`, etc. |
-| Variables de perspectiva personalizadas | `prop1`, `prop2`, etc. |
+| Variables de Custom Insight | `prop1`, `prop2`, etc. |
 | Vínculo personalizado | `customlink` |
 | Días antes de la primera compra | `daysbeforefirstpurchase` |
 | Días desde la última compra | `dayssincelastpurchase` |
@@ -69,7 +69,7 @@ Esta página enumera las dimensiones admitidas en sus respectivas funciones de A
 | Tamaño de la pantalla del dispositivo móvil | `mobilescreensize` |
 | Ancho de la pantalla del dispositivo móvil | `mobilescreenwidth` |
 | Longitud máxima de la dirección URL del explorador móvil | `mobileurllength` |
-| Compatibilidad con el video del dispositivo móvil | `mobilevideosupport` |
+| Compatibilidad con el vídeo del dispositivo móvil | `mobilevideosupport` |
 | Resolución del monitor | `monitorresolution` |
 | Sistema operativo | `operatingsystem` |
 | Dominio de referencia original | `referringdomainoriginal` |
@@ -84,7 +84,7 @@ Esta página enumera las dimensiones admitidas en sus respectivas funciones de A
 | SC-TnT | `tntbase` |
 | Motor de búsqueda | `searchengine` |
 | Palabra clave de búsqueda | `searchenginekeyword` |
-| Motor de búsqueda  - Naturales | `searchenginenatural` |
+| Motor de búsqueda - Naturales | `searchenginenatural` |
 | Motor de búsqueda: de pago | `searchenginepaid` |
 | Palabra clave de búsqueda: natural | `searchenginenaturalkeyword` |
 | Palabra clave de búsqueda: de pago | `searchenginepaidkeyword` |
@@ -115,11 +115,11 @@ Esta página enumera las dimensiones admitidas en sus respectivas funciones de A
 | Día de la semana | `timepartdayofweek` |
 | Día del año | `timepartdayofyear` |
 | Días transcurridos desde la última visita | `dayssincelastvisit` |
-| Perspectivas personalizadas de entrada | `entryprops` |
+| Acceder a Custom Insights | `entryprops` |
 | Variables de lista de entrada | `entrylistvariables` |
 | Servidor de entrada | `entryserver` |
 | Sección de sitio de entrada | `entrysitesections` |
-| Perspectivas personalizadas de salida | `exitprops` |
+| Salir de Custom Insights | `exitprops` |
 | Variables de lista de salida | `exitlistvariables` |
 | Salir de la página | `exitpage` |
 | Servidor de salida | `exitserver` |
@@ -128,7 +128,7 @@ Esta página enumera las dimensiones admitidas en sus respectivas funciones de A
 | Tipo de visita | `hittype` |
 | Hora | `daterangehour` |
 | Hora del día | `timeparthourofday` |
-| Detalles de canal de marketing | `marketingchanneldetail` |
+| Detalles del canal de marketing | `marketingchanneldetail` |
 | Minuto | `daterangeminute` |
 | Longitud máxima del marcador móvil | `mobilebookmarklength` |
 | Número de dispositivo móvil | `mobiledevicenumber` |
@@ -306,7 +306,7 @@ Esta página enumera las dimensiones admitidas en sus respectivas funciones de A
 | Vínculo de Activity Map por región | `clickmaplinkbyregion` |
 | Región de Activity Map | `clickmapregion` |
 | Vínculo de Activity Map | `clickmaplink` |
-| Página de  Activity Map | `clickmappage` |
+| Página de Activity Map | `clickmappage` |
 
 ### Integración de Nielsen
 
@@ -331,7 +331,7 @@ Para obtener más información sobre la implementación de esta integración, vi
 | ID de cliente Nielsen de entrada | `entrynielsenclientid` |
 | ID de cliente Nielsen de salida | `exitnielsenclientid` |
 
-### Adobe Experience Manager  (AEM)
+### Adobe Experience Manager (AEM)
 
 | Nombre de la dimensión (visible en la interfaz de usuario de Analytics) | ID de dimensiones (utilizado en solicitudes de API) |
 |--- |--- |
