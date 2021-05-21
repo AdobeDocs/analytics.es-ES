@@ -1,14 +1,14 @@
 ---
 title: Trimestre
 description: El trimestre en el que se produjo la métrica.
+exl-id: e7c837d2-f891-4029-b520-4bc6c4387622
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '99'
 ht-degree: 100%
 
 ---
-
 
 # Trimestre
 
