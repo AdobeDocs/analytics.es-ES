@@ -1,14 +1,14 @@
 ---
 title: Seguimiento de correo electrónico externo
 description: Utilice Adobe Analytics para realizar un seguimiento del contenido del correo electrónico.
+exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '736'
 ht-degree: 100%
 
 ---
-
 
 # Seguimiento de correo electrónico externo
 
@@ -92,7 +92,7 @@ Hay que seguir varios pasos en orden para mostrar correctamente los datos de an�
 
    El análisis del control de rutas por campaña de correo electrónico se puede realizar de manera similar al control de rutas por cualquier otra campaña. Puede usar una variable para mostrar el control de rutas por campaña, como se explica en los siguientes pasos:
 
-   1. Consulte con Adobe [!DNL Customer Care] cómo activar el control de rutas para una variable [!UICONTROL Perspectiva personalizada] (prop)
+   1. Consulte con Adobe [!DNL Customer Care] cómo activar el control de rutas para una variable de [!UICONTROL Custom Insight] (prop)
 
    1. En todas las páginas, copie el nombre de la página en la [!DNL s.prop] designada.
    1. En la página de aterrizaje del correo electrónico, anexe el nombre de la campaña de correo electrónico a la prop. El resultado será el siguiente:
@@ -101,5 +101,5 @@ Hay que seguir varios pasos en orden para mostrar correctamente los datos de an�
       s.prop1="Home Page : 123456"
       ```
 
-      Cuando el control de rutas está habilitado para la variable [!UICONTROL Perspectiva personalizada], puede usar los informes de [!UICONTROL Rutas] (como [!UICONTROL Flujo de página siguiente] o [!UICONTROL Visitas en el orden previsto]) para ver la navegación del visitante desde la página de aterrizaje.
+      Cuando el control de rutas está habilitado para la variable [!UICONTROL Custom Insight], puede usar los informes de [!UICONTROL Rutas] (como [!UICONTROL Flujo de página siguiente] o [!UICONTROL Visitas en el orden previsto]) para ver la navegación del visitante desde la página de aterrizaje.
 
