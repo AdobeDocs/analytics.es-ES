@@ -1,14 +1,14 @@
 ---
 title: Visitantes con Experience Cloud ID
 description: El número de visitantes únicos que utilizan el servicio de Adobe Experience Cloud ID.
+exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '376'
 ht-degree: 100%
 
 ---
-
 
 # Visitantes con Experience Cloud ID
 
@@ -28,7 +28,7 @@ La métrica “Visitantes con Experience Cloud ID” puede resultar útil para s
 
 Arrastre los “Visitantes con Experience Cloud ID” en paralelo con los visitantes únicos para compararlos:
 
-![Comparación única de visitantes](assets/metric-mcvid1.png)
+![Comparación de visitantes únicos](assets/metric-mcvid1.png)
 
 En este ejemplo, observe que cada página tiene el mismo número de visitantes únicos y de visitantes con un Experience Cloud ID. Sin embargo, el número total de visitantes únicos es mayor que el número total de visitantes con Experience Cloud ID. Puede crear una [métrica calculada](../c-calcmetrics/cm-overview.md) para averiguar qué páginas no están configurando el servicio de ID. Puede utilizar la siguiente definición:
 
