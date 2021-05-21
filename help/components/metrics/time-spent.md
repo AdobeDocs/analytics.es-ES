@@ -1,14 +1,14 @@
 ---
 title: Cálculo del tiempo empleado en Adobe Analytics
 description: Una página agregada de dimensiones y métricas de tiempo empleado.
+exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1557'
 ht-degree: 100%
 
 ---
-
 
 # Información general sobre el tiempo empleado
 
@@ -88,7 +88,7 @@ Respuesta: La diferencia es el denominador de la métrica:
 
 Como resultado, ambas métricas pueden arrojar resultados similares en el nivel de visita, pero distintos en el de visita individual.
 
-**P5: ¿Por qué el desglose de totales con [!UICONTROL Tiempo promedio invertido en el sitio] no coincide con el elemento de línea principal?**
+**Pregunta 5: ¿Por qué el desglose de totales con [!UICONTROL Tiempo promedio invertido en el sitio] no coincide con el elemento de línea principal?**
 
 R: Debido a que el [!UICONTROL tiempo promedio invertido en el sitio] depende de secuencias no interrumpidas de una dimensión y el informe interno no depende del informe externo al calcular estas ejecuciones.
 
