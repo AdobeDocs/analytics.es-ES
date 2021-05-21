@@ -1,14 +1,14 @@
 ---
 title: Días desde la última compra
 description: Número de días entre la visita actual y la última compra que realizaron.
+exl-id: 6f0d9d79-cf40-4de3-9d9f-9b1bc57f97b6
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '173'
 ht-degree: 100%
 
 ---
-
 
 # Días desde la última compra
 
