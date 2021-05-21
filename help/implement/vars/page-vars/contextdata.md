@@ -1,14 +1,14 @@
 ---
 title: contextData
 description: Las variables de datos de contexto permiten definir variables personalizadas en cada página que puedan leer las reglas de procesamiento.
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
-
 
 # contextData
 
@@ -57,12 +57,12 @@ s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
 ```
 
-## Incrementar eventos mediante variables de datos de contexto
+## Incremento de eventos mediante variables de datos de contexto
 
 Al crear reglas de procesamiento, puede asignar variables de datos de contexto a eventos.
 
 * Si una variable de datos de contexto contiene cualquier tipo de texto, el evento se incrementa en uno.
-* Si una variable de datos de contexto contiene un entero, el evento aumenta en esa cantidad de entero.
+* Si una variable de datos de contexto contiene un número entero, el evento se incrementa en esa cantidad total.
 
 ```js
 // Assigning this context data variable to an event increments it by one
