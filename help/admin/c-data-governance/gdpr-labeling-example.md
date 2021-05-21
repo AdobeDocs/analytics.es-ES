@@ -2,14 +2,14 @@
 description: Muestra ejemplos de cómo etiquetar datos para datos de visitas, solicitudes de acceso y solicitudes de eliminación
 title: Ejemplo de etiquetado
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
+exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '815'
 ht-degree: 100%
 
 ---
-
 
 # Ejemplo de etiquetado
 
