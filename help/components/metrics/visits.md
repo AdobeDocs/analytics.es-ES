@@ -1,14 +1,14 @@
 ---
 title: Visitas
 description: Secuencia de visitas de la página efectuadas en una sesión.
-translation-type: tm+mt
-source-git-commit: ee9868b53b93c1ffabdd48e83e38d3cafc9a4c2a
-workflow-type: tm+mt
+exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '656'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
-
 
 # Visitas
 
@@ -56,6 +56,6 @@ Una visita se contabiliza por cada periodo de tiempo involucrado. Por ejemplo, s
 
 Las visitas en el contexto de una dimensión (por ejemplo, [Canal de marketing](../dimensions/marketing-channel.md)) muestran el número de visitas que contenían un elemento de dimensión en particular en cualquier momento. Con frecuencia existen varios elementos de dimensión en distintas visitas individuales en la misma visita. Normalmente no tiene sentido intentar sumar visitas que informan sobre elementos de dimensión.
 
-## Visita todos los Visitantes en Data Warehouse
+## Visitas de todos los visitantes en Data Warehouse
 
-La métrica &#39;Visitas - Todos los Visitantes está disponible en Data Warehouse además de la métrica &#39;Visitas&#39;. La métrica &#39;Visitas: todos los Visitantes es comparable a la métrica &#39;Visitas&#39; de otras herramientas de Analytics. La métrica &quot;Visitas&quot; de la Data Warehouse excluye los visitantes que no tienen cookies persistentes. Adobe recomienda utilizar &#39;Visitas: todos los Visitantes en solicitudes de Data Warehouse donde se desean visitas como métrica.
+La métrica Visitas - Todos los visitantes está disponible en Data Warehouse además de la métrica Visitas. La métrica Visitas - Todos los visitantes es comparable a la métrica Visitas de otras herramientas de Analytics. La métrica Visitas de Data Warehouse excluye a los visitantes que no tienen cookies persistentes. Adobe recomienda usar Visitas - Todos los visitantes en solicitudes de Data Warehouse en las que se desean ver visitas como métricas.
