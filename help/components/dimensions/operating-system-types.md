@@ -1,23 +1,23 @@
 ---
 title: Tipos de sistemas operativos
 description: El sistema operativo independientemente de la versión.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '112'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-
 # Tipos de sistemas operativos
 
-La dimensión &#39;Tipos de sistema operativo&#39; muestra el sistema operativo general que utiliza el visitante, independientemente de versiones específicas. Esta dimensión es útil para comprender no sólo qué sistema operativo y versión específicos son los más comunes, sino también qué visitantes de plataforma del sistema operativo suelen utilizar.
+La dimensión &quot;Tipos de sistemas operativos&quot; muestra el sistema operativo global que el visitante utilizó, independientemente de versiones específicas. Esta dimensión es útil para comprender no solo qué sistema operativo y versión específicos son los más comunes, sino también qué plataforma de sistema operativo utilizan los visitantes habituales.
 
-## Rellenar esta dimensión con datos
+## Rellene esta dimensión con datos
 
-Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El valor de búsqueda se basa en el encabezado `User-Agent` HTTP de las solicitudes de imagen. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada.
+Esta dimensión hace referencia a una tabla de búsqueda interna de Adobe. El valor de búsqueda se basa en el encabezado HTTP `User-Agent` de las solicitudes de imagen. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada.
 
 ## Elementos de dimensión
 
-Los elementos de dimensión incluyen el tipo de sistemas operativos utilizados. Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
+Los elementos de dimensión incluyen el tipo de sistemas operativos utilizados. Los ejemplos incluyen `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"` y `"Apple iOS"`.
