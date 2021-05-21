@@ -2,16 +2,16 @@
 description: Proyectos “Solo consulta” en Workspace
 keywords: Proyectos de solo de vista
 title: Proyectos de solo de vista
-feature: Curate and Share
+feature: Depurar y compartir
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 98%
+exl-id: 53372247-6902-4c7f-9132-38a1d453186c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '251'
+ht-degree: 100%
 
 ---
-
 
 # Proyectos de solo de vista
 
@@ -25,13 +25,13 @@ Las interacciones desactivadas en un proyecto de Solo consulta incluyen:
 
 * Barra izquierda oculta
 * Grupo de informes
-* Intervalo de fechas del calendario del panel. Nota: Si desea otorgar el control del calendario a los destinatarios, agregue un [filtro desplegable con intervalos de fechas](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
+* Intervalo de fechas del calendario del panel. Nota: Si desea otorgar el control del calendario a los destinatarios, agregue un [filtro desplegable con intervalos de fechas](https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html).
 * Filtro improvisado
 * N.º de filas visibles improvisado
 * Configuración de fila, columna o visualización improvisada
 * Segmentos de panel
 * Menús Editar, Insertar y Componente
-* Sugerencias del espacio de trabajo
+* Sugerencias de Workspace
 
 ## Interacciones habilitadas
 
