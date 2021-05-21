@@ -2,14 +2,14 @@
 description: El nuevo sistema Alertas inteligentes permite un control más granular sobre las alertas e integra la detección de anomalías en el sistema de alerta.
 title: Alertas inteligentes
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
-translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: tm+mt
+exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Alertas inteligentes
 
@@ -76,8 +76,7 @@ Los porcentajes de umbral son desviaciones estándar. Por ejemplo, 95 % = 2 des
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>P: ¿Se puede obtener una tabla de los “valores esperados” que forman la línea de puntos, o hay alguna forma de saber cuáles son esos valores? </b> </p> </td> 
-   <td colname="col2"> <p>No en Workspace, pero es posible en el Report Builder (consulte este vídeo acerca de <a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Detección de anomalías en el Report Builder </a>). </p> <p>Tenga en cuenta que el Report Builder emplea métodos de detección de anomalías menos sofisticados. Utiliza un período de prueba fijo de 30 días, con un intervalo fijo del 95 %. </p> </td> 
+   <td colname="col2"> <p>No en Workspace, pero es posible en el Report Builder (consulte este vídeo acerca de <a href="https://docs.adobe.com/content/help/es-ES/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Detección de anomalías en el Report Builder </a>). </p> <p>Tenga en cuenta que el Report Builder emplea métodos de detección de anomalías menos sofisticados. Utiliza un periodo de formación de 30 días fijo, con un intervalo fijo del 95 %. </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
