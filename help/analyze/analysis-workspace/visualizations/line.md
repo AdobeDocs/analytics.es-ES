@@ -2,16 +2,16 @@
 description: Utilizar la visualización de líneas para representar conjuntos de datos de tendencias (basados en el tiempo)
 title: Líneas
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-feature: Visualizations
+feature: Visualizaciones
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 65%
+exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '512'
+ht-degree: 100%
 
 ---
-
 
 # Líneas
 
@@ -39,11 +39,11 @@ En **[!UICONTROL Configuración de la visualización]** > **[!UICONTROL Superpos
 
 ## Mostrar superposición de la línea de tendencia
 
-En **[!UICONTROL Configuración de visualización]** > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar línea de tendencia]**, puede elegir agregar una regresión o mover una línea de tendencia promedio a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
+En **[!UICONTROL Configuración de la visualización]** > **[!UICONTROL Superposiciones]** > **[!UICONTROL Mostrar línea de tendencia]**, puede elegir añadir una línea de tendencia de regresión o promedio móvil a la serie de líneas. Las líneas de tendencia ayudan a mostrar un patrón más claro en los datos.
 
 >[!TIP]
 >
->Se recomienda aplicar las líneas de tendencia a datos que no incluyan fechas actuales (datos parciales) o futuras, ya que estas distorsionarán la línea de tendencia. Sin embargo, si necesita incluir fechas futuras, elimine ceros de los datos para evitar que se distorsione durante esos días. Para ello, vaya a la tabla de fuente de datos de la visualización, elija la columna de métrica y, a continuación, habilite **[!UICONTROL Configuración de columna]** > **[!UICONTROL Interpretar cero como sin valor]**.
+>Se recomienda aplicar las líneas de tendencia a datos que no incluyan fechas de hoy (datos parciales) o futuras, ya que estas distorsionarán la línea de tendencia. Sin embargo, si necesita incluir fechas futuras, quite ceros de los datos para evitar que se distorsione durante esos días. Para ello, vaya a la tabla de fuente de datos de la visualización, elija la columna de métrica y, a continuación, habilite **[!UICONTROL Configuración de columna]** > **[!UICONTROL Interpretar cero como sin valor]**.
 
 ![Línea de tendencia lineal](assets/show-linear-trendline.png)
 
@@ -56,4 +56,4 @@ Todas las líneas de tendencia del modelo de regresión se ajustan con los míni
 | Exponencial | Crea una línea curva y resulta útil cuando los datos suben o bajan a tasas de crecimiento constantes. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a + e^(b * x)` |
 | Power | Crea una línea curva y resulta útil para conjuntos de datos que comparan mediciones que aumentan a una velocidad específica. Esta opción no debe utilizarse si los datos contienen valores cero o negativos. Ecuación: `y = a * x^b` |
 | Valores cuadráticos | Busca el mejor ajuste para un conjunto de datos con forma de parábola (cóncava arriba o abajo). Ecuación: `y = a + b * x + c * x^2` |
-| Promedio móvil | Crea una línea de tendencia suave basada en un conjunto de promedios. Un promedio móvil utiliza un número específico de puntos de datos (determinado por la selección &quot;Periodos&quot;), los promedia y utiliza el promedio como punto en la línea. Algunos ejemplos son un promedio móvil de 7 días o un promedio móvil de 4 semanas. |
+| Promedio móvil | Crea una línea de tendencia suave basada en un conjunto de promedios. Un promedio móvil utiliza una cantidad determinada de puntos de datos (definida por su selección de periodos), los promedia y utiliza el promedio como punto en la línea. Algunos ejemplos son un promedio móvil de 7 días o un promedio móvil de 4 semanas. |
