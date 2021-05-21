@@ -1,14 +1,14 @@
 ---
 title: Vínculo de descarga
 description: Nombre del vínculo de descarga.
+exl-id: 078014a2-1f09-4177-9575-b44c5da25816
 translation-type: ht
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '184'
 ht-degree: 100%
 
 ---
-
 
 # Vínculo de descarga
 
