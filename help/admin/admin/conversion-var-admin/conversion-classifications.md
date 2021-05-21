@@ -1,14 +1,14 @@
 ---
 description: Las clasificaciones sirven para clasificar los valores en grupos e informar a nivel del grupo. Por ejemplo, puede clasificar todas las campañas de búsqueda pagada en una categoría como términos de música pop e informar sobre el éxito de esa categoría en relación a métricas como Instancias (pulsaciones) y la conversión a eventos de éxito.
 title: Clasificaciones de conversión
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: b4855000-adf3-4e3b-af36-f4803383126d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '551'
+ht-degree: 100%
 
 ---
-
 
 # Clasificaciones de conversión
 
@@ -20,7 +20,7 @@ Después de activar las clasificaciones, utilice el [Importador de clasificacion
 
 >[!WARNING]
 >
->Cambiar el nombre de una clasificación puede causar problemas con las reglas existentes creadas en el creador [de reglas](/help/components/classifications/crb/classification-rule-builder.md)de clasificación. Si cambia el nombre de una clasificación que tiene reglas de clasificación, asegúrese de corregir cada regla para que señale a la clasificación con el nombre cambiado.
+>Cambiar el nombre de una clasificación puede causar problemas con las reglas existentes creadas en el [Generador de reglas de clasificación](/help/components/classifications/crb/classification-rule-builder.md). Si cambia el nombre de una clasificación que tiene reglas de clasificación, asegúrese de corregir cada regla para que señale a la clasificación con el nombre cambiado.
 
 ## Descripciones de clasificaciones de conversión
 
