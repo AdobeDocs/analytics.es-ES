@@ -1,14 +1,14 @@
 ---
 title: cleanStr
 description: Eliminación o sustitución de todos los caracteres innecesarios de una cadena.
+exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 translation-type: ht
-source-git-commit: c1a19f79eba3e992747a14146ca93306f84b355b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '529'
 ht-degree: 100%
 
 ---
-
 
 # Complemento de Adobe: cleanStr
 
