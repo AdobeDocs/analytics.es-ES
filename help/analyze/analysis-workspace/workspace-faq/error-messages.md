@@ -1,16 +1,16 @@
 ---
 description: Lista de mensajes de error en Adobe Analysis Workspace y componentes relacionados
 title: Mensajes de error comunes en Analysis Workspace
-feature: Workspace Basics
+feature: Conceptos básicos de Workspace
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '451'
+exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '448'
 ht-degree: 100%
 
 ---
-
 
 # Mensajes de error frecuentes
 
@@ -26,4 +26,3 @@ Puede encontrar errores al interactuar con Analysis Workspace que también afect
 | [!UICONTROL La solicitud es demasiado compleja.] | La solicitud de informe es demasiado grande y no se puede ejecutar. Los contribuyentes a este error son los tiempos de espera debido al tamaño de la solicitud, demasiados elementos coincidentes en un segmento o filtro de búsqueda, demasiadas métricas incluidas, combinaciones incompatibles de dimensiones y métricas, etc. | Simplifique la solicitud eliminando algunas columnas o filas de la tabla, o considere la posibilidad de dividir la tabla en solicitudes independientes. |
 | [!UICONTROL Actualmente, esta dimensión no admite modelos de atribución no predeterminados.] | No se admite la atribución no predeterminada para la dimensión que está utilizando. | Reemplace la dimensión de la tabla por una que sea compatible con [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL Su solicitud falló como resultado de demasiadas columnas o filas preconfiguradas.] | La tabla tiene demasiadas celdas improvisadas (columnas de fila *). | Elimine columnas o filas de la tabla, o bien considere la posibilidad de dividir la tabla en solicitudes independientes. |
-
