@@ -1,14 +1,14 @@
 ---
 title: Referente
 description: Dirección URL en la que se encontraba un visitante antes de hacer clic para ir al sitio.
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
-workflow-type: tm+mt
+exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '448'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Referente
 
@@ -24,7 +24,7 @@ El mismo informe puede mostrar diferentes resultados entre Analysis Workspace y 
 
 Esta dimensión se debe configurar en la interfaz de Analytics y necesita datos en solicitudes de imagen.
 
-* Dentro de la implementación, esta dimensión recupera datos de la [`r`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable JavaScript `document.referrer` en el explorador. Puede utilizar la anulación de la [`referrer`](/help/implement/vars/page-vars/referrer.md) variable para configurarla manualmente. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de consulta `r` en las solicitudes de imágenes.
+* Dentro de la implementación, esta dimensión recupera datos de la [`r`cadena de consulta](/help/implement/validate/query-parameters.md) en solicitudes de imagen. AppMeasurement recopila estos datos mediante la variable JavaScript `document.referrer` en el explorador. Puede utilizar la anulación de la variable [`referrer`](/help/implement/vars/page-vars/referrer.md) para configurarla manualmente. Si utiliza una biblioteca de AppMeasurement (por ejemplo, mediante Adobe Experience Platform Launch), esta dimensión funciona de forma predeterminada. Si utiliza un método de recopilación de datos fuera de AppMeasurement (por ejemplo, a través de la API), asegúrese de incluir el parámetro de cadena de consulta `r` en las solicitudes de imágenes.
 * En de la interfaz de Analytics, debe configurar los [filtros URL internos](/help/admin/admin/internal-url-filter-admin.md) del grupo de informes. Si no se configuran los filtros de URL internos, puede incluir direcciones URL internas o evitar que aparezcan direcciones URL externas.
 
 ## Elementos de dimensión
