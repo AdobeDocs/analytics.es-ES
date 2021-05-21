@@ -1,14 +1,14 @@
 ---
 title: Informes en tiempo real en Adobe Analytics
 description: Aprenda a extraer informes en tiempo real en Adobe Analytics, dirigidos a usuarios que están más familiarizados con Google Analytics.
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '979'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-
 
 # Informes en tiempo real
 
@@ -70,7 +70,7 @@ Los eventos en tiempo real indican los eventos que están teniendo una mayor fre
 
 >[!NOTE]
 >
->Al utilizar eventos personalizados en informes en tiempo real, el elemento de dimensión debe definirse en la misma visita que el evento personalizado. Por ejemplo, si se visualiza un evento personalizado del tipo “Registros” para la dimensión “Dominio de referencia”, no se devuelve ningún dato sin una implementación adicional. Dado que el dominio de referencia solo aparece en la primera visita y que un evento personalizado suele aparecer más adelante durante esa visita, los datos no se pueden asociar en los informes en tiempo real. Estos datos están disponibles con Analysis Workspace mediante la latencia de procesamiento estándar, que suele ser de entre treinta y noventa minutos.
+>Cuando se utilizan eventos personalizados en informes en tiempo real, el elemento de dimensión debe definirse en la misma visita que el evento personalizado. Por ejemplo, si se visualiza un evento personalizado del tipo “Registros” para la dimensión “Dominio de referencia”, no se devuelve ningún dato sin una implementación adicional. Dado que el dominio de referencia solo aparece en la primera visita y que un evento personalizado suele aparecer más adelante durante esa visita, los datos no se pueden asociar en los informes en tiempo real. Estos datos están disponibles con Analysis Workspace mediante la latencia de procesamiento estándar, que suele ser de entre treinta y noventa minutos.
 
 ## Conversiones en tiempo real
 
