@@ -1,14 +1,14 @@
 ---
 title: Vistas del producto
 description: Número de vistas a páginas de productos.
+exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
 translation-type: ht
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '94'
 ht-degree: 100%
 
 ---
-
 
 # Vistas del producto
 
