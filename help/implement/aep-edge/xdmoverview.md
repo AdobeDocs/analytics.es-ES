@@ -1,14 +1,14 @@
 ---
 title: Uso de datos XDM con Analytics
-description: 'Información general sobre el uso de datos XDM de Experience Platform en Adobe Analytics '
-translation-type: tm+mt
-source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
-workflow-type: tm+mt
+description: Información general sobre el uso de datos XDM de Experience Platform en Adobe Analytics
+exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # Uso de datos perimetrales de Adobe Experience Platform Edge con Analytics
 
@@ -25,7 +25,7 @@ La asignación automática se basa en un [esquema](https://docs.adobe.com/conten
 
 ## Asignación manual
 
-[](xdm-manual.md)La asignación manual de datos XDM a Analytics se basa en variables de [datos de contexto de Analytics](../vars/page-vars/contextdata.md). Estas variables se colocan en objetos JSON que corresponden a esquemas aplicables. Generalmente, el equipo de desarrollo agrega datos de contexto tras la implementación y, a continuación, los administradores establecen [reglas de procesamiento](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) para aplicar esos datos a los grupos de informes especificados.
+[La asignación manual de datos XDM a Analytics](xdm-manual.md) se basa en variables de [datos de contexto de Analytics](../vars/page-vars/contextdata.md). Estas variables se colocan en objetos JSON que corresponden a esquemas aplicables. Generalmente, el equipo de desarrollo agrega datos de contexto tras la implementación y, a continuación, los administradores establecen [reglas de procesamiento](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) para aplicar esos datos a los grupos de informes especificados.
 
 ## Configuración
 
