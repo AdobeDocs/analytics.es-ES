@@ -1,18 +1,18 @@
 ---
 title: 'Paneles de Adobe Analytics: Información general'
 description: Documentación del producto e instrucciones para los paneles de Adobe Analytics
-feature: Analytics Dashboards
+feature: Paneles de Analytics
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 97%
+exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '208'
+ht-degree: 100%
 
 ---
 
-
-# [!UICONTROL Paneles] de Adobe Analytics : Información general
+# [!UICONTROL Paneles] de Adobe Analytics: Información general
 
 Los **[!UICONTROL paneles]** de Adobe Analytics proporcionan datos de Adobe Analytics en cualquier momento y lugar. La aplicación permite que los usuarios accedan mediante dispositivos móviles a informes de valoración intuitivos. Los informes de valoración son un conjunto de métricas clave y de otros componentes que se presentan en un diseño en mosaico. Los mosaicos se pueden pulsar para obtener desgloses e informes de tendencias más detallados. La aplicación móvil es compatible con los sistemas operativos iOS y Android.
 
