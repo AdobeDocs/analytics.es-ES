@@ -2,14 +2,14 @@
 description: El cuadro de diálogo Administración de datos en Herramientas de administración proporciona una descripción general de los grupos de informes que se han configurado para el control de datos, si se han asignado a una organización de Experience Cloud y si se ha dispuesto una política de retención de datos para este grupo de informes.
 title: Consulta o administración de la configuración de control de datos del grupo de informes
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
+exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '555'
 ht-degree: 100%
 
 ---
-
 
 # Consulta o administración de la configuración de control de datos del grupo de informes
 
@@ -65,4 +65,3 @@ El cuadro de diálogo Administración de datos en Herramientas de administració
   </tr> 
  </tbody> 
 </table>
-
