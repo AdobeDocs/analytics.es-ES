@@ -2,20 +2,20 @@
 description: Al crear una integración con un socio de Adobe a través de conectores de datos, Adobe puede insertar información sobre la nueva comercialización u otro tipo de datos en una cuenta de FTP, que el propio usuario o el socio pueden descargar.
 keywords: ftp;sftp
 title: Data Connectors
-translation-type: tm+mt
-source-git-commit: d5840838b092eb19165d4b716e808a1d2d1fc4dc
-workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 91%
+exl-id: 69225b84-b292-4b16-a5c2-b618c6cd3191
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '142'
+ht-degree: 100%
 
 ---
-
 
 # Data Connectors
 
 >[!IMPORTANT]
 >
->Finalizaremos la vida útil de la tecnología del conector de datos de Adobe a mediados y finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
+>La vida útil de la tecnología de Adobe Data Connector finalizará de mediados a finales de 2021. [Más información...](/help/import/data-connectors/data-connectors-eol.md)
 
 Al crear una integración con un socio de Adobe a través de [conectores de datos](https://www.adobeexchange.com/experiencecloud.html), Adobe puede insertar información sobre la nueva comercialización u otro tipo de datos en una cuenta de FTP, que el propio usuario o el socio pueden descargar.
 
