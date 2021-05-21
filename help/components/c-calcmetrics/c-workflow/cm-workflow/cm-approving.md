@@ -2,11 +2,14 @@
 description: En el Administrador de métricas calculadas, puede configurar un flujo de trabajo que incluya la aprobación de métricas en diversos niveles de aplicación y para departamentos o grupos específicos.
 title: Aprobar métricas calculadas
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '144'
+ht-degree: 100%
 
 ---
-
 
 # Aprobar métricas calculadas
 
@@ -22,4 +25,3 @@ Así es como se marca una métrica calculada como aprobada:
 
 1. También puede hacer clic en **[!UICONTROL Desaprobar]** para quitar esta métrica de la lista de aprobadas.
 1. Y puede filtrar las métricas aprobadas mediante **[!UICONTROL Mostrar filtros]** > **[!UICONTROL Otros filtros]** > **[!UICONTROL Aprobado]**.
-
