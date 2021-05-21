@@ -1,14 +1,14 @@
 ---
 title: Nuevos compromisos
 description: Número de veces que se establece un canal de primer contacto.
+exl-id: a419d048-9715-4d7b-9c24-d34129755371
 translation-type: ht
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '148'
 ht-degree: 100%
 
 ---
-
 
 # Nuevos compromisos
 
