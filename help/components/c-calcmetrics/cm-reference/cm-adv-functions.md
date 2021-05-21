@@ -2,14 +2,14 @@
 description: Seleccione Mostrar avanzadas para acceder a estas funciones en la lista desplegable Funciones.
 title: 'Referencia: funciones avanzadas'
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
+exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
 
 ---
-
 
 # Referencia: funciones avanzadas
 
@@ -19,7 +19,7 @@ Seleccione **[!UICONTROL Mostrar avanzadas]** para acceder a estas funciones en 
 
 Una función de tabla es una en la que el resultado es el mismo para cada fila de la tabla. Una función de fila es una en la que el resultado es diferente para cada fila de la tabla.
 
-## ¿Qué significa el parámetro Include-Zeros?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## ¿Qué significa el parámetro Include-Zeros? {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 Indica si se incluyen ceros en el cálculo. En algunas ocasiones cero significa &quot;nada&quot;, pero en ocasiones es importante.
 
@@ -56,7 +56,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimensión* | Dimensión de la que se quiere obtener el número aproximado de elementos distintos. |
 
-### Caso práctico de ejemplo  {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### Caso práctico de ejemplo {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 El número aproximado de elementos distintos (eVar del ID del cliente) es un caso práctico común para esta función.
 
@@ -68,11 +68,11 @@ Así es como se podría usar la métrica “Clientes aproximados” en un inform
 
 ![](assets/approx-customers.png)
 
-### Se excedió la cantidad de valores exclusivos  {#section_9C583858A9F94FF7BA054D1043194BAA}
+### Se excedió la cantidad de valores exclusivos {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 Igual que Count() y RowCount(), Approximate Count Distinct() está sujeto a [límites de “valores exclusivos excedidos”](https://docs.adobe.com/content/help/es-ES/analytics/technotes/low-traffic.html). Si una dimensión alcanza el límite de “valores exclusivos excedidos” en un mes en concreto, el valor se cuenta como un elemento de dimensión.
 
-### Comparación de funciones de recuento  {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### Comparación de funciones de recuento {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 La función Approximate Count Distinct() es una mejora de las funciones Count() y RowCount() porque la métrica que se crea puede usarse en cualquier informe dimensional para representar un número aproximado de elementos para una dimensión distinta. Por ejemplo, un recuento de los ID de cliente que se usan en un informe sobre tipos de dispositivos móviles.
 
@@ -727,4 +727,3 @@ Devuelve la probabilidad de que la fila actual pueda verse por casualidad en la 
 >[!NOTE]
 >
 >Asume que los valores se distribuyen de forma normal.
-
