@@ -1,19 +1,19 @@
 ---
 title: Dispositivos únicos
 description: Número de dispositivos únicos.
-translation-type: tm+mt
-source-git-commit: 31e97d3797697aa581f96c7429c728e055ab492a
-workflow-type: tm+mt
+exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # Dispositivos únicos
 
-La métrica &quot;Dispositivos únicos&quot; es una métrica de análisis [](../cda/overview.md) entre dispositivos que cuenta el número de dispositivos posteriores a la vinculación.
+La métrica “Dispositivos únicos” es una métrica de [Análisis entre dispositivos](../cda/overview.md) que cuenta el número de dispositivos posvinculados.
 
 ## Cálculo de esta métrica
 
-Para todas las [personas](people.md), cuente el número de dispositivos por persona. Esta métrica generalmente coincide con visitantes [](unique-visitors.md) únicos en un grupo de informes que no es CDA. Pueden producirse diferencias cuando un dispositivo compartido se asigna a varias personas. En este escenario, se cuenta un visitante único mientras se cuentan varios dispositivos únicos.
+Para todas las [Personas](people.md), cuente el número de dispositivos por persona. Esta métrica suele coincidir con [Visitantes únicos](unique-visitors.md) en un grupo de informes que no es de CDA. Pueden producirse diferencias cuando un dispositivo compartido se asigna a varias personas. En esta situación, se cuenta un visitante único mientras se cuentan varios dispositivos únicos.
