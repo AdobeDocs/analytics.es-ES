@@ -1,14 +1,14 @@
 ---
 title: Semana
 description: La semana en la que se produjo la métrica.
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: 944ec843-998c-473f-b8e6-16cf126745b4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '141'
+ht-degree: 100%
 
 ---
-
 
 # Semana
 
